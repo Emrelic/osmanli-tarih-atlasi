@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+# Kaynak metinleri (zh.wikisource.org tam sayfalari curl ile cekildi, alintilar sayfa metninde birebir aranarak yazildi)
+WS = 'zh.wikisource.org/wiki/'
+
+XW7 = "Ouyang Xiu, Xin Wudai shi, juan 7 «Tang Fei-di ben ji» (%s新五代史/卷07, okundu): 「丁酉，契丹立晉。閏月甲子，楊光遠殺張敬達，……辛巳，皇帝崩。〈年五十一，帝自焚死，晉高祖命葬其燼骨於徽陵域中。〉」" % WS
+XW8 = "Ouyang Xiu, Xin Wudai shi, juan 8 «Jin ben ji» (%s新五代史/卷08, okundu)" % WS
+XW8_16 = XW8 + ": 「十一月丁酉，皇帝即位，……國號晉。以幽、涿、薊、檀、順、瀛、莫、蔚、朔、雲、應、新、媯、儒、武、寰州入于契丹。」"
+XW8_LY = XW8 + ": 「己卯，次河陽，……辛巳，至自太原。盧文紀、姚顗罷。甲申，大赦，殺張延朗、劉延朗」"
+XW8_CAP = XW8 + ": 「冬十月庚辰，升汴州為東京，以洛陽為西京，雍州為晉昌軍。」"
+XW9 = "Ouyang Xiu, Xin Wudai shi, juan 9 «Jin Chu-di ben ji» (%s新五代史/卷09, okundu): 「十二月己未，……壬戌，奉國都指揮使王清及契丹戰于滹沱，敗績，死之。杜威、李守貞、張彥澤以其軍叛降于契丹。……壬申，張彥澤犯京師，殺開封尹桑維翰。契丹滅晉。」" % WS
+ZZ286 = "Sima Guang, Zizhi tongjian, juan 286 (Hu Sanxing notlu; %s資治通鑒_(胡三省音注)/卷286, okundu)" % WS
+ZZ286_KF = ZZ286 + ": 「春，正月，丁亥朔，百官遙辭晉主於城北，……迎契丹主，伏路側請罪。」"
+ZZ286_LY = ZZ286 + ": 「契丹主以前燕京留守劉晞爲西京留守」; 「契丹遣契丹將述軋、……奚王拽剌、……勃海將高謨翰戍洛陽」"
+ZZ287 = "Sima Guang, Zizhi tongjian, juan 287 (Hu Sanxing notlu; %s資治通鑒_(胡三省音注)/卷287, okundu)" % WS
+ZZ287_LY = ZZ287 + ": 「丙辰，帝至洛陽，入居宮中；汴州百官奉表來迎。」"
+ZZ287_KF = ZZ287 + ": 「甲子，帝至大梁，晉之藩鎭相繼來降。」"
+ZZ287_HAN = ZZ287 + ": 「戊辰，帝下詔大赦。……復以汴州爲東京，〈契丹廢東京爲汴州，見上卷是年正月。〉改國號曰漢，仍稱天福年」"
+XW10 = "Ouyang Xiu, Xin Wudai shi, juan 10 «Han ben ji» (%s新五代史/卷10, okundu): 「二月戊辰，河東行軍司馬張彥威等上牋勸進。辛未，皇帝即位，稱天福十二年。」" % WS
+XW11 = "Ouyang Xiu, Xin Wudai shi, juan 11 «Zhou ben ji» (%s新五代史/卷11, okundu): 「廣順元年春正月丁卯，皇帝即位，大赦，改元，國號周。……戊寅，漢劉崇自立于太原。」" % WS
+XW12_960 = "Ouyang Xiu, Xin Wudai shi, juan 12 «Zhou Gong-di ben ji» (%s新五代史/卷12, okundu): 「七年春正月甲辰，遜于位。宋興。」" % WS
+XW12_959 = "Ouyang Xiu, Xin Wudai shi, juan 12 «Zhou Shizong ben ji» (%s新五代史/卷12, okundu): 「六年……夏四月壬辰，取乾寧軍。辛丑，取益津關，以為霸州。癸卯，取瓦橋關，以為雄州。……五月乙巳朔，取瀛州。」" % WS
+ZZ278 = "Sima Guang, Zizhi tongjian, juan 278 (Hu Sanxing notlu; %s資治通鑒_(胡三省音注)/卷278, okundu): 「蜀將吏勸蜀王知祥稱帝；己巳，知祥卽皇帝位于成都。」" % WS
+XW64 = "Ouyang Xiu, Xin Wudai shi, juan 64 «Hou Shu shi jia» (%s新五代史/卷64, okundu): 「明年閏正月，知祥乃即皇帝位，國號蜀。」" % WS
+SS1 = "Tuotuo vd., Song shi, juan 1 «Taizu ben ji 1» (%s宋史/卷001, okundu): 「建隆元年春正月乙巳，大赦，改元，定有天下之號曰宋。」" % WS
+SS2 = "Tuotuo vd., Song shi, juan 2 «Taizu ben ji 2» (%s宋史/卷002, okundu): 「乾德三年春正月癸酉朔……甲戌，王全斌克劍門，……乙酉，蜀主孟昶降。得州四十五、縣一百九十八、户五十三萬四千三十有九。」" % WS
+SS3 = "Tuotuo vd., Song shi, juan 3 «Taizu ben ji 3» (%s宋史/卷003, okundu): 「冬十月己亥朔……十一月辛未，……乙未，曹彬克昇州，俘其國主煜，江南平，凡得州十九、軍三、縣一百八十、戶六十五萬五千六十。」" % WS
+SS4_WY = "Tuotuo vd., Song shi, juan 4 «Taizong ben ji 1» (%s宋史/卷004, okundu): 「夏四月乙卯朔……五月乙酉，赦漳、泉，仍給復一年。錢俶獻其兩浙諸州，凡得州十三、軍一、縣八十六、戶五十五萬六百八十、兵一十一萬五千三十六。」" % WS
+SS4_BH = "Tuotuo vd., Song shi, juan 4 «Taizong ben ji 1» (%s宋史/卷004, okundu): 「五月己卯朔……癸未，進攻，……是夜，繼元遣使納款。甲申，繼元降，北漢平，凡得州十、縣四十、戶三萬五千二百二十。」; 「戊子，以榆次縣為新并州。」; 「丙申，幸城北，御沙河門樓。盡徙餘民于新城，遣使督之，既出，即命縱火。」" % WS
+SS18 = "Tuotuo vd., Song shi, juan 18 «Zhezong ben ji 2» (%s宋史/卷018, okundu): 「九月庚子朔……己未，青唐酋隴拶以城降。……閏月……以青唐爲鄯州、隴右節度。邈川爲湟州」" % WS
+SS19 = "Tuotuo vd., Song shi, juan 19 «Huizong ben ji 1», Chongning 3 (%s宋史/卷019, okundu): 「夏四月乙卯，復鄯州，建為隴右都護府。」; 「五月……甲申，改鄯州為西寧州，仍為隴右節度。」" % WS
+SS492 = "Tuotuo vd., Song shi, juan 492 «Waiguo 8: Tubo Gusiluo» (%s宋史/卷492, okundu): 「元符二年七月，贍取邈川。八月，瞎征自青唐脫身來降。……九月，贍軍至青唐，隴拶出降。以邈川為湟州，青唐為鄯州。」; 「閏九月，……贍棄青唐歸」; 「崇寧元年，卒。三年，王厚復湟、鄯。」; 「明道初，……廝囉集兵殺逋奇，徙居青唐。」" % WS
+SS23 = "Tuotuo vd., Song shi, juan 23 «Qinzong ben ji», Jingkang 2 (%s宋史/卷023, okundu): 「三月辛卯朔，帝在青城。丁酉，金人立張邦昌為楚帝。」" % WS
+SS23_TY = "Tuotuo vd., Song shi, juan 23 «Qinzong ben ji», Jingkang 1 (%s宋史/卷023, okundu): 「九月丙寅，金人陷太原，執安撫使張孝純，副都總管王稟、通判方笈皆死之。」(八月甲午朔)" % WS
+SS24 = "Tuotuo vd., Song shi, juan 24 «Gaozong ben ji 1» (%s宋史/卷024, okundu): 「三月丁酉，金人立張邦昌為帝，稱大楚。」; 「夏四月，……癸亥，邦昌尊元祐皇后為宋太后」; 「五月庚寅朔，帝登壇受命，……即位於府治。改元建炎。」" % WS
+SS475_BC = "Tuotuo vd., Song shi, juan 475 «Pan chen 1: Zhang Bangchang» (%s宋史/卷475, okundu): 「金人奉冊寶至，邦昌北向拜舞受冊，即偽位，僭號大楚，擬都金陵。」; 「邦昌尋遣謝克家獻大宋受命寶，復降手書請元祐皇后垂簾聽政，以俟復辟。」; 「異姓建邦四十餘日」(Li Gang)" % WS
+SS475_LY = "Tuotuo vd., Song shi, juan 475 «Pan chen 1: Liu Yu» (%s宋史/卷475, okundu): 「四年七月丁卯，金人遣大同尹高慶裔、知制誥韓昉册豫爲皇帝，國號大齊，都大名府。」; 「九月戊申，豫即偽位，赦境內，奉金正朔，稱天會八年。……王瓊爲汴京留守」; 「四月丙寅，豫遷都汴。」; 「十一月丙午，廢豫爲蜀王。」" % WS
+SS28 = "Tuotuo vd., Song shi, juan 28 «Gaozong ben ji 5», Shaoxing 7 (%s宋史/卷028, okundu): 「冬十月庚寅朔……閏月癸亥……十一月丙申，……丁未，金帥撻懶、兀朮入汴京，執偽齊劉豫，廢為蜀王。」" % WS
+JS77 = "Tuotuo vd., Jin shi, juan 77 «Liu Yu» (%s金史/卷77, okundu): 「天會十五年，詔廢齊國，降封豫為蜀王。豫稱大號凡八年。於是，置行台尚書省於汴」" % WS
+SS485 = "Tuotuo vd., Song shi, juan 485 «Waiguo 1: Xia guo shang» (%s宋史/卷485, okundu): 「乾興元年……明年，攻慶州柔遠砦，……德明城懷遠鎮為興州以居。」" % WS
+SS488 = "Tuotuo vd., Song shi, juan 488 «Waiguo 4: Dali» (%s宋史/卷488, okundu): 「熙寧九年，遣使貢金裝碧玕山、氊罽、刀劍、犀皮甲鞍轡。」; 「七年二月，至京師，貢馬三百八十匹……制以其王段和譽為金紫光祿大夫、檢校司空、雲南節度使、上柱國、大理國王。」" % WS
+SS491 = "Tuotuo vd., Song shi, juan 491 «Waiguo 7: Ding'an guo» (%s宋史/卷491, okundu)" % WS
+YS4 = "Song Lian vd., Yuan shi, juan 4 «Shizu ben ji 1» (%s元史/卷004, okundu): 「九月壬寅，師次忒剌，……冬十月丙午，過大渡河，……十二月丙辰，軍薄大理城。初，大理主段氏微弱，國事皆決於高祥、高和兄弟。是夜，祥率眾遁去，……帝既入大理，……癸亥，獲高祥，斬于姚州。留大將兀良合帶戍守」" % WS
+SS43 = "Tuotuo vd., Song shi, juan 43 «Lizong ben ji 3» (%s宋史/卷043, okundu): 寶祐元年 takvim çapası: 「冬十月丙午朔」, 「十一月丙子朔」 (Song ay başları; Yuan shi 4'teki 冬十月丙午 ile örtüşür)" % WS
+YS1 = "Song Lian vd., Yuan shi, juan 1 «Taizu ben ji» (%s元史/卷001, okundu): 「六月，金遣完顏合周、奧屯阿虎來請和。……是月，夏主李晛降。」; 「秋七月壬午，不豫。己丑，崩于薩里川哈老徒之行宮。」" % WS
+YS2 = "Song Lian vd., Yuan shi, juan 2 «Taizong ben ji», 5. yıl (%s元史/卷002, okundu): 「二月，幸鐵列都之地。詔諸王議伐萬奴，遂命皇子貴由及諸王按赤帶將左翼軍討之。」; 「九月，擒萬奴。」" % WS
+YS202 = "Song Lian vd., Yuan shi, juan 202 «Shi Lao zhuan» (%s元史/卷202, okundu): 「帝師八思巴者，土番薩斯迦人，族款氏也。……歲癸丑，年十有五，謁世祖于潛邸，與語大悅，日見親禮。中統元年，世祖即位，尊為國師，授以玉印。」" % WS
+SJI5 = "Sima Qian, Shiji, juan 5 «Qin ben ji» (%s史記/卷005, okundu): 「九年，司馬錯伐蜀，滅之。」(Huiwen-wang hou-yuan 9 = MÖ 316)" % WS
+ZZ3 = "Sima Guang, Zizhi tongjian, juan 3 (Hu Sanxing notlu; %s資治通鑒_(胡三省音注)/卷003, okundu), Shenjing-wang 5. yıl: 「巴、蜀相攻擊，」 notu (Huayang guo zhi'den): 「秦滅蜀，因遂滅巴、苴，置巴、蜀二郡」" % WS
+ZUO = "Zuozhuan, Huan-gong 9. yıl (MÖ 703), «Zuo Du Lin he zhu» (Siku quanshu), juan 4 (%s左傳杜林合注_(四庫全書本)/卷04, okundu): 「巴子使韓服告于楚，請與鄧為好」; 春秋紀傳 juan 9 aynı pasajı «三十九年，巴子使韓服告於楚，請與鄧爲好» diye verir" % WS
+DIAN1 = "Anonim (Ming), Dian zai ji (%s滇載記, okundu): 「趙氏名善政，為封氏清平。楊於真既殺滅鄭氏，遂拔善政而立之。後唐明宗之天成三年也。改國號曰大天興。立僅十月，於真又奪之，而為楊氏。」" % WS
+DIAN2 = "Gu Zuyu, Dushi fangyu jiyao, juan 113 (%s讀史方輿紀要/卷一百十三, okundu): 「後唐天成三年國號大天興，明年稱大義寧，〈楊干貞殺鄭隆亶而推其黨趙善政立之，國號大天興。僅十月，干貞自取之，國號大義寧，於是段思平起兵討平之。趙氏、楊氏得國共九年。〉石晉天福二年屬於大理。」" % WS
+DIAN3 = "Nanzhao yeshi (Hu Wei baskısı) (%s南詔野史_(胡蔚本), okundu): 「明宗己丑天成四年，善政待干貞，恩禮寖衰，……干貞恃功怨望，遂賂結諸臣，廢善政而自立。善政在位僅十月。」「楊干貞於後唐明宗己丑天成四年奪大天興國趙善政之位，改國號曰大義甯國」" % WS
+DIAN4 = "Dian lüe (Siku quanshu), juan 7 (%s滇畧_(四庫全書本)/卷07, okundu): 「三年趙善政僣號大天興國干貞尋廢之自立僣號大義寧國　後晉天福元年通海節度使段思平討楊干貞干貞走死　二年段思平自立僣號大理國居羊苴咩城」" % WS
+DIAN5 = "Wanli Yunnan tongzhi, juan 1 (%s萬曆雲南通志/卷01, okundu): 「明宗天成元年，東川節度使楊干貞弒鄭隆，立侍中趙善政。三年，趙善政僭號大天興國，干貞廢之，自立僭號大義寧國。」" % WS

@@ -1,0 +1,1301 @@
+{
+ "Astrahan": [
+  {
+   "f": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1502-03-01",
+     "d": "altinorda"
+    },
+    {
+     "f": "1502-03-01",
+     "t": "1556-01-01",
+     "d": "astarhan"
+    },
+    {
+     "f": "1556-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1991-12-26",
+     "d": "sovyet-rusya"
+    },
+    {
+     "f": "1991-12-26",
+     "t": "2000-12-31",
+     "d": "rusya-federasyonu",
+     "kaynak": "Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"
+    }
+   ]
+  }
+ ],
+ "Nîşâbur": [
+  {
+   "f": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1202-01-01",
+     "t": "1221-04-10",
+     "d": "harizmsah",
+     "kesinlik": {
+      "f": "yil",
+      "t": "gun"
+     },
+     "kaynak": "TDV nisabur--iran: 'Onların ardından Hârizmşahlar’la Gurlular arasında birkaç defa el değiştiren şehir, nihayet Sultan Alâeddin Muhammed b. Tekiş tarafından kesin olarak Hârizmşah topraklarına katıldı (598/1202).' · T5-1000-B-1016"
+    },
+    {
+     "f": "1221-04-10",
+     "t": "1256-01-01",
+     "d": "mogol-imparatorlugu",
+     "kesinlik": {
+      "f": "gun"
+     },
+     "kaynak": "TDV nisabur--iran: 'Şehir bu dönemde yeniden gelişme sürecine girdiyse de 15 Safer 618 (10 Nisan 1221) tarihinde bütün Orta Asya ve Ortadoğu’yu viraneye çeviren Moğol istilâsına mâruz kaldı.' · 'istilâ' = Moğol zaptı ve yıkımı; sonrasında şehir Moğol (sonra İlhanlı) hâkimiyetinde. · T5-1000-B-1016"
+    },
+    {
+     "f": "1256-01-01",
+     "t": "1337-09-09",
+     "d": "ilhanli",
+     "kaynak": "T5-1000-B-1016: f 1281-01-01 → 1256-01-01 geri çekildi — TDV nisabur--iran: 'Nîşâbur, İlhanlı hâkimiyetinde bir ara toparlanma eğilimi gösterdiyse de bir daha V-VI. (XI-XII.) yüzyıllarda yaşadığı parlak dönemi yakalayamadı.' · 1256 = kural 5, kaynak günü değil. · T5-1000-B-1016"
+    },
+    {
+     "f": "1337-09-09",
+     "t": "1381-01-01",
+     "d": "serbedariler"
+    },
+    {
+     "f": "1381-01-01",
+     "t": "1507-05-24",
+     "d": "timurlu"
+    },
+    {
+     "f": "1507-05-24",
+     "t": "1510-12-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1510-12-02",
+     "t": "1736-03-08",
+     "d": "safevi"
+    },
+    {
+     "f": "1736-03-08",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1794-01-01",
+     "d": "zend"
+    },
+    {
+     "f": "1794-01-01",
+     "t": "1925-10-31",
+     "d": "kacar"
+    },
+    {
+     "f": "1925-10-31",
+     "t": "2000-12-31",
+     "d": "iran",
+     "kaynak": "Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"
+    }
+   ]
+  }
+ ],
+ "Serahs": [
+  {
+   "f": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1193-01-01",
+     "d": "harizmsah",
+     "kaynak": "TDV serahs: '552 (1157) yılında Sultan Sencer’in ölümüyle Büyük Selçuklu Devleti’nin tarihe karışması sonucunda Serahs bir süre Oğuzlar’ın elinde kaldı; ardından bütün Horasan’la birlikte şehir ve çevresine Hârizmşahlar hâkim oldu (1193).' · ZAMAN-Z6-1008",
+     "t": "1221-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1221-01-01",
+     "d": "mogol-imparatorlugu",
+     "kaynak": "TDV serahs: 'Bütün Horasan şehirleri gibi Serahs da 618’de (1221) Moğol istilâsına mâruz kaldı ve Cengiz Han’ın oğlu Tuluy Han tarafından teslim alındı.' · ZAMAN-Z6-1008",
+     "t": "1256-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1256-01-01",
+     "t": "1337-09-09",
+     "d": "ilhanli",
+     "kaynak": "f 1281-01-01'den geri çekildi — TDV serahs: 'Bütün Horasan şehirleri gibi Serahs da 618’de (1221) Moğol istilâsına mâruz kaldı ve Cengiz Han’ın oğlu Tuluy Han tarafından teslim alındı.' · ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"
+    },
+    {
+     "f": "1337-09-09",
+     "t": "1381-01-01",
+     "d": "serbedariler"
+    },
+    {
+     "f": "1381-01-01",
+     "t": "1507-05-24",
+     "d": "timurlu"
+    },
+    {
+     "f": "1507-05-24",
+     "t": "1510-12-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1510-12-02",
+     "t": "1736-03-08",
+     "d": "safevi"
+    },
+    {
+     "f": "1736-03-08",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1794-01-01",
+     "d": "zend"
+    },
+    {
+     "f": "1794-01-01",
+     "t": "1925-10-31",
+     "d": "kacar"
+    },
+    {
+     "f": "1925-10-31",
+     "t": "2000-12-31",
+     "d": "iran",
+     "kaynak": "Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"
+    }
+   ]
+  }
+ ],
+ "Merv (Mari)": [
+  {
+   "f": "yerlesimler.js",
+   "s": [
+    {
+     "f": "1221-01-01",
+     "d": "mogol-imparatorlugu",
+     "kaynak": "TDV merv: 'Oğuzlar’ın ardından önce Hârizmşah Alâeddin Tekiş’e isyan eden kardeşi Sultan Şah’ın ve daha sonra kısa bir süre için Gurlular’ın ve tekrar Hârizmşahlar’ın hâkimiyetine giren Merv, Moğol istilâsı sırasında Cengiz Han’ın oğlu Tuluy tarafından yağma ve tahrip edildiği gibi (1221) halkı da kılıçtan geçirildi (Cüveynî, I, 127-132).' · 'istilâ' sahiplik başlangıcı okundu. 1040 Çağrı · 1119 Sencer başşehri · 1141 Atsız · 1153 Oğuz zinciri sonrası tarihsiz (Sultan Şah · Gurlu · Hârizmşah). ⚠️ Nokta modern Mary'de, eski Merv'e 32 km (0930 bulgusu) · ZAMAN-Z6-1008",
+     "t": "1256-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1256-01-01",
+     "t": "1337-09-09",
+     "d": "ilhanli",
+     "kaynak": "f 1281-01-01'den geri çekildi — TDV merv: 'Oğuzlar’ın ardından önce Hârizmşah Alâeddin Tekiş’e isyan eden kardeşi Sultan Şah’ın ve daha sonra kısa bir süre için Gurlular’ın ve tekrar Hârizmşahlar’ın hâkimiyetine giren Merv, Moğol istilâsı sırasında Cengiz Han’ın oğlu Tuluy tarafından yağma ve tahrip edildiği gibi (1221) halkı da kılıçtan geçirildi (Cüveynî, I, 127-132).' · ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"
+    },
+    {
+     "f": "1337-09-09",
+     "t": "1381-01-01",
+     "d": "serbedariler"
+    },
+    {
+     "f": "1381-01-01",
+     "t": "1507-05-24",
+     "d": "timurlu"
+    },
+    {
+     "f": "1507-05-24",
+     "t": "1510-12-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1510-12-02",
+     "t": "1736-03-08",
+     "d": "safevi"
+    },
+    {
+     "f": "1736-03-08",
+     "t": "1785-01-01",
+     "d": "afsar"
+    },
+    {
+     "f": "1785-01-01",
+     "t": "1860-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1860-01-01",
+     "t": "1884-01-01",
+     "d": "turkmen"
+    },
+    {
+     "f": "1884-01-01",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1991-10-27",
+     "d": "sovyet-rusya"
+    },
+    {
+     "f": "1991-10-27",
+     "t": "2000-12-31",
+     "d": "turkmenistan",
+     "kaynak": "Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"
+    }
+   ]
+  }
+ ],
+ "Kannauc": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1394-01-01",
+     "d": "delhi-sultanligi"
+    },
+    {
+     "f": "1394-01-01",
+     "t": "1479-01-01",
+     "d": "cavnpur-sultanligi"
+    },
+    {
+     "f": "1479-01-01",
+     "t": "1526-04-21",
+     "d": "delhi-sultanligi"
+    },
+    {
+     "f": "1526-04-21",
+     "t": "1540-05-17",
+     "d": "babur-imparatorlugu"
+    },
+    {
+     "f": "1540-05-17",
+     "t": "1555-07-23",
+     "d": "sur-hanedani"
+    },
+    {
+     "f": "1555-07-23",
+     "t": "1722-01-01",
+     "d": "babur-imparatorlugu"
+    },
+    {
+     "f": "1722-01-01",
+     "t": "1801-11-10",
+     "d": "avad"
+    },
+    {
+     "f": "1801-11-10",
+     "t": "1947-08-15",
+     "d": "ingiliz-hindistani"
+    },
+    {
+     "f": "1947-08-15",
+     "t": "2000-12-31",
+     "d": "hindistan-cumhuriyeti",
+     "kaynak": "Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"
+    }
+   ]
+  }
+ ],
+ "Siyâlkot": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-04-21",
+     "d": "delhi-sultanligi"
+    },
+    {
+     "f": "1526-04-21",
+     "t": "1540-05-17",
+     "d": "babur-imparatorlugu"
+    },
+    {
+     "f": "1540-05-17",
+     "t": "1555-07-23",
+     "d": "sur-hanedani"
+    },
+    {
+     "f": "1555-07-23",
+     "t": "1752-04-01",
+     "d": "babur-imparatorlugu"
+    },
+    {
+     "f": "1752-04-01",
+     "t": "1765-04-16",
+     "d": "afgan-durrani"
+    },
+    {
+     "f": "1765-04-16",
+     "t": "1849-03-29",
+     "d": "sih-imparatorlugu"
+    },
+    {
+     "f": "1849-03-29",
+     "t": "1947-08-15",
+     "d": "ingiliz-hindistani"
+    },
+    {
+     "f": "1947-08-15",
+     "t": "2000-12-31",
+     "d": "pakistan",
+     "kaynak": "https://history.state.gov/countries/pakistan"
+    }
+   ]
+  }
+ ],
+ "Kâbil": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-01-01",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-01-01",
+     "t": "1504-10-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1504-10-01",
+     "t": "1738-01-01",
+     "d": "babur-imparatorlugu"
+    },
+    {
+     "f": "1738-01-01",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1826-01-01",
+     "d": "afgan-durrani"
+    },
+    {
+     "f": "1826-01-01",
+     "t": "1839-08-07",
+     "d": "afganistan"
+    },
+    {
+     "f": "1839-08-07",
+     "t": "1842-01-06",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1842-01-06",
+     "t": "1879-10-12",
+     "d": "afganistan"
+    },
+    {
+     "f": "1879-10-12",
+     "t": "1880-08-11",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1880-08-11",
+     "t": "2000-12-31",
+     "d": "afganistan"
+    }
+   ]
+  }
+ ],
+ "Gazne": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-01-01",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-01-01",
+     "t": "1504-10-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1504-10-01",
+     "t": "1738-01-01",
+     "d": "babur-imparatorlugu"
+    },
+    {
+     "f": "1738-01-01",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1826-01-01",
+     "d": "afgan-durrani"
+    },
+    {
+     "f": "1826-01-01",
+     "t": "1839-07-23",
+     "d": "afganistan"
+    },
+    {
+     "f": "1839-07-23",
+     "t": "1842-09-06",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1842-09-06",
+     "t": "2000-12-31",
+     "d": "afganistan"
+    }
+   ]
+  }
+ ],
+ "Bâmiyan": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1893-01-01",
+     "d": "__BOSLUK__",
+     "kaynak": "Iranica HAZĀRA i-ii (yukarıdaki yorum): Hazârecât 19. yy sonuna dek bağımsız, yerel han/mir idaresi; künyesi olan bir yapı yok"
+    },
+    {
+     "f": "1893-01-01",
+     "t": "2000-12-31",
+     "d": "afganistan",
+     "kesinlik": {
+      "f": "yil",
+      "t": "gun"
+     },
+     "kaynak": "Iranica HAZĀRA ii: Abdurrahman Han'ın Hazâra seferi, 'summer of 1893 … resounding defeat' (YIL)"
+    }
+   ]
+  }
+ ],
+ "Gvalyar (Gwalior)": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1398-01-01",
+     "d": "delhi-sultanligi"
+    },
+    {
+     "f": "1398-01-01",
+     "t": "1518-01-01",
+     "d": "racput"
+    },
+    {
+     "f": "1518-01-01",
+     "t": "1526-04-21",
+     "d": "delhi-sultanligi"
+    },
+    {
+     "f": "1526-04-21",
+     "t": "1540-05-17",
+     "d": "babur-imparatorlugu"
+    },
+    {
+     "f": "1540-05-17",
+     "t": "1555-07-23",
+     "d": "sur-hanedani"
+    },
+    {
+     "f": "1555-07-23",
+     "t": "1783-07-21",
+     "d": "babur-imparatorlugu"
+    },
+    {
+     "f": "1783-07-21",
+     "t": "1948-05-28",
+     "d": "gvalyar"
+    },
+    {
+     "f": "1948-05-28",
+     "t": "2000-12-31",
+     "d": "hindistan-cumhuriyeti",
+     "kaynak": "Gvalyar 1948 Madhya Bharat'a katildi (Britannica Gwalior)"
+    }
+   ]
+  }
+ ],
+ "Karakurum": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1368-09-14",
+     "d": "yuan-hanedani"
+    },
+    {
+     "f": "1368-09-14",
+     "t": "1635-01-01",
+     "d": "kuzey-yuan"
+    },
+    {
+     "f": "1635-01-01",
+     "t": "1911-12-29",
+     "d": "qing-hanedani"
+    },
+    {
+     "f": "1911-12-29",
+     "t": "1919-11-22",
+     "d": "mogolistan"
+    },
+    {
+     "f": "1919-11-22",
+     "t": "1921-07-11",
+     "d": "cin-cumhuriyeti"
+    },
+    {
+     "f": "1921-07-11",
+     "t": "1924-11-26",
+     "d": "mogolistan"
+    },
+    {
+     "f": "1924-11-26",
+     "t": "2000-12-31",
+     "d": "mogolistan-halk-cumhuriyeti",
+     "kaynak": "Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"
+    }
+   ]
+  }
+ ],
+ "Hotan": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1347-01-01",
+     "d": "cagatay"
+    },
+    {
+     "f": "1347-01-01",
+     "t": "1514-01-01",
+     "d": "mogulistan"
+    },
+    {
+     "f": "1514-01-01",
+     "t": "1705-01-01",
+     "d": "yarkent-hanligi"
+    },
+    {
+     "f": "1705-01-01",
+     "t": "1759-01-01",
+     "d": "cungar"
+    },
+    {
+     "f": "1759-01-01",
+     "t": "1864-06-04",
+     "d": "qing-hanedani"
+    },
+    {
+     "f": "1864-06-04",
+     "t": "1877-12-17",
+     "d": "yakub-beg"
+    },
+    {
+     "f": "1877-12-17",
+     "t": "1912-02-12",
+     "d": "qing-hanedani"
+    },
+    {
+     "f": "1912-02-12",
+     "t": "1949-10-01",
+     "d": "cin-cumhuriyeti"
+    },
+    {
+     "f": "1949-10-01",
+     "t": "2000-12-31",
+     "d": "cin-halk-cumhuriyeti",
+     "kaynak": "ilan 1949-10-01, tsv kunye"
+    }
+   ]
+  }
+ ],
+ "Kuça (Kuqa)": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1347-01-01",
+     "d": "cagatay"
+    },
+    {
+     "f": "1347-01-01",
+     "t": "1514-01-01",
+     "d": "mogulistan"
+    },
+    {
+     "f": "1514-01-01",
+     "t": "1705-01-01",
+     "d": "yarkent-hanligi"
+    },
+    {
+     "f": "1705-01-01",
+     "t": "1759-01-01",
+     "d": "cungar"
+    },
+    {
+     "f": "1759-01-01",
+     "t": "1864-06-04",
+     "d": "qing-hanedani"
+    },
+    {
+     "f": "1864-06-04",
+     "t": "1877-10-18",
+     "d": "yakub-beg"
+    },
+    {
+     "f": "1877-10-18",
+     "t": "1912-02-12",
+     "d": "qing-hanedani"
+    },
+    {
+     "f": "1912-02-12",
+     "t": "1949-10-01",
+     "d": "cin-cumhuriyeti"
+    },
+    {
+     "f": "1949-10-01",
+     "t": "2000-12-31",
+     "d": "cin-halk-cumhuriyeti",
+     "kaynak": "ilan 1949-10-01, tsv kunye"
+    }
+   ]
+  }
+ ],
+ "Pyongyang": [
+  {
+   "f": "yerlesimler_asya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1392-07-17",
+     "d": "goryeo"
+    },
+    {
+     "f": "1392-07-17",
+     "t": "1910-08-29",
+     "d": "joseon"
+    },
+    {
+     "f": "1910-08-29",
+     "t": "1923-10-29",
+     "d": "meiji-japonya"
+    },
+    {
+     "f": "1923-10-29",
+     "t": "1945-09-09",
+     "d": "japon-kore",
+     "kaynak": "Britannica Korea"
+    },
+    {
+     "f": "1945-09-09",
+     "t": "1948-09-09",
+     "d": "kuzey-kore-sovyet-idaresi",
+     "kaynak": "Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"
+    },
+    {
+     "f": "1948-09-09",
+     "t": "2000-12-31",
+     "d": "kuzey-kore",
+     "kaynak": "KDHC ilani 1948-09-09 (Britannica North Korea)"
+    }
+   ]
+  }
+ ],
+ "Semerkant": [
+  {
+   "f": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1000-01-01",
+     "t": "1041-01-01",
+     "d": "karahanli",
+     "kesinlik": {
+      "t": "yil"
+     },
+     "kaynak": "TDV semerkant: 'Semerkant 389’da (999) tekrar Karahanlılar’ın eline geçti.' · bitiş: TDV karahanlilar 'devletin ikiye ayrıldığı 1041-1042 yıllarına kadar' (TDV semerkant ‘1046’ yazar; atlas künyesinin 1041 yılına uyuldu, 1041-1046 farkı BEYANLI) · f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor; edinim günü değil, D210) · ONCE1281-GERIYE"
+    },
+    {
+     "f": "1041-01-01",
+     "t": "1212-01-01",
+     "d": "bati-karahanli",
+     "kesinlik": {
+      "f": "yil",
+      "t": "yil"
+     },
+     "kaynak": "TDV semerkant: '(XI.) yüzyılın ilk yarısında hânedan mensuplarının mücadelelerine sahne olan şehir devletin 1046’da ikiye bölünmesi sırasında Batı Karahanlılar’da kaldı.' · 'Nasr (Tamgaç Han), Semerkant’ı Batı Karahanlı Devleti’nin başşehri yaptı.' · BEYAN: Büyük Selçuklu (1074, 1089) ve Karahıtay (1141 sonrası) üstünlükleri yerel Karahanlı yönetimini kaldırmadı (tâbiiyet); yönetim Batı Karahanlılar’da kaldı · bitiş: TDV muhammed-b-tekis: 'Semerkant’ı zaptedip damadı olan Semerkant Hükümdarı Osman’ı öldürtmek suretiyle Karahanlılar’ın (1212)’ yıkılması' · ONCE1281-GERIYE"
+    },
+    {
+     "f": "1212-01-01",
+     "t": "1220-01-01",
+     "d": "harizmsah",
+     "kesinlik": {
+      "f": "yil"
+     },
+     "kaynak": "TDV muhammed-b-tekis: 'Semerkant’ı zaptedip damadı olan Semerkant Hükümdarı Osman’ı öldürtmek suretiyle Karahanlılar’ın (1212) … yıkılmasını sağladı.' · TDV semerkant: 'Semerkant’ı devletinin başşehri yapan Hârizmşah Alâeddin Muhammed b. Tekiş, Moğol Hükümdarı Cengiz Han’ın önünde tutunamadı.' · ONCE1281-GERIYE"
+    },
+    {
+     "f": "1220-01-01",
+     "d": "mogol-imparatorlugu",
+     "kaynak": "TDV semerkant: 'Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur.' · 1074/1089 Melikşah hâkimiyeti (Karahanlı tâbiiyeti) kopuk · ZAMAN-Z6-1008",
+     "t": "1227-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1227-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay",
+     "kaynak": "f 1281-01-01'den geri çekildi — TDV semerkant: 'Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur.' · Moğol İmparatorluğu → Çağatay ardıl yapı; cagatay künye günü (1227-01-01) devralındı — kaynaksız gün · ZAMAN-Z6-1008"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1868-05-14",
+     "d": "buhara"
+    },
+    {
+     "f": "1868-05-14",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1991-08-31",
+     "d": "sovyet-rusya"
+    },
+    {
+     "f": "1991-08-31",
+     "t": "2000-12-31",
+     "d": "ozbekistan",
+     "kaynak": "Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"
+    }
+   ]
+  }
+ ],
+ "Buhara": [
+  {
+   "f": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1000-01-01",
+     "t": "1041-01-01",
+     "d": "karahanli",
+     "kesinlik": {
+      "t": "yil"
+     },
+     "kaynak": "TDV karahanlilar: '997’de Buhara üzerine yürüyen, ancak başarılı olamayan İlig Han Nasr iki yıl sonra hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara’yı zaptetti (389/999).' · TDV buhara: 'Daha sonra bir buçuk asır boyunca şehre hâkim olan Karahanlı hükümdarlarının ancak birkaçı Buhara’da oturdu.' · bitiş: TDV karahanlilar: 'Bu durum devletin ikiye ayrıldığı 1041-1042 yıllarına kadar sürmüştür' · f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor; edinim günü değil, D210) · NOT: Müntasır’ın Buhara’yı kısa süreli geri alışı (1000, Sâmânî) bu zincire girmedi — TDV buhara ‘Buhara 389 (999) yılına kadar Sâmânîler tarafından idare edildi’ der · ONCE1281-GERIYE"
+    },
+    {
+     "f": "1041-01-01",
+     "t": "1141-09-09",
+     "d": "bati-karahanli",
+     "kesinlik": {
+      "f": "yil"
+     },
+     "kaynak": "TDV karahanlilar: 'devletin ikiye ayrıldığı 1041-1042' (Batı kol = Mâverâünnehir: ‘Aynüddevle Muhammed ve kardeşi Böri Tegin İbrâhim … Mâverâünnehir’in tamamına hâkim olup burada bağımsız bir devlet kurdular (433/1041-42)’) · bitiş: TDV buhara: '5 Safer 536 (9 Eylül 1141) tarihinde meydana gelen Katvân savaşından sonra şehir putperest Karahıtaylar’ın idaresine geçti.' · ONCE1281-GERIYE"
+    },
+    {
+     "f": "1141-09-09",
+     "t": "1207-01-01",
+     "d": "karahitay",
+     "kesinlik": {
+      "t": "yil"
+     },
+     "kaynak": "TDV buhara: '5 Safer 536 (9 Eylül 1141) tarihinde meydana gelen Katvân savaşından sonra şehir putperest Karahıtaylar’ın idaresine geçti.' · bitiş: TDV buhara: 'Burhan ailesi 604 (1207) yılında Şiîler’in başlattığı bir halk ayaklanması sırasında Karahıtaylar’a sığındı. Aynı yıl şehir Hârizmşah Muhammed b. Tekiş’in idaresi altına girdi.' · ONCE1281-GERIYE"
+    },
+    {
+     "f": "1207-01-01",
+     "t": "1220-02-10",
+     "d": "harizmsah",
+     "kesinlik": {
+      "f": "yil"
+     },
+     "kaynak": "TDV buhara: 'Aynı yıl şehir Hârizmşah Muhammed b. Tekiş’in idaresi altına girdi.' (604/1207) · 'Şehir 4 Zilhicce 616 (10 Şubat 1220) tarihinde Moğol orduları tarafından işgal edilip yağmalandı.' · ONCE1281-GERIYE"
+    },
+    {
+     "f": "1220-02-10",
+     "t": "1260-01-01",
+     "d": "mogol-imparatorlugu",
+     "kesinlik": {
+      "t": "yil"
+     },
+     "kaynak": "TDV buhara: 'Şehir 4 Zilhicce 616 (10 Şubat 1220) tarihinde Moğol orduları tarafından işgal edilip yağmalandı.' · 1238 ayaklanması Hucend’deki vali Mahmud Yalavaç tarafından bastırıldı (Büyük Han valisi) · bitiş: TDV cagatay-hanligi: Algu ‘Çağatay hanı oldu (1260-1266)’ · ONCE1281-GERIYE"
+    },
+    {
+     "f": "1260-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay",
+     "kaynak": "[ONCE1281-GERIYE f 1281-01-01 → 1260-01-01] TDV cagatay-hanligi: 'Algu … Mâverâünnehir hâkimi Mesud Yalvaç’ı da eski görevine iade etmek suretiyle meseleyi çözdü ve Çağatay hanı oldu (1260-1266).' · 'ÇAĞATAY HANLIĞI 1227-1370 yılları arasında Mâverâünnehir, Yedisu ve Doğu Türkistan’da hüküm süren bir hânedan.' · BEYAN: 1260 aralığın başıdır (1260-1266), ay/gün kaynakta yok; Buhara Mâverâünnehir’dedir · ONCE1281-GERIYE"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1920-09-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1920-09-02",
+     "t": "1991-08-31",
+     "d": "sovyet-rusya"
+    },
+    {
+     "f": "1991-08-31",
+     "t": "2000-12-31",
+     "d": "ozbekistan",
+     "kaynak": "Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"
+    }
+   ]
+  }
+ ],
+ "Cizzah": [
+  {
+   "f": "yerlesimler_ek14.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1866-10-18",
+     "d": "buhara"
+    },
+    {
+     "f": "1866-10-18",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1991-08-31",
+     "d": "sovyet-rusya"
+    },
+    {
+     "f": "1991-08-31",
+     "t": "2000-12-31",
+     "d": "ozbekistan",
+     "kaynak": "Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"
+    }
+   ]
+  }
+ ],
+ "Herat": [
+  {
+   "f": "yerlesimler_ek16.js",
+   "s": [
+    {
+     "f": "1175-01-01",
+     "d": "gurlu",
+     "kaynak": "TDV herat: 'Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.' · ZAMAN-Z6-1008",
+     "t": "1208-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1208-01-01",
+     "d": "harizmsah",
+     "kaynak": "TDV herat: 'Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.' · ZAMAN-Z6-1008",
+     "t": "1221-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1221-01-01",
+     "d": "mogol-imparatorlugu",
+     "kaynak": "TDV herat: 'Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.' · 1244 Kert tayini / 1255 Hülâgû onayı — Kert Moğol'a TÂBİ, sahip değişmez (`v:` önerilmedi) · ZAMAN-Z6-1008",
+     "t": "1256-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1256-01-01",
+     "t": "1335-12-01",
+     "d": "ilhanli",
+     "kaynak": "f 1281-01-01'den geri çekildi — TDV herat: 'Moğollar’ın 642’de (1244) Gur asıllı Şemseddin Kert’i Herat hâkimi olarak tayin etmeleri ve bu durumun 653’te (1255) Hülâgû tarafından da onaylanması üzerine şehirde Kert hânedanı kurulmuş oldu.' · ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"
+    },
+    {
+     "f": "1335-12-01",
+     "t": "1381-04-01",
+     "d": "kert"
+    },
+    {
+     "f": "1381-04-01",
+     "t": "1507-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1507-01-01",
+     "t": "1510-12-02",
+     "d": "buhara"
+    },
+    {
+     "f": "1510-12-02",
+     "t": "1736-03-08",
+     "d": "safevi"
+    },
+    {
+     "f": "1736-03-08",
+     "t": "1747-06-20",
+     "d": "afsar"
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1826-01-01",
+     "d": "afgan-durrani"
+    },
+    {
+     "f": "1826-01-01",
+     "t": "2000-12-31",
+     "d": "afganistan"
+    }
+   ]
+  }
+ ],
+ "Belh": [
+  {
+   "f": "yerlesimler_ek16.js",
+   "s": [
+    {
+     "f": "1198-01-01",
+     "d": "gurlu",
+     "kaynak": "TDV belh: 'Muhammed, Karahıtaylar’a bağlı Türk valisi ölünce burayı işgal etti (1198) ve Gurlu Devleti topraklarına kattı.' · 1043 Selçuklu · 1152 Gurlu tanıklıkları kopuk (1152-1198 Karahıtay'a bağlı vali, tarihsiz) · ZAMAN-Z6-1008",
+     "t": "1205-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1205-01-01",
+     "d": "harizmsah",
+     "kaynak": "TDV belh: 'Daha sonra Belh’i Gurlular’ın düşmanı Hârizmşah Alâeddin aldı (1205) ve vali olarak Türk kumandanı Çağrı’yı (veya Câfer) tayin etti.' · ZAMAN-Z6-1008",
+     "t": "1221-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1221-01-01",
+     "d": "mogol-imparatorlugu",
+     "kaynak": "TDV belh: '1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip halkı kılıçtan geçirildi ve yaklaşık 100 yıl harabe halinde kaldı.' · 'yaklaşık 100 yıl harabe halinde kaldı' — sahip Moğol, nokta harabe · ZAMAN-Z6-1008",
+     "t": "1227-01-01",
+     "kesinlik": "yil"
+    },
+    {
+     "f": "1227-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay",
+     "kaynak": "f 1281-01-01'den geri çekildi — TDV belh: '1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip halkı kılıçtan geçirildi ve yaklaşık 100 yıl harabe halinde kaldı.' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1506-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1506-01-01",
+     "t": "1509-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1509-01-01",
+     "t": "1514-08-23",
+     "d": "safevi"
+    },
+    {
+     "f": "1514-08-23",
+     "t": "1751-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1751-01-01",
+     "t": "1826-01-01",
+     "d": "afgan-durrani"
+    },
+    {
+     "f": "1826-01-01",
+     "t": "1841-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1841-01-01",
+     "t": "2000-12-31",
+     "d": "afganistan"
+    }
+   ]
+  }
+ ],
+ "Quang Tri": [
+  {
+   "f": "yerlesimler_gdasya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1306-01-01",
+     "d": "campa"
+    },
+    {
+     "f": "1306-01-01",
+     "t": "1400-03-01",
+     "d": "tran-hanedani"
+    },
+    {
+     "f": "1400-03-01",
+     "t": "1407-06-17",
+     "d": "ho-hanedani"
+    },
+    {
+     "f": "1407-06-17",
+     "t": "1428-01-03",
+     "d": "ming-hanedani"
+    },
+    {
+     "f": "1428-01-03",
+     "t": "1558-01-01",
+     "d": "le-hanedani"
+    },
+    {
+     "f": "1558-01-01",
+     "t": "1775-02-01",
+     "d": "nguyen-beyligi"
+    },
+    {
+     "f": "1775-02-01",
+     "t": "1786-06-01",
+     "d": "le-hanedani"
+    },
+    {
+     "f": "1786-06-01",
+     "t": "1801-06-15",
+     "d": "tay-son"
+    },
+    {
+     "f": "1801-06-15",
+     "t": "1884-06-06",
+     "d": "nguyen-hanedani"
+    },
+    {
+     "f": "1884-06-06",
+     "t": "1954-07-21",
+     "d": "fransiz-cinhindi"
+    },
+    {
+     "f": "1954-07-21",
+     "t": "1975-04-30",
+     "d": "guney-vietnam",
+     "kaynak": "Britannica 'South Vietnam'; Office of the Historian"
+    },
+    {
+     "f": "1975-04-30",
+     "t": "2000-12-31",
+     "d": "vietnam-dc",
+     "kaynak": "Britannica 'Fall of Saigon' 1975-04-30"
+    }
+   ]
+  }
+ ],
+ "Jambi": [
+  {
+   "f": "yerlesimler_gdasya.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1400-01-01",
+     "d": "malay-sultanliklari"
+    },
+    {
+     "f": "1400-01-01",
+     "t": "1528-01-01",
+     "d": "malaka-sultanligi"
+    },
+    {
+     "f": "1528-01-01",
+     "t": "1615-01-01",
+     "d": "cohor-sultanligi"
+    },
+    {
+     "f": "1615-01-01",
+     "t": "1858-01-01",
+     "d": "dogu-sumatra-sultanliklari"
+    },
+    {
+     "f": "1858-01-01",
+     "t": "1949-12-27",
+     "d": "hollanda-dogu-hint"
+    },
+    {
+     "f": "1949-12-27",
+     "t": "2000-12-31",
+     "d": "endonezya-cumhuriyeti",
+     "kaynak": "Office of the Historian; Britannica Indonesia"
+    }
+   ]
+  }
+ ],
+ "Urasoe Gusuku (Chuzan merkezi)": [
+  {
+   "f": "yerlesimler_nokta3.js",
+   "kur": "1322-01-01",
+   "s": [
+    {
+     "f": "1322-01-01",
+     "t": "1429-01-01",
+     "d": "sanzan"
+    },
+    {
+     "f": "1429-01-01",
+     "t": "1879-03-27",
+     "d": "ryukyu"
+    },
+    {
+     "f": "1879-03-27",
+     "t": "1945-04-01",
+     "d": "meiji-japonya"
+    },
+    {
+     "f": "1945-04-01",
+     "t": "1972-05-15",
+     "d": "ryukyu-abd-idaresi"
+    },
+    {
+     "f": "1972-05-15",
+     "t": "2000-12-31",
+     "d": "japonya-devleti"
+    }
+   ]
+  }
+ ],
+ "Taraz (Evliya-Ata)": [
+  {
+   "f": "yerlesimler_ok107.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1370-04-09",
+     "d": "cagatay"
+    },
+    {
+     "f": "1370-04-09",
+     "t": "1500-01-01",
+     "d": "timurlu"
+    },
+    {
+     "f": "1500-01-01",
+     "t": "1598-01-01",
+     "d": "buhara"
+    },
+    {
+     "f": "1598-01-01",
+     "t": "1815-01-01",
+     "d": "kazak-hanligi"
+    },
+    {
+     "f": "1815-01-01",
+     "t": "1864-09-22",
+     "d": "hokand"
+    },
+    {
+     "f": "1864-09-22",
+     "t": "1917-03-15",
+     "d": "rusya"
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet"
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya"
+    }
+   ]
+  }
+ ],
+ "Karaşar (Yanqi)": [
+  {
+   "f": "yerlesimler_ortaasya3.js",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1347-01-01",
+     "d": "cagatay"
+    },
+    {
+     "f": "1347-01-01",
+     "t": "1514-01-01",
+     "d": "mogulistan"
+    },
+    {
+     "f": "1514-01-01",
+     "t": "1705-01-01",
+     "d": "yarkent-hanligi"
+    },
+    {
+     "f": "1705-01-01",
+     "t": "1759-01-01",
+     "d": "cungar"
+    },
+    {
+     "f": "1759-01-01",
+     "t": "1864-06-04",
+     "d": "qing-hanedani"
+    },
+    {
+     "f": "1864-06-04",
+     "t": "1877-10-18",
+     "d": "yakub-beg"
+    },
+    {
+     "f": "1877-10-18",
+     "t": "1912-02-12",
+     "d": "qing-hanedani"
+    },
+    {
+     "f": "1912-02-12",
+     "t": "1949-10-01",
+     "d": "cin-cumhuriyeti"
+    },
+    {
+     "f": "1949-10-01",
+     "t": "2000-12-31",
+     "d": "cin-halk-cumhuriyeti",
+     "kaynak": "ilan 1949-10-01, tsv kunye"
+    }
+   ]
+  }
+ ]
+}

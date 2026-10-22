@@ -1,0 +1,79 @@
+[
+ {
+  "mevcut_id": "goryeo", "alan": "t", "mevcut": "1392-07-17", "onerilen": "1392-08-04",
+  "ek": "Joseon f = 1392-08-05",
+  "gerekce": "1392-07-17 Joseon sillok'taki ay-güneş «7. ay 17. gün» (丙申) ifadesinin Jülyen/Gregoryen gün sanılmasıdır. Sillok Taejo 1. yıl: 17. gün 병신 tahta çıkış; Goryeosa j.46: 7. ay 辛卯 (= 12. gün) Gongyang tahttan indirildi. Jülyen karşılıkları: 辛卯 = 1392-07-31; 丙申 = 1392-08-05 (yeniay kontrolü: 7. ay başı ≈ 07-20, 7/12 = 07-31). Atlas 'Joseon' künyesinin f'si de aynı yanlışı taşıyor olabilir (kontrol et).",
+  "kaynak": ["Goryeosa j.46 (zh.wikisource.org/wiki/高麗史/卷四十六)", "Joseon wangjo sillok Taejo 1 (ko.wikisource.org/wiki/조선왕조실록/태조강헌대왕실록/1년)"],
+  "kesinlik": "gun (Jülyen; sexagenary + yeniay doğrulaması)", "karar_gerekli": "Emre: Goryeo t ve Joseon f düzeltmesi"
+ },
+ {
+  "mevcut_id": "goryeo", "alan": "f", "mevcut": "0918-01-01", "onerilen": "0918-07-25",
+  "gerekce": "Goryeosa j.1: 元年夏六月丙辰 = 918-07-25 (Jülyen). Taebong'un düşüşü 乙卯 = 918-07-24.",
+  "kaynak": ["Goryeosa j.1 (zh.wikisource.org/wiki/高麗史/卷一)"], "kesinlik": "gun", "karar_gerekli": "hayır (kaynaktan doğrudan)"
+ },
+ {
+  "mevcut_id": "silla", "alan": "t", "mevcut": "0935-01-01", "onerilen": "0936-01-08",
+  "gerekce": "Silla Kralı Gyeongsun: 935 10. ay 壬戌 (= 935-10-30) teslim mektubu; 11. ay 癸卯 (= 935-12-10) Kaesong'a giriş; 12. ay 壬申 (= 936-01-08) Taejo teslimi kabul etti ve «Silla Gyeongju oldu». Künye 12 ay erken. Künye kapsamı: Samguk sagi Silla'yı MÖ 57-MS 935 kesintisiz tek devlet verir; «Birleşik/Geç Silla» alt-dönemdir → ayrı künye gerekmez; künye adı doğru.",
+  "kaynak": ["Goryeosa j.2 (zh.wikisource.org/wiki/高麗史/卷二)", "Samguk sagi j.12 (zh.wikisource.org/wiki/三國史記/卷12)"], "kesinlik": "gun (Jülyen)", "karar_gerekli": "Emre: t düzeltmesi + Hubaekje/Goryeo ile sınır uyumu"
+ },
+ {
+  "mevcut_id": "goguryeo", "alan": "t", "mevcut": "0668-01-01", "onerilen": "0668-10-22",
+  "gerekce": "Jiu Tangshu j.5: 總章元年九月癸巳 Pyongyang alındı, Bojang esir = 668-10-22 (Jülyen). Silla kayıtlarında 9/21.",
+  "kaynak": ["Jiu Tangshu j.5 (zh.wikisource.org/wiki/舊唐書/卷5)"], "kesinlik": "gun", "karar_gerekli": "hayır"
+ },
+ {
+  "mevcut_id": "baekje", "alan": "t", "mevcut": "0660-01-01", "onerilen": "0660-08 (ay) ≈ 0660-08-28",
+  "gerekce": "Silla bon-gi: 7. ay 18 Uija teslim. Ortalama yeniay hesabıyla (± 1 gün) 7. ay başı ≈ 660-08-11 → 7/18 ≈ 660-08-28 (Jülyen). Jiu Tangshu 4: haber 八月庚辰 = 660-09-21. Vikipedi'deki «18 Temmuz 660» ay-güneş gün sayısının solar sanılmasıdır. Gün kesinliği ± 1; Samguk sagi sexagenary işareti vermiyor.",
+  "kaynak": ["Samguk sagi j.5 (zh.wikisource.org/wiki/三國史記/卷05)", "Jiu Tangshu j.4 (zh.wikisource.org/wiki/舊唐書/卷4)"], "kesinlik": "ay (gün ± 1 tahmin)", "karar_gerekli": "Emre: ay hassasiyeti ile mi, 660-08-28 ile mi"
+ },
+ {
+  "mevcut_id": "balhae", "alan": "t", "mevcut": "0926-01-01", "onerilen": "0926-04-03",
+  "gerekce": "Liao shi j.2: Yizhuan teslimi 辛未 = 926-02-28; 丙午 = 926-04-04 'Balhae devleti Dongdan oldu' (Jülyen; Abaoji ölümü 辛巳 = 926-09-06 ile takvim sınandı). Vikipedi 14 Ocak 926 → Liao shi gün hesabıyla uyuşmuyor.",
+  "kaynak": ["Liao shi j.2 (zh.wikisource.org/wiki/遼史/卷2)"], "kesinlik": "gun", "karar_gerekli": "Emre: teslim (02-28) mi, ad değişikliği (04-03) mi"
+ },
+ {
+  "mevcut_id": "hubaekje", "alan": "f", "mevcut": "0892-01-01", "onerilen": "0900-01-01",
+  "gerekce": "Samguk sagi j.50: 892 (景福元年) Mujin'e girdi ama «krallık ilân edemedi»; 光化三年 (900) Wansan'da «後百濟王» ilân. Atlas «kuruluş = bağımsızlık ilânı» ilkesi: 900.",
+  "kaynak": ["Samguk sagi j.50 (zh.wikisource.org/wiki/三國史記/卷50)"], "kesinlik": "yil", "karar_gerekli": "Emre: kuruluş sınıfı seçimi"
+ },
+ {
+  "mevcut_id": "hubaekje", "alan": "t", "mevcut": "0936-01-01", "onerilen": "0936-09 (ay)",
+  "gerekce": "Goryeosa j.2 Taejo 19: 9. ay 甲午 (= 936-09-26) Iljecheon karşılaşması; teslim günü yok.",
+  "kaynak": ["Goryeosa j.2"], "kesinlik": "ay", "karar_gerekli": "hayır"
+ },
+ {
+  "mevcut_id": "taebong", "alan": "t", "mevcut": "0918-01-01", "onerilen": "0918-07-24",
+  "gerekce": "Goryeosa j.1: 6. ay 乙卯 gecesi generaller Wang Geon'a gitti, Gung Ye kaçtı; 丙辰 = 918-07-25 Taejo tahta çıktı.",
+  "kaynak": ["Goryeosa j.1"], "kesinlik": "gun", "karar_gerekli": "hayır"
+ },
+ {
+  "mevcut_id": "nara-japonya", "alan": "f", "mevcut": "0710-01-01", "onerilen": "0710-04-13",
+  "gerekce": "Shoku Nihongi j.5: 和銅三年三月辛酉 始遷都于平城 = 710-04-13 (Jülyen).",
+  "kaynak": ["Shoku Nihongi j.5 (zh.wikisource.org/wiki/續日本紀/卷第五)"], "kesinlik": "gun", "karar_gerekli": "hayır"
+ },
+ {
+  "mevcut_id": "nara-japonya", "alan": "t", "mevcut": "0793-12-31", "onerilen": "0794-11-17 (veya 784-12 Nagaoka sınırı)",
+  "gerekce": "Saray Heian-kyō'ya 794-11-18'de girdi (Nihon Kōki). Nagaoka-kyō (784-794) ara dönem: Shoku Nihongi j.38 Enryaku 3'te Nagaoka seçimi; taşınma günü bu oturumda sabitlenmedi. Künye adı «Nara Dönemi» ise t = 784; 'saray devleti' ise 794-11-17.",
+  "kaynak": ["Shoku Nihongi j.38 (zh.wikisource.org/wiki/續日本紀/卷第卅八)", "Nihon Kōki j.3 (zh.wikisource.org/wiki/日本後紀/卷第三)"], "kesinlik": "gun", "karar_gerekli": "Emre: Nagaoka dönemi ayrı kayıt/dönem mi"
+ },
+ {
+  "mevcut_id": "heian-japonya", "alan": "f", "mevcut": "0794-01-01", "onerilen": "0794-11-18",
+  "gerekce": "Nihon Kōki j.3: 延暦十三年十月辛酉 車駕遷于新京 = 794-11-18 (Jülyen); 丁丑 (= 794-12-04) «平安京» adı.",
+  "kaynak": ["Nihon Kōki j.3 (zh.wikisource.org/wiki/日本後紀/卷第三)"], "kesinlik": "gun", "karar_gerekli": "hayır"
+ },
+ {
+  "mevcut_id": "heian-japonya", "alan": "t", "mevcut": "1185-01-01", "onerilen": "SINIFLANDIRMA KARARI: (a) künye 'Heian dönemi' ise 1185-12-22; (b) polity = imparatorluk sarayı ise 1868 (süreklilik)",
+  "gerekce": "Saray 1185'te sona ermez: Azuma Kagami j.1 hükümdar listesi: Antoku 1185-04-25 Dan-no-ura'da öldü (j.4), Go-Toba 1183'ten beri tahtta; saray 1868'e dek. 1185: Bunji 1/11/29 戊申 = 1185-12-22 ülke çapında shugo-jitō (Azuma Kagami j.5) Heian'ın fiilî iktidar kaybının tarihidir. Atlas künyesi 'Heian Dönemi İmparatorluk Sarayı' adıyla t=1185 → ya t'yi 1868'e uzatıp adı 'Japon İmparatorluk Sarayı (Heian/Kamakura/…)' yapmak ya da dönem sınırı olarak tutmak.",
+  "kaynak": ["Azuma Kagami j.1, 4, 5 (zh.wikisource.org/wiki/吾妻鏡/卷001, 卷004, 卷005)"], "kesinlik": "gun", "karar_gerekli": "Emre"
+ },
+ {
+  "mevcut_id": "kamakura", "alan": "f", "mevcut": "1185-01-01", "onerilen": "1185-12-22 (kurumsal) veya 1180-11-04 (fiilî)",
+  "gerekce": "Azuma Kagami: 1180-09-08 (八月十七日丁酉) Izu ayaklanması; 1180-10-26 (十月六日乙酉) Sagami'ye giriş; 1180-11-04 (十月十五日甲午) Kamakura'ya giriş (fiilî Kantō rejimi başlangıcı); 1185-12-22 (十一月廿九日戊申) ülke çapında shugo-jitō. 1183 Ekim saray yetkisi ve 1192 şogun unvanı bu oturumda okunamadı. Künyedeki 1185-01-01 hiçbir olayın günü değil.",
+  "kaynak": ["Azuma Kagami j.1, 5 (zh.wikisource.org/wiki/吾妻鏡/卷001, 卷005)"], "kesinlik": "gun", "karar_gerekli": "Emre: kuruluş sınıfı"
+ },
+ {
+  "mevcut_id": "yamato", "alan": "f", "mevcut": "0250-01-01", "onerilen": "0421-01-01 (yazılı) / 0250 (arkeolojik, taslak)",
+  "gerekce": "Songshu j.97: 永初二年 (421) Wa kralı Zan'a unvan; 250 yazılı kaynaksız (Kofun başlangıcı arkeolojik).",
+  "kaynak": ["Songshu j.97 (zh.wikisource.org/wiki/宋書/卷97)"], "kesinlik": "yil", "karar_gerekli": "Emre: yazılı mı arkeolojik mi"
+ }
+]

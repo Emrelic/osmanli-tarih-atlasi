@@ -186,7 +186,7 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: bağımsız konfederasyonun idari merkezi, hiç fethedilmedi — k:1
 
 { ad:"Cholula", tur:"sehir", lat:19.0631, lon:-98.3037, g:1, k:2,
-  s:[{f:"1281-01-01",t:"1519-10-18",d:"nahua-sehir-devletleri"},
+  s:[{f:"0500-01-01",t:"0700-01-01",d:"__BOSLUK__",kesinlik:"yuzyil",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Evans 2001 s.139-141, McCafferty 1996/2008 özeti ve Pohl (FAMSI) aracılığıyla Vikipedi okundu; Cholula Büyük Piramit'in 300 MÖ'den beri kullanıldığı, MS 600-700 arasında büyük bir bölgesel merkeze dönüştüğü yazılı ama 500-700 arası siyasi sahibi (devlet/hanedan) kaynaklarda yok. Abi merkez (⑤): Teotihuacan etkisi arkeolojik olarak tartışmalı, siyasi bağ gösteren kaynak bulunamadı → yaklaşıklık yazılmadı. f=0500 UFUK SINIR İŞARETİDİR. · DOGU-500-1281"},{f:"0700-01-01",t:"1281-01-01",d:"cholula",kesinlik:"yuzyil",kaynak:"Susan Toby Evans, Ancient Mexico and Central America, 2001, s.139-141 (Tlachihualtepetl evresi CE 700-1200; Olmeca-Xicalanca ele geçişi evre içinde; 'In CE 1200, ethnic Tolteca-Chichimeca conquered Cholula' — atıf; kitap AÇILMADI; Vikipedi aracılığıyla) | BEYANLI YAKLAŞIKLIK: 700 evre başı alt sınırdır; 1200 fethi aynı şehir-devletin (cholula künyesi) etnik sahip değişimidir, harita sahibi değişmez. · DOGU-500-1281"},{f:"1281-01-01",t:"1519-10-18",d:"nahua-sehir-devletleri"},
      {f:"1519-10-18",t:"1535-04-17",d:"ispanya"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
@@ -287,7 +287,7 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: büyük dini merkez, idari başkent Zaachila'nın altında — k:2
 
 { ad:"Tututepec (Yucu Dzaa)", tur:"sehir", lat:16.1517, lon:-97.6156, g:1, k:1,
-  s:[{f:"1281-01-01",t:"1522-01-01",d:"tututepec-krallik"},
+  s:[{f:"1100-01-01",t:"1281-01-01",d:"tututepec",kesinlik:"onyil",kaynak:"Arthur A. Joyce, «Mixtec Empire», Univ. of Colorado Boulder, 2016 (colorado.edu/rioverdearchaeology/.../joyce_2016a.pdf; pdftotext ile okundu): \"Archaeological and ethnohistoric sources indicate that the founding of Tututepec was the result of the arrival of highland Mixtecs into the lower Verde region at about 1100 CE\" | Arthur A. Joyce, «Mixtec Empire», Univ. of Colorado Boulder, 2016 (colorado.edu/rioverdearchaeology/.../joyce_2016a.pdf; pdftotext ile okundu): \"At this time, Tututepec was nearly uninhabited, which shows that the Late Postclassic city did not develop out of an earlier community, but was founded instead as a new political center.\" | f=1100: bu kaynak; kodeks hesabı 1081 (maddede beyanlı). · DOGU-500-1281"},{f:"1281-01-01",t:"1522-01-01",d:"tututepec-krallik"},
      {f:"1522-01-01",t:"1535-04-17",d:"ispanya"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
@@ -299,7 +299,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Mayapán", tur:"sehir", lat:20.6244, lon:-89.4611, g:1, k:1,
   bit:"1441-01-01",
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"maya-sehir-devletleri"}] },
+  s:[{f:"1100-01-01",t:"1281-01-01",d:"mayapan-birligi",kesinlik:"yuzyil",kaynak:"Kennett D. J. ve ark., «Drought-induced civil conflict among the ancient Maya», Nature Communications 13, 3911 (2022), doi:10.1038/s41467-022-31522-x (Europe PMC PMC9296624 tam metin okundu): \"But northern and coastal Maya populations subsequently recovered quickly and the political capital of Mayapan arose and governed from at least 1100 to 1450 cal. CE\" | BEYANLI ÇELİŞKİ: aynı makale '(1200–1450 cal. CE)' de yazar; f=1100 'en az' alt sınırı ve atlas künyesi f=1100. · DOGU-500-1281"},{f:"1281-01-01",t:"1441-01-01",d:"maya-sehir-devletleri"}] },
   // 1441'de Xiu isyanıyla YIKILDI ve TERK EDİLDİ — nokta burada bitiyor.
 // kaynak: standart akademik konsensüs (Marilyn Masson & Carlos Peraza Lope'nin Mayapán kazı yayınları).
 // k gerekçesi: 1441'e kadar bölgesel "lig" başkenti — k:1
@@ -308,7 +308,7 @@ window.YERLESIMLER_AMERIKA = [
 // aynı çare iki farklı kusura uygulanamaz). Kaynak: data/yerlesimler.js:1877 kalıbı.
 
 { ad:"Chichén Itzá", tur:"sehir", lat:20.6843, lon:-88.5678, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1547-01-01",d:"maya-sehir-devletleri"},
+  s:[{f:"0500-01-01",t:"0800-01-01",d:"__BOSLUK__",kesinlik:"yuzyil",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Chichén Itzá'nın 500-800 arası sahibi — UNESCO 483: yerleşim Klasik dönemde kuruldu, Chichén Viejo anıtları 6.-10. yy'da Maya üslubunda inşa edildi, ancak bir devlet/hanedan adı verilmez (yerel el yazmaları 415-35 ya da 455 der, tarihlenmemiş gelenek); ms1 künyesi devlet f=0800. Abi merkez adayı arandı, kaynakla bağ bulunamadı | f=0500-01-01 UFUK SINIR İŞARETİDİR · DOGU-500-1281"},{f:"0800-01-01",t:"1200-01-01",d:"chichen-itza",kesinlik:"yuzyil",kaynak:"ms1 künyesi (chichen-itza f=0800/t=1200; Martin & Grube, Chronicle of the Maya Kings and Queens, 2008 atfı; bu oturumda açılmadı) | UNESCO 483: «reportedly took the city between 967 A.D. and 987 A.D.» (Toltek; zincirde sahip değişimi yazılmadı) · DOGU-500-1281"},{f:"1200-01-01",t:"1281-01-01",d:"__BOSLUK__",kesinlik:"yuzyil",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Chichén Itzá'nın 1200-1281 arası sahibi — ms1 künyesi devlet t=1200 (kesin çöküş yılı yok, 1200/1221 tartışmalı); Mayapán'ın yerini aldığı M&G atfı (açılmadı); UNESCO 483 sayfası bu dönemi anlatmaz. Abi merkez adayı Mayapán: Chichén'in bağlı olduğuna dair kaynak okunmadı | atlas zincirinin başı maya-sehir-devletleri 1281 · DOGU-500-1281"},{f:"1281-01-01",t:"1547-01-01",d:"maya-sehir-devletleri"},
      {f:"1547-01-01",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Robert S. Chamberlain, "The Conquest and Colonization of Yucatan, 1517-1550"
@@ -467,7 +467,7 @@ window.YERLESIMLER_AMERIKA = [
 // ---------- İnka çekirdeği (inka-imparatorlugu — MEVCUT KİMLİK) ----------
 
 { ad:"Cusco (Qosqo)", tur:"sehir", lat:-13.5320, lon:-71.9675, g:2, k:1,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"inka-imparatorlugu"},
+  s:[{f:"1200-01-01",t:"1281-01-01",d:"kuzco-krallik",kesinlik:"yuzyil",kaynak:"Michael E. Moseley, The Incas and Their Ancestors, rev. ed., Thames & Hudson, 2001, böl. 1 'Introduction' (archive.org: the-incas-and-their-ancestors-second-revised-edition-michael-edward-moseley-z-lib.org, OCR metin; bölüm 9 gövdesi bu metinde YOK, okunamadı): \"the archaeological record indicates that Inca political development began as a gradual process shortly after AD 1000\" | ms1 künyesi (kuzco-krallik; yeniden yazılmadı): 'Killke Cuzco was apparently a young señorío, likely confederated with Chokepukio by about AD 1200' (Moseley 2001, böl. 9; bu oturumda açılamadı) | f=1200: ms1 künye f. · DOGU-500-1281"},{f:"1281-01-01",t:"1438-01-01",d:"inka-imparatorlugu"},
      {f:"1438-01-01",t:"1533-11-15",d:"inka-imparatorlugu"},
      {f:"1533-11-15",t:"1542-11-20",d:"ispanya"},
      {f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},
@@ -680,7 +680,7 @@ window.YERLESIMLER_AMERIKA = [
 // ---------- Chimú (ÖNERİLEN KİMLİK: chimu-krallik) ----------
 
 { ad:"Chan Chan", tur:"sehir", lat:-8.0989, lon:-79.0742, g:2, k:2,
-  s:[{f:"1281-01-01",t:"1470-01-01",d:"chimu-krallik"},
+  s:[{f:"1200-01-01",t:"1281-01-01",d:"chimu-krallik",kesinlik:"yuzyil",kaynak:"Olah G. ve ark., «Ancient DNA and spatial modeling reveal a pre-Inca trans-Andean parrot trade», Nature Communications 17, 2117 (2026), doi:10.1038/s41467-026-69167-9 (Europe PMC PMC12976122 tam metin okundu; Chimú cümlesi kendi atıflarına [53,54,115] dayanır, onlar açılmadı): \"The Chimú Empire (1200–1470 CE) succeeded the Moche and Sicán cultures and conquered much of the Peruvian coast before it was conquered by the Incas\" | q: 'Chan Chan is the vast capital of the Chimú Empire' (aynı kaynak) | f=1200: BU kaynağın başlangıcı (künye chimu-krallik f=1000: Store norske 'ca. 1000-1470', bu oturumda açılmadı) → 1000-1200 arası BEYANLI BOŞLUK DEĞİL, yamada YAZILMADI (devam_gerekli kapsamı dışı: 0500→1200 başka işçi/kaynak). · DOGU-500-1281"},{f:"1281-01-01",t:"1470-01-01",d:"chimu-krallik"},
      {f:"1470-01-01",t:"1532-11-16",d:"inka-imparatorlugu"},
      {f:"1532-11-16",t:"1542-11-20",d:"ispanya"},
      {f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},
@@ -690,7 +690,7 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: Chimú Krallığı'nın başkenti — k:2
 
 { ad:"Túcume", tur:"sehir", lat:-6.5167, lon:-79.8167, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1375-01-01",d:"chimu-krallik"},
+  s:[{f:"0500-01-01",t:"1100-01-01",d:"__BOSLUK__",kesinlik:"yuzyil",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Túcume'nin 1100 öncesi sahibi/varlığı — Encyclopedia.com 'Sican': yeni başkent 1050-1100 dolaylarında 'El Purgatorio, near Tucume'de kuruldu; yerleşimin öncesi kaynakta yok (Shimada birincil yayınları ve Heyerdahl/Narváez Túcume monografileri açılmadı). Abi merkez: Batán Grande (Sicán başkenti) 1050'ye kadar — Túcume'nin ona bağlı olduğu kaynakta yok | f=0500-01-01 UFUK SINIR İŞARETİDİR · DOGU-500-1281"},{f:"1100-01-01",t:"1281-01-01",d:"sican",kesinlik:"yuzyil",kaynak:"Encyclopedia.com, 'Sican', https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sican (curl ile okundu; yazar sayfada dogrulanmadi) | «a new capital was established farther west at El Purgatorio, near Tucume, marking the onset of the Late Sican (1100 to 1375 ce).» | BEYANLI YAKLAŞIKLIK: başkent 'near Túcume' (El Purgatorio), atlas Túcume noktası ona ~5 km; Late Sicán boyunca Túcume bölgesi Sicán toprağı kabul edildi. ÇELİŞKİ: atlas zinciri 1281-1375 arasını chimu-krallik gösterir; Encyclopedia.com Chimú fethini ~1375 verir → mevcut zincirin ilk iki dilimi için düzeltme önerisi (RAPOR) · DOGU-500-1281"},{f:"1281-01-01",t:"1375-01-01",d:"chimu-krallik"},
      {f:"1375-01-01",t:"1470-01-01",d:"chimu-krallik"},
      {f:"1470-01-01",t:"1532-11-16",d:"inka-imparatorlugu"},
      {f:"1532-11-16",t:"1542-11-20",d:"ispanya"},
@@ -703,7 +703,7 @@ window.YERLESIMLER_AMERIKA = [
 // ---------- Aymara / Titicaca (ÖNERİLEN KİMLİK: colla-krallik, lupaqa-krallik) ----------
 
 { ad:"Hatun Colla", tur:"sehir", lat:-15.4667, lon:-70.0333, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1450-01-01",d:"colla-krallik"},
+  s:[{f:"1100-01-01",t:"1281-01-01",d:"aymara-senyorlukler",kesinlik:"yuzyil",kaynak:"Michael E. Moseley, The Incas and Their Ancestors, rev. ed., Thames & Hudson, 2001, böl. 1 'Introduction' (archive.org: the-incas-and-their-ancestors-second-revised-edition-michael-edward-moseley-z-lib.org, OCR metin; bölüm 9 gövdesi bu metinde YOK, okunamadı): \"Tiwanaku’s agrarian fortunes were undone by the aD 1100 onset of pro- tracted drought that ultimately dropped lake levels by some 12 m\" | Michael E. Moseley, The Incas and Their Ancestors, rev. ed., Thames & Hudson, 2001, böl. 1 'Introduction' (archive.org: the-incas-and-their-ancestors-second-revised-edition-michael-edward-moseley-z-lib.org, OCR metin; bölüm 9 gövdesi bu metinde YOK, okunamadı): \"Credited with subjugating the Lupaka, Colla, and other kingdoms around Lake Titicaca\" | BEYANLI YAKLAŞIKLIK: Hatuncolla'nın Colla başkenti olduğu ms1 künyesinde (Moseley bölüm 9; açılamadı); doğrudan tanık bu oturumda yok. · DOGU-500-1281"},{f:"1281-01-01",t:"1450-01-01",d:"colla-krallik"},
      {f:"1450-01-01",t:"1533-01-01",d:"inka-imparatorlugu"},
      {f:"1533-01-01",t:"1542-11-20",d:"ispanya"},
      {f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},
@@ -712,7 +712,7 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: Colla Krallığı'nın başkenti — k:3
 
 { ad:"Chucuito", tur:"sehir", lat:-15.8884, lon:-69.7666, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1450-01-01",d:"lupaqa-krallik"},
+  s:[{f:"1100-01-01",t:"1281-01-01",d:"aymara-senyorlukler",kesinlik:"yuzyil",kaynak:"Michael E. Moseley, The Incas and Their Ancestors, rev. ed., Thames & Hudson, 2001, böl. 1 'Introduction' (archive.org: the-incas-and-their-ancestors-second-revised-edition-michael-edward-moseley-z-lib.org, OCR metin; bölüm 9 gövdesi bu metinde YOK, okunamadı): \"Tiwanaku’s agrarian fortunes were undone by the aD 1100 onset of pro- tracted drought that ultimately dropped lake levels by some 12 m\" | Michael E. Moseley, The Incas and Their Ancestors, rev. ed., Thames & Hudson, 2001, böl. 1 'Introduction' (archive.org: the-incas-and-their-ancestors-second-revised-edition-michael-edward-moseley-z-lib.org, OCR metin; bölüm 9 gövdesi bu metinde YOK, okunamadı): \"Credited with subjugating the Lupaka, Colla, and other kingdoms around Lake Titicaca\" | BEYANLI YAKLAŞIKLIK: Chucuito'nun bu tarihte merkez olduğuna dair doğrudan tanık YOK (Moseley bölüm 9 açılamadı); f=1100 Tiwanaku sonrası ms1 künye f'sidir; Lupaka 'krallık'ı 16. yy etiketi (ms1 ic_not). · DOGU-500-1281"},{f:"1281-01-01",t:"1450-01-01",d:"lupaqa-krallik"},
      {f:"1450-01-01",t:"1533-01-01",d:"inka-imparatorlugu"},
      {f:"1533-01-01",t:"1542-11-20",d:"ispanya"},
      {f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},
@@ -775,7 +775,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Cahokia", tur:"sehir", lat:38.6553, lon:-90.0614, g:2, k:2,
   bit:"1350-01-01",
-  s:[{f:"1281-01-01",t:"1350-01-01",d:"cahokia"}] },
+  s:[{f:"1050-01-01",t:"1281-01-01",d:"cahokia",kesinlik:"onyil",kaynak:"Kessler N. V., Benson E. M., Pauketat T. R., Kirk J. D., Therrell M. D., «Age and origin of a Cahokian wooden monument at the Mitchell site, Illinois, USA», PLOS ONE 20, e0333783 (2025), doi:10.1371/journal.pone.0333783 (Europe PMC PMC12494245 tam metin okundu): \"Cahokia emerged spectacularly as the largest city north of modern-day Mexico around 1050 CE\" | Kessler N. V., Benson E. M., Pauketat T. R., Kirk J. D., Therrell M. D., «Age and origin of a Cahokian wooden monument at the Mitchell site, Illinois, USA», PLOS ONE 20, e0333783 (2025), doi:10.1371/journal.pone.0333783 (Europe PMC PMC12494245 tam metin okundu): \"By around 1100 CE, Cahokia was the preeminent political and administrative center in the “Mississippian” midcontinent and Southeast, but its population and influence began to decline before 1200 CE\" | f=1050: atlas künyesi cahokia f (kaynak 'around 1050'); 1050 öncesi bölge sahipsiz (Cahokia yok). · DOGU-500-1281"},{f:"1281-01-01",t:"1350-01-01",d:"cahokia"}] },
 // kaynak: Timothy R. Pauketat, "Cahokia: Ancient America's Great City on the Mississippi" (2009).
 // 1281'de zirvesini (~1100) geçmiş, gerileme sürecindeydi ama hâlâ meskûndu; terk 1350-1400 arası.
 // 🟢 DÜZELTME (14 Ağustos, koordinatör M-0047 hükmü): `kasitli_bosluk`/`bos:` KALDIRILDI,

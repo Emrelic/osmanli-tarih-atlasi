@@ -1,0 +1,163 @@
+[
+ {
+  "id": "srivijaya-ref",
+  "tip": "kunye-duzeltme-adayi (yeni polity DEĞİL)",
+  "mevcut_id": "srivijaya",
+  "mevcut_f": "0683-01-01",
+  "mevcut_t": "1275-01-01",
+  "duzeltmeler": [
+   {
+    "alan": "f",
+    "mevcut": "0683-01-01",
+    "onerilen": "0682-04-23",
+    "kesinlik": "gun",
+    "gerekce": "Kedukan Bukit yazıtı (Palembang): kral 23 Nisan 682'de seferine (siddhayatra) çıktı, 19 Mayıs'ta nehir ağzından ayrıldı, yaklaşık bir ay sonra zafer; Coedès Damais'nin hesabını benimser (van Wijk 683 Nisan/Mayıs hesabı farklı: Coedès dipnot 9). I-tsing 671'de ilk seyahatinde Fo-shih'te altı ay kaldı: devlet 671'den önce de var (en erken tanık). Karar: 682 ilk TARİHLİ belge, 'kuruluş' değil; f'yi 671'e çekmek ya da 682-04-23'te tutmak ana oturumun kararı."
+   },
+   {
+    "alan": "t",
+    "mevcut": "1275-01-01",
+    "onerilen": "yaklaşık 1290'lar (Coedès: 13. yy sonunda 'ceased to exist'); 1275 yalnız Cava'nın Pamalayu seferi ve boğazların hakimiyetinin kaybı",
+    "kesinlik": "yil",
+    "gerekce": "Coedès: 1275 Cava seferi 'snatched mastery of the straits from the heir of Srivijaya'; 'at the end of the thirteenth century the empire of the maharaja had ceased to exist'; Marco Polo (1292) artık 'maharaca imparatorluğu' değil sekiz ayrı devlet görür. Hall: Moğol döneminde (1278-1367) gerileme, 1330'da Samudra, Lamuri, Perlak bağımsız. 1275 → 'Srivijaya'nın deniz hakimiyetinin sonu', polity sonu için 1290'lar/14. yy tartışmalı; 1377 Majapahit/Ming (okunmadı)."
+   }
+  ],
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (okundu), Bölüm VI-1 (Kedukan Bukit, I-tsing 671) ve Bölüm XII-7 (Srivijaya'nın çöküşü, 1275)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (okundu), Mongol dönemi (1278-1367) bölümü"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ozet": "Deniz ticaret imparatorlugu.",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Kedukan Bukit 683; Chola 1025 sonrasi gerileme; 1275 yerine ~1290-1377 farkli",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "srivijaya",
+   "not": "Mevcut künye düzeltme adayı; yeni polity değil."
+  }
+ },
+ {
+  "id": "pagan-ref",
+  "tip": "kunye-duzeltme-adayi (yeni polity DEĞİL)",
+  "mevcut_id": "pagan",
+  "mevcut_f": "0849-01-01",
+  "mevcut_t": "1297-01-01",
+  "duzeltmeler": [
+   {
+    "alan": "f",
+    "mevcut": "0849-01-01",
+    "onerilen": "1044-01-01 (Anawrahta'nın tahta çıkışı) ya da 849 'şehrin surlanması'; hangisinin kuruluş olacağı karar",
+    "kesinlik": "yil",
+    "gerekce": "Coedès ve Harvey: 849'da şef Pyinbya Pagan'ı surla çevirdi (yıllıklara göre 'Pagan entered definitively into history'); Harvey: o zamana dek küçük bir şef yönetimi, sonraki şef yönetimleri (Nyaung-u Sawrahan 931-64) kroniklere dayanır. Pagan 'krallığı' olarak devlet Anawrahta (1044-77) ile başlar; Coedès 'the kingdom of Pagan, which at the beginning was still small'. Atlas künyesi 'Pagan Krallığı - Son Dönem' f=849: ad ve f uyumsuz; öneri f=1044 (krallık) ve 849-1044 'Pagan şefliği' ayrı/ic_not."
+   },
+   {
+    "alan": "t",
+    "mevcut": "1297-01-01",
+    "onerilen": "1287 (Moğol işgali ve Narathihapate'nin ölümü) / 1297 (Shan kardeşlerin Kyawswa'yı devirmesi)",
+    "kesinlik": "yil",
+    "gerekce": "Hall: Narathihapate (1256-87) 1283'te Tartar işgali karşısında başkenti terk etti, 'sealed the fate of his kingdom'; Harvey kronoloji tablosu 1287 ve 1289-98 kayıtları (OCR). Mevcut 1297 geçerli bir seçimdir (nominal Pagan krallığının Myinsaing kardeşlerce kaldırılışı); 1287 efektif çöküştür. Fark 10 yıl; düzeltme zorunlu değil."
+   }
+  ],
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (okundu), Bölüm VII-3 (849 Pyinbya), Bölüm IX-6 (Anoratha 1044-77)",
+   "Harvey, G. E., History of Burma (London: Longmans, 1925); archive.org/details/historyofburmafr00harv (okundu), 'Burma before 1044' (849 Pyinbya duvarı)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (okundu), Pagan çöküşü (Narathihapate 1256-87)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ozet": "Pagan, Pyinbya'nın 849'da şehri surla çevirmesiyle tarihe girer; Anawrahta (1044-77) Thaton'u alıp Irrawaddy havzasını birleştirdi; 1283-87'de Moğol/Nanzhao saldırıları ve Narathihapate'nin kaçışıyla çöktü.",
+  "ic_not": "Coedès: 'In 849, Pagan entered definitively into history... with the construction of its city walls by the king Pyinbya' (yıllıklar); Anawrahta 1044-77, Thaton 1057; Harvey: 'Pagan first became of importance in 849 when the chief, Pyinbya, enclosed it in a wall'. Hall: Narathihapate 1256-87, 1283'te başkenti terk, 'Moğollar...'; Harvey'in tablosunda 1287 ve 1289-98 kayıtları (OCR). f=849 kasabanın tarihe girişi; devlet olarak 'Pagan Krallığı' için Anawrahta 1044 daha savunulabilir (REF dosyasına bakınız). t=1297 Shan kardeşlerin Kyawswa'yı devirmesi; Moğol işgali 1287.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "pagan",
+   "not": "Mevcut künye düzeltme adayı; yeni polity değil."
+  }
+ },
+ {
+  "id": "hariphunchai-ref",
+  "tip": "kunye-duzeltme-adayi (yeni polity DEĞİL)",
+  "mevcut_id": "hariphunchai",
+  "mevcut_f": "1000-01-01",
+  "mevcut_t": "1292-01-01",
+  "duzeltmeler": [
+   {
+    "alan": "f",
+    "mevcut": "1000-01-01",
+    "onerilen": "gelenek ~750 (Chammadevi efsanesi, tarihsiz); güvenilir tanık: 11. yy ilk yarısı Haripunjaya'dan Mon göçü; 12. yy Mon yazıtlı hanedan",
+    "kesinlik": "yuzyil",
+    "gerekce": "Hall: Haripunjaya 'said to have been founded by a queen of Lopburi' (Chammadevi), Mon devlet; Coedès: efsane Lavo'dan Chammadevi, 12. yüzyılda Mon dilli yazıtlı hanedan, 11. yüzyıl ilk yarısında Haripunjaya'dan kolera ve Khmer baskısıyla Mon göçü. f=1000 kaynakta desteklenmiyor; gelenek ~7.-8. yy (okunan metinlerde net yıl yok)."
+   },
+   {
+    "alan": "t",
+    "mevcut": "1292-01-01",
+    "onerilen": "1292 (Hall: 1290-2)",
+    "kesinlik": "yil",
+    "gerekce": "Hall: Mangrai Haripunjaya'yı 1290-2'de fethedip Chiengmai'yi kurdu; mevcut t=1292 Hall'la uyumlu."
+   }
+  ],
+  "kaynak": [
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (okundu), Bölüm 5-6 (Haripunjaya, Mangrai 1290-2)",
+   "Coedès, G., The Indianized States of Southeast Asia (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (okundu), Bölüm V-4 ve XI-5 (Haripunjaya Mon hanedanı, 12. yy yazıtları)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ozet": "Mae Ping vadisinde (Lamphun) Mon krallığı; efsaneye göre Lavo'dan Kraliçe Chammadevi kurdu; 1290-92'de Mangrai fethedip Chiang Mai'yi kurdu.",
+  "ic_not": "Hall: 'Mangrai conquered the old Mon state of Haripunjaya ... in 1290-2' (t=1292 uyumlu); kuruluş 'said to have been founded by a queen of Lopburi' (Chammadevi) - efsanevi tarih. Coedès: 12. yüzyılda Mon yazıtlı hanedan. f=1000 kaynakta desteklenmedi; gelenek ~750. Düzeltme adayı: REF dosyasına bakınız.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "hariphunchai",
+   "not": "Mevcut künye düzeltme adayı; yeni polity değil."
+  }
+ },
+ {
+  "id": "lan-na-ref",
+  "tip": "kunye-duzeltme-adayi (yeni polity DEĞİL)",
+  "mevcut_id": "lan-na",
+  "mevcut_f": "1262-01-01",
+  "mevcut_t": "1558-01-01",
+  "duzeltmeler": [
+   {
+    "alan": "f",
+    "mevcut": "1262-01-01",
+    "onerilen": "1290-1292 (Hall: Mangrai'nin Haripunjaya fethi ve Chiengmai krallığının kuruluşu); Chiang Rai şefliği 1262 civarı okunmadı",
+    "kesinlik": "yil",
+    "gerekce": "Hall: 'Mangrai, the T'ai Chief of Chieng Rai, conquered the old Mon state of Haripunjaya in 1290-2 and founded the kingdom of Chiengmai'; 1287'de Mangrai, Ramkhamhaeng ve Ngam Muong paktı. Atlas f=1262 (Mengrai'nin Chiang Rai'de tahta çıkışı geleneği?) bu oturumda kaynakla desteklenmedi. Lan Na adlı krallık için 1290-92 Hall'a göre, 1296 Chiang Mai şehrinin kuruluşu yaygın (okunmadı); Ngoenyang/Chiang Saen ile süreklilik tartışmalı."
+   }
+  ],
+  "kaynak": [
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (okundu), Bölüm 'Thai kingdoms' (Mangrai 1287, 1290-2)",
+   "Coedès, G., The Indianized States of Southeast Asia (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (okundu), Bölüm XI-5"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ozet": "Mengrai'nin Chiang Rai'den yükselip Haripunjaya'yı 1290-92'de alarak Chiang Mai'yi başkent yaptığı kuzey Tay krallığı.",
+  "ic_not": "Hall: Mangrai 'T'ai Chief of Chieng Rai', 1290-2'de Haripunjaya'yı fethedip Chiengmai krallığını kurdu; 1287 Phayao/Sukhothai ile pakt. Atlas f=1262 (Mengrai'nin Chiang Rai'de/Ngoenyang'da yükselişi?) Hall'da yok; Hall'a göre krallığın 'kuruluşu' 1290-92 (Chiang Mai'nin kuruluşu 1296 yaygın ama okunmadı). Düzeltme adayı.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "lan-na",
+   "not": "Mevcut künye düzeltme adayı; yeni polity değil."
+  }
+ },
+ {
+  "id": "sunda-pajajaran-ref",
+  "tip": "kunye-duzeltme-adayi (yeni polity DEĞİL)",
+  "mevcut_id": "sunda-pajajaran",
+  "mevcut_f": "0669-01-01",
+  "mevcut_t": "1527-01-01",
+  "duzeltmeler": [
+   {
+    "alan": "f",
+    "mevcut": "0669-01-01",
+    "onerilen": "1030 (Cibadak yazıtı, Sunda kralı Sri Jayabhupati: adı geçen en eski belge); 10. yy Kebon Kopi yazıtı yalnız Hindu kültürünü gösterir",
+    "kesinlik": "yil",
+    "gerekce": "Majumdar (Suvarnadvipa, Kitap III Bölüm VIII 'Sunda'): Purnavarman'dan sonra Batı Cava tarihi 'very meagre'; 10. yy Kebon Kopi yazıtı; 1030 tarihli Cibadak yazıtı Sunda'nın ayrı bir krallık olduğunu ve 'earliest document containing the name of Sunda' olduğunu gösterir; Chau Ju-kua: 12. yy sonunda San-fo-tsi'ye bağlı, düzenli yönetimi yok; Nag. Kr. (1365) Kritanagara vasalı sayar ama bağımsız doğrulama yok; 1260-1360 arasında 'separate kingdom'; 1357 Bubat olayı; Batu Tulis yazıtı Pakwan Pajajaran kralları. f=669 (taslak, Wangsakerta geleneği) kaynakla desteklenmedi; Coedès: Taruma 666-69'dan sonra anılmaz. Taruma ile süreklilik kanıtsız."
+   }
+  ],
+  "kaynak": [
+   "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (bu oturumda okundu), Kitap III, Bölüm VIII 'Sunda' (s. 356-358)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ozet": "Tarumanagara ardili.",
+  "ic_not": "Majumdar okundu; bkz. duzeltmeler.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "sunda-pajajaran",
+   "not": "f düzeltme adayı: 669 → 1030 (en erken kaynaklı tanık)."
+  }
+ }
+]

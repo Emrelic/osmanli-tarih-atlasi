@@ -1,0 +1,4 @@
+import re, subprocess
+ids = "abd-ordu-askeri-hukumeti-kore ava ayutthaya badami-calukya bati-calukya chamba cin-cumhuriyeti cin-halk-cumhuriyeti cola delhi-sultanligi dogu-calukya dogu-ganga goryeo guney-kore hindistan-cumhuriyeti hoysala ingiliz-burma ingiliz-hindistani japon-kore jin-hanedani joseon konbaung madurai-sultanligi meysur ming-hanedani mogol-imparatorlugu myanmar-birmanya nayak-devletleri orissa pallava pandya qing-hanedani rastrakuta sakya seylan-sinhala siyam-chakri song sonraki-han-5hanedan sonraki-jin-5hanedan sonraki-liang-5hanedan sonraki-tang-5hanedan sonraki-zhou-5hanedan tancur-maratha tibet tibet-ganden-phodrang tonburi toungoo vijayanagara yuan-hanedani".split()
+t = open(r'C:\atlas\.claude\worktrees\dogu\arac\renkler.py', encoding='utf8').read()
+print([i for i in ids if '"%s"' % i not in t and "'%s'" % i not in t])

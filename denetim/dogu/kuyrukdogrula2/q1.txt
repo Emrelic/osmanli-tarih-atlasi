@@ -1,0 +1,2 @@
+cambridgehistory03wols	Ranth.{0,3}mb.{0,3}r|Ranthambh|Rantambh	300	8
+cambridgehistory04raps	Ranth.{0,3}mb.{0,3}r|Ranthambh|Rantambh	300	6

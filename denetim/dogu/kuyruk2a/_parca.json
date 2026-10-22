@@ -1,0 +1,2044 @@
+{
+ "Astrahan": {
+  "yama": [
+   {
+    "dosya": "bozkir1/yama_bozkir1.js",
+    "onek": [
+     {
+      "f": "0500-01-01",
+      "t": "0732-01-01",
+      "d": "__BOSLUK__",
+      "kesinlik": "yil",
+      "kaynak": "BOŞLUK BEYANI: arandı, bulunamadı: İdil ağzı (Astrahan yöresi) 500-732 sahibi: TDV Hazarlar merkezin VII. yüzyıl sonuna kadar Belencer’de (Dağıstan) olduğunu, İtil’e sonradan taşındığını söyler; bölge o devirde Hazar’a mı Batı Göktürk’e mi bağlıydı tek kaynakta ayrışmadı | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı 0500-01-01; önceki sahiplik bu kümenin işi değil)"
+     },
+     {
+      "f": "0732-01-01",
+      "t": "0965-01-01",
+      "d": "hazar",
+      "kesinlik": "yil",
+      "kaynak": "ABİ MERKEZ: İtil — TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «732’de Azerbaycan-İrmîniye valiliğine getirilen Mervân b. Muhammed 40.000 kişilik bir ordu ile Hazarlar üzerine büyük bir sefer yaptı … 150.000 kişilik bir ordu ile iki koldan yeni Hazar başşehri İdil’e ilerledi» | «Daha sonra İslâm ordularının baskısıyla idare merkezinin taşındığı İdil nehrinin ağzında» | «965’te hakanın Hârizmliler’e sığınması» | BEYANLI YAKLAŞIKLIK: İtil’in kesin yeri bilinmiyor (Astrahan yakınları); 732 = ilk TARİHLİ tanık, kuruluş değil. t=0965-01-01 yıl; 965-1281 arası bu kümenin işi değil."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0732-01-01",
+    "devlet": "hazar",
+    "taraflar": [
+     "hazar"
+    ],
+    "b": "Mervân b. Muhammed’in seferiyle «yeni Hazar başşehri» İtil (İdil ağzı) tanıklandı; bölge Hazar Kağanlığı’nda",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "İtil (İdil ağzı)",
+    "yer_id": "Astrahan",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "İtil (İdil ağzı) (atlas yerleşimi «Astrahan») 0732-01-01 gününde hazar egemenliğine geçti: Mervân b. Muhammed’in seferiyle «yeni Hazar başşehri» İtil (İdil ağzı) tanıklandı; bölge Hazar Kağanlığı’nda.",
+    "kaynak": "ABİ MERKEZ: İtil — TDV İslâm Ansiklopedisi, «Hazarlar» md., https://islamansiklopedisi.org.tr/hazarlar (bu oturumda okundu): «732’de Azerbaycan-İrmîniye valiliğine getirilen Mervân b. Muhammed 40.000 kişilik bir ordu ile Hazarlar üzerine büyük bir sefer yaptı … 150.000 kişilik bir ordu ile iki koldan yeni Hazar başşehri İdil’e ilerledi» | «Daha sonra İslâm ordularının baskısıyla idare merkezinin taşındığı İdil nehrinin ağzında» | «965’te hakanın Hârizmliler’e sığınması» | BEYANLI YAKLAŞIKLIK: İtil’in kesin yeri bilinmiyor (Astrahan yakınları); 732 = ilk TARİHLİ tanık, kuruluş değil. t=0965-01-01 yıl; 965-1281 arası bu kümenin işi değil.",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   }
+  ]
+ },
+ "Belh": {
+  "yama": [
+   {
+    "dosya": "bozkir1/yama_bozkir1.js",
+    "onek": [
+     {
+      "f": "0500-01-01",
+      "t": "0557-01-01",
+      "d": "eftalit",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh (bu oturumda okundu): «Baktriana Krallığı’nın ve Kuşanlar ile Eftalitler’in (Akhunlar) başşehri oldu» | TDV İslâm Ansiklopedisi, «Tohâristan» md., https://islamansiklopedisi.org.tr/toharistan (bu oturumda okundu): «557’de Akhun Devleti, Göktürk ve Sâsânî imparatorluklarının askerî harekâtı sonucu yıkılınca» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı 0500-01-01; önceki sahiplik bu kümenin işi değil)"
+     },
+     {
+      "f": "0557-01-01",
+      "t": "0651-01-01",
+      "d": "sasani",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh (bu oturumda okundu): «Sâsânîler döneminde (226-651) burada Horasan merzübânlarından biri kalırdı» | BEYAN: TDV Tohâristan 558’den sonra Batı Göktürk yöneticilerinin Tohâristan’a Tong Şad Tseki’yi gönderdiğini söyler; TDV Belh Sâsânî merzübânını esas aldı (Belh Ceyhun’un güneyinde); Göktürk idaresi ikincil/kuzey Tohâristan olarak okundu. 557 yıl hassasiyetli (ay/gün yok)."
+     },
+     {
+      "f": "0651-01-01",
+      "t": "0663-01-01",
+      "d": "__BOSLUK__",
+      "kesinlik": "yil",
+      "kaynak": "BOŞLUK BEYANI: arandı, bulunamadı: TDV Belh «İslâm egemenliğine hangi tarihte girdiği kesin olarak belli değildir» (653 Ahnef b. Kays 700.000 dirhem haraç; 662-63 veya 664 fetih); TDV Tohâristan yabguluğunun merkezini 656-660’ta Kunduz güneyindeki Vervâlîz’e koyar. Abi merkez adayları (Merv, Kunduz) Belh’in kaderini paylaştığını gösteren kaynak bulunamadı"
+     },
+     {
+      "f": "0663-01-01",
+      "t": "0750-01-01",
+      "d": "emevi",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh (bu oturumda okundu): «Belh 42 (662-63) veya 43’te (664) Kays b. Heysem veya Abdurrahman b. Semüre tarafından fethedildi» | «709’da Vali Kuteybe b. Müslim’e karşı ayaklanan Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da daha sonra Kuteybe’nin gönderdiği kuvvetlere yenildi» | «Belh 725’e kadar harabe halinde kaldı» | «735’te … Belh’i merkez yaptı» | BEYAN: fetih 42 veya 43 (662-664) ikilisi; hicrî 43 başı = Jülyen 0663-04-15 → yıl hassasiyetiyle 0663 seçildi. Emevî→Abbâsî geçişi (747-750) bu kümenin dışında; t=0750-01-01 devir işaretidir."
+     }
+    ]
+   },
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0900-01-07",
+      "t": "0999-01-01",
+      "d": "samani",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Saffârî Emîri Amr b. Leys’i Belh savaşında yenerek esir aldı ve onu Bağdat’a gönderdi (287/900). Bu başarısından dolayı kendisine halife tarafından Horasan, Taberistan ve Deylem’in hâkimiyet menşurları verildi.») (bu oturumda okundu)",
+      "ic_not": "f = hicrî 287 ilk günü ∩ 900 (TDV «287/900» yıl hassasiyeti; Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.) BEYANLI YAKLAŞIKLIK: halife İsmâil b. Ahmed'e Horasan'ın bütününün hâkimiyet menşurunu verdi; bu şehrin kendisinin Sâmânîlere geçiş günü TDV'de yok (şehir-düzeyi devir cümlesi aranıp bulunamadı: Sâmânîler md.). ABİ MERKEZ: Belh (Amr b. Leys'in yenildiği yer)."
+     },
+     {
+      "f": "0999-01-01",
+      "t": "1040-05-23",
+      "d": "gazneli",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+      "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı. t = Selçuklu devri (aşağıdaki sınır maddesi); sonrası (Büyük Selçuklu → ... → mevcut zincir) başka kümenin işi: devam_gerekli."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0557-01-01",
+    "devlet": "sasani",
+    "taraflar": [
+     "sasani",
+     "eftalit"
+    ],
+    "b": "Eftalit devletinin yıkılışı sonrası Belh Sâsânî merzübânlığında kaldı",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Belh",
+    "yer_id": "Belh",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Belh (atlas yerleşimi «Belh») 0557-01-01 gününde sasani egemenliğine geçti: Eftalit devletinin yıkılışı sonrası Belh Sâsânî merzübânlığında kaldı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh (bu oturumda okundu): «Sâsânîler döneminde (226-651) burada Horasan merzübânlarından biri kalırdı» | BEYAN: TDV Tohâristan 558’den sonra Batı Göktürk yöneticilerinin Tohâristan’a Tong Şad Tseki’yi gönderdiğini söyler; TDV Belh Sâsânî merzübânını esas aldı (Belh Ceyhun’un güneyinde); Göktürk idaresi ikincil/kuzey Tohâristan olarak okundu. 557 yıl hassasiyetli (ay/gün yok).",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0651-01-01",
+    "devlet": "sasani",
+    "taraflar": [
+     "sasani"
+    ],
+    "b": "Sâsânî düşüşünden Arap fethine kadar Belh’in sahibi kaynakta tek devlete bağlanamadı",
+    "tur": "toprak-kayip",
+    "onem": 1,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Belh",
+    "yer_id": "Belh",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Belh (atlas yerleşimi «Belh») 0651-01-01 gününde sasani egemenliğinden çıktı; yeni sahibi kaynakta belirsiz: Sâsânî düşüşünden Arap fethine kadar Belh’in sahibi kaynakta tek devlete bağlanamadı.",
+    "kaynak": "BOŞLUK BEYANI: arandı, bulunamadı: TDV Belh «İslâm egemenliğine hangi tarihte girdiği kesin olarak belli değildir» (653 Ahnef b. Kays 700.000 dirhem haraç; 662-63 veya 664 fetih); TDV Tohâristan yabguluğunun merkezini 656-660’ta Kunduz güneyindeki Vervâlîz’e koyar. Abi merkez adayları (Merv, Kunduz) Belh’in kaderini paylaştığını gösteren kaynak bulunamadı",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0663-01-01",
+    "devlet": "emevi",
+    "taraflar": [
+     "emevi"
+    ],
+    "b": "Araplar Belh’i fethetti (hicrî 42-43)",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Belh",
+    "yer_id": "Belh",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Belh (atlas yerleşimi «Belh») 0663-01-01 gününde emevi egemenliğine geçti: Araplar Belh’i fethetti (hicrî 42-43).",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Belh» md., https://islamansiklopedisi.org.tr/belh (bu oturumda okundu): «Belh 42 (662-63) veya 43’te (664) Kays b. Heysem veya Abdurrahman b. Semüre tarafından fethedildi» | «709’da Vali Kuteybe b. Müslim’e karşı ayaklanan Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da daha sonra Kuteybe’nin gönderdiği kuvvetlere yenildi» | «Belh 725’e kadar harabe halinde kaldı» | «735’te … Belh’i merkez yaptı» | BEYAN: fetih 42 veya 43 (662-664) ikilisi; hicrî 43 başı = Jülyen 0663-04-15 → yıl hassasiyetiyle 0663 seçildi. Emevî→Abbâsî geçişi (747-750) bu kümenin dışında; t=0750-01-01 devir işaretidir.",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0999-01-01",
+    "devlet": "gazneli",
+    "taraflar": [
+     "gazneli",
+     "samani"
+    ],
+    "b": "Belh: Horasan Sâmânîlerden Gaznelilere geçti",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Belh",
+    "yer_id": "Belh",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Sâmânîler Gazneli ordusuna yenilince (389/999) Horasan topraklarını kaybetti; Mahmud Horasan'da iktidarını sağlamlaştırdı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1040-05-23",
+    "devlet": "buyuk-selcuklu",
+    "taraflar": [
+     "buyuk-selcuklu",
+     "gazneli"
+    ],
+    "b": "Belh: Gazneli hâkimiyeti sona erdi, Selçuklu hâkimiyeti başladı",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Belh",
+    "yer_id": "Belh",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Çağrı Bey merkezli Merv payına (Serahs ve Belh dahil) Dandanakan zaferinden sonra verildi; Belh'in fiilî giriş günü yok: BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Merv).",
+    "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Selçuklular\" md., 2009, https://islamansiklopedisi.org.tr/selcuklular («Serahs ve Belh’in dahil olduğu Ceyhun ile Gazne arasındaki bölge, merkezi Merv olmak üzere Çağrı Bey’e, Herat merkez olmak üzere Büst ve Sîstan yöresi Mûsâ Yabgu’ya verildi.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Ali Sevim, \"Dandanakan Savaşı\" md., 1993, https://islamansiklopedisi.org.tr/dandanakan-savasi («üç gün devam eden ve 8 Ramazan 431 (23 Mayıs 1040) günü sona eren savaşta») (bu oturumda okundu)",
+    "gun": "gün",
+    "kesinlik": "gun",
+    "ic_not": "8 Ramazan 431 Cuma / 23 Mayıs 1040 TDV'de iki takvimle verilir (tablo çevirisi aynı gün). Selçuklu hâkimiyeti şehir düzeyinde Dandanakan sonrası taksimle başladı.",
+    "sinir_id": []
+   }
+  ]
+ },
+ "Buhara": {
+  "yama": [
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0874-10-16",
+      "t": "0992-05-07",
+      "d": "samani",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («261 (874-75) yılında Mâverâünnehir’in idaresini bir fermanla Nasr b. Ahmed’e verdi. Sâmânîler’in bölgedeki hâkimiyetlerinin halife tarafından onaylandığı bu tarih bazı araştırmacılarca devletin kuruluş tarihi olarak kabul edilmektedir. Nasr, aynı yıl Buhara halkının isteği üzerine kardeşi İsmâil b. Ahmed’i bu şehre vali tayin etti.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Nasr’ın ölümüyle (279/892) hâkimiyet İsmâil b. Ahmed’in eline geçti ve Buhara başşehir yapıldı.») (bu oturumda okundu)",
+      "ic_not": "f = hicrî 261 yılının ilk günü (Muharrem 261 ≈ 0874-10-16); TDV «874-75» der, yıl hassasiyeti. Buhara 874-75'te Nasr'ın emriyle İsmâil b. Ahmed'e verildi; 892'den başşehir. Önceki sahip (Tâhirîler 819-873) başka kümenin işidir."
+     },
+     {
+      "f": "0992-05-07",
+      "t": "0992-08-18",
+      "d": "karahanli",
+      "kesinlik": "ay",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Hârun Buğra Han harekete geçip Buhara’yı ele geçirdi (Rebîülevvel 382 / Mayıs 992).») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («992 başlarında Semerkant’ı aldıktan sonra Sâmânî başşehri Buhara’yı ele geçirdi.») (bu oturumda okundu)",
+      "ic_not": "Rebîülevvel 382 ∩ Mayıs 992 = 0992-05-07. Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı."
+     },
+     {
+      "f": "0992-08-18",
+      "t": "0999-10-14",
+      "d": "samani",
+      "kesinlik": "gun",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («II. Nûh Selçuklu Türkmenleri’nin de yardımıyla tekrar Buhara’ya hâkim oldu (15 Cemâziyelâhir 382 / 18 Ağustos 992).») (bu oturumda okundu)",
+      "ic_not": "f gün: 15 Cemâziyelâhir 382 / 18 Ağustos 992 (TDV iki takvimi birlikte verir; tablo çevirisi de aynı günü verir). t = Zilkade 389 ∩ Ekim 999 (ay hassasiyeti)."
+     },
+     {
+      "f": "0999-10-14",
+      "t": "1000-01-01",
+      "d": "karahanli",
+      "kesinlik": "ay",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («II. Abdülmelik’in Fâik el-Hâssa ve Begtüzün’ün denetimindeki kısa saltanatı Karahanlılar’ın Buhara’yı işgaliyle son buldu (Zilkade 389 / Ekim 999).») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («iki yıl sonra hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara’yı zaptetti (389/999).») (bu oturumda okundu)",
+      "ic_not": "Zilkade 389 ∩ Ekim 999 = 0999-10-14. Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı. t=1000-01-01 mevcut zincirin başıdır (karahanli). BEYAN: Sâmânîler md. İsmâil el-Müntasır'ın «ertesi yıl» (1000) Buhara'yı yeniden aldığını, Karahanlılar md. 1003'te tahta çıktığını yazar (TDV içi çelişki); bu yamada Müntasır dönemi (≤1005) AYRI DİLİM YAZILMADI — mevcut zincir 1000-01-01'den karahanli gösteriyor; düzeltme önerisi RAPOR.md'de."
+     }
+    ]
+   },
+   {
+    "dosya": "bozkir3/yama_bozkir3.js",
+    "onek": [
+     {
+      "f": "0500-01-01",
+      "t": "0709-01-01",
+      "d": "buhara-hudat",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Müslümanlar bu bölgeye geldikleri sırada şehrin hükümdarına Buhar-hudât (Buhar-hudah = Buhara sahibi) deniliyordu. Bir Çin kaynağına göre bu hânedanın beylerinden biri 627 yılında atalarının yirmi iki batından beri bu şehirde hüküm sürdüklerini söylemiştir.» · f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; gerçek kuruluş/ilk anılış MS 500 öncesi, bu kümenin penceresi dışında) | BEYAN: Eftalit/Batı Göktürk üstünlüğü ve 674 Ubeydullah b. Ziyâd haracı bu dilimde yerel hanedan sahip sayıldı (TDV: «İslâm hâkimiyeti devamlı olmadı»)."
+     },
+     {
+      "f": "0709-01-01",
+      "t": "0750-01-01",
+      "d": "emevi",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Kuteybe b. Müslim 87-90 (706-709) yılları arasındaki seferleri sonunda Buhara halkıyla o yöredeki Türk müttefiklerinin mukavemetini kırdı ve şehre bir Arap garnizonu yerleştirdi.» · «Emevîler zamanında ve Abbâsîler’in ilk devrinde Buhara’da yerli hükümdardan başka Merv’deki Horasan valisi tarafından tayin edilen bir emîr veya âmil bulunuyordu.» | BEYAN: Buhar-hudât hanedanı (Tuğşâde 710-739, Kuteybe, Bünyât) Emevî vasalı kral olarak sürdü; egemenlik Emevî'de alındı. Bitiş 0750-01-01 Abbâsî devrimi yılı (Emevî t=0750-08-05)."
+     },
+     {
+      "f": "0750-01-01",
+      "t": "0821-05-06",
+      "d": "abbasi",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «133 (750-51) yılında Şerîk b. Şeyh’in Abbâsîler’e karşı isyanı üzerine Ebû Müslim’in kumandanı Ziyâd b. Sâlih Buharhudât’ın yardımıyla isyanı bastırdı.» · «Emevîler zamanında ve Abbâsîler’in ilk devrinde Buhara’da yerli hükümdardan başka Merv’deki Horasan valisi tarafından tayin edilen bir emîr veya âmil bulunuyordu.» · «Hârûnürreşîd’in emîri Herseme b. A‘yen tarafından bastırıldı (193/809).» | BEYAN: bitiş 0821-05-06 Tâhirî (Horasan) künyesinin f'sidir; TDV Buhara Tâhirî bağlılığının başlangıcını tarihlemez (TDV: III. (IX.) yy'da valiler Merv'den Nîşâbur'a taşındı)."
+     },
+     {
+      "f": "0821-05-06",
+      "t": "0873-01-01",
+      "d": "tahiri-horasan",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «260 (874) yılına kadar Buhara Sâmânîler’e bağlı değildi. Doğrudan Horasan’daki Tâhirîler’e bağlı bir valinin idaresindeydi.» | BEYAN: başlangıç Tâhirî künyesi f (kaynak: atlas künyesi, TDV Tâhirîler md. okunmadı); bitiş Tâhirî künyesi t (0873-01-01)."
+     },
+     {
+      "f": "0873-01-01",
+      "t": "0874-01-01",
+      "d": "saffari",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Buhara Emîri Ya‘kūb b. Leys es-Saffâr’ın Tâhirîler’i ortadan kaldırması üzerine Ya‘kūb Buhara’da kısa bir müddet Horasan hükümdarı olarak tanındı ve adına hutbe okundu.» | BEYAN: kısa dönem tarihsiz; 0873-01-01 Tâhirî künyesi t, 0874-01-01 Sâmânî TDV 260/874 → bir yıllık BEYANLI aralık."
+     },
+     {
+      "f": "0874-01-01",
+      "t": "0999-10-01",
+      "d": "samani",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Nasr da küçük kardeşi İsmâil’i Buhara valiliğine tayin etti (260/874). Böylece Buhara 389 (999) yılına kadar Sâmânîler tarafından idare edildi.»"
+     },
+     {
+      "f": "0999-10-01",
+      "t": "1000-01-01",
+      "d": "karahanli",
+      "kesinlik": "ay",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Karahanlılar» md., https://islamansiklopedisi.org.tr/karahanlilar (bu oturumda okundu): «997’de Buhara üzerine yürüyen, ancak başarılı olamayan İlig Han Nasr iki yıl sonra hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara’yı zaptetti (389/999).» · TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «İlig Han Nasr’ın Ekim 999’da Buhara’yı zaptederek …» | BEYAN: ay (Ekim) TDV Fergana'dan; gün yok."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0992-05-07",
+    "devlet": "karahanli",
+    "taraflar": [
+     "karahanli",
+     "samani"
+    ],
+    "b": "Hârun Buğra Han Sâmânî başşehri Buhara'yı aldı; emîr şehri terk etti",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Buhara",
+    "yer_id": "Buhara",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Karahanlı Hârun Buğra Han Mâverâünnehir'e yürüyüp Buhara'yı ele geçirdi (Rebîülevvel 382); Sâmânî emîri II. Nûh şehirden ayrıldı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Hârun Buğra Han harekete geçip Buhara’yı ele geçirdi (Rebîülevvel 382 / Mayıs 992).») (bu oturumda okundu)",
+    "gun": "ay (gün çevrilmiş)",
+    "kesinlik": "ay",
+    "ic_not_takvim": "Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0992-08-18",
+    "devlet": "samani",
+    "taraflar": [
+     "samani",
+     "karahanli"
+    ],
+    "b": "II. Nûh Selçuklu Türkmenlerinin yardımıyla Buhara'ya yeniden hâkim oldu",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Buhara",
+    "yer_id": "Buhara",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Hârun Buğra Han'ın ölümünden sonra II. Nûh, Selçuklu Türkmenleri'nin de yardımıyla Buhara'yı geri aldı (15 Cemâziyelâhir 382 / 18 Ağustos 992).",
+    "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («II. Nûh Selçuklu Türkmenleri’nin de yardımıyla tekrar Buhara’ya hâkim oldu (15 Cemâziyelâhir 382 / 18 Ağustos 992).») (bu oturumda okundu)",
+    "gun": "gün",
+    "kesinlik": "gun",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0999-10-14",
+    "devlet": "karahanli",
+    "taraflar": [
+     "karahanli",
+     "samani"
+    ],
+    "b": "İlig Han Nasr Buhara'yı aldı; Sâmânî devleti fiilen sona erdi",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Buhara",
+    "yer_id": "Buhara",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "İlig Han Nasr hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara'yı zaptetti (Zilkade 389 / Ekim 999); hânedan mensupları Özkent'e sürüldü.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («iki yıl sonra hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara’yı zaptetti (389/999).») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Karahanlılar’ın Buhara’yı işgaliyle son buldu (Zilkade 389 / Ekim 999).») (bu oturumda okundu)",
+    "gun": "ay (gün çevrilmiş)",
+    "kesinlik": "ay",
+    "ic_not_takvim": "Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir3/kronoloji_sinir_dogu_bozkir3.js",
+    "t": "0709-01-01",
+    "devlet": "emevi",
+    "taraflar": [
+     "emevi",
+     "buhara-hudat"
+    ],
+    "b": "Kuteybe Buhara'ya Arap garnizonu yerleştirdi; Buhara Emevî egemenliğine girdi",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Buhara",
+    "yer_id": "Buhara",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Buhara (atlas yerleşimi «Buhara») 0709-01-01 gününde emevi egemenliğine geçti: Kuteybe Buhara'ya Arap garnizonu yerleştirdi; Buhara Emevî egemenliğine girdi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Kuteybe b. Müslim 87-90 (706-709) yılları arasındaki seferleri sonunda Buhara halkıyla o yöredeki Türk müttefiklerinin mukavemetini kırdı ve şehre bir Arap garnizonu yerleştirdi.» · «Emevîler zamanında ve Abbâsîler’in ilk devrinde Buhara’da yerli hükümdardan başka Merv’deki Horasan valisi tarafından tayin edilen bir emîr veya âmil bulunuyordu.» | BEYAN: Buhar-hudât hanedanı (Tuğşâde 710-739, Kuteybe, Bünyât) Emevî vasalı kral olarak sürdü; egemenlik Emevî'de alındı. Bitiş 0750-01-01 Abbâsî devrimi yılı (Emevî t=0750-08-05).",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir3/kronoloji_sinir_dogu_bozkir3.js",
+    "t": "0750-01-01",
+    "devlet": "abbasi",
+    "taraflar": [
+     "abbasi",
+     "emevi"
+    ],
+    "b": "Emevîlerden Abbâsîlere geçiş; Buhara Abbâsî Horasan valiliği altında",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Buhara",
+    "yer_id": "Buhara",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Buhara (atlas yerleşimi «Buhara») 0750-01-01 gününde abbasi egemenliğine geçti: Emevîlerden Abbâsîlere geçiş; Buhara Abbâsî Horasan valiliği altında.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «133 (750-51) yılında Şerîk b. Şeyh’in Abbâsîler’e karşı isyanı üzerine Ebû Müslim’in kumandanı Ziyâd b. Sâlih Buharhudât’ın yardımıyla isyanı bastırdı.» · «Emevîler zamanında ve Abbâsîler’in ilk devrinde Buhara’da yerli hükümdardan başka Merv’deki Horasan valisi tarafından tayin edilen bir emîr veya âmil bulunuyordu.» · «Hârûnürreşîd’in emîri Herseme b. A‘yen tarafından bastırıldı (193/809).» | BEYAN: bitiş 0821-05-06 Tâhirî (Horasan) künyesinin f'sidir; TDV Buhara Tâhirî bağlılığının başlangıcını tarihlemez (TDV: III. (IX.) yy'da valiler Merv'den Nîşâbur'a taşındı).",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir3/kronoloji_sinir_dogu_bozkir3.js",
+    "t": "0821-05-06",
+    "devlet": "tahiri-horasan",
+    "taraflar": [
+     "tahiri-horasan",
+     "abbasi"
+    ],
+    "b": "Buhara Horasan Tâhirîlerine bağlı vali idaresine girdi",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Buhara",
+    "yer_id": "Buhara",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Buhara (atlas yerleşimi «Buhara») 0821-05-06 gününde tahiri-horasan egemenliğine geçti: Buhara Horasan Tâhirîlerine bağlı vali idaresine girdi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «260 (874) yılına kadar Buhara Sâmânîler’e bağlı değildi. Doğrudan Horasan’daki Tâhirîler’e bağlı bir valinin idaresindeydi.» | BEYAN: başlangıç Tâhirî künyesi f (kaynak: atlas künyesi, TDV Tâhirîler md. okunmadı); bitiş Tâhirî künyesi t (0873-01-01).",
+    "sinir_id": [],
+    "kesinlik": "yil",
+    "ic_not": "YAKLAŞIK: TDV Buhara başlangıç yılını vermez; künye günü alındı (atlas künyesi referans değildir, beyanlı)."
+   },
+   {
+    "dosya": "bozkir3/kronoloji_sinir_dogu_bozkir3.js",
+    "t": "0873-01-01",
+    "devlet": "saffari",
+    "taraflar": [
+     "saffari",
+     "tahiri-horasan"
+    ],
+    "b": "Ya'kūb b. Leys Tâhirîleri yıkıp Buhara'da Horasan hükümdarı olarak tanındı",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Buhara",
+    "yer_id": "Buhara",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Buhara (atlas yerleşimi «Buhara») 0873-01-01 gününde saffari egemenliğine geçti: Ya'kūb b. Leys Tâhirîleri yıkıp Buhara'da Horasan hükümdarı olarak tanındı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Buhara Emîri Ya‘kūb b. Leys es-Saffâr’ın Tâhirîler’i ortadan kaldırması üzerine Ya‘kūb Buhara’da kısa bir müddet Horasan hükümdarı olarak tanındı ve adına hutbe okundu.» | BEYAN: kısa dönem tarihsiz; 0873-01-01 Tâhirî künyesi t, 0874-01-01 Sâmânî TDV 260/874 → bir yıllık BEYANLI aralık.",
+    "sinir_id": [],
+    "kesinlik": "yil",
+    "ic_not": "YAKLAŞIK: Ya'kūb'un Buhara hutbesi TDV'de tarihsiz; 0873-0874 aralığı iki komşu tarihten sıkıştırıldı."
+   },
+   {
+    "dosya": "bozkir3/kronoloji_sinir_dogu_bozkir3.js",
+    "t": "0874-01-01",
+    "devlet": "samani",
+    "taraflar": [
+     "samani",
+     "saffari"
+    ],
+    "b": "Sâmânî İsmâil Buhara valisi atandı; Buhara Sâmânîlere geçti",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Buhara",
+    "yer_id": "Buhara",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Buhara (atlas yerleşimi «Buhara») 0874-01-01 gününde samani egemenliğine geçti: Sâmânî İsmâil Buhara valisi atandı; Buhara Sâmânîlere geçti.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Buhara» md., https://islamansiklopedisi.org.tr/buhara (bu oturumda okundu): «Nasr da küçük kardeşi İsmâil’i Buhara valiliğine tayin etti (260/874). Böylece Buhara 389 (999) yılına kadar Sâmânîler tarafından idare edildi.»",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir3/kronoloji_sinir_dogu_bozkir3.js",
+    "t": "0999-10-01",
+    "devlet": "karahanli",
+    "taraflar": [
+     "karahanli",
+     "samani"
+    ],
+    "b": "İlig Han Nasr Buhara'yı aldı, Sâmânî egemenliği sona erdi",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Buhara",
+    "yer_id": "Buhara",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Buhara (atlas yerleşimi «Buhara») 0999-10-01 gününde karahanli egemenliğine geçti: İlig Han Nasr Buhara'yı aldı, Sâmânî egemenliği sona erdi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Karahanlılar» md., https://islamansiklopedisi.org.tr/karahanlilar (bu oturumda okundu): «997’de Buhara üzerine yürüyen, ancak başarılı olamayan İlig Han Nasr iki yıl sonra hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara’yı zaptetti (389/999).» · TDV İslâm Ansiklopedisi, «Fergana» md., https://islamansiklopedisi.org.tr/fergana (bu oturumda okundu): «İlig Han Nasr’ın Ekim 999’da Buhara’yı zaptederek …» | BEYAN: ay (Ekim) TDV Fergana'dan; gün yok.",
+    "sinir_id": [],
+    "kesinlik": "ay"
+   }
+  ]
+ },
+ "Bâmiyan": {
+  "yama": [
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "1145-06-24",
+      "t": "1215-01-01",
+      "d": "gurlu",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Bâmiyân ve Tohâristan Kolu Fahreddin Mesud 540 (1145) Şemseddin Muhammed 558 (1163) Bahâeddin Sâm 588 (1192) Celâleddin Ali 602-612 (1206-1215)») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Bunun üzerine onların aleyhine amcaları Bâmiyân hâkimi Fahreddin Mesud ile iş birliğine girdi.») (bu oturumda okundu)",
+      "ic_not": "f = hicrî 540 ilk günü ∩ 1145 (TDV hükümdar tablosu «Fahreddin Mesud 540 (1145)»); Bâmiyân kolu Gur hânedanının ayrı kolu (Bâmiyân ve Tohâristan Kolu) olup TDV tablosuna göre 1215'te biter. BEYANLI YAKLAŞIKLIK: kol hükümdarı ≈ Gurlu devleti sahibi (yan kol, ana kola tâbi sultan unvanlı: Gıyâseddin Şemseddin'e sultan unvanı verdi). t=1215: tablodaki son hükümdarın (Celâleddin Ali) yılı; Bâmiyân'ın bu yıl kime geçtiği TDV Gurlular/Hârizmşahlar md.'lerinde yok → devam_gerekli. Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı."
+     }
+    ]
+   }
+  ],
+  "sinir": []
+ },
+ "Cizzah": {
+  "yama": [
+   {
+    "dosya": "bozkir4/yama_bozkir4.js",
+    "onek": [
+     {
+      "f": "0680-01-01",
+      "t": "0893-01-01",
+      "d": "usrusana-afsin",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene (bu oturumda okundu): «İslâm fetihlerinin başladığı dönemde Üsrûşene’nin yönetimi Afşin unvanı taşıyan … ve Türk soyundan gelen bir ailenin elindeydi.» | «Afşinler, Abbâsîler’e bağlı olarak bölgeyi yönetmeye devam ettiler.» | «280 (893) yılında Sâmânî topraklarına katılan Üsrûşene» | «Dîzek şehrinin verimli tarım arazileri vardı.» | f=0680-01-01 KURULUŞ DEĞİL, ilk TARİHLİ Arap teması (Selm b. Ziyâd 680-81); BEYAN: Emevî ve Abbâsî dönemlerinde Afşin ailesi vasal olarak yönettiği için tek dilim (739 Nasr b. Seyyâr «kısmen itaat», 822 «Abbâsîler’e bağlı») | BEYANLI YAKLAŞIKLIK: atlasın «Cizzah» noktası (40.115 K, 67.842 D, Jizzakh) Üsrûşene’nin batı ucundaki Dîzek/Cîzek’i temsil eder; TDV Dîzek ile Cîzek’i açıkça özdeşleştirmez, md. her iki adı da bölge şehri olarak sayar (Dîzek Fergana–Hucend yolu üzerindeki Zâmîn ile birlikte anılır)"
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir4/kronoloji_sinir_dogu_bozkir4.js",
+    "t": "0893-01-01",
+    "devlet": "samani",
+    "taraflar": [
+     "samani",
+     "usrusana-afsin"
+    ],
+    "b": "Üsrûşene (Cizzah/Dîzek dahil) Sâmânî topraklarına katıldı, Afşin emirliği bitti",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Cizzah",
+    "yer_id": "Cizzah",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Cizzah (atlas yerleşimi «Cizzah») 0893-01-01 gününde samani egemenliğine geçti: Üsrûşene eyaleti 280’de (893) Sâmânî topraklarına katıldı ve Afşin emirliği sona erdi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Üsrûşene» md. (Aydın Usta, 2012), https://islamansiklopedisi.org.tr/usrusene (bu oturumda okundu): «280 (893) yılında Sâmânî topraklarına katılan Üsrûşene daha sonra Karahanlılar’ın hâkimiyeti altına girerek …» | «Dîzek şehrinin verimli tarım arazileri vardı.» (Dîzek = Cizzah/Jizzakh özdeşliği TDV’de açıkça kurulmaz; md. Ura-Tepe ile birlikte «Cîzek» şehrini de bölgenin başlıca merkezi sayar) | BEYANLI YAKLAŞIKLIK: atlasın «Cizzah» noktası (40.115 K, 67.842 D) Üsrûşene eyaletinin batı ucundaki Dîzek/Cîzek’i temsil eder; Cizzah’ın tam 893’te mi katıldığı TDV’de ayrı söylenmez, eyalet düzeyinde alındı.",
+    "ic_not": "Hicrî 280 = 893-94; gün yok → 0893-01-01 (yıl hassasiyeti). Sâmânî ardılı için Cizzah zinciri bu işçide 893’te biter (devam_gerekli: 0893-01-01 → 1281-01-01); Sâmânî sonrası Karahanlı/Karahıtay dilimleri başka işin.",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   }
+  ]
+ },
+ "Gazne": {
+  "yama": [
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0963-01-01",
+      "t": "1157-01-01",
+      "d": "gazneli",
+      "kesinlik": "ay",
+      "kaynak": "TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («burayı ele geçirdi (Zilhicce 351 / Ocak 963).») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Behram Şah yeniden Gazne’ye hâkim olduysa da (547/1152) Gazneliler artık çöküş sürecine girmişti.») (bu oturumda okundu)",
+      "ic_not": "f = Zilhicce 351 (0962-12-31..0963-01-29) ∩ «Ocak 963» kesişiminin ilk günü 0963-01-01 (aynı gün Gazneli künye f). Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı. BEYAN: Gurlular Gazne'yi 1148'de (Gurlular md.: Seyfeddin Sûrî Gazne tahtını ele geçirdi) / 1150-51'de (Gazneliler md.: Gazne şehrini yaktılar) aldı-yaktı, Behram Şah 1152'de geri döndü; iki TDV maddesi yılları ayrıştırıyor, süre kısa → dilim BÖLÜNMEDİ. t=1157-01-01: Behram Şah'ın ölümü ve Hüsrev Şah'ın tahta çıkışı (552/1157); Hüsrev Şah'ın Gazne'yi terk günü TDV'de yıl olarak yok («1160'ta ölümünden önce»), 1157 alt sınırdır (BEYANLI YAKLAŞIKLIK)."
+     },
+     {
+      "f": "1157-01-01",
+      "t": "1173-01-01",
+      "d": "__BOSLUK__",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Gazne bölgesindeki Oğuz Türkleri’ne saldırıp şehri yağmalamaları için yetki verdi. Daha sonra Gur’un ve Horasan’ın çeşitli bölgelerinden gelen orduları topladı ve 1173’te Gazne’yi aldıktan sonra buranın idaresini sultan unvanını verdiği kardeşi Muizzüddin Muhammed’e bıraktı.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Sonuçta Hüsrev Şah Gazne’yi terkederek Lahor şehrine yerleşti.») (bu oturumda okundu)",
+      "ic_not": "BOŞLUK BEYANI: arandı, bulunamadı: Gazne 1157-1173 arasında Oğuz (Ghuzz) boylarının elindeydi (TDV Gurlular md.: 1173'te Gazne'yi Oğuz Türkleri'nden aldılar) ancak Oğuz için atlas devlet kimliği yok (oguz-yabgu künyesi bozkir1 girdisinde yıl-null olarak bekliyor); bölgeye atlas kimliği olmadan sahip yazılmadı. Çözüm: oguz kimliği açılırsa bu dilim ona bağlanır. Merkezi Lahor'a taşıyan Gazneli (gazneli-lahor 1157-1186) Gazne'yi elinde tutmadı."
+     },
+     {
+      "f": "1173-01-01",
+      "t": "1215-01-01",
+      "d": "gurlu",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Daha sonra Gur’un ve Horasan’ın çeşitli bölgelerinden gelen orduları topladı ve 1173’te Gazne’yi aldıktan sonra buranın idaresini sultan unvanını verdiği kardeşi Muizzüddin Muhammed’e bıraktı.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Sultan Muizzüddin’in öldürülmesi Şensebânî hânedanının tarihinde bir dönüm noktası teşkil etti. Şensebânî prensleri arasındaki birlik bozuldu. Hârizmşah Alâeddin Muhammed iç çekişmelerden faydalanarak bütün Horasan’ı kontrolü altına aldığı gibi Gazne ve çevresindeki bölgelerde bulunan Gurlu idarecileri de tesirsiz hale getirmeye çalıştı.») (bu oturumda okundu)",
+      "ic_not": "1173'te Gıyâseddin Muhammed Gazne'yi aldı ve idareyi kardeşi Muizzüddin'e bıraktı; 1206'da Muizzüddin'in ölümüyle Gazne'de Gurlu idarecileri Hârizmşah baskısı altına girdi (1215'e kadar)."
+     },
+     {
+      "f": "1215-01-01",
+      "t": "1221-11-26",
+      "d": "harizmsah",
+      "kesinlik": "gun",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Taneri, \"Hârizmşahlar\" md., 1997, https://islamansiklopedisi.org.tr/harizmsahlar («Aynı yıl Gazne’yi aldı ve oğlu Celâleddin’e verdi; ayrıca Fars Atabegi Sa‘d b. Zengî ile Azerbaycan Atabegi Özbek’i yenerek itaatlerini sağladı.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Aydın Taneri, \"Hârizmşahlar\" md., 1997, https://islamansiklopedisi.org.tr/harizmsahlar («Celâleddin, daha sonra Moğollar’ı üst üste mağlûp etmesine rağmen 9 Şevval 618’de (26 Kasım 1221) Hindistan’a sığınmak zorunda kaldı.») (bu oturumda okundu)",
+      "ic_not": "f yıl (1215); t = 9 Şevval 618 / 26 Kasım 1221 Celâleddin'in Hindistan'a geçişi (TDV iki takvimi birlikte verir, tablo çevirisi aynı günü verir). BEYAN: Gazne'nin Moğol eline geçiş günü TDV Hârizmşahlar/Cengiz Han md.'lerinde yok («Celâleddin Gazne ve Sind bölgelerinde bozguna uğrayarak kaçtı»); 1221-11-26 sonrası devam_gerekli."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1157-01-01",
+    "devlet": "gazneli-lahor",
+    "taraflar": [
+     "gazneli",
+     "gazneli-lahor"
+    ],
+    "b": "Hüsrev Şah Gazne'yi terk edip Lahor'a yerleşti; Gazne Oğuzların eline düştü",
+    "tur": "toprak-kayip",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Gazne",
+    "yer_id": "Gazne",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Gazneli Behram Şah'ın ölümü (552/1157) ve Sultan Sencer'in Oğuzlarca esir alınmasının yarattığı kargaşada Hüsrev Şah Gazne'yi terk edip Lahor'a çekildi; Gazneliler bundan sonra Hindistan topraklarında hüküm sürdü. (1157 alt sınır; kesin yıl TDV'de yok.)",
+    "kaynak": "TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Sonuçta Hüsrev Şah Gazne’yi terkederek Lahor şehrine yerleşti.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: 1157 Behram Şah'ın ölüm yılı (alt sınır); Hüsrev Şah'ın Gazne'yi terk yılı kaynakta yok.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1173-01-01",
+    "devlet": "gurlu",
+    "taraflar": [
+     "gurlu"
+    ],
+    "b": "Gıyâseddin Muhammed Gazne'yi Oğuzlardan aldı, idaresini kardeşi Muizzüddin'e verdi",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Gazne",
+    "yer_id": "Gazne",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Gurlu Sultanı Gıyâseddin Muhammed 1173'te Gazne'yi aldı ve sultan unvanı verdiği kardeşi Muizzüddin Muhammed'e bıraktı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Daha sonra Gur’un ve Horasan’ın çeşitli bölgelerinden gelen orduları topladı ve 1173’te Gazne’yi aldıktan sonra buranın idaresini sultan unvanını verdiği kardeşi Muizzüddin Muhammed’e bıraktı.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1215-01-01",
+    "devlet": "harizmsah",
+    "taraflar": [
+     "harizmsah",
+     "gurlu"
+    ],
+    "b": "Hârizmşah Alâeddin Muhammed Gazne'yi aldı, oğlu Celâleddin'e verdi",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Gazne",
+    "yer_id": "Gazne",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Hârizmşah Muhammed 1215'te Sığnak'ı Kıpçaklardan aldıktan sonra Gazne'yi aldı ve oğlu Celâleddin'e verdi; Gurlu varlığı sona erdi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Aydın Taneri, \"Hârizmşahlar\" md., 1997, https://islamansiklopedisi.org.tr/harizmsahlar («Aynı yıl Gazne’yi aldı ve oğlu Celâleddin’e verdi; ayrıca Fars Atabegi Sa‘d b. Zengî ile Azerbaycan Atabegi Özbek’i yenerek itaatlerini sağladı.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "sinir_id": []
+   }
+  ]
+ },
+ "Herat": {
+  "yama": [
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0900-01-07",
+      "t": "0999-01-01",
+      "d": "samani",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Saffârî Emîri Amr b. Leys’i Belh savaşında yenerek esir aldı ve onu Bağdat’a gönderdi (287/900). Bu başarısından dolayı kendisine halife tarafından Horasan, Taberistan ve Deylem’in hâkimiyet menşurları verildi.») (bu oturumda okundu)",
+      "ic_not": "f = hicrî 287 ilk günü ∩ 900 (TDV «287/900» yıl hassasiyeti; Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.) BEYANLI YAKLAŞIKLIK: halife İsmâil b. Ahmed'e Horasan'ın bütününün hâkimiyet menşurunu verdi; bu şehrin kendisinin Sâmânîlere geçiş günü TDV'de yok (şehir-düzeyi devir cümlesi aranıp bulunamadı: Sâmânîler md.). ABİ MERKEZ: Belh (Amr b. Leys'in yenildiği yer)."
+     },
+     {
+      "f": "0999-01-01",
+      "t": "1040-05-23",
+      "d": "gazneli",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+      "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı. t = Selçuklu devri (aşağıdaki sınır maddesi); sonrası (Büyük Selçuklu → ... → mevcut zincir) başka kümenin işi: devam_gerekli."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0999-01-01",
+    "devlet": "gazneli",
+    "taraflar": [
+     "gazneli",
+     "samani"
+    ],
+    "b": "Herat: Horasan Sâmânîlerden Gaznelilere geçti",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Herat",
+    "yer_id": "Herat",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Sâmânîler Gazneli ordusuna yenilince (389/999) Horasan topraklarını kaybetti; Mahmud Horasan'da iktidarını sağlamlaştırdı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1040-05-23",
+    "devlet": "buyuk-selcuklu",
+    "taraflar": [
+     "buyuk-selcuklu",
+     "gazneli"
+    ],
+    "b": "Herat: Gazneli hâkimiyeti sona erdi, Selçuklu hâkimiyeti başladı",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Herat",
+    "yer_id": "Herat",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Herat merkezli bölge Mûsâ Yabgu'ya verildi; Dandanakan sonrası Mûsâ Yabgu Herat'ı almak için yola çıktı (Dandanakan Savaşı md.): fiilî giriş günü yok, BEYANLI YAKLAŞIKLIK.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Selçuklular\" md., 2009, https://islamansiklopedisi.org.tr/selcuklular («Serahs ve Belh’in dahil olduğu Ceyhun ile Gazne arasındaki bölge, merkezi Merv olmak üzere Çağrı Bey’e, Herat merkez olmak üzere Büst ve Sîstan yöresi Mûsâ Yabgu’ya verildi.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Ali Sevim, \"Dandanakan Savaşı\" md., 1993, https://islamansiklopedisi.org.tr/dandanakan-savasi («üç gün devam eden ve 8 Ramazan 431 (23 Mayıs 1040) günü sona eren savaşta») (bu oturumda okundu)",
+    "gun": "gün",
+    "kesinlik": "gun",
+    "ic_not": "8 Ramazan 431 Cuma / 23 Mayıs 1040 TDV'de iki takvimle verilir (tablo çevirisi aynı gün). Selçuklu hâkimiyeti şehir düzeyinde Dandanakan sonrası taksimle başladı.",
+    "sinir_id": []
+   }
+  ]
+ },
+ "Hotan": {
+  "yama": [
+   {
+    "dosya": "bozkir3/yama_bozkir3.js",
+    "onek": [
+     {
+      "f": "0500-01-01",
+      "t": "0649-01-19",
+      "d": "khotan",
+      "kesinlik": "yil",
+      "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «于闐國，西南帶蔥嶺，與龜茲接，在京師西九千七百里 … 先臣於西突厥。其王姓尉遲氏» · Wei shu (Wei Shou, 554) juan 102 «Xiyu» (Wikisource 魏書/卷102, bu oturumda okundu): «于闐國，在且末西北，葱嶺之北二百餘里。» · f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; gerçek kuruluş/ilk anılış MS 500 öncesi, bu kümenin penceresi dışında) | BEYAN: Eftalit (Wei shu 102 嚈噠 «于闐 … 皆役屬之») ve Batı Göktürk üstünlüğü bu dilimde yerel krallık sahip sayıldı."
+     },
+     {
+      "f": "0649-01-19",
+      "t": "0670-04-25",
+      "d": "tang",
+      "kesinlik": "ay",
+      "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu) (貞觀二十二年閏月): «副將薛萬徹脅於闐王伏闍信入朝。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «太宗既破龜茲，移置安西都護府於其國城 … 兼統於闐、疏勒、碎葉，謂之「四鎮」。» | BEYAN: Hotan Tang'ın Dört Garnizon'unda yer aldı, Yuchi hanedanı kral olarak sürdü (egemenlik Tang'da alındı; Xin Tang 221 shang: «會高宗立，授右衛大將軍»). Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 → 0649-01-19; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir3/kronoloji_sinir_dogu_bozkir3.js",
+    "t": "0649-01-19",
+    "devlet": "tang",
+    "taraflar": [
+     "tang",
+     "khotan"
+    ],
+    "b": "Tang Dört Garnizon'unu kurdu, Hotan Tang himayesine girdi",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Hotan",
+    "yer_id": "Hotan",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Hotan (atlas yerleşimi «Hotan») 0649-01-19 gününde tang egemenliğine geçti: Tang Dört Garnizon'unu kurdu, Hotan Tang himayesine girdi.",
+    "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu) (貞觀二十二年閏月): «副將薛萬徹脅於闐王伏闍信入朝。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «太宗既破龜茲，移置安西都護府於其國城 … 兼統於闐、疏勒、碎葉，謂之「四鎮」。» | BEYAN: Hotan Tang'ın Dört Garnizon'unda yer aldı, Yuchi hanedanı kral olarak sürdü (egemenlik Tang'da alındı; Xin Tang 221 shang: «會高宗立，授右衛大將軍»). Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 → 0649-01-19; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi).",
+    "sinir_id": [],
+    "kesinlik": "ay"
+   }
+  ]
+ },
+ "Karakurum": {
+  "yama": [
+   {
+    "dosya": "bozkir1/yama_bozkir1.js",
+    "onek": [
+     {
+      "f": "0500-01-01",
+      "t": "0552-02-10",
+      "d": "__BOSLUK__",
+      "kesinlik": "yil",
+      "kaynak": "BOŞLUK BEYANI: arandı, bulunamadı: Orhun/Ötüken vadisinde 500-552 sahibi: Wei shu 103 Rouran’ın «常所會庭則敦煌、張掖之北» (Dunhuang-Zhangye kuzeyi) toplandığını söyler, Orhun vadisini adıyla vermez; Rouran merkezi «Mumo» okunmadı; abi merkez bulunamadı | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı 0500-01-01; önceki sahiplik bu kümenin işi değil)"
+     },
+     {
+      "f": "0552-02-10",
+      "t": "0582-01-01",
+      "d": "gokturk-1",
+      "kesinlik": "ay",
+      "kaynak": "ABİ MERKEZ: Ötüken (Dujin Dağı, Göktürk ordugâhı) — Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «可汗恆處於都斤山，牙帳東開» — https://zh.wikisource.org/wiki/周書/卷50 | Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «魏廢帝元年正月，土門發兵擊茹茹，大破之於懷荒北。阿那瓌自殺 … 土門遂自號伊利可汗» — https://zh.wikisource.org/wiki/周書/卷50 | BEYANLI YAKLAŞIKLIK: atlasın Karakurum noktası (Orhun vadisi) Ötüken bölgesini temsil eder; Dujin=Ötüken özdeşliği standart kabul (Pelliot) — bu oturumda açılmadı. Çin ay-güneş takvimi → Jülyen: 魏廢帝元年(552) 正月 ayı başı = Jülyen 0552-02-10; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, 640-12-19 甲子朔 = kış gündönümü ve cin1 534-11-08 丙寅 örnekleriyle sınandı), ±1 gün; Jülyen kalır (1582 öncesi)."
+     },
+     {
+      "f": "0582-01-01",
+      "t": "0630-05-02",
+      "d": "dogu-gokturk",
+      "kesinlik": "yil",
+      "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «可汗恆處於都斤山» — https://zh.wikisource.org/wiki/周書/卷50 | 582 bölünmesi: atlas kronolojisi (bu oturumda kaynak açılmadı; atıf). f=582 yıl hassasiyeti; t=gün (aşağıda). BEYANLI YAKLAŞIKLIK (Ötüken)."
+     },
+     {
+      "f": "0630-05-02",
+      "t": "0646-10-29",
+      "d": "xueyantuo",
+      "kesinlik": "yil",
+      "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «三月庚辰，大同道行軍副總管張寶相生擒頡利可汗，獻於京師» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下, bu oturumda okundu): «四年，平突厥頡利之後，朔塞空虛，夷男率其部東返故國，建庭于都尉揵山北，獨邏河之南» — https://zh.wikisource.org/wiki/舊唐書/卷199下 | BEYANLI YAKLAŞIKLIK: «郁督軍山» ve «都尉揵山» = Ötüken özdeşliği (Pelliot) bu oturumda açılmadı; Jiu Tang 194 shang Tang’ın 650 dolayı Doğu Türk artıklarını «郁督軍山»ya yerleştirdiğini söyler. Çin ay-güneş takvimi → Jülyen: 貞觀四年三月庚辰 → Jülyen 0630-05-02 (Gregoryen 0630-05-05); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, 640-12-19 甲子朔 = kış gündönümü ve cin1 534-11-08 丙寅 örnekleriyle sınandı), ±1 gün; Jülyen kalır (1582 öncesi)."
+     },
+     {
+      "f": "0646-10-29",
+      "t": "0682-01-01",
+      "d": "tang",
+      "kesinlik": "yil",
+      "kaynak": "Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下, bu oturumda okundu): «二十一年，契苾、回紇等十余部落以薛延陀亡散殆盡，乃相繼歸國 … 又置燕然都護以統之» — https://zh.wikisource.org/wiki/舊唐書/卷199下 | BEYANLI YAKLAŞIKLIK: jimi (gevşek) vilayet sistemi; fiilî yönetim Tiele/Doğu Türk artıklarındaydı. t=0682: Kutluğ İlteriş’in Ötüken’de II. Göktürk’ü kurması (atlas kronolojisi 0682-01-01; atıf)."
+     },
+     {
+      "f": "0682-01-01",
+      "t": "0745-01-01",
+      "d": "dogu-gokturk-2",
+      "kesinlik": "yil",
+      "kaynak": "Atlas kronolojisi KRONOLOJI_COK_MS1_1000_ORTADOGU 0682-01-01 (kaynak atfı; bu oturumda açılmadı) | künye dogu-gokturk-2 f=0682 (BOZKIR_RAPOR2) | BEYANLI YAKLAŞIKLIK (Ötüken)."
+     },
+     {
+      "f": "0745-01-01",
+      "t": "0840-01-01",
+      "d": "uygur",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar (bu oturumda okundu): «745 yılında Uygur yabgusu Basmıl kağanını yenilgiye uğratıp kendini kağan ilân etti» | «Uygur Kağanlığı sırasında dikilmiş Türkçe runik yazılı Şine-Usu (Moyen-çor Kağan adına 759’da), Taryat ve Karabalasagun (826) yazıtları» | BEYANLI YAKLAŞIKLIK: Ordu-Balık (Karabalgasun) Orhun vadisinde, Karakurum’a ~30 km."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0552-02-10",
+    "devlet": "gokturk-1",
+    "taraflar": [
+     "gokturk-1"
+    ],
+    "b": "Tumen Rouran’ı yenip İlig Kağan oldu; Göktürk kağanlığı Ötüken’de",
+    "tur": "toprak-kazanc",
+    "onem": 4,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Orhun vadisi",
+    "yer_id": "Karakurum",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Orhun vadisi (atlas yerleşimi «Karakurum») 0552-02-10 gününde gokturk-1 egemenliğine geçti: Tumen Rouran’ı yenip İlig Kağan oldu; Göktürk kağanlığı Ötüken’de.",
+    "kaynak": "ABİ MERKEZ: Ötüken (Dujin Dağı, Göktürk ordugâhı) — Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «可汗恆處於都斤山，牙帳東開» — https://zh.wikisource.org/wiki/周書/卷50 | Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «魏廢帝元年正月，土門發兵擊茹茹，大破之於懷荒北。阿那瓌自殺 … 土門遂自號伊利可汗» — https://zh.wikisource.org/wiki/周書/卷50 | BEYANLI YAKLAŞIKLIK: atlasın Karakurum noktası (Orhun vadisi) Ötüken bölgesini temsil eder; Dujin=Ötüken özdeşliği standart kabul (Pelliot) — bu oturumda açılmadı. Çin ay-güneş takvimi → Jülyen: 魏廢帝元年(552) 正月 ayı başı = Jülyen 0552-02-10; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, 640-12-19 甲子朔 = kış gündönümü ve cin1 534-11-08 丙寅 örnekleriyle sınandı), ±1 gün; Jülyen kalır (1582 öncesi).",
+    "sinir_id": [],
+    "kesinlik": "ay"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0582-01-01",
+    "devlet": "dogu-gokturk",
+    "taraflar": [
+     "dogu-gokturk",
+     "gokturk-1"
+    ],
+    "b": "Göktürk kağanlığı ikiye bölündü; Ötüken Doğu Göktürk’te kaldı",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Orhun vadisi",
+    "yer_id": "Karakurum",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Orhun vadisi (atlas yerleşimi «Karakurum») 0582-01-01 gününde dogu-gokturk egemenliğine geçti: Göktürk kağanlığı ikiye bölündü; Ötüken Doğu Göktürk’te kaldı.",
+    "kaynak": "Zhou shu (Linghu Defen vd., 636) juan 50 «Tujue» (Wikisource 周書/卷50, bu oturumda okundu): «可汗恆處於都斤山» — https://zh.wikisource.org/wiki/周書/卷50 | 582 bölünmesi: atlas kronolojisi (bu oturumda kaynak açılmadı; atıf). f=582 yıl hassasiyeti; t=gün (aşağıda). BEYANLI YAKLAŞIKLIK (Ötüken).",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0630-05-02",
+    "devlet": "xueyantuo",
+    "taraflar": [
+     "xueyantuo",
+     "dogu-gokturk"
+    ],
+    "b": "Jieli Kağan esir düştü; Xueyantuo Ötüken (Yudujun/Duwei-jian) bölgesine yerleşti",
+    "tur": "toprak-kazanc",
+    "onem": 4,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Orhun vadisi",
+    "yer_id": "Karakurum",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Orhun vadisi (atlas yerleşimi «Karakurum») 0630-05-02 gününde xueyantuo egemenliğine geçti: Jieli Kağan esir düştü; Xueyantuo Ötüken (Yudujun/Duwei-jian) bölgesine yerleşti.",
+    "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu): «三月庚辰，大同道行軍副總管張寶相生擒頡利可汗，獻於京師» — https://zh.wikisource.org/wiki/舊唐書/卷3 | Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下, bu oturumda okundu): «四年，平突厥頡利之後，朔塞空虛，夷男率其部東返故國，建庭于都尉揵山北，獨邏河之南» — https://zh.wikisource.org/wiki/舊唐書/卷199下 | BEYANLI YAKLAŞIKLIK: «郁督軍山» ve «都尉揵山» = Ötüken özdeşliği (Pelliot) bu oturumda açılmadı; Jiu Tang 194 shang Tang’ın 650 dolayı Doğu Türk artıklarını «郁督軍山»ya yerleştirdiğini söyler. Çin ay-güneş takvimi → Jülyen: 貞觀四年三月庚辰 → Jülyen 0630-05-02 (Gregoryen 0630-05-05); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, 640-12-19 甲子朔 = kış gündönümü ve cin1 534-11-08 丙寅 örnekleriyle sınandı), ±1 gün; Jülyen kalır (1582 öncesi).",
+    "sinir_id": [],
+    "kesinlik": "gun"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0646-10-29",
+    "devlet": "tang",
+    "taraflar": [
+     "tang",
+     "xueyantuo"
+    ],
+    "b": "Xueyantuo dağıldı; Tiele ülkeleri Tang valiliklerine bağlandı (Yanran Dudufu)",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Orhun vadisi",
+    "yer_id": "Karakurum",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Orhun vadisi (atlas yerleşimi «Karakurum») 0646-10-29 gününde tang egemenliğine geçti: Xueyantuo dağıldı; Tiele ülkeleri Tang valiliklerine bağlandı (Yanran Dudufu).",
+    "kaynak": "Jiu Tang shu juan 199 xia «Beidi» (Wikisource 舊唐書/卷199下, bu oturumda okundu): «二十一年，契苾、回紇等十余部落以薛延陀亡散殆盡，乃相繼歸國 … 又置燕然都護以統之» — https://zh.wikisource.org/wiki/舊唐書/卷199下 | BEYANLI YAKLAŞIKLIK: jimi (gevşek) vilayet sistemi; fiilî yönetim Tiele/Doğu Türk artıklarındaydı. t=0682: Kutluğ İlteriş’in Ötüken’de II. Göktürk’ü kurması (atlas kronolojisi 0682-01-01; atıf).",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0682-01-01",
+    "devlet": "dogu-gokturk-2",
+    "taraflar": [
+     "dogu-gokturk-2",
+     "tang"
+    ],
+    "b": "Kutluğ İlteriş Ötüken’de II. Göktürk Kağanlığı’nı kurdu",
+    "tur": "toprak-kazanc",
+    "onem": 4,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Orhun vadisi",
+    "yer_id": "Karakurum",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Orhun vadisi (atlas yerleşimi «Karakurum») 0682-01-01 gününde dogu-gokturk-2 egemenliğine geçti: Kutluğ İlteriş Ötüken’de II. Göktürk Kağanlığı’nı kurdu.",
+    "kaynak": "Atlas kronolojisi KRONOLOJI_COK_MS1_1000_ORTADOGU 0682-01-01 (kaynak atfı; bu oturumda açılmadı) | künye dogu-gokturk-2 f=0682 (BOZKIR_RAPOR2) | BEYANLI YAKLAŞIKLIK (Ötüken).",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0745-01-01",
+    "devlet": "uygur",
+    "taraflar": [
+     "uygur",
+     "dogu-gokturk-2"
+    ],
+    "b": "Uygur yabgusu Basmıl’ı yenip Kutluğ Bilge Kül unvanıyla kağan oldu; Ötüken Uygurlara geçti",
+    "tur": "toprak-kazanc",
+    "onem": 4,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Orhun vadisi",
+    "yer_id": "Karakurum",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Orhun vadisi (atlas yerleşimi «Karakurum») 0745-01-01 gününde uygur egemenliğine geçti: Uygur yabgusu Basmıl’ı yenip Kutluğ Bilge Kül unvanıyla kağan oldu; Ötüken Uygurlara geçti.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Uygurlar» md., https://islamansiklopedisi.org.tr/uygurlar (bu oturumda okundu): «745 yılında Uygur yabgusu Basmıl kağanını yenilgiye uğratıp kendini kağan ilân etti» | «Uygur Kağanlığı sırasında dikilmiş Türkçe runik yazılı Şine-Usu (Moyen-çor Kağan adına 759’da), Taryat ve Karabalasagun (826) yazıtları» | BEYANLI YAKLAŞIKLIK: Ordu-Balık (Karabalgasun) Orhun vadisinde, Karakurum’a ~30 km.",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   }
+  ]
+ },
+ "Karaşar (Yanqi)": {
+  "yama": [
+   {
+    "dosya": "bozkir4/yama_bozkir4.js",
+    "onek": [
+     {
+      "f": "0500-01-01",
+      "t": "0644-11-05",
+      "d": "yanqi-karashahr",
+      "kesinlik": "ay",
+      "kaynak": "Wei shu juan 102 «Xiyu» (Wikisource 魏書/卷102; Beishi’den tamamlanmış, bu oturumda okundu), https://zh.wikisource.org/wiki/魏書/卷102: «焉耆國，在車師南，都員渠城，白山南七十里，漢時舊國也。» | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu), https://zh.wikisource.org/wiki/舊唐書/卷198: «焉耆國 … 其王姓龍氏，名突騎支。勝兵二千餘人，常役屬於西突厥。» | t: Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu), https://zh.wikisource.org/wiki/舊唐書/卷3: «貞觀十八年 … 十月 … 安西都護郭孝恪帥師滅焉耆，執其王突騎支送行在所。» (ay hassasiyeti; Jülyen 0644-11-05 = 十月 ayı başı) | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; önceki sahiplik bu kümenin işi değil; Yanqi’nin Gaochang-Batı Göktürk arası konumu için bk. kronoloji) | BEYANLI YAKLAŞIKLIK: atlasın «Karaşar (Yanqi)» noktası Yanqi başkenti Yuanqu’yu temsil eder (Han shu 96 «王治員渠城», Wei shu 102 «都員渠城，白山南七十里»); Yuanqu’nun tam koordinatı ikinci bir bağımsız tanıkla doğrulanmadı"
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir4/kronoloji_sinir_dogu_bozkir4.js",
+    "t": "0644-11-05",
+    "devlet": "tang",
+    "taraflar": [
+     "tang",
+     "yanqi-karashahr"
+    ],
+    "b": "Tang Anxi koruyucusu Guo Xiaoke Yanqi’yi yıkıp kralı Tuqizhi’yi esir aldı",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Karaşar (Yanqi)",
+    "yer_id": "Karaşar (Yanqi)",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Karaşar (Yanqi) (atlas yerleşimi «Karaşar (Yanqi)») 0644-11-05 civarında Tang egemenliğine geçti: Anxi koruyucusu Guo Xiaoke Yanqi kentini baskınla alıp kral Tuqizhi’yi esir etti ve Tang sarayına gönderdi; Yanqi bağımsız krallık olarak sona erdi.",
+    "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu), https://zh.wikisource.org/wiki/舊唐書/卷3: «貞觀十八年 … 冬十月辛丑朔，日有蝕之。甲辰，初置太子司議郎官員。甲寅，幸洛陽宮。安西都護郭孝恪帥師滅焉耆，執其王突騎支送行在所。十一月壬寅，車駕至洛陽宮。» | Jiu Tang shu juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu), https://zh.wikisource.org/wiki/舊唐書/卷198: «孝恪倍道兼行，夜至城下，潛遣將士浮水而渡。至曉，一時攀堞，鼓角齊震，城中大擾。孝恪縱兵擊之，虜其王突騎支»  | BEYANLI YAKLAŞIKLIK: atlasın «Karaşar (Yanqi)» noktası (42.06 K, 86.57 D) Yanqi’nin başkenti Yuanqu’yu (Han shu 96: «焉耆國，王治員渠城»; Wei shu 102: «都員渠城，白山南七十里») temsil eder; ikinci koordinat tanığı alınmadı, özdeşlik beyanlı.",
+    "ic_not": "Gün YOK: Jiu Tang 3 olayı Zhenguan 18’in 10. ayı (辛丑朔) girdisinde, 甲寅’den sonra ve 11. aydan önce anar; ay hassasiyeti, ayın ilk günü alındı. Jülyen çevirisi: 貞觀十八年十月辛丑朔 = Jülyen 0644-11-05 (Gregoryen 0644-11-08; 日有蝕之 kaydı o günkü 644 Kasım tutulmasıyla uyumludur); 甲寅 = Jülyen 0644-11-18 — olay girdisi 甲寅’den sonra olduğundan gerçek gün 11-18’den sonra olabilir, ±30 gün içinde kalır. Girdi (bozkir raporu) t=0648 idi; kaynak (JT3) 644 verir — atlas düzelir.",
+    "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀十八年(644) 十月 ayı başı (辛丑朔) → Jülyen 0644-11-05 (Gregoryen 0644-11-08); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py: `ay 644 10` ve `644 10 辛丑`), ±1 gün; Jülyen kalır (1582 öncesi).",
+    "sinir_id": [],
+    "kesinlik": "ay"
+   }
+  ]
+ },
+ "Kuça (Kuqa)": {
+  "yama": [
+   {
+    "dosya": "bozkir3/yama_bozkir3.js",
+    "onek": [
+     {
+      "f": "0500-01-01",
+      "t": "0649-01-19",
+      "d": "kuca",
+      "kesinlik": "yil",
+      "kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «龜茲國，即漢西域舊地也。在京師西七千五百里。其王姓白氏。» · «貞觀四年，又遣使獻馬 … 然臣於西突厥。» · f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; gerçek kuruluş/ilk anılış MS 500 öncesi, bu kümenin penceresi dışında) | BEYAN: Batı Göktürk üstünlüğü (Jiu Tang 198 «臣於西突厥») bu dilimde yerel krallık sahip sayıldı (egemen yerel hanedan)."
+     },
+     {
+      "f": "0649-01-19",
+      "t": "0670-04-25",
+      "d": "tang",
+      "kesinlik": "ay",
+      "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu) (貞觀二十二年): «閏月丁丑朔 … 破龜茲大撥等五十城 … 執龜茲王訶黎布失畢以歸，龜茲平» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «先是，太宗既破龜茲，移置安西都護府於其國城» | BEYAN: Bai hanedanı Tang vasalı kral olarak sürdü (Jiu Tang 198 «依舊為龜茲王»); egemenlik Tang'a ait alındı. Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 → 0649-01-19; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
+     },
+     {
+      "f": "0670-04-25",
+      "t": "0692-11-14",
+      "d": "tibet-imparatorlugu",
+      "kesinlik": "ay",
+      "kaynak": "Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5, bu oturumda okundu) (咸亨元年): «夏四月，吐蕃寇陷白州等一十八州，又與於闐合眾襲龜茲撥換城，陷之。罷安西四鎮。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «其後吐蕃大入，焉耆已西四鎮城堡，並為賊所陷。» | BEYAN: Kuça şehrinin kendisi için ayrı fetih günü yok; Dört Garnizon kaldırıldı (670-04). Xin Tang 221 shang Tibet fethini 儀鳳 (676-679) verir ve Jiu Tang 5 675-676'da Kuça kralı Bai Suji'nin Tang'a elçi gönderdiğini yazar — çelişki; Jiu Tang 5 esas alındı. Çin ay-güneş takvimi → Jülyen: 咸亨元年夏四月 ayı başı → 0670-04-25; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir3/kronoloji_sinir_dogu_bozkir3.js",
+    "t": "0649-01-19",
+    "devlet": "tang",
+    "taraflar": [
+     "tang",
+     "kuca"
+    ],
+    "b": "Tang Kuça'yı fethetti, Kuça Tang yönetimine (Anxi Koruyuculuğu) girdi",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Kuça",
+    "yer_id": "Kuça (Kuqa)",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Kuça (atlas yerleşimi «Kuça (Kuqa)») 0649-01-19 gününde tang egemenliğine geçti: Tang Kuça'yı fethetti, Kuça Tang yönetimine (Anxi Koruyuculuğu) girdi.",
+    "kaynak": "Jiu Tang shu juan 3 «Taizong ji xia» (Wikisource 舊唐書/卷3, bu oturumda okundu) (貞觀二十二年): «閏月丁丑朔 … 破龜茲大撥等五十城 … 執龜茲王訶黎布失畢以歸，龜茲平» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «先是，太宗既破龜茲，移置安西都護府於其國城» | BEYAN: Bai hanedanı Tang vasalı kral olarak sürdü (Jiu Tang 198 «依舊為龜茲王»); egemenlik Tang'a ait alındı. Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 → 0649-01-19; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi).",
+    "sinir_id": [],
+    "kesinlik": "ay"
+   },
+   {
+    "dosya": "bozkir3/kronoloji_sinir_dogu_bozkir3.js",
+    "t": "0670-04-25",
+    "devlet": "tibet-imparatorlugu",
+    "taraflar": [
+     "tibet-imparatorlugu",
+     "tang"
+    ],
+    "b": "Tibet Bahuan'ı aldı, Dört Garnizon kaldırıldı; Kuça Tibet hâkimiyetine girdi (Jiu Tang 5, ay hassasiyeti)",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Kuça",
+    "yer_id": "Kuça (Kuqa)",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Kuça (atlas yerleşimi «Kuça (Kuqa)») 0670-04-25 gününde tibet-imparatorlugu egemenliğine geçti: Tibet Bahuan'ı aldı, Dört Garnizon kaldırıldı; Kuça Tibet hâkimiyetine girdi (Jiu Tang 5, ay hassasiyeti).",
+    "kaynak": "Jiu Tang shu juan 5 «Gaozong ji xia» (Wikisource 舊唐書/卷5, bu oturumda okundu) (咸亨元年): «夏四月，吐蕃寇陷白州等一十八州，又與於闐合眾襲龜茲撥換城，陷之。罷安西四鎮。» · Jiu Tang shu (Liu Xu vd., 945) juan 198 «Xirong» (Wikisource 舊唐書/卷198, bu oturumda okundu): «其後吐蕃大入，焉耆已西四鎮城堡，並為賊所陷。» | BEYAN: Kuça şehrinin kendisi için ayrı fetih günü yok; Dört Garnizon kaldırıldı (670-04). Xin Tang 221 shang Tibet fethini 儀鳳 (676-679) verir ve Jiu Tang 5 675-676'da Kuça kralı Bai Suji'nin Tang'a elçi gönderdiğini yazar — çelişki; Jiu Tang 5 esas alındı. Çin ay-güneş takvimi → Jülyen: 咸亨元年夏四月 ayı başı → 0670-04-25; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi).",
+    "sinir_id": [],
+    "kesinlik": "ay"
+   }
+  ]
+ },
+ "Kâbil": {
+  "yama": [
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0986-05-13",
+      "t": "1157-01-01",
+      "d": "gazneli",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Neticede çetin savaşlardan sonra Hindûşâhî racası mağlûp edildi ve Sebük Tegin Kâbil nehri boyunca Peşâver’e kadar ilerlemeye ve orada İslâmiyet’in tohumlarını atmaya muvaffak oldu (376/986-87).») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Gur ve Garcistan, Bâmiyân, Belh, Büst, Horasan, Gazne, Kâbil, Kirman, Lahor») (bu oturumda okundu)",
+      "ic_not": "f = hicrî 376 yılının ilk günü (TDV «376/986-87» yıl hassasiyeti; Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.) BEYANLI YAKLAŞIKLIK: TDV Kâbil ŞEHRİNİN alındığını yazmaz; Sebük Tegin'in Hindûşâhî racasını yenip Kâbil nehri boyunca Peşâver'e ilerlediğini yazar → Kâbil bölgesi Gazneli hâkimiyetine girdi (ABİ MERKEZ: Gazne). Gurlular md. Gurlu imparatorluğunu on idarî bölgeye ayırır (Gazne, Kâbil ayrı bölge). t=1157: Gazne ile aynı (Gazneli merkezi Lahor'a taşındı)."
+     },
+     {
+      "f": "1157-01-01",
+      "t": "1173-01-01",
+      "d": "__BOSLUK__",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Gazne bölgesindeki Oğuz Türkleri’ne saldırıp şehri yağmalamaları için yetki verdi. Daha sonra Gur’un ve Horasan’ın çeşitli bölgelerinden gelen orduları topladı ve 1173’te Gazne’yi aldıktan sonra buranın idaresini sultan unvanını verdiği kardeşi Muizzüddin Muhammed’e bıraktı.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Sonuçta Hüsrev Şah Gazne’yi terkederek Lahor şehrine yerleşti.») (bu oturumda okundu)",
+      "ic_not": "BOŞLUK BEYANI (ABİ MERKEZ: Gazne): Kâbil'e özgü kaynak yok; zincir Gazne'den devralındı. Gazne 1157-1173 Oğuz elinde (TDV Gurlular md.), Oğuz atlas kimliği yok → boşluk. Merkezin kendisi __BOSLUK__ olduğu için yer de boşluk kalır."
+     },
+     {
+      "f": "1173-01-01",
+      "t": "1215-01-01",
+      "d": "gurlu",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Daha sonra Gur’un ve Horasan’ın çeşitli bölgelerinden gelen orduları topladı ve 1173’te Gazne’yi aldıktan sonra buranın idaresini sultan unvanını verdiği kardeşi Muizzüddin Muhammed’e bıraktı.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Sultan Muizzüddin’in öldürülmesi Şensebânî hânedanının tarihinde bir dönüm noktası teşkil etti. Şensebânî prensleri arasındaki birlik bozuldu. Hârizmşah Alâeddin Muhammed iç çekişmelerden faydalanarak bütün Horasan’ı kontrolü altına aldığı gibi Gazne ve çevresindeki bölgelerde bulunan Gurlu idarecileri de tesirsiz hale getirmeye çalıştı.») (bu oturumda okundu)",
+      "ic_not": "1173'te Gıyâseddin Muhammed Gazne'yi aldı ve idareyi kardeşi Muizzüddin'e bıraktı; 1206'da Muizzüddin'in ölümüyle Gazne'de Gurlu idarecileri Hârizmşah baskısı altına girdi (1215'e kadar)."
+     },
+     {
+      "f": "1215-01-01",
+      "t": "1221-11-26",
+      "d": "harizmsah",
+      "kesinlik": "gun",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Taneri, \"Hârizmşahlar\" md., 1997, https://islamansiklopedisi.org.tr/harizmsahlar («Aynı yıl Gazne’yi aldı ve oğlu Celâleddin’e verdi; ayrıca Fars Atabegi Sa‘d b. Zengî ile Azerbaycan Atabegi Özbek’i yenerek itaatlerini sağladı.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Aydın Taneri, \"Hârizmşahlar\" md., 1997, https://islamansiklopedisi.org.tr/harizmsahlar («Celâleddin, daha sonra Moğollar’ı üst üste mağlûp etmesine rağmen 9 Şevval 618’de (26 Kasım 1221) Hindistan’a sığınmak zorunda kaldı.») (bu oturumda okundu)",
+      "ic_not": "f yıl (1215); t = 9 Şevval 618 / 26 Kasım 1221 Celâleddin'in Hindistan'a geçişi (TDV iki takvimi birlikte verir, tablo çevirisi aynı günü verir). BEYAN: Gazne'nin Moğol eline geçiş günü TDV Hârizmşahlar/Cengiz Han md.'lerinde yok («Celâleddin Gazne ve Sind bölgelerinde bozguna uğrayarak kaçtı»); 1221-11-26 sonrası devam_gerekli."
+     }
+    ]
+   },
+   {
+    "dosya": "hint1/yama_hint1.js",
+    "onek": [
+     {
+      "f": "0500-01-01",
+      "t": "0665-01-01",
+      "d": "__BOSLUK__",
+      "kesinlik": "onyil",
+      "kaynak": "BOŞLUK BEYANI: Kâbil bu dilimde TDV Kâbil maddesine göre \"Kuşan Devleti ve arkasından hüküm süren Kâbilşâhîler hânedanı\" elindeydi (\"Kâbil’de Kuşan Devleti’nin ve arkasından hüküm süren Kâbilşâhîler hânedanının yıkılmasından sonra Türkşâhîler dönemi başladı\"); Kâbilşâhîler ve Eftalit/Alkhon'un Kâbil'e egemenliği için bu kümede atlas kimliği ve kaynak yok. Arandı, bulunamadı: TDV Kâbil (okundu), Majumdar III-IV (okundu). | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı)"
+     },
+     {
+      "f": "0665-01-01",
+      "t": "0850-01-01",
+      "d": "turk-sahi",
+      "kesinlik": "onyil",
+      "kaynak": "Ahmet Kavas, «Kâbil», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kabil--afganistan (22.10.2026'da okundu), «Kâbil»: \"Kâbil’de Kuşan Devleti’nin ve arkasından hüküm süren Kâbilşâhîler hânedanının yıkılmasından sonra Türkşâhîler dönemi başladı.\" | Ahmet Kavas, «Kâbil», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kabil--afganistan (22.10.2026'da okundu), «Kâbil»: \"Fazl b. Yahyâ tarafından gönderilen İbrâhim b. Cibrâîl 179’da (795) Zâbülistan’ı aldı ve Kâbil’e girdi; bunun üzerine Kâbil’de oturan Türkşâhî hükümdarı müslüman oldu ve 1,5 milyon dirhem haraç vermeyi kabul etti.\" | f=0665 künye f (TDV: 664'te zaten Türkşâhî). t=0850: Kallar (yuzyil)."
+     },
+     {
+      "f": "0850-01-01",
+      "t": "0869-01-01",
+      "d": "hindu-sahiler",
+      "kesinlik": "yuzyil",
+      "kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Central and Western India»: \"Kallar, a Brahmana minister of king Lagaturman of this dynasty, overthrew his master and occupied the throne.\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Central and Western India»: \"Lalliya could not keep Kabul under his control for a long time.\" | «Saffâr, Ya‘kūb b. Leys», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/saffar-yakub-b-leys (22.10.2026'da okundu), «Saffâr, Ya‘kūb b. Leys»: \"Ya‘kūb bu sırada Gazne’yi aldı, Zâbülistan’ı ele geçirip Gerdiz’i haraca bağladı ve Kâbil’e kadar ilerledi (255/869).\" | f=0850 YÜZYIL (ikinci yarının alt sınırı); t=0869: TDV 255/869 (Majumdar 870)."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1157-01-01",
+    "devlet": "gazneli-lahor",
+    "taraflar": [
+     "gazneli",
+     "gazneli-lahor"
+    ],
+    "b": "Gazneliler merkezi Lahor'a taşıdı; Kâbil bölgesi Gazne ile birlikte Gazneli elinden çıktı (ABİ MERKEZ: Gazne)",
+    "tur": "toprak-kayip",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Kâbil",
+    "yer_id": "Kâbil",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Hüsrev Şah Gazne'yi terk edip Lahor'a yerleşti; Gazne'ye bağlı Kâbil bölgesinin akıbeti Gazne'ye bağlandı (beyanlı yaklaşıklık).",
+    "kaynak": "TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Sonuçta Hüsrev Şah Gazne’yi terkederek Lahor şehrine yerleşti.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Gazne): Kâbil'e özgü devir cümlesi TDV'de yok.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1173-01-01",
+    "devlet": "gurlu",
+    "taraflar": [
+     "gurlu"
+    ],
+    "b": "Gurlular Gazne'yi alınca Kâbil bölgesi de Gurlu idaresine girdi (ABİ MERKEZ: Gazne)",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Kâbil",
+    "yer_id": "Kâbil",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Gıyâseddin Muhammed Gazne'yi aldı, kardeşi Muizzüddin'e bıraktı; Kâbil Gurlu imparatorluğunun ayrı idarî bölgesidir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular («Daha sonra Gur’un ve Horasan’ın çeşitli bölgelerinden gelen orduları topladı ve 1173’te Gazne’yi aldıktan sonra buranın idaresini sultan unvanını verdiği kardeşi Muizzüddin Muhammed’e bıraktı.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Gazne): Kâbil'e özgü devir cümlesi TDV'de yok.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1215-01-01",
+    "devlet": "harizmsah",
+    "taraflar": [
+     "harizmsah",
+     "gurlu"
+    ],
+    "b": "Hârizmşah Muhammed Gazne'yi alınca Kâbil bölgesi de Hârizmşah idaresine geçti (ABİ MERKEZ: Gazne)",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Kâbil",
+    "yer_id": "Kâbil",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Hârizmşah Muhammed Gazne'yi aldı ve oğlu Celâleddin'e verdi (Gurlu varlığı sona erdi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, Aydın Taneri, \"Hârizmşahlar\" md., 1997, https://islamansiklopedisi.org.tr/harizmsahlar («Aynı yıl Gazne’yi aldı ve oğlu Celâleddin’e verdi; ayrıca Fars Atabegi Sa‘d b. Zengî ile Azerbaycan Atabegi Özbek’i yenerek itaatlerini sağladı.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Gazne): Kâbil'e özgü devir cümlesi TDV'de yok.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "hint1/kronoloji_sinir_dogu_hint1.js",
+    "t": "0665-01-01",
+    "devlet": "turk-sahi",
+    "taraflar": [
+     "turk-sahi"
+    ],
+    "b": "Kâbilşâhîler'in yerini Türkşâhîler aldı: Kâbil Türk Şâhî hanedanına geçti",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Kâbil",
+    "yer_id": "Kâbil",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "TDV: Kuşan Devleti'nin ve arkasından hüküm süren Kâbilşâhîler hânedanının yıkılmasından sonra Türkşâhîler dönemi başladı; Müslümanlar 44/664'te Kâbil'de Türkşâhî hükümdarını haraca bağlamıştı. Önceki dilim (500-665) sahibi bu kümede kimliklenemedi (__BOSLUK__).",
+    "kaynak": "Ahmet Kavas, «Kâbil», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kabil--afganistan (22.10.2026'da okundu), «Kâbil»: \"Kâbil’de Kuşan Devleti’nin ve arkasından hüküm süren Kâbilşâhîler hânedanının yıkılmasından sonra Türkşâhîler dönemi başladı.\"",
+    "kesinlik": "onyil",
+    "sinir_id": [],
+    "gun": "TDV: 7. yüzyılın ortası; 44/664'te Türkşâhî zaten haraca bağlanmış (künye f=0665 ≤ 0664 olmalı)",
+    "ic_not": "Türk Şâhî başlangıcı TDV'de yıl verilmeden '7. yüzyılın ortalarında Türklerin Kâbil'e yerleşmesi' ve sonrası olarak anlatılır; 0665 künye f değeri."
+   },
+   {
+    "dosya": "hint1/kronoloji_sinir_dogu_hint1.js",
+    "t": "0850-01-01",
+    "devlet": "hindu-sahiler",
+    "taraflar": [
+     "hindu-sahiler",
+     "turk-sahi"
+    ],
+    "b": "Brahman vezir Kallar Türk Şâhî Lagaturman'ı devirdi: Kâbil Hindu Şâhîler'e geçti",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Kâbil",
+    "yer_id": "Kâbil",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Türk Şâhî hanedanından kral Lagaturman'ın Brahman veziri Kallar efendisini devirip tahta çıktı ve 9. yüzyılın ikinci yarısında Hindu Şâhî hanedanını kurdu; Kallar Rajatarangini'deki Lalliya Şâhî ile özdeşleşir. Lalliya Kâbil'i uzun süre tutamadı.",
+    "kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Central and Western India»: \"Kallar, a Brahmana minister of king Lagaturman of this dynasty, overthrew his master and occupied the throne.\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Central and Western India»: \"Kallar, who thus founded the Hindu Shahi dynasty in the second half of the ninth century A.D.\"",
+    "kesinlik": "yuzyil",
+    "sinir_id": [],
+    "gun": "9. yüzyılın ikinci yarısı (Majumdar IV; hindu-sahiler künye f=0850 alt sınır)",
+    "ic_not": "Yıl kaynakta yok: 0850-01-01 'ikinci yarı'nın alt sınırıdır; Saffârî 869'dan önce olmalı (TDV 255/869). YÜZYIL hassasiyeti."
+   }
+  ]
+ },
+ "Merv (Mari)": {
+  "yama": [
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0900-01-07",
+      "t": "0999-01-01",
+      "d": "samani",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Saffârî Emîri Amr b. Leys’i Belh savaşında yenerek esir aldı ve onu Bağdat’a gönderdi (287/900). Bu başarısından dolayı kendisine halife tarafından Horasan, Taberistan ve Deylem’in hâkimiyet menşurları verildi.») (bu oturumda okundu)",
+      "ic_not": "f = hicrî 287 ilk günü ∩ 900 (TDV «287/900» yıl hassasiyeti; Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.) BEYANLI YAKLAŞIKLIK: halife İsmâil b. Ahmed'e Horasan'ın bütününün hâkimiyet menşurunu verdi; bu şehrin kendisinin Sâmânîlere geçiş günü TDV'de yok (şehir-düzeyi devir cümlesi aranıp bulunamadı: Sâmânîler md.). ABİ MERKEZ: Belh (Amr b. Leys'in yenildiği yer)."
+     },
+     {
+      "f": "0999-01-01",
+      "t": "1038-05-09",
+      "d": "gazneli",
+      "kesinlik": "ay",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+      "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı. t = Selçuklu devri (aşağıdaki sınır maddesi); sonrası (Büyük Selçuklu → ... → mevcut zincir) başka kümenin işi: devam_gerekli."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0999-01-01",
+    "devlet": "gazneli",
+    "taraflar": [
+     "gazneli",
+     "samani"
+    ],
+    "b": "Merv (Mari): Horasan Sâmânîlerden Gaznelilere geçti",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Merv",
+    "yer_id": "Merv (Mari)",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Sâmânîler Gazneli ordusuna yenilince (389/999) Horasan topraklarını kaybetti; Mahmud Horasan'da iktidarını sağlamlaştırdı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1038-05-09",
+    "devlet": "buyuk-selcuklu",
+    "taraflar": [
+     "buyuk-selcuklu",
+     "gazneli"
+    ],
+    "b": "Merv (Mari): Gazneli hâkimiyeti sona erdi, Selçuklu hâkimiyeti başladı",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Merv",
+    "yer_id": "Merv (Mari)",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Talhâb zaferi (Şâban 429 / Mayıs 1038) sonrası Çağrı Bey Merv'e girdi; ay hassasiyeti.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Selçuklular\" md., 2009, https://islamansiklopedisi.org.tr/selcuklular («Çağrı Bey Merv’e, Tuğrul Bey Nîşâbur’a, Mûsâ Yabgu Serahs’a girdi.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Faruk Sümer, \"Tuğrul Bey\" md., 2012, https://islamansiklopedisi.org.tr/tugrul-bey («galip gelince (Şâban 429 / Mayıs 1038) Horasan’ın bir kısmını işgal ettiler ve kendilerine hükümdar gözüyle bakmaya başladılar. Aralarındaki anlaşmaya göre Tuğrul Bey Nîşâbur’a») (bu oturumda okundu)",
+    "gun": "ay (gün çevrilmiş)",
+    "kesinlik": "ay",
+    "ic_not": "Şâban 429 ∩ Mayıs 1038 = 1038-05-09. Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.",
+    "sinir_id": []
+   }
+  ]
+ },
+ "Nîşâbur": {
+  "yama": [
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0900-01-07",
+      "t": "0999-01-01",
+      "d": "samani",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Saffârî Emîri Amr b. Leys’i Belh savaşında yenerek esir aldı ve onu Bağdat’a gönderdi (287/900). Bu başarısından dolayı kendisine halife tarafından Horasan, Taberistan ve Deylem’in hâkimiyet menşurları verildi.») (bu oturumda okundu)",
+      "ic_not": "f = hicrî 287 ilk günü ∩ 900 (TDV «287/900» yıl hassasiyeti; Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.) BEYANLI YAKLAŞIKLIK: halife İsmâil b. Ahmed'e Horasan'ın bütününün hâkimiyet menşurunu verdi; bu şehrin kendisinin Sâmânîlere geçiş günü TDV'de yok (şehir-düzeyi devir cümlesi aranıp bulunamadı: Sâmânîler md.). ABİ MERKEZ: Belh (Amr b. Leys'in yenildiği yer)."
+     },
+     {
+      "f": "0999-01-01",
+      "t": "1038-05-09",
+      "d": "gazneli",
+      "kesinlik": "ay",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+      "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı. t = Selçuklu devri (aşağıdaki sınır maddesi); sonrası (Büyük Selçuklu → ... → mevcut zincir) başka kümenin işi: devam_gerekli."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0999-01-01",
+    "devlet": "gazneli",
+    "taraflar": [
+     "gazneli",
+     "samani"
+    ],
+    "b": "Nîşâbur: Horasan Sâmânîlerden Gaznelilere geçti",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Nîşâbur",
+    "yer_id": "Nîşâbur",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Sâmânîler Gazneli ordusuna yenilince (389/999) Horasan topraklarını kaybetti; Mahmud Horasan'da iktidarını sağlamlaştırdı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1038-05-09",
+    "devlet": "buyuk-selcuklu",
+    "taraflar": [
+     "buyuk-selcuklu",
+     "gazneli"
+    ],
+    "b": "Nîşâbur: Gazneli hâkimiyeti sona erdi, Selçuklu hâkimiyeti başladı",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Nîşâbur",
+    "yer_id": "Nîşâbur",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Talhâb zaferi (Şâban 429 / Mayıs 1038) sonrası Tuğrul Bey Nîşâbur'a girdi; ay hassasiyeti.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Selçuklular\" md., 2009, https://islamansiklopedisi.org.tr/selcuklular («Çağrı Bey Merv’e, Tuğrul Bey Nîşâbur’a, Mûsâ Yabgu Serahs’a girdi.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Faruk Sümer, \"Tuğrul Bey\" md., 2012, https://islamansiklopedisi.org.tr/tugrul-bey («galip gelince (Şâban 429 / Mayıs 1038) Horasan’ın bir kısmını işgal ettiler ve kendilerine hükümdar gözüyle bakmaya başladılar. Aralarındaki anlaşmaya göre Tuğrul Bey Nîşâbur’a») (bu oturumda okundu)",
+    "gun": "ay (gün çevrilmiş)",
+    "kesinlik": "ay",
+    "ic_not": "Şâban 429 ∩ Mayıs 1038 = 1038-05-09. Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.",
+    "sinir_id": []
+   }
+  ]
+ },
+ "Semerkant": {
+  "yama": [
+   {
+    "dosya": "bozkir1/yama_bozkir1.js",
+    "onek": [
+     {
+      "f": "0500-01-01",
+      "t": "0562-01-01",
+      "d": "eftalit",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «V. asrın ortalarına doğru Semerkant’ı hâkimiyetleri altına alan Eftalitler, vergi almakla yetinip Mâverâünnehir’in idaresini K’ang-chü hânedanına bıraktılar» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı 0500-01-01; önceki sahiplik bu kümenin işi değil)"
+     },
+     {
+      "f": "0562-01-01",
+      "t": "0582-01-01",
+      "d": "gokturk-1",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «562’de Semerkant’ı ele geçiren Göktürkler» | 582: Göktürk devletinin ikiye ayrılışı (atlas kronolojisinde 0582-01-01; bu oturumda kaynak açılmadı)"
+     },
+     {
+      "f": "0582-01-01",
+      "t": "0659-01-01",
+      "d": "bati-gokturk",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «659’da Batı Göktürk Devleti’nin yıkılmasının ardından şehir Çinliler’in hâkimiyeti altına girdi» | BEYAN: bati-gokturk künyesi (main) t=0630-01-01; TDV Semerkant ve TDV Tohâristan (657-658) Batı Göktürk’ün 657-659’a kadar sürdüğünü söyler → künye t düzeltme önerisi RAPOR’da. Bölünme yılı 582 bu oturumda kaynakta okunmadı (atlas; atıf)."
+     },
+     {
+      "f": "0659-01-01",
+      "t": "0711-01-01",
+      "d": "tang",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «Bu dönemde idarî merkezi Semerkant olan Soğd Yabguluğu sözde Çin’e bağlı olmakla birlikte neredeyse tam bağımsız durumdaydı» | BEYANLI YAKLAŞIKLIK: fiilî yönetim yerel Soğd hânedanındaydı (676 ve 680 Arap seferleri vergi/rehine antlaşmasıyla sonuçlandı, 701 II. Göktürk ordusu bölgeyi bağladı; TDV Semerkant); nominal sahip Tang alındı."
+     },
+     {
+      "f": "0711-01-01",
+      "t": "0735-01-01",
+      "d": "emevi",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «Semerkant Emevîler’in Horasan valisi Kuteybe b. Müslim tarafından altı yıl süren şiddetli ve kanlı savaşların ardından kesin biçimde fethedildi (93/711)» | «Gûrek’i yerli halkın temsilcisi olarak görevinde bırakırken arkadaşlarından birini Semerkant valiliğine tayin ederek» | Takvim: hicrî 93 (kaynağın mîlâdî yılı 711) ∩ 711 kesişiminin ilk günü = Jülyen 0711-10-19 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 93) = Jülyen 0711-10-19. (yıl hassasiyeti 0711-01-01 olarak yazıldı; hicrî 93 yılbaşı Jülyen 0711-10-19). 721-731 Türgiş-Soğd ayaklanma/kuşatmaları sahibi değiştirmedi (Semerkant’ın kendisi 735’e kadar Arap eliydi; TDV)."
+     },
+     {
+      "f": "0735-01-01",
+      "t": "0738-01-01",
+      "d": "semerkant-ihsid",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «Semerkant 117’de (735) Hâris b. Süreyc ayaklanması sırasında Türgişler’in de yardımı ile Gûrek’in eline geçti ve şehirdeki İslâm garnizonu yok edildi» | Takvim: hicrî 117 (kaynağın mîlâdî yılı 735) ∩ 735 kesişiminin ilk günü = Jülyen 0735-01-31 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 117) = Jülyen 0735-01-31."
+     },
+     {
+      "f": "0738-01-01",
+      "t": "0750-01-01",
+      "d": "emevi",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «120 (738) yılında Türgiş Hakanı Su-lu ve Soğd İhşîdi Gûrek’in ardı ardına ölümleri Emevîler’in işini kolaylaştırdı» | «Nasr b. Seyyâr başarılı siyasetiyle Soğd bölgesi ve merkezi Semerkant’ta hâkimiyeti güçlendirmeyi başardı» | Emevî→Abbâsî geçişi (747-750) bu kümenin dışında; t=0750-01-01 devir işaretidir."
+     }
+    ]
+   },
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0874-10-16",
+      "t": "0999-10-14",
+      "d": "samani",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Ailenin reisi durumundaki Semerkant valisi Nûh, Tâhirîler ve Abbâsîler’le iyi geçinerek Sâmânîler’in Mâverâünnehir’deki hâkimiyetini sağlamlaştırdı.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Fâik de Semerkant valisi oldu (996).») (bu oturumda okundu)",
+      "ic_not": "f = hicrî 261 ilk günü (Nasr'a Mâverâünnehir fermanı «874-75»; Semerkant 819'dan Sâmânî valisi Nûh'un merkezi — 819-874 arası vali sıfatlı Sâmânî idaresi, Tâhirîler/Abbâsîler altında; bu kayıtta egemenlik Nasr fermanından başlatıldı). BEYAN: TDV Karahanlılar md. Hârun Buğra Han'ın «992 başlarında Semerkant'ı aldığını» yazar; şehrin Sâmânîlere dönüş günü kaynakta yok → dilim BÖLÜNMEDİ (beyanlı yaklaşıklık: 992-başı..992-08 Karahanlı olabilir). t = Buhara ile aynı gün (ABİ MERKEZ aşağıda)."
+     },
+     {
+      "f": "0999-10-14",
+      "t": "1000-01-01",
+      "d": "karahanli",
+      "kesinlik": "ay",
+      "kaynak": "ABİ MERKEZ: Buhara — Sâmânî başşehri; bağı gösteren kaynak: | TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Hânedan mensuplarını Özkent’e sürdü, bölgeye kendi valilerini tayin edip Özkent’e döndü.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Karahanlılar’ın Buhara’yı işgaliyle son buldu (Zilkade 389 / Ekim 999).») (bu oturumda okundu)",
+      "ic_not": "BEYANLI YAKLAŞIKLIK: Semerkant'ın 999'da el değiştirdiğini doğrudan bildiren cümle yok; Sâmânî başşehri Buhara'nın Ekim 999 düşüşü ve «bölgeye kendi valilerini tayin etti» ifadesinden zincir Buhara'dan devralındı. Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0562-01-01",
+    "devlet": "gokturk-1",
+    "taraflar": [
+     "gokturk-1",
+     "eftalit"
+    ],
+    "b": "Göktürkler Semerkant’ı Eftalit nüfuzundan aldı",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Semerkant",
+    "yer_id": "Semerkant",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Semerkant (atlas yerleşimi «Semerkant») 0562-01-01 gününde gokturk-1 egemenliğine geçti: Göktürkler Semerkant’ı Eftalit nüfuzundan aldı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «562’de Semerkant’ı ele geçiren Göktürkler» | 582: Göktürk devletinin ikiye ayrılışı (atlas kronolojisinde 0582-01-01; bu oturumda kaynak açılmadı)",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0582-01-01",
+    "devlet": "bati-gokturk",
+    "taraflar": [
+     "bati-gokturk",
+     "gokturk-1"
+    ],
+    "b": "Göktürk bölünmesinde Semerkant Batı Göktürk’e kaldı",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Semerkant",
+    "yer_id": "Semerkant",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Semerkant (atlas yerleşimi «Semerkant») 0582-01-01 gününde bati-gokturk egemenliğine geçti: Göktürk bölünmesinde Semerkant Batı Göktürk’e kaldı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «659’da Batı Göktürk Devleti’nin yıkılmasının ardından şehir Çinliler’in hâkimiyeti altına girdi» | BEYAN: bati-gokturk künyesi (main) t=0630-01-01; TDV Semerkant ve TDV Tohâristan (657-658) Batı Göktürk’ün 657-659’a kadar sürdüğünü söyler → künye t düzeltme önerisi RAPOR’da. Bölünme yılı 582 bu oturumda kaynakta okunmadı (atlas; atıf).",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0659-01-01",
+    "devlet": "tang",
+    "taraflar": [
+     "tang",
+     "bati-gokturk"
+    ],
+    "b": "Batı Göktürk’ün yıkılışı: Semerkant Çin (Tang) nominal hâkimiyetine girdi",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Semerkant",
+    "yer_id": "Semerkant",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Semerkant (atlas yerleşimi «Semerkant») 0659-01-01 gününde tang egemenliğine geçti: Batı Göktürk’ün yıkılışı: Semerkant Çin (Tang) nominal hâkimiyetine girdi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «Bu dönemde idarî merkezi Semerkant olan Soğd Yabguluğu sözde Çin’e bağlı olmakla birlikte neredeyse tam bağımsız durumdaydı» | BEYANLI YAKLAŞIKLIK: fiilî yönetim yerel Soğd hânedanındaydı (676 ve 680 Arap seferleri vergi/rehine antlaşmasıyla sonuçlandı, 701 II. Göktürk ordusu bölgeyi bağladı; TDV Semerkant); nominal sahip Tang alındı.",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0711-01-01",
+    "devlet": "emevi",
+    "taraflar": [
+     "emevi",
+     "tang"
+    ],
+    "b": "Kuteybe b. Müslim Semerkant’ı kesin biçimde fethetti (93/711)",
+    "tur": "toprak-kazanc",
+    "onem": 4,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Semerkant",
+    "yer_id": "Semerkant",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Semerkant (atlas yerleşimi «Semerkant») 0711-01-01 gününde emevi egemenliğine geçti: Kuteybe b. Müslim Semerkant’ı kesin biçimde fethetti (93/711).",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «Semerkant Emevîler’in Horasan valisi Kuteybe b. Müslim tarafından altı yıl süren şiddetli ve kanlı savaşların ardından kesin biçimde fethedildi (93/711)» | «Gûrek’i yerli halkın temsilcisi olarak görevinde bırakırken arkadaşlarından birini Semerkant valiliğine tayin ederek» | Takvim: hicrî 93 (kaynağın mîlâdî yılı 711) ∩ 711 kesişiminin ilk günü = Jülyen 0711-10-19 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 93) = Jülyen 0711-10-19. (yıl hassasiyeti 0711-01-01 olarak yazıldı; hicrî 93 yılbaşı Jülyen 0711-10-19). 721-731 Türgiş-Soğd ayaklanma/kuşatmaları sahibi değiştirmedi (Semerkant’ın kendisi 735’e kadar Arap eliydi; TDV).",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0735-01-01",
+    "devlet": "semerkant-ihsid",
+    "taraflar": [
+     "semerkant-ihsid",
+     "emevi"
+    ],
+    "b": "Gûrek Türgişlerin yardımıyla Semerkant’ı geri aldı (117/735)",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Semerkant",
+    "yer_id": "Semerkant",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Semerkant (atlas yerleşimi «Semerkant») 0735-01-01 gününde semerkant-ihsid egemenliğine geçti: Gûrek Türgişlerin yardımıyla Semerkant’ı geri aldı (117/735).",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «Semerkant 117’de (735) Hâris b. Süreyc ayaklanması sırasında Türgişler’in de yardımı ile Gûrek’in eline geçti ve şehirdeki İslâm garnizonu yok edildi» | Takvim: hicrî 117 (kaynağın mîlâdî yılı 735) ∩ 735 kesişiminin ilk günü = Jülyen 0735-01-31 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 117) = Jülyen 0735-01-31.",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir1/kronoloji_sinir_dogu_bozkir1.js",
+    "t": "0738-01-01",
+    "devlet": "emevi",
+    "taraflar": [
+     "emevi",
+     "semerkant-ihsid"
+    ],
+    "b": "Su-lu ve Gûrek’in ölümleri sonrası Emevîler Semerkant’ta hâkimiyeti yeniden kurdu (120/738)",
+    "tur": "toprak-kazanc",
+    "onem": 3,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Semerkant",
+    "yer_id": "Semerkant",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Semerkant (atlas yerleşimi «Semerkant») 0738-01-01 gününde emevi egemenliğine geçti: Su-lu ve Gûrek’in ölümleri sonrası Emevîler Semerkant’ta hâkimiyeti yeniden kurdu (120/738).",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Semerkant» md., https://islamansiklopedisi.org.tr/semerkant (bu oturumda okundu): «120 (738) yılında Türgiş Hakanı Su-lu ve Soğd İhşîdi Gûrek’in ardı ardına ölümleri Emevîler’in işini kolaylaştırdı» | «Nasr b. Seyyâr başarılı siyasetiyle Soğd bölgesi ve merkezi Semerkant’ta hâkimiyeti güçlendirmeyi başardı» | Emevî→Abbâsî geçişi (747-750) bu kümenin dışında; t=0750-01-01 devir işaretidir.",
+    "sinir_id": [],
+    "kesinlik": "yil"
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0999-10-14",
+    "devlet": "karahanli",
+    "taraflar": [
+     "karahanli",
+     "samani"
+    ],
+    "b": "Buhara'nın düşmesiyle Semerkant (Sâmânî egemenlik alanı) Karahanlı idaresine geçti",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Semerkant",
+    "yer_id": "Semerkant",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "İlig Han Nasr Buhara'yı alıp bölgeye kendi valilerini tayin etti; Sâmânî devleti fiilen sona erdi. Semerkant'ın devri Buhara'dan devralınmış (ABİ MERKEZ) beyanlı yaklaşıklıktır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Hânedan mensuplarını Özkent’e sürdü, bölgeye kendi valilerini tayin edip Özkent’e döndü.») (bu oturumda okundu)",
+    "gun": "ay (gün çevrilmiş)",
+    "kesinlik": "ay",
+    "ic_not": "BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Buhara).",
+    "ic_not_takvim": "Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.",
+    "sinir_id": []
+   }
+  ]
+ },
+ "Serahs": {
+  "yama": [
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0900-01-07",
+      "t": "0999-01-01",
+      "d": "samani",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Saffârî Emîri Amr b. Leys’i Belh savaşında yenerek esir aldı ve onu Bağdat’a gönderdi (287/900). Bu başarısından dolayı kendisine halife tarafından Horasan, Taberistan ve Deylem’in hâkimiyet menşurları verildi.») (bu oturumda okundu)",
+      "ic_not": "f = hicrî 287 ilk günü ∩ 900 (TDV «287/900» yıl hassasiyeti; Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.) BEYANLI YAKLAŞIKLIK: halife İsmâil b. Ahmed'e Horasan'ın bütününün hâkimiyet menşurunu verdi; bu şehrin kendisinin Sâmânîlere geçiş günü TDV'de yok (şehir-düzeyi devir cümlesi aranıp bulunamadı: Sâmânîler md.). ABİ MERKEZ: Belh (Amr b. Leys'in yenildiği yer)."
+     },
+     {
+      "f": "0999-01-01",
+      "t": "1038-05-09",
+      "d": "gazneli",
+      "kesinlik": "ay",
+      "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+      "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı. t = Selçuklu devri (aşağıdaki sınır maddesi); sonrası (Büyük Selçuklu → ... → mevcut zincir) başka kümenin işi: devam_gerekli."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0999-01-01",
+    "devlet": "gazneli",
+    "taraflar": [
+     "gazneli",
+     "samani"
+    ],
+    "b": "Serahs: Horasan Sâmânîlerden Gaznelilere geçti",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Serahs",
+    "yer_id": "Serahs",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Sâmânîler Gazneli ordusuna yenilince (389/999) Horasan topraklarını kaybetti; Mahmud Horasan'da iktidarını sağlamlaştırdı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı.",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1038-05-09",
+    "devlet": "buyuk-selcuklu",
+    "taraflar": [
+     "buyuk-selcuklu",
+     "gazneli"
+    ],
+    "b": "Serahs: Gazneli hâkimiyeti sona erdi, Selçuklu hâkimiyeti başladı",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Serahs",
+    "yer_id": "Serahs",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Talhâb zaferi (Şâban 429 / Mayıs 1038) sonrası Mûsâ Yabgu Serahs'a girdi (Talhâb Serahs yakınındadır); ay hassasiyeti.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Selçuklular\" md., 2009, https://islamansiklopedisi.org.tr/selcuklular («Çağrı Bey Merv’e, Tuğrul Bey Nîşâbur’a, Mûsâ Yabgu Serahs’a girdi.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Faruk Sümer, \"Tuğrul Bey\" md., 2012, https://islamansiklopedisi.org.tr/tugrul-bey («galip gelince (Şâban 429 / Mayıs 1038) Horasan’ın bir kısmını işgal ettiler ve kendilerine hükümdar gözüyle bakmaya başladılar. Aralarındaki anlaşmaya göre Tuğrul Bey Nîşâbur’a») (bu oturumda okundu)",
+    "gun": "ay (gün çevrilmiş)",
+    "kesinlik": "ay",
+    "ic_not": "Şâban 429 ∩ Mayıs 1038 = 1038-05-09. Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.",
+    "sinir_id": []
+   }
+  ]
+ },
+ "Taraz (Evliya-Ata)": {
+  "yama": [
+   {
+    "dosya": "bozkir2/yama_bozkir2.js",
+    "onek": [
+     {
+      "f": "0766-01-01",
+      "t": "0840-01-01",
+      "d": "karluk",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Hüseyin Salman, \"Karluklar\" md., 2001, https://islamansiklopedisi.org.tr/karluklar («Daha sonra da yıkılma sürecine giren Kara Türgiş Kağanlığı’nın iki büyük idare merkezi Tokmok ve Talas’ı zaptederek 766 yılında burada başşehri Balasagun yakınlarındaki Kara-ordu olan bir devlet kurdular.») (bu oturumda okundu)",
+      "ic_not": "TDV: Karluklar Kara Türgiş'in iki büyük idare merkezi Tokmok ve Talas'ı zaptederek 766'da devlet kurdu."
+     },
+     {
+      "f": "0840-01-01",
+      "t": "1041-01-01",
+      "d": "karahanli",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Kadır Han’ın Oğulçak, yardımcı kağan sıfatıyla Talas’ta ve Kâşgar’da hüküm sürdüğü kaydedilmektedir.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Muharrem 280’de (Mart-Nisan 893) Doğu Karahanlılar’ın merkezi Talas’ı zaptedince») (bu oturumda okundu)",
+      "ic_not": "BEYAN: Sâmânî İsmâil b. Ahmed Muharrem 280'de (Mart-Nisan 893) Talas'ı zaptetti (TDV Karahanlılar); şehri ne kadar elde tuttuğu yazılı değil (kronoloji maddesi: 893-03-23 İsmâil Talas'ı alıp esir aldı, Karahanlılar başşehri Kâşgar'a taşıdı) → dilim BÖLÜNMEDİ, akın sayıldı. Pritsak'a göre Talas Karahanlı Buğra Han kolunun başşehri."
+     },
+     {
+      "f": "1041-01-01",
+      "t": "1130-01-01",
+      "d": "dogu-karahanli",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Muhammed (muhtemelen Kâşgarlı Mahmud’un dedesidir) Buğra Han sıfatı ile Talas ve İsfîcâb’ı, diğer kardeşi Mahmud ise devletin en doğudaki eyaletini idare edecekti.») (bu oturumda okundu)",
+      "ic_not": "BEYANLI YAKLAŞIKLIK: Karahanlı 1041'de Doğu/Batı ikiye ayrıldı (TDV 433/1041-42); Talas Doğu Karahanlı Buğra Han Muhammed'in payı (435/1044 paylaşım). 1041-1044 arası sahiplik ABİ MERKEZ: Balasagun/Kâşgar (Doğu Karahanlı) olarak alındı."
+     },
+     {
+      "f": "1130-01-01",
+      "t": "1211-01-01",
+      "d": "karahitay",
+      "kesinlik": "yil",
+      "kaynak": "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Karahıtaylar\" md., 2001, https://islamansiklopedisi.org.tr/karahitaylar («Kâşgar, Beşbalık ve Hoten’i de kendine tâbi kılıp başşehri Balasagun olan Karahıtay Devleti’ni kurdu (1130).») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Karahıtaylar\" md., 2001, https://islamansiklopedisi.org.tr/karahitaylar («batıda Ceyhun ırmağına, güneyde ise Belh, Tirmiz ve Hoten’e dayanıyordu») (bu oturumda okundu)",
+      "ic_not": "BEYANLI YAKLAŞIKLIK: Talas adı geçen Karahıtay cümlesinde yok; Karahıtay sınırları «batıda Ceyhun» ve başşehir Balasagun olduğundan Talas içeridedir (ABİ MERKEZ: Balasagun). 1211-1218 Küçlüğ dönemi ve sonrası devam_gerekli."
+     }
+    ]
+   }
+  ],
+  "sinir": [
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "0840-01-01",
+    "devlet": "karahanli",
+    "taraflar": [
+     "karahanli",
+     "karluk"
+    ],
+    "b": "Talas Karluk Devleti'nden Karahanlı Devleti'ne geçti (Uygur çöküşü, Kara Han unvanı)",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Taraz",
+    "yer_id": "Taraz (Evliya-Ata)",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Karluk yabgusu 840'ta Kara Han unvanını aldı; Karluk Devleti ilk Türk-İslâm devleti Karahanlılara dönüştü; Talas Karahanlı yardımcı kağanı Oğulçak'ın merkezi oldu.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Hüseyin Salman, \"Karluklar\" md., 2001, https://islamansiklopedisi.org.tr/karluklar («Böylece Karluk Devleti değişiklik geçirerek aynı zamanda ilk Türk-İslâm devleti olan Karahanlılar’a dönüştü.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1041-01-01",
+    "devlet": "dogu-karahanli",
+    "taraflar": [
+     "dogu-karahanli",
+     "karahanli"
+    ],
+    "b": "Karahanlı ikiye ayrıldı: Talas Doğu Karahanlı payına düştü",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Taraz",
+    "yer_id": "Taraz (Evliya-Ata)",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Aynüddevle Muhammed ve Böri Tegin İbrâhim Mâverâünnehir'de bağımsız devlet kurunca Karahanlılar Doğu ve Batı diye ikiye ayrıldı; Talas ve İsfîcâb Doğu Karahanlı Buğra Han Muhammed'in payı oldu.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Mâverâünnehir’in tamamına hâkim olup burada bağımsız bir devlet kurdular (433/1041-42).») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar («Muhammed (muhtemelen Kâşgarlı Mahmud’un dedesidir) Buğra Han sıfatı ile Talas ve İsfîcâb’ı, diğer kardeşi Mahmud ise devletin en doğudaki eyaletini idare edecekti.») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Balasagun/Kâşgar).",
+    "sinir_id": []
+   },
+   {
+    "dosya": "bozkir2/kronoloji_sinir_dogu_bozkir2.js",
+    "t": "1130-01-01",
+    "devlet": "karahitay",
+    "taraflar": [
+     "karahitay",
+     "dogu-karahanli"
+    ],
+    "b": "Karahıtay Devleti kuruldu: Talas Karahıtay sınırları içinde",
+    "tur": "toprak-kazanc",
+    "onem": 2,
+    "dunya": 1,
+    "kapsam": "dis",
+    "yer": "Taraz",
+    "yer_id": "Taraz (Evliya-Ata)",
+    "etiket": [
+     "toprak-degisimi",
+     "konu-askeri",
+     "dogu-500-1281"
+    ],
+    "d": "Yeh-lü Ta-şi Balasagun'a gelip Kâşgar, Beşbalık ve Hoten'i tâbi kılarak Karahıtay Devleti'ni kurdu; batı sınırı Ceyhun'du.",
+    "kaynak": "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Karahıtaylar\" md., 2001, https://islamansiklopedisi.org.tr/karahitaylar («Kâşgar, Beşbalık ve Hoten’i de kendine tâbi kılıp başşehri Balasagun olan Karahıtay Devleti’ni kurdu (1130).») (bu oturumda okundu)",
+    "gun": "yıl",
+    "kesinlik": "yil",
+    "ic_not": "BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Balasagun).",
+    "sinir_id": []
+   }
+  ]
+ }
+}

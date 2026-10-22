@@ -1,0 +1,182 @@
+{
+ "Changsha": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Dali": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1382-01-06",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Dunhuang": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Fuzhou": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Hangzhou": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1000-01-01",
+   "t": "1276-01-01",
+   "d": "song"
+  },
+  "mevcut_ilk_f": "1000-01-01"
+ },
+ "Jingzhou": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Kaifeng": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1000-01-01",
+   "t": "1127-01-01",
+   "d": "song"
+  },
+  "mevcut_ilk_f": "1000-01-01"
+ },
+ "Kanton (Guangzhou)": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Liaoyang": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Luoyang": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Nanking (Nanjing)": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Pekin (Hanbalık)": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Taiyuan": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Xi'an (Chang'an)": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Xining": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Yangzhou": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Yinchuan (Ningxia)": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Zhangye (Ganzhou)": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Zhengding": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ },
+ "Çengdu (Chengdu)": {
+  "bulunan": 1,
+  "ilk": {
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "d": "yuan-hanedani"
+  },
+  "mevcut_ilk_f": "1281-01-01"
+ }
+}
