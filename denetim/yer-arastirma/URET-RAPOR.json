@@ -10,6 +10,18 @@
  ],
  "mukerrer": [
   {
+   "ad": "Harran",
+   "atlas": "Harran",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Taormina",
+   "atlas": "Taormina",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
    "ad": "Gırnata",
    "atlas": "Granada",
    "km": 0.1,
@@ -22,9 +34,21 @@
    "neden": "3km"
   },
   {
+   "ad": "Kançipuram",
+   "atlas": "Kançipuram (Kanchipuram)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
    "ad": "Nisibis",
    "atlas": "Nusaybin",
    "km": 1.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Misis",
+   "atlas": "Misis (Yakapınar)",
+   "km": 0.0,
    "neden": "ad"
   },
   {
@@ -40,6 +64,12 @@
    "neden": "3km"
   },
   {
+   "ad": "Mazara del Vallo",
+   "atlas": "Mazara del Vallo",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
    "ad": "Balkh",
    "atlas": "Belh",
    "km": 1.16,
@@ -49,6 +79,24 @@
    "ad": "Kālîkalâ",
    "atlas": "Erzurum",
    "km": 0.9,
+   "neden": "ad"
+  },
+  {
+   "ad": "Ahlat",
+   "atlas": "Ahlat",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Carcassonne",
+   "atlas": "Carcassonne",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Meaux",
+   "atlas": "Meaux",
+   "km": 0.0,
    "neden": "ad"
   },
   {
@@ -82,6 +130,12 @@
    "neden": "ad"
   },
   {
+   "ad": "Sart",
+   "atlas": "Sart",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
    "ad": "Hamgmatāna = Ekbatana",
    "atlas": "Hemedan",
    "km": 0.74,
@@ -106,6 +160,24 @@
    "neden": "3km"
   },
   {
+   "ad": "Senlis",
+   "atlas": "Senlis",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Auxerre",
+   "atlas": "Auxerre",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Laon",
+   "atlas": "Laon",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
    "ad": "Strasbourg",
    "atlas": "Strazburg",
    "km": 1.1,
@@ -125,9 +197,21 @@
   },
   {
    "ad": "Yakapınar",
-   "atlas": "Misis",
+   "atlas": "Misis (Yakapınar)",
    "km": 0.0,
-   "neden": "parti-3km"
+   "neden": "ad"
+  },
+  {
+   "ad": "Sis",
+   "atlas": "Sis (Kozan)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Béziers",
+   "atlas": "Béziers",
+   "km": 0.0,
+   "neden": "ad"
   },
   {
    "ad": "Şanlıurfa",
@@ -144,8 +228,14 @@
   {
    "ad": "Harran",
    "atlas": "Harran",
-   "km": 0.05,
-   "neden": "parti-3km"
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Alamut",
+   "atlas": "Alamut (Alamut Kalesi, Kazvin vilayeti)",
+   "km": 0.0,
+   "neden": "ad"
   },
   {
    "ad": "Ekbatana",
@@ -211,7 +301,7 @@
    "ad": "Sardes",
    "atlas": "Sart",
    "km": 0.0,
-   "neden": "parti-3km"
+   "neden": "3km"
   },
   {
    "ad": "Halikarnassos",
@@ -372,14 +462,14 @@
   {
    "ad": "Harran",
    "atlas": "Harran",
-   "km": 0.0,
-   "neden": "parti-3km"
+   "km": 0.1,
+   "neden": "ad"
   },
   {
    "ad": "Sardes (Sart)",
    "atlas": "Sart",
    "km": 0.0,
-   "neden": "parti-3km"
+   "neden": "3km"
   },
   {
    "ad": "Ekbatana (Hegmatane)",
@@ -420,8 +510,14 @@
   {
    "ad": "Harran",
    "atlas": "Harran",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Meyyâfârikîn (Silvan)",
+   "atlas": "Meyyâfârikīn",
    "km": 0.0,
-   "neden": "parti-3km"
+   "neden": "3km"
   },
   {
    "ad": "Rey (Rhages; Tahran güneyi)",
@@ -430,10 +526,16 @@
    "neden": "parti-3km"
   },
   {
+   "ad": "Büst (Lashkar Gah/Bust, Helmand)",
+   "atlas": "Büst",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
    "ad": "Ahlat",
    "atlas": "Ahlat",
    "km": 0.0,
-   "neden": "parti-3km"
+   "neden": "ad"
   },
   {
    "ad": "Uclés (Uklîş)",
@@ -467,9 +569,9 @@
   },
   {
    "ad": "Meyyâfârikīn",
-   "atlas": "Meyyâfârikîn (Silvan)",
+   "atlas": "Meyyâfârikīn",
    "km": 0.0,
-   "neden": "parti-3km"
+   "neden": "ad"
   },
   {
    "ad": "Meißen",
@@ -484,6 +586,24 @@
    "neden": "3km"
   },
   {
+   "ad": "Saluzzo",
+   "atlas": "Saluzzo",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Haliç",
+   "atlas": "Haliç",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Şeyzer",
+   "atlas": "Şeyzer",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
    "ad": "Duvîn",
    "atlas": "Dvin",
    "km": 0.0,
@@ -496,10 +616,28 @@
    "neden": "3km"
   },
   {
+   "ad": "Kadıköy",
+   "atlas": "Kadıköy",
+   "km": 1.0,
+   "neden": "ad"
+  },
+  {
    "ad": "Székesfehérvár",
    "atlas": "İstolni Belgrad",
    "km": 0.05,
    "neden": "3km"
+  },
+  {
+   "ad": "Legnano",
+   "atlas": "Legnano",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Dînever",
+   "atlas": "Dînever",
+   "km": 0.0,
+   "neden": "ad"
   },
   {
    "ad": "Medâin",
@@ -520,16 +658,40 @@
    "neden": "3km"
   },
   {
-   "ad": "Silvan",
-   "atlas": "Meyyâfârikîn (Silvan)",
+   "ad": "Ani",
+   "atlas": "Ani",
    "km": 0.0,
-   "neden": "parti-3km"
+   "neden": "ad"
+  },
+  {
+   "ad": "Silvan",
+   "atlas": "Meyyâfârikīn",
+   "km": 0.0,
+   "neden": "3km"
   },
   {
    "ad": "Tancavur",
    "atlas": "Tancûr (Thanjavur)",
    "km": 0.53,
    "neden": "3km"
+  },
+  {
+   "ad": "Preslav",
+   "atlas": "Preslav",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Polonnaruva",
+   "atlas": "Polonnaruwa",
+   "km": 0.88,
+   "neden": "3km"
+  },
+  {
+   "ad": "Remle",
+   "atlas": "Remle (Ramla)",
+   "km": 0.0,
+   "neden": "ad"
   },
   {
    "ad": "Berdea",
@@ -542,6 +704,12 @@
    "atlas": "Baden-Baden",
    "km": 0.28,
    "neden": "3km"
+  },
+  {
+   "ad": "Verdun",
+   "atlas": "Verdun",
+   "km": 0.0,
+   "neden": "ad"
   },
   {
    "ad": "Derbent",
@@ -557,9 +725,15 @@
   },
   {
    "ad": "Kartaca",
-   "atlas": "Karthago",
-   "km": 0.09,
-   "neden": "3km"
+   "atlas": "Kartaca (Carthage)",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Deybül",
+   "atlas": "Deybül (Debal)",
+   "km": 0.0,
+   "neden": "ad"
   },
   {
    "ad": "Afyonkarahisar",
@@ -574,6 +748,12 @@
    "neden": "3km"
   },
   {
+   "ad": "Dumbarton",
+   "atlas": "Dumbarton",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
    "ad": "Petra",
    "atlas": "Petra",
    "km": 0.2,
@@ -584,6 +764,30 @@
    "atlas": "Taraz (Evliya-Ata)",
    "km": 0.24,
    "neden": "3km"
+  },
+  {
+   "ad": "Barbastro",
+   "atlas": "Barbastro",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Kalyani",
+   "atlas": "Kalyani (Basavakalyan)",
+   "km": 0.4,
+   "neden": "ad"
+  },
+  {
+   "ad": "Canterbury",
+   "atlas": "Canterbury",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Simancas",
+   "atlas": "Simancas",
+   "km": 0.0,
+   "neden": "ad"
   },
   {
    "ad": "Palmira",
@@ -665,9 +869,9 @@
   },
   {
    "ad": "Büst",
-   "atlas": "Büst (Lashkar Gah/Bust, Helmand)",
-   "km": 0.62,
-   "neden": "parti-3km"
+   "atlas": "Büst",
+   "km": 0.6,
+   "neden": "ad"
   },
   {
    "ad": "Tmutorakan",
@@ -762,8 +966,8 @@
   {
    "ad": "Carrhae",
    "atlas": "Harran",
-   "km": 0.0,
-   "neden": "parti-3km"
+   "km": 0.1,
+   "neden": "ad"
   },
   {
    "ad": "Barbalissus",
@@ -858,7 +1062,7 @@
   "bolge_adi": 55,
   "?": 87
  },
- "yazilan": 222,
+ "yazilan": 188,
  "haric": [
   {
    "ad": "Lade",
@@ -1268,5 +1472,9 @@
  ],
  "bilesik_ad_yazilmadi": [
   "Sebte (Ceuta), Sicilmâse mevcut ama Secûmâ (Sicilmâse yakını) yok"
+ ],
+ "ad_cakisti_yazilmadi": [
+  "Mora",
+  "Hadramut"
  ]
 }
