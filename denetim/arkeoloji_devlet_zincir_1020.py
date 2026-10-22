@@ -383,7 +383,7 @@ def main():
             tip = "b"
             kaynak_var = True
         sehirler = sorted(o["s"])
-        yakin = [(e, f) for (e, f) in havuz if abs(gn(t) - gn(e["t"])) <= 31]
+        yakin = [(e, f) for (e, f) in havuz if abs(gn(t) - gn(e["t"])) <= 27]    # denetle 2s penceresi ±30 gün (31 değil)
         kapsam = [w for w in sozc(sehirler)]
         eksik = [sh for sh in sehirler if not any(re.search(r"(?<!\w)" + re.escape(w) + r"(?!\w)", metin(e)) for (e, f) in yakin
                                                  for w in sozc([sh]))]

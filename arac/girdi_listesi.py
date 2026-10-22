@@ -724,6 +724,7 @@ GIRDI_DOSYALARI = [
     "yerlesimler_once1281_avrupa.js",
     # SUMER-1019 (19 Ekim 2026) - Sumer kutusu 21 nokta (NOKTA-SUMER-1010 + B10), MO varlik uclari, s:/d: yok
     "yerlesimler_mo_sumer.js",
+    "yerlesimler_mo_boya_bekleyen.js",
     "yerlesimler_mo_zincir.js",
     "yerlesimler_mo_levant_anadolu.js",
     "yerlesimler_mo_iran_asya.js",

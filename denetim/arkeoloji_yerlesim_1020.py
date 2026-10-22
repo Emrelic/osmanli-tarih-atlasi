@@ -231,6 +231,8 @@ AD = {  # görünen ad (yerel/yaygın), yoksa sehir_tarihce adı
  "dadiwan": "Dadiwan", "ain-ghazal": "Ain Ghazal", "tepe-hissar": "Tepe Hissar", "tepe-yahya": "Tepe Yahya", "chavin-de-huantar": "Chavín de Huántar",
  "monte-alban": "Monte Albán", "caral": "Caral", "la-venta": "La Venta", "aguada-fenix": "Aguada Fénix", "el-mirador": "El Mirador",
  "poverty-point": "Poverty Point", "mehrgarh": "Mehrgarh", "harappa": "Harappa", "jiahu": "Jiahu", "jeitun": "Jeitun", "sanganakallu-kupgal": "Sanganakallu-Kupgal",
+ "paracas-kulturu-ica": "Paracas", "san-jose-mogote-ilk-koy-ve-terk": "San José Mogote", "la-blanca-san-marcos-conchas": "La Blanca",
+ "kaminaljuyu-providencia-fazi": "Kaminaljuyú", "nukuleka-tonga-lapita": "Nukuleka",
  "khok-phanom-di": "Khok Phanom Di", "monte-verde-ii": "Monte Verde", "gobero-nijer": "Gobero", "anau-ia-meana": "Anau", "yuchanyan-magarasi": "Yuchanyan", "ban-chiang": "Ban Chiang", "bhirrana": "Bhirrana", "rakhigarhi": "Rakhigarhi", "ceibal-guatemala": "Ceibal", "napata": "Napata (Cebel Barkal)", "meroe-donemi-kush": "Meroe", "taosi": "Taosi", "shimao": "Shimao", "el-argar": "El Argar", "skara-brae": "Skara Brae",
 }
 
@@ -403,7 +405,7 @@ def main():
 
     for (t, ad, kid, tip, tamad) in sorted(set(gecis)):
         sozc = {w for w in re.sub(r"[^\wçğıöşü]", " ", (ad + " " + tamad).lower()).split() if len(w) >= 4} or {tamad.lower()}
-        yakin = [(o, f) for (o, f) in havuz if abs(gun_no(t) - gun_no(o["t"])) <= 31]
+        yakin = [(o, f) for (o, f) in havuz if abs(gun_no(t) - gun_no(o["t"])) <= 27]    # denetle 2s penceresi ±30 gün (31 değil)
         if any(re.search(r"(?<!\w)" + re.escape(w) + r"(?!\w)", metin(o)) for (o, f) in yakin for w in sozc):
             continue                                       # ±30 günde YERİ anan madde zaten var
         yakin = [(o, f) for (o, f) in yakin if gun_no(o["t"]) == gun_no(t)]    # yalnız AYNI gün: ilgisiz komşu maddenin yer alanı şişirilmez
