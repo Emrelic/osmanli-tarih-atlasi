@@ -97,6 +97,155 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Agra'yı kur:1504 ile açıyor ('Sikandar kurdu'); TDV/Iranica'ya göre şehir 1081'de zaten kaleli yerleşim, Sikandar yalnız yeniden inşa/başkent (TDV 1495, Iranica 1505 yeni kale). Atlas başlangıcı 1504 → 1081'e çekilebilir, ama 1099-1206 BOŞLUK ve 1206-1504 'Biyâna'ya bağlı Delhi Sultanlığı' beyanlıdır. Kaynak çelişkisi: Sikandar'ın taşınma yılı TDV 1495 / Iranica 898/1492 kuşatma + 911/1505 kale / Britannica 1911 ≈1500 / atlas 1504. Hindi/Urduca ve ASI kaynakları açılamadı. Britannica 1911 yalnız ikinci tanık."
  },
  {
+  "id": "aksu",
+  "ad": "Aksu (Tarım)",
+  "atlas_ad": "Aksu (Tarım)",
+  "lat": 41.17,
+  "lon": 80.26,
+  "kat1900": 3,
+  "adlar": [
+   "Gumo 姑墨 (Han)",
+   "Baluka / 跋祿迦 (Tang)",
+   "Aksu"
+  ],
+  "ilk": {
+   "t": "-0059-01-01",
+   "gun": "MÖ 60",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Ban Gu, Hanshu 96B Xiyu zhuan (zh.wikisource.org 漢書/卷096下); Encyclopaedia Iranica, https://iranicaonline.org/articles/aksu (A. Cariou)",
+   "tanik": "姑墨國，王治南城，去長安八千一百五十里",
+   "ic_not": "UYARI: ad eşitlemesi YER BAKIMINDAN KESİN DEĞİL. Hill (Hou Hanshu çevirisi) Gumo'yu hem 'Aksu' hem 'south of modern Aksu' diye verir; Xin Tangshu 221A Baluka'yı '即漢姑墨國' sayar ama modern Aksu şehrinin 3 km içinde olduğu doğrulanmadı. Kural (yeri kesin olmayan eşitleme başlangıç sayılmaz) gereği daha geç, yeri kesin bir 'Aksu' adı tanığı aranmalıdır — bu oturumda 'Aksu' adının ilk geçişi bulunamadı (Pelliot 1923 T'oung Pao ‘Notes sur les anciens noms de Kučā, d'Aqsu et d'Uč-Turfan’ erişilemedi). Geçici ve KOŞULLU olarak Gumo alındı; Hanshu maddesi tarihsiz, MÖ 60 = Koruyuculuk kuruluşu (bkz. Kaşgar notu)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0059-01-01",
+    "t": "0009-01-10",
+    "d": "bati-han",
+    "kesinlik": "yil",
+    "kaynak": "Ban Gu, Hanshu 96B Xiyu zhuan (zh.wikisource.org 漢書/卷096下)",
+    "ic_not": "Gumo maddesi 'Koruyuculuk menzili' mesafesi verir (東至都護治所). Künye bati-han 0008'de biter."
+   },
+   {
+    "f": "0009-01-10",
+    "t": "0023-01-01",
+    "d": "xin",
+    "kesinlik": "gun",
+    "kaynak": "Ban Gu, Hanshu 99B Wang Mang zhuan (zh.wikisource.org 漢書/卷099中); Ban Gu, Hanshu 96B Xiyu zhuan (zh.wikisource.org 漢書/卷096下)",
+    "ic_not": "Hanshu 96B: 'Wang Mang döneminde Gumo kralı Cheng Wensu'yu öldürüp ülkesini aldı' (王莽時，姑墨王丞殺溫宿王，並其國)."
+   },
+   {
+    "f": "0023-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/aksu; Jiu Tangshu 198 Xirong zhuan (zh.wikisource.org 舊唐書/卷198); Xin Tangshu 221A",
+    "ic_not": "MS 23–1281 arası sahip kaynakla bağlanamadı. Ham bulgular: Weishu 102 Gumo 'Kuça'ya bağlı'; Hou Hanshu 47: Ban Chao 78'de Gumo taş kalesini alır; Xin Tangshu 221A Baluka Kuça'ya benzer, Tang Kuça/Anxi bölgesi (Iranica Aksu: 'Han ve Tang döneminde Çin denetiminde'). Hepsi şehir-kimliği eşitlemesine bağlı (bkz. ilk.ic_not) olduğu için dönem açılmadı. Çağatay 1227 (TDV Çağatay Hanlığı: merkezler Almalığ, Kâşgar, Aksu) tarihli açık tanık değil."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0059-01-01",
+    "gun": "MÖ 60",
+    "k": "diger",
+    "b": "Han 西域都護 kurar; Gumo da Koruyuculuk menzilinde.",
+    "kaynak": "Ban Gu, Hanshu 96A Xiyu zhuan (zh.wikisource.org 漢書/卷096上)",
+    "tanik": "都護之起，自吉置矣"
+   },
+   {
+    "t": "0009-01-10",
+    "gun": "10 Ocak 9",
+    "k": "diger",
+    "b": "künye geçişi: Han → Xin.",
+    "kaynak": "Ban Gu, Hanshu 99B Wang Mang zhuan (zh.wikisource.org 漢書/卷099中)",
+    "tanik": "正月朔，莽帥公侯卿士奉皇太后璽韍，上太皇太后，順符命，去漢號焉"
+   },
+   {
+    "t": "0023-01-01",
+    "gun": "MS 23",
+    "k": "diger",
+    "b": "Xin sona erer; Iranica: Tarım havzasında resmî Çin hâkimiyeti biter.",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "tanik": "From 59 BCE until 23 CE, Shule, along with the other principalities"
+   },
+   {
+    "t": "0078-01-01",
+    "gun": "MS 78 (建初三年)",
+    "k": "kusatma",
+    "b": "Ban Chao Gumo taş kalesine saldırır, 700 baş keser.",
+    "kaynak": "Fan Ye, Hou Hanshu 47 Ban Chao zhuan (zh.wikisource.org 後漢書/卷47)",
+    "tanik": "超率疏勒、康居、于窴、拘彌兵一萬人攻姑墨石城"
+   }
+  ],
+  "dikis_beyan": "Atlas Aksu 1281-01-01 cagatay iddiası kaynaksız bulundu; 23–1281 arası sahip kaynakla bağlanamadı (__BOSLUK__ beyanlı). Aranan: TDV (Aksu maddesi yok), Iranica Aksu (tarih yok), Hill/Hou Hanshu, Xin Tangshu 221A. Yer tutucu olay yazılmadı.",
+  "ic_not": "En zayıf kayıt: Gumo–Aksu eşitlemesi ve Aksu adının ilk geçişi doğrulanamadı. Öneri: Pelliot 1923 ve EI2 'Akṣū' (Barthold) açılırsa ilk anılış 'Aksu' adına çekilsin; modern Aksu'nun hemen yanında 'Kuça/Uçturfan' noktaları ayrı."
+ },
+ {
+  "id": "almalik",
+  "ad": "Almalık (Almalığ)",
+  "atlas_ad": "Almalık (Almalığ)",
+  "lat": 44.05,
+  "lon": 80.85,
+  "kat1900": 3,
+  "adlar": [
+   "Almalığ",
+   "Almalık",
+   "Almaliq"
+  ],
+  "ilk": {
+   "t": "1218-01-01",
+   "gun": "1218",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balasagun; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/almalig (E. Esin)",
+   "tanik": "Almalığ Meliki Buzar Han burayı da birlikte yönetmiştir",
+   "ic_not": "TDV Almalığ: şehir 'XIII. yüzyıl başlarından itibaren bilinmektedir' (Karahanlı soyundan Muhammed Arslan Han'a bağlı, sonra Karluk beyi Bozar) — ama tarih verilmez. TDV Balasagun: 'Cengiz hânedanı ile akrabalık kurulmuş (1218), Almalığ Meliki Buzar Han ...' → bu oturumdaki ilk TARİHLİ tanık 1218. Kuruluş tarihi bulunamadı (Barthold, Turkestan; Pantusov 1910 erişilemedi). 'Mazar' harabeleri yeri Araştırmacılarda çoğunlukla kabul (TDV), kesin değil."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1218-01-01",
+    "t": "1227-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balasagun; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/almalig",
+    "ic_not": "Buzar (Ozar) Moğol vassalı: TDV Almalığ 'sonra Moğol devletinin sınırlarına dahil edildi'. Karahıtay/Küçlüg dönemi (1130–1218) için tarihli tanık yok → dönem açılmadı."
+   },
+   {
+    "f": "1227-01-01",
+    "t": "1281-01-01",
+    "d": "cagatay",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/almalig",
+    "ic_not": "TDV: Cengiz'in ölümünde oğulları ülkeyi paylaşırken Almalığ Çağatay'a verildi; 'Çağatay soyunun ikinci başşehri'. Atlas ilk sahibi cagatay ile dikiş AYNI."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1218-01-01",
+    "gun": "1218",
+    "k": "diger",
+    "b": "İlk tarihli anış: Cengiz hânedanıyla akrabalık kurulur, Almalığ Meliki Buzar Han Balasagun'u birlikte yönetir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/balasagun",
+    "tanik": "Almalığ Meliki Buzar Han burayı da birlikte yönetmiştir"
+   },
+   {
+    "t": "1227-01-01",
+    "gun": "1227",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → Çağatay (Cengiz ölünce Almalığ Çağatay'a verilir).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/almalig",
+    "tanik": "1227’de Cengiz’in ölümü üzerine oğulları ülkeyi paylaşırken Almalığ ikinci oğlu Çağatay’a"
+   }
+  ],
+  "ic_not": "Atlas Almalık 1281 cagatay: dikiş aynı sahip. Atlas düzeltme önerisi: şehir noktası 1218'den başlayabilir; öncesi için 'bölge sahibi' (Karluk Buzar, Karahıtay) kaynaklanamadı. ÇİFT TEYİT YOK."
+ },
+ {
   "id": "amsterdam",
   "ad": "Amsterdam",
   "atlas_ad": "Amsterdam",
@@ -426,6 +575,47 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK: şimdiki Astrahan 1281'den sonra kurulmuştur. ATLAS DÜZELTME ÖNERİSİ: atlas bu noktayı 1281'de altinorda, 1502'de astarhan ile açıyor; bu dilimler eski Hacıtarhan'a ait ve ~11 km farklı bir yerdir — ya atlas noktası eski Hacıtarhan'a taşınmalı (1333/1281 öncesi) ya da 1281-1557 dilimi kırpılıp Hacıtarhan ayrı nokta olmalı. kat1900=2 (Astrahan guberniyası merkezi)."
  },
  {
+  "id": "asuncion",
+  "ad": "Asunción",
+  "atlas_ad": "Asunción",
+  "lat": -25.2637,
+  "lon": -57.5759,
+  "kat1900": 1,
+  "adlar": [
+   "Nuestra Señora Santa María de la Asunción",
+   "Asunción"
+  ],
+  "ilk": {
+   "t": "1537-08-15",
+   "gun": "15 Ağustos 1537",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "https://es.wikipedia.org/wiki/Asunci%C3%B3n (Vikipedi; akademik teyit bulunamadı)",
+   "tanik": "el 15 de agosto de 1537 por Juan de Salazar y Espinosa"
+  },
+  "kur": {
+   "t": "1537-08-15",
+   "gun": "15 Ağustos 1537",
+   "kesinlik": "gun",
+   "kaynak": "https://es.wikipedia.org/wiki/Asunci%C3%B3n",
+   "tanik": "el 15 de agosto de 1537 por Juan de Salazar y Espinosa"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1537-08-15",
+    "gun": "15 Ağustos 1537",
+    "k": "kurulus",
+    "b": "Juan de Salazar y Espinosa 'Nuestra Señora de la Asunción'u kurar.",
+    "kaynak": "https://es.wikipedia.org/wiki/Asunci%C3%B3n",
+    "tanik": "el 15 de agosto de 1537 por Juan de Salazar y Espinosa"
+   }
+  ],
+  "ic_not": "Atlas başlangıcı (1537-08-15) ile tutuyor. Kaynak yalnız Vikipedi; RAH DBE (dbe.rah.es) sayfaları boş döndü. 1281 öncesi: yok."
+ },
+ {
   "id": "bahcesaray",
   "ad": "Bahçesaray",
   "atlas_ad": "Bahçesaray",
@@ -466,6 +656,52 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK (şehir 1503'te kuruluyor; atlas da 1503'te başlıyor). ATLAS DÜZELTME ÖNERİSİ: atlasın ilk sahip günü 1503-01-01 'osmanli' görünüyor (atlas_ilk_gunleri çıktısı); 1503'te Bahçesaray Kırım Hanlığı topraklarındadır (TDV: I. Mengli Giray'ın yapısı; Osmanlı himayesi 1475'ten ama toprak hanlığındır) — ilk dönemin d: 'kirim' olması gerekir, 1503-1774 arası kayıt boş (atlas s: 1774'te başlıyor). Kırk Yer/Salaçık ayrı yerleşimler."
+ },
+ {
+  "id": "balasagun",
+  "ad": "Balasagun (Ak-Beşim)",
+  "atlas_ad": "Balasagun (Ak-Beşim)",
+  "lat": 42.76,
+  "lon": 75.24,
+  "kat1900": 3,
+  "adlar": [
+   "Balāsāġūn / Valāsakūn",
+   "Kuz-Ordu / Kuz-Uluş",
+   "Gu-Balık (Moğol)"
+  ],
+  "ilk": {
+   "t": "0943-01-01",
+   "gun": "943",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/balasagun (C. E. Bosworth, 1988)",
+   "tanik": "Balāsāḡūn is first mentioned by Muslim historians towards the end of the Samanid",
+   "ic_not": "EIr: ilk anış 'ca. 330–31/942–43' (Nasr b. Ahmed'in saltanatı sonu, Nizâmülmülk Siyâsetnâme). Aralık ucu güvenli uç = 943. Kuruluş bilinmiyor (TDV: 'ne zaman ve kimler tarafından kurulduğu bilinmemektedir'; EIr: 'Soğd kuruluşu olmalı'). YER KESİN DEĞİL (EIr: Barthold Ak-peşin, Smirnova Tokmak'ın 24 km GB'sı) ve TDV'nin 658 'Sui-ye Çing' (Suyab) eşitlemesi kabul edilmedi; Suyab/Ak-Beşim ayrı antik kayıt önerilir (Tang Dört Garnizon'dan Suiye)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0943-01-01",
+    "t": "1000-01-01",
+    "d": "karahanli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/balasagun; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/satuk-bugra-han",
+    "ic_not": "EIr: 942–43'te şehre saldıran 'kâfir Türkler' 'muhtemelen Karahanlı konfederasyonunu kuracak Karluklar'. TDV Satuk Buğra: Kâşgar'ı alıp 'Kara Hakan' unvanı = Balasagun'u da aldı; hakanlık 942–955. TDV Karahanlılar: Balasagun Karahanlı merkezi. Atlas ilk sahibi karahanli 1000 ile dikiş AYNI."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0943-01-01",
+    "gun": "942–943",
+    "k": "diger",
+    "b": "İlk anış: kâfir Türkler Balasagun'u basar, Müslüman halk Buhara'dan yardım ister.",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/balasagun",
+    "tanik": "Balāsāḡūn is first mentioned by Muslim historians towards the end of the Samanid"
+   }
+  ],
+  "ic_not": "TDV/EIr uyumsuzluğu: TDV Balasagun 658'de Çinlilerin 'Şu Kalesi'ni (Suiye) aldığını ve VII. yy'da Tung Yabgu hâkimiyetini yazar (yer eşitlemesi); EIr yer belirsiz diyerek ilk anışı 943 verir. Burada yeri-kesin-olmayan eşitleme ilkesi uygulandı; atlas düzeltme önerisi YOK, ama 'Suyab (Ak-Beşim) 658 Tang' ayrı kayıt olabilir. Atlas ilk sahibi karahanli 1000-01-01: dikiş aynı. Karahıtay 1130 ve 1210 yıkım (TDV) atlas kapsamında."
  },
  {
   "id": "barselona",
@@ -2500,6 +2736,43 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Kuruluş (kur) bulunamadı; 979 geleneği çürütülüyor (CEHIBRUX). Vikipedi EN 'History of Brussels' ilk güvenilir anılışı c.1015-1020 'portus' dedi (patrimoine.brussels kaynağı 503 bakımda — açılamadı); CEHIBRUX 966'yı veriyor, ikisi arasındaki fark ic_not'ta; yazılı tanığı daha eski olan 966 alındı. Çift teyit YOK. Atlas 1281-1430 almanya (düzeltme gerekmez)."
  },
  {
+  "id": "buenos-aires",
+  "ad": "Buenos Aires",
+  "atlas_ad": "Buenos Aires",
+  "lat": -34.6037,
+  "lon": -58.3816,
+  "kat1900": 1,
+  "adlar": [
+   "Santa María del Buen Ayre",
+   "Ciudad de la Santísima Trinidad y Puerto de Santa María del Buen Ayre",
+   "Buenos Aires"
+  ],
+  "ilk": {
+   "t": "1580-06-11",
+   "gun": "11 Haziran 1580",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "https://es.wikipedia.org/wiki/Buenos_Aires (Vikipedi; akademik teyit bulunamadı)",
+   "tanik": "11 de junio de 1580 (por Juan de Garay )",
+   "ic_not": "İlk kuruluş Pedro de Mendoza 2–3 Şubat 1536 (1541'de terk) — yeri KESİN değil (Parque Lezama ~2,9 km, kanıtlanmadı) → başlangıç sayılmadı. Garay'ın yeniden kuruluşu Plaza de Mayo çevresi atlas noktasında."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1580-06-11",
+    "gun": "11 Haziran 1580",
+    "k": "kurulus",
+    "b": "Juan de Garay şehri 'Ciudad de la Trinidad' olarak yeniden kurar.",
+    "kaynak": "https://es.wikipedia.org/wiki/Buenos_Aires",
+    "tanik": "11 de junio de 1580 (por Juan de Garay )"
+   }
+  ],
+  "ic_not": "Atlas Buenos Aires 1580-01-01 ispanya: kurulum günü 1580-06-11 (Vikipedi) → atlas başlangıcı 5 ay erken; düzeltme önerilir. 1536 Mendoza kuruluşu ('2-3 de febrero de 1536') ve 1541 terk bu oturumda akademik kaynaktan teyit edilemedi. 1281 öncesi: yok. ÇİFT TEYİT YOK; kaynak yalnız Vikipedi."
+ },
+ {
   "id": "buhara",
   "ad": "Buhara",
   "atlas_ad": "Buhara",
@@ -2923,6 +3196,83 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "SONUÇ: Çitor için 1281 öncesi tek okunmuş tanıklar Tod (1829-32) ve IG (1908); ikisi de zayıf ve birbiriyle çelişiyor (Bapa 728/734; Rahup 1201/14. yy). Modern epigrafik kaynaklar (Epigraphia Indica, Man Mori kitabesi MS 713; Kumarapâla Çitor yazıtı VS 1207; Jaitrasimha dönemi) AÇILAMADI. 1303 kuşatması (Alâüddin Halacî; IG 'sack of Chitor 1303'), 1567 Ekber kuşatması atlasın kapsamında, dokunulmadı. ATLAS DÜZELTME ÖNERİSİ: atlas 1281'de 'racput' ile açıyor — 1201-1281 Guhila varlığı kaynaklı değil; IG'ye göre Rahup 1303 sonrası. Atlas 1281-1303 'racput' dönemi için TDV/İSAM/Rajasthan Gazetteer ile ayrı teyit gerek. Antik: Nagari/Madhyamika (Chitorgarh'a ~15 km) ayrı kayıt önerisi."
+ },
+ {
+  "id": "colonia-del-sacramento",
+  "ad": "Colonia del Sacramento",
+  "atlas_ad": "Colonia del Sacramento",
+  "lat": -34.4723,
+  "lon": -57.841,
+  "kat1900": 2,
+  "adlar": [
+   "Nova Colônia do Santíssimo Sacramento",
+   "Colonia del Sacramento"
+  ],
+  "ilk": {
+   "t": "1680-01-28",
+   "gun": "28 Ocak 1680",
+   "nicelik": "kurulus",
+   "kesinlik": "ay",
+   "kaynak": "https://es.wikipedia.org/wiki/Colonia_del_Sacramento; UNESCO WHC 747 https://whc.unesco.org/en/list/747",
+   "tanik": "Entre el 20 y el 28 de ese mismo mes, Manuel Lobo fundó la Nova Colônia",
+   "ic_not": "Aralık ucu güvenli uç (28 Ocak). UNESCO: 'Founded by the Portuguese in 1680' (yıl düzeyinde ikinci tanık)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1680-01-28",
+    "gun": "20–28 Ocak 1680",
+    "k": "kurulus",
+    "b": "Manuel Lobo Nova Colônia do Santíssimo Sacramento'yu kurar (Portekiz).",
+    "kaynak": "https://es.wikipedia.org/wiki/Colonia_del_Sacramento",
+    "tanik": "Entre el 20 y el 28 de ese mismo mes, Manuel Lobo fundó la Nova Colônia"
+   }
+  ],
+  "ic_not": "Atlas 1680-01-01: kuruluş 20–28 Ocak → atlas 20–28 gün erken (düzeltme: 1680-01-28). Yıl düzeyinde çift teyit (UNESCO + Vikipedi); gün düzeyinde tek. 1281 öncesi: yok."
+ },
+ {
+  "id": "corrientes",
+  "ad": "Corrientes",
+  "atlas_ad": "Corrientes",
+  "lat": -27.4806,
+  "lon": -58.8341,
+  "kat1900": 2,
+  "adlar": [
+   "San Juan de Vera de las Siete Corrientes",
+   "Corrientes"
+  ],
+  "ilk": {
+   "t": "1588-04-03",
+   "gun": "3 Nisan 1588",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "https://es.wikipedia.org/wiki/Corrientes_(ciudad) (Vikipedi; akademik teyit bulunamadı)",
+   "tanik": "Fundación 3 de abril de 1588"
+  },
+  "kur": {
+   "t": "1588-04-03",
+   "gun": "3 Nisan 1588",
+   "kesinlik": "gun",
+   "kaynak": "https://es.wikipedia.org/wiki/Corrientes_(ciudad)",
+   "tanik": "Fundación 3 de abril de 1588"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1588-04-03",
+    "gun": "3 Nisan 1588",
+    "k": "kurulus",
+    "b": "Juan Torres de Vera y Aragón şehri kurar.",
+    "kaynak": "https://es.wikipedia.org/wiki/Corrientes_(ciudad)",
+    "tanik": "Fundación 3 de abril de 1588"
+   }
+  ],
+  "ic_not": "Atlas başlangıcı aynı gün. Kaynak yalnız Vikipedi; akademik teyit bulunamadı. 1281 öncesi: yok."
  },
  {
   "id": "delhi",
@@ -4134,6 +4484,49 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Granada'nın kaynaklı yazılı tarihi 712 fethinden başlıyor; öncesi (İber Turdulos, Roma Iliberis/Elvira) modern nokta ile aynı yer olduğu kaynakta gösterilmedi (Treccani: öncesinde şehir izi yok). Çift teyit: Nasrî kuruluş yılı 1238 (TDV günlü; Treccani 'Granata (1238)' yıl). Zincir atlas ilk gününde (1238-05-12) biter."
+ },
+ {
+  "id": "gulca",
+  "ad": "Gulca (Yining)",
+  "atlas_ad": "Gulca (Yining)",
+  "lat": 43.913,
+  "lon": 81.324,
+  "kat1900": 3,
+  "adlar": [
+   "Gulca / Kulca",
+   "Ning-yuan-chen (Yining)",
+   "Ghulja"
+  ],
+  "ilk": {
+   "t": "1762-01-01",
+   "gun": "1762",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kulca (A. Taşağıl, 2002)",
+   "tanik": "1762’de Ning-yuan-chen (kısaca l-ning/Yining) adı altında Kulca şehrini",
+   "ic_not": "Kuruluş TDV'ye göre Qing yapımı (1762); 1764'te güneybatısına Hoi-yuan-chen (Büyük Kulca). Dzungar döneminde aynı adlı bir yerleşim olduğu bu oturumda doğrulanmadı. 1281 öncesi zincir yok (şehir sonradır). İli vadisi 13. yy: Almalığ ayrı kayıt."
+  },
+  "kur": {
+   "t": "1762-01-01",
+   "gun": "1762",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kulca",
+   "tanik": "1762’de Ning-yuan-chen (kısaca l-ning/Yining) adı altında Kulca şehrini"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1762-01-01",
+    "gun": "1762",
+    "k": "kurulus",
+    "b": "Çinliler Ning-yuan-chen (Yining/Kulca) şehrini kurar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kulca",
+    "tanik": "1762’de Ning-yuan-chen (kısaca l-ning/Yining) adı altında Kulca şehrini"
+   }
+  ],
+  "ic_not": "Atlas Gulca 1281-01-01 cagatay ile başlıyor; şehir 1762'de kuruldu → atlas başlangıcı düzeltilmeli (ya da 1281–1762 için Almalığ/İli vadisi bölge sahibi 'bölge' olarak kalmalı, şehir noktası 1762'den başlamalı). TDV Kulca: İli havzası Wusun → Hun → Göktürk → Karluk Buzar/Almalığ → Çağatay (1227) → 1508 Şeybânîler → Oyrat → 1755 Qing. ÇİFT TEYİT YOK (Qing kaynağı açılmadı)."
  },
  {
   "id": "gyulafehervar",
@@ -5776,6 +6169,223 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Karşi (Nahşeb) f=1281-01-01 cagatay (kaynaksız). Aranan: Nahşeb'in Çağatay ulusuna geçişi — bulunamadı (EI1: Çağatay Kebek 1318-1326 saray yaptırdı; ulus-ayrımı öncesi tanık yok). 1281 ne doğrulandı ne çürütüldü; zincir Moğol İmparatorluğu ile 1281-01-01'e hizalandı.",
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: (1) \"Karşi\" = 14. yy sarayı (Kebek 1318-26); ad ve modern şehir atlasın başlangıcından (1281) SONRA doğar ⇒ 1281 öncesi zincir ANTİK NAHŞEB (Şulluktepe) için geçerli; ayrı kayıt \"Nahşeb (Şulluktepe)\" önerilir. (2) ÇELİŞKİ yok: Barthold (İngilizce 2. bs.) ve EI1 aynı: Nasaf, Nahşeb'in Arapçalaşmış biçimi; Karşi adı 14. yy. (3) TDV şehir maddesi yok. (4) 3 km ölçülemedi."
+ },
+ {
+  "id": "kasgar",
+  "ad": "Kaşgar",
+  "atlas_ad": "Kaşgar",
+  "lat": 39.47,
+  "lon": 75.99,
+  "kat1900": 3,
+  "adlar": [
+   "Shule 疏勒 (Çin)",
+   "Kâš / Kasia chora",
+   "Kâşgar",
+   "Ordu-känd"
+  ],
+  "ilk": {
+   "t": "-0059-01-01",
+   "gun": "MÖ 60",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012); Ban Gu, Hanshu 96A Xiyu zhuan (zh.wikisource.org 漢書/卷096上)",
+   "tanik": "From 59 BCE until 23 CE, Shule, along with the other principalities",
+   "ic_not": "Hanshu Shule (疏勒) maddesi TARİHSİZDİR; Iranica Shule'nin yazılı tarihe 'milâdın arifesinde' girdiğini ve MÖ 59–MS 23 arası resmî Çin hâkimiyetinde olduğunu söyler. Başlangıç = Hanshu'nun 西域都護 kuruluşu 神爵二年 (MÖ 60 = astronomik -0059; Iranica MÖ 59 yazar, 1 yıl fark). Bu bir İLK ANILIŞ ALT SINIRI'dır, kuruluş değil. Aralık ucu kuralı: güvenli uç MS 23 olurdu; ancak 23'te Han hâkimiyeti çoktan bitmişti, bu yüzden dönemin dayanağı olan resmî hâkimiyet başlangıcı alındı (beyan)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0059-01-01",
+    "t": "0009-01-10",
+    "d": "bati-han",
+    "kesinlik": "yil",
+    "kaynak": "Ban Gu, Hanshu 96A Xiyu zhuan (zh.wikisource.org 漢書/卷096上); Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "ic_not": "Iranica: 'formal Chinese rule'; Hanshu 96A'da Shule 西域都護 menzilinden uzaklıkla verilir. Künye bati-han 0008-01-01'de biter; 0008–0009 Han sonu/Wang Mang geçişi tek dönemde birleştirildi (hayalet uyarısı beklenir)."
+   },
+   {
+    "f": "0009-01-10",
+    "t": "0023-01-01",
+    "d": "xin",
+    "kesinlik": "gun",
+    "kaynak": "Ban Gu, Hanshu 99B Wang Mang zhuan (zh.wikisource.org 漢書/卷099中); Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "ic_not": "Iranica: resmî Çin hâkimiyeti MS 23'e kadar. Fiilen Wang Mang döneminde (MS 16'dan) Tarım havzası koptu (Hill, Hou Hanshu çevirisi, Suoche maddesi); sınır Iranica'nın 23'ü."
+   },
+   {
+    "f": "0023-01-01",
+    "t": "0029-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012); Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand",
+    "ic_not": "Iranica Kashgar: sonra 'Shache (Yarkant) ve Hunlar'ın egemenliğine girdi' — sıra ve tarih verilmez. Hill/Hou Hanshu 88: MS 25'te Suoju kralı Kang komşu devletleri Hunlar'a karşı yönetir. Sahibi bilinmiyor, dönem kısa."
+   },
+   {
+    "f": "0029-01-01",
+    "t": "0074-01-01",
+    "d": "suoju",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand; Fan Ye, Hou Hanshu 88 Xiyu zhuan (zh.wikisource.org 後漢書/卷88)",
+    "ic_not": "Suoju (Yarkant) hegemonyası: Iranica Yarkand 29–61. Sonra Hoten Suoju'yu yıktı (Hou Hanshu 88: 永平中, kesin yıl yok) ve '精絕西北至疏勒十三國皆服從'; 73'te Kuça Şule kralını öldürüp kukla koydu (kısa; dönem açılmadı). f/t sınırları kaynakların uç yılları; Hoten ve Kuça ara dönemleri süre bilinmediği için AÇILMADI.",
+    "kunye_yok": true
+   },
+   {
+    "f": "0074-01-01",
+    "t": "0220-01-01",
+    "d": "dogu-han",
+    "kesinlik": "yil",
+    "kaynak": "Fan Ye, Hou Hanshu 47 Ban Chao zhuan (zh.wikisource.org 後漢書/卷47); Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "ic_not": "Ban Chao Şule'ye döner ve Zhong'u kral yapar (HHS 47: 'sonraki yıl baharı' = MS 74; Iranica 75 verir — çelişki beyan). Sonrası NOMİNAL: Iranica 'Çin üstünlüğü 2. yy başında zayıfladı', 107–113'te prens Yuezhi'ye rehin, Kuşan himayesinde kral; Hou Hanshu 88: 127'de Chenpan 'Han Büyük Komutanı' unvanı alır; 170'te Han görevlisi öldürüldü. Künye sonu 0220."
+   },
+   {
+    "f": "0220-01-01",
+    "t": "0582-01-01",
+    "d": "shule-krallik",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012); Suishu 83 Xiyu zhuan (zh.wikisource.org 隋書/卷83)",
+    "ic_not": "Yerel Şule krallığı (Iranica: 3. yy başında 'Batı Bölgeleri'nin altı güç merkezinden biri'; Pei hanedanı 7. yy'da hâlâ iktidarda). Kaynak değinmeleri: Weishu 102 — Şule 太延 (435–440) arasında Kuzey Wei'ye elçi gönderir; Iranica — 3. yy ortasında Sasani Şapur I yazıtı K'š'ı Kuşanşehr sınırı sayar; 6. yy'da Eftalit (Yada) sayılır (tarih verilmez → dönem açılmadı). Künyesi yok: önerilen id 'shule-krallik' (Pei hanedanı, yaklaşık MS 220–658; kaynak Iranica + Xin Tangshu 221A '王姓裴氏'). f 3. yy 'başı' için Han sonuna çakıştı; t Suishu'nun Türklere yıllık haraç kaydından (Sui dönemi) en erken künye 582.",
+    "kunye_yok": true
+   },
+   {
+    "f": "0582-01-01",
+    "t": "0658-01-01",
+    "d": "bati-gokturk",
+    "kesinlik": "yil",
+    "kaynak": "Suishu 83 Xiyu zhuan (zh.wikisource.org 隋書/卷83); Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "ic_not": "f en geç tanıktan değil künye başlangıcından (beyanlı yaklaşıklık): Suishu 83 Şule maddesi 'yılda Türklere haraç gönderir' der (Sui 581–618 durumu). Iranica: 'önce Birinci Türk Kağanlığı'na geçti' (552–582 arası tarihsiz; dönem açılmadı)."
+   },
+   {
+    "f": "0658-01-01",
+    "t": "0750-01-01",
+    "d": "tang",
+    "kesinlik": "yil",
+    "kaynak": "Jiu Tangshu 40 Dili zhi (zh.wikisource.org 舊唐書/卷40); Jiu Tangshu 198 Xirong zhuan (zh.wikisource.org 舊唐書/卷198); Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "ic_not": "Tang: Dört Garnizon (Kuça, Hoten, Şule, Suyab) 648'de kuruldu (JTS 198) ama 651–657 Batı Türk Heru ayaklanması; 顯慶三年 (658) Heru yenilir, Anxi Koruyuculuğu Kuça'ya taşınır — Tang hâkimiyeti sağlam başlangıcı. 上元 (674–676) 疏勒都督府 kurulur (JTS 40). 676–678 Tibet istilâsı kısa (Iranica) ve Çin 692'de Dört Garnizon'u geri alır (JTS 198 長壽元年) — dönem açılmadı."
+   },
+   {
+    "f": "0750-01-01",
+    "t": "0840-01-01",
+    "d": "karluk",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kasgar",
+    "ic_not": "TDV esas: Karluklar 750'de şehri yeniden aldı. ÇELİŞKİ: Iranica Kashgar 788'de (Wu Kong ziyareti) şehrin hâlâ Çin idaresinde ve yerel hanedanda olduğunu söyler ('sonra muhtemelen Uygurlar'). TDV esas alındı. Karluk künyesi 0766'da başlar (750–766 hayalet uyarısı; künye GENİŞLET önerisi). TDV 'ardından Uygurlar' der; TDV Karahanlılar Uygur kolu Yağma'ları 840'ta getirir → o ayrıntı 0840 olayında."
+   },
+   {
+    "f": "0840-01-01",
+    "t": "1000-01-01",
+    "d": "karahanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kasgar",
+    "ic_not": "840'ta Uygur Kağanlığı'nın yıkılışından sonra Karahanlı çekirdeği Yağmalar Kâşgar'a gelip Karluklar'dan aldı (TDV Karahanlılar). TDV Kâşgar: ~920 Tagan Tegin dihkan; Satuk Buğra Han (942–955) Kâşgar'ı alıp 'ilk müslüman Karahanlı hakanı'. Atlas ilk sahibi karahanli 1000-01-01 ile dikiş AYNI sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0059-01-01",
+    "gun": "MÖ 60",
+    "k": "diger",
+    "b": "Han, Zheng Ji'yi 西域都護 yapar; Tarım havzası devletleri Han Koruyuculuğu'na girer (Iranica: Şule MÖ 59'dan resmî Çin hâkimiyetinde).",
+    "kaynak": "Ban Gu, Hanshu 96A Xiyu zhuan (zh.wikisource.org 漢書/卷096上)",
+    "tanik": "都護之起，自吉置矣"
+   },
+   {
+    "t": "0009-01-10",
+    "gun": "10 Ocak 9",
+    "k": "diger",
+    "b": "künye geçişi: Han → Xin (Wang Mang, 始建國元年 正月朔: Han unvanını kaldırır).",
+    "kaynak": "Ban Gu, Hanshu 99B Wang Mang zhuan (zh.wikisource.org 漢書/卷099中)",
+    "tanik": "正月朔，莽帥公侯卿士奉皇太后璽韍，上太皇太后，順符命，去漢號焉"
+   },
+   {
+    "t": "0023-01-01",
+    "gun": "MS 23",
+    "k": "kayip",
+    "b": "Xin çöker; Iranica'ya göre Şule'de resmî Çin hâkimiyeti sona erer, Yarkant ve Hunlar'ın egemenliği başlar.",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "tanik": "From 59 BCE until 23 CE, Shule, along with the other principalities"
+   },
+   {
+    "t": "0029-01-01",
+    "gun": "MS 29",
+    "k": "diger",
+    "b": "Suoju (Yarkant) kralı Han'dan 'Batı Bölgeleri Büyük Komutanı' unvanı alır; Iranica: Suoju 29–61 arası Tarım havzasını denetler.",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand",
+    "tanik": "between 29 and 61 CE, under the ruler Xian, it controlled the Tarim Basin"
+   },
+   {
+    "t": "0073-01-01",
+    "gun": "MS 73 (永平十六年)",
+    "k": "kayip",
+    "b": "Kuça kralı Jian Şule kralı Cheng'i öldürür, Kuçalı Doti'yi kral yapar (kısa; dönem açılmadı).",
+    "kaynak": "Fan Ye, Hou Hanshu 88 Xiyu zhuan (zh.wikisource.org 後漢書/卷88)",
+    "tanik": "龜茲王建攻殺疏勒王成"
+   },
+   {
+    "t": "0074-01-01",
+    "gun": "MS 74",
+    "k": "fetih",
+    "b": "Ban Chao Şule'ye gider, Doti'yi yakalar, Cheng'in yeğeni Zhong'u kral yapar; Şule Han'a döner.",
+    "kaynak": "Fan Ye, Hou Hanshu 47 Ban Chao zhuan (zh.wikisource.org 後漢書/卷47)",
+    "tanik": "明年春，超從閒道至疏勒"
+   },
+   {
+    "t": "0220-01-01",
+    "gun": "MS 220",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Han → Wei (Han imparatoru tahtan çekilir, 黃初元年); Şule yerel krallığa geçer (nominal Han bağı sona erer). Gün: 黃初元年 11. ay 癸酉; yıl hassasiyeti.",
+    "kaynak": "Chen Shou, Sanguozhi 2 Wei shu (zh.wikisource.org 三國志/卷02)",
+    "tanik": "以河內之山陽邑萬戶奉漢帝爲山陽公"
+   },
+   {
+    "t": "0582-01-01",
+    "gun": "MS 582",
+    "k": "diger",
+    "b": "künye geçişi: Şule Batı Göktürk'e yıllık haraç gönderen devlet olarak anılır (Sui dönemi).",
+    "kaynak": "Suishu 83 Xiyu zhuan (zh.wikisource.org 隋書/卷83)",
+    "tanik": "每歲常供送於突厥"
+   },
+   {
+    "t": "0658-01-01",
+    "gun": "MS 658",
+    "k": "fetih",
+    "b": "Tang Batı Türk Heru'yu yener; Anxi Koruyuculuğu Kuça'ya taşınır — Dört Garnizon (Şule dahil) Tang denetiminde.",
+    "kaynak": "Jiu Tangshu 40 Dili zhi (zh.wikisource.org 舊唐書/卷40)",
+    "tanik": "破賀魯，仍自西州移安西府置於龜茲國城"
+   },
+   {
+    "t": "0678-01-01",
+    "gun": "676–678",
+    "k": "kayip",
+    "b": "Tibetliler Kaşgar'ı işgal eder, kısa sürede Çinliler geri alır (süre bilinmiyor; dönem açılmadı).",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "tanik": "In 676-78 Kashgar was invaded by the Tibetans"
+   },
+   {
+    "t": "0692-01-01",
+    "gun": "MS 692 (長壽元年)",
+    "k": "fetih",
+    "b": "Wang Xiaojie Tibetliler'i yenip Dört Garnizon'u geri alır (Şule adıyla anılmaz, dönem açılmadı).",
+    "kaynak": "Jiu Tangshu 198 Xirong zhuan (zh.wikisource.org 舊唐書/卷198)",
+    "tanik": "克復龜茲、於闐等四鎮"
+   },
+   {
+    "t": "0750-01-01",
+    "gun": "MS 750",
+    "k": "fetih",
+    "b": "Karluklar Kâşgar'ı yeniden ele geçirir, Türk idaresini kurar (TDV).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kasgar",
+    "tanik": "Karluklar 750’de şehri tekrar ele geçirdiler"
+   },
+   {
+    "t": "0840-01-01",
+    "gun": "MS 840",
+    "k": "fetih",
+    "b": "Uygur Kağanlığı'nın yıkılışından sonra Yağmalar Kâşgar'a gelip Karluklar'dan alır (Karahanlı çekirdeği).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "Yağmalar Kâşgar’a gelmiş ve bazı yerleri Karluklar’dan alarak bölgeye hâkim olmuşlar"
+   }
+  ],
+  "ic_not": "Şule = Kaşgar eşitlemesi TDV (Hitchins) ve Iranica (Lurje) tarafından kabul edilir; ilk anılış tarihsiz → bkz. ilk.ic_not. ÇİFT TEYİT: TDV Kâşgar 'Han hânedanına kadar götürülebilir' + Iranica 'milâdın arifesi'. Karluk/Tang çelişkisi ve Tibet 676–678 / 692 sorunu sahip[] ic_not'larında. Atlas: Kaşgar 1000-01-01 karahanli ile başlıyor — DİKİŞ AYNI SAHİP, düzeltme gerekmez. Atlas düzeltme önerisi: 1211–1218 __BOSLUK__ (Küçlüg: Iranica 'Kashgar Küčlüg tarafından 1211'de ele geçirildi'; TDV Kâşgar 1211 Karahıtay sonu, Cebe Noyan 1218): Nayman/Küçlüg sahibi önerilir. TDV ile Iranica: Moğol teslimi 1218 (TDV) ↔ 1220 (Iranica)."
  },
  {
   "id": "kasimov",
@@ -8393,6 +9003,43 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Çift teyit: Roma kolonisi 183 (EI + Livius). TDV 'Modena' arama sayfası (7 madde içeriği) yalnız arama sonucu; madde yok. Zincirde Longobard dönemi Bologna/Reggio savaş bölgesi olarak beyanlı yaklaşıklıktır."
  },
  {
+  "id": "montevideo",
+  "ad": "Montevideo",
+  "atlas_ad": "Montevideo",
+  "lat": -34.9011,
+  "lon": -56.1645,
+  "kat1900": 1,
+  "adlar": [
+   "San Felipe",
+   "San Felipe y Santiago de Montevideo",
+   "Montevideo"
+  ],
+  "ilk": {
+   "t": "1726-12-24",
+   "gun": "24 Aralık 1726",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "https://es.wikipedia.org/wiki/Montevideo (Vikipedi; akademik teyit bulunamadı)",
+   "tanik": "se acostumbra tomar el 24 de diciembre de 1726 como fecha fundacional de la ciudad",
+   "ic_not": "Kuruluş süreci 19 Ocak 1724'te başladı (Vikipedi); 24.12.1726 gelenekle kabul edilen tarih (Montero Bustamante 1919'dan beri)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1726-12-24",
+    "gun": "24 Aralık 1726",
+    "k": "kurulus",
+    "b": "Bruno Mauricio de Zabala'nın kuruluş süreci tamamlanır (gelenekle kuruluş günü).",
+    "kaynak": "https://es.wikipedia.org/wiki/Montevideo",
+    "tanik": "se acostumbra tomar el 24 de diciembre de 1726 como fecha fundacional de la ciudad"
+   }
+  ],
+  "ic_not": "Atlas başlangıcı aynı gün. 1723–24 Portekiz kalesi (Freitas Fonseca) bu oturumda kaynaklanmadı. Kaynak yalnız Vikipedi. 1281 öncesi: yok."
+ },
+ {
   "id": "mora-tripolice",
   "ad": "Mora (Tripoliçe)",
   "atlas_ad": "Mora (Tripoliçe)",
@@ -10704,6 +11351,43 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: TDV Şirvanşahlar/Şirvan (curl), Iranica Šervān, Wikipedia (ikinci tanık). Britannica \"Samaxi\" 403. ATLAS ÖNERİSİ: atlas 1000-01-01'de sirvansah ile açıyor; kaynaklara göre şehir ilk anılışından (809) 1000'e kadar zaten vardır → atlas başlangıcı 809'a çekilebilir. Atlas künye sirvansah f=799-02-12 = hicrî 183 ilk günü (TDV: Yezîd b. Mezyed 183/799 ataması) — hicrî tablo karşılığı doğrulandı. kat1900=3 TAHMİNİ (1900 listesinde Şamahı yok; Bakü guberniyası ilçe merkezi)."
+ },
+ {
+  "id": "santa-fe-arjantin",
+  "ad": "Santa Fe (Arjantin)",
+  "atlas_ad": "Santa Fe (Arjantin)",
+  "lat": -31.6333,
+  "lon": -60.7,
+  "kat1900": 2,
+  "adlar": [
+   "Santa Fe la Vieja (Cayastá)",
+   "Santa Fe de la Vera Cruz",
+   "Santa Fe"
+  ],
+  "ilk": {
+   "t": "1660-01-01",
+   "gun": "1660",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "https://es.wikipedia.org/wiki/Santa_Fe_(Argentina) (Vikipedi; akademik teyit bulunamadı)",
+   "tanik": "en su primer emplazamiento hasta 1660",
+   "ic_not": "Modern nokta 1660'tan (Santa Fe la Nueva'ya taşınma tamamlandı) kurulmuştur; 15 Kasım 1573 Garay kuruluşu Cayastá'dadır (~80 km KB) → kural: antik yer >3 km burada yazılmaz, ayrı kayıt ('Santa Fe la Vieja / Cayastá') önerilir. 1651'de taşınma kararı yıl düzeyinde doğrulanmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1660-01-01",
+    "gun": "1660",
+    "k": "kurulus",
+    "b": "Şehir ilk yerleşiminden (Cayastá) bugünkü yerine taşınmış olur.",
+    "kaynak": "https://es.wikipedia.org/wiki/Santa_Fe_(Argentina)",
+    "tanik": "en su primer emplazamiento hasta 1660"
+   }
+  ],
+  "ic_not": "Atlas Santa Fe (Arjantin) 1573-11-15 iddiası bugünkü NOKTA için yanlış (Cayastá 1573). Düzeltme: nokta 1660'tan; 1573–1660 Cayastá kaydı. Kaynak yalnız Vikipedi. 1281 öncesi: yok."
  },
  {
   "id": "saray-selitrennoye",
@@ -13129,6 +13813,43 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Kuruluş bulunamadı. Polybios 3.60 / Livius 21.38-39 (Hannibal, Taurini başkenti) açılamadı. Treccani Torino'da 1136 Lothar III'ün Amedeo III'ü kovması, 1159 piskopos, 1235 barış, 1237 imp. kaptan, 1248 Federico II'nin Savoy'a feodal vermesi; 1285 Savoy-Acaia. Atlas sardinya=savoya ile 1281 dikişi. Çift teyit YOK."
  },
  {
+  "id": "turfan",
+  "ad": "Turfan",
+  "atlas_ad": "Turfan",
+  "lat": 42.951,
+  "lon": 89.19,
+  "kat1900": 3,
+  "adlar": [
+   "Turfan (14. yy'dan)",
+   "Köhne Turfan",
+   "Tulufan 吐魯番"
+  ],
+  "ilk": {
+   "t": "1400-01-01",
+   "gun": "14. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/turfan (A. Taşağıl, 2012)",
+   "tanik": "tarihî kayıtlarda XIV. yüzyıldan beri bu adla anılır",
+   "ic_not": "TDV 14. yy'ı verir; aralık ucu güvenli uç (yüzyıl sonu 1400) alındı. Modern Turfan noktası (42.951, 89.19), Jiaohe/Yar Hoto'dan ~10 km, Gaochang/Koço harabelerinden ~35 km uzaktadır → Kural: antik yer >3 km ise burada YAZILMAZ. Bu yüzden 1281 öncesi zincir yok; atlas 1281 başlangıcı 'Turfan' adı için erken, ama vaha için doğru olabilir — aşağıdaki antik kayıtlar öneridir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1400-01-01",
+    "gun": "14. yüzyıl",
+    "k": "diger",
+    "b": "Bölge tarihî kayıtlarda 'Turfan' adıyla anılmaya başlar (ilk anılış, yüzyıl hassasiyeti).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/turfan",
+    "tanik": "tarihî kayıtlarda XIV. yüzyıldan beri bu adla anılır"
+   }
+  ],
+  "ic_not": "ÖNERİLEN AYRI ANTİK KAYITLAR (atlasta yok, bu oturumda zincir çıkarılmadı; TDV Turfan'dan ham tanıklar): (1) Jiaohe/Yar Hoto = Cheshi-qian başkenti (Hanshu 96B '車師前國，王治交河城'); (2) Gaochang/Koço = MÖ 1. yy Çin kalesi Kao-ch'ang-pi, sonra Gaochang krallığı (TDV: 639'da Çin egemenliği, 640 Tang, 692 Tang yerleşir, 704 Türgişler, 745 Uygur Kağanlığı, 767 Ötüken Uygurları, 850 Hsi-chou Uygur Devleti, 982 yazlık Koço başkent, 1209 İdikut Barçuk Cengiz'e bağlanır). Künyeler hazır: gaochang (501–640), koco-uygur (911–1209). Atlas Turfan 1281'den cagatay ile başlıyor; Çağatay/Ögedey bağı için TDV Turfan sonu ('Moğol İmparatorluğu'na bağlanarak 1550'lere kadar'). ÇİFT TEYİT YOK."
+ },
+ {
   "id": "udaipur",
   "ad": "Udeypûr (Udaipur)",
   "atlas_ad": "Udeypûr (Udaipur)",
@@ -13502,6 +14223,197 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "kat1900: LISTE.tsv Varşova Rus İmp. 'Varshavskaya guberniya' kat 2. Mazovya dükleri XIII. yy'da kale yaptırdı (tarihsiz). 1339 şehir hakları (LZMK), atlas sonrası. Atlas Varşova'da 1281 polonya-erken ile başlıyor; atlas düzeltme önerisi yok."
+ },
+ {
+  "id": "yarkent",
+  "ad": "Yarkent (Şaçe)",
+  "atlas_ad": "Yarkent (Şaçe)",
+  "lat": 38.416,
+  "lon": 77.243,
+  "kat1900": 3,
+  "adlar": [
+   "Suoju / Shache 莎車",
+   "Yārkand",
+   "Yarkent"
+  ],
+  "ilk": {
+   "t": "-0064-01-01",
+   "gun": "MÖ 65",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Ban Gu, Hanshu 96A Xiyu zhuan (zh.wikisource.org 漢書/卷096上); Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand",
+   "tanik": "更立它昆弟子為莎車王。還，拜奉世為光祿大夫。是歲，元康元年也",
+   "ic_not": "Hanshu 96A Suoju maddesi: Han yetkilisi Feng Fengshi katil Hutuzheng'i öldürüp yeni Suoju kralı atar; yıl 元康元年 (MÖ 65). Iranica Yarkand: bölge 'ilk kez Hanshu'da (MÖ 1. yy) anılır'. Bu yazılı kaynaktaki İLK TARİHLİ OLAYDIR; daha eski tarihsiz anış olabilir. Suoju başkenti = modern Yarkant eşitlemesi Iranica/Hill'de (Suoche (Yarkand)) kabul edilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0064-01-01",
+    "t": "-0059-01-01",
+    "d": "hunnu-xiongnu",
+    "kesinlik": "yil",
+    "kaynak": "Ban Gu, Hanshu 96A Xiyu zhuan (zh.wikisource.org 漢書/卷096上)",
+    "ic_not": "Hanshu 96A giriş: Batı Bölgesi devletleri '皆役屬匈奴' (Hun'a bağlı); Hun Rizhu Wang 僮僕都尉 ile denetler. MÖ 65'te Han müdahalesi (Feng Fengshi) var ama kalıcı koruyuculuk MÖ 60'ta. Nominal üstlük beyanlı yaklaşıklık."
+   },
+   {
+    "f": "-0059-01-01",
+    "t": "0009-01-10",
+    "d": "bati-han",
+    "kesinlik": "yil",
+    "kaynak": "Ban Gu, Hanshu 96A Xiyu zhuan (zh.wikisource.org 漢書/卷096上)",
+    "ic_not": "Zheng Ji 神爵二年 (MÖ 60) Hun 僮僕都尉'u kaldırıp 都護 olur. Künye bati-han 0008'de biter (hayalet uyarısı)."
+   },
+   {
+    "f": "0009-01-10",
+    "t": "0023-01-01",
+    "d": "xin",
+    "kesinlik": "gun",
+    "kaynak": "Ban Gu, Hanshu 99B Wang Mang zhuan (zh.wikisource.org 漢書/卷099中); Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "ic_not": "Xin dönemi; Suoju kralı Yan Wang Mang kaosunda Hun'a katılmadı (Hill, Hou Hanshu 88 çevirisi)."
+   },
+   {
+    "f": "0023-01-01",
+    "t": "0086-01-01",
+    "d": "suoju",
+    "kesinlik": "yil",
+    "kaynak": "Fan Ye, Hou Hanshu 88 Xiyu zhuan (zh.wikisource.org 後漢書/卷88); Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand",
+    "ic_not": "Bağımsız Suoju krallığı (Yan, Kang, Xian; Xian 29–61 Tarım havzasına hâkim). Hoten kralı Guangde Xian'ı yakalayıp Suoju'yu yıktı (永平中); Hun'un kukla kralı Qili 元和三年 (86); Ban Chao 'Suoju'yu bozguna uğratır, böylece Han'a teslim oldu'. Hoten/Hun ara dönemleri süre belirsiz → açılmadı.",
+    "kunye_yok": true
+   },
+   {
+    "f": "0086-01-01",
+    "t": "0220-01-01",
+    "d": "dogu-han",
+    "kesinlik": "yil",
+    "kaynak": "Fan Ye, Hou Hanshu 88 Xiyu zhuan (zh.wikisource.org 後漢書/卷88)",
+    "ic_not": "Ban Chao 86'da Suoju'yu bozguna uğratır '由是遂降漢'. 2. yy'da Suoju Şule'ye bağlandı (Hou Hanshu 88 Şule maddesi: 'Suoche Şule'ye bağlandı', 元初 114–120 sonrası). Nominal."
+   },
+   {
+    "f": "0220-01-01",
+    "t": "1000-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand",
+    "ic_not": "220–1000 arası sahip kaynakla bağlanamadı: Iranica yalnız Xuanzang'ın ~630'da manastırlar gördüğünü söyler (şehir VAR), Karahanlı fethini '10. yy' (tarihsiz) verir. Tang dönemi (Xin Tangshu 221B 'Chakuka') ve Hoten/Tibet bağı doğrulanamadı. Ölçüt gereği zincir Kâşgar'dan devralınmadı (Kaşgar kendi zincirinde 220–582 yerel krallık)."
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1211-01-01",
+    "d": "karahanli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand",
+    "ic_not": "Iranica: Karahanlılar Yarkant'ı 10. yy'da aldı (güvenli uç 1000). 11. yy sikke/vakıf belgeleri Karahanlı Yarkant'ı gösterir. Kaşgar'daki alt dönemler (Doğu Karahanlı 1041, Karahıtay 1130) Yarkant için kaynaklı DEĞİL: TDV Karahıtay Hoten ve Kâşgar'ı tâbi kılar, Yarkant adı geçmez. Karahanlı künyesi 1041'de dogu/batı ayrılır — 'zincir Kâşgar'dan devralındı' (abi merkez) yaklaşıklığı BEYAN: 1041–1211 Karahanlı/Doğu Karahanlı/Karahıtay Kâşgar zinciriyle aynı varsayıldı, tek dönem."
+   },
+   {
+    "f": "1211-01-01",
+    "t": "1218-01-01",
+    "d": "nayman",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kasgar",
+    "ic_not": "Iranica: Yarkant Küçlüg'e geçti. Yıl TDV Kâşgar/Karahıtaylar 1211'den (gün komşudan). Nayman künyesi 1204'te biter — künye GENİŞLET önerisi (Küçlüg Karahıtay tahtında)."
+   },
+   {
+    "f": "1218-01-01",
+    "t": "1227-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kasgar; Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand",
+    "ic_not": "Gün komşudan: TDV Kâşgar 1218 Cebe Noyan; Yarkant adı o cümlede geçmez, Iranica Yarkant'ı 'Moğollar'a geçti' der (yıl vermez)."
+   },
+   {
+    "f": "1227-01-01",
+    "t": "1281-01-01",
+    "d": "cagatay",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kasgar",
+    "ic_not": "Iranica: Kaydu ve Çağatay; 1274'te Marco Polo Yarkant'ta. TDV Kâşgar: 1227 pay Çağatay'a. Atlas ilk sahibi cagatay ile dikiş AYNI."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0064-01-01",
+    "gun": "MÖ 65 (元康元年)",
+    "k": "diger",
+    "b": "İlk tarihli anış: Han elçisi Feng Fengshi katil Hutuzheng'i öldürüp Suoju'ya yeni kral atar.",
+    "kaynak": "Ban Gu, Hanshu 96A Xiyu zhuan (zh.wikisource.org 漢書/卷096上)",
+    "tanik": "更立它昆弟子為莎車王"
+   },
+   {
+    "t": "-0059-01-01",
+    "gun": "MÖ 60",
+    "k": "diger",
+    "b": "Han 西域都護 kurar; Hun 僮僕都尉 kaldırılır.",
+    "kaynak": "Ban Gu, Hanshu 96A Xiyu zhuan (zh.wikisource.org 漢書/卷096上)",
+    "tanik": "僮僕都尉由此罷，匈奴益弱"
+   },
+   {
+    "t": "0009-01-10",
+    "gun": "10 Ocak 9",
+    "k": "diger",
+    "b": "künye geçişi: Han → Xin.",
+    "kaynak": "Ban Gu, Hanshu 99B Wang Mang zhuan (zh.wikisource.org 漢書/卷099中)",
+    "tanik": "正月朔，莽帥公侯卿士奉皇太后璽韍，上太皇太后，順符命，去漢號焉"
+   },
+   {
+    "t": "0023-01-01",
+    "gun": "MS 23",
+    "k": "diger",
+    "b": "künye geçişi: Xin sona erer (Iranica: resmî Çin hâkimiyeti MS 23); Suoju bağımsız krallık olarak sürer.",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/kashgar (P. Lurje, 2012)",
+    "tanik": "From 59 BCE until 23 CE, Shule, along with the other principalities"
+   },
+   {
+    "t": "0086-01-01",
+    "gun": "MS 86 (元和三年)",
+    "k": "fetih",
+    "b": "Ban Chao Suoju'yu bozguna uğratır; Suoju Han'a teslim olur.",
+    "kaynak": "Fan Ye, Hou Hanshu 88 Xiyu zhuan (zh.wikisource.org 後漢書/卷88)",
+    "tanik": "由是遂降漢"
+   },
+   {
+    "t": "0220-01-01",
+    "gun": "MS 220",
+    "k": "diger",
+    "b": "künye geçişi: Han imparatoru tahtı Wei'ye bırakır.",
+    "kaynak": "Chen Shou, Sanguozhi 2 Wei shu (zh.wikisource.org 三國志/卷02)",
+    "tanik": "以河內之山陽邑萬戶奉漢帝爲山陽公"
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "10. yüzyıl",
+    "k": "fetih",
+    "b": "Karahanlılar Yarkant'ı alır, halk müslüman olur (Iranica: '10. yüzyıl', güvenli uç 1000).",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand",
+    "tanik": "Yārkand was conquered by the Qarā-khanids"
+   },
+   {
+    "t": "1211-01-01",
+    "gun": "1211",
+    "k": "fetih",
+    "b": "Karahıtay tahtını gasp eden Nayman Küçlüg Kâşgar havalisini (Yarkant dahil) alır.",
+    "kaynak": "Encyclopaedia Iranica, https://iranicaonline.org/articles/yarkand",
+    "tanik": "passed to Küčlüg"
+   },
+   {
+    "t": "1218-01-01",
+    "gun": "1218",
+    "k": "fetih",
+    "b": "Cengiz Han'ın Cebe Noyan komutasındaki ordusu Kâşgar bölgesini alır (Yarkant adı geçmez; gün komşudan).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kasgar",
+    "tanik": "Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218)"
+   },
+   {
+    "t": "1227-01-01",
+    "gun": "1227",
+    "k": "diger",
+    "b": "Cengiz'in ülke taksiminde Kâşgar bölgesi Çağatay'ın payına düşer (Yarkant adı geçmez).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kasgar",
+    "tanik": "Kâşgar Çağatay Han’ın payına düştü (1227)"
+   }
+  ],
+  "ic_not": "Yarkant isim kökeni 11. yy'dan (Mahmud Kâşgarî, sikkeler) anılır (Iranica). Atlas Yarkent 1281 cagatay ile başlıyor — dikiş AYNI sahip. ÇİFT TEYİT YOK. Zayıf noktalar: 220–1000 boşluğu, Karahanlı alt dönemleri. Atlas düzeltme: yok."
  },
  {
   "id": "yeni-saray-tsarev",
