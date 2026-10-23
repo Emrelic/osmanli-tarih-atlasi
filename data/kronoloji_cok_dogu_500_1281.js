@@ -10477,8 +10477,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Üst sınır: olay 739 yılında ya da daha önce. Saldıran tarafın \"emevi\" kimliği Sind valilerinin Emevî bağlılığından çıkarımdır (Majumdar yalnız \"Arabs of Sindh\" der)."
  },
- { "odak_yer":["Ghumli (Bhumli)"], 
-  "t": "0756-01-01",
+ { "odak_yer":["Bhutambilika"], "t": "0756-01-01",
   "b": "Hişam'ın donanması Barda kıyısına saldırdı, Saindhavalar püskürttü",
   "tur": "savas",
   "onem": 2,
@@ -10518,8 +10517,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "TDV günü vermez; hicrî-milâdî çevirisi:",
   "ic_not_takvim": "Hicrî 142 yılı (0759-05-04 … 0760-04-21 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ milâdî 759: kesişimin ilk günü 0759-05-04 alındı; kaynak günü vermiyor."
  },
- { "odak_yer":["Ghumli (Bhumli)"], 
-  "t": "0776-01-01",
+ { "odak_yer":["Bhutambilika"], "t": "0776-01-01",
   "b": "İkinci Arap deniz seferi Barda kıyısında geri çekildi",
   "tur": "savas",
   "onem": 2,
@@ -10537,8 +10535,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "\"about A.D. 776\"",
   "kesinlik": "onyil"
  },
- { "odak_yer":["Baijnath (Kartikeyapura), Bageshwar"], 
-  "t": "0790-01-01",
+ { "odak_yer":["Baijnath"], "t": "0790-01-01",
   "b": "Nimbara ve soyu Karttikeyapura (Baijnath) merkezli krallığı kurdu (790-832 dolayı)",
   "tur": "kurulus",
   "onem": 2,
@@ -10618,8 +10615,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "0801-01-01 \"9. yy ilk çeyreği\" (801-825) demektir."
  },
- { "odak_yer":["Ghumli (Bhumli)"], 
-  "t": "0832-01-01",
+ { "odak_yer":["Bhutambilika"], "t": "0832-01-01",
   "b": "Jaika I yeğeni II. Agguka adına naip olarak ferman çıkardı",
   "tur": "hukumdar",
   "onem": 2,
@@ -10637,8 +10633,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "832 (naip belgesi)",
   "kesinlik": "yil"
  },
- { "odak_yer":["Malkhed"], 
-  "t": "0850-01-01",
+ { "odak_yer":["Manyakheta"], "t": "0850-01-01",
   "b": "Kuzey Konkan (Thana) Silaharaları Rashtrakutaların vasalı olarak kuruldu (9. yy ortası)",
   "tur": "kurulus",
   "onem": 2,
@@ -10658,8 +10653,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "ÇELİŞKİ: girdi/MS1 künye f=0765; Majumdar \"about the middle of the ninth century\". Kuzey/Güney Konkan kolları ayrı aileler olduğundan künye f'nin hangi kola ait olduğu doğrulanamadı."
  },
- { "odak_yer":["Baijnath (Kartikeyapura), Bageshwar"], 
-  "t": "0853-01-01",
+ { "odak_yer":["Baijnath"], "t": "0853-01-01",
   "b": "Lalitasuradeva'nın Pandukeshwar bakır levhaları (21. ve 22. saltanat yılı = 853, 854)",
   "tur": "hukumdar",
   "onem": 2,
@@ -10700,8 +10694,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "TDV olay yılını 861 verir; gün yok. Hicrî çevirisi:",
   "ic_not_takvim": "Hicrî 247 yılı (0861-03-17 … 0862-03-06 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ milâdî 861: kesişimin ilk günü 0861-03-17 alındı; kaynak günü vermiyor."
  },
- { "odak_yer":["Ghumli (Bhumli)"], 
-  "t": "0874-01-01",
+ { "odak_yer":["Bhutambilika"], "t": "0874-01-01",
   "b": "II. Ranaka'nın bilinen tarihi 874",
   "tur": "hukumdar",
   "onem": 1,
@@ -10820,8 +10813,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "914",
   "kesinlik": "yil"
  },
- { "odak_yer":["Ghumli (Bhumli)"], 
-  "t": "0915-01-01",
+ { "odak_yer":["Bhutambilika"], "t": "0915-01-01",
   "b": "Saindhavaların bilinen son kralı II. Jaika (bilinen tarihler 904, 915)",
   "tur": "son",
   "onem": 3,
@@ -10986,8 +10978,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "999",
   "kesinlik": "yil"
  },
- { "odak_yer":["Baijnath (Kartikeyapura), Bageshwar"], 
-  "t": "1000-01-01",
+ { "odak_yer":["Baijnath"], "t": "1000-01-01",
   "b": "Nimbara ailesinin sonuncusu Salonaditya'nın kurduğu yeni hanedan tarafından devrildi (10. yy)",
   "tur": "son",
   "onem": 2,
@@ -16648,8 +16639,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "TDV «muhtemelen» der ve aralık verir; 775 aralığın ilk günü. Oğuz Yabgu Devleti’nin kuruluş günü kaynakta YOK; f=0775 kuruluş değil, yabgu elinin Seyhun’da yerleşmesidir. Önceki ağırlık merkezi: bk. 766 Karluk-Batı Göktürk olayı (TDV)."
  },
- { "odak_yer":["Yenikent (Jankent)"], 
-  "t": "0820-01-01",
+ { "odak_yer":["Yenikent"], "t": "0820-01-01",
   "b": "Dokuz Oğuzlar Üsrûşene’ye akın yaptı (Taberî)",
   "tur": "savas",
   "onem": 1,
