@@ -23,7 +23,12 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "kaynak": "Liu Rui (刘瑞, CASS Arkeoloji Enstitüsü), 「秦五大夫翳刻石纪年与时代」, Chinese Social Sciences Today, 19 Eylül 2025 · https://www.cssn.cn/skgz/bwyc/202509/t20250919_5916301.shtml",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «秦王嬴政在二十六年（前221年）完成统一六国大业». YAZILI GELENEK: Shiji 'Qin Shihuang benji' ('初并天下') anlatısından türer; Liu Rui makalesinin başlığı Wudafu Yi taş kitabesinin 'not earlier than 221' sınırını tartışır. Qin'in 230–221 arası fetih sırası ve 'Baiyue seferi' ayrıdır (arama özetinde). Shiji birincil metnine ctext.org'dan bot engeli yüzünden ulaşılamadı; Bai Qi–Wang Jian biyografisindeki 'Qin Shihuang 26. yıl' ifadesi yalnız arama özetinde görüldü. Başka bağımsız kaynakla kısıtlı."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «秦王嬴政在二十六年（前221年）完成统一六国大业». YAZILI GELENEK: Shiji 'Qin Shihuang benji' ('初并天下') anlatısından türer; Liu Rui makalesinin başlığı Wudafu Yi taş kitabesinin 'not earlier than 221' sınırını tartışır. Qin'in 230–221 arası fetih sırası ve 'Baiyue seferi' ayrıdır (arama özetinde). Shiji birincil metnine ctext.org'dan bot engeli yüzünden ulaşılamadı; Bai Qi–Wang Jian biyografisindeki 'Qin Shihuang 26. yıl' ifadesi yalnız arama özetinde görüldü. Başka bağımsız kaynakla kısıtlı.",
+  "odak_yer": [
+   "Luoyang",
+   "Çengdu (Chengdu)",
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "-0769-01-01",
@@ -143,7 +148,11 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "kaynak": "Aynı (Xia–Shang sınırı ~1600) · https://epaper.gmw.cn/gmrb/html/2022-08/24/nw.D110000gmrb_20220824_1-09.htm",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «夏为公元前2070年至公元前1600年». YAZILI GELENEK ≠ ARKEOLOJİ (ayrı yazıldı). Arkeolojik tarafta Xia'yı doğrudan tarihleyen yazıt yoktur. Erlitou I'in 14C tarihi 1750 MÖ'den eski değildir (bkz. erlitou kaydı); CASS'tan Dong Xiaolei (CSSN 16.08.2024) bunu şöyle özetler: 'Erlitou I'in 14C tarihlerinin en erkeni ancak MÖ 18. yy başında; Xia başlangıcı ile arada belirgin boşluk'. Chen Minzhen'e göre Erlitou kültürü 200 küsur yıl sürer ve 471 yıllık Xia'yı dolduramaz. Lee vd. 2007 (PNAS) Xia'yı 'ca. 2100–1600 B.C.' diye yazar (gelenek). Bu iki değer birbirinden bağımsız doğrulama DEĞİLDİR; ikisi de proje kronolojisine dayanır. Projenin kendisi yöntem olarak yazılı kral yıllarını referans çerçeve almış olduğundan eleştirilir (Nanjing Üniv. Zhou Xiaolu, 2014 konferansı; 1046 MÖ vb. sonuçlar yurtiçi/yurtdışı eleştirmişti)."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «夏为公元前2070年至公元前1600年». YAZILI GELENEK ≠ ARKEOLOJİ (ayrı yazıldı). Arkeolojik tarafta Xia'yı doğrudan tarihleyen yazıt yoktur. Erlitou I'in 14C tarihi 1750 MÖ'den eski değildir (bkz. erlitou kaydı); CASS'tan Dong Xiaolei (CSSN 16.08.2024) bunu şöyle özetler: 'Erlitou I'in 14C tarihlerinin en erkeni ancak MÖ 18. yy başında; Xia başlangıcı ile arada belirgin boşluk'. Chen Minzhen'e göre Erlitou kültürü 200 küsur yıl sürer ve 471 yıllık Xia'yı dolduramaz. Lee vd. 2007 (PNAS) Xia'yı 'ca. 2100–1600 B.C.' diye yazar (gelenek). Bu iki değer birbirinden bağımsız doğrulama DEĞİLDİR; ikisi de proje kronolojisine dayanır. Projenin kendisi yöntem olarak yazılı kral yıllarını referans çerçeve almış olduğundan eleştirilir (Nanjing Üniv. Zhou Xiaolu, 2014 konferansı; 1046 MÖ vb. sonuçlar yurtiçi/yurtdışı eleştirmişti).",
+  "odak_yer": [
+   "Dholavira",
+   "Rakhigarhi"
+  ]
  },
  {
   "odak_yer": [

@@ -14,7 +14,13 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
    "arkeoloji"
   ],
   "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 400 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «dates of the beginning of the fourth century BC, now represent its earliest dated examples». 'Başlangıç 4. yy MÖ' yani yaklaşık MÖ 400; kalibre aralığı özette yok (tam metin erişimsiz). Deraniyagala (1990), 'Radiocarbon dating of early Brahmi script in Sri Lanka: 600-500 BC' başlığıyla (yalnız Coningham 1996 kaynakçasındaki başlıktan görüldü, kendisi okunamadı) bu tarihe karşı çıkar: ÇELİŞKİ: Coningham ~MÖ 400, Deraniyagala MÖ 600-500. Çözüm yok. bas_mo=400 yalnız 'MÖ 4. yy başı'ndan türetilmiş yaklaşık değerdir."
+  "ic_not_d": "TEK DEĞER MÖ 400 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «dates of the beginning of the fourth century BC, now represent its earliest dated examples». 'Başlangıç 4. yy MÖ' yani yaklaşık MÖ 400; kalibre aralığı özette yok (tam metin erişimsiz). Deraniyagala (1990), 'Radiocarbon dating of early Brahmi script in Sri Lanka: 600-500 BC' başlığıyla (yalnız Coningham 1996 kaynakçasındaki başlıktan görüldü, kendisi okunamadı) bu tarihe karşı çıkar: ÇELİŞKİ: Coningham ~MÖ 400, Deraniyagala MÖ 600-500. Çözüm yok. bas_mo=400 yalnız 'MÖ 4. yy başı'ndan türetilmiş yaklaşık değerdir.",
+  "odak_yer": [
+   "Aguada Fénix",
+   "El Mirador",
+   "La Venta",
+   "Ceibal"
+  ]
  },
  {
   "t": "-0999-01-01",
@@ -37,7 +43,10 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1000–500) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Non Nok Tha BA 1000-500 BC». Uzun kronoloji (Solheim; Gorman & Charoenwongsa) bu site için çok daha erken tarih iddia etmişti; Higham vd. 2015 (PLoS ONE) bunu 'hatalı tarihler' diyerek reddeder (aynı kısa/uzun kronoloji tartışması, bkz. Ban Chiang). Ayrı bit bloğu verilmedi: Fochesato evre aralığı 1000-500 MÖ iki ucuyla kur içinde."
  },
- { "odak_yer":["Sanganakallu-Kupgal"], 
+ {
+  "odak_yer": [
+   "Sanganakallu-Kupgal"
+  ],
   "t": "-1199-01-01",
   "k": "kayip",
   "b": "Sanganakallu-Kupgal: terk edilir (yaklaşık)",
@@ -52,7 +61,10 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1200 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «prior to apparent abandonment ca. 1200 cal. BC». kur aralığı bir EVRE (tepe köyü genişlemesi) aralığıdır, yerleşimin kuruluş tarihi DEĞİL: Sanganakallu-Kupgal'da Neolitik iskan daha erkendir (bkz. 'guney-hint-neolitigi' kaydı). Güney Hint kronolojisinde bölgesel süreklilik (Tungabhadra-Krishna) Demir Çağı'na ~MÖ 1200'de devam eder, 'terk' yalnız bu tepe kompleksi içindir. Makalenin tam metni/tabloları (bireysel kalibre aralıklar) okunamadı."
  },
- { "odak_yer":["Sanganakallu-Kupgal"], 
+ {
+  "odak_yer": [
+   "Sanganakallu-Kupgal"
+  ],
   "t": "-1399-01-01",
   "k": "kurulus",
   "b": "Sanganakallu-Kupgal: tepe köyü genişlemesi (Geç Neolitik–Megalitik geçiş)",
@@ -73,7 +85,10 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1400–1200) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «hilltop village expansion during the Late Neolithic and 'Megalithic' transition period (ca. 1400-1200 cal. BC)». kur aralığı bir EVRE (tepe köyü genişlemesi) aralığıdır, yerleşimin kuruluş tarihi DEĞİL: Sanganakallu-Kupgal'da Neolitik iskan daha erkendir (bkz. 'guney-hint-neolitigi' kaydı). Güney Hint kronolojisinde bölgesel süreklilik (Tungabhadra-Krishna) Demir Çağı'na ~MÖ 1200'de devam eder, 'terk' yalnız bu tepe kompleksi içindir. Makalenin tam metni/tabloları (bireysel kalibre aralıklar) okunamadı."
  },
- { "odak_yer":["Khok Phanom Di"], 
+ {
+  "odak_yer": [
+   "Khok Phanom Di"
+  ],
   "t": "-1499-01-01",
   "k": "kayip",
   "b": "Khok Phanom Di: iskân sona erer",
@@ -88,7 +103,10 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Khok Phanom Di was occupied between 2000-1500 BC». Fochesato vd. 2021 (PNAS, PMC8617413, Tablo 1) aynı yeri 'Neolitik 2000-1600 MÖ' (53 gömü) verir: bitiş 1500 (Higham 2019) ile 1600 (Fochesato, aynı grup) farklı. Higham & Higham 2022 (JIPA 46: 17-30, 'Khok Phanom Di: new radiocarbon dates and their implications') yeni insan kemiği/kabuk/kömür tarihleriyle 'daha erken iskan' bildirir; YAYININ KENDİSİ OKUNAMADI (yalnız özet), yeni sayı bulunamadı. Bu nedenle kur=2000 eski/eşik değer olarak ele alınmalı, 2022 makalesi okununca güncellenmeli. Orijinal: Higham & Thosarat 2004 (Excavation of Khok Phanom Di VII) okunmadı."
  },
- { "odak_yer":["Ban Chiang"], 
+ {
+  "odak_yer": [
+   "Ban Chiang"
+  ],
   "t": "-1509-01-01",
   "k": "gelisme",
   "b": "Ban Chiang: ilk tarihli gömü (kemik kolajeni, kısa kronoloji)",
@@ -151,7 +169,10 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 1956–1573) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Man Bac site dating to 3,906-3,523 cal BP was occupied during the agricultural transition of Southeast Asia». cal BP->MÖ: BP-1950, bu oturumda (3906->1956, 3523->1573). Higham vd. 2019 (JIPA) Man Bac için 'ilk Neolitik yaklaşık MÖ 1900-1500' der (Vlok vd. 2019'a atıfla; Vlok 2019 doğrudan okunamadı): aynı ekip, bağımsız çift teyit sayılmaz. Vlok 2021 aralığı birincil radyokarbon yayını değil, atıf; Man Bac'ın birincil 14C yayını bulunamadı."
  },
- { "odak_yer":["Khok Phanom Di"], 
+ {
+  "odak_yer": [
+   "Khok Phanom Di"
+  ],
   "t": "-1999-01-01",
   "k": "kurulus",
   "b": "Khok Phanom Di: Neolitik iskân başlar",

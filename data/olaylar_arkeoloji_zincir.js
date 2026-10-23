@@ -9,7 +9,17 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Roma, İskenderiye noktalarında sahiplik Roma Cumhuriyeti'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Theodosius'un ölümü 17 Ocak 395 (Olybrius ve Probus konsüllüğü): Sokrates Scholastikos Kil. Tar. 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius ve Honorius imparatorluğu yalnız oturma yerleriyle bölünmüş olarak devralır.",
   "kaynak": "Theodosius'un ölümü 17 Ocak 395 (Olybrius ve Probus konsüllüğü): Sokrates Scholastikos Kil. Tar. 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius ve Honorius imparatorluğu yalnız oturma yerleriyle bölünmüş olarak devralır.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Roma",
+   "İskenderiye",
+   "Atina",
+   "Bergama",
+   "Capua",
+   "Marsilya",
+   "Sirakuza",
+   "Veii"
+  ]
  },
  {
   "t": "-0048-01-01",
@@ -20,7 +30,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Marsilya, Massalia noktalarında sahiplik Massalia (Marsilya)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Caesar BC 2.22: şehir yenilince 'conservans' ve garnizon bırakıldı — özgür müttefik statüsünün sonu Roma denetimi.",
   "kaynak": "Caesar BC 2.22: şehir yenilince 'conservans' ve garnizon bırakıldı — özgür müttefik statüsünün sonu Roma denetimi.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Marsilya"
+  ]
  },
  {
   "t": "-0112-01-01",
@@ -31,7 +44,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Dura-Europos noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»",
   "kaynak": "Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dura-Europos"
+  ]
  },
  {
   "t": "-0132-01-01",
@@ -42,7 +58,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Bergama, Pergamon noktalarında sahiplik Bergama (Attalos) Krallığı'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'.",
   "kaynak": "Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Bergama"
+  ]
  },
  {
   "t": "-0140-01-01",
@@ -53,7 +72,13 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil, Seleukeia (Dicle üzerinde), Uruk noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Mithradates I Temmuz 141'de Seleukeia'yı, Ekim 141'de Uruk'a ulaşır | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»",
   "kaynak": "Mithradates I Temmuz 141'de Seleukeia'yı, Ekim 141'de Uruk'a ulaşır | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil",
+   "Seleukeia",
+   "Uruk (Warka)",
+   "Ktesiphon"
+  ]
  },
  {
   "t": "-0147-01-01",
@@ -64,7 +89,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Ekbatana, Hemedan noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»",
   "kaynak": "Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Hemedan"
+  ]
  },
  {
   "t": "-0206-01-01",
@@ -75,7 +103,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Xi'an (Chang'an) noktalarında sahiplik Qin Hanedanı (birleşik İmparatorluk)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Shiji 6, Qin Shi Huang 26. yıl: 'ilk kez bütün ülkeyi birleştirdi' (devlet Qin kimliği değişimi; Chang'an/Xianyang Qin çekirdeğidir)",
   "kaynak": "Shiji 6, Qin Shi Huang 26. yıl: 'ilk kez bütün ülkeyi birleştirdi' (devlet Qin kimliği değişimi; Chang'an/Xianyang Qin çekirdeğidir)",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "-0211-01-01",
@@ -86,7 +117,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Sirakuza, Syrakusai noktalarında sahiplik Sirakuza (Syrakousai)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Livy 25.40: 'Marcellus captis Syracusis' Sicilya'yı düzenledi; Eutropius 3.14: Marcellus Sicilya'nın büyük bölümünü ve Syracusa'yı aldı.",
   "kaynak": "Livy 25.40: 'Marcellus captis Syracusis' Sicilya'yı düzenledi; Eutropius 3.14: Marcellus Sicilya'nın büyük bölümünü ve Syracusa'yı aldı.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Sirakuza"
+  ]
  },
  {
   "t": "-0310-01-01",
@@ -97,7 +131,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil, Uruk noktalarında sahiplik sahipsiz aralık'dan Selevkos Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»",
   "kaynak": "Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil",
+   "Uruk (Warka)"
+  ]
  },
  {
   "t": "-0311-01-01",
@@ -108,7 +146,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Ekbatana, Hemedan noktalarında sahiplik sahipsiz aralık'dan Selevkos Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»",
   "kaynak": "Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Hemedan",
+   "Seleukeia"
+  ]
  },
  {
   "t": "-0322-06-10",
@@ -119,7 +161,13 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil, Ekbatana, Hemedan, Pasargad, Uruk noktalarında sahiplik Buyuk Iskender Imparatorlugu'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
   "kaynak": "İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil",
+   "Hemedan",
+   "Pasargad",
+   "Uruk (Warka)"
+  ]
  },
  {
   "t": "-0327-01-01",
@@ -130,7 +178,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Ekbatana, Hemedan noktalarında sahiplik sahipsiz aralık'dan Buyuk Iskender Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: İskender 328'de Medya satrapı Oxydates'i Atropates ile değiştirir -> Makedon denetimi en geç 328 | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «In 328 B.C.E., Alexander replaced Oxydates with Atropates as satrap of Media»",
   "kaynak": "İskender 328'de Medya satrapı Oxydates'i Atropates ile değiştirir -> Makedon denetimi en geç 328 | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «In 328 B.C.E., Alexander replaced Oxydates with Atropates as satrap of Media»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Hemedan"
+  ]
  },
  {
   "t": "-0329-01-01",
@@ -153,7 +204,12 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil, Uruk noktalarında sahiplik Ahamenis (Pers) Imparatorlugu'dan Buyuk Iskender Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
   "kaynak": "İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil",
+   "Uruk (Warka)",
+   "Susa"
+  ]
  },
  {
   "t": "-0395-01-01",
@@ -164,7 +220,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Veii noktalarında sahiplik Etrüsk Şehir Devletleri (Oniki Şehir Birliği)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Livy 5.22 (Roberts, Perseus 1999.02.0026): Veii'den tüm insani mal taşındıktan sonra Juno heykeli Roma'ya götürüldü; şehir alındı. MÖ yılı Livy'de yok (konsül/diktatör Camillus yılı Fasti ile eşleşir).",
   "kaynak": "Livy 5.22 (Roberts, Perseus 1999.02.0026): Veii'den tüm insani mal taşındıktan sonra Juno heykeli Roma'ya götürüldü; şehir alındı. MÖ yılı Livy'de yok (konsül/diktatör Camillus yılı Fasti ile eşleşir).",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Veii"
+  ]
  },
  {
   "t": "-0403-01-01",
@@ -175,7 +234,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Memphis (Men-nefer / Mit Rahina) noktalarında sahiplik Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Pelusium savasi 525; Kambises ayin sonunda Misir kralı ilan edildi; 1. Pers hakimiyeti ~402'de bitti; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]",
   "kaynak": "Pelusium savasi 525; Kambises ayin sonunda Misir kralı ilan edildi; 1. Pers hakimiyeti ~402'de bitti; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Memphis (Chickasaw Bluffs)"
+  ]
  },
  {
   "t": "-0677-01-01",
@@ -186,7 +248,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Ekbatana, Hemedan noktalarında sahiplik sahipsiz aralık'dan Medya (Med) Krallığı'ya geçer. Kaynak geçiş bilgisi: Herodotos geleneği: Ekbatana Med başkenti olarak 8. yy sonlarında Deiokes'çe seçilir (Iranica: daha eski iskân için tarihsel/arkeolojik kanıt yok) | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «Ecbatana was chosen as the Median capital in the late 8th century B.C.E. by Deioces»",
   "kaynak": "Herodotos geleneği: Ekbatana Med başkenti olarak 8. yy sonlarında Deiokes'çe seçilir (Iranica: daha eski iskân için tarihsel/arkeolojik kanıt yok) | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «Ecbatana was chosen as the Median capital in the late 8th century B.C.E. by Deioces»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Hemedan"
+  ]
  },
  {
   "t": "-0709-01-01",
@@ -197,7 +262,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil noktalarında sahiplik sahipsiz aralık'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Sargon II Babil tahtına oturur (Marduk-apla-iddina yıl 12 = 710/709) | Kaynak: Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 1 (Nabu-nasir > Esarhaddon); Livius.org ceviri-tasiyicisi, sütun ii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/ | «Sargon ascended the throne in Babylon.»",
   "kaynak": "Sargon II Babil tahtına oturur (Marduk-apla-iddina yıl 12 = 710/709) | Kaynak: Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 1 (Nabu-nasir > Esarhaddon); Livius.org ceviri-tasiyicisi, sütun ii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/ | «Sargon ascended the throne in Babylon.»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
  },
  {
   "t": "-0721-01-01",
@@ -208,7 +276,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Samiriye (Samaria / Sebaste) noktalarında sahiplik Israil Krallığı (Samiriye)'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Samiriye'nin alinmasi 722; halk Halah/Gozan'a surgun [AEBP Israel]",
   "kaynak": "Samiriye'nin alinmasi 722; halk Halah/Gozan'a surgun [AEBP Israel]",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Samiriye"
+  ]
  },
  {
   "t": "-0731-01-01",
@@ -231,7 +302,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Aşşur noktalarında sahiplik sahipsiz aralık'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Aşşur-uballit I (ca. 1364-1328) ve Šuppiluliuma Mitanni'ye saldırır; Asur bağımsızlığını yeniden kazanır (Livius özeti) | Kaynak: Lendering, J., Livius.org: Assur | https://www.livius.org/articles/place/assur/ | «Assyria regained its independence»",
   "kaynak": "Aşşur-uballit I (ca. 1364-1328) ve Šuppiluliuma Mitanni'ye saldırır; Asur bağımsızlığını yeniden kazanır (Livius özeti) | Kaynak: Lendering, J., Livius.org: Assur | https://www.livius.org/articles/place/assur/ | «Assyria regained its independence»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Aşşur",
+   "Ninova"
+  ]
  },
  {
   "t": "-1099-01-01",
@@ -242,7 +317,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Susa noktalarında sahiplik Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)'dan Yeni Elam Krallığı'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
   "kaynak": "Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
   "kaynak_turu": "yazili",
-  "kesinlik": "onyil"
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Susa"
+  ]
  },
  {
   "t": "-1154-01-01",
@@ -265,7 +343,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil noktalarında sahiplik Orta Asur Imparatorlugu'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
   "kaynak": "KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
  },
  {
   "t": "-1219-01-01",
@@ -276,7 +357,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil noktalarında sahiplik Kassit Babil Krallığı'dan Orta Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Tukulti-Ninurta I (Asur) Kaştiliaş IV'ü (1227-20) tutsak eder; 1220'de bir yıl Babil kralı gibi davranır; kukla yöneticiler bir on yıl Babilonya'yı denetler | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «After acting as king of Babylon for a year (1220 BCE), Tukulti-Ninurta I appointed a succession of puppet rulers»",
   "kaynak": "Tukulti-Ninurta I (Asur) Kaştiliaş IV'ü (1227-20) tutsak eder; 1220'de bir yıl Babil kralı gibi davranır; kukla yöneticiler bir on yıl Babilonya'yı denetler | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «After acting as king of Babylon for a year (1220 BCE), Tukulti-Ninurta I appointed a succession of puppet rulers»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
  },
  {
   "t": "-1464-01-01",
@@ -299,7 +383,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Uruk noktalarında sahiplik Birinci Deniz Ulkesi Hanedani'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
   "kaynak": "MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Uruk (Warka)"
+  ]
  },
  {
   "t": "-1499-01-01",
@@ -310,7 +397,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Kerma (Kerma / Doukki Gel) noktalarında sahiplik Kerma Krallığı (Klasik Kerma)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Kerma.ch: Early Kerma 2450-2050 \"City founded\"; Middle 2050-1750; Classic 1750-1480",
   "kaynak": "Kerma.ch: Early Kerma 2450-2050 \"City founded\"; Middle 2050-1750; Classic 1750-1480",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Kerma"
+  ]
  },
  {
   "t": "-1731-01-01",
@@ -321,7 +411,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Uruk noktalarında sahiplik sahipsiz aralık'dan Birinci Deniz Ulkesi Hanedani'ya geçer. Kaynak geçiş bilgisi: MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
   "kaynak": "MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Uruk (Warka)"
+  ]
  },
  {
   "t": "-1760-01-01",
@@ -332,7 +425,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Mari noktalarında sahiplik sahipsiz aralık'dan Eski Babil (Amorit) Krallığı'ya geçer. Kaynak geçiş bilgisi: Hammurabi yıl 32 (MC 1761): Mari yenilir | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Mari, in the 32nd»",
   "kaynak": "Hammurabi yıl 32 (MC 1761): Mari yenilir | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Mari, in the 32nd»",
   "kaynak_turu": "yazili",
-  "kesinlik": "onyil"
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Mari"
+  ]
  },
  {
   "t": "-1762-01-01",
@@ -355,7 +451,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Uruk noktalarında sahiplik sahipsiz aralık'dan Larsa Krallığı'ya geçer. Kaynak geçiş bilgisi: Rim-Sin I yıl 21 (MC 1802): Uruk yıkılır ve Larsa'ya katılır | Kaynak: CDLI Wiki, Year names of Rim-Sin I (Larsa), yıl 21 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin | «(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil»",
   "kaynak": "Rim-Sin I yıl 21 (MC 1802): Uruk yıkılır ve Larsa'ya katılır | Kaynak: CDLI Wiki, Year names of Rim-Sin I (Larsa), yıl 21 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin | «(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil»",
   "kaynak_turu": "yazili",
-  "kesinlik": "onyil"
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Uruk (Warka)"
+  ]
  },
  {
   "t": "-1807-01-01",
@@ -366,7 +465,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Aşşur noktalarında sahiplik Eski Asur Devleti (Assur sehir devleti)'dan Ust Mezopotamya Krallığı (Samsi-Adad I)'ya geçer. Kaynak geçiş bilgisi: Šamši-Adad I Aşşur'un yöneticisi (ARC Tablo 38, Barjamovic vd. 2012 uyarlaması): MC 1808-1776 | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 133 Tablo 38 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Shamshiadad I 1808-1776»",
   "kaynak": "Šamši-Adad I Aşşur'un yöneticisi (ARC Tablo 38, Barjamovic vd. 2012 uyarlaması): MC 1808-1776 | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 133 Tablo 38 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Shamshiadad I 1808-1776»",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Aşşur"
+  ]
  },
  {
   "t": "-1899-01-01",
@@ -377,7 +479,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Susa noktalarında sahiplik Elam — Simaski Hanedani'dan Elam — Sukkalmah (Eparti) Hanedani'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
   "kaynak": "Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
   "kaynak_turu": "yazili",
-  "kesinlik": "onyil"
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Susa"
+  ]
  },
  {
   "t": "-2003-01-01",
@@ -400,7 +505,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Susa noktalarında sahiplik Ur III (Ucuncu Ur Hanedani)'dan Elam — Simaski Hanedani'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
   "kaynak": "Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
   "kaynak_turu": "yazili",
-  "kesinlik": "onyil"
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Susa",
+   "Aşşur"
+  ]
  },
  {
   "t": "-2024-01-01",
@@ -423,7 +532,13 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Uruk noktalarında sahiplik Gutium (Gutiler) Hakimiyeti'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»",
   "kaynak": "Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»",
   "kaynak_turu": "yazili",
-  "kesinlik": "onyil"
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Uruk (Warka)",
+   "Umma (Tell Jokha)",
+   "Aşşur",
+   "Susa"
+  ]
  },
  {
   "t": "-2143-01-01",
@@ -434,7 +549,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Girsu (Lagaş devletinin merkezi) noktalarında sahiplik sahipsiz aralık'dan Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)'ya geçer. Kaynak geçiş bilgisi: Girsu/Lagaş'ın Akad'dan bağımsızlaşması: Puzurmama ilk bağımsız hükümdar; \"karışıklık dönemi\" (Şarkalişarri sonrası, MC 2181-2177) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It is possible to date the beginning of independence to the period of confusion»",
   "kaynak": "Girsu/Lagaş'ın Akad'dan bağımsızlaşması: Puzurmama ilk bağımsız hükümdar; \"karışıklık dönemi\" (Şarkalişarri sonrası, MC 2181-2177) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It is possible to date the beginning of independence to the period of confusion»",
   "kaynak_turu": "yazili",
-  "kesinlik": "onyil"
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Girsu (Tell Telloh)"
+  ]
  },
  {
   "t": "-2153-01-01",
@@ -469,7 +587,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Girsu (Lagaş devletinin merkezi) noktalarında sahiplik Lagas I. Hanedan (sehir devleti)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Urnanshe (Lagaş I) Presargonik dönemin başlangıcıdır; Urnanshe yıl 1 -> Lugalzagesi yıl 25 arası ~175 yıl (alt tahmin); Tablo 39: ca. 2475-2300±30 (MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 67, 84; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «The reign of Urnanshe marks the beginning of the Presargonic period»",
   "kaynak": "Urnanshe (Lagaş I) Presargonik dönemin başlangıcıdır; Urnanshe yıl 1 -> Lugalzagesi yıl 25 arası ~175 yıl (alt tahmin); Tablo 39: ca. 2475-2300±30 (MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 67, 84; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «The reign of Urnanshe marks the beginning of the Presargonic period»",
   "kaynak_turu": "yazili",
-  "kesinlik": "onyil"
+  "kesinlik": "onyil",
+  "odak_yer": [
+   "Girsu (Tell Telloh)"
+  ]
  },
  {
   "t": "0008-01-01",
@@ -480,7 +601,12 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Dunhuang, Xi'an (Chang'an), Zhangye (Ganzhou) noktalarında sahiplik Bati Han Hanedani'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Hanshu 1 (Gaodi ji) 5. yıl: 'o gün arabayla batıya, Chang'an'a başkent geldi'; 7. yıl: Yueyang'dan Chang'an'a başkent taşındı. Han'ın Guanzhong'a hükmü MÖ 206'dan eskidir (Xiang Yu'nun üçe bölmesi) — bu turda okunmadı.",
   "kaynak": "Hanshu 1 (Gaodi ji) 5. yıl: 'o gün arabayla batıya, Chang'an'a başkent geldi'; 7. yıl: Yueyang'dan Chang'an'a başkent taşındı. Han'ın Guanzhong'a hükmü MÖ 206'dan eskidir (Xiang Yu'nun üçe bölmesi) — bu turda okunmadı.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dunhuang",
+   "Xi'an (Chang'an)",
+   "Zhangye (Ganzhou)"
+  ]
  },
  {
   "t": "0023-01-01",
@@ -491,7 +617,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Luoyang, Xi'an (Chang'an) noktalarında sahiplik sahipsiz aralık'dan Gengshi Rejimi (Xuan Han / Lulin)'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 11 (Liu Xuan): Chang'an'da Mang'a karşı ayaklanma; 9. ay Gongbin Jiu Mang'ı Jiantai'de öldürdü; Gengshi Luoyang'a gitti, Shentu Jian/Li Song Chang'an'dan ulaklık yolladı, 2. yıl (24) 2. ay Gengshi Luoyang'dan batıya (Chang'an) yürüdü. Son uç: Hou Han shu 1a, Jianwu 1 9. ay Chimei Chang'an'a girdi, Gengshi Gaoling'e kaçtı.",
   "kaynak": "Hou Han shu 11 (Liu Xuan): Chang'an'da Mang'a karşı ayaklanma; 9. ay Gongbin Jiu Mang'ı Jiantai'de öldürdü; Gengshi Luoyang'a gitti, Shentu Jian/Li Song Chang'an'dan ulaklık yolladı, 2. yıl (24) 2. ay Gengshi Luoyang'dan batıya (Chang'an) yürüdü. Son uç: Hou Han shu 1a, Jianwu 1 9. ay Chimei Chang'an'a girdi, Gengshi Gaoling'e kaçtı.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Luoyang",
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "0025-01-01",
@@ -502,7 +632,12 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Chengjia (成家, Gongsun Shu)'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 13 (Gongsun Shu): Gengshi döneminde 'Shu Wang' olup Chengdu'yu başkent yaptı; Jianwu 1 (MS 25) 4. ay imparator ilan etti; Jianwu 12'de sonu (Wu Han seferi, Chengdu kuşatması).",
   "kaynak": "Hou Han shu 13 (Gongsun Shu): Gengshi döneminde 'Shu Wang' olup Chengdu'yu başkent yaptı; Jianwu 1 (MS 25) 4. ay imparator ilan etti; Jianwu 12'de sonu (Wu Han seferi, Chengdu kuşatması).",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)",
+   "Xi'an (Chang'an)",
+   "Luoyang"
+  ]
  },
  {
   "t": "0027-01-01",
@@ -513,7 +648,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Xi'an (Chang'an) noktalarında sahiplik Kızıl Kaşlılar Rejimi (Jianshi)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 1a, Jianwu 1: Chimei Chang'an'a girdi, saray yaktı; aynı ay Deng Yu Chang'an'a girip 11 imparatorun tabletlerini Gao Miao'ya götürdü (kısa süreli Han girişi). Chimei'nin Chang'an'dan çıkışı (künye t=0027) bu turda okunmadı.",
   "kaynak": "Hou Han shu 1a, Jianwu 1: Chimei Chang'an'a girdi, saray yaktı; aynı ay Deng Yu Chang'an'a girip 11 imparatorun tabletlerini Gao Miao'ya götürdü (kısa süreli Han girişi). Chimei'nin Chang'an'dan çıkışı (künye t=0027) bu turda okunmadı.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "0036-01-01",
@@ -524,7 +662,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Çengdu (Chengdu) noktalarında sahiplik Chengjia (成家, Gongsun Shu)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.",
   "kaynak": "Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
  },
  {
   "t": "0106-01-01",
@@ -535,7 +676,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Petra noktalarında sahiplik Nabatiye Krallığı'dan Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'ya geçer. Kaynak geçiş bilgisi: ayni kaynak",
   "kaynak": "ayni kaynak",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Petra"
+  ]
  },
  {
   "t": "0221-01-01",
@@ -546,7 +690,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Shu Han'ya geçer. Kaynak geçiş bilgisi: Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.",
   "kaynak": "Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
  },
  {
   "t": "0263-01-01",
@@ -557,7 +704,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Çengdu (Chengdu) noktalarında sahiplik Shu Han'dan Cao Wei'ya geçer. Kaynak geçiş bilgisi: Sanguozhi 28: Deng Ai Chengdu'ya girdi, Liu Shan teslim — Chengdu fiilen Wei komutasında (sonra Zhong Hui/Deng Ai olayı). Son uç (Batı Jin 265, 'Sima Yan') okunmadı.",
   "kaynak": "Sanguozhi 28: Deng Ai Chengdu'ya girdi, Liu Shan teslim — Chengdu fiilen Wei komutasında (sonra Zhong Hui/Deng Ai olayı). Son uç (Batı Jin 265, 'Sima Yan') okunmadı.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
  },
  {
   "t": "0304-01-01",
@@ -568,7 +718,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Cheng-Han (成漢)'ya geçer. Kaynak geçiş bilgisi: Jin shu 121 (Li Xiong): Luo Te kapıyı açıp Li Xiong'u içeri aldı, 'Chengdu'yu aldı'; Yongxing 1'de (304) 'Chengdu Wang' ilan etti. Son: Li Shi (Jiaming 2, 3. ay 17. gün) Huan Wen'e teslim mektubu.",
   "kaynak": "Jin shu 121 (Li Xiong): Luo Te kapıyı açıp Li Xiong'u içeri aldı, 'Chengdu'yu aldı'; Yongxing 1'de (304) 'Chengdu Wang' ilan etti. Son: Li Shi (Jiaming 2, 3. ay 17. gün) Huan Wen'e teslim mektubu.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
  },
  {
   "t": "0351-01-01",
@@ -579,7 +732,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Xi'an (Chang'an) noktalarında sahiplik sahipsiz aralık'dan Önceki Qin (前秦)'ya geçer. Kaynak geçiş bilgisi: Jin shu 112 (Fu Jian/Fu Jiàn zaiji): Yonghe 7'de Fu Jian kendini Tianwang ilan edip Chang'an'da saray kurdu (Du Hong'un Chang'an'ı işgali sona erer).",
   "kaynak": "Jin shu 112 (Fu Jian/Fu Jiàn zaiji): Yonghe 7'de Fu Jian kendini Tianwang ilan edip Chang'an'da saray kurdu (Du Hong'un Chang'an'ı işgali sona erer).",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "0356-01-01",
@@ -590,7 +746,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Köln (Colonia Claudia Ara Agrippinensium) noktalarında sahiplik sahipsiz aralık'dan Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'ya geçer. Kaynak geçiş bilgisi: Ammianus 16.3.2: Julian Köln'e girdi, Frank krallarıyla barış yaptı, şehri 'en müstahkem' olarak teslim aldı.",
   "kaynak": "Ammianus 16.3.2: Julian Köln'e girdi, Frank krallarıyla barış yaptı, şehri 'en müstahkem' olarak teslim aldı.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Köln"
+  ]
  },
  {
   "t": "0395-01-01",
@@ -601,7 +760,13 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Roma noktalarında sahiplik Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Marcellinus Comes, Chronicon s.a. 476 (Basilisco ve Armato konsüllüğü; Mommsen CM II, Latin Library marcellinus1.html): Odoacer Roma'yı aldı, Orestes'i öldürdü, Augustulus'u Lucullanum'a sürdü, Batı imparatorluğu Augustulus ile yok oldu.",
   "kaynak": "Marcellinus Comes, Chronicon s.a. 476 (Basilisco ve Armato konsüllüğü; Mommsen CM II, Latin Library marcellinus1.html): Odoacer Roma'yı aldı, Orestes'i öldürdü, Augustulus'u Lucullanum'a sürdü, Batı imparatorluğu Augustulus ile yok oldu.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Roma",
+   "İskenderiye",
+   "Köln",
+   "Petra"
+  ]
  },
  {
   "t": "0397-01-01",
@@ -612,7 +777,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Dunhuang, Zhangye (Ganzhou) noktalarında sahiplik sahipsiz aralık'dan Kuzey Liang (北涼)'ya geçer. Kaynak geçiş bilgisi: Jin shu 129 (Juqu Mengxun): Duan Ye Jiankang'da Liang Hakimi (Shenxi 1 = 397) olunca Mengxun'u Zhangye valisi yaptı; Longan 5'te (401) Mengxun Zhangye Gong ilan edildi; Yixi 8'de (412) Hexi Wang; Wei shu 4a Taiyan 5 (439) Taiwu Guzang'ı aldı, Muqian teslim.",
   "kaynak": "Jin shu 129 (Juqu Mengxun): Duan Ye Jiankang'da Liang Hakimi (Shenxi 1 = 397) olunca Mengxun'u Zhangye valisi yaptı; Longan 5'te (401) Mengxun Zhangye Gong ilan edildi; Yixi 8'de (412) Hexi Wang; Wei shu 4a Taiyan 5 (439) Taiwu Guzang'ı aldı, Muqian teslim.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dunhuang",
+   "Zhangye (Ganzhou)"
+  ]
  },
  {
   "t": "0400-01-01",
@@ -623,7 +792,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Dunhuang noktalarında sahiplik Kuzey Liang (北涼)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Jin shu 87 (Liang Wuzhao wang Li Xuansheng/Hao zhuan): Longan 4'te Jinchang tarafı altı komutanlığı çağırıp Li Hao'yu seçti; 'Li Hao Longan 4'te kuruldu, Song Shaodi Jingping 1'e kadar' (metin sonu 423); Wei shu 99 aynı. Hou Han/ZZTJ bitişi 421 (Mengxun Jiuquan'ı alır) — metinde 'Jiuquan'ı aldı' (Jin shu 129) ama yıl okunmadı.",
   "kaynak": "Jin shu 87 (Liang Wuzhao wang Li Xuansheng/Hao zhuan): Longan 4'te Jinchang tarafı altı komutanlığı çağırıp Li Hao'yu seçti; 'Li Hao Longan 4'te kuruldu, Song Shaodi Jingping 1'e kadar' (metin sonu 423); Wei shu 99 aynı. Hou Han/ZZTJ bitişi 421 (Mengxun Jiuquan'ı alır) — metinde 'Jiuquan'ı aldı' (Jin shu 129) ama yıl okunmadı.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dunhuang"
+  ]
  },
  {
   "t": "-0085-01-01",
@@ -634,7 +806,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Atina noktalarının s: dizisinde bu uç, sahip künyenin (Roma Cumhuriyeti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye roma-cumhuriyeti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Atina"
+  ]
  },
  {
   "t": "-0110-01-01",
@@ -645,7 +820,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Dunhuang noktalarının s: dizisinde bu uç, sahip künyenin (Bati Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye bati-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dunhuang"
+  ]
  },
  {
   "t": "-0120-01-01",
@@ -656,7 +834,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Zhangye (Ganzhou) noktalarının s: dizisinde bu uç, sahip künyenin (Bati Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye bati-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Zhangye (Ganzhou)"
+  ]
  },
  {
   "t": "-0131-01-01",
@@ -667,7 +848,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Urfa (Edessa / Orhai / Vodina) noktalarının s: dizisinde bu uç, sahip künyenin (Osrhoene (Edessa) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye osrhoene — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Urfa"
+  ]
  },
  {
   "t": "-0145-01-01",
@@ -678,7 +862,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Korint",
+   "Karthago"
+  ]
  },
  {
   "t": "-0167-01-01",
@@ -689,7 +877,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Petra noktalarının s: dizisinde bu uç, sahip künyenin (Nabatiye Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye nabatiye — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Petra"
+  ]
  },
  {
   "t": "-0183-01-01",
@@ -700,7 +891,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Patna (Azîmâbâd) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Patna (Azîmâbâd)"
+  ]
  },
  {
   "t": "-0255-01-01",
@@ -711,7 +905,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Luoyang noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Luoyang"
+  ]
  },
  {
   "t": "-0279-01-01",
@@ -722,7 +919,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Pasargad noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Pasargad"
+  ]
  },
  {
   "t": "-0281-01-01",
@@ -733,7 +933,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Bergama, Pergamon noktalarının s: dizisinde bu uç, sahip künyenin (Bergama (Attalos) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye bergama — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Bergama"
+  ]
  },
  {
   "t": "-0302-01-01",
@@ -744,7 +947,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Dura-Europos noktalarının s: dizisinde bu uç, sahip künyenin (Selevkos Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye selevkos — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dura-Europos"
+  ]
  },
  {
   "t": "-0315-01-01",
@@ -755,7 +961,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
  },
  {
   "t": "-0320-01-01",
@@ -766,7 +975,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Patna (Azîmâbâd) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Patna (Azîmâbâd)"
+  ]
  },
  {
   "t": "-0322-06-10",
@@ -777,7 +989,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "İskenderiye noktalarının s: dizisinde bu uç, sahip künyenin (Ptolemai (Lagid) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ptolemai — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "İskenderiye"
+  ]
  },
  {
   "t": "-0337-01-01",
@@ -788,7 +1003,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Capua noktalarının s: dizisinde bu uç, sahip künyenin (Roma Cumhuriyeti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye roma-cumhuriyeti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Capua"
+  ]
  },
  {
   "t": "-0349-01-01",
@@ -799,7 +1017,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "-0401-01-01",
@@ -810,7 +1031,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Memphis (Men-nefer / Mit Rahina) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Memphis (Chickasaw Bluffs)"
+  ]
  },
  {
   "t": "-0517-01-01",
@@ -821,7 +1045,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Persepolis noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis (Pers) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ahamenis — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Persepolis"
+  ]
  },
  {
   "t": "-0524-01-01",
@@ -832,7 +1059,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Memphis (Men-nefer / Mit Rahina) noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ahamenis-misir — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Memphis (Chickasaw Bluffs)"
+  ]
  },
  {
   "t": "-0538-01-01",
@@ -855,7 +1085,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Pasargad noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis (Pers) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ahamenis — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Pasargad"
+  ]
  },
  {
   "t": "-0574-01-01",
@@ -866,7 +1099,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Veii noktalarının s: dizisinde bu uç, sahip künyenin (Etrüsk Şehir Devletleri (Oniki Şehir Birliği)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye etrusk-sehir-devletleri — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Veii"
+  ]
  },
  {
   "t": "-0585-01-01",
@@ -877,7 +1113,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Kudüs noktalarının s: dizisinde bu uç, sahip künyenin (Yahuda Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye yahuda — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Kudüs"
+  ]
  },
  {
   "t": "-0589-01-01",
@@ -888,7 +1127,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Eski Van (Tuşpa), Tuşpa (Van Kalesi) noktalarının s: dizisinde bu uç, sahip künyenin (Urartu Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye urartu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Eski Van (Tuşpa)"
+  ]
  },
  {
   "t": "-0599-01-01",
@@ -899,7 +1141,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Marsilya, Massalia noktalarının s: dizisinde bu uç, sahip künyenin (Massalia (Marsilya)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye massalia — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Marsilya"
+  ]
  },
  {
   "t": "-0608-01-01",
@@ -922,7 +1167,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil noktalarının s: dizisinde bu uç, sahip künyenin (Yeni Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye yeni-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
  },
  {
   "t": "-0699-01-01",
@@ -933,7 +1181,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Hemedan noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Hemedan"
+  ]
  },
  {
   "t": "-0716-01-01",
@@ -944,7 +1195,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Cerablus, Karkamış noktalarının s: dizisinde bu uç, sahip künyenin (Yeni Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye yeni-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Cerablus"
+  ]
  },
  {
   "t": "-0733-01-01",
@@ -955,7 +1209,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Sirakuza, Syrakusai noktalarının s: dizisinde bu uç, sahip künyenin (Sirakuza (Syrakousai)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye sirakuza — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Sirakuza"
+  ]
  },
  {
   "t": "-0752-01-01",
@@ -966,7 +1223,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Roma noktalarının s: dizisinde bu uç, sahip künyenin (Roma Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye roma-kralligi — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Roma"
+  ]
  },
  {
   "t": "-0799-01-01",
@@ -977,7 +1237,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Korint"
+  ]
  },
  {
   "t": "-0813-01-01",
@@ -988,7 +1251,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Karthago noktalarının s: dizisinde bu uç, sahip künyenin (Kartaca (Pön) Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye kartaca — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Karthago"
+  ]
  },
  {
   "t": "-0859-01-01",
@@ -999,7 +1265,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Eski Van (Tuşpa), Tuşpa (Van Kalesi) noktalarının s: dizisinde bu uç, sahip künyenin (Urartu Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye urartu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Eski Van (Tuşpa)"
+  ]
  },
  {
   "t": "-0929-01-01",
@@ -1010,7 +1279,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Kudüs noktalarının s: dizisinde bu uç, sahip künyenin (Yahuda Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye yahuda — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Kudüs"
+  ]
  },
  {
   "t": "-0939-01-01",
@@ -1033,7 +1305,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Nippur noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Nippur (Nuffar)",
+   "Poverty Point"
+  ]
  },
  {
   "t": "-1189-01-01",
@@ -1044,7 +1320,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Ugarit (Ras Şamra) noktalarının s: dizisinde bu uç, sahip künyenin (Ugarit Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ugarit — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Ugarit"
+  ]
  },
  {
   "t": "-1196-01-01",
@@ -1055,7 +1334,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Anyang / Yinxu (殷墟), Yinxu (Anyang) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Anyang",
+   "Yinxu (Anyang)"
+  ]
  },
  {
   "t": "-1253-01-01",
@@ -1066,7 +1349,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Anyang / Yinxu (殷墟), Yinxu (Anyang) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Anyang",
+   "Yinxu (Anyang)"
+  ]
  },
  {
   "t": "-1349-01-01",
@@ -1077,7 +1364,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Ugarit (Ras Şamra) noktalarının s: dizisinde bu uç, sahip künyenin (Ugarit Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ugarit — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Ugarit"
+  ]
  },
  {
   "t": "-1739-01-01",
@@ -1088,7 +1378,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Uruk noktalarının s: dizisinde bu uç, sahip künyenin (Eski Babil (Amorit) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye babil-eski — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Uruk (Warka)"
+  ]
  },
  {
   "t": "-1775-01-01",
@@ -1099,7 +1392,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Aşşur noktalarının s: dizisinde bu uç, sahip künyenin (Ust Mezopotamya Krallığı (Samsi-Adad I)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye samsi-adad — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Aşşur"
+  ]
  },
  {
   "t": "-1893-01-01",
@@ -1110,7 +1406,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil noktalarının s: dizisinde bu uç, sahip künyenin (Eski Babil (Amorit) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye babil-eski — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil"
+  ]
  },
  {
   "t": "-2018-01-01",
@@ -1121,7 +1420,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Nippur noktalarının s: dizisinde bu uç, sahip künyenin (Ur III (Ucuncu Ur Hanedani)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ur-3 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Nippur (Nuffar)"
+  ]
  },
  {
   "t": "-2021-01-01",
@@ -1132,7 +1434,11 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Girsu (Lagaş devletinin merkezi), Umma noktalarının s: dizisinde bu uç, sahip künyenin (Ur III (Ucuncu Ur Hanedani)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ur-3 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Girsu (Tell Telloh)",
+   "Umma (Tell Jokha)"
+  ]
  },
  {
   "t": "-2153-01-01",
@@ -1155,7 +1461,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Mari noktalarının s: dizisinde bu uç, sahip künyenin (Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye mari-erken — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Mari"
+  ]
  },
  {
   "t": "-2299-01-01",
@@ -1178,7 +1487,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Ebla noktalarının s: dizisinde bu uç, sahip künyenin (Ebla Birinci Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ebla-1 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Ebla"
+  ]
  },
  {
   "t": "-2323-01-01",
@@ -1201,7 +1513,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Ebla noktalarının s: dizisinde bu uç, sahip künyenin (Ebla Birinci Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye ebla-1 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Ebla"
+  ]
  },
  {
   "t": "-2449-01-01",
@@ -1212,7 +1527,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Kerma, Kerma (Kerma / Doukki Gel) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Kerma"
+  ]
  },
  {
   "t": "-2474-01-01",
@@ -1223,7 +1541,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Girsu (Lagaş devletinin merkezi) noktalarının s: dizisinde bu uç, sahip künyenin (Lagas I. Hanedan (sehir devleti)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye sumer-lagas-1 — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Girsu (Tell Telloh)"
+  ]
  },
  {
   "t": "-2549-01-01",
@@ -1234,7 +1555,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Mari noktalarının s: dizisinde bu uç, sahip künyenin (Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye mari-erken — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Mari"
+  ]
  },
  {
   "t": "0025-01-01",
@@ -1245,7 +1569,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Kızıl Kaşlılar Rejimi (Jianshi)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye chimei-jianshi — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "0220-01-01",
@@ -1256,7 +1583,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Luoyang noktalarının s: dizisinde bu uç, sahip künyenin (Dogu Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye dogu-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Luoyang"
+  ]
  },
  {
   "t": "0224-04-28",
@@ -1267,7 +1597,15 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Babil, Dura-Europos, Ekbatana, Hemedan, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk noktalarının s: dizisinde bu uç, sahip künyenin (Part (Arsakid) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye part — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Babil",
+   "Dura-Europos",
+   "Hemedan",
+   "Ktesiphon",
+   "Seleukeia",
+   "Uruk (Warka)"
+  ]
  },
  {
   "t": "0242-01-01",
@@ -1278,7 +1616,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Urfa (Edessa / Orhai / Vodina) noktalarının s: dizisinde bu uç, sahip künyenin (Osrhoene (Edessa) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye osrhoene — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Urfa"
+  ]
  },
  {
   "t": "0265-01-01",
@@ -1289,7 +1630,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Cao Wei) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye cao-wei — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
  },
  {
   "t": "0347-01-01",
@@ -1300,7 +1644,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Cheng-Han (成漢)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye cheng-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Çengdu (Chengdu)"
+  ]
  },
  {
   "t": "0386-01-01",
@@ -1311,7 +1658,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Önceki Qin (前秦)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye onceki-qin — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "0423-01-01",
@@ -1322,7 +1672,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Dunhuang noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Dunhuang"
+  ]
  },
  {
   "t": "0439-01-01",
@@ -1333,7 +1686,10 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Zhangye (Ganzhou) noktalarının s: dizisinde bu uç, sahip künyenin (Kuzey Liang (北涼)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye kuzey-liang — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Zhangye (Ganzhou)"
+  ]
  },
  {
   "t": "0476-01-01",
@@ -1344,6 +1700,9 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "d": "Roma noktalarının s: dizisinde bu uç, sahip künyenin (Batı Roma İmparatorluğu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye bati-roma — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil"
+  "kesinlik": "yil",
+  "odak_yer": [
+   "Roma"
+  ]
  }
 ];

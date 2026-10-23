@@ -1,7 +1,10 @@
 // ARKEOLOJİ KATMANI — Iran platosu, Elam, Orta Asya, Kafkasya (MO 8000 - MO 300) (d2-iran-orta-asya) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d2-iran-orta-asya.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
- { "odak_yer":["Tepe Yahya"], 
+ {
+  "odak_yer": [
+   "Tepe Yahya"
+  ],
   "t": "-0199-01-01",
   "k": "kayip",
   "b": "Tepe Yahya: Dönem I (son iskân evresi) sona erer",
@@ -41,7 +44,11 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
    "arkeoloji"
   ],
   "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 539 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Neo-Elamite Period (1100-539 B.C.E.)». Elam'in 'kurulus' tarihi tek tarih degil: ilk anilis c. 2650 (Enmebaragesi); Awan hanedani c. 2400. Bitis 539 Iranica'nin Yeni Elam donem sinirini gosterir, devletin ortadan kalkis gunu degildir (Yeni Elam II 770-646; Asur sonrasi Susa Ahamenis'e gecer). Sumer/Akad-Elam: Akad'in Susa fethi c. 2300 (Matthews vd. 2025: 'Akkadian conquest of Susa c . 2300 BC'); Sargon c. 2334-2279 ile Awan hanedani kismen caydas (Vallat). Elamlilar Susiana halkiyla ittifakla Ur imparatorlugunu MO 2004'te sona erdirdi (Vallat: 'brought an end to the empire of Ur in 2004 B.C.E.'). Kronoloji: Vallat Orta kronoloji ile uyumlu goruluyor ama acik yazmiyor."
+  "ic_not_d": "TEK DEĞER MÖ 539 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Neo-Elamite Period (1100-539 B.C.E.)». Elam'in 'kurulus' tarihi tek tarih degil: ilk anilis c. 2650 (Enmebaragesi); Awan hanedani c. 2400. Bitis 539 Iranica'nin Yeni Elam donem sinirini gosterir, devletin ortadan kalkis gunu degildir (Yeni Elam II 770-646; Asur sonrasi Susa Ahamenis'e gecer). Sumer/Akad-Elam: Akad'in Susa fethi c. 2300 (Matthews vd. 2025: 'Akkadian conquest of Susa c . 2300 BC'); Sargon c. 2334-2279 ile Awan hanedani kismen caydas (Vallat). Elamlilar Susiana halkiyla ittifakla Ur imparatorlugunu MO 2004'te sona erdirdi (Vallat: 'brought an end to the empire of Ur in 2004 B.C.E.'). Kronoloji: Vallat Orta kronoloji ile uyumlu goruluyor ama acik yazmiyor.",
+  "odak_yer": [
+   "Elam",
+   "Susa"
+  ]
  },
  {
   "t": "-0558-01-01",
@@ -65,10 +72,14 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "kaynak": "Medvedskaya, I.N. & Dandamayev, M.A., 'Media', Encyclopaedia Iranica (yay. 2006; rev. 2012) - Herodotos (1.96-107) geleneksel kronolojisi · https://www.iranicaonline.org/articles/media",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «Deioces 53 years ca. 700-647 Phraortes 22 years ca. 647-625 Cyaxares 40 years ca. 625-585 Astyages 35 years ca. 585-550». CELISKI (kurulus) - ikisi de iki kaynaktan: (1) Herodotos gelenegi (Iranica'da hesaplanmis): Deioces c. 700-647, Phraortes 647-625, Kyaksares 625-585, Astyages 585-550. (2) Grantovskiy (1998, s. 139, 174-76; Rusca; Iranica aracilik ediyor): Deioces r. ca. 672/671-640'lar, Phraortes ca. 640-620, Kyaksares 620-584, Astyages 584-550; Asur-Med isyani c. 672. Ayrica 728'e cikaran 'Diakonoff' hesabi (Kastariti=Phraortes) Labat'in Herodotos el yazmasi kanitiyla reddedilmistir (Iranica). Asur kaynaklarinda Daiaukku 715'te Sargon II tarafindan surgun edilir (Diakonoff 1985 atfiyla). Med 'imparatorlugu' tartismasi: Herzfeld guclu imparatorluk der; Sancisi-Weerdenburg 'no real evidence about the very existence of the Median empire' ve 'unstable state formation' der (Iranica atfiyla). Medlerin kendi yazili kaynagi yok (Matthews vd. 2025). Diakonoff'un 'Istoriya Midii' (1956) kitabi dogrudan acilamadi, sadece Iranica uzerinden. Ekbatana (Hamgmatana) onceki dalgada var (tekrarlanmadi)."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «Deioces 53 years ca. 700-647 Phraortes 22 years ca. 647-625 Cyaxares 40 years ca. 625-585 Astyages 35 years ca. 585-550». CELISKI (kurulus) - ikisi de iki kaynaktan: (1) Herodotos gelenegi (Iranica'da hesaplanmis): Deioces c. 700-647, Phraortes 647-625, Kyaksares 625-585, Astyages 585-550. (2) Grantovskiy (1998, s. 139, 174-76; Rusca; Iranica aracilik ediyor): Deioces r. ca. 672/671-640'lar, Phraortes ca. 640-620, Kyaksares 620-584, Astyages 584-550; Asur-Med isyani c. 672. Ayrica 728'e cikaran 'Diakonoff' hesabi (Kastariti=Phraortes) Labat'in Herodotos el yazmasi kanitiyla reddedilmistir (Iranica). Asur kaynaklarinda Daiaukku 715'te Sargon II tarafindan surgun edilir (Diakonoff 1985 atfiyla). Med 'imparatorlugu' tartismasi: Herzfeld guclu imparatorluk der; Sancisi-Weerdenburg 'no real evidence about the very existence of the Median empire' ve 'unstable state formation' der (Iranica atfiyla). Medlerin kendi yazili kaynagi yok (Matthews vd. 2025). Diakonoff'un 'Istoriya Midii' (1956) kitabi dogrudan acilamadi, sadece Iranica uzerinden. Ekbatana (Hamgmatana) onceki dalgada var (tekrarlanmadi).",
+  "odak_yer": [
+   "Media"
+  ]
  },
  {
-  "t": "-2169-01-01", "yer_id":"Dâmgan",
+  "t": "-2169-01-01",
+  "yer_id": "Dâmgan",
   "k": "kayip",
   "b": "Tepe Hissar: IIIC evresi sona erer",
   "gun": "MÖ 2170 (ALT SINIR; donem-toplami MÖ 2170–1900)",
@@ -98,9 +109,15 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "kaynak": "Vallat 1998, Iranica 'Elam i' (Awan hanedani, Eski Elam donemi) · https://www.iranicaonline.org/articles/elam-i",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Old Elamite period (ca. 2400-1600 B.C.E.)... The Awan dynasty (ca. 2400-2100 B.C.E.)». Elam'in 'kurulus' tarihi tek tarih degil: ilk anilis c. 2650 (Enmebaragesi); Awan hanedani c. 2400. Bitis 539 Iranica'nin Yeni Elam donem sinirini gosterir, devletin ortadan kalkis gunu degildir (Yeni Elam II 770-646; Asur sonrasi Susa Ahamenis'e gecer). Sumer/Akad-Elam: Akad'in Susa fethi c. 2300 (Matthews vd. 2025: 'Akkadian conquest of Susa c . 2300 BC'); Sargon c. 2334-2279 ile Awan hanedani kismen caydas (Vallat). Elamlilar Susiana halkiyla ittifakla Ur imparatorlugunu MO 2004'te sona erdirdi (Vallat: 'brought an end to the empire of Ur in 2004 B.C.E.'). Kronoloji: Vallat Orta kronoloji ile uyumlu goruluyor ama acik yazmiyor."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Old Elamite period (ca. 2400-1600 B.C.E.)... The Awan dynasty (ca. 2400-2100 B.C.E.)». Elam'in 'kurulus' tarihi tek tarih degil: ilk anilis c. 2650 (Enmebaragesi); Awan hanedani c. 2400. Bitis 539 Iranica'nin Yeni Elam donem sinirini gosterir, devletin ortadan kalkis gunu degildir (Yeni Elam II 770-646; Asur sonrasi Susa Ahamenis'e gecer). Sumer/Akad-Elam: Akad'in Susa fethi c. 2300 (Matthews vd. 2025: 'Akkadian conquest of Susa c . 2300 BC'); Sargon c. 2334-2279 ile Awan hanedani kismen caydas (Vallat). Elamlilar Susiana halkiyla ittifakla Ur imparatorlugunu MO 2004'te sona erdirdi (Vallat: 'brought an end to the empire of Ur in 2004 B.C.E.'). Kronoloji: Vallat Orta kronoloji ile uyumlu goruluyor ama acik yazmiyor.",
+  "odak_yer": [
+   "Elam"
+  ]
  },
- { "odak_yer":["Susa"], 
+ {
+  "odak_yer": [
+   "Susa"
+  ],
   "t": "-3199-01-01",
   "k": "gelisme",
   "b": "Proto-Elam yazı sistemi (Susa): Proto-Elam yazısı ortaya çıkar",
@@ -116,7 +133,8 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "ic_not_d": "TEK DEĞER MÖ 3200 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «From about 3200 B.C.E. the influence of the Persian plateau can be observed in the presence of numerical and then proto-Elamite tablets». CELISKI (bitis): Vallat (Iranica, 1998): yazi 'about 2700 B.C.E.'a kadar kullanimda ('remained in use until about 2700 B.C.E.'); Matthews vd. (2025): tabletler c. 3200-2900. Yeni ve cok-bolgeli sentez oldugu icin 2900 secildi; ikisi de belirsiz 'c./about'. Ortasi alinmadi. Bu iki kaynak ayrintili cift teyit degil (bitis ayrisiyor); baslangic 3200 iki kaynakta uyumlu (cift teyit, baslangic icin)."
  },
  {
-  "t": "-3921-01-01", "yer_id":"Dâmgan",
+  "t": "-3921-01-01",
+  "yer_id": "Dâmgan",
   "k": "gelisme",
   "b": "Tepe Hissar: IC/IIA evresi (en eski 14C'li evre) başlar",
   "gun": "MÖ 3980–3865 arası (orta nokta MÖ 3922)",
@@ -136,7 +154,10 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3980–3865 (kaynağın verdiği uçlar); orta nokta MÖ 3922 = astronomik -3921. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «IC/IIA: about 3980-3865 cal. BCE, IIB: c. 3365-3030 cal BCE, IIIB: ca. 2400-2170 cal. BCE; and IIIC 2170-1900 cal. BCE». 'kur' = en eski 14C ile tarihli evre (IC/IIA), yerlesimin gercek baslangici degil; Dyson: Hissar IA 'sometime after 5000 BCE' (tahmin, Cheshmi Ali-Sialk II boyali seramik ufkuna gore), IB ~4000 ve oncesi. 'bit' = IIIC'nin tarihli ucu; yerlesimin terki sonrasi dilimleri vardir. Bu uc sayilar donem toplamidir, tek olay degildir. Hissar'da Proto-Elam yazili tablet yok (Matthews vd. 2025)."
  },
- { "odak_yer":["Susa"], 
+ {
+  "odak_yer": [
+   "Susa"
+  ],
   "t": "-3999-01-01",
   "k": "kurulus",
   "b": "Susa: kent kurulur (yaklaşık, Iranica)",
@@ -151,7 +172,10 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «a city that, from its foundation ca. 4000 B.C.E., alternated between subjection to Mesopotamian and Elamite power». Susa I-IV tabaka sinirlari icin dogrudan sayi bulunamadi (Iranica 'Susa i. Prehistoric periods' slug'i 404). Matthews vd. 2025'e gore Gec Susa II = c. MO 3500-3100 (Acropole I 19-18 katmanlari), Proto-Elam tabletleri c. 3200-2900; Susa IIIB-C ~MO 2800 sonrasi Sumer-Akad etkisi; Susa IVB Akad (Naram-Sin) donemi; Susa VB Ur III. Bu alt donem sayilari Matthews vd. 2025 icindedir (url altta)."
  },
- { "odak_yer":["Anau"], 
+ {
+  "odak_yer": [
+   "Anau"
+  ],
   "t": "-4299-01-01",
   "k": "kurulus",
   "b": "Anau IA ve Meana Ufku (Kopet Dağ, İlk Kalkolitik): Anau Ia evresi (en alt tabakalar)",
@@ -172,7 +196,10 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 4300–3820) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Anau Ia is dated 4300-3820 cal BCE, as represented by the lowermost layers at Anau North.». Iki sayi kendi icinde celiskili: kitabin ayni bolumunde Anau Ia icin 'ca. 4500-4000' (Hiebert 2002), '4500-3800' (Hiebert & Kurbansakhatov 2003 Tab. 5.1), '4400-3800' (baska bolum, Bayes) ve '4300-3820' (Chap.3 modeli) var; en yeni Bayes modeli secildi. Meana Ufku: monjukli.net (Heit modeli) 4650-4340 cal BCE, Neolitik ile arasi hiatus 5600-4650 (guven duzeyi sitede belirtilmemis); Monjukli Depe Neolitik son 5731-5616 (95%, 'End MD-Neolithic'). Namazga I-VI / Altyn-Depe icin kalibre kaynak ACILAMADI (bulunamadi)."
  },
- { "odak_yer":["Tepe Yahya"], 
+ {
+  "odak_yer": [
+   "Tepe Yahya"
+  ],
   "t": "-5499-01-01",
   "k": "kurulus",
   "b": "Tepe Yahya: Dönem VII başlar (Iranica; geçici tablo)",
@@ -215,7 +242,8 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "ic_not_d": "donem-toplami aralığı (MÖ 5920–5720) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «places the first levels of this tell in an early phase of the development of the culture, between 5920 and 5720 Cal BC». Guven duzeyi (95/68) Hamon vd. ozetinde belirtilmiyor; 'belirsiz'. Olay tipi: ilk katmanin (calibre) oluş zamanı belirsizliği."
  },
  {
-  "t": "-5926-01-01", "yer_id":"Jeitun",
+  "t": "-5926-01-01",
+  "yer_id": "Jeitun",
   "k": "kayip",
   "b": "Jeitun: Jeitun yerleşimi sona erer (Bayes)",
   "gun": "MÖ 6016–5839 arası (orta nokta MÖ 5927)",
@@ -236,7 +264,8 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 6016–5839 (kaynağın verdiği uçlar); orta nokta MÖ 5927 = astronomik -5926. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «The settlement ended 6016-5839 cal BCE (95% probability; End Jeitun).». TURLER: Heit bas/bit = OxCal modelinin 'Start/End' sinir tahminleri (oluş-zamanı belirsizliği), donem toplami degil. Diger yayinlar: Harris, Gosden & Charles 1996 PPS 62:423-442: 'first occupied at c. 6000 cal. BC and may only have remained in use for a few centuries' (tek deger ~6000); Harris vd. 2010 (Heit'in kitabinda alinti): erken Jeitun 'ca. 6400-5700 cal BCE' (Tab. 9.1); ayni kitabin baska yerinde 'ca. 6300-5600' ve '6200-5500' (Harris 2010). Kaynaklar arasi ~200-400 yil yayilim vardir; Bayesci model en dar ve en yeni oldugu icin secildi, ortasi alinmadi. Rusca birincil (Masson, Sarianidi 1972) kaynaklar erisilemedi: Jeitun'a 14C verilmeden cagdas Rus kronolojisi goreli idi (arama ozeti). Antiquity 67 (1993) Harris vd. tam metni paywall."
  },
  {
-  "t": "-6098-01-01", "yer_id":"Jeitun",
+  "t": "-6098-01-01",
+  "yer_id": "Jeitun",
   "k": "kurulus",
   "b": "Jeitun: Jeitun yerleşimi başlar (Bayes)",
   "gun": "MÖ 6214–5985 arası (orta nokta MÖ 6099)",

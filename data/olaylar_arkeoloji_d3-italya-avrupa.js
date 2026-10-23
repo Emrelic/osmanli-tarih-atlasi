@@ -11,7 +11,10 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
   "kaynak": "Polybios 3.22.1-2 (Loeb 1922): ilk Roma-Kartaca antlaşması 'ilk konsüller' L. Iunius Brutus ve M. Horatius'un konsüllüğünde, 'Xerxes'in Yunanistan'a geçişinden 28 yıl önce'. MÖ sayısı = 480+28 HESAPTIR (480 değeri bu kaynakta yok). Dionysios 1.74.4: Galya istilasından (98. Olimpiyat 1. yıl) 120 yıl önce ilk konsüller Brutus ve Collatinus; krallık toplam 244 yıl (1.75.3) => 752-244=508 HESAP · https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3*.html",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «dates from the consulship of Lucius Junius Brutus and Marcus Horatius, the first Consuls after the expulsion of the kings». Yaygın '509' (Varro fasti) bu oturumda KAYNAKTAN okunmadı; 508 hesaptır, bir yıllık konvansiyon farkı olabilir (Olimpiyat başı/sonu). Cornell 1995 (The Beginnings of Rome) kütüphane_gerekli."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «dates from the consulship of Lucius Junius Brutus and Marcus Horatius, the first Consuls after the expulsion of the kings». Yaygın '509' (Varro fasti) bu oturumda KAYNAKTAN okunmadı; 508 hesaptır, bir yıllık konvansiyon farkı olabilir (Olimpiyat başı/sonu). Cornell 1995 (The Beginnings of Rome) kütüphane_gerekli.",
+  "odak_yer": [
+   "Roma"
+  ]
  },
  {
   "t": "-0669-01-01",

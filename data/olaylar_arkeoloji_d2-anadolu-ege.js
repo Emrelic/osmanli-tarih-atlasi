@@ -11,9 +11,15 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
   "kaynak": "Cahill N. 2010, The Persian Sack of Sardis, in The Lydians and their World (Sardis Expedition sayfası), bölüm 'The Date of the Capture' · https://sardisexpedition.org/en/essays/latw-cahill-persian-sack-sardis",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the battle should be dated to 547 BC». ÇELİŞKİ: Nabonid Vakayinamesi (kırık 'Ly[dia]' okuması) 547'yi destekler; Eusebius'a bağlı klasik tarih 546/5. Script&Class'ta bir makale ('Re-dating the Fall of Sardis', scriptaclassica.org) 544/3–540/39 önerir (yalnız arama özeti okundu, kayda alma). Esas: Cahill 547. Radyokarbon yok. TDV'de 'Lidya'/'Sard' madde başlığı bulunamadı (arama 0 başlık)."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the battle should be dated to 547 BC». ÇELİŞKİ: Nabonid Vakayinamesi (kırık 'Ly[dia]' okuması) 547'yi destekler; Eusebius'a bağlı klasik tarih 546/5. Script&Class'ta bir makale ('Re-dating the Fall of Sardis', scriptaclassica.org) 544/3–540/39 önerir (yalnız arama özeti okundu, kayda alma). Esas: Cahill 547. Radyokarbon yok. TDV'de 'Lidya'/'Sard' madde başlığı bulunamadı (arama 0 başlık).",
+  "odak_yer": [
+   "Sart"
+  ]
  },
- { "odak_yer":["Gordion"], 
+ {
+  "odak_yer": [
+   "Gordion"
+  ],
   "t": "-0739-01-01",
   "k": "kurulus",
   "b": "Gordion — Tümülüs MM (Midas Höyüğü): Midas Tümülüsü (MM): mezar odası ağaçlarının kesim yılı (dendrokronoloji)",
@@ -28,7 +34,11 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 740 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «Our best estimate for MMTRD 1764 is 740 BC +4/-7 years». Eski değer 718 MÖ (1990'lar), 2001'de ~22 yıl yukarı çekildi (740 +4/−7); Penn Müzesi Gordion sayfası/Manning 2003 notu 740 +7/−3, 743–741 yüksek olasılık diyor (yalnız arama özetinden görüldü, sayfa açılamadı — Penn sayfası birincil değil, kayda girmeden Rose ed. 2011 'The New Chronology of Iron Age Gordion' Kuniholm-Newton-Liebhart bölümü, s.79–122 okunmalı). Pearson vd. 2020 PNAS 117:8410 (doi:10.1073/pnas.1917445117) ve Reply 117:18159 Gordion ardıç dizisinin SON halkasını 745 MÖ'ye koyar — bu tüm dizinin bitiş halkasıdır, Tümülüs MM kesim yılı değildir; iki sayı karıştırılmamalı. Manning 2020 itirazı var. Kealhofer-Grave-Voigt 2019 Radiocarbon 61(2):495, doi:10.1017/RDC.2018.152 özeti: Frig başkentinin 9. yy MÖ başında doğuşu, 9. yy sonunda büyük yangın (yalnız yüzyıl hassasiyeti; tam metin kapalı)."
  },
- { "odak_yer":["Santorini","Akrotiri"], 
+ {
+  "odak_yer": [
+   "Santorini",
+   "Akrotiri"
+  ],
   "t": "-1612-01-01",
   "k": "kayip",
   "b": "Akrotiri (Thera/Santorini) — Minos patlaması: Thera (Santorini) volkanik patlaması",
@@ -49,7 +59,11 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1627–1600 (kaynağın verdiği uçlar); orta nokta MÖ 1613 = astronomik -1612. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «constrain the eruption date to the range 1627‐1600 B.C. with 95.4% probability». İKİ KAYNAK ÇELİŞİR: Friedrich 2006 = 1627–1600 (95.4, IntCal04 + 'her halka yıllık' varsayımı); Pearson 2018 aynı zeytin dalını yeni yıllık 14C eğrisiyle 1608–1511 (Model 5) / 1614–1538 (Model 7 sıralı) verir; yazar bunu 16. yy MÖ'ye çeker ve plato nedeniyle kesin tarih verilemeyeceğini söyler. Tek seçilmedi; gerekçe: Pearson sonrası eğri güncel ama plato belirsizliği kaldırmaz. Pearson'da bristlecone işaret yılları 1597, 1560, 1546, 1544 MÖ. Mısır Yeni Krallık bağlantılı arkeolojik kronoloji (~1500) ile hâlâ uyuşmazlık tartışılıyor (Cherubini vd. 2014 Antiquity 88:1164 olive-branch'i güvenilmez bulur — yalnız özet okundu)."
  },
- { "odak_yer":["Karaman","Konya"], 
+ {
+  "odak_yer": [
+   "Karaman",
+   "Konya"
+  ],
   "t": "-7999-01-01",
   "k": "kayip",
   "b": "Pınarbaşı (Konya havzası, Karaman): iskân sona erer",
@@ -71,7 +85,8 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 8200–7800 (kaynağın verdiği uçlar); orta nokta MÖ 8000 = astronomik -7999. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynaktan okunan: «occupation appears to have continued through the ninth millennium cal BC, ending between 8200 and 7800 cal BC». Başlangıç değeri Alan D içindir; Alan A'da 'earlier phases from around 9000 cal BC' ve dizinin başı belirsiz, yani 9800–9400 yerleşimin ilk kanıtlı evresidir. Reading / Antiquity özetleri 9600 cal BC der (arama özeti, tam metin okunmadı)."
  },
  {
-  "t": "-8099-01-01", "yer_id":"Boncuklu Höyük",
+  "t": "-8099-01-01",
+  "yer_id": "Boncuklu Höyük",
   "k": "kayip",
   "b": "Boncuklu Höyük (Konya havzası, Çumra): iskân sona erer (geç evre)",
   "gun": "MÖ 8100 (ALT SINIR; donem-toplami MÖ 8100–7800)",
@@ -92,7 +107,8 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
   "ic_not_d": "donem-toplami aralığı (MÖ 8100–7800) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «suggest occupation after 7600 cal BC, although we have not yet located reliable in situ». Bu iki blok 'tabaka/dönem' türüdür (iki evrenin toplamı 8300–7800), tek olay kalibre aralığı değildir. Wikipedia 8300–7800 BCE, BIAA programı 9300–7600 cal BC der — ikincil/çelişik; Baird 2018 esas alındı. Çatalhöyük Doğu ve Aşıklı bu dalgada tekrarlanmadı. Aşıklı sonrası Orta Anadolu / Canhasan III'ün model tarihi (Fairbairn vd. 2020 Antiquity 94(374):342, doi:10.15184/aqy.2020.13) tam metinde, açılamadı; Baird 2018 yalnız Canhasan III için ~7400–7100 cal BC'yi başka çalışmadan (ref 27) alıntılar."
  },
  {
-  "t": "-8299-01-01", "yer_id":"Boncuklu Höyük",
+  "t": "-8299-01-01",
+  "yer_id": "Boncuklu Höyük",
   "k": "gelisme",
   "b": "Boncuklu Höyük (Konya havzası, Çumra): Neolitik iskân başlar (erken evre)",
   "gun": "MÖ 8300 (ALT SINIR; donem-toplami MÖ 8300–8100)",
@@ -112,7 +128,11 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 8300–8100) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «early settlement phase of approximately 8300–8100 cal BC and a later phase of approximately 8100–7800 cal BC». Bu iki blok 'tabaka/dönem' türüdür (iki evrenin toplamı 8300–7800), tek olay kalibre aralığı değildir. Wikipedia 8300–7800 BCE, BIAA programı 9300–7600 cal BC der — ikincil/çelişik; Baird 2018 esas alındı. Çatalhöyük Doğu ve Aşıklı bu dalgada tekrarlanmadı. Aşıklı sonrası Orta Anadolu / Canhasan III'ün model tarihi (Fairbairn vd. 2020 Antiquity 94(374):342, doi:10.15184/aqy.2020.13) tam metinde, açılamadı; Baird 2018 yalnız Canhasan III için ~7400–7100 cal BC'yi başka çalışmadan (ref 27) alıntılar."
  },
- { "odak_yer":["Karaman","Konya"], 
+ {
+  "odak_yer": [
+   "Karaman",
+   "Konya"
+  ],
   "t": "-9599-01-01",
   "k": "kurulus",
   "b": "Pınarbaşı (Konya havzası, Karaman): Neolitik iskân başlar (ilk kanıtlı evre)",

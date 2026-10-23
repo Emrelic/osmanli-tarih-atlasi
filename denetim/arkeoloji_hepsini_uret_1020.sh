@@ -27,4 +27,5 @@ py denetim/arkeoloji_yerlesim_1020.py
 py denetim/arkeoloji_devlet_zincir_1020.py
 py denetim/arkeoloji_yerlesim_1020.py
 py denetim/arkeoloji_mukerrer_ayikla_1022.py
+py denetim/arkeoloji_odak_yaz_1022.py
 exit 0

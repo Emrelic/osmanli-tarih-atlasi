@@ -23,7 +23,10 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak": "Tong C.F. 2025, Early China 48:133-162, doi:10.1017/eac.2025.10032 ('Western Han dynasty (202 BCE-9 CE)') · https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88CAA846820D79FE59DE99630ADB3528/S0362502825100321a.pdf/div-class-title-the-emergence-of-logistics-networks-and-financial-administration-during-the-qin-conquest-230-221-bce-div.pdf",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «the Western Han dynasty (202 BCE-9 CE)». Birincil: Shiji 8 (Wikisource metni) 'Han 5. yıl' altında: '甲午，乃即皇帝位汜水之陽'; ay etiketi bu oturumda doğrulanmadı. GÜN ÇELİŞKİSİ (yalnız basında): Guangming/Zhonghua Dushubao 2019 (Zhang Yanqian): '公元前202年2月3日，刘邦在定陶称帝'; Baidu Baike/arama özeti 28 Şubat verir (dayanak değil, açılan akademik kaynak değil). Gün için akademik kaynak (Cambridge History of China 1, Loewe; Bielenstein) ulaşılamadı: 202 YIL hassasiyetinde kalır. 'Han 5. yıl = 202' Han yıl sayımının Liu Bang'ın 206 'Han Kralı' yılından başlaması (ZZTJ 高帝元年 = 前206) ile tutarlıdır (benim aritmetiğim)."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «the Western Han dynasty (202 BCE-9 CE)». Birincil: Shiji 8 (Wikisource metni) 'Han 5. yıl' altında: '甲午，乃即皇帝位汜水之陽'; ay etiketi bu oturumda doğrulanmadı. GÜN ÇELİŞKİSİ (yalnız basında): Guangming/Zhonghua Dushubao 2019 (Zhang Yanqian): '公元前202年2月3日，刘邦在定陶称帝'; Baidu Baike/arama özeti 28 Şubat verir (dayanak değil, açılan akademik kaynak değil). Gün için akademik kaynak (Cambridge History of China 1, Loewe; Bielenstein) ulaşılamadı: 202 YIL hassasiyetinde kalır. 'Han 5. yıl = 202' Han yıl sayımının Liu Bang'ın 206 'Han Kralı' yılından başlaması (ZZTJ 高帝元年 = 前206) ile tutarlıdır (benim aritmetiğim).",
+  "odak_yer": [
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "-0236-01-01",
