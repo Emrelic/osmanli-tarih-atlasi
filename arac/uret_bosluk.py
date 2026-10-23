@@ -228,6 +228,18 @@ PENCERE = {
     "Paquimé (Casas Grandes)": (None, "1560-01-01", "neden: İspanyol idaresi '1560'lardan sonra' ulaştı (on yıl hassasiyeti)"),
     "Wintu (Yukarı Sacramento)": (None, "1850-09-09", "neden: ABD idaresi eyalet oluşuyla 1850-09-09'da başladı"),
     "Yakut toprakları (Orta Lena)": (None, "1632-09-25", "neden: Ruslar 25 Eylül 1632'de Lena Kalesi'ni kurdu"),
+    # ── 23 Ekim 2026 ikinci tur: kalan zamansız kayıtlar kaynak merdiveniyle arandı.
+    # Yalnız akademik dayanaklı (orta+ güven) bitişler yazıldı; yıl hassasiyeti.
+    "Kamçatka (İtelmen toprakları)": (None, "1697-01-01", "Atlasov seferi 1697-98, yasak hemen toplandı (Estonya Kızıl Kitap İtelmen maddesi; Lantzeff doğrulanamadı) — güven orta, yıl"),
+    "Penjina havzası (kuzey Koryak)": (None, "1709-01-01", "Penjina (Aklan) ostrogu 1709 sonbaharı — Elert, Science First Hand 52/2 (2019); fiilî denetim zayıf, kısmî — güven orta, yıl"),
+    "Mapungubwe": (None, "1320-01-01", "terk ~AD 1320 — Huffman & Woodborne 2021, South African Journal of Science 117 (eski görüş 1290; Chirikure daha geç diyor) — güven orta, yıl"),
+    "Yap": (None, "1886-06-29", "İspanyol valisi Manuel de Elisa Yap'a 29 Haziran 1886'da geldi, garnizon kuruldu — History of Micronesia Source Documents c.31; 1885 Alman bayrağı sembolikti — güven orta"),
+    "Avustralya İç Kesimi (Orta — Arrernte bölgesi)": (None, "1872-01-01", "Overland Telegraph / Alice Springs telgraf istasyonu 1872; Hermannsburg 1877 (NMA) — güven orta, yıl"),
+    "Cape York Yarımadası": (None, "1873-01-01", "Palmer River altın hücumu + Yerli Polis 1873 — Cole, ANU Press; en kuzey uç için doğrulanmadı — güven orta, yıl"),
+    "Cape York Yarımadası 2": (None, "1873-01-01", "Cape York Yarımadası ile aynı kaynak ve gerekçe"),
+    "Avustralya İç Kesimi (Kuzeydoğu — Cape York)": (None, "1873-01-01", "Cape York Yarımadası ile aynı kaynak ve gerekçe"),
+    "Avustralya İç Kesimi (Kuzeybatı — Kimberley)": (None, "1881-01-01", "Batı Avustralya Kimberley pastoral kira tahsisi 1881 — Smith, ANU Press; Bolton 1958 — güven orta, yıl"),
+    "Kimberley iç kesimi": (None, "1881-01-01", "Kimberley ile aynı kaynak ve gerekçe"),
 }
 
 
@@ -254,6 +266,11 @@ def _pencere_kes(pen, y):
     ek = PENCERE.get(y["ad"])
     bf_ek = ek[0] if ek else None
     bt = ek[1] if ek else None
+    # `bit:` yerin yok oluşu — bundan sonra nokta çizilmez (1281 öncesi YER-TANIMA
+    # kayıtları `bit:"1281-01-01"` taşır; kırpılmazsa 1900'de Pavia'ya "?" konurdu).
+    if y.get("bit"):
+        bit = str(y["bit"])
+        bt = bit if not bt or bit < bt else bt
     if pen is None:
         pen = [(None, None)]
     sonuc = []
@@ -262,7 +279,7 @@ def _pencere_kes(pen, y):
         if kur and (t is None or kur < t) and (not bf or kur > bf):
             bf = kur
         sonuc.extend(_kes([(f, t)], bf, bt))
-    if y.get("kur") is None and not ek:
+    if y.get("kur") is None and not ek and not y.get("bit"):
         return _bos_pencereler(y)
     return sonuc
 

@@ -886,8 +886,8 @@
     },
     {
      "yol": "data/bos_alanlar.js",
-     "sha": "9474fa4182c46f30",
-     "bayt": 114491
+     "sha": "75c064ed51e19fef",
+     "bayt": 156661
     },
     {
      "yol": "data/yerlesimler_amerika.js",
@@ -895,7 +895,7 @@
      "bayt": 98410
     }
    ],
-   "bayt": 284382
+   "bayt": 326552
   },
   {
    "paket": "data/paket_17.js",
