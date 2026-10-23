@@ -496,7 +496,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
 
 // ─── TİBET: Guge · Sakya ───────────────────────────────────────────────
 
-{ t:"1076-01-01", b:"Tholing konsili — Guge'de Budist keşişlerin büyük toplantısı", tur:"din", onem:1, dunya:1, kapsam:"ic",
+{ odak_yer:["Tholing"], t:"1076-01-01", b:"Tholing konsili — Guge'de Budist keşişlerin büyük toplantısı", tur:"din", onem:1, dunya:1, kapsam:"ic",
   etiket:["din","konu-din"], yer:"Tholing (Ngari)", taraflar:["guge"],
   d:"Guge kralının davetiyle Tibet'in dört bir yanından gelen keşişler Tholing'de toplandı. Konsil, Atisha'nın gelişiyle başlayan Budist canlanmanın ('ikinci yayılış') kurumsallaşmasını simgeler.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). TDV tibet: 'XI. yüzyılın ortalarında meşhur Hintli rahip Atisa’nın Tibet’e davet edilmesinin ardından Budizm tekrar canlanmaya başladı ve çeşitli mezhepler ortaya çıktı.' — 1076 Tholing konsilini vermez. Denenen: TDV tibet 200 (yıl yok: XI. yy ortası Atisa, XIII. yy ikinci yarısı Moğol nüfuzu) · budizm 200 · kubilay-kagan 200 · mogollar 200 · başlık araması dalay: 0 sonuç. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): Matthew T. Kapstein, The Tibetans (Blackwell, 2006). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Atisa · Bka-gdams-pa) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",

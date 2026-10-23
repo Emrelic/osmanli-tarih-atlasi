@@ -21,7 +21,7 @@ window.KRONOLOJI_COK_MS1_1000_DUNYA = [
   kaynak:"TDV: hazarlar — 'ilk önemli hücum ise 32 (652-53) yılında Selmân b. Rebîa kumandasındaki ordu tarafından yapılmıştır'",
   gun:"32 H (652-53) — TDV hicrî yıl + 652-53 verir; 1 Muharrem 32 tablo (tabular) hesabıyla Jülyen 12 Ağustos 652, kesişimin ilk günü olarak yazıldı (gün kaynakta yok; ±2 gün)" },
 
-{ t:"0665-01-01", b:"Hazarlar Büyük Bulgaristan'ı yıktı; Hazar toprağı yaklaşık iki katına çıktı", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+{ odak_yer:["Bulgaristan"], t:"0665-01-01", b:"Hazarlar Büyük Bulgaristan'ı yıktı; Hazar toprağı yaklaşık iki katına çıktı", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
   etiket:["toprak-kazanc","konu-askeri"], yer:"Karadeniz'in kuzeyi", taraflar:["hazar-kaganligi","buyuk-bulgaristan"],
   d:"630'da bağımsızlığını ilân eden Hazarlar, Kubrat'ın kurduğu Büyük Bulgar (Magna Bulgaria) devletini 665'ten sonra yıktı. Bulgar boylarının bir kısmı batıya (Tuna) ve kuzeye (İdil) göçtü; Hazar sınırları Karadeniz kuzeyini kapsayacak biçimde genişledi.",
   kaynak:"TDV: hazarlar — 'Büyük Bulgar (Magna Bulgaria) Türk Devleti kuruldu (635)' ... '665 yılından sonra Hazarlar tarafından yıkıldı'",
@@ -51,7 +51,7 @@ window.KRONOLOJI_COK_MS1_1000_DUNYA = [
   kaynak:"TDV: hazarlar — '764 yılında Tiflis ele geçirildi'",
   gun:"764 — TDV yıl verir; gün yok" },
 
-{ t:"0799-01-01", b:"Hazarlar kağan kızının zehirlendiği söylentisi üzerine İslâm topraklarına yeni bir akın düzenledi", tur:"savas", onem:1, dunya:1, kapsam:"ic",
+{ odak_yer:["Astrahan"], t:"0799-01-01", b:"Hazarlar kağan kızının zehirlendiği söylentisi üzerine İslâm topraklarına yeni bir akın düzenledi", tur:"savas", onem:1, dunya:1, kapsam:"ic",
   etiket:["savas","konu-askeri"], yer:"Transkafkasya", taraflar:["hazar-kaganligi"],
   d:"799'da Hazarlar, bir Hazar kağan kızının Abbâsî topraklarında zehirlendiği söylentisi üzerine İslâm topraklarına yeni bir akın yaptı.",
   kaynak:"TDV: hazarlar — '799’da Hazarlar İslâm topraklarına yeni bir akın düzenlediler'",

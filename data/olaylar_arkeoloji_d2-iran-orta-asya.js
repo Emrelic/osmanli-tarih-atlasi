@@ -31,7 +31,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Darius III (336-330 BC)». 559 = Iranica Pasargadae makalesindeki Kyros saltanat tarihi 'Cyrus the Great (559-530 BCE)' (Stronach/Gopnik); 'Persler Kralı' olusun gunu ve Pers krallik kurulus tartismasi (Anshan-Parsa) bu makalede ayrintilanmaz. Schmitt (Iranica 'Achaemenid Dynasty i'): Kyros II Med'e bagli bir vasal devlet olarak Pers krallıgini birlestirdi (Nabonid kroniginde 'king of Anshan' ve 'king of Parsu'); '550 B.C. Cyrus overthrew the Median empire under Astyages'. 539 Babil zaten onceki dalgada. Briant 1996 (Fr.), Farsca kaynaklar ve Iranica 'Cyrus II' makalesi (slug bulunamadi) erisilemedi. Medvedskaya & Dandamayev: Med-Pers savasi 553-550 (Iranica 'Media'): 'this war lasted from 553 to 550 BCE'. Iki bagimsiz akademik kaynak 550 icin uyumlu (Schmitt + Medvedskaya/Dandamayev): cift teyit."
  },
- {
+ { "odak_yer":["Elam"], 
   "t": "-0538-01-01",
   "k": "kayip",
   "b": "Elam (Eski Elam - Yeni Elam): Yeni Elam dönemi sona erer",
@@ -99,7 +99,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 2170–1900) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «IIIC 2170-1900 cal. BCE». 'kur' = en eski 14C ile tarihli evre (IC/IIA), yerlesimin gercek baslangici degil; Dyson: Hissar IA 'sometime after 5000 BCE' (tahmin, Cheshmi Ali-Sialk II boyali seramik ufkuna gore), IB ~4000 ve oncesi. 'bit' = IIIC'nin tarihli ucu; yerlesimin terki sonrasi dilimleri vardir. Bu uc sayilar donem toplamidir, tek olay degildir. Hissar'da Proto-Elam yazili tablet yok (Matthews vd. 2025)."
  },
- {
+ { "odak_yer":["Elam"], 
   "t": "-2399-01-01",
   "k": "kurulus",
   "b": "Elam (Eski Elam - Yeni Elam): Awan hanedanı (ilk Elam hanedanı) başlar",

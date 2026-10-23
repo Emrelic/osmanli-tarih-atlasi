@@ -211,7 +211,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 6170–6070 (kaynağın verdiği uçlar); orta nokta MÖ 6120 = astronomik -6119. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «starting in 6,170–6,070 cal BC (95% probability; Start Transition_LV_I-II )». Tür: dönem/evre sınırları (model sınırı), tek olay değil. Süre tahmini Model 2: 80–210 yıl (95). Geçiş evresini Neolitik başlangıç (LV III) izler; Erken Neolitik başlangıcı 5990–5900 (Model 2)."
  },
- {
+ { "odak_yer":["Knossos"], 
   "t": "-6699-01-01",
   "k": "kurulus",
   "b": "Knossos (Neolitik yerleşme): başlar",

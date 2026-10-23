@@ -104,7 +104,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Diplomasinin çözemediğini Özbek Han ordusuyla denedi: Kafkasya'nın demir kapısı Derbend'i geçip Emîr Çoban komutasındaki İlhanlı kuvvetlerine yürüdü. Derbend geçidi iki devlet arasındaki tek pratik geçit olduğu için Altın Orda-İlhanlı savaşlarının değişmez sahnesidir.",
   kaynak:"TDV, madde: ozbek-han (1318, Derbend'i geçiş, Emir Çoban)" },
 
-{ t:"1319-01-01", b:"Altın Orda kuvvetleri Trakya'yı yağmaladı — yağma kırk gün sürdü", tur:"savas", onem:3, dunya:2, kapsam:"dis",
+{ odak_yer:["Trakya"], t:"1319-01-01", b:"Altın Orda kuvvetleri Trakya'yı yağmaladı — yağma kırk gün sürdü", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","yagma","konu-askeri"],
   yer_id:"",
   d:"Altın Orda süvarileri Tuna'yı aşıp Bizans'ın Trakya topraklarına girdi ve TDV'nin ifadesiyle 'yağma kırk gün devam etti'. Özbek Han'ın kızkardeşi Bizans imparatoruyla evliydi; akın, hanlığın Balkanlar'daki nüfuzunun askerî yüzüdür.", ic_not_d:"yer_id boş: kaynak tek bir şehir adı vermiyor, bölge adı veriyor.",
@@ -116,7 +116,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Özbek Han 720 (1320) yılında İslâm'ı kabul ederek Muhammed adını aldı; bu tarihten sonraki sikkelerinde 'es-Sultânü'l-a'zam Gıyâseddin Muhammed Özbek Han el-Âdil' ibaresi yer aldı. Bu, bir hükümdarın şahsî tercihinden ibaret değildir: Berke Han'ın kişisel Müslümanlığından farklı olarak bu kez din DEVLETİN dini oldu ve Deşt-i Kıpçak'ın Türkleşmesiyle İslâmlaşması aynı süreç hâline geldi. Saray başta olmak üzere şehirler camiler, medreseler ve tekkelerle donandı. Bugünkü Tatar, Başkurt, Kazak, Nogay ve Kırım Türklerinin Müslüman kimliği bu karara dayanır.",
   kaynak:"TDV, madde: ozbek-han — '720'de (1320)' + sikke ibaresi birebir; TDV, madde: altin-orda-hanligi — 'Özbek Han zamanında ... camiler, medreseler ve tekkelerle süslenmiştir'" },
 
-{ t:"1320-05-16", b:"Tolun-Bige Hatun Mısır'a gönderildi — Memlük ittifakının evlilikle mühürlenmesi", ic_not_b:"eski b: 'Mısır Memlük hânedanından Tolun-Bige Hatun ile evlilik anlaşması' — YÖN TERSTİ. TDV ozbek-han: Özbek Han 'hânedandan Tolun-Bige Hatun'u … Mısır'a GÖNDERDİ'. ⚠️ HANEDAN iddiası YAZILMADI: alıntının başı kesik, hangi hânedan olduğu tam cümle görülmeden kesin değil. ODAK-KAPAT Altın Orda diyor ve bağlam destekliyor, ama ölçülmeyen şey hüküm olmaz. Ölçen: ODAK-KAPAT, tahta M-5728", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
+{ odak_yer:["Mısır"], t:"1320-05-16", b:"Tolun-Bige Hatun Mısır'a gönderildi — Memlük ittifakının evlilikle mühürlenmesi", ic_not_b:"eski b: 'Mısır Memlük hânedanından Tolun-Bige Hatun ile evlilik anlaşması' — YÖN TERSTİ. TDV ozbek-han: Özbek Han 'hânedandan Tolun-Bige Hatun'u … Mısır'a GÖNDERDİ'. ⚠️ HANEDAN iddiası YAZILMADI: alıntının başı kesik, hangi hânedan olduğu tam cümle görülmeden kesin değil. ODAK-KAPAT Altın Orda diyor ve bağlam destekliyor, ama ölçülmeyen şey hüküm olmaz. Ölçen: ODAK-KAPAT, tahta M-5728", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
   etiket:["diplomasi","ittifak","sosyal","konu-diplomasi","konu-hanedan","konu-sosyal"],
   yer_id:"",
   d:"Memlük ittifakı bir evlilikle mühürlendi. Hanedanlar arası evlilik bozkır diplomasisinde bir anlaşma metninden daha bağlayıcıdır; İslâm'ın kabulüyle aynı yıla düşmesi de tesadüf değildir — Altın Orda artık Memlük Mısır'ıyla yalnız siyasî değil dinî bir ortaklık da kuruyordu.",
@@ -170,13 +170,13 @@ window.KRONOLOJI_ALTINORDA = [
   d:"TDV'nin verdiği sayı tek başına dönemi anlatıyor: '1360-1380 yılları arasındaki bu dönemde hükümdarlık makamına on dört han geçtiği halde hiçbiri devleti eski kudretine kavuşturamadı.' Rus kroniklerinin 'Büyük Kargaşa' (velikaya zamyatnya) dediği bu devirde gerçek güç hanlarda değil, onları tahta çıkarıp indiren beylerdeydi — batıda Mamay Mirza, doğuda Ak Orda hanları. Moskova'nın vergi ödemeyi aksatmaya, Litvanya'nın batı topraklarını almaya başlaması bu boşluktandır.",
   kaynak:"TDV, madde: altin-orda-hanligi — '1360-1380 ... on dört han geçtiği halde hiçbiri devleti eski kudretine kavuşturamadı'" },
 
-{ t:"1380-09-08", b:"Kulikovo Muharebesi — Mamay'ın ordusu Moskova Knezi Dmitri Donskoy'a yenildi", tur:"savas", onem:5, dunya:2, kapsam:"dis",
+{ odak_yer:["Moskova"], t:"1380-09-08", b:"Kulikovo Muharebesi — Mamay'ın ordusu Moskova Knezi Dmitri Donskoy'a yenildi", tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"Batı Deşt-i Kıpçak'ın hâkimi Mamay Mirza, Don'a dökülen Nepryadva boyundaki Kulikovo sahasında Moskova Knezi Dmitri'ye yenildi. Askerî sonucu kalıcı olmadı — iki yıl sonra Toktamış Moskova'yı yakıp haracı yeniden dayattı — ama Rus tarihyazımı bu günü Tatar boyunduruğuna direnişin sembolik başlangıcı sayar.", ic_not_d:"🔴 Altın Orda açısından asıl önemi şudur: yenilen han değil bir BEYDİ, ve yenilgisi Toktamış'a kapıyı açtı. yer_id boş: muharebe sahasının atlasta yerleşim kaydı yok (aynı olay `kronoloji_rusya.js`te de yer_id'siz).",
   kaynak:"TDV, madde: toktamis-han — '8 Eylül 1380 tarihinde Kulikovskaya savaşında Ruslar'a yenilerek Kırım'a dönen ... Mamay Mirza'; dunya:2 kronoloji_rusya.js:83'ten OKUNDU" },
 
-{ t:"1380-01-01", b:"Toktamış, Kalka boyunda Mamay'ı yendi — yirmi yıllık kargaşa sona erdi, devlet yeniden birleşti", tur:"savas", onem:5, dunya:3, kapsam:"ic",
+{ odak_yer:["Donets bozkırı"], t:"1380-01-01", b:"Toktamış, Kalka boyunda Mamay'ı yendi — yirmi yıllık kargaşa sona erdi, devlet yeniden birleşti", tur:"savas", onem:5, dunya:3, kapsam:"ic",
   etiket:["askeri","siyaset","ic-savas","konu-askeri","konu-siyasi","konu-isyan"],
   yer_id:"",
   d:"Kulikovo'dan yenik dönen Mamay Mirza'yı, Timur'un desteklediği Toktamış Han, Don'a dökülen Kalka ırmağı boyunda mağlûp etti. TDV bu zaferin sonucunu açıkça yazar: yirmi yıl süren iç mücadelenin ardından Altın Orda yeniden tek elde toplandı. Devletin son gerçek toparlanışıdır; bundan sonraki her birleşme girişimi başarısız olacaktır.", ic_not_d:"⚠️ Kaynak yıl veriyor, GÜN vermiyor — Kulikovo'dan sonrasına düştüğü kesin, tam günü değil.",
@@ -194,7 +194,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Şehir 1383-1386 arasında mevcut surların dışına taşınca ikinci bir sur hattı örüldü. Altın Orda merkezî otoritesinin çözüldüğü yıllarda Kefe'nin BÜYÜMESİ dikkate değerdir: bozkırdaki siyasî kargaşa Karadeniz ticaretini kesmemiş, aksine kolonilerin özerkliğini artırmıştır.",
   kaynak:"TDV, madde: kefe — '1383-1386' dış surlar" },
 
-{ t:"1391-06-01", b:"Kunduzca (Kondurça) Savaşı — Timur, Toktamış'ı ilk kez ağır yenilgiye uğrattı", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:4, kapsam:"dis",
+{ odak_yer:["Donets bozkırı"], t:"1391-06-01", b:"Kunduzca (Kondurça) Savaşı — Timur, Toktamış'ı ilk kez ağır yenilgiye uğrattı", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"Toktamış'ı tahta çıkaran Timur'la arası Azerbaycan meselesi yüzünden açılmıştı. İki ordu Receb 793'te (Haziran 1391) Kunduzca (Kondurça) ırmağı boyunda karşılaştı; Toktamış ağır bir yenilgi aldı. Bu, Altın Orda'nın belini kıran iki seferin birincisidir.", ic_not_d:"⚠️ Kaynak ay veriyor, gün vermiyor — 06-01 ayın başına yazıldı, ölçülmüş gün değildir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok.",
@@ -206,7 +206,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Nisbesini Altın Orda'nın başkenti Saray'dan alan Kıpçak şairi Seyf-i Sarâyî, Sa'dî-i Şîrâzî'nin Gülistan'ını 1 Eylül 1391'de Türkçeye çevirmeyi tamamladı — mensur kısımları nesirle, manzum kısımları şiirle. Bu, Gülistan'ın TÜRKÇEYE İLK ÇEVİRİSİDİR ve Codex Cumanicus'tan sonra Kıpçak Türkçesinin en önemli dil âbidesi sayılır; XIX. yüzyıla kadar Orta Asya Türkleri arasında ders kitabı olarak okundu.", ic_not_d:"📌 Tarihin anlamı yalnız edebî değil: Timur'un Kunduzca'da hanlığın ordusunu dağıttığı yıl, aynı hanlığın yetiştirdiği bir şair Fars klasiğini Türkçeye kazandırıyordu. Bir devletin askerî çöküşüyle kültürel verimi aynı takvime düşebilir.",
   kaynak:"TDV, madde: seyf-i-sarayi — Gülistan Tercümesi 1 Eylül 1391'de tamamlandı, 'Türkçeye ilk Gülistan tercümesi'" },
 
-{ t:"1393-01-01", b:"Toktamış Han, Lehistan-Litvanya Kralı Jagiello'ya yarlık gönderdi — bozkır diplomasisinin belgesi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
+{ odak_yer:["Litvanya"], t:"1393-01-01", b:"Toktamış Han, Lehistan-Litvanya Kralı Jagiello'ya yarlık gönderdi — bozkır diplomasisinin belgesi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
   etiket:["diplomasi","idari","hukuk","konu-idari","konu-diplomasi","konu-hukuk"],
   yer_id:"",
   d:"Toktamış Han'ın 1393'te Jagiello'ya gönderdiği yarlık, Altın Orda diplomasisinin günümüze ulaşan somut örneklerindendir. Yarlık, Türk-Moğol devletlerinde hükümdar buyruğudur ve Altın Orda'da iki türü vardı: tâbi ülke hükümdarlarına gönderilen DİPLOMATİK yarlıklar, ve vergiden ve devlet hizmetinden muafiyet tanıyan TARHANLIK yarlıkları. Her yeni han, seleflerinin yarlıklarını ya onaylar ya iptal ederdi — yani yarlık aynı zamanda bir meşruiyet tazeleme aracıydı.", ic_not_d:"🔴 TDV'nin hükmü açıktır: yarlıklar, Altın Orda'nın siyasî, iktisadî, askerî ve idarî yapısını anlamanın başlıca kaynağıdır. ⚠️ Yarlığın GÜNÜ kaynakta yok, yıl başına yazıldı.",
@@ -236,25 +236,25 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Timur, yendiği Toktamış'ın yerine kendi adayı Timur Kutluk'u (1396-1400) han ilân etti. Altın Orda tahtının artık DIŞARIDAN belirlendiği ilk açık andır; hanlık bağımsız bir güç olmaktan çıkıp bir nüfuz alanına dönüşmüştür.",
   kaynak:"TDV, madde: altin-orda-hanligi — 'Timur Kutluk (1396-1400), Timur tarafından Altın Orda hükümdarı ilân edildi'" },
 
-{ t:"1399-01-01", b:"Edigü Mirza, Toktamış ve Litvanya ordusunu yendi — beylerin hanlar üzerindeki hâkimiyeti kesinleşti", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Litvanya"], t:"1399-01-01", b:"Edigü Mirza, Toktamış ve Litvanya ordusunu yendi — beylerin hanlar üzerindeki hâkimiyeti kesinleşti", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","siyaset","ic-savas","konu-askeri","konu-siyasi","konu-isyan"],
   yer_id:"",
   d:"Tahtını geri almak için Litvanya Büyük Dukası Vytautas ile ittifak kuran Toktamış, Mangıt beyi Edigü ve Timur Kutluk'un kuvvetlerine yenildi (Vorskla ırmağı). Yenilgi iki şeyi birden belirledi: Toktamış bir daha tahta dönemedi, ve Litvanya'nın bozkıra yayılma girişimi durdu.", ic_not_d:"🔴 Asıl sonuç kurumsaldır — Cengiz soyundan OLMAYAN Edigü, han olamadığı hâlde devleti fiilen yönetmeye başladı.",
   kaynak:"TDV, madde: toktamis-han — Edigey'in kuvvetlerine 1399'da yenilmesi; TDV, madde: altin-orda-hanligi — 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti'" },
 
-{ t:"1405-01-01", b:"Toktamış Han öldürüldü — devleti son kez birleştiren hanın sonu", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Donets bozkırı"], t:"1405-01-01", b:"Toktamış Han öldürüldü — devleti son kez birleştiren hanın sonu", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","hukumdar","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"1399'daki yenilgiden sonra kaçak yaşayan Toktamış, 1405'te takip edildiği sırada Karaton ırmağı yakınında bir uçuruma düşerek öldü. Altın Orda'yı bir bütün olarak yöneten SON han odur; ondan sonra taht, beylerin elinde bir araç hâline geldi.",
   kaynak:"TDV, madde: toktamis-han — '1405 yılına kadar' kaçak yaşamı ve Karaton yakınındaki ölümü" },
 
-{ t:"1419-01-01", b:"Edigü'nün yirmi yıllık fiilî idaresi sona erdi", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Donets bozkırı"], t:"1419-01-01", b:"Edigü'nün yirmi yıllık fiilî idaresi sona erdi", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","idari","konu-siyasi","konu-idari","konu-hanedan"],
   yer_id:"",
   d:"TDV: 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti.' Cengiz soyundan gelmediği için han unvanı alamayan, ama hanları tayin eden bir beyin yirmi yıl süren idaresi, Altın Orda'da meşruiyetin nasıl aşındığının en açık göstergesidir.",
   kaynak:"TDV, madde: altin-orda-hanligi — 'Edige Mirza ... 1419'a kadar devleti idare etti'" },
 
-{ t:"1420-01-01", b:"Edigü öldü — oğulları Nogay Ordası'nın çekirdeğini kurdu", tur:"bolunme", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Donets bozkırı"], t:"1420-01-01", b:"Edigü öldü — oğulları Nogay Ordası'nın çekirdeğini kurdu", tur:"bolunme", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","bolunme","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"TDV, Nogaylar maddesinde tarihi birebir verir: 'Edige'nin (Edigü/İdigü) 823'te (1420) ölümünden sonra oğulları' Deşt-i Kıpçak'ta çeşitli hanların emirleri olarak siyasete devam etti. Nogay Ordası bu mirastan doğdu — Altın Orda'dan kopan beş yapının kronolojik olarak İLKİDİR ve ötekilerden farkı, bir HANEDANDAN değil bir BEY AİLESİNDEN doğmuş olmasıdır (bkz. [[nogay]]).",
@@ -308,7 +308,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Büyük Orda, ayrılan Kırım'ı silah zoruyla geri almayı denedi ve yarımadayı istilâ etti. Girişim kalıcı olmadı: Kırım artık Osmanlı himayesindeydi ve bozkırdaki bir hanın karşısında yalnız değildi. Bu, Altın Orda mirasının parçalarının artık birbiriyle DIŞ GÜÇLER üzerinden hesaplaştığının işaretidir.",
   kaynak:"data/kronoloji_kirim.js:103 (TDV kirim maddesine dayalı); dunya:2 aynı kayıttan OKUNDU" },
 
-{ t:"1480-11-11", b:"Ugra Nehri karşılaşması — Rus knezliklerinin haraç ödemesi sona erdi", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Donets bozkırı"], t:"1480-11-11", b:"Ugra Nehri karşılaşması — Rus knezliklerinin haraç ödemesi sona erdi", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Ahmed Han'ın kuvvetleriyle III. İvan'ın orduları Ugra ırmağı kıyısında aylarca karşı karşıya durdu; çatışma olmadan Ahmed Han geri çekildi.", ic_not_d:"🔴 Bir muharebe yaşanmadan bir imparatorluk ilişkisi sona erdi: 1237'den beri süren Rus knezliklerinin haraç yükümlülüğü fiilen bitti. Rus tarihyazımı bu günü 'Tatar boyunduruğunun sonu' ve Moskova'nın bağımsız bir güç olarak doğuşu sayar. Altın Orda mirası açısından ise gelir kaynaklarının sonuncusunun da kaybedilmesidir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok (aynı olay `kronoloji_rusya.js`te de yer_id'siz).",

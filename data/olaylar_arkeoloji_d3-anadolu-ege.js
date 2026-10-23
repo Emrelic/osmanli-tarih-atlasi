@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Anadolu / Ege / Kıbrıs / Levant-Hitit dünyası (3. dalga) (d3-anadolu-ege) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d3-anadolu-ege.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
- {
+ { "odak_yer":["Eski Van"], 
   "t": "-0899-01-01",
   "k": "kurulus",
   "b": "Urartu Krallığı (Tuşpa / Van): Urartu devleti oluşur (9. yy)",

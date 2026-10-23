@@ -127,7 +127,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 3550–2050) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Liangzhu: c. 5500-4000 (cal BP)». Alıntı özetten PARAFRAZ (kayıt sayfasının özeti okundu; ScienceDirect 403 verdi, birebir özet alınamadı). Kültür aralıkları cal BP: Shangshan 10800-8600, Kuahuqiao 7900-7200, Hemudu 7100-5200, Majiabang 7200-5200, Songze 5700-5200, Liangzhu 5500-4000, Maqiao 3700-3200. Kaynak cal BP verir; MÖ = BP - 1950 ile çevrildi (yuvarlama payı birkaç yıl); kaynak sayıları alıntıda. Yazarlar kültürlerin birbirini değiştirmediğini, bir arada var olduğunu savunuyor (çakışma gerçek). Alt sınır tartışmalı. UNESCO çerçevesi 3300-2300 MÖ ve Bianjiashan iskelesi (en geç cal BC 2470, %95) arama özetinde geçti; kaynak sayfaları AÇILMADI, kullanılmadı."
  },
- {
+ { "odak_yer":["Banpo"], 
   "t": "-4999-01-01",
   "k": "gelisme",
   "b": "Yangshao Kültürü: başlar",

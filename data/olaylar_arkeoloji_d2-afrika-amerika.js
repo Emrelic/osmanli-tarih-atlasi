@@ -157,7 +157,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3350–3020 (kaynağın verdiği uçlar); orta nokta MÖ 3185 = astronomik -3184. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz ('calibrated y B.P.' ozet; 95% belirtilmemis). Kaynaktan okunan: «dating at a similar age of 5,300–4,970 calibrated y B.P.». Guilá Naquitz (Oaxaca) mısır koçanları daha eski: Piperno & Flannery 2001, PNAS 98(4):2101-2103: 5,400 14C BP ('about 6,250 calendar years ago'); Benz 2001, PNAS 98(4):2104-2106: 'about 4,200 dendrocalibrated years B.C.' - TEK DEGER, 95% araligi okunmadi. Coxcatlan/Piperno-Smith Tehuacan AMS 'MO 5000' iddiasi: bu oturumda Piperno-Smith'in kendi tablosu BULUNAMADI. Tehuacan'daki en eski mısır MO 3350-3020 (San Marcos) - Guilá Naquitz'den ~700-850 yil genc (Benz: 'at least 700 years')."
  },
- {
+ { "odak_yer":["Trujillo"], 
   "t": "-3749-01-01",
   "k": "kurulus",
   "b": "Los Morteros (Chao Vadisi, Peru) - en eski kerpic anit mimarisi: Amerika'nın en eski kerpiç anıtsal mimarisi",

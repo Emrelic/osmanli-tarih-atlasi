@@ -97,7 +97,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Sind / Bâbürlü] Kannauc bozgunundan sonra Hindistan'ı kaybeden Hümâyun, Şah Hasan Ergun'dan yardım umarak Sind'e geçti; umduğunu bulamayınca Racputana çöllerine ve oradan İran'a yöneldi. Bâbürlü hânedanının en kırılgan yılları Sind'de geçti.",
   kaynak:"humayun-sah bulunamadı (302); dayanak: ekber-sah (TDV) ve suriler (TDV) maddeleri" },
 
-{ taraflar:["sind","babur-imparatorlugu"], t:"1542-10-14", b:"Ekber Şah, Sind'deki Ömerkût Kalesi'nde doğdu", tur:"dogum", onem:4, dunya:4, kapsam:"dis",
+{ odak_yer:["Delhi"], taraflar:["sind","babur-imparatorlugu"], t:"1542-10-14", b:"Ekber Şah, Sind'deki Ömerkût Kalesi'nde doğdu", tur:"dogum", onem:4, dunya:4, kapsam:"dis",
   etiket:["dogum","hukumdar","konu-kisiler","konu-hanedan"], yer_id:"",
   d:"[Sind / Bâbürlü] Bâbürlü hânedanının en büyük hükümdarı, babası Hümâyun sürgündeyken bir Racput kalesinde dünyaya geldi. Doğum yeri Ömerkût, Sind çölünün doğu ucunda Sodha Racputlarının elindeydi — imparatorluğun kaderini belirleyecek hükümdar, kaçak bir kafilenin konakladığı sınır kalesinde doğdu.", ic_not_d:"yer_id boş: Ömerkût atlasın yerleşim kayıtlarında yok.",
   kaynak:"ekber-sah (TDV): \"4 Receb 949'da (14 Ekim 1542) Sind'deki Ömerkût Kalesi'nde doğdu\"" },
@@ -323,7 +323,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 // künye: racput  ·  1281-01-01 → 1923-10-29  ·  642 yıl
 // ═══════════════════════════════════════════════════════════════════════════
 
-{ taraflar:["racput"], t:"1301-07-11", b:"Alâeddin Halacî Ranthambor'u aldı; Hammîradeva öldürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Çitor"], taraflar:["racput"], t:"1301-07-11", b:"Alâeddin Halacî Ranthambor'u aldı; Hammîradeva öldürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","kusatma","toprak-kayip","konu-askeri","konu-kisiler"], yer_id:"",
   d:"[Racput — Çevhân] Bir yıl süren kuşatmanın ardından düşen Ranthambor, Delhi Sultanlığı'nın Racputana'ya ilk büyük darbesidir. Kale düşerken kadınların toplu olarak ateşe atlaması (cevher), Racput destan geleneğinin kurucu sahnelerinden biri oldu.", ic_not_d:"yer_id boş: Ranthambor atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de Ranthambor maddesi yok. Dayanak: Peter Jackson, The Delhi Sultanate (Cambridge 1999); Cambridge History of India, III" },
@@ -333,7 +333,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Racput — Guhila/Mevâr] Racputana'nın en güçlü kalesi, aylarca süren kuşatmanın sonunda düştü ve sultan kaleyi oğlu Hızır Han'a verdi. Çitor'un ilk düşüşü, Mevâr'ın siyasî merkezini kaybettiği ve yeniden kuruluşunu dağlarda arayacağı uzun bir dönemi başlattı.",
   kaynak:"bulunamadı — TDV'de Çitor maddesi yok (`citor` 302). Dayanak: Peter Jackson, a.g.e.; Cambridge History of India, III" },
 
-{ taraflar:["racput"], t:"1311-01-01", b:"Calor'un düşmesiyle Racputana'nın batı direnişi kırıldı", tur:"savas", onem:4, dunya:2, kapsam:"dis",
+{ odak_yer:["Çitor"], taraflar:["racput"], t:"1311-01-01", b:"Calor'un düşmesiyle Racputana'nın batı direnişi kırıldı", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"], yer_id:"",
   d:"[Racput — Songara Çevhân] Kânhadadeva'nın Calor'daki direnişinin kırılmasıyla Delhi, Gucerât yolunu tamamen açtı. Racput beylikleri bundan sonra yaklaşık bir nesil boyunca doğrudan sultanlık idaresi altında kaldı.", ic_not_d:"yer_id boş: Calor atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: Peter Jackson, a.g.e.; Cambridge History of India, III" },
@@ -533,7 +533,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Travankur — Venâd] Malabar sahilinin güney ucundaki küçük krallığın başına geçen hükümdar, Pândya ve Çola topraklarına yürüyerek Venâd'ı Güney Hindistan'ın belirleyici gücü hâline getirdi. Travankur'un hânedan çizgisi bu saltanattan başlatılır.",
   kaynak:"bulunamadı — TDV'de Travankur maddesi yok (`travankur` 302). Dayanak: A. Sreedhara Menon, A Survey of Kerala History; K. A. Nilakanta Sastri, A History of South India" },
 
-{ taraflar:["travankur"], t:"1312-01-01", b:"Ravi Varma Kulaşekhara Kançi'de imparatorluk tacını giydi", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Trivandrum"], taraflar:["travankur"], t:"1312-01-01", b:"Ravi Varma Kulaşekhara Kançi'de imparatorluk tacını giydi", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis",
   etiket:["fetih","toren","konu-askeri","konu-kultur"], yer_id:"",
   d:"[Travankur — Venâd] Pândya taht kavgasından yararlanan Venâd kralı Madurai'yi ve ardından Kançipuram'ı aldı; kendini bütün Güney Hindistan'ın hükümdarı ilân etti. Zafer kalıcı olmadı — birkaç yıl içinde Delhi Sultanlığı'nın Dekken seferleri bölgenin bütün dengelerini alt üst etti.", ic_not_d:"yer_id boş: Kançipuram atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: K. A. Nilakanta Sastri, A History of South India; A. Sreedhara Menon, a.g.e." },

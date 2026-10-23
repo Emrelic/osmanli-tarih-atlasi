@@ -680,12 +680,12 @@ window.KRONOLOJI_BALKAN = [
   d:"Tvrtko I, Boka Kotorska girişinde yeni bir liman kalesi olan Herceg Novi'yi (Herseknovi) kurarak krallığın Adriyatik'e açılan kıyı politikasının ilk somut adımını attı. Bu kale sonraki Dalmaçya seferlerinin lojistik dayanağı oldu.",
   kaynak:"veri (data/yerlesimler_ek.js, kur:'1382-01-01') · standart akademik kaynak (Fine, The Late Medieval Balkans) — TDV'de müstakil madde yok." },
 
-{ taraflar:["bosna-kralligi"], t:"1388-08-27", b:"Bileća Meydan Savaşı — Osmanlı akınının ilk büyük yenilgisi", tur:"savas",
+{ odak_yer:["Yayça"], taraflar:["bosna-kralligi"], t:"1388-08-27", b:"Bileća Meydan Savaşı — Osmanlı akınının ilk büyük yenilgisi", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"",
   d:"Osmanlı akıncı kuvvetleri Hersek bölgesine düzenlediği bir seferde, Vlatko Vuković komutasındaki Bosna kuvvetleri tarafından Bileća'da ağır bir yenilgiye uğratıldı — Osmanlı'nın Balkanlar'da aldığı ilk büyük meydan yenilgilerinden biri.",
   kaynak:"veri (data/savaslar.js, t:'1388-08-27', taraf:['osmanli','bosna-kralligi'], galip:'bosna-kralligi') · standart akademik kaynak (Fine, The Late Medieval Balkans) — TDV'de bu savaşa dair müstakil madde bulunamadı." },
 
-{ taraflar:["bosna-kralligi"], t:"1389-06-15", b:"I. Kosova Savaşı'na katılım — Balkan ittifakının çöküşü", tur:"savas",
+{ odak_yer:["Yayça"], taraflar:["bosna-kralligi"], t:"1389-06-15", b:"I. Kosova Savaşı'na katılım — Balkan ittifakının çöküşü", tur:"savas",
   onem:3, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"",
   d:"Vlatko Vuković komutasındaki Bosna kontenjanı, Knez Lazar önderliğindeki Balkan ittifakı safında I. Murad'a karşı Kosova Ovası'nda savaştı. Osmanlı zaferiyle sonuçlanan savaş, Bosna'yı da uzun vadede haraca giden yola soktu.",
   kaynak:"veri (data/savaslar.js, t:'1389-06-15', taraf:['osmanli','bosna-kralligi']) · dunya puanı kronoloji_bizans.js ve kronoloji_sirbistan.js'teki aynı olayla (dunya:4) çapraz kontrol edilip eşleştirildi." },
@@ -805,7 +805,7 @@ window.KRONOLOJI_BALKAN = [
   d:"İbrâhim Paşa kumandasındaki Mısır ordusu, 1821'de isyancıların ele geçirdiği Mora'nın eski eyalet merkezi Tripoliçe'yi geri aldı; Mısır seferinin isyanı bastırmadaki en önemli askerî kazanımlarından biriydi.",
   kaynak:"data/savaslar.js:255 ('Tripoliçe'nin geri alınışı', 1825-06-22, galip: misir-kavalali) — zaten doğrulanmış kayıt; TDV `navarin`de de bağlam teyit edildi." },
 
-{ taraflar:["yunanistan"], t:"1826-04-22", b:"Missolonghi'nin düşüşü", tur:"savas",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1826-04-22", b:"Missolonghi'nin düşüşü", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","kayip","konu-askeri"], yer_id:"",
   d:"Yunan direnişinin sembol kalelerinden Missolonghi, uzun bir kuşatmanın ardından Osmanlı-Mısır kuvvetlerinin eline geçti; halkın büyük bölümü açlıktan öldü ya da bir çıkış harekâtı sırasında kırıldı. Lord Byron'ın bir yıl önce burada ölmüş olması olayın Avrupa'daki sempatiyi artırmasında etkili oldu.",
   kaynak:"data/savaslar.js:256 ('Missolonghi kuşatması', 1826-04-22, galip: osmanli) — zaten doğrulanmış kayıt." },
@@ -830,7 +830,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Osmanlı yenilgisi üzerine büyük güçler, Mora ve Attika'dan Tesalya'ya uzanan toprakları kapsayan bir Yunan Devleti'nin tam bağımsızlığını Londra Protokolü ile ilan etti. Yeni devlet, Osmanlı idaresindeki yaklaşık iki milyonluk Rum nüfusun yarısından azını içeriyordu.",
   kaynak:"TDV `yunanistan`: 'Osmanlı yenilgisi üzerine Mora yarımadasında ve Atina'yı da içine alan, Attika'dan Tesalya'ya kadar uzanan bir Yunan Devleti kuruldu (1829). Osmanlı Devleti 1830'da bu devleti tanımak zorunda kaldı.' + data/devletler.js embedded kronolojisi." },
 
-{ taraflar:["yunanistan"], t:"1831-10-09", b:"Kapodistrias'ın suikastı", tur:"siyaset",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1831-10-09", b:"Kapodistrias'ın suikastı", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"], yer_id:"",
   d:"Yeni devletin başına geçen ilk yönetici Ioannis Kapodistrias, baskıcı yönetim tarzına ve Mavromihalis ailesiyle giriştiği çatışmaya kurban giderek Nafplion'da bir kilise önünde suikaste uğradı. Suikast, ülkeyi Rus-İngiliz-Fransız yanlısı hiziplere bölen siyasî krizi derinleştirdi.",
   kaynak:"TDV `yunanistan`: 'Baskıcı bir rejim kurmaya yönelen ve Rusya'ya yakın bir politika izleyen Kapodistrias 1831'de bir suikasta kurban gitti.' Gün TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'Ioannis Kapodistrias')." },
@@ -845,7 +845,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Osmanlı Devleti, büyük güçlerle imzaladığı antlaşmayla yeni Yunan Krallığı'nı resmen tanıdı ve kuzey sınırını Arta-Volos hattı olarak belirledi.",
   kaynak:"TDV `yunanistan`: 'Ülkenin ilk çekirdeği, Mora yarımadasından Golos (Volos) ve Arta körfezleri boyunca çekilecek bir çizginin güney kısmı ile Eğriboz ve Kiklad adalarını kapsar.' Antlaşmanın tam tarihi TDV'de yok; dayanak: standart akademik kaynak." },
 
-{ taraflar:["yunanistan"], t:"1833-02-06", b:"Otto'nun Yunanistan'a gelişi", tur:"siyaset",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1833-02-06", b:"Otto'nun Yunanistan'a gelişi", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"], yer_id:"",
   d:"Otto ve beraberindeki Bavyeralı naiblik heyeti Nafplion'a ulaşarak devleti fiilen teşkilatlandırmaya başladı. Genç kral Yunan millî kıyafetini benimseyerek ve adını Hellenceleştirerek ('Othon') halkın sempatisini kazanmaya çalıştı.",
   kaynak:"TDV `yunanistan`: '1833'te Otto ve beraberindeki heyet Yunanistan'a geldi ve devleti teşkilâtlandırmaya başladı.' Gün TDV'de yok; dayanak: standart akademik kaynak (Royal Museums Greenwich arşiv kaydı)." },
@@ -895,17 +895,17 @@ window.KRONOLOJI_BALKAN = [
   d:"Millî Meclis, 1844 Anayasası'nı gözden geçirerek daha demokratik yeni bir anayasa hazırladı; kral yetkilerini sınırlayan ve parlamenter sistemi güçlendiren bu metin, sonraki 'krallık demokrasisi' döneminin hukukî zeminini oluşturdu.",
   kaynak:"TDV `yunanistan`: '1864'te meclis daha demokratik yeni bir anayasa hazırladı.' TDV yalnız yıl veriyor, gün/ay yok — kural gereği YYYY-01-01 yazıldı." },
 
-{ taraflar:["yunanistan"], t:"1864-05-21", b:"İyon adalarının Yunanistan'a katılması", tur:"savas",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1864-05-21", b:"İyon adalarının Yunanistan'a katılması", tur:"savas",
   onem:4, dunya:2, kapsam:"ic", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"], yer_id:"",
   d:"İngiltere'nin 1815'ten beri koruyuculuğunda tuttuğu İyon Adaları (Korfu, Kefalonya, Zanta vd.), Kral Georgios'un tahta çıkışına 'düğün hediyesi' olarak Yunanistan'a devredildi.",
   kaynak:"bulunamadı — TDV `yunanistan` maddesinde İyon adalarının katılımı ayrı bir olay olarak anılmıyor; dayanak: standart akademik kaynak (Treaty of London 1864, antlaşma 29 Mart 1864, yürürlük 21 Mayıs 1864)." },
 
-{ taraflar:["yunanistan"], t:"1823-01-01", b:"Solomos'un 'Özgürlüğe İlahi' şiirini yazması", tur:"kultur",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1823-01-01", b:"Solomos'un 'Özgürlüğe İlahi' şiirini yazması", tur:"kultur",
   onem:3, dunya:2, kapsam:"ic", etiket:["kultur","edebiyat","konu-kultur"], yer_id:"",
   d:"Zakintoslu şair Dionysios Solomos, bağımsızlık mücadelesinin ortasında 158 kıtalık 'Özgürlüğe İlahi' şiirini kaleme aldı. Şiir kısa sürede Yunan millî bilincinin en güçlü edebî ifadesi hâline geldi ve kırk iki yıl sonra millî marş olarak kabul edilecekti.",
   kaynak:"bulunamadı — TDV `yunanistan` edebiyat tarihine girmiyor; dayanak: standart akademik kaynak (Encyclopaedia Britannica, 'Dionysios Solomos')." },
 
-{ taraflar:["yunanistan"], t:"1865-01-01", b:"'Özgürlüğe İlahi'nin millî marş olarak kabulü", tur:"kultur",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1865-01-01", b:"'Özgürlüğe İlahi'nin millî marş olarak kabulü", tur:"kultur",
   onem:2, dunya:1, kapsam:"ic", etiket:["kultur","konu-kultur"], yer_id:"",
   d:"Solomos'un 1823'te yazdığı şiirin ilk kıtaları, Nikolaos Mantzaros'un bestesiyle Yunanistan'ın resmî millî marşı olarak kabul edildi.",
   kaynak:"bulunamadı — TDV bu konuyu anmıyor; dayanak: standart akademik kaynak (Britannica, 'Hymn to Liberty')." },
@@ -915,7 +915,7 @@ window.KRONOLOJI_BALKAN = [
   d:"1877-1878 Osmanlı-Rus Savaşı'nın ardından İstanbul'da imzalanan bir antlaşmayla Tesalya (Yenişehir/Larissa dahil) ve Epir'in bir bölümü Yunanistan'a bırakıldı. Bölgedeki müslüman nüfus hızla göç etmeye başladı.",
   kaynak:"TDV `yunanistan`: '1877-1878 Osmanlı-Rus Savaşı'ndan sonra Osmanlı Devleti ile Yunanistan arasında 1881'de İstanbul'da yapılan bir antlaşmayla Tesalya Yunanistan'a bırakıldı.' Tam gün TDV'de yok; dayanak: standart akademik kaynak (Convention of Constantinople 1881)." },
 
-{ taraflar:["yunanistan"], t:"1893-08-06", b:"Korint Kanalı'nın açılması", tur:"bilim",
+{ odak_yer:["Korint"], taraflar:["yunanistan"], t:"1893-08-06", b:"Korint Kanalı'nın açılması", tur:"bilim",
   onem:3, dunya:2, kapsam:"ic", etiket:["bilim","muhendislik","imar","islahat","konu-bilim","konu-imar","konu-islahat","konu-ulastirma"], yer_id:"",
   d:"Antik çağdan beri hayal edilen, Mora yarımadasını anakaradan ayıran Korint Kanalı tamamlandı ve İyon denizini Ege'ye bağladı. Proje on bir yıl sürmüş, Yunan devleti için hem mühendislik hem malî açıdan büyük bir yük olmuştu.",
   kaynak:"TDV `yunanistan` (coğrafya bölümü) kanalın varlığını anıyor ama açılış tarihini vermiyor; dayanak: standart akademik kaynak (Britannica, 'Corinth Canal')." },
@@ -935,7 +935,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Prens Georgios kumandasındaki bir Yunan filosunun Girit'e asker çıkarıp adayı ilhak ettiğini ilan etmesi (16 Şubat 1897) ve Rumeli sınırındaki çete saldırıları üzerine Osmanlı Devleti Yunanistan'a savaş ilan etti.", ic_not_d:"data/devletler.js embedded kronolojisi aynı olayı 1897-04-18 yazıyor — bir günlük çelişki, koordinatöre bildirilir; bu maddede olaylar_ek5.js'in tarihi (04-17) kullanıldı.",
   kaynak:"data/olaylar_ek5.js:385 ile birebir aynı olay, 1897-04-17 tarihiyle zaten doğrulanmış. TDV `girit` maddesi ayrıca Girit'e çıkarmayı 13 Şubat, Vassos'un ilhak beyannamesini 16 Şubat 1897 olarak veriyor." },
 
-{ taraflar:["yunanistan"], t:"1897-05-17", b:"Dömeke Savaşı", tur:"savas",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1897-05-17", b:"Dömeke Savaşı", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","savas","konu-askeri"], yer_id:"",
   d:"Osmanlı ordusu, Teselya cephesinde ilerleyerek Yenişehir ve Çatalca'nın ardından Dömeke'de Yunan ordusunu kesin biçimde bozguna uğrattı. Savaş II. Abdülhamid devrinin tek kesin askerî zaferi olarak kalsa da büyük devletlerin araya girmesiyle kazanılan topraklar Yunanistan'a iade edildi.",
   kaynak:"data/savaslar.js:267 ('Dömeke', 1897-05-17, seri:yunan, galip:osmanli) — zaten doğrulanmış kayıt. TDV `yunanistan`: 'Yunanistan bu savaşta ağır bir yenilgiye uğradı ve Osmanlı ordusunun ilerlemesi büyük güçlerin aracılığıyla durduruldu.'" },
@@ -1030,7 +1030,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Kral Aleksandros, Tatoi'deki kraliyet arazisinde bir maymun tarafından ısırılması sonucu gelişen kan zehirlenmesinden yirmi yedi yaşında öldü. Ani ölüm, sürgündeki babası Konstantinos'un geri çağrılmasına ve seçimlerde Venizelos'un iktidarı kaybetmesine yol açan siyasî zincirin ilk halkasıydı.",
   kaynak:"bulunamadı — TDV `yunanistan` bu olayı anmıyor; dayanak: standart akademik/tarihsel referans (History.com)." },
 
-{ taraflar:["yunanistan"], t:"1922-08-26", b:"Büyük Taarruz'un başlaması", tur:"savas",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1922-08-26", b:"Büyük Taarruz'un başlaması", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","toprak-kayip","konu-askeri"], yer_id:"",
   d:"Mustafa Kemal Paşa önderliğindeki Türk ordusunun Afyon-Dumlupınar hattında başlattığı taarruz, üç haftada Yunan cephesini tamamen çökertti. Yunanistan için savaşın kaderini belirleyen dönüm noktasıydı.",
   kaynak:"data/savaslar.js:685 ('Büyük Taarruz (1922)', f:'1922-08-26', t:'1922-09-18') — zaten doğrulanmış kayıt, Yunanistan perspektifine uyarlandı." },

@@ -45,7 +45,7 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"Faysal 23 Ağustos 1921'de İngiliz desteğiyle Irak tahtına çıktı. İran ile sınır, 1913 İstanbul Protokolü ve 1914 komisyonunun direklerle işaretlediği Osmanlı-İran hattı olarak kaldı. İran bu hattın geçerliliğine sonradan (1934–35) itiraz etti. Şattülarap kesimi 1937 ve 1975'te değişti.",
   kaynak:"TDV irak--ulke ve faysal-i (23 Ağustos 1921) · IBS No. 164 Iran–Iraq (1914 işaretlemesi; 1934–35 itirazı; 1937 ve 1975 değişiklikleri)" },
 
-{ t:"1923-03-07", devlet:"filistin-mandasi", devletler:["filistin-mandasi","suriye-lubnan-mandasi"], sinir_id:"d1923-fi-lb",
+{ odak_yer:["Filistin","Suriye","Lübnan"], t:"1923-03-07", devlet:"filistin-mandasi", devletler:["filistin-mandasi","suriye-lubnan-mandasi"], sinir_id:"d1923-fi-lb",
   b:"Paulet–Newcombe sınır raporu imzalandı — Filistin ile Suriye-Lübnan arasındaki hat", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","filistin-mandasi","suriye-lubnan-mandasi"],
   d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı.", ic_not_d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı. Hattın yerleşim kaydı yok: sınır boyunda (Nakura–Hasbani) atlasta nokta bulunamadı.",
@@ -112,25 +112,25 @@ window.KRONOLOJI_SINIR_KOMSU = [
 // kutuları; hukukî değişiklik yine de madde alır. Rus tarihleri IBS'te tek yazıldığında
 // Jülyen olabilir (D110) — metinde belirtildi.
 
-{ t:"1813-10-24", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g5-rus-ir-DEGISTI-gulistan",
+{ odak_yer:["Kafkasya"], t:"1813-10-24", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g5-rus-ir-DEGISTI-gulistan",
   b:"Gülistan Antlaşması: Kafkasya'daki hanlıklar Rusya'ya bırakıldı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
   d:"1804–1813 Rus-İran savaşının sonunda imzalanan Gülistan Antlaşması (md. II) ile İran Gence, Şeki, Şirvan, Bakü, Karabağ, Derbend, Kuba ve Talış hanlıklarını Rusya'ya bıraktı (TDV azerbaycan ve feth-ali-sah birlikte). Revan ve Nahçıvan hanlıkları İran'da kaldı. İmza günü 24 Ekim 1813'tür: Encyclopaedia Iranica 29 Şevval 1228 / 24 Ekim 1813 veriyor ve IBS 25'in 12 Ekim'ini (Hurewitz) ayrıca anıyor — 12 Ekim Jülyen karşılığıdır (onay 15 Eylül 1814, Tiflis). TDV feth-ali-sah 24 Kasım 1813 diyor; bu fark çözülmedi. Hattın koordinatı elde yok.",
   kaynak:"Encyclopaedia Iranica 'GOLESTĀN TREATY' (E. L. Daniel): 'concluded on 29 Šawwāl 1228/24 October 1813 (12 October according to Hurewitz, I, p. 197; 21 October in Pakravan, p. 156)' · IBS No. 25 Iran–U.S.S.R. s.4, 11 (BFSP 5:1109) · TDV feth-ali-sah ('24 Kasım 1813') · TDV azerbaycan ve iran (1813)" },
 
-{ t:"1828-02-22", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-aras-talis",
+{ odak_yer:["Nahçıvan","Revan"], t:"1828-02-22", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-aras-talis",
   b:"Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
   d:"1826–1828 savaşını bitiren Türkmençay Antlaşması (md. IV) ile Revan ve Nahçıvan hanlıkları Rusya'ya geçti. Aras nehri Hazar'ın batısında iki devletin sınırı oldu. Rusya'ya Abbasabad karşısında Aras'ın sağ kıyısında bir köprübaşı bırakıldı; burası 1893'e kadar Rusya'da kaldı. TDV ve IBS 10 Şubat 1828 veriyor; bu Rus (Jülyen) takvimidir, 19. yüzyılda +12 gün ile Gregoryen 22 Şubat 1828 eder. Bugünkü hat 1954–1970 değişiklikleri yüzünden 1828 hattını göstermez.",
   kaynak:"TDV feth-ali-sah ('Türkmençay Antlaşması imzalandı (10 Şubat 1828)') · TDV revan · IBS No. 25 s.4, 11 (BFSP 15:669)" },
 
-{ t:"1869-12-13", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-atrek",
+{ odak_yer:["İran"], t:"1869-12-13", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-atrek",
   b:"Rus-İran anlaşması: aşağı Atrek nehri Hazar doğusunda sınır sayıldı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
   d:"Rusya'nın Hazar ötesindeki ilerleyişi İran sınırına dayanınca 13 Aralık 1869 tarihli anlaşma aşağı Atrek'i, Hazar kıyısından doğuya yaklaşık 30 millik bir kesimde, iki devletin sınırı olarak tanıdı. Tarih IBS'te tek yazılmıştır, Jülyen olabilir.",
   kaynak:"IBS No. 25 s.4, 12 ('recognizing the Atrek River as the boundary, December 13, 1869')" },
 
-{ t:"1881-12-21", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-hazar-serahs",
+{ odak_yer:["İran"], t:"1881-12-21", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-hazar-serahs",
   b:"Ahal-Horasan Sözleşmesi: Rus-İran sınırı Babadurmaz'a kadar çizildi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
   d:"9/21 Aralık 1881 sözleşmesinin I. maddesi Hazar doğusundaki sınırı Atrek'ten Aşkabat'ın doğusundaki Babadurmaz'a kadar çizdi ve 1869 Atrek hattını teyit etti. Ardından gelen protokoller küçük toprak değişiklikleri ve daha ayrıntılı tahdit getirdi.",
@@ -146,19 +146,19 @@ window.KRONOLOJI_SINIR_KOMSU = [
 // İki TDV maddesi çelişiyor (yıl 1723/1724; Derbend-Bakü'nün iadesi Reşt 1732 / Gence 1735).
 // Taraf seçilmedi, çelişki metinde.
 
-{ t:"1723-09-23", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1723",
+{ odak_yer:["Derbend","Bakü"], t:"1723-09-23", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1723",
   b:"Petersburg Antlaşması: Derbend, Bakü ve Hazar'ın güney kıyıları Rusya'ya bırakıldı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","safevi","rusya"],
   d:"İran'daki karışıklıktan yararlanan I. Petro Ağustos 1722'de Derbend'i işgal etti. 12 Eylül 1723'te Petersburg'da imzalanan antlaşma ile Derbend, Bakü ve Hazar'ın güney kıyılarının büyük bölümü Rusya'ya bırakıldı. TDV'nin dagistan maddesi bu antlaşmayı 1724'e koyuyor. Gün: TDV derbend--dagistan '12 Eylül 1723' veriyor; bu Rus (Jülyen) takvimidir, 18. yüzyılda +11 gün ile Gregoryen 23 Eylül 1723 eder. Hattın koordinatı yok.",
   kaynak:"TDV derbend--dagistan ('12 Eylül 1723’te Petersburg’da imzalanan antlaşma') · TDV baku ('1723’te I. Petro tarafından Rus topraklarına katıldı') · TDV dagistan (1724 — çelişki)" },
 
-{ t:"1732-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
+{ odak_yer:["Reşt","İran"], t:"1732-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
   b:"Reşt Antlaşması: Rusya Hazar kıyısındaki toprakların bir kısmını İran'a iade etti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","safevi","rusya","nadir-sah"],
   d:"Nâdir'in Ruslara karşı yürüttüğü mücadele sonunda 1732'de Reşt Antlaşması imzalandı. TDV dagistan maddesine göre bu antlaşmayla Dağıstan'ın güneyi, Derbend ve Bakü İran'a geçti. TDV derbend--dagistan ise Derbend ile Bakü'nün iadesini 1735 Gence Antlaşması'na bağlıyor. Çelişki çözülmedi. Tarih yalnız YIL düzeyindedir.",
   kaynak:"TDV dagistan ('1732’de imzalanan Reşt Antlaşması’yla') · TDV derbend--dagistan (iade 1735 — çelişki)" },
 
-{ t:"1735-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
+{ odak_yer:["Gence"], t:"1735-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
   b:"Gence Antlaşması: Rusya Hazar kıyısından çekildi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","safevi","rusya","nadir-sah"],
   d:"Osmanlı ve Kırım'ın Dağıstan'daki faaliyetleri ve İran'da merkezî idarenin güçlenmesi Rusya'yı 1735 Gence Antlaşması'na zorladı. TDV derbend--dagistan'a göre Derbend, Bakü ve Hazar kıyısındaki öteki bölgeler İran'a geri verildi. TDV dagistan ise bu antlaşmaya Sulak ile Kura arasındaki bazı toprakları bağlıyor. Tarih yalnız YIL düzeyindedir.",

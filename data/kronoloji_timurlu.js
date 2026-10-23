@@ -63,7 +63,7 @@ window.KRONOLOJI_TIMURLU = [
 // I. ALTIN ORDA SEFERLERİ VE BATIYA YÖNELİŞ (1391-1401)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1391-06-18", b:"Kunduzca Savaşı — Toktamış'ın ilk yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Semerkant"], t:"1391-06-18", b:"Kunduzca Savaşı — Toktamış'ın ilk yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Timur, kendi eski müttefiki olup sonradan Altın Orda tahtına çıkan Toktamış Han'ın Mâverâünnehir'e yönelik akınlarına son vermek için bozkırın derinliklerine, İdil (Volga) yakınlarındaki Kunduzca'ya kadar üç aylık bir sefer düzenledi ve Toktamış'ın ordusunu ağır bir yenilgiye uğrattı. Toktamış canını zor kurtardı; ama Altın Orda'nın ticaret şehirlerine dokunulmadığı için hanlık kısa sürede toparlanacaktı.",
   kaynak:"TDV `timur`: 1391 (Haziran): Kunduzca'da Toktamış Han'ı yendi — Dikkat: gün TDV'de yok, standart akademik kronolojiyle (18 Haziran 1391) çapraz doğrulandı" },

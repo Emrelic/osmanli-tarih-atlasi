@@ -141,7 +141,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 753–733 (kaynağın verdiği uçlar); orta nokta MÖ 743 = astronomik -0742. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2. Kaynaktan okunan: «For Tongatapu, the end date is 2703–2683 cal BP at 68.2% probability with the duration of the Lapita phase being 129–158 years.». bit blogu SITENIN bitisi degil, Tongatapu'daki Lapita (dentate seramik) EVRESININ bitisidir ve yalniz iki sitelik modele dayanir (kaynak kendisi bu cekinceyi koyuyor). Bayesci Tongatapu baslangic sinir tahmini %68.2'de 2863-2835 cal BP (MO 913-885) - U/Th tarihiyle neredeyse ayni. Ha'apai ve Va'vau icin %68.2 araliklari 2772-2716 ve 2805-2680 cal BP. Tonga Duz Seramik evresi 2350 cal BP'den sonra sona erer (Burley vd. 2018, PLoS ONE 13(2): e0193166, PMC5825035). cal BP->MO: BP-1950, bu oturumda. U/Th tarihi karbon-14 degil; 'kalibre-14C' etiketi bilerek kullanilmadi."
  },
- {
+ { "odak_yer":["Tonalá"], 
   "t": "-0749-01-01",
   "k": "kurulus",
   "b": "Izapa (Chiapas): Orta Formatif krallik baskenti ve ilk beyaz kil yuzey: Izapa: Orta Formatif iskânı",

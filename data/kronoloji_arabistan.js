@@ -356,13 +356,13 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Babasının deniz savaşında ölümü üzerine on üç yaşındaki Saîd b. Sultân, kardeşi Sâlim'le birlikte Uman, Basra körfezi adaları ve Zengibar topraklarını yönetmeye başladı — elli iki yıl sürecek ve Uman'ı bir Hint Okyanusu ticaret imparatorluğuna dönüştürecek bir hükümdarlığın başlangıcı.",
   kaynak:"TDV `said-b-sultan`: 1804 - Babasının deniz savaşında ölümünün ardından tahta çıktı; Uman, Basra körfezi adaları ve Zengibar topraklarını kardeşi Sâlim'le birlikte yönetti." },
 
-{ taraflar:["umman"], t:"1806-01-01", b:"Kuzeni Bedr b. Seyf bertaraf edildi", tur:"siyaset",
+{ odak_yer:["Nizva"], taraflar:["umman"], t:"1806-01-01", b:"Kuzeni Bedr b. Seyf bertaraf edildi", tur:"siyaset",
   onem:2, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   yer_id:"",
   d:"Suûdîler'in desteklediği kuzeni Bedr b. Seyf'i bertaraf ederek Saîd b. Sultân kendi iktidarını sağlamlaştırdı — Uman'ın kuzey Arabistan'daki Vehhâbî nüfuzuyla ilk doğrudan sürtüşmelerinden biri.",
   kaynak:"TDV `said-b-sultan`: 1806 - Suûdîler'in desteklediği kuzeni Bedr b. Sayf'ı bertaraf ederek iktidarını sağlamlaştırdı." },
 
-{ taraflar:["umman"], t:"1821-01-01", b:"Kardeşi Sâlim'in ölümüyle tek hükümdar oldu", tur:"hukumdar",
+{ odak_yer:["Nizva"], taraflar:["umman"], t:"1821-01-01", b:"Kardeşi Sâlim'in ölümüyle tek hükümdar oldu", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"On yedi yıl süren ortak yönetimin ardından kardeşi Sâlim'in ölümüyle Saîd b. Sultân, Uman ve Zengibar topraklarının tek hâkimi oldu.",
@@ -416,7 +416,7 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Maskat kolunun hükümdarı Süveynî, kendi oğlu Sâlim tarafından öldürüldü — hanedanın Maskat şubesindeki iç istikrarsızlığın bir başka örneği.",
   kaynak:"TDV `uman`: 1866: Sultan Thuwaini murdered by son Salim." },
 
-{ taraflar:["umman"], t:"1868-01-01", b:"Azzam b. Kays, Bû Saîd hattından son imam oldu", tur:"hukumdar",
+{ odak_yer:["Nizva"], taraflar:["umman"], t:"1868-01-01", b:"Azzam b. Kays, Bû Saîd hattından son imam oldu", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","din","konu-hanedan","konu-din"],
   yer_id:"",
   d:"Azzam b. Kays'ın imamet makamına gelmesiyle Bû Saîd hattından gelen son İbâdî imam tahta çıktı; bu tarihten sonra Maskat sultanlığı fiilen dünyevi bir monarşiye dönüşecekti.",

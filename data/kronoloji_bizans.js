@@ -129,7 +129,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 // ═══════════ II. OSMANLI'NIN DOĞUŞU ve KATALANLAR (1300-1330) ═══════════
-{ t:"1302-07-27", b:"KOYUNHİSAR (Bapheus) — Osman Gazi'nin ilk zaferi", tur:"savas",
+{ odak_yer:["Karabiga"], t:"1302-07-27", b:"KOYUNHİSAR (Bapheus) — Osman Gazi'nin ilk zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"Pachymeres'in kaydına göre Yalova yakınında yapılan savaşta Osman Gazi imparatorluk kuvvetlerini yendi. Bu, Osmanlı Beyliği ile Bizans arasındaki ilk meydan savaşıdır ve Bizans'ın Bitinya'daki şehirlerinin birer birer kuşatılmasının önünü açtı.",
@@ -178,7 +178,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Torun dedesini tahttan indirerek başkente girdi. Yeni imparator Anadolu'yu kurtarmayı denedi ama elinde kalan kuvvet bunun için çoktan yetersizdi.",
   kaynak:"Encyclopaedia Britannica, «Andronicus III Palaeologus» https://www.britannica.com/biography/Andronicus-III-Palaeologus — «In May 1328, after forcing his grandfather to abdicate … he became sole ruler» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1328-05-24; güvenilir kaynağın tarihi: 1328-05; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1329-06-01", b:"Pelekanon bozgunu — Anadolu'yu kurtarma girişimi çöktü", tur:"savas",
+{ odak_yer:["Pelekanon"], t:"1329-06-01", b:"Pelekanon bozgunu — Anadolu'yu kurtarma girişimi çöktü", tur:"savas",
   onem:5, dunya:2, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"İmparatorun bizzat kumanda ettiği ordu Orhan Gazi karşısında yenildi ve kendisi yaralandı. Bu, bir Bizans imparatorunun Osmanlılara karşı Anadolu'da yönettiği son sefer oldu; bundan sonra İznik ve İzmit yardımsız bırakıldı.",
@@ -272,7 +272,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"Encyclopaedia Britannica, «John VI Cantacuzenus» https://www.britannica.com/biography/John-VI-Cantacuzenus — «succeeded in retaking Constantinople in 1354. Cantacuzenus was forced to abdicate» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1354-11-22; güvenilir kaynağın tarihi: 1354; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // ═══════════ IV. TÂBİYET YILLARI (1355-1402) ═══════════
-{ t:"1355-12-20", b:"Stefan Dušan öldü — Sırp imparatorluğu dağıldı", tur:"son",
+{ odak_yer:["Karabiga"], t:"1355-12-20", b:"Stefan Dušan öldü — Sırp imparatorluğu dağıldı", tur:"son",
   onem:4, dunya:2, kapsam:"dis", etiket:["siyaset","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"Balkanlar'da Bizans'ın yerini almaya en yakın gücün ani ölümüyle Sırp devleti parçalandı. Bizans bu ölümden bir nefes aldı ama boşluğu dolduran Sırbistan değil, Rumeli'ye yeni geçmiş Osmanlılar oldu.",
@@ -356,7 +356,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Uzun kuşatmanın ardından Selanik Osmanlı idaresine girdi. Bizans'ın elinde başkent, Mora ve birkaç ada dışında neredeyse hiçbir şey kalmamıştı.",
   kaynak:"TDV İslâm Ansiklopedisi, «Murad I» https://islamansiklopedisi.org.tr/murad-i — «1387 Nisanında düşmüştü» [yalnız yıl teyitli; gün teyitsiz] ; el-kitabi" },
 
-{ t:"1389-06-15", b:"I. Kosova — Balkan direnişi kırıldı", tur:"savas",
+{ odak_yer:["Karabiga"], t:"1389-06-15", b:"I. Kosova — Balkan direnişi kırıldı", tur:"savas",
   onem:4, dunya:4, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"",
   d:"Sırp ordusunun yenilgisiyle Balkanlar'daki son ciddi direniş bloğu dağıldı ve Bizans'ın kara yoluyla Batı'ya ulaşma ihtimali kapandı. Muharebe hem Osmanlı hem Sırp hem de Bizans anlatısında bir dönemin kapanışı olarak okunur.",
@@ -424,7 +424,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Fetret devrinde tahtı arayan Süleyman Çelebi, Bizans'ın desteğini almak için Selanik'i ve Karadeniz kıyısındaki bazı yerleri geri verdi, tâbiyeti kaldırdı. Bizans, yüz yıl sonra ilk kez toprak kazandı — ama bunu kendi gücüyle değil, rakibinin bölünmesiyle elde etti.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bizans» https://islamansiklopedisi.org.tr/bizans — «önce Süleyman Çelebi ile 1403'te bir anlaşma yaptı» ; el-kitabi" },
 
-{ t:"1408-01-01", b:"Mora Despotluğu güçlendi — Mistra'nın yükselişi", tur:"toprak-kazanc",
+{ odak_yer:["Karabiga"], t:"1408-01-01", b:"Mora Despotluğu güçlendi — Mistra'nın yükselişi", tur:"toprak-kazanc",
   onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","kultur","konu-askeri","konu-siyasi","konu-kultur"],
   yer_id:"",
   d:"Despot Theodoros idaresinde Mora, imparatorluğun en canlı parçası hâline geldi ve Mistra bir düşünce merkezine dönüştü. Bizans'ın son kültürel parlaması başkentte değil burada yaşandı.",
@@ -437,13 +437,13 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"TDV İslâm Ansiklopedisi, «Mûsâ Çelebi» https://islamansiklopedisi.org.tr/musa-celebi — «Daha sonra 1411 sonbaharında ansızın İstanbul önlerine gelip şehri kuşattı» ; el-kitabi",
   ic_not_t:"eski gün 1411-06-01 TDV'de yok; TDV (ham metin 14 Ekim 2026 okundu) yalnız «1411 sonbaharı» der — mevsim ay değildir ⇒ yıl düzeyi (1411-01-01). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014); olaylar_ek3 ve savaslar.js birlikte düzeltildi." },
 
-{ t:"1413-07-05", b:"Çelebi Mehmed birliği sağladı — Bizans'ın kazandığı alan daraldı", tur:"siyaset",
+{ odak_yer:["Karabiga"], t:"1413-07-05", b:"Çelebi Mehmed birliği sağladı — Bizans'ın kazandığı alan daraldı", tur:"siyaset",
   onem:4, dunya:2, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   yer_id:"",
   d:"Bizans'ın desteklediği Mehmed Çelebi kardeşlerini yenerek Osmanlı birliğini yeniden kurdu. Fetret devrinin sona ermesi, imparatorluğun oynayacak kartının kalmaması demekti; yeni sultan yine de barışçı bir siyaset izledi.",
   kaynak:"TDV İslâm Ansiklopedisi, «Mehmed I» https://islamansiklopedisi.org.tr/mehmed-i — «5 Rebîülâhir 816'da (5 Temmuz 1413) rakibini yendi ve saf dışı bıraktı» ; el-kitabi" },
 
-{ t:"1415-01-01", b:"Hexamilion yeniden inşa edildi — Mora'yı kapatma girişimi", tur:"kurulus",
+{ odak_yer:["Karabiga"], t:"1415-01-01", b:"Hexamilion yeniden inşa edildi — Mora'yı kapatma girişimi", tur:"kurulus",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-imar"],
   yer_id:"",
   d:"II. Manuel, Korint berzahını kapatan altı millik suru yeniden yaptırdı ve masrafını Moralı toprak sahiplerine yükledi. Sur otuz yıl sonra topla yıkılacaktı; Bizans'ın son büyük inşa hamlesi buydu.",
@@ -487,7 +487,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Elli yılını imparatorluğu ayakta tutmaya harcamış, Avrupa'yı dolaşmış ve yazdığı ilahiyat metinleriyle de tanınan imparator öldü. Oğluna bıraktığı öğüt kayıtlara geçti: Osmanlı'yla açık çatışmadan kaçın, birlik pazarlığını sürekli sürüncemede tut ama asla sonuçlandırma.",
   kaynak:"Encyclopaedia Britannica, «Manuel II Palaeologus» https://www.britannica.com/biography/Manuel-II-Palaeologus — «Manuel II Palaeologus (born July 27, 1350—died July 21, 1425)» ; el-kitabi" },
 
-{ t:"1430-01-01", b:"Mora'da son Latin toprakları geri alındı", tur:"toprak-kazanc",
+{ odak_yer:["Karabiga"], t:"1430-01-01", b:"Mora'da son Latin toprakları geri alındı", tur:"toprak-kazanc",
   onem:4, dunya:1, kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
   yer_id:"",
   d:"Despotlar Konstantinos ve Thomas, Frank prensliğinden kalan yerleri alarak Mora'yı neredeyse bütünüyle Bizans idaresinde birleştirdi. İmparatorluğun son toprak kazancı budur — ve başkentte değil, yarımadada gerçekleşti.",
@@ -524,19 +524,19 @@ window.KRONOLOJI_BIZANS = [
   d:"Floransa Birliği'nin karşılığı olarak toplanan haçlı ordusu II. Murad karşısında yok edildi ve Lehistan-Macaristan kralı savaş alanında öldü. Bizans için bu, birlik uğruna ödenen bedelin boşa gittiğinin kanıtıydı: Batı yardımı bir daha gelmeyecekti.",
   kaynak:"varna-muharebesi" },
 
-{ t:"1446-12-10", b:"Hexamilion duvarı yıkıldı — Mora savunmasız kaldı", tur:"toprak-kayip",
+{ odak_yer:["Karabiga"], t:"1446-12-10", b:"Hexamilion duvarı yıkıldı — Mora savunmasız kaldı", tur:"toprak-kayip",
   onem:4, dunya:1, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"Korint berzahını kapatan sur II. Murad tarafından topla yıkıldı ve Mora yağmalandı. Despotluk haraca bağlandı; imparatorluğun son toprak parçası da güvencesizdi.",
   kaynak:"TDV İslâm Ansiklopedisi, «Murad II» https://islamansiklopedisi.org.tr/murad-ii — «Surlar ele geçirilip yıkıldı (21 Ramazan / 10 Aralık)» ; el-kitabi" },
 
-{ t:"1448-10-17", b:"II. Kosova — Balkanlar'daki son haçlı umudu bitti", tur:"savas",
+{ odak_yer:["Balkanlar"], t:"1448-10-17", b:"II. Kosova — Balkanlar'daki son haçlı umudu bitti", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"",
   d:"Hunyadi'nin ordusu üç günlük muharebede yenildi. Bizans'ı kurtarabilecek son kara ordusu da dağıldı ve başkent tamamen yalnız kaldı.",
   kaynak:"TDV İslâm Ansiklopedisi, «Murad II» https://islamansiklopedisi.org.tr/murad-ii — «Macarlar yenildi (18-21 Şâban 852 / 17-20 Ekim 1448)» ; el-kitabi" },
 
-{ t:"1449-01-06", b:"XI. Konstantinos son imparator oldu — taç Mistra'da giyildi", tur:"hukumdar",
+{ odak_yer:["Karabiga"], t:"1449-01-06", b:"XI. Konstantinos son imparator oldu — taç Mistra'da giyildi", tur:"hukumdar",
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
   yer_id:"",
   d:"Son imparator Ayasofya'da değil, Mora'daki Mistra'da taç giydi; başkentte birlik yüzünden bölünmüş kilisenin töreni yapamayacağı düşünülmüştü. Bizans anlatısında bu ayrıntı, devletin sonunun ilanı gibi okunur.",
@@ -590,7 +590,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Elli üç günlük kuşatmanın ardından şehir alındı; son imparator XI. Konstantinos surlarda savaşırken öldü ve cesedi kesin olarak teşhis edilemedi. Bin yüz yıllık Doğu Roma İmparatorluğu sona erdi. Bu tarih hem Osmanlı hem Bizans hem de Avrupa tarihyazımında bir çağın kapanışı sayılır — Osmanlı için bir dönüm noktası, Bizans için son, dünya için devletler sisteminin yeniden kurulduğu andır.",
   kaynak:"bizans" },
 
-{ t:"1460-05-31", b:"Mora Despotluğu ilhak edildi — son Bizans toprağı", tur:"son",
+{ odak_yer:["Karabiga"], t:"1460-05-31", b:"Mora Despotluğu ilhak edildi — son Bizans toprağı", tur:"son",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Başkentin düşüşünden yedi yıl sonra Palaiologos hanedanının elindeki son toprak da Osmanlı'ya katıldı.", ic_not_d:"⚠️ Bu madde dosyanın 1281-1453 kapsamının DIŞINDADIR; anlatı kapanmadan bitmesin diye epilog olarak kondu. Trabzon Rum İmparatorluğu (1461) AYRI bir künyedir ve bu dosyaya alınmadı.",
@@ -659,7 +659,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Bizanslı diplomat ve bilgin Khrysoloras, Floransa'da Batı'nın ilk düzenli Grekçe kürsüsünü kurdu. Öğrencileri İtalyan hümanizminin kurucu kuşağını oluşturdu; Antik Yunan metinlerinin Batı'ya dönüşü büyük ölçüde bu kürsüden başlar.",
   kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1410-01-01", b:"Georgios Gemistos Plethon Mistra'da ders vermeye başladı", tur:"kultur",
+{ odak_yer:["Karabiga"], t:"1410-01-01", b:"Georgios Gemistos Plethon Mistra'da ders vermeye başladı", tur:"kultur",
   onem:3, dunya:3, kapsam:"ic", etiket:["kultur","konu-kultur"],
   yer_id:"",
   d:"Platon'u Aristo'ya üstün tutan ve Bizans'a köklü bir siyasî yenilenme öneren Plethon, Mora'daki Mistra'yı bir felsefe merkezine çevirdi.", ic_not_d:"Mistra'nın yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
@@ -683,7 +683,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Bilgin ve astronom Gregoras, kendi çağını da içine alan otuz yedi kitaplık bir tarih yazdı; ayrıca takvim reformu önerdi ve güneş tutulmalarını hesapladı. Hesykhast tartışmasında yenilen taraftaydı ve eseri bu yüzden hem tarih hem savunma metnidir.",
   kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1428-05-01", b:"Mistra Mora'nın merkezi oldu — son Bizans canlanması", tur:"kultur",
+{ odak_yer:["Karabiga"], t:"1428-05-01", b:"Mistra Mora'nın merkezi oldu — son Bizans canlanması", tur:"kultur",
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur","idari","konu-idari","konu-kultur"],
   yer_id:"",
   d:"Palaiologos hanedanının Mora'daki despotluğu, Latin beyliklerini tasfiye ederek yarımadanın büyük kısmını birleştirdi ve Mistra bir saray, kilise ve felsefe merkezi hâline geldi. İmparatorluk başkentte küçülürken taşrada kısa bir kültürel yükseliş yaşandı.",

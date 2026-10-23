@@ -83,7 +83,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"I. Fernando'nun vârissiz ölümüyle Portekiz tahtı Kastilya kralına kalma tehlikesiyle karşılaştı; Lizbon halkı ve esnafı, Aviz Şövalyeleri büyük üstadı João'yu (gayrimeşru bir kraliyet oğlu) hükümdar naibi ilan etti. İki yıl sürecek bir bağımsızlık savaşının fitili burada ateşlendi.",
   kaynak:"standart akademik kronoloji (Britannica, 'Battle of Aljubarrota'); TDV `portekiz` bu iki yılı 'bağımsız devlet' sürekliliği içinde anar" },
 
-{ t:"1385-08-14", b:"Aljubarrota Savaşı — Aviz hanedanı ve bağımsızlık kesinleşti", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1385-08-14", b:"Aljubarrota Savaşı — Aviz hanedanı ve bağımsızlık kesinleşti", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","hanedan","toprak-kazanc","konu-askeri","konu-hanedan"],
   d:"João'nun (I. João) komutasındaki Portekiz ordusu, İngiliz okçularının da desteğiyle, sayıca çok daha kalabalık bir Kastilya ordusunu Aljubarrota'da ağır bir yenilgiye uğrattı. Zafer Aviz hanedanının tahtını kesinleştirdi ve Portekiz'in iki asır sürecek bağımsızlığını güvenceye aldı; İngiltere ile ittifak (1386 Windsor Antlaşması) bu zaferin doğrudan mirasıdır.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama: Britannica 'Battle of Aljubarrota' (14 Ağustos 1385)" },
@@ -102,7 +102,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Ceuta seferinden dönen Şehzade Henrique, Sagres burnunda kartograflar, denizciler, gökbilimciler ve gemi ustalarından oluşan bir ekip topladı; ekip hem Hıristiyan hem yahudi uzmanları ve Arap kaynaklarını kullandı.", ic_not_d:"⚠️ Modern araştırma, burada efsanevi anlamda bir 'denizcilik okulu' bulunduğu iddiasına şüpheyle yaklaşır — kesin olan, kraliyet destekli sistemli bir keşif teşebbüsünün burada örgütlendiğidir.",
   kaynak:"World History Encyclopedia, 'Prince Henry the Navigator' — akademik tarih ansiklopedisi; makale açıkça 'efsanenin aksine burada resmî bir denizcilik okulu yoktu' notunu düşer" },
 
-{ t:"1434-01-01", b:"Gil Eannes, Bojador Burnu'nu aştı", tur:"bilim", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1434-01-01", b:"Gil Eannes, Bojador Burnu'nu aştı", tur:"bilim", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["bilim","toprak-kazanc","konu-askeri","konu-bilim"],
   d:"O güne dek hiçbir Avrupalı gemicinin geçip geri dönemediği söylenen Bojador Burnu'nu (bugünkü Batı Sahra kıyısı), Henrique'in gönderdiği kaptan Gil Eannes aştı. Efsanevi engelin kırılması, Portekiz kıyı keşiflerinin güneye doğru sistemli biçimde hızlanmasını başlattı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (World History Encyclopedia, 'Prince Henry the Navigator')" },
@@ -112,7 +112,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Genç V. Afonso adına ülkeyi on iki yıl yöneten naip Dük Pedro (Henrique'nin ağabeyi), sarayın kendisine karşı kurduğu ittifakla Alfarrobeira'da yenilip öldürüldü. İç çekişme, keşif seferlerinin finansmanını bir süreliğine sekteye uğratsa da Henrique bizzat savaşta kardeşine karşı krala destek vererek konumunu korudu.",
   kaynak:"Infopédia (Porto Editora), 'Batalha de Alfarrobeira': 20 Mayıs 1449 · A. H. de Oliveira Marques, History of Portugal I (1972)" },
 
-{ t:"1460-11-13", b:"Denizci Henrique'in ölümü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1460-11-13", b:"Denizci Henrique'in ölümü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Kırk yılı aşkın bir süre Afrika kıyısı keşiflerini kişisel servetiyle finanse eden Şehzade Henrique öldüğünde Portekiz gemileri Sierra Leone kıyılarına kadar ulaşmıştı. Onun kurduğu model — kraliyet tekeli altında sistemli, kayıt tutulan keşif — halefleri tarafından aynen sürdürüldü.",
   kaynak:"P. Russell, Prince Henry 'the Navigator': A Life (Yale UP, 2000) · Encyclopaedia of Portuguese Expansion (FCSH-UNL), 'Prince Dom Henrique (1394-1460)': Sagres, 13 Kasım 1460" },
@@ -250,7 +250,7 @@ window.KRONOLOJI_PORTEKIZ = [
 // IV. OSMANLI-PORTEKİZ MÜCADELESİ VE ALTIN ÇAĞIN SONU (1534-1581)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1534-01-01", b:"Brezilya on beş kaptanlığa bölündü", tur:"idari", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1534-01-01", b:"Brezilya on beş kaptanlığa bölündü", tur:"idari", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["idari","toprak-kazanc","konu-askeri","konu-idari"],
   d:"III. João, Brezilya kıyısını Tordesillas hattına kadar uzanan on beş şerit hâlinde bölüp on iki soyluya kalıtsal 'donatary kaptanlıklar' olarak dağıttı; her kaptan kendi masrafıyla toprağı savunmak, iskân etmek ve şeker değirmenleri kurmakla yükümlüydü. Sistem on beş yıl içinde büyük ölçüde başarısız olup çoğu kaptanlık tacına geri döndü, ama bugünkü Brezilya eyalet sınırlarının ilk taslağını çizdi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (donatary kaptanlık sisteminin 1534'te kuruluşu — çoklu akademik özet kaynak)" },
@@ -285,7 +285,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Vasco da Gama'nın oğlu Cristóvão da Gama, Osmanlı destekli Adal Sultanlığı hükümdarı Ahmed Gran'ın istilası altındaki Hıristiyan Habeş Krallığı'na dört yüz tüfekli askerle yardıma gitti. Sefer, Portekiz-Osmanlı rekabetinin Kızıldeniz'in dışına, Doğu Afrika'nın içlerine kadar taştığı ender doğrudan çarpışma alanlarından biridir.",
   kaynak:"TDV `habes-eyaleti` (Ahmed el-Mücâhid'in Habeş seferleri bağlamı); standart akademik kronoloji ile çapraz doğrulama — Dikkat: Cristóvão da Gama'nın 1542'de esir düşüp idam edilişi TDV'de doğrudan geçmiyor" },
 
-{ t:"1543-02-21", b:"Ahmed Gran'ın ölümü — Habeşistan'da Osmanlı-Portekiz vekâlet savaşı sona erdi", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1543-02-21", b:"Ahmed Gran'ın ölümü — Habeşistan'da Osmanlı-Portekiz vekâlet savaşı sona erdi", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","din","konu-askeri","konu-kisiler","konu-din"],
   d:"Osmanlı Yemen valiliğinden silah yardımı alan Adal hükümdarı Ahmed Gran, Cristóvão da Gama'yı önce yenip idam ettirmişti; ama Portekiz destekli Habeş kuvvetleri ertesi yıl onu savaşta öldürdü. Ölümü, bölgedeki müslüman ilerleyişini durdurdu ve Osmanlı'yı 1550'lerden itibaren Habeşistan'a doğrudan bir eyalet (Habeş Eyaleti) kurarak müdahale etmeye yöneltti.",
   kaynak:"TDV `habes-eyaleti`: \"Ahmed el-Mücâhid'in 1543'teki savaşta öldürülmesi\"" },
@@ -335,7 +335,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Sebastião'nun vârissiz ölümünden sonra Portekiz tahtına en güçlü aday olan İspanya Kralı II. Felipe'nin ordusu, rakip aday Dom António'yu Alcântara'da (Lizbon yakınında) kesin bir yenilgiye uğrattı. Zafer, Felipe'nin Portekiz tahtını fiilen ele geçirmesini sağladı; sekiz ay sonra Tomar Cortes'i bunu resmen onaylayacaktı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Battle of Alcântara, 25 Ağustos 1580)" },
 
-{ t:"1581-04-16", b:"Tomar Cortes'i — II. Felipe Portekiz kralı ilan edildi, İberya Birliği başladı", tur:"birlesme", onem:5, dunya:3, kapsam:"ic", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1581-04-16", b:"Tomar Cortes'i — II. Felipe Portekiz kralı ilan edildi, İberya Birliği başladı", tur:"birlesme", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["hanedan","anayasa","konu-siyasi","konu-hanedan","konu-islahat","konu-hukuk"],
   d:"Portekiz kortesleri Tomar'da toplanıp İspanya Kralı II. Felipe'yi I. Felipe unvanıyla Portekiz kralı tanıdı; Felipe karşılığında Portekiz'in kendi hukukunu, parasını, dilini ve denizaşırı imparatorluğunu ayrı tutacağına yemin etti. Altmış yıl sürecek İberya Birliği (1581-1640) böyle başladı — Portekiz bağımsız bir taç olarak değil, kişisel birlik hâlinde varlığını sürdürdü.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Cortes of Tomar, 16 Nisan 1581)" },
@@ -359,7 +359,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Hollanda Doğu Hindistan Şirketi, yerel müttefiki Johor Sultanlığı ile birlikte beş aylık bir kuşatmanın ardından Malaka'yı Portekiz'den aldı; vali Sousa teslim olduktan iki gün sonra öldü. Kayıp, 1511'den beri Portekiz'in elinde olan Malaka Boğazı tekelini sona erdirdi ve Hollanda'nın Güneydoğu Asya ticaretinde Portekiz'in yerini almasının en büyük sembolik dönüm noktasıydı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Siege of Malacca 1640-1641, teslimin 14 Ocak 1641'de gerçekleşmesi — akademik özet kaynaklar)" },
 
-{ t:"1662-05-21", b:"Catherine of Braganza'nın İngiltere kralıyla evliliği — Tanca ve Bombay çeyiz olarak verildi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1662-05-21", b:"Catherine of Braganza'nın İngiltere kralıyla evliliği — Tanca ve Bombay çeyiz olarak verildi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"IV. João'nun kızı Catherine, İngiltere Kralı II. Charles ile evlenerek İngiliz-Portekiz ittifakını güvenceye aldı; çeyiz olarak nakit paranın yanında Tanca ve Bombay limanları İngiltere'ye devredildi (Bombay'ın fiilî teslimi 1665'i buldu). Bu evlilik antlaşması, hâlâ İspanya ile savaş hâlindeki Portekiz'in bağımsızlığını uluslararası güvenceye kavuşturan kilit diplomatik hamlelerden biriydi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (1661 İngiliz-Portekiz evlilik antlaşması, evliliğin 21 Mayıs 1662'de gerçekleşmesi, Bombay'ın 1665'te devri)" },
@@ -482,7 +482,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Kral I. Luís, 1858'den beri sürdürülen kademeli özgürleştirme sürecini tamamlayan bir kararnameyle köleliği Portekiz Krallığı'nın bütün topraklarında (Angola, Mozambik, Goa dahil) hukuken sona erdirdi. Bu, Portekiz'i Avrupa'nın büyük sömürge güçleri arasında köleliği tamamen kaldıran devletlerden biri yaptı — ama zorunlu çalıştırma pratikleri (contrato işçiliği) yirminci yüzyıla dek sürecekti.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (25 Şubat 1869 kölelik kaldırma kararnamesi, Sá da Bandeira'nın girişimiyle)" },
 
-{ t:"1886-02-20", b:"'Pembe Harita' — Angola-Mozambik kıtasal iddiası ilan edildi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1886-02-20", b:"'Pembe Harita' — Angola-Mozambik kıtasal iddiası ilan edildi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Portekiz, Angola ile Mozambik'i birbirine bağlayan Orta Afrika'nın büyük bir kısmını (bugünkü Zambiya, Zimbabve ve Malavi'nin parçaları) kendi nüfuz alanı ilan eden 'Pembe Harita'yı Fransa ve Almanya ile yaptığı antlaşmalarla resmîleştirdi. İddia, İngiltere'nin Kahire-Kap Şehri hattı hedefiyle doğrudan çatışıyordu ve dört yıl içinde bir krize dönüşecekti.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Pink Map / Mapa Cor-de-Rosa, 1886-1888 antlaşmaları)" },
@@ -512,7 +512,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"İngiltere'nin talebiyle Lizbon limanındaki otuz altı Alman ve Avusturya-Macaristan gemisine el konulması üzerine Almanya, Portekiz'e resmen savaş ilan etti; Portekiz karşılık verip müttefiklere katıldı. Angola ve Mozambik sınırlarında Almanlarla çatışmalar 1914'ten beri sürüyordu; savaş ilanı bunu resmî bir cepheye dönüştürdü.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Almanya'nın Portekiz'e savaş ilanı, 9 Mart 1916)" },
 
-{ t:"1917-02-01", b:"Portekiz Seferi Kolordusu Batı Cephesi'ne gönderildi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1917-02-01", b:"Portekiz Seferi Kolordusu Batı Cephesi'ne gönderildi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Portekiz, müttefiklere olan bağlılığını somutlaştırmak için elli bin kişilik bir seferi kolorduyu Fransa'daki Batı Cephesi'ne gönderdi; birlik ertesi yıl Lys Muharebesi'nde ağır kayıplar verecekti. Bu, Portekiz ordusunun kıta Avrupası'nda büyük ölçekli bir savaşa doğrudan katıldığı ilk ve tek modern deneyimdi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Portuguese Expeditionary Corps, Şubat 1917 sevkiyatı)" },

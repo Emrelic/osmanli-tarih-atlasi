@@ -248,7 +248,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4427–4341 (kaynağın verdiği uçlar); orta nokta MÖ 4384 = astronomik -4383. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Bitiş belirsizliği için kaynağın %95,4 aralığı."
  },
- {
+ { "odak_yer":["Mısır"], 
   "t": "-4376-01-01",
   "k": "kurulus",
   "etiket": [
@@ -269,7 +269,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4489–4266 (kaynağın verdiği uçlar); orta nokta MÖ 4377 = astronomik -4376. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Yarım yıl çıktı (4377,5) → daha geç yıla yuvarlandı. TEYİT 20 Ekim 2026: Tablo 1 değerleri (Badarian başlangıç 4489–4266, %95) PMC3780825 tam metninden (Dee vd. 2013, Proc. R. Soc. A 469, Tablo 1) doğrudan okundu; birincil makale okundu."
  },
- {
+ { "odak_yer":["Mısır"], 
   "t": "-3125-01-01",
   "k": "kurulus",
   "etiket": [

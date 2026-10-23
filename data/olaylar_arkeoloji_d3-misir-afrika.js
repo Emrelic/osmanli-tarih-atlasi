@@ -67,7 +67,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1480 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Egyptian Occupation, 1480-1080 B.C. 'Conquest of Nubia by the Egyptian pharaohs of the New Kingdom.'». Sayfa kendi iclerinde tutarsiz: Final Kerma 1480-1450 ile Misir isgalinin 1480 baslangici cakisir; I. Thutmosis 1496-1483 isgal basindan once biter. Bronk Ramsey 2010 (95% hpd): III. Thutmosis tahta cikisi 1498-1474 (Shaw/Hornung okullari 1479/1479). Yeni Krallik SONU/Ucuncu Ara Donem basi icin okunmus kaynak yok: Bronk Ramsey 2010 yalnizca XX. Hanedan'in kral cikislarini verir (Ramses XI cikisi 95%: 1116-1090) - dinastinin bitisi DEGIL."
  },
- {
+ { "odak_yer":["Aba"], 
   "t": "-1499-01-01",
   "k": "gelisme",
   "b": "Nok Kulturu (Orta Nijerya): Nok Kültürü başlar",
@@ -82,7 +82,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Nok culture of central Nigeria (1500-1 cal bc; Breunig and Rupp 2016; Franke 2016a)». Birincil kaynak Franke 2016 (J African Archaeol 14(3):257-289) ve Frankfurt tezi (Potsherds in Time, docId 42210) bot korumasiyla okunamadi -> kutuphane/yerel erisim gerekli. Faz sinirlari (3 faz, 7 seramik grubu) sayisal okunamadi; yalnizca butun kultur ucu ve '900 cal BC' terrakotta esigi. Aynı makale ayni donemde Gajiganna 1800-800, Kintampo 2100-1400, Tichitt ~2000 cal BC verir."
  },
- {
+ { "odak_yer":["Avaris"], 
   "t": "-1531-01-01",
   "k": "kayip",
   "b": "Hiksoslarin Avaris'ten atilisi (Ahmose'nin Avaris fethi): Avaris Ahmose'ye geçer (Hiksos sonu)",
@@ -178,7 +178,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 9250 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «pottery as early as 11,200 cal BP». IKI DEGER: Antiquity 2009 ozeti 'before 9400 cal BC' (= >11350 cal BP, ozet arama sonucundan, sayfa okunmadi); Rotunno-Crema 2025 'as early as 11,200 cal BP' = MO 9250 (calBP-1950, bu oturumda). Fark ~150 yil; tek seçim: alt sinir olarak 9400 (Huysecom orijinali) tercih edilirse tam metin sart. Ham HA2 tarihleri (9758+-70 / 9510+-70 BP) HAM, kalibre degil -> sinir olarak yazilmadi."
  },
- {
+ { "odak_yer":["Aba"], 
   "t": "0000-01-01",
   "k": "kayip",
   "b": "Nok Kulturu (Orta Nijerya): Nok Kültürü sona erer",

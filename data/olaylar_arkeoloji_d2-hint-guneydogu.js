@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Hint alt kıtası, Sri Lanka, Nepal, Güneydoğu Asya (MÖ 8000-MÖ 200) - 2. dalga (d2-hint-guneydogu) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d2-hint-guneydogu.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
- {
+ { "odak_yer":["Anuradhapura"], 
   "t": "-0399-01-01",
   "k": "ilk_anilis",
   "b": "Anuradhapura - en erken tarihli Brahmi yazısı: Brahmi yazılı çanak çömleğin en erken tarihleri",

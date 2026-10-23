@@ -641,7 +641,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İç savaşı bitiren uzlaşma, 'albergo' sistemini kaldırdı ve bütün soyluları tek bir Altın Kitap'a (Liber Nobilitatis) kaydetti; her yıl yeni aileler alınabilecekti. Doge iki yıllık kaldı, Büyük ve Küçük Konsey yetkileri netleşti. Bu anayasa 1797'ye kadar hiç değişmeden yürürlükte kaldı — Cenova tarihinin en uzun ömürlü kurumsal düzenidir.",
   kaynak:"Bitossi, Il governo dei magnifici; Kirk, Genoa and the Sea" },
 
-{ taraflar:["cenova"], t:"1579-01-01",
+{ odak_yer:["Piacenza"], taraflar:["cenova"], t:"1579-01-01",
   b:"Piacenza panayırlarının kurulması — Avrupa kredi piyasasının merkezi",
   tur:"ekonomi", onem:5, dunya:4, kapsam:"dis",
   etiket:["finans","ticaret","kurulus","konu-siyasi","konu-ekonomi"],

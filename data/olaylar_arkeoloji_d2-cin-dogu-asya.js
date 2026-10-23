@@ -99,7 +99,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 13750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. UFUK DIŞI: MÖ 13750, ufuk MÖ 12000'den 1750 yıl önce; tarih aynen tutuldu (harita f'i ufka kenetlenir, varsayılan — Emre değiştirebilir). Kaynaktan okunan: «縄紋時代草創期はおおよそ15，700年前からおおよそ11，600年前まで». cal BP→MÖ: 15700−1950 = 13750; 11600−1950 = 9650 (bu oturumda). Yazar: erken ucu 12450 14C BP'den eski olduğundan kalibrasyon belirsiz; Okinawa hariç ana adalarda ~1500 yıl süren bir dizi. Başlangıç sınırı çanak-çömlek-merkezli tanımdır (Ryūsenmon = 15500 civarı; Ōdai Yamamoto 16000–15500)."
  },
- {
+ { "odak_yer":["Japonya"], 
   "t": "-13799-01-01",
   "k": "ilk_anilis",
   "b": "Ōdai Yamamoto I (Aomori) — Japonya'nın en eski çanak-çömlek yerleşimlerinden: en eski çanak çömlek (Jomon öncesi/erken) icadı",

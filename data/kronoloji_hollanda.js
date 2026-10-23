@@ -73,7 +73,7 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Kuzeydeki vilâyetler ortak savunma ve iç işlerde egemenlik esasına dayanan bir birlik kurdu. Bu metin Birleşik Provinsler'in fiilî anayasası oldu ve 1795'e kadar yürürlükte kaldı; TDV bağımsızlığın kazanıldığı tarih olarak 1579'u verir.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda, 1579 yılında İspanya'dan bağımsızlığını kazandıktan hemen sonra deniz aşırı ülkelere açılmak için büyük çaba harcadı\" · Dikkat: GÜN DOĞRULANMADI" },
 
-{ t:"1581-07-26", b:"Feragat Bildirisi — kralın azledilmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", etiket:["anayasa","isyan","darbe-siyasi","konu-isyan","konu-darbe","konu-islahat","konu-hukuk"], yer_id:"",
+{ odak_yer:["Amsterdam"], t:"1581-07-26", b:"Feragat Bildirisi — kralın azledilmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", etiket:["anayasa","isyan","darbe-siyasi","konu-isyan","konu-darbe","konu-islahat","konu-hukuk"], yer_id:"",
   d:"Genel Meclis, II. Felipe'yi hükümdarlıktan azlettiğini ilan etti: bir hükümdar tebaasına karşı yükümlülüklerini çiğnerse tebaanın onu görevden alma hakkı vardır. Bir halkın kralını hukukî gerekçeyle azlettiği bu metin, Avrupa siyasî düşüncesinde bir ilktir.",
   kaynak:"bulunamadı — okunan kaynaklarda GÜN doğrulanmadı · Dikkat: yer_id BOŞ: Lahey (Den Haag) yerleşim listesinde YOK, oysa Genel Meclis'in merkezidir (ölçüldü)" },
 
@@ -122,7 +122,7 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Akdeniz'de İspanyol donanmasına karşı mücadele eden Kaptanıderyâ Kayserili Halil Paşa, Venedik'teki Hollandalı tüccarlar eliyle Hollanda'ya bir mektup gönderdi. Mektupta padişahın serbest ticaret hakkı tanımaya karar verdiği belirtiliyor ve İstanbul'a bir temsilci gönderilmesi isteniyordu; ilişkiyi başlatan davet Osmanlı tarafından geldi.",
   kaynak:"TDV `hollanda` (gövdesi okundu): Halil Paşa'nın 1610'da gönderdiği mektup ve temsilci daveti (Erdbrink'e atıfla) · Dikkat: GÜN DOĞRULANMADI" },
 
-{ t:"1611-09-07", b:"Cornelis Haga'nın İstanbul'a yola çıkması", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
+{ odak_yer:["İstanbul"], t:"1611-09-07", b:"Cornelis Haga'nın İstanbul'a yola çıkması", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
   d:"Genel Meclis, Halil Paşa'nın teklifini görüşüp Cornelis Haga başkanlığında bir heyet göndermeye karar verdi. Haga'nın tâlimatnâmesi iki maddeydi: esirlerin serbest bırakılması ve Hollanda bayrağı altında ticaret hakkı.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"7 Eylül 1611'de yola çıkan Haga\" · Dikkat: yer_id BOŞ: Lahey yok" },
 
@@ -138,7 +138,7 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Venedik, Fransa ve İngiltere elçilerinin bütün engellemelerine rağmen Haga I. Ahmed'den ahidnâme aldı. Fransa ve İngiltere'ye verilenlerle aynı olan bu belge, cumhuriyete İstanbul'da elçilik ve Osmanlı iskelelerinde konsolosluk açma hakkı ile adlî ve ticarî imtiyazlar tanıdı. Hollanda tüccarı artık kendi bayrağı altındaydı.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"I. Ahmed'den bir ahidnâme almayı başardı (6 Temmuz 1612). Fransa ve İngiltere'ye verilenlerle aynı olan bu ahidnâmeyle Felemenk Birleşik Cumhuriyeti'ne İstanbul'da elçilik ve Osmanlı ülkesi dahilindeki iskelelerde konsolosluk açma hakkı verilmiş, bazı adlî ve ticarî imtiyazlar tanınmıştı\" (A. H. de Groot, The Ottoman Empire and the Dutch Republic'e atıfla)" },
 
-{ t:"1613-01-01", b:"Ömer Ağa'nın Hollanda'ya gönderilmesi ve Haga'nın daimî elçi olması", tur:"diplomasi", onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
+{ odak_yer:["Hollanda"], t:"1613-01-01", b:"Ömer Ağa'nın Hollanda'ya gönderilmesi ve Haga'nın daimî elçi olması", tur:"diplomasi", onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
   d:"Osmanlı hükûmeti yeni müttefikini tanımak için Halil Paşa'nın adamlarından Ömer Ağa'yı gönderdi; korsanların elinden kurtarılan esirlerle birlikte gelen elçi büyük merasimle karşılandı, genel meclisi ve şehirleri gezip müsbet intibalarla döndü. Padişahın isteği üzerine Genel Meclis Haga'nın İstanbul'da daimî elçi olarak kalmasına karar verdi.",
   kaynak:"TDV `hollanda` (gövdesi okundu): Ömer Ağa'nın görevi, karşılanışı ve dönüşü (1613); \"Padişahın isteği üzerine Hollanda Genel Meclisi Haga'nın dâimî elçi olarak İstanbul'da kalmasına karar verdi\" · Dikkat: yer_id BOŞ: Lahey yok" },
 
@@ -196,7 +196,7 @@ window.KRONOLOJI_HOLLANDA = [
 
 // III. DENİZ HÂKİMİYETİ, FELAKET YILI VE İNGİLTERE TACI (1650-1700)
 
-{ t:"1652-07-10", b:"Birinci İngiliz-Hollanda Savaşı", tur:"savas", onem:4, dunya:3, kapsam:"dis", etiket:["askeri","ekonomi","konu-askeri","konu-ekonomi"], yer_id:"",
+{ odak_yer:["Hollanda"], t:"1652-07-10", b:"Birinci İngiliz-Hollanda Savaşı", tur:"savas", onem:4, dunya:3, kapsam:"dis", etiket:["askeri","ekonomi","konu-askeri","konu-ekonomi"], yer_id:"",
   gun:"10 Temmuz 1652", ic_not_gun:"10 Temmuz 1652 — takvimi ÖLÇÜLEMEDİ (İngiliz ilânı Jülyen olabilir; kaynak bulunamadı)",
   d:"İngiltere'nin Seyrüsefer Kanunu'yla Hollanda taşımacılığını dışlaması savaşa yol açtı. İki deniz cumhuriyeti, ticaret yollarının denetimi için üç savaştan ilkine girdi.",
   kaynak:"bulunamadı — GÜN DOĞRULANMADI" },
@@ -215,12 +215,12 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Delft'li bez tüccarı Antoni van Leeuwenhoek, kendi yaptığı tek mercekli aletlerle serbest yaşayan mikroorganizmaları, mantar hiflerini, alyuvarları, kılcal dolaşımı, ağız bakterilerini ve spermatozoayı ilk kez belgeledi. Bulgularını Londra'daki Royal Society'ye iki yüzden fazla mektupla bildirdi; mikrobiyoloji Delft'in optik ve zanaat kültüründen doğdu.",
   kaynak:"Huygens Instituut / KNAW, 'Antoni van Leeuwenhoek — The Collected Letters' projesi ve akademik derleme: \"Using single-lens instruments, he documented the first observations of free-living microorganisms, fungal hyphae, red blood cells, capillary flow, oral bacteria, and spermatozoa in more than two hundred letters to the Royal Society of London\" · Dikkat: GÜN ve YIL DOĞRULANMADI (mektuplar 1670'lerden itibaren) · Dikkat: yer_id BOŞ: Delft yok" },
 
-{ t:"1677-02-21", b:"Spinoza'nın ölümü ve Etika'nın yayımlanması", tur:"kultur", onem:4, dunya:4, kapsam:"ic", etiket:["kultur","din","konu-kisiler","konu-din","konu-kultur"], yer_id:"",
+{ odak_yer:["Amsterdam"], t:"1677-02-21", b:"Spinoza'nın ölümü ve Etika'nın yayımlanması", tur:"kultur", onem:4, dunya:4, kapsam:"ic", etiket:["kultur","din","konu-kisiler","konu-din","konu-kultur"], yer_id:"",
   gun:"21 Şubat 1677 Gregoryen",
   d:"Spinoza öldüğü yıl başyapıtı Etika ölümünden sonra basıldı. Cumhuriyetin yayın iklimi Avrupa'nın en hürüydü; yine de Spinoza'nın eserleri yasaklandı — Lodewijk Meyer, Adriaen Koerbagh ve Balthasar Bekker'in yazılarıyla birlikte Avrupa çapında tartışma yarattı.",
   kaynak:"UvA, 'Dutch Culture and Society in European Context': Spinoza'nın sansürlenmesi ve radikal düşünce akımının Altın Çağ'ın son on yıllarında Avrupa'da yarattığı tartışma · Dikkat: GÜN DOĞRULANMADI" },
 
-{ t:"1688-11-05", b:"III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-isyan","konu-hanedan"], yer_id:"",
+{ odak_yer:["Amsterdam"], t:"1688-11-05", b:"III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-isyan","konu-hanedan"], yer_id:"",
   gun:"5 Kasım 1688 JÜLYEN (Torbay çıkarması, İngiliz takvimi) = 15 Kasım 1688 Gregoryen (Hollanda takvimi)",
   d:"Hollanda stadhouder'i William, Genel Meclis'in donattığı bir donanmayla İngiltere'ye çıktı ve tacı aldı. İki deniz gücü aynı hükümdarda birleşti; Fransa'ya karşı ittifak kuruldu, ama uzun vadede deniz ticaretinin ağırlığı Londra'ya kaydı — Hollanda için zafer ve gerileyişin başlangıcı aynı olaydır.",
   kaynak:"bulunamadı — GÜN DOĞRULANMADI" },

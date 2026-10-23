@@ -730,6 +730,7 @@ GIRDI_DOSYALARI = [
     "yerlesimler_once1281_yt_hint.js",
     "yerlesimler_once1281_yt_dogu_gd_asya.js",
     "yerlesimler_once1281_yt_dogu3.js",
+    "yerlesimler_odak_yedek_1023.js",
     "yerlesimler_once1281_yt_avrupa.js",
     "yerlesimler_once1281_yt_anadolu_kafkas.js",
     "yerlesimler_once1281_yt_afrika_levant.js",

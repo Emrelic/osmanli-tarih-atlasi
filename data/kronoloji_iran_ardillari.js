@@ -287,7 +287,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 
 // ───────────────────────── GĀZÂN HAN · DÖNÜM NOKTASI (1295-1304)
 
-{ taraflar:["ilhanli"], t:"1295-06-19", b:"Gāzân Han Lâr vadisinde müslüman oldu ve Mahmud adını aldı", tur:"din",
+{ odak_yer:["Tebriz"], taraflar:["ilhanli"], t:"1295-06-19", b:"Gāzân Han Lâr vadisinde müslüman oldu ve Mahmud adını aldı", tur:"din",
   onem:5, dunya:4, kapsam:"ic", etiket:["din","hukumdar","donusum","konu-hanedan","konu-din","konu-islahat"],
   yer_id:"",
   d:"Gāzân, kumandanlarından halasının kocası Nevrûz Bey'in teşvikiyle Elburz'da Lâr vadisinde müslüman oldu ve Mahmud adını aldı (19 Haziran 1295). Yanındaki 100.000 asker de onunla birlikte ihtidâ etti. Bu, bir hükümdarın kişisel tercihinden çok bir ordunun din değiştirmesidir ve İran'ın Moğol fâtihlerinin İslâm dünyasına eklemlenmesinin dönüm noktasıdır.", ic_not_d:"⚠️ YER HAKKINDA: Elburz'daki Lâr vadisi veride kayıtlı değildir; Fars'taki 'Lâr' ile karıştırılmaması için yer_id boş bırakıldı.",
@@ -427,7 +427,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Gāzân Han zamanında bir dünya tarihi yazmakla görevlendirilmiş olan devlet adamı ve tarihçi Reşîdüddin Fazlullāh-ı Hemedânî eserini tamamlayarak Sultan Olcaytu'ya sundu. Câmiu't-tevârîh yalnız Moğolların değil Çin'in, Hindistan'ın, Frenkler'in ve İsrâiloğulları'nın tarihini de kapsar; dünya tarihi yazma fikrinin ilk gerçek örneğidir. Tebriz'in doğusundaki Rab'-i Reşîdî mahallesi bu eserin çoğaltıldığı bir kitap atölyesiydi.", ic_not_d:"⚠️ TARİH HAKKINDA: sunum yılı için kaynak gün vermiyor.",
   kaynak:"ilhanlilar" },
 
-{ taraflar:["ilhanli"], t:"1305-01-01", b:"Bizans ile evlilik ittifakı — Andronikos'un kızıyla nikâh", gun:"Olcaytu devri", tur:"diplomasi",
+{ odak_yer:["Tebriz"], taraflar:["ilhanli"], t:"1305-01-01", b:"Bizans ile evlilik ittifakı — Andronikos'un kızıyla nikâh", gun:"Olcaytu devri", tur:"diplomasi",
   onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","ittifak","konu-diplomasi"],
   yer_id:"",
   d:"Olcaytu, Memlük düşmanlığını sürdürürken Avrupa'ya yaklaştı ve Anadolu'da Selçuklu Devleti'nin yerini alan Türkmen beyliklerine karşı Bizans'ın yardımına gitti; II. Andronikos Palaiologos'un kızı ile evlendi. Bir Moğol ilhanının Bizans'la akrabalık kurması, Anadolu'daki Türkmen yükselişinin iki eski rakibi aynı safta buluşturduğunu gösterir.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; madde Olcaytu'nun Bizans'a yöneldiği saltanat başına bağlandı, bir tercihtir.",
@@ -1081,7 +1081,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"655'te (1257) Delhi sultanı ile arası açılan Mültan Valisi İzzeddin Balban Kaşlu Han, Şemseddin'in gayretleriyle Moğol hâkimiyetine girdi. Kert meliki bölgedeki melikler ve valiler arasında Moğol nüfuzunun yayılması için de çalışıyordu; aracılık hem koruma hem genişletme aracıydı.", ic_not_d:"⚠️ YER HAKKINDA: Mültan bu atlasın penceresi dışındadır.",
   kaynak:"kert" },
 
-{ taraflar:["kert"], t:"1265-01-01", b:"Şemseddin, Hülâgû'nun yanında yer aldı ve Muhammed Karluk'a saldırdı", gun:"1265", ic_not_gun:"1265 — yıl hassasiyeti · TDV `kert`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas",
+{ odak_yer:["Herat"], taraflar:["kert"], t:"1265-01-01", b:"Şemseddin, Hülâgû'nun yanında yer aldı ve Muhammed Karluk'a saldırdı", gun:"1265", ic_not_gun:"1265 — yıl hassasiyeti · TDV `kert`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"1260'tan itibaren Cengiz Han'ın torunları arasında başlayan mücadelede Şemseddin'in müslüman Berke Han'ı desteklemesi beklenirken siyasî sebeplerle Hülâgû'nun yanında yer aldı; hatta onun emriyle Moğollar'a direnen bazı müslüman emirlikleriyle savaştı. Delhi sultanına yardım eden Kuh-ı Cud ve Binban Emîri Muhammed Karluk bu sebeple onun hücumuna uğradı (1265) ve bölge Moğol hâkimiyetine girdi.", ic_not_d:"⚠️ YER HAKKINDA: Kuh-ı Cud ve Binban bu atlasın penceresi dışındadır.",
