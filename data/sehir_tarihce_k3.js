@@ -2,6 +2,571 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_K3 = [
  {
+  "id": "aachen-de",
+  "ad": "Aachen",
+  "atlas_ad": "Aachen",
+  "lat": 50.776,
+  "lon": 6.084,
+  "kat1900": 3,
+  "adlar": [
+   "Aquae Granni",
+   "Aquisgranum",
+   "Aachen"
+  ],
+  "ilk": {
+   "t": "0765-12-25",
+   "gun": "25 Aralık 765",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Treccani, Enciclopedia Italiana (1929), 'AQUISGRANA' (F. Schneider, E. Migliorini, F. Kuetgens, C. Capasso), https://www.treccani.it/enciclopedia/aquisgrana_(Enciclopedia-Italiana)/ [Pippin III'ün 765 Noeli'nden 766 Paskalyası'na Aachen'de kalışı; Treccani Noel gününü açıkça 25 Aralık diye vermez, 'dal Natale 765' = 25 Aralık 765 alındı]",
+   "tanik": "il re Pipino vi soggiornò dal Natale 765 alla Pasqua 766"
+  },
+  "kur": null,
+  "ark": {
+   "t": "0037-01-01",
+   "gun": "MS 1. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana (1929), 'AQUISGRANA' (F. Schneider, E. Migliorini, F. Kuetgens, C. Capasso), https://www.treccani.it/enciclopedia/aquisgrana_(Enciclopedia-Italiana)/ ('Già al tempo dell'imperatore Tiberio la località era ben conosciuta per le sue terme', Tiberius 14-37; güvenli uç 37) + Pleiades 108749 'Aquae Granni' (Barrington Atlas 11 G2; Roma dönemi -30/+640), https://pleiades.stoa.org/places/108749"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0765-12-25",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1929), 'AQUISGRANA' (F. Schneider, E. Migliorini, F. Kuetgens, C. Capasso), https://www.treccani.it/enciclopedia/aquisgrana_(Enciclopedia-Italiana)/",
+    "tanik": "il re Pipino vi soggiornò dal Natale 765 alla Pasqua 766",
+    "ic_not": "Aachen kral sarayı (Pippin 765-766, Charlemagne 795/6'dan itibaren kalıcı ikamet). Frank Krallığı künyesi f=0481 — Pippin dönemi içinde."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0925-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte",
+    "ic_not": "Lothar I'in payı (Frizya + Austrasia'nın orta-doğusu = sonradan Lotharingia). Künye 'orta-francia-lotharingia' f=0855 — 843-855 arası Lothar I'in Orta Francia'sı aynı polity: künye GENİŞLETME önerisi (f=0843-08-10). Treccani Lorena: Lotharingia 'Alpler, Jura, Maas, Schelda ve Ren arası'; 869 sonrası 'Alman ve Frank Karolenjler arasında bölüşüldü' (870 Meerssen ayrıntısı bu kaynakta yok) ve 876-925 arası hükümdarlar sırayla Doğu/Batı kralları — şehir bazında 870-925 ayrımı yazılmadı, polity (Lotharingia) tek dönem alındı."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia), https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01; zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Aachen Reich içinde taç giyme şehri (936'dan 1531'e 37 hükümdar, Treccani); 1166'da Friedrich I. ayrıcalıkları. Atlas 'almanya' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0765-12-25",
+    "gun": "25 Aralık 765",
+    "k": "diger",
+    "b": "Kral Pippin Noel'i Aachen'de geçirir (766 Paskalyası'na kadar kalır): yerin ilk yazılı kralî ikameti.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1929), 'AQUISGRANA' (F. Schneider, E. Migliorini, F. Kuetgens, C. Capasso), https://www.treccani.it/enciclopedia/aquisgrana_(Enciclopedia-Italiana)/",
+    "tanik": "il re Pipino vi soggiornò dal Natale 765 alla Pasqua 766"
+   },
+   {
+    "t": "0795-01-01",
+    "gun": "795-796",
+    "k": "idari",
+    "b": "Charlemagne Aachen'de giderek daha kalıcı bir ikamet kurar (Aachen sarayı/Palatina şapeli; şapelin kutsanışı 805).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1929), 'AQUISGRANA' (F. Schneider, E. Migliorini, F. Kuetgens, C. Capasso), https://www.treccani.it/enciclopedia/aquisgrana_(Enciclopedia-Italiana)/",
+    "tanik": "prese qui, dal 795-6, una sempre più stabile residenza"
+   },
+   {
+    "t": "0813-01-01",
+    "gun": "813",
+    "k": "diger",
+    "b": "Aachen şapelinde ilk imparatorluk taç giymesi (813; ikincisi 817).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1929), 'AQUISGRANA' (F. Schneider, E. Migliorini, F. Kuetgens, C. Capasso), https://www.treccani.it/enciclopedia/aquisgrana_(Enciclopedia-Italiana)/",
+    "tanik": "incoronazioni imperiali dell'813 e dell'817"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (10 Ağustos 843): Lothar I'e imparator unvanı; fiilî otorite Frizya ve Austrasia'nın orta-doğusu (sonradan Lotharingia) üzerinde.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0881-01-01",
+    "gun": "881",
+    "k": "kayip",
+    "b": "Normanlar Aachen sarayını yıkar; sonrasında yeni bir parlama dönemi.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1929), 'AQUISGRANA' (F. Schneider, E. Migliorini, F. Kuetgens, C. Capasso), https://www.treccani.it/enciclopedia/aquisgrana_(Enciclopedia-Italiana)/",
+    "tanik": "Alla distruzione del palazzo per opera dei Normanni (881)"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "fetih",
+    "b": "Kuşkucu (Avcı) Henry (Doğu Francia/Almanya kralı) Lotharingia'yı boyun eğdirir (sonra dükalık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia), https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia"
+   },
+   {
+    "t": "0936-01-01",
+    "gun": "936",
+    "k": "diger",
+    "b": "I. Otto'dan (936) itibaren Aachen Alman krallarının taç giyme yeri olur.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1929), 'AQUISGRANA' (F. Schneider, E. Migliorini, F. Kuetgens, C. Capasso), https://www.treccani.it/enciclopedia/aquisgrana_(Enciclopedia-Italiana)/",
+    "tanik": "divenne da Ottone I (936) in poi il luogo d'incoronazione dei re tedeschi"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Almanya (I. Otto papadan imparatorluk tacını alır; Kutsal Roma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1166-01-01",
+    "gun": "1166",
+    "k": "idari",
+    "b": "Friedrich I. (1166) ve halefleri Aachen'e ayrıcalıklar verir: şehrin gelişmesinin başlangıcı.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1929), 'AQUISGRANA' (F. Schneider, E. Migliorini, F. Kuetgens, C. Capasso), https://www.treccani.it/enciclopedia/aquisgrana_(Enciclopedia-Italiana)/",
+    "tanik": "dai privilegi di Federico I (1166) e dei suoi successori"
+   }
+  ],
+  "ic_not": "İlk anılış: Treccani'ye göre Pippin'in 765-766 kışı (Aquisgrana 'Storia'). Roma dönemi: Aquae Granni sıcak su kaynakları; Treccani 'Tiberius zamanında' bilinen kaplıca der (gün/yıl kaynağı verilmemiş) ve Pleiades Roma dönemini -30/+640 verir — bu yüzden 'ark' (yüzyıl hassasiyeti) olarak yazıldı, yazılı Roma tanığı (kitabe/Peutinger) bu turda açılamadı (bulunamadı). Modern nokta antik vicus ile aynı yerde (Pleiades 50.776/6.084; <3 km). Sahip zinciri: 765-843 Frank; 843 Verdun'da Lothar I (Lotharingia, Austrasia orta-doğusu); 925'te Henry I; 962'den Almanya. Lotharingia künyesi f=0855 — genişletme önerisi f=0843-08-10. 870 Meerssen paylaşımının Aachen'i hangi tarafa verdiği bu turda kaynakta açılamadı; zincire ayrı dönem yazılmadı (polity tek dönem)."
+ },
+ {
+  "id": "amiens-fr",
+  "ad": "Amiens",
+  "atlas_ad": "Amiens",
+  "lat": 49.895,
+  "lon": 2.302,
+  "kat1900": 2,
+  "adlar": [
+   "Samarobriva",
+   "Ambianum",
+   "Amiens"
+  ],
+  "ilk": {
+   "t": "-0053-01-01",
+   "gun": "MÖ 54",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Caesar, De bello Gallico 5.24 (Perseus, Perseus:text:1999.02.0002, perseus.tufts.edu); Dickinson College Commentaries, dcc.dickinson.edu/node/83 (harita: 'Winter Quarters (54-53 BC)'); Pleiades 109321 'Samarobriva Ambianorum' (Barrington Atlas), https://pleiades.stoa.org/places/109321",
+   "tanik": "concilioque Gallorum Samarobrivae peracto"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0053-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Caesar, De bello Gallico 5.24 (Perseus, Perseus:text:1999.02.0002, perseus.tufts.edu); Dickinson College Commentaries, dcc.dickinson.edu/node/83 (harita: 'Winter Quarters (54-53 BC)')",
+    "tanik": "concilioque Gallorum Samarobrivae peracto",
+    "ic_not": "Caesar MÖ 54-53 kışında Samarobriva'da Galya meclisini toplar ve lejyonu kışlatır (DCC: 'the chief town of the Ambiani'). Roma Cumhuriyeti künyesi f=-0508."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0486-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-486 arası Amiens'in sahibi kaynakta açılamadı (Syagrius'un Soissons 'Roma devleti' kalıntısı tarihî olarak biliniyor; Treccani 'Soissons': Siagrio 486'da Clovis'ce kesin yenildi — Amiens'in bu kalıntıya dahil olduğunu söyleyen kaynak açılmadı). 10 yıllık boşluk beyan edilir, kapatılmadı."
+   },
+   {
+    "f": "0486-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Clodovèo I re dei Franchi', https://www.treccani.it/enciclopedia/clodoveo-i-re-dei-franchi/",
+    "tanik": "Nel 486 conquistò i dominî del romano Siagrio",
+    "ic_not": "Künye 'frank' f=0481; f 'en geç tanıktan' (486 fetih). Kuzey Galya'nın Clovis'e geçişi 486 (Treccani)."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0987-07-03",
+    "d": "bati-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda, della Mosa",
+    "ic_not": "Amiens Schelda'nın batısında → Kel Charles'ın Batı Francia'sı. 843-987 arası Amiens kontlukları (Vermandois/Amiens) Batı Francia tacına bağlı; iç ayrıntı yazılmadı."
+   },
+   {
+    "f": "0987-07-03",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio",
+    "ic_not": "Fransa Krallığı künyesi f=0987-01-01. 1185'te Amiens kontluğu krala geçer (Treccani Amiens)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0053-01-01",
+    "gun": "MÖ 54",
+    "k": "diger",
+    "b": "Caesar Samarobriva'da Galya meclisini toplar; kış 54-53'te bir lejyonu burada kışlatır (Ambiani'nin başkenti).",
+    "kaynak": "Caesar, De bello Gallico 5.24 (Perseus, Perseus:text:1999.02.0002, perseus.tufts.edu); Dickinson College Commentaries, dcc.dickinson.edu/node/83 (harita: 'Winter Quarters (54-53 BC)')",
+    "tanik": "concilioque Gallorum Samarobrivae peracto"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak 27 MÖ",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus tahtı bırakmaya zorlanır; Livius 4 Eylül ihtimalini de anar).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0486-01-01",
+    "gun": "486",
+    "k": "fetih",
+    "b": "Clovis (Salî Frank kralı) Romalı Syagrius'un (Soissons) topraklarını ele geçirir; Kuzey Galya Frank egemenliğine girer.",
+    "kaynak": "Treccani, 'Clodovèo I re dei Franchi', https://www.treccani.it/enciclopedia/clodoveo-i-re-dei-franchi/",
+    "tanik": "Nel 486 conquistò i dominî del romano Siagrio"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Frank mirası üç kardeş arasında bölünür; Schelda/Maas/Saône/Rhône batısı Kel Charles'a (Batı Francia) düşer.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda, della Mosa"
+   },
+   {
+    "t": "0987-07-03",
+    "gun": "3 Temmuz 987",
+    "k": "diger",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugues Capet 10 Haziran 987'de Noyon'da seçilir, 3 Temmuz'da Reims'te taç giyer; Kapet hanedanı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185",
+    "k": "idari",
+    "b": "Amiens kontluğu Fransa kralının eline geçer; ikinci komün şartı çıkarılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AMIENS' (N. Ottokar, L. Gillet), https://www.treccani.it/enciclopedia/amiens_(Enciclopedia-Italiana)/",
+    "tanik": "la contea di Amiens passò nelle mani del re di Francia (1185)"
+   }
+  ],
+  "ic_not": "Çift teyit: Caesar BG 5.24 (Perseus Latin metni) + Dickinson College Commentaries (kışlık 54-53 haritası) + Pleiades; MÖ 54 yılı DCC başlık/haritasından (BG 5.1 Perseus metni konsülleri 'L. Domitio Ap. Claudio consulibus' diye anar; takvim yılı DCC başlığından). Treccani Amiens: 'Prima della conquista romana ... Samarabriva era capoluogo degli Ambiani' (tarih yok). Modern nokta Roma kentiyle aynı (Pleiades 49.89/2.30). Not: bir arkeolojik değerlendirme (arama özeti) kentin Via Agrippa etrafında sonradan kurulduğunu öne sürer — Caesar'ın metni yine de MÖ 54 yazılı tanıktır. Atlas başlangıç 1281 fransa ile zincir uyumlu."
+ },
+ {
+  "id": "anvers-be",
+  "ad": "Anvers (Antwerpen)",
+  "atlas_ad": "Anvers (Antwerpen)",
+  "lat": 51.22,
+  "lon": 4.4,
+  "kat1900": 2,
+  "adlar": [
+   "Andoverpis",
+   "Antverpia",
+   "Anvers",
+   "Antwerpen"
+  ],
+  "ilk": {
+   "t": "0640-01-01",
+   "gun": "MS 640",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'ANVERSA' (Storia), https://www.treccani.it/enciclopedia/anversa_(Enciclopedia-Italiana)/ ['La prima notizia veramente sicura non risale che al 640': Aziz Amandus'un yörede kilise kurması]",
+   "tanik": "La prima notizia veramente sicura non risale che al 640"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0640-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANVERSA' (Storia), https://www.treccani.it/enciclopedia/anversa_(Enciclopedia-Italiana)/",
+    "tanik": "La prima notizia veramente sicura non risale che al 640",
+    "ic_not": "Künye 'frank' f=0481; Treccani: St. Amandus 640'ta yörede kilise kurar, VII-VIII. yy. sonunda ada kalesi, 836'da Normanlarca yıkım."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0925-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte",
+    "ic_not": "Lothar I'in payı (Frizya + Austrasia'nın orta-doğusu = sonradan Lotharingia). Künye 'orta-francia-lotharingia' f=0855 — 843-855 arası Lothar I'in Orta Francia'sı aynı polity: künye GENİŞLETME önerisi (f=0843-08-10). Treccani Lorena: Lotharingia 'Alpler, Jura, Maas, Schelda ve Ren arası'; 869 sonrası 'Alman ve Frank Karolenjler arasında bölüşüldü' (870 Meerssen ayrıntısı bu kaynakta yok) ve 876-925 arası hükümdarlar sırayla Doğu/Batı kralları — şehir bazında 870-925 ayrımı yazılmadı, polity (Lotharingia) tek dönem alındı."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia), https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01; zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Antwerp markgraflığı ~1000'de Aşağı Lotharingia dükalığının parçası (Treccani); 1288 Worringen'e (Brabant) kadar Reich içinde. Atlas 'almanya' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0640-01-01",
+    "gun": "640",
+    "k": "diger",
+    "b": "Aziz Amandus yörede Müjde'yi vaaz eder ve bir kilise yaptırır: Treccani'ye göre yerin 'ilk gerçekten sağlam haberi'.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANVERSA' (Storia), https://www.treccani.it/enciclopedia/anversa_(Enciclopedia-Italiana)/",
+    "tanik": "S. Amando predicò il Vangelo e costruì una chiesa"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (10 Ağustos 843): Lothar I'e imparator unvanı; fiilî otorite Frizya ve Austrasia'nın orta-doğusu (sonradan Lotharingia) üzerinde.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0836-01-01",
+    "gun": "836",
+    "k": "kayip",
+    "b": "Kale çevresindeki balıkçı köyü Normanlarca yıkılır (836).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANVERSA' (Storia), https://www.treccani.it/enciclopedia/anversa_(Enciclopedia-Italiana)/",
+    "tanik": "distrutto dai Normanni nell'836"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "fetih",
+    "b": "Kuşkucu (Avcı) Henry (Doğu Francia/Almanya kralı) Lotharingia'yı boyun eğdirir (sonra dükalık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia), https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Almanya (I. Otto papadan imparatorluk tacını alır; Kutsal Roma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "1000",
+    "k": "idari",
+    "b": "Antwerp kalesi ve köyü 'Anvers Markgraflığı'na ad verir; ~2 yüzyıl Aşağı Lotharingia dükalığının parçası olur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANVERSA' (Storia), https://www.treccani.it/enciclopedia/anversa_(Enciclopedia-Italiana)/",
+    "tanik": "diedero il nome ad un marchesato di Anversa"
+   },
+   {
+    "t": "1300-01-01",
+    "gun": "MS 13. yüzyıl",
+    "k": "idari",
+    "b": "XIII. yüzyılda Antwerp'e şehir unvanı ve hakları tanınır; İtalyan tüccarlar uğramaya başlar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANVERSA' (Storia), https://www.treccani.it/enciclopedia/anversa_(Enciclopedia-Italiana)/",
+    "tanik": "quando le furono riconosciuti titolo e diritti di città"
+   }
+  ],
+  "ic_not": "İlk anılış çelişkisi: Treccani (EI 1929) 640'ı 'ilk sağlam haber' verir (Amandus'un kilisesi, yer adı değil). Aynı yer için arama özetleri (Vikipedi EN 'Antwerp', yalnız ikinci tanık, sayfa tam açılmadı) adın 'Andoverpis' biçimiyle Dado'nun Vita Eligii'sinde ~700'de geçtiğini ve Gallo-Roma yerleşimini (Willem Ogierplaats, ~250-270, 2.-3. yy buluntu) bildirir — bunlar bu turda birincil/akademik sayfadan doğrulanmadı; ilk anılış için daha yeni akademik kaynak (Vita Eligii MGH SRM IV, Krusch) açılmalı. 'ark' yazılmadı (arkeolojik tarihleme akademik sayfadan alınmadı). Modern nokta = ortaçağ kentinin yeri (Schelde kıyısı). Lotharingia künyesi f=0855 — genişletme önerisi f=0843-08-10; 925 Henry I; 962'den Almanya. Atlas 1281 'almanya' ile zincir uyumlu."
+ },
+ {
+  "id": "arras-fr",
+  "ad": "Arras",
+  "atlas_ad": "Arras",
+  "lat": 50.291,
+  "lon": 2.777,
+  "kat1900": 2,
+  "adlar": [
+   "Nemetacum",
+   "Atrebatum",
+   "Atrecht",
+   "Arras"
+  ],
+  "ilk": {
+   "t": "0300-01-01",
+   "gun": "MS 3. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Antonine Itinerary (Cuntz, Itineraria Antonini Augusti et Burdigalense, Leipzig 1929, s. 377,8: 'Nemetacum') — Pleiades 109194 'Nemetacum', https://pleiades.stoa.org/places/109194 (Barrington Atlas; atıf listesi); tarihleme: Britannica 1911 'Antonini Itinerarium' (özgün baskı III. yy başı, elimizdeki Diocletianus dönemi; güvenli uç 300). Tabula Peutingeriana 'Nemetaco' (tp-online, arama özeti; sayfa 403 verdi, açılamadı)",
+   "tanik": "Nemetacum was the principal center of the Atrebates"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0300-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Pleiades 109194 'Nemetacum' (Roma dönemi, Atrebates'in baş yerleşimi)",
+    "tanik": "Nemetacum was the principal center of the Atrebates",
+    "ic_not": "Başlangıç Antonine Itinerary III. yy ucu; Roma egemenliği Caesar'dan beri (MÖ 50'ler) olduğu için zincir ilk tanığa kadar yazılmadı."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0486-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-486 arası Arras'ın sahibi kaynakta açılamadı (Syagrius Soissons kalıntısı/Tournai Salî Frankları arası; Arras'ı ilgilendiren kaynak yok). Beyan edilir."
+   },
+   {
+    "f": "0486-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Clodovèo I re dei Franchi', https://www.treccani.it/enciclopedia/clodoveo-i-re-dei-franchi/",
+    "tanik": "Nel 486 conquistò i dominî del romano Siagrio",
+    "ic_not": "f 'en geç tanıktan' (486)."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0901-01-01",
+    "d": "bati-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda, della Mosa",
+    "ic_not": "Arras Schelda'nın batısı → Batı Francia."
+   },
+   {
+    "f": "0901-01-01",
+    "t": "1194-01-01",
+    "d": "flandre",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ARRAS' (N. Ottokar, A. H. Luijdjens, V. Blais, L. Gillet), https://www.treccani.it/enciclopedia/arras_(Enciclopedia-Italiana)/",
+    "tanik": "dal sec. X in poi, Arras apparteneva ai dominî della contea di Fiandra",
+    "ic_not": "Treccani Arras: 'X. yy.'dan itibaren Flandre Kontluğu'na bağlı' — kesin yıl yok; f=0901 ifadenin ilk günü (EN ERKEN sınır, gerçek tarih Treccani Fiandra'ya göre Arnulf I 918-965 döneminde Canche'ye kadar genişleme olabilir). Künye flandre boyasız (boyali:false) — renk istenecek. Kral vasal ilişkisi nominal.",
+    "boyasiz": true
+   },
+   {
+    "f": "1194-01-01",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ARRAS' (N. Ottokar, A. H. Luijdjens, V. Blais, L. Gillet), https://www.treccani.it/enciclopedia/arras_(Enciclopedia-Italiana)/",
+    "tanik": "era entrata a far parte dei dominî del re di Francia",
+    "ic_not": "Treccani Arras: 1194'te Philippe Auguste'ün evliliği sonrası Flandre'dan ayrılıp kral domaini; Treccani Fiandra aynı olayı 1192'de (Artois'nın krala bırakılması) verir — iki kaynak 2 yıl farklı; Arras maddesi esas alındı. 1237'de Artois kontluğu kralın kardeşi Robert I'e apanaj verilir (Treccani Artois) — kral hanedanı içinde, 'fransa' sürer."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus tahtı bırakmaya zorlanır; Livius 4 Eylül ihtimalini de anar).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0486-01-01",
+    "gun": "486",
+    "k": "fetih",
+    "b": "Clovis (Salî Frank kralı) Romalı Syagrius'un (Soissons) topraklarını ele geçirir; Kuzey Galya Frank egemenliğine girer.",
+    "kaynak": "Treccani, 'Clodovèo I re dei Franchi', https://www.treccani.it/enciclopedia/clodoveo-i-re-dei-franchi/",
+    "tanik": "Nel 486 conquistò i dominî del romano Siagrio"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Frank mirası üç kardeş arasında bölünür; Schelda/Maas/Saône/Rhône batısı Kel Charles'a (Batı Francia) düşer.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda, della Mosa"
+   },
+   {
+    "t": "0901-01-01",
+    "gun": "MS 10. yüzyıl",
+    "k": "idari",
+    "b": "X. yüzyıldan itibaren Arras Flandre Kontluğu'nun egemenliğindedir (Treccani; kesin yıl yok).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ARRAS' (N. Ottokar, A. H. Luijdjens, V. Blais, L. Gillet), https://www.treccani.it/enciclopedia/arras_(Enciclopedia-Italiana)/",
+    "tanik": "dal sec. X in poi, Arras apparteneva ai dominî della contea di Fiandra"
+   },
+   {
+    "t": "1093-01-01",
+    "gun": "1093",
+    "k": "idari",
+    "b": "Arras ilk kez kendi piskoposluğuna kavuşur (o zamana dek Cambrai piskoposluğuna bağlı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ARRAS' (N. Ottokar, A. H. Luijdjens, V. Blais, L. Gillet), https://www.treccani.it/enciclopedia/arras_(Enciclopedia-Italiana)/",
+    "tanik": "solo nel 1093 divenne sede di un proprio vescovado"
+   },
+   {
+    "t": "1194-01-01",
+    "gun": "1194",
+    "k": "idari",
+    "b": "Arras Flandre'dan ayrılır ve Fransa kralının domainine girer (sonra Artois kontluğunun başkenti).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ARRAS' (N. Ottokar, A. H. Luijdjens, V. Blais, L. Gillet), https://www.treccani.it/enciclopedia/arras_(Enciclopedia-Italiana)/",
+    "tanik": "era entrata a far parte dei dominî del re di Francia"
+   }
+  ],
+  "ic_not": "İlk tanık belirsizliği: Pleiades Nemetacum ile Nemetocenna'yı aynı yer olarak listeler (Brill's New Pauly arama özeti: 'N. ist wohl identisch mit Nemetocenna', Caesar/Hirtius'un 51/50 kış kampı: BG 8.46 'hibernatque Nemetocennae' Perseus metninde teyit edildi) — eşitleme 'wohl' (muhtemel) olduğundan 'yeri kesin olmayan ad eşitlemesi başlangıç sayılmaz' kuralıyla MÖ 51/50 başlangıç alınmadı; ilk tanık Antonine Itinerary'nin (III. yy) 'Nemetacum'u (Cuntz 377,8 — Pleiades atıf listesi + tp-online arama özeti; Cuntz metni ve tp-online sayfası AÇILAMADI, Pleiades JSON ve Talbert/Barrington atfı esas). Akademik güçlendirme gerekir (Ptolemaios 2.9.7 'Νεμετακόν' ToposText'te Yunanca adla görünür; metin açılamadı). Treccani Arras: 'Prima della conquista romana ... capoluogo degli Atrebates' (tarih yok). Zincir: Flandre dönemi başı 'X. yy'dan itibaren' ifadesinden en erken sınır (901) alındı — gerçek geçiş muhtemelen Arnulf I (918-965); 843-901 Batı Francia, tek tanık Verdun. Atlas 1281 'fransa' ile uyumlu (1194'ten beri kral domaini)."
+ },
+ {
   "id": "augsburg-de",
   "ad": "Augsburg",
   "atlas_ad": "Augsburg",
@@ -600,6 +1165,375 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış: Caesar BG 1.38 (MÖ 58) — Perseus İngilizce çeviri (Latince kaynak kitaplığı değil; birebir İng. alıntı). Treccani çift teyit: 'compare nella storia nel 58 a.C. con la conquista di Cesare' → ilk anılış için çift teyit (Caesar birincil + Treccani). Sahiplik: -0057 Sekuan oppidumu → Roma (Caesar 'Haeduer ve Ariovist' ön tarihi Vikipedi: 59 MÖ Sueben fethi, yoruma açık). Künye -0026-01-16 geçişi için Treccani günü 26 Ocak verir (Julian 16 Ocak 27 MÖ karşılığı değil; fark beyan edilir). 476-843 BOSLUK (Treccani Burgund→Frank sırasını tarihsiz verir). 1032: Vikipedi DE 'Heinrich II.' yazar, tarihsel olarak Rudolf III. mirası 1032'de II. Konrad'a geçti → yıl HLS Basel/Lausanne ile uyumlu; Vikipedi hükümdar adına güvenilmedi. Treccani: 1282 Alman İmparatorluğuna bağlı cumhuriyet (atlas başlangıcı 1281 almanya ile uyumlu, ±1 yıl)."
  },
  {
+  "id": "bruj-be",
+  "ad": "Brüj (Brugge)",
+  "atlas_ad": "Brüj (Brugge)",
+  "lat": 51.209,
+  "lon": 3.225,
+  "kat1900": 2,
+  "adlar": [
+   "Bruggas",
+   "Brugge",
+   "Bruges"
+  ],
+  "ilk": {
+   "t": "0900-01-01",
+   "gun": "MS 9. yüzyılın sonu",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'BRUGES' (Storia), https://www.treccani.it/enciclopedia/bruges_(Enciclopedia-Italiana)/ [IX. yy. sonunda II. Baudouin'in şehri surla çevirmesi ve ikametgâh yapması; yüzyıl sonu = güvenli uç 900]",
+   "tanik": "alla fine del sec. IX venne cinta di mura da Baldovino II, conte di Fiandra"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0900-01-01",
+    "t": "1281-01-01",
+    "d": "flandre",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BRUGES' (Storia), https://www.treccani.it/enciclopedia/bruges_(Enciclopedia-Italiana)/",
+    "tanik": "alla fine del sec. IX venne cinta di mura da Baldovino II, conte di Fiandra",
+    "ic_not": "Flandre Kontluğu künyesi boyasız (boyali:false) — renk istenecek. Fransa kralı nominal üst efendi (Treccani Fiandra: 'Durante la più grande parte del secolo XIII la Fiandra rimane sotto il controllo della monarchia francese'); 1280'de kont şehrin şartlarını yeniler/kısıtlar. Künye f=0862 — II. Baudouin (879-918) dönemi içinde.",
+    "boyasiz": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "0900-01-01",
+    "gun": "MS 9. yüzyılın sonu",
+    "k": "idari",
+    "b": "II. Baudouin (Flandre kontu, 879-918) Brugge'yi surla çevirir ve olağan ikametgâhı yapar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BRUGES' (Storia), https://www.treccani.it/enciclopedia/bruges_(Enciclopedia-Italiana)/",
+    "tanik": "alla fine del sec. IX venne cinta di mura da Baldovino II, conte di Fiandra"
+   },
+   {
+    "t": "1190-01-01",
+    "gun": "1190",
+    "k": "idari",
+    "b": "Kont VIII. Baudouin Brugge'nin özerkliğini resmen tanır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BRUGES' (Storia), https://www.treccani.it/enciclopedia/bruges_(Enciclopedia-Italiana)/",
+    "tanik": "riconosciuta ufficialmente fin dal 1190 dal conte Baldovino VIII"
+   },
+   {
+    "t": "1240-01-01",
+    "gun": "1240",
+    "k": "diger",
+    "b": "Londra Flaman Hansa'sı ilk kez 1240 tarihli bir fermanda anılır; Brugge tüccarları başlıca unsurudur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BRUGES' (Storia), https://www.treccani.it/enciclopedia/bruges_(Enciclopedia-Italiana)/",
+    "tanik": "Hansa fiamminga di Londra, ricordata per la prima volta in una carta del 1240"
+   },
+   {
+    "t": "1252-01-01",
+    "gun": "1252",
+    "k": "diger",
+    "b": "Damme limanı gümrük tarifesi (1252) Doğu ticaretinin hatırı sayılır boyutunu gösterir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BRUGES' (Storia), https://www.treccani.it/enciclopedia/bruges_(Enciclopedia-Italiana)/",
+    "tanik": "tariffa dei dazî doganali del porto di Damme, compilata nel 1252"
+   },
+   {
+    "t": "1280-01-01",
+    "gun": "1280",
+    "k": "idari",
+    "b": "Yangında yanan ayrıcalık fermanları Flandre kontu tarafından yenilenmez, özerkliği kısıtlayan yenileriyle değiştirilir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BRUGES' (Storia), https://www.treccani.it/enciclopedia/bruges_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1280, essendo state distrutte da un incendio le carte di franchigia"
+   }
+  ],
+  "dikis_beyan": "Atlas Brugge'yi 1281-01-01'de 'fransa' ile başlatıyor; Treccani (Bruges, Fiandra) 1280'de şehri Flandre kontunun yönettiğini (kont, ayrıcalık fermanlarını yenilemez) ve Fransa'nın yalnız üst-efendilik/kontrol (XIII. yy.) taşıdığını verir; 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'flandre' (boyasız künye) olmalı mı, yoksa Fransa nominal üst efendi diye mi tutulur — Emre kararı.",
+  "ic_not": "İlk anılış: Treccani 'Le origini ... risalgono al più alto Medioevo; già nel sec. VII sembra avere avuto il nome di città' (sembra = kesin değil), kesin tanık IX. yy. sonu surlar/ikametgâh. Arama özeti (Vikipedi EN, yalnız ikinci tanık, sayfa açılmadı): ad ilk kez 'Bruggas/Bruvvccia' 840-875 aralığında — bu aralık akademik kaynakta doğrulanmadı; geçerliyse ilk anılış 875'e çekilir. Roma/Galya dönemi: Vikipedi özeti kıyı yerleşiminin ortaçağ kentiyle bağı olmadığını söyler (doğrulanmadı) — ark yazılmadı. 900 öncesi zincir kaynaksız (bulunamadı)."
+ },
+ {
+  "id": "caen-fr",
+  "ad": "Caen",
+  "atlas_ad": "Caen",
+  "lat": 49.183,
+  "lon": -0.37,
+  "kat1900": 2,
+  "adlar": [
+   "Cadomum",
+   "Caen"
+  ],
+  "ilk": {
+   "t": "1027-01-01",
+   "gun": "MS 1027",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'CAEN' (Storia), https://www.treccani.it/enciclopedia/caen_(Enciclopedia-Italiana)/ [Cadomum adı belgelerde 1027'den itibaren; o zaman henüz 'burgus']",
+   "tanik": "non appare nei documenti che a partire dal 1027"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1027-01-01",
+    "t": "1204-01-01",
+    "d": "normandiya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NORMANDIA', https://www.treccani.it/enciclopedia/normandia_(Enciclopedia-Italiana)/",
+    "tanik": "fino alla sua prima riunione alla corona sotto Filippo Augusto nel 1204",
+    "ic_not": "Normandiya Dükalığı künyesi boyasız (boyali:false) — renk istenecek. Treccani Caen: Guillaume (Fethçi) ve karısı Matilde Caen'de iki manastır kurup kale yaptırır, Abbaye aux Dames 1066'da kutsanır; Treccani Normandia: 911'den beri Normandiya 'büyük Fransız feodu'. Caen'in 911/923'te dükalığa katıldığına dair Caen'e özgü kaynak yok (923: Bayeux piskoposluğu Rollon'a verilir, Caen bu piskoposlukta ama Treccani Caen'i anmaz) — 1027 ilk anılış tarihinde dükalığın parçası.",
+    "boyasiz": true
+   },
+   {
+    "f": "1204-01-01",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CAEN' (Storia), https://www.treccani.it/enciclopedia/caen_(Enciclopedia-Italiana)/",
+    "tanik": "Filippo Augusto, che s'impadronì del luogo nel 1204",
+    "ic_not": "Treccani Normandia: Filippo Augusto'nun Rouen kuşatması 24 Haziran 1204 ile Normandiya kroana katılır; Caen 1204'te alınır. Atlas 1281 'fransa' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1027-01-01",
+    "gun": "1027",
+    "k": "diger",
+    "b": "Caen (Cadomum) belgelerde ilk kez görünür: o zaman henüz bir 'burgus'.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CAEN' (Storia), https://www.treccani.it/enciclopedia/caen_(Enciclopedia-Italiana)/",
+    "tanik": "non appare nei documenti che a partire dal 1027"
+   },
+   {
+    "t": "1066-01-01",
+    "gun": "1066",
+    "k": "kurulus",
+    "b": "Guillaume ve Matilde'nin kurduğu Abbaye aux Dames kutsanır (Caen, Normandiya dükünün manastır/kale merkezi).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CAEN' (Storia), https://www.treccani.it/enciclopedia/caen_(Enciclopedia-Italiana)/",
+    "tanik": "fondata da Guglielmo e Matilde, fu consacrata nel 1066"
+   },
+   {
+    "t": "1203-01-01",
+    "gun": "1203",
+    "k": "idari",
+    "b": "Caen halkı belediye şartı (carta municipale) alır; Philippe Auguste 1204'te teyit eder.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CAEN' (Storia), https://www.treccani.it/enciclopedia/caen_(Enciclopedia-Italiana)/",
+    "tanik": "Solo nel 1203 gli abitanti ottengono una carta municipale"
+   },
+   {
+    "t": "1204-01-01",
+    "gun": "1204",
+    "k": "fetih",
+    "b": "Philippe Auguste Caen'i ve Normandiya'yı Plantagenet'lerden alır (Treccani Normandia: Rouen kuşatması 24 Haziran 1204).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CAEN' (Storia), https://www.treccani.it/enciclopedia/caen_(Enciclopedia-Italiana)/",
+    "tanik": "Filippo Augusto, che s'impadronì del luogo nel 1204"
+   }
+  ],
+  "ic_not": "Treccani Caen: 'Secondo alcuni autori, la Caen medievale avrebbe sostituito una città molto antica, chiamata dai romani Civitas Viducassium', kalıntıları 'Vieux' köyünde 'a qualche km' — mesafe verilmedi; >3 km ise antik yer ayrı kayıt olarak önerilir (Aregenua/Vieux). Caen'in kuruluş ya da 1027 öncesi yazılı kaydı bulunamadı. Normandiya künyesi t=1204-01-01 = zincir sınırı (uyumlu). Atlas 1281 başlangıcı ile zincir uyumlu."
+ },
+ {
+  "id": "calais-fr",
+  "ad": "Calais",
+  "atlas_ad": "Calais",
+  "lat": 50.951,
+  "lon": 1.858,
+  "kat1900": 3,
+  "adlar": [
+   "Kaleis",
+   "Calais"
+  ],
+  "ilk": {
+   "t": "1180-01-01",
+   "gun": "MS 1180",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana (1930), 'CALAIS' (E. de Martonne, P. Fortini, G. Bourgin), https://www.treccani.it/enciclopedia/calais_(Enciclopedia-Italiana)/ [1180: Boulogne kontundan komün şartı ve yılda iki pazar; şehir 'Kaleis' adıyla XII. yy. sonunda tarihe girer]",
+   "tanik": "nel 1180 gli abitanti ottengono dal conte di Boulogne una carta comunale"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1180-01-01",
+    "t": "1259-01-01",
+    "d": "boulogne-kontlugu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'CALAIS' (E. de Martonne, P. Fortini, G. Bourgin), https://www.treccani.it/enciclopedia/calais_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1180 gli abitanti ottengono dal conte di Boulogne una carta comunale",
+    "ic_not": "Boulogne Kontluğu (Calais/Calaisis Boulonnais'te) için künye YOK: önerilen id 'boulogne-kontlugu', ömür: 1180'de kont şartı verirken yaşıyor; Treccani Fiandra: Boulogne, Saint-Pol, Guines kontlukları 'larga autonomia sotto l'alta sovranità fiamminga' (Flandre üst-egemenliği) — başlangıç/bitiş ömrü araştırılmadı.",
+    "kunye_yok": true
+   },
+   {
+    "f": "1259-01-01",
+    "t": "1281-01-01",
+    "d": "artois-kontlugu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'CALAIS' (E. de Martonne, P. Fortini, G. Bourgin), https://www.treccani.it/enciclopedia/calais_(Enciclopedia-Italiana)/",
+    "tanik": "la città passò sotto il dominio dei conti d'Artois (1259)",
+    "ic_not": "Artois Kontluğu (1237'de IX. Louis'nin kardeşi Robert I'e apanaj, Treccani Artois) için künye YOK: önerilen id 'artois-kontlugu' f=1237 (Treccani 'Artois': 'Nel 1237, il re Luigi IX costituì ... la contea d'Artois'), kral hanedanı apanajı; bitiş sonrası.",
+    "kunye_yok": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "1180-01-01",
+    "gun": "1180",
+    "k": "idari",
+    "b": "Calais halkı Boulogne kontundan komün şartı ve yılda iki pazar hakkı alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'CALAIS' (E. de Martonne, P. Fortini, G. Bourgin), https://www.treccani.it/enciclopedia/calais_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1180 gli abitanti ottengono dal conte di Boulogne una carta comunale"
+   },
+   {
+    "t": "1259-01-01",
+    "gun": "1259",
+    "k": "idari",
+    "b": "Calais Artois kontlarının egemenliğine geçer; belediye ayrıcalıkları yitirilir ama ekonomik yükseliş sürer.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'CALAIS' (E. de Martonne, P. Fortini, G. Bourgin), https://www.treccani.it/enciclopedia/calais_(Enciclopedia-Italiana)/",
+    "tanik": "la città passò sotto il dominio dei conti d'Artois (1259)"
+   }
+  ],
+  "dikis_beyan": "Atlas Calais'i 1281-01-01'de 'fransa' ile başlatıyor; Treccani 1259'dan beri Artois kontlarını (kral apanajı) verir, 1281'de el değiştirme günü yok. Artois kontluğunun atlasta 'fransa'yla birlikte mi yoksa ayrı künyeyle mi gösterileceği (boulogne-kontlugu/artois-kontlugu künyeleri açılmamış) Emre kararı bekler.",
+  "ic_not": "Treccani: 'Nell'età gallo-romana esisteva, là dove ora sorge Calais, il centro abitato di Petressa' — Petressa ile Calais'in aynı yer olduğu ve yerin kesin tarihi kaynakta verilmediği için başlangıç sayılmadı (ad eşitlemesi yeri kesin değil). İlk anılış tarihi: 1180 şartı 'şehrin o zaman zaten gelişmiş olduğunu gösterir' (Treccani) — gerçek kuruluş daha eski. 1180 öncesi sahiplik zinciri bulunamadı. Künyesi olmayan iki sahip (boulogne-kontlugu, artois-kontlugu) kunye_yok işaretli."
+ },
+ {
+  "id": "cambridge-gb",
+  "ad": "Cambridge",
+  "atlas_ad": "Cambridge",
+  "lat": 52.205,
+  "lon": 0.119,
+  "kat1900": 3,
+  "adlar": [
+   "Duroliponte",
+   "Grantebrycge",
+   "Cambridge"
+  ],
+  "ilk": {
+   "t": "0300-01-01",
+   "gun": "MS 3. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Antonine Itinerary, Iter Britanniarum (transkripsiyon: roman-britain.co.uk/antonine-itinerary/); tarihleme: Britannica 1911 'Antonini Itinerarium' (en.wikisource.org) [Iter V: 'Duroliponte xxv', Water Newton - Caistor St Edmund hattında]",
+   "tanik": "Duroliponte xxv"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0300-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Antonine Itinerary, Iter Britanniarum (transkripsiyon: roman-britain.co.uk/antonine-itinerary/); tarihleme: Britannica 1911 'Antonini Itinerarium' (en.wikisource.org)",
+    "tanik": "Duroliponte xxv",
+    "ic_not": "Roma Britanya'sı (Itinerary'nin Britanya bölümü). Duroliponte-Cambridge eşitlemesi Itinerary transkripsiyonundaki modern karşılık notundan (Castle Hill); Rivet & Smith açılamadı."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0410-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "f": "0410-01-01",
+    "t": "0875-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "410-875 arası Cambridge'in siyasî sahibi kaynakta açılamadı: Treccani 'Cambridgeshire': 'Nel sec. VI, gli Angli vi si stabilirono risalendo i fiumi Ouse e Cam' (bölge, şehir değil); Bede HE 4.19 (Sellar çevirisi, Gutenberg #38326) 'Grantacaestir'i 695 civarı 'küçük terkedilmiş kent' olarak anar ama çevirmen dizini 'Grantacaestir, or Grantchester' der — Cambridge ile eşitlemesi kesin değil; East Anglia mı Mercia mı bilgisi yok. 465 yıllık boşluk beyan edilir, zorla kapatılmadı."
+   },
+   {
+    "f": "0875-01-01",
+    "t": "0921-01-01",
+    "d": "danelaw",
+    "kesinlik": "yil",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "went from Repton to Cambridge with a vast army, and sat there one year",
+    "ic_not": "ASC 875: Guthrum, Oskytel ve Anwind Repton'dan Cambridge'e 'vast army' ile gelir ve bir yıl kalır. Künye 'danelaw' f=0878, t=0918 — 875 ve 921 künye aşımı (genişletme önerisi: f=0875, t=0921). Danimarkalı Ordusu'nun Cambridge'deki varlığı 921'e kadar sürer (ASC 921)."
+   },
+   {
+    "f": "0921-01-01",
+    "t": "0927-01-01",
+    "d": "wessex",
+    "kesinlik": "yil",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "the army that belonged to Cambridge chose him separately for their lord and protector",
+    "ic_not": "ASC 921: 'Cambridge ordusu' Kral Edward'ı (Yaşlı) özel olarak efendi ve koruyucu seçer."
+   },
+   {
+    "f": "0927-01-01",
+    "t": "1281-01-01",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "This year King Athelstan expelled King Guthfrith",
+    "ic_not": "İngiltere künyesi f=0927-01-01; ASC 926-927: Athelstan Northumbria'yı alır ve adadaki tüm kralları yönetir. Atlas 1281 'ingiltere' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0410-01-01",
+    "gun": "410",
+    "k": "diger",
+    "b": "Roma Britanya'sının sonu: Roma ordusunun çekilişi (410 Roma'nın yağması dönemi).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'INGHILTERRA' (Storia), https://www.treccani.it/enciclopedia/inghilterra_(Enciclopedia-Italiana)/",
+    "tanik": "fine dell'occupazione romana della Britannia è considerata di solito contemporanea del sacco di Roma"
+   },
+   {
+    "t": "0875-01-01",
+    "gun": "875",
+    "k": "fetih",
+    "b": "Üç Danimarkalı kral (Guthrum, Oskytel, Anwind) Büyük Ordu ile Cambridge'e gelir ve bir yıl kışlar.",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "went from Repton to Cambridge with a vast army, and sat there one year"
+   },
+   {
+    "t": "0921-01-01",
+    "gun": "921",
+    "k": "kayip",
+    "b": "Cambridge'deki Danimarkalı ordu Kral Edward'ı efendi ve koruyucu seçer (Wessex egemenliği).",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "the army that belonged to Cambridge chose him separately for their lord and protector"
+   },
+   {
+    "t": "0927-01-01",
+    "gun": "927",
+    "k": "diger",
+    "b": "künye geçişi: Wessex → İngiltere Krallığı (Athelstan Northumbria'yı alır ve adadaki kralları yönetir; ASC 926-927).",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "This year King Athelstan expelled King Guthfrith"
+   },
+   {
+    "t": "1010-01-01",
+    "gun": "1010",
+    "k": "fetih",
+    "b": "Danimarkalı ordu Doğu Anglia'yı yağmalar; Thetford ve Cambridge yakılır.",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "Thetford also they burned, and Cambridge"
+   },
+   {
+    "t": "1068-01-01",
+    "gun": "1068",
+    "k": "fetih",
+    "b": "Norman fethinden sonra Cambridge'de kale yapılır (1068).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CAMBRIDGE' (Storia), https://www.treccani.it/enciclopedia/cambridge_(Enciclopedia-Italiana)/",
+    "tanik": "dopo la conquista normanna vi fu eretto un castello, nel 1068"
+   },
+   {
+    "t": "1229-01-01",
+    "gun": "1229",
+    "k": "diger",
+    "b": "Paris'ten çok sayıda öğrenci Cambridge'e gelir (üniversitenin gelişim başlangıcı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CAMBRIDGE' (Storia), https://www.treccani.it/enciclopedia/cambridge_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1229 giunsero a Cambridge molti studenti da Parigi"
+   }
+  ],
+  "ic_not": "Treccani Cambridge: 'Fondata dai Romani, col nome di Camboritum' — Itinerary transkripsiyonunda 'Camboritum' (?Lackford) ve 'Duroliponte' ayrı istasyonlar; Treccani adı yanlış eşleştirmiş olabilir, Duroliponte tercih edildi (çelişki beyan). İlk tanık Itinerary (III. yy; Britannica 1911: özgün baskı III. yy başı) — transkripsiyon popüler bir siteden (roman-britain.co.uk) alınmıştır; Cuntz/Parthey-Pinder baskı sayfası açılamadı, Rivet & Smith (Place-Names of Roman Britain 1979) kitabı açılamadı: eşleştirme doğrulaması bekler. Çelişki: Bede HE 4.19 'Grantacaestir' (≈695) Cambridge değil Grantchester olabilir (Sellar dizini). Eski adlar: Grantebrycge (Sakson), Cambridge. Roma Duroliponte Castle Hill'de (Cambridge merkezinden ~1 km; <3 km). 410-875 arası sahip bulunamadı."
+ },
+ {
   "id": "colmar-fr",
   "ad": "Colmar",
   "atlas_ad": "Colmar",
@@ -696,6 +1630,247 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "UYARI TASLAK: ilk anılış 823 yalnız Vikipedi FR/DE'ye dayanıyor (FR: 'Notker Balbulus 823' toponimi ile 'Louis le Pieux Frankfurt 12.6.823' hibe belgesi — iki ifade birbirini tam doğrulamıyor); Vikipedi tek dayanak olamaz; birincil (MGH Dipl. Ludwig d. Fr.) ve akademik ikinci tanık açılamadı. Gün 12 Haziran Vikipedi FR; yıl dışında teyitsiz → 0823-01-01 (kural: yalnız yıl teyitli). Treccani çift teyit sayılamaz (823 vermez; 'sorta sul luogo di un castello fortificato, antico possesso dei Franchi'). Roma dönemi: yakınlardaki Horburg (Argentovaria, RE) Colmar'dan ayrı yerleşim, ayrı kayıt önerisi (mesafe ölçülmedi). Treccani 1226 'città imperiale', 1278 Rudolf özgürlük belgesi (FR: 29.12.1278). Atlas 1281 almanya ile uyumlu."
+ },
+ {
+  "id": "dortmund-de",
+  "ad": "Dortmund",
+  "atlas_ad": "Dortmund",
+  "lat": 51.514,
+  "lon": 7.466,
+  "kat1900": 3,
+  "adlar": [
+   "Throtmanni",
+   "Trutmania",
+   "Tremonia",
+   "Dortmund"
+  ],
+  "ilk": {
+   "t": "0884-01-01",
+   "gun": "MS 880-884",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Stadt Dortmund, Stadtarchiv, 'Stadtgeschichte: Anfänge - 17. Jahrhundert / Königliches', https://www.dortmund.de/themen/dortmund-historisch/stadtgeschichte/anfaenge-17.-jahrhundert/koenigliches/ [Werden Manastırı gelir defteri, 880-884 arası yazıldı: 'Zwischen 880 und 884 wird Dortmund erstmals ... genannt']",
+   "tanik": "In Throtmanni liber homo Arnold VIII denarios nobis solvit"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0884-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Stadt Dortmund, Stadtarchiv, 'Stadtgeschichte: Anfänge - 17. Jahrhundert / Königliches', https://www.dortmund.de/themen/dortmund-historisch/stadtgeschichte/anfaenge-17.-jahrhundert/koenigliches/",
+    "tanik": "Mit dem Herrschaftsantritt Heinrichs I. aus dem sächsischen Herzogshaus auf den Königsthron im Jahr 919",
+    "ic_not": "Aralık verdiği için güvenli uç 884 (aralığın son ucu) alındı. Doğu Francia: Verdun 843'te Sassonia Ludovico il Germanico'ya düştü (Treccani Verdun). 884-919 arası Karolenj kralları, 919'dan Sakson Henry I ve Otto'lar (Stadtarchiv: Heinrich I. 919 tahta çıkar, Dortmund Pfalz/Königsmarkt olur). Dortmund'un 880'ler Doğu Francia'sına ait olduğunu sayfa doğrudan söylemez — Sassonia/Westfalya konumu Verdun payıyla çıkarılmıştır (çıkarım)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Dortmund kral/imparator Pfalz'ı, sonra özgür Reichsstadt (Treccani: 'una delle poche città della Germania settentrionale che ha potuto difendere la sua indipendenza dai principi territoriali'). Atlas 'almanya' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Saksonya (Dortmund yöresi) Ludovico il Germanico'nun payına düşer (Doğu Francia).",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "la Sassonia e l’Alemannia"
+   },
+   {
+    "t": "0884-01-01",
+    "gun": "MS 880-884",
+    "k": "diger",
+    "b": "Werden manastırı gelir defterinde Dortmund ilk kez 'Throtmanni' adıyla anılır: serbest adam Arnold manastıra yılda 8 denar öder.",
+    "kaynak": "Stadt Dortmund, Stadtarchiv, 'Stadtgeschichte: Anfänge - 17. Jahrhundert / Königliches', https://www.dortmund.de/themen/dortmund-historisch/stadtgeschichte/anfaenge-17.-jahrhundert/koenigliches/",
+    "tanik": "In Throtmanni liber homo Arnold VIII denarios nobis solvit"
+   },
+   {
+    "t": "0919-01-01",
+    "gun": "919",
+    "k": "idari",
+    "b": "Saksonya dükü I. Henry kral olur; Dortmund doğudaki hanedan toprakları ile batı Frank bölgeleri arasında bağ olarak öne çıkar (Hoftag, Pfalz, kraliyet darphanesi).",
+    "kaynak": "Stadt Dortmund, Stadtarchiv, 'Stadtgeschichte: Anfänge - 17. Jahrhundert / Königliches', https://www.dortmund.de/themen/dortmund-historisch/stadtgeschichte/anfaenge-17.-jahrhundert/koenigliches/",
+    "tanik": "Mit dem Herrschaftsantritt Heinrichs I. aus dem sächsischen Herzogshaus auf den Königsthron im Jahr 919"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Almanya (I. Otto papadan imparatorluk tacını alır; Kutsal Roma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1200-01-01",
+    "gun": "MS 12.-13. yüzyıl",
+    "k": "idari",
+    "b": "Yerleşim Staufer çağında şehre dönüşür: Konrad III., Friedrich I. ve Friedrich II. ayrıcalıkları ile krallık görevlilerinin (Dortmund Kontu) vesayetinden sıyrılır.",
+    "kaynak": "Stadt Dortmund, Stadtarchiv, 'Stadtgeschichte: Anfänge - 17. Jahrhundert / Königliches', https://www.dortmund.de/themen/dortmund-historisch/stadtgeschichte/anfaenge-17.-jahrhundert/koenigliches/",
+    "tanik": "Vom Ort zur Stadt - dieser Wandel vollzieht sich in der Stauferzeit"
+   },
+   {
+    "t": "1220-01-01",
+    "gun": "1220",
+    "k": "idari",
+    "b": "II. Friedrich Dortmund'a bir ayrıcalık verir; ardından şehir surlarla çevrilir ve belediye sarayı yapılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'DORTMUND' (Storia), https://www.treccani.it/enciclopedia/dortmund_(Enciclopedia-Italiana)/",
+    "tanik": "e nel 1220 ebbe da Federico II un privilegio"
+   }
+  ],
+  "ic_not": "İlk anılış çelişkisi: Stadtarchiv (Werden Urbar) 880-884 verir (aralık → güvenli uç 884); Treccani EI 'appare nei documenti nell'899 come Trutmania' der — Treccani'nin 899'u aynı kaydı değil/geç tarihli; Stadtarchiv esas alındı (belge yeri belli, kaynak sayfası tam açıldı). Arama özeti: bazı kaynaklar 882 ya da 890 verir (doğrulanmadı). Bronz Çağı yerleşimi (~MÖ 1000) 'arkeolojik buluntular yoğun iskân gösteriyor' (Stadtarchiv genel sayfa) — yerleşim sürekliliği ve nokta kesin değil, 'ark' yazılmadı. Çift teyit yok (iki bağımsız sayfa aynı güne varmıyor)."
+ },
+ {
+  "id": "dover-gb",
+  "ad": "Dover",
+  "atlas_ad": "Dover",
+  "lat": 51.128,
+  "lon": 1.313,
+  "kat1900": 3,
+  "adlar": [
+   "Dubris",
+   "Dofras",
+   "Dover"
+  ],
+  "ilk": {
+   "t": "0300-01-01",
+   "gun": "MS 3. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Antonine Itinerary, Iter Britanniarum (transkripsiyon: roman-britain.co.uk/antonine-itinerary/); tarihleme: Britannica 1911 'Antonini Itinerarium' (en.wikisource.org) [Iter III: Londinium-Portus Dubris, 66 mil; 'Ad portum Dubris xiii']",
+   "tanik": "Item a Londinio ad portum Dubris"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0300-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Antonine Itinerary, Iter Britanniarum (transkripsiyon: roman-britain.co.uk/antonine-itinerary/); tarihleme: Britannica 1911 'Antonini Itinerarium' (en.wikisource.org)",
+    "tanik": "Item a Londinio ad portum Dubris",
+    "ic_not": "Dubris Roma Britanya'sının Manş limanı; Treccani Dover: 'Dover, l'antica Dubris, era fin dall'epoca romana uno dei porti principali della Bretagna'."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0410-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "f": "0410-01-01",
+    "t": "0449-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "Roma yönetiminin çekilişi (410) ile Hengist-Horsa'nın Kent'e gelişi (449) arası Dover'ın siyasî sahibi kaynakta açılamadı (Romano-Britanya, yerel yönetim). 39 yıl, beyan edilir."
+   },
+   {
+    "f": "0449-01-01",
+    "t": "0823-01-01",
+    "d": "kent-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'INGHILTERRA' (Storia), https://www.treccani.it/enciclopedia/inghilterra_(Enciclopedia-Italiana)/",
+    "tanik": "L'arrivo nel Kent dei capi iuti Hengist e Horsa nel 449",
+    "ic_not": "Kent Krallığı künyesi f=0455 (ASC 455 Aylesford); Treccani 449'da Kent'e Jüt başlarının gelişini verir, ASC 449 aynı yılı verir — künye GENİŞLETME önerisi f=0449. Kent'in Mercia egemenliği dönemleri (VIII. yy.) bu turda yazılmadı. Dover'ın Kent krallığı içinde olduğu 'Cinque Ports/Kent' bağlamından çıkarım (Treccani Dover Kent kontluğunda der)."
+   },
+   {
+    "f": "0823-01-01",
+    "t": "0927-01-01",
+    "d": "wessex",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'INGHILTERRA' (Storia), https://www.treccani.it/enciclopedia/inghilterra_(Enciclopedia-Italiana)/",
+    "tanik": "Egberto (802-829) che nell'823 conquistò il Kent",
+    "ic_not": "ASC 823: Wessex kralı Egbert oğlu Ethelwulf'u Kent'e yollar, Kent halkı 'immediately submitted'. Künye 'kent-kralligi' t=0825 (2 yıl fark)."
+   },
+   {
+    "f": "0927-01-01",
+    "t": "1281-01-01",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "This year King Athelstan expelled King Guthfrith",
+    "ic_not": "İngiltere künyesi f=0927; ASC 926-927 Athelstan'ın Northumbria'yı alması. 1066 Norman fethi aynı krallık içinde (Treccani Dover: 'accettò il dominio di Guglielmo il Conquistatore'). Atlas 'ingiltere' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0410-01-01",
+    "gun": "410",
+    "k": "diger",
+    "b": "Roma Britanya'sının sonu (410 Roma'nın yağması dönemi); kalıcı garnizonlar çekilir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'INGHILTERRA' (Storia), https://www.treccani.it/enciclopedia/inghilterra_(Enciclopedia-Italiana)/",
+    "tanik": "fine dell'occupazione romana della Britannia è considerata di solito contemporanea del sacco di Roma"
+   },
+   {
+    "t": "0449-01-01",
+    "gun": "449",
+    "k": "diger",
+    "b": "Jüt başları Hengist ve Horsa Kent'e gelir (ASC 449: Ipwinesfleet); Kent krallığının tohumu.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'INGHILTERRA' (Storia), https://www.treccani.it/enciclopedia/inghilterra_(Enciclopedia-Italiana)/",
+    "tanik": "L'arrivo nel Kent dei capi iuti Hengist e Horsa nel 449"
+   },
+   {
+    "t": "0823-01-01",
+    "gun": "823",
+    "k": "fetih",
+    "b": "Wessex kralı Egbert Kent'i alır: Ethelwulf Baldred'i Thames'in kuzeyine sürer, Kent halkı teslim olur.",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "the men of Kent immediately submitted to him"
+   },
+   {
+    "t": "0927-01-01",
+    "gun": "927",
+    "k": "diger",
+    "b": "künye geçişi: Wessex → İngiltere Krallığı (Athelstan Northumbria'yı alır, Guthfrith'i kovar; ASC 926-927).",
+    "kaynak": "Anglo-Saxon Chronicle (Ingram/Giles collation, Project Gutenberg #657), https://www.gutenberg.org/ebooks/657",
+    "tanik": "This year King Athelstan expelled King Guthfrith"
+   },
+   {
+    "t": "1066-01-01",
+    "gun": "1066",
+    "k": "fetih",
+    "b": "Dover, Fatih Guillaume'ın egemenliğini eski özgürlüklerini koruma şartıyla kabul eder; Roma temelleri üzerinde Norman kalesi yapılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1932), 'DOVER' (A. Poham, G. Degli Alberti, W. E. Whitehouse, L. Villari), https://www.treccani.it/enciclopedia/dover_(Enciclopedia-Italiana)/",
+    "tanik": "Dover accettò il dominio di Guglielmo il Conquistatore"
+   },
+   {
+    "t": "1203-01-01",
+    "gun": "1203",
+    "k": "kurulus",
+    "b": "Kale muhafızı Hubert de Burgh Dover'da Maison Dieu'yu (Canterbury hacılarına dinlenme yeri) kurar.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1932), 'DOVER' (A. Poham, G. Degli Alberti, W. E. Whitehouse, L. Villari), https://www.treccani.it/enciclopedia/dover_(Enciclopedia-Italiana)/",
+    "tanik": "fu fondata da Hubert de Burgh, conestabile del castello di Dover, la Maison Dieu"
+   },
+   {
+    "t": "1217-08-24",
+    "gun": "24 Ağustos 1217",
+    "k": "diger",
+    "b": "Cinque Ports filosu Hubert de Burgh komutasında Fransız-Flaman korsan Eustace le Moine'nin 80 gemilik filosunu Dover açıklarında yener.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1932), 'DOVER' (A. Poham, G. Degli Alberti, W. E. Whitehouse, L. Villari), https://www.treccani.it/enciclopedia/dover_(Enciclopedia-Italiana)/",
+    "tanik": "Il 24 agosto 1217 vennero a conflitto"
+   }
+  ],
+  "ic_not": "İlk tanık: Antonine Itinerary Iter III 'Item a Londinio ad portum Dubris mpm lxvi' — transkripsiyon popüler site (roman-britain.co.uk) üzerinden; Britannica 1911 tarihleme (özgün baskı III. yy başı, mevcut hâl Diocletianus). Cuntz/Parthey-Pinder metni açılamadı. Pleiades 'Portus Dubris' (arama özeti) AD 43 işgaliyle ilgili tanım verir (sayfa açılmadı). Treccani Dover: 'Giulio Cesare non era riuscito a approdarvi' (Caesar MÖ 55-54 inişi Dover'da başarısız — tarih ve yer Treccani'de ayrıntısız). 410-449 arası ve 449-823 içi Mercia egemenliği bulunamadı/yazılmadı. Modern nokta = Roma Dubris (Dover Painted House); 3 km içinde."
  },
  {
   "id": "erfurt-de",
@@ -956,6 +2131,182 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Freiburg im Breisgau (Almanya; Treccani 'Friburgo' İsviçre Fribourg'dur). Kuruluş: Untermann 1120 belgesi (pazar 'forum', 'locus Freiburg'); belge geç kopyalarda kalmıştır ('überliefert nur in späten Abschriften'); 'Stadt' demez; kullanım şehrin kuruluşu = pazar kuruluşu. Castrum de Friburch ~1091 (Vikipedi DE; Untermann'ın yayın başlığı 'Freiburg 1091–1120' kaynakça) ve burgus ~1100 arkeolojik: ilk anılış/kuruluş tarihi daha erken olabilir ama yazılı doğrulama bu oturumda açılamadı. Vikipedi DE: bölge (Wiehre, Zähringen, Herdern) 1008 belgesi — merkez Freiburg değil. Zincir tek dönem (nominal almanya; Zähringer/Urach sub-egemen). Atlas 1281 almanya ile uyumlu. Çift teyit YOK."
  },
  {
+  "id": "gent-be",
+  "ad": "Gent",
+  "atlas_ad": "Gent",
+  "lat": 51.054,
+  "lon": 3.717,
+  "kat1900": 2,
+  "adlar": [
+   "Ganda",
+   "Gand",
+   "Gent"
+  ],
+  "ilk": {
+   "t": "0650-01-01",
+   "gun": "MS 7. yüzyılın ilk yarısı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'GAND' (Storia), https://www.treccani.it/enciclopedia/gand_(Enciclopedia-Italiana)/ [St. Amandus'un 'Ganda' yerinde iki manastır kurması; yarım yüzyıl aralığının güvenli ucu 650]",
+   "tanik": "Nella prima metà del sec. VII, S. Amando"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0650-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GAND' (Storia), https://www.treccani.it/enciclopedia/gand_(Enciclopedia-Italiana)/",
+    "tanik": "venuto a predicare il Vangelo ai Franchi, aveva fondato",
+    "ic_not": "Künye 'frank' f=0481; Treccani: Amandus 'Franklara' vaaza gelir; 814-840 arası manastırların başrahibi Einhard."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0866-01-01",
+    "d": "bati-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda, della Mosa",
+    "ic_not": "Gent Schelda'nın batı yakasında Lys birleşiminde (Treccani Gand: Mont Blandin sol sahilde) → Batı Francia."
+   },
+   {
+    "f": "0866-01-01",
+    "t": "1281-01-01",
+    "d": "flandre",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'FIANDRA' (La contea di Fiandra), https://www.treccani.it/enciclopedia/fiandra_(Enciclopedia-Italiana)/",
+    "tanik": "Carlo il Calvo ne fece, verso l'866, il centro di una marca",
+    "ic_not": "Flandre künyesi f=0862, boyasız. Treccani Fiandra: ~866'da Kel Charles Flandre'yi bir sınır marka'sı yapar, Baudouin I 'Schelda'ya kadar pagi'nin yönetimi'ni alır; Treccani Gand: Arnulf I (918-965) 940'tan önce Lys kıyısında kale kurar. Gent'in 866'da markın içinde olduğunu doğrudan yazan kaynak yok — Schelda doğu sınırı + Gent'in sol yaka konumundan çıkarım; en geç tanık 940 öncesi castrum. Fransa kralı nominal üst efendi (Treccani Fiandra).",
+    "boyasiz": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "0650-01-01",
+    "gun": "MS 7. yüzyılın ilk yarısı",
+    "k": "kurulus",
+    "b": "Aziz Amandus Frank topraklarında Schelda-Lys birleşiminde 'Ganda' yerinde Mont Blandin ve Aziz Bavo manastırlarını kurar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GAND' (Storia), https://www.treccani.it/enciclopedia/gand_(Enciclopedia-Italiana)/",
+    "tanik": "Nella prima metà del sec. VII, S. Amando"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Frank mirası üç kardeş arasında bölünür; Schelda/Maas/Saône/Rhône batısı Kel Charles'a (Batı Francia) düşer.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda, della Mosa"
+   },
+   {
+    "t": "0866-01-01",
+    "gun": "866",
+    "k": "idari",
+    "b": "Kel Charles Flandre'yi (pagus flandrensis) bir sınır markı yapar; kont Baudouin I Schelda'ya kadar pagi'nin yönetimini alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'FIANDRA' (La contea di Fiandra), https://www.treccani.it/enciclopedia/fiandra_(Enciclopedia-Italiana)/",
+    "tanik": "Carlo il Calvo ne fece, verso l'866, il centro di una marca"
+   },
+   {
+    "t": "0940-01-01",
+    "gun": "940 öncesi",
+    "k": "idari",
+    "b": "Flandre kontu Arnulf I Lys'in sol yakasında bir 'castrum' kurar (Lotharingia karşısında askerî önem).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GAND' (Storia), https://www.treccani.it/enciclopedia/gand_(Enciclopedia-Italiana)/",
+    "tanik": "fin dagli anni precedenti al 940, uno di essi, Arnoldo I, costruì un castrum"
+   },
+   {
+    "t": "0941-01-01",
+    "gun": "941",
+    "k": "diger",
+    "b": "Gent'in 'portus' (ticaret yerleşimi) varlığı belgelenir (941).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GAND' (Storia), https://www.treccani.it/enciclopedia/gand_(Enciclopedia-Italiana)/",
+    "tanik": "la cui esistenza è attestata nel 941"
+   },
+   {
+    "t": "1037-01-01",
+    "gun": "1037",
+    "k": "idari",
+    "b": "St. Jean şapeli cemaat kilisesine çevrilir: portus'un önemi arttı.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GAND' (Storia), https://www.treccani.it/enciclopedia/gand_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1037 trasformò la cappella di S. Giovanni in una chiesa parrocchiale"
+   },
+   {
+    "t": "1056-01-01",
+    "gun": "1056",
+    "k": "fetih",
+    "b": "'İmparatorluk Flandre'ı' (Schelda doğusu) Flandre kontluğuna eklenir: Gent'in doğu güvenliği.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GAND' (Storia), https://www.treccani.it/enciclopedia/gand_(Enciclopedia-Italiana)/",
+    "tanik": "L'annessione della Fiandra Imperiale"
+   },
+   {
+    "t": "1178-01-01",
+    "gun": "1178",
+    "k": "idari",
+    "b": "Kont Philippe d'Alsace Gent'e elde kalan en eski ayrıcalık fermanını verir (1127 fermanı kayıp).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GAND' (Storia), https://www.treccani.it/enciclopedia/gand_(Enciclopedia-Italiana)/",
+    "tanik": "accordata dal conte Filippo d'Alsazia nel 1178"
+   }
+  ],
+  "dikis_beyan": "Atlas Gent'i 1281-01-01'de 'fransa' ile başlatıyor; Treccani Gand/Fiandra Gent'i 940 öncesinden beri Flandre kontlarının (Fransa'nın nominal vassalı) elinde gösterir (1213: kont Ferrando Fransa'ya karşı İngiltere ile ittifak eder). 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'flandre' (boyasız künye) olmalı mı yoksa Fransa nominal üst efendi diye tutulur mu — Emre kararı.",
+  "ic_not": "İlk anılış tür notu: Treccani yerleşimin kendisini değil Amandus'un 'Ganda' denen yerde iki manastır kurmasını (VII. yy. ilk yarısı) verir; kesin yıl yok (güvenli uç 650). Şehir adı olarak 'Ganda' 941 'portus' belgesinden önce yazılı kaydı bu turda açılamadı. Modern Gent noktası manastır/portus yerleşim bölgesinde (Lys-Schelda birleşimi). 650-866 arası Frank ve Batı Francia sahibi Verdun payı ve Treccani Gand'dan çıkarım. Gent 1281'de Flandre'da (Gui de Dampierre kont, 1278-1305: Treccani Fiandra)."
+ },
+ {
+  "id": "groningen-nl",
+  "ad": "Groningen",
+  "atlas_ad": "Groningen",
+  "lat": 53.219,
+  "lon": 6.567,
+  "kat1900": 2,
+  "adlar": [
+   "Cruoninga",
+   "Groninga",
+   "Groningen"
+  ],
+  "ilk": {
+   "t": "1040-05-21",
+   "gun": "21 Mayıs 1040",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Madoc 1991 (Tijdschrift over de Middeleeuwen), s. 174-176, boekbespreking van 'Groningen 1040. Archeologie en oudste geschiedenis van de stad Groningen' (red. J.W. Boersma e.a., Bedum 1990), https://dbnl.org/tekst/_mad001199101_01/_mad001199101_01_0031.php [Kral III. Heinrich'in 'villa Cruoninga' sarayını (predium) Utrecht kilisesine bağışlama fermanı]; çift teyit: Treccani, Enciclopedia Italiana, 'GRONINGA' (Storia), https://www.treccani.it/enciclopedia/groninga_(Enciclopedia-Italiana)/ ['Nel 1040 l'imperatore Enrico III dona la parte meridionale ...']",
+   "tanik": "de oudste gedateerde vermelding van de stad in een oorkonde van 21 mei 1040"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1040-05-21",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "gun",
+    "kaynak": "Madoc 1991 (Tijdschrift over de Middeleeuwen), s. 174-176, boekbespreking van 'Groningen 1040. Archeologie en oudste geschiedenis van de stad Groningen' (red. J.W. Boersma e.a., Bedum 1990), https://dbnl.org/tekst/_mad001199101_01/_mad001199101_01_0031.php",
+    "tanik": "schonk de Duitse koning Hendrik III een hof ( predium ) in de nederzetting Groningen",
+    "ic_not": "Almanya (Kutsal Roma) krallığının Drenthe kontluğunda bir saray (predium); III. Heinrich Utrecht kilisesine bağışlar (Madoc: 'in het graafschap Drenthe'). Treccani: şehrin de bağışa dahil olup olmadığı tartışmalı, halk kendini özgür sayar (Utrecht piskoposunun valisi vardı, Madoc: Martinikerkhof'ta piskoposun prefektinin taş evi). Reich içinde — 'almanya'. Künye utrecht-piskoposlugu f=1024 mevcut ama şehrin piskoposa ait olduğu kesin değil: yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1040-05-21",
+    "gun": "21 Mayıs 1040",
+    "k": "diger",
+    "b": "Alman kralı III. Heinrich, Groningen yerleşimindeki sarayı (predium, villa Cruoninga) Utrecht kilisesine bağışlar; yerin bilinen en eski tarihli yazılı anılışı.",
+    "kaynak": "Madoc 1991 (Tijdschrift over de Middeleeuwen), s. 174-176, boekbespreking van 'Groningen 1040. Archeologie en oudste geschiedenis van de stad Groningen' (red. J.W. Boersma e.a., Bedum 1990), https://dbnl.org/tekst/_mad001199101_01/_mad001199101_01_0031.php",
+    "tanik": "de oudste gedateerde vermelding van de stad in een oorkonde van 21 mei 1040"
+   },
+   {
+    "t": "1040-01-01",
+    "gun": "1040",
+    "k": "idari",
+    "b": "İmparator III. Heinrich bugünkü eyaletin güney kısmını (Hooregt) Utrecht piskoposu Bernolf'a bağışlar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GRONINGA' (Storia), https://www.treccani.it/enciclopedia/groninga_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1040 l'imperatore Enrico III dona la parte meridionale dell'odierna provincia"
+   }
+  ],
+  "ic_not": "Çift teyit (akademik): Madoc 1991 (Boersma, van den Broek, Offerman, 'Groningen 1040', 1990 derlemesinin değerlendirmesi: 21 Mayıs 1040 oldukça tarihli ilk anılış; R.I.A. Nip daha eski sözde anılışların güvenilmez olduğunu gösterir) + Treccani EI (Enrico III, 1040). Özgün ferman 16. yy. sonunda kayıp, 12. yy. kopyası (Madoc). Treccani: 'La quale, di origine molto antica, forse romana' — kanıt yok, yazılmadı. 1040'ta bağışın şehri mi yalnız saray ve Gorecht'i mi kapsadığı tartışmalı; zincir Reich'a (almanya) bağlandı. Aynı yer: 1594'e dek Stad en Lande; 1479 Reichsstadt ilanı (Treccani) 1281 sonrası."
+ },
+ {
   "id": "kassel-de",
   "ad": "Kassel",
   "atlas_ad": "Kassel",
@@ -1161,6 +2512,248 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "UYARI: ilk anılış 'um 525' yalnız Vikipedi DE'de bulundu (Anarid) — Vikipedi tek dayanak olamaz kuralı gereği BU KAYIT TASLAKTIR; akademik ikinci tanık açılamadı (HLS Konstanz 'zerfallenes spätrömisches Kastell Constantia' ve 4. yy tahkimat arkeolojisi verir; Treccani Costanzo II. dönemi 4. yy kale ve 6. yy ilk yarısında piskoposluk der, ama ad yazılı tanığı vermez). Roma dönemi (Constantia 4. yy kalesi, Raetia prima 297) arkeolojiyle belgeli, yazılı tanık bu oturumda yok → zincir 525'te başlıyor; 4. yy Roma dönemi ark alanında. Konstanz noktasının Roma kalesi ile aynı yerde olduğu (Münsterplatz) HLS'de. Treccani 6. yy ilk yarısı piskoposluk (Vindonissa'dan nakil), HLS 6/7. yy dönümü; Vikipedi ~585 — ikisi de olay. Çift teyit YOK."
+ },
+ {
+  "id": "leeuwarden-nl",
+  "ad": "Leeuwarden",
+  "atlas_ad": "Leeuwarden",
+  "lat": 53.201,
+  "lon": 5.8,
+  "kat1900": 2,
+  "adlar": [
+   "Liunvert",
+   "Lienward",
+   "Liouwert",
+   "Leeuwarden"
+  ],
+  "ilk": {
+   "t": "1057-01-01",
+   "gun": "MS 1038-1057",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "N. Ottema, 'Ambachtskunst in oud-Leeuwarden', Gedenkboek Leeuwarden 1435-1935 (Leeuwarden 1935), s. 36-38, PDF: https://www.oks.nl/wp-content/uploads/pdf/142_OttemaN_MinnevanderAGedenkboekLeeuwarden1435-1935_AmbachtskunstOudeLeeuwarden.pdf [Leeuwarden'de basılan 63 gümüş sikke, Bruno III (1038-1057) dönemi, üzerinde 'LIUNVERT' şehir adı; Lublin yakınındaki define 1060-1065'te gömüldü; aralığın güvenli ucu 1057]",
+   "tanik": "stadsnaam „LIUNVERT\" treffen wij nog vrijwel onveranderd aan"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1057-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'FRISIA' (Storia), https://www.treccani.it/enciclopedia/frisia_(Enciclopedia-Italiana)/",
+    "tanik": "Nominalmente parte dell'Impero, in verità non avevano nessun signore",
+    "ic_not": "Orta Frizya (Vlie-Lauwers arası) Reich'ın ismen parçası, 'gerçekte hiçbir efendisi yoktu; çiftçi cumhuriyetleri' (Treccani Frisia). Frizya Özgürlüğü künyesi (frizya-ozgurlugu, 1101-1498, boyalı) mevcut — 1101-1281 için doğru künye muhtemelen o; kaynak açılmadığından ('1101' tarihi Treccani'de yok) atlas ile uyumlu 'almanya' alındı, künye değerlendirmesi Emre'ye bırakıldı. Atlas 'almanya' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1057-01-01",
+    "gun": "MS 1038-1057",
+    "k": "diger",
+    "b": "Leeuwarden darphanesi 'LIUNVERT' yazılı gümüş sikkeler basar (III. Bruno, 1038-1057): yerin en eski sağlam yazılı varlığı.",
+    "kaynak": "N. Ottema, 'Ambachtskunst in oud-Leeuwarden', Gedenkboek Leeuwarden 1435-1935 (Leeuwarden 1935), s. 36-38, PDF: https://www.oks.nl/wp-content/uploads/pdf/142_OttemaN_MinnevanderAGedenkboekLeeuwarden1435-1935_AmbachtskunstOudeLeeuwarden.pdf",
+    "tanik": "stadsnaam „LIUNVERT\" treffen wij nog vrijwel onveranderd aan"
+   },
+   {
+    "t": "1149-01-01",
+    "gun": "1149",
+    "k": "diger",
+    "b": "Corvey başrahibi, Oldehove'daki St. Vitus kilisesi ('Linvert') üzerindeki eski haklarından söz eder: şehrin ikinci ve en eski arşiv anılışı.",
+    "kaynak": "N. Ottema, 'Ambachtskunst in oud-Leeuwarden', Gedenkboek Leeuwarden 1435-1935 (Leeuwarden 1935), s. 36-38, PDF: https://www.oks.nl/wp-content/uploads/pdf/142_OttemaN_MinnevanderAGedenkboekLeeuwarden1435-1935_AmbachtskunstOudeLeeuwarden.pdf",
+    "tanik": "Kerk van „LINVERT\" uit het jaar 1149"
+   },
+   {
+    "t": "1435-01-01",
+    "gun": "1435",
+    "k": "kurulus",
+    "b": "Frizya Meclisi Oldehove ve Hoek köylerini Nyehove köyüne ekleyerek Leeuwarden şehrini kurar ve surlarla güçlendirir (1281 sonrası, hukuki şehir kuruluşu).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LEEUWARDEN' (Storia), https://www.treccani.it/enciclopedia/leeuwarden_(Enciclopedia-Italiana)/",
+    "tanik": "fondarono la città di Leeuwarden che fu rinforzata di mura"
+   }
+  ],
+  "ic_not": "İlk anılış seçimi: Ottema (1935), arşiv anılışı olarak (a) 'VILLA LINTARWRDE' (Fulda manastırı mülkü; 8. yy. bir bağış belgesinin GEÇ KOPYASINDA) ve (b) 1149 'LINVERT' kilisesini sayar; (a) geç kopyada olduğundan ve Lintarwrde=Leeuwarden eşitlemesi kesin olmadığından başlangıç alınmadı (yeri kesin olmayan ad eşitlemesi kuralı); kesin olan LIUNVERT sikkeleri (basım yeri Leeuwarden) alındı. Arama özeti: 1149 oluştu ve Leeuwarden'in daha eski 'Nijehove' çekirdeği (~1190 şehir) var (tam metin doğrulanmadı). Treccani: şehir 1435'te üç köyün birleşiminden 'kuruldu' — hukuki şehir kuruluşu; yerleşim sürekliliği daha eski (Oldehove höyüğü). Kayıt 1281 öncesi tek dönem; Frizya ismen Reich'ta."
+ },
+ {
+  "id": "liege-be",
+  "ad": "Liège",
+  "atlas_ad": "Liège",
+  "lat": 50.633,
+  "lon": 5.567,
+  "kat1900": 2,
+  "adlar": [
+   "Legia",
+   "Leodium",
+   "Luik",
+   "Liège"
+  ],
+  "ilk": {
+   "t": "0700-01-01",
+   "gun": "MS 7. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'LIEGI' (Storia), https://www.treccani.it/enciclopedia/liegi_(Enciclopedia-Italiana)/ [Glain (Legia) deresinin ovaya açıldığı yerde çiftçi ve kayıkçı köyü; VII. yy. içinde, güvenli uç 700]",
+   "tanik": "Liegi appare nel secolo VII come un villaggio di agricoltori e di barcaioli"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0700-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIEGI' (Storia), https://www.treccani.it/enciclopedia/liegi_(Enciclopedia-Italiana)/",
+    "tanik": "Liegi appare nel secolo VII come un villaggio di agricoltori e di barcaioli",
+    "ic_not": "Liège'in Lotharingia/Austrasia (Maas) içinde olması Treccani Liegi: 'dopo la riunione della Lorena con la Germania nel 925, il suo vescovo era diventato il capo di un principato vescovile'."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0925-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte",
+    "ic_not": "Lothar I'in payı (Frizya + Austrasia'nın orta-doğusu = sonradan Lotharingia). Künye 'orta-francia-lotharingia' f=0855 — 843-855 arası Lothar I'in Orta Francia'sı aynı polity: künye GENİŞLETME önerisi (f=0843-08-10). Treccani Lorena: Lotharingia 'Alpler, Jura, Maas, Schelda ve Ren arası'; 869 sonrası 'Alman ve Frank Karolenjler arasında bölüşüldü' (870 Meerssen ayrıntısı bu kaynakta yok) ve 876-925 arası hükümdarlar sırayla Doğu/Batı kralları — şehir bazında 870-925 ayrımı yazılmadı, polity (Lotharingia) tek dönem alındı."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia), https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01; zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Liège Prens-Piskoposluğu (künye liege-piskoposlugu f=1000, boyasız) Reich içinde; Notger (972-1008) döneminde ilk surlar. Metz emsali gibi 'almanya' nominal egemen alındı; künye geçişi (piskoposluk) için tarih/kaynak yok. Atlas 'almanya' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0718-01-01",
+    "gun": "718",
+    "k": "diger",
+    "b": "Piskopos Hubert, Lambert'in öldürüldüğü yerde Liège'e yerleşir ve şehit anısına kilise yaptırır; Liège Tongres piskoposluğunun merkezi olur (Maastricht yerine).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIEGI' (Storia), https://www.treccani.it/enciclopedia/liegi_(Enciclopedia-Italiana)/",
+    "tanik": "Sant'Uberto, si stabilì nel 718 proprio sul posto del delitto"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (10 Ağustos 843): Lothar I'e imparator unvanı; fiilî otorite Frizya ve Austrasia'nın orta-doğusu (sonradan Lotharingia) üzerinde.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Verdun' (voce: Trattato di V.), https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "fetih",
+    "b": "Kuşkucu (Avcı) Henry (Doğu Francia/Almanya kralı) Lotharingia'yı boyun eğdirir (sonra dükalık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia), https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia"
+   },
+   {
+    "t": "0972-01-01",
+    "gun": "MS 972-1008",
+    "k": "idari",
+    "b": "Piskopos Notger (972-1008) döneminde Liège ilk kez 'şehir' sayılmaya başlar: Mont Saint-Martin ve ovadaki yerleşimi çeviren ilk sur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIEGI' (Storia), https://www.treccani.it/enciclopedia/liegi_(Enciclopedia-Italiana)/",
+    "tanik": "vescovi imperiali, Notger (972-1008), che essa cominciò a figurare come città"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Almanya (I. Otto papadan imparatorluk tacını alır; Kutsal Roma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185",
+    "k": "idari",
+    "b": "Liège burgerleri komün olup kendi magistratalarını oluşturur (1185); 1196'da piskopos Albert de Cuyck özgürlük fermanını verir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIEGI' (Storia), https://www.treccani.it/enciclopedia/liegi_(Enciclopedia-Italiana)/",
+    "tanik": "a costituirsi in comune e a crearsi magistrati proprî (1185)"
+   }
+  ],
+  "ic_not": "Treccani Liegi: 'Liegi appare nel secolo VII come un villaggio' — kesin yıl yok (güvenli uç 700). Arama özeti: en eski Lambert Vita'sı (Vita Landiberti vetustissima) 730-740 arası (MGH SRM 6, Krusch 1913, s. 353-384) — Liège/Legia anılışı için açılmadı; ilk anılış daha erken yıla çekilebilir. Treccani'de 'ipocausto romano a piazza Lambert' var (Roma buluntusu, tarihi yok) — ark yazılmadı. Lotharingia künyesi f=0855 (genişletme f=0843-08-10). Prens-Piskoposluk künyesi f=1000 boyasız; Treccani 925'ten sonra vekilin 'principato vescovile' başı olduğunu verir (kesin tarih yok). 870 Meerssen paylaşımında Liège'in hangi tarafa düştüğü bu turda kaynakta açılamadı; polity (Lotharingia) tek dönem alındı."
+ },
+ {
+  "id": "lille-fr",
+  "ad": "Lille",
+  "atlas_ad": "Lille",
+  "lat": 50.633,
+  "lon": 3.059,
+  "kat1900": 2,
+  "adlar": [
+   "Isla",
+   "Insula",
+   "Rijsel",
+   "Lille"
+  ],
+  "ilk": {
+   "t": "1066-01-01",
+   "gun": "MS 1066",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "J.-B. Dupont, Topographie historique, statistique et médicale du département du Nord, Paris-Lille 1853, ch. 1 'Histoire et description de Lille' (archive.org b2875184x) [Baudouin V'nin Saint-Pierre kilisesi kuruluş fermanı 1066: 'forum Illense' ve 'castrum Illense']",
+   "tanik": "Baudouin V, dans la charte de fondation de l’église de Saint- Pierre"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1066-01-01",
+    "t": "1281-01-01",
+    "d": "flandre",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LILLA' (Storia), https://www.treccani.it/enciclopedia/lilla_(Enciclopedia-Italiana)/",
+    "tanik": "ma più tardi fu di nuovo ricostruita e tornò ai conti di Fiandra",
+    "ic_not": "Treccani Lilla: surlarla Baldovino IV (Flandre kontu) çevirir; 1213'te Philippe Auguste yıkar, yeniden kurulup Flandre kontlarına döner; 1305/1320'de Douai-Béthune-Lilla kastelanlıkları krala geçer. Flandre künyesi boyasız (boyali:false) — renk istenecek.",
+    "boyasiz": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "1030-01-01",
+    "gun": "1030",
+    "k": "idari",
+    "b": "Treccani'ye göre Lille Flandre kontu IV. Baudouin tarafından surlarla çevrilir (Buc kalesi çevresindeki yerleşim).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LILLA' (Storia), https://www.treccani.it/enciclopedia/lilla_(Enciclopedia-Italiana)/",
+    "tanik": "fu circondato di mura nel 1030 per opera di Baldovino IV conte di Fiandra"
+   },
+   {
+    "t": "1066-01-01",
+    "gun": "1066",
+    "k": "kurulus",
+    "b": "Kont V. Baudouin'in Saint-Pierre kolejiyle ilgili kuruluş fermanında Lille 'forum Illense' (Saint-Étienne mahallesi) ve 'castrum Illense' olarak anılır.",
+    "kaynak": "J.-B. Dupont, Topographie historique, statistique et médicale du département du Nord, Paris-Lille 1853, ch. 1 'Histoire et description de Lille' (archive.org b2875184x)",
+    "tanik": "Baudouin V, dans la charte de fondation de l’église de Saint- Pierre"
+   },
+   {
+    "t": "1213-01-01",
+    "gun": "1213",
+    "k": "kayip",
+    "b": "Philippe Auguste Lille'i yıkar; sonra yeniden inşa edilip Flandre kontlarına geri döner.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LILLA' (Storia), https://www.treccani.it/enciclopedia/lilla_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1213 la città venne distrutta da Filippo Augusto, re di Francia"
+   }
+  ],
+  "dikis_beyan": "Atlas Lille'i 1281-01-01'de 'fransa' ile başlatıyor; Treccani Lilla 1305/1320'ye dek Flandre kontlarını, 1320'den sonra doğrudan Fransa kralını verir (sonra 1369 Burgonya). 1281'de Fransa'ya geçişi gösteren kaynak yok. Atlas başlangıç sahibi 'flandre' (boyasız künye) olmalı mı yoksa Fransa nominal üst efendi diye tutulur mu — Emre kararı.",
+  "ic_not": "İlk tanık çelişkisi: Treccani 1030'da Baldovino IV'ün surları (belgeye atıfsız anlatı); Dupont (1853) ve yerel kaynaklar 1066 fermanını Lille'in 'en eski' belgesi sayar — belgeli 1066 alındı, 1030 olay olarak yazıldı. Arama özetleri 2004 tarihli bir makalenin 1066 fermanını 'bilinen ilk belge' saydığını ve Mezolitik/Roma buluntularını bildirir (sayfa açılmadı; yerel turizm sayfası akademik değil, kullanılmadı). Lille 'Isla' adı insula=ada (Deûle kolları). Antik/Mezolitik buluntu 'Tanneurs' adacığı: modern noktaya uzaklığı bilinmiyor. Efsanevi kuruluş 640 (Lyderic-Phinaert) belgesiz, yazılmadı."
  },
  {
   "id": "lozan-ch",
