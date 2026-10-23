@@ -7561,7 +7561,7 @@ def main():
     # Trianon/Bukres/Londra/Lozan/Tartu-Riga siniri vb.; sinav denetim/ARAC-MUKERRER-YER-SINAV-1022.py).
     # Emre onayiyla bekleyen veri dallari icin GECICI 135 istenmisti; olcut duzelince tavan GERCEK olcume
     # indi (tavan yalniz iyilesince iner kurali). Yeni veri bunu asarsa yeni sayi gerekceyle yazilir.
-    BEKLENEN_MUKERRER = 81   # 22 Ekim 2026 VERI-MS1-1281 (MO-MOTOR notu: dalinda 70'i asarsa rebase sonrasi sayi gerekceyle yazilir): 70 -> 81 (+11) = ayni yerlesimin 1-12 ay arayla ardisik devir maddeleri (Pekin 1123 Liao->Jin->Song, Meyyafarikin, Ahlat, Harran, Verdun 1792) + 1923-10-29 Osmanli cikis maddeleri; hepsi farkli olay, tek yerlesimin kisa araliklarla art arda el degistirmesi (ortak yer adi + devlet adi Jaccard>=0.34)
+    BEKLENEN_MUKERRER = 94   # 23 Ekim 2026 KRON-ORTACAG (Emre onayi): 81 -> 94 (+13) = bekleyen_acik maddelerinin ayni yerlesimdeki ardisik farkli olaylari (ortak yer + devlet adi); hepsi farkli olay. Onceki: 22 Ekim 2026 VERI-MS1-1281 (MO-MOTOR notu: dalinda 70'i asarsa rebase sonrasi sayi gerekceyle yazilir): 70 -> 81 (+11) = ayni yerlesimin 1-12 ay arayla ardisik devir maddeleri (Pekin 1123 Liao->Jin->Song, Meyyafarikin, Ahlat, Harran, Verdun 1792) + 1923-10-29 Osmanli cikis maddeleri; hepsi farkli olay, tek yerlesimin kisa araliklarla art arda el degistirmesi (ortak yer adi + devlet adi Jaccard>=0.34)
     durum5 = "✓" if len(mk) <= BEKLENEN_MUKERRER else "✗"
     if len(mk) > BEKLENEN_MUKERRER:
         ihlal = True

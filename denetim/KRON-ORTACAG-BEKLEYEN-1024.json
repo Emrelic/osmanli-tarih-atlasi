@@ -90,24 +90,6 @@
 "_dosya": "bozkir-ajan"
 },
 {
-"t": "0629-01-01",
-"kesinlik": "yil",
-"b": "Hazarlar Tiflis'i zaptetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Hazarlar Batı Göktürk'e bağlı iken Derbend Geçidi'ni aşıp Gürcistan ve Azerbaycan'a akınlar yaptı; 629'da Tiflis zaptedildi ve bazı Ermeni grupları itaat altına alındı. Başşehir Belencer'dir.",
-"kaynak": "TDV İslâm Ansiklopedisi, HAZARLAR maddesi, https://islamansiklopedisi.org.tr/hazarlar : «629 yılında da Tiflis zaptedildi»",
-"_neden": "zincir-yok",
-"_yer": "Tiflis",
-"_dosya": "bozkir-ajan"
-},
-{
 "t": "0630-01-01",
 "kesinlik": "yil",
 "b": "Doğu Göktürk Devleti Çinliler tarafından ortadan kaldırıldı; Batı Göktürk beyliklere ayrıldı",
@@ -177,24 +159,6 @@
 "kaynak": "TDV İslâm Ansiklopedisi, TÜRK maddesi, https://islamansiklopedisi.org.tr/turk : «682’de Ötüken’de Oğuzlar yenilip devlete bağlanınca Kutluğ, İlteriş unvanıyla Kağan ilân edilerek II. Göktürk Devleti resmen kurulmuş oldu»",
 "_neden": "yer-yok",
 "_yer": "Ötüken",
-"_dosya": "bozkir-ajan"
-},
-{
-"t": "0714-01-01",
-"kesinlik": "yil",
-"b": "Mesleme b. Abdülmelik Derbend Geçidi'ni ele geçirdi",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Hazarlar'la şiddetli çarpışmalar I. Velîd zamanında oldu; Mesleme 708'de bazı şehir ve kaleleri fethetti, 714'te Derbend Geçidi'ni ele geçirdi, 717'de İstanbul kuşatması için bölgeden ayrılınca Hazarlar karşı harekâta girişti.",
-"kaynak": "TDV İslâm Ansiklopedisi, HAZARLAR maddesi, https://islamansiklopedisi.org.tr/hazarlar : «714 yılında Derbend Geçidi’ni ele geçiren Mesleme»",
-"_neden": "zincir-yok",
-"_yer": "Derbend",
 "_dosya": "bozkir-ajan"
 },
 {
@@ -288,24 +252,6 @@
 "kaynak": "TDV İslâm Ansiklopedisi, KARLUKLAR maddesi, https://islamansiklopedisi.org.tr/karluklar : «Talas Savaşı’nda (751) Çinliler’in karşısında müslümanların tarafını tutarak»",
 "_neden": "yer-yok",
 "_yer": "Talas",
-"_dosya": "bozkir-ajan"
-},
-{
-"t": "0764-01-01",
-"kesinlik": "yil",
-"b": "Hazar ordusu Tiflis'i ele geçirdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Abbâsî valisi Yezîd b. Esîd'in evlendiği Hazar prensesinin doğumda ölmesi üzerine hakan As-Tarhan komutasında ordu gönderdi; 764'te Tiflis ele geçirildi.",
-"kaynak": "TDV İslâm Ansiklopedisi, HAZARLAR maddesi, https://islamansiklopedisi.org.tr/hazarlar : «764 yılında Tiflis ele geçirildi»",
-"_neden": "zincir-yok",
-"_yer": "Tiflis",
 "_dosya": "bozkir-ajan"
 },
 {
@@ -418,24 +364,6 @@
 "_dosya": "bozkir-ajan"
 },
 {
-"t": "0911-01-01",
-"kesinlik": "yil",
-"b": "Kan-chou Uygur ordusu Tun-huang'ı ele geçirdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "905'te Çinli komutanın kurduğu özerk krallığın merkezi Tun-huang 911'de Tegin komutasındaki Uygur ordusu tarafından alındı; zafer Kan-chou Uygurları'nın Çinliler nezdindeki itibarını arttırdı.",
-"kaynak": "TDV İslâm Ansiklopedisi, UYGURLAR maddesi, https://islamansiklopedisi.org.tr/uygurlar : «911’de Tegin kumandasındaki Uygur ordusu krallığın merkezi Tun-huang’ı ele geçirdi»",
-"_neden": "zincir-yok",
-"_yer": "Dunhuang",
-"_dosya": "bozkir-ajan"
-},
-{
 "t": "1054-01-01",
 "kesinlik": "yil",
 "b": "Kıpçaklar Rus yıllıklarında ilk kez 'Polovtsı' adıyla anıldı",
@@ -545,48 +473,6 @@
 "_neden": "yer-yok",
 "_yer": "Don-Donets havzası",
 "_dosya": "bozkir-ajan"
-},
-{
-"t": "0640-09-19",
-"kesinlik": "gun",
-"b": "Hou Junji Gaochang'ı aldı; Tang topraklarında Xizhou'yu kurdu",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Gaochang",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Jiaohe yolu başkomutanı Hou Junji Gaochang'ı (Turfan) ele geçirdi ve Tang burada Xizhou eyaletini kurdu; Gaochang kralı Qu Zhisheng 12. ayda esir olarak Taizong'un huzuruna çıkarıldı, ordu Çin'e döndü.",
-"kaynak": "Liu Xu vd., Jiu Tang shu (çevrimiçi metin zh.wikisource.org/wiki/舊唐書/卷3), juan 3 (Taizong xia): «貞觀十四年…八月…癸巳，交河道行軍大總管侯君集平高昌，以其地置西州… 十二月丁酉，交河道旋師…侯君集執高昌王麴智盛，獻捷於觀德殿»",
-"ic_not_d": "Takvim: kaynak Çin ay-güneş takvimiyle yıl-ay-gün(ganzhi) verir; gün-ganzhi döngüsü Jülyen JDN'den, ay başı ortalama yeni ay + ortalama zhongqi (artık ay) kuralıyla çözüldü (CLAUDE.md Takvim kuralı); Academia Sinica/NAOJ tablosuyla çapraz kontrol yapılamadı (erişilemedi). Atlas Gaochang kaydında s: zinciri yoktur (sınır kırılması aranamadı).",
-"_neden": "zincir-yok",
-"_yer": "Gaochang",
-"_yakin_sinir": null,
-"_dosya": "cin-ajan"
-},
-{
-"t": "0757-12-03",
-"kesinlik": "gun",
-"b": "Tang ordusu Luoyang'a girdi (757): Doğu Başkent isyancılardan geri alındı",
-"tur": "savas",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Luoyang",
-"etiket": [
-"savas",
-"konu-siyasi"
-],
-"d": "Shaanxi'deki Xindian mevkiinde yenilen isyancı komutan An Qingxu ve yandaşları Hebei'ye kaçtı; Prens Guangping Luoyang'a girdi, Tianjin Köprüsü'nün güneyinde ordusunu dizdi; Chen Xilie ve Zhang Ji gibi 300'ü aşkın sahte görevli beyaz giysiyle cezalarını bekledi.",
-"kaynak": "Liu Xu vd., Jiu Tang shu (çevrimiçi metin zh.wikisource.org/wiki/舊唐書/卷10), juan 10 (Suzong): «庚申，安慶緒與其黨奔河北。壬戌，廣平王入東京，陳兵天津橋南»",
-"ic_not_d": "Takvim: kaynak Çin ay-güneş takvimiyle yıl-ay-gün(ganzhi) verir; gün-ganzhi döngüsü Jülyen JDN'den, ay başı ortalama yeni ay + ortalama zhongqi (artık ay) kuralıyla çözüldü (CLAUDE.md Takvim kuralı); Academia Sinica/NAOJ tablosuyla çapraz kontrol yapılamadı (erişilemedi). Atlas Luoyang sınırı 757-01-01 (yıl hassasiyeti) kaydındadır; kaynak günü 757-12-03'tür. Düzeltme önerisi: Luoyang'ın 757 geri alınışı 0757-12-03.",
-"_neden": "zincir-yok",
-"_yer": "Luoyang",
-"_yakin_sinir": "0757-01-01",
-"_dosya": "cin-ajan"
 },
 {
 "t": "1127-06-12",
@@ -727,63 +613,6 @@
 "_neden": "yer-yok",
 "_yer": "Dan-no-ura (Akamagaseki)",
 "_dosya": "asya-ajan"
-},
-{
-"t": "0923-11-19",
-"kesinlik": "gun",
-"b": "Li Cunxu Kaifeng'e girdi: Sonraki Liang yıkıldı",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kaifeng",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Zhongdu'da Liang ordusunu bozan Li Cunxu'nun öncüsü Li Siyuan gün doğarken Kaifeng'in Fengqiu Kapısı'na dayandı; Liang'ın Kaifeng valisi Wang Zan şehri teslim etti, Li Cunxu Daliang Kapısı'ndan şehre girdi.",
-"kaynak": "Xue Juzheng vd., Jiu Wudai shi (çevrimiçi metin zh.wikisource.org/wiki/舊五代史/卷30), juan 30 (Tang Zhuangzong ji si): «己卯遲明，前軍至汴城，嗣源令左右捉生攻封丘門，梁開封尹王瓚請以城降。俄而帝與大軍繼至，王瓚迎帝自大梁門入»",
-"ic_not_d": "Takvim: kaynak Çin ay-güneş takvimiyle yıl-ay-gün(ganzhi) verir; gün-ganzhi döngüsü Jülyen JDN'den, ay başı ortalama yeni ay + ortalama zhongqi (artık ay) kuralıyla çözüldü (CLAUDE.md Takvim kuralı); Academia Sinica/NAOJ tablosuyla çapraz kontrol yapılamadı (erişilemedi). Atlas Kaifeng sınır günü (923-11-19) ile birebir örtüşür.",
-"_dosya": "cin",
-"_neden": "2t-kirilmasiz"
-},
-{
-"t": "0689-01-01",
-"kesinlik": "yil",
-"b": "Malayu (Jambi) Sriwijaya'ya katıldı (689-692 arasında, Yijing'in tanıklığı)",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 1,
-"kapsam": "dis",
-"yer_id": "Jambi",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Çinli hacı Yijing, 671'de uğradığı Malayu'nun (Jambi bölgesi) 689 ile 692 arasında Shih-li-fo-shih (Sriwijaya) tarafından yutulduğunu bildirir (Coedès).",
-"kaynak": "Coedès, G., The Indianized States of Southeast Asia (çev. S. B. Cowing; ed. W. F. Vella), Honolulu: East-West Center Press, 1968, bölüm VI.7 («between 689 and 692 Malayu was absorbed by Shih-li-fo-shih (Srivijaya)»)",
-"ic_not_d": "Kaynak 689-692 aralığı verir; 689 alt sınırdır (yıl düzeyinde 0689-01-01) — atlasın Jambi sınırı da 689-01-01'dedir.",
-"_dosya": "dogu_guneydogu_asya",
-"_neden": "2t-kirilmasiz"
-},
-{
-"t": "0775-01-01",
-"kesinlik": "yil",
-"b": "Ligor (Nakhon Si Thammarat) steli: Sriwijaya kralı Malay Yarımadası'nda Ligor'a yerleşip Budist tapınaklar yaptırdı (775)",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 1,
-"kapsam": "dis",
-"yer_id": "Nakhon Si Thammarat",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Wat Sema Muang steli Sumatra krallığının 775'te Malay Yarımadası'nda Ligor'da bir ayak bastığını, Sriwijaya kralının (muhtemelen Dharmasetu) bir Budist tapınak kompleksi yaptırdığını gösterir; ikinci yüzdeki metin Sailendra soyuna atıf yapar.",
-"kaynak": "Coedès, G., The Indianized States of Southeast Asia (çev. S. B. Cowing; ed. W. F. Vella), Honolulu: East-West Center Press, 1968, bölüm V ve VI («at that date a Sanskrit inscription ... reveals that the Sumatran kingdom had established a foothold on the Malay Peninsula at Ligor»)",
-"ic_not_d": "Yıl düzeyinde (yazıt tarihi 775).",
-"_dosya": "dogu_guneydogu_asya",
-"_neden": "2t-kirilmasiz"
 },
 {
 "t": "0794-11-18",

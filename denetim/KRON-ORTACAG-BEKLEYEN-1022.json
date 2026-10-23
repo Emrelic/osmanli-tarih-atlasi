@@ -72,42 +72,6 @@
 "_dosya": "ortadogu"
 },
 {
-"t": "0708-01-01",
-"kesinlik": "yil",
-"b": "Tanca ele geçirildi (Mûsâ b. Nusayr)",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tanca",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Tanca 89'da (708) ele geçirildi; 711 ilkbaharında Tanca Valisi Târık b. Ziyâd İspanya seferine çıktı.",
-"kaynak": "TDV tarik-b-ziyad https://islamansiklopedisi.org.tr/tarik-b-ziyad : '89'da (708) ele geçirilen Tanca şehrine Mûsâ b. Nusayr ... vali'",
-"ic_not_d": "Kaynak yalnız hicrî 89 / miladî 708 yılı verir (89 (708)); t, hicrî yıl ∩ miladî yıl kesişiminin ilk günüdür (tablo hesabı, Jülyen; CLAUDE.md hicrî yıl kuralı).",
-"_dosya": "ortadogu"
-},
-{
-"t": "0708-11-20",
-"kesinlik": "yil",
-"b": "Kuteybe b. Müslim Buhara'yı teslim aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Buhara",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Kuteybe iki başarısız seferin ardından Buhara üzerine yürüdü; şiddetli kuşatmadan sonra askerî yardım, vergi ve kaleye Müslüman muhafız yerleştirilmesi şartıyla şehri teslim aldı (90/708-709); bu, Mâverâünnehir fetihleri için dönüm noktası oldu.",
-"kaynak": "TDV kuteybe-b-muslim https://islamansiklopedisi.org.tr/kuteybe-b-muslim : 'şehri teslim aldı (90/708-709)' ; 'Buhara'nın zaptı Mâverâünnehir fetihleri için önemli bir dönüm noktası oldu'",
-"ic_not_d": "Kaynak 90/708-709 verir; t, hicrî 90 yılının ilk günüdür (708 sonu - 709 başı kesişimi). Kaynak yalnız hicrî 90 / miladî 708 yılı verir (90/708-709); t, hicrî yıl ∩ miladî yıl kesişiminin ilk günüdür (tablo hesabı, Jülyen; CLAUDE.md hicrî yıl kuralı).",
-"_dosya": "ortadogu"
-},
-{
 "t": "0711-04-28",
 "kesinlik": "gun",
 "b": "Târık b. Ziyâd Cebelitârık'a çıkarak İspanya fethini başlattı",
@@ -122,41 +86,6 @@
 ],
 "d": "Tanca valisi Târık, Sebte'den gemilerle Calpe bölgesine ulaşıp kendi adıyla anılacak Cebelitârık'ta karargâh kurdu (5 Receb 92 / 28 Nisan 711).",
 "kaynak": "TDV tarik-b-ziyad https://islamansiklopedisi.org.tr/tarik-b-ziyad : 'Cebelitârık'ta (Gibraltar) karargâh kurdu (5 Receb 92 / 28 Nisan 711)'",
-"_dosya": "ortadogu"
-},
-{
-"t": "0747-10-11",
-"kesinlik": "yil",
-"b": "Hâricî Ebû Hamza Medine'yi ele geçirdi",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Medine",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Hâricî lider Ebû Hamza eş-Şârî Mekke'yi kontrol altına aldıktan sonra Safer 130'da (Ekim 747) Medine'yi ele geçirdi.",
-"kaynak": "TDV mervan-ii https://islamansiklopedisi.org.tr/mervan-ii : 'Safer 130'da (Ekim 747) Medine'yi ele geçirdi'",
-"ic_not_d": "Kaynak ay düzeyindedir (Safer 130 / Ekim 747); t, hicrî ay ∩ miladî ay kesişiminin ilk günüdür; kesinlik gün olarak işaretlenmedi.",
-"_dosya": "ortadogu"
-},
-{
-"t": "0748-01-15",
-"kesinlik": "gun",
-"b": "Nasr b. Seyyâr Horasan'ın merkezi Merv'i Abbâsî isyancılara bıraktı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 3,
-"kapsam": "dis",
-"yer_id": "Merv (Mari)",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Emevî Horasan valisi Nasr, 9 Cemâziyelevvel 130'da (15 Ocak 748) Merv'i, Haziran'da Nîşâbur'u terketmek zorunda kaldı; 749 sona ermeden Abbâsî orduları Horasan'ın tamamını denetlerine aldı.",
-"kaynak": "TDV mervan-ii https://islamansiklopedisi.org.tr/mervan-ii : 'Nasr 9 Cemâziyelevvel 130 (15 Ocak 748) tarihinde Horasan valilik merkezi Merv'i ... terketmek zorunda kaldı'",
 "_dosya": "ortadogu"
 },
 {
@@ -227,23 +156,6 @@
 "_dosya": "ortadogu"
 },
 {
-"t": "0903-01-01",
-"kesinlik": "yil",
-"b": "Karmatîler Hama, Humus, Maarretünnu'mân ve Ba'lebek'i ele geçirdi; gönderilen Tolunî birlikleri yenildi (290/903).",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Hama",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Karmatîler Hama, Humus, Maarretünnu'mân ve Ba'lebek'i ele geçirdi; gönderilen Tolunî birlikleri yenildi (290/903).",
-"kaynak": "https://islamansiklopedisi.org.tr/tolunogullari",
-"_dosya": "ortadogu"
-},
-{
 "t": "0905-01-01",
 "kesinlik": "yil",
 "b": "Hamdânîler Suriye ve el-Cezîre'de bağımsızlıklarını kazandı",
@@ -262,40 +174,6 @@
 "_dosya": "ortadogu"
 },
 {
-"t": "0943-01-01",
-"kesinlik": "yil",
-"b": "Türk kumandanı Tüzün Hamdânîler'i Musul'dan çıkardı (332/943).",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Musul",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Türk kumandanı Tüzün Hamdânîler'i Musul'dan çıkardı (332/943).",
-"kaynak": "TDV İslâm Ansiklopedisi, Hamdânîler maddesi, https://islamansiklopedisi.org.tr/hamdaniler",
-"_dosya": "ortadogu"
-},
-{
-"t": "0947-01-01",
-"kesinlik": "yil",
-"b": "İhşîdîler karşısında ikinci yenilgiden sonra (335/947 baharı) Halep İhşîdîler'e geçti; 336'da anlaşmayla Seyfüddevle Halep'e kalıcı yerleşti.",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Halep",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "İhşîdîler karşısında ikinci yenilgiden sonra (335/947 baharı) Halep İhşîdîler'e geçti; 336'da anlaşmayla Seyfüddevle Halep'e kalıcı yerleşti.",
-"kaynak": "TDV İslâm Ansiklopedisi, Seyfüddevle el-Hamdânî, https://islamansiklopedisi.org.tr/seyfuddevle-el-hamdani",
-"_dosya": "ortadogu"
-},
-{
 "t": "0957-01-01",
 "kesinlik": "yil",
 "b": "Nikephoros Phokas Hadeş'i geri aldı.",
@@ -308,23 +186,6 @@
 "konu-siyasi"
 ],
 "d": "Nikephoros Phokas Hadeş'i geri aldı.",
-"kaynak": "TDV İslâm Ansiklopedisi, Seyfüddevle el-Hamdânî, https://islamansiklopedisi.org.tr/seyfuddevle-el-hamdani",
-"_dosya": "ortadogu"
-},
-{
-"t": "0965-01-01",
-"kesinlik": "yil",
-"b": "Nikephoros Phokas Misis ve Tarsus'u işgal etti (354/965).",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tarsus",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Nikephoros Phokas Misis ve Tarsus'u işgal etti (354/965).",
 "kaynak": "TDV İslâm Ansiklopedisi, Seyfüddevle el-Hamdânî, https://islamansiklopedisi.org.tr/seyfuddevle-el-hamdani",
 "_dosya": "ortadogu"
 },
@@ -378,23 +239,6 @@
 "_dosya": "ortadogu"
 },
 {
-"t": "1086-07-11",
-"kesinlik": "gun",
-"b": "Tutuş Halep'i bir süre kuşattıktan sonra ele geçirdi.",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Halep",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Tutuş Halep'i bir süre kuşattıktan sonra ele geçirdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, Tutuş, https://islamansiklopedisi.org.tr/tutus",
-"_dosya": "ortadogu"
-},
-{
 "t": "1098-07-04",
 "kesinlik": "yil",
 "b": "Fâtımîler Kudüs'ü Artuklu Sökmen ve İlgazi'den teslim aldı",
@@ -413,42 +257,6 @@
 "_dosya": "ortadogu"
 },
 {
-"t": "1110-01-01",
-"kesinlik": "yil",
-"b": "Baudouin I Sayda'yı kırk yedi günlük kuşatmayla aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Sayda",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Daha önce para ödeyerek kurtulan Sayda, kırk yedi günlük kuşatmanın ardından emanla teslim oldu ve Kudüs Krallığı'na tâbi bir kontluğa dönüştürüldü.",
-"kaynak": "TDV sayda https://islamansiklopedisi.org.tr/sayda : 'kırk yedi günlük bir kuşatmanın ardından emanla teslim oldu ve Kudüs Haçlı Krallığı'na tâbi bir kontluğa dönüştürüldü (Aralık 1110)'",
-"ic_not_d": "Kaynak ay verir (Aralık 1110); ay hassasiyeti yazılmadığı için t yıl başına (1110-01-01) konmuştur, gerçek olay yıl sonundadır.",
-"_dosya": "ortadogu"
-},
-{
-"t": "1110-01-01",
-"kesinlik": "yil",
-"b": "Beyrut Haçlı Kudüs Krallığı'nın eline geçti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Beyrut",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Haçlı seferleri sırasında Beyrut Kudüs Krallığı'nın eline geçti (1110).",
-"kaynak": "TDV beyrut https://islamansiklopedisi.org.tr/beyrut : 'Haçlı seferleri sırasında Beyrut Kudüs Krallığı'nın eline geçti (1110)'",
-"ic_not_d": "Kaynak yalnız yıl verir.",
-"_dosya": "ortadogu"
-},
-{
 "t": "1124-07-07",
 "kesinlik": "gun",
 "b": "Sûr (Tyre) uzun kuşatmanın ardından Haçlılar'a teslim oldu",
@@ -463,23 +271,6 @@
 ],
 "d": "Venedikliler'in de katıldığı Kudüs ordusu 15 Şubat 1124'te Sûr'u kuşattı; dışarıdan yardım ümidi kalmayan garnizon 7 Temmuz 1124'te şehri teslim etti. Müslüman halk Dımaşk ve Gazze'ye gitti.",
 "kaynak": "TDV sur--lubnan https://islamansiklopedisi.org.tr/sur--lubnan : 'Kudüs ordusu 15 Şubat 1124'te Sûr'u kuşattı' ; 'Sûr garnizonu 7 Temmuz 1124'te şehri Haçlılar'a teslim etti'",
-"_dosya": "ortadogu"
-},
-{
-"t": "1144-12-24",
-"kesinlik": "gun",
-"b": "Türk kuvvetleri Urfa'ya girdi; iç kale iki gün sonra teslim oldu ve şehir Zengî'ye geçti.",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Urfa",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Türk kuvvetleri Urfa'ya girdi; iç kale iki gün sonra teslim oldu ve şehir Zengî'ye geçti.",
-"kaynak": "Belleten, Urfa Haçlı Kontluğu makalesi, https://belleten.gov.tr/tam-metin/2088/tur",
 "_dosya": "ortadogu"
 },
 {
@@ -518,23 +309,6 @@
 "_dosya": "ortadogu"
 },
 {
-"t": "1174-06-22",
-"kesinlik": "gun",
-"b": "Eyyûbîler Aden'i fethetti, Aden'deki Zürey'î hâkimiyeti sona erdi.",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Aden",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Eyyûbîler Aden'i fethetti, Aden'deki Zürey'î hâkimiyeti sona erdi.",
-"kaynak": "G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen I (Gibb Memorial 1974); https://en.wikipedia.org/wiki/Ayyubid_Conquest_of_Arabia (kaynakça üzerinden)",
-"_dosya": "ortadogu"
-},
-{
 "t": "1179-08-24",
 "kesinlik": "gun",
 "b": "Selâhaddin Beytülahzân Kalesi'ni fethetti",
@@ -565,24 +339,6 @@
 ],
 "d": "Turanşah yokken naibi Osman ez-Zencîlî Hadramut'un büyük bölümünü fethetti.",
 "kaynak": "https://en.wikipedia.org/wiki/Ayyubid_dynasty (Conquest of Arabia bölümü; Smith 1974 kaynakçası); TDV 'Hadramut' maddesi Eyyûbî hâkimiyetini 1180'den başlatır: https://islamansiklopedisi.org.tr/hadramut",
-"_dosya": "ortadogu"
-},
-{
-"t": "1183-06-11",
-"kesinlik": "gun",
-"b": "İmâdüddin Zengî Halep'i başka şehirler karşılığında Selâhaddin'e teslim etti; Suriye'nin kuzeyi Eyyûbî hâkimiyetine girdi.",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Halep",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "İmâdüddin Zengî Halep'i başka şehirler karşılığında Selâhaddin'e teslim etti; Suriye'nin kuzeyi Eyyûbî hâkimiyetine girdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, Selâhaddîn-i Eyyûbî (17 Safer 579 / 11 Haziran 1183) https://islamansiklopedisi.org.tr/selahaddin-i-eyyubi",
-"ic_not_d": "Aynı olay zengi-halep künyesinde 1183-06-12 (18 Safer 579) olarak yazılıdır; TDV selahaddin-i-eyyubi 17 Safer 579 / 11 Haziran 1183 verir (bu kayıt).",
 "_dosya": "ortadogu"
 },
 {
@@ -707,42 +463,6 @@
 "_dosya": "ortadogu"
 },
 {
-"t": "1244-10-20",
-"kesinlik": "gun",
-"b": "Gazze yakınındaki savaşın ardından Kudüs Haçlılardan geri alındı (16 Cemâziyelevvel 642).",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Gazze",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Gazze yakınındaki savaşın ardından Kudüs Haçlılardan geri alındı (16 Cemâziyelevvel 642).",
-"kaynak": "TDV İslâm Ansiklopedisi, Eyyûbîler https://islamansiklopedisi.org.tr/eyyubiler",
-"ic_not_d": "Kudüs Krallığı künyesinde La Forbie 17 Ekim 1244 (Linda Paterson) yazılıydı; TDV eyyubiler 16 Cemâziyelevvel 642 / 20 Ekim 1244 verir, TDV esas alınmıştır.",
-"_dosya": "ortadogu"
-},
-{
-"t": "1247-01-01",
-"kesinlik": "yil",
-"b": "es-Sâlih Eyyûb Taberiye'yi Haçlılar'dan geri aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tiberya (Tabariyye / Tiberias)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "İmâdüddin İsmâil'in 1244 öncesinde Haçlılar'a bıraktığı yerler arasında Taberiye de vardı; Sultan Eyyûb Taberiye'yi 1247'de Haçlılar'dan geri aldı.",
-"kaynak": "TDV haclilar https://islamansiklopedisi.org.tr/haclilar : 'Sultan Eyyûb 1245'te Dımaşk'a sahip olduktan sonra 1247'de Taberiye ve Askalân'ı Haçlılar'dan geri aldı' ; TDV eyyubiler",
-"ic_not_d": "Kaynak yalnız yıl verir.",
-"_dosya": "ortadogu"
-},
-{
 "t": "1247-01-01",
 "kesinlik": "yil",
 "b": "es-Sâlih Eyyûb Askalân'ı Haçlılar'dan geri aldı",
@@ -758,24 +478,6 @@
 "d": "Sultan Eyyûb 1245'te Dımaşk'a sahip olduktan sonra 1247'de Askalân'ı da Haçlılar'dan geri aldı.",
 "kaynak": "TDV haclilar https://islamansiklopedisi.org.tr/haclilar : '1247'de Taberiye ve Askalân'ı Haçlılar'dan geri aldı'",
 "ic_not_d": "Kaynak yalnız yıl verir.",
-"_dosya": "ortadogu"
-},
-{
-"t": "1291-01-01",
-"kesinlik": "yil",
-"b": "Memlükler Beyrut'u fethetti",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Beyrut",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "1291'e kadar Haçlılar'ın elinde kalan Beyrut, bu tarihte Memlük Sultanı el-Melikü'l-Eşref Halîl adına Şam Valisi Emîr Sencer Ebû Şücâî tarafından fethedildi.",
-"kaynak": "TDV beyrut https://islamansiklopedisi.org.tr/beyrut : '1291'e kadar Haçlılar'ın elinde kalan şehir, bu tarihte Memlük Sultanı el-Melikü'l-Eşref Halîl adına Şam Valisi Emîr Sencer Ebû Şücâî tarafından fethedildi'",
-"ic_not_d": "Kaynak yalnız yıl verir; Akkâ'nın düşüşünden (1291-05-18) sonradır. Atlas Beyrut sınırı 1291-05-18'dir.",
 "_dosya": "ortadogu"
 },
 {
@@ -812,25 +514,6 @@
 ],
 "d": "Muvaffak'ın Amr'ın adını hutbeden çıkarması üzerine çıkan savaşta Amr, Abbâsî ordusunu yenilgiye uğratıp 1 Muharrem 277'de (25 Nisan 890) Şîraz'a girdi.",
 "kaynak": "TDV İslâm Ansiklopedisi, SAFFÂRÎLER maddesi, https://islamansiklopedisi.org.tr/saffariler : «1 Muharrem 277 / 25 Nisan 890»",
-"_dosya": "iran_turan"
-},
-{
-"t": "0893-03-23",
-"kesinlik": "ay",
-"b": "Sâmânî emîri İsmâil b. Ahmed Talas'ı (Tarâz) zaptetti; Sâmânîler doğuda en geniş sınırlarına ulaştı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Taraz (Evliya-Ata)",
-"yer": "Talas (Tarâz)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "İsmâil b. Ahmed gayri müslim Türkler'in akınlarına karşı Mâverâünnehir'i korumak için Tarâz'a (Talas) kadar uzanan sefer düzenleyip şehri ele geçirdi; buradaki Türk emîr ve dihkanlarının çoğu müslüman oldu, Doğu Karahanlı merkezi Talas'ı kaybeden Oğulçak başşehri Kâşgar'a taşıdı.",
-"kaynak": "TDV İslâm Ansiklopedisi, SÂMÂNÎLER maddesi, https://islamansiklopedisi.org.tr/samaniler ; TDV İslâm Ansiklopedisi, KARAHANLILAR maddesi, https://islamansiklopedisi.org.tr/karahanlilar : «Muharrem 280’de (Mart-Nisan 893) ... Talas’ı zaptedince»",
-"ic_not_d": "Tarih: hicrî 280/1 ay ∩ miladî ay kesişiminin ilk günü (ay hassasiyeti; tablo çevirisi). TDV Sâmânîler 'ertesi yıl' (893); TDV Karahanlılar 'Muharrem 280 (Mart-Nisan 893)'. Atlasta Talas/Taraz kaydı 1281'den başlıyor.",
 "_dosya": "iran_turan"
 },
 {
@@ -976,77 +659,6 @@
 "_dosya": "iran_turan"
 },
 {
-"t": "0992-01-01",
-"kesinlik": "yil",
-"b": "Hârun Buğra Han Semerkant'ı aldı; Karahanlılar Mâverâünnehir'e ilk kez girdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Semerkant",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Ebû Ali es-Simcûrî ve Fâik el-Hâssa'nın gizli anlaşmayla çağırdığı Hârun Buğra Han 992 başlarında Semerkant'ı ele geçirdi, ardından Buhara'ya yürüdü; Kâşgar'a dönerken Koçkarbaşı'nda öldü.",
-"kaynak": "TDV İslâm Ansiklopedisi, KARAHANLILAR maddesi, https://islamansiklopedisi.org.tr/karahanlilar : «992 başlarında Semerkant’ı aldıktan sonra Sâmânî başşehri Buhara’yı ele geçirdi»",
-"ic_not_d": "TDV Sâmânîler Buhara'nın alınışını Rebîülevvel 382/Mayıs 992 verir (Buhara maddesine bakınız).",
-"_dosya": "iran_turan"
-},
-{
-"t": "0992-05-07",
-"kesinlik": "ay",
-"b": "Karahanlı Hârun Buğra Han Buhara'yı ele geçirdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Buhara",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Ebû Ali es-Simcûrî ve Fâik el-Hâssa ile gizli anlaşan Hârun Buğra Han, Sâmânî başşehri Buhara'yı Rebîülevvel 382'de (Mayıs 992) ele geçirdi; kısa süre sonra hastalanıp öldü.",
-"kaynak": "TDV İslâm Ansiklopedisi, SÂMÂNÎLER maddesi, https://islamansiklopedisi.org.tr/samaniler ; TDV İslâm Ansiklopedisi, KARAHANLILAR maddesi, https://islamansiklopedisi.org.tr/karahanlilar : «Buhara’yı ele geçirdi (Rebîülevvel 382 / Mayıs 992)»",
-"ic_not_d": "Tarih: hicrî 382/3 ay ∩ miladî ay kesişiminin ilk günü (ay hassasiyeti; tablo çevirisi). TDV Karahanlılar 992 başlarında Semerkant, sonra Buhara'yı alma sırasını verir; TDV Sâmânîler Buhara için Rebîülevvel 382/Mayıs 992 der.",
-"_dosya": "iran_turan"
-},
-{
-"t": "0992-08-18",
-"kesinlik": "gun",
-"b": "II. Nûh Selçuklu Türkmenleri'nin yardımıyla Buhara'ya yeniden hâkim oldu",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Buhara",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "15 Cemâziyelâhir 382'de (18 Ağustos 992) II. Nûh, Hârun Buğra Han'ın ölümünün ardından Selçuklu Türkmenleri'nin yardımıyla Buhara'ya tekrar hâkim oldu.",
-"kaynak": "TDV İslâm Ansiklopedisi, SÂMÂNÎLER maddesi, https://islamansiklopedisi.org.tr/samaniler : «15 Cemâziyelâhir 382 / 18 Ağustos 992»",
-"_dosya": "iran_turan"
-},
-{
-"t": "0998-03-03",
-"kesinlik": "ay",
-"b": "Mahmud kardeşi İsmâil'i yenerek Gazneli tahtına çıktı",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Gazne",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Nîşâbur'da bulunan Mahmud, babasının vasiyetini tanımayıp harekete geçti; Rebîülevvel 388'de (Mart 998) iki kardeşin orduları karşılaştı ve Mahmud İsmâil'i yenerek Gazneli tahtına geçti.",
-"kaynak": "TDV İslâm Ansiklopedisi, MAHMÛD-ı GAZNEVÎ maddesi, https://islamansiklopedisi.org.tr/mahmud-i-gaznevi ; TDV İslâm Ansiklopedisi, GAZNELİLER maddesi, https://islamansiklopedisi.org.tr/gazneliler : «Rebîülevvel 388’de (Mart 998) ... Mahmud İsmâil’in kuvvetlerini yenerek Gazneliler tahtına çıktı»",
-"ic_not_d": "Tarih: hicrî 388/3 ay ∩ miladî ay kesişiminin ilk günü (ay hassasiyeti; tablo çevirisi).",
-"_dosya": "iran_turan"
-},
-{
 "t": "0999-05-16",
 "kesinlik": "gun",
 "b": "Gazneli Mahmud Sâmânîler'i yenip Horasan'ı aldı; kardeşi Nasr'ı Horasan valisi yaptı",
@@ -1062,24 +674,6 @@
 ],
 "d": "Sâmânî emîri II. Mansûr'un gözlerine mil çekilmesinin ardından Mahmud Nîşâbur'a yürüdü; Sâmânî kuvvetlerini yenip Horasan'ı ele geçirdi ve kardeşi Nasr'ı oraya vali atadı (27 Cemâziyelevvel 389 / 16 Mayıs 999). Sâmânîler Horasan topraklarını kaybetti.",
 "kaynak": "TDV İslâm Ansiklopedisi, MAHMÛD-ı GAZNEVÎ maddesi, https://islamansiklopedisi.org.tr/mahmud-i-gaznevi ; TDV İslâm Ansiklopedisi, SÂMÂNÎLER maddesi, https://islamansiklopedisi.org.tr/samaniler : «27 Cemâziyelevvel 389 / 16 Mayıs 999»",
-"_dosya": "iran_turan"
-},
-{
-"t": "0999-10-14",
-"kesinlik": "ay",
-"b": "Karahanlı İlig Han Nasr Buhara'ya girdi; Sâmânî ailesi Özkent'e sürüldü, devlet fiilen sona erdi",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Buhara",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Zilkade 389'da (Ekim 999) Karahanlılar Buhara'yı işgal etti; Abdülmelik esir alındı, Sâmânî ailesi Özkent'e götürülüp hapsedildi. İlig Han Nasr bölgeye kendi valilerini tayin etti.",
-"kaynak": "TDV İslâm Ansiklopedisi, SÂMÂNÎLER maddesi, https://islamansiklopedisi.org.tr/samaniler ; TDV İslâm Ansiklopedisi, KARAHANLILAR maddesi, https://islamansiklopedisi.org.tr/karahanlilar : «Zilkade 389 / Ekim 999»",
-"ic_not_d": "Tarih: hicrî 389/11 ay ∩ miladî ay kesişiminin ilk günü (ay hassasiyeti; tablo çevirisi). Atlasta Buhara'nın Karahanlı sahipliği 1000-01-01'de başlıyor; TDV Zilkade 389 (Ekim-Kasım 999) verir (hicrî 389 Zilkade = 999-10-?..11). Fark ~2-3 ay: atlas sınır tarihi düzeltme adayıdır.",
 "_dosya": "iran_turan"
 },
 {
@@ -1136,24 +730,6 @@
 "_dosya": "iran_turan"
 },
 {
-"t": "1013-01-01",
-"kesinlik": "yil",
-"b": "Mahmud Lahor'u Hindûşâhîler'den aldı; Lahor Gazneliler'in en gözde şehri oldu",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Lahor",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Lahor, 991'den sonra Hindûşâhîler'in elindeyken 1013-1014'te Gazneli Mahmud'un eline geçti; Mahmud Lahor Kalesi'ni tahkim edip Horasan'dan getirdiği Türk ve Tacik askerlerinden bir garnizon kurdu. Gazneliler bağımsızlığını yitirince (1157'den sonra) Lahor, doğuda varlığını koruyan kesimin merkezi oldu.",
-"kaynak": "TDV İslâm Ansiklopedisi, LAHOR maddesi, https://islamansiklopedisi.org.tr/lahor : «1013-1014’te Gazneli Mahmud’un eline geçti»",
-"ic_not_d": "TDV '1013-1014' aralığı verir; yıl hassasiyeti ilk yılla (1013) yazıldı. Atlas Lahor Gazneli sahipliği 1013-01-01 ile uyumlu.",
-"_dosya": "iran_turan"
-},
-{
 "t": "1014-01-01",
 "kesinlik": "yil",
 "b": "Mahmud Nandana (Nâradîn) Kalesi'ni ele geçirdi",
@@ -1169,41 +745,6 @@
 "d": "Dokuzuncu Hint seferi Nandana'ya yapıldı ve burası ele geçirildi (404/1014); Mahmud ardından Keşmir'e doğru ilerleyip Raca Triloçânpâl'ı yendi.",
 "kaynak": "TDV İslâm Ansiklopedisi, MAHMÛD-ı GAZNEVÎ maddesi, https://islamansiklopedisi.org.tr/mahmud-i-gaznevi : «Nandana’ya ... burası ele geçirildi (404/1014)»",
 "ic_not_d": "Tarih: hicrî 404 ∩ miladî 1014 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün).",
-"_dosya": "iran_turan"
-},
-{
-"t": "1018-05-20",
-"kesinlik": "yil",
-"b": "Mahmud Mathûrâ (Muttra) şehrine hâkim oldu",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Mathura",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Kannevc seferi sırasında Gazneli ordusu Delhi ile Agra yolunun ortalarında bulunan Mathûrâ şehrine hâkim oldu (409/1018).",
-"kaynak": "TDV İslâm Ansiklopedisi, MAHMÛD-ı GAZNEVÎ maddesi, https://islamansiklopedisi.org.tr/mahmud-i-gaznevi : «Mathûrâ (Muttra) şehrine hâkim oldu»",
-"ic_not_d": "Tarih: hicrî 409 ∩ miladî 1018 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). Sefer 409 (Eylül-Aralık 1018) içinde; yıl hassasiyeti.",
-"_dosya": "iran_turan"
-},
-{
-"t": "1018-12-20",
-"kesinlik": "gun",
-"b": "Mahmud Kannevc'i (Kanyakubja) fethetti",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kannauc",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Mahmud 13 Cemâziyelevvel 409'da (27 Eylül 1018) Gazne'den ayrılıp on ikinci Hint seferine çıktı; Sarsâva Kalesi, Baran Racası'nın itaati ve Mathûrâ'nın ardından asıl hedef Kannevc 8 Şâban 409'da (20 Aralık 1018) fethedildi.",
-"kaynak": "TDV İslâm Ansiklopedisi, MAHMÛD-ı GAZNEVÎ maddesi, https://islamansiklopedisi.org.tr/mahmud-i-gaznevi : «Kannevc ise 8 Şâban 409’da (20 Aralık 1018) fethedildi»",
 "_dosya": "iran_turan"
 },
 {
@@ -1298,190 +839,6 @@
 "_dosya": "iran_turan"
 },
 {
-"t": "1048-06-16",
-"kesinlik": "yil",
-"b": "Kavurd Bey Kirman'ın merkezi Berdesîr'i alarak Kirman'daki Büveyhî hâkimiyetine son verdi",
-"tur": "toprak-kayip",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kirman",
-"yer": "Berdesîr (Kirman'ın kuzey merkezi)",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Çağrı Bey'in oğlu Kavurd Bey, 5-6000 atlıyla Kirman'ın kuzeyine girip merkez Berdesîr'i kuşatınca Büveyhî adına yöneten Behrâm b. Leşkersitân şehri teslim etti (440/1048); Kirman Selçukluları'nın temeli atıldı. Aynı yıl Ebû Kâlîcâr öldü.",
-"kaynak": "TDV İslâm Ansiklopedisi, BÜVEYHÎLER maddesi, https://islamansiklopedisi.org.tr/buveyhiler ; TDV İslâm Ansiklopedisi, SELÇUKLULAR maddesi (Büyük Selçuklular bölümü), https://islamansiklopedisi.org.tr/selcuklular (II. Kirman Selçukluları) : «Kirman Selçuklu Devleti’nin temelleri atılmış oldu (440/1048)»",
-"ic_not_d": "Tarih: hicrî 440 ∩ miladî 1048 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). Atlasta Kirman'ın Kirman Selçuklu sahipliği 1048-01-01; hicrî 440 Muharrem ≈ 1048-06 olduğundan fark ~5,5 ay. Atlas sınırı yıl başına çekilmiş; düzeltme adayı.",
-"_dosya": "iran_turan"
-},
-{
-"t": "1050-01-01",
-"kesinlik": "yil",
-"b": "Kavurd Bey Kirman'ın güney kesimi Germsîr'i Kufs kavmi'nden alıp bütün Kirman'ı ele geçirdi; Hürmüz emîri tâbi oldu",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kirman",
-"yer": "Germsîr (Güney Kirman)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Germsîr denilen güney Kirman soyguncu Kufs kavminin elindeydi; Kavurd Bey onları doğudaki dağlarda bastırıp çoğunu yok ederek Güney Kirman'ı da ele geçirdi (442/1050); Hürmüz adası emîri Bedir Îsâ Selçuklular'a tâbi oldu, Kavurd Uman'ı da fethetti.",
-"kaynak": "KURE Ansiklopedi, Kavurd Bey, https://kureansiklopedi.com/tr/detay/kavurd-bey (442/1050) ; TDV İslâm Ansiklopedisi, SELÇUKLULAR maddesi (Büyük Selçuklular bölümü), https://islamansiklopedisi.org.tr/selcuklular (II. Kirman Selçukluları)",
-"ic_not_d": "Devletler.js K kaydı aynen taşındı (KURE tarihi). Hicrî 442 ∩ 1050 ilk günü yerine K kaydındaki yıl hassasiyeti korundu.",
-"_dosya": "iran_turan"
-},
-{
-"t": "1051-05-15",
-"kesinlik": "yil",
-"b": "Tuğrul Bey İsfahan'ı ülkesine kattı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Isfahan",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Tuğrul Bey 443'te (1051) İsfahan'ı ülkesine kattı.",
-"kaynak": "TDV İslâm Ansiklopedisi, SELÇUKLULAR maddesi (Büyük Selçuklular bölümü), https://islamansiklopedisi.org.tr/selcuklular : «443’te (1051) İsfahan’ı ülkesine katan Tuğrul Bey»",
-"ic_not_d": "Tarih: hicrî 443 ∩ miladî 1051 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün).",
-"_dosya": "iran_turan"
-},
-{
-"t": "1067-01-01",
-"kesinlik": "yil",
-"b": "Alparslan Bizans'a ait Kars'ı fethetti; Gürcü kralı Selçuklular'a tâbi oldu",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kars",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Alparslan 1067'de yeniden Bizans ve Gürcistan sınırlarında göründü; Bizans'a ait Kars fethedildi ve Gürcü kralı Selçuklular'a tâbi oldu.",
-"kaynak": "TDV İslâm Ansiklopedisi, SELÇUKLULAR maddesi (Büyük Selçuklular bölümü), https://islamansiklopedisi.org.tr/selcuklular : «Alparslan 1067 yılında yeniden Bizans ve Gürcistan sınırlarında göründü. Bizans’a ait Kars fethedildi»",
-"ic_not_d": "Çelişki: TDV Kars maddesi Kars'ın 1064'te savaşsız katıldığını, Gagik'in sonra Bizans'a bağlandığını ve Kars'ın 472'de (1080) Melikşah zamanında kesin olarak Selçuklu hâkimiyetine girdiğini söyler; TDV Selçuklular 1067'de 'fethedildi' der. İki kaynağı ayrı maddelerde saklıyorum.",
-"_dosya": "iran_turan"
-},
-{
-"t": "1072-12-15",
-"kesinlik": "ay",
-"b": "II. Nasr, Alparslan'ın ölümü üzerine Tirmiz'i aldı, ardından Belh'e yürüyüp burayı da zaptetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Termez",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Alparslan'ın Mâverâünnehir seferinde ölümü üzerine Batı Karahanlı Şemsülmülk II. Nasr Rebîülâhir 465'te (Aralık 1072) Tirmiz'i aldı, sonra Belh'e yürüyüp onu da zaptetti; Selçuklu–Karahanlı mücadelesi Melikşah devrinde sürdü.",
-"kaynak": "TDV İslâm Ansiklopedisi, KARAHANLILAR maddesi, https://islamansiklopedisi.org.tr/karahanlilar : «Tirmiz’i aldı (Rebîülâhir 465 / Aralık 1072)»",
-"ic_not_d": "Tarih: hicrî 465/4 ay ∩ miladî ay kesişiminin ilk günü (ay hassasiyeti; tablo çevirisi).",
-"_dosya": "iran_turan"
-},
-{
-"t": "1088-03-27",
-"kesinlik": "yil",
-"b": "Melikşah Buhara ve Semerkant'ı zaptedip Batı Karahanlı Ahmed Han'ı esir alarak İsfahan'a götürdü",
-"tur": "toprak-kayip",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Semerkant",
-"yer": "Buhara ve Semerkant",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Kādılkudât Ahmed b. Süleyman'ın Ahmed Han tarafından öldürülmesi üzerine Şâfiî fakihi Ebû Tâhir b. Alek'in yardım çağrısıyla Melikşah 481'de (1088) Buhara ve Semerkant'ı zaptedip Özkent'e geldi; Ahmed Han'ı esir alıp İsfahan'a götürdü. Semerkant'a Ebû Tâhir el-Hârizmî nâib tayin edildi.",
-"kaynak": "TDV İslâm Ansiklopedisi, KARAHANLILAR maddesi, https://islamansiklopedisi.org.tr/karahanlilar : «Melikşah 481’de (1088) Buhara ve Semerkant’ı zaptederek Özkent’e geldi»",
-"ic_not_d": "Tarih: hicrî 481 ∩ miladî 1088 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün).",
-"_dosya": "iran_turan"
-},
-{
-"t": "1090-03-06",
-"kesinlik": "yil",
-"b": "Melikşah Semerkant'ı ikinci kez zaptedip Emîr Atsız'ı vali tayin etti",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Semerkant",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Çiğiller kumandanı Aynüddevle'nin isyanı ve Yâkub Tegin'in Semerkant'a geçmesi üzerine Melikşah 483 (1090) yılı sonlarında Semerkant'ı ikinci defa zaptedip Emîr Atsız'ı buraya vali atadı; sonra Yâkub Tegin'i Doğu Karahanlılar'ın başına getirip Tuğrul b. Yinal ile mücadeleyle görevlendirdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, KARAHANLILAR maddesi, https://islamansiklopedisi.org.tr/karahanlilar : «483 (1090) yılı sonlarında ikinci defa Semerkant’ı zaptettiğinde Emîr Atsız’ı buraya vali tayin etti»",
-"ic_not_d": "Tarih: hicrî 483 ∩ miladî 1090 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). TDV 'yılı sonlarında' der; yıl hassasiyeti, ilk gün kuralı gereği hicrî 483 başı kullanıldı (K kaydı 1090-01-01).",
-"_dosya": "iran_turan"
-},
-{
-"t": "1150-04-30",
-"kesinlik": "yil",
-"b": "Gurlular Gazne şehrini yaktı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Gazne",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Gittikçe kuvvetlenen Gurlular bir intikam vesilesiyle Gazne şehrini yaktı (545/1150-51); Behram Şah 547'de (1152) şehre yeniden hâkim olduysa da Gazneliler çöküş sürecine girdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, GAZNELİLER maddesi, https://islamansiklopedisi.org.tr/gazneliler : «Gazne şehrini yaktılar (545/1150-51)»",
-"ic_not_d": "Tarih: hicrî 545 ∩ miladî 1150 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). TDV 545/1150-51 verir; hicrî 545 Muharrem 1150'ye düştüğünden 1150 alındı. Devletler.js K kaydından taşındı.",
-"_dosya": "iran_turan"
-},
-{
-"t": "1178-06-19",
-"kesinlik": "yil",
-"b": "Dânişmendli topraklarının Selçuklu topraklarına katılmasıyla Anadolu Selçuklu Devleti büyük bir devlet hâline geldi",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Sivas",
-"yer": "Dânişmendli şehirleri: Kayseri, Sivas, Niksar, Tokat, Amasya, Malatya",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "II. Kılıcarslan'ın önemli başarılarından biri Dânişmendliler'in ortadan kaldırılması oldu; Kayseri, Sivas, Niksar, Tokat, Amasya, Malatya gibi Orta Anadolu şehirleri 574'te (1178) Selçuklu topraklarına katıldı ve siyasî–millî birlik kuruldu.",
-"kaynak": "TDV İslâm Ansiklopedisi, SELÇUKLULAR maddesi (Anadolu Selçukluları bölümü), https://islamansiklopedisi.org.tr/selcuklular : «574’te (1178) Dânişmendli topraklarının Selçuklu topraklarına katılması»",
-"ic_not_d": "Tarih: hicrî 574 ∩ miladî 1178 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). Atlasta şehirlere göre sınır tarihleri farklı: Kayseri 1169, Sivas/Tokat/Niksar 1175, Amasya 1178-01-01, Eski Malatya 1178-10-25. TDV tek yıl (574/1178) verir; şehir bazlı gün için başka kaynak gerekir (YER-TANIMA/kronoloji işi).",
-"_dosya": "iran_turan"
-},
-{
-"t": "1215-01-01",
-"kesinlik": "yil",
-"b": "Alâeddin Muhammed Gazne'yi aldı ve oğlu Celâleddin'e verdi; Fars ve Azerbaycan atabegleri itaat etti",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Gazne",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Aynı yıl Gazne'yi alıp oğlu Celâleddin'e veren Alâeddin Muhammed, Fars Atabegi Sa'd b. Zengî ile Azerbaycan Atabegi Özbek'i yenip itaatlerini sağladı; Hârizmşahlar Siriderya boylarından Irâk-ı Arab'a kadar uzanan geniş bir sahada hâkimiyet kurdu.",
-"kaynak": "TDV İslâm Ansiklopedisi, HÂRİZMŞAHLAR maddesi, https://islamansiklopedisi.org.tr/harizmsahlar : «Aynı yıl Gazne’yi aldı ve oğlu Celâleddin’e verdi»",
-"ic_not_d": "Devletler.js'te Gazne'nin Gurlular'dan 1214'te Harezmşah'a geçişine dair başka bir kayıt (Nasir ad-Din Qabacha) 1214 diyor; TDV Hârizmşahlar 1215 verir.",
-"_dosya": "iran_turan"
-},
-{
 "t": "1215-01-01",
 "kesinlik": "yil",
 "b": "Alâeddin Muhammed Kıpçak bozkırında Sığnak'ı topraklarına kattı",
@@ -1534,60 +891,6 @@
 "_dosya": "iberya_magrib"
 },
 {
-"t": "0761-08-07",
-"kesinlik": "yil",
-"b": "Abbâsî komutanı Muhammed b. Eş'as Kayrevan'ı zaptetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kayrevan",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Abdurrahman b. Rüstem'in buraya vali atanmasının ardından şehri, Halife Mansûr'un İfrîkıye ve Mağrib valiliğine getirdiği Muhammed b. Eş'as el-Huzâî zaptetti (Cemâziyelevvel 144).",
-"kaynak": "https://islamansiklopedisi.org.tr/kayrevan : «Muhammed b. Eş‘as el-Huzâî zaptetti (Cemâziyelevvel 144 ...)»",
-"ic_not_d": "Kaynak ay düzeyinde (Cemâziyelevvel 144); t = o ayın ilk günü (tablo çevirisi). Atlas Kayrevan abbasi sınırı 0761-01-01. | Kaynak yalnız hicrî 144 ay 5 (miladî 761) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "0831-09-12",
-"kesinlik": "gun",
-"b": "Palermo Müslümanlara teslim oldu.",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Palermo",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Palermo Müslümanlara teslim oldu.",
-"kaynak": "https://islamansiklopedisi.org.tr/aglebiler",
-"ic_not_d": "Devlet künyesi kronolojisinden (aglebi) aynen taşındı; kaynak alanı korundu.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "0843-01-01",
-"kesinlik": "yil",
-"b": "Messina teslim oldu.",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Messina",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Messina teslim oldu.",
-"kaynak": "https://islamansiklopedisi.org.tr/aglebiler",
-"ic_not_d": "Devlet künyesi kronolojisinden (aglebi) aynen taşındı; kaynak alanı korundu.",
-"_dosya": "iberya_magrib"
-},
-{
 "t": "0856-01-01",
 "kesinlik": "yil",
 "b": "Ordoño León ve Astorga'yı iskân etti.",
@@ -1606,42 +909,6 @@
 "_dosya": "iberya_magrib"
 },
 {
-"t": "0868-01-01",
-"kesinlik": "yil",
-"b": "III. Alfonso döneminde Oporto iskân edildi.",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Porto",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "III. Alfonso döneminde Oporto iskân edildi.",
-"kaynak": "Foundation for Medieval Genealogy 'Asturias & Leon, Kings' (fmg.ac/Projects/MedLands/ASTURIAS, LEON.htm); Spain Then and Now 'Early Christian Kingdoms: Asturias, Leon'",
-"ic_not_d": "Devlet künyesi kronolojisinden (asturias) aynen taşındı; kaynak alanı korundu.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "0869-01-01",
-"kesinlik": "yil",
-"b": "Malta fethedildi.",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Malta",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Malta fethedildi.",
-"kaynak": "https://islamansiklopedisi.org.tr/aglebiler",
-"ic_not_d": "Devlet künyesi kronolojisinden (aglebi) aynen taşındı; kaynak alanı korundu.",
-"_dosya": "iberya_magrib"
-},
-{
 "t": "0878-05-21",
 "kesinlik": "gun",
 "b": "Dokuz aylık kuşatmanın ardından Siraküza fethedildi.",
@@ -1656,24 +923,6 @@
 "d": "Dokuz aylık kuşatmanın ardından Siraküza fethedildi.",
 "kaynak": "https://islamansiklopedisi.org.tr/aglebiler",
 "ic_not_d": "Devlet künyesi kronolojisinden (aglebi) aynen taşındı; kaynak alanı korundu.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "0893-01-01",
-"kesinlik": "yil",
-"b": "III. Alfonso döneminde Zamora iskân edildi.",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Zamora",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "III. Alfonso döneminde Zamora iskân edildi.",
-"kaynak": "Foundation for Medieval Genealogy 'Asturias & Leon, Kings' (fmg.ac/Projects/MedLands/ASTURIAS, LEON.htm); Spain Then and Now 'Early Christian Kingdoms: Asturias, Leon'",
-"ic_not_d": "Devlet künyesi kronolojisinden (asturias) aynen taşındı; kaynak alanı korundu.",
 "_dosya": "iberya_magrib"
 },
 {
@@ -1763,24 +1012,6 @@
 "_dosya": "iberya_magrib"
 },
 {
-"t": "1057-03-10",
-"kesinlik": "yil",
-"b": "Zîrî emîri Muiz Kayrevan'dan ayrılıp Mehdiye'ye gitti; Kayrevan Hilâlîler'in eline düştü",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kayrevan",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Benî Hilâl'in kuşatması üzerine Muiz b. Bâdîs 449 (1057) yılında Kayrevan'dan ayrılıp oğlu Temîm'in valisi olduğu Mehdiye'ye gitti; savunmasız Kayrevan bedevîlerce yağmalanıp yakıldı.",
-"kaynak": "https://islamansiklopedisi.org.tr/ziriler : «449 (1057) yılında buradan ayrılıp ... Mehdiye’ye gitti» ; https://islamansiklopedisi.org.tr/kayrevan : «449 (1057) yılında Mehdiye’ye gitti. Savunmasız kalan Kayrevan’ı bedevîler yağmalayarak yakıp yıktı»",
-"ic_not_d": "Kaynak yalnız hicrî 449 (miladî 1057) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
 "t": "1076-08-05",
 "kesinlik": "gun",
 "b": "Murâbıtlar Gāne devletinin başşehrini ele geçirdi (469, 1076-77).",
@@ -1795,60 +1026,6 @@
 "d": "Murâbıtlar Gāne devletinin başşehrini ele geçirdi (469, 1076-77).",
 "kaynak": "https://islamansiklopedisi.org.tr/murabitlar",
 "ic_not_d": "Devlet künyesi kronolojisinden (murabitlar) aynen taşındı; kaynak alanı korundu.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1077-07-25",
-"kesinlik": "yil",
-"b": "Yûsuf b. Tâşfîn Tanca'yı ele geçirdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tanca",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Murâbıt emîri Yûsuf b. Tâşfîn, Mağrib-i Aksâ'nın önemli sahil şehri Tanca'yı 470 (1077-78) yılında aldı.",
-"kaynak": "https://islamansiklopedisi.org.tr/murabitlar (İsmail Yiğit, c.31, 2020, s.152-155) : «Tanca’yı ele geçirdi (470/1077-78)»",
-"ic_not_d": "Kaynak yalnız hicrî 470 (miladî 1077-1078) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1084-05-10",
-"kesinlik": "yil",
-"b": "Murâbıtlar Sebte'ye (Ceuta) hâkim oldu",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Sebte (Ceuta)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Yûsuf b. Tâşfîn 477 (1084) yılında Sebte'yi (Ceuta) hâkimiyetine aldı; bu, Endülüs'e geçişin kapısı oldu.",
-"kaynak": "https://islamansiklopedisi.org.tr/murabitlar (İsmail Yiğit, c.31, 2020, s.152-155) : «Daha sonra Sebte’ye (Ceuta) hâkim oldu (477/1084)»",
-"ic_not_d": "Kaynak yalnız hicrî 477 (miladî 1084) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1090-03-06",
-"kesinlik": "yil",
-"b": "Murâbıtlar Gırnata'yı zaptetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Granada",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Üçüncü Endülüs geçişinde (483/1090) Yûsuf b. Tâşfîn Gırnata'yı zaptetti ve Kuzey Afrika'ya döndü; Zîrî emirliği sona erdi.",
-"kaynak": "https://islamansiklopedisi.org.tr/murabitlar (İsmail Yiğit, c.31, 2020, s.152-155) : «483’te (1090) üçüncü defa Endülüs’e geçen Yûsuf b. Tâşfîn, Gırnata ve Mâleka’yı zaptettikten sonra»",
-"ic_not_d": "Kaynak yalnız hicrî 483 (miladî 1090) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
 "_dosya": "iberya_magrib"
 },
 {
@@ -1888,78 +1065,6 @@
 "_dosya": "iberya_magrib"
 },
 {
-"t": "1091-02-23",
-"kesinlik": "yil",
-"b": "Murâbıtlar İşbîliye'yi Abbâdîler'den aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Sevilla",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "İşbîliye 484 (1091) yılında Murâbıtlar'ın eline geçti; Abbâdî emirliği sona erdi.",
-"kaynak": "https://islamansiklopedisi.org.tr/isbiliye : «484’te (1091) Murâbıtlar’ın eline geçen İşbîliye» ; https://islamansiklopedisi.org.tr/murabitlar (İsmail Yiğit, c.31, 2020, s.152-155)",
-"ic_not_d": "Kaynak yalnız hicrî 484 (miladî 1091) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1094-01-01",
-"kesinlik": "yil",
-"b": "Rodrigo Díaz de Vivar (Cid) Belensiye'yi ele geçirdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Valensiya",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Kastilyalı destan kahramanı Rodrigo Diaz de Vivar 1094'te Belensiye'yi aldı, hâkim Kadı İbn Cehhâf'ı öldürttü ve halkı harâca bağladı.",
-"kaynak": "https://islamansiklopedisi.org.tr/belensiye : «Rodrigo Diaz de Vivar 1094’te şehri ele geçirerek başta Belensiye hâkimi Kadı İbn Cehhâf olmak üzere pek çok müslümanı öldürtüp»",
-"ic_not_d": "Yıl teyitli; gün teyitsiz.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1110-01-01",
-"kesinlik": "yil",
-"b": "Sarakusta (Zaragoza) Murâbıtlar'a geçti; Hûdî istiklâli sona erdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Zaragoza",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Kuşatma altındaki Sarakusta'nın ileri gelenleri, emîri kovup Murâbıtlar'ı yönetimi devralmaya davet etti; Hûdîler'in bağımsızlığı sona erdi.",
-"kaynak": "https://islamansiklopedisi.org.tr/hudiler : «Sarakustalılar ... Murâbıtlar’ı yönetimi devralmaları için davet ettiler. Böylece Hûdîler’in istiklâli sona ermiş oldu»",
-"ic_not_d": "Kaynak devri, Müstaîn'in ölümünden (24 Ocak 1110) 'hemen sonra' diye anlatır; yıl 1110, gün teyitsiz (devir ile ölüm arasındaki süre kaynakta verilmez).",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1146-04-28",
-"kesinlik": "gun",
-"b": "Abdülmü'min dokuz aylık kuşatmadan sonra Fas'ı zaptetti",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Fas (Fez)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Murâbıtlar'a son vermek için Vehrân'dan Fas'a yürüyen Abdülmü'min şehri dokuz ay kuşattıktan sonra aldı (28 Nisan 1146).",
-"kaynak": "https://islamansiklopedisi.org.tr/abdulmumin-el-kumi : «Fas’a hareket eden Abdülmü’min şehri dokuz ay kuşattıktan sonra zaptetti (28 Nisan 1146)»",
-"ic_not_d": "ÇELİŞKİ: atlas Fas sınırı murabitlar→muvahhidler 1146-06-12 (kaynak günü 45 gün önce). Atlas referans değildir; sınır düzeltmesi ayrı iştir.",
-"_dosya": "iberya_magrib"
-},
-{
 "t": "1157-02-13",
 "kesinlik": "yil",
 "b": "Muvahhidler Meriye'yi VII. Alfonso'dan geri aldı",
@@ -1978,78 +1083,6 @@
 "_dosya": "iberya_magrib"
 },
 {
-"t": "1158-11-04",
-"kesinlik": "gun",
-"b": "Abdülmü'min Tunus'u zaptetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tunus",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Abdülmü'min 4 Kasım 1158'de Tunus'u aldı; ardından Kuzeydoğu Cezayir'deki başarılarını pekiştirdi.",
-"kaynak": "https://islamansiklopedisi.org.tr/abdulmumin-el-kumi : «Abdülmü’min 4 Kasım 1158’de Tunus’u zaptetti»",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1184-04-14",
-"kesinlik": "yil",
-"b": "Benî Gāniye Bicâye, Cezayir, Milyâne ve Tunus'u istilâ etti",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tunus",
-"yer": "Bicâye, Cezayir, Milyâne, Tunus",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Abbâsîler'e bağlandıktan sonra Mağrib'e geçen Benî Gāniye (Murâbıtlar'ın devamı), Muvahhid hükümdarının ölümünden yararlanıp Bicâye, Cezayir, Milyâne ve Tunus'u istilâ etti (580/1184).",
-"kaynak": "https://islamansiklopedisi.org.tr/muvahhidler : «Benî Gāniye, Abbâsîler’e bağlandıktan sonra Mağrib’e geçip Bicâye, Cezayir, Milyâne ve Tunus’u istilâ etti (580/1184)»",
-"ic_not_d": "Kaynak yalnız hicrî 580 (miladî 1184) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1187-03-13",
-"kesinlik": "yil",
-"b": "Ebû Yûsuf el-Mansûr Tunus'u Benî Gāniye'den geri aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tunus",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Benî Gāniye 580 (1184) yılında Bicâye, Cezayir, Milyâne ve Tunus'u istilâ etmişti; Mansûr 583'te (1187) Tunus'u geri aldı ama Benî Gāniye'yi bölgeden tamamen çıkaramadı.",
-"kaynak": "https://islamansiklopedisi.org.tr/muvahhidler : «Ebû Yûsuf el-Mansûr, 583’te (1187) Tunus’u geri aldıysa da Benî Gāniye’yi bölgeden tamamen çıkaramadı»",
-"ic_not_d": "Kaynak yalnız hicrî 583 (miladî 1187) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1196-01-01",
-"kesinlik": "yil",
-"b": "Mansûr Erek zaferinin ardından Vâdilhicâre'yi geri aldı, Tuleytula'yı kuşattı",
-"tur": "toprak-kazanc",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Toledo",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Alarcos zaferinin devamında kuzeye yürüyen Mansûr Vâdilhicâre (Guadalajara), Salamanca gibi bazı şehir ve kaleleri geri aldı (1196); Tuleytula'yı da kuşattı ama sonuç alamadı.",
-"kaynak": "https://islamansiklopedisi.org.tr/endulus : «Vâdilhicâre (Guadalajara), Salamanca gibi bazı şehir ve kaleleri geri aldı (1196); Tuleytula’yı da kuşattı fakat bir sonuç elde edemedi»",
-"ic_not_d": "TDV Salamanca'yı da sayar; yalnız TDV'ye dayanıldığı için Salamanca ayrı madde yapılmadı (çift teyit aranmalı).",
-"_dosya": "iberya_magrib"
-},
-{
 "t": "1216-04-20",
 "kesinlik": "yil",
 "b": "Merînîler Tâze'yi aldı",
@@ -2065,58 +1098,6 @@
 "d": "613 (1216) yılında üzerlerine gönderilen 20.000 kişilik Muvahhid ordusunu yenen Merînîler Tâze'yi ele geçirdi.",
 "kaynak": "https://islamansiklopedisi.org.tr/merinîler : «613 (1216) yılında üzerlerine gönderilen 20.000 kişilik Muvahhid ordusunu yenip Tâze’yi (Tâzâ) ele geçirdiler»",
 "ic_not_d": "Kaynak yalnız hicrî 613 (miladî 1216) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1228-06-29",
-"kesinlik": "gun",
-"b": "Ebû Zekeriyyâ Yahyâ el-Hafsî Tunus'a girdi",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tunus",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Muvahhidler'in İfrîkıye valisi Ebû Muhammed Abdullah'ın kardeşi Ebû Zekeriyyâ 24 Receb 625'te (29 Haziran 1228) Tunus'a girdi; İfrîkıye'nin tamamına hâkim oldu.",
-"kaynak": "https://islamansiklopedisi.org.tr/hafsiler : «24 Receb 625 (29 Haziran 1228) tarihinde şehre girip ... İfrîkıye’nin tamamına hâkim oldu» ; https://islamansiklopedisi.org.tr/muvahhidler",
-"ic_not_d": "Atlas Tunus sınırı Hafsî 1229-01-01'dir (aşağıdaki bağımsızlık maddesine bakınız).",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1243-04-02",
-"kesinlik": "gun",
-"b": "Mürsiye (Murcia) Kastilyalılar'a teslim oldu",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Murcia",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "1241'de kuşatılan Mürsiye, dışarıdan yardım alamayınca bir antlaşma çerçevesinde 10 Şevval 640'ta (2 Nisan 1243) teslim oldu.",
-"kaynak": "https://islamansiklopedisi.org.tr/mursiye : «yapılan bir antlaşma çerçevesinde teslim oldu (10 Şevval 640 / 2 Nisan 1243)»",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1244-04-19",
-"kesinlik": "gun",
-"b": "Kastilyalılar Mürsiye'yi isyandan sonra yeniden hâkimiyetleri altına aldı",
-"tur": "toprak-kazanc",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Murcia",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Mürsiyeliler bir yıl sonra istilâcıları atıp Nasrîler'e bağlılık bildirdiler; Kastilyalılar 9 Zilkade 641'de (19 Nisan 1244) şehri tekrar aldı.",
-"kaynak": "https://islamansiklopedisi.org.tr/mursiye : «yeniden hâkimiyetleri altına aldılar (9 Zilkade 641 / 19 Nisan 1244)»",
 "_dosya": "iberya_magrib"
 },
 {
@@ -2158,43 +1139,6 @@
 {
 "t": "1248-04-26",
 "kesinlik": "yil",
-"b": "Merînîler Fas, Selâ ve Tâze'yi aldı",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Fas (Fez)",
-"yer": "Fas, Selâ, Tâze",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Merînîler 646'da (1248) Fas, Selâ ve Tâze'yi Muvahhidler'den aldı; 1250-1255 arasında Mağrib-i Aksâ'nın büyük bölümü Muvahhidler'in elinden çıktı.",
-"kaynak": "https://islamansiklopedisi.org.tr/muvahhidler : «646’da (1248) Fas, Selâ ve Tâze’yi, 1250-1255 arasında Mağrib-i Aksâ’nın büyük bölümünü Muvahhidler’den aldılar»",
-"ic_not_d": "ÇELİŞKİ: atlas Fas sınırı muvahhidler→merini 1250-04-05; TDV Fas'ı 1248, bölgenin büyük bölümünü 1250-55 verir (iki ayrı olay olabilir). | Kaynak yalnız hicrî 646 (miladî 1248) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1248-04-26",
-"kesinlik": "yil",
-"b": "III. Fernando İşbîliye'yi on sekiz aylık kuşatmadan sonra aldı",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Sevilla",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Yıllarca süren savaşlar ve on sekiz ay süren kuşatmanın ardından Kastilya Kralı III. Fernando İşbîliye'yi ele geçirdi (646/1248); yaklaşık 400.000 kişi bölgeyi terketmek zorunda kaldı, Ulucami kiliseye çevrildi.",
-"kaynak": "https://islamansiklopedisi.org.tr/isbiliye : «on sekiz ay süren kuşatmadan sonra Kastilya Kralı III. Fernando şehri ele geçirdi (646/1248)»",
-"ic_not_d": "Kaynak yalnız yıl (hicrî 646 = 1248-49) verir; gün teyitsiz. Atlas Sevilla sınırı 1248-01-01. | Kaynak yalnız hicrî 646 (miladî 1248) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1248-04-26",
-"kesinlik": "yil",
 "b": "Merînîler Tâze'yi aldı",
 "tur": "toprak-kazanc",
 "onem": 1,
@@ -2208,60 +1152,6 @@
 "d": "Fas ve Selâ ile birlikte Tâze de 646 (1248) yılında Merînîler'in eline geçti.",
 "kaynak": "https://islamansiklopedisi.org.tr/muvahhidler : «646’da (1248) Fas, Selâ ve Tâze’yi»",
 "ic_not_d": "Kaynak yalnız hicrî 646 (miladî 1248) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1251-03-26",
-"kesinlik": "yil",
-"b": "Merînîler Rabat ve Selâ'yı aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Rabat",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Merînî hükümdarı Ebû Yahyâ Ebû Bekir b. Abdülhak 649'da (1251) Rabat ve Selâ'yı ele geçirdi.",
-"kaynak": "https://islamansiklopedisi.org.tr/rabat : «649’da (1251) Rabat ve Selâ’yı ele geçirdi (Selâvî, III, 17)»",
-"ic_not_d": "Kaynak yalnız hicrî 649 (miladî 1251) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1273-07-18",
-"kesinlik": "yil",
-"b": "Merînîler Sebte'yi (Ceuta) fakih el-Azefî'den aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Sebte (Ceuta)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Tanca'nın ardından Ebû Yûsuf, fakih Ebü'l-Kāsım el-Azefî'nin idaresindeki Sebte'yi zaptetti; Endülüs'e geçme imkânı elde etti (672/1273-74).",
-"kaynak": "https://islamansiklopedisi.org.tr/merinîler : «Tanca’yı, ardından fakih Ebü’l-Kāsım el-Azefî’nin idaresindeki Sebte’yi (Ceuta) zaptederek Endülüs’e geçme imkânını elde etmiş oldu»",
-"ic_not_d": "Atlas Sebte sınırı 1273-01-01. | Kaynak yalnız hicrî 672 (miladî 1273-1274) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
-"_dosya": "iberya_magrib"
-},
-{
-"t": "1273-07-18",
-"kesinlik": "yil",
-"b": "Merînîler Tanca'yı aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tanca",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Ebû Yûsuf 672'de (1273-74) önce Tanca'yı zaptetti.",
-"kaynak": "https://islamansiklopedisi.org.tr/merinîler : «Ebû Yûsuf 672’de (1273-74) önce Tanca’yı, ardından fakih Ebü’l-Kāsım el-Azefî’nin idaresindeki Sebte’yi (Ceuta) zaptederek»",
-"ic_not_d": "Atlas Tanca sınırı 1273-01-01; kaynak 672 AH (1273-74) verdiği için ilk gün 672 başıdır. | Kaynak yalnız hicrî 672 (miladî 1273-1274) verir; hicrî→miladî tablo çevirisi (Julian, ±1 gün); TDV hicrî yıl verir, ilk gün seçildi.",
 "_dosya": "iberya_magrib"
 },
 {

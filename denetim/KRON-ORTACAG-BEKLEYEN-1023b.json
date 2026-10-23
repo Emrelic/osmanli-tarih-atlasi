@@ -1,63 +1,5 @@
 [
 {
-"t": "1075-08-16",
-"kesinlik": "yil",
-"b": "Melikşah'ın emîri Savtegin Arrân'ı zaptetti; Şeddâdîler'in Gence kolu sona erdi",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Gence",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Şeddâdî III. Fazl zamanında Sultan Melikşah'ın emîrlerinden Savtegin Arrân'ı zaptetti (468/1075-76); bölge Selçuklu idaresine girdi ve Şeddâdîler'in Gence kolu sona erdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, ŞEDDÂDÎLER maddesi, https://islamansiklopedisi.org.tr/seddadiler : «Savtegin'in Arrân'ı zaptetmesi üzerine (468/1075-76) bölge Selçuklu idaresine girdi, böylece Şeddâdîler'in Gence kolu sona erdi»",
-"ic_not_d": "Tarih: hicrî 468 ∩ miladî 1075 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). TDV 468/1075-76 verir; hicrî 468 ∩ 1075 kesişiminin ilk günü yazıldı.",
-"_neden": "zincir-yok",
-"_yer": "Gence",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1082-01-01",
-"kesinlik": "yil",
-"b": "Anadolu Selçuklu kurucusu I. Süleyman Şah Tarsus'u fethetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tarsus",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "I. Süleyman Şah 475/1082'de Tarsus'u fethetti; şehir 490/1097'de Haçlılar tarafından alındı ve sonra Haçlılar, Bizans ve bölgedeki Ermeniler arasında el değiştirdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, TARSUS maddesi, https://islamansiklopedisi.org.tr/tarsus : «I. Süleyman Şah 475'te (1082) Tarsus'u fethettiyse de şehir 490'da (1097) Haçlılar tarafından alındı»",
-"_neden": "zincir-yok",
-"_yer": "Tarsus",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1085-01-01",
-"kesinlik": "yil",
-"b": "Süleyman Şah'ın emîri Buldacı Ceyhan (Elbistan) bölgesini fethetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Elbistan",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Türkmen gazilerinin akınlarına hedef olan Ceyhan (Elbistan) bölgesi 1085'te Anadolu Selçuklu Sultanı Süleyman Şah'ın emîrlerinden Buldacı tarafından fethedildi.",
-"kaynak": "TDV İslâm Ansiklopedisi, ELBİSTAN maddesi, https://islamansiklopedisi.org.tr/elbistan : «1085'te ... Süleyman Şah'ın emîrlerinden Buldacı tarafından fethedildi»",
-"_neden": "zincir-yok",
-"_yer": "Elbistan",
-"_dosya": "anadolu-ajan"
-},
-{
 "t": "1090-01-01",
 "kesinlik": "yil",
 "b": "Çaka Bey Sakız'ı geri aldı; Sisam ve Rodos'u topraklarına kattı",
@@ -75,144 +17,6 @@
 "ic_not_d": "TDV 'muhtemelen 1090' der.",
 "_neden": "zincir-yok",
 "_yer": "Sakız",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1092-01-01",
-"kesinlik": "yil",
-"b": "Çaka Bey üç ay süren Bizans kuşatmasının ardından askerlerinin sağ çıkması şartıyla Midilli'yi Bizans'a bıraktı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Midilli",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "İmparator Aleksios Komnenos 1092 baharında Midilli'yi kurtarmak için Ioannes Dukas'ı karadan, Dalassenos'u denizden gönderdi; üç ay süren kuşatma başarılı olamadıysa da Çaka Bey daha fazla dayanamayacağını anlayıp askerlerinin adayı sağ salim terk etmeleri şartıyla Midilli'yi Bizans'a bıraktı.",
-"kaynak": "TDV İslâm Ansiklopedisi, ÇAKA BEY maddesi, https://islamansiklopedisi.org.tr/caka-bey : «Çaka Bey ... askerlerinin adayı sağ salim terketmeleri şartıyla Midilli'yi Bizans'a bıraktı»",
-"ic_not_d": "TDV 1092 baharı verir; yıl-başı yazıldı.",
-"_neden": "zincir-yok",
-"_yer": "Midilli",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1097-01-01",
-"kesinlik": "yil",
-"b": "Haçlılar Elbistan'ı ele geçirip yönetimini bir şövalyeye verdi",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Elbistan",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Bizans uçlarındaki önemli şehirlerden Elbistan 1097'de Haçlılar'ın eline geçti ve yönetimi Pierre d'Aulps adlı bir şövalyeye verildi; 1103'e kadar birkaç kez el değiştirdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, ELBİSTAN maddesi, https://islamansiklopedisi.org.tr/elbistan : «Elbistan 1097 yılında Haçlılar'ın eline geçti ve yönetimi Pierre d'Aulps adlı bir şövalyeye verildi»",
-"_neden": "zincir-yok",
-"_yer": "Elbistan",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1097-01-01",
-"kesinlik": "yil",
-"b": "Tarsus Haçlılar tarafından alındı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tarsus",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Süleyman Şah'ın 1082'de aldığı Tarsus 490/1097'de Haçlılar'ın eline geçti; sonra Haçlılar, Bizans ve Kilikya Ermenileri arasında el değiştirdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, TARSUS maddesi, https://islamansiklopedisi.org.tr/tarsus : «şehir 490'da (1097) Haçlılar tarafından alındı»",
-"_neden": "zincir-yok",
-"_yer": "Tarsus",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1105-01-01",
-"kesinlik": "yil",
-"b": "I. Kılıcarslan Elbistan'ı yeniden fethedip vezir Ziyâeddin Muhammed'e iktâ etti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Elbistan",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Kılıcarslan 1105'te Elbistan'ı yeniden fethetti ve vezir Ziyâeddin Muhammed'e iktâ etti.",
-"kaynak": "TDV İslâm Ansiklopedisi, ELBİSTAN maddesi, https://islamansiklopedisi.org.tr/elbistan : «Kılıcarslan 1105'te burayı yeniden fethederek vezir Ziyâeddin Muhammed'e iktâ etti»",
-"ic_not_d": "TDV Selçuklular maddesi Kılıcarslan'ın Elbistan'dan Haçlılar'ı 1103'te uzaklaştırdığını yazar.",
-"_neden": "zincir-yok",
-"_yer": "Elbistan",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1118-04-24",
-"kesinlik": "yil",
-"b": "Erzen Emîri Togan Arslan Dvin'e saldırıp Şeddâdî Menûçihr'i öldürdü ve şehri topraklarına kattı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Dvin",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Artuklu İlgazi ve Erzen-Bitlis Emîri Kızılarslan'ın Dvin'e akınlarına rağmen Şeddâdîler 1105'e kadar şehri tuttular; Kızılarslan'ın halefi Togan Arslan 512/1118'de Dvin'e saldırıp Menûçihr'i öldürdü ve şehri topraklarına kattı.",
-"kaynak": "TDV İslâm Ansiklopedisi, ŞEDDÂDÎLER maddesi, https://islamansiklopedisi.org.tr/seddadiler : «Togan Arslan 512'de (1118) tekrar Dvin'e saldırdı ve Menûçihr'i öldürerek şehri topraklarına kattı»",
-"ic_not_d": "Tarih: hicrî 512 ∩ miladî 1118 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). Hicrî 512 ∩ 1118 kesişiminin ilk günü. Dvin atlasta sahipsiz boşluk (s: zinciri yok).",
-"_neden": "zincir-yok",
-"_yer": "Dvin",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1121-01-01",
-"kesinlik": "yil",
-"b": "David Tiflis'teki Selçuklu hâkimiyetine son verip şehri aldı; Tiflis Gürcistan'ın başşehri oldu",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tiflis",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Gürcü Kralı David'in Kıpçak yardımıyla Tiflis'teki Selçuklu hâkimiyetine son vermesiyle Benî Ca'fer ailesi şehirden sürüldü; Didgori Savaşı'ndan (12 Ağustos 1121) sonra Tiflis ve Ani işgal edilip Tiflis Gürcistan'ın başşehri yapıldı.",
-"kaynak": "TDV İslâm Ansiklopedisi, TİFLİS maddesi, https://islamansiklopedisi.org.tr/tiflis : «1121'de Tiflis'teki Selçuklu hâkimiyetine son verdi; Benî Ca'fer ailesi de buradan sürüldü»; TDV İslâm Ansiklopedisi, GÜRCİSTAN maddesi, https://islamansiklopedisi.org.tr/gurcistan : «Gürcüler, 12 Ağustos 1121'de Didgori yakınlarında cereyan eden bu savaştan sonra ... Tiflis ve Ani'yi işgal ettiler. Tiflis Gürcistan'ın başşehri oldu»",
-"ic_not_d": "devletler.js künyesi aynı olayı 1122-01-01 olarak kaydeder; TDV Tiflis maddesi 1121 verir. Atlas Tiflis'i 1260'a kadar sahipsiz gösterir.",
-"_neden": "zincir-yok",
-"_yer": "Tiflis",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1123-03-01",
-"kesinlik": "yil",
-"b": "Ani'nin Hıristiyan halkı şehri Gürcü Kralı David'e teslim etti; Saltuklu Emîr Ali'nin satın aldığı şehir elden çıktı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Ani",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Şeddâdî II. Şâvur Ani'yi Kars'ı elinde tutan Saltuklu Emîr Ali'ye satmaya kalkışınca isyan eden Hıristiyan ahali, kısa süre önce Tiflis'i alan Gürcü Kralı David'i çağırıp şehri ona teslim etti; II. Şâvur ailesiyle birlikte tutuklanıp Gürcistan'a gönderildi.",
-"kaynak": "TDV İslâm Ansiklopedisi, SALTUKLULAR maddesi, https://islamansiklopedisi.org.tr/saltuklular : «Ani'yi ... Hıristiyanlar'ın eline geçmiş oldu (517/1123)»; TDV İslâm Ansiklopedisi, ŞEDDÂDÎLER maddesi, https://islamansiklopedisi.org.tr/seddadiler : «şehri kendisine teslim etti (1123)»",
-"ic_not_d": "Tarih: hicrî 517 ∩ miladî 1123 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). Çift teyit (Saltuklular ve Şeddâdîler). Hicrî 517 ∩ 1123 kesişiminin ilk günü yazıldı.",
-"_neden": "zincir-yok",
-"_yer": "Ani",
 "_dosya": "anadolu-ajan"
 },
 {
@@ -272,26 +76,6 @@
 "_dosya": "anadolu-ajan"
 },
 {
-"t": "1132-01-01",
-"kesinlik": "yil",
-"b": "Emîr Gazi, Bizans İmparatoru Ioannes Komnenos'un işgal ettiği Kastamonu yöresini geri aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kastamonu",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Çukurova seferindeki Emîr Gazi'nin yokluğundan yararlanan İmparator Ioannes Komnenos Kastamonu yöresini işgal etti; Emîr Gazi 1132'de burayı geri aldı.",
-"kaynak": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER maddesi, https://islamansiklopedisi.org.tr/danismendliler : «Ioannes Komnenos'un istilâ ettiği Kastamonu yöresini 1132'de geri aldığı gibi»",
-"ic_not_d": "TDV Mesud I maddesi: Ioannes 1132'de Kastamonu'yu aldı, Emîr Gazi muhasara edince halk kapıları açtı (527/1133). İki maddenin yılı 1132/1133 farklıdır.",
-"_neden": "zincir-yok",
-"_yer": "Kastamonu",
-"_dosya": "anadolu-ajan"
-},
-{
 "t": "1135-01-01",
 "kesinlik": "yil",
 "b": "Bizans İmparatoru II. Ioannes Komnenos Kastamonu ve Çankırı'yı işgal etti",
@@ -347,45 +131,6 @@
 "ic_not_d": "Atlas Harput'u 1112'den beri Artuklu gösterir; TDV Harput maddesi 1124'ten sonra şehrin Hısnıkeyfâ koluna geçtiğini yazar (kol değişimi).",
 "_neden": "zincir-yok",
 "_yer": "Harput (Elazığ)",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1150-01-01",
-"kesinlik": "yil",
-"b": "Dânişmendli Aynüddevle Gerger, Kâhta, Adıyaman ve Palu'yu Haçlılar'dan aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Palu",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Artuklu Kara Arslan ile beraber Haçlı topraklarına saldıran Malatya Meliki Aynüddevle 1150'de Gerger, Kâhta, Adıyaman ve Palu'yu ele geçirip çok sayıda esir aldı. Aynı yıl Sivas-Amasya Meliki Yağıbasan Ünye, Samsun ve Bafra'yı zaptetti.",
-"kaynak": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER maddesi, https://islamansiklopedisi.org.tr/danismendliler : «1150 yılında Gerger, Kâhta, Adıyaman ve Palu'yu ele geçirip çok sayıda esir aldı»",
-"ic_not_d": "Palu atlasta 1112'den beri Artuklu (Harput kolu) görünür; Dânişmendli ele geçirişi kaynakta 1150 diye geçer.",
-"_neden": "zincir-yok",
-"_yer": "Palu",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1150-01-01",
-"kesinlik": "yil",
-"b": "Sivas-Amasya Meliki Yağıbasan Karadeniz kıyısında Ünye, Samsun ve Bafra'yı zaptetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Samsun",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Dânişmendli Yağıbasan, Aynüddevle'nin güneydeki akınlarıyla aynı yıl Karadeniz bölgesinde fetihlere girişerek Ünye, Samsun ve Bafra'yı aldı; Bafra ve Ünye'yi sonradan (1157) Bizans İmparatoru Manuel'e iade etti.",
-"kaynak": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER maddesi, https://islamansiklopedisi.org.tr/danismendliler : «Yağıbasan aynı yıl Karadeniz bölgesinde fetihlerde bulunarak Ünye, Samsun ve Bafra'yı zaptetti»",
-"_neden": "zincir-yok",
-"_yer": "Samsun",
 "_dosya": "anadolu-ajan"
 },
 {
@@ -486,26 +231,6 @@
 "_dosya": "anadolu-ajan"
 },
 {
-"t": "1174-01-01",
-"kesinlik": "yil",
-"b": "Gürcüler Ani'yi üçüncü kez alıp ülkelerine kattı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Ani",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Gürcüler 1174'te Ani şehrini alıp ülkelerine kattı; bunun üzerine Ahlatşah Sökmen ve Selçuklu ordusu 1175 yazında Nahçıvan'da toplanıp Gürcü topraklarına seferle karşılık verdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, AHLATŞAHLAR maddesi, https://islamansiklopedisi.org.tr/ahlatsahlar : «1174 yılında Gürcüler'in Ani şehrini alıp ülkelerine katmaları üzerine iki taraf arasında yeniden savaş çıktı»; TDV İslâm Ansiklopedisi, ŞEDDÂDÎLER maddesi, https://islamansiklopedisi.org.tr/seddadiler : «Gürcü Kralı Giorgi 1175'te Ani'yi üçüncü defa zaptetti»",
-"ic_not_d": "Tarih çelişkisi: Ahlatşahlar maddesi 1174, Şeddâdîler maddesi 1175 verir.",
-"_neden": "zincir-yok",
-"_yer": "Ani",
-"_dosya": "anadolu-ajan"
-},
-{
 "t": "1174-08-11",
 "kesinlik": "gun",
 "b": "Ahlatşah Sökmen üç yıl kuşattığı Sasunlular'ın kalelerini ele geçirdi",
@@ -541,125 +266,6 @@
 "ic_not_d": "Tarih: hicrî 576 ∩ miladî 1180 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). Atlas Eskişehir sınırı Miryokefalon günü 1176-09-17'dir; TDV Dorylaion'un 1180'de alındığını bildirir (çelişki; 1176 sonrası antlaşmanın Dorylaion'u yıkma şartı).",
 "_neden": "zincir-yok",
 "_yer": "Eskişehir",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1202-01-01",
-"kesinlik": "yil",
-"b": "II. Süleyman Şah Elbistan'ı doğrudan merkeze bağlı bir vilâyet haline getirdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Elbistan",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "II. Süleyman Şah Gürcistan seferi sırasında Erzurum'u Saltuklular'dan alıp kardeşi Tuğrul Şah'a verdi; buna karşılık Elbistan'ı doğrudan merkeze bağlı bir vilâyet yaptı (1202).",
-"kaynak": "TDV İslâm Ansiklopedisi, ELBİSTAN maddesi, https://islamansiklopedisi.org.tr/elbistan : «Erzurum'u Saltuklular'dan alıp ... Tuğrul Şah'a verdi ve buna karşılık Elbistan'ı doğrudan merkeze bağlı bir vilâyet haline getirdi (1202)»",
-"_neden": "zincir-yok",
-"_yer": "Elbistan",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1225-01-13",
-"kesinlik": "yil",
-"b": "Celâleddin Hârizmşah Gürcistan'a sefer düzenleyip Dvin'i zaptetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Dvin",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Diplomatik girişimlerinden sonuç alamayan Celâleddin Hârizmşah 622/1225'te Dvin'i zaptetti; Kerbi ve Zûn şehirlerini de alıp Azerbaycan'a döndü.",
-"kaynak": "TDV İslâm Ansiklopedisi, GÜRCİSTAN maddesi, https://islamansiklopedisi.org.tr/gurcistan : «622'de (1225) Duvîn'i zaptetti. Kerbi ve Zûn şehirlerini de ele geçirip Azerbaycan'a döndü»",
-"ic_not_d": "Tarih: hicrî 622 ∩ miladî 1225 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). Hicrî 622 ∩ 1225 kesişiminin ilk günü.",
-"_neden": "zincir-yok",
-"_yer": "Dvin",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1226-01-02",
-"kesinlik": "yil",
-"b": "Celâleddin Hârizmşah Kars ve çevresini yeniden fethetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kars",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Bölge Gürcüler'in elindeyken Celâleddin Hârizmşah'ın Kars ve çevresini yeniden fethetmesi (623/1226) İslâm dünyasında sevinç uyandırdı; ölümünden sonra şehir yeniden Gürcüler'in eline geçti.",
-"kaynak": "TDV İslâm Ansiklopedisi, KARS maddesi, https://islamansiklopedisi.org.tr/kars : «Onun Kars ve çevresini yeniden fethetmesi (623/1226) İslâm dünyasında sevinç uyandırdı»",
-"ic_not_d": "Tarih: hicrî 623 ∩ miladî 1226 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). Hicrî 623 ∩ 1226 kesişiminin ilk günü.",
-"_neden": "zincir-yok",
-"_yer": "Kars",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1227-04-01",
-"kesinlik": "ay",
-"b": "Celâleddin Hârizmşah Tiflis'i fethetti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tiflis",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Ertesi yıl tekrar Gürcistan seferine çıkan Celâleddin Hârizmşah Rebîülâhir 624 / Nisan 1227'de Tiflis'i fethetti; aynı yıl Ani ve Kars'ı kuşattı.",
-"kaynak": "TDV İslâm Ansiklopedisi, GÜRCİSTAN maddesi, https://islamansiklopedisi.org.tr/gurcistan : «Celâleddin Hârizmşah Tiflis'i fethetti (Rebîülâhir 624 / Nisan 1227)»; TDV İslâm Ansiklopedisi, TİFLİS maddesi, https://islamansiklopedisi.org.tr/tiflis : «Rebîülâhir 624'te (Nisan 1227) Tiflis'i ele geçirdi»",
-"ic_not_d": "Tarih: hicrî 624/4 ay ∩ miladî ay kesişiminin ilk günü (ay hassasiyeti; tablo çevirisi). Çift teyit; ay hassasiyeti. Tiflis maddesi şehrin tekrar zaptını 627 (1230), Gürcistan maddesi 627 (1229) olarak verir.",
-"_neden": "zincir-yok",
-"_yer": "Tiflis",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1229-11-20",
-"kesinlik": "yil",
-"b": "Celâleddin Hârizmşah Betak gölü yakınında Gürcü-Ermeni-Kıpçak ittifakını yenip Tiflis'e girdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tiflis",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Celâleddin, Ahlat muhasarasıyla meşgulken veziri Şerefülmülk'ten Gürcüler'in Tiflis'i ele geçirme hazırlığı yaptıklarını haber alınca Betak gölü civarında Gürcü, Ermeni ve Kıpçaklar'dan oluşan müttefiklerin karşısına çıktı, Kıpçaklar'ı diplomatik yollarla saf dışı edip Gürcü ordusunu bozguna uğrattı ve Tiflis'e girdi (627/1229).",
-"kaynak": "TDV İslâm Ansiklopedisi, GÜRCİSTAN maddesi, https://islamansiklopedisi.org.tr/gurcistan : «Gürcü ordusunu bozguna uğratıp Tiflis'e girdi (627/1229)»; TDV İslâm Ansiklopedisi, TİFLİS maddesi, https://islamansiklopedisi.org.tr/tiflis : «627'de (1230) tekrar şehri zaptetti»",
-"ic_not_d": "Tarih: hicrî 627 ∩ miladî 1229 kesişiminin ilk günü (CLAUDE.md hicrî yıl kuralı; tablo çevirisi, ±1-2 gün). Çelişki: Gürcistan maddesi 627/1229, Tiflis maddesi 627 (1230) verir; her ikisi de hicrî 627 yılıdır (627 AH = 1229-11-20 ile 1230-11-09 arası). Hicrî 627 ∩ 1229 ilk günü yazıldı (1229-11-20).",
-"_neden": "zincir-yok",
-"_yer": "Tiflis",
-"_dosya": "anadolu-ajan"
-},
-{
-"t": "1231-01-01",
-"kesinlik": "yil",
-"b": "Moğollar Gürcistan'a girdi; Tiflis'te Moğol idaresi kuruldu",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tiflis",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Moğollar 1231'de Gürcistan'a girdiler; Kraliçe Rusudan Papa IX. Gregorius'tan yardım istedi, bir sonuç alamayınca Tiflis'i terk etmek zorunda kaldı. Tiflis'te 1231'de Moğol idaresi kuruldu.",
-"kaynak": "TDV İslâm Ansiklopedisi, GÜRCİSTAN maddesi, https://islamansiklopedisi.org.tr/gurcistan : «Moğollar 1231'de Gürcistan'a girdiler ... Kraliçe Rusudan ... Tiflis'i terketmek zorunda kaldı»; TDV İslâm Ansiklopedisi, TİFLİS maddesi, https://islamansiklopedisi.org.tr/tiflis : «1231'de şehirde Moğol idaresi kuruldu»",
-"ic_not_d": "Çift teyit (Gürcistan ve Tiflis maddeleri 1231).",
-"_neden": "zincir-yok",
-"_yer": "Tiflis",
 "_dosya": "anadolu-ajan"
 },
 {
@@ -764,67 +370,6 @@
 "_dosya": "iranhint-ajan"
 },
 {
-"t": "0943-01-01",
-"kesinlik": "yil",
-"b": "Veşmgîr Rey'i Büveyhî emîri Rüknüddevle'ye kaptırır (331/943).",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Rey",
-"yer": "Rey şehri",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Veşmgîr Rey'i Büveyhî emîri Rüknüddevle'ye kaptırır (331/943).",
-"kaynak": "TDV İslâm Ansiklopedisi, ziyariler, https://islamansiklopedisi.org.tr/ziyariler",
-"ic_not_d": "Devletler.js künye kronolojisinden (ziyari) aynen taşındı; orijinal kaynak alanı: TDV İslâm Ansiklopedisi, ZİYÂRÎLER, https://islamansiklopedisi.org.tr/ziyariler",
-"_neden": "zincir-yok",
-"_yer": "Rey",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "0943-01-01",
-"kesinlik": "yil",
-"b": "Merzübân Azerbaycan, Arrân ve İrmîniye'nin denetimini ele alır (330-331 / 942-943).",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Erdebil",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Merzübân Azerbaycan, Arrân ve İrmîniye'nin denetimini ele alır (330-331 / 942-943).",
-"kaynak": "TDV İslâm Ansiklopedisi, musafiriler, https://islamansiklopedisi.org.tr/musafiriler",
-"ic_not_d": "Devletler.js künye kronolojisinden (musafiri) aynen taşındı; orijinal kaynak alanı: TDV İslâm Ansiklopedisi, MÜSÂFİRÎLER, https://islamansiklopedisi.org.tr/musafiriler",
-"_neden": "zincir-yok",
-"_yer": "Erdebil",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "0960-01-01",
-"kesinlik": "yil",
-"b": "Fâtımîler Fas ve Sicilmâse'yi ele geçirir.",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Fas (Fez)",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Fâtımîler Fas ve Sicilmâse'yi ele geçirir.",
-"kaynak": "TDV İslâm Ansiklopedisi, magrave, https://islamansiklopedisi.org.tr/magrave",
-"ic_not_d": "Devletler.js künye kronolojisinden (magrave-fas) aynen taşındı; orijinal kaynak alanı: TDV, MAĞRÂVE https://islamansiklopedisi.org.tr/magrave (349/960)",
-"_neden": "zincir-yok",
-"_yer": "Fas (Fez)",
-"_dosya": "iranhint-ajan"
-},
-{
 "t": "0964-05-01",
 "kesinlik": "ay",
 "b": "Karmatîler Taberiye'yi (Tiberiye) ele geçirdi",
@@ -882,86 +427,6 @@
 "ic_not_d": "Devletler.js künye kronolojisinden (karmati) aynen taşındı; orijinal kaynak alanı: https://islamansiklopedisi.org.tr/karmatiler",
 "_neden": "zincir-yok",
 "_yer": "Şam",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "0979-01-01",
-"kesinlik": "yil",
-"b": "Azerbaycan Revvâdîlerin eline geçti; Müsâfirîler Târum'a çekildi (979 veya 980)",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Erdebil",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Azerbaycan Revvâdîlerin eline geçti; Müsâfirîler Târum'a çekildi (979 veya 980)",
-"kaynak": "TDV İslâm Ansiklopedisi, musafiriler, https://islamansiklopedisi.org.tr/musafiriler",
-"ic_not_d": "Devletler.js künye kronolojisinden (musafiri) aynen taşındı; orijinal kaynak alanı: musafiriler",
-"_neden": "zincir-yok",
-"_yer": "Erdebil",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "0983-01-01",
-"kesinlik": "yil",
-"b": "Karmatîler Basra'ya saldırıp şehri vergiye bağladı (373).",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Basra",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Karmatîler Basra'ya saldırıp şehri vergiye bağladı (373).",
-"kaynak": "TDV İslâm Ansiklopedisi, karmatiler, https://islamansiklopedisi.org.tr/karmatiler",
-"ic_not_d": "Devletler.js künye kronolojisinden (karmati) aynen taşındı; orijinal kaynak alanı: https://islamansiklopedisi.org.tr/karmatiler",
-"_neden": "zincir-yok",
-"_yer": "Basra",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "0993-01-01",
-"kesinlik": "yil",
-"b": "Zîrî b. Atıyye Fâtımî valisi Yeddû b. Ya'lâ'yı yenip Fas'ı geri alır; Vecde'yi kurmaya başlar.",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Fas (Fez)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Zîrî b. Atıyye Fâtımî valisi Yeddû b. Ya'lâ'yı yenip Fas'ı geri alır; Vecde'yi kurmaya başlar.",
-"kaynak": "TDV, MAĞRÂVE (383/993)",
-"ic_not_d": "Devletler.js künye kronolojisinden (magrave-fas) aynen taşındı",
-"_neden": "zincir-yok",
-"_yer": "Fas (Fez)",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "0997-01-01",
-"kesinlik": "yil",
-"b": "Fahrüddevle ölür; Sellâr İbrâhim b. Merzübân Zencân, Ebher, Sühreverd ve Târum'u alır (387/997).",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Erdebil",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Fahrüddevle ölür; Sellâr İbrâhim b. Merzübân Zencân, Ebher, Sühreverd ve Târum'u alır (387/997).",
-"kaynak": "TDV İslâm Ansiklopedisi, musafiriler, https://islamansiklopedisi.org.tr/musafiriler",
-"ic_not_d": "Devletler.js künye kronolojisinden (musafiri) aynen taşındı; orijinal kaynak alanı: TDV İslâm Ansiklopedisi, MÜSÂFİRÎLER, https://islamansiklopedisi.org.tr/musafiriler",
-"_neden": "zincir-yok",
-"_yer": "Erdebil",
 "_dosya": "iranhint-ajan"
 },
 {
@@ -1023,86 +488,6 @@
 "ic_not_d": "Devletler.js künye kronolojisinden (nekor-emirligi) aynen taşındı",
 "_yer": "Nekûr (Nekor)",
 "_neden": "yer-yok",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "1033-01-01",
-"kesinlik": "yil",
-"b": "Benî İfren, Fas şehrini Hamâme b. Muiz'den alır.",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Fas (Fez)",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Benî İfren, Fas şehrini Hamâme b. Muiz'den alır.",
-"kaynak": "TDV İslâm Ansiklopedisi, ifren-beni-ifren, https://islamansiklopedisi.org.tr/ifren-beni-ifren",
-"ic_not_d": "Devletler.js künye kronolojisinden (magrave-fas) aynen taşındı; orijinal kaynak alanı: TDV, MAĞRÂVE (424/1033); https://islamansiklopedisi.org.tr/ifren-beni-ifren",
-"_neden": "zincir-yok",
-"_yer": "Fas (Fez)",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "1038-02-09",
-"kesinlik": "ay",
-"b": "Alâüddevle Rey'i alır, ardından terk eder (Cemâziyelevvel 429 / Şubat 1038).",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Rey",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Alâüddevle Rey'i alır, ardından terk eder (Cemâziyelevvel 429 / Şubat 1038).",
-"kaynak": "TDV İslâm Ansiklopedisi, kakuyiler, https://islamansiklopedisi.org.tr/kakuyiler",
-"ic_not_d": "Devletler.js künye kronolojisinden (kakuyi) aynen taşındı; orijinal kaynak alanı: TDV İslâm Ansiklopedisi, KÂKÛYÎLER, https://islamansiklopedisi.org.tr/kakuyiler; TDV ay verir → ay hassasiyeti (hicrî ay ∩ miladî ay kesişiminin ilk günü).",
-"_neden": "zincir-yok",
-"_yer": "Rey",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "1047-01-01",
-"kesinlik": "yil",
-"b": "Kinkever Kalesi teslim olur; Hemedan doğrudan Selçuklu denetimine geçer (439/1047).",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Hemedan",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Kinkever Kalesi teslim olur; Hemedan doğrudan Selçuklu denetimine geçer (439/1047).",
-"kaynak": "TDV İslâm Ansiklopedisi, kakuyiler, https://islamansiklopedisi.org.tr/kakuyiler",
-"ic_not_d": "Devletler.js künye kronolojisinden (kakuyi) aynen taşındı; orijinal kaynak alanı: TDV İslâm Ansiklopedisi, KÂKÛYÎLER, https://islamansiklopedisi.org.tr/kakuyiler",
-"_neden": "zincir-yok",
-"_yer": "Hemedan",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "1051-05-15",
-"kesinlik": "ay",
-"b": "Ferâmurz bir yıllık kuşatmadan sonra İsfahan'ı Selçuklulara teslim etti; Cibâl hâkimiyeti bitti, Yezd iktâ olarak kaldı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Isfahan",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Ferâmurz bir yıllık kuşatmadan sonra İsfahan'ı Selçuklulara teslim etti; Cibâl hâkimiyeti bitti, Yezd iktâ olarak kaldı",
-"kaynak": "TDV İslâm Ansiklopedisi, kakuyiler, https://islamansiklopedisi.org.tr/kakuyiler",
-"ic_not_d": "Devletler.js künye kronolojisinden (kakuyi) aynen taşındı; orijinal kaynak alanı: kakuyiler; TDV ay verir → ay hassasiyeti (hicrî ay ∩ miladî ay kesişiminin ilk günü).",
-"_neden": "zincir-yok",
-"_yer": "Isfahan",
 "_dosya": "iranhint-ajan"
 },
 {
@@ -1226,26 +611,6 @@
 "_dosya": "iranhint-ajan"
 },
 {
-"t": "1175-07-22",
-"kesinlik": "yil",
-"b": "Herat Gurlular'ın eline geçti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Herat",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Herat, 571'de (1175-76) Gurlular'ın hâkimiyetine girdi; Gurlu Sultanı Gıyâseddin Muhammed şehre Selçuklu Bahâeddin Tuğrul'un idaresinden memnun olmayan halkın daveti üzerine yönelmişti.",
-"kaynak": "TDV İslâm Ansiklopedisi, HERAT, https://islamansiklopedisi.org.tr/herat : «Herat 571’de (1175-76) Gurlular’ın»",
-"ic_not_d": "Tarih: hicrî 571 ∩ miladî 1175 kesişiminin ilk günü (TDV '1175-76' der). TDV GURLULAR, Gıyâseddin'in Herat'ı Selçuklu Bahâeddin Tuğrul'un idaresinden memnun olmayan halkın daveti üzerine aldığını yıl vermeden anlatır. Atlas Herat'ı 1175-01-01'de Gurlu'ya geçirir.",
-"_neden": "zincir-yok",
-"_yer": "Herat",
-"_dosya": "iranhint-ajan"
-},
-{
 "t": "1190-01-01",
 "kesinlik": "yil",
 "b": "Gurlu Muizzüddin Muhammed Tabarhinda Kalesi'ni zaptetti",
@@ -1262,26 +627,6 @@
 "kaynak": "TDV İslâm Ansiklopedisi, GURLULAR, https://islamansiklopedisi.org.tr/gurlular : «1190’da Tabarhinda Kalesi’nin Sultan Muizzüddin tarafından zaptedilmesi üzerine»",
 "_yer": "Tabarhinda (Bhatinda)",
 "_neden": "yer-yok",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "1203-01-01",
-"kesinlik": "yil",
-"b": "Gâniyeoğulları Tunus'un denetimini ele geçirir (kaynaklar 1180'lerden itibaren fiilî hâkimiyeti, 1203'ü tam denetim yılı olarak verir).",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tunus",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Gâniyeoğulları Tunus'un denetimini ele geçirir (kaynaklar 1180'lerden itibaren fiilî hâkimiyeti, 1203'ü tam denetim yılı olarak verir).",
-"kaynak": "Britannica, 'Banū Ghāniya' https://www.britannica.com/topic/Banu-Ghaniya",
-"ic_not_d": "Devletler.js künye kronolojisinden (ganiyeler) aynen taşındı",
-"_neden": "zincir-yok",
-"_yer": "Tunus",
 "_dosya": "iranhint-ajan"
 },
 {
@@ -1322,26 +667,6 @@
 "ic_not_d": "Devletler.js künye kronolojisinden (kamag-mogol) aynen taşındı",
 "_yer": "Kamag Moğol yurdu (Onon-Kerulen)",
 "_neden": "yer-yok",
-"_dosya": "iranhint-ajan"
-},
-{
-"t": "1208-07-16",
-"kesinlik": "yil",
-"b": "Herat on üç aylık kuşatmadan sonra Hârizmşahlar'ın eline geçti",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Herat",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Herat, 605'te (1208-1209) on üç aylık bir kuşatmanın ardından Gurlular'dan Hârizmşahlar'ın eline geçti; 1221'de ise Tuluy komutasındaki Moğollar şehri aldı.",
-"kaynak": "TDV İslâm Ansiklopedisi, HERAT, https://islamansiklopedisi.org.tr/herat : «605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın»",
-"ic_not_d": "Tarih: hicrî 605 ∩ miladî 1208 kesişiminin ilk günü (TDV '1208-1209' der). Atlas Herat'ı 1208-01-01'de Hârizmşahlar'a geçirir.",
-"_neden": "zincir-yok",
-"_yer": "Herat",
 "_dosya": "iranhint-ajan"
 },
 {
@@ -1525,25 +850,6 @@
 "_dosya": "iranhint-ajan"
 },
 {
-"t": "1096-11-01",
-"kesinlik": "ay",
-"b": "Selçuklu emîri Kürboğa Musul'u uzun kuşatmadan sonra aldı; Ukaylîler'in Musul'daki hâkimiyeti sona erdi",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Musul",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Müslim b. Kureyş'in oğlu Muhammed kardeşi Ali'ye karşı Selçuklu Emîri Kürboğa'dan yardım isteyince Kürboğa onu yakalayıp Nusaybin'i aldı, uzun kuşatmanın ardından Musul'u ele geçirdi; Ukaylîler'in Musul'daki hâkimiyeti Zilkade 489 / Kasım 1096'da sona erdi.",
-"kaynak": "TDV İslâm Ansiklopedisi, UKAYLÎLER maddesi, https://islamansiklopedisi.org.tr/ukayliler : «Ukaylîler'in Musul'daki hâkimiyeti böylece sona erdi (Zilkade 489 / Kasım 1096)»",
-"ic_not_d": "Tarih: hicrî 489/11 ay ∩ miladî ay kesişiminin ilk günü (ay hassasiyeti; tablo çevirisi). Ay hassasiyeti; Zilkade 489 ∩ Kasım 1096 (hicrî Zilkade 489 Kasım 1096'ya denk gelir). Atlas sınır tarihi 1096-01-01 (ukayli bitis); kaynak tarihi bundan 305 gün farklı, kaynak esas alındı (atlas düzeltmesi ayrı iş).",
-"_dosya": "anadolu_kafkasya",
-"_neden": "2t-kirilmasiz"
-},
-{
 "t": "1109-01-01",
 "kesinlik": "yil",
 "b": "Sökmen el-Kutbî Meyyâfârikīn'ı uzun bir kuşatmadan sonra ele geçirdi",
@@ -1563,44 +869,6 @@
 "_neden": "2t-kirilmasiz"
 },
 {
-"t": "1124-06-13",
-"kesinlik": "gun",
-"b": "Emîr Gazi uzun kuşatmanın ardından Malatya'yı teslim aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Eski Malatya (Battalgazi)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Belek'in ölümü (1124) üzerine Selçuklular'ın Malatya Meliki Tuğrul Arslan ile Harput Emîri Süleyman arasındaki ihtilâfları fırsat bilen Dânişmendli Emîr Gazi 13 Haziran 1124'te Malatya'ya hücum etti ve uzun süren kuşatmadan sonra şehri teslim aldı.",
-"kaynak": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER maddesi, https://islamansiklopedisi.org.tr/danismendliler : «Malatya'ya hücum etti (13 Haziran 1124), uzun süren bir kuşatmadan sonra şehri teslim aldı»; TDV İslâm Ansiklopedisi, MALATYA maddesi, https://islamansiklopedisi.org.tr/malatya : «uzun süren bir kuşatmadan sonra Malatya'yı teslim aldı (518/1124)»",
-"ic_not_d": "Çelişki: Mesud I maddesi teslim günü 10 Aralık 1124 verir (Selçuklu eski tarafın çekilişi); burada Dânişmendli kuşatma günü esas alındı. Atlas sınır tarihi 1124-01-01 (selcuklu bitis); kaynak tarihi bundan 164 gün farklı, kaynak esas alındı (atlas düzeltmesi ayrı iş).",
-"_dosya": "anadolu_kafkasya",
-"_neden": "2t-kirilmasiz"
-},
-{
-"t": "1124-12-10",
-"kesinlik": "gun",
-"b": "Kılıcarslan'ın dul eşi Ayşe Hatun ve oğlu Tuğrul Arslan Malatya'yı Dânişmendliler'e teslim edip Minşar Kalesi'ne çekildi",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Eski Malatya (Battalgazi)",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Artuklu Belek'in ölümünün (518/1124) ardından Kılıcarslan'ın hanımı Ayşe Hatun ile oğlu Tuğrul Arslan Malatya'yı Dânişmendliler'e teslim edip Minşar Kalesi'ne çekildi (1 Zilkade 518 / 10 Aralık 1124).",
-"kaynak": "TDV İslâm Ansiklopedisi, MESUD I maddesi, https://islamansiklopedisi.org.tr/mesud-i : «Malatya'yı Dânişmendliler'e teslim edip Minşar Kalesi'ne çekildiler (1 Zilkade 518 / 10 Aralık 1124)»",
-"ic_not_d": "TDV Dânişmendliler ve Malatya maddeleri Emîr Gazi'nin Malatya'yı 13 Haziran 1124'te teslim aldığını belirtir (518/1124); Mesud I maddesindeki teslim günü 10 Aralık 1124'tür. İki TDV maddesi arasındaki çelişki iki beyanla birlikte korunmuştur; mevcut yıl-başı maddesi (1124-01-01) bu iki günden farklıdır. Atlas sınır tarihi 1124-01-01 (selcuklu bitis); kaynak tarihi bundan 344 gün farklı, kaynak esas alındı (atlas düzeltmesi ayrı iş).",
-"_dosya": "anadolu_kafkasya",
-"_neden": "2t-kirilmasiz"
-},
-{
 "t": "1185-08-01",
 "kesinlik": "ay",
 "b": "Selâhaddin hükümdarsız kalan Meyyâfârikīn'ı aldı ve idaresine Ahlatlı Sungur'u memur etti",
@@ -1616,44 +884,6 @@
 "d": "Sökmen II'nin ölümünün ardından Selâhaddin Ahlat'a ulaşamadan Meyyâfârikīn'ı ele geçirdi; şehir Ağustos 1185'te Eyyûbî hâkimiyetine girdi, Hısnıkeyfâ da Selâhaddin'in tâbiiyetini kabul etti ve bütün Diyarbekir çevresi Eyyûbîler'e geçti.",
 "kaynak": "TDV İslâm Ansiklopedisi, AHLATŞAHLAR maddesi, https://islamansiklopedisi.org.tr/ahlatsahlar : «hükümdarsız kalmış olan Meyyâfârikīn'ı ele geçirdi»; TDV İslâm Ansiklopedisi, DİYARBAKIR maddesi, https://islamansiklopedisi.org.tr/diyarbakir : «Ağustos 1185'te Meyyâfârikīn'ın Selâhaddin tarafından alınması»",
 "ic_not_d": "Atlas sınırı 1185-04-04'tür; TDV Diyarbakır maddesi Ağustos 1185 verir (çelişki). Atlas sınır tarihi 1185-04-04 (ahlatsahlar bitis); kaynak tarihi bundan 119 gün farklı, kaynak esas alındı (atlas düzeltmesi ayrı iş).",
-"_dosya": "anadolu_kafkasya",
-"_neden": "2t-kirilmasiz"
-},
-{
-"t": "1202-06-25",
-"kesinlik": "gun",
-"b": "Saltuklu hâkimiyeti sona erince Bayburt Anadolu Selçuklu Devleti'ne geçti",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Bayburt",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Selçuklular 1202'de Saltuklu Devleti'ne son verince Bayburt'u da ele geçirdi; şehir Süleyman Şah'ın kardeşi Erzurum Meliki Mugīsüddin Tuğrul Şah ve oğlu Cihan Şah (1202-1230) döneminde gelişti.",
-"kaynak": "TDV İslâm Ansiklopedisi, BAYBURT maddesi, https://islamansiklopedisi.org.tr/bayburt : «Selçuklular 1202'de Saltuklu Devleti'ne son verince Bayburt'u da ele geçirdiler»; TDV İslâm Ansiklopedisi, SALTUKLULAR maddesi, https://islamansiklopedisi.org.tr/saltuklular",
-"ic_not_d": "Atlas sınırı 1202-01-01; Saltuklular maddesi günü 25 Haziran 1202 verir. Atlas sınır tarihi 1202-01-01 (saltuklu bitis); kaynak tarihi bundan 175 gün farklı, kaynak esas alındı (atlas düzeltmesi ayrı iş).",
-"_dosya": "anadolu_kafkasya",
-"_neden": "2t-kirilmasiz"
-},
-{
-"t": "1202-06-25",
-"kesinlik": "gun",
-"b": "Saltuklu hâkimiyeti sona erince Pasinler yöresi Anadolu Selçuklu Devleti'nin Erzurum melikliğine bağlandı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Pasinler (Hasankale)",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "II. Süleyman Şah'ın Saltuklu hânedanına son vermesiyle Erzurum çevresindeki Saltuklu şehirleri Tuğrul Şah'ın melikliğine bağlandı.",
-"kaynak": "TDV İslâm Ansiklopedisi, SALTUKLULAR maddesi, https://islamansiklopedisi.org.tr/saltuklular : «beyliğin topraklarını kardeşi ve Elbistan Meliki Mugīsüddin Tuğrul Şah'a teslim ederek Saltuklu hânedanına son verdi»",
-"ic_not_d": "Pasinler Saltuklu şehirlerindendir (TDV Saltuklular: Kars, Pasinler, Oltu, Erzurum, ...). Atlas sınır tarihi 1202-01-01 (saltuklu bitis); kaynak tarihi bundan 175 gün farklı, kaynak esas alındı (atlas düzeltmesi ayrı iş).",
 "_dosya": "anadolu_kafkasya",
 "_neden": "2t-kirilmasiz"
 },

@@ -1,24 +1,5 @@
 [
 {
-"t": "0569-09-04",
-"kesinlik": "gun",
-"b": "Alboin Milano’ya girdi: Kuzey İtalya Bizans’ın elinden çıktı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Milano",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Alboin 4 Eylül 569’da Milano’ya girdi; piskopos Honoratus Cenova’ya kaçtı. Pavia uzun bir kuşatmadan sonra düştü ve Po vadisi büyük ölçüde Langobardlar’ın eline geçti; Bizans yalnız bazı kıyı ve kale şehirlerini elinde tuttu.",
-"kaynak": "The Cambridge Medieval History, II: The Rise of the Saracens and the Foundation of the Western Empire (Cambridge 1913; archive.org/details/cambridgemedieva02buryuoft), ch. VII (Hartmann): “On 4 September 569, Alboin entered Milan”; TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “Langobardlar kısa zamanda yarımadayı işgal ettiler (580)”",
-"_neden": "zincir-yok",
-"_yer": "Milano",
-"_dosya": "bizans-ajan"
-},
-{
 "t": "0636-08-20",
 "kesinlik": "gun",
 "b": "Yermük Savaşı: Bizans ordusu Araplar’a yenildi, Suriye kaybedildi",
@@ -79,46 +60,6 @@
 "_dosya": "bizans-ajan"
 },
 {
-"t": "0751-01-01",
-"kesinlik": "yil",
-"b": "Langobardlar Ravenna’yı aldı: Bizans Eksarhlığı sona erdi",
-"tur": "toprak-kayip",
-"onem": 3,
-"dunya": 3,
-"kapsam": "dis",
-"yer_id": "Ravenna",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Langobard kralı Aistulf 750-751’de Ravenna’yı ele geçirdi; böylece Bizans’ın Apenin’lerin kuzeyindeki tek büyük merkezi düştü, yalnız Venedik ve İstria’nın bir kısmı imparatorluğa bağlı kaldı.",
-"kaynak": "The Cambridge Medieval History, IV: The Eastern Roman Empire (717-1453), Cambridge 1923, Chronological Table, s. 899-907 (archive.org/details/cambridgemedieva04buryuoft): “751 Taking of Ravenna by the Lombards”; The Cambridge Medieval History, II: The Rise of the Saracens and the Foundation of the Western Empire (Cambridge 1913; archive.org/details/cambridgemedieva02buryuoft), ch. VIII (Diehl): “King Aistulf took possession of that town (750-751)”",
-"ic_not_d": "CMH II ‘750-751’ aralığını verir; kesin gün bilinmediği için yıl 751 alındı.",
-"_neden": "zincir-yok",
-"_yer": "Ravenna",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0756-01-01",
-"kesinlik": "yil",
-"b": "Pippin Ravenna Eksarhlığı’nı papalığa bağışladı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Ravenna",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Frank kralı Pippin Aistulf’u yenerek Ravenna Eksarhlığı’nı ve Pentapolis’i papalığa verdi; böylece Ravenna Langobardlar’dan alınıp Papalık Devleti’nin çekirdeğine katıldı. Bizans bu bağışa karşı çıkamadı.",
-"kaynak": "The Cambridge Medieval History, II: The Rise of the Saracens and the Foundation of the Western Empire (Cambridge 1913; archive.org/details/cambridgemedieva02buryuoft), ch. XIX (Charles the Great): “in 754 and 756 Pepin secured for the Curia the possession of the Roman Duchy of Pentapolis and the Exarchate of Ravenna”; The Cambridge Medieval History, IV: The Eastern Roman Empire (717-1453), Cambridge 1923, Chronological Table, s. 899-907 (archive.org/details/cambridgemedieva04buryuoft): “754 Donation of Pepin to the Papacy”",
-"ic_not_d": "Bağış 754 sözünden doğar, fiilî teslim 756’da olur (CMH II); kesin gün alınmadı.",
-"_neden": "zincir-yok",
-"_yer": "Ravenna",
-"_dosya": "bizans-ajan"
-},
-{
 "t": "0806-01-01",
 "kesinlik": "yil",
 "b": "Hârûnürreşîd Herakleia’yı (Ereğli) aldı; Tyana bölgesi ve sınır kaleleri Araplar’a geçti",
@@ -136,26 +77,6 @@
 "ic_not_d": "Kaynak ay verir (Ağustos 806); gün verilmediği için yıl hassasiyeti kullanıldı.",
 "_neden": "zincir-yok",
 "_yer": "Ereğli (Konya)",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0809-01-01",
-"kesinlik": "yil",
-"b": "Han Krum Sofya’yı (Serdika) aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Sofya",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Bulgar Han Krum uzun bir kuşatmanın ardından Sredets’i (Sofya) ele geçirdi ve şehri Bulgar devletine kattı; Bulgar ordusu 813’te İstanbul’a kadar gelecektir.",
-"kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan (Nazif Kuyucuklu), https://islamansiklopedisi.org.tr/bulgaristan: “Han Krum (803-814) ... Sredets (Sofya; 809) ile Edirne (813) alındı ve Bulgar ordusu İstanbul’a kadar geldi (813)”; TDV İslâm Ansiklopedisi, Sofya, https://islamansiklopedisi.org.tr/sofya: “809 yılında uzun bir kuşatmanın ardından Han Krum tarafından zaptedilen ve Bulgar Devleti’ne dahil edilen Sofya”",
-"ic_not_d": "Kaynak çelişkisi: CMH Part I (ch. III) Krum’un Serdika’yı 807-808’de yıktığını, Nikephoros’un 809’da yeniden kurduğunu belirtir; iki TDV maddesi 809’da Krum’un aldığını yazar.",
-"_neden": "zincir-yok",
-"_yer": "Sofya",
 "_dosya": "bizans-ajan"
 },
 {
@@ -199,66 +120,6 @@
 "_dosya": "bizans-ajan"
 },
 {
-"t": "0813-01-01",
-"kesinlik": "yil",
-"b": "Han Krum Dimetoka’yı (Didymoteichon) aldı",
-"tur": "toprak-kayip",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Dimetoka",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Çift surlu Didymoteichon (Dimetoka) 813’te Bulgar Hanı Krum tarafından ele geçirildi.",
-"kaynak": "TDV İslâm Ansiklopedisi, Dimetoka, https://islamansiklopedisi.org.tr/dimetoka: “813’te Türk/Bulgar Hanı Krum tarafından ele geçirilen şehrin adı eski bir kitâbede Kastron Didymóteichon olarak zikredilir”",
-"ic_not_d": "Tek TDV kaynağı.",
-"_neden": "zincir-yok",
-"_yer": "Dimetoka",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0813-01-01",
-"kesinlik": "yil",
-"b": "Han Krum Edirne’yi aldı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Edirne",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Bulgar Han Krum 813’te Edirne’yi ele geçirdi ve ordusu İstanbul önlerine geldi.",
-"kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan (Nazif Kuyucuklu), https://islamansiklopedisi.org.tr/bulgaristan: “Sredets (Sofya; 809) ile Edirne (813) alındı ve Bulgar ordusu İstanbul’a kadar geldi (813)”",
-"ic_not_d": "Tek TDV kaynağı; aynı yıl Versinikia savaşı ayrı bir maddededir.",
-"_neden": "zincir-yok",
-"_yer": "Edirne",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0831-01-01",
-"kesinlik": "yil",
-"b": "Malamir döneminde Filibe Bulgar devletine katıldı",
-"tur": "toprak-kayip",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Filibe",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Han Malamir (831-836) Filibe’yi (Philippopolis) kendi toprakları içine kattı; bunun ardından Han Presiyan Makedonya’nın büyük bölümünü aldı.",
-"kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan (Nazif Kuyucuklu), https://islamansiklopedisi.org.tr/bulgaristan: “Malamir (831-836) Filibe’yi ele geçirdi”; TDV İslâm Ansiklopedisi, Filibe: “Ardından Bulgar Hanı Malamir (831-836) Filibe’yi kendi toprakları içine kattı” (https://islamansiklopedisi.org.tr/filibe)",
-"ic_not_d": "Malamir’in saltanat yılları (831-836) verilir; fetih yılı bilinmediği için saltanatın ilk yılı, kesinlik yıl olarak alındı.",
-"_neden": "zincir-yok",
-"_yer": "Filibe",
-"_dosya": "bizans-ajan"
-},
-{
 "t": "0864-01-01",
 "kesinlik": "yil",
 "b": "Bulgar Han Boris Hıristiyanlığı kabul etti",
@@ -277,64 +138,6 @@
 "ic_not_d": "TDV Bulgaristan 865, TDV Varna ve CMH IV Kronoloji Tablosu 864 verir; iki kaynağın yılı (864) alındı.",
 "_neden": "yer-yok",
 "_yer": "Pliska",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0878-05-21",
-"kesinlik": "gun",
-"b": "Araplar Sirakuza’yı aldı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Sirakuza",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Aglebîler uzun kuşatmadan sonra Sicilya’nın başlıca Bizans merkezi Sirakuza’yı 21 Mayıs 878’de ele geçirdi; ada Bizans’ın elinden fiilen çıkmaya başladı.",
-"kaynak": "The Cambridge Medieval History, IV: The Eastern Roman Empire (717-1453), Cambridge 1923, Chronological Table, s. 899-907 (archive.org/details/cambridgemedieva04buryuoft): “878 (21 May) Capture of Syracuse by the Arabs”; TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “Araplar 870 yılında Malta’yı, 878’de Sirakuza’yı ellerine geçirdiler”",
-"_neden": "zincir-yok",
-"_yer": "Sirakuza",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0902-08-01",
-"kesinlik": "gun",
-"b": "Taormina düştü: Bizans’ın Sicilya’daki son kalesi kaybedildi",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Taormina",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Taormina’nın Araplar’ca zaptıyla Bizans’ın Sicilya adasındaki hâkimiyeti sona erdi; yalnız Güney İtalya’daki topraklar kaldı.",
-"kaynak": "The Cambridge Medieval History, IV: The Eastern Roman Empire (717-1453), Cambridge 1923, Chronological Table, s. 899-907 (archive.org/details/cambridgemedieva04buryuoft): “902 (1 Aug.) Fall of Taormina, the last Greek stronghold in Sicily”; TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “902’de imparatorluğun Sicilya’daki son üssü Taormina da müslümanlarca zaptedilince Bizans’ın adadaki hâkimiyeti son buldu”",
-"_neden": "zincir-yok",
-"_yer": "Taormina",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0914-01-01",
-"kesinlik": "yil",
-"b": "Simeon Edirne’yi aldı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Edirne",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Bulgar Çarı Simeon 914’te Hadrianopolis’i (Edirne) ele geçirdi; şehir Bizans ve Bulgar savaşlarının uzun süre sahnesi oldu.",
-"kaynak": "TDV İslâm Ansiklopedisi, Edirne, https://islamansiklopedisi.org.tr/edirne: “Hadrianopolis 586’da Avarlar tarafından muhasara edildikten sonra Bizans ve Bulgar Krallığı arasında mücadelelere sahne olduğu gibi (zaptı 914)”",
-"ic_not_d": "Kaynak yıl verir; tek bir kaynağa dayandığı için (TDV Edirne) çift teyit yoktur.",
-"_neden": "zincir-yok",
-"_yer": "Edirne",
 "_dosya": "bizans-ajan"
 },
 {
@@ -358,102 +161,6 @@
 "_dosya": "bizans-ajan"
 },
 {
-"t": "0934-01-01",
-"kesinlik": "yil",
-"b": "Bizans Malatya’yı aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Eski Malatya (Battalgazi)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Doğu domestikosu Ioannes Kourkouas komutasındaki Bizans ordusu Fırat’a dek ilerledi ve 934’te Malatya’yı zaptetti; 943’te Meyyâfârikīn, Âmid, Dârâ ve Nusaybin de alındı.",
-"kaynak": "TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “Doğu domestikosu Ioannes Kurkuas kumandasındaki Bizans ordusu Fırat’a kadar ilerledi; 934’te Malatya’yı, 943’te Meyyâfârikīn, Âmid, Dârâ ve Nusaybin’i zaptetti”",
-"_neden": "zincir-yok",
-"_yer": "Eski Malatya (Battalgazi)",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0961-03-06",
-"kesinlik": "gun",
-"b": "Kandiye düştü: Nikephoros Phokas Girit’i geri aldı",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kandiye (Girit)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Nikephoros Phokas komutasındaki Bizans kuvvetleri bir yıl süren kuşatmadan sonra 6 Mart 961’de Kandiye’yi ele geçirdi; yaklaşık 130 yıl süren Girit Emirliği sona erdi. Adanın Müslüman halkının bir bölümü adayı terk etti, bir bölümü din değiştirmeye zorlandı.",
-"kaynak": "TDV İslâm Ansiklopedisi, Girit, https://islamansiklopedisi.org.tr/girit: “Nikephoros Phokas kumandasındaki kuvvetler bir yıl süren kuşatmadan sonra 6 Mart 961’de Kandiye şehrini ele geçirdiler”; The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. IV: “Chandax (Candia) fell in March 961”; TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “Girit adasının zaptedilmesi (961)”",
-"ic_not_d": "Gün yalnız TDV Girit’te açıktır (6 Mart); CMH Part I ‘Mart 961’ der.",
-"_neden": "zincir-yok",
-"_yer": "Kandiye (Girit)",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0965-08-16",
-"kesinlik": "gun",
-"b": "Tarsus Bizans’a teslim oldu: Kilikya Bizans hâkimiyetine girdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tarsus",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Misis (Mopsuestia) Temmuz 965’te, Tarsus bir ay sonra 16 Ağustos 965’te insanî şartlarla teslim oldu ve yeniden Hıristiyan şehri oldu. Böylece Kilikya bölgesi Bizans’a katıldı.",
-"kaynak": "The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. IV: “Mopsuestia fell in July 965 ... A month later, on 16 August 965, Tarsus also fell, having surrendered on most humane terms”; TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “Aynı yıl Tarsus’un zaptıyla Kilikya bölgesini de Bizans hâkimiyetine soktu”; The Cambridge Medieval History, IV: The Eastern Roman Empire (717-1453), Cambridge 1923, Chronological Table, s. 899-907 (archive.org/details/cambridgemedieva04buryuoft): “965 Conquest of Cilicia”",
-"_neden": "zincir-yok",
-"_yer": "Tarsus",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "0971-04-13",
-"kesinlik": "gun",
-"b": "Tzimiskes Büyük Preslav’ı fırtınayla aldı: Doğu Bulgaristan Bizans’a katıldı",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Preslav",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Ioannes Tzimiskes 12 Nisan 971’de Preslav ovasına girdi; 13 Nisan akşamı Svyatoslav’ın adamlarının savunduğu Bulgar başşehri düştü. Çar Boris esir alındı ve Bizans yönetimi Trakya ile Doğu Bulgaristan’a yayıldı.",
-"kaynak": "The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. IV: “on 12 April poured into the plain which contained Preslav ... On the evening of 13 April this great city ... fell into Byzantine hands”; TDV İslâm Ansiklopedisi, Bulgaristan (Nazif Kuyucuklu), https://islamansiklopedisi.org.tr/bulgaristan: “971’de Trakya ve Kuzey Bulgaristan Bizans tarafından zaptedilmiş”",
-"_neden": "zincir-yok",
-"_yer": "Preslav",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "1018-01-01",
-"kesinlik": "yil",
-"b": "Basileios II Ohri’ye girdi: Batı Bulgar başkenti Bizans’ın eline geçti",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Ohri",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Samuil’in ölümünden sonra dört yıl direnen Bulgar hanedanı, 1018 başında Ohri kapılarında Basileios II’ye teslim oldu. Ohri başpiskoposluğu ise Bizans yönetimi altında Slav Hıristiyanlığının merkezi olarak varlığını sürdürdü.",
-"kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan (Nazif Kuyucuklu), https://islamansiklopedisi.org.tr/bulgaristan: “1018’de İmparator Vasiliy’in Bulgar başşehri Ohri’ye girmesiyle ...”; TDV İslâm Ansiklopedisi, Ohri, https://islamansiklopedisi.org.tr/ohri: “1014 ... Belasica savaşından sonra 1018’de Bizanslılar’ın idaresi altına girdi”; The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. XI: “At the gates of Ochrida he received the formal submission of the late Tsar’s family”",
-"_neden": "zincir-yok",
-"_yer": "Ohri",
-"_dosya": "bizans-ajan"
-},
-{
 "t": "1018-01-01",
 "kesinlik": "yil",
 "b": "Cannae (Canne) Savaşı: Katepan Basileios Boioannes Langobard isyanını bastırdı",
@@ -472,26 +179,6 @@
 "ic_not_d": "Tek kaynak (CMH IV Part I); gün/ay verilmemiştir.",
 "_neden": "yer-yok",
 "_yer": "Cannae (Canne), Apulya",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "1067-01-01",
-"kesinlik": "yil",
-"b": "Alparslan Kayseri’yi aldı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kayseri",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Selçuklu Sultanı Alparslan döneminde Türkler 1065’te Ani’yi, 1067’de Kayseri’yi zaptetti; Bizans Kapadokya’nın kapılarını kaybetti.",
-"kaynak": "TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “Selçuklu Sultanı Alparslan devrinde Türkler Ani’yi (1065) ve Kayseri’yi zaptettiler (1067)”",
-"ic_not_d": "Tek TDV kaynağı; ay/gün bildirilmemiştir.",
-"_neden": "zincir-yok",
-"_yer": "Kayseri",
 "_dosya": "bizans-ajan"
 },
 {
@@ -537,25 +224,6 @@
 {
 "t": "1147-01-01",
 "kesinlik": "yil",
-"b": "Normanlar Korinthos’u yağmaladı",
-"tur": "isgal",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Korint",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Sicilya Normanları 1147 sonbaharında Korinth körfezine girip İpek sanayiinin iki merkezinden biri olan Korinthos’u işgal etti ve ganimeti Palermo’ya taşıdı.",
-"kaynak": "TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “ipek sanayiinin merkezleri olan Korinthos ve Thebai şehirlerini işgal ettiler”; The Cambridge Medieval History, IV (Cambridge 1923; archive.org/details/cambridgemedieva04buryuoft), ch. XII: “The Normans then sailed up the Gulf of Corinth and took Thebes and Corinth”",
-"_neden": "zincir-yok",
-"_yer": "Korint",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "1147-01-01",
-"kesinlik": "yil",
 "b": "Normanlar Thebai’yi (İstefe) yağmaladı",
 "tur": "isgal",
 "onem": 1,
@@ -570,106 +238,6 @@
 "kaynak": "TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “ipek sanayiinin merkezleri olan Korinthos ve Thebai şehirlerini işgal ettiler”; The Cambridge Medieval History, IV (Cambridge 1923; archive.org/details/cambridgemedieva04buryuoft), ch. XII: “took Thebes and Corinth (centres of the silk-trade)”",
 "_neden": "zincir-yok",
 "_yer": "İstefe (Tebai)",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "1147-01-01",
-"kesinlik": "yil",
-"b": "Sicilya Kralı Roger Korfu’yu aldı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Korfu",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "II. Roger’ın Norman donanması 1147 sonbaharında Bizans kıyılarına saldırdı; Korfu adasını zaptetti, Korinthos ve Thebai’yi yağmaladı. Ada 1148-1149’da Venedik donanması yardımıyla geri alındı.",
-"kaynak": "TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “Normanlar 1147 yılında Bizans’ın Yunanistan’daki topraklarına saldırdılar, ... Korinthos ve Thebai şehirlerini işgal ettiler, hatta Korfu adasını zaptettiler”; The Cambridge Medieval History, IV (Cambridge 1923; archive.org/details/cambridgemedieva04buryuoft), ch. XII: “in the autumn of 1147 ... Corfu had fallen into his hands”; The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. V: Venedik’in 1148-1149’da Korfu’yu geri almadaki payı",
-"_neden": "zincir-yok",
-"_yer": "Korfu",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "1168-01-01",
-"kesinlik": "yil",
-"b": "Manuel Komnenos Dalmaçya’yı Bizans’a kattı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Split (Spalato)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Macaristan ve Rascia ile savaşları sürdüren Manuel Komnenos, 1160’ların ortalarındaki seferlerin ardından Dalmaçya’yı fethederek konumunu güçlendirdi.",
-"kaynak": "The Cambridge Medieval History, IV: The Eastern Roman Empire (717-1453), Cambridge 1923, Chronological Table, s. 899-907 (archive.org/details/cambridgemedieva04buryuoft): “1168 Annexation of Dalmatia”; The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. V: “Manuel further strengthened his position by his conquest of Dalmatia”; TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “Balkanlar’da giriştiği mücadele sonunda Macarlar’a (1167) ... imparatorluğun hâkimiyetini kabul ettirdi”",
-"ic_not_d": "Yıl çelişkisi: CMH IV Kronoloji Tablosu 1168; TDV Bizans Macar hâkimiyetini 1167 yazar; atlas künyesi Split’i 1164’te Bizans’a verir. Split’in sorgusu ayrı doğrulanmadı.",
-"_neden": "zincir-yok",
-"_yer": "Split (Spalato)",
-"_zincir_en_yakin": "1164-01-01 (1461 gün)",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "1171-01-01",
-"kesinlik": "yil",
-"b": "Venedik donanması Dubrovnik’e boyun eğdirip kont atadı",
-"tur": "toprak-kazanc",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Dubrovnik",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Manuel’in Venedikliler’i tutuklatmasına karşılık 1171 Eylül’ünde yola çıkan Venedik donanması yolda Dubrovnik’e (Ragusa) saldırdı; şehir teslim oldu ve Venedik’ten bir ‘kont’ aldı.",
-"kaynak": "The Cambridge Medieval History, IV (Cambridge 1923; archive.org/details/cambridgemedieva04buryuoft), ch. XIII (Venice): “On his way he attacked Ragusa, which surrendered and received a ‘count’”",
-"ic_not_d": "Kaynak 1171 filosunun Eylül’de yola çıktığını anlatır; gün verilmediği için yıl hassasiyeti. Atlas Dubrovnik’i 1205’te Venedik’e verir.",
-"_neden": "zincir-yok",
-"_yer": "Dubrovnik",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "1203-01-01",
-"kesinlik": "yil",
-"b": "Filibe Kaloyan’ın Bulgarları’nın eline geçti",
-"tur": "toprak-kayip",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Filibe",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Üçüncü Haçlı Seferi sırasında yağmalanan ve 1204’te yeniden Haçlı saldırılarına uğrayan Filibe, 1203 dolaylarında Bulgarlar’ın eline geçti.",
-"kaynak": "TDV İslâm Ansiklopedisi, Filibe: “Filibe 1203 dolaylarında Bulgarlar’ın eline geçti” (https://islamansiklopedisi.org.tr/filibe)",
-"ic_not_d": "Tek TDV kaynağı; ‘dolaylarında’ ifadesi nedeniyle yaklaşık.",
-"_neden": "zincir-yok",
-"_yer": "Filibe",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "1205-01-01",
-"kesinlik": "yil",
-"b": "Selanik Haçlılar’ın eline geçti: Latin Selanik Krallığı",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Selanik",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Dördüncü Haçlı Seferi’nden yirmi yıl sonra Haçlı ordusu Selanik’i ele geçirdi ve şehri Latin Selânik Krallığı’nın (1205-1225) merkezi yaptı; Ortodoks kiliseleri (Aziz Dimitrios, Ayasofya) Katolik kiliselerine dönüştürüldü.",
-"kaynak": "TDV İslâm Ansiklopedisi, Selânik, https://islamansiklopedisi.org.tr/selanik: “Yirmi yıl sonra bir Haçlı ordusu şehri ele geçirip Latin Selânik Krallığı’nın (1205-1225) merkezi haline getirdi; birçok önemli Ortodoks kilisesi (Aziz Dimitrios, Ayasofya vb.) ... Roma Katolik kilisesine dönüştürüldü”; The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. VII: Boniface’ın Selanik’i Asya Minor ve Mora karşılığında istemesi",
-"ic_not_d": "TDV krallığın başlangıcını 1205 verir; CMH Part I fethi 1204 sonu-1205 başı bağlamında anlatır.",
-"_neden": "zincir-yok",
-"_yer": "Selanik",
 "_dosya": "bizans-ajan"
 },
 {
@@ -692,25 +260,6 @@
 "_dosya": "bizans-ajan"
 },
 {
-"t": "1207-01-01",
-"kesinlik": "yil",
-"b": "Korfu Venedik’e teslim oldu: Venedikli soyluların on lordluğu",
-"tur": "toprak-kayip",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Korfu",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "1205’te Venedik filosunun saldırısına direnen Korfu halkı ancak 1207’de teslim oldu; ada, Cumhuriyet adına Venedikli soyluların decarchy’si (on kişilik yönetim) tarafından yönetildi.",
-"kaynak": "The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. VII: “the Corfiotes fought back, and it was not until 1207 that the island finally submitted, to be governed by a decarchy of Venetian nobles in the interests of the Republic”",
-"_neden": "zincir-yok",
-"_yer": "Korfu",
-"_dosya": "bizans-ajan"
-},
-{
 "t": "1217-01-01",
 "kesinlik": "yil",
 "b": "Stefan Nemanjić Papalık elçisince Sırbistan Kralı olarak taçlandırıldı",
@@ -729,26 +278,6 @@
 "ic_not_d": "Taç töreninin yeri (Žiča) kaynaklarda ayrıca verilmemiştir (atlasta yok).",
 "_neden": "yer-yok",
 "_yer": "Žiča",
-"_dosya": "bizans-ajan"
-},
-{
-"t": "1262-01-01",
-"kesinlik": "yil",
-"b": "Bizans Mora’nın güneyini geri aldı: Monemvasia, Mistra, Maina ve Geraki",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Monemvasia",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Pelagonia’da esir düşen Villehardouin, serbest kalmak için Monemvasia, Mistra, Maina (Mani) ve Geraki kalelerini Bizans’a bıraktı; Bizans Mora’da ilk kalıcı toprağını geri aldı ve Mistra daha sonra Mora Despotluğu’nun merkezi olacaktır.",
-"kaynak": "TDV İslâm Ansiklopedisi, Mora, https://islamansiklopedisi.org.tr/mora: “Bizanslılar Mora’nın güneyindeki Monemvasia, Mistra, Mani ve Geraki gibi iyi korunan önemli şehirleri ele geçirdi (1262)”; TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “Mikhail, 1262’de Latinler’den Mora’yı ... ele geçirdi”; The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. VIII: Villehardouin’in “Monemvasia, Mistra, Maina” kalelerini devri",
-"ic_not_d": "CMH Part I devri Villehardouin’in 1261 sonunda serbest bırakılışına bağlar; TDV 1262.",
-"_neden": "zincir-yok",
-"_yer": "Monemvasia",
 "_dosya": "bizans-ajan"
 },
 {
@@ -790,26 +319,6 @@
 "_neden": "yer-yok",
 "_yer": "Viterbo",
 "_dosya": "bizans-ajan"
-},
-{
-"t": "0774-01-01",
-"kesinlik": "yil",
-"b": "Pavia teslim olur; Desiderius tutsak edilir; Charlemagne 'Langobardların kralı' unvanını alır (Langobard Krallığı sona erer)",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 3,
-"kapsam": "dis",
-"kisiler": "Charlemagne; Desiderius",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Charlemagne, Papa I. Hadrianus'un çağrısıyla 773'te Alpler'i aşıp Lombard Krallığı'na girdi; 774 Haziran'ında Pavia teslim oldu, kral Desiderius manastıra gönderildi. Charles 'Langobardların kralı' ve 'Romalıların Patrikiosu' unvanlarını aldı.",
-"kaynak": "1911 Encyclopædia Britannica (11. baskı), «Charlemagne», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Charlemagne : witnessed the capitulation of Pavia in June 774, and the capture of Desiderius … He now took the title 'king of the Lombards'",
-"ic_not_d": "Ay (Haziran) kaynaktan; gün yok (ay hassasiyeti CLAUDE.md gereği yıl başına çekildi). Pavia'nın atlasta s:/d: zinciri yoktur.",
-"_neden": "zincir-yok",
-"_yer": "Pavia",
-"_dosya": "bati-ajan"
 },
 {
 "t": "0841-06-25",
@@ -872,26 +381,6 @@
 "_dosya": "bati-ajan"
 },
 {
-"t": "0878-01-01",
-"kesinlik": "yil",
-"b": "Edington (Ethandun) Savaşı ve Wedmore barışı: Alfred Danimarkalıları (Guthrum) yener",
-"tur": "savas",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"kisiler": "Alfred; Guthrum",
-"etiket": [
-"savas",
-"konu-siyasi"
-],
-"d": "Ocak 878'de Danimarkalıların Chippenham'a ani baskınından sonra Alfred az bir adamla saklandı; ordular Wiltshire'daki Edington'da buluştu. Wedmore barışı (878) sonrası Danimarkalılar Wessex'ten çekildi, Londra dahil kuzeydoğu yarı Danimarkalılarda kaldı ama 'gelgit dönmüştü'.",
-"kaynak": "1911 Encyclopædia Britannica (11. baskı), «Alfred the Great», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Alfred_the_Great : The Danes on their side moved out of Chippenham, and the two armies met at Edington in Wiltshire … the peace of Wedmore (878)",
-"ic_not_d": "Gün yok; Wedmore için yazılı belge yoktur (kaynak).",
-"_neden": "yer-yok",
-"_yer": "Edington",
-"_dosya": "bati-ajan"
-},
-{
 "t": "0880-01-01",
 "kesinlik": "yil",
 "b": "Ribemont Antlaşması: Batı Lotharingia da Doğu Francia'ya geçer",
@@ -909,26 +398,6 @@
 "ic_not_d": "KÜNYE TAŞIMASI: bu satır devletler.js K satırından alınmıştır, çevrimiçi Britannica bu oturumda okunamadı (403).",
 "_neden": "yer-yok",
 "_yer": "Ribemont",
-"_dosya": "bati-ajan"
-},
-{
-"t": "0886-01-01",
-"kesinlik": "yil",
-"b": "Alfred Londra'yı Danimarkalılardan alır; Alfred-Guthrum barışı sınırları Alfred lehine değiştirir",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"kisiler": "Alfred; Guthrum",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Alfred, isyancı Danimarkalılara karşı aldığı önlemlerin sonunda Londra'yı 885 ya da 886'da ele geçirdi; Alfred ile Guthrum arasında Wedmore sınırlarını Alfred lehine değiştiren barış yapıldı.",
-"kaynak": "1911 Encyclopædia Britannica (11. baskı), «Alfred the Great», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Alfred_the_Great : the capture of London in 885 or 886, and the treaty known as Alfred and Guthrum's peace",
-"ic_not_d": "Yıl 885 ya da 886 (kaynak); 886 alındı (devletler.js danelaw künyesi de 886'yı gelenekçe verir). Atlas Londra'yı 1000'den başlatır; zincir yok.",
-"_neden": "zincir-yok",
-"_yer": "Londra",
 "_dosya": "bati-ajan"
 },
 {
@@ -1071,66 +540,6 @@
 "_dosya": "bati-ajan"
 },
 {
-"t": "1084-03-24",
-"kesinlik": "gun",
-"b": "Roma IV. Henry'ye teslim olur; Antipapa III. Clemens (Guibert) tahta çıkarılır, Henry imparator tacı giyer, Gregorius Roma'dan kaçar",
-"tur": "isgal",
-"onem": 3,
-"dunya": 3,
-"kapsam": "dis",
-"kisiler": "IV. Henry; VII. Gregorius; III. Clemens (Guibert)",
-"etiket": [
-"isgal",
-"konu-siyasi"
-],
-"d": "1081'de İtalya'ya inen Henry'ye Romalılar şehri teslim etti; Ravenna başpiskoposu Guibert 24 Mart 1084'te III. Clemens adıyla papa ilan edildi, Henry rakip papa tarafından imparator taçlandırıldı. On üç kardinalin terk ettiği VII. Gregorius Roma'dan kaçmak zorunda kaldı; Normanların desteğine güvendi.",
-"kaynak": "1911 Encyclopædia Britannica (11. baskı), «Gregory VII.», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Gregory_VII. : Rome surrendered by the Romans to the German king, Guibert of Ravenna enthroned as Clement III. (March 24, 1084), and Henry crowned emperor by his rival, while he himself was constrained to flee from Rome",
-"ic_not_d": "Atlas Roma'yı 1144-1155 arasında __BOSLUK__ gösterir; 1084 için sahiplik kırılması kayıtlı değildir (madde 'isgal' türünde ama zincirsiz — bekleyen listeye bkz.).",
-"_neden": "zincir-yok",
-"_yer": "Roma",
-"_dosya": "bati-ajan"
-},
-{
-"t": "1204-06-24",
-"kesinlik": "gun",
-"b": "Rouen kırk günlük direnişten sonra Philippe Auguste'e teslim olur",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 3,
-"kapsam": "dis",
-"kisiler": "II. Philippe Auguste; John Sans-Terre",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Château-Gaillard'ın Eylül 1203-Nisan 1204 kuşatmasıyla Normandiya'nın kaderi belirlendi; ticaretle İngiltere'ye bağlı Rouen kırk gün direndikten sonra 24 Haziran 1204'te teslim oldu.",
-"kaynak": "1911 Encyclopædia Britannica (11. baskı), «Philip II., king of France», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Philip_II.,_king_of_France : Rouen, bound by ties of trade to England, resisted for forty days; but it surrendered on the 24th of June 1204",
-"ic_not_d": "Atlas Rouen'i 1204-01-01'de fransa'ya geçirir; gün (24 Haziran) kırılmadan 175 gün uzakta — kaynağa göre yazıldı, atlas zinciri farklı (bekleyen).",
-"_neden": "zincir-yok",
-"_yer": "Rouen",
-"_dosya": "bati-ajan"
-},
-{
-"t": "1209-01-01",
-"kesinlik": "yil",
-"b": "Albigens Haçlıları Carcassonne'u alır",
-"tur": "isgal",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"kisiler": "Raymond Roger Trencavel; Simon de Montfort",
-"etiket": [
-"isgal",
-"konu-siyasi"
-],
-"d": "Carcassonne ve Béziers vikontlukları, vikont Raymond Roger'in Simon de Montfort'a karşı oynadığı rol yüzünden Albigens Haçlı Seferi'nde 1209'da Haçlılarca alındı; vikontluk 1247'de kraliyete el konuldu.",
-"kaynak": "1911 Encyclopædia Britannica (11. baskı), «Carcassonne», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Carcassonne : during which in 1209 the city was taken by the Crusaders",
-"ic_not_d": "Gün yok. Atlas Carcassonne'u 1240-10-01'e kadar __BOSLUK__ gösterir (zincir yok).",
-"_neden": "zincir-yok",
-"_yer": "Carcassonne",
-"_dosya": "bati-ajan"
-},
-{
 "t": "1214-07-27",
 "kesinlik": "gun",
 "b": "Bouvines Savaşı: Philippe Auguste İngiliz-Alman-Flaman koalisyonunu yener",
@@ -1148,26 +557,6 @@
 "ic_not_d": "devletler.js fransa künyesi 1214-07-27 (Britannica 'Battle of Bouvines'; G. Duby) ile uyumludur.",
 "_neden": "yer-yok",
 "_yer": "Bouvines",
-"_dosya": "bati-ajan"
-},
-{
-"t": "1215-01-01",
-"kesinlik": "yil",
-"b": "Simon de Montfort Toulouse'a girer",
-"tur": "isgal",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"kisiler": "Simon de Montfort; VI. Raymond",
-"etiket": [
-"isgal",
-"konu-siyasi"
-],
-"d": "Albigens Haçlı Seferi'nin komutanı Simon de Montfort 1215'te Toulouse'u işgal etti; 1218'de şehri kuşatırken öldü.",
-"kaynak": "1911 Encyclopædia Britannica (11. baskı), «Toulouse», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Toulouse : Simon de Montfort, who occupied Toulouse in 1215",
-"ic_not_d": "Gün yok. Atlas Toulouse'u 1271'e kadar kayıtsız bırakır (zincir yok).",
-"_neden": "zincir-yok",
-"_yer": "Toulouse",
 "_dosya": "bati-ajan"
 },
 {
@@ -1189,106 +578,6 @@
 "_neden": "yer-yok",
 "_yer": "Runnymede",
 "_dosya": "bati-ajan"
-},
-{
-"t": "1247-01-01",
-"kesinlik": "yil",
-"b": "Carcassonne ve Béziers vikontlukları kraliyet tarafından müsadere edilir",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"kisiler": "Raymond Roger Trencavel; IX. Louis",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Carcassonne vikontluğu (Béziers ile birlikte) 1247'de Albigens Haçlı Seferi'nde vikont Raymond Roger'in Simon de Montfort'a karşı oynadığı rol yüzünden krala el konuldu.",
-"kaynak": "1911 Encyclopædia Britannica (11. baskı), «Carcassonne», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Carcassonne : The viscounty of Carcassonne, together with that of Béziers, was confiscated to the crown in 1247",
-"ic_not_d": "ÇELİŞKİ: atlas Carcassonne'u 1240-10-01'de fransa'ya geçirir; 1911 Britannica el koymayı 1247'ye koyar (fiilî teslim 1240 sonbaharı olabilir; ayrıca doğrulanmadı).",
-"_neden": "zincir-yok",
-"_yer": "Carcassonne",
-"_dosya": "bati-ajan"
-},
-{
-"t": "0827-04-02",
-"kesinlik": "yil",
-"b": "Ağlebî-Euphemios donanması Mâzere'yi (Mazara del Vallo) fethetti: Sicilya fethi başladı",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Mazara del Vallo",
-"kisiler": "Esed b. Furât; Euphemios; Ziyâdetullah",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Bizans donanma komutanı Euphemios'un Vali Konstantin Souda'ya isyan edip Ağlebî Emîri Ziyâdetullah'tan yardım istemesi üzerine Esed b. Furât komutasında 10.000 kişilik, yetmişten fazla gemili Müslüman donanması gelip Euphemios'la birleşti ve 212'de (827) Mâzere'yi fethetti. Ada fethi 75 yıl sürüp 902'de tamamlanacaktı.",
-"kaynak": "TDV İslâm Ansiklopedisi, SİCİLYA (M. H. Şakiroğlu, 2009) https://islamansiklopedisi.org.tr/sicilya : '212'de (827) Mâzere'yi (Mazara del Vallo) fethetti'; 'Müslümanların 827'de Sicilya'ya ilk çıktıkları yer olan Mazara del Vallo'",
-"ic_not_d": "Hicrî 212 ∩ miladî 827 kesişiminin ilk günü (tablo çevirisi, yıl hassasiyeti); kaynak yalnız yıl verir.",
-"_neden": "zincir-yok",
-"_yer": "Mazara del Vallo",
-"_dosya": "italya-ajan"
-},
-{
-"t": "0831-02-18",
-"kesinlik": "yil",
-"b": "Palermo Ağlebî Müslümanlarına teslim oldu",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Palermo",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Mâzere'nin düşüşünden sonra Müslüman kuvvetler Palermo'yu kuşattı; şehir 216'da (831) teslim oldu. 840'ta Platani, Caltabellotta ve Corleone de alınacaktı.",
-"kaynak": "TDV İslâm Ansiklopedisi, SİCİLYA (M. H. Şakiroğlu, 2009) https://islamansiklopedisi.org.tr/sicilya : '216'da da (831) Palermo teslim oldu'",
-"ic_not_d": "Hicrî 216 ∩ miladî 831 kesişiminin ilk günü (tablo çevirisi, yıl hassasiyeti); kaynak yalnız yıl verir. Atlas Palermo zinciri 1072'de başlıyor (öncesi yok).",
-"_neden": "zincir-yok",
-"_yer": "Palermo",
-"_dosya": "italya-ajan"
-},
-{
-"t": "0843-01-01",
-"kesinlik": "yil",
-"b": "Messina fethedildi; Sicilya-İtalya arasındaki Messina Boğazı Müslümanların denetimine girdi",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Messina",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "840'ta Platani, Caltabellotta, Corleone ve 842'de bütün Mâzere bölgesi alındıktan sonra, ertesi yıl (843) adanın kuzeydoğusundaki Messina fethedildi ve stratejik boğaz kontrol altına alındı.",
-"kaynak": "TDV İslâm Ansiklopedisi, SİCİLYA (M. H. Şakiroğlu, 2009) https://islamansiklopedisi.org.tr/sicilya : '842'ye gelindiğinde bütün Mâzere bölgesi müslümanların eline geçti. Ertesi yıl adanın kuzeydoğusundaki Messina fethedilerek İtalya ile Sicilya arasında stratejik önem taşıyan Messina Boğazı kontrol altına alındı'",
-"ic_not_d": "Kaynak 'ertesi yıl' (842'den sonra → 843) diyor; yıl hassasiyeti.",
-"_neden": "zincir-yok",
-"_yer": "Messina",
-"_dosya": "italya-ajan"
-},
-{
-"t": "0962-01-01",
-"kesinlik": "yil",
-"b": "Ahmed b. Hasan el-Kelbî yedi aylık kuşatmadan sonra Bizans'ın Taormina kalesini alıp adını Muizziye koydu",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Taormina",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Ahmed b. Hasan el-Kelbî yedi aylık kuşatmadan sonra Bizans'ın Taormina kalesini alıp adını Muizziye koyar.",
-"kaynak": "TDV İslâm Ansiklopedisi, MUİZ-LİDÎNİLLÂH https://islamansiklopedisi.org.tr/muiz-lidinillah ; KELBÎLER https://islamansiklopedisi.org.tr/kelbiler",
-"_neden": "zincir-yok",
-"_yer": "Taormina",
-"_dosya": "italya-ajan"
 },
 {
 "t": "0965-01-01",
@@ -1332,27 +621,6 @@
 {
 "t": "1000-01-01",
 "kesinlik": "yil",
-"b": "Ragusa (Dubrovnik) ve güney Dalmaçya şehirleri Orseolo'ya biat etti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Dubrovnik",
-"kisiler": "Pietro II Orseolo",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Orseolo'nun Dalmaçya seferinde Ragusa, Dalmaçya şehirlerinin en güneyi olarak elçileri ve başpiskoposuyla San Massimo adacığında dogenin ordusunu karşılayıp Venedik'e bağlılık sundu.",
-"kaynak": "Treccani, Enciclopedia Italiana, 'Ragusa' https://www.treccani.it/enciclopedia/ragusa_(Enciclopedia-Italiana)/ : 'Nel 1000 ... Ragusa fu la più meridionale delle città dalmate che ... rendesse omaggio a Venezia'",
-"ic_not_d": "Atlas Dubrovnik zinciri 1205'te başlıyor; kaynak 1000 (omaj) ve 1205 (kalıcı Venedik hâkimiyeti) verir.",
-"_neden": "zincir-yok",
-"_yer": "Dubrovnik",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1000-01-01",
-"kesinlik": "yil",
 "b": "Svolder Deniz Savaşı: Olav Tryggvason Danimarka-İsveç-Norveç müttefiklerine yenilip öldü",
 "tur": "savas",
 "onem": 2,
@@ -1369,271 +637,6 @@
 "ic_not_d": "Savaş yeri ve yılı kaynaklarda kesin değildir ('trolig år 1000').",
 "_neden": "yer-yok",
 "_yer": "Svolder (yeri belirsiz)",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1000-01-01",
-"kesinlik": "yil",
-"b": "Doge Pietro II Orseolo Dalmaçya şehirlerini boyunduruk altına alıp 'Dalmaçya Dükü' oldu",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Zadar (Zara)",
-"kisiler": "Pietro II Orseolo",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Dalmaçyalıların daveti üzerine büyük bir donanmayla yola çıkan Orseolo, Hırvat ve Narentanları yendi, Adriyatik'i korsanlıktan temizledi ve Dalmaçya şehirlerinin vergi ve bağlılık yeminini aldı; 'Dalmaçya Dükü' unvanını aldı. Zara 1000'de dogeye biat etti.",
-"kaynak": "Treccani, Enciclopedia Italiana, 'Dalmazia' https://www.treccani.it/enciclopedia/dalmazia_(Enciclopedia-Italiana)/ : 'nel 1000 ... il doge Pietro II Orseolo salpa da Venezia con una formidabile flotta ... assume il titolo di doge di Dalmazia'; Treccani, Enciclopedia Italiana, 'Zara' https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/ : 'Zara ... nel 1000 fa omaggio al doge e gli riconosce il titolo e l'ufficio di duca di Dalmazia'",
-"ic_not_d": "EB1911 'Dalmatia' olayı 998'e, EB1911 'Venice' ve Treccani 1000'e tarihler. Zadar atlas zincirinde 1000-01-01 yalnız veri başlangıcıdır; gerçek sahip değişimi 1202.",
-"_neden": "zincir-yok",
-"_yer": "Zadar (Zara)",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1018-01-01",
-"kesinlik": "yil",
-"b": "Polonya Kralı Bolesław Chrobry Alman ve Peçenek desteğiyle Kiev'i aldı",
-"tur": "isgal",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kiev",
-"kisiler": "Bolesław I Chrobry; Sviatopolk; Yaroslav",
-"etiket": [
-"siyaset",
-"konu-siyasi"
-],
-"d": "Ağustos 1018'de Bolesław, Alman ve Peçenek kuvvetleriyle Kiev'i ele geçirdi; Buh Nehri'nde Yaroslav'ı yenen kayınvalde Sviatopolk'u tahta oturttu. Yaroslav ancak 1019'da Kiev'i geri alabildi.",
-"kaynak": "TDV İslâm Ansiklopedisi, POLONYA https://islamansiklopedisi.org.tr/polonya : 'Alman ve Peçenek kuvvetleriyle desteklenmiş olarak Kiyef'i ele geçirdi (Ağustos 1018)'; Encyclopedia of Ukraine, 'Yaroslav the Wise' https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CY%5CA%5CYaroslavtheWise.htm : 'In 1018, however, Sviatopolk and his father-in-law, Bolesław I the Brave of Poland, defeated Yaroslav's army at the Buh River and drove Yaroslav from Kyiv'",
-"ic_not_d": "TDV gün vermez, ay verir (Ağustos 1018); yıl hassasiyeti.",
-"_neden": "zincir-yok",
-"_yer": "Kiev",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1028-01-01",
-"kesinlik": "yil",
-"b": "Knud den Store Norveç'te kral ilan edildi; Olav Haraldsson kaçtı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Trondheim",
-"kisiler": "Knud den Store; Olav Haraldsson",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Knud 1028'de elli gemilik bir filoyla Norveç'e gelip Øretinget'te Norveç kralı olarak alkışlandı; Kral II. Olav Haraldsson önce İsveç'e sonra Rus'a (Gardarike) kaçtı.",
-"kaynak": "Store norske leksikon, 'Slaget på Stiklestad' https://snl.no/Slaget_på_Stiklestad : 'Da Knut i 1028 kom til landet med en flåte på 50 skip og ble hyllet på Øretinget som norsk konge, rømte Olav til Sverige og deretter til Gardarike'",
-"ic_not_d": "Øretinget'in Trondheim'de olduğu kaynakta yazılı değildir; gelenek Trondheim (Øyrating) der. Yıl hassasiyeti.",
-"_neden": "zincir-yok",
-"_yer": "Trondheim",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1030-01-01",
-"kesinlik": "yil",
-"b": "Aversa Kontluğu kuruldu: Rainulf Drengot Norman kontu oldu",
-"tur": "kurulus",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer": "Aversa",
-"kisiler": "Rainulf Drengot; IV. Sergius",
-"etiket": [
-"siyaset",
-"konu-siyasi"
-],
-"d": "1030'da Napoli Dükü Sergius'un Rainulf'u Aversa kalesine yerleştirmesiyle Normanlar ilk kez kalıcı bir üs elde etti ve Güney İtalya'nın örgütlü fethi başladı.",
-"kaynak": "Encyclopaedia Britannica 11. baskı (1911), 'Robert Guiscard' https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Robert_Guiscard : 'Sergius of Naples, by installing the leader Rainulf in the fortress of Aversa in 1030, gave them their first pied-à-terre'",
-"_neden": "yer-yok",
-"_yer": "Aversa",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1038-01-01",
-"kesinlik": "yil",
-"b": "Guaimario amcasından Capua'yı alıp Amalfi, Sorrento ve Gaeta'yı da boyunduruğa aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Capua",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Guaimario amcası Pandolfo IV'ten Capua'yı alır; ardından Amalfi, Sorrento ve Gaeta'yı da boyunduruk altına alır, İmparator II. Konrad'dan tanınma görür.",
-"kaynak": "Treccani, Salerno https://www.treccani.it/enciclopedia/salerno/ ; Britannica, Rainulf https://www.britannica.com/biography/Rainulf",
-"_neden": "zincir-yok",
-"_yer": "Capua",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1039-01-01",
-"kesinlik": "yil",
-"b": "Salerno Prensi Guaimario Norman paralı askerlerinin desteğiyle Amalfi dükalığını ele geçirir.",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer": "Amalfi",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Salerno Prensi Guaimario Norman paralı askerlerinin desteğiyle Amalfi dükalığını ele geçirir.",
-"kaynak": "Treccani, Amalfi (Enciclopedia Italiana) https://www.treccani.it/enciclopedia/amalfi_(Enciclopedia-Italiana)/",
-"_neden": "yer-yok",
-"_yer": "Amalfi",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1061-01-01",
-"kesinlik": "yil",
-"b": "Kont Roger Messina'yı ele geçirdi (1061)",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Messina",
-"kisiler": "I. Roger",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Roger, 1061'de Messina civarına çıktı ve şehri nispeten kolay ele geçirdi; böylece Sicilya'nın Norman fethi başladı. TDV bu yılı Messina'nın alınışı olarak verir.",
-"kaynak": "TDV İslâm Ansiklopedisi, SİCİLYA (M. H. Şakiroğlu, 2009) https://islamansiklopedisi.org.tr/sicilya : 'I. Ruggero 1061'de Messina'yı, 1071'de Catania'yı ve 1072'de Palermo'yu ... ele geçirdi'; Treccani, Dizionario Biografico degli Italiani, 'Ruggero I, conte di Sicilia e Calabria' (F. P. Tocco) https://www.treccani.it/enciclopedia/ruggero-i-conte-di-sicilia-e-calabria_(Dizionario-Biografico)/ : 'a maggio [1061] ... si impadronì con relativa facilità della città'",
-"ic_not_d": "Kaynak yıl+ay (Mayıs 1061). Atlas Messina zinciri 1072'de başlıyor; kaynak 1061 diyor (çelişki).",
-"_neden": "zincir-yok",
-"_yer": "Messina",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1071-01-01",
-"kesinlik": "yil",
-"b": "Katanya (Catania) Normanların eline geçti (1071)",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Katanya (Catania)",
-"kisiler": "I. Roger",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Bari kuşatması sürerken 1071'de Catania, kentte bir ihanetle Normanların eline geçti; ancak şehir sonra kaybedilip yaklaşık on yıl sonra kalıcı olarak alındı.",
-"kaynak": "TDV İslâm Ansiklopedisi, SİCİLYA (M. H. Şakiroğlu, 2009) https://islamansiklopedisi.org.tr/sicilya : '1071'de Catania'yı (Katâniye) ... ele geçirdi'; Treccani, Dizionario Biografico degli Italiani, 'Ruggero I, conte di Sicilia e Calabria' (F. P. Tocco) https://www.treccani.it/enciclopedia/ruggero-i-conte-di-sicilia-e-calabria_(Dizionario-Biografico)/ : 'Nello stesso anno fu infatti conquistata Catania, forse grazie a un tradimento (fu poi perduta e presa definitivamente dopo dieci anni)'",
-"ic_not_d": "Atlas Katanya zincirinde sahip değişimi 1072-01-01'de; kaynaklar 1071 diyor (çelişki).",
-"_neden": "zincir-yok",
-"_yer": "Katanya (Catania)",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1072-01-01",
-"kesinlik": "yil",
-"b": "Mazara Normanların eline geçti (1072)",
-"tur": "toprak-kazanc",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Mazara del Vallo",
-"kisiler": "I. Roger",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Palermo'nun alındığı 1072'de Mazara da fethedildi; sonraki yıllarda orada kale yapılarak Kuzey Afrika kaynaklı bir saldırıya direnildi (1075).",
-"kaynak": "Treccani, Dizionario Biografico degli Italiani, 'Ruggero I, conte di Sicilia e Calabria' (F. P. Tocco) https://www.treccani.it/enciclopedia/ruggero-i-conte-di-sicilia-e-calabria_(Dizionario-Biografico)/ : 'Sempre nel 1072 ... venne conquistata Mazara'",
-"ic_not_d": "Atlas Mazara zincirinde sahip değişimi 1073-01-01; kaynak 1072 diyor.",
-"_neden": "zincir-yok",
-"_yer": "Mazara del Vallo",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1073-01-01",
-"kesinlik": "yil",
-"b": "Amalfi Salerno baskısına karşı Roberto il Guiscardo'ya başvurur; Normanlar şehri işgal eder ve bağımsızlık...",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer": "Amalfi",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Amalfi Salerno baskısına karşı Roberto il Guiscardo'ya başvurur; Normanlar şehri işgal eder ve bağımsızlık sona erer.",
-"kaynak": "Treccani, Amalfi (Enciclopedia Italiana) https://www.treccani.it/enciclopedia/amalfi_(Enciclopedia-Italiana)/",
-"_neden": "yer-yok",
-"_yer": "Amalfi",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1076-01-01",
-"kesinlik": "yil",
-"b": "Salerno, Robert Guiscard'a düştü; Lombard Salerno Prensliği sona erdi",
-"tur": "toprak-kayip",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Salerno",
-"kisiler": "Robert Guiscard; II. Gisulf",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Uzun direnişin ardından Salerno Aralık 1076'da Robert Guiscard'a teslim oldu; Prens II. Gisulf sürgüne, papalık sarayına çekildi. Guiscard Salerno'yu kendi dükalığının başkenti yaptı.",
-"kaynak": "Treccani, Enciclopedia Italiana, 'Roberto il Guiscardo' https://www.treccani.it/enciclopedia/roberto-guiscardo_(Enciclopedia-Italiana)/ : 'Essa si arrese al Guiscardo dopo eroica resistenza (dicembre 1076)'; Treccani, Enciclopedia Italiana, 'Salerno' https://www.treccani.it/enciclopedia/salerno_(Enciclopedia-Italiana)/ : 'nel dicembre del 1076 ... piegava sotto lo stesso ineluttabile destino'",
-"ic_not_d": "Kaynak yıl+ay verir (Aralık 1076); gün yok. Atlas sınırı 1076-12-13'tür (kaynak onaylamıyor, çelişmiyor); madde tarihi 1076-01-01 (yıl) yazıldığı için ±30 gün şartını sağlamaz.",
-"_neden": "zincir-yok",
-"_yer": "Salerno",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1077-01-01",
-"kesinlik": "yil",
-"b": "Roger donanmasıyla Trapani'yi aldı",
-"tur": "toprak-kazanc",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Trapani",
-"kisiler": "I. Roger",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Bir donanma kuran Roger 1077'de savaş faaliyetini yoğunlaştırdı, Trapani'yi ve ardından Castronovo'yu aldı.",
-"kaynak": "Treccani, Dizionario Biografico degli Italiani, 'Ruggero I, conte di Sicilia e Calabria' (F. P. Tocco) https://www.treccani.it/enciclopedia/ruggero-i-conte-di-sicilia-e-calabria_(Dizionario-Biografico)/ : 'Nel 1077 Ruggero, dotatosi ormai di una flotta, ... conquistando Trapani e, poco dopo, Castronovo'",
-"_neden": "zincir-yok",
-"_yer": "Trapani",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1081-01-01",
-"kesinlik": "yil",
-"b": "Robert Guiscard Valona'ya çıkıp Korfu'yu aldı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Korfu",
-"kisiler": "Robert Guiscard",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "1081'de Guiscard donanmasıyla Valona'ya (Avlonya) yürüdü, Korfu'yu aldı ve 1082'de Draç'ı ele geçirdi; İstanbul yürüyüşü Roma'da Gregorius VII'ye yardıma çağrılması üzerine yarıda kaldı.",
-"kaynak": "Treccani, Enciclopedia Italiana, 'Roberto il Guiscardo' https://www.treccani.it/enciclopedia/roberto-guiscardo_(Enciclopedia-Italiana)/ : 'R. salpò (1081) con la flotta verso Valona, conquistò Corfù e, dopo aver sconfitto Alessio Comneno, occupò (1082) Durazzo'",
-"ic_not_d": "Treccani Guiscardo (devletler.js K 1085-07-17 notu) Korfu'nun 1085'te yeniden Venedik'ten alındığını da belirtir.",
-"_neden": "zincir-yok",
-"_yer": "Korfu",
 "_dosya": "italya-ajan"
 },
 {
@@ -1657,27 +660,6 @@
 "_dosya": "italya-ajan"
 },
 {
-"t": "1086-01-01",
-"kesinlik": "yil",
-"b": "Siraküza (Syracuse) Normanlara düştü",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Sirakuza",
-"kisiler": "I. Roger",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Agrigento'nun Temmuz 1086'da düşmesinin ardından Ekim 1086'da Siraküza Normanların eline geçti; Castrogiovanni 1087'de, Noto 1091'de teslim olacaktı.",
-"kaynak": "Treccani, Dizionario Biografico degli Italiani, 'Ruggero I, conte di Sicilia e Calabria' (F. P. Tocco) https://www.treccani.it/enciclopedia/ruggero-i-conte-di-sicilia-e-calabria_(Dizionario-Biografico)/ : 'Nel luglio del 1086 cadde Agrigento, in ottobre Siracusa; nel 1087 ... capitolò Castrogiovanni'",
-"ic_not_d": "Çelişki: EB1911 Sicily 'In 1085 Syracuse was won' der; Treccani DBI 1086 (Ekim) verir; atlas zinciri 1085-01-01. Yıl hassasiyeti.",
-"_neden": "zincir-yok",
-"_yer": "Sirakuza",
-"_dosya": "italya-ajan"
-},
-{
 "t": "1087-01-01",
 "kesinlik": "yil",
 "b": "Castrogiovanni (Enna) teslim oldu; yerel emir Hristiyanlığa geçti",
@@ -1695,46 +677,6 @@
 "kaynak": "Treccani, Dizionario Biografico degli Italiani, 'Ruggero I, conte di Sicilia e Calabria' (F. P. Tocco) https://www.treccani.it/enciclopedia/ruggero-i-conte-di-sicilia-e-calabria_(Dizionario-Biografico)/ : 'nel 1087 ... capitolò Castrogiovanni, non militarmente ma grazie alla conversione del signore locale'",
 "_neden": "yer-yok",
 "_yer": "Castrogiovanni (Enna)",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1089-01-01",
-"kesinlik": "yil",
-"b": "Dük Ruggero Amalfi'yi yeniden ele geçirir.",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer": "Amalfi",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Dük Ruggero Amalfi'yi yeniden ele geçirir.",
-"kaynak": "Treccani, Amalfi (Enciclopedia Italiana) https://www.treccani.it/enciclopedia/amalfi_(Enciclopedia-Italiana)/",
-"_neden": "yer-yok",
-"_yer": "Amalfi",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1090-01-01",
-"kesinlik": "yil",
-"b": "Malta adası Norman Kontluğu'na bağlandı",
-"tur": "toprak-kazanc",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Malta",
-"kisiler": "I. Roger",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Roger 1090'da Malta adasını da egemenliği altına aldı.",
-"kaynak": "Treccani, Dizionario Biografico degli Italiani, 'Ruggero I, conte di Sicilia e Calabria' (F. P. Tocco) https://www.treccani.it/enciclopedia/ruggero-i-conte-di-sicilia-e-calabria_(Dizionario-Biografico)/ : 'Nel 1090 sottometteva anche l'isola di Malta'",
-"ic_not_d": "Atlas Malta zincirinde sahip değişimi 1090-03-06; kaynak yalnız yıl verir, madde yıl başına (1090-01-01) yazıldı.",
-"_neden": "zincir-yok",
-"_yer": "Malta",
 "_dosya": "italya-ajan"
 },
 {
@@ -1778,25 +720,6 @@
 "_dosya": "italya-ajan"
 },
 {
-"t": "1100-01-01",
-"kesinlik": "yil",
-"b": "Normanlar Marino Sebaste isyanını bastırır.",
-"tur": "toprak-kayip",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer": "Amalfi",
-"etiket": [
-"toprak-kayip",
-"konu-siyasi"
-],
-"d": "Normanlar Marino Sebaste isyanını bastırır.",
-"kaynak": "Treccani, Amalfi (Enciclopedia Italiana) https://www.treccani.it/enciclopedia/amalfi_(Enciclopedia-Italiana)/",
-"_neden": "yer-yok",
-"_yer": "Amalfi",
-"_dosya": "italya-ajan"
-},
-{
 "t": "1101-06-22",
 "kesinlik": "gun",
 "b": "Büyük Kont I. Roger Mileto'da öldü",
@@ -1814,87 +737,6 @@
 "kaynak": "Treccani, Dizionario Biografico degli Italiani, 'Ruggero I, conte di Sicilia e Calabria' (F. P. Tocco) https://www.treccani.it/enciclopedia/ruggero-i-conte-di-sicilia-e-calabria_(Dizionario-Biografico)/ : 'Ruggero morì, per problemi cardiaci, il 22 giugno 1101 a Mileto'; Treccani, Dizionario Biografico degli Italiani, 'Ruggero II, re di Sicilia' https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia_(Dizionario-Biografico)/ : 'deceduto il 22 giugno 1101'",
 "_neden": "yer-yok",
 "_yer": "Mileto",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1103-01-01",
-"kesinlik": "yil",
-"b": "Lund bağımsız başpiskoposluğa yükseltildi (1103/04)",
-"tur": "siyaset",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer": "Lund",
-"etiket": [
-"siyaset",
-"konu-siyasi"
-],
-"d": "Hamburg-Bremen başpiskoposlarından kurtulma çabaları 1103/04'te Lund'un bağımsız bir başpiskoposluk olmasıyla sonuçlandı; İskandinavya'da Trondheim (1152) ve Uppsala (1164) başpiskoposlukları onu izledi.",
-"kaynak": "Lex.dk (Den Store Danske), 'Lund Ærkebispedømme' https://lex.dk/Lund_Ærkebispedømme : 'Løsrivelsesbestræbelserne blev dog først gennemført med ophøjelsen i 1103/04 af Lund til et selvstændigt ærkebispedømme ... ærkesæder fra 1152 i Trondheim og fra 1164 i Uppsala'",
-"ic_not_d": "Kaynak 1103/04 verir (yıl hassasiyeti: 1103).",
-"_neden": "yer-yok",
-"_yer": "Lund",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1128-08-22",
-"kesinlik": "gun",
-"b": "Apulya Dükalığı (Salerno) II. Roger'in elinde Sicilya'ya birleşti",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Salerno",
-"kisiler": "II. Roger",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "22 Ağustos 1128 investitürüyle Salerno'yu da içeren Apulya Dükalığı resmen Sicilya Kontu II. Roger'e geçti.",
-"kaynak": "Treccani, Dizionario Biografico degli Italiani, 'Ruggero II, re di Sicilia' https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia_(Dizionario-Biografico)/ : 'Il 22 agosto 1128 ... Ruggero fu investito del Ducato di Puglia, Calabria e Sicilia'",
-"ic_not_d": "Atlas zincirinde Salerno apulya-dukaligi'nden sicilya-kralligi'na 1128-01-01'de geçiyor; kaynak günü 22 Ağustos 1128.",
-"_neden": "zincir-yok",
-"_yer": "Salerno",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1131-01-01",
-"kesinlik": "yil",
-"b": "Amalfi, II. Roger'in Sicilya Krallığı'na katıldı",
-"tur": "son",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer": "Amalfi",
-"etiket": [
-"siyaset",
-"konu-siyasi"
-],
-"d": "Amalfi, II. Roger'in Sicilya devletine katilir. Treccani ayrıca: 'Nel 1131 Ruggero sottomise rapidamente la ribelle Amalfi, imponendole un presidio militare' (Treccani DBI Ruggero II).",
-"kaynak": "Britannica 'Amalfi' (1131 II. Roger)",
-"_neden": "yer-yok",
-"_yer": "Amalfi",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1136-01-01",
-"kesinlik": "yil",
-"b": "Gaeta Dükalığı Sicilya Krallığı'na katıldı",
-"tur": "son",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Gaeta",
-"kisiler": "II. Roger",
-"etiket": [
-"siyaset",
-"konu-siyasi"
-],
-"d": "Dükalik, önce Norman fethiyle özerkliğini yitirmiş (1032) ve 1136'da II. Roger'in Sicilya Krallığı'na dahil edilmişti.",
-"kaynak": "Treccani, Enciclopedia on line, 'Gaeta' https://www.treccani.it/enciclopedia/gaeta/ : 'Perdette l'autonomia con la conquista normanna (1032). Incorporata nel 1136 nel Regno di Sicilia'",
-"ic_not_d": "Çelişki: devletler.js künyesi ve atlas zinciri Gaeta'nın katılışını 1140 olarak yazıyor (Vikipedi kaynaklı); Treccani 1136 der.",
-"_neden": "zincir-yok",
-"_yer": "Gaeta",
 "_dosya": "italya-ajan"
 },
 {
@@ -1997,26 +839,6 @@
 "_dosya": "italya-ajan"
 },
 {
-"t": "1228-01-01",
-"kesinlik": "yil",
-"b": "Kılıç Kardeşler Tallinn'i aldı (Danimarka'dan)",
-"tur": "toprak-kazanc",
-"onem": 1,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Tallinn (Reval)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Treccani'ye göre Tallinn 1228'de Kılıç Kardeşler Tarikatı'nca alındı ve 1237'de Danimarkalılara geri döndü.",
-"kaynak": "Treccani, Enciclopedia on line, 'Tallinn' : 'Presa nel 1228 dai Cavalieri Portaspada, T. ritornò ai Danesi nel 1237'",
-"ic_not_d": "Atlas zincirinde Tallinn'in Livonya Tarikatı'na geçişi 1227-01-01, Danimarka'ya dönüşü 1238-06-01 (Stensby); Treccani 1228 ve 1237 verir (çelişki).",
-"_neden": "zincir-yok",
-"_yer": "Tallinn (Reval)",
-"_dosya": "italya-ajan"
-},
-{
 "t": "1238-01-01",
 "kesinlik": "yil",
 "b": "Danylo Romanoviç Halych'i ele geçirip Galiçya'yı Volhinya ile yeniden birleştirdi",
@@ -2053,47 +875,6 @@
 "kaynak": "Store norske leksikon, «Gissur Torvaldsson» https://snl.no/Gissur_Torvaldsson — «I 1238 felte Gissur sturlungenes daværende leder Sturla Sigvatsson» ; https://www.medievalists.net/2020/09/medieval-icelandic-commonwealth/",
 "_neden": "yer-yok",
 "_yer": "Örlygsstaðir (Skagafjörður)",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1239-01-01",
-"kesinlik": "yil",
-"b": "Danylo Kiev'i aldı ve voyvoda Dmytro'yu başına bıraktı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Kiev",
-"kisiler": "Danylo Romanoviç; Dmytro",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "1239'da Danylo, daha önce etki alanında olan Kiev'i aldı ve voyvoda Dmytro'yu yönetici atadı; bir yıl sonra Moğollar şehri yıkacaktı.",
-"kaynak": "Encyclopedia of Ukraine, 'Danylo Romanovych' https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CD%5CA%5CDanyloRomanovych.htm : 'The next year [1239] he took Kyiv, which had entered his sphere of influence earlier, and placed Voivode Dmytro in charge of the principality'",
-"_neden": "zincir-yok",
-"_yer": "Kiev",
-"_dosya": "italya-ajan"
-},
-{
-"t": "1240-01-01",
-"kesinlik": "yil",
-"b": "Batu Han Kiev'i alıp yağmaladı; Kiev Rus'u'nun sonu",
-"tur": "son",
-"onem": 3,
-"dunya": 3,
-"kapsam": "dis",
-"yer_id": "Kiev",
-"kisiler": "Batu Han",
-"etiket": [
-"siyaset",
-"konu-siyasi"
-],
-"d": "Aralık 1240'ta Batu Han'ın Moğol-Tatar ordusu Kiev'i ele geçirip nüfusunu kırdı; Kiev, Volodimir ve Halych yıkıldı. Güney Rusya Moğol İmparatorluğu'na katıldı (Altın Orda). Bu olay Kiev Rus'u'nun fiilî sonu sayılır.",
-"kaynak": "Encyclopedia of Ukraine, 'Kyiv' https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CY%5CKyiv.htm : 'In December 1240, it was sacked by the Mongol-Tatar army of Batu Khan, which decimated its population'; TDV İslâm Ansiklopedisi, RUSYA https://islamansiklopedisi.org.tr/rusya : 'Kiyef ele geçirilerek yağmalandı (Aralık 1240)'; Treccani, Enciclopedia on line, 'Russia' https://www.treccani.it/enciclopedia/russia/ : 'nel 1240 raggiunsero Kiev e occuparono tutta la R. meridionale'",
-"ic_not_d": "Kaynaklar ay verir (Aralık 1240), gün vermez (devletler.js künyesinde 6 Aralık 1240 yazılıdır, kaynaksız). Atlas sınırı 1240-12-01.",
-"_neden": "zincir-yok",
-"_yer": "Kiev",
 "_dosya": "italya-ajan"
 },
 {
@@ -2273,64 +1054,6 @@
 "_neden": "zincir-yok",
 "_yer": "Munkács (Mukacheve)",
 "_dosya": "italya-ajan"
-},
-{
-"t": "0969-10-28",
-"kesinlik": "gun",
-"b": "Antakya Bizans’ın eline geçti",
-"tur": "toprak-kazanc",
-"onem": 3,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Antakya",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Bizans orduları Kuzey Suriye’de birçok kale ve şehri aldıktan sonra Kilikya’dan gelen Michael Burtzes ve Petros Phokas Antakya’yı 28 Ekim 969’da ele geçirdi. Şehir yaklaşık 115 yıl boyunca Bizans’ın Suriye’deki ana üssü oldu.",
-"kaynak": "The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. IV: “On 28 October 969 the great city of Antioch fell to Michael Burtzes and the eunuch Peter Phocas”; The Cambridge Medieval History, IV: The Eastern Roman Empire (717-1453), Cambridge 1923, Chronological Table, s. 899-907 (archive.org/details/cambridgemedieva04buryuoft): “969 (28 Oct.) Capture of Antioch”; TDV İslâm Ansiklopedisi, Bizans (Işın Demirkent), https://islamansiklopedisi.org.tr/bizans: “969’da Antakya’yı zaptettiler”",
-"ic_not_d": "Atlas künyesi Antakya’yı 0968-01-01’de Bizans’a verir; üç kaynak da 28 Ekim 969 der. Atlas s: zinciri bu yerleşimin ilgili sahip değişimini 0968-01-01 tarihinde gösterir (madde tarihinden 666 gün fark); madde kaynağa göre yazıldı, atlas düzeltmesi ayrı iştir.",
-"_dosya": "bizans_balkan",
-"_neden": "2t-kirilmasiz"
-},
-{
-"t": "1202-11-15",
-"kesinlik": "gun",
-"b": "Dördüncü Haçlı Seferi Zadar’ı (Zara) aldı ve yağmaladı",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 3,
-"kapsam": "dis",
-"yer_id": "Zadar (Zara)",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Venedik’e olan borçlarını ödeyemeyen Haçlılar, Doge Dandolo’nun önerisiyle borcun ertelenmesi karşılığında Macar kralının birkaç yıl önce ele geçirdiği Dalmaçya limanı Zadar’ı (Zara) aldı; hıristiyan şehri 15 Kasım 1202’de yağmalandı. Bu olay seferin yönünü Konstantinopolis’e çevirecek zincirin ilk halkasıdır.",
-"kaynak": "TDV İslâm Ansiklopedisi, Haçlılar, https://islamansiklopedisi.org.tr/haclilar: “Zara bir hıristiyan şehri olmasına rağmen Haçlılar tarafından 15 Kasım 1202’de ele geçirilip yağmalandı”; The Cambridge Medieval History, IV: The Byzantine Empire, Part I: Byzantium and its Neighbours (2. bs., yay. J. M. Hussey, Cambridge 1966; archive.org/details/cambridgemedieva0004unse_l9b3), ch. VII: “in November the fleet sailed for Zara; and after a fierce assault the city surrendered”",
-"ic_not_d": "Atlas künyesi Zadar’ı 1202-01-01’de Venedik’e verir; kaynaklar Kasım 1202’de Haçlı-Venedik zaptını gösterir. Atlas s: zinciri bu yerleşimin ilgili sahip değişimini 1202-01-01 tarihinde gösterir (madde tarihinden 318 gün fark); madde kaynağa göre yazıldı, atlas düzeltmesi ayrı iştir.",
-"_dosya": "bizans_balkan",
-"_neden": "2t-kirilmasiz"
-},
-{
-"t": "1015-01-01",
-"kesinlik": "yil",
-"b": "Kral II. Robert, on üç yıl süren savaştan sonra Burgonya Dükalığı'nı Fransa tacına katar",
-"tur": "toprak-kazanc",
-"onem": 2,
-"dunya": 2,
-"kapsam": "dis",
-"yer_id": "Dijon",
-"kisiler": "II. Robert; Otto-William",
-"etiket": [
-"toprak-kazanc",
-"konu-siyasi"
-],
-"d": "Dük Henry'nin 1002'deki ölümünden sonra Burgonya Dükalığı için savaş çıktı; Fransa kralı II. Robert, Burgonya kontu Otto-William'ın direnişine rağmen on üç yıl süren savaşın sonunda 1015'te dükalığı krallığa kattı ve oğlu Henry'ye (sonradan I. Henri) verdi.",
-"kaynak": "1911 Encyclopædia Britannica (11. baskı), «Burgundy», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Burgundy : in 1015, after a war which lasted thirteen years, the French king Robert II. reunited the duchy to his kingdom",
-"ic_not_d": "Gün yok. 1911 Britannica Dijon'u anmaz; Dijon, dükalığın merkezi olduğu için (atlas devletler.js burgonya künyesi baskent Dijon) bu kırılmaya bağlıdır — atlas Dijon'u 1015-01-01'de __BOSLUK__'tan fransa'ya geçirir.",
-"_dosya": "bati_avrupa",
-"_neden": "2t-kirilmasiz"
 },
 {
 "t": "0698-01-01",
