@@ -22,6 +22,7 @@ GAZ = "C:/atlas-veri/gazetteer"
 BIL = os.path.join(KL, "ONEMLI-BILESEN-1023.json")
 ONB = os.path.join(KL, "TGN-ONBELLEK-1023.json")
 KOMUT = sys.argv[1]
+YENIDEN = "--yeniden" in sys.argv      # tgn: 25 sınırına takılan sorguları 300 ile yenile
 BOLGE = set(",".join(a.split("=", 1)[1] for a in sys.argv if a.startswith("--bolge=")).split(",")) - {""}
 
 # kaynakta şehir adı olmadığını söyleyen ifadeler (bileşen yer adı değildir)
@@ -64,6 +65,18 @@ def atlas_indeks():
                 if len(n) >= 3:
                     idx.setdefault(n, []).append((y["ad"], y["lat"], y["lon"]))
     return Y, idx
+
+
+def genis(b, k):
+    """bileşen adları + model eşanlamları (ONEMLI-MODEL-ALIAS-1023.json; yalnız arama terimi)."""
+    _ma = json.load(open(os.path.join(KL, "ONEMLI-MODEL-ALIAS-1023.json"), encoding="utf-8"))["tablo"]
+    out = list(b["adlar"])
+    for a in b["adlar"]:
+        m = _ma.get(a)
+        if m and (not m.get("bolge") or m["bolge"] == k["bolge"]):
+            out += m.get("alias", [])
+            break
+    return list(dict.fromkeys(out))
 
 
 def tsv_satirlari():
@@ -132,8 +145,8 @@ elif KOMUT == "tgn":
         for b in k["bilesen"]:
             if b.get("bos"):
                 continue          # atlasta eşleşenler de sorgulanır: eşanlam çarpışmasını (Pella/Fihl) mesafeyle sınamak için
-            for a in b["adlar"]:
-                if a not in onb and a not in istek:
+            for a in genis(b, k):
+                if (a not in onb or (YENIDEN and len(onb[a]) >= 25)) and a not in istek:
                     istek.append(a)
     print("TGN sorgusu:", len(istek))
     def cek(a):
@@ -144,7 +157,7 @@ elif KOMUT == "tgn":
         q = ('select ?p ?n ?lat ?lon ?t ?par (group_concat(distinct ?al; separator="|") as ?als) ?sn where { ?p skos:inScheme tgn: ; luc:term "%s"; '
              'gvp:prefLabelGVP/xl:literalForm ?n; gvp:parentString ?par . optional{?p foaf:focus ?f . ?f wgs:lat ?lat; wgs:long ?lon .} '
              'optional {?p gvp:placeTypePreferred/gvp:prefLabelGVP/xl:literalForm ?t} optional{?p xl:altLabel/xl:literalForm ?al} '
-             'optional{?p skos:scopeNote/rdf:value ?sn} } group by ?p ?n ?lat ?lon ?t ?par ?sn limit 25') % terim
+             'optional{?p skos:scopeNote/rdf:value ?sn} } group by ?p ?n ?lat ?lon ?t ?par ?sn limit %d') % (terim, 300 if YENIDEN else 25)
         url = "http://vocab.getty.edu/sparql.json?" + urllib.parse.urlencode({"query": q})
         sonuc = None
         for deneme in range(3):
@@ -174,7 +187,7 @@ elif KOMUT == "idai":
     IDB = os.path.join(KL, "IDAI-ONBELLEK-1023.json")
     kayit = json.load(open(BIL, encoding="utf-8"))
     onb = json.load(open(IDB, encoding="utf-8")) if os.path.exists(IDB) else {}
-    istek = list(dict.fromkeys(a for k in kayit for b in k["bilesen"] if not b.get("bos") for a in b["adlar"] if a not in onb))
+    istek = list(dict.fromkeys(a for k in kayit for b in k["bilesen"] if not b.get("bos") for a in genis(b, k) if a not in onb))
     print("iDAI sorgusu:", len(istek), flush=True)
 
     def cek(a):
@@ -212,7 +225,7 @@ elif KOMUT == "chgis":
     kayit = json.load(open(BIL, encoding="utf-8"))
     onb = json.load(open(CHB, encoding="utf-8")) if os.path.exists(CHB) else {}
     BL = BOLGE or {"dogu-asya", "orta-asya", "sibirya-bozkir", "guneydogu-asya"}
-    istek = list(dict.fromkeys(a for k in kayit if k["bolge"] in BL for b in k["bilesen"] if not b.get("bos") for a in b["adlar"] if a not in onb and re.match(r"^[A-Za-z' -]+$", a)))
+    istek = list(dict.fromkeys(a for k in kayit if k["bolge"] in BL for b in k["bilesen"] if not b.get("bos") for a in genis(b, k) if a not in onb and re.match(r"^[A-Za-z' -]+$", a)))
     print("CHGIS sorgusu:", len(istek), flush=True)
 
     def cek(a):
@@ -270,8 +283,19 @@ elif KOMUT == "esle":
         ("Arvad", "suriye-filistin"): "Arvad adası kara maskesinde yok (3.8 km); önerilen nokta ana karaya (Tartus) düşüyor — taşınmadı",
         ("Suyab", "orta-asya"): "atlas Suyab/Ak-Beşim'i «Balasagun (Ak-Beşim)» yerleşimiyle temsil ediyor (~6 km; kronoloji maddeleri o ada bağlı) — mükerrer yazılmadı",
         ("Addis Ababa", "dogu-afrika"): "atlasta «Addis» yerleşimi 5.8 km'de — aynı şehir, mükerrer yazılmadı",
+        ("Kalkis", "suriye-filistin"): "Chalcis ad Libanum'un Anjar'la özdeşliği tartışmalı (TSV dizesi de '?' taşıyor); teyit edilmedi",
+        ("Kastro", "balkanlar"): "Limni adasının merkezi (Kastro/Myrina) atlasta «Limni» yerleşimiyle temsil ediliyor olabilir (8.5 km) — mükerrer riski, yazılmadı",
         ("Zhenzhou", "dogu-asya"): "Zhenzhou adı birden çok idarî merkezde (Zhending/Hebei, Yizheng/Jiangsu); hangisi olduğu teyit edilmedi",
     }
+
+    MA = json.load(open(os.path.join(KL, "ONEMLI-MODEL-ALIAS-1023.json"), encoding="utf-8"))["tablo"]
+
+    def model_alias(adl, bolge):
+        for a in adl:
+            m = MA.get(a)
+            if m and (not m.get("bolge") or m["bolge"] == bolge):
+                return m
+        return None
 
     def kutuda(bolge, la, lo):
         if bolge == "okyanusya":
@@ -376,8 +400,12 @@ elif KOMUT == "esle":
             continue
         for b in bs:
             adl = b["adlar"]
-            nset = {N(a) for a in adl}
             bolge = k["bolge"]
+            ma = model_alias(adl, bolge)
+            ip = tuple(ma["ipucu"]) if ma and ma.get("ipucu") else None
+            if ma:
+                adl = list(dict.fromkeys(adl + ma.get("alias", [])))
+            nset = {N(a) for a in adl}
             cands = []
             for t in tgn_aday(adl, bolge):
                 cands.append({"src": "Getty TGN", "ref": "%s (%s)" % (t["tgn"], t["n"]), "lat": t["lat"], "lon": t["lon"], "tip": t["tip"] or "", "n": t["n"],
@@ -403,6 +431,9 @@ elif KOMUT == "esle":
                     cands.append({"src": "iDAI.gazetteer", "ref": "gazetteer.dainst.org/place/%s (%s, %s)" % (r["id"], r["n"], r["tip"] or "-"), "lat": r["lat"], "lon": r["lon"],
                                   "tip": r["tip"] or "", "n": r["n"], "harabe": "archaeolog" in (r["tip"] or ""), "kesin": True})
             gn = [g for a in adl for g in gidx.get(N(a), ()) if kutuda(bolge, g["lat"], g["lon"])]
+            if ip:       # model ipucu: yalnız ≤40 km'deki gazetteer kayıtları aday kalır (ipucu tanık değildir)
+                cands = [c for c in cands if km(ip, (c["lat"], c["lon"])) <= 40]
+                gn = [g for g in gn if km(ip, (g["lat"], g["lon"])) <= 40]
             # CHGIS (Harvard-Fudan tarihî Çin gazetteer'i): idarî merkez kayıtları (köy/kasaba hariç, başlangıç ≤1281) Çin homonimlerini ayırır
             ch = []
             for a in adl:
@@ -435,7 +466,7 @@ elif KOMUT == "esle":
                 else:
                     ozet["atlasta-var" + ("" if noktalar else "-sinanmadi")] += 1
                     continue
-            secim_notu = ""
+            secim_notu = " MODEL İPUCU: aynı adlı gazetteer kayıtları arasından ipucuna ≤40 km olan seçildi (ONEMLI-MODEL-ALIAS-1023.json; ipucu tanık değildir, koordinat tanıktan)." if ip else ""
             if len(hk) > 1:      # aranan yer tarihî başkenttir: yalnız BİR küme tarihî/başkent işaretliyse (harabe türü ya da TGN notunda 'capital') o seçilir
                 tarihi = [h for h in hk if any(c.get("harabe") or re.search(r"\bcapital\b", c.get("sn") or "", re.I) or re.search(r"capital", c.get("tip") or "", re.I) for c in h)]
                 if len(tarihi) == 1:
@@ -459,6 +490,7 @@ elif KOMUT == "esle":
                     tg = tan.get("Getty TGN")
                     tn = tarih_notu(tg["sn"]) if tg else ""
                     modern = (tan.get("GeoNames") or {}).get("n") or (tg or {}).get("n") or ""
+                    modern = {"Taxila Railway Station": "Taxila", "Sybaris": "Thurii", "Qal‘at al ‘Ajāj": "Qal'at al-Bahrain"}.get(modern, modern)      # gazetteer kayıt adı yer adı değil
                     ulke = (tan.get("GeoNames") or {}).get("ulke") or ((tg["par"].split(",")[-3].strip()) if tg and tg["par"].count(",") >= 2 else "")
                     harabe = any(c.get("harabe") for c in tan.values())
                     not_ = "ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): %s başkenti (devletler: %s; TSV yer dizesi '%s'). Tanık kaynaklar: %s.%s %s" % (

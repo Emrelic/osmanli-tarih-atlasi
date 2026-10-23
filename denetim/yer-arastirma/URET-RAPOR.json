@@ -658,14 +658,50 @@
    "neden": "3km"
   },
   {
+   "ad": "Ras",
+   "atlas": "Ras",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
    "ad": "Pyeongyang",
    "atlas": "Pyongyang",
    "km": 10.9,
    "neden": "ad"
   },
   {
+   "ad": "Taksila",
+   "atlas": "Taksila",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Thourioi",
+   "atlas": "Sybaris",
+   "km": 0.3,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Artaksata",
+   "atlas": "Artaksata",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Volubilis",
+   "atlas": "Velîlâ",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
    "ad": "Abydos",
    "atlas": "Abydos",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Marienburg",
+   "atlas": "Marienburg",
    "km": 0.0,
    "neden": "parti-3km"
   },
@@ -1176,21 +1212,21 @@
  ],
  "yazilmadi": {
   "yok": 794,
-  "belirsiz": 235,
-  "tek_tanik": 630,
+  "belirsiz": 196,
+  "tek_tanik": 603,
   "dogal": 10,
   "bolge": 43,
-  "bulunamadi": 157,
+  "bulunamadi": 111,
   "cozulemedi": 743,
-  "atlasta_yakin": 49,
-  "model_red": 18,
+  "atlasta_yakin": 90,
+  "model_red": 20,
   "tek_kaynak": 55,
   "celiski": 20,
   "ikinci_tanik_yok": 18,
   "bolge_adi": 55,
   "?": 87
  },
- "yazilan": 302,
+ "yazilan": 360,
  "haric": [
   {
    "ad": "Lade",
