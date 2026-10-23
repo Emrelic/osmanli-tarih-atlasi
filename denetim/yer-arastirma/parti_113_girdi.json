@@ -1,0 +1,366 @@
+{
+ "sinif": "ortacag",
+ "adlar": [
+  {
+   "ad": "Xizhou / Jiaohe (Gaochang çevresi)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: tang"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Baihai / Heyuan (Songtsen-Wencheng buluşması)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: tibet-imparatorlugu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Dan-no-ura (Akamagaseki)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: jp1185a"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Mahendraparvata (Phnom Kulen)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: angkor-kmer"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Cổ Loa",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: ngo-hanedani"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Tumapel (Singhasari) / Daha (Kadiri)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: kediri-singhasari"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Chaiya (Grahi)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: srivijaya/tambralinga"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Ilicheon (Ilsan-gun)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: goryeo/hubaekje"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Cheolju / Hamsin-jin (Uiju yöresi)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: goryeo"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Dan-no-ura (Akamagaseki/Shimonoseki)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: taira-rejimi"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Mutsu / Dewa",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: oshu-fujiwara"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Batı Türkistan (Akhun sınırı / Mâverâünnehir)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: bozkır (Göktürk/Uygur/Hazar/Karluk/Peçenek/Kıpçak/Moğol)"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Büyük Bulgaristan (Azak-Kuban bozkırı)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: bozkır (Göktürk/Uygur/Hazar/Karluk/Peçenek/Kıpçak/Moğol)"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Kara-ordu (Balasagun yakını)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: bozkır (Göktürk/Uygur/Hazar/Karluk/Peçenek/Kıpçak/Moğol)"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "İdil-Yayık arası",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: bozkır (Göktürk/Uygur/Hazar/Karluk/Peçenek/Kıpçak/Moğol)"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Etelköz (Don-Tuna bozkırı)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: bozkır (Göktürk/Uygur/Hazar/Karluk/Peçenek/Kıpçak/Moğol)"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Kalka (Kalka ırmağı)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: bozkır (Göktürk/Uygur/Hazar/Karluk/Peçenek/Kıpçak/Moğol)"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Burhan Haldun",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: bozkır (Göktürk/Uygur/Hazar/Karluk/Peçenek/Kıpçak/Moğol)"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Don-Donets havzası",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: bozkır (Göktürk/Uygur/Hazar/Karluk/Peçenek/Kıpçak/Moğol)"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  }
+ ]
+}

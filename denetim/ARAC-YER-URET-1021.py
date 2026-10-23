@@ -108,6 +108,8 @@ def jstr(s):
     return json.dumps(s, ensure_ascii=False)
 
 DATA = "--data" in sys.argv
+if DATA and "--zorla" not in sys.argv:
+    sys.exit("DURDUR: --data data/yerlesimler_once1281_yt_*.js dosyalarını SIFIRDAN yeniden yazar. 23 Ekim 2026'dan beri YER-2 oturumu bu dosyalara elle/başka betikle 152+ kayıt ekledi (commit 0a85bfccc, 5d42b9dd1); yeniden üretim onları SİLER. Yalnız bu üretecin kayıtları için, mevcut dosyaları yedekledikten sonra --zorla ile çalıştır.")
 MASKE_DUZELT = {"Tibet": (33.3614, 90.3119), "Trogir": (43.5092, 16.2530),
                 "Mozia": (37.8656, 12.4748), "Amalfi": (40.6363, 14.5980), "Gubla": (34.1198, 35.6481)}      # YER-2 23 Eki: ≤0.7 km kıyı düzeltmesi
 EPOK = "1281-01-01"
