@@ -422,7 +422,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
-  "t": "0757-01-01",
+  "t": "0757-12-03",
   "devlet": "an-lushan-yan",
   "taraflar": [
    "tang",
@@ -441,10 +441,10 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "dogu-500-1281"
   ],
   "d": "Guangping Prensi Li Chu komutasındaki Tang–Uygur ordusu Shaanxian’da (Shaanzhou) isyancıları yenip Luoyang’a girdi; An Qingxu Hebei’ye kaçtı. Luoyang geçici olarak Tang’a döndü. (Luoyang sahibi an-lushan-yan → tang) ‖ Luoyang yerleşiminin s: zincirinde sahip an-lushan-yan iken 0757-01-01 itibarıyla Tang oldu (kuyrukcin yama dilimi). Ayrıntı ve kaynak aşağıdadır.",
-  "kaynak": "Jiu Tang shu, juan 10 «Suzong ji» (zh.wikisource.org/wiki/舊唐書/卷10; okundu): «庚申，安慶緒與其黨奔河北。壬戌，廣平王入東京，…» ‖ Jiu Tang shu, juan 10 «Suzong ji» (zh.wikisource.org/wiki/舊唐書/卷10): 「庚申，安慶緒與其黨奔河北。壬戌，廣平王入東京，…」 (Luoyang Tang'a döndü; gün/ay yok: YYYY-01-01 kuralı) ‖ BİTİŞ: Jiu Tang shu, juan 200 shang «Shi Siming»: 「九月，寇汴州，…又陷洛陽，與太尉光弼相拒。」 (759-09-26). BÖLÜNEN Tang dilimi (cin2 an-lushan-yan 756-01-18→757-01-01 ve 759-09-26→762-11-20 arasındaki aralık).",
-  "gun": "757 (Zhide 2) — ay/gün yok (Jiu Tang shu 10: 壬戌, ay bu çalışmada tabloya oturmadı)",
-  "kesinlik": "yil",
-  "ic_not": "Yıl 757 (Zhide 2); ay/gün: 壬戌 günü Jülyen 757-10-04 ya da 757-12-03’e düşer (hesap ay numaralandırması Tang takvimiyle ±1 ay uyuşmadı); YYYY-01-01 kuralı (yil hassasiyeti).",
+  "kaynak": "Jiu Tang shu, juan 10 «Suzong ji» (zh.wikisource.org/wiki/舊唐書/卷10; okundu): «庚申，安慶緒與其黨奔河北。壬戌，廣平王入東京，…» ‖ Jiu Tang shu, juan 10 «Suzong ji» (zh.wikisource.org/wiki/舊唐書/卷10): 「庚申，安慶緒與其黨奔河北。壬戌，廣平王入東京，…」 (Luoyang Tang'a döndü; gün/ay yok: YYYY-01-01 kuralı) ‖ BİTİŞ: Jiu Tang shu, juan 200 shang «Shi Siming»: 「九月，寇汴州，…又陷洛陽，與太尉光弼相拒。」 (759-09-26). BÖLÜNEN Tang dilimi (cin2 an-lushan-yan 756-01-18→757-01-01 ve 759-09-26→762-11-20 arasındaki aralık). ‖ GÜN: Jiu Tang shu, juan 10 (zh.wikisource.org/wiki/舊唐書/卷10, 23.10.2026 okundu): 至德二載「冬十月乙巳朔」…「壬戌，廣平王入東京，陳兵天津橋南」",
+  "gun": "3 Aralık 757 (Jülyen; Zhide 2, 10. ay 18. gün, 壬戌)",
+  "kesinlik": "gun",
+  "ic_not": "Yıl 757 (Zhide 2); ay/gün: 壬戌 günü Jülyen 757-10-04 ya da 757-12-03’e düşer (hesap ay numaralandırması Tang takvimiyle ±1 ay uyuşmadı); YYYY-01-01 kuralı (yil hassasiyeti). ‖ SINIR-GUN-1023: t 0757-01-01 → 0757-12-03. Takvim: Jiu Tang shu ayı açıkça verir (冬十月乙巳朔); 壬戌 o ayın 18. günü = Jülyen 757-12-03 (JDN gün-ganzhi; 10. ay 小雪'yi taşımalı ⇒ ay başı 757-11-16, 757-09-17 değil). Önceki ic_not'taki ±1 ay belirsizliği bu ay başlığıyla kapandı; tabloyla çapraz kontrol yapılamadı.",
   "sinir_id": []
  },
  {
@@ -5915,7 +5915,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "kesinlik": "yil"
  },
  {
-  "t": "0999-01-01",
+  "t": "0999-05-16",
   "devlet": "gazneli",
   "taraflar": [
    "gazneli",
@@ -5934,10 +5934,10 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "dogu-500-1281"
   ],
   "d": "Sâmânîler Gazneli ordusuna yenilince (389/999) Horasan topraklarını kaybetti; Mahmud Horasan'da iktidarını sağlamlaştırdı.",
-  "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu)",
-  "gun": "yıl",
-  "kesinlik": "yil",
-  "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı.",
+  "kaynak": "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler («Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999). Bu yenilgi sonrasında Sâmânîler, Horasan topraklarını kaybettiler.») (bu oturumda okundu) | TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler («Mahmud, Horasan’da iktidarını sağlamlaştırdıktan sonra Sâmânî Devleti’nin sınır bölgeleri olan Sîstan, Cûzcân, Çagāniyân, Huttel ve Hârizm’i kendi kontrolü altına aldı.») (bu oturumda okundu) ‖ GÜN: TDV İslâm Ansiklopedisi, «Mahmûd-ı Gaznevî» md., https://islamansiklopedisi.org.tr/mahmud-i-gaznevi (23.10.2026 okundu): «Mahmud bu zafer sonunda Horasan'ı ele geçirdi» … «(27 Cemâziyelevvel 389 / 16 Mayıs 999)»",
+  "gun": "16 Mayıs 999 (27 Cemâziyelevvel 389)",
+  "kesinlik": "gun",
+  "ic_not": "BEYANLI YAKLAŞIKLIK: TDV «389/999'da Sâmânîler Horasan topraklarını kaybetti» der; şehir-düzeyi gün yok. 389 H (0998-12-23..) ∩ 999 kesişiminin ilk günü 0999-01-01. Yıl hassasiyeti. Not: Mahmud 995'ten beri Sâmânî adına Horasan orduları kumandanıydı (Gazneliler md.); egemenlik devri 999'da alındı. ‖ SINIR-GUN-1023: t 0999-01-01 → 0999-05-16: TDV Mahmûd-ı Gaznevî hicrî ve mîlâdî günü birlikte verir (çeviri yapılmadı). Gün Horasan'ın devrinindir; şehir-düzeyi gün yok.",
   "sinir_id": []
  },
  {
