@@ -2,6 +2,172 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_K3 = [
  {
+  "id": "a-coruna-es",
+  "ad": "A Coruña",
+  "atlas_ad": "A Coruña",
+  "lat": 43.371,
+  "lon": -8.396,
+  "kat1900": 3,
+  "adlar": [
+   "Brigantium (Flavium Brigantium) — eşleşme 'forse' (Treccani)",
+   "Crunia",
+   "La Coruña",
+   "A Coruña"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "MS 2. yüzyıl",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Latorre González-Moro, P. & Cámara Muñoz, L. (1993), 'La restauración de la Torre de Hércules de La Coruña (Galicia-España)', Informes de la Construcción 45(427), https://doi.org/10.3989/ic.1993.v45.i427.1176 (OpenAlex özeti)",
+   "tanik": "un faro construido por los romanos entre los siglos I y II d. C.",
+   "ic_not": "Arkeolojik güvenli uç: Roma deniz feneri (Torre de Hércules, şehre ≈2 km) 'entre los siglos I y II d. C.' → aralığın son ucu MS 2. yüzyıl sonu (0200). Aynı yazarların İngilizce/e_Buah özeti 'construido probablemente al final del siglo I d.C.' der (≈100) — daha erken olasılık. Eşleşme: Treccani La Coruña 'è forse l'antica Brigantium; certo il faro odierno riposa su fondamenta romane'; Princeton Encyclopedia indeksi 'LA CORUÑA , see BRIGANTIUM' (Perseus); Orosius (Historiae adversus paganos 1.2.71) 'Brigantia Gallaeciae ciuitas ... altissimam pharum' yazılı tanık ama tarihi bu oturumda kaynakla bağlanamadı (≈417-418), o yüzden 'arkeolojik' alındı. Treccani: 'Popolata sin da tempi antichissimi, prima dai Celti armoricani, poi dai Fenici' (tarihsiz)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Latorre González-Moro, P. & Cámara Muñoz, L. (1993), 'La restauración de la Torre de Hércules de La Coruña (Galicia-España)', Informes de la Construcción 45(427), https://doi.org/10.3989/ic.1993.v45.i427.1176 (OpenAlex özeti); Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana, 'CORUÑA, La', https://www.treccani.it/enciclopedia/la-coruna_(Enciclopedia-Italiana)/",
+    "tanik": "passò sotto il dominio romano",
+    "ic_not": "Treccani: 'passò sotto il dominio romano'. Roma yönetimi başlangıcı Coruña için tarihlenemedi; ilk tarihli iz fenerin güvenli ucudur (0200)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0411-01-01",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "ic_not": "t: Treccani Spagna 'intorno al 411, gl'invasori così si ripartirono il paese: gli Svevi e i Vandali Asdingi presero dimora nella Galizia'. Isidorus (Historia Suevorum, Era CDXLVII) Svevlerin Galiçya'ya girişini 409 verir (Era−38)."
+   },
+   {
+    "f": "0411-01-01",
+    "t": "0584-01-01",
+    "d": "suev",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/; Isidorus Hispalensis, Historia Gothorum/Vandalorum/Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "tanik": "la distruzione della monarchia degli Svevi (584) al tempo di Leovigildo",
+    "ic_not": "Isidorus: 'Gallaeciam soli Suevi sortiti sunt' (Hermericus). Svev künyesi 409-585. t: Treccani Spagna 'distruzione della monarchia degli Svevi (584)' ↔ Treccani Braga/Isidorus 585 (künye 0585-01-01)."
+   },
+   {
+    "f": "0584-01-01",
+    "t": "0711-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "la distruzione della monarchia degli Svevi (584) al tempo di Leovigildo",
+    "ic_not": "Leovigildo Svev krallığını yıkar; Galiçya Vizigot krallığına katılır."
+   },
+   {
+    "f": "0711-01-01",
+    "t": "0909-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'CORUÑA, La', https://www.treccani.it/enciclopedia/la-coruna_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ispanya",
+    "tanik": "malcontenti per aver avuto nella spartizione dei territorî le regioni più povere (Galizia, Asturie, León)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Müslüman fethi sonrası taksimde Berberîler 'le regioni più povere (Galizia, Asturie, León)' aldı ve 753 kıtlığından sonra güneye toplu göç etti (Treccani Spagna: 'lasciandosi dietro il deserto'); Treccani La Coruña 'Attaccata, nell'alto Medioevo, da Normanni e da Arabi, trasportata più all'interno' (tarihsiz). Asturias 718'de kuruldu, Galiçya TDV'ye göre III. Alfonso (866-909) döneminde alındı. Şehir adına sahip yazılmadı."
+   },
+   {
+    "f": "0909-01-01",
+    "t": "0925-01-01",
+    "d": "asturias",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ispanya",
+    "tanik": "III. Alfonso zamanında (866-909) Galicia (Cillîkıye) ve Leon (Liyûn) ele geçirildi",
+    "ic_not": "f EN GEÇ TANIKTAN: TDV İspanya 'III. Alfonso zamanında (866-909) Galicia (Cillîkıye) ve Leon (Liyûn) ele geçirildi' — aralığın son ucu 909 (güvenli uç). t: TDV 'idarî merkezin Leon’a nakliyle 925’te Leon Krallığı kuruldu'. Asturias künyesi 0910-01-01'de biter (16 yıl uzatma, hayalet uyarısı; künye GENİŞLET ya da 925 TDV ↔ künye 910 çelişkisi düzeltilmeli)."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "1230-09-23",
+    "d": "leon-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ispanya; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "925’te Leon Krallığı kuruldu",
+    "ic_not": "Coruña'ya özgü León dönemi tanığı bulunamadı; Galiçya TDV'ye göre Asturias-León'a katıldı (866-909) ve León krallığı 925'te kuruldu. t: 1230 Alfonso IX'un ölümü, Fernando III León tacını alır (Treccani Spagna)."
+   },
+   {
+    "f": "1230-09-23",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León",
+    "ic_not": "Künye geçişi (León → Kastilya-León). Atlas A Coruña 1281 Kastilya ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0200-01-01",
+    "gun": "MS 2. yüzyıl",
+    "k": "mimari",
+    "b": "Brigantium Roma deniz feneri (Torre de Hércules) ≤ MS 2. yüzyıl sonunda mevcut.",
+    "kaynak": "Latorre González-Moro, P. & Cámara Muñoz, L. (1993), 'La restauración de la Torre de Hércules de La Coruña (Galicia-España)', Informes de la Construcción 45(427), https://doi.org/10.3989/ic.1993.v45.i427.1176 (OpenAlex özeti)",
+    "tanik": "un faro construido por los romanos entre los siglos I y II d. C."
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk Arcadius/Honorius arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0411-01-01",
+    "gun": "≈411",
+    "k": "fetih",
+    "b": "Svevler ve Vandal Asdingi Galiçya'ya yerleşir.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "gli Svevi e i Vandali Asdingi presero dimora nella Galizia"
+   },
+   {
+    "t": "0584-01-01",
+    "gun": "584",
+    "k": "fetih",
+    "b": "Leovigildo Svev monarşisini yıkar.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "la distruzione della monarchia degli Svevi (584) al tempo di Leovigildo"
+   },
+   {
+    "t": "0711-01-01",
+    "gun": "711",
+    "k": "fetih",
+    "b": "Müslüman fethi: Endülüs fethi ve valiler dönemi başlar (711-755); Galiçya Berberîlere pay edilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Fetih ve Valiler Dönemi (711-755)"
+   },
+   {
+    "t": "0909-01-01",
+    "gun": "866-909",
+    "k": "fetih",
+    "b": "III. Alfonso Galiçya ve León'u ele geçirir (Asturias Krallığı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ispanya",
+    "tanik": "III. Alfonso zamanında (866-909) Galicia (Cillîkıye) ve Leon (Liyûn) ele geçirildi"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "kurulus",
+    "b": "İdarî merkez León'a taşınır, León Krallığı kurulur (TDV; künye 910).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ispanya",
+    "tanik": "925’te Leon Krallığı kuruldu"
+   },
+   {
+    "t": "1230-09-23",
+    "gun": "1230",
+    "k": "taht",
+    "b": "Alfonso IX ölür; III. Fernando León tacını da alır (künye geçişi).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León"
+   }
+  ],
+  "ic_not": "A Coruña'nın kaynaklı yazılı tarihi tek akademik ark (Roma feneri) güvenli ucundan başlıyor; kuruluş/şehir adı eşleşmesi (Brigantium) 'forse' (Treccani) + Princeton indeksi. Ortaçağ: Coruña'ya özgü kaynak bulunamadı (TDV'de ayrı madde yok; Treccani La Coruña tarihsiz; Dialnet fuero özetleri boş). 1208 Alfonso IX fuero/puebla tarihi doğrulanmadı (Dialnet özetleri: 'Fuero de La Coruña' adı var, tarih yok). 711-909 BOŞLUK. Künye notları: asturias 909-925 künye dışı (910); leon-kralligi künyesi 910 ↔ TDV 925. Atlas düzeltmesi gerekmiyor (1281 Kastilya uyumlu; Kastilya'ya geçiş 1230). Çift teyit YOK."
+ },
+ {
   "id": "aachen-de",
   "ad": "Aachen",
   "atlas_ad": "Aachen",
@@ -1378,6 +1544,165 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Çift teyit YOK. İlk anılış: Tacitus Germ. 41 Augusta Vindelicum'u ADIYLA anmaz ('splendidissima Raetiae provinciae colonia'); RE (Ihm, 1896) 'wohl nicht anders als auf Aug. Vind. bezogen' der. Adın kendisi Ptolemaios (II 12,3) ile yazılıdır (MS ~150) — daha geç. Roma kampı MÖ 15 (Drusus; Treccani + Vikipedi DE) arkeolojik/geleneksel kuruluş tarihidir; Tacitus (98) yazılı tanık olduğundan ilk=98 alındı → MÖ 15-MS 98 arası Roma dönemi zincire girmedi (AYRI KAYIT GEREKMEZ, aynı yer). Roma sonu çelişkisi: Vikipedi DE ~450, Treccani ~500 Alaman işgali, künye 476 — ikisi de beyan edildi. 740 Frank ilhakı Treccani'de 'ca.' — olay yazılmadı (zincirde 536'dan beri frank). 843 sonrası Doğu Francia atamasının kanıtı yok (çıkarım). Atlas başlangıcı 1281 almanya ile uyumlu. 'Reichsstadt 1276' atlas sahibini değiştirmez (nominal almanya)."
  },
  {
+  "id": "badajoz-es",
+  "ad": "Badajoz",
+  "atlas_ad": "Badajoz",
+  "lat": 38.879,
+  "lon": -6.97,
+  "kat1900": 3,
+  "adlar": [
+   "(Pax Augusta / Butoa — TDV; kabul edilmez)",
+   "Batalyevs (Baṭalyaws)",
+   "Badajoz"
+  ],
+  "ilk": {
+   "t": "0875-01-01",
+   "gun": "261 H / 875",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mervaniler--endulus (Mervânîler)",
+   "tanik": "ortaya çıktı (261/875)",
+   "ic_not": "İlk anılış alt sınırdır, kuruluş DEĞİL: TDV Mervânîler 'küçük bir yerleşim merkezi olan Batalyevs’te (Badajoz) ikamete mecbur edildi' (Abdurrahman el-Cillîkī, 261/875) → yerleşim 875'te zaten var; TDV Batalyevs: 'Batalyevs isminin müslümanlar tarafından kullanılışı ... ortaya çıktı (261/875)', 'Cillîkī zamanında şehir haline gelecek şekilde yeniden imar edildi; etrafı surlarla çevrildi'. Hicrî 261 ∩ 875 = 875-01-01 (kesişimin ilk günü; 261 H 874-10-16 başlar). TDV 'Romalılar zamanında Pax Augusta veya Butoa adlı bir köy' ve Treccani 'poco verosimilmente ... colonia romana Pax Augusta' — Pax Augusta eşleşmesi iki kaynakta da şüpheli/kaynaksız, Badajoz'a bağlanmadı; Treccani 'Senza importanza nelle epoche romana e visigota'. İki TDV maddesi aynı yılı verir (bağımsız çift teyit DEĞİL, aynı yayıncı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0875-01-01",
+    "t": "0930-02-03",
+    "d": "mervaniler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mervaniler--endulus; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs",
+    "tanik": "Endülüs Emevî Halifesi III. Abdurrahman 317’de (929) Batalyevs’i kuşattı ve ertesi yıl şehri ele geçirdi",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'mervaniler' (TDV 'Mervânîler: Mâride ve Batalyevs’te hüküm süren hânedan, 868-930'). Fiilen bağımsız ama çoğu zaman Endülüs Emevî emirlerine TÂBİ (TDV: 'Münzir ve Abdullah döneminde de onlara tâbi olarak hüküm sürdü'). t: III. Abdurrahman 317'de (929) kuşattı, 'ertesi yıl' (318 H ∩ 930 ilk günü 930-02-03) aldı. TDV İÇİ ÇELİŞKİ: TDV Batalyevs maddesi 317 (929)'da 'Kurtuba Devleti’nin topraklarına kattı' der; Mervânîler maddesi (kuşatma 929, alış ertesi yıl) esas alındı."
+   },
+   {
+    "f": "0930-02-03",
+    "t": "1012-07-23",
+    "d": "endulus-emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mervaniler--endulus; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs",
+    "tanik": "Sâbûr es-Saklebî Kurtuba’da ayaklanarak Batalyevs dahil bütün batı bölgesini hâkimiyetine aldı",
+    "ic_not": "t: Sâbûr es-Saklebî ayaklanır (403/1012-13 → hicrî 403 ∩ 1012 = 1012-07-23). Halifelik dönemi; III. Abdurrahman 'birçok bina inşa ederek şehrin gelişmesini sağladı' (TDV)."
+   },
+   {
+    "f": "1012-07-23",
+    "t": "1094-01-01",
+    "d": "eftasiler",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/eftasiler",
+    "tanik": "Eftasîler’in hâkimiyeti sona erdi (1094)",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: id 'eftasiler' (Lizbon tarihçesiyle ortak; Sâbûr dönemi 1012-1022 dahil — Eftasî hânedanı TDV Eftasîler 413/1022, TDV Batalyevs 418/1027 kurulur, Treccani 1022). t: TDV Batalyevs '1094' (Eftasîler maddesi Ömer'in sonunu 488/1095 verir; Batalyevs esas). Mütevekkil Alfonso'dan yardım istedi, halk şehri Murâbıtlar'a teslim etti."
+   },
+   {
+    "f": "1094-01-01",
+    "t": "1147-01-01",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/murabitlar",
+    "tanik": "Eftasîler’den Batalyevs’i aldı",
+    "ic_not": "TDV Murâbıtlar: 'Eftasîler’den Batalyevs’i aldı'. Treccani Badajoz: 'caduti i quali, la città fece parte successivamente dell'impero degli Almoravidi e degli Almohadi'. Murâbıt künyesi 1147-03-23'te biter."
+   },
+   {
+    "f": "1147-01-01",
+    "t": "1228-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs",
+    "tanik": "İlk yıllarda Kurtuba, Batalyevs, İşbîliye ve Şilb (Silves) gibi şehirleri kontrol altına alan Muvahhidler",
+    "ic_not": "f: Muvahhidlerin 'İlk yıllarda Kurtuba, Batalyevs, İşbîliye ve Şilb (Silves) gibi şehirleri kontrol altına alması' (TDV Endülüs; gün yok → dönem başı 1147). Treccani Badajoz'un 1169 notu (Alfonso Enriquez'in Badajoz'u 'León krallığından' alması) tutarsız/okunmadı — dönem açılmadı."
+   },
+   {
+    "f": "1228-01-01",
+    "t": "1230-09-23",
+    "d": "leon-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs; Treccani, Enciclopedia Italiana, 'BADAJOZ', https://www.treccani.it/enciclopedia/badajoz_(Enciclopedia-Italiana)/",
+    "tanik": "fu riconquistata, definitivamente nel 1226, da Alfonso IX re di León",
+    "ic_not": "ÇELİŞKİ ve SEÇİM: TDV Batalyevs '1228’de Portekiz Kralı VII. Alfonso’nun şehri kuşatıp ele geçirmesiyle' — 'Portekiz Kralı VII. Alfonso' tarihte yoktur (Treccani: Alfonso IX, León Kralı). Treccani Badajoz 'riconquistata, definitivamente nel 1226, da Alfonso IX re di León ... diritti comunali (1229)'. TDV tarihi (1228) esas, hükümdar/krallık Treccani'den (León). t: leon-kralligi künye bitişi (1230-09-23; Alfonso IX 1230'da ölür, Fernando III León tacını alır, Treccani Spagna)."
+   },
+   {
+    "f": "1230-09-23",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León",
+    "ic_not": "Künye geçişi (León → Kastilya-León birliği). Atlas Badajoz 1281 Kastilya ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0875-01-01",
+    "gun": "261 H / 875",
+    "k": "diger",
+    "b": "Abdurrahman el-Cillîkī küçük yerleşim Batalyevs'te ikamete zorlanır, birkaç ay sonra tahkim edip isyan eder; Batalyevs adı kullanıma girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mervaniler--endulus",
+    "tanik": "Bu olayın ardından küçük bir yerleşim merkezi olan Batalyevs’te (Badajoz) ikamete mecbur edildi"
+   },
+   {
+    "t": "0930-02-03",
+    "gun": "318 H / 930",
+    "k": "fetih",
+    "b": "III. Abdurrahman Batalyevs'i ele geçirir; Mervânîler sona erer (kuşatma 317/929).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mervaniler--endulus",
+    "tanik": "Endülüs Emevî Halifesi III. Abdurrahman 317’de (929) Batalyevs’i kuşattı ve ertesi yıl şehri ele geçirdi"
+   },
+   {
+    "t": "1012-07-23",
+    "gun": "403 H / 1012-13",
+    "k": "kayip",
+    "b": "Sâbûr es-Saklebî Batalyevs merkezli batı bölgesini hâkimiyetine alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs",
+    "tanik": "Sâbûr es-Saklebî Kurtuba’da ayaklanarak Batalyevs dahil bütün batı bölgesini hâkimiyetine aldı"
+   },
+   {
+    "t": "1094-01-01",
+    "gun": "1094",
+    "k": "fetih",
+    "b": "Murâbıtlar Batalyevs'i alır, Mütevekkil ve ailesi öldürülür; Eftasîler sona erer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs",
+    "tanik": "Eftasîler’in hâkimiyeti sona erdi (1094)"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "fetih",
+    "b": "Muvahhidler Batalyevs dahil şehirleri kontrol altına alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "İlk yıllarda Kurtuba, Batalyevs, İşbîliye ve Şilb (Silves) gibi şehirleri kontrol altına alan Muvahhidler"
+   },
+   {
+    "t": "1228-01-01",
+    "gun": "1228",
+    "k": "fetih",
+    "b": "Hristiyan kralı şehri kuşatıp ele geçirir (TDV: 'Portekiz Kralı VII. Alfonso' — hükümdar yanlış); Müslüman hâkimiyeti biter.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batalyevs",
+    "tanik": "1228’de Portekiz Kralı VII. Alfonso’nun şehri kuşatıp ele geçirmesiyle"
+   },
+   {
+    "t": "1229-01-01",
+    "gun": "1229",
+    "k": "diger",
+    "b": "León Kralı IX. Alfonso Badajoz'a belediye hakları verir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BADAJOZ', https://www.treccani.it/enciclopedia/badajoz_(Enciclopedia-Italiana)/",
+    "tanik": "fu riconquistata, definitivamente nel 1226, da Alfonso IX re di León"
+   },
+   {
+    "t": "1230-09-23",
+    "gun": "1230",
+    "k": "taht",
+    "b": "Alfonso IX ölür; III. Fernando León tacını da alır (künye geçişi: León Krallığı → Kastilya).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León"
+   }
+  ],
+  "ic_not": "Badajoz'un kaynaklı tarihi 875'te (küçük yerleşim) başlıyor; öncesi (Roma/Vizigot) 'senza importanza' (Treccani); TDV'nin 'Pax Augusta/Butoa köyü' iddiası şüpheli (Pax Augusta/Pax Iulia Badajoz değil). Çelişkiler: kuşatma/alış 929 ↔ 930 (TDV içi); Eftasî sonu 1094 ↔ 1095 (TDV içi); Hristiyan alış 1228 (TDV) ↔ 1226/1229 (Treccani) ↔ yaygın 1230 (kaynakta yok; TDV esas); Treccani 1169 notu tutarsız. Çift teyit YOK (iki TDV maddesi bağımsız sayılmaz). Atlas Badajoz 1281 Kastilya ile uyumlu (zincir 1230'da Kastilya'ya bağlanır); atlas başlangıcı 1230-09-23'e çekilebilir."
+ },
+ {
   "id": "baoding-cin",
   "ad": "Baoding",
   "atlas_ad": "Baoding",
@@ -2399,6 +2724,200 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Atlas Bourges 1281 'fransa' — uyumlu. 1120: vikont Bourges'ü krala devreder (Treccani) — 987-1120 vasal belirsizliği beyanlı. gun '508 (≈ 478+30)': 'trent'anni dopo' hesabı (kaynakta yıl yok). Çift teyit YOK. "
  },
  {
+  "id": "braga-pt",
+  "ad": "Braga",
+  "atlas_ad": "Braga",
+  "lat": 41.545,
+  "lon": -8.427,
+  "kat1900": 3,
+  "adlar": [
+   "Bracara Augusta",
+   "Bracara",
+   "Braga"
+  ],
+  "ilk": {
+   "t": "-0018-01-01",
+   "gun": "MÖ 19 sonrası (a partir de 19 a.C.)",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "OpenAlex (RCAAP/FCT) 2018 ozet: 'O urbanismo fundacional de Bracara Augusta e Lucus Augusti'; 2020 ozet: 'Transition from the Pre-Roman World ... Bracara Augusta'; Plinius NH IV (Perseus) 'Augusta, a town of the Bracari'",
+   "tanik": "que se sucedeu ao fim das guerras cantábricas, a partir de 19 a.C.",
+   "ic_not": "Augustus'un KURDUĞU (ex novo) şehir; kaynak yalnız EN ERKEN sınırı verir ('a partir de 19 a.C.' = Kantabria savaşları sonrası idarî yeniden düzenleme), kesin yıl bu oturumda bulunamadı: MÖ 19 -> astronomik -0018, kesinlik 'belirsiz'. Plinius NH (<=79, Treccani 'Plinio il Vecchio': 'morte, avvenuta nel 79') 'Augusta, a town of the Bracari' ilk yazılı anılışlardan biridir. Treccani Braga: Augusta unvanını Augustus verdi (kitabe kaide). Modern Braga = Bracara Augusta (aynı yer)."
+  },
+  "kur": {
+   "t": "-0018-01-01",
+   "gun": "MÖ 19 sonrası (a partir de 19 a.C.)",
+   "kesinlik": "belirsiz",
+   "kaynak": "OpenAlex (RCAAP/FCT) 2018 ozet: 'O urbanismo fundacional de Bracara Augusta e Lucus Augusti'; 2020 ozet: 'Transition from the Pre-Roman World ... Bracara Augusta'",
+   "tanik": "The foundation ex novo of Bracara Augusta, in the heart of the Bracari's region"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0018-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/; OpenAlex (RCAAP/FCT) 2018 ozet: 'O urbanismo fundacional de Bracara Augusta e Lucus Augusti'; 2020 ozet: 'Transition from the Pre-Roman World ... Bracara Augusta'",
+    "ic_not": "Kuruluşundan Batı Roma künye geçişine kadar Roma İmparatorluğu (Roma İmp. künyesi -0026-01-16'da başlar; kuruluş sonradan)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0409-01-01",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "ic_not": "t: Isidorus 'Era CDXLVII' (= MS 409, İspanya Era'sı - 38) Süev girişi; Süevlerin Braga'yı fiilen alış günü kaynakta yok (bölge zinciri)."
+   },
+   {
+    "f": "0409-01-01",
+    "t": "0585-01-01",
+    "d": "suev",
+    "kesinlik": "yil",
+    "kaynak": "Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml; Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/",
+    "ic_not": "ÇELİŞKİ: Isidorus Gallaecia'yı 409'da Süevlere verir (Süev künyesi f=409); Treccani Braga 'alla fine del sec. V' ile Braga'nın Süev başkenti oluşunu geç tarihler. Bölge zinciri esas alındı (409); Braga'ya özel fetih günü bulunamadı. t: Treccani Braga, Vizigot-Süev savaşı 585 (Isidorus 'quod mansisse CLXXVII annis' = 409+177 = 586)."
+   },
+   {
+    "f": "0585-01-01",
+    "t": "0711-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/; Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "ic_not": "Süev krallığı Vizigot'a geçer (Treccani 585). Vizigot künyesi 711'de biter."
+   },
+   {
+    "f": "0711-01-01",
+    "t": "1040-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/",
+    "ic_not": "BOŞLUK: Treccani Braga 'Arap egemenliği altında XVIII. yy ortasından çöküş' der ve 1040'ta Ferdinand I'in geri aldığını yazar; ARA DÖNEMİN SAHİBİ (Emevî valileri / Asturias-Leon sınırı / yerel) bu oturumda kaynaklı bulunamadı. Arap egemenliğinin Braga'da hangi yıl başladığı kaynakta yok. Uydurma sahip yazılmadı."
+   },
+   {
+    "f": "1040-01-01",
+    "t": "1093-01-01",
+    "d": "kastilya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/",
+    "ic_not": "Treccani: Ferdinand I (Castiglia-León) 1040'ta geri alır. Künye 'kastilya' (Kastilya-León birliği; Fernando I 1035 Kastilya, 1037 León) kullanıldı; 'leon-kralligi' alternatifi."
+   },
+   {
+    "f": "1093-01-01",
+    "t": "1281-01-01",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'Portogallo' (Storia), https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
+    "ic_not": "Treccani: Braga 'Portekiz markizleri'ne tımar, 1093-1147 rezidans; Portekiz künyesi f=1097 (UYARI beklenir: dönem künyeden 4 yıl önce başlıyor, künye GENİŞLET önerisi; 1093 Treccani yıl)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0018-01-01",
+    "gun": "MÖ 19 sonrası",
+    "k": "kurulus",
+    "b": "Augustus Bracara Augusta'yı ex novo kurar (kesin yıl yok; en erken MÖ 19).",
+    "kaynak": "OpenAlex (RCAAP/FCT) 2018 ozet: 'O urbanismo fundacional de Bracara Augusta e Lucus Augusti'; 2020 ozet: 'Transition from the Pre-Roman World ... Bracara Augusta'",
+    "tanik": "The foundation ex novo of Bracara Augusta, in the heart of the Bracari's region"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu -> Batı Roma (Theodosius I ölür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0409-01-01",
+    "gun": "Era CDXLVII = MS 409",
+    "k": "fetih",
+    "b": "Süevler Gallaecia'yı alır (Isidorus: Gallaecia'yı yalnız Süevler paylaşımla aldı).",
+    "kaynak": "Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "tanik": "Gallaeciam soli Suevi sortiti sunt"
+   },
+   {
+    "t": "0585-01-01",
+    "gun": "585",
+    "k": "fetih",
+    "b": "Vizigotlar Süev krallığını yıkar; Braga Vizigot yönetimine geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/",
+    "tanik": "assorbito dai Visigoti, dopo una battaglia combattuta lì presso (585)"
+   },
+   {
+    "t": "0711-01-01",
+    "gun": "711",
+    "k": "diger",
+    "b": "künye geçişi: Vizigot krallığı sona erer, Endülüs fethi dönemi başlar (Braga'nın alınış tarihi kaynakta yok).",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Endulus', https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "1. Fetih ve Valiler Dönemi (711-755)"
+   },
+   {
+    "t": "1040-01-01",
+    "gun": "1040",
+    "k": "fetih",
+    "b": "Kastilya-León Kralı I. Fernando Braga'yı Müslümanlardan geri alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/",
+    "tanik": "Riconquistata da Ferdinando I di Castiglia-León nel 1040"
+   },
+   {
+    "t": "1093-01-01",
+    "gun": "1093",
+    "k": "idari",
+    "b": "Braga Portekiz markizlerine tımar verilir; 1093-1147 arası rezidans.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/",
+    "tanik": "che ne fecero la loro residenza fra il 1093-1147"
+   }
+  ],
+  "ic_not": "Kaynaklar: OpenAlex (RCAAP/FCT) Bracara Augusta özetleri, Plinius NH IV (Perseus), Livius, Isidorus, Treccani Braga/Portogallo, TDV Endülüs. Hydatius (Süev-Braga 5. yy) ve Arap fethi/Asturias dönemi için kaynak AÇILMADI/bulunamadı (TDV'de Braga maddesi yok; TDV arama 'Braga' yalnız kitap künyeleri verdi). Çift teyit YOK. Braga-Bracara Augusta aynı yer (Treccani; kazılar 1976'dan beri kentin altında)."
+ },
+ {
+  "id": "braganca-pt",
+  "ad": "Bragança",
+  "atlas_ad": "Bragança",
+  "lat": 41.806,
+  "lon": -6.757,
+  "kat1900": 3,
+  "adlar": [
+   "Colibriga (gelenek)",
+   "Briganza",
+   "Braganza/Bragança"
+  ],
+  "ilk": {
+   "t": "1185-01-01",
+   "gun": "1128-1185 (Alfonso Henriques dönemi; güvenli uç 1185)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'Braganza', https://www.treccani.it/enciclopedia/braganza_(Enciclopedia-Italiana)/; hükümdarlık yılları: Treccani, Enciclopedia Italiana, 'Portogallo' (Storia), https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
+   "tanik": "riedificata, ingrandita e fortificata a più riprese durante i regni di Alfonso Enrico",
+   "ic_not": "ZAYIF KAYIT: Treccani Bragança için tarihli doğrudan tanık vermez; 'Alfonso Enrico (I. Afonso, 1128-1185) döneminde yeniden inşa edildi/tahkim edildi' ifadesi şehrin en geç bu hükümdarlığın sonunda (1185) var olduğunu gösterir (üst sınır). Treccani 'Dall'epoca di Sancho I (1185-1211) kale'. Kuruluş: efsane 'Brigo, re di Spagna' (gelenek, tarihsiz). İlk Arap/Hristiyan dönemi sahipliği ve gerçek ilk anılış (belge) bulunamadı; modern Bragança = tarihî Bragança (aynı yer kabul)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1185-01-01",
+    "t": "1281-01-01",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Braganza', https://www.treccani.it/enciclopedia/braganza_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'Portogallo' (Storia), https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
+    "ic_not": "Treccani: Bragança Alfonso Henriques, Sancho I, Dinis dönemlerinde yeniden inşa/tahkim; Portekiz Krallığı. Tek dönem; 1185 öncesi zincir bulunamadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1185-01-01",
+    "gun": "1128-1185",
+    "k": "diger",
+    "b": "Bragança en geç I. Afonso döneminde yeniden inşa edilip tahkim edilmiş (Treccani); zincirin başı bu üst sınırdır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Braganza', https://www.treccani.it/enciclopedia/braganza_(Enciclopedia-Italiana)/",
+    "tanik": "riedificata, ingrandita e fortificata a più riprese durante i regni di Alfonso Enrico"
+   }
+  ],
+  "ic_not": "ATLAS NOTU: atlas Bragança 1281'de başlıyor; zincir 1185'ten 1281'e uzar (portekiz). 1185 öncesi için sahiplik bulunamadı (TDV'de Bragança maddesi yok; TDV arama 'Bragança' yalnız kitap künyeleri). Güvenilir ilk anılış (belge/foral yılı) için DergiPark/Portekiz akademik kaynak AÇILAMADI; OpenAlex aramaları ilgili makale vermedi. Tek kaynak Treccani olduğu için zayıf; çift teyit YOK."
+ },
+ {
   "id": "bratislava-sk",
   "ad": "Bratislava (Pozsony)",
   "atlas_ad": "Bratislava",
@@ -2652,6 +3171,257 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Atlas Burgos 1281 'kastilya' — uyumlu."
+ },
+ {
+  "id": "cadiz-es",
+  "ad": "Cádiz",
+  "atlas_ad": "Cádiz",
+  "lat": 36.527,
+  "lon": -6.289,
+  "kat1900": 3,
+  "adlar": [
+   "Gadir/Agadir (Fenike)",
+   "Gadeira/Gades",
+   "Municipium Augustum Gaditanum",
+   "Kādis",
+   "Cádiz"
+  ],
+  "ilk": {
+   "t": "-0600-01-01",
+   "gun": "MÖ 7. yüzyıl",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ruiz Mata, D. (2016 [1999]), 'The Phoenicians of the Archaic Epoch 8th - 7th centuries B. C. in the Bay of Cádiz, Spain: Cádiz and Castillo de Doña Blanca', ISIMU 2, https://doi.org/10.15366/isimu1999.2.035 (OpenAlex özeti)",
+   "tanik": "Archaic Epoch 8th - 7th centuries B. C. in the Bay of Cádiz",
+   "ic_not": "Arkeolojik güvenli uç: Ruiz Mata başlığı 'Archaic Epoch 8th - 7th centuries B.C.' — aralığın SON ucu (MÖ 7. yüzyıl sonu = MÖ 601 = -0600). Özet 'Gadir'in kuruluşunun geleneksel kronolojisi hacia 1101 a.C.' der (GELENEK, Velleius Treccani'de 'verso il 1100'; Treccani: 'la fondazione ... messa in dubbio dal Beloch, dal Clerc'; 'storia sicura soltanto ... non prima del sec. VII'). Torres Ortiz (1998, Hispana) genel olarak Batı'da ilk Fenike kolonileri için ≈825 cal BC önerir (Gadir'e özgü değil). Yazılı ilk tanık (Herodotos/Strabon) bu oturumda tarihlenemedi, bu yüzden 'arkeolojik' alındı. Gadir'in adası ile modern şehir aynı nokta."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0600-01-01",
+    "t": "-0500-01-01",
+    "d": "fenike-sehirleri",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/; Ruiz Mata, D. (2016 [1999]), 'The Phoenicians of the Archaic Epoch 8th - 7th centuries B. C. in the Bay of Cádiz, Spain: Cádiz and Castillo de Doña Blanca', ISIMU 2, https://doi.org/10.15366/isimu1999.2.035 (OpenAlex özeti)",
+    "tanik": "Gades fu la prima colonia dei Fenici in Spagna",
+    "ic_not": "Gadir Fenike (Tyr) kolonisi; Treccani: Kartaca hegemonyasından önce de sonra da gelişti. Bağımsız şehir-devlet varsayımı beyanlıdır (kolonizatör metropol Tyr'a bağlılık kaynakta yok)."
+   },
+   {
+    "f": "-0500-01-01",
+    "t": "-0205-01-01",
+    "d": "kartaca",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "dalla fine del sec. VI sono i padroni di Cadice",
+    "ic_not": "GELENEK/özet: Treccani 'Secondo una tradizione gaditana ... i Cartaginesi, che dalla fine del sec. VI sono i padroni di Cadice'. Kartaca egemonyasının başlangıcı kesin değil (Treccani 'tradizione')."
+   },
+   {
+    "f": "-0205-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "conclusero con essa nello stesso anno 206 un foedus",
+    "ic_not": "Magon 206'da şehri yağmalar ('suffeti' çarmıha gerilir), Cádiz Romalılara teslim olur, Scipio ile foedus (206). Sulla/Caesar vatandaşlık verir; 'urbs Iulia'."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/; Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "ic_not": "'Municipium Augustum Gaditanum'; Augustus'la birlikte Roma Cádiz'inin iki yüzyıllık zirvesi başlar."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0420-01-01",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "l'ultima menzione è del 420",
+    "ic_not": "t: Treccani 'Essa decadde nel sec. IV; l'ultima menzione è del 420' — son anılış yılı."
+   },
+   {
+    "f": "0420-01-01",
+    "t": "0711-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "Sotto la dominazione visigota, non ricorre il nome di Cadice",
+    "ic_not": "Şehrin VAR OLUP OLMADIĞI bilinmiyor: Treccani 'Sotto la dominazione visigota, non ricorre il nome di Cadice; si suppone che la città abbia avuto allora scarsa popolazione' (Xeres piskoposluğuna bağlı varsayımı). Bu aralıkta nokta çizilmemeli (görünür tanık yok)."
+   },
+   {
+    "f": "0711-01-01",
+    "t": "0756-05-15",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Nel 711 il generale arabo Tarik, dopo un primo, vano tentativo nell'anno precedente",
+    "ic_not": "Treccani: 711'de Târık Cádiz'i fetheder (bir önceki yıl başarısız deneme). Emevî künyesi 750-08-05'te biter; valiler dönemi 756'ya — künye GENİŞLET önerisi."
+   },
+   {
+    "f": "0756-05-15",
+    "t": "1023-03-26",
+    "d": "endulus-emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abdurrahman-i; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "414 (1023) yılında Kadı Ebü’l-Kāsım İbn Abbâd şehri hükümet merkezi olarak ilân edince",
+    "ic_not": "ZİNCİR İŞBÎLİYE'DEN DEVRALINDI (abi merkez: Cádiz vilâyeti Sevilla bölgesinin parçası; Cádiz'e özgü doğrudan tanık YOK). t: TDV İşbîliye '414 (1023) yılında Kadı Ebü’l-Kāsım İbn Abbâd şehri hükümet merkezi olarak ilân edince' → hicrî 414 ∩ 1023 ilk günü 1023-03-26."
+   },
+   {
+    "f": "1023-03-26",
+    "t": "1091-02-23",
+    "d": "sevilla-abbadiler",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/isbiliye; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbadiler",
+    "tanik": "484’te (1091) Murâbıtlar’ın eline geçen İşbîliye",
+    "ic_not": "ZİNCİR İŞBÎLİYE'DEN DEVRALINDI (beyanlı yaklaşıklık; Cádiz'e özgü tanık yok). t: TDV İşbîliye '484’te (1091) Murâbıtlar’ın eline geçen İşbîliye' → hicrî 484 ∩ 1091 ilk günü 1091-02-23. (TDV Abbâdîler maddesi Tâşfîn'in zaptını 1092 verir; şehir maddesi esas.)"
+   },
+   {
+    "f": "1091-02-23",
+    "t": "1147-01-01",
+    "d": "murabitlar",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/isbiliye; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Murâbıtlar Dönemi (1090-1147)",
+    "ic_not": "ZİNCİR İŞBÎLİYE'DEN DEVRALINDI. Cavilla 2019 (Riparia): 'Murâbıt ve Muvahhid döneminde Cádiz körfezi büyük ticarî ve askerî önem kazandı' — şehrin bu dönemde var olduğuna akademik tanık. t: TDV Endülüs 'Muvahhidler Dönemi (1147-1229)' başlığı; Murâbıt künyesi 1147-03-23'te biter."
+   },
+   {
+    "f": "1147-01-01",
+    "t": "1229-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Muvahhidler Dönemi (1147-1229)",
+    "ic_not": "ZİNCİR İŞBÎLİYE'DEN DEVRALINDI (TDV Endülüs: 'İlk yıllarda Kurtuba, Batalyevs, İşbîliye ve Şilb gibi şehirleri kontrol altına alan Muvahhidler'). Muvahhid künyesi 1130-1269."
+   },
+   {
+    "f": "1229-01-01",
+    "t": "1265-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Muvahhid otoritesinin çözülmesinden (1229) Kastilya'ya geçişe kadar Cádiz'e özgü tanık yok. Treccani Spagna: III. Fernando Sevilla'yı (1248) aldıktan sonra 'Medina Sidonia, Arcos, Cadice, Sanlúcar' (tarihsiz); Sevilla'nın 1248'de düşmesi (TDV İşbîliye 646/1248) Cádiz'in Kastilya'ya geçtiği anlamına gelmez. t: TDV İspanya 'Cádiz (Kādis, 1265)'. ÇELİŞKİ: Treccani Cadice 1262. TDV esas."
+   },
+   {
+    "f": "1265-01-01",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ispanya; Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "Cádiz (Kādis, 1265)",
+    "ic_not": "TDV 1265 (esas) ↔ Treccani Cadice 'nel 1262 Alfonso il Saggio ... conquistava Cadice' (1263 şehir unvanı). Atlas Cádiz 1281'de Kastilya ile başlar — uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0500-01-01",
+    "gun": "MÖ 6. yüzyıl sonu",
+    "k": "diger",
+    "b": "GELENEK: Gaditanlar yerlilere karşı Kartacalıları çağırır; Kartaca Cádiz'in hâkimi olur (Treccani, gaditan geleneği).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "dalla fine del sec. VI sono i padroni di Cadice"
+   },
+   {
+    "t": "-0205-01-01",
+    "gun": "MÖ 206",
+    "k": "antlasma",
+    "b": "Magon Cádiz'i yağmalar; şehir Romalılara teslim olur, Scipio ile foedus yapılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "conclusero con essa nello stesso anno 206 un foedus"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk Arcadius/Honorius arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0420-01-01",
+    "gun": "420",
+    "k": "diger",
+    "b": "Cádiz'in son antik anılışı (Treccani); sonrası bilinmiyor.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "l'ultima menzione è del 420"
+   },
+   {
+    "t": "0711-01-01",
+    "gun": "711",
+    "k": "fetih",
+    "b": "Târık Cádiz'i fetheder (bir önceki yıl başarısız deneme).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 711 il generale arabo Tarik, dopo un primo, vano tentativo nell'anno precedente"
+   },
+   {
+    "t": "0756-05-15",
+    "gun": "15 Mayıs 756",
+    "k": "diger",
+    "b": "künye geçişi: Emevî valileri (Yûsuf el-Fihrî) → bağımsız Endülüs Emevî Emirliği; I. Abdurrahman Musâre savaşını kazanır, Kurtuba'ya girer. Cádiz için: bölge Endülüs Emevî devletinde.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abdurrahman-i (HAKKI DURSUN YILDIZ)",
+    "tanik": "15 Mayıs sabahı Yûsuf el-Fihrî’nin üzerine saldırdı"
+   },
+   {
+    "t": "1023-03-26",
+    "gun": "414 H / 1023",
+    "k": "diger",
+    "b": "Kadı İbn Abbâd İşbîliye'yi hükümet merkezi ilân eder (Abbâdîler); Cádiz için proxy (zincir İşbîliye'den devralındı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "414 (1023) yılında Kadı Ebü’l-Kāsım İbn Abbâd şehri hükümet merkezi olarak ilân edince"
+   },
+   {
+    "t": "1091-02-23",
+    "gun": "484 H / 1091",
+    "k": "fetih",
+    "b": "Murâbıtlar İşbîliye'yi alır; Cádiz için proxy.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "484’te (1091) Murâbıtlar’ın eline geçen İşbîliye"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "fetih",
+    "b": "Muvahhid dönemi başlar (TDV Endülüs: 1147-1229).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Muvahhidler Dönemi (1147-1229)"
+   },
+   {
+    "t": "1229-01-01",
+    "gun": "1229",
+    "k": "kayip",
+    "b": "Muvahhid dönemi biter (TDV Endülüs 1147-1229).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Muvahhidler Dönemi (1147-1229)"
+   },
+   {
+    "t": "1262-01-01",
+    "gun": "1262",
+    "k": "fetih",
+    "b": "Kral Bilge Alfonso (X) Cádiz'i fetheder (Treccani); 1263'te şehir unvanı. TDV 1265 ile ÇELİŞİR (dönem sınırı TDV'ye göre).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'CADICE' (R. Martinez, G. Degli Alberti, F. Rodizza), https://www.treccani.it/enciclopedia/cadice_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1262 Alfonso il Saggio, re di Castiglia, conquistava Cadice"
+   },
+   {
+    "t": "1265-01-01",
+    "gun": "1265",
+    "k": "fetih",
+    "b": "Cádiz Kastilya'ya geçer (TDV İspanya).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ispanya",
+    "tanik": "Cádiz (Kādis, 1265)"
+   }
+  ],
+  "ic_not": "Cádiz'in kaynaklı tarihi arkeolojik güvenli uçla MÖ 7. yüzyıldan başlıyor; Fenike kuruluş gelenek tarihi ≈MÖ 1101 yalnız ic_not. Muslim dönemi (756-1229) zinciri Cádiz'e özgü kaynaklı DEĞİL: İşbîliye zinciri 'abi merkez' olarak devralındı (beyanlı). 420-711 arası varlığı bilinmiyor (__BILINMIYOR__). Çelişki: Kastilya'ya geçiş TDV 1265 ↔ Treccani 1262 (TDV esas). Çift teyit YOK. Kaynak sınırı: Herodotos/Strabon tarihleri, Princeton 'Gades' girdisi, TDV Cádiz maddesi (yok; yalnız Endülüs/İspanya içi anma) ve Cavilla 2019 dışında Müslüman dönem akademik kaynak bulunamadı. Atlas Cádiz başlangıcı 1281 Kastilya ile uyumlu; atlas düzeltmesi gerekmiyor (Kastilya'ya geçiş 1262/1265 < 1281, ancak atlas başlangıcının daha erkene çekilebilmesi mümkün)."
  },
  {
   "id": "caen-fr",
@@ -3092,6 +3862,157 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Treccani Cambridge: 'Fondata dai Romani, col nome di Camboritum' — Itinerary transkripsiyonunda 'Camboritum' (?Lackford) ve 'Duroliponte' ayrı istasyonlar; Treccani adı yanlış eşleştirmiş olabilir, Duroliponte tercih edildi (çelişki beyan). İlk tanık Itinerary (III. yy; Britannica 1911: özgün baskı III. yy başı) — transkripsiyon popüler bir siteden (roman-britain.co.uk) alınmıştır; Cuntz/Parthey-Pinder baskı sayfası açılamadı, Rivet & Smith (Place-Names of Roman Britain 1979) kitabı açılamadı: eşleştirme doğrulaması bekler. Çelişki: Bede HE 4.19 'Grantacaestir' (≈695) Cambridge değil Grantchester olabilir (Sellar dizini). Eski adlar: Grantebrycge (Sakson), Cambridge. Roma Duroliponte Castle Hill'de (Cambridge merkezinden ~1 km; <3 km). 410-875 arası sahip bulunamadı."
+ },
+ {
+  "id": "coimbra-pt",
+  "ad": "Coimbra",
+  "atlas_ad": "Coimbra",
+  "lat": 40.203,
+  "lon": -8.41,
+  "kat1900": 3,
+  "adlar": [
+   "Aeminium",
+   "Eminium",
+   "Colimbria/Kulumriye (Kulemriye)",
+   "Coimbra"
+  ],
+  "ilk": {
+   "t": "0079-01-01",
+   "gun": "MS 79 öncesi (güvenli uç 79)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Plinius, Naturalis Historia IV (Bostock-Riley ceviri), Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137 (Book IV, ch. 35 'Lusitania'); tarih: Treccani, 'Plinio il Vecchio', https://www.treccani.it/enciclopedia/plinio-il-vecchio_(Enciclopedia-Italiana)/",
+   "tanik": "of Æminium, the towns of Conimbrica",
+   "ic_not": "İlk anılış alt sınırdır, KURULUŞ DEĞİL. Plinius NH Aeminium'u anar; eser Plinius'un ölümünden (MS 79, Treccani 'alla tragica morte, avvenuta nel 79') önce yazıldı: güvenli uç 79 (aralığın son ucu). Princeton Encyclopedia 'AEMINIUM (Coimbra)': Plinius NH 4.24 (başka numaralama) ve Ptolemaios 2.5 anar; Constantius Chlorus kitabesi; Conimbriga 16 km güneyde (VI. yy piskoposluk, ~589'da piskopos Aeminium'a taşındı, IX. yy'da Aeminium 'Colimbria' adını aldı). Coimbra = Aeminium aynı yer (Princeton: forum kriptoportiği). Kuruluş yılı bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0079-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Plinius, Naturalis Historia IV (Bostock-Riley ceviri), Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137; Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "ic_not": "Zincir ilk anılışın güvenli ucundan (79) başlar; Roma İmparatorluğu."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "ic_not": "t: Livius, Romulus Augustulus '31 August 476: forced to resign (4 September?)'; Batı Roma künyesi 476-08-28'de biter (3 gün fark)."
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0585-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml; Treccani, Enciclopedia Italiana, 'Coimbra', https://www.treccani.it/enciclopedia/coimbra_(Enciclopedia-Italiana)/",
+    "ic_not": "BOŞLUK: Isidorus Lusitania'yı Alanlara (409) paylaşır; Süev kralı Remismundus 'Conimbriam ... diripit' (Conimbriga, Era DII = MS 464) ve Lizbon'u alır; şehir Aeminium'un kendisinin hangi güçte olduğu kaynakta YOK. Süev/Alan/Vizigot sahipliği kaynakla ayrılamadı; uydurma sahip yazılmadı."
+   },
+   {
+    "f": "0585-01-01",
+    "t": "0711-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Coimbra', https://www.treccani.it/enciclopedia/coimbra_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/; Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "ic_not": "f: bölge olayı (Süev krallığının Vizigot'a geçişi, Treccani Braga 585; Isidorus 'Regnum autem Suevorum deletum in Gothos transfertur'); Coimbra'ya özel gün yok (beyanlı yaklaşıklık). Treccani Coimbra: Vizigot döneminde dört kral (Recaredo, Liuva II, Sisebuto, Chintila) Coimbra'da sikke bastı => en geç VII. yy başı Vizigot."
+   },
+   {
+    "f": "0711-01-01",
+    "t": "1064-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Coimbra', https://www.treccani.it/enciclopedia/coimbra_(Enciclopedia-Italiana)/; TDV Islam Ansiklopedisi, 'Muhammed el-Muzaffer', https://islamansiklopedisi.org.tr/muhammed-el-muzaffer",
+    "ic_not": "BOŞLUK: Arap fethi tarihi ve 1064 öncesi sahipler kaynaklı bulunamadı. Bilinenler: Treccani 'Arap fetihleri/surları Coimbra'da iz bıraktı', 'Alfonso III (León) zaptetti, sonra kaybedildi' (yıl yok); TDV Masmûde: Masmûde Berberîleri Coimbra'ya yerleşti; TDV 'Muhammed el-Muzaffer': 1064'te Coimbra 'Eftasîler’in önemli merkezlerinden' (Eftasî emirliği 1022/1027-1094, Batalyevs/Badajoz) — yani 1064 öncesi SON tanıklı sahip Eftasîler; Eftasîlerin Coimbra'yı ne zaman aldığı bulunamadı (>1 kuşak olabileceğinden dönem açılmadı)."
+   },
+   {
+    "f": "1064-01-01",
+    "t": "1128-01-01",
+    "d": "kastilya",
+    "kesinlik": "yil",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Muhammed el-Muzaffer', https://islamansiklopedisi.org.tr/muhammed-el-muzaffer; Treccani, Enciclopedia Italiana, 'Portogallo' (Storia), https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'Coimbra', https://www.treccani.it/enciclopedia/coimbra_(Enciclopedia-Italiana)/",
+    "ic_not": "TDV: Kastilya Kralı I. Fernando (456/1064) Coimbra'yı 6 aylık kuşatmayla alır; hicrî 456 ∩ 1064 kesişiminin ilk günü 1064-01-01 (hicri.py: 456 H başı 1063-12-25). Treccani Portogallo: Fernando Coimbra'da Sisnando'yu kontluğa atar (1064). Coimbra'nın Portekiz kontluğuna (künye f=1097) geçiş günü kaynakta yok: kontluk Kastilya-León vasalı sayıldı (beyanlı yaklaşıklık). 1117 Murâbıt ele geçirmesi (TDV) süresi bilinmeyen olay: dönem AÇILMADI."
+   },
+   {
+    "f": "1128-01-01",
+    "t": "1281-01-01",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Coimbra', https://www.treccani.it/enciclopedia/coimbra_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'Portogallo' (Storia), https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
+    "ic_not": "Treccani Coimbra: Portekiz 1128'de bağımsız devlet; Coimbra uzun süre başkent. Atlas Coimbra 1281 'portekiz' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0079-01-01",
+    "gun": "MS 79 öncesi",
+    "k": "diger",
+    "b": "Plinius NH Aeminium'u (kasaba ve ırmak) anar: ilk yazılı anılış (üst sınır 79).",
+    "kaynak": "Plinius, Naturalis Historia IV (Bostock-Riley ceviri), Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137",
+    "tanik": "of Æminium, the towns of Conimbrica"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu -> Batı Roma (Theodosius I ölür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye sonu: Batı Roma'nın son imparatoru Romulus Augustulus tahttan indirilir; sonrası sahip bilinmiyor.",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign (4 September?)"
+   },
+   {
+    "t": "0585-01-01",
+    "gun": "585",
+    "k": "fetih",
+    "b": "Süev krallığı Vizigot'a geçer (Braga yakınında savaş).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1930), 'Braga', https://www.treccani.it/enciclopedia/braga_(Enciclopedia-Italiana)/",
+    "tanik": "assorbito dai Visigoti, dopo una battaglia combattuta lì presso (585)"
+   },
+   {
+    "t": "0711-01-01",
+    "gun": "711",
+    "k": "diger",
+    "b": "künye geçişi: Vizigot krallığı sona erer, Endülüs fethi dönemi başlar (Coimbra'nın alınış tarihi kaynakta yok).",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Endulus', https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "1. Fetih ve Valiler Dönemi (711-755)"
+   },
+   {
+    "t": "1064-01-01",
+    "gun": "456 H / 1064",
+    "k": "fetih",
+    "b": "Kastilya Kralı I. Fernando Eftasîlerden Kulumriye'yi (Coimbra) altı aylık kuşatmadan sonra alır; Sisnando kontluğa atanır.",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Muhammed el-Muzaffer', https://islamansiklopedisi.org.tr/muhammed-el-muzaffer",
+    "tanik": "456 (1064) yılında Eftasîler’in önemli merkezlerinden Kulumriye’yi (Coimbra) altı aylık bir kuşatmadan sonra ele geçirdi"
+   },
+   {
+    "t": "1117-01-01",
+    "gun": "1117",
+    "k": "isgal",
+    "b": "Murâbıtlar Coimbra'yı alır (süre bilinmiyor; Treccani Coimbra 1064'te 'definitivamente' Hıristiyan der: dönem açılmadı).",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Ali b. Yusuf b. Tasfin', https://islamansiklopedisi.org.tr/ali-b-yusuf-b-tasfin",
+    "tanik": "1117’de Coimbra da alındı."
+   },
+   {
+    "t": "1128-01-01",
+    "gun": "1128",
+    "k": "idari",
+    "b": "Alfonso Henriques Portekiz kontluğunun yönetimini alır; Portekiz bağımsız devlet olur, Coimbra başkent.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Portogallo' (Storia), https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1128, posto alla testa delle milizie il giovane Alfonso Henriques"
+   }
+  ],
+  "ic_not": "Kaynaklar: Plinius (Perseus), Princeton (Perseus), Livius, Isidorus, TDV Eftasîler/Muhammed el-Muzaffer/Ali b. Yûsuf/Masmûde, Treccani Coimbra/Portogallo/Braga. 1064 için TDV (456/1064, Kastilya Kralı Fernando) ve Treccani (Ferdinando Magno re di León, 1064) UYUMLU: çift teyit (iki bağımsız ansiklopedi). Künye farkı: TDV 'Kastilya', Treccani 'León' — 'kastilya' kullanıldı. Ayrı kayıt önerisi: Conimbriga (Condeixa-a-Velha, ~16 km güney, Princeton) modern Coimbra'dan >3 km. Vizigot öncesi (Süev/Alan) ve 711-1064 Arap dönemi sahipliği bulunamadı."
  },
  {
   "id": "colmar-fr",
@@ -3719,6 +4640,224 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "TDV 'Estergon' Roma dönemini hiç anmaz. 1000-1001 'taç' yılı ve Estergon'un başşehir olduğu XI. yy TDV'ye göre; Estergon'un 1000'de İstván tarafından başpiskoposluk yapıldığı EI 'Storia'da ('verso il 1000') geçer. Atlas Estergon'u 1281'de macaristan ile başlatır: zincir aynı sahiple biter."
+ },
+ {
+  "id": "faro-pt",
+  "ad": "Faro",
+  "atlas_ad": "Faro",
+  "lat": 37.019,
+  "lon": -7.93,
+  "kat1900": 3,
+  "adlar": [
+   "Ossonoba",
+   "Ukşûnube",
+   "Şentemeriyetülgarp (Santa Maria de Algarve)",
+   "Şentemeriyetühârûn",
+   "Faaron/Faaram",
+   "Faro"
+  ],
+  "ilk": {
+   "t": "0044-01-01",
+   "gun": "MS 43-44",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Pomponius Mela, De chorographia III.7 (Latin Library, https://www.thelatinlibrary.com/pomponius3.html); tarih: Treccani, 'Pomponio Mela', https://www.treccani.it/enciclopedia/pomponio-mela_(Enciclopedia-Italiana)/",
+   "tanik": "in Cuneo sunt Myrtili, Balsa, Ossonoba",
+   "ic_not": "İlk anılış alt sınırdır, KURULUŞ DEĞİL. Mela eseri 'tra la fine del 43 e i primi del 44 d. C.' yazılmış (Treccani, 'probabilmente'): aralığın SON ucu 44 alındı. Daha eski tarihli yazılı tanık bu oturumda bulunamadı: Princeton 'OSSONOBA (Faro)' Strabon 3.2.5, Ptolemaios 2.5, Plinius HN 4.22, Mela 3.1 ve Antonine Itinerary'yi sayar ('The modern city lies over the ancient one') ama Strabon/Ptolemaios tarihleri kaynakla bağlanamadı. Plinius (Bostock-Riley IV.35) 'the towns of Ossonoba' (<=79). Demir Çağı yerleşimi: OpenAlex 1999 'O Algarve nos séculos V e IV a.C.' Faro'yu MÖ I. binyıl ortasında kentsel çekirdekler arasında sayar (kazı tarihi yok; ark yazılmadı). Faro = Ossonoba aynı yer (Princeton)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0044-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Pomponius Mela, De chorographia III.7 (Latin Library, https://www.thelatinlibrary.com/pomponius3.html); tarih: Treccani, 'Pomponio Mela', https://www.treccani.it/enciclopedia/pomponio-mela_(Enciclopedia-Italiana)/; Plinius, Naturalis Historia IV (Bostock-Riley ceviri), Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137",
+    "ic_not": "Zincir ilk anılış güvenli ucundan başlar; Roma İmparatorluğu (Lusitania)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "ic_not": "t: Livius '31 August 476: forced to resign (4 September?)'; Batı Roma künyesi 476-08-28'de biter."
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0713-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Algarve', https://www.treccani.it/enciclopedia/algarve_(Enciclopedia-Italiana)/; TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Treccani Algarve 'dal V all'VIII secolo vi presero stanza i Visigoti' (V.-VIII. yy Vizigot); Vizigot'un Faro'yu devraldığı gün/yıl kaynakta yok, dönem Batı Roma sonunda (476) başlatıldı. Süev/Alan/Bizans (Spania) olasılığı kaynakla dışlanmadı. t: TDV 94 (713) fethi, hicrî 94 ∩ 713 ilk günü 713-01-01 (hicri.py; 94 H başı 712-10-07). Vizigot künyesi 711'de biter (hayalet UYARI)."
+   },
+   {
+    "f": "0713-01-01",
+    "t": "0756-05-15",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye; TDV Islam Ansiklopedisi, 'Abdurrahman I', https://islamansiklopedisi.org.tr/abdurrahman-i (HAKKI DURSUN YILDIZ)",
+    "ic_not": "Fetih ve valiler dönemi; Emevî künyesi 750'de biter, Endülüs valileri 756'ya kadar (künye GENİŞLET önerisi, hayalet UYARI)."
+   },
+   {
+    "f": "0756-05-15",
+    "t": "1031-01-01",
+    "d": "endulus-emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Abdurrahman I', https://islamansiklopedisi.org.tr/abdurrahman-i (HAKKI DURSUN YILDIZ); TDV Islam Ansiklopedisi, 'Endulus', https://islamansiklopedisi.org.tr/endulus; TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye",
+    "ic_not": "TDV Şentemeriye: Şilb'e bağlı yarı bağımsız müvelled Benî Bekir b. Zedlefe hânedanı X. yy başında şehri başşehir yaptı; Süleyman el-Müstaîn zamanında (1009-1010, 1015-1016) Saîd b. Hârûn'a iktâ verildi (Emevî çatısı içinde). Hârûnî fiilî bağımsızlık günü kaynakta yok: sınır Emevî devlet sonuna (1031) konuldu."
+   },
+   {
+    "f": "1031-01-01",
+    "t": "1052-05-03",
+    "d": "harunilar-sentemeriye",
+    "kesinlik": "gun",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye",
+    "ic_not": "Hârûnîler (Saîd b. Hârûn; oğlu Ebû Abdullah Muhammed el-Mu‘tasım) mülûkü't-tavâif dönemi şentemeriye taifası; hicrî 444 ∩ 1052 ilk günü 1052-05-03 (hicri.py). TDV Şentemeriye'de Mu'tasım dönemi 'istikrarlı' der.",
+    "kunye_yok": true
+   },
+   {
+    "f": "1052-05-03",
+    "t": "1091-01-01",
+    "d": "sevilla-abbadiler",
+    "kesinlik": "gun",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye; TDV Islam Ansiklopedisi, 'Kurtuba', https://islamansiklopedisi.org.tr/kurtuba; TDV Islam Ansiklopedisi, 'Abbadiler', https://islamansiklopedisi.org.tr/abbadiler",
+    "ic_not": "t: TDV Kurtuba 'Abbâdîler’in ve ... 1091’de Murâbıtlar’ın'; TDV Abbâdîler 'Abbâdîler hânedanına son verdi (1092)' => 1 yıllık TDV-içi fark, 1091 (Abbâdî künye sonu) alındı."
+   },
+   {
+    "f": "1091-01-01",
+    "t": "1147-01-01",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Kurtuba', https://islamansiklopedisi.org.tr/kurtuba; TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye; TDV Islam Ansiklopedisi, 'Endulus', https://islamansiklopedisi.org.tr/endulus",
+    "ic_not": "TDV Şentemeriye: Murâbıt ve Muvahhid zamanında şehrin adı 'nâdiren' geçer; şehre özel tanık yok, bölge (Şilb/İşbîliye) zinciri izlendi. t: TDV Endülüs 'Muvahhidler Dönemi (1147-1229)'."
+   },
+   {
+    "f": "1147-01-01",
+    "t": "1229-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Endulus', https://islamansiklopedisi.org.tr/endulus; TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye",
+    "ic_not": "Şehre özel tanık yok; bölge zinciri (TDV Endülüs: Muvahhidler ilk yıllarda Şilb'i kontrol altına aldı). Muvahhid künyesi 1130-1269."
+   },
+   {
+    "f": "1229-01-01",
+    "t": "1249-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Endulus', https://islamansiklopedisi.org.tr/endulus; TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye; Treccani, Enciclopedia Italiana, 'Portogallo' (Storia), https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
+    "ic_not": "BOŞLUK: Muvahhid sonrası Garb'ın yerel sahipleri (Şilb) kaynaklı bulunamadı. TDV Şentemeriye 'hıristiyanların eline 1233'te geçti' diyor ama aynı maddede 1249 fethini yazıyor (TDV kendi içinde çelişir); Treccani Portogallo Tavira ve Cacela'nın 1226-1238 arasında alındığını, Faro'nun 1249'da alındığını söyler. 1233 şehre özel Portekiz fethi olarak alınmadı."
+   },
+   {
+    "f": "1249-01-01",
+    "t": "1281-01-01",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye; Treccani, Enciclopedia Italiana, 'Portogallo' (Storia), https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
+    "ic_not": "III. Alfonso Faro'yu alır (çift teyit: TDV ve Treccani). TDV: 1252'de kısa bir süre Kastilya himayesi, 1266'da tekrar Portekiz — süre bilinmiyor/belirsiz, dönem AÇILMADI; Treccani: Kastilya'nın Algarve iddiası Alcañices (1297) ile bitti."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0044-01-01",
+    "gun": "MS 43-44",
+    "k": "diger",
+    "b": "Mela Ossonoba'yı Cuneus kıyısındaki kentler arasında sayar: ilk yazılı anılış (üst sınır 44).",
+    "kaynak": "Pomponius Mela, De chorographia III.7 (Latin Library, https://www.thelatinlibrary.com/pomponius3.html); tarih: Treccani, 'Pomponio Mela', https://www.treccani.it/enciclopedia/pomponio-mela_(Enciclopedia-Italiana)/",
+    "tanik": "in Cuneo sunt Myrtili, Balsa, Ossonoba"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu -> Batı Roma (Theodosius I ölür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus); Algarve V.-VIII. yy Vizigot (Treccani).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign (4 September?)"
+   },
+   {
+    "t": "0713-01-01",
+    "gun": "94 H / 713",
+    "k": "fetih",
+    "b": "Ossonoba (Şentemeriyetülgarp) Müslümanlarca fethedilir.",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye",
+    "tanik": "94 (713) yılında müslümanlar tarafından fethedildi"
+   },
+   {
+    "t": "0756-05-15",
+    "gun": "15 Mayıs 756",
+    "k": "diger",
+    "b": "künye geçişi: Emevî valileri -> bağımsız Endülüs Emevî Emirliği (I. Abdurrahman Musâre'de Yûsuf el-Fihrî'yi yener).",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Abdurrahman I', https://islamansiklopedisi.org.tr/abdurrahman-i (HAKKI DURSUN YILDIZ)",
+    "tanik": "15 Mayıs sabahı Yûsuf el-Fihrî’nin üzerine saldırdı"
+   },
+   {
+    "t": "1031-01-01",
+    "gun": "422 H / 1031",
+    "k": "diger",
+    "b": "künye geçişi: Endülüs Emevî Devleti yıkılır, mülûkü't-tavâif dönemi başlar; Hârûnî taifası.",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Endulus', https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Böylece 756’da bağımsız bir emirlik olarak kurulan Endülüs Emevî Devleti yıkılmış oldu (422/1031)"
+   },
+   {
+    "t": "1052-05-03",
+    "gun": "444 H / 1052",
+    "k": "fetih",
+    "b": "Abbâdîler Şentemeriyetülgarp'i ele geçirir (Mu'tazıd-Billâh'ın Batı Endülüs seferleri).",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye",
+    "tanik": "ancak 444’te (1052) Abbâdîler’in eline geçti"
+   },
+   {
+    "t": "1091-01-01",
+    "gun": "1091",
+    "k": "fetih",
+    "b": "Murâbıtlar Abbâdî ülkesini alır (Kurtuba/İşbîliye); Faro bölge zinciriyle.",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Kurtuba', https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "1091’de Murâbıtlar’ın, 1148’de Muvahhidler’in"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "diger",
+    "b": "künye geçişi: Murâbıtlar -> Muvahhidler (TDV Endülüs: Muvahhidler Dönemi 1147-1229).",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Endulus', https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "5. Muvahhidler Dönemi (1147-1229)."
+   },
+   {
+    "t": "1229-01-01",
+    "gun": "1229",
+    "k": "diger",
+    "b": "Muvahhid dönemi biter (TDV Endülüs 1147-1229); Faro'nun sonraki sahibi bulunamadı.",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Endulus', https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "5. Muvahhidler Dönemi (1147-1229)."
+   },
+   {
+    "t": "1249-01-01",
+    "gun": "1249",
+    "k": "fetih",
+    "b": "Portekiz Kralı III. Alfonso Faro'yu alır ve Silves'i yeniden fetheder.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Portogallo' (Storia), https://www.treccani.it/enciclopedia/portogallo_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1249 prese Faro e riconquistò Silves"
+   },
+   {
+    "t": "1252-01-01",
+    "gun": "1252",
+    "k": "diger",
+    "b": "Kısa süre Kastilya himayesi (süre/etki bilinmiyor); 1266'da tekrar Portekiz. Dönem açılmadı.",
+    "kaynak": "TDV Islam Ansiklopedisi, 'Sentemeriye', https://islamansiklopedisi.org.tr/sentemeriye",
+    "tanik": "1266’da tekrar Portekizliler’in eline geçti"
+   }
+  ],
+  "ic_not": "Faro: kaynaklar Mela (Latin Library), Plinius (Perseus), Princeton (Perseus), Livius, Treccani Algarve/Portogallo/Pomponio Mela, TDV Şentemeriye (Santa Maria de Algarve = Faro; Ossonoba) ve TDV Endülüs/Kurtuba/Abbâdîler/Abdurrahman I. ÇİFT TEYİT: Faro'nun 1249 fethi (TDV Şentemeriye + Treccani Portogallo, bağımsız). ÇELİŞKİ: TDV Şentemeriye 1233 / 1249; Treccani Portogallo Algarve'nin tamamını Alfonso III'e verir (1245-79). Atlas Faro 1281 'portekiz' ile uyumlu; atlas başlangıcı Faro için DÜZELTİLEBİLİR: Faro 1249'dan beri Portekiz (TDV+Treccani). Hicrî hesaplar tablo takvimiyle (Jülyen)."
  },
  {
   "id": "frankfurt-de",
@@ -4487,6 +5626,393 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "AEIOU: Hartberg bu çağda 'Zentralort der Steiermark' ve 1286'da ilk kez şehir olarak anılır (atlas sonrası). Doğu Stiriya Macar sınırında; 1254-1260 Macar işgali EI'de Stiriya geneli için verildi, Hartberg'e özgü tanık yok — Stiriya zincirini izler (zincir X'ten devralındı: Graz/Stiriya, EI 'Stiria')."
+ },
+ {
+  "id": "huelva-es",
+  "ad": "Huelva",
+  "atlas_ad": "Huelva",
+  "lat": 37.261,
+  "lon": -6.944,
+  "kat1900": 3,
+  "adlar": [
+   "Onoba Aestuaria (Onuba)",
+   "Velbe/Walba",
+   "Huelva"
+  ],
+  "ilk": {
+   "t": "-1000-01-01",
+   "gun": "MÖ 2. binyıl sonu",
+   "nicelik": "arkeolojik",
+   "kesinlik": "belirsiz",
+   "kaynak": "Gómez Toscano, Beltrán Pinzón, González Batanero (2014), 'El Bronce Final en Huelva ... La Orden-Seminario', Complutum 25(1), https://doi.org/10.5209/rev_cmpl.2014.v25.n1.45360 (OpenAlex özeti)",
+   "tanik": "historical evolution of the Atlantic Port as from the end of 2nd Millennium BC",
+   "ic_not": "Arkeolojik: Huelva Limanı'nın (La Orden-Seminario, modern kentin içinde ≤3 km) MÖ 2. binyıl sonundan itibaren yerleşimi; güvenli uç MÖ 2. binyıl sonu = MÖ 1001 = -1000. Fenike katmanı: Mederos 2006 (SPAL 15) Méndez Núñez–Plaza de las Monjas'ta Tyr seramiği 'inicios del siglo X ... con seguridad ca.975-950 AC'; Mederos 2021 (SAGVNTUM 53) en eski Fenike seramikleri Huelva'da, kutsal alan VIII-VI. yy katmanlarında. Yazılı ilk tanık (Strabon: Onoba yakınında Herakles adası, Treccani Cadice üzerinden) tarihlenemedi; Treccani Huelva 'fondata secondo alcuni dai Tirreni e secondo altri dai Fenici'."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0949-01-01",
+   "gun": "MÖ 975-950 (güvenli uç 950)",
+   "kesinlik": "onyil",
+   "kaynak": "Mederos Martín, A. (2006), 'Fenicios en Huelva, en el siglo X AC, durante el reinado de Hîrãm I de Tiro', SPAL 15, https://doi.org/10.12795/spal.2006.i15.08 (OpenAlex özeti)",
+   "tanik": "ca.975-950 AC"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-1000-01-01",
+    "t": "-0026-01-16",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'HUELVA', https://www.treccani.it/enciclopedia/huelva_(Enciclopedia-Italiana)/; Mederos 2006/2021 (OpenAlex)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Tartessos kültürü, Fenike varlığı (MÖ 10.-6. yy), Kartaca ve Roma Cumhuriyeti dönemlerinde Huelva'ya özgü SİYASÎ sahiplik tanığı bulunamadı; Treccani 'Río Tinto madenleri ... già sfruttate dai Cartaginesi e dai Romani' (tarihsiz)."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/; Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana, 'HUELVA', https://www.treccani.it/enciclopedia/huelva_(Enciclopedia-Italiana)/",
+    "tanik": "Durante la dominazione romana",
+    "ic_not": "Treccani: 'Durante la dominazione romana, col nome di Onõba' Río Tinto madenlerinin ihracat merkezi. Roma yönetiminin başlangıcı Huelva için tarihlenemedi; imparatorluğun başlangıcı (Betica eyaleti) alt sınır alındı."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1012-07-23",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'HUELVA', https://www.treccani.it/enciclopedia/huelva_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ebu-ubeyd-el-bekri",
+    "tanik": "Nulla se ne sa durante l'età visigota",
+    "ic_not": "Şehrin varlığı/sahibi bu aralıkta tarihlenemedi: Treccani 'Nulla se ne sa durante l'età visigota'; Müslüman dönemin ilk anılışı TDV Ebû Ubeyd el-Bekrî: büyük dedesi Eyyûb el-Bekrî 'Âmirîler döneminde Velbe (Huelva) ve Şeltîş’e vali tayin edilmiştir' (≈976-1009, günü yok). Fetih günü bulunamadı."
+   },
+   {
+    "f": "1012-07-23",
+    "t": "1051-05-15",
+    "d": "huelva-bekriler",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ebu-ubeyd-el-bekri; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mutazid-billah-el-abbadi",
+    "tanik": "Endülüs Emevî idaresinin son yıllarında ortaya çıkan karışıklıklardan istifade ederek 403’te (1012) bağımsızlığını ilân etmiştir",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'huelva-bekriler' (Huelva-Saltés Benî Bekrî emirliği, İzzüddevle Abdülazîz). f: '403’te (1012) bağımsızlığını ilân' → hicrî 403 ∩ 1012 = 1012-07-23. t: '443 (1051) yılına kadar bağımsızlığını muhafaza ... Abbâdîler’in Velbe’yi istilâ etmeleri' → hicrî 443 ∩ 1051 = 1051-05-15. TDV İÇİ ÇELİŞKİ: TDV Mu‘tazıd-Billâh maddesi '444’te (1052) ... Velbe (Huelva)' der; Bekrî maddesi esas alındı."
+   },
+   {
+    "f": "1051-05-15",
+    "t": "1091-02-23",
+    "d": "sevilla-abbadiler",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mutazid-billah-el-abbadi; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "444’te (1052) Kastâle, Velbe (Huelva), Şentemeriye (Santaver), Şilb (Silves)",
+    "ic_not": "t: Sevilla'nın Murâbıtlara geçişi (TDV İşbîliye 484/1091 → 1091-02-23); Huelva için İşbîliye zinciri devralındı (beyanlı)."
+   },
+   {
+    "f": "1091-02-23",
+    "t": "1147-01-01",
+    "d": "murabitlar",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/isbiliye; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "484’te (1091) Murâbıtlar’ın eline geçen İşbîliye",
+    "ic_not": "ZİNCİR İŞBÎLİYE'DEN DEVRALINDI (Huelva'ya özgü tanık yok). Murâbıt künyesi 1147-03-23'te biter."
+   },
+   {
+    "f": "1147-01-01",
+    "t": "1229-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus; Guarner González (1982), Informes de la Construcción (OpenAlex): Niebla surları 'fortificación almohade'",
+    "tanik": "Muvahhidler Dönemi (1147-1229)",
+    "ic_not": "ZİNCİR İŞBÎLİYE'DEN DEVRALINDI. Komşu Niebla'da Muvahhid surları (Guarner 1982) bölgenin Muvahhid hâkimiyetine akademik tanık."
+   },
+   {
+    "f": "1229-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus; Treccani, Enciclopedia Italiana, 'HUELVA', https://www.treccani.it/enciclopedia/huelva_(Enciclopedia-Italiana)/; González Jiménez & Montes Romero-Camacho (1999), Anuario de Estudios Medievales 29 (OpenAlex)",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Muvahhid sonrası Huelva için siyasî tanık yok. Komşu Niebla'nın Alfonso X tarafından alınışı 1262 (AEM 1999: 'Après la conquête de la ville de Niebla (1262)'); Huelva şehrinin kendi alınış günü bulunamadı. Treccani: 'la sua conquista ... sia da attribuirsi a Iñigo de Mendoza'; 1293'te Sancho IV Huelva'yı vasal mülk olarak Juan Mathe de Lara'ya verdi — Kastilya'nın 1293 öncesi Huelva'yı tuttuğu kesin, tarihi bilinmiyor."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0949-01-01",
+    "gun": "MÖ 975-950",
+    "k": "diger",
+    "b": "Tyr seramiği taşıyan en eski Fenike tabakası (Méndez Núñez–Plaza de las Monjas): Fenike teması.",
+    "kaynak": "Mederos Martín (2006), SPAL 15 (OpenAlex)",
+    "tanik": "ca.975-950 AC"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk Arcadius/Honorius arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "1012-07-23",
+    "gun": "403 H / 1012",
+    "k": "kayip",
+    "b": "İzzüddevle Abdülazîz el-Bekrî Velbe-Şeltîş'te bağımsızlığını ilân eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ebu-ubeyd-el-bekri",
+    "tanik": "Endülüs Emevî idaresinin son yıllarında ortaya çıkan karışıklıklardan istifade ederek 403’te (1012) bağımsızlığını ilân etmiştir"
+   },
+   {
+    "t": "1051-05-15",
+    "gun": "443 H / 1051",
+    "k": "fetih",
+    "b": "Abbâdîler Velbe'yi istilâ eder, Şeltîş'i 10.000 miskal altına satın alır (Bekrî maddesi 443/1051; Mu‘tazıd maddesi 444/1052).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mutazid-billah-el-abbadi",
+    "tanik": "444’te (1052) Kastâle, Velbe (Huelva), Şentemeriye (Santaver), Şilb (Silves)"
+   },
+   {
+    "t": "1091-02-23",
+    "gun": "484 H / 1091",
+    "k": "fetih",
+    "b": "Murâbıtlar İşbîliye'yi alır (Huelva için proxy).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "484’te (1091) Murâbıtlar’ın eline geçen İşbîliye"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "fetih",
+    "b": "Muvahhid dönemi başlar (TDV Endülüs 1147-1229).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Muvahhidler Dönemi (1147-1229)"
+   },
+   {
+    "t": "1229-01-01",
+    "gun": "1229",
+    "k": "kayip",
+    "b": "Muvahhid dönemi biter (TDV Endülüs).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Muvahhidler Dönemi (1147-1229)"
+   },
+   {
+    "t": "1262-01-01",
+    "gun": "1262",
+    "k": "fetih",
+    "b": "Alfonso X Niebla'yı alır (Huelva şehrinin komşu bölgesi; Huelva için doğrudan tanık değil).",
+    "kaynak": "González Jiménez & Montes Romero-Camacho (1999), Anuario de Estudios Medievales 29, https://doi.org/10.3989/aem.1999.v29.i1.529 (OpenAlex)",
+    "tanik": "Après la conquête de la ville de Niebla (1262)"
+   }
+  ],
+  "dikis_beyan": "Atlas Huelva'yı 1281'de Kastilya ile başlatıyor; Huelva şehrinin Kastilya'ya geçiş günü kaynakta BULUNAMADI (denenen: TDV Velbe, Treccani Huelva [fatih 'Iñigo de Mendoza', 1293 feodal veriliş], OpenAlex: Niebla 1262). Yer tutucu olay yazılmadı.",
+  "ic_not": "Huelva: Fenike geleneği/arkeolojisi MÖ 10. yy; kaynaklı SİYASÎ zincir yalnız 1012'den (Bekrî) başlıyor. Kaynak sınırları: TDV'de 'Velbe' maddesi YOK (yalnız Bekrî/Mu‘tazıd/İşbîliye içi anma); Pliny/Strabon Onoba tanıkları tarihlenemedi. Çelişkiler: Abbâdî alışı 443/1051 ↔ 444/1052 (TDV içi). Atlas düzeltmesi: 1281'de Kastilya iddiası şehir için kaynaksız; Niebla bölgesi 1262'de Kastilya'ya geçti — Huelva için en geç 1293 öncesi. Çift teyit YOK."
+ },
+ {
+  "id": "jaen-es",
+  "ad": "Jaén",
+  "atlas_ad": "Jaén",
+  "lat": 37.779,
+  "lon": -3.79,
+  "kat1900": 3,
+  "adlar": [
+   "Ceyyân (Cayyân)",
+   "Jaén"
+  ],
+  "ilk": {
+   "t": "0747-01-01",
+   "gun": "747",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus (Siyasî Tarih, 1. Fetih ve Valiler Dönemi)",
+   "tanik": "İşbîliye, Humus (Hıms), Ceyyân, Şezûne, İlbîre, Cezîretülhadrâ, Tüdmîr, Reyyu ve Bâce’ye yerleştirilmeleriyle çözümlendi",
+   "ic_not": "İlk anılış alt sınırdır, kuruluş DEĞİL. TDV Endülüs: Ebü’l-Hattâr (Berberî isyanı 741, 'ertesi yıl' 742'de bastırıldı; Yûsuf el-Fihrî 747'de vali) Şam askerlerini 'el-Küverülmücennede' vilâyetlerine, Ceyyân dahil, yerleştirdi — tarih aralığı 742-747, güvenli uç (son uç) 747 alındı. Öncesi: Treccani Jaén 'Fu abitata dai Turduli, conquistata dai Romani e dai Visigoti' (tarihsiz); Roma adı (Aurgi/Giennium) bu oturumda kaynakla bağlanamadı; TDV'de ayrı bir 'Ceyyân' maddesi YOK. Treccani: Jaén'ın piskoposluğu VII. yy (Spagna, piskoposluk listesi)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0747-01-01",
+    "t": "0756-05-15",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "İşbîliye, Humus (Hıms), Ceyyân, Şezûne, İlbîre, Cezîretülhadrâ, Tüdmîr, Reyyu ve Bâce’ye yerleştirilmeleriyle çözümlendi",
+    "ic_not": "Valiler dönemi; Emevî künyesi 750-08-05'te biter, dönem 756'ya uzatıldı (künye GENİŞLET). Ceyyân Şam (Kınnesrîn) cündünün yerleştiği vilâyetlerden biri (TDV)."
+   },
+   {
+    "f": "0756-05-15",
+    "t": "1031-01-01",
+    "d": "endulus-emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abdurrahman-i; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cehveriler",
+    "ic_not": "ZİNCİR KURTUBA'DAN DEVRALINDI (1009-1031 fitne dönemi Ceyyân'a özgü tanık yok; künye endulus-emevi f=756 t=1031). Treccani: Omar ibn Hafsun isyanında Jaén dağları sahne oldu (Treccani Jaén, tarihsiz)."
+   },
+   {
+    "f": "1031-01-01",
+    "t": "1070-01-01",
+    "d": "kurtuba-cehveriler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cehveriler",
+    "tanik": "Ceyyân (Jaén) gibi yakın şehirleri de sınırları içine alan Cehverîler hânedanı",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK ('kurtuba-cehveriler'): TDV 'Kurtuba merkez olmak üzere Ceyyân (Jaén) gibi yakın şehirleri de sınırları içine alan Cehverîler hânedanı kurulmuş oldu' — DOĞRUDAN tanık. t: Cehverîlerin sonu (Kurtuba 1070)."
+   },
+   {
+    "f": "1070-01-01",
+    "t": "1091-01-01",
+    "d": "sevilla-abbadiler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbadiler; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "Cehverîler’in elinde bulunan Kurtuba’yı kendi topraklarına kattı",
+    "ic_not": "ZİNCİR KURTUBA'DAN DEVRALINDI (beyanlı yaklaşıklık): Ceyyân'a özgü Abbâdî tanığı bulunamadı; Kurtuba 1070-1091 Abbâdîler."
+   },
+   {
+    "f": "1091-01-01",
+    "t": "1147-01-01",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'JAÉN', https://www.treccani.it/enciclopedia/jaen_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "Alla fine del sec. XI cadde in potere degli Almoravidi",
+    "ic_not": "Treccani Jaén (Ceyyân'a özgü): 'Alla fine del sec. XI cadde in potere degli Almoravidi'. Yıl 1091 Kurtuba'dan (proxy). Murâbıt künyesi 1147-03-23'te biter."
+   },
+   {
+    "f": "1147-01-01",
+    "t": "1172-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus; Treccani, Enciclopedia Italiana, 'JAÉN', https://www.treccani.it/enciclopedia/jaen_(Enciclopedia-Italiana)/",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Murâbıt sonrası Jaén. Treccani 'alla metà del XII in potere degli Almohadi' (≈1150) ↔ TDV Endülüs: Muvahhidler 1172'de 'Kastilya Krallığı’nın himayesinde bulunan Benî Merdenîş’ten Muhammed b. Sa‘d’ı mağlûp ettiler; Belensiye, Mürsiye, Ceyyân ...' (Ceyyân'ı 1172'de ele geçirdiler). TDV esas alındı ama TDV cümlesi aynı kampanyada Gırnata'yı da sayar (Gırnata 1156'da zaten Muvahhid) — Ceyyân'ın Mardanişî elinde olup olmadığı belirsiz; 'murcia-ibn-merdenis' künyesi (1147-1172) yazılmadı. Kuşak sınırından kısa (25 yıl) olduğu için BOŞLUK beyanlı bırakıldı."
+   },
+   {
+    "f": "1172-01-01",
+    "t": "1228-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Muhammed b. Sa‘d’ı mağlûp ettiler; Belensiye (Valencia), Mürsiye, Ceyyân",
+    "ic_not": "TDV Endülüs: 'nihayet 1172’de ... Muhammed b. Sa‘d’ı mağlûp ettiler; Belensiye (Valencia), Mürsiye, Ceyyân, Vâdîâş ...'. 1212 İkāb (Las Navas de Tolosa) Jaén topraklarında yapıldı (Treccani 16 Temmuz 1212)."
+   },
+   {
+    "f": "1228-01-01",
+    "t": "1238-05-12",
+    "d": "ibn-hud-murcia",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hudiler; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Sonunda Ceyyân (Jaén) ile Vâdîâş’ı (Guadix) Muhammed b. Nasr’a bırakırken",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK ('ibn-hud-murcia'): 'f en geç tanıktan' DEĞİL, proxy: İbn Hûd'un Kurtuba'yı alışı 1228 (TDV Kurtuba); TDV Hûdîler 'Sonunda Ceyyân (Jaén) ile Vâdîâş’ı (Guadix) Muhammed b. Nasr’a bırakırken' — Ceyyân'ın İbn Hûd'a ne zaman geçtiği ve Nasrî'ye devrin günü BULUNAMADI (≤1238-05-12, Nasrî devletinin kuruluşu). Beyanlı yaklaşıklık."
+   },
+   {
+    "f": "1238-05-12",
+    "t": "1246-01-01",
+    "d": "granada",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nasriler",
+    "tanik": "kısa sürede Vâdîâş (Guadix), Besta (Baza), Ceyyân (Jaén), Mâleka (Malaga)",
+    "ic_not": "TDV Nasrîler: 'Nasrîler hânedanını kurdu (26 Ramazan 635 / 12 Mayıs 1238)'; 'kısa sürede ... Ceyyân' (Ceyyân'ın Nasrî'ye geçişi bu kuruluştan önce olabilir, bkz. önceki dönem)."
+   },
+   {
+    "f": "1246-01-01",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nasriler; Treccani, Enciclopedia Italiana, 'JAÉN', https://www.treccani.it/enciclopedia/jaen_(Enciclopedia-Italiana)/",
+    "tanik": "III. Fernando da 1236’da Kurtuba’yı, 1246’da Ceyyân ve Arcûne’yi (Arjona) aldılar",
+    "ic_not": "ÇELİŞKİ: TDV Endülüs 1246 (III. Fernando 'Ceyyân ve Arcûne’yi aldılar') ↔ Treccani Jaén 'Ferdinando II riconquistò la città nel 1245' (kral numarası da yanlış). TDV esas: 1246. TDV Nasrîler: Muhammed Ceyyân'ı Kastilya kralına bıraktı, haraç ödemeyi kabul etti. Atlas Jaén 1281 Kastilya ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0747-01-01",
+    "gun": "742-747",
+    "k": "diger",
+    "b": "Şam askerleri Ceyyân dahil askerî vilâyetlere yerleştirilir: Ceyyân'ın ilk anılışı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "İşbîliye, Humus (Hıms), Ceyyân, Şezûne, İlbîre, Cezîretülhadrâ, Tüdmîr, Reyyu ve Bâce’ye yerleştirilmeleriyle çözümlendi"
+   },
+   {
+    "t": "0756-05-15",
+    "gun": "15 Mayıs 756",
+    "k": "diger",
+    "b": "künye geçişi: Emevî valileri (Yûsuf el-Fihrî) → bağımsız Endülüs Emevî Emirliği; I. Abdurrahman Musâre savaşını kazanır, Kurtuba'ya girer. Ceyyân için: bölge Endülüs Emevî devletinde (proxy).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abdurrahman-i (HAKKI DURSUN YILDIZ)",
+    "tanik": "15 Mayıs sabahı Yûsuf el-Fihrî’nin üzerine saldırdı"
+   },
+   {
+    "t": "1031-01-01",
+    "gun": "1031",
+    "k": "diger",
+    "b": "Cehverîler hânedanı Kurtuba ve Ceyyân gibi yakın şehirler üzerine kurulur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cehveriler",
+    "tanik": "Ceyyân (Jaén) gibi yakın şehirleri de sınırları içine alan Cehverîler hânedanı"
+   },
+   {
+    "t": "1070-01-01",
+    "gun": "1070",
+    "k": "fetih",
+    "b": "Abbâdîler Cehverîler'in Kurtuba'sını alır (Ceyyân için proxy).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbadiler",
+    "tanik": "Cehverîler’in elinde bulunan Kurtuba’yı kendi topraklarına kattı"
+   },
+   {
+    "t": "1091-01-01",
+    "gun": "1091",
+    "k": "fetih",
+    "b": "Murâbıtlar Kurtuba'yı alır; Treccani Jaén: XI. yy sonunda Murâbıtlar'ın eline geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'JAÉN', https://www.treccani.it/enciclopedia/jaen_(Enciclopedia-Italiana)/",
+    "tanik": "Alla fine del sec. XI cadde in potere degli Almoravidi"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "diger",
+    "b": "Murâbıt dönemi biter (TDV Endülüs: Murâbıtlar Dönemi 1090-1147).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Murâbıtlar Dönemi (1090-1147)"
+   },
+   {
+    "t": "1172-01-01",
+    "gun": "1172",
+    "k": "fetih",
+    "b": "Muvahhidler Benî Merdenîş'ten Muhammed b. Sa‘d'ı yenip Belensiye, Mürsiye, Ceyyân ... şehirlerini alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Muhammed b. Sa‘d’ı mağlûp ettiler; Belensiye (Valencia), Mürsiye, Ceyyân"
+   },
+   {
+    "t": "1228-01-01",
+    "gun": "1228",
+    "k": "kayip",
+    "b": "Hûdîler (İbn Hûd) Muvahhidler'in yerini alır (Kurtuba 1228); Ceyyân için proxy.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "1091’de Murâbıtlar’ın, 1148’de Muvahhidler’in ve 1228’de Hûdîler’in eline geçti"
+   },
+   {
+    "t": "1238-05-12",
+    "gun": "26 Ramazan 635 / 12 Mayıs 1238",
+    "k": "kurulus",
+    "b": "Muhammed b. Yûsuf b. Nasr Nasrî (Gırnata) devletini kurar; kısa sürede Ceyyân dahil şehirleri hâkimiyetine alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nasriler",
+    "tanik": "Nasrîler hânedanını kurdu (26 Ramazan 635 / 12 Mayıs 1238)"
+   },
+   {
+    "t": "1246-01-01",
+    "gun": "1246",
+    "k": "fetih",
+    "b": "III. Fernando Ceyyân ve Arcûne'yi alır; Muhammed b. Nasr Ceyyân'ı Kastilya kralına bırakır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "III. Fernando da 1236’da Kurtuba’yı, 1246’da Ceyyân ve Arcûne’yi (Arjona) aldılar"
+   },
+   {
+    "t": "1246-01-01",
+    "gun": "1246",
+    "k": "antlasma",
+    "b": "Ceyyân savunmasında çaresiz kalan Muhammed, Kastilya kralıyla hâkimiyetini tanıma ve Ceyyân'ı bırakma anlaşması yapar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nasriler",
+    "tanik": "Ceyyân savunmasında çaresiz kalınca Kastilya kralıyla hâkimiyetini tanıma, Ceyyân’ı ve bazı kaleleri ona bırakma"
+   }
+  ],
+  "ic_not": "Jaén'ın kaynaklı yazılı tarihi 747 civarından (Müslüman idari kaydı) başlıyor; Roma/Vizigot dönemi tarihsiz. Zincir: Cehverîler dönemi Ceyyân'a DOĞRUDAN tanıklı; Abbâdî, Murâbıt, Muvahhid ve Hûdî dönemleri Kurtuba/TDV Endülüs genel zincirinden devralındı (beyanlı). 1147-1172 BOŞLUK. Çelişkiler: Fernando III Jaén 1246 (TDV) ↔ 1245 (Treccani, kral numarası da hatalı) — TDV esas; Muvahhid Jaén'i 1172 (TDV) ↔ 'metà del XII' (Treccani). Atlas düzeltmesi gerekmiyor: atlas Jaén 1281 Kastilya, zincirle uyumlu; atlas başlangıcı 1246'ya çekilebilir (Kastilya'ya geçiş 1246, TDV). Çift teyit YOK."
  },
  {
   "id": "jinan-cin",
@@ -6157,6 +7683,328 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "UYARI: ilk anılış 'um 525' yalnız Vikipedi DE'de bulundu (Anarid) — Vikipedi tek dayanak olamaz kuralı gereği BU KAYIT TASLAKTIR; akademik ikinci tanık açılamadı (HLS Konstanz 'zerfallenes spätrömisches Kastell Constantia' ve 4. yy tahkimat arkeolojisi verir; Treccani Costanzo II. dönemi 4. yy kale ve 6. yy ilk yarısında piskoposluk der, ama ad yazılı tanığı vermez). Roma dönemi (Constantia 4. yy kalesi, Raetia prima 297) arkeolojiyle belgeli, yazılı tanık bu oturumda yok → zincir 525'te başlıyor; 4. yy Roma dönemi ark alanında. Konstanz noktasının Roma kalesi ile aynı yerde olduğu (Münsterplatz) HLS'de. Treccani 6. yy ilk yarısı piskoposluk (Vindonissa'dan nakil), HLS 6/7. yy dönümü; Vikipedi ~585 — ikisi de olay. Çift teyit YOK."
  },
  {
+  "id": "kurtuba-es",
+  "ad": "Kurtuba (Córdoba)",
+  "atlas_ad": "Kurtuba (Córdoba)",
+  "lat": 37.888,
+  "lon": -4.779,
+  "kat1900": 3,
+  "adlar": [
+   "(Yerli İber yerleşimi, adı bulunamadı)",
+   "Corduba (Colonia Patricia)",
+   "Kurtuba",
+   "Córdoba"
+  ],
+  "ilk": {
+   "t": "-0151-01-01",
+   "gun": "MÖ 152",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Princeton Encyclopedia of Classical Sites (1976), 'CÓRDUBA (Córdoba)' (Perseus), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=corduba",
+   "tanik": "founded in 152 B.C. by the consul Claudius Marcellus on an ancient native site",
+   "ic_not": "Roma kolonisi olarak kuruluş: Princeton 'konsül Claudius Marcellus MÖ 152' der ve 'ancient native site' (yerli yerleşim) üstüne kurulduğunu söyler — yerli yerleşimin tarihi/adı bu oturumda bulunamadı. TDV: 'Fenikeliler tarafından kurulmuştur' (tarihsiz gelenek) ve 'milâttan önce 152’de General Claudius Marcellus’un Keltiber harekâtı sırasında zaptedilerek Baetica eyaletinin merkezi yapıldı' — iki kaynakta 152 yılı AYNI (çift teyit: Princeton + TDV; ikisi de akademik ansiklopedi). MÖ 152 → astronomik -0151."
+  },
+  "kur": {
+   "t": "-0151-01-01",
+   "gun": "MÖ 152",
+   "kesinlik": "yil",
+   "kaynak": "Princeton Encyclopedia of Classical Sites (1976), 'CÓRDUBA (Córdoba)' (Perseus), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=corduba",
+   "tanik": "founded in 152 B.C. by the consul Claudius Marcellus on an ancient native site"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0151-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Princeton 'Córduba'; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba; Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "ic_not": "MÖ 152'den: Roma kolonisi (Princeton: colonia statüsünü 'shortly before A.D. 45' alır); TDV: Baetica eyaletinin merkezi."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/; Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Princeton 'Córduba'",
+    "ic_not": "Princeton: 'Patricia' unvanı Augustus'tan, Legio V ve X gazileri yerleştirildi; senatoryal Baetica eyaletinin başkenti."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0411-01-01",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "ic_not": "t: Treccani Spagna 'intorno al 411 ... i Vandali Silingi nella Betica'. Batı Roma künyesi 476-08-28'e kadar sürer; bu dönem Silingi yerleşimine kadar kısaltıldı."
+   },
+   {
+    "f": "0411-01-01",
+    "t": "0554-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba; Isidorus Hispalensis, Historia Gothorum/Vandalorum/Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "tanik": "adversus Cordubensem urbem praelium movens",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Treccani Spagna Vandal Silingi'nin Betica'ya yerleşmesini (≈411) ve Vizigotların onları yok edişini (417) verir; TDV 'V. yüzyılın ilk çeyreğinde ... yakılıp yıkılan' der; Isidorus Historia Gothorum (Era DLXXXVII ≈ MS 549) kralı Agila'nın 'Cordubensem urbem' üstüne savaş açıp yenildiğini söyler (şehir Vizigot krallığına karşı kendi başınadır). Şehir adına ne bir sahip ne tarih verilmiş; yaklaşıklık yazılmadı."
+   },
+   {
+    "f": "0554-01-01",
+    "t": "0571-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "554’te Bizanslılar, 571’de Vizigot Kralı Leovigild tarafından ele geçirilen",
+    "ic_not": "TDV: '554’te Bizanslılar, 571’de Vizigot Kralı Leovigild tarafından ele geçirilen şehir'. UYARI: Treccani Spagna 554'te Justinianus'a bırakılan bölgeyi 'zona costiera nel levante e nel mezzogiorno' (kıyı şeridi) diye verir — Kurtuba iç kesimde; TDV ile dış kaynak çelişkisinde TDV esas alındı, çelişki beyan edilir."
+   },
+   {
+    "f": "0571-01-01",
+    "t": "0711-07-22",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "Vizigot hâkimiyetinde kaldı",
+    "ic_not": "Vizigot künyesi 0711-01-01'de biter; dönem Kurtuba'nın fethine (Şevval 92 ≈ Temmuz 711) kadar uzatıldı (hayalet uyarısı beklenir; künye GENİŞLET önerisi)."
+   },
+   {
+    "f": "0711-07-22",
+    "t": "0756-05-15",
+    "d": "emevi",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "ic_not": "f: 'Şevval 92’de (Temmuz-Ağustos 711)' → 1 Şevval 92 = 0711-07-22 (tablo takvimi, Jülyen; ay hassasiyeti). Valiler dönemi: TDV 'İkinci vali Hür b. Abdurrahman es-Sekafî (716-719) Endülüs’ün başşehri olarak burayı seçti'. Emevî künyesi 750-08-05'te biter; Endülüs valileri 756'ya kadar sürer — künye GENİŞLET önerisi."
+   },
+   {
+    "f": "0756-05-15",
+    "t": "1016-06-10",
+    "d": "endulus-emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abdurrahman-i",
+    "ic_not": "Başşehir. 1013'te Berberî yağması (TDV) kaynakta el değişikliği olarak geçmez, dönem açılmadı. t: hicrî 407 Muharrem 1. günü (Hammûdî girişi)."
+   },
+   {
+    "f": "1016-06-10",
+    "t": "1022-04-06",
+    "d": "hammudiler",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hammudiler",
+    "tanik": "Muharrem 407’de (Haziran 1016) Endülüs’e geçti",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'hammudiler' (Alevî/Berberî Hammûdî hânedanı; Malaga merkezli kolu 1057'ye kadar sürer). f: 'Muharrem 407’de (Haziran 1016)' → 1 Muharrem 407 = 1016-06-10 (tablo takvimi). t: 'Kāsım’ı ... şehirden attı (413/1022)' → hicrî 413 ∩ 1022 kesişiminin ilk günü 1022-04-06. Dönem içi: Yahyâ 22 Rebîülâhir 412 / 5 Ağustos 1021'de Kurtuba'da halife ilân edilir (~1,5 yıl), Kāsım geri döner — dönem bölünmedi (Hammûdî hânedanı içi)."
+   },
+   {
+    "f": "1022-04-06",
+    "t": "1031-01-01",
+    "d": "endulus-emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cehveriler; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hammudiler",
+    "tanik": "1031 yılı başlarında Kurtuba’da yönetimi üzerine aldı",
+    "ic_not": "Hammûdîlerin sürülüşünden Emevî halifeliğinin ilgasına (1031) kadar Emevî soyundan halifeler (künye endulus-emevi f=756 t=1031)."
+   },
+   {
+    "f": "1031-01-01",
+    "t": "1070-01-01",
+    "d": "kurtuba-cehveriler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cehveriler; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "1031’den 1070’e kadar Cehverîler’in idaresinde bir cumhuriyet haline gelen Kurtuba",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'kurtuba-cehveriler' (Cehverîler hânedanı, 'Kurtuba ve çevresinde kurulup yaklaşık kırk yıl süren'; 'cumhuriyet'). f: 'Ebû Hazm Cehver ... 1031 yılı başlarında' (gün yok → 01-01). t: TDV Kurtuba '1031’den 1070’e kadar'."
+   },
+   {
+    "f": "1070-01-01",
+    "t": "1091-01-01",
+    "d": "sevilla-abbadiler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbadiler; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/isbiliye; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "Cehverîler’in elinde bulunan Kurtuba’yı kendi topraklarına kattı",
+    "ic_not": "Abbâdî Mu‘temid 'tahta geçişinin ikinci yılının başında' Kurtuba'yı kattı (TDV Abbâdîler) — TDV Kurtuba 1070. 1075'te Zünnûnî Me’mûn adına Ukkâşe'nin kısa zaptı ve 'üç yıllık mücadeleden sonra' Mu‘temid'in geri alışı (bitiş günü verilmemiş) olay olarak yazıldı, dönem AÇILMADI. t: TDV Kurtuba 1091 (TDV Abbâdîler maddesi Tâşfîn'in zaptını 1092 verir — TDV içi çelişki, şehir maddesi esas)."
+   },
+   {
+    "f": "1091-01-01",
+    "t": "1148-01-01",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba; Treccani, Enciclopedia Italiana, 'CORDOVA', https://www.treccani.it/enciclopedia/cordova_(Enciclopedia-Italiana)/",
+    "tanik": "1091’de Murâbıtlar’ın, 1148’de Muvahhidler’in ve 1228’de Hûdîler’in eline geçti",
+    "ic_not": "Çift teyit (yıl): TDV Kurtuba 1091 ve Treccani Cordova 'almoravide nel 1091'. Murâbıt künyesi 1147-03-23'te biter; dönem Muvahhid girişine (1148) kadar uzatıldı (hayalet uyarısı; künye GENİŞLET önerisi). 1121'de Kurtuba isyanı bastırıldı (TDV Murâbıtlar) — el değişmedi."
+   },
+   {
+    "f": "1148-01-01",
+    "t": "1228-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba; Treccani, Enciclopedia Italiana, 'CORDOVA', https://www.treccani.it/enciclopedia/cordova_(Enciclopedia-Italiana)/",
+    "tanik": "dalla almohade negli anni 1148-1229",
+    "ic_not": "Treccani Cordova 'almohade negli anni 1148-1229' (bitiş 1229) ↔ TDV Kurtuba 1228: TDV esas. 1195 Alarcos ve 1212 İkāb Kurtuba'nın kuzeyinde (TDV Muvahhidler) — el değişmedi."
+   },
+   {
+    "f": "1228-01-01",
+    "t": "1236-01-01",
+    "d": "ibn-hud-murcia",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hudiler",
+    "tanik": "1228’de Hûdîler’in eline geçti",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'ibn-hud-murcia' (Mürsiye'de bağımsızlığını ilân eden İbn Hûd el-Mütevekkil; Granada predecesörü de aynı id'yi önerdi). t = atlas dikişi 1236-01-01; GERÇEK GÜN 29 Haziran 1236 (Sanz Sancho 1988) — atlas başlangıcı 1236-06-29 olmalı, bu dönem 29 Haziran'a kadar sürer."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0151-01-01",
+    "gun": "MÖ 152",
+    "k": "kurulus",
+    "b": "Konsül Claudius Marcellus Corduba'yı yerli bir yerleşimin üstüne Roma kolonisi olarak kurar.",
+    "kaynak": "Princeton Encyclopedia of Classical Sites (1976), 'CÓRDUBA (Córdoba)' (Perseus), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=corduba",
+    "tanik": "founded in 152 B.C. by the consul Claudius Marcellus on an ancient native site"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk Arcadius/Honorius arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0411-01-01",
+    "gun": "≈411",
+    "k": "fetih",
+    "b": "Vandal Silingi Betica'ya yerleşir (Svevler/Asdingi Galizia'ya, Alanlar Lusitania'ya): Roma yönetimi biter.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "i Vandali Silingi nella Betica"
+   },
+   {
+    "t": "0554-01-01",
+    "gun": "554",
+    "k": "fetih",
+    "b": "Kurtuba Bizanslılarca ele geçirilir (TDV).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "554’te Bizanslılar, 571’de Vizigot Kralı Leovigild tarafından ele geçirilen"
+   },
+   {
+    "t": "0571-01-01",
+    "gun": "571",
+    "k": "fetih",
+    "b": "Vizigot Kralı Leovigild Kurtuba'yı ele geçirir (TDV; kaynaklar genelde 572 der).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "554’te Bizanslılar, 571’de Vizigot Kralı Leovigild tarafından ele geçirilen"
+   },
+   {
+    "t": "0711-07-22",
+    "gun": "Şevval 92 / Temmuz-Ağustos 711",
+    "k": "fetih",
+    "b": "Târık b. Ziyâd'ın kumandanı Mugīs er-Rûmî Kurtuba'yı önemli bir direniş görmeden fetheder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "Şevval 92’de (Temmuz-Ağustos 711) şehri önemli bir direnişle karşılaşmadan fethetti"
+   },
+   {
+    "t": "0756-05-15",
+    "gun": "15 Mayıs 756",
+    "k": "diger",
+    "b": "künye geçişi: Emevî valileri (Yûsuf el-Fihrî) → bağımsız Endülüs Emevî Emirliği; I. Abdurrahman Musâre savaşını kazanır, Kurtuba'ya girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abdurrahman-i (HAKKI DURSUN YILDIZ)",
+    "tanik": "15 Mayıs sabahı Yûsuf el-Fihrî’nin üzerine saldırdı"
+   },
+   {
+    "t": "1013-01-01",
+    "gun": "1013",
+    "k": "kayip",
+    "b": "Berberîler Kurtuba'yı yağmalar (sahiplik değişmedi; Emevî halifeliği çöküş sürecinde).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "şehir 1013’te Berberîler tarafından yağmalandı"
+   },
+   {
+    "t": "1016-06-10",
+    "gun": "1 Muharrem 407 / Haziran 1016",
+    "k": "fetih",
+    "b": "Hammûd (Hammûdî) Kurtuba'ya girer; Emevî dışı, Ali evlâdından bir sülâle şehri alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hammudiler",
+    "tanik": "Muharrem 407’de (Haziran 1016) Endülüs’e geçti ve fazla bir mukavemetle karşılaşmadan Kurtuba’ya (Córdoba) girdi"
+   },
+   {
+    "t": "1022-04-06",
+    "gun": "413 H / 1022",
+    "k": "kayip",
+    "b": "Kurtuba halkı ayaklanıp Kāsım'ı, Berberîleri ve Sudanlı muhafızları atar: Hammûdî hâkimiyeti sona erer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hammudiler",
+    "tanik": "Kāsım’ın sürülmesiyle Hammûdîler Kurtuba’daki hâkimiyetlerini kaybettiler"
+   },
+   {
+    "t": "1031-01-01",
+    "gun": "1031",
+    "k": "diger",
+    "b": "Emevî halifeliği ilga edilir, Ebû Hazm Cehver Kurtuba'da yönetimi alır (Cehverîler).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cehveriler",
+    "tanik": "1031 yılı başlarında Kurtuba’da yönetimi üzerine aldı"
+   },
+   {
+    "t": "1070-01-01",
+    "gun": "1070",
+    "k": "fetih",
+    "b": "Abbâdî Mu‘temid Cehverîler'in elindeki Kurtuba'yı kendi topraklarına katar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbadiler",
+    "tanik": "Cehverîler’in elinde bulunan Kurtuba’yı kendi topraklarına kattı"
+   },
+   {
+    "t": "1075-01-01",
+    "gun": "1075",
+    "k": "isgal",
+    "b": "Ukkâşe adlı maceraperest Kurtuba'yı Zünnûnî Me’mûn adına zaptetti; Mu‘temid üç yıllık mücadeleden sonra geri aldı (dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbadiler",
+    "tanik": "Ukkâşe adındaki bir maceraperest Kurtuba’ya saldırdı ve burayı Me’mûn adına zaptetti (1075)"
+   },
+   {
+    "t": "1091-01-01",
+    "gun": "1091",
+    "k": "fetih",
+    "b": "Murâbıtlar Kurtuba'yı Abbâdîler'den alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CORDOVA', https://www.treccani.it/enciclopedia/cordova_(Enciclopedia-Italiana)/",
+    "tanik": "dall'invasíone almoravide nel 1091 e dalla almohade negli anni 1148-1229"
+   },
+   {
+    "t": "1148-01-01",
+    "gun": "1148",
+    "k": "fetih",
+    "b": "Muvahhidler Kurtuba'yı Murâbıtlar'dan alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "1091’de Murâbıtlar’ın, 1148’de Muvahhidler’in ve 1228’de Hûdîler’in eline geçti"
+   },
+   {
+    "t": "1228-01-01",
+    "gun": "1228",
+    "k": "kayip",
+    "b": "Hûdîler (İbn Hûd) Kurtuba'yı Muvahhidler'den alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kurtuba",
+    "tanik": "1091’de Murâbıtlar’ın, 1148’de Muvahhidler’in ve 1228’de Hûdîler’in eline geçti"
+   },
+   {
+    "t": "1236-01-01",
+    "gun": "633 H / 1236",
+    "k": "fetih",
+    "b": "Kastilya-León Kralı III. Fernando Kurtuba'yı zapteder (TDV yalnız yıl verir).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hudiler",
+    "tanik": "Kurtuba 633’te (1236) Kastilya kralı tarafından istilâ edildi"
+   },
+   {
+    "t": "1236-06-29",
+    "gun": "29 Haziran 1236",
+    "k": "fetih",
+    "b": "Kral III. Fernando Córdoba'yı fetheder (29 Haziran 1236).",
+    "kaynak": "Sanz Sancho, I. (1988), 'La Iglesia y el Obispado de Córdoba en la Baja Edad Media (1236-1426)', Dialnet / OpenAlex",
+    "tanik": "CORDOBA POR EL REY FERNANDO III EL SANTO, EL 29 DE JUNIO DE 1236"
+   }
+  ],
+  "ic_not": "Kurtuba kuruluşu (Roma kolonisi, MÖ 152) iki kaynakta (Princeton + TDV) aynı yıl: çift teyit. Fenike geleneği tarihsiz. ATLAS DÜZELTMESİ: atlas Kurtuba'nın Kastilya başlangıcını 1236-01-01 yazar; gerçek gün 29 Haziran 1236 (Sanz Sancho 1988) → atlas başlangıcı 1236-06-29 ve Hûdî dönemi o güne uzatılmalı. 411-554 aralığı BOŞLUK (kaynakta sahibi yok). Künye önerileri: 'hammudiler', 'kurtuba-cehveriler' (yeni); 'ibn-hud-murcia' (Granada tarihçesiyle ortak). Genişletme önerileri: vizigot → 711-07, emevi → 756-05, murabitlar → 1148. Çelişkiler: TDV Abbâdîler 1092 ↔ TDV Kurtuba 1091; Treccani Cordova Muvahhid sonu 1229 ↔ TDV 1228."
+ },
+ {
   "id": "la-rochelle-fr",
   "ad": "La Rochelle",
   "atlas_ad": "La Rochelle",
@@ -6228,6 +8076,103 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Atlas La Rochelle 1281 'fransa' — uyumlu (1360-1372 İngiliz dönemi atlasta). Çift teyit YOK (gün yalnız Vikipedi)."
+ },
+ {
+  "id": "lagos-pt",
+  "ad": "Lagos (Algarve)",
+  "atlas_ad": "Lagos (Algarve)",
+  "lat": 37.102,
+  "lon": -8.674,
+  "kat1900": 3,
+  "adlar": [
+   "(Monte Molião, Lacobriga? — Princeton)",
+   "Lagos"
+  ],
+  "ilk": {
+   "t": "-0100-01-01",
+   "gun": "MÖ 101 (MÖ 2. yüzyılın son çeyreği)",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Arruda, A. M. & Sousa, E. de (2013), 'Ânforas republicanas de Monte Molião (Lagos, Algarve, Portugal)', SPAL 22, https://doi.org/10.12795/spal.2013.i22.05 (OpenAlex özeti)",
+   "tanik": "extensa ocupação romano/republicana, cujo início foi possível datar do último quartel do século II a.n.e.",
+   "ic_not": "Arkeolojik güvenli uç: Monte Molião (Ribeira de Bensafrim haliç kıyısı, Lagos kent sınırında ≈1 km) Roma-Cumhuriyet iskânı 'último quartel do século II a.n.e.' (MÖ 125-101) → aralığın son ucu MÖ 101 = -0100. Pereira 2015: Monte Molião 'Teve uma ocupação pré-romana' (Demir Çağı; kazı tarihi özetlerde yok, ark yazılmadı). Princeton 'LACOBRIGA (Lagos)': 'Monte Molião on the outskirts of the present city' — Lacobriga=Lagos eşleşmesi Mela 3.1 / Ptolemaios 2.5'e dayanır; ancak Mela metninde Lacobriga değil Caetobriga geçer ve Plinius IV'te Lacobriga yoktur (Mela III ve Plinius IV metinleri okundu), bu yüzden YAZILI İLK ANILIŞ alınmadı, ad eşleşmesi şüpheli. Modern Lagos orta ortaçağ liman kenti: Baço & Fraga 2016 'Lagos was one of the main ports of Algarve from the late antiquity to the late modern age'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0100-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yuzyil",
+    "kaynak": "Arruda, A. M. & Sousa, E. de (2013), 'Ânforas republicanas de Monte Molião (Lagos, Algarve, Portugal)', SPAL 22, https://doi.org/10.12795/spal.2013.i22.05 (OpenAlex özeti); Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "extensa ocupação romano/republicana, cujo início foi possível datar do último quartel do século II a.n.e.",
+    "ic_not": "Roma-Cumhuriyet iskânı (ânfora/seramik: Cádis körfezine bağımlı). Roma yönetiminin başlangıcı Monte Molião için siyasî belgeyle değil buluntuyla tarihlendi."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Pereira, Á. P. A. (2015), 'A cerâmica de cozinha africana de Monte Molião: Monte Molião, Lagos', RCAAP/FCT (OpenAlex özeti); Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/; Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "densamente povoado durante toda a época romana",
+    "ic_not": "Pereira 2015: Monte Molião 'densamente povoado durante toda a época romana'."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1250-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus; Baço & Fraga (2016) RCAAP (OpenAlex)",
+    "tanik": "Lagos was one of the main ports of Algarve from the late antiquity",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): 395-1250 arası Lagos'a özgü siyasî tanık yok (TDV'de Lagos/Lacobriga maddesi YOK; Treccani 'Lagos' Nijerya şehridir). Şehrin varlığı geç antik çağdan itibaren sürekli kabul edilir (Baço & Fraga 2016: 'Lagos was one of the main ports of Algarve from the late antiquity ...'). ÖNERİ (uygulanmadı, bağ kaynaksız): bölge zinciri — Faro (Santa Maria de Algarve) ve Silves — Vizigot/Emevî/Endülüs Emevî/Murâbıt/Muvahhid; bkz. faro-pt kaydı. t: TDV Endülüs 'Portekizliler ise 1242’de Şilb’i, 1250’de Şenterîn ve Garb’ı (Algarve) ele geçirdiler'."
+   },
+   {
+    "f": "1250-01-01",
+    "t": "1281-01-01",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Portekizliler ise 1242’de Şilb’i, 1250’de Şenterîn (Santarem) ve Garb’ı (Algarve) ele geçirdiler",
+    "ic_not": "BÖLGE düzeyinde tanık: TDV Garb'ın (Algarve) 1250'de Portekizlilerce alındığını söyler; Lagos'a özgü alınış günü bulunamadı. Atlas Lagos 1281 Portekiz ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0100-01-01",
+    "gun": "MÖ 101 (son çeyrek MÖ 2. yy)",
+    "k": "diger",
+    "b": "Monte Molião'da Roma-Cumhuriyet iskânı başlar.",
+    "kaynak": "Arruda, A. M. & Sousa, E. de (2013), 'Ânforas republicanas de Monte Molião (Lagos, Algarve, Portugal)', SPAL 22, https://doi.org/10.12795/spal.2013.i22.05 (OpenAlex özeti)",
+    "tanik": "extensa ocupação romano/republicana, cujo início foi possível datar do último quartel do século II a.n.e."
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk Arcadius/Honorius arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "1250-01-01",
+    "gun": "1250",
+    "k": "fetih",
+    "b": "Portekizliler Garb'ı (Algarve) ele geçirir (bölge düzeyi; Lagos'a özgü gün yok).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Portekizliler ise 1242’de Şilb’i, 1250’de Şenterîn (Santarem) ve Garb’ı (Algarve) ele geçirdiler"
+   }
+  ],
+  "ic_not": "Lagos: kaynaklı zincir yalnız Roma dönemi (arkeolojik) ve 1250 Portekiz fethi (bölge düzeyi). 395-1250 BOŞLUK. Bulunamayan: TDV Lagos maddesi, Lagos'un adı/ilk anılışı (Lacobriga eşleşmesi şüpheli), Müslüman dönemi Lagos tanığı. Atlas düzeltmesi: atlas Lagos 1281 Portekiz ile uyumlu; atlas başlangıcı 1250'ye çekilebilir (bölge düzeyi, Lagos'a özgü tanık yok). Çift teyit YOK."
  },
  {
   "id": "le-mans-fr",
