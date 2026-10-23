@@ -1,7 +1,10 @@
 // ARKEOLOJİ KATMANI — Sahra-alti Afrika, Okyanusya/Avustralya, Orta Asya/Iran platosu, MO 12000-MS 1 (afrika-iran) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/afrika-iran.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
- { "odak_yer":["Cenne"], 
+ {
+  "odak_yer": [
+   "Cenne"
+  ],
   "t": "-0299-01-01",
   "k": "kurulus",
   "b": "Cenne-Ceno (Jenne-jeno): başlar",
@@ -30,11 +33,12 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
-  "t": "-0549-01-01", "yer_id":"Hemedan",
+  "t": "-0549-01-01",
+  "yer_id": "Hemedan",
   "k": "fetih",
   "b": "Ekbatana (Hamedan): Kyros'un Med başkentini alması: başlar",
   "gun": "MÖ 550",
-  "yer": "Ecbatana / Hagmatāna / Kotosh Dini Gelenegi (Kotosh, Peru)",
+  "yer": "Ecbatana / Hagmatāna / Kotosh Dini Gelenegi (Kotosh, Peru) / Hemedan",
   "d": "Nabonidus'un 6. yilinda (MO 550/549) Kyros, Med kralinin 'kral sehri' Ekbatana'ya yurur; Med devletinin Kyros'a gecisi ve Ahamenis imparatorlugunun kurulus tarihi olarak 550 gelenegi bu kayda dayanir.",
   "kaynak": "Grayson AK, Assyrian and Babylonian Chronicles (ABC 7, Nabonidus Chronicle), col. ii.3; Livius.org'daki gozden gecirilmis ceviri · https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
   "kesinlik": "yil",

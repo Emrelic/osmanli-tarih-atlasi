@@ -21,9 +21,12 @@ GRUP = [
     ("-0499-01-01", "San Jose Mogote: koy yerlesimi", ["Monte Albán: başlar"]),
     ("-0320-01-01", "Maurya İmparatorluğu: Maurya İmparatorluğu: Chandrag", ["Nanda hanedanı (Magadha): Nanda'dan Maurya'ya geçiş"]),
     ("-0145-01-01", "Korint: Korint dönemi sona erer", ["Karthago: sahipsiz aralık dönemi sona erer"]),
+    ("0355-01-01", "Köln (Colonia Claudia Ara Agrippinensium): sahipsiz", ["Köln (Colonia Claudia Ara Agrippinensium): sahipsiz"], 1),
+    ("0355-01-01", "Köln, Köln (Colonia Claudia Ara Agrippinensium): sahipsiz", ["Köln, Köln (Colonia Claudia Ara Agrippinensium): sahipsiz"], 1),
 ]
 
-RETITLE = [("-0311-01-01", "Ekbatana: sahipsiz aralık → Selevkos", "Ekbatana, Seleukeia: Seleukos Nikator hâkimiyeti başlar (Medya ve Dicle)")]
+RETITLE = [("-0311-01-01", "Ekbatana: sahipsiz aralık → Selevkos", "Ekbatana, Seleukeia: Seleukos Nikator hâkimiyeti başlar (Medya ve Dicle)"),
+           ("-0311-01-01", "Ekbatana, Hemedan: sahipsiz aralık → Selevkos", "Ekbatana, Hemedan, Seleukeia: Seleukos Nikator hâkimiyeti başlar (Medya ve Dicle)")]
 
 
 def yil(t):
@@ -63,6 +66,8 @@ def main():
         for a in at:
             for (ay, ai) in sorted(bul(a), key=lambda x: -x[1]):
                 O = dosyalar[ay][1][ai]
+                if O is K:                                  # aynı önek hem tutulan hem atılan olabilir (ör. ardışık yıllarda iki 'sahipsiz' ucu): tutulanı silme
+                    continue
                 adlar = [x.strip() for x in (K.get("yer") or "").split("/") if x.strip()]
                 for x in [x.strip() for x in (O.get("yer") or "").split("/") if x.strip()]:
                     if x not in adlar:
