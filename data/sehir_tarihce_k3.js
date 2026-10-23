@@ -297,6 +297,141 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Çift teyit: Caesar BG 5.24 (Perseus Latin metni) + Dickinson College Commentaries (kışlık 54-53 haritası) + Pleiades; MÖ 54 yılı DCC başlık/haritasından (BG 5.1 Perseus metni konsülleri 'L. Domitio Ap. Claudio consulibus' diye anar; takvim yılı DCC başlığından). Treccani Amiens: 'Prima della conquista romana ... Samarabriva era capoluogo degli Ambiani' (tarih yok). Modern nokta Roma kentiyle aynı (Pleiades 49.89/2.30). Not: bir arkeolojik değerlendirme (arama özeti) kentin Via Agrippa etrafında sonradan kurulduğunu öne sürer — Caesar'ın metni yine de MÖ 54 yazılı tanıktır. Atlas başlangıç 1281 fransa ile zincir uyumlu."
  },
  {
+  "id": "angers-fr",
+  "ad": "Angers",
+  "atlas_ad": "Angers",
+  "lat": 47.474,
+  "lon": -0.554,
+  "kat1900": 3,
+  "adlar": [
+   "Iuliomagus",
+   "Andecavi",
+   "Angers"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; Britannica 1911 'Ptolemy' (son gözlem MS 151), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ptolemy",
+   "tanik": "are the Andicavae, whose town is Iuliomagus",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Ptolemaios (Geographia, 2. yy; EB1911: son gözlemi MS 151) Iuliomagus adını kavmin kenti olarak verir; güvenli uç 200. Treccani 'Angers': 'La città gallo-romana, Iuliomagus' (özdeşlik)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0511-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-511: Treccani Angers 'saccheggiata dai Sassoni, poi passò sotto Clodoveo' — tarih verilmedi; sahip kaynakta belirtilmedi (boşluk zorla kapatılmaz)."
+   },
+   {
+    "f": "0511-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANGERS', https://www.treccani.it/enciclopedia/angers_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "Angers passò sotto il dominio di Clodoveo",
+    "ic_not": "f 'en geç tanıktan': 511 (Clovis'in ölümü; Aquitania maddesi: 'divisa, nel 511, fra i quattro figli di Clodoveo'); gerçek Frank egemenliği daha eski olabilir. Treccani: sonra Austrasia, VII. yy'dan Neustria krallarına bağlı."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0930-01-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Treccani, Enciclopedia Italiana, 'ANGIÒ', https://www.treccani.it/enciclopedia/angio_(Enciclopedia-Italiana)/",
+    "ic_not": "IX. yy'da Bretonlar ve Normanlar geçici işgal (Treccani Angers: 845-872 Hastings); kalıcı sahip değişimi yazılmadı."
+   },
+   {
+    "f": "0930-01-01",
+    "t": "1214-01-01",
+    "d": "anjou-kontlugu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANGIÒ', https://www.treccani.it/enciclopedia/angio_(Enciclopedia-Italiana)/",
+    "tanik": "ma solo dopo il 930 è veramente conte di Angers",
+    "ic_not": "Künye anjou-kontlugu f=1000, t=1204 (hayalet uyarısı beklenir): künye f ≈ 0930'a GENİŞLETME ve t 1214'e önerisi (Treccani: 1205 müsadere ilanı, 1214 Angers işgali). 1154-1204 Plantagenet (İngiltere kralı) aynı polity olarak anjou-kontlugu'nda tutuldu."
+   },
+   {
+    "f": "1214-01-01",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANGIÒ', https://www.treccani.it/enciclopedia/angio_(Enciclopedia-Italiana)/",
+    "tanik": "Giovanni Senza Terra fu sconfitto a La Roche aux Moines ed Angers fu occupata",
+    "ic_not": "1246'da Louis IX Anjou'yu kardeşi Charles'a apanaj verdi (Treccani Angiò) — taç vasalı olarak 'fransa' sürdürüldü."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma biter (Romulus Augustulus tahttan çekilmeye zorlanır).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0511-01-01",
+    "gun": "511",
+    "k": "fetih",
+    "b": "Angers Clovis'in egemenliğine girer (en geç tanık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANGERS', https://www.treccani.it/enciclopedia/angers_(Enciclopedia-Italiana)/",
+    "tanik": "Angers passò sotto il dominio di Clodoveo"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0930-01-01",
+    "gun": "930",
+    "k": "idari",
+    "b": "Angers'in gerçek kontu Foulques le Roux (Anjou kontluğu çekirdeği).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANGIÒ', https://www.treccani.it/enciclopedia/angio_(Enciclopedia-Italiana)/",
+    "tanik": "ma solo dopo il 930 è veramente conte di Angers"
+   },
+   {
+    "t": "1214-01-01",
+    "gun": "1214",
+    "k": "fetih",
+    "b": "La Roche-aux-Moines yenilgisi sonrası Angers Fransa tarafından işgal edilir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ANGIÒ', https://www.treccani.it/enciclopedia/angio_(Enciclopedia-Italiana)/",
+    "tanik": "Giovanni Senza Terra fu sconfitto a La Roche aux Moines ed Angers fu occupata"
+   }
+  ],
+  "ic_not": "Kuruluş tarihi bulunamadı (kur=null). Ilk anılış Ptolemaios; Caesar BG'de yalnız Andes kavmi geçer. Atlas Angers 1281 'fransa' — dikiş uyumlu. Çift teyit yok. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
+ },
+ {
   "id": "anvers-be",
   "ad": "Anvers (Antwerpen)",
   "atlas_ad": "Anvers (Antwerpen)",
@@ -1595,6 +1730,93 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış: HLS Rolf d'Aujourd'hui — Ammianus 374 (Basel). Kolonya Raurica (MÖ 44/43, Munatius Plancus) HLS'ye göre 'wohl' Münsterhügel oppidumundadır ama bu bir konumlandırma varsayımıdır, Basel adıyla yazılı tanık değildir (kur=null). Augusta Raurica (Kaiseraugst) ayrı yerleşimdir (Basel'den ayrı kayıt). HLS: Spätlatène Basel-Gasfabrik yerleşimi 2.-1. yy MÖ sol kıyıda (Münsterhügel'den ayrı). Atlas Basel 1032-01-01'de 'almanya' ile başlıyor; HLS'ye göre Reich'a geçiş 1006 (kaynak 1032'yi resmî katılma olarak verir) → 'atlas başlangıcı düzeltilmeli' (1006'ya). Çift teyit YOK (Treccani Basilea yalnız 'città in età romana (Basilia), vescovato 7° sec.' diyor: bağımsız ikinci tanık sayılmadı)."
  },
  {
+  "id": "bayonne-fr",
+  "ad": "Bayonne",
+  "atlas_ad": "Bayonne",
+  "lat": 43.493,
+  "lon": -1.475,
+  "kat1900": 3,
+  "adlar": [
+   "Lapurdum",
+   "Baiona",
+   "Bayonne"
+  ],
+  "ilk": {
+   "t": "0400-01-01",
+   "gun": "4. yüzyıl",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'BAIONA', https://www.treccani.it/enciclopedia/baiona_(Enciclopedia-Italiana)/",
+   "tanik": "Lapurdum con cortine e torri del sec. IV",
+   "ic_not": "ARKEOLOJİK/MİMARİ (yazılı tanık bu oturumda doğrulanamadı): Roma kalesi Lapurdum'un 4. yy surları (Treccani 'Baiona'); güvenli uç 400. Notitia Dignitatum'daki Lapurdum kaydı (WebSearch özeti, doğrulanmadı) ve 381 piskoposu iddiası yazılı tanık olabilir — açılamadı. Treccani: 'Poi, per circa tre secoli, non se ne ha più notizia'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0400-01-01",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BAIONA', https://www.treccani.it/enciclopedia/baiona_(Enciclopedia-Italiana)/; Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "ic_not": "Treccani: Romalılar Lapurdum kalesini kurup garnizon tuttu."
+   },
+   {
+    "f": "0476-08-28",
+    "t": "1032-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-1032: Treccani Béarn: 'civitates passarono ai Visigoti, poi ai Franchi' (tarihsiz); Gascogne dükleri — kaynakta tarihli sahip yok; Bayonne Normanlarca yıkılmış olabilir (Treccani Baiona 'probabile')."
+   },
+   {
+    "f": "1032-01-01",
+    "t": "1152-05-18",
+    "d": "akitanya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'BAIONA', https://www.treccani.it/enciclopedia/baiona_(Enciclopedia-Italiana)/",
+    "tanik": "effettuata nel 1032 da suo figlio Guglielmo VI",
+    "ic_not": "Gascogne'un ilhakı 1032 (Treccani Poitou); Treccani Guienna 1070 verir — çelişki beyan. 1120: piskopos Raymond, Guillaume IX'dan ('conte di Poitiers e duca d'Aquitania') şehir özgürlük belgesi alır (Treccani Baiona)."
+   },
+   {
+    "f": "1152-05-18",
+    "t": "1281-01-01",
+    "d": "ingiltere",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BAIONA', https://www.treccani.it/enciclopedia/baiona_(Enciclopedia-Italiana)/; Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "imposta alla città per il matrimonio d'Eleonora di Guienna con Enrico II re d'Inghilterra (1152)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma biter (Romulus Augustulus tahttan çekilmeye zorlanır).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "1032-01-01",
+    "gun": "1032",
+    "k": "fetih",
+    "b": "Gascogne dükalığı Aquitaine dükü Guillaume VI tarafından ilhak edilir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "effettuata nel 1032 da suo figlio Guglielmo VI"
+   },
+   {
+    "t": "1152-05-18",
+    "gun": "18 Mayıs 1152",
+    "k": "diger",
+    "b": "Aquitaine Düşesi Eleonore, Henry Plantagenet ile evlenir; dükalık ve Poitou Plantagenet hanedanına geçer (Henry 1154'te İngiltere kralı olur).",
+    "kaynak": "Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "on 18 May 1152"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. Atlas Bayonne 1281 'ingiltere' — uyumlu. İlk tanık arkeolojik/mimari. Çift teyit yok. 476-1032 boşluk beyanlı."
+ },
+ {
   "id": "bern-ch",
   "ad": "Bern",
   "atlas_ad": "Bern",
@@ -1853,6 +2075,330 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış: Caesar BG 1.38 (MÖ 58) — Perseus İngilizce çeviri (Latince kaynak kitaplığı değil; birebir İng. alıntı). Treccani çift teyit: 'compare nella storia nel 58 a.C. con la conquista di Cesare' → ilk anılış için çift teyit (Caesar birincil + Treccani). Sahiplik: -0057 Sekuan oppidumu → Roma (Caesar 'Haeduer ve Ariovist' ön tarihi Vikipedi: 59 MÖ Sueben fethi, yoruma açık). Künye -0026-01-16 geçişi için Treccani günü 26 Ocak verir (Julian 16 Ocak 27 MÖ karşılığı değil; fark beyan edilir). 476-843 BOSLUK (Treccani Burgund→Frank sırasını tarihsiz verir). 1032: Vikipedi DE 'Heinrich II.' yazar, tarihsel olarak Rudolf III. mirası 1032'de II. Konrad'a geçti → yıl HLS Basel/Lausanne ile uyumlu; Vikipedi hükümdar adına güvenilmedi. Treccani: 1282 Alman İmparatorluğuna bağlı cumhuriyet (atlas başlangıcı 1281 almanya ile uyumlu, ±1 yıl)."
  },
  {
+  "id": "bilbao-es",
+  "ad": "Bilbao",
+  "atlas_ad": "Bilbao",
+  "lat": 43.263,
+  "lon": -2.935,
+  "kat1900": 3,
+  "adlar": [
+   "Bilbao"
+  ],
+  "ilk": {
+   "t": "1300-06-01",
+   "gun": "Haziran 1300",
+   "nicelik": "kurulus",
+   "kesinlik": "ay",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'BILBAO', https://www.treccani.it/enciclopedia/bilbao_(Enciclopedia-Italiana)/",
+   "tanik": "con l'approvazione del re di Castiglia Fernando IV, nel giugno 1300",
+   "ic_not": "KURULUŞ: Diego López de Haro imtiyazı + Fernando IV onayı, Haziran 1300 (Treccani Bilbao; Biscaglia maddesi 'Diego V López de Haro... fondatore di Bilbao (1300)'). Treccani: eski şehir Portus Amanum ya da Flaviobriga olabilir (Bermeo) — belirsiz."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1300-06-01",
+    "gun": "Haziran 1300",
+    "k": "kurulus",
+    "b": "Bilbao şehri Diego López de Haro imtiyazıyla kurulur (Fernando IV onayı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BILBAO', https://www.treccani.it/enciclopedia/bilbao_(Enciclopedia-Italiana)/",
+    "tanik": "con l'approvazione del re di Castiglia Fernando IV, nel giugno 1300"
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Bilbao 1281'de başlıyor, kuruluş Haziran 1300. Zincir boş bırakıldı (kural). Eski yer: Treccani 'forse Bermeo' (Flaviobriga) — modern noktadan uzak olabilir."
+ },
+ {
+  "id": "bordeaux-fr",
+  "ad": "Bordeaux",
+  "atlas_ad": "Bordo",
+  "lat": 44.838,
+  "lon": -0.579,
+  "kat1900": 3,
+  "adlar": [
+   "Burdigala",
+   "Burdegala",
+   "Bordeaux"
+  ],
+  "ilk": {
+   "t": "0100-01-01",
+   "gun": "1. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Strabon, Geographika 4.2.1 (Hamilton-Falconer çev., 1903; Perseus), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=4:chapter=2:section=1; Treccani, Enciclopedia Italiana, 'BORDEAUX', https://www.treccani.it/enciclopedia/bordeaux_(Enciclopedia-Italiana)/",
+   "tanik": "Their emporium is Burdegala",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Strabon, Bituriges Vivisci'nin emporium'u Burdegala'yı anar (Treccani 'Bordeaux': Strab. IV, 2, 1). Strabon'un yazım tarihi bu oturumda kaynaklanmadı; Augustus-Tiberius dönemi 1. yy kabul edildi, güvenli uç 100. Treccani: 'L'origine e il nome paiono liguri' (kuruluş değil)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0100-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Strabon, Geographika 4.2.1 (Hamilton-Falconer çev., 1903; Perseus), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=4:chapter=2:section=1; Treccani, Enciclopedia Italiana, 'BORDEAUX', https://www.treccani.it/enciclopedia/bordeaux_(Enciclopedia-Italiana)/"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0418-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0418-01-01",
+    "t": "0507-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BORDEAUX', https://www.treccani.it/enciclopedia/bordeaux_(Enciclopedia-Italiana)/",
+    "tanik": "i Visigoti la saccheggiano e vi s'insediano stabilmente nel 418",
+    "ic_not": "Treccani: 'ancora di nome dipendente da Roma'."
+   },
+   {
+    "f": "0507-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BORDEAUX', https://www.treccani.it/enciclopedia/bordeaux_(Enciclopedia-Italiana)/",
+    "tanik": "entrando, con l'Aquitania, nelle infinite divisioni patrimoniali del regno franco"
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0935-01-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Treccani, Enciclopedia Italiana, 'BORDEAUX', https://www.treccani.it/enciclopedia/bordeaux_(Enciclopedia-Italiana)/",
+    "ic_not": "Treccani: Normanlar 857'de Bordeaux'yu yıktı."
+   },
+   {
+    "f": "0935-01-01",
+    "t": "1152-05-18",
+    "d": "akitanya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "si trovò costituito nel 935",
+    "ic_not": "Aquitania maddesi: ikinci dükalık 'limitato alle contee di Bordeaux e Agen'. Künye f=1000: f ≈ 0935 GENİŞLETME önerisi (hayalet uyarısı beklenir)."
+   },
+   {
+    "f": "1152-05-18",
+    "t": "1281-01-01",
+    "d": "ingiltere",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GUIENNA', https://www.treccani.it/enciclopedia/guienna_(Enciclopedia-Italiana)/; Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "la Guienna passò alla casa d'Inghilterra col matrimonio di Eleonora d'Aquitania",
+    "ic_not": "Treccani 'Bordeaux' İngiliz egemenliğini 1162-1451 verir (çelişki: Guienna maddesi 1152; evlilik günü Vikipedi 18.5.1152) — Guienna esas alındı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0418-01-01",
+    "gun": "418",
+    "k": "diger",
+    "b": "Vizigotlar Bordeaux'ya kalıcı yerleşir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BORDEAUX', https://www.treccani.it/enciclopedia/bordeaux_(Enciclopedia-Italiana)/",
+    "tanik": "i Visigoti la saccheggiano e vi s'insediano stabilmente nel 418"
+   },
+   {
+    "t": "0507-01-01",
+    "gun": "507",
+    "k": "fetih",
+    "b": "Vouillé zaferinden sonra Frank egemenliği (Clovis).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BORDEAUX', https://www.treccani.it/enciclopedia/bordeaux_(Enciclopedia-Italiana)/",
+    "tanik": "dopo la vittoria di Vouillé (507)"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0935-01-01",
+    "gun": "935",
+    "k": "idari",
+    "b": "Poitou/Aquitaine kontları 'duc d'Aquitaine' devletini kurar (Bordeaux, Agen kontlukları dükalığın çekirdeği).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "si trovò costituito nel 935"
+   },
+   {
+    "t": "1152-05-18",
+    "gun": "18 Mayıs 1152",
+    "k": "diger",
+    "b": "Aquitaine Düşesi Eleonore, Henry Plantagenet ile evlenir; dükalık ve Poitou Plantagenet hanedanına geçer (Henry 1154'te İngiltere kralı olur).",
+    "kaynak": "Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "on 18 May 1152"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. Atlas Bordo 1281 'ingiltere' — uyumlu. Çift teyit: Strabon + Treccani aynı pasajı atıflar (bağımsız değil). Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
+ },
+ {
+  "id": "bourges-fr",
+  "ad": "Bourges",
+  "atlas_ad": "Bourges",
+  "lat": 47.081,
+  "lon": 2.399,
+  "kat1900": 3,
+  "adlar": [
+   "Avaricum",
+   "Bituriges Cubi",
+   "Biturigae",
+   "Bourges"
+  ],
+  "ilk": {
+   "t": "-0051-01-01",
+   "gun": "MÖ 52",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Caesar, De Bello Gallico 7.13.3 (Perseus, Holmes ed., Perseus:text:1999.02.0002), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0002:book=7:chapter=13; Treccani 'BOURGES' (52 a.C. kuşatma yılı)",
+   "tanik": "Caesar ad oppidum Avaricum, quod erat maximum munitissimumque in finibus Biturigum",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Caesar BG 7.13.3 — Avaricum, Bituriges'in en büyük ve en müstahkem kenti (MÖ 52). Yıl Treccani'den ('Giulio Cesare la prese e saccheggiò nel 52 a. C.'). Gallia öncesi kuruluş bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0051-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BOURGES', https://www.treccani.it/enciclopedia/bourges_(Enciclopedia-Italiana)/",
+    "tanik": "Giulio Cesare la prese e saccheggiò nel 52 a. C."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/; Treccani, Enciclopedia Italiana, 'BOURGES', https://www.treccani.it/enciclopedia/bourges_(Enciclopedia-Italiana)/",
+    "tanik": "Risorse sotto l'impero",
+    "ic_not": "Treccani: imparatorlukta yeniden canlandı (Ptol. II, 7, 10; Tab. Peut.)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0478-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-478: Treccani 'Nel 478 la città cadde nelle mani dei Visigoti' — Bourges'ün 476-478 arasındaki sahibi kaynakta belirtilmedi (2 yıl; zorla kapatılmaz)."
+   },
+   {
+    "f": "0478-01-01",
+    "t": "0508-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BOURGES', https://www.treccani.it/enciclopedia/bourges_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 478 la città cadde nelle mani dei Visigoti",
+    "ic_not": "Treccani Aquitania ise Aquitania I'in alınışını 469-476 verir; Bourges maddesi esas alındı."
+   },
+   {
+    "f": "0508-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BOURGES', https://www.treccani.it/enciclopedia/bourges_(Enciclopedia-Italiana)/",
+    "tanik": "ma trent'anni dopo se ne impossessarono definitivamente i Franchi di Clodoveo",
+    "ic_not": "478+30 = ~508 (Treccani Aquitania: Vouillé 507). Bourges maddesi: Aquitaine'e bağlı kalıp 763'te Pépin tarafından alındı."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0987-07-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Treccani, Enciclopedia Italiana, 'BOURGES', https://www.treccani.it/enciclopedia/bourges_(Enciclopedia-Italiana)/",
+    "ic_not": "Treccani: son Karolenjler zamanı kalıtsal kontluk (X. yy vikontluğa düştü)."
+   },
+   {
+    "f": "0987-07-01",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Hugh Capet', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugh_Capet; Treccani, Enciclopedia Italiana, 'BOURGES', https://www.treccani.it/enciclopedia/bourges_(Enciclopedia-Italiana)/",
+    "tanik": "il visconte di Bourges, nel 1120, cedette la città al re di Francia",
+    "ic_not": "Vikont Bourges nominal Fransa vasalı; doğrudan kraliyet egemenliği 1120'de (Treccani). Ara dönem 987-1120 vasal-vikont: 'fransa' nominal egemen olarak yazıldı (beyan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → İmparatorluk (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma biter (Romulus Augustulus tahttan çekilmeye zorlanır).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0478-01-01",
+    "gun": "478",
+    "k": "fetih",
+    "b": "Bourges Vizigotlara geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BOURGES', https://www.treccani.it/enciclopedia/bourges_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 478 la città cadde nelle mani dei Visigoti"
+   },
+   {
+    "t": "0508-01-01",
+    "gun": "508 (≈ 478+30)",
+    "k": "fetih",
+    "b": "Franklar Bourges'ü kesin olarak ele geçirir (Clovis).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BOURGES', https://www.treccani.it/enciclopedia/bourges_(Enciclopedia-Italiana)/",
+    "tanik": "ma trent'anni dopo se ne impossessarono definitivamente i Franchi di Clodoveo"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0987-07-01",
+    "gun": "Temmuz 987",
+    "k": "diger",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugues Capet kral seçilip taçlandırılır).",
+    "kaynak": "Britannica 1911 'Hugh Capet', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugh_Capet",
+    "tanik": "crowned him, probably at Noyon, in July 987"
+   }
+  ],
+  "ic_not": "Atlas Bourges 1281 'fransa' — uyumlu. 1120: vikont Bourges'ü krala devreder (Treccani) — 987-1120 vasal belirsizliği beyanlı. gun '508 (≈ 478+30)': 'trent'anni dopo' hesabı (kaynakta yıl yok). Çift teyit YOK. "
+ },
+ {
   "id": "bruj-be",
   "ad": "Brüj (Brugge)",
   "atlas_ad": "Brüj (Brugge)",
@@ -1933,6 +2479,76 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış: Treccani 'Le origini ... risalgono al più alto Medioevo; già nel sec. VII sembra avere avuto il nome di città' (sembra = kesin değil), kesin tanık IX. yy. sonu surlar/ikametgâh. Arama özeti (Vikipedi EN, yalnız ikinci tanık, sayfa açılmadı): ad ilk kez 'Bruggas/Bruvvccia' 840-875 aralığında — bu aralık akademik kaynakta doğrulanmadı; geçerliyse ilk anılış 875'e çekilir. Roma/Galya dönemi: Vikipedi özeti kıyı yerleşiminin ortaçağ kentiyle bağı olmadığını söyler (doğrulanmadı) — ark yazılmadı. 900 öncesi zincir kaynaksız (bulunamadı)."
  },
  {
+  "id": "burgos-es",
+  "ad": "Burgos",
+  "atlas_ad": "Burgos",
+  "lat": 42.344,
+  "lon": -3.697,
+  "kat1900": 3,
+  "adlar": [
+   "Burgos"
+  ],
+  "ilk": {
+   "t": "0884-01-01",
+   "gun": "884",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'BURGOS', https://www.treccani.it/enciclopedia/burgos_(Enciclopedia-Italiana)/",
+   "tanik": "Nell'884, il re asturiano Alfonso III affidò al conte",
+   "ic_not": "KURULUŞ/yeniden iskân: Treccani 'ripopolare Burgos'; Treccani: kentin bundan önceki varlığı 'non è provata da nessun documento o avanzo archeologico', yalnız kroniklere dayanır. Kuruluş yazılı-kronik, arkeolojik değil. Çift teyit yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0884-01-01",
+    "t": "0924-01-01",
+    "d": "asturias",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BURGOS', https://www.treccani.it/enciclopedia/burgos_(Enciclopedia-Italiana)/",
+    "tanik": "Nell'884, il re asturiano Alfonso III affidò al conte",
+    "ic_not": "Künye asturias t=910 (hayalet uyarısı)."
+   },
+   {
+    "f": "0924-01-01",
+    "t": "1035-01-01",
+    "d": "leon-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BURGOS', https://www.treccani.it/enciclopedia/burgos_(Enciclopedia-Italiana)/",
+    "tanik": "dopo le ribellioni dei Castigliani contro il re di León",
+    "ic_not": "Kastilya kontluğu León vasalı, 933'ten Fernán González fiilen bağımsızlaşma yolunda; Sancho el Mayor (Navarra) 1029-1035 dönemi kaynaklanmadı — beyan."
+   },
+   {
+    "f": "1035-01-01",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BURGOS', https://www.treccani.it/enciclopedia/burgos_(Enciclopedia-Italiana)/",
+    "tanik": "passa, col titolo di regno di Castiglia nelle mani di suo figlio Fernando I (1035-1065)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0924-01-01",
+    "gun": "924",
+    "k": "idari",
+    "b": "Asturias krallığı León ile birleşir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LEÓN', https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "allo stato così formato si univa anche, nel 924, il regno delle Asturie"
+   },
+   {
+    "t": "1035-01-01",
+    "gun": "1035",
+    "k": "taht",
+    "b": "Kastilya kontluğu krallık olur, Fernando I (1035-1065) başkenti Burgos yapar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BURGOS', https://www.treccani.it/enciclopedia/burgos_(Enciclopedia-Italiana)/",
+    "tanik": "passa, col titolo di regno di Castiglia nelle mani di suo figlio Fernando I (1035-1065)"
+   }
+  ],
+  "ic_not": "Atlas Burgos 1281 'kastilya' — uyumlu."
+ },
+ {
   "id": "caen-fr",
   "ad": "Caen",
   "atlas_ad": "Caen",
@@ -2010,6 +2626,157 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Treccani Caen: 'Secondo alcuni autori, la Caen medievale avrebbe sostituito una città molto antica, chiamata dai romani Civitas Viducassium', kalıntıları 'Vieux' köyünde 'a qualche km' — mesafe verilmedi; >3 km ise antik yer ayrı kayıt olarak önerilir (Aregenua/Vieux). Caen'in kuruluş ya da 1027 öncesi yazılı kaydı bulunamadı. Normandiya künyesi t=1204-01-01 = zincir sınırı (uyumlu). Atlas 1281 başlangıcı ile zincir uyumlu."
+ },
+ {
+  "id": "cahors-fr",
+  "ad": "Cahors",
+  "atlas_ad": "Cahors",
+  "lat": 44.448,
+  "lon": 1.441,
+  "kat1900": 3,
+  "adlar": [
+   "Divona Cadurcorum",
+   "Dueona",
+   "Cadurcum",
+   "Cahors"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.6 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/6*.html; Britannica 1911 'Ptolemy' (son gözlem MS 151), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ptolemy",
+   "tanik": "are the Cadurci and the town Dueona",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Ptolemaios (Geographia, 2. yy; EB1911: son gözlemi MS 151) Dueona adını kavmin kenti olarak verir; güvenli uç 200. Dueona = Divona Cadurcorum = Cahors özdeşliği: Treccani 'Cahors': 'Antica città celtica, capoluogo dei Cadurci' (ad doğrulaması dolaylı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.6 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/6*.html"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0476-01-01",
+    "t": "0507-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "tra il 469 e il 476, s'impadroniscono anche delle altre due parti dell'Aquitania",
+    "ic_not": "f 'en geç tanıktan': 476 (aralık 469-476; Aquitania I'in Cahors dahil olduğu varsayımı Treccani Cahors 'invasioni dei Visigoti e dei Franchi' ile uyumlu)."
+   },
+   {
+    "f": "0507-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "che vinsero nella battaglia di Vouillé (507) il re visigoto Alarico"
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0987-07-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Britannica 1911 'Hugh Capet', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugh_Capet"
+   },
+   {
+    "f": "0987-07-01",
+    "t": "1200-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "987-1200 Cahors sahibi (Toulouse kontu/Aquitaine dükü/İngiliz Henry II 1159 işgali) kaynakta tarihli verilmedi; Treccani Cahors: 'sotto la giurisdizione dei conti di Tolosa (interrotta per breve tempo dall'occupazione inglese)'."
+   },
+   {
+    "f": "1200-01-01",
+    "t": "1271-01-01",
+    "d": "toulouse",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CAHORS', https://www.treccani.it/enciclopedia/cahors_(Enciclopedia-Italiana)/",
+    "tanik": "sotto la giurisdizione dei conti di Tolosa (interrotta per breve tempo dall'occupazione inglese)",
+    "ic_not": "f 'en geç tanıktan': 12. yy sonu (Treccani 'tra il sec. XII e il XIV'). Treccani Cahors ayrıca 'dopo il 1224... dominio diretto della corona' der — Treccani Tolosa (1271) ile çelişir; Tolosa maddesi esas alındı. 1259 Paris Antlaşması'nda 'Cahors' Henry III'e devredildi (Vikipedi) ancak fiilî sahiplik kaynaklanmadı."
+   },
+   {
+    "f": "1271-01-01",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1271, quando Tolosa fu incorporata ai dominî reali",
+    "ic_not": "Alphonse de Poitiers mirası 1271'de taca geçer (Toulouse konusu)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-01-01",
+    "gun": "476",
+    "k": "fetih",
+    "b": "Vizigotlar Aquitania'nın diğer iki bölümünü (Aquitania I dahil) ele geçirir (aralık 469-476; en geç tanık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "tra il 469 e il 476, s'impadroniscono anche delle altre due parti dell'Aquitania"
+   },
+   {
+    "t": "0507-01-01",
+    "gun": "507",
+    "k": "fetih",
+    "b": "Vouillé: Aquitania Frank'a geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "che vinsero nella battaglia di Vouillé (507) il re visigoto Alarico"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0987-07-01",
+    "gun": "Temmuz 987",
+    "k": "diger",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugues Capet kral seçilip taçlandırılır).",
+    "kaynak": "Britannica 1911 'Hugh Capet', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugh_Capet",
+    "tanik": "crowned him, probably at Noyon, in July 987"
+   },
+   {
+    "t": "1200-01-01",
+    "gun": "12. yüzyıl",
+    "k": "idari",
+    "b": "Toulouse kontlarının hükümranlığı (en geç tanık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CAHORS', https://www.treccani.it/enciclopedia/cahors_(Enciclopedia-Italiana)/",
+    "tanik": "sotto la giurisdizione dei conti di Tolosa (interrotta per breve tempo dall'occupazione inglese)"
+   },
+   {
+    "t": "1271-01-01",
+    "gun": "1271",
+    "k": "fetih",
+    "b": "Toulouse kontluğu (Cahors dahil) kraliyet mülküne katılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1271, quando Tolosa fu incorporata ai dominî reali"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. Atlas Cahors 1281 'fransa' — uyumlu. 1271 yıl hassasiyeti (gerçek Alphonse de Poitiers'nin ölümü 1271 Ağustos, kaynaklanmadı). Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
  },
  {
   "id": "calais-fr",
@@ -4632,6 +5399,230 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "UYARI: ilk anılış 'um 525' yalnız Vikipedi DE'de bulundu (Anarid) — Vikipedi tek dayanak olamaz kuralı gereği BU KAYIT TASLAKTIR; akademik ikinci tanık açılamadı (HLS Konstanz 'zerfallenes spätrömisches Kastell Constantia' ve 4. yy tahkimat arkeolojisi verir; Treccani Costanzo II. dönemi 4. yy kale ve 6. yy ilk yarısında piskoposluk der, ama ad yazılı tanığı vermez). Roma dönemi (Constantia 4. yy kalesi, Raetia prima 297) arkeolojiyle belgeli, yazılı tanık bu oturumda yok → zincir 525'te başlıyor; 4. yy Roma dönemi ark alanında. Konstanz noktasının Roma kalesi ile aynı yerde olduğu (Münsterplatz) HLS'de. Treccani 6. yy ilk yarısı piskoposluk (Vindonissa'dan nakil), HLS 6/7. yy dönümü; Vikipedi ~585 — ikisi de olay. Çift teyit YOK."
  },
  {
+  "id": "la-rochelle-fr",
+  "ad": "La Rochelle",
+  "atlas_ad": "La Rochelle",
+  "lat": 46.16,
+  "lon": -1.152,
+  "kat1900": 3,
+  "adlar": [
+   "Rupella",
+   "Rocella",
+   "La Rochelle"
+  ],
+  "ilk": {
+   "t": "1137-01-01",
+   "gun": "1126-1137 arası (1137)",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'LA ROCHELLE', https://www.treccani.it/enciclopedia/la-rochelle_(Enciclopedia-Italiana)/",
+   "tanik": "dopo che il duca di Aquitania Guglielmo IX (1126-1137) ebbe distrutto il castello di Châtelaillon",
+   "ic_not": "KURULUŞ (kale/liman-şehir): Treccani 'Fu costruito allora un castello fortificato a La Rochelle, che divenne città' — Châtelaillon'un yıkımından (Guillaume'un dükalığı 1126-1137) sonra; güvenli uç 1137. Treccani 'Guglielmo IX' yazar ama 1126-1137 Guillaume X dönemidir (Vikipedi EN: Châtelaillon yıkımı 1130) — Treccani adı hatalı olabilir. Roma dönemi 'piccolo paesetto di pescatori (Rupella)' tarihsiz. Vikipedi EN adın ilk kaydını 961 verir (Rupella), Geneawiki 'Xe s. sonu' der; akademik kaynakla doğrulanamadı → ilk anılış olarak YAZILMADI (tek dayanak olamaz). 961 doğrulanırsa ilk anılış 961'e çekilmeli."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1137-01-01",
+    "t": "1152-05-18",
+    "d": "akitanya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LA ROCHELLE', https://www.treccani.it/enciclopedia/la-rochelle_(Enciclopedia-Italiana)/",
+    "tanik": "dopo che il duca di Aquitania Guglielmo IX (1126-1137) ebbe distrutto il castello di Châtelaillon",
+    "ic_not": "Aunis Aquitaine dükünün elinde (Treccani)."
+   },
+   {
+    "f": "1152-05-18",
+    "t": "1224-08-03",
+    "d": "ingiltere",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LA ROCHELLE', https://www.treccani.it/enciclopedia/la-rochelle_(Enciclopedia-Italiana)/; Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "Essa riconosceva ancora la sovranità di Giovanni Senzaterra",
+    "ic_not": "Treccani: 'fedele ad Enrico II Plantageneto'; Vikipedi EN La Rochelle: Plantagenet egemenliği 1154-1224."
+   },
+   {
+    "f": "1224-08-03",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LA ROCHELLE', https://www.treccani.it/enciclopedia/la-rochelle_(Enciclopedia-Italiana)/; Vikipedi EN 'Siege of La Rochelle (1224)' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Siege_of_La_Rochelle_(1224)",
+    "tanik": "Caduta sotto i Francesi, durante il regno di Luigi VIII (1224)",
+    "ic_not": "Gün: Vikipedi EN 'Siege of La Rochelle (1224)' (15 Temmuz - 3 Ağustos 1224)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1152-05-18",
+    "gun": "18 Mayıs 1152",
+    "k": "diger",
+    "b": "Aquitaine Düşesi Eleonore, Henry Plantagenet ile evlenir; dükalık ve Poitou Plantagenet hanedanına geçer (Henry 1154'te İngiltere kralı olur).",
+    "kaynak": "Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "on 18 May 1152"
+   },
+   {
+    "t": "1224-08-03",
+    "gun": "3 Ağustos 1224",
+    "k": "fetih",
+    "b": "Louis VIII La Rochelle'i kuşatma sonunda alır.",
+    "kaynak": "Vikipedi EN 'Siege of La Rochelle (1224)' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Siege_of_La_Rochelle_(1224)",
+    "tanik": "3 August 1224"
+   }
+  ],
+  "ic_not": "Atlas La Rochelle 1281 'fransa' — uyumlu (1360-1372 İngiliz dönemi atlasta). Çift teyit YOK (gün yalnız Vikipedi)."
+ },
+ {
+  "id": "le-mans-fr",
+  "ad": "Le Mans",
+  "atlas_ad": "Le Mans",
+  "lat": 48.006,
+  "lon": 0.199,
+  "kat1900": 3,
+  "adlar": [
+   "Vindinum",
+   "Cenomani",
+   "Cinomannis",
+   "Le Mans"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; Britannica 1911 'Ptolemy' (son gözlem MS 151), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ptolemy",
+   "tanik": "are the Aulirei Cenomani, whose town is Vindinum",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Ptolemaios (Geographia, 2. yy; EB1911: son gözlemi MS 151) Vindinum adını kavmin kenti olarak verir; güvenli uç 200. Treccani 'Le Mans': 'L'antica Vindunum capitale dei Cenomanes' (özdeşlik; yazım farkı Vindinum/Vindunum)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0511-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-511 sahibi kaynakta bulunamadı; Gregorius Hist. II.27 Syagrius'un Soissons krallığını Clovis'in aldığını söyler ama Le Mans'tan söz etmez."
+   },
+   {
+    "f": "0511-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Gregorius Turonensis, Historiae II.42, https://www.thelatinlibrary.com/gregorytours/gregorytours2.shtml",
+    "tanik": "Rignomeris nomen apud Cinomannis civitatem ex iusso Chlodovechi est interfectus",
+    "ic_not": "f 'en geç tanıktan': Gregorius'a göre Clovis'in emriyle Frank kralı Rignomer Le Mans'ta öldürülür, Clovis krallığı alır (yıl yok); Clovis ölümü 511 (Treccani Aquitania). Gerçek tarih daha eski olabilir."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0987-07-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Britannica 1911 'Hugh Capet', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugh_Capet"
+   },
+   {
+    "f": "0987-07-01",
+    "t": "1063-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "Treccani Le Mans: 'Disputata tra i vescovi, dapprima signori, e i conti del Maine' (Maine kontları künyesiz; tarihsiz) — sahip belirsiz."
+   },
+   {
+    "f": "1063-01-01",
+    "t": "1204-01-01",
+    "d": "normandiya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LE MANS', https://www.treccani.it/enciclopedia/le-mans_(Enciclopedia-Italiana)/",
+    "tanik": "rimase in dominio dei duchi di Normandia e dei Plantageneti d'Inghilterra",
+    "ic_not": "Treccani: Guillaume le Conquérant 1063'ten Maine kontu olarak ayrıcalıkları kaldırır, 1073 isyanı bastırır; Plantagenet dönemi (Anjou) aynı polity olarak 'normandiya' künyesinde tutuldu (künye t=1204)."
+   },
+   {
+    "f": "1204-01-01",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LE MANS', https://www.treccani.it/enciclopedia/le-mans_(Enciclopedia-Italiana)/",
+    "tanik": "passò, con il Maine, in potere de re di Francia",
+    "ic_not": "Treccani 'inizio del sec. XIII'; 1204 künye Normandiya t'sinden alındı (yüzyıl kesinliği)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma biter (Romulus Augustulus tahttan çekilmeye zorlanır).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0511-01-01",
+    "gun": "511",
+    "k": "fetih",
+    "b": "Clovis Le Mans'ta Frank kralı Rignomer'i öldürtür ve krallığını alır (en geç tanık).",
+    "kaynak": "Gregorius Turonensis, Historiae II.42, https://www.thelatinlibrary.com/gregorytours/gregorytours2.shtml",
+    "tanik": "Rignomeris nomen apud Cinomannis civitatem ex iusso Chlodovechi est interfectus"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0987-07-01",
+    "gun": "Temmuz 987",
+    "k": "diger",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugues Capet kral seçilip taçlandırılır).",
+    "kaynak": "Britannica 1911 'Hugh Capet', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugh_Capet",
+    "tanik": "crowned him, probably at Noyon, in July 987"
+   },
+   {
+    "t": "1063-01-01",
+    "gun": "1063",
+    "k": "fetih",
+    "b": "Guillaume le Conquérant Maine kontu olarak Le Mans'ı elinde tutuyor (1073'te komün isyanını bastırır).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LE MANS', https://www.treccani.it/enciclopedia/le-mans_(Enciclopedia-Italiana)/",
+    "tanik": "sin dal 1063 aveva abolito i privilegi e le franchige"
+   },
+   {
+    "t": "1204-01-01",
+    "gun": "1204 (13. yüzyıl başı)",
+    "k": "fetih",
+    "b": "Maine ile birlikte Le Mans Fransa kralına geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LE MANS', https://www.treccani.it/enciclopedia/le-mans_(Enciclopedia-Italiana)/",
+    "tanik": "passò, con il Maine, in potere de re di Francia"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. 1073 komün ayaklanması bastırılması sahiplik değişimi değil. Atlas Le Mans 1281 'fransa' — uyumlu. Çift teyit yok. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
+ },
+ {
   "id": "leeuwarden-nl",
   "ad": "Leeuwarden",
   "atlas_ad": "Leeuwarden",
@@ -4872,6 +5863,207 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "dikis_beyan": "Atlas Lille'i 1281-01-01'de 'fransa' ile başlatıyor; Treccani Lilla 1305/1320'ye dek Flandre kontlarını, 1320'den sonra doğrudan Fransa kralını verir (sonra 1369 Burgonya). 1281'de Fransa'ya geçişi gösteren kaynak yok. Atlas başlangıç sahibi 'flandre' (boyasız künye) olmalı mı yoksa Fransa nominal üst efendi diye tutulur mu — Emre kararı.",
   "ic_not": "İlk tanık çelişkisi: Treccani 1030'da Baldovino IV'ün surları (belgeye atıfsız anlatı); Dupont (1853) ve yerel kaynaklar 1066 fermanını Lille'in 'en eski' belgesi sayar — belgeli 1066 alındı, 1030 olay olarak yazıldı. Arama özetleri 2004 tarihli bir makalenin 1066 fermanını 'bilinen ilk belge' saydığını ve Mezolitik/Roma buluntularını bildirir (sayfa açılmadı; yerel turizm sayfası akademik değil, kullanılmadı). Lille 'Isla' adı insula=ada (Deûle kolları). Antik/Mezolitik buluntu 'Tanneurs' adacığı: modern noktaya uzaklığı bilinmiyor. Efsanevi kuruluş 640 (Lyderic-Phinaert) belgesiz, yazılmadı."
+ },
+ {
+  "id": "limoges-fr",
+  "ad": "Limoges",
+  "atlas_ad": "Limoges",
+  "lat": 45.834,
+  "lon": 1.262,
+  "kat1900": 3,
+  "adlar": [
+   "Augustoritum",
+   "Lemovices",
+   "Limoges"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.6 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/6*.html; Britannica 1911 'Ptolemy' (son gözlem MS 151), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ptolemy",
+   "tanik": "are the Limovici and the town Augustoritum",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Ptolemaios (Geographia, 2. yy; EB1911: son gözlemi MS 151) Augustoritum adını kavmin kenti olarak verir; güvenli uç 200. EB1911 'Limoges': 'In 11 B.C. it took the name of Augustus (Augustoritum)' — Ptolemaios'tan önce bir ad değişikliği iddiası (kaynak tarihi yok), ilk anılış sayılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.6 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/6*.html"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0419-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0419-01-01",
+    "t": "0507-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "Dal 419 al 507 fa parte del regno visigoto",
+    "ic_not": "Treccani Aquitania ise Aquitania I'in 469-476'da alındığını söyler — çelişki beyan; Limosino maddesi (şehre özgü) esas alındı."
+   },
+   {
+    "f": "0507-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "e poi successivamente passa a quello di Clodoveo (507-511)"
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0876-01-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "ic_not": "Limosino: Aquitania krallığı/dükalığı 584-876 (Karolenj alt krallığı) — bati-francia içinde."
+   },
+   {
+    "f": "0876-01-01",
+    "t": "0918-01-01",
+    "d": "toulouse",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "Dopo un breve dominio del conte di Tolosa (876-918)"
+   },
+   {
+    "f": "0918-01-01",
+    "t": "0935-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "Treccani Limosino: 918 sonrası 'si alternano e si sovrappongono a vicenda le influenze del conte di Poitiers e del duca di Aquitania' — kesin sahip yok."
+   },
+   {
+    "f": "0935-01-01",
+    "t": "1154-01-01",
+    "d": "akitanya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "si trovò costituito nel 935",
+    "ic_not": "Poitou: 935'te Aunis + Limousin ile kuruldu. Künye f=1000: GENİŞLETME önerisi."
+   },
+   {
+    "f": "1154-01-01",
+    "t": "1204-01-01",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1154-1204, 1259-86, 1360-71 troviamo il Limosino sotto il dominio inglese"
+   },
+   {
+    "f": "1204-01-01",
+    "t": "1259-12-04",
+    "d": "fransa",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1154-1204, 1259-86, 1360-71 troviamo il Limosino sotto il dominio inglese",
+    "ic_not": "1204-1259 Fransa: Limosino maddesinin dolaylı çıkarımı (İngiliz dönemleri arası) ve Philippe Auguste'ün Poitou/Aquitaine fetihleri; doğrudan tanık yok — beyan."
+   },
+   {
+    "f": "1259-12-04",
+    "t": "1281-01-01",
+    "d": "ingiltere",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/; Vikipedi EN 'Treaty of Paris (1259)' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Treaty_of_Paris_(1259)",
+    "tanik": "Nel 1154-1204, 1259-86, 1360-71 troviamo il Limosino sotto il dominio inglese",
+    "ic_not": "Paris Antlaşması 4 Aralık 1259: Louis IX Henry III'e Limoges, Cahors, Périgueux piskoposluk ve şehirlerini devreder (Vikipedi, EHD atfı); Treccani İngiliz dönemini 1259-86 verir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0419-01-01",
+    "gun": "419",
+    "k": "diger",
+    "b": "Limousin Vizigot krallığına girer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "Dal 419 al 507 fa parte del regno visigoto"
+   },
+   {
+    "t": "0507-01-01",
+    "gun": "507",
+    "k": "fetih",
+    "b": "Limousin Clovis'e geçer (507-511).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "e poi successivamente passa a quello di Clodoveo (507-511)"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0876-01-01",
+    "gun": "876",
+    "k": "fetih",
+    "b": "Toulouse kontunun kısa egemenliği başlar (876-918).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "Dopo un breve dominio del conte di Tolosa (876-918)"
+   },
+   {
+    "t": "0918-01-01",
+    "gun": "918",
+    "k": "diger",
+    "b": "Toulouse kontu egemenliği biter.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "Dopo un breve dominio del conte di Tolosa (876-918)"
+   },
+   {
+    "t": "0935-01-01",
+    "gun": "935",
+    "k": "idari",
+    "b": "Poitou kontluğu Limousin dahil kurulur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "si trovò costituito nel 935"
+   },
+   {
+    "t": "1154-01-01",
+    "gun": "1154",
+    "k": "fetih",
+    "b": "Limousin İngiliz egemenliğine girer (1154-1204).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1154-1204, 1259-86, 1360-71 troviamo il Limosino sotto il dominio inglese"
+   },
+   {
+    "t": "1204-01-01",
+    "gun": "1204",
+    "k": "fetih",
+    "b": "Limousin İngiliz egemenliğinden çıkar (1154-1204).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LIMOSINO', https://www.treccani.it/enciclopedia/limosino_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1154-1204, 1259-86, 1360-71 troviamo il Limosino sotto il dominio inglese"
+   },
+   {
+    "t": "1259-12-04",
+    "gun": "4 Aralık 1259",
+    "k": "antlasma",
+    "b": "Paris Antlaşması: Limoges Henry III'e (Aquitaine dükü) devredilir.",
+    "kaynak": "Vikipedi EN 'Treaty of Paris (1259)' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Treaty_of_Paris_(1259)",
+    "tanik": "signed on 4 December 1259"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. DİKİŞ: zincir 1259-12-04'ten 1281'e 'ingiltere' (Treccani Limosino 1259-86) bitiyor; atlas Limoges 1281 'fransa' diyor. Atlas düzeltme önerisi: 1259-12-04 → 1286 arası ingiltere (Limosino 1259-86; Paris Antlaşması). Treccani 'Limoges' maddesi kent için ayrı: Cité'de piskopos+kral yetkisi, kasabada vikont (kent 1369/1371'de Fransa'ya). Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı.",
+  "dikis_beyan": "Atlas 1281'de Limoges'ı 'fransa' sayıyor; Treccani 'Limosino' (1154-1204, 1259-86, 1360-71 İngiliz dönemleri) ve Paris Antlaşması (4.12.1259, Limoges Henry III'e) 1259-1286 İngiliz egemenliğini verir. Atlas başlangıcı 1286'ya ya da dönemi ingiltere'ye düzeltilmeli."
  },
  {
   "id": "lozan-ch",
@@ -6490,6 +7682,415 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış 1050: Treccani EI (diploma di Enrico III) + Treccani online ('Ricordata la prima volta nel 1050') — iki Treccani yayını, bağımsız çift teyit sayılmaz. Gün (16 Temmuz 1050) bu oturumda akademik kaynakta açılamadı → 1050-01-01. EI: 1062 pazar hakkı 'Enrico III' bağlamında anlatılır (diploma 1062 IV. Heinrich dönemi olabilir; Treccani cümlesi 1062'yi parantezle verir) — olay metni cümleye sadık tutuldu. Nürnberg Roma dönemi yok. Atlas Nürnberg 1281 'almanya': tutarlı."
  },
  {
+  "id": "oviedo-es",
+  "ad": "Oviedo",
+  "atlas_ad": "Oviedo",
+  "lat": 43.362,
+  "lon": -5.849,
+  "kat1900": 3,
+  "adlar": [
+   "Ovetao",
+   "Oviedo"
+  ],
+  "ilk": {
+   "t": "0760-01-01",
+   "gun": "760",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'OVIEDO', https://www.treccani.it/enciclopedia/oviedo_(Enciclopedia-Italiana)/",
+   "tanik": "La città fu fondata, nel 760, dal re delle Asturie Fruela I",
+   "ic_not": "KURULUŞ: Treccani 'v'era già tuttavia, prima, un embrione di abitato attorno a un santuario' (tarihsiz). Treccani 'Asturie' Fruela'yı Alfonso I (ö. 757) sonrasına koyar; yıl 760 Oviedo maddesinden. Çift teyit yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0760-01-01",
+    "t": "0924-01-01",
+    "d": "asturias",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OVIEDO', https://www.treccani.it/enciclopedia/oviedo_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'LEÓN', https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 910 Alfonso III re delle Asturie, costrettovi dai figli, abdicava",
+    "ic_not": "Oviedo 910'a kadar Asturias başkenti (Treccani Oviedo); 910-924 Fruela II Asturias krallığı (Oviedo) sürer. Künye asturias t=910 (hayalet uyarısı): t'yi 924'e GENİŞLETME önerisi."
+   },
+   {
+    "f": "0924-01-01",
+    "t": "1230-01-01",
+    "d": "leon-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LEÓN', https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "Dal 909 al 1230 fu capitale del regno omonimo",
+    "ic_not": "Oviedo León krallığının parçası (başkent León); künye t=1230-09-23."
+   },
+   {
+    "f": "1230-01-01",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CASTIGLIA', https://www.treccani.it/enciclopedia/castiglia_(Enciclopedia-Italiana)/",
+    "tanik": "da allora fino al 1230 i due regni restarono ancora separati e rivali",
+    "ic_not": "León-Kastilya birliği 1230 (Fernando III); Treccani gün vermez; künye leon t=1230-09-23."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0924-01-01",
+    "gun": "924",
+    "k": "idari",
+    "b": "Asturias krallığı León ile birleşir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LEÓN', https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "allo stato così formato si univa anche, nel 924, il regno delle Asturie"
+   },
+   {
+    "t": "1230-01-01",
+    "gun": "1230",
+    "k": "diger",
+    "b": "künye geçişi: León-Kastilya birleşir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'CASTIGLIA', https://www.treccani.it/enciclopedia/castiglia_(Enciclopedia-Italiana)/",
+    "tanik": "da allora fino al 1230 i due regni restarono ancora separati e rivali"
+   }
+  ],
+  "ic_not": "Atlas Oviedo 1281 'kastilya' — uyumlu. Çift teyit yok."
+ },
+ {
+  "id": "pau-fr",
+  "ad": "Pau",
+  "atlas_ad": "Pau",
+  "lat": 43.296,
+  "lon": -0.37,
+  "kat1900": 3,
+  "adlar": [
+   "Pau"
+  ],
+  "ilk": {
+   "t": "1154-01-01",
+   "gun": "1154",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'PAU', https://www.treccani.it/enciclopedia/pau_(Enciclopedia-Italiana)/",
+   "tanik": "Pau, ricordata col nome di città nel 1154",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Treccani 'ricordata col nome di città nel 1154' — 'città' adının ilk geçişi; kale çevresinde gelişti ('sviluppò la propria agglomerazione urbana attorno al castello'). Birincil belge bu oturumda açılamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1154-01-01",
+    "t": "1281-01-01",
+    "d": "bearn-vikontlugu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'BÉARN', https://www.treccani.it/enciclopedia/bearn_(Enciclopedia-Italiana)/",
+    "tanik": "nel secolo XI godono di vera sovranità, non rendendo più omaggio ai duchi di Guascogna",
+    "ic_not": "Béarn Vikontluğu (X. yy'dan, 1290'da Foix ile birleşir); Gaston VIII (1229-1290) 'lottò contro gl'Inglesi'. Künye önerisi: bearn-vikontlugu (f≈X. yy, t=1290 Foix birleşmesi; Treccani Béarn).",
+    "kunye_yok": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "1154-01-01",
+    "gun": "1154",
+    "k": "diger",
+    "b": "Pau adı 'şehir' olarak ilk kez anılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'PAU', https://www.treccani.it/enciclopedia/pau_(Enciclopedia-Italiana)/",
+    "tanik": "Pau, ricordata col nome di città nel 1154"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. DİKİŞ: atlas Pau 1281 'fransa'; Treccani Béarn'a göre Pau Béarn vikontluğunda (Gaston VIII, 1229-1290; 1290 Foix). Atlas başlangıcı kaynaksız → düzeltme önerisi: Pau 1281'de Béarn (bağımsız vikontluk, İngiliz-Fransız arasında). Çift teyit yok.",
+  "dikis_beyan": "Atlas 1281'de Pau'yu 'fransa' sayıyor; Treccani 'Béarn' vikontluğu bağımsız egemen (Gastone VIII 1229-1290, 1290'da Foix) gösteriyor. Atlas iddiası kaynaksız."
+ },
+ {
+  "id": "perigueux-fr",
+  "ad": "Périgueux",
+  "atlas_ad": "Périgueux",
+  "lat": 45.184,
+  "lon": 0.721,
+  "kat1900": 3,
+  "adlar": [
+   "Vesunna Petrucoriorum",
+   "Vesunna",
+   "Petrogorica urbs",
+   "Périgueux"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.6 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/6*.html; Britannica 1911 'Ptolemy' (son gözlem MS 151), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ptolemy",
+   "tanik": "are the Petrocori and the town Vesuna",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Ptolemaios (Geographia, 2. yy; EB1911: son gözlemi MS 151) Vesuna adını kavmin kenti olarak verir; güvenli uç 200. Treccani 'Périgueux': 'La città antica, Vesunna Petrocoriorum'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.6 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/6*.html"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0418-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0418-01-01",
+    "t": "0507-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "s'insediano, tra il 416 e il 418, nell' Aquitania secunda",
+    "ic_not": "Aquitania maddesi parantezsiz Périgord'u Aquitania II içinde sayar."
+   },
+   {
+    "f": "0507-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "che vinsero nella battaglia di Vouillé (507) il re visigoto Alarico",
+    "ic_not": "Périgord kontluğu Merovenj çağında örgütlendi (Treccani Périgord)."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0994-01-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Treccani, Enciclopedia Italiana, 'PÉRIGORD', https://www.treccani.it/enciclopedia/perigord_(Enciclopedia-Italiana)/",
+    "ic_not": "Treccani Périgord: IX-X. yy'da Angoumois, sonra Marche ile birleşik — ayrı devlet değil."
+   },
+   {
+    "f": "0994-01-01",
+    "t": "1152-05-18",
+    "d": "akitanya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "Limousin, Marche, Périgord, Angumese, Saintonge e Poitou",
+    "ic_not": "Guillaume V (994-1030) tüm vasalları arasında Périgord'u sayar (Treccani Poitou); künye f=1000: ~994 GENİŞLETME önerisi."
+   },
+   {
+    "f": "1152-05-18",
+    "t": "1281-01-01",
+    "d": "ingiltere",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GUIENNA', https://www.treccani.it/enciclopedia/guienna_(Enciclopedia-Italiana)/; Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "la Guienna passò alla casa d'Inghilterra col matrimonio di Eleonora d'Aquitania",
+    "ic_not": "Guienna maddesi Périgord'u 'propriamente' Guienna içinde sayar. 1259 Paris Antlaşması'nda Périgueux piskoposluğu Henry III'e devredilir (Vikipedi). Ara dönem (1204-1259) Fransa egemenliği iddiası kaynaklanmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0418-01-01",
+    "gun": "418",
+    "k": "diger",
+    "b": "Vizigotlar Aquitania II'ye (Périgord dahil) yerleşir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "s'insediano, tra il 416 e il 418, nell' Aquitania secunda"
+   },
+   {
+    "t": "0507-01-01",
+    "gun": "507",
+    "k": "fetih",
+    "b": "Vouillé: Aquitania Frank'a geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "che vinsero nella battaglia di Vouillé (507) il re visigoto Alarico"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0994-01-01",
+    "gun": "994",
+    "k": "idari",
+    "b": "Guillaume V Grand (994-1030) Périgord dahil vasalları üzerinde egemen.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "Guglielmo V il Grande (994-1030), ebbe signoria su tutti i vassalli"
+   },
+   {
+    "t": "1152-05-18",
+    "gun": "18 Mayıs 1152",
+    "k": "diger",
+    "b": "Aquitaine Düşesi Eleonore, Henry Plantagenet ile evlenir; dükalık ve Poitou Plantagenet hanedanına geçer (Henry 1154'te İngiltere kralı olur).",
+    "kaynak": "Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "on 18 May 1152"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. DİKİŞ: atlas Périgueux 1281 'fransa'; zincir 'ingiltere' (Guienna 1152 → ve 1259 Paris Antlaşması: Périgueux Henry III'e devredilir, Vikipedi). Atlas düzeltme önerisi gerekli ama 1204-1259 durumu açıklanamadı. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı.",
+  "dikis_beyan": "Atlas 1281'de Périgueux'yü 'fransa' sayıyor; Treccani 'Guienna' Périgord'u 1152'den İngiliz Guienna'sında sayar, 1259 Paris Antlaşması Périgueux'yü Henry III'e devreder (Vikipedi EN). Bulunan akademik kaynak 1204-1259 aralığını açıklamıyor; atlasın 1281 iddiası kaynaksız."
+ },
+ {
+  "id": "poitiers-fr",
+  "ad": "Poitiers",
+  "atlas_ad": "Poitiers",
+  "lat": 46.58,
+  "lon": 0.34,
+  "kat1900": 3,
+  "adlar": [
+   "Limonum",
+   "Pictavi",
+   "Poitiers"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.6 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/6*.html; Britannica 1911 'Ptolemy' (son gözlem MS 151), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ptolemy",
+   "tanik": "whose towns are Ratiatum 17*50 48°20 Limonum 18*00 47°50",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Ptolemaios (Geographia, 2. yy; EB1911: son gözlemi MS 151) Limonum adını kavmin kenti olarak verir; güvenli uç 200. Treccani 'Poitiers': 'Chiamata dapprima Limonum, divenne poi capitale dei Pictones'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.6 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/6*.html"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0418-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0418-01-01",
+    "t": "0507-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "s'insediano, tra il 416 e il 418, nell' Aquitania secunda",
+    "ic_not": "Aquitania maddesi: Poitou dahil Aquitania II'ye 416-418 Vizigot yerleşimi (Roma egemenliğini nominal tanıyarak); Poitou maddesi ise 'verso il 462' diyor — çelişki beyan edilir, Aquitania maddesi esas alındı."
+   },
+   {
+    "f": "0507-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "che vinsero nella battaglia di Vouillé (507) il re visigoto Alarico",
+    "ic_not": "Aquitaine kralları/dükleri (Eudes, Hunald, Waifer) dönemi Frank egemenliği içinde sayıldı (Treccani Aquitania: 768'de kesin Frank)."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0935-01-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/"
+   },
+   {
+    "f": "0935-01-01",
+    "t": "1152-05-18",
+    "d": "akitanya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "si trovò costituito nel 935",
+    "ic_not": "Künye akitanya-dukaligi f=1000: f ≈ 0935'e GENİŞLETME önerisi (Poitou kontları 935'ten itibaren 'duchi d'Aquitania'; hayalet uyarısı beklenir)."
+   },
+   {
+    "f": "1152-05-18",
+    "t": "1214-09-18",
+    "d": "ingiltere",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/; Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "essa andava sposa ad Enrico Plantageneto, duca di Normandia e conte di Angiò",
+    "ic_not": "Poitiers 1204'te Philippe Auguste'ün eline geçmiş olabilir; ancak Treccani Poitou bunu vermez — 1214 Chinon Barışı 'en geç tanık' olarak alındı (Treccani: Chinon tüm Poitou'yu vermedi, güneyi 1224'te)."
+   },
+   {
+    "f": "1214-09-18",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "La pace di Chinon, imposta da Filippo Augusto a Giovanni Senzaterra (18 settembre 1214)",
+    "ic_not": "Alfonso de Poitiers apanajı 1241-1271 (Treccani Poitou) — taç vasalı; 'fransa' sürdürüldü."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0418-01-01",
+    "gun": "418",
+    "k": "diger",
+    "b": "Vizigotlar Aquitania II'ye yerleşir (Roma egemenliğini nominal tanıyarak).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "s'insediano, tra il 416 e il 418, nell' Aquitania secunda"
+   },
+   {
+    "t": "0507-01-01",
+    "gun": "507",
+    "k": "fetih",
+    "b": "Vouillé Muharebesi: Clovis Vizigot II. Alaric'i yener; Aquitania Frank'a geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'AQUITANIA', https://www.treccani.it/enciclopedia/aquitania_(Enciclopedia-Italiana)/",
+    "tanik": "che vinsero nella battaglia di Vouillé (507) il re visigoto Alarico"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0935-01-01",
+    "gun": "935",
+    "k": "idari",
+    "b": "Poitou kontluğu Aunis ve Limousin ile kurulur; kontlar 'Aquitaine dükü' unvanını kullanmaya başlar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "si trovò costituito nel 935"
+   },
+   {
+    "t": "1152-05-18",
+    "gun": "18 Mayıs 1152",
+    "k": "diger",
+    "b": "Aquitaine Düşesi Eleonore, Henry Plantagenet ile evlenir; dükalık ve Poitou Plantagenet hanedanına geçer (Henry 1154'te İngiltere kralı olur).",
+    "kaynak": "Vikipedi EN 'Eleanor of Aquitaine' (yalnız ikinci tanık), https://en.wikipedia.org/w/index.php?action=raw&title=Eleanor_of_Aquitaine",
+    "tanik": "on 18 May 1152"
+   },
+   {
+    "t": "1214-09-18",
+    "gun": "18 Eylül 1214",
+    "k": "antlasma",
+    "b": "Chinon Barışı: Philippe Auguste John'a kabul ettirir (Poitou kuzeyi Fransa'da).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'POITOU', https://www.treccani.it/enciclopedia/poitou_(Enciclopedia-Italiana)/",
+    "tanik": "La pace di Chinon, imposta da Filippo Augusto a Giovanni Senzaterra (18 settembre 1214)"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı; Vieux-Poitiers'ten (Briva) yerleşim kayması tartışması Treccani'de ('è possibile che il primitivo agglomerato celtico si sia formato' — kesin değil) — 3 km üzerinde olabilir: antik yer ayrı kayıt önerisi (Vieux-Poitiers). 476 sınırı Poitiers için kullanılmadı (Vizigot 418). Poitou maddesi Visigot 462 ('verso il 462') — çelişki. Atlas Poitiers 1281 'fransa' — uyumlu. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
+ },
+ {
   "id": "regensburg-de",
   "ad": "Regensburg",
   "atlas_ad": "Regensburg",
@@ -6705,6 +8306,61 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış 999: Treccani EI tek akademik tanık (yıl; 6 Ağustos 999 günü yalnız popüler/ikincil kaynaklarda, açılamadı) — çift teyit YOK; Treccani online 'Saarbrücken' sayfası çekilemedi (hata sayfası). Roma dönemi: EI 'Metz–Mainz yolu nehri geçti, Halberg eteğinde Roma kalesi' + 'cellula originaria è il castello a 2 km dal ponte romano' → Roma yeri ≤3 km ama ADI/TARİHİ yok, ark yazılmadı. Saar Havzası 1920-35 (atlas) bu dosyanın dışında. Atlas Saarbrücken 1281 'almanya': tutarlı."
  },
  {
+  "id": "san-sebastian-es",
+  "ad": "San Sebastián",
+  "atlas_ad": "San Sebastián",
+  "lat": 43.318,
+  "lon": -1.981,
+  "kat1900": 3,
+  "adlar": [
+   "Donostia",
+   "Sanctus Sebastianus",
+   "San Sebastián"
+  ],
+  "ilk": {
+   "t": "1014-01-01",
+   "gun": "1014",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'SAN SEBASTIANO', https://www.treccani.it/enciclopedia/san-sebastiano_(Enciclopedia-Italiana)/; Eusko Ikaskuntza, 'Donación a Leire: orígenes de San Sebastián', https://eusko-ikaskuntza.eus/en/publications/donacion-a-leire-origenes-de-san-sebastian-iglesias-de-santa-maria-san-sebastian-y-san-vicente/art-13428/ (yalnız WebSearch özeti)",
+   "tanik": "Ricordata fino dal 1014, San Sebastiano ottenne",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): 1014 Leire bağış belgesi (Sancho III Navarra). Belgenin güvenilirliği tartışmalı (WebSearch özeti: 1935 makalesi 'untruthful' sayıyor; yayın bu oturumda açılamadı). Şehir hakları ve fiilî kuruluş ~1180 (Sancho VI, Treccani 'franchigie nella 2ª metà del sec. XII'). Çift teyit yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1014-01-01",
+    "t": "1200-01-01",
+    "d": "navarra",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GUIPÚZCOA', https://www.treccani.it/enciclopedia/guipuzcoa_(Enciclopedia-Italiana)/",
+    "tanik": "al principio del sec. XI era compresa in questo regno",
+    "ic_not": "Treccani Guipúzcoa: XI. yy 2. yarısı Kastilya'ya (Alfonso VI), XII. yy'da tekrar Navarra — tarihsiz salınımlar; 1200'e kadar Navarra yazıldı (Sancho VI 'franchigie')."
+   },
+   {
+    "f": "1200-01-01",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GUIPÚZCOA', https://www.treccani.it/enciclopedia/guipuzcoa_(Enciclopedia-Italiana)/",
+    "tanik": "quando nel 1200 la Guipúzcoa si unisce definitivamente alla Castiglia"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1200-01-01",
+    "gun": "1200",
+    "k": "fetih",
+    "b": "Guipúzcoa kesin olarak Kastilya'ya katılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'GUIPÚZCOA', https://www.treccani.it/enciclopedia/guipuzcoa_(Enciclopedia-Italiana)/",
+    "tanik": "quando nel 1200 la Guipúzcoa si unisce definitivamente alla Castiglia"
+   }
+  ],
+  "ic_not": "Kastilya fetihi 1200-1201 (Treccani yıl 1200). Atlas San Sebastián 1281 'kastilya' — uyumlu."
+ },
+ {
   "id": "sanghay-cin",
   "ad": "Şanghay",
   "atlas_ad": "Şanghay",
@@ -6758,6 +8414,51 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Şanghay (atlas_ad 'Şanghay', kat1900 3; atlas ilk gün 1281-01-01 yuan-hanedani). ① YER VE 3 KM: atlas noktası (31.230, 121.474) bugünkü Shanghai şehir merkezidir (Huangpu'nun batı kıyısı; Bund/Halk Meydanı çevresi, kesin değil). Brif'in işaret ettiği Huating/Songjiang (Tang Tianbao 10 = 751'de kurulan Huating ilçesi: Xin Tang Shu 41 '華亭。上。天寶十載析嘉興置') atlas noktasının yaklaşık 30 km güneybatısıdır (kesin değil) → AYRI KAYIT ÖNERİSİ 'huating-songjiang-cin' (ilk anılış Xin Tang Shu 41, 751; Song dönemi Xiuzhou; Yuan'da 1277 Huating fu, 1278 Songjiang fu: Yuan Shi 62). Qinglong zhen (Song 九域志: '華亭縣 ... 青龍一鎮') ayrı kayıt önerisi; konumu bu oturumda kaynaktan ölçülmedi. ② ZİNCİR BAŞI = 1277-01-01 (Zhiyuan 14; yıl hassasiyeti): Yuan Shi 94 Shanghai'ı deniz ticareti idaresi (市舶司) yeri olarak ilk anar. 1277 < atlas başlangıcı 1281 → zincir DOLU (yuan-hanedani 1277-01-01 → 1281-01-01), dikiş aynı sahip olduğundan olay gerekmez. ATLAS DÜZELTME ÖNERİSİ: atlasın Şanghay başlangıcı (1281-01-01) en az 1277-01-01'e çekilebilir (Yuan Shi 94). ③ SONG DÖNEMİ (araştırıldı, yazılmadı): (a) 上海浦/下海浦 dere adı: Wuzhi 19'da Jia Dan'ın Xining 3 (1070) memoryalindeki 'Songjiang güney kıyısı 18 büyük pu' listesinde geçer — dere adı, yerleşim değil; ilk_anilis sayılmadı (olay olarak 1070'e yazıldı, zincire girmez; liste Jia Dan'ın daha sonraki metninden olabilir, kesin değil). (b) Song 'Shanghai Zhen/Wu' (市舶提舉司,榷貨場, 上海務): Qing Yitongzhi (Song Shaoxing), Dushi fangyu jiyao ('宋時海舶輻輳 ... 立市舶提舉司及榷貨場為上海鎮') ve 20. yy planlama taslağı (大上海都市計劃 初稿, zh.wikisource: '熙寧七年，設市舶提舉司及権貨場，是謂上海鎮' = 1074) farklı tarihler verir — hepsi ikincil/geç; Yuanfeng jiuyuzhi (1080) Huating'in 13 köyünü ve '青龍一鎮'ı sayar, Shanghai'ı SAYMAZ; Yunjian zhi (Yang Qian, 1193) zh.wikisource'ta 6 başlık varyantıyla 404 (açılamadı); Zhiyuan Jiahe zhi (Yuan dönemi; '松江府' başlığı 1278 sonrası demektir) 卷7 '上海務' ve '上海太平倉'ı Songjiang fu altında verir (tam yazım tarihi bu oturumda sayfadan doğrulanmadı; atlas zincirini geriye uzatmaz). Birincil Song-dönemi yerleşim tanığı BULUNAMADI → zincir 1277'den başlar; bulunursa zincire Song (→ Yuan geçişi Songjiang/Huating'in düşüşü) EKLENİR. ④ İLÇE: Yuan Shi 62 'Zhiyuan 27 (1290) Shanghai xian'; Qing Yitongzhi '至元二十九年' (1292) — çelişki; atlas zincirinden sonrası, yalnız beyan. ⑤ KÜNYE: yuan-hanedani f=1260 (uygun); uyarı yok. ⑥ ÇİFT TEYİT: YOK (Yuan Shi 94 tek birincil; Zhiyuan Jiahe zhi 1288 sonrası). ⑦ BULUNAMADI: Song dönemi yerleşim tanığı (Yunjian zhi 404; Song Shi 88/185/167 '上海' 0 eşleşme); atlas noktasının tam yeri-kesin ilk koordinatı; akademik makale (OpenAlex Çince 'Shanghai Zhen/Wu' taraması boş)."
+ },
+ {
+  "id": "santander-es",
+  "ad": "Santander",
+  "atlas_ad": "Santander",
+  "lat": 43.4667,
+  "lon": -3.8115,
+  "kat1900": 3,
+  "adlar": [
+   "Portus Sancti Emetherii",
+   "Santander"
+  ],
+  "ilk": {
+   "t": "1187-01-01",
+   "gun": "1187",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'SANTANDER', https://www.treccani.it/enciclopedia/santander_(Enciclopedia-Italiana)/",
+   "tanik": "Nel 1187 il re Alfonso VIII gli accordò le franchigie",
+   "ic_not": "ZAYIF: 1187 Alfonso VIII ayrıcalıkları EN ERKEN BULUNAN tanıktır, gerçek ilk anılış değildir (ad 'Portus Sancti Emetherii' daha eski; IX. yy ilk belge iddiası WebSearch'te doğrulanamadı). Roma Portus Victoriae Iuliobrigensium (Plinius; WebSearch özeti: konumu tartışmalı, Santoña olabilir) Santander mi belirsiz — >3 km olabilir, ayrı kayıt önerisi. Birincil tanık açılamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1187-01-01",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SANTANDER', https://www.treccani.it/enciclopedia/santander_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1187 il re Alfonso VIII gli accordò le franchigie"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1187-01-01",
+    "gun": "1187",
+    "k": "idari",
+    "b": "Alfonso VIII Santander'e ayrıcalık (franchigie) verir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SANTANDER', https://www.treccani.it/enciclopedia/santander_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1187 il re Alfonso VIII gli accordò le franchigie"
+   }
+  ],
+  "ic_not": "Atlas Santander 1281 'kastilya' — uyumlu."
  },
  {
   "id": "strasbourg-fr",
@@ -7716,6 +9417,286 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "KONUM/3 km KURALI: atlas noktası (37.87 N, 112.548 E) bugünkü Taiyuan kent merkezidir; antik/Tang-Beihan Jinyang (晉陽) buradan KESİN OLMAYAN bir uzaklıkta (~15-20 km): Lu You (老學庵筆記/卷九, Song) \"今太原…乃三交城也，城在舊城西北三百里\" der (yön/rakam metinde muhtemel bozuk; 山西通志/卷057 aynı cümleyi \"舊城東北三十里\" diye aktarır; 30 li ≈ 17 km). Bu >3 km ⇒ Jinyang BURADA yazılmadı. AYRI KAYIT ÖNERİSİ: \"Jinyang (晉陽)\" — ilk tanık adayları (bu oturumda sayfa açılmadı/yalnız arama özeti görüldü): Zuozhuan Ding 13 (趙鞅入于晉陽以叛; 春秋左傳注疏/卷56), Zhanguoce Zhao 1 (圍晉陽三年, 決晉水灌之: 戰國策/趙一; yer: Jinci/Jin suyu çevresi, modern noktanın ~GB'sı, kesin değil). Sahiplik: Jin devleti → Zhao → Qin → Han … Tang Taiyuan fu, Beihan 951-979; 979/980'de Song yıkımı: Song Shi 86 \"平劉繼元降為州，毀其城，移治於榆次縣\" (4. yıl 979), Song Shi 4 aynı yıl \"戊子，以榆次縣為新并州\" (979, 5. ay) ve 五年 başlığı altında \"壅汾河晉祠水灌太原，隳其故城\" (980, çelişki: tarih 979 mu 980 mi — beyan; Song Shi 86 979 der). 979-982 arası Bingzhou merkezi Yuci (榆次). MODERN NOKTA YEŞİL: Song 982'de Bingzhou merkezini 唐明鎮'e taşır; Lu You'ya göre bu yer \"bugünkü Taiyuan\" (Ming-Qing şehri bunun genişlemesi: 山西通志/卷227 \"今之太原府乃唐明鎮…明洪武中封晉藩始展…\"; Ming genişlemesi >3 km olabilir — atlas noktasının tam 唐明鎮 çekirdeğine ≤3 km olduğu BU OTURUMDA doğrulanmadı, kesin değil). İLK TANIK: 宋史/卷004 982. Önceki \"三交口\" (Song Shi 4, 太平興國四年八月癸亥 \"命潘美屯河東三交口\") bir geçit/ordugah adıdır; 唐明鎮 ile eşitlemesi kesin olmadığından başlangıç sayılmadı. Taiping Huanyu ji (40) \"皇朝太平興國四年平晉移州於三交塞陽曲縣界\" der (4. yıl 979 — Song Shi 4/86'daki 982 ile çelişir; Song Shi 86 ve Lu You \"3 yıl sonra\" der; 982 esas alındı, çelişki beyan). DİKİŞ: zincir Yuan → Yuan; 1281-01-01'de el değiştirme yok. MOĞOL-JIN GİDİŞ-GELİŞİ (1218-1222): bkz. dönem ic_not'ları; tek günlük kesin tanık: 1218-09-27 (Jin Shi 15), 1222 yalnız ay. AÇIK SORU: Taiyuan'ın 1126'dan sonra Zhang Bangchang'ın Chu/Liu Yu'nun Qi gibi kukla devletlere ait olup olmadığı: tanık bulunamadı. TDV/akademik makale (DergiPark) bu oturumda kullanılmadı; çift teyit: 1126-09-21 (Song Shi 23 + Jin Shi 3, bağımsız iki ulusal tarih; ama ikisi de Yuan komisyonu eserleri — \"bağımsız akademik\" değil)."
  },
  {
+  "id": "toulouse-fr",
+  "ad": "Toulouse",
+  "atlas_ad": "Toulouse",
+  "lat": 43.604,
+  "lon": 1.444,
+  "kat1900": 3,
+  "adlar": [
+   "Tolosa",
+   "Tolosates",
+   "Toulouse"
+  ],
+  "ilk": {
+   "t": "-0104-01-01",
+   "gun": "MÖ 105",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Orosius, Historiae adversum paganos 5.15.25, https://www.thelatinlibrary.com/orosius/orosius5.shtml; Strabon 4.1.13 (Perseus) https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=4:chapter=1:section=13; Vikipedi EN 'Quintus Servilius Caepio (consul 106 BC)' (ikinci tanık)",
+   "tanik": "Caepio proconsule capta urbe Gallorum, cui nomen est Tolosae",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Servilius Caepio'nun Tolosa'yı alması — Orosius 'proconsule' der; Caepio MÖ 106 konsülü, valilik yılı MÖ 105 (Vikipedi: 'After his consulship, he was assigned to Gaul, where he captured the town of Tolosa'); güvenli uç MÖ 105. Strabon 4.1.13: 'the treasures found in the city of Toulouse by the Roman general Cæpio'. Treccani 'Tolosa': şehir antik Pech-David tepelerinde (Vieille-Toulouse, ~5 km) bulunuyordu — antik yer >3 km: AYRI KAYIT ÖNERİSİ (Vieille-Toulouse/Pech-David); modern nokta kendi kuruluşundan başlar."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0104-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Orosius 5.15.25, https://www.thelatinlibrary.com/orosius/orosius5.shtml",
+    "tanik": "Caepio proconsule capta urbe Gallorum, cui nomen est Tolosae",
+    "ic_not": "Treccani Tolosa: Tolosa MÖ 2. yy sonundan önce Roma ile foedus yapmıştı."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/; Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "Augusto diede ai Tolosani i diritti latini",
+    "ic_not": "Treccani: Augustus Tolosalılara Latin hakları verdi."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0419-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0419-01-01",
+    "t": "0508-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "l'imperatore Onorio, nel 419, diede la città e il paese a Wallia",
+    "ic_not": "Treccani: Vizigot 413-14'ten itibaren, 466'da bağımsız krallığın başkenti."
+   },
+   {
+    "f": "0508-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "Ma nel 508 Clodoveo, vincitore dei Visigoti a Vouillé, la sottomise",
+    "ic_not": "Treccani 508, Aquitania maddesi 507 (Vouillé) — çelişki; Tolosa maddesi esas. Aquitaine krallığı/dükalığı (Cariberto, Luigi il Bonario) Frank alt krallığı sayıldı."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0877-01-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "Luigi il Balbo, re di Francia nell'877",
+    "ic_not": "Treccani: Aquitaine krallığı 877'de Fransa krallığına katılır."
+   },
+   {
+    "f": "0877-01-01",
+    "t": "1271-01-01",
+    "d": "toulouse",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1271, quando Tolosa fu incorporata ai dominî reali",
+    "ic_not": "Treccani: 877'de 'una dinastia si veniva tacitamente formando' (tarih belirsiz) — f 'en geç' belirsiz; künye toulouse f=849. Raimond V (1159 Henry II), Albigeois (1211-1229), Alphonse de Poitiers 1249-1271 dönemleri aynı künyede."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → İmparatorluk (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0419-01-01",
+    "gun": "419",
+    "k": "diger",
+    "b": "Honorius Toulouse'u ve çevresini Vizigot Wallia'ya verir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "l'imperatore Onorio, nel 419, diede la città e il paese a Wallia"
+   },
+   {
+    "t": "0508-01-01",
+    "gun": "508",
+    "k": "fetih",
+    "b": "Clovis Vouillé sonrası Toulouse'u boyunduruk altına alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "Ma nel 508 Clodoveo, vincitore dei Visigoti a Vouillé, la sottomise"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0877-01-01",
+    "gun": "877",
+    "k": "idari",
+    "b": "Aquitaine krallığı Fransa'ya katılır; Toulouse kontları bağımsız hanedanı yerleşir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "Luigi il Balbo, re di Francia nell'877"
+   },
+   {
+    "t": "1271-01-01",
+    "gun": "1271",
+    "k": "fetih",
+    "b": "Toulouse kraliyet mülküne katılır (Alphonse de Poitiers mirası).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOLOSA', https://www.treccani.it/enciclopedia/tolosa_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1271, quando Tolosa fu incorporata ai dominî reali"
+   }
+  ],
+  "ic_not": "DİKİŞ: atlas Toulouse 1271-01-01 'fransa'; Treccani yalnız 'nel 1271' verir (yıl). Gerçek gün Ağustos 1271 (Alphonse'un ölümü) bu oturumda kaynaklanmadı → atlas başlangıcı gün-hassasiyetli düzeltilmeli. Çift teyit YOK. Treccani 1271'de 'incorporata ai dominî reali'."
+ },
+ {
+  "id": "tours-fr",
+  "ad": "Tours",
+  "atlas_ad": "Tours",
+  "lat": 47.394,
+  "lon": 0.685,
+  "kat1900": 3,
+  "adlar": [
+   "Caesarodunum",
+   "Turones",
+   "Civitas Turonorum",
+   "Tours"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; Britannica 1911 'Ptolemy' (son gözlem MS 151), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ptolemy",
+   "tanik": "are the Turoni, and their town is Caesaro n dunum",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Ptolemaios (Geographia, 2. yy; EB1911: son gözlemi MS 151) Caesarodunum adını kavmin kenti olarak verir; güvenli uç 200. Treccani 'Tours': 'La città ebbe nome dapprima Caesarodunum'; Cesare kışlaları MÖ 57 ve 51'de (Tours'da değil bölgede — Treccani 'Cesare vi fece svernare', yazılı yer-adı tanığı değil)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0511-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-511 sahibi kaynakta bulunamadı."
+   },
+   {
+    "f": "0511-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Gregorius Turonensis, Historiae II.38, https://www.thelatinlibrary.com/gregorytours/gregorytours2.shtml",
+    "tanik": "Egressus autem a Turonus Parisius venit",
+    "ic_not": "f 'en geç tanıktan': Gregorius'a göre Clovis Tours'ta Anastasius'tan konsüllük işaretlerini alır, sonra Paris'e gider (yıl yok); Clovis ölümü 511 (Treccani Aquitania). Normanlar 853'te Châteauneuf'ü işgal (Treccani), kalıcı değil."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0987-07-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun; Britannica 1911 'Hugh Capet', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugh_Capet"
+   },
+   {
+    "f": "0987-07-01",
+    "t": "1204-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "Touraine: Blois ve Anjou kontları / Plantagenet arasında el değiştirdi (Treccani Angiò: 'Cercò Goffredo Martello di estendere la sua autorità nella Turenna, a danno di Teobaldo III, conte di Blois'); Tours için tarihli sahiplik kaynağı bulunamadı."
+   },
+   {
+    "f": "1204-01-01",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURS', https://www.treccani.it/enciclopedia/tours_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1204 fu annessa al regno"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma biter (Romulus Augustulus tahttan çekilmeye zorlanır).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0511-01-01",
+    "gun": "511",
+    "k": "fetih",
+    "b": "Tours Clovis'in egemenliğinde (Clovis Tours'ta konsüllük alır; en geç tanık).",
+    "kaynak": "Gregorius Turonensis, Historiae II.38, https://www.thelatinlibrary.com/gregorytours/gregorytours2.shtml",
+    "tanik": "Egressus autem a Turonus Parisius venit"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, bölge Batı Francia'da kalır (antlaşma yılı; ay-gün bu kaynakta yok).",
+    "kaynak": "Britannica 1911 'Verdun', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0987-07-01",
+    "gun": "Temmuz 987",
+    "k": "diger",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugues Capet kral seçilip taçlandırılır).",
+    "kaynak": "Britannica 1911 'Hugh Capet', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugh_Capet",
+    "tanik": "crowned him, probably at Noyon, in July 987"
+   },
+   {
+    "t": "1204-01-01",
+    "gun": "1204",
+    "k": "fetih",
+    "b": "Tours Fransa krallığına katılır (Philippe Auguste).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURS', https://www.treccani.it/enciclopedia/tours_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1204 fu annessa al regno"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı; Caesar BG'de yalnız Turones kavmi. Atlas Tours 1281 'fransa' — uyumlu. Çift teyit yok. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
+ },
+ {
   "id": "trier-de",
   "ad": "Trier",
   "atlas_ad": "Trier",
@@ -7987,6 +9968,109 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış 854: Treccani EI (1937, 'documenti di Ludovico il Germanico') + Treccani DS (2011, 'Ricordata dall'854 come sede reale') — iki Treccani yayını, çift teyit sayılmaz. Gün: Vikipedi DE '22 Temmuz 854' (Stiftsarchiv St. Gallen belgesi, 'in Hulmam palatio regio'); belgenin kendisi/akademik teyit (Stadtarchiv Ulm PDF, Schwäbische Heimat, monasterium.net) 403/WAF engeli nedeniyle AÇILAMADI → 854-01-01. Treccani: Ulm 1027'de 'şehir' anılır; Treccani DS 1134 yıkımı. Merovenj mezarlığı (Kienlesberg) Vikipedi DE (ikinci tanık) — ark yazılmadı. Sağ yakadaki Neu-Ulm Bavyera (EI) bu kaydın dışında. Atlas Ulm 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "vannes-fr",
+  "ad": "Vannes",
+  "atlas_ad": "Vannes",
+  "lat": 47.658,
+  "lon": -2.76,
+  "kat1900": 3,
+  "adlar": [
+   "Darioritum",
+   "Dariorigum",
+   "Veneti",
+   "Gwened",
+   "Vannes"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; Britannica 1911 'Ptolemy' (son gözlem MS 151), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ptolemy",
+   "tanik": "The Veneti occupy the western coast below the Osismi, whose town is Darioritum",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Ptolemaios (Geographia, 2. yy; EB1911: son gözlemi MS 151) Darioritum adını kavmin kenti olarak verir; güvenli uç 200. Vannes = Dariorigum özdeşliği: EB1911 'Vannes' ('Vannes (Dariorigum), the capital of the Veneti'; MÖ 56'da Caesar'ın Veneti filosunu yenmesi — kavim, şehir tanığı değil). Treccani'de Vannes maddesi yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0511-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-511 sahibi kaynakta bulunamadı."
+   },
+   {
+    "f": "0511-01-01",
+    "t": "0846-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Gregorius Turonensis, Historiae IV.4, https://www.thelatinlibrary.com/gregorytours/gregorytours4.shtml",
+    "tanik": "Brittani sub Francorum potestatem post obitum regis Chlodovechi fuerunt",
+    "ic_not": "Gregorius IV.4: Britonlar Clovis'in ölümünden sonra Frank egemenliğinde (kontlar, kral değil); Veneticam urbem (Vannes) piskoposluk yeri. Clovis ölümü 511 (Treccani Aquitania)."
+   },
+   {
+    "f": "0846-01-01",
+    "t": "1281-01-01",
+    "d": "bretanya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Brittany', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brittany",
+    "tanik": "forced him, in 846, to recognize the independence of Brittany"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma biter (Romulus Augustulus tahttan çekilmeye zorlanır).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0511-01-01",
+    "gun": "511",
+    "k": "fetih",
+    "b": "Clovis ölümü: Bretonlar Frank egemenliğinde (Vannes dahil) kalır.",
+    "kaynak": "Gregorius Turonensis, Historiae IV.4, https://www.thelatinlibrary.com/gregorytours/gregorytours4.shtml",
+    "tanik": "Brittani sub Francorum potestatem post obitum regis Chlodovechi fuerunt"
+   },
+   {
+    "t": "0846-01-01",
+    "gun": "846",
+    "k": "antlasma",
+    "b": "Nominoë, Kel Karl'ı yener; Bretanya'nın bağımsızlığı tanınır (Vannes Breton dünyasında).",
+    "kaynak": "Britannica 1911 'Brittany', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brittany",
+    "tanik": "forced him, in 846, to recognize the independence of Brittany"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. 846 sınırı Vannes için doğrudan tanık değil (Bretanya genel) — yaklaşıklık beyanlı. Atlas Vannes 1281 'bretanya' — uyumlu. Çift teyit yok. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
  },
  {
   "id": "wuchang-cin",
