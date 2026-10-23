@@ -141,7 +141,7 @@ for ad in sorted(gruplar):
         kes = {"kesin": "yil", "yaklasik": "belirsiz"}.get(r.get("konum_kesinligi"), "belirsiz")
         modern = re.split(r"[(,/;]", r.get("esanlam_modern") or "")[0].strip()
         ad_yaz = r["ad"] if (not modern or N(modern) == N(r["ad"]) or N(modern) in N(r["ad"]) or N(r["ad"]) in N(modern)) else "%s (%s)" % (r["ad"], modern)
-        ad_yaz = re.sub(r"\s+", " ", ad_yaz)
+        ad_yaz = re.sub(r"\s*\?+\s*$", "", re.sub(r"\s+", " ", ad_yaz)).strip()
         if ad_yaz in MEVCUT_AD or ad_yaz in YAZILAN_AD:
             rapor.setdefault("ad_cakisti_yazilmadi", []).append(ad_yaz)
             continue

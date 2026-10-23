@@ -96,6 +96,7 @@
    "anadolu",
    "iran",
    "mezopotamya",
+   "misir-sudan",
    "suriye-filistin"
   ],
   "durum": "uyumlu",
@@ -121,6 +122,7 @@
   "devlet_bolgeleri": [
    "anadolu",
    "balkanlar",
+   "misir-sudan",
    "suriye-filistin"
   ],
   "durum": "uyumlu",
@@ -133,7 +135,10 @@
   "lon": 42.494444,
   "devlet_bolgeleri": [
    "anadolu",
-   "misir-sudan"
+   "dogu-asya",
+   "iran",
+   "misir-sudan",
+   "orta-asya"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
@@ -143,8 +148,10 @@
   "kronoloji_adi": "Sart",
   "lat": 38.488314,
   "lon": 28.040286,
-  "devlet_bolgeleri": [],
-  "durum": "etiket_yok",
+  "devlet_bolgeleri": [
+   "anadolu"
+  ],
+  "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
  },
  {
@@ -177,7 +184,8 @@
   "lat": 37.4488715,
   "lon": 35.8163535,
   "devlet_bolgeleri": [
-   "anadolu"
+   "anadolu",
+   "misir-sudan"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
@@ -235,7 +243,8 @@
   "devlet_bolgeleri": [
    "anadolu",
    "iran",
-   "misir-sudan"
+   "misir-sudan",
+   "suriye-filistin"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
@@ -300,6 +309,8 @@
   "devlet_bolgeleri": [
    "balkanlar",
    "iran",
+   "mezopotamya",
+   "misir-sudan",
    "suriye-filistin"
   ],
   "durum": "uyumlu",
@@ -324,6 +335,7 @@
   "lat": 40.983393,
   "lon": 29.025789,
   "devlet_bolgeleri": [
+   "anadolu",
    "balkanlar",
    "dogu-afrika",
    "iran",
@@ -523,6 +535,7 @@
   "lat": 43.205842,
   "lon": 2.364076,
   "devlet_bolgeleri": [
+   "bati-avrupa",
    "iberya"
   ],
   "durum": "uyumlu",
@@ -1134,6 +1147,7 @@
   "lat": 44.6465,
   "lon": 7.4896,
   "devlet_bolgeleri": [
+   "bati-avrupa",
    "italya"
   ],
   "durum": "uyumlu",
@@ -1561,7 +1575,8 @@
   "lon": 25.218,
   "devlet_bolgeleri": [
    "balkanlar",
-   "dogu-asya"
+   "dogu-asya",
+   "dogu-avrupa"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_avrupa.js"
@@ -1871,6 +1886,7 @@
   "lat": 44.069,
   "lon": 89.19,
   "devlet_bolgeleri": [
+   "dogu-asya",
    "orta-asya",
    "sibirya-bozkir"
   ],
@@ -1894,6 +1910,8 @@
   "lat": 24.7516,
   "lon": 67.5214,
   "devlet_bolgeleri": [
+   "mezopotamya",
+   "orta-asya",
    "suriye-filistin"
   ],
   "durum": "UYUMSUZ",
@@ -2027,6 +2045,17 @@
   "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
  },
  {
+  "ad": "Büst (Lashkar Gah/Bust, Helmand)",
+  "kronoloji_adi": "Büst (Lashkar Gah/Bust, Helmand)",
+  "lat": 31.5081,
+  "lon": 64.3566,
+  "devlet_bolgeleri": [
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
   "ad": "Azerbaycan",
   "kronoloji_adi": "Azerbaycan",
   "lat": 38.0,
@@ -2065,17 +2094,6 @@
   "devlet_bolgeleri": [
    "dogu-avrupa",
    "sibirya-bozkir"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
- },
- {
-  "ad": "Büst",
-  "kronoloji_adi": "Büst",
-  "lat": 31.5025,
-  "lon": 64.3566,
-  "devlet_bolgeleri": [
-   "orta-asya"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
@@ -2340,8 +2358,10 @@
   "devlet_bolgeleri": [
    "arabistan",
    "balkanlar",
+   "bati-avrupa",
    "mezopotamya",
-   "misir-sudan"
+   "misir-sudan",
+   "suriye-filistin"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_ortadogu.js"

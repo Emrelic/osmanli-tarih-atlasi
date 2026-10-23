@@ -556,6 +556,108 @@
    "neden": "ad"
   },
   {
+   "ad": "Mytilene",
+   "atlas": "Midilli",
+   "km": 0.78,
+   "neden": "3km"
+  },
+  {
+   "ad": "Karkamis",
+   "atlas": "Cerablus",
+   "km": 0.5,
+   "neden": "3km"
+  },
+  {
+   "ad": "Nikomedia",
+   "atlas": "İzmit",
+   "km": 0.3,
+   "neden": "ad"
+  },
+  {
+   "ad": "Mylasa",
+   "atlas": "Milas",
+   "km": 1.6,
+   "neden": "ad"
+  },
+  {
+   "ad": "Odessos",
+   "atlas": "Varna",
+   "km": 0.9,
+   "neden": "ad"
+  },
+  {
+   "ad": "Nauplia",
+   "atlas": "Anabolu (Nauplion)",
+   "km": 0.78,
+   "neden": "3km"
+  },
+  {
+   "ad": "Massalia",
+   "atlas": "Marsilya",
+   "km": 1.01,
+   "neden": "3km"
+  },
+  {
+   "ad": "Mansura",
+   "atlas": "Mansûre",
+   "km": 0.06,
+   "neden": "3km"
+  },
+  {
+   "ad": "Gırnata",
+   "atlas": "Granada",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Brundisium",
+   "atlas": "Brindisi",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Katane",
+   "atlas": "Katanya (Catania)",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Brixia",
+   "atlas": "Brescia",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Bologna",
+   "atlas": "Bolonya",
+   "km": 0.21,
+   "neden": "3km"
+  },
+  {
+   "ad": "Cirta",
+   "atlas": "Konstantin",
+   "km": 0.38,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kâbis",
+   "atlas": "Gabes",
+   "km": 1.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Balh",
+   "atlas": "Belh",
+   "km": 1.16,
+   "neden": "3km"
+  },
+  {
+   "ad": "Buda",
+   "atlas": "Aquincum-Óbuda-Pest",
+   "km": 0.08,
+   "neden": "3km"
+  },
+  {
    "ad": "Cürcân",
    "atlas": "(parti içi)",
    "km": 0,
@@ -1050,19 +1152,19 @@
  ],
  "yazilmadi": {
   "yok": 794,
-  "belirsiz": 132,
-  "tek_tanik": 485,
+  "belirsiz": 148,
+  "tek_tanik": 534,
   "dogal": 10,
   "bolge": 43,
   "bulunamadi": 12,
-  "cozulemedi": 147,
+  "cozulemedi": 743,
   "tek_kaynak": 55,
   "celiski": 20,
   "ikinci_tanik_yok": 18,
   "bolge_adi": 55,
   "?": 87
  },
- "yazilan": 188,
+ "yazilan": 208,
  "haric": [
   {
    "ad": "Lade",

@@ -77,6 +77,25 @@ Arjona (Arcûne)	Arjona (Arcûne)	sehir	37.93645	-4.054925	1281-01-01	yerlesimle
 Santarém (Şenterîn)	Santarém (Şenterîn)	sehir	39.234008303	-8.67646951485	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Écija (İsticce)	Écija (İsticce)	sehir	37.540932	-5.079949	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Ostia	Ostia	harabe	41.7535757522	12.2893574183	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Thermon	Thermon	harabe	38.558783	21.667571	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Aigion	Aigion	sehir	38.252707	22.081952	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Sirmium	Sirmium (Sremska Mitrovica)	harabe	44.97311355	19.6098253	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Kalavryta	Kalavryta	sehir	38.0333853	22.1103931	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Geraki	Geraki	sehir	36.992193	22.706912	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Dole	Dole	sehir	47.089187	5.487826	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Auch	Auch	sehir	43.6463558	0.5850507	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Niebla	Niebla	sehir	37.3609544	-6.6793495	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Tarquinia	Tarquinia	sehir	42.2572541045	11.7914539586	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Spoleto	Spoleto	sehir	42.7354504	12.7358992	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Volterra	Volterra	sehir	43.401604	10.8600625	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Kroton	Kroton (Crotone)	sehir	39.0811675	17.127966	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Gela	Gela	sehir	37.0630925	14.2584705	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Chiusi	Chiusi	sehir	43.016515	11.9477359	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Cremona	Cremona	sehir	45.133639	10.026149	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Vercelli	Vercelli	sehir	45.321094	8.426374	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Ivrea	Ivrea	sehir	45.466604	7.875942	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Aversa	Aversa	sehir	40.973328	14.207679	1281-01-01	yerlesimler_once1281_yt_avrupa.js
+Mikulcice?	Mikulcice	sehir	48.80581	17.085383	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Sicilya	Sicilya	bolge	37.65	14.1	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 İfrîkıye	İfrîkıye	bolge	35.68	10.1	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 İtalya	İtalya	bolge	42.8	12.5	1281-01-01	yerlesimler_once1281_yt_avrupa.js
@@ -84,7 +103,7 @@ Endülüs	Endülüs	bolge	37.89	-4.78	1281-01-01	yerlesimler_once1281_yt_avrupa.
 Trakya	Trakya	bolge	41.6	26.8	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Makedonya	Makedonya	bolge	41.5	21.7	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Toskana	Toskana	bolge	43.5	11.1	1281-01-01	yerlesimler_once1281_yt_avrupa.js
-Sarmizegetusa	Sarmizegetusa	harabe	45.62289	23.31041	0106-01-01	yerlesimler_once1281_yt_avrupa.js
+Sarmizegetusa	Sarmizegetusa	harabe	45.62289	23.31041	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Melun	Melun	sehir	48.5457	2.65356	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Gnezno	Gnezno (Gniezno)	sehir	52.534	17.55	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Boulogne	Boulogne	liman	50.722	1.609	1281-01-01	yerlesimler_once1281_yt_avrupa.js
@@ -138,6 +157,7 @@ Kamboçya	Kamboçya	bolge	12.718	104.905	1281-01-01	yerlesimler_once1281_yt_dogu
 Kore yarımadası	Kore yarımadası	bolge	37.962	127.153	1281-01-01	yerlesimler_once1281_yt_dogu_gd_asya.js
 Sumatra	Sumatra	bolge	-0.447	101.514	1281-01-01	yerlesimler_once1281_yt_dogu_gd_asya.js
 Vietnam	Vietnam	bolge	16.658	106.301	1281-01-01	yerlesimler_once1281_yt_dogu_gd_asya.js
+Anuradhapura	Anuradhapura	sehir	8.32444	80.4127603	1281-01-01	yerlesimler_once1281_yt_hint.js
 Hindistan	Hindistan	bolge	20.6	79.5	1281-01-01	yerlesimler_once1281_yt_hint.js
 Beşbalık	Beşbalık	harabe	44.069	89.19	1281-01-01	yerlesimler_once1281_yt_hint.js
 Mahoba	Mahoba	sehir	25.291	79.874	1281-01-01	yerlesimler_once1281_yt_hint.js

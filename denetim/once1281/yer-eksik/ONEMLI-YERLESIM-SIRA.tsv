@@ -1,0 +1,1031 @@
+bolge	yer	onem_puan	devlet_sayisi	ilk_yil	atlasta	atlas_ad	devletler
+anadolu	Hattusa	840	3	-1649	var	Hattuşa	hitit,hitit-eski,hitit-imp
+anadolu	Khios	678	1	-599	yok		sakiz-polis
+anadolu	Mytilene	505	1	-584	yok		midilli-polis
+anadolu	Karkamis	472	1	-1179	yok		yeni-hitit
+anadolu	Mazaka	271	1	-254	yok		kapadokya-krallik
+anadolu	Tuspa  Van	270	1	-859	yok		urartu
+anadolu	Ankyra	253	1	-277	var	Ankara	galatya-keltleri
+anadolu	Samosata	234	1	-162	yok		kommagene
+anadolu	Nikomedia	223	1	-296	yok		bitinya
+anadolu	Amaseia -> Sinope	218	1	-280	yok		pontus
+anadolu	Patara	209	1	-166	yok		likya-birligi
+anadolu	İznik → Konya	206	1	1075	yok		selcuklu
+anadolu	Hasankeyf	196	1	1085	var	Hasankeyf	artuklu
+anadolu	Bitlis → Erzen	196	1	1085	yok		dilmacogullari
+anadolu	Meyyâfârikīn  Silvan	177	2	983	yok		eyyubi-meyyafarikin,mervani
+anadolu	Bergama	149	1	-281	var	Bergama	bergama
+anadolu	Sardes	134	1	-679	yok		lidya
+anadolu	Erzurum	131	1	1071	var	Erzurum	saltuklu
+anadolu	Kemah → Erzincan  Divriği ve Şebinkarahisar kolları	110	1	1118	yok		mengucuklu
+anadolu	Ahlat	108	1	1100	var	Ahlat	ahlatsahlar
+anadolu	Sivas	107	1	1071	var	Sivas	danismendli
+anadolu	Vahga	107	1	1092	yok		rupeniler
+anadolu	Kummanni	100	1	-1499	yok		kizzuwatna
+anadolu	Lefkoşa	95	2	1185	var	Lefkoşa	kibris-isaakios,kibris-krallik
+anadolu	Âmid  Diyarbekir	88	1	1095	yok		inalogullari
+anadolu	Tarsus	87	1	878	var	Tarsus	tarsus-emirlik
+anadolu	Sis	82	1	1199	var	Sis (Kozan)	kilikya-ermeni
+anadolu	Trabzon	77	1	1204	var	Trabzon	trabzon-rum
+anadolu	Kastamonu	70	1	1211	var	Kastamonu	cobanogullari
+anadolu	İznik	57	1	1204	var	İznik	iznik-imparatorlugu
+anadolu	Mylasa	57	1	-390	yok		karya-hekatomnid
+anadolu	Hısnıkeyfâ  Hasankeyf	49	1	1232	yok		eyyubi-hisnikeyfa
+anadolu	Harput	34	1	1085	var	Harput (Elazığ)	cubukogullari
+anadolu	Tigranokerta	29	1	-94	yok		tigran-imp
+anadolu	Malatya	28	1	1074	var	Malatya	malatya-ermeni-beyligi
+anadolu	Ermenek → Konya  1366-67	25	1	1256	yok		karaman
+anadolu	Kelainai → Antigoneia  Orontes	23	1	-305	yok		antigonos-krallik
+anadolu	Tefrike  Divriği	22	1	850	yok		tefrike
+anadolu	Isparta-Alâiye → Denizli	20	1	1261	yok		inancogullari
+anadolu	İzmir  Smyrna	14	1	1081	yok		caka-beyligi
+anadolu	bulunamadı  kaynak merkez vermiyor	8	1	1077	yok		filaretos-devleti
+anadolu	Afyonkarahisar	6	1	1275	yok		sahibata
+anadolu	Antigoneia	5	1	-305	yok		antigonos
+anadolu	Sinop	4	1	1277	var	Sinop	pervane
+anadolu	Beyşehir	4	1	1277	var	Beyşehir	esrefogullari
+anadolu	Milas	1	1	1280	var	Milas	mentese
+arabistan	Kala'at al-Bahrain	3280	1	-1999	yok		dilmun
+arabistan	Marib	1074	1	-799	yok		saba
+arabistan	Gerrha	948	1	-649	yok		gerrha
+arabistan	Sabva	749	1	-449	yok		hadramavt
+arabistan	Zafar	634	1	-109	var	Zafâr	himyar
+arabistan	Timna	598	1	-399	yok		kataban
+arabistan	Nezva	531	1	750	yok		uman-ibadi
+arabistan	Hadarim	415	1	866	yok		ukaydir
+arabistan	Dedan  el-Hureybe	400	1	-499	yok		lihyan
+arabistan	Sa'da → San'a	384	1	897	yok		yemen-zeydi
+arabistan	Zebîd	351	3	818	var	Zebîd	benu-mehdi-zebid,necahi,ziyadi
+arabistan	Lahsâ  Ahsâ	337	2	899	yok		karmati,uyuni
+arabistan	Medine	322	2	622	var	Medine	medine-devleti,medine-emirligi
+arabistan	Karna	300	1	-399	yok		ma-in
+arabistan	San‘a	295	5	525	var	Sana	abna-yemen,esved-ansi-yemen,habes-yemen,hamdani-yemen,yufiri
+arabistan	Mekke	189	2	450	var	Mekke	mekke-kureys,zubeyri
+arabistan	Behlâ	127	1	1154	yok		nebhani-umman
+arabistan	Hajar Yahirr  varsayım	120	1	-799	yok		awsan
+arabistan	Aden	95	1	1080	var	Aden	zureyi
+arabistan	San‘a → Zûcible	91	1	1047	yok		suleyhi
+arabistan	Zebîd → Taiz	55	1	1174	yok		eyyubi-yemen
+arabistan	Katîf	52	1	1229	var	Katîf	usfuri
+arabistan	Taiz	52	1	1229	var	Taiz	resuli
+arabistan	Kariyat el-Fav	48	1	480	yok		kinde
+arabistan	Medine → Kûfe	29	1	632	yok		hulefa-yi-rasidin
+arabistan	Hecr  Yemâme	2	1	631	yok		yemame-museylime
+balkanlar	Knossos	1083	2	-1899	yok		knossos-polis,minos
+balkanlar	Konstantinopolis	951	1	330	var	İstanbul	bizans
+balkanlar	Eleutherna	833	1	-899	yok		eleutherna-polis
+balkanlar	Gortyn	816	2	-699	yok		gortyn-polis,kretaion-koinon
+balkanlar	Sparta	792	2	-799	var	Sparta	peloponnes-birligi,sparta
+balkanlar	Itanos	733	1	-799	yok		itanos-polis
+balkanlar	Byzantion	731	1	-658	var	İstanbul	byzantion-polis
+balkanlar	Korint	669	2	-799	var	Korint	korint,korint-birligi
+balkanlar	Lyttos	633	1	-699	yok		lyttos-polis
+balkanlar	Polyrrhenia	633	1	-699	yok		polyrrhenia-polis
+balkanlar	Kydonia	631	1	-699	yok		kydonia-polis
+balkanlar	Khalkis	590	1	-293	yok		euboia-koinon
+balkanlar	Dubrovnik	581	1	700	var	Dubrovnik	dubrovnik
+balkanlar	Praisos	560	1	-699	yok		praisos-polis
+balkanlar	Aigai	532	1	-699	var	Aigai (Vergina)	makedonya-krallik
+balkanlar	Seuthopolis	525	1	-479	yok		odris
+balkanlar	Phalasarna	516	1	-699	yok		phalasarna-polis
+balkanlar	Phaistos	500	1	-699	yok		phaistos-polis
+balkanlar	Rodos	485	1	-406	var	Rodos	rodos-polis
+balkanlar	Odessos	479	1	-549	yok		odessos-polis
+balkanlar	Stratos	469	1	-499	yok		akarnania-birligi
+balkanlar	Naxos	405	2	-733	yok		naksa-dukaligi,naxos-sicilya
+balkanlar	Naissus çevresi	371	1	-398	yok		dardania
+balkanlar	Pliska → Preslav	337	1	681	yok		birinci-bulgar
+balkanlar	Lychnidos  Ohrid	335	2	-799	yok		bardylis-krallik,enchelei-krallik
+balkanlar	Miken	300	1	-1399	yok		miken
+balkanlar	Zara  Zadar	281	1	1000	yok		venedik-dalmacya
+balkanlar	Atina	269	3	-507	var	Atina	atina-demokrasisi,atina-dukaligi,ikinci-atina-birligi
+balkanlar	Sarmizegetusa	187	1	-81	var	Sarmizegetusa	dakya
+balkanlar	Thermon	178	1	-366	yok		aitolia-birligi
+balkanlar	Knin · Biograd  kaynak sabit başkent vermez	177	1	925	yok		hirvatistan-kralligi
+balkanlar	Mokro	161	1	839	yok		neretva-prensligi
+balkanlar	bulunamadı  kaynak başkent adı vermez	150	1	1036	yok		duklja
+balkanlar	Delminium → Soetovio  Klis	148	1	-180	yok		delmatai-federasyon
+balkanlar	Delos	147	1	-313	yok		nesiotai-koinon
+balkanlar	Ston	144	1	910	yok		zahumlje
+balkanlar	Lychnidos	142	1	-499	yok		illyria-dassaretioi-bardylis
+balkanlar	Trebinje	140	1	900	yok		travunija
+balkanlar	Dodona -> Ambrakia	138	1	-369	yok		epir
+balkanlar	Aigion	134	1	-279	yok		akhaia-birligi
+balkanlar	Rabazulhandak  Kandiye	134	1	827	yok		girit-emirligi
+balkanlar	Ras → Skopje → Serez  Duşan döneminde	115	1	1166	yok		sirbistan-nemanjic
+balkanlar	Nin	115	1	810	yok		hirvat-dukalik
+balkanlar	Sirmium	112	1	455	yok		gepid
+balkanlar	Pella	108	1	-275	var	Fihl (Pella)	antigonid-makedonya
+balkanlar	Jajce	101	1	1180	var	Yayça (Jajce)	bosna-kralligi
+balkanlar	Epidamnos çevresi	97	1	-398	yok		taulantioi
+balkanlar	Tırnova → Vidin	96	1	1185	yok		bulgar-carligi
+balkanlar	Kefalonya	87	1	1194	var	Kefalonya	kefalonya-palatin
+balkanlar	Skodra	82	1	-249	yok		illyria-ardiaioi
+balkanlar	Halkis	77	1	1204	yok		euboea-negroponte
+balkanlar	Candia  Kandiye	77	1	1204	yok		girit-venedik
+balkanlar	Bodonitsa  Mendenitsa	77	1	1204	yok		bodonitsa
+balkanlar	Andravida	76	1	1205	yok		ahaya-prinkepsligi
+balkanlar	Salona  Amfissa	76	1	1205	yok		salona-lordluk
+balkanlar	Ras	75	1	1091	yok		raska-buyuk-prensligi
+balkanlar	Delos -> Atina	74	1	-477	yok		delos-birligi
+balkanlar	Tinos	74	1	1207	var	İstendil (Tinos)	ghisi-tinos-mykonos
+balkanlar	Veligosti	72	1	1209	yok		veligosti-damala-baronluk
+balkanlar	Chalandritsa	72	1	1209	yok		chalandritsa-baronluk
+balkanlar	Karytaina	72	1	1209	yok		karytaina-baronluk
+balkanlar	Akova  Matagrifon	72	1	1209	yok		akova-matagrifon-baronluk
+balkanlar	Patras	72	1	1209	var	Balyabadra (Patras)	patras-baronluk
+balkanlar	Vostitsa  Aigio	72	1	1209	yok		vostitsa-baronluk
+balkanlar	Nikli  Tegea	72	1	1209	yok		nikli-baronluk
+balkanlar	Kastro  Myrina	71	1	1207	yok		navigajoso-lemnos
+balkanlar	Nauplia	69	1	1212	yok		argos-nauplia
+balkanlar	Kalavryta	63	1	1209	yok		kalavryta-baronluk
+balkanlar	Geraki	60	1	1209	yok		geraki-baronluk
+balkanlar	Bizye	58	1	-12	yok		trakya-sapaioi-krallik
+balkanlar	Konstantinopolis  İstanbul	57	1	1204	yok		latin-imparatorlugu
+balkanlar	Selânik	41	2	1205	var	Selanik	selanik-imparatorlugu,selanik-kralligi
+balkanlar	Teb  Thebai	41	1	-378	yok		boiotia-birligi
+balkanlar	Sisak  Siscia	28	1	795	yok		donja-panonija-vojnomir-ljudevit
+balkanlar	Lysimacheia	25	1	-305	yok		lizimakhos
+balkanlar	Arkadia  Kyparissia	20	1	1261	yok		arkadia-baronluk
+balkanlar	Amphipolis · Thessalonike · Pella · Pelagonia  Herakleia Lynkestis	19	1	-166	yok		makedon-merisleri
+balkanlar	Galata	14	1	1267	yok		galata-pera
+balkanlar	belirsiz  Drava-Sava arası	14	1	882	yok		donja-panonija-braslav
+balkanlar	belirsiz  Aşağı Pannonia	9	1	829	yok		donja-panonija-ratimir
+bati-afrika	Gāne  Kumbî Sâlih	375	1	701	yok		wagadu-gane-erken
+bati-afrika	Agukwu Nri	287	1	994	var	Nri (Agukwu Nri)	nri
+bati-afrika	Kano	281	1	1000	var	Kano	hausa-sehir-devletleri
+bati-afrika	Tekrûr	281	1	1000	yok		tekrur-kralligi
+bati-afrika	Kukia → Gao  1009-10	281	1	1000	yok		kevkev
+bati-afrika	Gao	208	1	801	var	Gao	kevkev-erken
+bati-afrika	Tekrûr şehri  Aşağı Senegal	199	1	801	yok		tekrur-erken
+bati-afrika	Awdaghust?	165	1	889	yok		sahra-sanhaca
+bati-afrika	Susu  yeri kaynakta yok	159	1	1076	yok		susu-kralligi
+bati-afrika	Benin Şehri	101	1	1180	var	Benin Şehri (Edo)	benin-kralligi
+bati-afrika	Gāne  Kumbîsâlih harabeleri sanılıyor	76	1	1000	yok		gane
+bati-afrika	Niani	46	1	1235	var	Niani	mali-imparatorlugu
+bati-avrupa	Peel	682	2	850	var	Peel (Man)	adalar-kralligi,man-ve-adalar-krallik
+bati-avrupa	Dumbarton  Alclut	568	1	450	yok		strathclyde
+bati-avrupa	Massalia	551	1	-599	yok		massalia
+bati-avrupa	Fortriu	546	1	297	yok		piktler
+bati-avrupa	York	483	3	560	var	York	deira,jorvik,northumbria
+bati-avrupa	Scone → Edinburgh	438	1	843	yok		iskocya
+bati-avrupa	Rennes	435	2	846	var	Rennes	bretanya,bretanya-nominoe
+bati-avrupa	Le Mans	435	1	846	var	Le Mans	maine-kontlugu
+bati-avrupa	Mathrafal	431	1	850	yok		powys
+bati-avrupa	Toulouse	422	1	849	var	Toulouse	toulouse
+bati-avrupa	Brugge  Bruges	419	1	862	yok		flandre
+bati-avrupa	Winchester	408	1	519	yok		wessex
+bati-avrupa	Utrecht	391	2	600	var	Utrecht	friz-krallik,utrecht-piskoposlugu
+bati-avrupa	Tamworth	391	1	527	var	Tamworth	mercia
+bati-avrupa	Canterbury	370	1	455	var	Canterbury	kent-kralligi
+bati-avrupa	Tournai -> Paris	362	1	481	yok		frank
+bati-avrupa	Londra	354	1	927	var	Londra	ingiltere
+bati-avrupa	Selsey	348	1	477	yok		sussex-kralligi
+bati-avrupa	Dunadd	343	1	500	yok		dal-riata
+bati-avrupa	Dublin	329	1	841	var	Dublin	dublin-krallik
+bati-avrupa	Lüksemburg	318	1	963	var	Lüksemburg	luksemburg-kontlugu
+bati-avrupa	Rendlesham	311	1	616	yok		dogu-anglia
+bati-avrupa	London	298	1	527	var	Londra	essex
+bati-avrupa	Paris	294	1	987	var	Paris	fransa
+bati-avrupa	Nevers	294	1	987	yok		nevers-kontlugu
+bati-avrupa	Rouen	293	1	911	var	Rouen	normandiya
+bati-avrupa	çok merkezli Gal beylikleri	281	1	1000	yok		irlanda
+bati-avrupa	Aberffraw	281	1	1000	var	Aberffraw	gwynedd
+bati-avrupa	Poitiers → Bordeaux	281	1	1000	yok		akitanya-dukaligi
+bati-avrupa	Aix-en-Provence	281	1	1000	var	Aix-en-Provence	provence-kontlugu
+bati-avrupa	Dole	281	1	1000	yok		franche-comte
+bati-avrupa	Nancy	281	1	1000	var	Nancy	lorraine-dukaligi
+bati-avrupa	Liège	281	1	1000	var	Liège	liege-piskoposlugu
+bati-avrupa	Haarlem	281	1	1000	var	Haarlem	hollanda-kontlugu
+bati-avrupa	Dinefwr	277	1	920	yok		deheubarth
+bati-avrupa	Soissons	265	2	461	var	Soissons	neustria,soissons-devleti
+bati-avrupa	Waterford	256	1	914	var	Waterford	waterford-norse
+bati-avrupa	Dijon	249	1	1032	var	Dijon	burgonya
+bati-avrupa	Reims	240	1	511	var	Reims	austrasia
+bati-avrupa	Foix	217	1	1064	var	Foix	foix-kontlugu
+bati-avrupa	Mons	210	1	1071	var	Mons	hainaut-kontlugu
+bati-avrupa	Angers	204	1	1000	var	Angers	anjou-kontlugu
+bati-avrupa	Auch	176	1	602	yok		vasconia
+bati-avrupa	Aachen	169	3	800	var	Aachen	karolenj-imparatorlugu,orta-francia,orta-francia-lotharingia
+bati-avrupa	Troyes	156	1	1125	var	Troyes	champagne-kontlugu
+bati-avrupa	Grenoble	148	1	1133	var	Grenoble	dauphine-viennois
+bati-avrupa	Laon	144	1	843	var	Laon	bati-francia
+bati-avrupa	Narbonne	141	1	759	var	Narbonne	septimania-gotia
+bati-avrupa	Orange	118	1	1163	var	Orange (Arausio)	orange-prensligi
+bati-avrupa	Arles	99	1	933	var	Arles	arles-kralligi
+bati-avrupa	Limerick	92	1	922	var	Limerick	limerick-norse
+bati-avrupa	Leuven	91	1	1190	yok		brabant-dukaligi
+bati-avrupa	Worms -> Lyon	91	1	443	yok		burgund
+bati-avrupa	Mediolanum -> Ravenna	81	1	395	yok		bati-roma
+bati-avrupa	Saint Helier	77	1	1204	var	Saint Helier (Jersey)	kanal-adalari
+bati-avrupa	Bamburgh	58	1	547	yok		bernicia
+bati-avrupa	Vienne	54	1	879	var	Vienne	asagi-burgundia-provence
+bati-avrupa	Tournai	53	1	428	var	Tournai	salian-frank-tournai
+bati-avrupa	Saint-Maurice  Valais	45	1	888	yok		yukari-burgundia
+bati-avrupa	Doğu Anglia  belirli başkent yok	40	1	878	yok		danelaw
+bati-avrupa	Verulamium	38	1	5	yok		catuvellauni-krallik
+bati-avrupa	Augusta Treverorum  Trier	27	2	260	yok		galya-imp,galya-imparatorlugu
+bati-avrupa	Londinium	20	2	286	var	Londra	britanya-imp,britanya-imparatorlugu-carausius
+bati-avrupa	Carpentras  Comtat	7	1	1274	yok		avignon-venaissin
+dogu-afrika	Aksum	2041	2	100	var	Aksum	aksum,aksum-uzun
+dogu-afrika	Kilwa Kisiwani	587	2	975	var	Kilwa Kisiwani (Kilve)	kilva-sultanligi,kilwa-uzun
+dogu-afrika	Yeha	400	1	-799	yok		dmt
+dogu-afrika	Doğu Şüve  kaynakta şehir adı yok	385	1	896	yok		suve-emirligi
+dogu-afrika	Makdişu	369	1	900	yok		mogadisu-erken
+dogu-afrika	Kilwa	281	1	1000	yok		svahili-sehirleri
+dogu-afrika	Zeyla	231	1	1050	var	Zeyla	zeyla-emirlik
+dogu-afrika	Dahlak Kebir	188	1	1093	yok		dahlak-sultanligi
+dogu-afrika	Roha  Lalibela	133	1	1137	yok		zagve
+dogu-afrika	Makdişu  Mogadişu	12	1	1269	yok		makdisu-sultanligi
+dogu-afrika	Gondar → Addis Ababa	11	1	1270	yok		habesistan
+dogu-asya	yok  kültür	69990	55	-12649	yok		anau-ia-kultur,aseramik-kuzey-levant-anadolu,ban-chiang-kultur,casma-sechin,dadiwan-laoguantai,el-argar-kultur
+dogu-asya	Gyeongju	991	1	-56	var	Kyongcu (Gyeongju)	silla
+dogu-asya	Yingqiu → Linzi  Shandong	825	1	-1045	yok		qi-devleti
+dogu-asya	Yarlung vadisi  Chingwa Taktse	755	1	-126	yok		yarlung-krallik
+dogu-asya	Jolbon → Gungnae → Pyeongyang	704	1	-36	yok		goguryeo
+dogu-asya	Wiryeseong → Ungjin → Sabi	677	1	-17	yok		baekje
+dogu-asya	Jeju  Tamna	629	1	476	yok		tamna
+dogu-asya	Chang'an	576	6	-205	var	Xi'an (Chang'an)	bati-han,bati-wei,kuzey-zhou,tang,xin,xin-hanedani
+dogu-asya	Erligang -> Anyang	554	1	-1599	yok		shang
+dogu-asya	Yong -> Xianyang	549	1	-769	yok		qin-devleti
+dogu-asya	Geumgwan Gaya  Gimhae	520	1	42	yok		gaya-konfederasyonu
+dogu-asya	Luoyi	514	1	-769	yok		dogu-zhou
+dogu-asya	Danyang → Ying  Jingzhou	481	1	-703	yok		chu-devleti
+dogu-asya	Yamato  Asuka'ya kadar	460	1	250	yok		yamato
+dogu-asya	Heian-kyō  Kyoto	391	1	794	yok		heian-japonya
+dogu-asya	Jiangzhou  Chongqing	387	1	-702	yok		ba-devleti
+dogu-asya	Kaesong	363	1	918	var	Kaesong	goryeo
+dogu-asya	Fuqi	350	1	313	yok		tuyuhun
+dogu-asya	Luoyang	328	7	25	var	Luoyang	an-lushan-yan,bati-jin,cao-wei,dogu-han,sonraki-tang-5hanedan,sui-zheng-wang-shichong
+dogu-asya	Dali  Yangjümie	326	3	928	yok		da-tianxing,da-yining,dali-kralligi
+dogu-asya	Bianjing  Kaifeng	319	1	960	yok		song
+dogu-asya	Tsaparang · Tholing	281	1	1000	yok		guge
+dogu-asya	Haojing	275	1	-1045	yok		bati-zhou
+dogu-asya	Jiankang	272	5	317	var	Nanking (Nanjing)	chen,dogu-jin,guney-qi,liang-guney,liu-song
+dogu-asya	Qiuchi  Gansu güneyi	257	1	296	yok		qiuchi
+dogu-asya	Dongmozu	228	1	698	yok		balhae
+dogu-asya	Lhasa	213	1	629	var	Lhasa	tibet-imparatorlugu
+dogu-asya	Lhasa  Songtsen Gampo'dan beri	213	1	629	yok		tubo-tibet-imparatorlugu
+dogu-asya	Shangjing  Linhuang	209	1	916	yok		liao-hanedani
+dogu-asya	Xingqing  Zhongxing	189	1	1038	yok		bati-xia
+dogu-asya	Shazhou  Dunhuang	188	1	848	yok		guiyi-jun-dunhuang
+dogu-asya	Handan	181	1	-402	yok		zhao-devleti
+dogu-asya	Anyi → Daliang	178	1	-402	yok		wei-devleti-zhou
+dogu-asya	Taihe	173	1	729	yok		nanzhao
+dogu-asya	Xinzheng	173	1	-402	yok		han-devleti-zhou
+dogu-asya	Dian golu cevresi  Shizhaishan	170	1	-278	yok		dian
+dogu-asya	Meiji  Xihe	168	1	48	yok		guney-xiongnu
+dogu-asya	Xiazhou  Yulin	157	1	881	yok		xiazhou-dangxiang
+dogu-asya	Datong  sonra Luoyang	148	1	386	yok		kuzey-wei
+dogu-asya	Ganzhou  Kan-chou	142	1	894	yok		gansu-uygur
+dogu-asya	Ganzhou  Zhangye	142	1	894	yok		ganzhou-uygur
+dogu-asya	Zhongdu  Pekin	119	1	1115	yok		jin-hanedani
+dogu-asya	Hiraizumi	102	1	1087	var	Hiraizumi (Ōshū Fujiwara başkenti)	oshu-fujiwara
+dogu-asya	Kamakura	96	1	1185	var	Kamakura	kamakura
+dogu-asya	Qingtang  1032'den	96	1	1008	yok		tsongkha
+dogu-asya	Urasoe Gusuku	94	1	1187	var	Urasoe Gusuku (Chuzan merkezi)	ryukyu-shunten-eiso
+dogu-asya	Panyu  Guangzhou	93	1	-203	yok		nanyue
+dogu-asya	Wanggeom	86	1	-193	yok		wiman-joseon
+dogu-asya	Chengdu	85	2	221	var	Çengdu (Chengdu)	cheng-han,shu-han
+dogu-asya	Heijo-kyo	83	1	710	yok		nara-japonya
+dogu-asya	Shengle	61	1	315	yok		dai-tuoba
+dogu-asya	Jianye	58	1	222	yok		sun-wu
+dogu-asya	Karakurum	54	1	1206	var	Karakurum	mogol-imparatorlugu
+dogu-asya	Dongou  Wenzhou	54	1	-191	yok		dongou
+dogu-asya	Fuyu?	53	1	938	yok		dingan-guo
+dogu-asya	Yuanchuan	46	1	385	yok		bati-qin-qifu
+dogu-asya	Wansan  Jeonju	44	1	892	yok		hubaekje
+dogu-asya	Kaifeng	40	5	907	var	Kaifeng	da-chu-zhang-bangchang,sonraki-han-5hanedan,sonraki-jin-5hanedan,sonraki-liang-5hanedan,sonraki-zhou-5hanedan
+dogu-asya	Daxing	37	1	581	yok		sui
+dogu-asya	Jiangling	36	2	555	yok		hou-liang-xi-liang,sui-liang-xiao-xian
+dogu-asya	Longcheng → Ye	33	1	337	yok		onceki-yan
+dogu-asya	Yangjumie	26	1	902	yok		da-changhe
+dogu-asya	Pingyang → Chang'an	25	1	304	yok		han-zhao
+dogu-asya	Fengxiang	23	1	901	yok		qi-li-maozhen
+dogu-asya	Hanbalık  Pekin	21	1	1260	yok		yuan-hanedani
+dogu-asya	Taiyuan  Jinyang	21	1	902	yok		tang-jin-shatuo-prensligi
+dogu-asya	Nanjing  Mançurya doğusu	18	1	1215	yok		dongxia
+dogu-asya	Sakya	17	1	1264	var	Sakya Manastırı (Sakya)	sakya
+dogu-asya	Leidu  Ledu	17	1	397	yok		guney-liang-16
+dogu-asya	Xianyang	14	1	-220	yok		qin-hanedani
+dogu-asya	Zhenzhou	14	1	907	yok		zhao-wang-rong
+dogu-asya	Hansong-ju	13	1	670	yok		bodeok-goguryeo
+dogu-asya	Shuofang  Xiazhou	11	1	617	yok		sui-liang-liang-shidu
+dogu-asya	Koromo-gawa  Koromo-gawa no saku	11	1	1051	yok		abe-mutsu
+dogu-asya	Fuyu  Sanggyeong	10	1	926	yok		dongdan
+dogu-asya	Daming → Kaifeng	7	1	1130	yok		da-qi-liu-yu
+dogu-asya	Leshou  Hebei	4	1	617	yok		sui-xia-dou-jiande
+dogu-asya	Churyu-seong	3	1	660	yok		baekje-restorasyon
+dogu-asya	Jindo  1270-09'dan	3	1	1270	yok		sambyeolcho-rejimi
+dogu-asya	Youzhou	2	1	911	yok		yan-liu-shouguang
+dogu-asya	bilinmiyor  gezici saray	2	1	1183	yok		taira-rejimi
+dogu-asya	yok  Çin Seddi yakını	2	1	1204	yok		ongut
+dogu-asya	Wagang	1	1	617	yok		sui-wei-li-mi
+dogu-asya	Jincheng  Lanzhou	1	1	617	yok		sui-qin-xue-ju
+dogu-asya	Pyongyang	1	1	1135	var	Pyongyang	daewi-myocheong
+dogu-asya	Dongjing	1	1	1029	yok		heungyo-guk
+dogu-asya	Shimosa Ishii	0	1	940	yok		masakado-shinno
+dogu-avrupa	Nymphaion	1880	1	-599	yok		nymphaion-polis
+dogu-avrupa	Phanagoria	1865	2	-539	yok		buyuk-bulgaristan,phanagoria-polis
+dogu-avrupa	Pantikapaion	807	1	-437	yok		bosporos-krallik
+dogu-avrupa	Krakov	458	2	966	var	Krakov	krakov-dukaligi,polonya-erken
+dogu-avrupa	Kiev	358	1	882	var	Kiev	kiev-rusu
+dogu-avrupa	Belencer → İtil  İdil ağzı	315	1	650	yok		hazar
+dogu-avrupa	Polotsk	303	1	978	var	Polotsk	polotsk-knezligi
+dogu-avrupa	Smolensk	227	1	1054	var	Smolensk	smolensk-knezligi
+dogu-avrupa	Çernigov	215	1	1024	var	Çernigov	cernigov-knezligi
+dogu-avrupa	yok  sekiz boylu konfederasyon	196	1	895	yok		pecenek
+dogu-avrupa	Pereyaslavl	185	1	1054	yok		pereyaslavl-knezligi
+dogu-avrupa	belirsiz  Don–Dinyester bozkırı	184	1	1055	yok		kuman-bati
+dogu-avrupa	Ryazan  Stara Ryazan → Pereyaslavl-Ryazanski	152	1	1129	yok		ryazan
+dogu-avrupa	Novgorod	145	1	1136	var	Novgorod	novgorod
+dogu-avrupa	Płock	143	1	1138	yok		mazovya-dukaligi
+dogu-avrupa	Poznań	143	1	1138	var	Poznan	buyuk-polonya-dukaligi
+dogu-avrupa	Vladimir	124	1	1157	var	Vladimir	vladimir-suzdal
+dogu-avrupa	Gniezno	116	1	850	var	Gnezno (Gniezno)	polan-gniezno
+dogu-avrupa	Riga	105	2	1202	var	Riga	livonya-tarikati,riga-baspiskoposlugu
+dogu-avrupa	belirsiz  Pannonia	85	1	370	yok		hun-avrupa
+dogu-avrupa	Halych → Kholm  1241 sonrası	82	1	1199	yok		galicya-volhinya
+dogu-avrupa	yok  Kuzey Kafkasya–Azak	80	1	555	yok		onogur
+dogu-avrupa	yok  Kuban–Azak	77	1	482	yok		utigur
+dogu-avrupa	Rostov	74	1	1207	var	Rostov (Don)	rostov-knezligi
+dogu-avrupa	Yaroslavl	63	1	1218	var	Yaroslavl	yaroslavl-knezligi
+dogu-avrupa	Marienburg  Malbork	51	1	1230	yok		teuton-sovalyeleri
+dogu-avrupa	Vilnius	45	1	1236	var	Vilnius	litvanya-buyuk-dukalik
+dogu-avrupa	Beloozero	43	1	1238	yok		beloozero-knezligi
+dogu-avrupa	Tver	35	1	1246	var	Tver	tver
+dogu-avrupa	yok  Kafkasya	25	1	530	yok		sabir
+guney-afrika	Mapungubwe  Limpopo-Shashe birleşimi	381	1	900	yok		mapungubwe
+guney-afrika	Büyük Zimbabve	181	1	1100	var	Büyük Zimbabve	zimbabve-kralligi
+guney-amerika	Tiwanaku	1160	2	500	yok		tiwanaku,tiwanaku-devleti
+guney-amerika	Caral	1000	1	-2999	var	Caral	caral-norte-chico
+guney-amerika	Cahuachi	798	1	-199	yok		nazca
+guney-amerika	Huacas de Moche	798	1	1	yok		moche
+guney-amerika	Chavin de Huantar	700	1	-899	var	Chavín de Huántar	chavin
+guney-amerika	Chan Chan	562	2	1000	var	Chan Chan	chimu,chimu-krallik
+guney-amerika	Batán Grande → Túcume	531	1	750	yok		sican
+guney-amerika	Ciudad Perdida  Teyuna	481	1	800	yok		tairona
+guney-amerika	Huari	200	1	600	yok		wari
+guney-amerika	La Centinela	181	1	1100	yok		chincha
+guney-amerika	Hatuncolla	181	1	1100	var	Hatun Colla	aymara-senyorlukler
+guney-amerika	Cusco	81	1	1200	var	Cusco (Qosqo)	kuzco-krallik
+guney-asya	Anuradhapura	1267	1	-250	yok		anuradhapura
+guney-asya	Pragjyotishapura  Guwahati	800	1	350	yok		kamarupa
+guney-asya	Kalinganagara  Mukhalingam	785	1	496	yok		dogu-ganga
+guney-asya	Malé	781	2	500	var	Malé	maldivler-budist,maldivler-sultanligi
+guney-asya	Madurai	771	2	601	var	Madurai	pandya,pandya-1
+guney-asya	Brahmapura → Chamba	731	1	550	yok		chamba
+guney-asya	Nagahrada  Nagda	731	1	550	yok		guhila-mevar
+guney-asya	Talakad	654	1	350	yok		bati-ganga
+guney-asya	Pataliputra	640	5	-363	yok		gupta,kanva,maurya,nanda,sonraki-gupta
+guney-asya	Kançipuram	547	1	350	var	Kançipuram (Kanchipuram)	pallava
+guney-asya	Şakambhari → Ecmîr  Ajayameru	510	1	682	yok		cahamana
+guney-asya	Thane	500	1	765	var	Thane	silahara
+guney-asya	Srinagar	450	2	1000	var	Srinagar (Keşmir)	kesmir,lohara
+guney-asya	Vengi	446	1	624	yok		dogu-calukya
+guney-asya	Tripuri  Tewar	431	1	850	var	Tripuri (Tewar)	kalacuri-tripuri
+guney-asya	Tancavur  Thanjavur	429	1	850	yok		cola
+guney-asya	Dhillika  Delhi	416	1	736	yok		tomara
+guney-asya	Kannauj	413	5	550	yok		ayudha-kannauj,gurjara-pratihara,harsha,maukhari,yashovarman-kannauj
+guney-asya	Baijnath	410	1	790	yok		katyuri
+guney-asya	Anahilapataka  Patan	377	2	942	yok		caulukya,vaghela
+guney-asya	Mudgagiri  Munger	370	1	750	yok		pala
+guney-asya	Ujjain	370	1	35	var	Uccayn (Ujjain)	sakalar-bati-satraplar
+guney-asya	Kathmandu  Kantipura	322	1	879	yok		nepal-thakuri
+guney-asya	Goa	321	1	960	var	Goa	kadamba-goa
+guney-asya	Mahodayapuram  Kodungallur	302	1	800	yok		kulasekhara-cera
+guney-asya	Valabhi	301	1	465	yok		maitraka
+guney-asya	Kathmandu vadisi  Mana-griha	286	1	464	yok		licchavi-nepal
+guney-asya	Çitor	281	1	1000	var	Çitor (Chittorgarh)	racput
+guney-asya	Kattak	281	1	1000	var	Kattak (Cuttack)	orissa
+guney-asya	Katmandu	281	1	1000	var	Katmandu	nepal
+guney-asya	Dhâr · Ujjain	281	1	1000	yok		paramara
+guney-asya	Banavasi	270	1	340	var	Banavasi	kadamba-banavasi
+guney-asya	Belur → Halebidu	255	1	1026	yok		hoysala
+guney-asya	Thatta	251	1	1030	var	Tatta (Thatta)	sumra
+guney-asya	Pratishthana  Paithan	249	1	-29	yok		satavahana
+guney-asya	Rajagriha → Pataliputra	222	1	-542	yok		magadha
+guney-asya	Manyakheta	220	1	755	yok		rastrakuta
+guney-asya	Gopadri  Gwalior	219	1	977	yok		kachchhapaghata-gwalior
+guney-asya	Manyakheta → Kalyani	214	1	975	yok		bati-calukya
+guney-asya	Badami  Vatapi	214	1	543	yok		badami-calukya
+guney-asya	Dambadeniya → Gampola → Kotte  ardışık merkezler	211	1	1070	yok		seylan-sinhala
+guney-asya	Khajuraho → Mahoba · Kâlincar	203	1	1000	yok		candela
+guney-asya	Guhadeva-pataka	200	1	750	yok		bhauma-kara
+guney-asya	Kongoda	190	1	590	yok		sailodbhava
+guney-asya	Taksila → Sagala  Sialkot	189	1	-179	yok		indo-grek
+guney-asya	Bhutambilika  Bhumili	189	1	726	yok		saindhava
+guney-asya	Kâbil	185	1	665	var	Kâbil	turk-sahi
+guney-asya	Simraungarh	184	1	1097	yok		karnata-mithila
+guney-asya	Kalikut	181	1	1100	var	Kalikut (Kozhikode)	kalikut
+guney-asya	Kochi	179	1	1102	var	Koçin (Kochi)	kocin
+guney-asya	Kâbil → Udabhandapura → Nandana → Lahor	176	1	850	yok		hindu-sahiler
+guney-asya	Tummana → Ratnapura  Ratanpur	167	1	1114	yok		kalacuri-ratnapura
+guney-asya	Nadia  Navadvipa	165	1	1095	var	Nadia (Navadvipa/Nabadwip)	sena
+guney-asya	Polonnaruwa  Vijayarajapura	165	1	1070	yok		polonnaruwa
+guney-asya	Suvarnapura	160	1	950	yok		somavamsi
+guney-asya	Mansura	149	1	861	yok		habbari
+guney-asya	Keşmir vadisi  başkent adı kaynakta teyit edilmedi	148	1	855	yok		utpala-kesmir
+guney-asya	Vardhamana  Wadhwan	141	1	801	yok		chapa-vardhamana
+guney-asya	Aror  Alor	140	1	500	yok		rai-sind
+guney-asya	Denduluru	131	1	500	yok		vishnukundina
+guney-asya	Vikramapura	124	1	1026	yok		varman-vanga
+guney-asya	Warangal	118	1	1163	var	Varangal (Warangal)	kakatiya
+guney-asya	Pataliputra → Vidisha	112	1	-184	yok		sunga
+guney-asya	Kannauj · Varanasi	108	1	1089	yok		gahadavala
+guney-asya	Multan	107	1	903	var	Multan	multan-emirligi
+guney-asya	Devagiri	94	1	1187	var	Devagiri (Devletâbâd)	yadava
+guney-asya	Sadiya	94	1	1187	var	Sadiya	chutiya
+guney-asya	Kaveripattinam  Puhar	90	1	500	yok		kalabhra
+guney-asya	Ranthambore  Ranastambhapura	89	1	1192	yok		ranthambore-cauhan
+guney-asya	Taksila	84	1	-599	yok		gandhara-mahajanapada
+guney-asya	Karmanta	80	1	625	yok		khadga
+guney-asya	Pattikera  Mainamati	79	1	1202	yok		pattikera
+guney-asya	Delhi	75	1	1206	var	Delhi	delhi-sultanligi
+guney-asya	Aror	72	1	640	yok		cac-sind
+guney-asya	Kannauj  Gadhipura	71	1	1019	yok		rashtrakuta-kannauj
+guney-asya	Japila  Rohtas çevresi	65	1	1158	yok		khayaravala-japila
+guney-asya	Gopagiri  Gwalior	48	1	1210	yok		parihara-gwalior
+guney-asya	Karnasuvarna	47	1	590	yok		gauda-shashanka
+guney-asya	Pattikera	47	1	1234	yok		deva-samatata
+guney-asya	Sakala  Sialkot	40	1	500	yok		alkhon
+guney-asya	Lahor	29	1	1157	var	Lahor	gazneli-lahor
+guney-asya	Kalyani  Basavakalyan	25	1	1156	var	Kalyani (Basavakalyan)	kalyani-kalacuri
+guney-asya	Kamatapur	24	1	1257	yok		kamata
+guney-asya	Mültan · Uç	22	1	1206	yok		kabace
+guneydogu-asya	Langkasuka  yeri tartışmalı: Pattani yöresi	1181	1	100	yok		langkasuka
+guneydogu-asya	Kedah  Sungai Mas	881	1	400	yok		kedah-kadaram
+guneydogu-asya	Muara Kaman  Martapura	881	1	400	yok		kutai-martapura
+guneydogu-asya	Singora?  Songkhla	831	1	450	yok		chitu
+guneydogu-asya	Halin	831	1	1	var	Halin (Hanlin)	halin
+guneydogu-asya	Indrapura	807	1	192	var	Indrapura	linyi-champa
+guneydogu-asya	Lopburi	681	1	600	var	Lopburi	lavo
+guneydogu-asya	Jambi  Batang Hari havzası	637	1	644	yok		melayu-jambi
+guneydogu-asya	Halin → Sri Ksetra  Thayekhittaya	631	1	201	yok		pyu-sehir-devletleri
+guneydogu-asya	Pakuan Pajajaran	612	1	669	yok		sunda-pajajaran
+guneydogu-asya	Palembang → Jambi  Melayu	592	1	683	yok		srivijaya
+guneydogu-asya	Nakhon Si Thammarat	581	1	700	var	Nakhon Si Thammarat	tambralinga
+guneydogu-asya	Thaton  Sudhammavati	557	1	500	yok		thaton-mon
+guneydogu-asya	Vyadhapura	549	1	1	yok		funan
+guneydogu-asya	Nakhon Pathom	549	1	551	var	Nakhon Pathom (Phra Pathom)	dvaravati
+guneydogu-asya	Angkor  Yasodharapura	479	1	802	yok		angkor-kmer
+guneydogu-asya	Bandar Khalifah	441	1	840	yok		perlak
+guneydogu-asya	Pagan  Bagan	432	1	849	yok		pagan
+guneydogu-asya	Tondo  bugünkü Manila'nın kuzey semti	381	1	900	yok		tondo
+guneydogu-asya	Bedulu–Pejeng yöresi	367	1	914	yok		bali-warmadewa
+guneydogu-asya	Sri Ksetra  Hmawza	332	1	500	yok		sri-ksetra
+guneydogu-asya	—  Brunei bölgesi	304	1	977	yok		poni
+guneydogu-asya	Orta Cava  Mataram	284	1	732	yok		medang
+guneydogu-asya	Vijaya → Panduranga	281	1	1000	yok		campa
+guneydogu-asya	Lamphun	281	1	1000	var	Lamphun (Haripuñjaya)	hariphunchai
+guneydogu-asya	çok merkezli barangay ve racalıklar	280	1	1001	yok		filipin-racaliklari
+guneydogu-asya	Butuan	280	1	1001	var	Butuan	butuan
+guneydogu-asya	Thăng Long  Hanoi	272	2	1009	yok		ly-hanedani,tran-hanedani
+guneydogu-asya	Lamuri  Aceh Büyük kıyısı	256	1	1025	yok		lamuri
+guneydogu-asya	Ishanapura	252	1	550	yok		chenla
+guneydogu-asya	Hamsavati  Pegu	232	1	825	yok		hamsavati-pegu
+guneydogu-asya	bilinmiyor  Batı Cava	219	1	450	yok		tarumanagara
+guneydogu-asya	bilinmiyor  Bandon Körfezi yöresi — Coedès	211	1	424	yok		pan-pan
+guneydogu-asya	Soasio	200	1	1081	yok		tidore
+guneydogu-asya	Phayao	185	1	1096	var	Phayao	phayao
+guneydogu-asya	Daha  Kediri	180	1	1042	yok		kediri
+guneydogu-asya	bilinmiyor  Cepara-Pekalongan yoresi	178	1	640	yok		kalingga-holing
+guneydogu-asya	Vesali	169	1	788	yok		vesali-chandra
+guneydogu-asya	Kahuripan	117	2	1019	yok		janggala,kahuripan
+guneydogu-asya	Chiang Rung  Jinghong	101	1	1180	yok		sipsong-panna
+guneydogu-asya	Sambhupura  Sambor	96	1	706	yok		chenla-su
+guneydogu-asya	bilinmiyor  8. yy sonu: Chia Tan güzergâhına göre erken Chenla'nın merkezi çevresi	96	1	706	yok		chenla-toprak
+guneydogu-asya	Orta Cava  Kedu-Prambanan ovası	78	1	778	yok		sailendra
+guneydogu-asya	bilinmiyor  Sumatra	65	1	454	yok		kantoli
+guneydogu-asya	Singhasari	59	1	1222	yok		singhasari
+guneydogu-asya	Long Bien	59	1	544	yok		van-xuan
+guneydogu-asya	Launggyet	44	1	1237	yok		launggyet
+guneydogu-asya	Sukhothai	43	1	1238	var	Sukhothai	sukhothai
+guneydogu-asya	Hoa Lư	40	2	968	yok		dinh,tien-le-hanedani
+guneydogu-asya	bilinmiyor  Martaban Körfezi kıyısı	30	1	805	yok		mi-chen
+guneydogu-asya	Cổ Loa	26	1	939	yok		ngo-hanedani
+guneydogu-asya	Dai La  Hanoi	25	1	905	yok		khuc-tu-tri
+guneydogu-asya	Sampalu → Ternate	24	1	1257	yok		ternate
+guneydogu-asya	Vũ Ninh  önce Long Biên	22	1	549	yok		triyu-viet-vuong
+guneydogu-asya	Chiang Mai	19	1	1262	var	Chiang Mai	lan-na
+guneydogu-asya	Dai La	6	1	931	yok		duong-dinh-nghe
+guneydogu-asya	Hoa Lu  Dinh	2	1	966	yok		12-su-quan
+iberya	Gadir  Gadeira	894	1	-1099	yok		gadir
+iberya	Seu d'Urgell	483	1	798	yok		urgell
+iberya	Castello d'Empuries	462	1	819	yok		empuries
+iberya	Pamplona	457	1	824	var	Pamplona	navarra
+iberya	Emporion  Palaiapolis adası ve ana kara	382	1	-599	yok		emporion
+iberya	Barselona	363	1	801	var	Barselona	barselona-kontlugu
+iberya	bulunamadı	348	5	872	yok		kerayit,nayman,pallars,sobrarbe-ribagorza,tortosa-lleida
+iberya	León	320	1	910	var	León	leon-kralligi
+iberya	Tolosa -> Toledo	293	1	418	yok		vizigot
+iberya	Kurtuba  Córdoba	275	1	756	var	Kurtuba (Córdoba)	endulus-emevi
+iberya	Toledo → Valladolid	246	1	1035	yok		kastilya
+iberya	Zaragoza → Barselona	246	1	1035	yok		aragon
+iberya	Besalu	233	1	878	yok		besalu
+iberya	Jaca	226	1	809	var	Jaca	aragon-kontlugu
+iberya	Cangas -> Oviedo	192	1	718	yok		asturias
+iberya	Burgos	185	1	850	var	Burgos	kastilya-kontlugu
+iberya	Lizbon	184	1	1097	var	Lizbon	portekiz
+iberya	Braga	176	1	409	var	Braga	suev
+iberya	Santiago de Compostela	161	1	910	var	Santiago de Compostela	galicia-kralligi
+iberya	yok  toplu künye	101	1	1009	yok		endulus-tavaif
+iberya	Albarrasin	91	1	1013	yok		albarracin
+iberya	Elmeriyye	82	1	1009	yok		almeria-tavaif
+iberya	Gırnata  Granada	77	1	1013	yok		granada-ziriler
+iberya	Batalyevs	73	1	1022	yok		badajoz-aftasiler
+iberya	Saragosa	71	1	1039	yok		zaragoza-hudiler
+iberya	Sevilla	68	1	1023	var	Sevilla	sevilla-abbadiler
+iberya	Daniye	62	1	1014	yok		denia
+iberya	Valensiya	51	2	1094	var	Valensiya	cid-valensiya,valensiya-kralligi
+iberya	Toledo	49	1	1036	var	Toledo	toledo-zunnunler
+iberya	Bobastro	48	1	880	yok		bobastro
+iberya	Belensiye	44	1	1021	var	Valensiya	valensiya-amiriler
+iberya	Gırnata	43	1	1238	yok		granada
+iberya	Medina Mayurka	39	1	1076	yok		balear-tavaif
+iberya	Malaga	34	1	1023	var	Málaga	malaga-hammudiler
+iberya	Niebla	31	1	1023	yok		niebla
+iberya	Qart Hadasht  Carthago Nova	30	1	-235	yok		kartaca-ispanya
+iberya	Murcia	25	1	1147	var	Murcia	murcia-ibn-merdenis
+iberya	Andorra la Vella	3	1	1278	var	Andorra la Vella	andorra
+iran	Susa	2331	6	-3099	var	Şuşa	elam-orta,elam-simaski,elam-sukkalmah,elam-yeni,elymais,proto-elam-susa
+iran	Anşan  Tal-i Malyan	1750	1	-2299	yok		anshan
+iran	Belirsiz  Şehrizor	1731	1	-2399	yok		lullubi
+iran	Simurrum	634	1	-2333	yok		simurrum
+iran	Firîm	616	1	665	yok		bavendi
+iran	Rûyân ·  sonra	616	1	665	yok		badusbani
+iran	Lafur  Lafûr	556	1	550	yok		karenid
+iran	Nisa → Ktesiphon	470	1	-246	yok		part
+iran	Medâin  Ktesifon	427	1	224	yok		sasani
+iran	Awan  yeri bilinmiyor	400	1	-2499	yok		awan
+iran	Persepolis → Istahr	355	1	-131	yok		persis
+iran	Zerenc	349	2	861	var	Zerenc (Sîstan)	nasri-sistan,saffari
+iran	Minab	280	1	1001	var	Mînâb	hurmuz
+iran	Îc  Îg	251	1	1030	yok		sebankare
+iran	Izirtu  Zirta	229	1	-828	yok		manna
+iran	Pasargad	220	1	-549	var	Pasargad	ahamenis
+iran	Rûdbâr  Alamût vadisi	213	1	791	yok		custanid
+iran	Yahudiyye  Meymene	209	1	801	yok		ferigunid
+iran	Sakastan  Sistan	207	1	19	yok		sakastan-indo-part
+iran	—  TDV'de belirtilmemiş	178	2	1184	yok		dacu,lur-i-kucek
+iran	Alamut Kalesi  Rûdbâr	166	1	1090	yok		alamut-nizari
+iran	Cürcân  Gürgân	162	1	928	yok		ziyari
+iran	Yezd	140	1	1141	var	Yezd	yezd-atabegligi
+iran	Berdesîr  Kirman	139	1	1048	yok		kirman-selcuklu
+iran	İsfahan  1051'e dek	134	1	1007	yok		kakuyi
+iran	Şîraz	133	1	1148	var	Şiraz	salgurlu
+iran	Şîraz  Fars	130	1	932	yok		buveyhi
+iran	Ekbatana  Hegmatana	128	1	-677	yok		medya
+iran	İzeh  Mâlemîr	126	1	1155	yok		lur-i-buzurg
+iran	Hulvân · Sîrvân Kalesi	126	1	991	yok		annazi
+iran	Anşan	125	1	-674	yok		teispid-pers
+iran	Şemîrân Kalesi  Târum	120	1	942	yok		musafiri
+iran	Nîşâbur → Rey → İsfahan → Merv	119	1	1038	yok		buyuk-selcuklu
+iran	Fûmen  Fuman	118	1	642	yok		dabuyiler
+iran	Sinendec  Sanandaj	112	1	1169	yok		ardalan
+iran	Merâga ·  sonra	111	1	1116	yok		ahmedili
+iran	Tebriz	92	1	979	var	Tebriz	revvadi
+iran	Nişâbûr  valilik	89	1	913	yok		simcurid
+iran	Nahcıvan · Tebriz · Hemedan	77	1	1148	yok		ildenizli
+iran	İsfahan → Hemedan	76	1	1118	yok		irak-selcuklu
+iran	Marubishti	74	1	-713	yok		ellipi
+iran	Kerec	72	1	825	yok		dulefi
+iran	Kirman	59	1	1222	var	Kirman	kutlughanli
+iran	Dinaver  Sermâc	56	1	959	yok		hasanuya
+iran	Merv → Nîşâbur	52	1	821	yok		tahiri-horasan
+iran	Amul	50	2	864	var	Âmül	taberistan-zeydi,taberistan-zeydi-ii
+iran	Zerenc  Sistan	45	1	1236	var	Zerenc (Sîstan)	mihrabani-sistan
+iran	Merâga  889–901	40	1	889	yok		sacilar
+iran	Herat	37	1	1244	var	Herat	kert
+iran	Meraga → Tebriz → Sultaniye	25	1	1256	yok		ilhanli
+iran	Pella → Babil	13	1	-335	yok		iskender-imparatorlugu
+italya	Roma	1776	4	-752	var	Roma	papalik,papalik-devleti,roma-cumhuriyeti,roma-kralligi
+italya	Venedik	1168	2	697	var	Venedik	venedik,venedik-tarihsel
+italya	Tarquinia	905	2	-699	yok		etrusk-sehir-devletleri,etrusk-tarquinia
+italya	Ateste  Este	851	1	-899	yok		veneti
+italya	San Marino	677	2	885	var	San Marino (Monte Titano)	san-marino,san-marino-tarih
+italya	Spoleto	627	1	571	yok		spoleto-dukaligi
+italya	Capua	623	2	-598	var	Capua	capua-prensligi,capua-sehri
+italya	Volterra	612	1	-699	yok		etrusk-volaterrae
+italya	Pavia	575	3	568	var	Pavia	karolenj-italya,langobard,pavia-komunu
+italya	Pisa	562	2	1000	var	Pisa	piza,piza-tarih
+italya	Benevento	559	2	571	var	Benevento	benevento-dukaligi-lombard,benevento-papalik
+italya	Chambéry → Torino	527	2	1003	yok		savoya,savoya-tarih
+italya	Sirakuza	523	1	-733	var	Sirakuza	sirakuza
+italya	Metapontion	488	1	-699	yok		metapontion
+italya	Cenova	459	2	1005	var	Cenova	cenova,cenova-tarih
+italya	Falerii Veteres	459	1	-699	yok		falisci-falerii
+italya	Zankle	441	1	-729	yok		zankle-messana
+italya	Rhegion	438	1	-719	yok		rhegion
+italya	Brundisium	435	1	-699	yok		messapi-birligi
+italya	Taras	434	1	-705	yok		taras
+italya	Kroton	432	1	-708	yok		kroton
+italya	Caere  Cerveteri	427	1	-699	yok		etrusk-caere
+italya	Amalfi	423	2	839	yok		amalfi-cumhuriyeti,amalfi-dukaligi
+italya	Roma  330'dan itibaren Konstantinopolis	421	1	-26	yok		roma-imp
+italya	Vulci	420	1	-699	yok		etrusk-vulci
+italya	Palermo  Belerm	408	2	827	yok		sicilya-emirligi,sicilya-emirligi-aglebi-kalbi
+italya	Gela	406	1	-687	yok		gela
+italya	Chiusi	405	1	-699	yok		etrusk-clusium
+italya	Populonia	400	1	-699	yok		etrusk-populonia
+italya	Lucca → Floransa	385	1	812	yok		toskana-markizligi
+italya	Akragas	370	1	-579	yok		akragas
+italya	Milano	368	4	1097	var	Milano	della-torre-signoria,milano-dukaligi,milano-komunu,visconti-signoria
+italya	yok  Bovianum	368	1	-449	yok		samnit-birligi
+italya	Palermo	360	2	1072	var	Palermo	sicilya-kralligi,sicilya-kralligi-norman
+italya	Mozia	353	1	-749	yok		mozia
+italya	Floransa	332	2	1115	var	Floransa	floransa,floransa-tarih
+italya	Kyme	330	1	-749	yok		kyme-cumae
+italya	Katane	326	1	-728	yok		katane
+italya	Leontinoi	306	1	-728	yok		leontinoi
+italya	Gaeta	304	1	836	var	Gaeta	gaeta-dukaligi
+italya	Veii	304	1	-699	var	Veii	etrusk-veii
+italya	Casale	281	1	1000	yok		montferrat-markizligi
+italya	Como	280	1	1001	var	Como	como-komunu
+italya	Neapolis	274	1	-599	yok		neapolis-yunan
+italya	Trento	254	1	1027	var	Trento	trento-piskoposlugu
+italya	Brixen	254	1	1027	var	Brixen (Bressanone)	brixen-piskoposlugu
+italya	Megara Hyblaia	245	1	-727	yok		megara-hyblaia
+italya	Ravenna	244	3	476	var	Ravenna	dogu-got,odoakar,ravenna-eksarhligi
+italya	Himera	239	1	-647	yok		himera
+italya	Selinous	219	1	-627	yok		selinous
+italya	Sybaris	210	1	-719	yok		sybaris
+italya	Felsina	209	1	-399	yok		boii-kabile-devleti
+italya	Cividale  Forum Iulii	208	1	568	yok		friuli-dukaligi-lombard
+italya	Udine	204	1	1077	var	Udine	aquileia-patrikligi
+italya	Brixia	203	1	-399	yok		cenomani-kabile-devleti
+italya	Poseidonia	200	1	-599	yok		poseidonia
+italya	Taranto	193	1	1088	var	Taranto	taranto-prensligi
+italya	Piacenza	191	1	1090	var	Piacenza	piacenza-komunu
+italya	Asti	186	1	1095	var	Asti	asti-komunu
+italya	Cremona	183	1	1098	yok		cremona-komunu
+italya	Ancona	181	1	1100	var	Ancona	ancona-cumhuriyeti
+italya	Parma	181	1	1100	var	Parma	parma-komunu
+italya	Mediolanum	178	1	-399	var	Milano	insubres-kabile-devleti
+italya	Verona	169	4	1136	var	Verona	della-scala,ezzelino-signoria,verona-komunu,verona-scaliger
+italya	Bergamo	169	1	1112	var	Bergamo	bergamo-komunu
+italya	Bologna	167	1	1114	yok		bologna-komunu
+italya	Canossa → Mantova	165	1	950	yok		kanosa-hanedani
+italya	Thourioi	164	1	-443	yok		thourioi
+italya	Brescia	161	1	1120	var	Brescia	brescia-komunu
+italya	Potentia	159	1	-429	yok		lukan-birligi
+italya	Siena	156	1	1125	var	Siena	siena
+italya	Lavinium	155	1	-492	yok		latin-birligi
+italya	Consentia	153	1	-355	yok		bruttii-birligi
+italya	Torino	151	1	940	var	Torino	torino-markizligi
+italya	Modena	146	1	1135	var	Modena	modena-komunu
+italya	Padova	143	1	1138	var	Padova	padova-komunu
+italya	Perugia	142	1	1139	var	Perugia	perugia-komunu
+italya	Vercelli	140	1	1141	yok		vercelli-komunu
+italya	Saluzzo	139	1	1142	var	Saluzzo	saluzzo-markizligi
+italya	Napoli	137	1	1000	var	Napoli	napoli-dukaligi
+italya	Ivrea	127	1	888	yok		ivrea-markizligi
+italya	Bari	120	2	847	var	Bari	bari-emirligi,bizans-katepanlik-italya
+italya	Lucca	119	1	1162	var	Lucca	lucca-cumhuriyeti
+italya	Sena Gallica	117	1	-399	yok		senones-kabile-devleti
+italya	Alessandria	113	1	1168	yok		alessandria-komunu
+italya	Melfi	85	2	1043	var	Melfi	apulya-dukaligi,apulya-kontlugu-melfi
+italya	yok  Pontida	83	1	1167	yok		lombard-birligi
+italya	Salerno	76	1	1000	var	Salerno	salerno-prensligi
+italya	Melfi → Salerno	69	1	1059	yok		apulya-dukaligi-norman
+italya	Ferrara → Modena  1598 sonrası	41	1	1240	yok		ferrara
+italya	Aversa	32	1	1030	yok		aversa-kontlugu
+italya	Alalia	30	1	-564	var	Alalia (Aléria)	alalia-korsika
+italya	Palike  Menai	19	1	-457	yok		sikel-birligi-ducetius
+italya	Roma  Capitolium	12	1	1143	yok		roma-komunu
+italya	Mantova	8	1	1273	var	Mantova	bonacolsi
+kafkasya	Kabala	1003	1	-298	var	Kabala	kafkas-arnavutlugu
+kafkasya	Mtsketa	881	1	-301	yok		iberya-kartli
+kafkasya	Tiflis	745	2	650	var	Tiflis	gurcistan,tiflis-emirligi
+kafkasya	Gazaka  Ganzak	546	1	-320	yok		atropatene
+kafkasya	Aia	534	1	-598	yok		kolkhis-krallik
+kafkasya	Arkheopolis	500	1	201	yok		lazika
+kafkasya	Şamahı	482	1	799	var	Şamahı	sirvansah
+kafkasya	Armavir -> Yervandaşat	400	1	-599	yok		ermenistan-yervantuni
+kafkasya	bilinmiyor	395	3	623	yok		alania-krallik,orta-gurcistan-bagrati,samo-devleti
+kafkasya	Artaksata -> Vagarşapat	365	1	63	yok		arsakuni-ermenistan
+kafkasya	Kutaisi	222	1	786	var	Kutaisi	abhazya-krallik
+kafkasya	Artaksata	200	1	-188	yok		artaksiad
+kafkasya	Derbend  Bâbülebvâb	196	1	869	yok		derbent-hasimi-emirligi
+kafkasya	Gardman	192	1	630	yok		mihranid-gardman
+kafkasya	Ani  962'den	160	1	885	yok		ani-bagratli-kralligi
+kafkasya	Dvin	124	1	951	var	Dvin	seddadiler-gence
+kafkasya	Lori	119	1	982	yok		lori-kralligi
+kafkasya	Van	113	1	908	var	Van	vaspurakan-kralligi
+kafkasya	Ani	111	1	1064	var	Ani	seddadiler-ani
+kafkasya	Kars	102	1	962	var	Kars	kars-vanand-kralligi
+kafkasya	Merâga → Erdebîl	40	1	889	yok		sacogullari
+kafkasya	Bezz	22	1	816	yok		babek-hurremi
+kuzey-afrika	Garama  Germa	1165	1	-499	yok		garamant
+kuzey-afrika	Kartaca	775	2	-813	var	Kartaca (Carthage)	bizans-afrika-eksarhligi,kartaca
+kuzey-afrika	Kyrene	535	1	-630	yok		kyrene
+kuzey-afrika	Tamesna	405	1	744	yok		berqavata
+kuzey-afrika	Nekor  Temsaman	305	1	710	yok		nekor-emirligi
+kuzey-afrika	Tilimsan	301	1	765	var	Tilimsan	ifraniler-tilimsan
+kuzey-afrika	Sicilmâse	281	2	772	var	Sicilmâse (Tâfilelt)	magrave-sicilmase,midrari
+kuzey-afrika	Zavîle	272	1	918	yok		zawila-hattabiler
+kuzey-afrika	Evrâs  Aurès	218	1	484	yok		auris-masties
+kuzey-afrika	Velîlâ → Fas → Hacerünnesr	196	1	789	yok		idrisi
+kuzey-afrika	Kayrevan → Mehdiye	176	1	972	yok		ziriler
+kuzey-afrika	Cirta	156	1	-201	yok		numidia
+kuzey-afrika	Tunus	154	2	1058	var	Tunus	hafsi,tunus-benihorasan
+kuzey-afrika	Volubilis	153	1	-109	yok		mauretania-krallik
+kuzey-afrika	Trablus	145	1	1001	var	Trablus	trablus-benihazrun
+kuzey-afrika	Tinmel → Merakeş	139	1	1130	yok		muvahhidler
+kuzey-afrika	Kal‘atü Benî Hammâd → Bicâye	137	1	1015	yok		hammadiler
+kuzey-afrika	Tâhert	132	1	777	var	Tâhert (Tiaret)	rustemi
+kuzey-afrika	Fes	115	1	955	yok		magrave-fas
+kuzey-afrika	Kayrevan → Rakkāde	109	1	800	yok		aglebi
+kuzey-afrika	Mayorka	107	1	1126	var	Mayorka (Palma)	ganiyeler
+kuzey-afrika	Kafsa	106	1	1053	var	Kafsa	kafsa-benirend-emirligi
+kuzey-afrika	Hippo Regius -> Kartaca	105	1	429	yok		vandal
+kuzey-afrika	Ağmât → Merakeş	91	1	1056	yok		murabitlar
+kuzey-afrika	Kâbis	86	1	1062	yok		kabis-emirligi
+kuzey-afrika	Fas  Fez	85	1	1196	var	Fas (Fez)	merini
+kuzey-afrika	Altava  Ouled Mimoun	70	1	508	yok		altava-mauro-roma
+kuzey-afrika	Tilimsan  Tlemcen	46	1	1235	yok		zeyyani
+kuzey-afrika	Sfaks  Sefâkus	37	1	1062	yok		sfaks-hammu-emirligi
+kuzey-afrika	Mehdiye	12	1	1148	var	Mehdiye	norman-ifrikiye
+kuzey-afrika	Trablus → Kayrevan  758	4	1	757	yok		ibadi-imamlik-trablus
+kuzey-afrika	Sfaks	3	1	1156	var	Sfaks	sfaks-firyani-emirligi
+kuzey-amerika	Snaketown	981	1	300	yok		hohokam
+kuzey-amerika	Spiro	431	1	850	var	Spiro	spiro
+kuzey-amerika	Chaco Kanyonu  Pueblo Bonito	431	1	850	yok		ata-pueblo
+kuzey-amerika	Iglulik	281	1	1000	var	Iglulik	inuit
+kuzey-amerika	Cahokia	231	1	1050	var	Cahokia	cahokia
+kuzey-amerika	Etowah	181	1	1100	var	Etowah	etowah
+kuzey-amerika	Moundville	161	1	1120	var	Moundville	moundville
+kuzey-avrupa	Bergen → Oslo	409	1	872	yok		norvec-kralligi
+kuzey-avrupa	Þingvellir  Althing	332	1	930	yok		izlanda-serbest-devleti
+kuzey-avrupa	Kopenhag	331	1	950	var	Kopenhag	danimarka
+kuzey-avrupa	Stockholm	281	1	1000	yok		isvec-birlik-oncesi
+kuzey-avrupa	Kirkwall	281	1	1000	var	Kirkwall (Orkney)	orkney-kontlugu
+kuzey-avrupa	Hedeby	146	1	804	yok		danimarka-erken
+kuzey-avrupa	Birsay	125	1	875	yok		orkney-jarllik-erken
+kuzey-avrupa	Reykjavik	19	1	1262	var	Reykjavík	izlanda-norvec-danimarka
+mezopotamya	Assur	1029	3	-2024	var	Aşşur	eski-asur,orta-asur,yeni-asur
+mezopotamya	Babil	951	4	-1893	var	Bârfurûş (Bâbil)	babil-eski,isin-2,kassit-babil,yeni-babil
+mezopotamya	Eridu	566	1	-2899	var	Eridu (Abu Shahrain)	eridu-sehir-devleti
+mezopotamya	Hamazi	520	1	-2529	yok		hamazi
+mezopotamya	Kûfe → Bağdat	509	1	749	yok		abbasi
+mezopotamya	Edessa  Urfa	373	1	-131	yok		osrhoene
+mezopotamya	Charax Spasinou	362	1	-140	yok		karakene
+mezopotamya	Hire	334	1	268	var	Hîre	lahmi
+mezopotamya	Musul	315	4	905	var	Musul	hamdani-musul,lului,ukayli,zengi-musul
+mezopotamya	Hira civari	304	1	196	yok		tanuhiler
+mezopotamya	Arbela  Erbil	279	1	-163	yok		adiabene
+mezopotamya	Kiş	266	1	-2599	var	Kiş (Kish)	kis-egemenlik
+mezopotamya	Uruk	266	1	-2599	var	Uruk (Warka)	uruk-erken-hanedan
+mezopotamya	Adab  Bismaya	266	1	-2599	yok		adab
+mezopotamya	Şuruppak  Fara	266	1	-2599	yok		surupak
+mezopotamya	Larsa	262	1	-2024	var	Larsa (Tell as-Senkereh)	larsa
+mezopotamya	belirsiz  guney bataklik	257	1	-1731	yok		sealand-1
+mezopotamya	Dur-Yakin	252	1	-851	yok		bit-yakin
+mezopotamya	Babil civari	252	1	-851	yok		bit-amukani
+mezopotamya	Belirsiz  Babil çevresi	252	1	-851	yok		bit-dakkuri
+mezopotamya	Vassukanni  konum belirsiz	240	1	-1499	yok		mitanni
+mezopotamya	Esnunna  Tell Asmar	238	1	-1999	var	Eşnunna (Tell Asmar)	esnunna
+mezopotamya	Isin	223	1	-2016	var	Isin (Ishan al-Bahriyat)	isin
+mezopotamya	Umma	216	1	-2549	var	Umma (Tell Jokha)	umma-erken-hanedan
+mezopotamya	Muşaşir	186	1	-899	yok		musasir
+mezopotamya	Agade  konum bilinmiyor	180	1	-2333	yok		akad
+mezopotamya	Nîl	166	1	997	yok		mezyedi
+mezopotamya	Lagas  Girsu	150	1	-2499	yok		sumer-lagas-1
+mezopotamya	Kazallu	150	1	-1999	yok		kazallu
+mezopotamya	Kisurra	120	1	-1922	var	Kisurra (Tell Abu Hatab)	kisurra
+mezopotamya	Akşak	99	1	-2458	yok		aksak
+mezopotamya	Harran	92	1	991	var	Harran	numeyri
+mezopotamya	Erbil	88	1	1144	var	Erbil	begteginli
+mezopotamya	Hatra	86	1	155	var	Hatra (Al Ḩaḑar)	hatra
+mezopotamya	Vâsit civari	78	1	940	yok		bataih
+mezopotamya	Cezîre-i İbn Ömer  Cizre	71	1	1180	yok		zengi-cizre
+mezopotamya	Urfa  1098-1144	52	1	1098	yok		urfa-kontlugu
+mezopotamya	belirsiz  Adab olasi	42	1	-2153	yok		gutium
+mezopotamya	Subat-Enlil	32	1	-1807	yok		samsi-adad
+mezopotamya	Girsu	32	1	-2143	var	Girsu (Tell Telloh)	lagas-2
+mezopotamya	Muhtâre	14	1	869	yok		zenc-devleti
+mezopotamya	Urfa	3	1	1095	var	Urfa	urfa-toros-beyligi
+misir-sudan	Napata → Meroe	1098	1	-749	yok		kush-krallik
+misir-sudan	Kerma	950	2	-2449	var	Kerma	kerma,kerma-erken
+misir-sudan	Meroe	939	1	-590	var	Meroe	meroe-krallik
+misir-sudan	Soba	931	1	350	yok		alodia
+misir-sudan	Talmis  Kalabsha	881	1	400	yok		blemmyes
+misir-sudan	Tebai	800	5	-1649	var	İstefe (Tebai)	misir-16-hanedan,misir-yeni-krallik,tebai-17-hanedan,tebai-amon-rahip-devleti,tebai-ayaklanma-krallik
+misir-sudan	Dongola	781	1	500	var	Dongola	makuria
+misir-sudan	Dongola  Makurya	738	1	543	yok		nube
+misir-sudan	Memfis	637	3	-2685	yok		ahamenis-misir,ahamenis-misir-2,misir-eski-krallik
+misir-sudan	Tanis	529	2	-1068	var	Tanis (Cane) (Şān al Ḩajar al Qiblīyah)	misir-21-hanedan,misir-3-ara
+misir-sudan	belirsiz  birimler arası farklı	481	1	800	yok		beja-krallik
+misir-sudan	Thinis → Memfis	440	1	-3125	yok		misir-erken-hanedan
+misir-sudan	Itj-tawy	405	1	-2054	yok		misir-orta-krallik
+misir-sudan	Hierakonpolis	300	1	-3499	yok		hierakonpolis-krallik
+misir-sudan	Iskenderiye	293	1	-322	var	İskenderiye	ptolemai
+misir-sudan	Rakkāde → Mehdiye → Sabra  Mansûriye	262	1	909	yok		fatimi
+misir-sudan	Avaris	255	2	-1804	yok		hiksos-15,misir-14-hanedan
+misir-sudan	Faras  Pachoras	252	1	400	yok		nobatia
+misir-sudan	Bubastis	228	1	-942	yok		misir-22-hanedan
+misir-sudan	Sais	212	3	-731	yok		misir-24-hanedan,misir-28-30-hanedan,sait-26-hanedan
+misir-sudan	Naqada  Nubt	200	1	-3499	yok		naqada-ombos-krallik
+misir-sudan	Abydos  Thinis	200	1	-3299	yok		abydos-thinis-0-hanedan
+misir-sudan	Asvan	168	1	1006	var	Asvan	kenzu-ddevle
+misir-sudan	Herakleopolis  Ehnasya	105	1	-2159	yok		herakleopolis
+misir-sudan	Leontopolis	102	1	-836	yok		misir-23-hanedan
+misir-sudan	Kahire  Dımaşk ile birlikte	79	1	1171	yok		eyyubi
+misir-sudan	Napata	72	1	-724	yok		kush-25-hanedan
+misir-sudan	Tebai  Teb	70	1	-2124	yok		tebai-11-hanedan
+misir-sudan	Abydos	50	1	-1649	yok		abydos-hanedani
+misir-sudan	Fustat → Katâi	37	1	868	yok		tolunogullari
+misir-sudan	Fustat → el-Katâi	37	1	868	yok		tulunoglu
+misir-sudan	Fustat	34	1	935	var	Kahire	ihsidi
+misir-sudan	Kahire	31	1	1250	var	Kahire	memluk
+okyanusya	Muʻa  Lapaha	612	2	950	yok		tui-tonga-gelenek-baslangici,tui-tonga-imparatorlugu
+okyanusya	yok	548	3	900	yok		hawaii-erken,kamag-mogol,mariana-latte
+okyanusya	Nan Madol	282	2	1100	yok		saudeleur,saudeleur-pohnpei
+okyanusya	Papeete  Pomare dönemi	256	1	1025	yok		tahiti
+okyanusya	Anakena	162	2	1200	yok		rapa-nui,rapa-nui-erken
+okyanusya	Avarua	31	1	1250	var	Avarua (Rarotonga)	rarotonga
+orta-afrika	Njimi → Ngazargamu	481	1	800	yok		kanem-bornu
+orta-amerika	Monte Albán	2398	2	-499	var	Monte Albán	monte-alban-zapotek,zapotek-monte-alban
+orta-amerika	San Lorenzo → La Venta	800	1	-1199	yok		olmek
+orta-amerika	Tikal	779	1	90	var	Tikal	tikal-mutal
+orta-amerika	Tikal  Yax Mutal	779	1	90	yok		tikal-mutul
+orta-amerika	cok merkezli	650	1	250	yok		maya-klasik
+orta-amerika	Teotihuacan	649	1	-99	var	Teotihuacan	teotihuacan
+orta-amerika	Cholula	581	1	700	var	Cholula	cholula
+orta-amerika	Caracol	528	1	331	yok		caracol-maya
+orta-amerika	El Tajín	500	1	600	var	El Tajín	el-tajin
+orta-amerika	Ceibal	478	1	411	var	Ceibal	ceibal
+orta-amerika	Mayapán	462	2	1000	var	Mayapán	maya-sehir-devletleri,mayapan-birligi
+orta-amerika	Yaxchilán	449	1	359	yok		yaxchilan
+orta-amerika	Chichén Itzá	400	1	800	var	Chichén Itzá	chichen-itza
+orta-amerika	Copan	394	1	426	var	Copán	copan
+orta-amerika	Dzibanché → Calakmul	389	1	520	yok		kaanul
+orta-amerika	Quiriguá	384	1	426	var	Quiriguá	quirigua
+orta-amerika	Palenque	368	1	431	var	Palenque	palenque-baak
+orta-amerika	Piedras Negras	350	1	460	yok		piedras-negras-yokib
+orta-amerika	Tilantongo	331	1	950	var	Tilantongo	tilantongo-mixtek
+orta-amerika	Cacaxtla	300	1	650	yok		cacaxtla
+orta-amerika	Naranjo	264	1	546	yok		naranjo-saal
+orta-amerika	Tollan  Tula	250	1	900	yok		toltek
+orta-amerika	Xochicalco	200	1	700	yok		xochicalco
+orta-amerika	Tututepec	181	1	1100	var	Tututepec (Yucu Dzaa)	tututepec
+orta-amerika	Cobá	167	1	613	yok		coba
+orta-amerika	Dos Pilas	113	1	648	yok		dos-pilas-petexbatun
+orta-amerika	Uxmal	107	1	800	yok		uxmal
+orta-amerika	yok  yayılmış cacicazgo'lar	81	1	1200	yok		taino-seflikleri
+orta-amerika	Ek' Balam	70	1	770	yok		ek-balam
+orta-asya	Kâsân  Guishan	752	1	-103	yok		fergana-dayuan
+orta-asya	Longcheng	726	2	-208	yok		hunnu-xiongnu,xiongnu
+orta-asya	Kuça  Yancheng	713	1	-64	yok		kuca
+orta-asya	Kâs  Kath	690	1	305	yok		hivite-afrigid
+orta-asya	Kât  Kâs	690	1	305	yok		afrigoglu-harezm
+orta-asya	Hotan  Yotkan	506	1	500	yok		khotan
+orta-asya	yok  Tula ırmağı doğusu	486	1	716	yok		tatar
+orta-asya	Bagram -> Peşaver	300	1	50	yok		kusan
+orta-asya	Koço  yazlık	298	1	911	yok		koco-uygur
+orta-asya	Balasagun	282	2	840	var	Balasagun (Ak-Beşim)	karahanli,karahitay
+orta-asya	Çaç  Binkes	251	1	500	yok		cac-tudun
+orta-asya	Yenikent  Seyhun ağzı yakını	228	1	775	yok		oguz-yabgu
+orta-asya	Gazne → Lahor	223	1	963	yok		gazneli
+orta-asya	Ötüken	221	4	552	yok		dogu-gokturk,dogu-gokturk-2,gokturk-1,kirgiz-yenisey
+orta-asya	Estiyâ → Fîrûzkûh  Gazne ikinci merkez	215	1	1000	yok		gurlu
+orta-asya	Bunjikat  Bencikes	213	1	680	yok		usrusana-afsin
+orta-asya	Buhara  Numicket	209	1	500	yok		buhara-hudat
+orta-asya	yok  Tola-Orhon-Ongin havzası yurtları	196	1	1007	yok		kerait
+orta-asya	Buhara	186	1	819	var	Buhara	samani
+orta-asya	Özkent → Semerkant	171	1	1041	yok		bati-karahanli
+orta-asya	Balasagun → Kâşgar	169	1	1041	yok		dogu-karahanli
+orta-asya	Mumo	150	1	402	yok		rouran
+orta-asya	Kâşgar  Jiashi	149	1	500	yok		kasgar-shule
+orta-asya	Yuanqu  Yanqi	144	1	500	yok		yanqi-karashahr
+orta-asya	Gaochang	139	1	501	var	Gaochang	gaochang
+orta-asya	Gürgenç → Semerkant  1212	134	1	1097	yok		harizmsah
+orta-asya	Balh	130	1	230	yok		kusan-sasani
+orta-asya	Baktra	120	1	-249	yok		greko-baktria
+orta-asya	Kunduz	120	1	630	yok		tohar-yabgu
+orta-asya	belirsiz  Tohâristân	103	1	457	yok		eftalit
+orta-asya	Ordu-Balık  Karabalgasun	95	1	745	yok		uygur
+orta-asya	Balh -> Peşaver	77	1	390	yok		kidarit
+orta-asya	Kara-ordu  Balasagun yakını	74	1	766	yok		karluk
+orta-asya	Almalık	54	1	1227	var	Almalık (Almalığ)	cagatay
+orta-asya	Suyab	49	1	717	yok		turges
+orta-asya	Nîşâbur	30	1	1157	var	Nîşâbur	muayyed-ay-aba-emirligi
+orta-asya	Semerkant  Afrasiyab	28	1	710	yok		semerkant-ihsid
+orta-asya	yok  göçebe Oğuz beyleri	28	1	1153	yok		horasan-oguz-hakimiyeti
+orta-asya	Gürgenç  Köhne Ürgenç	22	1	995	yok		memuni-harezm
+orta-asya	Tola vadisi  Kuzey Mogolistan	19	1	627	yok		xueyantuo-kaganligi
+orta-asya	Yudujun	18	1	628	yok		xueyantuo
+orta-asya	Tarbagatay-Kara Irtış çevresi  şehir adı bulunamadı	14	1	1267	yok		ogedey-ulusu
+orta-asya	Merv	12	1	1181	var	Merv (Mari)	sultan-sah-emirligi
+orta-asya	Talas	10	1	1271	yok		ogedey-ulusu-kaydu
+orta-asya	Balasagun  taslak	7	1	1211	yok		kuclug-karahitay
+orta-asya	yok  Altay-Kara İrtiş bozkırı	5	1	1199	yok		naiman
+orta-avrupa	belirsiz	10258	17	-2499	yok		al-abwab,alamanlar,frizya-ozgurlugu,gordyene,macar-prensligi,magan
+orta-avrupa	belirsiz  Marklo	504	1	300	yok		saksonya-eski
+orta-avrupa	Mecklenburg	371	1	789	yok		obotrit-prensligi
+orta-avrupa	Regensburg	352	2	555	var	Regensburg	bavyera-agilolfing,dogu-francia
+orta-avrupa	Levý Hradec → Prag  Pražský hrad	328	1	870	yok		bohemya-dukaligi
+orta-avrupa	—  seçimli	319	1	962	yok		almanya
+orta-avrupa	Magdeburg	313	1	968	var	Magdeburg	magdeburg-basepiskoposlugu
+orta-avrupa	belirsiz  Lüneburg	300	1	880	yok		saksonya-dukaligi
+orta-avrupa	Buda	281	1	1000	yok		macaristan
+orta-avrupa	Prag	281	1	1000	var	Prag	bohemya
+orta-avrupa	Klagenfurt	281	1	1000	var	Klagenfurt	karintiya-dukaligi
+orta-avrupa	Salzburg	281	1	1000	var	Salzburg	salzburg-prens-basepiskoposlugu
+orta-avrupa	Pannonia  Ring	255	1	567	yok		avar
+orta-avrupa	Salzwedel	192	1	965	yok		nordmark
+orta-avrupa	Melk → Klosterneuburg → Viyana	180	1	976	yok		avusturya-marki
+orta-avrupa	Baden-Baden → Durlach → Karlsruhe	169	1	1112	yok		baden
+orta-avrupa	Stettin  Szczecin	160	1	1121	var	Stettin (Szczecin)	pomeranya-dukaligi
+orta-avrupa	Meissen → Wittenberg → Dresden	158	1	1123	yok		saksonya
+orta-avrupa	Wrocław	143	1	1138	var	Breslau (Wrocław)	silezya-piast
+orta-avrupa	Tirol Kalesi  Schloss Tirol	141	1	1140	yok		tirol-kontlugu
+orta-avrupa	Brandenburg an der Havel → Berlin-Cölln	124	1	1157	yok		brandenburg-markgrafligi
+orta-avrupa	Steyr	124	1	1056	yok		stiriya-markgrafligi
+orta-avrupa	Viyana	120	1	1156	var	Viyana	avusturya-dukaligi
+orta-avrupa	Wartburg	116	1	1131	yok		thuringia-landgrafligi
+orta-avrupa	Schwerin	114	1	1167	var	Schwerin	mecklenburg
+orta-avrupa	Olomouc	99	1	1182	var	Olomouc	moravya-markgraflik
+orta-avrupa	Mikulcice?	74	1	833	yok		buyuk-moravya
+orta-avrupa	Heidelberg → Mannheim	67	1	1214	yok		pfalz
+orta-avrupa	Bern	63	1	1218	var	Bern	bern-cumhuriyeti
+orta-avrupa	Lübeck	55	1	1226	var	Lübeck	lubeck-sehri
+orta-avrupa	Kulm → Marienburg  1309	51	1	1230	yok		teuton-devleti
+orta-avrupa	Braunschweig	46	1	1235	yok		braunschweig-luneburg-dukaligi
+orta-avrupa	Nitra	28	1	805	var	Nitra (Nyitra)	nitra-prensligi
+orta-avrupa	Worms	25	1	411	yok		burgund-worms
+orta-avrupa	Kassel	17	1	1264	var	Kassel	hessen-landgrafligi
+orta-avrupa	Graz	12	1	1180	var	Graz	stiriya-dukaligi
+sibirya-bozkir	Yemekiye  yazlık	431	1	850	yok		kimek
+sibirya-bozkir	Belencer → İtil	335	1	630	yok		hazar-kaganligi
+sibirya-bozkir	Bulgar	316	1	920	var	Bulgar (Bolgar)	idil-bulgar
+sibirya-bozkir	yok  başbuğ yurtları: Orta Asya	185	1	1054	yok		kipcak
+sibirya-bozkir	Ordu-Balık  Ötüken	96	1	744	yok		uygur-kaganligi
+sibirya-bozkir	belirsiz  Yenisey havzası	50	1	630	yok		kirgiz-erken
+sibirya-bozkir	Saray	39	1	1242	var	Özalp (Saray)	altinorda
+sibirya-bozkir	Kefe	15	1	1266	var	Kefe	kefe-gazaria
+sibirya-bozkir	yok  göçebe	12	1	1197	yok		merkit
+suriye-filistin	Gubla  Cubeyl	2668	1	-2999	yok		byblos
+suriye-filistin	Arvad  Arados	941	1	-1199	yok		arvad
+suriye-filistin	Sur	894	2	-1199	var	Sûr	fenike-sehirleri,sur-kadilari
+suriye-filistin	Sur  Tyre	868	1	-1199	yok		tire
+suriye-filistin	Sayda  Sidon	868	1	-1199	yok		sidon
+suriye-filistin	Bozra  Busayra	747	1	-1299	yok		edom
+suriye-filistin	Mari	740	2	-2549	var	Merv (Mari)	mari-erken,mari-sakkanakku
+suriye-filistin	Dibon	718	1	-1299	yok		moab
+suriye-filistin	Ebla	700	1	-2299	var	Ebla	ebla-orta-tunc
+suriye-filistin	Kudus	577	3	-929	var	Kudüs	hasmoni,herodes-krallik,yahuda
+suriye-filistin	Askelon	571	1	-1174	yok		filistin-pentapolis
+suriye-filistin	Rabbat-Ammon  Amman	518	1	-1099	yok		ammon
+suriye-filistin	Katna  Tell Mishrife	460	1	-1799	yok		katna
+suriye-filistin	belirsiz  Cabiye	436	1	200	yok		gassani
+suriye-filistin	Dımaşk	414	4	-939	var	Şam	aram-sam,boriler,emevi,eyyubi-sam
+suriye-filistin	Terqa	310	1	-1759	yok		hana-terqa
+suriye-filistin	Nagar  Tell Brak	300	1	-2599	yok		nagar
+suriye-filistin	Antakya	285	2	969	var	Antakya	antakya-dukaligi,antakya-prinkipsligi
+suriye-filistin	Hamat  Hama	280	1	-999	yok		hamat
+suriye-filistin	Petra	273	1	-167	var	Petra	nabatiye
+suriye-filistin	Kinalua  Tell Tayinat	262	1	-999	yok		patina-unqi
+suriye-filistin	Selevkeia → Antakya	249	1	-311	yok		selevkos
+suriye-filistin	Trablusşam	211	2	1070	var	Trablusşam	beni-ammar-trablussam,trablus-kontlugu
+suriye-filistin	Sekem → Tirsa → Samiriye	208	1	-929	yok		israil-krallik
+suriye-filistin	Halep  Halab	200	1	-1799	yok		yamhad
+suriye-filistin	Arvad	196	1	-258	yok		fenike-ozerk-sehirleri
+suriye-filistin	Kudüs  1099-1187	182	1	1099	yok		kudus-kralligi
+suriye-filistin	Beyrut	171	1	1110	var	Beyrut	beyrut-lordlugu
+suriye-filistin	Yafa	168	1	1100	var	Yafa	yafa-askalan
+suriye-filistin	Ugarit  Ras Şamra	160	1	-1349	yok		ugarit
+suriye-filistin	Alalah  Tell Atcana	160	1	-1499	yok		mukis-alalah
+suriye-filistin	Ugulzat?  Tell Khan Sheykhun	160	1	-1499	yok		nuhasse
+suriye-filistin	Arpad  Tell Rifaat	160	1	-899	yok		arpad
+suriye-filistin	Sayda	158	1	1110	var	Sayda	sayda-lordlugu
+suriye-filistin	Sumur	150	1	-1349	yok		amurru
+suriye-filistin	Kalkis  Chalcis ad Libanum?	148	1	-99	yok		iturya
+suriye-filistin	Til Barsip  Tell Ahmar	145	1	-999	yok		bit-adini
+suriye-filistin	Mısyâf  Kehf	141	1	1132	yok		nizari-suriye
+suriye-filistin	Emesa  Hims	141	1	-63	yok		emesa
+suriye-filistin	Halep	129	3	944	var	Halep	hamdani-halep,lulu-halep,mirdasi
+suriye-filistin	Krak des Chevaliers  Hısnü'l-Ekrâd	129	1	1142	yok		hospitaller-krak
+suriye-filistin	Gibea → Hebron → Urusalim	117	1	-1046	yok		birlesik-israil
+suriye-filistin	Hama	103	1	1178	var	Hama	eyyubi-hama
+suriye-filistin	Ebla  Tell Mardikh	100	1	-2399	yok		ebla-1
+suriye-filistin	Soba  Beka'da?	100	1	-1049	yok		aram-soba
+suriye-filistin	Margat  Markab	95	1	1186	yok		hospitaller-margat
+suriye-filistin	Remle	92	1	979	var	Remle (Ramla)	cerrahi
+suriye-filistin	Abila	92	1	-39	yok		abilene
+suriye-filistin	Tiberya	88	1	1099	var	Tiberya (Tabariyye / Tiberias)	celile-prensligi
+suriye-filistin	Humus	83	1	1179	var	Humus	eyyubi-humus
+suriye-filistin	Şeyzer	76	1	1081	var	Şeyzer	munkizogullari
+suriye-filistin	Halep  1250-1260 Dımaşk da	74	1	1186	yok		eyyubi-halep
+suriye-filistin	Kerek  Montréal	71	1	1118	yok		oltre-urdun
+suriye-filistin	Montfort  Starkenberg	51	1	1220	yok		tevton-montfort
+suriye-filistin	Mari  Tell Hariri	49	1	-1809	yok		mari-lim
+suriye-filistin	Cebele	49	1	1060	yok		cebele-kadilari
+suriye-filistin	Dımaşk → Halep  1095 sonrası iki melik: Halep ve Dımaşk	38	1	1079	yok		suriye-selcuklu
+suriye-filistin	Halep  1154'ten sonra Dımaşk da	37	1	1146	yok		zengi-halep
+suriye-filistin	Palmira	25	2	260	yok		palmira,palmira-imparatorlugu
+suriye-filistin	Kerek	20	1	1229	yok		eyyubi-kerek
+suriye-filistin	Antakya → Urfa	9	1	1078	yok		filaretos-prensligi
+suriye-filistin	Kudüs → Dımaşk	8	1	1071	yok		atsiz-beyligi
+suriye-filistin	Apameia	4	1	-141	var	Apameia (Kibotos) (Dinar)	tryphon-devleti
+suriye-filistin	Betar	3	1	132	yok		bar-kohba

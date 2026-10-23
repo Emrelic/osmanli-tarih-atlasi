@@ -6,6 +6,9 @@
 // BAĞLAMA: arac/girdi_listesi.py GIRDI_DOSYALARI + index.html (denetim/arkeoloji_baglama_1020.py --yerlesim ile).
 window.YERLESIMLER_ONCE1281_YT_HINT = [
 
+{ ad:"Anuradhapura", tur:"sehir", lat:8.32444, lon:80.4127603, g:0, k:0, s:[], d:[], bos:"veri-yok", bit:"1281-01-01",
+  not:"YER-TANIMA: kronolojide Anuradhapura adıyla geçer; eski adlar: -; modern: Anuradhapura (LK). KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). ",
+  kaynak:"ÇİFT TANIK: Pleiades pleiades.stoa.org/places/49863 (Anurādhapura, settlement, settlement-modern, precise) (8.32444, 80.4127603) · GeoNames geonames.org/1251081 (Anuradhapura, LK) (8.31223, 80.41306) · denetim/yer-arastirma/parti_106_sonuc.json" },
 { ad:"Hindistan", tur:"bolge", lat:20.6, lon:79.5, g:0, k:0, s:[], d:[], bos:"veri-yok", bit:"1281-01-01",
   konum_kesinlik:"bolge",
   not:"YER-TANIMA: kronolojide Hindistan adıyla geçer; eski adlar: -; modern: - (Hindistan). ",
