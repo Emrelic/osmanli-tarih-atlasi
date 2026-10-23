@@ -470,51 +470,6 @@ window.ANTLASMA_HARITALARI = [
   "not": "Madde 1590 kazanımlarının hepsini anar ama tek tek yer adı vermez; noktalar ferhad-pasa-1590 kaydındakilerle AYNI temsilî yerlerdir. Dağıtım sonrası fiilî durum (1603-1612 savaş) ayrıca ölçülmedi."
 },
 {
-  "id": "kasr-i-sirin-1639",
-  "antlasma_ad": "Kasr-ı Şirin Antlaşması",
-  "tarih": "1639-05-17",
-  "bolgeler": [
-    {
-      "taraf": "osmanli",
-      "etiket": "Osmanlı'da kalan (Irâk-ı Arab)",
-      "zarf": true,
-      "noktalar": [
-        {
-          "ad": "Bağdat",
-          "lat": 33.34,
-          "lon": 44.361,
-          "kaynak": "TDV kasrisirin-antlasmasi: \"Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi Osmanlılar'da kalmış, Revan ise Safevîler'e bırakılmıştır\""
-        },
-        {
-          "ad": "Basra",
-          "lat": 30.508,
-          "lon": 47.783,
-          "kaynak": "TDV kasrisirin-antlasmasi: \"Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi Osmanlılar'da kalmış, Revan ise Safevîler'e bırakılmıştır\""
-        },
-        {
-          "ad": "Şehrizor",
-          "lat": 35.56,
-          "lon": 45.43,
-          "kaynak": "TDV kasrisirin-antlasmasi: \"Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi Osmanlılar'da kalmış, Revan ise Safevîler'e bırakılmıştır\""
-        }
-      ]
-    },
-    {
-      "taraf": "safevi",
-      "etiket": "Safevîlere bırakılan",
-      "noktalar": [
-        {
-          "ad": "Revan",
-          "lat": 40.183,
-          "lon": 44.515,
-          "kaynak": "TDV kasrisirin-antlasmasi: \"Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi Osmanlılar'da kalmış, Revan ise Safevîler'e bırakılmıştır\""
-        }
-      ]
-    }
-  ],
-  "not": "Hat ayrıntıları (Zencir Kalesi, Zalim Kalesi, Avroman, Mihriban) olaylar.js:110 metninde var, atlasta ilgili noktalar bulunmadığından noktalanmadı. Hânekîn metinde YOK (bilerek yazılmadı)."
-},
-{
   "id": "vasvar-1664",
   "antlasma_ad": "Vasvar Antlaşması",
   "tarih": "1664-08-09",
