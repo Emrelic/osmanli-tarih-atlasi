@@ -1041,15 +1041,19 @@ def js_yaz(yol, kayitlar, havuz, izi=None, ek_yorum=""):
          "// cins: bosluk · koridor · enklav-bag · paylasim\n")
     if ek_yorum:
         s += ek_yorum
-    s += ("window.DOLGU_PARCALAR = "
+    # Birden çok dosya (örn. 1281 öncesi + sonrası) AYNI sayfada yüklenecekse ad
+    # alanı ayrılır: MOTOR_DOLGU_AD=_SONRA ⇒ window.DOLGU_SONRA · DOLGU_PARCALAR_SONRA …
+    # (app.js `dolguPaketiEkle` iki paketi birleştirir). Boş = eski adlar.
+    ad = os.environ.get("MOTOR_DOLGU_AD", "")
+    s += ("window.DOLGU_PARCALAR%s = " % ad
           + json.dumps(havuz.halka, separators=(",", ":")) + ";\n")
-    s += ("window.DOLGU_PARCA_HALKA = "
+    s += ("window.DOLGU_PARCA_HALKA%s = " % ad
           + json.dumps(havuz.parca, separators=(",", ":")) + ";\n")
-    s += ("window.DOLGU = "
+    s += ("window.DOLGU%s = " % ad
           + json.dumps(kayitlar, ensure_ascii=False,
                        separators=(",", ":")) + ";\n")
     if izi is not None:
-        s += ("window.DOLGU_IZI = "
+        s += ("window.DOLGU_IZI%s = " % ad
               + json.dumps(izi, separators=(",", ":"), sort_keys=True) + ";\n")
     io.open(yol, "w", encoding="utf-8").write(s)
     return os.path.getsize(yol)

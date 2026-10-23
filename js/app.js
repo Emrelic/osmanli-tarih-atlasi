@@ -833,13 +833,24 @@ function acikTon(hex, kat) {
 //    yer) · `arac/renk_olc.py` "OSMANLI tâbi". Devir/işgal desenlerindeki tâbi
 //    tonu o yoldan gelir ve motor tarafı hizalanana kadar ESKİ tonda kalır.
 var TABI_RENK = acikTon("#8e0b22");
-var dolgular = (window.DOLGU || []);
-dolgular.forEach(function (r) {
-  r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
-  r.ft = { type: "Feature",
-           properties: { renk: DOLGU_RENK[r.k] || "#8e0b22", kim: r.k, cins: r.c },
-           geometry: parcaCoz(r.p, DOLGU_PARCALAR, DOLGU_PARCA_HALKA) };
-});
+// 23 Ekim 2026: dolgu BİRDEN ÇOK dosyadan gelebilir (1281 öncesi: adsız `DOLGU*`;
+// 1281 ve sonrası: `DOLGU*_SONRA` — arac/dolgu.py MOTOR_DOLGU_AD). Her paketin
+// kendi halka havuzu vardır; kayıtlar tek listede birleşir. Paket yoksa boş kalır.
+var dolgular = [];
+function dolguPaketiEkle(sonek) {
+  var kayit = window["DOLGU" + sonek] || [];
+  var parcalar = window["DOLGU_PARCALAR" + sonek] || [];
+  var halka = window["DOLGU_PARCA_HALKA" + sonek] || [];
+  kayit.forEach(function (r) {
+    r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
+    r.ft = { type: "Feature",
+             properties: { renk: DOLGU_RENK[r.k] || "#8e0b22", kim: r.k, cins: r.c },
+             geometry: parcaCoz(r.p, parcalar, halka) };
+    dolgular.push(r);
+  });
+}
+dolguPaketiEkle("");
+dolguPaketiEkle("_SONRA");
 // ---------- Devlet etiketleri ----------
 // ⚠️ Eskiden her devlete TEK etiket veriliyor ve üretimden gelen tek bir
 // ağırlık merkezine (p.c) konuyordu. Sonuçları kullanıcı raporladı:
