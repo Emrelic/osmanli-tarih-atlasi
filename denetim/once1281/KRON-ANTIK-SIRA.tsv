@@ -1,0 +1,272 @@
+devlet_id	ad	f	t	onem	kunye_kr	site_mevcut	bekleyen	hedef	durum
+baekje	Baekje Krallığı	-0017-01-01	0660-01-01	2	4	5	0	6	DOGU-oturumu
+roma-imp	Roma İmparatorluğu (Prinkipat-Dominat, birleşik)	-0026-01-16	0395-01-17	3	9	128	15	12	yeterli
+satavahana	Satavahana Hanedanı (Andhra)	-0029-01-01	0220-01-01	2	6	2	0	6	DOGU-oturumu
+herodes-krallik	Herodes Hanedani Krallığı (Roma vasali)	-0036-01-01	0093-01-01	2	6	3	0	6	kismi
+goguryeo	Goguryeo Krallığı	-0036-01-01	0668-01-01	2	5	7	0	6	DOGU-oturumu
+silla	Silla Krallığı (Birlesik Silla dahil)	-0056-01-01	0935-01-01	2	7	1	0	6	DOGU-oturumu
+kanva	Kanva Hanedani	-0071-01-01	-0027-01-01	2	5	0	0	6	DOGU-oturumu
+dakya	Dakya (Burebista-Decebalus) Krallığı	-0081-01-01	0106-01-01	2	6	10	1	6	yeterli
+tigran-imp	Büyük Tigran'ın İmparatorluğu	-0094-01-01	-0065-01-01	2	4	0	0	6	eksik
+teotihuacan	Teotihuacan Şehir Devleti	-0099-01-01	0550-01-01	3	6	1	0	12	DOGU-oturumu
+mauretania-krallik	Mauretania Krallığı (Mauri)	-0109-01-01	0044-01-01	2	5	4	3	6	yeterli
+himyar	Himyar Krallığı	-0109-01-01	0525-01-01	2	7	1	0	6	kismi
+karakene	Karakene (Mesene) Krallığı	-0140-01-01	0222-01-01	2	6	3	0	6	kismi
+hasmoni	Hasmoni Devleti (Yahudiye)	-0140-01-01	-0036-01-01	2	5	0	0	6	eksik
+elymais	Elymais Krallığı	-0146-01-01	0224-01-01	2	4	1	0	6	kismi
+kommagene	Kommagene Krallığı	-0162-01-01	0072-01-01	2	4	3	2	6	kismi
+likya-birligi	Likya Birligi (Roma himayesinde)	-0166-01-01	0043-01-01	2	4	1	1	6	kismi
+makedon-merisleri	Makedon Merisleri (Dört Makedon Cumhuriyeti)	-0166-01-01	-0147-01-01	2	2	0	2	6	kismi
+nabatiye	Nabatiye Krallığı	-0167-01-01	0106-01-01	2	4	3	0	6	kismi
+indo-grek	Hint-Grek (Indo-Greek) Krallıkları	-0179-01-01	0010-01-01	2	9	0	0	6	DOGU-oturumu
+sunga	Sunga Hanedani	-0184-01-01	-0072-01-01	2	4	0	0	6	DOGU-oturumu
+artaksiad	Artaksiad Ermenistan	-0188-01-01	0012-01-01	2	6	0	0	6	eksik
+sofene	Sofene (Tsopk) Krallığı	-0188-01-01	-0092-01-01	2	4	0	0	6	eksik
+wiman-joseon	Wiman Joseon	-0193-01-01	-0107-01-01	2	5	0	0	6	eksik
+nazca	Nazca Kulturu	-0199-01-01	0599-01-01	2	4	0	0	6	DOGU-oturumu
+numidia	Numidya Krallığı (Massyli-Masaesyli birlesik)	-0201-01-01	-0045-01-01	2	5	0	0	6	eksik
+nanyue	Nanyue (Nam Viet) Krallığı (Zhao hanedani)	-0203-01-01	-0110-01-01	2	5	0	0	6	eksik
+bati-han	Bati Han Hanedani	-0205-01-01	0008-01-01	3	8	2	6	12	DOGU-oturumu
+hunnu-xiongnu	Xiongnu (Hunnu) Konfederasyonu	-0208-01-01	0155-01-01	2	6	5	0	6	DOGU-oturumu
+qin-hanedani	Qin Hanedanı (birleşik İmparatorluk)	-0220-01-01	-0206-01-01	2	6	1	0	6	kismi
+part	Part (Arsakid) Imparatorlugu	-0246-01-01	0224-04-28	3	6	42	8	12	yeterli
+greko-baktria	Greko-Baktriya Krallığı	-0249-01-01	-0129-01-01	2	7	1	0	6	DOGU-oturumu
+kapadokya-krallik	Kapadokya Krallığı	-0254-01-01	0017-01-01	2	13	1	0	6	kismi
+antigonid-makedonya	Antigonid Makedonya Krallığı	-0275-01-01	-0167-01-01	2	6	0	1	6	kismi
+galatya-keltleri	Galatia (Kelt) Tetrarşileri	-0277-01-01	-0024-01-01	2	6	0	2	6	kismi
+dian	Dian Krallığı (Yunnan)	-0278-01-01	-0108-01-01	2	4	1	1	6	kismi
+akhaia-birligi	Akhaia Birliği	-0279-01-01	-0145-01-01	2	4	0	6	6	yeterli
+pontus	Pontus (Mithridates) Krallığı	-0280-01-01	-0062-01-01	2	5	2	3	6	kismi
+bergama	Bergama (Attalos) Krallığı	-0281-01-01	-0132-01-01	2	5	3	2	6	kismi
+bitinya	Bitinya Krallığı	-0296-01-01	-0073-01-01	2	13	0	0	6	eksik
+lizimakhos	Lizimakhos (Trakya) Krallığı	-0305-01-01	-0280-01-01	2	4	0	0	6	eksik
+antigonos	Antigonos Monophthalmos Krallığı (Asya)	-0305-01-01	-0300-01-01	2	6	1	2	6	kismi
+antigonos-krallik	Antigonos ve Demetrios Krallığı (Antigonos Monophthalmos – Demetrios Poliorketes)	-0305-01-01	-0282-01-01	2	6	1	2	6	kismi
+selevkos	Selevkos Imparatorlugu	-0311-01-01	-0062-01-01	3	5	10	9	12	yeterli
+atropatene	Atropatene (Med Atropatene) Krallığı	-0320-01-01	0226-01-01	2	4	1	0	6	kismi
+maurya	Maurya Imparatorlugu	-0320-01-01	-0184-01-01	3	6	1	1	12	DOGU-oturumu
+ptolemai	Ptolemai (Lagid) Krallığı	-0322-06-10	-0029-08-01	3	16	5	21	12	yeterli
+iskender-imparatorlugu	Buyuk Iskender Imparatorlugu	-0335-01-01	-0322-06-10	3	8	3	2	12	kismi
+korint-birligi	Korint (Hellen) Birliği	-0336-01-01	-0321-01-01	2	4	0	0	6	eksik
+ahamenis-misir-2	Ahamenis Misir'i (31. Hanedan, 2. Pers egemenligi)	-0342-01-01	-0331-01-01	2	6	0	0	6	eksik
+aitolia-birligi	Aitolia Birliği	-0366-01-01	-0188-01-01	2	4	0	3	6	kismi
+epir	Epir (Molossia) Krallığı	-0369-01-01	-0231-01-01	2	5	0	1	6	kismi
+ikinci-atina-birligi	İkinci Atina Birliği	-0377-01-01	-0354-01-01	2	8	1	1	6	kismi
+boiotia-birligi	Boiotia (Teb) Birliği	-0378-01-01	-0337-01-01	2	4	0	4	6	kismi
+karya-hekatomnid	Karya Hekatomnid Satrap-Hanedanlığı	-0390-01-01	-0333-01-01	2	7	0	0	6	eksik
+ma-in	Ma'in Krallığı (Minai)	-0399-01-01	-0099-01-01	2	0	0	0	6	eksik
+kataban	Kataban Krallığı	-0399-01-01	0199-01-01	2	0	0	0	6	eksik
+han-devleti-zhou	Han Devleti (Savasan Devletler; Han hanedanindan ayri)	-0402-01-01	-0229-01-01	2	5	3	5	6	yeterli
+zhao-devleti	Zhao Devleti (Savasan Devletler)	-0402-01-01	-0221-01-01	2	6	0	0	6	eksik
+wei-devleti-zhou	Wei Devleti (Savasan Devletler; Cao Wei'den ayri)	-0402-01-01	-0224-01-01	2	5	0	0	6	eksik
+misir-28-30-hanedan	Misir 28.-30. Hanedan (son yerli firavunlar)	-0403-01-01	-0342-01-01	2	8	1	3	6	kismi
+rodos-polis	Rodos Şehir Devleti	-0406-01-01	0079-06-23	2	6	1	4	6	kismi
+bosporos-krallik	Bosporos (Kırım) Krallığı	-0437-01-01	0370-01-01	2	4	2	1	6	kismi
+hadramavt	Hadramavt Krallığı	-0449-01-01	0300-01-01	2	2	0	0	6	eksik
+delos-birligi	Delos (Atina Deniz) Birliği	-0477-01-01	-0403-01-01	2	6	1	4	6	kismi
+odris	Odris (Trakya) Krallığı	-0479-01-01	0046-01-01	2	12	0	4	6	kismi
+garamant	Garamantes Krallığı	-0499-01-01	0666-03-13	2	7	0	0	6	eksik
+monte-alban-zapotek	Monte Albán Zapotek Devleti	-0499-01-01	0700-01-01	2	8	2	0	6	kismi
+zapotek-monte-alban	Zapotek Devleti (Monte Alban)	-0499-01-01	0700-01-01	2	8	0	0	6	eksik
+atina-demokrasisi	Atina (bagimsiz demokratik polis)	-0507-01-01	-0337-01-01	3	7	4	14	12	yeterli
+roma-cumhuriyeti	Roma Cumhuriyeti	-0508-01-01	-0026-01-16	3	9	25	47	12	yeterli
+ahamenis-misir	Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)	-0524-01-01	-0403-01-01	2	6	7	0	6	yeterli
+magadha	Magadha (Haryanka-Sisunaga-Nanda)	-0542-01-01	-0320-01-01	2	6	3	0	6	kismi
+ahamenis	Ahamenis (Pers) Imparatorlugu	-0549-01-01	-0329-01-01	3	8	14	2	12	yeterli
+peloponnes-birligi	Peloponnes Birliği	-0549-01-01	-0365-01-01	2	12	0	5	6	kismi
+odessos-polis	Odessos (Varna) Şehir Devleti	-0549-01-01	-0070-01-01	2	4	0	0	6	eksik
+etrusk-sehir-devletleri	Etrüsk Şehir Devletleri (Oniki Şehir Birliği)	-0574-01-01	-0088-01-01	2	9	2	3	6	kismi
+midilli-polis	Midilli (Mytilene) Şehir Devleti	-0584-01-01	-0079-01-01	2	3	0	0	6	eksik
+massalia	Massalia (Marsilya)	-0599-01-01	-0048-01-01	2	6	4	1	6	kismi
+ermenistan-yervantuni	Yervandit (Orontid) Ermenistan	-0599-01-01	-0199-01-01	2	4	0	0	6	eksik
+sakiz-polis	Sakız (Khios) Şehir Devleti	-0599-01-01	0079-06-23	2	4	0	0	6	eksik
+yeni-babil	Yeni Babil (Keldani) Imparatorlugu	-0625-01-01	-0538-10-12	3	4	4	3	12	kismi
+kyrene	Kyrene (Kirene) Devleti	-0630-01-01	-0095-01-01	2	16	0	2	6	kismi
+byzantion-polis	Byzantion Şehir Devleti	-0658-01-01	0073-01-01	2	5	0	1	6	kismi
+sait-26-hanedan	Sait (26.) Hanedan	-0663-01-01	-0524-01-01	2	12	0	0	6	eksik
+medya	Medya (Med) Krallığı	-0677-01-01	-0549-01-01	2	7	2	3	6	kismi
+lidya	Lidya Krallığı	-0679-01-01	-0545-01-01	3	4	1	3	12	kismi
+skit-krallik	İskit (Pontus Bozkırı) Devletleri	-0699-01-01	-0199-01-01	2	5	0	2	6	kismi
+makedonya-krallik	Makedonya Krallığı (Argead-Antigonid)	-0699-01-01	-0167-01-01	3	7	3	10	12	yeterli
+chu-devleti	Chu Devleti (Zhou donemi; wang unvanli krallik)	-0703-01-01	-0222-01-01	2	4	2	0	6	kismi
+kush-25-hanedan	Kusi 25. Hanedan (Misir)	-0724-01-01	-0652-01-01	2	5	0	0	6	eksik
+sirakuza	Sirakuza (Syrakousai)	-0733-01-01	-0210-01-01	2	11	6	2	6	yeterli
+kush-krallik	Kus (Napata–Meroe) Krallığı	-0749-01-01	0349-01-01	3	5	19	17	12	yeterli
+roma-kralligi	Roma Krallığı	-0752-01-01	-0508-01-01	3	8	4	1	12	kismi
+dogu-zhou	Doğu Zhou (Bahar-Güz ve Savaşan Devletler dönemi hanedanı)	-0769-01-01	-0255-01-01	3	6	2	4	12	DOGU-oturumu
+qin-devleti	Qin Devleti	-0769-01-01	-0220-01-01	3	12	3	0	12	DOGU-oturumu
+saba	Saba Krallığı	-0799-01-01	0275-01-01	2	4	0	0	6	eksik
+sparta	Sparta (Lakedaimon)	-0799-01-01	-0191-01-01	3	6	1	9	12	kismi
+korint	Korint	-0799-01-01	-0145-01-01	2	4	3	9	6	yeterli
+kartaca	Kartaca (Pön) Devleti	-0813-01-01	-0145-01-01	3	5	4	15	12	yeterli
+manna	Manna (Mannea) Krallığı	-0828-01-01	-0599-01-01	2	4	0	0	6	eksik
+urartu	Urartu Krallığı	-0859-01-01	-0589-01-01	3	5	2	5	12	kismi
+chavin	Chavin Kulturu	-0899-01-01	-0199-01-01	2	5	2	0	6	DOGU-oturumu
+yeni-asur	Yeni Asur Imparatorlugu	-0910-01-01	-0608-01-01	3	9	9	7	12	yeterli
+israil-krallik	Israil Krallığı (Samiriye)	-0929-01-01	-0721-01-01	2	4	2	6	6	yeterli
+yahuda	Yahuda Krallığı	-0929-01-01	-0585-01-01	2	5	3	1	6	kismi
+aram-sam	Aram-Sam (Dimask) Krallığı	-0939-01-01	-0731-01-01	2	8	2	0	6	kismi
+maya-orta-preklasik	Orta Preklasik Maya (Mirador Havzası ve Petén)	-0999-01-01	-0399-01-01	2	2	5	0	6	DOGU-oturumu
+bati-zhou	Batı Zhou	-1045-01-01	-0770-01-01	3	5	0	0	12	DOGU-oturumu
+qi-devleti	Qi Devleti (Jiang Qi ve Tian Qi)	-1045-01-01	-0220-01-01	2	6	5	0	6	kismi
+misir-3-ara	Misir 3. Ara Donem (21.-25. Hanedan: Tanis, Libya, Kus)	-1068-01-01	-0663-01-01	2	9	0	6	6	yeterli
+elam-yeni	Yeni Elam Krallığı	-1099-01-01	-0538-01-01	2	10	12	10	6	yeterli
+aseramik-kuzey-levant-anadolu	Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu)	-11219-01-01	-7099-01-01	2	2	1	0	6	kismi
+isin-2	Isin II. Hanedan (Babil, Nabukudurusur I)	-1154-01-01	-1029-01-01	2	8	1	1	6	kismi
+filistin-pentapolis	Filisti Sehir Devletleri	-1174-01-01	-0603-01-01	2	6	0	2	6	kismi
+yeni-hitit	Yeni Hitit (Luvi-Arami) Sehir Devletleri (Karkamis, Melid, Hamat, Gurgum, Kummuh, Tabal vb.)	-1179-01-01	-0707-01-01	2	4	7	5	6	yeterli
+fenike-sehirleri	Fenike Sehir Devletleri (Sur, Sayda, Cubeyl, Arvad)	-1199-01-01	-0331-01-01	2	8	1	2	6	kismi
+olmek	Olmek Kulturu (San Lorenzo-La Venta)	-1199-01-01	-0399-01-01	2	4	4	0	6	DOGU-oturumu
+natufiyen	Natufiyen Kültürü (Levant)	-12649-01-01	-9549-01-01	2	2	3	0	6	kismi
+ugarit	Ugarit Krallığı	-1349-01-01	-1189-01-01	2	6	3	0	6	kismi
+orta-asur	Orta Asur Imparatorlugu	-1362-01-01	-0910-01-01	3	7	7	3	12	kismi
+hitit-imp	Hitit Imparatorlugu (Yeni Krallik)	-1399-01-01	-1179-01-01	3	5	2	6	12	kismi
+miken	Miken (Mykene) Saray Devletleri	-1399-01-01	-1099-01-01	3	4	0	1	12	kismi
+guney-hint-neolitik-megalitik	Güney Hint Neolitiği → Megalitik geçiş (Sanganakallu-Kupgal)	-1399-01-01	-1199-01-01	2	2	0	1	6	kismi
+mitanni	Mitanni (Hanigalbat) Krallığı	-1499-01-01	-1259-01-01	3	5	1	7	12	kismi
+elam-orta	Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)	-1499-01-01	-1099-01-01	2	5	7	3	6	yeterli
+kizzuwatna	Kizzuwatna Krallığı	-1499-01-01	-1399-01-01	2	3	0	0	6	eksik
+hayasa-azzi	Hayaşa-Azzi Konfederasyonu	-1499-01-01	-1199-01-01	2	4	0	0	6	eksik
+misir-yeni-krallik	Misir Yeni Krallik (18.-20. Hanedan)	-1549-01-01	-1068-01-01	3	6	3	7	12	kismi
+kassit-babil	Kassit Babil Krallığı	-1594-01-01	-1154-01-01	2	4	6	0	6	yeterli
+shang	Shang Hanedanı	-1599-01-01	-1045-01-01	3	4	5	0	12	DOGU-oturumu
+sanxingdui-kultur	Sanxingdui Kültürü (Sichuan)	-1599-01-01	-1049-01-01	2	2	3	0	6	kismi
+hiksos-15	Hiksos (15. Hanedan)	-1649-01-01	-1549-01-01	2	3	1	0	6	kismi
+tebai-17-hanedan	Tebai 17. Hanedan	-1649-01-01	-1549-01-01	2	4	0	0	6	eksik
+hitit-eski	Eski Hitit Krallığı (Hattusa)	-1649-01-01	-1499-01-01	3	4	2	1	12	kismi
+hitit	Hitit Krallığı ve İmparatorluğu (Hatti)	-1649-01-01	-1179-01-01	2	9	4	8	6	yeterli
+poverty-point-kultur	Poverty Point Kültürü (Geç Arkaik, Louisiana)	-1649-01-01	-1149-01-01	2	2	2	0	6	kismi
+sealand-1	Birinci Deniz Ulkesi Hanedani	-1731-01-01	-1474-01-01	2	5	2	0	6	kismi
+kerma	Kerma Krallığı (Klasik Kerma)	-1749-01-01	-1499-01-01	2	2	2	2	6	kismi
+erlitou-kultur	Erlitou Kültürü (Henan)	-1749-01-01	-1519-01-01	2	2	2	0	6	kismi
+yamhad	Yamhad (Halep) Krallığı	-1799-01-01	-1599-01-01	2	2	1	0	6	kismi
+samsi-adad	Ust Mezopotamya Krallığı (Samsi-Adad I)	-1807-01-01	-1775-01-01	2	4	2	0	6	kismi
+mari-lim	Mari Lim Hanedani (Yahdun-Lim–Zimri-Lim)	-1809-01-01	-1760-01-01	2	7	2	2	6	kismi
+babil-eski	Eski Babil (Amorit) Krallığı	-1893-01-01	-1594-01-01	3	4	8	1	12	kismi
+elam-sukkalmah	Elam — Sukkalmah (Eparti) Hanedani	-1899-01-01	-1499-01-01	2	2	1	0	6	kismi
+minos	Minos (Minos Saray) Uygarlığı	-1899-01-01	-1449-01-01	3	5	2	1	12	kismi
+gec-harappa	Geç Harappa Dönemi	-1899-01-01	-1599-01-01	2	2	2	1	6	kismi
+dilmun	Dilmun	-1999-01-01		2	1	0	0	6	eksik
+esnunna	Esnunna Krallığı	-1999-01-01	-1761-01-01	2	5	0	0	6	eksik
+isin	Isin Krallığı (I. Hanedan)	-2016-01-01	-1793-01-01	2	8	1	4	6	kismi
+larsa	Larsa Krallığı	-2024-01-01	-1762-01-01	2	4	6	2	6	yeterli
+eski-asur	Eski Asur Devleti (Assur sehir devleti)	-2024-01-01	-1749-01-01	2	4	6	1	6	yeterli
+misir-orta-krallik	Misir Orta Krallik (11.-13. Hanedan)	-2054-01-01	-1649-01-01	3	6	1	2	12	kismi
+elam-simaski	Elam — Simaski Hanedani	-2099-01-01	-1899-01-01	2	2	3	1	6	kismi
+ur-3	Ur III (Ucuncu Ur Hanedani)	-2111-01-01	-2003-01-01	2	6	13	1	6	yeterli
+tebai-11-hanedan	Tebai 11. Hanedan (birlesme oncesi)	-2124-01-01	-2054-01-01	2	5	0	0	6	eksik
+lagas-2	Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)	-2143-01-01	-2111-01-01	2	6	1	0	6	kismi
+gutium	Gutium (Gutiler) Hakimiyeti	-2153-01-01	-2111-01-01	2	2	3	1	6	kismi
+herakleopolis	Herakleopolis Krallığı (9.-10. Hanedan, 1. Ara Donem)	-2159-01-01	-2054-01-01	2	3	1	1	6	kismi
+el-argar-kultur	El Argar Kültürü (Güneydoğu İberya)	-2199-01-01	-1549-01-01	2	2	15	6	6	yeterli
+mari-sakkanakku	Mari Şakkanakku Hanedanı	-2219-01-01	-1809-01-01	2	3	0	0	6	eksik
+ebla-orta-tunc	Ebla (II.-III. Krallık, Orta Tunç)	-2299-01-01	-1599-01-01	2	2	0	0	6	eksik
+taosi-kultur	Taosi Kültürü (Longshan sonu, Shanxi)	-2299-01-01	-1899-01-01	2	2	2	0	6	kismi
+shimao-kultur	Shimao Kültürü (Shaanxi)	-2299-01-01	-1799-01-01	2	2	2	0	6	kismi
+akad	Akad Imparatorlugu	-2333-01-01	-2153-01-01	3	8	6	2	12	kismi
+ebla-1	Ebla Birinci Krallığı	-2399-01-01	-2299-01-01	2	2	2	0	6	kismi
+sumer-lagas-1	Lagas I. Hanedan (sehir devleti)	-2499-01-01	-2349-01-01	2	3	2	0	6	kismi
+awan	Awan Krallığı (Elam, Erken Elam)	-2499-01-01	-2099-01-01	2	3	3	0	6	kismi
+umma-erken-hanedan	Umma Şehir Devleti (Erken Hanedan; Lugalzagesi)	-2549-01-01	-2333-01-01	2	3	0	0	6	eksik
+mari-erken	Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)	-2549-01-01	-2219-01-01	2	4	2	0	6	kismi
+harappa	Harappa (Indus) Uygarlığı (Olgun evre)	-2599-01-01	-1899-01-01	3	3	2	0	12	DOGU-oturumu
+kis-egemenlik	Kiş Şehir Devleti ve Egemenliği (Erken Hanedan III)	-2599-01-01	-2333-01-01	2	5	0	0	6	eksik
+uruk-erken-hanedan	Uruk Şehir Devleti (Erken Hanedan; Gılgameş'ten Lugalzagesi'ye)	-2599-01-01	-2333-01-01	2	3	0	1	6	kismi
+ur-1-hanedan	Ur I. Hanedanı (Kraliyet Mezarlığı dönemi)	-2599-01-01	-2333-01-01	2	2	3	1	6	kismi
+misir-eski-krallik	Misir Eski Krallik (3.-6. Hanedan)	-2685-01-01	-2180-01-01	3	9	0	1	12	kismi
+orkney-gec-neolitik	Orkney Geç Neolitik / Grooved Ware (Skara Brae)	-2901-01-01	-2491-01-01	2	2	0	0	6	eksik
+caral-norte-chico	Norte Chico (Caral-Supe) Uygarligi	-2999-01-01	-1999-01-01	2	3	1	0	6	kismi
+misir-erken-hanedan	Misir Erken Hanedan Donemi (1.-2. Hanedan)	-3099-01-01	-2685-01-01	2	4	0	1	6	kismi
+los-millares-kultur	Los Millares Bakır Çağı topluluğu (Almería)	-3139-01-01	-2166-01-01	2	2	2	0	6	kismi
+erken-harappa	Erken Harappa Dönemi	-3199-01-01	-2599-01-01	2	2	2	0	6	kismi
+uruk-gec-kultur	Geç Uruk Kültürü (Uruk IV–III, yazının ortaya çıkışı)	-3349-01-01	-3199-01-01	2	2	0	0	6	eksik
+pre-kerma	Pre-Kerma Kültürü (Nubya)	-3499-01-01	-2499-01-01	2	2	1	0	6	kismi
+malta-gantija-tarxien	Malta Neolitiği: Ġgantija ve Tarxien evreleri	-3511-01-01	-2419-01-01	2	2	2	0	6	kismi
+liangzhu	Liangzhu Kültürü	-3549-01-01	-2049-01-01	2	2	3	0	6	kismi
+naqada-kultur	Naqada Kültürü (Yukarı Mısır)	-3755-01-01	-3125-01-01	2	2	4	0	6	kismi
+hissar-kultur	Hissar I–III (Damghan, İran platosu)	-3921-01-01	-2169-01-01	2	2	2	0	6	kismi
+vinca-kultur	Vinča Kültürü (Belo Brdo dizisi)	-4586-01-01	-4514-01-01	2	2	2	0	6	kismi
+shaheinab-neolitik	Shaheinab Neolitiği (Orta Sudan)	-4699-01-01	-4199-01-01	2	2	2	0	6	kismi
+yangshao	Yangshao Kültürü	-4999-01-01	-2899-01-01	2	2	5	0	6	kismi
+mehrgarh-neolitik	Mehrgarh Neolitiği (Kaççi Ovası, Belucistan)	-5049-01-01	-4723-01-01	2	2	2	0	6	kismi
+hemudu	Hemudu Kültürü	-5149-01-01	-3249-01-01	2	2	2	0	6	kismi
+lbk-szederkeny	Formatif/Erken LBK ve Vinča-Ražište karışık Neolitik (Transdanubia)	-5331-01-01	-5186-01-01	2	2	0	0	6	eksik
+yahya-donemleri	Tepe Yahya Dönemleri VII–I (Kirman)	-5499-01-01	-0199-01-01	2	2	7	3	6	yeterli
+dadiwan-laoguantai	Dadiwan I / Laoguantai (Gansu, Yangshao öncesi)	-5849-01-01	-2949-01-01	2	2	2	0	6	kismi
+halaf-kultur	Halaf Kültürü	-5899-01-01	-5399-01-01	2	2	2	0	6	kismi
+kuahuqiao	Kuahuqiao Kültürü	-5949-01-01	-5249-01-01	2	2	2	0	6	kismi
+jeitun-kultur	Jeitun Kültürü (Kopet Dağ, Türkmenistan)	-6098-01-01	-5926-01-01	2	2	2	0	6	kismi
+lepenski-vir-trapez	Lepenski Vir — trapez yapılı Mezolitik-Neolitik geçiş evresi	-6119-01-01	-5974-01-01	2	2	2	0	6	kismi
+ubaid-kultur	Ubaid Kültürü (Güney Mezopotamya)	-6499-01-01	-3799-01-01	2	2	2	0	6	kismi
+ppnc-guney-levant	PPNC — Çanak Öncesi Neolitik C (Güney Levant)	-6749-01-01	-6399-01-01	2	2	1	0	6	kismi
+jiahu-kultur	Jiahu Kültürü (Henan)	-6999-01-01	-5699-01-01	2	2	2	0	6	kismi
+peiligang	Peiligang Kültürü	-7049-01-01	-5049-01-01	2	2	1	0	6	kismi
+fayum-neolitik	Fayum Neolitiği ve Erken Holosen İskânı	-7349-01-01	-4849-01-01	2	2	2	0	6	kismi
+orta-anadolu-neolitik	Orta Anadolu Aseramik–Seramik Neolitik toplulukları (Konya Ovası, Kapadokya)	-8399-01-01	-5999-01-01	2	2	1	0	6	kismi
+ppnb-guney-levant	PPNB — Çanak Öncesi Neolitik B (Güney Levant)	-8649-01-01	-6749-01-01	2	2	4	0	6	kismi
+erken-hartum	Erken Hartum Mezolitiği (Orta Sudan)	-8799-01-01	-8499-01-01	2	2	1	0	6	kismi
+shangshan	Shangshan Kültürü	-8849-01-01	-6649-01-01	2	2	1	0	6	kismi
+lepenski-vir-kultur	Lepenski Vir (Proto-LV → Mezolitik-Neolitik geçiş → Erken Neolitik, Demir Kapılar)	-9589-01-01	-5779-01-01	2	2	4	0	6	kismi
+ppna-guney-levant	PPNA — Çanak Öncesi Neolitik A (Güney Levant)	-9699-01-01	-8649-01-01	2	2	1	0	6	kismi
+funan	Funan Krallığı	0001-01-01	0550-01-01	2	5	1	0	6	DOGU-oturumu
+moche	Moche (Mochica) Devletleri	0001-01-01	0799-12-31	2	7	0	0	6	DOGU-oturumu
+catuvellauni-krallik	Catuvellauni-Trinovantes Krallığı (Cunobelinus)	0005-01-01	0043-01-01	2	4	0	0	6	eksik
+xin	Xin Hanedani (Wang Mang)	0009-01-10	0023-01-01	2	4	1	0	6	DOGU-oturumu
+dogu-han	Dogu Han Hanedani	0025-01-01	0220-01-01	3	6	7	0	12	DOGU-oturumu
+sakalar-bati-satraplar	İndo-İskit Batı Kşatrapaları	0035-01-01	0405-01-01	2	10	0	0	6	eksik
+kusan	Kuşan İmparatorluğu	0050-01-01	0350-01-01	3	4	2	0	12	DOGU-oturumu
+arsakuni-ermenistan	Arşakuni Ermenistan (Part dalı)	0063-01-01	0428-01-01	2	5	14	0	6	yeterli
+tikal-mutal	Tikal (Mutal) Krallığı	0090-01-01	0869-01-01	2	5	2	0	6	kismi
+tikal-mutul	Mutul (Tikal) Krallığı	0090-01-01	0869-08-13	2	9	2	0	6	kismi
+aksum	Aksum Krallığı	0100-01-01		3	4	2	1	12	DOGU-oturumu
+xianbei	Xianbei Konfederasyonu (Tanşihuai)	0155-01-01	0235-01-01	2	6	0	0	6	DOGU-oturumu
+linyi-champa	Linyi (Champa'nin Ilk Donemi)	0192-01-01	0999-12-31	2	12	2	0	6	kismi
+gassani	Gassaniler	0200-01-01	0636-08-20	2	4	0	0	6	eksik
+alamanlar	Alamanlar (Alemanni) Konfederasyonu	0213-01-01	0496-01-01	2	4	5	0	6	kismi
+cao-wei	Cao Wei	0220-01-01	0265-01-01	2	7	0	0	6	DOGU-oturumu
+shu-han	Shu Han	0221-01-01	0263-01-01	2	6	0	0	6	DOGU-oturumu
+sun-wu	Wu (Sun Wu)	0222-01-01	0280-01-01	2	5	0	0	6	DOGU-oturumu
+sasani	Sâsânî İmparatorluğu	0224-04-28	0651-01-01	3	15	43	6	12	yeterli
+kusan-sasani	Kuşano-Sasani Krallığı (Kuşanşahlar)	0230-01-01	0360-01-01	2	5	0	0	6	eksik
+yamato	Yamato Devleti (Kofun)	0250-01-01	0710-01-01	2	11	0	0	6	DOGU-oturumu
+maya-klasik	Klasik Maya Sehir Devletleri (genel cati)	0250-01-01	0900-01-01	3	6	0	0	12	DOGU-oturumu
+palmira	Palmira (Odaenathus-Zenobia) Imparatorlugu	0260-01-01	0273-01-01	2	5	9	3	6	yeterli
+galya-imp	Galya İmparatorluğu (Postumus)	0260-01-01	0274-01-01	2	4	2	2	6	kismi
+bati-jin	Bati Jin Hanedani	0265-01-01	0316-01-01	2	5	3	0	6	DOGU-oturumu
+lahmi	Lahmiler (Hire)	0268-01-01	0602-01-01	2	8	1	0	6	kismi
+britanya-imp	Britanya İmparatorluğu (Carausius-Allectus)	0286-01-01	0296-01-01	2	5	4	0	6	kismi
+piktler	Pikt (Fortriu) Krallığı	0297-01-01	0843-01-01	2	6	2	0	6	kismi
+hohokam	Hohokam Kültürü (son evre)	0300-01-01	1450-01-01	2	5	0	0	6	eksik
+han-zhao	Han-Zhao (Onceki Zhao / Kuzey Han)	0304-01-01	0329-01-01	2	9	2	0	6	kismi
+hivite-afrigid	Hârezm Afrigîleri	0305-01-01	0995-02-05	2	5	0	0	6	eksik
+tuyuhun	Tuyuhun (Tuguhun) Hanlığı	0313-01-01	0663-01-01	2	8	0	0	6	eksik
+dai-tuoba	Dai Prensligi (Tuoba/Tabgac)	0315-01-01	0376-01-01	2	9	1	0	6	kismi
+dogu-jin	Dogu Jin Hanedani	0317-01-01	0420-01-01	2	10	4	1	6	DOGU-oturumu
+gupta	Gupta Imparatorlugu	0320-01-01	0540-01-01	3	8	2	0	12	DOGU-oturumu
+bizans	Bizans (Doğu Roma) İmparatorluğu	0330-05-11	1461-08-15	2	15	11	0	6	yeterli
+caracol-maya	Caracol Krallığı	0331-01-01	0859-01-01	2	7	0	0	6	eksik
+bati-ganga	Batı Ganga (Talakad Gangaları) Hanedanı	0350-01-01	1004-01-01	2	9	13	2	6	yeterli
+pallava	Pallava Hanedanı (Kançipuram)	0350-01-01	0897-01-01	2	6	2	0	6	kismi
+kamarupa	Kamarupa Krallığı (Varman, Mleccha, Pala hanedanları)	0350-01-01	1150-01-01	2	7	0	0	6	eksik
+hun-avrupa	Avrupa Hun İmparatorluğu (Attila)	0370-01-01	0455-01-01	2	4	5	0	6	kismi
+kuzey-wei	Kuzey Wei (Tuoba/Tabgaç) Hanedanı	0386-01-01	0534-01-01	2	4	9	2	6	DOGU-oturumu
+kidarit	Kidarit Hunlar	0390-01-01	0467-01-01	2	5	2	0	6	kismi
+bati-roma	Batı Roma İmparatorluğu	0395-01-17	0476-08-28	3	4	11	1	12	yeterli
+rouran	Rouran Kağanlığı	0402-01-01	0552-01-01	2	6	0	0	6	eksik
+suev	Suev Krallığı (Galicia)	0409-01-01	0585-01-01	2	5	5	1	6	yeterli
+vizigot	Vizigot (Batı Got) Krallığı (Tolosa -> Toledo)	0418-01-01	0711-01-01	2	6	1	2	6	kismi
+liu-song	Liu Song	0420-01-01	0479-01-01	2	9	0	1	6	DOGU-oturumu
+copan	Copan (Oxwitik)	0426-01-01	0820-01-01	2	4	1	0	6	kismi
+vandal	Vandal Krallığı	0429-05-01	0534-01-01	2	4	3	2	6	kismi
+palenque-baak	Palenque (Bakʼ) Krallığı	0431-01-01	0799-01-01	2	5	2	0	6	kismi
+burgund	Burgund Krallığı	0443-01-01	0534-01-01	2	4	1	0	6	kismi
+strathclyde	Strathclyde (Alt Clut) Krallığı	0450-01-01	1018-01-01	2	4	0	0	6	eksik
+gepid	Gepid Krallığı	0455-01-01	0567-01-01	2	8	0	0	6	eksik
+kent-kralligi	Kent Krallığı (Anglosakson)	0455-01-01	0825-01-01	2	6	4	0	6	kismi
+eftalit	Eftalit (Beyaz Hun) Krallığı	0457-01-01	0560-01-01	2	5	8	1	6	yeterli
+odoakar	Odoakar'ın İtalya Krallığı	0476-08-23	0493-03-05	2	9	0	0	6	eksik
+sussex-kralligi	Sussex (Güney Sakson) Krallığı	0477-01-01	0825-01-01	2	5	1	0	6	kismi
+guney-qi	Guney Qi	0479-01-01	0502-01-01	2	8	2	0	6	DOGU-oturumu
+kinde	Kinde Krallığı	0480-01-01	0528-01-01	2	5	1	0	6	kismi
+frank	Frank Krallığı/İmparatorluğu (Merovenj-Karolenj)	0481-01-01	0843-01-01	2	9	4	1	6	kismi
+dogu-got	Doğu Got (Ostrogot) Krallığı	0493-03-05	0553-01-01	2	6	1	0	6	kismi
