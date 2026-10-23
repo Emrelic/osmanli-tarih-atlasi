@@ -179,6 +179,9 @@ KOVA = {
 }
 
 BOYALAR = {
+    "badami-calukya": ("Badami (Erken) Calukya", "#2a54d8"),
+    "gaochang": ("Gaochang (Turfan) Krallığı - Qu hanedanı", "#2a36d8"),
+    "lahmi": ("Lahmiler (Hire)", "#2a3cd8"),
     # ═══ 🏺 BOYA PAKETİ k3 + MS1 (MO-MOTOR · 22-23 Ekim 2026): KURULUS-GERI 33 + VERI-MS1-1281 230 + dakya ═══
     # 178 MS1 kimliği BÖLGESİZ/GEÇİCİ renk (L* ≥ 59,8, altlıktan ΔE ≥ 16); komşuluk ΔE'si İDDİA EDİLMEZ — kesin renk: renk_olc --oner (bkz. denetim/RENK-PAKETI-MS1-GECICI-1022.md).
     "bati-roma": ("Batı Roma İmparatorluğu", "#f1c1fa"),
