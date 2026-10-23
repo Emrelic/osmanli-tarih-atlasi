@@ -734,6 +734,8 @@ GIRDI_DOSYALARI = [
     "yerlesimler_once1281_yt_anadolu_kafkas.js",
     "yerlesimler_once1281_yt_afrika_levant.js",
     "yerlesimler_once1281_yt_afrika.js",
+    # YER-3-BATI (23 Ekim 2026) - ONEMLI-YOK ikinci tur, dogu/gd-asya disi; s:[] bos veri-yok, bit 1281
+    "yerlesimler_once1281_yt_yer3.js",
     "yerlesimler_mo_boya_bekleyen.js",
     "yerlesimler_mo_zincir.js",
     "yerlesimler_mo_levant_anadolu.js",

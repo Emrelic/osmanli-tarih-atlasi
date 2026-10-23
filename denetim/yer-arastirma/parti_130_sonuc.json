@@ -1,0 +1,5597 @@
+{
+ "parti": 130,
+ "yontem": "YER-3-BATI (23 Ekim 2026): ONEMLI-YOK-BULUNAMADI.tsv'nin doğu-asya / güneydoğu-asya DIŞI satırlarının\nikinci tur çözümü. Araştırma: 7 alt ajan (TDV / Iranica / Pleiades / TGN / iDAI / GeoNames / UNESCO /\nImperial Gazetteer of India / akademik), çıktı denetim/yer-arastirma/parti_130_sonuc.json.\nKullanım:\n  py -I denetim/ARAC-YER3-BATI-1023.py birlestir <sonuc_klasoru>   # sonuc_*.json -> parti_130_sonuc.json\n  py -I denetim/ARAC-YER3-BATI-1023.py uret                        # parti_130 -> data/yerlesimler_once1281_yt_yer3.js\n                                                                    #   + denetim/once1281/yer-eksik/ONEMLI-YOK-BULUNAMADI-BATI.tsv\nSüzgeç (betik uygular, model değil): durum=cift_tanik · ≥2 tanık, Vikipedi/Wikidata tanık sayılmaz ·\nkoordinatlı her tanık seçilen noktaya ≤10 km · atlas mükerrer: normalleştirilmiş ad (+eski/modern adlar) 30 km\nya da herhangi yerleşim 3 km · parti içi ad/3 km tekrarı · RED listesi (gerekçeli).",
+ "sonuclar": [
+  {
+   "no": 113,
+   "bolge": "guney-asya",
+   "tsv_yer": "Kalinganagara  Mukhalingam",
+   "bilesen": "Mukhalingam",
+   "durum": "cift_tanik",
+   "ad": "Kalinganagara",
+   "eski_adlar": [
+    "Kalinganagara"
+   ],
+   "modern": "Mukhalingam",
+   "ulke": "Hindistan",
+   "lat": 18.5965,
+   "lon": 83.9634,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7553038",
+     "lat": 18.6,
+     "lon": 83.9667,
+     "ozet": "Mukhalingām, Andhra Pradesh."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1262593",
+     "lat": 18.5965,
+     "lon": 83.9634,
+     "ozet": "Mukhalingam, Srikakulam ilçesi, Jalumuru (TGN ile aynı soydan olabilir; bağımsız tanık sayılmadı)."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 18 s. 18 (Mukhalingam maddesi)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Mukhalingam",
+     "lat": null,
+     "lon": null,
+     "ozet": "Yazıtlar Mukhalingam'ın, Calingapatam ya da Chicacole değil, eski Kalinga Ganga krallarının başkentinin yeri olduğunu gösteriyor; yer Ganjam ilçesi Parlakimedi malikânesinde (bugün Srikakulam)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "IGI tapınağı 9. yy başına tarihler; kuruluş tarihi vermez"
+   },
+   "gerekce": "Kalinganagara = Mukhalingam özdeşliği IGI'de açık; TGN+GeoNames koordinatı IGI'nin Ganjam/Parlakimedi konumuyla tutarlı.",
+   "grup": "A"
+  },
+  {
+   "no": 114,
+   "bolge": "guney-asya",
+   "tsv_yer": "Brahmapura → Chamba",
+   "bilesen": "Brahmapura",
+   "durum": "cift_tanik",
+   "ad": "Brahmapura",
+   "eski_adlar": [
+    "Brahmapura"
+   ],
+   "modern": "Brahmaur (Bharmour)",
+   "ulke": "Hindistan",
+   "lat": 32.4438,
+   "lon": 76.5387,
+   "konum_kesinligi": "kesin",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/1074877",
+     "lat": 32.443808,
+     "lon": 76.538705,
+     "ozet": "Brāhmaur, Himachal Pradesh."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1275196",
+     "lat": 32.443808,
+     "lon": 76.538705,
+     "ozet": "Brāhmaur (Bharmour), Chamba > Bharmour; TGN ile aynı nokta."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 9 s. 14 (Brahmaur maddesi)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Chamba",
+     "lat": 32.45,
+     "lon": 76.6167,
+     "ozet": "Brahmaur (Brahmapura): Chamba Devleti'nin eski başkenti, Ravi kolu Budhil üzerinde; 32°27'K 76°37'D."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "IGI kuruluş tarihi vermez (Manimahesh tapınağında 1417 yazıtı anılır)"
+   },
+   "gerekce": "IGI koordinatı TGN/GeoNames noktasından ~7 km (≤10 km). Chamba'daki homonim GeoNames 'Brahmapur' (Odisha) önceki turun yanlış eşleşmesiydi; doğru yer Brahmaur.",
+   "grup": "A"
+  },
+  {
+   "no": 115,
+   "bolge": "guney-asya",
+   "tsv_yer": "Nagahrada  Nagda",
+   "bilesen": "Nagahrada / Nagda",
+   "durum": "cift_tanik",
+   "ad": "Nagahrada",
+   "eski_adlar": [
+    "Nagahrada",
+    "Nāgahrida"
+   ],
+   "modern": "Nagda (Udaipur yakını)",
+   "ulke": "Hindistan",
+   "lat": 24.7385,
+   "lon": 73.7156,
+   "konum_kesinligi": "kesin",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/10250864",
+     "lat": 24.738511,
+     "lon": 73.715587,
+     "ozet": "Nāgda (alt ad Nagahrida), Udaipur ilçesi Badgaon, tapınaklar."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 24 s. 93 ve s. 104 (Udaipur State / Udaipur City)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Eklingji",
+     "lat": null,
+     "lon": null,
+     "ozet": "Eklingji ve Nagda'daki eski tapınaklar Udaipur şehrinin yakınında; Eklingji Udaipur'un 12 mil kuzeyindeki dar bir geçitte. Koordinat bu tarife (~2-3 km) uyar."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynakta yok"
+   },
+   "gerekce": "HOMONİM: TGN/GeoNames'teki Nagda (Ujjain, MP 23.46,75.42) Guhila başkenti DEĞİL; doğru yer Udaipur'un kuzeyindeki Nagda (Eklingji yanı).",
+   "grup": "A"
+  },
+  {
+   "no": 116,
+   "bolge": "guney-asya",
+   "tsv_yer": "Talakad",
+   "bilesen": "Talakad",
+   "durum": "cift_tanik",
+   "ad": "Talakad",
+   "eski_adlar": [
+    "Talakadu",
+    "Talkad"
+   ],
+   "modern": "Talakadu",
+   "ulke": "Hindistan",
+   "lat": 12.22,
+   "lon": 77.03,
+   "konum_kesinligi": "kesin",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/8723654",
+     "lat": 12.22,
+     "lon": 77.03,
+     "ozet": "Talkad, Karnataka."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 23 s. 208 (Talakad maddesi) ve c. 18 s. 170",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Talakad",
+     "lat": 12.1833,
+     "lon": 77.0333,
+     "ozet": "Talakad: Mysore ilçesi T.-Narsipur taluku, Kaveri'nin kuzey kıyısında, 12°11'K 77°2'D; Ganga hanedanının üçüncü kralı başkenti Talakad'a taşıdı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "IGI tarih vermez"
+   },
+   "gerekce": "IGI koordinatı TGN'den ~4 km.",
+   "grup": "A"
+  },
+  {
+   "no": 117,
+   "bolge": "guney-asya",
+   "tsv_yer": "Vengi",
+   "bilesen": "Vengi / Pedavegi",
+   "durum": "cift_tanik",
+   "ad": "Vengi",
+   "eski_adlar": [
+    "Vengi"
+   ],
+   "modern": "Pedavegi (Pedda Vegi)",
+   "ulke": "Hindistan",
+   "lat": 16.7708,
+   "lon": 81.1039,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7018645",
+     "lat": 16.7708,
+     "lon": 81.1039,
+     "ozet": "Pedda Vegi, Andhra Pradesh."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 24 s. 306 (Vengi maddesi)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Pedda%20Vegi",
+     "lat": null,
+     "lon": null,
+     "ozet": "Vengi krallığının başkenti büyük ihtimalle Kistna ilçesinde Ellore'un 8 mil kuzeyindeki Pedda Vegi'de; harabe ve höyüklerle kaplı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "IGI tarih vermez"
+   },
+   "gerekce": "IGI tarifinden çıkan nokta (Eluru+13 km K) TGN noktasına ~6 km; IGI 'seems' diyerek ihtiyatlı.",
+   "grup": "A"
+  },
+  {
+   "no": 118,
+   "bolge": "guney-asya",
+   "tsv_yer": "Baijnath",
+   "bilesen": "Baijnath",
+   "durum": "cift_tanik",
+   "ad": "Baijnath",
+   "eski_adlar": [
+    "Karttikeyapura"
+   ],
+   "modern": "Baijnath (Bageshwar, Uttarakhand)",
+   "ulke": "Hindistan",
+   "lat": 29.9064,
+   "lon": 79.6159,
+   "konum_kesinligi": "kesin",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/1074602",
+     "lat": 29.9064,
+     "lon": 79.6159,
+     "ozet": "Baijnāth, Uttarakhand."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1277772",
+     "lat": 29.906431,
+     "lon": 79.615929,
+     "ozet": "Baijnath, Bageshwar > Garud (TGN ile aynı nokta; bağımsız sayılmadı)."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 6 s. 217 ve c. 5 s. 245 (Almora)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Karttikeyapura",
+     "lat": null,
+     "lon": null,
+     "ozet": "Baijnath Katyur vadisinin ortasında, eskiden Karttikeyapura diye bilinen Katyuri racalarının başkenti; Katyuriler Katyur vadisindeki Baijnath'ta hüküm sürdü."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "IGI tarih vermez"
+   },
+   "gerekce": "HOMONİM AYRIMI: Katyuri başkenti Uttarakhand'daki Baijnath'tır (29.91,79.62); Kangra'daki Baijnath (32.05,76.64, eski Kiragrama) DEĞİL.",
+   "grup": "A"
+  },
+  {
+   "no": 119,
+   "bolge": "guney-asya",
+   "tsv_yer": "Kathmandu vadisi  Mana-griha",
+   "bilesen": "Mana-griha",
+   "durum": "cozulemedi",
+   "gerekce": "Mana-griha bir saray adıdır (Licchavi sarayı Managriha); Kathmandu vadisi içinde yeri arkeolojik olarak kesinleşmemiş. TGN/GeoNames/Pleiades'te koordinat yok; konumu veren akademik cümle bulunamadı. Kaynak şehir adı vermiyor.",
+   "grup": "A"
+  },
+  {
+   "no": 120,
+   "bolge": "guney-asya",
+   "tsv_yer": "Belur → Halebidu",
+   "bilesen": "Halebidu / Dvarasamudra",
+   "durum": "cift_tanik",
+   "ad": "Halebidu",
+   "eski_adlar": [
+    "Dorasamudra",
+    "Dvarasamudra",
+    "Halebid"
+   ],
+   "modern": "Halebidu",
+   "ulke": "Hindistan",
+   "lat": 13.2168,
+   "lon": 75.992,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7031565",
+     "lat": 13.2333,
+     "lon": 75.9833,
+     "ozet": "Halebīd, Karnataka."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1270497",
+     "lat": 13.216834,
+     "lon": 75.991968,
+     "ozet": "Halebīd (Halebidu), Hassan > Belur."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 13 s. 11 (Halebid maddesi); c. 2 s. 337",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Halebid",
+     "lat": 13.2167,
+     "lon": 76.0,
+     "ozet": "Halebid: Hassan ilçesi Belur taluku kuzeydoğusunda köy, 13°13'K 76°0'D; Hoysalalar 11. yy ortasında Dorasamudra'da (bugünkü Halebid) oturan bir ailedir."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "11. yy",
+    "kaynak": "IGI c. 2 s. 337: 11. yy ortasında Dorasamudra'da oturan Hoysalalar güçlendi (kuruluş değil, ilk anılış)"
+   },
+   "gerekce": "Üç kaynak ≤2 km.",
+   "grup": "A"
+  },
+  {
+   "no": 121,
+   "bolge": "guney-asya",
+   "tsv_yer": "Manyakheta",
+   "bilesen": "Manyakheta / Malkhed",
+   "durum": "cift_tanik",
+   "ad": "Manyakheta",
+   "eski_adlar": [
+    "Manyakheta"
+   ],
+   "modern": "Malkhed",
+   "ulke": "Hindistan",
+   "lat": 17.1949,
+   "lon": 77.1602,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7554572",
+     "lat": 17.1833,
+     "lon": 77.15,
+     "ozet": "Malkhaid, Karnataka."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1264069",
+     "lat": 17.194863,
+     "lon": 77.160181,
+     "ozet": "Malkhaid (Malkhed), Kalaburagi > Sedam."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 18 s. 171; c. 13 s. 235; c. 12 s. 380",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Malkhed",
+     "lat": null,
+     "lon": null,
+     "ozet": "Raştrakutaların başkenti 9. yy başında Manyakheta'daydı (Nizam topraklarında Malkhed); Malkhed Gulbarga ilçesinde; Gulbarga ilçesinde 'Malkhaid road'."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "9. yy",
+    "kaynak": "IGI c. 18 s. 171: başkent 9. yy başında Manyakheta'da"
+   },
+   "gerekce": "TGN ve GeoNames aynı soydan olabilir; IGI'nin Gulbarga ilçesi konumu üçüncü tanık. IGI'nin başka bir cümlesindeki 'Sholapur'un 60 mil GD'su' gerçek mesafeyle (~140 km) uyuşmuyor, dayanak alınmadı.",
+   "grup": "A"
+  },
+  {
+   "no": 122,
+   "bolge": "guney-asya",
+   "tsv_yer": "Manyakheta → Kalyani",
+   "bilesen": "Manyakheta / Malkhed",
+   "durum": "ayni",
+   "ayni_no": 121,
+   "grup": "A"
+  },
+  {
+   "no": 123,
+   "bolge": "guney-asya",
+   "tsv_yer": "Khajuraho → Mahoba · Kâlincar",
+   "bilesen": "Kâlincar / Kalinjar",
+   "durum": "cift_tanik",
+   "ad": "Kâlincar",
+   "eski_adlar": [
+    "Kalanjar"
+   ],
+   "modern": "Kalinjar",
+   "ulke": "Hindistan",
+   "lat": 25.0006,
+   "lon": 80.4852,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7571083",
+     "lat": 25.0006,
+     "lon": 80.4852,
+     "ozet": "Kālinjar Fort, Uttar Pradesh."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 14 s. 310 (Kalinjar maddesi)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Kalinjar",
+     "lat": 25.0167,
+     "lon": 80.4833,
+     "ozet": "Kalinjar: Banda ilçesinde kasaba ve tepe kalesi, 25°1'K 80°29'D, Banda'nın 35 mil güneyi."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "IGI tarih vermez"
+   },
+   "gerekce": "IGI ve TGN ~2 km.",
+   "grup": "A"
+  },
+  {
+   "no": 124,
+   "bolge": "guney-asya",
+   "tsv_yer": "Guhadeva-pataka",
+   "bilesen": "Guhadeva-pataka",
+   "durum": "cozulemedi",
+   "gerekce": "Bhauma-Kara başkenti Guhadevapataka'nın yeri tartışmalı (Jajpur civarı / Gohiratikar önerileri yalnız Vikipedi ve blogda); koordinatlı gazetteer kaydı ve konumu kesin veren akademik cümle bulunamadı (TGN/GeoNames/Pleiades/iDAI/IGI).",
+   "grup": "A"
+  },
+  {
+   "no": 125,
+   "bolge": "guney-asya",
+   "tsv_yer": "Kongoda",
+   "bilesen": "Kongoda",
+   "durum": "cozulemedi",
+   "gerekce": "Sailodbhava başkenti Kongoda'nın Banapur (Salia nehri) ile özdeşliği yalnız Vikipedi/blog düzeyinde bulundu; akademik konum cümlesi ve gazetteer kaydı yok (TGN/GeoNames/Pleiades/iDAI/IGI 'Kongoda' sonuç vermedi).",
+   "grup": "A"
+  },
+  {
+   "no": 126,
+   "bolge": "guney-asya",
+   "tsv_yer": "Bhutambilika  Bhumili",
+   "bilesen": "Bhutambilika / Bhumili",
+   "durum": "cift_tanik",
+   "ad": "Bhutambilika",
+   "eski_adlar": [
+    "Bhūtāmbilikā",
+    "Bhumilika"
+   ],
+   "modern": "Ghumli",
+   "ulke": "Hindistan",
+   "lat": 21.885,
+   "lon": 69.783,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/8698012",
+     "lat": 21.885,
+     "lon": 69.783,
+     "ozet": "Ghumli, Gujarat."
+    },
+    {
+     "kaynak": "Annual Report on Indian Epigraphy (ASI) — whatisindia.com yeniden neşri",
+     "url": "https://whatisindia.com/inscriptions/annualreports/1945/introduc2.html",
+     "lat": null,
+     "lon": null,
+     "ozet": "Nawanagar'daki (Saurashtra) Ghūmlī köyünden çıkan bakır levhalar, Bhūtāmbilikā'da (bugünkü Ghūmlī) c. 740-920 hüküm süren Saindhava ailesine ait."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 15 s. 171 ve 177 (Kathiawar)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Ghumli",
+     "lat": null,
+     "lon": null,
+     "ozet": "Ghumli Jethwaların eski başkenti, geniş harabeler; Barda dağ grubu Ghumli'den Ranawao'ya uzanır."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "c. 740",
+    "kaynak": "ARIE: Saindhavalar Bhūtāmbilikā'da c. 740-920 (circa)"
+   },
+   "gerekce": "Bhutambilika = Ghumli özdeşliği ASI epigrafi raporunda açık; TGN noktası Barda tepelerinin kuzey ucunda, IGI tarifiyle tutarlı.",
+   "grup": "A"
+  },
+  {
+   "no": 127,
+   "bolge": "guney-asya",
+   "tsv_yer": "Simraungarh",
+   "bilesen": "Simraungarh",
+   "durum": "cift_tanik",
+   "ad": "Simraungarh",
+   "eski_adlar": [
+    "Simraun",
+    "Simraon"
+   ],
+   "modern": "Simraungadh",
+   "ulke": "Nepal",
+   "lat": 26.8996,
+   "lon": 85.1329,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/12095999",
+     "lat": 26.899569,
+     "lon": 85.132854,
+     "ozet": "Simraungadh, Bara ilçesi (Madhesh), 3. kademe idari birim merkez noktası."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 9 s. 139; c. 19 s. 32",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Simraun",
+     "lat": null,
+     "lon": null,
+     "ozet": "1097-1322 arasında güçlü bir Hindu hanedanı Nepal'deki Simraun'dan hüküm sürdü, geniş kalıntılar duruyor; Nanya Deva kurdu; Hari Singh Deva Tarai'de Simraun'a yerleşti."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "1097",
+    "kaynak": "IGI c. 9 s. 139: hanedan 1097'den itibaren Simraun'da (hanedanın başlangıcı; şehrin kuruluşu değil)"
+   },
+   "gerekce": "Koordinat idari birim merkezi; harabe alanı Nepal-Bihar sınırına yayılır, yaklaşık.",
+   "grup": "A"
+  },
+  {
+   "no": 128,
+   "bolge": "guney-asya",
+   "tsv_yer": "Kâbil → Udabhandapura → Nandana → Lahor",
+   "bilesen": "Udabhandapura / Hund",
+   "durum": "cift_tanik",
+   "ad": "Udabhandapura",
+   "eski_adlar": [
+    "Udabhanda",
+    "Ohind",
+    "Waihind",
+    "Und"
+   ],
+   "modern": "Hund",
+   "ulke": "Pakistan",
+   "lat": 34.0161,
+   "lon": 72.4322,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7907281",
+     "lat": 34.0161,
+     "lon": 72.4322,
+     "ozet": "Hund, Khyber Pakhtunkhwa."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1176783",
+     "lat": 34.015912,
+     "lon": 72.432199,
+     "ozet": "Hund, Swabi ilçesi (TGN ile aynı soy)."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 24 s. 130 (Und maddesi); c. 19 s. 150",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Ohind",
+     "lat": 34.0333,
+     "lon": 72.45,
+     "ozet": "Und (Hind, Ohind, Waihind): Indus'un batı kıyısında, Attock'un 15 mil yukarısında köy, 34°2'K 72°27'D; eski Udaka/Udabhandapura'nın yeri, Hiuen Tsiang'ın U-to-kia-han-ch'a'sı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "7. yy",
+    "kaynak": "IGI c. 24 s. 130: Hiuen Tsiang'ın (7. yy) U-to-kia-han-ch'a'sı"
+   },
+   "gerekce": "IGI ve TGN ~2.5 km.",
+   "grup": "A"
+  },
+  {
+   "no": 129,
+   "bolge": "guney-asya",
+   "tsv_yer": "Kâbil → Udabhandapura → Nandana → Lahor",
+   "bilesen": "Nandana",
+   "durum": "cozulemedi",
+   "gerekce": "IGI (c. 20 s. 263) Nandana'yı Tuz Sıradağları'nda bir kale olarak tanımlıyor ama koordinat vermiyor; TGN/GeoNames'teki 'Nandna' (33.735,72.339) bir derede, kaleyle ilgisiz (homonim). Koordinatlı bağımsız kayıt bulunamadı.",
+   "grup": "A"
+  },
+  {
+   "no": 130,
+   "bolge": "guney-asya",
+   "tsv_yer": "Tummana → Ratnapura  Ratanpur",
+   "bilesen": "Tummana",
+   "durum": "cift_tanik",
+   "ad": "Tummana",
+   "eski_adlar": [
+    "Tummāṇa"
+   ],
+   "modern": "Tuman",
+   "ulke": "Hindistan",
+   "lat": 22.5735,
+   "lon": 82.4179,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/10704107",
+     "lat": 22.573489,
+     "lon": 82.417945,
+     "ozet": "Tūmān köyü, Korba ilçesi (Chhattisgarh)."
+    },
+    {
+     "kaynak": "V.V. Mirashi, Corpus Inscriptionum Indicarum IV, 'Kalachuris of South Kosala' girişi — whatisindia.com yeniden neşri",
+     "url": "https://whatisindia.com/inscriptions/kalachuri-chedi/kalachuri-chedi-part1/kalachuriofsouthkosala3.html",
+     "lat": null,
+     "lon": null,
+     "ozet": "O devirde Kalachuri başkenti Tummāṇa idi; Bilaspur ilçesinin eski Lāphā zamindarlığındaki küçük Tumān köyü ile özdeşleştirildi; Kalingarāja eski başkent Tummāṇa'yı merkez seçti."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynakta kuruluş yılı yok"
+   },
+   "gerekce": "Korba ilçesi eski Bilaspur'dan ayrılmıştır, Lapha zamindarlığı bu bölgededir; GeoNames noktası Ratanpur'un ~40 km KD'sunda. Kaynak yazarı sayfada görünmüyor (CII IV olduğu sayfa düzeninden çıkarım).",
+   "grup": "A"
+  },
+  {
+   "no": 131,
+   "bolge": "guney-asya",
+   "tsv_yer": "Tummana → Ratnapura  Ratanpur",
+   "bilesen": "Ratnapura",
+   "durum": "cift_tanik",
+   "ad": "Ratnapura",
+   "eski_adlar": [
+    "Ratnapura"
+   ],
+   "modern": "Ratanpur (Chhattisgarh)",
+   "ulke": "Hindistan",
+   "lat": 22.2878,
+   "lon": 82.1677,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7558141",
+     "lat": 22.2878,
+     "lon": 82.1677,
+     "ozet": "Ratanpur, Chhattisgarh."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1258362",
+     "lat": 22.2866,
+     "lon": 82.16823,
+     "ozet": "Ratanpur, Chhattisgarh (TGN ile aynı soy)."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 21 s. 239 (Ratanpur maddesi)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Ratanpur",
+     "lat": 22.2833,
+     "lon": 82.1833,
+     "ozet": "Ratanpur: Bilaspur'un 16 mil kuzeyi, 22°17'K 82°11'D; yüzyıllarca Haihaivansi hanedanı altında Chhattisgarh başkenti, kuruluşu 10. yy'da kral Ratnadeva'ya atfedilir."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "10. yy",
+    "kaynak": "IGI c. 21 s. 239: kuruluşu 10. yy'da Ratnadeva'ya atfedilir"
+   },
+   "gerekce": "MODEL REDDİ GİDERİLDİ: Sri Lanka Ratnapura'sı değil, Chhattisgarh Ratanpur'u. IGI ile TGN ~1.6 km.",
+   "grup": "A"
+  },
+  {
+   "no": 132,
+   "bolge": "guney-asya",
+   "tsv_yer": "Suvarnapura",
+   "bilesen": "Suvarnapura",
+   "durum": "cozulemedi",
+   "gerekce": "Koordinat Sonpur/Sonepur kasabası için üç kaynakta var (TGN 1077036, GeoNames 1255763, IGI c. 23 s. 86: 20°51'K 83°55'D, Mahanadi-Tel birleşimi), ancak Suvarnapura = Sonpur özdeşliğini açıkça kuran akademik cümle bulunamadı: Epigraphia Indica XI (Mazumdar) ve XXIII levhaların Sonpur'da bulunduğunu ve Suvarnapura'dan verildiğini söyler, özdeşlik cümlesi yok; özdeşlik yalnız Odisha hükümeti/turizm sayfaları ve Vikipedi'de.",
+   "grup": "A"
+  },
+  {
+   "no": 133,
+   "bolge": "guney-asya",
+   "tsv_yer": "Keşmir vadisi  başkent adı kaynakta teyit edilmedi",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "Kaynak yer adı vermiyor ('Keşmir vadisi — başkent adı kaynakta teyit edilmedi').",
+   "grup": "A"
+  },
+  {
+   "no": 134,
+   "bolge": "guney-asya",
+   "tsv_yer": "Denduluru",
+   "bilesen": "Denduluru",
+   "durum": "cozulemedi",
+   "gerekce": "GeoNames'te Denduluru (12686933; 16.781,81.160, Eluru) var, ama Vishnukundina başkentinin Denduluru olduğunu söyleyen akademik/TDV/IGI cümlesi bulunamadı (yalnız Vikipedi ve aynalar). TGN/Pleiades/IGI'de kayıt yok.",
+   "grup": "A"
+  },
+  {
+   "no": 135,
+   "bolge": "guney-asya",
+   "tsv_yer": "Vikramapura",
+   "bilesen": "Vikramapura",
+   "durum": "cift_tanik",
+   "ad": "Vikramapura",
+   "eski_adlar": [
+    "Bikrampur"
+   ],
+   "modern": "Rampal (Munshiganj)",
+   "ulke": "Bangladeş",
+   "lat": 23.5431,
+   "lon": 90.4904,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/11282940",
+     "lat": 23.543071,
+     "lon": 90.490423,
+     "ozet": "Rampal, Munshiganj Sadar upazilası (4. kademe idari birim)."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 8 s. 220; c. 11 s. 105; c. 21 s. 182",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Rampal",
+     "lat": null,
+     "lon": null,
+     "ozet": "Bikrampur pargana (Dacca ilçesi Munshiganj): Vikramaditya'nın başkentinin yeri bugünkü Rampal köyünde izlenebilir; Rampal Vikramaditya'dan Müslüman idaresine dek Hindu krallarının merkezi; eski başkent Rampal-dighi tankı yanında gösterilir."
+    },
+    {
+     "kaynak": "Banglapedia (Asiatic Society of Bangladesh), 'Varman Dynasty'",
+     "url": "https://en.banglapedia.org/index.php/Varman_Dynasty",
+     "lat": null,
+     "lon": null,
+     "ozet": "Varman kralı Bhojavarman'ın Belava levhası Vikramapura'daki jayaskandhavara'dan verildi (konum vermez; hanedan-yer bağını doğrular)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynakta yok"
+   },
+   "gerekce": "GeoNames'te üç Rampal var (Bagerhat, Comilla, Munshiganj); IGI'nin Munshiganj/Dacca konumu Munshiganj kaydını seçtiriyor. Nokta idari birim merkezi, yaklaşık.",
+   "grup": "A"
+  },
+  {
+   "no": 136,
+   "bolge": "guney-asya",
+   "tsv_yer": "Kaveripattinam  Puhar",
+   "bilesen": "Kaveripattinam / Puhar",
+   "durum": "cift_tanik",
+   "ad": "Kaveripattinam",
+   "eski_adlar": [
+    "Puhar",
+    "Kaveripoompattinam"
+   ],
+   "modern": "Poompuhar",
+   "ulke": "Hindistan",
+   "lat": 11.1453,
+   "lon": 79.8537,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/49939",
+     "lat": 11.1452914,
+     "lon": 79.8537308,
+     "ozet": "Kaveripumpattinam/Poombuhar, yerleşim, kesin konum."
+    },
+    {
+     "kaynak": "A.S. Gaur & Sundaresh (National Institute of Oceanography), 'Onshore and near shore explorations along the southern Tamilnadu coast', 2006",
+     "url": "https://www.researchgate.net/publication/27667285",
+     "lat": null,
+     "lon": null,
+     "ozet": "Poompuhar ya da Kaveripoompattinam, Kaveri'nin Bengal Körfezi'ne kavuştuğu noktadadır; Sangam devrinin önemli Chola başkent-liman şehri."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynak 'Sangam devri' der, yıl vermez"
+   },
+   "gerekce": "HOMONİM: Salem'deki Kaveripatnam (12.42,78.22; IGI c. 15 s. 192) ve Chennai'deki 'Poompuhar' mahallesi (13.11,80.21) DEĞİL. Pleiades noktası Kaveri ağzında, Gaur tarifine uyar.",
+   "grup": "A"
+  },
+  {
+   "no": 137,
+   "bolge": "guney-asya",
+   "tsv_yer": "Ranthambore  Ranastambhapura",
+   "bilesen": "Ranthambore / Ranastambhapura",
+   "durum": "cift_tanik",
+   "ad": "Ranthambore",
+   "eski_adlar": [
+    "Ranastambhapura",
+    "Ranthambhor"
+   ],
+   "modern": "Ranthambore Kalesi",
+   "ulke": "Hindistan",
+   "lat": 26.019,
+   "lon": 76.4542,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7557865",
+     "lat": 26.019,
+     "lon": 76.4542,
+     "ozet": "Ranthambhor, Rajasthan."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 21 s. 235 (Ranthambhor maddesi)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Ranastambhapura",
+     "lat": 26.0333,
+     "lon": 76.4667,
+     "ozet": "Ranthambhor (Ranastambhapura): Jaipur Devleti Sawai Madhopur nizamatında ünlü kale, 26°2'K 76°28'D, 1578 ft'lik tek kaya üzerinde."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "IGI tarih vermez"
+   },
+   "gerekce": "IGI ve TGN ~2 km.",
+   "grup": "A"
+  },
+  {
+   "no": 138,
+   "bolge": "guney-asya",
+   "tsv_yer": "Karmanta",
+   "bilesen": "Karmanta",
+   "durum": "cift_tanik",
+   "ad": "Karmanta",
+   "eski_adlar": [
+    "Jayakarmantavasaka"
+   ],
+   "modern": "Barkamta (Badkamta), Comilla",
+   "ulke": "Bangladeş",
+   "lat": 23.5261,
+   "lon": 91.03,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1462792",
+     "lat": 23.5261111,
+     "lon": 91.03,
+     "ozet": "Dakshin Barkamta, Comilla > Debidwar upazilası (yanında Uttar Barkamta 11285689)."
+    },
+    {
+     "kaynak": "Banglapedia (Asiatic Society of Bangladesh), 'Khadga Dynasty'",
+     "url": "https://en.banglapedia.org/index.php/Khadga_Dynasty",
+     "lat": null,
+     "lon": null,
+     "ozet": "Ashrafpur levhaları Devakhadga'nın 13. saltanat yılında (c. 671) Jayakarmantavasaka'daki ordugâhtan verildi; burası Comilla'daki Barkanta (Badkamta) ile özdeşleştirilir."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "c. 671",
+    "kaynak": "Banglapedia: Ashrafpur levhaları c. 671"
+   },
+   "gerekce": "Koordinat köy/idari birim noktası; harabe alanı için ayrı kayıt yok, yaklaşık.",
+   "grup": "A"
+  },
+  {
+   "no": 139,
+   "bolge": "guney-asya",
+   "tsv_yer": "Pattikera  Mainamati",
+   "bilesen": "Pattikera / Mainamati",
+   "durum": "cift_tanik",
+   "ad": "Pattikera",
+   "eski_adlar": [
+    "Pattikeraka"
+   ],
+   "modern": "Mainamati (Comilla)",
+   "ulke": "Bangladeş",
+   "lat": 23.504,
+   "lon": 91.1259,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1194529",
+     "lat": 23.504039,
+     "lon": 91.125904,
+     "ozet": "Mainamati (Maynamati), Comilla > Burichang."
+    },
+    {
+     "kaynak": "Banglapedia (Asiatic Society of Bangladesh), 'Mainamati' ve 'Devaparvata' (M. Harunur Rashid)",
+     "url": "https://en.banglapedia.org/index.php/Mainamati",
+     "lat": null,
+     "lon": null,
+     "ozet": "Mainamati, Comilla'nın ~8 km batısında 17 km'lik tepe sırtı; 1220 tarihli Ranavankamalla Harikaladeva levhası başkent Pattikera'yı anlatır, ad bugünkü Patikara parganasında yaşar; Chandra devrinden sonra Devaparvata'nın yerini yeni başkent Pattikera aldı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "Banglapedia: 'Pattikeraka' Chandra devrinde gelişmeye başladı (yıl yok); 1220 levhası başkenti anar"
+   },
+   "gerekce": "Konum sırt üzerinde tam nokta değil; GeoNames Mainamati köyü Banglapedia tarifine (~5 km) uyar.",
+   "grup": "A"
+  },
+  {
+   "no": 140,
+   "bolge": "guney-asya",
+   "tsv_yer": "Aror",
+   "bilesen": "Aror / Alor",
+   "durum": "cozulemedi",
+   "gerekce": "Tek tanık: IGI c. 6 s. 4 'Aror: Sukkur ilçesi Rohri talukunda harabe kasaba, 27°39'K 68°59'D, Rohri'nin 5 mil doğusu'. TGN/GeoNames/Pleiades/iDAI'de Aror/Alor/Arorkot kaydı yok; TDV 'Sind' ve 'Çeçnâme' maddelerinde konum cümlesi bulunamadı; Vikipedi koordinatı IGI'den türemiş, vici.org gönüllü kayıt (tanık sayılmadı).",
+   "grup": "A"
+  },
+  {
+   "no": 141,
+   "bolge": "guney-asya",
+   "tsv_yer": "Japila  Rohtas çevresi",
+   "bilesen": "Japila",
+   "durum": "cozulemedi",
+   "gerekce": "Japla (GeoNames 1269215 / TGN 1075593; 24.539,84.003, Palamau) var, IGI c. 19 s. 335 Japla parganasını anar; ama Japila = Japla özdeşliğini kuran akademik cümle bulunamadı (Epigraphia Indica XXXIV, Sircar: Pratapadhavala 'Japila nayakası' der, yeri özdeşleştirmez; özdeşlik yalnız Vikipedi'de).",
+   "grup": "A"
+  },
+  {
+   "no": 142,
+   "bolge": "guney-asya",
+   "tsv_yer": "Karnasuvarna",
+   "bilesen": "Karnasuvarna",
+   "durum": "cozulemedi",
+   "gerekce": "Özdeşlik kaynaklı (Banglapedia 'Karnasuvarna': Murshidabad, Chiruti istasyonu yakınında Jadupur köyündeki Rajbadidanga; IGI c. 21 s. 212: Beveridge Rangamati'yi Karna Suvarna şehri sayar), ama koordinat veren bağımsız kayıt yok: TGN/GeoNames/Pleiades/iDAI'de Rajbadidanga, Chiruti, Murshidabad Rangamati bulunamadı.",
+   "grup": "A"
+  },
+  {
+   "no": 143,
+   "bolge": "guney-asya",
+   "tsv_yer": "Pattikera",
+   "bilesen": "Pattikera / Mainamati / Maynamati",
+   "durum": "ayni",
+   "ayni_no": 139,
+   "grup": "A"
+  },
+  {
+   "no": 144,
+   "bolge": "guney-asya",
+   "tsv_yer": "Kamatapur",
+   "bilesen": "Kamatapur",
+   "durum": "cift_tanik",
+   "ad": "Kamatapur",
+   "eski_adlar": [
+    "Comotay",
+    "Kamtapur"
+   ],
+   "modern": "Gosanimari (Rajpat), Cooch Behar",
+   "ulke": "Hindistan",
+   "lat": 26.1432,
+   "lon": 89.3591,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7572623",
+     "lat": 26.1432,
+     "lon": 89.3591,
+     "ozet": "Gosānimāri Bandar, West Bengal."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1270892",
+     "lat": 26.143211,
+     "lon": 89.35909,
+     "ozet": "Gosānimāri Bandar, Cooch Behar > Dinhata I (TGN ile aynı soy)."
+    },
+    {
+     "kaynak": "Cooch Behar Panchanan Barma University, 'A Brief History of Cooch Behar' (PDF)",
+     "url": "https://www.cbpbu.ac.in/userfiles/file/2023/Home/Cooch%20Behar.pdf",
+     "lat": 26.032,
+     "lon": 89.484,
+     "ozet": "14-15. yy'da Dharla kıyısındaki Kamatapur (Gosanimari) Khen hanedanı altında güçlendi; kalıntı Gosanimari Rajpat'ta (Dinhata Blok I), ASI korumasında; 1808'de Buchanan Hamilton inceledi."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 14 s. 327 ve s. 32; c. 6 s. 25",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Comotay",
+     "lat": null,
+     "lon": null,
+     "ozet": "Kamatapur Cooch Behar'da, ilk Khen kralı Niladhwaj kurdu; 1809'da çevresi 19 mil, 5 mili Dharla ile korunuyordu; 1498'de Husain Şah aldı, sonra terk edildi."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "15. yy",
+    "kaynak": "IGI c. 6 s. 25 / c. 14 s. 32: Khen kralları 15. yy'da; şehri ilk Khen kralı Niladhwaj kurdu"
+   },
+   "gerekce": "Sözel konum (Gosanimari, Dinhata I, Dharla kıyısı) TGN/GeoNames ile örtüşür; CBPBU belgesinin kendi verdiği koordinat (26.032,89.484) bu noktadan ~17 km GD'da — tutarsızlık beyan edilir, nokta yaklaşık. HOMONİM: IGI c. 21 s. 225'teki Rangpur'un 30 mil güneyindeki Karatoya kıyısı Kamatapur'u başka yer.",
+   "grup": "A"
+  },
+  {
+   "no": 145,
+   "bolge": "guney-asya",
+   "tsv_yer": "Mültan · Uç",
+   "bilesen": "Uç / Uch Sharif",
+   "durum": "cift_tanik",
+   "ad": "Uç",
+   "eski_adlar": [
+    "Uchchh",
+    "Uch-i-Sharif"
+   ],
+   "modern": "Uch Sharif",
+   "ulke": "Pakistan",
+   "lat": 29.2387,
+   "lon": 71.0622,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/1083844",
+     "lat": 29.2356,
+     "lon": 71.0499,
+     "ozet": "Uch-i-Sharif, Punjab."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/1163016",
+     "lat": 29.238673,
+     "lon": 71.06218,
+     "ozet": "Uch Sharif, Bahawalpur ilçesi (TGN ile aynı soy olabilir)."
+    },
+    {
+     "kaynak": "Imperial Gazetteer of India (Oxford, 1908-1931; DSAL dijital neşri), c. 24 s. 82 (Uch maddesi)",
+     "url": "https://dsal.uchicago.edu/cgi-bin/reference/gazetteer/query.py?keyword=Uchh",
+     "lat": 29.2333,
+     "lon": 71.0667,
+     "ozet": "Uch: Bahawalpur Devleti Ahmadpur tahsili, 29°14'K 71°4'D, Bahawalpur'un 38 mil GD'su, Sutlej'in güney kıyısında Chenab birleşiminin karşısında."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "IGI tarih vermez"
+   },
+   "gerekce": "TDV: 'UÇ' başlıklı şehir maddesi bulunamadı (başlık araması); 'MÜLTAN' maddesi (Azmi Özcan) Kabâce'yi anar, Uç'un konumunu vermez. IGI/TGN/GeoNames ≤1.5 km.",
+   "grup": "A"
+  },
+  {
+   "no": 179,
+   "bolge": "iran",
+   "tsv_yer": "Belirsiz  Şehrizor",
+   "bilesen": "Şehrizor",
+   "durum": "cozulemedi",
+   "gerekce": "Kaynak başkenti 'belirsiz' diyor; Şehrizor bir ova/bölge adı (iDAI 2783677 'Shahrizor-Ebene', archaeological-area, koordinatsız). Lullubi başkenti için yerleşim adı ve konum veren kaynak bulunamadı.",
+   "grup": "B"
+  },
+  {
+   "no": 180,
+   "bolge": "iran",
+   "tsv_yer": "Simurrum",
+   "bilesen": "Simurrum",
+   "durum": "cozulemedi",
+   "gerekce": "Pleiades (yerel CSV, ad+ad varyantları), iDAI, TGN'de Simurrum kaydı yok. Konumu Assyriology literatüründe tartışmalı (Sirwan/Diyala havzası önerileri); koordinatlı ikinci tanık bulunamadı.",
+   "grup": "B"
+  },
+  {
+   "no": 181,
+   "bolge": "iran",
+   "tsv_yer": "Firîm",
+   "bilesen": "Firîm",
+   "durum": "cozulemedi",
+   "gerekce": "TDV BÂVENDÎLER (E. Merçil): 'Merkezleri Şehriyârkûh'ta Firîm' — konum yalnız bölge düzeyinde. Pleiades/iDAI/TGN/GeoNames1000'de Firîm yok. Aday modern Farim (Dodangeh, Sari) yalnız Vikipedi'de; Firîm=Farim özdeşleştirmesini yapan akademik kaynak bulunamadı. Iranica 403 (erişilemedi).",
+   "grup": "B"
+  },
+  {
+   "no": 182,
+   "bolge": "iran",
+   "tsv_yer": "Rûyân ·  sonra",
+   "bilesen": "Rûyân",
+   "durum": "cozulemedi",
+   "gerekce": "TDV BÂDÜSBÂNÎLER Rûyân'ı Rüstemdâr/Nur/Kucur ile birlikte sayar; tarihî Rûyân esasen bir bölge adıdır. GeoNames'teki Rūyān (36.569,51.963) Nur yanındaki modern kasaba (homonim/yeniden adlandırma riski); tarihî Rûyân merkezini bu noktayla özdeşleştiren akademik kaynak bulunamadı. Iranica 403.",
+   "grup": "B"
+  },
+  {
+   "no": 183,
+   "bolge": "iran",
+   "tsv_yer": "Lafur  Lafûr",
+   "bilesen": "Lafur / Lafûr",
+   "durum": "cozulemedi",
+   "gerekce": "TDV KĀRİNÎLER: Enûşirvân'ın Kārin'e verdiği topraklar arasında 'Lafûr' sayılır (toprak/bölge adı); yerleşim konumu verilmiyor. Hiçbir gazetteer'de (Pleiades/iDAI/TGN/GeoNames1000) kayıt yok.",
+   "grup": "B"
+  },
+  {
+   "no": 184,
+   "bolge": "iran",
+   "tsv_yer": "Awan  yeri bilinmiyor",
+   "bilesen": "Awan",
+   "durum": "cozulemedi",
+   "gerekce": "TSV kendisi 'yeri bilinmiyor' diyor; Elam'daki Awan'ın konumu Assyriology'de belirsiz. Önceki turun TGN 4000987 'Avan' (40.335,44.169) kaydı Ermenistan'daki homonimdir, Elam Awan'ı değildir. Pleiades'te Awan kaydı yok.",
+   "grup": "B"
+  },
+  {
+   "no": 185,
+   "bolge": "iran",
+   "tsv_yer": "Îc  Îg",
+   "bilesen": "Îc / Îg",
+   "durum": "cift_tanik",
+   "ad": "Îc",
+   "eski_adlar": [
+    "Îg",
+    "Īj",
+    "Ig",
+    "Irej"
+   ],
+   "modern": "Īj (Eyj)",
+   "ulke": "İran",
+   "lat": 29.0214,
+   "lon": 54.2459,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (cities1000, 130809)",
+     "url": "https://www.geonames.org/130809",
+     "lat": 29.0214,
+     "lon": 54.2459,
+     "ozet": "Īj, Fars (İstahbanat), yerleşim."
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2784876",
+     "url": "https://gazetteer.dainst.org/place/2784876",
+     "lat": 29.0,
+     "lon": 54.2,
+     "ozet": "Ij: arkeolojik alan + yerleşim (yuvarlak koordinat, ~5 km)."
+    },
+    {
+     "kaynak": "H. Yule – H. Cordier, The Book of Ser Marco Polo, I, s. 384 (Toyo Bunko / NII Digital Silk Road)",
+     "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-c-30/V-1/page-hr/0384.html.ja",
+     "lat": null,
+     "lon": null,
+     "ozet": "Şebânkâre'nin başşehri Ig/Ij, Dârâb'ın yaklaşık 20 mil kuzeybatısında, büyük bir dağ kalesiyle. (Gerçek mesafe ~40 km KB; yön tutarlı, mesafe 'yaklaşık'.)"
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş/ilk anılış tarihi bulunamadı"
+   },
+   "gerekce": "GeoNames+iDAI (iDAI muhtemelen GeoNames türevi) + Yule-Cordier konum cümlesi. TDV'de Îc/Şebânkâre maddesi (sebankare) yok; ŞEBÂNKÂREÎ maddesi yalnız kişi. Iranica 403.",
+   "grup": "B"
+  },
+  {
+   "no": 186,
+   "bolge": "iran",
+   "tsv_yer": "Izirtu  Zirta",
+   "bilesen": "Izirtu / Zirta",
+   "durum": "cift_tanik",
+   "ad": "Izirtu",
+   "eski_adlar": [
+    "Zirta",
+    "Izirta",
+    "Zirtu"
+   ],
+   "modern": "Tepe Qalaichi (Qal'eh Haidar Khan), Bukan yakını",
+   "ulke": "İran",
+   "lat": 36.5702,
+   "lon": 46.275,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 884161 'Tappeh Qalaichi'",
+     "url": "https://pleiades.stoa.org/places/884161",
+     "lat": 36.570178,
+     "lon": 46.275018,
+     "ozet": "Mannai dönemine (MÖ 9-7. yy) ait tahkimli yerleşim, Bukan'ın doğusu (Haidar Khan)."
+    },
+    {
+     "kaynak": "UCLA Archaeological Gazetteer of Iran, 'Qalāichi' (Y. Hassanzadeh, 2021)",
+     "url": "https://irangazetteer.ucla.edu/catalogue/qalaychi/",
+     "lat": 36.5711,
+     "lon": 46.27492,
+     "ozet": "Bukan'ın 7 km kuzeydoğusu, kayalık üzerinde Mannai kalesi; Aramice stelde ZʾTR'nin Mannai başkenti Izirtu olarak okunduğu (Bashash Kanzaq) ve Kargar 2004 'Qalāichi: Zirtu, markaz-e Mānā' anılır."
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2768272 'Qalaichi'",
+     "url": "https://gazetteer.dainst.org/place/2768272",
+     "lat": 36.6,
+     "lon": 46.3,
+     "ozet": "Arkeolojik alan (yuvarlak koordinat)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "Asur kaynaklarında MÖ 8-7. yy anılışı biliniyor ama ilk anılış yılı tanık kaynakta yok"
+   },
+   "gerekce": "Konum kesin; Qalaichi=Izirtu özdeşleştirmesi stel okumasına dayanır ve tartışmalıdır (M. Dara stelin yerelliğini sorgular). Beyanlı özdeşleştirme olarak kullanılmalı.",
+   "grup": "B"
+  },
+  {
+   "no": 187,
+   "bolge": "iran",
+   "tsv_yer": "Rûdbâr  Alamût vadisi",
+   "bilesen": "Rûdbâr",
+   "durum": "cozulemedi",
+   "gerekce": "TDV DEYLEM: 'Deylem hükümdarları Alamut Kalesi yakınlarındaki Rûdbâr şehrinde otururlardı' — yalnız göreli konum; Rûdbâr aynı zamanda Alamut vadisinin bölge adı. Ortaçağ Rûdbâr şehrine koordinat veren kaynak bulunamadı (Gilan Rudbar'ı homonim). Yaklaşık gerekiyorsa Alamut Kalesi (satır 189) beyanla kullanılabilir.",
+   "grup": "B"
+  },
+  {
+   "no": 188,
+   "bolge": "iran",
+   "tsv_yer": "—  TDV'de belirtilmemiş",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor",
+   "grup": "B"
+  },
+  {
+   "no": 189,
+   "bolge": "iran",
+   "tsv_yer": "Alamut Kalesi  Rûdbâr",
+   "bilesen": "Alamut Kalesi",
+   "durum": "cift_tanik",
+   "ad": "Alamut Kalesi",
+   "eski_adlar": [
+    "Alamût"
+   ],
+   "modern": "Alamut (Gazor Khan yanı), Kazvin",
+   "ulke": "İran",
+   "lat": 36.4,
+   "lon": 50.6,
+   "konum_kesinligi": "yaklasik",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2750110 'Alamut castle'",
+     "url": "https://gazetteer.dainst.org/place/2750110",
+     "lat": 36.4,
+     "lon": 50.6,
+     "ozet": "Alamut kalesi, arkeolojik alan (0.1° yuvarlak koordinat)."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'ALAMUT' (Abdülkerim Özaydın), c. 2, s. 336-337, 1989",
+     "url": "https://islamansiklopedisi.org.tr/alamut",
+     "lat": null,
+     "lon": null,
+     "ozet": "Elburz üzerinde, Kazvin'in kuzeydoğusunda; Rûdhâne-i Alamut ile Tâlekān nehrinin birleştiği yerden 2, Kazvin'den 6-8 fersah uzakta, 2000 m yükseklikte kale. Koordinat bu tarifle tutarlı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "860",
+    "kaynak": "TDV ALAMUT: bir Deylem hükümdarınca kurulmuş, 246 (860) Hasan b. Zeyd tarafından yeniden inşa (ilk kuruluş tarihsiz; 860 tarihli ilk anılıştır)"
+   },
+   "gerekce": "Önceki turun Gilan Rudbar'ı (36.81,49.42) homonimdi; doğru nokta Kazvin KD'sundaki Alamut vadisi. iDAI koordinatı yuvarlak (≤~6 km); daha hassas koordinatlı bağımsız kaynak bulunamadı.",
+   "grup": "B"
+  },
+  {
+   "no": 190,
+   "bolge": "iran",
+   "tsv_yer": "Hulvân · Sîrvân Kalesi",
+   "bilesen": "Sîrvân Kalesi",
+   "durum": "cozulemedi",
+   "gerekce": "TDV ANNÂZÎLER Sîrvân Kalesi'ni yalnız adıyla anar (Ebü'ş-Şevk 437/1046'da Sîrvân'da öldü); konum yok. iDAI 'Širvan' Azerbaycan Şirvan'ı (homonim), Pleiades/TGN'de yok. Not: Hulvân (Pleiades 903043, Sarpol-e Zahab 34.465,45.856) ayrı bileşen olarak atlasta olabilir.",
+   "grup": "B"
+  },
+  {
+   "no": 191,
+   "bolge": "iran",
+   "tsv_yer": "Anşan",
+   "bilesen": "Anşan / Anshan / Tal-e Malyan",
+   "durum": "cift_tanik",
+   "ad": "Anşan",
+   "eski_adlar": [
+    "Anshan",
+    "Anzan",
+    "Anšan"
+   ],
+   "modern": "Tall-i Malyan",
+   "ulke": "İran",
+   "lat": 30.0032,
+   "lon": 52.4104,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 922729 'Tal-i Malyan/[Anzan]'",
+     "url": "https://pleiades.stoa.org/places/922729",
+     "lat": 30.003216,
+     "lon": 52.41036,
+     "ozet": "Tal-i Malyan = Anzan; Elam, MÖ 4.-3. binyıl dönemleri; kaynak Sumner 1986, RGTC."
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2749991 'Tal-e Malyān'",
+     "url": "https://gazetteer.dainst.org/place/2749991",
+     "lat": 30.0,
+     "lon": 52.4,
+     "ozet": "Arkeolojik alan (~1 km)."
+    },
+    {
+     "kaynak": "E. Reiner, 'The Location of Anšan', Revue d'Assyriologie 67 (1973), s. 57-62",
+     "url": "https://keibi.uni-tuebingen.de/Record/KEI00081841",
+     "lat": null,
+     "lon": null,
+     "ozet": "Tall-i Malyan yazıtlı tuğlalarıyla Anşan olarak özdeşleştirildi; Malyan Şiraz'ın ~50 km KKB'sında, Beyza bölgesinde (koordinat tutarlı)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "tanık kaynaklarda yıl yok (MÖ 3. binyıl yazıtlarında anıldığı biliniyor)"
+   },
+   "gerekce": "Pleiades + iDAI bağımsız koordinat, Reiner 1973 özdeşleştirme.",
+   "grup": "B"
+  },
+  {
+   "no": 192,
+   "bolge": "iran",
+   "tsv_yer": "Şemîrân Kalesi  Târum",
+   "bilesen": "Şemîrân Kalesi / Târum",
+   "durum": "cift_tanik",
+   "ad": "Şemîrân Kalesi",
+   "eski_adlar": [
+    "Semîrân",
+    "Samiran",
+    "Semiran"
+   ],
+   "modern": "Semiran (Sefidrud baraj gölü kıyısı)",
+   "ulke": "İran",
+   "lat": 36.7,
+   "lon": 49.2,
+   "konum_kesinligi": "yaklasik",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2768374 'Semiran castle' (ayrıca 2733899 'Shamiran')",
+     "url": "https://gazetteer.dainst.org/place/2768374",
+     "lat": 36.7,
+     "lon": 49.2,
+     "ozet": "Semiran kalesi, arkeolojik alan (0.1° yuvarlak)."
+    },
+    {
+     "kaynak": "A. Rostami – A. Najafi – F. Mafi, 'The study and analysis of Semiran City-Castle…', Cercetări Arheologice 30.1 (2023), s. 247-262, doi:10.46535/ca.30.1.14",
+     "url": "https://cercetari-arheologice.ro/?p=4401",
+     "lat": null,
+     "lon": null,
+     "ozet": "Semiran, Kızılüzen (Qezel Owzan) kıyısında; Sefidrud barajı gölü onu yarımadaya çevirmiş; Muhammed b. Müsâfir kaleyi üs yapmış, Sallârîler 10. yy başında ele geçirmiş. Koordinat göl alanına düşer."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'MÜSÂFİRÎLER'",
+     "url": "https://islamansiklopedisi.org.tr/musafiriler",
+     "lat": null,
+     "lon": null,
+     "ozet": "Kazvin'e bağlı Târum vilâyetindeki Şemîrân Kalesi idare merkezi (Yâkūt, Muʿcem III, 291)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "10. yy",
+    "kaynak": "Rostami vd. 2023: Sallârîler/Müsâfirîler 10. yy başında (yak. 917) ele geçirdi"
+   },
+   "gerekce": "Yalnız iDAI koordinat veriyor (yuvarlak); ikinci tanık göreli konum (Kızılüzen/Sefidrud gölü). Târum (bölge) ayrıca çözülmedi.",
+   "grup": "B"
+  },
+  {
+   "no": 193,
+   "bolge": "iran",
+   "tsv_yer": "Fûmen  Fuman",
+   "bilesen": "Fûmen / Fuman / Fumen",
+   "durum": "cift_tanik",
+   "ad": "Fûmen",
+   "eski_adlar": [
+    "Fuman",
+    "Fumen",
+    "Fowman"
+   ],
+   "modern": "Fuman",
+   "ulke": "İran",
+   "lat": 37.224,
+   "lon": 49.3125,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (cities1000, 134441)",
+     "url": "https://www.geonames.org/134441",
+     "lat": 37.224,
+     "lon": 49.3125,
+     "ozet": "Fūman, Gilan, ilçe merkezi."
+    },
+    {
+     "kaynak": "Getty TGN 1079090 'Fowman'",
+     "url": "http://vocab.getty.edu/tgn/1079090",
+     "lat": 37.25,
+     "lon": 49.3167,
+     "ozet": "Fowman, Gīlān (~3 km)."
+    },
+    {
+     "kaynak": "Encyclopaedia Iranica, 'FUMAN' (arama dizini özeti; doğrudan GET 403)",
+     "url": "https://www.iranicaonline.org/articles/fuman",
+     "lat": null,
+     "lon": null,
+     "ozet": "Batı Gilan'da kasaba; Rişt'in 21 km BGB'sında, Gâzrûdbâr'ın sol kıyısında; 660-761 Dâbûyîler'in ikametgâhı. Koordinat tutarlı (~24 km BGB)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kuruluş tarihi yok; Iranica 660-761 Dâbûyî ikametgâhı der (ilk anılış değil)"
+   },
+   "gerekce": "Önceki turun 'homonim' uyarısı: Pleiades 641191179 'Fouman' unlocated (37.50,49.50 kaba nokta), ayrı yer değil. Gilan Fuman'ı tek aday. Iranica içeriği arama dizininden okundu (site 403).",
+   "grup": "B"
+  },
+  {
+   "no": 194,
+   "bolge": "iran",
+   "tsv_yer": "Sinendec  Sanandaj",
+   "bilesen": "Sinendec / Sanandaj / Sinneh",
+   "durum": "cift_tanik",
+   "ad": "Sinendec",
+   "eski_adlar": [
+    "Sanandaj",
+    "Sinneh",
+    "Sine"
+   ],
+   "modern": "Sanandaj",
+   "ulke": "İran",
+   "lat": 35.31495,
+   "lon": 46.99883,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (cities1000, 117574)",
+     "url": "https://www.geonames.org/117574",
+     "lat": 35.31495,
+     "lon": 46.99883,
+     "ozet": "Sanandaj, PPLA (Kürdistan eyaleti merkezi)."
+    },
+    {
+     "kaynak": "Getty TGN 1079298 'Sanandaj'",
+     "url": "http://vocab.getty.edu/tgn/1079298",
+     "lat": 35.3,
+     "lon": 47.0167,
+     "ozet": "Sanandaj, Iranian Kurdistan (~2 km)."
+    },
+    {
+     "kaynak": "Encyclopaedia Britannica, 'Sanandaj' (arama dizini özeti; doğrudan GET 403)",
+     "url": "https://www.britannica.com/place/Sanandaj",
+     "lat": null,
+     "lon": null,
+     "ozet": "Kordestan eyaletinin merkezi, kuzeybatı İran — GeoNames PPLA ile tutarlı."
+    },
+    {
+     "kaynak": "Encyclopaedia Iranica, 'BANĪ ARDALĀN' (arama dizini özeti)",
+     "url": "https://www.iranicaonline.org/articles/bani-ardalan",
+     "lat": null,
+     "lon": null,
+     "ozet": "Erdelânlar Sanandaj'ı başşehir olarak kullandı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "1636-37 kuruluş yalnız Vikipedi'de; akademik tanıkta tarih bulunamadı"
+   },
+   "gerekce": "GeoNames+TGN (GNS türevi olabilir) + Britannica il-merkezi tanımı. TDV'de Sine/Senendec maddesi bulunamadı (slug 302→arama). iDAI 2402304 koordinatı GeoNames ile birebir (türev).",
+   "grup": "B"
+  },
+  {
+   "no": 195,
+   "bolge": "iran",
+   "tsv_yer": "Marubishti",
+   "bilesen": "Marubishti",
+   "durum": "cozulemedi",
+   "gerekce": "Ellipi başkenti Marubišti Asur kaynaklarından bilinir, yeri tespit edilmemiştir; Pleiades/iDAI/TGN'de kayıt yok, koordinatlı akademik tanık bulunamadı.",
+   "grup": "B"
+  },
+  {
+   "no": 196,
+   "bolge": "iran",
+   "tsv_yer": "Kerec",
+   "bilesen": "Kerec",
+   "durum": "cozulemedi",
+   "gerekce": "TDV EBÛ DÜLEF el-İCLÎ: Ebû Dülef Kerec Kalesi'ni büyük şehre çevirdi, adı Kerecü Ebû Dülef oldu — konum yok. Eftekhari 2019 (Iranian Studies 5/2): 'İsfahan ile Hemedan arasında' (göreli). UCLA Gazetteer 'Mashhad-e Zolfabad' (Farmahin, 34.512,49.642) Ebû Dülef'in Dülefâbâd'ıdır, Kerec ile özdeşleştirilmez. Kalıntı yeri kaynakla belirlenemedi; modern Karaj (Tahran) homonimdir.",
+   "grup": "B"
+  },
+  {
+   "no": 202,
+   "bolge": "kafkasya",
+   "tsv_yer": "Gazaka  Ganzak",
+   "bilesen": "Gazaka / Ganzak",
+   "durum": "cift_tanik",
+   "ad": "Gazaka",
+   "eski_adlar": [
+    "Ganzak",
+    "Gazaca",
+    "Gazae",
+    "Phisganzaga"
+   ],
+   "modern": "Leylan yakını (Miyandoab ovası)",
+   "ulke": "İran",
+   "lat": 37.0123,
+   "lon": 46.2019,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 884148 'Ganzak?/Gazaca?/Gazae?'",
+     "url": "https://pleiades.stoa.org/places/884148",
+     "lat": 37.012264,
+     "lon": 46.201883,
+     "ozet": "BAtlas 90 B3; Barrington notu 'Leilan'; kaynak Minorsky 1964, Schottky 1989."
+    },
+    {
+     "kaynak": "GeoNames (cities1000, 125710) 'Leylān'",
+     "url": "https://www.geonames.org/125710",
+     "lat": 37.01099,
+     "lon": 46.2065,
+     "ozet": "Modern Leylan kasabası (~0.4 km) — özdeşleştirilen höyüklerin yanındaki yer."
+    },
+    {
+     "kaynak": "Encyclopaedia Iranica, 'GANZAK' (arama dizini özeti; doğrudan GET 403)",
+     "url": "https://www.iranicaonline.org/articles/ganzak-",
+     "lat": null,
+     "lon": null,
+     "ozet": "Yeri Miyandoab ovasında Laylān yakınındaki büyük höyüklerle özdeşleştirilmiştir (Minorsky, s. 244 n.2, 254)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "tanık kaynakta kuruluş yılı yok"
+   },
+   "gerekce": "Özdeşleştirme 'muhtemel' (Pleiades başlığında '?'); Takht-e Soleyman (Šiz) ile karıştırılmamalı. Iranica içeriği arama dizininden okundu.",
+   "grup": "B"
+  },
+  {
+   "no": 203,
+   "bolge": "kafkasya",
+   "tsv_yer": "Aia",
+   "bilesen": "Aia",
+   "durum": "cozulemedi",
+   "gerekce": "Aia Argonaut mitinin Kolkhis başkentidir; Pleiades 857014 'Aia/Nesos' bir harita etiketi (label), yerleşim değil; öteki Pleiades Aia kayıtları unlocated. Gerçek bir yerleşimle (Kutaisi/Vani önerileri) özdeşleştiren çift tanık bulunamadı.",
+   "grup": "B"
+  },
+  {
+   "no": 204,
+   "bolge": "kafkasya",
+   "tsv_yer": "Arkheopolis",
+   "bilesen": "Arkheopolis",
+   "durum": "cift_tanik",
+   "ad": "Arkheopolis",
+   "eski_adlar": [
+    "Archaeopolis",
+    "Archaiopolis",
+    "Tsikhegoji"
+   ],
+   "modern": "Nokalakevi",
+   "ulke": "Gürcistan",
+   "lat": 42.357222,
+   "lon": 42.193889,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 857041 'Archaiopolis'",
+     "url": "https://pleiades.stoa.org/places/857041",
+     "lat": 42.357222,
+     "lon": 42.193889,
+     "ozet": "BAtlas 87 H2; Barrington notu Nokalakevi; uydu görüntüsünden konum."
+    },
+    {
+     "kaynak": "P. Everill vd., 'Nokalakevi-Archaeopolis: ten years of Anglo-Georgian collaboration', Antiquity 84/326 (2010), Project Gallery",
+     "url": "https://www.antiquity.ac.uk/projgall/everill326",
+     "lat": null,
+     "lon": null,
+     "ozet": "Kale Senaki'nin 15 km uzağında, Martvili yolunda, Tekhuri kıyısında, Samegrelo; Dubois de Montpéreux'nün Archaeopolis özdeşleştirmesi Schneider 1931 kazısıyla doğrulandı. Koordinat Senaki'ye ~14 km — tutarlı."
+    },
+    {
+     "kaynak": "P. Everill (ed.), Nokalakevi • Tsikhegoji • Archaeopolis, BAR S2612 (2014)",
+     "url": "https://www.barpublishing.com/?p=30051",
+     "lat": null,
+     "lon": null,
+     "ozet": "Bizanslıların Archaeopolis'i, Lazika-Egrisi başkenti; 4-6. yy büyük kale."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "MÖ 8. yy",
+    "kaynak": "Everill vd. 2010 (Lomitashvili 1993, 2003'e atfen): MÖ 8.-2. yy erken iskân evreleri"
+   },
+   "gerekce": "Pleiades koordinatı + Antiquity makalesi konum tarifi.",
+   "grup": "B"
+  },
+  {
+   "no": 205,
+   "bolge": "kafkasya",
+   "tsv_yer": "Armavir -> Yervandaşat",
+   "bilesen": "Yervandaşat",
+   "durum": "cift_tanik",
+   "ad": "Yervandaşat",
+   "eski_adlar": [
+    "Eruandashat",
+    "Ervandashat",
+    "Eruandašat",
+    "Marmet"
+   ],
+   "modern": "Yervandashat harabesi (Aras-Ahuryan birleşimi)",
+   "ulke": "Ermenistan (Türkiye sınırı, Aras kıyısı)",
+   "lat": 40.117492,
+   "lon": 43.653036,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 863787 'Eruandashat'",
+     "url": "https://pleiades.stoa.org/places/863787",
+     "lat": 40.117492,
+     "lon": 43.653036,
+     "ozet": "BAtlas 88 B4; DARMC konumu; Helenistik-Roma-Geç Antik."
+    },
+    {
+     "kaynak": "Encyclopaedia Iranica, 'ERUANDAŠAT' (arama dizini özeti; doğrudan GET 403)",
+     "url": "https://www.iranicaonline.org/articles/eruandasat",
+     "lat": null,
+     "lon": null,
+     "ozet": "Ahuryan ile Aras'ın birleştiği yerde kayalık tepe üzerinde; harabeleri Bakhchalar ve Kherbeklu köyleri arasında. Pleiades noktası birleşim yerine ~2 km."
+    },
+    {
+     "kaynak": "S. Muradyan, Haigazian Armenological Review 2020, s. 253-266, doi:10.62811/har.artc.sm.2020; aynı yazar Aramazd 18 (2024/2025) s. 142-158",
+     "url": "https://haigrepository.haigazian.edu.lb/items/090401ca-6192-4b7b-8a11-d3a6adbccae0/full",
+     "lat": null,
+     "lon": null,
+     "ozet": "Yervandaşat saray kompleksi kazıları; Son Yervand başkenti Armavir'den buraya taşıdı; Aras ötesi bölge."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "MÖ 3. yy sonu kuruluş Vikipedi'de; akademik tanıkta yıl okunamadı"
+   },
+   "gerekce": "Pleiades Barrington notu 'TKY' der; nokta Aras'ın kuzey (Ermenistan) yakasında görünüyor — ülke beyanı doğrulanmalı. Iranica içeriği arama dizininden okundu.",
+   "grup": "B"
+  },
+  {
+   "no": 206,
+   "bolge": "kafkasya",
+   "tsv_yer": "bilinmiyor",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor",
+   "grup": "B"
+  },
+  {
+   "no": 207,
+   "bolge": "kafkasya",
+   "tsv_yer": "Gardman",
+   "bilesen": "Gardman",
+   "durum": "cozulemedi",
+   "gerekce": "Pleiades/iDAI/TGN/GeoNames1000'de Gardman kalesi yok; konumu (Şemkir/Gedebey yöresi) literatürde tartışmalı; koordinatlı tanık bulunamadı. Iranica 403.",
+   "grup": "B"
+  },
+  {
+   "no": 208,
+   "bolge": "kafkasya",
+   "tsv_yer": "Lori",
+   "bilesen": "Lori",
+   "durum": "cift_tanik",
+   "ad": "Lori",
+   "eski_adlar": [
+    "Lori Berd",
+    "Lore"
+   ],
+   "modern": "Lori Berd (Stepanavan yanı)",
+   "ulke": "Ermenistan",
+   "lat": 41.0021,
+   "lon": 44.4306,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 891583977 'Lori Berd fortress'",
+     "url": "https://pleiades.stoa.org/places/891583977",
+     "lat": 41.002085,
+     "lon": 44.430596,
+     "ozet": "Lori Berd köyü yanında 1065'te inşa edilmiş kale (OSM poligonu)."
+    },
+    {
+     "kaynak": "Getty TGN 7594780 'Lori Berd'",
+     "url": "http://vocab.getty.edu/tgn/7594780",
+     "lat": 41.013547,
+     "lon": 44.413425,
+     "ozet": "Lori Berd, Lori ili, Ermenistan (~2 km)."
+    },
+    {
+     "kaynak": "iDAI.gazetteer 1000223 'Lori Berd'",
+     "url": "https://gazetteer.dainst.org/place/1000223",
+     "lat": 41.0,
+     "lon": 44.4,
+     "ozet": "Arkeolojik alan."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "1065",
+    "kaynak": "Pleiades 891583977: kale 1065'te inşa"
+   },
+   "gerekce": "Önceki turun Ardahan/Yokuşdibi noktası homonimdi; Lori (Taşir-Dzoraget) krallığı merkezi Lori Berd.",
+   "grup": "B"
+  },
+  {
+   "no": 209,
+   "bolge": "kafkasya",
+   "tsv_yer": "Bezz",
+   "bilesen": "Bezz",
+   "durum": "cozulemedi",
+   "gerekce": "TDV BÂBEK: Bezz isyanın merkezi, Dervez'e 9,5 km — mutlak konum yok. Kaleybar yakınındaki 'Babek Kalesi' özdeşleştirmesi yalnız Vikipedi/turizm kaynaklarında, kaleye koordinat veren gazetteer yok (iDAI yalnız Kaleybar kasabası 38.865,47.039). Iranica BAḎḎ 403.",
+   "grup": "B"
+  },
+  {
+   "no": 221,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Hamazi",
+   "bilesen": "Hamazi",
+   "durum": "cozulemedi",
+   "gerekce": "Konumu bilinmiyor: Pleiades yerel CSV, TGN, iDAI, GeoNames ve CDLI provenience listesinde Hamazi kaydı yok; Zagros/Diyala yönünde olduğu yalnız genel olarak söyleniyor, iki akademik kaynağın gösterdiği somut bir tell yok.",
+   "grup": "C"
+  },
+  {
+   "no": 222,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Charax Spasinou",
+   "bilesen": "Charax Spasinou",
+   "durum": "cift_tanik",
+   "ad": "Charax Spasinou",
+   "eski_adlar": [
+    "Alexandria",
+    "Antiochia",
+    "Spasinou Charax",
+    "Kerh Meysân (Karkh Maisan)"
+   ],
+   "modern": "Jebel Khayabir (Naysan)",
+   "ulke": "Irak",
+   "lat": 30.85,
+   "lon": 47.57,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/912872",
+     "lat": 30.8093425,
+     "lon": 47.562804,
+     "ozet": "Jebel Khayabir yakınındaki höyük; Karakene'nin başkenti Spasinou Charax ile özdeşleştiriliyor; İskender'in bir Alexandria'sı olarak kurulmuş, IV. Antiokhos'la Antiocheia diye yeniden kurulmuş olabilir."
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7025859",
+     "lat": 30.894,
+     "lon": 47.578,
+     "ozet": "Charax, Basra ili, Irak (Pleiades noktasına ~9.5 km)."
+    },
+    {
+     "kaynak": "GeoNames (Jabal Khaybar / Jabal Khayābir, hill)",
+     "url": "https://www.geonames.org/search.html?q=khayabir&country=IQ",
+     "lat": 30.896727,
+     "lon": 47.56611,
+     "ozet": "Şehrin üstüne kurulduğu Jabal Khayābir tepesi, Basra ili, el-Kurna kazası."
+    },
+    {
+     "kaynak": "J. Moon vd., Charax Spasinou pilot survey raporu (2016; University of Manchester / SBAH)",
+     "url": "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/IndOc-Gulf/CharaxSpasinou-Moon2016.pdf",
+     "lat": null,
+     "lon": null,
+     "ozet": "Şehir 1965'te Basra yakınındaki modern Jebel Khayaber ile özdeşleştirildi; 2016 yüzey araştırması siteyi ilk sistemli çalışma olarak belgeledi; surlar ~5 km² alan çevreliyor."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "MÖ 4. yy sonu",
+    "kaynak": "Pleiades 912872: İskender'in Alexandria'sı olarak kurulmuş olabilir (kesin değil)"
+   },
+   "gerekce": "Üç koordinat (Pleiades, TGN, GeoNames) 10 km içinde; nokta üçünün ortası. Surlu alan ~5 km² olduğundan yaklaşık. Pleiades başlığı özdeşliği '?' ile veriyor ama Moon 2016 özdeşliği yerleşik kabul ediyor.",
+   "grup": "C"
+  },
+  {
+   "no": 223,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Hira civari",
+   "bilesen": "Hîre",
+   "durum": "cozulemedi",
+   "gerekce": "Aday Hîre (Hira) atlasta zaten var: data/yerlesimler_once1281_yt_ortadogu.js satır 122 (ad:'Hîre', 32.0, 44.41). Yeniden çözülmedi; Tanûhîler başkenti olarak bu kayda bağlanmalı.",
+   "grup": "C"
+  },
+  {
+   "no": 224,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Adab  Bismaya",
+   "bilesen": "Adab / Bismaya",
+   "durum": "cift_tanik",
+   "ad": "Adab",
+   "eski_adlar": [
+    "Adab",
+    "Udnun"
+   ],
+   "modern": "Bismaya (Bismāyah)",
+   "ulke": "Irak",
+   "lat": 31.9509,
+   "lon": 45.6233,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/787747618",
+     "lat": 31.9509002901,
+     "lon": 45.6233387514,
+     "ozet": "Bismaya, antik Adab; güney Irak'ta büyük höyük, el-Kût'un ~65 km güneyi; Banks 1903-05 kazısı."
+    },
+    {
+     "kaynak": "GeoNames (Bismāyah, بسمايه, locality, Kadisiye ili)",
+     "url": "https://www.geonames.org/search.html?q=bismayah",
+     "lat": 31.951644,
+     "lon": 45.628335,
+     "ozet": "Kadisiye ilinde Bismāyah yer adı; Pleiades noktasına ~0.5 km."
+    },
+    {
+     "kaynak": "N. Marchetti vd., 'New Results on Ancient Settlement Patterns in the South-Eastern Qadisiyah Region', Al-Adab Journal 123 (2017), 45-62",
+     "url": "https://site.unibo.it/eduu/en/work-package-1-archaeological-cultural-and-environmental-research/results/new-results-on-ancient-settlement-patterns-1.pdf/@@download/file/NEW%20RESULTS%20ON%20ANCIENT%20SETTLEMENT%20PATTERNS(1).pdf",
+     "lat": null,
+     "lon": null,
+     "ozet": "QADIS yüzey araştırması alanı güneydoğu Kadisiye'de Bismaya/Adab'a kadar uzanıyor; Bismaya/Adab'da SBAH kazıları (2001-2002)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "MÖ 3. binyıl",
+    "kaynak": "Pleiades 787747618: kazı kalıntıları ağırlıkla MÖ 3. binyıl ve erken 2. binyıla ait"
+   },
+   "gerekce": "HOMONİM: Bağdat/Medâin kazasındaki ikinci 'Bismāyah' harabesi (GeoNames 33.233,44.6; Pleiades 894128) ayrı yerdir, alınmadı. Pleiades'te BAtlas kaynaklı ikinci 'Tell Bismaya' (894129; 32.41,45.65) ve TGN 7002486 (31.983,45.75; ~12.5 km doğu) sapıyor; CDLI provenience 252 Pleiades'le birebir aynı (türev, tanık sayılmadı).",
+   "grup": "C"
+  },
+  {
+   "no": 225,
+   "bolge": "mezopotamya",
+   "tsv_yer": "belirsiz  guney bataklik",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('belirsiz, güney bataklık'); Birinci Deniz Ülkesi hanedanının merkezi bilinmiyor.",
+   "grup": "C"
+  },
+  {
+   "no": 226,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Dur-Yakin",
+   "bilesen": "Dur-Yakin",
+   "durum": "cozulemedi",
+   "gerekce": "Pleiades 912953 Tell al-Lahm'ı yalnız 'muhtemelen' Dur-Yakin, Duru(m) ya da Kissik ile özdeşleştiriyor; GeoNames Īshān Tall al-Laḩm (30.7743,46.3657) yalnız tell'in koordinatını veriyor, özdeşliği değil. Özdeşliği somut olarak teyit eden ikinci bağımsız akademik kaynak bulunamadı.",
+   "grup": "C"
+  },
+  {
+   "no": 227,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Babil civari",
+   "bilesen": "Babil",
+   "durum": "cozulemedi",
+   "gerekce": "Aday Babil atlasta zaten var: data/yerlesimler_mo_zincir.js satır 7 (ad:'Babil'). Yeniden çözülmedi; Bit-Amukani 'Babil civarı' olarak bu kayda bağlanabilir, ama aşiret merkezinin kendisi kaynakta adlandırılmıyor.",
+   "grup": "C"
+  },
+  {
+   "no": 228,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Belirsiz  Babil çevresi",
+   "bilesen": "Babil",
+   "durum": "ayni",
+   "ayni_no": 227,
+   "gerekce": "Aynı aday Babil (atlasta var); Bit-Dakkuri merkezi kaynakta adlandırılmıyor.",
+   "grup": "C"
+  },
+  {
+   "no": 229,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Vassukanni  konum belirsiz",
+   "bilesen": "Vassukanni",
+   "durum": "cozulemedi",
+   "gerekce": "Konumu bilinmiyor. Habur kaynağı bölgesindeki Tell Fekheriye (Pleiades 413537087 bu tell'i Sikkan olarak veriyor, Vassukanni değil) yalnız aday; kazılar özdeşliği kanıtlamadı. İki akademik kaynağın kesinleştirdiği somut bir tell yok, TSV dizesi de 'konum belirsiz' diyor.",
+   "grup": "C"
+  },
+  {
+   "no": 230,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Muşaşir",
+   "bilesen": "Muşaşir",
+   "durum": "cozulemedi",
+   "gerekce": "Pleiades 126728263 'kesin konum bilinmiyor' diyor, Mergasur'u (36.84,44.30; GeoNames Mêrgasur ilçe merkezi) yalnız 'geçici olarak' öneriyor; İran tarafında Rabat Tepe (Sidakan yakını) da önerildi. Konum tartışmalı; iki bağımsız kaynağın teyit ettiği tek yer yok.",
+   "grup": "C"
+  },
+  {
+   "no": 231,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Agade  konum bilinmiyor",
+   "bilesen": "Agade",
+   "durum": "cozulemedi",
+   "gerekce": "Konumu bilinmiyor: Pleiades 63806066 'unlocated' kaydı (32.5,44.5) sembolik bölge noktası; Dicle-Diyala birleşimi civarı yalnız varsayım. CDLI'de koordinatlı Agade kaydı yok. Somut bir tell yok.",
+   "grup": "C"
+  },
+  {
+   "no": 232,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Nîl",
+   "bilesen": "Nîl",
+   "durum": "cift_tanik",
+   "ad": "Nîl",
+   "eski_adlar": [
+    "en-Nîl",
+    "Niliyah"
+   ],
+   "modern": "Tall an-Nīlīyah (harabe)",
+   "ulke": "Irak",
+   "lat": 32.4604,
+   "lon": 44.8556,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (Tall an Nīlīyah, تل النيلية, hill, Babil ili, Mahâvil kazası)",
+     "url": "https://www.geonames.org/search.html?q=niliyah&country=IQ",
+     "lat": 32.460361,
+     "lon": 44.855571,
+     "ozet": "Babil ilinde Tall an-Nīlīyah tepesi."
+    },
+    {
+     "kaynak": "G. Le Strange, The Lands of the Eastern Caliphate (Cambridge UP, 1905), s. 72-73",
+     "url": "https://archive.org/details/landsofeasternca00lest",
+     "lat": null,
+     "lon": null,
+     "ozet": "Nîl şehrini Haccâc kurdu, bölgenin başlıca şehri oldu, harabesi haritalarda 'Niliyah' adıyla gösteriliyor; şehir Babil'in yukarısında Sûrâ'dan ayrılıp doğuya, Dicle'ye (Nu'mâniye karşısı) akan Nîl kanalının üstünde."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'MEZYEDÎLER' maddesi",
+     "url": "https://islamansiklopedisi.org.tr/mezyediler",
+     "lat": null,
+     "lon": null,
+     "ozet": "Mezyedîler 1102'de Hille'yi merkez edinmeden önce Nîl, Fellûce ve Câmiayn'da göçebe olarak yaşıyordu; 997'de Ali b. Mezyed muhtemelen Nîl'i de içine alan toprakların emîri tanındı (konum vermiyor)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "Le Strange 1905, s. 73: kurucusu Haccâc; yıl verilmiyor"
+   },
+   "gerekce": "Le Strange harabeyi adıyla 'Niliyah' diye tanımlıyor; GeoNames Tall an-Nīlīyah Babil'in doğusunda, kanal güzergâhıyla tutarlı. Ölçü kesin değil, o yüzden yaklaşık. HOMONİM: modern Nāḩiyat an-Nīl nahiye merkezi (32.5415,44.5459) ~30 km batıda; adı kanaldan alıyor, harabe değil, alınmadı.",
+   "grup": "C"
+  },
+  {
+   "no": 233,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Kazallu",
+   "bilesen": "Kazallu",
+   "durum": "cozulemedi",
+   "gerekce": "Konumu bilinmiyor: Pleiades, TGN, iDAI, GeoNames ve CDLI provenience listesinde koordinatlı Kazallu kaydı yok; Marad yakını olduğu tahmin ediliyor ama somut bir tell önerisi iki kaynakta yok.",
+   "grup": "C"
+  },
+  {
+   "no": 234,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Akşak",
+   "bilesen": "Akşak",
+   "durum": "cozulemedi",
+   "gerekce": "Konumu bilinmiyor: Pleiades, TGN, iDAI, GeoNames ve CDLI'de koordinatlı Akšak kaydı yok. Opis'le özdeşliği ya da Dicle-Diyala birleşimi çevresi yalnız varsayım; iki kaynağın gösterdiği somut bir tell yok.",
+   "grup": "C"
+  },
+  {
+   "no": 235,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Vâsit civari",
+   "bilesen": "Vâsıt",
+   "durum": "cozulemedi",
+   "gerekce": "Aday Vâsıt atlasta zaten var: data/yerlesimler.js satır 1935 (ad:'Vâsıt'). Yeniden çözülmedi; Batâih emirliği 'Vâsıt civarı' olarak bu kayda bağlanabilir. Batâih'in kendi merkezi (TDV 'batiha' maddesi) bu turda aranmadı.",
+   "grup": "C"
+  },
+  {
+   "no": 236,
+   "bolge": "mezopotamya",
+   "tsv_yer": "belirsiz  Adab olasi",
+   "bilesen": "Adab",
+   "durum": "ayni",
+   "ayni_no": 224,
+   "gerekce": "TSV adayı Adab, satır 224'te çözüldü. Gutium merkezinin Adab olduğu kaynaklı değil ('belirsiz, olası').",
+   "grup": "C"
+  },
+  {
+   "no": 237,
+   "bolge": "mezopotamya",
+   "tsv_yer": "Muhtâre",
+   "bilesen": "Muhtâre",
+   "durum": "cozulemedi",
+   "gerekce": "TDV 'ZENC' maddesi yalnız 'Aşağı Mezopotamya bataklıklarında Muhtâre adıyla bir şehir' diyor; Le Strange (1905, s. 48) Basra'nın güneyinde Nehr Ebi'l-Hasîb üstünde olduğunu söylüyor. Kalıntı yeri tespit edilmemiş, hiçbir gazetteer'de koordinat yok. Yaklaşık nokta için abi merkez Basra / Ebu'l-Hasib kullanılabilir, ama bu turda yazılmadı.",
+   "grup": "C"
+  },
+  {
+   "no": 286,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Arvad  Arados",
+   "bilesen": "Arvad",
+   "durum": "cift_tanik",
+   "ad": "Arvad",
+   "eski_adlar": [
+    "Arados",
+    "Arwada",
+    "Ruad"
+   ],
+   "modern": "Arwad",
+   "ulke": "Suriye",
+   "lat": 34.8562,
+   "lon": 35.8585,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/668197",
+     "lat": 34.8575864737,
+     "lon": 35.859431307,
+     "ozet": "Arados (modern Arwad) Ruad adasında; ada MÖ 2. binyılda Fenikelilerce iskân edildi."
+    },
+    {
+     "kaynak": "GeoNames (Arwād, PPLA3)",
+     "url": "https://www.geonames.org/172880",
+     "lat": 34.85604,
+     "lon": 35.85854,
+     "ozet": "Arwād ada kasabası, Tartus ili, Suriye; Pleiades noktasına ~0.2 km."
+    },
+    {
+     "kaynak": "Pleiades (Citadel of Arwad)",
+     "url": "https://pleiades.stoa.org/places/523291015",
+     "lat": 34.8564321649,
+     "lon": 35.857438848,
+     "ozet": "Adadaki kale (13. yy), ada merkezini doğruluyor."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "MÖ 2. binyıl",
+    "kaynak": "Pleiades 668197: ada MÖ 2. binyılda Fenikelilerce iskân edildi"
+   },
+   "gerekce": "ADA YERİ: koordinat adanın ortasından (Pleiades, GeoNames ve kalenin ortalaması); ada ~0.8 km uzunlukta, Tartus kıyısından ~3 km açıkta. Atlasın kara maskesine düşmeyebilir; önceki tur nokta ana karaya kayıyor diye reddetmişti. Ana karaya TAŞINMAMALI, maske ada için genişletilmeli ya da ada istisnası yazılmalı.",
+   "grup": "C"
+  },
+  {
+   "no": 287,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Bozra  Busayra",
+   "bilesen": "Bozra / Busayra / Bozrah / Buseirah",
+   "durum": "cift_tanik",
+   "ad": "Bozra",
+   "eski_adlar": [
+    "Bozrah",
+    "Bosra (Edom)"
+   ],
+   "modern": "Busayra (Buşayrā)",
+   "ulke": "Ürdün",
+   "lat": 30.7326,
+   "lon": 35.6094,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (Buşayrā, PPLA2, Tafile ili)",
+     "url": "https://www.geonames.org/249842",
+     "lat": 30.73256,
+     "lon": 35.60943,
+     "ozet": "Busayra kasabası, Tafile ili, Ürdün; höyük kasabanın bitişiğinde."
+    },
+    {
+     "kaynak": "Encyclopaedia Judaica, 'Bozrah' maddesi (Jewish Virtual Library'de)",
+     "url": "https://www.jewishvirtuallibrary.org/bozrah",
+     "lat": null,
+     "lon": null,
+     "ozet": "Edom'un Bozrah'ı: kalıntılar halkın Buṣayra dediği yerde, Tafile'nin 10 km güneyinde; Glueck yüzey araştırması yaptı, C.M. Bennett 1971-74 ve 1980'de kazdı; Demir Çağı II'de büyük Edom yerleşimi."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "Demir Çağı II",
+    "kaynak": "Encyclopaedia Judaica 'Bozrah': kazılar Demir Çağı II'de büyük Edom yerleşimi ortaya çıkardı"
+   },
+   "gerekce": "Tafile (30.84,35.60) → Busayra ~11.6 km güney; EJ '10 km güney' ile tutarlı. HOMONİM: Suriye'deki el-Busayra (Circesium, 35.16,40.43) ve Havran'daki Bostra/Bosra ayrı yerlerdir, alınmadı.",
+   "grup": "C"
+  },
+  {
+   "no": 288,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "belirsiz  Cabiye",
+   "bilesen": "Câbiye",
+   "durum": "cift_tanik",
+   "ad": "Câbiye",
+   "eski_adlar": [
+    "el-Câbiye",
+    "Câbiyetülcevlân",
+    "Câbiyetülmülûk"
+   ],
+   "modern": "Tall al-Jābiyah / Khirbat al-Jābiyah",
+   "ulke": "Suriye",
+   "lat": 32.9199,
+   "lon": 35.9999,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (Tall al Jābiyah, Tell ej Jabiye, hill, Dera ili)",
+     "url": "https://www.geonames.org/search.html?q=jabiyah&country=SY",
+     "lat": 32.919896,
+     "lon": 35.99995,
+     "ozet": "Tall al-Jābiyah; hemen yanında Khirbat al-Jābiyah (32.9419,36.0122) ve 'Uyūn al-Jābiyah pınarları."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'CÂBİYE' maddesi (Mustafa Fayda, 1992)",
+     "url": "https://islamansiklopedisi.org.tr/cabiye",
+     "lat": null,
+     "lon": null,
+     "ozet": "Dımaşk'ın 80 km kadar güneybatısında, Havran bölgesinde Cevlân'da, bugünkü Nevâ'ya çok yakın kurulmuş şehir; Câhiliye'de Gassânîler'in idarî merkezlerinden biri olduğu için Câbiyetülmülûk diye de bilinir."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "TDV 'CÂBİYE': Câhiliye döneminde Gassânî idarî merkezi; yıl verilmiyor"
+   },
+   "gerekce": "Tutarlılık: Dımaşk (33.51,36.29) → Tall al-Jābiyah ~71 km GB (TDV 'kadar 80 km'); Nevâ (32.886,36.039) ~5 km. TSV 'belirsiz' diyor; Gassânîlerin tek başkenti değil, idarî merkezlerinden biri (TDV).",
+   "grup": "C"
+  },
+  {
+   "no": 289,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Sekem → Tirsa → Samiriye",
+   "bilesen": "Tirsa / Tirzah / Tell el-Far'ah / Tell el-Farah",
+   "durum": "cift_tanik",
+   "ad": "Tirsa",
+   "eski_adlar": [
+    "Tirzah"
+   ],
+   "modern": "Tell el-Far'ah (Kuzey)",
+   "ulke": "Filistin (Batı Şeria)",
+   "lat": 32.2873,
+   "lon": 35.3379,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/589744740",
+     "lat": 32.2871958765,
+     "lon": 35.337892338,
+     "ozet": "Nablus'un kuzeydoğusundaki Tell el-Far'ah (Kuzey), İncil'deki Tirzah ile özdeşleştiriliyor; Neolitik'ten Demir Çağı'na yerleşim."
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/8724710",
+     "lat": 32.2874,
+     "lon": 35.3378,
+     "ozet": "Tell El-Far'ah North, Batı Şeria (Pleiades'e ~0.02 km)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "Neolitik",
+    "kaynak": "Pleiades 589744740: tell'de Neolitik'ten Demir Çağı'na yerleşim izi"
+   },
+   "gerekce": "HOMONİM: güneydeki Tell el-Far'ah (Gazze, TGN 7593949) ve Suriye'deki Tall Fa'rah ayrı yerlerdir; Kuzey tell'i alındı.",
+   "grup": "C"
+  },
+  {
+   "no": 290,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Arvad",
+   "bilesen": "Arvad",
+   "durum": "ayni",
+   "ayni_no": 286,
+   "grup": "C"
+  },
+  {
+   "no": 291,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Ugulzat?  Tell Khan Sheykhun",
+   "bilesen": "Ugulzat / Tell Khan Sheykhun",
+   "durum": "cozulemedi",
+   "gerekce": "Ugulzat'ın Tell Khan Şeyhun'la özdeşliği TSV'de de '?' ile yazılmış bir öneri. Pleiades, TGN ve iDAI'de Ugulzat yok; GeoNames yalnız modern Khān Shaykhūn kasabasını (35.442,36.651) veriyor, tell'i ya da Nuhašše başkentiyle bağını değil. İki bağımsız kaynakla teyit edilemedi.",
+   "grup": "C"
+  },
+  {
+   "no": 292,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Kalkis  Chalcis ad Libanum?",
+   "bilesen": "Kalkis",
+   "durum": "cozulemedi",
+   "gerekce": "Chalcis ad Libanum'un yeri tartışmalı. Pleiades 678086 'Chalcis sub Libano'yu BAtlas 69 D2'ye göre 33.958,36.242'ye koyuyor; önceki tur Anjar'ı (33.728,35.931; GeoNames Aanjar) önermişti. İkisi ~38 km ayrık. Tek bir yeri gösteren iki bağımsız kaynak yok.",
+   "grup": "C"
+  },
+  {
+   "no": 293,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Gibea → Hebron → Urusalim",
+   "bilesen": "Gibea / Gibeah / Tell el-Ful / Tell el-Fûl",
+   "durum": "cift_tanik",
+   "ad": "Gibea",
+   "eski_adlar": [
+    "Gibeah",
+    "Gibeat Şaul"
+   ],
+   "modern": "Tell el-Fûl (Tall al-Fūl)",
+   "ulke": "Filistin (Doğu Kudüs)",
+   "lat": 31.8235,
+   "lon": 35.2311,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/749935552",
+     "lat": 31.8234804,
+     "lon": 35.2312011,
+     "ozet": "Doğu Kudüs'te arkeolojik site (fort-group); Gibeah ya da Perath/Parah için olası yer."
+    },
+    {
+     "kaynak": "GeoNames (Tall al Fūl, alternatif ad 'Gibeah', hill)",
+     "url": "https://www.geonames.org/search.html?q=ful&country=PS",
+     "lat": 31.823458,
+     "lon": 35.230925,
+     "ozet": "Tall al-Fūl tepesi, alternatif adı Gibeah; Pleiades noktasına ~0.03 km."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "tanık kayıtlarda kuruluş tarihi yok"
+   },
+   "gerekce": "Konum kesin, ama Gibeah = Tell el-Fûl özdeşliği geleneksel (Albright kazısı) ve tartışmalı: Pleiades 'olası' diyor, bazı araştırmacılar Jaba'yı öneriyor. 'kesin' etiketi tell'in koordinatı içindir, özdeşlik için değil; kronolojide beyan önerilir.",
+   "grup": "C"
+  },
+  {
+   "no": 294,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Soba  Beka'da?",
+   "bilesen": "Soba / Beka'da",
+   "durum": "cozulemedi",
+   "gerekce": "Aram-Soba'nın başkenti bilinmiyor; TSV de yalnız 'Beka'da?' diyor. Önceki turun Pleiades eşleşmesi (H)Emesa/Humus yanlış homonimdi. Somut yer adı ya da tell yok.",
+   "grup": "C"
+  },
+  {
+   "no": 295,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Abila",
+   "bilesen": "Abila",
+   "durum": "cift_tanik",
+   "ad": "Abila",
+   "eski_adlar": [
+    "Abila Lysaniou",
+    "Abila Lysanias"
+   ],
+   "modern": "Sûk Vâdî Baradâ (Suq Wadi Barada)",
+   "ulke": "Suriye",
+   "lat": 33.6264,
+   "lon": 36.1118,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/677993",
+     "lat": 33.627108,
+     "lon": 36.1159485,
+     "ozet": "Abila Lysaniou (BAtlas 69 D2)."
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2426201",
+     "lat": 33.625666,
+     "lon": 36.107743,
+     "ozet": "Suq Wadi Barada yerleşimi, alternatif adları Abila ve Chrysorrhoas; yakınındaki 'Qubur al-Kuffar' (2407054) mezarlığı 'Abila Lysaniou' / 'Tombs of Abil es-Suq' diye kayıtlı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "Pleiades zaman aralığı Roma dönemiyle başlıyor; açık kuruluş tarihi yok"
+   },
+   "gerekce": "HOMONİM DÜZELTMESİ: önceki tur Dekapolis Abila'sını (32.68,35.87; Pleiades 677992 / iDAI 2043538) bulmuştu. Abilene'nin merkezi Barada vadisindeki Abila Lysaniou'dur; iki tanık ~0.8 km içinde.",
+   "grup": "C"
+  },
+  {
+   "no": 296,
+   "bolge": "suriye-filistin",
+   "tsv_yer": "Montfort  Starkenberg",
+   "bilesen": "Montfort / Starkenberg / Montfort Castle / Qal'at al-Qurain",
+   "durum": "cift_tanik",
+   "ad": "Montfort",
+   "eski_adlar": [
+    "Starkenberg",
+    "Kal'atülkureyn (Qal'at al-Qurain)",
+    "Monfor"
+   ],
+   "modern": "Metsudat Monfor",
+   "ulke": "İsrail",
+   "lat": 33.0442,
+   "lon": 35.2255,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/8712265",
+     "lat": 33.044,
+     "lon": 35.225,
+     "ozet": "Monfor, Kuzey İlçesi, İsrail."
+    },
+    {
+     "kaynak": "GeoNames (Metsudat Monfor; Montfort, Qalaat el Qourein, Starkenburg; archaeological site)",
+     "url": "https://www.geonames.org/search.html?q=montfort&country=IL",
+     "lat": 33.04437673,
+     "lon": 35.22603159,
+     "ozet": "Montfort kalesi arkeolojik sitesi (TGN'ye ~0.1 km)."
+    },
+    {
+     "kaynak": "Creighton University, Montfort sanal tur projesi (moses.creighton.edu)",
+     "url": "https://moses.creighton.edu/vr/Montfort/txt/intro.html",
+     "lat": null,
+     "lon": null,
+     "ozet": "Kale Batı Celile'de Nahal Keziv üstündeki dar bir sırtta; inşaatı 1226'da başladı; Baybars Haziran 1271'de kuşattı ve teslimden sonra surları yıktı; Akdeniz'e ~12 km (koordinat kıyıdan ~11.7 km, tutarlı). Ayrıca bkz. Boas & Khamisy (ed.), Montfort, Brill 2017, Medieval Mediterranean 107."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "1226",
+    "kaynak": "Creighton Univ. Montfort projesi: inşaat 1226'da başladı (Haifa Montfort Castle Project 1226/7 diyor)"
+   },
+   "gerekce": "TGN ve GeoNames ikisi de GNS türevi olabilir; üçüncü tanık olarak akademik konum tanımı eklendi (Nahal Keziv üstündeki sırt, koordinatla tutarlı). Not: data/yerlesimler_ek29.js'teki 'Montfort' geçişi Philippe de Montfort (Sûr) metnidir, bu kale değil.",
+   "grup": "C"
+  },
+  {
+   "no": 16,
+   "bolge": "balkanlar",
+   "tsv_yer": "Polyrrhenia",
+   "bilesen": "Polyrrhenia",
+   "durum": "cift_tanik",
+   "ad": "Polyrrhenia",
+   "eski_adlar": [
+    "Polyrrenia",
+    "Polyrinia"
+   ],
+   "modern": "Polyrrinia (Kissamos yakını)",
+   "ulke": "Yunanistan",
+   "lat": 35.4586,
+   "lon": 23.6564,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/590003",
+     "lat": 35.4586345603,
+     "lon": 23.6564117108,
+     "ozet": "Polyrrenia: Batı Girit'in önemli antik kenti, yerleşim + arkeolojik alan, kesin konum."
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2126934",
+     "lat": 35.45501,
+     "lon": 23.65269,
+     "ozet": "Polyrrinia, populated-place + archaeological-site (Girit)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "Pleiades ile iDAI 0.5 km; Kissamos'un (GeoNames 35.495,23.654) ~4 km güneyi.",
+   "grup": "D"
+  },
+  {
+   "no": 17,
+   "bolge": "balkanlar",
+   "tsv_yer": "Naissus çevresi",
+   "bilesen": "Naissus",
+   "durum": "cift_tanik",
+   "ad": "Naissus",
+   "eski_adlar": [
+    "Naissos"
+   ],
+   "modern": "Niš",
+   "ulke": "Sırbistan",
+   "lat": 43.3163,
+   "lon": 21.8939,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/207303",
+     "lat": 43.316295,
+     "lon": 21.893884,
+     "ozet": "Naissus, settlement, kesin (BAtlas 21 D6)."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/787657",
+     "lat": 43.32472,
+     "lon": 21.90333,
+     "ozet": "Niš, Sırbistan, modern şehir."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "TSV 'Naissus çevresi' -> aday Naissus. ATLASTA VAR: 'Niş' (yerlesimler.js) aynı yer — yeni nokta açma, Niş'e eşle.",
+   "grup": "D"
+  },
+  {
+   "no": 18,
+   "bolge": "balkanlar",
+   "tsv_yer": "Pliska → Preslav",
+   "bilesen": "Pliska",
+   "durum": "cift_tanik",
+   "ad": "Pliska",
+   "eski_adlar": [
+    "Aboba",
+    "Ahî Baba"
+   ],
+   "modern": "Pliska",
+   "ulke": "Bulgaristan",
+   "lat": 43.36667,
+   "lon": 27.11667,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/728199",
+     "lat": 43.36667,
+     "lon": 27.11667,
+     "ozet": "Pliska köyü, Şumnu ili, Bulgaristan."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'YENİPAZAR (Bulgaristan)' maddesi",
+     "url": "https://islamansiklopedisi.org.tr/yenipazar--bulgaristan",
+     "lat": null,
+     "lon": null,
+     "ozet": "Şumnu'nun 20 km KD'sundaki Yenipazar yöresinde Bulgar İmparatorluğu'nun ilk başşehri Pliska'nın kalıntıları; yörükler büyük surun içine yerleşip köye Ahî Baba > Aboba adını vermiş (bugünkü Pliska köyü). Novi Pazar ile Pliska köyü arası ~7 km, tutarlı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Nokta modern köydür; iç kale/saray birkaç km içinde (yaklaşık). TGN 7009971 ve iDAI 2066850 kaydı var ama koordinatsız.",
+   "grup": "D"
+  },
+  {
+   "no": 19,
+   "bolge": "balkanlar",
+   "tsv_yer": "Mokro",
+   "bilesen": "Mokro",
+   "durum": "cift_tanik",
+   "ad": "Mokro",
+   "eski_adlar": [
+    "Mókron",
+    "Muccurum",
+    "Mucru"
+   ],
+   "modern": "Makarska",
+   "ulke": "Hırvatistan",
+   "lat": 43.2952,
+   "lon": 17.0207,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/197386",
+     "lat": 43.295215,
+     "lon": 17.020743,
+     "ozet": "Muccurum, settlement, kesin (BAtlas 20 E6) — Makarska."
+    },
+    {
+     "kaynak": "Hrvatska enciklopedija (Leksikografski zavod Miroslav Krleža), 'Makarska'",
+     "url": "https://www.enciklopedija.hr/clanak/makarska",
+     "lat": null,
+     "lon": null,
+     "ozet": "Geç antik/erken ortaçağda Muccurum, Mucules ya da Mokro adı; yeni araştırmalar Makarska'ya yerleştiriyor; Neretva prensliği (Paganija) içinde; Konstantin VII Porfirogennetos Mókron kalesini anar."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/3195890",
+     "lat": 43.29694,
+     "lon": 17.01778,
+     "ozet": "Makarska, Hırvatistan."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "533",
+    "kaynak": "Hrvatska enciklopedija: 533 Salona sinodunda Muccurum (Mukurska) piskoposluğu kuruldu"
+   },
+   "gerekce": "Homonim değil: Rus/Pakistan 'Mokro-' kayıtları elendi; Mokro = Makarska (HE). Kaynak Mókron'u 'kale' der; başkentlik TSV'den.",
+   "grup": "D"
+  },
+  {
+   "no": 20,
+   "bolge": "balkanlar",
+   "tsv_yer": "bulunamadı  kaynak başkent adı vermez",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor (Duklja: 'bulunamadı, kaynak başkent adı vermez').",
+   "grup": "D"
+  },
+  {
+   "no": 21,
+   "bolge": "balkanlar",
+   "tsv_yer": "Delminium → Soetovio  Klis",
+   "bilesen": "Soetovio",
+   "durum": "cozulemedi",
+   "gerekce": "Setovia/Soetovio tek tanık: Pleiades 197510 'Setovia' (43.719,16.656; BAtlas'ta station, Sinj yakını). Hrvatska enciklopedija 'Sinj' ve 'Delmati' maddelerinde Setovia yok; iDAI/TGN'de kayıt yok. Lokalizasyonu literatürde tartışmalı; ikinci bağımsız tanık bulunamadı. (Delminium ve Klis ayrı; Klis atlasta var.)",
+   "grup": "D"
+  },
+  {
+   "no": 22,
+   "bolge": "balkanlar",
+   "tsv_yer": "Delos",
+   "bilesen": "Delos",
+   "durum": "cift_tanik",
+   "ad": "Delos",
+   "eski_adlar": [
+    "Dēlos",
+    "Dhílos"
+   ],
+   "modern": "Dilos",
+   "ulke": "Yunanistan",
+   "lat": 37.3973,
+   "lon": 25.2682,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/599587",
+     "lat": 37.397274,
+     "lon": 25.268194,
+     "ozet": "Delos (settlement): adadaki antik yerleşim, kesin."
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2290502",
+     "lat": 37.398,
+     "lon": 25.267,
+     "ozet": "Delos, archaeological-site + island."
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7011272",
+     "lat": 37.4,
+     "lon": 25.266667,
+     "ozet": "Dhílos, Kiklad."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Konum doğru (üç tanık ≤0.4 km). Önceki model reddi atlasın kara maskesinin bu küçük adayı içermemesinden; nokta taşınmamalı, maske/ada sorunu ayrı çözülmeli (Mikonos'a kaydırma yanlış olur).",
+   "grup": "D"
+  },
+  {
+   "no": 23,
+   "bolge": "balkanlar",
+   "tsv_yer": "Epidamnos çevresi",
+   "bilesen": "Epidamnos",
+   "durum": "cift_tanik",
+   "ad": "Epidamnos",
+   "eski_adlar": [
+    "Dyrrachium",
+    "Dyrrhachion"
+   ],
+   "modern": "Durrës",
+   "ulke": "Arnavutluk",
+   "lat": 41.3163,
+   "lon": 19.4474,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/481818",
+     "lat": 41.3163425,
+     "lon": 19.447355,
+     "ozet": "Dyrr(h)achium/Epidamnos: Korinthos ve Kerkyra kolonistlerince MÖ 627'de kurulan liman kenti."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/3185728",
+     "lat": 41.32355,
+     "lon": 19.45469,
+     "ozet": "Durrës, Arnavutluk."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "-627",
+    "kaynak": "Pleiades 481818 açıklaması (MÖ 627 kuruluş)"
+   },
+   "gerekce": "TSV 'Epidamnos çevresi' -> aday Epidamnos. ATLASTA VAR: 'Draç' (41.323,19.455; ~1 km) aynı yer — yeni nokta açma, Draç'a eşle.",
+   "grup": "D"
+  },
+  {
+   "no": 24,
+   "bolge": "balkanlar",
+   "tsv_yer": "Delos -> Atina",
+   "bilesen": "Delos",
+   "durum": "ayni",
+   "ayni_no": 22,
+   "grup": "D"
+  },
+  {
+   "no": 25,
+   "bolge": "balkanlar",
+   "tsv_yer": "Veligosti",
+   "bilesen": "Veligosti",
+   "durum": "cozulemedi",
+   "gerekce": "Doğru yer Mora'dadır (Arkadya, Leontari'nin ~2 km batısı, Megalopolis'in ~9 km güneyi) ama bunu söyleyen yalnız Vikipedi/turizm sayfaları bulundu. Pleiades/iDAI/TGN'de Veligosti kaydı yok; TGN yalnız Leondárion (7032972; 37.3167,22.15) veriyor. Akademik konum tanığı (Bon 1969, ODB) çevrimiçi okunamadı.",
+   "grup": "D"
+  },
+  {
+   "no": 26,
+   "bolge": "balkanlar",
+   "tsv_yer": "Akova  Matagrifon",
+   "bilesen": "Akova",
+   "durum": "cozulemedi",
+   "gerekce": "Doğru yer Mora'dadır (Akova/Matagrifon kalesi, Gortinya, Vyziki-Galatas arası, Tropaia yakını) — Sakarya/Osmaniye/Mersin Akova'ları homonim, elendi. Ancak konumu veren yalnız Vikipedi ve turizm siteleri bulundu; Pleiades/iDAI/TGN'de kale kaydı yok, Yunan Kültür Bakanlığı kaydına erişilemedi. Çift tanık yok.",
+   "grup": "D"
+  },
+  {
+   "no": 27,
+   "bolge": "balkanlar",
+   "tsv_yer": "Kastro  Myrina",
+   "bilesen": "Kastro",
+   "durum": "cift_tanik",
+   "ad": "Kastro",
+   "eski_adlar": [
+    "Myrina",
+    "Mýrina"
+   ],
+   "modern": "Mýrina (Limni)",
+   "ulke": "Yunanistan",
+   "lat": 39.8775,
+   "lon": 25.0562,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/550755",
+     "lat": 39.8775033,
+     "lon": 25.0562181,
+     "ozet": "Myrina (Limni), settlement + archaeological-site, kesin (BAtlas 56 A2)."
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2091905",
+     "lat": 39.87483,
+     "lon": 25.06359,
+     "ozet": "Myrina, populated-place (Limni)."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/256930",
+     "lat": 39.87483,
+     "lon": 25.06359,
+     "ozet": "Mýrina, Limni."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Kastro = Myrina'nın ortaçağ adı/kalesi. MÜKERRER UYARISI: atlastaki 'Limni' noktası 39.876,25.156 (~8.5 km doğu) — Limni ada adıyla mı temsil ediliyor karar verilmeli; Myrina noktası adanın batı kıyısındaki asıl merkezdir.",
+   "grup": "D"
+  },
+  {
+   "no": 28,
+   "bolge": "balkanlar",
+   "tsv_yer": "Lysimacheia",
+   "bilesen": "Lysimacheia",
+   "durum": "cift_tanik",
+   "ad": "Lysimacheia",
+   "eski_adlar": [
+    "Lysimachia"
+   ],
+   "modern": "Bolayır yakını",
+   "ulke": "Türkiye",
+   "lat": 40.5482,
+   "lon": 26.7508,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/501458",
+     "lat": 40.548232,
+     "lon": 26.75081,
+     "ozet": "Kardia/Lysimacheia, settlement (BAtlas 51 H3) — Gelibolu yarımadası boynu."
+    },
+    {
+     "kaynak": "M. H. Sayar (İstanbul Üniv.), 'Lysimakheia — Zankapfel zwischen den Diadochen', XIV. Int. Congress of Greek and Latin Epigraphy (Berlin 2012) özeti",
+     "url": "https://www.congressus2012.aiegl.org/images/kongress/abstracts/abstract_sayar.pdf",
+     "lat": null,
+     "lon": null,
+     "ozet": "Lysimakhos kentini 309/308'de yarımadanın en dar yeri Bolayır'a kurdu; bugünkü Bolayır çevresinde geniş antik yerleşim buluntuları."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/750525",
+     "lat": 40.51498,
+     "lon": 26.75725,
+     "ozet": "Bolayır, Çanakkale (Pleiades noktasına ~3.7 km)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "-309",
+    "kaynak": "Sayar 2012: kuruluş MÖ 309/308"
+   },
+   "gerekce": "Ege'deki Lysimacheia (Aitolia, Pleiades 540921) ve Lysimachea? (38.997,26.834) homonim, elendi. ATLASTA 'Bolayır' var (aynı mevki, ~4 km): ayrı antik nokta mı eşanlam mı karar verilmeli.",
+   "grup": "D"
+  },
+  {
+   "no": 29,
+   "bolge": "balkanlar",
+   "tsv_yer": "Amphipolis · Thessalonike · Pella · Pelagonia  Herakleia Lynkestis",
+   "bilesen": "Pelagonia",
+   "durum": "cozulemedi",
+   "gerekce": "Tek tanık: Pleiades 481952 'Pelagonia' settlement (41.3133,21.6107) — ama noktası Pleiades 481953 Pelagonia BÖLGE etiketiyle aynı (41.3119,21.6101); kent konumu bölge etiketinden türemiş görünüyor. iDAI 2067118 koordinatsız. Pelagonia merisinin merkezi literatürde tartışmalı (Herakleia Lynkestis ile özdeşleştiren görüş var; TSV de 'Pelagonia Herakleia Lynkestis' diyor). Herakleia Lynkestis = Bitola: atlasta 'Manastır' (41.031,21.335) var — oraya eşleme önerilir.",
+   "grup": "D"
+  },
+  {
+   "no": 30,
+   "bolge": "balkanlar",
+   "tsv_yer": "belirsiz  Drava-Sava arası",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('belirsiz Drava-Sava arası').",
+   "grup": "D"
+  },
+  {
+   "no": 31,
+   "bolge": "balkanlar",
+   "tsv_yer": "belirsiz  Aşağı Pannonia",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('belirsiz Aşağı Pannonia').",
+   "grup": "D"
+  },
+  {
+   "no": 36,
+   "bolge": "bati-avrupa",
+   "tsv_yer": "Fortriu",
+   "bilesen": "Fortriu",
+   "durum": "cozulemedi",
+   "gerekce": "Fortriu bir yer değil Pikt krallığı/bölge adıdır; merkezi literatürde tartışmalı (Burghead, Craig Phadrig, Rhynie vb.). Somut başkent noktası verilemez.",
+   "grup": "D"
+  },
+  {
+   "no": 37,
+   "bolge": "bati-avrupa",
+   "tsv_yer": "Scone → Edinburgh",
+   "bilesen": "Scone",
+   "durum": "cift_tanik",
+   "ad": "Scone",
+   "eski_adlar": [
+    "Old Scone",
+    "Moot Hill"
+   ],
+   "modern": "Scone Palace / Moot Hill",
+   "ulke": "Birleşik Krallık (İskoçya)",
+   "lat": 56.4232,
+   "lon": -3.4373,
+   "konum_kesinligi": "kesin",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "Historic Environment Scotland, planlı anıt SM13595 'Moot Hill royal assembly place and Scone Abbey'",
+     "url": "https://portal.historicenvironment.scot/designation/SM13595",
+     "lat": 56.42324,
+     "lon": -3.43728,
+     "ozet": "NGR NO 11442 26596 (WGS84'e çevrildi). Scone erken ortaçağ kraliyet merkezi, İskoç krallarının taç giyme yeri, abbey ve Moot Hill."
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7445939",
+     "lat": 56.4,
+     "lon": -3.433333,
+     "ozet": "Scone Palace, Perth and Kinross (~2.6 km)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Nokta tarihî Scone'dur (Moot Hill), GeoNames 'Scone' (56.419,-3.405) 19. yy'da kurulan New Scone köyüdür (~2 km D), seçilmedi. Atlastaki 'Perth (İskoçya)' 56.396,-3.437 ~3 km güneyde — ayrı yer.",
+   "grup": "D"
+  },
+  {
+   "no": 38,
+   "bolge": "bati-avrupa",
+   "tsv_yer": "Mathrafal",
+   "bilesen": "Mathrafal",
+   "durum": "cift_tanik",
+   "ad": "Mathrafal",
+   "eski_adlar": [
+    "Mathrafel",
+    "Malthyrafel"
+   ],
+   "modern": "Mathrafal (Llangyniew/Meifod)",
+   "ulke": "Birleşik Krallık (Galler)",
+   "lat": 52.6878,
+   "lon": -3.286,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Coflein (RCAHMW) NPRN 306778 'Mathrafal'",
+     "url": "https://coflein.gov.uk/en/site/306778",
+     "lat": 52.68781,
+     "lon": -3.28602,
+     "ozet": "NGR SJ 13170 10790 (WGS84'e çevrildi). Banwy nehri kıyısında hendekli dikdörtgen muhafaza ve höyük; Cadw planlı anıtı MG044."
+    },
+    {
+     "kaynak": "The National Gazetteer of Great Britain and Ireland (1868), 'MALTHYRAFEL' (GENUKI transkripsiyonu)",
+     "url": "https://www.genuki.org.uk/big/wal/MGY/Llangynyw/Gaz1868",
+     "lat": null,
+     "lon": null,
+     "ozet": "Malthyrafel, Llangyniew parişinde bir township, Llanfair'in 3 mil KD'su; Coflein noktası Llanfair Caereinion'un ~5 km KD'sunda, tutarlı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Coflein notu: 1989 kazısı (Arnold & Huggett 1995, Mont. Coll. 83) yerleşimin 1200 sonrası olduğunu, 'kraliyet sarayı' geleneğinin 13. yy ortasına izlendiğini söylüyor — erken Powys başkentliği kaynakta tartışmalı.",
+   "grup": "D"
+  },
+  {
+   "no": 39,
+   "bolge": "bati-avrupa",
+   "tsv_yer": "Dunadd",
+   "bilesen": "Dunadd",
+   "durum": "cift_tanik",
+   "ad": "Dunadd",
+   "eski_adlar": [
+    "Dún Att"
+   ],
+   "modern": "Dunadd (Kilmartin)",
+   "ulke": "Birleşik Krallık (İskoçya)",
+   "lat": 56.0858,
+   "lon": -5.4784,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Historic Environment Scotland, planlı anıt SM90108 'Dunadd, fort, boar carving, ogam inscription and cupmarkings'",
+     "url": "https://portal.historicenvironment.scot/designation/SM90108",
+     "lat": 56.08575,
+     "lon": -5.47836,
+     "ozet": "NGR NR 83685 93560 (WGS84'e çevrildi). Moine Mhor üstünde, Add nehri yanında yüksek statülü Erken Tarihî kale; muhtemelen Dalriada krallığının başkenti."
+    },
+    {
+     "kaynak": "Lane, A. & Campbell, E. 2000, Dunadd: An Early Dalriadic Capital (Oxbow) — Glasgow Üniv. dijital arşivi",
+     "url": "https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/projectarchive/dunadddigitalarchive/",
+     "lat": 56.08607,
+     "lon": -5.47976,
+     "ozet": "Dunadd (NR 836936), Crinan Moss içinde kayalık tepe; Dal Riata İskoçlarının kraliyet merkezi."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "683",
+    "kaynak": "Historic Environment Scotland 'history' sayfası: ilk anılış MS 683 (Ulster yıllıkları)"
+   },
+   "gerekce": "İki tanık ~0.1 km.",
+   "grup": "D"
+  },
+  {
+   "no": 40,
+   "bolge": "bati-avrupa",
+   "tsv_yer": "Nevers",
+   "bilesen": "Nevers",
+   "durum": "cift_tanik",
+   "ad": "Nevers",
+   "eski_adlar": [
+    "Noviodunum",
+    "Nevirnum"
+   ],
+   "modern": "Nevers",
+   "ulke": "Fransa",
+   "lat": 46.9912,
+   "lon": 3.1571,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7008240",
+     "lat": 46.991203,
+     "lon": 3.157084,
+     "ozet": "Nevers şehri, Bourgogne-Franche-Comté."
+    },
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/138495",
+     "lat": 46.9871685,
+     "lon": 3.159551,
+     "ozet": "Noviodunum?/Nevirnum? settlement (BAtlas 14 I1) — Nevers."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/2990474",
+     "lat": 46.98956,
+     "lon": 3.159,
+     "ozet": "Nevers, Fransa."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Önceki turun TGN kaydı arrondissement'tı; şehir kaydı 7008240. iDAI 2167410 koordinatı Pleiades'in birebir kopyası (bağımsız sayılmadı).",
+   "grup": "D"
+  },
+  {
+   "no": 41,
+   "bolge": "bati-avrupa",
+   "tsv_yer": "çok merkezli Gal beylikleri",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('çok merkezli Gal beylikleri').",
+   "grup": "D"
+  },
+  {
+   "no": 42,
+   "bolge": "bati-avrupa",
+   "tsv_yer": "Mediolanum -> Ravenna",
+   "bilesen": "Mediolanum",
+   "durum": "cift_tanik",
+   "ad": "Mediolanum",
+   "eski_adlar": [
+    "Mediolanium"
+   ],
+   "modern": "Milano",
+   "ulke": "İtalya",
+   "lat": 45.4637,
+   "lon": 9.1881,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/383706",
+     "lat": 45.463746,
+     "lon": 9.18806,
+     "ozet": "Mediolan(i)um: Kelt yerleşimi, sonra Batı Roma başkenti; bugünkü Milano."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/3173435",
+     "lat": 45.46427,
+     "lon": 9.18951,
+     "ozet": "Milano, İtalya."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Homonim: Mediolanum Santonum (Saintes) ve öteki Galya/Britanya Mediolanum'ları elendi. ATLASTA VAR: 'Milano' (45.464,9.190) — yeni nokta açma, Milano'ya eşle.",
+   "grup": "D"
+  },
+  {
+   "no": 43,
+   "bolge": "bati-avrupa",
+   "tsv_yer": "Doğu Anglia  belirli başkent yok",
+   "bilesen": "Doğu Anglia / belirli başkent yok",
+   "durum": "cozulemedi",
+   "gerekce": "Kaynak başkent vermiyor: 'Doğu Anglia' bölge adıdır, TSV 'belirli başkent yok' diyor.",
+   "grup": "D"
+  },
+  {
+   "no": 175,
+   "bolge": "iberya",
+   "tsv_yer": "Castello d'Empuries",
+   "bilesen": "Castello d'Empuries",
+   "durum": "cift_tanik",
+   "ad": "Castelló d'Empúries",
+   "eski_adlar": [
+    "Castellón de Ampurias"
+   ],
+   "modern": "Castelló d'Empúries",
+   "ulke": "İspanya",
+   "lat": 42.2567,
+   "lon": 3.0745,
+   "konum_kesinligi": "kesin",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/3125884",
+     "lat": 42.25673,
+     "lon": 3.07446,
+     "ozet": "Castelló d'Empúries, Girona, Katalonya."
+    },
+    {
+     "kaynak": "Gran Enciclopèdia Catalana, 'Castelló d'Empúries'",
+     "url": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/castello-dempuries",
+     "lat": null,
+     "lon": null,
+     "ozet": "Alt Empordà belediyesi; Muga kıyısında, denizden ~4 km; ortaçağda Empúries kontluğunun başkenti (başkent ~1078'de antik Empúries'ten buraya taşındı). Koordinatla tutarlı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Önceki turdaki 2 GeoNames kaydı aynı yerin çift kaydı; antik Empúries/Emporion (atlasta var, 42.133,3.115) ~14 km GD'da, ayrı yer. Başkentlik ~1078'den.",
+   "grup": "D"
+  },
+  {
+   "no": 176,
+   "bolge": "iberya",
+   "tsv_yer": "bulunamadı",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('bulunamadı').",
+   "grup": "D"
+  },
+  {
+   "no": 177,
+   "bolge": "iberya",
+   "tsv_yer": "yok  toplu künye",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('yok toplu künye').",
+   "grup": "D"
+  },
+  {
+   "no": 178,
+   "bolge": "iberya",
+   "tsv_yer": "Bobastro",
+   "bilesen": "Bobastro",
+   "durum": "cift_tanik",
+   "ad": "Bobastro",
+   "eski_adlar": [
+    "Bübeşter",
+    "Bubashtar"
+   ],
+   "modern": "Mesas de Villaverde (Ardales)",
+   "ulke": "İspanya",
+   "lat": 36.9024,
+   "lon": -4.7816,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2751786",
+     "lat": 36.902443,
+     "lon": -4.781569,
+     "ozet": "Alcázar de Bobastro (üst kayıt 2074860 'Bobastro, Ardales')."
+    },
+    {
+     "kaynak": "SPAL (Univ. de Sevilla, hakemli), 'La iglesia altomedieval de Las Mesas de Villaverde (Málaga)...' ; Meridies (UCO), 'El yacimiento arqueológico de Bobastro (Ardales, Málaga)'",
+     "url": "https://revistascientificas.us.es/index.php/spal/article/view/11862",
+     "lat": null,
+     "lon": null,
+     "ozet": "Ardales'teki Las Mesas de Villaverde yatağı Endülüs Bobastro'su ile özdeşleştirilir; tahkimatlı alan ve kaya kilisesi. GeoNames Ardales (36.878,-4.847) ~6.4 km, tutarlı."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'ÖMER b. HAFSÛN' maddesi",
+     "url": "https://islamansiklopedisi.org.tr/omer-b-hafsun",
+     "lat": null,
+     "lon": null,
+     "ozet": "Ömer b. Hafsûn Runde (Ronda) dağlarındaki harap Bübeşter (Bobastro) kalesine yerleşip 267/880'de isyan etti; sarp kayalar üstünde müstahkem yer."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "880",
+    "kaynak": "TDV 'ÖMER b. HAFSÛN': 267/880'de Ömer b. Hafsûn'un harap kaleye yerleşmesi (kale daha eski)"
+   },
+   "gerekce": "TGN 7027432 koordinatsız.",
+   "grup": "D"
+  },
+  {
+   "no": 197,
+   "bolge": "italya",
+   "tsv_yer": "Vulci",
+   "bilesen": "Vulci",
+   "durum": "cift_tanik",
+   "ad": "Vulci",
+   "eski_adlar": [
+    "Velch",
+    "Velx"
+   ],
+   "modern": "Vulci (Montalto di Castro/Canino)",
+   "ulke": "İtalya",
+   "lat": 42.4189,
+   "lon": 11.6317,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/413393",
+     "lat": 42.418889,
+     "lon": 11.631667,
+     "ozet": "Vulci (Etrüsk Velch), Roma'nın 80 km KB'sı, duodecim populi Etruriae'den."
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7015539",
+     "lat": 42.418,
+     "lon": 11.631,
+     "ozet": "Vulci, Viterbo, Lazio."
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2072886",
+     "lat": 42.409702,
+     "lon": 11.634796,
+     "ozet": "Vulci, archaeological-site."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Homonim ayrımı: önceki turdaki iDAI 42.42,11.15 noktası 'Ager Vulcentis' (bölge/arazi kaydı, 2072377), kent değil — elendi.",
+   "grup": "D"
+  },
+  {
+   "no": 198,
+   "bolge": "italya",
+   "tsv_yer": "yok  Bovianum",
+   "bilesen": "Bovianum",
+   "durum": "cift_tanik",
+   "ad": "Bovianum",
+   "eski_adlar": [
+    "Bovianum Vetus?",
+    "Bovianum Undecimanorum"
+   ],
+   "modern": "Bojano",
+   "ulke": "İtalya",
+   "lat": 41.4867,
+   "lon": 14.4739,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/432725",
+     "lat": 41.48673,
+     "lon": 14.473913,
+     "ozet": "Bovianum: Samnit merkezi, Pentri boyunun başkenti; MÖ ~87 municipium."
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2087551",
+     "lat": 41.4853,
+     "lon": 14.47075,
+     "ozet": "Bojano (Bovianum araması)."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/3181939",
+     "lat": 41.4853,
+     "lon": 14.47075,
+     "ozet": "Bojano, Molise."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "TSV 'yok Bovianum' -> aday Bovianum. Pietrabbondante (Bovianum Vetus adayı, 41.745,14.385) ayrı; Pleiades Pentri başkenti olarak Bojano'yu veriyor.",
+   "grup": "D"
+  },
+  {
+   "no": 199,
+   "bolge": "italya",
+   "tsv_yer": "Canossa → Mantova",
+   "bilesen": "Canossa",
+   "durum": "cift_tanik",
+   "ad": "Canossa",
+   "eski_adlar": [],
+   "modern": "Canossa (Reggio Emilia)",
+   "ulke": "İtalya",
+   "lat": 44.5833,
+   "lon": 10.45,
+   "konum_kesinligi": "yaklasik",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7009802",
+     "lat": 44.583333,
+     "lon": 10.45,
+     "ozet": "Canossa, Reggio nell'Emilia, Emilia-Romagna."
+    },
+    {
+     "kaynak": "Treccani Enciclopedia, 'Canossa'",
+     "url": "https://www.treccani.it/enciclopedia/canossa/",
+     "lat": null,
+     "lon": null,
+     "ozet": "Reggio nell'Emilia ilinde belediye; kale 10. yüzyılda Attoni ailesince yapıldı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "10. yy",
+    "kaynak": "Treccani: kale 10. yy'da Attoni'lerce yapıldı"
+   },
+   "gerekce": "Homonim ayrımı: önceki turdaki iDAI 'Canossa' 44.91,10.65 noktası Reggio Emilia'nın kuzeyinde, Canossa kalesi değil — elendi. TGN noktası yuvarlatılmış (dakika hassasiyeti) — yaklaşık.",
+   "grup": "D"
+  },
+  {
+   "no": 200,
+   "bolge": "italya",
+   "tsv_yer": "Potentia",
+   "bilesen": "Potentia",
+   "durum": "cift_tanik",
+   "ad": "Potentia",
+   "eski_adlar": [],
+   "modern": "Potenza",
+   "ulke": "İtalya",
+   "lat": 40.6376,
+   "lon": 15.8017,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/442735",
+     "lat": 40.637601,
+     "lon": 15.801741,
+     "ozet": "Potentia (Lucania), settlement."
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2338580",
+     "lat": 40.63858,
+     "lon": 15.804627,
+     "ozet": "Potenza, populated-place + archaeological-site."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/3170027",
+     "lat": 40.64175,
+     "lon": 15.80794,
+     "ozet": "Potenza, Basilicata."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Homonim ayrımı: Picenum'daki Potentia (Pleiades 413272, 43.42,13.67) ve Carreum Potentia (Chieri) elendi; Lukan birliği Lucania'dadır.",
+   "grup": "D"
+  },
+  {
+   "no": 201,
+   "bolge": "italya",
+   "tsv_yer": "yok  Pontida",
+   "bilesen": "Pontida",
+   "durum": "cift_tanik",
+   "ad": "Pontida",
+   "eski_adlar": [],
+   "modern": "Pontida",
+   "ulke": "İtalya",
+   "lat": 45.7313,
+   "lon": 9.5114,
+   "konum_kesinligi": "kesin",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/3170198",
+     "lat": 45.73129,
+     "lon": 9.51141,
+     "ozet": "Pontida, Bergamo, Lombardiya."
+    },
+    {
+     "kaynak": "Treccani Enciclopedia, 'Pontida'",
+     "url": "https://www.treccani.it/enciclopedia/pontida/",
+     "lat": null,
+     "lon": null,
+     "ozet": "Bergamo ilinde, Adda ile Brembo arasındaki tepelik bölgede 310 m'de; geleneğe göre 7 Nisan 1167'de birinci Lombard Ligi temsilcileri burada and içti; San Giacomo manastırı 11. yy'ın 2. yarısında Clunylilerce kuruldu."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "11. yy",
+    "kaynak": "Treccani: San Giacomo manastırı 11. yy'ın ikinci yarısında kuruldu"
+   },
+   "gerekce": "TSV 'yok Pontida' -> aday Pontida. Lig'in başkenti yoktu; Pontida yemin yeri (1167, gelenek).",
+   "grup": "D"
+  },
+  {
+   "no": 220,
+   "bolge": "kuzey-avrupa",
+   "tsv_yer": "Birsay",
+   "bilesen": "Birsay",
+   "durum": "cift_tanik",
+   "ad": "Birsay",
+   "eski_adlar": [
+    "Brough of Birsay"
+   ],
+   "modern": "Birsay (Orkney)",
+   "ulke": "Birleşik Krallık (İskoçya)",
+   "lat": 59.1366,
+   "lon": -3.3303,
+   "konum_kesinligi": "kesin",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "Canmore (HES) ID 1796 'Brough of Birsay'",
+     "url": "https://canmore.org.uk/site/1796/brough-of-birsay",
+     "lat": 59.1366,
+     "lon": -3.33026,
+     "ozet": "NGR HY 23977 28513 (WGS84'e çevrildi); Pikt ve Norse kalıntılı gelgit adası, 12. yy St Peter kilisesi ve yerleşim."
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/4001551",
+     "lat": 59.133333,
+     "lon": -3.316667,
+     "ozet": "Birsay, Orkney (~0.9 km)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Canmore sitesi kapandı (trove.scot'a taşındı, 403); NGR web arama özetinden okundu. Atlastaki Kirkwall ~25 km uzakta, ayrı yer.",
+   "grup": "D"
+  },
+  {
+   "no": 273,
+   "bolge": "orta-avrupa",
+   "tsv_yer": "belirsiz",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('belirsiz').",
+   "grup": "D"
+  },
+  {
+   "no": 274,
+   "bolge": "orta-avrupa",
+   "tsv_yer": "belirsiz  Marklo",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "TSV 'belirsiz Marklo' -> aday Marklo; ancak Marklo yalnız Hucbald'ın Lebuinus Vita'sında anılan Sakson meclis yeridir, konumu bilinmiyor (Marklohe özdeşleştirmesi varsayım). Kaynaklı nokta verilemez.",
+   "grup": "D"
+  },
+  {
+   "no": 275,
+   "bolge": "orta-avrupa",
+   "tsv_yer": "Levý Hradec → Prag  Pražský hrad",
+   "bilesen": "Levý Hradec",
+   "durum": "cift_tanik",
+   "ad": "Levý Hradec",
+   "eski_adlar": [
+    "Levy Hradec"
+   ],
+   "modern": "Levý Hradec (Roztoky-Žalov)",
+   "ulke": "Çekya",
+   "lat": 50.1689,
+   "lon": 14.3739,
+   "konum_kesinligi": "kesin",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Archeologický atlas ČR (Archeologický ústav AV ČR, Praha), 'Žalov – hradiště Levý Hradec'",
+     "url": "https://www.archeologickyatlas.cz/cs/lokace/zalov_pz_hradiste_levy_hradec",
+     "lat": 50.168858,
+     "lon": 14.373917,
+     "ozet": "Navigasyon noktası N 50°10'07.89\" E 14°22'26.10\"; erken ortaçağ hradiště, Bořivoj I'in ilk merkezi, 880'lerde sv. Kliment kilisesi; 982'de Vojtěch burada piskopos seçildi."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/3066636",
+     "lat": 50.15841,
+     "lon": 14.3976,
+     "ozet": "Roztoky (Praha-západ) — Žalov bu belediyenin parçası (~2 km)."
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2060197",
+     "lat": null,
+     "lon": null,
+     "ozet": "Levý Hradec, okr. Praha-západ (koordinatsız)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "9. yy",
+    "kaynak": "Archeologický atlas ČR: alan 9. yy ortasında iskân edilip tahkim edildi"
+   },
+   "gerekce": "",
+   "grup": "D"
+  },
+  {
+   "no": 276,
+   "bolge": "orta-avrupa",
+   "tsv_yer": "—  seçimli",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('— seçimli').",
+   "grup": "D"
+  },
+  {
+   "no": 277,
+   "bolge": "orta-avrupa",
+   "tsv_yer": "belirsiz  Lüneburg",
+   "bilesen": "Lüneburg",
+   "durum": "cift_tanik",
+   "ad": "Lüneburg",
+   "eski_adlar": [],
+   "modern": "Lüneburg",
+   "ulke": "Almanya",
+   "lat": 53.2473,
+   "lon": 10.4087,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2050844",
+     "lat": 53.247315,
+     "lon": 10.408715,
+     "ozet": "Lüneburg, populated-place."
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7004436",
+     "lat": 53.25,
+     "lon": 10.4,
+     "ozet": "Lüneburg, Aşağı Saksonya."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/2875115",
+     "lat": 53.25122,
+     "lon": 10.41548,
+     "ozet": "Lüneburg."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "TSV 'belirsiz Lüneburg' -> aday Lüneburg (kaynağın kendisi 'belirsiz' diyor: başkentlik beyanlı yaklaşıklık).",
+   "grup": "D"
+  },
+  {
+   "no": 278,
+   "bolge": "orta-avrupa",
+   "tsv_yer": "Pannonia  Ring",
+   "bilesen": "Pannonia / Ring",
+   "durum": "cozulemedi",
+   "gerekce": "Avar 'Ring'inin konumu bilinmiyor (Tuna-Tisa arası varsayımları); 'Pannonia' bölge adı. Önceki turun iki iDAI kaydı (46.85,17.78 ve 47.29,15.97) Ring değil, rastgele eşleşme. Kaynaklı nokta verilemez.",
+   "grup": "D"
+  },
+  {
+   "no": 279,
+   "bolge": "orta-avrupa",
+   "tsv_yer": "Meissen → Wittenberg → Dresden",
+   "bilesen": "Wittenberg",
+   "durum": "cift_tanik",
+   "ad": "Wittenberg",
+   "eski_adlar": [
+    "Lutherstadt Wittenberg"
+   ],
+   "modern": "Lutherstadt Wittenberg",
+   "ulke": "Almanya",
+   "lat": 51.8667,
+   "lon": 12.6433,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url": "https://gazetteer.dainst.org/place/2045073",
+     "lat": 51.866667,
+     "lon": 12.643333,
+     "ozet": "Wittenberg, populated-place (Landkreis Wittenberg altında)."
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url": "http://vocab.getty.edu/tgn/7012349",
+     "lat": 51.8833,
+     "lon": 12.65,
+     "ozet": "Wittenberg şehri, Saksonya-Anhalt."
+    },
+    {
+     "kaynak": "GeoNames",
+     "url": "https://www.geonames.org/7303020",
+     "lat": 51.8661,
+     "lon": 12.64973,
+     "ozet": "Wittenberg (Lutherstadt)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": ""
+   },
+   "gerekce": "Önceki turun TGN 7078535 kaydı Landkreis'ti; şehir kaydı 7012349. Brandenburg/Schleswig vb. Wittenberg köyleri homonim, elendi.",
+   "grup": "D"
+  },
+  {
+   "no": 32,
+   "bolge": "bati-afrika",
+   "tsv_yer": "Tekrûr",
+   "bilesen": "Tekrûr",
+   "durum": "cozulemedi",
+   "gerekce": "TDV 'TEKRÛR' (Hatice Uğur) şehri yalnız 'Aşağı Senegal nehri dolaylarında' diye anar; koordinat veren gazetteer (TGN/iDAI/GeoNames/Pleiades) kaydı yok, şehrin yeri akademik olarak kesinleşmemiş. Koordinat tanığı bulunamadı.",
+   "grup": "E"
+  },
+  {
+   "no": 33,
+   "bolge": "bati-afrika",
+   "tsv_yer": "Kukia → Gao  1009-10",
+   "bilesen": "Kukia",
+   "durum": "cift_tanik",
+   "ad": "Kukiya",
+   "eski_adlar": [
+    "Kūkiyā",
+    "Kukyia",
+    "Kotyia",
+    "Gugia"
+   ],
+   "modern": "Bentyia (Bentia)",
+   "ulke": "Mali",
+   "lat": 15.3533,
+   "lon": 0.7607,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 2460133 (Bentyia; alternatif adlar Koukiya, Kukiya, Kukyia)",
+     "url": "https://www.geonames.org/2460133",
+     "lat": 15.3533,
+     "lon": 0.7607,
+     "ozet": "Gao bölgesinde, Nijer kıyısında Bentyia köyü; Kukiya adı bu kayda bağlı."
+    },
+    {
+     "kaynak": "P. F. de Moraes Farias, 'Bentyia (Kukyia): a Songhay–Mande meeting point...', Afriques 4 (2013)",
+     "url": "https://journals.openedition.org/afriques/1174",
+     "lat": null,
+     "lon": null,
+     "ozet": "Desplagnes'ten beri genel kabul gören özdeşleştirmeyle Bentyia sitleri Kukyia'dır; Nijer üzerinde, Fafa çağlayanlarının hemen yukarısında, Mali-Nijer sınırındaki Labbezanga'ya yakın (koordinatla tutarlı)."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'GAO' (Rıza Kurtuluş)",
+     "url": "https://islamansiklopedisi.org.tr/gao",
+     "lat": null,
+     "lon": null,
+     "ozet": "Gao'yu kuran Sorko balıkçılarının Songaylar tarafından Kukia'dan (Gugia) çıkarıldığını söyler; Kukia'nın Gao'dan önceki Songay merkezi olduğunu teyit eder, konum vermez."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "Moraes Farias 2013: ad 17. yy Timbuktu kroniklerinde; ilk anılış tarihi verilmiyor."
+   },
+   "gerekce": "Homonim değil: iDAI'deki 'Kukiya' İran'da (37.37K) — elendi. Site ada/köy kümesi olduğundan yaklaşık.",
+   "grup": "E"
+  },
+  {
+   "no": 34,
+   "bolge": "bati-afrika",
+   "tsv_yer": "Tekrûr şehri  Aşağı Senegal",
+   "bilesen": "Tekrûr şehri / Aşağı Senegal",
+   "durum": "cozulemedi",
+   "gerekce": "aynı yer: satır no 32 (Tekrûr şehri) — orada da koordinat tanığı bulunamadı; 'Aşağı Senegal' bölge adıdır.",
+   "grup": "E"
+  },
+  {
+   "no": 35,
+   "bolge": "bati-afrika",
+   "tsv_yer": "Susu  yeri kaynakta yok",
+   "bilesen": "Susu",
+   "durum": "cozulemedi",
+   "gerekce": "Kaynak yer adı vermiyor (TSV: 'yeri kaynakta yok'); Susu krallığının başkenti için koordinatlı kayıt ya da akademik konum bulunamadı.",
+   "grup": "E"
+  },
+  {
+   "no": 44,
+   "bolge": "dogu-afrika",
+   "tsv_yer": "Doğu Şüve  kaynakta şehir adı yok",
+   "bilesen": "Doğu Şüve",
+   "durum": "cozulemedi",
+   "gerekce": "Kaynak yer adı vermiyor ('kaynakta şehir adı yok'); 'Doğu Şüve' bölge adıdır, yerleşim değil.",
+   "grup": "E"
+  },
+  {
+   "no": 45,
+   "bolge": "dogu-afrika",
+   "tsv_yer": "Makdişu",
+   "bilesen": "Makdişu",
+   "durum": "cift_tanik",
+   "ad": "Makdişu",
+   "eski_adlar": [
+    "Makdeşû",
+    "Muğdiş",
+    "Mogadişu",
+    "Muqdisho",
+    "Mogadiscio"
+   ],
+   "modern": "Mogadişu",
+   "ulke": "Somali",
+   "lat": 2.03711,
+   "lon": 45.34375,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 53654 (Mogadishu)",
+     "url": "https://www.geonames.org/53654",
+     "lat": 2.03711,
+     "lon": 45.34375,
+     "ozet": "Somali başkenti, Banaadir."
+    },
+    {
+     "kaynak": "Getty TGN 7000443 (Muqdisho)",
+     "url": "http://vocab.getty.edu/tgn/7000443",
+     "lat": 2.0333,
+     "lon": 45.35,
+     "ozet": "Benadir bölgesinde yerleşim; GeoNames noktasına ~1 km."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'MAKDİŞU' (Ahmet Kavas, 2003)",
+     "url": "https://islamansiklopedisi.org.tr/makdisu",
+     "lat": null,
+     "lon": null,
+     "ozet": "Doğu Afrika'da Hint Okyanusu sahilinde Somali'nin başşehri ve Benâdir merkezi; X. yüzyılda Lahsâlı Araplar ve Şîraz/Nîşâburlu göçmenlerce kurulduğu genellikle kabul edilir."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "10. yy",
+    "kaynak": "TDV 'MAKDİŞU': kuruluş kesin bilinmiyor (Barros'a göre 887); X. yüzyılda kurulduğu genellikle kabul edilir."
+   },
+   "gerekce": "Modern şehir aynı yerde; GeoNames+TGN ortak kökenli olabilir, TDV üçüncü tanık.",
+   "grup": "E"
+  },
+  {
+   "no": 46,
+   "bolge": "dogu-afrika",
+   "tsv_yer": "Kilwa",
+   "bilesen": "Kilwa / Kilwa Kisiwani",
+   "durum": "cift_tanik",
+   "ad": "Kilve Kisivani",
+   "eski_adlar": [
+    "Kilwa",
+    "Kilve",
+    "Quiloa"
+   ],
+   "modern": "Kilwa Kisiwani",
+   "ulke": "Tanzanya",
+   "lat": -8.958969,
+   "lon": 39.498075,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 7024258 (Kilwa Kisiwani, inhabited place)",
+     "url": "http://vocab.getty.edu/tgn/7024258",
+     "lat": -8.958969,
+     "lon": 39.498075,
+     "ozet": "Lindi bölgesinde Kilwa Kisiwani yerleşimi; aynı adlı ada TGN 6003097 (-8.971, 39.514)."
+    },
+    {
+     "kaynak": "GeoNames 157382 (Kilwa Kisiwani)",
+     "url": "https://www.geonames.org/157382",
+     "lat": -8.958969,
+     "lon": 39.498075,
+     "ozet": "Aynı nokta (TGN ile ortak kökenli olabilir)."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'KİLVE' (Ahmet Kavas, Mustafa L. Bilge)",
+     "url": "https://islamansiklopedisi.org.tr/kilve",
+     "lat": null,
+     "lon": null,
+     "ozet": "Kilve, Hint Okyanusu sahilinde küçük bir ada olan Kilve Kisivani, kuzeyindeki yarımadada Kilve Masoko ve 29 km yukarıdaki Kilve Kivinji'nin adı; Şîrazlılar 975'te Kilve adasına yerleşti, sultanlık merkezi Kisivani'nin kuzey kesimi."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "975",
+    "kaynak": "TDV 'KİLVE': 975'te İran'dan gelen Şîrazlılar Kilve adasına yerleşti."
+   },
+   "gerekce": "Homonim ayrımı: önceki turun ikinci kümesi (-8.75, 39.35) Kilwa Kivinje'dir (TDV: 29 km yukarıda, sonraki yerleşim); sultanlık merkezi ada (Kisiwani). Kilwa Masoko (-8.92) TDV'deki 'kuzeyindeki yarımada' ile tutarlı.",
+   "grup": "E"
+  },
+  {
+   "no": 47,
+   "bolge": "dogu-afrika",
+   "tsv_yer": "Dahlak Kebir",
+   "bilesen": "Dahlak Kebir",
+   "durum": "cift_tanik",
+   "ad": "Dehlek-i Kebîr",
+   "eski_adlar": [
+    "Dahlak Kebir",
+    "Dehlek",
+    "Delhek"
+   ],
+   "modern": "Dahlak Kebir",
+   "ulke": "Eritre",
+   "lat": 15.615151,
+   "lon": 40.016618,
+   "konum_kesinligi": "yaklasik",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 8376032 (Dahlak-Kebir, populated place)",
+     "url": "https://www.geonames.org/8376032",
+     "lat": 15.615151,
+     "lon": 40.016618,
+     "ozet": "Dahlak Kebir adasındaki yerleşim."
+    },
+    {
+     "kaynak": "Getty TGN 7013569 (Dahlak Kebr, island)",
+     "url": "http://vocab.getty.edu/tgn/7013569",
+     "lat": 15.6667,
+     "lon": 40.0833,
+     "ozet": "Adanın merkezi; GeoNames yerleşimine ~9 km."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'DEHLEK' (Mustafa Fayda, 1994)",
+     "url": "https://islamansiklopedisi.org.tr/dehlek",
+     "lat": null,
+     "lon": null,
+     "ozet": "Eritre sahili açıklarında, Masavva limanı hizasında takımadalar; en büyüğü Dehlek-i Kebîr (~1350 km²); fethi 83/702 Emevî döneminde."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "702",
+    "kaynak": "TDV 'DEHLEK': adaların fethi 83 (702), Abdülmelik b. Mervân döneminde; daha önce kaynakta adı geçmez."
+   },
+   "gerekce": "Önceki turun 'iki aynı adlı modern yer' belirsizliği: biri ada (GeoNames 339564/339563), biri yerleşim (8376032); yerleşim seçildi. Ortaçağ kasabasının adadaki tam yeri teyitsiz → yaklaşık.",
+   "grup": "E"
+  },
+  {
+   "no": 48,
+   "bolge": "dogu-afrika",
+   "tsv_yer": "Gondar → Addis Ababa",
+   "bilesen": "Addis Ababa",
+   "durum": "cozulemedi",
+   "gerekce": "Mükerrer: atlasta 'Addis' yerleşimi 5.8 km'de, aynı modern şehir (talimat: atlasta zaten olan modern merkez yeniden çözülmez).",
+   "grup": "E"
+  },
+  {
+   "no": 108,
+   "bolge": "guney-amerika",
+   "tsv_yer": "Cahuachi",
+   "bilesen": "Cahuachi",
+   "durum": "cift_tanik",
+   "ad": "Cahuachi",
+   "eski_adlar": [],
+   "modern": "",
+   "ulke": "Peru",
+   "lat": -14.818,
+   "lon": -75.116,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 6001077 (Cahuachi, deserted settlement)",
+     "url": "http://vocab.getty.edu/tgn/6001077",
+     "lat": -14.818,
+     "lon": -75.116,
+     "ozet": "Ica, Peru'da terk edilmiş yerleşim."
+    },
+    {
+     "kaynak": "A. Bachir Bacha & O. Llanos Jacinto, 'El Gran Templo del centro ceremonial de Cahuachi (Nazca, Perú)', Dimensión Antropológica 38 (2006)",
+     "url": "https://www.dimensionantropologica.inah.gob.mx/?p=3732",
+     "lat": -14.8167,
+     "lon": -75.1167,
+     "ozet": "Nazca kültürünün tören merkezi Cahuachi'yi 14°49'G, 75°07'B, ~360 m'de verir (TGN ile <1 km)."
+    },
+    {
+     "kaynak": "GeoNames 3946324 (Hacienda Cahuachi)",
+     "url": "https://www.geonames.org/3946324",
+     "lat": -14.818906,
+     "lon": -75.105774,
+     "ozet": "Aynı adlı çiftlik, siteye ~1 km."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "Tanıklarda kuruluş yılı yok."
+   },
+   "gerekce": "Nazca devletinin başkenti değil tören/hac merkezi olduğu tartışmalıdır; konum kesin.",
+   "grup": "E"
+  },
+  {
+   "no": 109,
+   "bolge": "guney-amerika",
+   "tsv_yer": "Huacas de Moche",
+   "bilesen": "Huacas de Moche / Huaca del Sol / Moche / Huacas del Sol y de la Luna",
+   "durum": "cozulemedi",
+   "gerekce": "Sitin koordinatını yalnız Vikipedi ve Structurae veriyor (tanık değil); GeoNames 3694725 'Moche' modern ilçe merkezidir (siteye ~4-5 km), TGN 8698268 'Moche' boylamı işaret hatalı (+78.9). Akademik tanık (Estudios Atacameños: Moche vadisi güney kenarı, plajdan ~6 km, Cerro Blanco'nun batısı) var ama aynı yeri gösteren koordinat kaynağı yok.",
+   "grup": "E"
+  },
+  {
+   "no": 110,
+   "bolge": "guney-amerika",
+   "tsv_yer": "Ciudad Perdida  Teyuna",
+   "bilesen": "Ciudad Perdida / Teyuna",
+   "durum": "cift_tanik",
+   "ad": "Teyuna",
+   "eski_adlar": [
+    "Ciudad Perdida",
+    "Buritaca 200"
+   ],
+   "modern": "",
+   "ulke": "Kolombiya",
+   "lat": 11.037,
+   "lon": -73.925,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 7033111 (Ciudad Perdida, deserted settlement)",
+     "url": "http://vocab.getty.edu/tgn/7033111",
+     "lat": 11.037,
+     "lon": -73.925,
+     "ozet": "Magdalena, Kolombiya."
+    },
+    {
+     "kaynak": "GeoNames 9855406 (Ciudad Perdida, archaeological site, 975 m)",
+     "url": "https://www.geonames.org/9855406",
+     "lat": 11.046758,
+     "lon": -73.924505,
+     "ozet": "Santa Marta ilçesinde arkeolojik sit; TGN'ye ~1 km."
+    },
+    {
+     "kaynak": "ICANH, 'Parque Arqueológico Teyuna'",
+     "url": "https://www.icanh.gov.co/parques-icanh/parque-arqueologico-teyuna",
+     "lat": null,
+     "lon": null,
+     "ozet": "Park Sierra Nevada de Santa Marta'nın kuzey yüzünde, Alto Buritaca bölgesinde, Santa Marta ilçesinde (koordinatla tutarlı); ICANH 1976'dan beri araştırıyor."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "ICANH sayfası kuruluş tarihi vermiyor."
+   },
+   "gerekce": "GeoNames'teki aynı adlı öteki üç kayıt (Zona Bananera, La Paz) modern köylerdir — elendi.",
+   "grup": "E"
+  },
+  {
+   "no": 111,
+   "bolge": "guney-amerika",
+   "tsv_yer": "Huari",
+   "bilesen": "Huari / Wari",
+   "durum": "cozulemedi",
+   "gerekce": "Homonim: TGN 1024536/6002659 ve GeoNames 'Huari' kayıtları Ancash'taki Huari kasabası/ilidir (-9.37, -77.2), Wari başkenti değil. Ayacucho'nun ~25 km kuzeyindeki Wari sitine koordinat veren bağımsız kaynak bulunamadı (TGN servis hatası; Jennings vd. 2024 Chungará PDF'i indirilemedi; GeoNames 'Wari Accopampa' Ayacucho şehrinin mahallesidir).",
+   "grup": "E"
+  },
+  {
+   "no": 112,
+   "bolge": "guney-amerika",
+   "tsv_yer": "La Centinela",
+   "bilesen": "La Centinela",
+   "durum": "cift_tanik",
+   "ad": "La Centinela",
+   "eski_adlar": [
+    "Huaca Centinela"
+   ],
+   "modern": "",
+   "ulke": "Peru",
+   "lat": -13.450695,
+   "lon": -76.171945,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 6667181 (Huaca Centinela, archaeological site, Tambo de Mora)",
+     "url": "https://www.geonames.org/6667181",
+     "lat": -13.450695,
+     "lon": -76.171945,
+     "ozet": "Chincha ilinde Tambo de Mora ilçesinde arkeolojik sit."
+    },
+    {
+     "kaynak": "C. Morris & J. I. Santillana, 'The Inca Compound at La Centinela, Chincha', Andean Past 8 (2007)",
+     "url": "https://journals.maine.edu/andean_past/article/download/2766/2759/2761",
+     "lat": null,
+     "lon": null,
+     "ozet": "Chincha vadisinde, kıyıya yakın La Centinela; Geç Ara Dönem'den (MS 1250-1470) İnka dönemine kadar Chincha senyörlüğünün merkezi."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "Andean Past: site Geç Ara Dönem'den (MS 1250-1470) beri kullanılıyor; kuruluş yılı yok."
+   },
+   "gerekce": "Homonim ayrımı: GeoNames 11087890 'Huaca Centinela' (Chincha Baja, -13.547) ve Arequipa'daki La Centinela farklı yerler; Tambo de Mora kaydı seçildi (La Centinela–Tambo de Mora kompleksi).",
+   "grup": "E"
+  },
+  {
+   "no": 210,
+   "bolge": "kuzey-afrika",
+   "tsv_yer": "Tamesna",
+   "bilesen": "Tamesna",
+   "durum": "cozulemedi",
+   "gerekce": "TDV ('MASMÛDE', 'DÂRÜLBEYZÂ', 'HEVVÂRE') Tâmesnâ'yı Selâ, Azemmûr ve Enfâ'yı içeren BÖLGE adı olarak verir, şehir değil. GeoNames 8299790 'Tamesna' Rabat yakınında 2000'lerde kurulan yeni kent — homonim. Bergavâta merkezi için kaynaklı şehir adı/koordinat bulunamadı.",
+   "grup": "E"
+  },
+  {
+   "no": 211,
+   "bolge": "kuzey-afrika",
+   "tsv_yer": "Nekor  Temsaman",
+   "bilesen": "Nekor / Temsaman",
+   "durum": "cozulemedi",
+   "gerekce": "Tek tanık kaldı: Getty TGN 8698175 (35.111, -3.858, 'former primary political entity' noktası). TDV'de Nekûr maddesi yok (yalnız 'EVREBE' maddesinde ad geçer, konumsuz); akademik konum kaynağı bulunamadı; web kaynakları çelişkili (Beni Bouayach yakını / Hoseyme'nin 22 km güneyi / baraj gölü altında).",
+   "grup": "E"
+  },
+  {
+   "no": 212,
+   "bolge": "kuzey-afrika",
+   "tsv_yer": "Zavîle",
+   "bilesen": "Zavîle",
+   "durum": "cift_tanik",
+   "ad": "Zevîle",
+   "eski_adlar": [
+    "Zawila",
+    "Zuwila",
+    "Zawīlah",
+    "Zuila"
+   ],
+   "modern": "Zawilah",
+   "ulke": "Libya",
+   "lat": 26.161882,
+   "lon": 15.125216,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 2208566 (Zawīlah)",
+     "url": "https://www.geonames.org/2208566",
+     "lat": 26.161882,
+     "lon": 15.125216,
+     "ozet": "Libya, Murzuk ilçesinde yerleşim; Jabal Zawīlah 6 km kuzeyde."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'FİZAN' (Kemal Kahraman)",
+     "url": "https://islamansiklopedisi.org.tr/fizan",
+     "lat": null,
+     "lon": null,
+     "ozet": "Zevîle Fizan'ın başlıca ticaret merkezlerinden; Hevvâreli İbn Hattâb ailesi 306 (918)'de Zevîle'ye yerleşip XII. yüzyıl başına kadar hüküm sürdü."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'LİBYA' (Ahmet Kavas)",
+     "url": "https://islamansiklopedisi.org.tr/libya",
+     "lat": null,
+     "lon": null,
+     "ozet": "Ukbe b. Nâfi Fizan'ın merkezi konumundaki Zevîle'yi fethedip karargâh yaptı; Karakuş Benî Hattâb'ın Zevîle'sini aldı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "TDV 'LİBYA': Ukbe b. Nâfi'in fethi 662'den sonra (yıl verilmiyor); Benî Hattâb'ın yerleşmesi 918 (TDV 'FİZAN')."
+   },
+   "gerekce": "Konum cümlesi (Fizan merkezi) koordinatla tutarlı.",
+   "grup": "E"
+  },
+  {
+   "no": 213,
+   "bolge": "kuzey-afrika",
+   "tsv_yer": "Evrâs  Aurès",
+   "bilesen": "Evrâs / Aurès",
+   "durum": "cozulemedi",
+   "gerekce": "Evrâs/Aurès bir DAĞ BÖLGESİdir (TDV 'HAMMÂDÎLER': 'Evrâs dağları'; Pleiades 'Aurasius Mons'), yerleşim değil; Masties krallığının merkezi için kaynaklı şehir adı bulunamadı.",
+   "grup": "E"
+  },
+  {
+   "no": 214,
+   "bolge": "kuzey-afrika",
+   "tsv_yer": "Velîlâ → Fas → Hacerünnesr",
+   "bilesen": "Hacerünnesr",
+   "durum": "cozulemedi",
+   "gerekce": "TDV ('İDRÎSÎLER', 'HASAN el-İDRÎSÎ', 'MÛSÂ b. EBÜ'l-ÂFİYE') kaleyi yalnız 'Rif dağında' diye anar; koordinatlı gazetteer kaydı yok. Larache'nin ~40 km doğusu bilgisi yalnız Vikipedi'de; asıl yayın (Cressier vd. 1998, Casa de Velázquez) erişilemedi.",
+   "grup": "E"
+  },
+  {
+   "no": 215,
+   "bolge": "kuzey-afrika",
+   "tsv_yer": "Kal‘atü Benî Hammâd → Bicâye",
+   "bilesen": "Kal‘atü Benî Hammâd",
+   "durum": "cift_tanik",
+   "ad": "Kal‘atü Benî Hammâd",
+   "eski_adlar": [
+    "Qal'at Bani Hammad",
+    "Kalâa des Béni Hammad",
+    "Beni Hammad Fort"
+   ],
+   "modern": "",
+   "ulke": "Cezayir",
+   "lat": 35.82159,
+   "lon": 4.78994,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 6941924 (Al Qal'a of Beni Hammad)",
+     "url": "https://www.geonames.org/6941924",
+     "lat": 35.82159,
+     "lon": 4.78994,
+     "ozet": "M'Sila ilinde arkeolojik sit."
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2783708 (Qalʿat Banī Ḥammād, archaeological site)",
+     "url": "https://gazetteer.dainst.org/place/2783708",
+     "lat": 35.8,
+     "lon": 4.8,
+     "ozet": "Aynı sit, ~2.5 km (yuvarlatılmış koordinat)."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'KAL‘ATÜ BENÎ HAMMÂD' (Semavi Eyice)",
+     "url": "https://islamansiklopedisi.org.tr/kalatu-beni-hammad",
+     "lat": null,
+     "lon": null,
+     "ozet": "Burcbû-Arrîrîc tren istasyonunun 31 km güneyinde, Mesîle'nin kuzeydoğusunda Cebelümaâdîd'in güney yamacında; 398 (1007-08)'de inşa edildi (konum koordinatla tutarlı)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "1007",
+    "kaynak": "TDV: Hammâd tarafından 398 (1007-1008) yılında inşa edildi (hicrî yıl iki mîlâdî yıla taşar)."
+   },
+   "gerekce": "UNESCO WHC sayfası Cloudflare 403 verdi; iDAI + GeoNames + TDV yeterli.",
+   "grup": "E"
+  },
+  {
+   "no": 216,
+   "bolge": "kuzey-afrika",
+   "tsv_yer": "Kayrevan → Rakkāde",
+   "bilesen": "Rakkāde / Raqqada / Rakkada",
+   "durum": "cift_tanik",
+   "ad": "Rakkāde",
+   "eski_adlar": [
+    "Raqqada",
+    "Raqqāda"
+   ],
+   "modern": "Rakada",
+   "ulke": "Tunus",
+   "lat": 35.5962,
+   "lon": 10.0569,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2770962 (Raqqada, Kairuán, archaeological site)",
+     "url": "https://gazetteer.dainst.org/place/2770962",
+     "lat": 35.596243,
+     "lon": 10.0569,
+     "ozet": "Kayrevan'da Raqqāda arkeolojik siti."
+    },
+    {
+     "kaynak": "GeoNames 11874019 (National Museum of Islamic Art of Raqqada, Rakada)",
+     "url": "https://www.geonames.org/11874019",
+     "lat": 35.5962,
+     "lon": 10.0569,
+     "ozet": "Sit üzerindeki müze; Kairouan Sud > Rakada."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'İBRÂHİM II' (Nadir Özkuyumcu) ve 'AĞLEBÎLER' (Abdülkerim Özaydın)",
+     "url": "https://islamansiklopedisi.org.tr/ibrahim-ii",
+     "lat": null,
+     "lon": null,
+     "ozet": "II. İbrâhim 263 (877)'de Rakkāde şehrinin temelini attı, bir yılda tamamladı ve oraya yerleşti; Kayrevan ve Abbâsiyye ile birlikte Ağlebî eserleri arasında sayılır (TDV 'ABBÂSİYYE': Rakkāde'nin kuruluşu 877)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "877",
+    "kaynak": "TDV 'İBRÂHİM II' ve 'ABBÂSİYYE': 263 (877)."
+   },
+   "gerekce": "Uyarı: iDAI ve GeoNames koordinatları birebir aynı (ortak kökenli olabilir); TDV konum cümlesi vermiyor, yalnız Kayrevan bağlamı. Kayrevan'ın ~10 km güneybatısı bilgisi yalnız Vikipedi/basında (tanık sayılmadı) ve koordinatla tutarlı.",
+   "grup": "E"
+  },
+  {
+   "no": 217,
+   "bolge": "kuzey-afrika",
+   "tsv_yer": "Ağmât → Merakeş",
+   "bilesen": "Ağmât / Aghmat / Aghmāt",
+   "durum": "cift_tanik",
+   "ad": "Ağmât",
+   "eski_adlar": [
+    "Aghmat",
+    "Aghmāt",
+    "Ghmat"
+   ],
+   "modern": "Ghmat",
+   "ulke": "Fas",
+   "lat": 31.4225,
+   "lon": -7.80111,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 8556210 (Aghmat)",
+     "url": "https://www.geonames.org/8556210",
+     "lat": 31.4225,
+     "lon": -7.80111,
+     "ozet": "Fas, Marakeş-Safi bölgesinde yerleşim."
+    },
+    {
+     "kaynak": "FastiOnline (AIAC), AIAC_3669 – Aghmat 2015 (A. Fili, R. Messier)",
+     "url": "https://fastionline.org/s/folder/item/5996",
+     "lat": null,
+     "lon": null,
+     "ozet": "Ortaçağ Aghmat siti Ghmat köyü yakınında, Marakeş'in 30 km güneydoğusunda, Haouz ovasının güney kenarında, Ourika vadisinde (koordinat Marakeş'e ~29 km GD — tutarlı)."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'MURÂBITLAR' (İsmail Yiğit) ve 'HEVVÂRE'",
+     "url": "https://islamansiklopedisi.org.tr/murabitlar",
+     "lat": null,
+     "lon": null,
+     "ozet": "Abdullah b. Yâsîn'e bağlı kuvvetler Ağmât'ı Zenâte'den alıp geçici başşehir yaptı (448/1056); 'HEVVÂRE': şehri Hevvâre kolları kurdu."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "FastiOnline: İslâm öncesinde var olduğu kaynaklardan bilinir (yıl yok); TDV kuruluş yılı vermiyor."
+   },
+   "gerekce": "Önceki turun 'iki aynı adlı yer' belirsizliği: Marakeş'in 30 km GD'sundaki kayıt seçildi.",
+   "grup": "E"
+  },
+  {
+   "no": 218,
+   "bolge": "kuzey-amerika",
+   "tsv_yer": "Snaketown",
+   "bilesen": "Snaketown",
+   "durum": "cift_tanik",
+   "ad": "Snaketown",
+   "eski_adlar": [],
+   "modern": "",
+   "ulke": "ABD",
+   "lat": 33.1831066,
+   "lon": -111.9195843,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 5314915 (Snaketown)",
+     "url": "https://www.geonames.org/5314915",
+     "lat": 33.1831066,
+     "lon": -111.9195843,
+     "ozet": "Arizona, Pinal County."
+    },
+    {
+     "kaynak": "Getty TGN 2673248 (Snaketown)",
+     "url": "http://vocab.getty.edu/tgn/2673248",
+     "lat": 33.1667,
+     "lon": -111.9167,
+     "ozet": "~2 km (önceki tur)."
+    },
+    {
+     "kaynak": "U.S. National Park Service, NRHP NRIS 07001462 'Snaketown'",
+     "url": "https://npgallery.nps.gov/AssetDetail/NRIS/07001462",
+     "lat": null,
+     "lon": null,
+     "ozet": "Ulusal Tarihî Yerler Sicili kaydı: Pinal County, Arizona, Chandler yakını; NPS tarihçesi siti Phoenix'in güneyinde Gila River rezervasyonunda verir (koordinatla tutarlı)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "Tanıklarda kuruluş yılı yok."
+   },
+   "gerekce": "GeoNames+TGN ortak (GNIS) kökenli olabilir; NPS üçüncü tanık. Ohio'daki 'Snaketown' (Florida, OH) homonim — elendi.",
+   "grup": "E"
+  },
+  {
+   "no": 219,
+   "bolge": "kuzey-amerika",
+   "tsv_yer": "Chaco Kanyonu  Pueblo Bonito",
+   "bilesen": "Chaco Kanyonu / Pueblo Bonito",
+   "durum": "cift_tanik",
+   "ad": "Pueblo Bonito",
+   "eski_adlar": [
+    "Chaco Kanyonu"
+   ],
+   "modern": "",
+   "ulke": "ABD",
+   "lat": 36.0605708,
+   "lon": -107.9617301,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 5485291 (Pueblo Bonito)",
+     "url": "https://www.geonames.org/5485291",
+     "lat": 36.0605708,
+     "lon": -107.9617301,
+     "ozet": "New Mexico, San Juan County."
+    },
+    {
+     "kaynak": "Getty TGN 6004853 (Pueblo Bonito, former structures)",
+     "url": "http://vocab.getty.edu/tgn/6004853",
+     "lat": 36.06,
+     "lon": -107.961,
+     "ozet": "Chaco Canyon, San Juan, New Mexico (aynı nokta)."
+    },
+    {
+     "kaynak": "U.S. National Park Service, 'Pueblo Bonito' (Chaco Culture NHP)",
+     "url": "https://www.nps.gov/places/pueblo-bonito.htm",
+     "lat": null,
+     "lon": null,
+     "ozet": "Chaco kültürünün merkezi büyük ev; MS 850-1150 arasında evreler hâlinde inşa edildi; ziyaretçi merkezinden 4,5 mil, kanyon döngü yolunda."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "850",
+    "kaynak": "NPS: MS 850-1150 arasında evreler hâlinde inşa edildi."
+   },
+   "gerekce": "UNESCO WHC 353 sayfası 403; NPS ulusal miras kurumu tanığı.",
+   "grup": "E"
+  },
+  {
+   "no": 247,
+   "bolge": "okyanusya",
+   "tsv_yer": "yok",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "Kaynak yer adı vermiyor (TSV: 'yok'; devletler hawaii-erken, kamag-mogol, mariana-latte).",
+   "grup": "E"
+  },
+  {
+   "no": 248,
+   "bolge": "okyanusya",
+   "tsv_yer": "Nan Madol",
+   "bilesen": "Nan Madol",
+   "durum": "cift_tanik",
+   "ad": "Nan Madol",
+   "eski_adlar": [
+    "Nanmadol"
+   ],
+   "modern": "",
+   "ulke": "Mikronezya",
+   "lat": 6.841,
+   "lon": 158.338,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 7032372 (Nanmadol)",
+     "url": "http://vocab.getty.edu/tgn/7032372",
+     "lat": 6.841,
+     "lon": 158.338,
+     "ozet": "Pohnpei (önceki tur)."
+    },
+    {
+     "kaynak": "GeoNames 2081837 (Nan Madol – Saudeleur Dynasty HQ)",
+     "url": "https://www.geonames.org/2081837",
+     "lat": 6.84337,
+     "lon": 158.33221,
+     "ozet": "Madolenihm, Pohnpei; TGN'ye <1 km."
+    },
+    {
+     "kaynak": "M. D. McCoy, H. A. Alderson, R. Hemi, H. Cheng, R. L. Edwards, Quaternary Research 86(3) (2016) 295-303",
+     "url": "https://doi.org/10.1016/j.yqres.2016.08.002",
+     "lat": null,
+     "lon": null,
+     "ozet": "Pohnpei'deki Nan Madol'da anıt inşasının U-Th tarihlemesiyle MS 1180-1200'de başladığını gösterir."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "1180",
+    "kaynak": "McCoy vd. 2016: anıt inşasının başlangıcı MS 1180-1200."
+   },
+   "gerekce": "GeoNames+TGN ortak kökenli olabilir; McCoy vd. akademik üçüncü tanık. UNESCO WHC 1503 sayfası 403.",
+   "grup": "E"
+  },
+  {
+   "no": 249,
+   "bolge": "okyanusya",
+   "tsv_yer": "Anakena",
+   "bilesen": "Anakena",
+   "durum": "cift_tanik",
+   "ad": "Anakena",
+   "eski_adlar": [],
+   "modern": "",
+   "ulke": "Şili",
+   "lat": -27.074811,
+   "lon": -109.326302,
+   "konum_kesinligi": "kesin",
+   "tur": "kasaba",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 12087151 (Anakena, locality)",
+     "url": "https://www.geonames.org/12087151",
+     "lat": -27.074811,
+     "lon": -109.326302,
+     "ozet": "Paskalya Adası kuzey kıyısı; Playa de Anakena (12087150) ve Caleta Anakena (4030763) <1 km."
+    },
+    {
+     "kaynak": "T. L. Hunt & C. P. Lipo, 'Late colonization of Easter Island', Science 311 (2006) 1603-1606 (Hawaiʻi Üniv. duyurusu üzerinden)",
+     "url": "https://manoa.hawaii.edu/news/article.php?aId=1364",
+     "lat": null,
+     "lon": null,
+     "ozet": "Kazılar Anakena'da, adanın tek kum tepuluğunda, ilk yerleşenlerin karaya çıkış ve yerleşim yerinde; en erken iskân ~MS 1200."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "1200",
+    "kaynak": "Hunt & Lipo 2006: en erken iskân ~MS 1200 (tartışmalı; 2024 PLOS ONE çalışması MS ~1000-1300 kullanımı der)."
+   },
+   "gerekce": "Başkent değil kral soyunun (Miru) kutsal yerleşimi; yer kesin.",
+   "grup": "E"
+  },
+  {
+   "no": 250,
+   "bolge": "orta-afrika",
+   "tsv_yer": "Njimi → Ngazargamu",
+   "bilesen": "Njimi",
+   "durum": "cozulemedi",
+   "gerekce": "Njimi'nin yeri akademik olarak hiç kesin tespit edilmedi (Frobenius Enstitüsü/UEA Garumele çalışmaları); iDAI 1004500 'Tié' noktası Njimi değil, önerilen adaylardan biri bile değil. TDV 'KÂNİM'de konum yok.",
+   "grup": "E"
+  },
+  {
+   "no": 251,
+   "bolge": "orta-afrika",
+   "tsv_yer": "Njimi → Ngazargamu",
+   "bilesen": "Ngazargamu",
+   "durum": "cift_tanik",
+   "ad": "N'Gazargamu",
+   "eski_adlar": [
+    "Birni N'gazargamu",
+    "Birnin Gazargamo",
+    "Ngazargamu"
+   ],
+   "modern": "",
+   "ulke": "Nijerya",
+   "lat": 13.047,
+   "lon": 12.227,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 6004236 (Birni Ngazargamu)",
+     "url": "http://vocab.getty.edu/tgn/6004236",
+     "lat": 13.047,
+     "lon": 12.227,
+     "ozet": "Nijerya (önceki tur)."
+    },
+    {
+     "kaynak": "Frobenius-Institut, Kanem-Bornu sergi broşürü (Magnavita 2011, Gronenborn ed.)",
+     "url": "https://frobenius-institut.de/images/stories/Ausstellungen/Kanem-Bornou/Broschure%20Tschad%20DS_web.pdf",
+     "lat": null,
+     "lon": null,
+     "ozet": "Başkent Komadugu Yobe ırmağı üzerinde, ~1470'te kuruldu, ~310 ha; saray kompleksi jeofizikle tarandı (koordinat Geidam'ın KD'sunda Komadugu Yobe kıyısına düşer)."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'KÂNİM' (Ahmet Kavas) ve 'BORNU' (Davut Dursun)",
+     "url": "https://islamansiklopedisi.org.tr/kanim",
+     "lat": null,
+     "lon": null,
+     "ozet": "Ali b. Dûneme 1472'de N'Gazargamu'yu yeni başşehir yaptı; 1808-11'de Fûlânîler aldı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "1472",
+    "kaynak": "TDV 'KÂNİM': 1472'de başşehir yapıldı (Frobenius: ~1470)."
+   },
+   "gerekce": "Konum cümlesi yalnız ırmak düzeyinde; koordinat TGN'den → yaklaşık.",
+   "grup": "E"
+  },
+  {
+   "no": 252,
+   "bolge": "orta-amerika",
+   "tsv_yer": "San Lorenzo → La Venta",
+   "bilesen": "San Lorenzo / San Lorenzo Tenochtitlán",
+   "durum": "cift_tanik",
+   "ad": "San Lorenzo Tenochtitlán",
+   "eski_adlar": [
+    "San Lorenzo"
+   ],
+   "modern": "",
+   "ulke": "Meksika",
+   "lat": 17.767,
+   "lon": -94.75,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "L. F. Hernández Lara, 'Huellas químicas de la alimentación olmeca: el chile y sus biomarcadores en San Lorenzo, Veracruz', lisans tezi, Universidad de las Américas Puebla 2016 (danışman Ann Cyphers; INAH deposu)",
+     "url": "https://investigacion.inah.gob.mx/_flysystem/fedora/2024-11/huellas-quimicas-de-la-alimentacion-olmeca-el-chile.pdf",
+     "lat": 17.767,
+     "lon": -94.75,
+     "ozet": "San Lorenzo sitini Texistepec'te Tenochtitlán köyüne 2,5 km, aşağı Coatzacoalcos havzasında, 17°46'K 94°45'B koordinatında, 50-82 m yükseklikte verir."
+    },
+    {
+     "kaynak": "GeoNames 3825232 (San Lorenzo Tenochtitlán, populated place, Texistepec)",
+     "url": "https://www.geonames.org/3825232",
+     "lat": 17.755,
+     "lon": -94.76028,
+     "ozet": "Siti barındıran köy; INAH noktasına ~1,7 km."
+    },
+    {
+     "kaynak": "INAH Lugares, 'San Lorenzo Tenochtitlan' zona arqueológica",
+     "url": "https://lugares.inah.gob.mx/en/node/4454",
+     "lat": null,
+     "lon": null,
+     "ozet": "Texistepec belediyesinde, aşağı Coatzacoalcos havzasında büyük bir ada üzerinde; en erken iskân MÖ 1500-1200 (Ojochi ve Bajío evreleri)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "-1500",
+    "kaynak": "INAH Lugares: en erken iskân MÖ 1500-1200 (Ojochi/Bajío)."
+   },
+   "gerekce": "Homonim ayrımı: GeoNames 3518535 'ruins' (17.667, -94.833, Sayula) ~12 km uzakta ve kaba; Puerto Rico/Nikaragua vb. San Lorenzo'lar elendi.",
+   "grup": "E"
+  },
+  {
+   "no": 253,
+   "bolge": "orta-amerika",
+   "tsv_yer": "cok merkezli",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "Kaynak yer adı vermiyor ('cok merkezli', maya-klasik).",
+   "grup": "E"
+  },
+  {
+   "no": 254,
+   "bolge": "orta-amerika",
+   "tsv_yer": "Cacaxtla",
+   "bilesen": "Cacaxtla",
+   "durum": "cift_tanik",
+   "ad": "Cacaxtla",
+   "eski_adlar": [
+    "Cacaxtla-Xochitécatl"
+   ],
+   "modern": "",
+   "ulke": "Meksika",
+   "lat": 19.244302,
+   "lon": -98.340076,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "INAH Lugares, Zona Arqueológica Cacaxtla-Xochitécatl / Museo de Sitio de Cacaxtla",
+     "url": "https://lugares.inah.gob.mx/es/taxonomy/term/357",
+     "lat": null,
+     "lon": null,
+     "ozet": "Tlaxcala şehrinin güneybatısında, San Miguel del Milagro (Nativitas) yakınında (koordinatla tutarlı); sayfada koordinat yok."
+    },
+    {
+     "kaynak": "GeoNames 3815431 (Zona Arqueológica Cacaxtla)",
+     "url": "https://www.geonames.org/3815431",
+     "lat": 19.244302,
+     "lon": -98.340076,
+     "ozet": "Nativitas, Tlaxcala arkeolojik sit; INAH'a <200 m."
+    },
+    {
+     "kaynak": "Getty TGN 6001062 (Cacaxtla)",
+     "url": "http://vocab.getty.edu/tgn/6001062",
+     "lat": 19.2458,
+     "lon": -98.35,
+     "ozet": "~1 km (önceki tur)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "INAH sayfası tarih vermiyor."
+   },
+   "gerekce": "Sinaloa'daki Meseta/Mesa Cacaxtla (23.66K) homonim — elendi.",
+   "grup": "E"
+  },
+  {
+   "no": 255,
+   "bolge": "orta-amerika",
+   "tsv_yer": "yok  yayılmış cacicazgo'lar",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "Kaynak yer adı vermiyor ('yok  yayılmış cacicazgo'lar', taino-seflikleri).",
+   "grup": "E"
+  },
+  {
+   "no": 100,
+   "bolge": "dogu-avrupa",
+   "tsv_yer": "Belencer → İtil  İdil ağzı",
+   "bilesen": "Belencer",
+   "durum": "cozulemedi",
+   "gerekce": "TDV 'HAZARLAR' (Taşağıl): Belencer yalnız 'Dağıstan'daki' başşehir, Derbend'in kuzeyinde; somut harabe/koordinat vermiyor. Gazetteerlerde (TGN/iDAI/Pleiades/GeoNames) yok. Konum tartışmalı (Dağıstan'da birden çok aday harabe); iki akademik kaynağın aynı somut yeri gösterdiği tanık bulunamadı.",
+   "grup": "F"
+  },
+  {
+   "no": 101,
+   "bolge": "dogu-avrupa",
+   "tsv_yer": "Belencer → İtil  İdil ağzı",
+   "bilesen": "İtil",
+   "durum": "cozulemedi",
+   "gerekce": "TDV 'HAZARLAR': İdil/İtil 'İdil nehrinin ağzında', iki bölümlü (Akşehir/Sarıgşın); somut harabe yok. iDAI 2068841 'Itil' kaydı koordinatsız. Arkeolojik yeri tartışmalı (aday harabeler kabul görmüş değil); iki akademik kaynakta aynı somut nokta bulunamadı.",
+   "grup": "F"
+  },
+  {
+   "no": 102,
+   "bolge": "dogu-avrupa",
+   "tsv_yer": "yok  sekiz boylu konfederasyon",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  sekiz boylu konfederasyon' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 103,
+   "bolge": "dogu-avrupa",
+   "tsv_yer": "belirsiz  Don–Dinyester bozkırı",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'belirsiz  Don–Dinyester bozkırı' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 104,
+   "bolge": "dogu-avrupa",
+   "tsv_yer": "belirsiz  Pannonia",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'belirsiz  Pannonia' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 105,
+   "bolge": "dogu-avrupa",
+   "tsv_yer": "yok  Kuzey Kafkasya–Azak",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  Kuzey Kafkasya–Azak' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 106,
+   "bolge": "dogu-avrupa",
+   "tsv_yer": "yok  Kuban–Azak",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  Kuban–Azak' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 107,
+   "bolge": "dogu-avrupa",
+   "tsv_yer": "yok  Kafkasya",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  Kafkasya' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 256,
+   "bolge": "orta-asya",
+   "tsv_yer": "Longcheng",
+   "bilesen": "Longcheng",
+   "durum": "cozulemedi",
+   "gerekce": "Hunnu Longcheng (Ejder kenti, kurban/toplantı merkezi) konumu bilinmiyor; CHGIS'teki 5 Longcheng Çin içi homonim ilçelerdir, Moğolistan'daki Hunnu yeri değildir. Akademik iki tanıkla somut nokta bulunamadı.",
+   "grup": "F"
+  },
+  {
+   "no": 257,
+   "bolge": "orta-asya",
+   "tsv_yer": "yok  Tula ırmağı doğusu",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  Tula ırmağı doğusu' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 258,
+   "bolge": "orta-asya",
+   "tsv_yer": "Yenikent  Seyhun ağzı yakını",
+   "bilesen": "Yenikent",
+   "durum": "cift_tanik",
+   "ad": "Yenikent",
+   "eski_adlar": [
+    "Yangikent",
+    "Dzhankent",
+    "Jankent",
+    "Zhankent",
+    "Dzhan-kala",
+    "Şehrkent",
+    "el-Karyetü'l-hadîse",
+    "Dih-i Nev"
+   ],
+   "modern": "Jankent harabesi (Örkendeu köyü yanı, Kazalı ilçesi)",
+   "ulke": "Kazakistan",
+   "lat": 45.617,
+   "lon": 61.921,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Kazakistan bilim fonu araştırma raporu AP05131086 (2018-2020), Korkyt Ata Kızılorda Üniv. / Dzhankent kazısı",
+     "url": "https://www.ncste.kz/assets/report_files/2020/AP05131086-OT-20/en_62804__1043673_1604055575.docx",
+     "lat": 45.6098,
+     "lon": 61.937,
+     "ozet": "Dzhankent (Yangikent) yabgu ikametgâhı olarak tanımlanır; çevre ölçümleri: Mezarlık 1 '45°36'35.4\" N 61°56'13.3\" E', Zhankent (Örkendeu) köyünün 1,5 km güneyi; Myn-tobe 45°37'18.8\" N 61°54'29.7\" E, köyün 1 km batısı."
+    },
+    {
+     "kaynak": "archaeology.kz (Margulan Arkeoloji Enstitüsü kazı portalı), 'Zhankent, the hillfort'",
+     "url": "https://archaeology.kz/en/heritages/zhankent-qalasy",
+     "lat": null,
+     "lon": null,
+     "ozet": "Harabe Siriderya sol kıyısının 5 km GB'sında, Örkendeu köyünün 0,5 km güneyinde; Oğuz başkenti Yangikent/Zhankent, İbn Havkal'ın 'yeni yerleşme'si, kışlık ikametgâh."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'OĞUZLAR' ve 'CEND' (Abdülkerim Özaydın) maddeleri",
+     "url": "https://islamansiklopedisi.org.tr/oguzlar",
+     "lat": null,
+     "lon": null,
+     "ozet": "X. yy'da Oğuz devletinin başşehri Seyhun ağzı yakınındaki Yenikent; yabgunun kışlık merkezi (Cend md.: Şehrkent, el-Karyetü'l-hadîse, Dih-i Nev)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "10. yy",
+    "kaynak": "TDV 'OĞUZLAR': X. yüzyıl kaynaklarında Oğuz başşehri (İbn Havkal)"
+   },
+   "gerekce": "Konum: köy ≈ 45.622/61.921 (Myn-tobe noktası + '1 km batı'), harabe köyün 0,5 km güneyi ⇒ ≈45.617/61.921; rapordaki mezarlık noktası ~1,3 km. Harabenin kendi koordinatı akademik kaynakta okunmadı (Vikipedi 45.612/61.921 tanık sayılmadı) ⇒ yaklasik. TGN 'Yangikent' 8872758 Dağıstan'daki homonim köydür, kullanılmadı.",
+   "grup": "F"
+  },
+  {
+   "no": 259,
+   "bolge": "orta-asya",
+   "tsv_yer": "Ötüken",
+   "bilesen": "Ötüken",
+   "durum": "cozulemedi",
+   "gerekce": "Ötüken bir şehir değil, Hangay/Orhon-Tamir havzasında kutsal yer/bölge (TDV 'UYGURLAR': 'Ötüken (bugünkü Moğolistan)'); somut nokta veren iki akademik kaynak bulunamadı. Gazetteerlerde yerleşim olarak yok.",
+   "grup": "F"
+  },
+  {
+   "no": 260,
+   "bolge": "orta-asya",
+   "tsv_yer": "Estiyâ → Fîrûzkûh  Gazne ikinci merkez",
+   "bilesen": "Estiyâ",
+   "durum": "cozulemedi",
+   "gerekce": "TDV 'GURLULAR': Estiyâ yalnız 'Herat-Gazne arasındaki' eski başşehir; somut konum yok. Gazetteerlerde yok; iki tanık bulunamadı.",
+   "grup": "F"
+  },
+  {
+   "no": 261,
+   "bolge": "orta-asya",
+   "tsv_yer": "Bunjikat  Bencikes",
+   "bilesen": "Bunjikat / Bencikes",
+   "durum": "cift_tanik",
+   "ad": "Bunjikat",
+   "eski_adlar": [
+    "Bencikes",
+    "Bûncikes",
+    "Üsrûşene şehri",
+    "Kala-i Kahkaha",
+    "Şehristan"
+   ],
+   "modern": "Kalai Kahkaha harabesi, Şahriston",
+   "ulke": "Tacikistan",
+   "lat": 39.7745,
+   "lon": 68.8093,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 1220571 'Shahriston' (yerel cities1000)",
+     "url": "https://www.geonames.org/1220571",
+     "lat": 39.77447,
+     "lon": 68.80929,
+     "ozet": "Şahriston köyü; harabe bu yerleşmenin yanında (aşağıdaki iki kaynak)."
+    },
+    {
+     "kaynak": "UNESCO WHC Geçici Liste 1387 'The Site of Ancient Town of Shahristan (Kahkakha)' (Tacikistan, 1999)",
+     "url": "https://whc.unesco.org/en/tentativelists/1387/",
+     "lat": null,
+     "lon": null,
+     "ozet": "Antik şehir Ura-Tübe'nin 25 km GB'sında, Şahristan yerleşmesi yanında, Şahristansay kıyısında."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'ÜSRÛŞENE' (Aydın Usta, 2012)",
+     "url": "https://islamansiklopedisi.org.tr/usrusene",
+     "lat": null,
+     "lon": null,
+     "ozet": "Bölge merkezi Üsrûşene (Bencikes, Bûncikes) şehri; harabeleri Ura-Tepe'nin yaklaşık 25 km GB'sında."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "TDV ve UNESCO metninde kuruluş/ilk anılış yılı okunmadı"
+   },
+   "gerekce": "Kontrol: İstaravşan (Ura-Tepe) 39.914/69.003 → Şahriston ~22 km GB, '25 km GB' ile tutarlı. HOMONİM TUZAĞI: GeoNames 'Bundzhikat' adını İstaravşan'ın eşadına koyar; TDV harabeyi Ura-Tepe'nin 25 km GB'sına koyduğu için İstaravşan alınmadı. Koordinat köyündür, harabe ~1 km içinde ⇒ yaklasik.",
+   "grup": "F"
+  },
+  {
+   "no": 262,
+   "bolge": "orta-asya",
+   "tsv_yer": "yok  Tola-Orhon-Ongin havzası yurtları",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  Tola-Orhon-Ongin havzası yurtları' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 263,
+   "bolge": "orta-asya",
+   "tsv_yer": "Mumo",
+   "bilesen": "Mumo",
+   "durum": "cozulemedi",
+   "gerekce": "Rouran (Avar) merkezi Mumo'nun konumu belirsiz; TGN/iDAI/Pleiades'te yok, somut yer gösteren akademik kaynak bulunamadı.",
+   "grup": "F"
+  },
+  {
+   "no": 264,
+   "bolge": "orta-asya",
+   "tsv_yer": "belirsiz  Tohâristân",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'belirsiz  Tohâristân' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 265,
+   "bolge": "orta-asya",
+   "tsv_yer": "Ordu-Balık  Karabalgasun",
+   "bilesen": "Ordu-Balık / Karabalgasun / Ordu-Baliq / Khar Balgas / Kharbalgas / Ordu Baliq",
+   "durum": "cift_tanik",
+   "ad": "Ordu-Balık",
+   "eski_adlar": [
+    "Karabalgasun",
+    "Khar Balgas",
+    "Kharbalgas",
+    "Ordu-Baliq"
+   ],
+   "modern": "Khar Balgas (Hotont sumu, Arhangay)",
+   "ulke": "Moğolistan",
+   "lat": 47.4319,
+   "lon": 102.658,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer (DAI) 2281507 'Karabalgasun'",
+     "url": "https://gazetteer.dainst.org/place/2281507",
+     "lat": 47.431861,
+     "lon": 102.658003,
+     "ozet": "Karabalgasun yerleşim kaydı, Orhon vadisi."
+    },
+    {
+     "kaynak": "Getty TGN 8711890 'Ordu-Baliq'",
+     "url": "http://vocab.getty.edu/tgn/8711890",
+     "lat": 47.431,
+     "lon": 102.659,
+     "ozet": "Ordu-Baliq, Arhangay, Moğolistan; iDAI ile ~0,1 km."
+    },
+    {
+     "kaynak": "UNESCO WHC 1081 Orkhon Valley Cultural Landscape",
+     "url": "https://whc.unesco.org/en/list/1081/",
+     "lat": 47.479213,
+     "lon": 102.678482,
+     "ozet": "Miras alanı içinde 8.-9. yy Uygur başkenti Khar Balgas sayılır; alan merkez koordinatı (N47 28 45 E102 40 42) noktaya ~5,5 km."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "8. yy",
+    "kaynak": "UNESCO WHC 1081: 'the 8th-9th century Uighur capital of Khar Balgas'"
+   },
+   "gerekce": "iDAI + TGN noktası ~0,1 km uyumlu; UNESCO alanı yeri Uygur başkenti olarak tanımlar. TDV 'Uygurlar' maddesi (Çandarlıoğlu, c.42 s.242-244) Ötüken'i anar, Ordubalık adını vermez.",
+   "grup": "F"
+  },
+  {
+   "no": 266,
+   "bolge": "orta-asya",
+   "tsv_yer": "Kara-ordu  Balasagun yakını",
+   "bilesen": "Kara-ordu",
+   "durum": "cozulemedi",
+   "gerekce": "TDV 'KARLUKLAR' (Hüseyin Salman): başşehir 'Balasagun yakınlarındaki Kara-ordu' (766); somut harabe/koordinat yok. Gazetteerlerde yok; iki tanık bulunamadı.",
+   "grup": "F"
+  },
+  {
+   "no": 267,
+   "bolge": "orta-asya",
+   "tsv_yer": "Suyab",
+   "bilesen": "Suyab",
+   "durum": "cift_tanik",
+   "ad": "Suyab",
+   "eski_adlar": [
+    "Suyab",
+    "Ak-Beşim",
+    "Ak-Beshim",
+    "Suiye"
+   ],
+   "modern": "Ak-Beşim harabesi (Tokmok yakını)",
+   "ulke": "Kırgızistan",
+   "lat": 42.805,
+   "lon": 75.199,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 8711887 'Ak-Beshim'",
+     "url": "http://vocab.getty.edu/tgn/8711887",
+     "lat": 42.805,
+     "lon": 75.199,
+     "ozet": "Ak-Beshim, Çüy, Kırgızistan."
+    },
+    {
+     "kaynak": "iDAI.gazetteer (DAI) 2379307 'Ak-Beschim' (arkeolojik alan; 'Suyab' aramasıyla gelir)",
+     "url": "https://gazetteer.dainst.org/place/2379307",
+     "lat": 42.804469,
+     "lon": 75.198326,
+     "ozet": "Ak-Beşim arkeolojik alanı; TGN ile ~0,1 km."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "iki tanıkta tarih yok"
+   },
+   "gerekce": "Konum çift tanıklı, ama önceki turun MODEL REDDİ geçerli kalabilir: atlas Suyab/Ak-Beşim'i 'Balasagun (Ak-Beşim)' yerleşimiyle temsil ediyor (~6 km). Mükerrer yazmadan önce çağıran karar versin (Balasagun genelde Burana'ya konur; Ak-Beşim = Suyab — ayrı yer mi olacağı atlas kararı). TDV 'Suyab' slug'ı yok (302).",
+   "grup": "F"
+  },
+  {
+   "no": 268,
+   "bolge": "orta-asya",
+   "tsv_yer": "yok  göçebe Oğuz beyleri",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  göçebe Oğuz beyleri' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 269,
+   "bolge": "orta-asya",
+   "tsv_yer": "Tola vadisi  Kuzey Mogolistan",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'Tola vadisi  Kuzey Mogolistan' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 270,
+   "bolge": "orta-asya",
+   "tsv_yer": "Yudujun",
+   "bilesen": "Yudujun",
+   "durum": "cozulemedi",
+   "gerekce": "Xueyantuo merkezi Yudujun (Ötüken dağı/Tola yöresi) somut yer olarak hiçbir gazetteerde ve akademik kaynakta konumlanmadı.",
+   "grup": "F"
+  },
+  {
+   "no": 271,
+   "bolge": "orta-asya",
+   "tsv_yer": "Tarbagatay-Kara Irtış çevresi  şehir adı bulunamadı",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'Tarbagatay-Kara Irtış çevresi  şehir adı bulunamadı' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 272,
+   "bolge": "orta-asya",
+   "tsv_yer": "yok  Altay-Kara İrtiş bozkırı",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  Altay-Kara İrtiş bozkırı' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 280,
+   "bolge": "sibirya-bozkir",
+   "tsv_yer": "Yemekiye  yazlık",
+   "bilesen": "Yemekiye",
+   "durum": "cozulemedi",
+   "gerekce": "TDV 'KİMEK' (Faruk Sümer): Hudûdü'l-âlem'e göre hükümdarın yazın oturduğu 'Yemekiye adlı kasaba'; konum verilmiyor (İrtiş boyu genel). Gazetteerlerde yok; iki tanık bulunamadı.",
+   "grup": "F"
+  },
+  {
+   "no": 281,
+   "bolge": "sibirya-bozkir",
+   "tsv_yer": "Belencer → İtil",
+   "bilesen": "Belencer",
+   "durum": "ayni",
+   "ayni_no": 100,
+   "gerekce": "aynı yer (Hazar başkenti), satır 100 ile aynı sonuç: cozulemedi",
+   "grup": "F"
+  },
+  {
+   "no": 282,
+   "bolge": "sibirya-bozkir",
+   "tsv_yer": "Belencer → İtil",
+   "bilesen": "İtil",
+   "durum": "ayni",
+   "ayni_no": 101,
+   "gerekce": "aynı yer (Hazar başkenti), satır 101 ile aynı sonuç: cozulemedi",
+   "grup": "F"
+  },
+  {
+   "no": 283,
+   "bolge": "sibirya-bozkir",
+   "tsv_yer": "yok  başbuğ yurtları: Orta Asya",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  başbuğ yurtları: Orta Asya' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 284,
+   "bolge": "sibirya-bozkir",
+   "tsv_yer": "belirsiz  Yenisey havzası",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'belirsiz  Yenisey havzası' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 285,
+   "bolge": "sibirya-bozkir",
+   "tsv_yer": "yok  göçebe",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor: 'yok  göçebe' bölge/ırmak/göçebe tanımı, somut yerleşim adı yok",
+   "grup": "F"
+  },
+  {
+   "no": 0,
+   "bolge": "anadolu",
+   "tsv_yer": "Mazaka",
+   "bilesen": "Mazaka",
+   "durum": "cift_tanik",
+   "ad": "Mazaka",
+   "eski_adlar": [
+    "Mazaca",
+    "Eusebeia",
+    "Caesarea",
+    "Kaysâriye"
+   ],
+   "modern": "Kayseri",
+   "ulke": "Türkiye",
+   "lat": 38.7264,
+   "lon": 35.4744,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/629035",
+     "lat": 38.7264,
+     "lon": 35.4744,
+     "ozet": "Mazaka/Eusebeia/Caesarea: Kapadokya'nın baş şehri, bugünkü Kayseri (BAtlas 64 A3; TIB 2 Kappadokien 193-96)."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'KAYSERİ' maddesi (Mehmet İpşirli)",
+     "url": "https://islamansiklopedisi.org.tr/kayseri",
+     "lat": null,
+     "lon": null,
+     "ozet": "Erciyes'in kuzey eteğinde kurulan şehir antik dönemde Mazaka, Roma devrinde Caesarea adını taşır; bugünkü Kayseri."
+    },
+    {
+     "kaynak": "GeoNames 308464 (Kayseri)",
+     "url": "https://www.geonames.org/308464",
+     "lat": 38.73222,
+     "lon": 35.48528,
+     "ozet": "Kayseri şehir merkezi; Pleiades noktasına ~1,1 km."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "Girdideki önceki tanık Pleiades 629034 ('Mazaka', 38.7215/35.3285) Kayseri merkezinin ~13 km batısında ayrı bir BAtlas kaydıdır; krallık başkenti olan Mazaka-Eusebeia için 629035 alındı. Atlasta Kayseri zaten varsa bu yer o yerleşimin eski adıdır (eski_adlar).",
+   "grup": "H"
+  },
+  {
+   "no": 1,
+   "bolge": "anadolu",
+   "tsv_yer": "Bitlis → Erzen",
+   "bilesen": "Erzen",
+   "durum": "cift_tanik",
+   "ad": "Erzen",
+   "eski_adlar": [
+    "Arzan",
+    "Arzen",
+    "Garzan"
+   ],
+   "modern": "Erzen harabesi (Yanarsu/Garzan çayı, Kurtalan yakını)",
+   "ulke": "Türkiye",
+   "lat": 37.9779,
+   "lon": 41.3846,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/106515917",
+     "lat": 37.9779,
+     "lon": 41.3846,
+     "ozet": "Erzen (Arzen) harabesi; CIGS ve OSM konumları (37.978, 41.385)."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'DİLMAÇOĞULLARI' maddesi",
+     "url": "https://islamansiklopedisi.org.tr/dilmacogullari",
+     "lat": null,
+     "lon": null,
+     "ozet": "Siirt yakınlarındaki Erzen şehri (Garzan = Yanarsu) Dilmaçoğulları beyliğine katıldı; beylik Bitlis ve Erzen'de hüküm sürdü. Siirt'in batısı, Garzan çayı vadisi — koordinatla tutarlı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "Pleiades aynı noktayı Tigranocerta (874774) adayı olarak da gösterir (BAtlas: 'medieval city site of Arzan'); bkz. satır 4.",
+   "grup": "H"
+  },
+  {
+   "no": 2,
+   "bolge": "anadolu",
+   "tsv_yer": "Vahga",
+   "bilesen": "Vahga",
+   "durum": "cift_tanik",
+   "ad": "Vahga",
+   "eski_adlar": [
+    "Vahka",
+    "Baka",
+    "Feke Kalesi"
+   ],
+   "modern": "Feke Kalesi",
+   "ulke": "Türkiye",
+   "lat": 37.85,
+   "lon": 35.95,
+   "konum_kesinligi": "yaklasik",
+   "tur": "kale",
+   "tanik": [
+    {
+     "kaynak": "Robert W. Edwards, The Christian Architecture of the Levant arşivi (Edwards, Fortifications of Armenian Cilicia, 1987, s. 259-265)",
+     "url": "https://charlvarchive.org/Site/7",
+     "lat": 37.85,
+     "lon": 35.95,
+     "ozet": "Vahga (Feke/Baka/Vahka) kalesi: 37°51'K, 35°57'D (dakika hassasiyeti)."
+    },
+    {
+     "kaynak": "J. G. Dunbar - W. W. M. Boal, 'The Castle of Vahga', Anatolian Studies 14 (1964), s. 175-184",
+     "url": "https://www.cambridge.org/core/journals/anatolian-studies/article/abs/castle-of-vahga/2B2EB6C1BF1C1A326FDF1EC54E2A354C",
+     "lat": null,
+     "lon": null,
+     "ozet": "Kale Feke kasabasının 10 km'den az kuzeydoğusunda, 1250 m yükseklikte, Kozan'ın ~60 km KKD'sunda. Edwards koordinatı Feke'nin (GeoNames 315000: 37.814, 35.912) ~5 km KD'suna düşer — tutarlı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "Rupenî kalesi; Feke ilçe merkezi ile karıştırılmamalı (kale merkezin ~5 km KD'su). Koordinat dakika hassasiyetinde.",
+   "grup": "H"
+  },
+  {
+   "no": 3,
+   "bolge": "anadolu",
+   "tsv_yer": "Kummanni",
+   "bilesen": "Kummanni",
+   "durum": "cozulemedi",
+   "gerekce": "Kummanni'nin yeri tartışmalı: geleneksel özdeşleştirme Kapadokya Komana'sı (Şar; Pleiades 628959, 38.331/36.324), öteki görüşler Kilikya ovasında (Sirkeli vb.) arar. TGN/iDAI/GeoNames'te Kummanni kaydı yok; yeri somut konumla veren bağımsız ikinci tanık bulunamadı. Özdeşleştirme kaynakla teyit edilmeden nokta yazılmaz.",
+   "grup": "H"
+  },
+  {
+   "no": 4,
+   "bolge": "anadolu",
+   "tsv_yer": "Tigranokerta",
+   "bilesen": "Tigranokerta",
+   "durum": "cozulemedi",
+   "gerekce": "Konum tartışmalı ve tanıklar çelişiyor: Pleiades 874774 (BAtlas/Sinclair) Arzan-Erzen harabesine koyar (37.977, 41.382 — satır 1 Erzen ile aynı nokta); Getty TGN ise 'Tigranocerta'yı Siirt'in (7030350) eş adı sayar (~50 km doğu); literatürde Silvan özdeşleştirmesi de yaygın. Aynı yeri ≤10 km'de gösteren ikinci bağımsız tanık yok. Arzan özdeşleştirmesi kabul edilirse ayrı yer değil Erzen'in (satır 1) eski adıdır.",
+   "grup": "H"
+  },
+  {
+   "no": 5,
+   "bolge": "anadolu",
+   "tsv_yer": "Kelainai → Antigoneia  Orontes",
+   "bilesen": "Antigoneia",
+   "durum": "cozulemedi",
+   "gerekce": "Doğru yer Orontes Antigoneia'sı (Antigonos I, MÖ 307): tek koordinat tanığı Pleiades 658380 'Antigonia' (36.2634, 36.2301; DARMC, 10 km doğruluk, BAtlas 67 C4 'SW corner of Amuk plain'). TGN'de ve iDAI'de Suriye Antigoneia'sı yok (TGN yalnız Arnavutluk Antigonea ve İznik; iDAI yalnız Alexandria Troas ve Epir Antigonea); kesin yeri bilinmediği bildiriliyor. İkinci bağımsız tanık bulunamadı; önceki turun Troas noktası yanlıştı (doğru reddedilmiş).",
+   "grup": "H"
+  },
+  {
+   "no": 6,
+   "bolge": "anadolu",
+   "tsv_yer": "Isparta-Alâiye → Denizli",
+   "bilesen": "Isparta-Alâiye",
+   "durum": "cozulemedi",
+   "gerekce": "Tek yer adı değil, bölge çifti: TDV 'İNANÇOĞULLARI' (Tuncer Baykara) beyliğin 'önce Isparta-Alâiye, Elmalı, daha sonra sadece Denizli çevresinde' hüküm sürdüğünü söyler. Isparta ve Alâiye (Alanya) ayrı ve atlasta olması beklenen modern merkezlerdir; 'Isparta-Alâiye' adlı tek bir yerleşim yok.",
+   "grup": "H"
+  },
+  {
+   "no": 7,
+   "bolge": "anadolu",
+   "tsv_yer": "bulunamadı  kaynak merkez vermiyor",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('bulunamadı  kaynak merkez vermiyor').",
+   "grup": "H"
+  },
+  {
+   "no": 8,
+   "bolge": "anadolu",
+   "tsv_yer": "Antigoneia",
+   "bilesen": "Antigoneia",
+   "durum": "ayni",
+   "ayni_no": 5,
+   "grup": "H"
+  },
+  {
+   "no": 9,
+   "bolge": "arabistan",
+   "tsv_yer": "Gerrha",
+   "bilesen": "Gerrha",
+   "durum": "cozulemedi",
+   "gerekce": "Gerrha'nın yeri bilinmiyor: Pleiades 932483 'Thaj/Gerra?/Carra?' (26.878, 48.727) soru işaretli özdeşleştirmedir; Uqair vb. başka adaylar da var. TGN/iDAI/GeoNames'te Gerrha kaydı yok. Kesin konum veren iki bağımsız tanık bulunamadı.",
+   "grup": "H"
+  },
+  {
+   "no": 10,
+   "bolge": "arabistan",
+   "tsv_yer": "Nezva",
+   "bilesen": "Nezva",
+   "durum": "cift_tanik",
+   "ad": "Nezva",
+   "eski_adlar": [
+    "Nizvâ",
+    "Nizwa",
+    "Nazwā"
+   ],
+   "modern": "Nizwa",
+   "ulke": "Umman",
+   "lat": 22.9333,
+   "lon": 57.5333,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 1083249 (Nazwā; kaynaklar Rand McNally Atlas 1986, Britannica Book of the Year 1992, GNS)",
+     "url": "http://vocab.getty.edu/page/tgn/1083249",
+     "lat": 22.9333,
+     "lon": 57.5333,
+     "ozet": "Nazwā/Nizwā, Umman, ed-Dâhiliye: 22°56'K 57°32'D."
+    },
+    {
+     "kaynak": "GeoNames 286987 (Nizwá)",
+     "url": "https://www.geonames.org/286987",
+     "lat": 22.93333,
+     "lon": 57.53333,
+     "ozet": "Nizwá, Umman, PPLA."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'UMAN' maddesi",
+     "url": "https://islamansiklopedisi.org.tr/uman",
+     "lat": null,
+     "lon": null,
+     "ozet": "177'de (794) Nizvâ'da toplanan şûra ikinci İbâzî imamlığını kurdu; Nizvâ İbâzî imamlarının iç Umman'daki merkezi. Yerin kimliğini teyit eder, koordinat vermez."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "TGN ve GeoNames kısmen GNS türevidir; TGN ayrıca Rand McNally ve Britannica'ya dayanır. TDV yer kimliğini (Umman iç bölgesi, İbâzî merkezi) teyit eder.",
+   "grup": "H"
+  },
+  {
+   "no": 11,
+   "bolge": "arabistan",
+   "tsv_yer": "Hadarim",
+   "bilesen": "Hadarim",
+   "durum": "cozulemedi",
+   "gerekce": "Ühaydırîler'in merkezi Hıdrime (el-Hıdrime/el-Hadârim, Harc bölgesi): TDV 'YEMÂME' maddesi Muhammed b. Yûsuf el-Ühaydır'ın Hıdrime'yi merkez edindiğini söyler ama konum vermez. TGN/iDAI/Pleiades/GeoNames1000'de Hıdrime/Khidrima/Hadarim kaydı yok; koordinat tanığı bulunamadı.",
+   "grup": "H"
+  },
+  {
+   "no": 12,
+   "bolge": "arabistan",
+   "tsv_yer": "Hajar Yahirr  varsayım",
+   "bilesen": "Hajar Yahirr",
+   "durum": "cozulemedi",
+   "gerekce": "Tek koordinat tanığı iDAI 2751815 (14.7012, 46.4070). Awsan başkentinin Hacer Yahirr ile özdeşleştirilmesi akademik literatürde varsayım olarak geçer (TSV de 'varsayım' der); Heidelberg (Monumenta/ICOMOS) yayınlarına erişilemedi; ikinci bağımsız koordinat ya da somut konum cümlesi bulunamadı.",
+   "grup": "H"
+  },
+  {
+   "no": 13,
+   "bolge": "arabistan",
+   "tsv_yer": "San‘a → Zûcible",
+   "bilesen": "Zûcible",
+   "durum": "cift_tanik",
+   "ad": "Zûcible",
+   "eski_adlar": [
+    "Zû Cible",
+    "Dhu Jibla",
+    "Cible",
+    "Jibla"
+   ],
+   "modern": "Jiblah",
+   "ulke": "Yemen",
+   "lat": 13.9216,
+   "lon": 44.1467,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 8722012 (Jiblah; kaynak BWR database)",
+     "url": "http://vocab.getty.edu/page/tgn/8722012",
+     "lat": 13.9167,
+     "lon": 44.15,
+     "ozet": "Jiblah, Yemen, İb vilayeti."
+    },
+    {
+     "kaynak": "GeoNames 74185 (Jiblah)",
+     "url": "https://www.geonames.org/74185",
+     "lat": 13.92162,
+     "lon": 44.14668,
+     "ozet": "Jiblah, Yemen, PPLA2."
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2777505 (Masjid Arwā bint Aḥmad)",
+     "url": "https://gazetteer.dainst.org/place/2777505",
+     "lat": 13.9,
+     "lon": 44.1,
+     "ozet": "Seyyide Ervâ bint Ahmed camii (arkeolojik yer), kaba koordinat; Süleyhî kraliçesinin başkentindeki anıt."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'SULEYHÎLER' ve 'YEMEN' (Halil Kurt) maddeleri",
+     "url": "https://islamansiklopedisi.org.tr/suleyhiler",
+     "lat": null,
+     "lon": null,
+     "ozet": "Seyyide Hürre Ervâ bint Ahmed devlet merkezini San'a'dan Zûcible'ye taşıttı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "TDV konum vermez; Zûcible = Zû Cible/Jibla özdeşliği Ervâ bint Ahmed camii (iDAI) ile bağlanır. TGN kaynağı BWR (GNS değil).",
+   "grup": "H"
+  },
+  {
+   "no": 14,
+   "bolge": "arabistan",
+   "tsv_yer": "Kariyat el-Fav",
+   "bilesen": "Kariyat el-Fav",
+   "durum": "cift_tanik",
+   "ad": "Kariyat el-Fav",
+   "eski_adlar": [
+    "Karyetülfâv",
+    "Qaryat al-Faw",
+    "Dhāt Kāhl"
+   ],
+   "modern": "Qaryat al-Faw",
+   "ulke": "Suudi Arabistan",
+   "lat": 19.7819,
+   "lon": 45.1481,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url": "https://pleiades.stoa.org/places/45016677",
+     "lat": 19.7819,
+     "lon": 45.1481,
+     "ozet": "Dhāt Kāhl / Qaryat al-Faw: MÖ 4. yy - MS 5. yy arası iskân edilmiş büyük şehir, Kinde krallığının başkenti (OSM yerleşim alanı poligonu)."
+    },
+    {
+     "kaynak": "UNESCO Dünya Mirası 1712, 'The Cultural Landscape of Al-Faw Archaeological Area'",
+     "url": "https://whc.unesco.org/en/list/1712",
+     "lat": 19.7649,
+     "lon": 45.1634,
+     "ozet": "Alan koordinatı N19 45 53.7 E45 9 48.2; Pleiades noktasına ~2,5 km."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'KİNDE (Benî Kinde)' maddesi",
+     "url": "https://islamansiklopedisi.org.tr/kinde-beni-kinde",
+     "lat": null,
+     "lon": null,
+     "ozet": "Yemen-Şam ticaret yolu üzerindeki Kinde Devleti'nin ilk başşehri Karyetülfâv."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "MÖ 4. yy",
+    "kaynak": "Pleiades 45016677 (iskânın başlangıcı)"
+   },
+   "gerekce": "Homonim yok.",
+   "grup": "H"
+  },
+  {
+   "no": 15,
+   "bolge": "arabistan",
+   "tsv_yer": "Hecr  Yemâme",
+   "bilesen": "Hecr / Yemâme",
+   "durum": "cift_tanik",
+   "ad": "Hecr",
+   "eski_adlar": [
+    "Hacr",
+    "Hajr",
+    "Hacr el-Yemâme"
+   ],
+   "modern": "Riyad",
+   "ulke": "Suudi Arabistan",
+   "lat": 24.6877,
+   "lon": 46.7219,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 108410 (Riyadh)",
+     "url": "https://www.geonames.org/108410",
+     "lat": 24.68773,
+     "lon": 46.72185,
+     "ozet": "Riyad şehir merkezi."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'YEMÂME' maddesi",
+     "url": "https://islamansiklopedisi.org.tr/yemame",
+     "lat": null,
+     "lon": null,
+     "ozet": "Yâkūt'a göre Yemâme'nin merkezi Hacr'dır; Hıdrime merkez olunca Hacr'ın önemi azaldı, ama 'Riyad şehrinin burada kurulmasına kadar' varlığını sürdürdü — Hacr bugünkü Riyad'ın yerindedir."
+    },
+    {
+     "kaynak": "Pleiades 464208935 (ar-Riyāḍ; ad kayıtları Ḥaǧr / al-Ḥaǧr, TAVO Index)",
+     "url": "https://pleiades.stoa.org/places/464208935",
+     "lat": null,
+     "lon": null,
+     "ozet": "Riyad yerinin eski adı olarak Hajr'ı kaydeder; Pleiades konumu 'rough' ve kullanılamaz (37.5/47.5)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "Hacr modern Riyad'ın altında kalır; nokta şehir merkezi, yaklaşık. Atlasta Riyad varsa bu yer onun eski adıdır.",
+   "grup": "H"
+  },
+  {
+   "no": 238,
+   "bolge": "misir-sudan",
+   "tsv_yer": "Soba",
+   "bilesen": "Soba / Soba East",
+   "durum": "cift_tanik",
+   "ad": "Soba",
+   "eski_adlar": [
+    "Sûbâ",
+    "Soba East"
+   ],
+   "modern": "Soba (Hartum güneydoğusu)",
+   "ulke": "Sudan",
+   "lat": 15.45,
+   "lon": 32.6667,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 6005527 (Soba, historic site; kaynak Times Atlas 1994, USBGN 1989)",
+     "url": "http://vocab.getty.edu/page/tgn/6005527",
+     "lat": 15.45,
+     "lon": 32.6667,
+     "ozet": "Nil üzerinde, Sennar'ın kuzeyinde; erken Hıristiyan manastırı ve önemli şehir yeri."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'NÛBE' maddesi",
+     "url": "https://islamansiklopedisi.org.tr/nube",
+     "lat": null,
+     "lon": null,
+     "ozet": "Güneyde Hartum'a yakın bir merkez olan Sûbâ'da Alve Devleti hüküm sürüyordu. TGN noktası Hartum'un ~20 km GD'sunda Mavi Nil üzerinde — tutarlı."
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2767799 (Soba)",
+     "url": "https://gazetteer.dainst.org/place/2767799",
+     "lat": 15.4,
+     "lon": 32.9,
+     "ozet": "Arkeolojik yer, kaba koordinat (TGN'ye ~25 km); yalnız destekleyici."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "Koordinat dakika hassasiyetinde; Soba East höyükleri ~8 km kuzeyde olabilir — yaklaşık.",
+   "grup": "H"
+  },
+  {
+   "no": 239,
+   "bolge": "misir-sudan",
+   "tsv_yer": "Talmis  Kalabsha",
+   "bilesen": "Talmis / Kalabsha",
+   "durum": "cift_tanik",
+   "ad": "Talmis",
+   "eski_adlar": [
+    "Kalabsha",
+    "Kalâbsha",
+    "Kalābishah"
+   ],
+   "modern": "Kalabsha (eski yeri, Nasır gölü altında)",
+   "ulke": "Mısır",
+   "lat": 23.5691,
+   "lon": 32.8414,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 795868 (Talmis; DARE konumu)",
+     "url": "https://pleiades.stoa.org/places/795868",
+     "lat": 23.5691,
+     "lon": 32.8414,
+     "ozet": "Talmis (Kalabsha), BAtlas 81 C2; DARE köy-hassasiyetli konumu. Pleiades temsilî noktası (23.610, 32.769) DARMC kaynaklı ve ~9 km kuzeybatıda."
+    },
+    {
+     "kaynak": "Getty TGN 7534576 (Kalābishah; alt ad Talmis; kaynak NGA)",
+     "url": "http://vocab.getty.edu/page/tgn/7534576",
+     "lat": 23.55,
+     "lon": 32.8667,
+     "ozet": "Kalābishah = Talmis, Asvan; DARE noktasına ~3,3 km."
+    },
+    {
+     "kaynak": "Pleiades 795797 (Contra Talmis)",
+     "url": "https://pleiades.stoa.org/places/795797",
+     "lat": 23.562,
+     "lon": 32.886,
+     "ozet": "Karşı kıyıdaki kale; Talmis'in Nil'in batı kıyısında bu noktanın karşısında olduğunu gösterir."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "Tapınak 1960'larda New Kalabsha'ya (23.96, 32.87) taşındı; nokta eski şehir yeri. iDAI 2101596 TGN ile aynı noktayı verir (muhtemelen GNS).",
+   "grup": "H"
+  },
+  {
+   "no": 240,
+   "bolge": "misir-sudan",
+   "tsv_yer": "belirsiz  birimler arası farklı",
+   "bilesen": "-",
+   "durum": "cozulemedi",
+   "gerekce": "kaynak yer adı vermiyor ('belirsiz  birimler arası farklı').",
+   "grup": "H"
+  },
+  {
+   "no": 241,
+   "bolge": "misir-sudan",
+   "tsv_yer": "Rakkāde → Mehdiye → Sabra  Mansûriye",
+   "bilesen": "Rakkāde / Raqqada / Rakkada",
+   "durum": "cift_tanik",
+   "ad": "Rakkāde",
+   "eski_adlar": [
+    "Raqqada",
+    "Raqqâda",
+    "Reggada"
+   ],
+   "modern": "Raqqada (Kayrevan güneybatısı)",
+   "ulke": "Tunus",
+   "lat": 35.596,
+   "lon": 10.0565,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 8697603 (Raqqâda, deserted settlement; kaynak Tunus Kültür Bakanlığı)",
+     "url": "http://vocab.getty.edu/page/tgn/8697603",
+     "lat": 35.596,
+     "lon": 10.056,
+     "ozet": "Tarihî şehrin harabeleri, bugün müzeli bir parkta; Kayrevan vilayeti."
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2770962 (Raqqada, Kairuán)",
+     "url": "https://gazetteer.dainst.org/place/2770962",
+     "lat": 35.596243,
+     "lon": 10.0569,
+     "ozet": "İslâmî dönem şehri, arkeolojik yer; TGN'ye ~80 m (ayrı ölçüm)."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'İBRÂHİM II' ve 'AĞLEBÎLER' maddeleri",
+     "url": "https://islamansiklopedisi.org.tr/ibrahim-ii",
+     "lat": null,
+     "lon": null,
+     "ozet": "II. İbrâhim 263 (877) yılında Rakkāde şehrini inşa ettirip oraya yerleşti; Ağlebî başşehri, 909'da Ebû Abdullah eş-Şîî aldı (TDV 'FÂTIMÎLER')."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "877",
+    "kaynak": "TDV 'İBRÂHİM II': 263 (877) yılında inşa"
+   },
+   "gerekce": "Kayrevan'ın ~10 km GB'sı. bolge alanı misir-sudan olsa da yer Tunus'tadır.",
+   "grup": "H"
+  },
+  {
+   "no": 242,
+   "bolge": "misir-sudan",
+   "tsv_yer": "Rakkāde → Mehdiye → Sabra  Mansûriye",
+   "bilesen": "Sabra / Sabra al-Mansuriya / Mansuriya / Sabra Mansuriya",
+   "durum": "cift_tanik",
+   "ad": "Sabra Mansûriye",
+   "eski_adlar": [
+    "Sabra",
+    "Mansûriye",
+    "Sabra al-Mansuriya",
+    "Sayrelmansûriye"
+   ],
+   "modern": "Sabra al-Mansuriya (Kayrevan yanı)",
+   "ulke": "Tunus",
+   "lat": 35.6581,
+   "lon": 10.1139,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2770960 (al-Mansuriya, Kairuán; ad Ṣabra al-Manṣūriya)",
+     "url": "https://gazetteer.dainst.org/place/2770960",
+     "lat": 35.658056,
+     "lon": 10.113889,
+     "ozet": "İslâmî dönem şehri, arkeolojik yer."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'MEHDİYE', 'FÂTIMÎLER' (Eymen Fuâd Seyyid) ve 'MANSÛR el-FÂTIMÎ' maddeleri",
+     "url": "https://islamansiklopedisi.org.tr/mehdiye--tunus",
+     "lat": null,
+     "lon": null,
+     "ozet": "Mansûr-Billâh Kayrevan çevresindeki Sabra'da Mansûriye adıyla yeni şehir kurup başşehir yaptı (Safer 337/Ağustos 948); 'Kayrevan yakınlarında' kuruldu. iDAI noktası Kayrevan merkezinin ~3 km GD'su — tutarlı."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "947",
+    "kaynak": "TDV 'MANSÛR el-FÂTIMÎ': inşa ve başşehir 336 (947-48); TDV 'MEHDİYE': başşehir Safer 337/Ağustos 948"
+   },
+   "gerekce": "Irak'taki Tell Sabra (Pleiades 47886134) ve Mısır'daki Mansuriya (Pleiades 776197) homonimdir, alınmadı.",
+   "grup": "H"
+  },
+  {
+   "no": 243,
+   "bolge": "misir-sudan",
+   "tsv_yer": "Faras  Pachoras",
+   "bilesen": "Faras / Pachoras",
+   "durum": "cozulemedi",
+   "gerekce": "Tanıklar çelişiyor: Pleiades 795838 Pachoras (22.204, 31.499; DARMC/BAtlas 81 B3) ile iDAI 2042717 'Faras' (alt adı Pachoras; 21.919, 31.259) ~38 km ayrık. TGN 7593755 Faras (ancient site) koordinatsız (yalnız 'kuzey Sudan, Nasır gölü altında'). Pleiades noktası en olası aday (Faras katedrali Pleiades 884719317: 22.182, 31.497), ama ≤10 km ikinci bağımsız koordinat bulunamadı.",
+   "grup": "H"
+  },
+  {
+   "no": 244,
+   "bolge": "misir-sudan",
+   "tsv_yer": "Leontopolis",
+   "bilesen": "Leontopolis",
+   "durum": "cift_tanik",
+   "ad": "Leontopolis",
+   "eski_adlar": [
+    "Taremu",
+    "Tell el-Muqdam",
+    "Tell el-Moqdam"
+   ],
+   "modern": "Tell el-Muqdam (Kafr el-Muqdam yanı)",
+   "ulke": "Mısır",
+   "lat": 30.683,
+   "lon": 31.3555,
+   "konum_kesinligi": "kesin",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 727146 (Tell el-Moqdam)",
+     "url": "https://pleiades.stoa.org/places/727146",
+     "lat": 30.682989,
+     "lon": 31.355543,
+     "ozet": "Greko-Romen kaynaklarda Leontopolis denen iki yerden biri; Üçüncü Ara Dönem iskânı; konum EES Delta Survey'e göre."
+    },
+    {
+     "kaynak": "Getty TGN 7536040 (Kafr al Miqdām)",
+     "url": "http://vocab.getty.edu/page/tgn/7536040",
+     "lat": 30.6789,
+     "lon": 31.3566,
+     "ozet": "Tell'e adını veren Kafr el-Muqdam köyü, Dakahliye; Pleiades noktasına ~0,5 km."
+    },
+    {
+     "kaynak": "Archaeological Research Facility (UC Berkeley) Newsletter 1995 v2/2, Tell el-Muqdam Project",
+     "url": "https://arf.berkeley.edu/archaeology-news/arf-newsletter-1995-v2-2",
+     "lat": null,
+     "lon": null,
+     "ozet": "Tell el-Muqdam Delta'da, eski Mendes kolunun güney ucunda; Ptolemaios devrinde Leontopolis; bazı araştırmacılara göre 23. hanedanın merkezi."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": null,
+    "kaynak": "kaynaklarda kuruluş yılı yok"
+   },
+   "gerekce": "Homonim ayrımı: 23. hanedan bağlamında Leontopolis = Tell el-Muqdam; Tell el-Yahudiya (Pleiades 727147, Onias tapınağı) ve Isaura/Rakka/Zaliches Leontopolis'leri alınmadı. 23. hanedan merkezinin burası olduğu akademide öneri düzeyinde.",
+   "grup": "H"
+  },
+  {
+   "no": 245,
+   "bolge": "misir-sudan",
+   "tsv_yer": "Fustat → Katâi",
+   "bilesen": "Katâi / al-Qata'i / Qatai",
+   "durum": "cift_tanik",
+   "ad": "Katâi",
+   "eski_adlar": [
+    "el-Katâi'",
+    "al-Qata'i"
+   ],
+   "modern": "Kahire, İbn Tolun Camii çevresi",
+   "ulke": "Mısır",
+   "lat": 30.0288,
+   "lon": 31.2496,
+   "konum_kesinligi": "yaklasik",
+   "tur": "sehir",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2773269 (Jamiʿ Ahmad ibn Tulun)",
+     "url": "https://gazetteer.dainst.org/place/2773269",
+     "lat": 30.028785,
+     "lon": 31.249567,
+     "ozet": "İbn Tolun Camii binası."
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, 'İBN TOLUN CAMİİ' ve 'TOLUNOĞULLARI' maddeleri",
+     "url": "https://islamansiklopedisi.org.tr/ibn-tolun-camii",
+     "lat": null,
+     "lon": null,
+     "ozet": "Cami, Fustat'ın kuzeydoğusunda yeni kurulan ve Katâi' adı verilen merkezde Cebelyeşkür tepesinde yapıldı; Ahmed b. Tolun Yeşkür dağı eteğinde Katâi'yi kurup idare merkezini oraya taşıdı (256/870)."
+    }
+   ],
+   "ilk_anilis": {
+    "tarih": "870",
+    "kaynak": "TDV 'TOLUNOĞULLARI': 256 (870)"
+   },
+   "gerekce": "Katâi bir şehir/semttir, bugün yalnız camii ayaktadır; nokta caminin yeri, şehir alanı çevresinde — yaklaşık. Samarra'daki Qaṭāʾiʿ (Pleiades 894082) homonimdir, alınmadı.",
+   "grup": "H"
+  },
+  {
+   "no": 246,
+   "bolge": "misir-sudan",
+   "tsv_yer": "Fustat → el-Katâi",
+   "bilesen": "el-Katâi / al-Qata'i / Qatai",
+   "durum": "ayni",
+   "ayni_no": 245,
+   "grup": "H"
+  }
+ ]
+}
