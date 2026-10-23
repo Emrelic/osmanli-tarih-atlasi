@@ -1,0 +1,408 @@
+bolge	yer	onem_puan	devletler	bilesen	durum	gerekce
+anadolu	Khios	678	sakiz-polis	Khios	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+anadolu	Mazaka	271	kapadokya-krallik	Mazaka	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/629034 (Mazaka, settlement, precise) (38.7215, 35.3285) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+anadolu	Bitlis → Erzen	196	dilmacogullari	Erzen	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/106515917 (Erzen, findspot, precise) (37.9779, 41.3846) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+anadolu	Vahga	107	rupeniler	Vahga	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Vahga)
+anadolu	Kummanni	100	kizzuwatna	Kummanni	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kummanni)
+anadolu	Tigranokerta	29	tigran-imp	Tigranokerta	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/874774 (Tigranocerta/Cholimma/Chlomaron, settlement, archaeological-site, precise) (37.9770, 41.3820) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+anadolu	Kelainai → Antigoneia  Orontes	23	antigonos-krallik	Antigoneia	model_red	MODEL REDDİ: aranan Antigoneia (Orontes) Suriye'dedir; bulunan nokta Troas Antigoneia'sı (Alexandria Troas) (bulunan 39.751699, 26.157557). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): anadolu başkenti (devletler: antigonos-krallik; TSV yer dizesi 'Kelainai → Antigon
+anadolu	Isparta-Alâiye → Denizli	20	inancogullari	Isparta-Alâiye	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Isparta-Alâiye)
+anadolu	bulunamadı  kaynak merkez vermiyor	8	filaretos-devleti	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bulunamadı  kaynak merkez vermiyor'
+anadolu	Antigoneia	5	antigonos	Antigoneia	model_red	MODEL REDDİ: aranan Antigoneia (Orontes) Suriye'dedir; bulunan nokta Troas Antigoneia'sı (Alexandria Troas) (bulunan 39.751699, 26.157557). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): anadolu başkenti (devletler: antigonos; TSV yer dizesi 'Antigoneia'). Tanık kaynak
+arabistan	Kala'at al-Bahrain	3280	dilmun	Kala'at al-Bahrain	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kala'at al-Bahrain)
+arabistan	Marib	1074	saba	Marib	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/1087315 (Ma'rib) (15.5000, 45.5000) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+arabistan	Gerrha	948	gerrha	Gerrha	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Gerrha)
+arabistan	Sabva	749	hadramavt	Sabva	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7004363 (Shabwah) (15.0000, 47.0000) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+arabistan	Timna	598	kataban	Timna	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 15.00,45.81; iDAI.gazetteer 31.78,34.91
+arabistan	Nezva	531	uman-ibadi	Nezva	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Nezva)
+arabistan	Hadarim	415	ukaydir	Hadarim	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Hadarim)
+arabistan	Karna	300	ma-in	Karna	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/39357 (Karna, ruin, settlement, precise) (16.1280, 44.8140) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+arabistan	Behlâ	127	nebhani-umman	Behlâ	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Behlâ)
+arabistan	Hajar Yahirr  varsayım	120	awsan	Hajar Yahirr	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2751815 (Hajar Yahirr, archaeological-site) (14.7012, 46.4070) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+arabistan	San‘a → Zûcible	91	suleyhi	Zûcible	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Zûcible)
+arabistan	Kariyat el-Fav	48	kinde	Kariyat el-Fav	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kariyat el-Fav)
+arabistan	Hecr  Yemâme	2	yemame-museylime	Hecr / Yemâme	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Hecr / Yemâme)
+balkanlar	Gortyn	816	gortyn-polis,kretaion-koinon	Gortyn	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 37.54,22.05; TGN 35.06,24.95
+balkanlar	Polyrrhenia	633	polyrrhenia-polis	Polyrrhenia	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2764389 (Polyrrhenia, populated-place) (35.4550, 23.6527) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+balkanlar	Khalkis	590	euboia-koinon	Khalkis	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+balkanlar	Naissus çevresi	371	dardania	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Naissus çevresi'
+balkanlar	Pliska → Preslav	337	birinci-bulgar	Pliska	tek_tanik	tek tanık: yalnız GeoNames 728199 (Pliska, BG; 43.3667, 27.1167) — TGN/Pleiades/iDAI'de yok
+balkanlar	Miken	300	miken	Miken	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Miken)
+balkanlar	Mokro	161	neretva-prensligi	Mokro	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Mokro)
+balkanlar	bulunamadı  kaynak başkent adı vermez	150	duklja	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bulunamadı  kaynak başkent adı vermez'
+balkanlar	Delminium → Soetovio  Klis	148	delmatai-federasyon	Soetovio	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Soetovio)
+balkanlar	Delos	147	nesiotai-koinon	Delos	model_red	MODEL REDDİ: ada kara maskesinde yok (nokta 4.6 km dışarıda); denetle'nin önerdiği nokta başka adaya (Mikonos yönü) düşüyor — taşınmadı (bulunan 37.397274, 25.268194). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): balkanlar başkenti (devletler: nesiotai-koinon; TSV ye
+balkanlar	Dodona -> Ambrakia	138	epir	Ambrakia	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/530794 (Ambracia, settlement, precise) (39.1549, 20.9901) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+balkanlar	Ras → Skopje → Serez  Duşan döneminde	115	sirbistan-nemanjic	Ras	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ras)
+balkanlar	Epidamnos çevresi	97	taulantioi	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Epidamnos çevresi'
+balkanlar	Tırnova → Vidin	96	bulgar-carligi	Tırnova	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 41.31,26.83; TGN 39.89,28.50
+balkanlar	Skodra	82	illyria-ardiaioi	Skodra	belirsiz	yalnız GeoNames'te 3 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+balkanlar	Halkis	77	euboea-negroponte	Halkis	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Halkis)
+balkanlar	Salona  Amfissa	76	salona-lordluk	Salona / Amfissa	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 46.05,13.60; TGN 43.55,16.50; TGN 38.52,22.37
+balkanlar	Ras	75	raska-buyuk-prensligi	Ras	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ras)
+balkanlar	Delos -> Atina	74	delos-birligi	Delos	model_red	MODEL REDDİ: ada kara maskesinde yok (nokta 4.6 km dışarıda); denetle'nin önerdiği nokta başka adaya (Mikonos yönü) düşüyor — taşınmadı (bulunan 37.397274, 25.268194). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): balkanlar başkenti (devletler: delos-birligi; TSV yer 
+balkanlar	Veligosti	72	veligosti-damala-baronluk	Veligosti	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Veligosti)
+balkanlar	Akova  Matagrifon	72	akova-matagrifon-baronluk	Akova	model_red	MODEL REDDİ: Akova/Matagrifon baronluğu Mora'dadır; bulunan nokta Sakarya (TR) Akova'sı (bulunan 40.783624, 30.687618). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): balkanlar başkenti (devletler: akova-matagrifon-baronluk; TSV yer dizesi 'Akova  Matagrifon'). Tanık k
+balkanlar	Kastro  Myrina	71	navigajoso-lemnos	Kastro / Myrina	belirsiz	belirsiz: bölge kutusunda aynı adla 18 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 40.63,24.57; TGN 40.11,25.80; TGN 38.13,20.55; TGN 36.91,21.70; TGN 36.83,25.90
+balkanlar	Bizye	58	trakya-sapaioi-krallik	Bizye	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/511190 (Bizye, settlement, precise) (41.5727, 27.7653) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+balkanlar	Lysimacheia	25	lizimakhos	Lysimacheia	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): Pleiades 40.55,26.75; Pleiades 38.53,21.34
+balkanlar	Arkadia  Kyparissia	20	arkadia-baronluk	Arkadia / Kyparissia	belirsiz	belirsiz: bölge kutusunda aynı adla 5 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 36.96,22.99; Pleiades 36.69,22.82; Pleiades 35.10,25.34; Pleiades 37.25,21.68; iDAI.gazetteer 37.58,22.25
+balkanlar	Amphipolis · Thessalonike · Pella · Pelagonia  Herakleia Lynkestis	19	makedon-merisleri	Pelagonia	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/481952 (Pelagonia, settlement, precise) (41.3133, 21.6107) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+balkanlar	Galata	14	galata-pera	Galata	belirsiz	belirsiz: bölge kutusunda aynı adla 4 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 41.03,28.98; TGN 40.34,26.60; TGN 40.71,26.32; Pleiades 43.17,27.94
+balkanlar	belirsiz  Drava-Sava arası	14	donja-panonija-braslav	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Drava-Sava arası'
+balkanlar	belirsiz  Aşağı Pannonia	9	donja-panonija-ratimir	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Aşağı Pannonia'
+bati-afrika	Tekrûr	281	tekrur-kralligi	Tekrûr	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Tekrûr)
+bati-afrika	Kukia → Gao  1009-10	281	kevkev	Kukia	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kukia)
+bati-afrika	Tekrûr şehri  Aşağı Senegal	199	tekrur-erken	Tekrûr şehri / Aşağı Senegal	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Tekrûr şehri / Aşağı Senegal)
+bati-afrika	Awdaghust?	165	sahra-sanhaca	Awdaghust	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Awdaghust)
+bati-afrika	Susu  yeri kaynakta yok	159	susu-kralligi	Susu	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Susu)
+bati-avrupa	Fortriu	546	piktler	Fortriu	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Fortriu)
+bati-avrupa	Scone → Edinburgh	438	iskocya	Scone	tek_tanik	tek tanık: yalnız GeoNames 2641577 (Scone, GB; 56.4194, -3.4051) — TGN/Pleiades/iDAI'de yok
+bati-avrupa	Mathrafal	431	powys	Mathrafal	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Mathrafal)
+bati-avrupa	Winchester	408	wessex	Winchester	tek_tanik	tek tanık: yalnız GeoNames 2633858 (Winchester, GB; 51.0651, -1.3187) — TGN/Pleiades/iDAI'de yok
+bati-avrupa	Dunadd	343	dal-riata	Dunadd	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Dunadd)
+bati-avrupa	Nevers	294	nevers-kontlugu	Nevers	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7619597 (Arrondissement de Nevers) (46.9167, 3.3333) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+bati-avrupa	çok merkezli Gal beylikleri	281	irlanda	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'çok merkezli Gal beylikleri'
+bati-avrupa	Poitiers → Bordeaux	281	akitanya-dukaligi	Bordeaux	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 48.10,2.53; TGN 48.68,1.10; TGN 44.83,-0.83
+bati-avrupa	Dinefwr	277	deheubarth	Dinefwr	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Dinefwr)
+bati-avrupa	Mediolanum -> Ravenna	81	bati-roma	Mediolanum	model_red	MODEL REDDİ: Batı Roma başkenti Mediolanum = Milano (atlasta var, ESKI eşlemesi); bulunan nokta Mediolanum Santonum (Saintes) (bulunan 45.744175, -0.633389). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): bati-avrupa başkenti (devletler: bati-roma; TSV yer dizesi 'Medi
+bati-avrupa	Bamburgh	58	bernicia	Bamburgh	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 55.60,-1.70; TGN 51.14,2.78
+bati-avrupa	Saint-Maurice  Valais	45	yukari-burgundia	Saint-Maurice / Valais	belirsiz	belirsiz: bölge kutusunda aynı adla 20 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 46.21,7.01; TGN 46.25,6.22; TGN 49.66,1.60; TGN 47.11,3.57; TGN 46.82,3.46
+bati-avrupa	Doğu Anglia  belirli başkent yok	40	danelaw	Doğu Anglia / belirli başkent yok	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Doğu Anglia / belirli başkent yok)
+dogu-afrika	Doğu Şüve  kaynakta şehir adı yok	385	suve-emirligi	Doğu Şüve	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Doğu Şüve)
+dogu-afrika	Makdişu	369	mogadisu-erken	Makdişu	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Makdişu)
+dogu-afrika	Kilwa	281	svahili-sehirleri	Kilwa	belirsiz	belirsiz: bölge kutusunda aynı adla 4 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN -8.97,39.52; TGN -8.75,39.35; TGN -9.28,28.33; TGN -8.40,28.05
+dogu-afrika	Dahlak Kebir	188	dahlak-sultanligi	Dahlak Kebir	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+dogu-afrika	Gondar → Addis Ababa	11	habesistan	Addis Ababa	model_red	MODEL REDDİ: atlasta «Addis» yerleşimi 5.8 km'de — aynı şehir, mükerrer yazılmadı (bulunan 8.980603, 38.757761). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): dogu-afrika başkenti (devletler: habesistan; TSV yer dizesi 'Gondar → Addis Ababa'). Tanık kaynaklar: iDAI.ga
+dogu-asya	yok  kültür	69990	anau-ia-kultur,aseramik-kuzey-levant-anadolu,ban-chiang-kultur,casma-sechin,dadiwan-laoguantai,el-argar-kultur	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  kültür'
+dogu-asya	Yingqiu → Linzi  Shandong	825	qi-devleti	Linzi	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 36.81,118.29; CHGIS 36.65,117.00; iDAI.gazetteer 37.31,116.88
+dogu-asya	Yingqiu → Linzi  Shandong	825	qi-devleti	Yingqiu	model_red	MODEL REDDİ: Qi'nin Yingqiu'su Linzi ile özdeş ya da yakını sayılır; CHGIS Yingqiu Xian'ı (Changle) ile başkent özdeşliği kaynakla teyit edilmedi (bulunan 36.57301, 119.04401). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): dogu-asya başkenti (devletler: qi-devleti; TS
+dogu-asya	Yarlung vadisi  Chingwa Taktse	755	yarlung-krallik	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Yarlung vadisi  Chingwa Taktse'
+dogu-asya	Jolbon → Gungnae → Pyeongyang	704	goguryeo	Jolbon	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Jolbon)
+dogu-asya	Jolbon → Gungnae → Pyeongyang	704	goguryeo	Gungnae	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Gungnae)
+dogu-asya	Wiryeseong → Ungjin → Sabi	677	baekje	Wiryeseong	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Wiryeseong)
+dogu-asya	Wiryeseong → Ungjin → Sabi	677	baekje	Ungjin	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ungjin)
+dogu-asya	Erligang -> Anyang	554	shang	Erligang	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/8513079 (Erligang) (28.9000, 111.4704) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Yong -> Xianyang	549	qin-devleti	Yong	belirsiz	belirsiz: bölge kutusunda aynı adla 17 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 30.89,120.08; CHGIS 27.32,115.43; CHGIS 37.93,102.63; CHGIS 34.29,108.87; CHGIS 36.08,111.52
+dogu-asya	Yong -> Xianyang	549	qin-devleti	Xianyang	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_115985 (咸阳郡 Xianyang Jun, 郡 (jun), 583~587) (34.4122, 108.8546) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Luoyi	514	dogu-zhou	Luoyi	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_70915 (洛邑县 Luoyi Xian, 县 (xian), 547~605) (33.3946, 104.9134) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Danyang → Ying  Jingzhou	481	chu-devleti	Danyang	belirsiz	belirsiz: bölge kutusunda aynı adla 5 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 30.95,118.74; CHGIS 31.96,118.84; CHGIS 36.28,110.13; CHGIS 32.21,119.44; CHGIS 31.66,118.71
+dogu-asya	Danyang → Ying  Jingzhou	481	chu-devleti	Ying	belirsiz	belirsiz: bölge kutusunda aynı adla 21 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 30.38,112.24; CHGIS 36.33,117.57; CHGIS 38.44,116.09; CHGIS 40.00,118.66; CHGIS 41.58,120.45
+dogu-asya	Yamato  Asuka'ya kadar	460	yamato	Yamato	belirsiz	belirsiz: bölge kutusunda aynı adla 8 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 35.80,136.90; TGN 37.17,138.93; TGN 35.47,139.47; TGN 33.13,130.43; TGN 34.57,135.83
+dogu-asya	Fuqi	350	tuyuhun	Fuqi	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_85357 (扶其县 Fuqi Xian, 县 (xian), 529~555) (36.2852, 119.4652) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Tsaparang · Tholing	281	guge	Tsaparang	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/8730457 (Tsaparang) (31.4640, 79.6990) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Tsaparang · Tholing	281	guge	Tholing	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Tholing)
+dogu-asya	Haojing	275	bati-zhou	Haojing	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_43950 (豪静县 Haojing Xian, 县 (xian), 502~639) (23.8014, 110.9864) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Qiuchi  Gansu güneyi	257	qiuchi	Qiuchi	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 35.59,103.01; TGN 35.41,107.44
+dogu-asya	Dongmozu	228	balhae	Dongmozu	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Dongmozu)
+dogu-asya	Shangjing  Linhuang	209	liao-hanedani	Shangjing / Linhuang	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 45.55,126.97; CHGIS 35.76,115.49
+dogu-asya	Xingqing  Zhongxing	189	bati-xia	Xingqing / Zhongxing	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_82989 (中兴县 Zhongxing Xian, 县 (xian), 705~705) (33.8711, 113.0612) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Anyi → Daliang	178	wei-devleti-zhou	Anyi	belirsiz	belirsiz: bölge kutusunda aynı adla 5 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 33.24,119.31; CHGIS 35.06,111.04; CHGIS 36.52,102.17; CHGIS 23.48,110.74; CHGIS 22.91,111.28
+dogu-asya	Anyi → Daliang	178	wei-devleti-zhou	Daliang	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_44393 (大梁县 Daliang Xian, 县 (xian), -225~-138) (34.7855, 114.3433) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Taihe	173	nanzhao	Taihe	belirsiz	belirsiz: bölge kutusunda aynı adla 4 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 38.15,111.05; CHGIS 26.79,114.89; CHGIS 38.53,111.14; CHGIS 33.21,115.59
+dogu-asya	Xinzheng	173	han-devleti-zhou	Xinzheng	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 34.40,113.72; CHGIS 31.28,106.29; CHGIS 31.49,105.74
+dogu-asya	Dian golu cevresi  Shizhaishan	170	dian	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Dian golu cevresi  Shizhaishan'
+dogu-asya	Meiji  Xihe	168	guney-xiongnu	Meiji / Xihe	belirsiz	belirsiz: bölge kutusunda aynı adla 8 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 39.77,110.80; CHGIS 37.38,111.64; CHGIS 37.51,111.14; CHGIS 39.82,110.00; CHGIS 35.74,112.07
+dogu-asya	Xiazhou  Yulin	157	xiazhou-dangxiang	Xiazhou / Yulin	belirsiz	belirsiz: bölge kutusunda aynı adla 6 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 30.70,111.29; CHGIS 23.40,110.06; CHGIS 22.92,109.64; CHGIS 39.77,110.80; CHGIS 22.91,109.96
+dogu-asya	Qingtang  1032'den	96	tsongkha	Qingtang	belirsiz	belirsiz: bölge kutusunda aynı adla 22 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 19.11,110.52; TGN 26.47,115.80; TGN 24.23,113.85; TGN 25.21,110.05; TGN 29.52,120.08
+dogu-asya	Wanggeom	86	wiman-joseon	Wanggeom	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Wanggeom)
+dogu-asya	Heijo-kyo	83	nara-japonya	Heijo-kyo	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7004739 (Nara) (36.6830, 135.8333) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Shengle	61	dai-tuoba	Shengle	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/8270991 (Shengle) (30.4848, 89.3314) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Fuyu?	53	dingan-guo	Fuyu	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_96247 (伏虞县 Fuyu Xian, 县 (xian), 598~617) (31.5137, 106.7466) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Yuanchuan	46	bati-qin-qifu	Yuanchuan	belirsiz	belirsiz: bölge kutusunda aynı adla 5 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 36.42,111.77; TGN 30.06,120.52; TGN 29.90,119.58; TGN 34.97,106.17; TGN 30.38,118.84
+dogu-asya	Daxing	37	sui	Daxing	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 39.93,116.37; CHGIS 34.32,108.94
+dogu-asya	Jiangling	36	hou-liang-xi-liang,sui-liang-xiao-xian	Jiangling	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 30.35,112.19; CHGIS 30.37,111.69; CHGIS 37.40,116.54
+dogu-asya	Longcheng → Ye	33	onceki-yan	Longcheng	belirsiz	belirsiz: bölge kutusunda aynı adla 5 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 24.31,109.40; CHGIS 34.20,116.99; CHGIS 31.53,106.40; CHGIS 29.90,116.55; CHGIS 22.91,111.09
+dogu-asya	Yangjumie	26	da-changhe	Yangjumie	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_80688 (阳苴咩城 Yangjumie Cheng, 城 (cheng), 618~1252) (25.6978, 100.1644) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Pingyang → Chang'an	25	han-zhao	Pingyang	belirsiz	belirsiz: bölge kutusunda aynı adla 13 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 36.08,111.52; CHGIS 35.91,117.76; CHGIS 33.08,110.01; CHGIS 26.17,115.29; CHGIS 32.77,111.16
+dogu-asya	Fengxiang	23	qi-li-maozhen	Fengxiang	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 30.89,112.54; CHGIS 34.38,107.14
+dogu-asya	Xianyang	14	qin-hanedani	Xianyang	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_115985 (咸阳郡 Xianyang Jun, 郡 (jun), 583~587) (34.4122, 108.8546) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Zhenzhou	14	zhao-wang-rong	Zhenzhou	model_red	MODEL REDDİ: Zhenzhou adı birden çok idarî merkezde (Zhending/Hebei, Yizheng/Jiangsu); hangisi olduğu teyit edilmedi (bulunan 32.26754, 119.17763). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): dogu-asya başkenti (devletler: zhao-wang-rong; TSV yer dizesi 'Zhenzhou').
+dogu-asya	Hansong-ju	13	bodeok-goguryeo	Hansong-ju	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Hansong-ju)
+dogu-asya	Shuofang  Xiazhou	11	sui-liang-liang-shidu	Shuofang / Xiazhou	belirsiz	belirsiz: bölge kutusunda aynı adla 5 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 40.66,108.77; CHGIS 40.32,107.00; CHGIS 37.09,110.05; CHGIS 37.60,108.92; CHGIS 30.70,111.29
+dogu-asya	Koromo-gawa  Koromo-gawa no saku	11	abe-mutsu	Koromo-gawa / Koromo-gawa no saku	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Koromo-gawa / Koromo-gawa no saku)
+dogu-asya	Fuyu  Sanggyeong	10	dongdan	Fuyu / Sanggyeong	tek_tanik	tek tanık: CHGIS https://chgis.hudci.org/tgaz/placename/hvd_96247 (伏虞县 Fuyu Xian, 县 (xian), 598~617) (31.5137, 106.7466) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-asya	Churyu-seong	3	baekje-restorasyon	Churyu-seong	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Churyu-seong)
+dogu-asya	Youzhou	2	yan-liu-shouguang	Youzhou	belirsiz	belirsiz: bölge kutusunda aynı adla 4 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 26.62,114.92; TGN 25.36,114.91; TGN 28.38,111.27; TGN 40.16,115.68
+dogu-asya	bilinmiyor  gezici saray	2	taira-rejimi	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bilinmiyor  gezici saray'
+dogu-asya	yok  Çin Seddi yakını	2	ongut	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  Çin Seddi yakını'
+dogu-asya	Wagang	1	sui-wei-li-mi	Wagang	belirsiz	belirsiz: bölge kutusunda aynı adla 11 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 28.07,103.17; TGN 31.23,108.12; TGN 35.80,115.20; TGN 34.34,114.83; TGN 26.39,103.48
+dogu-asya	Dongjing	1	heungyo-guk	Dongjing	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 34.79,114.34; CHGIS 41.12,123.45; CHGIS 35.17,112.79
+dogu-asya	Shimosa Ishii	0	masakado-shinno	Shimosa Ishii	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Shimosa Ishii)
+dogu-avrupa	Belencer → İtil  İdil ağzı	315	hazar	Belencer	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Belencer)
+dogu-avrupa	Belencer → İtil  İdil ağzı	315	hazar	İtil	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (İtil)
+dogu-avrupa	yok  sekiz boylu konfederasyon	196	pecenek	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  sekiz boylu konfederasyon'
+dogu-avrupa	Pereyaslavl	185	pereyaslavl-knezligi	Pereyaslavl	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7012027 (Pereiaslav) (50.1000, 31.5000) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+dogu-avrupa	belirsiz  Don–Dinyester bozkırı	184	kuman-bati	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Don–Dinyester bozkırı'
+dogu-avrupa	belirsiz  Pannonia	85	hun-avrupa	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Pannonia'
+dogu-avrupa	yok  Kuzey Kafkasya–Azak	80	onogur	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  Kuzey Kafkasya–Azak'
+dogu-avrupa	yok  Kuban–Azak	77	utigur	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  Kuban–Azak'
+dogu-avrupa	Beloozero	43	beloozero-knezligi	Beloozero	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 53.91,38.53; TGN 53.44,50.36
+dogu-avrupa	yok  Kafkasya	25	sabir	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  Kafkasya'
+guney-amerika	Cahuachi	798	nazca	Cahuachi	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/6001077 (Cahuachi) (-14.8180, -75.1160) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guney-amerika	Huacas de Moche	798	moche	Huacas de Moche	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Huacas de Moche)
+guney-amerika	Ciudad Perdida  Teyuna	481	tairona	Ciudad Perdida / Teyuna	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7033111 (Ciudad Perdida) (11.0370, -73.9250) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guney-amerika	Huari	200	wari	Huari	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN -19.00,-66.80; TGN -9.37,-77.23; TGN -19.98,-69.78
+guney-amerika	La Centinela	181	chincha	La Centinela	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (La Centinela)
+guney-asya	Kalinganagara  Mukhalingam	785	dogu-ganga	Kalinganagara / Mukhalingam	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7553038 (Mukhalingām) (18.6000, 83.9667) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guney-asya	Brahmapura → Chamba	731	chamba	Brahmapura	tek_tanik	tek tanık: yalnız GeoNames 1275198 (Brahmapur, IN; 19.3115, 84.7929) — TGN/Pleiades/iDAI'de yok
+guney-asya	Nagahrada  Nagda	731	guhila-mevar	Nagahrada / Nagda	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 24.09,78.41; TGN 23.46,75.42
+guney-asya	Talakad	654	bati-ganga	Talakad	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Talakad)
+guney-asya	Şakambhari → Ecmîr  Ajayameru	510	cahamana	Şakambhari	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Şakambhari)
+guney-asya	Vengi	446	dogu-calukya	Vengi	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Vengi)
+guney-asya	Baijnath	410	katyuri	Baijnath	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 32.05,76.64; TGN 29.91,79.62
+guney-asya	Valabhi	301	maitraka	Valabhi	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Valabhi)
+guney-asya	Kathmandu vadisi  Mana-griha	286	licchavi-nepal	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Kathmandu vadisi  Mana-griha'
+guney-asya	Dhâr · Ujjain	281	paramara	Dhâr	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+guney-asya	Belur → Halebidu	255	hoysala	Belur	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 22.64,88.34; TGN 13.16,75.86
+guney-asya	Belur → Halebidu	255	hoysala	Halebidu	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7031565 (Halebīd) (13.2333, 75.9833) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guney-asya	Rajagriha → Pataliputra	222	magadha	Rajagriha	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+guney-asya	Manyakheta	220	rastrakuta	Manyakheta	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7554572 (Malkhaid) (17.1833, 77.1500) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guney-asya	Manyakheta → Kalyani	214	bati-calukya	Manyakheta	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7554572 (Malkhaid) (17.1833, 77.1500) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guney-asya	Khajuraho → Mahoba · Kâlincar	203	candela	Kâlincar	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kâlincar)
+guney-asya	Guhadeva-pataka	200	bhauma-kara	Guhadeva-pataka	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Guhadeva-pataka)
+guney-asya	Kongoda	190	sailodbhava	Kongoda	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kongoda)
+guney-asya	Taksila → Sagala  Sialkot	189	indo-grek	Taksila	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Taksila)
+guney-asya	Taksila → Sagala  Sialkot	189	indo-grek	Sagala	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/59835 ((H)Eorta/Sageda, settlement, precise) (26.9539, 81.8577) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guney-asya	Bhutambilika  Bhumili	189	saindhava	Bhutambilika / Bhumili	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/8698012 (Ghumli) (21.8850, 69.7830) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guney-asya	Simraungarh	184	karnata-mithila	Simraungarh	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Simraungarh)
+guney-asya	Kâbil → Udabhandapura → Nandana → Lahor	176	hindu-sahiler	Udabhandapura	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Udabhandapura)
+guney-asya	Kâbil → Udabhandapura → Nandana → Lahor	176	hindu-sahiler	Nandana	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Nandana)
+guney-asya	Tummana → Ratnapura  Ratanpur	167	kalacuri-ratnapura	Tummana	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Tummana)
+guney-asya	Tummana → Ratnapura  Ratanpur	167	kalacuri-ratnapura	Ratnapura	model_red	MODEL REDDİ: Kalacuri Ratnapura = Ratanpur (Chhattisgarh); bulunan nokta Sri Lanka Ratnapura'sı (bulunan 6.6833, 80.4167). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): guney-asya başkenti (devletler: kalacuri-ratnapura; TSV yer dizesi 'Tummana → Ratnapura  Ratanpur')
+guney-asya	Suvarnapura	160	somavamsi	Suvarnapura	tek_tanik	tek tanık: yalnız GeoNames 1255763 (Sonepur, IN; 20.8333, 83.9167) — TGN/Pleiades/iDAI'de yok
+guney-asya	Keşmir vadisi  başkent adı kaynakta teyit edilmedi	148	utpala-kesmir	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Keşmir vadisi  başkent adı kaynakta teyit edilmedi'
+guney-asya	Aror  Alor	140	rai-sind	Aror / Alor	tek_tanik	tek tanık: yalnız GeoNames 10628607 (Aroor, IN; 9.8694, 76.3050) — TGN/Pleiades/iDAI'de yok
+guney-asya	Denduluru	131	vishnukundina	Denduluru	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Denduluru)
+guney-asya	Vikramapura	124	varman-vanga	Vikramapura	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Vikramapura)
+guney-asya	Pataliputra → Vidisha	112	sunga	Vidisha	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 23.92,78.00; TGN 23.52,77.81
+guney-asya	Kaveripattinam  Puhar	90	kalabhra	Kaveripattinam / Puhar	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 12.42,78.23; Pleiades 11.15,79.85
+guney-asya	Ranthambore  Ranastambhapura	89	ranthambore-cauhan	Ranthambore / Ranastambhapura	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ranthambore / Ranastambhapura)
+guney-asya	Taksila	84	gandhara-mahajanapada	Taksila	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Taksila)
+guney-asya	Karmanta	80	khadga	Karmanta	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Karmanta)
+guney-asya	Pattikera  Mainamati	79	pattikera	Pattikera / Mainamati	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Pattikera / Mainamati)
+guney-asya	Aror	72	cac-sind	Aror	tek_tanik	tek tanık: yalnız GeoNames 10628607 (Aroor, IN; 9.8694, 76.3050) — TGN/Pleiades/iDAI'de yok
+guney-asya	Japila  Rohtas çevresi	65	khayaravala-japila	Japila	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Japila)
+guney-asya	Karnasuvarna	47	gauda-shashanka	Karnasuvarna	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Karnasuvarna)
+guney-asya	Pattikera	47	deva-samatata	Pattikera	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Pattikera)
+guney-asya	Kamatapur	24	kamata	Kamatapur	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kamatapur)
+guney-asya	Mültan · Uç	22	kabace	Uç	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Uç)
+guneydogu-asya	Langkasuka  yeri tartışmalı: Pattani yöresi	1181	langkasuka	Langkasuka	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/8698171 (Langkasuka) (6.0000, 100.6667) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guneydogu-asya	Muara Kaman  Martapura	881	kutai-martapura	Muara Kaman / Martapura	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN -3.52,114.75; TGN -4.33,104.37
+guneydogu-asya	Halin → Sri Ksetra  Thayekhittaya	631	pyu-sehir-devletleri	Sri Ksetra	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7002193 (Prome) (18.8333, 95.2333) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guneydogu-asya	Pakuan Pajajaran	612	sunda-pajajaran	Pakuan Pajajaran	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Pakuan Pajajaran)
+guneydogu-asya	Vyadhapura	549	funan	Vyadhapura	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Vyadhapura)
+guneydogu-asya	Bandar Khalifah	441	perlak	Bandar Khalifah	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Bandar Khalifah)
+guneydogu-asya	Tondo  bugünkü Manila'nın kuzey semti	381	tondo	Tondo	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/8698172 (Tondo) (14.6021, 120.9646) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guneydogu-asya	Bedulu–Pejeng yöresi	367	bali-warmadewa	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Bedulu–Pejeng yöresi'
+guneydogu-asya	Sri Ksetra  Hmawza	332	sri-ksetra	Sri Ksetra / Hmawza	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7002193 (Prome) (18.8333, 95.2333) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guneydogu-asya	—  Brunei bölgesi	304	poni	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: '—  Brunei bölgesi'
+guneydogu-asya	çok merkezli barangay ve racalıklar	280	filipin-racaliklari	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'çok merkezli barangay ve racalıklar'
+guneydogu-asya	Lamuri  Aceh Büyük kıyısı	256	lamuri	Lamuri	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Lamuri)
+guneydogu-asya	Ishanapura	252	chenla	Ishanapura	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ishanapura)
+guneydogu-asya	bilinmiyor  Batı Cava	219	tarumanagara	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bilinmiyor  Batı Cava'
+guneydogu-asya	bilinmiyor  Bandon Körfezi yöresi — Coedès	211	pan-pan	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bilinmiyor  Bandon Körfezi yöresi — Coedès'
+guneydogu-asya	Soasio	200	tidore	Soasio	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Soasio)
+guneydogu-asya	Daha  Kediri	180	kediri	Daha / Kediri	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 25.23,107.28; TGN 24.01,101.59; TGN -7.75,112.02
+guneydogu-asya	bilinmiyor  Cepara-Pekalongan yoresi	178	kalingga-holing	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bilinmiyor  Cepara-Pekalongan yoresi'
+guneydogu-asya	Vesali	169	vesali-chandra	Vesali	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Vesali)
+guneydogu-asya	Kahuripan	117	janggala,kahuripan	Kahuripan	tek_tanik	tek tanık: yalnız GeoNames 8024174 (Kahuripan, ID; -7.3471, 108.2281) — TGN/Pleiades/iDAI'de yok
+guneydogu-asya	Sambhupura  Sambor	96	chenla-su	Sambhupura / Sambor	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/1066427 (Sâmbor) (12.7667, 105.9667) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guneydogu-asya	bilinmiyor  8. yy sonu: Chia Tan güzergâhına göre erken Chenla'nın merkezi çevresi	96	chenla-toprak	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bilinmiyor  8. yy sonu: Chia Tan güzergâhına göre erken Chenla'nın merkezi çevresi'
+guneydogu-asya	Orta Cava  Kedu-Prambanan ovası	78	sailendra	Orta Cava	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Orta Cava)
+guneydogu-asya	bilinmiyor  Sumatra	65	kantoli	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bilinmiyor  Sumatra'
+guneydogu-asya	Singhasari	59	singhasari	Singhasari	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/6005480 (Singhasari) (-7.9630, 112.6352) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+guneydogu-asya	Long Bien	59	van-xuan	Long Bien	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+guneydogu-asya	Launggyet	44	launggyet	Launggyet	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Launggyet)
+guneydogu-asya	Hoa Lư	40	dinh,tien-le-hanedani	Hoa Lư	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+guneydogu-asya	bilinmiyor  Martaban Körfezi kıyısı	30	mi-chen	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bilinmiyor  Martaban Körfezi kıyısı'
+guneydogu-asya	Cổ Loa	26	ngo-hanedani	Cổ Loa	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+guneydogu-asya	Sampalu → Ternate	24	ternate	Sampalu	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Sampalu)
+guneydogu-asya	Vũ Ninh  önce Long Biên	22	triyu-viet-vuong	Vũ Ninh / önce Long Biên	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Vũ Ninh / önce Long Biên)
+guneydogu-asya	Dai La	6	duong-dinh-nghe	Dai La	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Dai La)
+guneydogu-asya	Hoa Lu  Dinh	2	12-su-quan	Hoa Lu / Dinh	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+iberya	Seu d'Urgell	483	urgell	Seu d'Urgell	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Seu d'Urgell)
+iberya	Castello d'Empuries	462	empuries	Castello d'Empuries	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+iberya	bulunamadı	348	kerayit,nayman,pallars,sobrarbe-ribagorza,tortosa-lleida	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bulunamadı'
+iberya	Tolosa -> Toledo	293	vizigot	Tolosa	belirsiz	belirsiz: bölge kutusunda aynı adla 4 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 43.13,-2.07; TGN 39.20,-1.37; TGN 39.42,-7.72; TGN 43.60,1.43
+iberya	Cangas -> Oviedo	192	asturias	Cangas	belirsiz	belirsiz: bölge kutusunda aynı adla 4 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 42.27,-8.78; TGN 43.18,-6.55; TGN 42.48,-7.62; TGN 43.63,-7.33
+iberya	yok  toplu künye	101	endulus-tavaif	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  toplu künye'
+iberya	Albarrasin	91	albarracin	Albarrasin	tek_tanik	tek tanık: yalnız GeoNames 3130679 (Albarracín, ES; 40.4082, -1.4438) — TGN/Pleiades/iDAI'de yok
+iberya	Elmeriyye	82	almeria-tavaif	Elmeriyye	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Elmeriyye)
+iberya	Batalyevs	73	badajoz-aftasiler	Batalyevs	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Batalyevs)
+iberya	Saragosa	71	zaragoza-hudiler	Saragosa	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+iberya	Daniye	62	denia	Daniye	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Daniye)
+iberya	Bobastro	48	bobastro	Bobastro	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2074860 (Bobastro, Ardales, archaeological-site) (36.9000, -4.8000) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+iberya	Medina Mayurka	39	balear-tavaif	Medina Mayurka	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Medina Mayurka)
+iran	Anşan  Tal-i Malyan	1750	anshan	Anşan / Tal-i Malyan	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 30.60,52.10; Pleiades 30.00,52.41
+iran	Belirsiz  Şehrizor	1731	lullubi	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Belirsiz  Şehrizor'
+iran	Simurrum	634	simurrum	Simurrum	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Simurrum)
+iran	Firîm	616	bavendi	Firîm	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Firîm)
+iran	Rûyân ·  sonra	616	badusbani	Rûyân	belirsiz	yalnız GeoNames'te 4 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+iran	Lafur  Lafûr	556	karenid	Lafur / Lafûr	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Lafur / Lafûr)
+iran	Medâin  Ktesifon	427	sasani	Medâin / Ktesifon	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): Pleiades 31.56,45.51; Pleiades 33.09,44.58
+iran	Awan  yeri bilinmiyor	400	awan	Awan	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/4000987 (Avan) (40.3350, 44.1690) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+iran	Persepolis → Istahr	355	persis	Istahr	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/922662 ((I)Stakhr, settlement, precise) (29.9808, 52.9094) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+iran	Îc  Îg	251	sebankare	Îc / Îg	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Îc / Îg)
+iran	Izirtu  Zirta	229	manna	Izirtu / Zirta	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Izirtu / Zirta)
+iran	Rûdbâr  Alamût vadisi	213	custanid	Rûdbâr	model_red	MODEL REDDİ: Custanid Rûdbâr'ı Alamut vadisidir (Kazvin); bulunan nokta Gilan Rudbar'ı (bulunan 36.80971, 49.416105). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): iran başkenti (devletler: custanid; TSV yer dizesi 'Rûdbâr  Alamût vadisi'). Tanık kaynaklar: iDAI.gazet
+iran	Yahudiyye  Meymene	209	ferigunid	Yahudiyye / Meymene	tek_tanik	tek tanık: yalnız GeoNames 1133453 (Maymana, AF; 35.9214, 64.7836) — TGN/Pleiades/iDAI'de yok
+iran	—  TDV'de belirtilmemiş	178	dacu,lur-i-kucek	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: '—  TDV'de belirtilmemiş'
+iran	Alamut Kalesi  Rûdbâr	166	alamut-nizari	Alamut Kalesi	model_red	MODEL REDDİ: Alamut Kalesi Kazvin'dedir; bulunan nokta Gilan Rudbar'ı (bulunan 36.80971, 49.416105). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): iran başkenti (devletler: alamut-nizari; TSV yer dizesi 'Alamut Kalesi  Rûdbâr'). Tanık kaynaklar: iDAI.gazetteer + GeoNa
+iran	Hulvân · Sîrvân Kalesi	126	annazi	Sîrvân Kalesi	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Sîrvân Kalesi)
+iran	Anşan	125	teispid-pers	Anşan	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Anşan)
+iran	Şemîrân Kalesi  Târum	120	musafiri	Şemîrân Kalesi / Târum	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Şemîrân Kalesi / Târum)
+iran	Fûmen  Fuman	118	dabuyiler	Fûmen / Fuman	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/641191179 (Fouman, settlement, rough) (37.5000, 49.5000) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+iran	Sinendec  Sanandaj	112	ardalan	Sinendec / Sanandaj	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 32.42,47.00; TGN 35.33,46.83
+iran	Marubishti	74	ellipi	Marubishti	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Marubishti)
+iran	Kerec	72	dulefi	Kerec	model_red	MODEL REDDİ: Dulefî Kerec'i Kerec-i Ebû Dülef (Arak yöresi); bulunan nokta Tahran yanı modern Karaj (bulunan 35.83266, 50.99154). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): iran başkenti (devletler: dulefi; TSV yer dizesi 'Kerec'). Tanık kaynaklar: iDAI.gazetteer +
+iran	Dinaver  Sermâc	56	hasanuya	Dinaver / Sermâc	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/903012 (Denabaran/Dinawar, ruin, settlement, precise) (34.6175, 47.4622) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+italya	Vulci	420	etrusk-vulci	Vulci	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 42.42,11.63; iDAI.gazetteer 42.42,11.15
+italya	yok  Bovianum	368	samnit-birligi	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  Bovianum'
+italya	Casale	281	montferrat-markizligi	Casale	belirsiz	belirsiz: bölge kutusunda aynı adla 10 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 44.42,10.45; TGN 43.05,11.28; TGN 41.57,14.35; TGN 38.07,15.12; TGN 42.90,13.42
+italya	Neapolis	274	neapolis-yunan	Neapolis	belirsiz	belirsiz: bölge kutusunda aynı adla 4 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 39.69,8.56; TGN 40.83,14.25; TGN 36.50,10.73; Pleiades 45.32,13.56
+italya	Selinous	219	selinous	Selinous	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7003848 (Selinunte) (37.5833, 12.8333) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+italya	Cividale  Forum Iulii	208	friuli-dukaligi-lombard	Cividale / Forum Iulii	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 46.09,13.43; TGN 43.43,6.74
+italya	Canossa → Mantova	165	kanosa-hanedani	Canossa	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 44.58,10.45; iDAI.gazetteer 44.91,10.65
+italya	Thourioi	164	thourioi	Thourioi	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2287690 (Thurio, archaeological-site) (39.7167, 16.4943) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+italya	Potentia	159	lukan-birligi	Potentia	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 40.63,15.80; Pleiades 43.42,13.67
+italya	Alessandria	113	alessandria-komunu	Alessandria	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 39.95,16.38; TGN 44.90,8.62
+italya	yok  Pontida	83	lombard-birligi	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  Pontida'
+kafkasya	Mtsketa	881	iberya-kartli	Mtsketa	tek_tanik	tek tanık: yalnız GeoNames 612890 (Mtskheta, GE; 41.8451, 44.7188) — TGN/Pleiades/iDAI'de yok
+kafkasya	Gazaka  Ganzak	546	atropatene	Gazaka / Ganzak	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/884148 (Ganzak?/Gazaca?/Gazae?, settlement, precise) (37.0123, 46.2019) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+kafkasya	Aia	534	kolkhis-krallik	Aia	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/857014 (Aia/Nesos, label, precise) (42.1819, 42.0898) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+kafkasya	Arkheopolis	500	lazika	Arkheopolis	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Arkheopolis)
+kafkasya	Armavir -> Yervandaşat	400	ermenistan-yervantuni	Armavir	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 44.99,41.12; TGN 40.15,44.02
+kafkasya	Armavir -> Yervandaşat	400	ermenistan-yervantuni	Yervandaşat	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Yervandaşat)
+kafkasya	bilinmiyor	395	alania-krallik,orta-gurcistan-bagrati,samo-devleti	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'bilinmiyor'
+kafkasya	Artaksata -> Vagarşapat	365	arsakuni-ermenistan	Artaksata	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Artaksata)
+kafkasya	Artaksata	200	artaksiad	Artaksata	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Artaksata)
+kafkasya	Gardman	192	mihranid-gardman	Gardman	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Gardman)
+kafkasya	Lori	119	lori-kralligi	Lori	model_red	MODEL REDDİ: Lori krallığı merkezi Lori Berd (Ermenistan); bulunan nokta Ardahan/Yokuşdibi (bulunan 41.183333, 42.583333). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): kafkasya başkenti (devletler: lori-kralligi; TSV yer dizesi 'Lori'). Tanık kaynaklar: Getty TGN + i
+kafkasya	Bezz	22	babek-hurremi	Bezz	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Bezz)
+kuzey-afrika	Tamesna	405	berqavata	Tamesna	tek_tanik	tek tanık: yalnız GeoNames 8299790 (Tamesna, MA; 33.8181, -6.9166) — TGN/Pleiades/iDAI'de yok
+kuzey-afrika	Nekor  Temsaman	305	nekor-emirligi	Nekor / Temsaman	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/8698175 (Nekor) (35.1109, -3.8576) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+kuzey-afrika	Zavîle	272	zawila-hattabiler	Zavîle	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Zavîle)
+kuzey-afrika	Evrâs  Aurès	218	auris-masties	Evrâs / Aurès	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Evrâs / Aurès)
+kuzey-afrika	Velîlâ → Fas → Hacerünnesr	196	idrisi	Velîlâ	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Velîlâ)
+kuzey-afrika	Velîlâ → Fas → Hacerünnesr	196	idrisi	Hacerünnesr	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Hacerünnesr)
+kuzey-afrika	Tinmel → Merakeş	139	muvahhidler	Tinmel	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2042704 (Tinmal, populated-place) (30.9819, -8.2303) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+kuzey-afrika	Kal‘atü Benî Hammâd → Bicâye	137	hammadiler	Kal‘atü Benî Hammâd	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kal‘atü Benî Hammâd)
+kuzey-afrika	Kayrevan → Rakkāde	109	aglebi	Rakkāde	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Rakkāde)
+kuzey-afrika	Ağmât → Merakeş	91	murabitlar	Ağmât	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ağmât)
+kuzey-amerika	Snaketown	981	hohokam	Snaketown	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 33.17,-111.92; TGN 41.32,-84.20
+kuzey-amerika	Chaco Kanyonu  Pueblo Bonito	431	ata-pueblo	Chaco Kanyonu / Pueblo Bonito	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/6004853 (Pueblo Bonito) (36.0600, -107.9610) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+kuzey-avrupa	Birsay	125	orkney-jarllik-erken	Birsay	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/4001551 (Birsay) (59.1333, -3.3167) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+mezopotamya	Hamazi	520	hamazi	Hamazi	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Hamazi)
+mezopotamya	Charax Spasinou	362	karakene	Charax Spasinou	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Charax Spasinou)
+mezopotamya	Hira civari	304	tanuhiler	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Hira civari'
+mezopotamya	Adab  Bismaya	266	adab	Adab / Bismaya	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/787747618 (Adab, settlement, archaeological-site, precise) (31.9509, 45.6233) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+mezopotamya	belirsiz  guney bataklik	257	sealand-1	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  guney bataklik'
+mezopotamya	Dur-Yakin	252	bit-yakin	Dur-Yakin	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/912953 (Tell al-Lahm, settlement, archaeological-site, precise) (30.7740, 46.3659) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+mezopotamya	Babil civari	252	bit-amukani	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Babil civari'
+mezopotamya	Belirsiz  Babil çevresi	252	bit-dakkuri	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Belirsiz  Babil çevresi'
+mezopotamya	Vassukanni  konum belirsiz	240	mitanni	Vassukanni / konum belirsiz	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Vassukanni / konum belirsiz)
+mezopotamya	Muşaşir	186	musasir	Muşaşir	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/126728263 (Muṣaṣir, settlement, settlement-modern, precise) (36.8394, 44.3033) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+mezopotamya	Agade  konum bilinmiyor	180	akad	Agade	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/63806066 (Agade, unlocated, settlement, related) (32.5000, 44.5000) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+mezopotamya	Nîl	166	mezyedi	Nîl	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Nîl)
+mezopotamya	Kazallu	150	kazallu	Kazallu	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kazallu)
+mezopotamya	Akşak	99	aksak	Akşak	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Akşak)
+mezopotamya	Vâsit civari	78	bataih	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Vâsit civari'
+mezopotamya	belirsiz  Adab olasi	42	gutium	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Adab olasi'
+mezopotamya	Muhtâre	14	zenc-devleti	Muhtâre	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Muhtâre)
+misir-sudan	Soba	931	alodia	Soba	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/6005527 (Soba) (15.4500, 32.6667) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+misir-sudan	Talmis  Kalabsha	881	blemmyes	Talmis / Kalabsha	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/795868 (Talmis, settlement, precise) (23.6098, 32.7694) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+misir-sudan	Memfis	637	ahamenis-misir,ahamenis-misir-2,misir-eski-krallik	Memfis	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2042877 (Memphis, populated-place,archaeological-site) (29.8500, 31.2500) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+misir-sudan	belirsiz  birimler arası farklı	481	beja-krallik	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  birimler arası farklı'
+misir-sudan	Thinis → Memfis	440	misir-erken-hanedan	Memfis	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2042877 (Memphis, populated-place,archaeological-site) (29.8500, 31.2500) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+misir-sudan	Itj-tawy	405	misir-orta-krallik	Itj-tawy	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 29.57,31.23; iDAI.gazetteer 29.30,30.80
+misir-sudan	Rakkāde → Mehdiye → Sabra  Mansûriye	262	fatimi	Rakkāde	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Rakkāde)
+misir-sudan	Rakkāde → Mehdiye → Sabra  Mansûriye	262	fatimi	Sabra	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Sabra)
+misir-sudan	Faras  Pachoras	252	nobatia	Faras / Pachoras	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 15.15,35.77; Pleiades 22.20,31.50; iDAI.gazetteer 21.92,31.26
+misir-sudan	Leontopolis	102	misir-23-hanedan	Leontopolis	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 29.97,32.55; Pleiades 30.68,31.36; Pleiades 30.29,31.33
+misir-sudan	Tebai  Teb	70	tebai-11-hanedan	Tebai / Teb	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2042921 (Theben, archaeological-site) (25.6923, 32.6384) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+misir-sudan	Fustat → Katâi	37	tolunogullari	Fustat	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/727082 (Babylon/al-Fusṭāṭ/Old Cairo, fortified-settlement, settlement, precise) (30.0058, 31.2301) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+misir-sudan	Fustat → Katâi	37	tolunogullari	Katâi	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Katâi)
+misir-sudan	Fustat → el-Katâi	37	tulunoglu	Fustat	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/727082 (Babylon/al-Fusṭāṭ/Old Cairo, fortified-settlement, settlement, precise) (30.0058, 31.2301) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+misir-sudan	Fustat → el-Katâi	37	tulunoglu	el-Katâi	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (el-Katâi)
+okyanusya	yok	548	hawaii-erken,kamag-mogol,mariana-latte	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok'
+okyanusya	Nan Madol	282	saudeleur,saudeleur-pohnpei	Nan Madol	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7032372 (Nanmadol) (6.8410, 158.3380) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+okyanusya	Anakena	162	rapa-nui,rapa-nui-erken	Anakena	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Anakena)
+orta-afrika	Njimi → Ngazargamu	481	kanem-bornu	Njimi	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/1004500 (Tié, archaeological-site) (14.2000, 15.7000) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-afrika	Njimi → Ngazargamu	481	kanem-bornu	Ngazargamu	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/6004236 (Birni Ngazargamu) (13.0470, 12.2270) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-amerika	San Lorenzo → La Venta	800	olmek	San Lorenzo	belirsiz	belirsiz: bölge kutusunda aynı adla 11 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 12.33,-85.67; TGN 13.40,-87.45; iDAI.gazetteer 18.30,-89.70; iDAI.gazetteer 18.20,-91.10; iDAI.gazetteer 16.60,-90.70
+orta-amerika	cok merkezli	650	maya-klasik	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'cok merkezli'
+orta-amerika	Caracol	528	caracol-maya	Caracol	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2340312 (Caracol, archaeological-site) (16.7640, -89.1176) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-amerika	Piedras Negras	350	piedras-negras-yokib	Piedras Negras	belirsiz	belirsiz: bölge kutusunda aynı adla 22 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 18.77,-96.18; TGN 18.47,-89.02; TGN 19.45,-88.80; TGN 20.44,-97.76; TGN 21.87,-102.51
+orta-amerika	Cacaxtla	300	cacaxtla	Cacaxtla	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/6001062 (Cacaxtla) (19.2458, -98.3500) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-amerika	Naranjo	264	naranjo-saal	Naranjo	belirsiz	belirsiz: bölge kutusunda aynı adla 24 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 27.12,-100.39; TGN 27.25,-108.77; TGN 21.28,-99.10; TGN 18.00,-91.12; TGN 18.15,-102.77
+orta-amerika	yok  yayılmış cacicazgo'lar	81	taino-seflikleri	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  yayılmış cacicazgo'lar'
+orta-amerika	Ek' Balam	70	ek-balam	Ek' Balam	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 20.90,-88.15; iDAI.gazetteer 20.20,-89.10
+orta-asya	Longcheng	726	hunnu-xiongnu,xiongnu	Longcheng	belirsiz	belirsiz: bölge kutusunda aynı adla 5 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 24.31,109.40; CHGIS 34.20,116.99; CHGIS 31.53,106.40; CHGIS 29.90,116.55; CHGIS 22.91,111.09
+orta-asya	Kuça  Yancheng	713	kuca	Kuça / Yancheng	belirsiz	belirsiz: bölge kutusunda aynı adla 5 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): CHGIS 30.05,111.78; CHGIS 33.39,120.13; CHGIS 33.57,113.98; CHGIS 37.91,115.18; CHGIS 20.00,110.44
+orta-asya	yok  Tula ırmağı doğusu	486	tatar	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  Tula ırmağı doğusu'
+orta-asya	Bagram -> Peşaver	300	kusan	Bagram	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 34.97,69.27; iDAI.gazetteer 34.00,69.00
+orta-asya	Koço  yazlık	298	koco-uygur	Koço	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2379278 (Gaochang, archaeological-site) (42.9000, 89.5000) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-asya	Çaç  Binkes	251	cac-tudun	Çaç / Binkes	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Çaç / Binkes)
+orta-asya	Yenikent  Seyhun ağzı yakını	228	oguz-yabgu	Yenikent	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Yenikent)
+orta-asya	Gazne → Lahor	223	gazneli	Lahor	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7969439 (Lāhor) (34.4795, 71.2893) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-asya	Ötüken	221	dogu-gokturk,dogu-gokturk-2,gokturk-1,kirgiz-yenisey	Ötüken	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ötüken)
+orta-asya	Estiyâ → Fîrûzkûh  Gazne ikinci merkez	215	gurlu	Estiyâ	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Estiyâ)
+orta-asya	Bunjikat  Bencikes	213	usrusana-afsin	Bunjikat / Bencikes	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Bunjikat / Bencikes)
+orta-asya	yok  Tola-Orhon-Ongin havzası yurtları	196	kerait	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  Tola-Orhon-Ongin havzası yurtları'
+orta-asya	Özkent → Semerkant	171	bati-karahanli	Özkent	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Özkent)
+orta-asya	Mumo	150	rouran	Mumo	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Mumo)
+orta-asya	Baktra	120	greko-baktria	Baktra	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/961886 (Bactra/Zariaspa, settlement, precise) (36.7679, 66.9011) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-asya	belirsiz  Tohâristân	103	eftalit	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Tohâristân'
+orta-asya	Ordu-Balık  Karabalgasun	95	uygur	Ordu-Balık / Karabalgasun	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ordu-Balık / Karabalgasun)
+orta-asya	Kara-ordu  Balasagun yakını	74	karluk	Kara-ordu	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kara-ordu)
+orta-asya	Suyab	49	turges	Suyab	model_red	MODEL REDDİ: atlas Suyab/Ak-Beşim'i «Balasagun (Ak-Beşim)» yerleşimiyle temsil ediyor (~6 km; kronoloji maddeleri o ada bağlı) — mükerrer yazılmadı (bulunan 42.805, 75.199). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): orta-asya başkenti (devletler: turges; TSV yer d
+orta-asya	yok  göçebe Oğuz beyleri	28	horasan-oguz-hakimiyeti	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  göçebe Oğuz beyleri'
+orta-asya	Tola vadisi  Kuzey Mogolistan	19	xueyantuo-kaganligi	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Tola vadisi  Kuzey Mogolistan'
+orta-asya	Yudujun	18	xueyantuo	Yudujun	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Yudujun)
+orta-asya	Tarbagatay-Kara Irtış çevresi  şehir adı bulunamadı	14	ogedey-ulusu	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'Tarbagatay-Kara Irtış çevresi  şehir adı bulunamadı'
+orta-asya	Talas	10	ogedey-ulusu-kaydu	Talas	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 42.52,72.24; TGN 42.90,71.37
+orta-asya	yok  Altay-Kara İrtiş bozkırı	5	naiman	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  Altay-Kara İrtiş bozkırı'
+orta-avrupa	belirsiz	10258	al-abwab,alamanlar,frizya-ozgurlugu,gordyene,macar-prensligi,magan	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz'
+orta-avrupa	belirsiz  Marklo	504	saksonya-eski	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Marklo'
+orta-avrupa	Levý Hradec → Prag  Pražský hrad	328	bohemya-dukaligi	Levý Hradec	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Levý Hradec)
+orta-avrupa	—  seçimli	319	almanya	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: '—  seçimli'
+orta-avrupa	belirsiz  Lüneburg	300	saksonya-dukaligi	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Lüneburg'
+orta-avrupa	Pannonia  Ring	255	avar	Pannonia / Ring	belirsiz	belirsiz: bölge kutusunda aynı adla 2 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): iDAI.gazetteer 46.85,17.78; iDAI.gazetteer 47.29,15.97
+orta-avrupa	Meissen → Wittenberg → Dresden	158	saksonya	Wittenberg	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/7078535 (Landkreis Wittenberg) (51.8122, 12.8053) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-avrupa	Tirol Kalesi  Schloss Tirol	141	tirol-kontlugu	Tirol Kalesi / Schloss Tirol	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2073720 (Schloss Tirol, archaeological-site) (46.6944, 11.1450) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-avrupa	Brandenburg an der Havel → Berlin-Cölln	124	brandenburg-markgrafligi	Berlin-Cölln	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2176900 (Berlin- Cölln, populated-place) (52.5149, 13.4029) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-avrupa	Kulm → Marienburg  1309	51	teuton-devleti	Kulm	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/1003828 (Kulm, archaeological-site,landform) (47.2252, 15.7591) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+orta-avrupa	Kulm → Marienburg  1309	51	teuton-devleti	Marienburg	belirsiz	belirsiz: bölge kutusunda aynı adla 5 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 52.12,9.98; TGN 50.90,6.98; TGN 49.23,10.97; TGN 54.03,19.05; TGN 48.92,13.55
+sibirya-bozkir	Yemekiye  yazlık	431	kimek	Yemekiye	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Yemekiye)
+sibirya-bozkir	Belencer → İtil	335	hazar-kaganligi	Belencer	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Belencer)
+sibirya-bozkir	Belencer → İtil	335	hazar-kaganligi	İtil	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (İtil)
+sibirya-bozkir	yok  başbuğ yurtları: Orta Asya	185	kipcak	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  başbuğ yurtları: Orta Asya'
+sibirya-bozkir	Ordu-Balık  Ötüken	96	uygur-kaganligi	Ordu-Balık / Ötüken	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ordu-Balık / Ötüken)
+sibirya-bozkir	belirsiz  Yenisey havzası	50	kirgiz-erken	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Yenisey havzası'
+sibirya-bozkir	yok  göçebe	12	merkit	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'yok  göçebe'
+suriye-filistin	Arvad  Arados	941	arvad	Arvad	model_red	MODEL REDDİ: Arvad adası kara maskesinde yok (3.8 km); önerilen nokta ana karaya (Tartus) düşüyor — taşınmadı (bulunan 34.857586, 35.859431). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): suriye-filistin başkenti (devletler: arvad; TSV yer dizesi 'Arvad  Arados'). Tan
+suriye-filistin	Bozra  Busayra	747	edom	Bozra / Busayra	belirsiz	yalnız GeoNames'te 3 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)
+suriye-filistin	Askelon	571	filistin-pentapolis	Askelon	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/687839 (Ashqelon/Ascalon, basilica, settlement-modern, archaeological-site, findspot, settlement, precise) (31.6648, 34.5505) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+suriye-filistin	Katna  Tell Mishrife	460	katna	Katna / Tell Mishrife	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/1085074 (Al-Mashrafah) (34.8333, 36.8667) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+suriye-filistin	belirsiz  Cabiye	436	gassani	-	yer-adi-yok	kaynak (devletler.js/DEVLET-LISTESI) başkent alanında şehir adı yok: 'belirsiz  Cabiye'
+suriye-filistin	Selevkeia → Antakya	249	selevkos	Selevkeia	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Selevkeia)
+suriye-filistin	Sekem → Tirsa → Samiriye	208	israil-krallik	Sekem	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2734897 (Nablus, populated-place,archaeological-site) (32.2227, 35.2621) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+suriye-filistin	Sekem → Tirsa → Samiriye	208	israil-krallik	Tirsa	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Tirsa)
+suriye-filistin	Arvad	196	fenike-ozerk-sehirleri	Arvad	model_red	MODEL REDDİ: Arvad adası kara maskesinde yok (3.8 km); önerilen nokta ana karaya (Tartus) düşüyor — taşınmadı (bulunan 34.8667, 35.85). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): suriye-filistin başkenti (devletler: fenike-ozerk-sehirleri; TSV yer dizesi 'Arvad'). 
+suriye-filistin	Ugulzat?  Tell Khan Sheykhun	160	nuhasse	Ugulzat / Tell Khan Sheykhun	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Ugulzat / Tell Khan Sheykhun)
+suriye-filistin	Arpad  Tell Rifaat	160	arpad	Arpad / Tell Rifaat	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Arpad / Tell Rifaat)
+suriye-filistin	Sumur	150	amurru	Sumur	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Sumur)
+suriye-filistin	Kalkis  Chalcis ad Libanum?	148	iturya	Kalkis / Chalcis ad Libanum	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kalkis / Chalcis ad Libanum)
+suriye-filistin	Til Barsip  Tell Ahmar	145	bit-adini	Til Barsip / Tell Ahmar	belirsiz	belirsiz: bölge kutusunda aynı adla 3 ayrı yer kümesi (homonim; TSV dizesi ayırt etmiyor): TGN 36.13,37.58; Pleiades 37.00,41.05; Pleiades 36.67,38.12
+suriye-filistin	Mısyâf  Kehf	141	nizari-suriye	Mısyâf / Kehf	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2281724 (Qalʿat Masyaf, -) (35.0661, 36.3432) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+suriye-filistin	Gibea → Hebron → Urusalim	117	birlesik-israil	Gibea	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Gibea)
+suriye-filistin	Soba  Beka'da?	100	aram-soba	Soba / Beka'da	tek_tanik	tek tanık: Pleiades pleiades.stoa.org/places/668261 ((H)Emesa, settlement, precise) (34.7377, 36.7193) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+suriye-filistin	Abila	92	abilene	Abila	model_red	MODEL REDDİ: Abilene merkezi Abila Lysaniou (Vadi Barada); bulunan nokta Dekapolis Abila'sı (bulunan 32.681, 35.869). ÖNEMLİ BAŞKENT (YER-2, 23 Ekim 2026): suriye-filistin başkenti (devletler: abilene; TSV yer dizesi 'Abila'). Tanık kaynaklar: Getty TGN + iDAI
+suriye-filistin	Kerek  Montréal	71	oltre-urdun	Kerek / Montréal	tek_tanik	tek tanık: iDAI.gazetteer gazetteer.dainst.org/place/2424200 (Qal‘at ash-Shawbak, archaeological-site) (30.5000, 35.6000) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+suriye-filistin	Montfort  Starkenberg	51	tevton-montfort	Montfort / Starkenberg	tek_tanik	tek tanık: Getty TGN http://vocab.getty.edu/tgn/8712265 (Monfor) (33.0440, 35.2250) — ikinci bağımsız gazetteer'de aynı adla ≤10 km kayıt yok
+suriye-filistin	Cebele	49	cebele-kadilari	Cebele	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Cebele)
+suriye-filistin	Dımaşk → Halep  1095 sonrası iki melik: Halep ve Dımaşk	38	suriye-selcuklu	Dımaşk	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Dımaşk)
+suriye-filistin	Kerek	20	eyyubi-kerek	Kerek	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Kerek)
+suriye-filistin	Kudüs → Dımaşk	8	atsiz-beyligi	Dımaşk	bulunamadi	TGN/Pleiades/iDAI/GeoNames1000'de bölge kutusunda yerleşim türünde birebir ad yok (Dımaşk)
+suriye-filistin	Betar	3	bar-kohba	Betar	belirsiz	yalnız GeoNames'te 2 aynı adlı modern yer (TGN/Pleiades/iDAI'de yok)

@@ -108,7 +108,8 @@ def jstr(s):
     return json.dumps(s, ensure_ascii=False)
 
 DATA = "--data" in sys.argv
-MASKE_DUZELT = {"Tibet": (33.3614, 90.3119), "Trogir": (43.5092, 16.2530)}
+MASKE_DUZELT = {"Tibet": (33.3614, 90.3119), "Trogir": (43.5092, 16.2530),
+                "Mozia": (37.8656, 12.4748), "Amalfi": (40.6363, 14.5980), "Gubla": (34.1198, 35.6481)}      # YER-2 23 Eki: ≤0.7 km kıyı düzeltmesi
 EPOK = "1281-01-01"
 MEVCUT_AD = {y["ad"] for y in Y}
 YAZILAN_AD = set()
