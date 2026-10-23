@@ -97,36 +97,53 @@ def _km2(geom):
     return 0.0 if geom.is_empty else B._km2(geom.area, geom.centroid.y)
 
 
+_GOVDE = {}   # (id, parça anahtarı) -> birleşik gövde; aynı parça kümesi bir kez birleştirilir
+_CIFT = {}    # (anahtarA, anahtarB) -> km²; aynı iki gövde bir kez kesiştirilir
+
+
+def _govde(kimlik, anahtar, parcalar):
+    k = (kimlik, anahtar)
+    if k not in _GOVDE:
+        _GOVDE[k] = unary_union(parcalar) if parcalar else None
+    return _GOVDE[k]
+
+
 def yabanci_devlet_govdeleri(gun):
-    """{devlet_id: birleşik gövde} — o gün boyanan yabancılar."""
+    """{devlet_id: (anahtar, birleşik gövde)} — o gün boyanan yabancılar.
+
+    Anahtar = gövdeyi oluşturan parça indeksleri. İki kırılma arasında bir devletin
+    parçaları değişmezse anahtar aynı kalır; birleştirme ve çift kesişimi önbellekten
+    gelir (tam tarama ~2,5 saatten dakikalara iner).
+    """
     havuz, ph, kayitlar = _yab()
     out = {}
     for k in kayitlar:
-        ps = []
+        idx = []
         for d in (k.get("dnm") or []):
             if d.get("f") and d.get("t") and d["f"] <= gun < d["t"]:
-                for i in (d.get("g") or []):
-                    g = _poligon(havuz, ph, i, "Y")
-                    if g is not None:
-                        ps.append(g)
-        if ps:
-            out[k.get("id")] = unary_union(ps)
+                idx.extend(d.get("g") or [])
+        if idx:
+            anahtar = tuple(sorted(idx))
+            g = _govde(k.get("id"), anahtar,
+                       [p for p in (_poligon(havuz, ph, i, "Y") for i in anahtar)
+                        if p is not None])
+            if g is not None:
+                out[k.get("id")] = (anahtar, g)
     return out
 
 
 def osmanli_govde(gun, D, PARCA):
-    """Doğrudan (o) + tâbi (v) tek gövde; o gün dönem yoksa None."""
+    """(anahtar, gövde) — doğrudan (o) + tâbi (v) tek gövde; o gün dönem yoksa None."""
     havuz, ph = PARCA
     sec = [d for d in D if d.get("f") and d.get("t") and d["f"] <= gun < d["t"]]
     if not sec:
         return None
-    ps = []
-    for alan in ("o", "v"):
-        for i in (sec[0].get(alan) or []):
-            g = _poligon(havuz, ph, i, "O")
-            if g is not None:
-                ps.append(g)
-    return unary_union(ps) if ps else None
+    idx = tuple(sorted([("o", i) for i in (sec[0].get("o") or [])] +
+                       [("v", i) for i in (sec[0].get("v") or [])]))
+    g = _govde("osmanli", idx,
+               [p for p in (_poligon(havuz, ph, i, "O") for _, i in idx)
+                if p is not None])
+    return (idx, g) if g is not None else None
 
 
 def kirilma_gunleri(D):
@@ -143,19 +160,64 @@ def kesit_olc(gun, D, PARCA):
     govdeler = yabanci_devlet_govdeleri(gun)
     osm = osmanli_govde(gun, D, PARCA)
     if osm is not None:
-        govdeler["osmanli"] = osm
+        govdeler["osmanli"] = osm   # (anahtar, gövde)
     ids = sorted(govdeler, key=str)
     sonuc = []
     for i, a in enumerate(ids):
         ga = govdeler[a]
+        ka, ga = ga
         for b in ids[i + 1:]:
-            gb = govdeler[b]
-            if not ga.intersects(gb):
-                continue
-            km = _km2(ga.intersection(gb))
+            kb, gb = govdeler[b]
+            ck = ((a, ka), (b, kb))
+            if ck not in _CIFT:
+                _CIFT[ck] = (_km2(ga.intersection(gb)) if ga.intersects(gb) else 0.0)
+            km = _CIFT[ck]
             if km >= ASGARI_KM2:
                 sonuc.append((a, b, round(km)))
     return sorted(sonuc, key=lambda t: -t[2])
+
+
+ORNEK_ADIM = 50   # kapı örneği: sıralı kırılma günlerinin her 50.'si (~60 kesit)
+
+
+def ornek_olc(D, PARCA):
+    """Kapı ölçümü: kırılma günlerinin her ORNEK_ADIM.'si — tam taramanın ~1/50'si.
+
+    Tam tarama (--tam) ~30 dk sürer, her push'ta koşturulamaz. Örnek günler sabit
+    (sıralı kırılma listesinin [::ORNEK_ADIM] dilimi) ⇒ iki ölçüm aynı günlere bakar;
+    yeni kırılma günü eklenince dilim kayar, o zaman tavan yeniden yazılır (Emre onaylar).
+    """
+    gunler = kirilma_gunleri(D)[::ORNEK_ADIM]
+    binen, toplam = 0, 0
+    for g in gunler:
+        r = kesit_olc(g, D, PARCA)
+        if r:
+            binen += 1
+            toplam += sum(t[2] for t in r)
+    return {"ornek_binen_gun": binen, "ornek_gun_km2": toplam,
+            "ornek_kesit": len(gunler), "ornek_adim": ORNEK_ADIM}
+
+
+def kapi():
+    """denetle.py için: (çıkış 0/1/2, tek satır özet). Üretilmiş veri/tavan yoksa 2."""
+    B.DATA = _veri_dizini()
+    for f in ("donemler.js", "devletler_harita.js"):
+        if not os.path.exists(os.path.join(B.DATA, f)):
+            return 2, "%s altında %s yok (coz-c gerekir)" % (B.DATA, f)
+    if not os.path.exists(TAVAN_YOL):
+        return 2, "tavan dosyası yok (%s)" % TAVAN_YOL
+    tavan = json.load(open(TAVAN_YOL, encoding="utf-8"))
+    if "ornek_gun_km2" not in tavan:
+        return 2, "tavan dosyasında örnek tavanı yok (--ornek --tavan-yaz)"
+    havuz, ph, D = _oku("donemler.js", ["PARCALAR", "PARCA_HALKA", "DONEMLER"])
+    o = ornek_olc(D, (havuz, ph))
+    ozet = "%d/%d örnek günde binme · %d km² (tavan %d gün · %d km²)" % (
+        o["ornek_binen_gun"], o["ornek_kesit"], o["ornek_gun_km2"],
+        tavan["ornek_binen_gun"], tavan["ornek_gun_km2"])
+    if o["ornek_gun_km2"] > tavan["ornek_gun_km2"] or \
+            o["ornek_binen_gun"] > tavan["ornek_binen_gun"]:
+        return 1, ozet
+    return 0, ozet
 
 
 def main():
@@ -181,8 +243,21 @@ def main():
             print("  %-28s × %-28s %8d km²" % (a, b, km))
         return 0
 
+    if "--ornek" in arg:
+        o = ornek_olc(D, PARCA)
+        print("ÖRNEK ÖLÇÜM (%.0f sn): %s" % (time.time() - t0, json.dumps(o)))
+        if "--tavan-yaz" in arg:
+            t = json.load(open(TAVAN_YOL, encoding="utf-8")) \
+                if os.path.exists(TAVAN_YOL) else {}
+            t.update(o)
+            json.dump(t, open(TAVAN_YOL, "w", encoding="utf-8"),
+                      ensure_ascii=False, indent=1)
+            print("Örnek tavanı yazıldı: %s (Emre onaylamadan commit etme)" % TAVAN_YOL)
+        return 0
+
     if "--tam" not in arg:
-        print("Tam tarama pahalıdır; açıkça iste: --tam  (ya da --kesit YYYY-AA-GG)")
+        print("Tam tarama pahalıdır; açıkça iste: --tam  (ya da --kesit YYYY-AA-GG · "
+              "--ornek = kapı örneği)")
         return 0
 
     gunler = kirilma_gunleri(D)
@@ -207,7 +282,10 @@ def main():
         print("  %-50s %10d" % (k, v))
 
     if "--tavan-yaz" in arg:
-        json.dump(olcum, open(TAVAN_YOL, "w", encoding="utf-8"),
+        t = json.load(open(TAVAN_YOL, encoding="utf-8")) \
+            if os.path.exists(TAVAN_YOL) else {}
+        t.update(olcum)
+        json.dump(t, open(TAVAN_YOL, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
         print("Tavan yazıldı: %s (Emre onaylamadan commit etme)" % TAVAN_YOL)
         return 0
