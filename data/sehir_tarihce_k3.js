@@ -310,6 +310,48 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış: Treccani'ye göre Pippin'in 765-766 kışı (Aquisgrana 'Storia'). Roma dönemi: Aquae Granni sıcak su kaynakları; Treccani 'Tiberius zamanında' bilinen kaplıca der (gün/yıl kaynağı verilmemiş) ve Pleiades Roma dönemini -30/+640 verir — bu yüzden 'ark' (yüzyıl hassasiyeti) olarak yazıldı, yazılı Roma tanığı (kitabe/Peutinger) bu turda açılamadı (bulunamadı). Modern nokta antik vicus ile aynı yerde (Pleiades 50.776/6.084; <3 km). Sahip zinciri: 765-843 Frank; 843 Verdun'da Lothar I (Lotharingia, Austrasia orta-doğusu); 925'te Henry I; 962'den Almanya. Lotharingia künyesi f=0855 — genişletme önerisi f=0843-08-10. 870 Meerssen paylaşımının Aachen'i hangi tarafa verdiği bu turda kaynakta açılamadı; zincire ayrı dönem yazılmadı (polity tek dönem)."
  },
  {
+  "id": "alacahisar-rs",
+  "ad": "Alacahisar (Kruševac)",
+  "atlas_ad": "Alacahisar (Kruševac)",
+  "lat": 43.58,
+  "lon": 21.327,
+  "kat1900": 3,
+  "adlar": [
+   "Kruševac",
+   "Alacahisar"
+  ],
+  "ilk": {
+   "t": "1371-01-01",
+   "gun": "1371",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV 'Alacahisar' https://islamansiklopedisi.org.tr/alacahisar ; Hrvatska enciklopedija 'Kruševac' https://www.enciklopedija.hr/clanak/krusevac",
+   "tanik": "1371 yılından sonra kurulmuş olup Belgrad ile Üsküp arasında yer alır",
+   "ic_not": "TDV: kuruluş '1371 yılından sonra' (alt sınır, gün/yıl yok); HE: 'Od 1371. Kruševac je bio prijestolnica kneza Lazara' (1371'den itibaren başkent). t=1371 ALT SINIR olarak yazıldı (TDV esas). Atlas başlangıcı 1281'den sonra olduğundan zincir BOŞ."
+  },
+  "kur": {
+   "t": "1371-01-01",
+   "gun": "1371",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV 'Alacahisar' (1371 yılından sonra kurulmuş) ; HE 'Kruševac' (1371'den prijestolnica Lazara)",
+   "tanik": "1371 yılından sonra kurulmuş olup Belgrad ile Üsküp arasında yer alır"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1371-01-01",
+    "gun": "1371",
+    "k": "kurulus",
+    "b": "Kruševac, Knez Lazar'ın başkenti olarak kuruldu/anılır (TDV: 1371'den sonra kuruldu; HE: 1371'den itibaren başkent)",
+    "kaynak": "TDV 'Alacahisar' https://islamansiklopedisi.org.tr/alacahisar ; HE 'Kruševac' https://www.enciklopedija.hr/clanak/krusevac",
+    "tanik": "Od 1371. Kruševac je bio prijestolnica kneza Lazara"
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Alacahisar'ı 1281-01-01'de 'sirbistan' ile başlatıyor, ama TDV'ye göre şehir 1371'den SONRA kurulmuş (HE: 1371'den başkent). Zincir bu yüzden BOŞ; 1281–1371 arası için nokta kırpılmalı ya da önceki yer ('Kruševac' öncesi yerleşim) aranmalı — Kruševac'ın öncüsü yerleşim bulunamadı. Kaynaklar: TDV, HE (Treccani/Iranica açılmadı)."
+ },
+ {
   "id": "amiens-fr",
   "ad": "Amiens",
   "atlas_ad": "Amiens",
@@ -2908,6 +2950,156 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Kuruluş bulunamadı. Atlas Bordo 1281 'ingiltere' — uyumlu. Çift teyit: Strabon + Treccani aynı pasajı atıflar (bağımsız değil). Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
  },
  {
+  "id": "bosanska-dubica-ba",
+  "ad": "Bosna Dubiçası (Bosanska Dubica)",
+  "atlas_ad": "Bosna Dubiçası (Bosanska Dubica)",
+  "lat": 45.174,
+  "lon": 16.81,
+  "kat1900": 3,
+  "adlar": [
+   "Dubica (villa)",
+   "Dubica (castrum)",
+   "Bosanska Dubica",
+   "Kozarska Dubica"
+  ],
+  "ilk": {
+   "t": "1244-01-01",
+   "gun": "1244",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija 'Kozarska Dubica' https://www.enciklopedija.hr/clanak/kozarska-dubica",
+   "tanik": "Spominje se 1244. kao varoš (villa), a 1256. kao župski grad (castrum).",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Vikipedi (ikinci tanık) 'first mentioned in 1258 as Castrum' der (HE 1256) — HE esas alındı, çelişki beyan. Dubica'nın Una'nın sağ kıyısındaki yeri (Kozarska Dubica) esas; sol kıyıdaki Hrvatska Dubica 1689'dan sonra kurulmuş ayrı yerleşimdir (HE)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1244-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Kozarska Dubica' (srednjem vijeku županijsko središte; 1269 ivanovci); Vikipedi 'Kozarska Dubica' (ikinci tanık: 'seat of the Dubica county of the Kingdom of Hungary')",
+    "tanik": "U srednjem vijeku bila je županijsko središte.",
+    "ic_not": "BEYANLI ÇIKARIM: HE krallık adını vermez ('županijsko središte'); Macar-Hırvat Krallığı çıkarımı (Vikipedi ikinci tanık) — doğrudan tanık değil. 1269'da ivanovcilar (Hospitaller) elinde (HE), egemen yine krallık. Atlas ilk dönemiyle (macaristan 1281) aynı sahip → dikiş sorunsuz."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1244-01-01",
+    "gun": "1244",
+    "k": "diger",
+    "b": "Dubica 'villa' (varoş) olarak ilk kez anılır",
+    "kaynak": "Hrvatska enciklopedija 'Kozarska Dubica' https://www.enciklopedija.hr/clanak/kozarska-dubica",
+    "tanik": "Spominje se 1244. kao varoš (villa)"
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "1256",
+    "k": "diger",
+    "b": "Dubica 'castrum' (kontluk/ilçe kalesi) olarak anılır",
+    "kaynak": "Hrvatska enciklopedija 'Kozarska Dubica' https://www.enciklopedija.hr/clanak/kozarska-dubica",
+    "tanik": "a 1256. kao župski grad (castrum)"
+   },
+   {
+    "t": "1269-01-01",
+    "gun": "1269",
+    "k": "diger",
+    "b": "Dubica ivanovcilara (Hospitallerlere) geçti ve tahkim edildi",
+    "kaynak": "Hrvatska enciklopedija 'Kozarska Dubica' https://www.enciklopedija.hr/clanak/kozarska-dubica",
+    "tanik": "Godine 1269. došla je u posjed ivanovaca, koji su je utvrdili."
+   }
+  ],
+  "ic_not": "Zincir 1244–1281 (37 yıl) ve tek devlet (Macar-Hırvat Krallığı, çıkarım). 1244 öncesi tanık bulunamadı (HE, Vikipedi 'Kozarska Dubica was built in 930' iddiası kaynaksız — kullanılmadı)."
+ },
+ {
+  "id": "bosanski-brod-ba",
+  "ad": "Bosna Brod'u (Bosanski Brod)",
+  "atlas_ad": "Bosna Brod'u (Bosanski Brod)",
+  "lat": 45.138,
+  "lon": 17.988,
+  "kat1900": 3,
+  "adlar": [
+   "Berislavića Brod",
+   "Turski Brod",
+   "Bosanski Brod",
+   "Brod"
+  ],
+  "ilk": {
+   "t": "1536-01-01",
+   "gun": "1536",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija 'Brod' (prije Bosanski Brod) https://www.enciklopedija.hr/clanak/brod-grad",
+   "tanik": "Osmanlije su ga zauzeli 1536.",
+   "ic_not": "BULUNAN EN ERKEN TARİHLİ TANIK (gerçek ilk anılış değil, alt sınır niteliğinde): HE yalnız 'U srednjem vijeku pripadao posjedima velikaške obitelji Boričević, poslije zvanih Berislavić' der (tarihsiz). Daha erken tarihli tanık bulunamadı (HE 'Berislavići', TDV arama 'Bosna Brod', OpenAlex taraması sonuçsuz; Vikipedi 'Brod' maddesi 1691 der). Not: HE'de 'Brod' (bosanska župa, 1244 Bela IV) başka bir yerdir (Travnik çevresi), bu şehirle karıştırılmaz."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1536-01-01",
+    "gun": "1536",
+    "k": "fetih",
+    "b": "Bosna sancak beyi Hüsrev Bey Brod'u (Bosanski Brod) Osmanlı adına aldı",
+    "kaynak": "Hrvatska enciklopedija 'Brod' https://www.enciklopedija.hr/clanak/brod-grad",
+    "tanik": "Osmanlije su ga zauzeli 1536."
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas 1281-01-01'de 'macaristan' ile başlatıyor; açılan kaynaklarda şehre ait en erken tarihli tanık 1536 (HE), ortaçağ tarihsiz ('Boričević mülkü'). 1281 öncesi tanık BULUNAMADI. Sava'nın karşı yakası Slavonski Brod ayrı yerleşimdir."
+ },
+ {
+  "id": "bosanski-novi-ba",
+  "ad": "Bosna Novi'si (Bosanski Novi)",
+  "atlas_ad": "Bosna Novi'si (Bosanski Novi)",
+  "lat": 45.048,
+  "lon": 16.377,
+  "kat1900": 3,
+  "adlar": [
+   "Castrum Novum",
+   "Novi",
+   "Bosanski Novi",
+   "Novi Grad"
+  ],
+  "ilk": {
+   "t": "1280-01-01",
+   "gun": "1280",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija 'Novi Grad' (prije Bosanski Novi) https://www.enciklopedija.hr/clanak/novi-grad ; Vikipedi 'Novi Grad' (ikinci tanık: first mentioned in 1280 as Castrum Novum)",
+   "tanik": "Prvi se put spominje 1280. kao Castrum Novum",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). HE ve Vikipedi aynı tarihi verir (Vikipedi bağımsız değil, çift teyit sayılmaz)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1280-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Novi Grad' (Babonić knezlerinin mülkü); Hrvatska enciklopedija 'Babonići' (Slavonya'nın en güçlü soylu ailesi)",
+    "tanik": "bio je u posjedu knezova Babonića do početka XVI. st.",
+    "ic_not": "BEYANLI ÇIKARIM: HE Babonić mülkiyetini söyler, egemen krallığı ('Macar-Hırvat Krallığı') söylemez; Babonići Slavonya'daki Macar-Hırvat Krallığı'nın soylusudur (HE 'Babonići': srednjovjekovna Slavonija). 1 yıllık dönem (1280-1281). Atlas ilk sahibi ile aynı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1280-01-01",
+    "gun": "1280",
+    "k": "diger",
+    "b": "Castrum Novum (Novi) ilk kez anılır; Babonić knezlerinin mülkü",
+    "kaynak": "Hrvatska enciklopedija 'Novi Grad' https://www.enciklopedija.hr/clanak/novi-grad",
+    "tanik": "Prvi se put spominje 1280. kao Castrum Novum"
+   }
+  ],
+  "ic_not": "Zincir yalnız 1280–1281 (1 yıl). Bosanski Novi'nin Una-Sana kavşağındaki yeri esas; 1280 öncesi tanık bulunamadı."
+ },
+ {
   "id": "bourges-fr",
   "ad": "Bourges",
   "atlas_ad": "Bourges",
@@ -4368,6 +4560,44 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Treccani Cambridge: 'Fondata dai Romani, col nome di Camboritum' — Itinerary transkripsiyonunda 'Camboritum' (?Lackford) ve 'Duroliponte' ayrı istasyonlar; Treccani adı yanlış eşleştirmiş olabilir, Duroliponte tercih edildi (çelişki beyan). İlk tanık Itinerary (III. yy; Britannica 1911: özgün baskı III. yy başı) — transkripsiyon popüler bir siteden (roman-britain.co.uk) alınmıştır; Cuntz/Parthey-Pinder baskı sayfası açılamadı, Rivet & Smith (Place-Names of Roman Britain 1979) kitabı açılamadı: eşleştirme doğrulaması bekler. Çelişki: Bede HE 4.19 'Grantacaestir' (≈695) Cambridge değil Grantchester olabilir (Sellar dizini). Eski adlar: Grantebrycge (Sakson), Cambridge. Roma Duroliponte Castle Hill'de (Cambridge merkezinden ~1 km; <3 km). 410-875 arası sahip bulunamadı."
  },
  {
+  "id": "cetin-hr",
+  "ad": "Cetin (Cetingrad)",
+  "atlas_ad": "Cetin (Cetingrad)",
+  "lat": 45.138,
+  "lon": 15.732,
+  "kat1900": 3,
+  "adlar": [
+   "Cetin",
+   "Cetin-Grad",
+   "Vališ Selo",
+   "Cetingrad"
+  ],
+  "ilk": {
+   "t": "1334-01-01",
+   "gun": "1334",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija 'Cetingrad' https://www.enciklopedija.hr/clanak/cetingrad",
+   "tanik": "Mjesto se prvi put spominje 1334.",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). HE: 'Cetinom se do XVII. st. nazivala utvrda, podgrađe ... te okolni feudalni posjed koji su od XIV. st. držali Frankapani'. Vikipedi 'Cetin Castle': yapım tarihi bilinmiyor, Roma çağı yerleşim 'göstergeleri' var (kaynaksız — kullanılmadı). YER: Cetin kalesi (eski Cetin) Cetingrad köyünden ~5 km güneyde (Vikipedi); atlas noktasının hangisi olduğu ve aralarında >3 km olup olmadığı ölçülmedi — ayrı kayıt önerisi gerekebilir (kale / Cetingrad köyü)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1334-01-01",
+    "gun": "1334",
+    "k": "diger",
+    "b": "Cetin ilk kez anılır",
+    "kaynak": "Hrvatska enciklopedija 'Cetingrad' https://www.enciklopedija.hr/clanak/cetingrad",
+    "tanik": "Mjesto se prvi put spominje 1334."
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas 1281-01-01'de 'macaristan' ile başlatıyor (kaynak: 'XIV. yy'dan Frankapan mülkü'); açılan kaynaklarda ilk tanık 1334 (HE) — 1281'den sonra. Zincir BOŞ; 1281 öncesi tanık bulunamadı."
+ },
+ {
   "id": "chalkis-egriboz-yunanistan",
   "ad": "Eğriboz (Khalkis)",
   "atlas_ad": "Eğriboz",
@@ -5235,6 +5465,283 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk tanık: Antonine Itinerary Iter III 'Item a Londinio ad portum Dubris mpm lxvi' — transkripsiyon popüler site (roman-britain.co.uk) üzerinden; Britannica 1911 tarihleme (özgün baskı III. yy başı, mevcut hâl Diocletianus). Cuntz/Parthey-Pinder metni açılamadı. Pleiades 'Portus Dubris' (arama özeti) AD 43 işgaliyle ilgili tanım verir (sayfa açılmadı). Treccani Dover: 'Giulio Cesare non era riuscito a approdarvi' (Caesar MÖ 55-54 inişi Dover'da başarısız — tarih ve yer Treccani'de ayrıntısız). 410-449 arası ve 449-823 içi Mercia egemenliği bulunamadı/yazılmadı. Modern nokta = Roma Dubris (Dover Painted House); 3 km içinde."
  },
  {
+  "id": "dreznik-hr",
+  "ad": "Drežnik (Drežnik Grad)",
+  "atlas_ad": "Drežnik (Drežnik Grad)",
+  "lat": 44.943,
+  "lon": 15.669,
+  "kat1900": 3,
+  "adlar": [
+   "Drežnik (županija)",
+   "Drežnik",
+   "Drežnik Grad"
+  ],
+  "ilk": {
+   "t": "1253-01-01",
+   "gun": "1253",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija 'Drežnik Grad' https://www.enciklopedija.hr/clanak/dreznik-grad",
+   "tanik": "God. 1253. županija Drežnik došla je u posjed Nelipčića",
+   "ic_not": "İLK ANILIŞ — DOLAYLI: HE 1253'te 'Drežnik ilçesi (županija)'nın Nelipčić'e geçtiğini söyler (ilçe merkezi = şehir); şehrin/kalenin kendi adı ilk kez ne zaman anıldığı HE'de yok ('Srednjovjekovni grad (XIII. st.)'). Bu yüzden 1253 en erken tarihli tanık (ilçe düzeyi). HE aynı maddede ilçenin 'XII. yy'a dek banın, ondan sonra Macar-Hırvat kralının elinde' olduğunu söyler."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1253-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Drežnik Grad' (hrvatsko-ugarskoga kralja egemenliği; 1253 Nelipčić, Güssingovci 1278'e dek, sonra Babonić)",
+    "tanik": "Kraj je do XII. st. bio u rukama bana, a otada hrvatsko-ugarskoga kralja.",
+    "ic_not": "Egemen: Macar-Hırvat Krallığı (HE açık). Kale/ilçe tutucuları (Nelipčić 1253, Güssing 1278'e dek, Babonić 1278) soylu/derebeyi; devlet künyesi değil. HE: 'XII. yy'dan itibaren kralın' → 1253 öncesine geri uzatılmadı (şehir tanığı yok)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1253-01-01",
+    "gun": "1253",
+    "k": "diger",
+    "b": "Drežnik ilçesi (županija) Nelipčić ailesine verildi",
+    "kaynak": "Hrvatska enciklopedija 'Drežnik Grad' https://www.enciklopedija.hr/clanak/dreznik-grad",
+    "tanik": "God. 1253. županija Drežnik došla je u posjed Nelipčića"
+   },
+   {
+    "t": "1278-01-01",
+    "gun": "1278",
+    "k": "diger",
+    "b": "Drežnik kalesi Güssingovacların elinden Babonićlere devredildi (soylu el değiştirme; egemen krallık aynı)",
+    "kaynak": "Hrvatska enciklopedija 'Drežnik Grad' https://www.enciklopedija.hr/clanak/dreznik-grad",
+    "tanik": "grad je bio u vlasti Güssingovaca do 1278., kada su ga predali Babonićima"
+   }
+  ],
+  "ic_not": "Zincir 1253–1281. Roma/Antik çağ: HE yakınındaki Gajina Pećina'da MÖ 8. yy (tunç) buluntu der — yerleşim değil mağara, atlas noktasına uzaklığı ölçülmedi."
+ },
+ {
+  "id": "dubrovnik-hr",
+  "ad": "Dubrovnik",
+  "atlas_ad": "Dubrovnik",
+  "lat": 42.65,
+  "lon": 18.094,
+  "kat1900": 3,
+  "adlar": [
+   "Epitaurum id est Ragusium",
+   "Ragusium",
+   "Rausia",
+   "Dubrovnik/Dobravnik",
+   "Raguza",
+   "Dubrovnik"
+  ],
+  "ilk": {
+   "t": "0700-01-01",
+   "gun": "7. yüzyıl başı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika ; Treccani, Enciclopedia Italiana 'Ragusa' https://www.treccani.it/enciclopedia/ragusa_%28Enciclopedia-Italiana%29/",
+   "tanik": "Prvi je put Dubrovnik spomenut (Epitaurum id est Ragusium)",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): HE 'Anonim Ravennalı (Ravenna Kozmografyası) başı VII. yy' der → yüzyıl kesinliği, güvenli uç 700-01-01. ARKEOLOJİ: HE 'Dubrovnik' — Roma mezar taşları, Helenistik/İlir/Roma/Bizans sikkeleri, geç antik kale ve iki kilise, erken ortaçağ katedrali 'VII. yy'da Epidaur'dan gelen kaçaklardan ÖNCE yerleşim' (HE); çekirdek VI–VII. yy geçişinde (HE). ÇELİŞKİ: TDV 'Dubrovnik' kuruluşu 'VIII. yüzyılda Avarlar'dan kaçan Mora'daki Epidauroslular' diye anlatır (TDV esas kuralı gereği not edilir; TDV'nin 'Mora' bilgisi HE/Treccani'ye (Epidaurum = Cavtat, ~15 km güney) ters ve VIII. yy, Ravenna/HE VII. yy başıyla çatışır) — kuruluş tarihi için TDV'yi mi HE'yi mi esas alacağına Emre karar vermeli. Treccani EI: Epidauro 'verso il 615' Avar-Slav istilasıyla yıkıldı, Ragusa Epidaurum mültecileriyle kuruldu (çift teyit yok, aynı olgu). ANTİK YER: Epidaurum (Cavtat) modern Dubrovnik'ten ~15 km güneyde → ayrı kayıt önerisi (Cavtat/Epidaurum)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0600-01-01",
+   "gun": "6. yüzyıl sonu - 7. yüzyıl başı",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (na prijelazu iz VI. u VII. st. ... oblikovala jezgra naselja)",
+   "tanik": "na prijelazu iz VI. u VII. st. na hridinastom se poluotoku"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0700-01-01",
+    "t": "0998-01-01",
+    "d": "bizans",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (VI–XI. yy Bizans himayesi) ; Treccani EI 'Ragusa' (Bizans Dalmaçya temasına bağlı) ; TDV 'Dubrovnik' (IX. yy Bizans'a bağlandı; 867 Ağlebî kuşatması)",
+    "tanik": "pod višestoljetnom bizantskom zaštitom (VI–XI. st.)",
+    "ic_not": "Ad = Bizans himayesi (nominal egemenlik); Dubrovnik fiilen özerk komün. Tek başına yuzyil kesinliği; 867 olayı (TDV) bu dönemde."
+   },
+   {
+    "f": "0998-01-01",
+    "t": "1018-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Dubrovnik' (998) ; HE 'Dubrovačka Republika' (mletačko 1000–18) ; Treccani EI 'Ragusa' (1000 Orseolo; ilk yarı XI. yy Bizans egemenliği + Venedik yargı yetkisi)",
+    "tanik": "X. yüzyıl sonlarında da Venedik’e bağlandı (998).",
+    "ic_not": "ÇELİŞKİ: başlangıç TDV 998, HE 1000, Treccani 1000 (Doge Orseolo seferi); TDV esas → 998. Bitiş 1018: yalnız HE (1000–18). Treccani: 'sotto la sovranità bizantina e la giurisdizione veneziana' (birlikte) — Venedik üstünlüğü 'jurisdiksiyon' düzeyinde olabilir, beyanlı yaklaşıklık."
+   },
+   {
+    "f": "1018-01-01",
+    "t": "1069-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (bizantsko 1018–69)",
+    "tanik": "bizantsko (1018–69; 1167–71; 1192–1205), u kraćim rasponima mletačko (1000–18; 1171–72)"
+   },
+   {
+    "f": "1069-01-01",
+    "t": "1081-01-01",
+    "d": "dubrovnik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (formalno samostalan, napose nakon 1069., Hrvatsko Kraljevstvo ile yakın bağ)",
+    "tanik": "napose nakon 1069., kada je bio u tijesnoj vezi s Hrvatskim Kraljevstvom",
+    "ic_not": "BEYANLI: HE 'birkaç kez biçimsel olarak bağımsız, özellikle 1069 sonrası Hırvat Krallığı'na yakın' der; kesin bitiş/başlangıç yılları yalnız komşu dönemlerin sınırlarından çıkarılır (1081 Norman, 1167 Bizans). Dönem künyesi: dubrovnik (komün, 700–1808)."
+   },
+   {
+    "f": "1081-01-01",
+    "t": "1085-01-01",
+    "d": "apulya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (normansko 1081–85) ; Treccani EI 'Ragusa' (Roberto il Guiscardo, 1081 Durazzo, 1084 Corfù seferleri; Puglia Normanlarına yöneldi)",
+    "tanik": "u kraćim rasponima mletačko (1000–18; 1171–72) i normansko (1081–85; 1172–92) vrhovništvo",
+    "ic_not": "HE yalnız 'Norman' der, hangi Norman devleti olduğunu söylemez; künye eşlemesi (Apulya Dükalığı = Robert Guiscard) Treccani EI'nin 'Normanni di Puglia / Roberto il Guiscardo' ifadesinden çıkarım. Treccani başlangıcı Guiscard'ın Durazzo seferine (Temmuz 1081) bağlar."
+   },
+   {
+    "f": "1085-01-01",
+    "t": "1167-01-01",
+    "d": "dubrovnik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (formalno samostalan; 1085–1167 arası listelenen egemen yok) ; Treccani EI 'Ragusa' (XII. yy başı Bizans egemenliği 'puramente nominale')",
+    "tanik": "a u nekoliko navrata bio je i formalno samostalan",
+    "ic_not": "ÇELİŞKİ/BEYAN: HE listesinde 1085–1167 arası egemen yok (biçimsel bağımsızlık); Treccani EI aynı aralıkta (XII. yy başından) Bizans egemenliğini 'sadece nominal' sayar. HE esas alındı (dönem listesi açık); Bizans nominal egemenliği not."
+   },
+   {
+    "f": "1167-01-01",
+    "t": "1171-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (bizantsko 1167–71) ; Treccani EI 'Ragusa' (Manuele Comneno 1143–1180 döneminde fiilî egemenlik)",
+    "tanik": "bizantsko (1018–69; 1167–71; 1192–1205)"
+   },
+   {
+    "f": "1171-01-01",
+    "t": "1172-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (mletačko 1171–72)",
+    "tanik": "u kraćim rasponima mletačko (1000–18; 1171–72)"
+   },
+   {
+    "f": "1172-01-01",
+    "t": "1192-01-01",
+    "d": "sicilya-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (normansko 1172–92) ; Treccani EI 'Ragusa' (1187: Sicilya kralları II. Guglielmo ve Tancredi'ye teslim)",
+    "tanik": "normansko (1081–85; 1172–92) vrhovništvo",
+    "ic_not": "ÇELİŞKİ: HE 1172–92 Norman (Sicilya Normanları, II. Wilhelm); Treccani EI '1187'de Sicilya krallarına teslim oldu, 1192'de Bizans'a döndü' der — başlangıç HE 1172, Treccani 1187. HE esas (açık aralık). Künye: sicilya-kralligi (Norman Sicilya)."
+   },
+   {
+    "f": "1192-01-01",
+    "t": "1205-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' (bizantsko 1192–1205) ; Treccani EI 'Ragusa' (1192 Bizans'a döndü; 1205 sonrası Venedik)",
+    "tanik": "nel 1192 tornò all'impero bizantino",
+    "ic_not": "1192: Treccani EI ve HE çift teyit; Treccani 1205 öncesi 'conte Damiano Giuda'nın kısa yerel yönetimi'ni anar (tarihsiz, zincire açılmadı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0700-01-01",
+    "gun": "7. yüzyıl başı",
+    "k": "diger",
+    "b": "Dubrovnik (Ragusium) 'Epitaurum id est Ragusium' olarak Anonim Ravennalı'da ilk kez anılır — kuruluş değil",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika",
+    "tanik": "Prvi je put Dubrovnik spomenut (Epitaurum id est Ragusium)"
+   },
+   {
+    "t": "0867-01-01",
+    "gun": "867",
+    "k": "diger",
+    "b": "Ağlebî donanması Dubrovnik'i 15 ay kuşattı; Bizans donanmasının yardımıyla kurtuldu (Bizans'a bağlılığın tanığı)",
+    "kaynak": "TDV 'Dubrovnik' https://islamansiklopedisi.org.tr/dubrovnik",
+    "tanik": "Sicilya’ya hâkim olan Ağlebîler’e ait bir filo 867’de burasını kuşattı"
+   },
+   {
+    "t": "0998-01-01",
+    "gun": "998",
+    "k": "diger",
+    "b": "Dubrovnik Venedik'e bağlandı (TDV 998; HE/Treccani 1000)",
+    "kaynak": "TDV 'Dubrovnik' https://islamansiklopedisi.org.tr/dubrovnik",
+    "tanik": "X. yüzyıl sonlarında da Venedik’e bağlandı (998)."
+   },
+   {
+    "t": "1018-01-01",
+    "gun": "1018",
+    "k": "diger",
+    "b": "Venedik üstünlüğü sona erdi, Bizans egemenliği (1018–69)",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika",
+    "tanik": "bizantsko (1018–69; 1167–71; 1192–1205)"
+   },
+   {
+    "t": "1069-01-01",
+    "gun": "1069",
+    "k": "diger",
+    "b": "Bizans egemenliğinin sonu; Dubrovnik biçimsel bağımsız, Hırvat Krallığı'na yakın",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika",
+    "tanik": "napose nakon 1069., kada je bio u tijesnoj vezi s Hrvatskim Kraljevstvom"
+   },
+   {
+    "t": "1081-01-01",
+    "gun": "1081",
+    "k": "diger",
+    "b": "Norman (Apulya) egemenliği: Dubrovnik Guiscard'ın Durazzo seferine gemi ve asker verdi",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Ragusa' https://www.treccani.it/enciclopedia/ragusa_%28Enciclopedia-Italiana%29/",
+    "tanik": "Valido concorso di navi e di armati prestò a Roberto il Guiscardo"
+   },
+   {
+    "t": "1085-01-01",
+    "gun": "1085",
+    "k": "diger",
+    "b": "Norman egemenliği sona erdi (HE: normansko 1081–85)",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika",
+    "tanik": "normansko (1081–85; 1172–92)"
+   },
+   {
+    "t": "1167-01-01",
+    "gun": "1167",
+    "k": "diger",
+    "b": "Bizans egemenliği (Manuel Komnenos) yeniden: 1167–71",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika",
+    "tanik": "bizantsko (1018–69; 1167–71; 1192–1205)"
+   },
+   {
+    "t": "1171-01-01",
+    "gun": "1171",
+    "k": "diger",
+    "b": "Venedik egemenliği: 1171–72",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika",
+    "tanik": "u kraćim rasponima mletačko (1000–18; 1171–72)"
+   },
+   {
+    "t": "1172-01-01",
+    "gun": "1172",
+    "k": "diger",
+    "b": "Norman (Sicilya Krallığı) egemenliği: 1172–92",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika",
+    "tanik": "normansko (1081–85; 1172–92)"
+   },
+   {
+    "t": "1192-01-01",
+    "gun": "1192",
+    "k": "diger",
+    "b": "Bizans egemenliğine dönüş (II. Isaakios Angelos ticaret imtiyazı)",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika",
+    "tanik": "bizantski car Izak II. Angel 1192. slobodnu trgovinu po Bizantu i Bugarskoj"
+   },
+   {
+    "t": "1205-01-01",
+    "gun": "1205",
+    "k": "diger",
+    "b": "Dubrovnik Venedik egemenliğini tanıdı (1205); Treccani: kısa yerel yönetimden sonra Venedik'e teslim",
+    "kaynak": "Hrvatska enciklopedija 'Dubrovačka Republika' https://www.enciklopedija.hr/clanak/dubrovacka-republika ; Treccani EI 'Ragusa' (çift teyit)",
+    "tanik": "Dubrovnik je od 1205. priznavao vrhovništvo Venecije"
+   }
+  ],
+  "ic_not": "ÇİFT TEYİT: 1205 (HE + Treccani EI), 1192 (HE + Treccani EI). KAYNAK ÇELİŞKİLERİ sahip[] ic_not'larında; en önemlisi kuruluş (TDV VIII. yy vs HE VII. yy başı) — Emre kararı gerek. Atlas ilk dönemi dubrovnik 1205 'venedik enklav': HE ve Treccani Venedik üstünlüğünü doğrular. Dubrovnik künyesi (dubrovnik, 700-01-01'den) boyasızdır (boyali:false); 1069–1081 ve 1085–1167 dönemleri bu künyeyle yazıldı, boyası yoksa renk istenmeli. Açılamayan: Iranica/Brill/Pleiades yok sayıldı; Vikipedi kullanılmadı."
+ },
+ {
   "id": "eger-hu",
   "ad": "Eğri (Eger)",
   "atlas_ad": "Eğri",
@@ -5695,6 +6202,131 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Faro: kaynaklar Mela (Latin Library), Plinius (Perseus), Princeton (Perseus), Livius, Treccani Algarve/Portogallo/Pomponio Mela, TDV Şentemeriye (Santa Maria de Algarve = Faro; Ossonoba) ve TDV Endülüs/Kurtuba/Abbâdîler/Abdurrahman I. ÇİFT TEYİT: Faro'nun 1249 fethi (TDV Şentemeriye + Treccani Portogallo, bağımsız). ÇELİŞKİ: TDV Şentemeriye 1233 / 1249; Treccani Portogallo Algarve'nin tamamını Alfonso III'e verir (1245-79). Atlas Faro 1281 'portekiz' ile uyumlu; atlas başlangıcı Faro için DÜZELTİLEBİLİR: Faro 1249'dan beri Portekiz (TDV+Treccani). Hicrî hesaplar tablo takvimiyle (Jülyen)."
  },
  {
+  "id": "foca-ba",
+  "ad": "Foça (Foča)",
+  "atlas_ad": "Foça (Foča)",
+  "lat": 43.506,
+  "lon": 18.779,
+  "kat1900": 3,
+  "adlar": [
+   "Hotča",
+   "Choç",
+   "Foča",
+   "Foça"
+  ],
+  "ilk": {
+   "t": "1366-01-01",
+   "gun": "1366",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija 'Foča' https://www.enciklopedija.hr/clanak/foca",
+   "tanik": "Foča se prvi puta, pod imenom Hotča, spominje 1366.",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). TDV'de Foça (Bosna) için ayrı madde bulunamadı (arama: yalnız 'Alaca Cami'). Daha erken tanık bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1366-01-01",
+    "gun": "1366",
+    "k": "diger",
+    "b": "Foča (Hotča) Dubrovnik karavan yolunda ticaret ve karavan durağı olarak ilk kez anılır",
+    "kaynak": "Hrvatska enciklopedija 'Foča' https://www.enciklopedija.hr/clanak/foca",
+    "tanik": "Foča se prvi puta, pod imenom Hotča, spominje 1366."
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Foça'yı 1281-01-01'de 'bosna' ile başlatıyor; açılan kaynaklarda ilk tanık 1366 (HE, 'Hotča'). Zincir BOŞ; 1281 öncesi tanık bulunamadı."
+ },
+ {
+  "id": "foggia-it",
+  "ad": "Foggia",
+  "atlas_ad": "Foggia",
+  "lat": 41.462,
+  "lon": 15.544,
+  "kat1900": 3,
+  "adlar": [
+   "Foggia"
+  ],
+  "ilk": {
+   "t": "1069-01-01",
+   "gun": "1069",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana 'Foggia' https://www.treccani.it/enciclopedia/foggia_%28Enciclopedia-Italiana%29/ ; Treccani Enciclopedia on line 'Foggia' https://www.treccani.it/enciclopedia/foggia/ (Ricordata la prima volta nel 1069)",
+   "tanik": "La prima notizia storica sicura di Foggia ricorre in una bolla di Alessandro II",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Papa II. Alexander'ın Troia piskoposu Stefano'ya bullası, 'probabilmente del 1069' (Treccani EI; yıl 'muhtemelen'). Treccani online aynı tarihi 'Ricordata la prima volta nel 1069' diye yazar (bağımsız değil, aynı kurum). TDV'de 'Foggia' maddesi yok (arama: 0 sonuç). Antik komşu: Arpi (Daunia) modern Foggia'nın yakınında — Treccani 'Via Arpi' anar, mesafe ölçülmedi (>3 km ise ayrı kayıt önerisi: Arpi)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1069-01-01",
+    "t": "1128-01-01",
+    "d": "apulya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani EI 'Capitanata' (1043 Norman paylaşımı; XI. yy sonu 'ducato') https://www.treccani.it/enciclopedia/capitanata_%28Enciclopedia-Italiana%29/ ; Treccani 'Ruggero II' (1127 Guglielmo ölümü; 1128 dük unvanı)",
+    "tanik": "Nella ripartizione seguitane delle terre conquistate e da conquistare (1043), la Capitanata venne distribuita fra",
+    "ic_not": "BEYANLI ÇIKARIM: Treccani Foggia'nın Apulya Dükalığı'na bağlı olduğunu açık yazmaz; Capitanata'nın 1043'te Norman kontlarına paylaştırıldığı ve 'ducato' sınırında olduğu yazılır; dük Robert Guiscard (1059 Melfi) kontların derebeyidir — bu çıkarımdır. Bitiş 1128: Roger II, Papa Honorius II'den Apulya dükalığını aldı (Treccani Ruggero II)."
+   },
+   {
+    "f": "1128-01-01",
+    "t": "1281-01-01",
+    "d": "sicilya-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani 'Ruggero II' (1128 dükalık, 1130 Sicilya kralı) ; Treccani EI 'Capitanata' (Ruggiero II 1140'ta kraliyet otoritesini kesin kurdu; Federico II; Carlo I d'Angiò) ; Treccani EI 'Foggia' (Svevi, Manfredi, Carlo I d'Angiò)",
+    "tanik": "ottenendone (1130) il titolo di re di Sicilia",
+    "ic_not": "Sicilya Krallığı (Norman → Hohenstaufen → Anjou): künye sicilya-kralligi (1072–1282-03-30). Atlas ilk dönemi 1281-01-01 'napoli' (künye 1282-03-30'da başlıyor) — aynı hanedan/kraliyet (Anjou Carlo I) 1266'dan beri Foggia'yı elinde tutar (Treccani 'Carlo I d'Angiò ne fece centro degli uffici amministrativi'); künye geçişi sicilya-kralligi → napoli 1282. Kısa ele geçirmeler (1254 papalık, 1250 isyan, Federico II'ye karşı isyan — yılı verilmedi) ZİNCİRİ DEĞİŞTİRMEZ, olay olarak yazıldı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1069-01-01",
+    "gun": "1069",
+    "k": "diger",
+    "b": "Foggia ilk kez Papa II. Alexander'ın Troia piskoposu Stefano'ya bullasında anılır (muhtemelen 1069)",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Foggia'",
+    "tanik": "La prima notizia storica sicura di Foggia ricorre in una bolla di Alessandro II"
+   },
+   {
+    "t": "1128-01-01",
+    "gun": "1128",
+    "k": "antlasma",
+    "b": "Papa II. Honorius, Roger II'ye Apulya dükalığını tanıdı (Apulya Dükalığı Sicilya Normanlarının krallığına katıldı; krallık unvanı 1130)",
+    "kaynak": "Treccani, Enciclopedia on line 'Ruggero II re di Sicilia' https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia/",
+    "tanik": "lo stesso pontefice dovette concedergli il ducato (1128)"
+   },
+   {
+    "t": "1223-01-01",
+    "gun": "1223",
+    "k": "diger",
+    "b": "II. Friedrich Foggia'da saray-kale (palazzo-castello) kurdu; şehir en sevdiği ikametgâhlardan biri oldu",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Foggia'",
+    "tanik": "Colà Federico II fondò il suo palazzo-castello nel 1223"
+   },
+   {
+    "t": "1250-01-01",
+    "gun": "1250",
+    "k": "isyan",
+    "b": "Manfredi'ye karşı Foggia isyan girişimi başarısız",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Foggia'",
+    "tanik": "Nel 1250 un tentativo d'insurrezione contro Manfredi fallì."
+   },
+   {
+    "t": "1254-01-01",
+    "gun": "1254",
+    "k": "isyan",
+    "b": "Foggia Papa IV. Innocentius'un birliklerine kapılarını açtı; Manfredi sarayı dışında şehri yeniden aldı (kısa ele geçirme, zincir değişmez)",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Foggia'",
+    "tanik": "Quattro anni dopo la città aprì le porte alle milizie di papa Innocenzo IV."
+   }
+  ],
+  "dikis_beyan": "Gerçek bir el değiştirme aranmadı/bulunmadı: Foggia 1281 öncesi ve sonrası Anjou Carlo I'in Sicilya Krallığı'ndadır (Treccani EI: Carlo I d'Angiò Foggia'yı idarî merkez yaptı); atlasın 'napoli' künyesi 1282-03-30'da başlar (Vespro Siciliano sonrası ayrışma), atlas ise Foggia'yı 1281-01-01'de 'napoli' ile başlatıyor — künye adı geçişi, olay yok. 1281-01-01 civarı olay için yer tutucu yazılmadı.",
+  "ic_not": "Foggia: ilk anılış 1069 → atlas 1281 başlangıcından ÖNCE; zincir 1069–1281 iki dönem (Apulya Dükalığı, Sicilya Krallığı). Dikiş: sicilya-kralligi → atlas 'napoli' (künye geçişi 1282; atlas ilk dönemi 1281 — künye f'den bir yıl önce, 'hayalet' uyarısı olabilir). Bizans Katepanlığı/Longobard öncesi dönem tanık bulunamadı (1069 öncesi Foggia anılmaz)."
+ },
+ {
   "id": "frankfurt-de",
   "ad": "Frankfurt",
   "atlas_ad": "Frankfurt",
@@ -5986,6 +6618,52 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "dikis_beyan": "Atlas Gent'i 1281-01-01'de 'fransa' ile başlatıyor; Treccani Gand/Fiandra Gent'i 940 öncesinden beri Flandre kontlarının (Fransa'nın nominal vassalı) elinde gösterir (1213: kont Ferrando Fransa'ya karşı İngiltere ile ittifak eder). 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'flandre' (boyasız künye) olmalı mı yoksa Fransa nominal üst efendi diye tutulur mu — Emre kararı.",
   "ic_not": "İlk anılış tür notu: Treccani yerleşimin kendisini değil Amandus'un 'Ganda' denen yerde iki manastır kurmasını (VII. yy. ilk yarısı) verir; kesin yıl yok (güvenli uç 650). Şehir adı olarak 'Ganda' 941 'portus' belgesinden önce yazılı kaydı bu turda açılamadı. Modern Gent noktası manastır/portus yerleşim bölgesinde (Lys-Schelda birleşimi). 650-866 arası Frank ve Batı Francia sahibi Verdun payı ve Treccani Gand'dan çıkarım. Gent 1281'de Flandre'da (Gui de Dampierre kont, 1278-1305: Treccani Fiandra)."
+ },
+ {
+  "id": "gospic-hr",
+  "ad": "Gospić",
+  "atlas_ad": "Gospić",
+  "lat": 44.546,
+  "lon": 15.375,
+  "kat1900": 3,
+  "adlar": [
+   "Kaseg",
+   "Gospić"
+  ],
+  "ilk": {
+   "t": "1263-01-01",
+   "gun": "1263",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija 'Gospić' https://www.enciklopedija.hr/clanak/gospic",
+   "tanik": "U ispravi hrvatsko-ugarskog kralja Bele IV. iz 1263. spominje se pod imenom Kaseg",
+   "ic_not": "İLK ANILIŞ (kuruluş değil) — AD EŞİTLEMESİ: HE 1263 Bela IV belgesindeki 'Kaseg' adını bugünkü Gospić'in yeri sayar. HE aynı maddede Osmanlı akınları nedeniyle XV. yy sonu–XVI. yy başı yerleşimin 'yıkıldığı ve halkın dağıtıldığını', 1527'de Senković ağalarının yeni küçük kale kurduğunu, Gospić adının ilk kez 1574'te anıldığını söyler (süreklilik kesik: bugünkü Gospić 1527 sonrası kuruluş olabilir). Kaseg ≡ Gospić eşitlemesi kesin değilse başlangıç sayılmaz kuralı: HE doğrudan eşitler, ancak yer ikinci bir akademik kaynakla (Lika toponimi) doğrulanamadı → BEYANLI; atlas başlangıcı yine de 1281'den sonra değildir (1263<1281), bu yüzden zincir 1263–1281 yazıldı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1263-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Gospić' (hrvatsko-ugarski kral IV. Bela belgesi, 1263)",
+    "tanik": "U ispravi hrvatsko-ugarskog kralja Bele IV. iz 1263. spominje se pod imenom Kaseg",
+    "ic_not": "Egemen: Macar-Hırvat Krallığı (Bela IV'ün belgesi, yer krala ait olduğu çıkarımı; HE mülk sahibi vermez). Atlas ilk dönemiyle aynı sahip → dikiş sorunsuz."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1263-01-01",
+    "gun": "1263",
+    "k": "diger",
+    "b": "Kaseg (HE: bugünkü Gospić) IV. Bela'nın belgesinde ilk kez anılır",
+    "kaynak": "Hrvatska enciklopedija 'Gospić' https://www.enciklopedija.hr/clanak/gospic",
+    "tanik": "U ispravi hrvatsko-ugarskog kralja Bele IV. iz 1263. spominje se pod imenom Kaseg"
+   }
+  ],
+  "ic_not": "Zincir 1263–1281 (18 yıl). SÜREKLİLİK: HE'ye göre yerleşim XV–XVI. yy'da yıkılıp 1527'de yeniden kuruldu ('Kaseg ≠ kesintisiz Gospić') — 1281 sonrası dönemler atlas işidir, burada değerlendirilmedi. İkinci akademik kaynak (Lika tarih literatürü) açılmadı."
  },
  {
   "id": "graz-at",
@@ -6848,6 +7526,41 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Jaén'ın kaynaklı yazılı tarihi 747 civarından (Müslüman idari kaydı) başlıyor; Roma/Vizigot dönemi tarihsiz. Zincir: Cehverîler dönemi Ceyyân'a DOĞRUDAN tanıklı; Abbâdî, Murâbıt, Muvahhid ve Hûdî dönemleri Kurtuba/TDV Endülüs genel zincirinden devralındı (beyanlı). 1147-1172 BOŞLUK. Çelişkiler: Fernando III Jaén 1246 (TDV) ↔ 1245 (Treccani, kral numarası da hatalı) — TDV esas; Muvahhid Jaén'i 1172 (TDV) ↔ 'metà del XII' (Treccani). Atlas düzeltmesi gerekmiyor: atlas Jaén 1281 Kastilya, zincirle uyumlu; atlas başlangıcı 1246'ya çekilebilir (Kastilya'ya geçiş 1246, TDV). Çift teyit YOK."
+ },
+ {
+  "id": "jasenovac-hr",
+  "ad": "Jasenovaç (Jasenovac)",
+  "atlas_ad": "Jasenovaç (Jasenovac)",
+  "lat": 45.281,
+  "lon": 16.917,
+  "kat1900": 3,
+  "adlar": [
+   "Jasenovac"
+  ],
+  "ilk": {
+   "t": "1400-01-01",
+   "gun": "14. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija 'Jasenovac' https://www.enciklopedija.hr/clanak/jasenovac",
+   "tanik": "Prvi se put kao naselje i utvrda spominje u XIV. st.",
+   "ic_not": "İLK ANILIŞ (kuruluş değil), YÜZYIL kesinliği → güvenli uç 1400-01-01 (HE: XIV. yy). Gün/yıl veren daha kesin kaynak bulunamadı (TDV'de madde yok: arama 0 sonuç)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1400-01-01",
+    "gun": "14. yüzyıl",
+    "k": "diger",
+    "b": "Jasenovac yerleşim ve kale olarak ilk kez anılır (yüzyıl kesinliği)",
+    "kaynak": "Hrvatska enciklopedija 'Jasenovac' https://www.enciklopedija.hr/clanak/jasenovac",
+    "tanik": "Prvi se put kao naselje i utvrda spominje u XIV. st."
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas 1281-01-01'de 'macaristan' ile başlatıyor; açılan kaynakta ilk tanık yalnız 'XIV. yy' (HE). 1281'den önce tanık bulunamadı. Zincir BOŞ."
  },
  {
   "id": "jinan-cin",
@@ -8594,6 +9307,72 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "UYARI TASLAK: ilk anılış (18 Şubat 913) yalnız Vikipedi DE'ye dayanıyor; Treccani 'Kassel' maddesi bu oturumda açılamadı (slug 404), LAGIS/HLB erişilemedi, akademik ikinci tanık bulunamadı → çift teyit YOK. Vikipedi: belgelerin içeriği/kişileri bugünkü şehirle doğrudan ilişkili değil. Roma buluntusu yok (Vikipedi). Kassel'in Hessen Landgraflığı'na (künye 1264) ne zaman bağlandığı kaynakta yok → hessen-landgrafligi dönemi yazılmadı (atlas 1281 almanya ile uyumlu)."
  },
  {
+  "id": "knin-hr",
+  "ad": "Knin",
+  "atlas_ad": "Knin",
+  "lat": 44.041,
+  "lon": 16.197,
+  "kat1900": 3,
+  "adlar": [
+   "Tenen / Tnina (Konstantinos VII)",
+   "Tnin",
+   "Tinninium",
+   "Tzena",
+   "Clino",
+   "Knin"
+  ],
+  "ilk": {
+   "t": "0950-01-01",
+   "gun": "950 civarı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "Hrvatska enciklopedija 'Knin' https://www.enciklopedija.hr/clanak/knin",
+   "tanik": "Knin prvi put spominje oko 950. bizantski car Konstantin VII. Porfirogenet, pod imenom Tenen",
+   "ic_not": "İLK ANILIŞ (kuruluş değil), 'oko 950' (on yıl kesinliği; Konstantinos VII Porphyrogennetos, İdare-i İmparatorluk). Antik/prehistorya ÖNCESİ arkeolojik tanık HE'de var (neolitik/tunç yerleşim; kale eteğinde Roma mezarları; Sv. Spas tepesinde mimari; yakındaki Burnum Roma kampı) — yazılı tanık varsa o esas olduğundan arkeolojik başlangıç yazılmadı. Burnum (Ivoševci) modern Knin noktasından birkaç on km uzaktır, ayrı yerdir (mesafe ölçülmedi)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0950-01-01",
+    "t": "1102-01-01",
+    "d": "hirvatistan-kralligi",
+    "kesinlik": "onyil",
+    "kaynak": "Hrvatska enciklopedija 'Knin' (kraljevski castrum ve Hırvat hükümdarlarının geçici başkenti X.–XI. yy; Zvonimir ve Petar'ın başkenti; 1102'de Macar-Hırvat Krallığı)",
+    "tanik": "kraljevski castrum i povremena prijestolnica hrvatskih vladarâ u X. i XI. st.",
+    "ic_not": "Başlangıç = ilk anılış (oko 950); HE kale ve kraliyet merkezini X. yy'a bağlar (künye hirvatistan-kralligi 925–1102 ✓). 950 öncesi (Trpimir/Muncimir hanedanı, 9. yy) HE'de adı anılır ama tarihsiz — zincire alınmadı. Künye boyasız (boyali:false) → renk istenmeli. 1102 bitişi TDV'de yok; HE (1102) esas, ikinci tanık yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0950-01-01",
+    "gun": "950 civarı",
+    "k": "diger",
+    "b": "Knin (Tenen) Konstantinos VII'nin eserinde şehir ve župa merkezi olarak ilk kez anılır — kuruluş değil",
+    "kaynak": "Hrvatska enciklopedija 'Knin' https://www.enciklopedija.hr/clanak/knin",
+    "tanik": "Knin prvi put spominje oko 950. bizantski car Konstantin VII. Porfirogenet, pod imenom Tenen"
+   },
+   {
+    "t": "1076-01-01",
+    "gun": "1076-1078",
+    "k": "diger",
+    "b": "Knin'de ilk katedral (Sv. Marija) kutsandı — Hırvat Krallığı merkezi",
+    "kaynak": "Hrvatska enciklopedija 'Knin' https://www.enciklopedija.hr/clanak/knin",
+    "tanik": "Između 1076. i 1078. posvećena je prva kninska katedrala sv. Marije"
+   },
+   {
+    "t": "1102-01-01",
+    "gun": "1102",
+    "k": "diger",
+    "b": "Kral Petar'ın ölümünden sonra Knin Macar-Hırvat Krallığı'na katıldı (Hırvatistan Krallığı → Macaristan künye geçişi)",
+    "kaynak": "Hrvatska enciklopedija 'Knin' https://www.enciklopedija.hr/clanak/knin",
+    "tanik": "a nakon njegove smrti ušao je u sastav Hrvatsko-Ugarskoga Kraljevstva (1102)"
+   }
+  ],
+  "ic_not": "ÇİFT TEYİT: yok (HE tek). Kaynak basamakları: HE açıldı; TDV'de 'Knin' maddesi yok (arama: 6 içerik eşleşmesi, kendi maddesi yok); Treccani 'Knin' maddesi Enciclopedia Italiana'da yok. Atlas ilk dönemi macaristan 1102-01-01 HE (1102) ile uyumlu — çift teyit değil (aynı kaynak)."
+ },
+ {
   "id": "komarno-sk",
   "ad": "Komárom (Komárno)",
   "atlas_ad": "Komárom (Komárno)",
@@ -8658,6 +9437,44 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "MKL: 'A város a vár körüli 3 kis településből alakult'; 1265 IV. Béla Buda ayrıcalıkları (MKL, komarno.sk ile uyumlu). TDV 'Komarom'/'Komaron' maddesi yok. Roma dönemi (Brigetio/Celemantia) atlas noktasından >3 km."
+ },
+ {
+  "id": "konjic-ba",
+  "ad": "Koniçe (Konjic)",
+  "atlas_ad": "Koniçe (Konjic)",
+  "lat": 43.652,
+  "lon": 17.962,
+  "kat1900": 3,
+  "adlar": [
+   "Neretva (sağ kıyı yerleşimi)",
+   "Konjic",
+   "Belgradçık/Biograd (sol kıyı)",
+   "Koniçe"
+  ],
+  "ilk": {
+   "t": "1382-01-01",
+   "gun": "1382",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija 'Konjic' https://www.enciklopedija.hr/clanak/konjic ; Vikipedi 'Konjic' (ikinci tanık: 16 June 1382 Ragusa kayıtları, gün tek dayanaksız)",
+   "tanik": "koje se 1382. prvi put spominje pod imenom Konjic",
+   "ic_not": "İLK ANILIŞ (kuruluş değil), Konjic adının ilk anılışı (sağ kıyıdaki 'Neretva' yerleşimi). HE: Roma çağı mitreum kalıntıları ve 'prapovijesno doba' iskân — konumları atlas noktasına ≤3 km mi ölçülmedi, bu yüzden 'ark' yazılmadı. TDV 'Koniçe': 1463'te küçük köy, ilk Osmanlı kaydı 1475-78 pazar yeri (daha erken Ortaçağ tanığı yok). Vikipedi'deki '16 June 1382' günü ikinci bir akademik kaynakta doğrulanamadı → yıl kesinliği."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1382-01-01",
+    "gun": "1382",
+    "k": "diger",
+    "b": "Konjic (sağ kıyıdaki Neretva yerleşimi) ilk kez bu adla anılır",
+    "kaynak": "Hrvatska enciklopedija 'Konjic' https://www.enciklopedija.hr/clanak/konjic",
+    "tanik": "koje se 1382. prvi put spominje pod imenom Konjic"
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Koniçe'yi 1281-01-01'de 'bosna' ile başlatıyor; açılan kaynakta ilk tanık 1382 (HE). Zincir BOŞ; 1281 öncesi tanık bulunamadı. Sol kıyıdaki Biograd (Belgradçık) ayrı bir kale yerleşimidir (HE)."
  },
  {
   "id": "konstanz-de",
@@ -8785,6 +9602,94 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "UYARI: ilk anılış 'um 525' yalnız Vikipedi DE'de bulundu (Anarid) — Vikipedi tek dayanak olamaz kuralı gereği BU KAYIT TASLAKTIR; akademik ikinci tanık açılamadı (HLS Konstanz 'zerfallenes spätrömisches Kastell Constantia' ve 4. yy tahkimat arkeolojisi verir; Treccani Costanzo II. dönemi 4. yy kale ve 6. yy ilk yarısında piskoposluk der, ama ad yazılı tanığı vermez). Roma dönemi (Constantia 4. yy kalesi, Raetia prima 297) arkeolojiyle belgeli, yazılı tanık bu oturumda yok → zincir 525'te başlıyor; 4. yy Roma dönemi ark alanında. Konstanz noktasının Roma kalesi ile aynı yerde olduğu (Münsterplatz) HLS'de. Treccani 6. yy ilk yarısı piskoposluk (Vindonissa'dan nakil), HLS 6/7. yy dönümü; Vikipedi ~585 — ikisi de olay. Çift teyit YOK."
+ },
+ {
+  "id": "kotor-me",
+  "ad": "Kotor (Cattaro)",
+  "atlas_ad": "Kotor (Cattaro)",
+  "lat": 42.421,
+  "lon": 18.768,
+  "kat1900": 3,
+  "adlar": [
+   "Acruvium/Ascrivium (Plinius; eşleme belirsiz)",
+   "Catarum",
+   "Dekatera",
+   "Cattaro",
+   "Kotor"
+  ],
+  "ilk": {
+   "t": "0809-01-01",
+   "gun": "809",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana 'Cattaro' (Storia) https://www.treccani.it/enciclopedia/cattaro_%28Enciclopedia-Italiana%29/ ; ayrıca Treccani Enciclopedia on line 'Cattaro' https://www.treccani.it/enciclopedia/cattaro/",
+   "tanik": "Nell'809, all'ombra del suo patrono S. Trifone, Cattaro si presenta come centro già saldamente formato",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Bu tarih Cattaro/Catharum adının yeri kesin ilk yazılı tanığıdır (809, Bizans Dalmaçya temasına bağlı, S. Trifone himayesinde 'zaten oturmuş merkez'). Daha erken aday: Plinius, NH 3.26 (Perseus, Bostock-Riley çevirisi, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D3%3Achapter%3D26): 'After Epidaurum come the following towns, with the rights of Roman citizens:—Rhizinium 12 , Acruvium 13' ve çevirmen dipnotu 'The modern Cattaro is supposed to occupy its site' — ama Treccani EI 'forse sul luogo della romana Acruvium' (belki) der; yeri kesin olmayan ad eşitlemesi başlangıç sayılmaz (VERI-YAPISI kuralı), bu yüzden Acruvium (MS 77 civarı) yalnız not edildi. Wikipedia 'Kotor' (İngilizce) 'first mentioned in 168 BC' ve Justinianus 535 kalesi iddialarını kaynaksız yazar — kullanılmadı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0200-01-01",
+   "gun": "MÖ 3. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija 'Kotor' https://www.enciklopedija.hr/clanak/kotor ; (arkeolojik bulgular; yazılı tanık ayrı: ilk anılış)",
+   "tanik": "Kao grčko naselje Kotor je postojao već u III. st. pr. Kr."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0809-01-01",
+    "t": "1186-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Treccani EI 'Cattaro' (809: Bizans Dalmaçya temasına bağlı; Manuel Komnenos'un ölümü 1180 sonrası kısa yerel yönetim, 1186 Nemanja); Hrvatska enciklopedija 'Kotor' (VII. yy Bizans arhontiasının, IX. yy Dalmaçya temasının parçası; 1185'e dek Bizans ve Zeta hâkimiyeti dönüşümlü)",
+    "tanik": "Do 1185. smjenjivalo se nad Kotorom vrhovništvo Bizanta i zetskih vladara.",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: HE ve Treccani 809–1180 arasında Bizans temasını, ama Zeta (Duklja) hâkimiyetinin dönüşümlü dönemlerini TARİHSİZ verir ('1185'e dek dönüşümlü'). Dönüşümlü dönemlerin günleri açılan kaynaklarda yok (Wikipedia'da 1002 Bulgar, 1003 Duklja, 1040, 1143 var ama kaynaksız ve tek dayanak — kullanılmadı); bu yüzden 809–1186 tek Bizans dönemi olarak bırakıldı ve Zeta ara dönemleri sınırsız not edildi. Treccani EI: 1180 sonrası 'breve signoria locale (Triphon)'. Son sınır 1186: HE 'Nemanjićima (1186–1371)' + Treccani EI '(1186)' çift teyit; Wikipedia 1185 der."
+   },
+   {
+    "f": "1186-01-01",
+    "t": "1189-01-01",
+    "d": "sirbistan-nemanjic",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija 'Kotor' (Nemanjićima 1186–1371) ; Treccani EI 'Cattaro' (passò al dominio dei Nemagna, re di Serbia (1186)); Hrvatska enciklopedija 'Stefan Nemanja' (Zeta'daki şehirlerin fethi 1186'da tamamlandı) ; TDV 'Karadağ' (1189)",
+    "tanik": "Punu autonomiju uživao je Kotor pod Nemanjićima (1186–1371)",
+    "ic_not": "ÇAKIŞMA (atlas ilk dönemi sirbistan 1189-01-01, TDV Karadağ bölge düzeyinde 1189): Kotor için HE ve Treccani EI birbirinden bağımsız olarak 1186 verir (çift teyit); TDV 1189'u Zeta bölgesi için 'Sırbistan hâkimiyetini sağlamlaştırdı' diye söyler (şehir adı geçmez). Zincir atlas ilk gününe (1189) kadar sürdürüldü; ATLAS ÖNERİSİ: Kotor'un sirbistan başlangıcı 1189 yerine 1186 olabilir (iki ucu ölçerek karar)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0809-01-01",
+    "gun": "809",
+    "k": "diger",
+    "b": "Cattaro (S. Trifone himayesinde) Bizans Dalmaçya temasına bağlı oturmuş merkez olarak ilk yazılı tanık",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Cattaro' https://www.treccani.it/enciclopedia/cattaro_%28Enciclopedia-Italiana%29/",
+    "tanik": "Nell'809, all'ombra del suo patrono S. Trifone, Cattaro si presenta come centro"
+   },
+   {
+    "t": "0840-01-01",
+    "gun": "840",
+    "k": "diger",
+    "b": "Saraceni (Müslüman) akını: Cattaro'nun aşağı kısmı alındı/yıkıldı, Budua ve Portorose yıkıldı; şehir kısa sürede toparlandı",
+    "kaynak": "Treccani, Enciclopedia Italiana 'Cattaro' (Storia); Treccani EI online 'Cattaro' (nell'840 fu semidistrutta dai Saraceni)",
+    "tanik": "nell’840 fu semidistrutta dai Saraceni"
+   },
+   {
+    "t": "1186-01-01",
+    "gun": "1186",
+    "k": "fetih",
+    "b": "Kotor Sırp Nemanjić hâkimiyetine geçti (Bizans/Zeta dönüşümlü hâkimiyeti sona erdi)",
+    "kaynak": "Hrvatska enciklopedija 'Kotor' ; Treccani EI 'Cattaro' (çift teyit)",
+    "tanik": "passò al dominio dei Nemagna, re di Serbia (1186)"
+   },
+   {
+    "t": "1189-01-01",
+    "gun": "1189",
+    "k": "diger",
+    "b": "TDV Karadağ: 1189'da Sırbistan Zeta (sahil kasabaları dahil bölge) üzerinde hâkimiyetini sağlamlaştırdı, Zeta'ya özel statü tanındı (bölge düzeyi, şehir adı geçmez)",
+    "kaynak": "TDV 'Karadağ' https://islamansiklopedisi.org.tr/karadag",
+    "tanik": "1189 yılında Sırbistan hâkimiyetini sağlamlaştırdı"
+   }
+  ],
+  "ic_not": "Kotor: ilk yazılı tanık 809 (Treccani EI), arkeolojik Grek yerleşim MÖ 3. yy (HE). Roma çağı Acruvium eşlemesi (Plinius) 'belki' olduğundan zincire alınmadı; 395/476 künye geçişleri için de tanık gerekmediğinden zincir 809'da başlar. KAYNAK BASAMAKLARI: HE, Treccani EI (iki ayrı baskı), Perseus (Plinius), TDV Karadağ (bölge düzeyi) açıldı. TDV'de 'Kotor' başlıklı madde yok (arama: 8 içerik eşleşmesi, kendi maddesi yok); Iranica/Brill/Pleiades açılmadı (Pleiades 'Anubis' bot koruması)."
  },
  {
   "id": "kruja-arnavutluk",
@@ -13169,6 +14074,63 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Atlas Santander 1281 'kastilya' — uyumlu."
+ },
+ {
+  "id": "semendire-rs",
+  "ad": "Semendire (Smederevo)",
+  "atlas_ad": "Semendire",
+  "lat": 44.663,
+  "lon": 20.93,
+  "kat1900": 3,
+  "adlar": [
+   "Smederevo",
+   "Semendria",
+   "Szendrő",
+   "Semendire"
+  ],
+  "ilk": {
+   "t": "1019-01-01",
+   "gun": "1019",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija 'Smederevo' https://www.enciklopedija.hr/clanak/smederevo ; TDV 'Semendire' https://islamansiklopedisi.org.tr/semendire (XI. yüzyıldan beri aynı adı taşıyan köy) ; Vikipedi (ikinci tanık, tek dayanak değil): Smederevo (Basileios II 1019 Ohrid başpiskoposluğu fermanı)",
+   "tanik": "Najranije se spominje u povelji bizantskoga cara Bazilija II. iz 1019.",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). HE: 1019 Basileios II fermanı, sonra 1381 Lazar'ın Ravanica'ya bağışı. TDV ('XI. yüzyıldan beri aynı adı taşıyan köy') ile uyumlu (çift teyit: HE 1019 + TDV XI. yy). ANTİK YER: Roma Mons Aureus Seone köyünde (Vikipedi, ikinci tanık: 'Mons Aureus, the modern village of Seone, west of Smederevo'; HE ise yalnız 'Rimski Aureus Mons' der, konum vermez) — uzaklık ÖLÇÜLMEDİ; Seone modern noktadan >3 km ise ayrı kayıt önerisi: 'Mons Aureus (Seone)' (yazılı tanık için Tabula Peutingeriana/Notitia Dignitatum açılmadı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1019-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı (Semendire'ye özgü sahiplik tanığı); HE 'Beograd' bölgeyi 1018'den XII. yy son on yıllarına dek Bizans, 1071/1124/1183 Macar akınları, 1230 Bulgar, 1232 Macar, 1284 Sırp diye anlatır (komşu merkez, Semendire'den ~45 km)",
+    "tanik": "Najranije se spominje u povelji bizantskoga cara Bazilija II. iz 1019.",
+    "ic_not": "BOŞLUK (beyanlı): Semendire için 1019–1281 arasında sahiplik tanığı yok. Açılan kaynaklar: TDV 'Semendire' (Ortaçağ'ı yalnız 'XI. yy köy' + 1427 sonrası kale), HE 'Smederevo' (1019, 1381), Treccani EI 'Semendria' (sahiplik anlatısı yok). Abi merkez basamağı: Belgrad HE'de 1018'den XII. yy sonuna Bizans diye geçer ama Semendire'yi Belgrad'a bağlayan kaynak bulunamadı → zincir devralınmadı. 'Şehir VAR' (1019 fermanı; belirsizlik sahiplikte, varlıkta değil)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1019-01-01",
+    "gun": "1019",
+    "k": "diger",
+    "b": "Semendire adı Bizans imparatoru II. Basileios'un fermanında (Ohrid başpiskoposluğu bağlamı) ilk kez anılır — kuruluş değil",
+    "kaynak": "Hrvatska enciklopedija 'Smederevo' https://www.enciklopedija.hr/clanak/smederevo",
+    "tanik": "Najranije se spominje u povelji bizantskoga cara Bazilija II. iz 1019."
+   },
+   {
+    "t": "1381-01-01",
+    "gun": "1381",
+    "k": "diger",
+    "b": "Knez Lazar'ın hrisovulu: Semendire (o zaman küçük yerleşim) Ravanica manastırına bağışlandı",
+    "kaynak": "Hrvatska enciklopedija 'Smederevo' https://www.enciklopedija.hr/clanak/smederevo",
+    "tanik": "hrisovulji srpskoga kneza Lazara iz 1381., kojom je on to, tada malo, naselje"
+   }
+  ],
+  "dikis_beyan": "Atlas Semendire'yi 1281-01-01'de 'sirbistan' ile başlatıyor; 1281 civarına ait Semendire'ye özgü sahiplik tanığı HE/TDV/Treccani'de BULUNAMADI (komşu Belgrad HE: ilk Sırp hâkimiyeti 1284). Yer tutucu olay yazılmadı.",
+  "ic_not": "Semendire: atlas 1281 sirbistan iddiası kaynaksız; HE Beograd'a göre komşu Belgrad 1284'te ilk kez Sırp hâkimiyetine girdi, Semendire için tanık yok — Atlas başlangıcı gözden geçirilmeli (kaynak: bulunamadı). Açılamayan: Srpska enciklopedija / Istorijski institut yayınları (arama yapılmadı)."
  },
  {
   "id": "strasbourg-fr",
