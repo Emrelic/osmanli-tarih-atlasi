@@ -2399,6 +2399,111 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Atlas Bourges 1281 'fransa' — uyumlu. 1120: vikont Bourges'ü krala devreder (Treccani) — 987-1120 vasal belirsizliği beyanlı. gun '508 (≈ 478+30)': 'trent'anni dopo' hesabı (kaynakta yıl yok). Çift teyit YOK. "
  },
  {
+  "id": "bratislava-sk",
+  "ad": "Bratislava (Pozsony)",
+  "atlas_ad": "Bratislava",
+  "lat": 48.146,
+  "lon": 17.107,
+  "kat1900": 3,
+  "adlar": [
+   "Brezalauspurc",
+   "Poson",
+   "Pozsony",
+   "Pressburg",
+   "Prešporok",
+   "Bratislava"
+  ],
+  "ilk": {
+   "t": "0907-01-01",
+   "gun": "907",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana 'Bratislava' (Migliorini 1930; https://www.treccani.it/enciclopedia/bratislava_(Enciclopedia-Italiana)/); ikinci tanık: MKL 'Pozsony' (https://lexikon.katolikus.hu/P/Pozsony.html): 'Első okl-es említése 1002: Poson' (daha geç)",
+   "tanik": "Qui nel 907 i Bavari (che chiamavano la fortezza Brezalauspurc)",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): 907 Brezalauspurc (Bavyeralılar'ın kaleye verdiği ad) yenilgisi; EI kaleyi bu savaştan önce 'Vratislav' elinde sayar (IX. yy., kaynak göstermez) ve 'incerti ricordi di una colonia romana' der — Roma/Kelt tanığı bu oturumda AÇILAMADI (bulunamadı; Gerulata=Rusovce ~11 km, >3 km). Çelişki: MKL ilk belgeli anılışı 1002 'Poson' verir (907 yazısı EI'de Annales Iuvavenses'e atfedilmedi; birincil metin açılmadı). Güvenli (daha geç) uç değil, daha erken yazılı tanık (EI 907) alındı çünkü 1002 başka bir tanıktır (aynı yer, Macar ad). Çift teyit YOK. EI 'Bratislava'yı 907'den beri 'Macar tacına' bağlar (anakronizm: taç 1000)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0907-01-01",
+    "t": "1000-01-01",
+    "d": "macar-prensligi",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Bratislava' (https://www.treccani.it/enciclopedia/bratislava_(Enciclopedia-Italiana)/): 907 savaşı, 'Da allora, fino al 1919, la città appartenne alla corona d'Ungheria'; TDV 'Slovakya' (https://islamansiklopedisi.org.tr/slovakya): Büyük Moravya 896'da dağıldı, bölge Macar Krallığı'nın parçası",
+    "ic_not": "f 907: Macarlar'ın Bavyeralıları yendiği yıl; EI 'o günden beri Macar' der — 907-1000 arası fiilî Macar denetimi kaleye özgü tanıkla gösterilmedi (sınır bölgesi, gyepű). BEYANLI YAKLAŞIKLIK. Künye macar-prensligi 895-1000 ile uyumlu."
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Pozsony': 'Várát ... I. (Szt) István (ur. 997-1038) az ispánságok szervezésekor központtá tette'; TDV 'Macaristan'; EI 'Bratislava'",
+    "ic_not": "Atlas dikişi: atlas da 1281'de 'macaristan' der (aynı sahip). Geçici istisna: 1271-07-31 barışından sonra vâr Çeklerde kaldı, 1273'te geri alındı (olay olarak yazıldı, dönem açılmadı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0907-01-01",
+    "gun": "907",
+    "k": "savas",
+    "b": "Macarlar Bavyeralıları Brezalauspurc'ta yener (Pressburg Muharebesi)",
+    "kaynak": "EI 'Bratislava'",
+    "tanik": "Qui nel 907 i Bavari (che chiamavano la fortezza Brezalauspurc)"
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "1000-1001",
+    "k": "diger",
+    "b": "künye geçişi: Macar Prensliği -> Macaristan Krallığı (I. István taç giyer)",
+    "kaynak": "TDV 'Macaristan' (https://islamansiklopedisi.org.tr/macaristan)",
+    "tanik": "1000-1001’de taç giyen ilk kral olan I. István Macar Devleti’nin kurucusudur."
+   },
+   {
+    "t": "1002-01-01",
+    "gun": "1002",
+    "k": "diger",
+    "b": "Poson: kalenin ilk belgeli anılışı (MKL); István kaleyi ispánlık merkezi yapmıştı",
+    "kaynak": "MKL 'Pozsony' (https://lexikon.katolikus.hu/P/Pozsony.html)",
+    "tanik": "Első okl-es említése 1002: Poson"
+   },
+   {
+    "t": "1042-01-01",
+    "gun": "1042",
+    "k": "kusatma",
+    "b": "III. Henrik Pozsony'u yıkar; 1052'de kuşatma başarısız",
+    "kaynak": "MKL 'Pozsony'",
+    "tanik": "1042: földúlta, 1052: azonban sikertelenül ostromolta"
+   },
+   {
+    "t": "1271-04-15",
+    "gun": "15 Nisan 1271",
+    "k": "yangin",
+    "b": "II. Ottokar şehri yakıp yağmalar",
+    "kaynak": "MKL 'Pozsony'",
+    "tanik": "II. Ottokár 1271. IV. 15: fölgyújtotta és kirabolta a várost"
+   },
+   {
+    "t": "1271-07-31",
+    "gun": "31 Temmuz 1271",
+    "k": "antlasma",
+    "b": "V. István II. Ottokar ile barış imzalar; vâr Çeklerde kalır (kısa ele geçirme, süre belli değil -> dönem açılmadı)",
+    "kaynak": "MKL 'Pozsony'",
+    "tanik": "itt írta alá a békét II. Ottokárral"
+   },
+   {
+    "t": "1273-01-01",
+    "gun": "1273",
+    "k": "fetih",
+    "b": "Együd mester kaleyi hileyle geri alır",
+    "kaynak": "MKL 'Pozsony'",
+    "tanik": "Együd mester 1273: a várat csellel visszavette"
+   }
+  ],
+  "ic_not": "Kaynak yolları: TDV 'bratislava'/'pozsony' maddesi yok (arama 13 madde içeriği, madde başlığı 0); Beliana 'bratislava' = yalnız asteroid maddesi; Wien Geschichte/Slovak monografileri açılmadı. EI Bratislava 1930 (Migliorini) eski ama akademik ansiklopedi. Roma (Gerulata), Kelt oppidum (Boii) ve Büyük Moravya dönemi kaleye özgü kaynakla bulunamadı; Büyük Moravya'ya (833-907) bağlama YAPILMADI (TDV Slovakya yalnız bölge düzeyinde). Atlas Bratislava'yı 1281'de macaristan ile başlatır: zincir aynı sahiple biter."
+ },
+ {
   "id": "bruj-be",
   "ad": "Brüj (Brugge)",
   "atlas_ad": "Brüj (Brugge)",
@@ -3087,6 +3192,52 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "UYARI TASLAK: ilk anılış 823 yalnız Vikipedi FR/DE'ye dayanıyor (FR: 'Notker Balbulus 823' toponimi ile 'Louis le Pieux Frankfurt 12.6.823' hibe belgesi — iki ifade birbirini tam doğrulamıyor); Vikipedi tek dayanak olamaz; birincil (MGH Dipl. Ludwig d. Fr.) ve akademik ikinci tanık açılamadı. Gün 12 Haziran Vikipedi FR; yıl dışında teyitsiz → 0823-01-01 (kural: yalnız yıl teyitli). Treccani çift teyit sayılamaz (823 vermez; 'sorta sul luogo di un castello fortificato, antico possesso dei Franchi'). Roma dönemi: yakınlardaki Horburg (Argentovaria, RE) Colmar'dan ayrı yerleşim, ayrı kayıt önerisi (mesafe ölçülmedi). Treccani 1226 'città imperiale', 1278 Rudolf özgürlük belgesi (FR: 29.12.1278). Atlas 1281 almanya ile uyumlu."
  },
  {
+  "id": "debrecen-hu",
+  "ad": "Debrecen",
+  "atlas_ad": "Debrecen",
+  "lat": 47.5316,
+  "lon": 21.6273,
+  "kat1900": 3,
+  "adlar": [
+   "Debrezun",
+   "Debrezum",
+   "Debrecen"
+  ],
+  "ilk": {
+   "t": "1235-01-01",
+   "gun": "1235",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'Debrecen' (https://lexikon.katolikus.hu/D/Debrecen.html): 'A váradi regestrum ban 1235: Debrezum'",
+   "tanik": "1235: Debrezum",
+   "ic_not": "İLK ANILIŞ (Váradi Regestrum, Várad kızgın demir ordalileri kayıt defteri; birincil metin açılmadı). MKL: 'A honfoglalás óta m-ok lakták' (Macarlar fetihten beri yaşıyor) — tarih yok. Tek akademik/ansiklopedik kaynak: ÇİFT TEYİT YOK; TDV 'Debrecen' maddesi yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1235-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Debrecen' (Váradi Regestrum 1235, Macar Krallığı toprağı); TDV 'Macaristan'",
+    "ic_not": "Atlas dikişi: atlas 1281'de 'macaristan' der; sahip değişmez. Şehir Árpád çağında kraliyet değil, ama üst egemenlik Macar Krallığı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1235-01-01",
+    "gun": "1235",
+    "k": "diger",
+    "b": "Debrezum, Váradi Regestrum'da ilk anılış",
+    "kaynak": "MKL 'Debrecen'",
+    "tanik": "1235: Debrezum"
+   }
+  ],
+  "ic_not": "MKL: 'A tatárok feldulták' (Moğol istilâsında yıkıldı) — yıl vermiyor (1241-42 varsayımı YAPILMADI; olay yazılmadı). 1361 bíróválasztó jog, 1405 Buda hukuku (atlas sonrası). Kuruluş tarihi/Arpad-öncesi iskân kaynakta yok (bulunamadı)."
+ },
+ {
   "id": "dortmund-de",
   "ad": "Dortmund",
   "atlas_ad": "Dortmund",
@@ -3328,6 +3479,70 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk tanık: Antonine Itinerary Iter III 'Item a Londinio ad portum Dubris mpm lxvi' — transkripsiyon popüler site (roman-britain.co.uk) üzerinden; Britannica 1911 tarihleme (özgün baskı III. yy başı, mevcut hâl Diocletianus). Cuntz/Parthey-Pinder metni açılamadı. Pleiades 'Portus Dubris' (arama özeti) AD 43 işgaliyle ilgili tanım verir (sayfa açılmadı). Treccani Dover: 'Giulio Cesare non era riuscito a approdarvi' (Caesar MÖ 55-54 inişi Dover'da başarısız — tarih ve yer Treccani'de ayrıntısız). 410-449 arası ve 449-823 içi Mercia egemenliği bulunamadı/yazılmadı. Modern nokta = Roma Dubris (Dover Painted House); 3 km içinde."
  },
  {
+  "id": "eger-hu",
+  "ad": "Eğri (Eger)",
+  "atlas_ad": "Eğri",
+  "lat": 47.902,
+  "lon": 20.377,
+  "kat1900": 3,
+  "adlar": [
+   "Agria",
+   "Erlau",
+   "Eğre",
+   "Eger",
+   "Eğri"
+  ],
+  "ilk": {
+   "t": "1111-01-01",
+   "gun": "1111",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'egri püspökség' (https://lexikon.katolikus.hu/E/egri%20p%C3%BCsp%C3%B6ks%C3%A9g.html): 'Okl-ben 1111: említik először Wolfer egri pp. nevét'",
+   "tanik": "Okl-ben 1111: említik először Wolfer egri pp. nevét.",
+   "ic_not": "İLK YAZILI TANIK (piskoposluğun ilk anılışı; kuruluş değil). TDV 'Eğri' (https://islamansiklopedisi.org.tr/egri), müellif Géza Dávid: şehir 'Macarlar’ın bugünkü ülkelerine gelişlerinden sonra kuruldu', '1009 yılına doğru piskoposluk merkezi' — gün/yazılı tanık yok, gelenek (MKL: IV. Béla 1261 belgesi István'ı kurucu sayar). Çelişki: TDV ~1009 (gelenek) < MKL 1111 (ilk belge). Daha erken tanık için güvenli uç = yazılı tanık 1111. Şehir adı Agria'nın ilk anılışı ayrıca bulunamadı. Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1111-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Eğri': 'Kral IV. Béla tarafından 1261’de ihya edilen'; MKL 'egri püspökség'; TDV 'Macaristan'",
+    "ic_not": "Atlas dikişi: atlas 1281'de 'macaristan' der; sahip değişmez. Piskoposluk 1009 geleneği (TDV) doğruysa sahip 1009'dan başlayabilir; yazılı tanık 1111."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1111-01-01",
+    "gun": "1111",
+    "k": "diger",
+    "b": "Eğri piskoposu Wolfer'in adı ilk kez bir belgede geçer",
+    "kaynak": "MKL 'egri püspökség'",
+    "tanik": "Okl-ben 1111: említik először Wolfer egri pp. nevét."
+   },
+   {
+    "t": "1242-01-01",
+    "gun": "1241-1242",
+    "k": "istila",
+    "b": "Moğol istilâsı Eğri'nin gelişmesini aksatır, nüfusun bir kısmı katledilir",
+    "kaynak": "TDV 'Eğri'",
+    "tanik": "1241-1242 yıllarındaki Moğol istilâsı gelişmesini önemli ölçüde aksattı"
+   },
+   {
+    "t": "1261-01-01",
+    "gun": "1261",
+    "k": "kurulus",
+    "b": "Kral IV. Béla şehri ihya eder ve kale inşaatını başlatır",
+    "kaynak": "TDV 'Eğri'",
+    "tanik": "Kral IV. Béla tarafından 1261’de ihya edilen ve kalesinin inşaatı başlatılan Eger"
+   }
+  ],
+  "ic_not": "Antik/erken tanık aranmadı-bulunamadı. EI 'Eger' (https://www.treccani.it/enciclopedia/eger_(Enciclopedia-Italiana)/) tarih vermiyor (yalnız anıtlar)."
+ },
+ {
   "id": "erfurt-de",
   "ad": "Erfurt",
   "atlas_ad": "Erfurt",
@@ -3413,6 +3628,97 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış: Bonifatius mektubu (Emerton 1940: 'Early in 742'; Vikipedi DE 742). Çift teyit YOK (Vikipedi DE aynı mektubu 742 verir; Treccani Erfurt: 'arcivescovi di Magonza dominarono dal 745 al 1802' — bu piskoposluk (kilise) egemenliğidir, Vikipedi DE'de 10. yy'da 'weltliche Herrschaft'; çelişki beyan edildi, sahiplik zincirinde nominal almanya). Emerton'da mektubun yılı metin içinde yok (başlık köşeli parantez 'Early in 742' editör tarihlemesi); Zacharias'ın cevabı 1 Nisan 743 (editör). Mektup Erfurt'u 'urbs ... heidnischer Bauern' (öncesi tahkimli yerleşim) olarak anar; Vikipedi DE Frienstedt (batıda Germen yerleşimi) ve 480'de Thüringer — Erfurt noktası için yazılı tanık değil. 'frank' sahipliği 742: Emerton'daki Karlmann sınodu belgesi 21 Nisan 742 (Austrasia hükümdarı)."
+ },
+ {
+  "id": "esztergom-hu",
+  "ad": "Estergon (Esztergom)",
+  "atlas_ad": "Estergon",
+  "lat": 47.795,
+  "lon": 18.74,
+  "kat1900": 3,
+  "adlar": [
+   "Salna/Solva (Roma, nokta ayrı olabilir)",
+   "Strigonium",
+   "Strigonia",
+   "Estrigun",
+   "Gran",
+   "Ustorgon",
+   "Esztergom",
+   "Estergon"
+  ],
+  "ilk": {
+   "t": "0997-01-01",
+   "gun": "970-997",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV 'Estergon' (https://islamansiklopedisi.org.tr/estergon), müellif Géza Dávid: 'Macar Hükümdarı Géza (970 [?]-997) tarafından kuruldu'; MKL 'Esztergom' (https://lexikon.katolikus.hu/E/Esztergom.html): '970 k. Géza nagyfejed. (ur. 972-997) kezdte építeni a későbbi vár magvát alkotó hatszögű lakótornyot'",
+   "tanik": "Macar Hükümdarı Géza (970 [?]-997) tarafından kuruldu",
+   "ic_not": "KURULUŞ (Macar şehri/kalesi). Aralık veren kaynak (Géza 970?-997): güvenli uç 997 alındı. ÖNCE ROMA: EI 'Esztergom' (https://www.treccani.it/enciclopedia/esztergom_(Enciclopedia-Italiana)/): 'Già sotto l'Impero romano ... esisteva un centro abitato chiamato Salna' (= Solva, auxilia kampı) — tarihsiz; Solva'nın Estergon kale tepesine uzaklığı ÖLÇÜLMEDİ (EDH/Pleiades Anubis bot kalkanı yüzünden açılamadı) — >3 km ise ayrı kayıt, <=3 km ise zincir Roma'dan başlamalı (açık borç). Yazılı Roma tanığı (Notitia Dignitatum / İtinerarium) bu oturumda açılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0997-01-01",
+    "t": "1000-01-01",
+    "d": "macar-prensligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Macaristan' (https://islamansiklopedisi.org.tr/macaristan); TDV 'Estergon': Géza kuruculuğu",
+    "ic_not": "Géza 997'de öldü; İstván 997'de yerine geçti (TDV Macaristan). Künye macar-prensligi 895-1000 ile uyumlu."
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Macaristan' (https://islamansiklopedisi.org.tr/macaristan); TDV 'Estergon': 'XI. yüzyılda başşehir oldu'",
+    "ic_not": "Atlas dikişi: atlas 1281'de 'macaristan' der; sahip değişmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1000-01-01",
+    "gun": "1000-1001",
+    "k": "diger",
+    "b": "künye geçişi: Macar Prensliği -> Macaristan Krallığı (I. István taç giyer)",
+    "kaynak": "TDV 'Macaristan' (https://islamansiklopedisi.org.tr/macaristan)",
+    "tanik": "1000-1001’de taç giyen ilk kral olan I. István Macar Devleti’nin kurucusudur."
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "diger",
+    "b": "Ortaçağ kentinin adı Estrigun olarak anılır",
+    "kaynak": "MKL 'Esztergom'",
+    "tanik": "A kk. város neve 1147: Estrigun"
+   },
+   {
+    "t": "1239-01-01",
+    "gun": "1239",
+    "k": "idari",
+    "b": "IV. Béla başpiskoposa kale eteğinde Víziváros kentini kurma izni verir",
+    "kaynak": "MKL 'Esztergom'",
+    "tanik": "IV. Béla 1239: engedélyezte Róbert érs-nek"
+   },
+   {
+    "t": "1242-01-01",
+    "gun": "1241-1242",
+    "k": "istila",
+    "b": "Moğollar kenti yıkar, kaleyi alamaz; başkent Buda'ya taşınır",
+    "kaynak": "TDV 'Estergon'; MKL 'Esztergom'",
+    "tanik": "1241-1242 yıllarındaki Moğol istilâsı şehrin tarihinde bir dönüm noktası teşkil etti."
+   },
+   {
+    "t": "1249-01-01",
+    "gun": "1249",
+    "k": "idari",
+    "b": "IV. Béla yenilenen kaleyi Estergon başpiskoposluğuna bağışlar",
+    "kaynak": "MKL 'Esztergom'",
+    "tanik": "IV. Béla 1249: fölújítva az ~i érs-nek ajándékozta"
+   }
+  ],
+  "ic_not": "TDV 'Estergon' Roma dönemini hiç anmaz. 1000-1001 'taç' yılı ve Estergon'un başşehir olduğu XI. yy TDV'ye göre; Estergon'un 1000'de İstván tarafından başpiskoposluk yapıldığı EI 'Storia'da ('verso il 1000') geçer. Atlas Estergon'u 1281'de macaristan ile başlatır: zincir aynı sahiple biter."
  },
  {
   "id": "frankfurt-de",
@@ -3708,6 +4014,157 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış tür notu: Treccani yerleşimin kendisini değil Amandus'un 'Ganda' denen yerde iki manastır kurmasını (VII. yy. ilk yarısı) verir; kesin yıl yok (güvenli uç 650). Şehir adı olarak 'Ganda' 941 'portus' belgesinden önce yazılı kaydı bu turda açılamadı. Modern Gent noktası manastır/portus yerleşim bölgesinde (Lys-Schelda birleşimi). 650-866 arası Frank ve Batı Francia sahibi Verdun payı ve Treccani Gand'dan çıkarım. Gent 1281'de Flandre'da (Gui de Dampierre kont, 1278-1305: Treccani Fiandra)."
  },
  {
+  "id": "graz-at",
+  "ad": "Graz",
+  "atlas_ad": "Graz",
+  "lat": 47.071,
+  "lon": 15.439,
+  "kat1900": 3,
+  "adlar": [
+   "Gradec (Slavca 'küçük kale')",
+   "Bairisch-Grätz",
+   "Grätz",
+   "Graz"
+  ],
+  "ilk": {
+   "t": "1129-01-01",
+   "gun": "1129",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana 'Graz' (https://www.treccani.it/enciclopedia/graz_(Enciclopedia-Italiana)/): 'la città compare solo nel 1129'; ikinci tanık AEIOU Österreich-Lexikon 'Graz' (https://austria-forum.org/af/AEIOU/Graz): '1128 wird die Siedlung erstmals urkundlich genannt'",
+   "tanik": "la città compare solo nel 1129 come un Grätz bavarico, al confine con gli Slavi",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Çelişki: EI 1129, AEIOU 1128; güvenli (geç) uç 1129 alındı. AEIOU: Schlossberg'de belki 10. yy 2. yarısında kale; 'Steindenkmäler und Bodenfunde beweisen die Anwesenheit der Römer' (tarihsiz) ve neolitik buluntular — kesin tarih/yer verilmedi, nokta uzaklığı ölçülmedi (Roma yerleşimi Thalerhof ~8 km civarı: ÖLÇÜLMEDİ, söylenti düzeyinde). Çift teyit YOK (yıllar farklı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1129-01-01",
+    "t": "1180-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria' (https://www.treccani.it/enciclopedia/stiria_(Enciclopedia-Italiana)/): 'Fino alla sua elevazione a ducato nel 1180, questo paese compare associato al ducato storico di Carinzia'; 'Il quarto Ottocaro, creato duca nel 1180'",
+    "ic_not": "Başlangıç 1129 (EI). Stiriya Markı Traungau/Otakar hanedanı idaresinde Reich (Kutsal Roma / Alman Krallığı) içinde, Karintiya Dükalığı'na bağlıydı; 'almanya' künyesi (962-) üst egemenlik için kullanıldı — BEYANLI YAKLAŞIKLIK (ayrı Stiriya Markı künyesi yok)."
+   },
+   {
+    "f": "1180-01-01",
+    "t": "1192-01-01",
+    "d": "stiriya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria': 'Il quarto Ottocaro, creato duca nel 1180, legò nel 1186 col trattato di Georgenberg presso Enns il paese ai Babenberg austriaci, che ne entrarono in possesso nel 1192'",
+    "ic_not": "Künye stiriya-dukaligi 1180-01-01 -> 1192-01-01 ile birebir uyumlu (boyasız künye)."
+   },
+   {
+    "f": "1192-01-01",
+    "t": "1254-04-03",
+    "d": "avusturya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria': Babenberg'ler 1192'de sahip olur; 'Nel 1246 si spense la dinastia dei Babenberg'",
+    "ic_not": "Babenberg hanedanı 1246'da söner; 1246-1254 arası Stiriya'nın siyasî statüsü (Avusturya Dükalığı künyesi 1276'ya kadar sürer) açılan kaynakta ayrıca tarihlenmedi — künyeye göre aynı polity sürüyor sayıldı."
+   },
+   {
+    "f": "1254-04-03",
+    "t": "1260-01-01",
+    "d": "macaristan",
+    "kesinlik": "gun",
+    "kaynak": "EI 'Stiria': 'In seguito al trattato concluso il 3 aprile 1254 a Ofen tra re Ottocaro II ... e re Béla IV d'Ungheria' — 'fu occupata fino al 1260 dal re ungherese'",
+    "ic_not": "Bitiş yılı 1260 (yıl hassasiyeti; gün yok): Kressenbrunn savaşı günü bu oturumda kaynakla açılmadı."
+   },
+   {
+    "f": "1260-01-01",
+    "t": "1276-01-01",
+    "d": "avusturya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria': '... fino al 1276 da re Ottocaro'",
+    "ic_not": "Künye avusturya-dukaligi adı 'Babenberg ve II. Ottokar dönemi' ve t=1276-11-21; bitiş yıl hassasiyetiyle 1276-01-01 alındı (EI yalnız yıl verir), künye bitişinden ~10 ay önce — BEYAN."
+   },
+   {
+    "f": "1276-01-01",
+    "t": "1281-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria': 'dopo la sua sconfitta a opera del re tedesco Rodolfo d'Asburgo, da quest'ultimo'; 'Nel 1282, essa fu conferita ... ai figli di Rodolfo'",
+    "ic_not": "HAYALET UYARISI beklenir: künye habsburg 1282-01-01'de başlar, dönem 1276-01-01'den. Sınıflandırma: aynı hanedan (Rudolf'un fiilî idaresi 1276'dan, resmî tevcih 1282'de) => künyeyi GENİŞLET / atlas 1281 başlangıcıyla uyumlu. Atlas dikişi: atlas 1281'de 'avusturya' (habsburg) der."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1180-01-01",
+    "gun": "1180",
+    "k": "kurulus",
+    "b": "IV. Otakar Stiriya Dükü olur (Stiriya dükalığı kurulur)",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "Il quarto Ottocaro, creato duca nel 1180"
+   },
+   {
+    "t": "1186-01-01",
+    "gun": "1186",
+    "k": "antlasma",
+    "b": "Georgenberg Antlaşması: Stiriya Babenberg'lere vaat edilir",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "legò nel 1186 col trattato di Georgenberg presso Enns il paese ai Babenberg austriaci"
+   },
+   {
+    "t": "1192-01-01",
+    "gun": "1192",
+    "k": "miras",
+    "b": "Babenberg'ler Stiriya'ya sahip olur (IV. Otakar ölümü)",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "che ne entrarono in possesso nel 1192"
+   },
+   {
+    "t": "1246-01-01",
+    "gun": "1246",
+    "k": "diger",
+    "b": "Babenberg hanedanı söner",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "Nel 1246 si spense la dinastia dei Babenberg"
+   },
+   {
+    "t": "1254-04-03",
+    "gun": "3 Nisan 1254",
+    "k": "antlasma",
+    "b": "Ofen (Buda) antlaşması: Stiriya Macar Kralı IV. Béla'ya geçer",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "In seguito al trattato concluso il 3 aprile 1254 a Ofen"
+   },
+   {
+    "t": "1260-01-01",
+    "gun": "1260",
+    "k": "kayip",
+    "b": "Macar işgali sona erer, Stiriya II. Ottokar'a geçer",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "fu occupata fino al 1260 dal re ungherese, fino al 1276 da re Ottocaro"
+   },
+   {
+    "t": "1276-01-01",
+    "gun": "1276",
+    "k": "fetih",
+    "b": "II. Ottokar Rudolf d'Habsburg'a yenilir; Stiriya Rudolf'a geçer",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "dopo la sua sconfitta a opera del re tedesco Rodolfo d'Asburgo"
+   },
+   {
+    "t": "1282-01-01",
+    "gun": "1282",
+    "k": "diger",
+    "b": "Rudolf, Stiriya'yı diğer Avusturya ülkeleriyle birlikte oğullarına imparatorluk lehni olarak verir (atlas sonrası)",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "Nel 1282, essa fu conferita, insieme con gli altri paesi austriaci"
+   },
+   {
+    "t": "1128-01-01",
+    "gun": "1128",
+    "k": "diger",
+    "b": "AEIOU'ya göre Graz'ın ilk belgeli anılışı (EI 1129 verir)",
+    "kaynak": "AEIOU 'Graz'",
+    "tanik": "1128 wird die Siedlung erstmals urkundlich genannt"
+   }
+  ],
+  "ic_not": "Zincir 1129'dan 1281'e: yalnız EI 'Stiria' + EI/AEIOU 'Graz' ile kuruldu; TDV 'Graz'/'Stiriya' yok. EI 'Graz': 'Graz è città dal 1281' (şehir ayrıcalığı tarihi olabilir; atlas başlangıcı 1281 ile örtüşüyor — atlasta kaynaksız olabilir). Stiriya'nın 1000-1180 arası Bavyera/Karintiya/Frank zincirinin ince ayrıntıları Graz'a özgü kaynakla açılmadı."
+ },
+ {
   "id": "groningen-nl",
   "ad": "Groningen",
   "atlas_ad": "Groningen",
@@ -3760,6 +4217,45 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Çift teyit (akademik): Madoc 1991 (Boersma, van den Broek, Offerman, 'Groningen 1040', 1990 derlemesinin değerlendirmesi: 21 Mayıs 1040 oldukça tarihli ilk anılış; R.I.A. Nip daha eski sözde anılışların güvenilmez olduğunu gösterir) + Treccani EI (Enrico III, 1040). Özgün ferman 16. yy. sonunda kayıp, 12. yy. kopyası (Madoc). Treccani: 'La quale, di origine molto antica, forse romana' — kanıt yok, yazılmadı. 1040'ta bağışın şehri mi yalnız saray ve Gorecht'i mi kapsadığı tartışmalı; zincir Reich'a (almanya) bağlandı. Aynı yer: 1594'e dek Stad en Lande; 1479 Reichsstadt ilanı (Treccani) 1281 sonrası."
+ },
+ {
+  "id": "gyula-hu",
+  "ad": "Gyula (Göle)",
+  "atlas_ad": "Gyula (Göle)",
+  "lat": 46.65,
+  "lon": 21.277,
+  "kat1900": 3,
+  "adlar": [
+   "Julamunustura (Gyulamonostora)",
+   "Német-Gyula",
+   "Magyar-Gyula",
+   "Gyula",
+   "Göle"
+  ],
+  "ilk": {
+   "t": "1313-01-01",
+   "gun": "1313",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'Gyula' (https://lexikon.katolikus.hu/G/Gyula.html): 'Károly kir. 2 okl-ét a Fehér-Körös mellől in Julamunustura ... keltezte'",
+   "tanik": "in Julamunustura , 'Gyulamonostorban' keltezte",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): 1313 Károly Róbert belgeleri 'Gyulamonostora'dan tarihlendi (manastır yerleşimi). Atlas Gyula'nın 1281'de başladığını söyler ama açılan kaynaklarda ilk tanık 1313 -> ATLAS BAŞLANGICI DÜZELTİLMELİ, zincir BOŞ. MKL: 'Gyula' adı Árpád çağı toprak sahibi Gyula'ya bağlı (derleme; Szalai Emese, Kaposvári 2013, epa.hu PDF'i yalnız arama özetinde görüldü, açılmadı). 1332: plébános Péter (MKL, kilise 1332 öncesi). TDV 'Gyula'/'Göle' maddesi yok (slug 'gule','gyula' arama sayfası). Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1313-01-01",
+    "gun": "1313",
+    "k": "diger",
+    "b": "Károly Róbert iki belgesini 'Gyulamonostora'da tarihler: yerleşimin ilk yazılı anılışı",
+    "kaynak": "MKL 'Gyula' (https://lexikon.katolikus.hu/G/Gyula.html)",
+    "tanik": "in Julamunustura , 'Gyulamonostorban' keltezte"
+   }
+  ],
+  "ic_not": "Kale 1400 öncesi Losonczi ailesi yaptırdı (MKL) — atlas 'Göle' adını Osmanlı kaynaklarından alır. Gyula ünvanı/'gyula' kabile beyi bölümü yalnız MKL ünvan maddesi; şehirle ilişkisi kaynakta yok."
  },
  {
   "id": "hangzhou-cin",
@@ -3850,6 +4346,147 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Hangzhou (atlas_ad 'Hangzhou', kat1900 2; atlas ilk gün 1000-01-01 song). ① YER VE 3 KM KURALI: atlas noktası (30.274, 120.155) Batı Gölü'nün kuzeydoğu/doğu kıyısı, Song Lin'an kentinin kuzey ucu (Yuhang/Wulin kapısı çevresi) olarak okunur — aşağıdaki mesafeler kaynaktan değil açık yer tarifinden verilir, KESİN DEĞİL. Atlas noktasına >3 km uzak iki eski yer vardır ve Brif kuralı gereği BU kayda yazılmadı: (a) Qiantang/錢唐 ilçesi (Qin–Han; Shiji 6: Qin Shi Huang 37. yıl '過丹陽，至錢唐', MÖ 210; Hanshu 28上 Kuaiji ilçeleri arasında '錢唐'). Yuanhe junxian tuzhi 25 (Tang, 813; 元和郡縣圖志/卷25): 'Qiantang ji: ilçe yeri Lingyin Dağı eteğindeydi (縣理靈隱山下, 今餘址猶存), sonra taşındı; Zhenguan 4'te bugünkü yere (郭下) oturdu; Lingyin kentin 17 li KB\\'sı' → Lingyin/Wulin Dağı eteği, atlas noktasının yaklaşık 6 km batısı (kesin değil). (b) Sui–Tang Hangzhou kenti: Qiandao Lin'an zhi 2: 'Jiuyu zhi: Sui Yang Su 州城 kurdu, çevre 36 li 90 bu, 12 kapı (kuzeyde 餘杭 kapısı)'; '府治舊在鳳皇山之右' → Fenghuang Dağı eteği, atlas noktasının yaklaşık 4–5 km güneyi (kesin değil; Jiaqing Yitongzhi (Qing) Qiandao/Xianchun zhi'ye atıfla: Kaihuang 10 Hangzhou Qiantang'a taşındı, 11'de Liupu batısında dağa yaslı şehir kuruldu — birincil sayfa bu oturumda açılmadı, ikincil). AYRI KAYIT ÖNERİSİ: 'qiantang-lingyin-cin' (ad Qiantang; ilk anılış Shiji 6, MÖ 210; Qin–Tang başı) ve 'hangzhou-fenghuang-cin' (Hangzhou adı 589/591 Sui, Yang Su kenti; Tang Hangzhou; ~893'e dek). Hangzhou adının sürekliliği bu iki yer üzerinden ayrı yazılmalı; bu kayıt yalnız atlas noktasının kendi yeri-kesin ilk tanığından başlar. ② ZİNCİR BAŞI = 893-08-26 (Jingfu 2, 7. ay 丁丑): Qian Liu'nun Luocheng'i (dış sur, çevre 70 li) — Wuyue beishi 1: '自秦望山，由夾城東亙江幹，洎錢塘湖、霍山、範浦，凡七十里'; sınırlar (Batı Gölü=錢塘湖, Huoshan, Fanpu) atlas noktasını içerir. Bu 'ilk_anilis' = atlas noktasını içeren ilk SUR kaydıdır; Hangzhou'nun kuruluşu ya da ilk anılışı değildir (nicelik sınırlaması). Daha eski sur (大順元年閏九月 (ay başı 890-10-18) 'xin jiacheng', 50 li, Baoshan–Qinwangshan çevresi: Wuyue beishi 1) Batı Gölü kıyısını kapsadığına dair kayıt yok → alınmadı. Tarih çelişkisi: Wuyue beishi 丁丑 (26 Ağu 893), Shiguo chunqiu 77 (Qing) 丁巳; ZZTJ 259 yalnız 'Jingfu 2' ve 7. ay → birincil (Wuyue beishi) esas. Qiandao Lin'an zhi 2 bu olayı yanlışlıkla '後周景福二年' diye aktarır (Hou Zhou değil Tang; kaynak hatası, beyan). ③ SAHİPLİK: 893-08-26 → 907-06-01 tang (Qian Liu Tang jiedushi'si; fiilen özerk, 'Wu wang' 904 vb.); 907-06-01 → 978-06-11 wuyue (Xin Wudai Shi 67: Liang Taizu tahta çıkınca '封鏐吳越王'; Wuyue beishi 2 ise '吳越國王' unvanını Longde 3/923 töreniyle verir — ikisi de olay listesinde, künye f=907 buna uygun); 978-06-11 → 1000-01-01 song (Qian Chu 納土: Song Shi 4 5. ay 丁亥 gününde 淮海國王; Qiandao zhi 2 'Taiping Xingguo 3 ... 遂納土焉'). Çift teyit (aynı gün, iki bağımsız birincil/akademik): YOK (978 günü Song Shi 4 tek; 893 günü yalnız Wuyue beishi, ZZTJ ay düzeyinde). ④ KÜNYE UYARILARI: tang t=907-01-01 < 907-06-01 (tang.t → 0907-06-01 GENİŞLET önerisi); wuyue t=978-01-01 < 978-06-11 (wuyue.t → 0978-06-11 GENİŞLET önerisi); song f=960 uygun. ⑤ ATLAS: atlas Hangzhou'yu 1000-01-01'de song ile başlatıyor (kaynak: Britannica/Columbia — birincil değil); bu kayıt zinciri aynı dikişte bitirir (son sahip song = atlasın ilk sahibi). Atlas Hangzhou song bitişi 1276-01-01 'yil' (kaynak: atlasın kendi kaydı) — Lin'an'ın Yuan'a teslim günü bu oturumda araştırılmadı (kapsam dışı: 1000 sonrası). AD DEĞİŞİMLERİ (kaynaklı, Qiandao zhi 2): Hangzhou/杭州 (Qiandao zhi 2: Sui Kaihuang 9 (589) 平陳廢郡，置杭州, önce Yuhang'da, sonra Qiantang'a taşındı); Yuhang jun/餘杭郡 (Daye başı; Tianbao 1); Lin'an fu/臨安府 (Jianyan 3, 11. ay 3. gün, 1129). Bunlar atlas noktasının değil Hangzhou idari biriminin adlarıdır (yer eşitlemesi ① ile sınırlı). ⑥ BULUNAMADI: (i) Tang/Sui Hangzhou kentinin Batı Gölü doğu kıyısı/kuzey kısmını kapsadığına dair birincil kayıt; (ii) Qiantang ilçe merkezinin Tang içinde Qiantang Kapısı çevresine taşındığı yıl (Wanli Hangzhou fuzhi, Ming — ikincil, açılmadı); (iii) arkeolojik katman: Çince/İngilizce akademik makale OpenAlex taramasında bulunamadı (Wuyue Luocheng/Fenghuang saray-kent kazı raporları açılamadı); (iv) 咸淳臨安志 疆域 sayfalarında (卷16–19) sur tarihi bulunamadı."
+ },
+ {
+  "id": "hartberg-at",
+  "ad": "Hartberg",
+  "atlas_ad": "Hartberg",
+  "lat": 47.2833,
+  "lon": 15.9667,
+  "kat1900": 3,
+  "adlar": [
+   "Hartperch",
+   "Hartberg"
+  ],
+  "ilk": {
+   "t": "1128-01-01",
+   "gun": "1125-1128",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "AEIOU Österreich-Lexikon 'Hartberg' (https://austria-forum.org/af/AEIOU/Hartberg)",
+   "tanik": "Der Ort Hartberg wurde 1125 bis 1128 vom Markgrafen Leopold I. von Steyr gegründet",
+   "ic_not": "KURULUŞ (planlı kuruluş, Margraf I. Leopold). Aralık veren kaynak (1125-1128): güvenli uç 1128 alındı. Tek kaynak (AEIOU, Hölzel): ÇİFT TEYİT YOK; TDV yok. Önceki tarih: AEIOU Ringkogel'de MÖ 3. yy Ringwall yerleşimini (Ringkogel kasabadan uzaklığı ÖLÇÜLMEDİ; >3 km ise ayrı kayıt önerisi) ve Roma yerleşimi izlerini anar; kesin tarih/yer yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1128-01-01",
+    "t": "1180-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria' (https://www.treccani.it/enciclopedia/stiria_(Enciclopedia-Italiana)/): 'Fino alla sua elevazione a ducato nel 1180, questo paese compare associato al ducato storico di Carinzia'; AEIOU 'Hartberg': Markgraf Leopold I. von Steyr",
+    "ic_not": "Stiriya Markı (Traungau/Otakar hanedanı) Reich içinde Karintiya Dükalığı'na bağlıydı; 'almanya' künyesi üst egemenlik için — BEYANLI YAKLAŞIKLIK (ayrı Stiriya Markı künyesi yok)."
+   },
+   {
+    "f": "1180-01-01",
+    "t": "1192-01-01",
+    "d": "stiriya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria': 'Il quarto Ottocaro, creato duca nel 1180, legò nel 1186 col trattato di Georgenberg presso Enns il paese ai Babenberg austriaci, che ne entrarono in possesso nel 1192'",
+    "ic_not": "Künye stiriya-dukaligi 1180-01-01 -> 1192-01-01 ile birebir uyumlu (boyasız künye)."
+   },
+   {
+    "f": "1192-01-01",
+    "t": "1254-04-03",
+    "d": "avusturya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria': Babenberg'ler 1192'de sahip olur; 'Nel 1246 si spense la dinastia dei Babenberg'",
+    "ic_not": "Babenberg hanedanı 1246'da söner; 1246-1254 arası Stiriya'nın siyasî statüsü (Avusturya Dükalığı künyesi 1276'ya kadar sürer) açılan kaynakta ayrıca tarihlenmedi — künyeye göre aynı polity sürüyor sayıldı."
+   },
+   {
+    "f": "1254-04-03",
+    "t": "1260-01-01",
+    "d": "macaristan",
+    "kesinlik": "gun",
+    "kaynak": "EI 'Stiria': 'In seguito al trattato concluso il 3 aprile 1254 a Ofen tra re Ottocaro II ... e re Béla IV d'Ungheria' — 'fu occupata fino al 1260 dal re ungherese'",
+    "ic_not": "Bitiş yılı 1260 (yıl hassasiyeti; gün yok): Kressenbrunn savaşı günü bu oturumda kaynakla açılmadı."
+   },
+   {
+    "f": "1260-01-01",
+    "t": "1276-01-01",
+    "d": "avusturya-dukaligi",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria': '... fino al 1276 da re Ottocaro'",
+    "ic_not": "Künye avusturya-dukaligi adı 'Babenberg ve II. Ottokar dönemi' ve t=1276-11-21; bitiş yıl hassasiyetiyle 1276-01-01 alındı (EI yalnız yıl verir), künye bitişinden ~10 ay önce — BEYAN."
+   },
+   {
+    "f": "1276-01-01",
+    "t": "1281-01-01",
+    "d": "habsburg",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Stiria': 'dopo la sua sconfitta a opera del re tedesco Rodolfo d'Asburgo, da quest'ultimo'; 'Nel 1282, essa fu conferita ... ai figli di Rodolfo'",
+    "ic_not": "HAYALET UYARISI beklenir: künye habsburg 1282-01-01'de başlar, dönem 1276-01-01'den. Sınıflandırma: aynı hanedan (Rudolf'un fiilî idaresi 1276'dan, resmî tevcih 1282'de) => künyeyi GENİŞLET / atlas 1281 başlangıcıyla uyumlu. Atlas dikişi: atlas 1281'de 'avusturya' (habsburg) der."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1180-01-01",
+    "gun": "1180",
+    "k": "kurulus",
+    "b": "IV. Otakar Stiriya Dükü olur (Stiriya dükalığı kurulur)",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "Il quarto Ottocaro, creato duca nel 1180"
+   },
+   {
+    "t": "1186-01-01",
+    "gun": "1186",
+    "k": "antlasma",
+    "b": "Georgenberg Antlaşması: Stiriya Babenberg'lere vaat edilir",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "legò nel 1186 col trattato di Georgenberg presso Enns il paese ai Babenberg austriaci"
+   },
+   {
+    "t": "1192-01-01",
+    "gun": "1192",
+    "k": "miras",
+    "b": "Babenberg'ler Stiriya'ya sahip olur (IV. Otakar ölümü)",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "che ne entrarono in possesso nel 1192"
+   },
+   {
+    "t": "1246-01-01",
+    "gun": "1246",
+    "k": "diger",
+    "b": "Babenberg hanedanı söner",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "Nel 1246 si spense la dinastia dei Babenberg"
+   },
+   {
+    "t": "1254-04-03",
+    "gun": "3 Nisan 1254",
+    "k": "antlasma",
+    "b": "Ofen (Buda) antlaşması: Stiriya Macar Kralı IV. Béla'ya geçer",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "In seguito al trattato concluso il 3 aprile 1254 a Ofen"
+   },
+   {
+    "t": "1260-01-01",
+    "gun": "1260",
+    "k": "kayip",
+    "b": "Macar işgali sona erer, Stiriya II. Ottokar'a geçer",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "fu occupata fino al 1260 dal re ungherese, fino al 1276 da re Ottocaro"
+   },
+   {
+    "t": "1276-01-01",
+    "gun": "1276",
+    "k": "fetih",
+    "b": "II. Ottokar Rudolf d'Habsburg'a yenilir; Stiriya Rudolf'a geçer",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "dopo la sua sconfitta a opera del re tedesco Rodolfo d'Asburgo"
+   },
+   {
+    "t": "1282-01-01",
+    "gun": "1282",
+    "k": "diger",
+    "b": "Rudolf, Stiriya'yı diğer Avusturya ülkeleriyle birlikte oğullarına imparatorluk lehni olarak verir (atlas sonrası)",
+    "kaynak": "EI 'Stiria'",
+    "tanik": "Nel 1282, essa fu conferita, insieme con gli altri paesi austriaci"
+   }
+  ],
+  "ic_not": "AEIOU: Hartberg bu çağda 'Zentralort der Steiermark' ve 1286'da ilk kez şehir olarak anılır (atlas sonrası). Doğu Stiriya Macar sınırında; 1254-1260 Macar işgali EI'de Stiriya geneli için verildi, Hartberg'e özgü tanık yok — Stiriya zincirini izler (zincir X'ten devralındı: Graz/Stiriya, EI 'Stiria')."
  },
  {
   "id": "jinan-cin",
@@ -5192,6 +5829,61 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "KAPSAM: Zincir Daliang'ın taşınma günü (MÖ 340, Wei) ile atlasın ilk günü (1000-01-01, song) arasındadır. YER VE 3 KM SORUNU: Atlas noktası (34.797, 114.307) Kaifeng'in eski kenti içindedir; \"Daliang\" burada Han Junyi ilçesi = Tang Bianzhou şehri = Kuzey Song Dongjing'in aynı alanıdır (Yuanhe junxian zhi 7: Junyi \"郭下…故大梁也\"; Jiu Tang shu 38: Bianzhou şehrinin içi). AMA: (a) mesafe bu oturumda ölçülmedi, yalnız haber düzeyinde arkeoloji (Xinhua 2023-06-25, ChinaNews 2024-07-12: \"城摞城\": Wei Daliang → Tang Bianzhou → Song Dongjing → Jin Bianjing → Ming → Qing üst üste) vardır — \"kesin değil\"; (b) Han Kaifeng ilçe merkezi bugünkü ilçenin 50 li güneyindedir (Jiu Tang shu 38) → AYRI KAYIT önerisi (Zheng Zhuang Gong \"Qifeng/Kaifeng\" kenti; Han Kaifeng ilçesi); (c) Sui Junyi (eski) bugünkü ilçenin 30 li kuzeyindeydi (Jiu Tang shu 38), Tang Bianzhou şehrine 617'de taşındı: Sui dönemindeki \"Junyi\" yeri ayrı. Eğer Daliang eşitlemesi 3 km'yi aşarsa kayıt Tang Bianzhou'dan (617–620) başlamalıdır. SAHİP ZİNCİRİ: -0339 → 1000-01-01, son sahip song. Önerilen yeni künyeler: zheng-wang-shichong, yan-an-lushan. KÜNYE GENİŞLET: bati-han t→0009-01-10; xin t→0023-10-06; dogu-han t→0220-12-10; cao-wei t→0266-02-08; kuzey-wei t→0534-11-08; kuzey-zhou t→0581-03-04; dogu-wei t→0550-06-10; kuzey-qi t→0577-02-23; wu-zhou t→0705-03-03; tang t→0907-06-01; sonraki-liang-5hanedan t→0923-11-19; sonraki-tang-5hanedan t→0937-01-11; sonraki-jin-5hanedan t→0947-07-05; sonraki-han-5hanedan t→0951-02-13; sonraki-zhou-5hanedan t→0960-02-04. BOŞLUKLAR (4): MÖ 207–202 (Chu-Han), 0023-10-06 → 0047-09 (Gengshi/Liu Yong/Guangwu), 309 → 526 (217 yıl; Junyi'ye özgü sahiplik okunmadı), 617 → 619-05 (Li Mi/Wang Yaohan/Wang Shichong). ÇELİŞKİ: Shiji 44 (Hui 31. yıl) ile Zhushu Jinian (Hui 9. yıl) Daliang'a taşınma yılı → Shiji (geç uç) esas. BULUNAMADI: Daliang'ın Han-Wei-Jin arası ayrı anılışı (Hanshu 28上 yalnız Junyi adını verir); Shiji 58 Liang Xiaowang başkenti (okunamadı); Zuozhuan \"Qifeng\". TAKVİM: ytliu0 ChineseCalendar ile Jülyen; Han dönemi (MÖ 104 öncesi) yıl 10. aydan; Kuzey Wei-Qi için WeiQi, Zhou için WeiZhouSui; Wu Zhou 690 ay kayması beyan."
  },
  {
+  "id": "kanizsa-hu",
+  "ad": "Kanije (Nagykanizsa)",
+  "atlas_ad": "Kanije",
+  "lat": 46.454,
+  "lon": 16.989,
+  "kat1900": 3,
+  "adlar": [
+   "Kanizsa",
+   "Kanizsai",
+   "Nagykanizsa",
+   "Kanije"
+  ],
+  "ilk": {
+   "t": "1245-01-01",
+   "gun": "1245",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV 'Kanije' (https://islamansiklopedisi.org.tr/kanije): 'Belgelerde ilk defa 1245 yılında anılan Kanizsai şehrinin kalesi'; ikinci kaynak: MKL 'Nagykanizsa' (https://lexikon.katolikus.hu/N/Nagykanizsa.html): '1262: okl. említi' (Jézus Szíve plébániası)",
+   "tanik": "Belgelerde ilk defa 1245 yılında anılan Kanizsai",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). TDV 1245; MKL kilise için 1262 (farklı olgu, çelişki değil). TDV: kale XIII. yy sonu-XIV. yy başında yapıldı; MKL: 1296 sonrası Kőszegi ailesi. Çift teyit YOK (yıllar farklı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1245-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Kanije' (Macaristan batısı, Transdanubya); TDV 'Macaristan'",
+    "ic_not": "Atlas dikişi: atlas 1281'de 'macaristan' der; sahip değişmez. Yerel iktidar (Kanizsai ailesi 1321'den) atlas sonrası."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1245-01-01",
+    "gun": "1245",
+    "k": "diger",
+    "b": "Kanizsai yerleşimi belgelerde ilk kez anılır",
+    "kaynak": "TDV 'Kanije'",
+    "tanik": "Belgelerde ilk defa 1245 yılında anılan Kanizsai"
+   },
+   {
+    "t": "1262-01-01",
+    "gun": "1262",
+    "k": "diger",
+    "b": "Jézus Szíve plébanyası bir belgede anılır",
+    "kaynak": "MKL 'Nagykanizsa'",
+    "tanik": "1262: okl. említi"
+   }
+  ],
+  "ic_not": "Antik/erken tanık aranmadı-bulunamadı."
+ },
+ {
   "id": "kassel-de",
   "ad": "Kassel",
   "atlas_ad": "Kassel",
@@ -5270,6 +5962,72 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "UYARI TASLAK: ilk anılış (18 Şubat 913) yalnız Vikipedi DE'ye dayanıyor; Treccani 'Kassel' maddesi bu oturumda açılamadı (slug 404), LAGIS/HLB erişilemedi, akademik ikinci tanık bulunamadı → çift teyit YOK. Vikipedi: belgelerin içeriği/kişileri bugünkü şehirle doğrudan ilişkili değil. Roma buluntusu yok (Vikipedi). Kassel'in Hessen Landgraflığı'na (künye 1264) ne zaman bağlandığı kaynakta yok → hessen-landgrafligi dönemi yazılmadı (atlas 1281 almanya ile uyumlu)."
+ },
+ {
+  "id": "komarno-sk",
+  "ad": "Komárom (Komárno)",
+  "atlas_ad": "Komárom (Komárno)",
+  "lat": 47.7625,
+  "lon": 18.125,
+  "kat1900": 3,
+  "adlar": [
+   "Camarum",
+   "Kamarn",
+   "Camarun",
+   "Comaron",
+   "Komárom",
+   "Komárno",
+   "Komorn"
+  ],
+  "ilk": {
+   "t": "1075-01-01",
+   "gun": "1075",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Komárno Şehri resmî tarih sayfası (https://komarno.sk/en/city/history/): 'Camarum (1075), Kamarn (1218), Camarun (1268), Kamar (1283)'; çelişki: MKL 'Komárom' (https://lexikon.katolikus.hu/K/Kom%C3%A1rom.html): '1037: Camarin'",
+   "tanik": "Camarum (1075), Kamarn (1218), Camarun (1268), Kamar (1283)",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Çelişki: şehir sayfası 1075, MKL 1037 (Camarin); güvenli (geç) uç 1075 alındı. Resmî belediye sayfası akademik ansiklopedi DEĞİL — 1075 için ikinci akademik tanık bulunamadı (MKL 1037 daha erken, çelişik). Roma: Beliana 'Komárno (okres)' ve komarno.sk Celemantia köprübaşını anar (Iža, Komárno merkezinden ~6-7 km, kendi hesabım — >3 km: ayrı kayıt önerisi 'Celemantia (Iža)'; Brigetio (Szőny) sağ kıyıda, atlas noktasından ayrı). Avar: komarno.sk 'territory of Komarno' 8 mezarlık (arkeolojik, tarihsiz; 568 sonrası)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1075-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "komarno.sk tarih sayfası: 'At the time of forming the Hungarian state this place became the centre of the Komarno Committee'; MKL 'Komárom': 'Az Árpád-korban ispánsági székhely'",
+    "ic_not": "Atlas dikişi: atlas 1281'de 'macaristan' der; sahip değişmez. 1000-1075 arası Macar sahipliği için Komárom'a özgü tanık YOK (zincir ilk tanıkta başlar)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1075-01-01",
+    "gun": "1075",
+    "k": "diger",
+    "b": "Kale ve yerleşim Camarum adıyla ilk belgelerde anılır",
+    "kaynak": "komarno.sk tarih sayfası",
+    "tanik": "Camarum (1075), Kamarn (1218), Camarun (1268), Kamar (1283)"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "istila",
+    "b": "Moğollar Komárom kalesini alamaz",
+    "kaynak": "MKL 'Komárom'",
+    "tanik": "1241: a tatárok nem tudták bevenni."
+   },
+   {
+    "t": "1265-04-01",
+    "gun": "1 Nisan 1265",
+    "k": "idari",
+    "b": "Kral IV. Béla yerleşime ilk kent ayrıcalıklarını verir",
+    "kaynak": "komarno.sk tarih sayfası",
+    "tanik": "King Bela IV with a document from 1 April 1265"
+   }
+  ],
+  "ic_not": "MKL: 'A város a vár körüli 3 kis településből alakult'; 1265 IV. Béla Buda ayrıcalıkları (MKL, komarno.sk ile uyumlu). TDV 'Komarom'/'Komaron' maddesi yok. Roma dönemi (Brigetio/Celemantia) atlas noktasından >3 km."
  },
  {
   "id": "konstanz-de",
@@ -5684,6 +6442,54 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış seçimi: Ottema (1935), arşiv anılışı olarak (a) 'VILLA LINTARWRDE' (Fulda manastırı mülkü; 8. yy. bir bağış belgesinin GEÇ KOPYASINDA) ve (b) 1149 'LINVERT' kilisesini sayar; (a) geç kopyada olduğundan ve Lintarwrde=Leeuwarden eşitlemesi kesin olmadığından başlangıç alınmadı (yeri kesin olmayan ad eşitlemesi kuralı); kesin olan LIUNVERT sikkeleri (basım yeri Leeuwarden) alındı. Arama özeti: 1149 oluştu ve Leeuwarden'in daha eski 'Nijehove' çekirdeği (~1190 şehir) var (tam metin doğrulanmadı). Treccani: şehir 1435'te üç köyün birleşiminden 'kuruldu' — hukuki şehir kuruluşu; yerleşim sürekliliği daha eski (Oldehove höyüğü). Kayıt 1281 öncesi tek dönem; Frizya ismen Reich'ta."
+ },
+ {
+  "id": "levice-sk",
+  "ad": "Léva (Levice)",
+  "atlas_ad": "Léva (Levice)",
+  "lat": 48.2172,
+  "lon": 18.6069,
+  "kat1900": 3,
+  "adlar": [
+   "Leua",
+   "Lewa",
+   "Lewentz",
+   "Léva",
+   "Levice"
+  ],
+  "ilk": {
+   "t": "1156-01-01",
+   "gun": "1156",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'Léva' (https://lexikon.katolikus.hu/L/L%C3%A9va.html): '1156: Leua , már pléb.'",
+   "tanik": "1156: Leua , már pléb.",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). MKL yalnız 'plébánia olarak zaten var' der; arama özetlerinde (Wikipedia-benzeri, kaynak sayılmadı) 1156 belgesi Bratka köyündeki kilisenin takdisi ile ilişkilendirilir — o metin açılmadı. Beliana 'levice' 404, e-obce.sk 466: ÇİFT TEYİT YOK. TDV 'Leva' maddesi yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1156-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Léva'; TDV 'Slovakya': bölge 'Macar Krallığı’nın dokunulmamış bir parçası'",
+    "ic_not": "Atlas dikişi: atlas 1281'de 'macaristan' der; sahip değişmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1156-01-01",
+    "gun": "1156",
+    "k": "diger",
+    "b": "Leua yerleşimi (plébania) ilk belgede anılır",
+    "kaynak": "MKL 'Léva'",
+    "tanik": "1156: Leua , már pléb."
+   }
+  ],
+  "ic_not": "MKL: kraliyet kalesi 'A tatárdúlás (1241-42) után épült' (tam yıl yok, olay yazılmadı); 1270 sonrası Çekler kuşatır başarısız. Ortaçağ kalesi/yerleşim Ptolemaios vb. Roma tanığı yok."
  },
  {
   "id": "liege-be",
@@ -7801,6 +8607,102 @@ window.SEHIR_TARIHCE_K3 = [
   "dikis_beyan": "Atlas 1281'de Pau'yu 'fransa' sayıyor; Treccani 'Béarn' vikontluğu bağımsız egemen (Gastone VIII 1229-1290, 1290'da Foix) gösteriyor. Atlas iddiası kaynaksız."
  },
  {
+  "id": "pecs-hu",
+  "ad": "Peçuy (Pécs)",
+  "atlas_ad": "Peçuy",
+  "lat": 46.073,
+  "lon": 18.233,
+  "kat1900": 3,
+  "adlar": [
+   "Sopianae",
+   "Quinque Ecclesiae (tartışmalı)",
+   "Fünfkirchen",
+   "Pécs",
+   "Peçuy"
+  ],
+  "ilk": {
+   "t": "0101-01-01",
+   "gun": "2. yüzyıl başı",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "MKL 'Pécs' (https://lexikon.katolikus.hu/P/P%C3%A9cs.html): '~ őse a Kr. u. 2. sz. elején alapított római Sopianae'; TDV 'Peçuy' (https://islamansiklopedisi.org.tr/pecuy)",
+   "tanik": "2. sz. elején alapított római Sopianae",
+   "ic_not": "KURULUŞ (Roma kenti Sopianae; Hadrianus çağında kent merkezi — MKL, aynı yer: 'Postapalota' çevresi). Çelişki: TDV 'Romalılar zamanında Sopianae (II. yüzyılın sonu ve IV. yüzyılın ortası)'; MKL 'Kr. u. 2. sz. elején'; MKL ayrıca 'az emberi települések első nyomai Kr. e. az 5. évezredig nyúlnak vissza' (arkeolojik, tarihsiz). t=0101-01-01 YER TUTUCU (yüzyılın en erken ucu, yüzyıl kesinliği). YAZILI Roma tanığı (Itinerarium Antonini/Ptolemaios) bu oturumda AÇILMADI — bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0101-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "MKL 'Pécs': Sopianae kentinin Roma imparatorluk döneminde gelişimi (Hadrianus; 296 civarı Pannonia Valeria merkezi); TDV 'Peçuy'",
+    "ic_not": "Künye roma-imp ve bati-roma 395-01-17'de el değiştirir; MKL 4. yy sonunda barbar istilalarının kent yaşamını bitirdiğini söyler. Dönem sonu künye gününden (395-01-17) alındı."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1009-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "MKL 'Pécs': 'A 4. sz. végén a barbár betörések a városi életnek véget vetettek'; 'a város ker. népessége nem érte meg a honfoglalás t.'; TDV 'Peçuy': 'Salzburg piskoposu daha IX. yüzyılda burada bir kiliseyi kutsamıştı'",
+    "ic_not": "Şehrin bu aralıkta VAR olup olmadığı belirsiz: MKL kent yaşamının 4. yy sonunda bittiğini söyler ve 9. yy 'Quinque Basilicae/Ecclesiae' adlarının Pécs'e yerleştirilemeyeceğini belirtir (Quinque Basilicae Spalato-Knin arası; Quinque Ecclesiae 11. yy sahte belgesi); TDV ise aynı Salzburg takdisini Pécs'e bağlar. Çelişki: TDV (esas) vs MKL — ÇÖZÜLMEDİ; ikisi de tarihlemez. Bu yüzden sahip yazılmadı (bölge sahipleri: Hun/Avar/Frank/Macar TDV 'Macaristan' bölge düzeyinde). Bitiş 1009: yazılı en erken Macar-dönemi tanığı (TDV: İstván piskoposluğu 1009'da kurdu; 'f en geç tanıktan')."
+   },
+   {
+    "f": "1009-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Peçuy': 'Macar Kralı Aziz (I.) İstván, Peçuy Piskoposluğu’nu 1009’da burada kurdu'; MKL 'Pécs': 'A pécsi püspökség alapításával (1009) ~ egyh. közp. lett'",
+    "ic_not": "f 1009: en geç tanıktan (piskoposluk kuruluşu); Macar Krallığı 1000'de başlar, 1000-1009 arası BILINMIYOR'da bırakıldı. Atlas dikişi: atlas 1281'de 'macaristan' der."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0101-01-01",
+    "gun": "2. yüzyıl başı",
+    "k": "kurulus",
+    "b": "Roma kenti Sopianae kurulur",
+    "kaynak": "MKL 'Pécs'",
+    "tanik": "2. sz. elején alapított római Sopianae"
+   },
+   {
+    "t": "1009-01-01",
+    "gun": "1009",
+    "k": "idari",
+    "b": "I. István Pécs piskoposluğunu kurar; Pécs kilise merkezi olur",
+    "kaynak": "TDV 'Peçuy'",
+    "tanik": "Macar Kralı Aziz (I.) İstván, Peçuy Piskoposluğu’nu 1009’da burada kurdu."
+   },
+   {
+    "t": "1064-01-01",
+    "gun": "1064",
+    "k": "diger",
+    "b": "Kral Salamon ve Géza dükü Paskalya'yı Pécs'te kutlar; St Péter bazilikası yanar",
+    "kaynak": "MKL 'Pécs'",
+    "tanik": "1064: Salamon kir. (ur. 1063-74) és Géza hg."
+   },
+   {
+    "t": "1181-01-01",
+    "gun": "1181",
+    "k": "diger",
+    "b": "1181 tarihli belge Alman, Fransız, Latin yerleşimcilerin şehre göçünü anar",
+    "kaynak": "TDV 'Peçuy'",
+    "tanik": "1181 tarihli bir belgede şehre göç eden Alman, Fransız ve Latin kökenli yabancılardan söz edilir"
+   },
+   {
+    "t": "1290-01-01",
+    "gun": "1290",
+    "k": "diger",
+    "b": "Macarca 'Pécs' adı ilk kez 1290 tarihli belgede görülür (MKL: 1235 ve 1290 civarı)",
+    "kaynak": "TDV 'Peçuy'; MKL 'Pécs'",
+    "tanik": "Macarca Pécs adı ilk defa 1290 tarihli bir belgede görülür."
+   }
+  ],
+  "ic_not": "Sopianae 395'ten sonra Roma'dan Hun/Avar'a (Pannonia Valeria 433?) geçişi açılan kaynakta Pécs'e özgü değil — BILINMIYOR. TDV: 'Keltler ve Avarlar’ın ardından Macar yerleşimine sahne oldu' (tarihsiz). Atlas Peçuy'u 1281'de macaristan ile başlatır: zincir aynı sahiple biter."
+ },
+ {
   "id": "perigueux-fr",
   "ad": "Périgueux",
   "atlas_ad": "Périgueux",
@@ -7937,6 +8839,68 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "ic_not": "Kuruluş bulunamadı. DİKİŞ: atlas Périgueux 1281 'fransa'; zincir 'ingiltere' (Guienna 1152 → ve 1259 Paris Antlaşması: Périgueux Henry III'e devredilir, Vikipedi). Atlas düzeltme önerisi gerekli ama 1204-1259 durumu açıklanamadı. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı.",
   "dikis_beyan": "Atlas 1281'de Périgueux'yü 'fransa' sayıyor; Treccani 'Guienna' Périgord'u 1152'den İngiliz Guienna'sında sayar, 1259 Paris Antlaşması Périgueux'yü Henry III'e devreder (Vikipedi EN). Bulunan akademik kaynak 1204-1259 aralığını açıklamıyor; atlasın 1281 iddiası kaynaksız."
+ },
+ {
+  "id": "pest-hu",
+  "ad": "Peşte (Pest)",
+  "atlas_ad": "Peşte",
+  "lat": 47.494,
+  "lon": 19.06,
+  "kat1900": 3,
+  "adlar": [
+   "Contra Aquincum",
+   "Pest",
+   "Peşte"
+  ],
+  "ilk": {
+   "t": "1061-01-01",
+   "gun": "1061",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'Pest' (https://lexikon.katolikus.hu/P/Pest.html): '1061: említik először' (zselicszentjakabi bencés apátság kuruluş belgesi)",
+   "tanik": "1061: említik először",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). MKL: Roma erodu Contra Aquincum (bugünkü Belváros, Március 15. tér) 'viszonylag épen átvészelte a népvándorlást', fetihte Macarlar 'használható állapotban' buldu — Roma kalesinin YAZILI tanığı (Notitia Dignitatum 'Contra Acinco') ve tarihi bu oturumda açılmadı: bulunamadı. Atlas noktası (47.494,19.06) ile k12-10'daki 'Aquincum-Óbuda-Pest' atlas noktası (47.498,19.04) yaklaşık 1,5 km: ATLAS MÜKERRERİ OLABİLİR — Pest'in MÖ 1. yy Gellért-hegy oppidum/Eravisci zinciri ve Roma sahipleri o kayıtta; birleştirme önerisi. MKL: 'Pest' adı Bulgar kökenli, erken Ortaçağ'da Tuna'nın iki yakasında kullanılmış (Gellért-hegy çevresi?). Tek kaynak: ÇİFT TEYİT YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1061-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Pest' (1061 belgesi; Árpád-çağı Pest, Macar Krallığı); TDV 'Macaristan'",
+    "ic_not": "Atlas dikişi: atlas 1281'de 'macaristan' der; sahip değişmez. 1000-1061 arası ve öncesi için Pest'e özgü tanık yok (zincir ilk tanıkta başlar; Aquincum kaydındaki bölge zinciri farklı nokta)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1061-01-01",
+    "gun": "1061",
+    "k": "diger",
+    "b": "Pest, Zselicszentjakab Manastırı'nın kuruluş belgesinde ilk kez anılır",
+    "kaynak": "MKL 'Pest'",
+    "tanik": "1061: említik először"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241-1242",
+    "k": "istila",
+    "b": "Moğol istilâsında Pest'in kent ayrıcalığı yıkılır (1244'te yeniden yazılır)",
+    "kaynak": "MKL 'Pest'",
+    "tanik": "a tatárdúláskor (1241-42) elpusztult"
+   },
+   {
+    "t": "1244-01-01",
+    "gun": "1244",
+    "k": "idari",
+    "b": "Pest 1244'te ayrıcalığın yeniden yazılışıyla yeni haklar alır",
+    "kaynak": "MKL 'Pest'",
+    "tanik": "újabb kiváltságokat kapott"
+   }
+  ],
+  "ic_not": "MKL: Taksony Müslüman tüccar yerleştirdi; 1220 civarı Almanlar yerleşti; 1292 en eski mühür. Buda'nın TDV maddesi 'Budin' Pest'i 'Peşte bk. Budin' ile Buda'ya yönlendirir (TDV'de Pest ayrı madde yok)."
  },
  {
   "id": "poitiers-fr",
@@ -11498,6 +12462,53 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "AD VE NOKTA: atlas noktası (32.394, 119.413) modern Yangzhou (Ming/Qing eski şehri ile Shugang kenarı arası; Shugang 'Guangling/Tang' şehri ≈ 2–5 km). ADLAR (kaynaklı): Han/邗 (Zuozhuan Ai 9, MÖ 486), Guangling/廣陵 (Chu, MÖ 319, Shiji 15), Jiangdu/江都 (Jingdi 4, MÖ 153) → Guangling (Yuanshou 3, MÖ 120) [Shuijing zhu 30], Dingan/定安 (Xin; komutanlık Jiangping/江平), Nanyanzhou/南兗州 (Liang), Dongguangzhou/東廣州 (Bei Qi), Wuzhou/吳州 (Bei Zhou) [Sui Shu 31], Yangzhou/揚州 (589), Jiangdu jun (Sui), Yanzhou/兗州 (620), Hanzhou/邗州 (624), Yangzhou (626), Guangling jun/廣陵郡 (742), Yangzhou (758) [JTS 40]. YER SORUNU: 邗城 (Wu), Wu Wang Bi'nin Guangling'i ve Sui–Tang 'Yangzhou' (Shugang) aynı yer değildir; Shuijing zhu 30 'Guangling şehrinin GÜNEYDOĞUSUNDA Han şehri' der. Kaynak sayfasında koordinat yok, arkeoloji (Shugang Qin-Han–Tang–Song şehri, Yangzhou şehri Kaogu raporları) sayfası bu oturumda açılamadı/bulunamadı (WebSearch yalnız özet verdi) ⇒ ark=null, mesafe ölçülmedi. Tang sonrası Song 'büyük/küçük şehir' (Zhou Shizong 958 küçük şehri, Song Baocheng) 3 km kuralı altında aynı kayıttır varsayıldı ama ölçülmedi. ATLAS DÜZELTME ÖNERİSİ: ilk anılış 'Han' MÖ 486 (Zuozhuan Ai 9), atlasın ilk günü 1281-01-01 — atlas Yangzhou'yu 1281'de başlatıyor; kayıt kaynakça ile MÖ 486'dan geri gidiyor, ilk Yuan günü 1276-08-23 (atlas başlangıcı düzeltilebilir: yuan-hanedani 1276-08-23). KÜNYE ÖNERİLERİ: wu-devleti-chunqiu, yue-devleti, sui-chen-leng-jiangdu, li-zitong-wu; künye GENİŞLET: qin-hanedani (t≈-0206-11-14), bati-han (t≈0009-01-10), xin (t≈0023-10-06), liu-song (t≈0479-05-29), sonraki-zhou-5hanedan (t≈0960-02-04), dogu-han (t≈0220-12-10), cao-wei (t≈0266-02-08), bati-jin (t≈0317-04-06), dogu-jin (t≈0420-07-10), guney-qi (t≈0502-04-30), kuzey-zhou (t≈0581-03-04), sui (t≈0618-04-11), wu-zhou (t≈0705-03-03), yang-wu (t≈0937-11-10). BULUNAMADI: ark (Shugang kazı raporu), Xin–Dong Han arası (25–37) Guangling sahibi, MÖ 206–202 Dongyang sahibi, Yue'nin Guangling'i fiilen tutup tutmadığı, 887–902 savaş ağaları (Sun Ru, Yang Xingmi) Yangzhou günleri, Yang Wu içi Yangzhou tanıkları, Song–Jin 1130/1161 ayrıntıları, Yuan dönemi Yangzhou lu tarihi. ÇELİŞKİLER: Wu'nun Guangling kalesi — Sanguozhi 48 sırası 255, Gu Zuyu 253; Zhou'nun Guangling'i — ZZTJ 173 ve Zhou Shu 7 aynı ay, Chen Shu 5 9. ayda 'Zhou'nun Guangling yiju' geçirir (bölge); Yangzhou 956/957: ZZTJ 292 '正月' başlığı altında 乙酉 gösterirken ay başlığı 8107'de 2. aya geçmiştir, Jiu Wudai shi 116 aynı olayı 2. ay 丙戌 verir (uyumlu)."
+ },
+ {
+  "id": "zigetvar-hu",
+  "ad": "Zigetvar (Szigetvár)",
+  "atlas_ad": "Zigetvar",
+  "lat": 46.049,
+  "lon": 17.804,
+  "kat1900": 3,
+  "adlar": [
+   "Sziget",
+   "Zygeth",
+   "Szigetvár",
+   "Sigetvar",
+   "Zigetvar"
+  ],
+  "ilk": {
+   "t": "1391-01-01",
+   "gun": "1391",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV 'Sigetvar' (https://islamansiklopedisi.org.tr/sigetvar; 'Zigetvar' maddesi bk. Sigetvar), müellif Géza Dávid",
+   "tanik": "Şehrin adı ilk defa 1391 yılında kaleme alınan bir belgede Sziget (Zygeth) şeklinde",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Çelişki: MKL 'Szigetvár' (https://lexikon.katolikus.hu/S/Szigetv%C3%A1r.html) '3. plébánia. 1332: már létezett' der (daha erken); TDV esas alındı (TDV: 1391). İki tarih de atlas başlangıcından (1000) ve 1281'den sonradır. Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1391-01-01",
+    "gun": "1391",
+    "k": "diger",
+    "b": "Sziget (Zygeth) Somogy idarî birimine bağlı yerleşimler arasında ilk yazılı anılış (kuruluş değil)",
+    "kaynak": "TDV 'Sigetvar' (https://islamansiklopedisi.org.tr/sigetvar)",
+    "tanik": "Şehrin adı ilk defa 1391 yılında kaleme alınan bir belgede Sziget (Zygeth) şeklinde"
+   },
+   {
+    "t": "1332-01-01",
+    "gun": "1332",
+    "k": "diger",
+    "b": "Szigetvár plebanyası 1332'de zaten var (MKL; TDV 1391'den ÖNCE — çelişki)",
+    "kaynak": "MKL 'Szigetvár' (https://lexikon.katolikus.hu/S/Szigetv%C3%A1r.html)",
+    "tanik": "1332: már létezett"
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Zigetvar'ı 1000-01-01'de 'macaristan' ile başlatıyor, ama açılan kaynaklarda şehre ilk tanık 1391 (TDV; MKL 1332 parish) — 1281'den de sonra. Zincir bu yüzden BOŞ bırakıldı (1281 öncesi tanık bulunamadı). TDV Sigetvar ayrıca 1449'a kadar kalenin yapılıp şehir statüsü kazandığını söyler; MKL kaleyi 1420 öncesi Anthemi Oswald'a bağlar (kuruluş değil, kale). Antik/erken Ortaçağ tanığı (Roma, Avar vb.) aranmadı-bulunamadı: TDV/MKL bu noktada ilk iskân tarihi vermiyor; Macar arkeoloji literatürü (Szigetvár 'Vár' kazıları) açılmadı."
  },
  {
   "id": "zurich-ch",
