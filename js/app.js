@@ -1104,10 +1104,32 @@ function tabiYazisi(id, t) {
   if (!l) return "";
   for (var i = 0; i < l.length; i++) {
     if (gunIdx(l[i].f) <= t && t < gunIdx(l[i].t)) {
-      return "tâbi: " + devletAdi(l[i].ust).replace(/\s*\(.*\)\s*$/, "");
+      return tabiUstEki(devletAdi(l[i].ust).replace(/\s*\(.*\)\s*$/, "")) + " tâbi";
     }
   }
   return "";
+}
+// "Memlûk Sultanlığı" → "Memlûk Sultanlığı'na" (yönelme eki, ünlü uyumu).
+function tabiUstEki(ad) {
+  var m = ad.match(/[aıoueiöüâîû](?=[^aıoueiöüâîû]*$)/i);
+  var on = m && /[eiöüî]/i.test(m[0]);
+  // -ı/-i/-u/-ü ile biten adlar iyelik ekli (Sultanlığı, Devleti) → 'na/'ne; a/e/o/ö → 'ya/'ye
+  var araSes = /[ıiuü]$/i.test(ad) ? "n" : /[aeoöâîû]$/i.test(ad) ? "y" : "";
+  return ad + "'" + araSes + (on ? "e" : "a");
+}
+// Postit #36 (Emre, 17 Ekim): yabancı süzerene tâbi devletin gövdesi, süzerenin
+// renginin bir ton açığı olur. Süzerenin rengi `_DEVLET_RENK`ten (çalışma anında).
+function tabiGovdeRengi(id, t, asil) {
+  if (!tabiYazisi(id, t)) return asil;
+  var l = _TABI_IX[id];
+  for (var i = 0; i < l.length; i++) {
+    if (gunIdx(l[i].f) <= t && t < gunIdx(l[i].t)) {
+      var ust = l[i].ust, r = _DEVLET_RENK[ust];
+      if (!r) { var d = _cDevletIx()[ust]; r = d && d.harita && _DEVLET_RENK[d.harita]; }
+      return r ? acikTon(r) : asil;
+    }
+  }
+  return asil;
 }
 
 // 🔴 POSTIT #112 — iki devletin gövdesi AYNI toprağı örtmesin. Motor çıktısında
@@ -1185,7 +1207,11 @@ function devletGuncelle(t) {
         // BELLEK içi verisi (dosyaya yazılmıyor).
         p.ft.properties = p.ft.properties || {};
         p.ft.properties.id = s.id;
-        fs.push(p.ft);
+        var tr = tabiGovdeRengi(s.id, t, s.renk);
+        if (tr !== s.renk) {
+          fs.push({ type: "Feature", geometry: p.ft.geometry,
+                    properties: Object.assign({}, p.ft.properties, { renk: tr }) });
+        } else fs.push(p.ft);
         // Her gövde parçası için ayrı etiket adayı
         var mp = p.ft.geometry.coordinates;
         for (var k = 0; k < mp.length; k++) {
