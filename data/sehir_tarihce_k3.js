@@ -1527,5 +1527,1515 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış zor: Mogontiacum lejyon kampı MÖ 13/12 (Drusus; Vikipedi DE — 'lange Zeit um 38 v.Chr.' kabul edildi, yeni araştırma 13/12) — akademik birincil açılamadı → ark alanı taslak; yazılı ilk tanık olarak Wiegels 2020'nin Velleius (2,120,1) atfıyla MS 9 alındı; DAHA ESKİ yazılı tanık (Tacitus Hist. 4,15 MS 69 daha geç; Strabon/Plinius taranmadı) olabilir. 480 Frank f 'en geç tanıktan' (Vikipedi). Kaynak çelişkisi: Treccani 'Città libera dell'Impero dal 1118' ↔ Vikipedi DE 'Freie Stadt 1244' — çelişki beyan edilir, ikisi de olay/sahiplik dönemini değiştirmez (nominal almanya). Çift teyit YOK. HLS 'Mainz' maddesi yalnız Başpiskoposluk (780/781, Erzkanzler 965-1806) verir."
+ },
+ {
+  "id": "metz-fr",
+  "ad": "Metz",
+  "atlas_ad": "Metz",
+  "lat": 49.12,
+  "lon": 6.176,
+  "kat1900": 3,
+  "adlar": [
+   "Divodurum",
+   "Mettis",
+   "Metz"
+  ],
+  "ilk": {
+   "t": "0069-01-01",
+   "gun": "MS 69",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Tacitus, Historiae 1.63 (Perseus, Loeb/Fisher ed., perseus.tufts.edu, Perseus:text:1999.02.0079); Treccani, Enciclopedia Italiana, 'METZ', treccani.it/enciclopedia/metz_(Enciclopedia-Italiana)/ [Tac. Hist. 1.63: Vitellius ordusunun Ocak 69 yürüyüşü; EI: 'Appare nella storia solo alla fine del sec. I']",
+   "tanik": "Mediomatricorum id oppidum est"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0069-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'METZ', treccani.it/enciclopedia/metz_(Enciclopedia-Italiana)/",
+    "tanik": "Metz venne a fare parte della provincia Belgica",
+    "ic_not": "Tacitus 1.63 aynı yılda Divodurum'u Roma ordusunun geçtiği Mediomatrici kenti olarak anar; Roma dönemi (Gallia Belgica)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0511-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-511 arası egemen kaynakta belirtilmedi (Treccani Lorena EI: Moselle bölgesi Clovis'in 511'deki ölümünde Austrasia'ya geçer; 'Clodoveo ... era riuscito a fare riconoscere la sua autorità sulla Mosellana' — önceki Frank egemenliği günsüz). 35 yıllık boşluk beyan edilir, zorla kapatılmaz."
+   },
+   {
+    "f": "0511-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "e aveva Metz per capitale",
+    "ic_not": "Künye 'frank' f=0481-01-01. f 'en geç tanıktan': 511 (Clovis'in ölümü, Austrasia'nın başkenti Metz); gerçek Frank egemenliği daha eski olabilir (Treccani: Clovis Mosellana'da otoritesini kabul ettirmişti)."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0870-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "La regione mosellana toccò a Lotario I (843-55)",
+    "ic_not": "Künye 'orta-francia-lotharingia' 855'te başlıyor; 843-855 Lothar I.'in Orta Francia'sı aynı polity (künye GENİŞLETME önerisi: f=0843)."
+   },
+   {
+    "f": "0870-01-01",
+    "t": "0911-01-01",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "contesa e spartita tra i Carolingi tedeschi e franchi",
+    "ic_not": "Meerssen Antlaşması (8 Ağustos 870, Vikipedi EN 'Treaty of Meerssen' — yalnız ikinci tanık; harita: Metz Louis'nin doğu payında). Treccani Lorena: 876-82 Louis III, 884-87 Charles the Fat, 887-96 Arnulf, 900-911 Louis the Child Lotharingia kralları; 870-876 ve 882-884 arası Treccani listesi dışında kalır — ince ayrıntı beyan edilir."
+   },
+   {
+    "f": "0911-01-01",
+    "t": "0925-01-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Carlo il Semplice re di Francia (911-25)",
+    "ic_not": "Künye 'bati-francia' f=0843."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01, zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Metz piskoposluk şehri/Reichsstadt (EI: ~1130'da piskoposa karşı özgür şehir); Reich içinde — nominal almanya."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0069-01-01",
+    "gun": "MS 69",
+    "k": "diger",
+    "b": "Vitellius ordusu Divodurum'a girer; kent halkı misafirperverlik görmesine rağmen ani bir panikle katliama kalkışılır (Tac. Hist. 1.63).",
+    "kaynak": "Tacitus, Historiae 1.63 (Perseus, Loeb/Fisher ed., perseus.tufts.edu, Perseus:text:1999.02.0079)",
+    "tanik": "Mediomatricorum id oppidum est"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölümü, imparatorluğun Arcadius/Honorius arasında bölünmesi; Honorius Batı'yı yönetecekti).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395"
+   },
+   {
+    "t": "0476-09-04",
+    "gun": "4 Eylül 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Odoacer Ravenna'yı alır, Romulus Augustulus tahttan indirilir). Künye sonu 476-08-28; Treccani günü 4 Eylül verir.",
+    "kaynak": "Treccani, Enciclopedia dell'Arte Antica (1965), 'Romolo Augusto' (F. Panvini Rosati), treccani.it/enciclopedia/romolo-augusto_(Enciclopedia-dell'-Arte-Antica)/",
+    "tanik": "Dopo che Odoacre si fu impadronito di Ravenna, il 4 settembre 476, fu deposto"
+   },
+   {
+    "t": "0511-01-01",
+    "gun": "511",
+    "k": "diger",
+    "b": "Clovis ölür; Moselle bölgesi Austrasia krallığına geçer, başkenti Metz (Teodorico I).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "e aveva Metz per capitale"
+   },
+   {
+    "t": "0742-09-30",
+    "gun": "30 Eylül 742",
+    "k": "idari",
+    "b": "Chrodegang (Pippinoğulları) Metz'in 37. piskoposu olarak takdis edilir; Metz Austrasya/Karolenj merkezi olarak kalır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'METZ', treccani.it/enciclopedia/metz_(Enciclopedia-Italiana)/",
+    "tanik": "consacrato il 30 settembre 742"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (843): Frank mirasının üç oğul arasında bölünmesi; künye geçişi Frank → Doğu Francia / Orta Francia.",
+    "kaynak": "Treccani, Storia della civiltà europea (U. Eco, 2014), 'Il regno dei Franchi da Carlo Magno al trattato di Verdun' (E. E. Metzner), treccani.it/enciclopedia/il-regno-dei-franchi-da-carlo-magno-al-trattato-di-verdun_(Storia-della-civiltà-europea-a-cura-di-Umberto-Eco)/",
+    "tanik": "trattato di Verdun (843) che sancisce la spartizione giuridica"
+   },
+   {
+    "t": "0870-01-01",
+    "gun": "870",
+    "k": "antlasma",
+    "b": "Lothar II'nin ölümünden (869) sonra Lotharingia Meerssen'de Karolenj amcalar arasında bölüşülür; Metz doğu (Louis) payında.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "contesa e spartita tra i Carolingi tedeschi e franchi"
+   },
+   {
+    "t": "0911-01-01",
+    "gun": "911",
+    "k": "diger",
+    "b": "Lotharingia Batı Francia kralı Basit Charles'a geçer (911-925).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Carlo il Semplice re di Francia (911-25)"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "fetih",
+    "b": "Kuşkucu Henry (Doğu Francia/Almanya kralı) Lotharingia'yı boyun eğdirir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Kutsal Roma (Almanya): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1130-01-01",
+    "gun": "1130 civarı",
+    "k": "idari",
+    "b": "Metz piskoposa karşı özgür şehir (comune) olur; piskopos Stefano di Bar'a karşı ayaklanma.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'METZ', treccani.it/enciclopedia/metz_(Enciclopedia-Italiana)/",
+    "tanik": "verso il 1130, essa si affrancò e si atteggiò a città libera contro il vescovo"
+   }
+  ],
+  "ic_not": "İlk anılış: Tacitus Hist. 1.63 (olaylar Ocak 69) — Perseus Fisher yayını açıldı; Latin metinde 'Divoduri (Mediomatricorum id oppidum est)'. Treccani EI 'Appare nella storia solo alla fine del sec. I' ile uyumlu (Tacitus'un yazım zamanı). Daha eski yazılı tanık (Caesar Mediomatrici halkını anar, kent adını değil; Ptolemaios/Pomponius taranmadı). Modern Vikipedi DE: ilk iskân izleri MÖ 3000, Roma fethi MÖ 52, Attila 451'de Metz'i yıktı — Vikipedi tek dayanak olamaz, akademik teyit açılamadı → ark/olay yazılmadı. Austrasya başkenti (Treccani 'Metz', EI Lorena). 870 Meerssen günü (8 Ağustos) yalnız Vikipedi EN → yıl hassasiyeti. Çift teyit YOK. Atlas Metz 1281'de 'almanya' ile başlıyor: Reich içinde, tutarlı."
+ },
+ {
+  "id": "mulhouse-fr",
+  "ad": "Mulhouse",
+  "atlas_ad": "Mulhouse",
+  "lat": 47.75,
+  "lon": 7.34,
+  "kat1900": 3,
+  "adlar": [
+   "Mulinhuson",
+   "Mülhausen",
+   "Mulhouse"
+  ],
+  "ilk": {
+   "t": "0803-01-01",
+   "gun": "803",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "HLS/DHS/DSS 'Mülhausen' (N. Schreck), hls-dhs-dss.ch/de/articles/007089/, sürüm 30.04.2020 [web.archive.org kopyası]; forhistiur.de/legacy/articles/pdf-files/0102kauzner.pdf (Urkunde'nin gerçekliği tartışmalı, yalnız yerin varlığını belgeler — alıntı AÇILMADI, WebSearch özeti)",
+   "tanik": "803 Mulinhuson"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0803-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "HLS/DHS/DSS 'Mülhausen' (N. Schreck), hls-dhs-dss.ch/de/articles/007089/, sürüm 30.04.2020 [web.archive.org kopyası]",
+    "tanik": "803 Mulinhuson",
+    "ic_not": "Künye 'frank' f=0481-01-01. Merovenj dönemi buğday/değirmen izi (HLS) ama ad tanığı 803."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0870-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Alsazia' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/alsazia/",
+    "tanik": "il trattato di Verdun (843) l’assegnò alla Lotaringia",
+    "ic_not": "Künye 'orta-francia-lotharingia' 855'te başlıyor; 843-855 Lothar I.'in Orta Francia'sı aynı polity (künye GENİŞLETME önerisi: f=0843)."
+   },
+   {
+    "f": "0870-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Alsazia' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/alsazia/",
+    "tanik": "alla morte di Lotario II passò",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01, zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü). Lothar II ölümü 869, bölüşme Meerssen 870 (Vikipedi EN, ikinci tanık)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Reich içinde: Strazburg'daki Saint-Étienne aidiyeti/Massevaux başrahibi ve Strazburg piskoposu hâkimiyeti (EI), 1261 Rudolf von Habsburg fethi, Reichsstadt 1273 (EI) / 1308 (HLS) — hepsi nominal almanya."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0803-01-01",
+    "gun": "803",
+    "k": "diger",
+    "b": "Mulhouse ('Mulinhuson') ilk kez adıyla anılır.",
+    "kaynak": "HLS/DHS/DSS 'Mülhausen' (N. Schreck), hls-dhs-dss.ch/de/articles/007089/, sürüm 30.04.2020 [web.archive.org kopyası]",
+    "tanik": "803 Mulinhuson"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (843): Frank mirasının üç oğul arasında bölünmesi; künye geçişi Frank → Doğu Francia / Orta Francia.",
+    "kaynak": "Treccani, Storia della civiltà europea (U. Eco, 2014), 'Il regno dei Franchi da Carlo Magno al trattato di Verdun' (E. E. Metzner), treccani.it/enciclopedia/il-regno-dei-franchi-da-carlo-magno-al-trattato-di-verdun_(Storia-della-civiltà-europea-a-cura-di-Umberto-Eco)/",
+    "tanik": "trattato di Verdun (843) che sancisce la spartizione giuridica"
+   },
+   {
+    "t": "0870-01-01",
+    "gun": "870",
+    "k": "antlasma",
+    "b": "Lothar II'nin ölümünden sonra Alsace Austrasya/Almanya'ya (Doğu Francia) geçer.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Alsazia' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/alsazia/",
+    "tanik": "alla morte di Lotario II passò"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Kutsal Roma (Almanya): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1224-01-01",
+    "gun": "1224",
+    "k": "idari",
+    "b": "Kasabanın surları (Ringmauer 1224) çekilir; Aziz Stefanus himayesinde.",
+    "kaynak": "HLS/DHS/DSS 'Mülhausen' (N. Schreck), hls-dhs-dss.ch/de/articles/007089/, sürüm 30.04.2020 [web.archive.org kopyası]",
+    "tanik": "Ringmauer von 1224"
+   },
+   {
+    "t": "1261-01-01",
+    "gun": "1261",
+    "k": "fetih",
+    "b": "Rudolf von Habsburg Mulhouse'u fetheder (Strazburg piskoposu hâkimiyetinden).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1934), 'MULHOUSE' (E. Migliorini, G. Capodaglio), treccani.it/enciclopedia/mulhouse_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1261 fu conquistata da Rodolfo d'Asburgo"
+   }
+  ],
+  "ic_not": "İlk anılış: HLS 'Mülhausen' ad formu '803 Mulinhuson'; Treccani EI 'in un documento del sec. VIII' der (yüzyıl düzeyi; HLS 803'e indirger) → ikisi uyumsuz ayrıntıda, HLS esas alındı; 803 belgesinin gerçekliği tartışmalı (forhistiur.de makalesi, açılamadı). Reichsstadt tarihi çelişkisi: Treccani EI '1273 città imperiale (Rudolf)' ↔ HLS 'Ab 1308 war Mülhausen eine Reichsstadt' — çelişki beyan edilir, sahiplik dönemini değiştirmez (Reich içinde nominal almanya). 1515-1798 İsviçre'nin zugewandter Ort'u HLS'de (atlas 1515 isvicre ile tutarlı). Çift teyit YOK (Treccani yüzyıl, HLS yıl). Alsace 843'te Lotharingia'ya (Treccani Alsazia); 870 Meerssen günü yalnız Vikipedi EN."
+ },
+ {
+  "id": "munchen-de",
+  "ad": "Münih",
+  "atlas_ad": "Münih",
+  "lat": 48.137,
+  "lon": 11.575,
+  "kat1900": 3,
+  "adlar": [
+   "Munichen",
+   "München",
+   "Monaco di Baviera",
+   "Münih"
+  ],
+  "ilk": {
+   "t": "1158-06-14",
+   "gun": "14 Haziran 1158",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Generaldirektion der Staatlichen Archive Bayerns, 'Stadtgeschichte als Rollenspiel: Die Gründung Münchens' (Quelle: Bayerisches Hauptstaatsarchiv, Hochstift Freising Urkunden 32), gda.bayern.de/en/vermitteln/schulen-entdecken-archive/quellenbeispiele-aus-verschiedenen-historischen-epochen/stadtgeschichte-als-rollenspiel-die-gruendung-muenchens/",
+   "tanik": "Munich (Munichen) is mentioned for the first time"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1158-06-14",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "gun",
+    "kaynak": "Generaldirektion der Staatlichen Archive Bayerns, 'Stadtgeschichte als Rollenspiel: Die Gründung Münchens' (Quelle: Bayerisches Hauptstaatsarchiv, Hochstift Freising Urkunden 32), gda.bayern.de/en/vermitteln/schulen-entdecken-archive/quellenbeispiele-aus-verschiedenen-historischen-epochen/stadtgeschichte-als-rollenspiel-die-gruendung-muenchens/",
+    "tanik": "Given to Augsburg, on 14 June in 1158.",
+    "ic_not": "Bavyera Dükalığı (Aslan Henry; 1180'den Wittelsbach) — Reich içinde; atlasta 1506 öncesi 'bavyera' künyesi yok → nominal almanya."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1158-06-14",
+    "gun": "14 Haziran 1158",
+    "k": "diger",
+    "b": "Barbarossa'nın Augsburg hakem kararında (Duke Henry the Lion ↔ Freising piskoposu Otto, Föhring pazar/köprü/darphane anlaşmazlığı) 'Munichen' ilk kez anılır.",
+    "kaynak": "Generaldirektion der Staatlichen Archive Bayerns, 'Stadtgeschichte als Rollenspiel: Die Gründung Münchens' (Quelle: Bayerisches Hauptstaatsarchiv, Hochstift Freising Urkunden 32), gda.bayern.de/en/vermitteln/schulen-entdecken-archive/quellenbeispiele-aus-verschiedenen-historischen-epochen/stadtgeschichte-als-rollenspiel-die-gruendung-muenchens/",
+    "tanik": "Munich (Munichen) is mentioned for the first time"
+   },
+   {
+    "t": "1180-01-01",
+    "gun": "1180",
+    "k": "idari",
+    "b": "Bavyera Dükalığı (ve Münih) Welf'lerden Otto von Wittelsbach'a geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MONACO di Baviera', treccani.it/enciclopedia/monaco-di-baviera_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1180 Monaco passò, insieme con il ducato di Baviera, alla casa Wittelsbach"
+   },
+   {
+    "t": "1255-01-01",
+    "gun": "1255",
+    "k": "idari",
+    "b": "Dük Ludwig der Strenge Münih'i hükûmet merkezi yapar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MONACO di Baviera', treccani.it/enciclopedia/monaco-di-baviera_(Enciclopedia-Italiana)/",
+    "tanik": "fece nell'anno 1255 di questo posto fortificato la sede del suo governo"
+   }
+  ],
+  "ic_not": "İlk anılış 14 Haziran 1158: Bayerisches Hauptstaatsarchiv belgesi (Barbarossa hakem kararı; Augsburg). Arşiv sayfası 'kuruluş belgesi yok, ilk anılış' diyor → nicelik ilk_anilis, kur=null. Treccani EI 'Monaco' kuruluşu 'probabilmente nel 1158' Aslan Henry'ye atfeder (kuruluş iddiası; belge değil) — kur YAZILMADI. Köprü 1180 Regensburg kararında geçer (gda 'Ludwigsbrücke' notu, açılmadı). Çift teyit: arşiv (1158) + Treccani EI (1158 ca.) — Treccani 'ca.' dediği için tam çift teyit sayılmaz. Atlas Münih 1281 'almanya': tutarlı (Bavyera dükalığı Reich içinde)."
+ },
+ {
+  "id": "nancy-fr",
+  "ad": "Nancy",
+  "atlas_ad": "Nancy",
+  "lat": 48.692,
+  "lon": 6.184,
+  "kat1900": 3,
+  "adlar": [
+   "Nantiacum",
+   "Nancy"
+  ],
+  "ilk": {
+   "t": "0947-08-03",
+   "gun": "3 Ağustos 947",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'NANCY', treccani.it/enciclopedia/nancy_(Enciclopedia-Italiana)/; Treccani, Enciclopedia on line, 'Nancy' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/nancy/",
+   "tanik": "del 3 agosto 947"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0947-08-03",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NANCY', treccani.it/enciclopedia/nancy_(Enciclopedia-Italiana)/",
+    "tanik": "diploma dell'imperatore tedesco Ottone il Grande",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01, zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü). Lotharingia 925'ten beri Doğu Francia (Treccani Lorena); Otto I belgeyi 947'de kral olarak verir (Treccani 'imperatore' der — Otto 962'ye dek imparator değil)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Nancy' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/nancy/",
+    "tanik": "nel 12° sec. passò ai duchi di Lorena",
+    "ic_not": "Lorraine Dükalığı (künye 'lorraine-dukaligi' f=1000) Reich içinde; atlas Nancy 1281'de 'almanya' — dük uyruğu nominal olarak Reich olduğundan zincir almanya bırakıldı. XII. yy'da Aziz Epvre başrahiplerinden dükalığa geçti (Treccani)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0947-08-03",
+    "gun": "3 Ağustos 947",
+    "k": "diger",
+    "b": "Nancy ilk kez Otto I'in bir diplomasında anılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NANCY', treccani.it/enciclopedia/nancy_(Enciclopedia-Italiana)/",
+    "tanik": "del 3 agosto 947"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Kutsal Roma (Almanya): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1200-01-01",
+    "gun": "12. yüzyıl",
+    "k": "idari",
+    "b": "Nancy Toul'daki Saint-Epvre başrahiplerinin elinden Lorraine dükalarına geçer; dükler kenti tahkim eder, darphane kurar.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Nancy' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/nancy/",
+    "tanik": "nel 12° sec. passò ai duchi di Lorena"
+   },
+   {
+    "t": "1266-01-01",
+    "gun": "1266",
+    "k": "idari",
+    "b": "Dük III. Ferry döneminde Nancy komünal statüleri (1266) alır.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Nancy' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/nancy/",
+    "tanik": "ottenne gli statuti comunali (1266)"
+   }
+  ],
+  "ic_not": "İlk anılış 3 Ağustos 947: Treccani EI 'NANCY' gün veriyor; Treccani online 'Ottone I diploması, 947' (yıl) — iki Treccani maddesi aynı kuruluşun iki yayını, bağımsız çift teyit sayılmaz. Treccani 'imperatore' diyor ama Otto 947'de kraldır (962 tacı) — madde dili, tarihi etkilemez. EI: 'Fu in origine un nucleo celtico' (Meurthe sol yakasında izler) — aynı yer olduğu açık değil, ark yazılmadı. Nancy 947'de Lotharingia/Doğu Francia'da. XII. yy: Matthieu I (Gerard d'Alsace soyu) Nancy'ye yerleşen ilk dük (EI Lorena; tarihsiz). dikiş: atlas Nancy 1281 'almanya' ile başlıyor, zincirin sonu almanya — olay gerekmez."
+ },
+ {
+  "id": "nurnberg-de",
+  "ad": "Nürnberg",
+  "atlas_ad": "Nürnberg",
+  "lat": 49.454,
+  "lon": 11.077,
+  "kat1900": 3,
+  "adlar": [
+   "Norenberc",
+   "Nürnberg"
+  ],
+  "ilk": {
+   "t": "1050-01-01",
+   "gun": "1050",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'NORIMBERGA', treccani.it/enciclopedia/norimberga_(Enciclopedia-Italiana)/; Treccani, Enciclopedia on line, 'Norimberga' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/norimberga/",
+   "tanik": "Norenberc è nominata la prima volta in un diploma di Enrico III (1050)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1050-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NORIMBERGA', treccani.it/enciclopedia/norimberga_(Enciclopedia-Italiana)/",
+    "tanik": "Norenberc è nominata la prima volta in un diploma di Enrico III (1050)",
+    "ic_not": "Kraliyet kalesi/burgrave (imparatorluk adına) → 1191 Zollern → 1219 özgür imparatorluk şehri (Treccani); hepsi Reich içinde."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1050-01-01",
+    "gun": "1050",
+    "k": "diger",
+    "b": "Nürnberg ('Norenberc') ilk kez Heinrich III'ün bir diplomasında anılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NORIMBERGA', treccani.it/enciclopedia/norimberga_(Enciclopedia-Italiana)/",
+    "tanik": "Norenberc è nominata la prima volta in un diploma di Enrico III (1050)"
+   },
+   {
+    "t": "1062-01-01",
+    "gun": "1062",
+    "k": "idari",
+    "b": "Heinrich III. (belge Heinrich IV. dönemi) pazar hakkı: Fürth'ten alınıp Nürnberg'e verilir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NORIMBERGA', treccani.it/enciclopedia/norimberga_(Enciclopedia-Italiana)/",
+    "tanik": "di tenere mercato (1062)"
+   },
+   {
+    "t": "1191-01-01",
+    "gun": "1191",
+    "k": "idari",
+    "b": "Burgraflık Zollern kontlarına kalıtsal derebeylik olarak geçer.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Norimberga' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/norimberga/",
+    "tanik": "nel 1191, passò ai conti di Zollern come feudo ereditario"
+   },
+   {
+    "t": "1219-01-01",
+    "gun": "1219",
+    "k": "idari",
+    "b": "II. Friedrich'in imtiyazıyla Nürnberg 'özgür imparatorluk şehri' ilan edilir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NORIMBERGA', treccani.it/enciclopedia/norimberga_(Enciclopedia-Italiana)/",
+    "tanik": "privilegio concessole da Federico II nel 1219"
+   }
+  ],
+  "ic_not": "İlk anılış 1050: Treccani EI (diploma di Enrico III) + Treccani online ('Ricordata la prima volta nel 1050') — iki Treccani yayını, bağımsız çift teyit sayılmaz. Gün (16 Temmuz 1050) bu oturumda akademik kaynakta açılamadı → 1050-01-01. EI: 1062 pazar hakkı 'Enrico III' bağlamında anlatılır (diploma 1062 IV. Heinrich dönemi olabilir; Treccani cümlesi 1062'yi parantezle verir) — olay metni cümleye sadık tutuldu. Nürnberg Roma dönemi yok. Atlas Nürnberg 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "regensburg-de",
+  "ad": "Regensburg",
+  "atlas_ad": "Regensburg",
+  "lat": 49.019,
+  "lon": 12.097,
+  "kat1900": 3,
+  "adlar": [
+   "Radasbona",
+   "Regina Castra",
+   "Castra Regina",
+   "Regensburg"
+  ],
+  "ilk": {
+   "t": "0179-01-01",
+   "gun": "MS 179",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'RATISBONA', treccani.it/enciclopedia/ratisbona_(Enciclopedia-Italiana)/; Livius.org, 'Legio III Italica', livius.org/articles/legion/legio-iii-italica/ [Livius: 'A building inscription can be dated to the year 179']",
+   "tanik": "le cui mura e porte furono compiute nel 179"
+  },
+  "kur": null,
+  "ark": {
+   "t": "0100-01-01",
+   "gun": "1. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'RATISBONA', treccani.it/enciclopedia/ratisbona_(Enciclopedia-Italiana)/ [yeni buluntular]",
+   "tanik": "i Romani vi stabilirono una loro guarnigione già dal sec. I d. C."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0179-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'RATISBONA', treccani.it/enciclopedia/ratisbona_(Enciclopedia-Italiana)/",
+    "tanik": "le cui mura e porte furono compiute nel 179",
+    "ic_not": "III. Italica lejyonu kampı (Castra Regina), Raetia."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395",
+    "ic_not": "Fiilî Roma denetimi 5. yy başında geri çekildi (EI: Notitia dignitatum — garnizon komutası Vallatum'a); 476'ya dek nominal."
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0700-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-700 arası: Treccani Baviera 'migrazioni germaniche... Bavari' der, Regensburg için egemen/tarih vermez (kamp sakinleri surlara sığındı, EI). Bavyera Agilolfing dükalığı 700 civarı başkent seçimine dek tarihsiz."
+   },
+   {
+    "f": "0700-01-01",
+    "t": "0788-01-01",
+    "d": "agilolfing-bavyera",
+    "kesinlik": "onyil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Ratisbona' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/ratisbona/",
+    "tanik": "intorno al 700 R. fu prescelta a capitale dei duchi Agilolfingi",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: Agilolfing Bavyera Dükalığı, Frank üst egemenliğinde (Treccani Baviera: 'sottoposto all'alta signoria dei Franchi'); ömür: başlangıç tarihsiz (Treccani 'Baviera': Bavari göçüyle), bitiş 788 (Tassilo III'ün azli). Başlangıç yalnız Regensburg'un başkent seçildiği c.700'den alındı."
+   },
+   {
+    "f": "0788-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Baviera' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/baviera/",
+    "tanik": "Nel 788 Carlomagno depose il duca Tassilone III",
+    "ic_not": "Künye 'frank' f=0481-01-01."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Ratisbona' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/ratisbona/",
+    "tanik": "In età carolingia la città divenne capitale dei Franchi orientali",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01, zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Bavyera (Welf/Wittelsbach dükleri) içinde; 13. yy'da komünal özerklik (Treccani). Nominal almanya."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0179-01-01",
+    "gun": "MS 179",
+    "k": "kurulus",
+    "b": "Castra Regina'nın surları ve kapıları legatus M. Helvius Clemens Dextrianus tarafından tamamlanır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'RATISBONA', treccani.it/enciclopedia/ratisbona_(Enciclopedia-Italiana)/",
+    "tanik": "le cui mura e porte furono compiute nel 179"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölümü, imparatorluğun Arcadius/Honorius arasında bölünmesi; Honorius Batı'yı yönetecekti).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395"
+   },
+   {
+    "t": "0476-09-04",
+    "gun": "4 Eylül 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Odoacer Ravenna'yı alır, Romulus Augustulus tahttan indirilir). Künye sonu 476-08-28; Treccani günü 4 Eylül verir.",
+    "kaynak": "Treccani, Enciclopedia dell'Arte Antica (1965), 'Romolo Augusto' (F. Panvini Rosati), treccani.it/enciclopedia/romolo-augusto_(Enciclopedia-dell'-Arte-Antica)/",
+    "tanik": "Dopo che Odoacre si fu impadronito di Ravenna, il 4 settembre 476, fu deposto"
+   },
+   {
+    "t": "0700-01-01",
+    "gun": "700 civarı",
+    "k": "idari",
+    "b": "Regensburg Agilolfing dükalarının başkenti seçilir.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Ratisbona' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/ratisbona/",
+    "tanik": "intorno al 700 R. fu prescelta a capitale dei duchi Agilolfingi"
+   },
+   {
+    "t": "0739-01-01",
+    "gun": "739",
+    "k": "idari",
+    "b": "Aziz Bonifatius Regensburg piskoposluğunu kurar.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Ratisbona' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/ratisbona/",
+    "tanik": "Nel 739 sorse, a opera di s. Bonifacio, la sede vescovile"
+   },
+   {
+    "t": "0788-01-01",
+    "gun": "788",
+    "k": "fetih",
+    "b": "Charlemagne Dük III. Tassilo'yu azleder, Bavyera'yı Frank krallığına katar.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Baviera' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/baviera/",
+    "tanik": "Nel 788 Carlomagno depose il duca Tassilone III"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (843): Frank mirasının üç oğul arasında bölünmesi; künye geçişi Frank → Doğu Francia / Orta Francia.",
+    "kaynak": "Treccani, Storia della civiltà europea (U. Eco, 2014), 'Il regno dei Franchi da Carlo Magno al trattato di Verdun' (E. E. Metzner), treccani.it/enciclopedia/il-regno-dei-franchi-da-carlo-magno-al-trattato-di-verdun_(Storia-della-civiltà-europea-a-cura-di-Umberto-Eco)/",
+    "tanik": "trattato di Verdun (843) che sancisce la spartizione giuridica"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Kutsal Roma (Almanya): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   }
+  ],
+  "ic_not": "İlk anılış 179: Treccani EI 'surları ve kapıları 179'da tamamlandı' (Corp. Inscr. Lat. atfı) + Livius 'building inscription ... 179' — yerinde kitabe rolü, iki bağımsız yayın: ÇİFT TEYİT (EI + Livius, yıl). Daha eski yazılı tanık (Ptolemaios 'Radaspona' — açılamadı, taranmadı; Notitia Dignitatum ~ erken 5. yy daha geç). Kelt yerleşimi Radasbona/Regino ve 1. yy Roma garnizonu (EI 'recenti rinvenimenti') arkeolojik → ark yuzyil (1. yy sonu güvenli uç). Livius: lejyon 171 sonrası geldi. 476-700 BOŞLUK ve 700-788 Agilolfing (künye yok, öneri id 'agilolfing-bavyera'): Treccani süre vermiyor; künye açılırsa f/t kaynaklı doldurulur. Treccani EI ile online Baviera arasında çelişki yok. Roma lejyon kampı Regensburg Altstadt'ta (modern nokta ≤3 km)."
+ },
+ {
+  "id": "saarbrucken-de",
+  "ad": "Saarbrücken",
+  "atlas_ad": "Saarbrücken",
+  "lat": 49.233,
+  "lon": 6.997,
+  "kat1900": 3,
+  "adlar": [
+   "Saarbrücken"
+  ],
+  "ilk": {
+   "t": "0999-01-01",
+   "gun": "999",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'SAARBRÜCKEN', treccani.it/enciclopedia/saarbrucken_(Enciclopedia-Italiana)/",
+   "tanik": "Viene menzionata per la prima volta nel 999 come castellum del vescovo di Metz"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0999-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SAARBRÜCKEN', treccani.it/enciclopedia/saarbrucken_(Enciclopedia-Italiana)/",
+    "tanik": "Viene menzionata per la prima volta nel 999 come castellum del vescovo di Metz",
+    "ic_not": "Metz piskoposunun kalesi (Reich içinde), 1080'den Saarbrücken kontları (Metz derebeyliği); nominal almanya."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0999-01-01",
+    "gun": "999",
+    "k": "diger",
+    "b": "Saarbrücken ilk kez Metz piskoposuna ait 'castellum' olarak anılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SAARBRÜCKEN', treccani.it/enciclopedia/saarbrucken_(Enciclopedia-Italiana)/",
+    "tanik": "Viene menzionata per la prima volta nel 999 come castellum del vescovo di Metz"
+   },
+   {
+    "t": "1080-01-01",
+    "gun": "1080",
+    "k": "idari",
+    "b": "Yerleşim Metz'in derebeyliği olarak komşu kont ailesine geçer (aile sonradan XII. yy'da Saarbrücken adını alır).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SAARBRÜCKEN', treccani.it/enciclopedia/saarbrucken_(Enciclopedia-Italiana)/",
+    "tanik": "la località passò nel 1080 a una vicina famiglia comitale"
+   }
+  ],
+  "ic_not": "İlk anılış 999: Treccani EI tek akademik tanık (yıl; 6 Ağustos 999 günü yalnız popüler/ikincil kaynaklarda, açılamadı) — çift teyit YOK; Treccani online 'Saarbrücken' sayfası çekilemedi (hata sayfası). Roma dönemi: EI 'Metz–Mainz yolu nehri geçti, Halberg eteğinde Roma kalesi' + 'cellula originaria è il castello a 2 km dal ponte romano' → Roma yeri ≤3 km ama ADI/TARİHİ yok, ark yazılmadı. Saar Havzası 1920-35 (atlas) bu dosyanın dışında. Atlas Saarbrücken 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "strasbourg-fr",
+  "ad": "Strazburg",
+  "atlas_ad": "Strazburg",
+  "lat": 48.573,
+  "lon": 7.752,
+  "kat1900": 3,
+  "adlar": [
+   "Argentorate",
+   "Argentoratum",
+   "Straszeburc",
+   "Strazburg"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'STRASBURGO', treccani.it/enciclopedia/strasburgo_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'TOLOMEO, Claudio', treccani.it/enciclopedia/tolomeo-claudio_(Enciclopedia-Italiana)/ [Ptolemaios'un tarihi: EI 'secondo quarto del sec. II' Alexandria'da yaşar; Geographia'dan Argentoratum satırı bu oturumda AÇILMADI — Treccani aktarımı]",
+   "tanik": "a quanto testimonia Tolomeo"
+  },
+  "kur": null,
+  "ark": {
+   "t": "0014-01-01",
+   "gun": "MS 14",
+   "kesinlik": "belirsiz",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'STRASBURGO', treccani.it/enciclopedia/strasburgo_(Enciclopedia-Italiana)/",
+   "tanik": "fu sede di castrum munitissimo fino dall'età augustea"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'STRASBURGO', treccani.it/enciclopedia/strasburgo_(Enciclopedia-Italiana)/",
+    "tanik": "fu sede di castrum munitissimo fino dall'età augustea",
+    "ic_not": "Roma lejyon kampı (II Augusta, 70 sonrası VIII Augusta; EI). Zincir yazılı ilk tanıktan (2. yy) başlar; castrum Augustus dönemine uzanır (ark)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395",
+    "ic_not": "Alamannlar 357'de kaleyi ele geçirdi, Julian geri aldı (EI); sonra Valentinianus yeniden inşa etti — Roma denetimi."
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0536-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-536: Treccani Alsazia: Vandal, Alan ve Alamanlar Alsace'ı işgal etti; 536'da Franklar tarafından yenildi. Strazburg için Alaman/Frank egemenliğini ayıran tarih yok; Alaman Konfederasyonu künyesi 496'da biter — boşluk beyan edilir."
+   },
+   {
+    "f": "0536-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Alsazia' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/alsazia/",
+    "tanik": "vinti nel 536 dai Franchi",
+    "ic_not": "Künye 'frank' f=0481-01-01. Treccani EI Strasburgo: 'Annessa al regno dei Franchi'; yıl 536 Treccani Alsazia'dan (Alaman yenilgisi), Strazburg'a özel tarih değil — en geç tanık."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0870-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Alsazia' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/alsazia/",
+    "tanik": "il trattato di Verdun (843) l’assegnò alla Lotaringia",
+    "ic_not": "Künye 'orta-francia-lotharingia' 855'te başlıyor; 843-855 Lothar I.'in Orta Francia'sı aynı polity (künye GENİŞLETME önerisi: f=0843)."
+   },
+   {
+    "f": "0870-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Alsazia' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/alsazia/",
+    "tanik": "alla morte di Lotario II passò",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01, zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü). ÇELİŞKİ: Treccani online 'Strasburgo' 'Nel 952 entrò a far parte, con l'Alsazia, del Regno di Germania' (952) ↔ Treccani Alsazia (Lotario II ölümü 869/870). Alsazia maddesi + Meerssen esas alındı; 952 beyan."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Strazburg piskoposların egemenliğinde (1129 ilk coutumes, 1205 Philipp von Schwaben ile doğrudan imparatorluk, 1262 Hausbergen ile piskoposluktan kurtuluş); Reich içinde."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0357-01-01",
+    "gun": "357",
+    "k": "diger",
+    "b": "Julian Alamanlara karşı Strazburg'da galip gelir; Alamanların ele geçirdiği kale Valentinianus I. tarafından yeniden kurulur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'STRASBURGO', treccani.it/enciclopedia/strasburgo_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 357 d. C. Giuliano l'Apostata vi batté gli Alamanni"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölümü, imparatorluğun Arcadius/Honorius arasında bölünmesi; Honorius Batı'yı yönetecekti).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395"
+   },
+   {
+    "t": "0476-09-04",
+    "gun": "4 Eylül 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Odoacer Ravenna'yı alır, Romulus Augustulus tahttan indirilir). Künye sonu 476-08-28; Treccani günü 4 Eylül verir.",
+    "kaynak": "Treccani, Enciclopedia dell'Arte Antica (1965), 'Romolo Augusto' (F. Panvini Rosati), treccani.it/enciclopedia/romolo-augusto_(Enciclopedia-dell'-Arte-Antica)/",
+    "tanik": "Dopo che Odoacre si fu impadronito di Ravenna, il 4 settembre 476, fu deposto"
+   },
+   {
+    "t": "0536-01-01",
+    "gun": "536",
+    "k": "fetih",
+    "b": "Franklar Alsace'taki Alamanları yener (Treccani Alsazia aktarımı).",
+    "kaynak": "Treccani, Enciclopedia on line, 'Alsazia' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/alsazia/",
+    "tanik": "vinti nel 536 dai Franchi"
+   },
+   {
+    "t": "0762-01-01",
+    "gun": "762",
+    "k": "idari",
+    "b": "Strazburg piskoposu ilk kez güvenli biçimde anılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'STRASBURGO', treccani.it/enciclopedia/strasburgo_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 762 si ha la sicura notizia di un vescovo strasburghese"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (843): Frank mirasının üç oğul arasında bölünmesi; künye geçişi Frank → Doğu Francia / Orta Francia.",
+    "kaynak": "Treccani, Storia della civiltà europea (U. Eco, 2014), 'Il regno dei Franchi da Carlo Magno al trattato di Verdun' (E. E. Metzner), treccani.it/enciclopedia/il-regno-dei-franchi-da-carlo-magno-al-trattato-di-verdun_(Storia-della-civiltà-europea-a-cura-di-Umberto-Eco)/",
+    "tanik": "trattato di Verdun (843) che sancisce la spartizione giuridica"
+   },
+   {
+    "t": "0870-01-01",
+    "gun": "870",
+    "k": "antlasma",
+    "b": "Lothar II'nin ölümünden sonra Alsace Austrasya/Almanya'ya (Doğu Francia) geçer.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Alsazia' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/alsazia/",
+    "tanik": "alla morte di Lotario II passò"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Kutsal Roma (Almanya): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1129-01-01",
+    "gun": "1129",
+    "k": "idari",
+    "b": "İmparator Lothar yurttaşlara ilk 'coutumes' verir.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Strasburgo' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/strasburgo/",
+    "tanik": "nel 1129 gli abitanti ottennero dall’imperatore Lotario le prime coutumes"
+   },
+   {
+    "t": "1205-01-01",
+    "gun": "1205",
+    "k": "idari",
+    "b": "Philipp von Schwaben Strazburg halkını doğrudan imparatorluğa bağlar.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Strasburgo' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/strasburgo/",
+    "tanik": "Filippo di Svevia mise gli strasburghesi sotto l’immediata dipendenza dell’Impero"
+   },
+   {
+    "t": "1262-03-08",
+    "gun": "8 Mart 1262",
+    "k": "isyan",
+    "b": "Hausbergen savaşı: şehir piskopos Walter von Geroldseck ordusunu yener, piskoposun dünyevi egemenliğinden kurtulur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'STRASBURGO', treccani.it/enciclopedia/strasburgo_(Enciclopedia-Italiana)/",
+    "tanik": "(8 marzo 1262) nella battaglia di Hausbergen"
+   }
+  ],
+  "ic_not": "İlk anılış: Treccani EI 'a quanto testimonia Tolomeo (contestato da taluni moderni) città dei Vangioni' — Ptolemaios Geographia satırı bu oturumda AÇILMADI; EI Ptolemaios'u 2. yy ortasında yaşatır (secondo quarto del sec. II: kaynak 'tol'). Tacitus Hist. 4.70 (Perseus) kontrol edildi: 'Argentorat' geçmiyor. Daha dar tarih bulunamadı → yüzyıl hassasiyeti, aralığın SON ucu 200 (güvenli uç). ark: EI 'castrum fino dall'età augustea' (MS 14 güvenli uç; Vikipedi FR MÖ 12 Drusus kampı — ikinci tanık, kullanılmadı). 357 Julian savaşı (Ammianus 16.12) EI aktarımı yıl düzeyinde. Strazburg Treccani online 952 ↔ Alsazia 870 çelişkisi sahiplikte beyan edildi. Kuruluş/Eski yer: Argentorate modern Strazburg adası ile aynı (≤3 km). Atlas Strazburg 1281 'almanya': tutarlı. Çift teyit YOK."
+ },
+ {
+  "id": "stuttgart-de",
+  "ad": "Stuttgart",
+  "atlas_ad": "Stuttgart",
+  "lat": 48.776,
+  "lon": 9.183,
+  "kat1900": 3,
+  "adlar": [
+   "Stuttgart"
+  ],
+  "ilk": {
+   "t": "1229-01-01",
+   "gun": "1229",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana (1936), 'STOCCARDA' (E. Migliorini, H. Möhle, G. Gabetti, J. Mazzei), treccani.it/enciclopedia/stoccarda_(Enciclopedia-Italiana)/",
+   "tanik": "La località è ricordata la prima volta soltanto nel 1229"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1229-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'STOCCARDA' (E. Migliorini, H. Möhle, G. Gabetti, J. Mazzei), treccani.it/enciclopedia/stoccarda_(Enciclopedia-Italiana)/",
+    "tanik": "La località è ricordata la prima volta soltanto nel 1229",
+    "ic_not": "Svabya Dükalığı (Hohenstaufen; 1268 sona erer) → Württemberg kontları; Reich içinde nominal almanya (künye 'schwaben-dukaligi' f=915 t=1268 vardı ama atlas 1281'de 'almanya', dikiş sadeleştirildi)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1229-01-01",
+    "gun": "1229",
+    "k": "diger",
+    "b": "Stuttgart ilk kez anılır; kilise duvarı (1229) yerleşimin o tarihte önem taşıdığını gösterir.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'STOCCARDA' (E. Migliorini, H. Möhle, G. Gabetti, J. Mazzei), treccani.it/enciclopedia/stoccarda_(Enciclopedia-Italiana)/",
+    "tanik": "La località è ricordata la prima volta soltanto nel 1229"
+   }
+  ],
+  "ic_not": "İlk anılış 1229: Treccani EI (1936) + Treccani online ('Ricordata dal 1229') — iki Treccani yayını, çift teyit sayılmaz; 1229 belgesinin gün/kaydı açılamadı. 'Stutengarten' at yetiştirme kökeni (EI: Gestüt) — kuruluş tanığı DEĞİL. Şehir hakkı 1286 (Treccani; atlas başlangıcından sonra, bu dosyada yer almaz). Bad Cannstatt Roma kalesi ayrı yerleşim (EI: 'a un'ora di strada', >3 km, ayrı kayıt önerisi). Svabya dükalığı künyesi (915-1268) zinciri taşıyabilirdi ama atlas Stuttgart'ı 'almanya' ile başlattığından 1268-1281 dikişi için ek olay gerekirdi → nominal almanya, beyan."
+ },
+ {
+  "id": "trier-de",
+  "ad": "Trier",
+  "atlas_ad": "Trier",
+  "lat": 49.75,
+  "lon": 6.637,
+  "kat1900": 3,
+  "adlar": [
+   "Augusta Treverorum",
+   "Treveri",
+   "Trier"
+  ],
+  "ilk": {
+   "t": "-0012-01-01",
+   "gun": "MÖ 13",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'TREVIRI', treccani.it/enciclopedia/treviri_(Enciclopedia-Italiana)/; Treccani, Enciclopedia on line, 'Treviri' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/treviri/ [aralık MÖ 16-13; güvenli uç MÖ 13]",
+   "tanik": "Augusto dispose fra gli anni 16-13 a. C. la fondazione"
+  },
+  "kur": {
+   "t": "-0012-01-01",
+   "gun": "MÖ 13",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia on line, 'Treviri' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/treviri/",
+   "tanik": "Fondata da Augusto tra il 16 e il 13 a.C."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0012-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TREVIRI', treccani.it/enciclopedia/treviri_(Enciclopedia-Italiana)/",
+    "tanik": "Augusto dispose fra gli anni 16-13 a. C. la fondazione",
+    "ic_not": "Augusta Treverorum Gallia Belgica; Diocletianus'tan Belgica Prima başkenti, Batı Sezar'ın ikametgâhı (EI)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0464-01-01",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395",
+    "ic_not": "Gallia prefektürü 413'te Arles'e taşındı (EI: 'sembra nell'anno 413'); barbar baskısı."
+   },
+   {
+    "f": "0464-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TREVIRI', treccani.it/enciclopedia/treviri_(Enciclopedia-Italiana)/",
+    "tanik": "nel 462 o 464, essa passò in possesso dei Franchi",
+    "ic_not": "Künye 'frank' f=0481-01-01. f 462 ya da 464 (güvenli uç 464); künye f=481'den ÖNCE → hayalet uyarısı beklenir (künye f GENİŞLETME önerisi: Salian/Ripuarian Frank egemenliği 5. yy ortası)."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0870-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "La regione mosellana toccò a Lotario I (843-55)",
+    "ic_not": "Künye 'orta-francia-lotharingia' 855'te başlıyor; 843-855 Lothar I.'in Orta Francia'sı aynı polity (künye GENİŞLETME önerisi: f=0843)."
+   },
+   {
+    "f": "0870-01-01",
+    "t": "0911-01-01",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "contesa e spartita tra i Carolingi tedeschi e franchi",
+    "ic_not": "Meerssen 870 (Vikipedi EN: Louis'nin doğu payı Austrasya'yı kapsar; Trier'in adı geçmez — bölgesel çıkarım, ikinci tanık); Treccani EI Lorena ile aynı belirsizlik."
+   },
+   {
+    "f": "0911-01-01",
+    "t": "0925-01-01",
+    "d": "bati-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Carlo il Semplice re di Francia (911-25)",
+    "ic_not": "Künye 'bati-francia' f=0843."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01, zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Trier başpiskoposu 898'den dünyevi egemen (Radbod), Reich içinde kurfürst."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0012-01-01",
+    "gun": "MÖ 13",
+    "k": "kurulus",
+    "b": "Augustus Gallia'da şehirler kurdurur; Treveri topraklarında Augusta Treverorum kurulur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TREVIRI', treccani.it/enciclopedia/treviri_(Enciclopedia-Italiana)/",
+    "tanik": "Augusto dispose fra gli anni 16-13 a. C. la fondazione"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölümü, imparatorluğun Arcadius/Honorius arasında bölünmesi; Honorius Batı'yı yönetecekti).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395"
+   },
+   {
+    "t": "0464-01-01",
+    "gun": "462/464",
+    "k": "fetih",
+    "b": "Trier Franklara geçer ve imparatorluk için kesin olarak kaybedilir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TREVIRI', treccani.it/enciclopedia/treviri_(Enciclopedia-Italiana)/",
+    "tanik": "nel 462 o 464, essa passò in possesso dei Franchi"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (843): Frank mirasının üç oğul arasında bölünmesi; künye geçişi Frank → Doğu Francia / Orta Francia.",
+    "kaynak": "Treccani, Storia della civiltà europea (U. Eco, 2014), 'Il regno dei Franchi da Carlo Magno al trattato di Verdun' (E. E. Metzner), treccani.it/enciclopedia/il-regno-dei-franchi-da-carlo-magno-al-trattato-di-verdun_(Storia-della-civiltà-europea-a-cura-di-Umberto-Eco)/",
+    "tanik": "trattato di Verdun (843) che sancisce la spartizione giuridica"
+   },
+   {
+    "t": "0870-01-01",
+    "gun": "870",
+    "k": "antlasma",
+    "b": "Lothar II'nin ölümünden (869) sonra Lotharingia Karolenj amcalar arasında bölüşülür.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "contesa e spartita tra i Carolingi tedeschi e franchi"
+   },
+   {
+    "t": "0898-01-01",
+    "gun": "898",
+    "k": "idari",
+    "b": "Başpiskopos Radbod kontların haklarını satın alarak başpiskoposluğun dünyevi egemenliğini kurar.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Treviri' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/treviri/",
+    "tanik": "Nell’898 l’arcivescovo Radbodo acquistò i diritti dei conti di T."
+   },
+   {
+    "t": "0911-01-01",
+    "gun": "911",
+    "k": "diger",
+    "b": "Lotharingia Batı Francia kralı Basit Charles'a geçer (911-925).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Carlo il Semplice re di Francia (911-25)"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "fetih",
+    "b": "Kuşkucu Henry Lotharingia'yı boyun eğdirir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA' (storia: R. Parisot'ya göre 5 dönem), treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Kutsal Roma (Almanya): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   }
+  ],
+  "ic_not": "Kuruluş: Augustus MÖ 16-13 (Treccani EI + Treccani online aynı aralık, aynı kuruluşun iki yayını; güvenli uç MÖ 13 = -0012). Kuruluş tanığı çağdaş değil (devşirme akademik ansiklopedi); Trier köprüsü dendro MÖ 18/17 (Vikipedi — ikinci tanık, kullanılmadı). EI: Tacitus Hist. 4.77 köprüyü anar, Tacitus döneminde colonia (Mommsen: Latin hukuku) — yazılı tanık Tacitus (MS 69-70) kuruluştan SONRA, kur esas alındı. Frank geçişi 462/464 (Treccani: belirsiz) → hayalet uyarısı beklenir, künye genişletme önerisi. 870-911: Trier'in Louis payına düştüğü Treccani'de açık değil (Vikipedi EN bölgesel harita) — beyan. 911-925 Batı Francia Treccani Lorena aktarımı. Atlas Trier 1281 'almanya': tutarlı. Çift teyit YOK (Treccani x2 aynı kuruluş)."
+ },
+ {
+  "id": "ulm-de",
+  "ad": "Ulm",
+  "atlas_ad": "Ulm",
+  "lat": 48.401,
+  "lon": 9.987,
+  "kat1900": 3,
+  "adlar": [
+   "Hulma",
+   "Ulm"
+  ],
+  "ilk": {
+   "t": "0854-01-01",
+   "gun": "854",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana (1937), 'ULMA' (E. Migliorini, H. Möhle, R. Jakobson, A. Baldini), treccani.it/enciclopedia/ulma_(Enciclopedia-Italiana)/; Treccani, Dizionario di Storia (2011), 'Ulma', treccani.it/enciclopedia/ulma_(Dizionario-di-Storia)/",
+   "tanik": "menzionata per la prima volta in documenti di Ludovico il Germanico dell'anno 854"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0854-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'ULMA' (E. Migliorini, H. Möhle, R. Jakobson, A. Baldini), treccani.it/enciclopedia/ulma_(Enciclopedia-Italiana)/",
+    "tanik": "menzionata per la prima volta in documenti di Ludovico il Germanico dell'anno 854",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01, zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü). Ulm kraliyet pfalz'ı (Ludwig der Deutsche; EI 'sede reale con un palatinato')."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Svabya Dükalığı'nın en önemli merkezi (Treccani DS); 1153'ten doğrudan imparatorluk bağlı; nominal almanya."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0854-01-01",
+    "gun": "854",
+    "k": "diger",
+    "b": "Ulm Ludwig der Deutsche'nin belgelerinde ilk kez anılır; kraliyet pfalz'ı.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'ULMA' (E. Migliorini, H. Möhle, R. Jakobson, A. Baldini), treccani.it/enciclopedia/ulma_(Enciclopedia-Italiana)/",
+    "tanik": "menzionata per la prima volta in documenti di Ludovico il Germanico dell'anno 854"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Kutsal Roma (Almanya): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1027-01-01",
+    "gun": "1027",
+    "k": "idari",
+    "b": "Ulm ilk kez 'şehir' (civitas) olarak anılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'ULMA' (E. Migliorini, H. Möhle, R. Jakobson, A. Baldini), treccani.it/enciclopedia/ulma_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1027 Ulma viene ricordata per la prima volta come città"
+   },
+   {
+    "t": "1134-01-01",
+    "gun": "1134",
+    "k": "kayip",
+    "b": "Bavyera Dükü Heinrich der Stolze, Konrad III. ile savaşta Ulm'u yıkar; şehir kısa sürede yeniden kurulur.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'ULMA' (E. Migliorini, H. Möhle, R. Jakobson, A. Baldini), treccani.it/enciclopedia/ulma_(Enciclopedia-Italiana)/",
+    "tanik": "la città fu distrutta (1134) da Enrico"
+   },
+   {
+    "t": "1153-01-01",
+    "gun": "1153",
+    "k": "idari",
+    "b": "Ulm doğrudan imparatorluğa bağlı (Reichsstadt) hâle gelir.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'ULMA' (E. Migliorini, H. Möhle, R. Jakobson, A. Baldini), treccani.it/enciclopedia/ulma_(Enciclopedia-Italiana)/",
+    "tanik": "già nel 1153 dipendeva immediatamente dall'impero"
+   },
+   {
+    "t": "1274-01-01",
+    "gun": "1274",
+    "k": "idari",
+    "b": "Rudolf von Habsburg Ulm'a Esslingen şehir haklarını verir.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'ULMA' (E. Migliorini, H. Möhle, R. Jakobson, A. Baldini), treccani.it/enciclopedia/ulma_(Enciclopedia-Italiana)/",
+    "tanik": "Rodolfo d'Asburgo concesse nel 1274 a Ulma i diritti civici di Esslingen"
+   }
+  ],
+  "ic_not": "İlk anılış 854: Treccani EI (1937, 'documenti di Ludovico il Germanico') + Treccani DS (2011, 'Ricordata dall'854 come sede reale') — iki Treccani yayını, çift teyit sayılmaz. Gün: Vikipedi DE '22 Temmuz 854' (Stiftsarchiv St. Gallen belgesi, 'in Hulmam palatio regio'); belgenin kendisi/akademik teyit (Stadtarchiv Ulm PDF, Schwäbische Heimat, monasterium.net) 403/WAF engeli nedeniyle AÇILAMADI → 854-01-01. Treccani: Ulm 1027'de 'şehir' anılır; Treccani DS 1134 yıkımı. Merovenj mezarlığı (Kienlesberg) Vikipedi DE (ikinci tanık) — ark yazılmadı. Sağ yakadaki Neu-Ulm Bavyera (EI) bu kaydın dışında. Atlas Ulm 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "wurzburg-de",
+  "ad": "Würzburg",
+  "atlas_ad": "Würzburg",
+  "lat": 49.791,
+  "lon": 9.953,
+  "kat1900": 3,
+  "adlar": [
+   "Castellum Virteburch",
+   "Würzburg"
+  ],
+  "ilk": {
+   "t": "0704-01-01",
+   "gun": "704",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'WÜRZBURG', treccani.it/enciclopedia/wurzburg_(Enciclopedia-Italiana)/; Treccani, Enciclopedia on line, 'Würzburg' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/wurzburg/",
+   "tanik": "Menzionata per la prima volta nel 704 con il nome di Castellum Virteburch"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0704-01-01",
+    "t": "0741-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'WÜRZBURG', treccani.it/enciclopedia/wurzburg_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana (1932), 'FRANCONIA' (A. Lorenzi, W. Holtzmann), treccani.it/enciclopedia/franconia_(Enciclopedia-Italiana)/",
+    "ic_not": "704-741: Treccani Würzburg 704 anılışında egemeni vermez. Treccani Franconia: Main bölgesi Frank genişlemesiyle (Türingiya fethi 531) Francia'ya girer, Würzburg'un 704'teki sahibi (Thüringen dükü / Frank üst egemenliği) kaynakta açık değil — beyan edilir, çıkarımla doldurulmaz.",
+    "tanik": "conquista della Turingia (531)"
+   },
+   {
+    "f": "0741-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'WÜRZBURG', treccani.it/enciclopedia/wurzburg_(Enciclopedia-Italiana)/",
+    "tanik": "la città fu elevata nel 741 da S. Bonifacio a vescovado",
+    "ic_not": "Künye 'frank' f=0481-01-01. Frank egemenliği 741'de doğrudan yazılı değil; Treccani Franconia/Türingiya (güney bölge Franklara tâbi) ve piskoposluğun Karolenj bağışları (EI) en geç tanık."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1932), 'FRANCONIA' (A. Lorenzi, W. Holtzmann), treccani.it/enciclopedia/franconia_(Enciclopedia-Italiana)/",
+    "tanik": "al regno dei Franchi orientali di Ludovico il Germanico",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01, zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Würzburg piskoposları 1030'dan hak, 1167'den dük hakları (Franconia dükü) — Reich içinde."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0704-01-01",
+    "gun": "704",
+    "k": "diger",
+    "b": "Würzburg ilk kez 'castellum Virteburch' adıyla anılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'WÜRZBURG', treccani.it/enciclopedia/wurzburg_(Enciclopedia-Italiana)/",
+    "tanik": "Menzionata per la prima volta nel 704 con il nome di Castellum Virteburch"
+   },
+   {
+    "t": "0741-01-01",
+    "gun": "741",
+    "k": "idari",
+    "b": "Aziz Bonifatius Würzburg'u piskoposluk merkezi yapar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'WÜRZBURG', treccani.it/enciclopedia/wurzburg_(Enciclopedia-Italiana)/",
+    "tanik": "la città fu elevata nel 741 da S. Bonifacio a vescovado"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (843): Frank mirasının üç oğul arasında bölünmesi; künye geçişi Frank → Doğu Francia / Orta Francia.",
+    "kaynak": "Treccani, Storia della civiltà europea (U. Eco, 2014), 'Il regno dei Franchi da Carlo Magno al trattato di Verdun' (E. E. Metzner), treccani.it/enciclopedia/il-regno-dei-franchi-da-carlo-magno-al-trattato-di-verdun_(Storia-della-civiltà-europea-a-cura-di-Umberto-Eco)/",
+    "tanik": "trattato di Verdun (843) che sancisce la spartizione giuridica"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Kutsal Roma (Almanya): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1030-01-01",
+    "gun": "1030",
+    "k": "idari",
+    "b": "II. Konrad piskopos'a para basma, vergi ve yargı yetkisi tanır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'WÜRZBURG', treccani.it/enciclopedia/wurzburg_(Enciclopedia-Italiana)/",
+    "tanik": "Corrado II concesse al vescovo"
+   },
+   {
+    "t": "1167-01-01",
+    "gun": "1167",
+    "k": "idari",
+    "b": "Barbarossa piskoposun dukalık haklarını piskoposluk sınırları içinde tanır.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Würzburg' (Istituto della Enciclopedia Italiana), treccani.it/enciclopedia/wurzburg/",
+    "tanik": "nel 1167 Federico Barbarossa riconobbe al vescovo di W. i diritti ducali"
+   },
+   {
+    "t": "1180-01-01",
+    "gun": "1180",
+    "k": "diger",
+    "b": "Würzburg diyetinde Aslan Henry imparatorluk yasağıyla (Acht) cezalandırılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'WÜRZBURG', treccani.it/enciclopedia/wurzburg_(Enciclopedia-Italiana)/",
+    "tanik": "Enrico il Leone fu messo al bando dell'impero"
+   }
+  ],
+  "ic_not": "İlk anılış 704: Treccani EI + Treccani online ('Ricordato per la prima volta nel 704 come castellum Virteburch') — iki Treccani yayını, çift teyit sayılmaz. Vikipedi DE: Thüringen dükü Hedan'ın kalesi (ikinci tanık, kullanılmadı); Würzburg 704-741 egemeni BOŞLUK (çıkarım yazılmadı). Treccani EI 1030 Konrad II ↔ Treccani online 1167 Barbarossa dük hakları (ikisi farklı olgu, çelişki değil). Atlas Würzburg 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "zurich-ch",
+  "ad": "Zürih",
+  "atlas_ad": "Zürih",
+  "lat": 47.377,
+  "lon": 8.541,
+  "kat1900": 3,
+  "adlar": [
+   "Statio Turicensis",
+   "Turicum",
+   "Ziurichi",
+   "Zürich"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "MS 200 civarı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "HLS/DHS/DSS 'Zürich (Gemeinde)' (N. Behrens, A. Motschi, M. Schultheiss), hls-dhs-dss.ch/de/articles/000171/, sürüm 25.01.2015 [web.archive.org kopyası] [yerinde kitabe — mezar taşı]",
+   "tanik": "Ein um 200 datierter Grabstein nennt die Statio Turicensis"
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0079-01-01",
+   "gun": "MÖ 80",
+   "kesinlik": "yil",
+   "kaynak": "HLS/DHS/DSS 'Zürich (Gemeinde)' (N. Behrens, A. Motschi, M. Schultheiss), hls-dhs-dss.ch/de/articles/000171/, sürüm 25.01.2015 [web.archive.org kopyası]",
+   "tanik": "ab 80 v.Chr. ein keltisches Oppidum nachweisbar"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "onyil",
+    "kaynak": "HLS/DHS/DSS 'Zürich (Gemeinde)' (N. Behrens, A. Motschi, M. Schultheiss), hls-dhs-dss.ch/de/articles/000171/, sürüm 25.01.2015 [web.archive.org kopyası]",
+    "tanik": "Ein um 200 datierter Grabstein nennt die Statio Turicensis",
+    "ic_not": "Gallia gümrük istasyonu Raetia sınırında; Roma askerî varlığı MÖ 40/30'dan (HLS)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395",
+    "ic_not": "Lindenhof kalesi erken 4. yy; 'Batı Roma idaresinin sonuna' dek (HLS)."
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0760-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-760: Treccani EI/online: 5. yy'da Alaman göçüyle yeni gelişme; HLS: 6. yy mezarlığında çoğunlukla Romanlaşmış nüfus + Frank işlemeli fibula. Kaynak Zürih için Alaman ya da Frank egemenliğini tarihlendirmez (Alaman Konfederasyonu künyesi 496'da biter) — boşluk beyan edilir."
+   },
+   {
+    "f": "0760-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "onyil",
+    "kaynak": "HLS/DHS/DSS 'Zürich (Gemeinde)' (N. Behrens, A. Motschi, M. Schultheiss), hls-dhs-dss.ch/de/articles/000171/, sürüm 25.01.2015 [web.archive.org kopyası]",
+    "tanik": "Mit dem um 760 gebildeten Fiskus Zürich entstand eine Verwaltungsorganisation",
+    "ic_not": "Künye 'frank' f=0481-01-01. f 'en geç tanıktan': Karolenj Fiskus Zürich (c.760); daha eski Frank egemenliği olabilir."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "HLS/DHS/DSS 'Zürich (Gemeinde)' (N. Behrens, A. Motschi, M. Schultheiss), hls-dhs-dss.ch/de/articles/000171/, sürüm 25.01.2015 [web.archive.org kopyası]",
+    "tanik": "Mit diesem stattete Ludwig der Deutsche in einer 853 beurkundeten Schenkung das Kloster Fraumünster aus",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01, zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü). 853'te Ludwig der Deutsche (Doğu Francia kralı) Fraumünster'i donatır."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1098-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Reich içinde: Svabya dükleri (915'ten; HLS: 10. yy dükler vogt), 976 Lenzburg kontları vogt, 1098 Zähringen. Atlas Zürih 1098'de 'almanya' ile başlıyor (aynı sahip)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0200-01-01",
+    "gun": "MS 200 civarı",
+    "k": "diger",
+    "b": "Zürih'te bir mezar taşı 'Statio Turicensis' (Galya gümrüğü, Raetia sınırı) adını anar.",
+    "kaynak": "HLS/DHS/DSS 'Zürich (Gemeinde)' (N. Behrens, A. Motschi, M. Schultheiss), hls-dhs-dss.ch/de/articles/000171/, sürüm 25.01.2015 [web.archive.org kopyası]",
+    "tanik": "Ein um 200 datierter Grabstein nennt die Statio Turicensis"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölümü, imparatorluğun Arcadius/Honorius arasında bölünmesi; Honorius Batı'yı yönetecekti).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1937), 'TEODOSIO I il Grande' (G. M. Bersanetti), treccani.it/enciclopedia/teodosio-i-il-grande-imperatore_(Enciclopedia-Italiana)/",
+    "tanik": "T. vi morì come un pio cristiano il 17 gennaio del 395"
+   },
+   {
+    "t": "0476-09-04",
+    "gun": "4 Eylül 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Odoacer Ravenna'yı alır, Romulus Augustulus tahttan indirilir). Künye sonu 476-08-28; Treccani günü 4 Eylül verir.",
+    "kaynak": "Treccani, Enciclopedia dell'Arte Antica (1965), 'Romolo Augusto' (F. Panvini Rosati), treccani.it/enciclopedia/romolo-augusto_(Enciclopedia-dell'-Arte-Antica)/",
+    "tanik": "Dopo che Odoacre si fu impadronito di Ravenna, il 4 settembre 476, fu deposto"
+   },
+   {
+    "t": "0760-01-01",
+    "gun": "760 civarı",
+    "k": "idari",
+    "b": "Karolenj 'Fiskus Zürich' idare birimi oluşturulur.",
+    "kaynak": "HLS/DHS/DSS 'Zürich (Gemeinde)' (N. Behrens, A. Motschi, M. Schultheiss), hls-dhs-dss.ch/de/articles/000171/, sürüm 25.01.2015 [web.archive.org kopyası]",
+    "tanik": "Mit dem um 760 gebildeten Fiskus Zürich entstand eine Verwaltungsorganisation"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması (843): Frank mirasının üç oğul arasında bölünmesi; künye geçişi Frank → Doğu Francia / Orta Francia.",
+    "kaynak": "Treccani, Storia della civiltà europea (U. Eco, 2014), 'Il regno dei Franchi da Carlo Magno al trattato di Verdun' (E. E. Metzner), treccani.it/enciclopedia/il-regno-dei-franchi-da-carlo-magno-al-trattato-di-verdun_(Storia-della-civiltà-europea-a-cura-di-Umberto-Eco)/",
+    "tanik": "trattato di Verdun (843) che sancisce la spartizione giuridica"
+   },
+   {
+    "t": "0853-01-01",
+    "gun": "853",
+    "k": "idari",
+    "b": "Ludwig der Deutsche Stadelhof ile Fraumünster'i donatır (853 belgesi).",
+    "kaynak": "HLS/DHS/DSS 'Zürich (Gemeinde)' (N. Behrens, A. Motschi, M. Schultheiss), hls-dhs-dss.ch/de/articles/000171/, sürüm 25.01.2015 [web.archive.org kopyası]",
+    "tanik": "in einer 853 beurkundeten Schenkung das Kloster Fraumünster aus"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Kutsal Roma (Almanya): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1098-01-01",
+    "gun": "1098",
+    "k": "antlasma",
+    "b": "Staufen–Zähringen uzlaşması: Zürih Staufen dükleri hâkimiyetinden çıkar; Zähringenler Reich haklarının sahibi olur.",
+    "kaynak": "HLS/DHS/DSS 'Zürich (Gemeinde)' (N. Behrens, A. Motschi, M. Schultheiss), hls-dhs-dss.ch/de/articles/000171/, sürüm 25.01.2015 [web.archive.org kopyası]",
+    "tanik": "staufisch-zähringischen Ausgleich von 1098"
+   }
+  ],
+  "ic_not": "İlk anılış ~200: HLS 'Zürich (Gemeinde)' — 'um 200 datierter Grabstein nennt die Statio Turicensis' (Mezar taşı kitabesi, yerinde yazılı tanık; tam yıl yok → onyil hassasiyeti). Treccani EI/online 'Turicum' adını verir ama tarihlemez (Treccani online: 25-15 MÖ küçük kale; EI: 5. yy Alaman göçü) — HLS esas. ark: HLS Kelt oppidumu 'ab 80 v.Chr.' (MÖ 80). Roma askerî varlığı MÖ 40/30'dan (HLS). Modern nokta Lindenhof ≤3 km. Zincir atlas başlangıcı 1098-01-01'e dek (atlas Zürih 1098'de 'almanya' ile başlıyor; ONCE1281-GERIYE notu: 1098 öncesi Svabya merkezi konservatif yazılmamış — bu dosya 1098 öncesini yazar). 476-760 BOŞLUK beyanlı. Çift teyit YOK."
  }
 ];
