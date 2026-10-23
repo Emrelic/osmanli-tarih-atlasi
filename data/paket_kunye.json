@@ -954,8 +954,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler_ek_korfez.js",
-     "sha": "a2277c2274b16d18",
-     "bayt": 7296
+     "sha": "2db7c0fd89be3ab9",
+     "bayt": 7805
     },
     {
      "yol": "data/yerlesimler_ek_bosluk.js",
@@ -963,7 +963,7 @@
      "bayt": 6324
     }
    ],
-   "bayt": 13955
+   "bayt": 14464
   },
   {
    "paket": "data/paket_20.js",

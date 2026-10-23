@@ -1490,7 +1490,7 @@ BEYAN_EDILEN_BOSLUK = {
     #   TDV dışında kaynak bulunursa BU SATIR SİLİNİR. Komşu deseni hazır:
     #   Doha'nın 1193 günlük deliği (1913-1916) `s:{d:"katar"}` ile kapatıldı
     #   (ab1df42) — aynı yol buraya da açık, eksik olan kaynak.
-    ("Katar Yarımadası (iç, dolgu)", "1670-01-01", "1868-01-01"),
+    ("Katar Yarımadası (iç, dolgu)", "1795-04-01", "1868-01-01"),  # 1670-1795 Benî Hâlid (post-it #122)
     # 🟢 Cibri (Güçlü) 1508-1515 — Cizre beyanının İKİZİ (TR-1923-SINIR, 15 Eylül 2026).
     # Köy Cizre'nin 10,1 km batısında bir SINIR ÇİFTİ noktası; zinciri Cizre
     # kaydından birebir (denetim/ARAC-TR1923-YAZ-0914.py). Boşluk aynı TDV `cizre`
