@@ -13923,6 +13923,43 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Huelva: Fenike geleneği/arkeolojisi MÖ 10. yy; kaynaklı SİYASÎ zincir yalnız 1012'den (Bekrî) başlıyor. Kaynak sınırları: TDV'de 'Velbe' maddesi YOK (yalnız Bekrî/Mu‘tazıd/İşbîliye içi anma); Pliny/Strabon Onoba tanıkları tarihlenemedi. Çelişkiler: Abbâdî alışı 443/1051 ↔ 444/1052 (TDV içi). Atlas düzeltmesi: 1281'de Kastilya iddiası şehir için kaynaksız; Niebla bölgesi 1262'de Kastilya'ya geçti — Huelva için en geç 1293 öncesi. Çift teyit YOK."
  },
  {
+  "id": "ifni-ma",
+  "ad": "Îfnî (Sîdî İfnî)",
+  "atlas_ad": "Îfnî (Sîdî İfnî)",
+  "lat": 29.379,
+  "lon": -10.173,
+  "kat1900": 3,
+  "adlar": [
+   "Sîdî İfnî",
+   "Sidi Ifni",
+   "Santa Cruz de la Mar Pequeña (eşitleme belirsiz)"
+  ],
+  "ilk": {
+   "t": "1934-01-01",
+   "gun": "1934",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus",
+   "tanik": "Aynı tarihte İspanyollar Sîdî İfnî’ye yerleşti",
+   "ic_not": "İLK ANILIŞ (kuruluş denemez): TDV Sûs: 'Bölgedeki direniş 1934’te barış yapılana kadar sürdü. Aynı tarihte İspanyollar Sîdî İfnî’ye yerleşti.' (gün/ay yok). TDV Fas/Sebte: İfni bölgesi XX. yüzyıl başında İspanya hâkimiyetinde; 30 Haziran 1969'da Fas'a devredildi. Vikipedi (yalnız ipucu): 1476'da Santa Cruz de la Mar Pequeña, 1860 Tanca antlaşması — Sidi Ifni'nin Mar Pequeña olduğu varsayımı; tarihçiler konumu kesinleştiremedi (yeri kesin olmayan ad eşitlemesi başlangıç sayılmaz). 1934 öncesi yerleşim kaynaklı gösterilemedi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1934-01-01",
+    "gun": "1934",
+    "k": "diger",
+    "b": "İspanyollar Sîdî İfnî'ye yerleşir (barış sonrası; kuruluş değil).",
+    "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus",
+    "tanik": "Aynı tarihte İspanyollar Sîdî İfnî’ye yerleşti"
+   }
+  ],
+  "ic_not": "Îfnî (Sîdî İfnî) — atlas noktası 29.379,-10.173. ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas 1281-01-01'de 'merini' ile başlatıyor, ama açılan akademik kaynakta (TDV) ilk yeri-kesin tanık 1934 (İspanyol yerleşimi); 1281 öncesi (ve 1934 öncesi) tanık bulunamadı; zincir BOŞ. Santa Cruz de la Mar Pequeña (1476) eşitlemesi kaynakta kesin değil. İspanyol dönemi 1934-1969 atlas ufkunun dışında (atlas zinciri 1900-2000: 'fas' yazıyor; TDV İfni'nin 1934-1969 İspanyol olduğunu söyler → atlas düzeltmesi önerilir, bu dosyaya karışmaz)."
+ },
+ {
   "id": "incheon-kr",
   "ad": "İnçon (Incheon)",
   "atlas_ad": "İnçon (Incheon)",
@@ -18115,6 +18152,62 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Lagos: kaynaklı zincir yalnız Roma dönemi (arkeolojik) ve 1250 Portekiz fethi (bölge düzeyi). 395-1250 BOŞLUK. Bulunamayan: TDV Lagos maddesi, Lagos'un adı/ilk anılışı (Lacobriga eşleşmesi şüpheli), Müslüman dönemi Lagos tanığı. Atlas düzeltmesi: atlas Lagos 1281 Portekiz ile uyumlu; atlas başlangıcı 1250'ye çekilebilir (bölge düzeyi, Lagos'a özgü tanık yok). Çift teyit YOK."
+ },
+ {
+  "id": "larache-ma",
+  "ad": "el-Arâiş (Larache)",
+  "atlas_ad": "el-Arâiş (Larache)",
+  "lat": 35.193,
+  "lon": -6.156,
+  "kat1900": 3,
+  "adlar": [
+   "Laraïch (Roudh)",
+   "el-Arâiş",
+   "Larache"
+  ],
+  "ilk": {
+   "t": "1270-01-01",
+   "gun": "668 H / 1270",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+   "tanik": "les Chrétiens s'emparèrent du port de Larache dont ils massacrèrent les habitants",
+   "ic_not": "İLK ANILIŞ (kuruluş değil; çağdaşa en yakın tanık): Roudh el-Kartas 'En 668 (1270 J.C.), les Chrétiens s'emparèrent du port de Larache dont ils massacrèrent les habitants ... ils mirent le feu à la ville' — hicrî 668 = 1269-08-31..1270-08-19, 1270 ile kesişimin ilk günü 1270-01-01 (çevirmen mîlâdî yılı 1270 verir). DAHA ESKİ ADAY (retrospektif, kullanılmadı): aynı Roudh, İdrîs II'nin ölümünden (12 Cumâdelâhire 213 H = 0828-08-28) hemen sonra oğlu Muhammed'in ülkeyi bölüşümünde 'A Yhya, les villes de Basra, Asîla, Laraïch et dépendances' der; ancak eser ~1326 tarihlidir ve 'Laraïch' adının 9. yüzyıla yansıtılması (anakronizm) riski var — Vikipedi (yalnız ipucu) şehrin Arapça kaynaklarda 13. yüzyıla kadar anılmadığını yazar. Yeri kesin eşleşme ve çağdaşlık doğrulanmadığından başlangıç sayılmadı. Kabul edilirse ilk = 0828-08-28 (213 H) olurdu. Kuruluş tarihi bulunamadı. ANTİK ÖNCÜL: Lixus (Pleiades: 'Punic port settlement as early as the eighth century B.C.') atlas noktasına ≈4,5 km (Pleiades 35.2000,-6.1102) > 3 km → bu kayıtta YAZILMADI; ayrı kayıt önerisi: Lixus (Pleiades 275666; Punic MÖ 8. yy'dan, Claudius colonia)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1270-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "les Chrétiens s'emparèrent du port de Larache dont ils massacrèrent les habitants",
+    "ic_not": "BOŞLUK (şehir var, sahibi kaynakta bulunamadı): Roudh sahibi söylemez; 668 H (1269-70) Merînî Ebû Yûsuf'un Merakeş'e girişi (TDV Muvahhidler 668/1269; TDV Merînîler 668/1270) ve Merînî'nin kuzeyde 1248'den beri hâkimiyeti (TDV: Fas, Selâ, Tâze 646/1248) Larache'ye özgü OLMADIĞINDAN çıkarım yazılmadı. Atlas Merînî diyor — dikişte bu beyan taşınır."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0828-08-28",
+    "gun": "213 H / 828 (İdrîs II ölümü; bölüşüm hemen sonra)",
+    "k": "diger",
+    "b": "Retrospektif: Muhammed b. İdrîs ülkeyi bölüştürür; Yahyâ'ya Basra, Asîla, Laraïch verilir (anakronizm riski, başlangıç sayılmadı).",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "A Yhya, les villes de Basra, Asîla, Laraïch et dépendances jusqu'au pays de Ourgha"
+   },
+   {
+    "t": "1270-01-01",
+    "gun": "668 H / 1270",
+    "k": "diger",
+    "b": "Hıristiyanlar Larache limanını basar, halkı öldürür, şehri yakar (ilk anılış).",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "les Chrétiens s'emparèrent du port de Larache dont ils massacrèrent les habitants"
+   }
+  ],
+  "ic_not": "el-Arâiş (Larache) — atlas noktası 35.193,-6.156. ATLAS BAŞLANGICI: atlas 1281-01-01'de 'merini' ile başlatıyor; şehre özgü Merînî tanığı BULUNAMADI (1270'te şehir 'Hıristiyanlarca yakıldı'); Vikipedi (yalnız ipucu) Muvahhid Ya‘kūb el-Mansûr (1184-1199) kalesi ve Idrîsî Beni 'Arûs kuruluşu der — akademik kaynakla doğrulanamadı. Ibn Haldûn t. IV 'Kodiat-el-Araïch' (Fas yakınında Kudyetü'l-Arâîş, 674 H) başka bir yerdir; karıştırılmadı. Antik Lixus ayrı kayıt önerisi (> 3 km).",
+  "dikis_beyan": "Atlas el-Arâiş'i 1281-01-01'de 'merini' ile başlatıyor; zincirin son dönemi '__BOSLUK__' (1270-1281). Larache'ye özgü Merînî egemenliği tanığı BULUNAMADI (TDV'de madde yok, Roudh yalnız 1270 baskınını verir); yer tutucu olay yazılmadı."
  },
  {
   "id": "le-mans-fr",
@@ -25864,6 +25957,129 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "KAYNAK: Iranica 'BAYHAQ' (birebir okundu); TDV 'Beyhak' ve 'Sebzevâr' (yönlendirme; gövde kısa, tarih yok). Kuruluş: bulunamadı. Sebzevâr Serbedârîler'in başkenti oldu (1337, atlas zincirinde var). Sahip zinciri Horasan bölge zinciri + Beyhak'a özgü tanıklar (Selçuklu surları, İlhanlı sikkesi); 1157-1220 BOŞLUK."
  },
  {
+  "id": "sefru-ma",
+  "ad": "Sefrû",
+  "atlas_ad": "Sefrû",
+  "lat": 33.83,
+  "lon": -4.836,
+  "kat1900": 3,
+  "adlar": [
+   "Sufrûy",
+   "Çofrouî / Çofrou (İdrîsî)",
+   "Sofrouï (Ibn Haldûn)",
+   "Sefrû"
+  ],
+  "ilk": {
+   "t": "1016-06-10",
+   "gun": "407 H / 1016",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, MAĞRÂVE (İsmail Yiğit, 2019), https://islamansiklopedisi.org.tr/magrave; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+   "tanik": "Egemenlik alanını Melviye ve Sufrûy’a kadar genişletip",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). TDV Mağrâve: Sicilmâse Mağrâve emiri Vânüdîn b. Hazrûn 407'de (1016) bağımsızlığını ilân edip 'egemenlik alanını Melviye ve Sufrûy'a kadar genişletti'. 'Sufrûy' = Sefrû eşitlemesi (Ibn Haldûn çevirisinde 'Sofrouï', İdrîsî'de 'Çofrouî'/Çofrou, Roudh'ta 'Sofrou') kabul edildi. ÇİFT TEYİT: Ibn Haldûn t. III (Maghraoua bölümü): Vânüdîn 407'de (1016-7) El-Muiz'i yenince 'occupa Sofrouï, l'une des dépendances de Fez' (aynı yıl; kaynakların bağımsızlığı kesin değil: TDV Ibn Haldûn'a dayanabilir). Hicrî 407 = 1016-06-10..1017-05-29. Kuruluş tarihi bulunamadı; 1016 öncesi tanık (Bekrî, 1068) Fransızca çevirisi açılamadığından kontrol edilemedi. İdrîsî (548 H/1154): 'Çofrouî ... petite ville bien peuplée'. Encyclopédie berbère (OpenEdition) Anubis koruması nedeniyle AÇILMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1016-06-10",
+    "t": "1063-01-04",
+    "d": "magrave-sicilmase",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MAĞRÂVE (İsmail Yiğit, 2019), https://islamansiklopedisi.org.tr/magrave; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+    "tanik": "occupa Sofrouï, l'une des dépendances de Fez",
+    "ic_not": "KÜNYE: magrave-sicilmase künyesi 0976-08-30..1053-01-01 (Sicilmâse Mağrâveleri); Sefrû Vânüdîn ailesinin 'Fas'a bağlı' yerleşimiydi, aile kolu 1063'e kadar sürdü — künye bitişi (1053) aşıldı (10 yıl hayalet uyarısı): künye genişletme önerisi. t: Ibn Haldûn t. II: Yûsuf (b. Tâşfîn, çeviride Murâbıt komutan) 'De Fez, il se porta sur Sofrouï où il tua tous les membres de la famille Ouanoudîn', ardından 455'te (1063) Fas'a girdi; Ibn Haldûn t. III 'En l'an 455 (1063), il prit Sofrouï d'assaut' (iki ayrı yerde 455). ÇELİŞKİ: Roudh el-Kartas özet tablosu '465 (1072 J.C.), Youssef ben Tachefyn conquit Sedareta et Sofrou' (465 H = 1072-09-17..1073-09-05; OCR '465' okunuyor). Ibn Haldûn aynı yerde Fas'ı 455 (1063) 'sans coup férir' sonra 462 (1069)'da 'd'assaut' verir, TDV Fas 462/1070: Ibn Haldûn'un 455'i Roudh'la 10 yıl farklı ve Fas tarihleriyle de tutarsız olabilir. Ibn Haldûn (iki geçiş) alındı; alternatif 1072-09-17 — kesin değil. 455 H = 1063-01-04..1063-12-24."
+   },
+   {
+    "f": "1063-01-04",
+    "t": "1147-03-23",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+    "tanik": "il se porta sur Sofrouï où il tua tous les membres de la famille Ouanoudîn",
+    "ic_not": "t = künye geçişi (Murâbıt devletinin sonu; TDV Murâbıtlar 'Muvahhid kuvvetleri Fas, Miknâse, Selâ şehirlerini ve nihayet Merakeş'i ele geçirerek ... 23 Mart 1147'). Sefrû'ya özgü Muvahhid geçişi kaynakta YOK; zincir Fas'tan devralındı (Sefrû Fas'ın bağlısı: Ibn Haldûn 'dépendances de Fez'; İdrîsî Fas'tan 1 günlük yol)."
+   },
+   {
+    "f": "1147-03-23",
+    "t": "1248-04-26",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar; TDV İslâm Ansiklopedisi, MUVAHHİDLER (Mehmet Özdemir, 2020), https://islamansiklopedisi.org.tr/muvahhidler",
+    "tanik": "Muvahhid kuvvetleri Fas, Miknâse, Selâ şehirlerini ve nihayet Merakeş’i ele geçirerek",
+    "ic_not": "Sefrû'ya özgü tanık YOK; zincir Fas'tan devralındı (BEYANLI YAKLAŞIKLIK, abi merkez Fas). t: TDV Muvahhidler 'Merînîler ... 646’da (1248) Fas, Selâ ve Tâze’yi' (646 H = 1248-04-26..1249-04-15)."
+   },
+   {
+    "f": "1248-04-26",
+    "t": "1281-01-01",
+    "d": "merini",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MUVAHHİDLER (Mehmet Özdemir, 2020), https://islamansiklopedisi.org.tr/muvahhidler",
+    "tanik": "Merînîler 645’te (1247) Miknâs’ı, 646’da (1248) Fas, Selâ ve Tâze’yi",
+    "ic_not": "Sefrû'ya özgü tanık YOK; zincir Fas'tan devralındı (Fas 646 H: Roudh 'dans les derniers jours de râby el-tâny 646'). Atlasla aynı sahip (Merînî) — dikiş sorunu yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1016-06-10",
+    "gun": "407 H / 1016",
+    "k": "diger",
+    "b": "Vânüdîn bağımsızlığını ilân edip egemenliğini Sefrû'ya (Sufrûy) kadar genişletir (ilk anılış).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MAĞRÂVE (İsmail Yiğit, 2019), https://islamansiklopedisi.org.tr/magrave",
+    "tanik": "Egemenlik alanını Melviye ve Sufrûy’a kadar genişletip"
+   },
+   {
+    "t": "1016-06-10",
+    "gun": "407 H / 1016-17",
+    "k": "diger",
+    "b": "Ibn Haldûn: Vânüdîn Sefrû'yu (Fas'a bağlı) işgal eder (çift teyit sayılır).",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+    "tanik": "occupa Sofrouï, l'une des dépendances de Fez"
+   },
+   {
+    "t": "1063-01-04",
+    "gun": "455 H / 1063",
+    "k": "fetih",
+    "b": "Murâbıtlar Sefrû'ya yürüyüp Vânüdîn ailesini öldürür.",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+    "tanik": "il se porta sur Sofrouï où il tua tous les membres de la famille Ouanoudîn"
+   },
+   {
+    "t": "1072-09-17",
+    "gun": "465 H / 1072-73",
+    "k": "fetih",
+    "b": "Roudh el-Kartas: Yûsuf b. Tâşfîn Sedrata ve Sofrou'yu fetheder (Ibn Haldûn 455 ile ÇELİŞKİ).",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "Youssef ben Tachefyn conquit Sedareta et Sofrou"
+   },
+   {
+    "t": "1147-03-23",
+    "gun": "18 Şevval 541 / 23 Mart 1147",
+    "k": "diger",
+    "b": "künye geçişi: Muvahhidler Fas, Miknâse, Selâ ve Merakeş'i alır; Sefrû'ya özgü gün YOK.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar",
+    "tanik": "Muvahhid kuvvetleri Fas, Miknâse, Selâ şehirlerini ve nihayet Merakeş’i ele geçirerek"
+   },
+   {
+    "t": "1154-01-15",
+    "gun": "Şevval 548 H sonu / ~Ocak 1154",
+    "k": "diger",
+    "b": "İdrîsî Sefrû'yu (Çofrouî) Fas'a 1 günlük mesafede 'küçük ama kalabalık şehir' olarak anar (ikinci tanık).",
+    "kaynak": "el-İdrîsî, Nuzhat al-mushtâq (548 H/1154), Description de l'Afrique et de l'Espagne, éd. ve trad. R. Dozy & M. J. de Goeje, Leyde 1866, https://archive.org/details/bub_gb_XQqWkwi7hWAC",
+    "tanik": "c’est une petite ville bien peuplée"
+   },
+   {
+    "t": "1248-04-26",
+    "gun": "646 H / 1248",
+    "k": "fetih",
+    "b": "Merînîler Fas, Selâ ve Tâze'yi Muvahhidlerden alır (Sefrû Fas'a bağlı; Sefrû'ya özgü gün yok).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MUVAHHİDLER (Mehmet Özdemir, 2020), https://islamansiklopedisi.org.tr/muvahhidler",
+    "tanik": "Merînîler 645’te (1247) Miknâs’ı, 646’da (1248) Fas, Selâ ve Tâze’yi"
+   }
+  ],
+  "ic_not": "Sefrû — atlas noktası 33.830,-4.836. Atlas 1281'de Merînî başlatıyor; zincir Merînî (1248, Fas'tan devralındı) ile birleşir (düzeltme gerekmez). ÇİFT TEYİT (sınırlı): ilk anılış 407 H (TDV ↔ Ibn Haldûn). ÇELİŞKİ: Murâbıt fethi 455 (1063, Ibn Haldûn iki yerde) ↔ 465 (1072, Roudh). Kuruluş tarihi bulunamadı (Bekrî'nin Fransızca çevirisi açılamadı). Künye önerisi: Vânüdîn kolu için magrave-sicilmase künyesi 1063'e genişletilmeli. Hicrî tarihler tablo takvimi (±1-2 gün)."
+ },
+ {
   "id": "semendire-rs",
   "ad": "Semendire (Smederevo)",
   "atlas_ad": "Semendire",
@@ -27061,6 +27277,179 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Shaoxing (atlas_ad 'Shaoxing', kat1900 3; atlas ilk gün 1281-01-01 yuan-hanedani). ① YER: atlas noktası (30.03, 120.58) Shaoxing eski şehridir. Song gazetesi Jiatai Kuaiji zhi 1 (1201): prefektür (府治) Wolong Dağı'nın doğu eteğindedir, Goujian'ın küçük şehri/Fan Li şehri ile eşitlenir ('會稽治山陰以來此城即為郡城'; '雖未必盡與古同'), Song prefektürünün 羅城 çevresi 14 li (Shen Li 1070'ler) — çağdaş kanıt değil; koordinat kaynaktan ölçülmedi (kesin değil). ② ZİNCİR BAŞI = MÖ 490 GELENEK (Wu Yue chunqiu Goujian 7. yıl 'Fan Li küçük şehri kurar'; Yue Jue Shu 8 'küçük şehir = Shanyin şehri'; sayı: Shiji 14 Wu 19. yıl = MÖ 496 Goujian 1; Siku notu Goujian 7 = Lu Ai 5 = MÖ 490). Arkeolojik/akademik doğrulama BULUNAMADI (aranmadı: yalnız wikisource birincil metin taraması). Muhafazakâr alternatif başlangıç (yazılı, yeri kesin): MÖ 210 Yue Jue Shu 8 'Qin 37. yıl ... 乃更名大越曰山陰' (Shanyin adının ilk yazılı tanığı) veya Hanshu 28上 Kuaiji jun ilçeleri listesi '山陰'. Karar Emre'nindir. ③ ZİNCİR ÖZETİ: Yue (kunye_yok yue-devleti-zhou, MÖ 490–MÖ 222; MÖ 473 Wu'yu yutar, Langya'ya taşır; MÖ 333 Chu Wujiang'ı yener, kalıntı Yue beylikleri Chu'ya tâbi — Shiji 6 MÖ 222'de '越君'in teslimi) → Qin devleti (MÖ 222) → Qin imparatorluğu (MÖ 221) → MÖ 208 Xiang Liang → BOŞLUK (MÖ 208–MÖ 202) → Batı Han (Wu krallığı 195, 154 isyanı içinde) → Xin → BOŞLUK (23-25) → Doğu Han (129 Kuaiji jun merkezi Shanyin; 196 Sun Ce) → Sun Wu → Batı Jin → Doğu Jin (399 Sun En) → Liu Song → Güney Qi → Liang → Chen → Sui (589 Wuzhou; 590 Gao Zhihui) → 618-06-18 BOŞLUK (620'ye dek) → Li Zitong'un Wu'su (kunye_yok li-zitong-wu, 620 – 621-12-25) → Tang (621; 623-24 Fu Gongzhi olay) → Wu Zhou (690) → Tang (705) → Luoping guo (kunye_yok luoping-guo, Dong Chang 895-03-03 – 896-06-15 ay hassasiyeti) → Tang (896; Qian Liu 897 Zhendong) → Wuyue (907-06-01) → Song (978-06-11; 1129-30 Gaozong Yuezhou'da, 1130-02-04 Jin işgali ~52 gün, 1131-11-17 Shaoxing fu) → Yuan (1276 yıl hassasiyeti) → 1281-01-01. ④ ÇELİŞKİ/NOT: (a) Shiji 6 Kuaiji gezisini Qin 37. yıl 10-11. aya yazar; Yue Jue Shu 8 'meydana varış: 正月甲戌' (Qin takvimi ay 1 = 10. ay olabilir) — yalnız yıl (MÖ 210) alındı, gün yazılmadı. (b) Song Shi 25 Jin Yuezhou'yu 12. ay 戊戌 (1130-02-04) alır; Song Shi 26 Song'un 2. ay 庚寅'de (1130-03-28) geri girdiğini yazar. (c) Yuan'ın Shaoxing'i alış günü bulunamadı: Song Shi 47 德祐元年 'Fu Wang Yu Rui 判紹興府', 德祐二年 3. ay Lin'an'a 'Fu Wang 自紹興至' (Song Shi jishi benmo 107) ⇒ Song en az 1276-03'e dek tuttu; Yuan Shi 62 'Zhiyuan 13 Shaoxing lu', Yuan Shi 132 Arahan'ın 'Shaoxing, Wenzhou, Taizhou, Fujian' seferi (yıl yok); sınır 1276-01-01 YIL hassasiyetidir ve Song dönemini yıl başına çeker — 1276'nın ilk 2-3 ayı için Song-Yuan dikişi gerçeğe göre 2-9 ay erkendir (beyan; ölçüt gevşetilmedi). ⑤ KÜNYE ÖNERİLERİ: yue-devleti-zhou (Yue, Zhou dönemi, f ≤ MÖ 490, t = MÖ 222); li-zitong-wu (Li Zitong'un Wu devleti, 吳, nianhao 明政, ≈619 – 621-12-25); luoping-guo (大越羅平國, Dong Chang, nianhao 順天, 895-03-03 – 896); isteğe bağlı xi-chu-bawang (Xiang Yu). Künye uyarıları (GENİŞLET/KISALT): tang t=907-01-01 < 907-06-01; wuyue t=978-01-01 < 978-06-11; dogu-han t=0220-01-01 < 220-11-25; sun-wu f=222 > 220-11-25; bati-han/xin/bati-jin/dogu-jin/liu-song/guney-qi/liang-guney/chen/wu-zhou bitişleri 1 Ocak yuvarlaması (Suzhou/Fuzhou kayıtlarındaki toplu GENİŞLET önerisiyle aynı). ⑥ AYRI KAYIT ÖNERİLERİ (3 km kuralı, kesin değil): Jiatai Kuaiji zhi 1: 'Yue Wang Cheng' ('越王城') 'ilçenin 47 li güneybatısı', Gucheng köyü (古城村) — Goujian'ın çekirdeği/Yue Wang Cheng arkeolojik adayı, bugünkü şehirden ~20+ km (kesin değil); 'Kuaiji Dağı Üst Şehri' (會稽山上城, Goujian'ın Wu'ya yenildiğinde sığındığı yer, 'ilçenin 10 li doğu-güneydoğusu'); Yue Jue Shu 8'in 'Langya' (Goujian'ın başkent taşıması) Shandong'da, ayrı kayıt. ⑦ BULUNAMADI: arkeolojik/akademik makale (kazı raporu, Çince/İngilizce) aranmadı; MÖ 208–202 Kuaiji sahibi; 23–25 Kuaiji sahibi; 618–620 fiili sahip; Li Zitong'un Kuaiji'ye katıldığı kesin gün; Yuan'ın Shaoxing'i alış günü (Yuan Shi 8–10, Song Shi 47 tarandı); Hou Jing (548–552) dönemi Kuaiji; çift teyit: YOK."
  },
  {
+  "id": "sicilmase-ma",
+  "ad": "Sicilmâse (Tâfilelt)",
+  "atlas_ad": "Sicilmâse (Tâfilelt)",
+  "lat": 31.281,
+  "lon": -4.283,
+  "kat1900": 3,
+  "adlar": [
+   "Sijilmāsa",
+   "Sidjilmessa",
+   "Sicilmâse",
+   "Tâfilelt"
+  ],
+  "ilk": {
+   "t": "0757-05-25",
+   "gun": "140 H / 757",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase; TDV İslâm Ansiklopedisi, MİDRÂRÎLER (İbrahim Harekât, 2020), https://islamansiklopedisi.org.tr/midrariler",
+   "tanik": "Sicilmâse’nin temellerini 140 (757) yılında Tâfîlâlt (Selemiye) bölgesine gelen",
+   "ic_not": "KURULUŞ (TDV: araştırmacılar Bekrî'nin 'İslâmî dönemde kuruldu' görüşünü tercih etmiştir). Hicrî 140 = 0757-05-25..0758-05-13 (tablo takvimi, Jülyen); 757 ile kesişimin ilk günü alındı. Gelenekler (kuruluş değil): Hasan el-Vezzân 'Büyük İskender ya da Romalı bir kumandan' der; Mûsâ b. Nusayr 83 (702) fethi rivayeti — TDV araştırmacıların bunu değil Bekrî'yi tercih ettiğini yazar. İkinci TDV maddesi (Midrârîler, Harekât) aynı 140/757'yi verir (aynı ansiklopedi: çift teyit SAYILMAZ). Bekrî'nin kendi metni (Mesâlik, 1068) Fransızca çevirisiyle bu oturumda AÇILAMADI (archive.org'da yalnız Arapça metin, OCR okunamıyor): doğrudan teyit yok."
+  },
+  "kur": {
+   "t": "0757-05-25",
+   "gun": "140 H / 757",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase; TDV İslâm Ansiklopedisi, MİDRÂRÎLER (İbrahim Harekât, 2020), https://islamansiklopedisi.org.tr/midrariler",
+   "tanik": "Sicilmâse’nin temellerini 140 (757) yılında Tâfîlâlt (Selemiye) bölgesine gelen"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0757-05-25",
+    "t": "0976-08-30",
+    "d": "midrari",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase; TDV İslâm Ansiklopedisi, MİDRÂRÎLER (İbrahim Harekât, 2020), https://islamansiklopedisi.org.tr/midrariler",
+    "tanik": "hâkimiyetlerini diğer devletlerin egemenliğinde kaldıkları dönemler dahil 366 (976) yılına kadar sürdürdüler",
+    "ic_not": "Midrârî emirliği. KÜNYE: 'midrari' künyesi 0772-01-01'de başlıyor (hayalet uyarısı, 15 yıl): TDV Midrârîler 155/772'de Ebü'l-Kāsım'ın idareyi tekrar üstlendiğini, öncesinde (757-772) mevâlîden Îsâ b. Mezyed el-Esved'in seçilmiş reis olduğunu yazar — aynı siyasî yapı sürer; künye başlangıcı 757'ye GENİŞLETİLMELİ (öneri). Dönem içi kesintiler dönem açmaz (Süresi bilinmeyen/kısa ele geçirme): Fâtımî ele geçirme 6 Zilhicce 296/26 Ağustos 909 (50 gün sonra Midrârîler geri aldı; sonra Fâtımî valisi Midrârî ailesinden atanır); 342/953 İbn Vâsûl halifelik ilânı; Cevher es-Sıkıllî işgali (tarihsiz). TDV: 'diğer devletlerin egemenliğinde kaldıkları dönemler dahil 976'ya kadar'.",
+    "boyasiz": true
+   },
+   {
+    "f": "0976-08-30",
+    "t": "1053-04-23",
+    "d": "magrave-sicilmase",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase; TDV İslâm Ansiklopedisi, MAĞRÂVE (İsmail Yiğit, 2019), https://islamansiklopedisi.org.tr/magrave",
+    "tanik": "Hazrûn b. Fülfûl, Fâtımî egemenliğini tanıyan Midrârî emîrini öldürüp bu hânedana son verdi",
+    "ic_not": "f: Hicrî 366 = 0976-08-30..0977-08-18; künyeyle (0976-08-30) aynı gün. t: TDV Sicilmâse 'Murâbıtlar 445'te (1053) Sicilmâse'yi ele geçirdiler'; hicrî 445 = 1053-04-23..1054-04-11, 1053 ile kesişimin ilk günü. KÜNYE: magrave-sicilmase künyesi 1053-01-01'de bitiyor (112 gün, hayalet uyarısı): künye bitişi 1053-04-23'e (veya TDV Mağrâve '445/1053-54') çekilmeli. Ibn Haldûn t. III: Hazrûn'un Sicilmâse'yi ele geçirişi 366 (976-7)."
+   },
+   {
+    "f": "1053-04-23",
+    "t": "1147-03-23",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase; TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar",
+    "tanik": "Murâbıtlar 445’te (1053) Sicilmâse’yi ele geçirdiler",
+    "ic_not": "KÜNYE: murabitlar künyesi 1056-01-01'de başlıyor; Sicilmâse 1053'te alındı (3 yıl hayalet uyarısı) — künye başlangıcı 1053'e çekilmeli (öneri). t = künye geçişi günü (Merakeş'in düşmesi, 18 Şevval 541 = 23 Mart 1147, TDV Murâbıtlar). Sicilmâse'ye ÖZGÜ Muvahhid ele geçirme günü kaynakta YOK: Ibn Haldûn t. II, Ebû Hafs Ömer'in Sicilmâse'yi Muvahhidlere kattığını İbn Hûd isyanı bastırıldıktan SONRA (544 H, çeviride 'mai 1147' – hicrî/mîlâdî tutarsız) sırasıyla anlatır, günü vermez ('Ayant converti à ses doctrines les habitants de Sidjilmessa et du Derâ' — isyancı İbn Hûd'un Sicilmâse halkını kazanması). Yani gerçek geçiş 1147-1150 arası bir tarih olabilir; f/t künye geçişidir (BEYANLI YAKLAŞIKLIK, abi merkez: Merakeş)."
+   },
+   {
+    "f": "1147-03-23",
+    "t": "1255-02-10",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+    "tanik": "Ensuite, il alla s'emparer de Sidjilmessa",
+    "ic_not": "Ibn Haldûn t. II: Ebû Hafs Ömer 'Ensuite, il alla s'emparer de Sidjilmessa' (Abdülmü'min dönemi, günsüz). t: TDV Merînîler 653 (1255): Ebû Yahyâ Sicilmâse'yi zaptetti (hicrî 653 = 1255-02-10..1256-01-29). Dönem içi olaylar: 640 (1242) Muvahhid valisi el-Hezercî Hafsî Ebû Zekeriyyâ'ya itaat bildirdi, Es-Saîd Merakeş'e dönünce şehir Muvahhid itaatine döndü (Ibn Haldûn t. II) — kısa kesinti, dönem açılmadı. Muvahhid valileri: Ebü'r-Rebî‘ b. Abdullah (Tilimsân ve Sicilmâse, ~1208-9)."
+   },
+   {
+    "f": "1255-02-10",
+    "t": "1263-11-04",
+    "d": "merini",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER (İsmail Ceran, 2004), https://islamansiklopedisi.org.tr/meriniler; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+    "tanik": "Ebû Yahyâ aynı yıl iktisadî, ticarî ve stratejik açılardan önemli Vâdîder‘a ve Sicilmâse’yi zaptetti",
+    "ic_not": "Ibn Haldûn t. III: 'Depuis trois ans, Sidjilmessa avait été incorporé dans les états d'Abou-Yahya' (655/1257'de) — TDV 653/1255 ile uyumlu. Ibn Haldûn t. IV: 654 (1256) Es-Murtazâ'nın veziri İbn Allûş geri almaya gelip Ebû Yahyâ'nın yaklaştığını duyunca döndü. t = 662 H başı (aşağıya bak)."
+   },
+   {
+    "f": "1263-11-04",
+    "t": "1274-01-01",
+    "d": "zeyyani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+    "tanik": "Sidjilmessa se trouvait enclavé dans le territoire des Monebbat, confédérés des Abd-el-Ouad",
+    "ic_not": "f: Ibn Haldûn t. III 'En 662 (1263-4), les Monebbat s'emparèrent de Sidjilmessa, en tuèrent le gouverneur ... et décidèrent les habitants à reconnaître la souveraineté de Yaghmoracen' (OCR 'En 662 (1263-4/», les Mo- nebbat'); hicrî 662 = 1263-11-04..1264-10-23. Ibn Haldûn aynı ciltte başka bölümde Yağmurâsen'in oğlu Osman'ın '66?' yılında Sicilmâse'yi alıp Yahya'yı vali yaptığını da yazar (rakam OCR'da okunmuyor). TDV: Sicilmâse 'bir ara Abdülvâdîler'in eline geçen' (tarihsiz). t = atlas başlangıcı (1274-01-01) — DİKİŞ: atlas Merînî'yi 1274-01-01'den başlatıyor; gerçek geri alma Safer 673 (Ibn Haldûn: 'août-sept. 1274'; hicrî 673 = 1274-07-07..1275-06-26, Safer = ~1274-08-06) → atlas ~7 ay erken (bkz. dikis_beyan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0757-05-25",
+    "gun": "140 H / 757",
+    "k": "kurulus",
+    "b": "Midrârî reisi Ebü'l-Kāsım b. Semkû Sicilmâse'nin temellerini atar (Bekrî'ye dayanan görüş).",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase",
+    "tanik": "Sicilmâse’nin temellerini 140 (757) yılında Tâfîlâlt (Selemiye) bölgesine gelen"
+   },
+   {
+    "t": "0909-08-26",
+    "gun": "6 Zilhicce 296 / 26 Ağustos 909",
+    "k": "fetih",
+    "b": "Ebû Abdullah eş-Şiî Sicilmâse'yi işgal edip Ubeydullah el-Mehdî'yi hapisten çıkarır; 50 gün sonra Midrârîler Fâtımî valisini öldürüp şehri geri alır (dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase",
+    "tanik": "Sicilmâse’yi işgal ederek Ubeydullah el-Mehdî’yi hapisten çıkarıp bütün yetkilerini ona devretti"
+   },
+   {
+    "t": "0976-08-30",
+    "gun": "366 H / 976",
+    "k": "fetih",
+    "b": "Mağrâve emiri Hazrûn b. Fülfûl Sicilmâse'yi alıp Midrârî hânedanına son verir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase",
+    "tanik": "Hazrûn b. Fülfûl, Fâtımî egemenliğini tanıyan Midrârî emîrini öldürüp bu hânedana son verdi"
+   },
+   {
+    "t": "1053-04-23",
+    "gun": "445 H / 1053",
+    "k": "fetih",
+    "b": "Murâbıtlar Sicilmâse'yi ele geçirir (askerî üs).",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase",
+    "tanik": "Murâbıtlar 445’te (1053) Sicilmâse’yi ele geçirdiler"
+   },
+   {
+    "t": "1147-03-23",
+    "gun": "18 Şevval 541 / 23 Mart 1147",
+    "k": "diger",
+    "b": "künye geçişi: Muvahhidler Fas, Miknâse, Selâ ve Merakeş'i alıp Murâbıt devletini sona erdirir; Sicilmâse'nin Muvahhid'e geçiş günü ayrıca kaynakta YOK (bkz. sahip[2].ic_not).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar",
+    "tanik": "Muvahhid kuvvetleri Fas, Miknâse, Selâ şehirlerini ve nihayet Merakeş’i ele geçirerek"
+   },
+   {
+    "t": "1242-01-01",
+    "gun": "640 H / 1242",
+    "k": "diger",
+    "b": "Muvahhid valisi Sicilmâse'de Hafsî Ebû Zekeriyyâ adına hutbe okutur; Es-Saîd dönünce şehir Muvahhid itaatine girer (dönem açılmadı).",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+    "tanik": "rentra ainsi dans l'obéissance, et demeura soumise au gouvernement almohade"
+   },
+   {
+    "t": "1255-02-10",
+    "gun": "653 H / 1255",
+    "k": "fetih",
+    "b": "Merînî emiri Ebû Yahyâ, Muvahhid komutanını rüşvetle ele geçirip Sicilmâse'yi ve Der‘â'yı alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER (İsmail Ceran, 2004), https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Ebû Yahyâ aynı yıl iktisadî, ticarî ve stratejik açılardan önemli Vâdîder‘a ve Sicilmâse’yi zaptetti"
+   },
+   {
+    "t": "1263-11-04",
+    "gun": "662 H / 1263-64",
+    "k": "fetih",
+    "b": "Arap Munebbat kabilesi Sicilmâse'yi alıp valiyi öldürür ve Abdülvâdî Yağmurâsen'in egemenliğini tanıtır.",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+    "tanik": "les Monebbat s'emparèrent de Sidjilmessa"
+   },
+   {
+    "t": "1274-08-06",
+    "gun": "Safer 673 / Ağustos-Eylül 1274",
+    "k": "fetih",
+    "b": "Merînî Ebû Yûsuf Ya‘kūb Sicilmâse'yi hücumla alır; şehir Merînî'de kalır. (ÇİFT TEYİT: TDV 673/1274-75 ↔ Ibn Haldûn Safer 673.)",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+    "tanik": "Depuis lors, Sidjilmessa est resté au pouvoir des Mérinides"
+   },
+   {
+    "t": "1274-08-06",
+    "gun": "673 H / 1274-75",
+    "k": "fetih",
+    "b": "TDV: Merînîler Abdülvâdîler'in eline geçen Sicilmâse'yi geri alır (673/1274-75).",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİCİLMÂSE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sicilmase",
+    "tanik": "673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi"
+   }
+  ],
+  "ic_not": "Sicilmâse (Tâfilelt) — atlas noktası 31.281,-4.283. ATLAS DÜZELTME ÖNERİSİ: atlas 1274-01-01'de Merînî başlatıyor, ama Merînî hâkimiyeti Safer 673 (≈1274-08-06; hicrî 673 = 1274-07-07 başlangıç) — hicrî yıl başlamadan 1274-01-01 olamaz; öneri 1274-08-06 ya da yıl hassasiyetiyle 1274-07-07. Ayrıca 1255-1274 arası Merînî/Abdülvâdî/Merînî inişli çıkışlı; atlasın Sicilmâse'yi 1274'ten önce 'kesin' Merînî saymaması doğru. Aranıp bulunamayan: Bekrî'nin Fransızca çevirisi (de Slane 1859) açılamadı; EI (Brill) 'Sidjilmāsa' erişilemedi; Encyclopédie berbère (OpenEdition) Anubis bot koruması nedeniyle AÇILMADI (aşılmadı). Tarih hassasiyeti: tüm hicrî-yıl uçları 'kesişimin ilk günü' (tablo takvimi ±1-2 gün). Boyasız künyeler: midrari.",
+  "dikis_beyan": "Atlas Sicilmâse'yi 1274-01-01'de 'merini' ile başlatıyor; zincirin son sahibi 'zeyyani' (Abdülvâdî; 1263-64'ten). Merînî geri alma Safer 673 = ~1274-08-06 (Ibn Haldûn) / 673 H (TDV) — atlas günü kaynaktan ~7 ay önce, yer tutucu olay yazılmadı."
+ },
+ {
   "id": "strasbourg-fr",
   "ad": "Strazburg",
   "atlas_ad": "Strazburg",
@@ -28053,6 +28442,577 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "KONUM/3 km KURALI: atlas noktası (37.87 N, 112.548 E) bugünkü Taiyuan kent merkezidir; antik/Tang-Beihan Jinyang (晉陽) buradan KESİN OLMAYAN bir uzaklıkta (~15-20 km): Lu You (老學庵筆記/卷九, Song) \"今太原…乃三交城也，城在舊城西北三百里\" der (yön/rakam metinde muhtemel bozuk; 山西通志/卷057 aynı cümleyi \"舊城東北三十里\" diye aktarır; 30 li ≈ 17 km). Bu >3 km ⇒ Jinyang BURADA yazılmadı. AYRI KAYIT ÖNERİSİ: \"Jinyang (晉陽)\" — ilk tanık adayları (bu oturumda sayfa açılmadı/yalnız arama özeti görüldü): Zuozhuan Ding 13 (趙鞅入于晉陽以叛; 春秋左傳注疏/卷56), Zhanguoce Zhao 1 (圍晉陽三年, 決晉水灌之: 戰國策/趙一; yer: Jinci/Jin suyu çevresi, modern noktanın ~GB'sı, kesin değil). Sahiplik: Jin devleti → Zhao → Qin → Han … Tang Taiyuan fu, Beihan 951-979; 979/980'de Song yıkımı: Song Shi 86 \"平劉繼元降為州，毀其城，移治於榆次縣\" (4. yıl 979), Song Shi 4 aynı yıl \"戊子，以榆次縣為新并州\" (979, 5. ay) ve 五年 başlığı altında \"壅汾河晉祠水灌太原，隳其故城\" (980, çelişki: tarih 979 mu 980 mi — beyan; Song Shi 86 979 der). 979-982 arası Bingzhou merkezi Yuci (榆次). MODERN NOKTA YEŞİL: Song 982'de Bingzhou merkezini 唐明鎮'e taşır; Lu You'ya göre bu yer \"bugünkü Taiyuan\" (Ming-Qing şehri bunun genişlemesi: 山西通志/卷227 \"今之太原府乃唐明鎮…明洪武中封晉藩始展…\"; Ming genişlemesi >3 km olabilir — atlas noktasının tam 唐明鎮 çekirdeğine ≤3 km olduğu BU OTURUMDA doğrulanmadı, kesin değil). İLK TANIK: 宋史/卷004 982. Önceki \"三交口\" (Song Shi 4, 太平興國四年八月癸亥 \"命潘美屯河東三交口\") bir geçit/ordugah adıdır; 唐明鎮 ile eşitlemesi kesin olmadığından başlangıç sayılmadı. Taiping Huanyu ji (40) \"皇朝太平興國四年平晉移州於三交塞陽曲縣界\" der (4. yıl 979 — Song Shi 4/86'daki 982 ile çelişir; Song Shi 86 ve Lu You \"3 yıl sonra\" der; 982 esas alındı, çelişki beyan). DİKİŞ: zincir Yuan → Yuan; 1281-01-01'de el değiştirme yok. MOĞOL-JIN GİDİŞ-GELİŞİ (1218-1222): bkz. dönem ic_not'ları; tek günlük kesin tanık: 1218-09-27 (Jin Shi 15), 1222 yalnız ay. AÇIK SORU: Taiyuan'ın 1126'dan sonra Zhang Bangchang'ın Chu/Liu Yu'nun Qi gibi kukla devletlere ait olup olmadığı: tanık bulunamadı. TDV/akademik makale (DergiPark) bu oturumda kullanılmadı; çift teyit: 1126-09-21 (Song Shi 23 + Jin Shi 3, bağımsız iki ulusal tarih; ama ikisi de Yuan komisyonu eserleri — \"bağımsız akademik\" değil)."
+ },
+ {
+  "id": "tanca-ma",
+  "ad": "Tanca",
+  "atlas_ad": "Tanca",
+  "lat": 35.777,
+  "lon": -5.804,
+  "kat1900": 3,
+  "adlar": [
+   "Tinga (Fenike)",
+   "Tingi / Tingis (Roma)",
+   "Tanja",
+   "Tanca (Tangier)"
+  ],
+  "ilk": {
+   "t": "-0813-01-01",
+   "gun": "MÖ 814",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+   "tanik": "Fenikeliler tarafından milâttan önce 814 yılında kurulduğu ve Fenikeliler’in ticaret merkezlerinden olduğu bilinmektedir",
+   "ic_not": "KURULUŞ (TDV esas): Fenikeliler tarafından MÖ 814. ÇELİŞKİ/UYARI: (1) Pleiades (Barrington Atlas Directory) 'Tingi (modern Tangier) began as a Carthaginian colony of the early fifth century BCE' der — TDV'nin MÖ 814'ü Kartaca'nın geleneksel kuruluş tarihiyle (Timaios: 814/813, Livius.org) aynıdır, Tanca'ya özgü kanıtlı bir tarih gibi görünmüyor; TDV esas olduğundan 814 yazıldı, Pleiades erken-5. yy iki kaynak çelişkisi olarak BEYAN edildi. (2) Pleiades'e göre 'Tingi' adı MÖ 330'dan itibaren (Hellenistik) anılır. Antik Tingis: Pleiades koordinatı (35.7879,-5.8100) atlas noktasına (35.777,-5.804) ≈1,3 km — aynı yerleşim (≤3 km)."
+  },
+  "kur": {
+   "t": "-0813-01-01",
+   "gun": "MÖ 814",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+   "tanik": "Fenikeliler tarafından milâttan önce 814 yılında kurulduğu ve Fenikeliler’in ticaret merkezlerinden olduğu bilinmektedir"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0813-01-01",
+    "t": "-0145-01-01",
+    "d": "kartaca",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Daha sonra Kartaca ve Roma hâkimiyetinde kaldı",
+    "ic_not": "TDV: Fenikeli kuruluş, 'daha sonra Kartaca ve Roma hâkimiyetinde kaldı'. 'kartaca' künyesi (-0813..-0145) Pön dünyasını (Fenike/Kartaca) birlikte taşır; Fenike→Kartaca geçişi kaynakta tarihli değil, dönem açılmadı. Pleiades: erken MÖ 5. yy Kartaca kolonisi. t = künye bitişi (Kartaca'nın düşmesi, MÖ 146).",
+    "boyasiz": true
+   },
+   {
+    "f": "-0145-01-01",
+    "t": "0000-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca; Pleiades (Barrington Atlas Directory), 'Tingi' (place 275736), https://pleiades.stoa.org/places/275736",
+    "tanik": "Tingi came under the Roman sphere in the first century BCE",
+    "ic_not": "BOŞLUK (şehir var, sahibi bilinmiyor): Kartaca'nın düşüşü (MÖ 146) ile Roma nüfuz alanına girişi (Pleiades: MÖ 1. yüzyıl, önce 'free city') arasında Tingis'in kimin elinde olduğu açılan kaynaklarda YOK (Mauretania Krallığı künyesi -0109..0044 mevcut ama TDV/Pleiades Tingis'i ona bağlamıyor, çıkarım yazılmadı). f: künye bitişi; t: 'MÖ 1. yüzyıl' için güvenli uç (yüzyıl sonu = MÖ 1)."
+   },
+   {
+    "f": "0000-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca; Pleiades (Barrington Atlas Directory), 'Tingi' (place 275736), https://pleiades.stoa.org/places/275736; Cassius Dio, Roman History 60.9 (Loeb, LacusCurtius/Thayer), https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/60*.html",
+    "tanik": "Claudius divided the subject Moors into two districts",
+    "ic_not": "f: Pleiades 'Roman sphere in the first century BCE' (güvenli uç = yüzyıl sonu); başlangıçta 'free city' yani Roma nüfuzu/egemenlik farkı kaynakta açık değil — beyan. Dio 60.9.5: Claudius Moors'u iki bölgeye ayırdı (biri Tingis çevresi); Pleiades: Claudius altında colonia ve Mauretania Tingitana başkenti. Dio'da yıl YAZILI DEĞİL (Claudius 41-54) — tarih uydurulmadı. t: Theodosius I'in ölümü (17 Ocak 395) — Batı/Doğu ayrımı; Tingitana'nın ardından kimin elinde olduğu aşağıda BOŞLUK.",
+    "boyasiz": true
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0708-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "V. yüzyılda İspanya’dan sürülen Vandallar’ın, VI. yüzyılda Bizanslılar’ın eline geçti",
+    "ic_not": "BOŞLUK: TDV sırası: V. yy Vandallar, VI. yy Bizanslılar, İslâm öncesi 'Bizans Valisi Julianos' (Sebte'de oturan) — yüzyıl düzeyinde, gün/yıl YOK; vandal (0429-05-01..0534) ve bizans (0330..1461) künyeleri var ama Tanca'nın hangi yılda hangisine geçtiği kaynakta tarihli olmadığından dönem AÇILMADI (uydurma sınır yok). Ukbe b. Nâfi‘ 62/681-82'de barış yoluyla fethetti ama Berberî isyanlarıyla el değiştirdi (kalıcı değil)."
+   },
+   {
+    "f": "0708-01-01",
+    "t": "0740-01-01",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "İfrîkıye ve Mağrib Valisi Mûsâ b. Nusayr, Tanca’yı 89 (708) yılında tekrar ele geçirdi",
+    "ic_not": "f: hicrî 89 = 0707-12-01..0708-11-19, 708 ile kesişimin ilk günü 0708-01-01. t: TDV 'Tanca haraç âmili Ömer b. Abdullah el-Murâdî öldürüldü (122/740)' — hicrî 122 = 0739-12-07..0740-11-25, 740 ile kesişim 0740-01-01. Mûsâ valiliğe Târık b. Ziyâd'ı getirdi; Tanca Endülüs fethi birliklerinin toplanma noktası oldu (TDV).",
+    "boyasiz": true
+   },
+   {
+    "f": "0740-01-01",
+    "t": "0801-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Tanca’ya giren Hâricî lideri Meysere el-Medgarî burada halifeliğini ilân etti",
+    "ic_not": "BOŞLUK: Hâricî isyanı sonrası (Meysere, Hâlid b. Humeyd ez-Zenâtî) Tanca'nın 740'tan İdrîsîlere kadar kimin elinde olduğu açılan kaynaklarda dönem dönem verilmiyor. t: 'IX. yüzyılın başlarında' için yüzyıl başı (801) alındı (TDV 'başlarında' demek aralık verir; güvenli uç yüzyıl başı DEĞİL — gerçek geçiş 801-825 arası olabilir)."
+   },
+   {
+    "f": "0801-01-01",
+    "t": "0948-07-11",
+    "d": "idrisi",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca; TDV İslâm Ansiklopedisi, İDRÎSÎLER (Muhammed Rezûk, 2000), https://islamansiklopedisi.org.tr/idrisiler",
+    "tanik": "Tanca IX. yüzyılın başlarında İdrîsîler’in eline geçti",
+    "ic_not": "KÜNYE: idrisi 0789-01-01..0985-01-01. İdrîsî aile içi bölüşüm: Ibn Haldûn t. II ve Roudh el-Kartas: Muhammed b. İdrîs (Kenza'nın öğüdüyle) Tanca, Sebte, Tıtvân'ı kardeşi el-Kāsım'a verdi (213 H = 0828-03-22..0829-03-10 sonrası). Kısa kesinti: 314 H (926-03-19) Endülüs Emevî III. Abdurrahman Tanca ve Melîle'yi aldı, İdrîsîler Fâtımî yardımıyla geri aldı (tarihsiz, dönem açılmadı). t: hicrî 337 = 0948-07-11 başlangıcı, TDV: Kāsım Kennûn'un ölümü (337/948) sonrası Endülüs kuvvetleri Tanca'yı zaptetti.",
+    "boyasiz": true
+   },
+   {
+    "f": "0948-07-11",
+    "t": "1031-01-01",
+    "d": "endulus-emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+    "tanik": "Endülüs Emevî kuvvetleri Tanca’yı zaptetti",
+    "ic_not": "t = künye geçişi (Endülüs Emevî devleti 1031'de yıkıldı; TDV Cehverîler). Ibn Haldûn t. II (Hammûdîler bölümü): Ali b. Hammûd Tanca valisi iken bağımsızlık ilân etti (~1016), sonra Slav mevlâlar, sonra Soggout el-Berghouati 'Tanca ve Sebte tahtına oturdu' — dolayısıyla fiilî Endülüs Emevî egemenliği 1031'den ÖNCE sona ermiş olabilir (gün yok). Hammûdîler TDV: 1016-1058. Künye geçişi kullanıldı; gerçek sahiplik aşağıdaki boşlukta.",
+    "boyasiz": true
+   },
+   {
+    "f": "1031-01-01",
+    "t": "1077-07-25",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, CEHVERÎLER (Mehmet Özdemir, 1993), https://islamansiklopedisi.org.tr/cehveriler; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+    "tanik": "Les Almoravides s'emparèrent de Tanger",
+    "ic_not": "BOŞLUK (künyesiz yerel yapı): Ibn Haldûn t. II 'Hammoudites de Ceuta et Tanger': Hammûdî ailesi ve müşterisi Soggout el-Berghouati (86 yaşında Murâbıtlara karşı savaşıp öldü) 'Murâbıt imparatorluğunun kuruluşuna kadar' Tanca ve Sebte'de hüküm sürdü. Künye yok: 'hammudi-sebte' önerilir (kunye_yok açılmadı çünkü dönem sınırları Tanca'ya özgü tarihli değil). t: TDV Tanca 470 (1077-78) Murâbıt fethi; Roudh el-Kartas yılı 467 (1074-75) verir (TDV esas)."
+   },
+   {
+    "f": "1077-07-25",
+    "t": "1147-06-02",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "470’te (1077-78) Tanca’yı ele geçiren Murâbıt Hükümdarı Yûsuf b. Tâşfîn",
+    "ic_not": "f: hicrî 470 = 1077-07-25..1078-07-13, 1077 ile kesişimin ilk günü. ÇELİŞKİ: Roudh el-Kartas özet tablosu '467 (1074)…Tanca hükümetini aldı'; Ibn Haldûn t. II günü vermez. TDV esas. Künye (1056-01-01..1147-03-23) bitişinden 71 gün sonra bitiyor (hayalet uyarısı): TDV Tanca 542/1147 Muvahhid geçişini Murâbıt künyesinden sonra verir."
+   },
+   {
+    "f": "1147-06-02",
+    "t": "1249-04-16",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Murâbıtlar’ın yıkılışından sonra Muvahhidler’in eline geçen Tanca (542/1147)",
+    "ic_not": "f: hicrî 542 = 1147-06-02..1148-05-21 (TDV 542/1147). t: 647 H (1249-04-16) — Ibn Haldûn t. II: Ceuta'da Ebü'l-Kāsım el-Azefî ve Rendâhî ayaklanması 647 (1249-50) ve 'Tanger suivit l'exemple de Ceuta'; TDV: 'Muvahhidler’in yıkılışı esnasında Ebü’l-Haccâc Yûsuf b. Muhammed el-Hemdânî’nin eline geçti'."
+   },
+   {
+    "f": "1249-04-16",
+    "t": "1271-08-09",
+    "d": "hemdani-tanca",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. IV, Alger 1856, https://archive.org/details/bub_gb_LwEoAAAAYAAJ",
+    "tanik": "Tanger suivit l'exemple de Ceuta et reconnut pour chef un officier",
+    "ic_not": "ÇİFT TEYİT: TDV (Ebü'l-Haccâc Yûsuf b. Muhammed el-Hemdânî) ↔ Ibn Haldûn t. II (Yûsuf, babası Muhammed b. Abdullah b. Ahmed el-Hemdânî; 'İbn el-Emîr'/'İbn el-Emîn' lakabı, Hafsî adına hutbe). Künye YOK → 'hemdani-tanca' önerilir (ömür 1249-04-16..1271-08-09; Ebû Yûsuf'a kadar Hemdânî hanedanı). Ibn Haldûn t. IV: İbn el-Emîn 665'te (1266-7) Merînî Munebbat/Beni 'Umar akıncıları tarafından öldürüldü; halk oğlunu seçti. t: 'beş yıl sonra' (665+5 = 670 H = 1271-08-09..1272-07-28) halk şehri Ceuta'nın Azefî'sine teslim etti — yıl hassasiyeti, 670 H başı alındı.",
+    "kunye_yok": true
+   },
+   {
+    "f": "1271-08-09",
+    "t": "1273-01-01",
+    "d": "azafi-sebte",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. IV, Alger 1856, https://archive.org/details/bub_gb_LwEoAAAAYAAJ",
+    "tanik": "ils laissèrent tomber leur ville au pouvoir d'El-Azéfi",
+    "ic_not": "Künye YOK → 'azafi-sebte' önerilir (Sebte Azefî emirliği, Ebü'l-Kāsım el-Azefî ve oğulları; ömür ~1249-50..1306). Ibn Haldûn t. IV: halk şehri 'cinq ans plus tard' El-Azefî'nin donanma ve kara ordusuna bıraktı; Azefî Tanca'ya bir vali koydu. 666 (1267-8) Merînî emiri Ebû Mâlik altı gün kuşattı, alamadı. t = ATLAS BAŞLANGICI 1273-01-01 (DİKİŞ): Ibn Haldûn t. IV Merînî kuşatması 'au commencement de l'an 672 (juillet-août 1273)' (hicrî 672 = 1273-07-18 başlangıç), TDV 672/1273-74 — atlas ~6,5 ay erken.",
+    "kunye_yok": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0813-01-01",
+    "gun": "MÖ 814",
+    "k": "kurulus",
+    "b": "Tanca Fenikeliler tarafından kurulur (TDV; Kartaca'nın geleneksel tarihiyle çakışır — bkz. ilk.ic_not).",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Fenikeliler tarafından milâttan önce 814 yılında kurulduğu ve Fenikeliler’in ticaret merkezlerinden olduğu bilinmektedir"
+   },
+   {
+    "t": "-0145-01-01",
+    "gun": "MÖ 146",
+    "k": "diger",
+    "b": "künye geçişi: Romalılar Kartaca'yı yıkar (Üçüncü Pön Savaşı); Tingis'in bu tarihte el değiştirdiği kaynakta YOK.",
+    "kaynak": "Livius.org (J. Lendering), 'Carthage', https://www.livius.org/articles/place/carthage/",
+    "tanik": "The Romans sacked Carthage in 146 BCE after a Third Punic War"
+   },
+   {
+    "t": "0000-01-01",
+    "gun": "MÖ 1. yüzyıl sonu (MÖ 1)",
+    "k": "diger",
+    "b": "Tingi Roma nüfuz alanına girer (önce 'free city'); güvenli uç alındı.",
+    "kaynak": "Pleiades (Barrington Atlas Directory), 'Tingi' (place 275736), https://pleiades.stoa.org/places/275736",
+    "tanik": "Tingi came under the Roman sphere in the first century BCE"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Theodosius I ölür, imparatorluk Arcadius (Doğu) ve Honorius (Batı) arasında bölünür.",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0681-09-20",
+    "gun": "62 H / 681-82",
+    "k": "fetih",
+    "b": "Ukbe b. Nâfi‘ Tanca'yı barış yoluyla fetheder (kalıcı değil; Berberî isyanlarıyla el değiştirdi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Emevîler devrinde İfrîkıye Valisi Ukbe b. Nâfi‘ barış yoluyla fethetti (62/681-82)"
+   },
+   {
+    "t": "0708-01-01",
+    "gun": "89 H / 708",
+    "k": "fetih",
+    "b": "Mûsâ b. Nusayr Tanca'yı tekrar ele geçirir; vali Târık b. Ziyâd.",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "İfrîkıye ve Mağrib Valisi Mûsâ b. Nusayr, Tanca’yı 89 (708) yılında tekrar ele geçirdi"
+   },
+   {
+    "t": "0740-01-01",
+    "gun": "122 H / 740",
+    "k": "isyan",
+    "b": "Hâricî-Berberî isyanında Tanca haraç âmili öldürülür; Meysere el-Medgarî halifeliğini ilân eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Tanca haraç âmili Ömer b. Abdullah el-Murâdî öldürüldü (122/740)"
+   },
+   {
+    "t": "0801-01-01",
+    "gun": "MS 9. yüzyıl başı",
+    "k": "fetih",
+    "b": "Tanca İdrîsîlerin eline geçer ('IX. yüzyılın başlarında').",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Tanca IX. yüzyılın başlarında İdrîsîler’in eline geçti"
+   },
+   {
+    "t": "0926-03-19",
+    "gun": "314 H / 926",
+    "k": "fetih",
+    "b": "Endülüs Emevî III. Abdurrahman Tanca ve Melîle'yi topraklarına katar (kısa; İdrîsîler Fâtımî yardımıyla geri alır, dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Endülüs Emevî Hükümdarı III. Abdurrahman 314’te (926) Tanca ve Melîle’yi (Melilla) kendi topraklarına kattı"
+   },
+   {
+    "t": "0948-07-11",
+    "gun": "337 H / 948",
+    "k": "fetih",
+    "b": "Kāsım Kennûn'un ölümünden sonra Endülüs Emevî kuvvetleri Tanca'yı zapteder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Endülüs Emevî kuvvetleri Tanca’yı zaptetti"
+   },
+   {
+    "t": "1031-01-01",
+    "gun": "1031",
+    "k": "diger",
+    "b": "künye geçişi: Endülüs Emevî Devleti yıkılır (TDV Cehverîler); Tanca'nın gerçek sahipliği için sahip[8].ic_not.",
+    "kaynak": "TDV İslâm Ansiklopedisi, CEHVERÎLER (Mehmet Özdemir, 1993), https://islamansiklopedisi.org.tr/cehveriler",
+    "tanik": "Endülüs Emevî Devleti’nin yıkılması üzerine 1031-1070 yılları arasında"
+   },
+   {
+    "t": "1077-07-25",
+    "gun": "470 H / 1077-78",
+    "k": "fetih",
+    "b": "Murâbıt hükümdarı Yûsuf b. Tâşfîn Tanca'yı ele geçirir (limanı Zellâka seferi için kullanır).",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "470’te (1077-78) Tanca’yı ele geçiren Murâbıt Hükümdarı Yûsuf b. Tâşfîn"
+   },
+   {
+    "t": "1147-06-02",
+    "gun": "542 H / 1147",
+    "k": "fetih",
+    "b": "Tanca Muvahhidlerin eline geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Murâbıtlar’ın yıkılışından sonra Muvahhidler’in eline geçen Tanca (542/1147)"
+   },
+   {
+    "t": "1249-04-16",
+    "gun": "647 H / 1249-50",
+    "k": "isyan",
+    "b": "Ceuta ardından Tanca Muvahhid egemenliğinden çıkar; Hemdânî yönetimi Hafsî adına hutbe okutur.",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+    "tanik": "Tanger suivit l'exemple de Ceuta et reconnut pour chef un officier"
+   },
+   {
+    "t": "1271-08-09",
+    "gun": "670 H / 1271-72 (yaklaşık)",
+    "k": "diger",
+    "b": "Tanca halkı şehri Ceuta'nın Azefî emirine bırakır.",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. IV, Alger 1856, https://archive.org/details/bub_gb_LwEoAAAAYAAJ",
+    "tanik": "ils laissèrent tomber leur ville au pouvoir d'El-Azéfi"
+   },
+   {
+    "t": "1273-07-18",
+    "gun": "672 H / 1273-74",
+    "k": "fetih",
+    "b": "Merînî sultanı Ebû Yûsuf Ya‘kūb Tanca'yı zapteder (TDV 'üç aylık kuşatma'; Ibn Haldûn 'birkaç gün' – çelişki).",
+    "kaynak": "TDV İslâm Ansiklopedisi, TANCA (Nadir Özkuyumcu, 2010), https://islamansiklopedisi.org.tr/tanca",
+    "tanik": "Merînî Sultanı Ebû Yûsuf Ya‘kūb el-Mansûr üç aylık bir kuşatmanın ardından şehri zaptetti (672/1273-74)"
+   }
+  ],
+  "ic_not": "Tanca (Tingis) — atlas noktası 35.777,-5.804; Pleiades Tingi 35.7879,-5.8100 ≈1,3 km. ATLAS DÜZELTME ÖNERİSİ: atlas 1273-01-01'de Merînî başlatıyor; Merînî fethi 672 H başlangıcından (1273-07-18) ÖNCE olamaz (Ibn Haldûn: Temmuz-Ağustos 1273 başı; TDV 672/1273-74) → öneri 1273-07-18 (yıl hassasiyeti). Atlasın 1273 öncesi sahibi Azefî (Ceuta). ÇİFT TEYİT: Hemdânî dönemi (TDV ↔ Ibn Haldûn t. II), Merînî fethi yılı (TDV 672 ↔ Ibn Haldûn t. IV 672). ÇELİŞKİLER: (a) kuruluş TDV MÖ 814 ↔ Pleiades erken MÖ 5. yy Kartaca kolonisi; (b) Murâbıt fethi TDV 470 (1077-78) ↔ Roudh el-Kartas 467 (1074); (c) Merînî kuşatması TDV 'üç ay' ↔ Ibn Haldûn 'birkaç gün'. Roudh el-Kartas özet tablosunda 'En 679, prise de Tanger' görünür; sıralama (670, [672], [673 Sidjilmessa], 674…) ve Ibn Haldûn'a göre OCR/aktarım hatası '672' olmalı — kullanılmadı. KÜNYE ÖNERİLERİ: hemdani-tanca (1249-04-16..1271-08-09), azafi-sebte (~1249..1306), hammudi-sebte (1016-1058 TDV Hammûdîler; Soggout el-Berghouati dahil Tanca). Boyasız künyeler: kartaca, roma-imp, emevi, idrisi, endulus-emevi. MÖ 146-MÖ 1, 395-708, 740-801, 1031-1077 aralıkları BOŞLUK (sahip tarihli kaynakta yok): TDV Vandal (V. yy), Bizans (VI. yy), Julianos tanığı yüzyıl düzeyinde; Ibn Haldûn Hammûdî/Soggout dönemi günsüz. Antik Tingis ile modern nokta aynı yer (≤3 km), ayrı kayıt gerekmez.",
+  "dikis_beyan": "Atlas Tanca'yı 1273-01-01'de 'merini' ile başlatıyor; zincirin son sahibi 'azafi-sebte' (Ceuta Azefîleri, ~1271-72'den). Merînî fethi 672 H = 1273-07-18'den sonra (TDV 672/1273-74; Ibn Haldûn 'juillet-août 1273') — atlas günü kaynaktan ~6,5 ay önce; yer tutucu olay yazılmadı."
+ },
+ {
+  "id": "tarudant-ma",
+  "ad": "Tarûdant",
+  "atlas_ad": "Tarûdant",
+  "lat": 30.471,
+  "lon": -8.877,
+  "kat1900": 3,
+  "adlar": [
+   "Taroudant",
+   "Târûdânt",
+   "Tarudant"
+  ],
+  "ilk": {
+   "t": "1056-03-21",
+   "gun": "448 H / 1056",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+   "tanik": "Sûs bölgesinin merkezi Târûdânt ve Massa’yı (Massat) alarak (448/1056)",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): 448 H (1056) Murâbıt hükümdarı Ebû Bekir b. Ömer 'Sûs bölgesinin merkezi Târûdânt'ı alır. ÇİFT TEYİT: TDV Sûs (Ceran 2009) ↔ Ibn Haldûn t. II ('en l'an 448, il envahit le pays de Sous et occupa Massa, Taroudant et toutes les autres forteresses de cette province'); TDV Cezûle (Yiğit 2020) de aynı 448/1056'yı verir. TDV Murâbıtlar: Târûdânt bu sırada 'Fâtımîler’in elindeki Sûs bölgesinin merkezi' — daha eski varlığın ve Fâtımî tabiliğin günü YOK (Sûs'un IV. (X.) yüzyıl ortasında Fâtımî eline geçtiği; yüzyıl düzeyi). Hicrî 448 = 1056-03-21..1057-03-09 (tablo takvimi). Kuruluş tarihi bulunamadı. İdrîsî (548 H/1154) Târûdânt'ı 'Sûs'un başkenti' olarak anar (ikinci tanık)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1056-03-21",
+    "t": "1123-01-01",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus; TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+    "tanik": "Sûs bölgesinin merkezi Târûdânt ve Massa’yı (Massat) alarak (448/1056)",
+    "ic_not": "t: TDV Sûs: İbn Tûmert 515'te (1121) Sûsülaksâ'da isyan etti, üç yıllık mücadele sonunda Sûs bölgesini eline geçirip Tinmellel'i merkez edindi (1123). Târûdânt'a özgü Muvahhid geçiş günü kaynakta YOK; Sûs'un merkezi olarak bölgenin akıbetine bağlandı (BEYANLI YAKLAŞIKLIK, zincir 'Sûs bölgesi'nden devralındı)."
+   },
+   {
+    "f": "1123-01-01",
+    "t": "1253-03-03",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. IV, Alger 1856, https://archive.org/details/bub_gb_LwEoAAAAYAAJ",
+    "tanik": "Sûs bölgesini eline geçirip Tinmellel’i merkez edindi (1123)",
+    "ic_not": "KÜNYE: muvahhidler künyesi 1130-01-01'de başlıyor (Sûs'ta Tinmellel 1123: hayalet uyarısı) — künye başlangıcı 1123'e çekilmeli (öneri). TDV Sûs: 'devletin en büyük eyaletlerinden olan Sûs’ta da istikrar kayboldu' (Muvahhidlerin son dönemi, günsüz). Ibn Haldûn t. IV: Yedder ailesi Sûs'u Abdülmü'min'in kurduğu hânedan adına yönetirdi. t: 'f en geç tanıktan' — TDV Cezûle: Cezûle 651'de (1253) Muvahhidlere isyan ederek Târûdânt'ta hüküm süren Ali b. Yedder'in egemenliğini kabul etti (651 H = 1253-03-03..1254-02-20): Yedder bu tarihte Târûdânt'ta zaten hükümdar. Önceki sahip (Muvahhid) 1123'ten 1253'e uzar (>1 kuşak) — Târûdânt'a özgü ara tanık yok; Yedder'in Muvahhid adına valiliği (Ibn Haldûn) 1253 öncesi de olabilir."
+   },
+   {
+    "f": "1253-03-03",
+    "t": "1281-01-01",
+    "d": "ibn-yedder",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, CEZÛLE (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/cezule; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. IV, Alger 1856, https://archive.org/details/bub_gb_LwEoAAAAYAAJ",
+    "tanik": "Sûs bölgesinde Târûdânt’ta hüküm süren Ali b. Yedder’in egemenliğini kabul ettiğini",
+    "ic_not": "Künye YOK → 'ibn-yedder' önerilir (Benî Yedder / Ma‘kıl Arapları kolu, Târûdânt merkezli Sûs emirlikleri, ~1253-1303/1331). TDV Cezûle: 'Cezûle, Muvahhidler’in son dönemlerinden itibaren yaklaşık bir asır Benî Yedder hânedanının hâkimiyeti altına girdi' ve Yedder hânedanının Merînî Ebü'l-Hasan Ali döneminde (1331-1351) yıkılışından itibaren Merînîler'e tâbi olduğunu İbn Haldûn'a atfeder. Ibn Haldûn t. IV: Ali b. Yedder 668'de (1269-70) çatışmada öldü, yeğeni Abdurrahman yerine geçti; Merînî Yaïch b. Yakub Sûs'u fetheder, Târûdânt'ı yıkar (703 H = 1303-4 sonrası), Abdurrahman 706'da (1306-7) yeniden kurar. ÇELİŞKİ (beyan): TDV Sûs 'Merînî Hükümdarı Ebû Yûsuf Ya‘kūb’un isyanları bastırıp bölgede kontrolü sağlamasına kadar sürdü (656/1258)' der — TDV'nin kendi içinde (Sûs 656/1258 ↔ Cezûle 1253-1331/51) tutarsızlığı olduğundan akademik kaynak Ibn Haldûn (Merînî doğrudan egemenliği ~1303-4) esas alındı. t = ATLAS BAŞLANGICI 1281-01-01 (DİKİŞ): atlas 'merini'; bkz. dikis_beyan.",
+    "kunye_yok": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "1056-03-21",
+    "gun": "448 H / 1056",
+    "k": "fetih",
+    "b": "Murâbıtlar Sûs'un merkezi Târûdânt'ı ve Massa'yı alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus",
+    "tanik": "Sûs bölgesinin merkezi Târûdânt ve Massa’yı (Massat) alarak (448/1056)"
+   },
+   {
+    "t": "1056-03-21",
+    "gun": "448 H / 1056",
+    "k": "fetih",
+    "b": "Ibn Haldûn: Ebû Bekir Sûs'a girip Massa ve Târûdânt'ı alır (ÇİFT TEYİT).",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ",
+    "tanik": "Taroudant et toutes les autres forteresses de cette province"
+   },
+   {
+    "t": "1123-01-01",
+    "gun": "1123",
+    "k": "fetih",
+    "b": "İbn Tûmert Murâbıtlara karşı üç yıllık mücadele sonunda Sûs bölgesini alır, Tinmellel merkez olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus",
+    "tanik": "Sûs bölgesini eline geçirip Tinmellel’i merkez edindi (1123)"
+   },
+   {
+    "t": "1154-01-15",
+    "gun": "Şevval 548 H sonu / ~Ocak 1154",
+    "k": "diger",
+    "b": "İdrîsî Târûdânt'ı 'Sûs'un başkenti' sayar (ikinci tanık; Nuzhat 548 H Şevval sonunda tamamlandı).",
+    "kaynak": "el-İdrîsî, Nuzhat al-mushtâq (548 H/1154), Description de l'Afrique et de l'Espagne, éd. ve trad. R. Dozy & M. J. de Goeje, Leyde 1866, https://archive.org/details/bub_gb_XQqWkwi7hWAC",
+    "tanik": "De la capitale du Sous (c’est-à-dire de Taroudant)"
+   },
+   {
+    "t": "1253-03-03",
+    "gun": "651 H / 1253",
+    "k": "isyan",
+    "b": "Cezûle Muvahhidlere isyan edip Târûdânt'ta hüküm süren Ali b. Yedder'in egemenliğini kabul eder (Yedder hâkimiyetinin 'en geç' tanığı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, CEZÛLE (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/cezule",
+    "tanik": "Sûs bölgesinde Târûdânt’ta hüküm süren Ali b. Yedder’in egemenliğini kabul ettiğini"
+   },
+   {
+    "t": "1253-03-03",
+    "gun": "651 H / 1253",
+    "k": "diger",
+    "b": "TDV Cezûle: Cezûle Muvahhidlerin son dönemlerinden itibaren yaklaşık bir asır Benî Yedder hâkimiyeti altında kalır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, CEZÛLE (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/cezule",
+    "tanik": "Cezûle, Muvahhidler’in son dönemlerinden itibaren yaklaşık bir asır Benî Yedder hânedanının hâkimiyeti altına girdi"
+   },
+   {
+    "t": "1258-01-08",
+    "gun": "656 H / 1258",
+    "k": "diger",
+    "b": "TDV Sûs: Merînî Ebû Yûsuf Ya‘kūb Sûs'ta isyanları bastırıp kontrolü sağlar (Ibn Haldûn ile ÇELİŞKİ, sahip[2].ic_not).",
+    "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus",
+    "tanik": "Merînî Hükümdarı Ebû Yûsuf Ya‘kūb’un isyanları bastırıp bölgede kontrolü sağlamasına kadar sürdü (656/1258)"
+   },
+   {
+    "t": "1303-08-15",
+    "gun": "703 H / 1303-4",
+    "k": "diger",
+    "b": "(Atlas ufku sonrası, bilgi) Merînî Yaïch Sûs'u fetheder, Târûdânt'ı yıkar; 706 H (1306-7) Yedder yeniden kurar.",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. IV, Alger 1856, https://archive.org/details/bub_gb_LwEoAAAAYAAJ",
+    "tanik": "il détruisit la ville de Taroudant"
+   }
+  ],
+  "ic_not": "Tarûdant — atlas noktası 30.471,-8.877. Kuruluş tarihi bulunamadı (yalnız ilk anılış). ATLAS DÜZELTME ÖNERİSİ (kaynaklar çelişkili, TDV kendi içinde): atlas 1281-01-01'de 'merini' başlatıyor; Ibn Haldûn t. IV ve TDV Cezûle'ye göre 1253'ten Târûdânt'ta yerel Benî Yedder emirleri hüküm sürüyor (Merînî doğrudan egemenliği ~1303-4, TDV Cezûle'de 1331-51 sonrası 'tâbi'); TDV Sûs ise Merînî kontrolünü 656/1258 verir. Atlasın 1281 'merini' iddiası TDV Sûs ile uyumlu, Ibn Haldûn/Cezûle ile uyumsuz — Emre kararı (ibn-yedder künyesi açılırsa 1253-~1303). ÇİFT TEYİT: ilk anılış (TDV Sûs ↔ Ibn Haldûn ↔ TDV Cezûle 448/1056). Muvahhid dönemi için Târûdânt'a özgü tarihli tanık yok (bölge-düzeyi 1123). Encyclopaedia of Islam / Encyclopédie berbère maddeleri açılamadı.",
+  "dikis_beyan": "Atlas Tarûdant'ı 1281-01-01'de 'merini' ile başlatıyor; zincirin son sahibi 'ibn-yedder' (Benî Yedder, 1253-). TDV Sûs Merînî kontrolünü 656/1258 verir (atlasla uyumlu) ama TDV Cezûle ve Ibn Haldûn t. IV Yedder'i 1281'de hâkim gösterir; atlasın 1281 'merini' iddiasının kaynak desteği zayıf/çelişkili — yer tutucu olay yazılmadı."
+ },
+ {
+  "id": "taza-ma",
+  "ad": "Tâze (Taza)",
+  "atlas_ad": "Tâze (Taza)",
+  "lat": 34.21,
+  "lon": -4.01,
+  "kat1900": 3,
+  "adlar": [
+   "Tâzâ (Miknâse)",
+   "Rabat-Taza / Tafersift (Muvahhid)",
+   "Tèza",
+   "Taza"
+  ],
+  "ilk": {
+   "t": "0917-06-24",
+   "gun": "305 H / 917-18",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ b. EBÜ’l-ÂFİYE (İbrahim Harekât, 2020), https://islamansiklopedisi.org.tr/musa-b-ebul-afiye; İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+   "tanik": "Tesûl ve Tâzâ Emîri İbn Ebü’l-Âfiye’ye verdi (305/917-18)",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). ÇİFT TEYİT: TDV (Mûsâ b. Ebü'l-Âfiye, Harekât 2020) Mesâle b. Habbûs'un fethettiği yerlerin idaresini 'Tesûl ve Tâzâ Emîri İbn Ebü’l-Âfiye’ye verdi (305/917-18)' ↔ Roudh el-Kartas: Mesâle (305 H) Fas'ı alınca Fas'ı bırakıp 'Moussa ben Aby el-Afya, maître de Tsoul et du pays de Taza'ya Mağrib'in gözetimini bıraktı. Ibn Haldûn t. III aynı seferi bir yerde 309 (921-2)'e bağlar, dipnotta 'ailleurs 303' der (303/305/309 çelişkisi; TDV 305 esas). Hicrî 305 = 0917-06-24..0918-06-13 (tablo takvimi). Bu 'Tâzâ' bölge/emirlik adıdır; bugünkü Taza şehri noktasıyla (Tâze Geçidi) tam eşleşme TDV'de 'Tâzâ'/'Tâze' olarak aynı ad olduğundan kabul edildi; kazı/konum doğrulaması YOK. Kuruluş tarihi bulunamadı. Wikipedia (yalnız ipucu): Ribât Taza Fâtımî ordugâhı → Muvahhid; Sedra, Al-Qanṭara 14 (2007) 203-223: el-Kırtâs'a göre Muvahhid ribâtı 529/1136, el-İstibsâr farklı kronoloji — açılamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0917-06-24",
+    "t": "1074-08-27",
+    "d": "miknase",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ b. EBÜ’l-ÂFİYE (İbrahim Harekât, 2020), https://islamansiklopedisi.org.tr/musa-b-ebul-afiye; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ; İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "Moussa ben Aby el-Afya, maître de Tsoul et du pays de Taza",
+    "ic_not": "Künye YOK → 'miknase' (Miknâse emirleri, Tesûl-Tâzâ; Mûsâ b. Ebü'l-Âfiye ve ardılları, Fâtımî/Endülüs Emevî tâbiliği ile) önerilir. Dönem içi suzerenlik değişimleri dönem açmaz: Mûsâ 317'de (929) Endülüs Emevî III. Abdurrahman adına hutbe okuttu, Fâtımî ordusuyla mücadele (TDV). t: Ibn Haldûn t. II: Miknâse emirleri el-Kāsım b. Muhammed (Mûsâ ailesi, 'princes de Tèza et de Teçoul') Murâbıtlarla savaştı; Yûsuf b. Tâşfîn 462'de (1069) Fas'ı aldı, 'en l'an 467 il se rendit aux montagnes de Ghiatha et des Beni-Mekoud, dans la province de Tèza' → Roudh el-Kartas 467: Kāsım b. Ebü'l-Âfiye öldürüldü. Hicrî 467 = 1074-08-27 başlangıcı (1074 ile kesişimin ilk günü; güvenli uç değil, aralık). ÇELİŞKİ: TDV Mûsâ b. Ebü'l-Âfiye maddesi hânedanın Yûsuf b. Tâşfîn tarafından '445/1054'te ortadan kaldırıldığını yazar — aynı TDV'nin Sicilmâse/Mağrâve maddelerindeki 445 (Sicilmâse'nin alınışı) ile karışmış görünür; Ibn Haldûn ve Roudh 467 (Kāsım) der. TDV'nin kendi içinde tutarsızlığı olduğundan akademik kaynak (Ibn Haldûn/Roudh, 467) esas alındı.",
+    "kunye_yok": true
+   },
+   {
+    "f": "1074-08-27",
+    "t": "1139-09-27",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. II, Alger 1854, https://archive.org/details/bub_gb_3dYOAAAAQAAJ; İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "tua son émir Kassem ben Aby el-Afya, dont il détruisit l'armée",
+    "ic_not": "f: yukarıdaki (467 H). t: Roudh el-Kartas: Abdülmü'min 'Au mois de safar 534 (1139 J.C.), il entreprit une longue campagne ... il commença par subjuguer tout le pays de Taza et les montagnes de Ghyata'; Safer 534 = 1139-09-27 (hicrî 534 = 1139-08-28 başlangıcı). ÇELİŞKİ: aynı Roudh başka bir listede 'En 527 il conquit Tâza' (527 H = 1132-11-12; 528 H = 1133-11-01; Rabat-Taza inşası 529 H = 1134-10-22..1135-10-10; Wikipedia/Sedra 1132-1136) der; 534 Safer güvenli uç (en geç) alındı. Murâbıtlar Taza'yı Fas'ın alınışından (462/1069) sonra aldı; TDV Fas: Murâbıtlar 462'de (1070)."
+   },
+   {
+    "f": "1139-09-27",
+    "t": "1248-05-26",
+    "d": "muvahhidler",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, MUVAHHİDLER (Mehmet Özdemir, 2020), https://islamansiklopedisi.org.tr/muvahhidler; İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "Merînîler 645’te (1247) Miknâs’ı, 646’da (1248) Fas, Selâ ve Tâze’yi",
+    "ic_not": "t: Roudh el-Kartas: Ebû Yahyâ 'Rabat-Taza, dont il s'empara, ainsi que de toutes les forteresses de la Moulouïa, et cela durant le mois de safar 646' (Safer 646 = 1248-05-26); TDV Muvahhidler 646 (1248) Tâze. ÇİFT TEYİT (TDV ↔ Roudh). ÇELİŞKİ: TDV Merînîler 'Ebû Muhammed Abdülhakk 613 (1216)'da Muvahhid ordusunu yenip Tâze'yi (Tâzâ) ele geçirdiler' der; Roudh 613 Zilhicce'de Abdülhakk'ın Rabat-Taza çevresinde ordugâh kurup valiyi yendiğini anlatır ama şehri almadığı; TDV'nin kendi içinde 613 ↔ 646 çelişkisi olduğundan 646 (TDV Muvahhidler + Roudh + Ibn Haldûn) esas."
+   },
+   {
+    "f": "1248-05-26",
+    "t": "1281-01-01",
+    "d": "merini",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, MUVAHHİDLER (Mehmet Özdemir, 2020), https://islamansiklopedisi.org.tr/muvahhidler; İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "dont il s'empara, ainsi que de toutes les forteresses de la Moulouïa",
+    "ic_not": "Atlasla aynı sahip (Merînî) — dikiş sorunu yok. Ibn Haldûn t. II: Merînîler Hafsî Ebû Zekeriyyâ'nın üstünlüğünü tanıyıp Miknâs, Tèza ve El-Kasr hediyelerini Hafsî sultanına gönderirdi (suzerenlik, egemenlik değişimi değil)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0917-06-24",
+    "gun": "305 H / 917-18",
+    "k": "diger",
+    "b": "Tâzâ ve Tesûl emiri İbn Ebü'l-Âfiye Fâtımî komutanı Mesâle'nin fetihlerinin idaresini devralır (ilk anılış).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ b. EBÜ’l-ÂFİYE (İbrahim Harekât, 2020), https://islamansiklopedisi.org.tr/musa-b-ebul-afiye",
+    "tanik": "Tesûl ve Tâzâ Emîri İbn Ebü’l-Âfiye’ye verdi (305/917-18)"
+   },
+   {
+    "t": "0917-06-24",
+    "gun": "305 H / 917-18",
+    "k": "diger",
+    "b": "Roudh el-Kartas: Mesâle Mağrib'in gözetimini 'Tsoul ve Taza ülkesi' efendisi Mûsâ'ya bırakır (ÇİFT TEYİT).",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "Moussa ben Aby el-Afya, maître de Tsoul et du pays de Taza"
+   },
+   {
+    "t": "1074-08-27",
+    "gun": "467 H / 1074-75",
+    "k": "fetih",
+    "b": "Murâbıt Yûsuf b. Tâşfîn Miknâse emiri Kāsım b. Ebü'l-Âfiye'yi öldürür; Tâze eyaletinin dağları alınır.",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "tua son émir Kassem ben Aby el-Afya, dont il détruisit l'armée jusqu'au dernier homme"
+   },
+   {
+    "t": "1139-09-27",
+    "gun": "Safer 534 H / 1139",
+    "k": "fetih",
+    "b": "Abdülmü'min seferine Tâze ülkesini ve Gıyâta dağlarını boyun eğdirerek başlar (Muvahhid fethi).",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "il commença par subjuguer tout le pays de Taza et les montagnes de Ghyata"
+   },
+   {
+    "t": "1248-05-26",
+    "gun": "Safer 646 H / 1248",
+    "k": "fetih",
+    "b": "Merînî emiri Ebû Yahyâ Rabat-Taza'yı ve Mülûye kalelerini alır.",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "dont il s'empara, ainsi que de toutes les forteresses de la Moulouïa"
+   },
+   {
+    "t": "1248-05-26",
+    "gun": "646 H / 1248",
+    "k": "fetih",
+    "b": "TDV: Merînîler 646'da Fas, Selâ ve Tâze'yi Muvahhidlerden alır (ÇİFT TEYİT).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MUVAHHİDLER (Mehmet Özdemir, 2020), https://islamansiklopedisi.org.tr/muvahhidler",
+    "tanik": "Merînîler 645’te (1247) Miknâs’ı, 646’da (1248) Fas, Selâ ve Tâze’yi"
+   }
+  ],
+  "ic_not": "Tâze (Taza) — atlas noktası 34.210,-4.010. Atlas 1281'de Merînî başlatıyor; zincir Merînî ile (1248'den) sürüp atlasla birleşir (düzeltme gerekmez). ÇİFT TEYİT: ilk anılış (TDV ↔ Roudh 305 H); Merînî fethi 646 H (TDV Muvahhidler ↔ Roudh Safer 646). Kuruluş tarihi bulunamadı; 'Taza' adı Miknâse yerleşiminin sürekliliği (Tesûl-Tâzâ) ile Muvahhid Rabat-Taza (Tafersift) ribâtının aynı nokta olup olmadığı açılan kaynaklarda net değil — Ribât Taza ile eski Tâzâ arasındaki mesafe ölçülmedi, >3 km ise ayrı kayıt gerekebilir. Hicrî tarihler tablo takvimiyle (±1-2 gün). Boyasız/künyesiz: miknase (kunye_yok). Encyclopédie berbère 'Taza' maddesi OpenEdition Anubis bot koruması nedeniyle AÇILMADI."
+ },
+ {
+  "id": "tiznit-ma",
+  "ad": "Tîznît",
+  "atlas_ad": "Tîznît",
+  "lat": 29.699,
+  "lon": -9.732,
+  "kat1900": 3,
+  "adlar": [
+   "Tiznit",
+   "Tîznît"
+  ],
+  "ilk": {
+   "t": "1882-01-01",
+   "gun": "1882",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus",
+   "tanik": "Mevlây I. Hasan, Tiznît şehrini inşa ettirdi (1882)",
+   "ic_not": "KURULUŞ (TDV Sûs: Fas Filâlî hükümdarı Mevlây I. Hasan şehri inşa ettirdi, 1882). Gün/ay yok. Ek: aynı TDV maddesinde Tiznît, Ebü'l-Hîbe'nin (Mâülayneyn'in oğlu) merkezi olarak 1912-1919'da anılır. Öncül yerleşim: TDV Hudaykî maddesi 'Sûs bölgesindeki Tiznît vilâyetinde' doğan âlimden söz eder (Hudaykî ~1706 doğumlu; vilâyet adı, şehrin öncülü kanıtı değil)."
+  },
+  "kur": {
+   "t": "1882-01-01",
+   "gun": "1882",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus",
+   "tanik": "Mevlây I. Hasan, Tiznît şehrini inşa ettirdi (1882)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1882-01-01",
+    "gun": "1882",
+    "k": "kurulus",
+    "b": "Mevlây I. Hasan Tiznît şehrini inşa ettirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SÛS (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sus",
+    "tanik": "Mevlây I. Hasan, Tiznît şehrini inşa ettirdi (1882)"
+   }
+  ],
+  "ic_not": "Tîznît — atlas noktası 29.699,-9.732. ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas 1281-01-01'de 'merini' ile başlatıyor, ama TDV'ye göre şehir 1882'de kuruldu (1281 öncesi ve sonrası 1882'ye kadar tanık bulunamadı); zincir BOŞ. 1281-1882 arası için nokta kırpılmalı (öncül yerleşim kaynakta gösterilmedi)."
  },
  {
   "id": "toulouse-fr",
@@ -29306,6 +30266,154 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Kuruluş bulunamadı. 846 sınırı Vannes için doğrudan tanık değil (Bretanya genel) — yaklaşıklık beyanlı. Atlas Vannes 1281 'bretanya' — uyumlu. Çift teyit yok. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
+ },
+ {
+  "id": "vecde-ma",
+  "ad": "Vecde (Oujda)",
+  "atlas_ad": "Vecde (Oujda)",
+  "lat": 34.681,
+  "lon": -1.9,
+  "kat1900": 3,
+  "adlar": [
+   "Wadjda / Oudjda",
+   "Vücde",
+   "Vecde",
+   "Oujda"
+  ],
+  "ilk": {
+   "t": "0993-02-26",
+   "gun": "383 H / 993",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, MAĞRÂVE (İsmail Yiğit, 2019), https://islamansiklopedisi.org.tr/magrave",
+   "tanik": "Aynı yıl içinde yeni bir idare merkezi kurmak amacıyla Vecde şehrinin inşaatını başlattı",
+   "ic_not": "KURULUŞ: TDV Mağrâve: Mağrâve emiri Zîrî b. Atıyye 383'te (993) Fas'ı geri aldıktan sonra 'aynı yıl içinde' yeni idare merkezi olarak Vecde'nin inşaatını başlattı. Hicrî 383 = 0993-02-26..0994-02-14. ÇELİŞKİ (beyan): Ibn Haldûn t. III 'En l'an 384 (994), il fonda la ville d'Oudjda' ve Roudh el-Kartas 384 (994) Recep ayında surların çizildiğini yazar (Roudh OCR rakamı bozuk: '38û (99û)'); hicrî 384 = 0994-02-15..0995-02-04. TDV esas (383/993); Ibn Haldûn/Roudh bir yıl sonrası — çift teyit YOK. Öncül: kaynaklarda Vecde adlı eski yerleşim bulunamadı."
+  },
+  "kur": {
+   "t": "0993-02-26",
+   "gun": "383 H / 993",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, MAĞRÂVE (İsmail Yiğit, 2019), https://islamansiklopedisi.org.tr/magrave",
+   "tanik": "Aynı yıl içinde yeni bir idare merkezi kurmak amacıyla Vecde şehrinin inşaatını başlattı"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0993-02-26",
+    "t": "1080-01-01",
+    "d": "magrave-fas",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MAĞRÂVE (İsmail Yiğit, 2019), https://islamansiklopedisi.org.tr/magrave; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+    "tanik": "Aynı yıl içinde yeni bir idare merkezi kurmak amacıyla Vecde şehrinin inşaatını başlattı",
+    "ic_not": "KÜNYE: magrave-fas künyesi 0955-04-27..1070-01-01 (Fas Mağrâveleri); Vecde Zîrî b. Atıyye'nin yeni başkentiydi (Ibn Haldûn t. II: 'Oudjda forma le boulevard de la frontière ... Maghreb central du Maghreb-el-Acsa'); 1033-37 arası Hamâme b. Muiz burada sığındı (TDV: Fas'ı Benî İfren aldı, Hamâme Vecde ve Tenes'e çekildi). 1070-1080 arası Vecde'nin kimin elinde olduğu açılan kaynakta ayrı verilmiyor (Roudh: Benî İznasen toprağı) — yerel Mağrâve kolu sürdü varsayımı YAZILMADI; dönem t = Murâbıt fethi (aşağıda), künye 1070'te bitiyor (10 yıl hayalet uyarısı): künye genişletme önerisi 'Vecde Mağrâveleri'. Ibn Haldûn t. III: Zîrî'nin ölümü sonrası (393 H, 1002) oğlu Muiz Tilimsân'ı alıp Vecde'yi 'fonda' (kuruluş anlatımı tekrarı).",
+    "boyasiz": true
+   },
+   {
+    "f": "1080-01-01",
+    "t": "1147-03-23",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar",
+    "tanik": "Mağrib-i Evsat’a yönelerek Vecde (Vücde), Tilimsân ve Vehrân’ı alıp Cezayir şehrine kadar ulaştı (1080)",
+    "ic_not": "f: TDV (1080, yıl). ÇELİŞKİ: Roudh el-Kartas 474 (1081) ve başka bir tabloda '475 (1079)'; Ibn Haldûn t. II günü vermez ('soumit la ville d'Oudjda ainsi que le pays des Beni-Iznacen'). TDV esas. t = künye geçişi (Murâbıt devletinin sonu, 23 Mart 1147, TDV Murâbıtlar); Vecde'nin Muvahhid'e geçiş günü kaynakta YOK (Abdülmü'min'in Tilimsân seferi); BEYANLI YAKLAŞIKLIK."
+   },
+   {
+    "f": "1147-03-23",
+    "t": "1208-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "les fortifications de la ville de Oudjda furent refaites à neuf",
+    "ic_not": "t = Muvahhid dönemine ait SON Vecde-özgü tanık: Roudh el-Kartas 604 H (1207-08; çeviri '1208 J.C.', OCR rakamı '6o/i') En-Nâsır Vecde surlarını yeniletti ('El-Nasser ordonna de construire la ville d'Oudjda ... premiers travaux 1er radjeb'); hicrî 604 = 1207-07-28..1208-07-15. Muvahhid egemenliğinin Vecde'de ne zaman bittiği kaynakta YOK (aşağıdaki boşluk)."
+   },
+   {
+    "f": "1208-01-01",
+    "t": "1272-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft; İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+    "tanik": "courut s'enfermer dans Temzezdekt, forteresse située au Midi d'Oudjda",
+    "ic_not": "BOŞLUK (şehir var, sahibi tarihli kaynakta yok): 1208'den 1272'ye kadar Vecde-özgü sahiplik tanığı bulunamadı. İpuçları (egemenlik DEĞİL, yakınlık): Ibn Haldûn t. III 646 (1248) Abdülvâdî Yağmurâsen'in 'Oudjda'nın güneyindeki' Temzezdekt kalesine sığınması; Roudh 647-648 (1260) Isly ovasında (Vecde civarı) Yağmurâsen-Merînî savaşı; Ibn Haldûn t. IV Ebû Yûsuf'un Isly zaferinden sonra Vecde'yi harap etmesi (Abdülvâdî tarafı olduğu ima edilir ama açık yazılmaz). 'zeyyani' atanmadı (CLAUDE.md: beyansız yaklaşıklık yok)."
+   },
+   {
+    "f": "1272-01-01",
+    "t": "1281-01-01",
+    "d": "__YOK__",
+    "kesinlik": "yil",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. IV, Alger 1856, https://archive.org/details/bub_gb_LwEoAAAAYAAJ; İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "ne partit d'Oudjda qu'après l'avoir ruiné",
+    "ic_not": "Ibn Haldûn t. IV: Merînî Ebû Yûsuf Isly'de (Vecde ovası) Yağmurâsen'i yenip 'Oudjda'dan ancak onu kökten yıktıktan sonra ayrıldı'; vezirinin ölümü 670 H Şevval (Mayıs 1272) — yıkım 670 H (1271-08-09..1272-07-28) içinde; yıl hassasiyeti, 1272-01-01 alındı (Şevval 670 ≈ Mayıs 1272'ye göre en geç). Roudh el-Kartas: Merînîler 'Oudjda qu'ils avaient rasée' → Ebû Yaʿkūb Yûsuf 696 H'de (1296-97) 'il vint alors à Oudjda, qu'il réédifia' (hicrî 696 = 1296-10-30..1297-10-18). Yani 1272-1296 arası şehir YOK (yıkık); atlasın 1281 başlangıcı bu aralıkta."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0993-02-26",
+    "gun": "383 H / 993",
+    "k": "kurulus",
+    "b": "Zîrî b. Atıyye yeni idare merkezi olarak Vecde'nin inşaatını başlatır (TDV).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MAĞRÂVE (İsmail Yiğit, 2019), https://islamansiklopedisi.org.tr/magrave",
+    "tanik": "Aynı yıl içinde yeni bir idare merkezi kurmak amacıyla Vecde şehrinin inşaatını başlattı"
+   },
+   {
+    "t": "0994-02-15",
+    "gun": "384 H / 994",
+    "k": "kurulus",
+    "b": "Ibn Haldûn: Zîrî Oudjda'yı kurar, ordu ve hazinesini yerleştirir (TDV 383/993 ile bir yıl fark).",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. III, Alger 1856, https://archive.org/details/bub_gb_T9IOAAAAQAAJ",
+    "tanik": "En l'an 384 (994), il fonda la ville d'Oudjda"
+   },
+   {
+    "t": "1080-01-01",
+    "gun": "1080",
+    "k": "fetih",
+    "b": "Murâbıt Yûsuf b. Tâşfîn Vecde, Tilimsân ve Vehrân'ı alıp Cezayir'e ulaşır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar",
+    "tanik": "Mağrib-i Evsat’a yönelerek Vecde (Vücde), Tilimsân ve Vehrân’ı alıp Cezayir şehrine kadar ulaştı (1080)"
+   },
+   {
+    "t": "1147-03-23",
+    "gun": "18 Şevval 541 / 23 Mart 1147",
+    "k": "diger",
+    "b": "künye geçişi: Murâbıt devleti Merakeş'te sona erer; Vecde'ye özgü gün YOK.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR (İsmail Yiğit, 2020), https://islamansiklopedisi.org.tr/murabitlar",
+    "tanik": "Muvahhid kuvvetleri Fas, Miknâse, Selâ şehirlerini ve nihayet Merakeş’i ele geçirerek"
+   },
+   {
+    "t": "1154-01-15",
+    "gun": "Şevval 548 H sonu / ~Ocak 1154",
+    "k": "diger",
+    "b": "İdrîsî Vecde'yi (Wadjda) Tilimsân-Vehrân hattı şehirleri arasında sayar (ikinci tanık).",
+    "kaynak": "el-İdrîsî, Nuzhat al-mushtâq (548 H/1154), Description de l'Afrique et de l'Espagne, éd. ve trad. R. Dozy & M. J. de Goeje, Leyde 1866, https://archive.org/details/bub_gb_XQqWkwi7hWAC",
+    "tanik": "Carânta , Wadjda , Ma- illa"
+   },
+   {
+    "t": "1208-01-01",
+    "gun": "604 H / 1208",
+    "k": "diger",
+    "b": "Muvahhid halifesi En-Nâsır Vecde surlarını yeniletir (Vecde'ye özgü SON Muvahhid tanığı).",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "les fortifications de la ville de Oudjda furent refaites à neuf"
+   },
+   {
+    "t": "1272-01-01",
+    "gun": "670 H / 1272",
+    "k": "diger",
+    "b": "Merînî Ebû Yûsuf Isly'de Abdülvâdîleri yener ve Vecde'yi tamamen yıkar.",
+    "kaynak": "İbn Haldûn (Ibn Khaldoun), Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale, trad. de Slane, t. IV, Alger 1856, https://archive.org/details/bub_gb_LwEoAAAAYAAJ",
+    "tanik": "ne partit d'Oudjda qu'après l'avoir ruiné"
+   },
+   {
+    "t": "1296-10-30",
+    "gun": "696 H / 1296-97",
+    "k": "kurulus",
+    "b": "(Atlas ufku sonrası, bilgi) Merînî sultanı Vecde'yi yeniden inşa eder: sur, kasba, saray, hamam, cami.",
+    "kaynak": "İbn Ebî Zer‘ (Roudh el-Kartas), Histoire des souverains du Maghreb et annales de la ville de Fès, trad. A. Beaumier, Paris 1860, https://archive.org/details/roudhelkartashis00ibnauoft",
+    "tanik": "il vint alors à Oudjda, qu'il réédifia"
+   }
+  ],
+  "ic_not": "Vecde (Oujda) — atlas noktası 34.681,-1.900. ATLAS DÜZELTME ÖNERİSİ: atlas 1281-01-01'de 'merini' ile başlatıyor; kaynaklara göre Merînî Ebû Yûsuf 670 H (1271-72) Vecde'yi yıktı, şehri Ebû Yaʿkūb Yûsuf 696 H (1296-97)'de yeniden inşa etti (Ibn Haldûn t. IV; Roudh) → 1281'de şehir YOK; öneri: Vecde 1296-10-30 (yıl hassasiyetiyle) Merînî. ÇELİŞKİLER: kuruluş TDV 383/993 ↔ Ibn Haldûn/Roudh 384/994; Murâbıt fethi TDV 1080 ↔ Roudh 474 (1081). BOŞLUKLAR: 1070-1080 (künye magrave-fas sonrası), 1208-1272 (Muvahhid → Abdülvâdî geçişi): Vecde-özgü tanık yok. Künye önerisi: Vecde Mağrâveleri (993-1080). Boyasız künyeler: magrave-fas. Antik Roma/Mauretania öncülü kaynaklarda bulunamadı (Reference.org gibi derleme siteler 'Roma döneminde yerleşim izi' der — kullanılmadı).",
+  "dikis_beyan": "Atlas Vecde'yi 1281-01-01'de 'merini' ile başlatıyor; zincirin son dönemi '__YOK__' (1272-1296 yıkık; Ibn Haldûn t. IV, Roudh 696 H yeniden inşa). Atlasın 1281 iddiasına tanık BULUNAMADI; yer tutucu olay yazılmadı."
  },
  {
   "id": "wenzhou-cin",
