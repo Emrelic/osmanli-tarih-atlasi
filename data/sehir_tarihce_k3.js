@@ -14412,6 +14412,134 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Michuhol'un Silla-Goguryeo-Baekje arasındaki yerel el değiştirme günleri BULUNAMADI (zincirde 3 BEYANLI YAKLAŞIKLIK dönemi). Atlas ilk günü 1281-01-01 goryeo; dikiş uyumlu. KÜNYE ÖNERİSİ: taebong f 0901-01-01 → 0898-07-23. Çift teyit: yok. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
  },
  {
+  "id": "istip-astibos-mk",
+  "ad": "İştip (Astibos)",
+  "atlas_ad": "İştip (Štip)",
+  "lat": 41.746,
+  "lon": 22.195,
+  "kat1900": 3,
+  "adlar": [
+   "Astibos (Astibo)",
+   "Stipeon",
+   "Štip",
+   "İştip"
+  ],
+  "ilk": {
+   "t": "-0200-01-01",
+   "gun": "MÖ 3. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'İştip' (https://islamansiklopedisi.org.tr/istip); Pleiades 491530 'Astibos' (Barrington Atlas 50 B1: Stip; istasyon, MÖ 30 - MS 300; https://pleiades.stoa.org/places/491530)",
+   "tanik": "Eski bir yerleşme merkezi olan İştip’in tarihi milâttan önce III. yüzyıla kadar iner",
+   "ic_not": "İLK ANILIŞ olarak yazıldı ama DAYANAĞI TDV'DE BELİRTİLMİYOR: TDV 'tarihi milâttan önce III. yüzyıla kadar iner. Bu sıralarda Astibo adıyla anılan şehir Peonlar’ın İlirya kolunun merkeziydi' der, hangi yazarın/belgenin anıldığını vermez (nicelik ilk_anilis varsayıldı; arkeolojik ya da sikke temelli olabilir). Bu oturumda doğrudan açılan en eski Astibos tanığı Pleiades/Barrington istasyonudur (Roma dönemi, Tabula Peutingeriana'daki Stobi-Serdica yolu). Vikipedi 'Štip' Astibos'u Polyainos 'Strategemata'sına (nehir adı, Paion krallarının taç banyosu) bağlar ve MÖ 3. yy yazar (Polyainos MS 2. yy'dır, Vikipedi hatası olabilir, tek kaynak). Yüzyılın son yılı (MÖ 201 = -0200) güvenli uç. Modern nokta ile Pleiades noktaları 1,6-2,5 km: ayrı kayıt gerekmez."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0200-01-01",
+    "t": "-0026-01-16",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'İştip' (Astibo MÖ III. yy Peonlar'ın merkezi); Pleiades 491530 (Astibos, Roma dönemi istasyonu MÖ 30'dan)",
+    "ic_not": "Şehir VAR; Paionia'nın Makedon (Antigonid), Makedon bölgeleri (Livius 45.29: Axios'un sağ kıyısındaki Paionlar ikinci bölgeye), Roma eyaleti (146) arasındaki payı ve İştip'e özgü sahip kaynakta yok. 174 yıl => __BOSLUK__."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); Pleiades 491530 (Astibos istasyonu: Roma, MÖ 30 - MS 300)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Astibos, Roma yol istasyonu (Stobi-Serdica) olarak Roma Makedonya/Moesia sınırı içinde; İştip'e özgü sahiplik cümlesi TDV'de yok."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'İştip' ('VI. yüzyılda Makedonya’ya yerleşmek amacıyla gelen Slavlar, şehri bugünkü adıyla anmaya başladılar. İştip IX-X. yüzyıllarda I. Bulgar İmparatorluğu’nun bir parçası idi')",
+    "ic_not": "Şehir VAR (Stipeon); Bizans, Slav yerleşimi ve ilk Bulgar egemenliği arasında 505 yıl tarihli dizi yok => __BOSLUK__."
+   },
+   {
+    "f": "0900-01-01",
+    "t": "1018-01-01",
+    "d": "birinci-bulgar",
+    "kesinlik": {
+     "f": "yuzyil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'İştip' ('İştip IX-X. yüzyıllarda I. Bulgar İmparatorluğu’nun bir parçası idi; 1018’de Bizanslılar’ca geri alındı')",
+    "ic_not": "f en geç tanıktan: TDV 'IX-X. yüzyıllarda' (yüzyıl düzeyi); IX. yy sonu 0900 güvenli uç."
+   },
+   {
+    "f": "1018-01-01",
+    "t": "1281-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'İştip' ('XIII. yüzyılın ilk yarısında bir ara II. Bulgar İmparatorluğu’na bağlandıysa da 1330’da Sırp Kralı Stefan Deçanski burasını Sırp Devleti’ne katıncaya kadar Bizans’ın elinde kaldı')",
+    "ic_not": "XIII. yy ilk yarısında 'bir ara' II. Bulgar'a bağlanma süresi TDV'de verilmez (kısa) => dönem açılmadı, olay; zincir Bizans'la sürer. t = atlasın ilk günü (atlas: bizans 1281-01-01 → 1330, TDV ile uyumlu)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0200-01-01",
+    "gun": "MÖ 3. yüzyıl",
+    "k": "diger",
+    "b": "TDV: İştip (Astibo) tarihi MÖ III. yüzyıla iner; Peonlar'ın merkezi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İştip', https://islamansiklopedisi.org.tr/istip",
+    "tanik": "Eski bir yerleşme merkezi olan İştip’in tarihi milâttan önce III. yüzyıla kadar iner"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma/Bizans (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0900-01-01",
+    "gun": "9.-10. yüzyıl",
+    "k": "diger",
+    "b": "İştip I. Bulgar İmparatorluğu'nun parçasıdır (yüzyıl düzeyi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İştip', https://islamansiklopedisi.org.tr/istip",
+    "tanik": "İştip IX-X. yüzyıllarda I. Bulgar İmparatorluğu’nun bir parçası idi; 1018’de Bizanslılar’ca geri alındı"
+   },
+   {
+    "t": "1018-01-01",
+    "gun": "1018",
+    "k": "fetih",
+    "b": "Bizans (II. Basileios) İştip'i Bulgarlar'dan geri alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İştip', https://islamansiklopedisi.org.tr/istip",
+    "tanik": "İştip IX-X. yüzyıllarda I. Bulgar İmparatorluğu’nun bir parçası idi; 1018’de Bizanslılar’ca geri alındı"
+   },
+   {
+    "t": "1201-01-01",
+    "gun": "13. yüzyıl ilk yarısı",
+    "k": "fetih",
+    "b": "İştip 'bir ara' II. Bulgar İmparatorluğu'na bağlanır (süre belirsiz, dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İştip', https://islamansiklopedisi.org.tr/istip",
+    "tanik": "XIII. yüzyılın ilk yarısında bir ara II. Bulgar İmparatorluğu’na bağlandıysa da"
+   }
+  ],
+  "ic_not": "Çift teyit yok. 'Astibos' ve 'Astraion' (Ustrumca) eşitlemeleri farklı yerlere dağıtılmış; Livius 40.24 Astraeum'un Štip mi Strumica mı olduğu burada belirlenmedi (Ustrumca kaydında TDV'nin Strumica eşitlemesi kullanıldı). Kuruluş BULUNAMADI. ATLAS: 1281-1330 Bizans TDV ile uyumlu; düzeltme önerisi yok. AÇILAMAYAN: Polyainos, Tabula Peutingeriana ve Papazoglou 1988."
+ },
+ {
   "id": "izuhara-jp",
   "ad": "Tsuşima (İzuhara)",
   "atlas_ad": "Tsuşima (İzuhara)",
@@ -17672,6 +17800,313 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "UYARI: ilk anılış 'um 525' yalnız Vikipedi DE'de bulundu (Anarid) — Vikipedi tek dayanak olamaz kuralı gereği BU KAYIT TASLAKTIR; akademik ikinci tanık açılamadı (HLS Konstanz 'zerfallenes spätrömisches Kastell Constantia' ve 4. yy tahkimat arkeolojisi verir; Treccani Costanzo II. dönemi 4. yy kale ve 6. yy ilk yarısında piskoposluk der, ama ad yazılı tanığı vermez). Roma dönemi (Constantia 4. yy kalesi, Raetia prima 297) arkeolojiyle belgeli, yazılı tanık bu oturumda yok → zincir 525'te başlıyor; 4. yy Roma dönemi ark alanında. Konstanz noktasının Roma kalesi ile aynı yerde olduğu (Münsterplatz) HLS'de. Treccani 6. yy ilk yarısı piskoposluk (Vindonissa'dan nakil), HLS 6/7. yy dönümü; Vikipedi ~585 — ikisi de olay. Çift teyit YOK."
  },
  {
+  "id": "koprulu-veles-mk",
+  "ad": "Köprülü (Veles)",
+  "atlas_ad": "Köprülü (Veles)",
+  "lat": 41.716,
+  "lon": 21.775,
+  "kat1900": 3,
+  "adlar": [
+   "Veleson (Velesa)",
+   "Veles",
+   "Köprülü",
+   "Titov Veles"
+  ],
+  "ilk": {
+   "t": "1018-01-01",
+   "gun": "1018",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Köprülü' (https://islamansiklopedisi.org.tr/koprulu)",
+   "tanik": "Ortaçağ’da Veles ilk defa, İmparator II. Vasileios’un 1018 tarihli fermanında",
+   "ic_not": "İLK ANILIŞ (Veleson, Bitola Piskoposluğu'na bağlı), kuruluş DEĞİL. TDV'nin eski çağ iddiası: 'Milâttan önce 168 yılında Roma İmparatorluğu’ndaki Bylazora antik kenti bu şehrin temelini oluşturur' — Pleiades 491557 (Barrington Atlas; Papazoglou 1988) Bylazora'yı Knezje (Sveti Nikole, 41.847 K / 21.913 D) kazı alanıyla eşler: modern Veles'ten ~18 km => BYLAZORA AYRI KAYIT ÖNERİSİ (>3 km kuralı); eşitleme TDV'de bile 'temelini oluşturur' kipinde ve kazıyla çelişir, başlangıç sayılmadı. Eski Ortaçağ Veles TDV'ye göre bugünkü kentin 2 km güneyinde (Stari Veles), kale parçaları V-VI. yy (arkeolojik, ark)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0500-01-01",
+   "gun": "5. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Köprülü' (https://islamansiklopedisi.org.tr/koprulu)",
+   "tanik": "Kalenin bazı kısımlarının tarihi V ve VI. yüzyıllara kadar uzanır"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1018-01-01",
+    "t": "1201-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yuzyil"
+    },
+    "kaynak": "TDV 'Köprülü' (1018 fermanı; 'XIII. yüzyılın ilk yıllarında Bizans Velesi, II. Bulgar İmparatorluğu’na bağlandı')",
+    "ic_not": "f = 1018 ferman tarihi (Bizans piskoposluk listesi). t en geç tanıktan: TDV yalnız 'XIII. yüzyılın ilk yılları' der; 1201-01-01 yüzyıl başıdır (belirsiz, Bulgar fethi 1201-1204 arasında olabilir) ve BEYAN edilir. Aranmadı: Kaloyan'ın Üsküp-Veles seferi (Zlatarski; Fine 1987)."
+   },
+   {
+    "f": "1201-01-01",
+    "t": "1246-01-01",
+    "d": "bulgar-carligi",
+    "kesinlik": {
+     "f": "yuzyil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Köprülü' ('Bizans Velesi, II. Bulgar İmparatorluğu’na bağlandı'; '1246’da ... Vatatzis ... geri aldı')",
+    "ic_not": "f yüzyıl düzeyi (yukarıdaki beyan); t = 1246 Vatatzes'in geri alışı (yıl)."
+   },
+   {
+    "f": "1246-01-01",
+    "t": "1261-07-25",
+    "d": "iznik-imparatorlugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV 'Köprülü' (1246); TDV 'İstanbul' (25 Temmuz 1261 künye geçişi)",
+    "ic_not": "TDV: Vatatzes Üsküp, Veles ve Prosek'i Bulgarlar'dan alır; Epir Despotu II. Mikhail Vardar'ın batısını ele geçirir (Veles Vardar üzerinde, doğu/batı konumu TDV'de ayrıca belirtilmez)."
+   },
+   {
+    "f": "1261-07-25",
+    "t": "1281-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'İstanbul' (1261); TDV 'Köprülü' (Bizans Velesi 1330'a dek, 1330 Velbuzd sonrası Sırplar)",
+    "ic_not": "t = atlasın ilk günü (atlas: bizans 1281-01-01 → 1330, TDV 1330 Velbuzd ile uyumlu); aynı sahip, dikişte olay gerekmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1018-01-01",
+    "gun": "1018",
+    "k": "diger",
+    "b": "Veles ilk kez II. Basileios'un fermanında (Bitola Piskoposluğu'na bağlı) anılır; Bizans idaresi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Köprülü', https://islamansiklopedisi.org.tr/koprulu",
+    "tanik": "Ortaçağ’da Veles ilk defa, İmparator II. Vasileios’un 1018 tarihli fermanında"
+   },
+   {
+    "t": "1201-01-01",
+    "gun": "13. yüzyıl başı",
+    "k": "fetih",
+    "b": "Veles II. Bulgar İmparatorluğu'na bağlanır (yüzyıl düzeyi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Köprülü', https://islamansiklopedisi.org.tr/koprulu",
+    "tanik": "XIII. yüzyılın ilk yıllarında Bizans Velesi, II. Bulgar İmparatorluğu’na bağlandı"
+   },
+   {
+    "t": "1246-01-01",
+    "gun": "1246",
+    "k": "fetih",
+    "b": "İznik İmparatoru Vatatzes Üsküp, Veles ve Prosek'i Bulgarlar'dan geri alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Köprülü', https://islamansiklopedisi.org.tr/koprulu",
+    "tanik": "1246’da Bizans İmparatoru İoannis Vatatzis, Skopje (Üsküp), Veles ve Prosek’i Bulgarlar’dan geri aldı"
+   },
+   {
+    "t": "1261-07-25",
+    "gun": "25 Temmuz 1261",
+    "k": "fetih",
+    "b": "İznik birlikleri İstanbul'u geri alır; künye geçişi: İznik İmparatorluğu → Bizans. (Veles için kaynakta ayrı gün yok.)",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İstanbul', https://islamansiklopedisi.org.tr/istanbul",
+    "tanik": "İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı"
+   }
+  ],
+  "ic_not": "Bylazora eşitlemesi: TDV 'Köprülü' (MÖ 168 Bylazora = Veles'in temeli) ile Pleiades 491557 (Bylazora = Knezje, Sveti Nikole, ~18 km) ÇELİŞİR; esas TDV'dir ama hangisinin doğru olduğu bu oturumda kesinleştirilemedi, bu yüzden 1018 ilk anılış alındı ve Bylazora ayrı kayıt olarak ÖNERİLİR. Çift teyit: yok (1018 yalnız TDV). Vikipedi 'Veles' antik adı Velissos/Vilazora diye verir, kaynaksız. AÇILAMAYAN: Basileios II sigillionları (Gelzer), Zlatarski. ATLAS: 1281-1330 Bizans TDV ile uyumlu; düzeltme önerisi yok."
+ },
+ {
+  "id": "korfu-kerkyra-gr",
+  "ad": "Korfu (Kerkyra)",
+  "atlas_ad": "Korfu",
+  "lat": 39.624,
+  "lon": 19.922,
+  "kat1900": 2,
+  "adlar": [
+   "Kerkyra (Korkyra)",
+   "Corcyra",
+   "Corfù",
+   "Korfu"
+  ],
+  "ilk": {
+   "t": "-0733-01-01",
+   "gun": "MÖ 734",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Princeton Encyclopedia of Classical Sites (Stillwell vd. 1976), 'Kerkyra' (Perseus, http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:alphabetic+letter=K:entry+group=3:entry=kerkyra); Treccani Enciclopedia Italiana (1931), 'Corfù' (https://www.treccani.it/enciclopedia/corfu_(Enciclopedia-Italiana)/); TDV İslâm Ansiklopedisi, İ. Bostan, 'Korfu' (https://islamansiklopedisi.org.tr/korfu)",
+   "tanik": "in 734 B.C. it was occupied by Corinthian colonists",
+   "ic_not": "ÇİFT TEYİT (yıl): Princeton MÖ 734 (Archias/Chersikrates, Korint Bakkhiadları); Treccani EI Siracusa ile aynı sefer, 'secondo i dati più comuni ... 734' (bir gelenek ikisini de 757'ye çeker); TDV 'ilk yerleşme MÖ 730'lu yıllar'. Strabon 6.2.4 (Perseus, Jones): Archias Sicilya yolunda Chersikrates'i Korkyra'yı iskâna bırakır, Liburnları adadan çıkarır. Güvenli uç MÖ 734 (-0733) alındı; Treccani'nin 757 geleneği beyan. Antik kent Palaiopolis yarımadasında, modern Kerkyra'nın ~2 km güneyinde (Princeton: 'a little to the S of the modern capital'): 3 km altı, ayrı kayıt gerekmez."
+  },
+  "kur": {
+   "t": "-0733-01-01",
+   "gun": "MÖ 734",
+   "kesinlik": "yil",
+   "kaynak": "Princeton Encyclopedia of Classical Sites, 'Kerkyra' (http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:alphabetic+letter=K:entry+group=3:entry=kerkyra); Treccani EI 'Corfù' (https://www.treccani.it/enciclopedia/corfu_(Enciclopedia-Italiana)/)",
+   "tanik": "in 734 B.C. it was occupied by Corinthian colonists"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0733-01-01",
+    "t": "-0302-01-01",
+    "d": "kerkyra-sehir-devleti",
+    "kesinlik": "yil",
+    "kaynak": "Princeton 'Kerkyra' (Korint kolonisi; MÖ 664 civarı ayrılık; 435-431 Epidamnos çatışması; MÖ 373 İkinci Atina Birliği); Treccani EI 'Corfù' (V. yy'da bağımsız, 'Occupata nel 303 da Cleonimo spartano')",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'kerkyra-sehir-devleti' (Kerkyra/Korkyra polisi, Korint kolonisi, MÖ 8. yy sonu - MÖ 303). Dönem içinde yönetim biçimi (aristokrasi/demokrasi), Atina müttefikliği (MÖ 433, Sybota), Sparta hegemonyası (4. yy başı, Princeton) ve İkinci Atina Birliği üyeliği değişir, devlet aynı polistir. t = Kleonymos'un işgali, MÖ 303 (Treccani EI, yıl hassasiyeti)."
+   },
+   {
+    "f": "-0302-01-01",
+    "t": "-0228-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Treccani EI 'Corfù' (303 Kleonymos; 297 Kassandros kuşatması, Agathokles kurtarır ve kızı Lanassa'ya çeyiz verir; 290 Demetrios Poliorketes; 281 Pyrrhos geri alır); Princeton 'Kerkyra' ('became the prey of Agathokles in 300 B.C.; and finally passed to Epeiros')",
+    "ic_not": "Şehir VAR ama 74 yıllık aralıkta ardışık-tarihli tek sahip dizisi kaynaklardan çıkmıyor: Treccani (303 Sparta'lı Kleonymos, 297 Kassandros kuşatması, Agathokles'in kurtarışı ve Pyrrhos'a çeyiz, 290 Demetrios Poliorketes, 281 Pyrrhos) ile Princeton (300 Agathokles, sonra Epeiros) kısmen çelişir; bitişleri/başlangıçları verilmez. Bir kuşağı aşan aralık => __BOSLUK__. Aranmadı: Diodoros 21 parçaları, Plutarkhos Pyrrhos 9."
+   },
+   {
+    "f": "-0228-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Princeton 'Kerkyra' ('From 229 B.C. it was under the protection of the Romans'); Treccani EI 'Corfù' (İlirya savaşı sonrası Roma'ya tâbi, sonra 'libera'); Livius.org 'Augustus' (t)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Roma himayesi/müttefikliği (Treccani: 'dichiarata libera', daima Roma müttefiki; Pompeius'u destekledi) fiilî ilhak değil; siyasi yönelim Roma'dır. f = MÖ 229 (-0228), Polybios 2.11 'Corcyra Submits To the Romans' bölümüne dayanır (metni bu oturumda açılamadı; Princeton'ın yıl bilgisi esas)."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); Treccani EI 'Corfù' ('La vita di Corcira sotto il dominio romano è conosciuta solo per episodî')",
+    "ic_not": "Künye geçişi Cumhuriyet → İmparatorluk (16 Ocak MÖ 27, Livius.org); t = Theodosius I'in ölümü ve bölünme (17 Ocak 395)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1147-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Treccani EI 'Corfù' ('Nella divisione dell'impero, Corcira fece parte amministrativamente dell'Epirus vetus, poi Tema di Nicopoli'); TDV 'Korfu' (Yunan, Roma, Bizans ve Venedik hâkimiyeti); Treccani 'Corfù' (Normanlar 1081 ve 1084'te kısa süreli)",
+    "ic_not": "Bu dönemde Normanlar adayı kısa süre iki kez ele geçirir (Treccani EI: 1081'de Robert Guiscard 'tosto perduta', üç yıl sonra tekrar, Guiscard'ın ölümünde (1085) kaybedilir; Vikipedi 'Corfu': 1081-1084) — süre iki kaynakta çelişkili ve 'kısa' olduğundan dönem AÇILMADI, olay olarak yazıldı, zincir Bizans'la sürer (kural: süresi bilinmeyen kısa ele geçirme). 1185'te II. William'ın ele geçirişi de (Vikipedi, tek kaynak) bu kapsamdadır."
+   },
+   {
+    "f": "1147-01-01",
+    "t": "1149-01-01",
+    "d": "sicilya-kralligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Korfu' ('1147’de Otranto’dan gelen bir Norman filosu adayı ele geçirdi'); Kale Rotası 'Aggelokastro' ('recaptured the island from the Normans in 1149'); Treccani EI 'Corfù' (II. Ruggero, 1147; 'possesso di breve durata')",
+    "ic_not": "ÇİFT TEYİT (yıl): 1147 Norman fethi TDV ve Treccani EI'de (II. Ruggero); 1149 Manuel I Komnenos'un geri alışı Kale Rotası'nda (T.C. Kültür Bakanlığı); Vikipedi ayrıca on aylık kuşatma der."
+   },
+   {
+    "f": "1149-01-01",
+    "t": "1177-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Kale Rotası 'Aggelokastro' (Manuel I 1149'da geri aldı); Treccani EI 'Corfù' (Bizanslılar Korfu'yu Latinlere karşı ileri üs yaptı)",
+    "ic_not": "t = Treccani EI'nin 'Genovesi nel 1177' tanığı (aşağı bak)."
+   },
+   {
+    "f": "1177-01-01",
+    "t": "1214-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Treccani EI 'Corfù' ('A Corfù presero stanza prima i Genovesi nel 1177; poi i Veneziani'); Vikipedi 'Corfu' (Cenevizli korsanlar 1197-1207, sonra Venedik); Treccani 'Corfù' (1204 Haçlı fethinden sonra Epir despotluğu, 1214)",
+    "ic_not": "Şehir VAR ama sahibi tarihli ve kesin değil: Treccani EI Cenevizlilerin 1177'de yerleştiğini ve ardından Venedikliler'in adayı tutamadığını söyler; Vikipedi Cenevizli korsanları 1197-1207 verir (yıllar çelişkili, Vikipedi tek dayanak) ve 1185'te II. William'ın kısa fethini anar; 1204 IV. Haçlı Seferi sonrası Bizans otoritesi yok. 37 yıllık aralık için tek sahip kaynakla kurulamadı => __BOSLUK__. Aranmadı: Nicol, Despotate of Epiros (1957) s. 36; Oxford Dictionary of Byzantium 'Corfu'."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0733-01-01",
+    "gun": "MÖ 734",
+    "k": "kurulus",
+    "b": "Korint kolonistleri Korkyra'yı kurar (Archias Syrakousai'ya giderken Chersikrates'i bırakır).",
+    "kaynak": "Strabon, Geographika 6.2.4 (Perseus, H. L. Jones), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=6:chapter=2:section=4",
+    "tanik": "he left Chersicrates, of the race of the Heracleidae"
+   },
+   {
+    "t": "-0302-01-01",
+    "gun": "MÖ 303",
+    "k": "isgal",
+    "b": "Sparta'lı Kleonymos Korkyra'yı işgal eder.",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Corfù', https://www.treccani.it/enciclopedia/corfu_(Enciclopedia-Italiana)/",
+    "tanik": "Occupata nel 303 da Cleonimo spartano"
+   },
+   {
+    "t": "-0228-01-01",
+    "gun": "MÖ 229",
+    "k": "antlasma",
+    "b": "Korkyra Roma'nın himayesine girer (İlirya savaşı).",
+    "kaynak": "Princeton Encyclopedia of Classical Sites, 'Kerkyra', http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:alphabetic+letter=K:entry+group=3:entry=kerkyra",
+    "tanik": "From 229 B.C. it was under the protection of the Romans"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma/Bizans (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "1081-01-01",
+    "gun": "1081",
+    "k": "isgal",
+    "b": "Robert Guiscard Korfu'yu ele geçirir ve 'hemen' kaybeder (Treccani: üç yıl sonra yeniden alır, Guiscard'ın ölümünde bırakır).",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Corfù', https://www.treccani.it/enciclopedia/corfu_(Enciclopedia-Italiana)/",
+    "tanik": "Occupata nel 1081 da Roberto il Guiscardo e tosto perduta"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "fetih",
+    "b": "Norman filosu (II. Ruggero) Korfu'yu ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Korfu', https://islamansiklopedisi.org.tr/korfu",
+    "tanik": "1147’de Otranto’dan gelen bir Norman filosu adayı ele geçirdi"
+   },
+   {
+    "t": "1149-01-01",
+    "gun": "1149",
+    "k": "fetih",
+    "b": "I. Manuel Komnenos Korfu'yu Normanlar'dan geri alır.",
+    "kaynak": "Kale Rotası (T.C. Kültür Bakanlığı), 'Aggelokastro', https://castleroute.culture.gov.gr/en/aggelokastro/",
+    "tanik": "recaptured the island from the Normans in 1149"
+   },
+   {
+    "t": "1177-01-01",
+    "gun": "1177",
+    "k": "diger",
+    "b": "Cenevizliler Korfu'ya yerleşir (Bizans otoritesi zayıflar).",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Corfù', https://www.treccani.it/enciclopedia/corfu_(Enciclopedia-Italiana)/",
+    "tanik": "A Corfù presero stanza prima i Genovesi nel 1177"
+   },
+   {
+    "t": "1214-01-01",
+    "gun": "1214",
+    "k": "fetih",
+    "b": "Korfu Epir Despotluğu'na katılır (atlasın ilk dönemi: epir-despotlugu 1214-01-01).",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Corfù', https://www.treccani.it/enciclopedia/corfu_(Enciclopedia-Italiana)/",
+    "tanik": "Corfù fu incorporata nel despotato d'Epiro (1214)"
+   }
+  ],
+  "ic_not": "ÇİFT TEYİT: kuruluş yılı (734) Princeton + Treccani EI (+ TDV 'MÖ 730'lu yıllar'); 1214 Epir'e katılış Treccani EI + Treccani 'Corfù' (aynı yayıncı) + Kale Rotası (1214'ten sonra 'Epir devleti'); 1147-1149 Norman dönemi TDV + Treccani + Kale Rotası. AÇILAMAYAN: Polybios 2.11 (Perseus bölüm sayfası açıldı, metin eşleşmedi), Nicol 1957, ODB. ATLAS: 1214-01-01 epir-despotlugu başlangıcı Treccani/Kale Rotası ile uyumlu; 1259 Manfred çeyizi de iki kaynakta (Treccani EI, Kale Rotası). Düzeltme önerisi yok."
+ },
+ {
   "id": "kotor-me",
   "ad": "Kotor (Cattaro)",
   "atlas_ad": "Kotor (Cattaro)",
@@ -18715,6 +19150,186 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Kuruluş bulunamadı. 1073 komün ayaklanması bastırılması sahiplik değişimi değil. Atlas Le Mans 1281 'fransa' — uyumlu. Çift teyit yok. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
  },
  {
+  "id": "lecce-lupiae-it",
+  "ad": "Lecce (Lupiae)",
+  "atlas_ad": "Lecce",
+  "lat": 40.352,
+  "lon": 18.169,
+  "kat1900": 2,
+  "adlar": [
+   "Lupiae (Lupia)",
+   "Licium",
+   "Lecce"
+  ],
+  "ilk": {
+   "t": "-0043-01-01",
+   "gun": "MÖ 44",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Appianos, Emphylia 3.10 (Horace White çevirisi, LacusCurtius: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/3*.html); Princeton Encyclopedia of Classical Sites, 'Lupiae' (http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=lupiae)",
+   "tanik": "out of the direct route, named Lupiae",
+   "ic_not": "İLK ANILIŞ (açık tarihli en eski yazılı tanık), kuruluş DEĞİL. Appianos: Octavianus Caesar'ın ölümünden (MÖ 44) sonra Adriyatik'i geçip Brundisium yerine Lupiae'ye çıkar ve orada bir süre kalır (Princeton aynı olayı Appianos BC 3.10'a dayandırır). Daha eski yazılı tanık bulunamadı (Strabon 6.3.5 Perseus sayfasında Lupiae geçmedi; Plinius/Ptolemaios/Pausanias 6.19.9 daha geç). Kuruluş: Princeton 'native center whose founding has been attributed by the ancients to the king of the Salentini, Malennius' (efsane), 'The Romans probably founded Lupiae after the capture of Brindisi in 267 B.C.' (Pleiades 442642: 'refounded under Roman influence in the third century B.C.') — tarihli kuruluş tanığı YOK => kur null. Arkeolojik: Attik siyah figürlü kylix (MÖ 6. yy sonu/5. yy başı) = ark. Treccani EI: modern Lecce antik kentle aynı alanı kaplamaz ama 'erede naturale' (Pleiades/Princeton noktası atlasla ~0,4 km); ayrı kayıt gerekmez."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0500-01-01",
+   "gun": "MÖ 6. yüzyıl sonu",
+   "kesinlik": "yuzyil",
+   "kaynak": "Princeton Encyclopedia of Classical Sites, 'Lupiae' (http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=lupiae)",
+   "tanik": "An Attic black-figure kylix (late 6th c. or early 5th c.) found at Lecce"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0043-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Appianos BC 3.10 (Octavianus'un Lupiae'de kalışı); Princeton 'Lupiae' ('The Romans probably founded Lupiae after the capture of Brindisi in 267 B.C.'); Livius.org 'Augustus' (t)",
+    "ic_not": "f = ilk tanık yılı (Appianos); şehrin Roma eline geçişi (Princeton: Brindisi'nin alınışından, MÖ 267, sonra) bu kaydın ilk tanığından ESKİDİR ve zincire yazılmadı. Roma Cumhuriyeti sahipliği Octavianus'un buradaki kalışından (Roma toprağı) örtüktür, beyanlı."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); Treccani EI 'Lecce' ('Municipio, inscritto nella tribù Camilia'; Marcus Aurelius dönemi imar)",
+    "ic_not": "Künye geçişi Cumhuriyet → İmparatorluk."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Theodosius I' (f), 'Romulus Augustulus' (t); Treccani EI 'Lecce' (Totila fetihlerine dek Batı ülkesi)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Apulia'nın Batı payında olması İtalya'nın Batı Roma'ya düşmesinden örtük; Lecce'ye özgü 395-476 tanığı açılmadı. t = künye bitişi 28 Ağustos 476; Livius.org 31 Ağustos verir (olay 31 Ağustos, ±30 gün)."
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0983-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Treccani EI 'Lecce' ('Conquistata da Totila, riconquistata dai Greci 5 anni dopo, risaccheggiata da Totila nel 549'; Benevento Lombardları; 'Saraceni, Greci, Longobardi'; Macarlar ve Slavlar 922, 926, 946; Saracenler 914-944); Treccani 'Lecce' ('Disputata per secoli tra Bizantini, Longobardi e Arabi')",
+    "ic_not": "Şehir VAR (Treccani: 6. yy ortasından sağlam piskoposluk tanığı) ama 507 yıllık aralık için SIRALI-TARİHLİ bir sahip dizisi kaynaktan çıkarılamadı: Treccani yalnız 'Totila ... Rumlar 5 yıl sonra ... Benevento Lombardları ... Saracenler/Rumlar/Lombardlar çekişir' der, günlerle bağlamaz (tek tarih: 549 Totila yağması; 914-944 Saracen akınları). Bir kuşağı aşan aralık => __BOSLUK__. Aranmadı: Erchempertus, Lupus Protospatharius, Gay (L'Italie méridionale et l'empire byzantin)."
+   },
+   {
+    "f": "0983-01-01",
+    "t": "1071-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Treccani EI 'Lecce' ('Dalla morte di Ottone II (983) in poi, rimase in possesso dei Bizantini'); Treccani EI 'Normanni' ('Nel 1071 ... cacciava finalmente i Bizantini dalla Puglia')",
+    "ic_not": "f yıl düzeyi: Ottone II 983 Aralık'ta ölür, Treccani yalnız yılı verir; yıl başı yazıldı. t en geç tanıktan: Lecce'nin Norman fethi yılı kaynakta YOK ('Conquistata dai Normanni', 'contea' XI. yy ikinci yarısı); Bizans'ın Apulia'dan tümüyle atıldığı 1071 güvenli uçtur (BEYANLI)."
+   },
+   {
+    "f": "1071-01-01",
+    "t": "1128-01-01",
+    "d": "apulya-dukaligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Treccani EI 'Lecce' ('Conquistata dai Normanni, aggregata alla contea di Puglia, fu eretta poi in contea a sé nella seconda metà del sec. XI'); Treccani EI 'Ruggero II' (t)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Lecce'ye özgü Norman fethi günü/yılı kaynakta yok (yukarıdaki beyan). t = 1128 (II. Ruggero Apulia dükalığını alır; künye geçişi)."
+   },
+   {
+    "f": "1128-01-01",
+    "t": "1281-01-01",
+    "d": "sicilya-kralligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Treccani EI 'Lecce' (Tancredi kontluğu, 20 Şubat 1194; Federico II → Manfredi; Carlo d'Angiò → Brienne'ler); Treccani EI 'Carlo I d'Angiò' (https://www.treccani.it/enciclopedia/carlo-i-d-angio-re-di-sicilia_(Enciclopedia-Italiana)/)",
+    "ic_not": "Bu dönem Norman, Staufen (Federico II, Manfredi) ve Anjou (Carlo I, 1266'dan) hanedanlarını kapsar — hepsi aynı devlet (sicilya-kralligi künyesi 1072-1282-03-30). t = atlasın ilk günü (atlas 'napoli'); dikiş borcu dikis_beyan'da."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0043-01-01",
+    "gun": "MÖ 44",
+    "k": "diger",
+    "b": "Octavianus Adriyatik'i geçip Lupiae'ye çıkar ve orada bir süre kalır (Lupiae'nin açık tarihli en eski yazılı tanığı).",
+    "kaynak": "Appianos, Emphylia 3.10 (H. White çevirisi), https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/3*.html",
+    "tanik": "out of the direct route, named Lupiae"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus istifa ettirilir; künye bitişi 28 Ağustos, Livius.org 31 Ağustos verir).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0549-01-01",
+    "gun": "549",
+    "k": "savas",
+    "b": "Totila Lecce'yi yağmalar (Treccani: önce fethedilir, Rumlar 5 yıl sonra geri alır, 549'da yeniden yağma).",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Lecce', https://www.treccani.it/enciclopedia/lecce_(Enciclopedia-Italiana)/",
+    "tanik": "risaccheggiata da Totila nel 549"
+   },
+   {
+    "t": "0983-01-01",
+    "gun": "983",
+    "k": "diger",
+    "b": "Ottone II'nin ölümünden sonra Lecce Bizans'ın elinde kalır (İtalya temi, Bari katepanı).",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Lecce', https://www.treccani.it/enciclopedia/lecce_(Enciclopedia-Italiana)/",
+    "tanik": "Dalla morte di Ottone II (983) in poi, rimase in possesso dei Bizantini"
+   },
+   {
+    "t": "1071-01-01",
+    "gun": "1071",
+    "k": "fetih",
+    "b": "Guiscard Bari'yi alır, Bizans'ı Apulia'dan atar (Lecce'nin Norman eline geçişinin güvenli sınırı).",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Normanni', https://www.treccani.it/enciclopedia/normanni_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1071, il Guiscardo, impadronendosi di Bari, cacciava finalmente i Bizantini dalla Puglia"
+   },
+   {
+    "t": "1128-01-01",
+    "gun": "1128",
+    "k": "diger",
+    "b": "künye geçişi: Apulya Dükalığı → Sicilya Krallığı (II. Ruggero papadan dükalığı alır; 1130'da kral).",
+    "kaynak": "Treccani, 'Ruggero II re di Sicilia', https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia/",
+    "tanik": "lo stesso pontefice dovette concedergli il ducato (1128)"
+   },
+   {
+    "t": "1194-02-20",
+    "gun": "20 Şubat 1194",
+    "k": "diger",
+    "b": "Lecce Kontu ve Sicilya Kralı Tancredi ölür; kontluk kızı Albira'ya, sonra Kraliyet demesine döner.",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Lecce', https://www.treccani.it/enciclopedia/lecce_(Enciclopedia-Italiana)/",
+    "tanik": "il 20 febbraio 1194, il quinto conte di Lecce, Tancredi"
+   }
+  ],
+  "ic_not": "ATLAS ÖNERİSİ: atlas 1281-01-01'den 'napoli' diyor; napoli künyesi 1282-03-30'da (Sicilya Vesperi, Treccani EI 'Carlo I d'Angiò': 31 Mart 1282) başlar => 1281-01-01→1282-03-30 arası Anjou yönetimi sicilya-kralligi olmalı (Brindisi, Avlonya için aynı öneri yapıldı). Çift teyit yok (Treccani EI + Treccani on-line aynı yayıncı). Kuruluş BULUNAMADI (efsane Malennius; Roma yeniden iskânı ~267). AÇILAMAYAN: Strabon 6.3.5 (Lupiae geçmedi), Plinius NH 3.101, Ptolemaios 3.1.12 (Perseus bölüm yapısı elverişsiz), Pausanias 6.19.9 yalnız Lupiae adını anar.",
+  "dikis_beyan": "Atlas Lecce'yi 1281-01-01'de 'napoli' ile başlatıyor; devletler.js napoli künyesi 1282-03-30'da başlar (Sicilya Vesperi). 1281'de şehir aynı Anjou yönetimindedir (Treccani EI 'Lecce': 'in potere dei Brienne, a cui era stata concessa da Carlo d'Angiò'; Carlo I 1266'dan kral). Zincir sicilya-kralligi ile 1281-01-01'de biter; 1281-01-01 için olay uydurulmadı, atlas düzeltmesi önerildi."
+ },
+ {
   "id": "leeuwarden-nl",
   "ad": "Leeuwarden",
   "atlas_ad": "Leeuwarden",
@@ -19208,6 +19823,143 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "León: Treccani 'probabilmente' Legio; arkeolojik ilk iskân MÖ 1. yy sonu (Salduie 2026). Yazılı ilk tanık bulunamadı (Legio VII Gemina 68-74 kuruluş tarihi hakemli kaynakla açılamadı). Vizigot dönemi ≈470 (Treccani Spagna, genel) – León'a özgü değil. Çelişkiler: Arap fethi TDV 713 / Treccani 717; Asturias-León başkent Treccani 909 / TDV 925; künye 910. Atlas 1281 'kastilya' uyumlu."
+ },
+ {
+  "id": "les-lissos-al",
+  "ad": "Leş (Lissos)",
+  "atlas_ad": "Leş (Alessio)",
+  "lat": 41.783,
+  "lon": 19.644,
+  "kat1900": 3,
+  "adlar": [
+   "Lissos (Lissus)",
+   "Alessio",
+   "Lezhë (Lezha, Lej)",
+   "Leş"
+  ],
+  "ilk": {
+   "t": "-0212-01-01",
+   "gun": "MÖ 213",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Polybios, Historiai 8.13 (E. S. Shuckburgh çevirisi, Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=8:chapter=15, bölüm başlığı 'Philip Takes Lissus in Illyria, B.C. 213'); TDV İslâm Ansiklopedisi, 'Leş' (https://islamansiklopedisi.org.tr/les)",
+   "tanik": "Philip had long had his thoughts fixed upon Lissus",
+   "ic_not": "İLK ANILIŞ olarak YERİ KESİN en eski tanık alındı. TDV 'Antik Lissos şehri tarihte ilk olarak milâttan önce 385 yılında zikredilmektedir' der (Diodoros 15.13: Syrakousai tyranni I. Dionysios Adriyatik'te 'Lissos' kurar; Shuckburgh çeviri notu da MÖ 385 verir). Ancak Vikipedi 'Lezhë' (tek kaynak, P. Cabanes'e atıfla) Diodoros'un Lissos'unun Lezhë değil Pharos (Hvar) yakını olabileceğini belirtir => 'yeri kesin olmayan ad eşitlemesi' kuralı (Emre, 13 Ekim) gereği başlangıç sayılmadı; eşitleme olay olarak yazıldı (-0384). Polybios'taki Lissos Ardaxanos (Drin) kıyısındaki kent ve Acrolissus kalesidir = Lezhë: yeri kesin. Kuşatma yılı: Perseus başlığı ve TDV 213; Vikipedi 211 verir (çelişki beyanı). Modern Leş ile antik Lissos aynı alan (Pleiades 481896: 41.784 K / 19.644 D); ayrı kayıt gerekmez."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0212-01-01",
+    "t": "-0167-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Polybios 8.13 (Philip V Lissos'u kuşatıp alır); Livius 44.30 (Gentius MÖ 168'de kuvvetlerini Lissos'ta toplar); TDV 'Leş' ('Mîlâttan önce 213 yılında Makedonyalı Filip'; 'milâttan önce 168 yılında Romalılar')",
+    "ic_not": "Şehir VAR; sahipler iki ucu belli ama ara tarihsiz: MÖ 213'te Makedon Kralı V. Philippos kenti alır (Polybios; ilk tanık anı aynı olaydır, kuşatma öncesi İlirya sahipliği zincire yazılmadı); MÖ 168'de kent İlirya Kralı Gentius'un toplanma yeridir (Livius 44.30.5) — Makedon'dan İlirya'ya dönüş tarihi kaynakta yok (Vikipedi: 'later recovered by the Illyrians'). 45 yıllık aralık ve iki ayrı sahip => __BOSLUK__ (kimlik uydurulmadı). Aranmadı: Livius 31-32 (II. Makedonya Savaşı İlirya sahası)."
+   },
+   {
+    "f": "-0167-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV 'Leş' ('milâttan önce 168 yılında Romalılar tarafından işgale uğramıştır'); Livius.org 'Augustus' (t)",
+    "ic_not": "f = MÖ 168 (-0167), Gentius'un yenilgisi ve İlirya'nın Roma'ya geçişi (TDV 'işgal'). Vikipedi: Roma iç savaşında Antonius tarafından alındı, Caesar'a bağlı kaldı."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); Vikipedi 'Lezhë' (Epirus Nova eyaleti)",
+    "ic_not": "Künye geçişi Cumhuriyet → İmparatorluk."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0592-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Livius.org 'Theodosius I' (f); TDV 'Leş' ('Barbar kavimlerin 592’deki işgali sırasında yıkıldı bir daha toparlanamadı')",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Leş'e özgü 395-592 Bizans sahipliği tanığı açılmadı; Epirus Nova'nın Doğu Roma payında olması (Vikipedi) ve Justinianus dönemi Alistion anışı (Vikipedi, Hierokles Synekdemos) örtük. t = TDV 592 (yıkım)."
+   },
+   {
+    "f": "0592-01-01",
+    "t": "1281-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Leş' ('bir daha toparlanamadı'; Anna Komnene'ye göre 'eski bir Bizans kalesi'; 'XIII. yüzyılda Sırbistan Devleti’ne dahil oldu'); Vikipedi 'Lezhë' ('frequently changed masters')",
+    "ic_not": "Yerleşimin VAR olup olmadığı ve sahibi bu 689 yıl için bilinmiyor: TDV kentin 592'de yıkıldığını ve toparlanamadığını, Anna Komnene'nin kaleyi 'eski Bizans kalesi' diye andığını (olaylar 1081-1118, kitap ~1148), Leş'in 'XIII. yüzyılda' Sırbistan'a katıldığını söyler (yıl yok). Vikipedi 9. yy başında Bizans denetiminin yeniden kurulduğunu ve 1386'ya dek 'sık sık el değiştirdiğini' yazar (tek kaynak). Aranmadı: Anna Komnene Alexias 3.12, 4.1 (Lezhë'nin Guiscard-Bohemund seferlerindeki yeri); Ducellier, 'La façade maritime de l'Albanie au Moyen Age' (1981)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0384-01-01",
+    "gun": "MÖ 385",
+    "k": "kurulus",
+    "b": "I. Dionysios Adriyatik'te 'Lissos' kenti kurar (Diodoros 15.13) — yeri Lezhë mi Pharos mu tartışmalı.",
+    "kaynak": "Polybios 8.13, Shuckburgh çeviri notu (Perseus), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=8:chapter=15",
+    "tanik": "Lissus founded by Dionysius of Syracuse, B. C. 385"
+   },
+   {
+    "t": "-0212-01-01",
+    "gun": "MÖ 213",
+    "k": "fetih",
+    "b": "V. Philippos Lissos'u kuşatıp alır (Polybios, Acrolissus kalesi hariç kent).",
+    "kaynak": "Polybios, Historiai 8.13 (Perseus), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=8:chapter=15",
+    "tanik": "Philip had long had his thoughts fixed upon Lissus"
+   },
+   {
+    "t": "-0167-01-01",
+    "gun": "MÖ 168",
+    "k": "fetih",
+    "b": "Romalılar İlirya'yı alır; Lissos Roma egemenliğine geçer (Gentius'un yenilgisi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Leş', https://islamansiklopedisi.org.tr/les",
+    "tanik": "milâttan önce 168 yılında Romalılar tarafından işgale uğramıştır"
+   },
+   {
+    "t": "-0167-01-01",
+    "gun": "MÖ 168",
+    "k": "savas",
+    "b": "Gentius tüm kuvvetlerini (15.000) Lissos'ta toplar, Roma'ya karşı sefere çıkar.",
+    "kaynak": "Livius, Ab urbe condita 44.30 (Perseus), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0149:book=44:chapter=30",
+    "tanik": "he collected all his forces, amounting to fifteen thousand men, at Lissus"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma/Bizans (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0592-01-01",
+    "gun": "592",
+    "k": "diger",
+    "b": "Barbar (Slav) kavimlerin istilâsında Lissos yıkılır, bir daha toparlanamaz.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Leş', https://islamansiklopedisi.org.tr/les",
+    "tanik": "Barbar kavimlerin 592’deki işgali sırasında yıkıldı bir daha toparlanamadı"
+   }
+  ],
+  "ic_not": "ATLAS ÖNERİSİ: atlas Leş'i 1281-01-01'de 'sirbistan-nemanjic' ile başlatıyor; TDV yalnız 'XIII. yüzyılda Sırbistan Devleti’ne dahil oldu' der (yıl yok) ve Vikipedi (tek kaynak) Leş'in 1386'ya dek 'sık sık el değiştirdiğini' yazar => 1281 başlangıcı KAYNAKSIZ; bu kayıtta BILINMIYOR → atlas dikişi dikis_beyan'dadır. Bulunamayan: 592-1281 sahip dizisi (Bulgar I. İmparatorluk, Bizans, Venedik, Epir, Anjou 'Arbanon' 1272, Sırp). Çift teyit yok. Atlas düzeltmesi önerisi: 1281-01-01 Sırp iddiası kaynaklanana dek BEYANLI/BOŞLUK.",
+  "dikis_beyan": "Atlas Leş'i 1281-01-01'de 'sirbistan-nemanjic' ile başlatıyor; kaynak yok: TDV 'Leş' yalnız 'XIII. yüzyılda Sırbistan Devleti’ne dahil oldu' der (yıl yok). 592 sonrası zincir __BILINMIYOR__; 1281 için olay uydurulmadı. Aranıp bulunamayan: Leş'in 1204-1290 arası sahipleri (Epir, Anjou Arbanon Krallığı, Sırp Draguţin/Milutin dönemi)."
  },
  {
   "id": "levice-sk",
@@ -21812,6 +22564,169 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "dikis_beyan": "Atlas Middelburg'u 1281-01-01'de 'almanya' ile başlatıyor; Treccani kenti Holland kontlarının kalesi çevresinde gösterir ve 1253'te kont II. Willem'in yanında yer alır. 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'hollanda-kontlugu' (boyalı künye var) olmalı mı yoksa Reich nominal üst efendi diye mi tutulur — Emre kararı.",
   "ic_not": "İlk anılış: Treccani (1934) 'fondata nel 1106' abdij; Treccani'nin kendi uyarısı: 'È incerta l'origine della città ... un grande incendio della fine del '200 distrusse ... l'archivio'. Çelişki: ikincil kaynaklar (Vikipedi 'Middelburg Abbey'; Zeeland turizm) abdij için c. 1100-1127 ve eski bir Karolenj kalesi (IX. yy, Viking karşıtı Walcheren kaleleri) verir — akademik birincil kaynak (Unger 1966 vb.) bu turda açılamadı; kuruluş ('kur') yazılmadı, Treccani'nin 1106'sı ilk anılış/nucleus olarak alındı. archimon.nl 403 verdi. Modern nokta aynı yer."
+ },
+ {
+  "id": "modon-methoni-gr",
+  "ad": "Modon (Methone)",
+  "atlas_ad": "Modon",
+  "lat": 36.8207,
+  "lon": 21.7075,
+  "kat1900": 3,
+  "adlar": [
+   "Mothone (Methone)",
+   "Modon",
+   "Methoni"
+  ],
+  "ilk": {
+   "t": "-0430-01-01",
+   "gun": "MÖ 431",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Thukydides 2.25.1 (Crawley çevirisi, Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=2:chapter=25); Treccani Enciclopedia Italiana, 'Modone' (https://www.treccani.it/enciclopedia/modone_(Enciclopedia-Italiana)/): 'Nel 431 a. C. gli Ateniesi tentarono d'impadronirsene'",
+   "tanik": "they landed in Laconia and made an assault upon Methone",
+   "ic_not": "İLK ANILIŞ (Peloponnesos Savaşı'nın ilk yazı, MÖ 431; Atina donanması Methone'yi Brasidas yetişip kurtarır), kuruluş DEĞİL. Kuruluş: Treccani EI 'abitata fino dall'epoca micenea, come dimostrano i frammenti ceramici' (ark); Sparta'nın Nauplia sürgünlerini burada iskân etmesi 'probabilmente nel sec. VI' (tarihsiz). TDV 'Modon' yalnız 'ilk defa 533’te bir Bizans kasabası olarak tarihî kayıtlarda görünür' der — TDV ortaçağ kapsamıdır, Thukydides'in Methone'sini kapsamaz (Treccani EI Modone = antik Metone'yi eşitler, Pleiades 570483 Methoni noktası ile atlas ~0,8 km). Homeros'un Pedasos'u ile eşitleme (Vikipedi) kesin değil => başlangıç sayılmadı; Treccani: 'Metone non compare tra le sette città omeriche'."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-1099-01-01",
+   "gun": "MÖ 1100 (Miken dönemi sonu)",
+   "kesinlik": "belirsiz",
+   "kaynak": "Treccani Enciclopedia Italiana, 'Modone' (https://www.treccani.it/enciclopedia/modone_(Enciclopedia-Italiana)/)",
+   "tanik": "Benché fosse abitata fino dall'epoca micenea, come dimostrano i frammenti ceramici"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0430-01-01",
+    "t": "-0368-01-01",
+    "d": "sparta",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Thukydides 2.25.1-2 (Methone Lakonia'da, Sparta'lı Brasidas koruma birliği komutanı); Treccani EI 'Modone' (Sparta Nauplialı sürgünleri yerleştirdi); Diodoros 15.66 (Epameinondas Messene'yi yeniden kurar)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Methone Sparta'nın Lakonia-Messenia kıyısında perioikos kenti (Thukydides: 'landed in Laconia'; 'Brasidas, son of Tellis, a Spartan, was in command of a guard'). t = Messene'nin yeniden kuruluşu (Vikipedi 'Messene': 369; Diodoros 15.66 yıl vermez): Treccani EI Nauplialıların bundan sonra da Methone'de kaldığını söyler ('che vi si mantennero anche dopo la ricostituzione della Messenia'), yani Methone'nin ardından Sparta'dan çıktığı kesin değildir; sınır en geç uçtur."
+   },
+   {
+    "f": "-0368-01-01",
+    "t": "-0030-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Treccani EI 'Modone' (III. yy'da Messenia'dan bağımsız, sonra otonom kent olarak Akhaia Birliği'ne girdi; 'Nel 31 a. C. Agrippa vi assediò e sconfisse il re di Mauretania Bogud, partigiano di Antonio')",
+    "ic_not": "Şehir VAR ama 339 yıllık aralık için sahip tek dizi vermiyor: Treccani 'III. yy başından Illyr korsanları', 'III. yüzyılda Messenia'dan bağımsız', 'Akhaia Birliği'ne (sonra) otonom girdi' (giriş yılı yok), MÖ 31'de Mauretania Kralı Bogud (Antonius yanlısı) ile Agrippa çatışması. Bir kuşağı aşan aralık => __BOSLUK__. Aranmadı: Polybios IV (Methone/Akhaia), Pausanias 4.35."
+   },
+   {
+    "f": "-0030-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Treccani EI 'Modone' (MÖ 31 Agrippa, özgürlük Augustus'ta kaybedilir); Livius.org 'Augustus' (t)",
+    "ic_not": "f = MÖ 31 (-0030): Agrippa'nın Bogud'u yenip Methone'yi almasından sonra Octavianus tarafı. Beyanlı: Treccani 'perduta la libertà al tempo di Augusto' der; ele geçiriş günü yok."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); Treccani EI 'Modone' (Traianus dönemi özgürlük)",
+    "ic_not": "Künye geçişi Cumhuriyet → İmparatorluk."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1125-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Livius.org 'Theodosius I' (f); TDV 'Modon' ('Modon ilk defa 533’te bir Bizans kasabası olarak tarihî kayıtlarda görünür'; '1125’te Venedikliler tarafından yerle bir edildi'); Treccani EI 'Modone' (1124)",
+    "ic_not": "t: TDV 1125, Treccani EI 1124 (bir yıl çelişkisi; TDV esas)."
+   },
+   {
+    "f": "1125-01-01",
+    "t": "1209-01-01",
+    "d": "__YOK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Modon' ('Zira kasaba 1205’te Frenkler Mora’yı ele geçirinceye kadar harabe halinde kalmıştı. Venedikliler 1209’da Modon’u tekrar alınca burayı yeniden iskân etmiş')",
+    "ic_not": "TDV'ye göre kasaba 1125'te Venedik'çe yerle bir edildi ve 1209'a dek harabe idi; İdrîsî (1153) 'surlarla çevrili kasaba' dese de TDV bunu 1125 öncesi duruma bağlar. KAYNAK ÇELİŞKİSİ (beyan): Treccani EI Champlitte'in 1205'te Modone'yi aldığını ve Villehardouin'in 1247'de Venedik'e bıraktığını yazar (1247 TDV'nin 1209'u ile çelişir; TDV esas); Vikipedi Venedik filosunun 1206/07'de Modon'u aldığını, Sapienza Antlaşması'nın (1209) mülkleri tanıdığını yazar. Atlasın Venedik 1209 başlangıcı TDV ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0430-01-01",
+    "gun": "MÖ 431",
+    "k": "savas",
+    "b": "Atina donanması Methone'ye saldırır; Brasidas yetişip kenti kurtarır.",
+    "kaynak": "Thukydides 2.25.1 (Perseus), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=2:chapter=25",
+    "tanik": "they landed in Laconia and made an assault upon Methone"
+   },
+   {
+    "t": "-0368-01-01",
+    "gun": "MÖ 369",
+    "k": "diger",
+    "b": "Epameinondas Messene'yi yeniden kurar (Sparta'nın Messenia üzerindeki egemenliği biter; Methone'nin akıbeti kaynakta ayrıca verilmez).",
+    "kaynak": "Diodoros Sikeliotes 15.66 (Perseus, Oldfather), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0084:book=15:chapter=66",
+    "tanik": "he founded Messene again, making it a populous city"
+   },
+   {
+    "t": "-0030-01-01",
+    "gun": "MÖ 31",
+    "k": "savas",
+    "b": "Agrippa Methone'yi kuşatıp Antonius yanlısı Mauretania Kralı Bogud'u yener.",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Modone', https://www.treccani.it/enciclopedia/modone_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 31 a. C. Agrippa vi assediò e sconfisse il re di Mauretania Bogud"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma/Bizans (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "1125-01-01",
+    "gun": "1125",
+    "k": "kayip",
+    "b": "Korsan yuvası haline gelen Modon Venedikliler tarafından yerle bir edilir (Treccani: 1124).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Modon', https://islamansiklopedisi.org.tr/modon",
+    "tanik": "1125’te Venedikliler tarafından yerle bir edildi"
+   },
+   {
+    "t": "1205-01-01",
+    "gun": "1205",
+    "k": "fetih",
+    "b": "IV. Haçlı Seferi sonrası Champlitte Mora'yı alır (Treccani: Modone'yi de).",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Modone', https://www.treccani.it/enciclopedia/modone_(Enciclopedia-Italiana)/",
+    "tanik": "Guglielmo di Champlette se ne impadronì nel 1205"
+   },
+   {
+    "t": "1209-01-01",
+    "gun": "1209",
+    "k": "fetih",
+    "b": "Venedikliler Modon'u alıp yeniden iskân eder (atlasın ilk dönemi: venedik 1209-01-01).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Modon', https://islamansiklopedisi.org.tr/modon",
+    "tanik": "Venedikliler 1209’da Modon’u tekrar alınca burayı yeniden iskân etmiş"
+   }
+  ],
+  "ic_not": "Kaynak çelişkisi (beyan): Venedik'e geçiş TDV 1209, Treccani EI 1247 (Villehardouin devri), Vikipedi 1206/07 + Sapienza 1209. 1125/1124 yıkım TDV/Treccani. Çift teyit: MÖ 431 Atina saldırısı Thukydides + Treccani (Treccani Thukydides'e dayanır, bağımsız sayılmadı). AÇILAMAYAN: Pausanias 4.35 (Mothone/Nauplialılar), Polybios, Prokopios (533). ATLAS: 1209 Venedik başlangıcı TDV ile uyumlu; düzeltme önerisi yok."
  },
  {
   "id": "mons-be",
@@ -28463,6 +29378,109 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Sefrû — atlas noktası 33.830,-4.836. Atlas 1281'de Merînî başlatıyor; zincir Merînî (1248, Fas'tan devralındı) ile birleşir (düzeltme gerekmez). ÇİFT TEYİT (sınırlı): ilk anılış 407 H (TDV ↔ Ibn Haldûn). ÇELİŞKİ: Murâbıt fethi 455 (1063, Ibn Haldûn iki yerde) ↔ 465 (1072, Roudh). Kuruluş tarihi bulunamadı (Bekrî'nin Fransızca çevirisi açılamadı). Künye önerisi: Vânüdîn kolu için magrave-sicilmase künyesi 1063'e genişletilmeli. Hicrî tarihler tablo takvimi (±1-2 gün)."
  },
  {
+  "id": "sehirkoy-pirot-rs",
+  "ad": "Şehirköy (Pirot)",
+  "atlas_ad": "Şehirköy (Pirot)",
+  "lat": 43.1531,
+  "lon": 22.5861,
+  "kat1900": 2,
+  "adlar": [
+   "Turres",
+   "Aturuni (Atrubi)",
+   "Pirotte",
+   "Pirot",
+   "Şehirköy"
+  ],
+  "ilk": {
+   "t": "0300-01-01",
+   "gun": "3. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Şehirköy' (https://islamansiklopedisi.org.tr/sehirkoy); Vikipedi 'Pirot' (Roma yerleşimi Turres 3. yy'ın ilk yarısında anılır; ikinci tanık)",
+   "tanik": "Şehirköy’ün Roma dönemindeki ilk izlerine III. yüzyılda Tabula Peutingeriana’da rastlanır",
+   "ic_not": "İLK ANILIŞ (Turres, Niş-Sofya yolunda gözetleme kulesi), kuruluş DEĞİL. TDV 'III. yüzyıl'; Tabula Peutingeriana'nın bilinen kopyası ortaçağdır, haritanın kaynağı 4.-5. yy sanılır (TDV'nin III. yy tarihi tartışmalı olabilir, beyan). Yüzyılın son yılı (300) güvenli uç. Vikipedi 'Turres' için 3. yy ilk yarısı der. Antik Turres'in Pirot kalesi ile aynı nokta olduğu TDV'de 'sanılmaktadır' kipindedir (kesin değil): eşitleme beyanı; modern nokta ile ayrı kayıt gerekip gerekmediği ölçülemedi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0300-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "yuzyil",
+     "t": "gun"
+    },
+    "kaynak": "TDV 'Şehirköy' (Turres, Niş-Sofya yolu); Vikipedi 'Pirot' (Moesia Superior; 4. yy sonunda Dacia Mediterranea); Livius.org 'Theodosius I' (t)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Turres'in Roma topraklarında oluşu Roma yolu/kule ve Vikipedi'deki eyalet bilgisinden çıkarım."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0600-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Livius.org 'Theodosius I' (f); TDV 'Şehirköy' ('Bu kule 600’lü yıllarda Slav istilâsı sırasında yok edilmiştir'); Vikipedi 'Pirot' (Prokopios Justinianus onarımları)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Şehirköy'e özgü 395-600 Bizans tanığı açılmadı (Justinianus dönemi Quimedava kalesi Vikipedi'de). t: TDV '600’lü yıllarda' (7. yy ya da ~600) => en erken uç 0600 yazıldı."
+   },
+   {
+    "f": "0600-01-01",
+    "t": "1163-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Şehirköy' ('Bu kule 600’lü yıllarda Slav istilâsı sırasında yok edilmiştir'; 'X. yüzyılın ikinci yarısında Bizanslılar’ca inşa edilmiş olması muhtemeldir'; 'Kale ilk defa 1163’te Şerîf el-İdrîsî tarafından Aturuni (kule) diye zikredilmiş')",
+    "ic_not": "Yerleşimin VAR olup olmadığı bu 563 yıl için bilinmiyor: TDV kulenin Slav istilâsında yok edildiğini, kalenin kim tarafından ne zaman yapıldığının bilinmediğini ('muhtemelen X. yy ikinci yarısı Bizans') söyler; ilk tarihli tanık İdrîsî 1163. Vikipedi (tek kaynak) Bulgar I. Devleti'nin bölgeyi IX. yy başından tuttuğunu ve Burizi/İdrîsî 1153'te Atrubi'yi anar der."
+   },
+   {
+    "f": "1163-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Şehirköy' (Bulgaristan, Sırbistan ve Bizans sınırında 'tarihte birçok defa el değiştirmiştir'); Vikipedi 'Pirot' (1182-83 Nemanja, 1190 Isaac II geri alır, XII. yy sonu Bulgar, 1370'lerde Sırp olması 'bazı yazarlar')",
+    "ic_not": "Kale VAR (İdrîsî 1163) ama sahibi 118 yıl boyunca tarihli verilemiyor: TDV yalnız sınır bölgesi olduğunu ve el değiştirdiğini söyler; Vikipedi (tek kaynak) 1182-83'te Sırp (Nemanja) fethi, 1190'da Bizans geri alışı, XII. yy sonundan Bulgar durumu, Sırp bağlantısının 1370'lerde olabileceğini (bazı yazarlar) yazar. => __BOSLUK__."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0300-01-01",
+    "gun": "3. yüzyıl",
+    "k": "diger",
+    "b": "Turres (Şehirköy) Tabula Peutingeriana'da Niş-Sofya yolunda gözetleme kulesi olarak anılır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Şehirköy', https://islamansiklopedisi.org.tr/sehirkoy",
+    "tanik": "Şehirköy’ün Roma dönemindeki ilk izlerine III. yüzyılda Tabula Peutingeriana’da rastlanır"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma/Bizans (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0600-01-01",
+    "gun": "600'lü yıllar",
+    "k": "kayip",
+    "b": "Slav istilâsında Roma/Bizans kulesi yok edilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Şehirköy', https://islamansiklopedisi.org.tr/sehirkoy",
+    "tanik": "Bu kule 600’lü yıllarda Slav istilâsı sırasında yok edilmiştir"
+   },
+   {
+    "t": "1163-01-01",
+    "gun": "1163",
+    "k": "diger",
+    "b": "Kale ilk kez İdrîsî tarafından 'Aturuni (kule)' diye anılır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Şehirköy', https://islamansiklopedisi.org.tr/sehirkoy",
+    "tanik": "Kale ilk defa 1163’te Şerîf el-İdrîsî tarafından Aturuni (kule) diye zikredilmiş"
+   }
+  ],
+  "ic_not": "ATLAS ÖNERİSİ: atlas Şehirköy'ü 1281-01-01'de 'sirbistan' ile başlatıyor; TDV bu tarihi vermez (bölge sınırında el değiştirdi), Vikipedi (tek kaynak) XII. yy sonundan Bulgar, Sırp bağlantısını 1370'lere (bazı yazarlar) koyar => atlasın 1281 Sırp başlangıcı KAYNAKSIZDIR (düzeltme/BEYAN adayı). Not: TDV Tabula Peutingeriana 'III. yüzyıl' tarihlemesi; haritanın kaynak tarihi Vikipedi'de 'first half of 3rd century' ile uyumlu. Çift teyit yok. AÇILAMAYAN: Prokopios De aedificiis 4.4 (Quimedava), İdrîsî 1153/1163 metni, Tabula Peutingeriana.",
+  "dikis_beyan": "Atlas Şehirköy'ü 1281-01-01'de 'sirbistan' ile başlatıyor; kaynak yok: TDV yalnız 'Bulgaristan, Sırbistan ve Bizans sınırında hassas bir bölgede yer alan şehir tarihte birçok defa el değiştirmiştir' der, Vikipedi (tek kaynak) XII. yy sonundan Bulgar egemenliği yazar. 1163-1281 zincirimiz __BOSLUK__; 1281 için olay uydurulmadı."
+ },
+ {
   "id": "semendire-rs",
   "ad": "Semendire (Smederevo)",
   "atlas_ad": "Semendire",
@@ -31298,6 +32316,283 @@ window.SEHIR_TARIHCE_K3 = [
   "dikis_beyan": "Atlas Tanca'yı 1273-01-01'de 'merini' ile başlatıyor; zincirin son sahibi 'azafi-sebte' (Ceuta Azefîleri, ~1271-72'den). Merînî fethi 672 H = 1273-07-18'den sonra (TDV 672/1273-74; Ibn Haldûn 'juillet-août 1273') — atlas günü kaynaktan ~6,5 ay önce; yer tutucu olay yazılmadı."
  },
  {
+  "id": "taranto-taras-it",
+  "ad": "Taranto (Taras)",
+  "atlas_ad": "Taranto",
+  "lat": 40.472,
+  "lon": 17.243,
+  "kat1900": 3,
+  "adlar": [
+   "Taras",
+   "Tarentum",
+   "Neptunia",
+   "Taranto"
+  ],
+  "ilk": {
+   "t": "-0705-01-01",
+   "gun": "MÖ 706",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Treccani Enciclopedia Italiana, 'Taranto' (Eusebios kronolojisi: https://www.treccani.it/enciclopedia/taranto_(Enciclopedia-Italiana)/); Pleiades 442810 'Taras/Tarentum/Neptunia' (https://pleiades.stoa.org/places/442810)",
+   "tanik": "la cronologia tradizionale (in Eusebio) assegnava la data del 706 a. C.",
+   "ic_not": "ÇİFT TEYİT (yıl, gelenek): Treccani EI 'Eusebio' kronolojisi MÖ 706; Pleiades/Barrington Atlas 'A Greek colonial city founded in 706 B.C.' (aynı gelenek, bağımsız sayılmaz). Treccani EI AYRICA modern bilginin kuruluşu daha eskiye çektiğini yazar: 'il sorgere di Taranto deve piuttosto ... farsi risalire ad età più antica, sicuramente alla prima metà del sec. VIII' (MÖ 800-751) => güvenli uç olarak MÖ 706 (-0705) alındı, daha erken uç beyan. Kurucu: Spartalı Partheniai, Phalanthos (Antiochos/Ephoros, Strabon 6.3.2'den; Strabon metni açılmadı). Antik Taras ile modern nokta aynı (Pleiades 40.474 K / 17.233 D, atlas ~0,9 km)."
+  },
+  "kur": {
+   "t": "-0705-01-01",
+   "gun": "MÖ 706",
+   "kesinlik": "yil",
+   "kaynak": "Treccani Enciclopedia Italiana, 'Taranto' (https://www.treccani.it/enciclopedia/taranto_(Enciclopedia-Italiana)/)",
+   "tanik": "la cronologia tradizionale (in Eusebio) assegnava la data del 706 a. C."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0705-01-01",
+    "t": "-0279-01-01",
+    "d": "taras-sehir-devleti",
+    "kesinlik": "yil",
+    "kaynak": "Treccani EI 'Taranto' (Spartalı koloni; Tarentum'un Roma ile savaşı 281'de başlar, Pyrrhos 280-275)",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'taras-sehir-devleti' (Taras polisi, Sparta kolonisi, MÖ 8. yy - MÖ 280). Dönem içinde Molossos Alexandros (334), Kleonymos (303-302) gibi müttefik komutanlar gelir ama kent bağımsızdır (Treccani). t = Pyrrhos'un gelişi (MÖ 280, Treccani)."
+   },
+   {
+    "f": "-0279-01-01",
+    "t": "-0271-01-01",
+    "d": "epir",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Treccani EI 'Taranto' ('Pirro, re dell'Epiro (280-275 a. C.)'; 'poi (272 a. C.) Milone si risolse a consegnare Taranto ai Romani'; numismatik 'egemonia di Pirro (281-272)')",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Taranto Pyrrhos'un yardımına başvurur; Pyrrhos 275'te İtalya'dan ayrılır, Epirus garnizonu (komutan Milon) 272'ye dek kalır. Treccani nümismatik bölümü 'Pirro hegemonyası 281-272' der (281/280 çelişkisi beyan). Epir künyesi (Molossia) -0369..-0231."
+   },
+   {
+    "f": "-0271-01-01",
+    "t": "-0211-01-01",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Treccani EI 'Taranto' ('Taranto dové così assoggettarsi ad entrare in alleanza con Roma, a condizioni assai dure'; 'periodo dell'alleanza romana (272-235-228)')",
+    "ic_not": "Roma ile ağır koşullu 'alleanza' (tâbi müttefik, sikke basma hakkı sürer) — fiilî ilhak değil, beyanlı yaklaşıklık."
+   },
+   {
+    "f": "-0211-01-01",
+    "t": "-0208-01-01",
+    "d": "kartaca",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Treccani EI 'Taranto' (numismatik: 'periodo decimo è contemporaneo dell'occupazione annibalica (212-209)')",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Hannibal kenti (kale hariç) MÖ 212'de alır, 209'da Roma geri alır (Treccani yalnız 'occupazione annibalica (212-209)' der; Livius 25.8-11, 27.15-16 açılmadı)."
+   },
+   {
+    "f": "-0208-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Treccani EI 'Taranto' ('dopo la guerra sociale, in municipio romano'; 'nel 90 fu eretta a municipio' — Treccani on-line); Livius.org 'Augustus' (t)",
+    "ic_not": "Künye geçişi Cumhuriyet → İmparatorluk 16 Ocak MÖ 27 (Livius.org)."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); Treccani EI 'Taranto' ('sotto l'Impero, si latinizzò rapidamente')",
+    "ic_not": "Künye geçişi."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Theodosius I' (f), 'Romulus Augustulus' (t)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Apulia'nın Batı payında olması İtalya'nın Batı Roma'ya düşmesinden örtük; Taranto'ya özgü 395-476 tanığı açılmadı. t = künye bitişi 28 Ağustos 476; Livius.org 31 Ağustos."
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0549-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Treccani EI 'Taranto' ('Difesa a lungo contro i Goti da Giovanni capitano di Belisario, fu conquistata da Totila (549)')",
+    "ic_not": "Şehir VAR; Odoacer/Ostrogot/Bizans (Belisarius'un komutanı Ioannes'in savunması) sırası Treccani'de tarihli verilmez: Gotlar Taranto'yu 'uzun süre' kuşatır. 73 yıl ve üç olası sahip (Odoakar, Doğu Got, Bizans) => __BOSLUK__ (kimlik uydurulmadı)."
+   },
+   {
+    "f": "0549-01-01",
+    "t": "0552-01-01",
+    "d": "dogu-got",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Treccani EI 'Taranto' ('fu conquistata da Totila (549)'); Treccani 'Taranto' ('Conquistata da Totila (549) e ripresa da Narsete (552)')",
+    "ic_not": "t = 552 Narses'in geri alışı (Treccani on-line); Doğu Got künyesi 553'te biter."
+   },
+   {
+    "f": "0552-01-01",
+    "t": "0967-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Treccani 'Taranto' ('ripresa da Narsete (552), espugnata dai Longobardi, tornata all’imperatore Costantino II (663), poi in mano a Romualdo duca longobardo di Benevento, nel corso del 9° sec. T. passò alternativamente dai Bizantini ai Saraceni'); Treccani EI 'Taranto' (Saracenler 846, 868; Venedik Urso 864; Basileios 880; Saracenler 15 Ağustos 927)",
+    "ic_not": "Şehir VAR; 415 yıl boyunca Bizans, Lombard (Benevento), yeniden Bizans, Saracen ve Bizans arasında tarihsiz ya da yüzyıl içinde defalarca el değiştirir: tek tarihler 663 (Konstans II) ve 846/868/927 (Saracen akınları/fetihleri); Lombard fetih yılı ve Romualdo devri tarihsiz. Ardışık sahip dizisi kurulamadı => __BOSLUK__. Aranmadı: Paulus Diaconus HL 6.1 (Romualdo II, Taranto-Brindisi), Erchempertus, Lupus Protospatharius."
+   },
+   {
+    "f": "0967-01-01",
+    "t": "1063-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Treccani 'Taranto' ('finché l’imperatore Niceforo II Foca la riprese nel 967'; 'Occupata nel 1063 da Roberto il Guiscardo')",
+    "ic_not": "Treccani EI Taranto'nun Normanlar Apulia'yı aldıktan sonra da 'bir yüzyıla yakın' Rum direnişinin çekirdeği kaldığını yazar (EI) — Treccani on-line 1063 verir; iki Treccani metni arasında çelişki beyan edildi, on-line 1063 esas alındı."
+   },
+   {
+    "f": "1063-01-01",
+    "t": "1128-01-01",
+    "d": "apulya-dukaligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Treccani 'Taranto' ('Occupata nel 1063 da Roberto il Guiscardo'); Treccani EI 'Taranto' (Boemondo d'Altavilla'ya prenslik); Treccani EI 'Ruggero II' (t)",
+    "ic_not": "Boemondo I Taranto Prensliği (Vikipedi: 1088-1465, Sicilya Krallığı vasalı) apulya-dukaligi içinde bir lenttir; 'taranto-prensligi' künyesi (1088-1465, renksiz) VAR ama tâbi lenttir, sahip olarak ana devlet yazıldı. t = II. Ruggero Apulia dükalığını alır (1128)."
+   },
+   {
+    "f": "1128-01-01",
+    "t": "1281-01-01",
+    "d": "sicilya-kralligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Treccani EI 'Ruggero II' (1128); Treccani EI 'Taranto' (Tancredi, Federico II, Manfredi, 'Si mantenne a lungo fedele agli Angioini'); Treccani EI 'Carlo I d'Angiò' (https://www.treccani.it/enciclopedia/carlo-i-d-angio-re-di-sicilia_(Enciclopedia-Italiana)/)",
+    "ic_not": "Norman, Staufen (Federico II'ye isyan sonrası boyun eğdi; Manfredi) ve Anjou (Carlo I 1266'dan) hanedanlarını kapsar — hepsi sicilya-kralligi künyesi (1072-1282-03-30). t = atlasın ilk günü; dikiş borcu dikis_beyan'da."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0279-01-01",
+    "gun": "MÖ 280",
+    "k": "savas",
+    "b": "Pyrrhos Roma'ya karşı Taras'ın yardımına gelir.",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Taranto', https://www.treccani.it/enciclopedia/taranto_(Enciclopedia-Italiana)/",
+    "tanik": "soccorsa dall'intervento di Pirro, re dell'Epiro (280-275 a. C.)"
+   },
+   {
+    "t": "-0271-01-01",
+    "gun": "MÖ 272",
+    "k": "antlasma",
+    "b": "Epirus garnizon komutanı Milon Taras'ı Romalılar'a teslim eder.",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Taranto', https://www.treccani.it/enciclopedia/taranto_(Enciclopedia-Italiana)/",
+    "tanik": "poi (272 a. C.) Milone si risolse a consegnare Taranto ai Romani"
+   },
+   {
+    "t": "-0211-01-01",
+    "gun": "MÖ 212",
+    "k": "isgal",
+    "b": "Hannibal Taras'ı (kale hariç) ele geçirir.",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Taranto', https://www.treccani.it/enciclopedia/taranto_(Enciclopedia-Italiana)/",
+    "tanik": "occupazione annibalica (212-209)"
+   },
+   {
+    "t": "-0208-01-01",
+    "gun": "MÖ 209",
+    "k": "fetih",
+    "b": "Roma Taras'ı Hannibal'dan geri alır.",
+    "kaynak": "Treccani Enciclopedia Italiana, 'Taranto', https://www.treccani.it/enciclopedia/taranto_(Enciclopedia-Italiana)/",
+    "tanik": "occupazione annibalica (212-209)"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus istifa ettirilir; künye bitişi 28 Ağustos, Livius.org 31 Ağustos verir).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0549-01-01",
+    "gun": "549",
+    "k": "fetih",
+    "b": "Totila Taranto'yu ele geçirir (Belisarius'un komutanı Ioannes uzun süre savunmuştur).",
+    "kaynak": "Treccani, 'Taranto', https://www.treccani.it/enciclopedia/taranto/",
+    "tanik": "Conquistata da Totila (549) e ripresa da Narsete (552)"
+   },
+   {
+    "t": "0552-01-01",
+    "gun": "552",
+    "k": "fetih",
+    "b": "Narses (Bizans) Taranto'yu Totila'nın halefi Teia'nın yenilgisinden sonra geri alır.",
+    "kaynak": "Treccani, 'Taranto', https://www.treccani.it/enciclopedia/taranto/",
+    "tanik": "Conquistata da Totila (549) e ripresa da Narsete (552)"
+   },
+   {
+    "t": "0663-01-01",
+    "gun": "663",
+    "k": "fetih",
+    "b": "İmparator Konstans II (Treccani: 'Costantino II') Taranto'yu Lombardlar'dan alır (Lombard fethi tarihsiz).",
+    "kaynak": "Treccani, 'Taranto', https://www.treccani.it/enciclopedia/taranto/",
+    "tanik": "tornata all’imperatore Costantino II (663)"
+   },
+   {
+    "t": "0967-01-01",
+    "gun": "967",
+    "k": "fetih",
+    "b": "II. Nikephoros Phokas Taranto'yu Saracenler'den geri alır ve surlarla donatır.",
+    "kaynak": "Treccani, 'Taranto', https://www.treccani.it/enciclopedia/taranto/",
+    "tanik": "finché l’imperatore Niceforo II Foca la riprese nel 967"
+   },
+   {
+    "t": "1063-01-01",
+    "gun": "1063",
+    "k": "fetih",
+    "b": "Robert Guiscard Taranto'yu ele geçirir.",
+    "kaynak": "Treccani, 'Taranto', https://www.treccani.it/enciclopedia/taranto/",
+    "tanik": "Occupata nel 1063 da Roberto il Guiscardo"
+   },
+   {
+    "t": "1128-01-01",
+    "gun": "1128",
+    "k": "diger",
+    "b": "künye geçişi: Apulya Dükalığı → Sicilya Krallığı (II. Ruggero dükalığı alır; 1130'da kral).",
+    "kaynak": "Treccani, 'Ruggero II re di Sicilia', https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia/",
+    "tanik": "lo stesso pontefice dovette concedergli il ducato (1128)"
+   }
+  ],
+  "ic_not": "ATLAS ÖNERİSİ: atlas 1281-01-01'den 'napoli' diyor; napoli künyesi 1282-03-30'da başlar (Sicilya Vesperi 31 Mart 1282, Treccani EI 'Carlo I d'Angiò') => 1281-01-01→1282-03-30 sicilya-kralligi olmalı (Brindisi/Lecce ile aynı). Çift teyit: yok (iki Treccani metni aynı yayıncı); 706 geleneği Treccani + Pleiades bağımsız sayılmaz. AÇILAMAYAN: Strabon 6.3.2 (Antiochos-Ephoros, Perseus sayfası açıldı, yer araması yapılmadı), Livius 25-27 (Hannibal), Paulus Diaconus. Bohemund'un Taranto Prensliği (1088) için 'taranto-prensligi' künyesi var ama renksiz; ana devlet yazıldı.",
+  "dikis_beyan": "Atlas Taranto'yu 1281-01-01'de 'napoli' ile başlatıyor; devletler.js napoli künyesi 1282-03-30'da başlar (Sicilya Vesperi). 1281'de şehir aynı Anjou yönetimindedir (Treccani EI 'Taranto': 'Si mantenne a lungo fedele agli Angioini'). Zincir sicilya-kralligi ile 1281-01-01'de biter; olay uydurulmadı, atlas düzeltmesi önerildi."
+ },
+ {
   "id": "tarudant-ma",
   "ad": "Tarûdant",
   "atlas_ad": "Tarûdant",
@@ -31535,6 +32830,176 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Tâze (Taza) — atlas noktası 34.210,-4.010. Atlas 1281'de Merînî başlatıyor; zincir Merînî ile (1248'den) sürüp atlasla birleşir (düzeltme gerekmez). ÇİFT TEYİT: ilk anılış (TDV ↔ Roudh 305 H); Merînî fethi 646 H (TDV Muvahhidler ↔ Roudh Safer 646). Kuruluş tarihi bulunamadı; 'Taza' adı Miknâse yerleşiminin sürekliliği (Tesûl-Tâzâ) ile Muvahhid Rabat-Taza (Tafersift) ribâtının aynı nokta olup olmadığı açılan kaynaklarda net değil — Ribât Taza ile eski Tâzâ arasındaki mesafe ölçülmedi, >3 km ise ayrı kayıt gerekebilir. Hicrî tarihler tablo takvimiyle (±1-2 gün). Boyasız/künyesiz: miknase (kunye_yok). Encyclopédie berbère 'Taza' maddesi OpenEdition Anubis bot koruması nedeniyle AÇILMADI."
+ },
+ {
+  "id": "tirhala-trikka-gr",
+  "ad": "Tırhala (Trikka)",
+  "atlas_ad": "Tırhala",
+  "lat": 39.555,
+  "lon": 21.768,
+  "kat1900": 2,
+  "adlar": [
+   "Trikka (Trikke, Tricca)",
+   "Trikala",
+   "Tırhala"
+  ],
+  "ilk": {
+   "t": "-0700-01-01",
+   "gun": "MÖ 8. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Homeros, Ilias 2.729 (A. T. Murray çevirisi, Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0134:book=2:card=729); Homeros'un tarihi için TDV 'Yenişehir' ('Homeros (m.ö. VIII. yüzyıl)', https://islamansiklopedisi.org.tr/yenisehir); Pleiades 541163",
+   "tanik": "they that held Tricca and Ithome of the crags",
+   "ic_not": "İLK ANILIŞ (Gemi Kataloğu: Asklepios'un oğulları Podaleirios ve Machaon'un komuta ettiği Trikka), kuruluş DEĞİL. İlyada'nın yazım tarihi tek yıl değildir; TDV Homeros'u MÖ 8. yüzyıla koyar, yüzyılın son yılı (MÖ 701 = -0700) güvenli uç alındı. TDV 'Tırhala': 'Antik dönemde Trikka denilen Tırhala, Yunanistan’ın en eski şehirlerinden biridir' ve kalede erken Bronz çağına inen buluntular (ark). Modern kent antik Trikka ile aynı (Pleiades 541163: 39.569 K / 21.783 D, atlas ~2 km), ayrı kayıt gerekmez. Strabon 9.5.17 (Asklepieion) açılmadı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-2000-01-01",
+   "gun": "MÖ 3. binyıl",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tırhala' (https://islamansiklopedisi.org.tr/tirhala)",
+   "tanik": "Kalede yapılan arkeolojik çalışmalarda erken dönem Bronz çağından günümüze kadar gelen malzemelere rastlanmıştır"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0700-01-01",
+    "t": "-0351-01-01",
+    "d": "trikka-sehir-devleti",
+    "kesinlik": "yuzyil",
+    "kaynak": "Homeros Ilias 2.729 (Trikka); TDV 'Tırhala' ('Burası milâttan önce 352’de Makedonya Kralı II. Filip (Philippos) tarafından ele geçirildi'); Vikipedi 'Trikala' (MÖ 480'de Pers, 470 dolayı Tesalya para birliği)",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'trikka-sehir-devleti' (Tesalya'nın Hestiaiotis bölgesinin merkezi Trikka polisi; Tesalya konfederasyonu içinde). Başlangıç Homeros'un yüzyıl hassasiyeti (güvenli uç -0700). t = TDV: MÖ 352 (-0351) Philippos II fethi."
+   },
+   {
+    "f": "-0351-01-01",
+    "t": "-0195-01-01",
+    "d": "makedonya-krallik",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Tırhala' (352); TDV 'Yenişehir' ('ve 150 yıl boyunca Makedonya Devleti’ne bağlı kaldı')",
+    "ic_not": "t en geç tanıktan: TDV 'Yenişehir' Larissa ve 'Tesalya’nın tamamı' için MÖ 346'dan 150 yıl (≈ MÖ 196 = -0195, II. Makedonya Savaşı sonu) der; Trikala'ya özgü çözülüş tarihi açılmadı (beyanlı yaklaşıklık)."
+   },
+   {
+    "f": "-0195-01-01",
+    "t": "-0145-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Yenişehir' (Makedonya'ya 150 yıl bağlı), TDV 'Tırhala' ('Milâttan önce 146’da Tırhala ve bütün Tesalya bölgesi Roma İmparatorluğu’na dahil oldu')",
+    "ic_not": "Makedon egemenliğinin bitişi (≈196) ile Roma'ya dahil oluşu (146) arası 50 yıl Tesalya Birliği/Roma himayesidir; Trikala'ya özgü kaynak yok (kimlik uydurulmadı)."
+   },
+   {
+    "f": "-0145-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV 'Tırhala' (146); Livius.org 'Augustus' (t)",
+    "ic_not": "TDV 'Roma İmparatorluğu' der; MÖ 146'da Cumhuriyet'tir, künye geçişi 16 Ocak MÖ 27 (Livius.org)."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); Vikipedi 'Trikala' (Gotlar 396 baskını)",
+    "ic_not": "Künye geçişi."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1204-04-13",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Theodosius I' (f); TDV 'Tırhala' (Barbar istilâsı, Iustinianos onarımı; Anna Komnene 1082-1083 Norman istilâsı); TDV 'İstanbul' (13 Nisan 1204)",
+    "ic_not": "V.-VI. yy barbar yıkımı ve Iustinianos'un (527-565) onarımı, 986-1000 Bulgar akınları (Vikipedi), 1082-1083 Norman işgali (Anna Komnene'den TDV) süresi bilinmeyen/kısa olduğundan dönem açılmadı, Bizans'la sürer. t = IV. Haçlı Seferi (13 Nisan 1204)."
+   },
+   {
+    "f": "1204-04-13",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Tırhala' ('yarı bağımsız Bizans despotlukları, Katalanlar, Epir’deki Franklar ve Bizans İmparatorluğu arasında sık sık el değiştirdi'); Vikipedi 'Trikala' (Epir Despotluğu 1259'a dek, 1259'da İznik)",
+    "ic_not": "Şehir VAR; TDV XIII-XIV. yy için sahibi tarihlemez; Vikipedi (tek kaynak, TIB/Soustal atfıyla) Frank eline düşmediğini, Epir Despotluğu'na katıldığını ve 1259'da (Pelagonia'dan sonra) İznik'e geçtiğini yazar — ikinci bağımsız tanık bulunamadığından __BOSLUK__. Aranmadı: Soustal, Tabula Imperii Byzantini 3 (1981); Nicol, Despotate of Epiros (1957)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0700-01-01",
+    "gun": "MÖ 8. yüzyıl",
+    "k": "diger",
+    "b": "Trikka İlyada'nın Gemi Kataloğu'nda anılır (Asklepios'un oğulları).",
+    "kaynak": "Homeros, Ilias 2.729 (Perseus, A. T. Murray), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0134:book=2:card=729",
+    "tanik": "they that held Tricca and Ithome of the crags"
+   },
+   {
+    "t": "-0351-01-01",
+    "gun": "MÖ 352",
+    "k": "fetih",
+    "b": "Makedon Kralı II. Philippos Trikka'yı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Tırhala', https://islamansiklopedisi.org.tr/tirhala",
+    "tanik": "Burası milâttan önce 352’de Makedonya Kralı II. Filip (Philippos) tarafından ele geçirildi"
+   },
+   {
+    "t": "-0195-01-01",
+    "gun": "MÖ 196",
+    "k": "antlasma",
+    "b": "Tesalya'nın Makedon bağı çözülür (TDV: 150 yıl bağlı; II. Makedonya Savaşı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yenişehir' (Larissa), https://islamansiklopedisi.org.tr/yenisehir",
+    "tanik": "ve 150 yıl boyunca Makedonya Devleti’ne bağlı kaldı"
+   },
+   {
+    "t": "-0145-01-01",
+    "gun": "MÖ 146",
+    "k": "fetih",
+    "b": "Tırhala ve bütün Tesalya Roma'ya dahil olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Tırhala', https://islamansiklopedisi.org.tr/tirhala",
+    "tanik": "Milâttan önce 146’da Tırhala ve bütün Tesalya bölgesi Roma İmparatorluğu’na dahil oldu"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma/Bizans (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "1082-01-01",
+    "gun": "1082-1083",
+    "k": "isgal",
+    "b": "Bohemund komutasındaki Normanlar Trikala'yı işgal eder (Anna Komnene).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Tırhala', https://islamansiklopedisi.org.tr/tirhala",
+    "tanik": "Anna Komnini’nin eserinde Trikala adı, 1082-1083’teki Normandiya işgali vesilesiyle zikredilir"
+   },
+   {
+    "t": "1204-04-13",
+    "gun": "13 Nisan 1204",
+    "k": "fetih",
+    "b": "IV. Haçlı Seferi İstanbul'u zapteder (Bizans'ın merkezî otoritesi çöker). Tırhala'nın sonraki sahibi kaynakta tarihli değildir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İstanbul', https://islamansiklopedisi.org.tr/istanbul",
+    "tanik": "Bunun üzerine Haçlılar şehri zaptettiler (13 Nisan 1204)"
+   }
+  ],
+  "ic_not": "ATLAS ÖNERİSİ: atlas 1281-01-01'den 1311'e dek 'bizans' diyor; Vikipedi 'Trikala' 1259-1332 arası Bizans (Epir 1259'a dek) der ama TDV 'XIII ve XIV. asırlardaki karışık yıllar' diyerek tarihli sahip vermez: 1281 başlangıcı TDV ile çelişmez, ancak kesin de değildir (BEYAN). Tırhala'nın XIII. yy sonunda Thessalia/Neopatras Dukas hanedanı (Great Vlachia) elinde olup olmadığı AÇILAMADI (Nicol 1957; Soustal TIB 3). Çift teyit yok. AÇILAMAYAN: Strabon 9.5.17, Soustal TIB 3.",
+  "dikis_beyan": "Atlas Tırhala'yı 1281-01-01'de 'bizans' ile başlatıyor; zincirimizin son dönemi 1204-1281 __BOSLUK__ (TDV XIII. yy sahibini tarihlemez; Vikipedi Epir 1259'a dek, sonra İznik/Bizans diyor, tek kaynak). Bizans = İznik'in devamı (1261 İstanbul geri alışı) varsayımı ikinci tanıksız olduğundan olay uydurulmadı."
  },
  {
   "id": "tiznit-ma",
@@ -33019,6 +34484,268 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış 854: Treccani EI (1937, 'documenti di Ludovico il Germanico') + Treccani DS (2011, 'Ricordata dall'854 come sede reale') — iki Treccani yayını, çift teyit sayılmaz. Gün: Vikipedi DE '22 Temmuz 854' (Stiftsarchiv St. Gallen belgesi, 'in Hulmam palatio regio'); belgenin kendisi/akademik teyit (Stadtarchiv Ulm PDF, Schwäbische Heimat, monasterium.net) 403/WAF engeli nedeniyle AÇILAMADI → 854-01-01. Treccani: Ulm 1027'de 'şehir' anılır; Treccani DS 1134 yıkımı. Merovenj mezarlığı (Kienlesberg) Vikipedi DE (ikinci tanık) — ark yazılmadı. Sağ yakadaki Neu-Ulm Bavyera (EI) bu kaydın dışında. Atlas Ulm 1281 'almanya': tutarlı."
  },
  {
+  "id": "ustrumca-strumica-mk",
+  "ad": "Ustrumca (Strumica)",
+  "atlas_ad": "Ustrumca (Strumica)",
+  "lat": 41.437,
+  "lon": 22.643,
+  "kat1900": 3,
+  "adlar": [
+   "Astraion (Astraeum)",
+   "Tiberiopolis",
+   "Strumica",
+   "Ustrumca"
+  ],
+  "ilk": {
+   "t": "-0180-01-01",
+   "gun": "MÖ 181",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Livius, Ab urbe condita 40.24 (Perseus, Roberts/Spillan çevirisi: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0149:book=40:chapter=24); TDV İslâm Ansiklopedisi, 'Ustrumca' (https://islamansiklopedisi.org.tr/ustrumca)",
+   "tanik": "sent Demetrius, with the same attendant Didas, to Astraeum in Paeonia",
+   "ic_not": "İLK ANILIŞ (Astraeum/Astraion, Paionia'da), kuruluş DEĞİL. TDV 'Ustrumca ilk defa antik dönemde (m.ö. II. yüzyıl) Astracum adıyla zikredilmiştir' der (Astracum = Livius'un Astraeum'u). Livius 40.24'ün yılı: bölüm MÖ 181 konsüllük yılı içindedir (40.18'de seçilen konsüller P. Cornelius Cethegus ve M. Baebius Tamphilus; 40.35 yeni yıl) => MÖ 181 (-0180); Vikipedi 'Strumica' 182 yazar (yıl çelişkisi beyan). YER EŞİTLEMESİ KESİN DEĞİL: Livius yalnız 'Astraeum in Paeonia' der; Astraion = Ustrumca eşitlemesi TDV (esas) ve Vikipedi'dedir, Pleiades 491742 (Barrington) Tiberia/Tiberioupolis'i 'Strumica?' soru işaretiyle eşler (DARMC noktası 41.407 K / 22.652 D = atlastan 3,3 km, 1:1M ölçek hatası). Eşitleme reddedilirse ilk tanık Tiberiopolis (Pleiades Roma, MÖ 30 - MS 640) ya da 1019 Basileios Bulla'sı ('Strumica adı 1019’da İmparator Vasili’nin Bulla’sında geçer', TDV) olurdu. Çift teyit yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0180-01-01",
+    "t": "-0166-01-01",
+    "d": "antigonid-makedonya",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Livius 40.24 (Philippos V Demetrios'u Paionia'daki Astraeum'a gönderir); Livius 45.29 (167 yerleşimi); Vikipedi 'Macedonia (Roman province)' (168'de Roma fethi)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Paionia'nın Philippos V döneminde Makedon krallığına bağlı olması Livius'un aktardığı sevkten (Kral Astraeum'a oğlunu gönderir) çıkarım. t = MÖ 167 yerleşimi (Livius 45.29): Pydna MÖ 168 ve künye bitişi -0167 ile arasındaki bir yıl 'uyarı' üretir (künye t -0167)."
+   },
+   {
+    "f": "-0166-01-01",
+    "t": "-0145-01-01",
+    "d": "makedon-merisleri",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Livius 45.29 ('Macedon should be divided into four districts'; ikinci bölge Strymon-Axios arası Makedonya, 'Pœnians' sağ kıyıda); Vikipedi 'Macedonia (Roman province)' ('The province was created in 146 BC')",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Ustrumca/Strumica havzası Axios (Vardar) ile Strymon (Struma) arasındadır => Livius'un 'ikinci bölge' (Thessalonica merkezli) tanımına coğrafî olarak düşer; Livius kenti adıyla anmaz. t = MÖ 146 eyalet (Vikipedi, Roisman-Worthington atfıyla; künye makedon-merisleri t -0147 => uyarı)."
+   },
+   {
+    "f": "-0145-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Vikipedi 'Macedonia (Roman province)' ('The province was created in 146 BC'); Pleiades 491742 Tiberia (Roma dönemi); Livius.org 'Augustus' (t)",
+    "ic_not": "Roma Makedonya eyaleti MÖ 146 (Vikipedi, tek kaynak => beyanlı); Livius.org Augustus künye geçişi."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); TDV 'Ustrumca' ('X. yüzyıldan beri Tiberiopolis diye anılmıştır'); Pleiades 491742 (Tiberia, Roma ve geç antik atıf)",
+    "ic_not": "Künye geçişi; Tiberiopolis = Strumica eşitlemesi TDV ve Pleiades'te (soru işaretli)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0927-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Ustrumca' (X. yüzyıldan beri Tiberiopolis); Vikipedi 'Strumica' (VI-VII. yy Slav göçü, Strymonites; Han Presian 836-852 Bulgar fethi)",
+    "ic_not": "Şehir VAR; Bizans (395'ten), Slav yerleşimi ve ilk Bulgar fethi arasında sahip tarihli değil: Vikipedi (tek kaynak) Bulgar Han Presian'ın (836-852) fethini verir, TDV yalnız 'Çar Simeon'a bağlı' (893-927) der. Aralık 532 yıl => __BOSLUK__."
+   },
+   {
+    "f": "0927-01-01",
+    "t": "1019-01-01",
+    "d": "birinci-bulgar",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Ustrumca' ('1019’dan önce burası Bulgar/Makedon Çarı Samuil’e ve ondan evvel Bulgar Çarı Simeon’a bağlı idi')",
+    "ic_not": "f en geç tanıktan: Simeon'un saltanatının sonu 927 (TDV yıl vermez; Simeon 893-927: Vikipedi 'Simeon I of Bulgaria'); Vikipedi daha eski Bulgar egemenliği (Presian 836-852) yazar => f beyanlı üst sınırdır. t = 1019 Basileios II Bulla'sı (TDV)."
+   },
+   {
+    "f": "1019-01-01",
+    "t": "1194-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Ustrumca' ('1019-1194 yıllarında Bizanslılar’ın hâkimiyetinde kaldı')",
+    "ic_not": "TDV yıl düzeyi; Vikipedi 1014/1016 (David Arianites) farkı beyan."
+   },
+   {
+    "f": "1194-01-01",
+    "t": "1202-01-01",
+    "d": "dobromir-hrisos-prensligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Ustrumca' ('1194’te bir Eflak olan Dobromir Hrz 500 Eflak askeriyle Ustrumca’yı ele geçirdi'; 'ancak 1201-1202’de Bizanslılar tarafından zaptedildi')",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'dobromir-hrisos-prensligi' (Eflak/Bulgar asıllı Dobromir Hrisos, Bizans'tan kopan yerel hâkim, Ustrumca-Prosek, ~1185/1194-1202; Vikipedi 1185-1202). t en geç tanıktan: 1201-1202 (TDV aralık => son uç 1202)."
+   },
+   {
+    "f": "1202-01-01",
+    "t": "1230-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Ustrumca' (1201-1202 Bizans zaptı); Vikipedi 'Strumica' (1202'de Bulgar krallığı, Strez 1208-1214)",
+    "ic_not": "KAYNAK ÇELİŞKİSİ: TDV Bizans'ın 1201-1202'de aldığını yazar, Vikipedi (tek kaynak) bölgenin 1202'de Bulgar krallığına katıldığını ve Strez'in 1208-1214'te elinde tuttuğunu yazar; IV. Haçlı Seferi (1204) sonrası da kimlik belirsiz. 28 yıl, iki aday sahip => __BOSLUK__."
+   },
+   {
+    "f": "1230-01-01",
+    "t": "1255-01-01",
+    "d": "bulgar-carligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "onyil"
+    },
+    "kaynak": "TDV 'Ustrumca' ('1230’da Klokotnica Savaşı’ndan sonra bir çeyrek asır boyunca II. Bulgar İmparatorluğu’nun parçası oldu, fakat tekrar Bizanslılar’ca alındı')",
+    "ic_not": "f = 1230 (Klokotnica 9 Mart 1230: TDV 'Vodina' maddesi 'Mart' verir; Ustrumca için gün yok => yıl); t = 'bir çeyrek asır' (≈1255) yaklaşıktır, onyıl hassasiyeti."
+   },
+   {
+    "f": "1255-01-01",
+    "t": "1261-07-25",
+    "d": "iznik-imparatorlugu",
+    "kesinlik": {
+     "f": "onyil",
+     "t": "gun"
+    },
+    "kaynak": "TDV 'Ustrumca' ('tekrar Bizanslılar’ca alındı'); TDV 'İstanbul' (25 Temmuz 1261)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: TDV 'Bizanslılar' der; 1255-1261 arasında 'Bizans' = İznik İmparatorluğu (künye iznik-imparatorlugu 1204-1261) varsayımı kaynakta açıkça yazılmaz."
+   },
+   {
+    "f": "1261-07-25",
+    "t": "1281-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'İstanbul' (1261); TDV 'Ustrumca' (1334'e dek Bizans)",
+    "ic_not": "t = atlasın ilk günü (atlas: bizans 1281-01-01 → 1334); aynı sahip, dikişte olay gerekmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0180-01-01",
+    "gun": "MÖ 181",
+    "k": "diger",
+    "b": "Livius'ta Astraeum (Paionia) ilk kez anılır: Philippos V Demetrios'u buraya gönderir.",
+    "kaynak": "Livius, Ab urbe condita 40.24 (Perseus), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0149:book=40:chapter=24",
+    "tanik": "sent Demetrius, with the same attendant Didas, to Astraeum in Paeonia"
+   },
+   {
+    "t": "-0180-01-01",
+    "gun": "MÖ 2. yüzyıl",
+    "k": "diger",
+    "b": "TDV: Ustrumca ilk defa MÖ II. yüzyılda Astracum adıyla zikredilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Ustrumca', https://islamansiklopedisi.org.tr/ustrumca",
+    "tanik": "Ustrumca ilk defa antik dönemde (m.ö. II. yüzyıl) Astracum adıyla zikredilmiştir"
+   },
+   {
+    "t": "-0166-01-01",
+    "gun": "MÖ 167",
+    "k": "antlasma",
+    "b": "Aemilius Paullus Makedonya'yı dört bölgeye ayırır (Strymon-Axios arası ikinci bölge).",
+    "kaynak": "Livius, Ab urbe condita 45.29 (Perseus), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0149:book=45:chapter=29",
+    "tanik": "Macedon should be divided into four districts"
+   },
+   {
+    "t": "-0145-01-01",
+    "gun": "MÖ 146",
+    "k": "fetih",
+    "b": "Makedonya Roma eyaleti olur.",
+    "kaynak": "Vikipedi 'Macedonia (Roman province)' (Roisman-Worthington 2011 atfı), https://en.wikipedia.org/wiki/Macedonia_(Roman_province)",
+    "tanik": "The province was created in 146 BC"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma/Bizans (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0927-01-01",
+    "gun": "927 (Simeon dönemi sonu)",
+    "k": "diger",
+    "b": "Ustrumca Bulgar Çarı Simeon'a, sonra Samuil'e bağlıdır (yıl düzeyi üst sınır).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Ustrumca', https://islamansiklopedisi.org.tr/ustrumca",
+    "tanik": "1019’dan önce burası Bulgar/Makedon Çarı Samuil’e ve ondan evvel Bulgar Çarı Simeon’a bağlı idi"
+   },
+   {
+    "t": "1019-01-01",
+    "gun": "1019",
+    "k": "fetih",
+    "b": "Bizans (II. Basileios) Ustrumca'ya hâkim olur; Strumica adı Basileios'un Bulla'sında geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Ustrumca', https://islamansiklopedisi.org.tr/ustrumca",
+    "tanik": "1019-1194 yıllarında Bizanslılar’ın hâkimiyetinde kaldı"
+   },
+   {
+    "t": "1194-01-01",
+    "gun": "1194",
+    "k": "fetih",
+    "b": "Eflak Dobromir Hrisos 500 askerle Ustrumca'yı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Ustrumca', https://islamansiklopedisi.org.tr/ustrumca",
+    "tanik": "1194’te bir Eflak olan Dobromir Hrz 500 Eflak askeriyle Ustrumca’yı ele geçirdi"
+   },
+   {
+    "t": "1202-01-01",
+    "gun": "1201-1202",
+    "k": "fetih",
+    "b": "Bizans Ustrumca'yı Dobromir Hrisos'tan zaptetmiştir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Ustrumca', https://islamansiklopedisi.org.tr/ustrumca",
+    "tanik": "ancak 1201-1202’de Bizanslılar tarafından zaptedildi"
+   },
+   {
+    "t": "1230-01-01",
+    "gun": "1230",
+    "k": "savas",
+    "b": "Klokotnica Savaşı'ndan sonra Ustrumca II. Bulgar İmparatorluğu'na geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Ustrumca', https://islamansiklopedisi.org.tr/ustrumca",
+    "tanik": "1230’da Klokotnica Savaşı’ndan sonra bir çeyrek asır boyunca II. Bulgar İmparatorluğu’nun parçası oldu"
+   },
+   {
+    "t": "1255-01-01",
+    "gun": "1255 (yaklaşık)",
+    "k": "fetih",
+    "b": "Ustrumca 'bir çeyrek asır' sonra (≈1255) Bizans/İznik tarafından yeniden alınır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Ustrumca', https://islamansiklopedisi.org.tr/ustrumca",
+    "tanik": "fakat tekrar Bizanslılar’ca alındı"
+   },
+   {
+    "t": "1261-07-25",
+    "gun": "25 Temmuz 1261",
+    "k": "fetih",
+    "b": "İznik birlikleri İstanbul'u geri alır; künye geçişi: İznik İmparatorluğu → Bizans. (Ustrumca için ayrı gün yok.)",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İstanbul', https://islamansiklopedisi.org.tr/istanbul",
+    "tanik": "İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Yer eşitlemesi riski (Astraion = Ustrumca) ilk.ic_not'ta beyan. Antik/modern: Pleiades Tiberia noktası DARMC 1:1M ölçekli (3,3 km sapma anlamlı değil); Papazoglou 1988 (Les villes de Macédoine romaine) açılamadı. ATLAS: 1281-1334 Bizans TDV ile uyumlu; düzeltme önerisi yok. AÇILAMAYAN: Papazoglou 1988, Ptolemaios 3.12, Plinius NH 4.35, Simeon yılları (Vikipedi)."
+ },
+ {
   "id": "utrecht-nl",
   "ad": "Utrecht",
   "atlas_ad": "Utrecht",
@@ -33573,6 +35300,209 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Esas kaynak lex.dk / Danmarkshistorien (Lex). Trap Danmark ve Viborg arkeolojisi (Viborg Museum) açılmadı. Kuruluş tarihi BULUNAMADI. 1150 imtiyazı 'ilk BİLİNEN' (lex: ilk imtiyaz tarihi belirsiz)."
+ },
+ {
+  "id": "vodina-edessa-gr",
+  "ad": "Vodina (Edessa)",
+  "atlas_ad": "Vodina (Edessa)",
+  "lat": 40.803,
+  "lon": 22.047,
+  "kat1900": 3,
+  "adlar": [
+   "Edessa",
+   "Vodena",
+   "Vodina"
+  ],
+  "ilk": {
+   "t": "-0166-01-01",
+   "gun": "MÖ 167",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Livius, Ab urbe condita 45.29 (Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0149:book=45:chapter=29); TDV İslâm Ansiklopedisi, 'Vodina' (https://islamansiklopedisi.org.tr/vodina) — 'Polybios’tan ... başlamak üzere bazı klasik yazarlar kasabayı Edessa şeklinde zikreder'; Strabon 7.7.4 (Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=7:chapter=7:section=4)",
+   "tanik": "Edessa also, and Berœa, should be united to it",
+   "ic_not": "İLK ANILIŞ (Edessa; Aemilius Paullus'un MÖ 167 düzenlemesinde Edessa ve Beroia üçüncü Makedon bölgesine, Pella merkezli, katılır), kuruluş DEĞİL. TDV Polybios'tan (MÖ 2. yy) başlayan klasik anışları sayar ama pasaj vermez; Strabon 7.7.4 Via Egnatia'nın Polybios'a göre uzunluğunu verirken 'Edessa'dan geçtiğini yazar. Livius 45.29'un yılı (MÖ 167, Paullus'un Amphipolis düzenlemesi) metinde yıl olarak yazmaz (167 konsül yılı bağlamından). Daha eski anış (Argead başkenti, efsanevî Karanos) Edessa = Aigai karışıklığı; TDV Aigai'nın Vergina olduğunu söyler ('bu teori bütünüyle reddedilmiştir'). Antik Edessa şelâlelerin aşağısındaki ovada, modern kent platoda (TDV; Vikipedi 40°47'48\"K 22°3'26\"D): ~1,2 km, ayrı kayıt gerekmez. MÖ 4. yy sur tekniği (TDV, ark) ilk anılıştan eskidir ama yazılı tanık varlığında ark kaydı gerekmedi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0166-01-01",
+    "t": "-0145-01-01",
+    "d": "makedon-merisleri",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Livius 45.29 ('Edessa also, and Berœa, should be united to it' — üçüncü bölge, merkez Pella); Vikipedi 'Macedonia (Roman province)' ('The province was created in 146 BC')",
+    "ic_not": "Edessa'nın dört Makedon cumhuriyetinden üçüncüsünde olması Livius'ta açıktır. t = MÖ 146 Makedonya eyaleti (Vikipedi, tek kaynak => beyanlı); makedon-merisleri künyesi t -0147 (uyarı)."
+   },
+   {
+    "f": "-0145-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Vikipedi 'Macedonia (Roman province)' (146); Strabon 7.7.4 (Via Egnatia, Roma mil taşlı yol, Edessa'dan geçer); Livius.org 'Augustus' (t)",
+    "ic_not": "Beyanlı: Roma eyaleti Makedonya (Vikipedi); Edessa'ya özgü Roma tanığı Strabon'un yolu."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); Vikipedi 'Edessa' ('From 27 BC to 268 AD it had its own mint')",
+    "ic_not": "Künye geçişi."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0600-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Livius.org 'Theodosius I' (f); TDV 'Vodina' (V-VI. yy Hıristiyan bazilikası; 'Hem şehir hem kale 600 yılı dolaylarında meydana gelen Slav-Avar istilâsı sırasında yıkılmış olmalıdır')",
+    "ic_not": "t yaklaşık (TDV 'dolaylarında'). Edessa Piskoposu Isidoros'un 691-692 Trulla Konsili'ne katılımı TDV'de (yer belirtilmeden)."
+   },
+   {
+    "f": "0600-01-01",
+    "t": "0900-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Vodina' ('600 yılından sonra şehrin civarındaki geniş alanda yoğun bir Slav yerleşmesi'; 'IX ve X. yüzyıllarda burası ilk Bulgar çarlığının bir parçasıydı'); Vikipedi 'Edessa' (şehir kaynaklardan 692 sonrası kaybolur, 11. yy'da Vodena adıyla çıkar)",
+    "ic_not": "Şehir VAR (692'de piskopos, Varousi platosunda kale) ama 300 yıl boyunca Slav yerleşimi, nominal Bizans ve Bulgar arası sahip tarihli değil => __BOSLUK__."
+   },
+   {
+    "f": "0900-01-01",
+    "t": "1001-01-01",
+    "d": "birinci-bulgar",
+    "kesinlik": {
+     "f": "yuzyil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Vodina' ('IX ve X. yüzyıllarda burası ilk Bulgar çarlığının bir parçasıydı. X. yüzyılın son yıllarında Çar Samuil’in idaresindeki Makedon-Bulgar İmparatorluğu’na katıldı')",
+    "ic_not": "f en geç tanıktan: TDV yüzyıl düzeyi 'IX ve X. yüzyıllarda'; IX. yy'ın sonu 0900 güvenli uç (beyan). t = 1001 Basileios II fethi."
+   },
+   {
+    "f": "1001-01-01",
+    "t": "1204-04-13",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV 'Vodina' ('1001 yılında Vodina, İmparator II. Basileios tarafından ele geçirildi'; Basileios'un 1020 mührü; 1150 Bulgar başpiskoposları listesi); TDV 'İstanbul' (13 Nisan 1204)",
+    "ic_not": "t = IV. Haçlı Seferi (13 Nisan 1204)."
+   },
+   {
+    "f": "1204-04-13",
+    "t": "1230-03-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Vodina' (Epir Despotu 1230'da yenilir; 'Epiros Despotu Michael Komnenos’un 1246’da şehri geri almasına kadar'); Selanik Krallığı (selanik-kralligi künyesi 1205-1225) ve Selanik İmparatorluğu",
+    "ic_not": "Şehir VAR; 1204-1230 arası Selanik Krallığı (Haçlı), Epir Despotluğu/Selanik İmparatorluğu (Theodoros Angelos) arasında tarihli sahip dizisi TDV'de yok. 26 yıl => __BOSLUK__. Aranmadı: Nicol 1957; Fine 1987."
+   },
+   {
+    "f": "1230-03-01",
+    "t": "1246-01-01",
+    "d": "bulgar-carligi",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Vodina' ('1230 Martında Çar II. İvan Asen’in Epiros despotunu yenmesi üzerine Vodina tekrar canlanan Bulgar İmparatorluğu’na katıldı ve ... 1246’da şehri geri almasına kadar onların hâkimiyetinde kaldı')",
+    "ic_not": "f ay hassasiyeti: TDV 'Mart' der, günü vermez (Klokotnica 9 Mart 1230: Vikipedi, bu kayıtta kullanılmadı); ayın 1'i yazıldı. t = 1246 (yıl)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0166-01-01",
+    "gun": "MÖ 167",
+    "k": "antlasma",
+    "b": "Edessa, Aemilius Paullus'un düzenlemesinde dört Makedon bölgesinden üçüncüsüne (Pella merkezli) katılır; Edessa'nın ilk açık tarihli anışı.",
+    "kaynak": "Livius, Ab urbe condita 45.29 (Perseus), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0149:book=45:chapter=29",
+    "tanik": "Edessa also, and Berœa, should be united to it"
+   },
+   {
+    "t": "-0145-01-01",
+    "gun": "MÖ 146",
+    "k": "fetih",
+    "b": "Makedonya Roma eyaleti olur.",
+    "kaynak": "Vikipedi 'Macedonia (Roman province)' (Roisman-Worthington 2011 atfı), https://en.wikipedia.org/wiki/Macedonia_(Roman_province)",
+    "tanik": "The province was created in 146 BC"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma/Bizans (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0600-01-01",
+    "gun": "600 dolayı",
+    "k": "diger",
+    "b": "Slav-Avar istilâsında Edessa şehri ve kalesi yıkılır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Vodina', https://islamansiklopedisi.org.tr/vodina",
+    "tanik": "Hem şehir hem kale 600 yılı dolaylarında meydana gelen Slav-Avar istilâsı sırasında yıkılmış olmalıdır"
+   },
+   {
+    "t": "0900-01-01",
+    "gun": "9.-10. yüzyıl",
+    "k": "diger",
+    "b": "Vodina ilk Bulgar çarlığının parçasıdır (yüzyıl düzeyi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Vodina', https://islamansiklopedisi.org.tr/vodina",
+    "tanik": "IX ve X. yüzyıllarda burası ilk Bulgar çarlığının bir parçasıydı"
+   },
+   {
+    "t": "1001-01-01",
+    "gun": "1001",
+    "k": "fetih",
+    "b": "II. Basileios Vodina'yı ele geçirir (Skylitzes'in Vodena'yı anan ilk tarihi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Vodina', https://islamansiklopedisi.org.tr/vodina",
+    "tanik": "1001 yılında Vodina, İmparator II. Basileios tarafından ele geçirildi"
+   },
+   {
+    "t": "1204-04-13",
+    "gun": "13 Nisan 1204",
+    "k": "fetih",
+    "b": "IV. Haçlı Seferi İstanbul'u zapteder (Bizans'ın merkezî otoritesi çöker). Vodina için ayrı kaynak yok.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İstanbul', https://islamansiklopedisi.org.tr/istanbul",
+    "tanik": "Bunun üzerine Haçlılar şehri zaptettiler (13 Nisan 1204)"
+   },
+   {
+    "t": "1230-03-01",
+    "gun": "Mart 1230",
+    "k": "savas",
+    "b": "II. İvan Asen Epir despotunu (Klokotnica) yener; Vodina Bulgar İmparatorluğu'na katılır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Vodina', https://islamansiklopedisi.org.tr/vodina",
+    "tanik": "Çar II. İvan Asen’in Epiros despotunu yenmesi üzerine Vodina tekrar canlanan Bulgar İmparatorluğu’na katıldı"
+   },
+   {
+    "t": "1246-01-01",
+    "gun": "1246",
+    "k": "fetih",
+    "b": "Epir Despotu II. Mikhail Komnenos Vodina'yı geri alır (atlasın ilk dönemi: epir-despotlugu 1246-01-01).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Vodina', https://islamansiklopedisi.org.tr/vodina",
+    "tanik": "Epiros Despotu Michael Komnenos’un 1246’da şehri geri almasına kadar"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Aigai/Edessa karışıklığı (TDV: Vergina Aigai'dır). AÇILAMAYAN: Polybios'un Edessa geçişi (bölüm numarası bulunamadı), Livius 45.29 yıl atfı yalnız bağlamdan. ATLAS: 1246 Epir başlangıcı TDV ile uyumlu; düzeltme önerisi yok. Not: Vikipedi 'Edessa' TDV'den farklı olarak Vodena adının 10. yy'da doğrulandığını 'citation needed' ile yazar (TDV Skylitzes 1001)."
  },
  {
   "id": "wenzhou-cin",
@@ -35996,6 +37926,187 @@ window.SEHIR_TARIHCE_K3 = [
   "sahip": [],
   "olay": [],
   "ic_not": "Yantai (Chefoo): atlas başlangıcı (1281-01-01 yuan-hanedani) düzeltilmeli: ilk yeri-kesin yazılı tanık Ming 1398 (Qishan suo, Ming Shi 41); sahip zinciri BOŞ. 1281 öncesi arananlar: Shiji 6 (Qin Shi Huang MÖ 219/218 'Zhifu'ya çıkış'), Hanshu 28 (Donglai jun: Chui/腄, Huang/黃 ilçeleri), Jin Shi 25 (Ninghai zhou, Muping ilçesi: '之罘山' adı), Yuan Shi 58 (Dengzhou lu: Penglai/Huang/Fushan/Qixia; Ninghai zhou), Song Shi 85 (Dengzhou) — 'Yantai/煙臺' adı hiçbirinde bulunamadı; Zhifu Dağı adı ise atlas noktasını değil, Zhifu Adası/dağını (kuzeyde) anar. AYRI KAYIT ÖNERİSİ: Zhifu (芝罘/之罘, Zhifu Adası) — ilk yeri-kesin tanık Shiji 6 Qin Shihuang 28. yıl (MÖ 219; astronomik -0218): '乃并勃海以東，過黃、腄，窮成山，登之罘，立石頌秦德焉而去' (Qin Shi Huang gezisi) ve 29. yıl (MÖ 218) 'Zhifu kaya yazıtı' ('登之罘，刻石'); adanın atlas noktasından uzaklığı ölçülmedi (kuzeyde, birkaç on km mertebesinde olduğu beklenir — KESİN DEĞİL; hafızadan değer yazılmadı), bu yüzden burada yazılmadı. Fushan (Chui/腄, Han Donglai jun) ve Muping (Jin Ninghai zhou) ilçe merkezleri de ayrı yerlerdir. Künye/atlas: Ming 1398'den 1281'e kadar atlas başlangıcının ileri alınması (ya da noktanın 1398 öncesi hiç çizilmemesi) önerilir. Çift teyit: yok. Açılamayan kaynak: yok."
+ },
+ {
+  "id": "yenisehir-larissa-gr",
+  "ad": "Yenişehir (Larissa)",
+  "atlas_ad": "Yenişehir (Larissa)",
+  "lat": 39.639,
+  "lon": 22.418,
+  "kat1900": 2,
+  "adlar": [
+   "Larissa (Larisa)",
+   "Yenişehr-i Fenâr",
+   "Yenişehir",
+   "Larissa"
+  ],
+  "ilk": {
+   "t": "-0499-01-01",
+   "gun": "MÖ 500",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Yenişehir' (Larissa) (https://islamansiklopedisi.org.tr/yenisehir); Herodotos 9.1 (Godley çevirisi, Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=9:chapter=1) ikinci tanık",
+   "tanik": "Larissa’nın en eski paraları milâttan önce 500 yılına aittir",
+   "ic_not": "İLK ANILIŞ (sikke yazıtı ΛΑΡΙΣΑΙΟΝ, yaklaşık yıl), kuruluş DEĞİL. TDV: 'Arkeolojik veriler Larissa’nın Taş devrinden beri yerleşim birimi olduğunu gösterir' (ark verilmedi). Yazılı tanık: Herodotos 9.1 (MÖ 479 yazı) 'Thorax of Larissa, who had given Xerxes safe-conduct in his flight' ve 7.6 Aleuadai (Tesalya hükümdarları) — TDV'nin 'Homeros ... Aleuad ailesince yönetildiğini bildirir' cümlesi Perseus'taki İlyada 2.840-841'de DOĞRULANMADI (o 'Larisa' Pelasglar'ın Larisa'sıdır, Strabon 13.3 notu Troas); TDV'nin Homeros iddiası bu kayıtta kullanılmadı (TDV'nin kendi içi tutarsızlığı: Aleuadai Pindaros-Herodotos çağıdır). Sikke tarihi 'yıl' hassasiyetiyle yaklaşıktır. Modern Larissa antik kentle aynı alan (atlas ~1,2 km)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0499-01-01",
+    "t": "-0345-01-01",
+    "d": "larissa-sehir-devleti",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Yenişehir' (Larissa sikkeleri MÖ 500; 'MÖ 346’da Yenişehir ve Tesalya’nın tamamı Makedonya Kralı II. Filip (Philippos) tarafından ele geçirildi'); Herodotos 7.6, 9.1 (Aleuadai, Larissalı Thorax)",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id 'larissa-sehir-devleti' (Larissa polisi, Aleuadai aristokrasisi altında Pelasgiotis'e egemen; Tesalya konfederasyonu içinde, Pers yanlısı MÖ 480-479). t = TDV: MÖ 346 (-0345) Philippos II fethi."
+   },
+   {
+    "f": "-0345-01-01",
+    "t": "-0195-01-01",
+    "d": "makedonya-krallik",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Yenişehir' ('ve 150 yıl boyunca Makedonya Devleti’ne bağlı kaldı')",
+    "ic_not": "t = 346 - 150 = 196 (-0195, TDV 'yaklaşık 150 yıl')."
+   },
+   {
+    "f": "-0195-01-01",
+    "t": "-0145-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Yenişehir' (150 yıl Makedonya; 'Milâttan önce 146’da Roma İmparatorluğu’na bağlandı')",
+    "ic_not": "Makedon egemenliği (≈196) ile Roma'ya bağlanış (146) arası Tesalya Birliği/Roma himayesi; Larissa'ya özgü sahip kaynakta yok => __BOSLUK__."
+   },
+   {
+    "f": "-0145-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV 'Yenişehir' ('Milâttan önce 146’da Roma İmparatorluğu’na bağlandı'); Livius.org 'Augustus' (t)",
+    "ic_not": "TDV 'Roma İmparatorluğu' der; MÖ 146'da Cumhuriyet'tir."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Augustus' (f), 'Theodosius I' (t); TDV 'Yenişehir' (263 Germen işgali zararı)",
+    "ic_not": "Künye geçişi."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1204-04-13",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Theodosius I' (f); TDV 'Yenişehir' ('V. yüzyılın sonunda Doğu Gotları’nın tahribatı', Iustinianos surları, 'Larissa 986’da ... Samuil', 1082-1083 Normanlar); TDV 'İstanbul' (13 Nisan 1204)",
+    "ic_not": "Doğu Got yağması (V. yy sonu), 986 Samuil'in Larissa'yı alıp Aziz Achilleios'un kalıntılarını Prespa'ya taşıması ve 1082-83 Bohemund kuşatması (Alexios kurtarır) süresi bilinmeyen kısa olaylardır => dönem açılmadı, olay olarak yazıldı. t = IV. Haçlı Seferi."
+   },
+   {
+    "f": "1204-04-13",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Yenişehir' (Büyük Eflak, XIV. yy tahribat); Vikipedi 'Larissa' (Selanik Kralı Boniface şehri Lombard baronlara verir, 1209 isyan, 'recovered by Epirus soon after')",
+    "ic_not": "Şehir VAR; Haçlı (Selanik Krallığı), Epir ve Tesalya Dukas (Great Vlachia) arasında 77 yıl tarihli dizi yok (Vikipedi tek kaynak). => __BOSLUK__. Aranmadı: Nicol 1957; Fine 1987."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0499-01-01",
+    "gun": "MÖ 500",
+    "k": "diger",
+    "b": "Larissa'da basılan en eski sikkeler (şehrin ilk yazılı/yazıtlı anışı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yenişehir' (Larissa), https://islamansiklopedisi.org.tr/yenisehir",
+    "tanik": "Larissa’nın en eski paraları milâttan önce 500 yılına aittir"
+   },
+   {
+    "t": "-0478-01-01",
+    "gun": "MÖ 479",
+    "k": "diger",
+    "b": "Larissalı Thorax Mardonios'a Hellas'a geçit açar (Herodotos'ta Larissa'nın açık tarihli ilk metin anışı).",
+    "kaynak": "Herodotos 9.1 (Perseus, A. D. Godley), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=9:chapter=1",
+    "tanik": "Thorax of Larissa, who had given Xerxes safe-conduct in his flight"
+   },
+   {
+    "t": "-0345-01-01",
+    "gun": "MÖ 346",
+    "k": "fetih",
+    "b": "Philippos II Larissa ve bütün Tesalya'yı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yenişehir' (Larissa), https://islamansiklopedisi.org.tr/yenisehir",
+    "tanik": "Yenişehir ve Tesalya’nın tamamı Makedonya Kralı II. Filip (Philippos) tarafından ele geçirildi"
+   },
+   {
+    "t": "-0195-01-01",
+    "gun": "MÖ 196",
+    "k": "antlasma",
+    "b": "Larissa'nın 150 yıllık Makedon bağı çözülür (II. Makedonya Savaşı sonu).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yenişehir' (Larissa), https://islamansiklopedisi.org.tr/yenisehir",
+    "tanik": "ve 150 yıl boyunca Makedonya Devleti’ne bağlı kaldı"
+   },
+   {
+    "t": "-0145-01-01",
+    "gun": "MÖ 146",
+    "k": "fetih",
+    "b": "Larissa (Yenişehir) Roma'ya bağlanır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yenişehir' (Larissa), https://islamansiklopedisi.org.tr/yenisehir",
+    "tanik": "Milâttan önce 146’da Roma İmparatorluğu’na bağlandı"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Augustus).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Doğu Roma/Bizans (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0986-01-01",
+    "gun": "986",
+    "k": "fetih",
+    "b": "Bulgar Çarı Samuil Larissa'yı alır, Aziz Achilleios'un kalıntılarını Prespa'ya taşır (süre belirsiz, Bizans'a döner).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yenişehir' (Larissa), https://islamansiklopedisi.org.tr/yenisehir",
+    "tanik": "Larissa 986’da, Aziz Achileios’un kalıntılarını başşehri Prespa’ya kaçıran"
+   },
+   {
+    "t": "1082-01-01",
+    "gun": "1082-1083",
+    "k": "kusatma",
+    "b": "Bohemund komutasındaki Normanlar Larissa'yı kuşatır; I. Alexios kurtarır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yenişehir' (Larissa), https://islamansiklopedisi.org.tr/yenisehir",
+    "tanik": "1082-1083’te Tarentli Bohemund kumandasındaki Normandiyalılar tarafından kuşatıldı"
+   },
+   {
+    "t": "1204-04-13",
+    "gun": "13 Nisan 1204",
+    "k": "fetih",
+    "b": "IV. Haçlı Seferi İstanbul'u zapteder (Bizans'ın merkezî otoritesi çöker). Larissa'yı Boniface Lombard baronlara verir (Vikipedi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'İstanbul', https://islamansiklopedisi.org.tr/istanbul",
+    "tanik": "Bunun üzerine Haçlılar şehri zaptettiler (13 Nisan 1204)"
+   }
+  ],
+  "ic_not": "ATLAS ÖNERİSİ: atlas Yenişehir (Larissa)'ı 1281'de 'bizans' (→1311), sonra 'katalan' (1311-1390) diye verir. Vikipedi 'Larissa' 1209 sonrası şehrin Epir'e döndüğünü yazar; Katalan Şirketi'nin 1311 Halmyros sonrası Atina-Neopatras dükalığının Larissa'yı tutup tutmadığı (Vikipedi 'Trikala' 1309-1311 Katalan akınından söz eder, sahiplik değil) açılamadı: TDV 'Yenişehir' Tesalya'da 1320 sonrası tahribat ve 1364'te harap şehir der, sahip vermez. Bu nedenle 1281 Bizans ve 1311 Katalan iddiaları İKİ TANIKLA DOĞRULANAMADI (atlas düzeltme adayı, kaynak araştırması gerek). Çift teyit yok. TDV iç tutarsızlığı: Homeros-Aleuadai cümlesi.",
+  "dikis_beyan": "Atlas Yenişehir (Larissa)'ı 1281-01-01'de 'bizans' ile başlatıyor; 1204-1281 zincirimiz __BOSLUK__ (Vikipedi: Selanik Krallığı 1204, Lombard baronlar, 1209 isyan, Epir; TDV sahip vermez). 1281 için olay uydurulmadı."
  },
  {
   "id": "ypres-be",
