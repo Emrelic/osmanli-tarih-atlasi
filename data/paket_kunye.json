@@ -558,8 +558,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "a25664738b61a222",
-     "bayt": 1574889
+     "sha": "454e9ad9e45b5c43",
+     "bayt": 1586631
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3042644
+   "bayt": 3054386
   },
   {
    "paket": "data/paket_14.js",
