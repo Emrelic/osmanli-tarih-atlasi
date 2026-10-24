@@ -11828,6 +11828,7 @@ function ayniGunSeridiGuncelle(o) {
 function obGoster(o) {
   document.getElementById("ob-tarih").textContent = o.gun || idxYazi(o.gi);
   document.getElementById("ob-baslik").textContent = o.b;
+  document.getElementById("ob-baslik").style.borderLeft = "";   // çok devletli akıştan kalan devlet rengi şeridi
   ayniGunSeridiGuncelle(o);
 
   var meta = document.getElementById("ob-meta");
@@ -17452,7 +17453,11 @@ function kronoTemsilEdiliyor(k, derin) {
     // Çizim `tarihAyarla` İÇİNDE koşuyor ⇒ hedef gün ÖNCEDEN yazılır ki vurgu
     // aynı günün doğru maddesine otursun (atlas penceresine kırpılmış hâli).
     gezSuanki = Math.max(BASLANGIC, Math.min(BITIS, o.gi));
-    if (o.d && o.d.id === "osmanli") olayaGit(o.m, true, true);   // Osmanlı: tam panel
+    if (o.d && o.d.id === "osmanli") {
+      olayaGit(o.m, true, true);   // Osmanlı: tam panel
+      var _ob = document.getElementById("ob-baslik");   // çok devletli akışta Osmanlı da kendi renk şeridini taşır
+      if (_ob && EK_SECILI.length) { _ob.style.borderLeft = "4px solid " + ekRenk("osmanli"); _ob.style.paddingLeft = "6px"; }
+    }
     // 🆕 ODAK-ZOOM-1016 — devlet maddesinin kamerası TEK KAPIDAN süzülür: toprak
     // ekranın ≥ 1/8'i değilse zoom düşer (`odakZoomKapisi`, tanım ve gerekçe
     // `maddeOdakKutusu`nun altında). Kapalıysa / gövde yoksa davranış bit bit eski.
@@ -17489,6 +17494,7 @@ function kronoTemsilEdiliyor(k, derin) {
   };
   function birlesikCiz() {
     birlesikListe = birlesikTopla();
+    gezI = -1;                                  // liste yeniden kuruldu: eski indeks bayat
     liste.innerHTML = "";
     birlesikDom = birlesikListe.map(function (o) {
       var el = document.createElement("div");
@@ -17531,6 +17537,9 @@ function kronoTemsilEdiliyor(k, derin) {
       sayacEl.textContent = (yeni + 1) + " / " + birlesikListe.length + " madde  ·  "
         + anaSayisi + " ana + " + (birlesikListe.length - anaSayisi) + " ek";
     }
+    // Gezinti (oynatma / ⏭⏮ / liste tıklaması) aynı günde birden çok maddeden birini seçtiyse
+    // vurgu TAM O maddede (üst madde ↔ sağ liste aynı kalsın); tarih başka yoldan değiştiyse gün sırası.
+    if (gezI >= 0 && gezI < birlesikListe.length && gezSuanki === t && birlesikListe[gezI].gi <= t) yeni = gezI;
     if (yeni === sonVurgulananB) return;
     var a = Math.max(0, Math.min(yeni, sonVurgulananB));
     var b = Math.min(birlesikListe.length - 1, Math.max(yeni, sonVurgulananB));
@@ -17570,6 +17579,8 @@ function kronoTemsilEdiliyor(k, derin) {
   // `devletiYay` tam bunu yapıyor. Olmayan bir koordinat uydurmuyoruz.
   function listeCiz(d) {
     liste.innerHTML = "";
+    var _obL = document.getElementById("ob-baslik");   // tek devlete dönüşte çok devletli renk şeridi kalmasın
+    if (_obL) { _obL.style.borderLeft = ""; _obL.style.paddingLeft = ""; }
     // 🔴 SÜZGEÇ BURAYA DA İNMELİ — ve inmediği bir an oldu. `render()` ÜÇ
     // dallı: EK devlet varsa `birlesikCiz()`, yalnız ODAK varsa BU, hiçbiri
     // yoksa `osmanliListesineDon()`. Süzgeç önce yalnız `birlesikTopla`ya
@@ -17651,6 +17662,12 @@ function kronoTemsilEdiliyor(k, derin) {
       obPanel.classList.remove("gizli");
       var bas = document.getElementById("ob-baslik");
       if (bas) bas.textContent = d.ad + " — " + (m.tur || "madde");
+      // Çok devletli akış: sıradaki madde hangi devletin ise başlığın solunda o devletin
+      // listedeki rozetiyle AYNI renk şeridi (üst madde ↔ sağ liste eşleşmesi göz önünde).
+      if (bas) {
+        bas.style.borderLeft = EK_SECILI.length ? "4px solid " + ekRenk(d.id) : "";
+        bas.style.paddingLeft = EK_SECILI.length ? "6px" : "";
+      }
       var det = document.getElementById("ob-detay");
       if (det) det.textContent = kisaTarihYazi(m) + " · " + (m.b || "");
       // 🆕 14 Eylül 2026 — PAKET-UI4 İŞ 3 (1.MURAT, M-3930 aksaklığı): ek okuma
@@ -17843,6 +17860,8 @@ function kronoTemsilEdiliyor(k, derin) {
   // belgeden KOPARIR. Düğümler SİLİNMEZ, `olayDom[]` hepsini tutar — çare
   // yeniden kurmak değil GERİ TAKMAK (ucuz + dinleyiciler/süzgeç korunur).
   function osmanliListesineDon() {
+    var _obB = document.getElementById("ob-baslik");
+    if (_obB) { _obB.style.borderLeft = ""; _obB.style.paddingLeft = ""; }   // devlet rengi şeridi kalmasın
     liste.innerHTML = "";
     for (var oi = 0; oi < olayDom.length; oi++) liste.appendChild(olayDom[oi]);
     olaylarGuncelleZorla();
