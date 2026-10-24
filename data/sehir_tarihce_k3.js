@@ -19392,6 +19392,141 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış HLS ad-kaydı 'um 400 civitas Lausanna' (Notitia Galliarum çağı). Daha eski ad-kayıtları ('wohl 2. Jh. vikanor[um] Lousonnensium', 'um 280 lacu Lausonio') Vidy'deki gallo-Roma vicus Lousonna'ya aittir; Vidy modern Lausanne noktasından (Cité) uzak ve Lousonna 4. yy'da terk edildi → AYRI KAYIT ÖNERİSİ: 'Lousonna (Vidy)', ilk iz MÖ 1. yy ortası (HLS 'Lousonna' maddesi/Lozan maddesi); mesafe bu oturumda ölçülmedi. Burgund dönemi (443), Frank dönemi ve Karolenj hakimiyeti HLS'de tarihli verilmediği için 400-888 BOSLUK. Çift teyit YOK (Treccani 'Losanna' tarih vermiyor: yalnız 'cattedrale 1160')."
  },
  {
+  "id": "lubeck-de",
+  "ad": "Lübeck",
+  "atlas_ad": "Lübeck",
+  "lat": 53.866,
+  "lon": 10.687,
+  "kat1900": 3,
+  "adlar": [
+   "Bucu",
+   "Lubeke",
+   "Lübeck"
+  ],
+  "ilk": {
+   "t": "1143-01-01",
+   "gun": "1143",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana (Treccani), 'LUBECCA', https://www.treccani.it/enciclopedia/lubecca_(Enciclopedia-Italiana)/ ; Den Store Danske / lex.dk, 'Lübeck', https://lex.dk/Lübeck",
+   "tanik": "Fondata ufficialmente, nel 1143, dal duca Adolfo II di Holstein",
+   "ic_not": "KURULUŞ (resmî): ÇİFT TEYİT — Treccani 'Fondata ufficialmente, nel 1143' (Treccani Adolf II'ye 'duca' der, lex 'grev Adolf 2. af Holsten'; kont doğrudur, birebir alıntı Treccani'ninkidir) ve lex 'Lübeck': 'den formelle grundlæggelsen Lübeck 1143'. Treccani: yerde 'forse circa un secolo prima' bir köy olabilir (ihtiyatlı). Helmold (I. kitap, tarihsiz): 'Venitque ad novam civitatem que Lubeke dicitur' (OCR metni) — yeni kent. ANTİK/ESKİ YER AYRI: Liubice (Alt-Lübeck), Bucu tepesinden ~6 km kuzeyde, Schwartau/Trave birleşimi; lex: kalenin ahşabı dendro ile 819'a tarihli, adı Adam von Bremen scholiasında ca. 1070'ten; Ranlar 1127 ve 1138'de yaktı. >3 km olduğundan AYRI KAYIT ÖNERİLİR (Liubice / Alt-Lübeck, ilk=arkeolojik 819). Lübeck adı bu yerden devralındı."
+  },
+  "kur": {
+   "t": "1143-01-01",
+   "gun": "1143",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana (Treccani), 'LUBECCA', https://www.treccani.it/enciclopedia/lubecca_(Enciclopedia-Italiana)/ ; Den Store Danske / lex.dk, 'Lübeck', https://lex.dk/Lübeck",
+   "tanik": "Fondata ufficialmente, nel 1143, dal duca Adolfo II di Holstein"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1143-01-01",
+    "t": "1203-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'LUBECCA', https://www.treccani.it/enciclopedia/lubecca_(Enciclopedia-Italiana)/",
+    "tanik": "la città passò nel 1181 sotto la protezione dell'imperatore",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Holstein Kontluğu (Adolf II, Schauenburg) ve 1158/59'dan Saksonya dükü Aslan Henry (Treccani 'riedificata intorno al 1158 dal duca Enrico il Leone di Sassonia') Reich içindedir; 1181'de şehir doğrudan imparatorluk koruması altına girer (Treccani). Holstein/Saksonya dükalığı ayrı künye değil; 'almanya' (Kutsal Roma) yazıldı. 1143 öncesi: yer Obotrit/Slav toprağıdır (Helmold: Slav kralı Heinrich'in Lubeke'si = eski Liubice) — modern Lübeck 1143'te kuruldu."
+   },
+   {
+    "f": "1203-01-01",
+    "t": "1225-01-01",
+    "d": "danimarka",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Lübeck', https://lex.dk/Lübeck",
+    "tanik": "Efter i perioden 1203-1225 at have været under dansk herredømme",
+    "ic_not": "lex 'Holsten': Schauenburglar 1203-27 Holstein'ı Valdemar II'ye geçici bıraktı; lex 'Lübeck' şehir için 1203-1225 Danimarka egemenliği der. Bitiş 1225 lex'ten (Treccani 'dopo un lungo periodo di lotte contro la Danimarca', 1226'da özgür şehir)."
+   },
+   {
+    "f": "1225-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Lübeck', https://lex.dk/Lübeck",
+    "tanik": "blev byen af den tysk-romerske kejser Frederik 2. i 1226 tildelt status af fri rigsstad",
+    "ic_not": "1226'dan özgür imparatorluk şehri (Treccani + lex). Künye 'lubeck-sehri' (1226-1937, boyasız) VAR; atlas 1281'de 'almanya' yazdığı için zincir 'almanya' ile bağlandı. Öneri: aktarımda dönem lubeck-sehri'ne çevrilebilir (renk istenir). Atlas dikişinde değişiklik yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1143-01-01",
+    "gun": "1143",
+    "k": "kurulus",
+    "b": "Lübeck Holstein Kontu II. Adolf tarafından resmen kurulur (Bucu tepesi).",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'LUBECCA', https://www.treccani.it/enciclopedia/lubecca_(Enciclopedia-Italiana)/",
+    "tanik": "Fondata ufficialmente, nel 1143, dal duca Adolfo II di Holstein"
+   },
+   {
+    "t": "1158-01-01",
+    "gun": "ca. 1158",
+    "k": "diger",
+    "b": "Saksonya dükü Aslan Henry şehri yeniden inşa ettirir ve kısa süre sonra şehir statüsü verir.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'LUBECCA', https://www.treccani.it/enciclopedia/lubecca_(Enciclopedia-Italiana)/",
+    "tanik": "riedificata intorno al 1158 dal duca Enrico il Leone di Sassonia"
+   },
+   {
+    "t": "1159-01-01",
+    "gun": "1159",
+    "k": "diger",
+    "b": "Aslan Henry St. Marien kilisesini kurar.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'LUBECCA', https://www.treccani.it/enciclopedia/lubecca_(Enciclopedia-Italiana)/",
+    "tanik": "fondata nel 1159 da Enrico il Leone"
+   },
+   {
+    "t": "1173-01-01",
+    "gun": "1173",
+    "k": "diger",
+    "b": "Katedral (Dom) temeli atılır (lex: 1173-1247 inşa).",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'LUBECCA', https://www.treccani.it/enciclopedia/lubecca_(Enciclopedia-Italiana)/",
+    "tanik": "Il duomo, fondato nel 1173, fu terminato nel 1247"
+   },
+   {
+    "t": "1181-01-01",
+    "gun": "1181",
+    "k": "diger",
+    "b": "Aslan Henry'nin düşüşüyle şehir imparatorluk korumasına geçer (Hohenstaufen).",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'LUBECCA', https://www.treccani.it/enciclopedia/lubecca_(Enciclopedia-Italiana)/",
+    "tanik": "la città passò nel 1181 sotto la protezione dell'imperatore"
+   },
+   {
+    "t": "1203-01-01",
+    "gun": "1203",
+    "k": "fetih",
+    "b": "Lübeck Danimarka (II. Valdemar) egemenliğine girer.",
+    "kaynak": "Den Store Danske / lex.dk, 'Lübeck', https://lex.dk/Lübeck",
+    "tanik": "Efter i perioden 1203-1225 at have været under dansk herredømme"
+   },
+   {
+    "t": "1225-01-01",
+    "gun": "1225",
+    "k": "diger",
+    "b": "Danimarka egemenliği biter (lex 1203-1225); şehir Reich'a döner.",
+    "kaynak": "Den Store Danske / lex.dk, 'Lübeck', https://lex.dk/Lübeck",
+    "tanik": "Efter i perioden 1203-1225 at have været under dansk herredømme"
+   },
+   {
+    "t": "1226-01-01",
+    "gun": "1226",
+    "k": "diger",
+    "b": "II. Friedrich Lübeck'e özgür imparatorluk şehri (fri rigsstad) statüsü verir. ÇİFT TEYİT (Treccani + lex).",
+    "kaynak": "Den Store Danske / lex.dk, 'Lübeck', https://lex.dk/Lübeck",
+    "tanik": "blev byen af den tysk-romerske kejser Frederik 2. i 1226 tildelt status af fri rigsstad"
+   },
+   {
+    "t": "1227-01-01",
+    "gun": "1227",
+    "k": "diger",
+    "b": "Bornhöved Savaşı: Lübeck belirleyici rol oynar; Baltık'ta Alman egemenliğinin temeli atılır.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'LUBECCA', https://www.treccani.it/enciclopedia/lubecca_(Enciclopedia-Italiana)/",
+    "tanik": "la battaglia di Bornhöved, del 1227, alla quale Lubecca prese una parte decisiva"
+   }
+  ],
+  "ic_not": "Treccani 1934 (Migliorini, Möhle, Luzzatto) + lex.dk (Gert Jensen vd.) + Helmold OCR. Historisches Lexikon ve Brill LGBO açılmadı. Kuruluş günü BULUNAMADI (yalnız yıl). Atlas Lübeck 1281'de 'almanya'; dikişte değişiklik yok."
+ },
+ {
   "id": "luoyang-cin",
   "ad": "Luoyang",
   "atlas_ad": "Luoyang",
@@ -20098,6 +20233,119 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış 840 'luciaria' HLS başlık satırında; Vikipedi DE 'monasterium Luciaria (840)' ve '853 Lucerna' verir (ikinci tanık). Birincil belge (hangi senet/kopya) bu oturumda açılamadı; Vikipedi DE'ye göre Luciaria kaydının kopya olup olmadığı bilinmiyor — çift teyit YOK. Treccani: 'convento benedettino di S. Leodegario (8° sec.)' etrafında oluştu (8. yy manastır kuruluşu tarihsiz; kur yazılmadı). Roma dönemi: HLS yalnız 2.-3. yy sikke buluntuları (yerleşim kanıtı yok). 843-962 arası egemen BOSLUK (Orta Francia/Doğu Francia sınırı belgelenemedi). 962→ nominal 'almanya' (varsayım, ic_not'ta beyan). 1281'de 'almanya' atlas ile uyumlu; Treccani Habsburg'u 1277/1281'de üstün otorite gösterir (Habsburg künyesi 1282'de başlıyor)."
  },
  {
+  "id": "magdeburg-de",
+  "ad": "Magdeburg",
+  "atlas_ad": "Magdeburg",
+  "lat": 52.131,
+  "lon": 11.64,
+  "kat1900": 3,
+  "adlar": [
+   "Magadoburg",
+   "Magadabourg",
+   "Magdeburg"
+  ],
+  "ilk": {
+   "t": "0805-01-01",
+   "gun": "805",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Den Store Danske / lex.dk, 'Magdeburg', https://lex.dk/Magdeburg ; Capitulare missorum in Theodonis villa datum primum (805), MGH Capit. reg. Franc. I, Hannover 1881 (archive.org/details/monument01gese; OCR, 'Magadohurg' = OCR hatası)",
+   "tanik": "Byens navn kendes fra Karl den Stores grundlæggelse i 805 som Magadoburg",
+   "ic_not": "İLK ANILIŞ (ad; kuruluş değil). lex 805'te 'Karl den Stores grundlæggelse' der — cümle belirsiz (şehir/kale kuruluşu mu yalnız adın kaydı mı), kur YAZILMADI. İkinci tanık: 805 Diedenhofen kapitüleri, Slav/Avar ile ticaret sınır noktaları listesi 'usque ad Bardenwih et ad Magadohurg' (OCR 'h'=b hatası; birebir alıntı olarak kullanılmadı). 806: Frank Annales dipnotu (Lorsch devamı) Elbe'nin kuzeyinde Magadabourg karşısında kale. Treccani: Karl zamanından beri Vendlerle ticaret merkezi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0805-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'MAGDEBURGO', https://www.treccani.it/enciclopedia/magdeburgo_(Enciclopedia-Italiana)/",
+    "tanik": "Fino dal tempo di Carlomagno, Magdeburgo è centro del commercio con i Vendi",
+    "ic_not": "Magdeburg Karl'ın Elbe sınırındaki ticaret ve kale noktasıdır (Treccani, Frank Annales 806, 805 kapitüleri). Künye frank 0481-0843."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Ludvig 2. den Tyske', https://lex.dk/Ludvig_2._den_Tyske",
+    "tanik": "gennem Traktaten i Verdun fik Ludvig den østlige del",
+    "ic_not": "Verdun'de Doğu Francia (Alman Krallığı) Louis'in payıdır; Magdeburg Elbe üzerindeki Saksonya sınırında Doğu Francia içindedir (I. Otto 937'de burada manastır kurar — Treccani). Doğrudan 'Magdeburg Verdun'de Louis'e düştü' cümlesi kaynakta yok — BEYANLI YAKLAŞIKLIK. Künye dogu-francia t=0962-01-01; zincir 0962-02-02'ye uzar (32 gün, Hamburg örneğiyle aynı beyan)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Magdeburg Reich içinde: 968'den başpiskoposluk (Treccani). Künye 'magdeburg-basepiskoposlugu' (968-1680, boyasız) var; Treccani şehrin hiçbir zaman özgür imparatorluk şehri olmadığını söyler ('non raggiunse mai la condizione di città libera dell'impero'). Atlas 1281'de 'almanya' yazar; dikişte değişiklik yok. Aktarımda başpiskoposluk künyesi seçilebilir (renk istenir)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0805-01-01",
+    "gun": "805",
+    "k": "diger",
+    "b": "Magdeburg (Magadoburg) adı Karl'ın kapitüleri/kuruluşuyla kayda girer; Vendlerle ticaretin sınır noktasıdır.",
+    "kaynak": "Den Store Danske / lex.dk, 'Magdeburg', https://lex.dk/Magdeburg",
+    "tanik": "Byens navn kendes fra Karl den Stores grundlæggelse i 805 som Magadoburg"
+   },
+   {
+    "t": "0806-01-01",
+    "gun": "806",
+    "k": "diger",
+    "b": "Franklar Elbe'nin kuzeyinde Magadabourg karşısında kale yapar (Lorsch devamı, dipnot).",
+    "kaynak": "Annales regni Francorum, ed. F. Kurze, MGH SS rer. Germ. 1895, a. 806, dipnot (archive.org/details/annalesregnifran00anna; OCR)",
+    "tanik": "unam in aquilone parte Albiae contra Magadabourg"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Frank imparatorluğu bölünür, Louis (German) doğu kısmı alır — künye geçişi frank -> dogu-francia.",
+    "kaynak": "Den Store Danske / lex.dk, 'Ludvig 2. den Tyske', https://lex.dk/Ludvig_2._den_Tyske",
+    "tanik": "gennem Traktaten i Verdun fik Ludvig den østlige del"
+   },
+   {
+    "t": "0937-01-01",
+    "gun": "937",
+    "k": "kurulus",
+    "b": "I. Otto Magdeburg'da Benedikten manastırını (St. Mauritius) kurar.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'MAGDEBURGO', https://www.treccani.it/enciclopedia/magdeburgo_(Enciclopedia-Italiana)/",
+    "tanik": "nel 937, vi fonda il monastero benedettino"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "962-02-02",
+    "k": "diger",
+    "b": "künye geçişi: dogu-francia -> almanya (Kutsal Roma): I. Otto papadan imparatorluk tacını alır.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "0968-01-01",
+    "gun": "968",
+    "k": "diger",
+    "b": "Magdeburg başpiskoposluk merkezi olur (Halberstadt'tan ayrılarak).",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'MAGDEBURGO', https://www.treccani.it/enciclopedia/magdeburgo_(Enciclopedia-Italiana)/",
+    "tanik": "costituirvi una sede arcivescovile autonoma (968)"
+   },
+   {
+    "t": "1207-01-01",
+    "gun": "1207",
+    "k": "diger",
+    "b": "Katedral (dom) yangını; sonra gotik bazilika olarak yeniden inşa.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'MAGDEBURGO', https://www.treccani.it/enciclopedia/magdeburgo_(Enciclopedia-Italiana)/",
+    "tanik": "dopo l'incendio del 1207"
+   }
+  ],
+  "ic_not": "lex.dk (Therkel Stræde vd.) + Treccani 1934 + MGH OCR metinleri. Historisches Lexikon, Brill, Landesarchiv Sachsen-Anhalt açılmadı. 805 öncesi (Roma dönemi/Elbe-Germen) kaynak aranmadı (ilk anılış 805 esas). Atlas düzeltmesi gerekmez."
+ },
+ {
   "id": "mainz-de",
   "ad": "Mainz",
   "atlas_ad": "Mainz",
@@ -20570,6 +20818,62 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Málaga: kuruluş TDV'ye göre Fenike MÖ X. yy (Treccani/Pleiades Kartaca kolonisi der → çelişki beyan edildi). Bizans dönemi (tarihsiz) 411-600 BOŞLUK. Hammûdîler künyesi YOK (kunye_yok, önerilen id 'hammudiler', 1016-1058). TDV içi çelişki: Hammûdîler maddesi 'Abbâdîler zaptetti', Mâleka maddesi Zîrî Bâdîs/Temîm — Mâleka maddesi esas. Atlas 1281 'granada' ile uyumlu; atlas 1487-08-18 fethi TDV (27 Şâban 892 = 18 Ağustos 1487) ile uyumlu. Çift teyit: Roma 205 (yalnız Treccani); Hicrî 449 (TDV Mâleka ↔ TDV Hammûdîler, iki madde)."
+ },
+ {
+  "id": "malmo-se",
+  "ad": "Malmö",
+  "atlas_ad": "Malmö",
+  "lat": 55.605,
+  "lon": 13.0,
+  "kat1900": 3,
+  "adlar": [
+   "Malmøi",
+   "Malmøghe",
+   "Malmø",
+   "Malmö"
+  ],
+  "ilk": {
+   "t": "1145-01-01",
+   "gun": "ca. 1145",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Den Store Danske / lex.dk, 'Malmø', https://lex.dk/Malmø",
+   "tanik": "Ordet Malmø kendes fra ca. 1145 Malmøi",
+   "ic_not": "İLK ANILIŞ olarak YALNIZ AD ('Malmøi', lex etimoloji kutusu); kuruluş değil. lex 'Malmø': 'Byens historie går tilbage til 1100-tallet'; lex 'Malmøs historie': sıldız balıkçılığı 'formodentlig' 12. yy'da yerleşim doğurdu, 1300 dolayında Skåne'nin önde gelen pazar yeri, 1353'te kent hakları. UYARI (doğrulanmadı): WebSearch özeti (malmo.se sayfaları açılamadı, curl/WebFetch bağlantı reddi) ad'ın ilk yazımının ca. 1170 ve bunun iç bölgedeki eski köye (Övre Malmö, Pildammarna çevresi) ait olduğunu, bugünkü kentin 13. yy ilk yarısında kurulduğunu, 'stad' olarak ilk 1275'te anıldığını öne sürüyor — bu oturumda AÇILAMADI, yazılmadı. Eski köy ≤3 km ise aynı kayıt, değilse ayrı kayıt önerisi (mesafe ölçülmedi)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1145-01-01",
+    "t": "1281-01-01",
+    "d": "danimarka",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Skåne', https://lex.dk/Skåne",
+    "tanik": "naturlig del af det område, der skulle komme til at udgøre en dansk statsdannelse",
+    "ic_not": "lex 'Skåne' (Tidlig historie): Skåne en eski çağlardan beri Danimarka devletinin doğal parçasıdır; lex Harald Blåtand ca. 950'den itibaren bütün Danimarka kralıdır. Malmö'ye özgü doğrudan sahiplik tanığı yok — BEYANLI YAKLAŞIKLIK. Atlas da 1281'de 'danimarka' yazar (1658'de İsveç)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1145-01-01",
+    "gun": "ca. 1145",
+    "k": "diger",
+    "b": "Ad ilk kez 'Malmøi' biçiminde bilinir.",
+    "kaynak": "Den Store Danske / lex.dk, 'Malmø', https://lex.dk/Malmø",
+    "tanik": "Ordet Malmø kendes fra ca. 1145 Malmøi"
+   },
+   {
+    "t": "1101-01-01",
+    "gun": "12. yüzyıl",
+    "k": "diger",
+    "b": "Sıldız balıkçılığı nedeniyle 12. yüzyılda yerleşim doğduğu varsayılır.",
+    "kaynak": "Den Store Danske / lex.dk, 'Malmøs historie', https://lex.dk/Malmøs_historie",
+    "tanik": "førte formodentlig til bosættelse her i løbet af 1100-t."
+   }
+  ],
+  "ic_not": "Yalnız lex.dk (Michael Linton). Svenskt Biografiskt/Nationalencyklopedin/Svenskt ortnamnslexikon bu oturumda açılmadı. Kuruluş BULUNAMADI."
  },
  {
   "id": "melile-ma",
@@ -22677,6 +22981,132 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış 1050: Treccani EI (diploma di Enrico III) + Treccani online ('Ricordata la prima volta nel 1050') — iki Treccani yayını, bağımsız çift teyit sayılmaz. Gün (16 Temmuz 1050) bu oturumda akademik kaynakta açılamadı → 1050-01-01. EI: 1062 pazar hakkı 'Enrico III' bağlamında anlatılır (diploma 1062 IV. Heinrich dönemi olabilir; Treccani cümlesi 1062'yi parantezle verir) — olay metni cümleye sadık tutuldu. Nürnberg Roma dönemi yok. Atlas Nürnberg 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "nykobing-falster-dk",
+  "ad": "Nykøbing (Falster)",
+  "atlas_ad": "Nykøbing (Falster)",
+  "lat": 54.766,
+  "lon": 11.876,
+  "kat1900": 3,
+  "adlar": [
+   "Nykoping",
+   "Nykøbing Falster"
+  ],
+  "ilk": {
+   "t": "1231-01-01",
+   "gun": "1231",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Den Store Danske / lex.dk, 'Nykøbing Falster', https://lex.dk/Nykøbing_Falster",
+   "tanik": "Navnet Nykøbing nævnes 1231 som Nykoping",
+   "ic_not": "İLK ANILIŞ (ad; kuruluş değil). 1231 = Kral Valdemar Toprak Kayıt Defteri (lex 'Falster': 'Kong Valdemars Jordebog fra ca. 1231') — lex 'Nykøbing Falster' defterin adını anmaz, 1231 yazılı ad biçimidir. ÇELİŞKİ (kuruluş): lex 'Nykøbing' 'opstod i begyndelsen af 1200-t.' (kale çevresinde), lex 'Falster' iki kentin ('Nykøbing og Stubbekøbing') 'slutningen af 1100-t.' kurulduğunu söyler — kur YAZILMADI. 'Byens oprindelige privilegier er ukendte' (lex)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1231-01-01",
+    "t": "1281-01-01",
+    "d": "danimarka",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Falster', https://lex.dk/Falster",
+    "tanik": "Fra middelalderen indtil 1766 tilhørte størstedelen af Falster kronen",
+    "ic_not": "'Størstedelen af Falster' (adanın büyük kısmı) Danimarka tacına aittir; Nykøbing'in kraliyet kalesiyle bağlantısı lex 'Nykøbing Falster'de ('vækst og velfærd var især knyttet til slottet') — BEYANLI YAKLAŞIKLIK. Atlas 1281'de 'danimarka' yazar."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1231-01-01",
+    "gun": "1231",
+    "k": "diger",
+    "b": "Ad 'Nykoping' ('yeni ticaret yeri') olarak yazılı kaydedilir.",
+    "kaynak": "Den Store Danske / lex.dk, 'Nykøbing Falster', https://lex.dk/Nykøbing_Falster",
+    "tanik": "Navnet Nykøbing nævnes 1231 som Nykoping"
+   },
+   {
+    "t": "1253-01-01",
+    "gun": "1253",
+    "k": "diger",
+    "b": "Falster'de Lübeckliler ile savaş (kent çevresi).",
+    "kaynak": "Den Store Danske / lex.dk, 'Falster', https://lex.dk/Falster",
+    "tanik": "krigshandlinger med fx venderne i 1158 og lübeckerne i 1253"
+   }
+  ],
+  "ic_not": "Esas kaynak lex.dk (Falster ve Nykøbing Falster maddeleri). 1253 olayı kente değil adaya ilişkindir (lex Falster); kentin o tarihte var olup olmadığı kaynaksız — bağlam olayı. Kuruluş BULUNAMADI (kaynaklar çelişik)."
+ },
+ {
+  "id": "odense-dk",
+  "ad": "Odense",
+  "atlas_ad": "Odense",
+  "lat": 55.396,
+  "lon": 10.389,
+  "kat1900": 3,
+  "adlar": [
+   "Othensuuigensem",
+   "OÐSVI",
+   "Odansue",
+   "Odense"
+  ],
+  "ilk": {
+   "t": "0988-01-01",
+   "gun": "988",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Den Store Danske / lex.dk, 'Odenses historie', https://lex.dk/Odenses_historie ; Den Store Danske / lex.dk, 'Odense', https://lex.dk/Odense",
+   "tanik": "første gang nævnt i et brev fra den tysk-romerske kejser Otto 3. fra 988",
+   "ic_not": "İLK ANILIŞ (yazılı; kuruluş değil). ÇİFT TEYİT: lex 'Odense' (etimoloji kutusu) adın 988'de Latince 'Othensuuigensem' biçiminde bilindiğini, lex 'Odenses historie' aynı mektubu söyler. Şehir o tarihte zaten piskoposluk merkeziydi; lex tahmini 'Odin kültü merkezi' der (tarihsiz). Arkeoloji: yerleşim bugünkü belediye binası çevresinde (kesin yıl yok)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0988-01-01",
+    "t": "1086-07-10",
+    "d": "danimarka",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Odenses historie', https://lex.dk/Odenses_historie",
+    "tanik": "Byen var da allerede bispesæde",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: lex 988 mektubunda sahibi söylemez; Fyn adası 950'den beri tek Danimarka krallığındadır (lex Harald Blåtand 987'ye kadar hüküm sürdü), 1086'da kral IV. Knud Odense'de öldürülür (aşağıda). Zincir atlasın ilk sahiplik gününe (1086-07-10, danimarka) bağlanır; atlas 1086-07-10'u gün kesinliğiyle kendisi 'ONCE1281-GERIYE' kaydıyla yazmış."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0980-01-01",
+    "gun": "ca. 980",
+    "k": "diger",
+    "b": "Nehrin karşı yakasında Nonnebakken trelleborg kalesi kurulur (şehre komşu, arkeolojik).",
+    "kaynak": "Den Store Danske / lex.dk, 'Odenses historie', https://lex.dk/Odenses_historie",
+    "tanik": "På den anden side af åen lå fra ca. 980 trelleborgen Nonnebakken"
+   },
+   {
+    "t": "0988-01-01",
+    "gun": "988",
+    "k": "diger",
+    "b": "Odense Otto III'ün mektubunda ilk kez anılır; şehir piskoposluk merkezidir.",
+    "kaynak": "Den Store Danske / lex.dk, 'Odenses historie', https://lex.dk/Odenses_historie",
+    "tanik": "første gang nævnt i et brev fra den tysk-romerske kejser Otto 3. fra 988"
+   },
+   {
+    "t": "1035-01-01",
+    "gun": "1018-1035",
+    "k": "diger",
+    "b": "Şehir adı 1018-1035 arası bir sikkede 'OÐSVI' olarak görülür.",
+    "kaynak": "Den Store Danske / lex.dk, 'Odense', https://lex.dk/Odense",
+    "tanik": "dernæst optræder det på en mønt fra perioden 1018-1035 som OÐSVI"
+   },
+   {
+    "t": "1086-07-10",
+    "gun": "1086-07-10",
+    "k": "diger",
+    "b": "Kral IV. Knud (Aziz) Odense'de Sankt Albani Kirke'de öldürülür.",
+    "kaynak": "Den Store Danske / lex.dk, 'Odenses historie', https://lex.dk/Odenses_historie",
+    "tanik": "Den 10.7.1086 dræbtes Knud 4. den Hellige i Sankt Albani Kirke"
+   }
+  ],
+  "ic_not": "lex.dk iki madde (aynı yazar grubu; çift teyit yalnız ad/988 için). Atlas Odense 1086-07-10'dan başlar; bu dosya o günden sonrasına karışmaz (1100 azizlik ilanı vb. yazılmadı). Kuruluş tarihi BULUNAMADI."
  },
  {
   "id": "okayama-jp",
@@ -25126,6 +25556,257 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış 179: Treccani EI 'surları ve kapıları 179'da tamamlandı' (Corp. Inscr. Lat. atfı) + Livius 'building inscription ... 179' — yerinde kitabe rolü, iki bağımsız yayın: ÇİFT TEYİT (EI + Livius, yıl). Daha eski yazılı tanık (Ptolemaios 'Radaspona' — açılamadı, taranmadı; Notitia Dignitatum ~ erken 5. yy daha geç). Kelt yerleşimi Radasbona/Regino ve 1. yy Roma garnizonu (EI 'recenti rinvenimenti') arkeolojik → ark yuzyil (1. yy sonu güvenli uç). Livius: lejyon 171 sonrası geldi. 476-700 BOŞLUK ve 700-788 Agilolfing (künye yok, öneri id 'agilolfing-bavyera'): Treccani süre vermiyor; künye açılırsa f/t kaynaklı doldurulur. Treccani EI ile online Baviera arasında çelişki yok. Roma lejyon kampı Regensburg Altstadt'ta (modern nokta ≤3 km)."
  },
  {
+  "id": "ribe-dk",
+  "ad": "Ribe",
+  "atlas_ad": "Ribe",
+  "lat": 55.328,
+  "lon": 8.766,
+  "kat1900": 3,
+  "adlar": [
+   "Ripa",
+   "Ribe"
+  ],
+  "ilk": {
+   "t": "0859-01-01",
+   "gun": "MS 850-859",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "Den Store Danske / lex.dk, 'Ribe', https://lex.dk/Ribe ; Rimbert, Vita Anskarii c. 32, ed. G. Waitz, MGH SS rer. Germ., Hannover 1884 (archive.org/details/vitaanskariiauc00waitgoog; OCR metni)",
+   "tanik": "Ribe omtales første gang i de skriftlige kilder i forbindelse med missionæren Ansgar",
+   "ic_not": "İLK ANILIŞ (yazılı), kuruluş değil. lex: Ansgar 850'lerde Danimarka kralından kilise yaptırma izni aldı (onyıl). Aralığın güvenli ucu 859 alındı. Rimbert (Vita Anskarii c.32) olayı yıl vermeden anlatır: 'In alio quoque vico regni sui Ripa' (OCR metni, 'Ripa' sonrası dipnot işareti atıldı); Ansgar 865'te öldü. Arkeolojik tarih (ca. 705) yazılı tanık VAR olduğu için ilk değil, ark alanında."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0705-01-01",
+   "gun": "ca. 705",
+   "kesinlik": "yil",
+   "kaynak": "Den Store Danske / lex.dk, 'Ribe', https://lex.dk/Ribe",
+   "tanik": "Ribe blev ca. 705 anlagt på nordsiden af Ribe Å som en sæsonmæssig handelsplads"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0859-01-01",
+    "t": "0950-01-01",
+    "d": "danimarka-erken",
+    "kesinlik": "onyil",
+    "kaynak": "Rimbert, Vita Anskarii c. 32, ed. G. Waitz, MGH SS rer. Germ., Hannover 1884 (archive.org/details/vitaanskariiauc00waitgoog; OCR metni)",
+    "tanik": "In alio quoque vico regni sui Ripa",
+    "ic_not": "Rimbert: Ribe Danimarka kralının ('regni sui', kral Horik) ülkesinde bir 'vicus'tur; künye danimarka-erken 804-950. Kral adı/yılı bu pasajda yok; 859 lex onyılından gelir."
+   },
+   {
+    "f": "0950-01-01",
+    "t": "1281-01-01",
+    "d": "danimarka",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Harald Blåtand', https://lex.dk/Harald_Blåtand",
+    "tanik": "regnes som den første konge, der regerede over hele Danmark",
+    "ic_not": "lex 'Harald Blåtand' Ribe'yi adıyla anmaz; 950 sonrası Jutland'ın Danimarka krallığında olduğu çıkarımdır, lex 'Ribe' ayrıca şehrin ortaçağ boyunca 'kongelig bevågenhed' (kraliyet ilgisi) ve ~50 imtiyaz mektubu aldığını söyler. Atlas da 1281'de 'danimarka' yazar; dikişte değişiklik yok. BEYANLI YAKLAŞIKLIK."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0705-01-01",
+    "gun": "ca. 705",
+    "k": "diger",
+    "b": "Ribe nehrin kuzeyinde mevsimlik ticaret yeri olarak kurulur (arkeolojik).",
+    "kaynak": "Den Store Danske / lex.dk, 'Ribe', https://lex.dk/Ribe",
+    "tanik": "Ribe blev ca. 705 anlagt på nordsiden af Ribe Å som en sæsonmæssig handelsplads"
+   },
+   {
+    "t": "0850-01-01",
+    "gun": "ca. 850",
+    "k": "diger",
+    "b": "Domkirkepladsen altında ca. 850 tarihli Hıristiyan mezarları (2012'de bulundu).",
+    "kaynak": "Den Store Danske / lex.dk, 'Ribe', https://lex.dk/Ribe",
+    "tanik": "Kristne grave dateret til ca. 850 blev i 2012 fundet under Domkirkepladsen"
+   },
+   {
+    "t": "0859-01-01",
+    "gun": "MS 850-859",
+    "k": "diger",
+    "b": "Ribe ilk kez yazılı kaynakta: Ansgar Danimarka kralından kilise yapma izni alır.",
+    "kaynak": "Den Store Danske / lex.dk, 'Ribe', https://lex.dk/Ribe",
+    "tanik": "Ribe omtales første gang i de skriftlige kilder i forbindelse med missionæren Ansgar"
+   },
+   {
+    "t": "0948-01-01",
+    "gun": "948",
+    "k": "diger",
+    "b": "Ribe piskoposluk (stift) merkezi olur.",
+    "kaynak": "Den Store Danske / lex.dk, 'Ribe', https://lex.dk/Ribe",
+    "tanik": "I 948 blev Ribe stiftsby."
+   },
+   {
+    "t": "0950-01-01",
+    "gun": "ca. 950",
+    "k": "diger",
+    "b": "künye geçişi: Danimarka krallığı Godfred dönemi künyesi (danimarka-erken) -> danimarka; Harald Blåtand ca. 950'den itibaren bütün Danimarka'nın kralıdır.",
+    "kaynak": "Den Store Danske / lex.dk, 'Harald Blåtand', https://lex.dk/Harald_Blåtand",
+    "tanik": "regnes som den første konge, der regerede over hele Danmark"
+   },
+   {
+    "t": "1145-01-01",
+    "gun": "1145 öncesi",
+    "k": "diger",
+    "b": "Katedralskolen (Danimarka'nın en eski lisesi) 1145'ten önce kurulmuştur.",
+    "kaynak": "Den Store Danske / lex.dk, 'Ribe', https://lex.dk/Ribe",
+    "tanik": "Katedralskolen, der er oprettet før 1145"
+   },
+   {
+    "t": "1201-01-01",
+    "gun": "13. yüzyıl başı",
+    "k": "diger",
+    "b": "Kent imtiyazları (købstad) 13. yüzyıl başından itibaren bilinir.",
+    "kaynak": "Den Store Danske / lex.dk, 'Ribe', https://lex.dk/Ribe",
+    "tanik": "Købstadsprivilegier kendes fra begyndelsen af 1200-t."
+   }
+  ],
+  "ic_not": "Esas kaynak lex.dk 'Ribe' (Helle Askgaard / Hans Folke Grydergade); Rimbert OCR metni ikinci tanık (tarihsiz). 'Danmarks ældste, stadigt eksisterende by' (lex). Trap Danmark ve Ribe arkeolojik raporları (Feveile) bu oturumda açılmadı; 705 tarihi tek kaynaklı (lex). Kuruluş (kur) yazılmadı: 705 arkeolojik, yazılı kuruluş tanığı yok."
+ },
+ {
+  "id": "ronne-dk",
+  "ad": "Rønne (Bornholm)",
+  "atlas_ad": "Rønne (Bornholm)",
+  "lat": 55.1,
+  "lon": 14.702,
+  "kat1900": 3,
+  "adlar": [
+   "Rønne"
+  ],
+  "ilk": {
+   "t": "1277-01-01",
+   "gun": "1277",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Danmarkshistorien (Lex), 'Rønne', https://danmarkshistorien.lex.dk/Rønne",
+   "tanik": "den nævnes første gang i 1277",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Danmarkshistorien: Rønne 'formentlig opstået i 1200-tallet'; lex 'Rønne': 'opstod omkring en naturlig havn sidst i 1200-tallet' ve 1327'de købstad olarak anılır — kur yazılmadı. 1277 atlas başlangıcından (1281) 4 yıl önce; zincir 4 yıllık."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1277-01-01",
+    "t": "1281-01-01",
+    "d": "danimarka",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Bornholms historie', https://lex.dk/Bornholms_historie",
+    "tanik": "i 1259 stormede Lilleborg, hvorved Rønne Herred også blev indtaget",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Bornholm Danimarka kralının topraklarıdır ama Rønne Herred 1259'dan beri Lund başpiskoposluğunun elindedir (Hammershus; 'Konge og bisp var længe i strid', lex). Başpiskoposluk ayrı siyasî sahip sayılmadı (Danimarka krallığı içinde, ayrı künye yok); Lund başpiskoposu 1259 sonrası fiilî denetçidir. Atlas 1281'de 'danimarka' yazar."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1259-01-01",
+    "gun": "1259",
+    "k": "fetih",
+    "b": "Lund başpiskoposu Wendlerin yardımıyla Lilleborg'u alır; Rønne Herred de ele geçer.",
+    "kaynak": "Den Store Danske / lex.dk, 'Bornholms historie', https://lex.dk/Bornholms_historie",
+    "tanik": "i 1259 stormede Lilleborg, hvorved Rønne Herred også blev indtaget"
+   },
+   {
+    "t": "1277-01-01",
+    "gun": "1277",
+    "k": "diger",
+    "b": "Rønne ilk kez yazılı kaynakta anılır.",
+    "kaynak": "Danmarkshistorien (Lex), 'Rønne', https://danmarkshistorien.lex.dk/Rønne",
+    "tanik": "den nævnes første gang i 1277"
+   }
+  ],
+  "ic_not": "lex.dk üç madde (Rønne, Danmarkshistorien Rønne, Bornholms historie). Hammershus inşası 'omkring 1250' (lex Bornholm) şehir dışı bağlam. Dönem 4 yıllık olduğundan düşük öncelikli."
+ },
+ {
+  "id": "rostock-de",
+  "ad": "Rostock",
+  "atlas_ad": "Rostock",
+  "lat": 54.089,
+  "lon": 12.14,
+  "kat1900": 3,
+  "adlar": [
+   "Roztoc",
+   "Rozstoc",
+   "Rostock"
+  ],
+  "ilk": {
+   "t": "1160-01-01",
+   "gun": "1160",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana (Treccani), 'ROSTOCK', https://www.treccani.it/enciclopedia/rostock_(Enciclopedia-Italiana)/",
+   "tanik": "è ricordata per la prima volta nel 1160",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Treccani: 'Originariamente colonia dei Sorabi' (Slav yerleşimi, Roztok), 1160'ta Aslan Henry'nin Alman iskânı bağlamında anılır. lex: 'slaviske borg Roztoc, der blev ødelagt i 1100-tallet'. Slav kalesi ile bugünkü Rostock merkezinin aynı nokta olup olmadığı kaynaklarda açık DEĞİL; Bogucki (Estonian J. Archaeology 8/2, 2004) Viking-çağı emporium olarak 'Rostock-Dierkow'u listeler (merkezin doğusunda; mesafe ÖLÇÜLMEDİ) — >3 km çıkarsa ayrı kayıt önerisi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1160-01-01",
+    "t": "1167-01-01",
+    "d": "obotrit-knezligi",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Mecklenburg', https://lex.dk/Mecklenburg",
+    "tanik": "da den slaviske fyrste Pribislav (d. 1177) i 1167 omvendte sig til kristendommen",
+    "ic_not": "KÜNYE YOK: önerilen id 'obotrit-knezligi' (Mecklenburg Obotrit/Slav prensleri; lex Mecklenburg: bölge ca. 600'den Slav kolonisi, Frank ve Reich'a 'afhængighedsforhold' ama prensler ancak 1167'de Pribislav'ın Hıristiyanlığa geçmesiyle imparatorluğa 'indlemmet'; Pribislav d. 1177; ömür başlangıcı bu oturumda kaynaklanmadı). Rostock'un 1160-67 arasında Obotrit prensliğinde olduğu lex'ten ÇIKARIM (şehre özgü tanık yok) — BEYANLI YAKLAŞIKLIK. Saksonya dükü Aslan Henry'nin 1160 seferi (Treccani) nedeniyle fiilî denetim tartışmalı olabilir."
+   },
+   {
+    "f": "1167-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Mecklenburg', https://lex.dk/Mecklenburg",
+    "tanik": "da den slaviske fyrste Pribislav (d. 1177) i 1167 omvendte sig til kristendommen",
+    "ic_not": "lex Mecklenburg: 1167'den Mecklenburg prensleri Reich'a dahil. Treccani 1218'de şehrin Alman hukukuyla yönetildiğini söyler. Not (zincire girmedi): Danimarka'nın Mecklenburg/Rostock üzerindeki 13. yy başı üstünlüğü bu oturumda kaynaklanmadı; 1300'de Mecklenburg dükü Rostock'u Danimarka kralına lehen verir (Treccani) — atlas başlangıcından SONRA. Atlas da 1281'de 'almanya' yazar."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1160-01-01",
+    "gun": "1160",
+    "k": "diger",
+    "b": "Rostock (Roztok) ilk kez anılır: Aslan Henry'nin Alman iskânı bağlamında.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'ROSTOCK', https://www.treccani.it/enciclopedia/rostock_(Enciclopedia-Italiana)/",
+    "tanik": "è ricordata per la prima volta nel 1160"
+   },
+   {
+    "t": "1167-01-01",
+    "gun": "1167",
+    "k": "diger",
+    "b": "künye geçişi: obotrit-knezligi -> almanya: Pribislav Hıristiyan olur, Mecklenburg prensleri imparatorluğa dahil edilir.",
+    "kaynak": "Den Store Danske / lex.dk, 'Mecklenburg', https://lex.dk/Mecklenburg",
+    "tanik": "da den slaviske fyrste Pribislav (d. 1177) i 1167 omvendte sig til kristendommen"
+   },
+   {
+    "t": "1171-01-01",
+    "gun": "ca. 1171",
+    "k": "diger",
+    "b": "Pribislav Mecklenburg, Ilow ve Rostock kalelerini/kentlerini (yeniden) inşa eder (yıl yayımcı dipnotundan).",
+    "kaynak": "Helmold von Bosau, Chronica Slavorum, ed. J. M. Lappenberg, MGH SS rer. Germ. 1868 (archive.org/details/helmoldipresbyt00pertgoog; OCR)",
+    "tanik": "Ylowe et Rozstoc et collocavit"
+   },
+   {
+    "t": "1189-01-01",
+    "gun": "1189",
+    "k": "diger",
+    "b": "Rostock'ta pazar yeri (mercato) vardır.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'ROSTOCK', https://www.treccani.it/enciclopedia/rostock_(Enciclopedia-Italiana)/",
+    "tanik": "Già nel 1189 Rostock possedeva un mercato"
+   },
+   {
+    "t": "1218-01-01",
+    "gun": "1218",
+    "k": "diger",
+    "b": "Rostock kent hukukunu alır (Alman hukuku). ÇİFT TEYİT (Treccani + lex).",
+    "kaynak": "Den Store Danske / lex.dk, 'Rostock', https://lex.dk/Rostock",
+    "tanik": "Byen fik stadsrettigheder i 1218"
+   }
+  ],
+  "ic_not": "Treccani 1936 (Migliorini, Möhle, Holtzmann) + lex.dk (Lammers/Stöber) + Helmold OCR (Pribislav yapımı; Lappenberg dipnotu 1171). Helmold'un 1160/1167 sayfaları OCR eksikliğinden okunamadı. Kuruluş BULUNAMADI. Atlas 'almanya' dikişi uyumlu."
+ },
+ {
   "id": "saarbrucken-de",
   "ad": "Saarbrücken",
   "atlas_ad": "Saarbrücken",
@@ -27448,6 +28129,187 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "ic_not": "Sicilmâse (Tâfilelt) — atlas noktası 31.281,-4.283. ATLAS DÜZELTME ÖNERİSİ: atlas 1274-01-01'de Merînî başlatıyor, ama Merînî hâkimiyeti Safer 673 (≈1274-08-06; hicrî 673 = 1274-07-07 başlangıç) — hicrî yıl başlamadan 1274-01-01 olamaz; öneri 1274-08-06 ya da yıl hassasiyetiyle 1274-07-07. Ayrıca 1255-1274 arası Merînî/Abdülvâdî/Merînî inişli çıkışlı; atlasın Sicilmâse'yi 1274'ten önce 'kesin' Merînî saymaması doğru. Aranıp bulunamayan: Bekrî'nin Fransızca çevirisi (de Slane 1859) açılamadı; EI (Brill) 'Sidjilmāsa' erişilemedi; Encyclopédie berbère (OpenEdition) Anubis bot koruması nedeniyle AÇILMADI (aşılmadı). Tarih hassasiyeti: tüm hicrî-yıl uçları 'kesişimin ilk günü' (tablo takvimi ±1-2 gün). Boyasız künyeler: midrari.",
   "dikis_beyan": "Atlas Sicilmâse'yi 1274-01-01'de 'merini' ile başlatıyor; zincirin son sahibi 'zeyyani' (Abdülvâdî; 1263-64'ten). Merînî geri alma Safer 673 = ~1274-08-06 (Ibn Haldûn) / 673 H (TDV) — atlas günü kaynaktan ~7 ay önce, yer tutucu olay yazılmadı."
+ },
+ {
+  "id": "stettin-de",
+  "ad": "Stettin (Szczecin)",
+  "atlas_ad": "Stettin (Szczecin)",
+  "lat": 53.428,
+  "lon": 14.553,
+  "kat1900": 3,
+  "adlar": [
+   "Stetin",
+   "Stettin",
+   "Szczecin"
+  ],
+  "ilk": {
+   "t": "1121-01-01",
+   "gun": "1121",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "M. Bogucki, 'Viking Age ports of trade in Poland', Estonian Journal of Archaeology 8/2 (2004), s. 100-127, https://kirj.ee/wp-content/plugins/kirj/pub/arch-2-2004-100-127_20211214101048.pdf (s. 109)",
+   "tanik": "first mentioned in written sources in 1121",
+   "ic_not": "İLK ANILIŞ (yazılı). Bogucki 1121'i verir (hangi metin olduğunu belirtmez; muhtemelen Bolesław III'ün Pomeranya seferi dönemi, Gallus/Ebbo tarzı kaynak — doğrulanmadı). Aynı makale Arap yazarların 'Ssn/Sdn' adını andığını, ama bunun Ibrahim ibn Yaqub'dan alındığının 'muhtemel' olduğunu söyler — kesin Szczecin eşitlemesi olmadığı için başlangıç sayılmadı. Ebbo, Vita Ottonis III,1 (c. 1151-59, Otto'nun 1124-28 misyonu; Monumenta Bambergensia OCR): 'Stetin vero, amplissima civitas et maior Iulin' — yılsız. Treccani: 'Dapprima piccolo villaggio di pescatori slavi'. Arkeolojik tarih (ark) yazılı tanık VAR olduğundan ilk değil."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0790-01-01",
+   "gun": "8. yüzyıl sonu",
+   "kesinlik": "yuzyil",
+   "kaynak": "M. Bogucki, 'Viking Age ports of trade in Poland', Estonian Journal of Archaeology 8/2 (2004), s. 100-127, https://kirj.ee/wp-content/plugins/kirj/pub/arch-2-2004-100-127_20211214101048.pdf (s. 109) ; D. Okupny vd., Acta Geographica Lodziensia 111 (2022), s. 97-, https://czasopisma.ltn.lodz.pl/index.php/Acta-Geographica-Lodziensia/article/download/1878/1684",
+   "tanik": "as early as the end of the 8th century",
+   "ic_not": "Bogucki: ilk yerleşim Oder'in batı yakasında, Castle Hill ve Vegetable Market'te, 8. yy sonundan. Okupny vd. (2022): 'İlk kentsel özelli yerleşim' 9. yy ortasında, ondan önce 8. yy dönümünde kabile yerleşimi (Łosiński 1996). Castle Hill = bugünkü Eski Şehir (aynı nokta kabul)."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1121-01-01",
+    "t": "1181-01-01",
+    "d": "polonya-erken",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'Bolesław 3. Krzywousty', https://lex.dk/Bolesław_3._Krzywousty",
+    "tanik": "i årene 1116-1123 generobrede han Pommern",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: lex Bolesław III 1116-1123'te Pomeranya'yı yeniden fethetti; Stettin bu aralıkta (1121 ilk anılış, Bogucki). 1138'de Bolesław'ın ölümünden sonra Polonya parçalandı, Pomeranya Gryfit dükleri (Wartislaw soyu) yönetimindeydi — Polonya üstünlüğünün 1181'e kadar sürdüğü kaynakta ayrıca YAZILI DEĞİL; 1181 lex/Treccani'nin Reich tabi dükalık tarihidir. Dönem '1121-1181 Polonya süzerenliği/Pomeranya dükleri' karışımı: künye 'pomeranya-dukaligi' (1121-1637, boyasız) alternatifi var."
+   },
+   {
+    "f": "1181-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'POMERANIA', https://www.treccani.it/enciclopedia/pomerania_(Enciclopedia-Italiana)/",
+    "tanik": "assegnò a essi la Pomerania come feudo dell'impero",
+    "ic_not": "ÇİFT TEYİT: Treccani 'Pomerania': 1181'de Barbarossa Pomeranya dükü unvanını tanıdı ve Pomeranya'yı imparatorluk lehni olarak verdi; lex 'Pommern': '1181-1637 et hertugdømme i det tyske rige'. 1184-1227 Danimarka üstünlüğü (lex: 'dansk overhøjhed') ayrı dönem AÇILMADI (süzerenlik, sahiplik değil) — olay olarak yazıldı. Atlas 1281'de 'almanya' yazar; dikişte değişiklik yok. Öneri: pomeranya-dukaligi künyesine (boyasız) geçiş değerlendirilsin."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1121-01-01",
+    "gun": "1121",
+    "k": "diger",
+    "b": "Stettin ilk kez yazılı kaynaklarda anılır.",
+    "kaynak": "M. Bogucki, 'Viking Age ports of trade in Poland', Estonian Journal of Archaeology 8/2 (2004), s. 100-127, https://kirj.ee/wp-content/plugins/kirj/pub/arch-2-2004-100-127_20211214101048.pdf (s. 109)",
+    "tanik": "first mentioned in written sources in 1121"
+   },
+   {
+    "t": "1123-01-01",
+    "gun": "1116-1123",
+    "k": "fetih",
+    "b": "Polonya hükümdarı III. Bolesław Pomeranya'yı yeniden fetheder ve bölge Hıristiyanlaştırılır.",
+    "kaynak": "Den Store Danske / lex.dk, 'Bolesław 3. Krzywousty', https://lex.dk/Bolesław_3._Krzywousty",
+    "tanik": "i årene 1116-1123 generobrede han Pommern"
+   },
+   {
+    "t": "1181-01-01",
+    "gun": "1181",
+    "k": "diger",
+    "b": "künye geçişi: polonya-erken -> almanya: Barbarossa Pomeranya'yı imparatorluk lehni olarak dük hanedanına tanır.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'POMERANIA', https://www.treccani.it/enciclopedia/pomerania_(Enciclopedia-Italiana)/",
+    "tanik": "assegnò a essi la Pomerania come feudo dell'impero"
+   },
+   {
+    "t": "1184-01-01",
+    "gun": "1184-1227",
+    "k": "diger",
+    "b": "Pomeranya Danimarka üstünlüğüne girer (1227'ye kadar).",
+    "kaynak": "Den Store Danske / lex.dk, 'Pommern', https://lex.dk/Pommern",
+    "tanik": "I perioden 1184-1227 var Pommern under dansk overhøjhed"
+   },
+   {
+    "t": "1243-01-01",
+    "gun": "1243",
+    "k": "diger",
+    "b": "Stettin kent hakları alır ve Pomeranya dükalığının başkenti olur. ÇİFT TEYİT (Treccani + lex).",
+    "kaynak": "Den Store Danske / lex.dk, 'Szczecin', https://lex.dk/Szczecin",
+    "tanik": "i 1243 fik Szczecin byrettigheder"
+   }
+  ],
+  "ic_not": "Bogucki 2004 (hakemli, Estonian Journal of Archaeology) + Okupny 2022 (Acta Geographica Lodziensia) + lex.dk + Treccani 1936. PWN/Britannica açılamadı (JS kabuğu/403). Gallus Anonymus ve Ebbo/Herbord'un tarihli pasajları OKUNAMADI (OCR yıl taşımıyor). Kuruluş BULUNAMADI. Atlas Stettin 1281 'almanya' ile uyumlu."
+ },
+ {
+  "id": "stralsund-de",
+  "ad": "Stralsund",
+  "atlas_ad": "Stralsund",
+  "lat": 54.309,
+  "lon": 13.082,
+  "kat1900": 3,
+  "adlar": [
+   "Strelasund",
+   "Stralsund"
+  ],
+  "ilk": {
+   "t": "1209-01-01",
+   "gun": "1209",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana (Treccani), 'STRALSUNDA', https://www.treccani.it/enciclopedia/stralsunda_(Enciclopedia-Italiana)/",
+   "tanik": "al principio del secolo XIII (1209) i coloni tedeschi",
+   "ic_not": "KURULUŞ (Alman kolonistlerin Altstadt/Neustadt'ı kurması): Treccani 'al principio del secolo XIII (1209)'; yerde önceden Slav güçlendirilmiş merkezi vardı (tarihsiz). ÇELİŞKİ (küçük): lex 'Stralsund opstod omkring 1200 og fik stadsrettigheder i 1234'. Treccani 1209 esas alındı (günlü-yıllı); iki kaynak 'yaklaşık 13. yy başı'nda uyuşur. Treccani 1209'u kuruluş olarak verdiği için nicelik 'kurulus'; bağımsız ikinci yıl tanığı yok."
+  },
+  "kur": {
+   "t": "1209-01-01",
+   "gun": "1209",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana (Treccani), 'STRALSUNDA', https://www.treccani.it/enciclopedia/stralsunda_(Enciclopedia-Italiana)/",
+   "tanik": "al principio del secolo XIII (1209) i coloni tedeschi"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1209-01-01",
+    "t": "1281-01-01",
+    "d": "rugen-prensligi",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'POMERANIA', https://www.treccani.it/enciclopedia/pomerania_(Enciclopedia-Italiana)/",
+    "tanik": "Al principio del sec. XIII i principi di Rügen cominciarono a estendersi sulla terraferma",
+    "ic_not": "KÜNYE YOK: önerilen id 'rugen-prensligi' (Rügen Prensliği, Slav Rani prensleri; ömür: lex Rügen 1169'da Valdemar I Rügen'i fethedip 'dansk len' yaptı ('i 1169 erobrede Valdemar 1. den Store Rügen, gjorde den til dansk len'), 1325'te Rügen Pomeranya'ya geçti (lex Rügen) — Treccani 'Pomerania': Witzlaw III'ün ölümü 1326; başlangıç tarihi bu oturumda kaynaklanmadı). Stralsund'un Rügen prensliği içinde olduğu ÇIKARIM: Treccani 13. yy başında Rügen prenslerinin anakaraya genişlediğini ve 1227'de Ryck'in iki toprağın sınırı olduğunu söyler; Stralsund Ryck'in batısındadır — şehre özgü sahiplik tanığı bu oturumda YOK. BEYANLI YAKLAŞIKLIK. Danimarka lehni olduğundan egemenlik Danimarka tacına bağlıdır (lex)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1169-01-01",
+    "gun": "1169",
+    "k": "fetih",
+    "b": "Danimarka kralı I. Valdemar Rügen'i fetheder ve Danimarka lehni yapar (bağlam: Stralsund'u kapsayan Rügen prensliği).",
+    "kaynak": "Den Store Danske / lex.dk, 'Rügen', https://lex.dk/Rügen",
+    "tanik": "i 1169 erobrede Valdemar 1. den Store Rügen, gjorde den til dansk len"
+   },
+   {
+    "t": "1209-01-01",
+    "gun": "1209",
+    "k": "kurulus",
+    "b": "Alman kolonistler Stralsund'da Altstadt ve Neustadt'ı kurar.",
+    "kaynak": "Enciclopedia Italiana (Treccani), 'STRALSUNDA', https://www.treccani.it/enciclopedia/stralsunda_(Enciclopedia-Italiana)/",
+    "tanik": "al principio del secolo XIII (1209) i coloni tedeschi"
+   },
+   {
+    "t": "1234-01-01",
+    "gun": "1234",
+    "k": "diger",
+    "b": "Stralsund kent hakları alır.",
+    "kaynak": "Den Store Danske / lex.dk, 'Stralsund', https://lex.dk/Stralsund",
+    "tanik": "fik stadsrettigheder i 1234"
+   },
+   {
+    "t": "1251-01-01",
+    "gun": "1251",
+    "k": "diger",
+    "b": "Dominikan manastırı kurulur.",
+    "kaynak": "Den Store Danske / lex.dk, 'Stralsund', https://lex.dk/Stralsund",
+    "tanik": "de i henholdsvis 1251 og 1254 grundlagte dominikaner- og franciskanerklostre"
+   },
+   {
+    "t": "1254-01-01",
+    "gun": "1254",
+    "k": "diger",
+    "b": "Fransiskan manastırı kurulur.",
+    "kaynak": "Den Store Danske / lex.dk, 'Stralsund', https://lex.dk/Stralsund",
+    "tanik": "de i henholdsvis 1251 og 1254 grundlagte dominikaner- og franciskanerklostre"
+   }
+  ],
+  "dikis_beyan": "Atlas Stralsund'u 1281'de 'almanya' yazıyor; kaynaklar (lex Rügen, Treccani Pomerania) bölgenin Rügen Prensliği'nde (Danimarka lehni, 1325/26'ya kadar) olduğunu gösteriyor. Atlas başlangıç iddiası kaynaksız; Rügen prensliği künyesi açılmadan ve Stralsund'un prenslik içindeki yeri (Ryck sınırı dışında doğrudan tanık) kaynaklanmadan 'almanya' düzeltmesi önerilemez.",
+  "ic_not": "Treccani 1936 + lex.dk iki madde. Rügen prensliğinin Stralsund ile ilişkisi için Historisches Lexikon / Hoogeweg (Pommersches Urkundenbuch) aranmalı — açılamadı. Kuruluş günü BULUNAMADI."
  },
  {
   "id": "strasbourg-fr",
@@ -30414,6 +31276,84 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "ic_not": "Vecde (Oujda) — atlas noktası 34.681,-1.900. ATLAS DÜZELTME ÖNERİSİ: atlas 1281-01-01'de 'merini' ile başlatıyor; kaynaklara göre Merînî Ebû Yûsuf 670 H (1271-72) Vecde'yi yıktı, şehri Ebû Yaʿkūb Yûsuf 696 H (1296-97)'de yeniden inşa etti (Ibn Haldûn t. IV; Roudh) → 1281'de şehir YOK; öneri: Vecde 1296-10-30 (yıl hassasiyetiyle) Merînî. ÇELİŞKİLER: kuruluş TDV 383/993 ↔ Ibn Haldûn/Roudh 384/994; Murâbıt fethi TDV 1080 ↔ Roudh 474 (1081). BOŞLUKLAR: 1070-1080 (künye magrave-fas sonrası), 1208-1272 (Muvahhid → Abdülvâdî geçişi): Vecde-özgü tanık yok. Künye önerisi: Vecde Mağrâveleri (993-1080). Boyasız künyeler: magrave-fas. Antik Roma/Mauretania öncülü kaynaklarda bulunamadı (Reference.org gibi derleme siteler 'Roma döneminde yerleşim izi' der — kullanılmadı).",
   "dikis_beyan": "Atlas Vecde'yi 1281-01-01'de 'merini' ile başlatıyor; zincirin son dönemi '__YOK__' (1272-1296 yıkık; Ibn Haldûn t. IV, Roudh 696 H yeniden inşa). Atlasın 1281 iddiasına tanık BULUNAMADI; yer tutucu olay yazılmadı."
+ },
+ {
+  "id": "viborg-dk",
+  "ad": "Viborg (Jutland)",
+  "atlas_ad": "Viborg (Jutland)",
+  "lat": 56.451,
+  "lon": 9.402,
+  "kat1900": 3,
+  "adlar": [
+   "Vvibiærgh",
+   "Viborg"
+  ],
+  "ilk": {
+   "t": "1065-01-01",
+   "gun": "1065",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Danmarkshistorien (Lex), 'Viborg', https://danmarkshistorien.lex.dk/Viborg",
+   "tanik": "Byen blev bispesæde i 1065",
+   "ic_not": "En erken DATELİ yazılı-tarihsel tanık: piskoposluk merkezi oluşu (kuruluş değil, ilk anılış). ÇELİŞKİ: Danmarkshistorien 1065, lex 'Viborg' (by i Jylland) 'Ca. 1060' der; güvenli uç (son) 1065 alındı. Ad ilk kez 1231'de yazılı ('Vvibiærgh', lex). Danmarkshistorien 'vikingetiden'de Jutland'ın dinî-ticarî buluşma yeri olduğunu söyler (yıl yok). Adam von Bremen OCR metninde Viborg piskoposu için yalnız el yazması farklılıkları ('Wibergon', 'Vibarg') görüldü — bağlamı okunamadı, tanık sayılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1065-01-01",
+    "t": "1281-01-01",
+    "d": "danimarka",
+    "kesinlik": "yil",
+    "kaynak": "Danmarkshistorien (Lex), 'Viborg', https://danmarkshistorien.lex.dk/Viborg",
+    "tanik": "modtog de danske konger ved deres indsættelse derfor kongehyldning i Viborg",
+    "ic_not": "Viborg Nørrejylland landstingi merkezidir ve Danimarka kralları burada hükümdar ilan edilmiştir (lex, tarihsiz 'tidlig middelalder'). Danimarka 950'den beri tek krallık (lex Harald Blåtand); atlas 1281'de 'danimarka' yazar. Şehre özgü doğrudan sahiplik tanığı yok — BEYANLI YAKLAŞIKLIK (Jutland krallık toprağı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1065-01-01",
+    "gun": "1065",
+    "k": "diger",
+    "b": "Viborg piskoposluk merkezi olur (lex 'Viborg' by i Jylland: ca. 1060).",
+    "kaynak": "Danmarkshistorien (Lex), 'Viborg', https://danmarkshistorien.lex.dk/Viborg",
+    "tanik": "Byen blev bispesæde i 1065"
+   },
+   {
+    "t": "1150-01-01",
+    "gun": "1150",
+    "k": "diger",
+    "b": "Viborg ilk bilinen kent imtiyazlarını (købstad) alır.",
+    "kaynak": "Den Store Danske / lex.dk, 'Viborg' (by i Jylland), https://lex.dk/Viborg_-_by_i_Jylland",
+    "tanik": "i 1150 fik byen købstadsprivilegier"
+   },
+   {
+    "t": "1189-01-01",
+    "gun": "1189",
+    "k": "diger",
+    "b": "Kjeld'in (St. Kjeld) azizlik mezar kutusu (helgenskrin) yapılır; katedralde korunur.",
+    "kaynak": "Den Store Danske / lex.dk, 'Viborg' (by i Jylland), https://lex.dk/Viborg_-_by_i_Jylland",
+    "tanik": "Sankt Kjelds helgenskrin fra 1189"
+   },
+   {
+    "t": "1231-01-01",
+    "gun": "1231",
+    "k": "diger",
+    "b": "Kent adı yazılı ilk biçimiyle 'Vvibiærgh' kaydedilir.",
+    "kaynak": "Den Store Danske / lex.dk, 'Viborg' (by i Jylland), https://lex.dk/Viborg_-_by_i_Jylland",
+    "tanik": "Navnet Viborg kendes fra 1231 som Vvibiærgh"
+   },
+   {
+    "t": "1250-01-01",
+    "gun": "ca. 1250",
+    "k": "diger",
+    "b": "Dominikan manastırı (sonraki Sortebrødre Kirke) kurulur.",
+    "kaynak": "Den Store Danske / lex.dk, 'Viborg' (by i Jylland), https://lex.dk/Viborg_-_by_i_Jylland",
+    "tanik": "det oprindelige dominikanerkloster fra ca. 1250"
+   }
+  ],
+  "ic_not": "Esas kaynak lex.dk / Danmarkshistorien (Lex). Trap Danmark ve Viborg arkeolojisi (Viborg Museum) açılmadı. Kuruluş tarihi BULUNAMADI. 1150 imtiyazı 'ilk BİLİNEN' (lex: ilk imtiyaz tarihi belirsiz)."
  },
  {
   "id": "wenzhou-cin",
