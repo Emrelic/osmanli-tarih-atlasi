@@ -281,10 +281,9 @@ window.YERLESIMLER_H2_RUSYA = [
 // 🔴 `kasim` kimliği RENKSİZ ve KÜNYESİZ olduğu için `rusya` yazıldı; renk
 // gelirse 1452-1681 penceresi buraya girer. Koordinatöre bildirildi.
 { ad:"Kasimov", tur:"sehir", lat:54.945, lon:41.393, g:1, k:1,
-  s:[
-     {f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
+  s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1452-01-01", d:"moskova"},
-     {f:"1452-01-01",t:"1681-01-01",d:"kasim",kesinlik:{f:"onyil",t:"yil"},kaynak:"TDV İslâm Ansiklopedisi, «Kasım Hanlığı» md. (islamansiklopedisi.org.tr/kasim-hanligi, bu oturumda okundu): hanlığın merkezi Kāsım (Gorodets Meşçerski) şehridir; kuruluş «1445» ya da «1452-1456 yıllarında» olarak iki biçimde verilir (kaynak çelişkisi; seçilen: aralığın ilk yılı 1452, kesinlik onyıl) · son: Seyyid Burhan'ın 1679'daki ölümünden sonra annesi tahta geçti ve «bunun 1681 yılında ölümüyle de Kāsım Hanlığı tarihe karıştı» (yalnız yıl; 1681-01-01 + yıl hassasiyeti) | BEYANLI: Kāsım Hanlığı Moskova'nın tâbi hanlığıdır; moskova/rusya sahipliği hanlık süresince kasim ile değiştirildi (kendi toprağında tâbi yönetim). · ASYA-ZINCIR-1024"},
+     {f:"1452-01-01",t:"1681-01-01",d:"kasim",kesinlik:{f:"yil",t:"yil"},kaynak:"TDV İslâm Ansiklopedisi, «Kāsım Hanlığı» maddesi (https://islamansiklopedisi.org.tr/kasim-hanligi, Ahmet Taşağıl): «Bazı kaynaklara göre 1445’te …, bazılarına göre ise 1452-1456 yıllarında … kurulan Kāsım Hanlığı’nın başına Uluğ Muhammed’in oğlu Kāsım getirildi.» ; «Kāsım hanları … unvan ve topraklarını, devlet vergilerini toplama yetkilerini korumakla birlikte dış işlerinde Moskova’ya tâbi oldular.» ; madde başlığı: «(1445[?]-1681)»; bitiş: «1681 yılında … Kāsım Hanlığı tarihe karıştı». · BAŞLANGIÇ: TDV iki görüş verir (1445 / 1452-1456) ⇒ künyenin seçtiği 1452 (ikinci görüşün alt ucu) alındı, YIL hassasiyeti; çelişki künye ic_not’unda. Moskova vasalı olduğu için eski kayıt `moskova` (1452→1547) / `rusya` (1547→1681) kaynaksızdı; vasal hanlık toprakları ve vergi yetkisi kendisinde olduğundan s: ile yazıldı. · ZİNCİR-1281SONRA-1024"},
      {f:"1681-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
      {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},

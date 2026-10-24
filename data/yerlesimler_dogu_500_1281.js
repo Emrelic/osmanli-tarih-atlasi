@@ -1186,9 +1186,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1968-11-11",
     "t": "2000-12-31",
-    "d": "__BOSLUK__",
+    "d": "maldivler-cumhuriyeti",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip maldivler-cumhuriyeti (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"maldivler-cumhuriyeti\" geri yazılır) · TDV İslâm Ansiklopedisi, «Maldivler» (https://islamansiklopedisi.org.tr/maldivler): “1968 yılında yapılan referandumla cumhuriyet yeniden ilân edildi ve İbrâhim Nâsır cumhurbaşkanı oldu.” ; Office of the President of the Maldives, «President Al Ameer Ibrahim Nasir», https://presidency.gov.mv/PO/FormerPresident/6: “Ibrahim Nasir was sworn in as the first president of republic of the Maldives on 11 November 1968.” (“President from 11 November 1968 to 10 November 1978”) | t=2000-12-31 yalnız ufuk işareti ‖ ic not: TDV yalnız yıl (1968) verir; gün Cumhurbaşkanlığı Ofisi resmî sayfasından (yemin günü); referandum günü (15 Mart 1968) açılan akademik kaynakta okunmadı."
+    "kaynak": "TDV İslâm Ansiklopedisi, «Maldivler» (https://islamansiklopedisi.org.tr/maldivler, Casim Avcı): «Temmuz 1965’te İngiltere’den tam bağımsız hale gelen Maldivler’de 1968 yılında yapılan referandumla cumhuriyet yeniden ilân edildi ve İbrâhim Nâsır cumhurbaşkanı oldu.» · gün: Maldivler Cumhurbaşkanlığı Ofisi (presidency.gov.mv/PO/FormerPresident/6): İbrâhim Nâsır 11 Kasım 1968’de ilk cumhurbaşkanı olarak yemin etti (TDV yalnız yıl verir). 2000-12-31 ufuk işaretidir (cumhuriyet sürüyor). · ZİNCİR-1281SONRA-1024"
    }
   ],
   "not": "kur yazılmadı: Malé'nin ilk tarihli tanığı bu kümede kaynaklanamadı (s[0].f=0500 UFUK işareti).",
