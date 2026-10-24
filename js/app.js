@@ -3538,11 +3538,12 @@ harita.on("load", function () {
     // Pavlodar/Barnaul/Semipalatinsk'e tıkladı: "devletsiz şehir idaresi" —
     // oysa nokta 1635'ten beri `cungar`ın (yeşil), beyan "1635 öncesi" içindi.
     // `p` (arac/uret_bosluk.py): kaydın hiçbir sahiplik dönemiyle örtülmediği
-    // [f, t) aralıkları. `p` yoksa kayıt eskisi gibi her tarihte çizilir.
+    // [f, t) aralıkları. `p` yoksa (ya da boşsa) kayıt HİÇBİR tarihte çizilmez
+    // (24 Ekim 2026: eskiden 'her tarihte' çiziliyordu — MÖ 12000'de Uzboy).
     var _zamanli = [];   // { el, araliklar:[[fi, ti]] }
     function _pencereKaydet(el, k) {
-      if (!k.p || !k.p.length || typeof gunIdx !== "function") return;
-      _zamanli.push({ el: el, araliklar: k.p.map(function (a) {
+      if (typeof gunIdx !== "function") return;
+      _zamanli.push({ el: el, araliklar: (k.p || []).map(function (a) {
         return [a[0] ? gunIdx(a[0]) : -Infinity, a[1] ? gunIdx(a[1]) : Infinity];
       }) });
     }
