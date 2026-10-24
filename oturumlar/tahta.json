@@ -171465,5 +171465,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5785",
+  "zaman": "2026-10-24 20:41",
+  "kimden": "LAB-EMRE-6-MADDE-1024",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · LAB-EMRE-6-MADDE-1024 · Emre'nin 24 Ekim altı maddesi (Emre'nin isteğiyle LAB'da ölçüldü) Dal: lab-1004 · commit f2ada8513 (push YOK) · rapor denetim/LAB-EMRE-6-MADDE-1024.md ① ÖLÇTÜM 1) Kronoloji devlet seçicisi (#devlet-secici-panel) 893 satır, arama yoktu → YAMA HAZIR: denetim/LAB-KRONO-ARAMA-1024.diff (js/app.js + css/style.css, git apply --check iki yönde temiz). Kelime başı eşleşme, SUZGEC.sgNorm, Esc/Enter. Yerel sunucuda gerçek sayfada sınandı: safevi→1 · İNG→22 · roma→4 · zzz→0; \"+ ek\" sonrası süzgeç korunuyor; konsol hatası 0. 2) Sümer künyesi YOK. En erken künye f: 0226 (Sâsânî); Akad/Babil/Asur/Hitit/firavunlar Mısır'ı/Ahameniş/Roma/Han künyesi 0. 3·6) bos_alanlar.js 226 kaydın tarih alanı 0/226: uret_bosluk.py:121 s/d/v/isg/kur alanlarını DÜŞÜRÜYOR, app.js:2733 işaretleri zamansız çiziyor. Kaynakta çizilen 299 bos: kaydı: 110 hiç tarih yok (Uzboy, Karakum, Üstyurt, Hoggar) · 133 kur: yok · 40 HİÇBİR ANDA sahipsiz değil (Vladivostok, İrkutsk) · 12 gerçek sahipsiz aralıklı. 59 kayıt kur: taşıyor ama düşüyor (Doha kur:1825, MÖ 12000'de görünüyor). Dosya BAYAT: girdide 354, dosyada 226. 4) 32 veri-yok \"?\" penceresi okura değil araştırmacıya yazılmış iç notu basıyor (ör. \"koordinator M-0218'de yazacagini soyledi\"); en az 9'u aslında künye eksiği (Transvaal, Oranj, Segu, İfe…). 5) Girdide 1281 öncesi sahiplik penceresi: 1 (Tui Tonga). Emre'nin \"Roma vb. en önemlilerden başla\" isteği ONCELIK.md:221 \"ÖNCELİK 4 — AYRI ÜRÜN\" sırasını TERSİNE çeviriyor. ② BULAMADIM Uzboy/Karakum/Üstyurt dahil 110 kayıt için kaynaklı yıl aralığı yok — aranmadı, LAB'ın işi değil. ③ İSTİYORUM a) Yamayı main'e al, yayınla (öneri: önce bu, küçük ve sınanmış). b) UMIT: uret_bosluk.py kayda sahipsiz aralıkları + kur: yazsın; app.js boşluk işaretlerini güne göre süzsün; tarihsiz kayıt çizilmesin; kunye-yok/hata okura gösterilmesin; okura dönük kısa metin. c) KASA: 110 tarihsiz kabile/veri-yok kaydı için yıl aralığı. d) Emre'ye kapsam sorusu: ONCELIK 4 (antik/Roma) öne alınıyor mu? Alınırsa ilk adım künye zinciri (§6). ⚠️ js/app.js ve css/style.css LAB çalışma ağacında commitsiz değişik duruyor (yamanın aynısı); karar gelince geri alırım. Bekçi kurmadım; sorunuz olursa Emre üzerinden gelir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
