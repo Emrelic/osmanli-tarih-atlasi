@@ -2464,7 +2464,7 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"bohemya", ad:"Bohemya Krallığı", tur:"krallik", bolge:"orta-avrupa",
-  f:"1000-01-01", t:"1526-08-29", ic_not_t:"t değişmedi.", ic_not_f:"pencere ucu, ölçüm değil (D210): kaynaklar dükalığın kuruluşuna YIL vermiyor — lex 'Tjekkiets historie' '900-tallet', snl 'Tsjekkias historie' 'Kongeriket Böhmen utviklet seg til en egen stat på 900-tallet', lex 'přemysliderne' ilk bilinen Přemysl Bořivoj'u 'sidste del af 800-t.' koyar. Yıl uydurulmadı; f kuşak başına (1000-01-01) çekildi. Koordinatör kuşak öncesine inecekse Bořivoj/Václav (929) için yeni kaynak gerekir.", baskent:"Prag", boya_gerekli:true,
+  f:"1198-01-01", t:"1526-08-29", ic_not_t:"t değişmedi.", ic_not_f:"24 Ekim 2026 (Emre onayı): f 1000 -> 1198. 1000 yer tutucuydu; 873-1198 dönemi bohemya-dukaligi künyesinde, krallık unvanı 1198 (I. Přemysl Ottokar). Eski not: pencere ucu, ölçüm değil (D210): kaynaklar dükalığın kuruluşuna YIL vermiyor — lex 'Tjekkiets historie' '900-tallet', snl 'Tsjekkias historie' 'Kongeriket Böhmen utviklet seg til en egen stat på 900-tallet', lex 'přemysliderne' ilk bilinen Přemysl Bořivoj'u 'sidste del af 800-t.' koyar. Yıl uydurulmadı; f kuşak başına (1000-01-01) çekildi. Koordinatör kuşak öncesine inecekse Bořivoj/Václav (929) için yeni kaynak gerekir.", baskent:"Prag", boya_gerekli:true,
   ozet:"Kutsal Roma İmparatorluğu içinde özerk krallık; Hussit savaşları ve Jagellon hanedanı döneminden sonra Mohaç'ta kralın ölümüyle tacı Habsburg'a geçti (bkz. [[habsburg]]).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
