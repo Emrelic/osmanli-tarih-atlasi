@@ -243,6 +243,10 @@ PENCERE = {
 }
 
 
+ERA_BASI = "1281-01-01"   # atlasın çekirdek devri; `neden:` iddiaları "1281-X arası"
+ERA_SONU = "1924-01-01"   # sahibi olmayan kaydın iddiası "1281-1923 arası" (dışlayıcı uç)
+
+
 def _kes(pen, bf, bt):
     """[f,t) aralık listesini [bf,bt) ile kesiştirir; boş kalan aralık düşer."""
     if pen is None:
@@ -264,8 +268,18 @@ def _pencere_kes(pen, y):
     # o durumda kur bu pencereyi KESMEZ.
     kur = str(y["kur"]) if y.get("kur") else None
     ek = PENCERE.get(y["ad"])
-    bf_ek = ek[0] if ek else None
+    # 🔴 ZAMAN SINIRI (24 Ekim 2026, LAB ölçümü): null başlangıç = "MÖ 12000'den
+    # beri" demekti ve 663 çizilen kaydın 652'si (560 null-başlangıç + 92 p'siz)
+    # her tarihte görünüyordu. Kayıtların `neden:` metinleri iddiayı atlasın
+    # çekirdek devrinde yapar ("1281-1551 arası…", "1281-1923 arasında merkezî
+    # devlet kaydı yoktur") — 1281 öncesi için bir iddia YOKTUR. Başlangıcı
+    # kaynaklı bir gün (kur · PENCERE) bildirmeyen kayıt ERA_BASI'ndan başlar;
+    # sahibi hiç olmayan kayıt (p'siz) ERA_SONU'nda biter. Devir dışında iddia
+    # uydurulmaz.
+    bf_ek = (ek[0] if ek else None) or ERA_BASI
     bt = ek[1] if ek else None
+    if bt is None and not any(y.get(a) for a in ("d", "v", "s", "isg")):
+        bt = ERA_SONU
     # `bit:` yerin yok oluşu — bundan sonra nokta çizilmez (1281 öncesi YER-TANIMA
     # kayıtları `bit:"1281-01-01"` taşır; kırpılmazsa 1900'de Pavia'ya "?" konurdu).
     if y.get("bit"):
@@ -279,8 +293,6 @@ def _pencere_kes(pen, y):
         if kur and (t is None or kur < t) and (not bf or kur > bf):
             bf = kur
         sonuc.extend(_kes([(f, t)], bf, bt))
-    if y.get("kur") is None and not ek and not y.get("bit"):
-        return _bos_pencereler(y)
     return sonuc
 
 

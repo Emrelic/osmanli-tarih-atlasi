@@ -28660,6 +28660,29 @@ window.DEVLETLER = [
   kronoloji:[
     { odak_yer:["Jiangling"], t:"0617-01-01", tur:"kurulus", b:"Xiao Xian'ın Liang'ı (梁, Jiangling) başladı (atlas dilimi)", kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1" },
     { odak_yer:["Jiangling"], t:"0621-11-10", tur:"son", b:"Xiao Xian'ın Liang'ı (梁, Jiangling) sona erdi (atlas dilimi)", kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1" }
+  ] },
+// ===== KUNYESIZ-DEVREDILEBILIR (24 Ekim 2026): DEVLET-LISTESI'nde olup kunyesi olmayan devletler =====
+{ id:"sacilar", ad:"Sâcîler (Ebü's-Sâcoğulları)", tur:"hanedanlik", bolge:"iran",
+  f:"0889-05-06", t:"0929-09-09", baskent:"Merâga · Erdebil", boya_gerekli:true,
+  ic_not_f:"TDV 'Sâcîler': Muhammed b. Ebü's-Sâc'ın Azerbaycan valiliği ve bağımsızlaşması 276/889 — yalnız yıl+hicrî yıl verilir, gün yok. Kesişim kuralı: 276 hicrî yılı ∩ 889 mîlâdî yılı ∩ ay yok ⇒ 1 Muharrem 276 (tablo çevirisi, Jülyen, ±1-2 gün) = 889-05-06. Olay günü DEĞİL, kaynakla çelişmeyen en erken gün. Alt sınır 889-05-06 ancak Jülyen tablo çevirisidir.",
+  ic_not_t:"TDV: Ebü'l-Müsâfir Feth Şâban 317'de ('Eylül 929') öldürüldü, Sâcî hâkimiyeti sona erdi. Gün yok; 1 Şâban 317 (tablo çevirisi, Jülyen, ±1-2 gün) = 929-09-09, 'Eylül 929' ile çelişmez. Olay günü DEĞİL, ayın ilk günü.",
+  ic_not:"MÜKERRER TARAMASI: devletler.js'te id/ad/harita anahtarı olarak Sâcî yok (yalnız Vaspurakan/Ani kronoloji metinlerinde 'Sâcî emiri Yûsuf' anılır). Ardıl Müsâfirî/Sâllârî ile karıştırılmaz. Harita zinciri YOK: Merâga/Erdebil/Berde yerleşimlerinin atlas zincirleri 889-929 aralığında başlamıyor (Merâga 1054'ten başlar); bu dilimde yerleşim ömrü ve boşluk sorusu ayrı iştir (bölge: iran; Berde/Ermenistan kolu kafkasya payı olabilir). Hükümdar sırası ve yıllar TDV'den: Muhammed 889-901, Dîvdâd 901, Yûsuf 901-927 (Kûfe yakınında Karmatîlerce esir 315/927), Feth 927-929.",
+  ozet:"Abbâsî halifesi Muvaffak'ın Azerbaycan valisi atadığı Muhammed b. Ebü's-Sâc'ın bağımsızlaşarak kurduğu hanedan; merkez önce Merâga, sonra Erdebil; Azerbaycan, Arrân ve Ermenistan'ın bir bölümünde hâkimdi. Son hükümdar Feth'in ölümüyle (929) sona erdi.",
+  kaynak:"TDV İslâm Ansiklopedisi, SÂCÎLER, https://islamansiklopedisi.org.tr/sacogullari (889 / 276; Şâban 317 = Eylül 929; Merâga merkezi 280/893)",
+  kronoloji:[
+    { odak_yer:["Merâga"], t:"0889-05-06", tur:"kurulus", b:"Muhammed b. Ebü's-Sâc Azerbaycan valisi olarak Sâcî hânedanını kurdu (276/889; gün: 1 Muharrem 276 tablo çevirisi, yalnız yıl teyitli)", kaynak:"TDV İslâm Ansiklopedisi, SÂCÎLER, https://islamansiklopedisi.org.tr/sacogullari" },
+    { odak_yer:["Erdebil"], t:"0929-09-09", tur:"son", b:"Son Sâcî hükümdarı Ebü'l-Müsâfir Feth öldürüldü; Sâcî hâkimiyeti sona erdi (Şâban 317 / Eylül 929; gün: 1 Şâban tablo çevirisi, yalnız ay teyitli)", kaynak:"TDV İslâm Ansiklopedisi, SÂCÎLER, https://islamansiklopedisi.org.tr/sacogullari" }
+  ] },
+{ id:"hasanveyhiler", ad:"Hasanveyhîler (Berzikânî Kürt emirliği)", tur:"hanedanlik", bolge:"iran",
+  f:"0959-01-01", t:"1015-01-01", baskent:"Dînever · Hemedan", boya_gerekli:true,
+  ic_not_f:"TDV 'Kürtler': 'Hasanveyhîler Emirliği' 959-1015 (yalnız yıl; gün yok ⇒ YYYY-01-01, yalnız yıl teyitli). Aynı madde Hasanveyh b. Hüseyin'in Büveyhî Adudüddevle'ye karşı muhalefete katılışını 366 (976), ölümünü 369 (979) verir — TDV içi çelişki: 959 emirliğin başlangıcı olarak Kürtler maddesinin dönem ibaresinden alındı, 976 Hasanveyh'in tarihte görünür olduğu yıldır.",
+  ic_not_t:"TDV 'Kürtler' emirliği 1015'te bitirir; TDV 'Annâzîler' Bedr b. Hasanveyh'in 979-1014 arası Hemedan-Dînever'e hâkim olduğunu ve 1014'te öldürüldüğünü yazar. Hanedanın bitişi 1015 (Kürtler, yalnız yıl); Bedr'in ölümü 1014 (Annâzîler) — aradaki bir yıl fark çelişki değil, iki ayrı olay (hükümdar ölümü / emirlik sonu) olarak beyan edildi.",
+  ic_not:"MÜKERRER TARAMASI: devletler.js'te id/ad/harita anahtarı olarak Hasanveyh yok (Annâzîler ve Büveyhîler ayrı polity; yakın komşu). Harita zinciri YOK: Dînever/Hemedan/Şehrizor/Nihâvend yerleşimlerinin bu dilimdeki sahipliği ayrıca ölçülmeli. Ek TDV tanıklığı: Nihâvend 'elli yıldan fazla' Hasanveyhîler elinde kalmıştır (Nihâvend maddesi).",
+  ozet:"Irak Kürtlerinden Berzikânî aşiretinden Hasanveyh b. Hüseyin'in kurduğu, oğlu Bedr döneminde Dînever, Hemedan ve Şehrizor çevresine hâkim olan Kürt emirliği; Büveyhî ve Annâzî komşuluğunda yaşadı.",
+  kaynak:"TDV İslâm Ansiklopedisi, KÜRTLER, https://islamansiklopedisi.org.tr/kurtler (959-1015; 366/976, 369/979) ; TDV, ANNÂZÎLER, https://islamansiklopedisi.org.tr/annaziler (Bedr 979-1014, 1014'te öldürüldü)",
+  kronoloji:[
+    { odak_yer:["Dînever"], t:"0959-01-01", tur:"kurulus", b:"Hasanveyhîler emirliği başladı (TDV Kürtler dönem ibaresi 959; yalnız yıl teyitli)", kaynak:"TDV İslâm Ansiklopedisi, KÜRTLER, https://islamansiklopedisi.org.tr/kurtler" },
+    { odak_yer:["Hemedan"], t:"1015-01-01", tur:"son", b:"Hasanveyhîler emirliği sona erdi (TDV Kürtler dönem ibaresi 1015; Bedr b. Hasanveyh 1014'te öldürülmüştü; yalnız yıl teyitli)", kaynak:"TDV İslâm Ansiklopedisi, KÜRTLER, https://islamansiklopedisi.org.tr/kurtler ; TDV, ANNÂZÎLER, https://islamansiklopedisi.org.tr/annaziler" }
   ] }
 ];
 
