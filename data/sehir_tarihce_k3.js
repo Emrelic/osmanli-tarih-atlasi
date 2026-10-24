@@ -20233,6 +20233,175 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış 840 'luciaria' HLS başlık satırında; Vikipedi DE 'monasterium Luciaria (840)' ve '853 Lucerna' verir (ikinci tanık). Birincil belge (hangi senet/kopya) bu oturumda açılamadı; Vikipedi DE'ye göre Luciaria kaydının kopya olup olmadığı bilinmiyor — çift teyit YOK. Treccani: 'convento benedettino di S. Leodegario (8° sec.)' etrafında oluştu (8. yy manastır kuruluşu tarihsiz; kur yazılmadı). Roma dönemi: HLS yalnız 2.-3. yy sikke buluntuları (yerleşim kanıtı yok). 843-962 arası egemen BOSLUK (Orta Francia/Doğu Francia sınırı belgelenemedi). 962→ nominal 'almanya' (varsayım, ic_not'ta beyan). 1281'de 'almanya' atlas ile uyumlu; Treccani Habsburg'u 1277/1281'de üstün otorite gösterir (Habsburg künyesi 1282'de başlıyor)."
  },
  {
+  "id": "maastricht-nl",
+  "ad": "Maastricht",
+  "atlas_ad": "Maastricht",
+  "lat": 50.851,
+  "lon": 5.691,
+  "kat1900": 2,
+  "adlar": [
+   "Traiectum ad Mosam",
+   "Maastricht"
+  ],
+  "ilk": {
+   "t": "0070-01-01",
+   "gun": "70",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Tacitus, Historiae 4.66 (Latin Library, https://www.thelatinlibrary.com/tacitus/tac.hist4.shtml); yıl (70) Livius 'Traiectum ad Mosam (Maastricht)' https://livius.org/articles/place/traiectum-ad-mosam-maastricht",
+   "tanik": "quia pontem Mosae fluminis anteceperat"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0070-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Livius.org (J. Lendering), 'Traiectum ad Mosam (Maastricht)', https://livius.org/articles/place/traiectum-ad-mosam-maastricht",
+    "tanik": "it existed in the third quarter of the first century CE",
+    "ic_not": "Maas köprüsü 70'te (Batav isyanı) var; Treccani: 'Sorse come difesa di un ponte romano sulla strada da Tongres a Colonia' (1. yy). Livius: kent IV. yy'da Tongeren'in limanı olarak güçlü surlarla kalelendi. Roma İmparatorluğu künyesi f=-0026."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0511-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-511 arası Maastricht'in sahibi kaynakta açılamadı (Treccani yalnız Servatius 384 ve 'palazzo dei re merovingi', tarihsiz). 35 yıllık boşluk (> 1 kuşak) beyan edilir, kapatılmadı."
+   },
+   {
+    "f": "0511-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "regno dell'Est, che comprendeva anche l'odierna Champagne, l'Alsazia, il Belgio",
+    "ic_not": "f 'en geç tanıktan': Clovis'in ölümünde (511) Austrasia krallığı Belgio'yu da kapsar (Treccani LORENA); Maastricht'te Merovenj kralların sarayı vardı (Treccani, tarihsiz). Künye frank f=0481."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0925-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "la Mosa, la Schelda e il Reno e che da lui fu detta Lotaringia",
+    "ic_not": "Verdun'da Lothar I'e Frizya + Austrasia'nın orta-doğusu (Lotharingia) düşer (Treccani Verdun: 'autorità effettiva solo sulla Frisia'). Künye 'orta-francia-lotharingia' f=0855 — 843-855 arası aynı polity (Lothar I'in Orta Francia'sı): künye GENİŞLETME önerisi (f=0843-08-10). 870 Meerssen ayrıntısı bu kaynakta yok; 876-925 arası hükümdarlar sırayla Doğu/Batı kralları — şehir bazında ayrım yazılmadı, polity tek dönem alındı."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01; zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Atlas 'almanya' ile uyumlu (1281'de seam eşit)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0070-01-01",
+    "gun": "70",
+    "k": "diger",
+    "b": "Batav isyanında Claudius Labeo, Maas köprüsünü elinde tutarak Civilis'e karşı direnir (köprü: Maastricht'in ilk yazılı anılışı).",
+    "kaynak": "Tacitus, Historiae 4.66 (Latin Library, https://www.thelatinlibrary.com/tacitus/tac.hist4.shtml); yıl (70) Livius 'Traiectum ad Mosam (Maastricht)' https://livius.org/articles/place/traiectum-ad-mosam-maastricht",
+    "tanik": "quia pontem Mosae fluminis anteceperat"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus tahtı bırakmaya zorlanır; Livius 4 Eylül ihtimalini de anar).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0382-01-01",
+    "gun": "382",
+    "k": "idari",
+    "b": "Aziz Servatius (Tongeren piskoposu) piskoposluk merkezini Maastricht'e taşır; 384'te orada ölür (merkez 720'de Liège'e taşınır).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MAASTRICHT' (A. H. Luijdjens), https://www.treccani.it/enciclopedia/maastricht_(Enciclopedia-Italiana)/",
+    "tanik": "dopo avervi trasportato la sede del vescovato (382)"
+   },
+   {
+    "t": "0511-01-01",
+    "gun": "511",
+    "k": "idari",
+    "b": "Clovis'in ölümünde Austrasia (Belgio dahil) Frank krallığıdır: Maastricht en geç bu tarihte Frank krallığında.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "regno dell'Est, che comprendeva anche l'odierna Champagne, l'Alsazia, il Belgio"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Lothar I'e Frizya ve Austrasia'nın orta-doğusu (sonradan Lotharingia) düşer; Maas vadisi Lotharingia'ya girer.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0881-01-01",
+    "gun": "881",
+    "k": "kayip",
+    "b": "Normanlar Maastricht'i tümüyle yıkar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MAASTRICHT' (A. H. Luijdjens), https://www.treccani.it/enciclopedia/maastricht_(Enciclopedia-Italiana)/",
+    "tanik": "nell'881 fu completamente distrutta dai Normanni"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "fetih",
+    "b": "Kuşkucu (Avcı) Henry (Doğu Francia/Almanya kralı) Lotharingia'yı boyun eğdirir (sonra dükalık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Almanya (I. Otto papadan imparatorluk tacını alır; Kutsal Roma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1204-01-01",
+    "gun": "1204",
+    "k": "idari",
+    "b": "1204'ten itibaren Maastricht imparatorluk lehi olarak kısmen Brabant dükleri, kısmen Liège piskoposlarının egemenliğinde (ortak yönetim).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MAASTRICHT' (A. H. Luijdjens), https://www.treccani.it/enciclopedia/maastricht_(Enciclopedia-Italiana)/",
+    "tanik": "Dal 1204 in poi la città appartenne come feudo imperiale"
+   }
+  ],
+  "ic_not": "İlk anılış: Tacitus Hist. 4.66 Maas köprüsü (Labeo – Civilis çatışması; Livius yılı 70 verir) — yerleşim adı anılmıyor, köprü geçidi anılıyor: nicelik 'ilk_anilis' (yer = köprü başı). 'Traiectum ad Mosam' adı antik kaynaklarda doğrulanmıyor (Livius notu: 'The name is not attested in ancient sources, but was used in the Middle Ages'). Livius: köprünün ilk evresi dendro ile tarihlenemedi; Tongeren/Bavay–Köln yolu MÖ 30-20 sonrası. Modern nokta köprü başıyla aynı (<3 km). Maastricht Brabant/Liège ortak yönetimi 1204'ten: künye brabant-dukaligi (f=1190) mevcut; zincirde egemen Reich (almanya) tutuldu, Emre kararı. Lotharingia künyesi f=0855 — 843-855 genişletme önerisi."
+ },
+ {
   "id": "magdeburg-de",
   "ad": "Magdeburg",
   "atlas_ad": "Magdeburg",
@@ -21230,6 +21399,186 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış: Tacitus Hist. 1.63 (olaylar Ocak 69) — Perseus Fisher yayını açıldı; Latin metinde 'Divoduri (Mediomatricorum id oppidum est)'. Treccani EI 'Appare nella storia solo alla fine del sec. I' ile uyumlu (Tacitus'un yazım zamanı). Daha eski yazılı tanık (Caesar Mediomatrici halkını anar, kent adını değil; Ptolemaios/Pomponius taranmadı). Modern Vikipedi DE: ilk iskân izleri MÖ 3000, Roma fethi MÖ 52, Attila 451'de Metz'i yıktı — Vikipedi tek dayanak olamaz, akademik teyit açılamadı → ark/olay yazılmadı. Austrasya başkenti (Treccani 'Metz', EI Lorena). 870 Meerssen günü (8 Ağustos) yalnız Vikipedi EN → yıl hassasiyeti. Çift teyit YOK. Atlas Metz 1281'de 'almanya' ile başlıyor: Reich içinde, tutarlı."
  },
  {
+  "id": "middelburg-nl",
+  "ad": "Middelburg",
+  "atlas_ad": "Middelburg",
+  "lat": 51.498,
+  "lon": 3.61,
+  "kat1900": 3,
+  "adlar": [
+   "Middelburg"
+  ],
+  "ilk": {
+   "t": "1106-01-01",
+   "gun": "1106",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'MIDDELBURG' (A. H. Luijdjens), https://www.treccani.it/enciclopedia/middelburg_(Enciclopedia-Italiana)/",
+   "tanik": "fondata nel 1106, primo germe della città"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1106-01-01",
+    "t": "1281-01-01",
+    "d": "hollanda-kontlugu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MIDDELBURG' (A. H. Luijdjens), https://www.treccani.it/enciclopedia/middelburg_(Enciclopedia-Italiana)/",
+    "tanik": "La città si è formata intorno a un castello dei conti d'Olanda",
+    "ic_not": "Treccani: kent Holland kontlarının kalesi çevresinde oluştu; 1106 Premontre manastırı ('primo germe della città'); 1253'te kontla birlikte Flaman'lara karşı Westkapelle muharebesi. Künye hollanda-kontlugu 1000-1433 (boyalı). Atlas 'almanya' diyor — dikis_beyan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1106-01-01",
+    "gun": "1106",
+    "k": "kurulus",
+    "b": "Middelburg Abdij'i (Premontre) kurulur: kentin 'ilk tohumu'.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MIDDELBURG' (A. H. Luijdjens), https://www.treccani.it/enciclopedia/middelburg_(Enciclopedia-Italiana)/",
+    "tanik": "fondata nel 1106, primo germe della città"
+   },
+   {
+    "t": "1101-01-01",
+    "gun": "12. yüzyıl",
+    "k": "diger",
+    "b": "Middelburg XII. yy'da önemli bir ticaret merkezi.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MIDDELBURG' (A. H. Luijdjens), https://www.treccani.it/enciclopedia/middelburg_(Enciclopedia-Italiana)/",
+    "tanik": "Già nel sec. XII, la città era un importante centro commerciale"
+   },
+   {
+    "t": "1253-01-01",
+    "gun": "1253",
+    "k": "diger",
+    "b": "Middelburg yurttaşları Westkapelle muharebesinde Holland kontu II. Willem'e Flamanlara karşı yardım eder ve ayrıcalık alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MIDDELBURG' (A. H. Luijdjens), https://www.treccani.it/enciclopedia/middelburg_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1253, i cittadini davano valido aiuto al conte Guglielmo II contro i Fiamminghi"
+   }
+  ],
+  "dikis_beyan": "Atlas Middelburg'u 1281-01-01'de 'almanya' ile başlatıyor; Treccani kenti Holland kontlarının kalesi çevresinde gösterir ve 1253'te kont II. Willem'in yanında yer alır. 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'hollanda-kontlugu' (boyalı künye var) olmalı mı yoksa Reich nominal üst efendi diye mi tutulur — Emre kararı.",
+  "ic_not": "İlk anılış: Treccani (1934) 'fondata nel 1106' abdij; Treccani'nin kendi uyarısı: 'È incerta l'origine della città ... un grande incendio della fine del '200 distrusse ... l'archivio'. Çelişki: ikincil kaynaklar (Vikipedi 'Middelburg Abbey'; Zeeland turizm) abdij için c. 1100-1127 ve eski bir Karolenj kalesi (IX. yy, Viking karşıtı Walcheren kaleleri) verir — akademik birincil kaynak (Unger 1966 vb.) bu turda açılamadı; kuruluş ('kur') yazılmadı, Treccani'nin 1106'sı ilk anılış/nucleus olarak alındı. archimon.nl 403 verdi. Modern nokta aynı yer."
+ },
+ {
+  "id": "mons-be",
+  "ad": "Mons",
+  "atlas_ad": "Mons",
+  "lat": 50.454,
+  "lon": 3.952,
+  "kat1900": 2,
+  "adlar": [
+   "Mons"
+  ],
+  "ilk": {
+   "t": "0660-01-01",
+   "gun": "yaklaşık 660",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "A. Dierkens, 'Note sur deux passages de la Vita sanctae Aldegundae prima (BHL 244)', Mélanges J.-M. Cauchies (2016), https://dipot.ulb.ac.be/dspace/bitstream/2013/265681/3/DIERKENS-Melanges-Cauchies-2016.pdf (Aldegonde'un 660 dolayında Waudru'nun Mons manastırını kurmasına tanıklığı)",
+   "tanik": "la fondation, par sa soeur Waudru, de l'abbaye de Mons"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0660-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "onyil",
+    "kaynak": "A. Dierkens, 'Note sur deux passages de la Vita sanctae Aldegundae prima (BHL 244)', Mélanges J.-M. Cauchies (2016), https://dipot.ulb.ac.be/dspace/bitstream/2013/265681/3/DIERKENS-Melanges-Cauchies-2016.pdf (Aldegonde'un 660 dolayında Waudru'nun Mons manastırını kurmasına tanıklığı)",
+    "tanik": "la fondation, par sa soeur Waudru, de l'abbaye de Mons",
+    "ic_not": "Dierkens: kuruluş çevresi Cousolre'de, 'Neustrie'de ama Austrasie-Neustrie sınırında' — iki krallık da Frank künyesi içinde. Treccani LORENA: Clovis'in ölümünde (511) Austrasia Belgio'yu kapsar."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0925-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "la Mosa, la Schelda e il Reno e che da lui fu detta Lotaringia",
+    "ic_not": "Mons Schelda'nın doğusunda (3.95°D), Hainaut → Lothar I'in payı (Lotharingia). Künye f=0855 — 843-855 genişletme önerisi. 870 Meerssen şehir bazında yazılmadı."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01; zincir 0962-02-02'ye uzanır."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Mons Hainaut kontlarının merkezi (Treccani: kale X. yy başında Hainaut kontlarınca); künye hainaut-kontlugu f=1071 — 1071 öncesi tarihleme kaynaksız olduğu için zincirde egemen Reich (almanya) tutuldu, atlas 'almanya' ile uyumlu. Emre kararı: 1071'den hainaut-kontlugu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0660-01-01",
+    "gun": "yaklaşık 660",
+    "k": "kurulus",
+    "b": "Waudru, Mons'ta (Sainte-Waudru) manastırı kurar; Mons'un en eski tarihlenebilir çekirdeği.",
+    "kaynak": "A. Dierkens, 'Note sur deux passages de la Vita sanctae Aldegundae prima (BHL 244)', Mélanges J.-M. Cauchies (2016), https://dipot.ulb.ac.be/dspace/bitstream/2013/265681/3/DIERKENS-Melanges-Cauchies-2016.pdf (Aldegonde'un 660 dolayında Waudru'nun Mons manastırını kurmasına tanıklığı)",
+    "tanik": "la fondation, par sa soeur Waudru, de l'abbaye de Mons"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Lothar I'e Frizya ve Austrasia'nın orta-doğusu (sonradan Lotharingia) düşer; Schelda doğusu Lotharingia'ya girer.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "fetih",
+    "b": "Kuşkucu (Avcı) Henry (Doğu Francia/Almanya kralı) Lotharingia'yı boyun eğdirir (sonra dükalık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia"
+   },
+   {
+    "t": "0901-01-01",
+    "gun": "10. yüzyıl başı",
+    "k": "kurulus",
+    "b": "Hainaut kontları Sainte-Waudru yakınında kale (castrum) inşa eder: Treccani'ye göre kentin kökeni.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MONS' (C. Errera, Y. Dupont, F. L. Ganshof, A. Alberti), https://www.treccani.it/enciclopedia/mons_(Enciclopedia-Italiana)/",
+    "tanik": "castello costruito agl'inizî del sec. X, dai conti di Hainaut"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Almanya (I. Otto papadan imparatorluk tacını alır; Kutsal Roma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1152-01-01",
+    "gun": "1152-1185",
+    "k": "idari",
+    "b": "Kale ve manastır yerleşmeleri surlarla çevrilir (kont kalesine dış savunma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MONS' (C. Errera, Y. Dupont, F. L. Ganshof, A. Alberti), https://www.treccani.it/enciclopedia/mons_(Enciclopedia-Italiana)/",
+    "tanik": "una difesa esterna al castello comitale (1152-1185)"
+   },
+   {
+    "t": "1201-01-01",
+    "gun": "13. yüzyıl başı",
+    "k": "idari",
+    "b": "Mons idari ve adli bir özerklik elde eder.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MONS' (C. Errera, Y. Dupont, F. L. Ganshof, A. Alberti), https://www.treccani.it/enciclopedia/mons_(Enciclopedia-Italiana)/",
+    "tanik": "All'inizio del sec. XIII essa ottenne una certa autonomia amministrativa e giudiziaria"
+   }
+  ],
+  "ic_not": "İlk anılış: Dierkens (ULB, 2016) 'vers 660 ... la fondation, par sa soeur Waudru, de l'abbaye de Mons' — MANASTIRIN kuruluşu (kent değil). Çelişki beyanı: Treccani (1934) kentin kökenini X. yy başındaki kont kalesine bağlar; manastır yerleşmesi daha eskidir. Zincir erken tarihi (660) esas aldı çünkü yerleşim (abbey) o tarihte tanıklıdır; 'Mons' adının kaynakta ilk geçtiği yıl bu turda açılamadı (Vita Waldetrudis, IX. yy kopyalar — De Vriendt, Analecta Bollandiana — açılamadı). Roma dönemi iddiası (turizm kaynakları 'Caesar kampı') kaynaksız, kullanılmadı. Modern nokta aynı yer."
+ },
+ {
   "id": "mulhouse-fr",
   "ad": "Mulhouse",
   "atlas_ad": "Mulhouse",
@@ -21404,6 +21753,161 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış 14 Haziran 1158: Bayerisches Hauptstaatsarchiv belgesi (Barbarossa hakem kararı; Augsburg). Arşiv sayfası 'kuruluş belgesi yok, ilk anılış' diyor → nicelik ilk_anilis, kur=null. Treccani EI 'Monaco' kuruluşu 'probabilmente nel 1158' Aslan Henry'ye atfeder (kuruluş iddiası; belge değil) — kur YAZILMADI. Köprü 1180 Regensburg kararında geçer (gda 'Ludwigsbrücke' notu, açılmadı). Çift teyit: arşiv (1158) + Treccani EI (1158 ca.) — Treccani 'ca.' dediği için tam çift teyit sayılmaz. Atlas Münih 1281 'almanya': tutarlı (Bavyera dükalığı Reich içinde)."
+ },
+ {
+  "id": "munster-de",
+  "ad": "Münster",
+  "atlas_ad": "Münster",
+  "lat": 51.961,
+  "lon": 7.626,
+  "kat1900": 2,
+  "adlar": [
+   "Mimigernaford",
+   "Münster"
+  ],
+  "ilk": {
+   "t": "0793-01-01",
+   "gun": "793",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Stadt Münster, Stadtmuseum, 'Münster im Modell – Die Domburg', https://www.stadt-muenster.de/museum/museum/muenster-im-modell/die-domburg",
+   "tanik": "dürfte um 793 eine ältere Missionsstation bei Mimigernaford sowie eine Kirche vorgefunden haben"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0793-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MÜNSTER' (E. Migliorini, H. Möhle, W. Platzhoff), https://www.treccani.it/enciclopedia/munster_(Enciclopedia-Italiana)/",
+    "tanik": "I suoi inizî rimontano ai tempi di Carlomagno",
+    "ic_not": "Karl der Große Liudger'i Sachsen'de manastır kurmakla görevlendirir (Stadt Münster). Künye frank f=0481."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "la Sassonia e l’Alemannia",
+    "ic_not": "Verdun: Ludwig der Deutsche'e 'la Baviera, ... la Sassonia e l’Alemannia' (Sachsen) → Münster Doğu Francia'da. Künye dogu-francia t=0962-01-01; zincir 0962-02-02'ye uzanır."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Münster piskoposluk yönetimi altında Reich içinde (Fürstbistum); Treccani: 1130'da şehir hakkı, XIII. yy'da surlar. Atlas 'almanya' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0793-01-01",
+    "gun": "793",
+    "k": "kurulus",
+    "b": "Liudger Mimigernaford'da (Münster) Aa kıyısında canonici (kanon) vakfı kurar; Stadt Münster'in kabul ettiği kuruluş yılı.",
+    "kaynak": "Stadt Münster, Stadtmuseum, 'Münster im Modell – Die Domburg', https://www.stadt-muenster.de/museum/museum/muenster-im-modell/die-domburg",
+    "tanik": "dürfte um 793 eine ältere Missionsstation bei Mimigernaford sowie eine Kirche vorgefunden haben"
+   },
+   {
+    "t": "0805-01-01",
+    "gun": "805",
+    "k": "idari",
+    "b": "Liudger Mimigernaford'un ilk piskoposu olarak takdis edilir.",
+    "kaynak": "Stadt Münster, Stadtmuseum, 'Münster im Modell – Die Domburg', https://www.stadt-muenster.de/museum/museum/muenster-im-modell/die-domburg",
+    "tanik": "805 wurde Liudger zum Bischof geweiht, Mimigernaford zum Bischofsitz."
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Ludwig der Deutsche'e Bavyera, Sachsen (Sassonia) ve Alemannia; Münster Doğu Francia'ya girer.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Almanya (I. Otto papadan imparatorluk tacını alır; Kutsal Roma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1130-01-01",
+    "gun": "1130",
+    "k": "idari",
+    "b": "Münster şehir hakkı (diritto di città) alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MÜNSTER' (E. Migliorini, H. Möhle, W. Platzhoff), https://www.treccani.it/enciclopedia/munster_(Enciclopedia-Italiana)/",
+    "tanik": "ottenne nel 1130 il diritto di città"
+   }
+  ],
+  "ic_not": "İlk anılış: Stadt Münster Stadtmuseum: Liudger 793 dolayında Mimigernaford'da eski bir misyon istasyonu + kilise buldu (Kaynak: Altfrid, Vita Liudgeri, 840'lar — doğrudan açılamadı, ikincil aktarım); Stadt Münster 793'ü kuruluş yılı sayar ('Stadtgeschichte seit 793'). Çelişkiler: Treccani 'poco dopo l'800' (Charlemagne Liudger'i atar), Catholic Encyclopedia (Schmitz-Kallenberg) manastır kuruluşunu 805-809 verir; Treccani piskoposluğa yükselmeyi 'XII. yy' der, Stadt Münster 805 takdis. Bu kayıtta Stadt Münster esas; 805 takdis günü (arama özetinde 30 Mart, Köln başpiskoposu Hildebold) açılan sayfada yok → yıl hassasiyeti. Eski bir misyon istasyonu olabileceği (arkeolojik belirsizlik) beyan edilir. Modern nokta aynı yer (Domburg)."
+ },
+ {
+  "id": "namur-be",
+  "ad": "Namur",
+  "atlas_ad": "Namur",
+  "lat": 50.467,
+  "lon": 4.867,
+  "kat1900": 2,
+  "adlar": [
+   "Namur"
+  ],
+  "ilk": {
+   "t": "1000-01-01",
+   "gun": "10. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'NAMUR' (C. Errera, Y. Dupont, F. L. Ganshof, L. A. Maggiorotto, L. Franciosa), https://www.treccani.it/enciclopedia/namur_(Enciclopedia-Italiana)/",
+   "tanik": "era, nel sec. X, in possesso dei conti di Lomme"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1000-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NAMUR' (C. Errera, Y. Dupont, F. L. Ganshof, L. A. Maggiorotto, L. Franciosa), https://www.treccani.it/enciclopedia/namur_(Enciclopedia-Italiana)/",
+    "tanik": "era, nel sec. X, in possesso dei conti di Lomme",
+    "ic_not": "Namur kontluğu (Lomme kontluğunun devamı) Reich içinde: Aşağı Lotharingia'nın en güçlü laik prensi (Treccani: Albert III); 1188'de Hainaut kontu V. Baudouin Namur'u alır, VI. Heinrich markgrafschaft yapar. Künye 'namur-kontlugu' yok; Reich (almanya) tutuldu — atlas 'almanya' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1151-01-01",
+    "gun": "1151",
+    "k": "diger",
+    "b": "Namur kontu Andenne'de Liège piskoposu Henri de Leez'e yenilir; doğuya genişleme durur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NAMUR' (C. Errera, Y. Dupont, F. L. Ganshof, L. A. Maggiorotto, L. Franciosa), https://www.treccani.it/enciclopedia/namur_(Enciclopedia-Italiana)/",
+    "tanik": "Battuto nel 1151 a Andenne da Enrico di Leez, vescovo di Liegi"
+   },
+   {
+    "t": "1188-01-01",
+    "gun": "1188",
+    "k": "fetih",
+    "b": "Hainaut kontu V. Baudouin Namur'u ele geçirir; İmparator VI. Heinrich Namur, Durbuy ve Laroche kontluklarını markgrafschaft yapar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NAMUR' (C. Errera, Y. Dupont, F. L. Ganshof, L. A. Maggiorotto, L. Franciosa), https://www.treccani.it/enciclopedia/namur_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1188 il conte di Hainaut, Balduino V, s'impossessò di Namur"
+   },
+   {
+    "t": "1199-01-01",
+    "gun": "1199",
+    "k": "antlasma",
+    "b": "Dinant Antlaşması: Philippe I Durbuy, Laroche ve Namur bölgesinin Maas sağ kıyısını Lüksemburg kontuna bırakır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NAMUR' (C. Errera, Y. Dupont, F. L. Ganshof, L. A. Maggiorotto, L. Franciosa), https://www.treccani.it/enciclopedia/namur_(Enciclopedia-Italiana)/",
+    "tanik": "Col trattato di Dinant (1199)"
+   }
+  ],
+  "ic_not": "İlk anılış: Treccani Namur: 'castrum ... nel sec. X in possesso dei conti di Lomme' (yüzyıl; güvenli uç 1000). Daha eski sınırlar: Berengar'ın 908'de 'conte di Lomme' olarak anılması (Treccani 'menzionato nel 908') kontluğa ait, yerin kendisi değil → ilk anılış olarak alınmadı. Vicus romano ('trae direttamente le origini da un vicus romano') ve Caesar'ın Aduatuci oppidum'u ile eşitleme Treccani'de 'certamente' yazılı ama kaynaksız ve yeri kesin değil (Falaën vb. tartışması) → kural gereği başlangıç sayılmadı. Namur kontu Berengar ilk 'conte de Namur' 919 (ikincil kaynak, Vikipedi), kontrol edilemedi. Hainaut kontlarının 1188 fethi sonrası Namur Hainaut/Courtenay/Flandre (1212) elinde; kontlar Reich vasalı → zincirde Reich. Künye namur-kontlugu açılabilir (Emre kararı). Modern nokta aynı yer."
  },
  {
   "id": "nanchang-cin",
@@ -22619,6 +23123,158 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Niigata'yı 1281-01-01'de \"kamakura\" ile başlatıyor; ilk yeri-kesin yazılı tanık 1568 (Eiroku 11). 1281 öncesi tanık bulunamadı. ARANAN/BULUNAN: 日本書紀 大化3年（647）渟足柵 (Nutari-no-ki) — Kotobank «新潟市»: \"位置・遺構ともに不明\"; 延喜式 蒲原津 — \"所在地も設置年代も不明\" → yeri kesin değil, başlangıç sayılmadı. Eski liman Nuttari/Kambara-tsu'nun Niigata atlas noktasıyla aynı yer olduğu kaynakta yazılı değil; ayrı kayıt önerisi: \"Kambara-tsu (蒲原津)\" ve \"Nuttari-tsu (沼垂津)\". Not: kaynak \"新潟湊の成立は蒲原・沼垂より遅れる\" der (日本歴史地名大系 «新潟湊»). Çift teyit: yok."
  },
  {
+  "id": "nijmegen-nl",
+  "ad": "Nijmegen",
+  "atlas_ad": "Nijmegen",
+  "lat": 51.843,
+  "lon": 5.852,
+  "kat1900": 3,
+  "adlar": [
+   "Oppidum Batavorum",
+   "Noviomagus Batavorum",
+   "Ulpia Noviomagus",
+   "Nimega",
+   "Nijmegen"
+  ],
+  "ilk": {
+   "t": "0070-01-01",
+   "gun": "70",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Tacitus, Historiae 5.19 (Latin Library, https://www.thelatinlibrary.com/tacitus/tac.hist5.shtml); yıl 70: Treccani 'NIMEGA' https://www.treccani.it/enciclopedia/nimega_(Enciclopedia-Italiana)/",
+   "tanik": "Non tamen ausus oppidum Batavorum armis tueri"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0070-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NIMEGA', https://www.treccani.it/enciclopedia/nimega_(Enciclopedia-Italiana)/",
+    "tanik": "fu sostituito da un castrum della legione X Gemina",
+    "ic_not": "Oppidum Batavorum 70'te yıkılır (Treccani: 'Distrutto nel 70 d. C.'); yerine Legio X Gemina kampı; Trajan'dan beri Ulpia Noviomagus (Treccani). Roma İmparatorluğu künyesi f=-0026."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0700-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NIMEGA', https://www.treccani.it/enciclopedia/nimega_(Enciclopedia-Italiana)/",
+    "tanik": "L'invasione franca distrusse la città",
+    "ic_not": "Treccani: 'L'invasione franca distrusse la città' (tarihsiz) ve 'Nel sec. VII i Franchi fondarono sul posto un loro centro'. Roma kentinin yıkım yılı ve kesintinin tam süresi kaynakta yok; varlığı bilinmeyen dönem __BILINMIYOR__ (395'ten VII. yy sonuna kadar güvenli uç)."
+   },
+   {
+    "f": "0700-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NIMEGA', https://www.treccani.it/enciclopedia/nimega_(Enciclopedia-Italiana)/",
+    "tanik": "Nel sec. VII i Franchi fondarono sul posto un loro centro",
+    "ic_not": "VII. yy'da Franklar yerinde yeni bir merkez kurar (güvenli uç 700); Karl der Große sık sık Valkhof sarayında kalır (Treccani, tarihsiz)."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0925-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "la Mosa, la Schelda e il Reno e che da lui fu detta Lotaringia",
+    "ic_not": "Verdun'da Lothar I'e Frizya + Austrasia'nın orta-doğusu (Lotharingia) düşer (Treccani Verdun: 'autorità effettiva solo sulla Frisia'). Künye 'orta-francia-lotharingia' f=0855 — 843-855 arası aynı polity (Lothar I'in Orta Francia'sı): künye GENİŞLETME önerisi (f=0843-08-10). 870 Meerssen ayrıntısı bu kaynakta yok; 876-925 arası hükümdarlar sırayla Doğu/Batı kralları — şehir bazında ayrım yazılmadı, polity tek dönem alındı."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01; zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1247-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Treccani: Nijmegen 'libera città dell'impero' (1247'ye kadar)."
+   },
+   {
+    "f": "1247-01-01",
+    "t": "1281-01-01",
+    "d": "gelre-kontlugu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NIMEGA', https://www.treccani.it/enciclopedia/nimega_(Enciclopedia-Italiana)/",
+    "tanik": "e da lui donata a Ottone II, conte di Gheldria",
+    "ic_not": "Gelre (Guelders) Kontluğu — künye yok: önerilen id 'gelre-kontlugu'; ad Gelre/Gheldria Kontluğu; ömür bu turda açılamadı (Treccani yalnız 1247'de kont II. Otto'yu anar, 1339 dükalığı vb. kaynaksız); kaynak: Treccani 'NIMEGA'. Kont, Reich vasalı.",
+    "kunye_yok": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "0070-01-01",
+    "gun": "70",
+    "k": "kayip",
+    "b": "Batav isyanında Civilis, Oppidum Batavorum'u (Nijmegen) savunmaktan vazgeçer, yangınla terk eder; yerine X. Gemina lejyon kampı.",
+    "kaynak": "Tacitus, Historiae 5.19 (Latin Library, https://www.thelatinlibrary.com/tacitus/tac.hist5.shtml); yıl 70: Treccani 'NIMEGA' https://www.treccani.it/enciclopedia/nimega_(Enciclopedia-Italiana)/",
+    "tanik": "Non tamen ausus oppidum Batavorum armis tueri"
+   },
+   {
+    "t": "0098-01-01",
+    "gun": "98-117",
+    "k": "idari",
+    "b": "Trajan döneminden (98-117) itibaren kent Ulpia Noviomagus adını taşır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NIMEGA', https://www.treccani.it/enciclopedia/nimega_(Enciclopedia-Italiana)/",
+    "tanik": "Dal tempo di Traiano"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Lothar I'e Frizya ve Austrasia'nın orta-doğusu (Lotharingia) düşer; Nijmegen Lotharingia/Frizya hattında.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "fetih",
+    "b": "Kuşkucu (Avcı) Henry (Doğu Francia/Almanya kralı) Lotharingia'yı boyun eğdirir (sonra dükalık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia"
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Almanya (I. Otto papadan imparatorluk tacını alır; Kutsal Roma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1247-01-01",
+    "gun": "1247",
+    "k": "fetih",
+    "b": "Holland kontu ve Romalıların kralı II. Willem, Nijmegen'i alır ve Gelre kontu II. Otto'ya verir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'NIMEGA', https://www.treccani.it/enciclopedia/nimega_(Enciclopedia-Italiana)/",
+    "tanik": "e da lui donata a Ottone II, conte di Gheldria"
+   }
+  ],
+  "dikis_beyan": "Atlas Nijmegen'i 1281-01-01'de 'almanya' ile başlatıyor; Treccani kenti 1247'den Gelre kontu II. Otto'nun elinde gösterir (Reich vasalı). 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'gelre-kontlugu' (künye yok, kunye_yok önerildi) olmalı mı yoksa Reich nominal üst efendi diye mi tutulur — Emre kararı.",
+  "ic_not": "İlk anılış: Tacitus Hist. 5.19 'oppidum Batavorum' (70; yıl Treccani 'Distrutto nel 70 d. C.'). Tacitus 'Noviomagus' adını geçirmez; oppidum Batavorum = Nijmegen eşitlemesi Treccani'ye ait ('L'odierna città corrisponde all'antico Noviomagus Batavorum'); Hist. 5.20'deki 'Batavodurum' ile ilişki tartışmalı (kullanılmadı). Ptolemaios/İtinerarium taraması bu turda açılamadı. Modern nokta antik Hunerberg/Valkhof ile aynı tepe bölgesi (Treccani: castrum 'a O dell'attuale città' — kent merkezine <3 km varsayıldı, koordinat farkı ölçülmedi). Zincir: 395-VII. yy arası varlık/sahip bilinmiyor (Franklar Roma kentini yıktı, undated). Lotharingia künyesi f=0855 — genişletme önerisi."
+ },
+ {
   "id": "ningbo-cin",
   "ad": "Ningbo",
   "atlas_ad": "Ningbo",
@@ -22914,6 +23570,66 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "KURULUŞ: bulunamadı (TDV Roma kalesi, tarihsiz; Pleiades Naissus kaydı yalnız dönem etiketi verir, tarih yok; Pleiades sayfası bot korumasıyla (Anubis) açılmadı, JSON üzerinden okundu). Livius 'naissus' sayfası açılmadı (boş). Ptolemaios birincil metni açılmadı (Smith atfı üzerinden). ATLAS: Niş 1281-01-01'de sirbistan ile başlıyor, zincir uyumlu; ancak 1281 Niş'inin Milutin mi Dragutin mi paylaşımında olduğu kaynakta yok. Atlas düzeltme önerisi: yok (çelişki bulunamadı). TDV ile Vikipedi/Treccani arasındaki Bulgar-Bizans (805/X.yy/971/1018) ve Slav yıkımı (615/641/erken 7. yy) çelişkileri sahiplik dönemlerinde beyan edildi."
  },
  {
+  "id": "norwich-gb",
+  "ad": "Norwich",
+  "atlas_ad": "Norwich",
+  "lat": 52.628,
+  "lon": 1.297,
+  "kat1900": 3,
+  "adlar": [
+   "Norwich"
+  ],
+  "ilk": {
+   "t": "0939-01-01",
+   "gun": "924-939 (güvenli uç 939)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Norfolk Heritage Explorer, NHER 24831 'Two Saxon coins' (Bircham; Athelstan, Norwich mint, moneyer Eadgar), https://nhe.esdm.co.uk/Monument/MNF24831",
+   "tanik": "was minted in Norwich"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0939-01-01",
+    "t": "1281-01-01",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "Norfolk Heritage Explorer, NHER 24831 'Two Saxon coins' (Bircham; Athelstan, Norwich mint, moneyer Eadgar), https://nhe.esdm.co.uk/Monument/MNF24831",
+    "tanik": "was minted in Norwich",
+    "ic_not": "Æthelstan (924-939) Norwich darphanesi; künye ingiltere f=0927. Atlas 'ingiltere' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0939-01-01",
+    "gun": "924-939 (güvenli uç 939)",
+    "k": "diger",
+    "b": "Norwich darphanesinde kral Æthelstan adına para basılır: kentin en eski yazılı/sikke tanığı.",
+    "kaynak": "Norfolk Heritage Explorer, NHER 24831 'Two Saxon coins' (Bircham; Athelstan, Norwich mint, moneyer Eadgar), https://nhe.esdm.co.uk/Monument/MNF24831",
+    "tanik": "was minted in Norwich"
+   },
+   {
+    "t": "1004-01-01",
+    "gun": "1004",
+    "k": "kayip",
+    "b": "Danimarka kralı Sweyn filosuyla Norwich'e gelir, kenti yağmalar ve yakar (ASC).",
+    "kaynak": "Anglo-Saxon Chronicle, yıl 1004 (J. Ingram çevirisi, Avalon Project), https://avalon.law.yale.edu/medieval/ang11.asp",
+    "tanik": "came Sweyne with his fleet to Norwich, plundering and burning the whole town"
+   },
+   {
+    "t": "1086-01-01",
+    "gun": "1086",
+    "k": "diger",
+    "b": "Domesday Book: Norwich 1358 hane ile en büyük yerleşimlerden.",
+    "kaynak": "Open Domesday (A. Powell-Smith), 'Norwich', https://opendomesday.org/place/TG2308/norwich/",
+    "tanik": "It had a recorded population of 1358 households in 1086"
+   }
+  ],
+  "ic_not": "İlk anılış: Æthelstan (924-939) Norwich sikkeleri (NHER 24831: 'Athelstan, Norwich mint'; ayrıca British Museum/Fitzwilliam kataloglarında aynı hükümdar — sayfalar bot engeli verdi, birincil sikke katalogu doğrudan açılamadı); aralığın SON ucu (939) güvenli uç alındı. Treccani: 'sino dai primordî del sec. X, Norwich era già borgo regio' (X. yy başı, tarihsiz) ve Norman fethinden sonra kale ve borg biraz batıya taşındı (tarihsiz). Daha eski: Anglo-Sakson yerleşimi VII.-VIII. yy (Ayers; arama özeti, birincil metin açılamadı) — kullanılmadı. Roma dönemi: Venta Icenorum (Caistor St Edmund) farklı yer (>3 km varsayımı; ölçülmedi) — ayrı kayıt önerisi. Modern nokta ile sikke darphanesi aynı kent. Zincirin 927'den önceki dönemi (Doğu Anglia/Danelaw) Norwich tanığı yok olduğu için yazılmadı."
+ },
+ {
   "id": "nurnberg-de",
   "ad": "Nürnberg",
   "atlas_ad": "Nürnberg",
@@ -23149,6 +23865,223 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Okayama'yı 1281-01-01'de \"kamakura\" ile başlatıyor; kaynaklı en erken yer-kesin tanık 1573. 1281 öncesi: yalnız arkeolojik (Jōmon-Yayoi kalıntıları, Kotobank «岡山市» 原始・古代) — şehir yerleşimine bağlı değil. Not: 岡山 adının \"小島が陸封された小丘に由来\" (Kotobank «岡山») — daha eski Ishiyama adı. 1281 öncesi Okayama/Kojima'nın Kamakura dönemi Bizen eyaleti içinde olduğu tanıksız. Çift teyit: yok."
+ },
+ {
+  "id": "orleans-fr",
+  "ad": "Orléans",
+  "atlas_ad": "Orléans",
+  "lat": 47.902,
+  "lon": 1.909,
+  "kat1900": 2,
+  "adlar": [
+   "Cenabum",
+   "Aureliani",
+   "Orléans"
+  ],
+  "ilk": {
+   "t": "-0051-01-01",
+   "gun": "MÖ 52",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Caesar, De bello Gallico 7.3 ve 7.11 (Latin Library, https://www.thelatinlibrary.com/caesar/gall7.shtml)",
+   "tanik": "Cenabum signo dato concurrunt civesque Romanos"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0051-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Caesar, De bello Gallico 7.3 ve 7.11 (Latin Library, https://www.thelatinlibrary.com/caesar/gall7.shtml)",
+    "tanik": "Cenabum Carnutum proficiscitur",
+    "ic_not": "MÖ 52'de Carnutes Cenabum'da Romalı tüccarları öldürür (BG 7.3); aynı yıl Caesar kenti alır (BG 7.11) — yıl hassasiyetinde tek dönem; Carnut egemenliğinin kısa evresi ayrı yazılmadı (aynı yıl içinde ve günü yok), BEYAN. Yıl: Treccani 'Vercingetorige' (52 isyanı). Roma Cumhuriyeti künyesi f=-0508."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0498-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-498 arası Orléans'ın sahibi kaynakta tam açılamadı: Treccani şehrin Syagrius'un 'romano' krallığının parçası olduğunu söyler (451-52 bağlamında, tarih sınırları verilmez) ve Clovis'in ancak 498'de aldığını yazar. Syagrius krallığı için künye yok; 22 yıllık boşluk beyan edilir, kapatılmadı."
+   },
+   {
+    "f": "0498-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "ma soltanto Clodoveo la conquistò nel 498",
+    "ic_not": "Clovis 498'de alır; 511-524 Clodomer krallığının, 567-593 Guntram krallığının başkenti (Treccani)."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0987-07-03",
+    "d": "bati-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda",
+    "ic_not": "Orléans (Loire) Batı Francia'da. X. yy'da Fransa dükleri (Robertinler) şehri 'bir tür başkent' yapar (Treccani, tarihsiz)."
+   },
+   {
+    "f": "0987-07-03",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio",
+    "ic_not": "Hugues Capet krallığı. Atlas 'fransa' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0051-01-01",
+    "gun": "MÖ 52",
+    "k": "isyan",
+    "b": "Carnutes, Cenabum'da Romalı tüccarları (Gaius Fufius Cita dahil) öldürerek Galya isyanını başlatır.",
+    "kaynak": "Caesar, De bello Gallico 7.3 ve 7.11 (Latin Library, https://www.thelatinlibrary.com/caesar/gall7.shtml)",
+    "tanik": "Cenabum signo dato concurrunt civesque Romanos"
+   },
+   {
+    "t": "-0051-01-01",
+    "gun": "MÖ 52",
+    "k": "fetih",
+    "b": "Caesar Cenabum'a yürür ve kenti alır (BG 7.11); yıl hassasiyeti, gün yok.",
+    "kaynak": "Caesar, De bello Gallico 7.3 ve 7.11 (Latin Library, https://www.thelatinlibrary.com/caesar/gall7.shtml)",
+    "tanik": "Cenabum Carnutum proficiscitur"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak 27 MÖ",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus tahtı bırakmaya zorlanır; Livius 4 Eylül ihtimalini de anar).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0451-01-01",
+    "gun": "451-452",
+    "k": "diger",
+    "b": "Attila'nın kuşatması: St. Aignan'ın müdahalesi ve Aetius'un gelişiyle şehir kurtulur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "liberata nel 451-52 da Ezio"
+   },
+   {
+    "t": "0498-01-01",
+    "gun": "498",
+    "k": "fetih",
+    "b": "Clovis Orléans'ı fetheder (Odoacer 471'de kuşatmıştı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "ma soltanto Clodoveo la conquistò nel 498"
+   },
+   {
+    "t": "0511-01-01",
+    "gun": "511-524",
+    "k": "idari",
+    "b": "Orléans, Clodomer (511-524) krallığının başkenti olur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "quello di Clodomiro (511-524)"
+   },
+   {
+    "t": "0841-01-01",
+    "gun": "841",
+    "k": "diger",
+    "b": "Kel Charles Orléans surları içinde Aquitaine kralı olarak taçlanır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "Carlo il Calvo si fece incoronare re d'Aquitania (841)"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Saône/Rhône batısı Kel Charles'a (Batı Francia) düşer; Orléans Batı Francia'ya girer.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0987-07-03",
+    "gun": "3 Temmuz 987",
+    "k": "diger",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugues Capet 10 Haziran 987'de Noyon'da seçilir, 3 Temmuz'da Reims'te taç giyer; Kapet hanedanı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio"
+   },
+   {
+    "t": "0999-01-01",
+    "gun": "999",
+    "k": "kayip",
+    "b": "Orléans yangında harap olur; Kral Pious Robert yeniden inşa ettirir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "Incendiata nel 999"
+   },
+   {
+    "t": "1022-01-01",
+    "gun": "1022",
+    "k": "diger",
+    "b": "Orléans'ta ilk 'autodafé' (heretik yakılması).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "vi ebbe luogo nel 1022 il primo autodafé"
+   },
+   {
+    "t": "1107-01-01",
+    "gun": "1107",
+    "k": "idari",
+    "b": "Orléans'a komünal haklar (affranchissement) verilir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1107 la città venne affrancata"
+   },
+   {
+    "t": "1137-01-01",
+    "gun": "1137",
+    "k": "idari",
+    "b": "VII. Louis komünal rejimi kaldırır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1137 Luigi VII soppresse il regime comunale"
+   },
+   {
+    "t": "1223-01-01",
+    "gun": "1223",
+    "k": "idari",
+    "b": "Philippe Auguste, ölümünden kısa süre önce Orléans'ı karısı Ingeborg'a 'karşı çeyiz' olarak verir (ilk appanage).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ORLÉANS', https://www.treccani.it/enciclopedia/orleans_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1223, poco prima di morire, Filippo Augusto diede Orléans come controdote"
+   }
+  ],
+  "ic_not": "İlk anılış: Caesar BG 7.3 'Cenabum' (MÖ 52; yıl Treccani Vercingetorige: 'organizzò (52) ... la ribellione'). Treccani Cenabum=Genabum=Orléans eşitlemesini tartışır (Gien ihtimali reddedilir; Cesare 'Genabum Carnutum'). Orléans'ta BG 7.3 bir katliam sahnesi — şehir var, ama tanık olay-öncelikli. Modern nokta Roma kentiyle aynı. İki olay (isyan, fetih) aynı yıl içinde; gün kaynakta yok. Orléans 1281 sonrası atlasta zaten 'fransa' (1281-1792); zincir uyumlu."
  },
  {
   "id": "oviedo-es",
@@ -25556,6 +26489,166 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış 179: Treccani EI 'surları ve kapıları 179'da tamamlandı' (Corp. Inscr. Lat. atfı) + Livius 'building inscription ... 179' — yerinde kitabe rolü, iki bağımsız yayın: ÇİFT TEYİT (EI + Livius, yıl). Daha eski yazılı tanık (Ptolemaios 'Radaspona' — açılamadı, taranmadı; Notitia Dignitatum ~ erken 5. yy daha geç). Kelt yerleşimi Radasbona/Regino ve 1. yy Roma garnizonu (EI 'recenti rinvenimenti') arkeolojik → ark yuzyil (1. yy sonu güvenli uç). Livius: lejyon 171 sonrası geldi. 476-700 BOŞLUK ve 700-788 Agilolfing (künye yok, öneri id 'agilolfing-bavyera'): Treccani süre vermiyor; künye açılırsa f/t kaynaklı doldurulur. Treccani EI ile online Baviera arasında çelişki yok. Roma lejyon kampı Regensburg Altstadt'ta (modern nokta ≤3 km)."
  },
  {
+  "id": "reims-fr",
+  "ad": "Reims",
+  "atlas_ad": "Reims",
+  "lat": 49.258,
+  "lon": 4.031,
+  "kat1900": 3,
+  "adlar": [
+   "Durocortorum",
+   "Civitas Remorum",
+   "Reims"
+  ],
+  "ilk": {
+   "t": "-0052-01-01",
+   "gun": "MÖ 53",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Caesar, De bello Gallico 6.44 (Latin Library, https://www.thelatinlibrary.com/caesar/gall6.shtml)",
+   "tanik": "Durocortorum Remorum reducit"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0052-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Caesar, De bello Gallico 6.44 (Latin Library, https://www.thelatinlibrary.com/caesar/gall6.shtml)",
+    "tanik": "Durocortorum Remorum reducit",
+    "ic_not": "Caesar MÖ 53'te Galya meclisini Reims'te toplar ve Senones/Carnutes komplosunu yargılar (BG 6.44). Roma Cumhuriyeti künyesi f=-0508."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0496-12-25",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-496 arası Reims'in sahibi kaynakta açılamadı (Treccani yalnız 'la città risorse con i Franchi e con Clodoveo' der, tarihsiz). 20 yıllık boşluk beyan edilir, kapatılmadı."
+   },
+   {
+    "f": "0496-12-25",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'REIMS', https://www.treccani.it/enciclopedia/reims_(Enciclopedia-Italiana)/",
+    "tanik": "fu probabilmente a Reims che Clodoveo venne battezzato nel Natale del 496",
+    "ic_not": "f 'en geç tanıktan': Frank kralı Clovis 496 Noel'de Reims'te vaftiz edilir (Treccani 'probabilmente' — kesin değil). Künye frank f=0481."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0987-07-03",
+    "d": "bati-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda",
+    "ic_not": "Reims Schelda/Mosa/Saône/Rhône batısında → Kel Charles'ın Batı Francia'sı."
+   },
+   {
+    "f": "0987-07-03",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0052-01-01",
+    "gun": "MÖ 53",
+    "k": "diger",
+    "b": "Caesar Galya meclisini Durocortorum'da (Reims) toplar; şehrin ilk yazılı anılışı.",
+    "kaynak": "Caesar, De bello Gallico 6.44 (Latin Library, https://www.thelatinlibrary.com/caesar/gall6.shtml)",
+    "tanik": "Durocortorum Remorum reducit"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak 27 MÖ",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus tahtı bırakmaya zorlanır; Livius 4 Eylül ihtimalini de anar).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0496-12-25",
+    "gun": "25 Aralık 496",
+    "k": "diger",
+    "b": "Clovis Reims'te piskopos Remigius'ça vaftiz edilir (Treccani: 'probabilmente'); Reims'in Frank kralının elinde olduğu en geç tanık.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'REIMS', https://www.treccani.it/enciclopedia/reims_(Enciclopedia-Italiana)/",
+    "tanik": "fu probabilmente a Reims che Clodoveo venne battezzato nel Natale del 496"
+   },
+   {
+    "t": "0816-01-01",
+    "gun": "816",
+    "k": "diger",
+    "b": "Ludovico Pio, Reims'te Saint-Nicaise'de Papa IV. Stephanus'ça imparator olarak takdis edilir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'REIMS', https://www.treccani.it/enciclopedia/reims_(Enciclopedia-Italiana)/",
+    "tanik": "Nell'816 Ludovico il Pio fu consacrato imperatore a Saint-Nicaise"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Schelda/Mosa/Saône/Rhône batısı Kel Charles'a (Batı Francia) düşer; Reims Batı Francia'ya girer.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0987-07-03",
+    "gun": "3 Temmuz 987",
+    "k": "diger",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugues Capet 10 Haziran 987'de Noyon'da seçilir, 3 Temmuz'da Reims'te taç giyer; Kapet hanedanı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio"
+   },
+   {
+    "t": "1138-01-01",
+    "gun": "yaklaşık 1138",
+    "k": "idari",
+    "b": "Reims burjuvazisi, kilise otoritesinin direncine rağmen komünal yönetim elde eder.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'REIMS', https://www.treccani.it/enciclopedia/reims_(Enciclopedia-Italiana)/",
+    "tanik": "ottennero verso il 1138 un governo comunale"
+   }
+  ],
+  "ic_not": "İlk anılış: Caesar BG 6.44 (MÖ 53 sonbahar): ordusunu 'Durocortorum Remorum'a geri götürür ve Galya meclisini orada toplar; yıl Treccani 'CESARE' (53 seferi: Nervii, Carnuti, Senoni'nin yeniden boyun eğdirilmesi). Remi kabilesi BG 2.3'te (MÖ 57 seferi) Roma'ya teslim olur — kabile, şehir değil. Modern nokta Roma kentiyle aynı (<3 km). Frank geçişi: 476-496 arası sahip kaynakta açılamadı (BOŞLUK); 496 Noel'de Clovis'in vaftizi (Treccani 'probabilmente a Reims') Reims'in en geç bu tarihte Frank kralının elinde olduğunu gösterir ('en geç tanık'; Amiens emsalinde 486 Syagrius fethi kullanıldı, Reims'in Syagrius sahasında olduğu kaynakta yok). Treccani: 406'da Vandallar, sonra Hunlar şehri tahrip etti (tarihsiz/ilk olay yıl-düzeyi, zincire yazılmadı). XI-XII. yy Champagne kontluğuna bağlı (Treccani); zincirde egemen devlet fransa tutuldu (künye champagne-kontlugu 1125-1314 var — atlas fransa ile uyumlu)."
+ },
+ {
   "id": "ribe-dk",
   "ad": "Ribe",
   "atlas_ad": "Ribe",
@@ -25805,6 +26898,261 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Treccani 1936 (Migliorini, Möhle, Holtzmann) + lex.dk (Lammers/Stöber) + Helmold OCR (Pribislav yapımı; Lappenberg dipnotu 1171). Helmold'un 1160/1167 sayfaları OCR eksikliğinden okunamadı. Kuruluş BULUNAMADI. Atlas 'almanya' dikişi uyumlu."
+ },
+ {
+  "id": "rotterdam-nl",
+  "ad": "Rotterdam",
+  "atlas_ad": "Rotterdam",
+  "lat": 51.924,
+  "lon": 4.478,
+  "kat1900": 3,
+  "adlar": [
+   "Rotta",
+   "Rotterdam"
+  ],
+  "ilk": {
+   "t": "1028-01-01",
+   "gun": "1028",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "A. van der Schoor, 'Het spoor terug. Rotterdam in de Middeleeuwen', Madoc 4/3 (1990), https://dbnl.org/tekst/_mad001199001_01/_mad001199001_01_0025.php",
+   "tanik": "In een oorkonde uit 1028 wordt namelijk gesproken over de kerk van Rotta"
+  },
+  "kur": null,
+  "ark": {
+   "t": "0800-01-01",
+   "gun": "8. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "A. van der Schoor, 'Het spoor terug. Rotterdam in de Middeleeuwen', Madoc 4/3 (1990), https://dbnl.org/tekst/_mad001199001_01/_mad001199001_01_0025.php [Shell binası/Hofplein seramik buluntusu; 'hoogstwaarschijnlijk']",
+   "tanik": "komt hoogstwaarschijnlijk vanaf de achtste eeuw bewoning voor"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1028-01-01",
+    "t": "1164-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "1028 oorkonde'sinde Rotta kilisesinin Utrecht piskoposunca Hohorst manastırına bağışlandığı geçer (Madoc); Rotta'nın o tarihteki egemen devleti kaynakta söylenmiyor (Reich nominal üst-efendi olabilir; Holland kontluğu künyesi f=1000 var ama Rotta'yı tuttuğuna dair tanık yok). Beyanlı boşluk."
+   },
+   {
+    "f": "1164-01-01",
+    "t": "1250-01-01",
+    "d": "__YOK__",
+    "kesinlik": "yil",
+    "kaynak": "A. van der Schoor, 'Het spoor terug. Rotterdam in de Middeleeuwen', Madoc 4/3 (1990), https://dbnl.org/tekst/_mad001199001_01/_mad001199001_01_0025.php",
+    "tanik": "Rotta gaat dus in de tweede helft van de twaalfde eeuw verloren",
+    "ic_not": "Madoc (Van der Schoor 1990): Rotta nederzetting 12. yy ikinci yarısında sular altında kalır ('tot nu toe moest men aannemen ... 1164' büyük taşkınlar); Willemsspoortunnel kazısı bunu doğrular. Dönem başı 1164 (yaygın varsayım; 'tweede helft' → 1151-1200 aralığı), ~1200'de yeniden dikeleme, ~1250'de Rotte ağzı baraj. Kayıt: kesinti kaynaklı → __YOK__; Rotta 'yaklaşık 1250'de baraj kurulana kadar' bırakıldı varsayımı Madoc 'dam' bölümünden."
+   },
+   {
+    "f": "1250-01-01",
+    "t": "1281-01-01",
+    "d": "hollanda-kontlugu",
+    "kesinlik": "onyil",
+    "kaynak": "A. van der Schoor, 'Het spoor terug. Rotterdam in de Middeleeuwen', Madoc 4/3 (1990), https://dbnl.org/tekst/_mad001199001_01/_mad001199001_01_0025.php",
+    "tanik": "rond het midden van de dertiende eeuw door de graaf van Holland afgedamd",
+    "ic_not": "Rotte ağzı Holland kontunca barajla kapatılır (Madoc: yaklaşık 13. yy ortası; Stadsarchief: 'Around 1270, the dam in the river Rotte was built' — çelişki beyan: Madoc ~1250, Stadsarchief ~1270). Madoc'un daha erken ucu alındı. Künye hollanda-kontlugu 1000-1433 (boyalı). Atlas 'almanya' diyor — dikis_beyan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1028-01-01",
+    "gun": "1028",
+    "k": "diger",
+    "b": "Utrecht piskoposu Rotta kilisesini Amersfoort'taki Hohorst manastırına bağışlar: Rotta'nın ilk yazılı anılışı (Madoc: 'eerste en enige vermelding').",
+    "kaynak": "A. van der Schoor, 'Het spoor terug. Rotterdam in de Middeleeuwen', Madoc 4/3 (1990), https://dbnl.org/tekst/_mad001199001_01/_mad001199001_01_0025.php",
+    "tanik": "In een oorkonde uit 1028 wordt namelijk gesproken over de kerk van Rotta"
+   },
+   {
+    "t": "1164-01-01",
+    "gun": "1164",
+    "k": "kayip",
+    "b": "Maas ağzı büyük taşkınlarında Rotta yerleşimi sular altında kalır (12. yy ikinci yarısı, 1164 varsayımı).",
+    "kaynak": "A. van der Schoor, 'Het spoor terug. Rotterdam in de Middeleeuwen', Madoc 4/3 (1990), https://dbnl.org/tekst/_mad001199001_01/_mad001199001_01_0025.php",
+    "tanik": "Rotta gaat dus in de tweede helft van de twaalfde eeuw verloren"
+   },
+   {
+    "t": "1250-01-01",
+    "gun": "yaklaşık 13. yüzyıl ortası",
+    "k": "kurulus",
+    "b": "Holland kontu Rotte ağzını barajla kapatır; çevrede yeni baraj yerleşimi (Rotterdam) doğar.",
+    "kaynak": "A. van der Schoor, 'Het spoor terug. Rotterdam in de Middeleeuwen', Madoc 4/3 (1990), https://dbnl.org/tekst/_mad001199001_01/_mad001199001_01_0025.php",
+    "tanik": "rond het midden van de dertiende eeuw door de graaf van Holland afgedamd"
+   },
+   {
+    "t": "1270-01-01",
+    "gun": "yaklaşık 1270",
+    "k": "kurulus",
+    "b": "Rotte barajı (dam) yapıldığı tarih olarak Rotterdam Stadsarchief'in verdiği tarih.",
+    "kaynak": "Stadsarchief Rotterdam, 'Rotterdam (EN)', https://stadsarchief.rotterdam.nl/en/rotterdam-en",
+    "tanik": "Around 1270, the dam in the river Rotte was built"
+   }
+  ],
+  "dikis_beyan": "Atlas Rotterdam'ı 1281-01-01'de 'almanya' ile başlatıyor; Madoc ve Stadsarchief Rotte barajını Holland kontlarına bağlar. 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'hollanda-kontlugu' (boyalı künye) olmalı mı yoksa Reich nominal üst efendi diye mi tutulur — Emre kararı.",
+  "ic_not": "İlk anılış: Rotta (Rotterdam'ın öncülü) 1028 oorkonde'si (Madoc 1990; 'het is de eerste en enige vermelding ... omstreeks het jaar 1000'). Arkeoloji: 8. yy'dan bu yana yerleşim (seramik kırıkları; 'hoogstwaarschijnlijk'), 10-12. yy yerleşim izleri (Willemsspoortunnel). Rotta konumu Hofplein/Binnenrotte, bugünkü Rotterdam merkezine ~1 km: aynı yer. Rotterdam şehir hakları 7 Haziran 1340 (Madoc; Vikipedi 7 Temmuz) — 1281 sonrası, zincire karışmaz. Rotta'nın 1164 öncesi sahibi kaynakta yok (BOŞLUK); 1164-~1250 yerleşim kayıp (YOK). Stadsarchief 'Around 800 ... already inhabited' (ark ile uyumlu)."
+ },
+ {
+  "id": "rouen-fr",
+  "ad": "Rouen",
+  "atlas_ad": "Rouen",
+  "lat": 49.443,
+  "lon": 1.099,
+  "kat1900": 2,
+  "adlar": [
+   "Ratomagus",
+   "Rotomagus",
+   "Rouen"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl (Ptolemaios)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia 2.7 (LacusCurtius/B. Thayer, https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; yazar 2. yy: https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/home.html)",
+   "tanik": "the Veneliocasi, whose town is Ratomagus"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia 2.7 (LacusCurtius/B. Thayer, https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; yazar 2. yy: https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/home.html)",
+    "tanik": "the Veneliocasi, whose town is Ratomagus",
+    "ic_not": "Ptolemaios 2.7: Veneliocasi (Veliocasses) kabilesinin kenti Ratomagus. Aralığın SON ucu (200) güvenli uç. Treccani: IV. yy'da Diocletianus reformundan sonra Lugdunensis II metropolü."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0497-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-497 arası Rouen'in sahibi kaynakta açılamadı (Treccani yalnız 497 Clovis fethini verir). 21 yıllık boşluk beyan edilir, kapatılmadı."
+   },
+   {
+    "f": "0497-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ROUEN', https://www.treccani.it/enciclopedia/rouen_(Enciclopedia-Italiana)/",
+    "tanik": "nel 497 Clodoveo conquistò la città",
+    "ic_not": "Treccani: Clovis 497'de alır; sonra Paris, Soissons, Neustria ve Austrasia krallıklarının parçası."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0911-01-01",
+    "d": "bati-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda",
+    "ic_not": "Rouen Seine vadisinde, Saône/Rhône batısı → Kel Charles'ın Batı Francia'sı. 841'den itibaren Norman akınları (Treccani)."
+   },
+   {
+    "f": "0911-01-01",
+    "t": "1204-01-01",
+    "d": "normandiya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ROUEN', https://www.treccani.it/enciclopedia/rouen_(Enciclopedia-Italiana)/",
+    "tanik": "dal 911, data che si assegna al trattato di Saint-Clair-sur-Epte",
+    "ic_not": "Saint-Clair-sur-Epte (911): Basit Charles Rollo'ya Rouen kontluğunu bırakır, Normandiya Dükalığı'nın başlangıcı. Künye 'normandiya' f=0911 t=1204 (boyasız)."
+   },
+   {
+    "f": "1204-01-01",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ROUEN', https://www.treccani.it/enciclopedia/rouen_(Enciclopedia-Italiana)/",
+    "tanik": "con la presa di Rouen e della Normandia",
+    "ic_not": "Philippe Auguste 1204'te Rouen ve Normandiya'yı alır (Kapet fethi). Atlas 'fransa' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0200-01-01",
+    "gun": "2. yüzyıl (Ptolemaios)",
+    "k": "diger",
+    "b": "Ptolemaios Geographia'sında Veneliocasi'nin kenti Ratomagus (Rouen) anılır: ilk yazılı tanık.",
+    "kaynak": "Ptolemaios, Geographia 2.7 (LacusCurtius/B. Thayer, https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; yazar 2. yy: https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/home.html)",
+    "tanik": "the Veneliocasi, whose town is Ratomagus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus tahtı bırakmaya zorlanır; Livius 4 Eylül ihtimalini de anar).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0497-01-01",
+    "gun": "497",
+    "k": "fetih",
+    "b": "Clovis Rouen'i fetheder; şehir Paris/Soissons/Neustria/Austrasia krallıklarının parçası olur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ROUEN', https://www.treccani.it/enciclopedia/rouen_(Enciclopedia-Italiana)/",
+    "tanik": "nel 497 Clodoveo conquistò la città"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Seine vadisi Batı Francia'ya (Kel Charles) düşer; Rouen Batı Francia'ya girer.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0911-01-01",
+    "gun": "911",
+    "k": "antlasma",
+    "b": "Saint-Clair-sur-Epte: Rouen kontluğu Rollo'ya bırakılır; Normandiya Dükalığı'nın başlangıcı, Rouen başkent.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ROUEN', https://www.treccani.it/enciclopedia/rouen_(Enciclopedia-Italiana)/",
+    "tanik": "dal 911, data che si assegna al trattato di Saint-Clair-sur-Epte"
+   },
+   {
+    "t": "0940-01-01",
+    "gun": "940",
+    "k": "diger",
+    "b": "I. Richard, Rouen yakınında İmparator I. Otto'yu ve müttefiklerini ağır yener.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ROUEN', https://www.treccani.it/enciclopedia/rouen_(Enciclopedia-Italiana)/",
+    "tanik": "Riccardo I infligge, vicino alla città, una grave disfatta all'imperatore Ottone il Grande"
+   },
+   {
+    "t": "1203-01-01",
+    "gun": "1203",
+    "k": "diger",
+    "b": "John Lackland, Rouen'de yeğeni Brittany'li Arthur'u öldürtür; Kapet büyük taarruzunun başlangıcı.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ROUEN', https://www.treccani.it/enciclopedia/rouen_(Enciclopedia-Italiana)/",
+    "tanik": "Giovanni Senzaterra fa assassinare a Rouen suo nipote, Arturo di Bretagna"
+   },
+   {
+    "t": "1204-01-01",
+    "gun": "1204",
+    "k": "fetih",
+    "b": "Philippe Auguste Rouen'i ve Normandiya'yı alır: Anglo-Norman dönem biter, Kapet egemenliği.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ROUEN', https://www.treccani.it/enciclopedia/rouen_(Enciclopedia-Italiana)/",
+    "tanik": "con la presa di Rouen e della Normandia"
+   }
+  ],
+  "ic_not": "İlk anılış: Ptolemaios 2.7 (Veneliocasi → Ratomagus; Thayer/LacusCurtius; Ptolemaios 2. yy). Ptolemaios 2.8'de 'Subanecti ... Ratomagus' tekrar anılır (yinelenen giriş; bağımsız tanık sayılmadı). Treccani Vexin/Veliocasses bilgisini tarihsiz verir. Modern nokta Roma kentiyle aynı. Atlas Rouen 1419-1449 'ingiltere' dönemi atlasta var (1281 sonrası, bu dosya karışmaz). Normandiya künyesi boyasız (boyali:false) — renk istenmeli."
  },
  {
   "id": "saarbrucken-de",
@@ -30024,6 +31372,159 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "DİKİŞ: atlas Toulouse 1271-01-01 'fransa'; Treccani yalnız 'nel 1271' verir (yıl). Gerçek gün Ağustos 1271 (Alphonse'un ölümü) bu oturumda kaynaklanmadı → atlas başlangıcı gün-hassasiyetli düzeltilmeli. Çift teyit YOK. Treccani 1271'de 'incorporata ai dominî reali'."
  },
  {
+  "id": "tournai-be",
+  "ad": "Tournai",
+  "atlas_ad": "Tournai",
+  "lat": 50.607,
+  "lon": 3.389,
+  "kat1900": 3,
+  "adlar": [
+   "Tornacum",
+   "Tournai"
+  ],
+  "ilk": {
+   "t": "0300-01-01",
+   "gun": "3. yüzyıl sonu",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+   "tanik": "capoluogo della Civitas Nerviorum nella provincia Belgica Secunda, già dalla fine del secolo III"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0300-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "capoluogo della Civitas Nerviorum nella provincia Belgica Secunda, già dalla fine del secolo III",
+    "ic_not": "Treccani Tournai: Tornacum, 3. yy sonundan beri Belgica Secunda'da Nervii kabilesinin başkenti. Yazılı ilk tanığın (Itinerarium/Notitia) tarihi bu turda açılamadı — Treccani ifadesinin 'fine del secolo III' sınırı güvenli uç alındı."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0451-01-01",
+    "d": "bati-roma",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "Fu, tra il 431 e il 451, conquistata dai Franchi",
+    "ic_not": "Dönem sonu 'en geç tanıktan': Franklar 431-451 arasında alır (Treccani); aralığın SON ucu (451) güvenli uç alındı. Batı Roma künyesi t=0476 — Tournai 395-451 arası Batı Roma'ya yazıldı."
+   },
+   {
+    "f": "0451-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "Fu, tra il 431 e il 451, conquistata dai Franchi",
+    "ic_not": "Künye 'frank' f=0481 — Tournai Salî Franklar krallığının merkezidir (Childeric I, Tournai'de 482'de ölür; Clovis 486'da buradan hareket eder; Treccani): Frank künyesi f=0451'e GENİŞLETME önerisi (ya da Salî Frank krallığı ayrı künye) — Emre kararı."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0987-07-03",
+    "d": "bati-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "fece parte dal 843 della Francia Occidentalis",
+    "ic_not": "Treccani: Tournai 843'ten itibaren Francia Occidentalis'te; çevre Tournaisis Flandre kontluğuna, şehir ve yakın çevresi episkopal senyörlük olarak krala bağlı."
+   },
+   {
+    "f": "0987-07-03",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio",
+    "ic_not": "Kapet Fransası. Tournai 1187'de komünü doğrudan Fransa kralı egemenliği altına alır (Treccani); Atlas 'fransa' ile uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0300-01-01",
+    "gun": "3. yüzyıl sonu",
+    "k": "diger",
+    "b": "Tornacum, Belgica Secunda'da Nervii kabilesinin başkenti (civitas capital).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "capoluogo della Civitas Nerviorum nella provincia Belgica Secunda, già dalla fine del secolo III"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0451-01-01",
+    "gun": "431-451",
+    "k": "fetih",
+    "b": "Franklar Tournai'yi alır ve şehir bir Salî krallığın merkezi olur (431-451 aralığı, güvenli uç 451).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "Fu, tra il 431 e il 451, conquistata dai Franchi"
+   },
+   {
+    "t": "0482-01-01",
+    "gun": "482",
+    "k": "diger",
+    "b": "Frank kralı I. Childeric Tournai'de ölür (mezarı bulundu).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "Childerico I vi morì nel 482"
+   },
+   {
+    "t": "0486-01-01",
+    "gun": "486",
+    "k": "diger",
+    "b": "Clovis, Tournai'den hareketle Galya fethine çıkar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "Clodoveo mosse di lì, nel 486, per intraprendere la conquista della Gallia"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Schelda'nın batısı Kel Charles'a (Batı Francia) düşer; Tournai Francia Occidentalis'e girer.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0881-01-01",
+    "gun": "881",
+    "k": "kayip",
+    "b": "Normanlar Tournai'yi harap eder.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "devastarono la città nell'881"
+   },
+   {
+    "t": "0987-07-03",
+    "gun": "3 Temmuz 987",
+    "k": "diger",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugues Capet 10 Haziran 987'de Noyon'da seçilir, 3 Temmuz'da Reims'te taç giyer; Kapet hanedanı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio"
+   },
+   {
+    "t": "1146-01-01",
+    "gun": "1146",
+    "k": "idari",
+    "b": "Tournai piskoposluğu (VII. yy'da Noyon'a bağlanmıştı) yeniden kurulur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "non fu ristabilito a Tournai se non nel 1146"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "1187",
+    "k": "idari",
+    "b": "Tournai komünü piskoposun otoritesinden çıkıp doğrudan Fransa kralının egemenliğine girer (ertesi yıl Philippe Auguste statü verir).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TOURNAI', https://www.treccani.it/enciclopedia/tournai_(Enciclopedia-Italiana)/",
+    "tanik": "a porlo direttamente sotto la sovranità del re di Francia"
+   }
+  ],
+  "ic_not": "İlk anılış: Treccani 'Tornacum ... capoluogo della Civitas Nerviorum ... già dalla fine del secolo III' (yüzyıl hassasiyeti, güvenli uç 300); daha erken yazılı tanık (Itinerarium Antonini / Notitia) bu turda açılamadı (bulunamadı). Modern nokta Roma kentiyle aynı. Treccani: yaşam Merovenj dönemi boyunca 'si spense' (kentsel yaşam söndü), yalnız kontluk/piskoposluk merkezi kaldı — sürekliliği kaynak Tournai için açıkça kesinti olarak tarihlemiyor. Frank künyesi hayalet uyarısı (f=0481 öncesi): Salî Franklar Tournai'de 431-451'den beri."
+ },
+ {
   "id": "tours-fr",
   "ad": "Tours",
   "atlas_ad": "Tours",
@@ -30334,6 +31835,143 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Kuruluş: Augustus MÖ 16-13 (Treccani EI + Treccani online aynı aralık, aynı kuruluşun iki yayını; güvenli uç MÖ 13 = -0012). Kuruluş tanığı çağdaş değil (devşirme akademik ansiklopedi); Trier köprüsü dendro MÖ 18/17 (Vikipedi — ikinci tanık, kullanılmadı). EI: Tacitus Hist. 4.77 köprüyü anar, Tacitus döneminde colonia (Mommsen: Latin hukuku) — yazılı tanık Tacitus (MS 69-70) kuruluştan SONRA, kur esas alındı. Frank geçişi 462/464 (Treccani: belirsiz) → hayalet uyarısı beklenir, künye genişletme önerisi. 870-911: Trier'in Louis payına düştüğü Treccani'de açık değil (Vikipedi EN bölgesel harita) — beyan. 911-925 Batı Francia Treccani Lorena aktarımı. Atlas Trier 1281 'almanya': tutarlı. Çift teyit YOK (Treccani x2 aynı kuruluş)."
+ },
+ {
+  "id": "troyes-fr",
+  "ad": "Troyes",
+  "atlas_ad": "Troyes",
+  "lat": 48.297,
+  "lon": 4.074,
+  "kat1900": 2,
+  "adlar": [
+   "Augustobona",
+   "Tricae",
+   "Troyes"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl (Ptolemaios)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia 2.7 (LacusCurtius/B. Thayer, https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; yazar 2. yy: https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/home.html)",
+   "tanik": "the Tricasi and the town Augustobona"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia 2.7 (LacusCurtius/B. Thayer, https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; yazar 2. yy: https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/home.html)",
+    "tanik": "the Tricasi and the town Augustobona",
+    "ic_not": "Ptolemaios'un Geographia'sı 2. yy'da (Thayer: OCD'ye göre İskenderiye'de 127-148 arası çalışmış); aralığın SON ucu (200) güvenli uç alındı. Roma İmparatorluğu künyesi f=-0026 — sahip Ptolemaios'un Tricasi/Augustobona'sı, Roma eyaleti."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0511-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-511 arası Troyes'in sahibi kaynakta açılamadı (Treccani: 'passaggio della città ai diversi regni ... nessun disordine', tarihsiz; St. Lupus 426-479 Hun istilasını durdurur). 35 yıllık boşluk (> 1 kuşak) beyan edilir, kapatılmadı."
+   },
+   {
+    "f": "0511-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "regno dell'Est, che comprendeva anche l'odierna Champagne, l'Alsazia",
+    "ic_not": "f 'en geç tanıktan': Clovis'in ölümünde (511) Austrasia krallığı 'l'odierna Champagne'ı da kapsar (Treccani LORENA). Troyes'in 476-511 arasında hangi krallıkta olduğu açılamadı."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0987-07-03",
+    "d": "bati-francia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "a Carlo il Calvo tutto il territorio dell’odierna Francia a O della Schelda",
+    "ic_not": "Troyes Saône batısında → Kel Charles'ın Batı Francia'sı. 878'de Papa VIII. Ioannes Troyes'te II. Louis'yi (Louis le Bègue) kral olarak taçlandırır (Treccani)."
+   },
+   {
+    "f": "0987-07-03",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio",
+    "ic_not": "Troyes konteri (Champagne) irsî güç haline gelir ve 'insignoriti dell'intera Champagne' (Treccani, tarihsiz); künye champagne-kontlugu f=1125 — zincirde egemen Fransa tutuldu (atlas fransa)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0200-01-01",
+    "gun": "2. yüzyıl (Ptolemaios)",
+    "k": "diger",
+    "b": "Ptolemaios Geographia'sında Tricasi kabilesinin kenti Augustobona (Troyes) anılır: ilk yazılı tanık.",
+    "kaynak": "Ptolemaios, Geographia 2.7 (LacusCurtius/B. Thayer, https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; yazar 2. yy: https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/home.html)",
+    "tanik": "the Tricasi and the town Augustobona"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus tahtı bırakmaya zorlanır; Livius 4 Eylül ihtimalini de anar).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0511-01-01",
+    "gun": "511",
+    "k": "idari",
+    "b": "Clovis'in ölümünde Austrasia krallığı Champagne'ı da kapsar: Troyes en geç bu tarihte Frank krallığındadır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "regno dell'Est, che comprendeva anche l'odierna Champagne, l'Alsazia"
+   },
+   {
+    "t": "0878-01-01",
+    "gun": "878",
+    "k": "diger",
+    "b": "Papa VIII. Ioannes Troyes'te II. Louis'yi (Louis le Bègue) Fransa kralı olarak taçlandırır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'TROYES', https://www.treccani.it/enciclopedia/troyes_(Enciclopedia-Italiana)/",
+    "tanik": "nell'878, il papa Giovanni VIII incoronò Luigi il Balbo re di Francia"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Saône batısı Kel Charles'a (Batı Francia) düşer; Troyes Batı Francia'ya girer.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0987-07-03",
+    "gun": "3 Temmuz 987",
+    "k": "diger",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugues Capet 10 Haziran 987'de Noyon'da seçilir, 3 Temmuz'da Reims'te taç giyer; Kapet hanedanı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UGO Capeto, re di Francia', https://www.treccani.it/enciclopedia/ugo-capeto-re-di-francia_(Enciclopedia-Italiana)/",
+    "tanik": "incoronato a Reims il 3 luglio"
+   }
+  ],
+  "ic_not": "İlk anılış: Ptolemaios (2. yy) Geographia 2.7: 'the Tricasi and the town Augustobona' (Troyes ile eşitleme Treccani: 'conosciuta un tempo col nome di Augustobona'). Antonine İtinerarium/Peutinger tarihleri bu turda açılamadı (OCR'lı Wesseling taraması okunaksız). Modern nokta Roma kentiyle aynı. Not: Ptolemaios aralığı 127-178 arası belirsiz → yüzyıl hassasiyeti, güvenli uç 200. Atlas 1281'de 'fransa' ile başlıyor — zincir uyumlu."
  },
  {
   "id": "turbet-i-cam-ir",
@@ -31025,6 +32663,233 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış 854: Treccani EI (1937, 'documenti di Ludovico il Germanico') + Treccani DS (2011, 'Ricordata dall'854 come sede reale') — iki Treccani yayını, çift teyit sayılmaz. Gün: Vikipedi DE '22 Temmuz 854' (Stiftsarchiv St. Gallen belgesi, 'in Hulmam palatio regio'); belgenin kendisi/akademik teyit (Stadtarchiv Ulm PDF, Schwäbische Heimat, monasterium.net) 403/WAF engeli nedeniyle AÇILAMADI → 854-01-01. Treccani: Ulm 1027'de 'şehir' anılır; Treccani DS 1134 yıkımı. Merovenj mezarlığı (Kienlesberg) Vikipedi DE (ikinci tanık) — ark yazılmadı. Sağ yakadaki Neu-Ulm Bavyera (EI) bu kaydın dışında. Atlas Ulm 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "utrecht-nl",
+  "ad": "Utrecht",
+  "atlas_ad": "Utrecht",
+  "lat": 52.091,
+  "lon": 5.121,
+  "kat1900": 2,
+  "adlar": [
+   "Traiectum",
+   "Wiltaburg",
+   "Ultraiectum",
+   "Utrecht"
+  ],
+  "ilk": {
+   "t": "0050-01-01",
+   "gun": "yaklaşık 50 (40-47 olası)",
+   "nicelik": "arkeolojik",
+   "kesinlik": "onyil",
+   "kaynak": "Livius.org (J. Lendering), 'Traiectum (Utrecht)', https://www.livius.org/articles/place/traiectum-utrecht/",
+   "tanik": "Traiectum (\"ford\") was founded in the mid-first century"
+  },
+  "kur": null,
+  "ark": {
+   "t": "0050-01-01",
+   "gun": "yaklaşık 50 (40-47 olası)",
+   "kesinlik": "onyil",
+   "kaynak": "Livius.org (J. Lendering), 'Traiectum (Utrecht)', https://www.livius.org/articles/place/traiectum-utrecht/ ['probably by ... Corbulo ... in 47, although a slightly earlier date becomes increasingly likely' — Woerden vb. 40-41]"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0050-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "onyil",
+    "kaynak": "Livius.org (J. Lendering), 'Traiectum (Utrecht)', https://www.livius.org/articles/place/traiectum-utrecht/",
+    "tanik": "Traiectum (\"ford\") was founded in the mid-first century",
+    "ic_not": "Roma kalesi (Domplein) Corbulo (47) ya da biraz öncesi; 88/89-260 cohors II Hispanorum; c.210'da taş surla genişletilir; IV. yy'da hâlâ işlevsel (Livius)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-31",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death",
+    "ic_not": "Livius: kale IV. yy'da işlevseldi, V. yy'da surlar içinde yaşayanlar vardı (sivil/asker belirsiz). Treccani 'III. yy ortasında Romalılar bölgeyi bıraktı' der — çelişki; arkeolojik Livius esas."
+   },
+   {
+    "f": "0476-08-31",
+    "t": "0636-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-636 arası Utrecht'in sahibi kaynakta açılamadı (Livius: V. yy'da yerleşim sürüyor; Treccani: VI. yy'da Franklar eski castrum yerine kale kurar, 'sec. VI'). 160 yıllık boşluk beyan edilir; VI. yy'da Frank kalesi (Treccani, tarihsiz) f için yeterli sınır vermez."
+   },
+   {
+    "f": "0636-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "ivi fu fondata dal re Dagoberto I nel 636 una cappella",
+    "ic_not": "f 'en geç tanıktan': Kral I. Dagobert 636'da Utrecht'te kapel kurar (Frank kralı); kapel yüzyıl sonuna doğru Frizyalılarca yıkılır (süresi belli olmayan kısa Frizya ele geçirmesi: dönem açılmadı, olay olarak yazıldı); 695'te Willibrord Frizya başpiskoposu (Pippin II himayesinde, Livius), 722'de Charles Martel kaleyi bağışlar."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0925-01-01",
+    "d": "orta-francia-lotharingia",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "la Mosa, la Schelda e il Reno e che da lui fu detta Lotaringia",
+    "ic_not": "Verdun'da Lothar I'e Frizya + Austrasia'nın orta-doğusu (Lotharingia) düşer (Treccani Verdun: 'autorità effettiva solo sulla Frisia'). Künye 'orta-francia-lotharingia' f=0855 — 843-855 arası aynı polity (Lothar I'in Orta Francia'sı): künye GENİŞLETME önerisi (f=0843-08-10). 870 Meerssen ayrıntısı bu kaynakta yok; 876-925 arası hükümdarlar sırayla Doğu/Batı kralları — şehir bazında ayrım yazılmadı, polity tek dönem alındı."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia",
+    "ic_not": "Künye 'dogu-francia' t=0962-01-01; zincir 0962-02-02'ye uzanır (32 gün; imparatorluk tacı günü)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1220-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale",
+    "ic_not": "Utrecht Reich içinde; Godebald (1122-27) ilk ayrıcalıkları verir, imparator V. Heinrich onaylar (Treccani). Şehirde bir kont oturur (1220'ye dek)."
+   },
+   {
+    "f": "1220-01-01",
+    "t": "1281-01-01",
+    "d": "utrecht-piskoposlugu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1220 l'ultimo conte vendette i suoi diritti al vescovo",
+    "ic_not": "Son kont haklarını piskoposa satar; Utrecht piskoposluk devletine girer. Künye utrecht-piskoposlugu f=1024 t=1528. Atlas 'almanya' diyor — dikis_beyan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0050-01-01",
+    "gun": "yaklaşık 50",
+    "k": "kurulus",
+    "b": "Roma kalesi Traiectum (Domplein) kurulur (Corbulo, 47; muhtemelen 40-41'e kadar geri).",
+    "kaynak": "Livius.org (J. Lendering), 'Traiectum (Utrecht)', https://www.livius.org/articles/place/traiectum-utrecht/",
+    "tanik": "Traiectum (\"ford\") was founded in the mid-first century"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (I. Theodosius ölür, imparatorluk oğulları arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma sona erer (Romulus Augustulus tahtı bırakmaya zorlanır; Livius 4 Eylül ihtimalini de anar).",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0636-01-01",
+    "gun": "636",
+    "k": "diger",
+    "b": "Frank kralı I. Dagobert Utrecht'te kapel kurar: Hollanda'nın büyük nehirlerinin kuzeyindeki ilk Hıristiyan kilisesi.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "ivi fu fondata dal re Dagoberto I nel 636 una cappella"
+   },
+   {
+    "t": "0699-01-01",
+    "gun": "7. yüzyıl sonu",
+    "k": "kayip",
+    "b": "Dagobert kapeli yüzyıl sonuna doğru Frizyalılarca yıkılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "Essa fu distrutta dai Frisoni verso la fine del secolo"
+   },
+   {
+    "t": "0695-01-01",
+    "gun": "695",
+    "k": "idari",
+    "b": "Willibrord Frizya başpiskoposu atanır ve Utrecht'i merkez yapar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "nomina di S. Willibrord ad arcivescovo dei Frisoni (695)"
+   },
+   {
+    "t": "0722-01-01",
+    "gun": "722",
+    "k": "idari",
+    "b": "Charles Martel Utrecht kalesini (castello di Traiectum) Willibrord'un manastırına bağışlar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 722 Carlo Martello donò al convento il castello di Traiectum"
+   },
+   {
+    "t": "0843-08-10",
+    "gun": "10 Ağustos 843",
+    "k": "antlasma",
+    "b": "Verdun Antlaşması: Lothar I'e Frizya ve Austrasia'nın orta-doğusu (Lotharingia) düşer; Utrecht Frizya/Lotharingia hattında.",
+    "kaynak": "Treccani, 'Verdun (voce: Trattato di V.), Enciclopedia on line', https://www.treccani.it/enciclopedia/verdun/",
+    "tanik": "Fu stipulato il 10 agosto 843 a conclusione delle lotte"
+   },
+   {
+    "t": "0863-01-01",
+    "gun": "863",
+    "k": "kayip",
+    "b": "Normanlar Dorestad'ı yıkar; Utrecht kuzey Hollanda'nın başlıca ticaret merkezi olur.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "Dopo la distruzione di Dorestad da parte dei Normanni (863)"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "fetih",
+    "b": "Kuşkucu (Avcı) Henry (Doğu Francia/Almanya kralı) Lotharingia'yı boyun eğdirir (sonra dükalık).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'LORENA', https://www.treccani.it/enciclopedia/lorena_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 925, Enrico l'Uccellatore, re di Germania, sottomise la Lotaringia"
+   },
+   {
+    "t": "0925-01-01",
+    "gun": "925",
+    "k": "idari",
+    "b": "Piskopos Balderik Utrecht'te piskoposluk sarayı yaptırır (eski kale taşları yeniden kullanılır).",
+    "kaynak": "Livius.org (J. Lendering), 'Traiectum (Utrecht)', https://www.livius.org/articles/place/traiectum-utrecht/",
+    "tanik": "Many stones were reused in the episcopal palace that was built by bishop Balderik (925)."
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Francia → Almanya (I. Otto papadan imparatorluk tacını alır; Kutsal Roma).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OTTONE I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1122-01-01",
+    "gun": "1122-1127",
+    "k": "idari",
+    "b": "Piskopos Godebald yurttaşlara ilk ayrıcalıkları verir; İmparator V. Heinrich onaylar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "Il vescovo Godebald (1122-27) diede ai cittadini i primi privilegi"
+   },
+   {
+    "t": "1220-01-01",
+    "gun": "1220",
+    "k": "idari",
+    "b": "Son kont haklarını Utrecht piskoposuna satar; Utrecht piskoposluk devletine girer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1220 l'ultimo conte vendette i suoi diritti al vescovo"
+   },
+   {
+    "t": "1267-01-01",
+    "gun": "1267",
+    "k": "idari",
+    "b": "Lonca (gilde) yönetim hakları elde eder.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'UTRECHT', https://www.treccani.it/enciclopedia/utrecht_(Enciclopedia-Italiana)/",
+    "tanik": "già nel 1267 ottennero anche esse diritti di carattere pubblico"
+   }
+  ],
+  "dikis_beyan": "Atlas Utrecht'i 1281-01-01'de 'almanya' ile başlatıyor; Treccani 1220'den şehri Utrecht piskoposluk devletinde gösterir (piskopos Reich prensi). 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'utrecht-piskoposlugu' (künye f=1024) olmalı mı yoksa Reich nominal üst efendi diye mi tutulur — Emre kararı.",
+  "ic_not": "İlk anılış: ARKEOLOJİK/Livius (fort kuruluşu ~47; 'mid-first century'); yazılı tanık: Treccani 'nominata nell'Itinerario di Antonino' — İtinerarium'un tarihi bu turda açılan akademik kaynakta yoktu (ikincil: Vikipedi 'Antonine Itinerary' orijinali Diocletianus sonlarına/erken IV. yy'a bağlar) → yazılı tanık tarihlenemedi, bu yüzden nicelik 'arkeolojik' (kural: yazılı tanık varsa o; burada tarihi doğrulanamadı, beyan). Tacitus Batav isyanında Rhine kalelerinin yıkıldığını; Livius Traiectum'un da yıkıldığını yazar (70), yeniden inşa 88/89 — kesinti zincire yazılmadı (kısa; Livius). Modern nokta (Domplein) kentin merkezi: aynı. Treccani çelişkisi: 'Romani dopo la metà del sec. III abbandonarono definitivamente la regione' vs Livius 'castle still functioning in the fourth century' → arkeolojik kaynak esas. Lotharingia künyesi f=0855 — genişletme önerisi."
  },
  {
   "id": "vannes-fr",
@@ -33777,6 +35642,68 @@ window.SEHIR_TARIHCE_K3 = [
   "sahip": [],
   "olay": [],
   "ic_not": "Yantai (Chefoo): atlas başlangıcı (1281-01-01 yuan-hanedani) düzeltilmeli: ilk yeri-kesin yazılı tanık Ming 1398 (Qishan suo, Ming Shi 41); sahip zinciri BOŞ. 1281 öncesi arananlar: Shiji 6 (Qin Shi Huang MÖ 219/218 'Zhifu'ya çıkış'), Hanshu 28 (Donglai jun: Chui/腄, Huang/黃 ilçeleri), Jin Shi 25 (Ninghai zhou, Muping ilçesi: '之罘山' adı), Yuan Shi 58 (Dengzhou lu: Penglai/Huang/Fushan/Qixia; Ninghai zhou), Song Shi 85 (Dengzhou) — 'Yantai/煙臺' adı hiçbirinde bulunamadı; Zhifu Dağı adı ise atlas noktasını değil, Zhifu Adası/dağını (kuzeyde) anar. AYRI KAYIT ÖNERİSİ: Zhifu (芝罘/之罘, Zhifu Adası) — ilk yeri-kesin tanık Shiji 6 Qin Shihuang 28. yıl (MÖ 219; astronomik -0218): '乃并勃海以東，過黃、腄，窮成山，登之罘，立石頌秦德焉而去' (Qin Shi Huang gezisi) ve 29. yıl (MÖ 218) 'Zhifu kaya yazıtı' ('登之罘，刻石'); adanın atlas noktasından uzaklığı ölçülmedi (kuzeyde, birkaç on km mertebesinde olduğu beklenir — KESİN DEĞİL; hafızadan değer yazılmadı), bu yüzden burada yazılmadı. Fushan (Chui/腄, Han Donglai jun) ve Muping (Jin Ninghai zhou) ilçe merkezleri de ayrı yerlerdir. Künye/atlas: Ming 1398'den 1281'e kadar atlas başlangıcının ileri alınması (ya da noktanın 1398 öncesi hiç çizilmemesi) önerilir. Çift teyit: yok. Açılamayan kaynak: yok."
+ },
+ {
+  "id": "ypres-be",
+  "ad": "Ypres",
+  "atlas_ad": "Ypres",
+  "lat": 50.851,
+  "lon": 2.886,
+  "kat1900": 3,
+  "adlar": [
+   "Ypres",
+   "Ieper"
+  ],
+  "ilk": {
+   "t": "1127-01-01",
+   "gun": "1127'den önce",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'YPRES', https://www.treccani.it/enciclopedia/ypres_(Enciclopedia-Italiana)/",
+   "tanik": "Prima del 1127 la città fu per la prima volta circondata da mura"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1127-01-01",
+    "t": "1281-01-01",
+    "d": "flandre",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'YPRES', https://www.treccani.it/enciclopedia/ypres_(Enciclopedia-Italiana)/",
+    "tanik": "Era il capoluogo di una castellania",
+    "ic_not": "Treccani: Ypres, Flandre kontunun kalesi (castrum comitale) çevresinde doğan bir ticaret yerleşimi, castellania merkezi; bu yüzden egemen Flandre Kontluğu (künye flandre 0862-1384, boyasız). Gent/Brugge/Lille emsali: atlas 1281'de 'fransa' diyor — dikis_beyan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1101-01-01",
+    "gun": "12. yüzyıl başı",
+    "k": "diger",
+    "b": "Ypres kumaşları Novgorod'da satılır (kumaş ihracatı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'YPRES', https://www.treccani.it/enciclopedia/ypres_(Enciclopedia-Italiana)/",
+    "tanik": "Al principio del sec. XII i suoi drappi si vendevano a Novgorod"
+   },
+   {
+    "t": "1127-01-01",
+    "gun": "1127'den önce",
+    "k": "idari",
+    "b": "Şehir ilk kez surlarla çevrilir (sur XIII. yy'da genişler).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'YPRES', https://www.treccani.it/enciclopedia/ypres_(Enciclopedia-Italiana)/",
+    "tanik": "Prima del 1127 la città fu per la prima volta circondata da mura"
+   },
+   {
+    "t": "1170-01-01",
+    "gun": "1170-1190",
+    "k": "idari",
+    "b": "Ypres ayrıcalıkları öteki büyük Flaman şehirlerinkine uyumlaştırılır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'YPRES', https://www.treccani.it/enciclopedia/ypres_(Enciclopedia-Italiana)/",
+    "tanik": "tra il 1170 e il 1190, uniformati a quelli delle altre grandi città fiamminghe"
+   }
+  ],
+  "dikis_beyan": "Atlas Ypres'i 1281-01-01'de 'fransa' ile başlatıyor; Treccani Ypres Flandre kontunun castrum'u çevresinde doğduğunu ve 1302'de 'Fiandra'nın Fransa kralı Philippe le Bel'e karşı mücadelesine' katıldığını yazar (Fransa yalnız üst-efendi). 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'flandre' (boyasız künye) olmalı mı yoksa Fransa nominal üst efendi diye mi tutulur — Emre kararı (Gent/Brugge/Lille emsali).",
+  "ic_not": "İlk anılış: Treccani'nin 'prima del 1127' (surlar) ifadesi bir ÜST SINIR; gerçek ilk anılış daha erken olabilir. Vikipedi/turizm özetleri 1066'yı 'ilk anılış' diye veriyor ama birincil/akademik kaynak (oorkonde) bu turda açılamadı — bulunamadı. Kronikler (Biekorf 2001: 558 'burgh', 805 ilk wethouders) efsanevî/kontrol edilemez, kullanılmadı. Antik Ypres iddiası: bir arama özeti Romen yerleşimine kanıt yok diyor — kullanılmadı. Modern nokta aynı yer."
  },
  {
   "id": "zhengding-cin",
