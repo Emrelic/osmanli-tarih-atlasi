@@ -179,6 +179,8 @@ KOVA = {
 }
 
 BOYALAR = {
+    "sacilar": ("Sâcîler (Ebü's-Sâcoğulları)", "#ccd82a"),
+    "hasanveyhiler": ("Hasanveyhîler (Berzikânî Kürt emirliği)", "#d82aae"),
     # ═══ BOYA PAKETİ KOŞU 30 (24 Ekim 2026): 108 bekleyen künye (denetim/ILERLEME-BOYA-BEKLEYEN-*.tsv + boya_gerekli:true) — renk_olc --oner; 102 kimlik veri noktası olmadığı için komşusuz (yalnız altlık/Osmanlı/öteki yeni renklerden ayrık), kesin komşuluk ΔE'si iddia edilmez ═══
     "yarlung-krallik": ("Yarlung Krallığı (Tibet, imparatorluk öncesi)", "#2a42d8"),
     "qiuchi": ("Qiuchi (Chouchi, 仇池) / Wuxing Yang krallığı", "#2ad830"),
