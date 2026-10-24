@@ -10259,7 +10259,7 @@ window.DEVLETLER = [
     { odak_yer:["Yanya"], t:"1430-01-01", tur:"son", b:"Ekim 1430'da Yanya Sinan Paşa'ya teslim oldu; despotluk sona erdi (Sphrantzes'e göre; gün yok)", kaynak:"TDV `yanya`" }
   ] },
 { id:"vidin-carligi", ad:"Vidin Çarlığı (İvan Sracimir)", tur:"prenslik", bolge:"balkanlar",
-  f:"1360-01-01", t:"1396-09-25",
+  f:"1360-01-01", t:"1396-10-01",
   ozet:"İvan Aleksandr'ın Vidin ve çevresini oğlu İvan Sracimir'e vermesiyle doğan yarı bağımsız Bulgar çarlığı; Niğbolu'dan sonra Yıldırım Bayezid onu Osmanlı'ya kattı. bulgar-carligi künyesi Vidin'i de taşımayı sürdürür (Ç2 hükmü koordinatörde).",
   kaynak:"TDV `vidin` (M. Kiel): 'İvan Aleksandr 1360'tan kısa bir süre önce Vidin'i ve çevresini oğlu İvan Sratsimir'e … vererek bölgeyi yarı bağımsız bir prenslik haline getirdi' · 'Yıldırım Bayezid, Niğbolu'da Haçlı ordularını bozguna uğratınca Sracimir'i Bursa'ya götürdü, Vidin Prensliği'ni de kendi imparatorluğuna kattı' · TDV `nigbolu-savasi`: '(25 Eylül 1396)'. Öneren: KRONO-BALKAN-D-0929.",
   not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 TANIKLIK SINIRI: bu uç kuruluş/yıkılış günü DEĞİL, kaynağın devleti VAR gösterdiği en uç gündür (uydurma yok; gerçek ömür daha uzun). f: kuruluş '1360'tan kısa bir süre önce' — 1360 başında VARDI. t: ilhak Niğbolu'dan SONRA (gün kaynakta yok) — 25 Eylül 1396'da hâlâ VARDI. Atlasın 1396-10-01'i kaynaksız, kullanılmadı.",
@@ -17266,7 +17266,7 @@ window.DEVLETLER = [
     { t:"1802-01-01", tur:"siyaset", b:"Hasan Han'ın ölümüyle Şeyh Ali Han Derbent'i yeniden Kuba Hanlığı'na bağladı.", kaynak:"Derbent Khanate; Quba Khanate (ikincil)" },
     { odak_yer:["İran"], t:"1806-01-01", tur:"son", b:"Rus-İran Savaşı (1804-1813) sırasında Rus birlikleri Derbent Hanlığı'nı işgal etti.", kaynak:"Derbent Khanate (ikincil); Encyclopaedia Iranica 'Golestān Treaty'" }
   ] },
-{ id:"nahcivan-hanligi", ad:"Nahçıvan Hanlığı", tur:"han-devleti", bolge:"kafkasya", f:"1747-01-01", t:"1828-01-01", baskent:"Nahçıvan", ozet:"Türkmençay (1828) ile Rusya'ya geçti. f [f?]; t günü [g?].", kaynak:"Britannica 'Treaty of Turkmenchay', 'Naxcivan'; Encyclopaedia Iranica 'Central Asia vii'", kronoloji:[
+{ id:"nahcivan-hanligi", ad:"Nahçıvan Hanlığı", tur:"han-devleti", bolge:"kafkasya", f:"1747-01-01", t:"1828-02-22", baskent:"Nahçıvan", ozet:"Türkmençay (1828) ile Rusya'ya geçti. f [f?]; t günü [g?].", kaynak:"Britannica 'Treaty of Turkmenchay', 'Naxcivan'; Encyclopaedia Iranica 'Central Asia vii'", kronoloji:[
     { odak_yer:["Nahçıvan"], t:"1747-01-01", tur:"kurulus", b:"Nadir Şah'ın ölümünün ardından Haydar Kulu Han Nahçıvan Hanlığı'nı kurdu.", kaynak:"https://en.wikipedia.org/wiki/Nakhichevan_Khanate (kuruluş atıfsız; gün bulunamadı)" },
     { odak_yer:["Nahçıvan"], t:"1787-01-01", tur:"hukumdar", b:"Kalb Ali Han Kangarlu Nahçıvan'ın başına geçti (1787-1809); Gürcistan-Rusya Georgievsk antlaşmasından sonra Rusya ile temas kurmaya çalıştı.", kaynak:"Kalb-Ali Khan Kangarlu (ikincil)" },
     { odak_yer:["Tahran"], t:"1796-01-01", tur:"siyaset", b:"Kalb Ali Han, Ağa Muhammed Han Kaçar'ın emriyle yakalanıp Tahran'a götürüldü ve gözleri kör edildi.", kaynak:"Bournoutian, From the Kur to the Aras (2021), s.258, 283; https://en.wikipedia.org/wiki/Nakhichevan_Khanate (gün bulunamadı)" },
