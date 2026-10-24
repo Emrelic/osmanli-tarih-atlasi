@@ -220,9 +220,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0532-01-01",
     "t": "0936-01-08",
-    "d": "__BOSLUK__",
+    "d": "silla",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip silla (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"silla\" geri yazılır) · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «十九年，金官國主金仇亥，與妃及三子，長曰奴宗，仲曰武德，季曰武力，以國帑寶物來降。王禮待之，授位上等，以本國爲食邑。» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «新羅法興王，旣受降，待以客禮，以其國爲食邑，號金官郡。»"
+    "kaynak": "SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «十九年，金官國主金仇亥，與妃及三子，長曰奴宗，仲曰武德，季曰武力，以國帑寶物來降。王禮待之，授位上等，以本國爲食邑。» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «新羅法興王，旣受降，待以客禮，以其國爲食邑，號金官郡。»"
    },
    {
     "f": "0936-01-08",
@@ -281,9 +281,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0562-01-01",
     "t": "0936-01-08",
-    "d": "__BOSLUK__",
+    "d": "silla",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip silla (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"silla\" geri yazılır) · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «九月，加耶叛，王命異斯夫討之，斯多含副之。斯多含領五千騎先馳，入栴檀門，立白旗，城中恐懼，不知所爲。異斯夫引兵臨之，一時盡降。» · Nihon Shoki 卷第十九 (zh.wikisource.org/wiki/日本書紀/卷第十九, okundu): «廿三年春正月。新羅打滅任那官家。» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «新羅眞興王滅之，以其地，爲大伽倻郡。»"
+    "kaynak": "SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «九月，加耶叛，王命異斯夫討之，斯多含副之。斯多含領五千騎先馳，入栴檀門，立白旗，城中恐懼，不知所爲。異斯夫引兵臨之，一時盡降。» · Nihon Shoki 卷第十九 (zh.wikisource.org/wiki/日本書紀/卷第十九, okundu): «廿三年春正月。新羅打滅任那官家。» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «新羅眞興王滅之，以其地，爲大伽倻郡。»"
    },
    {
     "f": "0936-01-08",
@@ -337,9 +337,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0538-01-01",
     "t": "0660-08-01",
-    "d": "__BOSLUK__",
+    "d": "baekje",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip baekje (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"baekje\" geri yazılır) · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «十六年，春，移都於泗沘，國號南扶餘。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
+    "kaynak": "SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «十六年，春，移都於泗沘，國號南扶餘。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
    },
    {
     "f": "0660-08-01",
@@ -351,9 +351,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0671-01-01",
     "t": "0936-09-01",
-    "d": "__BOSLUK__",
+    "d": "silla",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip silla (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"silla\" geri yazılır) · Kim Busik, Samguk sagi 卷07 (zh.wikisource.org/wiki/三國史記/卷07, okundu): «置所夫里州，以阿飡眞王爲都督。» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «扶餘郡，本百濟所夫里郡，唐將蘇定方與庾信平之，文武王十二年置摠管» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
+    "kaynak": "SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷07 (zh.wikisource.org/wiki/三國史記/卷07, okundu): «置所夫里州，以阿飡眞王爲都督。» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «扶餘郡，本百濟所夫里郡，唐將蘇定方與庾信平之，文武王十二年置摠管» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
    },
    {
     "f": "0936-09-01",
@@ -461,9 +461,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0600-01-01",
     "t": "1100-01-01",
-    "d": "__BOSLUK__",
+    "d": "dvaravati",
     "kesinlik": "onyil",
-    "kaynak": "BOŞLUK BEYANI: sahip dvaravati (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"dvaravati\" geri yazılır) · Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «Its earliest known capital was at Nakorn Pat’om, thirty miles west of modern Bangkok. Here a Mon inscription of c. 600 has been discovered; it is the earliest so far known to archaeologists.» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-4: «The inscriptions of Phra Pathom and of Lopburi, in archaic Mon language, prove that the population was basically Mon.» · «the lower basin of the Menam, from Lopburi in the north to Ratburi in the west and to Prachin in the east, contains archaeological and epigraphical remains of Buddhist origin ... vestiges of the same state: the kingdom of Dvaravati.»"
+    "kaynak": "SAHİP BEYANLI: dvaravati (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «Its earliest known capital was at Nakorn Pat’om, thirty miles west of modern Bangkok. Here a Mon inscription of c. 600 has been discovered; it is the earliest so far known to archaeologists.» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-4: «The inscriptions of Phra Pathom and of Lopburi, in archaic Mon language, prove that the population was basically Mon.» · «the lower basin of the Menam, from Lopburi in the north to Ratburi in the west and to Prachin in the east, contains archaeological and epigraphical remains of Buddhist origin ... vestiges of the same state: the kingdom of Dvaravati.»"
    },
    {
     "f": "1100-01-01",

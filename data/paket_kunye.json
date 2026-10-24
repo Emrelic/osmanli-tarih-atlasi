@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "15d5feccc85c0b09",
-     "bayt": 5430964
+     "sha": "af55de560b38acde",
+     "bayt": 5431030
     }
    ],
-   "bayt": 5613868
+   "bayt": 5613934
   },
   {
    "paket": "data/paket_06.js",
@@ -573,8 +573,8 @@
     },
     {
      "yol": "data/yerlesimler_asya.js",
-     "sha": "a0d9963dd93d117d",
-     "bayt": 674707
+     "sha": "6a4e94cd3e056a8d",
+     "bayt": 672943
     },
     {
      "yol": "data/yerlesimler_ek.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3015847
+   "bayt": 3014083
   },
   {
    "paket": "data/paket_14.js",
@@ -724,8 +724,8 @@
     },
     {
      "yol": "data/yerlesimler_gdasya.js",
-     "sha": "0940caacf1d78b96",
-     "bayt": 120849
+     "sha": "610eb05d5ee790a3",
+     "bayt": 120561
     },
     {
      "yol": "data/yerlesimler_kalite4.js",
@@ -778,7 +778,7 @@
      "bayt": 243638
     }
    ],
-   "bayt": 1186022
+   "bayt": 1185734
   },
   {
    "paket": "data/paket_15.js",

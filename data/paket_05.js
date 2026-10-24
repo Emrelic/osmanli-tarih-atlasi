@@ -25001,6 +25001,7 @@ window.DEVLETLER = [
 },
 {
   id: "gaya-konfederasyonu",
+  boya_gerekli: true,
   ad: "Gaya Konfederasyonu",
   tur: "federasyon",
   bolge: "dogu-asya",
@@ -25233,6 +25234,7 @@ window.DEVLETLER = [
 },
 {
   id: "kedah-kadaram",
+  boya_gerekli: true,
   ad: "Kedah (Kataha / Kadaram)",
   tur: "krallik",
   bolge: "guneydogu-asya",
@@ -25717,6 +25719,7 @@ window.DEVLETLER = [
 },
 {
   id: "thaton-mon",
+  boya_gerekli: true,
   ad: "Thaton (Ramannadesa / Mon)",
   tur: "krallik",
   bolge: "guneydogu-asya",
