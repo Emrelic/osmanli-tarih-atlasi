@@ -182,7 +182,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "10 Aralık 220 (Jülyen; ganzhi 庚午)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "Ana metin 庚午 (220-12-10) verir; Xiandi zhuan alıntısı 辛未 (220-12-11). Feragat fermanı günü 乙卯 = 220-11-25. Künye dogu-han t ve cao-wei f bu paketle 0220-12-10'a çekildi (önceki 0220-01-01 yıl düzeyiydi).",
+  "ic_not": "Ana metin 庚午 (220-12-10) verir; Xiandi zhuan alıntısı 辛未 (220-12-11). AKADEMİK ÇAPRAZ KONTROL (KAYNAK-DOGRULA, 24 Ekim 2026): Rafe de Crespigny, 'The Three Kingdoms and Western Jin: A History of China in the Third Century AD, I', East Asian History 1 (1991), s. 1-36 (eastasianhistory.org EAH01_01.pdf): 'on 11 December 220 by Western reckoning, the new ruler of Wei received the abdication of the last emperor of Han' — yani akademik anlatı 辛未 (Xiandi zhuan / Zizhi tongjian) okumasını izler, birincil metin neşri (zh.wikisource Sanguozhi ana metni) 庚午'dur; ikisi 1 gün ayrışır. Atlasın 220-12-10'u birincil ana metne dayanır, 1 günlük varyant bu iki kaynakla beyan edilmiştir (Değişmez 2 ±30 gün etkilenmez); Emre isterse 11 Aralık'a çekilir. Feragat fermanı günü 乙卯 = 220-11-25. Künye dogu-han t ve cao-wei f bu paketle 0220-12-10'a çekildi (önceki 0220-01-01 yıl düzeyiydi).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 庚午 (延康元年 10. ay) → Jülyen 0220-12-10 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0220-12-10; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -209,7 +209,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "10 Aralık 220 (Jülyen; ganzhi 庚午)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "Ana metin 庚午 (220-12-10) verir; Xiandi zhuan alıntısı 辛未 (220-12-11). Feragat fermanı günü 乙卯 = 220-11-25. Künye dogu-han t ve cao-wei f bu paketle 0220-12-10'a çekildi (önceki 0220-01-01 yıl düzeyiydi).",
+  "ic_not": "Ana metin 庚午 (220-12-10) verir; Xiandi zhuan alıntısı 辛未 (220-12-11). AKADEMİK ÇAPRAZ KONTROL (KAYNAK-DOGRULA, 24 Ekim 2026): Rafe de Crespigny, 'The Three Kingdoms and Western Jin: A History of China in the Third Century AD, I', East Asian History 1 (1991), s. 1-36 (eastasianhistory.org EAH01_01.pdf): 'on 11 December 220 by Western reckoning, the new ruler of Wei received the abdication of the last emperor of Han' — yani akademik anlatı 辛未 (Xiandi zhuan / Zizhi tongjian) okumasını izler, birincil metin neşri (zh.wikisource Sanguozhi ana metni) 庚午'dur; ikisi 1 gün ayrışır. Atlasın 220-12-10'u birincil ana metne dayanır, 1 günlük varyant bu iki kaynakla beyan edilmiştir (Değişmez 2 ±30 gün etkilenmez); Emre isterse 11 Aralık'a çekilir. Feragat fermanı günü 乙卯 = 220-11-25. Künye dogu-han t ve cao-wei f bu paketle 0220-12-10'a çekildi (önceki 0220-01-01 yıl düzeyiydi).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 庚午 (延康元年 10. ay) → Jülyen 0220-12-10 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0220-12-10; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -236,7 +236,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "10 Aralık 220 (Jülyen; ganzhi 庚午)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "Ana metin 庚午 (220-12-10) verir; Xiandi zhuan alıntısı 辛未 (220-12-11). Feragat fermanı günü 乙卯 = 220-11-25. Künye dogu-han t ve cao-wei f bu paketle 0220-12-10'a çekildi (önceki 0220-01-01 yıl düzeyiydi).",
+  "ic_not": "Ana metin 庚午 (220-12-10) verir; Xiandi zhuan alıntısı 辛未 (220-12-11). AKADEMİK ÇAPRAZ KONTROL (KAYNAK-DOGRULA, 24 Ekim 2026): Rafe de Crespigny, 'The Three Kingdoms and Western Jin: A History of China in the Third Century AD, I', East Asian History 1 (1991), s. 1-36 (eastasianhistory.org EAH01_01.pdf): 'on 11 December 220 by Western reckoning, the new ruler of Wei received the abdication of the last emperor of Han' — yani akademik anlatı 辛未 (Xiandi zhuan / Zizhi tongjian) okumasını izler, birincil metin neşri (zh.wikisource Sanguozhi ana metni) 庚午'dur; ikisi 1 gün ayrışır. Atlasın 220-12-10'u birincil ana metne dayanır, 1 günlük varyant bu iki kaynakla beyan edilmiştir (Değişmez 2 ±30 gün etkilenmez); Emre isterse 11 Aralık'a çekilir. Feragat fermanı günü 乙卯 = 220-11-25. Künye dogu-han t ve cao-wei f bu paketle 0220-12-10'a çekildi (önceki 0220-01-01 yıl düzeyiydi).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 庚午 (延康元年 10. ay) → Jülyen 0220-12-10 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0220-12-10; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -263,7 +263,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "10 Aralık 220 (Jülyen; ganzhi 庚午)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "Ana metin 庚午 (220-12-10) verir; Xiandi zhuan alıntısı 辛未 (220-12-11). Feragat fermanı günü 乙卯 = 220-11-25. Künye dogu-han t ve cao-wei f bu paketle 0220-12-10'a çekildi (önceki 0220-01-01 yıl düzeyiydi).",
+  "ic_not": "Ana metin 庚午 (220-12-10) verir; Xiandi zhuan alıntısı 辛未 (220-12-11). AKADEMİK ÇAPRAZ KONTROL (KAYNAK-DOGRULA, 24 Ekim 2026): Rafe de Crespigny, 'The Three Kingdoms and Western Jin: A History of China in the Third Century AD, I', East Asian History 1 (1991), s. 1-36 (eastasianhistory.org EAH01_01.pdf): 'on 11 December 220 by Western reckoning, the new ruler of Wei received the abdication of the last emperor of Han' — yani akademik anlatı 辛未 (Xiandi zhuan / Zizhi tongjian) okumasını izler, birincil metin neşri (zh.wikisource Sanguozhi ana metni) 庚午'dur; ikisi 1 gün ayrışır. Atlasın 220-12-10'u birincil ana metne dayanır, 1 günlük varyant bu iki kaynakla beyan edilmiştir (Değişmez 2 ±30 gün etkilenmez); Emre isterse 11 Aralık'a çekilir. Feragat fermanı günü 乙卯 = 220-11-25. Künye dogu-han t ve cao-wei f bu paketle 0220-12-10'a çekildi (önceki 0220-01-01 yıl düzeyiydi).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 庚午 (延康元年 10. ay) → Jülyen 0220-12-10 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0220-12-10; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -290,7 +290,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "8 Şubat 266 (Jülyen; ganzhi 丙寅)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
+  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. AKADEMİK: de Crespigny (East Asian History 2, 1991, s. 143-165) Batı Jin'i Çin yıl sayımıyla '265-317' diye başlıklandırır; Batı takvimi günü 266-02-08 (丙寅) Jin shu ana metninden ve ganzhi hesabından gelir — 265/266 çelişki değil takvim farkıdır (de Crespigny'nin metninde gün verilmez, doğrulanamadı). Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 丙寅 (泰始元年 12. ay) → Jülyen 0266-02-08 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0266-02-08; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -317,7 +317,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "8 Şubat 266 (Jülyen; ganzhi 丙寅)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
+  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. AKADEMİK: de Crespigny (East Asian History 2, 1991, s. 143-165) Batı Jin'i Çin yıl sayımıyla '265-317' diye başlıklandırır; Batı takvimi günü 266-02-08 (丙寅) Jin shu ana metninden ve ganzhi hesabından gelir — 265/266 çelişki değil takvim farkıdır (de Crespigny'nin metninde gün verilmez, doğrulanamadı). Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 丙寅 (泰始元年 12. ay) → Jülyen 0266-02-08 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0266-02-08; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -344,7 +344,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "8 Şubat 266 (Jülyen; ganzhi 丙寅)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
+  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. AKADEMİK: de Crespigny (East Asian History 2, 1991, s. 143-165) Batı Jin'i Çin yıl sayımıyla '265-317' diye başlıklandırır; Batı takvimi günü 266-02-08 (丙寅) Jin shu ana metninden ve ganzhi hesabından gelir — 265/266 çelişki değil takvim farkıdır (de Crespigny'nin metninde gün verilmez, doğrulanamadı). Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 丙寅 (泰始元年 12. ay) → Jülyen 0266-02-08 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0266-02-08; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -371,7 +371,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "8 Şubat 266 (Jülyen; ganzhi 丙寅)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
+  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. AKADEMİK: de Crespigny (East Asian History 2, 1991, s. 143-165) Batı Jin'i Çin yıl sayımıyla '265-317' diye başlıklandırır; Batı takvimi günü 266-02-08 (丙寅) Jin shu ana metninden ve ganzhi hesabından gelir — 265/266 çelişki değil takvim farkıdır (de Crespigny'nin metninde gün verilmez, doğrulanamadı). Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 丙寅 (泰始元年 12. ay) → Jülyen 0266-02-08 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0266-02-08; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -398,7 +398,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "8 Şubat 266 (Jülyen; ganzhi 丙寅)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
+  "ic_not": "BEYAN: Britannica 'Jin 265' der — Çin yıl adı (咸熙二年); 12. ay Jülyen 266 Şubat'ına düşer. AKADEMİK: de Crespigny (East Asian History 2, 1991, s. 143-165) Batı Jin'i Çin yıl sayımıyla '265-317' diye başlıklandırır; Batı takvimi günü 266-02-08 (丙寅) Jin shu ana metninden ve ganzhi hesabından gelir — 265/266 çelişki değil takvim farkıdır (de Crespigny'nin metninde gün verilmez, doğrulanamadı). Künye cao-wei t ve bati-jin f bu paketle 0266-02-08'e çekildi (önceki 0265-01-01).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 丙寅 (泰始元年 12. ay) → Jülyen 0266-02-08 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0266-02-08; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -425,7 +425,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "1 Mayıs 280 (Jülyen; ganzhi 壬寅)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "Tarihçe: Sinica sinocal 280/3 壬寅 = 0280-05-01 (Jülyen). Fuzhou/Changsha'ya özgü teslim günü yok: merkezî gün.",
+  "ic_not": "Tarihçe: Sinica sinocal 280/3 壬寅 = 0280-05-01 (Jülyen). Fuzhou/Changsha'ya özgü teslim günü yok: merkezî gün. AKADEMİK TEYİT: R. de Crespigny, East Asian History 2 (1991), s. 143-165 (eah.anu.edu.au EAH02_07.pdf): 'On 1 May 280, deserted by his last troops, Sun Hao came to …' — gün birebir aynı.",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 壬寅 (太康元年 3. ay) → Jülyen 0280-05-01 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0280-05-01; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -452,7 +452,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "1 Mayıs 280 (Jülyen; ganzhi 壬寅)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "Tarihçe: Sinica sinocal 280/3 壬寅 = 0280-05-01 (Jülyen). Fuzhou/Changsha'ya özgü teslim günü yok: merkezî gün.",
+  "ic_not": "Tarihçe: Sinica sinocal 280/3 壬寅 = 0280-05-01 (Jülyen). Fuzhou/Changsha'ya özgü teslim günü yok: merkezî gün. AKADEMİK TEYİT: R. de Crespigny, East Asian History 2 (1991), s. 143-165 (eah.anu.edu.au EAH02_07.pdf): 'On 1 May 280, deserted by his last troops, Sun Hao came to …' — gün birebir aynı.",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 壬寅 (太康元年 3. ay) → Jülyen 0280-05-01 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0280-05-01; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -479,7 +479,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "1 Mayıs 280 (Jülyen; ganzhi 壬寅)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "Tarihçe: Sinica sinocal 280/3 壬寅 = 0280-05-01 (Jülyen). Fuzhou/Changsha'ya özgü teslim günü yok: merkezî gün.",
+  "ic_not": "Tarihçe: Sinica sinocal 280/3 壬寅 = 0280-05-01 (Jülyen). Fuzhou/Changsha'ya özgü teslim günü yok: merkezî gün. AKADEMİK TEYİT: R. de Crespigny, East Asian History 2 (1991), s. 143-165 (eah.anu.edu.au EAH02_07.pdf): 'On 1 May 280, deserted by his last troops, Sun Hao came to …' — gün birebir aynı.",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 壬寅 (太康元年 3. ay) → Jülyen 0280-05-01 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0280-05-01; 1582 öncesi gün Jülyen kalır"
  },
  {
@@ -533,7 +533,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "gun": "13 Temmuz 311 (Jülyen; ganzhi 丁酉)",
   "kesinlik": "gun",
   "sinir_id": [],
-  "ic_not": "Jin shu 5 dipnotu: Tongjian 癸未'yi 5. aya alır; 丁酉 iki kaynakta aynı. Han-Zhao şehri yağmaladı, kalıcı sahiplik kaynaklanmadı (devletler.js han-zhao kronolojisi 'Luoyang'ı ele geçirdi' der).",
+  "ic_not": "Jin shu 5 dipnotu: Tongjian 癸未'yi 5. aya alır; 丁酉 iki kaynakta aynı. AKADEMİK TEYİT: R. de Crespigny, East Asian History 2 (1991) s. 143-165: 'On 13 July, after a massive defeat of the defending army, Shi Le stormed Luoyang, sacked the city, and took Sima Zhi, Emperor Huai, as a prisoner' (311, Temmuz 13) — gün aynı; de Crespigny şehri alan olarak Shi Le'yi anar (kayıttaki Han-Zhao yönetimiyle uyumlu, Shi Le Liu Cong'un generali). Han-Zhao şehri yağmaladı, kalıcı sahiplik kaynaklanmadı (devletler.js han-zhao kronolojisi 'Luoyang'ı ele geçirdi' der).",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 丁酉 (永嘉五年 6. ay) → Jülyen 0311-07-13 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0311-07-14; 1582 öncesi gün Jülyen kalır"
  },
  {
