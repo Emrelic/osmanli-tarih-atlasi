@@ -310,6 +310,43 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış: Treccani'ye göre Pippin'in 765-766 kışı (Aquisgrana 'Storia'). Roma dönemi: Aquae Granni sıcak su kaynakları; Treccani 'Tiberius zamanında' bilinen kaplıca der (gün/yıl kaynağı verilmemiş) ve Pleiades Roma dönemini -30/+640 verir — bu yüzden 'ark' (yüzyıl hassasiyeti) olarak yazıldı, yazılı Roma tanığı (kitabe/Peutinger) bu turda açılamadı (bulunamadı). Modern nokta antik vicus ile aynı yerde (Pleiades 50.776/6.084; <3 km). Sahip zinciri: 765-843 Frank; 843 Verdun'da Lothar I (Lotharingia, Austrasia orta-doğusu); 925'te Henry I; 962'den Almanya. Lotharingia künyesi f=0855 — genişletme önerisi f=0843-08-10. 870 Meerssen paylaşımının Aachen'i hangi tarafa verdiği bu turda kaynakta açılamadı; zincire ayrı dönem yazılmadı (polity tek dönem)."
  },
  {
+  "id": "agadir-ma",
+  "ad": "Agadir",
+  "atlas_ad": "Agadir",
+  "lat": 30.428,
+  "lon": -9.598,
+  "kat1900": 3,
+  "adlar": [
+   "Santa Cruz do Cabo de Gué (Portekizce, 1505-1541)",
+   "Gartguessem (Leo; eşleşme tartışmalı)",
+   "Agadir (Berberce 'kale, ambar')"
+  ],
+  "ilk": {
+   "t": "1505-01-01",
+   "gun": "1505",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "M. Nadir, 'As Relações Luso-Marroquinas no Século XVI: Presença Portuguesa em Agadir e região de Sus (1505-1541)', Imprensa da Universidade de Coimbra, 2023, https://doi.org/10.14195/978-989-26-2289-7 (OpenAlex W)",
+   "tanik": "Presença Portuguesa em Agadir e região de Sus (1505-1541)",
+   "ic_not": "İLK ANILIŞ (kuruluş DEĞİL; Portekiz Santa Cruz do Cabo de Gué): Coimbra monografisinin başlığı Agadir'deki Portekiz varlığını 1505'ten başlatır; Leo Africanus (Pory 1600) 'Gartguessem' kalesi için 'This place about twentie yeeres sithens the Portugais surprised' (≈1526'dan 20 yıl önce ≈1505) der — 'surprised' kalenin Portekizlilerce BASKINLA ALINDIĞINI, yani daha önce var olduğunu düşündürür; Brown'un notu (Hakluyt 1896) ise Gartguessem'i Agadir-Igir/Santa Cruz ile eşler ve Portekizli tüccar-'senhor'un 'built towards the end of the fifteenth century' ahşap barınağından söz eder (çelişki: baskınla alınmış yerli kale ↔ Portekizli barınağı; kuruluş türü belirsiz → nicelik ilk_anilis). Vikipedi'nin 'João Lopes de Sequeira, Kral'a satış 25 Ocak 1513' bilgisi AÇIK akademik kaynakta doğrulanamadı. ÖNCESİ: Vikipedi '1325 haritasında Porto Mesegina' ve '1510 Agadir al-harba' — doğrulanamadı; Encyclopédie berbère 'Agadir' (OpenEdition) Anubis bot-kontrolü yüzünden AÇILMADI; Monografinin kendisi 403. Agadir Berberce 'ambar/kale' demek, Fas'ta yüzlerce 'agadir' var — modern nokta Santa Cruz'un (Funti kıyısı) yerleşimidir; Agadir Oufella (tepe) 1 km."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1505-01-01",
+    "gun": "1505",
+    "k": "diger",
+    "b": "İlk anılış: Portekizliler Cabo de Gué'de Santa Cruz kalesine yerleşir (modern Agadir'in çekirdeği; kale mi kuruldu, mevcut mu alındı belirsiz).",
+    "kaynak": "Nadir 2023 (Coimbra) ; Leo/Pory + Brown notu",
+    "tanik": "This place about twentie yeeres sithens the Portugais surprised"
+   }
+  ],
+  "ic_not": "Agadir: 1505 öncesi yerleşim kaynakta yok → zincir BOŞ (ilk.t atlas başlangıcından sonra). ATLAS DÜZELTME ÖNERİSİ: Agadir 'merini' 1281-1505 dilimi kaynaksız ve yerleşim yokken yazılmış görünüyor; nokta 1505'te başlamalı ya da 1281-1505 dilimi KIRPILMALI (Boşluk doldurma merdiveni ④: yerleşim yok → dönemi kırp). Sus bölgesinde Merînî egemenliği de tartışmalı (TDV: Sa‘dîler Portekizleri 'Agādîr ve Sûs sahillerinden' uzaklaştırır, 1541)."
+ },
+ {
   "id": "alacahisar-rs",
   "ad": "Alacahisar (Kruševac)",
   "atlas_ad": "Alacahisar (Kruševac)",
@@ -1586,6 +1623,105 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk tanık belirsizliği: Pleiades Nemetacum ile Nemetocenna'yı aynı yer olarak listeler (Brill's New Pauly arama özeti: 'N. ist wohl identisch mit Nemetocenna', Caesar/Hirtius'un 51/50 kış kampı: BG 8.46 'hibernatque Nemetocennae' Perseus metninde teyit edildi) — eşitleme 'wohl' (muhtemel) olduğundan 'yeri kesin olmayan ad eşitlemesi başlangıç sayılmaz' kuralıyla MÖ 51/50 başlangıç alınmadı; ilk tanık Antonine Itinerary'nin (III. yy) 'Nemetacum'u (Cuntz 377,8 — Pleiades atıf listesi + tp-online arama özeti; Cuntz metni ve tp-online sayfası AÇILAMADI, Pleiades JSON ve Talbert/Barrington atfı esas). Akademik güçlendirme gerekir (Ptolemaios 2.9.7 'Νεμετακόν' ToposText'te Yunanca adla görünür; metin açılamadı). Treccani Arras: 'Prima della conquista romana ... capoluogo degli Atrebates' (tarih yok). Zincir: Flandre dönemi başı 'X. yy'dan itibaren' ifadesinden en erken sınır (901) alındı — gerçek geçiş muhtemelen Arnulf I (918-965); 843-901 Batı Francia, tek tanık Verdun. Atlas 1281 'fransa' ile uyumlu (1194'ten beri kral domaini)."
  },
  {
+  "id": "arzila-ma",
+  "ad": "Arzila (Asilah)",
+  "atlas_ad": "Arzila (Asilah)",
+  "lat": 35.466,
+  "lon": -6.036,
+  "kat1900": 3,
+  "adlar": [
+   "Azîla / Asîla (Arapça)",
+   "Acîlâ (el-İdrîsî)",
+   "Arzila (Portekizce/İspanyolca)",
+   "Asilah"
+  ],
+  "ilk": {
+   "t": "0828-03-22",
+   "gun": "213 H / 828-829",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854 (archive.org bub_gb_3dYOAAAAQAAJ), Appendice N° IV, s.563 ; TDV İslâm Ansiklopedisi, İDRÎSÎLER, https://islamansiklopedisi.org.tr/idrisiler",
+   "tanik": "il livra à Yahya les villes d'Azila et d'El-Araïch avec leurs dépendances",
+   "ic_not": "İLK ANILIŞ: İdrîs II ölünce (213 H = 828-03-22..829-03-11) oğlu Muhammed krallığı kardeşlerine paylaştırır; Yahyâ'ya 'Azîla ve el-Araiş şehirleri' düşer (İbn Haldun, de Slane II s.563). İbn Haldun 14. yy yazarıdır, tanıklık ettiği olay 9. yy; hicrî 213 ∩ 828-829 (kaynağın verdiği '828-9') kesişimin ilk günü alındı. ANTİK YER AYRI KAYIT: Zilil/Zilis = Dchar Jdid (Pleiades 275744; 35.522,-5.916) Asilah noktasına ≈12-13 km → >3 km kuralı gereği BURADA yazılmaz; ayrı kayıt önerisi (Plinius 5.2 'colonia Augusti Iulia Constantia Zulil'). Modern Asilah'ın antikçağda bir önceli kaynakta gösterilmedi. Vikipedi (Asilah): 'Idrisid dynasty ... Al-Hakam II rebuilt in 966' — tek dayanak olamaz, DOĞRULANAMADI. Vikinglerin 9. yy'da Arzila'ya saldırısı Mantas s.52'de var (yıl yok) — 859-862 civarı ama tarih kaynakta verilmedi → kullanılmadı. İdrîsî (1154): 'Azilà est une très petite ville dont il ne reste actuellement que peu de chose ... On l'appelle aussi Acilà' (çevirmenlerin Fr. çevirisi s.201-203)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0828-03-22",
+    "t": "0929-02-14",
+    "d": "idrisi",
+    "kesinlik": "yil",
+    "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854 (archive.org bub_gb_3dYOAAAAQAAJ) s.563-564 ; TDV İslâm Ansiklopedisi, İDRÎSÎLER, https://islamansiklopedisi.org.tr/idrisiler ; TDV İslâm Ansiklopedisi, MÛSÂ b. EBÜ’l-ÂFİYE, https://islamansiklopedisi.org.tr/musa-b-ebul-afiye",
+    "tanik": "possédaient Basra, Hadjer-en-Nesr, Ceuta et Azîla",
+    "ic_not": "Yahyâ b. Muhammed'in payı; sonra Hasanî İdrîsîler (İbn Haldun: 'Les descendants de Mohammed et d'Omar possédaient Basra, Hadjer-en-Nesr, Ceuta et Azîla quand ils en furent dépossédés par les Oméïades'). t 'f en geç tanıktan': TDV 313/925'ten sonra Mûsâ b. Ebü'l-Âfiye 'üç yıl içinde' Şâle ve Asîlâ başta olmak üzere İdrîsî merkezlerin çoğunu zaptetti; 317/929'da kalan İdrîsîleri Hacerünnesr'de kuşatıyor → 317 H başı (929-02-14) en geç sınır. Not: İbn Haldun (Tome II app. IV) Yahyâ'nın Azîla'ya sürgün edilişini Fatımî seferi sırasında anlatır (kaynakta yıl 303 ya da 305 diye tartışmalı) — Azîla bu dönemde de İdrîsî çevresi (süre/sınır belirsiz)."
+   },
+   {
+    "f": "0929-02-14",
+    "t": "1154-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453 ; Ibn Khaldun, Histoire des Berbères (trad. de Slane) III, Alger 1856 (archive.org bub_gb_T9IOAAAAQAAJ) ; TDV İslâm Ansiklopedisi, MÛSÂ b. EBÜ’l-ÂFİYE, https://islamansiklopedisi.org.tr/musa-b-ebul-afiye",
+    "tanik": "tuvo su ampliación hacia Arcila el año 933",
+    "ic_not": "Asîlâ'nın sahibi Asîlâ'ya ÖZGÜ tarihli kaynakta bulunamadı. MERDİVEN: ① TDV (Mûsâ b. Ebü'l-Âfiye: Asîlâ ≤929'da Mûsâ'nın; Ribât maddesi: Murâbıt dönemi 'Nakūr ve Arzila’da' ribât, tarihsiz; Murâbıtlar: 460/1068'e kadar 'Rif’ten Tanca’ya uzanan bölge' bölgesel). ② Zozaya (Muqtabis aktarımı): 'tuvo su ampliación hacia Arcila el año 933' (Endülüs Emevî), 973'te Arcila'nın Emevî komutanlarca alınışı (s.282, 287-288); İbn Haldun III: Almanzor'un generali Vâdih 'Azîla ve Nakûr'u alır' (≈ 990'lar, yıl yok). Bunlar ardışık ama Asîlâ sahipliğini kesintisiz zincirlemiyor (933 ↔ 973 arası Fatımî/İdrîsî Hasanî/Emevî dalgalanması, Fatımî Fas'ı 933'te alır — TDV Abdurrahman III). ③ Komşu Sebte: 931 Emevî (TDV) — Arzila kaderi Sebte ile ortak gösteren kaynak yok. ④ Yerleşim bu devirde VAR (İbn Haldun, Zozaya, İdrîsî). ⑤ Abi merkez bağlanmadı. Künye önerisi: bu BOŞLUK (225 yıl) Emevî(973-≈1031) / İdrîsî Hasanî / Murâbıt (≈1068) parçalarından oluşur; her parçaya Asîlâ'ya özgü tanık gerekir — bulunamadı."
+   },
+   {
+    "f": "1154-01-01",
+    "t": "1255-02-10",
+    "d": "muvahhidler",
+    "kesinlik": "ay",
+    "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC ; Dozy–de Goeje giriş: eseri 'dans les derniers jours du mois de chauwâl, l'an 548 de l'hégire (mi-janvier ...)' bitirir (OCR'da miladî yıl bozuk: '1184'/'lltii'; 548 H Şevval sonu = 1154-01-17/18 tablo takvimi, Jülyen) ; TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Azilà est une très petite ville dont il ne reste actuellement que peu de chose",
+    "ic_not": "f 'en geç tanıktan': Muvahhidler Sebte'yi 543/1148'de kalıcı aldı (TDV Sebte); İdrîsî'nin Asîla'yı surlu şehir olarak anması Ocak 1154 (Muvahhid egemenliği bölgesinde). Asîlâ'ya özgü devir günü YOK (beyanlı yaklaşıklık). t: TDV Merînîler: 653 (1255) Ebû Yahyâ 80.000 kişilik Muvahhid ordusunu Fas yakınlarında yenince 'Muvahhidler ülkelerinin kuzey yarısında Merînî hâkimiyetini tanıdılar' — 653 H = 1255-02-10..1256-01-30 ilk gün; Asîlâ'ya özgü değil, KUZEY bölgesel."
+   },
+   {
+    "f": "1255-02-10",
+    "t": "1281-01-01",
+    "d": "merini",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Muvahhidler ülkelerinin kuzey yarısında Merînî hâkimiyetini tanıdılar",
+    "ic_not": "Kuzey Mağrib Merînî hâkimiyeti (653/1255, bölgesel). Atlas başlangıcı 1281-01-01 (aynı sahip: merini) — atlas f'i 1255-02-10'a çekilebilir (bölgesel kanıtla)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0828-03-22",
+    "gun": "213 H / 828-829",
+    "k": "diger",
+    "b": "İlk anılış: İdrîs II'nin ölümü ve Muhammed'in paylaşımı; Yahyâ'ya Azîla ve el-Araiş.",
+    "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854 (archive.org bub_gb_3dYOAAAAQAAJ) s.563",
+    "tanik": "il livra à Yahya les villes d'Azila et d'El-Araïch avec leurs dépendances"
+   },
+   {
+    "t": "0929-02-14",
+    "gun": "317 H / 929 (en geç)",
+    "k": "fetih",
+    "b": "Mûsâ b. Ebü'l-Âfiye, Şâle ve Asîlâ başta olmak üzere İdrîsî merkezlerin çoğunu zaptetmiş; 317'de kalanları Hacerünnesr'de kuşatır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ b. EBÜ’l-ÂFİYE, https://islamansiklopedisi.org.tr/musa-b-ebul-afiye",
+    "tanik": "Şâle ve Asîlâ başta olmak üzere İdrîsîler’e ait merkezlerin büyük kısmını zaptetti"
+   },
+   {
+    "t": "1154-01-01",
+    "gun": "Ocak 1154 (548 H)",
+    "k": "diger",
+    "b": "Tanık olayı: el-İdrîsî Azîla'yı 'ceinte de murs' küçük şehir olarak tanımlar (Muvahhid bölgesi).",
+    "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC ; Dozy–de Goeje giriş: eseri 'dans les derniers jours du mois de chauwâl, l'an 548 de l'hégire (mi-janvier ...)' bitirir (OCR'da miladî yıl bozuk: '1184'/'lltii'; 548 H Şevval sonu = 1154-01-17/18 tablo takvimi, Jülyen)",
+    "tanik": "Azilà est une très petite ville dont il ne reste actuellement que peu de chose"
+   },
+   {
+    "t": "1255-02-10",
+    "gun": "653 H / 1255",
+    "k": "fetih",
+    "b": "Merînî Ebû Yahyâ Muvahhid ordusunu yener; kuzey yarıda Merînî hâkimiyeti tanınır (bölgesel).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Muvahhidler ülkelerinin kuzey yarısında Merînî hâkimiyetini tanıdılar"
+   }
+  ],
+  "ic_not": "Arzila (Asilah): ilk yazılı tanık İbn Haldun'un aktardığı 213/828-9 İdrîsî paylaşımı. Antik Zilil/Zilis 12 km uzakta (ayrı kayıt önerisi). AÇILAMAYAN: Encyclopaedia of Islam 'Ṣīla'/'Azīla' (Brill 202/paywall), Encyclopédie berbère (OpenEdition Anubis bot-kontrolü — aşılmadı), Der Neue Pauly 'Zilil'. ATLAS: Arzila 'merini' 1281-01-01 → 1255-02-10 (bölgesel TDV tanığı); 1154 öncesi İdrîsî/BOŞLUK parçaları bu kayıtla gösterilebilir. Sahiplik zincirinde 929-1154 BOŞLUK, Asîlâ'ya özgü tarihli tanıklar tek tek bulunursa dilimlenmeli."
+ },
+ {
   "id": "augsburg-de",
   "ad": "Augsburg",
   "atlas_ad": "Augsburg",
@@ -1946,6 +2082,104 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Atlas düzeltme önerisi: Aydonat 1281-01-01 'bizans' tanıksız; açılan kaynaklar Epir Despotluğu'nu (Anjou vassalı 1279) gösterir => atlas 1281 sahibi epir-despotlugu olmalı (tanık: Treccani 'Epiro'). Bulunamadı: Aydonat'ı adıyla anan 1204 öncesi ve 1204-1294 arası tarihli tanık."
+ },
+ {
+  "id": "azemmur-ma",
+  "ad": "Azemmûr",
+  "atlas_ad": "Azemmûr",
+  "lat": 33.289,
+  "lon": -8.342,
+  "kat1900": 3,
+  "adlar": [
+   "Azemmor / Azammûr (Arapça)",
+   "Azamor (16. yy Batı kaynakları)",
+   "Azemmour"
+  ],
+  "ilk": {
+   "t": "0828-03-22",
+   "gun": "213 H / 828-829",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854 (archive.org bub_gb_3dYOAAAAQAAJ), Appendice N° IV, s.563 ; TDV İslâm Ansiklopedisi, İDRÎSÎLER, https://islamansiklopedisi.org.tr/idrisiler",
+   "tanik": "au gouvernement des villes de Chella, Salé, Azemmor, Temsna",
+   "ic_not": "İLK ANILIŞ: 213 H (= 828-03-22..829-03-11) İdrîs II ölümü sonrası paylaşım: Muhammed 'Îsâ'yı Şâle, Selâ, Azemmûr ve Temsna şehirlerine vali yapar (İbn Haldun, de Slane II s.563). TDV İdrîsîler maddesi aynı olayı verir: 'Muhammed’e karşı ilk isyan eden Azemmûr, Tâmesnâ, Şâle ve Selâ’ya hükmeden kardeşi Îsâ oldu' — bağımsız ikinci tanık DEĞİL (TDV İbn Haldun'a dayanır), çift teyit sayılmadı. Daha eski olabilecek izler: Vikipedi 'Punic Azama / Asama' eşleşmesi (kaynak gösterilmemiş), Pleiades'te 'Azama' aramasından sonuç çıkmadı; Fr. Vikipedi: Fenike/Kartaca/Roma yerleşimi iddiası → AÇIK akademik kaynakla doğrulanamadı, YAZILMADI. TDV Masmûde: Bergavâta 'Selâ, Azemmûr ve Enfâ’yı yurt edinmiştir' (VII. yy'dan itibaren ≈4 asır) ve İbn Haldun II: Azemmûr–Anfa–Asfi kıyısı Bergavâta ülkesi — kaynak çelişkisi: İdrîsî valiliği ↔ Bergavâta özerkliği (sınır/süre belirsiz)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0828-03-22",
+    "t": "0836-01-01",
+    "d": "idrisi",
+    "kesinlik": "yil",
+    "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854 (archive.org bub_gb_3dYOAAAAQAAJ) s.563-564 ; TDV İslâm Ansiklopedisi, İDRÎSÎLER, https://islamansiklopedisi.org.tr/idrisiler",
+    "tanik": "sept mois après la mort de son frère Omar",
+    "ic_not": "Îsâ b. İdrîs Azemmûr'da isyan eder; Ömer onu yenip bölgeyi alır ('ainsi qu'Azîla, Salé, Azemmor et le pays des Temsna'); Ömer 220 H'de (835) ölür, ülkesi oğlu Ali'ye geçer; Muhammed 'sept mois après' ölür (221 H, 836). t: son İdrîsî tanık — Muhammed'in ölümü (OCR 224 yazar, 'sept mois après' Ömer'in 220 H ölümü → 221 H = 835-12-26..836-12-14 ∩ 836 → 836-01-01)."
+   },
+   {
+    "f": "0836-01-01",
+    "t": "1216-04-20",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, İDRÎSÎLER, https://islamansiklopedisi.org.tr/idrisiler ; Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854 (archive.org bub_gb_3dYOAAAAQAAJ) ; TDV MASMÛDE, https://islamansiklopedisi.org.tr/masmude",
+    "tanik": "Selâ, Azemmûr ve Enfâ’yı yurt edinmiştir",
+    "ic_not": "Sahibi tarihli kaynakta bulunamadı. MERDİVEN: ① TDV Masmûde: Bergavâta (VII. yy → Murâbıt/Muvahhid fethi) 'Selâ, Azemmûr ve Enfâ’yı yurt edinmiştir'; TDV Murâbıtlar: Ebû Bekir b. Ömer önce Bergavâta'yı itaat altına aldı (451-453/1059-61); ② İbn Haldun II: Bergavâta Azemmûr–Anfa kıyısında, Murâbıtlar 450 H'de Bergavâta'ya savaş açar (Abdullah b. Yâsîn 450'de ölür) — Azemmûr'a özgü sahiplik tarihi yok; ③ komşu Selâ/Rabat: Muvahhid 1150 (TDV Rabat); ④ yerleşim VAR; ⑤ abi merkez yok. Bergavâta için künye YOK (önerilen id 'bergavata', ömür TDV'de yok: VII. yy – ≈1149)."
+   },
+   {
+    "f": "1216-04-20",
+    "t": "1262-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, İBN HAMMÂD es-SANHÂCÎ, https://islamansiklopedisi.org.tr/ibn-hammad-es-sanhaci ; Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854 (archive.org bub_gb_3dYOAAAAQAAJ)",
+    "tanik": "Mağrib’in Selâ, Azemmûr şehirlerinde kadılık yaptıktan sonra",
+    "ic_not": "f 'en geç tanıktan': İbn Hammâd es-Sanhâcî 613-616 (1216-1219) arasında Selâ ve Azemmûr kadılığı yapar (Muvahhid atamalı kadı); 613 H = 1216-04-20 ilk gün. Ek tanık: Muvahhid Halife er-Reşîd döneminde Azemmûr hapishanesinde tutuklu bulundurulur; Es-Saîd zamanında 643'te (1245-46) Kanûn b. Cermûn 'l'embarras des Almohades' fırsatıyla Azemmûr'u basar (İbn Haldun II) — Azemmûr 1245'te hâlâ Muvahhid. t: TDV Merînîler 660 (1262): Tâmesnâ ve Rif katılır, hâkimiyet Vâdîümmürrebî'ye kadar — Azemmûr ırmağın kuzey kıyısındadır; sınır noktası, beyanlı yaklaşıklık."
+   },
+   {
+    "f": "1262-01-01",
+    "t": "1281-01-01",
+    "d": "merini",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Tâmesnâ ve Rif’i topraklarına katıp hâkimiyetini Vâdîümmürrebî’ye kadar genişletti",
+    "ic_not": "Merînî Ebû Yûsuf Tâmesnâ'yı katar (660/1262); ırmak sınırında Azemmûr — Merînî. Atlas 'merini' 1281-01-01 → 1262-01-01 önerisi (bölgesel kanıt). Dikiş: aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0828-03-22",
+    "gun": "213 H / 828-829",
+    "k": "diger",
+    "b": "İlk anılış: Muhammed b. İdrîs, Îsâ'ya Şâle, Selâ, Azemmûr ve Temsna'yı verir.",
+    "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854 (archive.org bub_gb_3dYOAAAAQAAJ) s.563",
+    "tanik": "au gouvernement des villes de Chella, Salé, Azemmor, Temsna"
+   },
+   {
+    "t": "0836-01-01",
+    "gun": "221 H / 836",
+    "k": "diger",
+    "b": "Muhammed b. İdrîs ölür (Ömer'den yedi ay sonra); İdrîsî Azemmûr tanıklığı biter.",
+    "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854 (archive.org bub_gb_3dYOAAAAQAAJ) s.564",
+    "tanik": "sept mois après la mort de son frère Omar"
+   },
+   {
+    "t": "1216-04-20",
+    "gun": "613 H / 1216",
+    "k": "diger",
+    "b": "Tanık olayı: İbn Hammâd es-Sanhâcî Selâ ve Azemmûr kadılığına atanır (613-616) — Muvahhid idaresi.",
+    "kaynak": "TDV İslâm Ansiklopedisi, İBN HAMMÂD es-SANHÂCÎ",
+    "tanik": "Mağrib’in Selâ, Azemmûr şehirlerinde kadılık yaptıktan sonra"
+   },
+   {
+    "t": "1262-01-01",
+    "gun": "660 H / 1262",
+    "k": "fetih",
+    "b": "Merînî Ebû Yûsuf Tâmesnâ ve Rif'i katar; hâkimiyet Vâdîümmürrebî'ye kadar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Tâmesnâ ve Rif’i topraklarına katıp hâkimiyetini Vâdîümmürrebî’ye kadar genişletti"
+   }
+  ],
+  "ic_not": "Azemmûr: ilk yazılı tanık 213/828-9 İdrîsî paylaşımı. Punic 'Azama' eşleşmesi doğrulanamadı. Atlas 'merini' 1281 → 1262 önerisi (sınırda). 836-1216 BOŞLUK Bergavâta/Murâbıt/Muvahhid parçaları için. AÇILAMAYAN: EI² 'Azemmūr', Encyclopédie berbère, Der Neue Pauly."
  },
  {
   "id": "bacgiang-vn",
@@ -5075,6 +5309,283 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas 1281-01-01'de 'macaristan' ile başlatıyor (kaynak: 'XIV. yy'dan Frankapan mülkü'); açılan kaynaklarda ilk tanık 1334 (HE) — 1281'den sonra. Zincir BOŞ; 1281 öncesi tanık bulunamadı."
  },
  {
+  "id": "ceuta-ma",
+  "ad": "Sebte (Ceuta)",
+  "atlas_ad": "Sebte (Ceuta)",
+  "lat": 35.889,
+  "lon": -5.318,
+  "kat1900": 3,
+  "adlar": [
+   "Abyla / Abila (Monte Hacho; coğrafî ad)",
+   "Septem Fratres (dağlar; Mela/Plinius)",
+   "Septon / Septum (Prokopios)",
+   "Sabta / Sebte (İslâm dönemi)",
+   "Ceuta"
+  ],
+  "ilk": {
+   "t": "0534-01-01",
+   "gun": "533-534",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Prokopios, Savaşlar (Hyper ton polemon) 4.5.6, Perseus tlg4029.tlg001.perseus-grc2 (Haury), https://github.com/PerseusDL/canonical-greekLit ; V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.49",
+   "tanik": "τὸ ἐκείνῃ φρούριον, ὃ Σέπτον καλοῦσι, καθέξοντα",
+   "ic_not": "İLK ANILIŞ = yerleşim olarak YERİ-KESİN ilk yazılı tanık. Prokopios (Savaşlar 4.5.6): Belisarios Kartaca'yı aldıktan sonra Ioannes'i 'yerlilerin Septon dediği kaleyi' (Boğaz'ın Afrika yakası) tutmaya yollar; aynı yazar 3.1.6'da kalenin adını yedi tepeden (Lat. septem) türetir. Mantas: Bizans Sebte'yi '533 ya da 534'te' alır (aralığın SON ucu 534 alındı). Daha eski yazılı anışlar YALNIZ DAĞLARI adlandırır, yerleşimi değil: Strabon 17.3.6, Mela 1.24 ('montes ... ob numerum Septem, ob similitudinem Fratres'), Plinius 5.18 ('Abila monte et quos Septem Fratres'); Mantas: 'nenhuma delas possa, com segurança, atribuir-se ao núcleo populacional'. Itinerarium Antonini'nin 'Ad Septem Fratres' istasyonu tarihsiz ve konumu belirsiz (Mantas s.44). ARKEOLOJİK ilk iskân çok daha eskidir ('ark' alanı): Plaza de África'da 2004'te kazılan Fenike yerleşimi, seramikle MÖ 7.-6. yy (Mantas s.42-43). VERI-YAPISI önceliği (yazılı tanık varsa o) gereği ilk = Prokopios; ark ayrı tutuldu. Emre ilk'i MÖ 6. yy sonuna (ark) çekmek isterse MÖ 501–534 arası sahip zinciri BOŞLUK olarak yazılır: Mantas s.43 'pertencente ao reino mauritano até à anexação concretizada por Cláudio' (Mauretania Krallığı→Roma, Livius 'Claudius': '44 ... annexation of Mauretania'), Mantas s.48 Vizigot (tarihsiz, 'eventualmente') — sahibi tarihli tanıkla bağlanamadığı için bu oturumda yazılmadı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0500-01-01",
+   "gun": "MÖ 6. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.42-43 (kazı: F. Villada / J. Ramón / J. Suárez, Akros 6, 2007, s.125-134)",
+   "tanik": "um habitat fenício, datado pelos materiais arqueológicos",
+   "ic_not": "Mantas: Plaza de África (Katedral yanı) 2004 kazısı, Fenike yerleşimi 'séculos VII-VI a.C.' → aralığın SON ucu MÖ 6. yy sonu (MÖ 501 = -0500). Mantas ayrıca 'presença de uma povoação em Ceuta pelo menos desde o século VII a.C.' der; adı 'por ora desconhecido'. TDV: 'Şehir Fenikeliler’in ticaret merkezlerinden olup daha sonra Kartacalılar ve Romalılar’ın eline geçti' (tarihsiz)."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0534-01-01",
+    "t": "0711-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.49-50",
+    "tanik": "Müslümanlar bölgeye ulaştıklarında Sebte, Bizans Valisi Julianos’un yönetimindeydi.",
+    "ic_not": "Bizans (Justinianus) Septon'u 533/534'te alır; Mantas s.49 'meados do século VII' Vizigotların presídio'yu aldığını söyler ve Conde Julião'nun kimliği ('governador bizantino para uns ... visigodo para outros') tartışmalıdır. TDV ESAS: Müslümanlar geldiğinde Sebte Bizans valisi Julianos'tadır; Pleiades (275703) de 'last of Morocco's cities to recognize the authority of the emperor at the time of the Arab conquest' der (ikinci tanık). Çelişki beyan: Mantas (Vizigot ihtimali, tarihsiz) ↔ TDV (Bizans valisi). Bitiş: Târık'ın Sebte limanını kullandığı 92/711 (92 H = 710-10-29..711-10-18 ∩ 711 → 711-01-01); Julianos–Mûsâ ittifakı tam teslim değildir, Julianos'un ölümünden sonra barışla geçiş TARİHSİZ — dönem sınırı 'en erken tanık' olarak beyanlı yaklaşıklıktır."
+   },
+   {
+    "f": "0711-01-01",
+    "t": "0740-01-01",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.50",
+    "tanik": "Târık b. Ziyâd, İspanya’ya geçmek için Sebte Limanı’nı kullandı (92/711)",
+    "ic_not": "f: 92/711 (Mûsâ b. Nusayr–Julianos ittifakı, Târık Sebte'den geçer); tam devir günü kaynakta yok (beyanlı yaklaşıklık). t: TDV 'Emevîler döneminde 122 (740) yılında Tanca’da Meysere el-Medgarî liderliğinde ayaklanan Sufriyye Hâricîleri Sebte’yi de ...'; 122 H = 739-12-07..740-11-25 ∩ 740 → ilk gün 740-01-01. Mantas büyük Berberî isyanını 739 verir, kuşatılmış halifelik güçlerini 741'de anar (Mantas s.51) — TDV esas."
+   },
+   {
+    "f": "0740-01-01",
+    "t": "0830-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.51",
+    "tanik": "Os Berberes destruíram a cidade que permaneceu mais ou menos abandonada até cerca de 830",
+    "ic_not": "TDV: Sufriyye Hâricîleri Sebte'yi 'uzun süre ellerinde tuttular' (süre vermez). Mantas: Berberîler şehri yıktı, şehir 'cerca de 830'a dek ... mais ou menos abandonada' (Medyekesa adıyla yeniden kurulur). İki kaynak çelişir: şehir Sufrî elinde yaşamaya devam mı etti, yıkık/terk mi kaldı — varlığı da bilinmiyor → __BILINMIYOR__ (sahip yazılmaz). Aranan: TDV Sebte/İdrîsîler/Mağrib, Mantas, Pleiades 275703 (bu aralığa tanık yok)."
+   },
+   {
+    "f": "0830-01-01",
+    "t": "0931-03-01",
+    "d": "idrisi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.51",
+    "tanik": "Gumâre kabilesi liderlerinden Macakis (Maksen-Mahkes), İdrîsîler’e itaat ettiğini açıkladı",
+    "ic_not": "f: Mantas 'cerca de 830' yeniden kuruluş (Medyekesa); Banu Isam, İdrîsîler'in 'relutantes' vasalı. TDV: Gumâre lideri Macakis İdrîsîler'e itaat ettiğini açıkladı (tarihsiz, 'bu dönemin sonlarında'). İdrîsî vasallık fiilen gevşek ve süre/sınır kaynaklarda yaklaşık; t: Endülüs Emevî ele geçirişi (Mart 931)."
+   },
+   {
+    "f": "0931-03-01",
+    "t": "1016-06-10",
+    "d": "endulus-emevi",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453, s.284",
+    "tanik": "se hace con el gobierno ceutí en marzo del 931",
+    "ic_not": "TDV: 319/931 (319 H = 931-01-24..932-01-13). Zozaya (Muqtabis V'e dayanarak): Algeciras valisi general Umaya b. İshak Ceuta yönetimini 'marzo del 931'de alır → ay hassasiyeti, 931-03-01 (hicrî 319 ile uyumlu; çift teyit — yıl). t: TDV 'Sebte Valisi Ali b. Hammûd ... Hammûdîler’i kurmasına kadar' (Muharrem 407 = 1016-06-10). Mantas ise Hammûdî ve Bergavâta egemenliğini 1009'dan sayar (s.54) — TDV esas, çelişki beyan."
+   },
+   {
+    "f": "1016-06-10",
+    "t": "1061-01-26",
+    "d": "hammudiler",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Hammûdîler’i kurmasına kadar sürdü (Muharrem 407 / Haziran 1016)",
+    "kunye_yok": true,
+    "ic_not": "Hammûdîler (Ali b. Hammûd, Sebte valisi iken Kurtuba halifesi Süleyman b. el-Hakem'i öldürüp Hammûdî halifeliğini kurar; Muharrem 407 = 1016-06-10 hicrî ay başı, 'Haziran 1016' TDV ile uyumlu). devletler.js'te 'hammudiler' künyesi YOK (yalnız hammadiler = Cezayir). Önerilen id: hammudiler; künye ömrü bu oturumda KAYNAKLA belirlenmedi (Sebte için TDV aralığı 1016–1061 kullanıldı). t: TDV 'Hammûdîler’i tasfiye ederek Sebte’nin idaresini eline geçiren Sükût el-Bergavâtî, Abbâsîler’e bağlılığını bildirdi (453/1061)' — 453 H = 1061-01-26..1062-01-15."
+   },
+   {
+    "f": "1061-01-26",
+    "t": "1084-05-10",
+    "d": "bergavati-sebte",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, 1854, s.75-76",
+    "tanik": "Sükût el-Bergavâtî, Abbâsîler’e bağlılığını bildirdi (453/1061)",
+    "kunye_yok": true,
+    "ic_not": "Sükût el-Bergavâtî (Hammûdî hâcibi) ve oğlu İzz; Abbâsîler'e nominal bağlılık (453/1061). Ibn Khaldun (II s.75): Sebte 'chambellan Soggout-el-Berghouali' ve Hammûdî yanlıları elindedir; Sükût Tanca yakınında Murâbıtlara yenilip ölür, oğlu Sebte'ye çekilir. künye YOK: önerilen id bergavati-sebte (Bergavâta kökenli yerel hanedan; ömür ≈ 1061–1084; kaynak TDV Sebte + Ibn Khaldun). t: TDV 'Şehir 477’de (1084) Murâbıtlar’ın eline geçti' (477 H = 1084-05-10..1085-04-29, ilk gün). Çift teyit (yıl): Mantas 'Em 1084 os Almorávidas apoderam-se violentamente da cidade' (s.54)."
+   },
+   {
+    "f": "1084-05-10",
+    "t": "1148-05-22",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.54",
+    "tanik": "Şehir 477’de (1084) Murâbıtlar’ın eline geçti.",
+    "ic_not": "Murâbıtlar Sebte'yi 477/1084'te alır, Endülüs seferleri için ana üs yapar (TDV; Mantas s.54). TDV: 541 (1146-47)'de Sebteliler Muvahhidler'e bağlılık bildirir, bir yıl sonra isyan edip Murâbıt prensi Yahyâ b. Yûsuf b. Tâşfîn'i vali tayin ettirir; kalıcı Muvahhid hâkimiyeti 543/1148. Murâbıt künyesi 1147-03-23'te biter → bu dönem künye ömrünü ~14 ay aşar (hayalet UYARISI beklenir; künye GENİŞLET önerisi: murabitlar.t → 1148-05-22 Sebte için ya da kısa Muvahhid ara dönemi 1146-47 beyanı)."
+   },
+   {
+    "f": "1148-05-22",
+    "t": "1232-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.54",
+    "tanik": "Abdülmü’min’in 543 (1148) yılında Sebte’ye girmesiyle şehir kalıcı bir şekilde Muvahhidler’in hâkimiyetine geçti",
+    "ic_not": "f: 543 H = 1148-05-22..1149-05-11 ilk gün (TDV '543 (1148) yılında Sebte’ye girmesiyle ... kalıcı'). Mantas: Almóadas 1146–1232. t: TDV 'Muvahhidler’in yıkılışının ardından 1232’den itibaren' (yıl)."
+   },
+   {
+    "f": "1232-01-01",
+    "t": "1234-09-26",
+    "d": "ibn-hud-endulus",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Muhammed b. Yûsuf b. Hûd’un egemenliğinde kaldı",
+    "kunye_yok": true,
+    "ic_not": "Muhammed b. Yûsuf b. Hûd (İbn Hûd; Endülüs'ün büyük bölümüne kısa süre hâkim). Künye YOK; önerilen id ibn-hud-endulus; TDV 'hudiler' sayfası Saragossa Hûdîleri'ni anlatır, Murcia İbn Hûd'unun ömrü bu oturumda AÇILMADI (künye ömrü bulunamadı). t 'f en geç tanıktan': Yâneştî en geç 632 H (= 1234-09-26..1235-09-16) Cenevizlilere karşı Sebte'yi savunur → İbn Hûd dönemi bu güne uzatıldı (kesin devir günü TDV'de yok)."
+   },
+   {
+    "f": "1234-09-26",
+    "t": "1236-09-04",
+    "d": "sebte-yanesti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Sebteliler saygın bir tüccar olan Yâneştî’yi başlarına geçirerek bağımsızlıklarını ilân ettiler",
+    "kunye_yok": true,
+    "ic_not": "Sebteliler saygın tüccar Yâneştî'yi başa geçirip bağımsızlık ilan eder; Ceneviz saldırısına karşı savunur (632/1234-35). Künye YOK; önerilen id sebte-yanesti (şehir-devleti, ≈ 1234–1236). t: 'iki yıl sonra yeniden Muvahhidler’e bağlılık' → ≈ 634 H (= 1236-09-04..1237-08-24) ilk gün. Mantas ise 1232–1239 arasını tek 'özerklik' dönemi sayar (s.55) — TDV esas, çelişki beyan."
+   },
+   {
+    "f": "1236-09-04",
+    "t": "1242-07-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Sebteliler iki yıl sonra yeniden Muvahhidler’e bağlılıklarını bildirdiler",
+    "ic_not": "Sebte iki yıl sonra yeniden Muvahhidler'e bağlılık bildirir (≈ 634 H ilk günü); t: Vali İbn Halâs el-Belensî'nin Hafsî Ebû Zekeriyyâ'ya itaati ile Hafsî nüfuz alanı (640 H = 1242-07-01..1243-06-21)."
+   },
+   {
+    "f": "1242-07-01",
+    "t": "1273-01-01",
+    "d": "sebte-azafi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "yönetime el koydu ve yaklaşık otuz yıl bağımsız olarak hüküm sürdü",
+    "kunye_yok": true,
+    "ic_not": "Hafsî nüfuzu NOMİNAL (vali itaat bildirir); Hafsî valisinin kötü idaresi üzerine fakih Ebü'l-Kāsım el-Azefî ve donanma kumandanı er-Rendâhî halkın desteğiyle yönetime el koyar, 'yaklaşık otuz yıl bağımsız' hüküm sürer. Künye YOK; önerilen id sebte-azafi (Azefî/Benî el-Azefî şehir-devleti, ≈ 1243–1273; ömür TDV'den, başlangıç 'yaklaşık'). f: Azafî başlangıcı TDV'de TARİHSİZ — Hafsî nüfuz yılı 640/1242-43 'en geç' alındı (beyanlı yaklaşıklık). t: ATLAS DİKİŞİ — atlas Sebte 'merini' başlangıcı 1273-01-01; TDV 'Merînî Sultanı Ebû Yûsuf Ya‘kūb, 672’de (1273-74) Sebte’yi ele geçirdi' → 672 H = 1273-07-18..1274-07-07, yani atlas günü hicrî yıl başlamadan ÖNCE. Atlas düzeltme önerisi: 1273-07-18 (kesişimin ilk günü). Zincir atlas gününde kesildi (dikis_beyan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0534-01-01",
+    "gun": "533-534",
+    "k": "fetih",
+    "b": "Bizans (Belisarios), Vandal Savaşı'nın ardından Ioannes'i 'Septon' kalesini tutmaya yollar; Sebte Bizans'a geçer.",
+    "kaynak": "Prokopios, Savaşlar (Hyper ton polemon) 4.5.6, Perseus tlg4029.tlg001.perseus-grc2 (Haury), https://github.com/PerseusDL/canonical-greekLit ; V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.49",
+    "tanik": "ocupam Ceuta em 533 ou 534"
+   },
+   {
+    "t": "0711-01-01",
+    "gun": "92 H / 711",
+    "k": "antlasma",
+    "b": "Mûsâ b. Nusayr–Julianos ittifakı; Târık Sebte limanından İspanya'ya geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Târık b. Ziyâd, İspanya’ya geçmek için Sebte Limanı’nı kullandı (92/711)"
+   },
+   {
+    "t": "0740-01-01",
+    "gun": "122 H / 740",
+    "k": "isyan",
+    "b": "Meysere el-Medgarî'nin Sufrî Hâricî isyanı Sebte'yi de kapsar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Sufriyye Hâricîleri, Sebte’yi de hâkimiyetleri altına alıp uzun süre ellerinde tuttular"
+   },
+   {
+    "t": "0830-01-01",
+    "gun": "yaklaşık 830",
+    "k": "kurulus",
+    "b": "Yıkılıp terk edilen şehir yeniden kurulur (Medyekesa); Banu Isam İdrîsîler'e vasal.",
+    "kaynak": "V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.51",
+    "tanik": "Os Berberes destruíram a cidade que permaneceu mais ou menos abandonada até cerca de 830"
+   },
+   {
+    "t": "0931-03-01",
+    "gun": "Mart 931 (319 H)",
+    "k": "fetih",
+    "b": "Endülüs Emevî donanması/Algeciras valisi Umaya b. İshak Sebte'yi III. Abdurrahman adına alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453, s.284",
+    "tanik": "Endülüs Emevî donanması Sebte’yi ele geçirdi (319/931)"
+   },
+   {
+    "t": "1016-06-10",
+    "gun": "Muharrem 407 (Haziran 1016)",
+    "k": "diger",
+    "b": "Sebte valisi Ali b. Hammûd Endülüs'e geçip Halife Süleyman'ı öldürür, Hammûdîler'i kurar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Hammûdîler’i kurmasına kadar sürdü (Muharrem 407 / Haziran 1016)"
+   },
+   {
+    "t": "1061-01-26",
+    "gun": "453 H / 1061",
+    "k": "diger",
+    "b": "Sükût el-Bergavâtî Hammûdîler'i tasfiye edip Sebte'yi alır; Abbâsîler'e bağlılık bildirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Sükût el-Bergavâtî, Abbâsîler’e bağlılığını bildirdi (453/1061)"
+   },
+   {
+    "t": "1084-05-10",
+    "gun": "477 H / 1084",
+    "k": "fetih",
+    "b": "Murâbıtlar Sebte'yi alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte ; V. G. Mantas, 'Dos feitos de Hércules aos feitos lusitanos. Ceuta e o Estreito no mundo antigo e medieval', Actas do XIV Simpósio de História Marítima, Academia de Marinha, Lisboa 2016, https://hdl.handle.net/10316/45573 s.54",
+    "tanik": "Şehir 477’de (1084) Murâbıtlar’ın eline geçti."
+   },
+   {
+    "t": "1148-05-22",
+    "gun": "543 H / 1148",
+    "k": "fetih",
+    "b": "Abdülmü'min el-Kûmî Sebte'ye girer; şehir kalıcı olarak Muvahhidler'e geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Abdülmü’min’in 543 (1148) yılında Sebte’ye girmesiyle şehir kalıcı bir şekilde Muvahhidler’in hâkimiyetine geçti"
+   },
+   {
+    "t": "1232-01-01",
+    "gun": "1232",
+    "k": "kayip",
+    "b": "Muvahhid hâkimiyetinin çöküşü: Sebte Muhammed b. Yûsuf b. Hûd'un egemenliğine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Muhammed b. Yûsuf b. Hûd’un egemenliğinde kaldı"
+   },
+   {
+    "t": "1234-09-26",
+    "gun": "632 H / 1234-35",
+    "k": "isyan",
+    "b": "Sebteliler Yâneştî'yi başa geçirip bağımsızlık ilan eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Sebteliler saygın bir tüccar olan Yâneştî’yi başlarına geçirerek bağımsızlıklarını ilân ettiler"
+   },
+   {
+    "t": "1236-09-04",
+    "gun": "yaklaşık 634 H / 1236",
+    "k": "antlasma",
+    "b": "Sebte yeniden Muvahhidler'e bağlılık bildirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Sebteliler iki yıl sonra yeniden Muvahhidler’e bağlılıklarını bildirdiler"
+   },
+   {
+    "t": "1242-07-01",
+    "gun": "640 H / 1242-43",
+    "k": "diger",
+    "b": "Vali İbn Halâs Hafsî Ebû Zekeriyyâ'ya itaat bildirir; sonra halk yönetimi el-Azefî'ye verir (yaklaşık otuz yıllık bağımsızlık).",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Sebte bu defa Hafsîler’in nüfuz alanına girdi (640/1242-43)"
+   },
+   {
+    "t": "1273-07-18",
+    "gun": "672 H / 1273-74",
+    "k": "fetih",
+    "b": "Merînî Sultanı Ebû Yûsuf Ya‘kūb Tanca'dan sonra el-Azefî'nin Sebte'sini alır (atlas dikişi: atlas 1273-01-01 bu günden ÖNCE).",
+    "kaynak": "TDV İslâm Ansiklopedisi, SEBTE (İsmail Ceran, 2009), https://islamansiklopedisi.org.tr/sebte",
+    "tanik": "Merînî Sultanı Ebû Yûsuf Ya‘kūb, 672’de (1273-74) Sebte’yi ele geçirdi"
+   }
+  ],
+  "ic_not": "Sebte (Ceuta) 15 şehirlik Fas/Cezayir paketinin en zengin kaynaklı kaydı: TDV Sebte (Ceran) + Mantas (2016, Coimbra/Academia de Marinha) + Prokopios (Perseus) + Zozaya (Aldaba 30). Yazılı ilk tanık 534 (Bizans); Fenike iskânı ark'ta (MÖ 7.-6. yy). 'Abyla'/'Septem Fratres' DAĞ adlarıdır; Abila≠Sebte yerleşimi. Modern Sebte noktası Septem Fratres'in kazı alanındadır (Pleiades 275703: 35.888, -5.317; atlas 35.889, -5.318 → <1 km). Çelişkiler: Mantas↔TDV (Hammûdî/Bergavâta 1009-1084 ↔ TDV sırası; Vizigot ↔ Bizans valisi; Sufrî devri ↔ Berberî yıkımı; 1232-1239 özerklik ↔ TDV'nin ardışık Hûd/Yâneştî/Muvahhid/Azefî sırası); hepsinde TDV esas alındı. Atlas düzeltmeleri: (1) Sebte 'merini' başlangıcı 1273-01-01 → 1273-07-18 (672 H başı); (2) atlas notu '1232 sonrası künyesiz yerel yönetim ⇒ kopuk' bu kayıtla kaynaklı dilimlere bölünebilir (ibn-hud-endulus, sebte-yanesti, sebte-azafi künye önerileri). Künye önerileri (ömür kaynaklı DEĞİL, yalnız TDV aralıkları): hammudiler (1016–1061 Sebte kolu), bergavati-sebte (1061–1084), ibn-hud-endulus (1232–1234), sebte-yanesti (1234–1236), sebte-azafi (1242–1273).",
+  "dikis_beyan": "Atlas Sebte 'merini' 1273-01-01 (yıl başı) ile TDV 672 H = 1273-07-18..1274-07-07 çelişir (atlas günü hicrî yıldan önce). TDV'de Merînî devir günü yok; hicrî kesişimin ilk günü 1273-07-18. Zincir atlas gününde kesildi, olay 1273-07-18 yazıldı."
+ },
+ {
   "id": "chalkis-egriboz-yunanistan",
   "ad": "Eğriboz (Khalkis)",
   "atlas_ad": "Eğriboz",
@@ -7772,6 +8283,107 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Danzhou/Zhonghe (atlas_ad 'Danzhou (Zhonghe)', kat1900 3 [liste dışı, VARSAYIM — Brif], atlas ilk gün 1281-01-01 yuan-hanedani, atlas zinciri Qiongzhou ankrajlı). ① İLK ANILIŞ ve YER: yeri kesin ilk tanık Tang Danzhou kuruluşu (Jiu Tang Shu 41, Wude 5 = 622; merkez Yilun); modern Zhonghe ile Yilun eşitlemesi Qing ikincil kaynağına (Dushi fangyu jiyao) ve atlas verisine dayanır, ölçülmedi. Han Dan'er komutanlığı (MÖ 110; Hanshu 6, 28下) yeri tek Tang kaynağına (Jiu Tang Shu 41: '義倫 本漢儋耳郡城') dayandığından başlangıç sayılmadı; AYRI KAYIT ÖNERİSİ: 'daner-han-cin' (Han Dan'er komutanlığı/ilçesi; Hanshu 28下: Yuanfeng 1 '略以為' komutanlık; Hanshu 6 fetihten sonra sayar [Yuanding 6/Yuanfeng 1 yıl çelişkisi: Yuanhe junxian tuzhi 34 '元鼎五年'… Hanshu 28下 '元封元年' — hiçbiri bu kayda başlangıç yapılmadı]; yer: Jiu Tang Shu 41 Yilun diyor, başka kaynak okunmadı, KESİN DEĞİL). ② ZİNCİR: Tang 622 → Wu Zhou → Tang → Liang nominal 907 → Nan Han 917 (dolaylı tanık, beyanlı) → Song 971-03-22 → Yuan 1278 (yıl). Atlas 1281-01-01 yuan-hanedani ile dikiş TAMAM (aynı sahip). Danzhou'ya özgü ELE GEÇİRME günü HİÇBİR geçişte bulunamadı: yalnız ulusal/bölgesel günler (Nan Han 917, Song 971, Yuan 1278 yıl). ③ KÜNYE ÖNERİLERİ (hayalet uyarıları bunlarla açıklanır; ulusal geçiş günü ile künye yıl sınırı arasındaki fark, GENİŞLET): wu-zhou.t → 0705-03-03; tang.t → 0907-06-01; guney-han-10krallik.t → 0971-03-22. ④ OKUNMAYAN: Hainan yerel gazeteleri (Qiongtai zhi, Qiongzhou fuzhi); Su Shi sürgünü (Song Shi 338, 1097) kronoloji için; Feng-Xian ailesi dönemi (Sui sonu – Tang başı Hainan); arkeolojik rapor aranmadı. Kaynak: zh.wikisource birincil Çince metin."
+ },
+ {
+  "id": "darulbeyza-ma",
+  "ad": "Dârülbeyzâ (Anfa)",
+  "atlas_ad": "Dârülbeyzâ (Anfa)",
+  "lat": 33.573,
+  "lon": -7.59,
+  "kat1900": 3,
+  "adlar": [
+   "Anfa / Enfâ (Arapça-Berberî)",
+   "Anafe / Casa Branca (Portekizce)",
+   "Dârülbeyzâ",
+   "Casablanca"
+  ],
+  "ilk": {
+   "t": "1154-01-01",
+   "gun": "Ocak 1154 (548 H)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC, Fr. çeviri s.84 ; Dozy–de Goeje giriş: eseri 'dans les derniers jours du mois de chauwâl, l'an 548 de l'hégire (mi-janvier ...)' bitirir (OCR'da miladî yıl bozuk: '1184'/'lltii'; 548 H Şevval sonu = 1154-01-17/18 tablo takvimi, Jülyen) ; TDV İslâm Ansiklopedisi, DÂRÜLBEYZÂ, https://islamansiklopedisi.org.tr/darulbeyza",
+   "tanik": "Anfà est un port également visité par les vaisseaux marchands",
+   "ic_not": "İLK ANILIŞ = Enfâ (Anfa), el-İdrîsî'nin eseri (Şevval 548 sonu ≈ Ocak 1154) 'Marsâ Anfâ' ... 'Anfà est un port également visité par les vaisseaux marchands' (Fr. çev. s.84). TDV Dârülbeyzâ (Harekât): 'Sadece coğrafyacı İdrîsî (ö. 560/1165), buranın ticaret gemilerinin uğradığı bir liman olarak adından bahsetmektedir' ve Bekrî'de (1068) adına rastlanmadığını belirtir. TDV'nin VIII. yy 'Bergavâta ile ortaya çıktığı SANILIR' ve Murâbıt 1060 'eline geçtiği ve tahrip edildiği' ifadeleri ÇIKARIM/varsayımdır ('sanıldığı', 'kabul edilir') → başlangıç yapılmadı. Leo Africanus: 'built by the Romans' (Pory 1600) — kaynaksız, Marmol/Leo'nun Roma atfı için TDV 'somut belgeler bulunamamıştır'. İbn Haldun II (s.72): Murâbıtlar 450 H'de 'les Berghouata, peuple qui habitait Anfa, le Temsna et le littoral' ile savaşır — 11. yy bağlamında Anfa'nın Bergavâta ülkesinde olduğunu anar ama olay Anfa'ya özgü değil; ilk yeri-kesin tanık olarak İdrîsî alındı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1154-01-01",
+    "t": "1262-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "ay",
+    "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC ; TDV DÂRÜLBEYZÂ",
+    "tanik": "buranın ticaret gemilerinin uğradığı bir liman olarak adından bahsetmektedir",
+    "ic_not": "TDV: 'Muvahhidler döneminde de (1130-1269) şehrin ... önemli bir varlık gösteremediği ...; sadece coğrafyacı İdrîsî ... liman olarak adından bahsetmektedir' → Muvahhid dönemi tanığı İdrîsî 1154. Muvahhidlerin Tâmesnâ'yı ne zaman aldığı TDV'de yok (Vikipedi 'Bergavâta 1149'a dek ortadan kaldırıldı' — AÇIK akademik kaynakta doğrulanamadı). f 'en geç tanıktan' = 1154 (beyanlı yaklaşıklık). t: Merînî Tâmesnâ'yı katışı 660/1262."
+   },
+   {
+    "f": "1262-01-01",
+    "t": "1281-01-01",
+    "d": "merini",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler ; TDV DÂRÜLBEYZÂ",
+    "tanik": "Enfâ’yı hareketli bir askerî liman haline getirenler Merînîler’dir (1196-1465)",
+    "ic_not": "TDV Merînîler: 660/1262 Tâmesnâ katışı; TDV Dârülbeyzâ: 'Enfâ’yı hareketli bir askerî liman haline getirenler Merînîler’dir (1196-1465)', XIII. yy ortasında Zenâte kabileleriyle iskân edilir, vali ve kadı yönetir; Ya‘kūb el-Mansûr'un Endülüs geçişinde (1278) 'müstahkem deniz üssü' hâline gelmiştir. Atlas 'merini' 1281-01-01 → 1262-01-01 önerisi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1154-01-01",
+    "gun": "Ocak 1154 (548 H)",
+    "k": "diger",
+    "b": "İlk anılış: el-İdrîsî Anfa'yı ticaret gemilerinin uğradığı liman olarak anar.",
+    "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC",
+    "tanik": "Anfà est un port également visité par les vaisseaux marchands"
+   },
+   {
+    "t": "1262-01-01",
+    "gun": "660 H / 1262",
+    "k": "fetih",
+    "b": "Merînî Ebû Yûsuf Tâmesnâ ve Rif'i topraklarına katar (Enfâ Tâmesnâ'dadır).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Tâmesnâ ve Rif’i topraklarına katıp hâkimiyetini Vâdîümmürrebî’ye kadar genişletti"
+   }
+  ],
+  "ic_not": "Dârülbeyzâ (Anfa/Casablanca): ilk yazılı tanık el-İdrîsî 1154 (TDV de aynı tanığı verir; ikinci bağımsız tanık yok → çift teyit YOK). TDV: yer adı Casa Branca ('beyaz ev') Portekizlilerce XV. yy'da yıkılan Enfâ'nın harabelerinde 1515'ten sonra yeniden iskânla doğdu (1468/69 yıkım, 1515 iskân). Atlas: Dârülbeyzâ 'merini' 1281 → 1262 önerisi (Tâmesnâ katışı, TDV). AÇILAMAYAN: EI² 'Dār al-Bayḍāʾ', Encyclopédie berbère, Pleiades (Anfa antik kaydı yok)."
+ },
+ {
+  "id": "debdu-ma",
+  "ad": "Debdû",
+  "atlas_ad": "Debdû",
+  "lat": 34.098,
+  "lon": -3.032,
+  "kat1900": 3,
+  "adlar": [
+   "Debdou / Debdû",
+   "Dubdu (Leo Africanus)"
+  ],
+  "ilk": {
+   "t": "1364-09-28",
+   "gun": "766 H / 1364",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) III, Alger 1856 (archive.org bub_gb_T9IOAAAAQAAJ), s.448-449 (Abd el-Ouadites, Abou-Hammou II)",
+   "tanik": "un château qu'il s'était fait construire sur la montagne de Debdou",
+   "ic_not": "İLK ANILIŞ (yeri-kesin, tarihli): İbn Haldun (de Slane III s.449): 'Au commencement de l'an 766 (oct. 1364)' Abdülvâdî Sultanı Ebû Hammû II Debdû ve Guercîf'e sefer eder; Ibn-Zegdân (Beni-Ali, Ungacen) Debdû dağında kendi inşa ettirdiği kaleye kapanır. 766 H = 1364-09-28..1365-09-18 → ilk gün. Daha eski (tarihsiz) bağlam: İbn Haldun, Merînîlerin göçebe dönemlerinde yurdu 'de Tîgourarîn à Debdou' (≈XII. yy öncesi) diye tarif eder — yerleşimin varlığını değil bölge adını gösterir, tarih yok → başlangıç yapılmadı. Leo Africanus (1526): Debdû'yu Merînî sülalesinin soyundan yerel beyler yönetir (Mose Ibnu Chamu...), Beni Guertaggen — Vikipedi: Ait Urtajjen yarı bağımsız devleti 1430-1563 (doğrulanamadı). Vikipedi: 11. yy'da Sicilya'dan gelen Yahudi Cohen-Scali ailesi — kaynaksız. TDV'de madde YOK; Encyclopédie berbère 'Debdou' (1995) ve EI² 'Debdū' OpenEdition Anubis/paywall nedeniyle AÇILAMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1364-09-28",
+    "gun": "766 H / 1364",
+    "k": "diger",
+    "b": "İlk anılış: Abdülvâdî Sultanı Ebû Hammû II Debdû dağındaki Beni-Ali beyi Ibn-Zegdân'a karşı sefer eder.",
+    "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) III, Alger 1856 (archive.org bub_gb_T9IOAAAAQAAJ) s.449",
+    "tanik": "Au commencement de l'an 766 (oct. 1364)"
+   }
+  ],
+  "ic_not": "Debdû: ilk tanık atlas başlangıcından (1281) SONRA → zincir boş. ATLAS: Debdû 'merini' 1281-1549 döneminin İbn Haldun'daki karşılığı: Debdû dağı Beni-Ali/Ibn-Zegdân (Ungacen) beyliğindedir, Abdülvâdî Ebû Hammû II'ye karşı; Merînî egemenliğini gösteren tanık bu oturumda bulunamadı → atlasın 1281-1364 'merini' iddiası KAYNAKSIZ görünüyor (dikiş borcu)."
  },
  {
   "id": "debrecen-hu",
@@ -15436,6 +16048,71 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "KURULUŞ: bulunamadı. Çift teyit: yok (Vikipedi 'Veria' TDV'yi bağımsız doğrulamıyor). Akropolites/Skylitzes/ODB 'Beroea' birincil-ikincil metinleri bu oturumda açılamadı: Crossref 'Beroea' DOI'leri (Brill Neue Pauly 10.1163/1574-9347_bnp_e215700) bulundu ama içerik açılmadı. Livy 44.45 ve 45.29 Perseus URL'leri 'document not found' verdi; Livy atfı Smith üzerinden. Atlas düzeltme önerisi: Karaferye isg 1912-10-29 maddesi dışında yok."
  },
  {
+  "id": "kasrulkebir-ma",
+  "ad": "Kasrülkebîr",
+  "atlas_ad": "Kasrülkebîr",
+  "lat": 35.001,
+  "lon": -5.906,
+  "kat1900": 3,
+  "adlar": [
+   "Caçr Abdi'l-Carîm / Qasr Abd al-Karîm (el-İdrîsî)",
+   "Ksar el-Kebir / Kasrülkebîr",
+   "Alcázar Quivir (İspanyolca)",
+   "Alcácer-Quibir (Portekizce)"
+  ],
+  "ilk": {
+   "t": "1154-01-01",
+   "gun": "Ocak 1154 (548 H)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC, Fr. çeviri s.201-203 (Caçr Abdi'l-Carîm; dipnot: 'Sur nos cartes elle est indiquée par le nom de Kasr el-Kebir') ; Dozy–de Goeje giriş: eseri 'dans les derniers jours du mois de chauwâl, l'an 548 de l'hégire (mi-janvier ...)' bitirir (OCR'da miladî yıl bozuk: '1184'/'lltii'; 548 H Şevval sonu = 1154-01-17/18 tablo takvimi, Jülyen)",
+   "tanik": "petite ville située dans le voisinage de la mer",
+   "ic_not": "İLK ANILIŞ: el-İdrîsî (Ocak 1154) 'Caçr Abdi'l-Carîm' (Abdülkerîm Sarayı): Lukkos (Loukkos) kıyısında küçük şehir, Tanca'ya 2 gün; yayımcıların dipnotu bunu 'Kasr el-Kebîr' ile eşler. İkinci (daha geç) tanık: TDV EBÛ YÛSUF el-MANSÛR: 'Merakeş’te veya Kasrülkebîr’de doğdu' (4 Rebîülevvel 554 = 26 Mart 1159). ANTİK: Itinerarium Antonini'nin Tingis–Volubilis yolundaki 'Oppidum Novum' Alcazarquivir ile eşleştirilir ('Oppidum Novum (Alcazarquivir)', Zephyrus 1950 — Tarradell okulu) ama Itinerarium TARİHSİZ (≈3. yy) ve Plinius 5.20'deki 'Oppidum Novum' Mauretania Caesariensis'tedir (Claudius gazi kolonisi, Cezayir) — iki ayrı yer karışmamalı → antik başlangıç YAZILMADI. TDV Kasrülkebîr maddesi YOK (arama: yalnız anılış)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1154-01-01",
+    "t": "1255-02-10",
+    "d": "muvahhidler",
+    "kesinlik": "ay",
+    "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC ; TDV EBÛ YÛSUF el-MANSÛR, https://islamansiklopedisi.org.tr/ebu-yusuf-el-mansur",
+    "tanik": "Merakeş’te veya Kasrülkebîr’de doğdu",
+    "ic_not": "f 'en geç tanıktan': Muvahhid Mağrib'i (Sebte 543/1148 — TDV Sebte); Ebû Yûsuf el-Mansûr'un 1159 doğumu (Merakeş ya da Kasr) Muvahhid hânedanı çevresinde. Kasr'a özgü devir tanığı YOK (beyanlı yaklaşıklık). t: TDV Merînîler 653 (1255): Muvahhid ordusu Fas yakınında bozulunca 'Muvahhidler ülkelerinin kuzey yarısında Merînî hâkimiyetini tanıdılar'; 653 H = 1255-02-10..1256-01-30 ilk gün. Kasr kuzey yarıdadır; bölgesel tanık."
+   },
+   {
+    "f": "1255-02-10",
+    "t": "1281-01-01",
+    "d": "merini",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Muvahhidler ülkelerinin kuzey yarısında Merînî hâkimiyetini tanıdılar",
+    "ic_not": "Kuzey Mağrib Merînî hâkimiyeti (653/1255, bölgesel). Atlas 'merini' 1281-01-01 → 1255-02-10 önerisi. Aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1154-01-01",
+    "gun": "Ocak 1154 (548 H)",
+    "k": "diger",
+    "b": "İlk anılış: el-İdrîsî Lukkos kıyısındaki Caçr Abdi'l-Carîm'i (Kasr el-Kebîr) küçük şehir olarak tarif eder.",
+    "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC",
+    "tanik": "petite ville située dans le voisinage de la mer"
+   },
+   {
+    "t": "1255-02-10",
+    "gun": "653 H / 1255",
+    "k": "fetih",
+    "b": "Merînî Ebû Yahyâ Muvahhid ordusunu Fas yakınında yener; kuzey yarıda Merînî hâkimiyeti tanınır (bölgesel).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Muvahhidler ülkelerinin kuzey yarısında Merînî hâkimiyetini tanıdılar"
+   }
+  ],
+  "ic_not": "Kasrülkebîr (Ksar el-Kebir/Alcazarquivir): ilk yazılı tanık el-İdrîsî 1154 (Caçr Abdi'l-Carîm; yayımcı eşlemesi). 'Kasrüssagīr' (Ksar es-Seghir, Kasrımasmûde) BAŞKA yerdir (TDV: Portekiz 1458/1465). Atlas 'merini' 1281 → 1255-02-10 önerisi. AÇILAMAYAN: EI² 'al-Ḳaṣr al-Kabīr', Encyclopédie berbère, Pleiades ('Oppidum Novum' Tingitana kaydı bulunamadı)."
+ },
+ {
   "id": "kassel-de",
   "ad": "Kassel",
   "atlas_ad": "Kassel",
@@ -18940,6 +19617,164 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Málaga: kuruluş TDV'ye göre Fenike MÖ X. yy (Treccani/Pleiades Kartaca kolonisi der → çelişki beyan edildi). Bizans dönemi (tarihsiz) 411-600 BOŞLUK. Hammûdîler künyesi YOK (kunye_yok, önerilen id 'hammudiler', 1016-1058). TDV içi çelişki: Hammûdîler maddesi 'Abbâdîler zaptetti', Mâleka maddesi Zîrî Bâdîs/Temîm — Mâleka maddesi esas. Atlas 1281 'granada' ile uyumlu; atlas 1487-08-18 fethi TDV (27 Şâban 892 = 18 Ağustos 1487) ile uyumlu. Çift teyit: Roma 205 (yalnız Treccani); Hicrî 449 (TDV Mâleka ↔ TDV Hammûdîler, iki madde)."
+ },
+ {
+  "id": "melile-ma",
+  "ad": "Melîle (Melilla)",
+  "atlas_ad": "Melîle (Melilla)",
+  "lat": 35.292,
+  "lon": -2.938,
+  "kat1900": 3,
+  "adlar": [
+   "Rusaddir / Rhysaddir (Punic ršʾdr; Plinius)",
+   "Akros (Ps-Skylax; eşleşme tartışmalı)",
+   "Metagonion (Hekataios; eşleşme tartışmalı)",
+   "Malila / Mlila (Arapça)",
+   "Melilla"
+  ],
+  "ilk": {
+   "t": "0079-01-01",
+   "gun": "79",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Plinius, Naturalis Historia 5.17-18 (Mayhoff), Perseus phi0978.phi001.perseus-lat2, https://github.com/PerseusDL/canonical-latinLit ; Livius.org (J. Lendering), 'Pliny the Elder (23-79)', https://www.livius.org/articles/person/pliny-the-elder/",
+   "tanik": "Rhysaddir oppidum et portus",
+   "ic_not": "İLK ANILIŞ (yerleşim + liman, yeri-kesin): Plinius 5.18 'Tingitana eyaleti ... Rhysaddir oppidum et portus'. Plinius 79'da ölür (Livius 'Pliny the Elder (23-79)') → eser en geç bu yıla kadar yazılmıştır: GÜVENLİ UÇ 79 (ön söz Titus'a 'sexiesque consul' diye seslenir; tam yayın yılı bu oturumda kaynakla bağlanmadı). Plinius 5.9 aynı adı Agrippa aktarımı kıyı listesinde 'portum Rhysaddir' diye geçirir (tarihsiz). ARKEOLOJİK VE EDEBÎ DAHA ESKİ İZLER ('ark'): López Pardo (2015): Plaza de Armas'ta MÖ 6. yy son çeyrek–5. yy ilk yarısı malzeme; Hekataios'un 'Metagonion' polis'i (MÖ 6. yy 2. yarı) ve Ps-Skylax'ın 'Akros'u Rusaddir ile eşleşme 'todo induce' düzeyinde (kesin değil) → yazılı ilk tanık olarak alınmadı. Yeri-kesin olmayan eşleşme kuralı (VERI-YAPISI) gereği başlangıç sayılmadı. Antik yer ≈ modern nokta: Rusaddir = Melilla la Vieja (López Pardo; ETF 2021) → <1 km, ayrı kayıt gerekmez. Cap des Trois Fourches (Pleiades 285511) burun adıdır (Rusaddi Pr.), yerleşim değil."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0449-01-01",
+   "gun": "MÖ 5. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "F. López Pardo, 'La fundación de Rusaddir y la época púnica', Gerión 33 (2015, Nº Esp.), 135-156, https://doi.org/10.5209/rev_GERI.2015.49055",
+   "tanik": "fechables entre el último cuarto del s. VI a.C. y primera mitad del V a.C.",
+   "ic_not": "López Pardo: Plaza de Armas malzemesi 'último cuarto del s. VI a.C. – primera mitad del V a.C.' → aralığın SON ucu MÖ 450 (-0449). Yazar ayrıca 'Si el milesio Hecateo no nos confunde, Rusaddir es una localidad de su tiempo, la segunda mitad del s. VI a.C.' der — yorumdur. Eski görüş (R. Fernández de Castro 1945): MÖ 11.-10. yy kuruluş, kanıtsız ('inevitable'). Kuruluş/ilk iskân için kesin yazılı tanık bulunamadı."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0079-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Plinius, Naturalis Historia 5.17-18 (Mayhoff), Perseus phi0978.phi001.perseus-lat2, https://github.com/PerseusDL/canonical-latinLit",
+    "tanik": "Tingitanae provinciae longitude CLXX est",
+    "ic_not": "Mauretania Tingitana eyaleti içinde (Plinius 5.17-18 sırası: Tingitana → 'Rhysaddir oppidum et portus'). Krallık→Roma ilhakı 44 (Livius 'Claudius': '44 ... annexation of Mauretania'; '42 Mauretania organized') — Rusaddir bu tarihten sonra Roma'dadır; dönem 79'da (güvenli uç) başlatıldı. Roma kolonisi (MS 46) iddiası yalnız Vikipedi'de, AÇIK akademik kaynakla doğrulanamadı → yazılmadı. t: Theodosius I'in ölümü ve imparatorluğun bölünmesi 17 Ocak 395 (künye geçişi)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0926-03-19",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "'Rusaddir-Akros: una valoración del antiguo enclave de Melilla', Espacio, Tiempo y Forma, Serie II, 34 (2021), 53-88, https://doi.org/10.5944/etfii.34.2021.30172 ; J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453",
+    "tanik": "entraría a formar parte del reino vándalo norafricano",
+    "ic_not": "Sahibi tarihli kaynakta bulunamadı. BOŞLUK DOLDURMA MERDİVENİ: ① TDV: Melîle maddesi yok; Fas/Mağrib/Murâbıtlar/Muvahhidler maddeleri Melîle'yi yalnız İspanyol işgali bağlamında anar. ② ETF 34 (2021): Rusaddir, 5. yy sonunda Vandal krallığına girer ve Justinianus fetihleriyle Doğu Roma'ya döner (Thronus Alexandrinus'ta piskoposluk merkezi olarak son anış, 7. yy başı) — YILLAR YOK; Zozaya: 'No hay noticias concretas entre los siglos VIII y el IX', Viking baskını 859 (Mir 1965 aktarımı; Alfonso III kroniği Melilla'yı değil 'Nachor' Nakûr'u adıyla anar). ③ Komşu Sebte: Bizans 534 (Mantas/Prokopios) ama Melîle'nin Sebte ile kader birliği kaynakta yok. Vikipedi 'Rusaddir' başlığı (Vandal ≈430, Belisarius ≈533, Vizigot Suintila 614, Musa ≈700, Berberî iskân ≈890) AÇIK akademik kaynakta doğrulanamadı (J. Conant, Staying Roman, 2012 kitabına ulaşılamadı) → YAZILMADI. ④ Yerleşim bu devirde VAR (Thronus Alexandrinus, ETF). ⑤ Abi merkez bağlanmadı (kaynak yok)."
+   },
+   {
+    "f": "0926-03-19",
+    "t": "0948-01-01",
+    "d": "endulus-emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ b. EBÜ’l-ÂFİYE, https://islamansiklopedisi.org.tr/musa-b-ebul-afiye ; TDV İslâm Ansiklopedisi, ABDURRAHMAN III, https://islamansiklopedisi.org.tr/abdurrahman-iii ; J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453",
+    "tanik": "314’te (926) Tanca ve Melîle’yi ele geçiren",
+    "ic_not": "f: III. Abdurrahman Melîle'yi alır. TDV KENDİ İÇİNDE ÇELİŞİR: Mûsâ b. Ebü'l-Âfiye maddesi '314’te (926)', Abdurrahman III maddesi '927’de'; Bekrî (aktaran Zozaya s.294): 'esta plaza fue conquistada el año 314 (926-927 d. C.)' → üçü de 314 H (= 926-03-19..927-03-08) ile uyumlu; 314 ∩ 926 kesişiminin ilk günü alındı (çift/üçlü teyit: yıl). Zozaya ayrıca 936'da filonun Ceuta'dan Melilla ve Nakûr'a gidip 'conquistándolas' dediğini söyler (s.286) — aynı sahip, ikinci kez pekiştirme. t: 'Posiblemente antes del 948 ... Banu Urtedi' (hedge) — 'f en geç tanıktan' kuralı tersten: Emevî hâkimiyeti en geç 948'de biter (beyanlı yaklaşıklık)."
+   },
+   {
+    "f": "0948-01-01",
+    "t": "1081-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453 ; Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854, s.75-76 (archive.org bub_gb_3dYOAAAAQAAJ)",
+    "tanik": "los habitantes, que son todos de los Urtada",
+    "ic_not": "Sahibi tarihli kaynakta bulunamadı: yerel Berberî Banu Urtadi/Urtedi (Bekrî ≈1068: 'los habitantes, que son todos de los Urtada'), İbn Havkal (≈950-970): 'Banu Batuya' eline düştü; İbn Hazm: Melilla'da kendini halife ilan eden Abdülazîz b. Ahmed (tarihsiz, fitne dönemi); 1067-1081 Hammûdî etkisiyle Muhammed b. İdrîs 'Melilla kralı' (Zozaya s.291). MERDİVEN: ① TDV yok ② Zozaya (Aldaba 30) bu parçalı tanıkları verir, hiçbiri sahip-dönem tarihi vermez ③ Ceuta (Hammûdî 1016–1061/Bergavâtî 1061–1084) komşu ama kader birliği kaynağı yok ④ yerleşim VAR ⑤ abi merkez yok. Künye önerisi olarak 'melilla-urtadi' düşünüldü, ama dönem sınırları tarihsiz olduğundan YAZILMADI."
+   },
+   {
+    "f": "1081-01-01",
+    "t": "1139-01-01",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854, s.75-76 (archive.org bub_gb_3dYOAAAAQAAJ) ; J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453",
+    "tanik": "Youçof pénétra dans le Rîf et occupa Guercîf, Melila et les autres villes",
+    "ic_not": "Murâbıtlar (Yûsuf b. Tâşfîn) Rif'i alıp Melîle'yi tutar, Nakûr'u yıkar: İbn Haldun 472 (1079-80)'den 'l'année suivante' → 473 H (= 1080-06-22..1081-06-11); Zozaya 1081; 473 H ∩ 1081 → 1081-01-01 (çift teyit: yıl). t: Abdülmü'min'in Rif'e ulaşışı 1139 (TDV, bölgesel). Zozaya 1142-sonrası Muvahhid–Murâbıt mücadelesini (al-Baydaq) anlatır; Melîle'nin 1139–1145 aralığında fiilen kimde olduğu bu kaynaklarda ayrışmaz (beyanlı yaklaşıklık)."
+   },
+   {
+    "f": "1139-01-01",
+    "t": "1262-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, ABDÜLMÜ’MİN el-KÛMÎ, https://islamansiklopedisi.org.tr/abdulmumin-el-kumi ; J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453 s.292",
+    "tanik": "hâkimiyetini Kuzey Fas’taki Rif bölgesine kadar genişletti (1139)",
+    "ic_not": "TDV: Abdülmü'min 'hâkimiyetini Kuzey Fas’taki Rif bölgesine kadar genişletti (1139)' — Melîle'ye ÖZGÜ değil, BÖLGESEL tanık (beyanlı yaklaşıklık). Zozaya (al-Baydaq): 1142 sonrası Abd el-Rahman b. Zaggu ordusuyla Melîle'yi kuşatıp yıkar; Melîle beyi Maksan b. el-Muizz'in kızını Halife Abdülmü'min'e verir; 1204'te surlar onarılır (Ibn Baskuwal). Zozaya 'A partir de 1206 ... el Rif queda en poder de los Banu Marin' der; TDV'ye göre Merînî Rif'i 660/1262'de katar → çelişki, TDV esas. t: Merînî Tâmesnâ ve Rif'i katışı."
+   },
+   {
+    "f": "1262-01-01",
+    "t": "1281-01-01",
+    "d": "merini",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Tâmesnâ ve Rif’i topraklarına katıp hâkimiyetini Vâdîümmürrebî’ye kadar genişletti",
+    "ic_not": "TDV: 660 (1262) — 660 H = 1261-11-26..1262-11-15 ∩ 1262 → ilk gün 1262-01-01. Ebû Yûsuf Ya‘kūb Tâmesnâ ve Rif'i katar. Atlas Melîle 'merini' başlangıcı 1281-01-01 → 1262-01-01 önerisi. Bitiş atlas başlangıcı (aynı sahip: merini)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0079-01-01",
+    "gun": "79",
+    "k": "diger",
+    "b": "İlk anılış: Plinius Tingitana kıyısında 'Rhysaddir oppidum et portus' der.",
+    "kaynak": "Plinius, Naturalis Historia 5.17-18 (Mayhoff), Perseus phi0978.phi001.perseus-lat2, https://github.com/PerseusDL/canonical-latinLit",
+    "tanik": "Rhysaddir oppidum et portus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk oğulları arasında bölünür); Rusaddir için ardıl sahip tarihli kaynakla bağlanamadığından BOŞLUK.",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0926-03-19",
+    "gun": "314 H / 926",
+    "k": "fetih",
+    "b": "Endülüs Emevî Halifesi III. Abdurrahman Melîle'yi alır (TDV iki madde: 926 ve 927; Bekrî: 314 H).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ b. EBÜ’l-ÂFİYE, https://islamansiklopedisi.org.tr/musa-b-ebul-afiye ; TDV İslâm Ansiklopedisi, ABDURRAHMAN III, https://islamansiklopedisi.org.tr/abdurrahman-iii ; J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453 s.294",
+    "tanik": "927’de Melîle’yi (Melilla) zapteden Abdurrahman, 931 yılında da Sebte’yi (Ceuta) ele geçirerek"
+   },
+   {
+    "t": "0948-01-01",
+    "gun": "en geç 948",
+    "k": "diger",
+    "b": "Emevî hâkimiyeti sona erer; Melîle yerel Berberî Banu Urtedi'nin eline geçer ('posiblemente antes del 948').",
+    "kaynak": "J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453 s.287",
+    "tanik": "Posiblemente antes del 948 es tomada por los beréberes Banu Urtedi"
+   },
+   {
+    "t": "1081-01-01",
+    "gun": "473 H / 1081",
+    "k": "fetih",
+    "b": "Murâbıtlar Rif'i alır, Melîle'yi tutar, Nakûr'u yıkar.",
+    "kaynak": "Ibn Khaldun, Histoire des Berbères (trad. de Slane) II, Alger 1854, s.75-76 (archive.org bub_gb_3dYOAAAAQAAJ) ; J. Zozaya, 'En torno al mundo islámico de Melilla', Aldaba 30 (1998), https://doi.org/10.5944/aldaba.30.1998.20453 s.291",
+    "tanik": "que toman Melilla y de manera definitiva destruyen Nakur en 1081"
+   },
+   {
+    "t": "1139-01-01",
+    "gun": "1139",
+    "k": "fetih",
+    "b": "Abdülmü'min'in Muvahhid hâkimiyeti Rif bölgesine ulaşır (bölgesel).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ABDÜLMÜ’MİN el-KÛMÎ, https://islamansiklopedisi.org.tr/abdulmumin-el-kumi",
+    "tanik": "hâkimiyetini Kuzey Fas’taki Rif bölgesine kadar genişletti (1139)"
+   },
+   {
+    "t": "1262-01-01",
+    "gun": "660 H / 1262",
+    "k": "fetih",
+    "b": "Merînî Ebû Yûsuf Ya‘kūb Tâmesnâ ve Rif'i topraklarına katar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Tâmesnâ ve Rif’i topraklarına katıp hâkimiyetini Vâdîümmürrebî’ye kadar genişletti"
+   }
+  ],
+  "ic_not": "Melîle: yazılı ilk tanık Plinius (79 güvenli uç); arkeolojik iz MÖ 5. yy (López Pardo 2015). Modern Melilla = antik Rusaddir (Melilla la Vieja) kabul edilmiştir (López Pardo; ETF 2021). Çift teyit: (a) 926 fethi — TDV (Mûsâ b. Ebü'l-Âfiye 314/926; Abdurrahman III 927) + Bekrî 314 H (Zozaya aktarımı) [yıl düzeyi]; (b) 1081 Murâbıt fethi — İbn Haldun 473 H + Zozaya [yıl]. AÇILAMAYAN: Conant (2012) ve Der Neue Pauly 'Rusaddir' (Brill 403/paywall); Encyclopaedia of Islam 'Malīla' (Brill). Açılan: Zozaya Aldaba 30 (UNED açık erişim), López Pardo Gerión 33, ETF 34 (UNED), TDV, Plinius (Perseus GitHub), İbn Haldun (archive.org, de Slane). ATLAS DÜZELTME ÖNERİLERİ: (1) Melîle 'merini' 1281-01-01 → 1262-01-01 (TDV: Rif 660/1262); (2) atlas başlangıcının öncesinde (1139-1262) Muvahhid dilimi eklenebilir. Yanlış eşleşme riskleri: 'Walila' (İdrîsî başkenti Volubilis) ≠ Malila (Zozaya s.280); Cap des Trois Fourches (Rusaddi Pr.) burun adı. Melîle zinciri 395-926 ve 948-1081 BOŞLUK; ikisi de ladder ile beyan edildi."
  },
  {
   "id": "metz-fr",
@@ -23124,6 +23959,57 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "ÖZET (hayalet uyarıları: künye t < gerçek geçiş günü ⇒ künye GENİŞLET; bkz. her dönemin ic_not'u): ilk yer-kesin yıllı tanık Shiji 14 (MÖ 841, ilk_anilis); kuruluş (Zhou Gong enfeodmanı) Shiji 33'te yılsız, kur null. ATLAS: ilk sahiplik 1281-01-01 yuan-hanedani — zincir ona bağlandı. KÜNYE ÖNERİLERİ (kunye_yok): lu-devleti-zhou (MÖ 1046?–249; yalnız Shiji 33/14 ile: MÖ 841–249 yazıldı), xu-yuanlang (617–623), qi-liu-yu (1130–1137/38); yazılmayan ama zincirde gerekebilecek adaylar (BOŞLUK içinde): xi-chu-bawang (MÖ 206–202), sonraki-zhao, onceki-yan, onceki-qin, guney-yan (4.–5. yy Shandong). GENİŞLET: kuzey-wei.t, dogu-wei.t, tang.t (0907-06-01), sonraki-liang t, sonraki-jin t, sonraki-han t, mogol-imp. t. BOŞLUKLAR (kaynakla sahip bağlanamadı): MÖ 209–202 (Xiang Yu/Lu Gong, Xi Chu), 23–44 (Wang Mang sonrası), 316–451 (Han-Zhao → Liu Song). 3 KM: atlas noktası Queli (Kong Tapınağı) — Hou Hanshu 2 yorumuyla eski Lu şehri içinde; ayrı 'lu-guocheng-cin' kaydı GEREKMEDİ (öneri yalnız ilçe merkezi kayması için: Shouqiu/Xianyuan ve Yuan'da '魯城東十里' birincil kaynakla doğrulanamadı). ÇİFT TEYİT: yok (952 Qufu ziyareti üç derlemede aynı gün; ortak kaynak olasılığı). BULUNAMADI: Qufu/Lu'ya özgü tanık — Qin fethi, Wang Mang sonrası, 4–5. yy sahipleri (Han-Zhao…Liu Song), Kuzey Qi→Zhou, Liang→Tang (Yanzhou teslimi), Song→Jin geri alım, Moğol sonrası Jin geri alımı, Yuan'da ilçe merkezi taşıması; Lu eski şehri ile atlas noktası mesafesi (koordinatla). AÇILAMAYAN: kfda.qfnu.edu.cn/__local/8/87/EF/255A5DF700B6BE4C1AF7A425B39_DBBE1E0F_28A988.pdf (403); Kuodizhi (括地志輯校/003) Queli cümlesi sayfada birebir doğrulanamadı."
  },
  {
+  "id": "rabat-ma",
+  "ad": "Rabat",
+  "atlas_ad": "Rabat",
+  "lat": 34.021,
+  "lon": -6.841,
+  "kat1900": 3,
+  "adlar": [
+   "Mehdiye (Muvahhid ordugâhı)",
+   "Ribâtülfeth",
+   "Rabat"
+  ],
+  "ilk": {
+   "t": "1150-04-30",
+   "gun": "545 H / 1150",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, RABAT (İbrahim Harekât, 2007), https://islamansiklopedisi.org.tr/rabat",
+   "tanik": "ribâtın bulunduğu yerde bir ordugâh kurulmasını emretti",
+   "ic_not": "KURULUŞ: TDV: 'vadinin sol yakasında bulunan şehir Muvahhidler tarafından kurulmuştur'; Abdülmü'min 545 (1150) yılında Endülüs fetihleri için ribâtın bulunduğu yerde ordugâh kurulmasını emreder (Mehdiye/Ribâtülfeth); Murâbıt döneminde Selâ'ya yönelik saldırılara karşı BURADA ribât vardı (tarihsiz) — kuruluş değil önceki iskân; 'asıl kuruluş' Ebû Yûsuf el-Mansûr (1184-1199, TDV). 545 H = 1150-04-30..1151-04-20 → kesişimin ilk günü 1150-04-30 (atlas 1150-01-01 yıl başı ile ÇAKIŞMAZ: atlas günü hicrî 545 başlamadan önce → atlas düzeltme önerisi 1150-04-30). ANTİK ÖNCÜL: Sala/Chellah (Pliny 5.5 'oppidum Sala, eiusdem nominis fluvio inpositum') nehrin sol yakasında, atlas noktasına ≈2,3 km (≤3 km) — TDV 'ırmağın her iki yakası Fenikeliler, Kartacalılar ve Romalılar’a ait eski yerleşim' der; Rabat'ın Chellah'ın devamı olup olmadığı (kesinti/süreklilik) kaynakta GÖSTERİLMEDİ → süreklilik de kesinti de yazılmadı; Emre kararı: Sala'yı aynı yerleşim sayarsa Plinius (77-79) ve Roma/Mauretania zinciri eklenebilir."
+  },
+  "kur": {
+   "t": "1150-04-30",
+   "gun": "545 H / 1150",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, RABAT (İbrahim Harekât, 2007), https://islamansiklopedisi.org.tr/rabat",
+   "tanik": "vadinin sol yakasında bulunan şehir Muvahhidler tarafından kurulmuştur"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1150-04-30",
+    "gun": "545 H / 1150",
+    "k": "kurulus",
+    "b": "Abdülmü'min el-Kûmî ribâtın bulunduğu yerde Endülüs seferleri için ordugâh (Mehdiye/Ribâtülfeth) kurulmasını emreder.",
+    "kaynak": "TDV RABAT",
+    "tanik": "ribâtın bulunduğu yerde bir ordugâh kurulmasını emretti"
+   },
+   {
+    "t": "1251-03-26",
+    "gun": "649 H / 1251",
+    "k": "fetih",
+    "b": "Merînî Ebû Yahyâ Ebû Bekir Rabat ve Selâ'yı ele geçirir (atlas dilimi; bilgi amaçlı).",
+    "kaynak": "TDV RABAT ; TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Rabat ve Selâ’yı ele geçirdi"
+   }
+  ],
+  "ic_not": "Rabat: ilk = kuruluş (TDV) 545/1150 → atlas 'muvahhidler' 1150-01-01 başlangıcıyla UYARI (ilk.t atlas başlangıcından sonra; zincir boş). Kaynak sayısı: TDV tek (EI² 'al-Ribāṭ' Brill 202/paywall; Britannica 403; UNESCO sayfası kullanılmadı). Çift teyit YOK. ATLAS: Rabat f 1150-01-01 → 1150-04-30. Sala/Chellah (antik) ayrı karar için işaretli."
+ },
+ {
   "id": "regensburg-de",
   "ad": "Regensburg",
   "atlas_ad": "Regensburg",
@@ -23337,6 +24223,69 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış 999: Treccani EI tek akademik tanık (yıl; 6 Ağustos 999 günü yalnız popüler/ikincil kaynaklarda, açılamadı) — çift teyit YOK; Treccani online 'Saarbrücken' sayfası çekilemedi (hata sayfası). Roma dönemi: EI 'Metz–Mainz yolu nehri geçti, Halberg eteğinde Roma kalesi' + 'cellula originaria è il castello a 2 km dal ponte romano' → Roma yeri ≤3 km ama ADI/TARİHİ yok, ark yazılmadı. Saar Havzası 1920-35 (atlas) bu dosyanın dışında. Atlas Saarbrücken 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "safi-ma",
+  "ad": "Safi (Asfi)",
+  "atlas_ad": "Safi (Asfi)",
+  "lat": 32.299,
+  "lon": -9.237,
+  "kat1900": 3,
+  "adlar": [
+   "Asafi / Asfi (Arapça)",
+   "Safi"
+  ],
+  "ilk": {
+   "t": "1154-01-01",
+   "gun": "Ocak 1154 (548 H)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC, Fr. çeviri s.84-85 ; Dozy–de Goeje giriş: eseri 'dans les derniers jours du mois de chauwâl, l'an 548 de l'hégire (mi-janvier ...)' bitirir (OCR'da miladî yıl bozuk: '1184'/'lltii'; 548 H Şevval sonu = 1154-01-17/18 tablo takvimi, Jülyen) ; Leo Africanus (Pory/Brown), Hakluyt Soc. 1896, II, not 93",
+   "tanik": "Asafi était anciennement la dernière station des navires",
+   "ic_not": "İLK ANILIŞ: el-İdrîsî (Ocak 1154) 'Asafi (Asfi, Safi)' limanı; Brown'un Leo notu 93: 'and still earlier Edrisi has a reference to it as Asafi' (Ebu'l-Fidâ İbn Saîd'den 1214 bilgisi aktarır). Vikipedi (Safi): Bekrî (1068) anar — açılabilir Fransızca çeviri/Arapça OCR'da Safi geçişi bulunamadı → kullanılmadı. İbn Haldun II: Dukkâla ülkesinde 'ribat d'Asfi, poste fortifié' (Murâbıt/Muvahhid dönemi, tarihsiz). Antik eşleşme (Thymiaterion/Karkuntikos) yalnız Vikipedi'de (el-Kanuni'den) → doğrulanamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1154-01-01",
+    "t": "1269-08-31",
+    "d": "muvahhidler",
+    "kesinlik": "ay",
+    "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC ; TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "Asafi était anciennement la dernière station des navires",
+    "ic_not": "f = İdrîsî tanığı (en geç; Safi'ye özgü Muvahhid devir günü YOK; ribât d'Asfi İbn Haldun'da Dukkâla ülkesi, Murâbıt/Muvahhid dönemi tarihsiz). t: TDV Merînîler 'şehre [Merakeş] girdi ve Muvahhidler Devleti’ne son verdi (668/1270)' — Magrib/Muvahhidler maddeleri 668/1269 der; 668 H = 1269-08-31..1270-08-19 → ilk gün 1269-08-31. Safi'ye özgü Merînî devir tanığı YOK; Merakeş'in düşüşü bölge için kabul edildi (beyanlı yaklaşıklık). Muvahhid künyesi 1269-01-01'de biter → hayalet uyarısı (künye GENİŞLET önerisi: 1269-08-31)."
+   },
+   {
+    "f": "1269-08-31",
+    "t": "1281-01-01",
+    "d": "merini",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "şehre girdi ve Muvahhidler Devleti’ne son verdi (668/1270)",
+    "ic_not": "Merînî Ebû Yûsuf Merakeş'i alınca güney (Dukkâla) bölgesi Merînî'ye geçer — Safi'ye özgü tanık yok (bölgesel); atlas 'merini' 1281-01-01'den 12 yıl önce. Aynı sahip, dikiş olay istemez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1154-01-01",
+    "gun": "Ocak 1154 (548 H)",
+    "k": "diger",
+    "b": "İlk anılış: el-İdrîsî Asafi limanını tarif eder.",
+    "kaynak": "el-İdrîsî, Nüzhetü'l-müştâk (1154), R. Dozy – M. J. de Goeje, Description de l'Afrique et de l'Espagne, Leiden 1866 (Arapça metin + Fr. çeviri), https://archive.org/details/bub_gb_XQqWkwi7hWAC",
+    "tanik": "Asafi était anciennement la dernière station des navires"
+   },
+   {
+    "t": "1269-08-31",
+    "gun": "668 H / 1269-70",
+    "k": "fetih",
+    "b": "Merînî Ebû Yûsuf Merakeş'e girer, Muvahhid Devleti sona erer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MERÎNÎLER, https://islamansiklopedisi.org.tr/meriniler",
+    "tanik": "şehre girdi ve Muvahhidler Devleti’ne son verdi (668/1270)"
+   }
+  ],
+  "ic_not": "Safi: ilk yazılı tanık el-İdrîsî 1154. Atlas Safi 'merini' 1281 → 1269-08-31 önerisi (bölgesel). AÇILAMAYAN: Bekrî Fr. çevirisi 'Safi' geçişi (archive.org kopyası Arapça OCR), EI² 'Āsafī', Encyclopédie berbère. Portekiz 1488/1508 evresi atlasta var."
  },
  {
   "id": "sakai-jp",
