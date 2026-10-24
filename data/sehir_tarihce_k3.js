@@ -7141,6 +7141,644 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "AEIOU: Hartberg bu çağda 'Zentralort der Steiermark' ve 1286'da ilk kez şehir olarak anılır (atlas sonrası). Doğu Stiriya Macar sınırında; 1254-1260 Macar işgali EI'de Stiriya geneli için verildi, Hartberg'e özgü tanık yok — Stiriya zincirini izler (zincir X'ten devralındı: Graz/Stiriya, EI 'Stiria')."
  },
  {
+  "id": "hefei-cin",
+  "ad": "Hefei",
+  "atlas_ad": "Hefei",
+  "lat": 31.821,
+  "lon": 117.227,
+  "kat1900": 3,
+  "adlar": [
+   "Hefei / 合肥 (Han–: Jiujiang jun ilçesi; Shiji 129)",
+   "Ruyin / 汝陰 (Doğu Jin–Liang: Hefei ilçesi yerine yerleşik ad; Sui Shu 31: 梁曰汝陰)",
+   "Hezhou / 合州 (Liang Datong sonu–Sui başı; Hefei vilayet merkezi)",
+   "Luzhou / 廬州 (Sui Kaihuang başı; Tang Wude 3 = 620 yeniden)",
+   "Baoxin jun / 保信軍 (Xiande 5 = 958)",
+   "Luzhou lu / 廬州路 (Yuan)"
+  ],
+  "ilk": {
+   "t": "-0048-01-01",
+   "gun": "MÖ 49 (Xuandi sonu; GÜVENLİ UÇ — Shiji 129 yazım tarihi verilmez)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Shiji 129 (Huozhi liezhuan, Sima Qian) + Hanshu 62 (Shiji Xuandi döneminde yayımlandı) — https://zh.wikisource.org/wiki/史記/卷129 ; Hanshu 62 — https://zh.wikisource.org/wiki/漢書/卷062 ; Hanshu 28上 (Jiujiang jun 15 ilçe) — https://zh.wikisource.org/wiki/漢書/卷028上",
+   "tanik": "而合肥受南北潮，皮革、鮑、木輸會也",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Shiji 129: '合肥受南北潮' (Han Wudi çağı Güney Chu ticaret merkezleri listesi); bölüm tarihsizdir. GÜVENLİ UÇ: Shiji 130 anlatıyı Taichu'ya (MÖ 104-101) kadar getirdiğini söyler; Hanshu 62: '遷既死後，其書稍出。宣帝時…遂宣佈焉' → Shiji en geç Xuandi döneminde dolaşımda; Xuandi MÖ 49'da ölür (Hanshu 8) → t = MÖ 49 yılı (yıl hassasiyeti, gerçek ilk anılış büyük olasılıkla MÖ 100 civarı). Hanshu 28 (Jiujiang jun, 15 ilçeden biri: 鍾離，合肥，東城) aynı şehri idari kayda geçirir. Daha eski tanık ARANDI: Shiji 118/106/121/130 (Huainan-Hengshan, Wu Chu, vb.) '合肥' içermez; Qin Jiujiang jun düzeyinde ilçe adı kaynaklanmaz — Wikipedia'nın '秦置' iddiası (Hefei xianzhi) birincil kaynakla doğrulanamadı → bulunamadı. YER EŞİTLEMESİ (ikincil, kesin değil): Han ilçesinin yeri Taiping huanyu ji 126 '故城在今縣北'; Jiu Tang Shu 40 '舊縣在北'; Dushi fangyu jiyao 26 '合肥城在今府治東北，一名金斗城…漢置縣於此' (Ming Luzhou şehri yanında; mesafe hiçbir açılan kaynakta verilmez). Üç Krallık'taki Hefei Yeni Şehri (合肥新城) ayrı ve 20-30 li uzaktadır (Taiping huanyu ji; Jiyao: 府西三十里雞鳴山北) ve buraya yazılmadı. 3 km KURALI: Ming surlu şehrinin çevresi 13 li (~7 km) olduğundan KD-yanı '金斗城' ≤ ~3 km sayıldı — kesin değil; Han şehri >3 km çıkarsa bu kayıt Song-Liang Luzhou'dan başlamalı, Han Hefei ayrı kayıt ('hefei-han-gucheng-cin') olmalıdır. KOORDİNAT UYARISI: atlas noktası (31.821, 117.227), OSM kent merkezinin (31.8666, 117.2814; Nominatim) ≈7,3 km güneybatısındadır — atlas koordinatı düzeltilmeli."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0048-01-01",
+    "t": "0009-01-10",
+    "d": "bati-han",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Shiji 129 — https://zh.wikisource.org/wiki/史記/卷129 ; Hanshu 28上 (Dili zhi, Jiujiang jun) — https://zh.wikisource.org/wiki/漢書/卷028上 ; Hou Han Shu 6 (Shundi ji) — https://zh.wikisource.org/wiki/後漢書/卷6",
+    "ic_not": "Han; Hefei Jiujiang jun'un ilçesidir (Hanshu 28上). Hou Han Shu 6'ya göre Jiankang 1 (144) 12. ay '九江賊黃虎等攻合肥' (Han içinde isyan; sahip değişmez).",
+    "tanik": "鍾離，合肥，東城，博鄉"
+   },
+   {
+    "f": "0009-01-10",
+    "t": "0023-10-06",
+    "d": "xin",
+    "kesinlik": "gun",
+    "kaynak": "Hanshu 99上 (Wang Mang zhuan) — https://zh.wikisource.org/wiki/漢書/卷099上",
+    "ic_not": "Xin; Hefei'ye özgü kayıt bulunamadı (ulusal olay)."
+   },
+   {
+    "f": "0023-10-06",
+    "t": "0030-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Hou Han Shu 12 (Li Xian zhuan) — https://zh.wikisource.org/wiki/後漢書/卷12 ; Hou Han Shu 22 (Jian Tan) — https://zh.wikisource.org/wiki/後漢書/卷22 ; Hou Han Shu 1上 — https://zh.wikisource.org/wiki/後漢書/卷1上",
+    "ic_not": "Sahibi kaynakta bulunamadı: Wang Mang'ın ölümünden (23) Doğu Han'ın Hefei'yi Jian Tan'a 'hou' vermesine (Jianwu 6 = 30) dek. Aynı bölgede Li Xian Lujiang jun'u tutup 23'te kendini Huainan Wang, 27'de (Jianwu 3) Tianzi ilan etti; 30'da (Jianwu 6, 1. ay) yenildi (Hou Han Shu 12) — Hefei Jiujiang jun'dadır, Li Xian'ın '九城'ü içinde olup olmadığı yazılı değil. Gengshi/Guangwu/Li Xian/yerel hâkim arasında yaklaşıklık yazılmadı. En geç tanık: Jian Tan'ın Hefei hou'su (Jianwu 6) Han kontrolünü gösterir."
+   },
+   {
+    "f": "0030-01-01",
+    "t": "0220-12-10",
+    "d": "dogu-han",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Hou Han Shu 22 (Jian Tan zhuan) — https://zh.wikisource.org/wiki/後漢書/卷22 ; Hou Han Shu 38 (Zhang Fan) — https://zh.wikisource.org/wiki/後漢書/卷38 ; Sanguozhi 15 (Liu Fu) — https://zh.wikisource.org/wiki/三國志/卷15",
+    "ic_not": "Doğu Han; f = en geç tanıktan (Jianwu 6 = 30, Jian Tan'a Hefei hou'su). Bitiş: Cao Pi tahta çıkar (ulusal olay); Hefei fiilen 200'den (Liu Fu) Cao Cao'nun elindedir (Sanguozhi 15).",
+    "tanik": "六年，定封合肥候"
+   },
+   {
+    "f": "0220-12-10",
+    "t": "0266-02-08",
+    "d": "cao-wei",
+    "kesinlik": "gun",
+    "kaynak": "Sanguozhi 17 (Zhang Liao) — https://zh.wikisource.org/wiki/三國志/卷17 ; Sanguozhi 47 (Wu zhu zhuan) — https://zh.wikisource.org/wiki/三國志/卷47",
+    "ic_not": "Cao Wei; Hefei, Wu ile sınır karakolu (Xiaoyao Jin 215, Sun Quan kuşatmaları 208/233/234/253). Sanguozhi 3: '先帝東置合肥'.",
+    "tanik": "權守合肥十餘日，城不可拔，乃引退"
+   },
+   {
+    "f": "0266-02-08",
+    "t": "0316-12-11",
+    "d": "bati-jin",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shu 15 (Dili zhi) — https://zh.wikisource.org/wiki/晉書/卷015",
+    "ic_not": "Batı Jin; Jin Shu 15: '自合肥之北至壽春悉屬魏' (Wu'nun Jiangxi bölgesi ile Wei sınırı). Sanguozhi 55: Baoding 3 (268) Ding Feng Hefei'ye saldırır (Wu saldırısı; sonuç yazılı değil)."
+   },
+   {
+    "f": "0316-12-11",
+    "t": "0328-07-24",
+    "d": "dogu-jin",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Jin Shu 6 (Yuan di ji) — https://zh.wikisource.org/wiki/晉書/卷006 ; Jin Shu 7 (Cheng di ji) — https://zh.wikisource.org/wiki/晉書/卷007 ; Jin Shu 67 (Xi Jian) — https://zh.wikisource.org/wiki/晉書/卷067",
+    "ic_not": "Doğu Jin; Hefei'de Jin kontrolünün son tanığı: Xianhe 3 (328) 6. ay Mao Bao, Su Jun yanlısı '賊合肥戍'u alır (Jin Shu 7). Dönemin t'si SON TANIK günüdür, kayıp günü değil.",
+    "tanik": "廬江太守毛寶攻賊合肥戍，拔之"
+   },
+   {
+    "f": "0328-07-24",
+    "t": "0364-05-22",
+    "d": "__BOSLUK__",
+    "kesinlik": "ay",
+    "kaynak": "Jin Shu 8 (Mu di ji) — https://zh.wikisource.org/wiki/晉書/卷008 ; Jin Shu 107 (Shi Jian zaiji) — https://zh.wikisource.org/wiki/晉書/卷107 ; Zizhi tongjian 98 — https://zh.wikisource.org/wiki/資治通鑑/卷098",
+    "ic_not": "Sahip kaynakta tutarlı değil: Yonghe 6 (350) 5. ay Jin Lujiang taishou Yuan Zhen '魏合肥'i (Ran Min'in Wei'si; künye listesinde yok, öneri ran-wei, 350-352) alır ve halkı sürüp çekilir (ZZTJ 98, Jin Shu 8/107) → Hefei bu aralıkta en az bir kez Jin dışındadır (Geç Zhao/Ran Wei). Başlangıç/bitiş tarihleri yazılı değil; Jin'e geri dönüş en geç Xingning 2 (364) 4. ay (Huan Wen donanmayla Hefei'ye varır). Yaklaşıklık yazılmadı."
+   },
+   {
+    "f": "0364-05-22",
+    "t": "0420-07-10",
+    "d": "dogu-jin",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Jin Shu 8 (Ai di ji, Xingning 2) — https://zh.wikisource.org/wiki/晉書/卷008 ; Zizhi tongjian 101 — https://zh.wikisource.org/wiki/資治通鑑/卷101",
+    "ic_not": "Doğu Jin; f = en geç tanıktan: Xingning 2 (364) 4. ay 甲申 Huan Wen donanmayla Hefei'ye ulaşır (Jin Shu 8). Bitiş: ulusal künye geçişi (Liu Yu).",
+    "tanik": "溫帥舟師次于合肥"
+   },
+   {
+    "f": "0420-07-10",
+    "t": "0479-05-29",
+    "d": "liu-song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shu 36 (Zhou jun zhi) — https://zh.wikisource.org/wiki/宋書/卷36 ; Zizhi tongjian 131 — https://zh.wikisource.org/wiki/資治通鑑/卷131",
+    "ic_not": "Liu Song; Hefei Liu Song'da Ruyin (汝陰) adıyla Güney Ruyin jun'un merkezidir (Sui Shu 31: '梁曰汝陰'; Song Shu 36: 南汝陰太守). 466 (Taishi 2) iç savaşında Güney Ruyin valisi Pei Jizhi Hefei'yi Liu Mian tarafına bağlar (ZZTJ 131) — sahip değişmez."
+   },
+   {
+    "f": "0479-05-29",
+    "t": "0500-06-09",
+    "d": "guney-qi",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 143 — https://zh.wikisource.org/wiki/資治通鑑/卷143 ; Wei Shu 63 (Wang Su) — https://zh.wikisource.org/wiki/魏書/卷63",
+    "ic_not": "Güney Qi; Yongyuan 2 (500) Jiaozhou ci shi Li Shuxian Hefei'de konuşludur (ZZTJ 143). Bitiş: Kuzey Wei Hefei'yi alır (olay).",
+    "tanik": "交州刺史李叔獻屯合肥"
+   },
+   {
+    "f": "0500-06-09",
+    "t": "0506-06-23",
+    "d": "kuzey-wei",
+    "kesinlik": "gun",
+    "kaynak": "Wei Shu 8 (Shizong ji, Jingming 1) — https://zh.wikisource.org/wiki/魏書/卷8 ; Wei Shu 63 (Wang Su zhuan) — https://zh.wikisource.org/wiki/魏書/卷63 ; Zizhi tongjian 143 — https://zh.wikisource.org/wiki/資治通鑑/卷143",
+    "ic_not": "Kuzey Wei; Jingming 1 (500) 4. ay 丙申 sonrası Pengcheng Wang Xie / Wang Su Hefei'yi alır, Li Shuxian esir (ZZTJ 143: 丙申 '進攻合肥，生擒叔獻' — Hefei'nin düşüş günü yazılı değil, 丙申 en erken sınır). Bitiş: Liang Wei Rui Hefei'yi alır.",
+    "tanik": "進討合肥，生擒叔獻"
+   },
+   {
+    "f": "0506-06-23",
+    "t": "0549-08-09",
+    "d": "liang-guney",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Wei Shu 8 (Shizong ji, Zhengshi 3) — https://zh.wikisource.org/wiki/魏書/卷8 ; Zizhi tongjian 146 — https://zh.wikisource.org/wiki/資治通鑑/卷146 ; Zizhi tongjian 162 — https://zh.wikisource.org/wiki/資治通鑑/卷162",
+    "ic_not": "Liang; Zhengshi 3 (506) 5. ay 辛巳 Wei Rui Hefei'yi alır, vilayet merkezi Hefei'ye taşınır (ZZTJ 146). 546/547'de Hefei '合州' olur (ZZTJ 160). Bitiş: Taiqing 3 (549) 7. ay Boyang Wang Xiao Fan Hezhou'yu Doğu Wei'ye bırakır (gün yazılı değil, ay başı alındı).",
+    "tanik": "衍將韋叡陷合肥城"
+   },
+   {
+    "f": "0549-08-09",
+    "t": "0550-06-09",
+    "d": "dogu-wei",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Zizhi tongjian 162 — https://zh.wikisource.org/wiki/資治通鑑/卷162 ; Sui Shu 14 (Yinyue zhi) — https://zh.wikisource.org/wiki/隋書/卷14",
+    "ic_not": "Doğu Wei; ZZTJ 162: Gao Cheng'in Xi Yan ci shi Li Bomu'su Hefei'yi sıkıştırır, Fan '以合州輸伯穆'. Sui Shu 14: Wenxiang (Gao Cheng) '克壽春、合肥、鐘離、淮陰'. Bitiş: Gao Yang tahta çıkar (Kuzey Qi).",
+    "tanik": "以合州輸伯穆"
+   },
+   {
+    "f": "0550-06-09",
+    "t": "0573-06-26",
+    "d": "kuzey-qi",
+    "kesinlik": "gun",
+    "kaynak": "Bei Qi Shu 4 (Wenxuan ji) — https://zh.wikisource.org/wiki/北齊書/卷4 ; Zizhi tongjian 164 — https://zh.wikisource.org/wiki/資治通鑑/卷164 ; Sui Shu 31 (Dili zhi) — https://zh.wikisource.org/wiki/隋書/卷31",
+    "ic_not": "Kuzey Qi; Chengsheng 1 (552) Hou Jing'in generalleri Hefei'ye gelir, Qi '閉城不出' (ZZTJ 164); Sui Shu 31: '後齊分置北陳郡'. Bitiş: Taijian 5 (573) Chen'in Huang Faqi'si Hefei'yi alır.",
+    "tanik": "齊人閉城不出，乃引還"
+   },
+   {
+    "f": "0573-06-26",
+    "t": "0579-12-04",
+    "d": "chen",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Zizhi tongjian 171 — https://zh.wikisource.org/wiki/資治通鑑/卷171 ; Chen Shu 11 (Huang Faqi) — https://zh.wikisource.org/wiki/陳書/卷11 ; Chen Shu 31 (Ren Zhong) — https://zh.wikisource.org/wiki/陳書/卷31",
+    "ic_not": "Chen; Taijian 5 (573) 5. ay 丙子 Liyang düştükten sonra Huang Faqi '進軍合肥，合肥望旗降款' (Hefei'nin teslim günü yazılı değil; Liyang'ın düştüğü 丙子 en erken sınır). Bitiş: Zhou Shu 7 '江北盡平' (Huainan'ın Zhou'ya geçişi; Hefei adı geçmez).",
+    "tanik": "進兵合肥，望旗降款"
+   },
+   {
+    "f": "0579-12-04",
+    "t": "0581-03-04",
+    "d": "kuzey-zhou",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Zhou Shu 7 (Xuan di ji) — https://zh.wikisource.org/wiki/周書/卷07 ; Sui Shu 31 — https://zh.wikisource.org/wiki/隋書/卷31",
+    "ic_not": "Kuzey Zhou; BEYANLI YAKLAŞIKLIK: Zhou Shu 7: 579 11. ay Wei Xiaokuan Shouyang'ı, Yuwen Liang Huangcheng'i, Liang Shiyan Guangling'i alır, '江北盡平' — Hefei adı geçmez, bölge düzeyinde çıkarım. Sui Shu 31 Hefei'nin Sui başında Luzhou olduğunu söyler.",
+    "tanik": "於是江北盡平"
+   },
+   {
+    "f": "0581-03-04",
+    "t": "0618-06-18",
+    "d": "sui",
+    "kesinlik": "gun",
+    "kaynak": "Sui Shu 31 (Dili zhi, Lujiang jun) — https://zh.wikisource.org/wiki/隋書/卷31",
+    "ic_not": "Sui; Sui Shu 31: '廬江郡梁置南豫州，又改爲合州。開皇初改爲廬州' ve '合肥梁曰汝陰…開皇初郡廢，縣改名焉'. 617 Daye 13 yerel isyancıların (Li Tongde, Dushi fangyu jiyao) Hefei'yi alması ikincil kaynaktır, birincil bulunamadı.",
+    "tanik": "開皇初改爲廬州"
+   },
+   {
+    "f": "0618-06-18",
+    "t": "0620-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Jiu Tang Shu 40 (Dili zhi, Luzhou) — https://zh.wikisource.org/wiki/舊唐書/卷40 ; Sui Shu 31 — https://zh.wikisource.org/wiki/隋書/卷31",
+    "ic_not": "Li Yuan tahta çıkışından Wude 3'e (620) dek Hefei'nin sahibi kaynakta bulunamadı (Du Fuwei/Li Zitong/yerel isyancı arası geçiş yazılı değil). En geç tanık: Jiu Tang Shu 40 '武德三年，改為廬州' (Tang)."
+   },
+   {
+    "f": "0620-01-01",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Jiu Tang Shu 40 (Dili zhi) — https://zh.wikisource.org/wiki/舊唐書/卷40",
+    "ic_not": "Tang; f = en geç tanıktan (Wude 3 = 620).",
+    "tanik": "武德三年，改為廬州，領合肥、廬江、慎三縣"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 6 — https://zh.wikisource.org/wiki/舊唐書/卷6",
+    "ic_not": "Wu Zhou; Hefei'ye özgü kayıt yok."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0902-01-01",
+    "d": "tang",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Zizhi tongjian 255 — https://zh.wikisource.org/wiki/資治通鑑/卷255 ; Jiu Tang Shu 40 — https://zh.wikisource.org/wiki/舊唐書/卷40",
+    "ic_not": "Tang; Zhonghe 3 (883) 3. ay Hefei'li Yang Xingmi Luzhou ci shi atanır (Gao Pian'ın altında, ZZTJ 255) — Tang unvanı altında, yerel güç; 902'ye dek formel Tang.",
+    "tanik": "以淮南押牙合肥楊行愍爲廬州刺史"
+   },
+   {
+    "f": "0902-01-01",
+    "t": "0937-11-10",
+    "d": "yang-wu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Zizhi tongjian 255-264 (Yang Xingmi) — https://zh.wikisource.org/wiki/資治通鑑/卷255",
+    "ic_not": "Yang Wu (902: Tang sarayı Yang Xingmi'ye Wu Wang unvanı verir; Hefei Yang Xingmi'nin doğduğu/başladığı yerdir: ZZTJ 255 '本廬州牙將')."
+   },
+   {
+    "f": "0937-11-10",
+    "t": "0958-04-09",
+    "d": "guney-tang",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Wudai shi 118 (Shizong ji) — https://zh.wikisource.org/wiki/舊五代史/卷118",
+    "ic_not": "Güney Tang; Xiande 5 (958) 3. ay 己亥 Li Jing Lu-Shu-Qi-Huang dört eyaleti Sonraki Zhou'ya sunar (Jiu Wudai shi 118).",
+    "tanik": "以廬、舒、蘄、黃等四州來獻"
+   },
+   {
+    "f": "0958-04-09",
+    "t": "0960-02-04",
+    "d": "sonraki-zhou-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Wudai shi 118 — https://zh.wikisource.org/wiki/舊五代史/卷118",
+    "ic_not": "Sonraki Zhou; 壬寅 '改廬州軍額為保信軍' (Baoxin jun), 甲辰 Zhao Zan Luzhou jiedushi.",
+    "tanik": "改廬州軍額為保信軍"
+   },
+   {
+    "f": "0960-02-04",
+    "t": "1276-03-25",
+    "d": "song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shi 46 (Gongdi ji) — https://zh.wikisource.org/wiki/宋史/卷046 ; Song Shi 47 — https://zh.wikisource.org/wiki/宋史/卷047",
+    "ic_not": "Song. Jin işgalleri sahipliği değiştirmedi (olaylara bak): 1129-11 Li Hui şehri teslim eder; 1161 Wanyan Liang Luzhou'ya girer, 2 ay sonra Yang Chun geri alır; 1206 Jin saldırısı Tian Lin ile püskürtülür. Bitiş: Zhiyuan 13 (1276) Xia Gui teslimi.",
+    "tanik": "阿朮遣使報廬州夏貴已降"
+   },
+   {
+    "f": "1276-03-25",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Yuan Shi 9 (Shizu ji) — https://zh.wikisource.org/wiki/元史/卷009 ; Yuan Shi 132 — https://zh.wikisource.org/wiki/元史/卷132",
+    "ic_not": "Yuan; atlasın ilk sahibi (yuan-hanedani) ile aynı. Zhiyuan 13 (1276) 3. ay '敕淮西廬州置總管萬戶府'.",
+    "tanik": "敕淮西廬州置總管萬戶府"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0048-01-01",
+    "gun": "MÖ 49 (güvenli uç, ilk anılış)",
+    "k": "diger",
+    "b": "Hefei adının yazılı ilk anılışı: Shiji 129 '合肥受南北潮，皮革、鮑、木輸會也'. Tarihsiz bölüm; Xuandi sonu güvenli uç alındı (ilk.ic_not).",
+    "kaynak": "Shiji 129 — https://zh.wikisource.org/wiki/史記/卷129 ; Hanshu 28上 — https://zh.wikisource.org/wiki/漢書/卷028上",
+    "tanik": "而合肥受南北潮，皮革、鮑、木輸會也"
+   },
+   {
+    "t": "0009-01-10",
+    "gun": "10 Ocak 9",
+    "k": "diger",
+    "b": "künye geçişi: Batı Han → Xin (Wang Mang taht ilan eder). (Hefei'ye özgü tanık bulunamadı; ulusal olay.)",
+    "kaynak": "Hanshu 99上 (漢書/卷099上)",
+    "tanik": "即真天子位，定有天下之號曰新"
+   },
+   {
+    "t": "0023-10-06",
+    "gun": "6 Ekim 23",
+    "k": "fetih",
+    "b": "Wang Mang öldürülür; Xin sona erer (ulusal olay). Hefei'nin 23-30 arası sahibi kaynakta bulunamadı → __BOSLUK__.",
+    "kaynak": "Hanshu 99下 (漢書/卷099下)",
+    "tanik": "商人杜吳殺莽，取其綬"
+   },
+   {
+    "t": "0030-01-01",
+    "gun": "Jianwu 6 (30)",
+    "k": "idari",
+    "b": "Guangwu savaşçı Jian Tan'ı 'Hefei hou' (合肥候) olarak sabitler; Hefei Doğu Han kontrolünde (en geç tanık). Jian Tan 26'da (Jianwu 26) ölür.",
+    "kaynak": "Hou Han Shu 22 — https://zh.wikisource.org/wiki/後漢書/卷22",
+    "tanik": "六年，定封合肥候"
+   },
+   {
+    "t": "0145-01-11",
+    "gun": "145 (Jiankang 1, 12. ay; ay başı çevrildi)",
+    "k": "savas",
+    "b": "Xu Feng–Ma Mian isyanının komutanı Huang Hu Hefei'ye saldırır (Hou Han Shu 6: 12. ay) ve ele geçirir (Hou Han Shu 38 Zhang Fan zhuan: '攻沒合肥'); Han bastırır. Sahip değişmez.",
+    "kaynak": "Hou Han Shu 6 — https://zh.wikisource.org/wiki/後漢書/卷6 ; Hou Han Shu 38 — https://zh.wikisource.org/wiki/後漢書/卷38 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "九江賊黃虎等攻合肥"
+   },
+   {
+    "t": "0200-01-01",
+    "gun": "Jian'an 5 (200; Sanguozhi tarih vermez, ZZTJ 63 bu yıla koyar)",
+    "k": "kurulus",
+    "b": "Cao Cao'nun Yangzhou ci shi'si Liu Fu '合肥空城'a gelip eyalet merkezini (州治) kurar, tarım ve okul açar; Hefei Cao Cao'nun Huainan karakolu olur (208'de Sun Quan 100+ gün kuşatır, Liu Fu 208'de ölür).",
+    "kaynak": "Sanguozhi 15 (Liu Fu) — https://zh.wikisource.org/wiki/三國志/卷15 ; Zizhi tongjian 63 — https://zh.wikisource.org/wiki/資治通鑑/卷063",
+    "tanik": "單馬造合肥空城，建立州治"
+   },
+   {
+    "t": "0208-01-01",
+    "gun": "Jian'an 13 (208)",
+    "k": "kusatma",
+    "b": "Sun Quan 100 bin kişiyle Hefei'yi 100 günden fazla kuşatır, yağmurla sur çökerken Liu Fu'nun hazırlıkları sayesinde çekilir (Sanguozhi 15).",
+    "kaynak": "Sanguozhi 15 — https://zh.wikisource.org/wiki/三國志/卷15",
+    "tanik": "孫權率十萬衆攻圍合肥城百餘日"
+   },
+   {
+    "t": "0215-01-01",
+    "gun": "Jian'an 20 (215)",
+    "k": "savas",
+    "b": "Zhang Liao, Li Dian, Yue Jin 7000 askerle Hefei'yi savunur; Sun Quan 100 bin ile gelir, Zhang Liao 800 askerle bozar, Quan Hefei'yi 10 günde alamaz (Xiaoyao Jin).",
+    "kaynak": "Sanguozhi 17 (Zhang Liao) — https://zh.wikisource.org/wiki/三國志/卷17",
+    "tanik": "權守合肥十餘日，城不可拔，乃引退"
+   },
+   {
+    "t": "0220-12-10",
+    "gun": "10 Aralık 220",
+    "k": "diger",
+    "b": "künye geçişi: Dong Han → Cao Wei (Cao Pi tahta çıkar).",
+    "kaynak": "Sanguozhi Wei 2 (三國志/卷02)",
+    "tanik": "庚午，王升壇即阼，百官陪位"
+   },
+   {
+    "t": "0266-02-08",
+    "gun": "8 Şubat 266",
+    "k": "diger",
+    "b": "künye geçişi: Cao Wei → Batı Jin (Sima Yan Luoyang'da tahta çıkar).",
+    "kaynak": "Jin shu 3 (晉書/卷003)",
+    "tanik": "冬十二月丙寅，設壇于南郊"
+   },
+   {
+    "t": "0316-12-11",
+    "gun": "Jianxing 4 (316), 11. ay 乙未",
+    "k": "diger",
+    "b": "künye geçişi: Batı Jin → Doğu Jin (Min Di Chang'an'da Han-Zhao'ya teslim olur; Jin devleti Jiankang'da sürer).",
+    "kaynak": "Jin Shu 5 (Min di ji) https://zh.wikisource.org/wiki/晉書/卷005 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen (metinde '乙末' yazım hatası, 乙未 okundu)",
+    "tanik": "帝乘羊車，肉袒銜壁，輿櫬出降"
+   },
+   {
+    "t": "0322-08-21",
+    "gun": "Yongchang 1 (322), 7. ay 甲戌",
+    "k": "diger",
+    "b": "Jin sarayı Dai Ruosi'yi (戴若思) '鎮合肥' görevlendirir; Wang Dun isyanı üzerine geri çağrılır (Jin Shu 69). 323'te Xi Jian da Hefei'ye çekilir.",
+    "kaynak": "Jin Shu 6 — https://zh.wikisource.org/wiki/晉書/卷006 ; Zizhi tongjian 91-92 — https://zh.wikisource.org/wiki/資治通鑑/卷091 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "鎮合肥"
+   },
+   {
+    "t": "0328-07-24",
+    "gun": "Xianhe 3 (328), 6. ay (ay başı çevrildi)",
+    "k": "kayip",
+    "b": "Su Jun isyanı sırasında Lujiang taishou Mao Bao Su Jun yanlısı Hefei garnizonunu (合肥戍) alır (Jin Shu 7, 81; ZZTJ 94). Jin kontrolünün son tanığı; sonrası __BOSLUK__.",
+    "kaynak": "Jin Shu 7 — https://zh.wikisource.org/wiki/晉書/卷007 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "廬江太守毛寶攻賊合肥戍，拔之"
+   },
+   {
+    "t": "0350-06-21",
+    "gun": "Yonghe 6 (350), 5. ay (ay başı çevrildi)",
+    "k": "fetih",
+    "b": "Jin Lujiang taishou Yuan Zhen '魏合肥'i (Ran Min'in Wei'si; Jin Shu 107 yılı: 349-350 sınırı) alır, halkı sürüp çekilir. Hefei'nin 350'de Jin dışında olduğunun tanığı (BOSLUK içinde).",
+    "kaynak": "Jin Shu 8 — https://zh.wikisource.org/wiki/晉書/卷008 ; Jin Shu 107 — https://zh.wikisource.org/wiki/晉書/卷107 ; Zizhi tongjian 98 — https://zh.wikisource.org/wiki/資治通鑑/卷098 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "廬江太守袁眞攻合肥，克之"
+   },
+   {
+    "t": "0364-05-22",
+    "gun": "Xingning 2 (364), 4. ay 甲申",
+    "k": "diger",
+    "b": "Yan akını (Xuchang, Runan, Chen) üzerine Huan Wen donanmayla Hefei'ye gelir (Jin Shu 8). Jin kontrolünün BOSLUK sonrası ilk tanığı.",
+    "kaynak": "Jin Shu 8 — https://zh.wikisource.org/wiki/晉書/卷008 ; Zizhi tongjian 101 — https://zh.wikisource.org/wiki/資治通鑑/卷101 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "溫帥舟師次于合肥"
+   },
+   {
+    "t": "0420-07-10",
+    "gun": "Yongchu 1 (420), 6. ay 丁卯",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Jin → Liu Song (Liu Yu Jin'i devirir).",
+    "kaynak": "Song Shu 3 (Wu di xia) https://zh.wikisource.org/wiki/宋書/卷3 ; Sinica sinocal, Jülyen",
+    "tanik": "永初元年夏六月丁卯，設壇於南郊，即皇帝位"
+   },
+   {
+    "t": "0466-01-01",
+    "gun": "Taishi 2 (466)",
+    "k": "isyan",
+    "b": "Liu Song iç savaşı: Güney Ruyin taishou Pei Jizhi (裴季之) Hefei'yi imparator Ming tarafına bağlar; Xue Daobiao'nun Hefei'ye saldırısı Wang Guangzhi tarafından 3 günde püskürtülür (ZZTJ 131). Sahip değişmez.",
+    "kaynak": "Zizhi tongjian 131 — https://zh.wikisource.org/wiki/資治通鑑/卷131",
+    "tanik": "殷琰所署南汝陰太守裴季之以合肥來降"
+   },
+   {
+    "t": "0479-05-29",
+    "gun": "Jianyuan 1 (479), 4. ay 甲午",
+    "k": "diger",
+    "b": "künye geçişi: Liu Song → Güney Qi (Xiao Daocheng).",
+    "kaynak": "Nan Qi Shu 2 (Gao di xia) https://zh.wikisource.org/wiki/南齊書/卷2 ; Sinica sinocal, Jülyen",
+    "tanik": "建元元年夏四月甲午，上即皇帝位於南郊"
+   },
+   {
+    "t": "0500-06-09",
+    "gun": "Jingming 1 (500), 4. ay 丙申 (en erken sınır)",
+    "k": "fetih",
+    "b": "Kuzey Wei Pengcheng Wang Xie ve Wang Su, Qi'nin Jiaozhou ci shi Li Shuxian'ı Hefei'de yenip esir alır (ZZTJ 143 / Wei Shu 63). Hefei Kuzey Wei'ye geçer. Wei Shu 8 aynı gün 丙申'i Shouyang önü zaferi diye kaydeder.",
+    "kaynak": "Wei Shu 63 — https://zh.wikisource.org/wiki/魏書/卷63 ; Zizhi tongjian 143 — https://zh.wikisource.org/wiki/資治通鑑/卷143 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "進討合肥，生擒叔獻"
+   },
+   {
+    "t": "0506-06-23",
+    "gun": "Zhengshi 3 (506), 5. ay 辛巳",
+    "k": "fetih",
+    "b": "Liang generali Wei Rui Hefei'yi alır (Fei nehrine set kurup dümen-gemiyle kuşatma; Wei komutanı Du Yuanlun ölür); Hefei Liang Yuzhou merkezi olur (ZZTJ 146).",
+    "kaynak": "Wei Shu 8 — https://zh.wikisource.org/wiki/魏書/卷8 ; Zizhi tongjian 146 — https://zh.wikisource.org/wiki/資治通鑑/卷146 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "衍將韋叡陷合肥城"
+   },
+   {
+    "t": "0549-08-09",
+    "gun": "Taiqing 3 (549), 7. ay (ay başı çevrildi)",
+    "k": "antlasma",
+    "b": "Hou Jing Jiankang'ı aldıktan sonra Boyang Wang Xiao Fan Doğu Wei'nin Li Bomu'su baskısıyla '合州'yu (Hefei) ona bırakır, çocuklarını rehin verir (ZZTJ 162).",
+    "kaynak": "Zizhi tongjian 162 — https://zh.wikisource.org/wiki/資治通鑑/卷162 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "以合州輸伯穆"
+   },
+   {
+    "t": "0550-06-09",
+    "gun": "Tianbao 1 (550), 5. ay 戊午",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Wei → Kuzey Qi (Gao Yang güney sunakta tahta çıkar); Hefei Doğu Wei'den Qi'ye geçer (Hefei'ye özgü olay yok).",
+    "kaynak": "Bei Qi Shu 4 — https://zh.wikisource.org/wiki/北齊書/卷4 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (WeiQi)",
+    "tanik": "戊午，乃即皇帝位於南郊"
+   },
+   {
+    "t": "0573-06-26",
+    "gun": "Taijian 5 (573), 5. ay 丙子 (en erken sınır)",
+    "k": "fetih",
+    "b": "Chen'in Nan Yuzhou ci shi'si Huang Faqi Liyang'ı alıp '進軍合肥' eder; Hefei garnizonu bayrağı görünce teslim olur, Huang yağmayı yasaklar, mühür/ant ile askerleri serbest bırakır (ZZTJ 171; Chen Shu 11).",
+    "kaynak": "Chen Shu 11 — https://zh.wikisource.org/wiki/陳書/卷11 ; Zizhi tongjian 171 — https://zh.wikisource.org/wiki/資治通鑑/卷171 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "進兵合肥，望旗降款"
+   },
+   {
+    "t": "0579-12-04",
+    "gun": "Dacheng 1/Dazheng (579), 11. ay (ay başı çevrildi)",
+    "k": "fetih",
+    "b": "Zhou Shu 7: Wei Xiaokuan Shouyang, Yuwen Liang Huangcheng, Liang Shiyan Guangling'i alır; Chen geri çekilir, '江北盡平'. Hefei adı geçmez — bölge düzeyi.",
+    "kaynak": "Zhou Shu 7 — https://zh.wikisource.org/wiki/周書/卷07 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "於是江北盡平"
+   },
+   {
+    "t": "0581-03-04",
+    "gun": "4 Mart 581",
+    "k": "diger",
+    "b": "künye geçişi: Kuzey Zhou → Sui (Yang Jian Chang'an'da imparator olur).",
+    "kaynak": "Sui shu 1 (隋書/卷01)",
+    "tanik": "備禮即皇帝位於臨光殿"
+   },
+   {
+    "t": "0618-06-18",
+    "gun": "Wude 1 (618), 5. ay 甲子",
+    "k": "diger",
+    "b": "künye geçişi: Sui → Tang (Li Yuan imparator olur).",
+    "kaynak": "Jiu Tang Shu 1 (Gao zu) https://zh.wikisource.org/wiki/舊唐書/卷1 ; Sinica sinocal, Jülyen",
+    "tanik": "甲子，高祖即皇帝位於太極殿"
+   },
+   {
+    "t": "0620-01-01",
+    "gun": "Wude 3 (620)",
+    "k": "idari",
+    "b": "Tang Hefei'li vilayeti Luzhou olarak adlandırır, Hefei, Lujiang, Shen üç ilçeyi bağlar (Jiu Tang Shu 40). Hefei'nin Tang kontrolünün ilk yazılı tanığı.",
+    "kaynak": "Jiu Tang Shu 40 — https://zh.wikisource.org/wiki/舊唐書/卷40",
+    "tanik": "武德三年，改為廬州，領合肥、廬江、慎三縣"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "Tianshou 1 (690), 9. ay 九日 壬午",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wu Zhou (Wu Zetian 'Zhou' hanedanını ilan eder).",
+    "kaynak": "Jiu Tang Shu 6 (Wu hou) https://zh.wikisource.org/wiki/舊唐書/卷6 ; Sinica sinocal, Jülyen (iki 壬午: 08-17 / 10-16; 10-16 seçildi)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "Shenlong 1 (705), 2. ay 甲寅",
+    "k": "diger",
+    "b": "künye geçişi: Wu Zhou → Tang (Zhongzong 'Tang' adını geri getirir).",
+    "kaynak": "Jiu Tang Shu 7 (Zhong zong) https://zh.wikisource.org/wiki/舊唐書/卷7 ; Sinica sinocal, Jülyen",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0883-04-11",
+    "gun": "Zhonghe 3 (883), 3. ay (ay başı çevrildi)",
+    "k": "idari",
+    "b": "Hefei'li Yang Xingmi, Luzhou ci shi'yi öldürüp şehri ele geçirir; Gao Pian onu Luzhou işlerini yürütmek üzere atar, saray onaylar (ZZTJ 255). Yang Wu'nun çekirdek şehri.",
+    "kaynak": "Zizhi tongjian 255 — https://zh.wikisource.org/wiki/資治通鑑/卷255 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "以淮南押牙合肥楊行愍爲廬州刺史"
+   },
+   {
+    "t": "0902-01-01",
+    "gun": "902 (天復2)",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Yang Wu; Tang sarayı Yang Xingmi'ye 吳王 unvanını verir (toprak aynı). Yıl kesinliği. (Hefei: Yang Xingmi'nin Luzhou'dan başlayan gücü; Tang → Yang Wu künye geçişi.)",
+    "kaynak": "資治通鑑 卷263 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷263",
+    "tanik": "拜行密東面行營都統、中書令、吳王"
+   },
+   {
+    "t": "0937-11-10",
+    "gun": "10 Kasım 937",
+    "k": "diger",
+    "b": "künye geçişi: Yang Wu → Güney Tang; Xu Zhigao Jinling'de imparator olur, ülke adı 'Tang' (c2w 937 10/5 甲申).",
+    "kaynak": "資治通鑑 卷281 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷281",
+    "tanik": "齊王誥即皇帝位於金陵，大赦，改元升元，國號唐"
+   },
+   {
+    "t": "0958-04-09",
+    "gun": "Xiande 5 (958), 3. ay 己亥",
+    "k": "antlasma",
+    "b": "Güney Tang hükümdarı Li Jing Sonraki Zhou'ya Lu, Shu, Qi, Huang dört eyaletini (Luzhou=Hefei dahil) sunar ve Yangtze sınırını kabul eder; 壬寅 Zhou Luzhou'ya Baoxin jun adı verir (Jiu Wudai shi 118).",
+    "kaynak": "Jiu Wudai shi 118 — https://zh.wikisource.org/wiki/舊五代史/卷118 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "以廬、舒、蘄、黃等四州來獻"
+   },
+   {
+    "t": "0960-02-04",
+    "gun": "4 Şubat 960",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Zhou → Song (Zhao Kuangyin).",
+    "kaynak": "Song shi 1 (宋史/卷1)",
+    "tanik": "定有天下之號曰宋"
+   },
+   {
+    "t": "1129-12-13",
+    "gun": "Jianyan 3 (1129), 11. ay (ay başı çevrildi)",
+    "k": "isgal",
+    "b": "Jin Luzhou'ya saldırır, vali Li Hui şehri teslim eder (Song Shi 25). Süre yazılı değil; 1130'da Song valileri (Hu Shunzhi) Luzhou'da iş görür (Song Shi 27) → KISA JIN İŞGALİ, dönem açılmadı (sahip Song).",
+    "kaynak": "Song Shi 25 (Gaozong ji 2) — https://zh.wikisource.org/wiki/宋史/卷025 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "金人犯廬州，守臣李會以城降"
+   },
+   {
+    "t": "1161-11-06",
+    "gun": "Shaoxing 31 (1161), 10. ay 丙辰",
+    "k": "isgal",
+    "b": "Jin hükümdarı Wanyan Liang Luzhou kuzeyindeki 5 li'de toprak kale kurar ve Luzhou'ya girer (Song Shi 32); 12. ayda Yang Chun Luzhou'yu geri alır (Song Shi 32). 2 aydan kısa → dönem açılmadı.",
+    "kaynak": "Song Shi 32 (Gaozong ji 9) — https://zh.wikisource.org/wiki/宋史/卷032 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "金主亮入廬州"
+   },
+   {
+    "t": "1161-12-20",
+    "gun": "Shaoxing 31 (1161), 12. ay 庚子 (en erken sınır)",
+    "k": "kayip",
+    "b": "Yang Chun (楊椿) geceleyin Jin komutanı Gao Dingshan'ı öldürür ve Luzhou'yu geri alır (Song Shi 32); aynı kayıtta 辛丑 sonrası. Jin işgali biter.",
+    "kaynak": "Song Shi 32 — https://zh.wikisource.org/wiki/宋史/卷032 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "復廬州"
+   },
+   {
+    "t": "1206-12-12",
+    "gun": "Kaixi 2 (1206), 11. ay 戊子",
+    "k": "savas",
+    "b": "Jin Luzhou'ya saldırır, Tian Lin geri püskürtür; 丙申 Jin Luzhou'dan çekilir (Song Shi 38).",
+    "kaynak": "Song Shi 38 — https://zh.wikisource.org/wiki/宋史/卷038 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "金人犯廬州，田琳拒退之"
+   },
+   {
+    "t": "1237-08-02",
+    "gun": "Jiaxi 1 (1237), 7. ay 己未",
+    "k": "savas",
+    "b": "Moğol (大元兵, Song Shi'nin sonraki adı) Guangzhou ve Xinyang'dan Hefei'ye ulaşır; Li Zengbo, Luzhou muhafızı Zhao Sheng ve Wang Fu savunur (Song Shi 42). Sahip değişmez.",
+    "kaynak": "Song Shi 42 — https://zh.wikisource.org/wiki/宋史/卷042 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "大元兵自光州、信陽抵合肥"
+   },
+   {
+    "t": "1265-10-09",
+    "gun": "Xianchun 1 (1265), 8. ay 甲午",
+    "k": "sefer",
+    "b": "Yuan başkomutanı A-shu (Aju) Luzhou ve Anqing'e ordusuyla gelir; Song komutanları Fan Sheng, Zhang Lin, Gao Xing, Meng Xing karşı koyup ölür (Song Shi 46).",
+    "kaynak": "Song Shi 46 — https://zh.wikisource.org/wiki/宋史/卷046 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "大元元帥阿術帥大軍至廬州及安慶"
+   },
+   {
+    "t": "1276-03-25",
+    "gun": "Zhiyuan 13 (1276), 3. ay 甲戌",
+    "k": "fetih",
+    "b": "A-shu Luzhou'daki Song Huaixi zhishi Xia Gui'nin teslimini bildirir; aynı ay 戊寅 '敕淮西廬州置總管萬戶府'. 2. ay 戊午 Xia Gui Huaixi komutanlıklarının topluca teslimini kabul etmişti (Yuan Shi 9). Yuan Shi 132: Yuan komutanı Luzhou önünde Xia Gui'nin '吾主降，吾即降矣' demesi.",
+    "kaynak": "Yuan Shi 9 — https://zh.wikisource.org/wiki/元史/卷009 ; Yuan Shi 132 — https://zh.wikisource.org/wiki/元史/卷132 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "阿朮遣使報廬州夏貴已降"
+   }
+  ],
+  "ic_not": "Hefei (atlas ilk sahiplik 1281-01-01 yuan-hanedani). ① BAŞLANGIÇ: Shiji 129 (tarihsiz; Xuandi sonu MÖ 49 güvenli uç) — ayrıntı ilk.ic_not. Kuruluş/arkeolojik tanık BULUNAMADI (Qin dönemi iddiası ikincil, doğrulanamadı). ② YER BELİRSİZLİĞİ: Han–Wei Hefei eski şehri ile Liang/Tang/Song Luzhou şehri aynı yer mi — Jiu Tang Shu 40 '舊縣在北', Taiping huanyu ji 126 '故城在今縣北', Jiyao 26 '東北，金斗城'; mesafe yok; ≤3 km varsayımı kesin değil (ilk.ic_not). Atlas koordinatı kent merkezinden ~7 km güneybatıda → düzeltilmeli. ③ 4. YÜZYIL: 328–364 arası __BOSLUK__ (Ran Wei 350 tanığı: öneri künye ran-wei 350-352, Ran Min'in Wei'si, Jin Shu 107/ZZTJ 98). Künye aşımı: kuzey-zhou'nun Hefei ayağı bölge düzeyi çıkarımdır. ④ KISA JIN İŞGALLERİ (1129-11, 1161-10/12) dönem açmadı. Jin Hefei'yi kalıcı almadı: Song Shi 25/32/38. ⑤ KÜNYE GENİŞLET/KISALT: Doğu Han–Cao Wei–Batı Jin–Doğu Jin geçişleri ulusal kataloğa göre; bati-han künye t=0008-01-01 < 0009-01-10 (Xin başı) hayalet uyarısı: bati-han.t → 0009-01-10 GENİŞLET önerisi. tang künye ömrü 907'de biter ama dönem 902'ye kadar (Yang Wu başı): tang.t → 0907-06-01 yerine zincir 902'de keser, uyarı verebilir. ⑥ ÇİFT TEYİT: Wei Rui'nin 506 Hefei fethi Wei Shu 8 (Wei tarafı) ve ZZTJ 146 (Liang tarafı) — iki bağımsız birincil kaynak (gün Wei Shu 辛巳); 573 Chen fethi Chen Shu 11 + ZZTJ 171; 1276 teslim Yuan Shi 9 + Song Shi 47/Yuan Shi 132. ⑦ ÇELİŞKİ: Song Shi 47 (Deyou 1) '朱煥知廬州…貴不內' — Xia Gui Luzhou'ya Zhu Huan'ı sokmadı (1275); Yuan Shi 9 teslim 1276-03; birbirini tamamlar. ⑧ AÇILAMAYAN/YOK: Taiping huanyu ji sayfa 4336 karakter (kısmi); ikincil modern arkeoloji (Hefei eski şehir kazı raporu) bulunamadı. Tang/Wudai/Song içi Hefei'ye özgü sahiplik değişimi yok."
+ },
+ {
   "id": "huelva-es",
   "ad": "Huelva",
   "atlas_ad": "Huelva",
@@ -8283,6 +8921,367 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "AD VE NOKTA / 3 KM KURALI (KARAR GEREKLİ): atlas noktası (36.651, 117.12) modern Jinan'ın DOĞU kenarındadır. Tarihî çekirdek (Lixia/Licheng eski şehri, Baotu Pınarı 36.6607, 117.0094) noktadan ~9.9 km, Lixia ilçe merkezi (36.6661, 117.0777) ~4.1 km batıdadır (koordinatlar Vikipedi sayfalarından ölçüldü — tek dayanak değil, yalnız ölçüm). Brif kuralına göre >3 km antik yer burada yazılmazdı; ancak noktanın kendi (yeri kesin) bir ilk tanığı yok ve nokta modern kentin tamamını temsil ediyor => zincir Lixia/Licheng eski şehri için yazıldı (BEYANLI YAKLAŞIKLIK). Öneri: ya atlas noktası eski şehre (≈36.666, 117.02) çekilsin ya da ayrı kayıt 'jinan-lixia-eski-sehir' açılsın. ÖNCEKİ TANIKLAR (başlangıç sayılmadı): (a) Lixia (歷下) — Qi ordusu Lixia'da konuşlu, Han Xin Qi'yi yener: Shiji 94 '齊使華無傷、田解軍於歷下以距漢' / Hanshu 33 '齊使華毋傷、田解軍歷下以距漢', Hanshu 1上 '四年冬十月，韓信用蒯通計，襲破齊' (Han 4 = MÖ 204, 10. ay = ct(-202,10,shuo) = -0203-11-11, ay); Lixia = Licheng eşitlemesi: Tongdian 180 '漢韓信伐齊，至歷下，即其地也' (Tang, ~8. yy); Hou Hanshu 19/12: Fei Yi '屯歷下' (MS 29). Bu eşitleme yeri kesin bir birincil kaynakla (Han dönemi) doğrulanamadı => ilk anılış Hanshu 28上 Licheng (MS 2). Önerilen önceki zincir (kaynak: Shiji 94 / Hanshu 1): Qi (Tian Guang'ın Qi'si, kunye_yok) ... -0203-11-11 Qi -> Han Xin'in Qi'si (Batı Han vasalı). (b) Zuozhuan Cheng 2 (MÖ 589) Hua Buzhu savaşı (Hua Dağı ~ Jinan kuzeydoğusu) — yer farklı, bu kayıt dışında. (c) Chengziya (Longshan) ve Dong Pingling (Han Jinan komutanlık merkezi, Shuijing zhu 8 / Wikipedia: 310'larda merkez Lixia'ya taşınır) noktadan >30 km: AYRI KAYIT önerisi (jinan-dongpingling / chengziya). ZİNCİR BAŞKA YER UYARISI: 311-323 ve 350-410 aralıklarının TÜMÜ Jinan'a özgü tanık değil, Qingzhou (Guanggu/Linzi) zinciridir (ABİ MERKEZ, BEYANLI YAKLAŞIKLIK). ADLAR (kaynaklı): Lixia 歷下 (Shiji 94); Licheng 歷城 (Hanshu 28上); Qi Jun 齊郡 (Sui Shu 30; Licheng '大業初置'); Qizhou 齊州 (Jiu Tang Shu 38 '武德元年改為齊州'); Linzi Jun / Jinan Jun 臨淄郡-濟南郡 (Xin Tang Shu 38 '天寶元年更名臨淄，五載又更名'); Jinan Fu 濟南府 (Yuan Shi 58 '宋為濟南府。金因之'); Jinan Lu 濟南路 (Yuan Shi 58). KÜNYE ÖNERİLERİ: kunye_yok için zhang-bu-qi (27-29), cao-yi-qingzhou (~310-323), duan-kan-qi (350-356), onceki-yan (~337/352-370), sonraki-yan (384-407), guney-yan (398-410), li-mi-wagang (617-618), qi-liu-yu (1130-1137), sonraki-zhao (319-351), onceki-qin (351-394) — brifin listesinde olmayanlar. GENİŞLET: bati-han t -> 0009-01-10, cao-wei t -> 0266-02-08, kuzey-wei t -> 0534-11-08, dogu-wei t -> 0550-06-09, kuzey-qi t -> 0577-03-08, kuzey-zhou t -> 0581-03-04 (hepsi aynı polity/ardıl yapıda). BULUNAMADI: (1) 23-10 ile MS 27 arası Jinan'ın sahibi tarihli kaynakta yok; (2) Doğu Han içi (184-220) savaş ağaları, Pinglu jiedushi (765-819), Moğol-Jin 1213-1226 şehir sahibi günlü tanıklar; (3) Hou Hanshu Junguo zhi 'Jinan Guo' ve Song Shi 85 'Jinan Fu' sayfaları wikisource başlık biçimiyle açılamadı (404); (4) Shuijing zhu 8 (Ji su) wikisource sayfası Licheng bölümünü içermiyor (sayfa kısmi). ARK: arkeolojik katman taranmadı (kur/ark/bit = null). Çelişki: Jiu Tang Shu 38 '武德元年改為齊州' vs ZZTJ 187 (619-3 teslim) — sahip ZZTJ ile yazıldı. Takvim: Çin tarihleri Y.T. Liu ytliu0 ChineseCalendar çevirisidir (Jülyen); bölge: Doğu Wei/Kuzey Qi 'WeiQi', Kuzey Zhou 'WeiZhouSui', Yuan 'LiaoJinYuan', diğerleri 'default'."
+ },
+ {
+  "id": "jiujiang-cin",
+  "ad": "Jiujiang",
+  "atlas_ad": "Jiujiang",
+  "lat": 29.705,
+  "lon": 116.001,
+  "kat1900": 3,
+  "adlar": [
+   "Pen kou / 湓口 (Pen nehri ağzı; Jin Shu 15: Chaisang'ın Pen kou geçidi)",
+   "Pencheng / 湓城 (Jin: Pen kou şehri; Jiangzhou merkezi Xianhe 1 = 326)",
+   "Xunyang / 尋陽 (Sui 589: Chaisang ilçesi kaldırılıp Pen kou'da Xunyang ilçesi; Tang yeniden Xunyang)",
+   "Pengli / 彭蠡 (Kaihuang 18 = 598)",
+   "Pencheng / 湓城 (Daye 2 = 606; Jiujiang jun merkezi)",
+   "Jiangzhou / 江州, Xunyang jun (Tang)",
+   "Dehua / 德化 (Güney Tang ilçe adı)",
+   "Jiangzhou (Song; Kaibao 8 = 975 junshi)",
+   "Jiangzhou lu / 江州路 (Yuan)"
+  ],
+  "ilk": {
+   "t": "0311-01-01",
+   "gun": "311 (Yongjia 5)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Jin Shu 58 (Zhou Fang zhuan) + Zizhi tongjian 87 — https://zh.wikisource.org/wiki/晉書/卷058 ; Zizhi tongjian 87 — https://zh.wikisource.org/wiki/資治通鑑/卷087 ; Jin Shu 61 (Hua Yi) — https://zh.wikisource.org/wiki/晉書/卷061 ; Jin Shu 15 (Dili zhi) — https://zh.wikisource.org/wiki/晉書/卷015",
+   "tanik": "大戰於湓口，約等又敗",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Yongjia 5 (311, ZZTJ 87 bu yıla koyar): Langye Wang Sima Rui'ye boyun eğmeyen Jiangzhou ci shi Hua Yi'nin generali Wang Yue ve Fu Zha, Zhou Fang'a karşı '大戰於湓口' (Pen kou) bozulur; Hua Yi yenilip öldürülür (Jin Shu 58). Aynı kayıtta '王敦時鎮湓口' (Du Tao savaşı, 311-315). Daha eski YER-KESİN tanık: Jin Shu 15 (Wuchang jun, Chaisang ilçesi) '柴桑有湓口關' — Taikang dönemi, tarihsiz; 3 km kuralı için başlangıç olarak yıl kesin olan 311 alındı. ÖNEMLİ — ANTİK YERLER AYRI (>3 km): Han Chaisang (柴桑, Yuzhang jun, Hanshu 28上) Yuanhe junxian zhi'ye göre '柴桑城在潯陽縣西南二十里' (Yitongzhi 244; Hu Sansheng 九十里 der — çelişki), Taiping huanyu ji 111 '楚城驛在縣南即舊柴桑縣也'; Han Xunyang (Lujiang jun) Yangtze KUZEY kıyısında, bugünkü Hubei Huangmei sınırında (Yitongzhi 244: '漢時尋陽縣本在江北今湖北黄梅縣界'). İki antik yer buraya yazılmadı → ayrı kayıt önerisi: 'chaisang-han-cin' (kuzeydoğu Jiangxi, Jiujiang kentinin ~10 km GB'sı, kesin değil) ve 'xunyang-huangmei-cin'. KURULUŞ GELENEĞİ (doğrulanamayan): Yuanhe junxian zhi (aktaran Yitongzhi 244) '江州理城古之湓口城也，漢高帝六年灌嬰所築' ve Taiping huanyu ji 111 浪井 ('州圖經云漢高祖六年穎陰侯灌嬰所開…有石函其銘曰漢高祖六年潁陰侯開'; kuyu bugün şehir içinde) — Tang/Song kaynakları, çağdaş değil; Shiji 95 yalnız Guanying'ın Wu-Yuzhang-Kuaiji'yi sabitlediğini söyler. Başlangıç sayılmadı. YER EŞİTLEMESİ: Yitongzhi 244 '潯陽故城今徳化縣治本晉時柴桑縣之湓口城' (Yuanhe junxian zhi) ve Hu Sansheng '湓口在徳化縣西一里' → Pen kou eski şehri ~1 li (≈0,5 km) → 3 km kuralı sağlanır (ikincil kaynak). Ming Tongzhi'nin '潯陽城在府西十五里 (Meng Huaiyu)' iddiası Yitongzhi'de '無所據' diye reddedilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0311-01-01",
+    "t": "0316-12-11",
+    "d": "bati-jin",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Jin Shu 58 — https://zh.wikisource.org/wiki/晉書/卷058 ; Zizhi tongjian 87 — https://zh.wikisource.org/wiki/資治通鑑/卷087 ; Jin Shu 15 (Wuchang jun, Chaisang) — https://zh.wikisource.org/wiki/晉書/卷015",
+    "ic_not": "Batı Jin; Jiangzhou 291'de kuruldu (Jin Shu 15), Yongjia 1 (307) Xunyang jun Jiangzhou'ya bağlandı ('分廬江之尋陽、武昌之柴桑二縣置尋陽郡，屬江州'). 311: Langye Wang Sima Rui'nin (Doğu Jin'in çekirdeği) Hua Yi'ye saldırısı iç savaştır, sahip değişmez. Bitiş: ulusal künye geçişi.",
+    "tanik": "大戰於湓口，約等又敗"
+   },
+   {
+    "f": "0316-12-11",
+    "t": "0420-07-10",
+    "d": "dogu-jin",
+    "kesinlik": "gun",
+    "kaynak": "Taiping yulan 170 (Xunyang ji) — https://zh.wikisource.org/wiki/太平御覽/0170 ; Song Shu 1 (Wu di ji) — https://zh.wikisource.org/wiki/宋書/卷1 ; Jin Shu 100 (Lu Xun) — https://zh.wikisource.org/wiki/晉書/卷100",
+    "ic_not": "Doğu Jin; Xianhe 1 (326) Jiangzhou merkezi Pencheng'e taşınır (Taiping yulan 170). 403-404 Huan Xuan imparatoru Xunyang'a götürür, Liu Daogui Xunyang'ı alır (Song Shu 1); 410-411 Lu Xun/Xu Daofu Xunyang'ı tutar (Jin Shu 100) — kısa işgaller, dönem açılmadı.",
+    "tanik": "成帝咸和元年，移理湓城，即今郡是"
+   },
+   {
+    "f": "0420-07-10",
+    "t": "0479-05-29",
+    "d": "liu-song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shu 1 / Song Shu 36 — https://zh.wikisource.org/wiki/宋書/卷1",
+    "ic_not": "Liu Song; Jiangzhou Xunyang'da. Shengming 1 (477) Shen Youzhi isyanı: Jiangzhou ci shi Shaoling Wang Xiao You (Xiao Ze Xunyang'ı yetersiz bulup Pen kou'ya taşınır, Jiyao 85)."
+   },
+   {
+    "f": "0479-05-29",
+    "t": "0502-04-30",
+    "d": "guney-qi",
+    "kesinlik": "gun",
+    "kaynak": "Dushi fangyu jiyao 85 — https://zh.wikisource.org/wiki/讀史方輿紀要/卷八十五",
+    "ic_not": "Güney Qi; Yongyuan 3 (501) Xiao Yan Yingcheng'i alıp Jiangzhou'ya yönelir (Jiyao 85: '齊永元三年蕭衍克郢城，進向江州') — Jiangzhou ci shi Chen Bozhi'nin Xiao Yan'a bağlanışı gün olarak açılmadı; bu kayıtta Qi ile Liang geçişi ulusal gündür."
+   },
+   {
+    "f": "0502-04-30",
+    "t": "0557-11-16",
+    "d": "liang-guney",
+    "kesinlik": "gun",
+    "kaynak": "Chen Shu 9 (Hou Tian) — https://zh.wikisource.org/wiki/陳書/卷9 ; Zizhi tongjian 162 — https://zh.wikisource.org/wiki/資治通鑑/卷162",
+    "ic_not": "Liang; Taiqing 3 (549) Hou Jing'in Jiankang'ı almasından sonra Boyang Wang Xiao Fan Pencheng'e çekilir (Chen Shu 9: '仍隨範徙鎮湓城'); Xiao Fan ve oğlu orada ölür.",
+    "tanik": "仍隨範徙鎮湓城"
+   },
+   {
+    "f": "0557-11-16",
+    "t": "0589-02-02",
+    "d": "chen",
+    "kesinlik": "gun",
+    "kaynak": "Dushi fangyu jiyao 85 — https://zh.wikisource.org/wiki/讀史方輿紀要/卷八十五 ; Yitongzhi 244 — https://zh.wikisource.org/wiki/欽定大清一統志_(四庫全書本)/卷244",
+    "ic_not": "Chen; Tianjia başı (560) Chaisang'dan Xi Jiangzhou ayrılır, Tianjia başı yine Jiangzhou (Yitongzhi 244 '陳時又於縣分置西江州天嘉初復為江州').",
+    "tanik": "陳時又於縣分置西江州"
+   },
+   {
+    "f": "0589-02-02",
+    "t": "0618-06-18",
+    "d": "sui",
+    "kesinlik": "gun",
+    "kaynak": "Sui Shu 31 (Dili zhi, Jiujiang jun) — https://zh.wikisource.org/wiki/隋書/卷31",
+    "ic_not": "Sui; Sui Shu 31: '湓城舊曰柴桑，置尋陽郡。…平陳，郡廢，又廢汝南、柴桑二縣，立尋陽縣，十八年改曰彭蠡。大業初置郡，縣改名焉' — Xunyang adı Pen kou'ya geçer; Daye 2 Jiujiang jun merkezi Pencheng.",
+    "tanik": "平陳，郡廢，又廢汝南、柴桑二縣，立尋陽縣"
+   },
+   {
+    "f": "0618-06-18",
+    "t": "0622-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Xin Tang Shu 87 (Lin Shihong) — https://zh.wikisource.org/wiki/新唐書/卷087 ; Taiping huanyu ji 111 (De'an xian) — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷111",
+    "ic_not": "Sui çöküşünden Tang'ın Wude 5 (622) yerleşmesine dek sahip tek künyeyle yazılamaz: Xin Tang Shu 87: Lin Shihong '俄僭號楚…侍御史鄭大節以九江郡下之' (Jiujiang jun Lin Shihong'a teslim; yıl yazılı değil); Taiping huanyu ji 111: '隋末陷入賊林士宏'; Xiao Xian ve Zhang Shan'an'ın Jiujiang ile ilişkisi açılan sayfalarda yok. Öneri künye: lin-shihong-chu (tarihleri doğrulanmadı). Yaklaşıklık yazılmadı."
+   },
+   {
+    "f": "0622-01-01",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Taiping huanyu ji 111 (De'an xian) — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷111",
+    "ic_not": "Tang; f = en geç tanıktan: Wude 5 (622) anfushi Li Daliang Pencheng'den Xunyang ve Chucheng ilçelerini ayırır (Taiping huanyu ji 111). Xin Tang Shu 87: Wude 6 (623) Zhang Shan'an isyanı (Jiujiang etkisi yazılı değil).",
+    "tanik": "唐武徳五年安撫使李大亮析湓城更置潯陽楚城兩縣"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 6 — https://zh.wikisource.org/wiki/舊唐書/卷6",
+    "ic_not": "Wu Zhou; Jiujiang'e özgü kayıt yok."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0906-01-01",
+    "d": "tang",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Zizhi tongjian 265 — https://zh.wikisource.org/wiki/資治通鑑/卷265 ; Xin Tang Shu 190 — https://zh.wikisource.org/wiki/新唐書/卷190",
+    "ic_not": "Tang; Tianyou 3 (906) Zhennan jiedushi Zhong Chuan'un evlatlık/oğlu Jiangzhou ci shi (ZZTJ: Yangui; Xin Tang Shu 190: Kuangfan) kardeşine kızıp Jiangzhou'yu Yang Wu'ya bağlar. Bitiş yıl hassasiyeti (ZZTJ ay vermez; 5. aydan önce).",
+    "tanik": "延規恨不得立，遣使降淮南"
+   },
+   {
+    "f": "0906-01-01",
+    "t": "0937-11-10",
+    "d": "yang-wu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Zizhi tongjian 265 — https://zh.wikisource.org/wiki/資治通鑑/卷265 ; Xin Tang Shu 190 — https://zh.wikisource.org/wiki/新唐書/卷190 ; Taiping huanyu ji 111 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷111",
+    "ic_not": "Yang Wu; Xin Tang Shu 190: '匡範為江州刺史，怨兄立，挈州附淮南'.",
+    "tanik": "次子匡範為江州刺史，怨兄立，挈州附淮南"
+   },
+   {
+    "f": "0937-11-10",
+    "t": "0976-01-01",
+    "d": "guney-tang",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 111 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷111 ; Song Shi 88 — https://zh.wikisource.org/wiki/宋史/卷088",
+    "ic_not": "Güney Tang; Taiping huanyu ji 111: '偽唐改為徳化縣' (Xunyang → Dehua); Fenghua jun jiedu (Yitongzhi). Bitiş: Kaibao 8 (975) '江南平' (Song Shi 3); Jiangzhou'nun kendi teslim günü açılan sayfalarda yok.",
+    "tanik": "偽唐改為徳化縣"
+   },
+   {
+    "f": "0976-01-01",
+    "t": "1275-02-11",
+    "d": "song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shi 88 (Dili zhi, Jiangzhou) — https://zh.wikisource.org/wiki/宋史/卷088 ; Song Shi 25 — https://zh.wikisource.org/wiki/宋史/卷025 ; Yuan Shi 8 — https://zh.wikisource.org/wiki/元史/卷008",
+    "ic_not": "Song; Kaibao 8 (975) Jiangzhou junshi'ye indirilir (Song Shi 88). Jianyan 3 (1129) 10. ay Jin Huangzhou'dan Yangtze'yi geçince vali Han Lü şehri bırakıp kaçar (Song Shi 25) — kısa Jin çıkarması, sonra çekildi; dönem açılmadı. Bitiş: Zhiyuan 12 (1275) 1. ay 丙戌 Jiangxi anfushi, zhi Jiangzhou Qian Zhensun teslim (Yuan Shi 8).",
+    "tanik": "江州，上，潯陽郡，開寶八年，降爲軍事"
+   },
+   {
+    "f": "1275-02-11",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Yuan Shi 8 — https://zh.wikisource.org/wiki/元史/卷008 ; Yuan Shi 9 — https://zh.wikisource.org/wiki/元史/卷009",
+    "ic_not": "Yuan; atlasın ilk sahibi (yuan-hanedani) ile aynı. Yuan Shi 9 (1276): '江東江西大都督知江州呂師夔' (Lü Shikui Jiangzhou valisi).",
+    "tanik": "宋江西安撫使、知江州錢真孫及淮西路六安軍曹明以城降"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0311-01-01",
+    "gun": "311 (Yongjia 5)",
+    "k": "savas",
+    "b": "Jiangzhou ci shi Hua Yi, Langye Wang'ın emirlerini tanımadığı için Wang Dun, Gan Zhuo, Zhou Fang saldırır; Pen kou'daki büyük savaşta Wang Yue/Fu Zha bozulur, Hua Yi yenilip öldürülür (Jin Shu 58; ZZTJ 87). Yongjia 5: ZZTJ 87 başlığı.",
+    "kaynak": "Jin Shu 58 — https://zh.wikisource.org/wiki/晉書/卷058 ; Zizhi tongjian 87 — https://zh.wikisource.org/wiki/資治通鑑/卷087",
+    "tanik": "大戰於湓口，約等又敗"
+   },
+   {
+    "t": "0316-12-11",
+    "gun": "Jianxing 4 (316), 11. ay 乙未",
+    "k": "diger",
+    "b": "künye geçişi: Batı Jin → Doğu Jin (Min Di Chang'an'da Han-Zhao'ya teslim olur; Jin devleti Jiankang'da sürer).",
+    "kaynak": "Jin Shu 5 (Min di ji) https://zh.wikisource.org/wiki/晉書/卷005 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen (metinde '乙末' yazım hatası, 乙未 okundu)",
+    "tanik": "帝乘羊車，肉袒銜壁，輿櫬出降"
+   },
+   {
+    "t": "0326-01-01",
+    "gun": "Xianhe 1 (326)",
+    "k": "idari",
+    "b": "Jiangzhou merkezi Pencheng'e taşınır (Taiping yulan 170: Xunyang ji aktarımı).",
+    "kaynak": "Taiping yulan 170 — https://zh.wikisource.org/wiki/太平御覽/0170",
+    "tanik": "成帝咸和元年，移理湓城，即今郡是"
+   },
+   {
+    "t": "0403-12-01",
+    "gun": "403 sonu (Yuanxing 2 12. ay; Song Shu yıl vermez, ay belirtir)",
+    "k": "taht",
+    "b": "Huan Xuan tahtı gasp eder ve Jin imparatorunu Xunyang'a götürür; Jiangzhou ci shi Guo Chang Xunyang'da '乘輿'u kabul eder (Song Shu 1). 404'te Liu Daogui ve He Wuji Xunyang'ı alır. KISA İŞGAL, dönem açılmadı.",
+    "kaynak": "Song Shu 1 — https://zh.wikisource.org/wiki/宋書/卷1",
+    "tanik": "十二月，桓玄篡帝位，遷天子於尋陽"
+   },
+   {
+    "t": "0411-01-01",
+    "gun": "411 (Yixi 7); Jin Shu yıl vermez",
+    "k": "isyan",
+    "b": "Lu Xun Jiankang'da başarısız olunca Xunyang'a çekilip kuvvet toplar; Liu Yu onu Leichi'de yener (Jin Shu 100). Kısa işgal.",
+    "kaynak": "Jin Shu 100 — https://zh.wikisource.org/wiki/晉書/卷100",
+    "tanik": "復據尋陽"
+   },
+   {
+    "t": "0420-07-10",
+    "gun": "Yongchu 1 (420), 6. ay 丁卯",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Jin → Liu Song (Liu Yu Jin'i devirir).",
+    "kaynak": "Song Shu 3 (Wu di xia) https://zh.wikisource.org/wiki/宋書/卷3 ; Sinica sinocal, Jülyen",
+    "tanik": "永初元年夏六月丁卯，設壇於南郊，即皇帝位"
+   },
+   {
+    "t": "0477-01-01",
+    "gun": "Shengming 1 (477)",
+    "k": "diger",
+    "b": "Song Shen Youzhi Jiangling'de isyan eder; Jiangzhou ci shi Shaoling Wang Xiao You'nun yardımcısı Xiao Ze Xunyang şehrini yetersiz bulup valiyi Pen kou'ya taşımayı önerir, Xunyang'da biyik muhafız bırakır (Jiyao 85; Yitongzhi 244 Qi Shu aktarımı).",
+    "kaynak": "Dushi fangyu jiyao 85 — https://zh.wikisource.org/wiki/讀史方輿紀要/卷八十五",
+    "tanik": "蕭賾以尋陽城不足固，表請鎮湓口，留別將戍尋陽"
+   },
+   {
+    "t": "0479-05-29",
+    "gun": "Jianyuan 1 (479), 4. ay 甲午",
+    "k": "diger",
+    "b": "künye geçişi: Liu Song → Güney Qi (Xiao Daocheng).",
+    "kaynak": "Nan Qi Shu 2 (Gao di xia) https://zh.wikisource.org/wiki/南齊書/卷2 ; Sinica sinocal, Jülyen",
+    "tanik": "建元元年夏四月甲午，上即皇帝位於南郊"
+   },
+   {
+    "t": "0502-04-30",
+    "gun": "Tianjian 1 (502), 4. ay 丙寅",
+    "k": "diger",
+    "b": "künye geçişi: Güney Qi → Liang (Xiao Yan).",
+    "kaynak": "Liang Shu 2 (Wu di zhong) https://zh.wikisource.org/wiki/梁書/卷02 ; Sinica sinocal, Jülyen",
+    "tanik": "天監元年夏四月丙寅，高祖卽皇帝位於南郊"
+   },
+   {
+    "t": "0549-01-01",
+    "gun": "Taiqing 3 (549)",
+    "k": "diger",
+    "b": "Jiankang düşünce Boyang Wang Xiao Fan Hefei'den Pencheng'e çekilir ve orada ölür (Chen Shu 9).",
+    "kaynak": "Chen Shu 9 — https://zh.wikisource.org/wiki/陳書/卷9",
+    "tanik": "仍隨範徙鎮湓城"
+   },
+   {
+    "t": "0557-11-16",
+    "gun": "Yongding 1 (557), 10. ay 乙亥",
+    "k": "diger",
+    "b": "künye geçişi: Liang → Chen (Chen Baxian).",
+    "kaynak": "Chen Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 35 ; Sinica sinocal, Jülyen",
+    "tanik": "永定元年冬十月乙亥，高祖即皇帝位于南郊"
+   },
+   {
+    "t": "0589-01-01",
+    "gun": "Kaihuang 9 (589)",
+    "k": "idari",
+    "b": "Sui Chen'i yenince Xunyang komutanlığını ve Chaisang ilçesini kaldırır, Pen kou'da Xunyang ilçesini kurar; Kaihuang 18'de Pengli, Daye'de Pencheng adı (Sui Shu 31).",
+    "kaynak": "Sui Shu 31 — https://zh.wikisource.org/wiki/隋書/卷31",
+    "tanik": "平陳，郡廢，又廢汝南、柴桑二縣，立尋陽縣"
+   },
+   {
+    "t": "0589-02-02",
+    "gun": "2 Şubat 589",
+    "k": "fetih",
+    "b": "Sui generali Han Qinhu Jianye'ye girer, Chen hükümdarı Chen Shubao esir alınır (開皇9 1. ay 丙子; c2w 589 1/12 丙子); Chen devleti biter. (Jiujiang/Xunyang'ın yerel teslim kaydı bulunamadı; Sui Shu 31: Xunyang ilçesi Pen kou'da kurulur.)",
+    "kaynak": "隋書 卷2 高祖紀下, https://zh.wikisource.org/wiki/隋書/卷02",
+    "tanik": "韓擒虎進師入建鄴"
+   },
+   {
+    "t": "0618-06-18",
+    "gun": "Wude 1 (618), 5. ay 甲子",
+    "k": "diger",
+    "b": "künye geçişi: Sui → Tang (Li Yuan imparator olur).",
+    "kaynak": "Jiu Tang Shu 1 (Gao zu) https://zh.wikisource.org/wiki/舊唐書/卷1 ; Sinica sinocal, Jülyen",
+    "tanik": "甲子，高祖即皇帝位於太極殿"
+   },
+   {
+    "t": "0622-01-01",
+    "gun": "Wude 5 (622)",
+    "k": "idari",
+    "b": "Anfushi Li Daliang Pencheng'den Xunyang ve Chucheng ilçelerini ayırır; Zhang Shan'an Tang'a bağlanır (Taiping huanyu ji 111; Xin Tang Shu 87). Tang kontrolünün en geç tanığı.",
+    "kaynak": "Taiping huanyu ji 111 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷111 ; Xin Tang Shu 87 — https://zh.wikisource.org/wiki/新唐書/卷087",
+    "tanik": "唐武徳五年安撫使李大亮析湓城更置潯陽楚城兩縣"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "Tianshou 1 (690), 9. ay 九日 壬午",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wu Zhou (Wu Zetian 'Zhou' hanedanını ilan eder).",
+    "kaynak": "Jiu Tang Shu 6 (Wu hou) https://zh.wikisource.org/wiki/舊唐書/卷6 ; Sinica sinocal, Jülyen (iki 壬午: 08-17 / 10-16; 10-16 seçildi)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "Shenlong 1 (705), 2. ay 甲寅",
+    "k": "diger",
+    "b": "künye geçişi: Wu Zhou → Tang (Zhongzong 'Tang' adını geri getirir).",
+    "kaynak": "Jiu Tang Shu 7 (Zhong zong) https://zh.wikisource.org/wiki/舊唐書/卷7 ; Sinica sinocal, Jülyen",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0906-01-01",
+    "gun": "Tianyou 3 (906) 4. ay civarı; ZZTJ ay vermez",
+    "k": "diger",
+    "b": "Zhennan jiedushi Zhong Chuan ölür; evlatlık oğlu Jiangzhou ci shi Yangui (Xin Tang Shu 190: öz oğlu Kuangfan) halef kardeşe öfkelenip Yang Wu'ya bağlanır, Huainan'ın lehine dedikodu çıkarır (ZZTJ 265; Xin Tang Shu 190). Jiangzhou Yang Wu'ya geçer.",
+    "kaynak": "Zizhi tongjian 265 — https://zh.wikisource.org/wiki/資治通鑑/卷265 ; Xin Tang Shu 190 — https://zh.wikisource.org/wiki/新唐書/卷190",
+    "tanik": "延規恨不得立，遣使降淮南"
+   },
+   {
+    "t": "0937-11-10",
+    "gun": "10 Kasım 937",
+    "k": "diger",
+    "b": "künye geçişi: Yang Wu → Güney Tang; Xu Zhigao Jinling'de imparator olur, ülke adı 'Tang' (c2w 937 10/5 甲申).",
+    "kaynak": "資治通鑑 卷281 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷281",
+    "tanik": "齊王誥即皇帝位於金陵，大赦，改元升元，國號唐"
+   },
+   {
+    "t": "0976-01-01",
+    "gun": "Kaibao 8 (975), 11. ay 乙未 — 976-01-01",
+    "k": "fetih",
+    "b": "Song Cao Bin Shengzhou'yu alır, Li Yu'yu esir eder, '江南平' (Song Shi 3). Jiangzhou aynı yıl junshi'ye indirilir (Song Shi 88). Jiangzhou'nun kendi teslimi açılan sayfalarda bulunamadı.",
+    "kaynak": "Song Shi 3 — https://zh.wikisource.org/wiki/宋史/卷003 ; Song Shi 88 — https://zh.wikisource.org/wiki/宋史/卷088 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "乙未，曹彬克昇州，俘其國主煜，江南平"
+   },
+   {
+    "t": "1129-12-09",
+    "gun": "Jianyan 3 (1129), 10. ay 辛丑",
+    "k": "isgal",
+    "b": "Jin Huangzhou'dan Yangtze'yi geçer, Liu Guangshi ordusuyla çekilir, Jiangzhou zhi Han Lü şehri bırakıp kaçar (Song Shi 25); aynı ay Jin Daye'den Hongzhou'ya yürür. Kısa Jin çıkarması; kalıcı hâkimiyet yazılı değil, dönem açılmadı.",
+    "kaynak": "Song Shi 25 — https://zh.wikisource.org/wiki/宋史/卷025 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "知江州韓梠棄城去"
+   },
+   {
+    "t": "1275-02-11",
+    "gun": "Zhiyuan 12 (1275), 1. ay 丙戌",
+    "k": "fetih",
+    "b": "Yuan ordusu Jiangzhou'ya gelir; Song Jiangxi anfushi, zhi Jiangzhou Qian Zhensun ve Liu'an jun Cao Ming şehri teslim eder; ertesi gün Nankang jun zhi Ye Chang da teslim (Yuan Shi 8).",
+    "kaynak": "Yuan Shi 8 — https://zh.wikisource.org/wiki/元史/卷008 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "宋江西安撫使、知江州錢真孫及淮西路六安軍曹明以城降"
+   }
+  ],
+  "ic_not": "Jiujiang (atlas ilk sahiplik 1281-01-01 yuan-hanedani). ① BAŞLANGIÇ: 311 (Pen kou savaşı); 3 km kuralı gereği antik Chaisang (Han, Yuzhang jun; ~10 km GB, Yuanhe: 20 li) ve Han Xunyang (Yangtze kuzey kıyısı, Huangmei) buraya yazılmadı → ayrı kayıt önerileri 'chaisang-han-cin', 'xunyang-huangmei-cin' (konumlar kesin değil, ilk.ic_not). ② GELENEK (başlangıç sayılmadı): Guanying'ın MÖ 201'de Pen kou şehrini kurması / Lang kuyusu (Yuanhe junxian zhi; Taiping huanyu ji 111) — Tang/Song aktarımı, çağdaş doğrulama yok. Atlas başlangıcı düzeltmesi GEREKMEZ (ilk tanık 311, atlas 1281). ③ BOŞLUK: 618-06-18–622-01-01 (Lin Shihong/Xiao Xian/Zhang Shan'an; öneri künye lin-shihong-chu). ④ KÜNYE: kuzey/güney hanedan geçişleri ulusal kataloğa göre; tang künyesi 907 ile bitiyor (zincir 906), sun-wu bu kayıtta yok. Uyarılar (bati-jin.t 0316-01-01, dogu-jin.t 0420-01-01 vb.) künye GENİŞLET önerisini doğurur. ⑤ KISA İŞGALLER (dönem açılmadı): 403-404 Huan Xuan, 410-411 Lu Xun, 1129-10 Jin. ⑥ ÇELİŞKİ: Zhong Chuan'ın Jiangzhou valisi oğlu — ZZTJ 265 '養子延規' / Xin Tang Shu 190 '次子匡範' (iki ad beyan; Jiang'nin 906 Yang Wu'ya geçişi her ikisinde de var). Chaisang mesafesi Yuanhe 20 li / Hu Sansheng 90 li (Yitongzhi 244) beyan. ⑦ ÇİFT TEYİT: Jiangzhou 906 geçişi ZZTJ 265 ve Xin Tang Shu 190 (iki bağımsız); 1275 teslim Yuan Shi 8 (tek). Açılamayan: Yuanhe junxian zhi Jiangzhou sayfası (元和郡縣圖志/卷28) açılmadı; Sui Shu 24-25 ve Hou Han Shu 112 taranmadı; Han Xunyang Huangmei konumu yalnız Yitongzhi 244'ten."
  },
  {
   "id": "kaifeng-cin",
@@ -12315,6 +13314,488 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış 14 Haziran 1158: Bayerisches Hauptstaatsarchiv belgesi (Barbarossa hakem kararı; Augsburg). Arşiv sayfası 'kuruluş belgesi yok, ilk anılış' diyor → nicelik ilk_anilis, kur=null. Treccani EI 'Monaco' kuruluşu 'probabilmente nel 1158' Aslan Henry'ye atfeder (kuruluş iddiası; belge değil) — kur YAZILMADI. Köprü 1180 Regensburg kararında geçer (gda 'Ludwigsbrücke' notu, açılmadı). Çift teyit: arşiv (1158) + Treccani EI (1158 ca.) — Treccani 'ca.' dediği için tam çift teyit sayılmaz. Atlas Münih 1281 'almanya': tutarlı (Bavyera dükalığı Reich içinde)."
  },
  {
+  "id": "nanchang-cin",
+  "ad": "Nanchang",
+  "atlas_ad": "Nanchang",
+  "lat": 28.682,
+  "lon": 115.858,
+  "kat1900": 2,
+  "adlar": [
+   "Nanchang / 南昌 (Han: Yuzhang jun merkezi; Shuijing zhu 39: 南昌縣故城)",
+   "Yishan / 宜善 (Wang Mang adı; Yuzhang jun → Jiujiang jun)",
+   "Xi'an / 西安 (Jian'an adı, Shuijing zhu)",
+   "Yuzhang / 豫章 (Jin; Sui 589: Nanchang ilçesi Yuzhang xian)",
+   "Hongzhou / 洪州 (Sui 589; Tang Wude 5 = 622 dudu fu)",
+   "Zhongling / 鍾陵 (Baoying 1 = 762 ilçe adı; Zhenyuan: yine Nanchang)",
+   "Longxing fu / 隆興府 (Song, Longxing 3 = 1165)",
+   "Longxing lu / 隆興路 (Yuan)"
+  ],
+  "ilk": {
+   "t": "-0200-01-01",
+   "gun": "MÖ 201 (Gaozu 6)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Shuijing zhu 39 (Li Daoyuan, Kuzey Wei; Gan nehri bölümü) — https://zh.wikisource.org/wiki/水經注/39 ; Taiping huanyu ji 106 (Yuzhang ji aktarımı: Gaozu 6 Guanying) — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106 ; Shiji 95 (Guanying Wu-Yuzhang-Kuaiji'yi sabitler) — https://zh.wikisource.org/wiki/史記/卷095",
+   "tanik": "漢高祖六年，始命陳嬰以爲豫章郡，治此，即陳嬰所築也",
+   "ic_not": "KURULUŞ TANIĞI (yazılı, Kuzey Wei): Shuijing zhu 39, '贛水又北逕南昌縣故城西…漢高祖六年，始命陳嬰以爲豫章郡，治此，即陳嬰所築也' — Gaozu 6 (MÖ 201) Yuzhang commandery'nin merkezi bu şehirdir ve Chen Ying (陳嬰) kurmuştur. ÇELİŞKİ (ikisi beyan): Taiping huanyu ji 106 '豫章記云漢高六年大將軍灌嬰所築城有六門' (inşa eden Guanying 灌嬰); Shiji 95 yalnız '遂定吳、豫章、會稽郡' der (şehir adı yok); Yitongzhi 238 Shuijing zhu'yu '灌嬰' diye aktarır (metin düzeltmesi). Shuijing zhu'nun sayfa metni '陳嬰' verir → birincil dil esas alındı, kurucu adı belirsiz. KURUCU ≠ SİYASİ SAHİP: Hanshu 1下 (Gaozu 5, 2. ay 甲午) '以長沙、豫章、象郡、桂林、南海立番君芮為長沙王' → Yuzhang Wu Rui'nin Changsha krallığına verildi; Hanshu 34 (Ying Bu zhuan): Huainan Wang Ying Bu'ya Jiujiang, Lujiang, Hengshan ve Yuzhang bağlandı — kaynaklar vasal krallık atamasında çelişir; zincirde bati-han (vasal krallıklar Han içinde). ARKEOLOJİK DOĞRULAMA BULUNAMADI. Kazı raporu/akademik makale aranmadı bu oturumda (yalnız Çince birincil metin). YER EŞİTLEMESİ (ikincil, kesin değil): Jiyao 84 '豫章城，今郡城也' ve Chengyi kao (aktaran Jiyao/Yitongzhi) '漢城周十里八十四步，開六門，南曰松陽門…唐…於是廣倍於漢城' → Han şehri Tang/Song Hongzhou surlarının çekirdeği; ancak Yitongzhi 238 '南昌故城在今南昌縣東' ve '古今記：灌嬰城在今縣東灌城鄉城隍橋西，今為黃城寺' (Jiyao 84 aynı) başka bir yer söyler; Yitongzhi: '南昌縣凡三改五移' (ilçe merkezi taşınmış). Mesafe hiçbir açılan kaynakta yok. 3 km KURALI: Han şehri >3 km çıkarsa (Guancheng xiang/Huangchengsi) bu kayıt Sui Hongzhou'dan (589) başlamalı, Han şehri ayrı kayıt 'guancheng-han-cin' olmalıdır. Atlas noktası (28.682, 115.858) kentsel çekirdek içindedir (OSM Nominatim 'Nanchang' 28.647,116.035 ilçe merkezini verir, kent merkezini değil — karşılaştırmada kullanılmadı)."
+  },
+  "kur": {
+   "t": "-0200-01-01",
+   "gun": "MÖ 201 (Gaozu 6)",
+   "kesinlik": "yil",
+   "kaynak": "Shuijing zhu 39 (Kuzey Wei) — https://zh.wikisource.org/wiki/水經注/39",
+   "tanik": "漢高祖六年，始命陳嬰以爲豫章郡，治此，即陳嬰所築也"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0200-01-01",
+    "t": "0009-01-10",
+    "d": "bati-han",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Shuijing zhu 39 — https://zh.wikisource.org/wiki/水經注/39 ; Hanshu 28上 (Dili zhi, Yuzhang jun 18 ilçe) — https://zh.wikisource.org/wiki/漢書/卷028上 ; Hanshu 1下 — https://zh.wikisource.org/wiki/漢書/卷001下 ; Hanshu 34 — https://zh.wikisource.org/wiki/漢書/卷034",
+    "ic_not": "Han; Yuzhang jun'un merkezi. Vasal krallık atamaları: Gaozu 5 Changsha (Wu Rui), Huainan (Ying Bu, 196'da isyan), sonra imparatorluk komutanlığı (Hanshu 28上 18 ilçe: 南昌 ilk sırada). Wu Wang Liu Bi (195-154) Yuzhang'ı kapsamaz (Shiji 106 aranmadı).",
+    "tanik": "縣十八：南昌，廬陵，彭澤，鄱陽"
+   },
+   {
+    "f": "0009-01-10",
+    "t": "0023-10-06",
+    "d": "xin",
+    "kesinlik": "gun",
+    "kaynak": "Shuijing zhu 39 — https://zh.wikisource.org/wiki/水經注/39 ; Hanshu 99上 — https://zh.wikisource.org/wiki/漢書/卷099上",
+    "ic_not": "Xin; Shuijing zhu 39: '王莽更名，縣曰宜善，郡曰九江焉' (Nanchang → Yishan; Yuzhang jun → Jiujiang jun).",
+    "tanik": "王莽更名，縣曰宜善，郡曰九江焉"
+   },
+   {
+    "f": "0023-10-06",
+    "t": "0025-08-05",
+    "d": "__BOSLUK__",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 106 (Longsha miao: Yuzhang taishou Jia Meng) — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106 ; Hou Han Shu 1上 — https://zh.wikisource.org/wiki/後漢書/卷1上",
+    "ic_not": "Wang Mang'ın ölümünden Guangwu'nun taç giymesine dek sahip kaynakta bulunamadı. Taiping huanyu ji: '龍沙廟即西漢末太守賈萌也，萌與安成侯張普共謀誅王莽，普反，王莽收萌而殺之' (Xin sonu Yuzhang valisi; Gengshi/Guangwu atamaları açılan sayfalarda yok). Hou Han Shu 1上: Gengshi çağı yerel hâkimler (Li Xian Huainan Wang) Yuzhang'ı kapsıyor mu yazılı değil."
+   },
+   {
+    "f": "0025-08-05",
+    "t": "0220-11-25",
+    "d": "dogu-han",
+    "kesinlik": "gun",
+    "kaynak": "Shuijing zhu 39 (Chen Fan/Xu Zhi: Yuzhang taishou) — https://zh.wikisource.org/wiki/水經注/39 ; Zizhi tongjian 63 (Sun Ce Yuzhang) — https://zh.wikisource.org/wiki/資治通鑑/卷063",
+    "ic_not": "Doğu Han; Jian'an 4 (199) 12. ay Sun Ce Yuzhang taishou Hua Xin'in teslimini alır, Yuzhang'ı Lujiang ile ayırır; Han unvanı altında (Sun Ce Han'ın Wu hou'su) — formel sahip Han, fiilî Sun. Künye geçişi 220-11-25 (Fuzhou/Suzhou kayıtlarındaki gibi).",
+    "tanik": "歆葛巾迎策"
+   },
+   {
+    "f": "0220-11-25",
+    "t": "0280-05-01",
+    "d": "sun-wu",
+    "kesinlik": "gun",
+    "kaynak": "Shuijing zhu 39 (Jia He, Xi'an adı) — https://zh.wikisource.org/wiki/水經注/39 ; Jin Shu 15 — https://zh.wikisource.org/wiki/晉書/卷015",
+    "ic_not": "Sun Wu; Shuijing zhu 39: '建安中，更名西安，晉又名為豫章' (Jian'an adı Xi'an). Wu'nun Yuzhang taishou: Zhang Jun, Xu Xi, Xiahou Song (Shuijing zhu 39).",
+    "tanik": "建安中，更名西安"
+   },
+   {
+    "f": "0280-05-01",
+    "t": "0316-12-11",
+    "d": "bati-jin",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shu 15 (Dili zhi: Jiangzhou 291) — https://zh.wikisource.org/wiki/晉書/卷015",
+    "ic_not": "Batı Jin; Yuankang 1 (291) Yangzhou'nun Yuzhang, Poyang, Luling, Linchuan, Nankang ve Jianan/Jin'an ile Jingzhou'nun Wuchang, Guiyang, Anchang komutanlıkları birleştirilip Jiangzhou kurulur (Jin Shu 15); Taiping huanyu ji 106: '東晉嘗置江州於此'.",
+    "tanik": "因江水之名而置江州"
+   },
+   {
+    "f": "0316-12-11",
+    "t": "0420-07-10",
+    "d": "dogu-jin",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 106 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106 ; Jin Shu 100 (Lu Xun) — https://zh.wikisource.org/wiki/晉書/卷100",
+    "ic_not": "Doğu Jin; Jiangzhou bir süre Yuzhang'dadır (Taiping huanyu ji 106: '東晉嘗置江州於此'). Jiangzhou merkezi Xianhe 1 (326) Pencheng'e taşındı (Taiping yulan 170; Jiujiang kaydı).",
+    "tanik": "東晉嘗置江州於此"
+   },
+   {
+    "f": "0420-07-10",
+    "t": "0479-05-29",
+    "d": "liu-song",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 106 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106",
+    "ic_not": "Liu Song; Taiping huanyu ji: '宋齊以後並為豫章郡'.",
+    "tanik": "宋齊以後並為豫章郡"
+   },
+   {
+    "f": "0479-05-29",
+    "t": "0502-04-30",
+    "d": "guney-qi",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 106 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106",
+    "ic_not": "Güney Qi; Yuzhang jun (Taiping huanyu ji 106)."
+   },
+   {
+    "f": "0502-04-30",
+    "t": "0557-11-16",
+    "d": "liang-guney",
+    "kesinlik": "gun",
+    "kaynak": "Chen Shu 9 (Hou Tian) — https://zh.wikisource.org/wiki/陳書/卷9",
+    "ic_not": "Liang; 548-552 Hou Jing isyanı: Yuzhang taishou Zhuang Tie Hou Jing yanlısı olur, Hou Tian onu öldürüp Yuzhang'ı alır (Chen Shu 9); Liang içi hâkimiyet, sahip Liang.",
+    "tanik": "詐引鐵謀事，因而刃之，據有豫章之地"
+   },
+   {
+    "f": "0557-11-16",
+    "t": "0589-02-02",
+    "d": "chen",
+    "kesinlik": "gun",
+    "kaynak": "Chen Shu 9 — https://zh.wikisource.org/wiki/陳書/卷9",
+    "ic_not": "Chen; Hou Tian Chen Wudi'ye bağlı (Chen Shu 9)."
+   },
+   {
+    "f": "0589-02-02",
+    "t": "0618-06-18",
+    "d": "sui",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 106 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106 ; Sui Shu 31 (Dili zhi, Yuzhang jun) — https://zh.wikisource.org/wiki/隋書/卷31",
+    "ic_not": "Sui; Taiping huanyu ji 106: '隋平陳，改為豫章縣，以郡名邑' ve '隋平陳罷郡為洪州，煬帝初廢州又為豫章郡'.",
+    "tanik": "隋平陳罷郡為洪州"
+   },
+   {
+    "f": "0618-06-18",
+    "t": "0622-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Xin Tang Shu 87 (Lin Shihong, Xiao Xian, Zhang Shan'an) — https://zh.wikisource.org/wiki/新唐書/卷087",
+    "ic_not": "Sui çöküşünden Tang'ın Wude 5 (622) atamasına dek Nanchang'ın sahibi tek bir künyeyle yazılamaz: Xin Tang Shu 87: Daye 12 (616) Cao Shiqi (操師乞) '元興王' Yuzhang'ı tutar; Lin Shihong onun yerine '楚' (Taiping) imparatoru olur, '後蕭銑以舟師破豫章，士弘獨有南昌、虔、循、潮之地'; Xiao Xian'ın generali Su Huer Yuzhang'ı alır, sonra Zhang Shan'an '奪其地，據以歸國，授洪州總管'. Aralıkların günleri yazılı değil; künye listesinde lin-shihong-chu, cao-shiqi-yuanxing, xiao-xian-liang yok (öneri id'ler). Yaklaşıklık yazılmadı."
+   },
+   {
+    "f": "0622-01-01",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Xin Tang Shu 87 (Lin Shihong) — https://zh.wikisource.org/wiki/新唐書/卷087 ; Taiping huanyu ji 106 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106",
+    "ic_not": "Tang; f = en geç tanıktan: Wude 5 (622) Lin Shihong'un generali Wang Rong '南昌地'ni teslim eder, Tang '南昌州總管' atar (Xin Tang Shu 87); Taiping huanyu ji 106: Wude 5 Hongzhou zongguan fu. Wude 6 (623) Zhang Shan'an Fu Gongshi'ye bağlanıp isyan etti (Xin Tang Shu 87) — kısa isyan, dönem açılmadı.",
+    "tanik": "王戎亦獻南昌地，詔戎為南昌州總管"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 6 — https://zh.wikisource.org/wiki/舊唐書/卷6",
+    "ic_not": "Wu Zhou; Nanchang'a özgü kayıt yok."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0906-09-21",
+    "d": "tang",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Xin Tang Shu 190 (Zhong Chuan) — https://zh.wikisource.org/wiki/新唐書/卷190 ; Xin Wudai shi 41 — https://zh.wikisource.org/wiki/新五代史/卷41 ; Zizhi tongjian 265 — https://zh.wikisource.org/wiki/資治通鑑/卷265",
+    "ic_not": "Tang; Zhonghe 2 (882) Zhong Chuan Jiangxi guanchashi Gao Maoqing'i sürüp Hongzhou'yu alır, Tang onu Zhennan jiedushi yapar (Xin Tang Shu 190) — nominal Tang, fiilî Zhong ailesi (882-906). Tianyou 3 (906) Zhong Chuan ölür, oğlu Kuangshi liuhou olur (Xin Wudai shi 41); Yang Wo Qin Pei'yi gönderir, 3 aylık kuşatma sonrası Hongzhou düşer (ZZTJ 265; Xin Tang Shu 190). Bitiş: ay başı (ZZTJ 265 gün vermez).",
+    "tanik": "中和二年，逐江西觀察使高茂卿，遂有洪州"
+   },
+   {
+    "f": "0906-09-21",
+    "t": "0937-11-10",
+    "d": "yang-wu",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Zizhi tongjian 265 — https://zh.wikisource.org/wiki/資治通鑑/卷265 ; Xin Tang Shu 190 — https://zh.wikisource.org/wiki/新唐書/卷190",
+    "ic_not": "Yang Wu; ZZTJ 265: '秦裴拔洪州，虜鍾匡時等五千人以歸。楊渥自兼鎮南節度使'.",
+    "tanik": "秦裴拔洪州，虜鍾匡時等五千人以歸"
+   },
+   {
+    "f": "0937-11-10",
+    "t": "0976-01-01",
+    "d": "guney-tang",
+    "kesinlik": "gun",
+    "kaynak": "Song Shi 478 (Nan Tang shijia) — https://zh.wikisource.org/wiki/宋史/卷478 ; Song Shi 3 (Taizu ji 3) — https://zh.wikisource.org/wiki/宋史/卷003",
+    "ic_not": "Güney Tang; Jianlong 2 (961) Li Jing Hongzhou'ya taşınır (Song Shi 478: '景遷洪州，立為太子監國') — Nanchang fu 'Nandu' olur. Bitiş: Kaibao 8 (975) 11. ay 乙未 Cao Bin Shengzhou'yu alır, '江南平' (Song Shi 3) — Hongzhou'nun kendi teslim günü açılan sayfalarda yok.",
+    "tanik": "建隆二年，景遷洪州"
+   },
+   {
+    "f": "0976-01-01",
+    "t": "1275-12-01",
+    "d": "song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shi 3 — https://zh.wikisource.org/wiki/宋史/卷003 ; Song Shi 88 (Dili zhi, Longxing fu) — https://zh.wikisource.org/wiki/宋史/卷088 ; Yuan Shi 8 — https://zh.wikisource.org/wiki/元史/卷008",
+    "ic_not": "Song; Hongzhou → Longxing fu (Longxing 3 = 1165, Song Shi 88). Jin Dec 1129 Hongzhou'yu alıp çekildi (olay; <1 yıl, dönem açılmadı). Bitiş: Zhiyuan 12 (1275) 11. ay 己卯 Longxing fu zhifu Liu Pan teslim (Yuan Shi 8).",
+    "tanik": "乙未，曹彬克昇州，俘其國主煜，江南平"
+   },
+   {
+    "f": "1275-12-01",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Yuan Shi 8 — https://zh.wikisource.org/wiki/元史/卷008 ; Yuan Shi 9 — https://zh.wikisource.org/wiki/元史/卷009",
+    "ic_not": "Yuan; atlasın ilk sahibi (yuan-hanedani) ile aynı. Yuan Shi 9 (1276): '江西隆興、建昌、撫州等郡雖附…'; 5. ay Song Jiangxi zhizhishi Huang Wanshi bağlılığını sunar.",
+    "tanik": "宋江西轉運使、知府劉槃以城降"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0201-01-01",
+    "gun": "MÖ 202 (Gaozu 5, 2. ay 甲午)",
+    "k": "idari",
+    "b": "Gaozu'nun fermanı: Changsha, Yuzhang, Xiang, Guilin, Nanhai Wu Rui'ye Changsha krallığı olarak verilir (Hanshu 1下). Yuzhang Han vasal krallığı; Hanshu 34 ise Yuzhang'ı Huainan krallığına bağlar (çelişki).",
+    "kaynak": "Hanshu 1下 — https://zh.wikisource.org/wiki/漢書/卷001下 ; Hanshu 34 — https://zh.wikisource.org/wiki/漢書/卷034",
+    "tanik": "以長沙、豫章、象郡、桂林、南海立番君芮為長沙王"
+   },
+   {
+    "t": "-0200-01-01",
+    "gun": "MÖ 201 (Gaozu 6)",
+    "k": "kurulus",
+    "b": "Yuzhang jun merkezi olarak Nanchang şehri kurulur (Shuijing zhu 39: Chen Ying; Taiping huanyu ji: Guanying) — kuruluş tanığı, arkeolojik doğrulama yok.",
+    "kaynak": "Shuijing zhu 39 — https://zh.wikisource.org/wiki/水經注/39 ; Taiping huanyu ji 106 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106",
+    "tanik": "漢高祖六年，始命陳嬰以爲豫章郡，治此，即陳嬰所築也"
+   },
+   {
+    "t": "0009-01-10",
+    "gun": "10 Ocak 9",
+    "k": "diger",
+    "b": "künye geçişi: Batı Han → Xin (Wang Mang taht ilan eder). (Nanchang'a özgü tanık bulunamadı; ulusal olay.)",
+    "kaynak": "Hanshu 99上 (漢書/卷099上)",
+    "tanik": "即真天子位，定有天下之號曰新"
+   },
+   {
+    "t": "0023-10-06",
+    "gun": "6 Ekim 23",
+    "k": "fetih",
+    "b": "Wang Mang öldürülür; Xin sona erer (ulusal olay). Nanchang'ın 23-25 arası sahibi kaynakta bulunamadı → __BOSLUK__.",
+    "kaynak": "Hanshu 99下 (漢書/卷099下)",
+    "tanik": "商人杜吳殺莽，取其綬"
+   },
+   {
+    "t": "0025-08-05",
+    "gun": "25-08-05 (6/己未)",
+    "k": "kurulus",
+    "b": "Guangwu Hao'da taç giyer (Doğu Han). Nanchang'a özgü kayıt yok; BOŞLUK bu güne kadar, Doğu Han buradan itibaren yazıldı.",
+    "kaynak": "Fan Ye, Hou Han Shu 1上 (Guangwu ji), zh.wikisource.org/wiki/後漢書/卷1上",
+    "tanik": "六月己未，即皇帝位"
+   },
+   {
+    "t": "0200-01-04",
+    "gun": "200 (Jian'an 4, 12. ay; ay başı çevrildi)",
+    "k": "fetih",
+    "b": "Sun Ce Huang Zu'ya karşı Shaxi'de zafer kazandıktan sonra Yuzhang'a yürür; Yu Fan Yuzhang taishou Hua Xin'i ikna eder, Hua Xin kıyafetle Sun Ce'yi karşılar; Sun Ce Yuzhang'ı bölüp Luling jun kurar, Sun Ben Yuzhang taishou olur (ZZTJ 63; Sanguozhi 46). Nanchang'ın teslim günü yazılı değil, ay başı alındı.",
+    "kaynak": "Zizhi tongjian 63 — https://zh.wikisource.org/wiki/資治通鑑/卷063 ; Sanguozhi 46 — https://zh.wikisource.org/wiki/三國志/卷46 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "歆葛巾迎策"
+   },
+   {
+    "t": "0220-11-25",
+    "gun": "Yankang 1 (220), 10. ay 乙卯",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Han → Sun Wu (Han İmparatoru Xian Cao Pi'ye tahtı bırakır; Jiangdong'daki Sun rejimi fiilen özerk). Yuzhang jun Sun Wu'nun elinde (Sanguozhi 46: Sun Ce'den beri).",
+    "kaynak": "Hou Han Shu 9 (Xian di ji) https://zh.wikisource.org/wiki/後漢書/卷9 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen",
+    "tanik": "冬十月乙卯，皇帝遜位，魏王丕稱天子"
+   },
+   {
+    "t": "0280-05-01",
+    "gun": "Taikang 1 (280), 3. ay 壬寅",
+    "k": "fetih",
+    "b": "Jin donanması Jianye'ye varır, Sun Hao teslim olur; Wu toprakları Jin'e geçer.",
+    "kaynak": "Jin Shu 3 (Wu di ji) https://zh.wikisource.org/wiki/晉書/卷003 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen",
+    "tanik": "孫皓大懼，面縳輿櫬，降于軍門"
+   },
+   {
+    "t": "0291-01-01",
+    "gun": "Yuankang 1 (291)",
+    "k": "idari",
+    "b": "Jiangzhou kurulur: Yuzhang, Poyang, Luling, Linchuan, Nankang ve diğer komutanlıklar Yangzhou'dan ayrılır, Jingzhou'nun Wuchang/Guiyang/Anchang'ı ile birleştirilir; (Jin Shu 15). Merkezi Yuzhang değil midir bu oturumda kesinleşmedi; Taiping huanyu ji 106 '東晉嘗置江州於此'.",
+    "kaynak": "Jin Shu 15 — https://zh.wikisource.org/wiki/晉書/卷015",
+    "tanik": "因江水之名而置江州"
+   },
+   {
+    "t": "0316-12-11",
+    "gun": "Jianxing 4 (316), 11. ay 乙未",
+    "k": "diger",
+    "b": "künye geçişi: Batı Jin → Doğu Jin (Min Di Chang'an'da Han-Zhao'ya teslim olur; Jin devleti Jiankang'da sürer).",
+    "kaynak": "Jin Shu 5 (Min di ji) https://zh.wikisource.org/wiki/晉書/卷005 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen (metinde '乙末' yazım hatası, 乙未 okundu)",
+    "tanik": "帝乘羊車，肉袒銜壁，輿櫬出降"
+   },
+   {
+    "t": "0410-01-01",
+    "gun": "Yixi 6 (410)",
+    "k": "isyan",
+    "b": "Lu Xun'un eniştesi Xu Daofu Nankang, Luling ve Yuzhang komutanlıklarına saldırır, valiler kaçar, Zhennan jiangjun He Wuji öldürülür (Jin Shu 100). Kısa işgal; 411'de Liu Yu Lu Xun'u Leichi'de bozar. Dönem açılmadı.",
+    "kaynak": "Jin Shu 100 — https://zh.wikisource.org/wiki/晉書/卷100",
+    "tanik": "舉眾寇南康、廬陵、豫章諸郡，守相皆委任奔走"
+   },
+   {
+    "t": "0420-07-10",
+    "gun": "Yongchu 1 (420), 6. ay 丁卯",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Jin → Liu Song (Liu Yu Jin'i devirir).",
+    "kaynak": "Song Shu 3 (Wu di xia) https://zh.wikisource.org/wiki/宋書/卷3 ; Sinica sinocal, Jülyen",
+    "tanik": "永初元年夏六月丁卯，設壇於南郊，即皇帝位"
+   },
+   {
+    "t": "0479-05-29",
+    "gun": "Jianyuan 1 (479), 4. ay 甲午",
+    "k": "diger",
+    "b": "künye geçişi: Liu Song → Güney Qi (Xiao Daocheng).",
+    "kaynak": "Nan Qi Shu 2 (Gao di xia) https://zh.wikisource.org/wiki/南齊書/卷2 ; Sinica sinocal, Jülyen",
+    "tanik": "建元元年夏四月甲午，上即皇帝位於南郊"
+   },
+   {
+    "t": "0502-04-30",
+    "gun": "Tianjian 1 (502), 4. ay 丙寅",
+    "k": "diger",
+    "b": "künye geçişi: Güney Qi → Liang (Xiao Yan).",
+    "kaynak": "Liang Shu 2 (Wu di zhong) https://zh.wikisource.org/wiki/梁書/卷02 ; Sinica sinocal, Jülyen",
+    "tanik": "天監元年夏四月丙寅，高祖卽皇帝位於南郊"
+   },
+   {
+    "t": "0550-01-01",
+    "gun": "Taiqing 4 / Chengsheng 1 civarı (550); Chen Shu yıl vermez",
+    "k": "isyan",
+    "b": "Hou Tian (Liang'ın Boyang Wang Fan'ın adamı) Yuzhang taishou Zhuang Tie'yi öldürüp Yuzhang'ı alır; sonra Liang'ın Xiang Dong Wang'ına (Yuan di) bağlanır (Chen Shu 9). Yıl yazılı değil, en geç sınır 550 olarak beyan (yıl hassasiyeti kaba).",
+    "kaynak": "Chen Shu 9 — https://zh.wikisource.org/wiki/陳書/卷9",
+    "tanik": "詐引鐵謀事，因而刃之，據有豫章之地"
+   },
+   {
+    "t": "0557-11-16",
+    "gun": "Yongding 1 (557), 10. ay 乙亥",
+    "k": "diger",
+    "b": "künye geçişi: Liang → Chen (Chen Baxian).",
+    "kaynak": "Chen Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 35 ; Sinica sinocal, Jülyen",
+    "tanik": "永定元年冬十月乙亥，高祖即皇帝位于南郊"
+   },
+   {
+    "t": "0589-01-01",
+    "gun": "Kaihuang 9 (589)",
+    "k": "idari",
+    "b": "Sui Chen'i yenince Yuzhang komutanlığını kaldırıp Hongzhou kurar; Nanchang ilçesini Yuzhang ilçesi yapar (Taiping huanyu ji 106). Kaihuang 9 yıl hassasiyeti.",
+    "kaynak": "Taiping huanyu ji 106 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106",
+    "tanik": "隋平陳罷郡為洪州"
+   },
+   {
+    "t": "0589-02-02",
+    "gun": "2 Şubat 589",
+    "k": "fetih",
+    "b": "Sui generali Han Qinhu Jianye'ye girer, Chen hükümdarı Chen Shubao esir alınır (開皇9 1. ay 丙子; c2w 589 1/12 丙子); Chen devleti biter. (Nanchang/Yuzhang'ın yerel teslim kaydı bulunamadı; Taiping huanyu ji 106: '隋平陳罷郡為洪州'.)",
+    "kaynak": "隋書 卷2 高祖紀下, https://zh.wikisource.org/wiki/隋書/卷02",
+    "tanik": "韓擒虎進師入建鄴"
+   },
+   {
+    "t": "0618-06-18",
+    "gun": "Wude 1 (618), 5. ay 甲子",
+    "k": "diger",
+    "b": "künye geçişi: Sui → Tang (Li Yuan imparator olur).",
+    "kaynak": "Jiu Tang Shu 1 (Gao zu) https://zh.wikisource.org/wiki/舊唐書/卷1 ; Sinica sinocal, Jülyen",
+    "tanik": "甲子，高祖即皇帝位於太極殿"
+   },
+   {
+    "t": "0622-01-01",
+    "gun": "Wude 5 (622)",
+    "k": "fetih",
+    "b": "Lin Shihong'un generali Wang Rong Nanchang topraklarını Tang'a sunar; Tang onu Nanchang zongguan atar; Hongzhou zongguan fu kurulur (Taiping huanyu ji 106). Sonra Zhang Shan'an Hongzhou zongguan olup 623'te isyan eder.",
+    "kaynak": "Xin Tang Shu 87 — https://zh.wikisource.org/wiki/新唐書/卷087 ; Taiping huanyu ji 106 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106",
+    "tanik": "王戎亦獻南昌地，詔戎為南昌州總管"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "Tianshou 1 (690), 9. ay 九日 壬午",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wu Zhou (Wu Zetian 'Zhou' hanedanını ilan eder).",
+    "kaynak": "Jiu Tang Shu 6 (Wu hou) https://zh.wikisource.org/wiki/舊唐書/卷6 ; Sinica sinocal, Jülyen (iki 壬午: 08-17 / 10-16; 10-16 seçildi)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "Shenlong 1 (705), 2. ay 甲寅",
+    "k": "diger",
+    "b": "künye geçişi: Wu Zhou → Tang (Zhongzong 'Tang' adını geri getirir).",
+    "kaynak": "Jiu Tang Shu 7 (Zhong zong) https://zh.wikisource.org/wiki/舊唐書/卷7 ; Sinica sinocal, Jülyen",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0882-01-01",
+    "gun": "Zhonghe 2 (882)",
+    "k": "fetih",
+    "b": "Zhong Chuan Jiangxi guanchashi Gao Maoqing'i sürüp Hongzhou'yu alır; Xizong ona Jiangxi tuanlianshi, sonra Zhennan jiedushi verir (Xin Tang Shu 190). Nominal Tang; sahip değişmez.",
+    "kaynak": "Xin Tang Shu 190 — https://zh.wikisource.org/wiki/新唐書/卷190",
+    "tanik": "中和二年，逐江西觀察使高茂卿，遂有洪州"
+   },
+   {
+    "t": "0906-09-21",
+    "gun": "Tianyou 3 (906), 9. ay (ay başı çevrildi; ZZTJ gün vermez)",
+    "k": "fetih",
+    "b": "Yang Wu generali Qin Pei Hongzhou'yu alır, Zhong Kuangshi'yi ve 5000 kişiyi esir alır; Yang Wo kendisi Zhennan jiedushi olur, Qin Pei Hongzhou zhizhishi (ZZTJ 265). Xin Tang Shu 190: 3 aylık kuşatma; Zhong Chuan'ın oğlu Kuangfan (ZZTJ: evlatlık Yangui) Jiangzhou'yu Yang Wu'ya bağlayarak saldırıyı davet eder (çelişen ad: Xin Tang Shu '匡範', ZZTJ '延規').",
+    "kaynak": "Zizhi tongjian 265 — https://zh.wikisource.org/wiki/資治通鑑/卷265 ; Xin Tang Shu 190 — https://zh.wikisource.org/wiki/新唐書/卷190 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "秦裴拔洪州，虜鍾匡時等五千人以歸"
+   },
+   {
+    "t": "0937-11-10",
+    "gun": "10 Kasım 937",
+    "k": "diger",
+    "b": "künye geçişi: Yang Wu → Güney Tang; Xu Zhigao Jinling'de imparator olur, ülke adı 'Tang' (c2w 937 10/5 甲申).",
+    "kaynak": "資治通鑑 卷281 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷281",
+    "tanik": "齊王誥即皇帝位於金陵，大赦，改元升元，國號唐"
+   },
+   {
+    "t": "0961-01-01",
+    "gun": "Jianlong 2 (961)",
+    "k": "taht",
+    "b": "Güney Tang hükümdarı Li Jing (Yuanzong) Hongzhou'ya taşınır, veliaht Li Yu'yu监国 ilan edip Jinling'de bırakır (Song Shi 478). Nanchang kısa bir süre Güney Tang'ın ikinci başkenti ('Nandu') olur.",
+    "kaynak": "Song Shi 478 — https://zh.wikisource.org/wiki/宋史/卷478",
+    "tanik": "建隆二年，景遷洪州"
+   },
+   {
+    "t": "0976-01-01",
+    "gun": "976 (Kaibao 8, 11. ay 乙未)",
+    "k": "fetih",
+    "b": "Song generali Cao Bin Shengzhou'yu (Jinling) alır, Li Yu'yu esir eder; '江南平' 19 eyalet, 3 ordu bölgesi, 180 ilçe (Song Shi 3). Hongzhou'nun kendi teslim günü açılan sayfalarda bulunamadı; Güney Tang → Song geçişi bu güne bağlandı. Kaibao 9 (976) 1. ay Zhaowu jun liuhou Lu Jiang '焚掠州縣' (Song Shi 3, Hongzhou'ya özgü değil).",
+    "kaynak": "Song Shi 3 — https://zh.wikisource.org/wiki/宋史/卷003 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "乙未，曹彬克昇州，俘其國主煜，江南平"
+   },
+   {
+    "t": "0981-01-01",
+    "gun": "Taiping Xingguo 6 (981)",
+    "k": "idari",
+    "b": "Nanchang ilçesinin Shuixi 14 köyünden Xinjian ilçesi ayrılır; ilçe merkezi eski Nan Tang general Lin Renzhao'nun şehir içindeki konutu olur (Taiping huanyu ji 106; Song Shi 88 '新建，望。太平興國六年置縣').",
+    "kaynak": "Taiping huanyu ji 106 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷106 ; Song Shi 88 — https://zh.wikisource.org/wiki/宋史/卷088",
+    "tanik": "隆興府，本洪州，都督府，豫章郡，鎭南軍節度"
+   },
+   {
+    "t": "1129-12-26",
+    "gun": "Jianyan 3 (1129), 11. ay 戊午",
+    "k": "isgal",
+    "b": "Jin (Wuzhu) Hongzhou'yu alır; vekil vali Li Jizhong şehri teslim eder; Fu, Yuan da teslim (Song Shi 25). Jin kısa süre sonra çekildi (Song Shi 26: 1130'da Ma Jin/Li Cheng Hongzhou'yu tehdit eder) — kısa işgal, dönem açılmadı.",
+    "kaynak": "Song Shi 25 — https://zh.wikisource.org/wiki/宋史/卷025 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "金人陷洪州，權知州李積中以城降"
+   },
+   {
+    "t": "1165-01-01",
+    "gun": "Longxing 3 (1165)",
+    "k": "idari",
+    "b": "Xiaozong'un tahta çıkmadan önceki yerleşimi olduğu için Hongzhou Longxing fu'ya yükseltilir (Song Shi 88; Longxing 3). Sahiplik değişmez.",
+    "kaynak": "Song Shi 88 — https://zh.wikisource.org/wiki/宋史/卷088",
+    "tanik": "隆興府，本洪州，都督府，豫章郡，鎭南軍節度"
+   },
+   {
+    "t": "1275-12-01",
+    "gun": "Zhiyuan 12 (1275), 11. ay 己卯",
+    "k": "fetih",
+    "b": "Moğol/Yuan Mongol komutan Song Dudai ordusuyla Longxing fu'ya gelir; Song Jiangxi zhuanyunshi ve zhifu Liu Pan şehri teslim eder; Jiangxi komutanlıkları peş peşe teslim olur (6 fu/zhou, 4 jun, 56 ilçe).",
+    "kaynak": "Yuan Shi 8 — https://zh.wikisource.org/wiki/元史/卷008 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "宋江西轉運使、知府劉槃以城降"
+   }
+  ],
+  "ic_not": "Nanchang (atlas ilk sahiplik 1281-01-01 yuan-hanedani). ① BAŞLANGIÇ: MÖ 201 Gaozu 6 (Shuijing zhu 39); kurucu adı çelişkisi ve Wu Rui/Ying Bu vasal-krallık çelişkisi ilk.ic_not'ta. ② YER: Han şehri ile bugünkü eski şehir eşitliği ikincil; 'Guancheng/Huangchengsi' (ilçe doğusu) alternatifi — >3 km çıkarsa ayrı kayıt 'guancheng-han-cin' önerisi (ilk.ic_not). ③ BOŞLUK: 23-10-06–25-08-05 (Xin sonrası) ve 618-06-18–622-01-01 (Cao Shiqi/Lin Shihong/Xiao Xian/Zhang Shan'an; öneri künyeler: lin-shihong-chu 619?-622, xiao-xian-liang 617-621, cao-shiqi-yuanxing 616-617, tarihleri doğrulanmadı). ④ KÜNYE UYARILARI (sun-wu.f 0222-01-01 > dönem f 220-11-25; guney-tang.t 0975-01-01 < 976-01-01): bati-han.t 0008-01-01 < 0009-01-10, xin.t 0023-01-01 < 0023-10-06, dogu-han.t 0220-01-01 < 0220-11-25, bati-jin/dogu-jin/liu-song/guney-qi/wu-zhou/sui/yang-wu künye t'leri dönem t'lerinden önce biter (uyarılar hanedan geçiş günleri yüzünden): künye GENİŞLET önerileri ulusal kataloğun gün-tabanlı geçişlerine göre (k12-44). ⑤ KISA İŞGALLER (dönem açılmadı): 410 Xu Daofu, 1129-11 Jin. ⑥ ÇİFT TEYİT: Hongzhou 906 düşüşü ZZTJ 265 ve Xin Tang Shu 190 (çelişki: Zhong Kuangfan/Yangui adı, ikisi beyan); 975 '江南平' Song Shi 3 (tek kaynak). 1275 teslim yalnız Yuan Shi 8 (Song Shi 47 açılmadı). ⑦ AÇILAMAYAN/YOK: Nanchang Han şehri kazı raporu (Haihun hou mezarı vb. başka yer) aranmadı; Yuanhe junxian zhi Hongzhou sayfası (元和郡縣圖志/卷28) açılıp nanchang ayrıntısı taranmadı; Hou Han Shu 112 (Junguo zhi) Yuzhang ilçeleri okunmadı. Atlas başlangıcı (1281) düzeltme gerektirmez: ilk tanık 1281 öncesidir."
+ },
+ {
   "id": "nancy-fr",
   "ad": "Nancy",
   "atlas_ad": "Nancy",
@@ -13554,6 +15035,386 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "MKL: Taksony Müslüman tüccar yerleştirdi; 1220 civarı Almanlar yerleşti; 1292 en eski mühür. Buda'nın TDV maddesi 'Budin' Pest'i 'Peşte bk. Budin' ile Buda'ya yönlendirir (TDV'de Pest ayrı madde yok)."
  },
  {
+  "id": "pingyao-cin",
+  "ad": "Pingyao",
+  "atlas_ad": "Pingyao",
+  "lat": 37.201,
+  "lon": 112.175,
+  "kat1900": 3,
+  "adlar": [
+   "Pingtao / 平陶 (Han ilçesi; Hanshu 28上 Taiyuan jun listesi — YER EŞİTLEMESİ KESİN DEĞİL, bkz. ic_not)",
+   "Pingyao / 平遙 (Kuzey Wei: Taiwu'nun adı Tao tabusu nedeniyle 陶→遙; Wei Shu 106上 Taiyuan jun)",
+   "Pingyao xian / 平遙縣 (Sui–Yuan: Xihe/Jiezhou/Fenzhou; Yuan: Fenzhou, 1265 Taiyuan fu'dan Fenzhou'ya)"
+  ],
+  "ilk": {
+   "t": "0550-01-01",
+   "gun": "Wuding dönemi (543–550); aralığın SON ucu 550",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Wei Shu 106上 (Dili zhi, Taiyuan jun) — https://zh.wikisource.org/wiki/魏書/卷106上 ; kayıt çağı beyanı: aynı sayfa '今錄武定之世以為志焉' (Wuding 543–550) ; https://zh.wikisource.org/wiki/魏書/卷106上",
+   "tanik": "平遙二漢、晉為平陶屬，後改",
+   "ic_not": "Yer-kesin ilk yazılı tanık: Wei Shu 106上 (Wei Shou, 554), Wuding dönemi (543–550) kaydı — Taiyuan jun 10 ilçesinden biri '平遙', yanında '有京陵城、平遙城、過山'. Aralık veren kaynak: GÜVENLİ UÇ = 550 (Wuding son yılı) alındı (Wei Shu 106上: '今錄武定之世以為志焉'). ELENEN ADAYLAR (yer eşitlemesi kesin değil, başlangıç sayılmadı): (1) Hanshu 28上 Taiyuan jun 21 ilçe listesinde '平陶' (Han) — Wei Shu '二漢、晉為平陶屬，後改' ve Taiping huanyu ji 41 ('後魏以大武帝名燾改平陶為平遥') Pingyao=Pingtao der, ANCAK Qing Shanxi tongzhi 176 (Wenshui bölümü) '縣西南二十五里有平陶古城' der, yani Han Pingtao Wenshui yakınında gösterilir; iki Qing derlemesi çelişir (tongzhi 177: Han Pingtao = Wei Pingyao); (2) Wei Shu 2 (Taizu ji, 皇始2 = 397): '獲慕容寶丹陽王買得等於平陶城' — '晉川'da bir Pingtao kalesi; bugünkü Pingyao ile aynı olduğu kaynakta yok; (3) gelenek: Zhou Xuan Wang dönemi Yin Jifu sur anlatısı (brif: gelenek, kur yazılmadı; bu oturumda birincil metin bulunamadı). Modern nokta (37.201, 112.175; Pingyao eski şehri) ile Wei Pingyao-cheng/Han Pingtao arasındaki mesafe kaynakla ÖLÇÜLEMEDİ (Taiping huanyu ji 41: Jingling '在縣東北七里', Zhongdu '在縣西四十二里' — Song çağı göreli tarifler; kesin değil). Ark/kur kaydı yazılmadı (arkeolojik rapor bulunamadı; Ming 1370 sur yeniden yapımı 1281 sonrası)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0550-01-01",
+    "t": "0550-06-09",
+    "d": "dogu-wei",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Wei Shu 106上 — https://zh.wikisource.org/wiki/魏書/卷106上 ; Beiqi shu 4 (Wenxuan ji) — https://zh.wikisource.org/wiki/北齊書/卷4",
+    "ic_not": "Doğu Wei (Taiyuan jun Pingyao). Künye t=0550-01-01 < 550-06: GENİŞLET önerisi (dogu-wei.t → 0550-06-09 civarı).",
+    "tanik": "今錄武定之世以為志焉"
+   },
+   {
+    "f": "0550-06-09",
+    "t": "0577-01-16",
+    "d": "kuzey-qi",
+    "kesinlik": "gun",
+    "kaynak": "Beiqi shu 4 — https://zh.wikisource.org/wiki/北齊書/卷4 ; Zhou shu 6 — https://zh.wikisource.org/wiki/周書/卷06",
+    "ic_not": "Kuzey Qi (Bingzhou/Taiyuan: Qi'nin çekirdek bölgesi). Bitiş: Zhou ordusunun Jiexiu'ya varıp Qi komutanının teslimi (Jiexiu, Pingyao'nun hemen yanındaki ilçe; Pingyao'ya özgü tanık BULUNAMADI — en yakın tarihli tanık alındı).",
+    "tanik": "戊午，乃即皇帝位於南郊"
+   },
+   {
+    "f": "0577-01-16",
+    "t": "0581-03-04",
+    "d": "kuzey-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Zhou shu 6 (Wudi ji xia) — https://zh.wikisource.org/wiki/周書/卷06",
+    "ic_not": "Kuzey Zhou. Künye f=0557 (dönem 576-12'de başlar; künye kapsıyor). Zhou Shu 6: Xuanzheng 1 (578) Hengzhou Changshan jun'dan ayrılır (Zhengding kaydı için ilgili).",
+    "tanik": "丙辰，師次介休，齊將韓建業舉城降"
+   },
+   {
+    "f": "0581-03-04",
+    "t": "0618-06-18",
+    "d": "sui",
+    "kesinlik": "gun",
+    "kaynak": "Sui shu 30 (Dili zhi, Xihe jun) — https://zh.wikisource.org/wiki/隋書/卷30 ; Jiu Tang shu 39 — https://zh.wikisource.org/wiki/舊唐書/卷39",
+    "ic_not": "Sui; Sui Shu 30: Kaihuang 16 (596) Pingyao'dan Qingshi ilçesi ayrılır, Daye başında geri katılır. Künye t=0618-01-01 < 0618-06-18: GENİŞLET. Tang tarafı Pingyao'yu Yining 1 (617) 'Yi qi' başlangıcında '依舊領' (JTS 39) sayar; bu oturumda 617 içi el değişim günü Pingyao'ya özgü BULUNAMADI, ulusal künye günü (618-06-18) alındı.",
+    "tanik": "平遙開皇十六年析置清世縣"
+   },
+   {
+    "f": "0618-06-18",
+    "t": "0619-07-05",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang shu 39 (Dili zhi, Fenzhou) — https://zh.wikisource.org/wiki/舊唐書/卷39",
+    "ic_not": "Tang (Wude 1: Pingyao Jiezhou'ya bağlı).",
+    "tanik": "義旗初，依舊領隰城、介休、孝義、平遙四縣"
+   },
+   {
+    "f": "0619-07-05",
+    "t": "0620-05-08",
+    "d": "liu-wuzhou-dingyang",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Zizhi tongjian 187 — https://zh.wikisource.org/wiki/資治通鑑/卷187 ; Zizhi tongjian 188 — https://zh.wikisource.org/wiki/資治通鑑/卷188",
+    "ic_not": "KÜNYE YOK — önerilen id: liu-wuzhou-dingyang (Liu Wuzhou, 'Dingyang Khan', Mayi/Taiyuan; Tang'a karşı Doğu Türkleri himayesinde 617–620; ömür bu oturumda ZZTJ 187–188'den okunmadı: Wude 2 Pingyao'yu alır, Wude 3'te Qin Wang Shimin Jinyang'da '武周所得州縣皆入於唐'). Süre ~11 ay (619-05 → 620-04); ikisi de kaynaklı olduğundan dönem açıldı; bitiş ay hassasiyetinde (ZZTJ 188: Wude 3 4. ay).",
+    "kunye_yok": true,
+    "tanik": "丙戌，劉武周陷平遙"
+   },
+   {
+    "f": "0620-05-08",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Zizhi tongjian 188 — https://zh.wikisource.org/wiki/資治通鑑/卷188 ; Jiu Tang shu 39 — https://zh.wikisource.org/wiki/舊唐書/卷39",
+    "ic_not": "Tang (Wude 3 sonrası).",
+    "tanik": "武周所得州縣皆入於唐"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang shu 6 — https://zh.wikisource.org/wiki/舊唐書/卷6 ; Jiu Tang shu 7 — https://zh.wikisource.org/wiki/舊唐書/卷7",
+    "ic_not": "Wu Zhou (Wu Zetian); Pingyao'ya özgü kayıt yok (ulusal)."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0907-06-12",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang shu 39 — https://zh.wikisource.org/wiki/舊唐書/卷39 ; Song shi 254 (Hou Yi zhuan) — https://zh.wikisource.org/wiki/宋史/卷254",
+    "ic_not": "Tang; Song Shi 254: Fenzhou Pingyao'lu Hou Yi '唐光化中，李克用據太原' (900) — Hedong uzun süre Li Keyong'un fiili idaresinde, resmî sahip Tang. Künye tang.t=0907-01-01 < dönem sonu: GENİŞLET.",
+    "tanik": "汾州平遙人"
+   },
+   {
+    "f": "0907-06-12",
+    "t": "0923-05-13",
+    "d": "jin-shatuo-li-keyong",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 266 — https://zh.wikisource.org/wiki/資治通鑑/卷266 ; Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272",
+    "ic_not": "KÜNYE YOK — önerilen id: jin-shatuo-li-keyong (Li Keyong–Li Cunxu'nun Jin devleti, Hedong merkezli, 907–923; 'Tianyou' takvimini sürdürür, Liang'ı tanımaz; ZZTJ 266: Kaiping 1, 4. ay 乙亥). Pingyao'ya özgü tanık BULUNAMADI: Taiyuan/Hedong çekirdek bölgesi olduğundan alındı.",
+    "kunye_yok": true,
+    "tanik": "惟河東、鳳翔、淮南稱"
+   },
+   {
+    "f": "0923-05-13",
+    "t": "0936-11-28",
+    "d": "sonraki-tang-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272",
+    "ic_not": "Sonraki Tang: Li Cunxu Weizhou'da '大唐' ilanı (923-04) ile Hedong'daki Jin aynı devlet olarak sürer. Künye f=0923-01-01.",
+    "tanik": "己巳，升壇，祭告上帝，遂即皇帝位"
+   },
+   {
+    "f": "0936-11-28",
+    "t": "0947-03-10",
+    "d": "sonraki-jin-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Ulusal olay kaynağı: bkz. olay 0936-11-28 (k12-44 kataloğu, Xian kaydı)",
+    "ic_not": "Sonraki Jin: Shi Jingtang Taiyuan'da imparator (936-11-28). Pingyao Taiyuan fu içi; Pingyao'ya özgü kayıt yok. Künye sonraki-jin t=0947-01-01 < 947-03-10: GENİŞLET."
+   },
+   {
+    "f": "0947-03-10",
+    "t": "0951-02-24",
+    "d": "sonraki-han-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai shi 70 (Beihan shijia) — https://zh.wikisource.org/wiki/新五代史/卷70",
+    "ic_not": "Sonraki Han: Liu Zhiyuan Taiyuan'da imparator. Künye t=0951-01-01 < T_BH: GENİŞLET.",
+    "tanik": "乃以周廣順元年正月戊寅即皇帝位于太原"
+   },
+   {
+    "f": "0951-02-24",
+    "t": "0979-06-03",
+    "d": "kuzey-han-10krallik",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai shi 70 — https://zh.wikisource.org/wiki/新五代史/卷70 ; Song shi 1 — https://zh.wikisource.org/wiki/宋史/卷001 ; Song shi 4 — https://zh.wikisource.org/wiki/宋史/卷004",
+    "ic_not": "Kuzey Han (Liu Min/Chong, Taiyuan, 951–979). Song Shi 1: Jianlong 1 (960) Zhaoyi Li Jixun '北漢平遙縣'yi yakar (Pingyao Kuzey Han'da, Song'a değil). Bitiş: Song Shi 4, Taiping xingguo 4, 5. ay 甲申 Liu Jiyuan teslim. Künye kuzey-han t=0979-01-01 < 979-05: GENİŞLET.",
+    "tanik": "昭義軍節度使李繼勳焚北漢平遙縣"
+   },
+   {
+    "f": "0979-06-03",
+    "t": "1126-09-21",
+    "d": "song",
+    "kesinlik": "gun",
+    "kaynak": "Song shi 4 — https://zh.wikisource.org/wiki/宋史/卷004 ; Song shi 86 (Dili zhi, Fenzhou) — https://zh.wikisource.org/wiki/宋史/卷086",
+    "ic_not": "Song: Taiping xingguo 4 (979) Beihan'ın düşüşüyle birlikte '北漢節度使蔚進盧遂以汾州降' (Fenzhou, Pingyao'nun eyaleti); Song Shi 86: Fenzhou 5 ilçe (Xihe, Pingyao, Jiexiu, Lingshi, …). Song t=1279-03-19 künyesi bu dönemi kapsar.",
+    "tanik": "北漢節度使蔚進盧遂以汾州降"
+   },
+   {
+    "f": "1126-09-21",
+    "t": "1218-10-10",
+    "d": "jin-hanedani",
+    "kesinlik": "gun",
+    "kaynak": "Jin shi 74 (Zonghan zhuan) — https://zh.wikisource.org/wiki/金史/卷74 ; Jin shi 26 (Dili zhi) — https://zh.wikisource.org/wiki/金史/卷26",
+    "ic_not": "Jin: Tianhui 4 (1126) 9. ay 丙寅 Taiyuan düşer, Hushahu Pingyao ve komşu ilçeleri alır. Song Shi 446 (Zhong yi zhuan): '金兵破平遙，平遙為汾大邑'. Song tarafı Hedong'u geri almaya çalıştı; Pingyao'ya özgü geri alım kaydı BULUNAMADI. Jin Shi 26: Pingyao Fenzhou ilçesi.",
+    "tanik": "鶻沙虎取平遙，降靈石、介休、孝義諸縣"
+   },
+   {
+    "f": "1218-10-10",
+    "t": "1260-05-05",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "gun",
+    "kaynak": "Jin shi 15 — https://zh.wikisource.org/wiki/金史/卷15 ; Yuan shi 1 — https://zh.wikisource.org/wiki/元史/卷001 ; Yuan shi 151 (Du Feng zhuan) — https://zh.wikisource.org/wiki/元史/卷151",
+    "ic_not": "Moğol: Jin Shi 15 Xingding 2 (1218) 9. ay 戊子 Fenzhou taranır (9. ay 乙亥 Taiyuan düşmüştü); Yuan Shi 1: Taizu 13 (1218) sonbahar 8. ay Muqali '克太原、平陽及…汾、霍等州' (Yuan Shi'de 8. ay, Jin Shi'de 9. ay — ay çelişkisi, Jin Shi esas alındı). Jin Shi 15: Xingding 3 (1219) 6. ay 戊子 Jin Liaozhou subayı Taiyuan'u geri alır; bu aralıkta Pingyao'nun yeniden Jin'e geçip geçmediği Pingyao için BULUNAMADI — Du Feng (Yuan Shi 151) Pingyao yijun mouke'si olarak Taiyuan'ın düşüşünde Moğol'a katılır. Künye mogol-imp. f=1206.",
+    "tanik": "仕金，為平遙義軍謀克，佩銀符"
+   },
+   {
+    "f": "1260-05-05",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Yuan shi 58 (Dili zhi, Fenzhou) — https://zh.wikisource.org/wiki/元史/卷058",
+    "ic_not": "Yuan: Fenzhou Pingyao ilçesi ('元初屬太原府，至元二年來屬'). Atlasın ilk sahibi (yuan-hanedani 1281-01-01) ile aynı — dikişte olay gerekmez.",
+    "tanik": "元初屬太原府，至元二年來屬"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0550-01-01",
+    "gun": "Wuding dönemi (543–550); güvenli uç 550",
+    "k": "diger",
+    "b": "Wei Shu 106上 (Wuding kaydı): Taiyuan jun Pingyao ilçesi — '平遙二漢、晉為平陶屬，後改。有京陵城、平遙城、過山'. Atlas başlangıcı (ilk yer-kesin yazılı tanık).",
+    "kaynak": "Wei Shu 106上 — https://zh.wikisource.org/wiki/魏書/卷106上",
+    "tanik": "平遙二漢、晉為平陶屬，後改"
+   },
+   {
+    "t": "0550-06-09",
+    "gun": "550 (Tianbao 1 / Wuding 8), 5. ay 戊午",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Wei → Kuzey Qi (Gao Yang güney kapıda imparator olur). Pingyao Taiyuan jun'da, Qi'nin çekirdek bölgesinde.",
+    "kaynak": "Beiqi shu 4 — https://zh.wikisource.org/wiki/北齊書/卷4 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (WeiQi takvimi)",
+    "tanik": "戊午，乃即皇帝位於南郊"
+   },
+   {
+    "t": "0577-01-16",
+    "gun": "577 (Jiande 5, 12. ay 丙辰; Jülyen 577-01-16)",
+    "k": "fetih",
+    "b": "Zhou Wudi Jinzhou'yu aldıktan sonra Jiexiu'ya varır, Qi komutanı Han Jianye şehri teslim eder; ardından Bingzhou düşer (Jiexiu Pingyao'nun komşusu). Kuzey Qi → Kuzey Zhou. Pingyao'ya özgü tanık BULUNAMADI.",
+    "kaynak": "Zhou shu 6 — https://zh.wikisource.org/wiki/周書/卷06 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (WeiZhouSui takvimi)",
+    "tanik": "丙辰，師次介休，齊將韓建業舉城降"
+   },
+   {
+    "t": "0581-03-04",
+    "gun": "4 Mart 581",
+    "k": "diger",
+    "b": "künye geçişi: Kuzey Zhou → Sui (Yang Jian Chang'an'da imparator olur). (Pingyao'ya özgü kayıt yok; ulusal.)",
+    "kaynak": "Sui shu 1 (隋書/卷01)",
+    "tanik": "備禮即皇帝位於臨光殿"
+   },
+   {
+    "t": "0596-01-01",
+    "gun": "Kaihuang 16 (596)",
+    "k": "idari",
+    "b": "Pingyao'dan Qingshi ilçesi ayrılır (Daye başında geri katılır). Pingyao Sui Xihe jun'unda (Sui Shu 30).",
+    "kaynak": "Sui shu 30 — https://zh.wikisource.org/wiki/隋書/卷30",
+    "tanik": "平遙開皇十六年析置清世縣"
+   },
+   {
+    "t": "0618-06-18",
+    "gun": "18 Haziran 618",
+    "k": "taht",
+    "b": "Li Yuan Taiji Salonu'nda imparator olur; Tang kurulur, başkent Chang'an. (Pingyao: JTS 39 — '義旗初，依舊領…平遙'; Pingyao'ya özgü el değiştirme günü bulunamadı.)",
+    "kaynak": "Jiu Tang shu 1 (舊唐書/卷1)",
+    "tanik": "甲子，高祖即皇帝位於太極殿"
+   },
+   {
+    "t": "0619-07-05",
+    "gun": "619 (Wude 2), 5. ay 丙戌",
+    "k": "kayip",
+    "b": "Liu Wuzhou (Dingyang Khan) Pingyao'yu alır (ZZTJ 187).",
+    "kaynak": "Zizhi tongjian 187 — https://zh.wikisource.org/wiki/資治通鑑/卷187 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "丙戌，劉武周陷平遙"
+   },
+   {
+    "t": "0620-05-08",
+    "gun": "620 (Wude 3), 4. ay (ay başı çevrildi)",
+    "k": "fetih",
+    "b": "Qin Wang Shimin Jinyang'a girer, Liu Wuzhou Turk'e kaçar; '武周所得州縣皆入於唐' — Pingyao yeniden Tang'ın.",
+    "kaynak": "Zizhi tongjian 188 — https://zh.wikisource.org/wiki/資治通鑑/卷188 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "武周所得州縣皆入於唐"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "16 Ekim 690",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wu Zhou (Wu Zetian).",
+    "kaynak": "Jiu Tang shu 6 (舊唐書/卷6)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "3 Mart 705",
+    "k": "diger",
+    "b": "künye geçişi: Wu Zhou → Tang (Zhongzong Tang adını geri verir).",
+    "kaynak": "Jiu Tang shu 7 (舊唐書/卷7)",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0907-06-12",
+    "gun": "Kaiping 1 (907), 4. ay 乙亥",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Jin (Shatuo) (Hedong). Liang Li Keyong'un unvanlarını siler; yalnızca Hedong, Fengxiang, Huainan 'Tianyou' takvimini sürdürür — Hedong Liang'ın dışında kalır. Pingyao Hedong çekirdeğindedir.",
+    "kaynak": "Zizhi tongjian 266 — https://zh.wikisource.org/wiki/資治通鑑/卷266 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "惟河東、鳳翔、淮南稱"
+   },
+   {
+    "t": "0923-05-13",
+    "gun": "Tongguang 1 (923), 4. ay 己巳",
+    "k": "diger",
+    "b": "künye geçişi: Jin (Shatuo) → Sonraki Tang (Li Cunxu Weizhou'da imparator, '大唐'). Hedong'daki Jin aynı devlet olarak sürer.",
+    "kaynak": "Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "己巳，升壇，祭告上帝，遂即皇帝位"
+   },
+   {
+    "t": "0936-11-28",
+    "gun": "28 Kasım 936",
+    "k": "taht",
+    "b": "Shi Jingtang Taiyuan'da imparator olur (Sonraki Jin). (Pingyao Taiyuan fu içinde; Pingyao'ya özgü kayıt yok.)",
+    "kaynak": "Xin Wudai shi 8 (新五代史/卷08)",
+    "tanik": "十一月丁酉，皇帝即位"
+   },
+   {
+    "t": "0947-03-10",
+    "gun": "10 Mart 947",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Jin → Sonraki Han (Liu Zhiyuan Taiyuan'da imparator olur). (Pingyao Taiyuan/Fenzhou, Liu Zhiyuan'un çekirdek bölgesi.)",
+    "kaynak": "Jiu Wudai shi 99 (舊五代史/卷99)",
+    "tanik": "辛未，帝於太原宮受冊，即皇帝位"
+   },
+   {
+    "t": "0951-02-24",
+    "gun": "Guangshun 1 (951), 1. ay 戊寅",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Han → Kuzey Han (Liu Min/Chong Taiyuan'da imparator).",
+    "kaynak": "Xin Wudai shi 70 — https://zh.wikisource.org/wiki/新五代史/卷70 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "乃以周廣順元年正月戊寅即皇帝位于太原"
+   },
+   {
+    "t": "0960-09-28",
+    "gun": "Jianlong 1 (960), 9. ay 壬寅",
+    "k": "sefer",
+    "b": "Zhaoyi Jiedushi Li Jixun Hedong'a girer ve '北漢平遙縣'yi yakar (Song Shi 1; Song Shi 254: '燔平遙縣，俘獲甚眾'). Pingyao el değiştirmez (Kuzey Han kalır).",
+    "kaynak": "Song shi 1 — https://zh.wikisource.org/wiki/宋史/卷001 ; Song shi 254 — https://zh.wikisource.org/wiki/宋史/卷254 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "昭義軍節度使李繼勳焚北漢平遙縣"
+   },
+   {
+    "t": "0979-06-03",
+    "gun": "Taiping xingguo 4 (979), 5. ay 甲申",
+    "k": "fetih",
+    "b": "Song Taizong Taiyuan'ı alır, Liu Jiyuan teslim olur, Kuzey Han biter (Fenzhou de '以汾州降').",
+    "kaynak": "Song shi 4 — https://zh.wikisource.org/wiki/宋史/卷004 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "甲申，繼元降，北漢平"
+   },
+   {
+    "t": "1126-09-21",
+    "gun": "Tianhui 4 (1126), 9. ay 丙寅",
+    "k": "fetih",
+    "b": "Jin generali Zonghan Taiyuan'ı alır; Hushahu Pingyao, Lingshi, Xiaoyi, Jiexiu ilçelerini alır (Jin Shi 74). Song Shi 446: '金兵破平遙'.",
+    "kaynak": "Jin shi 74 — https://zh.wikisource.org/wiki/金史/卷74 ; Song shi 446 — https://zh.wikisource.org/wiki/宋史/卷446 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (LiaoJinYuan takvimi)",
+    "tanik": "鶻沙虎取平遙，降靈石、介休、孝義諸縣"
+   },
+   {
+    "t": "1218-10-10",
+    "gun": "Xingding 2 (1218), 9. ay 戊子",
+    "k": "fetih",
+    "b": "Moğol orduları Fenzhou'yu tarar, Jin vali Wuyan Echuhu ölür (Jin Shi 15); aynı ay 乙亥 Taiyuan düşmüştü. Yuan Shi 1 aynı fetihi Taizu 13 sonbahar 8. aya koyar (ay çelişkisi). Pingyao Fenzhou'ya bağlı; Pingyao yijun mouke'si Du Feng Moğol'a katılır.",
+    "kaynak": "Jin shi 15 — https://zh.wikisource.org/wiki/金史/卷15 ; Yuan shi 1 — https://zh.wikisource.org/wiki/元史/卷001 ; Yuan shi 151 — https://zh.wikisource.org/wiki/元史/卷151 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (LiaoJinYuan takvimi)",
+    "tanik": "大元兵徇汾州，節度使兀顏訛出虎死之"
+   },
+   {
+    "t": "1218-10-10",
+    "gun": "Taizu 13 (1218) civarı",
+    "k": "fetih",
+    "b": "Yuan Shi 151 Du Feng: Pingyao yijun mouke'si, Taizu Taiyuan'ı alınca birlikleriyle Moğol'a katılır (tarih yok).",
+    "kaynak": "Yuan shi 151 — https://zh.wikisource.org/wiki/元史/卷151",
+    "tanik": "太祖取太原，豐率所部來降"
+   },
+   {
+    "t": "1260-05-05",
+    "gun": "5 Mayıs 1260",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → Yuan (Kubilai Kaiping'de imparator olur). (Pingyao Fenzhou, Yuan idaresinde.)",
+    "kaynak": "Yuan shi 4 (元史/卷4)",
+    "tanik": "辛卯，帝即皇帝位"
+   },
+   {
+    "t": "1265-01-01",
+    "gun": "Zhiyuan 2 (1265)",
+    "k": "idari",
+    "b": "Pingyao '元初屬太原府，至元二年來屬' Fenzhou'ya bağlanır (Yuan Shi 58). Yıl hassasiyeti.",
+    "kaynak": "Yuan shi 58 — https://zh.wikisource.org/wiki/元史/卷058",
+    "tanik": "元初屬太原府，至元二年來屬"
+   }
+  ],
+  "ic_not": "ÖZET (hayalet uyarılarının hepsi: künye t < gerçek geçiş günü ⇒ künye GENİŞLET): ilk yer-kesin yazılı tanık Wei Shu 106上 (Wuding 543–550, güvenli uç 550); Han Pingtao ile eşitleme kesin değil (ilk.ic_not). ATLAS: ilk sahiplik 1281-01-01 yuan-hanedani — zincir ona bağlandı. KÜNYE ÖNERİLERİ: liu-wuzhou-dingyang (617–620, Tang karşıtı Mayi/Taiyuan rejimi), jin-shatuo-li-keyong (907–923, Hedong); GENİŞLET: dogu-wei.t → ~550-06-09, tang.t → 0907-06-12, sonraki-han-5hanedan.t, kuzey-han-10krallik.t → 979-05, sui.t → 0618-06-18, sonraki-jin-5hanedan.t. ÇİFT TEYİT: yok (tek bağımsız birincil metin kullanıldı; modern akademik kaynak bulunamadı). BULUNAMADI: Pingyao'ya özgü tanık — Kuzey Qi→Zhou (576), Sui→Tang (617–618), Hedong'un 936/947 geçişleri; Jin geri alım (1219) ve Moğol kalıcılığı; Pingyao Han yeri; antik/gelenek kuruluşu; arkeolojik rapor. AÇILAMAYAN: —."
+ },
+ {
   "id": "poitiers-fr",
   "ad": "Poitiers",
   "atlas_ad": "Poitiers",
@@ -13704,6 +15565,711 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Kuruluş bulunamadı; Vieux-Poitiers'ten (Briva) yerleşim kayması tartışması Treccani'de ('è possibile che il primitivo agglomerato celtico si sia formato' — kesin değil) — 3 km üzerinde olabilir: antik yer ayrı kayıt önerisi (Vieux-Poitiers). 476 sınırı Poitiers için kullanılmadı (Vizigot 418). Poitou maddesi Visigot 462 ('verso il 462') — çelişki. Atlas Poitiers 1281 'fransa' — uyumlu. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
+ },
+ {
+  "id": "qufu-cin",
+  "ad": "Qufu",
+  "atlas_ad": "Qufu",
+  "lat": 35.597,
+  "lon": 116.991,
+  "kat1900": 3,
+  "adlar": [
+   "Lu / 魯 (Zhou: Lu devletinin başkenti '少昊之虛曲阜', Shiji 33; Lu eski şehri 魯故城, Kongzi'nin evi Queli/闕里 şehrin içinde)",
+   "Lu xian / 魯縣 (Qin Xue jun → Han Lu guo → Jin Lu jun merkezi; Jin Shu 14: '魯曲阜之地')",
+   "Wenyang / 汶陽 (Sui Kaihuang 4 = 584 ilçe adı)",
+   "Qufu / 曲阜 (Sui Kaihuang 16 = 596; Tang 627'de kaldırılıp 634'te geri; Song 1012 Xianyuan/仙源; Jin 曲阜 geri; Yuan Qufu)"
+  ],
+  "ilk": {
+   "t": "-0840-01-01",
+   "gun": "MÖ 841",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Shiji 14 (Shierzhuhou nianbiao; Gonghe 1 = MÖ 841, Lu satırı) — https://zh.wikisource.org/wiki/史記/卷014 ; yer teyidi: Shiji 33 (Lu Zhou Gong shijia) — https://zh.wikisource.org/wiki/史記/卷033 ; Kongzi evi/Queli şehir içinde: Hou Hanshu 2 yorumu (Tang) — https://zh.wikisource.org/wiki/後漢書/卷2",
+   "tanik": "真公濞十五年，一云十四年",
+   "ic_not": "Atlas Qufu noktası = Kong Tapınağı/Ming Qufu çevresi (koordinat atlasın, bu oturumda haritada ölçülmedi). KURULUŞ: Shiji 33 '封周公旦於少昊之虛曲阜，是爲魯公' (Zhou Gong'un Qufu'ya enfeodmanı) — ANCAK Shiji bu olayın yılını vermez; 'yıl bilinmiyorsa yıl yazılmaz' gereği kur null bırakıldı. Shiji'de yıl taşıyan ilk Lu kaydı Shiji 14 tablosunun başladığı MÖ 841 (Lu Zhen Gong 15. yıl, '一云十四年' ikili okuma; güvenli uç = 841) alındı: ilk_anilis, kuruluş DEĞİL. Alternatif/ELENEN: modern kronolojilerdeki Batı Zhou fethi yılları Shiji'de yoktur; kullanılmadı. Arkeoloji: Lu eski şehri (魯國故城) sur çevresi 11 771 m, 3 500 × 2 500 m, ~10,45 km², sur Batı Zhou sonu/Erken Bahar-Sonbahar (Liu Yanchang erken B-S) — cssn.cn/dfpd/djbd/202506/t20250619_5880254.shtml ve ndrc.gov.cn/xwdt/gdzt/dyhgjwhgy/202209/t20220923_1336042.html (ikisi de açıldı; mesafe/örtüşme belirtmiyor); '魯故城位於曲阜市舊城及其以東和以北地區' ifadesi bir akademik makalede (kfda.qfnu.edu.cn pdf) — PDF 403, AÇILAMADI, dayanak sayılmadı. 3 KM KURALI: Hou Hanshu 2 (Mingdi ji) yorumu (Tang, Li Xian): '孔子宅在今兖州曲阜縣故魯城中歸德門內闕里之中' — Kongzi'nin evi (Queli; Kong Tapınağı bu evin yerindedir) eski Lu şehrinin İÇİNDEDİR; atlas noktası Queli/Kong Tapınağı olduğundan Lu eski şehri ile aynı yerleşim sayıldı, ayrı kayıt gerekmedi. Not: atlas koordinatının tam Kong Tapınağı olduğu ve Lu şehir merkezi (Zhougong Miao) mesafesi kaynakla ölçülemedi. İLÇE MERKEZİ KAYMASI (ikincil/Qing derlemeleri, birincil değil): Song Xianyuan ilçesi Shouqiu'da ('壽丘 在曲阜東北六里', Gujin tushu jicheng Zhifang dian 239); Yuan'da ilçe merkezi '魯城東十里'a taşınır, eski şehir '闕里' adını alır, Ming Zhengde 7'de (1512) geri Lu eski şehrine (春秋地名攷畧/卷02, Qing) — yani 1281 öncesi ilçe merkezi bazı dönemlerde Queli'den ~3 km ötede olabilir; atlas noktası (Kong Tapınağı/Queli alanı, Yansheng Gong'un kutsal alanı) ile ilçe merkezi ayrımı birincil kaynakla doğrulanamadı: 'kesin değil'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0840-01-01",
+    "t": "-0248-01-01",
+    "d": "lu-devleti-zhou",
+    "kesinlik": "yil",
+    "kaynak": "Shiji 33 (Lu Zhou Gong shijia) — https://zh.wikisource.org/wiki/史記/卷033 ; Shiji 14 — https://zh.wikisource.org/wiki/史記/卷014 ; Shiji 15 — https://zh.wikisource.org/wiki/史記/卷015",
+    "ic_not": "KÜNYE YOK — önerilen id: lu-devleti-zhou (Lu, Zhou Gong'un oğlu Boqin soyu, başkent Qufu; MÖ 249'da Chu tarafından yok edilir, Shiji 33: Qing Gong 24. yıl; Boqin'den Qing Gong'a '凡三十四世' — künye başlangıcı bu oturumda doğrulanmadı).",
+    "kunye_yok": true,
+    "tanik": "封周公旦於少昊之虛曲阜，是爲魯公"
+   },
+   {
+    "f": "-0248-01-01",
+    "t": "-0222-01-01",
+    "d": "chu-devleti",
+    "kesinlik": "yil",
+    "kaynak": "Shiji 33 — https://zh.wikisource.org/wiki/史記/卷033 ; Shiji 15 (Liuguo nianbiao) — https://zh.wikisource.org/wiki/史記/卷015",
+    "ic_not": "Chu (Kaolie wang). Lu Qing Gong Xia Yi'ye kaçar/'遷卞'; Lu toprağı Chu'da. Bitiş MÖ 223: Qin Chu'yu yok eder (Shiji 6).",
+    "tanik": "楚考烈王伐滅魯"
+   },
+   {
+    "f": "-0222-01-01",
+    "t": "-0220-01-01",
+    "d": "qin-devleti",
+    "kesinlik": "yil",
+    "kaynak": "Shiji 6 (Qin Shihuang benji) — https://zh.wikisource.org/wiki/史記/卷006",
+    "ic_not": "Qin (MÖ 223 → 221). Lu bölgesi (Xue jun) Qin'e Chu'nun çöküşüyle geçer; Lu'ya özgü Qin kaydı BULUNAMADI. Chu künyesi t=-0222-01-01 ile uyumlu.",
+    "tanik": "二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺"
+   },
+   {
+    "f": "-0220-01-01",
+    "t": "-0208-08-09",
+    "d": "qin-hanedani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "Shiji 6 — https://zh.wikisource.org/wiki/史記/卷006 ; Shiji 7 (Xiang Yu benji) — https://zh.wikisource.org/wiki/史記/卷007",
+    "ic_not": "Qin imparatorluğu (MÖ 221 – Chen Sheng ayaklanması, Ershi 1. yıl 7. ay, MÖ 209). Lu bölgesinde Qin'e özgü kayıt yok.",
+    "tanik": "秦二世元年七月，陳涉等起大澤中"
+   },
+   {
+    "f": "-0208-08-09",
+    "t": "-0201-02-28",
+    "d": "__BOSLUK__",
+    "kesinlik": "ay",
+    "kaynak": "Shiji 7 (Xiang Yu benji) — https://zh.wikisource.org/wiki/史記/卷007 ; Shiji 8 (Gaozu benji) — https://zh.wikisource.org/wiki/史記/卷008",
+    "ic_not": "Sahibi künyeyle yazılamıyor: Chu Huai Wang Xiang Yu'yu '魯公' (Lu Gong) yapar (Shiji 7: '項羽為魯公，為次將'); Lu, Xiang Yu'nun ölümünden sonra da teslim olmayan son Chu şehridir ('項王已死，楚地皆降漢，獨魯不下'). Xi Chu Ba Wang (MÖ 206) künyesi listede yok (öneri: xi-chu-bawang); Lu'nun bu aralıktaki hukuki sahibi (Huai Wang/Xi Chu/Xiang Yu) kaynakta tek sahibe bağlanamadı → BOŞLUK + beyan. Han tarafı: Gaozu MÖ 202 2. ay 甲午.",
+    "tanik": "項王已死，楚地皆降漢，獨魯不下"
+   },
+   {
+    "f": "-0201-02-28",
+    "t": "0009-01-10",
+    "d": "bati-han",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Shiji 7 — https://zh.wikisource.org/wiki/史記/卷007 ; Shiji 8 — https://zh.wikisource.org/wiki/史記/卷008 ; Shiji 47 (Kongzi shijia) — https://zh.wikisource.org/wiki/史記/卷047 ; Hanshu 1下 — https://zh.wikisource.org/wiki/漢書/卷001下",
+    "ic_not": "Batı Han: Lu, Xiang Yu'nun başı gösterilince teslim olur ('乃持項王頭視魯，魯父兄乃降'); teslim günü yazılı değil, Gaozu'nun imparator olduğu gün (MÖ 202, 2. ay 甲午) 'en geç' sınır alındı (Han f en geç tanıktan: teslim 12. ay sonrası ile 2. ay arasında). Lu sonra Lu guo (Han vasal krallığı).",
+    "tanik": "乃持項王頭視魯，魯父兄乃降"
+   },
+   {
+    "f": "0009-01-10",
+    "t": "0023-10-06",
+    "d": "xin",
+    "kesinlik": "gun",
+    "kaynak": "Hanshu 99上/99下 (Wang Mang zhuan) — https://zh.wikisource.org/wiki/漢書/卷099上",
+    "ic_not": "Xin; Lu'ya özgü kayıt yok (ulusal olay)."
+   },
+   {
+    "f": "0023-10-06",
+    "t": "0044-11-28",
+    "d": "__BOSLUK__",
+    "kesinlik": "gun",
+    "kaynak": "Hou Hanshu 1上 (Guangwu ji) — https://zh.wikisource.org/wiki/後漢書/卷1上 ; Hou Hanshu 1下 — https://zh.wikisource.org/wiki/後漢書/卷1下",
+    "ic_not": "Sahibi bulunamadı: Wang Mang sonrası Shandong'da Liu Yong (Liang), Dong Xian (Hai Xi Wang), Zhang Bu (Qi Wang) (Hou Hanshu 1上); Guangwu 26'da (Jianwu 2) kardeşinin oğlu Liu Xing'i '魯王' yapar (atama, denetim kanıtı değil). Lu'da Dong Han denetiminin yerel ilk tarihli kanıtı Jianwu 20 (44) 10. ay 甲午 '幸魯' (Guangwu'nun Lu'ya gelişi) — f bu en geç tanıktan alındı; 23–44 arası Lu'nun fiili sahibi kaynakla belirlenemedi (BOŞLUK, > 1 kuşak ama Lu'ya özgü tanık BULUNAMADI)."
+   },
+   {
+    "f": "0044-11-28",
+    "t": "0220-12-10",
+    "d": "dogu-han",
+    "kesinlik": "gun",
+    "kaynak": "Hou Hanshu 1下 — https://zh.wikisource.org/wiki/後漢書/卷1下 ; Hou Hanshu 2 (Mingdi ji) — https://zh.wikisource.org/wiki/後漢書/卷2 ; Hou Hanshu 3 (Zhangdi ji) — https://zh.wikisource.org/wiki/後漢書/卷3",
+    "ic_not": "Doğu Han; Lu guo (Liu Xing, 51'de '始就國'; 52'de Beihai'ye aktarılıp Lu Dong Hai'ye eklenir). Ming di Yongping 15 (72) ve Zhang di Yuanhe 2 (85) Queli'de Kongzi'ye kurban kesmeye gelir. Künye dogu-han f=0025-01-01 < f (44): sorun yok.",
+    "tanik": "甲午，幸魯，進幸東海、楚、沛國"
+   },
+   {
+    "f": "0220-12-10",
+    "t": "0266-02-08",
+    "d": "cao-wei",
+    "kesinlik": "gun",
+    "kaynak": "Hou Hanshu 9 — https://zh.wikisource.org/wiki/後漢書/卷9 ; Jin Shu 14 — https://zh.wikisource.org/wiki/晉書/卷014",
+    "ic_not": "Cao Wei (Yanzhou Lu jun; ulusal geçiş). Lu'ya özgü kayıt bulunamadı."
+   },
+   {
+    "f": "0266-02-08",
+    "t": "0316-12-11",
+    "d": "bati-jin",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shu 14 (Dili zhi shang) — https://zh.wikisource.org/wiki/晉書/卷014",
+    "ic_not": "Batı Jin: Jin Shu 14 Taikang dönemi kaydı (280–289): Lu jun 7 ilçe, '魯曲阜之地，魯侯伯禽所居'. 4. yy başında (Han-Zhao/Shi Le yükselişinde) Lu'nun fiilen Jin'de kalıp kalmadığı BULUNAMADI; 316 ulusal künye sonu alındı (nominal).",
+    "tanik": "魯曲阜之地，魯侯伯禽所居"
+   },
+   {
+    "f": "0316-12-11",
+    "t": "0451-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Jin Shu 105 (Shi Le zai ji) — https://zh.wikisource.org/wiki/晉書/卷105 ; Wei Shu 24 — https://zh.wikisource.org/wiki/魏書/卷24",
+    "ic_not": "Sahibi KAYNAKLA BAĞLANAMADI: 316 sonrası Lu bölgesi için Han-Zhao, Sonraki Zhao (Shi Le/Hu), Önceki Yan, Önceki Qin, Doğu Jin, Güney Yan, Sonraki Yan ve Liu Song sırası olası, ama Lu/Qufu'ya özgü tarihli tanık BULUNAMADI (Jin Shu 105–107, 111–112, 124–128 ve Song Shu 1–2 '魯郡/魯國/曲阜/魯城' için tarandı: ilgili kayıt yok; Song Shu 1'deki '魯城' Xiakou'daki kale). Künyesiz devletler (han-zhao hariç) kunye_yok adaylarıdır: sonraki-zhao, onceki-yan, onceki-qin, guney-yan. En geç tanık: Wei Shu 24 (Zhenjun sonu, ≈450–451): Lu jun, Liu Song'un Taishou'sunun idaresinde."
+   },
+   {
+    "f": "0451-01-01",
+    "t": "0466-12-21",
+    "d": "liu-song",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Wei Shu 24 (Cui Mo zhuan) — https://zh.wikisource.org/wiki/魏書/卷24 ; Wei Shu 6 (Xianzu ji) — https://zh.wikisource.org/wiki/魏書/卷6",
+    "ic_not": "Liu Song: Wei Shu 24 — Zhenjun sonunda (≈450–451) '劉義隆魯郡太守' Xie Xieli Wei ordusuna '以郡降' (Taiwu Zouzhan'a ulaşan seferi); Wei çekildikten sonra Lu Song'a döner (Wei Shu 6, 466'da Song Yanzhou valisi Bi Zhongjing teslim olur). f = en geç tanık (451-01-01, yıl hassasiyeti; liu-song f=0420). 420–450 arası Lu'nun Song'da olduğunu gösteren Lu'ya özgü kayıt BULUNAMADI (dönem boşluğu yukarıda).",
+    "tanik": "邪利為劉義隆魯郡太守，以郡降"
+   },
+   {
+    "f": "0466-12-21",
+    "t": "0534-11-08",
+    "d": "kuzey-wei",
+    "kesinlik": "gun",
+    "kaynak": "Wei Shu 6 (Xianzu ji) — https://zh.wikisource.org/wiki/魏書/卷6 ; Wei Shu 106中 (Dili zhi, Yanzhou) — https://zh.wikisource.org/wiki/魏書/卷106中 ; Wei Shu 12 (Xiaojing ji) — https://zh.wikisource.org/wiki/魏書/卷12",
+    "ic_not": "Kuzey Wei: Tian'an 1 (466) 11. ay 壬子 Song Yanzhou valisi Bi Zhongjing Wei'ye bağlanır; Wei Shu 106中: '魯郡秦置，為薛郡，高后改為魯國。皇興中改'. Künye kuzey-wei t=0534-01-01 < 534-11: GENİŞLET.",
+    "tanik": "劉彧兗州刺史畢眾敬遣使內屬"
+   },
+   {
+    "f": "0534-11-08",
+    "t": "0550-06-09",
+    "d": "dogu-wei",
+    "kesinlik": "gun",
+    "kaynak": "Wei Shu 12 (Xiaojing ji) — https://zh.wikisource.org/wiki/魏書/卷12 ; Beiqi shu 4 — https://zh.wikisource.org/wiki/北齊書/卷4",
+    "ic_not": "Doğu Wei (Tianping 1 = 534, 10. ay 丙寅 Xiaojing Di tahta çıkar). Künye dogu-wei t=0550-01-01 < 550-06: GENİŞLET.",
+    "tanik": "冬十月丙寅，即位于城東北"
+   },
+   {
+    "f": "0550-06-09",
+    "t": "0577-02-28",
+    "d": "kuzey-qi",
+    "kesinlik": "gun",
+    "kaynak": "Beiqi shu 4 — https://zh.wikisource.org/wiki/北齊書/卷4 ; Yuanhe junxian zhi 10 (Yanzhou Qufu) — https://zh.wikisource.org/wiki/元和郡縣圖志/卷10",
+    "ic_not": "Kuzey Qi. Yuanhe junxian zhi 10: '高齊文宣帝省魯郡，仍於魯城置任城郡' (yılı verilmez). Bitiş: Zhou ordusu Qing zhou'da Qi hükümdarı Gao Wei'yi yakalar (Zhou Shu 6; Lu/Qufu'ya özgü tanık BULUNAMADI).",
+    "tanik": "戊午，乃即皇帝位於南郊"
+   },
+   {
+    "f": "0577-02-28",
+    "t": "0581-03-04",
+    "d": "kuzey-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Zhou shu 6 — https://zh.wikisource.org/wiki/周書/卷06",
+    "ic_not": "Kuzey Zhou (Jiande 6 = 577, 1. ay 己亥; Zhou takvimi). Künye kuzey-zhou f=0557 ✓.",
+    "tanik": "尉遲勤擒齊主及其太子恆於青州"
+   },
+   {
+    "f": "0581-03-04",
+    "t": "0617-03-12",
+    "d": "sui",
+    "kesinlik": "gun",
+    "kaynak": "Sui shu 31 (Dili zhi, Lu jun) — https://zh.wikisource.org/wiki/隋書/卷31 ; Yuanhe junxian zhi 10 — https://zh.wikisource.org/wiki/元和郡縣圖志/卷10",
+    "ic_not": "Sui: Kaihuang 3 (583) Ren cheng jun kaldırılır, Kaihuang 4 Wenyang ilçesi, Kaihuang 16 Qufu adı (Sui Shu 31; Yuanhe 10: '隋開皇三年罷郡，仍移汶陽縣理此…十六年，改汶陽縣為曲阜縣'). Bitiş: Daye 13 (=Yining 1, 617) 1. ay 辛巳 '魯郡賊帥徐圓朗攻陷東平' (ZZTJ 183): Xu, Lu jun merkezi (Qufu'nun bağlı olduğu Lu jun) dahil Langya'dan Dongping'e kadar her yeri alır. Künye sui t=0618-01-01 ✓.",
+    "tanik": "曲阜舊曰魯郡，後齊改郡爲任城"
+   },
+   {
+    "f": "0617-03-12",
+    "t": "0623-03-26",
+    "d": "xu-yuanlang",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 183 — https://zh.wikisource.org/wiki/資治通鑑/卷183 ; Zizhi tongjian 190 — https://zh.wikisource.org/wiki/資治通鑑/卷190",
+    "ic_not": "KÜNYE YOK — önerilen id: xu-yuanlang (Xu Yuanlang, '魯郡賊帥', Dongping–Lu jun; 617-03 → Wude 6 = 623-03; arada Li Mi/Tang unvanları: Wude 3–4'te Tang'a '請降，拜兗州總管，封魯郡公' (ZZTJ 188-189) ve 621–622'de Liu Heita'ya katılıp yeniden isyan; unvanlar nominal, kontrol Xu'da). Bitiş: ZZTJ 190: Wude 6, 2. ay 丙寅 Xu şehri terk edip öldürülür; Jiu Tang Shu 38 ise '武德五年，平徐圓朗，置兗州' der (622) — yıl çelişkisi; ZZTJ esas alındı (gün veren).",
+    "kunye_yok": true,
+    "tanik": "魯郡賊帥徐圓朗攻陷東平"
+   },
+   {
+    "f": "0623-03-26",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 190 — https://zh.wikisource.org/wiki/資治通鑑/卷190 ; Jiu Tang shu 38 (Dili zhi, Yanzhou) — https://zh.wikisource.org/wiki/舊唐書/卷38 ; Jiu Tang shu 5 (Gaozong ji) — https://zh.wikisource.org/wiki/舊唐書/卷5",
+    "ic_not": "Tang: Yanzhou/Lu jun; Qufu ilçesi Zhenguan 1 (627) kaldırılır, Zhenguan 8 (634) geri (JTS 38). Qianfeng 1 (666) Gaozong Qufu'da Kongzi'yi 'Taishi' ilan eder.",
+    "tanik": "徐圓朗窮蹙，與數騎棄城走，為野人所殺，其地悉平"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang shu 6 — https://zh.wikisource.org/wiki/舊唐書/卷6 ; Jiu Tang shu 7 — https://zh.wikisource.org/wiki/舊唐書/卷7",
+    "ic_not": "Wu Zhou; Qufu'ya özgü kayıt yok (ulusal)."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0907-06-01",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang shu 38 — https://zh.wikisource.org/wiki/舊唐書/卷38 ; Jiu Wudai shi 1 — https://zh.wikisource.org/wiki/舊五代史/卷1",
+    "ic_not": "Tang; Shandong'da Pinglu/Zi Qing (763-819) ve 9. yy sonu Taining jiedu (Zhu Jin, Yanzhou) Zhu Wen ile savaşır (Jiu Wudai shi 1: Pang Shigu Qufu'da karargah kurar, Zhu Jin'i yener; yıl ve ay metinde belirsiz) — özerklik nominal Tang sayıldı; Künye tang.t=0907-01-01 < 0907-06-01: GENİŞLET.",
+    "tanik": "本漢魯縣，即春秋時魯國，伯禽所都"
+   },
+   {
+    "f": "0907-06-01",
+    "t": "0923-11-18",
+    "d": "sonraki-liang-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272 ; Xin Wudai shi — https://zh.wikisource.org/wiki/新五代史/卷11",
+    "ic_not": "Sonraki Liang (Yanzhou Taining jun, Liang çekirdeği). Bitiş: ZZTJ 272 Tongguang 1 (923) 10. ay 戊寅: Jin/Sonraki Tang ordusu Cao zhou'u geçer, Kaifeng çöker; Yanzhou'ya özgü teslim tanığı BULUNAMADI (xian kataloğunun 0923-12-31 günü Chang'an'a özgü olduğundan kullanılmadı). Künye sonraki-liang t=0923-01-01 < 923-11: GENİŞLET.",
+    "tanik": "戊寅，或告唐軍已過曹州"
+   },
+   {
+    "f": "0923-11-18",
+    "t": "0937-01-11",
+    "d": "sonraki-tang-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272 ; Song shi 431 (Kong Renyu zhuan) — https://zh.wikisource.org/wiki/宋史/卷431",
+    "ic_not": "Sonraki Tang. Song Shi 431: Changxing 1 (930) Kong Renyu '曲阜主簿'; Tianfu 5 (940) '改曲阜令'.",
+    "tanik": "戊寅，或告唐軍已過曹州"
+   },
+   {
+    "f": "0937-01-11",
+    "t": "0947-03-10",
+    "d": "sonraki-jin-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Ulusal olay kaynağı: bkz. olay 0937-01-11 (k12-44 kataloğu, Xian kaydı)",
+    "ic_not": "Sonraki Jin; Qufu'ya özgü kayıt yok. Künye t=0947-01-01 < 947-03: GENİŞLET."
+   },
+   {
+    "f": "0947-03-10",
+    "t": "0951-02-13",
+    "d": "sonraki-han-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Ulusal olay kaynağı: bkz. olay 0947-03-10",
+    "ic_not": "Sonraki Han; Taining jiedu Murong Yanchao (Yanzhou) Sonraki Han'ın vasalı — Qufu'ya özgü kayıt yok."
+   },
+   {
+    "f": "0951-02-13",
+    "t": "0960-02-04",
+    "d": "sonraki-zhou-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai shi 11 (Zhou benji) — https://zh.wikisource.org/wiki/新五代史/卷11 ; Zizhi tongjian 290 — https://zh.wikisource.org/wiki/資治通鑑/卷290 ; Jiu Wudai shi 112 — https://zh.wikisource.org/wiki/舊五代史/卷112",
+    "ic_not": "Sonraki Zhou: Murong Yanchao Yanzhou'da isyan eder, Guangshun 2 (952) 5. ay 乙亥 Yanzhou alınır, 6. ay 乙酉 (1. gün) Taizu Qufu'da Kongzi'yi ziyaret eder.",
+    "tanik": "六月乙酉朔，幸曲阜，祠孔子"
+   },
+   {
+    "f": "0960-02-04",
+    "t": "1129-01-06",
+    "d": "song",
+    "kesinlik": "gun",
+    "kaynak": "Song shi 85 (Dili zhi, Jingdong xi lu) — https://zh.wikisource.org/wiki/宋史/卷085 ; Song shi 119 — https://zh.wikisource.org/wiki/宋史/卷119",
+    "ic_not": "Song: Dazhong Xiangfu 5 (1012) Qufu ilçesi Xianyuan adını alır (Song Shi 85); Kong ailesinin Yansheng Gong'u Xianyuan ilçesini yönetir (Song Shi 119). Bitiş: Song Shi 25 Jianyan 2 (1128) 12. ay 甲子 Jin '陷襲慶府' (Yanzhou = Xingqing fu).",
+    "tanik": "仙源，中上。魏"
+   },
+   {
+    "f": "1129-01-06",
+    "t": "1130-10-12",
+    "d": "jin-hanedani",
+    "kesinlik": "gun",
+    "kaynak": "Song shi 25 — https://zh.wikisource.org/wiki/宋史/卷025 ; Jin shi 74 (Zonghan zhuan) — https://zh.wikisource.org/wiki/金史/卷74",
+    "ic_not": "Jin (doğrudan, ~9 ay): Jin Shi 74 '襲慶府來降' (yılsız); Song Shi 25 ile tarihlendi.",
+    "tanik": "又陷襲慶府"
+   },
+   {
+    "f": "1130-10-12",
+    "t": "1138-01-01",
+    "d": "qi-liu-yu",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Jin shi 77 (Liu Yu zhuan) — https://zh.wikisource.org/wiki/金史/卷77",
+    "ic_not": "KÜNYE YOK — önerilen id: qi-liu-yu (Liu Yu'nun Da Qi'si, Jin vasalı, Dongping merkezli; Jin Shi 77: Tianhui 8 (1130) 9. ay 戊申 Da Qi imparatoru; 1137-38 Jin tarafından kaldırılır — xian kataloğundaki gün 1138-01-01 yıl hassasiyetindedir). Yanzhou/Qufu Qi toprağında olduğuna dair doğrudan kayıt BULUNAMADI (Dongping–Henan–Shaanxi; Jin Shi 77).",
+    "kunye_yok": true,
+    "tanik": "立豫為大齊皇帝"
+   },
+   {
+    "f": "1138-01-01",
+    "t": "1220-06-29",
+    "d": "jin-hanedani",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Jin shi 25 (Dili zhi, Shandong dong lu) — https://zh.wikisource.org/wiki/金史/卷25 ; Jin shi 16 — https://zh.wikisource.org/wiki/金史/卷16",
+    "ic_not": "Jin: Jin Shi 25 Yanzhou (Taiqin jun) – '曲阜宋名仙源'; Qufu yeniden adını alır. Bitiş: Jin Shi 16 Xingding 4 (1220) 5. ay 丙辰 '大元兵徇兗州，泰定軍節度使兀顏畏可死之'.",
+    "tanik": "曲阜宋名仙源"
+   },
+   {
+    "f": "1220-06-29",
+    "t": "1260-05-05",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "gun",
+    "kaynak": "Jin shi 16 — https://zh.wikisource.org/wiki/金史/卷16 ; Yuan shi 118 (Hongjila / Deng Qi) — https://zh.wikisource.org/wiki/元史/卷118",
+    "ic_not": "Moğol: Yanzhou 1220 düşer; Jin'in sonraki Yanzhou geri alımı Qufu için BULUNAMADI. Yuan Shi 118: Bing Shen (1236) yılında Hongjila (Qonggirat) pay-fief'ine Jining lu, Ji/Yan/Shan eyaletleri ve Qufu dahil 16 ilçe verilir. Künye mogol t=1260-01-01 < 1260-05: GENİŞLET.",
+    "tanik": "寧陽、曲阜、泗水一十六縣。此丙申歲之所賜也"
+   },
+   {
+    "f": "1260-05-05",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Yuan shi 58 (Dili zhi, Jining lu) — https://zh.wikisource.org/wiki/元史/卷058",
+    "ic_not": "Yuan: Jining lu Yanzhou; Zhiyuan 2 (1265) Zi Yang ve Si shui ilçeleri Qufu'ya katılır, 1266'da yeniden ayrılır. Atlasın ilk sahibi (yuan-hanedani 1281-01-01) ile aynı — dikişte olay gerekmez.",
+    "tanik": "泗水，至元二年，省入曲阜"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0840-01-01",
+    "gun": "MÖ 841",
+    "k": "diger",
+    "b": "Shiji 14 tablosu: Lu'nun yıl taşıyan ilk kaydı (Zhen Gong 15. yıl, '一云十四年'); Shiji 33: Lu'nun ilk merkezi Qufu (Zhou Gong enfeodmanı, yılsız). Atlas başlangıcı.",
+    "kaynak": "Shiji 14 — https://zh.wikisource.org/wiki/史記/卷014 ; Shiji 33 — https://zh.wikisource.org/wiki/史記/卷033",
+    "tanik": "真公濞十五年，一云十四年"
+   },
+   {
+    "t": "-0248-01-01",
+    "gun": "MÖ 249 (Chu Kaolie 14; Lu Qing Gong 24)",
+    "k": "fetih",
+    "b": "Chu Kaolie Wang Lu'yu yok eder; Qing Gong Xia Yi'ye kaçar, Lu'nun kurban geleneği kesilir (Shiji 33; Shiji 15 yıl tablosu '十四。楚滅魯，頃公遷卞，為家人，絕祀').",
+    "kaynak": "Shiji 33 — https://zh.wikisource.org/wiki/史記/卷033 ; Shiji 15 — https://zh.wikisource.org/wiki/史記/卷015",
+    "tanik": "楚考烈王伐滅魯"
+   },
+   {
+    "t": "-0222-01-01",
+    "gun": "MÖ 223 (Qin 24. yıl)",
+    "k": "fetih",
+    "b": "Qin, Wang Jian ve Meng Wu komutasında Chu ordusunu bozar; Chu komutanı Xiang Yan intihar eder (Chu'nun çöküşü; Lu bölgesi Qin'e geçer).",
+    "kaynak": "Shiji 6 — https://zh.wikisource.org/wiki/史記/卷006",
+    "tanik": "二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺"
+   },
+   {
+    "t": "-0220-01-01",
+    "gun": "MÖ 221",
+    "k": "diger",
+    "b": "künye geçişi: Qin devleti → Qin imparatorluğu ('秦王初并天下'). Lu'ya özgü olay yok.",
+    "kaynak": "Shiji 6 — https://zh.wikisource.org/wiki/史記/卷006",
+    "tanik": "秦王初并天下"
+   },
+   {
+    "t": "-0208-08-09",
+    "gun": "MÖ 209 (Ershi 1, 7. ay; ay başı çevrildi)",
+    "k": "isyan",
+    "b": "Chen Sheng Daze'de ayaklanır; Qin düzeni Chu topraklarında çözülür. Qufu/Lu'ya özgü tanık BULUNAMADI.",
+    "kaynak": "Shiji 7 — https://zh.wikisource.org/wiki/史記/卷007 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "秦二世元年七月，陳涉等起大澤中"
+   },
+   {
+    "t": "-0201-02-28",
+    "gun": "MÖ 202 (Han Gaozu 5. yıl, Xiang Yu'nun ölümünden sonra; güvenli uç = imparatorluk günü 2. ay 甲午)",
+    "k": "fetih",
+    "b": "Xiang Yu'nun ölümünden sonra Lu son teslim olan Chu şehridir: Han ordusu Xiang Yu'nun başını gösterince '魯父兄乃降'; Xiang Yu Lu Gong unvanıyla Gucheng'e gömülür (Shiji 7). Gün yok, 12. ay – 2. ay arasında; Gaozu'nun imparator günü (Shiji 8) güvenli uç.",
+    "kaynak": "Shiji 7 — https://zh.wikisource.org/wiki/史記/卷007 ; Shiji 8 — https://zh.wikisource.org/wiki/史記/卷008 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (MÖ 202 yılı Han takvimi, 10. ay başlangıçlı)",
+    "tanik": "乃持項王頭視魯，魯父兄乃降"
+   },
+   {
+    "t": "-0195-12-12",
+    "gun": "MÖ 196 (Gaozu 12. yıl, 11. ay; ay başı çevrildi)",
+    "k": "diger",
+    "b": "Gaozu Huainan seferinden dönerken Lu'dan geçer ve Kongzi'ye '大牢' ile kurban keser (Hanshu 1下; Shiji 47: '高皇帝過魯，以太牢祀焉'). Hanshu Shiji'ye dayanır — bağımsız çift teyit sayılmadı.",
+    "kaynak": "Hanshu 1下 — https://zh.wikisource.org/wiki/漢書/卷001下 ; Shiji 47 — https://zh.wikisource.org/wiki/史記/卷047 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "十一月，行自淮南還。過魯，以大牢祠孔子"
+   },
+   {
+    "t": "0009-01-10",
+    "gun": "10 Ocak 9",
+    "k": "diger",
+    "b": "künye geçişi: Batı Han → Xin (Wang Mang taht ilan eder). (Qufu/Lu'ya özgü tanık bulunamadı; ulusal olay.)",
+    "kaynak": "Hanshu 99上 (漢書/卷099上)",
+    "tanik": "即真天子位，定有天下之號曰新"
+   },
+   {
+    "t": "0023-10-06",
+    "gun": "6 Ekim 23",
+    "k": "fetih",
+    "b": "Wang Mang öldürülür; Xin sona erer (ulusal olay). Lu'nun 23–44 arası sahibi kaynakta bulunamadı → __BOSLUK__.",
+    "kaynak": "Hanshu 99下 (漢書/卷099下)",
+    "tanik": "商人杜吳殺莽，取其綬"
+   },
+   {
+    "t": "0044-11-28",
+    "gun": "Jianwu 20 (44), 10. ay 甲午",
+    "k": "diger",
+    "b": "Guangwu doğu seferinde '幸魯' (Lu'ya gelir, sonra Donghai/Chu/Pei): Dong Han'ın Lu'daki yerel ilk tarihli kanıtı. Dong Han sahipliği buradan itibaren yazıldı; öncesi BOŞLUK.",
+    "kaynak": "Hou Hanshu 1下 — https://zh.wikisource.org/wiki/後漢書/卷1下 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "甲午，幸魯，進幸東海、楚、沛國"
+   },
+   {
+    "t": "0072-04-07",
+    "gun": "Yongping 15 (72), 3. ay (ay başı çevrildi)",
+    "k": "diger",
+    "b": "Ming di Lu'ya gelip Donghai Gong Wang mezarına ve '孔子宅'ına (Queli) kurban keser; Li Xian yorumu: '孔子宅在今兖州曲阜縣故魯城中歸德門內闕里之中'.",
+    "kaynak": "Hou Hanshu 2 — https://zh.wikisource.org/wiki/後漢書/卷2 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "孔子宅在今兖州曲阜縣故魯城中歸德門內闕里之中"
+   },
+   {
+    "t": "0085-04-23",
+    "gun": "Yuanhe 2 (85), 3. ay 庚寅",
+    "k": "diger",
+    "b": "Zhang di Lu'ya gelir, Queli'de Kongzi ve 72 öğrencisine kurban keser ('祠孔子於闕里').",
+    "kaynak": "Hou Hanshu 3 — https://zh.wikisource.org/wiki/後漢書/卷3 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "庚寅，祠孔子於闕里"
+   },
+   {
+    "t": "0220-12-10",
+    "gun": "10 Aralık 220",
+    "k": "diger",
+    "b": "künye geçişi: Dong Han → Cao Wei (Cao Pi tahta çıkar). (Lu/Qufu'ya özgü tanık yok; ulusal olay.)",
+    "kaynak": "Sanguozhi Wei 2 (三國志/卷02)",
+    "tanik": "庚午，王升壇即阼，百官陪位"
+   },
+   {
+    "t": "0266-02-08",
+    "gun": "266 (Taishi 1, 12. ay 丙寅; Jülyen 266-02-08)",
+    "k": "diger",
+    "b": "künye geçişi: Cao Wei → Batı Jin (Sima Yan güney kapıda sunak kurup tahta çıkar; Jülyen 266-02-08, xian kataloğu ile aynı gün). Lu/Qufu'ya özgü tanık yok; kataloğun alıntısı doğrulanamadığından Jin Shu 3 alıntısı yeniden alındı.",
+    "kaynak": "Jin Shu 3 — https://zh.wikisource.org/wiki/晉書/卷003",
+    "tanik": "冬十二月丙寅，設壇于南郊"
+   },
+   {
+    "t": "0289-01-01",
+    "gun": "Taikang dönemi (280–289); güvenli uç 289",
+    "k": "diger",
+    "b": "Jin Shu 14 (Dili zhi): Lu jun (Yanzhou) '魯曲阜之地，魯侯伯禽所居' — Qufu adı ve Lu yeri Batı Jin kaydında.",
+    "kaynak": "Jin Shu 14 — https://zh.wikisource.org/wiki/晉書/卷014",
+    "tanik": "魯曲阜之地，魯侯伯禽所居"
+   },
+   {
+    "t": "0316-12-11",
+    "gun": "11 Aralık 316",
+    "k": "fetih",
+    "b": "Min Di Liu Yao'ya teslim olur; Batı Jin biter, Chang'an Han-Zhao'ya geçer. (Lu/Qufu'ya özgü tanık yok; 4. yy başında Lu'nun fiili sahibi kaynakta bulunamadı → sonrası BOŞLUK.)",
+    "kaynak": "Jin shu 5 (晉書/卷005)",
+    "tanik": "帝乘羊車，肉袒銜壁，輿櫬出降"
+   },
+   {
+    "t": "0451-01-01",
+    "gun": "Zhenjun sonu (≈450–451)",
+    "k": "fetih",
+    "b": "Wei Taiwu'nun güney seferinde Zouzhan'a ulaşması üzerine Lu jun Taishou'su Xie Xieli (Song Wendi Liu Yilong'un görevlisi) '以郡降' Wei'ye; Wei geri çekilince Lu Song'a döner (Wei Shu 6: 466'da Song Yanzhou valisi Wei'ye bağlanır). Yıl yaklaşık: Zhenjun sonu.",
+    "kaynak": "Wei Shu 24 — https://zh.wikisource.org/wiki/魏書/卷24",
+    "tanik": "邪利為劉義隆魯郡太守，以郡降"
+   },
+   {
+    "t": "0466-12-21",
+    "gun": "Tian'an 1 (466), 11. ay 壬子",
+    "k": "fetih",
+    "b": "Liu Yu'nun (Song Mingdi) Yanzhou valisi Bi Zhongjing Wei'ye bağlanır; Wei Shu 106中: Lu jun adı Huangxing döneminde değişir.",
+    "kaynak": "Wei Shu 6 — https://zh.wikisource.org/wiki/魏書/卷6 ; Wei Shu 106中 — https://zh.wikisource.org/wiki/魏書/卷106中 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "劉彧兗州刺史畢眾敬遣使內屬"
+   },
+   {
+    "t": "0534-11-08",
+    "gun": "Tianping 1 (534), 10. ay 丙寅",
+    "k": "diger",
+    "b": "künye geçişi: Kuzey Wei → Doğu Wei (Xiaojing Di Ye'nin kuzeydoğusunda tahta çıkar; Gao Huan kontrolü).",
+    "kaynak": "Wei Shu 12 — https://zh.wikisource.org/wiki/魏書/卷12 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (WeiQi takvimi)",
+    "tanik": "冬十月丙寅，即位于城東北"
+   },
+   {
+    "t": "0550-06-09",
+    "gun": "550 (Tianbao 1 / Wuding 8), 5. ay 戊午",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Wei → Kuzey Qi (Gao Yang güney kapıda imparator olur). Yuanhe 10: Wenxuan Di Lu jun'unu kaldırıp Lu şehrinde Rencheng jun'unu kurar (yılsız).",
+    "kaynak": "Beiqi shu 4 — https://zh.wikisource.org/wiki/北齊書/卷4 ; Yuanhe junxian zhi 10 — https://zh.wikisource.org/wiki/元和郡縣圖志/卷10 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (WeiQi takvimi)",
+    "tanik": "戊午，乃即皇帝位於南郊"
+   },
+   {
+    "t": "0577-02-28",
+    "gun": "Jiande 6 (577), 1. ay 己亥",
+    "k": "fetih",
+    "b": "Zhou ordusu Ye'yi alıp Qing zhou'da Gao Wei'yi yakalar ('尉遲勤擒齊主及其太子恆於青州'): Kuzey Qi biter; Lu'ya özgü teslim kaydı BULUNAMADI.",
+    "kaynak": "Zhou shu 6 — https://zh.wikisource.org/wiki/周書/卷06 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (WeiZhouSui takvimi)",
+    "tanik": "尉遲勤擒齊主及其太子恆於青州"
+   },
+   {
+    "t": "0581-03-04",
+    "gun": "4 Mart 581",
+    "k": "diger",
+    "b": "künye geçişi: Kuzey Zhou → Sui (Yang Jian Chang'an'da imparator olur). (Lu/Qufu'ya özgü tanık yok.)",
+    "kaynak": "Sui shu 1 (隋書/卷01)",
+    "tanik": "備禮即皇帝位於臨光殿"
+   },
+   {
+    "t": "0596-01-01",
+    "gun": "Kaihuang 16 (596)",
+    "k": "idari",
+    "b": "Wenyang ilçesi '曲阜' adını alır (Sui Shu 31: Kaihuang 3 komutanlık kalkar, 4'te ilçe Wenyang, 16'da Qufu). Qufu adının ilk görünümü.",
+    "kaynak": "Sui shu 31 — https://zh.wikisource.org/wiki/隋書/卷31 ; Yuanhe junxian zhi 10 — https://zh.wikisource.org/wiki/元和郡縣圖志/卷10",
+    "tanik": "十六年改名曲阜"
+   },
+   {
+    "t": "0617-03-12",
+    "gun": "Daye 13 / Yining 1 (617), 1. ay 辛巳",
+    "k": "isyan",
+    "b": "Lu jun eşkıyası Xu Yuanlang Dongping'i alır; Langya'dan Dongping'e kadar bütün bölgeye hakim olur (Lu jun dahil) — Sui düzeni biter.",
+    "kaynak": "Zizhi tongjian 183 — https://zh.wikisource.org/wiki/資治通鑑/卷183 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "魯郡賊帥徐圓朗攻陷東平"
+   },
+   {
+    "t": "0623-03-26",
+    "gun": "Wude 6 (623), 2. ay 丙寅",
+    "k": "fetih",
+    "b": "Xu Yuanlang sıkışıp şehri terk eder, köylülerce öldürülür; '其地悉平' (ZZTJ 190). Jiu Tang Shu 38: '武德五年，平徐圓朗，置兗州' (yıl çelişkisi: 622 vs 623, ZZTJ esas).",
+    "kaynak": "Zizhi tongjian 190 — https://zh.wikisource.org/wiki/資治通鑑/卷190 ; Jiu Tang shu 38 — https://zh.wikisource.org/wiki/舊唐書/卷38 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "徐圓朗窮蹙，與數騎棄城走，為野人所殺，其地悉平"
+   },
+   {
+    "t": "0634-01-01",
+    "gun": "Zhenguan 8 (634)",
+    "k": "idari",
+    "b": "Qufu ilçesi Zhenguan 1'de (627) kaldırılmıştı, Zhenguan 8'de yeniden kurulur (Jiu Tang Shu 38; Xin Tang Shu 38: '貞觀元年省，八年復置'). Atlas noktası ilçe değil Queli alanı; kayıt aralıksız sayıldı.",
+    "kaynak": "Jiu Tang shu 38 — https://zh.wikisource.org/wiki/舊唐書/卷38",
+    "tanik": "八年，復置曲阜縣"
+   },
+   {
+    "t": "0666-03-05",
+    "gun": "Qianfeng 1 (666), 1. ay 辛卯",
+    "k": "diger",
+    "b": "Gaozong Taishan fengshan'dan dönerken Qufu'ya gelir, Kongzi'yi 'Taishi' ilan eder (ZZTJ 201: '辛卯，至曲阜，贈孔子太師'; Jiu Tang Shu 5: '甲午，次曲阜縣，幸孔子廟' — gün çelişkisi 辛卯 vs 甲午, 3 gün; ZZTJ alındı). Çift teyit değil (iki bağımsız derleme aynı olayı farklı günle verir).",
+    "kaynak": "Zizhi tongjian 201 — https://zh.wikisource.org/wiki/資治通鑑/卷201 ; Jiu Tang shu 5 — https://zh.wikisource.org/wiki/舊唐書/卷5 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "辛卯，至曲阜，贈孔子太師"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "16 Ekim 690",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wu Zhou (Wu Zetian).",
+    "kaynak": "Jiu Tang shu 6 (舊唐書/卷6)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "3 Mart 705",
+    "k": "diger",
+    "b": "künye geçişi: Wu Zhou → Tang (Zhongzong Tang adını geri verir).",
+    "kaynak": "Jiu Tang shu 7 (舊唐書/卷7)",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0907-06-01",
+    "gun": "1 Haziran 907",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Sonraki Liang (Zhu Wen imparator olur). (Shandong'da Taining jun Zhu Jin–Zhu Wen savaşları 890'larda: Jiu Wudai shi 1; Qufu'ya özgü el değiştirme yok.)",
+    "kaynak": "Xin Wudai shi 2 (新五代史/卷02)",
+    "tanik": "甲子，皇帝即位"
+   },
+   {
+    "t": "0923-11-18",
+    "gun": "Tongguang 1 (923), 10. ay 戊寅",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Liang → Sonraki Tang. Jin/Tang ordusu Cao zhou'u geçer, Liang başkenti Kaifeng düşer (ZZTJ 272). xian kataloğunun 0923-12-31 günü Chang'an kaydıdır; Shandong için bu gün kullanıldı. Yanzhou'ya özgü teslim BULUNAMADI.",
+    "kaynak": "Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "戊寅，或告唐軍已過曹州"
+   },
+   {
+    "t": "0937-01-11",
+    "gun": "11 Ocak 937",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Tang → Sonraki Jin (Tang son imparatoru kendini yakar). (Qufu'ya özgü kayıt yok.)",
+    "kaynak": "Xin Wudai shi 7 (新五代史/卷7)",
+    "tanik": "辛巳，皇帝崩"
+   },
+   {
+    "t": "0947-03-10",
+    "gun": "10 Mart 947",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Jin → Sonraki Han (Liu Zhiyuan Taiyuan'da imparator olur). (Qufu'ya özgü kayıt yok.)",
+    "kaynak": "Jiu Wudai shi 99 (舊五代史/卷99)",
+    "tanik": "辛未，帝於太原宮受冊，即皇帝位"
+   },
+   {
+    "t": "0951-02-13",
+    "gun": "13 Şubat 951",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Han → Sonraki Zhou (Guo Wei imparator olur). (Yanzhou: Taining jiedu Murong Yanchao Zhou'ya karşı 952'ye dek direnir.)",
+    "kaynak": "Xin Wudai shi 11 (新五代史/卷11)",
+    "tanik": "皇帝即位，大赦，改元，國號周"
+   },
+   {
+    "t": "0952-06-15",
+    "gun": "Guangshun 2 (952), 5. ay 乙亥",
+    "k": "fetih",
+    "b": "Sonraki Zhou Taizu Yanzhou'yu alır; Murong Yanchao kuyuya atlayıp ölür (Xin Wudai shi 11).",
+    "kaynak": "Xin Wudai shi 11 — https://zh.wikisource.org/wiki/新五代史/卷11 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "乙亥，克兗州。彥超投井死"
+   },
+   {
+    "t": "0952-06-25",
+    "gun": "Guangshun 2 (952), 6. ay 乙酉 (ayın 1. günü)",
+    "k": "diger",
+    "b": "Taizu Qufu'da Kongzi tapınağını ve mezarını ziyaret eder (Xin Wudai shi 11; Jiu Wudai shi 112; ZZTJ 290 — üç derleme aynı günü verir; ortak kaynak ihtimali nedeniyle 'çift teyit' olarak değil, 'üç derlemede aynı gün' diye kaydedildi).",
+    "kaynak": "Xin Wudai shi 11 — https://zh.wikisource.org/wiki/新五代史/卷11 ; Jiu Wudai shi 112 — https://zh.wikisource.org/wiki/舊五代史/卷112 ; Zizhi tongjian 290 — https://zh.wikisource.org/wiki/資治通鑑/卷290 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "六月乙酉朔，幸曲阜，祠孔子"
+   },
+   {
+    "t": "0960-02-04",
+    "gun": "4 Şubat 960",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Zhou → Song (Zhao Kuangyin). (Qufu'ya özgü kayıt yok.)",
+    "kaynak": "Song shi 1 (宋史/卷1)",
+    "tanik": "定有天下之號曰宋"
+   },
+   {
+    "t": "1012-01-01",
+    "gun": "Dazhong Xiangfu 5 (1012)",
+    "k": "idari",
+    "b": "Qufu ilçesi '仙源' (Xianyuan) adını alır (Song Shi 85); Jin Shi 25: '曲阜宋名仙源' (Jin'de Qufu adı geri). İlçe merkezinin Shouqiu'ya taşınması birincil kaynakta doğrulanamadı.",
+    "kaynak": "Song shi 85 — https://zh.wikisource.org/wiki/宋史/卷085 ; Jin shi 25 — https://zh.wikisource.org/wiki/金史/卷25",
+    "tanik": "仙源，中上。魏"
+   },
+   {
+    "t": "1129-01-06",
+    "gun": "1129 (Jianyan 2, 12. ay 甲子; Jülyen 1129-01-06)",
+    "k": "fetih",
+    "b": "Jin ordusu Dongping, Daming ve Xingqing fu'yu (Yanzhou) alır (Song Shi 25: '甲子，金人陷大名府…又陷襲慶府'; Jin Shi 74: '襲慶府來降').",
+    "kaynak": "Song shi 25 — https://zh.wikisource.org/wiki/宋史/卷025 ; Jin shi 74 — https://zh.wikisource.org/wiki/金史/卷74 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (Song takvimi)",
+    "tanik": "又陷襲慶府"
+   },
+   {
+    "t": "1130-10-12",
+    "gun": "Tianhui 8 (1130), 9. ay 戊申",
+    "k": "kurulus",
+    "b": "Jin, Liu Yu'yu Da Qi imparatoru ilan eder (Daming, sonra Dongping); Qi Jin vasalıdır.",
+    "kaynak": "Jin shi 77 — https://zh.wikisource.org/wiki/金史/卷77 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (LiaoJinYuan takvimi)",
+    "tanik": "立豫為大齊皇帝"
+   },
+   {
+    "t": "1138-01-01",
+    "gun": "1 Ocak 1138",
+    "k": "diger",
+    "b": "Jin Qi devletini kaldırır; Liu Yu 'Shu Wang' olur, Shaanxi doğrudan Jin'e geçer. (Qi toprağı Henan–Shaanxi–Shandong; Yanzhou/Qufu için doğrudan tanık yok.)",
+    "kaynak": "Jin shi 4 (金史/卷4)",
+    "tanik": "十一月丙午，廢齊國，降封劉豫爲蜀王"
+   },
+   {
+    "t": "1220-06-29",
+    "gun": "Xingding 4 (1220), 5. ay 丙辰",
+    "k": "fetih",
+    "b": "Moğol orduları Yanzhou'yu tarar; Taiding jun jiedushi Wuyan Weike ölür (Jin Shi 16).",
+    "kaynak": "Jin shi 16 — https://zh.wikisource.org/wiki/金史/卷16 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (LiaoJinYuan takvimi)",
+    "tanik": "丙辰，大元兵徇兗州，泰定軍節度使兀顏畏可死之"
+   },
+   {
+    "t": "1236-01-01",
+    "gun": "Bing Shen (1236)",
+    "k": "idari",
+    "b": "Ögedei, Hongjila (Qonggirat) aile fief'ine Jining lu, Ji–Yan–Shan eyaletleri ve Qufu dahil 16 ilçeyi verir (Yuan Shi 118).",
+    "kaynak": "Yuan shi 118 — https://zh.wikisource.org/wiki/元史/卷118",
+    "tanik": "寧陽、曲阜、泗水一十六縣。此丙申歲之所賜也"
+   },
+   {
+    "t": "1260-05-05",
+    "gun": "5 Mayıs 1260",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → Yuan (Kubilai Kaiping'de imparator olur). (Qufu Jining lu, Yuan idaresinde.)",
+    "kaynak": "Yuan shi 4 (元史/卷4)",
+    "tanik": "辛卯，帝即皇帝位"
+   },
+   {
+    "t": "1265-01-01",
+    "gun": "Zhiyuan 2 (1265)",
+    "k": "idari",
+    "b": "Zi Yang ve Si shui ilçeleri Qufu ilçesine katılır ('至元二年，省入曲阜'), 3. yılda geri ayrılır (Yuan Shi 58).",
+    "kaynak": "Yuan shi 58 — https://zh.wikisource.org/wiki/元史/卷058",
+    "tanik": "泗水，至元二年，省入曲阜"
+   }
+  ],
+  "ic_not": "ÖZET (hayalet uyarıları: künye t < gerçek geçiş günü ⇒ künye GENİŞLET; bkz. her dönemin ic_not'u): ilk yer-kesin yıllı tanık Shiji 14 (MÖ 841, ilk_anilis); kuruluş (Zhou Gong enfeodmanı) Shiji 33'te yılsız, kur null. ATLAS: ilk sahiplik 1281-01-01 yuan-hanedani — zincir ona bağlandı. KÜNYE ÖNERİLERİ (kunye_yok): lu-devleti-zhou (MÖ 1046?–249; yalnız Shiji 33/14 ile: MÖ 841–249 yazıldı), xu-yuanlang (617–623), qi-liu-yu (1130–1137/38); yazılmayan ama zincirde gerekebilecek adaylar (BOŞLUK içinde): xi-chu-bawang (MÖ 206–202), sonraki-zhao, onceki-yan, onceki-qin, guney-yan (4.–5. yy Shandong). GENİŞLET: kuzey-wei.t, dogu-wei.t, tang.t (0907-06-01), sonraki-liang t, sonraki-jin t, sonraki-han t, mogol-imp. t. BOŞLUKLAR (kaynakla sahip bağlanamadı): MÖ 209–202 (Xiang Yu/Lu Gong, Xi Chu), 23–44 (Wang Mang sonrası), 316–451 (Han-Zhao → Liu Song). 3 KM: atlas noktası Queli (Kong Tapınağı) — Hou Hanshu 2 yorumuyla eski Lu şehri içinde; ayrı 'lu-guocheng-cin' kaydı GEREKMEDİ (öneri yalnız ilçe merkezi kayması için: Shouqiu/Xianyuan ve Yuan'da '魯城東十里' birincil kaynakla doğrulanamadı). ÇİFT TEYİT: yok (952 Qufu ziyareti üç derlemede aynı gün; ortak kaynak olasılığı). BULUNAMADI: Qufu/Lu'ya özgü tanık — Qin fethi, Wang Mang sonrası, 4–5. yy sahipleri (Han-Zhao…Liu Song), Kuzey Qi→Zhou, Liang→Tang (Yanzhou teslimi), Song→Jin geri alım, Moğol sonrası Jin geri alımı, Yuan'da ilçe merkezi taşıması; Lu eski şehri ile atlas noktası mesafesi (koordinatla). AÇILAMAYAN: kfda.qfnu.edu.cn/__local/8/87/EF/255A5DF700B6BE4C1AF7A425B39_DBBE1E0F_28A988.pdf (403); Kuodizhi (括地志輯校/003) Queli cümlesi sayfada birebir doğrulanamadı."
  },
  {
   "id": "regensburg-de",
@@ -14131,6 +16697,690 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "dikis_beyan": "Atlas Semendire'yi 1281-01-01'de 'sirbistan' ile başlatıyor; 1281 civarına ait Semendire'ye özgü sahiplik tanığı HE/TDV/Treccani'de BULUNAMADI (komşu Belgrad HE: ilk Sırp hâkimiyeti 1284). Yer tutucu olay yazılmadı.",
   "ic_not": "Semendire: atlas 1281 sirbistan iddiası kaynaksız; HE Beograd'a göre komşu Belgrad 1284'te ilk kez Sırp hâkimiyetine girdi, Semendire için tanık yok — Atlas başlangıcı gözden geçirilmeli (kaynak: bulunamadı). Açılamayan: Srpska enciklopedija / Istorijski institut yayınları (arama yapılmadı)."
+ },
+ {
+  "id": "shaoxing-cin",
+  "ad": "Shaoxing",
+  "atlas_ad": "Shaoxing",
+  "lat": 30.03,
+  "lon": 120.58,
+  "kat1900": 3,
+  "adlar": [
+   "Yue (於越) başkent-şehri: Goujian'ın 'küçük şehri' (句踐小城) = 'Shanyin şehri' / 'Dayue' (大越) — Yue Jue Shu 8; Wu Yue Chunqiu: Fan Li'nin kurduğu küçük şehir",
+   "Shanyin / 山陰 (Qin 37. yıl = MÖ 210: '乃更名大越曰山陰', Yue Jue Shu 8; Hanshu 28上: Kuaiji jun ilçesi)",
+   "Kuaiji / 會稽 (Kuaiji jun merkezi 129'dan: Song Shu 35 '會稽移治山陰'; Tang öncesi Kuaiji ilçesi = Sui 589 birleşik ilçe)",
+   "Wuzhou / 吳州 (Sui 589 '平陳，改曰吳州'; Sui Shu 31)",
+   "Yuezhou / 越州 (Sui Daye ilk yılları '置越州'; Tang Wude 4 = 621 Yuezhou zongguanfu; Jiu Tang Shu 40)",
+   "Kuaiji jun / 會稽郡 (Tianbao 1 = 742; Qianyuan 1 = 758'de Yuezhou'ya döner; Jiu Tang Shu 40)",
+   "Weisheng jun / 威勝軍 (Tang sonu), Zhendong jun / 鎮東軍 (Qianning 3 = 896-897; Xin Wudai Shi 67, ZZTJ 261)",
+   "Shaoxing fu / 紹興府 (Shaoxing 1 = 1131, 10. ay 己丑 = 17 Kas 1131; Song Shi 26)",
+   "Shaoxing lu / 紹興路 (Zhiyuan 13 = 1276; Yuan Shi 62)"
+  ],
+  "ilk": {
+   "t": "-0489-01-01",
+   "gun": "MÖ 490 (Goujian 7. yıl, GELENEK)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Wu Yue chunqiu, Goujian guiguo waizhuan (勾踐歸國外傳; '勾踐七年' Wu'dan dönüş, Fan Li küçük şehri kurar) — https://zh.wikisource.org/wiki/吳越春秋/勾踐歸國外傳 ; Yue Jue Shu 8 (越絕書 卷八: '句踐小城，山陰城也'; '山陰大城者，范蠡所築治也') — https://zh.wikisource.org/wiki/越絕書/卷八 ; Shiji 14 (十二諸侯年表; Wu 19. yıl = MÖ 496: Goujian 1. yıl; Lu Ai 1 = MÖ 494) — https://zh.wikisource.org/wiki/史記/卷014 ; Shiji 41 (越王句踐世家) — https://zh.wikisource.org/wiki/史記/卷041 ; yer eşitlemesi: Jiatai Kuaiji zhi 1 (嘉泰會稽志 卷01; Song, 1201) — https://zh.wikisource.org/wiki/㑹稽志_(四庫全書本)/卷01",
+   "tanik": "築作小城，周千一百二十二步",
+   "ic_not": "GELENEK TARİHİ; arkeolojik/akademik doğrulama BULUNAMADI. Wu Yue chunqiu (Doğu Han) Goujian'ın Wu'dan dönüşünü '勾踐七年' ile başlatır; Fan Li aynı bölümde '小城' (çevre 1122 bu) ve '外郭' (kuzeybatısı eksik) kurar. Yıl sayısı: Shiji 14 tablosu Wu Helü 19. yılı (MÖ 496) '伐越，敗我，傷闔閭指，以死' ve Lu Ai 1 = MÖ 494; Siku notu Goujian 7 = Lu Ai 5 (Guoyu) ⇒ MÖ 490 (Goujian 1 = MÖ 496 + 6). Yue Jue Shu 8 (Doğu Han) aynı şehri '句踐小城，山陰城也' ve '山陰大城' diye verir. Yer eşitlemesi (bugünkü Shaoxing eski şehri = Goujian küçük şehri) Song gazetesi Jiatai Kuaiji zhi 1'e dayanır: '會稽治山陰以來此城即為郡城' ve Song prefektürü (Wolong Dağı doğu eteği) için '雖未必盡與古同，然其大略不相遠矣' — çağdaş kanıt DEĞİL, koordinat kaynaktan ölçülmedi. Muhafazakâr alternatif başlangıç (yazılı, yer-kesin): MÖ 210 Yue Jue Shu 8 '乃更名大越曰山陰' (Qin 37. yıl; ayrıca Shiji 6) veya Hanshu 28上 Kuaiji jun ilçeleri listesinde '山陰'. Karar Emre'nindir."
+  },
+  "kur": {
+   "t": "-0489-01-01",
+   "gun": "MÖ 490 (gelenek)",
+   "kesinlik": "yil",
+   "kaynak": "Wu Yue chunqiu, Goujian guiguo waizhuan (勾踐歸國外傳; '勾踐七年' Wu'dan dönüş, Fan Li küçük şehri kurar) — https://zh.wikisource.org/wiki/吳越春秋/勾踐歸國外傳 ; Yue Jue Shu 8 (越絕書 卷八: '句踐小城，山陰城也'; '山陰大城者，范蠡所築治也') — https://zh.wikisource.org/wiki/越絕書/卷八 ; Shiji 14 (十二諸侯年表; Wu 19. yıl = MÖ 496: Goujian 1. yıl; Lu Ai 1 = MÖ 494) — https://zh.wikisource.org/wiki/史記/卷014 ; Shiji 41 (越王句踐世家) — https://zh.wikisource.org/wiki/史記/卷041 ; yer eşitlemesi: Jiatai Kuaiji zhi 1 (嘉泰會稽志 卷01; Song, 1201) — https://zh.wikisource.org/wiki/㑹稽志_(四庫全書本)/卷01",
+   "tanik": "築作小城，周千一百二十二步"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0489-01-01",
+    "t": "-0221-01-01",
+    "d": "yue-devleti-zhou",
+    "kesinlik": "yil",
+    "kaynak": "Wu Yue chunqiu, Goujian guiguo waizhuan — https://zh.wikisource.org/wiki/吳越春秋/勾踐歸國外傳 ; Yue Jue Shu 8 — https://zh.wikisource.org/wiki/越絕書/卷八 ; Shiji 41 (Yue Goujian shijia) — https://zh.wikisource.org/wiki/史記/卷041 ; Shiji 6 (Qin Shihuang benji) — https://zh.wikisource.org/wiki/史記/卷006",
+    "ic_not": "KÜNYE YOK — önerilen id: yue-devleti-zhou (Yue / 於越, Zhou dönemi; hanedan Yunchang–Goujian–…–Wujiang…; künye ömrü: f ≤ MÖ 490 [Shiji 41: Yunchang'dan beri], t = MÖ 222 [Shiji 6: '降越君，置會稽郡']). Tek polity olarak yazıldı (künye GENİŞLET): (a) MÖ 473 Wu'yu yutar (Shiji 15: '越滅吳'); Yue Jue Shu 8: Goujian başkenti Langya'ya taşır ('都瑯琊二百二十四歲') — Shanyin Yue ülkesinde kalır; (b) MÖ 333 Chu Weiwang Wujiang'ı öldürür (Shiji 41; Shiji 15 tablosu Chu Weiwang 7 = MÖ 333): '盡取故吳地至浙江 … 越以此散，諸族子爭立，或為王，或為君，濱於江南海上，服朝於楚' — Shiji MÖ 333–222 arasında Yue kalıntı beyliklerini Chu'ya TÂBİ yazar, Chu'nun doğrudan idaresini yazmaz; Shiji 6 MÖ 222'de '越君'un Qin'e teslimini yazar ⇒ sahip Yue kalıntısı; Chu'ya nominal tâbiyet. Chu'nun doğrudan sahipliği (alternatif) kaynakla desteklenmedi. Bu dönem GELENEK başlangıcına bağlıdır (ilk.ic_not).",
+    "kunye_yok": true,
+    "tanik": "築作小城，周千一百二十二步"
+   },
+   {
+    "f": "-0221-01-01",
+    "t": "-0220-01-01",
+    "d": "qin-devleti",
+    "kesinlik": "yil",
+    "kaynak": "Shiji 6 (Qin Shihuang benji) — https://zh.wikisource.org/wiki/史記/卷006",
+    "ic_not": "Qin'in 25. yılı (MÖ 222): Wang Jian Jiangnan'ı alır, Yue hükümdarı teslim olur, Kuaiji jun kurulur (merkez Wu). Qin devleti künyesi t=MÖ 222 öncesi/sonrası için Suzhou kaydıyla aynı.",
+    "tanik": "王翦遂定荊江南地；降越君，置會稽郡"
+   },
+   {
+    "f": "-0220-01-01",
+    "t": "-0208-10-07",
+    "d": "qin-hanedani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "Shiji 6 (Qin Shihuang benji) — https://zh.wikisource.org/wiki/史記/卷006 ; Yue Jue Shu 8 — https://zh.wikisource.org/wiki/越絕書/卷八",
+    "ic_not": "Qin imparatorluğu (MÖ 221 '初并天下' – MÖ 209 Xiang Liang). Shiji 6: Qin Shihuang 37. yıl Kuaiji dağına çıkar (MÖ 210); Yue Jue Shu 8: bu seferde '大越' adı '山陰' yapılır.",
+    "tanik": "遂登會稽，宣省習俗，黔首齋莊"
+   },
+   {
+    "f": "-0208-10-07",
+    "t": "-0201-02-28",
+    "d": "__BOSLUK__",
+    "kesinlik": "ay",
+    "kaynak": "Shiji 7 (Xiang Yu benji) — https://zh.wikisource.org/wiki/史記/卷007 ; Shiji 8 (Gaozu benji) — https://zh.wikisource.org/wiki/史記/卷008",
+    "ic_not": "Sahibi kaynakta Kuaiji/Shanyin adıyla YOK: Xiang Liang Kuaiji valisi Tong'u Wu'da öldürüp Kuaiji valisi olur ('於是梁為會稽守'), 8000 askerle Jiang'ı batıya geçer; sonrası Chu (MÖ 208–206) ve Xi Chu (MÖ 206–202, '王梁楚地九郡' — dokuz komutanlık listesi Hanshu 31 metninde verilmez) ile ilişkisi yazılı sayfada Kuaiji adıyla geçmez. Künye listesinde xi-chu yok (öneri: xi-chu-bawang). Beyanlı boşluk (Suzhou kaydıyla aynı dilim).",
+    "tanik": "於是梁為會稽守，籍為裨將，徇下縣"
+   },
+   {
+    "f": "-0201-02-28",
+    "t": "0009-01-10",
+    "d": "bati-han",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Shiji 8 (Gaozu benji) — https://zh.wikisource.org/wiki/史記/卷008 ; Hanshu 28上 (Dili zhi, Kuaiji jun: 山陰 ilçesi) — https://zh.wikisource.org/wiki/漢書/卷028上 ; Shiji 106 (Wu Wang Bi liezhuan) — https://zh.wikisource.org/wiki/史記/卷106",
+    "ic_not": "Han Gaozu MÖ 202 imparator olur. Kuaiji jun Han vasal krallıkları içindedir (Jing MÖ 201; Wu MÖ 195: '王三郡五十三城'; MÖ 154'te Chao Cuo Wu'dan Kuaiji'yi kesmek ister, Wu-Chu isyanı) — zincirde bati-han. Hanshu 28上 Kuaiji jun (26 ilçe) listesinde '山陰' vardır.",
+    "tanik": "無錫，山陰，丹徒，餘姚"
+   },
+   {
+    "f": "0009-01-10",
+    "t": "0023-10-06",
+    "d": "xin",
+    "kesinlik": "gun",
+    "kaynak": "Hanshu 99上 (Wang Mang zhuan) — https://zh.wikisource.org/wiki/漢書/卷099上",
+    "ic_not": "Xin; Shanyin'e özgü kayıt yok (ulusal olay).",
+    "tanik": "即真天子位，定有天下之號曰新"
+   },
+   {
+    "f": "0023-10-06",
+    "t": "0025-08-05",
+    "d": "__BOSLUK__",
+    "kesinlik": "gun",
+    "kaynak": "Hou Han Shu 1上 (Guangwu ji) — https://zh.wikisource.org/wiki/後漢書/卷1上",
+    "ic_not": "Wang Mang öldükten Guangwu taç giyene dek Kuaiji'nin sahibi kaynakta bulunamadı (Suzhou kaydıyla aynı beyan)."
+   },
+   {
+    "f": "0025-08-05",
+    "t": "0220-11-25",
+    "d": "dogu-han",
+    "kesinlik": "gun",
+    "kaynak": "Hou Han Shu 1上 (Guangwu ji) — https://zh.wikisource.org/wiki/後漢書/卷1上 ; Song Shu 35 (Kuaiji taishou) — https://zh.wikisource.org/wiki/宋書/卷35",
+    "ic_not": "Doğu Han. 129 (Yongjian 4): Kuaiji jun bölünür, Zhejiang batısı Wu jun, doğusu Kuaiji jun olur ve Kuaiji jun merkezi Shanyin'e taşınır (Song Shu 35). 196'da Sun Ce Kuaiji'yi alır (Han unvanı altında; sahip değişmez). Künye dogu-han t=0220-01-01 < 220-11-25: GENİŞLET önerisi.",
+    "tanik": "漢順帝永建四年，分會稽為吳郡，會稽移治山陰"
+   },
+   {
+    "f": "0220-11-25",
+    "t": "0280-05-01",
+    "d": "sun-wu",
+    "kesinlik": "gun",
+    "kaynak": "Hou Han Shu 9 (Xian di ji) — https://zh.wikisource.org/wiki/後漢書/卷9 ; Jin Shu 3 (Wu di ji) — https://zh.wikisource.org/wiki/晉書/卷003",
+    "ic_not": "Sun Wu: künye f=222 > 220-11-25 (hayalet uyarısı; Fuzhou/Nanking/Suzhou kayıtlarıyla aynı)."
+   },
+   {
+    "f": "0280-05-01",
+    "t": "0316-12-11",
+    "d": "bati-jin",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shu 3 (Wu di ji) — https://zh.wikisource.org/wiki/晉書/卷003 ; Jin Shu 15 (Dili zhi, Yangzhou: Kuaiji jun) — https://zh.wikisource.org/wiki/晉書/卷015",
+    "ic_not": "Batı Jin. Jin Shu 15 Yangzhou: Kuaiji jun '秦置。統縣十，戶三萬' — merkez Shanyin ('山陰會稽山在南，上有禹塚').",
+    "tanik": "秦置。統縣十，戶三萬"
+   },
+   {
+    "f": "0316-12-11",
+    "t": "0420-07-10",
+    "d": "dogu-jin",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shu 5 (Min di ji) — https://zh.wikisource.org/wiki/晉書/卷005 ; Jin Shu 10 (An di ji) — https://zh.wikisource.org/wiki/晉書/卷010",
+    "ic_not": "Doğu Jin. 399 (Longan 3, 11. ay 甲寅) Sun En Kuaiji'yi alır, içshi Wang Ningzhi ölür (olay; birkaç hafta/ay sürdüğü için dönem AÇILMADI).",
+    "tanik": "妖賊孫恩陷會稽，內史王凝之死之"
+   },
+   {
+    "f": "0420-07-10",
+    "t": "0479-05-29",
+    "d": "liu-song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shu 3 — https://zh.wikisource.org/wiki/宋書/卷3 ; Song Shu 35 — https://zh.wikisource.org/wiki/宋書/卷35",
+    "ic_not": "Liu Song."
+   },
+   {
+    "f": "0479-05-29",
+    "t": "0502-04-30",
+    "d": "guney-qi",
+    "kesinlik": "gun",
+    "kaynak": "Nan Qi Shu 2 — https://zh.wikisource.org/wiki/南齊書/卷2",
+    "ic_not": "Güney Qi."
+   },
+   {
+    "f": "0502-04-30",
+    "t": "0557-11-16",
+    "d": "liang-guney",
+    "kesinlik": "gun",
+    "kaynak": "Liang Shu 2 — https://zh.wikisource.org/wiki/梁書/卷02",
+    "ic_not": "Liang. Hou Jing isyanı (548–552) Kuaiji'yi etkiledi mi — bu oturumda taranmadı (kapsam dışı beyan)."
+   },
+   {
+    "f": "0557-11-16",
+    "t": "0589-02-02",
+    "d": "chen",
+    "kesinlik": "gun",
+    "kaynak": "Chen Shu 2 — https://zh.wikisource.org/wiki/陳書/卷2",
+    "ic_not": "Chen."
+   },
+   {
+    "f": "0589-02-02",
+    "t": "0618-06-18",
+    "d": "sui",
+    "kesinlik": "gun",
+    "kaynak": "Sui Shu 31 (Dili zhi, Kuaiji jun) — https://zh.wikisource.org/wiki/隋書/卷31 ; Sui Shu 2 (Gaozu xia) — https://zh.wikisource.org/wiki/隋書/卷02",
+    "ic_not": "Sui. Sui Shu 31: '平陳，改曰吳州，置總管府。大業初府廢，置越州'; Kuaiji ilçesi '平陳，郡廢，及廢山陰、永興、上虞、始寧四縣入' (ilçe merkezi Shanyin yerindedir; ilçe adı Kuaiji). 590'da Kuaiji'li Gao Zhihui isyanı (olay; < 1 yıl). Dönem sonu 618-06-18 künye sınırı (Sui çöküşü 617–618: yerel fiili sahip aşağıdaki BOŞLUK dilimidir).",
+    "tanik": "平陳，改曰吳州，置總管府。大業初府廢，置越州"
+   },
+   {
+    "f": "0618-06-18",
+    "t": "0620-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Jiu Tang Shu 56 (Shen Faxing, Li Zitong, Du Fuwei zhuan) — https://zh.wikisource.org/wiki/舊唐書/卷56 ; Zizhi tongjian 188 — https://zh.wikisource.org/wiki/資治通鑑/卷188",
+    "ic_not": "Sahibi Kuaiji/Yuezhou adıyla kaynakta YOK: Tang Li Yuan 618-06-18'de imparator olur (ulusal olay) ama Jiangnan'ı fiilen Shen Faxing (Jiu Tang Shu 56: '據有江表十餘郡，自署江南道總管') ve Du Fuwei tutar; Kuaiji sayfalarda adıyla geçmez. ZZTJ 188: Li Zitong Wu jun'u Shen Faxing'den alınca '盡收法興之地…東包會稽' (620) — bu cümle 620 öncesi Kuaiji'nin Faxing'e ait olduğunu DOĞRUDAN söylemez. Tang'a nominal bağ yazılmadı (Fuzhou/Nanking kayıtlarındaki 'formel Tang' yaklaşımı bu dilimde Kuaiji için kaynaksız olurdu)."
+   },
+   {
+    "f": "0620-01-01",
+    "t": "0621-12-25",
+    "d": "li-zitong-wu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Zizhi tongjian 188 (Wude 3) — https://zh.wikisource.org/wiki/資治通鑑/卷188 ; Jiu Tang Shu 56 (Li Zitong) — https://zh.wikisource.org/wiki/舊唐書/卷56 ; Zizhi tongjian 189 (Wude 4, 11. ay 庚寅) — https://zh.wikisource.org/wiki/資治通鑑/卷189",
+    "ic_not": "KÜNYE YOK — önerilen id: li-zitong-wu (Li Zitong'un 'Wu' devleti, 吳, nianhao 明政; Xin Tang Shu 87: imparator olup '國號吳'; ZZTJ/Jiu Tang Shu 56: 619-620 Jiangdu'dan Yuhang'a (餘杭) taşınır; ömür ≈ 619 (Wude 2) – 621-12-25 (ZZTJ 189 Wude 4, 11. ay 庚寅 teslimi); künye başlangıç günü bu oturumda doğrulanmadı). Kuaiji bu devletin sınırındadır (Jiu Tang Shu 56: '東至會稽，南至千嶺，西距宣城，北至太湖，盡有其地'). f = 620-01-01 yıl hassasiyeti (ZZTJ 188 bu olayı Wude 3 bölümünde yazar; Kuaiji'nin katılma günü yok).",
+    "kunye_yok": true,
+    "tanik": "東包會稽，西距宣城，皆有之"
+   },
+   {
+    "f": "0621-12-25",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 189 — https://zh.wikisource.org/wiki/資治通鑑/卷189 ; Jiu Tang Shu 40 (Dili zhi, Yuezhou) — https://zh.wikisource.org/wiki/舊唐書/卷40",
+    "ic_not": "Tang. Jiu Tang Shu 40: '武德四年，平李子通，置越州總管' (621); Wude 6-7 (623-624) Fu Gongzhi'nin 'Song' isyanı (olay; < 1 yıl) — Fu'nun '越州總管' atadığı Zuo Youxian; Yuezhou 686'da Shanyin ilçesini şehir merkezinde ayırır; Tianbao 1 (742) Kuaiji jun, Qianyuan 1 (758) Yuezhou. f = 621-12-25 ZZTJ 189 günü (Li Zitong teslimi; Tang'ın Kuaiji'yi fiilen aldığı gün kaynakta yok — en geç tanık, önceki Li Zitong dönemi bu güne dek uzatıldı).",
+    "tanik": "武德四年，平李子通，置越州總管"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 6 — https://zh.wikisource.org/wiki/舊唐書/卷6 ; Jiu Tang Shu 7 — https://zh.wikisource.org/wiki/舊唐書/卷7",
+    "ic_not": "Wu Zhou (Wu Zetian); Yuezhou'ya özgü kayıt yok."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0895-03-03",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 7 — https://zh.wikisource.org/wiki/舊唐書/卷7 ; Xin Wudai Shi 67 — https://zh.wikisource.org/wiki/新五代史/卷67",
+    "ic_not": "Tang. 882 (Zhonghe 2) Yuezhou guanchashi Liu Hanhong (Xin Wudai Shi 67); sonra Dong Chang (Tang 'Weisheng jun' jiedushi, Longxi junwang). Dönem sonu 895-03-03: Dong Chang'ın 'Luoping guo' ilanı.",
+    "tanik": "中和二年，越州觀察使劉漢宏與昌有隙"
+   },
+   {
+    "f": "0895-03-03",
+    "t": "0896-06-15",
+    "d": "luoping-guo",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Zizhi tongjian 260 (Qianning 2, 2. ay 辛卯) — https://zh.wikisource.org/wiki/資治通鑑/卷260 ; Xin Wudai Shi 67 — https://zh.wikisource.org/wiki/新五代史/卷67",
+    "ic_not": "KÜNYE YOK — önerilen id: luoping-guo (大越羅平國, Dong Chang; nianhao Shuntian 順天; Yuezhou başkent; ömür 895-03-03 – 896-06-?? [ZZTJ 260: 5. ay '昌始懼，去帝號，復稱節度使'; gün yok, ay başı alınır = güvenli uç değil, ay hassasiyeti]; ≈ 15 ay). Dong Chang 5. ayda Tang jiedushi unvanına döner; Qian Liu Yuezhou'yu 896-07-03 (己亥) alır.",
+    "kunye_yok": true,
+    "tanik": "乃自稱大越羅平國，改元順天"
+   },
+   {
+    "f": "0896-06-15",
+    "t": "0907-06-01",
+    "d": "tang",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Zizhi tongjian 260-261 — https://zh.wikisource.org/wiki/資治通鑑/卷261 ; Xin Wudai Shi 67 — https://zh.wikisource.org/wiki/新五代史/卷67",
+    "ic_not": "Tang (nominal): Dong Chang Tang jiedushi unvanına döner; 896-07-03 Qian Liu (Tang Zhenhai/Zhendong, 897 '受鎮東節鉞') Yuezhou'yu alır. Künye tang t=907-01-01 < 907-06-01: GENİŞLET önerisi.",
+    "tanik": "六月，己酉，錢鏐如越州，受鎮東節鉞"
+   },
+   {
+    "f": "0907-06-01",
+    "t": "0978-06-11",
+    "d": "wuyue",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai Shi 67 — https://zh.wikisource.org/wiki/新五代史/卷67 ; Zizhi tongjian 261 — https://zh.wikisource.org/wiki/資治通鑑/卷261",
+    "ic_not": "Wuyue (Qian Liu Zhendong jiedushi iken Yuezhou'yu elde tutar). Wuyue t=978-01-01 < 978-06-11: GENİŞLET önerisi.",
+    "tanik": "梁太祖即位，封鏐吳越王兼淮南節度使"
+   },
+   {
+    "f": "0978-06-11",
+    "t": "1276-01-01",
+    "d": "song",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Song Shi 4 (Taizong ji) — https://zh.wikisource.org/wiki/宋史/卷004 ; Song Shi 88 (Dili zhi: Shaoxing fu) — https://zh.wikisource.org/wiki/宋史/卷088",
+    "ic_not": "Song. Yuezhou 1131'de Shaoxing fu olur. Yuan'a geçiş günü yok: 1276-01-01 YIL hassasiyetidir (bkz. ic_not). Song künyesi t=1279-03-19 > 1276: hayalet yok.",
+    "tanik": "紹興府，本越州"
+   },
+   {
+    "f": "1276-01-01",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Yuan Shi 62 (Dili zhi: Shaoxing lu) — https://zh.wikisource.org/wiki/元史/卷062 ; Yuan Shi 132 (Tiemubuhua zhuan) — https://zh.wikisource.org/wiki/元史/卷132",
+    "ic_not": "Yuan; atlasın ilk sahibi (yuan-hanedani, 1281-01-01) ile aynı — dikişte olay gerekmez. f = 1276-01-01 YIL hassasiyeti; Song tarafı en az 1276-03'e dek Shaoxing'i tutuyordu (Song Shi jishi benmo 107: Lin'an'a Fu Wang '自紹興至'); gerçek geçiş 1276'da bir günde olmuş olabilir (ic_not).",
+    "tanik": "元至元十三年，改紹興路"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0489-01-01",
+    "gun": "MÖ 490 (Goujian 7. yıl, gelenek)",
+    "k": "kurulus",
+    "b": "Goujian Wu'dan dönünce Fan Li'ye şehir kurdurur: '小城' (çevre 1122 bu; kuzeybatıda gözetleme kulesi) ve kuzeybatısı eksik '外郭'; şehir tamamlanınca Langya Dongwu'dan 'Guai Shan' gelir (GELENEK; arkeolojik doğrulama yok). Yue Jue Shu 8: bu '小城' = '山陰城' (çevre 2 li 223 bu, 4 kara + 1 su kapısı); '大城' (çevre 20 li 72 bu) Fan Li yapımı.",
+    "kaynak": "Wu Yue chunqiu, Goujian guiguo waizhuan — https://zh.wikisource.org/wiki/吳越春秋/勾踐歸國外傳 ; Yue Jue Shu 8 — https://zh.wikisource.org/wiki/越絕書/卷八 ; Jiatai Kuaiji zhi 1 (古城/勾踐小城) — https://zh.wikisource.org/wiki/㑹稽志_(四庫全書本)/卷01",
+    "tanik": "築作小城，周千一百二十二步"
+   },
+   {
+    "t": "-0489-01-01",
+    "gun": "MÖ 490 (Goujian 7. yıl) — Yue Jue Shu 8 şehir tarifi",
+    "k": "kurulus",
+    "b": "Yue Jue Shu 8: '句踐小城，山陰城也。周二里二百二十三步，陸門四，水門一'; Goujian ile ilgili şehir (saray terası = Song'da depolar) ve '山陰大城者，范蠡所築治也，今傳謂之蠡城' (Fan Li'nin şehri, halk dilinde 'Lichen').",
+    "kaynak": "Yue Jue Shu 8 — https://zh.wikisource.org/wiki/越絕書/卷八",
+    "tanik": "句踐小城，山陰城也。周二里二百二十三步"
+   },
+   {
+    "t": "-0472-01-01",
+    "gun": "MÖ 473 (Wu Fuchai 23)",
+    "k": "fetih",
+    "b": "Yue Wu'yu yener (Shiji 14: MÖ 473 satırı '越滅吳'); Yue Jue Shu 8: Goujian sonra '徙瑯琊' başkentini Langya'ya taşır — Shanyin Yue ülkesinde kalır (sahip değişmez).",
+    "kaynak": "Shiji 15 (六國年表, MÖ 473 satırı) — https://zh.wikisource.org/wiki/史記/卷015 ; Yue Jue Shu 8 — https://zh.wikisource.org/wiki/越絕書/卷八",
+    "tanik": "十六。越滅吳"
+   },
+   {
+    "t": "-0332-01-01",
+    "gun": "MÖ 333 (Chu Weiwang 7)",
+    "k": "savas",
+    "b": "Chu Weiwang Yue'ye saldırır, Wujiang'ı öldürür, '故吳地至浙江' Chu'ya geçer; Yue '散' (kalıntı beylikler '濱於江南海上，服朝於楚'). Shiji 15 aynı yılı (MÖ 333) Chu Weiwang 7 '圍齊于徐州' ile yazar (aynı cümlede Xuzhou zaferi) — güvenli uç. Shanyin Zhejiang'ın doğusunda olduğundan sahiplik değişmez (Yue kalıntısı Chu'ya tâbi).",
+    "kaynak": "Shiji 41 (Yue Goujian shijia) — https://zh.wikisource.org/wiki/史記/卷041 ; Shiji 15 (六國年表, MÖ 333) — https://zh.wikisource.org/wiki/史記/卷015",
+    "tanik": "楚威王興兵而伐之，大敗越，殺王無彊"
+   },
+   {
+    "t": "-0221-01-01",
+    "gun": "MÖ 222 (Qin 25. yıl)",
+    "k": "fetih",
+    "b": "Wang Jian Jiangnan'ı alır, Yue hükümdarı (越君) Qin'e teslim olur, Kuaiji jun kurulur (Shanyin bu komutanlığın Yue çekirdeğindedir; merkez Wu).",
+    "kaynak": "Shiji 6 (Qin Shihuang benji) — https://zh.wikisource.org/wiki/史記/卷006",
+    "tanik": "王翦遂定荊江南地；降越君，置會稽郡"
+   },
+   {
+    "t": "-0220-01-01",
+    "gun": "MÖ 221 (Qin 26. yıl)",
+    "k": "diger",
+    "b": "künye geçişi: Qin devleti → Qin imparatorluğu ('秦王初并天下'; imparator unvanı MÖ 221). Shanyin'e özgü kayıt yok (ulusal).",
+    "kaynak": "Shiji 6 — https://zh.wikisource.org/wiki/史記/卷006",
+    "tanik": "秦王初并天下"
+   },
+   {
+    "t": "-0209-01-01",
+    "gun": "MÖ 210 (Qin 37. yıl)",
+    "k": "idari",
+    "b": "Qin Shihuang 37. yıl Kuaiji'ye gelir, Kuaiji dağına çıkıp taş yazıt diktirir (Shiji 6); Yue Jue Shu 8: bu seferde Dayue halkı Yuhang'a vb. sürülür, suçlu memurlar '故大越處'e yerleştirilir ve '乃更名大越曰山陰' — Shanyin adının ilk yazılı tanığı.",
+    "kaynak": "Yue Jue Shu 8 — https://zh.wikisource.org/wiki/越絕書/卷八 ; Shiji 6 (Qin Shihuang benji) — https://zh.wikisource.org/wiki/史記/卷006",
+    "tanik": "乃更名大越曰山陰"
+   },
+   {
+    "t": "-0208-10-07",
+    "gun": "MÖ 209 (Qin Ershi 1. yıl, 9. ay; ay başı çevrildi)",
+    "k": "isyan",
+    "b": "Xiang Liang ve Xiang Yu, Kuaiji valisi Tong'u Wu'daki makamında öldürür; Xiang Liang Kuaiji valisi olur ve Wu askerleriyle Jiang'ı batıya geçer (Shiji 7). Shanyin/Shaoxing adıyla kayıt yok; sahip beyanlı BOŞLUK.",
+    "kaynak": "Shiji 7 — https://zh.wikisource.org/wiki/史記/卷007 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen",
+    "tanik": "遂舉吳中兵"
+   },
+   {
+    "t": "-0201-02-28",
+    "gun": "MÖ 202 (Han Gaozu 5. yıl, 2. ay 甲午)",
+    "k": "taht",
+    "b": "Gaozu Fan Nehri'nin kuzeyinde imparator olur (Han kuruluşu). Kuaiji/Shanyin'e özgü kayıt yok; BOŞLUK bu günde biter.",
+    "kaynak": "Shiji 8 — https://zh.wikisource.org/wiki/史記/卷008 ; Shiji 51 — https://zh.wikisource.org/wiki/史記/卷051 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (MÖ 202 yılı Han takvimi 10. ay başlangıçlı)",
+    "tanik": "甲午，乃即皇帝位汜水之陽"
+   },
+   {
+    "t": "-0194-01-01",
+    "gun": "MÖ 195 (Gaozu 12. yıl)",
+    "k": "idari",
+    "b": "Liu Pi (Pei Hou) Wu Wang olur, '王三郡五十三城' (Kuaiji dahil): Han vasal krallığı; sahip (bati-han) değişmez.",
+    "kaynak": "Shiji 106 (Wu Wang Bi liezhuan) — https://zh.wikisource.org/wiki/史記/卷106 ; Shiji 51 (Jing Yan shijia) — https://zh.wikisource.org/wiki/史記/卷051",
+    "tanik": "乃立濞於沛為吳王，王三郡五十三城"
+   },
+   {
+    "t": "-0153-01-01",
+    "gun": "MÖ 154 (Jingdi 3. yıl)",
+    "k": "isyan",
+    "b": "Wu-Chu yedi devlet isyanı: Chao Cuo'nun Wu'dan Kuaiji ve Zhangjun'u kesme önerisi isyanı tetikler ('削吳之豫章郡、會稽郡'); isyan bastırılınca Kuaiji tekrar Han komutanlığı (Jin Shu 15: Jingdi 4 Jiangdu Wang). Sahip (bati-han) değişmez.",
+    "kaynak": "Shiji 106 (Wu Wang Bi liezhuan) — https://zh.wikisource.org/wiki/史記/卷106",
+    "tanik": "及削吳會稽、豫章郡書至，則吳王先起兵"
+   },
+   {
+    "t": "0009-01-10",
+    "gun": "10 Ocak 9",
+    "k": "diger",
+    "b": "künye geçişi: Batı Han → Xin (Wang Mang taht ilan eder). Shanyin'e özgü kayıt yok (ulusal).",
+    "kaynak": "Hanshu 99上 (漢書/卷099上)",
+    "tanik": "即真天子位，定有天下之號曰新"
+   },
+   {
+    "t": "0023-10-06",
+    "gun": "6 Ekim 23",
+    "k": "fetih",
+    "b": "Wang Mang öldürülür; Xin sona erer (ulusal). Kuaiji'nin 23–25 arası sahibi kaynakta bulunamadı.",
+    "kaynak": "Hanshu 99下 (漢書/卷099下)",
+    "tanik": "商人杜吳殺莽，取其綬"
+   },
+   {
+    "t": "0025-08-05",
+    "gun": "25-08-05 (6/己未)",
+    "k": "kurulus",
+    "b": "Guangwu Hao'da taç giyer (Doğu Han). Kuaiji'ye özgü kayıt yok; BOŞLUK bu günde biter.",
+    "kaynak": "Fan Ye, Hou Han Shu 1上 (Guangwu ji), zh.wikisource.org/wiki/後漢書/卷1上",
+    "tanik": "六月己未，即皇帝位"
+   },
+   {
+    "t": "0129-01-01",
+    "gun": "Yongjian 4 (129)",
+    "k": "idari",
+    "b": "Kuaiji jun bölünür: Zhejiang'ın batısı Wu jun olur, doğusu Kuaiji jun kalır ve Kuaiji jun merkezi Wu'dan Shanyin'e taşınır ('會稽移治山陰'). Shanyin yerinin ilk jun merkezi oluşu. Sahip değişmez (dogu-han).",
+    "kaynak": "Song Shu 35 (州郡志: 會稽太守) — https://zh.wikisource.org/wiki/宋書/卷35 ; Jin Shu 15 — https://zh.wikisource.org/wiki/晉書/卷015",
+    "tanik": "漢順帝永建四年，分會稽為吳郡，會稽移治山陰"
+   },
+   {
+    "t": "0196-01-01",
+    "gun": "Jian'an 1 (196)",
+    "k": "sefer",
+    "b": "Sun Ce Zhejiang'ı geçip Kuaiji'yi alır; Kuaiji taishou Wang Lang Gulin'de (固陵) yenilir, kaçar ve Sun Ce kendisi Kuaiji taishou olur ('策自領會稽太守'); ZZTJ 62: Han taishou Wang Lang '發兵拒'. Han unvanı altındadır, sahip (dogu-han) değişmez. Gün kaynakta yok (yıl: Fuzhou kaydı 0196-01-01 ile aynı).",
+    "kaynak": "Sanguozhi 46 (三國志/卷46, Sun Ce zhuan) — https://zh.wikisource.org/wiki/三國志/卷46",
+    "tanik": "策自領會稽太守"
+   },
+   {
+    "t": "0220-11-25",
+    "gun": "Yankang 1 (220), 10. ay 乙卯",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Han → Sun Wu (Han İmparatoru Xian Cao Pi'ye tahtı bırakır; Jiangdong'da Sun Quan). Kuaiji'ye özgü kayıt yok (ulusal).",
+    "kaynak": "Hou Han Shu 9 (Xian di ji) https://zh.wikisource.org/wiki/後漢書/卷9 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen",
+    "tanik": "冬十月乙卯，皇帝遜位，魏王丕稱天子"
+   },
+   {
+    "t": "0280-05-01",
+    "gun": "Taikang 1 (280), 3. ay 壬寅",
+    "k": "fetih",
+    "b": "Jin donanması Jianye'ye varır, Sun Hao teslim olur; Wu toprakları (Kuaiji dahil) Jin'e geçer (ulusal).",
+    "kaynak": "Jin Shu 3 (Wu di ji) https://zh.wikisource.org/wiki/晉書/卷003 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen",
+    "tanik": "孫皓大懼，面縳輿櫬，降于軍門"
+   },
+   {
+    "t": "0316-12-11",
+    "gun": "Jianxing 4 (316), 11. ay 乙未",
+    "k": "diger",
+    "b": "künye geçişi: Batı Jin → Doğu Jin (Min Di Chang'an'da Han-Zhao'ya teslim). Kuaiji'ye özgü kayıt yok (ulusal).",
+    "kaynak": "Jin Shu 5 (Min di ji) https://zh.wikisource.org/wiki/晉書/卷005 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen (metinde '乙末' yazım hatası, 乙未 okundu)",
+    "tanik": "帝乘羊車，肉袒銜壁，輿櫬出降"
+   },
+   {
+    "t": "0399-12-15",
+    "gun": "Longan 3 (399), 11. ay 甲寅",
+    "k": "isyan",
+    "b": "Sun En (Daoist isyan) Shangyu'yu alıp Kuaiji'ye saldırır, Kuaiji neishi Wang Ningzhi'yi öldürür; Wu-Kuaiji sekiz komutanlık ona katılır. Jin Shu 10: '孫恩陷會稽' (ay: 隆安三年冬十一月甲寅). Süre sınırlı (Longan 4, 5. ay Xie Yan Kuaiji neishi olarak Sun En'e yenilir), dönem AÇILMADI; sahip (dogu-jin) değişmez. Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Jin Shu 10 (An di ji) — https://zh.wikisource.org/wiki/晉書/卷010 ; Jin Shu 100 (Sun En zhuan) — https://zh.wikisource.org/wiki/晉書/卷100 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "妖賊孫恩陷會稽，內史王凝之死之"
+   },
+   {
+    "t": "0420-07-10",
+    "gun": "Yongchu 1 (420), 6. ay 丁卯",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Jin → Liu Song (Liu Yu). Kuaiji'ye özgü kayıt yok (ulusal).",
+    "kaynak": "Song Shu 3 (Wu di xia) https://zh.wikisource.org/wiki/宋書/卷3 ; Sinica sinocal, Jülyen",
+    "tanik": "永初元年夏六月丁卯，設壇於南郊，即皇帝位"
+   },
+   {
+    "t": "0479-05-29",
+    "gun": "Jianyuan 1 (479), 4. ay 甲午",
+    "k": "diger",
+    "b": "künye geçişi: Liu Song → Güney Qi (Xiao Daocheng). Kuaiji'ye özgü kayıt yok (ulusal).",
+    "kaynak": "Nan Qi Shu 2 (Gao di xia) https://zh.wikisource.org/wiki/南齊書/卷2 ; Sinica sinocal, Jülyen",
+    "tanik": "建元元年夏四月甲午，上即皇帝位於南郊"
+   },
+   {
+    "t": "0502-04-30",
+    "gun": "Tianjian 1 (502), 4. ay 丙寅",
+    "k": "diger",
+    "b": "künye geçişi: Güney Qi → Liang (Xiao Yan). Kuaiji'ye özgü kayıt yok (ulusal).",
+    "kaynak": "Liang Shu 2 (Wu di zhong) https://zh.wikisource.org/wiki/梁書/卷02 ; Sinica sinocal, Jülyen",
+    "tanik": "天監元年夏四月丙寅，高祖卽皇帝位於南郊"
+   },
+   {
+    "t": "0557-11-16",
+    "gun": "Yongding 1 (557), 10. ay 乙亥",
+    "k": "diger",
+    "b": "künye geçişi: Liang → Chen (Chen Baxian). Kuaiji'ye özgü kayıt yok (ulusal).",
+    "kaynak": "Chen Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 35 ; Sinica sinocal, Jülyen",
+    "tanik": "永定元年冬十月乙亥，高祖即皇帝位于南郊"
+   },
+   {
+    "t": "0589-01-01",
+    "gun": "Kaihuang 9 (589)",
+    "k": "idari",
+    "b": "Sui, Chen'i yenince Kuaiji komutanlığı kaldırılır; Dongyangzhou/Kuaiji bölgesi '吳州' adını alır ve zongguanfu (genel vali karargâhı) kurulur; Daye başı (605-607) zongguanfu kalkar ve '越州' kurulur (Yuezhou adının ilk tanığı). Kuaiji ilçesi: Shanyin, Yongxing, Shangyu, Shining ilçeleri kaldırılıp birleştirilir. Yıl hassasiyeti (Sui Shu 31 yıl vermez, '平陳' = 589).",
+    "kaynak": "Sui Shu 31 (Dili zhi, Kuaiji jun) — https://zh.wikisource.org/wiki/隋書/卷31",
+    "tanik": "平陳，改曰吳州，置總管府。大業初府廢，置越州"
+   },
+   {
+    "t": "0589-02-02",
+    "gun": "2 Şubat 589",
+    "k": "fetih",
+    "b": "Sui generali Han Qinhu Jianye'ye girer, Chen hükümdarı Chen Shubao esir alınır; Chen toprakları (Kuaiji dahil) Sui'ye geçer. Sui Shu 31: Kuaiji jun/ilçesi bu fetihten sonra '吳州' olur (aşağıdaki idari olay). Kuaiji'nin teslim günü kaynakta yok; ulusal gün alındı.",
+    "kaynak": "隋書 卷2 高祖紀下, https://zh.wikisource.org/wiki/隋書/卷02",
+    "tanik": "韓擒虎進師入建鄴"
+   },
+   {
+    "t": "0590-12-03",
+    "gun": "Kaihuang 10 (590), 11. ay",
+    "k": "isyan",
+    "b": "Wuzhou'lu Wang Wenjin, Kuaiji'li Gao Zhihui ve Suzhou'lu Shen Xuanhuai Sui'ye isyan eder (Sui Shu 2); Yang Su bastırır. Gao Zhihui Kuaiji'li (Shaoxing bölgesi) olduğundan Kuaiji/Shanyin'in 590'da bu isyandan etkilendiği varsayılır; şehir adıyla ayrı kayıt yok ve süre < 1 yıl: dönem AÇILMADI (sahip sui değişmez). Aralık: Sui Shu 2 ayı '冬十一月' yazar; gün yok — ay başı çevrildi (kaynaklı gün DEĞİL, ay hassasiyeti).",
+    "kaynak": "Sui Shu 2 (Gaozu xia) — https://zh.wikisource.org/wiki/隋書/卷02 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "會稽人高智慧"
+   },
+   {
+    "t": "0618-06-18",
+    "gun": "Wude 1 (618), 5. ay 甲子",
+    "k": "diger",
+    "b": "künye geçişi: Sui → Tang (Li Yuan imparator olur). Kuaiji'nin fiili sahibi 618-620 arasında kaynakta bulunamadı (BOŞLUK).",
+    "kaynak": "Jiu Tang Shu 1 (Gao zu) https://zh.wikisource.org/wiki/舊唐書/卷1 ; Sinica sinocal, Jülyen",
+    "tanik": "甲子，高祖即皇帝位於太極殿"
+   },
+   {
+    "t": "0620-01-01",
+    "gun": "Wude 3 (620)",
+    "k": "fetih",
+    "b": "Li Zitong (Wu devleti) Wu jun'da Shen Faxing'i yener, başkentini Yuhang'a taşır ve topraklarını '東至會稽'e dek genişletir (Jiu Tang Shu 56; ZZTJ 188 '東包會稽'); Kuaiji bu devletin sınırındadır. Yıl hassasiyeti.",
+    "kaynak": "Jiu Tang Shu 56 (Li Zitong zhuan) — https://zh.wikisource.org/wiki/舊唐書/卷56 ; Zizhi tongjian 188 — https://zh.wikisource.org/wiki/資治通鑑/卷188",
+    "tanik": "東至會稽，南至千嶺，西距宣城，北至太湖，盡有其地"
+   },
+   {
+    "t": "0621-12-25",
+    "gun": "Wude 4 (621), 11. ay 庚寅",
+    "k": "fetih",
+    "b": "Du Fuwei'nin generali Wang Xiongdan Li Zitong'u Duchuoling'de yener; Li Zitong Hangzhou'ya çekilir ve '庚寅，子通窮蹙請降' (ZZTJ 189). Jiu Tang Shu 40: Wude 4 Li Zitong yenilince '置越州總管' — Kuaiji Tang idaresine geçer (Tang'a katılan Du Fuwei aracılığıyla). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen. Kuaiji'nin Tang'a katıldığı gün kaynakta yok; en geç tanık (Li Zitong'un teslimi) alındı.",
+    "kaynak": "Zizhi tongjian 189 — https://zh.wikisource.org/wiki/資治通鑑/卷189 ; Jiu Tang Shu 40 (Yuezhou) — https://zh.wikisource.org/wiki/舊唐書/卷40 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "庚寅，子通窮蹙請降"
+   },
+   {
+    "t": "0623-09-08",
+    "gun": "Wude 6 (623), 8. ay 壬子",
+    "k": "isyan",
+    "b": "Fu Gongzhi (Du Fuwei'nin generali) Danyang'da isyan eder, 'Song' kurar ve '以左遊仙為兵部尚書、東南道大使、越州總管' (Jiu Tang Shu 56) — Yuezhou Fu'nun elindedir ya da onun atamasını alır. Süre ≈ 7 ay (< 1 yıl): dönem AÇILMADI, sahip (tang) değişmez.",
+    "kaynak": "Jiu Tang Shu 56 (Fu Gongzhi) — https://zh.wikisource.org/wiki/舊唐書/卷56 ; Nanking kaydı k12-44 (ulusal): isyan günü 623-09-08",
+    "tanik": "以左遊仙為兵部尚書、東南道大使、越州總管"
+   },
+   {
+    "t": "0624-04-21",
+    "gun": "Wude 7 (624), 3. ay",
+    "k": "kayip",
+    "b": "Tang generali Li Xiaogong Fu Gongzhi'yi bozguna uğratır; Fu '欲就左遊仙於會稽' (Zuo Youxian'ın bulunduğu Kuaiji'ye kaçmak) ama Wukang'da yakalanıp öldürülür (Jiu Tang Shu 56). Kuaiji tekrar Tang idaresinde (Yuezhou duducang 624).",
+    "kaynak": "Jiu Tang Shu 56 (Fu Gongzhi) — https://zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 40 (Yuezhou: 七年改總管為都督) — https://zh.wikisource.org/wiki/舊唐書/卷40",
+    "tanik": "欲就左遊仙於會稽"
+   },
+   {
+    "t": "0686-01-01",
+    "gun": "Chuigong 2 (686)",
+    "k": "idari",
+    "b": "Yuezhou şehir merkezinde (州治) Shanyin ilçesi yeniden kurulur (Kuaiji ilçesinden ayrılıp '與會稽分理'): Shanyin adı şehir merkezinde Tang'da yeniden yazılı. Sahip (tang) değişmez.",
+    "kaynak": "Jiu Tang Shu 40 (Yuezhou) — https://zh.wikisource.org/wiki/舊唐書/卷40",
+    "tanik": "垂拱二年，分會稽縣置，在州治"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "Tianshou 1 (690), 9. ay 九日 壬午",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wu Zhou (Wu Zetian). Yuezhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Jiu Tang Shu 6 (Wu hou) https://zh.wikisource.org/wiki/舊唐書/卷6 ; Sinica sinocal, Jülyen (iki 壬午: 08-17 / 10-16; 10-16 seçildi)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "Shenlong 1 (705), 2. ay 甲寅",
+    "k": "diger",
+    "b": "künye geçişi: Wu Zhou → Tang (Zhongzong). Yuezhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Jiu Tang Shu 7 (Zhong zong) https://zh.wikisource.org/wiki/舊唐書/卷7 ; Sinica sinocal, Jülyen",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0742-01-01",
+    "gun": "Tianbao 1 (742) — Qianyuan 1 (758)",
+    "k": "idari",
+    "b": "Yuezhou 'Kuaiji jun' olur (742), 758'de (Qianyuan 1) 'Yuezhou'ya döner; merkez değişmez. Sahip (tang) değişmez.",
+    "kaynak": "Jiu Tang Shu 40 (Yuezhou) — https://zh.wikisource.org/wiki/舊唐書/卷40",
+    "tanik": "天寶元年，改越州為會稽郡。乾元元年，復為越州"
+   },
+   {
+    "t": "0882-01-01",
+    "gun": "Zhonghe 2 (882)",
+    "k": "diger",
+    "b": "Yuezhou guanchashi Liu Hanhong, Hangzhou'daki Dong Chang ile savaşır (Xin Wudai Shi 67: '中和二年，越州觀察使劉漢宏與昌有隙'); Yuezhou yerel Tang valisinin elindedir — fiili özerk, formel Tang (sahip tang değişmez). Yıl hassasiyeti.",
+    "kaynak": "Xin Wudai Shi 67 (Qian Liu zhuan) — https://zh.wikisource.org/wiki/新五代史/卷67",
+    "tanik": "中和二年，越州觀察使劉漢宏與昌有隙"
+   },
+   {
+    "t": "0895-03-03",
+    "gun": "Qianning 2 (895), 2. ay 辛卯",
+    "k": "kurulus",
+    "b": "Dong Chang (Yuezhou Weisheng jun jiedushi) Yuezhou'da imparator olur: '乃自稱大越羅平國，改元順天'; Qian Liu'ya yazar, Qian Liu 30 bin askerle Yuezhou surlarına gelir, Dong Chang geri adım atar (ZZTJ 260). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Zizhi tongjian 260 (Qianning 2) — https://zh.wikisource.org/wiki/資治通鑑/卷260 ; Xin Wudai Shi 67 — https://zh.wikisource.org/wiki/新五代史/卷67 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "乃自稱大越羅平國，改元順天"
+   },
+   {
+    "t": "0896-06-15",
+    "gun": "Qianning 3 (896), 5. ay",
+    "k": "diger",
+    "b": "Qian Liu'nun generali Gu Quanwu Yuezhou şehrini kuşatır; Dong Chang ilk yenilgide '昌始懼，去帝號，復稱節度使' (ZZTJ 260) — ay hassasiyeti (gün yok; ay başı çevrildi). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Zizhi tongjian 260 (Qianning 3, 5. ay) — https://zh.wikisource.org/wiki/資治通鑑/卷260 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "昌始懼，去帝號，復稱節度使"
+   },
+   {
+    "t": "0896-07-03",
+    "gun": "Qianning 3 (896), 5. ay 己亥",
+    "k": "fetih",
+    "b": "Gu Quanwu 甲午 gecesi Yuezhou'ya saldırır, 乙未 sabahı dış surları alır; Dong Chang 牙城'de direnir; 戊戌 Qian Liu'nun oyunuyla Dong Chang mühürleri teslim eder; 己亥 Dong Chang Hangzhou'ya götürülürken Xiaojiangnan'da öldürülür (ZZTJ 260). Yuezhou Qian Liu'nun eline geçer.",
+    "kaynak": "Zizhi tongjian 260 — https://zh.wikisource.org/wiki/資治通鑑/卷260 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "至小江南，斬之，並其家三百餘人"
+   },
+   {
+    "t": "0897-07-08",
+    "gun": "Qianning 4 (897), 6. ay 己酉",
+    "k": "idari",
+    "b": "Qian Liu Yuezhou'ya gelir ve '受鎮東節鉞' (Zhendong jun jiedushi); Yuezhou Zhendong jun merkezi olur. Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Zizhi tongjian 261 (Qianning 4) — https://zh.wikisource.org/wiki/資治通鑑/卷261 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "六月，己酉，錢鏐如越州，受鎮東節鉞"
+   },
+   {
+    "t": "0907-06-01",
+    "gun": "Kaiping 1 (907), 4. ay 甲子",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wuyue (Zhu Wen/Liang Taizu tahta çıkar; aynı olayda Qian Liu'yu 'Wuyue Wang' yapar). Yuezhou'ya özgü teslim olayı yok (Qian Liu Yuezhou'yu 896'dan beri tutar).",
+    "kaynak": "Xin Wudai shi 67 — https://zh.wikisource.org/wiki/新五代史/卷67 ; Xin Wudai shi 2 (新五代史/卷02: 甲子，皇帝即位) — https://zh.wikisource.org/wiki/新五代史/卷02 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (katalog xian 0907-06-01 ile aynı gün)",
+    "tanik": "梁太祖即位，封鏐吳越王兼淮南節度使"
+   },
+   {
+    "t": "0978-06-11",
+    "gun": "Taiping Xingguo 3 (978), 5. ay 丁亥",
+    "k": "antlasma",
+    "b": "Wuyue kralı Qian Chu Liang-Zhe'yi (13 eyalet; Yuezhou dahil) Song'a sunar; Song onu Huaihai Wang yapar. Fuzhou/Hangzhou kayıtlarıyla aynı sınır günü.",
+    "kaynak": "Song Shi 4 (Tai zong) https://zh.wikisource.org/wiki/宋史/卷4 ; Sinica sinocal, Jülyen",
+    "tanik": "丁亥，封錢俶為淮海國王"
+   },
+   {
+    "t": "1129-11-30",
+    "gun": "Jianyan 3 (1129), 10. ay 壬辰",
+    "k": "taht",
+    "b": "Song Gaozong Hangzhou'dan Zhejiang'ı geçip Yuezhou'ya gelir ('帝至越州'); Yuezhou geçici başkent (行在) olur. Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge).",
+    "kaynak": "Song Shi 25 (Gaozong ji 2) — https://zh.wikisource.org/wiki/宋史/卷025 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "壬辰，帝至越州"
+   },
+   {
+    "t": "1130-02-04",
+    "gun": "Jianyan 3 (Çin yılı 1129), 12. ay 戊戌 = 1130-02-04",
+    "k": "isgal",
+    "b": "Jin generali (Wuzhu) Yuezhou'ya saldırır; anshushi Li Ye şehri teslim eder ('金人犯越州，安撫使李鄴以城降'); Gaozong Wenzhou-Taizhou'ya kaçar. Yaklaşık 52 gün sonra geri alınır (aşağıda); süre < 1 yıl: dönem AÇILMADI, sahip (song) değişmez. Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Song Shi 25 (Gaozong ji 2) — https://zh.wikisource.org/wiki/宋史/卷025 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "戊戌，金人犯越州，安撫使李鄴以城降"
+   },
+   {
+    "t": "1130-03-28",
+    "gun": "Jianyan 4 (1130), 2. ay 庚寅",
+    "k": "kayip",
+    "b": "Song Zhedong fangyushi Fu Songqing Yuezhou'ya girer ('浙東防遏使傅崧卿入越州') — Jin Yuezhou'dan çekilmiştir. Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Song Shi 26 (Gaozong ji 3) — https://zh.wikisource.org/wiki/宋史/卷026 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "浙東防遏使傅崧卿入越州"
+   },
+   {
+    "t": "1130-05-20",
+    "gun": "Jianyan 4 (1130), 4. ay 癸未",
+    "k": "taht",
+    "b": "Gaozong Yuezhou'da konaklar ('帝駐越州') ve Zhejiang batısına seferi duyurur; Yuezhou 1131 sonuna dek fiili başkent (Shaoxing 1 yeni yıl: '帝在越州，帥百官遙拜二帝'). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Song Shi 26 (Gaozong ji 3) — https://zh.wikisource.org/wiki/宋史/卷026 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "癸未，帝駐越州"
+   },
+   {
+    "t": "1131-11-17",
+    "gun": "Shaoxing 1 (1131), 10. ay 己丑",
+    "k": "idari",
+    "b": "Yuezhou, Gaozong'un yeni dönem adıyla 'Shaoxing fu' olur ('升越州為紹興府'; Song Shi 88: '紹興府，本越州'). Şehir adının bugünkü biçime ilk yazılı tanığı. Sahip (song) değişmez. Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Song Shi 26 (Gaozong ji 3) — https://zh.wikisource.org/wiki/宋史/卷026 ; Song Shi 88 (Dili zhi) — https://zh.wikisource.org/wiki/宋史/卷088 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "己丑，升越州為紹興府"
+   },
+   {
+    "t": "1276-01-01",
+    "gun": "1276 (Deyou 2 / Zhiyuan 13)",
+    "k": "fetih",
+    "b": "Yuan, Lin'an'ın düşmesinden sonra Zhedong'u alır: Arahan komutasında '略定紹興、溫、台、福建諸郡' (Yuan Shi 132, Tiemubuhua zhuan); Yuan Shi 62: '元至元十三年，改紹興路'. Önceki Song valisi Fu Wang (Yu Rui) '判紹興府' idi (Song Shi 47) ve Lin'an'a Yuan Bayan'ın girişinde '自紹興至' (Song Shi jishi benmo 107, 1276-03). Gün YOK — yıl hassasiyeti; Yuan Shi 8–10 ve Song Shi 47'de Shaoxing teslim satırı bulunamadı.",
+    "kaynak": "Yuan Shi 62 (Dili zhi: Shaoxing lu) — https://zh.wikisource.org/wiki/元史/卷062 ; Yuan Shi 132 (Tiemubuhua zhuan) — https://zh.wikisource.org/wiki/元史/卷132 ; Song Shi jishi benmo 107 — https://zh.wikisource.org/wiki/宋史紀事本末/卷107",
+    "tanik": "元至元十三年，改紹興路"
+   }
+  ],
+  "ic_not": "Shaoxing (atlas_ad 'Shaoxing', kat1900 3; atlas ilk gün 1281-01-01 yuan-hanedani). ① YER: atlas noktası (30.03, 120.58) Shaoxing eski şehridir. Song gazetesi Jiatai Kuaiji zhi 1 (1201): prefektür (府治) Wolong Dağı'nın doğu eteğindedir, Goujian'ın küçük şehri/Fan Li şehri ile eşitlenir ('會稽治山陰以來此城即為郡城'; '雖未必盡與古同'), Song prefektürünün 羅城 çevresi 14 li (Shen Li 1070'ler) — çağdaş kanıt değil; koordinat kaynaktan ölçülmedi (kesin değil). ② ZİNCİR BAŞI = MÖ 490 GELENEK (Wu Yue chunqiu Goujian 7. yıl 'Fan Li küçük şehri kurar'; Yue Jue Shu 8 'küçük şehir = Shanyin şehri'; sayı: Shiji 14 Wu 19. yıl = MÖ 496 Goujian 1; Siku notu Goujian 7 = Lu Ai 5 = MÖ 490). Arkeolojik/akademik doğrulama BULUNAMADI (aranmadı: yalnız wikisource birincil metin taraması). Muhafazakâr alternatif başlangıç (yazılı, yeri kesin): MÖ 210 Yue Jue Shu 8 'Qin 37. yıl ... 乃更名大越曰山陰' (Shanyin adının ilk yazılı tanığı) veya Hanshu 28上 Kuaiji jun ilçeleri listesi '山陰'. Karar Emre'nindir. ③ ZİNCİR ÖZETİ: Yue (kunye_yok yue-devleti-zhou, MÖ 490–MÖ 222; MÖ 473 Wu'yu yutar, Langya'ya taşır; MÖ 333 Chu Wujiang'ı yener, kalıntı Yue beylikleri Chu'ya tâbi — Shiji 6 MÖ 222'de '越君'in teslimi) → Qin devleti (MÖ 222) → Qin imparatorluğu (MÖ 221) → MÖ 208 Xiang Liang → BOŞLUK (MÖ 208–MÖ 202) → Batı Han (Wu krallığı 195, 154 isyanı içinde) → Xin → BOŞLUK (23-25) → Doğu Han (129 Kuaiji jun merkezi Shanyin; 196 Sun Ce) → Sun Wu → Batı Jin → Doğu Jin (399 Sun En) → Liu Song → Güney Qi → Liang → Chen → Sui (589 Wuzhou; 590 Gao Zhihui) → 618-06-18 BOŞLUK (620'ye dek) → Li Zitong'un Wu'su (kunye_yok li-zitong-wu, 620 – 621-12-25) → Tang (621; 623-24 Fu Gongzhi olay) → Wu Zhou (690) → Tang (705) → Luoping guo (kunye_yok luoping-guo, Dong Chang 895-03-03 – 896-06-15 ay hassasiyeti) → Tang (896; Qian Liu 897 Zhendong) → Wuyue (907-06-01) → Song (978-06-11; 1129-30 Gaozong Yuezhou'da, 1130-02-04 Jin işgali ~52 gün, 1131-11-17 Shaoxing fu) → Yuan (1276 yıl hassasiyeti) → 1281-01-01. ④ ÇELİŞKİ/NOT: (a) Shiji 6 Kuaiji gezisini Qin 37. yıl 10-11. aya yazar; Yue Jue Shu 8 'meydana varış: 正月甲戌' (Qin takvimi ay 1 = 10. ay olabilir) — yalnız yıl (MÖ 210) alındı, gün yazılmadı. (b) Song Shi 25 Jin Yuezhou'yu 12. ay 戊戌 (1130-02-04) alır; Song Shi 26 Song'un 2. ay 庚寅'de (1130-03-28) geri girdiğini yazar. (c) Yuan'ın Shaoxing'i alış günü bulunamadı: Song Shi 47 德祐元年 'Fu Wang Yu Rui 判紹興府', 德祐二年 3. ay Lin'an'a 'Fu Wang 自紹興至' (Song Shi jishi benmo 107) ⇒ Song en az 1276-03'e dek tuttu; Yuan Shi 62 'Zhiyuan 13 Shaoxing lu', Yuan Shi 132 Arahan'ın 'Shaoxing, Wenzhou, Taizhou, Fujian' seferi (yıl yok); sınır 1276-01-01 YIL hassasiyetidir ve Song dönemini yıl başına çeker — 1276'nın ilk 2-3 ayı için Song-Yuan dikişi gerçeğe göre 2-9 ay erkendir (beyan; ölçüt gevşetilmedi). ⑤ KÜNYE ÖNERİLERİ: yue-devleti-zhou (Yue, Zhou dönemi, f ≤ MÖ 490, t = MÖ 222); li-zitong-wu (Li Zitong'un Wu devleti, 吳, nianhao 明政, ≈619 – 621-12-25); luoping-guo (大越羅平國, Dong Chang, nianhao 順天, 895-03-03 – 896); isteğe bağlı xi-chu-bawang (Xiang Yu). Künye uyarıları (GENİŞLET/KISALT): tang t=907-01-01 < 907-06-01; wuyue t=978-01-01 < 978-06-11; dogu-han t=0220-01-01 < 220-11-25; sun-wu f=222 > 220-11-25; bati-han/xin/bati-jin/dogu-jin/liu-song/guney-qi/liang-guney/chen/wu-zhou bitişleri 1 Ocak yuvarlaması (Suzhou/Fuzhou kayıtlarındaki toplu GENİŞLET önerisiyle aynı). ⑥ AYRI KAYIT ÖNERİLERİ (3 km kuralı, kesin değil): Jiatai Kuaiji zhi 1: 'Yue Wang Cheng' ('越王城') 'ilçenin 47 li güneybatısı', Gucheng köyü (古城村) — Goujian'ın çekirdeği/Yue Wang Cheng arkeolojik adayı, bugünkü şehirden ~20+ km (kesin değil); 'Kuaiji Dağı Üst Şehri' (會稽山上城, Goujian'ın Wu'ya yenildiğinde sığındığı yer, 'ilçenin 10 li doğu-güneydoğusu'); Yue Jue Shu 8'in 'Langya' (Goujian'ın başkent taşıması) Shandong'da, ayrı kayıt. ⑦ BULUNAMADI: arkeolojik/akademik makale (kazı raporu, Çince/İngilizce) aranmadı; MÖ 208–202 Kuaiji sahibi; 23–25 Kuaiji sahibi; 618–620 fiili sahip; Li Zitong'un Kuaiji'ye katıldığı kesin gün; Yuan'ın Shaoxing'i alış günü (Yuan Shi 8–10, Song Shi 47 tarandı); Hou Jing (548–552) dönemi Kuaiji; çift teyit: YOK."
  },
  {
   "id": "strasbourg-fr",
@@ -15745,6 +18995,409 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Kuruluş bulunamadı. 846 sınırı Vannes için doğrudan tanık değil (Bretanya genel) — yaklaşıklık beyanlı. Atlas Vannes 1281 'bretanya' — uyumlu. Çift teyit yok. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
  },
  {
+  "id": "wenzhou-cin",
+  "ad": "Wenzhou",
+  "atlas_ad": "Wenzhou",
+  "lat": 27.994,
+  "lon": 120.699,
+  "kat1900": 3,
+  "adlar": [
+   "Dong'ou / 東甌 (MÖ 192 Hui Di 3: Shiji 114 '都東甌'; Jijie Xu Guang '今之永寧也'; yer eşitlemesi KESİN DEĞİL — başlangıç sayılmadı)",
+   "Yongning / 永寧 (Song Shu 35: Han Yongjian 4 = 129 ya da Yonghe 3 = 138, Zhang'an'ın Dong'ou kasabasından ayrılarak kuruldu)",
+   "Yongjia jun / 永嘉郡 (Jin Taining 1 = 323; merkez Yongning)",
+   "Yongjia / 永嘉縣 (Sui 589: Yongning'in yeni adı; Yuanhe junxian tuzhi 26: Tang Wenzhou'nun ilçesi)",
+   "Dongjia zhou / 東嘉州 (Tang Wude 5 = 622)",
+   "Wenzhou / 溫州 (Tang Shangyuan 2 = 675)",
+   "Yongjia jun (Tianbao 1 = 742); Wenzhou (Qianyuan 1 = 758)",
+   "Yingdao jun / 應道軍 (Song Zhenghe 7 = 1117); Rui'an fu / 瑞安府 (Xianchun 1 = 1265; Song Shi 88)",
+   "Wenzhou lu / 溫州路 (Yuan Zhiyuan 13 = 1276; Yuan Shi 62)"
+  ],
+  "ilk": {
+   "t": "0138-01-01",
+   "gun": "Yonghe 3 (138) [alternatif: Yongjian 4 = 129]",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Song Shu 35 (宋書 卷35, 州郡志: 永寧令) — https://zh.wikisource.org/wiki/宋書/卷35 ; yer eşitlemesi: Yuanhe junxian tuzhi 26 (元和郡縣圖志 卷26, Tang 813: 永嘉縣 '即漢回浦縣之東甌鄉') — https://zh.wikisource.org/wiki/元和郡縣圖志/卷26 ; Taiping huanyu ji 99 (太平寰宇記 卷099, Song, ~980) — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷099 ; Jin Shu 15 (晉書 卷015: 永嘉郡 流永甯…) — https://zh.wikisource.org/wiki/晉書/卷015",
+   "tanik": "分章安東甌鄉立，或云順帝永和三年立",
+   "ic_not": "KURULUŞ: Yongning ilçesi Zhang'an ilçesinin Dong'ou kasabasından ayrılarak kurulur. Song Shu 35 İKİ tarih verir: '漢順帝永建四年' (129) VEYA '順帝永和三年' (138); Taiping huanyu ji 99 (Yu di zhi'den) '後漢永和三年置永寧縣' der. GÜVENLİ UÇ (daha geç) = 138 alındı, çelişki beyan (129 ≈ Song Shu 1. okuma). Yer eşitlemesi: Yongning/Yongjia ilçe merkezi = Tang Wenzhou şehri: Yuanhe junxian tuzhi 26 (Tang): Wenzhou/Yongjia '即漢回浦縣之東甌鄉，晉立為縣', şehir Huagai Dağı'nın 1 li batısı, Yongjia (Yongning) nehrinin 3 li batısı; Tang 675'te Wenzhou merkezi '縣移在州東一百八十步'. Çağdaş koordinat yok (kesin değil). Daha eski aday: Dong'ou krallığı (MÖ 192, Shiji 114 '都東甌'; Jijie Xu Guang '今之永寧也'; Taiping huanyu ji 99 '即惠帝立東海王搖于東甌都此'; Yuanhe junxian tuzhi 26 (Chuzhou) '都東甌，今溫州永嘉縣是也') — ancak Dong'ou başkentinin tam yeri ilçe düzeyinde eşitlenir, 3 km kuralı için yeri KESİN DEĞİL ⇒ başlangıç sayılmadı; Shiji 114: MÖ 138 Dong'ou halkı Min-Yue baskısıyla Jiang-Huai'ye göç eder ('舉國徙中國，處之江淮之閒'), sonra yer '回浦縣'. Dong'ou dönemi Emre onayıyla ayrı eklenebilir (kunye_yok dongou-krallik önerisi)."
+  },
+  "kur": {
+   "t": "0138-01-01",
+   "gun": "Yonghe 3 (138)",
+   "kesinlik": "yil",
+   "kaynak": "Song Shu 35 (宋書 卷35, 州郡志: 永寧令) — https://zh.wikisource.org/wiki/宋書/卷35 ; yer eşitlemesi: Yuanhe junxian tuzhi 26 (元和郡縣圖志 卷26, Tang 813: 永嘉縣 '即漢回浦縣之東甌鄉') — https://zh.wikisource.org/wiki/元和郡縣圖志/卷26 ; Taiping huanyu ji 99 (太平寰宇記 卷099, Song, ~980) — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷099 ; Jin Shu 15 (晉書 卷015: 永嘉郡 流永甯…) — https://zh.wikisource.org/wiki/晉書/卷015",
+   "tanik": "分章安東甌鄉立，或云順帝永和三年立"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0138-01-01",
+    "t": "0220-11-25",
+    "d": "dogu-han",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Song Shu 35 — https://zh.wikisource.org/wiki/宋書/卷35 ; Taiping huanyu ji 99 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷099",
+    "ic_not": "Doğu Han. Yongning Kuaiji jun'a bağlı (Taiping huanyu ji 99: '會稽郡之東境'); Wu'da Linhai jun. Künye dogu-han t=0220-01-01 < 220-11-25: GENİŞLET önerisi. f = 138-01-01 yıl (Song Shu 35 iki tarih).",
+    "tanik": "分章安東甌鄉立，或云順帝永和三年立"
+   },
+   {
+    "f": "0220-11-25",
+    "t": "0280-05-01",
+    "d": "sun-wu",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shu 15 (Dili zhi: Linhai jun '吳置') — https://zh.wikisource.org/wiki/晉書/卷015",
+    "ic_not": "Sun Wu: Yongning Linhai jun'da (Jin Shu 15: '臨海郡吳置 … 永甯'). Künye f=222 > 220-11-25 (hayalet uyarısı; Fuzhou/Nanking/Suzhou ile aynı).",
+    "tanik": "章安臨海始豐永甯甯海松陽安固橫陽"
+   },
+   {
+    "f": "0280-05-01",
+    "t": "0316-12-11",
+    "d": "bati-jin",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shu 15 (Dili zhi) — https://zh.wikisource.org/wiki/晉書/卷015",
+    "ic_not": "Batı Jin: Linhai jun içinde Yongning."
+   },
+   {
+    "f": "0316-12-11",
+    "t": "0420-07-10",
+    "d": "dogu-jin",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shu 15 (Dili zhi) — https://zh.wikisource.org/wiki/晉書/卷015 ; Song Shu 35 — https://zh.wikisource.org/wiki/宋書/卷35",
+    "ic_not": "Doğu Jin: 323 (Taining 1) Linhai'dan Yongjia jun ayrılır; merkez Yongning.",
+    "tanik": "明帝太甯元年，分臨海立永嘉郡"
+   },
+   {
+    "f": "0420-07-10",
+    "t": "0479-05-29",
+    "d": "liu-song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shu 35 — https://zh.wikisource.org/wiki/宋書/卷35",
+    "ic_not": "Liu Song: Yongjia taishou, 5 ilçe (Song Shu 35).",
+    "tanik": "永嘉太守，晉明帝太寧元年，分臨海立"
+   },
+   {
+    "f": "0479-05-29",
+    "t": "0502-04-30",
+    "d": "guney-qi",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 99 (歷宋齊陳皆因之) — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷099",
+    "ic_not": "Güney Qi (Yongjia jun sürer)."
+   },
+   {
+    "f": "0502-04-30",
+    "t": "0557-11-16",
+    "d": "liang-guney",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 99 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷099",
+    "ic_not": "Liang (Yongjia jun sürer)."
+   },
+   {
+    "f": "0557-11-16",
+    "t": "0589-02-02",
+    "d": "chen",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 99 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷099",
+    "ic_not": "Chen (Yongjia jun sürer)."
+   },
+   {
+    "f": "0589-02-02",
+    "t": "0618-06-18",
+    "d": "sui",
+    "kesinlik": "gun",
+    "kaynak": "Sui Shu 31 (Dili zhi: Yongjia jun) — https://zh.wikisource.org/wiki/隋書/卷31",
+    "ic_not": "Sui. Sui Shu 31: '永嘉舊曰永寧，置永嘉郡。平陳，郡廢，縣改名焉' (Yongning → Yongjia ilçesi; Yongjia jun sonradan Chuzhou/Kuozhou merkezli, Wenzhou'dan başka bir yer).",
+    "tanik": "永嘉舊曰永寧，置永嘉郡。平陳，郡廢，縣改名焉"
+   },
+   {
+    "f": "0618-06-18",
+    "t": "0622-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Jiu Tang Shu 40 (Wenzhou) — https://zh.wikisource.org/wiki/舊唐書/卷40 ; Jiu Tang Shu 56 (Du Fuwei) — https://zh.wikisource.org/wiki/舊唐書/卷56",
+    "ic_not": "Sahibi Wenzhou/Yongjia adıyla kaynakta YOK: Tang 618-06-18'de kurulur (ulusal), Jiangnan'ı Du Fuwei tutar; Jiu Tang Shu 40: Wude 5 (622) Du Fuwei Tang'a bağlı '置東嘉州' — Wenzhou'nun Tang idaresine geçişi en geç 622. Önceki dönem (Sui) 618-06-18'e kadar nominal; arası beyanlı BOŞLUK."
+   },
+   {
+    "f": "0622-01-01",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Jiu Tang Shu 40 (Dili zhi, Wenzhou) — https://zh.wikisource.org/wiki/舊唐書/卷40 ; Yuanhe junxian tuzhi 26 — https://zh.wikisource.org/wiki/元和郡縣圖志/卷26",
+    "ic_not": "Tang. 622 Dongjia zhou (Du Fuwei), kısa sürede kaldırılır; 623 Fu Gongzhi isyanında Yongjia-Angu halkı Huagai Dağı'nda direnir (Yuanhe zhi 26); 675 Wenzhou kurulur (Jiu Tang Shu 40; Yuanhe zhi 26: 674). f = 622-01-01 yıl (en geç tanık).",
+    "tanik": "武德五年，置東嘉州，領永嘉"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 6 — https://zh.wikisource.org/wiki/舊唐書/卷6 ; Jiu Tang Shu 7 — https://zh.wikisource.org/wiki/舊唐書/卷7",
+    "ic_not": "Wu Zhou; Wenzhou'ya özgü kayıt yok."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0907-06-01",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 40 — https://zh.wikisource.org/wiki/舊唐書/卷40 ; Zizhi tongjian 263, 265 — https://zh.wikisource.org/wiki/資治通鑑/卷263",
+    "ic_not": "Tang (nominal). Yerel hanedan: Wenzhou cishi Zhu Bao (881-882'den, Liu Hanhong tarafından atanır), kardeşleri Zhu Dan, Zhu Zhu, Zhu Ao (ZZTJ 263: 901); 903 Ding Zhang, 903-904 Zhang Hui; 905 Lu Xin; 907 Qian Chuanguan. Formel Tang; her yerel hâkim 2 yıldan az/özerk olduğundan dönem AÇILMADI, olay olarak yazıldı. Künye tang t=907-01-01 < 907-06-01: GENİŞLET önerisi.",
+    "tanik": "溫州將丁章逐刺史朱敖，敖奔福州"
+   },
+   {
+    "f": "0907-06-01",
+    "t": "0978-06-11",
+    "d": "wuyue",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai shi 67 — https://zh.wikisource.org/wiki/新五代史/卷67 ; Wuyue beishi 2 — https://zh.wikisource.org/wiki/吳越備史/卷2",
+    "ic_not": "Wuyue: Qian Chuanguan 907-05-26'da Wenzhou'yu alır (olay), Wu Zhang Wenzhou zhishi'si olur. Wuyue t=978-01-01 < 978-06-11: GENİŞLET önerisi.",
+    "tanik": "夏四月戊午，克溫州，斬盧佶而還"
+   },
+   {
+    "f": "0978-06-11",
+    "t": "1276-11-08",
+    "d": "song",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Song Shi 88 (Dili zhi: Rui'an fu) — https://zh.wikisource.org/wiki/宋史/卷088 ; Song Shi 47 (Gong di ji) — https://zh.wikisource.org/wiki/宋史/卷047",
+    "ic_not": "Song. Wenzhou 978'de '降為軍事', 1265'te '以度宗潛邸' Rui'an fu. 1276'da Song sürgün sarayı Wenzhou'da toplanır (Song Shi 47); Yuan'ın Wenzhou'ya girişi 'güz' (7-9. ay, Yuan Shi 131) — f = Yuan Shi 131 güzünün SON ucu (10. ay başı, 1276-11-08, en geç tanık): Song bu güne dek uzatıldı (ic_not).",
+    "tanik": "建炎三年，罷軍額"
+   },
+   {
+    "f": "1276-11-08",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "Yuan Shi 131 (Huaidu zhuan) — https://zh.wikisource.org/wiki/元史/卷131 ; Yuan Shi 9 (Shizu ji: 12. ay 庚寅) — https://zh.wikisource.org/wiki/元史/卷009 ; Yuan Shi 62 (Wenzhou lu) — https://zh.wikisource.org/wiki/元史/卷062",
+    "ic_not": "Yuan; atlasın ilk sahibi (yuan-hanedani, 1281-01-01) ile aynı — dikişte olay gerekmez. Yuan Shi 62: '元至元十三年，置溫州路'.",
+    "tanik": "元至元十三年，置溫州路"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0138-01-01",
+    "gun": "Yonghe 3 (138) [alternatif Yongjian 4 = 129]",
+    "k": "kurulus",
+    "b": "Yongning ilçesi, Zhang'an ilçesinin 'Dong'ou kasabası'ndan ayrılarak kurulur (Song Shu 35: iki tarih 129 / 138). Yer eşitlemesi: sonraki Yongjia ilçesi = Tang Wenzhou şehri (Yuanhe zhi 26). Sahiplik: dogu-han.",
+    "kaynak": "Song Shu 35 — https://zh.wikisource.org/wiki/宋書/卷35 ; Taiping huanyu ji 99 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷099 ; Yuanhe junxian tuzhi 26 — https://zh.wikisource.org/wiki/元和郡縣圖志/卷26",
+    "tanik": "分章安東甌鄉立，或云順帝永和三年立"
+   },
+   {
+    "t": "0220-11-25",
+    "gun": "Yankang 1 (220), 10. ay 乙卯",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Han → Sun Wu (Han İmparatoru Xian Cao Pi'ye tahtı bırakır; Jiangdong'da Sun Quan). Wenzhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Hou Han Shu 9 (Xian di ji) https://zh.wikisource.org/wiki/後漢書/卷9 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen",
+    "tanik": "冬十月乙卯，皇帝遜位，魏王丕稱天子"
+   },
+   {
+    "t": "0280-05-01",
+    "gun": "Taikang 1 (280), 3. ay 壬寅",
+    "k": "fetih",
+    "b": "Jin donanması Jianye'ye varır, Sun Hao teslim olur; Wu toprakları (Linhai jun, Yongning dahil) Jin'e geçer (ulusal).",
+    "kaynak": "Jin Shu 3 (Wu di ji) https://zh.wikisource.org/wiki/晉書/卷003 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen",
+    "tanik": "孫皓大懼，面縳輿櫬，降于軍門"
+   },
+   {
+    "t": "0316-12-11",
+    "gun": "Jianxing 4 (316), 11. ay 乙未",
+    "k": "diger",
+    "b": "künye geçişi: Batı Jin → Doğu Jin (Min Di Chang'an'da Han-Zhao'ya teslim). Wenzhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Jin Shu 5 (Min di ji) https://zh.wikisource.org/wiki/晉書/卷005 ; Çin takviminden çevrildi: Sinica sinocal, Jülyen (metinde '乙末' yazım hatası, 乙未 okundu)",
+    "tanik": "帝乘羊車，肉袒銜壁，輿櫬出降"
+   },
+   {
+    "t": "0323-01-01",
+    "gun": "Taining 1 (323)",
+    "k": "idari",
+    "b": "Jin Mingdi Linhai jun'dan Yongjia jun'u ayırır ve Yongning, Angu, Songyang, Hengyang ilçelerini bağlar ('分臨海立永嘉郡，流永甯、安固、松陽、橫陽等四縣'); jun merkezi Yongning (Yuanhe zhi 26: '晉大寧中於此置永嘉郡'). Wenzhou yerinin ilk jun merkezi oluşu. Sahip (dogu-jin) değişmez.",
+    "kaynak": "Jin Shu 15 (Dili zhi) — https://zh.wikisource.org/wiki/晉書/卷015 ; Song Shu 35 (永嘉太守) — https://zh.wikisource.org/wiki/宋書/卷35 ; Yuanhe junxian tuzhi 26 — https://zh.wikisource.org/wiki/元和郡縣圖志/卷26",
+    "tanik": "明帝太甯元年，分臨海立永嘉郡"
+   },
+   {
+    "t": "0420-07-10",
+    "gun": "Yongchu 1 (420), 6. ay 丁卯",
+    "k": "diger",
+    "b": "künye geçişi: Doğu Jin → Liu Song (Liu Yu). Wenzhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Song Shu 3 (Wu di xia) https://zh.wikisource.org/wiki/宋書/卷3 ; Sinica sinocal, Jülyen",
+    "tanik": "永初元年夏六月丁卯，設壇於南郊，即皇帝位"
+   },
+   {
+    "t": "0479-05-29",
+    "gun": "Jianyuan 1 (479), 4. ay 甲午",
+    "k": "diger",
+    "b": "künye geçişi: Liu Song → Güney Qi (Xiao Daocheng). Wenzhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Nan Qi Shu 2 (Gao di xia) https://zh.wikisource.org/wiki/南齊書/卷2 ; Sinica sinocal, Jülyen",
+    "tanik": "建元元年夏四月甲午，上即皇帝位於南郊"
+   },
+   {
+    "t": "0502-04-30",
+    "gun": "Tianjian 1 (502), 4. ay 丙寅",
+    "k": "diger",
+    "b": "künye geçişi: Güney Qi → Liang (Xiao Yan). Wenzhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Liang Shu 2 (Wu di zhong) https://zh.wikisource.org/wiki/梁書/卷02 ; Sinica sinocal, Jülyen",
+    "tanik": "天監元年夏四月丙寅，高祖卽皇帝位於南郊"
+   },
+   {
+    "t": "0557-11-16",
+    "gun": "Yongding 1 (557), 10. ay 乙亥",
+    "k": "diger",
+    "b": "künye geçişi: Liang → Chen (Chen Baxian). Wenzhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Chen Shu 2 (Gao zu xia) https://zh.wikisource.org/wiki/陳書/卷2 ; Chen Shu 35 ; Sinica sinocal, Jülyen",
+    "tanik": "永定元年冬十月乙亥，高祖即皇帝位于南郊"
+   },
+   {
+    "t": "0589-01-01",
+    "gun": "Kaihuang 9 (589)",
+    "k": "idari",
+    "b": "Sui Chen'i yenince Yongjia jun kaldırılır, Yongning ilçesi 'Yongjia' adını alır (Yongjia jun adı sonra Kuozhou merkezinden Daye başı Kuozhou'ya verilir). Yıl hassasiyeti.",
+    "kaynak": "Sui Shu 31 (Dili zhi) — https://zh.wikisource.org/wiki/隋書/卷31",
+    "tanik": "永嘉舊曰永寧，置永嘉郡。平陳，郡廢，縣改名焉"
+   },
+   {
+    "t": "0589-02-02",
+    "gun": "2 Şubat 589",
+    "k": "fetih",
+    "b": "Sui generali Han Qinhu Jianye'ye girer, Chen devleti yıkılır; Chen toprakları (Yongjia dahil) Sui'ye geçer. Wenzhou'nun teslim günü kaynakta yok; ulusal gün alındı.",
+    "kaynak": "隋書 卷2 高祖紀下, https://zh.wikisource.org/wiki/隋書/卷02",
+    "tanik": "韓擒虎進師入建鄴"
+   },
+   {
+    "t": "0618-06-18",
+    "gun": "Wude 1 (618), 5. ay 甲子",
+    "k": "diger",
+    "b": "künye geçişi: Sui → Tang (Li Yuan imparator olur). Wenzhou'nun fiili sahibi 618-622 arasında kaynakta bulunamadı (BOŞLUK).",
+    "kaynak": "Jiu Tang Shu 1 (Gao zu) https://zh.wikisource.org/wiki/舊唐書/卷1 ; Sinica sinocal, Jülyen",
+    "tanik": "甲子，高祖即皇帝位於太極殿"
+   },
+   {
+    "t": "0622-01-01",
+    "gun": "Wude 5 (622)",
+    "k": "idari",
+    "b": "Du Fuwei Tang'a bağlanır; Yongjia ilçe merkezinde Dongjia zhou kurulur ve Yongjia, Yongning, Angu, Lecheng, Hengyang beş ilçeyi yönetir (Jiu Tang Shu 40; Yuanhe zhi 26 '杜伏威歸化，於縣理置東嘉州'). Tang'ın Wenzhou'yu aldığının en geç tanığı — f için kullanıldı.",
+    "kaynak": "Jiu Tang Shu 40 (Wenzhou) — https://zh.wikisource.org/wiki/舊唐書/卷40 ; Yuanhe junxian tuzhi 26 — https://zh.wikisource.org/wiki/元和郡縣圖志/卷26",
+    "tanik": "武德五年，置東嘉州，領永嘉"
+   },
+   {
+    "t": "0623-01-01",
+    "gun": "Wude 6 (623)",
+    "k": "isyan",
+    "b": "Fu Gongzhi Danyang'da isyan edince Yongjia ve Angu halkı Huagai Dağı'nda (şehrin 1 li doğusu) direnir ve isyana katılmaz (Yuanhe zhi 26). Sahip (tang) değişmez.",
+    "kaynak": "Yuanhe junxian tuzhi 26 — https://zh.wikisource.org/wiki/元和郡縣圖志/卷26",
+    "tanik": "永嘉、安固等百姓於華蓋山固守，不陷凶黨"
+   },
+   {
+    "t": "0675-01-01",
+    "gun": "Shangyuan 2 (675) [Yuanhe zhi: Shangyuan 1 = 674]",
+    "k": "kurulus",
+    "b": "Kuozhou'nun Yongjia ve Angu ilçelerinden '溫州' kurulur (ad: iklimi ılık); şehir merkezi Yongjia ilçesi, ilçe şehre '州東一百八十步' taşınır. Wenzhou adının ilk tanığı. Çelişki: Jiu Tang Shu 40 ve Taiping huanyu ji 99 '上元二年' (675), Yuanhe zhi 26 '高宗上元元年' (674) — Jiu Tang Shu esas alındı (daha geç = güvenli uç).",
+    "kaynak": "Jiu Tang Shu 40 (Wenzhou) — https://zh.wikisource.org/wiki/舊唐書/卷40 ; Yuanhe junxian tuzhi 26 — https://zh.wikisource.org/wiki/元和郡縣圖志/卷26 ; Taiping huanyu ji 99 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷099",
+    "tanik": "上元二年，分括州之永嘉、安固二縣置溫州"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "Tianshou 1 (690), 9. ay 九日 壬午",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wu Zhou (Wu Zetian). Wenzhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Jiu Tang Shu 6 (Wu hou) https://zh.wikisource.org/wiki/舊唐書/卷6 ; Sinica sinocal, Jülyen (iki 壬午: 08-17 / 10-16; 10-16 seçildi)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "Shenlong 1 (705), 2. ay 甲寅",
+    "k": "diger",
+    "b": "künye geçişi: Wu Zhou → Tang (Zhongzong). Wenzhou'ya özgü kayıt yok (ulusal).",
+    "kaynak": "Jiu Tang Shu 7 (Zhong zong) https://zh.wikisource.org/wiki/舊唐書/卷7 ; Sinica sinocal, Jülyen",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0905-09-02",
+    "gun": "Tianyou 2 (905), 8. ay",
+    "k": "fetih",
+    "b": "Chuzhou cishi Lu Yue'nin kardeşi Lu Xin Wenzhou'yu alır, Wenzhou cishi Zhang Hui Fuzhou'ya kaçar ('處州刺史盧約使其弟佶攻陷溫州，張惠奔福州'). Formel Tang idaresi değişmez; Lu Xin 907-05'e dek tutar (< 2 yıl, özerk): dönem AÇILMADI. Ay hassasiyeti (gün yok; ay başı çevrildi, ZZTJ 265 ayı '八月' sonrası yazar — kesin değil).",
+    "kaynak": "Zizhi tongjian 265 (Tianyou 2) — https://zh.wikisource.org/wiki/資治通鑑/卷265 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "處州刺史盧約使其弟佶攻陷溫州，張惠奔福州"
+   },
+   {
+    "t": "0907-05-26",
+    "gun": "Kaiping 1 (907), 4. ay 戊午",
+    "k": "fetih",
+    "b": "Qian Chuanguan (Qian Liu'nun oğlu) Angu'dan (安固) gizlice Wenzhou'ya yürür; '戊午，溫州潰，擒佶斬之' ve Wu Zhang Wenzhou zhishi'si olur (ZZTJ 266; Wuyue beishi 2 '夏四月戊午，克溫州，斬盧佶而還'). Gün Zhu Wen'in tahta çıkışından (甲子 = 907-06-01) 6 gün önce. Çift teyit: ZZTJ 266 + Wuyue beishi 2 (aynı 戊午 günü). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Zizhi tongjian 266 (Kaiping 1) — https://zh.wikisource.org/wiki/資治通鑑/卷266 ; Wuyue beishi 2 (吳越備史/卷2, 丁卯 4. ay) — https://zh.wikisource.org/wiki/吳越備史/卷2 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "夏四月戊午，克溫州，斬盧佶而還"
+   },
+   {
+    "t": "0907-06-01",
+    "gun": "Kaiping 1 (907), 4. ay 甲子",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wuyue (Zhu Wen/Liang Taizu tahta çıkar; Qian Liu 'Wuyue Wang'). Wenzhou 6 gün önce Qian Chuanguan tarafından alınmıştı (aşağıdaki olay).",
+    "kaynak": "Xin Wudai shi 67 — https://zh.wikisource.org/wiki/新五代史/卷67 ; Xin Wudai shi 2 (新五代史/卷02) — https://zh.wikisource.org/wiki/新五代史/卷02 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (katalog xian 0907-06-01 ile aynı gün)",
+    "tanik": "梁太祖即位，封鏐吳越王兼淮南節度使"
+   },
+   {
+    "t": "0978-06-11",
+    "gun": "Taiping Xingguo 3 (978), 5. ay 丁亥",
+    "k": "antlasma",
+    "b": "Wuyue kralı Qian Chu Liang-Zhe'yi (13 eyalet; Wenzhou dahil) Song'a sunar; Wenzhou '降為軍事' (Song Shi 88). Fuzhou/Hangzhou kayıtlarıyla aynı sınır günü.",
+    "kaynak": "Song Shi 4 (Tai zong) https://zh.wikisource.org/wiki/宋史/卷4 ; Sinica sinocal, Jülyen",
+    "tanik": "丁亥，封錢俶為淮海國王"
+   },
+   {
+    "t": "1129-01-01",
+    "gun": "Jianyan 3 (1129)",
+    "k": "idari",
+    "b": "Wenzhou'nun Yingdao jun (1117) unvanı kaldırılır ('建炎三年，罷軍額'); Gaozong 1130 başında Wenzhou-Taizhou'ya kaçarken Wenzhou'ya uğrar (Song Shi 25-26). Sahip değişmez.",
+    "kaynak": "Song Shi 88 (Dili zhi) — https://zh.wikisource.org/wiki/宋史/卷088",
+    "tanik": "建炎三年，罷軍額"
+   },
+   {
+    "t": "1265-01-01",
+    "gun": "Xianchun 1 (1265)",
+    "k": "idari",
+    "b": "Wenzhou, Duzong'un (veliaht iken) eski sarayı olduğu için Rui'an fu (Song Shi 88'de '里安府' yazım) yapılır. Sahip değişmez.",
+    "kaynak": "Song Shi 88 (Dili zhi) — https://zh.wikisource.org/wiki/宋史/卷088",
+    "tanik": "以度宗潛邸"
+   },
+   {
+    "t": "1276-01-01",
+    "gun": "Deyou 2 (1276), Lin'an'ın düşmesinden sonra",
+    "k": "diger",
+    "b": "Yuan Lin'an'a girince Yi Wang (Zhao Shi) ve Guang Wang (Zhao Bing) Wuzhou'dan Wenzhou'ya kaçar; Chen Yizhong ve Zhang Shijie Jiangxin Tapınağı'nda (Wenzhou, Song Gaozong'un 1130'da kaldığı yer) toplanır, Shi '天下兵馬都元帥' ilan edilir (Song Shi 47); Song Wenzhou'yu bu aylarda tutar. Kaynak ay vermez (Deyou 2, 3-5. ay) — yıl hassasiyeti.",
+    "kaynak": "Song Shi 47 (Er wang fu) — https://zh.wikisource.org/wiki/宋史/卷047",
+    "tanik": "世傑亦以所部兵來溫之江心寺"
+   },
+   {
+    "t": "1276-11-08",
+    "gun": "Zhiyuan 13 (1276) güzü (7-9. ay) — 10. ay başı en geç uç",
+    "k": "fetih",
+    "b": "Yuan yüksek komutanları (Salman, Temür, Zhang Hongfan, Huaidu) Wenzhou ve Fujian'a yürür; '所至州郡迎降' (Yuan Shi 131). Gün/ay yok: 'güz' sezonu — dönem sınırı sezonun SON ucu (1276-11-08, 10. ay başı). Yuan Shi 9: 12. ayda '瑞安府仍為溫州' (Yuan idaresinde ad geri verilir). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (LiaoJinYuan bölgesi).",
+    "kaynak": "Yuan Shi 131 (Huaidu zhuan) — https://zh.wikisource.org/wiki/元史/卷131 ; Yuan Shi 62 (Wenzhou lu) — https://zh.wikisource.org/wiki/元史/卷062 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (LiaoJinYuan bölgesi)",
+    "tanik": "十三年秋，同元帥撒里蠻、帖木兒、張弘範徇溫州、福建，所至州郡迎降"
+   },
+   {
+    "t": "1277-02-04",
+    "gun": "Zhiyuan 13 (Çin yılı 1276), 12. ay 庚寅 = 1277-02-04",
+    "k": "idari",
+    "b": "Yuan Shizu fermanı: '瑞安府仍為溫州' (Rui'an fu adı Wenzhou'ya döner), Zhedong xuanweishi kurulur. Wenzhou Yuan idaresindedir (en geç tanık). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (LiaoJinYuan bölgesi).",
+    "kaynak": "Yuan Shi 9 (Shizu ji) — https://zh.wikisource.org/wiki/元史/卷009 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (LiaoJinYuan bölgesi)",
+    "tanik": "瑞安府仍為溫州"
+   }
+  ],
+  "ic_not": "Wenzhou (atlas_ad 'Wenzhou', kat1900 3; atlas ilk gün 1281-01-01 yuan-hanedani). ① YER: atlas noktası (27.994, 120.699) Wenzhou eski şehridir (Lucheng). Yuanhe junxian tuzhi 26 (Tang, 813): Wenzhou şehri Yongjia ilçesinde, 'Huagai Dağı şehrin 1 li doğusu, Yongjia (=Yongning) nehri 3 li doğusu'; Tang 675'te ilçe merkezi 'şehrin 180 adım doğusuna taşınır' — atlas noktası bu şehrin içinde (≤3 km, kesin değil: koordinat kaynaktan ölçülmedi). ② ZİNCİR BAŞI = 138-01-01 (Yongning ilçesinin kuruluşu, YIL hassasiyeti): Song Shu 35 'Han Shundi Yongjian 4 (129) Zhang'an'ın Dong'ou kasabasından ayrılarak kuruldu, ya da Yonghe 3 (138)' — iki tarih çelişir, güvenli uç (geç) 138 alındı; Taiping huanyu ji 99 'Yonghe 3' der. Yer eşitlemesi (Yongning = Yongjia = Tang Wenzhou): Yuanhe zhi 26 (Tang, çağdaş sayılabilecek en erken) + Taiping huanyu ji 99. Daha eski ELENEN aday: Dong'ou krallığı (MÖ 192, Hui Di 3, Shiji 114 '都東甌'; Shiji sanjia zhu: Jijie Xu Guang 'bugünkü Yongning', Suoyin Yongjia ji 'nehir şehrin 5 li yakınında, Dong'ou Wang burada kurulmuştu'; Yuanhe zhi 26 'Dong'ou başkenti bugünkü Wenzhou Yongjia ilçesidir') — ilçe düzeyinde eşitleme, başkentin tam yeri bulunamadı ⇒ başlangıç sayılmadı; MÖ 138'de Dong'ou halkı Jiang-Huai'ye göç eder (Shiji 114 / Taiping huanyu ji 99), sonra yer Hui Pu ilçesi. Karar Emre'nindir (kunye_yok dongou-krallik önerisi: Min-Yue/Dong'ou, Hui Di 3 = MÖ 192 – MÖ 138). ③ ZİNCİR ÖZETİ: Doğu Han (138; 129 alternatif) → Sun Wu (220-11-25) → Batı Jin (280) → Doğu Jin (316; 323 Yongjia jun kurulur, Jin Shu 15 + Song Shu 35) → Liu Song → Güney Qi → Liang → Chen → Sui (589-02-02; Yongning → Yongjia ilçesi) → 618-06-18 BOŞLUK (622'ye dek) → Tang (622 Dongjia zhou, 623 Fu Gongzhi'ye direniş, 675 Wenzhou adı, 905 Lu Xin, 907-05-26 Qian Chuanguan) → Wu Zhou (690) → Tang (705) → Wuyue (907-06-01) → Song (978-06-11; 1265 Rui'an fu; 1276 Song sürgün sarayı) → Yuan (1276-11-08, güz sezonunun sonu) → 1281-01-01. ④ ÇELİŞKİ/NOT: (a) Yongning kuruluşu 129 vs 138 (Song Shu 35). (b) Wenzhou kuruluşu: Jiu Tang Shu 40 ve Taiping huanyu ji 99 'Shangyuan 2' (675), Yuanhe zhi 26 'Shangyuan 1' (674) — Jiu Tang esas. (c) Yuan'ın Wenzhou'yu alışı: Yuan Shi 131 yalnız '十三年秋' yazar; Song Shi 47 sürgün sarayının Wenzhou'da toplanışını yıl düzeyinde yazar; Yuan Shi 9 Wenzhou adının 12. ay 庚寅'de (Çin yılı 1276 = 1277-02-04) geri verildiğini yazar. f = güz sonu (1276-11-08, en geç tanık Yuan Shi 131) alındı; Song bu güne dek uzatıldı — gerçek geçiş 7-9. ay arasında olmuş olabilir. Song Shi 47 'Wenzhou → Li'an fu' (景炎元年) yazımı Song Shi 88'de 'Rui'an fu' ile '里安' yazılır; metin kaynaklarında '里/瑞' karışıklığı (wikisource dönüştürme) not edildi. (d) Zhu Bao hanedanı 881'den sonra Wenzhou'yu tutar (Wuyue beishi 1 'Zhu Bao Yongjia'lı, Liu Hanhong adına 州事'), 901-904 yerel hâkimler — formel Tang. ⑤ KÜNYE ÖNERİLERİ: dongou-krallik (isteğe bağlı); GENİŞLET/KISALT uyarıları: dogu-han t=0220-01-01 < 220-11-25; sun-wu f=222 > 220-11-25 (hayalet); tang t=907-01-01 < 907-06-01; wuyue t=978-01-01 < 978-06-11; bati-jin/dogu-jin/liu-song/guney-qi/liang-guney/chen/sui/wu-zhou bitişleri 1 Ocak yuvarlaması (toplu GENİŞLET, Suzhou/Fuzhou kayıtlarıyla aynı sınıf). ⑥ AYRI KAYIT ÖNERİLERİ: Dong'ou başkenti (MÖ 192; Shiji sanjia zhu: Yongjia ji 'Dong'ou nehri Yongning Dağı'ndan çıkar, 30 küsur li akıp şehrin 5 li yakınında ırmağa karışır, eskiden Dong'ou Wang burada başkent idi') — yer ilçe düzeyinde; mesafe/ yer kesin değil; Sui Yongjia jun'u (merkez Kuozhou = bugünkü Lishui, Wenzhou'dan ayrı, kesin değil — Sui Shu 31 'Kuocang', Zhejiang tongzhi); Tang başı Dongjia zhou merkezi Wenzhou ile aynı ilçe. ⑦ BULUNAMADI: Guo Pu'nun şehri kurması (Ming Wenzhou fuzhi 'Taining 1' anlatısı — birincil/Song öncesi kaynak bulunamadı, kullanılmadı); Dong'ou başkent koordinatı ve arkeolojik kazı raporu (aranmadı/bulunamadı); 618-622 fiili sahip; Yuan'ın Wenzhou'ya girdiği gün; çift teyit: YALNIZ 907-05-26 Qian Chuanguan Wenzhou'yu alış günü (ZZTJ 266 + Wuyue beishi 2 aynı 戊午 günü, ama Wuyue beishi ZZTJ'nin kaynaklarından biri olabilir — bağımsızlığı doğrulanmadı)."
+ },
+ {
   "id": "wuchang-cin",
   "ad": "Wuchang (Wuhan)",
   "atlas_ad": "Wuchang (Wuhan)",
@@ -16238,6 +19891,153 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "AD VE NOKTA: atlas 'Wuchang (Wuhan)' (30.5657, 114.3337) modern Wuhan'ın Wuchang ilçesidir — Yangtze'nin GÜNEY/DOĞU kıyısı, Huanghe (Yılan/Snake) Dağı ve Parrot Adası'nın karşısı; atlas 1281-01-01'de yuan-hanedani ile başlar. MESAFE (hesap, kaynak değil): noktanın Huanghe Kulesi'ne (30.5445, 114.3079) uzaklığı ≈ 3.4 km — kendi tanım sınırına ('3 km') kıl payı dışarıda; Tang-Song-Ming Ezhou/Wuchang şehri (çevre ~20 li) bu noktayı içine alacak büyüklükte ama Wu'nun 223 kalesi Huanghe Dağı çevresindedir; bu yüzden ilk tanığın yeri tam çakışma değil, 'şehir çevresi' eşitlemesidir. 'Yeri kesin olmayan ad eşitlemesi' kuralına göre bu belirsizlik BEYAN: Yuanhe junxian tuzhi 27 (Tang) Ezhou şehrini Wu'nun 223 şehriyle açıkça eşler; Shuijing zhu 35 (Wei) Xiakou'yu Huanghe Dağı'nın kuzeydoğusunda, karşı kıyıda Han ağzı olan yerde tanımlar; Song Shu 35 ve Nan Qi shu 15 Jiangxia komutanlığı/Yingzhou'yu Xiakou'ya koyar ve Xiakou'nun Lushan kıyısının karşısında olduğunu yazar (Lushan = Hanyang yakası, kuzey kıyı) ⇒ Xiakou/Yingcheng güney kıyıdadır. Wuhan'ın üç yakası: Wuchang (bu kayıt) + Hanyang (Guishan/Lushan; Wu'nun Jiangxia jun-i 'Lu Huan' şehri, Yuehan/Yanyue Wei, Tang Mianzhou 621-833) + Hankou (Han ağzının kuzey kıyısı; Wei Huangzu 'Xiakou' çevresi/ Yangluo): hepsi AYRI kayıt gerektirir (3 km kuralı: Guishan ≈ 6.5 km, Hankou eski kent ≈ 4.5 km). Antik yer ÖNERİLERİ (>3 km, ayrı kayıt): (a) Ezhou (Hubei; Sun Quan 221-229 başkenti 'Wuchang' = bugünkü Ezhou, 30.39/114.89, ≈ 62 km — Sanguozhi 47 '鄂'tan Wuchang yapıldı'; atlas Ezhou ile karıştırılmamalı), (b) Lushan/Hanyang kalesi (Wu 223-280 'Jiangxia jun' merkezi, Shuijing zhu 35 'Lu dağı üstündeki Wu Jiangxia valisi Lu Huan şehri'), (c) Pan Long Cheng (Shang kenti, 30.71/114.26, ≈ 16 km). KAYNAK ÇELİŞKİLERİ: ilk anılış 221 (Shuijing zhu) / 223 (Sanguozhi, Yuanhe); Qi→Liang iade 555-07 (ZZTJ) / 555-10 (Bei Qi shu); Yuan teslimi 1275-01-15 (Yuan shi 8) / 1275-01-16 (Yuan shi 127). ATLAS ÖNERİLERİ: (1) künye aşımları: sun-wu t (+4 ay), bati-jin t (+15 ay), dogu-jin t (+6.5 ay), liu-song t (+5 ay), guney-qi t (+4 ay), liang-guney t (+10.5 ay), chen t (+7 hf), wu-zhou t (+2 ay), sui t (+5.5 ay), yang-wu t (+10 ay), guney-tang t (+1 yıl) — hepsi aynı polity ⇒ GENİŞLET; (2) liang-wang-lin-xiao-zhuang (Wang Lin'in Liang devamı, 557-11 – 560-04), xiao-xian-liang (617-10 – 621-10) künyeleri açılmalı; (3) atlas başlangıcı: Wuchang 1281-01-01'de yuan ile başlar — şehir kaynaklı olarak 223'ten beri vardır, atlas başlangıcı düzeltilmeli (yuan 1275-01-16'dan beri sahip); ark=null (Wuchang kent çekirdeğine ait yayımlanmış kazı raporu bulunamadı: WebSearch yalnızca popüler özetler verdi; Hubei Wenwu Kaogu Yanjiusuo Wuchang gucheng raporu ve CNKI makalesi açılamadı). BULUNAMADI/TARANMADI: Han dönemi Sha Xian ilçesinin yeri; 4.-5. yy Jin-Song içi isyanlar (Wang Dun 322-324, Huan Xuan 403-404, Liu Yixuan 454?, 477 Shen Youzhi kuşatması) Wuchang yakası için ayrıca alıntılanmadı; Chen 568 Hua Jiao isyanı yalnız not; 617-621 sahibi; Ezhou'nun Song'a teslim günü; 878-880 Huang Chao; 905-937 Yang Wu içindeki el değiştirmeler; Song'un 1129-1130 Jin baskınlarında Ezhou durumu; Yue Fei 1134-1141 Ezhou'da. Wikisource 'sayfa(…)' çıktılarında şablonlar ayıklanmıştır; Çince birincil metin alıntıları insa.kontrol ile sayfada doğrulandı."
  },
  {
+  "id": "wuhu-cin",
+  "ad": "Wuhu",
+  "atlas_ad": "Wuhu",
+  "lat": 31.326,
+  "lon": 118.376,
+  "kat1900": 3,
+  "adlar": [
+   "Jiuzi / 鳩茲 (Chunqiu Wu kasabası; Du Yu: '吳邑，在丹陽蕪湖縣東' — bu noktada DEĞİL, ayrı kayıt önerisi)",
+   "Wuhu / 蕪湖 (Han ilçesi, Danyang jun; Hanshu 28上; ilçe merkezinin bu noktada olduğu KANITLANMADI — ayrı kayıt önerisi)",
+   "Wuhu zhen / 蕪湖鎮 (Tang Wude'den beri Gushu'ya bağlı kasaba; Taiping huanyu ji 105; bu noktada ilk dönemlenebilir yazılı tanık Tianfu 3 = 903)",
+   "Wuhu xian / 蕪湖縣 (Tang sonu / Güney Tang yeniden kurar: ZZTJ 264 Hu Sanxing notu, Taiping huanyu ji 105, Shiguo chunqiu 111)",
+   "Taiping zhou (Song Taiping Xingguo 2 = 977), Taiping lu (Yuan Zhiyuan 14 = 1277) ilçesi (Song Shi 88; Yuan Shi 62)"
+  ],
+  "ilk": {
+   "t": "0903-09-24",
+   "gun": "Tianfu 3 (903), 9. ay",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Zizhi tongjian 264 (Sima Guang, Song), zh.wikisource — https://zh.wikisource.org/wiki/資治通鑑/卷264",
+   "tanik": "以精兵二萬及王壇、汪建水軍屯蕪湖",
+   "ic_not": "İLK ANILIŞ (bu noktada yeri-kesin ilk yazılı tanık): Tian Jun (Tang Ningguo jun jiedushi, Xuanzhou) Yang Xingmi'nin generali Tai Meng'e karşı yürürken '留其將郭行頵以精兵二萬及王壇、汪建水軍屯蕪湖' — Wuhu Yangtze kıyısında nehir filosu üssü. Ay hassasiyeti: ZZTJ 264 olayı 9. ay ile 10. ay 戊辰 arasına koyar (ay başı çevrildi). Daha eski 'Wuhu' tanıkları (Hanshu 28上 Danyang jun ilçesi '蕪湖'; Song Shu 35 '蕪湖縣，漢舊縣'; Jin Shu 15 Ning-kang '僑立上黨郡為四縣，寄居蕪湖'; Taiping huanyu ji 105 '晉為重鎮') bu noktada DEĞİL ya da bu noktada olduğu kanıtlanamıyor: ZZTJ 264 Hu Sanxing notu '隋廢襄垣入當塗，至唐蕪湖之地入當塗、太平二縣界，唐末始復置蕪湖縣'; Taiping huanyu ji 105: '陳平縣廢，地入當塗；自唐武德以來為鎮，隸姑孰；偽唐割宣城、當塗二縣復置'; Qing Yitongzhi 84 (ikincil): '府志: 有故城在今縣東三十里，或謂之于湖城'; Chunqiu dikao lue (Qing): Jiuzi '今蕪湖縣東四十里有鳩茲港' ⇒ antik Wuhu ilçesi ve Jiuzi bu noktadan > 3 km (kesin değil). Bu yüzden modern nokta ilk dönemlenebilir tanığından başlar; antik yerler ayrı kayıt önerisi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0903-09-24",
+    "t": "0903-10-23",
+    "d": "tang",
+    "kesinlik": "ay",
+    "kaynak": "Zizhi tongjian 264 (Tianfu 3) — https://zh.wikisource.org/wiki/資治通鑑/卷264 ; Xin Tang Shu 189 (Tian Jun zhuan) — https://zh.wikisource.org/wiki/新唐書/卷189",
+    "ic_not": "Formel Tang: Wuhu garnizonu Tian Jun'un (Tang Ningguo jun jiedushi, Qian Liu müttefiki, Yang Xingmi'ye karşı) elindedir. Fiilen yerel özerk; dönem 1 ay (ay hassasiyeti). Künye tang t=907-01-01 > dönem t: hayalet yok.",
+    "tanik": "以精兵二萬及王壇、汪建水軍屯蕪湖"
+   },
+   {
+    "f": "0903-10-23",
+    "t": "0937-11-10",
+    "d": "yang-wu",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Zizhi tongjian 264 (Tianfu 3, 10. ay) — https://zh.wikisource.org/wiki/資治通鑑/卷264 ; Lu You Nan Tang Shu (Yang Wu bölümü) ile uyumlu — https://zh.wikisource.org/wiki/資治通鑑/卷264",
+    "ic_not": "Yang Wu (Yang Xingmi; Tang unvanlı 'Wu Wang', künye f=902). f = 903-10 ay başı: Tian Jun'un 戊辰 yenilgisinden sonra Wuhu garnizon komutanları Guo Xingzong, Wang Tan, Wang Jian '皆帥其眾降' (gün yok; ay hassasiyeti, ay başı çevrildi — gerçek gün 10. ayın içinde, ay başından geç olabilir). Künye yang-wu t=0937-01-01 < 937-11-10: GENİŞLET önerisi.",
+    "tanik": "郭行悰、王壇、汪建及當塗、廣德諸戍皆帥其眾降"
+   },
+   {
+    "f": "0937-11-10",
+    "t": "0974-12-04",
+    "d": "guney-tang",
+    "kesinlik": "gun",
+    "kaynak": "Taiping huanyu ji 105 (偽唐割宣城當塗二縣復置) — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷105 ; Shiguo chunqiu 111 (南唐析當塗縣置) — https://zh.wikisource.org/wiki/十國春秋/卷111",
+    "ic_not": "Güney Tang: Wuhu ilçesi (Tang sonu / Güney Tang'da yeniden kurulur; yıl bulunamadı) Shengzhou/Jiangning fu'ya bağlanır (Lu You Nan Tang Shu '昇 … 并置蕪湖銅陵繁昌來屬'). Künye guney-tang t=0975-01-01 > dönem t=974-12-04: hayalet yok.",
+    "tanik": "南唐析當塗縣置"
+   },
+   {
+    "f": "0974-12-04",
+    "t": "1275-03-21",
+    "d": "song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shi 3 (Taizu ji, Kaibao 7) — https://zh.wikisource.org/wiki/宋史/卷003 ; Song Shi 88 (Dili zhi: Taiping zhou) — https://zh.wikisource.org/wiki/宋史/卷088",
+    "ic_not": "Song. Kaibao 7 (974) 閏10. ay 壬戌 Cao Bin Wuhu ve Dangtu ilçelerini alır (Song Shi 3, Song Shi 258 Cao Bin zhuan'da aynı olay). Song Shi 88: '開寶末，自建康軍與繁昌同隸宣州'; Taiping Xingguo 2 (977) Taiping zhou. Güney Tang'ın başkenti Jinling 975-76'da düşer (katalog nanking 0976-01-01) — Wuhu ondan ~1 yıl önce Song'a geçer. Dönem sonu 1275-03-21 Yuan Shi 8.",
+    "tanik": "壬戌，彬等拔蕪湖、當塗兩縣，駐軍采石"
+   },
+   {
+    "f": "1275-03-21",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Yuan Shi 8 (Shizu ji, Zhiyuan 12) — https://zh.wikisource.org/wiki/元史/卷008 ; Song Shi 47 (Gong di ji, Deyou 1) — https://zh.wikisource.org/wiki/宋史/卷047 ; Yuan Shi 62 (Taiping lu) — https://zh.wikisource.org/wiki/元史/卷062",
+    "ic_not": "Yuan; atlasın ilk sahibi (yuan-hanedani, 1281-01-01) ile aynı — dikişte olay gerekmez. Yuan Shi 8: 甲子 Bayan Wuhu ilçesine varır, Song Jiangdong yunpan'ı ve Taiping zhou vali Meng Zhijin şehri teslim eder. Çift teyit (bkz. ic_not).",
+    "tanik": "甲子，大軍次蕪湖縣，宋江東運判、知太平州孟之縉以城降"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0903-09-24",
+    "gun": "Tianfu 3 (903), 9. ay",
+    "k": "diger",
+    "b": "Tian Jun, Tai Meng ordusuna karşı yürürken Wuhu'da nehir donanması ve 20 bin elit askerle bir garnizon bırakır (Guo Xingzong, Wang Tan, Wang Jian). Wuhu'nun bu noktada yazılı ilk anılışı. Ay hassasiyeti (ay başı çevrildi). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Zizhi tongjian 264 (Tianfu 3) — https://zh.wikisource.org/wiki/資治通鑑/卷264 ; Xin Tang Shu 189 (Tian Jun zhuan: '還至蕪湖') — https://zh.wikisource.org/wiki/新唐書/卷189 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "以精兵二萬及王壇、汪建水軍屯蕪湖"
+   },
+   {
+    "t": "0903-10-23",
+    "gun": "Tianfu 3 (903), 10. ay",
+    "k": "fetih",
+    "b": "Tai Meng 戊辰 Guangde'de Tian Jun'u yener, Huangchi'de pusuya düşürür; Tian Jun Xuanzhou'ya kaçınca Wuhu'dan yardım ister ama giremez; Wuhu garnizon komutanları Guo Xingzong, Wang Tan ve Wang Jian Dangtu ve Guangde garnizonlarıyla birlikte Yang Xingmi'ye teslim olur. Gün yok — ay hassasiyeti (ay başı çevrildi). Wuhu Yang Wu'ya geçer. Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Zizhi tongjian 264 (Tianfu 3) — https://zh.wikisource.org/wiki/資治通鑑/卷264 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "郭行悰、王壇、汪建及當塗、廣德諸戍皆帥其眾降"
+   },
+   {
+    "t": "0903-12-30",
+    "gun": "Tianfu 3 (903), 12. ay 乙亥",
+    "k": "savas",
+    "b": "Tian Jun Xuanzhou'da sorti yapar, yenilir ve atından düşüp öldürülür; Tai Meng Xuanzhou'yu alır (ZZTJ 264). Wuhu zaten 10. ayda Yang Wu'ya geçmişti. Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen.",
+    "kaynak": "Zizhi tongjian 264 — https://zh.wikisource.org/wiki/資治通鑑/卷264 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "十二月，乙亥，田頵帥死士數百出戰"
+   },
+   {
+    "t": "0937-11-10",
+    "gun": "10 Kasım 937",
+    "k": "diger",
+    "b": "künye geçişi: Yang Wu → Güney Tang (Xu Zhigao Jinling'de imparator olur, ülke adı 'Tang'). Wuhu'ya özgü kayıt yok (ulusal); Wuhu ilçesi Güney Tang'da yeniden kurulur (Taiping huanyu ji 105, Shiguo chunqiu 111) — kuruluş yılı bulunamadı.",
+    "kaynak": "資治通鑑 卷281 (Sima Guang, 1084), https://zh.wikisource.org/wiki/資治通鑑/卷281",
+    "tanik": "齊王誥即皇帝位於金陵，大赦，改元升元，國號唐"
+   },
+   {
+    "t": "0974-12-04",
+    "gun": "Kaibao 7 (974), 閏10. ay 壬戌",
+    "k": "fetih",
+    "b": "Song generali Cao Bin Chizhou'yu (閏月 己酉), Tongling'de Jiangnan ordusunu (丁巳) yener ve '拔蕪湖、當塗兩縣' (壬戌), Caishi'de (Maanshan) konuşlanır, 丁卯 Caishi'de Jiangnan ordusunu bozar ve yüzer köprü kurar (Song Shi 3). Güney Tang'ın sonu 975-76'ya dek sürer. Song Shi 258 (Cao Bin zhuan) aynı olayı yazar (aynı derlemenin başka bölümü — bağımsız teyit sayılmadı). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (Song takvimi, 'default' bölge).",
+    "kaynak": "Song Shi 3 (Taizu ji) — https://zh.wikisource.org/wiki/宋史/卷003 ; Song Shi 258 (Cao Bin zhuan) — https://zh.wikisource.org/wiki/宋史/卷258 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (default bölge)",
+    "tanik": "壬戌，彬等拔蕪湖、當塗兩縣，駐軍采石"
+   },
+   {
+    "t": "0977-01-01",
+    "gun": "Taiping Xingguo 2 (977)",
+    "k": "idari",
+    "b": "Wuhu ilçesi Taiping zhou'ya bağlanır (Taiping huanyu ji 105: '太平興國二年升為太平州，割當塗蕪湖繁昌三縣隸焉'); Song Shi 88: '太平興國三年，與繁昌復來隸' (978'de yeniden). Sahip (song) değişmez. Çelişki: 977 (Taiping huanyu ji) / 978 (Song Shi) — güvenli uç 977 ilk anılış, beyan.",
+    "kaynak": "Taiping huanyu ji 105 — https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷105 ; Song Shi 88 (Dili zhi) — https://zh.wikisource.org/wiki/宋史/卷088",
+    "tanik": "太平興國二年升為太平州割當塗蕪湖繁昌三縣"
+   },
+   {
+    "t": "1275-03-21",
+    "gun": "Zhiyuan 12 (1275), 2. ay 甲子",
+    "k": "fetih",
+    "b": "Bayan Yangtze boyunca ilerleyip Wuhu ilçesine varır; Song Jiangdong yunpan'ı ve Taiping zhou valisi Meng Zhijin şehri teslim eder (Yuan Shi 8, 甲子). Song Shi 47 aynı teslimi ('知太平州孟之縉皆以城降') Song takvimiyle 2. ay 戊辰 (4 gün sonra, haber günü) yazar. 'Çift teyit': Yuan Shi 8 + Song Shi 47 (bağımsız iki derleme, gün farkı beyan). Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (LiaoJinYuan bölgesi).",
+    "kaynak": "Yuan Shi 8 (Shizu ji) — https://zh.wikisource.org/wiki/元史/卷008 ; Song Shi 47 (Gong di ji, Deyou 1) — https://zh.wikisource.org/wiki/宋史/卷047 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar Jülyen (LiaoJinYuan bölgesi)",
+    "tanik": "甲子，大軍次蕪湖縣，宋江東運判、知太平州孟之縉以城降"
+   },
+   {
+    "t": "1277-01-01",
+    "gun": "Zhiyuan 14 (1277)",
+    "k": "idari",
+    "b": "Taiping zhou 'Taiping lu'ya yükseltilir; Wuhu ('中') Taiping lu'nun üç ilçesinden biridir (Yuan Shi 62). Sahip (yuan-hanedani) değişmez.",
+    "kaynak": "Yuan Shi 62 (Dili zhi) — https://zh.wikisource.org/wiki/元史/卷062",
+    "tanik": "宋為太平州。至元十四年，升為太平路"
+   }
+  ],
+  "ic_not": "Wuhu (atlas_ad 'Wuhu', kat1900 3 [1900 listesinde adı yok → 3]; atlas ilk gün 1281-01-01 yuan-hanedani). ① YER VE BAŞLANGIÇ: atlas noktası (31.326, 118.376) Wuhu şehridir (Yangtze ile Qingyi nehri ağzı). Bu noktada yeri-kesin ilk yazılı tanık ZZTJ 264 (Tianfu 3 = 903, 9. ay): Tian Jun Wuhu'da 20 bin askerli garnizon bırakır — ay hassasiyeti. ELENEN ANTİK ADAYLAR (3 km kuralı, KESİN DEĞİL, ayrı kayıt önerileri): (a) Jiuzi / 鳩茲 (Zuozhuan Xiang 3 = MÖ 570 'Chu Zi Zhong Wu'yu yener, Jiuzi'yi alır' — Du Yu notu 'Wu kasabası, Danyang Wuhu ilçesinin doğusunda'; Chunqiu dikao lue (Qing) 'bugünkü Wuhu ilçesinin 40 li doğusunda Jiuzi limanı'; Song Taiping huanyu ji 105 'Wuhu uzunluğu 7 li, Jiuzi bunun içinde (高臯夾)' — yaklaşık 20 km doğu, kesin değil); (b) Han Wuhu ilçesi (Hanshu 28上 Danyang jun 17 ilçeden biri, '蕪湖'; Song Shu 35 '蕪湖縣，漢舊縣'; Taishi Ci'nin Wuhu dağlarına kaçışı (Sanguozhi'ye atfen Qing Yitongzhi 84; sayfa açılmadı); Jin Shu 15 Ningkang (373-375) '寄居蕪湖' Shangdang mültecileri) — ZZTJ 264 Hu Sanxing notu: 'Sui Xiangyuan ilçesini Dangtu'ya katar; Tang'da Wuhu yeri Dangtu ve Taiping ilçelerine bölünür; Tang sonunda yeniden kurulur'; Taiping huanyu ji 105: 'Chen ilçeyi kaldırır, toprak Dangtu'ya; Tang Wude'den beri kasaba (鎮), Gushu'ya bağlı; Güney Tang Xuancheng ve Dangtu'dan parça keserek yeniden kurar'; Daqing yitongzhi 84 (ikincil): Han ilçe merkezi 'bugünkü ilçenin 30 li doğusunda, yer adı Yuhu (于湖) şehri' ⇒ Han/Wu/Jin Wuhu'nun bugünkü noktayla aynı olduğu KANITLANAMIYOR; (c) Jin 'Xiangyuan' (襄垣) ilçesi Wuhu'ya iskân (Song Shu 35). ② ZİNCİR: 903-09 Tang (nominal, Tian Jun'un Ningguo jun'u) → 903-10 Yang Wu (Wuhu garnizon komutanlarının Yang Xingmi'ye teslimi) → 937-11-10 Güney Tang → 974-12-04 Song (Song Shi 3 Kaibao 7 閏10. ay 壬戌, Cao Bin) → 1275-03-21 Yuan (Yuan Shi 8 Zhiyuan 12, 2. ay 甲子) → 1281-01-01. ③ ÇİFT TEYİT: yalnız Yuan geçişi (Yuan Shi 8 + Song Shi 47: aynı olayı iki farklı derleme yazar; 甲子 = 1275-03-21 vs Song takvimi 戊辰 = 1275-03-25, gün farkı beyan). Song Shi 3 ve Song Shi 258 (Cao Bin zhuan) aynı derlemedir — çift teyit sayılmadı. ④ KÜNYE UYARILARI (GENİŞLET/KISALT): yang-wu t=0937-01-01 < 937-11-10 (GENİŞLET); guney-tang t=0975-01-01 ≥ 974-12-04 (hayalet yok, ama Song dönemi Jinling'in düşüşünden ~1 yıl önce başlar: Wuhu'nun Song'a geçişi Güney Tang'ın kendisinin bitişinden önce — künye 975 ile çelişmez); tang dönemi 903'te künye ömrü içinde. ⑤ ATLAS: atlas başlangıcı 1281-01-01 yuan-hanedani ile uyumlu (Yuan 1275-03-21'den beri), ama atlasın Wuhu'yu 1281'den başlatması kaynakla çelişir: yazılı tanık 903 (ay), Song/Güney Tang/Yang Wu sahipleri 903-1275 boyunca belgelenmiş — atlas başlangıcı geriye çekilmeli (aktarım ayrı iştir). ⑥ BULUNAMADI: Wuhu ilçesinin Güney Tang'da (veya Tianyou 904-907'de) yeniden kuruluş yılı (Taiping huanyu ji 105 / Shiguo chunqiu 111 / Lu You Nan Tang Shu ve Hu Sanxing notu 'Tang sonu' der, yıl vermez); 903 öncesi Tang kasabasının (Wude) tarihi; arkeolojik/akademik makale (aranmadı); 937-974 arası Wuhu'ya özgü olay; Song Taiping Xingguo 2 (977) vs 3 (978) çelişkisi (Taiping huanyu ji / Song Shi). Zuozhuan sayfasının kendisi bu oturumda açılmadı (Jiuzi/Du Yu alıntısı Chunqiu dikao lue ikincil kaynağından); ayrı kayıt önerisi 'wuhu-jiuzi-cin' ve 'wuhu-hanxian-cin' (Han Wuhu / Yuhu, kesin değil)."
+ },
+ {
   "id": "wurzburg-de",
   "ad": "Würzburg",
   "atlas_ad": "Würzburg",
@@ -16356,6 +20156,390 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış 704: Treccani EI + Treccani online ('Ricordato per la prima volta nel 704 come castellum Virteburch') — iki Treccani yayını, çift teyit sayılmaz. Vikipedi DE: Thüringen dükü Hedan'ın kalesi (ikinci tanık, kullanılmadı); Würzburg 704-741 egemeni BOŞLUK (çıkarım yazılmadı). Treccani EI 1030 Konrad II ↔ Treccani online 1167 Barbarossa dük hakları (ikisi farklı olgu, çelişki değil). Atlas Würzburg 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "yanan-cin",
+  "ad": "Yan'an",
+  "atlas_ad": "Yan'an",
+  "lat": 36.585,
+  "lon": 109.49,
+  "kat1900": 3,
+  "adlar": [
+   "Gaonu / 高奴 (Qin-Han Shang jun; atlas noktasıyla eşitlemesi KESİN DEĞİL)",
+   "Fushi / 膚施 + Yan'an jun / 延安郡 (Sui 607; Yuanhe zhi: Yanzhou seti)",
+   "Yanzhou / 延州 (Tang)",
+   "Yan'an fu / 延安府 (Song 1089)",
+   "Yan'an lu / 延安路 (Yuan)"
+  ],
+  "ilk": {
+   "t": "0607-01-01",
+   "gun": "Daye 3 (607)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Sui Shu 29 (Dili zhi, Yan'an jun) — https://zh.wikisource.org/wiki/隋書/卷29",
+   "tanik": "膚施大業三年置，及置延安郡",
+   "ic_not": "İlk yeri-kesin yazılı tanık: Sui Daye 3'te Fushi ilçesi ve Yan'an komutanlığı (jun) kuruluşu. Yuanhe junxian zhi 4 (Tang) aynı kuruluşu Daye 2 (606) verir (\"隋煬帝大業二年分豐林金明二縣于此置膚施縣\"): iki kaynak çelişir; Sui Shu (resmî dili zhi) esas alındı, Yuanhe beyan edildi; her iki durumda tanık 1281'den çok önce. Yer: Yuanhe 4: \"膚施縣上郭下\" = Yanzhou seti (州治); Guanzhong shengji tuzhi 23 (Qing): Fushi Sui'de Yan'an jun seti, Tang'da Yanzhou, Song'da Yan'an fu seti, Jin-Yuan-Ming değişmedi. Gu Zuyu (Dushi fangyu jiyao 57): Song Yan'an kenti Ming府治'nin 5 li (~2.9 km) doğusunda — ≤3 km eşiğinde, kesin değil. Gaonu 高奴 (Shiji: Xiang Yu MÖ 206'da Zhai Yi'yi Zhai Wang yapıp başkent yapar; Hanshu 28 Shang jun: 高奴) ve Yuanhe 4 (\"今州理即上郡髙奴縣之城也\") eşitlemesi: Tang'lı bir coğrafyacının ifadesi, Han dönemi yeri için arkeolojik/akademik teyit BULUNAMADI (Gaonu ilçesinin sahası geniş: Yuanhe 4: Linzhen, Jinming, Fenglin, Fuzheng, Yanchang ilçeleri de \"漢髙奴縣地\"); yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. Sui öncesi (Zhou Wu'nin Dongxia zhou 513, Wei Shu 106 dili zhi: 東夏州延昌二年置, seti Guangwu/Pian'cheng) set yeri kesin değil — bulunamadı."
+  },
+  "kur": {
+   "t": "0607-01-01",
+   "gun": "Daye 3 (607)",
+   "kesinlik": "yil",
+   "kaynak": "Sui Shu 29 (隋書/卷29) — https://zh.wikisource.org/wiki/隋書/卷29",
+   "tanik": "膚施大業三年置，及置延安郡"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0607-01-01",
+    "t": "0618-06-18",
+    "d": "sui",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Sui Shu 29 (隋書/卷29) — https://zh.wikisource.org/wiki/隋書/卷29 ; Yuanhe junxian zhi 4 — https://zh.wikisource.org/wiki/元和郡縣志_(四庫全書本)/卷04",
+    "ic_not": "Sui künyesi t=618-01-01 < 618-06-18 (Li Yuan tahta çıkışı): hayalet uyarısı — künye GENİŞLET önerisi: sui.t → 0618-06-18 (xian katalog ile aynı gün). Yuanhe 4: \"隋氏喪亂陷于殘寇武德元年百姓歸化置總管府\" — 617-618 arasında Yan'an'ın Sui elinden fiilen çıkıp \"yağmacı\"lara geçtiği ve Wude 1'de Tang'a bağlandığı söylenir; kimin eli olduğu/ne zaman çıktığı gün olarak BULUNAMADI, bu yüzden dönem Tang kuruluş gününe (618-06-18) kadar uzatıldı (f/t en geç tanıktan değil, künye geçişi günüdür).",
+    "tanik": "膚施大業三年置，及置延安郡"
+   },
+   {
+    "f": "0618-06-18",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 38 (舊唐書/卷38) — https://zh.wikisource.org/wiki/舊唐書/卷38 ; Yuanhe junxian zhi 4 — https://zh.wikisource.org/wiki/元和郡縣志_(四庫全書本)/卷04",
+    "ic_not": "Tang: Wude 1'de Yanzhou zongguanfu (Jiu Tang Shu 38). Tang künyesi t=907-01-01 < 907-06-01 (Zhu Wen tahta çıkışı): hayalet uyarısı — künye GENİŞLET: tang.t → 0907-06-01. Fiilî denetim: 895 sonrası (Wang Xingyu'nun yenilgisi) Hexi/Fang-Yan bölgesi Li Maozhen'in (Qi) elindeydi — Jiu Wudai Shi 132: \"河西自王行瑜敗後，郡邑皆為李茂貞之所強據\"; Li Maozhen Tang unvanıyla (Qi wang) hareket ettiği için Tang sahipliği nominal tutuldu; Yan'an'a özgü fiilî devir günü BULUNAMADI. Tang içi Yan'an olayları (Huang Chao dönemi Baosai jun 中和, An-Shi, Tibet) ayrı yer tanığı bulunamadı.",
+    "tanik": "武德元年，改為延州總管府，領膚施、豐林、延川三縣"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 38 (舊唐書/卷38) — https://zh.wikisource.org/wiki/舊唐書/卷38",
+    "ic_not": "Künye geçişi (Wu Zetian Tang'ı kaldırıp Zhou ilan eder, xian katalogu); toprak el değiştirmez. Yan'an'a özgü tanık bulunamadı."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0907-06-01",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang Shu 38 (舊唐書/卷38) — https://zh.wikisource.org/wiki/舊唐書/卷38 ; Yuanhe junxian zhi 4 — https://zh.wikisource.org/wiki/元和郡縣志_(四庫全書本)/卷04",
+    "ic_not": "Tang'ın yeniden kuruluşu (Zhongzong). Tang künyesi t=907-01-01 < 907-06-01 (Zhu Wen tahta çıkışı): hayalet uyarısı — künye GENİŞLET: tang.t → 0907-06-01. Fiilî denetim: 895 sonrası (Wang Xingyu yenilgisi) Hexi/Fang-Yan bölgesi Li Maozhen'in (Qi) elindeydi — Jiu Wudai Shi 132: \"河西自王行瑜敗後，郡邑皆為李茂貞之所強據\"; Li Maozhen Tang unvanıyla hareket ettiği için Tang sahipliği nominal tutuldu; fiilî devir günü BULUNAMADI. Tang içi Yan'an olayları (Huang Chao dönemi Baosai jun 中和 vb.) için ayrı yer tanığı bulunamadı."
+   },
+   {
+    "f": "0907-06-01",
+    "t": "0909-02-23",
+    "d": "qi-li-maozhen",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Xin Wudai Shi 60 (新五代史/卷60, Zhifang kao) — https://zh.wikisource.org/wiki/新五代史/卷60 ; Jiu Wudai Shi 132 (Gao Wanxing) — https://zh.wikisource.org/wiki/舊五代史/卷132",
+    "ic_not": "Qi (Li Maozhen, Fengxiang merkezli; Tang unvanlı özerk beylik, 907 sonrası da Tang yıl adı Tianyou kullandı): Xin Wudai Shi 60 Zhifang kao tablosu Yanzhou için \"岐忠義\" der; Jiu Wudai Shi 132: Tianyou 5 (908) kışında Hu Jingzhang ölünce Qi'nin Binzhou valisi Yang Chongben (Li Jihui) Liu Wanzi'yi Fu-Yan komutanı yapar; 909 Şubat'ında Gao Wanxing Liang'a geçer. KÜNYE YOK: önerilen id \"qi-li-maozhen\" (ad: Qi / 岐, Li Maozhen'in beyliği; Fengxiang; ömür: kaynakta ayrı aranmadı — bulunamadı); f 907-06-01 Tang'ın bitişine bağlandı (öncesinde de fiilen Li Maozhen, bkz. Tang dönemi ic_not); t = 909-02 ayının başı (kesinlik ay: Jiu Wudai Shi sadece \"六年二月\" der).",
+    "kunye_yok": true,
+    "tanik": "敬璋卒，崇本以其愛將劉萬子為鄜延帥"
+   },
+   {
+    "f": "0909-02-23",
+    "t": "0923-12-31",
+    "d": "sonraki-liang-5hanedan",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Jiu Wudai Shi 132 (舊五代史/卷132) — https://zh.wikisource.org/wiki/舊五代史/卷132 ; Xin Wudai Shi 60 — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Gao Wanxing \"歸款於汴\" (Liang); Liang Fu-Fang-Dan-Yan'ı iki jiedu'ya böler, Wanxing Zhangwu + Baoda yöneticisi olur. Liang künyesi t=923-01-01 < 923-12-31: künye GENİŞLET: sonraki-liang-5hanedan.t → 0923-12-31 (xian katalog günü). Gao ailesi (Wanxing, 923 Dongtang'a bağlı Yunyin'in babası) yarı özerk validir; sahiplik nominal ulusal.",
+    "tanik": "萬興、萬金因會縱兵攻萬子，殺之，歸款於汴"
+   },
+   {
+    "f": "0923-12-31",
+    "t": "0937-01-11",
+    "d": "sonraki-tang-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Wudai Shi 132 (Gao Wanxing: 莊宗定河洛) — https://zh.wikisource.org/wiki/舊五代史/卷132 ; Xin Wudai Shi 60 (Zhifang kao) — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Jiu Wudai Shi 132: Zhuangzong Henan-Luo'yu alınca Wanxing'in \"來朝\" ve eski rütbeyle yeniden Yanzhou'a gönderilmesi; Xin Wudai Shi 60: Yanzhou 梁置忠義軍，唐改曰彰武. Künye t=936-01-01 < 937-01-11: GENİŞLET. f/t xian katalog günleridir (ulusal künye geçişi; Yan'an'a özgü teslim yok).",
+    "tanik": "延州，故屬保大軍節度。梁置忠義軍，唐改曰彰武"
+   },
+   {
+    "f": "0937-01-11",
+    "t": "0947-03-10",
+    "d": "sonraki-jin-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai Shi 60 (新五代史/卷60, Zhifang kao tablosu) — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Ulusal künye geçişi (xian katalogu); Yan'an'a özgü teslim/çatışma tanığı bulunamadı. Künye t=947-01-01 < 947-03-10: GENİŞLET."
+   },
+   {
+    "f": "0947-03-10",
+    "t": "0951-02-13",
+    "d": "sonraki-han-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai Shi 60 (新五代史/卷60, Zhifang kao tablosu) — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Ulusal künye geçişi; Gu Zuyu (Dushi fangyu jiyao 57): Tianfu 10 (Sonraki Han başı, 947) Zhangwu jun askerî isyanı, Gao Yunquan'in \"留後\" seçilmesi — ikincil, birincil metin aranmadı. Künye t=951-01-01 < 951-02-13: GENİŞLET."
+   },
+   {
+    "f": "0951-02-13",
+    "t": "0960-02-04",
+    "d": "sonraki-zhou-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai Shi 60 (新五代史/卷60, Zhifang kao tablosu) — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Ulusal künye geçişi; Yan'an'a özgü tanık bulunamadı. Künye t=960-01-01 < 960-02-04: GENİŞLET."
+   },
+   {
+    "f": "0960-02-04",
+    "t": "1130-10-27",
+    "d": "song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shi 87 (宋史/卷087, Dili zhi: Yan'an fu) — https://zh.wikisource.org/wiki/宋史/卷087 ; Song Shi 26 (宋史/卷026) — https://zh.wikisource.org/wiki/宋史/卷026",
+    "ic_not": "Song: Yanzhou, Yuanyou 4 (1089) Yan'an fu. Song-Xia savaşları (1040 Yanzhou kuşatması vb.) Yan'an'ı elden çıkarmadı (Xia'ya geçtiği tanık BULUNAMADI). Jin Jan 1128'de (Tianhui 6/Jianyan 2, 11. ay) şehri aldı ama Song kısa sürede geri aldı (\"geçici\": olay); kalıcı el değişimi Jianyan 4 (1130) 9. ay: f en geç tanıktan (癸亥 = Fuping savaşı günü; Song Shi 26 sırası 辛酉-癸亥 arası). Liu Yu Qi (1131-1137) Shaanxi ilişkisi: Yan'an'a özgü tanık BULUNAMADI; sahip Jin olarak tutuldu.",
+    "tanik": "元祐四年，升爲府"
+   },
+   {
+    "f": "1130-10-27",
+    "t": "1139-04-30",
+    "d": "jin-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Song Shi 26 (宋史/卷026) — https://zh.wikisource.org/wiki/宋史/卷026 ; Song Shi 29 (宋史/卷029) — https://zh.wikisource.org/wiki/宋史/卷029",
+    "ic_not": "Jin: Jianyan 4, 9. ay (en geç 癸亥). Qi vasal devleti (Liu Yu, 1130-1137; Shaanxi'yi 1131-12-17'de aldığı xian kataloğunda) — Yan'an'ın Qi'ye devri BULUNAMADI.",
+    "tanik": "金人陷延安府，執呂世存，又陷保安軍"
+   },
+   {
+    "f": "1139-04-30",
+    "t": "1140-06-17",
+    "d": "song",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Song Shi 29 (宋史/卷029) — https://zh.wikisource.org/wiki/宋史/卷029",
+    "ic_not": "Jin–Song anlaşması: Wang Lun Henan ve Shaanxi'yi alır; Shaoxing 9 4. ay (kaynak günü 壬午 4. ayda yok → ay hassasiyeti, ayın başı): Jin Fu-Yan lu jinglüeshi Guan Shigu Song'a teslim olur ve Song onu Yan'an fu valisi atar. Bitiş: Jin'in Shaanxi'yi yeniden alışı (xian kataloğu, Jin Shi: 六月，陝西平); Yan'an'a özgü gün bulunamadı.",
+    "tanik": "金鄜延路經略使關師古上表待罪，命知延安府"
+   },
+   {
+    "f": "1140-06-17",
+    "t": "1224-04-07",
+    "d": "jin-hanedani",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shi 16 (金史/卷16) — https://zh.wikisource.org/wiki/金史/卷16 ; Jin Shi 17 (金史/卷17) — https://zh.wikisource.org/wiki/金史/卷17",
+    "ic_not": "Jin: Mongol Taizu 16'da (1221 kışı) Muqali Yan'an'ı kuşatır, alamaz (Yuan Shi 1); Jin Shi 16: Yuanguang 1 (1222), \"延安受圍\", vergi muafiyeti; Jin Shi 17: Zhengda 1 (1224) 3. ay, Yan'an komutanı Wanyan Heda yeni şu (行尚書省事, Jingzhao) olarak atanır — Jin'in Yan'an'daki SON tanığı. t = bu tanığın günü; sonrası BOŞLUK.",
+    "tanik": "以延安帥臣完顏合達戰禦有功"
+   },
+   {
+    "f": "1224-04-07",
+    "t": "1252-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Jin Shi 17 (金史/卷17) — https://zh.wikisource.org/wiki/金史/卷17 ; Yuan Shi 60 (元史/卷060, Dili zhi: Yan'an lu) — https://zh.wikisource.org/wiki/元史/卷060",
+    "ic_not": "BOŞLUK (28 yıl > bir kuşak): Jin'in son yer-kesin tanığı 1224; Moğol elinin ilk tanığı Yuan Shi 60'ta Yan'an lu'nun \"壬子年數\" (1252) nüfus sayımı. Aranan: Yuan Shi 1-3, 121, 149-150; Jin Shi 17-18, 113, 124; Yuan Shi 148; \"克/下/拔/降延安\" taramaları — Yan'an'ın Jin'den Moğol'a geçiş tanığı BULUNAMADI. Jin'in 1234 yıkılışına kadar Jin elinde kalmış olması olasıdır (Jin Shi 124 vb. Yan'an bahsi yok) ama kaynak sahibi söylemiyor → beyansız yaklaşıklık yazılmadı.",
+    "tanik": "戶六千五百三十九，口九萬四千六百四十一。壬子年數"
+   },
+   {
+    "f": "1252-01-01",
+    "t": "1260-05-05",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Yuan Shi 60 (元史/卷060) — https://zh.wikisource.org/wiki/元史/卷060",
+    "ic_not": "f = 1252-01-01: yalnız yıl (\"壬子年數\" = Renzi, 1252 sayımı); sayım gününün 1252 içinde bir tarihte olduğu, en geç tanık. Möngke 1253'te Jingzhao'yu Kubilay'a appanage verir (xian katalogu).",
+    "tanik": "延安路，下。唐初為延州，又改延安郡，又為延州。宋為延安府。金為鄜延路。元改延安路。戶六千五百三十九"
+   },
+   {
+    "f": "1260-05-05",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": "gun",
+    "kaynak": "Yuan Shi 60 (元史/卷060) — https://zh.wikisource.org/wiki/元史/卷060",
+    "ic_not": "Yuan: Kubilay Kaiping'de imparator olur (xian katalogu); Yan'an lu. t = 1281-01-01 atlasın bugünkü ilk günüdür (yuan-hanedani) — dikişte olay gerekmez.",
+    "tanik": "金為鄜延路。元改延安路"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0607-01-01",
+    "gun": "Daye 3 (607)",
+    "k": "kurulus",
+    "b": "Sui: Fushi ilçesi ve Yan'an jun (Yanzhou'dan) kurulur — ilk yeri-kesin tanık (Yuanhe: Daye 2, çelişki ic_not'ta).",
+    "kaynak": "Sui Shu 29 (隋書/卷29) — https://zh.wikisource.org/wiki/隋書/卷29 ; Yuanhe junxian zhi 4 — https://zh.wikisource.org/wiki/元和郡縣志_(四庫全書本)/卷04",
+    "tanik": "膚施大業三年置，及置延安郡"
+   },
+   {
+    "t": "0618-06-18",
+    "gun": "18 Haziran 618",
+    "k": "taht",
+    "b": "Künye geçişi: Sui → Tang (Li Yuan Taiji Salonu'nda imparator olur). Yan'an'a özgü teslim günü bulunamadı; Jiu Tang Shu 38: \"武德元年，改為延州總管府\" (Wude 1, gün yok); Yuanhe 4: \"武德元年百姓歸化置總管府\".",
+    "kaynak": "Jiu Tang shu 1 (舊唐書/卷1)",
+    "tanik": "甲子，高祖即皇帝位於太極殿"
+   },
+   {
+    "t": "0619-01-01",
+    "gun": "Wude 2 (619; yıl hassasiyeti)",
+    "k": "sefer",
+    "b": "Liang Shidu (Shuofang) Göktürk süvarileriyle Yan'an'a saldırır; Tang Yanzhou zongguan Duan Deshou karşı koyar — Yan'an Tang elinde kalır.",
+    "kaynak": "Jiu Tang Shu 56 (舊唐書/卷56) — https://zh.wikisource.org/wiki/舊唐書/卷56",
+    "tanik": "師都與突厥之眾數千騎來寇延安"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "16 Ekim 690",
+    "k": "diger",
+    "b": "Künye geçişi: Tang → Wu Zhou (Wu Zetian). Yan'an'a özgü tanık yok; toprak el değiştirmez.",
+    "kaynak": "Jiu Tang shu 6 (舊唐書/卷6)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "3 Mart 705",
+    "k": "diger",
+    "b": "Künye geçişi: Wu Zhou → Tang (Zhongzong). Yan'an'a özgü tanık yok.",
+    "kaynak": "Jiu Tang shu 7 (舊唐書/卷7)",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0907-06-01",
+    "gun": "1 Haziran 907",
+    "k": "diger",
+    "b": "Künye geçişi: Tang → Qi (Li Maozhen'in Fang-Yan hakimiyeti). Tang'ın bitişi: Zhu Wen tahta çıkar (Liang). Yan'an'ın Qi elinde oluşu: Xin Wudai Shi 60 Zhifang kao \"延 | 岐忠義\", Jiu Wudai Shi 132; gün bu katalog günüdür (Qi tanığı gün vermez).",
+    "kaynak": "Xin Wudai shi 2 (新五代史/卷02)",
+    "tanik": "甲子，皇帝即位"
+   },
+   {
+    "t": "0909-02-23",
+    "gun": "Tianyou 6 (909), 2. ay (ay hassasiyeti)",
+    "k": "isyan",
+    "b": "Gao Wanxing ve kardeşi Wanjin, Hu Jingzhang'ın cenazesinde Qi'nin atadığı Liu Wanzi'yi öldürüp Liang'a bağlanır; Liang, Liu Zhijun ile birlikte Fu-Fang-Dan-Yan'ı alır ve ikiye böler.",
+    "kaynak": "Jiu Wudai Shi 132 (舊五代史/卷132) — https://zh.wikisource.org/wiki/舊五代史/卷132 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "萬興、萬金因會縱兵攻萬子，殺之，歸款於汴"
+   },
+   {
+    "t": "0923-12-31",
+    "gun": "31 Aralık 923",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Liang → Sonraki Tang. Jiu Wudai Shi 132: Zhuangzong Henan-Luo'yu alınca Gao Wanxing Yanzhou'dan gelip tapınağa katılır ve yeniden atanır; Yan'an'a özgü teslim günü yok.",
+    "kaynak": "Zizhi tongjian 272 (資治通鑑/卷272)",
+    "tanik": "辛酉，復以永平軍大安府為西京京兆府"
+   },
+   {
+    "t": "0937-01-11",
+    "gun": "11 Ocak 937",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Tang → Sonraki Jin (Tang son imparatoru kendini yakar). Yan'an'a özgü teslim günü bulunamadı.",
+    "kaynak": "Xin Wudai shi 7 (新五代史/卷7)",
+    "tanik": "辛巳，皇帝崩"
+   },
+   {
+    "t": "0947-03-10",
+    "gun": "10 Mart 947",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Jin → Sonraki Han (Liu Zhiyuan imparator olur). Yan'an'a özgü teslim günü bulunamadı.",
+    "kaynak": "Jiu Wudai shi 99 (舊五代史/卷99)",
+    "tanik": "辛未，帝於太原宮受冊，即皇帝位"
+   },
+   {
+    "t": "0951-02-13",
+    "gun": "13 Şubat 951",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Han → Sonraki Zhou (Guo Wei imparator olur). Yan'an'a özgü teslim günü bulunamadı.",
+    "kaynak": "Xin Wudai shi 11 (新五代史/卷11)",
+    "tanik": "皇帝即位，大赦，改元，國號周"
+   },
+   {
+    "t": "0960-02-04",
+    "gun": "4 Şubat 960",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Zhou → Song (Zhao Kuangyin). Yan'an'a özgü teslim günü bulunamadı.",
+    "kaynak": "Song shi 1 (宋史/卷1)",
+    "tanik": "定有天下之號曰宋"
+   },
+   {
+    "t": "1089-01-01",
+    "gun": "Yuanyou 4 (1089; yıl hassasiyeti)",
+    "k": "idari",
+    "b": "Song: Yanzhou Yan'an fu'ya yükseltilir (Zhangwu jun jiedu merkezi; Fuyan lu iç kapsamı).",
+    "kaynak": "Song Shi 87 (宋史/卷087) — https://zh.wikisource.org/wiki/宋史/卷087",
+    "tanik": "元祐四年，升爲府"
+   },
+   {
+    "t": "1128-12-05",
+    "gun": "Jianyan 2 (1128), 11. ay 壬辰 (Song Shi); Jin Shi: Tianhui 6, 11. ay 庚寅",
+    "k": "fetih",
+    "b": "Jin Yan'an fu'yu alır (Pucha ve Loushi); Song valisi Liu Xuan ve Ma Zhong kaçar, tongpan Wei Yanming ölür. Kısa sürede Song geri alır (1130'da yeniden alınır) — \"geçici\" ele geçirme: süre bilinmediği için dönem AÇILMADI. Gün çelişkisi: Song Shi 壬辰 (11. ayın 12'si, Song takvimi) vs Jin Shi 庚寅 (Jin takvimi, 1128-12-03 — Jin Shi için LiaoJinYuan bölgesiyle çevrildi); Song Shi alındı.",
+    "kaynak": "Song Shi 25 (宋史/卷025) — https://zh.wikisource.org/wiki/宋史/卷025 ; Jin Shi 3 (金史/卷3) — https://zh.wikisource.org/wiki/金史/卷3 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "金人陷延安府，權知府劉選、總管馬忠皆遁"
+   },
+   {
+    "t": "1130-10-27",
+    "gun": "Jianyan 4 (1130), 9. ay (en geç 癸亥; sıra 辛酉-癸亥)",
+    "k": "fetih",
+    "b": "Fuping savaşı öncesi Jin Yan'an fu'yu ve Baoan jun'u alır, tongzhi Lü Shicun esir alınır; Song Shi sırası günü 辛酉 ile 癸亥 arasına koyar — dönem sınırı en geç uç (癸亥).",
+    "kaynak": "Song Shi 26 (宋史/卷026) — https://zh.wikisource.org/wiki/宋史/卷026 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "金人陷延安府，執呂世存，又陷保安軍"
+   },
+   {
+    "t": "1139-04-30",
+    "gun": "Shaoxing 9 (1139), 4. ay (ay hassasiyeti: kaynak günü 壬午, 4. ay 庚戌朔 ise 31. gün olur — ayın başı alındı)",
+    "k": "antlasma",
+    "b": "Jin–Song anlaşması sonrası Jin'in Fu-Yan lu jinglüeshi Guan Shigu Song'a teslim olur; Song onu Yan'an fu valisi olarak bırakır.",
+    "kaynak": "Song Shi 29 (宋史/卷029) — https://zh.wikisource.org/wiki/宋史/卷029 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "金鄜延路經略使關師古上表待罪，命知延安府"
+   },
+   {
+    "t": "1140-06-17",
+    "gun": "17 Haziran 1140",
+    "k": "fetih",
+    "b": "Jin anlaşmayı bozar; Shaanxi (Fu-Yan lu dahil) yeniden Jin'e geçer (Jin Shi: 六月，陝西平). Yan'an'a özgü tanık bulunamadı.",
+    "kaynak": "Jin shi 4 (金史/卷4)",
+    "tanik": "六月，陝西平"
+   },
+   {
+    "t": "1221-10-17",
+    "gun": "Taizu 16 (1221), 10. ay (ay hassasiyeti)",
+    "k": "kusatma",
+    "b": "Mongol komutan Muqali Hexi'den çıkıp Jiazhou, Suide, Baoan, Fu, Fang, Dan eyaletlerini alır ve Yan'an'a saldırır; alamaz (Jin elinde kalır).",
+    "kaynak": "Yuan Shi 1 (元史/卷001) — https://zh.wikisource.org/wiki/元史/卷001 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "進攻延安，不下"
+   },
+   {
+    "t": "1222-04-08",
+    "gun": "Yuanguang 1 (1222), 2. ay 甲辰",
+    "k": "kusatma",
+    "b": "Jin Shi: Mongol baskısı altında Yan'an kuşatılmış; Jin imparatoru vergi muafiyeti ve ödünç tahıl emri verir.",
+    "kaynak": "Jin Shi 16 (金史/卷16) — https://zh.wikisource.org/wiki/金史/卷16 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "上念鄜延被兵，又延安受圍"
+   },
+   {
+    "t": "1224-04-07",
+    "gun": "Zhengda 1 (1224), 3. ay 甲寅",
+    "k": "diger",
+    "b": "Jin'in Yan'an'daki son yer-kesin tanığı: Yan'an komutanı Wanyan Heda Jingzhao'da yeni şu (行尚書省事) olur; sonrası BOŞLUK dönemi.",
+    "kaynak": "Jin Shi 17 (金史/卷17) — https://zh.wikisource.org/wiki/金史/卷17 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "以延安帥臣完顏合達戰禦有功"
+   },
+   {
+    "t": "1252-01-01",
+    "gun": "Renzi (1252; yıl hassasiyeti)",
+    "k": "diger",
+    "b": "Yuan Shi 60: Yan'an lu için \"壬子年數\" nüfus sayımı kaydı (1252) — Moğol idaresinin ilk yeri-kesin tanığı (en geç tanık); Jin→Moğol geçiş günü bulunamadı.",
+    "kaynak": "Yuan Shi 60 (元史/卷060) — https://zh.wikisource.org/wiki/元史/卷060",
+    "tanik": "戶六千五百三十九，口九萬四千六百四十一。壬子年數"
+   },
+   {
+    "t": "1260-05-05",
+    "gun": "5 Mayıs 1260",
+    "k": "diger",
+    "b": "Künye geçişi: Moğol İmparatorluğu → Yuan (Kubilay Kaiping'de imparator olur). Yan'an'a özgü tanık bulunamadı.",
+    "kaynak": "Yuan shi 4 (元史/卷4)",
+    "tanik": "辛卯，帝即皇帝位"
+   }
+  ],
+  "ic_not": "Yan'an (36.585, 109.49): ilk yeri-kesin tanık Sui Daye 3 (607) Fushi ilçesi + Yan'an jun kuruluşu (Sui Shu 29); sahip zinciri 607 → 1281-01-01 kesintisiz (atlas ilk günü yuan-hanedani ile dikiş). Gaonu/Shiji-Hanshu eşitlemesi (MÖ 206 Zhai Wang başkenti; Hanshu 28 Shang jun) Yuanhe junxian zhi 4'e dayanır (Tang yazarı: Yanzhou seti = Gaonu şehri) — Han dönemi için arkeolojik/akademik teyit BULUNAMADI, Gaonu sahası geniş → başlangıç sayılmadı; AYRI KAYIT/İLERİ ARAŞTIRMA önerisi: Gaonu (Han Shang jun, Qin-Han) için akademik yer çalışması (Shaanxi Wenwu / Kaogu raporları) aranmadı. KÜNYE ÖNERİLERİ: sui.t → 0618-06-18, tang.t → 0907-06-01, sonraki-liang/tang/jin/han/zhou-5hanedan t değerleri xian katalog günlerine GENİŞLET; yeni künye 'qi-li-maozhen' (Qi / 岐, Li Maozhen; ömür bulunamadı). Jin→Moğol geçişi 1224-1252 BOŞLUK (Yan'an özgü tanık yok). Qi (Liu Yu 1130-1137) Shaanxi işgali: Yan'an özgü tanık yok. Wu Zhou 690-705 yalnız ulusal künye geçişi (Yan'an özgü tanık yok). Kaynak: zh.wikisource dili zhi'ler. Çift teyit: yok (Sui Shu ↔ Yuanhe zhi kuruluş yılı çelişir: 607 / 606)."
  },
  {
   "id": "yangzhou-cin",
@@ -17170,6 +21354,817 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "AD VE NOKTA: atlas noktası (32.394, 119.413) modern Yangzhou (Ming/Qing eski şehri ile Shugang kenarı arası; Shugang 'Guangling/Tang' şehri ≈ 2–5 km). ADLAR (kaynaklı): Han/邗 (Zuozhuan Ai 9, MÖ 486), Guangling/廣陵 (Chu, MÖ 319, Shiji 15), Jiangdu/江都 (Jingdi 4, MÖ 153) → Guangling (Yuanshou 3, MÖ 120) [Shuijing zhu 30], Dingan/定安 (Xin; komutanlık Jiangping/江平), Nanyanzhou/南兗州 (Liang), Dongguangzhou/東廣州 (Bei Qi), Wuzhou/吳州 (Bei Zhou) [Sui Shu 31], Yangzhou/揚州 (589), Jiangdu jun (Sui), Yanzhou/兗州 (620), Hanzhou/邗州 (624), Yangzhou (626), Guangling jun/廣陵郡 (742), Yangzhou (758) [JTS 40]. YER SORUNU: 邗城 (Wu), Wu Wang Bi'nin Guangling'i ve Sui–Tang 'Yangzhou' (Shugang) aynı yer değildir; Shuijing zhu 30 'Guangling şehrinin GÜNEYDOĞUSUNDA Han şehri' der. Kaynak sayfasında koordinat yok, arkeoloji (Shugang Qin-Han–Tang–Song şehri, Yangzhou şehri Kaogu raporları) sayfası bu oturumda açılamadı/bulunamadı (WebSearch yalnız özet verdi) ⇒ ark=null, mesafe ölçülmedi. Tang sonrası Song 'büyük/küçük şehir' (Zhou Shizong 958 küçük şehri, Song Baocheng) 3 km kuralı altında aynı kayıttır varsayıldı ama ölçülmedi. ATLAS DÜZELTME ÖNERİSİ: ilk anılış 'Han' MÖ 486 (Zuozhuan Ai 9), atlasın ilk günü 1281-01-01 — atlas Yangzhou'yu 1281'de başlatıyor; kayıt kaynakça ile MÖ 486'dan geri gidiyor, ilk Yuan günü 1276-08-23 (atlas başlangıcı düzeltilebilir: yuan-hanedani 1276-08-23). KÜNYE ÖNERİLERİ: wu-devleti-chunqiu, yue-devleti, sui-chen-leng-jiangdu, li-zitong-wu; künye GENİŞLET: qin-hanedani (t≈-0206-11-14), bati-han (t≈0009-01-10), xin (t≈0023-10-06), liu-song (t≈0479-05-29), sonraki-zhou-5hanedan (t≈0960-02-04), dogu-han (t≈0220-12-10), cao-wei (t≈0266-02-08), bati-jin (t≈0317-04-06), dogu-jin (t≈0420-07-10), guney-qi (t≈0502-04-30), kuzey-zhou (t≈0581-03-04), sui (t≈0618-04-11), wu-zhou (t≈0705-03-03), yang-wu (t≈0937-11-10). BULUNAMADI: ark (Shugang kazı raporu), Xin–Dong Han arası (25–37) Guangling sahibi, MÖ 206–202 Dongyang sahibi, Yue'nin Guangling'i fiilen tutup tutmadığı, 887–902 savaş ağaları (Sun Ru, Yang Xingmi) Yangzhou günleri, Yang Wu içi Yangzhou tanıkları, Song–Jin 1130/1161 ayrıntıları, Yuan dönemi Yangzhou lu tarihi. ÇELİŞKİLER: Wu'nun Guangling kalesi — Sanguozhi 48 sırası 255, Gu Zuyu 253; Zhou'nun Guangling'i — ZZTJ 173 ve Zhou Shu 7 aynı ay, Chen Shu 5 9. ayda 'Zhou'nun Guangling yiju' geçirir (bölge); Yangzhou 956/957: ZZTJ 292 '正月' başlığı altında 乙酉 gösterirken ay başlığı 8107'de 2. aya geçmiştir, Jiu Wudai shi 116 aynı olayı 2. ay 丙戌 verir (uyumlu)."
+ },
+ {
+  "id": "yantai-cin",
+  "ad": "Yantai (Chefoo)",
+  "atlas_ad": "Yantai (Chefoo)",
+  "lat": 37.464,
+  "lon": 121.448,
+  "kat1900": 3,
+  "adlar": [
+   "Zhifu / 芝罘 (之罘; Shiji: Qin MÖ 219 ziyaret yeri — Zhifu Adası/dağı, atlas noktasından AYRI yer)",
+   "Qishan shouyu qianhusuo / 奇山守禦千戶所 (Ming 1398, Fushan ilçesi kuzeydoğusu)",
+   "Yantai / 烟台 (Ming gözetleme kulesi adı; Ming Shi 41'de geçmiyor)",
+   "Chefoo / Zhifu (19. yy. liman adı)"
+  ],
+  "ilk": {
+   "t": "1398-01-01",
+   "gun": "Hongwu 31 (1398)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Ming Shi 41 (Dili zhi: Dengzhou fu, Fushan xian) — https://zh.wikisource.org/wiki/明史/卷41",
+   "tanik": "又奇山守禦千戶所在東北，洪武三十一年置",
+   "ic_not": "ZİNCİR BOŞ: atlas başlangıcı (1281-01-01 yuan-hanedani) düzeltilmeli: ilk yeri-kesin tanık Ming 1398 (Qishan suo kuruluşu; yıl hassasiyeti), 1281 öncesi tanık bulunamadı. Not: Ming Shi 41 \"Fushan ... Qishan shouyu qianhusuo Fushan'ın kuzeydoğusunda\" der; Qishan suo'nun Yantai sehrinin çekirdeği (Qishan/Yantai Dağı çevresi) olduğu, atlas noktasına (37.464, 121.448) ≤3 km mesafede olduğu kaynakta VERİLMEZ: konum eşleşmesi KESİN DEĞİL (mesafe ölçülmedi; Yantai adı ayrı Ming gözetleme kulesi geleneğinden gelir, Ming Shi 41'de \"烟台/煙臺\" adı geçmez — arandı: bulunamadı)."
+  },
+  "kur": {
+   "t": "1398-01-01",
+   "gun": "Hongwu 31 (1398)",
+   "kesinlik": "yil",
+   "kaynak": "Ming Shi 41 (Dili zhi: Dengzhou fu, Fushan xian) — https://zh.wikisource.org/wiki/明史/卷41",
+   "tanik": "又奇山守禦千戶所在東北，洪武三十一年置"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "Yantai (Chefoo): atlas başlangıcı (1281-01-01 yuan-hanedani) düzeltilmeli: ilk yeri-kesin yazılı tanık Ming 1398 (Qishan suo, Ming Shi 41); sahip zinciri BOŞ. 1281 öncesi arananlar: Shiji 6 (Qin Shi Huang MÖ 219/218 'Zhifu'ya çıkış'), Hanshu 28 (Donglai jun: Chui/腄, Huang/黃 ilçeleri), Jin Shi 25 (Ninghai zhou, Muping ilçesi: '之罘山' adı), Yuan Shi 58 (Dengzhou lu: Penglai/Huang/Fushan/Qixia; Ninghai zhou), Song Shi 85 (Dengzhou) — 'Yantai/煙臺' adı hiçbirinde bulunamadı; Zhifu Dağı adı ise atlas noktasını değil, Zhifu Adası/dağını (kuzeyde) anar. AYRI KAYIT ÖNERİSİ: Zhifu (芝罘/之罘, Zhifu Adası) — ilk yeri-kesin tanık Shiji 6 Qin Shihuang 28. yıl (MÖ 219; astronomik -0218): '乃并勃海以東，過黃、腄，窮成山，登之罘，立石頌秦德焉而去' (Qin Shi Huang gezisi) ve 29. yıl (MÖ 218) 'Zhifu kaya yazıtı' ('登之罘，刻石'); adanın atlas noktasından uzaklığı ölçülmedi (kuzeyde, birkaç on km mertebesinde olduğu beklenir — KESİN DEĞİL; hafızadan değer yazılmadı), bu yüzden burada yazılmadı. Fushan (Chui/腄, Han Donglai jun) ve Muping (Jin Ninghai zhou) ilçe merkezleri de ayrı yerlerdir. Künye/atlas: Ming 1398'den 1281'e kadar atlas başlangıcının ileri alınması (ya da noktanın 1398 öncesi hiç çizilmemesi) önerilir. Çift teyit: yok. Açılamayan kaynak: yok."
+ },
+ {
+  "id": "zhengding-cin",
+  "ad": "Zhengding",
+  "atlas_ad": "Zhengding",
+  "lat": 38.144,
+  "lon": 114.573,
+  "kat1900": 3,
+  "adlar": [
+   "Dongyuan / 東垣 (Zhao–Han; ESKİ YER, bu kayıtta DEĞİL — bkz. ic_not, ayrı kayıt önerisi zhengding-dongyuan-cin)",
+   "Zhending / 真定 (Han Gaozu 11 = MÖ 196 Dongyuan'u 真定 yapar; ilçe merkezi Han–Sui döneminde eski yerde, Tang başında bugünkü yere taşınmış — Qing kaynağı, bkz. ic_not)",
+   "Hengzhou / 恆州 (Zhou 578 – Tang 820)",
+   "Zhenzhou / 鎮州 (820 –; Chengde jun jiedu merkezi)",
+   "Zhending fu / 真定府 (Later Tang 923 –; Beidu 923; Song/Jin Zhending fu)",
+   "Zhending lu / 真定路 (Yuan)"
+  ],
+  "ilk": {
+   "t": "0621-12-31",
+   "gun": "621 (Wude 4; yıl içinde, güvenli uç yıl sonu)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Jiu Tang shu 39 (Dili zhi, Zhenzhou/Hengzhou) — https://zh.wikisource.org/wiki/舊唐書/卷39 ; https://zh.wikisource.org/wiki/元和郡縣圖志/卷17 ; https://zh.wikisource.org/wiki/太平寰宇記_(四庫全書本)/卷061 ; https://zh.wikisource.org/wiki/讀史方輿紀要/卷十四 ; https://zh.wikisource.org/wiki/通鑑地理通釋_(四庫全書本)/卷10",
+   "tanik": "四年，賊平，徙治所於真定",
+   "ic_not": "Bu kayıt BUGÜNKÜ Zhengding eski şehrinin (38.144, 114.573; Tang Hengzhou/Zhenzhou şehri, Song–Yuan Zhending fu) tarihçesidir. Yer-kesin ilk tarihli tanık: Jiu Tang shu 39 — Hengzhou Wude 4'te (621) Dou Jiande'nin yenilmesinden sonra merkezini Shiyi'den '真定'e taşır; yıl içinde gün yok, GÜVENLİ UÇ yıl sonu (0621-12-31). ELENEN ADAY / AYRI KAYIT ÖNERİSİ: Han–Sui dönemi 真定 ve ondan önceki 東垣 (Zhao–Zhongshan–Han; Shiji 8 Gaozu 11 '豨將趙利守東垣，高祖攻之…城降'; Wei Shu 106上 '真定…故東垣，漢高帝十一年改'; Taiping huanyu ji 61 '真定縣…本漢中山國之東垣邑也') ESKİ YERDE idi: Shiji Zhengyi (Tang) alıntısı Tongjian dili tongshi 10 (Song) üzerinden '趙之東邑在真定縣南八里故常山城是也' — yani Tang ilçe merkezinin ~8 li güneyi; Dushi fangyu jiyao 14 (Qing): '東垣城，府南八里…後漢以後，縣皆治此。唐初移縣於今治'. 8 li ≈ 4 km (Tang li ≈ 0,53 km; kesin değil) > 3 km ⇒ antik yer BURADA yazılmadı; öneri: ayrı kayıt 'zhengding-dongyuan-cin' (Dongyuan/Zhending, ~MÖ 307 [Shiji 43 Wuling 20/21: ZZTJ 3 '趙王伐中山，取丹丘…東垣'; yıl bu oturumda doğrulanmadı] – Tang başı). ÇELİŞKİ (yer): Yuanhe junxian zhi 17: '滹沱河，南去縣一里' (Hutuo ilçenin güneyinde 1 li); Taiping huanyu ji 61: '滹沱河在縣北一里' — iki Tang/Song tarifi çelişir; bu yüzden Tang-öncesi ve Tang-içi ilçe merkezi eşitlemesi KESİN DEĞİL, Hengzhou ilk anılışı yer-kesin tanık olarak alınmadı demek yerine 'Hengzhou şehri = Zhending' (Jiu Tang Shu 39) olarak alındı. Ek not: Yuanhe 17 '後魏道武帝登恒山郡城，北望安樂壘，嘉其美名，遂移郡理之，即今州理是也' (Hengzhou/Zhenzhou şehri = Anle lei, tarih yok); Wei Shu 106上 Anle lei'yi 九門 ilçesinde sayar — kesin yer eşitlemesi yok, başlangıç sayılmadı. Zhou Shu 6: Xuanzheng 1 (578) 1. ay '分定州常山郡置恆州' (Hengzhou kuruluşu, merkez yeri belirtilmez). Ark/kur kaydı yazılmadı (arkeolojik rapor bulunamadı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0621-12-31",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Jiu Tang shu 39 — https://zh.wikisource.org/wiki/舊唐書/卷39",
+    "ic_not": "Tang (Wude 4 sonrası; Hengzhou Zhending). Künye tang f=0618.",
+    "tanik": "四年，賊平，徙治所於真定"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Tang shu 6 — https://zh.wikisource.org/wiki/舊唐書/卷6 ; Jiu Tang shu 7 — https://zh.wikisource.org/wiki/舊唐書/卷7",
+    "ic_not": "Wu Zhou; Zhending'e özgü kayıt yok (ulusal)."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0757-02-23",
+    "d": "tang",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Zizhi tongjian 217 — https://zh.wikisource.org/wiki/資治通鑑/卷217 ; Zizhi tongjian 218 — https://zh.wikisource.org/wiki/資治通鑑/卷218",
+    "ic_not": "Tang. An Lushan isyanı: Tianbao 14 (755) 11. ay Changshan komutanı Yan Gaoqing Gaocheng'de An Lushan'a boyun eğer (ZZTJ 217); Yan Gaoqing 755 sonunda isyan eder; Tianbao 15 (756) 1. ay 壬戌 Changshan düşer (~1 ay), 2. ay 己亥 Li Guangbi gelir, Changshan halkı Hu askerini öldürüp Tang'a döner (ZZTJ 217); Tianbao 15 yazı: Wang Fu Tang'ın Changshan taishou'su (ZZTJ 218). Bu <1 yıl, kısa değişimler DÖNEM AÇMADI (olay). Son Tang tanığı ZZTJ 218 (756 yazı); Yan'ın Changshan'ı elinde tuttuğu EN GEÇ tanık ZZTJ 219 (Zhide 2 = 757, 2. ay) ⇒ f en geç tanıktan (bkz. yan dönemi). Künye tang.t=0907-01-01 < 907-06-01: GENİŞLET.",
+    "tanik": "河北諸郡猶為唐守，常山太守王輔欲降賊"
+   },
+   {
+    "f": "0757-02-23",
+    "t": "0762-12-12",
+    "d": "yan-an-lushan",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Zizhi tongjian 219 — https://zh.wikisource.org/wiki/資治通鑑/卷219 ; Zizhi tongjian 222 — https://zh.wikisource.org/wiki/資治通鑑/卷222",
+    "ic_not": "KÜNYE YOK — önerilen id: yan-an-lushan (An Lushan–Shi Siming–Shi Chaoyi'nin 'Yan' devleti, 756–763; An Lushan 755-12 isyan, Yan ilanı 756-01; ömür bu oturumda doğrulanmadı). f EN GEÇ TANIKTAN (ZZTJ 219: Yan Anqingxu 757-02'de '張忠志為常山太守兼團練使' atar); Tang'ın son tanığı (756 yazı) ile aradaki 6-7 ay < 1 kuşak. Bitiş: ZZTJ 222 Baoying 1 (762) 11. ay 丁酉 Zhang Zhongzhi (Li Baochen) beş eyaletle Tang'a döner, Chengde jun jiedu olur.",
+    "kunye_yok": true,
+    "tanik": "張忠志為常山太守兼團練使"
+   },
+   {
+    "f": "0762-12-12",
+    "t": "0907-06-01",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 222 — https://zh.wikisource.org/wiki/資治通鑑/卷222 ; Zizhi tongjian 266 — https://zh.wikisource.org/wiki/資治通鑑/卷266",
+    "ic_not": "Tang (resmî); Chengde jun uzun süre Li Baochen–Wang Wujun–Wang Rong ailesinin fiilen özerk idaresinde (Wang Rong 907 öncesi 'Zhao Wang'). Resmî sahip Tang, el değiştirme yok. Künye tang.t=0907-01-01 < 907-06-01: GENİŞLET.",
+    "tanik": "丁酉，以張忠志為成德軍節度使"
+   },
+   {
+    "f": "0907-06-01",
+    "t": "0921-02-11",
+    "d": "zhao-wang-rong-chengde",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Zizhi tongjian 266 — https://zh.wikisource.org/wiki/資治通鑑/卷266 ; Xin Wudai shi 5 — https://zh.wikisource.org/wiki/新五代史/卷05",
+    "ic_not": "KÜNYE YOK — önerilen id: zhao-wang-rong-chengde (Wang Rong'un Chengde/Zhao prensliği, Zhenzhou merkezli, 907–921; 907'de Liang takvimini kabul eder [ZZTJ 266 '餘皆稟梁正朔，稱臣奉貢'], 910'dan sonra Jin ile ittifak; Zhengding Wang Rong'un çekirdek merkezi). Resmî tâbiyet Liang (Xian kataloğundaki 0907-06-01 Liang geçişi), fiilen Wang Rong; BEYAN: Tang→Liang ulusal günü başlangıç alındı. Bitiş: Xin Wudai shi 5 (Tianyou 18 = 921, 1. ay) '趙將張文禮弒其君鎔'.",
+    "kunye_yok": true,
+    "tanik": "餘皆稟梁正朔，稱臣奉貢"
+   },
+   {
+    "f": "0921-02-11",
+    "t": "0922-10-23",
+    "d": "zhang-wenli-zhenzhou",
+    "kesinlik": "ay",
+    "kaynak": "Xin Wudai shi 5 — https://zh.wikisource.org/wiki/新五代史/卷05 ; Jiu Wudai shi 29 — https://zh.wikisource.org/wiki/舊五代史/卷29 ; Xin Wudai shi 36 — https://zh.wikisource.org/wiki/新五代史/卷36",
+    "ic_not": "KÜNYE YOK — önerilen id: zhang-wenli-zhenzhou (Zhang Wenli ve oğlu Chuqin/Chuqiu'nun isyancı Zhenzhou rejimi, 921-02 → 922-10; Jin'e '兵馬留後' unvanını kabul ettirmeye çalıştı, sonra Jin onu kuşattı; 921-09 Zhang Chuqiu Dongyuan geçidinde Jin ordusuna saldırır, Li Cunjin ölür). Ay hassasiyeti.",
+    "kunye_yok": true,
+    "tanik": "趙將張文禮弒其君鎔"
+   },
+   {
+    "f": "0922-10-23",
+    "t": "0923-05-13",
+    "d": "jin-shatuo-li-keyong",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Xin Wudai shi 5 — https://zh.wikisource.org/wiki/新五代史/卷05 ; Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272",
+    "ic_not": "KÜNYE YOK — önerilen id: jin-shatuo-li-keyong (Pingyao kaydıyla aynı: Li Keyong–Li Cunxu Jin devleti, Hedong merkezli, 907–923). 922-10 (Tianyou 19) '李存審克鎮州'.",
+    "kunye_yok": true,
+    "tanik": "十月，李存審克鎮州"
+   },
+   {
+    "f": "0923-05-13",
+    "t": "0937-01-11",
+    "d": "sonraki-tang-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272 ; Jiu Wudai shi 29 — https://zh.wikisource.org/wiki/舊五代史/卷29",
+    "ic_not": "Sonraki Tang: ZZTJ 272 '又以鎮州為真定府，建北都' — Zhenzhou Zhending fu ve Beidu olur. Künye sonraki-tang t=0936-01-01 < 937-01-11: GENİŞLET.",
+    "tanik": "又以鎮州為真定府，建北都"
+   },
+   {
+    "f": "0937-01-11",
+    "t": "0947-01-04",
+    "d": "sonraki-jin-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 285 — https://zh.wikisource.org/wiki/資治通鑑/卷285",
+    "ic_not": "Sonraki Jin (Zhenzhou/Hengzhou Chengde jun '順國軍' [Taiping huanyu ji 61] — An Chongrong isyanı 941–942 Zhenzhou'da; bu oturumda taranmadı). Künye sonraki-jin t=0947-01-01.",
+    "tanik": "契丹主大舉入寇，自易、定趣恆州"
+   },
+   {
+    "f": "0947-01-04",
+    "t": "0947-09-16",
+    "d": "liao-hanedani",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 285 — https://zh.wikisource.org/wiki/資治通鑑/卷285 ; Zizhi tongjian 286 — https://zh.wikisource.org/wiki/資治通鑑/卷286 ; Zizhi tongjian 287 — https://zh.wikisource.org/wiki/資治通鑑/卷287 ; Jiu Wudai shi 106 — https://zh.wikisource.org/wiki/舊五代史/卷106",
+    "ic_not": "Liao: Kaiyun 3 (946) 12. ay 丙寅 Du Chongwei Hebei ordusuyla teslim (ZZTJ 285); Hengzhou Liao'nun 'Zhongjing' (Orta Başkent) olur (ZZTJ 286); Liao Anguo jiedu / Zhongjing liushou Mada (ZZTJ 287). Bitiş: Jiu Wudai shi 106 '其年閏七月晦，李筠、何福晉相率殺北帥' (947 artık 7. ay son günü), Liao birliği Dingzhou'ya çekilir. Hengzhou'nun Liao eline fiilen geçiş günü ZZTJ 285'te tek cümle yok; teslim günü (Du Chongwei, Hengzhou'nun komutanı) alındı — BEYAN.",
+    "tanik": "遂定降計。丙寅"
+   },
+   {
+    "f": "0947-09-16",
+    "t": "0951-02-13",
+    "d": "sonraki-han-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Wudai shi 106 — https://zh.wikisource.org/wiki/舊五代史/卷106 ; Zizhi tongjian 287 — https://zh.wikisource.org/wiki/資治通鑑/卷287",
+    "ic_not": "Sonraki Han: Liu Zhiyuan'un Hebei'yi devralması; Bai Zairong geçici liuhou (ZZTJ 287). Künye sonraki-han t=0951-01-01 < 951-02-13: GENİŞLET.",
+    "tanik": "其年閏七月晦，李筠、何福晉相率殺北帥"
+   },
+   {
+    "f": "0951-02-13",
+    "t": "0960-02-04",
+    "d": "sonraki-zhou-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Jiu Wudai shi / Song shi (ulusal)",
+    "ic_not": "Sonraki Zhou; Zhending'e özgü kayıt aranmadı (ulusal geçiş). Künye sonraki-zhou t=0960-01-01 < 960-02-04: GENİŞLET."
+   },
+   {
+    "f": "0960-02-04",
+    "t": "1126-10-22",
+    "d": "song",
+    "kesinlik": "gun",
+    "kaynak": "Song shi 23 (Qinzong ji) — https://zh.wikisource.org/wiki/宋史/卷023 ; Jin shi 74 (Zongwang zhuan) — https://zh.wikisource.org/wiki/金史/卷74",
+    "ic_not": "Song (Zhending fu, Hebei xi lu). Bitiş: Song Shi 23 Jingkang 1 (1126) 10. ay 丁酉 '金人陷真定'; Jin Shi 3/74 aynı fethi Tianhui 4 9. ay 辛未 (Jin takvimi) yazar — ZAMAN ÇELİŞKİ BEYANI: Song Shi tarihi esas alındı (ay farkı; iki takvim ct ile çevrildi, bkz. olaylar). Fethin tanığı Jin Shi 74: '遂克真定，殺知府李邈，得戶三萬，降五縣'.",
+    "tanik": "丁酉，金人陷真定"
+   },
+   {
+    "f": "1126-10-22",
+    "t": "1220-07-31",
+    "d": "jin-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Jin shi 74 — https://zh.wikisource.org/wiki/金史/卷74 ; Jin shi 25 (Dili zhi, Zhending fu) — https://zh.wikisource.org/wiki/金史/卷25 ; Jin shi 16 — https://zh.wikisource.org/wiki/金史/卷16 ; Jin shi 118 — https://zh.wikisource.org/wiki/金史/卷118",
+    "ic_not": "Jin (Zhending fu, '成德軍'; Jin Shi 25). Jin'in Xingding döneminde (1217–1222) Wu Xian Zhending'i 'Hengshan gong' olarak elinde tutar (Jin Shi 118: 興定元年 '破石海於真定'). Bitiş: Jin Shi 16 Xingding 4 (1220) 7. ay '恆山公武仙降大元', 9. ay 戊戌 Muqali Zhending'de konuşlanır; Yuan Shi 147 (Shi Tianxiang): '庚辰，至真定，木華黎使天祥攻城'. Künye jin-hanedani f=1115.",
+    "tanik": "遂克真定，殺知府李邈，得戶三萬，降五縣"
+   },
+   {
+    "f": "1220-07-31",
+    "t": "1260-05-05",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Jin shi 16 — https://zh.wikisource.org/wiki/金史/卷16 ; Yuan shi 147 — https://zh.wikisource.org/wiki/元史/卷147 ; Jin shi 118 — https://zh.wikisource.org/wiki/金史/卷118",
+    "ic_not": "Moğol: Taizu 15 (1220). Shi Tianni Zhending'in Han askerî valisi (Yuan Shi 147). 1225'te Wu Xian Tianni'yi öldürüp Zhending'i Jin'e getirir, Moğol generali Xiaonaixue kovar, Wu Xian bir ay sonra yeniden girer ve tekrar kaçar (Jin Shi 118: Zhengda 2) — <1 yıl, süresi bilinmeyen kısa el değişimi, DÖNEM AÇILMADI, olay yazıldı. Künye mogol-imp. t=1260-01-01 < 1260-05-05: GENİŞLET.",
+    "tanik": "乙酉，師還，聞武仙之黨據西山腰水、鐵壁二寨以叛"
+   },
+   {
+    "f": "1260-05-05",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Yuan shi 155 (Shi Tianze zhuan) — https://zh.wikisource.org/wiki/元史/卷155",
+    "ic_not": "Yuan; Shi Tianze Zhending lu'nun valisi (Yuan Shi 155: '真定等路總管，兼府尹'). Atlasın ilk sahibi yuan-hanedani 1281-01-01 ile aynı — dikişte olay gerekmez.",
+    "tanik": "授權鎮國上將軍、真定等路總管，兼府尹"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0621-12-31",
+    "gun": "621 (Wude 4; yıl sonu güvenli uç)",
+    "k": "idari",
+    "b": "Dou Jiande yenilir (Wude 4), Hengzhou merkezi Shiyi'den Zhending'e taşınır (Jiu Tang shu 39). Atlas başlangıcı (ilk yer-kesin tarihli tanık).",
+    "kaynak": "Jiu Tang shu 39 — https://zh.wikisource.org/wiki/舊唐書/卷39",
+    "tanik": "四年，賊平，徙治所於真定"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "16 Ekim 690",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Wu Zhou (Wu Zetian).",
+    "kaynak": "Jiu Tang shu 6 (舊唐書/卷6)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "3 Mart 705",
+    "k": "diger",
+    "b": "künye geçişi: Wu Zhou → Tang (Zhongzong Tang adını geri verir).",
+    "kaynak": "Jiu Tang shu 7 (舊唐書/卷7)",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0756-02-12",
+    "gun": "756 (Tianbao 15), 1. ay 壬戌 — Jülyen 756-02",
+    "k": "kayip",
+    "b": "An Lushan'un komutanları Shi Siming, Cai Xide Changshan'ı kuşatır; Yan Gaoqing'in savunması çöker (壬戌, 城陷), şehir halkı katledilir. Dönem AÇILMADI (≈1 ay): 2. ay 己亥 Li Guangbi gelince Changshan halkı Hu askerini öldürüp Tang'a döner.",
+    "kaynak": "Zizhi tongjian 217 — https://zh.wikisource.org/wiki/資治通鑑/卷217 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "壬戌，城陷"
+   },
+   {
+    "t": "0756-03-20",
+    "gun": "756 (Tianbao 15), 2. ay 己亥 — Jülyen 756-03",
+    "k": "fetih",
+    "b": "Li Guangbi Jingxing'den Changshan'a gelir, Changshan'ın yerel milisi (團練兵) Hu askerlerini öldürüp An Siyi'yi teslim eder; şehir Tang'a döner.",
+    "kaynak": "Zizhi tongjian 217 — https://zh.wikisource.org/wiki/資治通鑑/卷217 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "己亥，至常山，常山團練兵三千人殺胡兵"
+   },
+   {
+    "t": "0756-08-01",
+    "gun": "756 (Tianbao 15), 7. ay (ay başı çevrildi)",
+    "k": "diger",
+    "b": "Tongguan düştükten sonra Guo Ziyi ve Li Guangbi Changshan'ı Wang Fu'ya bırakıp Taiyuan'a çekilir; Changshan taishou'su Wang Fu 'eyaleti Yan'a vermek ister', subaylar onu öldürür (Hebei komutanlıkları hâlâ Tang'ın). Sonraki el değişim tarihi BULUNAMADI (Zhide 2 = 757 2. ay en geç tanık).",
+    "kaynak": "Zizhi tongjian 218 — https://zh.wikisource.org/wiki/資治通鑑/卷218",
+    "tanik": "河北諸郡猶為唐守，常山太守王輔欲降賊"
+   },
+   {
+    "t": "0757-02-23",
+    "gun": "757 (Zhide 2), 2. ay (ay başı çevrildi)",
+    "k": "diger",
+    "b": "Yan'in Changshan'ı elinde tuttuğu EN GEÇ tanık: An Qingxu Zhang Zhongzhi'yi '常山太守兼團練使' atar, Jingxing ağzını tutmakla görevlendirir.",
+    "kaynak": "Zizhi tongjian 219 — https://zh.wikisource.org/wiki/資治通鑑/卷219 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "張忠志為常山太守兼團練使"
+   },
+   {
+    "t": "0762-12-12",
+    "gun": "762 (Baoying 1), 11. ay 丁酉",
+    "k": "diger",
+    "b": "Zhang Zhongzhi (Li Baochen) beş eyaletle (Heng, Zhao, Shen, Ding, Yi) Tang'a döner; '成德軍節度使' olur.",
+    "kaynak": "Zizhi tongjian 222 — https://zh.wikisource.org/wiki/資治通鑑/卷222 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "丁酉，以張忠志為成德軍節度使"
+   },
+   {
+    "t": "0907-06-01",
+    "gun": "1 Haziran 907",
+    "k": "diger",
+    "b": "künye geçişi: Tang → Sonraki Liang (Zhu Wen imparator olur). (Zhenzhou Wang Rong'un Chengde'si: Liang takvimini kabul eder; ZZTJ 266.)",
+    "kaynak": "Xin Wudai shi 2 (新五代史/卷02)",
+    "tanik": "甲子，皇帝即位"
+   },
+   {
+    "t": "0907-06-12",
+    "gun": "Kaiping 1 (907), 4. ay 乙亥",
+    "k": "diger",
+    "b": "Liang Li Keyong'un unvanlarını siler; '餘皆稟梁正朔，稱臣奉貢' — Hebei'nin Wang Rong'u dahil Liang'ın takvimini kabul eder, yalnız Hedong, Fengxiang, Huainan 'Tianyou' kullanır.",
+    "kaynak": "Zizhi tongjian 266 — https://zh.wikisource.org/wiki/資治通鑑/卷266 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "餘皆稟梁正朔，稱臣奉貢"
+   },
+   {
+    "t": "0921-02-11",
+    "gun": "921 (Tianyou 18 / Longde 1), 1. ay (ay başı çevrildi)",
+    "k": "isyan",
+    "b": "Zhao generali Zhang Wenli efendisi Wang Rong'u öldürür ve Jin'den '留後' unvanı ister; 2. ay Jin onu Zhenzhou bingma liuhou atar (Xin Wudai shi 5).",
+    "kaynak": "Xin Wudai shi 5 — https://zh.wikisource.org/wiki/新五代史/卷05 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "趙將張文禮弒其君鎔，文禮來請命"
+   },
+   {
+    "t": "0921-10-04",
+    "gun": "921 (Longde 1), 9. ay (戊寅朔; ay başı çevrildi)",
+    "k": "sefer",
+    "b": "Zhang Wenli'nin oğlu Chuqiu Dongyuan geçidinde Jin ordusuna saldırır; Jin komutanı Li Cunjin ölür (Jiu Wudai shi 29; Xin Wudai shi 5: '九月，存進敗鎮人于東垣，存進戰死'). Zhenzhou isyancılar elinde kalır.",
+    "kaynak": "Jiu Wudai shi 29 — https://zh.wikisource.org/wiki/舊五代史/卷29 ; Xin Wudai shi 5 — https://zh.wikisource.org/wiki/新五代史/卷05 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "九月戊寅朔，張處球悉城中兵奄至東垣渡"
+   },
+   {
+    "t": "0922-10-23",
+    "gun": "922 (Tianyou 19), 10. ay (ay başı çevrildi)",
+    "k": "fetih",
+    "b": "Jin generali Li Cunshen Zhenzhou'yu alır; Zhang Chuqiu öldürülür, isyan biter (Xin Wudai shi 5).",
+    "kaynak": "Xin Wudai shi 5 — https://zh.wikisource.org/wiki/新五代史/卷05 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "十月，李存審克鎮州"
+   },
+   {
+    "t": "0923-05-13",
+    "gun": "Tongguang 1 (923), 4. ay 己巳",
+    "k": "diger",
+    "b": "künye geçişi: Jin (Shatuo) → Sonraki Tang (Li Cunxu Weizhou'da imparator, '大唐'); aynı dönemde Zhenzhou Zhending fu ve 'Beidu' (Kuzey Başkent) ilan edilir (ZZTJ 272).",
+    "kaynak": "Zizhi tongjian 272 — https://zh.wikisource.org/wiki/資治通鑑/卷272 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "又以鎮州為真定府，建北都"
+   },
+   {
+    "t": "0937-01-11",
+    "gun": "11 Ocak 937",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Tang → Sonraki Jin (Tang son imparatoru kendini yakar). (Zhenzhou/Hengzhou Chengde jun; Zhending'e özgü kayıt yok.)",
+    "kaynak": "Xin Wudai shi 7 (新五代史/卷7)",
+    "tanik": "辛巳，皇帝崩"
+   },
+   {
+    "t": "0947-01-01",
+    "gun": "947 (yıl hassasiyeti; Tianfu 12)",
+    "k": "idari",
+    "b": "Liao, Hengzhou'yu '中京' (Orta Başkent) yapar; Zhao Yanshou Hengzhou'a girer, Liao 'Anguo jiedushi' Mada '中京留守' olur (ZZTJ 286–287).",
+    "kaynak": "Zizhi tongjian 286 — https://zh.wikisource.org/wiki/資治通鑑/卷286 ; Zizhi tongjian 287 — https://zh.wikisource.org/wiki/資治通鑑/卷287",
+    "tanik": "時契丹以恆州為中京"
+   },
+   {
+    "t": "0947-01-04",
+    "gun": "947 (Kaiyun 3 = Çin yılı 946, 12. ay 丙寅; Jülyen 947-01)",
+    "k": "fetih",
+    "b": "Du Chongwei, Li Shouzhen, Song Yanyun Hebei ordusuyla Khitan'a teslim olur (Zhongdu köprüsü, Hutuo, Hengzhou önü). Liao Hengzhou'yu 'Zhongjing' yapar (ZZTJ 286).",
+    "kaynak": "Zizhi tongjian 285 — https://zh.wikisource.org/wiki/資治通鑑/卷285 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "遂定降計。丙寅"
+   },
+   {
+    "t": "0947-09-16",
+    "gun": "947, artık 7. ay son günü (晦)",
+    "k": "isyan",
+    "b": "Hengzhou'daki Han askerleri (Li Yun, He Fujin) Liao komutanını öldürür, cephaneliği ele geçirir; Liao birliği Dingzhou'ya kaçar; Bai Zairong liuhou olur (Jiu Wudai shi 106; ZZTJ 287). Zhending Sonraki Han'a geçer.",
+    "kaynak": "Jiu Wudai shi 106 — https://zh.wikisource.org/wiki/舊五代史/卷106 ; Zizhi tongjian 287 — https://zh.wikisource.org/wiki/資治通鑑/卷287 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (artık ay son günü = sonraki ay başı − 1 gün)",
+    "tanik": "其年閏七月晦，李筠、何福晉相率殺北帥"
+   },
+   {
+    "t": "0951-02-13",
+    "gun": "13 Şubat 951",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Han → Sonraki Zhou (Guo Wei imparator olur). (Zhending'e özgü kayıt aranmadı.)",
+    "kaynak": "Xin Wudai shi 11 (新五代史/卷11)",
+    "tanik": "皇帝即位，大赦，改元，國號周"
+   },
+   {
+    "t": "0960-02-04",
+    "gun": "4 Şubat 960",
+    "k": "diger",
+    "b": "künye geçişi: Sonraki Zhou → Song (Zhao Kuangyin). (Zhending'e özgü kayıt aranmadı.)",
+    "kaynak": "Song shi 1 (宋史/卷1)",
+    "tanik": "定有天下之號曰宋"
+   },
+   {
+    "t": "1126-10-22",
+    "gun": "Jingkang 1 (1126), 10. ay 丁酉",
+    "k": "fetih",
+    "b": "Jin generali Wolibu (Zongwang) Zhending'i alır, vali Li Miao öldürülür (Song Shi 23: '金人陷真定'; Jin Shi 74: '遂克真定，殺知府李邈，得戶三萬，降五縣'). ÇELİŞKİ: Jin Shi 3 aynı olayı Tianhui 4 9. ay 辛未 yazar (Jin takvimi ct ile 1126-09-26); Song Shi tarihi esas.",
+    "kaynak": "Song shi 23 — https://zh.wikisource.org/wiki/宋史/卷023 ; Jin shi 74 — https://zh.wikisource.org/wiki/金史/卷74 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (Song takvimi); Jin Shi tarihi: LiaoJinYuan takvimi",
+    "tanik": "丁酉，金人陷真定"
+   },
+   {
+    "t": "1220-07-31",
+    "gun": "Xingding 4 (1220), 7. ay (ay başı çevrildi)",
+    "k": "fetih",
+    "b": "Hengshan gong Wu Xian Moğol'a teslim olur (Jin Shi 16); 9. ay 戊戌 Muqali Zhending'de konuşlanır; Yuan Shi 147: Shi Tianxiang Zhending'i Muqali adına alır. Wu Xian'ın Zhending'deki hâkimiyeti Jin Shi 118'e göre Xingding 1'den beri.",
+    "kaynak": "Jin shi 16 — https://zh.wikisource.org/wiki/金史/卷16 ; Yuan shi 147 — https://zh.wikisource.org/wiki/元史/卷147 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen (LiaoJinYuan takvimi)",
+    "tanik": "恆山公武仙降大元"
+   },
+   {
+    "t": "1225-01-01",
+    "gun": "1225 (Zhengda 2 / Yi You), yıl hassasiyeti",
+    "k": "isyan",
+    "b": "Wu Xian Zhending'de Shi Tianni'yi öldürür; Zhending'i Jin'e 'getirir'; Moğol generali Xiaonaixue Wu Xian'ı kovar, Wu Xian bir ay sonra yeniden girer ve tekrar Kaifeng'e kaçar; Shi Tianze Zhending'i yeniden alır (Jin Shi 118; Yuan Shi 147, 155). Dönem AÇILMADI (<1 yıl, süre bilinmiyor).",
+    "kaynak": "Jin shi 118 — https://zh.wikisource.org/wiki/金史/卷118 ; Yuan shi 147 — https://zh.wikisource.org/wiki/元史/卷147",
+    "tanik": "仙賊殺史天倪，複以真定來降"
+   },
+   {
+    "t": "1260-05-05",
+    "gun": "5 Mayıs 1260",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → Yuan (Kubilai Kaiping'de imparator olur). (Shi Tianze Zhending lu valisi; Zhending'e özgü kayıt yok.)",
+    "kaynak": "Yuan shi 4 (元史/卷4)",
+    "tanik": "辛卯，帝即皇帝位"
+   }
+  ],
+  "ic_not": "ÖZET (hayalet uyarılarının hepsi: künye t < gerçek geçiş günü ⇒ künye GENİŞLET): ilk yer-kesin tarihli tanık Jiu Tang shu 39 (Hengzhou merkezi Zhending'e 621); Han–Sui Zhending/Dongyuan ESKİ YER (~8 li güney, >3 km) bu kayıtta yok — ayrı kayıt önerisi zhengding-dongyuan-cin (ilk.ic_not). ATLAS: ilk sahiplik 1281-01-01 yuan-hanedani — zincir ona bağlandı; atlas başlangıcı düzeltme gerekmez. KÜNYE ÖNERİLERİ: yan-an-lushan (756–763), zhao-wang-rong-chengde (907–921), zhang-wenli-zhenzhou (921–922), jin-shatuo-li-keyong (907–923, Pingyao kaydıyla ortak); GENİŞLET: tang.t → 0907-06-01, sonraki-tang/jin/han/zhou-5hanedan, mogol-imparatorlugu.t → 1260-05-05, wu-zhou.t. ÇİFT TEYİT: Song Shi 23 + Jin Shi 74 (Jin fethi) iki bağımsız ulusal kronikte teyit EDİLMEDİ — ay çelişkisi var (Song 10. ay, Jin 9. ay), çift teyit sayılmaz. BULUNAMADI: Zhending'e özgü — Sui–Tang (618–621) el değişimi; An Lushan sonrası 756-07→757-02 arası el değişim günü; Later Jin 937 ve Later Zhou 951 geçişleri; An Chongrong isyanı (941–942); Moğol 1220'de Zhending şehrinin düşüş günü; 1225 olaylarının günü; Dongyuan'ın Han öncesi (Zhongshan–Zhao) yıl doğrulaması (Shiji 43 taranmadı); arkeolojik rapor. AÇILAMAYAN: —."
+ },
+ {
+  "id": "zhengzhou-cin",
+  "ad": "Zhengzhou",
+  "atlas_ad": "Zhengzhou",
+  "lat": 34.746,
+  "lon": 113.625,
+  "kat1900": 3,
+  "adlar": [
+   "Ao/Bo (?) — Zhengzhou Shang City (Erligang), ayrı yer: atlas noktasından ~6 km (Wikipedia koordinatı 34.752, 113.690; KESİN DEĞİL)",
+   "Guan / 管 (Zhou başı, Guan Shu'nun fiefi; Guancheng ile eşitleme yeri-kesin değil)",
+   "Guancheng / 管城 (Sui 596; Guanzhou merkezi)",
+   "Zhengzhou / 鄭州 (Sui Daye 2, 606; Tang Zhenguan 7, 633 seti)",
+   "Rongyang jun / 滎陽郡 (Sui 607, Tang)",
+   "Fengning jun / 奉寧軍 (Song)",
+   "Zhengzhou (Jin, Yuan)"
+  ],
+  "ilk": {
+   "t": "0596-01-01",
+   "gun": "Kaihuang 16 (596)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Sui Shu 30 (Dili zhi: Rongyang jun, Guancheng xian) — https://zh.wikisource.org/wiki/隋書/卷30",
+   "tanik": "十六年析置管城",
+   "ic_not": "Guancheng ilçesi + Guanzhou kuruluşu (Sui Shu 30: \"開皇十六年置管州\"). Yer: Taiping huanyu ji 9 (Song) Zhengzhou seti = Guancheng ilçesi, \"本周管叔之國\" ve \"自漢至隋，皆為中牟縣，開皇十六年，於此置管城縣\"; Xin Tang Shu 38: Zhenguan 7 (633) Zhengzhou seti Guancheng'e taşınır. Atlas noktası (34.746, 113.625) ile Guancheng eski şehri arasındaki mesafe ≤3 km mi: ÖLÇÜLEMEDİ (Guancheng Hui bölgesi merkezi 34.755, 113.671 — zh.wikipedia, ~4 km doğuda; eski şehir merkezi bundan batıda olabilir) — KESİN DEĞİL. Daha eski adaylar yeri-kesin değil olduğundan başlangıç sayılmadı (ic_not)."
+  },
+  "kur": {
+   "t": "0596-01-01",
+   "gun": "Kaihuang 16 (596)",
+   "kesinlik": "yil",
+   "kaynak": "Sui Shu 30 (Dili zhi: Rongyang jun, Guancheng xian) — https://zh.wikisource.org/wiki/隋書/卷30",
+   "tanik": "十六年析置管城"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0596-01-01",
+    "t": "0619-05-25",
+    "d": "sui",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Sui Shu 30 (隋書/卷30) — https://zh.wikisource.org/wiki/隋書/卷30 ; Taiping huanyu ji 9 — https://zh.wikisource.org/wiki/太平寰宇記/卷009",
+    "ic_not": "Sui: Kaihuang 16'da Guanzhou; Daye 2'de Guanzhou Zhengzhou adını alır (Taiping huanyu ji 9: 煬帝二年…改管州為鄭州; Sui Shu 30: 大業初複曰鄭州); Daye 3 Rongyang jun. Sui künyesi t=618-01-01 < 619-04: hayalet uyarısı. Sui çöküşü 617-618 (Li Mi'nin Wei/Wagang bölgesi, Xingyang çevresi): Guancheng'in ne zaman Sui elinden çıktığı BULUNAMADI (ZZTJ 183-186, Sui Shu 70 Guancheng/Guanzhou taraması: bahis yok). f/t: bir sonraki sahibin (Zheng) kuruluş günü — en geç tanıktan; Sui'nin son yer-kesin tanığı ~606-607 → 12-13 yıl (<1 kuşak).",
+    "tanik": "十六年析置管城"
+   },
+   {
+    "f": "0619-05-25",
+    "t": "0620-11-20",
+    "d": "zheng-wang-shichong",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 187 (資治通鑑/卷187) — https://zh.wikisource.org/wiki/資治通鑑/卷187 ; Zizhi tongjian 188 (資治通鑑/卷188) — https://zh.wikisource.org/wiki/資治通鑑/卷188",
+    "ic_not": "KÜNYE YOK: önerilen id \"zheng-wang-shichong\" (Zheng / 鄭, Wang Shichong'un devleti, Luoyang merkezli; Kaiming; ömür: ZZTJ 187 Wude 2 4. ay 乙巳 (619-04) tahta çıkışından ZZTJ 189 Wude 4 5. ay 丙寅 (621) teslimine). ZZTJ 188: Yang Qing'in Wang Shichong tarafından \"管州總管\" atanması (stuff: Shichong tahta çıkınca); Guanzhou'nun Zheng'e geçiş günü kaynakta yok → f = Zheng kuruluş günü (en erken olası; ic_not beyan); Zheng elinde olduğunun en geç tanığı ZZTJ 188 Wude 3 (620) 10. ay, Yang Qing'in Tang'a teslimi.",
+    "kunye_yok": true,
+    "tanik": "世充以為管州總管"
+   },
+   {
+    "f": "0620-11-20",
+    "t": "0690-10-16",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Zizhi tongjian 188 (資治通鑑/卷188) — https://zh.wikisource.org/wiki/資治通鑑/卷188 ; Xin Tang Shu 38 (新唐書/卷038) — https://zh.wikisource.org/wiki/新唐書/卷038 ; Jiu Tang Shu 38 (舊唐書/卷38) — https://zh.wikisource.org/wiki/舊唐書/卷38",
+    "ic_not": "f = Yang Qing'in Tang'a teslimi (620, 10. ay 庚戌; ZZTJ 188), ardından Wang Shichong'un oğlu Xuanying'in Guancheng'e yürüyüşü ve Li Shiji'nin geri püskürtmesi: Guancheng Tang elinde. Wude 4 (621) ilkbaharında Dou Jiande Guanzhou'yu kısa süre alır (olay; kalıcı değil); Tang Wude 4'te Zhengzhou'yu Hulao'da (Wulao) kurar ve Guancheng'de Guanzhou'yu; Zhenguan 7 (633) Zhengzhou seti Guancheng'e taşınır (Xin Tang Shu 38).",
+    "tanik": "貞觀七年徙治管城"
+   },
+   {
+    "f": "0690-10-16",
+    "t": "0705-03-03",
+    "d": "wu-zhou",
+    "kesinlik": "gun",
+    "kaynak": "Xin Tang Shu 38 (新唐書/卷038) — https://zh.wikisource.org/wiki/新唐書/卷038",
+    "ic_not": "Künye geçişi (Wu Zetian Zhou'yu ilan eder; xian katalogu). Zhengzhou'ya özgü tanık bulunamadı. Not: Jiu Tang Shu 38 Luoyang bölümü Tianshou 1 (690)'de Rongyang ve Wutai ilçelerini Zhengzhou'dan Luoyang'a bağladığını söyler; Zhengzhou kendisi etkilenmez."
+   },
+   {
+    "f": "0705-03-03",
+    "t": "0907-06-01",
+    "d": "tang",
+    "kesinlik": "gun",
+    "kaynak": "Xin Tang Shu 38 (新唐書/卷038) — https://zh.wikisource.org/wiki/新唐書/卷038",
+    "ic_not": "Tang'ın yeniden kuruluşu (Zhongzong). Tang künyesi t=907-01-01 < 907-06-01: hayalet uyarısı — künye GENİŞLET: tang.t → 0907-06-01. Tang sonu: An-Shi, Huang Chao vb. Zhengzhou özgü tanık aranmadı/bulunamadı."
+   },
+   {
+    "f": "0907-06-01",
+    "t": "0923-12-31",
+    "d": "sonraki-liang-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai Shi 60 (新五代史/卷60, Zhifang kao) — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Ulusal künye geçişi (xian katalogu); Zhengzhou özgü tanık bulunamadı (Zhifang kao tablosunda Zhengzhou satırı eşleşmedi). Künye t=923-01-01 < 923-12-31: GENİŞLET."
+   },
+   {
+    "f": "0923-12-31",
+    "t": "0937-01-11",
+    "d": "sonraki-tang-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai Shi 60 (新五代史/卷60) — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Ulusal künye geçişi; Zhengzhou özgü tanık bulunamadı. Künye t=936-01-01 < 937-01-11: GENİŞLET."
+   },
+   {
+    "f": "0937-01-11",
+    "t": "0947-03-10",
+    "d": "sonraki-jin-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai Shi 60 (新五代史/卷60) — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Ulusal künye geçişi; Zhengzhou özgü tanık bulunamadı. Künye t=947-01-01 < 947-03-10: GENİŞLET."
+   },
+   {
+    "f": "0947-03-10",
+    "t": "0951-02-13",
+    "d": "sonraki-han-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai Shi 60 (新五代史/卷60) — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Ulusal künye geçişi; Zhengzhou özgü tanık bulunamadı. Künye t=951-01-01 < 951-02-13: GENİŞLET."
+   },
+   {
+    "f": "0951-02-13",
+    "t": "0960-02-04",
+    "d": "sonraki-zhou-5hanedan",
+    "kesinlik": "gun",
+    "kaynak": "Xin Wudai Shi 60 (新五代史/卷60) — https://zh.wikisource.org/wiki/新五代史/卷60",
+    "ic_not": "Ulusal künye geçişi; Zhengzhou özgü tanık bulunamadı. Künye t=960-01-01 < 960-02-04: GENİŞLET."
+   },
+   {
+    "f": "0960-02-04",
+    "t": "1126-11-29",
+    "d": "song",
+    "kesinlik": "gun",
+    "kaynak": "Song Shi 85 (宋史/卷085, Dili zhi: Zhengzhou) — https://zh.wikisource.org/wiki/宋史/卷085",
+    "ic_not": "Song: Zhengzhou, Fengning jun jiedu (奉寧軍節度); Xining 5 (1072)'de il kaldırılır, Guancheng ve Xinzheng Kaifeng fu'ya bağlanır, daha sonra geri verilir; 1102-1120 Xi Fu (西輔) komutanlığı. Bitiş: Jin'e \"皆降\" (Jin Shi 3, Tianhui 4, 11. ay 乙亥, Jin takvimiyle çevrildi).",
+    "tanik": "鄭州，輔，滎陽郡"
+   },
+   {
+    "f": "1126-11-29",
+    "t": "1140-09-03",
+    "d": "__BOSLUK__",
+    "kesinlik": "gun",
+    "kaynak": "Jin Shi 3 (金史/卷3) — https://zh.wikisource.org/wiki/金史/卷3 ; Song Shi 23 (宋史/卷023) — https://zh.wikisource.org/wiki/宋史/卷023 ; Song Shi 25 (宋史/卷025) — https://zh.wikisource.org/wiki/宋史/卷025 ; Song Shi 27 (宋史/卷027) — https://zh.wikisource.org/wiki/宋史/卷027 ; Song Shi 29 (宋史/卷029) — https://zh.wikisource.org/wiki/宋史/卷029",
+    "ic_not": "BOŞLUK (sahibi değişken): 1126-11 Jin'e teslim (Jin Shi 3); 1126-12 Song'un Zhengzhou valisi Zhu Boyou şehri terk eder (Song Shi 23); 1128-01 Jin yeniden alır (Song Shi 25); 1128-02/03 Jin Shi 3: \"鄭州叛入于宋，復取鄭州\"; 1133-03 Song Shi 27: Zhengzhou bingma qianxia Niu Gao Song tarafında (Li Heng'e katılır) — Zhengzhou'nun o dönemde Song/Jin/Qi (Liu Yu, 1130-1137) arasında kiminde olduğu gün olarak BULUNAMADI. 1139-03 Jin–Song anlaşmasında Henan Song'a verilir (Zhengzhou adı geçmez); 1140 Yue Fei'nin geri alışı (閏六月 丁酉, Song Shi 29) — bitiş: Yue Fei'nin çekilmesi, \"潁昌、蔡、鄭諸州皆復爲金有\" (Song Shi 29, 7. ay 壬戌). Beyansız yaklaşıklık yazılmadı.",
+    "tanik": "潁昌、蔡、鄭諸州皆復爲金有"
+   },
+   {
+    "f": "1140-09-03",
+    "t": "1232-02-05",
+    "d": "jin-hanedani",
+    "kesinlik": "gun",
+    "kaynak": "Song Shi 29 (宋史/卷029) — https://zh.wikisource.org/wiki/宋史/卷029 ; Jin Shi 25 (金史/卷25, Dili zhi: Zhengzhou) — https://zh.wikisource.org/wiki/金史/卷25 ; Jin Shi 16 (金史/卷16) — https://zh.wikisource.org/wiki/金史/卷16",
+    "ic_not": "Jin: Zhengzhou fangyushi (防禦, 中); Jin Shi 16 Yuanguang 1 (1222): Zhengzhou fangyushi Peiman Yangge ve tongzhi Guliga Shilun görevden alınır. Bitiş: Moğol/Mengu ordusu Zhengzhou'ya gelir ve Ma Bojian teslim olur (Yuan Shi 2 Taizong 4, 1. ay 甲午 = Jin Shi 17 Tianxing 1, 1. ay, 甲午 sonrası: çift teyit).",
+    "tanik": "鄭州，中，防禦，宋滎陽郡奉寧軍節度"
+   },
+   {
+    "f": "1232-02-05",
+    "t": "1260-05-05",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "gun",
+    "kaynak": "Yuan Shi 2 (元史/卷002) — https://zh.wikisource.org/wiki/元史/卷002 ; Jin Shi 17 (金史/卷17) — https://zh.wikisource.org/wiki/金史/卷17",
+    "ic_not": "Moğol İmparatorluğu: Ögedei Zhengzhou'ya gelir; Jin savunma komutanı Ma Bojian teslim olur ve ona altın tamga verilip şehri tutması emredilir. Jin Shi 17 (1233): \"大元遣使自鄭州來諭降\" Zhengzhou'nun Moğol üssü olduğunu gösterir. Moğolların Zhengzhou'yu Jin'e bırakıp bırakmadığı (1232 yazı-1233 kışı) BULUNAMADI.",
+    "tanik": "次鄭州。金防城提控馬伯堅降"
+   },
+   {
+    "f": "1260-05-05",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": "gun",
+    "kaynak": "Yuan Shi 59 (元史/卷059, Dili zhi: Zhengzhou) — https://zh.wikisource.org/wiki/元史/卷059",
+    "ic_not": "Yuan: Zhengzhou, Henan jiangbei xingsheng Kaifeng lu'na bağlı; t = 1281-01-01 atlasın bugünkü ilk günüdür (yuan-hanedani) — dikişte olay gerekmez.",
+    "tanik": "金仍為鄭州。元初領管城、滎陽、汜水"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0596-01-01",
+    "gun": "Kaihuang 16 (596)",
+    "k": "kurulus",
+    "b": "Sui: Zhongmu ilçesinden Guancheng ilçesi ve Guanzhou ayrılır (Taiping huanyu ji 9: ilçe Zhou'nun Guan Shu fiefi yerinde).",
+    "kaynak": "Sui Shu 30 (隋書/卷30) — https://zh.wikisource.org/wiki/隋書/卷30 ; Taiping huanyu ji 9 — https://zh.wikisource.org/wiki/太平寰宇記/卷009",
+    "tanik": "十六年析置管城"
+   },
+   {
+    "t": "0606-01-01",
+    "gun": "Daye 2 (606; yıl hassasiyeti)",
+    "k": "idari",
+    "b": "Sui: Guanzhou Zhengzhou adını alır (eski Zhengzhou kaldırılır); Daye 3'te Rongyang jun.",
+    "kaynak": "Taiping huanyu ji 9 (太平寰宇記/卷009) — https://zh.wikisource.org/wiki/太平寰宇記/卷009 ; Sui Shu 30 (隋書/卷30) — https://zh.wikisource.org/wiki/隋書/卷30",
+    "tanik": "煬帝二年，廢鄭州，仍改管州為鄭州"
+   },
+   {
+    "t": "0619-05-25",
+    "gun": "Wude 2 (619), 4. ay 乙巳",
+    "k": "diger",
+    "b": "Künye geçişi: Sui → Zheng (Wang Shichong imparator olur); Guanzhou'nun fiilî geçişi bu günden sonra, 620'ye kadar (Yang Qing'in \"管州總管\" ataması). Zhengzhou'ya özgü teslim günü bulunamadı.",
+    "kaynak": "Zizhi tongjian 187 (資治通鑑/卷187) — https://zh.wikisource.org/wiki/資治通鑑/卷187 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "乙巳，王世充備法駕入宮，即皇帝位"
+   },
+   {
+    "t": "0620-11-20",
+    "gun": "Wude 3 (620), 10. ay 庚戌",
+    "k": "diger",
+    "b": "Künye geçişi: Zheng → Tang. Guanzhou zongguan Yang Qing (Wang Shichong'un damadı) Tang'a teslim olur; Xuanying'in Guancheng'e saldırısı Li Shiji tarafından püskürtülür (Guancheng Tang elinde). Teslim günü Yang Qing'in kendisinindir (Guanzhou'nun devri aynı gün kabul edildi — kesin değil).",
+    "kaynak": "Zizhi tongjian 188 (資治通鑑/卷188) — https://zh.wikisource.org/wiki/資治通鑑/卷188 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "庚戌，慶來降，復姓楊氏，拜上柱國、郇國公"
+   },
+   {
+    "t": "0620-11-20",
+    "gun": "Wude 3 (620), 9. ay",
+    "k": "sefer",
+    "b": "Tang generali Wang Junkuo Huanyuan'ı alır, doğuya Guancheng'e kadar ilerleyip döner; Henan eyaletleri sırayla teslim olur (Jiu Tang Shu 54: \"東徇地至管城而還\").",
+    "kaynak": "Jiu Tang Shu 54 (舊唐書/卷54) — https://zh.wikisource.org/wiki/舊唐書/卷54",
+    "tanik": "東徇地至管城而還"
+   },
+   {
+    "t": "0621-03-29",
+    "gun": "Wude 4 (621), 3. ay (ay hassasiyeti)",
+    "k": "isgal",
+    "b": "Xia kralı Dou Jiande, Luoyang'ı kurtarmaya giderken Guanzhou'yu alıp vali Guo Shi'an'ı öldürür, Xingyang'a ilerler; Hulao yenilgisiyle (5. ay) kısa sürede çekilir — geçici (<1 yıl): dönem AÇILMADI.",
+    "kaynak": "Zizhi tongjian 189 (資治通鑑/卷189) — https://zh.wikisource.org/wiki/資治通鑑/卷189 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "竇建德陷管州，殺刺史郭士安"
+   },
+   {
+    "t": "0633-01-01",
+    "gun": "Zhenguan 7 (633; yıl hassasiyeti)",
+    "k": "idari",
+    "b": "Tang: Zhengzhou seti Hulao'dan Guancheng'e taşınır — bugünkü Zhengzhou'nun il merkezi oluşu.",
+    "kaynak": "Xin Tang Shu 38 (新唐書/卷038) — https://zh.wikisource.org/wiki/新唐書/卷038",
+    "tanik": "貞觀七年徙治管城"
+   },
+   {
+    "t": "0690-10-16",
+    "gun": "16 Ekim 690",
+    "k": "diger",
+    "b": "Künye geçişi: Tang → Wu Zhou (Wu Zetian). Zhengzhou'ya özgü tanık yok; toprak el değiştirmez.",
+    "kaynak": "Jiu Tang shu 6 (舊唐書/卷6)",
+    "tanik": "九月九日壬午，革唐命，改國號為周"
+   },
+   {
+    "t": "0705-03-03",
+    "gun": "3 Mart 705",
+    "k": "diger",
+    "b": "Künye geçişi: Wu Zhou → Tang (Zhongzong). Zhengzhou'ya özgü tanık yok.",
+    "kaynak": "Jiu Tang shu 7 (舊唐書/卷7)",
+    "tanik": "二月甲寅，復國號，依舊為唐"
+   },
+   {
+    "t": "0907-06-01",
+    "gun": "1 Haziran 907",
+    "k": "diger",
+    "b": "Künye geçişi: Tang → Sonraki Liang (Zhu Wen imparator olur). Zhengzhou'ya özgü teslim günü bulunamadı.",
+    "kaynak": "Xin Wudai shi 2 (新五代史/卷02)",
+    "tanik": "甲子，皇帝即位"
+   },
+   {
+    "t": "0923-12-31",
+    "gun": "31 Aralık 923",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Liang → Sonraki Tang. Zhengzhou'ya özgü teslim günü bulunamadı.",
+    "kaynak": "Zizhi tongjian 272 (資治通鑑/卷272)",
+    "tanik": "辛酉，復以永平軍大安府為西京京兆府"
+   },
+   {
+    "t": "0937-01-11",
+    "gun": "11 Ocak 937",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Tang → Sonraki Jin (Tang son imparatoru kendini yakar). Zhengzhou'ya özgü tanık yok.",
+    "kaynak": "Xin Wudai shi 7 (新五代史/卷7)",
+    "tanik": "辛巳，皇帝崩"
+   },
+   {
+    "t": "0947-03-10",
+    "gun": "10 Mart 947",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Jin → Sonraki Han (Liu Zhiyuan imparator olur). Zhengzhou'ya özgü tanık yok.",
+    "kaynak": "Jiu Wudai shi 99 (舊五代史/卷99)",
+    "tanik": "辛未，帝於太原宮受冊，即皇帝位"
+   },
+   {
+    "t": "0951-02-13",
+    "gun": "13 Şubat 951",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Han → Sonraki Zhou (Guo Wei imparator olur). Zhengzhou'ya özgü tanık yok.",
+    "kaynak": "Xin Wudai shi 11 (新五代史/卷11)",
+    "tanik": "皇帝即位，大赦，改元，國號周"
+   },
+   {
+    "t": "0960-02-04",
+    "gun": "4 Şubat 960",
+    "k": "diger",
+    "b": "Künye geçişi: Sonraki Zhou → Song (Zhao Kuangyin). Zhengzhou'ya özgü tanık yok.",
+    "kaynak": "Song shi 1 (宋史/卷1)",
+    "tanik": "定有天下之號曰宋"
+   },
+   {
+    "t": "1072-01-01",
+    "gun": "Xining 5 (1072; yıl hassasiyeti)",
+    "k": "idari",
+    "b": "Song: Zhengzhou il olarak kaldırılır, Guancheng ve Xinzheng Kaifeng fu'ya bağlanır (sahip değişmez).",
+    "kaynak": "Song Shi 85 (宋史/卷085) — https://zh.wikisource.org/wiki/宋史/卷085",
+    "tanik": "廢州，以管城、新鄭隸開封府"
+   },
+   {
+    "t": "1126-11-29",
+    "gun": "Tianhui 4 (1126), 11. ay 乙亥 (Jin takvimi)",
+    "k": "fetih",
+    "b": "Jin generali Zonghan (Niaman) Taiyuan'dan Bian'a ilerlerken Xijing, Yong'an jun ve Zhengzhou Jin'e teslim olur.",
+    "kaynak": "Jin Shi 3 (金史/卷3) — https://zh.wikisource.org/wiki/金史/卷3 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "西京、永安軍、鄭州皆降"
+   },
+   {
+    "t": "1126-12-17",
+    "gun": "Jingkang 1 (1126), artık 11. ay 癸巳 (Song takvimi)",
+    "k": "kayip",
+    "b": "Song Zhengzhou valisi Zhu Boyou şehri terk eder (cezalandırılır). (Jin Shi 3'ün 乙亥 teslim günüyle birkaç hafta sapma: iki takvim/iki ayrı olay.)",
+    "kaynak": "Song Shi 23 (宋史/卷023) — https://zh.wikisource.org/wiki/宋史/卷023 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "朱伯友坐棄鄭州，降三官罷"
+   },
+   {
+    "t": "1128-02-18",
+    "gun": "Jianyan 2 (1128), 1. ay 辛丑",
+    "k": "fetih",
+    "b": "Jin Zhengzhou'yu alır, tongpan Zhao Bozhen ölür (Jin Shi 3 ayrıca 1128 2. ay: Zhengzhou Song'a döner, Jin yeniden alır — geçici).",
+    "kaynak": "Song Shi 25 (宋史/卷025) — https://zh.wikisource.org/wiki/宋史/卷025 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "金人陷鄭州，通判趙伯振死之"
+   },
+   {
+    "t": "1128-03-03",
+    "gun": "Tianhui 6 (1128), 2. ay (ay hassasiyeti)",
+    "k": "isyan",
+    "b": "Jin Shi 3: Zhengzhou Song'a karşı isyan edip Song'a döner; Jin yeniden alır ve halkı Hebei'ye sürer.",
+    "kaynak": "Jin Shi 3 (金史/卷3) — https://zh.wikisource.org/wiki/金史/卷3 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "鄭州叛入于宋，復取鄭州"
+   },
+   {
+    "t": "1133-03-24",
+    "gun": "Shaoxing 3 (1133), 2. ay 壬寅",
+    "k": "diger",
+    "b": "Zhengzhou bingma qianxia (ordu görevlisi) Niu Gao ve Peng Qi, Li Heng'e katılır; Song Henan'da kalan askerî güç — Zhengzhou'nun sahibi bu kayıttan okunamaz.",
+    "kaynak": "Song Shi 27 (宋史/卷027) — https://zh.wikisource.org/wiki/宋史/卷027 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "鄭州兵馬鈐轄牛皋、彭玘率兵與李橫會"
+   },
+   {
+    "t": "1140-08-09",
+    "gun": "Shaoxing 10 (1140), artık 6. ay 丁酉",
+    "k": "fetih",
+    "b": "Yue Fei komutanları Hao Sheng vd. Zhengzhou'nun kuzeyinde Jin'i yener ve Zhengzhou'yu geri alır — geçici: bir ay içinde geri çekilme.",
+    "kaynak": "Song Shi 29 (宋史/卷029) — https://zh.wikisource.org/wiki/宋史/卷029 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "飛遣統制郝晸等與金人戰于鄭州北，復鄭州"
+   },
+   {
+    "t": "1140-09-03",
+    "gun": "Shaoxing 10 (1140), 7. ay 壬戌",
+    "k": "kayip",
+    "b": "Yue Fei emirle Yancheng'den çekilince ordusu dağılır; Yingchang, Cai ve Zhengzhou yeniden Jin'in olur. (Jin–Song 1139 anlaşması sonrası 1139-03/04 Henan'ın Song'a verildiği Zhengzhou özelinde tanıklanmadı.)",
+    "kaynak": "Song Shi 29 (宋史/卷029) — https://zh.wikisource.org/wiki/宋史/卷029 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "潁昌、蔡、鄭諸州皆復爲金有"
+   },
+   {
+    "t": "1232-02-05",
+    "gun": "Taizong 4 (1232), 1. ay 甲午",
+    "k": "fetih",
+    "b": "Ögedei (Taizong) Baipo'dan Sarı Nehir'i geçip Zhengzhou'ya varır; Jin savunma komutanı Ma Bojian teslim olur ve altın tamga alıp Zhengzhou'yu tutmakla görevlendirilir. Çift teyit: Jin Shi 17 (Tianxing 1, 1. ay): \"屯軍元帥馬伯堅以城降\".",
+    "kaynak": "Yuan Shi 2 (元史/卷002) — https://zh.wikisource.org/wiki/元史/卷002 ; Jin Shi 17 (金史/卷17) — https://zh.wikisource.org/wiki/金史/卷17 ; Çin takviminden çevrildi: ytliu0 ChineseCalendar (Y.T. Liu, ytliu0.github.io/ChineseCalendar; 722 MÖ–2200) Jülyen",
+    "tanik": "次鄭州。金防城提控馬伯堅降"
+   },
+   {
+    "t": "1260-05-05",
+    "gun": "5 Mayıs 1260",
+    "k": "diger",
+    "b": "Künye geçişi: Moğol İmparatorluğu → Yuan (Kubilay Kaiping'de imparator olur). Zhengzhou'ya özgü tanık yok.",
+    "kaynak": "Yuan shi 4 (元史/卷4)",
+    "tanik": "辛卯，帝即皇帝位"
+   }
+  ],
+  "ic_not": "Zhengzhou (34.746, 113.625): sahip zinciri 596 → 1281-01-01 kesintisiz. İlk yeri-kesin yazılı tanık: Sui Shu 30, Kaihuang 16 (596) Guancheng ilçesi + Guanzhou kuruluşu; yer, Taiping huanyu ji 9 (Song) ve Xin Tang Shu 38 (Zhengzhou seti Guancheng) ile bağlı; atlas noktasına ≤3 km mesafe ÖLÇÜLEMEDİ (kesin değil). AYRI KAYIT ÖNERİLERİ (hafızadan değil, kaynaklı): (1) Zhengzhou Shang City (Erligang; arkeolojik; MÖ ~1630-1400: Childs-Johnson 2020, Oxford Handbook of Early China, p.260, Wikipedia aracılığıyla ikincil; An Jinhuai, 'The Shang City at Zhengzhou and Related Problems', Early China 9 (1986) 3-4: 6960 m çevreli dikdörtgen sur, Late Erlitou sonrası, Erligang alt tabakalarından önce; Ao/Bo kimliği tartışmalı — Xu Hong 2021, Springer p.174). Wikipedia koordinatı 34.752 N, 113.690 E → atlas noktasından ≈6 km doğuda (KESİN DEĞİL, mesafe ölçülmedi) → ark alanı BURADA YAZILMADI. (2) Zhou Guan / 管 (Guan Shu fiefi): Du Yu Shili (Taiping huanyu ji 9 aracılığıyla): '管國在滎陽京縣東北管城' — Guan = Guancheng eşitlemesi Du Yu/Song yazarına dayanır, Shiji/Zuozhuan üzerinden yeri kesin teyit BULUNAMADI; Wei Shu 106 Zhongmu ve Jing ilçelerinin her ikisi de '管城' yer adını sayar (Doğu Wei) → çelişki, başlangıç sayılmadı. Hanshu 28: Henan jun (Zhongmu) — Taiping: '自漢至隋，皆為中牟縣' — atlas noktası Han-Sui döneminde Zhongmu ilçesi içinde, şehir yok → öncesi yazılmadı. Sui'nin 583 'Zhengzhou' adı Hulao/Sishui bölgesine (eski Rongzhou) aittir (Taiping: '改滎州為鄭州') ve Guancheng ile aynı yer DEĞİLDİR. KÜNYE ÖNERİLERİ: sui.t → ≥0619-04 GENİŞLET (Zhengzhou için); yeni künye 'zheng-wang-shichong' (Zheng / 鄭, Wang Shichong; 619-04 → 621-06; ZZTJ 187/189); tang.t → 0907-06-01; sonraki-liang/tang/jin/han/zhou-5hanedan t'lerini xian katalog günlerine GENİŞLET. Wu Zhou 690-705 yalnız ulusal künye geçişi. 1126-1140 BOŞLUK (Jin/Song/Chu/Qi/Song arasında gidip gelen sahiplik; Zhengzhou özelinde tüm el değişimlerinin günü bulunamadı); 1140-07 Jin kalıcı. Çift teyit: 1232 Ma Bojian'ın teslimi (Yuan Shi 2 ↔ Jin Shi 17). Kaynak çelişkisi: Jin Shi 3 (Zonghan 1126-11) ↔ Song Shi 23 (Zhu Boyou, 1127-01) farklı olaylar. Açılamayan kaynak: Cambridge Early China makalesi yalnız özet (abstract) olarak açıldı; Oxford Handbook ve Springer cilt kitapları açılmadı (Wikipedia atıfı)."
  },
  {
   "id": "zigetvar-hu",
