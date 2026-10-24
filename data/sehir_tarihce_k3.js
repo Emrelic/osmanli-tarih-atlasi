@@ -9221,6 +9221,109 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "TDV 'Estergon' Roma dönemini hiç anmaz. 1000-1001 'taç' yılı ve Estergon'un başşehir olduğu XI. yy TDV'ye göre; Estergon'un 1000'de İstván tarafından başpiskoposluk yapıldığı EI 'Storia'da ('verso il 1000') geçer. Atlas Estergon'u 1281'de macaristan ile başlatır: zincir aynı sahiple biter."
  },
  {
+  "id": "evora-pt",
+  "ad": "Évora",
+  "atlas_ad": "Évora",
+  "lat": 38.571,
+  "lon": -7.907,
+  "kat1900": 3,
+  "adlar": [
+   "Ebora (Liberalitas Iulia)",
+   "Évora"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "MS 2. yüzyıl",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'ÉVORA' (Storia), https://www.treccani.it/enciclopedia/evora_(Enciclopedia-Italiana)/",
+   "tanik": "Per i suoi caratteri stilistici può essere ascritto alla fine del secolo II d. C.",
+   "ic_not": "Arkeolojik güvenli uç: Treccani Évora, Roma tapınağını üslup özellikleriyle MS 2. yy sonuna tarihler (Pleiades 982853456/389853508: kapı ve hamamlar MS 2.-3. yy). Şehrin kendisi daha eskidir ('municipio Liberalitas Iulia'); YAZILI tanık (Plinius NH 4, Ptolemaios) bu oturumda açılamadı ve Pleiades 256151 Ebora 'roman' (MÖ 30-640) der. Kuruluş tarihi bulunamadı (Treccani: 'cittadella di Sertorio', Kelt kökenli)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0200-01-01",
+   "gun": "MS 2. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'ÉVORA' (Storia), https://www.treccani.it/enciclopedia/evora_(Enciclopedia-Italiana)/",
+   "tanik": "Per i suoi caratteri stilistici può essere ascritto alla fine del secolo II d. C."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ÉVORA' (Storia), https://www.treccani.it/enciclopedia/evora_(Enciclopedia-Italiana)/; Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "Per i suoi caratteri stilistici può essere ascritto alla fine del secolo II d. C.",
+    "ic_not": "f: arkeolojik güvenli uç (gerçek Roma hâkimiyeti çok daha eski; kaynaklı tarih yok). Treccani: Ebora Lusitania'da municipio (Liberalitas Iulia), Conventus Pacensis."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0411-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "intorno al 411, gl'invasori così si ripartirono il paese",
+    "ic_not": "t: Treccani 'intorno al 411'."
+   },
+   {
+    "f": "0411-01-01",
+    "t": "1165-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ÉVORA' (Storia), https://www.treccani.it/enciclopedia/evora_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "Conquistata dagli Arabi, fu loro tolta nel 1165",
+    "ic_not": "BOŞLUK (754 yıl): Treccani 'Sotto il dominio visigotico cristiano fu sede d'una diocesi. Conquistata dagli Arabi' der ama iki geçişin de tarihi yok; Alanlar/Süevler/Vizigotlar/Emevîler/Muvahhidler için Évora'ya özgü tanık bulunamadı. TDV'de Évora (Yâbura) maddesi bulunamadı (slug denemeleri yabura/yabure/yaburi/yabira/ebura: yok)."
+   },
+   {
+    "f": "1165-01-01",
+    "t": "1281-01-01",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ÉVORA' (Storia), https://www.treccani.it/enciclopedia/evora_(Enciclopedia-Italiana)/",
+    "tanik": "la donò al re Alfonso il Conquistatore",
+    "ic_not": "Atlas 1281 'portekiz' ile aynı sahip. Geraldo Sem Pavor Évora'yı ele geçirip Afonso Henriques'e bağışladı (Treccani 'Giraldes')."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0200-01-01",
+    "gun": "MS 2. yüzyıl",
+    "k": "mimari",
+    "b": "Évora Roma tapınağı (Diana) üslup özellikleriyle MS 2. yy sonuna tarihlenir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ÉVORA' (Storia), https://www.treccani.it/enciclopedia/evora_(Enciclopedia-Italiana)/",
+    "tanik": "Per i suoi caratteri stilistici può essere ascritto alla fine del secolo II d. C."
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0411-01-01",
+    "gun": "≈411",
+    "k": "diger",
+    "b": "Vandal, Alan ve Süev yerleşimleri; Évora için doğrudan tanık yok.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "intorno al 411, gl'invasori così si ripartirono il paese"
+   },
+   {
+    "t": "1165-01-01",
+    "gun": "1165",
+    "k": "fetih",
+    "b": "Geraldo 'Sem Pavor' Évora'yı Araplardan alıp Portekiz kralı Afonso Henriques'e bağışlar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'ÉVORA' (Storia), https://www.treccani.it/enciclopedia/evora_(Enciclopedia-Italiana)/",
+    "tanik": "fu loro tolta nel 1165 da un avventuriero"
+   }
+  ],
+  "ic_not": "Évora: yazılı tanık/kuruluş bulunamadı; ilk tarih arkeolojik güvenli uç (Treccani üslup tarihi). 411-1165 BOŞLUK. Atlas 1281 'portekiz' uyumlu."
+ },
+ {
   "id": "faro-pt",
   "ad": "Faro",
   "atlas_ad": "Faro",
@@ -16926,6 +17029,203 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Leizhou (atlas_ad 'Leizhou', kat1900 3 [liste ölçütü], atlas ilk gün 1281-01-01 yuan-hanedani). ① İLK ANILIŞ ve YER: atlas noktası (20.914, 110.096) = Haikang/Leizhou kenti. Yeri kesin ilk tanık Sui Shu 31 Haikang maddesi (Liang Datong sonu Nan Hezhou; güvenli uç 546). Han Xuwen ilçesi (Hanshu 28, Jin Shu 15 Hepu jun) ve Hepu çevresi Haikang ile eşitlenmedi; AYRI KAYIT ÖNERİSİ: 'xuwen-han-cin' (Han Xuwen ilçesi, Hepu/Zhuya; bugünkü Xuwen ilçesi bu noktadan ~70 km güneyde, KESİN DEĞİL — Hanshu 28/Song Shu 38 '徐聞令，故屬朱崖'; yer eşitlemesi bu oturumda doğrulanmadı) ve 'hepu-han-cin'. ② ZİNCİR: Liang 546 → Chen → Sui → __BOSLUK__ (618-622, Ning Xuan/Hepu komutanlığı; Xiao Xian-Feng Ang-Lin Shihong bağları Leizhou'ya özgü değil) → Tang (622-?, Ning Xuan teslimi gün kayıtlı) → Liang nominal 907 → Nan Han 917 → Song 971-03-22 → Yuan 1278 (yıl). Atlas 1281-01-01 yuan-hanedani ile dikiş TAMAM (aynı sahip). ③ KÜNYE ÖNERİLERİ (hayalet uyarıları bunlarla açıklanır; ulusal geçiş günü ile künye yıl sınırı arasındaki fark, GENİŞLET): liang-guney.t → 0557-11-16; chen.t → 0589-02-02; sui.t → 0618-06-18; wu-zhou.t → 0705-03-03; tang.t → 0907-06-01; guney-han-10krallik.t → 0971-03-22. ④ OKUNMAYAN: Leizhou yerel gazeteleri (Leizhou fuzhi); Song dönemi Kou Zhun, Su Shi sürgün kayıtları (kronoloji için, sahip değişimi değil); Nan Han–Song arası Leizhou-özgü tanık; arkeolojik rapor aranmadı. Kaynak: zh.wikisource birincil Çince metin."
  },
  {
+  "id": "leon-es",
+  "ad": "León",
+  "atlas_ad": "León",
+  "lat": 42.599,
+  "lon": -5.567,
+  "kat1900": 3,
+  "adlar": [
+   "Legio VII Gemina (Legio)",
+   "Liyûn (TDV)",
+   "León"
+  ],
+  "ilk": {
+   "t": "0000-01-01",
+   "gun": "MÖ 1. yüzyıl sonu",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Salduie 2026, 'Cerámica, vidrio y metales de la periferia del campamento romano de León (España): el sector calle La Torre 9', https://doi.org/10.26754/ojs_salduie/sald.2026112566 (OpenAlex özeti)",
+   "tanik": "fechados entre finales del siglo I a. C.",
+   "ic_not": "Arkeolojik güvenli uç: Roma kampının ilk askerî iskân katmanları 'finales del siglo I a. C.' (Salduie 2026, calle La Torre 9; sonraki katman 1. yy ikinci yarısı: Legio VII Gemina'nın yerleşmesi) → MÖ 1. yüzyıl sonu = 0000-01-01. Yazılı tanık bu oturumda açılamadı (Plinius/Ptolemaios/Antoninus Güzergâhı ile Legio VII Gemina anılışı doğrulanmadı). Treccani 'È probabilmente, la romana Legio' (kimlik 'muhtemelen'); Pleiades 236512 Legio VII Gemina = León (kimlik teyidi)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0000-01-01",
+   "gun": "MÖ 1. yüzyıl sonu",
+   "kesinlik": "yuzyil",
+   "kaynak": "Salduie 2026, 'Cerámica, vidrio y metales de la periferia del campamento romano de León (España): el sector calle La Torre 9', https://doi.org/10.26754/ojs_salduie/sald.2026112566 (OpenAlex özeti)",
+   "tanik": "fechados entre finales del siglo I a. C."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0000-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Salduie 2026, 'Cerámica, vidrio y metales de la periferia del campamento romano de León (España): el sector calle La Torre 9', https://doi.org/10.26754/ojs_salduie/sald.2026112566 (OpenAlex özeti); Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "vinculados a las primeras fases de ocupación militar",
+    "ic_not": "Roma ordugâhı/kenti (Legio VII Gemina). f: arkeolojik katman (MÖ 1. yy sonu)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0470-01-01",
+    "d": "bati-roma",
+    "kesinlik": "onyil",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "verso il 470 il loro re Eurico poté divenire signore di gran parte della Spagna",
+    "ic_not": "t: Treccani Spagna 'verso il 470 il loro re Eurico poté divenire signore di gran parte della Spagna' (Galiçya ve Lusitania'nın bir kısmı hariç). León'a özgü Vizigot fethi günü bulunamadı."
+   },
+   {
+    "f": "0470-01-01",
+    "t": "0713-01-01",
+    "d": "vizigot",
+    "kesinlik": "onyil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "ertesi yıl içerisinde León (Liyûn), Galicia (Cillîkıye) bölgeleri",
+    "ic_not": "f ≈470 (Euric, Treccani Spagna; León'a özgü tanık yok). t: TDV Endülüs 'Mûsâ b. Nusayr 712'de geçti ... ertesi yıl içerisinde León (Liyûn), Galicia ... hâkimiyet altına alındı' = 713. ÇELİŞKİ: Treccani León 'Conquistata dagli Arabi nel 717'; TDV esas alındı. Vizigot künyesi 711'de biter: 2 yıl uzatma (uyarı)."
+   },
+   {
+    "f": "0713-01-01",
+    "t": "0742-01-01",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus; Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "ertesi yıl içerisinde León (Liyûn), Galicia (Cillîkıye) bölgeleri",
+    "ic_not": "Müslüman fethi (TDV 713; Treccani 717). t: Treccani 'ripresa dal re delle Asturie nel 742'."
+   },
+   {
+    "f": "0742-01-01",
+    "t": "0846-01-01",
+    "d": "asturias",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "ripresa dal re delle Asturie nel 742",
+    "ic_not": "Asturias künyesi 718'de başlar. t: Treccani 'nuovamente in potere degli Arabi nell'846'."
+   },
+   {
+    "f": "0846-01-01",
+    "t": "0882-01-01",
+    "d": "endulus-emevi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "nuovamente in potere degli Arabi nell'846",
+    "ic_not": "t: Treccani 'definitivamente strappata a questi da Alfonso III nell'882'."
+   },
+   {
+    "f": "0882-01-01",
+    "t": "0909-01-01",
+    "d": "asturias",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "fu definitivamente strappata a questi da Alfonso III nell'882",
+    "ic_not": "t: Treccani 'Dal 909 al 1230 fu capitale del regno omonimo'. ÇELİŞKİ: TDV 'III. Alfonso (866-909) döneminde Galicia ve Leon ele geçirildi; 925'te Leon Krallığı kuruldu'; Asturias künyesi 910'da biter."
+   },
+   {
+    "f": "0909-01-01",
+    "t": "1230-09-23",
+    "d": "leon-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "Dal 909 al 1230 fu capitale del regno omonimo",
+    "ic_not": "León Krallığı künyesi 910-01-01'de başlar (909 f: 1 yıl hayalet uyarısı; Treccani 909, TDV 925). 988'de Mansûr tarafından alınıp yıkıldı (olay; dönem açılmadı), Alfonso V 11. yy başında yeniden kurdu."
+   },
+   {
+    "f": "1230-09-23",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León",
+    "ic_not": "Künye geçişi León → Kastilya; atlas 1281 'kastilya' ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0000-01-01",
+    "gun": "MÖ 1. yüzyıl sonu",
+    "k": "kurulus",
+    "b": "Roma ordugâhı için ilk askerî iskân katmanları (sonra Legio VII Gemina).",
+    "kaynak": "Salduie 2026, 'Cerámica, vidrio y metales de la periferia del campamento romano de León (España): el sector calle La Torre 9', https://doi.org/10.26754/ojs_salduie/sald.2026112566 (OpenAlex özeti)",
+    "tanik": "vinculados a las primeras fases de ocupación militar"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0470-01-01",
+    "gun": "≈470",
+    "k": "fetih",
+    "b": "Vizigot kralı Euric İspanya'nın büyük bölümünün hâkimi olur (León'a özgü tanık yok).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "verso il 470 il loro re Eurico poté divenire signore di gran parte della Spagna"
+   },
+   {
+    "t": "0713-01-01",
+    "gun": "713",
+    "k": "fetih",
+    "b": "Mûsâ b. Nusayr ve Târık kuzeye ilerler: León (Liyûn) ve Galicia Müslüman hâkimiyetine girer (TDV 713; Treccani 717).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "ertesi yıl içerisinde León (Liyûn), Galicia (Cillîkıye) bölgeleri"
+   },
+   {
+    "t": "0742-01-01",
+    "gun": "742",
+    "k": "fetih",
+    "b": "Asturias kralı León'u Araplardan geri alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "ripresa dal re delle Asturie nel 742"
+   },
+   {
+    "t": "0846-01-01",
+    "gun": "846",
+    "k": "fetih",
+    "b": "León yeniden Arapların eline geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "nuovamente in potere degli Arabi nell'846"
+   },
+   {
+    "t": "0882-01-01",
+    "gun": "882",
+    "k": "fetih",
+    "b": "III. Alfonso León'u kesin olarak Araplardan alır.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "fu definitivamente strappata a questi da Alfonso III nell'882"
+   },
+   {
+    "t": "0909-01-01",
+    "gun": "909",
+    "k": "idari",
+    "b": "León Asturias-León krallığının başkenti olur (Treccani 909; TDV 925: 'idarî merkezin Leon’a nakliyle 925’te Leon Krallığı kuruldu').",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "Dal 909 al 1230 fu capitale del regno omonimo"
+   },
+   {
+    "t": "0988-01-01",
+    "gun": "988",
+    "k": "kusatma",
+    "b": "el-Mansûr León'u kuşatıp alır, şehir yarı yıkılır; Alfonso V 11. yy başında yeniden kurar (kısa ele geçirme; dönem açılmadı).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 988, assediata dal musulmano al-Manṣūr, dovette arrendersi"
+   },
+   {
+    "t": "1230-09-23",
+    "gun": "1230",
+    "k": "taht",
+    "b": "Alfonso IX ölür; III. Fernando León tacını da alır (künye geçişi: León → Kastilya).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León"
+   }
+  ],
+  "ic_not": "León: Treccani 'probabilmente' Legio; arkeolojik ilk iskân MÖ 1. yy sonu (Salduie 2026). Yazılı ilk tanık bulunamadı (Legio VII Gemina 68-74 kuruluş tarihi hakemli kaynakla açılamadı). Vizigot dönemi ≈470 (Treccani Spagna, genel) – León'a özgü değil. Çelişkiler: Arap fethi TDV 713 / Treccani 717; Asturias-León başkent Treccani 909 / TDV 925; künye 910. Atlas 1281 'kastilya' uyumlu."
+ },
+ {
   "id": "levice-sk",
   "ad": "Léva (Levice)",
   "atlas_ad": "Léva (Levice)",
@@ -18356,6 +18656,290 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Makao (atlas_ad \"Makao (Macau)\", kat1900 2; atlas ilk gün 1281-01-01 yuan-hanedani): atlas başlangıcı düzeltilmeli: yeri-kesin ilk tanık Ming shi 325 (Qing derlemesi) Jiajing 14 (1535) = 1535-01-01 > 1281; zincir BOŞ. ARANAN/BULUNAMADI (1281 öncesi): Song shi 90 (Guangdong, Guangzhou): \"香山，紹興二十二年，以東筦香山鎭爲縣\" (1152) — Xiangshan ilçesi kurulur, ama Makao yarımadasına/Haojing'e özgü kayıt YOK; Yuan shi 62 Guangzhou lu \"香山，下\" aynı şekilde. Haojing/Aomen adı Song–Yuan metinlerinde (wikisource tam metin araması: 壕鏡, 濠鏡, 澳門) bulunamadı; çıkan her sonuç Ming/Qing'dir. Fangyu shenglan, Yudi jisheng, Zhufanzhi (Zhao Rukuo 1225) bu oturumda Makao için taranmadı → \"Makao 1281 öncesi tanık: bulunamadı\". Popüler söylence (Song çağı balıkçı köyü, Tianhou/Mazu tapınağı) birincil/akademik kaynakla doğrulanamadı → yazılmadı. Not: Xiangshan ilçesinin kuruluş yılı kaynaklarda çelişir: Song shi 90 1152 (紹興二十二年) der; Du shi fangyu jiyao 101 \"紹興三十二年\" (1162) der (bu oturumda arama özetinde okundu) — Song shi (birincil derleme) esas, çelişki beyan. Sahiplik: 1535 öncesi atlas noktasının sahibi bu kayıtta yazılmaz; atlas 1281'de yuan-hanedani ile başlıyor — atlas başlangıcı Makao için 1535'e (ya da yeri-kesin daha erken tanığa) ertelenmeli ya da 1281-1535 arası Xiangshan ilçesi (Guangzhou lu) bölgesi olarak beyanlı yaklaşıklık seçilmeli. Çift teyit: yok. Archive.org/Gutenberg Portekizli/Arap seyyah metinleri bu nokta için açılmadı (Makao 1557 sonrası)."
+ },
+ {
+  "id": "malaga-es",
+  "ad": "Málaga",
+  "atlas_ad": "Málaga",
+  "lat": 36.721,
+  "lon": -4.421,
+  "kat1900": 3,
+  "adlar": [
+   "Malaka (Fenike)",
+   "Malaca (municipium Flavium Malacitanum)",
+   "Mâleka",
+   "Málaga"
+  ],
+  "ilk": {
+   "t": "-0900-01-01",
+   "gun": "MÖ 10. yüzyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+   "tanik": "Milâttan önce X. yüzyıl civarında Fenikeliler’in Lübnan’dan gelerek burada",
+   "ic_not": "TDV: 'MÖ X. yüzyıl civarında' Fenikelilerce kurulmuş (balık tuzlama merkezi). ÇELİŞKİ: Treccani Malaca 'colonia fondata dai Cartaginesi' der (tarihsiz); Pleiades 265963 'perhaps founded by the Carthaginians in the fifth century BC'. TDV esas alındı; 'civarında' ifadesi aralık vermez, yüzyıl sonu (güvenli uç) = MÖ 901 → -0900."
+  },
+  "kur": {
+   "t": "-0900-01-01",
+   "gun": "MÖ 10. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+   "tanik": "Milâttan önce X. yüzyıl civarında Fenikeliler’in Lübnan’dan gelerek burada"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0900-01-01",
+    "t": "-0204-01-01",
+    "d": "fenike-sehirleri",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka; Treccani, Enciclopedia Italiana, 'MÁLAGA' (Storia), https://www.treccani.it/enciclopedia/malaga_(Enciclopedia-Italiana)/",
+    "tanik": "Milâttan önce X. yüzyıl civarında Fenikeliler’in Lübnan’dan gelerek burada",
+    "ic_not": "Fenike künyesi -0331'de biter (hayalet uyarısı): Treccani şehri Kartaca kolonisi sayar, Kartaca'ya geçiş tarihi hiçbir kaynakta bulunamadı; dönem AÇILMADI, Fenike/Pön kimliği tek dönem olarak bırakıldı. t: Treccani 'Nell'anno 205 a. C. cadde in potere dei Romani' (MÖ 205 = -0204)."
+   },
+   {
+    "f": "-0204-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MÁLAGA' (Storia), https://www.treccani.it/enciclopedia/malaga_(Enciclopedia-Italiana)/",
+    "tanik": "Nell'anno 205 a. C. cadde in potere dei Romani",
+    "ic_not": "Treccani: önce civitas foederata."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/; Treccani, Enciclopedia Italiana, 'MÁLAGA' (Storia), https://www.treccani.it/enciclopedia/malaga_(Enciclopedia-Italiana)/",
+    "tanik": "Fra l'81 e l'84 d. C. Domiziano con la lex Flavia municipalis Malacae",
+    "ic_not": "Künye geçişi (Livius). Vespasianus'un ius Latii'si ile municipium Flavium; lex Flavia Malacitana 81-84 (Treccani)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0411-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "intorno al 411, gl'invasori così si ripartirono il paese",
+    "ic_not": "t: Treccani 'intorno al 411'."
+   },
+   {
+    "f": "0411-01-01",
+    "t": "0600-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "Bir süre Bizans’ın yönetiminde kalan şehir",
+    "ic_not": "BOŞLUK: TDV 'Bir süre Bizans’ın yönetiminde kalan şehir' der ama Bizans dönemi tarihsiz; Bizans'ın Malaka'yı alış/yitiriş yılı bu oturumda bulunamadı → dönem açılmadı. Treccani Spagna 411'de Betica'yı Silingi Vandallara verir (Malaka için doğrudan tanık yok)."
+   },
+   {
+    "f": "0600-01-01",
+    "t": "0711-01-01",
+    "d": "vizigot",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "VI. yüzyıl sonlarında Vizigotlar’ın eline geçmiştir",
+    "ic_not": "f EN GEÇ TANIKTAN: TDV 'VI. yüzyıl sonlarında Vizigotlar’ın eline geçmiştir' → en geç 600 (güvenli uç); gün/yıl yok. t: TDV 'Târık b. Ziyâd, 92 (711)'; hicrî 92 (710-10-29/711-10-18) ∩ 711 = 711-01-01."
+   },
+   {
+    "f": "0711-01-01",
+    "t": "0756-01-01",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka; TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "küçük bir kuvveti Mâleka’nın fethi için göndermiş",
+    "ic_not": "Fetih ve valiler dönemi; TDV Mâleka: Târık küçük kuvvet gönderdi (92/711) ya da Abdül‘alâ 94/713'te aldı (iki rivayet). Emevî künyesi 750'de biter, valiler 756'ya dek sürer → künye GENİŞLET önerisi."
+   },
+   {
+    "f": "0756-01-01",
+    "t": "1021-08-05",
+    "d": "endulus-emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka; TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus; TDV İslâm Ansiklopedisi, HAMMÛDÎLER, https://islamansiklopedisi.org.tr/hammudiler",
+    "tanik": "Kurtuba’da halife ilân edilen Yahyâ (22 Rebîülâhir 412 / 5 Ağustos 1021)",
+    "ic_not": "t EN GEÇ TANIKTAN: Hammûdî Yahyâ'nın Mâleka üzerinden Kurtuba'ya girip halife ilân edildiği gün (22 Rebîülâhir 412 / 5 Ağustos 1021, TDV Hammûdîler) — şehir o tarihte Hammûdî elinde. Mâleka'nın Hammûdîlere geçiş günü bulunamadı (Hammûdî hâkimiyeti Kurtuba'da 407/1016, TDV Endülüs). Endülüs Emevîleri formel devlet 1031'e dek."
+   },
+   {
+    "f": "1021-08-05",
+    "t": "1057-03-10",
+    "d": "hammudiler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, HAMMÛDÎLER, https://islamansiklopedisi.org.tr/hammudiler; TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "Mâleka’da ise 427’ye (1035) kadar Yahyâ, 449’a (1057) kadar da halefleri hüküm sürmeye devam ettiler",
+    "ic_not": "Hammûdîler künyesi YOK (devletler.js'te yok): önerilen id 'hammudiler', ömür 1016-1058 (TDV: Kurtuba, İşbîliye, Mâleka ve Cezîretülhadrâ'da), kaynak TDV HAMMÛDÎLER. Mâleka'da Yahyâ 427/1035'e dek, halefleri 449/1057'ye dek. t: hicrî 449 (1057-03-10/1058-02-27) ∩ 1057 = 1057-03-10. ÇELİŞKİ: TDV Hammûdîler 'şehri Abbâdîler zaptetti' der, TDV Mâleka Bâdîs'in zaptı ve Zîrîler'de kalışı; Mâleka maddesi esas alındı.",
+    "kunye_yok": true
+   },
+   {
+    "f": "1057-03-10",
+    "t": "1090-03-06",
+    "d": "granada-ziriler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "449’da (1057) Gırnata’nın Zîrî hükümdarı Bâdîs b. Habbûs tarafından zaptedilmiş",
+    "ic_not": "TDV Mâleka: Bâdîs b. Habbûs 449/1057'de zaptetti; 466 (1073-74) ölümünde devlet iki torun arasında paylaşıldı, Mâleka Temîm b. Bulukkîn'de (Zîrî kolu) kaldı. t: TDV Murâbıtlar '483’te (1090) ... Gırnata ve Mâleka’yı zaptettikten sonra'; hicrî 483 (1090-03-06/1091-02-22) ∩ 1090 = 1090-03-06. Zîrî künyesi 1090-01-01'de biter: 64 gün uzatma (uyarı)."
+   },
+   {
+    "f": "1090-03-06",
+    "t": "1147-01-01",
+    "d": "murabitlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR, https://islamansiklopedisi.org.tr/murabitlar; TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka; TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "483’te (1090) üçüncü defa Endülüs’e geçen Yûsuf b. Tâşfîn, Gırnata ve Mâleka’yı zaptettikten sonra",
+    "ic_not": "t: Murâbıt→Muvahhid geçiş yılı Mâleka için bulunamadı; TDV Mâleka sıralamayı verir (önce Murâbıtlar, sonra Muvahhidler). Devlet dönemi sınırı 1147 (TDV Endülüs) alındı: ±birkaç yıl belirsiz."
+   },
+   {
+    "f": "1147-01-01",
+    "t": "1229-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka; TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Ardından Endülüs’e hâkim olan Murâbıtlar ve Muvahhidler Mâleka’yı da topraklarına katmışlardır",
+    "ic_not": "TDV Endülüs 'Muvahhidler Dönemi (1147-1229)'; Mâleka'nın Muvahhid'e geçiş yılı kaynakta yok."
+   },
+   {
+    "f": "1229-01-01",
+    "t": "1238-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus; TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "1227 yılında bu olumsuz gelişmelerden sorumlu tutulan Muvahhidler’e karşı bir dizi isyan başlatıldı",
+    "ic_not": "BOŞLUK: Muvahhid sonrası (1227 isyanları: İbn Hûd, Nasrîler) 1238'e dek Mâleka'nın yöneticisi kaynakta bulunamadı."
+   },
+   {
+    "f": "1238-01-01",
+    "t": "1281-01-01",
+    "d": "granada",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "635’te (1238) Benî Ahmer Emirliği’nin (Nasrîler) hâkimiyetine geçen Mâleka",
+    "ic_not": "f: TDV '635’te (1238) Benî Ahmer ... hâkimiyetine geçen Mâleka'; hicrî 635 (1237-08-24/1238-08-13) ∩ 1238 = 1238-01-01 (Gırnata künyesi 1238-05-12: hayalet uyarısı). Atlas 1281 'granada' ile aynı sahip: dikiş sorunsuz."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0900-01-01",
+    "gun": "MÖ 10. yüzyıl",
+    "k": "kurulus",
+    "b": "Fenikeliler Malaka'yı balık tuzlama merkezi ve ticaret noktası olarak kurar (TDV; yüzyıl sonu).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "Milâttan önce X. yüzyıl civarında Fenikeliler’in Lübnan’dan gelerek burada"
+   },
+   {
+    "t": "-0204-01-01",
+    "gun": "MÖ 205",
+    "k": "fetih",
+    "b": "Malaca Romalıların eline geçer.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MÁLAGA' (Storia), https://www.treccani.it/enciclopedia/malaga_(Enciclopedia-Italiana)/",
+    "tanik": "Nell'anno 205 a. C. cadde in potere dei Romani"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0081-01-01",
+    "gun": "81-84",
+    "k": "idari",
+    "b": "Domitianus'un lex Flavia municipalis Malacae'si: municipium Flavium Malacitanum statüleri (bronz tablo, 1851'de bulundu).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'MÁLAGA' (Storia), https://www.treccani.it/enciclopedia/malaga_(Enciclopedia-Italiana)/",
+    "tanik": "Fra l'81 e l'84 d. C. Domiziano con la lex Flavia municipalis Malacae"
+   },
+   {
+    "t": "0411-01-01",
+    "gun": "≈411",
+    "k": "diger",
+    "b": "Vandal Silingi'ler Betica'ya yerleşir (Treccani); Mâleka için doğrudan tanık yok.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "intorno al 411, gl'invasori così si ripartirono il paese"
+   },
+   {
+    "t": "0600-01-01",
+    "gun": "MS 6. yüzyıl sonu",
+    "k": "fetih",
+    "b": "Mâleka Bizans yönetiminden Vizigotların eline geçer (en geç 600).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "VI. yüzyıl sonlarında Vizigotlar’ın eline geçmiştir"
+   },
+   {
+    "t": "0711-01-01",
+    "gun": "92 h. (711)",
+    "k": "fetih",
+    "b": "Târık b. Ziyâd Mâleka'nın fethi için küçük bir kuvvet gönderir; Müslüman fethi (Vizigot→Emevî). Alternatif rivayet: Abdül‘alâ 94/713.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "küçük bir kuvveti Mâleka’nın fethi için göndermiş"
+   },
+   {
+    "t": "0756-01-01",
+    "gun": "756",
+    "k": "kurulus",
+    "b": "I. Abdurrahman Kurtuba'da bağımsız emîr ilân edilir; Endülüs Emevî Devleti (künye geçişi). Mâleka halkı onu iyi karşılar (TDV Mâleka, günü yok).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Kurtuba’ya girerek kendisini bağımsız emîr ilân etti (756)"
+   },
+   {
+    "t": "1021-08-05",
+    "gun": "5 Ağustos 1021",
+    "k": "diger",
+    "b": "Hammûdî Yahyâ Mâleka üzerinden Kurtuba'ya girip halife ilân edilir; Mâleka Hammûdî üssü (en geç tanık).",
+    "kaynak": "TDV İslâm Ansiklopedisi, HAMMÛDÎLER, https://islamansiklopedisi.org.tr/hammudiler",
+    "tanik": "Kurtuba’da halife ilân edilen Yahyâ (22 Rebîülâhir 412 / 5 Ağustos 1021)"
+   },
+   {
+    "t": "1057-03-10",
+    "gun": "449 h. (1057)",
+    "k": "fetih",
+    "b": "Zîrî hükümdarı Bâdîs b. Habbûs Mâleka'yı zaptedip Hammûdîleri tahttan uzaklaştırır. Gün: hicrî 449 ∩ 1057'nin ilk günü.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "449’da (1057) Gırnata’nın Zîrî hükümdarı Bâdîs b. Habbûs tarafından zaptedilmiş"
+   },
+   {
+    "t": "1090-03-06",
+    "gun": "483 h. (1090)",
+    "k": "fetih",
+    "b": "Murâbıt Yûsuf b. Tâşfîn Gırnata ve Mâleka'yı zaptedip Kuzey Afrika'ya döner. Gün: hicrî 483 ∩ 1090'ın ilk günü.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MURÂBITLAR, https://islamansiklopedisi.org.tr/murabitlar",
+    "tanik": "483’te (1090) üçüncü defa Endülüs’e geçen Yûsuf b. Tâşfîn, Gırnata ve Mâleka’yı zaptettikten sonra"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "fetih",
+    "b": "Muvahhidler Endülüs'e geçer (dönem 1147-1229); Mâleka Murâbıtlardan Muvahhidlere geçer (yıl ±).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "5. Muvahhidler Dönemi (1147-1229)"
+   },
+   {
+    "t": "1229-01-01",
+    "gun": "1229",
+    "k": "diger",
+    "b": "Muvahhid dönemi biter; isyanlar ve yerel hanedanlar (İbn Hûd, Nasrîler).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "5. Muvahhidler Dönemi (1147-1229)"
+   },
+   {
+    "t": "1238-01-01",
+    "gun": "635 h. (1238)",
+    "k": "fetih",
+    "b": "Mâleka Nasrî (Benî Ahmer) Emirliği'ne geçer; ~250 yıl onlarda kalır. Gün: hicrî 635 ∩ 1238'in ilk günü.",
+    "kaynak": "TDV İslâm Ansiklopedisi, MÂLEKA (M. I. Calero Secall), https://islamansiklopedisi.org.tr/maleka",
+    "tanik": "635’te (1238) Benî Ahmer Emirliği’nin (Nasrîler) hâkimiyetine geçen Mâleka"
+   }
+  ],
+  "ic_not": "Málaga: kuruluş TDV'ye göre Fenike MÖ X. yy (Treccani/Pleiades Kartaca kolonisi der → çelişki beyan edildi). Bizans dönemi (tarihsiz) 411-600 BOŞLUK. Hammûdîler künyesi YOK (kunye_yok, önerilen id 'hammudiler', 1016-1058). TDV içi çelişki: Hammûdîler maddesi 'Abbâdîler zaptetti', Mâleka maddesi Zîrî Bâdîs/Temîm — Mâleka maddesi esas. Atlas 1281 'granada' ile uyumlu; atlas 1487-08-18 fethi TDV (27 Şâban 892 = 18 Ağustos 1487) ile uyumlu. Çift teyit: Roma 205 (yalnız Treccani); Hicrî 449 (TDV Mâleka ↔ TDV Hammûdîler, iki madde)."
  },
  {
   "id": "metz-fr",
@@ -21422,6 +22006,155 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Kuruluş bulunamadı; Vieux-Poitiers'ten (Briva) yerleşim kayması tartışması Treccani'de ('è possibile che il primitivo agglomerato celtico si sia formato' — kesin değil) — 3 km üzerinde olabilir: antik yer ayrı kayıt önerisi (Vieux-Poitiers). 476 sınırı Poitiers için kullanılmadı (Vizigot 418). Poitou maddesi Visigot 462 ('verso il 462') — çelişki. Atlas Poitiers 1281 'fransa' — uyumlu. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
  },
  {
+  "id": "porto-pt",
+  "ad": "Porto",
+  "atlas_ad": "Porto",
+  "lat": 41.15,
+  "lon": -8.611,
+  "kat1900": 3,
+  "adlar": [
+   "Cale",
+   "Portus Cale (Portucale)",
+   "Portugale",
+   "Porto"
+  ],
+  "ilk": {
+   "t": "0456-01-01",
+   "gun": "456",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+   "tanik": "Fu presa dal re visigoto Teodorico II nel 456.",
+   "ic_not": "Treccani Oporto: 'Portus Cale' biçimi 5. yy kronikçisi Hydatius'ta geçer; Vizigot II. Theoderic 456'da şehri aldı. Treccani'nin verdiği bu 456 olayı, bu oturumda açılabilen EN ESKİ tarihli tanıktır. ÖNCESİ: Pleiades 236396 Cale 'hellenistic-republican/roman' (ince dönem etiketi; 'MÖ 136 Roma kolonisi' iddiası Vikipedi'ye dayanıyor, kullanılmadı); Hydatius ve Ptolemaios/Antoninus metinleri bu oturumda açılamadı → daha eski tanık olabilir. Cale (Gaia kıyısı) – modern Porto ≈1-2 km: aynı kayıt."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0456-01-01",
+    "t": "0585-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+    "tanik": "Fu presa dal re visigoto Teodorico II nel 456.",
+    "ic_not": "BOŞLUK: Vizigot II. Theoderic 456'da şehri aldı (kısa ele geçirme: aynı dönemde Süevler Lusitania'ya yayılır, Isidorus Hist. Suev. 90-91; Treccani Porto'nun sonraki sahibini belirtmez). Porto'nun 456-585 arası sahibi kaynakta bulunamadı; Treccani: 585'te Leovigild 'Süev Gallaecia krallığını kesin olarak ilhak etti' ve Vizigot kralları Porto Cale adıyla sikke bastı (VI-VII. yy)."
+   },
+   {
+    "f": "0585-01-01",
+    "t": "0711-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+    "tanik": "Leovigildo, nel 585, incorporò definitivamente nel suo stato il regno svevo di Gallecia",
+    "ic_not": "Treccani: Leovigildo ve halefleri Recaredo, Liuva, Sisebuto 'Porto Cale' yazılı sikke bastı. t: Vizigot künyesi 711."
+   },
+   {
+    "f": "0711-01-01",
+    "t": "0750-01-01",
+    "d": "emevi",
+    "kesinlik": "onyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Non rimase a lungo sotto la dominazione araba",
+    "ic_not": "f: Vizigot devleti sonu (TDV Endülüs 'Fetih ve Valiler Dönemi (711-755)'); Porto'nun Arap fethi günü bulunamadı. t: Treccani 'ripresa verso la metà del sec. VIII da Alfonso I' (yaklaşık). Emevî künyesi 750-08-05'te biter."
+   },
+   {
+    "f": "0750-01-01",
+    "t": "0909-01-01",
+    "d": "asturias",
+    "kesinlik": "onyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "fu ripresa verso la metà del sec. VIII da Alfonso I",
+    "ic_not": "Treccani: ≈880'de III. Alfonso şehri yeniden iskân etti (Arap/Norman tahribatı sonrası). t: Treccani León 909 başkent (Asturias künyesi 910'da biter; 1 yıl öncesi)."
+   },
+   {
+    "f": "0909-01-01",
+    "t": "1128-01-01",
+    "d": "leon-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "dopo la morte di Alfonso VI di León ritornò indipendente",
+    "ic_not": "Treccani: Portukale eyaleti XI. yy ortasından sonra Galiçya'dan ayrılıp Porto başkentli kontluk (León vasalı) oldu; Alfonso VI'nın ölümünden sonra bağımsızlaştı. t: Treccani '(1128)' yeni devlet. Portekiz künyesi 1097-01-01'de başlar; kontluk yıllarını (≈1096-1128) kaynaklı ayıramadığımız için sınır 1128 alındı."
+   },
+   {
+    "f": "1128-01-01",
+    "t": "1281-01-01",
+    "d": "portekiz",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+    "tanik": "così Portugale diede il nome al nuovo stato iberico (1128)",
+    "ic_not": "Atlas 1281 'portekiz' ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0456-01-01",
+    "gun": "456",
+    "k": "isgal",
+    "b": "Vizigot kralı II. Theoderic Portus Cale'yi alır (kısa ele geçirme; dönem açılmadı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+    "tanik": "Fu presa dal re visigoto Teodorico II nel 456."
+   },
+   {
+    "t": "0585-01-01",
+    "gun": "585",
+    "k": "fetih",
+    "b": "Leovigild Süev krallığını kesin olarak Vizigot devletine katar; Porto Cale sikkeleri.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+    "tanik": "Leovigildo, nel 585, incorporò definitivamente nel suo stato il regno svevo di Gallecia"
+   },
+   {
+    "t": "0711-01-01",
+    "gun": "711-755",
+    "k": "fetih",
+    "b": "Müslüman fethi (Vizigot → Emevî).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Fetih ve Valiler Dönemi (711-755)"
+   },
+   {
+    "t": "0750-01-01",
+    "gun": "≈750",
+    "k": "fetih",
+    "b": "Asturias kralı I. Alfonso Porto'yu Araplardan geri alır (yüzyıl ortası).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+    "tanik": "fu ripresa verso la metà del sec. VIII da Alfonso I"
+   },
+   {
+    "t": "0880-01-01",
+    "gun": "≈880",
+    "k": "idari",
+    "b": "III. Alfonso şehri yeniden iskân ettirir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+    "tanik": "intorno all'880 Alfonso III provvide a ripopolarla"
+   },
+   {
+    "t": "0909-01-01",
+    "gun": "909",
+    "k": "idari",
+    "b": "Asturias-León başkenti León'a taşınır (künye geçişi Asturias → León).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "Dal 909 al 1230 fu capitale del regno omonimo"
+   },
+   {
+    "t": "1120-01-01",
+    "gun": "1120",
+    "k": "idari",
+    "b": "Kraliçe Teresa Porto kasabasını Piskopos Hugo'ya bağışlar; burjuva-piskopos çatışması başlar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+    "tanik": "fece dono del borgo di Porto al vescovo Ugo"
+   },
+   {
+    "t": "1128-01-01",
+    "gun": "1128",
+    "k": "kurulus",
+    "b": "Portugale adı yeni İberya devletine verilir (Portekiz'in bağımsızlığı; künye geçişi).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'OPORTO' (Storia), https://www.treccani.it/enciclopedia/oporto_(Enciclopedia-Italiana)/",
+    "tanik": "così Portugale diede il nome al nuovo stato iberico (1128)"
+   }
+  ],
+  "ic_not": "Porto: ilk tarihli tanık 456 (Treccani'nin aktardığı Theoderic II alışı; Hydatius adı geçiyor ama kronik sayfası açılamadı). 456-585 BOŞLUK. Arap dönemi başlangıcı ve Portekiz kontluğu (≈1096) için günlü kaynak yok; atlas 1281 'portekiz' uyumlu. Çift teyit yok."
+ },
+ {
   "id": "pusan-kr",
   "ad": "Pusan",
   "atlas_ad": "Pusan",
@@ -22670,6 +23403,128 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Sakai'nin atlas noktası eski Sakai limanı (堺津) ile aynı bölgededir (Sakai-shi merkezi). Çift teyit: yok. Sakai'nın doğduğu yer Settsu-Izumi sınırı olduğundan hangi eyalete ait olduğu (堺北庄 Settsu / 堺南庄 Izumi) ayrımı zincire yansıtılmadı. Açılamayan: Tamefusa-kyōki (為房卿記) birincil metni."
  },
  {
+  "id": "salamanca-es",
+  "ad": "Salamanca",
+  "atlas_ad": "Salamanca",
+  "lat": 40.965,
+  "lon": -5.664,
+  "kat1900": 3,
+  "adlar": [
+   "Salmantica (Polybios: Salmantike)",
+   "Salamanca"
+  ],
+  "ilk": {
+   "t": "-0219-01-01",
+   "gun": "MÖ 220",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Polybius, Histories 3.14 (Shuckburgh çev.), Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=3:chapter=14",
+   "tanik": "those who escaped from Salmantica",
+   "ic_not": "Polybios 3.14 (Shuckburgh çevirisi, Perseus kenar notu 'B. C. 220'): Hannibal Vaccaei seferinde Salmantica'yı hücumla alır. Pleiades 236642 Salmantica = modern Salamanca (-5.663,40.965) ve Liv. 21.5'i (Hermandica) anar; Livius 21.5 sayfası bu oturumda açılamadı. Kuruluş tarihi bulunamadı (Pleiades: yerli Kelt merkezi, Pön sonra Roma)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0219-01-01",
+    "t": "0098-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Polybius, Histories 3.14 (Shuckburgh çev.), Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=3:chapter=14; Treccani, Enciclopedia Italiana, 'SALAMANCA', https://www.treccani.it/enciclopedia/salamanca_(Enciclopedia-Italiana)/",
+    "tanik": "those who escaped from Salmantica",
+    "ic_not": "BOŞLUK (şehir var, sahibi bilinmiyor): Hannibal'in MÖ 220 hücumu kısa ele geçirmedir (Polybios: ordu geri çekilir, kaçanlar Carpesii ile birleşir) → Pön dönemi AÇILMADI; Roma hâkimiyetine geçiş tarihi bu oturumda bulunamadı (Pleiades: 'later the Romans'). İlk tarihli Roma tanığı Trajanus dönemi köprü (Treccani) → 317 yıl > 1 kuşak: BOŞLUK."
+   },
+   {
+    "f": "0098-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SALAMANCA', https://www.treccani.it/enciclopedia/salamanca_(Enciclopedia-Italiana)/; Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "fu ricostruito al tempo di Traiano",
+    "ic_not": "f EN GEÇ TANIKTAN: Treccani 'Il ponte romano ... ricostruito al tempo di Traiano' (Trajanus 98-117): şehir en geç 98'de imparatorluk içinde (güvenli uç 98 alındı; gerçek Roma hâkimiyeti çok daha eski olabilir)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0411-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "intorno al 411, gl'invasori così si ripartirono il paese",
+    "ic_not": "t: Treccani 'intorno al 411'."
+   },
+   {
+    "f": "0411-01-01",
+    "t": "1230-09-23",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Salamanca gibi bazı şehir ve kaleleri geri aldı (1196)",
+    "ic_not": "BOŞLUK (819 yıl): Salamanca için Süev/Vizigot/Müslüman/León dönemlerinin tanığı bu oturumda bulunamadı. Treccani Spagna 411 paylaşımında Lusitania/Cartaginense'yi Alanlara verir (Salamanca'ya doğrudan atıf yok); TDV Endülüs: Muvahhid el-Mansûr 1196'da 'Salamanca gibi bazı şehir ve kaleleri geri aldı' (Müslüman hâkimiyet tarihi ve León egemenliği yazılmadı)."
+   },
+   {
+    "f": "1230-09-23",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León",
+    "ic_not": "Künye geçişi: León → Kastilya (III. Fernando); atlas 1281 'kastilya' ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0219-01-01",
+    "gun": "MÖ 220",
+    "k": "isgal",
+    "b": "Hannibal Vaccaei seferinde Salmantica'yı hücumla alır (kısa ele geçirme; dönem açılmadı).",
+    "kaynak": "Polybius, Histories 3.14 (Shuckburgh çev.), Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=3:chapter=14",
+    "tanik": "those who escaped from Salmantica"
+   },
+   {
+    "t": "0098-01-01",
+    "gun": "98-117",
+    "k": "mimari",
+    "b": "Salamanca'nın Roma köprüsü Trajanus zamanında yeniden yapılır (şehir en geç bu tarihte Roma'da).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SALAMANCA', https://www.treccani.it/enciclopedia/salamanca_(Enciclopedia-Italiana)/",
+    "tanik": "fu ricostruito al tempo di Traiano"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0411-01-01",
+    "gun": "≈411",
+    "k": "diger",
+    "b": "Vandal, Alan ve Süev yerleşimleri; Salamanca için doğrudan tanık yok.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "intorno al 411, gl'invasori così si ripartirono il paese"
+   },
+   {
+    "t": "1196-01-01",
+    "gun": "1196",
+    "k": "isgal",
+    "b": "Muvahhid el-Mansûr Alarcos zaferi sonrası 'Salamanca gibi bazı şehir ve kaleleri geri aldı' (TDV; kalıcılığı belirsiz, dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Salamanca gibi bazı şehir ve kaleleri geri aldı (1196)"
+   },
+   {
+    "t": "1230-09-23",
+    "gun": "1230",
+    "k": "taht",
+    "b": "Alfonso IX ölür; III. Fernando León tacını da alır (künye geçişi: León → Kastilya).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León"
+   }
+  ],
+  "ic_not": "Salamanca: ilk tanık Polybios (MÖ 220). Roma dönemi f en geç Trajanus köprüsü; Roma öncesi/sonrası uzun BOŞLUK'lar. Vizigot, İslam ve León dönemleri kaynaksız (Treccani Salamanca maddesi tarih vermez; TDV'de ayrı madde bulunamadı). Atlas 1281 'kastilya' uyumlu. Livius 21.5 ve Strabon bu oturumda açılmadı."
+ },
+ {
   "id": "san-sebastian-es",
   "ad": "San Sebastián",
   "atlas_ad": "San Sebastián",
@@ -22823,6 +23678,116 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Atlas Santander 1281 'kastilya' — uyumlu."
+ },
+ {
+  "id": "santiago-de-compostela-es",
+  "ad": "Santiago de Compostela",
+  "atlas_ad": "Santiago de Compostela",
+  "lat": 42.878,
+  "lon": -8.545,
+  "kat1900": 3,
+  "adlar": [
+   "Iacobum Apostolorum / Campus Stellae (Compostella)",
+   "Santiago de Compostela"
+  ],
+  "ilk": {
+   "t": "0850-01-01",
+   "gun": "MS 9. yüzyılın ilk yarısı",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'SANTIAGO de Compostela' (Storia), https://www.treccani.it/enciclopedia/santiago-de-compostela_(Enciclopedia-Italiana)/",
+   "tanik": "Al tempo di Alfonso II il Casto (prima metà del secolo IX)",
+   "ic_not": "Treccani: II. Alfonso zamanında (9. yy ilk yarısı) Aziz Yakup'un cesedinin bulunması üzerine mezarın çevresinde 'yeni bir merkez' doğdu (piskoposluk İria'dan taşındı) → kuruluş; aralığın güvenli ucu 850. Ad 'Compostella' sonraki yüzyılda. Mezar çevresindeki Roma öncesi iskân/nekropol bu oturumda kaynaklanamadı."
+  },
+  "kur": {
+   "t": "0850-01-01",
+   "gun": "MS 9. yüzyılın ilk yarısı",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'SANTIAGO de Compostela' (Storia), https://www.treccani.it/enciclopedia/santiago-de-compostela_(Enciclopedia-Italiana)/",
+   "tanik": "Al tempo di Alfonso II il Casto (prima metà del secolo IX)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0850-01-01",
+    "t": "0909-01-01",
+    "d": "asturias",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SANTIAGO de Compostela' (Storia), https://www.treccani.it/enciclopedia/santiago-de-compostela_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "Al tempo di Alfonso II il Casto (prima metà del secolo IX)",
+    "ic_not": "Asturias kralı II. Alfonso (Treccani). t: Treccani León 909 başkent (Asturias künyesi 910; 1 yıl önce). TDV: Galicia III. Alfonso (866-909) döneminde alındı (Galiçya Asturias'a katılımı) — kuruluş zamanı Asturias egemenliği Treccani'nin 'Alfonso II' anlatısına dayanır."
+   },
+   {
+    "f": "0909-01-01",
+    "t": "1230-09-23",
+    "d": "leon-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/; Treccani, Enciclopedia Italiana, 'SANTIAGO de Compostela' (Storia), https://www.treccani.it/enciclopedia/santiago-de-compostela_(Enciclopedia-Italiana)/",
+    "tanik": "E poi nel 997 fu distrutto da al-Mansūr",
+    "ic_not": "León Krallığı künyesi 910-01-01 (909 f: uyarı). 968'de Normanlar yağmaladı, 997'de el-Mansûr yıktı (olaylar; dönem açılmadı)."
+   },
+   {
+    "f": "1230-09-23",
+    "t": "1281-01-01",
+    "d": "kastilya",
+    "kesinlik": "gun",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León",
+    "ic_not": "Künye geçişi León → Kastilya; atlas 1281 'kastilya' ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0850-01-01",
+    "gun": "MS 9. yüzyılın ilk yarısı",
+    "k": "kurulus",
+    "b": "II. Alfonso zamanında Aziz Yakup'un mezarı bulunur; çevresinde yeni merkez (Compostella) doğar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SANTIAGO de Compostela' (Storia), https://www.treccani.it/enciclopedia/santiago-de-compostela_(Enciclopedia-Italiana)/",
+    "tanik": "Al tempo di Alfonso II il Casto (prima metà del secolo IX)"
+   },
+   {
+    "t": "0909-01-01",
+    "gun": "909",
+    "k": "idari",
+    "b": "Asturias-León başkenti León'a taşınır (künye geçişi Asturias → León).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), 'LEÓN' (J. F. Ràfols), https://www.treccani.it/enciclopedia/leon_(Enciclopedia-Italiana)/",
+    "tanik": "Dal 909 al 1230 fu capitale del regno omonimo"
+   },
+   {
+    "t": "0968-01-01",
+    "gun": "≈968",
+    "k": "isgal",
+    "b": "Normanlar şehri yağmalar, piskopos Sisnando öldürülür (kısa ele geçirme; dönem açılmadı).",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SANTIAGO de Compostela' (Storia), https://www.treccani.it/enciclopedia/santiago-de-compostela_(Enciclopedia-Italiana)/",
+    "tanik": "intorno al 968 fu preda dei Normanni"
+   },
+   {
+    "t": "0997-01-01",
+    "gun": "997",
+    "k": "yikim",
+    "b": "el-Mansûr şehri yıkar, yalnız Havari'nin mezarına dokunmaz.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'SANTIAGO de Compostela' (Storia), https://www.treccani.it/enciclopedia/santiago-de-compostela_(Enciclopedia-Italiana)/",
+    "tanik": "E poi nel 997 fu distrutto da al-Mansūr"
+   },
+   {
+    "t": "1170-01-01",
+    "gun": "≈1170",
+    "k": "kurulus",
+    "b": "Santiago (Compostela) şövalye tarikatı hacıları korumak için kurulur (onay 5 Temmuz 1175).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1931), 'COMPOSTELLA' (I. Taurisano), https://www.treccani.it/enciclopedia/compostella_(Enciclopedia-Italiana)/",
+    "tanik": "sorse appunto quest'ordine verso il 1170"
+   },
+   {
+    "t": "1230-09-23",
+    "gun": "1230",
+    "k": "taht",
+    "b": "Alfonso IX ölür; III. Fernando León tacını da alır (künye geçişi: León → Kastilya).",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1230, alla morte di Alfonso IX, ebbe anche la corona del León"
+   }
+  ],
+  "ic_not": "Santiago de Compostela: kuruluş Treccani 'Alfonso II zamanı, 9. yy ilk yarısı' (aralık → güvenli uç 850). Pleiades/Roma öncesi kaynaklanamadı. Atlas 1281 'kastilya' uyumlu. Çift teyit yok."
  },
  {
   "id": "sebzevar-ir",
@@ -23360,6 +24325,247 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "KAYNAK: TDV Serahs (curl ile gövde okundu; Bosworth EI2, Ruska İA bibliyografyada, açılmadı); Iranica Khorasan iii/v (Sasanian Khorasan, Fażl b. Sahl 202/818). Kuruluş: TAHMİN (MÖ VI-IV. yy, TDV) — kaynaklı kuruluş yok. 1157-1193 Oğuz dilimi BOŞLUK (TDV). ATLAS DİKİŞİ: atlas Serahs'ı 1193-01-01'de harizmsah ile başlatır (kaynak: aynı TDV Serahs, 1193) → zincir 1193-01-01'de BOŞLUK ile biter; dikiş olayı TDV Serahs 1193. 1193 sonrası atlasın zinciri esastır (Moğol 618/1221 TDV Serahs ile atlasta zaten var)."
+ },
+ {
+  "id": "sevilla-es",
+  "ad": "Sevilla",
+  "atlas_ad": "Sevilla",
+  "lat": 37.389,
+  "lon": -5.984,
+  "kat1900": 3,
+  "adlar": [
+   "Hispalis (Colonia Iulia Romula)",
+   "İşbîliye (Ishbīlyah)",
+   "Sevilla"
+  ],
+  "ilk": {
+   "t": "-0048-01-01",
+   "gun": "MÖ 49",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Caesar, De Bello Civili 2.18, Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0075:book=2:chapter=18",
+   "tanik": "compluris praeterea in Hispali faciendas curavit",
+   "ic_not": "Caesar (De Bello Civili 2.18.1, Varro'nun Hispalis'te gemi yaptırması; olaylar MÖ 49) bu oturumda açılan EN ESKİ tarihli yazılı tanık. Daha eski tanık/ Fenike-Pön katmanı (Pleiades: 'archaic' katman; TDV'de yok) kaynakla tarihlenemedi → kur yazılmadı; modern nokta antik Hispalis ile aynı yer (Pleiades 256210 -5.996,37.383; ≈1 km). Plinius NH 3.11 ikinci tanık: 'a laeva Hispal colonia cognomine Romulensis' (MS 77)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0048-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Caesar, De Bello Civili 2.18, Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0075:book=2:chapter=18; Treccani, Enciclopedia Italiana, 'SIVIGLIA' (Storia), https://www.treccani.it/enciclopedia/siviglia_(Enciclopedia-Italiana)/",
+    "tanik": "compluris praeterea in Hispali faciendas curavit",
+    "ic_not": "f: ilk anılış (Caesar, MÖ 49). Hispalis Pompeiusçu vali Varro'nun elindeydi; Treccani: Caesar iç savaşta alıp 'Colonia Iulia Romula'ya yükseltti (tarihsiz). Roma Cumhuriyeti içi taraf değişimi ayrı dönem açılmadı."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/; Treccani, Enciclopedia Italiana, 'SIVIGLIA' (Storia), https://www.treccani.it/enciclopedia/siviglia_(Enciclopedia-Italiana)/; Plinius, Naturalis Historia 3.11 (Mayhoff), Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0138:book=3:chapter=8",
+    "tanik": "a laeva hispal colonia cognomine romulensis",
+    "ic_not": "Künye geçişi (Livius). Hispalis imparatorluk döneminde Baetica'nın conventus merkezi (Treccani)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0411-01-01",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/; Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "intorno al 411, gl'invasori così si ripartirono il paese",
+    "ic_not": "t: Treccani 'intorno al 411' (yıl düzeyi)."
+   },
+   {
+    "f": "0411-01-01",
+    "t": "0548-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/; Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "tanik": "Hispalim diruit, actaque caede, in direptionem mittit",
+    "ic_not": "BOŞLUK (şehir var, sahibi tek kaynakta bağlanamadı): Treccani Spagna 411 paylaşımında Betica'yı Silingi Vandallara verir; Isidorus: Vandallar (Gunderic) Hispalis'i yağmalar/yıkar (Era CDLXVI=428 öncesi, yılı yok); Süevler Recchila 'Hispali obtenta' (Era CDLXXIX=441); Vizigot II. Theoderic Betica'ya ordu gönderir (≈456, Isidorus Goth. 33); Treccani: Betica'da 549-54'e dek İspanyol-Romalı soylular hâkim. Hepsi kısa/ucu belirsiz el değiştirme: dönem AÇILMADI. Kesinti uzun (137 yıl) → 'en geç tanık' kuralıyla Vizigot başlangıcı yazılmadı, BOŞLUK tercih edildi."
+   },
+   {
+    "f": "0548-01-01",
+    "t": "0712-01-01",
+    "d": "vizigot",
+    "kesinlik": "yil",
+    "kaynak": "Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml; TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "praeventus conjuratorum manu Hispali inter epulas jugulatur",
+    "ic_not": "f EN GEÇ TANIKTAN: Isidorus Hist. Goth. 44 (Era DLXXXVI = 586−38 = 548): Vizigot kralı Theudisclus Hispalis'te şölende öldürülür → şehir 548'de Vizigot elinde. Önceki alınış günü yok. t: TDV 'Mûsâ b. Nusayr 93 (712)'; hicrî 93 (711-10-19/712-10-06 Jülyen, tablo takvimi) ∩ 712 = 712-01-01. Vizigot künyesi 711'de biter: 1 yıl uzatıldı (hayalet uyarısı, TDV fetih yılı 712)."
+   },
+   {
+    "f": "0712-01-01",
+    "t": "0756-01-01",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye; TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "93’te (712) Mûsâ b. Nusayr tarafından fethedildi",
+    "ic_not": "Emevî Hilâfeti valileri dönemi (711-755, TDV); Emevî künyesi 750-08-05'te biter, valiler 756'ya dek sürer → künye GENİŞLET önerisi (hayalet uyarısı). t: TDV 'bağımsız emîr ilân etti (756)'; I. Abdurrahman Kurtuba'dan önce İşbîliye'yi kontrol altına aldı (TDV)."
+   },
+   {
+    "f": "0756-01-01",
+    "t": "1023-03-26",
+    "d": "endulus-emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus; TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "Kurtuba’ya girerek kendisini bağımsız emîr ilân etti (756)",
+    "ic_not": "f: yıl düzeyi (künye f 756-05-15). t: TDV İşbîliye '414 (1023) İbn Abbâd şehri hükümet merkezi ilân etti'; hicrî 414 (1023-03-26/1024-03-14) ∩ 1023 = 1023-03-26. Ara olaylar (844 Norman yağması) dönem açmaz."
+   },
+   {
+    "f": "1023-03-26",
+    "t": "1091-02-23",
+    "d": "sevilla-abbadiler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "414 (1023) yılında Kadı Ebü’l-Kāsım İbn Abbâd şehri hükümet merkezi olarak ilân edince",
+    "ic_not": "t: TDV '484’te (1091) Murâbıtlar’ın eline geçen İşbîliye'; hicrî 484 (1091-02-23/1092-02-11) ∩ 1091 = 1091-02-23. Abbâdî künyesi 1091-01-01'de biter: 53 gün uzatma (uyarı)."
+   },
+   {
+    "f": "1091-02-23",
+    "t": "1147-01-01",
+    "d": "murabitlar",
+    "kesinlik": "onyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye; TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "484’te (1091) Murâbıtlar’ın eline geçen İşbîliye",
+    "ic_not": "t: TDV Endülüs 'Muvahhidler Dönemi (1147-1229)' — İşbîliye 'ilk yıllarda' Muvahhid kontrolüne girdi; kesin yıl/gün bu oturumda bulunamadı (±birkaç yıl). Murâbıt künyesi 1147-03-23'te biter."
+   },
+   {
+    "f": "1147-01-01",
+    "t": "1229-01-01",
+    "d": "muvahhidler",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus; TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "İlk yıllarda Kurtuba, Batalyevs, İşbîliye ve Şilb (Silves) gibi şehirleri kontrol altına alan",
+    "ic_not": "f ve t: TDV Endülüs '5. Muvahhidler Dönemi (1147-1229)' (devlet dönemi sınırı; İşbîliye için gün yok). Muvahhidî künyesi 1269'a dek sürer. 1248'e dek yerel yönetim kaynakta açılmadı."
+   },
+   {
+    "f": "1229-01-01",
+    "t": "1248-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus; Treccani, Enciclopedia Italiana, 'SIVIGLIA' (Storia), https://www.treccani.it/enciclopedia/siviglia_(Enciclopedia-Italiana)/",
+    "ic_not": "BOŞLUK: Muvahhid hâkimiyeti sonrası (1227 isyanlarından 1248 fethine dek) Sevilla'nın yerel yöneticisi kaynakta bulunamadı. Atlas başlangıcı 1248-01-01'dir; şehrin Kastilya'ya düşüşü ise 1248 sonundadır (Treccani Siviglia: 23 Kasım 1248; Treccani Spagna: 22 Aralık 1248; TDV: 646/1248, 18 aylık kuşatma sonrası) → atlas başlangıcı düzeltilmeli."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0048-01-01",
+    "gun": "MÖ 49",
+    "k": "diger",
+    "b": "Hispalis'in ilk tarihli yazılı anılışı: Pompeiusçu vali Varro gemi yaptırır.",
+    "kaynak": "Caesar, De Bello Civili 2.18, Perseus, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0075:book=2:chapter=18",
+    "tanik": "compluris praeterea in Hispali faciendas curavit"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti → Roma İmparatorluğu (Octavianus 'Augustus' unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/",
+    "tanik": "16 January 27: Imperator Caesar Divi filius Augustus"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0411-01-01",
+    "gun": "≈411",
+    "k": "diger",
+    "b": "Vandal Silingi'ler Betica'ya yerleşir (Treccani); Sevilla için doğrudan tanık yok.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1936), 'SPAGNA' (Storia), https://www.treccani.it/enciclopedia/spagna_(Enciclopedia-Italiana)/",
+    "tanik": "intorno al 411, gl'invasori così si ripartirono il paese"
+   },
+   {
+    "t": "0428-01-01",
+    "gun": "≈428",
+    "k": "yikim",
+    "b": "Vandal kralı Gunderic Hispalis'i yağmalar/yıkar; ardından Vincentius bazilikasına el uzatıp ölür (Era CDLXVI=428'de halefi Gisericus).",
+    "kaynak": "Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "tanik": "Hispalim diruit, actaque caede, in direptionem mittit"
+   },
+   {
+    "t": "0441-01-01",
+    "gun": "441",
+    "k": "isgal",
+    "b": "Süev kralı Recchila Hispalis'i alır (kısa ele geçirme; süre bilinmiyor, dönem açılmadı).",
+    "kaynak": "Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "tanik": "Hispali obtenta, Baeticam et Carthaginiensem provincias in suam potestatem reducit"
+   },
+   {
+    "t": "0548-01-01",
+    "gun": "548",
+    "k": "diger",
+    "b": "Vizigot kralı Theudisclus Hispalis'te öldürülür: şehir Vizigot elinde (en geç tanık).",
+    "kaynak": "Isidorus Hispalensis, Historia de regibus Gothorum, Vandalorum et Suevorum, https://www.thelatinlibrary.com/isidore/historia.shtml",
+    "tanik": "praeventus conjuratorum manu Hispali inter epulas jugulatur"
+   },
+   {
+    "t": "0712-01-01",
+    "gun": "712",
+    "k": "fetih",
+    "b": "Mûsâ b. Nusayr İşbîliye'yi fetheder; Endülüs'ün ilk idarî merkezi olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "93’te (712) Mûsâ b. Nusayr tarafından fethedildi"
+   },
+   {
+    "t": "0756-01-01",
+    "gun": "756",
+    "k": "kurulus",
+    "b": "I. Abdurrahman İşbîliye'yi alıp Kurtuba'da bağımsız emîr ilân edilir; Endülüs Emevî Devleti (künye geçişi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "Kurtuba’ya girerek kendisini bağımsız emîr ilân etti (756)"
+   },
+   {
+    "t": "0844-09-18",
+    "gun": "230 h. (844)",
+    "k": "isgal",
+    "b": "Normanlar (Vikingler) İşbîliye'yi ele geçirip yağmalar; II. Abdurrahman surları yeniletir. Gün: hicrî 230 ∩ 844'ün ilk günü (tablo takvimi, Jülyen).",
+    "kaynak": "TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "230 (844) yılında Normanlar İşbîliye’yi ele geçirip yağmalayınca"
+   },
+   {
+    "t": "1023-03-26",
+    "gun": "414 h. (1023)",
+    "k": "kurulus",
+    "b": "Kadı İbn Abbâd İşbîliye'yi hükümet merkezi ilân eder (Abbâdîler/Sevilla Taifası). Gün: hicrî 414 ∩ 1023'ün ilk günü.",
+    "kaynak": "TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "414 (1023) yılında Kadı Ebü’l-Kāsım İbn Abbâd şehri hükümet merkezi olarak ilân edince"
+   },
+   {
+    "t": "1091-02-23",
+    "gun": "484 h. (1091)",
+    "k": "fetih",
+    "b": "Murâbıtlar İşbîliye'yi alır (Abbâdîlerin sonu). Gün: hicrî 484 ∩ 1091'in ilk günü.",
+    "kaynak": "TDV İslâm Ansiklopedisi, İŞBÎLİYE, https://islamansiklopedisi.org.tr/isbiliye",
+    "tanik": "484’te (1091) Murâbıtlar’ın eline geçen İşbîliye"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "fetih",
+    "b": "Muvahhidler Endülüs'e geçer; İşbîliye ilk yıllarda kontrol altına alınır (yıl ±).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "İlk yıllarda Kurtuba, Batalyevs, İşbîliye ve Şilb (Silves) gibi şehirleri kontrol altına alan"
+   },
+   {
+    "t": "1229-01-01",
+    "gun": "1229",
+    "k": "diger",
+    "b": "Muvahhid dönemi biter (TDV dönem sınırı 1147-1229); yerel yönetimler (1227 isyanları).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ENDÜLÜS (I. Siyasî Tarih), https://islamansiklopedisi.org.tr/endulus",
+    "tanik": "5. Muvahhidler Dönemi (1147-1229)"
+   }
+  ],
+  "dikis_beyan": "Atlas Sevilla'yı 1248-01-01'de Kastilya ile başlatıyor; kaynaklar fethi 1248 sonuna koyuyor (Treccani Siviglia: 23 Kasım 1248; Treccani Spagna: 22 Aralık 1248; TDV İşbîliye: 646/1248, 18 aylık kuşatma sonrası). Yıl başı için olay bulunamadı; yer tutucu olay yazılmadı. Atlas başlangıcı ~1248-11-23'e çekilmeli (günü TDV ile teyit gerekir; Treccani'nin iki tarihi çelişiyor).",
+  "ic_not": "Sevilla: ilk yazılı tanık Caesar (MÖ 49); Fenike/Pön katmanı ve Roma öncesi tarihlenemedi. 411-548 arası BOŞLUK (kısa Vandal/Süev el değiştirmeleri olay olarak yazıldı). Muvahhid-sonrası 1229-1248 BOŞLUK. Çelişki: Treccani Siviglia fethi 23 Kasım 1248, Treccani Spagna 22 Aralık 1248. Çift teyit: yalnız 712 fethi (TDV İşbîliye ↔ Treccani 'Nel 712'). Vikipedi kullanılmadı."
  },
  {
   "id": "shaoxing-cin",
