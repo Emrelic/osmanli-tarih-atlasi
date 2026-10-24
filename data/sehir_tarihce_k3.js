@@ -6852,6 +6852,120 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Çongqing: ilk tarihli tanık Huayang guozhi 1 (Ba zhi), MÖ 316 anlatı yılı (Zhang Yi Jiangzhou'yu surlar); Ba krallığının başkentinin Jiangzhou olduğu YILSIZ. Yer eşitlemesi (Jiangzhou = Chongqing Yuzhong) ad zinciriyle (Jiu Tang 39, Song shi 89) kurulur; Han komutanlık merkezi \"巴水北\" — kesin yer ölçülmedi. Atlas başlangıcı (1281-01-01 yuan-hanedani): Song shi 451 ve Yuan shi 10'a göre Chongqing 1278 baharında Yuan'a geçmiştir; dikiş sorunsuz (Yuan 1278→1281). ATLAS DÜZELTME ÖNERİSİ (künye): GENİŞLET — qin-hanedani t, bati-han t, xin t, dogu-han t, shu-han t, cao-wei t, bati-jin t, dogu-jin t, liu-song t, guney-qi t, bati-wei t, kuzey-zhou t, sui t, tang t, onceki-shu t, sonraki-shu t (her dönemin ic_not'unda). KÜNYE YOK: cheng-jia-gongsun, cheng-han-li, qiao-zong-shu (bkz. chengdu-cin). BULUNAMADI: Jiangzhou'ya özgü tanık — Liu Song / Nan Qi / Liang (yalnız Chuzhou adı) / Wu Zhou / Tang sonu / Beş Hanedan / Kuzey Song dönemi; Cheng-Han'ın Ba'yı aldığı gün (en geç 338-07); Song→Yuan kesin teslim günü (1278 2. ay-3. ay). Eşitlemeler: bu dönemlerde zincir Chengdu kaynak günlerinden \"BEYANLI YAKLAŞIKLIK\" olarak devralınmıştır (Jiangzhou/Ba bölgesi Shu ile aynı siyasi kadere bağlı varsayımı). AYRI KAYIT (>3 km antik yer): yok (Han Jiangzhou 巴水北 yeri belirsiz, ölçülmedi)."
  },
  {
+  "id": "chungju-kr",
+  "ad": "Çungcu (Chungju)",
+  "atlas_ad": "Çungcu (Chungju)",
+  "lat": 36.991,
+  "lon": 127.926,
+  "kat1900": 2,
+  "adlar": [
+   "Gukwon-seong / Miuleseong (國原城, 未乙省)",
+   "Jungwon-gyeong (中原京, 757)",
+   "Chungju (忠州, 940)",
+   "Gukwon-gyeong (國原京, 1254)"
+  ],
+  "ilk": {
+   "t": "0557-01-01",
+   "gun": "557 (Jinheung 18; yıl tablosu: 丁丑 永定元年)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Samguk Sagi (三國史記) kwon 4, https://zh.wikisource.org/wiki/三國史記/卷04",
+   "tanik": "十八年，以國原爲小京",
+   "ic_not": "İLK ANILIŞ (alt sınır): Samguk Sagi kwon 4, Jinheung 18: \"Gukwon küçük başkent (小京) yapıldı\" (557; yıl tablosu 丁丑 永定元年). Önceki Goguryeo dönemi (\"本高句麗國原城\", kwon 35 / Goryeosa kwon 56) TARİHSİZ olduğundan zincir başlatmaz. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0557-01-01",
+    "t": "0900-10-26",
+    "d": "silla",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 4, https://zh.wikisource.org/wiki/三國史記/卷04 ; Samguk Sagi (三國史記) kwon 12, https://zh.wikisource.org/wiki/三國史記/卷12",
+    "boyasiz": true,
+    "ic_not": "Silla 557'den 900'e. Gukwon'un Silla'dan Gungye'ye geçişi: Samguk Sagi kwon 12 Hyogong 4 (900; \"光化三年…孝恭王四年\" kwon 50) 10. ay \"Gukwon, Cheongju, Goesan reisleri şehirleriyle Gungye'ye katıldı\" — kaynak tarihli (ay) ama \"賊帥\" lakabı Silla bakışıdır. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   },
+   {
+    "f": "0900-10-26",
+    "t": "0918-07-25",
+    "d": "taebong",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 12, https://zh.wikisource.org/wiki/三國史記/卷12 ; Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "boyasiz": true,
+    "ic_not": "Gungye'nin devleti 900'de henüz adlandırılmamıştır (901 Hu-Goguryeo, 904 Majin, 911 Taebong): künye taebong f=0901-01-01 → hayalet UYARISI (≈2 ay) — künye GENİŞLET önerisi f → 900-10-26. Gungye'nin Taejo (Wang Geon) komutasında Chungju'yu ele geçirdiği ayrıca kayıtlıdır (Samguk Sagi kwon 50: 庚申 900). Künye notu: taebong t=0918-01-01; Goryeo'ya geçiş 0918-07-25 (Goryeosa kwon 1 Taejo 1/6/丙辰) → dönem künye bitişinden ~6 ay sonra bitiyor (hayalet UYARISI): künye GENİŞLET önerisi taebong t → 0918-07-25."
+   },
+   {
+    "f": "0918-07-25",
+    "t": "1281-01-01",
+    "d": "goryeo",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一 ; Goryeosa (高麗史) kwon 56, https://zh.wikisource.org/wiki/高麗史/卷五十六",
+    "ic_not": "Chungju'nun Taebong'dan Goryeo'ya devri için şehre özel kayıt aranmadı; Taebong ülkesi Goryeo'nun çekirdeğidir (devralma varsayımı: BEYANLI YAKLAŞIKLIK). Goryeosa kwon 56: Taejo 23'te \"Chungju\" adı verilir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0557-01-01",
+    "gun": "557 (Jinheung 18)",
+    "k": "idari",
+    "b": "Gukwon (Chungju) Silla'nın küçük başkenti (小京) yapılır.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 4, https://zh.wikisource.org/wiki/三國史記/卷04",
+    "tanik": "十八年，以國原爲小京"
+   },
+   {
+    "t": "0900-01-01",
+    "gun": "900 (庚申)",
+    "k": "sefer",
+    "b": "Gungye Wang Geon'u Gwangju, Chungju, Tangseong, Cheongju, Goesan'a gönderir; \"hepsi fethedildi\" (Samguk Sagi kwon 50 Gungye biyografisi).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 50, https://zh.wikisource.org/wiki/三國史記/卷50",
+    "tanik": "又命太祖伐廣州、忠州"
+   },
+   {
+    "t": "0900-10-26",
+    "gun": "Hyogong 4/10 (900; ≈26 Ekim 900, ay başı)",
+    "k": "diger",
+    "b": "künye geçişi: Silla → Gungye (Gukwon şehrini teslim eder).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 12, https://zh.wikisource.org/wiki/三國史記/卷12",
+    "tanik": "國原、靑州、槐壤賊帥淸吉、莘萱等，擧城投於弓裔"
+   },
+   {
+    "t": "0918-07-25",
+    "gun": "Taejo 1/6/丙辰 (918; ≈25 Temmuz 918)",
+    "k": "diger",
+    "b": "künye geçişi: Taebong → Goryeo (Wang Geon tahta çıkar).",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "夏六月丙辰，卽位于布政殿，國號高麗，改元天授"
+   },
+   {
+    "t": "0940-01-01",
+    "gun": "940 (Taejo 23, 庚子)",
+    "k": "idari",
+    "b": "Eyalet/ilçe adları yenilenir; Chungju bu ad alır (Goryeosa kwon 56: \"太祖二十三年，又改爲忠州\").",
+    "kaynak": "Goryeosa (高麗史) kwon 56, https://zh.wikisource.org/wiki/高麗史/卷五十六",
+    "tanik": "太祖二十三年，又改爲忠州"
+   },
+   {
+    "t": "1254-01-01",
+    "gun": "1254 (Gojong 41, 甲寅)",
+    "k": "idari",
+    "b": "Chungju, Moğol savunmasındaki başarı döneminde \"Gukwon-gyeong\"e yükseltilir.",
+    "kaynak": "Goryeosa (高麗史) kwon 56, https://zh.wikisource.org/wiki/高麗史/卷五十六",
+    "tanik": "高宗四十一年，陞爲國原京"
+   }
+  ],
+  "ic_not": "Atlas ilk günü 1281-01-01 goryeo; dikiş uyumlu. Çift teyit: yok. Chungju'nun Silla'dan önce Goguryeo (bk. kwon 35) ve Baekje (Hangang havzası) elinde olduğu dönemler TARİHSİZ olduğundan yazılmadı. KÜNYE ÖNERİSİ: taebong f 0901-01-01 → 0900-10-26. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+ },
+ {
   "id": "coimbra-pt",
   "ad": "Coimbra",
   "atlas_ad": "Coimbra",
@@ -7285,6 +7399,81 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "ic_not": "KURULUŞ: bulunamadı. Consentia Bruttii'nin başkenti (Strabon), 330'dan önce tarihli tanık bulunamadı. ATLAS ÖNERİSİ: atlas 1281-01-01'den 'napoli' diyor; napoli künyesi 1282-03-30'da başlıyor => 1281-01-01→1282-03-30 sicilya-kralligi olmalı. Bizans yeniden fethi tarihleri Treccani içinde çelişiyor (VIII sonu / 9. yy / 900 başı) — gerçek tarih için Calabria üzerine akademik yayın taranmadı. Gerçek 1130 krallık: Ruggero II 'titolo di re di Sicilia (1130)' (Treccani). Çift teyit YOK (330 ve 204 yılları yalnız Treccani).",
   "dikis_beyan": "Atlas Cosenza'yı 1281-01-01'de 'napoli' ile başlatıyor; devletler.js napoli künyesi 1282-03-30'da başlar. 1281'de şehir Anjou Sicilya Krallığı'ndadır (Treccani EI 'Carlo I d'Angiò': Vespro 31 Mart 1282). Zincir sicilya-kralligi ile 1281-01-01'de biter; 1281-01-01 için olay uydurulmadı, atlas düzeltmesi önerildi."
+ },
+ {
+  "id": "daegu-kr",
+  "ad": "Taegu (Daegu)",
+  "atlas_ad": "Taegu (Daegu)",
+  "lat": 35.872,
+  "lon": 128.601,
+  "kat1900": 2,
+  "adlar": [
+   "Dalgubeol (達句伐 / 達句火)",
+   "Daegu (大丘, 757)"
+  ],
+  "ilk": {
+   "t": "0689-01-01",
+   "gun": "689 (Sinmun 9; yıl tablosu: 己丑 永昌元年)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Samguk Sagi (三國史記) kwon 8, https://zh.wikisource.org/wiki/三國史記/卷08",
+   "tanik": "王欲移都達句伐，未果",
+   "ic_not": "İLK ANILIŞ (alt sınır): Samguk Sagi kwon 8, Sinmun 9: \"Kral başkenti Dalgubeol'e taşımak istedi, olmadı\" (689; yıl tablosu 己丑 永昌元年). Ad eşitlemesi: Daegu = Dalguhwa-hyeon (達句火縣) Goryeosa kwon 57'de AÇIK (\"大丘縣本新羅達句火縣。景德王，改今名\"); kwon 8'deki 達句伐 ile 達句火'nın aynı yer olduğu (伐/火 yazım değişkesi) bu oturumda kaynakla DOĞRULANMADI — orta güvenli eşitleme. Kuruluş/öncül tanık bulunamadı. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0689-01-01",
+    "t": "0936-01-08",
+    "d": "silla",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 8, https://zh.wikisource.org/wiki/三國史記/卷08 ; Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "boyasiz": true,
+    "ic_not": "Künye geçişi: Silla Goryeo'ya teslim olur — Goryeosa Taejo 18 (935), 12. ay 壬申 günü Kral Kim Bu \"politik\" statü alır ve Silla ülkesi \"Gyeongju\" yapılıp ona yem verilir; gün ytliu0 ile 0936-01-08 (Jülyen) çevrildi. Samguk Sagi yıl tablosu 935 satırı: \"新羅五十六王九百九十二年而滅\". Künye silla t=0935-01-01 → hayalet UYARISI (≈1 yıl): künye GENİŞLET önerisi silla t → 0936-01-08."
+   },
+   {
+    "f": "0936-01-08",
+    "t": "1281-01-01",
+    "d": "goryeo",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0689-01-01",
+    "gun": "689 (Sinmun 9)",
+    "k": "idari",
+    "b": "Silla kralı başkenti Dalgubeol'e taşımayı dener (gerçekleşmez).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 8, https://zh.wikisource.org/wiki/三國史記/卷08",
+    "tanik": "王欲移都達句伐，未果"
+   },
+   {
+    "t": "0757-01-01",
+    "gun": "757 (Gyeongdeok 16, Goryeosa yalnız \"景德王\")",
+    "k": "idari",
+    "b": "Dalguhwa-hyeon \"Daegu (大丘)\" adını alır (Sugeon-gun'a bağlı ilçe).",
+    "kaynak": "Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七",
+    "tanik": "大丘縣本新羅達句火縣。景德王，改今名"
+   },
+   {
+    "t": "0936-01-08",
+    "gun": "Taejo 18/12/壬申 (935; ≈8 Ocak 936)",
+    "k": "diger",
+    "b": "künye geçişi: Silla → Goryeo (Kral Kim Bu'nun teslimi; Silla ülkesi \"Gyeongju\" olur).",
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "tanik": "除新羅國爲慶州，仍賜爲食邑"
+   }
+  ],
+  "ic_not": "Atlas ilk günü 1281-01-01 goryeo; dikiş uyumlu. Çift teyit: yok. 757 yılı Samguk Sagi kwon 9 (Gyeongdeok 16, 12. ay toplu isim değişikliği) ile; Goryeosa yalnız hükümdarı verir. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
  },
  {
   "id": "damgan-ir",
@@ -9546,6 +9735,35 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Freiburg im Breisgau (Almanya; Treccani 'Friburgo' İsviçre Fribourg'dur). Kuruluş: Untermann 1120 belgesi (pazar 'forum', 'locus Freiburg'); belge geç kopyalarda kalmıştır ('überliefert nur in späten Abschriften'); 'Stadt' demez; kullanım şehrin kuruluşu = pazar kuruluşu. Castrum de Friburch ~1091 (Vikipedi DE; Untermann'ın yayın başlığı 'Freiburg 1091–1120' kaynakça) ve burgus ~1100 arkeolojik: ilk anılış/kuruluş tarihi daha erken olabilir ama yazılı doğrulama bu oturumda açılamadı. Vikipedi DE: bölge (Wiehre, Zähringen, Herdern) 1008 belgesi — merkez Freiburg değil. Zincir tek dönem (nominal almanya; Zähringer/Urach sub-egemen). Atlas 1281 almanya ile uyumlu. Çift teyit YOK."
  },
  {
+  "id": "funai-jp",
+  "ad": "Funai (Ōita)",
+  "atlas_ad": "Funai (Ōita)",
+  "lat": 33.238,
+  "lon": 131.613,
+  "kat1900": 2,
+  "adlar": [
+   "Bungo kokufu (豊後国府, Furugō 古国府)",
+   "Bungo Fuchū (豊後府中)",
+   "Funai (府内)",
+   "Ōita (大分)"
+  ],
+  "ilk": {
+   "t": "1333-01-01",
+   "gun": "Kamakura dönemi (1185–1333)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Kotobank «大分市» (ブリタニカ国際大百科事典 小項目事典, ブリタニカ), https://kotobank.jp/word/%E5%A4%A7%E5%88%86%E5%B8%82",
+   "tanik": "鎌倉時代以後は守護大友氏がこの地に館を置いた",
+   "ic_not": "İLK ANILIŞ (belirsiz): Britannica «大分市»: \"中心市街地の大分は古代から豊後国の中心で，国府は市街地南部の古国府(ふるごう)に置かれた。鎌倉時代以後は守護大友氏がこの地に館を置いた\". Dönem aralığı (Kamakura 1185-1333) olduğundan GÜVENLİ UÇ 1333 alındı (kural: aralıkta güvenli uç). Tam yıl bulunamadı. Kotobank «豊後国»: \"守護所…府中高国府（大分市）に設置\" (Ōtomo Yoriyasu, \"対蒙古外交を機に\" = Moğol diplomasisi vesilesiyle) — yıl verilmedi; 1281 öncesi olabilir ama tarihsiz olduğundan zincir başlatmaz. ATLAS BAŞLANGICI DÜZELTİLMELİ (zincir BOŞ). Antik öncül: Bungo kokufu \"古国府\" (kuzeyindeki Funai şehir merkezinden güneye) — \"遺構は未確認\" (Kotobank «豊後国»); mesafe/eşitleme kaynaklı değil."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Funai/Ōita'yı 1281-01-01'de \"kamakura\" ile başlatıyor; bu oturumda şehre özgü, yer-kesin ve 1281 öncesi tarihli yazılı tanık BULUNAMADI (aranan: 日本歴史地名大系 «大分市/大分郡/豊後国/府内», 世界大百科事典, ブリタニカ, 日本大百科全書; en yakın: Kamakura dönemi tarihsiz kayıt). 豊後国 sayfası: Bungo eyaleti ilk tarihli anılışı 《続日本紀》文武2年（698）9月乙酉 (eyalet düzeyi, şehir değil); \"大分郡\" için 平城宮跡出土木簡 \"豊後国大分郡調綿壱伯屯\" (tarihsiz). Ayrı kayıt önerisi: \"Bungo Kokufu (豊後国府, Furugō)\" — kokufu/atlas mesafesi ölçülmedi. Çift teyit: yok."
+ },
+ {
   "id": "gent-be",
   "ad": "Gent",
   "atlas_ad": "Gent",
@@ -9666,6 +9884,190 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "dikis_beyan": "Atlas Gent'i 1281-01-01'de 'fransa' ile başlatıyor; Treccani Gand/Fiandra Gent'i 940 öncesinden beri Flandre kontlarının (Fransa'nın nominal vassalı) elinde gösterir (1213: kont Ferrando Fransa'ya karşı İngiltere ile ittifak eder). 1281'de el değiştirme günü yok. Atlas başlangıç sahibi 'flandre' (boyasız künye) olmalı mı yoksa Fransa nominal üst efendi diye tutulur mu — Emre kararı.",
   "ic_not": "İlk anılış tür notu: Treccani yerleşimin kendisini değil Amandus'un 'Ganda' denen yerde iki manastır kurmasını (VII. yy. ilk yarısı) verir; kesin yıl yok (güvenli uç 650). Şehir adı olarak 'Ganda' 941 'portus' belgesinden önce yazılı kaydı bu turda açılamadı. Modern Gent noktası manastır/portus yerleşim bölgesinde (Lys-Schelda birleşimi). 650-866 arası Frank ve Batı Francia sahibi Verdun payı ve Treccani Gand'dan çıkarım. Gent 1281'de Flandre'da (Gui de Dampierre kont, 1278-1305: Treccani Fiandra)."
+ },
+ {
+  "id": "gongju-kr",
+  "ad": "Kongcu (Gongju)",
+  "atlas_ad": "Kongcu (Gongju)",
+  "lat": 36.455,
+  "lon": 127.119,
+  "kat1900": 2,
+  "adlar": [
+   "Ungjin / Ungcheon (熊津, 熊川)",
+   "Ungcheon-ju (熊川州, 686)",
+   "Ung-ju (熊州, 757)",
+   "Gongju (公州, 940)"
+  ],
+  "ilk": {
+   "t": "0475-11-14",
+   "gun": "Munju 1/10 (475; ≈14 Kasım 475, ay başı; yıl tablosu 乙卯 \"文周王即位 元年\")",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Samguk Sagi (三國史記) kwon 26, https://zh.wikisource.org/wiki/三國史記/卷26",
+   "tanik": "冬十月，移都於熊津",
+   "ic_not": "İLK ANILIŞ (alt sınır): Samguk Sagi kwon 26, Munju 1, 10. ay: \"başkent Ungjin'e taşındı\"; ikinci tanık: Kotobank «公州» (改訂新版 世界大百科事典, 平凡社), https://kotobank.jp/word/%E5%85%AC%E5%B7%9E (\"公州邑は…475年…熊津にあたる\"). Goryeosa kwon 56: \"公州本百濟熊川，文周王，自漢城，徙都之\". Başkent olmadan önceki yerleşim tarihsiz. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0475-11-14",
+    "t": "0660-08-29",
+    "d": "baekje",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 26, https://zh.wikisource.org/wiki/三國史記/卷26 ; Samguk Sagi (三國史記) kwon 5, https://zh.wikisource.org/wiki/三國史記/卷05",
+    "boyasiz": true,
+    "ic_not": "Baekje başkenti 475-538 (Sabi'ye taşınma) sonra eyalet merkezi. Bitiş: Muyeol 7 (660) 7. ay 18. gün (ytliu0 ≈29 Ağustos 660): Kral Uija, veliaht ve Ungjin yönetim komutanıyla Ungjin kalesinden gelip teslim olur. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür. Künye notu: baekje t=0660-01-01; Uija'nın teslimi 0660-08-29 (Muyeol 7/7/18) → künye GENİŞLET önerisi baekje t → 0660-08-29 (hayalet UYARISI)."
+   },
+   {
+    "f": "0660-08-29",
+    "t": "0686-02-28",
+    "d": "tang",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 5, https://zh.wikisource.org/wiki/三國史記/卷05 ; Samguk Sagi (三國史記) kwon 36, https://zh.wikisource.org/wiki/三國史記/卷36",
+    "boyasiz": true,
+    "ic_not": "Tang Ungjin Dodokbu'yu (熊津都督府) kurar ve garnizon bırakır (Samguk Sagi kwon 36, Goryeosa kwon 56); dönem bitişi \"f en geç tanıktan\": Silla Sinmun 6 (686) \"熊川郡爲州\" (kwon 8). Silla'nın Ungjin'i ele geçirme günü (Munmu döneminde, ~671-676) kaynakta yazılı değil; Tang'ın son şehir tutuş günü de yok → ~15-26 yıl önceki sahibin dönemi uzatıldı (BEYANLI YAKLAŞIKLIK; >1 kuşak değil)."
+   },
+   {
+    "f": "0686-02-28",
+    "t": "0904-08-14",
+    "d": "silla",
+    "kesinlik": "ay",
+    "kaynak": "Samguk Sagi (三國史記) kwon 8, https://zh.wikisource.org/wiki/三國史記/卷08 ; Samguk Sagi (三國史記) kwon 50, https://zh.wikisource.org/wiki/三國史記/卷50",
+    "boyasiz": true,
+    "ic_not": "Silla Ungcheon-ju (686, Sinmun 6, 2. ay; yıl tablosu 丙戌) → 757 Ung-ju (kwon 9 \"熊川州爲熊州\"). 822'de Ungcheon-ju valisi Heon-chang isyan eder, \"Jang-an\" ülkesi kurar (kwon 10). Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   },
+   {
+    "f": "0904-08-14",
+    "t": "0918-07-25",
+    "d": "taebong",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 50, https://zh.wikisource.org/wiki/三國史記/卷50 ; Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "boyasiz": true,
+    "ic_not": "Samguk Sagi kwon 50: \"天祐元年甲子\" (904) 7. ay: \"Gungye 30'dan fazla eyaleti aldı; Gongju generali Hong-gi teslim oldu\". Künye taebong f=0901-01-01; 904 içinde, 918 sonu: Goryeo'nun tahta çıkışı. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür. Künye notu: taebong t=0918-01-01; Goryeo'ya geçiş 0918-07-25 (Goryeosa kwon 1 Taejo 1/6/丙辰) → dönem künye bitişinden ~6 ay sonra bitiyor (hayalet UYARISI): künye GENİŞLET önerisi taebong t → 0918-07-25."
+   },
+   {
+    "f": "0918-07-25",
+    "t": "0918-09-30",
+    "d": "goryeo",
+    "kesinlik": "gun",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一 ; Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "ic_not": "Kısa dönem (≈2 ay): Goryeosa kwon 1, Taejo 1 (918), 8. ay 癸亥 günü: \"Ung-ju, Un-ju vd. 10+ eyalet/ilçe isyan edip Baekje'ye katıldı\" — yani Gongju o ana dek Goryeo (Gungye mirası) idaresindeydi. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   },
+   {
+    "f": "0918-09-30",
+    "t": "0934-10-30",
+    "d": "hubaekje",
+    "kesinlik": "gun",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一 ; Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "boyasiz": true,
+    "ic_not": "Taejo 10 (927) 4. ay: Taejo Ung-ju'yu kuşatır \"alamadı\" (kwon 1) — Hu-Baekje elinde olduğunu doğrular. Bitiş: Taejo 17 (934), 9. ay 丁巳 (ytliu0 ≈30 Ekim 934): \"Un-ju'da Gyeonhwon'u yendi; Ungjin'in kuzeyindeki 30+ şehir teslim oldu\" (kwon 2). Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   },
+   {
+    "f": "0934-10-30",
+    "t": "1281-01-01",
+    "d": "goryeo",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二 ; Goryeosa (高麗史) kwon 56, https://zh.wikisource.org/wiki/高麗史/卷五十六",
+    "ic_not": "\"Gongju\" adı Taejo 23 (940, 庚子; 3. ay \"州府郡縣號\"nu yeniler) ile; Gongju'nun Mangi-Mangsoi isyanı (1176) kısa süre Goryeo denetimini bozar (aşağıdaki olay) ama sahiplik devamlı Goryeo olarak bırakıldı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0475-11-14",
+    "gun": "Munju 1/10 (475; ay başı)",
+    "k": "diger",
+    "b": "Baekje başkentini Hanseong'dan Ungjin'e taşır.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 26, https://zh.wikisource.org/wiki/三國史記/卷26",
+    "tanik": "冬十月，移都於熊津"
+   },
+   {
+    "t": "0660-08-29",
+    "gun": "Muyeol 7/7/18 (660; ≈29 Ağustos 660)",
+    "k": "fetih",
+    "b": "Kral Uija Ungjin'den gelip Silla-Tang'a teslim olur; Baekje biter; Tang Ungjin Dodokbu'yu kurar.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 5, https://zh.wikisource.org/wiki/三國史記/卷05",
+    "tanik": "義慈率太子及熊津方領軍等，自熊津城來降"
+   },
+   {
+    "t": "0686-02-28",
+    "gun": "Sinmun 6/2 (686; ay başı)",
+    "k": "idari",
+    "b": "Silla \"Ungcheon-gun\"u \"Ungcheon-ju\" (eyalet) yapar.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 8, https://zh.wikisource.org/wiki/三國史記/卷08",
+    "tanik": "以泗沘州爲郡，熊川郡爲州"
+   },
+   {
+    "t": "0822-03-27",
+    "gun": "Heondeok 14/3 (822; ay başı)",
+    "k": "isyan",
+    "b": "Ungcheon-ju valisi Heon-chang babası kral olamadığı için isyan edip \"Jang-an\" ülkesi kurar; ordu Ungjin'de bastırır.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 10, https://zh.wikisource.org/wiki/三國史記/卷10",
+    "tanik": "熊川州都督憲昌，以父周元不得爲王，反叛，國號長安"
+   },
+   {
+    "t": "0904-08-14",
+    "gun": "Hyogong 8/7 (904; ay başı)",
+    "k": "diger",
+    "b": "künye geçişi: Silla → Gungye (Gongju generali Hong-gi teslim olur).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 50, https://zh.wikisource.org/wiki/三國史記/卷50",
+    "tanik": "公州將軍弘竒來降"
+   },
+   {
+    "t": "0918-07-25",
+    "gun": "Taejo 1/6/丙辰 (918; ≈25 Temmuz 918)",
+    "k": "diger",
+    "b": "künye geçişi: Taebong → Goryeo.",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "夏六月丙辰，卽位于布政殿，國號高麗，改元天授"
+   },
+   {
+    "t": "0918-09-30",
+    "gun": "Taejo 1/8/癸亥 (918; ≈30 Eylül 918)",
+    "k": "kayip",
+    "b": "Ung-ju ve Un-ju vb. 10+ eyalet/ilçe Goryeo'dan kopup Hu-Baekje'ye katılır.",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "癸亥，以熊、運等十餘州縣，叛附百濟"
+   },
+   {
+    "t": "0934-10-30",
+    "gun": "Taejo 17/9/丁巳 (934; ≈30 Ekim 934)",
+    "k": "fetih",
+    "b": "Taejo Un-ju'da Gyeonhwon'u yener; Ungjin'in kuzeyindeki 30'dan fazla şehir Goryeo'ya katılır.",
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "tanik": "熊津以北三十餘城，聞風自降"
+   },
+   {
+    "t": "0940-04-11",
+    "gun": "Taejo 23/3 (940; ay başı)",
+    "k": "idari",
+    "b": "Eyalet adları yenilenir; Ung-ju \"Gongju (公州)\" adını alır.",
+    "kaynak": "Goryeosa (高麗史) kwon 56, https://zh.wikisource.org/wiki/高麗史/卷五十六",
+    "tanik": "太祖二十三年，更今名"
+   },
+   {
+    "t": "1176-02-13",
+    "gun": "Myeongjong 6/1 (1176, 丙申; ay başı)",
+    "k": "isyan",
+    "b": "Myeonghak-so köylüleri Mangi ve Mangsoi isyan edip Gongju'yu ele geçirir (Mangi-Mangsoi isyanı).",
+    "kaynak": "Goryeosa (高麗史) kwon 19, https://zh.wikisource.org/wiki/高麗史/卷十九",
+    "tanik": "公州鳴鶴所民亡伊、亡所伊等，嘯聚黨與，自稱山行兵馬使，攻陷公州"
+   }
+  ],
+  "ic_not": "Atlas ilk günü 1281-01-01 goryeo; dikiş uyumlu. Çift teyit: 475 Ungjin'e taşınma — Samguk Sagi kwon 26 + Goryeosa kwon 56 + Kotobank «公州» (aynı geleneğe dayanır; bağımsız birincil değil). KÜNYE ÖNERİLERİ: taebong f 0901-01-01 → 0904-08-14 (bu kayıtta başlangıç); hubaekje 892-936 ömrü içinde (918-09-30..934-10-30). 475 öncesi tanık BULUNAMADI (kwon 23 \"南限熊川\" bir nehir adı). Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
  },
  {
   "id": "gospic-hr",
@@ -10738,6 +11140,105 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Guiyang: atlas başlangıcı (1281-01-01 yuan-hanedani) DÜZELTİLMELİ — yeri kesin birincil ilk tanık 1283-06 (Yuan Shi 12, \"順元路宣慰司\"), 1281 sonrası; zincir boş. Atlasın \"1281-01-01 yuan-hanedani\" iddiası için 1281 öncesi tanık BULUNAMADI: aranan Song Shi 494-496 (Xi-nan man), Yuan Shi 9-13 temel yıllıkları (順元/八番/羅甸/程番), Yuan Shi 63 (至元16 teslim listesi — Guiyang adsız), Tang Shu \"矩州/牂州\" (yeri kesin değil), Qing Yitongzhi 391'in Song \"大萬谷落總管府 (968-976), 嘉定 yıllarında bugünkü Si merkezine taşındı\" iddiası (Ming Tongzhi'den alıntı; birincil BULUNAMADI). Yitongzhi/Ming Shi eşitlemesi (Shunyuan lu = Guiyang; Ming Guizhou Xuanwei si = Guiyang) ikincil kaynaktır; Guiyang'ın MÖ/ erken tarihi aranmadı. Atlas düzeltme önerisi: Guiyang noktası ya 1283-06'dan başlasın (Yuan) ya da Song Shi / Yuan Shi'de birincil 1281 öncesi tanık aransın. AYRI KAYIT (>3 km antik yer): yok; Tang/Han (Zangke) yerleşim eşitlemeleri kurulmadı. Kaynak çelişkisi: Yuan shi 63 \"順元路宣慰司\" 1279 kuruluşunu ima eder (潭州行省…至元16), Yuan shi 12 (1283) ilk açık anılış; Guizhou tongzhi 3 \"元至元十六年設順元路宣慰司\" der (Qing, ikincil)."
  },
  {
+  "id": "gyeongju-kr",
+  "ad": "Kyongcu (Gyeongju)",
+  "atlas_ad": "Kyongcu (Gyeongju)",
+  "lat": 35.856,
+  "lon": 129.225,
+  "kat1900": 3,
+  "adlar": [
+   "Seorabeol / Saro (徐那伐, 斯盧)",
+   "Geumseong (金城)",
+   "Gyerim (鷄林)",
+   "Gyeongju (慶州, 935/940)"
+  ],
+  "ilk": {
+   "t": "-0056-01-01",
+   "gun": "MÖ 57 (Hyeokgeose 1)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Samguk Sagi (三國史記) kwon 1, https://zh.wikisource.org/wiki/三國史記/卷01",
+   "tanik": "前漢孝宣帝五鳳元年甲子四月丙辰",
+   "ic_not": "İLK ANILIŞ (alt sınır, GELENEKSEL kronoloji): Samguk Sagi kwon 1: Hyeokgeose, Han Xuandi Wufeng 1 (MÖ 57) 4. ay 丙辰 günü Seorabeol krallığını başlatır (aynı cümlede alternatif: \"1. ay 15. gün\"). Yıl çapası: kwon 30 yıl tablosu satırı \"甲子 前漢孝宣帝詢十七年 五鳳元年 始祖朴赫居世居西干即位 元年\". Gün ytliu0 ile ≈ -0056-06-08 çıkar ama iki gün geleneği olduğundan kesinlik \"yil\". UYARI: Samguk Sagi'nin Silla erken tarihleri sonradan (derleme) yazılmış GELENEKSEL kronolojidir; burada yalnız \"yazılı tanığın verdiği tarih\" olarak alınmıştır, bağımsız erken tanık (Çin kaynaklarında 辰韓/斯盧) ve arkeolojik tarih bu oturumda aranmadı/bulunamadı. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+  },
+  "kur": {
+   "t": "-0036-01-01",
+   "gun": "MÖ 37 (Hyeokgeose 21)",
+   "kesinlik": "yil",
+   "kaynak": "Samguk Sagi (三國史記) kwon 1, https://zh.wikisource.org/wiki/三國史記/卷01",
+   "tanik": "二十一年，築京城，號曰金城"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0056-01-01",
+    "t": "0936-01-08",
+    "d": "silla",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 1, https://zh.wikisource.org/wiki/三國史記/卷01 ; Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "boyasiz": true,
+    "ic_not": "Silla (Saro) Gyeongju'nun kendi devletidir; künye silla f=-0056-01-01 ile ilk.t aynı. Künye geçişi: Silla Goryeo'ya teslim olur — Goryeosa Taejo 18 (935), 12. ay 壬申 günü Kral Kim Bu \"politik\" statü alır ve Silla ülkesi \"Gyeongju\" yapılıp ona yem verilir; gün ytliu0 ile 0936-01-08 (Jülyen) çevrildi. Samguk Sagi yıl tablosu 935 satırı: \"新羅五十六王九百九十二年而滅\". Künye silla t=0935-01-01 → hayalet UYARISI (≈1 yıl): künye GENİŞLET önerisi silla t → 0936-01-08."
+   },
+   {
+    "f": "0936-01-08",
+    "t": "1281-01-01",
+    "d": "goryeo",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0056-01-01",
+    "gun": "MÖ 57 (Hyeokgeose 1)",
+    "k": "kurulus",
+    "b": "Hyeokgeose Seorabeol'da kral olur (Silla'nın geleneksel kuruluşu).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 1, https://zh.wikisource.org/wiki/三國史記/卷01",
+    "tanik": "前漢孝宣帝五鳳元年甲子四月丙辰"
+   },
+   {
+    "t": "-0036-01-01",
+    "gun": "MÖ 37 (Hyeokgeose 21)",
+    "k": "kurulus",
+    "b": "Başkent kalesi (京城) Geumseong inşa edilir.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 1, https://zh.wikisource.org/wiki/三國史記/卷01",
+    "tanik": "二十一年，築京城，號曰金城"
+   },
+   {
+    "t": "0927-01-01",
+    "gun": "927 (Gyeongae 4; yıl tablosu: 丁亥, 景哀王薨 敬順王即位)",
+    "k": "isgal",
+    "b": "Hubaekje kralı Gyeonhwon Silla başkentini basar, sarayı yağmalar, Kral Gyeongae'yi intihara zorlar; Gyeongsun tahta çıkarılır (şehir elden çıkmaz).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 12, https://zh.wikisource.org/wiki/三國史記/卷12",
+    "tanik": "萱又縱其兵，剽掠公私財物略盡，入處宮闕"
+   },
+   {
+    "t": "0935-10-30",
+    "gun": "Gyeongsun 9/10 (935)",
+    "k": "diger",
+    "b": "Kral Gyeongsun, Goryeo'ya teslim mektubu gönderir (resmî devir 12. ayda).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 12, https://zh.wikisource.org/wiki/三國史記/卷12",
+    "tanik": "乃使侍郞金封休，齎書請降於太祖"
+   },
+   {
+    "t": "0936-01-08",
+    "gun": "Taejo 18/12/壬申 (935; ≈8 Ocak 936)",
+    "k": "diger",
+    "b": "künye geçişi: Silla → Goryeo (Kral Kim Bu'nun teslimi; Silla ülkesi \"Gyeongju\" olur).",
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "tanik": "除新羅國爲慶州，仍賜爲食邑"
+   }
+  ],
+  "ic_not": "Gyeongju atlas noktası Silla başkenti Geumseong/Wolseong bölgesindedir (kaynak mesafe vermez). Çift teyit: yok (Samguk Sagi + Goryeosa farklı eserler; kuruluş yalnız Samguk Sagi/Samguk Yusa geleneği). Atlas: ilk gün 1281-01-01 goryeo, dikiş uyumlu. KÜNYE ÖNERİLERİ: silla t 0935-01-01 → 0936-01-08. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+ },
+ {
   "id": "gyula-hu",
   "ad": "Gyula (Göle)",
   "atlas_ad": "Gyula (Göle)",
@@ -10811,6 +11312,153 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Hai Phong noktasını 1281-01-01 tran-hanedani ile başlatıyor; bu oturumda 1281 öncesi YERİ KESİN tanık bulunamadığı için zincir YAZILMADI (sahip:[]). ARANAN (sonuçsuz, 1281 öncesi): Đại Việt sử ký toàn thư zh.wikisource Ngoại kỷ 1-5 + Bản kỷ 1-6 (regex: 海防/塗山/涂山/都山/白藤/海東/安邦/陸頭/嘉林…) ve vi.wikisource Mạc Bảo Thần çevirisi Tập I-II (Cuốn 1-5: Hải Phòng, Lê Chân, Đồ Sơn, Bạch Đằng, An Biên, Hải Dương, Dương Kinh): Hải Phòng/Lê Chân/Đồ Sơn/An Biên bu metinlerde GEÇMEZ. Toàn thư Bạch Đằng'i (白滕江 938 Hoằng Thao akını, 外紀卷之五; 白藤江 1288 Ô Mã Nhi'ye atıf, 本紀卷之十) anar ama bunlar kent noktasına bağlanamayan nehir adlarıdır; \"海東\" (本紀卷之四, 1149: Java, Lô Lạc ve Siyam tüccar gemileri 海東'e gelip \"雲屯\" ticaret çiftliği kurar; 本紀卷之五 1285'te 帝 幸海東) bölge adıdır, Hải Phòng kenti değildir. Başlangıç sayılmadı. Lê Chân/An Biên (Hai Phong'un halk anlatısındaki kuruluşu) kaynak olarak bulunamadı. Bu kayıt ilk anılışı tekil bir ikincil kaynağa (VNSL, 1920'ler popüler-akademik özet, Trần Trọng Kim) dayanır; birincil neşir (Đại Nam thực lục) açılmadı. AYRI KAYIT ÖNERİSİ: Bạch Đằng çıkış noktası (Thủy Nguyên/Quảng Yên tarafı) Hai Phong merkezinden >3 km olabilir, mesafe ölçülmedi (kesin değil)."
+ },
+ {
+  "id": "hakata-jp",
+  "ad": "Hakata (Fukuoka)",
+  "atlas_ad": "Hakata (Fukuoka)",
+  "lat": 33.59,
+  "lon": 130.402,
+  "kat1900": 2,
+  "adlar": [
+   "Nanotsu / Nōtsu (那津)",
+   "Nōōtsu / Hakata-no-tsu (博多津)",
+   "Hakata (博多)",
+   "Fukuoka"
+  ],
+  "ilk": {
+   "t": "0536-01-01",
+   "gun": "536 (Senka 1)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Kotobank «那津» (世界大百科事典（旧版）, 平凡社), https://kotobank.jp/word/%E9%82%A3%E6%B4%A5",
+   "tanik": "536年那津（なのつ）(福岡市)に官家（みやけ）が修造され",
+   "ic_not": "İLK ANILIŞ (alt sınır), kuruluş DEĞİL: Nihon Shoki Senka 1/5/1 (geleneksel yıl 536) \"Nanotsu'nun ağzında官家 (miyake) onarımı\"; aynı olgu Kotobank «那津» (日本歴史地名大系) 5/1 gününü de verir ama Nihon Shoki'nin erken tarihleri geriye dönük hesaptır, gün çevrilmedi. Ad eşitlemesi: Nanotsu = Hakata limanı (日本歴史地名大系 «那津»: \"福岡市博多区那津…那珂川河口付近にあたるか\"; 日本国語大辞典 «博多»: 古名 那津). Uyarı: 世界大百科事典 «那津» \"《続日本紀》の博多大津(博多津)が那津と同じかどうかは検討を要する\" der — bu yüzden 536 ilk anılışı yer tutarlılığı bakımından orta güvenlidir; \"博多\" adının kendisi 8. yy ortasından (世界大百科事典 «博多»). Hakata'dan önceki tarihli yazılı tanık (kuruluş) bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0536-01-01",
+    "t": "0710-01-01",
+    "d": "yamato",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «那津» (日本歴史地名大系, 平凡社), https://kotobank.jp/word/%E9%82%A3%E6%B4%A5",
+    "boyasiz": true,
+    "ic_not": "Yamato sarayı Nanotsu'ya官家 (miyake) yaptırır ve çevre eyaletlerin pirinç ambarlarını buraya toplar → Yamato denetimi. Künye yamato 250-710."
+   },
+   {
+    "f": "0710-01-01",
+    "t": "0794-11-19",
+    "d": "nara-japonya",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "Kotobank «平城京» (デジタル大辞泉, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%9F%8E%E4%BA%AC ; Kotobank «平安京» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%AE%89%E4%BA%AC",
+    "boyasiz": true,
+    "ic_not": "Künye geçişi tarihi: Heian-kyō'ya taşınma günü (Kotobank «平安京»; k12-36 Kyoto kaydındaki hesapla aynı: Enryaku 13/10/22 ≈ 794-11-19). nara-japonya künyesi 793-12-31'de bitiyor, heian-japonya 794-01-01'de başlıyor; nara-japonya dönemi taşınma gününe uzatıldı (künye GENİŞLET önerisi: nara-japonya t → 794-11-19, ya da heian-japonya f → 784; ara 784-794 Nagaoka-kyō)."
+   },
+   {
+    "f": "0794-11-19",
+    "t": "1185-01-01",
+    "d": "heian-japonya",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "Kotobank «平安京» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%AE%89%E4%BA%AC ; Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "Takvim: kaynak yalnız ay-güneş (Japon) tarihi verir, Batı karşılığı kaynakta YOK; çeviri Y.T. Liu ChineseCalendar (ytliu0) tablosuyla (Çin takvimi → Jülyen) yapıldı, Japon resmî takvimi (Senmyō-reki vb.) ile ±1-2 gün fark olabilir; bu yüzden kesinlik \"ay\"."
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1281-01-01",
+    "d": "kamakura",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "1185: Kamakura bakufu başlangıcı için kaynak 1180/1183/1185/1192 tartışmasını verir; 1185 (Bunji 1) \"güçlü\" görüştür (Kotobank «鎌倉幕府»). Atlas kamakura künyesi 1185-01-01'de başlar. Bu şehir imparatorluk başkenti değildir; bakufu denetimi (shugo/jitō) kaynakla bu şehre özel DOĞRULANMADI: zincir künye düzeyinde (Japonya geneli) izlenir. Hakata için ayrıca: 永仁年間(1293-99) Chinzei Tandai kuruldu (Kotobank «博多») — atlas sonrası."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0536-01-01",
+    "gun": "536 (Senka 1)",
+    "k": "kurulus",
+    "b": "Yamato sarayı Nanotsu ağzında官家 (miyake) onarır; Hakata'nın bilinen ilk yazılı kaydı.",
+    "kaynak": "Kotobank «那津» (日本歴史地名大系, 平凡社), https://kotobank.jp/word/%E9%82%A3%E6%B4%A5",
+    "tanik": "「日本書紀」宣化天皇元年五月一日条に「那津の口」に官家を修造して"
+   },
+   {
+    "t": "0710-01-01",
+    "gun": "710 (Wadō 3)",
+    "k": "diger",
+    "b": "künye geçişi: Yamato → Nara dönemi (Heijō-kyō'ya taşınma).",
+    "kaynak": "Kotobank «平城京» (デジタル大辞泉, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%9F%8E%E4%BA%AC",
+    "tanik": "元明天皇の和銅3年（710）藤原京から遷都し"
+   },
+   {
+    "t": "0794-11-19",
+    "gun": "Enryaku 13/10/22 (≈19 Kasım 794)",
+    "k": "diger",
+    "b": "künye geçişi: Nara dönemi → Heian (Heian-kyō'ya taşınma).",
+    "kaynak": "Kotobank «平安京» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%AE%89%E4%BA%AC",
+    "tanik": "桓武天皇の延暦一三年（七九四）一〇月二二日、長岡京から遷都し"
+   },
+   {
+    "t": "1151-01-01",
+    "gun": "1151 (Nimpyō 1)",
+    "k": "diger",
+    "b": "Dazaifu Hakozaki ve Hakata'da \"büyük yağma/tutuklama\" (大追捕) yapar; Song tüccar mahallesi 大唐街.",
+    "kaynak": "Kotobank «博多» (改訂新版 世界大百科事典, 平凡社), https://kotobank.jp/word/%E5%8D%9A%E5%A4%9A",
+    "tanik": "大宰府が筥崎（はこざき），博多の大追捕（だいついぶ）を行い"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185 (Bunji 1)",
+    "k": "diger",
+    "b": "künye geçişi: Heian sarayı → Kamakura bakufu.",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "tanik": "文治元年（一一八五）説（守護・地頭の設置）が有力"
+   },
+   {
+    "t": "1274-01-01",
+    "gun": "1274 (Bun'ei 11)",
+    "k": "savas",
+    "b": "Moğol (Yuan) saldırısı (Bun'ei no eki): Hakata savaş alanı olur; sonra Hakata körfezi boyunca taş sur (石築地).",
+    "kaynak": "Kotobank «博多» (改訂新版 世界大百科事典, 平凡社), https://kotobank.jp/word/%E5%8D%9A%E5%A4%9A",
+    "tanik": "13世紀後半に2度にわたるモンゴル襲来があり，博多は戦場となった"
+   }
+  ],
+  "ic_not": "Hakata atlas noktası Hakata semtidir (Fukuoka'nın doğu yakası). Kotobank (日本歴史地名大系) «那津» Nanotsu'yu Naka nehri ağzında \"olabilir\" diye yerler. Çift teyit: 536 için iki bağımsız yayın (日本歴史地名大系 «那津» 5/1 gününü; 世界大百科事典 «筑前国» 536'yı) — ama ikisi de Nihon Shoki'ne dayanır, bağımsız birincil değil. Atlas notu: 1281'deki \"kamakura\" sahipliği zincirle uyumlu; hakata-jp zinciri atlas ilk gününde (1281-01-01) kamakura ile dikilir. Açılamayan/aranmayan: Nihon Shoki Senka 1 birincil metni (NDL/Kokushi Taikei) bu oturumda açılmadı."
+ },
+ {
+  "id": "hamhung-kr",
+  "ad": "Hamhung",
+  "atlas_ad": "Hamhung",
+  "lat": 39.918,
+  "lon": 127.536,
+  "kat1900": 2,
+  "adlar": [
+   "Hamju (咸州, 1108)",
+   "Haran-bu (哈蘭府, Yuan)",
+   "Hamhŭng (咸興, 1416)"
+  ],
+  "ilk": {
+   "t": "1362-07-22",
+   "gun": "Gongmin 11/7 (1362, 壬寅; ≈22 Temmuz 1362, ay başı)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Goryeosa (高麗史) kwon 40, https://zh.wikisource.org/wiki/高麗史/卷四十",
+   "tanik": "遇於咸興平",
+   "ic_not": "İLK ANILIŞ (yer: \"Hamhŭng ovası 咸興平\", şehir değil): Goryeosa kwon 40, Gongmin 11 (壬寅=1362), 7. ay: Yi Seonggye, Nahachu'nun ordusuyla \"Hamhŭng ovasında\" karşılaşır. ATLAS BAŞLANGICI DÜZELTİLMELİ: yeri-kesin ilk tanık 1362 (atlas 1281). Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür. ÖNCÜL ADAY (eşitlemesi KAYNAKTA YOK): Goryeosa kwon 58 \"咸州大都督府久爲女眞所據。睿宗二年（1107）…尹瓘等…擊逐。三年置州…四年撤城，以其地，還女眞，後又沒於元，稱哈蘭府。恭愍王五年收復\" (Hamju); Kotobank «咸興»: \"1960年…咸州郡を編入\" → Hamju-gun Hamhŭng şehrinden AYRI bir birimdir; Yun Gwan'ın Hamju'sunun bugünkü Hamhŭng şehri olduğu kaynakta yazılı DEĞİL → başlangıç sayılmadı, AYRI KAYIT ÖNERİSİ: \"Hamju (咸州)\"."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Hamhung'u 1281-01-01'de \"yuan-hanedani\" ile başlatıyor; bu oturumda şehre özgü ve 1281 öncesi tanık BULUNAMADI. Atlasın Yuan iddiasını DESTEKLEYEN bölgesel kayıt: Goryeosa kwon 58 (Gojong 45 = 1258): \"和州迆北，附于蒙古。蒙古乃置雙城惣管府于和州\" ve Gongmin 5 (1356) geri alınır — ama Hamhŭng şehrinin bu \"Hwaju kuzeyi\"nde olduğu kaynakta yazılı değil. Çift teyit: yok. Açılamayan: Joseon Sillok (1416 \"咸興\" adı), Yuan Shi. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
  },
  {
   "id": "hangzhou-cin",
@@ -11862,6 +12510,218 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Huelva: Fenike geleneği/arkeolojisi MÖ 10. yy; kaynaklı SİYASÎ zincir yalnız 1012'den (Bekrî) başlıyor. Kaynak sınırları: TDV'de 'Velbe' maddesi YOK (yalnız Bekrî/Mu‘tazıd/İşbîliye içi anma); Pliny/Strabon Onoba tanıkları tarihlenemedi. Çelişkiler: Abbâdî alışı 443/1051 ↔ 444/1052 (TDV içi). Atlas düzeltmesi: 1281'de Kastilya iddiası şehir için kaynaksız; Niebla bölgesi 1262'de Kastilya'ya geçti — Huelva için en geç 1293 öncesi. Çift teyit YOK."
  },
  {
+  "id": "incheon-kr",
+  "ad": "İnçon (Incheon)",
+  "atlas_ad": "İnçon (Incheon)",
+  "lat": 37.456,
+  "lon": 126.705,
+  "kat1900": 3,
+  "adlar": [
+   "Michuhol (彌鄒忽)",
+   "Maesohol (買召忽)",
+   "Soseong (邵城)",
+   "Gyeongwon (慶源)",
+   "Inju (仁州)",
+   "Incheon (仁川)"
+  ],
+  "ilk": {
+   "t": "-0017-01-01",
+   "gun": "MÖ 18 (Onjo 1; Han Chengdi Hongjia 3)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Samguk Sagi (三國史記) kwon 23, https://zh.wikisource.org/wiki/三國史記/卷23",
+   "tanik": "分其民，歸彌鄒忽以居之",
+   "ic_not": "İLK ANILIŞ (alt sınır, GELENEKSEL): Samguk Sagi kwon 23 (Baekje kuruluşu): Biryu halkını bölüp Michuhol'a yerleşir; yer çapası: \"前漢成帝鴻嘉三年\" (MÖ 18; yıl tablosu 癸卯 \"始祖溫祚王即位 元年\"). Ad eşitlemesi KAYNAKTA AÇIK: Goryeosa kwon 56 \"仁州本高句麗買召忽縣，一云彌趍忽\", Samguk Sagi kwon 35 \"邵城縣，本高句麗買召忽縣…今仁州（一云慶原買召，一作彌鄒）\". Mesafe: Michuhol'un tam yeri tartışmalıdır, kaynaklar koordinat vermez; atlas noktasına uzaklık ölçülmedi. Baekje kuruluş hikâyesi geleneksel kronolojidir. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0017-01-01",
+    "t": "0475-10-16",
+    "d": "baekje",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 23, https://zh.wikisource.org/wiki/三國史記/卷23",
+    "boyasiz": true,
+    "ic_not": "Biryu'nun Michuhol'daki yerleşimi başarısız olur (\"土濕水鹹，不得安居\") ve halkı Baekje (Wiryeseong) ile birleşir: \"其臣民皆歸於慰禮\" (kwon 23) → Baekje devri. Biryu yerleşimi kısa ömürlü ayrı yapıydı (süresi bilinmiyor); ayrı dönem açılmadı. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   },
+   {
+    "f": "0475-10-16",
+    "t": "0553-07-26",
+    "d": "goguryeo",
+    "kesinlik": "ay",
+    "kaynak": "Samguk Sagi (三國史記) kwon 18, https://zh.wikisource.org/wiki/三國史記/卷18 ; Samguk Sagi (三國史記) kwon 35, https://zh.wikisource.org/wiki/三國史記/卷35",
+    "boyasiz": true,
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Michuhol'a özgü Goguryeo fethi kaydı BULUNAMADI. Dayanak: (a) Goguryeo kwon 18, Jangsu 63 (475, 9. ay) Baekje başkenti Hanseong'u alır; (b) Samguk Sagi kwon 35 ve Goryeosa kwon 56: Michuhol/Maesohol \"本高句麗\" ilçesidir (tarihsiz). Hanseong'un düşüşü bölgesel olay; yerel ilçenin aynı anda mı geçtiği kaynakta yok. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   },
+   {
+    "f": "0553-07-26",
+    "t": "0898-07-23",
+    "d": "silla",
+    "kesinlik": "ay",
+    "kaynak": "Samguk Sagi (三國史記) kwon 4, https://zh.wikisource.org/wiki/三國史記/卷04 ; Samguk Sagi (三國史記) kwon 35, https://zh.wikisource.org/wiki/三國史記/卷35",
+    "boyasiz": true,
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Michuhol'a özgü Silla fethi kaydı BULUNAMADI. Dayanak: Silla Jinheung 14 (553, 7. ay) \"Baekje'nin kuzeydoğu sınırını alıp Sinju kurar\" (Hangang havzası; kwon 4), Silla'nın Gyeongdeok döneminde (757) \"Soseong-hyeon\" olarak Yulchin-gun'a bağlı olması (kwon 35). 553-757 arası yerel geçiş tarihi yok. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   },
+   {
+    "f": "0898-07-23",
+    "t": "0918-07-25",
+    "d": "taebong",
+    "kesinlik": {
+     "f": "ay",
+     "t": "gun"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 12, https://zh.wikisource.org/wiki/三國史記/卷12 ; Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "boyasiz": true,
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Samguk Sagi kwon 12, Hyogong 2 (898; yıl tablosu 戊午 光化元年), 7. ay: \"Gungye Paesŏ-do ve Hansan-ju'nun içindeki 30'dan fazla şehri aldı\" — Soseong'un bu otuz şehir arasında olduğu açıkça yazılı değil (Soseong Gyeongdeok'ta Hansan-ju'na/Han-ju'ya bağlı, kwon 35). Künye taebong f=0901-01-01: 898-08 → hayalet UYARISI (≈3 yıl) — künye GENİŞLET önerisi f → 898-07-23. Künye notu: taebong t=0918-01-01; Goryeo'ya geçiş 0918-07-25 (Goryeosa kwon 1 Taejo 1/6/丙辰) → dönem künye bitişinden ~6 ay sonra bitiyor (hayalet UYARISI): künye GENİŞLET önerisi taebong t → 0918-07-25."
+   },
+   {
+    "f": "0918-07-25",
+    "t": "1281-01-01",
+    "d": "goryeo",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一 ; Goryeosa (高麗史) kwon 56, https://zh.wikisource.org/wiki/高麗史/卷五十六",
+    "ic_not": "Goryeosa kwon 56: Hyeonjong 9'da Suju-imnae, Sukjong döneminde Gyeongwon-gun, Injong döneminde Inju (tarihler hükümdar düzeyinde). Atlas ilk günü 1281-01-01 goryeo."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0017-01-01",
+    "gun": "MÖ 18 (Onjo 1)",
+    "k": "kurulus",
+    "b": "Biryu halkıyla Michuhol'a yerleşir; sonra ölünce halkı Baekje'ye katılır.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 23, https://zh.wikisource.org/wiki/三國史記/卷23",
+    "tanik": "分其民，歸彌鄒忽以居之"
+   },
+   {
+    "t": "0475-10-16",
+    "gun": "Jangsu 63/9 (475; ≈14 Ekim 475, ay başı)",
+    "k": "savas",
+    "b": "Goguryeo Baekje başkenti Hanseong'u alır (bölgesel olay; Michuhol'a özgü değil).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 18, https://zh.wikisource.org/wiki/三國史記/卷18",
+    "tanik": "九月，王帥兵三萬，侵百濟，陷王所都漢城"
+   },
+   {
+    "t": "0553-07-26",
+    "gun": "Jinheung 14/7 (553; ay başı)",
+    "k": "fetih",
+    "b": "Silla Baekje'nin kuzeydoğu sınırını alıp Sinju kurar (bölgesel).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 4, https://zh.wikisource.org/wiki/三國史記/卷04",
+    "tanik": "秋七月，取百濟東北鄙，置新州"
+   },
+   {
+    "t": "0898-07-23",
+    "gun": "Hyogong 2/7 (898; ay başı)",
+    "k": "fetih",
+    "b": "Gungye Paesŏ-do ve Hansan-ju içindeki 30'dan fazla şehri alır, Songak'ı başkent yapar.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 12, https://zh.wikisource.org/wiki/三國史記/卷12",
+    "tanik": "弓裔取浿西道，及漢山州管內三十餘城"
+   },
+   {
+    "t": "0918-07-25",
+    "gun": "Taejo 1/6/丙辰 (918; ≈25 Temmuz 918)",
+    "k": "diger",
+    "b": "künye geçişi: Taebong → Goryeo.",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "夏六月丙辰，卽位于布政殿，國號高麗，改元天授"
+   }
+  ],
+  "ic_not": "Michuhol'un Silla-Goguryeo-Baekje arasındaki yerel el değiştirme günleri BULUNAMADI (zincirde 3 BEYANLI YAKLAŞIKLIK dönemi). Atlas ilk günü 1281-01-01 goryeo; dikiş uyumlu. KÜNYE ÖNERİSİ: taebong f 0901-01-01 → 0898-07-23. Çift teyit: yok. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+ },
+ {
+  "id": "izuhara-jp",
+  "ad": "Tsuşima (İzuhara)",
+  "atlas_ad": "Tsuşima (İzuhara)",
+  "lat": 34.203,
+  "lon": 129.289,
+  "kat1900": 3,
+  "adlar": [
+   "Tsushima kokufu / Yora (与良, 対馬国府)",
+   "Fuchū (府中)",
+   "Izuhara (厳原)"
+  ],
+  "ilk": {
+   "t": "0857-01-01",
+   "gun": "857 (Ten'an 1)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Kotobank «対馬国» (日本大百科全書(ニッポニカ), 小学館), https://kotobank.jp/word/%E5%AF%BE%E9%A6%AC%E5%9B%BD",
+   "tanik": "857年（天安1）の郡司(ぐんじ)の反乱で焼失している",
+   "ic_not": "İLK ANILIŞ (alt sınır): Tsushima-kokubunji (島分寺) \"bugünkü Tsushima-shi Izuhara-machi Kokubu'ta idi; 857 (Ten'an 1) gun (郡司) isyanında yandı\" (Kotobank «対馬国»). Yani tapınak 857'den ÖNCE vardı; kuruluş günü bulunamadı. 厳原町 (日本歴史地名大系): \"またこの頃（天武期 674 civarı）与良に国府が造営されたといわれ…\" — tarihsiz/rivayet (\"といわれ\"), bu yüzden alınmadı. Kokufu'nun yeri: \"対馬市厳原町\" (Kotobank «対馬国»). Atlas noktası Izuhara merkezidir; Kokubu/Yora Izuhara içinde olmakla birlikte mesafe kaynakla ölçülmedi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0857-01-01",
+    "t": "1185-01-01",
+    "d": "heian-japonya",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «対馬国» (日本大百科全書(ニッポニカ), 小学館), https://kotobank.jp/word/%E5%AF%BE%E9%A6%AC%E5%9B%BD ; Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "Tsushima eyaleti Heian devlet düzeninde (kokufu + 島分寺). Yerel tutarsızlık: \"平安時代以来…在庁官人の阿比留氏が土着して勢力を振るっていた\" (Kotobank «対馬国») — Abiru yerel görevli, devlet değil."
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1281-01-01",
+    "d": "kamakura",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "1185: Kamakura bakufu başlangıcı için kaynak 1180/1183/1185/1192 tartışmasını verir; 1185 (Bunji 1) \"güçlü\" görüştür (Kotobank «鎌倉幕府»). Atlas kamakura künyesi 1185-01-01'de başlar. Bu şehir imparatorluk başkenti değildir; bakufu denetimi (shugo/jitō) kaynakla bu şehre özel DOĞRULANMADI: zincir künye düzeyinde (Japonya geneli) izlenir. Tsushima için: Kamakura'da Mutō ailesinin jitō-dai'i Sō ailesi Abiru'nun yerine adayı yönetir (Kotobank «対馬国»), tarihsiz."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0857-01-01",
+    "gun": "857 (Ten'an 1)",
+    "k": "yikim",
+    "b": "Tsushima kokubunji (島分寺, Izuhara-machi Kokubu) gun (郡司) isyanında yanar.",
+    "kaynak": "Kotobank «対馬国» (日本大百科全書(ニッポニカ), 小学館), https://kotobank.jp/word/%E5%AF%BE%E9%A6%AC%E5%9B%BD",
+    "tanik": "857年（天安1）の郡司(ぐんじ)の反乱で焼失している"
+   },
+   {
+    "t": "0894-01-01",
+    "gun": "894 (Kanpyō 6)",
+    "k": "savas",
+    "b": "Silla korsan/akıncılarının Tsushima'ya büyük çaplı saldırısı (894/9).",
+    "kaynak": "Kotobank «対馬国» (日本大百科全書(ニッポニカ), 小学館), https://kotobank.jp/word/%E5%AF%BE%E9%A6%AC%E5%9B%BD",
+    "tanik": "894年（寛平6）9月の新羅(しらぎ)人の入寇"
+   },
+   {
+    "t": "1019-04-08",
+    "gun": "1019 (Kannin 3/3; ≈8 Nisan 1019, ay başı)",
+    "k": "savas",
+    "b": "Toi (刀伊) akıncılarının Tsushima'ya büyük çaplı saldırısı (Kannin 3/3).",
+    "kaynak": "Kotobank «対馬国» (日本大百科全書(ニッポニカ), 小学館), https://kotobank.jp/word/%E5%AF%BE%E9%A6%AC%E5%9B%BD",
+    "tanik": "1019年（寛仁3）3月の刀伊(とい)の入寇は大規模な外敵の侵入であった"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185 (Bunji 1)",
+    "k": "diger",
+    "b": "künye geçişi: Heian sarayı → Kamakura bakufu.",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "tanik": "文治元年（一一八五）説（守護・地頭の設置）が有力"
+   },
+   {
+    "t": "1274-01-01",
+    "gun": "1274 (Bun'ei 11)",
+    "k": "savas",
+    "b": "Moğol (Yuan) ordusu Tsushima'ya saldırır (1274; ikinci sefer 1281, atlas başlangıcıyla aynı yıl).",
+    "kaynak": "Kotobank «対馬国» (日本大百科全書(ニッポニカ), 小学館), https://kotobank.jp/word/%E5%AF%BE%E9%A6%AC%E5%9B%BD",
+    "tanik": "1274年（文永11）、1281年（弘安4）の二度のモンゴル（元）の襲来"
+   }
+  ],
+  "ic_not": "İlk anılış 857 (\"Tsushima-kokubunji yandı\") ŞEHİR yerleşimine değil tapınağa özgüdür; kokufu Yora/Kokubu'dadır (Izuhara-machi içinde) — mesafe ölçülmedi. Çift teyit: yok. Açılamayan: 857 isyanının birincil kaydı (Kotobank kaynak adı vermez). Atlas ilk günü 1281-01-01 kamakura; dikiş uyumlu."
+ },
+ {
   "id": "jaen-es",
   "ad": "Jaén",
   "atlas_ad": "Jaén",
@@ -12102,6 +12962,222 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas 1281-01-01'de 'macaristan' ile başlatıyor; açılan kaynakta ilk tanık yalnız 'XIV. yy' (HE). 1281'den önce tanık bulunamadı. Zincir BOŞ."
+ },
+ {
+  "id": "jeju-kr",
+  "ad": "Ceccu (Jeju)",
+  "atlas_ad": "Ceccu (Jeju)",
+  "lat": 33.5,
+  "lon": 126.531,
+  "kat1900": 3,
+  "adlar": [
+   "Tammora / Tamna (耽牟羅, 耽羅)",
+   "Tamna-gun (耽羅郡, 1105)",
+   "Jeju (濟州, 1295)"
+  ],
+  "ilk": {
+   "t": "0476-05-09",
+   "gun": "Munju 2/4 (476; ≈9 Mayıs 476, ay başı; yıl tablosu 丙辰 \"二\")",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Samguk Sagi (三國史記) kwon 26, https://zh.wikisource.org/wiki/三國史記/卷26",
+   "tanik": "耽羅國獻方物，王喜，拜使者為恩率",
+   "ic_not": "İLK ANILIŞ (alt sınır): Samguk Sagi kwon 26, Munju 2, 4. ay: \"Tamna ülkesi yöresel ürün armağan etti, kral sevindi, elçiyi 恩率 yaptı\" (yıl tablosu 丙辰). Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir. Daha eski Çince anılış (\"州胡\", Sanguozhi) ve Jeju'ya eşitlenmesi bu oturumda doğrulanmadı. Not: Jeju atlas noktası Jeju-si merkezidir; Tamna'nın başkenti/yeri kaynaklarda koordinatsız (Goryeosa kwon 57: \"主山北麓…穴曰毛興\" üç soylu kurucu efsanesi) — şehir yerine ADA düzeyinde anılış."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0476-05-09",
+    "t": "1105-01-01",
+    "d": "tamna-krallik",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 26, https://zh.wikisource.org/wiki/三國史記/卷26 ; Samguk Sagi (三國史記) kwon 6, https://zh.wikisource.org/wiki/三國史記/卷06 ; Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二 ; Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七",
+    "kunye_yok": true,
+    "ic_not": "ÖNERİLEN KÜNYE: tamna-krallik — Tamna (Tammora) Krallığı, Jeju adası; ömür ≈ 476 (ilk anılış) – 1105 (Goryeo'nun \"Tamna-gun\" yapması, Goryeosa kwon 57, Sukjong 10 = 1105: kwon 11 Sukjong 4 = 己卯 1099 çapası); kaynaklar: Samguk Sagi kwon 26 (476 Baekje'ye haraç; 498 Dongseong 20: \"耽羅不修貢賦，親征…耽羅聞之，遣使乞罪\"), kwon 6 (661 Munmu 1: Tamna kralı Silla'ya biat), Goryeosa kwon 2 (938 Taejo 21: Tamna veliahdı Goryeo'ya gelir; unvan), kwon 57 (1105). Tamna bu dönemde Baekje/Silla/Goryeo'ya UPFRONT haraç veren ama kendi yönetimini koruyan krallıktır → sahip = Tamna (BEYANLI YAKLAŞIKLIK: nominal bağımlılık dönemleri ayrıca yazılmadı). Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   },
+   {
+    "f": "1105-01-01",
+    "t": "1276-09-10",
+    "d": "goryeo",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七 ; Goryeosa (高麗史) kwon 28, https://zh.wikisource.org/wiki/高麗史/卷二十八",
+    "ic_not": "1270-1273 Sambyeolcho (Kim Tong-jeong) adayı elinde tutar (Goryeosa kwon 57 \"元宗十一年…入據作亂，越四年…討平之\"; kwon 27 Jindo 1271 sonrası kaçış) — isyancı rejimin künyesi yok; Goryeo olarak BIRAKILDI (BEYANLI YAKLAŞIKLIK). Yuan'ın fiilî denetimi 1273 sonrası (Yuan kaynakları bu oturumda açılmadı); Goryeosa'daki en erken kayıt Chungnyeol 2 (1276), 8. ay: Yuan ada için darughaçi atar."
+   },
+   {
+    "f": "1276-09-10",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 28, https://zh.wikisource.org/wiki/高麗史/卷二十八 ; Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七",
+    "ic_not": "\"f en geç tanıktan\": Goryeosa kwon 28 Chungnyeol 2 (丙子=1276), 8. ay: Yuan \"Tamna darughaçisi\" atar; kwon 57: Chungnyeol 3 (1277) \"元爲牧馬場\" (ada Yuan at otlağı). Gerçek Yuan fethi/kurulum tarihi (1273?) bu oturumda doğrulanmadı. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0476-05-09",
+    "gun": "Munju 2/4 (476; ay başı)",
+    "k": "diger",
+    "b": "Tamna Baekje'ye armağan gönderir (ilk anılış).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 26, https://zh.wikisource.org/wiki/三國史記/卷26",
+    "tanik": "耽羅國獻方物，王喜，拜使者為恩率"
+   },
+   {
+    "t": "0498-01-01",
+    "gun": "498 (Dongseong 20; yıl tablosu 戊寅 \"二十\")",
+    "k": "sefer",
+    "b": "Baekje kralı Dongseong Tamna'nın haracı vermediği için sefere çıkar; Tamna elçi gönderip af diler.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 26, https://zh.wikisource.org/wiki/三國史記/卷26",
+    "tanik": "王以耽羅不修貢賦，親征，至武珍州"
+   },
+   {
+    "t": "0661-01-01",
+    "gun": "661 (Munmu 1; yıl tablosu 辛酉 龍朔元年)",
+    "k": "diger",
+    "b": "Tamna kralı Silla'ya biat eder (Baekje'ye bağlılıktan Silla'ya).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 6, https://zh.wikisource.org/wiki/三國史記/卷06",
+    "tanik": "耽羅國主佐平徒冬音律一作津。來降"
+   },
+   {
+    "t": "0938-01-01",
+    "gun": "938 (Taejo 21, 戊戌)",
+    "k": "diger",
+    "b": "Tamna veliahdı Goryeo'ya gelir; \"Seongju/Wangja\" unvanı verilir.",
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "tanik": "耽羅國太子末老來朝，賜星主王子爵"
+   },
+   {
+    "t": "1105-01-01",
+    "gun": "1105 (Sukjong 10)",
+    "k": "idari",
+    "b": "künye geçişi: Tamna → Goryeo (\"Tamna-gun\").",
+    "kaynak": "Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七",
+    "tanik": "肅宗十年，改乇羅，爲耽羅郡"
+   },
+   {
+    "t": "1270-01-01",
+    "gun": "1270 (Wonjong 11, Goryeosa tarihi)",
+    "k": "isyan",
+    "b": "Sambyeolcho (Kim Tong-jeong) adayı ele geçirir; 4 yıl sonra bastırılır.",
+    "kaynak": "Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七",
+    "tanik": "元宗十一年，逆賊金通精，領三別抄，入據作亂"
+   },
+   {
+    "t": "1276-09-10",
+    "gun": "Chungnyeol 2/8 (1276; ay başı)",
+    "k": "diger",
+    "b": "künye geçişi: Goryeo → Yuan (Yuan Tamna'ya darughaçi atar).",
+    "kaynak": "Goryeosa (高麗史) kwon 28, https://zh.wikisource.org/wiki/高麗史/卷二十八",
+    "tanik": "元遣塔剌赤，爲耽羅達魯花赤"
+   }
+  ],
+  "ic_not": "Atlas ilk günü 1281-01-01 yuan-hanedani; zincir yuan ile biter, dikiş uyumlu. KUNYE_YOK: tamna-krallik (öneri). Çift teyit: yok. Açılamayan/aranmayan: Yuan Shi (Tamna 1273), Sanguozhi «州胡». Jeju-si merkezinin Tamna dönemindeki yeri (Samseonghyeol Jeju-si içinde) kaynakta koordinatsız. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+ },
+ {
+  "id": "jeonju-kr",
+  "ad": "Concu (Jeonju)",
+  "atlas_ad": "Concu (Jeonju)",
+  "lat": 35.824,
+  "lon": 127.148,
+  "kat1900": 2,
+  "adlar": [
+   "Wansan (完山)",
+   "Bisabeol / Bijabwa (比斯伐, 比自火)",
+   "Jeonju (全州, 757)",
+   "Anam Dohobu (安南都護府, 936-940)",
+   "Wansan-bu (完山府, 1356)"
+  ],
+  "ilk": {
+   "t": "0685-01-01",
+   "gun": "685 (Sinmun 5; yıl tablosu: 乙酉 垂拱元年)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Samguk Sagi (三國史記) kwon 8, https://zh.wikisource.org/wiki/三國史記/卷08",
+   "tanik": "五年春，復置完山州，以龍元爲摠管",
+   "ic_not": "İLK ANILIŞ (alt sınır, \"yeniden kuruldu\" ifadesiyle): Samguk Sagi kwon 8, Sinmun 5: \"Wansan-ju yeniden (復置) kuruldu, Yongwon muhafız (摠管) atandı\" (yıl tablosu 乙酉 垂拱元年). Ad eşitlemesi KAYNAKTA AÇIK: Samguk Sagi kwon 36 \"全州，本百濟完山…神文王五年復置完山州，景德王十六年改名\"; Goryeosa kwon 57 \"全州牧本百濟完山\". Önceki anılışlar KULLANILMADI: (a) Samguk Sagi kwon 4 Jinheung 16 (555) \"置完山州於比斯伐\" — Goryeosa kwon 57 Bisabeol'u Jeonju için \"一云\" (bir rivayet) olarak verir; 555 Wansan-ju'su ile 685 Wansan-ju'sunun aynı yer olduğu kaynakta kesin değil, (b) Goryeosa kwon 57 \"威德王元年（554）爲完山州\" (Baekje, geç derleme), (c) Samguk Sagi kwon 22 Bojang 9 (650) Boddok'un \"Wansan Godaesan\"a taşınması (ilçe adı, şehir yeri değil). Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0685-01-01",
+    "t": "0900-01-01",
+    "d": "silla",
+    "kesinlik": "yil",
+    "kaynak": "Samguk Sagi (三國史記) kwon 8, https://zh.wikisource.org/wiki/三國史記/卷08 ; Samguk Sagi (三國史記) kwon 9, https://zh.wikisource.org/wiki/三國史記/卷09",
+    "boyasiz": true,
+    "ic_not": "Silla Wansan-ju (685) → Jeonju (757, Gyeongdeok 16, kwon 9 12. ay toplu isim değişikliği \"完山州爲全州\"). 685 öncesi Baekje dönemi bu kayıtta YOK (yukarıdaki ilk anılış açıklaması). Not: Samguk Sagi kwon 11 Jinseong 6 (892): \"Wansan'ın hırsızı (賊) Gyeonhwon bölgeyi tutup kendini Hu-Baekje ilan etti\" — yıl tablosu 892 satırı \"後百濟 甄萱自稱王\"; ancak Gyeonhwon'un asıl merkezi Mujin-ju'dur ve Wansan'a 900'de gelir (kwon 50)."
+   },
+   {
+    "f": "0900-01-01",
+    "t": "0936-09-19",
+    "d": "hubaekje",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 50, https://zh.wikisource.org/wiki/三國史記/卷50 ; Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七",
+    "boyasiz": true,
+    "ic_not": "Samguk Sagi kwon 50: 900 (光化三年=Hyogong 4) Gyeonhwon Wansan-ju'ya gelir, halk onu karşılar, başkenti Wansan'a koyar ve Hu-Baekje kralı olur. Künye hubaekje t=0936-01-01 → hayalet UYARISI (≈9 ay): künye GENİŞLET önerisi t → 936-09-19."
+   },
+   {
+    "f": "0936-09-19",
+    "t": "1281-01-01",
+    "d": "goryeo",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二 ; Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七",
+    "ic_not": "936 (Taejo 19, 9. ay): Il-Gicheon savaşından sonra Taejo \"Baekje başkenti\"ne girer. Gün: savaş 甲午 günü (ytliu0 936-09-26) ama başkente giriş \"是月\" (bu ay) denir → ay başı alındı. Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür. Goryeosa kwon 57: Anam Dohobu (936), 940 Jeonju, 1018 Anam Dae Dohobu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0685-01-01",
+    "gun": "685 (Sinmun 5)",
+    "k": "idari",
+    "b": "Silla Wansan-ju'yu yeniden kurar.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 8, https://zh.wikisource.org/wiki/三國史記/卷08",
+    "tanik": "五年春，復置完山州，以龍元爲摠管"
+   },
+   {
+    "t": "0757-01-01",
+    "gun": "757 (Gyeongdeok 16)",
+    "k": "idari",
+    "b": "Wansan-ju \"Jeonju (全州)\" adını alır.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 9, https://zh.wikisource.org/wiki/三國史記/卷09",
+    "tanik": "完山州爲全州"
+   },
+   {
+    "t": "0900-01-01",
+    "gun": "900 (Hyogong 4; 光化三年)",
+    "k": "diger",
+    "b": "künye geçişi: Silla → Hu-Baekje (Gyeonhwon Wansan'a başkent koyar).",
+    "kaynak": "Samguk Sagi (三國史記) kwon 50, https://zh.wikisource.org/wiki/三國史記/卷50",
+    "tanik": "今予敢不立都於完山，以雪義慈宿憤乎"
+   },
+   {
+    "t": "0936-09-19",
+    "gun": "Taejo 19/9 (936; ay başı)",
+    "k": "diger",
+    "b": "künye geçişi: Hu-Baekje → Goryeo (Taejo Baekje başkentine girer).",
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "tanik": "王入百濟都城，令曰"
+   }
+  ],
+  "ic_not": "Atlas ilk günü 1281-01-01 goryeo; dikiş uyumlu. Çift teyit: yok. Baekje döneminde (660 öncesi) Wansan şehrine özgü TARİHLİ ve yeri-kesin tanık bulunamadı. KÜNYE ÖNERİSİ: hubaekje t 0936-01-01 → 0936-09-19. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
  },
  {
   "id": "jinan-cin",
@@ -13185,6 +14261,87 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Jiujiang (atlas ilk sahiplik 1281-01-01 yuan-hanedani). ① BAŞLANGIÇ: 311 (Pen kou savaşı); 3 km kuralı gereği antik Chaisang (Han, Yuzhang jun; ~10 km GB, Yuanhe: 20 li) ve Han Xunyang (Yangtze kuzey kıyısı, Huangmei) buraya yazılmadı → ayrı kayıt önerileri 'chaisang-han-cin', 'xunyang-huangmei-cin' (konumlar kesin değil, ilk.ic_not). ② GELENEK (başlangıç sayılmadı): Guanying'ın MÖ 201'de Pen kou şehrini kurması / Lang kuyusu (Yuanhe junxian zhi; Taiping huanyu ji 111) — Tang/Song aktarımı, çağdaş doğrulama yok. Atlas başlangıcı düzeltmesi GEREKMEZ (ilk tanık 311, atlas 1281). ③ BOŞLUK: 618-06-18–622-01-01 (Lin Shihong/Xiao Xian/Zhang Shan'an; öneri künye lin-shihong-chu). ④ KÜNYE: kuzey/güney hanedan geçişleri ulusal kataloğa göre; tang künyesi 907 ile bitiyor (zincir 906), sun-wu bu kayıtta yok. Uyarılar (bati-jin.t 0316-01-01, dogu-jin.t 0420-01-01 vb.) künye GENİŞLET önerisini doğurur. ⑤ KISA İŞGALLER (dönem açılmadı): 403-404 Huan Xuan, 410-411 Lu Xun, 1129-10 Jin. ⑥ ÇELİŞKİ: Zhong Chuan'ın Jiangzhou valisi oğlu — ZZTJ 265 '養子延規' / Xin Tang Shu 190 '次子匡範' (iki ad beyan; Jiang'nin 906 Yang Wu'ya geçişi her ikisinde de var). Chaisang mesafesi Yuanhe 20 li / Hu Sansheng 90 li (Yitongzhi 244) beyan. ⑦ ÇİFT TEYİT: Jiangzhou 906 geçişi ZZTJ 265 ve Xin Tang Shu 190 (iki bağımsız); 1275 teslim Yuan Shi 8 (tek). Açılamayan: Yuanhe junxian zhi Jiangzhou sayfası (元和郡縣圖志/卷28) açılmadı; Sui Shu 24-25 ve Hou Han Shu 112 taranmadı; Han Xunyang Huangmei konumu yalnız Yitongzhi 244'ten."
+ },
+ {
+  "id": "kagoshima-jp",
+  "ad": "Kagoşima",
+  "atlas_ad": "Kagoşima",
+  "lat": 31.596,
+  "lon": 130.557,
+  "kat1900": 2,
+  "adlar": [
+   "Kagoshima-gun (麑嶋/鹿児島郡)",
+   "Kagoshima (鹿児島)"
+  ],
+  "ilk": {
+   "t": "0764-12-28",
+   "gun": "Tenpyō-hōji 8/12 (764; ≈28 Aralık 764, ay başı)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Kotobank «鹿児島市» (日本歴史地名大系, 平凡社), https://kotobank.jp/word/%E9%B9%BF%E5%85%90%E5%B3%B6%E5%B8%82",
+   "tanik": "天平宝字八年（七六四）一二月是月条にみえる「麑嶋」の記事",
+   "ic_not": "İLK ANILIŞ (alt sınır): 日本歴史地名大系 «鹿児島市»: \"鹿児島の地名の初見は「続日本紀」天平宝字八年（七六四）一二月是月条にみえる「麑嶋」の記事\". Kaynak \"bu ay içinde\" der (是月); ay başı olarak verilen tarih ytliu0 çevirisidir. Takvim: kaynak yalnız ay-güneş (Japon) tarihi verir, Batı karşılığı kaynakta YOK; çeviri Y.T. Liu ChineseCalendar (ytliu0) tablosuyla (Çin takvimi → Jülyen) yapıldı, Japon resmî takvimi (Senmyō-reki vb.) ile ±1-2 gün fark olabilir; bu yüzden kesinlik \"ay\". Kuruluş tarihi bulunamadı; Kagoshima şehri (Shimazu hâkimiyeti 1343, Kotobank «鹿児島») bunun çok sonrasıdır."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0764-12-28",
+    "t": "0794-11-19",
+    "d": "nara-japonya",
+    "kesinlik": "ay",
+    "kaynak": "Kotobank «鹿児島市» (日本歴史地名大系, 平凡社), https://kotobank.jp/word/%E9%B9%BF%E5%85%90%E5%B3%B6%E5%B8%82 ; Kotobank «平安京» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%AE%89%E4%BA%AC",
+    "boyasiz": true,
+    "ic_not": "Satsuma eyaleti/Kagoshima-gun Yamato/Nara devlet düzeninde (Shoku Nihongi kaydı eyalet idaresine ait). Künye geçişi tarihi: Heian-kyō'ya taşınma günü (Kotobank «平安京»; k12-36 Kyoto kaydındaki hesapla aynı: Enryaku 13/10/22 ≈ 794-11-19). nara-japonya künyesi 793-12-31'de bitiyor, heian-japonya 794-01-01'de başlıyor; nara-japonya dönemi taşınma gününe uzatıldı (künye GENİŞLET önerisi: nara-japonya t → 794-11-19, ya da heian-japonya f → 784; ara 784-794 Nagaoka-kyō)."
+   },
+   {
+    "f": "0794-11-19",
+    "t": "1185-01-01",
+    "d": "heian-japonya",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "Kotobank «平安京» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%AE%89%E4%BA%AC ; Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "Takvim: kaynak yalnız ay-güneş (Japon) tarihi verir, Batı karşılığı kaynakta YOK; çeviri Y.T. Liu ChineseCalendar (ytliu0) tablosuyla (Çin takvimi → Jülyen) yapıldı, Japon resmî takvimi (Senmyō-reki vb.) ile ±1-2 gün fark olabilir; bu yüzden kesinlik \"ay\"."
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1281-01-01",
+    "d": "kamakura",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "1185: Kamakura bakufu başlangıcı için kaynak 1180/1183/1185/1192 tartışmasını verir; 1185 (Bunji 1) \"güçlü\" görüştür (Kotobank «鎌倉幕府»). Atlas kamakura künyesi 1185-01-01'de başlar. Bu şehir imparatorluk başkenti değildir; bakufu denetimi (shugo/jitō) kaynakla bu şehre özel DOĞRULANMADI: zincir künye düzeyinde (Japonya geneli) izlenir. Satsuma'da Shimazu-shō/jitō 1185-87 ve shugo (1197) için ayrıca Kotobank «島津忠久» (1185 下司職, 1197 守護) bulundu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0794-11-19",
+    "gun": "Enryaku 13/10/22 (≈19 Kasım 794)",
+    "k": "diger",
+    "b": "künye geçişi: Nara dönemi → Heian.",
+    "kaynak": "Kotobank «平安京» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%AE%89%E4%BA%AC",
+    "tanik": "桓武天皇の延暦一三年（七九四）一〇月二二日、長岡京から遷都し"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185 (Bunji 1)",
+    "k": "diger",
+    "b": "künye geçişi: Heian sarayı → Kamakura bakufu.",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "tanik": "文治元年（一一八五）説（守護・地頭の設置）が有力"
+   },
+   {
+    "t": "1197-01-01",
+    "gun": "1197 (Kenkyū 8)",
+    "k": "idari",
+    "b": "Shimazu Tadahisa Satsuma-Ōsumi (薩隅) shugo (koruyucu vali) olur — Kamakura bakufu denetiminin Satsuma'da somut kaydı.",
+    "kaynak": "Kotobank «島津忠久» (百科事典マイペディア, 平凡社), https://kotobank.jp/word/%E5%B3%B6%E6%B4%A5%E5%BF%A0%E4%B9%85",
+    "tanik": "1197年薩隅両国家人奉行人（守護）となり"
+   }
+  ],
+  "ic_not": "Atlas ilk günü 1281-01-01 kamakura; zincir dikişi uyumlu. Çift teyit: yok (tek kaynak, 日本歴史地名大系 «鹿児島市»; aynı Shoku Nihongi kaydına dayanan başka bağımsız yayın aranmadı). Açılamayan: Shoku Nihongi birincil metni (ja.wikisource/NDL) bu oturumda açılmadı."
  },
  {
   "id": "kaifeng-cin",
@@ -18133,6 +19290,96 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış 3 Ağustos 947: Treccani EI 'NANCY' gün veriyor; Treccani online 'Ottone I diploması, 947' (yıl) — iki Treccani maddesi aynı kuruluşun iki yayını, bağımsız çift teyit sayılmaz. Treccani 'imperatore' diyor ama Otto 947'de kraldır (962 tacı) — madde dili, tarihi etkilemez. EI: 'Fu in origine un nucleo celtico' (Meurthe sol yakasında izler) — aynı yer olduğu açık değil, ark yazılmadı. Nancy 947'de Lotharingia/Doğu Francia'da. XII. yy: Matthieu I (Gerard d'Alsace soyu) Nancy'ye yerleşen ilk dük (EI Lorena; tarihsiz). dikiş: atlas Nancy 1281 'almanya' ile başlıyor, zincirin sonu almanya — olay gerekmez."
  },
  {
+  "id": "nara-jp",
+  "ad": "Nara",
+  "atlas_ad": "Nara",
+  "lat": 34.685,
+  "lon": 135.805,
+  "kat1900": 2,
+  "adlar": [
+   "Heijō-kyō (平城京)",
+   "Nara (奈良/寧楽)"
+  ],
+  "ilk": {
+   "t": "0710-01-01",
+   "gun": "710 (Wadō 3)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Kotobank «平城京» (デジタル大辞泉, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%9F%8E%E4%BA%AC",
+   "tanik": "元明天皇の和銅3年（710）藤原京から遷都し",
+   "ic_not": "Nara şehri kuruluşu: Heijō-kyō'ya taşınma, Wadō 3 (710). Gün çevrilmedi (Kotobank yalnız yıl veriyor). Atlas noktası Nara şehir merkezi; Heijō-kyō (平城京) 東西4.3×南北4.8 km, \"現在の奈良市市街から西南方にあたる\" (デジタル大辞泉) — saray alanı ile atlas noktasının tam örtüşmesi kaynakta ölçülmedi; kaynaklar şehrin \"外京\" kısmının (Kōfuku-ji/Tōdai-ji ön şehri) bugüne devam ettiğini söyler (百科事典マイペディア: \"外京のみが…門前町となって残った\"). Kuruluş öncesi tanık (kur) aranmadı/bulunamadı."
+  },
+  "kur": {
+   "t": "0710-01-01",
+   "gun": "710 (Wadō 3)",
+   "kesinlik": "yil",
+   "kaynak": "Kotobank «平城京» (デジタル大辞泉, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%9F%8E%E4%BA%AC",
+   "tanik": "元明天皇の和銅3年（710）藤原京から遷都し"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0710-01-01",
+    "t": "0794-11-19",
+    "d": "nara-japonya",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "Kotobank «平城京» (デジタル大辞泉, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%9F%8E%E4%BA%AC ; Kotobank «平安京» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%AE%89%E4%BA%AC",
+    "boyasiz": true,
+    "ic_not": "Künye geçişi tarihi: Heian-kyō'ya taşınma günü (Kotobank «平安京»; k12-36 Kyoto kaydındaki hesapla aynı: Enryaku 13/10/22 ≈ 794-11-19). nara-japonya künyesi 793-12-31'de bitiyor, heian-japonya 794-01-01'de başlıyor; nara-japonya dönemi taşınma gününe uzatıldı (künye GENİŞLET önerisi: nara-japonya t → 794-11-19, ya da heian-japonya f → 784; ara 784-794 Nagaoka-kyō)."
+   },
+   {
+    "f": "0794-11-19",
+    "t": "1185-01-01",
+    "d": "heian-japonya",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "Kotobank «平安京» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%AE%89%E4%BA%AC ; Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "Takvim: kaynak yalnız ay-güneş (Japon) tarihi verir, Batı karşılığı kaynakta YOK; çeviri Y.T. Liu ChineseCalendar (ytliu0) tablosuyla (Çin takvimi → Jülyen) yapıldı, Japon resmî takvimi (Senmyō-reki vb.) ile ±1-2 gün fark olabilir; bu yüzden kesinlik \"ay\"."
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1281-01-01",
+    "d": "kamakura",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "1185: Kamakura bakufu başlangıcı için kaynak 1180/1183/1185/1192 tartışmasını verir; 1185 (Bunji 1) \"güçlü\" görüştür (Kotobank «鎌倉幕府»). Atlas kamakura künyesi 1185-01-01'de başlar. Bu şehir imparatorluk başkenti değildir; bakufu denetimi (shugo/jitō) kaynakla bu şehre özel DOĞRULANMADI: zincir künye düzeyinde (Japonya geneli) izlenir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0710-01-01",
+    "gun": "710 (Wadō 3)",
+    "k": "kurulus",
+    "b": "Genmei Tennō başkenti Fujiwara-kyō'dan Heijō-kyō'ya (Nara) taşır.",
+    "kaynak": "Kotobank «平城京» (デジタル大辞泉, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%9F%8E%E4%BA%AC",
+    "tanik": "元明天皇の和銅3年（710）藤原京から遷都し"
+   },
+   {
+    "t": "0794-11-19",
+    "gun": "Enryaku 13/10/22 (≈19 Kasım 794)",
+    "k": "diger",
+    "b": "künye geçişi: Nara dönemi → Heian (başkent Nara'dan ayrılalı çok olmuştur: 784 Nagaoka-kyō).",
+    "kaynak": "Kotobank «平安京» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B9%B3%E5%AE%89%E4%BA%AC",
+    "tanik": "桓武天皇の延暦一三年（七九四）一〇月二二日、長岡京から遷都し"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185 (Bunji 1)",
+    "k": "diger",
+    "b": "künye geçişi: Heian sarayı → Kamakura bakufu.",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "tanik": "文治元年（一一八五）説（守護・地頭の設置）が有力"
+   }
+  ],
+  "ic_not": "Nara 784'te (Kotobank «平城京»: \"桓武天皇の延暦3年（784）長岡京に遷都するまで\") başkentlikten çıkar; zincir künye düzeyinde (nara-japonya→heian-japonya) 794-11-19'a kadar nara-japonya'dır. Çift teyit: 710 için DNK (デジタル大辞泉), 日本国語大辞典, 世界大百科事典, 百科事典マイペディア hepsi 710/Wadō 3 der (ayrı yayınevleri, bağımsız birincil değil). Atlas ilk günü 1281-01-01 kamakura; dikiş uyumlu."
+ },
+ {
   "id": "naupaktos-inebahti-yunanistan",
   "ad": "İnebahtı (Naupaktos)",
   "atlas_ad": "İnebahtı",
@@ -18659,6 +19906,43 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "KAYNAK: Iranica 'NISA' (Invernizzi), 'ABĪVARD', 'KHORASAN iii/iv'; TDV Horasan/Tûs. TDV'de Nesâ maddesi YOK (arama: yalnız Nesâî). Kuruluş tarihi bulunamadı; ark. tarihi güvenli uç. Sahip zinciri Part+Sâsânî (TDV Horasan) + Horasan bölge zinciri + Nesâ'ya özgü olaylar; 1157-1220 BOŞLUK. Atlas Nesâ'yı 1281'de İlhanlı ile başlatır — uyumlu."
  },
  {
+  "id": "niigata-jp",
+  "ad": "Niigata",
+  "atlas_ad": "Niigata",
+  "lat": 37.916,
+  "lon": 139.036,
+  "kat1900": 2,
+  "adlar": [
+   "Nuttari / Kambara-no-tsu (沼垂/蒲原津, komşu eski limanlar)",
+   "Niigata-tsu (新潟津)",
+   "Niigata (新潟)"
+  ],
+  "ilk": {
+   "t": "1568-11-10",
+   "gun": "Eiroku 11/10/22 (1568; ≈10 Kasım 1568)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Kotobank «新潟町» (日本歴史地名大系, 平凡社), https://kotobank.jp/word/%E6%96%B0%E6%BD%9F%E7%94%BA",
+   "tanik": "史料上の初見は永禄一一年（一五六八）一〇月二二日の上杉輝虎",
+   "ic_not": "İLK ANILIŞ: 日本歴史地名大系 «新潟町»: \"史料上の初見は永禄一一年（一五六八）一〇月二二日の上杉輝虎（謙信）書状（栗林文書）\". 1551 '三ケ津' kaydında Niigata'nın dahil olduğu \"考えられている\" (belirsiz) → alınmadı. Takvim: kaynak yalnız ay-güneş (Japon) tarihi verir, Batı karşılığı kaynakta YOK; çeviri Y.T. Liu ChineseCalendar (ytliu0) tablosuyla (Çin takvimi → Jülyen) yapıldı, Japon resmî takvimi (Senmyō-reki vb.) ile ±1-2 gün fark olabilir; bu yüzden kesinlik \"ay\". ATLAS BAŞLANGICI DÜZELTİLMELİ: ilk yeri-kesin yazılı tanık 1568, atlas 1281'de başlatıyor (zincir BOŞ bırakıldı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1518-01-01",
+    "gun": "1518 (Eishō 15)",
+    "k": "diger",
+    "b": "Komşu limanlar Nuttari (沼垂) ve Kambara (蒲原) yan yana var (Date belgesi; alıntıda yalnız bu iki liman anılır).",
+    "kaynak": "Kotobank «新潟市» (日本歴史地名大系, 平凡社), https://kotobank.jp/word/%E6%96%B0%E6%BD%9F%E5%B8%82",
+    "tanik": "「のつたりのわたしもり」「かんハらの舟もり」"
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Niigata'yı 1281-01-01'de \"kamakura\" ile başlatıyor; ilk yeri-kesin yazılı tanık 1568 (Eiroku 11). 1281 öncesi tanık bulunamadı. ARANAN/BULUNAN: 日本書紀 大化3年（647）渟足柵 (Nutari-no-ki) — Kotobank «新潟市»: \"位置・遺構ともに不明\"; 延喜式 蒲原津 — \"所在地も設置年代も不明\" → yeri kesin değil, başlangıç sayılmadı. Eski liman Nuttari/Kambara-tsu'nun Niigata atlas noktasıyla aynı yer olduğu kaynakta yazılı değil; ayrı kayıt önerisi: \"Kambara-tsu (蒲原津)\" ve \"Nuttari-tsu (沼垂津)\". Not: kaynak \"新潟湊の成立は蒲原・沼垂より遅れる\" der (日本歴史地名大系 «新潟湊»). Çift teyit: yok."
+ },
+ {
   "id": "ningbo-cin",
   "ad": "Ningbo",
   "atlas_ad": "Ningbo",
@@ -19021,6 +20305,48 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış 1050: Treccani EI (diploma di Enrico III) + Treccani online ('Ricordata la prima volta nel 1050') — iki Treccani yayını, bağımsız çift teyit sayılmaz. Gün (16 Temmuz 1050) bu oturumda akademik kaynakta açılamadı → 1050-01-01. EI: 1062 pazar hakkı 'Enrico III' bağlamında anlatılır (diploma 1062 IV. Heinrich dönemi olabilir; Treccani cümlesi 1062'yi parantezle verir) — olay metni cümleye sadık tutuldu. Nürnberg Roma dönemi yok. Atlas Nürnberg 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "okayama-jp",
+  "ad": "Okayama",
+  "atlas_ad": "Okayama",
+  "lat": 34.655,
+  "lon": 133.919,
+  "kat1900": 2,
+  "adlar": [
+   "Ishiyama (石山, Kanemitsu kalesi)",
+   "Okayama (岡山)"
+  ],
+  "ilk": {
+   "t": "1573-01-01",
+   "gun": "1573 (Tenshō 1)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Kotobank «岡山城» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B2%A1%E5%B1%B1%E5%9F%8E",
+   "tanik": "天正元年（一五七三）宇喜多直家が金光氏の石山城を奪取し",
+   "ic_not": "Kaynak (日本歴史地名大系 «岡山城»): \"天正元年（一五七三）宇喜多直家が金光氏の石山城を奪取し、増築改修して岡山城と改名\". Ukita Naoie'nin ele geçirme günü/ayı kaynakta verilmedi (yalnız yıl). Britannica «岡山市»: \"中心市街地の岡山は戦国時代宇喜多直家の入城に始まり\" (tarihsiz). Bu yüzden 1573 \"kuruluş\" (şehir çekirdeğinin başlangıcı) alınır; ama bu kale (Ishiyama) adıyla daha eski olduğundan 1573 \"Okayama\" adının kale için ilk kullanımıdır. ATLAS BAŞLANGICI DÜZELTİLMELİ (zincir BOŞ)."
+  },
+  "kur": {
+   "t": "1573-01-01",
+   "gun": "1573 (Tenshō 1)",
+   "kesinlik": "yil",
+   "kaynak": "Kotobank «岡山城» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B2%A1%E5%B1%B1%E5%9F%8E",
+   "tanik": "天正元年（一五七三）宇喜多直家が金光氏の石山城を奪取し"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1573-01-01",
+    "gun": "1573 (Tenshō 1)",
+    "k": "kurulus",
+    "b": "Ukita Naoie Kanemitsu ailesinin Ishiyama kalesini alır, genişletir ve \"Okayama kalesi\" adını verir.",
+    "kaynak": "Kotobank «岡山城» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E5%B2%A1%E5%B1%B1%E5%9F%8E",
+    "tanik": "天正元年（一五七三）宇喜多直家が金光氏の石山城を奪取し"
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Okayama'yı 1281-01-01'de \"kamakura\" ile başlatıyor; kaynaklı en erken yer-kesin tanık 1573. 1281 öncesi: yalnız arkeolojik (Jōmon-Yayoi kalıntıları, Kotobank «岡山市» 原始・古代) — şehir yerleşimine bağlı değil. Not: 岡山 adının \"小島が陸封された小丘に由来\" (Kotobank «岡山») — daha eski Ishiyama adı. 1281 öncesi Okayama/Kojima'nın Kamakura dönemi Bizen eyaleti içinde olduğu tanıksız. Çift teyit: yok."
  },
  {
   "id": "oviedo-es",
@@ -20096,6 +21422,243 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Kuruluş bulunamadı; Vieux-Poitiers'ten (Briva) yerleşim kayması tartışması Treccani'de ('è possibile che il primitivo agglomerato celtico si sia formato' — kesin değil) — 3 km üzerinde olabilir: antik yer ayrı kayıt önerisi (Vieux-Poitiers). 476 sınırı Poitiers için kullanılmadı (Vizigot 418). Poitou maddesi Visigot 462 ('verso il 462') — çelişki. Atlas Poitiers 1281 'fransa' — uyumlu. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
  },
  {
+  "id": "pusan-kr",
+  "ad": "Pusan",
+  "atlas_ad": "Pusan",
+  "lat": 35.18,
+  "lon": 129.076,
+  "kat1900": 3,
+  "adlar": [
+   "Geochilsan-guk (居柒山國)",
+   "Geochilsan-gun (居柒山郡)",
+   "Dongnae (東萊, 757)",
+   "Bushanpo / Busan (富山浦, 釜山)"
+  ],
+  "ilk": {
+   "t": "0080-01-01",
+   "gun": "Talhae dönemi (57–80; güvenli uç 80)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Samguk Sagi (三國史記) kwon 44, https://zh.wikisource.org/wiki/三國史記/卷44",
+   "tanik": "起兵馬，擊其不意，以滅二國",
+   "ic_not": "İLK ANILIŞ (belirsiz): Samguk Sagi kwon 44 Geodo biyografisi: Talhae isageum döneminde \"Usan-guk ve Geochilsan-guk'u sürpriz saldırıyla yok etti\" (Silla). Talhae saltanatı geleneksel 57-80 (kwon 1/yıl tablosu); GÜVENLİ UÇ 80 alındı (aralık kuralı). Geleneksel erken Silla kronolojisi (bk. Gyeongju kaydı). YER UYARISI: Geochilsan-gun = Dongnae (Goryeosa kwon 57: \"東萊縣本新羅居柒山郡，景德王，改爲東萊郡\"). Atlas noktası (Busan Büyükşehir belediyesi civarı) Dongnae'ye yakındır ama 3 km sınırı kaynakla ÖLÇÜLEMEDİ → AYRI KAYIT ÖNERİSİ: \"Dongnae / Geochilsan-gun (居柒山郡)\". 富山浦 (bugünkü Busan limanı) 15. yy'da \"三浦\" olarak anılır (Kotobank «三浦»: 世宗1418-1450); \"高麗時代まで寒村だった\" (Nipponica «釜山»). Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0080-01-01",
+    "t": "0936-01-08",
+    "d": "silla",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 44, https://zh.wikisource.org/wiki/三國史記/卷44 ; Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七 ; Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "boyasiz": true,
+    "ic_not": "Geochilsan Silla'ya Geodo'nun fethiyle girer; 757 (Gyeongdeok) Dongnae-gun. Künye geçişi: Silla Goryeo'ya teslim olur — Goryeosa Taejo 18 (935), 12. ay 壬申 günü Kral Kim Bu \"politik\" statü alır ve Silla ülkesi \"Gyeongju\" yapılıp ona yem verilir; gün ytliu0 ile 0936-01-08 (Jülyen) çevrildi. Samguk Sagi yıl tablosu 935 satırı: \"新羅五十六王九百九十二年而滅\". Künye silla t=0935-01-01 → hayalet UYARISI (≈1 yıl): künye GENİŞLET önerisi silla t → 0936-01-08."
+   },
+   {
+    "f": "0936-01-08",
+    "t": "1281-01-01",
+    "d": "goryeo",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0080-01-01",
+    "gun": "Talhae dönemi (57–80)",
+    "k": "fetih",
+    "b": "Silla generali Geodo Usan ve Geochilsan ülkelerini yok eder.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 44, https://zh.wikisource.org/wiki/三國史記/卷44",
+    "tanik": "起兵馬，擊其不意，以滅二國"
+   },
+   {
+    "t": "0757-01-01",
+    "gun": "757 (Gyeongdeok 16, Goryeosa yalnız \"景德王\")",
+    "k": "idari",
+    "b": "Geochilsan-gun \"Dongnae-gun (東萊郡)\" adını alır.",
+    "kaynak": "Goryeosa (高麗史) kwon 57, https://zh.wikisource.org/wiki/高麗史/卷五十七",
+    "tanik": "東萊縣本新羅居柒山郡，景德王，改爲東萊郡"
+   },
+   {
+    "t": "0936-01-08",
+    "gun": "Taejo 18/12/壬申 (935; ≈8 Ocak 936)",
+    "k": "diger",
+    "b": "künye geçişi: Silla → Goryeo (Kral Kim Bu'nun teslimi; Silla ülkesi \"Gyeongju\" olur).",
+    "kaynak": "Goryeosa (高麗史) kwon 2, https://zh.wikisource.org/wiki/高麗史/卷二",
+    "tanik": "除新羅國爲慶州，仍賜爲食邑"
+   }
+  ],
+  "ic_not": "Atlas ilk günü 1281-01-01 goryeo; dikiş uyumlu. Çift teyit: yok. Busan limanının kendisi (釜山浦) 1281 sonrası. 80 yılı yalnız GELENEKSEL Silla kronolojisine dayanır. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+ },
+ {
+  "id": "pyongyang-kr",
+  "ad": "Pyongyang",
+  "atlas_ad": "Pyongyang",
+  "lat": 39.019,
+  "lon": 125.738,
+  "kat1900": 2,
+  "adlar": [
+   "Wanggeom-seong / Wanggeom (王險/王儉)",
+   "Pyeongyang-seong (平壤城)",
+   "Jangan-seong (長安城, 586)",
+   "Seogyeong (西京, 919)",
+   "Pyongyang-bu (平壤府)"
+  ],
+  "ilk": {
+   "t": "0427-01-01",
+   "gun": "427 (Jangsu 15, 丁卯)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Samguk Sagi (三國史記) kwon 18, https://zh.wikisource.org/wiki/三國史記/卷18",
+   "tanik": "十五年，移都平壤",
+   "ic_not": "İLK ANILIŞ (alt sınır; başkent olarak): Samguk Sagi kwon 18, Jangsu 15: \"başkent Pyeongyang'a taşındı\" (yıl tablosu 丁卯, 長壽王 15). Ad/yer eşitlemesi KAYNAKTA AÇIK: Goryeosa kwon 58 «西京留守官平壤府»: \"高句麗長壽王十五年，自國內城，徙都之\" — yani Goguryeo'nun 427 başkenti = Goryeo'nun Seogyeong'i/Pyongyang-bu'su; aynı girişte \"王險城…即平壤\" (Wiman Joseon başkenti) ve Taedong = Paegang denir. DAHA ESKİ ANILIŞ ALINMADI: Samguk Sagi kwon 17 Dongcheon 21 (247; ytliu0 ≈24 Mart 247): \"Pyeongyang-seong inşa edildi, halk ve tapınaklar taşındı\" — 247 Pyeongyang-seong'un bugünkü Pyongyang olduğu Goryeosa'da yazılı DEĞİL (Goryeosa yalnız 427'yi söyler) → yer eşitlemesi belirsiz, başlangıç sayılmadı. ANTİK ÖNCÜL: Wanggeom-seong (Wiman Joseon) / Lelang Komutanlığı (MÖ 108, Han): Goryeosa «平壤府» \"漢武帝元封二年…以王險爲樂浪郡\" — kaynak şehir yerini bugünkü Pyongyang olarak yazar ama modern arkeolojide Lelang/Tosŏng-ri bölgesi Taedong'un karşı yakasında bildirilir (bu oturumda hakemli kaynak açılmadı, mesafe ÖLÇÜLMEDİ) → AYRI KAYIT ÖNERİSİ: \"Wanggeom-seong / Lelang\". Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0427-01-01",
+    "t": "0668-10-11",
+    "d": "goguryeo",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 18, https://zh.wikisource.org/wiki/三國史記/卷18 ; Goryeosa (高麗史) kwon 58, https://zh.wikisource.org/wiki/高麗史/卷五十八 ; Samguk Sagi (三國史記) kwon 22, https://zh.wikisource.org/wiki/三國史記/卷22",
+    "boyasiz": true,
+    "ic_not": "Goguryeo 427'de başkenti Guknae'den Pyeongyang'a taşır (586'da Jangan-seong'a geçer — kwon 19 Pyeongwon 28, 丙午; Jangan-seong'un bugünkü Pyongyang içinde olduğu kaynakta açık değil, ayrı olay yazılmadı). 668 (Bojang 27, 戊辰): kwon 22 \"9. ay Li Ji Pyongyang'ı aldı\"; gün verilmedi, ay başı ytliu0. Künye notu: goguryeo t=0668-01-01; Pyongyang'ın düşüşü 668 9. ay (ay başı 0668-10-11) → künye GENİŞLET önerisi goguryeo t → 0668-10-11 (hayalet UYARISI)."
+   },
+   {
+    "f": "0668-10-11",
+    "t": "0677-03-09",
+    "d": "tang",
+    "kesinlik": "ay",
+    "kaynak": "Samguk Sagi (三國史記) kwon 22, https://zh.wikisource.org/wiki/三國史記/卷22 ; Samguk Sagi (三國史記) kwon 22, https://zh.wikisource.org/wiki/三國史記/卷22",
+    "boyasiz": true,
+    "ic_not": "Tang, Goguryeo topraklarında \"Anton Dohobu\"yu Pyongyang'da kurar (668; kwon 22 \"摠章元年戊辰\"); 677 (Yibong 2, 丁丑; 2. ay) Dohobu Xincheng'e taşınır (BEYANLI YAKLAŞIKLIK: Tang'ın Pyongyang'ı taşınma gününe dek tutup tutmadığı kaynakta ayrıca yazılı değil)."
+   },
+   {
+    "f": "0677-03-09",
+    "t": "0905-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一 ; Goryeosa (高麗史) kwon 58, https://zh.wikisource.org/wiki/高麗史/卷五十八 ; Samguk Sagi (三國史記) kwon 8, https://zh.wikisource.org/wiki/三國史記/卷08",
+    "ic_not": "677-905 arası Pyongyang'ın VARLIĞI ve sahibi bilinmiyor. KAYITLAR ÇELİŞİR: (a) Goryeosa kwon 58 «平壤府» (1451 derlemesi) 668'den sonra \"地遂入於新羅\" der; (b) Samguk Sagi kwon 8 Seongdeok 34 (735): Tang Silla'ya yalnız \"浿江以南地\" (Paegang = Taedong, Goryeosa kwon 58: \"大同江。卽浿江\") verir — Pyongyang Taedong boyundadır, kuzey kıyıda mı güney kıyıda mı olduğu kaynakta yok; (c) Gungye 901: \"平壤舊都，鞠為茂草\" (kwon 50); (d) Goryeo Taejo 918/9: \"荒廢雖久，基址尙存\" (kwon 1); (e) ama kwon 50 905'te \"平壤城主將軍黔用降\" (şehir efendisi vardı). Silla'nın Pyongyang'ı fiilen yönettiğine dair çağdaş (Silla dönemi) kayıt bulunamadı; __YOK__ DEĞİL __BILINMIYOR__ yazıldı (varlık/sahip çelişkili)."
+   },
+   {
+    "f": "0905-01-01",
+    "t": "0918-07-25",
+    "d": "taebong",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Samguk Sagi (三國史記) kwon 50, https://zh.wikisource.org/wiki/三國史記/卷50 ; Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "boyasiz": true,
+    "ic_not": "905 (天祐二年乙丑; yıl tablosu 905: \"弓裔移都鐵圓\"): Pyongyang şehir efendisi general Geomyong Gungye'ye teslim olur (kwon 50); ayrıca kwon 12 Hyogong 8 (904): \"浿江道十餘州縣，降於弓裔\". Künye notu: taebong t=0918-01-01; Goryeo'ya geçiş 0918-07-25 (Goryeosa kwon 1 Taejo 1/6/丙辰) → dönem künye bitişinden ~6 ay sonra bitiyor (hayalet UYARISI): künye GENİŞLET önerisi taebong t → 0918-07-25."
+   },
+   {
+    "f": "0918-07-25",
+    "t": "1270-02-28",
+    "d": "goryeo",
+    "kesinlik": "gun",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一 ; Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一 ; Goryeosa (高麗史) kwon 58, https://zh.wikisource.org/wiki/高麗史/卷五十八",
+    "ic_not": "918/9 (Taejo 1, 丙申 günü): \"Pyongyang eski başkent, harap; halkı oraya yerleştirip Büyük Koruyucu (大都護) kurulsun\" → Seogyeong (Goryeosa kwon 58 «西京»: Gwangjong 11 \"Seodo\", Seongjong 14 \"Seogyeong Liusu\"); 919/10 \"城平壤\" (surlar). Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür."
+   },
+   {
+    "f": "1270-02-28",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Goryeosa (高麗史) kwon 26, https://zh.wikisource.org/wiki/高麗史/卷二十六 ; Goryeosa (高麗史) kwon 26, https://zh.wikisource.org/wiki/高麗史/卷二十六 ; Goryeosa (高麗史) kwon 58, https://zh.wikisource.org/wiki/高麗史/卷五十八",
+    "ic_not": "Goryeosa kwon 26, Wonjong 11 (庚午=1270; 2. ay 辛未朔), 丁丑 günü: Choe Tan 3000 Moğol askeriyle Seogyeong'i tutar; Yuan \"bağlandı, adı Dongnyeong-bu, sınır Jabi-ryeong\". Kwon 58: \"元宗十年…崔坦…以西京及諸城，叛附于蒙古\" (ayaklanma 1269, ganzhi/yıl: Wonjong 10); kwon 28 (Chungnyeol 1-2): \"時西京屬東寧府\". İade: kwon 58 «西京»: \"忠烈王十六年，元歸我西京及諸城，遂復爲西京留守官\" (Chungnyeol 16 ≈ 1290; atlas başlangıcından sonra). Takvim: kaynaklar Çin ay-güneş takvimiyle (ay + ganzhi gün) yazılmıştır; Batı karşılığı kaynakta YOK. Çeviri Y.T. Liu ChineseCalendar (ytliu0, Çin takvimi → Jülyen) tablosuyla yapılmıştır (NAOJ/Academia Sinica ile doğrulanmadı); Kore saray takvimi ile ±1-2 gün fark mümkündür. ATLAS DÜZELTME ÖNERİSİ: atlas Pyongyang'ı 1281-01-01'de \"goryeo\" ile başlatıyor; Goryeosa'ya göre bu tarihte Pyongyang Yuan Dongnyeong-bu'dadır (1270 → ~1290)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0427-01-01",
+    "gun": "427 (Jangsu 15, 丁卯)",
+    "k": "idari",
+    "b": "Goguryeo başkentini Guknae'den Pyeongyang'a taşır.",
+    "kaynak": "Goryeosa (高麗史) kwon 58, https://zh.wikisource.org/wiki/高麗史/卷五十八",
+    "tanik": "高句麗長壽王十五年，自國內城，徙都之"
+   },
+   {
+    "t": "0668-10-11",
+    "gun": "Bojang 27/9 (668; ay başı)",
+    "k": "fetih",
+    "b": "Tang generali Li Ji Pyongyang'ı alır; Goguryeo biter; Tang Anton Dohobu'yu Pyongyang'da kurar.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 22, https://zh.wikisource.org/wiki/三國史記/卷22",
+    "tanik": "李勣拔平壤"
+   },
+   {
+    "t": "0677-03-09",
+    "gun": "Yibong 2/2 (677; ay başı)",
+    "k": "idari",
+    "b": "Tang Anton Dohobu'yu Pyongyang'dan Xincheng'e taşır.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 22, https://zh.wikisource.org/wiki/三國史記/卷22",
+    "tanik": "仍移安東都護府於新城"
+   },
+   {
+    "t": "0905-01-01",
+    "gun": "905 (天祐二年乙丑)",
+    "k": "fetih",
+    "b": "Pyongyang şehir efendisi Geomyong Gungye'ye teslim olur.",
+    "kaynak": "Samguk Sagi (三國史記) kwon 50, https://zh.wikisource.org/wiki/三國史記/卷50",
+    "tanik": "平壤城主將軍黔用降"
+   },
+   {
+    "t": "0918-07-25",
+    "gun": "Taejo 1/6/丙辰 (918; ≈25 Temmuz 918)",
+    "k": "diger",
+    "b": "künye geçişi: Taebong → Goryeo.",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "夏六月丙辰，卽位于布政殿，國號高麗，改元天授"
+   },
+   {
+    "t": "0918-11-02",
+    "gun": "Taejo 1/9/丙申 (918; ≈2 Kasım 918)",
+    "k": "idari",
+    "b": "Wang Geon Pyongyang'ı yeniden iskâna açar ve Büyük Koruyucu (大都護) kurar.",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "平壤古都，荒廢雖久，基址尙存"
+   },
+   {
+    "t": "0919-10-27",
+    "gun": "Taejo 2/10 (919; ay başı)",
+    "k": "idari",
+    "b": "Pyongyang'ın surları örülür (Seogyeong).",
+    "kaynak": "Goryeosa (高麗史) kwon 1, https://zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "冬十月，城平壤"
+   },
+   {
+    "t": "1270-02-28",
+    "gun": "Wonjong 11/2/丁丑 (1270; ≈28 Şubat 1270)",
+    "k": "isgal",
+    "b": "Choe Tan Seogyeong'i Moğollara bağlar; Yuan burayı \"Dongnyeong-bu\" yapar (Jabi-ryeong sınır).",
+    "kaynak": "Goryeosa (高麗史) kwon 26, https://zh.wikisource.org/wiki/高麗史/卷二十六",
+    "tanik": "詔令內屬，改號東寧府，畫慈悲嶺爲界"
+   }
+  ],
+  "ic_not": "Atlas ilk günü 1281-01-01 goryeo; ancak Goryeosa'ya göre bu tarihte Pyongyang Yuan Dongnyeong-bu'dadır (1270-~1290) → zincir yuan-hanedani ile biter ve DİKİŞ ATLAS İLE UYUŞMAZ (dikis_beyan). Çift teyit: 427 başkent taşınma — Samguk Sagi kwon 18 + Goryeosa kwon 58 (ikisi de Goguryeo geleneğinden; bağımsız birincil değil). Açılamayan: Tang/Çin kaynakları (Jiu Tangshu), modern Pyongyang-seong yer tartışması. Hükümdar yılı → milâdî: Samguk Sagi kwon 29-31 yıl tablosu (ganzhi + Çin dönem adı) ve Goryeosa yıl başlıkları (ganzhi) ile çapalandı; tek tek çapalar ic_not'ta/olayda belirtilmiştir.",
+  "dikis_beyan": "Atlas Pyongyang'ı 1281-01-01'de \"goryeo\" ile başlatıyor; Goryeosa kwon 26 (Wonjong 11 = 1270) Seogyeong'in Yuan'a bağlanıp \"Dongnyeong-bu\" yapıldığını, kwon 58 ise bunun Chungnyeol 16'ya (≈1290) dek sürdüğünü yazar. Atlas düzeltme önerisi: Pyongyang 1270-~1290 yuan-hanedani."
+ },
+ {
   "id": "quanzhou-cin",
   "ad": "Zeytun (Quanzhou)",
   "atlas_ad": "Zeytun (Quanzhou)",
@@ -21041,6 +22604,70 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış 999: Treccani EI tek akademik tanık (yıl; 6 Ağustos 999 günü yalnız popüler/ikincil kaynaklarda, açılamadı) — çift teyit YOK; Treccani online 'Saarbrücken' sayfası çekilemedi (hata sayfası). Roma dönemi: EI 'Metz–Mainz yolu nehri geçti, Halberg eteğinde Roma kalesi' + 'cellula originaria è il castello a 2 km dal ponte romano' → Roma yeri ≤3 km ama ADI/TARİHİ yok, ark yazılmadı. Saar Havzası 1920-35 (atlas) bu dosyanın dışında. Atlas Saarbrücken 1281 'almanya': tutarlı."
+ },
+ {
+  "id": "sakai-jp",
+  "ad": "Sakai",
+  "atlas_ad": "Sakai",
+  "lat": 34.573,
+  "lon": 135.483,
+  "kat1900": 3,
+  "adlar": [
+   "Enatsu / Ena-no-tsu (得名津)",
+   "Sakai (堺, 和泉堺/堺津)"
+  ],
+  "ilk": {
+   "t": "1081-10-26",
+   "gun": "Eihō 1/9/22 (1081; ≈26 Ekim 1081)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Kotobank «堺» (日本歴史地名大系, 平凡社), https://kotobank.jp/word/%E5%A0%BA",
+   "tanik": "「為房卿記」永保元年（一〇八一）九月二二日条に",
+   "ic_not": "İLK ANILIŞ: 日本歴史地名大系 «堺»: \"「為房卿記」永保元年（一〇八一）九月二二日条に…「和泉堺之小堂」に着し…地名のみえる早い例\". Aynı sayfa 「権中納言定頼卿集」(Sadayori d. 1045) içinde \"さか井\" geçtiğini de söyler ama TARİHSİZ; bu yüzden 1081 alınır. Takvim: kaynak yalnız ay-güneş (Japon) tarihi verir, Batı karşılığı kaynakta YOK; çeviri Y.T. Liu ChineseCalendar (ytliu0) tablosuyla (Çin takvimi → Jülyen) yapıldı, Japon resmî takvimi (Senmyō-reki vb.) ile ±1-2 gün fark olabilir; bu yüzden kesinlik \"ay\". Antik öncül: 万葉集'te \"得名津\" (Ena-no-tsu) limanı \"堺津の前身とみられている\" — tahmin, yer eşitlemesi kesin değil, başlangıç sayılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1081-10-26",
+    "t": "1185-01-01",
+    "d": "heian-japonya",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "Kotobank «堺» (日本歴史地名大系, 平凡社), https://kotobank.jp/word/%E5%A0%BA ; Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "Takvim: kaynak yalnız ay-güneş (Japon) tarihi verir, Batı karşılığı kaynakta YOK; çeviri Y.T. Liu ChineseCalendar (ytliu0) tablosuyla (Çin takvimi → Jülyen) yapıldı, Japon resmî takvimi (Senmyō-reki vb.) ile ±1-2 gün fark olabilir; bu yüzden kesinlik \"ay\". Sakai bir Settsu/Izumi sınır yerleşimidir (Settsu-Izumi iki eyalet sınırı: 日本国語大辞典 «堺»); Yamato/Heian devlet düzeni."
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1281-01-01",
+    "d": "kamakura",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "ic_not": "1185: Kamakura bakufu başlangıcı için kaynak 1180/1183/1185/1192 tartışmasını verir; 1185 (Bunji 1) \"güçlü\" görüştür (Kotobank «鎌倉幕府»). Atlas kamakura künyesi 1185-01-01'de başlar. Bu şehir imparatorluk başkenti değildir; bakufu denetimi (shugo/jitō) kaynakla bu şehre özel DOĞRULANMADI: zincir künye düzeyinde (Japonya geneli) izlenir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1185-01-01",
+    "gun": "1185 (Bunji 1)",
+    "k": "diger",
+    "b": "künye geçişi: Heian sarayı → Kamakura bakufu.",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典, 小学館), https://kotobank.jp/word/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+    "tanik": "文治元年（一一八五）説（守護・地頭の設置）が有力"
+   },
+   {
+    "t": "1232-01-01",
+    "gun": "1232 (Jōei 1)",
+    "k": "diger",
+    "b": "Sakai'nin liman olarak gelişmesini gösteren en eski açık belge: Kawachi demircileri (丹南鋳物師) malları deniz yoluyla \"泉州堺\"a taşır; belge TARİHSİZ, \"Jōei 1/5 (1232) defterinin arkasında\" olduğundan 1232 en geç (terminus ante quem) alındı.",
+    "kaynak": "Kotobank «堺» (日本歴史地名大系, 平凡社), https://kotobank.jp/word/%E5%A0%BA",
+    "tanik": "「経光卿記」貞永元年（一二三二）五月分の紙背文書"
+   }
+  ],
+  "ic_not": "Sakai'nin atlas noktası eski Sakai limanı (堺津) ile aynı bölgededir (Sakai-shi merkezi). Çift teyit: yok. Sakai'nın doğduğu yer Settsu-Izumi sınırı olduğundan hangi eyalete ait olduğu (堺北庄 Settsu / 堺南庄 Izumi) ayrımı zincire yansıtılmadı. Açılamayan: Tamefusa-kyōki (為房卿記) birincil metni."
  },
  {
   "id": "san-sebastian-es",
@@ -22647,6 +24274,44 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış 1229: Treccani EI (1936) + Treccani online ('Ricordata dal 1229') — iki Treccani yayını, çift teyit sayılmaz; 1229 belgesinin gün/kaydı açılamadı. 'Stutengarten' at yetiştirme kökeni (EI: Gestüt) — kuruluş tanığı DEĞİL. Şehir hakkı 1286 (Treccani; atlas başlangıcından sonra, bu dosyada yer almaz). Bad Cannstatt Roma kalesi ayrı yerleşim (EI: 'a un'ora di strada', >3 km, ayrı kayıt önerisi). Svabya dükalığı künyesi (915-1268) zinciri taşıyabilirdi ama atlas Stuttgart'ı 'almanya' ile başlattığından 1268-1281 dikişi için ek olay gerekirdi → nominal almanya, beyan."
+ },
+ {
+  "id": "sunpu-jp",
+  "ad": "Sunpu (Şizuoka)",
+  "atlas_ad": "Sunpu (Şizuoka)",
+  "lat": 34.976,
+  "lon": 138.383,
+  "kat1900": 2,
+  "adlar": [
+   "Suruga kokufu (駿河国府)",
+   "Suruga Fuchū (駿河府中)",
+   "Sunpu (駿府)",
+   "Shizuoka (静岡, 1869)"
+  ],
+  "ilk": {
+   "t": "1530-03-31",
+   "gun": "Kyōroku 3/3/3 (1530; ≈31 Mart 1530)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Kotobank «駿府» (改訂新版 世界大百科事典, 平凡社), https://kotobank.jp/word/%E9%A7%BF%E5%BA%9C",
+   "tanik": "《実隆公記》享禄3年（1530）3月3日の条によれば",
+   "ic_not": "İLK ANILIŞ (şehir olarak): 世界大百科事典 «駿府»: \"《実隆公記》享禄3年（1530）3月3日の条によれば，〈駿河府中二千余〉が焼失したと伝える殷盛の町であった\". \"駿府の呼称は室町時代中期から見られる\" (aynı sayfa). Takvim: kaynak yalnız ay-güneş (Japon) tarihi verir, Batı karşılığı kaynakta YOK; çeviri Y.T. Liu ChineseCalendar (ytliu0) tablosuyla (Çin takvimi → Jülyen) yapıldı, Japon resmî takvimi (Senmyō-reki vb.) ile ±1-2 gün fark olabilir; bu yüzden kesinlik \"ay\". Antik öncül: \"古代の駿河国府の所在地\" / Britannica «静岡市»: \"奈良時代には駿河国の国府が置かれ\" — TARİHSİZ; 日本歴史地名大系 «駿河国»: \"国府は静岡市葵区長谷町付近とされてきたが、国分寺の所在との関連で疑問もあり…再考の要がある\" → yeri kesin değil, başlangıç sayılmadı. ATLAS BAŞLANGICI DÜZELTİLMELİ (zincir BOŞ)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1530-03-31",
+    "gun": "Kyōroku 3/3/3 (1530; ≈31 Mart 1530)",
+    "k": "yikim",
+    "b": "\"Suruga Fuchū\"da 2000 küsur evlik şehir yanar (Sanetaka-kō ki).",
+    "kaynak": "Kotobank «駿府» (改訂新版 世界大百科事典, 平凡社), https://kotobank.jp/word/%E9%A7%BF%E5%BA%9C",
+    "tanik": "〈駿河府中二千余〉"
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Sunpu/Shizuoka'yı 1281-01-01'de \"kamakura\" ile başlatıyor; yer-kesin ilk yazılı tanık 1530. 1281 öncesi arananlar: Suruga kokufu (yer tartışmalı, yukarıda), 駿河国 sayfasında \"平安末には…府中…などには宿が設けられていた\" (tarihsiz). Ayrı kayıt önerisi: \"Suruga Kokufu (駿河国府)\" — yeri (Shizuoka-shi Aoi-ku Hase-chō civarı, tartışmalı) ve atlas noktasına uzaklığı kaynakla ölçülmedi. Çift teyit: yok."
  },
  {
   "id": "suzhou-cin",
@@ -25029,6 +26694,33 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Wenzhou (atlas_ad 'Wenzhou', kat1900 3; atlas ilk gün 1281-01-01 yuan-hanedani). ① YER: atlas noktası (27.994, 120.699) Wenzhou eski şehridir (Lucheng). Yuanhe junxian tuzhi 26 (Tang, 813): Wenzhou şehri Yongjia ilçesinde, 'Huagai Dağı şehrin 1 li doğusu, Yongjia (=Yongning) nehri 3 li doğusu'; Tang 675'te ilçe merkezi 'şehrin 180 adım doğusuna taşınır' — atlas noktası bu şehrin içinde (≤3 km, kesin değil: koordinat kaynaktan ölçülmedi). ② ZİNCİR BAŞI = 138-01-01 (Yongning ilçesinin kuruluşu, YIL hassasiyeti): Song Shu 35 'Han Shundi Yongjian 4 (129) Zhang'an'ın Dong'ou kasabasından ayrılarak kuruldu, ya da Yonghe 3 (138)' — iki tarih çelişir, güvenli uç (geç) 138 alındı; Taiping huanyu ji 99 'Yonghe 3' der. Yer eşitlemesi (Yongning = Yongjia = Tang Wenzhou): Yuanhe zhi 26 (Tang, çağdaş sayılabilecek en erken) + Taiping huanyu ji 99. Daha eski ELENEN aday: Dong'ou krallığı (MÖ 192, Hui Di 3, Shiji 114 '都東甌'; Shiji sanjia zhu: Jijie Xu Guang 'bugünkü Yongning', Suoyin Yongjia ji 'nehir şehrin 5 li yakınında, Dong'ou Wang burada kurulmuştu'; Yuanhe zhi 26 'Dong'ou başkenti bugünkü Wenzhou Yongjia ilçesidir') — ilçe düzeyinde eşitleme, başkentin tam yeri bulunamadı ⇒ başlangıç sayılmadı; MÖ 138'de Dong'ou halkı Jiang-Huai'ye göç eder (Shiji 114 / Taiping huanyu ji 99), sonra yer Hui Pu ilçesi. Karar Emre'nindir (kunye_yok dongou-krallik önerisi: Min-Yue/Dong'ou, Hui Di 3 = MÖ 192 – MÖ 138). ③ ZİNCİR ÖZETİ: Doğu Han (138; 129 alternatif) → Sun Wu (220-11-25) → Batı Jin (280) → Doğu Jin (316; 323 Yongjia jun kurulur, Jin Shu 15 + Song Shu 35) → Liu Song → Güney Qi → Liang → Chen → Sui (589-02-02; Yongning → Yongjia ilçesi) → 618-06-18 BOŞLUK (622'ye dek) → Tang (622 Dongjia zhou, 623 Fu Gongzhi'ye direniş, 675 Wenzhou adı, 905 Lu Xin, 907-05-26 Qian Chuanguan) → Wu Zhou (690) → Tang (705) → Wuyue (907-06-01) → Song (978-06-11; 1265 Rui'an fu; 1276 Song sürgün sarayı) → Yuan (1276-11-08, güz sezonunun sonu) → 1281-01-01. ④ ÇELİŞKİ/NOT: (a) Yongning kuruluşu 129 vs 138 (Song Shu 35). (b) Wenzhou kuruluşu: Jiu Tang Shu 40 ve Taiping huanyu ji 99 'Shangyuan 2' (675), Yuanhe zhi 26 'Shangyuan 1' (674) — Jiu Tang esas. (c) Yuan'ın Wenzhou'yu alışı: Yuan Shi 131 yalnız '十三年秋' yazar; Song Shi 47 sürgün sarayının Wenzhou'da toplanışını yıl düzeyinde yazar; Yuan Shi 9 Wenzhou adının 12. ay 庚寅'de (Çin yılı 1276 = 1277-02-04) geri verildiğini yazar. f = güz sonu (1276-11-08, en geç tanık Yuan Shi 131) alındı; Song bu güne dek uzatıldı — gerçek geçiş 7-9. ay arasında olmuş olabilir. Song Shi 47 'Wenzhou → Li'an fu' (景炎元年) yazımı Song Shi 88'de 'Rui'an fu' ile '里安' yazılır; metin kaynaklarında '里/瑞' karışıklığı (wikisource dönüştürme) not edildi. (d) Zhu Bao hanedanı 881'den sonra Wenzhou'yu tutar (Wuyue beishi 1 'Zhu Bao Yongjia'lı, Liu Hanhong adına 州事'), 901-904 yerel hâkimler — formel Tang. ⑤ KÜNYE ÖNERİLERİ: dongou-krallik (isteğe bağlı); GENİŞLET/KISALT uyarıları: dogu-han t=0220-01-01 < 220-11-25; sun-wu f=222 > 220-11-25 (hayalet); tang t=907-01-01 < 907-06-01; wuyue t=978-01-01 < 978-06-11; bati-jin/dogu-jin/liu-song/guney-qi/liang-guney/chen/sui/wu-zhou bitişleri 1 Ocak yuvarlaması (toplu GENİŞLET, Suzhou/Fuzhou kayıtlarıyla aynı sınıf). ⑥ AYRI KAYIT ÖNERİLERİ: Dong'ou başkenti (MÖ 192; Shiji sanjia zhu: Yongjia ji 'Dong'ou nehri Yongning Dağı'ndan çıkar, 30 küsur li akıp şehrin 5 li yakınında ırmağa karışır, eskiden Dong'ou Wang burada başkent idi') — yer ilçe düzeyinde; mesafe/ yer kesin değil; Sui Yongjia jun'u (merkez Kuozhou = bugünkü Lishui, Wenzhou'dan ayrı, kesin değil — Sui Shu 31 'Kuocang', Zhejiang tongzhi); Tang başı Dongjia zhou merkezi Wenzhou ile aynı ilçe. ⑦ BULUNAMADI: Guo Pu'nun şehri kurması (Ming Wenzhou fuzhi 'Taining 1' anlatısı — birincil/Song öncesi kaynak bulunamadı, kullanılmadı); Dong'ou başkent koordinatı ve arkeolojik kazı raporu (aranmadı/bulunamadı); 618-622 fiili sahip; Yuan'ın Wenzhou'ya girdiği gün; çift teyit: YALNIZ 907-05-26 Qian Chuanguan Wenzhou'yu alış günü (ZZTJ 266 + Wuyue beishi 2 aynı 戊午 günü, ama Wuyue beishi ZZTJ'nin kaynaklarından biri olabilir — bağımsızlığı doğrulanmadı)."
+ },
+ {
+  "id": "wonsan-kr",
+  "ad": "Wonsan",
+  "atlas_ad": "Wonsan",
+  "lat": 39.147,
+  "lon": 127.444,
+  "kat1900": 3,
+  "adlar": [
+   "Deokwon (德源)",
+   "Wonsan (元山)"
+  ],
+  "ilk": {
+   "t": "1880-01-01",
+   "gun": "1880",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Kotobank «元山» (改訂新版 世界大百科事典, 平凡社), https://kotobank.jp/word/%E5%85%83%E5%B1%B1",
+   "tanik": "元山港が日朝修好条規によって1880年に開港された",
+   "ic_not": "İLK ANILIŞ (modern liman): Kotobank «元山» (Britannica): \"元山港が日朝修好条規によって1880年に開港された\". Bu oturumda Wonsan'a özgü, yeri-kesin ve ÖNCEKİ tarihli yazılı tanık BULUNAMADI (Goryeosa kwon 1-100 tarandı: «元山» geçmez; kwon 1-119 «德源» geçmez; Samguk Sagi kwon 35 / Goryeosa kwon 58 «泉井郡 → 宜州» bölgesel ve Wonsan/Deokwon eşitlemesi kaynakta yazılı değil). ATLAS BAŞLANGICI DÜZELTİLMELİ."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Wonsan'ı 1281-01-01'de \"yuan-hanedani\" ile başlatıyor; bu oturumda şehre özgü, 1281 öncesi tanık BULUNAMADI. Aday (eşitlemesi doğrulanmadı) Goguryeo Cheonjeong-gun (泉井郡, 本高句麗) → Silla Jeongcheon-gun (681, Munmu 21) → Goryeo Yongju/Uiju (宜州): Goryeosa kwon 58 \"宜州本高句麗泉井郡…新羅文武王二十一年，取之，改爲井泉郡。高麗初，稱湧州\"; 1356'da \"和、登、定、長、預、高、文、宜州\" Yuan'dan geri alınır — \"Deokwon/Wonsan = 宜州\" eşitlemesi bu oturumda kaynakla doğrulanmadı (Joseon Sillok açılmadı). Çift teyit: yok. Ayrı kayıt önerisi: \"Deokwon / Uiju (泉井郡)\"."
  },
  {
   "id": "wuchang-cin",
