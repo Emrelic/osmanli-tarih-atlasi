@@ -934,5 +934,25 @@
 "ic_not_d": "Yıl düzeyinde.",
 "_dosya": "dogu_guneydogu_asya",
 "_neden": "mukerrer-tavan"
+},
+{
+"t": "1103-01-01",
+"kesinlik": "yil",
+"b": "Lund bağımsız başpiskoposluğa yükseltildi (1103/04)",
+"tur": "siyaset",
+"onem": 2,
+"dunya": 2,
+"kapsam": "dis",
+"yer": "Lund",
+"etiket": [
+"siyaset",
+"konu-siyasi"
+],
+"d": "Hamburg-Bremen başpiskoposlarından kurtulma çabaları 1103/04'te Lund'un bağımsız bir başpiskoposluk olmasıyla sonuçlandı; İskandinavya'da Trondheim (1152) ve Uppsala (1164) başpiskoposlukları onu izledi.",
+"kaynak": "Lex.dk (Den Store Danske), 'Lund Ærkebispedømme' https://lex.dk/Lund_Ærkebispedømme : 'Løsrivelsesbestræbelserne blev dog først gennemført med ophøjelsen i 1103/04 af Lund til et selvstændigt ærkebispedømme ... ærkesæder fra 1152 i Trondheim og fra 1164 i Uppsala'",
+"ic_not_d": "Kaynak 1103/04 verir (yıl hassasiyeti: 1103).",
+"yer_id": "Lund",
+"_neden": "kamera-havuzu-yok",
+"_yer": "Lund"
 }
 ]
