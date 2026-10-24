@@ -13,9 +13,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0500-01-01",
     "t": "0629-01-01",
-    "d": "__BOSLUK__",
+    "d": "yarlung-krallik",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip yarlung-krallik (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"yarlung-krallik\" geri yazılır) · BEYANLI YAKLAŞIKLIK: Yarlung vadisi merkezi olarak Tsetang/Nêdong seçildi (bu oturumun çıkarımı). TDV «Tibet»: «Diğer önemli şehirleri Xigatze (Shigatse), Gyantse, Qamdo (Chamdo) ve Nedong’dur.» — https://islamansiklopedisi.org.tr/tibet (okundu) ; Xin Tang shu 216 shang: Tubo soy kütüğü (Yarlung adını anmaz). f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı: sahiplik öncesinden sürüyor)"
+    "kaynak": "SAHİP yarlung-krallik: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · BEYANLI YAKLAŞIKLIK: Yarlung vadisi merkezi olarak Tsetang/Nêdong seçildi (bu oturumun çıkarımı). TDV «Tibet»: «Diğer önemli şehirleri Xigatze (Shigatse), Gyantse, Qamdo (Chamdo) ve Nedong’dur.» — https://islamansiklopedisi.org.tr/tibet (okundu) ; Xin Tang shu 216 shang: Tubo soy kütüğü (Yarlung adını anmaz). f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı: sahiplik öncesinden sürüyor)"
    },
    {
     "f": "0629-01-01",
@@ -641,9 +641,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0500-01-01",
     "t": "0610-01-01",
-    "d": "__BOSLUK__",
+    "d": "kadamba-banavasi",
     "kesinlik": "onyil",
-    "kaynak": "BOŞLUK BEYANI: sahip kadamba-banavasi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"kadamba-banavasi\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Dynasties of South India»: \"and carved out a principality for himself with its capital at Banavasi\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Dynasties of South India»: \"tried to re-establish the independence of his dynasty, but was overpowered by Pulakesin II, who besieged Banavasi\" | f=0500-01-01 UFUK SINIR İŞARETİDİR (kuruluş c.340-370); t=0610: Pulakesin II kuşatması/Bhogivarman ölümü c.606-610 (ONYIL). BEYANLI YAKLAŞIKLIK: 565'ten (Ajavarman) Chalukya vasalı olan dönem Kadamba kaydında bırakıldı; 610 sonrası Chalukya (kimlik başka kümede)."
+    "kaynak": "SAHİP kadamba-banavasi: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Dynasties of South India»: \"and carved out a principality for himself with its capital at Banavasi\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Dynasties of South India»: \"tried to re-establish the independence of his dynasty, but was overpowered by Pulakesin II, who besieged Banavasi\" | f=0500-01-01 UFUK SINIR İŞARETİDİR (kuruluş c.340-370); t=0610: Pulakesin II kuşatması/Bhogivarman ölümü c.606-610 (ONYIL). BEYANLI YAKLAŞIKLIK: 565'ten (Ajavarman) Chalukya vasalı olan dönem Kadamba kaydında bırakıldı; 610 sonrası Chalukya (kimlik başka kümede)."
    },
    {
     "f": "0610-01-01",
@@ -1157,9 +1157,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0500-01-01",
     "t": "1153-07-07",
-    "d": "__BOSLUK__",
+    "d": "maldivler-budist",
     "kesinlik": "yuzyil",
-    "kaynak": "BOŞLUK BEYANI: sahip maldivler-budist (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"maldivler-budist\" geri yazılır) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Milâttan önce V. yüzyıldan itibaren yerleşim yeri olduğu anlaşılan Maldivler, İslâm dönemine kadar Hinduizm ve özellikle Budizm’in etkisinde kalmış ve burada birçok tapınak inşa edilmiştir.\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"12 Rebîülâhir 548 (7 Temmuz 1153) tarihinde müslüman olmuş\" | f=0500-01-01 UFUK SINIR İŞARETİ. BEYANLI YAKLAŞIKLIK: TDV adalardan söz eder; Malé'nin Budist krallığın merkezi olduğu doğrudan kaynaklanamadı (girdi başkenti Malé)."
+    "kaynak": "SAHİP maldivler-budist: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Milâttan önce V. yüzyıldan itibaren yerleşim yeri olduğu anlaşılan Maldivler, İslâm dönemine kadar Hinduizm ve özellikle Budizm’in etkisinde kalmış ve burada birçok tapınak inşa edilmiştir.\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"12 Rebîülâhir 548 (7 Temmuz 1153) tarihinde müslüman olmuş\" | f=0500-01-01 UFUK SINIR İŞARETİ. BEYANLI YAKLAŞIKLIK: TDV adalardan söz eder; Malé'nin Budist krallığın merkezi olduğu doğrudan kaynaklanamadı (girdi başkenti Malé)."
    },
    {
     "f": "1153-07-07",
@@ -1413,9 +1413,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0292-01-01",
     "t": "0869-01-01",
-    "d": "__BOSLUK__",
+    "d": "tikal-mutul",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip tikal-mutul (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tikal-mutul\" geri yazılır) · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Tikal»: \"the first contemporary date, on Stela 29, does not appear until 292\" … \"this was an appropriate setting for the city's final sculpture\" | bitiş = künye tikal-mutul t'si (en son stel, atlas künyesi dayanak değil; 869-08-13 künye günü yıl hassasiyetine indirildi)"
+    "kaynak": "SAHİP tikal-mutul: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Tikal»: \"the first contemporary date, on Stela 29, does not appear until 292\" … \"this was an appropriate setting for the city's final sculpture\" | bitiş = künye tikal-mutul t'si (en son stel, atlas künyesi dayanak değil; 869-08-13 künye günü yıl hassasiyetine indirildi)"
    },
    {
     "f": "0869-01-01",
@@ -1442,9 +1442,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0426-09-05",
     "t": "0820-01-01",
-    "d": "__BOSLUK__",
+    "d": "copan",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip copan (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"copan\" geri yazılır) · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Copan»: \"On 5 September 426 the founder\" | ic_not_takvim: M&G'nin verdiği gün olduğu gibi yazıldı (Uzun Sayım → Jülyen, GMT korelasyonu 584285 ile uyumlu: 9.4.11.8.16 = 11 Şubat 526, 8.19.10.11.0 = 8 Eylül 426 elle hesapla sınandı; 584283 ile 2 gün önce); Gregoryen'e çevrilmedi. Bitiş = künye copan t'si (devletler.js 0820-01-01; girdi 0822-02-01 — ikisinin dar olanı alındı)."
+    "kaynak": "SAHİP copan: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Copan»: \"On 5 September 426 the founder\" | ic_not_takvim: M&G'nin verdiği gün olduğu gibi yazıldı (Uzun Sayım → Jülyen, GMT korelasyonu 584285 ile uyumlu: 9.4.11.8.16 = 11 Şubat 526, 8.19.10.11.0 = 8 Eylül 426 elle hesapla sınandı; 584283 ile 2 gün önce); Gregoryen'e çevrilmedi. Bitiş = künye copan t'si (devletler.js 0820-01-01; girdi 0822-02-01 — ikisinin dar olanı alındı)."
    },
    {
     "f": "0820-01-01",
@@ -1471,9 +1471,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0431-03-10",
     "t": "0799-01-01",
-    "d": "__BOSLUK__",
+    "d": "palenque-baak",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip palenque-baak (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"palenque-baak\" geri yazılır) · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Palenque»: \"His reign began in 431\" … \"431-435\" | gün OCR '10 Mach 431' (Mart); Jülyen/korelasyon sınanamadı | bitiş = künye palenque-baak t'si 0799-01-01 (Janaab Pakal III 799; M&G 'acceded in 799'; girdi 0814 — dar olan alındı)."
+    "kaynak": "SAHİP palenque-baak: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Palenque»: \"His reign began in 431\" … \"431-435\" | gün OCR '10 Mach 431' (Mart); Jülyen/korelasyon sınanamadı | bitiş = künye palenque-baak t'si 0799-01-01 (Janaab Pakal III 799; M&G 'acceded in 799'; girdi 0814 — dar olan alındı)."
    },
    {
     "f": "0799-01-01",

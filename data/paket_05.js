@@ -24713,7 +24713,7 @@ window.DEVLETLER = [
   kronoloji:[{ odak_yer:["Poznan"], t:"1138-01-01", tur:"kurulus", b:"Büyük Polonya Dükalığı (Poznań–Gniezno) kuruldu / ilk kaynaklı tanık (kesinlik: {\"f\": \"yil\", \"t\": \"yil\"})", kaynak:"Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/" }, { odak_yer:["Poznan"], t:"1314-01-01", tur:"son", b:"Büyük Polonya Dükalığı (Poznań–Gniezno) sona erdi (kesinlik: {\"f\": \"yil\", \"t\": \"yil\"})", kaynak:"Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/" }] },
 // ==== DOGU-500-1281 KÜNYE BLOĞU BAŞI ====
 {
-  id: "yarlung-krallik",
+  id: "yarlung-krallik", boya_gerekli:true,
   ad: "Yarlung Krallığı (Tibet, imparatorluk öncesi)",
   tur: "krallik",
   bolge: "dogu-asya",
@@ -26062,7 +26062,7 @@ window.DEVLETLER = [
   ]
 },
 {
-  id: "kadamba-banavasi",
+  id: "kadamba-banavasi", boya_gerekli:true,
   ad: "Kadamba (Banavasi) Hanedanı",
   tur: "hanedanlik",
   bolge: "guney-asya",
@@ -26128,7 +26128,7 @@ window.DEVLETLER = [
   ]
 },
 {
-  id: "alkhon",
+  id: "alkhon", boya_gerekli:true,
   ad: "Alkhon (Hint Hunları — Toramana / Mihirakula)",
   tur: "krallik",
   bolge: "guney-asya",
@@ -26194,7 +26194,7 @@ window.DEVLETLER = [
   ]
 },
 {
-  id: "guhila-mevar",
+  id: "guhila-mevar", boya_gerekli:true,
   ad: "Guhila Hanedanı (Mevar)",
   tur: "hanedanlik",
   bolge: "guney-asya",
@@ -26481,7 +26481,7 @@ window.DEVLETLER = [
   ]
 },
 {
-  id: "maldivler-budist",
+  id: "maldivler-budist", boya_gerekli:true,
   ad: "Maldiv Budist Krallıkları (İslâm öncesi)",
   tur: "krallik",
   bolge: "guney-asya",
@@ -26699,7 +26699,7 @@ window.DEVLETLER = [
   ]
 },
 {
-  id: "kuca",
+  id: "kuca", boya_gerekli:true,
   ad: "Kuça (Qiuci) Krallığı",
   tur: "krallik",
   bolge: "orta-asya",
@@ -26735,7 +26735,7 @@ window.DEVLETLER = [
   ]
 },
 {
-  id: "khotan",
+  id: "khotan", boya_gerekli:true,
   ad: "Hotan (Yutian) Krallığı",
   tur: "krallik",
   bolge: "orta-asya",
@@ -26770,7 +26770,7 @@ window.DEVLETLER = [
   ]
 },
 {
-  id: "kasgar-shule",
+  id: "kasgar-shule", boya_gerekli:true,
   ad: "Kâşgar (Shule) Krallığı",
   tur: "krallik",
   bolge: "orta-asya",
@@ -26806,7 +26806,7 @@ window.DEVLETLER = [
   ]
 },
 {
-  id: "fergana-dayuan",
+  id: "fergana-dayuan", boya_gerekli:true,
   ad: "Fergana (Dayuan) Krallığı",
   tur: "krallik",
   bolge: "orta-asya",
@@ -26876,7 +26876,7 @@ window.DEVLETLER = [
   ]
 },
 {
-  id: "buhara-hudat",
+  id: "buhara-hudat", boya_gerekli:true,
   ad: "Buhara Hudâtları (Buhar-hudât)",
   tur: "sehir-devleti",
   bolge: "orta-asya",
