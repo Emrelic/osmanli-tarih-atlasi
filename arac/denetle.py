@@ -843,8 +843,8 @@ BEKLENEN_ACIK_ISG = 1   # 1 EKIM 2026: 3 -> 1, olculdu (142 isgal kirilmasi, 1 a
 # 15 EKIM 2026 (KUTU-TOPLU-1014, Emre onayi "tum pushlari bitir"): 1895 -> 1904. Kapinin INDIGI commit'te olculdu:
 #    K2'nin 1895'i kendi tabaninda (fc76e9d30) olculmustu; KUTU A/C/D/F1/F2/K1/G5 birlesimi 1897, ustune main'e
 #    inen "C grubu: eski sehirler ayri nokta" (b99a1469f) 1904 — 587/686 kirilma gunu. Iyilesince iner.
-BEKLENEN_EKSKLAV = 1929   # 22 EKIM 2026 (Emre onayi, sohbette; IYILESME 1933 -> 1929, -4 parca, 604/710 gun; olcum: KOSU 29 sonrasi denetle) · ONCEKI 1933: POSTIT-85 19 EKIM 2026 (Emre onayi, post-it #85; ust sinir 1966): 1910 -> 1933 (+23, 604/710 gun) · Becse/Becskerek/Canad/Lippa noktalari, Lipova Ekim 1551 Osmanli cikintisi tarihsel dogru · ONCEKI 1910: 19 EKIM 2026 (Emre onayi, tavan iyilesmesi 1944 -> 1910; olcum: KOSU 28 sonrasi denetle). ONCEKI: POSTIT-89 (18 Ekim 2026, Emre onayı): Tokaj 1565-02-09 yeni kırılma günü, +7 eski kopuk parça (Tokaj'la ilgisiz) · önceki:IYILESME 16 EKIM 2026 (KUNFUZE-1016, dal t5/b-1016): 1990 -> 1941 (-49), 703 gun / 598 kopuk gunde · Kunfuze (el-Kunfuze) noktasi eklendi (data/yerlesimler.js, d: 1871-03 -> 1916-07-18; Bang s.29 + TDV asir) ⇒ Cidde-Ebha arasi Tihame kiyisi koprulendi, Asir/Yemen kiyisi 1871-1916 Hicaz parcasina baglandi · gun sayisi +6 (Kunfuze kirilma gunleri) · olcum denetle.py Degismez 7e satiri, T5-1000-B + kunye commitleri ustu · mekanizma: tavan yalniz iyilesince iner (KARARLAR-1014 #49) · ONCEKI: YUKSELTME 16 EKIM 2026 — EMRE ONAYI (KOSU 27 hazirligi, dal kosu/27-hazirlik): 1898 -> 1990, 697 gun / 592 kopuk gunde · +66 Bise + Vadi'd-Devasir beyanli bos noktalari (KARARLAR-EMRE-1015 #13) Asir-Hicaz ic baglantisini kesiyor (Yemen/Asir/Habes kiyisi 1871-1916 tek kopuk parca); asil eksik Cidde-Ebha arasi kiyi noktasi (Kunfuze/Lis) — arastirma borcu, eklenirse ~1924 · +33 sayim artigi (15 yeni Osmanli kirilma gunu, 6 dusen gun; mevcut eksklavlar yeni gunlerde yeniden sayiliyor) · -7 icerik (El-Fasir +2 gercek, Serez/Drama -8, Besni/Darende -1, Dahlak -1) · olcum DENETIM-K27-1016 eksklav_olc gun gun dokum · ONCEKI: IYILESME 15 EKIM 2026 (KUTU-H7-1015, 0080/H-0019): 1904 -> 1898, 687 gun / 587 kopuk gunde; Preveze-Vonitsa 1699-1718 Osmanli donemi (TDV karlofca + pasarofca-antlasmasi) ve Inebahti 1700 iadesi (TDV inebahti) eklendi; toplam 6 parca azaldi (gun gun dokum yapilmadi) ·olcum: arac/eksklav_olc.py, worktree agent-ababb52035fad01ad, origin/main d57fbdc90 ustu · mekanizma: tavan yalniz iyilesince iner (KARARLAR-1014 #49) · ONCEKI 1904 · ILK: 1895, 14 EKIM 2026 — Degismez 7e ILK TAVAN (KARARLAR-1014 #49, 0064/H-0010; Emre onayi bu karar): arac/eksklav_olc.py, 681 Osmanli d/v kirilma gunu, 584 gunde kopuk parca, toplam 1895 · olcum: worktree agent-adb45ab6a14bc39c0, origin/main fc76e9d30 ustu · alet denetim/ARAC-EKSKLAV-0917.py ile 5 gunde parca parca AYNI (1520/1600/1739/1830/1912)
-BEKLENEN_KIRILMASIZ = 13   # 1 EKIM 2026: 42 -> 13, gecenin kampanyasi 29 kalem kapatti
+BEKLENEN_EKSKLAV = 1982   # 22 EKIM 2026 (Emre onayi 22 Ekim; VERI-MS1-1281: 13 sehir [Ahlat Harran Sis Remle Misis Seyzer Kartaca Sart Kadikoy Ani Meyyafarikin Halic Preslav] yazildi: 1929 -> 1982 = +53 parca, 612/715 gun; GERCEK OLCUM, nedeni ayrica incelenecek: yeni noktalar Osmanli Delaunay komsuluklarini degistiriyor) · ONCEKI 1929:22 EKIM 2026 (Emre onayi, sohbette; IYILESME 1933 -> 1929, -4 parca, 604/710 gun; olcum: KOSU 29 sonrasi denetle) · ONCEKI 1933: POSTIT-85 19 EKIM 2026 (Emre onayi, post-it #85; ust sinir 1966): 1910 -> 1933 (+23, 604/710 gun) · Becse/Becskerek/Canad/Lippa noktalari, Lipova Ekim 1551 Osmanli cikintisi tarihsel dogru · ONCEKI 1910: 19 EKIM 2026 (Emre onayi, tavan iyilesmesi 1944 -> 1910; olcum: KOSU 28 sonrasi denetle). ONCEKI: POSTIT-89 (18 Ekim 2026, Emre onayı): Tokaj 1565-02-09 yeni kırılma günü, +7 eski kopuk parça (Tokaj'la ilgisiz) · önceki:IYILESME 16 EKIM 2026 (KUNFUZE-1016, dal t5/b-1016): 1990 -> 1941 (-49), 703 gun / 598 kopuk gunde · Kunfuze (el-Kunfuze) noktasi eklendi (data/yerlesimler.js, d: 1871-03 -> 1916-07-18; Bang s.29 + TDV asir) ⇒ Cidde-Ebha arasi Tihame kiyisi koprulendi, Asir/Yemen kiyisi 1871-1916 Hicaz parcasina baglandi · gun sayisi +6 (Kunfuze kirilma gunleri) · olcum denetle.py Degismez 7e satiri, T5-1000-B + kunye commitleri ustu · mekanizma: tavan yalniz iyilesince iner (KARARLAR-1014 #49) · ONCEKI: YUKSELTME 16 EKIM 2026 — EMRE ONAYI (KOSU 27 hazirligi, dal kosu/27-hazirlik): 1898 -> 1990, 697 gun / 592 kopuk gunde · +66 Bise + Vadi'd-Devasir beyanli bos noktalari (KARARLAR-EMRE-1015 #13) Asir-Hicaz ic baglantisini kesiyor (Yemen/Asir/Habes kiyisi 1871-1916 tek kopuk parca); asil eksik Cidde-Ebha arasi kiyi noktasi (Kunfuze/Lis) — arastirma borcu, eklenirse ~1924 · +33 sayim artigi (15 yeni Osmanli kirilma gunu, 6 dusen gun; mevcut eksklavlar yeni gunlerde yeniden sayiliyor) · -7 icerik (El-Fasir +2 gercek, Serez/Drama -8, Besni/Darende -1, Dahlak -1) · olcum DENETIM-K27-1016 eksklav_olc gun gun dokum · ONCEKI: IYILESME 15 EKIM 2026 (KUTU-H7-1015, 0080/H-0019): 1904 -> 1898, 687 gun / 587 kopuk gunde; Preveze-Vonitsa 1699-1718 Osmanli donemi (TDV karlofca + pasarofca-antlasmasi) ve Inebahti 1700 iadesi (TDV inebahti) eklendi; toplam 6 parca azaldi (gun gun dokum yapilmadi) ·olcum: arac/eksklav_olc.py, worktree agent-ababb52035fad01ad, origin/main d57fbdc90 ustu · mekanizma: tavan yalniz iyilesince iner (KARARLAR-1014 #49) · ONCEKI 1904 · ILK: 1895, 14 EKIM 2026 — Degismez 7e ILK TAVAN (KARARLAR-1014 #49, 0064/H-0010; Emre onayi bu karar): arac/eksklav_olc.py, 681 Osmanli d/v kirilma gunu, 584 gunde kopuk parca, toplam 1895 · olcum: worktree agent-adb45ab6a14bc39c0, origin/main fc76e9d30 ustu · alet denetim/ARAC-EKSKLAV-0917.py ile 5 gunde parca parca AYNI (1520/1600/1739/1830/1912)
+BEKLENEN_KIRILMASIZ = 260  # 24 Ekim 2026 KRON-ORTACAG (Emre onayi 23 Ekim): 200 -> 260 = KRON-ANTIK 200 tavani + olaylar_ortacag_bekleyen_acik.js (MS500-1281, toprak maddeleri yerlesim zinciri yok/yil-basi sinira dayali; 107 madde). Zincir ya da sinir gunu kaynaga cekilince iner. Onceki: 23 EKIM 2026 (Emre emri): 13 -> 200. KRON-ANTIK: MÖ12000-MS500 antik kronoloji (Misir/Yakin Dogu/Akdeniz, ~375 madde) yerlesim s: zinciri olmayan yerleri anlatiyor -> kirilmasiz sayilir; zincirler (YER-TANIMA/VERI-MO-ARKEO) gelince kuyruk EKSILIR, tavan o zaman iner. (1 EKIM 2026: 42 -> 13)
 # ⚠️ Buyuk bir dusus (42 -> 13) ve bilerek SIKI baglaniyor: 29 kalemlik iyilesme
 # kayda gecmezse, yarin biri 40 kirilmasiz madde yazsa denetim "40 <= 42" der ve
 # GECER. Tavan bir hedef degil, o gunun FOTOGRAFIDIR.
@@ -1490,7 +1490,7 @@ BEYAN_EDILEN_BOSLUK = {
     #   TDV dışında kaynak bulunursa BU SATIR SİLİNİR. Komşu deseni hazır:
     #   Doha'nın 1193 günlük deliği (1913-1916) `s:{d:"katar"}` ile kapatıldı
     #   (ab1df42) — aynı yol buraya da açık, eksik olan kaynak.
-    ("Katar Yarımadası (iç, dolgu)", "1670-01-01", "1868-01-01"),
+    ("Katar Yarımadası (iç, dolgu)", "1795-04-01", "1868-01-01"),  # 1670-1795 Benî Hâlid (post-it #122)
     # 🟢 Cibri (Güçlü) 1508-1515 — Cizre beyanının İKİZİ (TR-1923-SINIR, 15 Eylül 2026).
     # Köy Cizre'nin 10,1 km batısında bir SINIR ÇİFTİ noktası; zinciri Cizre
     # kaydından birebir (denetim/ARAC-TR1923-YAZ-0914.py). Boşluk aynı TDV `cizre`
@@ -2362,7 +2362,8 @@ def kapsam_disi(Y, acik):
         # geçer — yoksa `(d+"-01-01")[:10]` "330-05-11-" verir ve FETRET dalının
         # `int(g[:4])`ü ValueError ile ÇÖKER. Dolgulu ve dört haneli girdi aynı kalır.
         g = pad(d)
-        g = g if len(g) == 10 else (g + "-01-01")[:10]
+        _m = re.match(r"^(-?\d{4})(?:-(\d\d))?(?:-(\d\d))?$", g)       # MÖ (negatif) yıl: [:10] kesmesi "-0549-01-0" üretirdi
+        g = "%s-%s-%s" % (_m.group(1), _m.group(2) or "01", _m.group(3) or "01") if _m else g
         kure = _osmanli_kure(Y, g)
         if not kure:
             # FETRET yedegi: en yakin govdeli gune kaydir
@@ -3878,6 +3879,15 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ==== DOGU-500-1281 BILINEN_AYRI BAŞI (denetim/dogu/istisna_yaz.py üretir; elle düzenleme) ====
+    # 6 çift: DOĞU 500-1281 — aynı şablon/olay, AYRI yer ve/veya AYRI gün (her çift okundu; istisna_yaz.py docstring).
+    ('Herat: Gazneli hâkimiyeti sona erdi, Selçuklu hâkimiyeti başladı', "Dandanakan Savaşı: Selçuklular Gazneli ordusunu bozguna uğrattı; Horasan Gazneliler'in elinden çıktı"),
+    ('Kumbî Sâlih: Ebû Bekir b. Ömer öldü; Gāne dört küçük krallığa bölündü, devlet kimliği yok', 'Ebû Bekir b. Ömer öldü (480, 1087).'),
+    ("Lahor Gazneliler'den Gurlular'a geçti (Hüsrev Melik teslim)", "Gurlular hileyle Lahor'da Hüsrev Melik'i esir alarak Gazneli Devleti'ne son verdi"),
+    ('Liaoyang: sahip Jin (Curçen) → Doğu Xia (Pu-xian Wannu)', 'Liaoyang: sahip Doğu Xia (Pu-xian Wannu) → Moğol İmparatorluğu'),
+    ("Phagmodrupa mezhebi iç savaşı kazanıp Tibet'in idaresini ele geçirdi", 'Tibet (Phagmodrupa · Rinpungpa · Tsangpa) egemenliğine geçti — Yarlung'),
+    ('Antonio de Mendoza ilk Yeni İspanya valisi (viceroy) olarak göreve başladı — Tilantongo', 'İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu'),
+    # ==== DOGU-500-1281 BILINEN_AYRI SONU ====
     # ⭐ DENETIM-K27-1016 — 16 Ekim 2026. İki BAŞLIK çifti, AYRI YER + AYRI GÜN (yalnız kalıp ortak: 'X'in … teslimi'):
     # Gence 1735-07-09 (TDV gence) ↔ Revan 1735-10-03 (TDV nadir-sah--iran) — Nâdir'in 1735 seferinin İKİ ayrı teslimi, 86 gün arayla;
     # Darfur 1883-12-23 (Slatin'in teslimi, TDV darfur) ↔ Tokar 1884-02-20 (Royle s.275-276) — Batı ve Doğu Sudan, 59 gün arayla.
@@ -4679,6 +4689,9 @@ def _bilinen_ayri(cift):
     return None
 
 
+MUKERRER_YER_AYIRT = True       # sınav için kapatılabilir (eski ölçütle kıyas)
+
+
 def mukerrer_maddeler(O):
     """İki ölçüt: (1) başlık benzerliği + ±400 gün, (2) ortak kişi + ±3 gün."""
     S = sorted(O, key=lambda o: gn(o["t"]))
@@ -4689,6 +4702,14 @@ def mukerrer_maddeler(O):
             fark = _gun_no(S[j]["t"]) - gi
             if fark > MUKERRER_GUN:
                 break                       # sıralı: bundan sonrası daha da uzak
+            # 🆕 22 Ekim 2026 (Emre onaylı): iki maddenin yer_id'si İKİSİNDE DE dolu ve FARKLIysa
+            # çift mükerrer sayılmaz — farklı şehirdeki aynı-gün aynı-devir maddeleri (İskender,
+            # Persepolis, 1118 Irak Selçuklu, 1204-04-13 Bizans→İznik/Latin, 1097 Haçlı) sahici
+            # mükerrer değil. yer_id boş/aynıysa eski ölçüt aynen geçerli.
+            _yer_farkli = False
+            if MUKERRER_YER_AYIRT:
+                _yi, _yj = S[i].get("yer_id"), S[j].get("yer_id")
+                _yer_farkli = bool(_yi and _yj and _yi != _yj)
             istisna = _bilinen_ayri((S[i]["b"], S[j]["b"]))
             a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
             oran = 0.0
@@ -4717,6 +4738,8 @@ def mukerrer_maddeler(O):
             if istisna:                     # çift ötüyordu, istisna BASTIRDI
                 _BILINEN_AYRI_KULLANILAN.add(istisna)
                 continue
+            if _yer_farkli:                 # ölçüt çifti yakaladı ama yerler farklı: mükerrer DEĞİL
+                continue                    # (istisna sayımı yukarıda eskisi gibi işlendi)
             bulunan.append((S[i]["t"][:4], oran, S[i], S[j], olcut))
     return bulunan
 
@@ -7533,7 +7556,12 @@ def main():
     # yarin dogacak GERCEK bir mukerrer "114 <= 114" diye gecer.
     # 6 EKIM 2026: 113 -> 95. MUKERRER-OLCUT-1006 ile ayni commit'te (3.4-2);
     # olcut daraldi, 112 -> 95 olculdu (yazmadan hemen once, makine/umit).
-    BEKLENEN_MUKERRER = 95
+    # 22 EKIM 2026: 95 -> 70 (IYILESME). Olcut duzeltildi: yer_id ikisinde de dolu ve FARKLI cift
+    # artik mukerrer sayilmaz (25 cift dustu; hepsi farkli sehirdeki ayni gun ayni devir maddesi:
+    # Trianon/Bukres/Londra/Lozan/Tartu-Riga siniri vb.; sinav denetim/ARAC-MUKERRER-YER-SINAV-1022.py).
+    # Emre onayiyla bekleyen veri dallari icin GECICI 135 istenmisti; olcut duzelince tavan GERCEK olcume
+    # indi (tavan yalniz iyilesince iner kurali). Yeni veri bunu asarsa yeni sayi gerekceyle yazilir.
+    BEKLENEN_MUKERRER = 97   # 24 Ekim 2026: 94 -> 97 (+3: sinir gunu ajaninin tasidigi maddeler bekleyen_acik maddeleriyle ayni gunde, farkli olay). 23 Ekim 2026 KRON-ORTACAG (Emre onayi): 81 -> 94 (+13) = bekleyen_acik maddelerinin ayni yerlesimdeki ardisik farkli olaylari (ortak yer + devlet adi); hepsi farkli olay. Onceki: 22 Ekim 2026 VERI-MS1-1281 (MO-MOTOR notu: dalinda 70'i asarsa rebase sonrasi sayi gerekceyle yazilir): 70 -> 81 (+11) = ayni yerlesimin 1-12 ay arayla ardisik devir maddeleri (Pekin 1123 Liao->Jin->Song, Meyyafarikin, Ahlat, Harran, Verdun 1792) + 1923-10-29 Osmanli cikis maddeleri; hepsi farkli olay, tek yerlesimin kisa araliklarla art arda el degistirmesi (ortak yer adi + devlet adi Jaccard>=0.34)
     durum5 = "✓" if len(mk) <= BEKLENEN_MUKERRER else "✗"
     if len(mk) > BEKLENEN_MUKERRER:
         ihlal = True

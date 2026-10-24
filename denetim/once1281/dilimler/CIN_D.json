@@ -1,0 +1,1606 @@
+[
+ {
+  "id": "liang-guney",
+  "ad": "Liang (Güney Hanedanı)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0502-04-30",
+  "t": "0557-11-16",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Jiankang",
+  "etkin_bolge": "Güney Çin",
+  "sehirler": [
+   "Jiankang"
+  ],
+  "ozet": "Xiao Yan'ın kuruluşu; Chen Baxian'ın tahta geçmesi (557).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Yao Silian, Liang shu (636), juan 2 «Wudi zhong» (天監元年夏四月丙寅，高祖即皇帝位於南郊) ve juan 6 «Jingdi» (敬禪于陳) — zh.wikisource.org/wiki/梁書/卷02 ve /卷06 (bu oturumda okundu)",
+   "Yao Silian, Chen shu (636), juan 2 «Gaozu xia» (永定元年冬十月乙亥高祖即皇帝位) ve juan 6 «Houzhu» (禎明三年，隋軍所執；三月入于長安) — zh.wikisource.org/wiki/陳書/卷2 ve /卷6 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0502-01-01, t=0557-01-01 | f: 天監元年夏四月丙寅 (Jülyen 502-04-30, ganzhi günü hesapla çevrildi). t: Chen shu 永定元年冬十月乙亥 = 557-11-16 Jülyen; Liang Jingdi禪位 aynı sırada. Gün çevrimi: ganzhi günü JDN'den hesaplandı (doğrulama: 甲子=618-06-18 Tang kuruluşuyla örtüşür).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "liang-guney",
+   "not": ""
+  }
+ },
+ {
+  "id": "dogu-wei",
+  "ad": "Doğu Wei Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0534-11-08",
+  "t": "0550-06-09",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Ye",
+  "etkin_bolge": "Kuzey Çin doğusu",
+  "sehirler": [
+   "Ye"
+  ],
+  "ozet": "Kuzey Wei'nin bölünmesi; Gao Yang'ın Kuzey Qi'yi kurması.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Wei Shou, Wei shu (554), juan 12 «Xiaojing di» (天平元年冬十月丙寅即位) — zh.wikisource.org/wiki/魏書/卷12 (okundu)",
+   "Li Baiyao, Bei Qi shu (636), juan 4 «Wenxuan di» (天保元年…戊午乃即皇帝位於南郊；魏帝禪代) ve juan 8 «You zhu» (承光元年；周將尉遲綱所獲，送鄴，與太后、諸王俱送長安) — zh.wikisource.org/wiki/北齊書/卷4 ve /卷8 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0534-01-01, t=0550-01-01 | f: 天平元年冬十月丙寅 (534-11-08 Jülyen). t: Bei Qi kuruluş günü 天保元年戊午 (550-06-09) = Doğu Wei禪代.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-wei",
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-wei",
+  "ad": "Batı Wei Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0535-01-01",
+  "t": "0557-02-15",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Kuzey Çin batısı",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Yuwen Tai'nin Wei'yi sürdürmesi; Yuwen Jue'nin Kuzey Zhou'yu kurması.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Linghu Defen, Zhou shu (636), juan 2 «Wendi xia» (魏大統元年春正月己酉…), juan 3 «Xiaomin di» (元年春正月辛丑，即天王位；魏帝遜于大司馬府), juan 8 «Jingdi» (大定元年) — zh.wikisource.org/wiki/周書/卷02, 卷03, 卷08 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: t=0557-01-01 | f: Zhou shu juan 2 魏大統元年 (535) ile başlar; Wen Di'nin Chang'an'da yeniden tahta çıkışı 534 sonu (永熙三年閏十二月), gün okunmadı. t: 周閔帝 元年春正月辛丑 (557-02-15) 即天王位, Wei Gongdi大司馬府ya遜位.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bati-wei",
+   "not": ""
+  }
+ },
+ {
+  "id": "kuzey-qi",
+  "ad": "Kuzey Qi Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0550-06-09",
+  "t": "0577-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "Ye",
+  "etkin_bolge": "Hebei, Shandong",
+  "sehirler": [
+   "Ye"
+  ],
+  "ozet": "Gao Yang'ın kuruluşu; Kuzey Zhou'nun fethi (577).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Li Baiyao, Bei Qi shu (636), juan 4 «Wenxuan di» (天保元年…戊午乃即皇帝位於南郊；魏帝禪代) ve juan 8 «You zhu» (承光元年；周將尉遲綱所獲，送鄴，與太后、諸王俱送長安) — zh.wikisource.org/wiki/北齊書/卷4 ve /卷8 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0550-01-01 | f: 天保元年戊午即皇帝位 (550-06-09). t: 承光元年(577) Zhou ordusu Ye'yi aldı, Youzhu Qingzhou yakınında Yuchi Gang'a yakalandı; ay/gün okunmadı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kuzey-qi",
+   "not": ""
+  }
+ },
+ {
+  "id": "chen",
+  "ad": "Chen Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0557-11-16",
+  "t": "0589-02-12",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Jiankang",
+  "etkin_bolge": "Güney Çin",
+  "sehirler": [
+   "Jiankang"
+  ],
+  "ozet": "Chen Baxian'ın kuruluşu; Sui fethi (589).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Yao Silian, Chen shu (636), juan 2 «Gaozu xia» (永定元年冬十月乙亥高祖即皇帝位) ve juan 6 «Houzhu» (禎明三年，隋軍所執；三月入于長安) — zh.wikisource.org/wiki/陳書/卷2 ve /卷6 (okundu)",
+   "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang» (開皇元年二月甲子，上…即皇帝位於臨光殿；開皇七年九月辛卯廢梁國) ve juan 5 «Gongdi» (義寧二年) — zh.wikisource.org/wiki/隋書/卷01, 卷05 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0557-01-01, t=0589-01-01 | f: 永定元年冬十月乙亥。t: 禎明三年正月乙丑朔，景(丙)戌 Sui başkenti Jiankang'ı aldı, Houzhu gece yakalandı (ganzhi→Jülyen 589-02-12); 三月己巳 Chang'an'a götürüldü.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "chen",
+   "not": ""
+  }
+ },
+ {
+  "id": "kuzey-zhou",
+  "ad": "Kuzey Zhou Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0557-02-15",
+  "t": "0581-03-04",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Kuzey Çin",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Yuwen Jue'nin kuruluşu; Yang Jian'ın Sui'yi kurması (581).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Linghu Defen, Zhou shu (636), juan 2 «Wendi xia» (魏大統元年春正月己酉…), juan 3 «Xiaomin di» (元年春正月辛丑，即天王位；魏帝遜于大司馬府), juan 8 «Jingdi» (大定元年) — zh.wikisource.org/wiki/周書/卷02, 卷03, 卷08 (okundu)",
+   "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang» (開皇元年二月甲子，上…即皇帝位於臨光殿；開皇七年九月辛卯廢梁國) ve juan 5 «Gongdi» (義寧二年) — zh.wikisource.org/wiki/隋書/卷01, 卷05 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0557-01-01, t=0581-01-01 | f: 元年春正月辛丑 (557-02-15). t: Sui kuruluş günü 開皇元年二月甲子 (581-03-04); Zhou imparatoru aynı gün詔 verdi.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kuzey-zhou",
+   "not": ""
+  }
+ },
+ {
+  "id": "hou-liang-xi-liang",
+  "ad": "Sonraki Liang / Batı Liang (後梁, Xiao Liang)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0555-01-01",
+  "t": "0587-10-26",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Jiangling",
+  "etkin_bolge": "Hubei orta kesimi",
+  "sehirler": [
+   "Jiangling"
+  ],
+  "ozet": "Xiao Cha'nın Kuzey Zhou himayesinde kurduğu Liang kalıntısı; Sui tarafından 587'de ilga edildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Linghu Defen, Zhou shu, juan 48 «Xiao Cha» (江陵平，太祖立詧為梁主…詧乃稱皇帝於其國，年號大定) — zh.wikisource.org/wiki/周書/卷48 (okundu)",
+   "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang» (開皇元年二月甲子，上…即皇帝位於臨光殿；開皇七年九月辛卯廢梁國) ve juan 5 «Gongdi» (義寧二年) — zh.wikisource.org/wiki/隋書/卷01, 卷05 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Hou Liang olarak da anılır (Beş Hanedan 'Sonraki Liang'dan ayrı). | taslak değeri: t=0587-01-01 | f: 江陵平(554-12) sonrası Taizu Xiao Cha'yı Liang hükümdarı yaptı; 稱皇帝, 年號大定 (555; ay/gün okunmadı). t: 開皇七年九月辛卯 廢梁國 (587-10-26). Sui'ye vasal; kuzey kaynaklarında 後梁, Jiangling merkezli.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "mevcut listede hou-liang yok (kontrol edildi)"
+  }
+ },
+ {
+  "id": "sui",
+  "ad": "Sui Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0581-03-04",
+  "t": "0618-06-18",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Daxing → Luoyang",
+  "etkin_bolge": "Çin",
+  "sehirler": [
+   "Daxing",
+   "Luoyang"
+  ],
+  "ozet": "Yang Jian'ın kuruluşu (581); Chen fethiyle 589'da birlik; 618'de çöküş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Wei Zheng vd., Sui shu (636), juan 1 «Gaozu shang» (開皇元年二月甲子，上…即皇帝位於臨光殿；開皇七年九月辛卯廢梁國) ve juan 5 «Gongdi» (義寧二年) — zh.wikisource.org/wiki/隋書/卷01, 卷05 (okundu)",
+   "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu» (隋帝遜於舊邸…甲子，高祖即皇帝位於太極殿，改隋義寧二年為唐武德元年) — zh.wikisource.org/wiki/舊唐書/卷1 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0581-01-01, t=0618-01-01 | f: 開皇元年二月甲子，上…即皇帝位 (581-03-04). t: Gongdi隋帝遜於舊邸 ve Tang 甲子 (618-06-18) 即皇帝位. Dongdu (Luoyang) Yang Tong rejimi (618-619) ayrı: bkz. sui-zheng-wang-shichong.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sui",
+   "not": ""
+  }
+ },
+ {
+  "id": "tang",
+  "ad": "Tang Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0618-06-18",
+  "t": "0907-06-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Çin, Orta Asya protektoraları",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Li Yuan'ın kuruluşu (618); Zhu Wen'in tahta geçmesi (907).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Liu Xu vd., Jiu Tang shu (945), juan 1 «Gaozu» (隋帝遜於舊邸…甲子，高祖即皇帝位於太極殿，改隋義寧二年為唐武德元年) — zh.wikisource.org/wiki/舊唐書/卷1 (okundu)",
+   "Ouyang Xiu, Xin Wudai shi (1053), juan 2 «Liang benji er» (開平元年夏四月壬戌，更名晃。甲子，皇帝即位) — zh.wikisource.org/wiki/新五代史/卷02 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Wu Zhou arası 690-705. | taslak değeri: f=0618-01-01, t=0907-01-01 | f: 武德元年甲子，高祖即皇帝位於太極殿 (618-06-18). t: Zhu Wen 開平元年夏四月甲子皇帝即位 (907-06-01) = Tang禪代. Wu Zhou (690-705) ara dönemi: wu-zhou kaydı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tang",
+   "not": ""
+  }
+ },
+ {
+  "id": "sui-zheng-wang-shichong",
+  "ad": "Zheng (Wang Shichong, 鄭)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0619-01-01",
+  "t": "0621-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyang",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Luoyang"
+  ],
+  "ozet": "Wang Shichong'un 619'da kurduğu Zheng; Tang 621'de yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Liu Xu vd., Jiu Tang shu, juan 53-56 (Li Mi: 號為魏公…二月…即位，稱元年; Wang Shichong: 世充僭即皇帝位，建元曰開明，國號鄭; Xiao Xian: 自稱梁王…義寧二年，僭稱皇帝; Xue Ju: 自稱西秦霸王，建元為秦興) — zh.wikisource.org/wiki/舊唐書/卷53-56 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir. | Jiu Tang shu juan 54: Wang Shichong Yang Tong'u废, 世充僭即皇帝位, 建元開明, 國號鄭 (619, 4. ay); 武德四年(621) Tang'a yenildi — yıl sınırları metinde doğrudan okunmadı, tarih Zizhi tongjian'dan okunmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-xia-dou-jiande",
+  "ad": "Xia (Dou Jiande, 夏)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0621-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Leshou (Hebei)",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Leshou (Hebei)"
+  ],
+  "ozet": "Dou Jiande'nin 'Xia'sı (617-621); Hulao yenilgisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-wei-li-mi",
+  "ad": "Wei (Li Mi, Wagang, 魏)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0618-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Wagang",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Wagang"
+  ],
+  "ozet": "Li Mi'nin Wagang ordusu devleti; Tang'a teslim.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Liu Xu vd., Jiu Tang shu, juan 53-56 (Li Mi: 號為魏公…二月…即位，稱元年; Wang Shichong: 世充僭即皇帝位，建元曰開明，國號鄭; Xiao Xian: 自稱梁王…義寧二年，僭稱皇帝; Xue Ju: 自稱西秦霸王，建元為秦興) — zh.wikisource.org/wiki/舊唐書/卷53-56 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir. | Jiu Tang shu juan 53: 大業十三年(617) 二月 壇場即位 魏公 元年; 武德元年(618) Wang Shichong ile Yanshi savaşı sonrası Tang'a teslim (t=618 okunmuş sonuç, ay okunmadı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-qin-xue-ju",
+  "ad": "Qin (Xue Ju, 秦)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0618-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jincheng (Lanzhou)",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Jincheng (Lanzhou)"
+  ],
+  "ozet": "Xue Ju'nun Gansu devleti; Tang yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Liu Xu vd., Jiu Tang shu, juan 53-56 (Li Mi: 號為魏公…二月…即位，稱元年; Wang Shichong: 世充僭即皇帝位，建元曰開明，國號鄭; Xiao Xian: 自稱梁王…義寧二年，僭稱皇帝; Xue Ju: 自稱西秦霸王，建元為秦興) — zh.wikisource.org/wiki/舊唐書/卷53-56 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir. | Jiu Tang shu juan 55: Xue Ju 自稱西秦霸王, 建元秦興; oğlu Renguo Qin Wang (Taizong) tarafından 淺水原'da yenildi, 折墌城 teslim (618).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-liang-xiao-xian",
+  "ad": "Liang (Xiao Xian, 梁)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0621-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jiangling",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Jiangling"
+  ],
+  "ozet": "Xiao Xian'ın Liang'ı; Tang yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Liu Xu vd., Jiu Tang shu, juan 53-56 (Li Mi: 號為魏公…二月…即位，稱元年; Wang Shichong: 世充僭即皇帝位，建元曰開明，國號鄭; Xiao Xian: 自稱梁王…義寧二年，僭稱皇帝; Xue Ju: 自稱西秦霸王，建元為秦興) — zh.wikisource.org/wiki/舊唐書/卷53-56 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir. | Jiu Tang shu juan 56: Xiao Xian 自稱梁王, 建元鳳鳴 (617); 義寧二年(618) 僭稱皇帝; t=621 okunmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-liang-liang-shidu",
+  "ad": "Liang (Liang Shidu, 梁)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0628-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Shuofang",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Shuofang"
+  ],
+  "ozet": "Doğu Türk himayesinde Liang Shidu; Tang yıktı 628.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "tibet-imparatorlugu",
+  "ad": "Tibet İmparatorluğu (Tubo/Yarlung)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0629-01-01",
+  "t": "0842-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Lhasa",
+  "etkin_bolge": "Tibet platosu, Gansu, Tarim",
+  "sehirler": [
+   "Lhasa"
+  ],
+  "ozet": "Songtsen Gampo'nun kuruluşu; Langdarma'nın ölümü sonrası çöküş (842).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu vd., Xin Tang shu, juan 216 xia «Tubo xia» (會昌二年，贊普死…) ve Jiu Tang shu juan 196 shang «Tubo shang» (貞觀八年，其贊普棄宗弄贊始遣使朝貢) — zh.wikisource.org/wiki/新唐書/卷216下, 舊唐書/卷196上 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas'ta aynı polity için iki künye var: tibet-imparatorlugu ve tubo-tibet-imparatorlugu (mükerrer). Birleştirme önerisi. | f: Jiu Tang shu 貞觀八年(634) Songtsen Gampo'nun ilk elçisini anar (iktidara geliş ~629 taslak değer korunuyor, okunmadı). t: Xin Tang shu 會昌二年(842) 贊普 (Darma/Langdarma) öldü — imparatorluğun dağılış başlangıcı. Mükerrer aday: tubo-tibet-imparatorlugu (aynı polity).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tibet-imparatorlugu",
+   "not": "MÜKERRER: tubo-tibet-imparatorlugu da var."
+  }
+ },
+ {
+  "id": "wu-zhou",
+  "ad": "Wu Zhou (Wu Zetian)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0690-10-16",
+  "t": "0705-03-03",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Luoyang",
+  "etkin_bolge": "Çin",
+  "sehirler": [
+   "Luoyang"
+  ],
+  "ozet": "Wu Zetian'ın 690'daki ilanı; 705'te Tang'ın restorasyonu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Liu Xu vd., Jiu Tang shu, juan 6 «Zetian» (九月九日壬午，革唐命，改國號為周，改元為天授) ve juan 7 «Zhongzong» (神龍元年…二月甲寅，復國號，依舊為唐) — zh.wikisource.org/wiki/舊唐書/卷6, 卷7 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0690-01-01, t=0705-01-01 | f: 天授元年九月九日壬午 (690-10-16). t: 神龍元年二月甲寅 復國號 (705-03-03; ganzhi→Jülyen). Wu Zetian'ın ölümü 705-12; hanedan değil Tang içi ara dönem.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "wu-zhou",
+   "not": ""
+  }
+ },
+ {
+  "id": "balhae",
+  "ad": "Balhae (Bohai) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0698-01-01",
+  "t": "0926-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Dongmozu → Sanggyeong",
+  "etkin_bolge": "Mançurya, Kuzey Kore, Primorye",
+  "sehirler": [
+   "Dongmozu",
+   "Sanggyeong"
+  ],
+  "ozet": "Dae Joyeong'un Zhen devletini kurması (698), 713'te Bohai adı; Khitan fethi 926.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu vd., Xin Tang shu (1060), juan 219 «Beidi: Bohai» (祚榮…自號震國王；先天中拜渤海郡王，以所統為忽汗州) ve Jiu Tang shu juan 199 xia (渤海靺鞨) — zh.wikisource.org/wiki/新唐書/卷219 (okundu)",
+   "Tuotuo vd., Liao shi (1344), juan 2 «Taizu xia» (天顯元年春正月…夜圍忽汗城。己巳，諲譔請降…丙午，改渤海國為東丹，忽汗城為天福) — zh.wikisource.org/wiki/遼史/卷2 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Kore oturumuyla çakışabilir. | f: Xin Tang shu 219: Zuorong 並比羽之衆…自號震國王 (Wu Zetian devri, 698 geleneksel); gün/ay yok. t: Liao shi 天顯元年春正月 Hūhan kalesi kuşatıldı, Yi Zhen teslim; 丙午 渤海→東丹 (926-02). Doğu Dan: dongdan kaydı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "balhae",
+   "not": ""
+  }
+ },
+ {
+  "id": "an-lushan-yan",
+  "ad": "Yan (An Lushan, 大燕)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0756-01-01",
+  "t": "0763-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyang",
+  "etkin_bolge": "Hebei, Henan",
+  "sehirler": [
+   "Luoyang"
+  ],
+  "ozet": "An Lushan'ın 756'da Yan imparatorluğu ilan etmesi; Shi Chaoyi'nin ölümü (763).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Liu Xu vd., Jiu Tang shu, juan 200 shang «Shi Siming» (乾元二年正月一日…僭稱為大聖燕王；四月，僭稱大號，以范陽為燕京) — zh.wikisource.org/wiki/舊唐書/卷200上 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tang içindeki isyan; devletleşmiş. | Jiu Tang shu juan 200 shang: Shi Siming 乾元二年(759) 僭稱大聖燕王, 四月 僭稱大號 (759-04); Luoyang/Fanyang merkezli; Shi Chaoyi 763. Bu kaydın f=756 An Lushan'ın 大燕 ilanını (755-756) gösterir, bu sayfada okunmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "nanzhao",
+  "ad": "Nanzhao Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0729-01-01",
+  "t": "0902-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Taihe → Dali",
+  "etkin_bolge": "Yunnan, Burma kuzeyi",
+  "sehirler": [
+   "Taihe",
+   "Dali"
+  ],
+  "ozet": "Piluoge'nin birliği; Zheng Maisi'nin 902'de devirmesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Sima Guang, Zizhi tongjian (1084), juan 214 (戊午，冊南詔蒙歸義為雲南王) ve Xin Tang shu juan 222 shang «Nanzhao» (皮邏閣…合六詔為一…馳遣中人冊為雲南王) — zh.wikisource.org/wiki/資治通鑑/卷214 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Backus: 738'de Tang tarafından tanındı. | Zizhi tongjian 214: Piluoge Wang Yu'ya rüşvet vererek altı zhao'yu birleştirdi; 戊午 蒙歸義 雲南王 ilan edildi (開元二十六年=738 geleneksel, Backus). Atlas f=729 bu kaynakta yok. t=902 (Zheng Maisi) Xin Tang shu 222 zhong'da okunmadı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "nanzhao",
+   "not": ""
+  }
+ },
+ {
+  "id": "da-changhe",
+  "ad": "Da Changhe (大長和)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0902-01-01",
+  "t": "0928-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dali/Taihe",
+  "etkin_bolge": "Yunnan",
+  "sehirler": [
+   "Dali/Taihe"
+  ],
+  "ozet": "Zheng Maisi'nin Nanzhao'dan sonra kurduğu devlet.",
+  "oncul": [
+   "nanzhao"
+  ],
+  "ardil": [
+   "da-tianxing"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Nanzhao ardılı. | Bu oturumda Xin Tangshu 222 zhong/xia, ZZTJ 265 ve Xin Wudai shi 74'te Zheng Maisi / 大長和 deseni bulunamadı (okunamadı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "da-tianxing",
+  "ad": "Da Tianxing (大天興)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0928-01-01",
+  "t": "0929-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dali",
+  "etkin_bolge": "Yunnan",
+  "sehirler": [
+   "Dali"
+  ],
+  "ozet": "Zhao Shanzheng'in kısa ömürlü devleti.",
+  "oncul": [],
+  "ardil": [
+   "da-yining"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Süre çok kısa (1 yıl). | Bu oturumda doğrulanamadı (Xin Wudai shi 74 Nanzhao bölümünde desen yok).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "da-yining",
+  "ad": "Da Yining (大義寧)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0929-01-01",
+  "t": "0937-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dali",
+  "etkin_bolge": "Yunnan",
+  "sehirler": [
+   "Dali"
+  ],
+  "ozet": "Yang Ganzhen'in devleti; Duan Siping'in Dali'si ile son.",
+  "oncul": [],
+  "ardil": [
+   "dali-kralligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Duan Siping 937'de. | Bu oturumda doğrulanamadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "heiyue-purang",
+  "ad": "Pu-rang (Purang) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0930-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Purang (Burang)",
+  "etkin_bolge": "Batı Tibet (Mapam Yumtso çevresi)",
+  "sehirler": [
+   "Purang (Burang)"
+  ],
+  "ozet": "Tibet İmparatorluğu çöküşü sonrası Nyimagon soyundan Batı Tibet krallıkları (Purang, Guge, Maryul).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş ~10. yy. Bitiş yılı bilinmiyor. Bitiş yılı bilinmiyor (t=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Guge ile ilişkili; Atlas'ta Guge 1000'den."
+  }
+ },
+ {
+  "id": "xiazhou-dangxiang",
+  "ad": "Xiazhou Dangxiang Yönetimi (Dingnan jun)",
+  "tur": "emirlik",
+  "bolge": "dogu-asya",
+  "f": "0881-01-01",
+  "t": "1038-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Xiazhou (Yulin)",
+  "etkin_bolge": "Ordos güneyi",
+  "sehirler": [
+   "Xiazhou (Yulin)"
+  ],
+  "ozet": "Tuoba Sigong'un Tang'dan Xiazhou jiedushi unvanı; Li Yuanhao'nun 1038'de Batı Xia'yı kurması.",
+  "oncul": [],
+  "ardil": [
+   "bati-xia"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Tuotuo vd., Song shi (1345), juan 485 «Xia guo shang» (拓跋思恭鎮夏州…討黃巢有功，復賜李姓; 元昊…築壇受冊，即皇帝位; 國稱大夏，年號天授禮法延祚) — zh.wikisource.org/wiki/宋史/卷485 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sigong 881; Tuoba Li soyadı. | Song shi 485: Tuoba Sigong Xiazhou'da Dingnan jiedushi, Huang Chao'ya karşı hizmetle Li soyadı; 881 (中和元年) yıl bu sayfada okunmadı. t=1038: Yuanhao 築壇受冊 即皇帝位, 國稱大夏 (寶元元年). Bati Xia ile ardışık: bati-xia.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ganzhou-uygur",
+  "ad": "Ganzhou Uygur Krallığı (Hexi)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0894-01-01",
+  "t": "1036-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ganzhou (Zhangye)",
+  "etkin_bolge": "Hexi koridoru",
+  "sehirler": [
+   "Ganzhou (Zhangye)"
+  ],
+  "ozet": "Batı Uygur ve Hexi Uygur kalıntısı; Tangut tarafından 1028-1036'da yutuldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Tuotuo vd., Song shi, juan 490 (太平興國二年…遣殿直張璨齎詔諭甘、沙州回鶻可汗外甥；五年，甘、沙州回鶻可汗夜落紇密禮遏遣使…來獻) — zh.wikisource.org/wiki/宋史/卷490 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "orta-asya oturumuyla çakışabilir. | Song shi 490: 太平興國五年(980) 甘、沙州回鶻可汗夜落紇密禮遏 elçilik. f=894/t=1036 bu sayfada yok. Çakışma: BOZKIR'ın gansu-uygur kaydıyla AYNI polity — TEK kayıt olarak CIN'de kalır ya da bozkir tarafında birleştirilmeli (BOZKIR_D id: gansu-uygur).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "guiyi-jun-dunhuang",
+  "ad": "Guiyi Jun (Dunhuang/Shazhou)",
+  "tur": "prenslik",
+  "bolge": "dogu-asya",
+  "f": "0851-01-01",
+  "t": "1036-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Shazhou",
+  "etkin_bolge": "Dunhuang",
+  "sehirler": [
+   "Shazhou"
+  ],
+  "ozet": "Zhang Yichao'nun Tibet'ten kurtarışı; Tangut ilhakı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Tuotuo vd., Song shi, juan 490 «Waiguo 6: Shazhou» (大中五年，張義潮以州歸順，詔建沙州為歸義軍，以義潮為節度使；至朱梁時，張氏之後絕，州人推長史曹…) — zh.wikisource.org/wiki/宋史/卷490 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: f=0848-01-01 | f: Song shi 490: 大中五年(851) 張義潮 歸順, 歸義軍 kuruldu; Zhang Yichao'nun Shazhou'yu geri alışı 848 (atlas/geleneksel) Song shi'de yok. Zhang soyu sonrası 曹 (Cao) ailesi 'zhu Liang dönemi'nde. t=1036 okunmadı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "guiyi-jun-dunhuang",
+   "not": ""
+  }
+ },
+ {
+  "id": "tang-jin-shatuo-prensligi",
+  "ad": "Jin (Li Keyong, Shatuo prensliği)",
+  "tur": "prenslik",
+  "bolge": "dogu-asya",
+  "f": "0902-01-01",
+  "t": "0923-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Taiyuan (Jinyang)",
+  "etkin_bolge": "Shanxi",
+  "sehirler": [
+   "Taiyuan (Jinyang)"
+  ],
+  "ozet": "Tang'ın Li Keyong'u Jin Prensi yapması; Sonraki Tang'ın kuruluşu.",
+  "oncul": [],
+  "ardil": [
+   "sonraki-tang-5hanedan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 4 «Zhuangzong shang» (昭宗…拜克用忠正平難功臣，封晉王) — zh.wikisource.org/wiki/新五代史/卷04 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Li Keyong: Jin Wang 902; 908 öldü; Li Cunxu Sonraki Tang'ı 923'te kurdu. | Li Keyong 晉王 unvanını Tang Zhaozong'dan aldı (Ouyang juan 4); yıl/gün bu sayfada okunmadı (mevcut f=902 taslak). t=923: Li Cunxu 同光元年 國號唐 (juan 5).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "qi-li-maozhen",
+  "ad": "Qi (Li Maozhen, 岐)",
+  "tur": "prenslik",
+  "bolge": "dogu-asya",
+  "f": "0901-01-01",
+  "t": "0924-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Fengxiang",
+  "etkin_bolge": "Shaanxi batısı",
+  "sehirler": [
+   "Fengxiang"
+  ],
+  "ozet": "Fengxiang jiedushi Li Maozhen'in Qi Prensi olarak sürdürdüğü devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 40 «Li Maozhen» (封岐王…梁太祖即位…茂貞不能稱帝，但稱岐王…同光二年，以疾卒) — zh.wikisource.org/wiki/新五代史/卷40 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sonraki Tang'a 924'te. | Li Maozhen 岐王 (Tang Zhaozong);梁 kurulunca imparator ilan etmedi, 岐王 olarak kaldı; 同光二年(924) öldü (Ouyang). f=901/902 ve t=924 sınırları bu sayfada yıl olarak okunmadı; 924'te oğlu Congyan Later Tang'a tabi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zhao-wang-rong",
+  "ad": "Zhao (Wang Rong, 趙)",
+  "tur": "prenslik",
+  "bolge": "dogu-asya",
+  "f": "0907-01-01",
+  "t": "0921-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zhenzhou",
+  "etkin_bolge": "Hebei",
+  "sehirler": [
+   "Zhenzhou"
+  ],
+  "ozet": "Wang Rong'un Zhao Prensliği; Zhang Wenli darbesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Xue Juzheng vd., Jiu Wudai shi (974), juan 54 «Wang Rong» (鎔復奉唐朝正朔，稱天祐七年…遣大將王德明率三十七都從莊宗征伐) — zh.wikisource.org/wiki/舊五代史/卷54 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Zayıf: Tang'a bağlı prenslik. | Wang Rong Zhenzhou/Zhao: 趙王; 天祐七年(910) Tang takvimine geri döndü, Li Cunxu ile ittifak; t=921 (Wang Deming isyanı) okunmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "yan-liu-shouguang",
+  "ad": "Yan (Liu Shouguang, 燕)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0911-08-01",
+  "t": "0913-01-01",
+  "kesinlik": {
+   "f": "ay",
+   "t": "yil"
+  },
+  "baskent": "Youzhou",
+  "etkin_bolge": "Hebei kuzeyi",
+  "sehirler": [
+   "Youzhou"
+  ],
+  "ozet": "Liu Shouguang'ın kendini imparator ilan etmesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 39 «Liu Shouguang» (守光遂以梁乾化元年八月，自號大燕皇帝，改元曰應天) — zh.wikisource.org/wiki/新五代史/卷39 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kısa; Sonraki Tang yıktı. | taslak değeri: f=0911-01-01 | f: 守光自號大燕皇帝 乾化元年八月 (911-08). t=913 (Zhou Dewei fethi) okunmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-liang-5hanedan",
+  "ad": "Sonraki Liang (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0907-06-01",
+  "t": "0923-10-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "ay"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Zhu Wen tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi (1053), juan 2 «Liang benji er» (開平元年夏四月壬戌，更名晃。甲子，皇帝即位) — zh.wikisource.org/wiki/新五代史/卷02 (okundu)",
+   "Ouyang Xiu, Xin Wudai shi, juan 3 «Liang benji san» (龍德三年…戊寅，皇帝崩。梁亡；四月莊宗立，十月梁始亡) — zh.wikisource.org/wiki/新五代史/卷03 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0907-01-01, t=0923-01-01 | f: 開平元年夏四月甲子皇帝即位 (907-06-01). t: 龍德三年戊寅 皇帝崩, 梁亡 (923, 10. ay; gün çevrilmedi).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-liang-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-tang-5hanedan",
+  "ad": "Sonraki Tang (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0923-05-13",
+  "t": "0937-01-11",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Li Cunxu tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 5 (同光元年夏四月己巳，皇帝即位，大赦，改元，國號唐) ve juan 7 (閏月甲子…辛巳，皇帝崩，帝自焚死) — zh.wikisource.org/wiki/新五代史/卷05, 卷07 (okundu)",
+   "Ouyang Xiu, Xin Wudai shi, juan 8 «Jin benji» (十一月丁酉，皇帝即位…國號晉) — zh.wikisource.org/wiki/新五代史/卷08 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0923-01-01, t=0936-01-01 | f: 同光元年夏四月己巳皇帝即位 (ganzhi→Jülyen 923-05-13). t: 清泰三年閏十一月辛巳 皇帝崩 (自焚) = 937-01-11 Jülyen; atlas künyesi t=936 yıl geleneği, ganzhi çevrimi yılı 937'ye taşır. Jin kuruluşu 十一月丁酉 = 936-11-28 (Khitan yardımıyla).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-tang-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-jin-5hanedan",
+  "ad": "Sonraki Jin (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0936-11-28",
+  "t": "0947-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Shi Jingtang tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 8 «Jin benji» (十一月丁酉，皇帝即位…國號晉) — zh.wikisource.org/wiki/新五代史/卷08 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: f=0936-01-01 | f: 天福元年十一月丁酉皇帝即位 國號晉 (936-11-28). t: Liao'nun Kaifeng'i alışı 開運四年 sonu/947 başı; metinde ay/gün okunmadı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-jin-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-han-5hanedan",
+  "ad": "Sonraki Han (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0947-03-10",
+  "t": "0951-01-02",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Liu Zhiyuan tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 10 «Han benji» (二月…辛未，皇帝即位，稱天福十二年…戊辰，改國號漢；乾祐三年…乙酉，皇帝崩…漢亡) — zh.wikisource.org/wiki/新五代史/卷10 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0947-01-01, t=0951-01-01 | f: 辛未，皇帝即位，稱天福十二年 (947-03-10); 戊辰 國號漢. t: 乾祐三年十一月 乙酉 皇帝崩…漢亡 (ganzhi→Jülyen 951-01-02). Kuzey Han (Taiyuan) devam eder: kuzey-han-10krallik.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-han-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-zhou-5hanedan",
+  "ad": "Sonraki Zhou (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0951-02-13",
+  "t": "0960-02-04",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Guo Wei tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 11 «Zhou benji» (廣順元年春正月丁卯，皇帝即位，大赦，改元，國號周) — zh.wikisource.org/wiki/新五代史/卷11 (okundu)",
+   "Ouyang Xiu, Xin Wudai shi, juan 12 (顯德六年六月癸巳，世宗崩。甲午，皇帝即位于柩前) — zh.wikisource.org/wiki/新五代史/卷12 (okundu)",
+   "Tuotuo vd., Song shi (1345), juan 1 «Taizu 1» (…即皇帝位…建隆元年春正月乙巳，大赦，改元，定有天下之號曰宋) ve juan 47 «Ruizong/Bing» (祥興二年二月戊寅朔…癸未…諸軍潰) — zh.wikisource.org/wiki/宋史/卷001, 卷047 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0951-01-01, t=0960-01-01 | f: 廣順元年春正月丁卯，皇帝即位，國號周 (951-02-13). t: Song kuruluş günü 建隆元年春正月乙巳 (960-02-04); Zhou Gongdi禪位.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-zhou-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "yang-wu",
+  "ad": "Wu (Yang Wu) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0902-01-01",
+  "t": "0937-10-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Yang Xingmi tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi (1053), juan 61 «Wu shijia» (封吳王; 天福二年(937) 冬十月 Yang Pu禪位 Xu Zhigao'ya) — zh.wikisource.org/wiki/新五代史/卷61 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: t=0937-01-01 | f: Yang Xingmi'ye Tang Zhaozong 吳王 unvanı verdi (天復二年=902 geleneksel; sayfada yıl okunmadı). t: 天福二年(937) 冬十月 Yang Pu禪位 Xu Zhigao (Qi→Tang). 927 Yang Pu imparator ilanı ayrı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "yang-wu",
+   "not": ""
+  }
+ },
+ {
+  "id": "wuyue",
+  "ad": "Wuyue Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0907-01-01",
+  "t": "0978-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Qian Liu tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 67 «Wuyue shijia» (梁太祖即位，封鏐吳越王；太平興國三年，詔俶來朝，俶舉族歸于京師，國除) — zh.wikisource.org/wiki/新五代史/卷67 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Atlas'taki künye ile uyumlu; bazı krallıklarda jiedushi dönemi öncesi f farkı olabilir (Ma Chu 907/927, Wuyue 893/907, Nan Ping 907/924). | f: 梁太祖即位(907) 封鏐吳越王; Qian Liu'nun gerçek hakimiyeti 乾寧二年(895) Zhenhai/Zhendong jiedushi. t: 太平興國三年(978) Qian Chu başkente gitti, 國除.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "wuyue",
+   "not": ""
+  }
+ },
+ {
+  "id": "min-krallik",
+  "ad": "Min Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0909-01-01",
+  "t": "0945-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Wang Shenzhi tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 68 «Min shijia» (梁太祖加拜審知中書令，封閩王；鏻即皇帝位…國號閩，改元龍啟；«晉開運三年丙午，南唐保大四年也。是歲，李景兵破建州，王氏滅。江南錄云：保大三年…謬也») — zh.wikisource.org/wiki/新五代史/卷68 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=909 (梁 封閩王) bu sayfada yıl olarak okunmadı. t: Ouyang 開運三年丙午=946 (保大四年) diyor, Jiangnan lu 945 (保大三年) diyor ve Ouyang'a göre 'yanlış'; atlas 945 (yaygın ZZTJ). Karar bekliyor: 945 mi 946 mı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "min-krallik",
+   "not": ""
+  }
+ },
+ {
+  "id": "chu-ma",
+  "ad": "Chu (Ma Chu) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0927-01-01",
+  "t": "0951-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Ma Yin tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 66 «Chu shijia» (天成二年…明宗封殷楚國王; «殷自唐乾寧三年入湖南，至周廣順元年，凡五十七年») — zh.wikisource.org/wiki/新五代史/卷66 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Atlas'taki künye ile uyumlu; bazı krallıklarda jiedushi dönemi öncesi f farkı olabilir (Ma Chu 907/927, Wuyue 893/907, Nan Ping 907/924). | f: 天成二年 Ming Zong Ma Yin'e 楚國王 verdi (927). t: 周廣順元年(951) Nan Tang Ma ailesini Jinling'e sürdü. Ma Yin 896'dan beri Hunan'da.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "chu-ma",
+   "not": ""
+  }
+ },
+ {
+  "id": "guney-han-10krallik",
+  "ad": "Güney Han (Nan Han) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0917-01-01",
+  "t": "0971-02-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Liu Yan tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 65 «Nan Han shijia» (貞明三年，龑即皇帝位，國號大越，改元曰乾亨；開寶四年二月 Chang teslim; «自唐天祐二年隱為廣州節度使，至皇朝開寶四年國滅，凡六十七年») — zh.wikisource.org/wiki/新五代史/卷65 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: t=0971-01-01 | f: 貞明三年 Liu Yan 即皇帝位, 國號大越 (917), sonra 漢 (918). t: 開寶四年二月 Liu Chang teslim. Ouyang: Liu Yin 905'ten beri Guangzhou jiedushi.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "guney-han-10krallik",
+   "not": ""
+  }
+ },
+ {
+  "id": "nan-ping-jingnan",
+  "ad": "Nan Ping (Jingnan) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0924-01-01",
+  "t": "0963-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Gao Jixing tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 69 «Nanping shijia» (同光三年，封南平王; Jiang Chong建隆四年 Murong Yanzhao'ya teslim) — zh.wikisource.org/wiki/新五代史/卷69 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas'taki künye ile uyumlu; bazı krallıklarda jiedushi dönemi öncesi f farkı olabilir (Ma Chu 907/927, Wuyue 893/907, Nan Ping 907/924). | f=924 okunmadı (Ouyang: 同光三年(925) 南平王 unvanı; Gao Jixing Jingnan jiedushi 907'den beri). t: 建隆四年(963) Gao Jichong Song'a teslim.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "nan-ping-jingnan",
+   "not": ""
+  }
+ },
+ {
+  "id": "onceki-shu",
+  "ad": "Önceki Shu (Qian Shu) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0907-01-01",
+  "t": "0925-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Wang Jian tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 63 «Qian Shu shijia» (秋九月己亥，建乃即皇帝位；«至後唐同光三年蜀滅») — zh.wikisource.org/wiki/新五代史/卷63 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "f: Wang Jian 秋九月己亥 即皇帝位 (907, Tang sonrası); t: 後唐同光三年(925) Shu fethedildi.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "onceki-shu",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-shu",
+  "ad": "Sonraki Shu (Hou Shu) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0934-01-01",
+  "t": "0965-01-01",
+  "kesinlik": {
+   "f": "ay",
+   "t": "ay"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Meng Zhixiang tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 64 «Hou Shu shijia» (明年閏正月，知祥乃即皇帝位，國號蜀；四月改元明德；乾德三年正月 Meng Chang teslim, “自興師至昶降，凡六十六日”) — zh.wikisource.org/wiki/新五代史/卷64 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "f: Ming Zong ölümünden (11. ay, 933) sonraki yıl 閏正月 (934) Meng Zhixiang 即皇帝位, 國號蜀. t: 乾德三年正月 (965) Meng Chang teslim.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-shu",
+   "not": ""
+  }
+ },
+ {
+  "id": "guney-tang",
+  "ad": "Güney Tang (Nan Tang) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0937-10-01",
+  "t": "0975-01-01",
+  "kesinlik": {
+   "f": "ay",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Li Bian tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 62 «Nan Tang shijia» (十月，溥遣…傳位於昪，國號齊，改元昇元…改國號曰唐；«昪自晉天福二年建國，至皇朝開寶八年國滅，凡三十九年») — zh.wikisource.org/wiki/新五代史/卷62 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0937-01-01 | f: 天福二年 冬十月 Yang Pu禪位 (937-10), 國號齊, sonra 唐. t: 開寶八年(975) 國滅; Ouyang toplam 39 yıl.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "guney-tang",
+   "not": ""
+  }
+ },
+ {
+  "id": "kuzey-han-10krallik",
+  "ad": "Kuzey Han (Bei Han) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0951-02-24",
+  "t": "0979-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Liu Min tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Ouyang Xiu, Xin Wudai shi, juan 70 «Donghan shijia» (乃以周廣順元年正月戊寅即皇帝位于太原; «自周廣順元年建號，至皇朝太平興國四年滅，凡二十八年») — zh.wikisource.org/wiki/新五代史/卷70 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0951-01-01 | f: 廣順元年正月戊寅 Liu Min Taiyuan'da即皇帝位 (951-02-24). t: 太平興國四年(979) Song fethi, Liu Jiyuan teslim.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kuzey-han-10krallik",
+   "not": ""
+  }
+ },
+ {
+  "id": "liao-hanedani",
+  "ad": "Liao Hanedanı (Kitan / Hıtay)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0916-03-17",
+  "t": "1125-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "Shangjing",
+  "etkin_bolge": "Mançurya, Moğolistan, Kuzey Çin",
+  "sehirler": [
+   "Shangjing"
+  ],
+  "ozet": "Abaoji'nin 916'da imparator ilanı; Jin'in 1125'te yıkışı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Tuotuo vd., Liao shi (1344), juan 1 «Taizu shang» (元年[907] 春正月庚寅…即皇帝位，上尊號曰天皇帝; 神冊元年[916] 春二月丙戌朔…丙申，群臣…上尊號) ve juan 4 «Taizong xia» (大同元年[947] 春正月丁亥朔，備法駕入汴…二月丁巳朔，建國號大遼) — zh.wikisource.org/wiki/遼史/卷1, 卷4 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "947'de 'Da Liao' adı; Abaoji 907 han. | taslak değeri: f=0916-01-01 | f: Abaoji 神冊元年 (916) 二月丙申 上尊號 (ganzhi→Jülyen 916-03-17). Önceki unvan: 元年[907] 春正月庚寅 即皇帝位, 天皇帝 (907-02-27, Khitan han seçimi) — dönem seçimi: devlet adı/imparatorluk 916; 947 二月丁巳朔 國號大遼 (947-02-24). t=1125 (Tianzuo'nun yakalanışı) bu oturumda okunmadı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "liao-hanedani",
+   "not": ""
+  }
+ },
+ {
+  "id": "dongdan",
+  "ad": "Dongdan (Doğu Dan) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0926-01-01",
+  "t": "0936-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Fuyu (Sanggyeong)",
+  "etkin_bolge": "Eski Balhae toprakları",
+  "sehirler": [
+   "Fuyu (Sanggyeong)"
+  ],
+  "ozet": "Liao'nun Balhae'yi aldıktan sonra kurduğu yarı bağımsız vasal krallık.",
+  "oncul": [
+   "balhae"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "liaoshi2"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Merkez 929'da Dongping'e taşındı. | f: Liao shi 2: 天顯元年 丙午 改渤海國為東丹, 忽汗城為天福, Taizu'nun oğlu Yelü Bei 人皇王 (926). t=936 okunmadı (Yelü Bei Liao'ya kaçtı 930; Dongdan'ın Liaoyang'a taşınması 929-936 geleneği).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dingan-guo",
+  "ad": "Dingan Devleti (Jeongan)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0938-01-01",
+  "t": "0991-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Fuyu?",
+  "etkin_bolge": "Eski Balhae toprağı",
+  "sehirler": [
+   "Fuyu?"
+  ],
+  "ozet": "Balhae kalıntılarının kurduğu devlet; Liao ve Jurchen baskısı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Tuotuo vd., Song shi (1345), juan 491 «Waiguo 7: Ding'an guo» (建國改元，自稱定安國。開寶三年，其國王烈萬華因女真遣使入貢…淳化二年，其王子太元因女真使上表，其後不復至) — zh.wikisource.org/wiki/宋史/卷491 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Çok zayıf; tarihler belirsiz. | taslak değeri: t=0986-01-01 | Song shi 491: kuruluş yılı verilmemiş (渤海 yıkılışı sonrası 建國改元). İlk tarihli kayıt 開寶三年 (970) Lie Wanhua; son tarihli kayıt 淳化二年 (991). Atlas f=938 okunmadı; t=991 son anış (devlet sonu değil).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "song",
+  "ad": "Song Hanedanı (Kuzey ve Güney Song)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0960-02-04",
+  "t": "1279-03-19",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Bianjing → Lin'an",
+  "etkin_bolge": "Çin",
+  "sehirler": [
+   "Bianjing",
+   "Lin'an"
+  ],
+  "ozet": "Zhao Kuangyin'in 960'taki kuruluşu; 1127'de Güney Song; 1279'da Yamen.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Tuotuo vd., Song shi (1345), juan 1 «Taizu 1» (…即皇帝位…建隆元年春正月乙巳，大赦，改元，定有天下之號曰宋) ve juan 47 «Ruizong/Bing» (祥興二年二月戊寅朔…癸未…諸軍潰) — zh.wikisource.org/wiki/宋史/卷001, 卷047 (okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Kuzey Song 960-1127, Güney Song 1127-1279 (aynı hanedan tek kayıt). | taslak değeri: f=0960-01-01 | f: 建隆元年春正月乙巳 (960-02-04). t: 祥興二年(1279) 二月戊寅朔，癸未(=6. gün) Yashan'da donanma bozuldu, 1279-03-19 (Jülyen→atlas uygulaması) — Song shi juan 47 okundu. Kuzey Song/Güney Song ayrımı (1127) ayrı kayıt değil.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "song",
+   "not": ""
+  }
+ }
+]

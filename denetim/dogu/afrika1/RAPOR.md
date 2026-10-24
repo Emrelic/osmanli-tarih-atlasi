@@ -1,0 +1,44 @@
+# AFRIKA-1 RAPORU (afrika1 — Kuzey Afrika / Sahra / Batı Sudan, 500-1281 penceresi)
+
+Ağaç: C:\atlas\.claude\worktrees\dogu (worktree-dogu). Git'e dokunulmadı; yalnız `denetim/dogu/afrika1/` yazıldı.
+Yöntem: TDV İslâm Ansiklopedisi maddeleri `curl` ile çekilip gövde metinde alıntı birebir sınandı (berberiler, ifrikiye, kayrevan, kafsa, sefakus, mehdiye, ziriler, fatimiler, aglebiler, murabitlar, tilimsan, ifren-beni-ifren, sanhace-beni-sanhace, rustemiler, fizan, kanim, bornu, gane, tekrur, gao, mali, trablusgarp, tunus, emeviler, abbasiler). Hicrî tarihler `hicri.js` (sivil tablo, Jülyen; hicrî yıl ∩ kaynağın miladî yılı → kesişimin ilk günü, ±1-2 gün). Koordinat: Pleiades CSV + GeoNames cities1000 + Wikidata P625 + OSM Nominatim. Vikipedi yalnız atıf tespiti için okundu, hiçbir kaydın tek dayanağı değildir (ama Aurès/Altava/Nekor kayıtlarında ikincil atıf TEK dayanaktır, aşağıda beyanlı).
+Yeniden üretim: `node denetim/dogu/afrika1/uret.js` (veri_a.js + veri_b.js → 5 çıktı). Sınav: `node denetim/dogu/dogrula.js afrika1` → çıkış 0 (ihlal 0, uyarı 0).
+
+## ① Ölçülen
+- Girdi 22 polity. Künye YAZILAN: 7 (auris-masties, altava-mauro-roma, wagadu-gane-erken, ibadi-imamlik-trablus, kevkev-erken, tekrur-erken, zawila-hattabiler; her birinde kuruluş+son iskeleti = 14 künye-içi madde). Künye YAZILMAYAN KUNYE_YOK: 4 (zagava-krallik, ife, kangaba, sala-emirligi-benifren; gerekçe ②). KUNYE_MS1_DALINDA 9: künye yazılmadı, yalnız kronoloji+zincir.
+- Kronoloji maddesi: toplam 96 = 26 anlatı (`kronoloji_cok_dogu_afrika1.js`) + 70 sınır/devir (`kronoloji_sinir_dogu_afrika1.js`). Hassasiyet: anlatı yıl 24 · ay 1 · onyıl 1; sınır yıl 62 · ay 5 · gün 2 · yüzyıl 1 (ham hicrî günler yıl hassasiyetiyle). Taraf başına madde (ortak sayılı): ziriler 15, muvahhidler 15, fatimi 14, emevi 12, abbasi 9, ifraniler-tilimsan 8, norman-ifrikiye 8, bizans-afrika-eksarhligi 7, murabitlar 7, aglebi 7, wagadu-gane-erken 6, sfaks-hammu-emirligi 6, ganiyeler 5, ibadi-imamlik-trablus 4, kabis-emirligi 3, kafsa-benirend-emirligi 3, sahra-sanhaca 3, sfaks-firyani-emirligi 2, kevkev-erken 2, zawila-hattabiler 2, auris-masties 1, nekor-emirligi 1, tekrur-erken 0 (+tekrur-kralligi 1), altava-mauro-roma 0 (yalnız künye iskeleti 2).
+- Yerleşim: YENİ 4 (Kartaca (Carthage), Altava (Ouled Mimoun), Kumbî Sâlih (Gāne), Evdeguşt (Awdaghust)) = 11 `s:` dilimi, 1 `__BOSLUK__`; 4/4 çift tanıklı koordinat (Pleiades+GeoNames 1.2 km ve 0.25 km; Pleiades+OSM 0.02 km; Wikidata+OSM 0.05 km). Yeni kayıtların hepsi `kuyruk_gerekli` taşır (0745→2000, 0578→2000, 1240→2000, 1087→2000). YAMA 8 yerleşim (Sfaks, Mehdiye, Kafsa, Gabes, Trablus, Tilimsan, Zevîle (Zawila), Gao) = 71 dilim, 8 `__BOSLUK__`; her yamanın son `t`si mevcut zincirin ilk `f`sine EŞİT (ölçüldü). Toplam 82 dilim, 9 boşluk dilimi. Mükerrer taraması (`yer_ara.py yakin` 3 km + ad): yeni 4 noktada 0 çakışma.
+- Devir eşleşmesi: 70 devir (yeni+yama) için ±30 gün sınır maddesi 70/70 (eksik 0).
+
+## ② Bulamadığım / doğrulayamadığım
+- **auris-masties:** f=0484 yalnız Vikipedi dipnotları (Merrills-Miles 2009, Modéran 2003) üzerinden atıf; Procopius metni açılamadı (penelope 404). Merkez yerleşim kaynaklanamadı (Arris/Khenchela/Baghaï arasında) → YERLEŞİM YOK, bölge boyanmaz. TDV iç çelişkisi: Kâhine'nin ölümü berberiler 702, ifrikiye/ifren 82/701; 702 alındı (girdi 703 kullanılmadı).
+- **altava-mauro-roma:** 508/578 yalnız Vikipedi mirror atfı; yazıt neşri/Courtois açılmadı. Altava 578 sonrası sahibi bulunamadı (kuyruk).
+- **nekor-emirligi:** TDV yalnız «Rif'te Nakūr Emirliği» der (arama «nekkur» 0, «nekur» yok). Tek madde (859 Viking) ikincil özetten (HeritageDaily 2022) atıf; Bekrî açılmadı. Yerleşim için çift tanık yok.
+- **zagava-krallik:** TDV kanim yalnız son hükümdarı (Abdülcelîl 1071-75) ve Hummay'ı (1075-86) yıllandırır; kuruluş yılı/başkent yeri (Manan) bulunamadı → künye yok; 1075 devir maddesi kanem-bornu'ya bağlandı.
+- **ife:** TDV'de madde yok; f=1000 taslak, t=null; İfe (Ile-Ife) atlasta k=3 ve zincirsiz — künye yazılamadı (t bulunamadı), İfe boş kalıyor.
+- **kangaba:** TDV mali yalnız Kirina 1235'i verir; Kangaba f=1050 hiçbir kaynakta bulunamadı; atlasta Kangaba kur=1650.
+- **sala-emirligi-benifren:** f yok. TDV ifren: Hammâme'nin Şâle emirliği 991 sonrası (yıl verilmez); yalnız 1066 sonu (458/1066) maddelendi.
+- **tekrur-erken:** Tekrûr şehrinin konumu için çift tanık bulunamadı → yerleşim YOK. TDV kuruluşu yalnız «IX. yüzyıl».
+- **Sanhâce / Kafsa / Kâbis yıl boşlukları:** Evdeguşt'un Gāne'ye geçtiği yıl (TDV «X. yüzyılın sonları»; zincirde 1000-01-01 yüzyıl üst sınırı); Kafsa Benî Rend başlangıcı 1053 (TDV yıl vermez; MS1 künyesi/ikincil); Kâbis emirliği 1062 ve 1148 uçları (TDV'de Kâbis şehir maddesi yok; yalnız tunus/sefakus bağlam cümleleri) — hepsi BEYANLI.
+- **Gabes/Kafsa/Trablus erken dilimler:** Kâbis özelinde 500-698 arası, Trablus 972-1146 yerel hâkimiyeti (Hazrûn/Zuğbe) ve Tilimsan 500-765 / 972-1080 kaynakta devlet kimliğiyle verilmediği için `__BOSLUK__` (8 yama boşluğu) ya da ABİ MERKEZ (Kartaca/Kayrevan) beyanlı yaklaşıklık yazıldı.
+- Okunmayanlar (atıf): EBSCO Exarchate of Africa, King/Haskins 2017, Cressier/Brill 2017, Baadj 2013, Bekrî, Procopius, Modéran, Merrills-Miles, Courtois.
+
+## ③ Kararlar / öneriler
+**Künye düzeltme / birleştirme önerileri (dosyaya yazılmadı):**
+- `gane` (1000-1076) ⊂ `wagadu-gane-erken` (0701-1076): aynı polity → `gane` f→0701 GENİŞLET, wagadu-gane-erken künyesi iptal (zincirler wagadu kimliğiyle yazıldı; iptal edilirse `gane`ye çevrilir).
+- `kevkev` f=1000-01-01 → 1009-09-xx (TDV gao 400/1009-10: Gao'nun merkez oluşu); `kevkev-erken` t = AH 400 ∩ 1009 ilk günü. `tekrur-kralligi` f→0801 (tekrur-erken ile aynı polity).
+- `norman-ifrikiye` f=1148 → 1146 (TDV trablusgarp 541/1146 Trablus'u aldı; Trablus zincirinde 1146-1158 bu kimlikle yazıldı); t=1160-01-01 ay: Mehdiye 555/1160.
+- `hafsi` f=1229-01-01 → 1228 (TDV tunus 625/1228; Sfaks/Kafsa/Gabes/Trablus zincirlerinde 1228 kullanıldı, mevcut zincir 1281'de başlar).
+- `murabitlar` f=1056 ↔ TDV gane Evdeguşt 1054 ve Gāne 1076: zincirlerde murabitlar 1054/1076'dan kullanıldı (künye ömrü aşımı) → künyeyi 1054'e çekmek ya da bu iki dilimi `sahra-sanhaca`/`gane` bitişine bağlamak gerekir (Emre kararı).
+- `zawila-hattabiler` t: girdi 1172 yerine 1190 (TDV fizan; aynı madde «XII. yüzyıl başları» da der).
+- `trablus-benihazrun` (1001-1146, Vikipedi): TDV Hazrûn'u «vali», sonraki hâkimi Benî Zuğbe yapar, tarih vermez → künye ve zincirde kullanılmadı; `ziriler` Trablus'u 978'de hariç tutar (TDV ziriler) ↔ TDV trablusgarp «Fâtımîler'in ve Zîrîler'in hâkimiyeti»: çelişki Trablus zincirinde beyanlı.
+- `ziriler` f=972-10-02: TDV Mehdiye'ye göre Zîrî bağımsızlığı 1048; TDV kayrevan/ziriler/sefakus/kafsa 361/972. Mehdiye zincirinde 1048, diğerlerinde 972-01-01 (yıl hassasiyeti) kullanıldı.
+- **Kayrevan (mevcut) düzeltme önerisi:** 0745-01-01…0761-01-01 BEYANLI BOŞLUK içine 0758-05-14 `ibadi-imamlik-trablus` ve 0761-08-01 `abbasi` (TDV kayrevan: 141/758 Ebü'l-Hattâb, Ağustos 761 Muhammed b. Eş'as). Yama YAZILMADI (mevcut kayıtla çakışır); anlatı maddeleri `yer:"Kayrevan"` ile yazıldı (tip isgal/savas).
+- Künye/f-t dışı: `idrisi`, `garamant`, `ganiyeler` künyeleri chain'de kullanıldı, TDV ile çelişki bulunmadı (garamant t=0666-03-13 ↔ TDV fizan 46/666-67 uyumlu).
+
+**YAMA GEREKLİ (hazır: `yama_afrika1.js`, `window.YAMA_DOGU_AFRIKA1`):** Sfaks (0849-07-26→1281, 11 dilim, kur=0849-07-26), Mehdiye (0921-02-20→1229, 6 dilim), Kafsa (0500→1281, 12), Gabes (0500→1281, 13), Trablus (0500→1281, 14), Tilimsan (0500→1080, 7), Zevîle (Zawila) (0500→1281, 6), Gao (0801→1324, 2). `devam_gerekli` YOK (hepsi mevcut zincir başına bitişik).
+**Yeni yerleşim kuyruğu (kuyruk işçisi):** Kartaca (0745→2000), Altava (0578→2000), Kumbî Sâlih (1240→2000), Evdeguşt (1087-04-08→2000).
+
+**Boya ihtiyacı (`arac/renkler.py` BOYALAR'da olmayan, zincirlerde kullanılan 19 kimlik):** auris-masties, altava-mauro-roma, bizans-afrika-eksarhligi, wagadu-gane-erken, nekor-emirligi, ibadi-imamlik-trablus, ifraniler-tilimsan, sahra-sanhaca, kevkev-erken, tekrur-erken, zawila-hattabiler, kafsa-benirend-emirligi, kabis-emirligi, sfaks-hammu-emirligi, norman-ifrikiye, sfaks-firyani-emirligi + devletler.js'te olup BOYALAR'da bulunmayan ganiyeler, idrisi, garamant. (Zincirde kullanılmayanlar nekor-emirligi, tekrur-erken, auris-masties, zawila…: auris/nekor/tekrur için yerleşim yok, boya yine gerekir.) Kontrol: `_boya.js`.
+**Yeni tür/bölge değeri:** tur `imamlik`, `eksarhlik`, `konfederasyon` (girdi) ve ms1 `emirlik`; bölge değerleri hep mevcut sözlükten (`kuzey-afrika`, `bati-afrika`). Zağava girdisi `orta-afrika` bölgesi — künye yazılmadığı için kullanılmadı.
+**Çıktı eki:** `hicri.js` (çevirici), `veri_a.js`/`veri_b.js`/`uret.js` (üretim), `ara.py` (Pleiades+GeoNames arama), `tdv.sh`/`govde.sh` (TDV çekme), `tdv/*.govde` (okunan madde gövdeleri, alıntı denetimi için).

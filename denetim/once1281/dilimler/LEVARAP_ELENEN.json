@@ -1,0 +1,38 @@
+[
+ {
+  "id": "dekapolis",
+  "ad": "Dekapolis (On Sehir Birligi)",
+  "ad_yerel": null,
+  "tur": "konfederasyon",
+  "bolge": "suriye-filistin",
+  "f": "-0062-01-01",
+  "t": "0200-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (cok merkezli)",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Gerasa",
+   "Filadelfiya (Amman)",
+   "Gadara",
+   "Skythopolis"
+  ],
+  "ozet": "Pompeius'tan sonra Suriye ve Urdun'un helenistik on sehrinin gevsek ittifaki; Roma eyalet duzenlemesine kadar ortak sikke/yönetim.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasal birim mi cografi ad mi tartismali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "gerekce": "Vikipedi (aracı) 'Decapolis' 21.10.2026 okundu: 'probably never an official political or economic union'; her şehir ayrı şehir devleti, Roma Arabia/Suriye/Yahudiye eyaletlerine ayrıldı; Fergus Millar 1995 The Roman Near East 31 BC-AD 337 (dipnot, açılmadı). Polity değil, coğrafî-kültürel ad."
+ }
+]

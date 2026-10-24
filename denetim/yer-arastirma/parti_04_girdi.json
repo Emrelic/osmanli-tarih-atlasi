@@ -1,0 +1,395 @@
+{
+ "sinif": "yok",
+ "adlar": [
+  {
+   "ad": "Pınarbaşı Höyüğü",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -9599,
+    -7999
+   ],
+   "ornek_maddeler": [
+    "-7999-01-01 Pınarbaşı (Konya havzası, Karaman): iskân sona erer",
+    "-9599-01-01 Pınarbaşı (Konya havzası, Karaman): Neolitik iskân başlar (ilk kanıtlı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Karnataka",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -1399,
+    -1199
+   ],
+   "ornek_maddeler": [
+    "-1199-01-01 Sanganakallu-Kupgal: terk edilir (yaklaşık)",
+    "-1399-01-01 Sanganakallu-Kupgal: tepe köyü genişlemesi (Geç Neolitik–Megalitik geç"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Khok Phanom Di",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -1999,
+    -1499
+   ],
+   "ornek_maddeler": [
+    "-1499-01-01 Khok Phanom Di: iskân sona erer",
+    "-1999-01-01 Khok Phanom Di: Neolitik iskân başlar"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Tappe Yahya",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -5499,
+    -199
+   ],
+   "ornek_maddeler": [
+    "-0199-01-01 Tepe Yahya: Dönem I (son iskân evresi) sona erer",
+    "-5499-01-01 Tepe Yahya: Dönem VII başlar (Iranica; geçici tablo)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kerman",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -5499,
+    -199
+   ],
+   "ornek_maddeler": [
+    "-0199-01-01 Tepe Yahya: Dönem I (son iskân evresi) sona erer",
+    "-5499-01-01 Tepe Yahya: Dönem VII başlar (Iranica; geçici tablo)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Hakhamanishiya",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -558,
+    -329
+   ],
+   "ornek_maddeler": [
+    "-0329-01-01 Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Ahameniş Devlet",
+    "-0558-01-01 Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Kyros II Pers t"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Achaemenid",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -558,
+    -329
+   ],
+   "ornek_maddeler": [
+    "-0329-01-01 Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Ahameniş Devlet",
+    "-0558-01-01 Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Kyros II Pers t"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Elam",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2399,
+    -538
+   ],
+   "ornek_maddeler": [
+    "-0538-01-01 Elam (Eski Elam - Yeni Elam): Yeni Elam dönemi sona erer",
+    "-2399-01-01 Elam (Eski Elam - Yeni Elam): Awan hanedanı (ilk Elam hanedanı) başlar"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Haltamti",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2399,
+    -538
+   ],
+   "ornek_maddeler": [
+    "-0538-01-01 Elam (Eski Elam - Yeni Elam): Yeni Elam dönemi sona erer",
+    "-2399-01-01 Elam (Eski Elam - Yeni Elam): Awan hanedanı (ilk Elam hanedanı) başlar"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Dzheitun",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -6098,
+    -5926
+   ],
+   "ornek_maddeler": [
+    "-5926-01-01 Jeitun: Jeitun yerleşimi sona erer (Bayes)",
+    "-6098-01-01 Jeitun: Jeitun yerleşimi başlar (Bayes)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Ahal",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -6098,
+    -5926
+   ],
+   "ornek_maddeler": [
+    "-5926-01-01 Jeitun: Jeitun yerleşimi sona erer (Bayes)",
+    "-6098-01-01 Jeitun: Jeitun yerleşimi başlar (Bayes)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Antas",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2199,
+    -1549
+   ],
+   "ornek_maddeler": [
+    "-1549-01-01 El Argar (Argar kültürü, Antas): kültür sona erer (yaklaşık)",
+    "-2199-01-01 El Argar (Argar kültürü, Antas): kültür başlar (yaklaşık)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Baranya",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -5331,
+    -5186
+   ],
+   "ornek_maddeler": [
+    "-5186-01-01 Szederkény-Kukorica-dűlő (Vinča/LBK sınır yerleşimi): Neolitik yerleşi",
+    "-5331-01-01 Szederkény-Kukorica-dűlő (Vinča/LBK sınır yerleşimi): Neolitik yerleşi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Tell Mureybet",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -10149,
+    -7949
+   ],
+   "ornek_maddeler": [
+    "-10149-01-01 Mureybet: başlar",
+    "-7949-01-01 Mureybet: sona erer"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Mureybit",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -10149,
+    -7949
+   ],
+   "ornek_maddeler": [
+    "-10149-01-01 Mureybet: başlar",
+    "-7949-01-01 Mureybet: sona erer"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Tell Abu Hureyra",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -11219,
+    -7099
+   ],
+   "ornek_maddeler": [
+    "-11219-01-01 Ebu Hureyre (Abu Hureyra): başlar",
+    "-7099-01-01 Ebu Hureyre (Abu Hureyra): sona erer"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "‘Ayn Ghazāl",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -8399,
+    -6699
+   ],
+   "ornek_maddeler": [
+    "-6699-01-01 Ayn Gazal (‘Ain Ghazal): sona erer",
+    "-8399-01-01 Ayn Gazal (‘Ain Ghazal): başlar"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Qalʿat Sherqat",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -1971,
+    -613
+   ],
+   "ornek_maddeler": [
+    "-0613-01-01 Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur şehr",
+    "-1971-01-01 Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur: Esk"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Urim",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2109,
+    -2002
+   ],
+   "ornek_maddeler": [
+    "-2002-01-01 Ur III Hanedanı (Ur): Ur III Hanedanı sona erer (Ibbi-Suen'in son yılı",
+    "-2109-01-01 Ur III Hanedanı (Ur): Ur III Hanedanı: Ur-Nammu'nun 1. yılı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Akkade",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2323,
+    -2141
+   ],
+   "ornek_maddeler": [
+    "-2141-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: son kral Şudurul'un s",
+    "-2323-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı b"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Agade",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2323,
+    -2141
+   ],
+   "ornek_maddeler": [
+    "-2141-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: son kral Şudurul'un s",
+    "-2323-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı b"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Sargonic period",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2323,
+    -2141
+   ],
+   "ornek_maddeler": [
+    "-2141-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: son kral Şudurul'un s",
+    "-2323-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı b"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Unug",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -3349,
+    -3199
+   ],
+   "ornek_maddeler": [
+    "-3199-01-01 Uruk IV–III (yazının ortaya çıkışı): Uruk III evresi sona erer",
+    "-3349-01-01 Uruk IV–III (yazının ortaya çıkışı): Uruk IVa evresi: yazının ortaya ç"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "ʿUbaid",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -6499,
+    -3799
+   ],
+   "ornek_maddeler": [
+    "-3799-01-01 Ubaid kültürü (güney Mezopotamya): Ubaid dönemi sona erer (Carter & Ph",
+    "-6499-01-01 Ubaid kültürü (güney Mezopotamya): Ubaid kültürü: güney Mezopotamya'da"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kerma culture",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2499,
+    -1449
+   ],
+   "ornek_maddeler": [
+    "-1449-01-01 Kerma (Kush) krallığı/kültürü: sona erer",
+    "-2499-01-01 Kerma (Kush) krallığı/kültürü: başlar"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kingdom of Kush",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2499,
+    -1449
+   ],
+   "ornek_maddeler": [
+    "-1449-01-01 Kerma (Kush) krallığı/kültürü: sona erer",
+    "-2499-01-01 Kerma (Kush) krallığı/kültürü: başlar"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Middle Kingdom of Egypt",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2050,
+    -1811
+   ],
+   "ornek_maddeler": [
+    "-1811-01-01 Orta Krallık: sona erer",
+    "-2050-01-01 Orta Krallık: başlar"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "First Intermediate Period",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2242,
+    -2050
+   ],
+   "ornek_maddeler": [
+    "-2050-01-01 Birinci Ara Dönem: sona erer",
+    "-2242-01-01 Birinci Ara Dönem: başlar"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Old Kingdom of Egypt",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2662,
+    -2242
+   ],
+   "ornek_maddeler": [
+    "-2242-01-01 Eski Krallık (Piramit Çağı): sona erer",
+    "-2662-01-01 Eski Krallık (Piramit Çağı): başlar"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Naqada culture",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -3755,
+    -3125
+   ],
+   "ornek_maddeler": [
+    "-3125-01-01 Nakade (Naqada) kültürü: sona erer",
+    "-3755-01-01 Nakade (Naqada) kültürü: başlar"
+   ],
+   "kronolojide_yer_kon": null
+  }
+ ]
+}

@@ -1,0 +1,667 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Sultanhanı",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1256,
+    1256
+   ],
+   "ornek_maddeler": [
+    "1256-01-01 II. Keykâvus Aksaray yakınında Sultanhanı'nda Baycu'ya yenildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.2471,
+      "lon": 33.54961,
+      "kaynak": "GeoNames 300197 Sultanhanı"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Monemvasia",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1263,
+    1263
+   ],
+   "ornek_maddeler": [
+    "1263-01-01 VIII. Mihail Mora'ya 6000 Selçuklu paralı askeri getirdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.6884093633,
+      "lon": 23.0523310344,
+      "kaynak": "Pleiades 109466300"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Alba",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1005,
+    1005
+   ],
+   "ornek_maddeler": [
+    "1005-01-01 II. Malcolm, III. Kenneth'i öldürerek İskoçya tahtına çıkar"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.0799043722,
+      "lon": 13.4111791182,
+      "kaynak": "Pleiades 413005"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Strumitsa",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1014,
+    1014
+   ],
+   "ornek_maddeler": [
+    "1014-01-01 Belasitsa (Kleidion) yenilgisi: Samuil'in ordusu Bizans'a yok edildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 41.43763,
+      "lon": 22.64288,
+      "kaynak": "GeoNames 785380 Strumica"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Clontarf",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1014,
+    1014
+   ],
+   "ornek_maddeler": [
+    "1014-04-23 Clontarf Muharebesi: Brian Bórama Dublin Norsları ve Leinster'a karşı "
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Clontarf -33.80554,151.25367; Clontarf -27.25341,153.07835"
+    }
+   ]
+  },
+  {
+   "ad": "Essex",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1016,
+    1016
+   ],
+   "ornek_maddeler": [
+    "1016-10-18 Ashingdon Muharebesi: Knut, II. Edmund'u yener, krallık bölünür"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Essex 42.17509,-82.82483; Essex 39.30927,-76.47496; Essex 42.63204,-70.78283"
+    }
+   ]
+  },
+  {
+   "ad": "Pereyaslav",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1019,
+    1019
+   ],
+   "ornek_maddeler": [
+    "1019-01-01 Yaroslav, Alta ırmağında Svyatopolk'u yenip Kiev tahtını geri aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 50.06739,
+      "lon": 31.44969,
+      "kaynak": "GeoNames 697637 Pereiaslav"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Kamba",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1024,
+    1024
+   ],
+   "ornek_maddeler": [
+    "1024-09-04 Kamba'da II. Konrad kral seçildi — Salier hanedanı başladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 11.85172,
+      "lon": 3.65478,
+      "kaynak": "GeoNames 2335333 Kamba"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Ren",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1024,
+    1024
+   ],
+   "ornek_maddeler": [
+    "1024-09-04 Kamba'da II. Konrad kral seçildi — Salier hanedanı başladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Rennes 48.11109,-1.67431; Orenburg 51.76712,55.09883"
+    }
+   ]
+  },
+  {
+   "ad": "Biograd",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1058,
+    1058
+   ],
+   "ornek_maddeler": [
+    "1058-01-01 IV. Petar Krešimir Hırvatistan kralı oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 43.94333,
+      "lon": 15.45194,
+      "kaynak": "GeoNames 3204121 Biograd na Moru"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Vitry-aux-Loges",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1060,
+    1060
+   ],
+   "ornek_maddeler": [
+    "1060-08-04 I. Henri ölür; I. Philippe Fransa kralı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 47.93333,
+      "lon": 2.26667,
+      "kaynak": "GeoNames 2967864 Vitry-aux-Loges"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Hastings",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1066,
+    1066
+   ],
+   "ornek_maddeler": [
+    "1066-10-14 Hastings Muharebesi: Normandiya dükü Guillaume II. Harold'u yener, Nor"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 13 aday: Hastings -38.3,145.18333; Hastings 13.07513,-59.59688; Hastings 50.85568,0.58009; Hastings -39.6381,176.84918"
+    }
+   ]
+  },
+  {
+   "ad": "Misilmeri",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1068,
+    1068
+   ],
+   "ornek_maddeler": [
+    "1068-01-01 Misilmeri Savaşı: Normanlar Palermo yakınında zafer kazanır"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.03183,
+      "lon": 13.44795,
+      "kaynak": "GeoNames 2524126 Misilmeri"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Paun",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1072,
+    1072
+   ],
+   "ornek_maddeler": [
+    "1072-01-01 Makedonya ayaklanması: Bodin 'Bulgar çarı Petar' ilan edildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 16.61753,
+      "lon": 97.45851,
+      "kaynak": "GeoNames 1301005 Paung"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Canossa",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1077,
+    1077
+   ],
+   "ornek_maddeler": [
+    "1077-01-28 Canossa: IV. Heinrich kilise afarozundan kurtuldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 53.634,
+      "lon": -113.52036,
+      "kaynak": "GeoNames 7626868 Canossa"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Dıraç",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1081,
+    1081
+   ],
+   "ornek_maddeler": [
+    "1081-01-01 Robert Guiscard Bizans'a karşı Arnavutluk kıyısına çıkar"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 45.6043,
+      "lon": 0.24755,
+      "kaynak": "GeoNames 3021330 Dirac"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Duklja",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1082,
+    1082
+   ],
+   "ornek_maddeler": [
+    "1082-01-01 Konstantin Bodin Duklja (Zeta) tahtına çıktı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 49.55554,
+      "lon": 21.68317,
+      "kaynak": "GeoNames 772857 Dukla"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Algeciras",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1086,
+    1086
+   ],
+   "ornek_maddeler": [
+    "1086-06-30 Yûsuf b. Tâşfîn Murâbıt ordusuyla Endülüs'e geçti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Algeciras 2.52385,-75.31733; Algeciras 36.13326,-5.45051; Algeciras 11.4154,120.8168"
+    }
+   ]
+  },
+  {
+   "ad": "Konghelle",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1101,
+    1101
+   ],
+   "ornek_maddeler": [
+    "1101-01-01 Konghelle'de üç İskandinav kralı sınırları belirledi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 57.87096,
+      "lon": 11.98054,
+      "kaynak": "GeoNames 2698739 Kungälv"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Kungälv",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1101,
+    1101
+   ],
+   "ornek_maddeler": [
+    "1101-01-01 Konghelle'de üç İskandinav kralı sınırları belirledi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 57.87096,
+      "lon": 11.98054,
+      "kaynak": "GeoNames 2698739 Kungälv"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Biograd na Moru",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1102,
+    1102
+   ],
+   "ornek_maddeler": [
+    "1102-01-01 Kálmán Biograd'da Hırvatistan ve Dalmaçya kralı olarak taç giydi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 43.94333,
+      "lon": 15.45194,
+      "kaynak": "GeoNames 3204121 Biograd na Moru"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Worms",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1122,
+    1122
+   ],
+   "ornek_maddeler": [
+    "1122-09-23 Worms Konkordatı ile yatırım çatışması sona erdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 49.63278,
+      "lon": 8.35916,
+      "kaynak": "GeoNames 2806142 Worms"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Jaca",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1134,
+    1134
+   ],
+   "ornek_maddeler": [
+    "1134-01-01 I. Alfonso'nun ölümü: Navarra Aragon'dan ayrıldı, II. Ramiro Aragon kr"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.56898,
+      "lon": -0.54987,
+      "kaynak": "GeoNames 3120211 Jaca"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Galluccio",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1139,
+    1139
+   ],
+   "ornek_maddeler": [
+    "1139-01-01 Galluccio: II. Roger papa ordusunu yener, krallığı tanınır"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 41.35232,
+      "lon": 13.95372,
+      "kaynak": "GeoNames 3176353 Galluccio"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Ourique",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1139,
+    1139
+   ],
+   "ornek_maddeler": [
+    "1139-01-01 Ourique: Afonso Henriques Murâbıtları yendi ve kral ilan edildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 37.6539,
+      "lon": -8.22569,
+      "kaynak": "GeoNames 2265386 Ourique"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Leinster",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1166,
+    1166
+   ],
+   "ornek_maddeler": [
+    "1166-01-01 Leinster kralı Diarmait Mac Murchada sürülür; Ruaidrí Ua Conchobair yü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -27.92028,
+      "lon": 120.6967,
+      "kaynak": "GeoNames 8310729 Leinster"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Alnwick",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1174,
+    1174
+   ],
+   "ornek_maddeler": [
+    "1174-01-01 Arslan William Alnwick'te esir düşer; Falaise Antlaşması'yla İngiliz s"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Alnwick 47.21568,-65.18062; Alnwick 55.41318,-1.70563"
+    }
+   ]
+  },
+  {
+   "ad": "Northumberland",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1174,
+    1174
+   ],
+   "ornek_maddeler": [
+    "1174-01-01 Arslan William Alnwick'te esir düşer; Falaise Antlaşması'yla İngiliz s"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Northumberland 44.56339,-71.5587; Northumberland 43.1273,-73.58817; Northumberland 40.89175,-76.79747"
+    }
+   ]
+  },
+  {
+   "ad": "Falaise",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1174,
+    1174
+   ],
+   "ornek_maddeler": [
+    "1174-01-01 Arslan William Alnwick'te esir düşer; Falaise Antlaşması'yla İngiliz s"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 48.89217,
+      "lon": -0.19527,
+      "kaynak": "GeoNames 3019113 Falaise"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Bogolyubovo",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1174,
+    1174
+   ],
+   "ornek_maddeler": [
+    "1174-04-29 Andrey Bogolyubski boyarlarca öldürüldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 56.19052,
+      "lon": 40.52313,
+      "kaynak": "GeoNames 575609 Bogolyubovo"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  }
+ ]
+}

@@ -226,7 +226,7 @@ window.KRONOLOJI_CIN = [
   d:"On beş yıllık inşaatın ardından Yasak Şehir tamamlandı ve Yongle başkenti resmen Nanjing'den Pekin'e taşıdı. Kompleks, beş asır boyunca Ming ve Qing imparatorlarının ikametgâhı ve Çin siyasî gücünün simgesi olacaktı.",
   kaynak:"cin--ulke" },
 
-{ taraflar:["ming-hanedani"], t:"1424-08-12", b:"Yongle, Moğol seferinde döneşte öldü", tur:"hukumdar",
+{ odak_yer:["Pekin"], taraflar:["ming-hanedani"], t:"1424-08-12", b:"Yongle, Moğol seferinde döneşte öldü", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"Yongle, beşinci Moğol seferinden dönerken yolda öldü. Yirmi iki yıllık saltanatı, Zheng He seferleri ve Yasak Şehir'le Ming'in en görkemli dönemi sayılır.",

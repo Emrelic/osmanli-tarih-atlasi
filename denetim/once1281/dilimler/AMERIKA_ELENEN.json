@@ -1,0 +1,513 @@
+[
+ {
+  "id": "poverty-point",
+  "ad": "Poverty Point Kültürü (şeflik/tartışmalı)",
+  "tur": "seflik",
+  "bolge": "kuzey-amerika",
+  "f": "-1649-01-01",
+  "t": "-1149-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Poverty Point (Louisiana)",
+  "etkin_bolge": "Aşağı Mississippi vadisi, uzun mesafe takas ağı",
+  "sehirler": [
+   "Poverty Point"
+  ],
+  "ozet": "Geç Arkaik avcı-toplayıcı kompleksi, devasa toprak işleri; siyasî birim değil, ticaret merkezi, şeflik iddiası tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "poverty-point-kultur",
+   "not": "Mevcut künye kültür; devlet düzeyi YOK, şeflik bile tartışmalı. Kronolojiye siyasî birim olarak alınması önerilmez."
+  },
+  "elenme_gerekcesi": "Poverty Point: Geç Arkaik ticaret/tören merkezi kompleksi; şeflik bile tartışmalı. Atlasta zaten 'poverty-point-kultur' künyesi var. Bu oturumda siyasî birim kanıtı bulunamadı (Cambridge History of the Native Peoples of the Americas erişilemedi).",
+  "dilim": "B"
+ },
+ {
+  "id": "chavin",
+  "ad": "Chavín Kültürü (dinî merkez)",
+  "tur": "kultur",
+  "bolge": "guney-amerika",
+  "f": "-0899-01-01",
+  "t": "-0199-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Chavín de Huántar",
+  "etkin_bolge": "Kuzey-orta Andlar",
+  "sehirler": [
+   "Chavín de Huántar"
+  ],
+  "ozet": "Dinî-ritüel çekim merkezi; devlet düzeyinde siyasî birim kanıtı zayıf.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "chavin",
+   "not": "Siyasî birim olarak tartışmalı; mevcut künye kültür."
+  },
+  "elenme_gerekcesi": "Chavín: Moseley (2001) 'cult of Chavín' / ufuk (horizon) stili; Janabarriu fazı MÖ 400-200 nüfus 2000-3000; siyasî birim değil, dinî merkez + üslup. Atlasta 'chavin' (kultur) künyesi var.",
+  "dilim": "B"
+ },
+ {
+  "id": "paracas",
+  "ad": "Paracas (Topará) Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "-0799-01-01",
+  "t": "-0099-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Cerro Colorado / Cahuachi-öncesi",
+  "etkin_bolge": "Peru güney kıyısı (Ica-Pisco)",
+  "sehirler": [
+   "Paracas",
+   "Topará"
+  ],
+  "ozet": "Nazca'nın öncülü; nekropol tekstilleriyle bilinen tabakalı toplum.",
+  "oncul": [],
+  "ardil": [
+   "nazca"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  },
+  "elenme_gerekcesi": "Paracas: Moseley (2001) 'corporate style' / seramik-tekstil gelenek; polity kanıtı yok. Kültür alanı (brife göre tekrar eklenmez).",
+  "dilim": "B"
+ },
+ {
+  "id": "recuay",
+  "ad": "Recuay Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "0001-01-01",
+  "t": "0700-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Pashash / Yayno",
+  "etkin_bolge": "Ancash yaylaları",
+  "sehirler": [
+   "Pashash",
+   "Yayno"
+  ],
+  "ozet": "Moche'nin komşusu dağlık şeflik ağı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı; tek siyasî birim olup olmadığı belirsiz."
+  },
+  "elenme_gerekcesi": "Recuay: Moseley (2001) 'vibrant corporate style' ; Pashash'ın başkent mi eşit merkezlerden biri mi olduğu belirsiz ('not clear yet if it constituted a capital'). Siyasî birim kanıtı yok; üslup.",
+  "dilim": "C"
+ },
+ {
+  "id": "pukara",
+  "ad": "Pukara (Titikaka havzası şefliği)",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "-0199-01-01",
+  "t": "0200-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Pukara",
+  "etkin_bolge": "Titikaka kuzeyi",
+  "sehirler": [
+   "Pukara"
+  ],
+  "ozet": "Tiwanaku öncesi yaylanın baskın merkezi.",
+  "oncul": [],
+  "ardil": [
+   "tiwanaku-devleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Devlet mi şeflik mi tartışmalı."
+  },
+  "elenme_gerekcesi": "Pukara: Moseley (2001) tören-şehir merkezi (MÖ ~400'te doğdu, 3-4 yüzyıl sonra bölgesel öne çıktı); 'kuraka mezarı bulunmadı, apu ayllu benzeri' ; Tiwanaku'nun Pukara'ya bağlandığına dair kanıt yok. Siyasî birim olarak belgesiz.",
+  "dilim": "C"
+ },
+ {
+  "id": "nazca",
+  "ad": "Nazca Şeflikleri/Kültürü",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "-0199-01-01",
+  "t": "0600-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Cahuachi",
+  "etkin_bolge": "Peru güney kıyısı",
+  "sehirler": [
+   "Cahuachi"
+  ],
+  "ozet": "Paracas ardılı; Cahuachi tören merkezi etrafında, siyasî birlik tartışmalı.",
+  "oncul": [
+   "paracas"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "nazca",
+   "not": "Mevcut künye kültür; şeflik/tartışmalı."
+  },
+  "elenme_gerekcesi": "Nazca: atlasta 'nazca' (kultur) künyesi var; Moseley (2001) 'Nazca drainage 25.000'den fazla nüfus taşımadı', Cahuachi tören merkezi; siyasî birim kanıtı yok. Kültür alanı.",
+  "dilim": "C"
+ },
+ {
+  "id": "san-agustin",
+  "ad": "San Agustín Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "0001-01-01",
+  "t": "0900-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "San Agustín",
+  "etkin_bolge": "Yukarı Magdalena, Kolombiya",
+  "sehirler": [
+   "San Agustín",
+   "Alto de los Ídolos"
+  ],
+  "ozet": "Dikili taş heykelli Klasik dönem şeflikleri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı; Klasik dönem aralığı."
+  },
+  "elenme_gerekcesi": "San Agustín: arkeolojik kültür/tören merkezi; bu oturumda siyasî birim kanıtı bulunamadı (kaynak okunamadı). Kültür alanı.",
+  "dilim": "C"
+ },
+ {
+  "id": "quimbaya",
+  "ad": "Quimbaya Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "-0499-01-01",
+  "t": "1540-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "",
+  "etkin_bolge": "Cauca ortası, Kolombiya",
+  "sehirler": [
+   "Cartago"
+  ],
+  "ozet": "Altın işçiliğiyle bilinen Kolombiya şeflikleri; İspanyol fethine dek.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı; dönemleme (Klasik/Geç) kaynaklar arası değişir."
+  },
+  "elenme_gerekcesi": "Quimbaya: altın işçiliği üslubu/arkeolojik kültür; 1281 öncesi siyasî birim kanıtı bulunamadı; 16. yy şeflikleri 1281 sonrası kaynaklıdır.",
+  "dilim": "C"
+ },
+ {
+  "id": "marajoara",
+  "ad": "Marajoara Şefliği",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "0400-01-01",
+  "t": "1400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Marajó adası",
+  "etkin_bolge": "Amazon ağzı",
+  "sehirler": [
+   "Marajó"
+  ],
+  "ozet": "Höyük-yerleşimli Amazon toplumu; devlet düzeyi iddiası Roosevelt ekolünün, Meggers karşıt.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Çok tartışmalı."
+  },
+  "elenme_gerekcesi": "Marajoara: Marajó Adası arkeolojik kültürü; şeflik ya da karmaşık toplum iddiası tartışmalı; siyasî birim kanıtı bu oturumda bulunamadı. Kültür alanı.",
+  "dilim": "C"
+ },
+ {
+  "id": "cotzumalguapa",
+  "ad": "Cotzumalguapa (Pipil öncesi)",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "0650-01-01",
+  "t": "0950-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Bilbao / El Baúl",
+  "etkin_bolge": "Guatemala Pasifik ovası",
+  "sehirler": [
+   "El Baúl",
+   "Bilbao"
+  ],
+  "ozet": "Epiklasik Pasifik kıyısı Cotzumalguapa şefliği.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  },
+  "elenme_gerekcesi": "Cotzumalguapa: arkeolojik üslup/kültür (Pasifik Guatemala); 'Pipil öncesi' siyasî birim adı kaynaklı değil.",
+  "dilim": "D"
+ },
+ {
+  "id": "huasteca",
+  "ad": "Huastek (Teenek) Şeflikleri",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "0900-01-01",
+  "t": "1521-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tamtoc?",
+  "etkin_bolge": "Doğu-Orta Meksika Körfez kıyısı",
+  "sehirler": [
+   "Tamtoc",
+   "Tantoc"
+  ],
+  "ozet": "Huastek kültür alanı; siyasî birlik düzeyi tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  },
+  "elenme_gerekcesi": "Huastek (Teenek): etnik/dil grubu ve arkeolojik bölge; birleşik siyasî birim 1281 öncesi için kanıt yok.",
+  "dilim": "D"
+ },
+ {
+  "id": "san-jose-mogote",
+  "ad": "San José Mogote (erken Zapotek şefliği)",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "-1149-01-01",
+  "t": "-0499-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "San José Mogote",
+  "etkin_bolge": "Oaxaca, Etla kolu",
+  "sehirler": [
+   "San José Mogote"
+  ],
+  "ozet": "Monte Albán öncesi Oaxaca vadisinin baskın şeflik merkezi; MÖ ~500'de Monte Albán'ın kuruluşuyla ağırlığını yitirdi.",
+  "oncul": [],
+  "ardil": [
+   "monte-alban-zapotek"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı; tarihler yüzyıl düzeyi."
+  },
+  "elenme_gerekcesi": "San José Mogote: Redmond & Spencer (1992, UNAM) yalnız Monte Albán Faz II'de 'ikincil idari merkez' olarak anar; MÖ 1150-500 'erken Zapotek şefliği' iddiası bu oturumda kaynaktan desteklenmedi; siyasî birim olarak belgesiz.",
+  "dilim": "B"
+ },
+ {
+  "id": "tumaco-la-tolita",
+  "ad": "Tumaco-La Tolita Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "-0599-01-01",
+  "t": "0200-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "La Tolita",
+  "etkin_bolge": "Ekvador-Kolombiya kıyısı",
+  "sehirler": [
+   "La Tolita"
+  ],
+  "ozet": "Altın-platin işçiliğiyle bilinen kıyı şeflikleri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  },
+  "elenme_gerekcesi": "Tumaco-La Tolita: arkeolojik kültür (kıyı Ekvador/Kolombiya); şeflik kanıtı bu oturumda bulunamadı. Kültür alanı.",
+  "dilim": "B"
+ },
+ {
+  "id": "haudenosaunee",
+  "ad": "Haudenosaunee (İrokua Konfederasyonu)",
+  "tur": "konfederasyon",
+  "bolge": "kuzey-amerika",
+  "f": "1142-01-01",
+  "t": "1777-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Onondaga",
+  "etkin_bolge": "New York eyaleti",
+  "sehirler": [
+   "Onondaga",
+   "Seneca"
+  ],
+  "ozet": "Gelenekte Büyük Barış Yapıcı ile kurulan beş-ulus konfederasyonu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Kuruluş tarihi çok tartışmalı: 1142 (Mann & Fields güneş tutulması okuması) ile 15. yy; 1450 olursa kapsam dışı."
+  },
+  "elenme_gerekcesi": "Haudenosaunee: 1281 ÖNCESİ AKADEMİK KAYNAK BULUNAMADI. 1142 tarihi yalnız Mann & Fields 1997 'A Sign in the Sky: Dating the League of the Haudenosaunee' (American Indian Culture and Research Journal 21(2); DOI 10.17953/aicr.21.2.k36m1485r3062510 — CrossRef ile künyesi doğrulandı) 22 Ağustos 1142 güneş tutulması argümanına dayanır; Henige 1999 'Can a Myth Be Astronomically Dated?' (AICRJ 23(4); DOI 10.17953/aicr.23.4.f7l127282718051x — CrossRef ile künyesi doğrulandı) yöntemi eleştirir. Her iki makalenin tam metni erişilemedi (escholarship 403). Arkeolojik/belgesel okul 15. yy ve sonrasını (1450-1650) savunur (WebSearch özeti; birincil kaynak okunamadı) → atlas çekirdeği kapsamında (1281 sonrası) ya da tartışmalı; 1281 öncesi dönem için kapsam dışı.",
+  "dilim": "E"
+ },
+ {
+  "id": "inuit",
+  "ad": "İnuit (Thule göçü)",
+  "tur": "konfederasyon",
+  "bolge": "kuzey-amerika",
+  "f": "1000-01-01",
+  "t": "1880-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "",
+  "etkin_bolge": "Arktik Kanada ve Grönland",
+  "sehirler": [
+   "Iglulik"
+  ],
+  "ozet": "Thule kültürünün doğuya yayılması; siyasî birim değil.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "inuit",
+   "not": "Siyasî birim değil, kültürel yayılım."
+  },
+  "elenme_gerekcesi": "İnuit (Thule göçü): etnik/kültürel göç; konfederasyon ya da devlet kanıtı yok. Thule kültürü arkeolojik kültürdür; siyasî birim değil.",
+  "dilim": "E"
+ },
+ {
+  "id": "chachapoya",
+  "ad": "Chachapoya Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "0800-01-01",
+  "t": "1470-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kuélap",
+  "etkin_bolge": "Amazonas, Peru",
+  "sehirler": [
+   "Kuélap",
+   "Gran Vilaya"
+  ],
+  "ozet": "Bulut Savaşçıları; Inka fethine dek.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  },
+  "elenme_gerekcesi": "Chachapoya: Frontiers/PMC7774974 (Chachapoya genetik çalışması) halkı 'peoples' olarak ele alır; MS ~900'de 'fluoresced', 1450-1475'te İnka eyaleti; siyasî birlik kaynağı yok (etnik/arkeolojik bölge). Atlas tarihleri için referans: çiçeklenme ~900, İnka ilhakı 1450-1475.",
+  "dilim": "D"
+ }
+]

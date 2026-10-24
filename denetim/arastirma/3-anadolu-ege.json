@@ -1,0 +1,903 @@
+{
+ "bolge": "Anadolu / Ege / Kıbrıs / Levant-Hitit dünyası (3. dalga)",
+ "tarih_olcum": "21 Ekim 2026",
+ "not": "Kaynaklar bu oturumda açılıp okundu: Weninger 1995 (PDF tam metin), Easton-Weninger 2023 (PDF tam metin), Demján-Pavúk 2021 (PDF tam metin), Hagens 2006 (PDF), Bilgin 2018 incelemesi (PDF), Herrmann vd. 2023 (core-reader), Manning 2023 / Kaniewski 2011 / Vigne 2012 / Manning 2022 / Bruins-van der Plicht 2025 / Wardle 2014 (PMC), Kealhofer 2019 (Crossref özeti). Koordinat tanığı olarak Wikidata (P625) ve OSM Nominatim kullanıldı; Pleiades API bu ortamdan yanıt vermedi.",
+ "kayitlar": [
+  {
+   "id": "troya-i",
+   "ad": "Troya I (Hisarlık, Erken Tunç Çağı başı)",
+   "ad_yerel": "Troia I / Hisarlık",
+   "tur": "sehir",
+   "lat": 39.9575,
+   "lon": 26.2389,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q22647 (Troy) (P625)",
+     "lat": 39.9575,
+     "lon": 26.2389
+    },
+    {
+     "kaynak": "OSM Nominatim: Troya'nın Arkeolojik Alanı",
+     "lat": 39.9574,
+     "lon": 26.238
+    }
+   ],
+   "konum_not": "Wikidata ile OSM ~0.1 km; Wikidata değeri esas (Hisarlık höyüğü merkezi).",
+   "kur": {
+    "bas_mo": 2920,
+    "son_mo": null,
+    "guven": "belirsiz (kaynak ±50 yıl der; 1σ)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Weninger B. 1995, Stratified 14C dates and ceramic chronologies: case studies for the Early Bronze Age at Troy (Turkey) and Ezero (Bulgaria), Radiocarbon 37(2):443-455 (s.450-454), doi:10.1017/S0033822200030927",
+    "kaynak_dili": "İngilizce",
+    "url": "https://doi.org/10.1017/S0033822200030927",
+    "alinti": "the age of Troy Ia can be narrowed down to ca. 2920 cal BC, simply on the basis of the 14C dates",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Troya Ia evresinin başlangıcı (apsidal taş temel) için dendro-kalibre 14C'den türetilmiş tarih; Troya I toplam 9 mimari evre (Ia-Ii), ortalama evre uzunluğu 50 yıl varsayımıyla.",
+   "sahip_kultur": "Troya I (Erken Tunç Çağı; Blegen'in Troy I'i)",
+   "ic_not": "Aynı makale Troya Ib/Ic için 226 halkalı yakılmış odundan dendro-wiggle-match 'cutting date' 2699±15 cal BC (±1 evre) verir (Korfmann & Kromer 1993, Studia Troica 3'ten aktarma; ilk elden okunmadı). Makale kendi eğri-eşleme sonucuyla bu seri arasında 20-100 yıl fark olduğunu, 'old wood' etkisiyle açıkladığını yazar. Troya Ia için tek-değer kaynağın kendi iddiasıdır, 14C kalibrasyon platosu nedeniyle ±50 yıl dolayı geçerlidir. Troya I'in BİTİŞ tarihi bu makalede sayı olarak okunamadı (Fig. 8 grafikte).",
+   "kaynak_2": "Korfmann M., Kromer B. 1993, Demircihüyük, Besik-Tepe, Troia: eine Zwischenbilanz zur Chronologie dreier Orte in Westanatolien, Studia Troica 3:135-171 (Weninger 1995'in aktarımıyla; kutuphane_gerekli)",
+   "okunan_sayfa": [
+    "https://doi.org/10.1017/S0033822200030927"
+   ]
+  },
+  {
+   "id": "troya-ii-iii",
+   "ad": "Troya II sonu / Troya III (Erken Tunç Çağı)",
+   "ad_yerel": "Troia II-III",
+   "tur": "sehir",
+   "lat": 39.9575,
+   "lon": 26.2389,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q22647 (Troy) (P625)",
+     "lat": 39.9575,
+     "lon": 26.2389
+    },
+    {
+     "kaynak": "OSM Nominatim: Troya'nın Arkeolojik Alanı",
+     "lat": 39.9574,
+     "lon": 26.238
+    }
+   ],
+   "konum_not": "Wikidata ile OSM ~0.1 km; Wikidata değeri esas (Hisarlık höyüğü merkezi).",
+   "kur": {
+    "bas_mo": 2267,
+    "son_mo": null,
+    "guven": "68.2 (±10 yıl; kaynak 'Monte Carlo' hata, minimum ±10'a yuvarlanmış)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+    "alinti": "Troy III begins 2267±10 cal BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 2170,
+    "son_mo": null,
+    "guven": "68.2 (±10 yıl)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+    "alinti": "period ends 2170±10 cal BC, as already proposed",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Cincinnati kazısı hayvan kemiği 14C-AMS (26 örnek), IntCal20 ile modellenmiş: Troya II/III geçişi 2267±10, Troya III bitişi 2170±10 cal BC.",
+   "sahip_kultur": "Troya III (Blegen sıralaması)",
+   "ic_not": "Tübingen şemasında Troya III başlangıcı c. 2340 cal BC'dir (aynı makale); fark yazarlarca belirtilir. 2170'in Tübingen/Blum 2012 ve Pernicka 2014 ile uyumlu olduğu yazılıdır. Hata değerleri ±10 yıla YUVARLANMIŞTIR (kaynak notu 2).",
+   "okunan_sayfa": [
+    "https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+    "https://journals.uni-lj.si/DocumentaPraehistorica/article/download/13525/14524"
+   ]
+  },
+  {
+   "id": "troya-proto-iv-iv",
+   "ad": "Troya 'Proto-IV' (varsayım) ve Troya IV",
+   "ad_yerel": "Troia IV",
+   "tur": "sehir",
+   "lat": 39.9575,
+   "lon": 26.2389,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q22647 (Troy) (P625)",
+     "lat": 39.9575,
+     "lon": 26.2389
+    },
+    {
+     "kaynak": "OSM Nominatim: Troya'nın Arkeolojik Alanı",
+     "lat": 39.9574,
+     "lon": 26.238
+    }
+   ],
+   "konum_not": "Wikidata ile OSM ~0.1 km; Wikidata değeri esas (Hisarlık höyüğü merkezi).",
+   "kur": {
+    "bas_mo": 2060,
+    "son_mo": null,
+    "guven": "68.2 (±10 yıl)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+    "alinti": "Troy IV beginning 2060±10 cal BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 1930,
+    "son_mo": null,
+    "guven": "68.2 (±10 yıl; 'veya daha geç')",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+    "alinti": "bringing the end of Troy IV to 1930±10 cal BC or later",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Troya III ile IV arasında 110±20 yıllık boşluk (2170-2060) ve olası 'Proto-IV' evresi; Troya IV 2060±10'dan başlar, IVa 2060, IVc 2010±10, IV sonu en erken 1930±10.",
+   "sahip_kultur": "Troya IV (Blegen); 'Proto-IV' yalnız hipotez",
+   "ic_not": "'Proto-IV' kazı bulgusuyla DOĞRUDAN doğrulanmamıştır (yazarlar 'plausible' der). Troya IV'ün 1990 sonrasına inmesi, EH III ile yaygın senkronizmaya aykırıdır; yazarlar buna itiraz eder (aynı makale, s.399).",
+   "okunan_sayfa": [
+    "https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525"
+   ]
+  },
+  {
+   "id": "troya-v-via",
+   "ad": "Troya V ve Troya VI başı (VIa)",
+   "ad_yerel": "Troia V / VIa",
+   "tur": "sehir",
+   "lat": 39.9575,
+   "lon": 26.2389,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q22647 (Troy) (P625)",
+     "lat": 39.9575,
+     "lon": 26.2389
+    },
+    {
+     "kaynak": "OSM Nominatim: Troya'nın Arkeolojik Alanı",
+     "lat": 39.9574,
+     "lon": 26.238
+    }
+   ],
+   "konum_not": "Wikidata ile OSM ~0.1 km; Wikidata değeri esas (Hisarlık höyüğü merkezi).",
+   "kur": {
+    "bas_mo": 1916,
+    "son_mo": 1877,
+    "guven": "belirsiz ('region' diye verilmiş; tek örnek Va için 1916±5, 1877±10)",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+    "alinti": "it lies in the region 1916-1877 cal BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 1750,
+    "son_mo": null,
+    "guven": "uzlaşı değeri (c.); kaynak ±vermez",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Easton D., Weninger B. 2023, Troy III-V: new radiocarbon dates confirm a gap in Blegen's sequence, Documenta Praehistorica 50:396-408, doi:10.4312/dp.50.14",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525",
+    "alinti": "c. 1750 cal BC for the end of Troy V/beginning of Troy VI",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Troya V başlangıcı 1916-1877 cal BC aralığında; Troya V sonu / Troya VI başı için literatürde uzlaşı c. 1750 cal BC (Pavúk, Blum, Pernicka'ya atıfla).",
+   "sahip_kultur": "Troya V -> Troya VI (Orta Tunç Çağı)",
+   "ic_not": "ÇELİŞKİ (aynı makalede): Easton-Weninger modeli VIa başlangıcı için 1820±20 cal BC verir; Pavúk (2014: 394-396, 404) 1780/1750 önerir, yazarlar bunu 'belki de daha olası' sayar. VIa'nın geç evresi 1714±13 cal BC (Pavúk 2020'nin Seramik Evre 1 sonu c. 1720 ile uyumlu). VIa için yalnız 3 kısa-ömürlü örnek var, model 'far from final'. Blegen VI başlangıcını c. 1900 BC koymuştu.",
+   "okunan_sayfa": [
+    "https://journals.uni-lj.si/DocumentaPraehistorica/article/view/13525"
+   ]
+  },
+  {
+   "id": "troya-vi-gec-ve-viia-kumeleri",
+   "ad": "Troya VI Geç ve Troya VIIa (14C küme orta noktaları)",
+   "ad_yerel": "Troia VI Late / VIIa",
+   "tur": "sehir",
+   "lat": 39.9575,
+   "lon": 26.2389,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q22647 (Troy) (P625)",
+     "lat": 39.9575,
+     "lon": 26.2389
+    },
+    {
+     "kaynak": "OSM Nominatim: Troya'nın Arkeolojik Alanı",
+     "lat": 39.9574,
+     "lon": 26.238
+    }
+   ],
+   "konum_not": "Wikidata ile OSM ~0.1 km; Wikidata değeri esas (Hisarlık höyüğü merkezi).",
+   "kur": {
+    "bas_mo": 1400,
+    "son_mo": null,
+    "guven": "belirsiz; yalnız küme orta noktası",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Demján P., Pavúk P. 2021, Clustering of calibrated radiocarbon dates: site-specific chronological sequences identified by dense radiocarbon sampling, Radiocarbon 63(2):429-438 (s.434-436), doi:10.1017/RDC.2020.129",
+    "kaynak_dili": "İngilizce",
+    "url": "https://doi.org/10.1017/RDC.2020.129",
+    "alinti": "VI-Late (cluster 3 with midpoint around 1400 BC), which ends in a major earthquake",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 1190,
+    "son_mo": null,
+    "guven": "belirsiz; yalnız küme orta noktası (VIIa + VIIb1 birlikte)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Demján P., Pavúk P. 2021, Clustering of calibrated radiocarbon dates: site-specific chronological sequences identified by dense radiocarbon sampling, Radiocarbon 63(2):429-438 (s.434-436), doi:10.1017/RDC.2020.129",
+    "kaynak_dili": "İngilizce",
+    "url": "https://doi.org/10.1017/RDC.2020.129",
+    "alinti": "both cluster 4 with midpoint around 1190 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Troya MÖ 2. binyıl 40 14C örneği hiyerarşik kümelemeyle 4 kümeye ayrıldı: ~1830 (V + en erken VI), ~1630 (VI Erken-Orta), ~1400 (VI Geç; büyük depremle biter), ~1190 (VIIa + VIIb1); kümeler arası ~100 yıllık boşluklar.",
+   "sahip_kultur": "Troya VI / VIIa",
+   "ic_not": "UYARI: Bunlar OLAY tarihi DEĞİL, küme orta noktalarıdır (aynı makale: kümeler tek tek mimari evrelerle örtüşmez). Troya VIIa'nın YIKIM yılı ve VI'nın deprem yılı bu kaynakta SAYI olarak yok. Blegen/Nylander/Mountjoy tabanlı VIIa ~1190-1180 ve VIh ~1300 rakamları bu oturumda tam metinden okunmadı, KULLANILMADI. Pavúk 2020 (Studia Troica Monographien 7) kutuphane_gerekli.",
+   "kaynak_2": "Easton & Weninger 2023 (troya-v-via kaydı): VIa geç evresi 1714±13 cal BC",
+   "okunan_sayfa": [
+    "https://doi.org/10.1017/RDC.2020.129"
+   ]
+  },
+  {
+   "id": "hitit-eski-krallik-hattusili-i",
+   "ad": "Hitit Eski Krallığı — I. Hattusili saltanatı (Labarna)",
+   "ad_yerel": "Ḫattušili I",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Dönem/hanedan kaydı; yer kaydı için hattusa-sehir-kontrol'e bakınız.",
+   "kur": {
+    "bas_mo": 1650,
+    "son_mo": 1620,
+    "guven": "Yüksek-Orta Kronoloji (hMC) geleneksel değeri; 95 yok",
+    "aralik_turu": "yazili",
+    "kaynak": "Herrmann V.R., Manning S.W., Morgan K.R., Soldi S., Schloen D. 2023, New evidence for Middle Bronze Age chronology from the Syro-Anatolian frontier, Antiquity 97(393):654-673, doi:10.15184/aqy.2023.30",
+    "kaynak_dili": "İngilizce",
+    "url": "https://www.cambridge.org/core/product/014ABB912CC50181E0F06E074BE071A2/core-reader",
+    "alinti": "conventionally, hMC c. 1650-1620 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "I. Hattusili'nin geleneksel saltanatı hMC'de c. 1650-1620; başlangıç, Mursili'nin Babil 1595 verisinden iki 25 yıllık kuşak geriye sayılarak bulunur. Hitit krallığı Orta Tunç Çağı sonunda İç Anadolu'yu birleştirmiştir.",
+   "sahip_kultur": "Hitit (Eski Krallık)",
+   "ic_not": "UYARI: 1650 doğrudan ölçüm değil, kaynağın ifadesiyle 'reached simply by counting back two 25-year generations from Mursili's 1595 BC datum'. Aynı makalenin Zincirli 14C sonucu (yıkım c. 1632-1610) bu geleneksel tahmini 'doğrular' (zincirli-hattusili-i-yikimi kaydı, 1. dalga). Mursili I Babil: hMC/lMC 1595/1587 (veya 1602/1594); makale bunu Eski Hitit tarihinin Mezopotamya ile TEK doğrudan senkronizmi diye niteler. LABARNA / kuruluş hanedanı: makale 'öncül Hitit krallarının sırası ve ilişkileri belirsiz' der (Simon 2020, Kloekhorst 2021 atıfla) ve Labarna'yı TARİHLEMEZ — Labarna/Hattusili I 'kuruluşu' için mutlak tarih BULUNAMADI; kutuphane_gerekli. Kronoloji okulu: Orta (hMC/lMC); Kısa Kronolojide Mursili'nin Babil'i 1531'dir (arama özeti, ikincil; tam metin okunmadı).",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/product/014ABB912CC50181E0F06E074BE071A2/core-reader"
+   ]
+  },
+  {
+   "id": "hitit-suppiluliuma-i-olum",
+   "ad": "I. Şuppiluliuma (Hitit İmparatorluğu kurucusu) — ölümü",
+   "ad_yerel": "Šuppiluliuma I",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kişi/hükümdar kaydı.",
+   "kur": null,
+   "bit": {
+    "bas_mo": 1323,
+    "son_mo": null,
+    "guven": "yaklaşık (Stavi 2015'in önerisi; kitap incelemesinden aktarma)",
+    "aralik_turu": "yazili",
+    "kaynak": "Bilgin T. 2018, [kitap incelemesi] B. Stavi, The Reign of Tudhaliya II and Šuppiluliuma I (Texte der Hethiter 31, Heidelberg 2015), Journal of the American Oriental Society 138(3):597-599 (s.599)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://lockwoodonlinejournals.com/index.php/jaos/article/download/1006/820",
+    "alinti": "dating Suppiluliuma I's death to approximately 1323, six years after the start of the Second Syrian War",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kayip",
+   "d": "Stavi, II. Mursili'nin 10. yılındaki güneş tutulması kaydını MÖ 1312'ye bağlar ve I. Şuppiluliuma'nın ölümünü yaklaşık 1323'e oturtur.",
+   "sahip_kultur": "Hitit İmparatorluğu",
+   "ic_not": "UYARI: Bu bir İKİNCİL aktarmadır (kitap incelemesi); Stavi 2015 kitabının kendisi okunmadı (kutuphane_gerekli). Tutulma-bazlı 1312 tek bir öneridir, literatürde başka tutulma tarihleri tartışmalıdır; bu oturumda başka kaynakla karşılaştırılmadı. Şuppiluliuma I'in TAHTA ÇIKIŞ yılı bu kaynakta yok (Bryce 2005'te 'c. 1350-1322' başlığı görüldü, içeriği okunmadı; kutuphane_gerekli). Kronoloji: Hitit-Mısır senkronizmi Amarna dönemi üzerinden.",
+   "okunan_sayfa": [
+    "https://lockwoodonlinejournals.com/index.php/jaos/article/download/1006/820"
+   ]
+  },
+  {
+   "id": "hitit-suppiluliuma-ii-tahta-cikis",
+   "ad": "II. Şuppiluliuma (son bilinen Hitit kralı) — tahta çıkışı",
+   "ad_yerel": "Šuppiluliuma II",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kişi/hükümdar kaydı.",
+   "kur": {
+    "bas_mo": 1207,
+    "son_mo": null,
+    "guven": "yaklaşık (~); Orta Kronoloji",
+    "aralik_turu": "yazili",
+    "kaynak": "Manning S.W., Kocik C., Lorentzen B., Sparks J.P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC, Nature 614:719-724, doi:10.1038/s41586-022-05693-y",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+    "alinti": "The reign of the last known king, Suppiluliuma II, began around 1207 bc",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Son bilinen Hitit kralının saltanatı ~1207 MÖ'de başlar; Hitit imparatorluğu ve merkezî idaresi 'around or shortly after 1200' çöker; terminus ante quem Ramses III yıl 8 (Medinet Habu).",
+   "sahip_kultur": "Hitit İmparatorluğu",
+   "ic_not": "ÇELİŞKİ (iki kaynak): Manning vd. 2023 ~1207; Kaniewski vd. 2011 (PLoS One 6:e20232, tablo) II. Şuppiluliuma'nın ilk saltanat yılı = 1210. Fark 3 yıl; ikisi de Orta Kronoloji çerçevesi. Manning 2023'te Ramses II tahta çıkışı 'eski şemada 1279', 'revize şemada 1290' (aynı makalenin Yöntem bölümü) — Mısır kronolojisine bağlı kayma ~11 yıl. Tek seçilmedi; atlas Manning 2023'ü (hakemli Nature) esas alabilir, Kaniewski ikinci tanık.",
+   "kaynak_2": "Kaniewski D. vd. 2011, The Sea Peoples, from cuneiform tablets to carbon dating, PLoS One 6(6):e20232, doi:10.1371/journal.pone.0020232 — https://pmc.ncbi.nlm.nih.gov/articles/PMC3110627/",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3110627/"
+   ]
+  },
+  {
+   "id": "ugarit-tell-tweini-deniz-kavimleri",
+   "ad": "Ugarit krallığı (Gibala/Tell Tweini) — Deniz Kavimleri yıkımı",
+   "ad_yerel": "Ugarit / Tell Tweini (Gibala)",
+   "tur": "sehir",
+   "lat": 35.3717,
+   "lon": 35.9364,
+   "konum_tanik": [
+    {
+     "kaynak": "Kaniewski vd. 2011 (kazı raporu): 35°22′17.93″N 35°56′12.60″E",
+     "lat": 35.3716,
+     "lon": 35.9368
+    },
+    {
+     "kaynak": "Wikidata Q7697529 (Tell Tweini) (P625)",
+     "lat": 35.3717,
+     "lon": 35.9364
+    },
+    {
+     "kaynak": "OSM Nominatim: Tell Tweini",
+     "lat": 35.3718,
+     "lon": 35.9364
+    }
+   ],
+   "konum_not": "Üç tanık <0.05 km. Not: Tell Tweini = Gibala, Ugarit krallığı'nın kıyı kenti; Ras Şamra (Ugarit başkenti) AYRI konumdur (burada ölçülmedi).",
+   "kur": null,
+   "bit": {
+    "bas_mo": 1192,
+    "son_mo": 1190,
+    "guven": "belirsiz (yazar yorum aralığı; 1σ 1215-1190 veya 1180-1160'tan 1192-1190 en iyi uyum olarak seçildi)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Kaniewski D. vd. 2011, The Sea Peoples, from cuneiform tablets to carbon dating, PLoS One 6(6):e20232, doi:10.1371/journal.pone.0020232",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3110627/",
+    "alinti": "an absolute age range of 1192-1190 BC for terminal destructions",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kayip",
+   "d": "Kuzey Levant'ta (Gibala, Ugarit, Ras Ibn Hani, Tell Kazel) Tunç Çağı sonu yıkımları; 14C ağırlıklı ortalama (2962±14 BP) + KTU 1.78 güneş tutulması (21 Ocak 1192) çerçevesinde 1192-1190 cal BC.",
+   "sahip_kultur": "Ugarit krallığı (Geç Tunç Çağı)",
+   "ic_not": "UYARI: 1192-1190 aralığı yazarların ASTRONOMİK çapa + 14C birleşiminden çıkardığı yorumdur; salt 14C 1σ aralığı 1215-1190 (%34) ve 1180-1160 (%26)'dır. Manning 2023 (Nature, Yöntem) Ugarit yıkımının geleneksel olarak ~1193-1186 aralığında savunulduğunu ve revize Ramses tarihleriyle ~11 yıl eskiye çekildiğini, bunun 'terminus post quem' olduğunu yazar. Ugarit son kralı Ammurapi ilk yıl 1215; Hatti Şuppiluliuma II ilk yıl 1210; Karkamış Talmi-Teşub 1220 (Kaniewski tablosu). Kıbrıs LC IIC-IIIA 1220-1190; Ana kara Yunanistan LH IIIB-IIIC Erken 1210-1175 (Kaniewski tablosu; o kaynağın aktarması, ilk elden doğrulanmadı).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3110627/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/"
+   ]
+  },
+  {
+   "id": "hattusa-terk-guncelleme-3-dalga",
+   "ad": "Hattuşa'nın boşaltılması — 3. dalga okuma notu",
+   "ad_yerel": "Ḫattuša",
+   "tur": "sehir",
+   "lat": 40.0197,
+   "lon": 34.6153,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q181007 (Hattusa) (P625)",
+     "lat": 40.0197,
+     "lon": 34.6153
+    },
+    {
+     "kaynak": "OSM Nominatim: 'Hattuşaş, Boğazkale' (kafe/yol noktası; esas DEĞİL)",
+     "lat": 40.0222,
+     "lon": 34.6197
+    }
+   ],
+   "konum_not": "OSM sonucu bir kafe/yol noktası (0.5 km); UNESCO ID 377 koordinatı bu oturumda açılamadı. İKİNCİ BAĞIMSIZ TANIK YOK — kayda girmeden Pleiades/UNESCO ile alınmalı.",
+   "kur": null,
+   "bit": {
+    "bas_mo": 1200,
+    "son_mo": null,
+    "guven": "yaklaşık (~; 'around or shortly after 1200')",
+    "aralik_turu": "yazili",
+    "kaynak": "Manning S.W., Kocik C., Lorentzen B., Sparks J.P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC, Nature 614:719-724, doi:10.1038/s41586-022-05693-y",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+    "alinti": "Around or shortly after 1200 bc, the Hittite Empire and central administrative system collapsed.",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kayip",
+   "d": "Merkezî idare Hattuşa'yı boşaltmış, şehir ancak SONRA yakılmıştır; kuraklık (1198-1196±3) çöküşün koşullarının parçası olabilir, kanıtlanmış nedensellik YOK.",
+   "sahip_kultur": "Hitit (Hatti)",
+   "ic_not": "1. dalga kaydı 'hattusa-cokus' (1198-1196) KURAKLIK penceresidir, terk tarihi DEĞİLDİR; bu okuma onu doğrular ve netleştirir: atlas bitişi için ≈1200 (kaynağın ifadesi) kullanılmalı, 1198-1196 'kuraklık' diye etiketlenmeli. Aynı makale ('Discussion') nedensellik için 'lack the evidence' der. Terk tarihi yılı Seeher/Schachner'in DAI Boğazköy 14C veri setinde (repo.dainst.org) ve AA/MDOG'da — okunamadı (kutuphane_gerekli).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/"
+   ]
+  },
+  {
+   "id": "gordion-frig-baskent-kurulus",
+   "ad": "Gordion — Frig başkentinin ortaya çıkışı (Erken Demir Çağı)",
+   "ad_yerel": "Gordion / Yassıhöyük",
+   "tur": "sehir",
+   "lat": 39.6505,
+   "lon": 31.9785,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q542854 (Gordion) (P625)",
+     "lat": 39.6505,
+     "lon": 31.9785
+    },
+    {
+     "kaynak": "OSM Nominatim: Tumulus - Gordion [T6]",
+     "lat": 39.6515,
+     "lon": 32.0029
+    }
+   ],
+   "konum_not": "Wikidata (şehir/höyük merkezi) ile OSM (bir tümülüs) ~2.1 km ayrışır; Wikidata esas (yerleşim höyüğü); OSM tümülüs noktası kent alanının doğusundaki nekropol.",
+   "kur": {
+    "bas_mo": 900,
+    "son_mo": 867,
+    "guven": "belirsiz (kaynak yalnız 'early 9th c. BCE' der; 900-867 üçte-bir bölmesi bu oturumda YORUM, kaynak sayı vermez)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kealhofer L., Grave P., Voigt M.M. 2019, Dating Gordion: the timing and tempo of Late Bronze and Early Iron Age political transformation, Radiocarbon 61(2):495-514, doi:10.1017/RDC.2018.152",
+    "kaynak_dili": "İngilizce",
+    "url": "https://doi.org/10.1017/rdc.2018.152 (özet: Crossref API https://api.crossref.org/works/10.1017/rdc.2018.152)",
+    "alinti": "the precocious emergence of the Phrygian capital in the early 9th c. BCE",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 1200,
+    "son_mo": 1101,
+    "guven": "belirsiz (kaynak yalnız '12th c. BCE' der: Hitit hegemonyasından kopuş)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kealhofer L., Grave P., Voigt M.M. 2019, Dating Gordion: the timing and tempo of Late Bronze and Early Iron Age political transformation, Radiocarbon 61(2):495-514, doi:10.1017/RDC.2018.152",
+    "kaynak_dili": "İngilizce",
+    "url": "https://doi.org/10.1017/rdc.2018.152 (özet: Crossref API https://api.crossref.org/works/10.1017/rdc.2018.152)",
+    "alinti": "disengagement from Hittite hegemony in the 12th c. BCE",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "15 yeni mutlak 14C tarihi: Hitit İmparatorluğu çöküşünden sonra Gordion'da Hitit hegemonyasından kopuş 12. yy MÖ; Frig başkentinin ortaya çıkışı 9. yy başı MÖ. Yazarlar 9. yy sonu büyük yangını (Erken Frig Yıkım Tabakası, DeVries vd. 2003) ayrıca anar.",
+   "sahip_kultur": "Hitit (Geç Tunç Çağı, hegemonya) -> Frig (Erken Demir Çağı)",
+   "ic_not": "UYARI: Özet düzeyi (Crossref özeti); 15 tarihin tablo aralıkları okunamadı (kutuphane_gerekli). 'bit' bloğu GORDİON'un sonu değil, HİTİT HEGEMONYASININ sonudur. 'kur' bloğu yüzyıl-kesri hassasiyetindedir. Erken Frig Yıkım Tabakası: Manning & Kromer 2011 (bölüm 6, The New Chronology of Iron Age Gordion, s.123-153) özetinde 15 kısa-ömürlü örnek ~840-795 BCE, en olası 830/815-810/800 diye aktarıldı; bu rakamlar bir ARAMA ÖZETİNDEN geldi, bölüm tam metni açılamadı — gordion-erken-frig-yikim kaydında 'arama özeti' olarak işaretli.",
+   "okunan_sayfa": [
+    "https://api.crossref.org/works/10.1017/rdc.2018.152"
+   ]
+  },
+  {
+   "id": "gordion-erken-frig-yikim",
+   "ad": "Gordion Erken Frig Yıkım Tabakası (büyük yangın)",
+   "ad_yerel": "Early Phrygian Destruction Level (YHSS 6A)",
+   "tur": "sehir",
+   "lat": 39.6505,
+   "lon": 31.9785,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q542854 (Gordion) (P625)",
+     "lat": 39.6505,
+     "lon": 31.9785
+    },
+    {
+     "kaynak": "OSM Nominatim: Tumulus - Gordion [T6]",
+     "lat": 39.6515,
+     "lon": 32.0029
+    }
+   ],
+   "konum_not": "Wikidata (şehir/höyük merkezi) ile OSM (bir tümülüs) ~2.1 km ayrışır; Wikidata esas (yerleşim höyüğü); OSM tümülüs noktası kent alanının doğusundaki nekropol.",
+   "kur": null,
+   "bit": {
+    "bas_mo": 840,
+    "son_mo": 795,
+    "guven": "belirsiz (arama özeti; tam metin okunmadı)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Manning S.W., Kromer B. 2011, Radiocarbon dating Iron Age Gordion, and the Early Phrygian Destruction in particular, in Rose C.B., Darbyshire G. (eds.), The New Chronology of Iron Age Gordion, Penn Museum, s.123-153, doi:10.9783/9781934536551.123",
+    "kaynak_dili": "İngilizce",
+    "url": "https://doi.org/10.9783/9781934536551.123 (özet arama sonucundan; BMCR 2013.01.51 https://bmcr.brynmawr.edu/?p=37737 yıkımın 'late 9th century' olduğunu doğrular)",
+    "alinti": "destruction of the citadel is now thought to have taken place in the late 9th century",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kayip",
+   "d": "Gordion kalesinin büyük yangını eski c. 690/700 (Kimmerler, Midas'ın ölümü) tarihinden 9. yy sonuna indi; 14C ile ~840-795 BCE.",
+   "sahip_kultur": "Frig",
+   "ic_not": "ÇELİŞKİ: Geleneksel tarih c. 690 (Körte/Young, edebî kaynaklara dayalı Kimmer istilası); yeni tarih ~800 (DeVries vd. 2003 + Manning-Kromer). Muscarella ve Keenan eski (~700) tarihi savunur. 840-795 aralığı ve '830/815-810/800 en olası' rakamları arama özetinden; BMCR incelemesi (Mac Sweeney, 2013) yalnız 'late 9th century' der. Kealhofer vd. 2019 özeti de 'late 9th BCE century' büyük yangını der. Ağaç halkası (Tümülüs MM): Manning vd. 2001 Science 294:2532 sabit tarihi 22 (+4/-7) yıl öne çekti ('a robust new date fix 22 (+4 or –7) years earlier', özet); Pearson vd. 2020 PNAS 117:18159 yıllık 14C ile 'within a year of 745 BC' savunur (başlık) — 740 (+7/-3) ile 745 arasında ~5 yıl TARTIŞMA sürüyor; gordion-tumulus-mm kaydı (1. dalga) 740 kullandı: ic_not'a bu çelişki eklenmeli.",
+   "okunan_sayfa": [
+    "https://bmcr.brynmawr.edu/?p=37737",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7414178"
+   ]
+  },
+  {
+   "id": "urartu-krallik",
+   "ad": "Urartu Krallığı (Tuşpa / Van)",
+   "ad_yerel": "Biainili / Urartu",
+   "tur": "kultur",
+   "lat": 38.5,
+   "lon": 43.3425,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q766324 (Tushpa) (P625)",
+     "lat": 38.5,
+     "lon": 43.3425
+    },
+    {
+     "kaynak": "OSM Nominatim: Van Kalesi",
+     "lat": 38.5031,
+     "lon": 43.3385
+    }
+   ],
+   "konum_not": "Tuşpa (Van Kalesi/Eski Van): Wikidata ile OSM ~0.7 km; Wikidata esas. Konum = başkent Tuşpa.",
+   "kur": {
+    "bas_mo": 900,
+    "son_mo": 801,
+    "guven": "belirsiz (kaynak yalnız 'ninth century bc' der)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Grekyan Y. 2023, The Kingdom of Urartu, in Radner K., Moeller N., Potts D.T. (eds.), The Oxford History of the Ancient Near East IV: The Age of Assyria, Oxford University Press, s.769-864 (özet; bölüm 44.2.3 'Issues of chronology' okunamadı)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://academic.oup.com/book/45752/chapter/398240136",
+    "alinti": "This influential state was formed in the ninth century bc",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Urartu devleti 9. yüzyıl MÖ'de oluşur. Aşur kaynaklarında III. Salmanasar'ın Arame ile savaşları; Sarduri I (Lutipri oğlu) Tuşpa'yı başkent yapar.",
+   "sahip_kultur": "Urartu",
+   "ic_not": "ÇELİŞKİ / BELİRSİZLİK: TDV İslâm Ansiklopedisi 'Urartular' maddesi İÇİN madde sayfası açılamadı (islamansiklopedisi.org.tr/urartular arama sonuç sayfası döndü; Madde Başlıkları 0); yalnız başka maddelerde geçen kısa ifadeler: AĞRI maddesi 'm.ö. 900-600', ASYA maddesi 'Urartular (856-610)' — bunlar iki farklı sınır verir (kuruluş 900 mü 856 mı? son 600 mü 610 mu?) ve bu oturumda ilk elden madde sayfası okunmadı. Sarduri I tarihi için bakılan ikincil/popüler listelerde (Wikipedia 834-828; Met 840-830; worldhistory 835-825; Routledge 'Sarduri I (844-828)') AYRI aralıklar var; bunlar tek dayanak olamaz, YAZILMADI. Arame: Aşur eponim kronolojisi ~858-859 (Salmanasar III'ün tahta çıkış yılı) — hakemli kaynaktan okunamadı. Kuruluş ve düşüş tarihleri için kutuphane_gerekli.",
+   "okunan_sayfa": [
+    "https://islamansiklopedisi.org.tr/urartular",
+    "https://academic.oup.com/book/45752/chapter/398240136"
+   ]
+  },
+  {
+   "id": "klimonas-shillourokambos-kibris",
+   "ad": "Klimonas ve Shillourokambos (Kıbrıs, Erken Aseramik Neolitik)",
+   "ad_yerel": "Klimonas / Shillourokambos",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Koordinat makaleden okunamadı; ikinci bağımsız tanık alınmadı (null).",
+   "kur": {
+    "bas_mo": 9150,
+    "son_mo": 8650,
+    "guven": "belirsiz (kaynak '11,100 ve 10,600 y ago' der; cal BP varsayımı, BP-1950 bu oturumda)",
+    "aralik_turu": "yerlesim-suresi",
+    "kaynak": "Vigne J.-D. vd. 2012, First wave of cultivators spread to Cyprus at least 10,600 y ago, PNAS 109(22):8445-8449, doi:10.1073/pnas.1201693109 (Klimonas, Tablo 1)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3365171/",
+    "alinti": "established villagers were living on Cyprus between 11,100 and 10,600 y ago",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Klimonas'ta kurulu köylüler 11,100-10,600 yıl önce yaşıyordu (en yüksek olasılık 10.8-10.6 cal kyBP). Shillourokambos Erken A 10.4-10.0, Erken B-C 10.0-9.6, Orta A ~9.5 cal kyBP (Şek. 3 başlığı, karşılaştırma).",
+   "sahip_kultur": "Kıbrıs Erken Aseramik Neolitik (Shillourokambos kültürü)",
+   "ic_not": "UYARI: Makale tarihleri cal kyBP verir; MÖ'ye çevirisi BP-1950 aritmetiği, bu oturumda (bas 11,100->9150; son 10,600->8650). Bu bir 'y ago' ifadesidir, 2σ/1σ belirtilmemiş. 'Modellenmiş süre' (Bayesian) istenmişti: BULUNAMADI — bu makale model değil Tablo 1 14C kümesidir.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3365171/"
+   ]
+  },
+  {
+   "id": "khirokitia-kibris",
+   "ad": "Khirokitia (Choirokoitia, Kıbrıs) — Aseramik Neolitik yerleşim",
+   "ad_yerel": "Χοιροκοιτία / Khirokitia",
+   "tur": "sehir",
+   "lat": 34.7967,
+   "lon": 33.3437,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q385086 (Khirokitia) (P625)",
+     "lat": 34.7967,
+     "lon": 33.3437
+    },
+    {
+     "kaynak": "OSM Nominatim: Χοιροκοιτία archaeological_site",
+     "lat": 34.7972,
+     "lon": 33.344
+    }
+   ],
+   "konum_not": "İki tanık <0.1 km.",
+   "kur": {
+    "bas_mo": 7050,
+    "son_mo": 6050,
+    "guven": "belirsiz (Şekil başlığında tek aralık, yayın güveni belirtilmemiş)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Vigne vd. 2012, PNAS 109(22), Şek. 3 başlığı (Khirokitia 9.0-8.0 cal kyBP; Davis atıfıyla), doi:10.1073/pnas.1201693109",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3365171/",
+    "alinti": "Khirokitia 9.0-8.0 cal kyBP (Fig. 3 caption; cited with ref. 29, Davis)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Khirokitia kültürü: Kıbrıs Aseramik Neolitik'inin yuvarlak yapılı büyük köyü; Vigne vd. karşılaştırma şemasında 9.0-8.0 cal kyBP.",
+   "sahip_kultur": "Khirokitia kültürü",
+   "ic_not": "ZAYIF KAYIT: karşılaştırma şemasının başlığından aktarma; bu sitenin kendi 14C yayını (Le Brun/Guilaine) okunmadı. BP-1950 çevirisi bu oturumda (9000->7050, 8000->6050). 'Modellenmiş süre' BULUNAMADI. Engellenen kaynak: Radiocarbon dergisinde Khirokitia/Tholos XLVI serisi (journals.uair.arizona.edu/.../article/view/480) bot koruması (Anubis) döndürdü, atlandı; Cambridge Proc. Prehist. Soc. 'On the dating of Khirokitia in Cyprus' yalnız özet sayfası (kutuphane_gerekli).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3365171/"
+   ]
+  },
+  {
+   "id": "santorini-minos-patlamasi-guncel",
+   "ad": "Thera (Santorini) Minos patlaması — güncel Bayes modelleri",
+   "ad_yerel": "Θήρα",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Olay kaydı; Akrotiri 1. dalgada (akrotiri-thera-patlamasi).",
+   "kur": null,
+   "bit": {
+    "bas_mo": 1609,
+    "son_mo": 1560,
+    "guven": "95.4",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Manning S.W. 2022, Second Intermediate Period date for the Thera (Santorini) eruption and historical implications, PLoS One 17(9):e0274835, doi:10.1371/journal.pone.0274835 (özet; Tablo 1A)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9488803/",
+    "alinti": "1606-1589 BCE (68.3%) and 1609-1560 BCE (95.4%)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kayip",
+   "d": "Patlama IntCal20 ile yeniden modellenmiş: 1606-1589 (68.3) / 1609-1560 (95.4). Bruins & van der Plicht 2025 (PLoS One, doi:10.1371/journal.pone.0330702) Manning'in 2024 modelini 1618-1584 (95.4) / 1612-1602 (68.3) diye aktarır ve patlamanın Ahmose'dan ESKİ olduğunu savunur.",
+   "sahip_kultur": "Minos (Geç Minos IA) — Girit ve Kiklad etkisi",
+   "ic_not": "ÇELİŞKİ: Manning (Hyksos/İkinci Ara Dönem, 16. yy başı) vs. Pearson vd. (16. yy MÖ, Ahmose ile bağlantı; Bruins-van der Plicht reddeder) vs. geleneksel Mısır-bağlı 1530-1500. 1. dalga kaydı 1627-1600 kullandı; üç model arasında 17. yy sonu/16. yy başı fark var. Girit için: Manning 2022 'LM IB yıkımları (Hanya, Myrtos-Pyrgos, Mochlos) 15. yy ortası, hem arkeoloji hem 14C' der — Knossos'un kendi yıkım tarihi bu makalede YOK.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9488803/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/"
+   ]
+  },
+  {
+   "id": "ege-gec-tunc-cagi-sonu-lh-iiic-1b-levant",
+   "ad": "Geç Tunç Çağı / Demir Çağı geçişi (Levant'ta LH IIIC:1b gelişi)",
+   "ad_yerel": "LBA/IA transition",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bölge/dönem kaydı.",
+   "kur": null,
+   "bit": {
+    "bas_mo": 1170,
+    "son_mo": 1100,
+    "guven": "belirsiz (inceleme: 'ancak ~bir yüzyıl hassasiyeti')",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Hagens G. 2006, Testing the limits: radiocarbon dating and the end of the Late Bronze Age, Radiocarbon 48(1):83-100, doi:10.1017/S0033822200035414",
+    "kaynak_dili": "İngilizce",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6253F0C8C4BBED08E599F8B4B7ACF320/S0033822200035414a.pdf",
+    "alinti": "somewhere in the 8-decade range between ~1170 to 1100 BCE",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kayip",
+   "d": "Miken saraylarının yıkımını izleyen dalga ve Levant'ta LH IIIC:1b gelişinin tarihlendiği aralık; yazar tarihleme için 'ancak bir yüzyıla yakın' çözünürlük elde edilebildiğini söyler.",
+   "sahip_kultur": "Geç Tunç Çağı sonu (Miken/Kıbrıs/Levant)",
+   "ic_not": "UYARI: 2006 tarihli TEK-YAZARLI bir derleme (Radiocarbon dergisi); birincil ölçüm değildir. Mycenae LH IIIB 14C tarihleri (Tablo 7) geniş kalibre aralıklıdır. Yazar 'arkeolojik ve tarihsel kanıt alt değeri tercih eder' der. Mycenae/Tiryns/Pylos'un KENDİ yıkım yıllarını vermez. ÇELİŞKİ: Wardle vd. 2014 (PLoS One 9:e106672) Assiros Toumba (Makedonya) 14C dizisi LH IIIB->IIIC geçişini 1341-1282 civarına koyar ve güney Yunan geleneksel kronolojisinden 70-100 yıl ESKİ çıktığını belirtir; Kaniewski vd. 2011 anakara Yunanistan LH IIIB-IIIC Erken'i 1210-1175 diye aktarır. Üç kaynak arasında ~100-150 yıl fark vardır; Mikenai/Tiryns yıkım yılı için kutuphane_gerekli.",
+   "kaynak_2": "Wardle K., Higham T., Kromer B. 2014, PLoS One 9(9):e106672, doi:10.1371/journal.pone.0106672 — https://pmc.ncbi.nlm.nih.gov/articles/PMC4164355/ ('Dating the end of the Greek Bronze Age: a robust radiocarbon-based chronology from Assiros Toumba')",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6253F0C8C4BBED08E599F8B4B7ACF320/S0033822200035414a.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4164355/"
+   ]
+  }
+ ],
+ "sehir_kontrol": [
+  {
+   "sehir": "Hattuşa",
+   "lat": 40.0197,
+   "lon": 34.6153,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q181007 (P625)",
+     "lat": 40.0197,
+     "lon": 34.6153
+    },
+    {
+     "kaynak": "OSM Nominatim: Hattuşaş (kafe/yol noktası, esas değil)",
+     "lat": 40.0222,
+     "lon": 34.6197
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Hitit (Hatti) merkezî devleti / İmparatorluk — başkent",
+     "bas_mo": null,
+     "son_mo": 1200,
+     "gecis_kaynagi": "Manning vd. 2023 Nature 614:719: 'Around or shortly after 1200 bc, the Hittite Empire and central administrative system collapsed.' Şehir merkezî idarece boşaltılmış, sonra yakılmış (yıl verilmez). https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+     "kronoloji_okulu": "Orta"
+    }
+   ],
+   "bosluk_notu": "BAŞLANGIÇ (Hattusili I'in başkenti Hattuşa'ya taşıması / Hitit kontrolünün başladığı yıl) bu oturumda kaynaktan okunamadı: Herrmann vd. 2023 Hattusili I'i c. 1650-1620 (hMC) koyar ama 'Hattuşa'yı başkent yapma' yılını vermez. BİTİŞ sonrası (terk sonrası) Hattuşa'nın siyasî sahibi için kaynak yok; bu aralık BOŞLUK/'sahipsiz' bırakılmalı (Kaşka vb. YAZILMADI)."
+  },
+  {
+   "sehir": "Sardes",
+   "lat": 38.4883,
+   "lon": 28.0403,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q232615 (Sardis) (P625)",
+     "lat": 38.4883,
+     "lon": 28.0403
+    },
+    {
+     "kaynak": "OSM Nominatim: Sardis (Sart, Salihli)",
+     "lat": 38.4885,
+     "lon": 28.0402
+    }
+   ],
+   "donemler": [],
+   "bosluk_notu": "Lidya (Mermnad) kontrolü için bu oturumda hakemli kaynakta tarih okunamadı: Portalsky 2023 (PUFC, doi:10.4000/15a4i, s.57-76) yalnız çift dilli özet ve giriş açıldı, kral tarihleri okunamadı; Gyges/Aşurbanipal bağı (Rassam silindiri) için Cogan-Tadmor 1977 ve Spalinger 1978 atıf var. Ansiklopedi düzeyi (Encyclopedia Judaica) Gyges 687-652 (Gelzer), 690-657 (Winckler) gibi yazarlara göre değişen rakamlar verir — TEK DAYANAK OLAMAZ, YAZILMADI; 'c. 680' doğrulanmadı. Pers fethi 547/546 için 1. dalga kaydı sardes-pers-fethi (547) vardır; bu oturumda ikinci kaynakla teyit EDİLEMEDİ (Wikipedia/worldhistory yalnız; kullanılmadı). Dönem YAZILMADI."
+  },
+  {
+   "sehir": "Gordion",
+   "lat": 39.6505,
+   "lon": 31.9785,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q542854 (Gordion) (P625)",
+     "lat": 39.6505,
+     "lon": 31.9785
+    },
+    {
+     "kaynak": "OSM Nominatim: Tumulus - Gordion [T6]",
+     "lat": 39.6515,
+     "lon": 32.0029
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Hitit hegemonyası (Geç Tunç Çağı) — kopuş",
+     "bas_mo": null,
+     "son_mo": 1200,
+     "gecis_kaynagi": "Kealhofer vd. 2019 Radiocarbon 61(2) özeti: 'disengagement from Hittite hegemony in the 12th c. BCE' — yalnız yüzyıl; son_mo=1200 yüzyıl-başı SINIRIDIR, olay tarihi değil. https://api.crossref.org/works/10.1017/rdc.2018.152",
+     "kronoloji_okulu": "14C (okul belirtilmez)"
+    },
+    {
+     "sahip": "Frig (başkent)",
+     "bas_mo": 900,
+     "son_mo": null,
+     "gecis_kaynagi": "Kealhofer vd. 2019: 'the precocious emergence of the Phrygian capital in the early 9th c. BCE'; bas_mo 9. yy başı sınırı (yüzyıl-kesri); büyük yangın 9. yy sonu (Erken Frig Yıkım Tabakası) sonrası Frig sürekliliği ve Lidya/Pers geçişi bu oturumda KAYNAKSIZ.",
+     "kronoloji_okulu": "14C"
+    }
+   ],
+   "bosluk_notu": "12. yy sonu ile 9. yy başı arası Gordion'un siyasî sahibi kaynakta belirtilmemiş (yerel Geç Tunç/Erken Demir yerleşimi) — BOŞLUK/beyan. Frig'den sonra Lidya (c. 7. yy sonu?) ve Pers (Gordion'un 547 sonrası) geçişleri okunamadı; DÖNEM YAZILMADI."
+  },
+  {
+   "sehir": "Knossos",
+   "lat": 35.298,
+   "lon": 25.1632,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q173527 (Knossos) (P625)",
+     "lat": 35.298,
+     "lon": 25.1632
+    },
+    {
+     "kaynak": "OSM Nominatim: Palace of Knossos",
+     "lat": 35.2981,
+     "lon": 25.1614
+    }
+   ],
+   "donemler": [],
+   "bosluk_notu": "Knossos'un Minos (Eski/Yeni Saray), Miken (Linear B tabletleri), sonrası sahiplik geçişleri için hakemli, ücretsiz erişilebilir kaynak bulunamadı. Okunan: Manning 2022 (PLoS One) LM IB yıkımlarının 15. yy MÖ ortası olduğunu yazar ama Knossos'u saymaz (Hanya, Myrtos-Pyrgos, Mochlos). Skourtanioti vd. 2023 (Nat Ecol Evol) 'Knossos saray altı en eski yerleşim' der, sayı vermez. Aşağıda kutuphane_gerekli. DÖNEM YAZILMADI."
+  },
+  {
+   "sehir": "Mikene",
+   "lat": 37.7308,
+   "lon": 22.7561,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q132564 (Mycenae) (P625)",
+     "lat": 37.7308,
+     "lon": 22.7561
+    },
+    {
+     "kaynak": "OSM Nominatim: Μυκήνες",
+     "lat": 37.7292,
+     "lon": 22.7544
+    }
+   ],
+   "donemler": [],
+   "bosluk_notu": "Mikenai'in saray yıkımı / terk tarihleri bu oturumda hakemli kaynaktan okunamadı. Hagens 2006 (Radiocarbon 48:83) Mycenae LH IIIB tarihlerini (Tablo 7) geniş kalibre aralıkla ('1350-1200?', '1280-1130?') listeler ve son LH IIIC ambar yıkımı için 14C ham değeri 2970±130 BP verir; kalibre tek-olay tarihi YOK. Wardle 2014 ve Kaniewski 2011 arasında ~100-150 yıl fark (bkz. ege-gec-tunc-cagi-sonu kaydı). DÖNEM YAZILMADI."
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Troya I'in bitişi / Troya II başlangıcının mutlak yılı — Weninger 1995 Fig. 8 yalnız grafik; Easton-Weninger 2023 yalnız II/III geçişi 2267±10 verir. denenen: doi:10.1017/S0033822200030927, doi:10.4312/dp.50.14.",
+  "bulunamadı: Troya VI Geç'in deprem yılı ve Troya VIIa'nın YIKIM yılı (sayı olarak) — Demján-Pavúk 2021 yalnız küme orta noktası (1400, 1190) verir. denenen: doi:10.1017/RDC.2020.129; Pavúk 2020 (Studia Troica Monographien 7) ve Kromer vd. 2003 (doi:10.1007/978-3-662-05308-9_4) açık erişim değil (Unpaywall is_oa=False); Manning vd. Science 2001 kapalı (özet okundu). Blegen/Mountjoy tabanlı VIIa 1190-1180 sayıları kaynak okunamadığı için KULLANILMADI.",
+  "bulunamadı: Kadeş Savaşı'nın MÖ 1274 (veya 1275) tarihini veren hakemli, açık erişilebilir kaynak — denenen: Brill Hornung-Krauss-Warburton 2006 (doi:10.1163/9789047404002, Unpaywall is_oa=False), JSTOR Ramesses II monografileri (kapalı), Europe PMC tam metin ('Kadesh' AND '1274': eşleşme yok). Elde olan: Manning vd. 2023 Nature Yöntem bölümü Ramses II tahta çıkışını 'eski şemada 1279', 'revize şemada 1290' diye verir ve Kadeş'i yalnız 'early 13th century bc' olarak anar. Kadeş = Ramses II 5. yıl (kaynakta yok); 1279'dan aritmetik türetme (1275/1274) ve 1290 revizyonu (~1286/1285) KAYDEDİLMEDİ — aritmetik kaynak yerine geçmez. Vikipedi/Fordham 1274 verir, tek dayanak değildir.",
+  "bulunamadı: I. Şuppiluliuma'nın tahta çıkış yılı ve saltanat başı (c. 1350?) — Bryce 2005 (doi:10.1093/acprof:oso/9780199281329.003.07, 'c. 1350-1322' başlığı görüldü) kapalı; Stavi 2015 yalnız incelemeyle (ölüm ~1323, II. Mursili 10. yıl tutulması 1312).",
+  "bulunamadı: Hattuşa'nın terk yılı (Seeher/Schachner DAI veri seti, AA/MDOG) — Manning 2023 yalnız 'around or shortly after 1200' ve kuraklık penceresi 1198-1196 verir; repo.dainst.org dataset sayfası ve Schachner 2017 (Brill, doi:10.1163/9789004349391_008) açık erişim değil.",
+  "bulunamadı: Lidya krallığının kuruluşu (Gyges ~680) için hakemli sayı — Portalsky 2023 (OpenEdition) gövde metni sayfasında yalnız özet; Encyclopedia Judaica/Britannica düzeyi rakamlar yazarlara göre 687-652/690-657 değişir ve kullanılmadı. Sardes Pers fethi 547/546 hakemli kaynaktan teyit edilemedi.",
+  "bulunamadı: Urartu kuruluşu (Arame/Sarduri I) ve Tuşpa için hakemli sayı — TDV 'Urartular' madde sayfası açılamadı (arama sonuç sayfası); Grekyan 2023 (Oxford History of the Ancient Near East IV) yalnız özet; Çifçi 2017 Appendix 2 (Brill doi:10.1163/9789004347595_007) kapalı; TUBA-AR Özfirat 2017 (tubaar.tuba.gov.tr) bağlantı reddedildi (ECONNREFUSED); asrjournal.org sertifika uyumsuzluğu; web.archive.org erişimi bu araç tarafından engelli.",
+  "bulunamadı: Knossos Tunç Çağı (Eski Saray MM IB, Yeni Saray, Miken Knossos/Linear B tabletleri) kalibre tarihleri — Manning 1995/Warren-Hankey/Cadogan 1983 (doi:10.2307/504109) kapalı; Höflmayer (ed.) 2009 'Time's Up!' bölümleri JSTOR kapalı; Skourtanioti vd. 2023 ek tabloları (Suppl. Table 3) açılmadı.",
+  "bulunamadı: Mikenai/Tiryns yıkım tabakaları ve Linear B Pylos tabletlerinin yangın tarihi — Judson 2019 (Kadmos, doi:10.1515/kadmos-2019-0006) Durham deposu 403; Mountjoy 2020 (Collapse and Transformation, doi:10.2307/j.ctv13pk6k9.25) kapalı. BCH/Yunanca kazı raporları açılmadı.",
+  "bulunamadı: Hacılar ve Canhasan'ın modellenmiş tarihleri — Fairbairn vd. 2020 Antiquity (doi:10.15184/aqy.2020.13): yalnız özet sayfası, Ek Tablo S1-S4 görünmedi ('temporarily unavailable'); Hacılar için hakemli 14C yayını çözümlenemedi.",
+  "bulunamadı: Khirokitia'nın Bayes modelleri 'süre' (modellenmiş başlangıç-bitiş) — yalnız Vigne vd. 2012 Şekil 3 başlığındaki 9.0-8.0 cal kyBP aktarması; Radiocarbon'daki Tholos XLVI serisi sayfası bot koruması (Anubis) nedeniyle AÇILMADI (kural gereği aşılmaya çalışılmadı); Cambridge PPS 'On the dating of Khirokitia in Cyprus' yalnız özet.",
+  "bulunamadı: Gordion Erken Frig Yıkım Tabakası'nın 95.4% kalibre aralığının tam metinden doğrulaması — 840-795 / 830-800 rakamları yalnız arama özetinden (tam metin açılamadı)."
+ ],
+ "kutuphane_gerekli": [
+  {
+   "eser": "Pavúk P. 2020, The Relative and Absolute Chronology: Troy VI and VII, in Pieniążek M., Pavúk P., Thumm-Doğrayan D., Pernicka E. (eds.), Troia 1987-2012: Grabungen und Forschungen III. Troia VI bis Troia VII, Studia Troica Monographien 7, Bonn, s.16-88",
+   "doi/url": "https://whitelevy.fas.harvard.edu/publications/troia-1987%E2%80%932012-grabungen-und-forschungen-iii",
+   "neden_gerekli": "Troya VI Erken/Orta/Geç ve VIIa/VIIb1 için mutlak (14C+dendro) sınır tarihleri ve VIh deprem / VIIa yıkımı; Fig. 26 ve Tab. (Easton-Weninger 2023 'Pavúk 2020.69, Fig. 26' diye atıf yapar)."
+  },
+  {
+   "eser": "Kromer B., Manning S.W., Kuniholm P.I., Newton M.W., Spurk M., Levanič T. (2003?) / Kromer B., Korfmann M., Jablonka P. — Heidelberg radiocarbon dates for Troia I to VIII and Kumtepe, in Wagner G.A., Pernicka E., Uerpmann H.-P. (eds.), Troia and the Troad, Natural Science in Archaeology, Springer",
+   "doi/url": "https://doi.org/10.1007/978-3-662-05308-9_4",
+   "neden_gerekli": "Troya I-VIII Heidelberg 14C listesi (Unpaywall is_oa=False); yazar listesi Crossref'ten çıkarılmadı — kütüphanede doğrulansın."
+  },
+  {
+   "eser": "Korfmann M., Kromer B. 1993, Demircihüyük, Besik-Tepe, Troia: eine Zwischenbilanz zur Chronologie dreier Orte in Westanatolien, Studia Troica 3:135-171",
+   "doi/url": "Studia Troica 3 (Weninger 1995'te atıfla)",
+   "neden_gerekli": "Troya Ib/Ic dendro-wiggle-match 2699±15 cal BC ve Fig. 23."
+  },
+  {
+   "eser": "Manning S.W., Kromer B., Kuniholm P.I., Newton M.W. 2001, Anatolian tree rings and a new chronology for the East Mediterranean Bronze-Iron Ages, Science 294(5551):2532-2535",
+   "doi/url": "https://doi.org/10.1126/science.1066112",
+   "neden_gerekli": "Gordion/Anadolu dendro çapası ve Hitit/Yakın Doğu senkronizmleri; özet yalnız 22 (+4/-7) yıl kaymayı verir."
+  },
+  {
+   "eser": "Hornung E., Krauss R., Warburton D.A. (eds.) 2006, Ancient Egyptian Chronology, Handbook of Oriental Studies 83, Brill; ve Kitchen K.A. (Ramses II kronolojisi)",
+   "doi/url": "https://doi.org/10.1163/9789047404002",
+   "neden_gerekli": "Kadeş Savaşı (Ramses II 5. yıl, III Şemu 9) mutlak yılı (1274/1275) ve Ramses II tahta çıkışı 1279 (hakemli, cilt/sayfa ile)."
+  },
+  {
+   "eser": "Stavi B. 2015, The Reign of Tudhaliya II and Šuppiluliuma I: The Contribution of the Hittite Documentation to a Reconstruction of the Amarna Age, Texte der Hethiter 31, Heidelberg: Winter; Bryce T. 2005, The Kingdom of the Hittites (2. bs.), Oxford UP, s.154-189",
+   "doi/url": "https://doi.org/10.1093/acprof:oso/9780199281329.003.07",
+   "neden_gerekli": "Şuppiluliuma I'in ölüm/tahta çıkış yılları, II. Mursili tutulması 1312 doğrulaması; birincil kitap ilk elden."
+  },
+  {
+   "eser": "Simon Z. 2020 ve Kloekhorst A. 2021 (Herrmann vd. 2023'te atıf); Beckman G. (Hattusili I Yıllıkları, CTH 4) handbook bölümü",
+   "doi/url": "Herrmann vd. 2023 kaynakça",
+   "neden_gerekli": "Labarna ve Hattusili I öncesi kral sırası, Hitit Eski Krallık KURULUŞU için mutlak tarih."
+  },
+  {
+   "eser": "Seeher J. (Boğazköy kazısı); Schachner A. 2017, Hattusa and its Environs: Archaeology, in Hittite Landscape and Geography, Brill, doi:10.1163/9789004349391_008; DAI 'Bronze Age Radiocarbondates from Bogazkoy-Hattusha' (repo.dainst.org); Schoop & Seeher 2006",
+   "doi/url": "https://doi.org/10.1163/9789004349391_008",
+   "neden_gerekli": "Hattuşa'nın terk yılı için 14C veri seti ve AA/MDOG raporları (Almanca); Manning 2023 yalnız 1200 civarı diyor."
+  },
+  {
+   "eser": "Manning S.W., Kromer B. 2011, Radiocarbon dating Iron Age Gordion, and the Early Phrygian Destruction in particular, s.123-153; Kuniholm P.I. vd. dendro bölümü; Rose & Darbyshire (eds.) The New Chronology of Iron Age Gordion, Penn Museum; ayrıca Kealhofer vd. 2019 tam metin (Tablolar)",
+   "doi/url": "https://doi.org/10.9783/9781934536551.123 ; https://doi.org/10.1017/rdc.2018.152",
+   "neden_gerekli": "Erken Frig Yıkım Tabakası ve LBA/EIA 15 tarihin 95.4% kalibre aralıkları (tablolar)."
+  },
+  {
+   "eser": "Grekyan Y. 2023, The Kingdom of Urartu, in Radner/Moeller/Potts (eds.), Oxford History of the Ancient Near East IV, s.769-864 (özellikle 44.2.3 'Issues of chronology', 44.5 'The end of Urartu'); Çifçi A. 2017, Appendix 2 Urartian Kings and Chronology, in The Socio-Economic Organisation of the Urartian Kingdom, Brill; TDV İslâm Ansiklopedisi 'Urartular' (Belli?) tam sayfası; Salvini M., Zimansky P., Kroll S.; Rusça Piotrovsky",
+   "doi/url": "https://academic.oup.com/book/45752/chapter/398240136 ; https://doi.org/10.1163/9789004347595_007",
+   "neden_gerekli": "Arame/Sarduri I/Tuşpa kuruluşu, Rusa/Sarduri III ve düşüş tarihleri (Aşur eponim bağlamı)."
+  },
+  {
+   "eser": "Fairbairn A. vd. 2020, Settlement change on the western Konya Plain: refining Neolithic and Chalcolithic chronologies at Canhasan, Turkey, Antiquity 94(374):342-360",
+   "doi/url": "https://doi.org/10.15184/aqy.2020.13",
+   "neden_gerekli": "Canhasan III/I modellenmiş 95.4% aralıkları (Ek Tablo S1-S4)."
+  },
+  {
+   "eser": "Portalsky A. 2023, Chronology of the Lydian dynasties, in Laflı E., Labarre G. (eds.), Studies on the history and archaeology of Lydia from the Early Lydian period to Late Antiquity, PUFC Besançon, s.57-76; Cogan M., Tadmor H. 1977 (Gyges-Aşurbanipal); Spalinger A. 1978; Hanfmann G.M.A. / Cahill N. (Sardis Harvard-Cornell)",
+   "doi/url": "https://books.openedition.org/pufc/80677 (doi:10.4000/15a4i)",
+   "neden_gerekli": "Gyges ve Mermnad hanedanı tarihleri ve Aşur kaynaklarına bağı; Sardes yıkım/Pers fethi tabakası."
+  },
+  {
+   "eser": "Warren P., Hankey V. 1989, Aegean Bronze Age Chronology; Manning S.W. 1995, The Absolute Chronology of the Aegean Early Bronze Age (A Test of Time); Cadogan G. 1983, Early Minoan and Middle Minoan Chronology, AJA 87; Höflmayer F. (ed.) 2009, Time's Up! Dating the Minoan eruption of Santorini; Macdonald C. (Protopalatial Knossos)",
+   "doi/url": "https://doi.org/10.2307/504109 ; https://doi.org/10.2307/jj.35529235.20",
+   "neden_gerekli": "Knossos Eski/Yeni Saray evre sınırları ve MM IB, LM IB yıkım tarihleri."
+  },
+  {
+   "eser": "Mountjoy P. 2020, LH IIIC pottery and destruction in the East Aegean-West Anatolian interface, Cilicia, Cyprus and coastal Levant, in Collapse and Transformation (Orient. Inst.); Iakovidis S. 1983, Late Helladic Citadels on Mainland Greece (Mycenae, Tiryns), Brill; French E. 1966-69 BSA (Mycenae LH IIIB destruction groups); Wardle K. LH IIIB/IIIC; BCH kazı raporları (Fransızca)",
+   "doi/url": "https://doi.org/10.2307/j.ctv13pk6k9.25 ; https://doi.org/10.1163/9789004528529_005",
+   "neden_gerekli": "Mikenai/Tiryns yıkım tabakalarının LH IIIB2/IIIC çerçevesi ve mutlak yıl ağı."
+  },
+  {
+   "eser": "Godart L., Sacconi A. (Pylos tabletleri 1250 tezi); Judson A.P. 2019, Two new Linear B tablets and an enigmatic find from Bronze Age Pylos, Kadmos 58; Blegen C.W. 1969/1973 Palace of Nestor",
+   "doi/url": "https://doi.org/10.1515/kadmos-2019-0006",
+   "neden_gerekli": "Pylos yangınının LH IIIB2/IIIC erken dönemlenmesi; Linear B tabletlerinin yangın tarihi."
+  },
+  {
+   "eser": "Khirokitia: Le Brun A. (ed.) Fouilles récentes à Khirokitia (Éditions Recherche sur les Civilisations); Radiocarbon 'Tholos XLVI' serisi; Cambridge Proc. Prehist. Soc. 'On the dating of Khirokitia in Cyprus'; Palmisano vd. 2022 (Kıbrıs 14C derlemesi, XRONOS)",
+   "doi/url": "https://journals.uair.arizona.edu/index.php/radiocarbon/article/view/480 (bot koruması); https://cambridge.org/core/journals/proceedings-of-the-prehistoric-society/article/abs/on-the-dating-of-khirokitia-in-cyprus/9B1F8CA227FB9AA104D4DAF78B87DC1F",
+   "neden_gerekli": "Khirokitia Bayes modeli: modellenmiş başlangıç-bitiş."
+  }
+ ]
+}

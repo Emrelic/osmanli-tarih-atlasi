@@ -40,14 +40,14 @@
 
 window.KRONOLOJI_COK_ORTA_ASYA2 = [
 
-{ t:"1370-01-01", b:"Firuz Şah Tuğluk, Malik Raja'ya Talner ve Karvand iktâlarını verdi — Fârûkîler'in Handeş'teki başlangıcı", tur:"idari", onem:2, dunya:1, kapsam:"ic",
+{ odak_yer:["Delhi"], t:"1370-01-01", b:"Firuz Şah Tuğluk, Malik Raja'ya Talner ve Karvand iktâlarını verdi — Fârûkîler'in Handeş'teki başlangıcı", tur:"idari", onem:2, dunya:1, kapsam:"ic",
   etiket:["idari","kurulus","konu-siyasi","hindistan"], yer_id:"", taraflar:["farukiler","delhi-sultanligi"],
   d:"Delhi Sultanı Firuz Şah Tuğluk, Tapti vadisindeki Talner ve Karvand bölgelerini Malik Raja'ya iktâ olarak verdi. Malik Raja bu topraklardan çevresini genişletti ve bölge sonradan Handeş adıyla anıldı. Verilişin kendisi bir vasallık ilişkisidir; bağımsızlık ayrı bir maddededir (1382).",
   kaynak:"Encyclopaedia Iranica, «Fārūqī Dynasty» (Yazar: Cambridge History of India / Ferishta'ya dayanır; madde sayfası açılmadı, web özeti okundu).",
   gun:"1370", ic_not_gun:"1370 (yıl; gün bulunamadı)",
   ic_not_d:"Künye `farukiler` f:1370-01-01 bu maddenin yılıdır AMA hükümdarlık 1382'de başlar — künye başlangıcı «vasal iktâ», «devlet» değil: KUNYE.md. Haritadaki Asîrgarh 1370-01-01 kırılması (Delhi→Fârûkîler) yıl temsilîdir." },
 
-{ t:"1382-01-01", b:"Malik Raja bağımsız hükümdar oldu — Handeş (Fârûkî) Sultanlığı", tur:"kurulus", onem:3, dunya:1, kapsam:"dis",
+{ odak_yer:["Delhi"], t:"1382-01-01", b:"Malik Raja bağımsız hükümdar oldu — Handeş (Fârûkî) Sultanlığı", tur:"kurulus", onem:3, dunya:1, kapsam:"dis",
   etiket:["kurulus","bolunme","konu-siyasi","hindistan"], yer_id:"", taraflar:["farukiler","delhi-sultanligi"],
   d:"Tuğluk merkezinin çözülmesi üzerine Malik Raja 1382'de Delhi'den bağımsız davranmaya başladı ve Handeş'te sultanlık kurdu; hanedan kendisini İkinci Halife Ömer'e (Fârûk) dayandırdığı için Fârûkî diye anıldı. Sultanlık başkentini Talner'den Burhânpûr'a taşıyacak ve 1601'de Ekber'e kadar ayakta kalacaktı.",
   kaynak:"Encyclopaedia Iranica, «Fārūqī Dynasty» (web özeti okundu; madde sayfası açılmadı) · Cambridge History of India, cilt 3 (1928) — sayfa verilmedi.",
@@ -145,7 +145,7 @@ window.KRONOLOJI_COK_ORTA_ASYA2 = [
   gun:"1849", ic_not_gun:"1849 (yıl; Narayan Singh'in ölümü ve ilhak aynı yıl — gün bulunamadı)",
   ic_not_d:"Haritadaki Sambalpur 1849-01-01 (boşluk→İngiliz Hindistanı) kırılmasını kapatır. Sambalpur'un 1797 (boşluk→maratha) ve 1817 (maratha→boşluk) kırılmaları için kaynak bulunamadı — ölçülemedi (Nagpur Bhonsle idaresinin Sambalpur'a uzanışı kaynaklı sınanmadı)." },
 
-{ t:"1853-12-11", b:"III. Raghuji Bhonsle varissiz öldü — Nagpur «ölüm ilkesiyle» İngiliz Hindistanı'na katıldı", tur:"idari", onem:3, dunya:1, kapsam:"ic",
+{ odak_yer:["Kalküta"], t:"1853-12-11", b:"III. Raghuji Bhonsle varissiz öldü — Nagpur «ölüm ilkesiyle» İngiliz Hindistanı'na katıldı", tur:"idari", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","toprak-kazanc","hanedan","konu-siyasi","hindistan"], yer_id:"", taraflar:["ingiliz-hindistani","nagpur-bhonsle"],
   d:"Marathaların Nagpur kolunun hükümdarı III. Raghuji 11 Aralık 1853'te erkek evlat ya da onaylanmış evlatlık bırakmadan öldü; Lord Dalhousie krallığı «ölüm ilkesi» gereği ilhak etti (biçimsel katılım 1854). Nagpur'la birlikte Orta Hindistan'daki Chhattisgarh (Raipur, Ratanpur) da doğrudan İngiliz idaresine girdi. Bu ilhak 1857 ayaklanmasının nedenleri arasında sayılır.",
   kaynak:"Barbara D. Metcalf & Thomas R. Metcalf, A Concise History of Modern India (Cambridge UP, 2. bs., 2006) · Britannica, «Doctrine of Lapse». Sayfa verilmedi (açılmadı; web özeti okundu).",

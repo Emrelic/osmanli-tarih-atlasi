@@ -1,0 +1,570 @@
+{
+ "parti": 62,
+ "sonuclar": [
+  {
+   "ad": "Tihâme",
+   "durum": "tek_kaynak",
+   "lat": 14.2,
+   "lon": 43.31,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Kronoloji maddeleri Yemen Tihâmesi'ndeki Ziyâdî/Zebîd bağlamında. TDV: Yemen Tihâmesi Cîzân-Bâbülmendep arası, merkezi Zebîd. Nokta Zebîd şehrine konuldu. Pleiades kaydı yok.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/tihame",
+     "not": "Kızıldeniz sahilinde dar kıyı ovası; Yemen Tihâmesi merkezi Zebîd"
+    }
+   ],
+   "ulke_modern": "Yemen"
+  },
+  {
+   "ad": "Gallaecia",
+   "durum": "tek_kaynak",
+   "lat": 42.5,
+   "lon": -8.0,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Suev krallığı çekirdeği Braga-Lugo-Ourense çevresi; Pleiades Gallaecia (991317) bbox çok dar (-8.5..-7.58, 42.1..43.3) ve antik eyalet (-30..300). Nokta bu bbox'ın içinde, Ourense-Lugo arası. İkinci bağımsız kaynak getirilemedi.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/991317",
+     "not": "province-2, bbox dar, dönem -30..300; 5-6. yy. Suev bağlamıyla kısmen uyumlu"
+    }
+   ],
+   "ulke_modern": "İspanya"
+  },
+  {
+   "ad": "Hırvatistan",
+   "durum": "belirsiz",
+   "lat": 44.04,
+   "lon": 16.2,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Tomislav dönemi (914-928) Hırvat çekirdeği Knin/Dalmaçya + Pannonia Hırvatistanı; kapsamı veren kaynak getirilemedi (TDV sayfası kapsamı tanımlamıyor). Nokta Knin civarı, tahmini.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/hirvatlar",
+     "not": "Kapsam tanımı bulunamadı"
+    }
+   ],
+   "ulke_modern": "Hırvatistan"
+  },
+  {
+   "ad": "Fars",
+   "durum": "bolge_temsilci",
+   "lat": 29.62,
+   "lon": 52.53,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Fars güneyde, 50-55 D / 26-31 K arasında, idarî merkez Şîraz. Pleiades Persis/Pars (922698) merkez 30.10,52.49, bbox 51.56-53.42 / 29.85-30.37. Nokta Şîraz (29.6,52.5) civarı; Pleiades bbox'ına ~25 km yakın, TDV'ye tam uyar.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/fars",
+     "not": "Fars İran'ın güneyi, merkez Şîraz"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/922698",
+     "not": "Persis/Pars region, 51.56-53.42 / 29.85-30.37"
+    }
+   ],
+   "ulke_modern": "İran"
+  },
+  {
+   "ad": "Yahudiye",
+   "durum": "tek_kaynak",
+   "lat": 31.77,
+   "lon": 35.21,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Pleiades Iudaea region (687934) bbox 34.85-35.24 / 31.57-31.93 Kudüs çevresini kapsar; nokta Kudüs. TDV sayfası kapsamı tanımlamıyor (yalnız Beytlehem/Kudüs bağlantısı).",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/687934",
+     "not": "Iudaea region, bbox Kudüs'ü içerir"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/yahudiye",
+     "not": "Kapsam tanımı yok; Beytlehem'i Yahudiye'ye bağlar"
+    }
+   ],
+   "ulke_modern": "İsrail/Filistin"
+  },
+  {
+   "ad": "Arrân",
+   "durum": "tek_kaynak",
+   "lat": 40.45,
+   "lon": 47.2,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Kür ile Aras arası; merkez 6. yy.dan Berde'a (Berdea), 1220'lerden sonra Gence. Dönem 685-838 için Berde'a (40.37,47.13) çevresi seçildi. Pleiades Albania (863731) bbox 47.8-48.4 / 40.7-42.0 kuzeye ve doğuya kayık, nokta bbox dışında; bu yüzden ikinci kaynak sayılmadı.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/arran",
+     "not": "Kür-Aras arası; merkez Berde'a (6. yy.), Gence (13. yy.)"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/863731",
+     "not": "Albania region; bbox noktayı içermez, kısmen uyumlu"
+    }
+   ],
+   "ulke_modern": "Azerbaycan"
+  },
+  {
+   "ad": "Girit",
+   "durum": "tek_kaynak",
+   "lat": 35.3,
+   "lon": 25.0,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Ege'yi Akdeniz'den ayıran ada, ~260 km D-B, merkez Kandiye (Herakleion) 1850'ye dek. Nokta ada ortası-doğusu, Kandiye'ye ~15 km. Pleiades kaydı yok.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/girit",
+     "not": "Ada 8.259 km2; merkez Kandiye"
+    }
+   ],
+   "ulke_modern": "Yunanistan"
+  },
+  {
+   "ad": "Bahreyn",
+   "durum": "tek_kaynak",
+   "lat": 26.56,
+   "lon": 50.01,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Tarihî Bahreyn = Arabistan doğu kıyısı (Katîf, Hecer, Lahsâ; Karmatî merkezi Ahsâ). TDV bölge sınırını açıkça vermiyor, şehirleri sayıyor. Nokta Katîf. Pleiades Dilmun (912837) Kuveyt/Fayleka'dır, uygunsuz bulundu.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/bahreyn",
+     "not": "Katîf, Hicr, Lahsâ anılır; bölge sınırı tanımlı değil"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/912837",
+     "not": "Dilmun (region) Kuveyt Körfezi, reddedildi"
+    }
+   ],
+   "ulke_modern": "Suudi Arabistan"
+  },
+  {
+   "ad": "Livonya",
+   "durum": "belirsiz",
+   "lat": 57.3,
+   "lon": 25.0,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "1210-1237 Livonya, Kılıç Kardeşleri/Livonya Tarikatı toprağı (bugünkü Letonya + güney Estonya). Kaynak getirilemedi; nokta tahmini, Riga-Cēsis arası.",
+   "tanik": [
+    {
+     "kaynak": "Atlas kronoloji bağlamı / genel coğrafya bilgisi (bağımsız kaynak getirilemedi)",
+     "url_veya_atif": "-",
+     "not": "Kılıç Kardeşleri Riga-Cēsis çevresi"
+    }
+   ],
+   "ulke_modern": "Letonya/Estonya"
+  },
+  {
+   "ad": "Mauretania",
+   "durum": "tek_kaynak",
+   "lat": 35.2,
+   "lon": -0.7,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Juba II/Ptolemaios krallığı Mulûya nehri ile Cezayir ortası arası (Tingitana+Caesariensis); nokta orta, Oran-Tlemsen arası. Pleiades Mauretania (1119) rough bbox -5..0 / 30..35, merkez 32.5,-2.5 (çölde), kaba; kısmen uyumlu.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/1119",
+     "not": "region, rough, bbox -5..0 / 30..35"
+    }
+   ],
+   "ulke_modern": "Cezayir/Fas"
+  },
+  {
+   "ad": "Macaristan",
+   "durum": "tek_kaynak",
+   "lat": 47.2,
+   "lon": 18.9,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Orta Avrupa'da, Tuna boyunca ~417 km, Pannonia batıda, Estergon kuzeybatıda. Nokta Tuna dirseği-Székesfehérvár arası (ortaçağ çekirdeği). Pleiades yok.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/macaristan",
+     "not": "Orta Avrupa, Tuna, Pannonia, Estergon"
+    }
+   ],
+   "ulke_modern": "Macaristan"
+  },
+  {
+   "ad": "Sichuan",
+   "durum": "tek_kaynak",
+   "lat": 30.66,
+   "lon": 104.07,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Sichuan havzası; Sonraki Shu merkezi Chengdu. Bağımsız kaynak getirilemedi.",
+   "tanik": [
+    {
+     "kaynak": "Atlas kronoloji bağlamı / genel coğrafya bilgisi (bağımsız kaynak getirilemedi)",
+     "url_veya_atif": "-",
+     "not": "Chengdu, Sichuan havzası çekirdeği"
+    }
+   ],
+   "ulke_modern": "Çin"
+  },
+  {
+   "ad": "Ürdün",
+   "durum": "tek_kaynak",
+   "lat": 32.6,
+   "lon": 35.6,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: fetih dönemi Ürdün cündü Taberiye, Beysân, Fihl, Cereş şehirlerini içerir; merkez belirtilmiyor. Nokta Taberiye-Beysân-Fihl arası. Mûte (Kerek) bölgesi dışta kalır; Pleiades yok.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/urdun",
+     "not": "Taberiye, Beysân, Fihl, Cereş bağlı"
+    }
+   ],
+   "ulke_modern": "Ürdün/İsrail"
+  },
+  {
+   "ad": "Moesia",
+   "durum": "belirsiz",
+   "lat": 43.8,
+   "lon": 24.5,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Moesia Superior (Sırbistan) ve Inferior (Bulgaristan Tuna kıyısı) ayrı; maddeler (Dak saldırısı 85/105, Gotlar 382) Inferior ağırlıklı. Kaynak getirilemedi; nokta tahmini (Nikopol-Svishtov çevresi).",
+   "tanik": [
+    {
+     "kaynak": "Atlas kronoloji bağlamı / genel coğrafya bilgisi (bağımsız kaynak getirilemedi)",
+     "url_veya_atif": "-",
+     "not": "Moesia Tuna güneyi, Balkan dağları kuzeyi"
+    }
+   ],
+   "ulke_modern": "Bulgaristan/Sırbistan"
+  },
+  {
+   "ad": "İtalya",
+   "durum": "bolge_temsilci",
+   "lat": 42.8,
+   "lon": 12.5,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: yarımada + Sicilya + Sardinya. Pleiades Italia (1052) bbox 9.73-15.51 / 40.87-44.52. Maddeler (Bizans geri alışı, Longobard, Karolenj) yarımadayı kapsar; nokta yarımada ortası, Pleiades bbox içinde (Umbria-Lazio). Tarihî çekirdek Pavia kuzeyde, tek nokta olarak tercih edilmedi.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/italya",
+     "not": "Yarımada, Sicilya ve Sardinya"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/1052",
+     "not": "Italia region, bbox 9.73-15.51 / 40.87-44.52"
+    }
+   ],
+   "ulke_modern": "İtalya"
+  },
+  {
+   "ad": "İran",
+   "durum": "belirsiz",
+   "lat": 32.0,
+   "lon": 53.0,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "457-601 Sâsânî İranı Mezopotamya'dan Horasan'a uzanır; kapsamı veren kaynak getirilemedi. Nokta İran platosu ortası, tahmini.",
+   "tanik": [
+    {
+     "kaynak": "Atlas kronoloji bağlamı / genel coğrafya bilgisi (bağımsız kaynak getirilemedi)",
+     "url_veya_atif": "-",
+     "not": "Sâsânî İranı, Fars-Mezopotamya çekirdeği"
+    }
+   ],
+   "ulke_modern": "İran"
+  },
+  {
+   "ad": "Dakya",
+   "durum": "tek_kaynak",
+   "lat": 46.0,
+   "lon": 23.4,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Dak krallığı çekirdeği Orăștie dağları (Sarmizegetusa Regia 45.62,23.31) ve Transilvanya. Pleiades Dacia region (207065) 47.26,23.28 küçük bbox; province (981518) rough bbox 20-25 / 45-50 noktayı içerir. İkinci kaynak getirilemedi.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/981518",
+     "not": "Dacia province, rough bbox 20-25 / 45-50"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/207065",
+     "not": "Dacia region, 47.26,23.28"
+    }
+   ],
+   "ulke_modern": "Romanya"
+  },
+  {
+   "ad": "Galiçya",
+   "durum": "tek_kaynak",
+   "lat": 42.8,
+   "lon": -8.0,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Maddeler: I. Alfonso'nun Galiçya'yı katması (741), Suev Gallaecia (409). Pleiades Gallicia (810796635) bbox -9.30..-6.73 / 41.81..43.79 (640+), merkez 42.82,-8.24; nokta bbox içinde. TDV vb. ikinci kaynak getirilemedi.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/810796635",
+     "not": "Gallicia region, dönem 640-2100"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/991317",
+     "not": "Gallaecia, antik"
+    }
+   ],
+   "ulke_modern": "İspanya"
+  },
+  {
+   "ad": "Şirvan",
+   "durum": "tek_kaynak",
+   "lat": 40.63,
+   "lon": 48.64,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Kür, Kafkas sıradağları ve Alazan arası; Şirvanşahlar merkezi Şemâhî. Nokta Şemâhî. Pleiades yok.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/sirvan",
+     "not": "Kür-Kafkaslar-Alazan arası; merkez Şemâhî"
+    }
+   ],
+   "ulke_modern": "Azerbaycan"
+  },
+  {
+   "ad": "Champa",
+   "durum": "tek_kaynak",
+   "lat": 13.8,
+   "lon": 109.1,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "1203-1220 Khmer yönetimi Vijaya (Binh Dinh) merkezli Cham çekirdeğini ilgilendirir. Bağımsız kaynak getirilemedi.",
+   "tanik": [
+    {
+     "kaynak": "Atlas kronoloji bağlamı / genel coğrafya bilgisi (bağımsız kaynak getirilemedi)",
+     "url_veya_atif": "-",
+     "not": "Vijaya/Binh Dinh çevresi"
+    }
+   ],
+   "ulke_modern": "Vietnam"
+  },
+  {
+   "ad": "Libya",
+   "durum": "belirsiz",
+   "lat": 24.8,
+   "lon": 10.45,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Maddeler yalnız Takarkori sığınağı (Tadrart Acacus, GB Libya); ad modern ülke. Pleiades Libya (716588) 31.5,26.5 rough, antik Kirenaika-Mısır sınırı, uygunsuz. Nokta Takarkori çevresi.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/716588",
+     "not": "Libya region rough; reddedildi"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/373777",
+     "not": "Cyrenaica; uygunsuz"
+    }
+   ],
+   "ulke_modern": "Libya"
+  },
+  {
+   "ad": "Kamboçya",
+   "durum": "tek_kaynak",
+   "lat": 13.37,
+   "lon": 103.95,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "710-900 Khmer çekirdeği Angkor/Roluos (Hariharalaya) ve Prasat Ak Yom, Siem Reap ovası. Bağımsız kaynak getirilemedi.",
+   "tanik": [
+    {
+     "kaynak": "Atlas kronoloji bağlamı / genel coğrafya bilgisi (bağımsız kaynak getirilemedi)",
+     "url_veya_atif": "-",
+     "not": "Siem Reap ovası, Angkor-Roluos"
+    }
+   ],
+   "ulke_modern": "Kamboçya"
+  },
+  {
+   "ad": "Burgonya",
+   "durum": "belirsiz",
+   "lat": 47.3,
+   "lon": 5.04,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "912 Rodolphe II Burgonya krallığı (Transjuran, Cenevre-Saint-Maurice) ile 1015 Burgonya Dükalığı (Dijon) farklı kapsamlarda; tek nokta güvenilmez. Nokta Dijon tahmini.",
+   "tanik": [
+    {
+     "kaynak": "Atlas kronoloji bağlamı / genel coğrafya bilgisi (bağımsız kaynak getirilemedi)",
+     "url_veya_atif": "-",
+     "not": "Dijon çevresi; krallık kuzeybatı Alpler'de"
+    }
+   ],
+   "ulke_modern": "Fransa/İsviçre"
+  },
+  {
+   "ad": "Kapadokya",
+   "durum": "bolge_temsilci",
+   "lat": 38.65,
+   "lon": 35.65,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Kapadokya = Kayseri bölgesi. Pleiades Cappadocia region (628949) merkez 38.63,35.85, bbox 34.32-37.81 / 37.55-38.99; Kayseri (38.72,35.49) bbox içinde. Nokta Kayseri-Develi ovası, iki tarife uyar.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/kapadokya",
+     "not": "Anadolu'da, Kayseri bölgesi"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/628949",
+     "not": "Cappadocia region precise, -550..640"
+    }
+   ],
+   "ulke_modern": "Türkiye"
+  },
+  {
+   "ad": "Mağrib",
+   "durum": "tek_kaynak",
+   "lat": 34.0,
+   "lon": -4.5,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Mısır'dan Atlantik'e Kuzey Afrika (Libya-Moritanya). Maddeler (958 Cevher es-Sıkıllî'nin seferi, 978 Bulukkîn valilikleri) Fas-Orta Mağrib ağırlıklı. Çok geniş bölge; nokta Fas, Fez çevresi, kapsamın batı çekirdeği.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/magrib",
+     "not": "Mısır'dan Atlantik'e Kuzey Afrika"
+    }
+   ],
+   "ulke_modern": "Fas"
+  },
+  {
+   "ad": "Kilikya",
+   "durum": "bolge_temsilci",
+   "lat": 37.05,
+   "lon": 35.15,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Kilikya = Çukurova (Adana). Maddeler 117 Trajan ve 965 Misis-Tarsus-Çukurova. Pleiades Cilicia Roman province (981514) bbox 31.44-36.33 / 36.74-37.4 Adana-Tarsus'u (35.0-35.3) kapsar. Pleiades 658440 (Cilicia Tracheia batı) ve 628957 (Kayseri yanında) yanlış, reddedildi. Nokta Adana-Tarsus arası.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/kilikya",
+     "not": "Kilikya = Çukurova, Adana"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/981514",
+     "not": "Cilicia Roman province, bbox Çukurova'yı içerir"
+    }
+   ],
+   "ulke_modern": "Türkiye"
+  },
+  {
+   "ad": "Hârezm",
+   "durum": "tek_kaynak",
+   "lat": 41.55,
+   "lon": 60.4,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Aral'ın güneyi; eski başkent Kâs (Kât, Ceyhun sağ kıyısı), ikinci başkent Gürgenç sol kıyıda. 711 Kuteybe seferi Kât ile ilgili. Nokta Kât/Hîve arası, Ceyhun deltası güneyi. Pleiades yok.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/harizm",
+     "not": "Aral'ın güneyi; Kâs, Gürgenç, Hîve"
+    }
+   ],
+   "ulke_modern": "Özbekistan/Türkmenistan"
+  },
+  {
+   "ad": "Endülüs",
+   "durum": "bolge_temsilci",
+   "lat": 37.89,
+   "lon": -4.78,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Endülüs başlangıçta fethedilen İspanya'nın tamamı; başşehir Kurtuba. 756-1086 Endülüs Emevîsi ve Taifa; nokta Kurtuba. Pleiades Baetica (981510/991318) rough bbox -10..-5 / 35..40 ve Roma eyaleti; Guadalquivir havzası, Kurtuba tarihî Baetica içindedir, kaba bbox'a batıdan ~0.2 derece dışta.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/endulus",
+     "not": "Fethedilen İspanya; başşehir Kurtuba"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/981510",
+     "not": "Baetica province, rough bbox -10..-5 / 35..40"
+    }
+   ],
+   "ulke_modern": "İspanya"
+  },
+  {
+   "ad": "Bengal",
+   "durum": "tek_kaynak",
+   "lat": 23.8,
+   "lon": 89.0,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Bihar ile Orissa arası, Ganj-Brahmaputra deltası ve taşkın ovası, Himalaya'ya dek. Pâla çekirdeği kuzey Bengal-Bihar; nokta delta ortası/Gaur-Pandua güneyi. Pleiades yok.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/bengal",
+     "not": "Bihar ile Orissa arası, Ganj-Brahmaputra deltası"
+    }
+   ],
+   "ulke_modern": "Bangladeş/Hindistan"
+  },
+  {
+   "ad": "Yunnan",
+   "durum": "tek_kaynak",
+   "lat": 25.6,
+   "lon": 100.2,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Nanzhao merkezi Dali/Erhai gölü çevresi. Bağımsız kaynak getirilemedi.",
+   "tanik": [
+    {
+     "kaynak": "Atlas kronoloji bağlamı / genel coğrafya bilgisi (bağımsız kaynak getirilemedi)",
+     "url_veya_atif": "-",
+     "not": "Dali, Nanzhao çekirdeği"
+    }
+   ],
+   "ulke_modern": "Çin"
+  }
+ ]
+}

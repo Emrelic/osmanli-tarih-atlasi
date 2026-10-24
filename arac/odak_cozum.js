@@ -433,6 +433,11 @@ function sekmeDali(m, d) {
   const hedef = m.yer_id ? olayKonumu(m) : null;
   if (hedef) return { dal: "SEKME_NOKTA" };
   if (!m.kapsam_genis) {
+    // 14 Ekim 2026 (KARARLAR-1014 #40) — app.js `maddeAc` bu dalda da `maddeOdakKutusu(m)`
+    // çağırıyor (ucusAcik iken); odak yazılı ve kutu kuruluyorsa kamera ORAYA gider.
+    let k0 = null;
+    try { k0 = maddeOdakKutusu(m); } catch (e) { k0 = null; }
+    if (k0 && k0.kutu) return { dal: "SEKME_KUTU" };
     if (odakYazili(m)) return { dal: "SEKME_OKUNMAYAN", alt: "kipirdamaz_odak" };
     if (yerKonYazili(m)) return { dal: "SEKME_OKUNMAYAN", alt: "kipirdamaz_yer_kon" };
     return { dal: "SEKME_KIPIRDAMAZ" };
@@ -543,7 +548,9 @@ tumu.forEach(function (r) {
   if (sinif === "BEYANLI") d.beyanli.push({ k: mk, yol: yol });   // göç bekçisi (KIMLIK-1006)
   if (sinif === "ODAKSIZ") {
     d.odaksiz.push({ t: m.t, b: String(m.b || "").slice(0, 90), yer_id: m.yer_id || null,
-                     onem: m.onem, dunya: m.dunya, yol: yol, k: mk });
+                     onem: m.onem, dunya: m.dunya, yol: yol, k: mk,
+                     kunye: sekmeKunye.get(m) || null, bt: String(m.b || ""),
+                     kbas: ((kunyeIx[sekmeKunye.get(m)] || {}).baskent) || null });
   }
   if (yol === "SEKME") {
     const kd = kunyeIx[sekmeKunye.get(m)];

@@ -1,0 +1,3538 @@
+[
+ {
+  "id": "norman-ifrikiye",
+  "ad": "Norman Afrika (İfrîkıye) Krallığı",
+  "f": "1148-01-01",
+  "t": "1160-01-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "AFRIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Mehdiye",
+    "k": 4,
+    "ilk_s": 1229
+   },
+   {
+    "ad": "Mamûra (Mehdiye)",
+    "k": 4,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Sfaks",
+    "k": 4,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Trablus",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 4
+ },
+ {
+  "id": "venedik-dalmacya",
+  "ad": "Venedik Dalmaçyası (Zara ve Dalmaçya şehirleri)",
+  "f": "1000-01-01",
+  "t": "1358-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Zadar (Zara)",
+    "k": 1,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Zara",
+    "k": 4,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Split (Spalato)",
+    "k": 3,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Şibenik (Sebenico)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 4
+ },
+ {
+  "id": "gansu-uygur",
+  "ad": "Gansu (Kançou / Sarı) Uygur Krallığı",
+  "f": "0894-01-01",
+  "t": "1036-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BOZKIR_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Zhangye (Ganzhou)",
+    "k": 4,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Ganzhou",
+    "k": 0,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Dunhuang",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 3
+ },
+ {
+  "id": "toskana-markizligi",
+  "ad": "Toskana Markizliği",
+  "f": "0812-01-01",
+  "t": "1197-11-11",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ITALYA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Lucca",
+    "k": 0,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Floransa",
+    "k": 1,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Pisa",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 3
+ },
+ {
+  "id": "lombard-birligi",
+  "ad": "Lombard Birliği (Lega Lombarda)",
+  "f": "1167-01-01",
+  "t": "1250-12-13",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Brescia",
+    "k": 2,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Bergamo",
+    "k": 2,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Mantova",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 3
+ },
+ {
+  "id": "sacilar",
+  "ad": "Sâcîler (Ebu's-Sâc oğulları)",
+  "f": "0889-01-01",
+  "t": "0929-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "MEZOIR_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Merâga",
+    "k": 2,
+    "ilk_s": 1054
+   },
+   {
+    "ad": "Erdebil",
+    "k": 1,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Berde (Karabağ)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 3
+ },
+ {
+  "id": "kafkas-arnavutlugu",
+  "ad": "Kafkas Arnavutluğu (Albania) Krallığı",
+  "f": "-0298-01-01",
+  "t": "0705-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Kabala",
+    "k": 3,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Derbend",
+    "k": 3,
+    "ilk_s": 1239
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "austrasia",
+  "ad": "Austrasia Kralligi (Merovenj)",
+  "f": "0511-01-01",
+  "t": "0751-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Reims",
+    "k": 3,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Metz",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "ganzhou-uygur",
+  "ad": "Ganzhou Uygur Krallığı (Hexi)",
+  "f": "0894-01-01",
+  "t": "1036-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Zhangye (Ganzhou)",
+    "k": 4,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Ganzhou",
+    "k": 0,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "hamsavati-pegu",
+  "ad": "Hamsavati (Pegu) Mon Krallığı",
+  "f": "0825-01-01",
+  "t": "1057-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "GDASYA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Pegu (Bago)",
+    "k": 1,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Thaton",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "galya-imparatorlugu",
+  "ad": "Galya İmparatorluğu (Imperium Galliarum)",
+  "f": "0260-01-01",
+  "t": "0273-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ITALYA_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Trier",
+    "k": 3,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Köln",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "torino-markizligi",
+  "ad": "Torino (Arduinik) Markizliği",
+  "f": "0940-01-01",
+  "t": "1091-12-19",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Torino",
+    "k": 1,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Şuşa",
+    "k": 2,
+    "ilk_s": 1752
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "kanosa-hanedani",
+  "ad": "Kanosa Hanedanlığı (Canossa/Matilda)",
+  "f": "0950-01-01",
+  "t": "1115-07-24",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ITALYA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Mantova",
+    "k": 1,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Lucca",
+    "k": 0,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "roma-komunu",
+  "ad": "Roma Komünü ve Senatosu",
+  "f": "1143-01-01",
+  "t": "1155-01-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Roma",
+    "k": 1,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Roma (Queensland)",
+    "k": 1,
+    "ilk_s": 1867
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "ezzelino-signoria",
+  "ad": "Ezzelino da Romano Signoria'sı",
+  "f": "1236-11-01",
+  "t": "1259-10-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Verona",
+    "k": 3,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Padova",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "fenike-ozerk-sehirleri",
+  "ad": "Fenike Özerk Şehirleri (Helenistik-Roma)",
+  "f": "-0258-01-01",
+  "t": "-0062-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "LEVARAP_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tire",
+    "k": 4,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Sayda",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "mekke-kureys",
+  "ad": "Mekke Kureyş Şehir Yönetimi",
+  "f": "0450-01-01",
+  "t": "0630-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "LEVARAP_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Mekke",
+    "k": 2,
+    "ilk_s": 1000
+   },
+   {
+    "ad": "Tâif",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "yafa-askalan",
+  "ad": "Yafa ve Askalan Kontluğu",
+  "f": "1100-01-01",
+  "t": "1268-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "LEVARAP_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Yafa",
+    "k": 3,
+    "ilk_s": 1228
+   },
+   {
+    "ad": "Askalân",
+    "k": 3,
+    "ilk_s": null
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "proto-elam-susa",
+  "ad": "Proto-Elam Susa (Susa II-III; Proto-Elam yazi alani)",
+  "f": "-3099-01-01",
+  "t": "-2699-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_A",
+  "delik_yerlesimler": [
+   {
+    "ad": "Şuşa",
+    "k": 2,
+    "ilk_s": 1752
+   },
+   {
+    "ad": "Susa",
+    "k": 0,
+    "ilk_s": -2023
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "ifraniler-tilimsan",
+  "ad": "Yıfrenîler (Benî Yıfren - Tilimsan/Sala)",
+  "f": "0765-01-01",
+  "t": "1066-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "AFRIKA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tilimsan",
+    "k": 3,
+    "ilk_s": 1080
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "sfaks-hammu-emirligi",
+  "ad": "Sfaks (Sefâkus) Emirliği — Hammû b. Mellîl el-Bargavâtî",
+  "f": "1062-01-01",
+  "t": "1099-01-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "AFRIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Sfaks",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "sfaks-firyani-emirligi",
+  "ad": "Sfaks Emirliği — Ömer b. Ebü'l-Hüseyin el-Firyânî (Norman sonrası)",
+  "f": "1156-01-01",
+  "t": "1159-01-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "AFRIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Sfaks",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kafsa-benirend-emirligi",
+  "ad": "Kafsa (Gafsa) Emirliği — Benî Rend",
+  "f": "1053-01-01",
+  "t": "1159-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "AFRIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Kafsa",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "chichen-itza",
+  "ad": "Chichén Itzá Devleti",
+  "f": "0800-01-01",
+  "t": "1200-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "AMERIKA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Chichén Itzá",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kuzco-krallik",
+  "ad": "Kuzco Krallığı (Hurin-Hanan, Inka öncesi/erken)",
+  "f": "1200-01-01",
+  "t": "1438-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "AMERIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Cusco (Qosqo)",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "aymara-senyorlukler",
+  "ad": "Altiplano Aymara Krallıkları (Colla/Lupaqa)",
+  "f": "1100-01-01",
+  "t": "1450-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "AMERIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Chucuito",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tututepec",
+  "ad": "Tututepec (Mixtek krallığı)",
+  "f": "1100-01-01",
+  "t": "1522-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "AMERIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tututepec (Yucu Dzaa)",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "lazika",
+  "ad": "Lazika (Egrisi) Krallığı",
+  "f": "0201-01-01",
+  "t": "0701-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Kutaisi",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "abhazya-krallik",
+  "ad": "Abhazya Krallığı",
+  "f": "0786-01-01",
+  "t": "1008-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Kutaisi",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tarsus-emirlik",
+  "ad": "Tarsus Tuğur Emirliği",
+  "f": "0878-01-01",
+  "t": "0965-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tarsus",
+    "k": 3,
+    "ilk_s": 1172
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "nesiotai-koinon",
+  "ad": "Nesiotai (Kyklades Adalar) Birliği",
+  "f": "-0313-01-01",
+  "t": "-0166-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Andros",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "taulantioi",
+  "ad": "Taulantioi Krallığı",
+  "f": "-0398-01-01",
+  "t": "-0301-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Gölyazı (Apollonia)",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "hirvat-dukalik",
+  "ad": "Hırvat Dükalığı (Dalmaçya)",
+  "f": "0810-01-01",
+  "t": "0925-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "cekirdek",
+  "_dilim": "BALKAN_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Knin",
+    "k": 3,
+    "ilk_s": 1102
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "donja-panonija-vojnomir-ljudevit",
+  "ad": "Aşağı Pannonia Dukalığı (Vojnomir–Ljudevit dönemi)",
+  "f": "0795-01-01",
+  "t": "0823-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Sisak",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "veligosti-damala-baronluk",
+  "ad": "Veligosti-Damala Baronluğu",
+  "f": "1209-01-01",
+  "t": "1300-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Damala (Troizen)",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "patras-baronluk",
+  "ad": "Patras Baronluğu",
+  "f": "1209-01-01",
+  "t": "1429-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Balyabadra (Patras)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "ghisi-tinos-mykonos",
+  "ad": "Ghisi Lordluğu (Tinos, Mykonos, Kuzey Sporadlar)",
+  "f": "1207-01-01",
+  "t": "1390-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "İstendil (Tinos)",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "neustria",
+  "ad": "Neustria Kralligi (Merovenj)",
+  "f": "0511-01-01",
+  "t": "0751-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Paris",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "friz-krallik",
+  "ad": "Frizya Kralligi (Radbod)",
+  "f": "0600-01-01",
+  "t": "0734-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Utrecht",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "waterford-norse",
+  "ad": "Waterford (Norse) Kralligi",
+  "f": "0914-01-01",
+  "t": "1170-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Waterford",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "limerick-norse",
+  "ad": "Limerick (Norse) Kralligi",
+  "f": "0922-01-01",
+  "t": "1014-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Limerick",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "galicia-kralligi",
+  "ad": "Galicya Kralligi",
+  "f": "0910-01-01",
+  "t": "1071-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Santiago de Compostela",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "septimania-gotia",
+  "ad": "Septimania / Gotia Markizligi",
+  "f": "0759-01-01",
+  "t": "0900-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Narbonne",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "maine-kontlugu",
+  "ad": "Maine Kontluğu",
+  "f": "0846-01-01",
+  "t": null,
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Le Mans",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "malaga-hammudiler",
+  "ad": "Hammudiler (Malaga Taifesi)",
+  "f": "1023-01-01",
+  "t": "1057-03-10",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Málaga",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "afrigoglu-harezm",
+  "ad": "Afrigoğulları (Hârizmşahlar, Kât)",
+  "f": "0305-01-01",
+  "t": "0995-01-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "BOZKIR_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Köhne Ürgenç (Gürgenç)",
+    "k": 2,
+    "ilk_s": 1017
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tohar-yabgu",
+  "ad": "Toharistan Yabguluğu (Batı Göktürk vasalı)",
+  "f": "0630-01-01",
+  "t": "0750-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "BOZKIR_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Belh",
+    "k": 2,
+    "ilk_s": 1198
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "semerkant-ihsid",
+  "ad": "Semerkant Soğd İhşîdleri (Gûrek)",
+  "f": "0710-01-01",
+  "t": "0738-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "BOZKIR_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Semerkant",
+    "k": 2,
+    "ilk_s": 1000
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "henan-krallik",
+  "ad": "Henan (河南) Krallığı",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Luoyang",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "gengshi",
+  "ad": "Gengshi Rejimi (Xuan Han / Lulin)",
+  "f": "0023-03-11",
+  "t": "0025-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Xi'an (Chang'an)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "chimei-jianshi",
+  "ad": "Kızıl Kaşlılar Rejimi (Jianshi)",
+  "f": "0025-01-01",
+  "t": "0027-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Xi'an (Chang'an)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "chengjia-gongsun-shu",
+  "ad": "Chengjia (成家, Gongsun Shu)",
+  "f": "0025-01-01",
+  "t": "0036-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Çengdu (Chengdu)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "cheng-han",
+  "ad": "Cheng-Han (成漢)",
+  "f": "0304-01-01",
+  "t": "0347-01-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Çengdu (Chengdu)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "onceki-qin",
+  "ad": "Önceki Qin (前秦)",
+  "f": "0351-01-01",
+  "t": "0394-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Xi'an (Chang'an)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kuzey-liang",
+  "ad": "Kuzey Liang (北涼)",
+  "f": "0397-01-01",
+  "t": "0439-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Zhangye (Ganzhou)",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "bati-liang-16",
+  "ad": "Batı Liang (西涼)",
+  "f": "0400-01-01",
+  "t": "0421-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Dunhuang",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "sui-zheng-wang-shichong",
+  "ad": "Zheng (Wang Shichong, 鄭)",
+  "f": "0619-01-01",
+  "t": "0621-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "CIN_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Luoyang",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "an-lushan-yan",
+  "ad": "Yan (An Lushan, 大燕)",
+  "f": "0756-01-01",
+  "t": "0763-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Luoyang",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tang-jin-shatuo-prensligi",
+  "ad": "Jin (Li Keyong, Shatuo prensliği)",
+  "f": "0902-01-01",
+  "t": "0923-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Taiyuan",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tambralinga",
+  "ad": "Tambralinga",
+  "f": "0700-01-01",
+  "t": "1400-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "GDASYA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Nakhon Si Thammarat",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "lavo",
+  "ad": "Lavo (Lopburi)",
+  "f": "0600-01-01",
+  "t": "1388-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "GDASYA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Lopburi",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tidore",
+  "ad": "Tidore Krallıgi",
+  "f": "1081-01-01",
+  "t": null,
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "GDASYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tidore",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kashi",
+  "ad": "Kashi (Kasi) Krallığı",
+  "f": "-0799-01-01",
+  "t": "-0549-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "HINT_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Benâres (Vârânasî)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kosala",
+  "ad": "Kosala Krallığı (Savatthi/Ayodhya)",
+  "f": "-0699-01-01",
+  "t": "-0449-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "HINT_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Feyzâbâd (Ayodhya)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "avanti",
+  "ad": "Avanti Mahajanapadası (Ujjain/Mahishmati)",
+  "f": "-0599-01-01",
+  "t": "-0412-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "HINT_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Uccayn (Ujjain)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "surasena",
+  "ad": "Surasena Mahajanapadası (Mathura)",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "HINT_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Mathura",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "licchavi-nepal",
+  "ad": "Licchavi Nepal Krallığı",
+  "f": "0464-01-01",
+  "t": "0750-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "HINT_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Patan (Anhilvâda)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kidarit",
+  "ad": "Kidarit Krallığı (Gandhara)",
+  "f": "0350-01-01",
+  "t": "0467-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "HINT_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Peşâver",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "alkhon",
+  "ad": "Alkhon (Hint Hunları — Toramana/Mihirakula)",
+  "f": "0490-01-01",
+  "t": "0528-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "HINT_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Gvalyar (Gwalior)",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "turk-sahi",
+  "ad": "Türk Şahi (Kâbil Şahileri)",
+  "f": "0665-01-01",
+  "t": "0850-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "HINT_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Kâbil",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "multan-emirligi",
+  "ad": "Multan Emirliği (Munebbihî / Karmatî)",
+  "f": "0903-01-01",
+  "t": "1010-01-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "HINT_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Multan",
+    "k": 2,
+    "ilk_s": 1006
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tomara",
+  "ad": "Tomara (Delhi) Hanedanı",
+  "f": "0736-01-01",
+  "t": "1152-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "HINT_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Delhi",
+    "k": 1,
+    "ilk_s": 1192
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kachchhapaghata-gwalior",
+  "ad": "Kachchhapaghata Hanedanı — Gwalior kolu",
+  "f": "0977-01-01",
+  "t": "1196-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "HINT_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Gvalyar (Gwalior)",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "sumra",
+  "ad": "Sumra Hanedanı (Sind)",
+  "f": "1030-01-01",
+  "t": "1351-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "HINT_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tatta (Thatta)",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "ahom",
+  "ad": "Ahom Krallığı",
+  "f": "1253-01-01",
+  "t": "1826-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "cekirdek",
+  "_dilim": "HINT_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Sibsâgar (Rangpûr)",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "cenomani-kabile-devleti",
+  "ad": "Cenomani Kelt Birliği",
+  "f": "-0399-01-01",
+  "t": "-0196-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Verona",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "bizans-katepanlik-italya",
+  "ad": "Bizans İtalya Katepanlığı",
+  "f": "0975-01-01",
+  "t": "1071-04-16",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ITALYA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Otranto",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "padova-komunu",
+  "ad": "Padova Komünü",
+  "f": "1138-01-01",
+  "t": "1318-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Padova",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "verona-komunu",
+  "ad": "Verona Komünü",
+  "f": "1136-01-01",
+  "t": "1259-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Verona",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "ancona-cumhuriyeti",
+  "ad": "Ancona Cumhuriyeti",
+  "f": "1100-01-01",
+  "t": "1532-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Ancona",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "parma-komunu",
+  "ad": "Parma Komünü",
+  "f": "1100-01-01",
+  "t": "1303-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Parma",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "piacenza-komunu",
+  "ad": "Piacenza Komünü",
+  "f": "1090-01-01",
+  "t": "1313-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Piacenza",
+    "k": 0,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "modena-komunu",
+  "ad": "Modena Komünü",
+  "f": "1135-01-01",
+  "t": "1288-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Modena",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "perugia-komunu",
+  "ad": "Perugia Komünü",
+  "f": "1139-01-01",
+  "t": "1540-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Perugia",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "brixen-piskoposlugu",
+  "ad": "Brixen (Bressanone) Prens-Piskoposluğu",
+  "f": "1027-01-01",
+  "t": "1803-01-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Brixen (Bressanone)",
+    "k": 0,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "ryukyu-shunten-eiso",
+  "ad": "Ryukyu Shunten ve Eiso (Urasoe)",
+  "f": "1187-01-01",
+  "t": "1314-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "KOJA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Urasoe Gusuku (Chuzan merkezi)",
+    "k": 0,
+    "ilk_s": 1322
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "daewi-myocheong",
+  "ad": "Daewi (Myocheong'un Seogyeong İsyanı Devleti)",
+  "f": "1135-01-19",
+  "t": "1136-03-23",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "KOJA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Pyongyang",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "heungyo-guk",
+  "ad": "Heungyo (Xingliao) — Dae Yeon-rim'in Liaodong İsyan Devleti",
+  "f": "1029-09-13",
+  "t": "1030-09-25",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "KOJA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Liaoyang",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "hana-terqa",
+  "ad": "Hana (Terqa) Krallığı",
+  "f": "-1759-01-01",
+  "t": "-1449-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "LEVARAP_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Merv (Mari)",
+    "k": 2,
+    "ilk_s": 1221
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "ammon",
+  "ad": "Ammon Krallığı",
+  "f": "-1099-01-01",
+  "t": "-0581-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "LEVARAP_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Amman",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "lihyan",
+  "ad": "Dedan-Lihyan Krallığı",
+  "f": "-0499-01-01",
+  "t": "-0099-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "LEVARAP_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "el-Ulâ",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tulunoglu",
+  "ad": "Tolunoğulları (Mısır-Suriye)",
+  "f": "0868-01-01",
+  "t": "0905-01-01",
+  "dogrulama": "okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "LEVARAP_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Halep",
+    "k": 2,
+    "ilk_s": 1260
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "lulu-halep",
+  "ad": "Lü'lü'iler (Halep Lü'lü' Naipliği)",
+  "f": "1002-01-01",
+  "t": "1015-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "LEVARAP_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Halep",
+    "k": 2,
+    "ilk_s": 1260
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "eyyubi-humus",
+  "ad": "Humus Eyyûbîleri (Şîrkûh kolu)",
+  "f": "1179-01-01",
+  "t": "1262-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "LEVARAP_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Humus",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "celile-prensligi",
+  "ad": "Celile (Tiberya) Prensliği",
+  "f": "1099-01-01",
+  "t": "1187-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "LEVARAP_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tiberya (Tabariyye / Tiberias)",
+    "k": 0,
+    "ilk_s": 1746
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "sayda-lordlugu",
+  "ad": "Sayda (Sidon) Lordluğu",
+  "f": "1110-12-01",
+  "t": "1268-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "LEVARAP_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Sayda",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "beyrut-lordlugu",
+  "ad": "Beyrut Lordluğu",
+  "f": "1110-01-01",
+  "t": "1291-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "LEVARAP_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Beyrut",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "filaretos-prensligi",
+  "ad": "Philaretos Brachamios Prensliği (Antakya-Marmaraş-Urfa)",
+  "f": "1078-01-01",
+  "t": "1087-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "LEVARAP_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Urfa",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "surupak",
+  "ad": "Şuruppak Sehir Devleti",
+  "f": "-2599-01-01",
+  "t": "-2333-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Şuruppak (Tell Fara)",
+    "k": 0,
+    "ilk_s": null
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "eridu-sehir-devleti",
+  "ad": "Eridu Sehir Devleti",
+  "f": "-2899-01-01",
+  "t": "-2333-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Eridu (Abu Shahrain)",
+    "k": 0,
+    "ilk_s": -2323
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kisurra",
+  "ad": "Kisurra Sehir Devleti",
+  "f": "-1922-01-01",
+  "t": "-1802-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Kisurra (Tell Abu Hatab)",
+    "k": 0,
+    "ilk_s": null
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "lullubi",
+  "ad": "Lullubi (Lullubum) Kabile Devleti",
+  "f": "-2399-01-01",
+  "t": "-0668-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Şehrizor",
+    "k": 2,
+    "ilk_s": 1233
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "anshan",
+  "ad": "Anşan Krallığı (Elam-Pers baglantili)",
+  "f": "-2299-01-01",
+  "t": "-0549-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "MEZOIR_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Pasargad",
+    "k": 0,
+    "ilk_s": -545
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "bit-amukani",
+  "ad": "Bit-Amukani Keldani Kabile Devleti",
+  "f": "-0851-01-01",
+  "t": "-0599-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Bârfurûş (Bâbil)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "bit-dakkuri",
+  "ad": "Bit-Dakkuri (Keldani kabile devleti)",
+  "f": "-0851-01-01",
+  "t": "-0599-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Dilbat (Tell ed-Duleym)",
+    "k": 0,
+    "ilk_s": null
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "osrhoene",
+  "ad": "Osrhoene (Edessa) Krallığı",
+  "f": "-0131-01-01",
+  "t": "0244-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "MEZOIR_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Vodina (Edessa)",
+    "k": 3,
+    "ilk_s": 1246
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "dabuyiler",
+  "ad": "Dâbûyîler (Gîlânşâhlar / Dabuyid İsbehbedleri)",
+  "f": "0642-01-01",
+  "t": "0760-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "MEZOIR_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Âmül",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "zenc-devleti",
+  "ad": "Zenc Devleti (Basra Zenc isyani)",
+  "f": "0869-09-01",
+  "t": "0883-08-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Basra",
+    "k": 2,
+    "ilk_s": 1494
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "bataih",
+  "ad": "Bataih Emirliği (Imran b. Şâhin)",
+  "f": "0940-01-01",
+  "t": "1018-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Vâsıt",
+    "k": 4,
+    "ilk_s": 1152
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "simcurid",
+  "ad": "Simcûrîler (Horasan)",
+  "f": "0913-01-01",
+  "t": "1002-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Nîşâbur",
+    "k": 2,
+    "ilk_s": 1202
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "nasri-sistan",
+  "ad": "Sistan Nasrîleri / Hâlefîler",
+  "f": "1029-01-01",
+  "t": "1236-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "MEZOIR_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Zerenc (Sîstan)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "hurmuz",
+  "ad": "Hürmüz Krallığı",
+  "f": "1001-01-01",
+  "t": "1622-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "MEZOIR_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Mînâb",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "mihrabani-sistan",
+  "ad": "Mihrâbânîler (Nimruz/Sistan Melikleri)",
+  "f": "1236-01-01",
+  "t": "1537-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "MEZOIR_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Zerenc (Sîstan)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tebai-ayaklanma-krallik",
+  "ad": "Tebai Ayaklanma Krallığı (Horwennefer-Ankhwennefer)",
+  "f": "-0204-01-01",
+  "t": "-0185-08-27",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MISIR_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "İstefe (Tebai)",
+    "k": 4,
+    "ilk_s": 1205
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kenzu-ddevle",
+  "ad": "Kenzü'd-devle (Benî Kenz) Emirliği (Asvan)",
+  "f": "1006-01-01",
+  "t": "1174-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MISIR_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Asvan",
+    "k": 3,
+    "ilk_s": 1171
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "zeyla-emirlik",
+  "ad": "Zeyla Emirliği",
+  "f": "1050-01-01",
+  "t": "1285-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "kucuk",
+  "_dilim": "MISIR_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Zeyla",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "bavyera-agilolfing",
+  "ad": "Bavyera Dükalığı (Agilolfinger)",
+  "f": "0555-01-01",
+  "t": "0788-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ORTAAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Regensburg",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "mecklenburg",
+  "ad": "Mecklenburg (Lordluk → Dukalık → Büyük Dukalık)",
+  "f": "1167-01-01",
+  "t": "1918-11-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ORTAAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Schwerin",
+    "k": 0,
+    "ilk_s": 1949
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "wurttemberg",
+  "ad": "Württemberg (Kontluk → Dukalık → Krallık)",
+  "f": "1135-01-01",
+  "t": "1918-11-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ORTAAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Stuttgart",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "buyuk-polonya-dukaligi",
+  "ad": "Büyük Polonya Dükalığı (Poznań–Gniezno)",
+  "f": "1138-01-01",
+  "t": "1314-01-01",
+  "dogrulama": "kismen-okundu",
+  "devredilebilir": true,
+  "oncelik": "orta",
+  "_dilim": "ORTAAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Poznan",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "muisca-konfederasyonu",
+  "ad": "Muisca Konfederasyonu",
+  "f": "1200-01-01",
+  "t": "1537-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "AMERIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Bacatá (Bogotá)",
+    "k": 2,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Hunza (Tunja)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "que-hiyawa",
+  "ad": "Que (Hiyawa, Kilikya Ovası) Krallığı",
+  "f": "-0898-01-01",
+  "t": "-0694-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ANAKAF_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Adana",
+    "k": 2,
+    "ilk_s": 1184
+   },
+   {
+    "ad": "Tarsus",
+    "k": 3,
+    "ilk_s": 1172
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "kibris-sehir-krallik",
+  "ad": "Kıbrıs Şehir Krallıkları (Salamis, Kition, Paphos, Soloi...)",
+  "f": "-0708-01-01",
+  "t": "-0308-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Kulluk (Salamis)",
+    "k": 4,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Baf (Paphos)",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "armorika-bretonlari",
+  "ad": "Bretonlar (Armorika) bolgesel krallıkları",
+  "f": "0450-01-01",
+  "t": "0845-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Quimper",
+    "k": 3,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Vannes",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "angevin-imparatorlugu",
+  "ad": "Angevin (Plantagenet) Imparatorlugu",
+  "f": "1154-12-19",
+  "t": "1214-07-27",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "BATIAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Angers",
+    "k": 3,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Londra",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "bavyera",
+  "ad": "Bavyera (Dükalık → Elektörlük → Krallık)",
+  "f": "0907-01-01",
+  "t": "1918-11-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "cekirdek",
+  "_dilim": "ORTAAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Regensburg",
+    "k": 3,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Münih",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "frankonya-dukaligi",
+  "ad": "Frankonya Dükalığı (Konradiner)",
+  "f": "0906-01-01",
+  "t": "0939-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ORTAAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Frankfurt",
+    "k": 3,
+    "ilk_s": 1281
+   },
+   {
+    "ad": "Frankfurt (Oder)",
+    "k": 0,
+    "ilk_s": 1949
+   }
+  ],
+  "delik_sayisi": 2
+ },
+ {
+  "id": "ibadi-imamlik-trablus",
+  "ad": "Trablus İbâdî İmamlığı (Ebü'l-Hattâb el-Maʿâfirî)",
+  "f": "0757-01-01",
+  "t": "0761-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "AFRIKA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Trablus",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kangaba",
+  "ad": "Kangaba (Manden) Krallığı",
+  "f": "1050-01-01",
+  "t": "1235-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "AFRIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Kangaba",
+    "k": 0,
+    "ilk_s": 1650
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "cholula",
+  "ad": "Cholula (Olmeca-Xicalanca / Toltek-Çiçimek)",
+  "f": "0600-01-01",
+  "t": "1519-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "AMERIKA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Cholula",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tilantongo-mixtek",
+  "ad": "Mixtek Krallıkları (Ñuu Dzahui) / Tilantongo",
+  "f": "0692-01-01",
+  "t": "1521-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "AMERIKA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tututepec (Yucu Dzaa)",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "tenayuca-chichimeca",
+  "ad": "Tenayuca / Xolotl Çiçimek Devleti",
+  "f": "1240-01-01",
+  "t": "1300-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "AMERIKA_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Texcoco",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "hatti-sehir-devletleri",
+  "ad": "Hatti Ülkesi Şehir Devletleri (Hattuşa, Zalpa)",
+  "f": "-2499-01-01",
+  "t": "-1749-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Nesâ",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kussara-nesa-krallik",
+  "ad": "Kuşşara–Neşa (Kaneş) Krallığı (Pithana, Anitta)",
+  "f": "-1779-01-01",
+  "t": "-1649-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Nesâ",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kilikya-siennesis",
+  "ad": "Kilikya Krallığı (Siennesis hanedanı)",
+  "f": "-0584-01-01",
+  "t": "-0332-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ANAKAF_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tarsus",
+    "k": 3,
+    "ilk_s": 1172
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kartli-erismtavari",
+  "ad": "Kartli Erismtavarlığı (Gürcü Prensliği)",
+  "f": "0580-01-01",
+  "t": "0888-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tiflis",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kaheti-hereti-prensligi",
+  "ad": "Kaheti–Hereti Korepiskoposluğu / Prensliği",
+  "f": "0787-01-01",
+  "t": "1010-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ANAKAF_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Telavi",
+    "k": 0,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "ermeni-ishhan",
+  "ad": "Ermenistan Ishkhanlığı (Arap vasalı Ermeni Prensliği)",
+  "f": "0653-01-01",
+  "t": "0884-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Dvin",
+    "k": 3,
+    "ilk_s": null
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "malatya-emirlik",
+  "ad": "Malatya (Melitene) Emirliği",
+  "f": "0835-01-01",
+  "t": "0934-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "ANAKAF_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Malatya",
+    "k": 3,
+    "ilk_s": 1920
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kaheti-hereti-krallik",
+  "ad": "Kaheti–Hereti Krallığı",
+  "f": "1010-01-01",
+  "t": "1105-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ANAKAF_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Telavi",
+    "k": 0,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "atina-arkaik",
+  "ad": "Atina (Arkaik polis: monarşi, aristokrasi, tiranlık)",
+  "f": "-0799-01-01",
+  "t": "-0506-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "cekirdek",
+  "_dilim": "BALKAN_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Atina",
+    "k": 2,
+    "ilk_s": 1205
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "apollonia-pontike",
+  "ad": "Apollonia Pontike (Sozopol)",
+  "f": "-0609-01-01",
+  "t": "-0071-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Gölyazı (Apollonia)",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "thessalia-birligi",
+  "ad": "Thessalia Birliği (Tagoi dönemi)",
+  "f": "-0599-01-01",
+  "t": "-0343-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "BALKAN_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Yenişehir (Larissa)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "hellen-birligi-481",
+  "ad": "Hellen (Pers Karşıtı) Birliği",
+  "f": "-0480-01-01",
+  "t": "-0477-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Atina",
+    "k": 2,
+    "ilk_s": 1205
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "paros-polis",
+  "ad": "Paros Şehir Devleti (Kyklades)",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Paros",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "andros-polis",
+  "ad": "Andros Şehir Devleti (Kyklades)",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Andros",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "atina-helenistik",
+  "ad": "Atina (Helenistik özgür polis)",
+  "f": "-0228-01-01",
+  "t": "-0085-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "BALKAN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Atina",
+    "k": 2,
+    "ilk_s": 1205
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "rodos-federasyon",
+  "ad": "Rodos Birliği (Adalar Birliği)",
+  "f": "-0313-01-01",
+  "t": "-0167-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Rodos",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "dalmatya-marcellinus",
+  "ad": "Dalmaçya (Marcellinus-Nepos) Devleti",
+  "f": "0454-01-01",
+  "t": "0481-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Zadar (Zara)",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "arbanon",
+  "ad": "Arbanon (Arbër) Prensliği",
+  "f": "1190-01-01",
+  "t": "1255-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "BALKAN_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Akçahisar (Kruja)",
+    "k": 3,
+    "ilk_s": 1271
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "rodos-gabalas",
+  "ad": "Rodos Lordluğu (Gabalas)",
+  "f": "1204-01-01",
+  "t": "1248-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Rodos",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "dobromir-hrisos",
+  "ad": "Dobromir Chrysos (Strumica)",
+  "f": "1196-01-01",
+  "t": "1202-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BALKAN_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Ustrumca (Strumica)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "dumnonia",
+  "ad": "Dumnonia",
+  "f": "0450-01-01",
+  "t": "0710-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "BATIAV_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Exeter",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "frank-burgundia",
+  "ad": "Frank Burgundia (Merovenj alt kralligi)",
+  "f": "0534-01-01",
+  "t": "0751-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Orléans",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "akitanya-merovenj",
+  "ad": "Akitanya Dukaligi (Merovenj-Odo-Waifar)",
+  "f": "0660-01-01",
+  "t": "0768-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Toulouse",
+    "k": 3,
+    "ilk_s": 1271
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "akitanya-karolenj",
+  "ad": "Akitanya Kralligi (Karolenj alt kralligi)",
+  "f": "0781-01-01",
+  "t": "0877-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Toulouse",
+    "k": 3,
+    "ilk_s": 1271
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kuzey-denizi-imparatorlugu",
+  "ad": "Knut'un Kuzey Denizi Imparatorlugu",
+  "f": "1016-01-01",
+  "t": "1035-11-12",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "BATIAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Londra",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "irlanda-lordlugu",
+  "ad": "Irlanda Lordlugu",
+  "f": "1171-11-01",
+  "t": "1541-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "BATIAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Dublin",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "thomond",
+  "ad": "Thomond (Tuadmumu)",
+  "f": "1118-01-01",
+  "t": "1543-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Limerick",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "desmond",
+  "ad": "Desmond (Deasmumu)",
+  "f": "1118-01-01",
+  "t": "1596-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Cork",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "namur-kontlugu",
+  "ad": "Namur Kontlugu",
+  "f": "0908-01-01",
+  "t": "1429-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Namur",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "gelre-kontlugu",
+  "ad": "Gelre (Guelders) Kontlugu",
+  "f": "1079-01-01",
+  "t": "1339-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Roermond",
+    "k": 0,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "roussillon",
+  "ad": "Roussillon Kontlugu",
+  "f": "0991-01-01",
+  "t": "1172-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "BATIAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Perpignan",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "alkhon",
+  "ad": "Alkhon Hunlar (Alchon)",
+  "f": "0400-01-01",
+  "t": "0560-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "BOZKIR_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Bâmiyan",
+    "k": 0,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "xia-hanedani",
+  "ad": "Xia Hanedanı (Erlitou/Xia sorunu)",
+  "f": "-2069-01-01",
+  "t": "-1599-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "CIN_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Erlitou",
+    "k": 0,
+    "ilk_s": -1749
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "sonraki-qin",
+  "ad": "Sonraki Qin (後秦)",
+  "f": "0384-01-01",
+  "t": "0417-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Xi'an (Chang'an)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "bati-shu-qiao",
+  "ad": "Batı Shu (Qiao Zong, 譙蜀)",
+  "f": "0405-01-01",
+  "t": "0413-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Çengdu (Chengdu)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "da-changhe",
+  "ad": "Da Changhe (大長和)",
+  "f": "0902-01-01",
+  "t": "0928-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Dali",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "da-tianxing",
+  "ad": "Da Tianxing (大天興)",
+  "f": "0928-01-01",
+  "t": "0929-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Dali",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "da-yining",
+  "ad": "Da Yining (大義寧)",
+  "f": "0929-01-01",
+  "t": "0937-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "CIN_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Dali",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "muang-sua",
+  "ad": "Muang Sua (Luang Prabang)",
+  "f": "0698-01-01",
+  "t": "1353-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "GDASYA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Luang Prabang",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "hint-iskit",
+  "ad": "Hint-İskit (Saka) Krallıkları — Kuzeybatı",
+  "f": "-0084-01-01",
+  "t": "0020-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "HINT_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Mathura",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "hint-part",
+  "ad": "Hint-Part (Gondophares) Krallığı",
+  "f": "0019-01-01",
+  "t": "0226-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "HINT_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Peşâver",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "abhira",
+  "ad": "Abhira Hanedanı (Maharashtra)",
+  "f": "0250-01-01",
+  "t": "0370-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "HINT_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Nâsik",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "etrusk-felsina",
+  "ad": "Felsina (Bologna) ve Po Etrüskleri",
+  "f": "-0599-01-01",
+  "t": "-0349-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Mantova",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "taranto-emirligi",
+  "ad": "Taranto Emirliği",
+  "f": "0840-01-01",
+  "t": "0880-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ITALYA_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Taranto",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "kutha-krallik",
+  "ad": "Kutha Sehir Devleti",
+  "f": "-1899-01-01",
+  "t": "-1699-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "MEZOIR_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Kutha (Tell Ibrahim)",
+    "k": 0,
+    "ilk_s": null
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "sofala-sehir-devleti",
+  "ad": "Sofala Şehir Devleti",
+  "f": "0900-01-01",
+  "t": null,
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "MISIR_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Sofala",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "pate-nabhani",
+  "ad": "Pate (Nabhânî) Şehir Devleti",
+  "f": "1203-01-01",
+  "t": null,
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "MISIR_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Pate",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "olbia-polisi",
+  "ad": "Olbia (Borysthenes) Polisi",
+  "f": "-0645-01-01",
+  "t": "0300-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "orta",
+  "_dilim": "ORTAAV_B",
+  "delik_yerlesimler": [
+   {
+    "ad": "Nikolayev (Mikolayiv)",
+    "k": 2,
+    "ilk_s": 1784
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "rugi-kralligi",
+  "ad": "Rugi (Rugiland) Krallığı",
+  "f": "0453-01-01",
+  "t": "0487-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ORTAAV_C",
+  "delik_yerlesimler": [
+   {
+    "ad": "Gmünd (Aşağı Avusturya)",
+    "k": 0,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "visla-devleti",
+  "ad": "Vislanlar (Wiślanie) Devleti — Krakov",
+  "f": "0880-01-01",
+  "t": "0990-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ORTAAV_D",
+  "delik_yerlesimler": [
+   {
+    "ad": "Krakov",
+    "k": 1,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "gyula-erdel",
+  "ad": "Erdel Gyulası (Gyula Prensliği)",
+  "f": "0950-01-01",
+  "t": "1003-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ORTAAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Erdel Belgradı (Gyulafehérvár)",
+    "k": 2,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "turov-pinsk",
+  "ad": "Turov-Pinsk Knezliği",
+  "f": "0988-01-01",
+  "t": "1320-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ORTAAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Pinsk",
+    "k": 4,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "murom-knezligi",
+  "ad": "Murom Knezliği",
+  "f": "1015-01-01",
+  "t": "1392-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ORTAAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Murom",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "pomerelya",
+  "ad": "Pomerelya (Gdańsk Pomeranya) Dükalığı",
+  "f": "1227-01-01",
+  "t": "1308-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ORTAAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Gdansk",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ },
+ {
+  "id": "dorpat-piskoposlugu",
+  "ad": "Dorpat (Tartu) Prens-Piskoposluğu",
+  "f": "1224-01-01",
+  "t": "1558-01-01",
+  "dogrulama": "taslak",
+  "devredilebilir": false,
+  "oncelik": "kucuk",
+  "_dilim": "ORTAAV_E",
+  "delik_yerlesimler": [
+   {
+    "ad": "Tartu (Dorpat)",
+    "k": 3,
+    "ilk_s": 1281
+   }
+  ],
+  "delik_sayisi": 1
+ }
+]

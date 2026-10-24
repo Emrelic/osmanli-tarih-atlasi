@@ -2,6 +2,9 @@
 // Girdi: denetim/arastirma/mezopotamya.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
  {
+  "odak_yer": [
+   "Ninova"
+  ],
   "t": "-0611-01-01",
   "k": "kayip",
   "b": "Ninova'nın düşüşü (Yeni Asur'un sonu): Ninova düşer (Yeni Asur'un sonu)",
@@ -15,6 +18,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
  },
  {
   "t": "-0613-01-01",
+  "yer_id": "Aşşur",
   "k": "kayip",
   "b": "Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur şehri Medler/Babilliler tarafından alınır",
   "gun": "MÖ 614",
@@ -30,7 +34,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "k": "kurulus",
   "b": "Yeni Babil Devleti: Yeni Babil: Nabopolassar tahta çıkar",
   "gun": "MÖ 626",
-  "yer": "Neo-Babylonian / Kaldean Babil / Uruk / Ur / Sippar / Ur / Ur / Ur",
+  "yer": "Neo-Babylonian / Kaldean Babil / Uruk / Ur / Sippar",
   "d": "Nabopolassar 626'da Babil tahtına oturur; Asur'u yıkan Babil devleti Nabonidus'un 17. yılında Kyros'a karşı düşer.",
   "kaynak": "ABC 2 (Early Years of Nabopolassar) aktaran Livius.org ABC 3 sayfası; Grayson 1975 çevirisi · https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/",
   "kesinlik": "yil",
@@ -43,7 +47,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "k": "kayip",
   "b": "Eski Babil (Babil I Hanedanı, Hammurabi): Babil I Hanedanı sona erer (Samsuditana)",
   "gun": "MÖ 1595",
-  "yer": "Babilim / Babil / Ur / Mari / Ur / Ur / Ur",
+  "yer": "Babilim / Babil / Nippur / Ur / Mari",
   "d": "Hammurabi (MC 1792-1750) Babil'i Güney ve Orta Mezopotamya'nın siyasî merkezi yapar; Babil I Hanedanı Samsuditana'nın son yılında (MC 1595/1597) biter.",
   "kaynak": "ARCANE III s. 5 ve 6: 'Samsuditana year 31, MC 1595/1597' (Babil I sonu); Tablo 39 '1595/1597' · http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
   "kesinlik": "onyil",
@@ -52,6 +56,9 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
+  "odak_yer": [
+   "Babil"
+  ],
   "t": "-1791-01-01",
   "k": "gelisme",
   "b": "Eski Babil (Babil I Hanedanı, Hammurabi): Eski Babil (Babil I): Hammurabi'nin saltanatı başlar (Orta Kronoloji)",
@@ -65,6 +72,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
  },
  {
   "t": "-1971-01-01",
+  "yer_id": "Aşşur",
   "k": "fetih",
   "b": "Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur: Eski Asur eponim listesi başlar (belge başlangıcı, kuruluş değil)",
   "gun": "MÖ 1972",
@@ -92,7 +100,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "k": "kurulus",
   "b": "Ur III Hanedanı (Ur): Ur III Hanedanı: Ur-Nammu'nun 1. yılı",
   "gun": "MÖ 2110",
-  "yer": "Urim / Tell al-Muqayyar / Nippur / Umma / Uruk / Ur / Ur / Ur / Ur",
+  "yer": "Urim / Tell al-Muqayyar / Nippur / Umma / Uruk / Ur",
   "d": "Urnamma'nın kurduğu Ur III hanedanı Güney Mezopotamya'yı Şulgi döneminde merkezi bir devlete çevirir; son kral Ibbi-Suen ile hanedan sona erer.",
   "kaynak": "Sallaberger & Schrakamp 2015, ARCANE III, Giriş s. 5 (1.3) ve Tablo 39 s. 136 · http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
   "kesinlik": "onyil",
@@ -117,7 +125,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "k": "kurulus",
   "b": "Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı başlar (Orta Kronoloji)",
   "gun": "MÖ 2324",
-  "yer": "Akkade / Agade (Sargonic period) / Kiş / Kiş",
+  "yer": "Akkade / Agade (Sargonic period) / Kiş",
   "d": "Sargon'un (Šarru-kīn) Lugalzagesi'yi yenip Akkade merkezli ilk geniş Mezopotamya imparatorluğunu kurması; Naram-Suen döneminde zirve; son hükümdar Shudurul.",
   "kaynak": "Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III 'History & Philology' (Brepols), Giriş, Tablo 39 'Synopsis of main dynasties', s. 136; Orta Kronoloji (MC) sütunu · http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
   "kesinlik": "onyil",
@@ -127,6 +135,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
  },
  {
   "t": "-3199-01-01",
+  "yer_id": "Uruk (Warka)",
   "k": "kayip",
   "b": "Uruk IV–III (yazının ortaya çıkışı): Uruk III evresi sona erer",
   "gun": "MÖ 3200 (ALT SINIR; donem-toplami MÖ 3200–3000)",
@@ -148,6 +157,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
  },
  {
   "t": "-3349-01-01",
+  "yer_id": "Uruk (Warka)",
   "k": "kurulus",
   "b": "Uruk IV–III (yazının ortaya çıkışı): Uruk IVa evresi: yazının ortaya çıktığı tabakalar (Uruk IV–III) başlar",
   "gun": "MÖ 3350 (ALT SINIR; donem-toplami MÖ 3350–3200)",
@@ -169,6 +179,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
  },
  {
   "t": "-3799-01-01",
+  "yer_id": "Tell al-Ubaid",
   "k": "kayip",
   "b": "Ubaid kültürü (güney Mezopotamya): Ubaid dönemi sona erer (Carter & Philip 2010; Egberts vd. 2023 bitişi MÖ 4200 diyor)",
   "gun": "MÖ 3800 civarı",
@@ -226,6 +237,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
  },
  {
   "t": "-6499-01-01",
+  "yer_id": "Tell al-Ubaid",
   "k": "kurulus",
   "b": "Ubaid kültürü (güney Mezopotamya): Ubaid kültürü: güney Mezopotamya'da ilk tarihli Ubaid evresi başlar",
   "gun": "MÖ 6500 civarı",

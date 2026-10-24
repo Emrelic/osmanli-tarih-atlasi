@@ -1298,6 +1298,17 @@ def main():
         # ── 20 EKIM 2026 — ARKEOLOJI KATMANI (MO) yerlesim birikimi: sehir_tarihce_osm.js ile AYNI statu ──
         "data/sehir_tarihce_arkeoloji_d2-iran-orta-asya.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
                                          "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        # ── 20 EKIM 2026 — ARKEOLOJI KATMANI (MO) yerlesim birikimi: sehir_tarihce_osm.js ile AYNI statu ──
+        "data/sehir_tarihce_arkeoloji_d3-amerika-pasifik.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d3-anadolu-ege.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d3-hint-cin.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d3-italya-avrupa.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d3-misir-afrika.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
         "data/sehir_tarihce_osm.js":     "241 sehir arastirma birikimi (OSM bolgesi); "
                                          "onkosul AKTARIM (MO motor destegi C4 + "
                                          "Emre kararlari, denetim/SEHIR-TARIHCE-OSM-1014)",

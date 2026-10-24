@@ -1,0 +1,401 @@
+[
+ {
+  "ad": "Tiryns",
+  "lat": 37.5994,
+  "lon": 22.7999,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Knossos",
+  "lat": 35.298,
+  "lon": 25.163,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Messene (Ithome)",
+  "lat": 37.1755,
+  "lon": 21.9202,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Ithome tepesi site'in hemen yaninda. Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Leuktra",
+  "lat": 38.2544,
+  "lon": 23.1821,
+  "dosya": "parti_102_sonuc.json",
+  "not": "MO 371 savas alani tam sahasi kesin degil; koy/yerlesim yaklasik 1-3 km. TGN Pleiades-OSM ile ayni olabilir."
+ },
+ {
+  "ad": "Mantineia",
+  "lat": 37.6173,
+  "lon": 22.3925,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Plataia",
+  "lat": 38.221,
+  "lon": 23.2735,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Sehir yeri kesin; MO 479 savas alaninin tam sahasi Asopos'un guneyinde tartismali ama ~5 km icinde."
+ },
+ {
+  "ad": "Amphipolis",
+  "lat": 40.825,
+  "lon": 23.842,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Memphis",
+  "lat": 29.8495,
+  "lon": 31.2551,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Sikyon",
+  "lat": 37.9838,
+  "lon": 22.7122,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Nikopolis (Lykos ovası)",
+  "lat": 40.1486,
+  "lon": 38.1435,
+  "dosya": "parti_102_sonuc.json",
+  "not": "TSV ipucu Koyulhisar (40.3,37.9) ~30 km uzakta; iki kaynak Purk/Susehri'yi gosterir. Lykos savasi alani ayrica tartismali; bu yalniz kent. Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Emporion",
+  "lat": 42.1334,
+  "lon": 3.1145,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Kartaca (Carthago)",
+  "lat": 36.8531,
+  "lon": 10.3231,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Cannae",
+  "lat": 41.29663,
+  "lon": 16.15153,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Yerleşim/arkeolojik alan; savaş meydanı tam yeri tartışmalı ama kasaba-tepe konumu bellidir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Veii",
+  "lat": 42.0213,
+  "lon": 12.3905,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Pleiades ile OSM panosu birbirine çok yakın. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Cumae (Kyme)",
+  "lat": 40.84795,
+  "lon": 14.05638,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Himera",
+  "lat": 37.9698,
+  "lon": 13.8223,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Sit Buonfornello'dadır (TSV ipucuyla ~0.2 km). iDAI kaba nokta 4 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Selinus",
+  "lat": 37.5883,
+  "lon": 12.8249,
+  "dosya": "parti_103_sonuc.json",
+  "not": "iDAI'deki 'Selinus' 36.3/32.3 (Antalya Selinus) ayrı yer; kullanılmadı. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Thapsus",
+  "lat": 35.6214,
+  "lon": 11.0427,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Thapsus savaşı (MÖ 46) bu kentin çevresinde; meydan tam yeri yaklaşık. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Sarmizegetusa Regia",
+  "lat": 45.6229,
+  "lon": 23.3104,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Pleiades/TGN (45.6696) ~5 km kuzeye kayık; iDAI+GeoNames+OSM 45.619-45.623 kümeleniyor. Önceki tek tanık değeri (45.6696) yerine 45.6229,23.3104 önerilir."
+ },
+ {
+  "ad": "Teutoburg Ormanı (Kalkriese)",
+  "lat": 52.4064,
+  "lon": 8.1286,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Varus savaşı yeri olarak Kalkriese yaygın kabul görür (arkeolojik buluntular) ama kesin meydan tartışması sürer: yaklasik. Nokta Kalkriese'dir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Memphis (Men-nefer / İneb-hedj)",
+  "lat": 29.8495,
+  "lon": 31.2551,
+  "dosya": "parti_103_sonuc.json",
+  "not": "UNESCO Memphis ve nekropolü bölgesi. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Avaris / Pi-Ramesse",
+  "lat": 30.7863,
+  "lon": 31.8229,
+  "dosya": "parti_103_sonuc.json",
+  "not": "İki çağ yeri birbirine ~2.5 km; tek nokta Tell el-Dab'a. Bağımsız teyit: OSM Qantir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Megiddo (Tel Megiddo)",
+  "lat": 32.5854,
+  "lon": 35.1846,
+  "dosya": "parti_103_sonuc.json",
+  "not": "UNESCO Biblical Tels. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Kadeş (Qadesh)",
+  "lat": 34.5571,
+  "lon": 36.5194,
+  "dosya": "parti_103_sonuc.json",
+  "not": "TSV ipucu 34.5703 yerine 34.557 (1.5 km). Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Akhetaton (Amarna)",
+  "lat": 27.6441,
+  "lon": 30.8982,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Pleiades antik şehir merkezi, GeoNames/OSM çağdaş köy: 1.8 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Bubastis (Per-Bast)",
+  "lat": 30.5725,
+  "lon": 31.5121,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Pleiades CSV'sinde Bubastis girdisi bulunamadı. GeoNames+TGN+OSM site uyuşuyor; TSV ipucuna 0.2 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Agaune",
+  "lat": 46.213,
+  "lon": 7.005,
+  "dosya": "parti_92_sonuc.json",
+  "not": "Agaunum = Saint-Maurice d'Agaune (Valais). TGN'nin ikinci kaydı (7007300) GeoNames ile birebir aynı; bağımsızlık sınırlı."
+ },
+ {
+  "ad": "Besalú",
+  "lat": 42.1995,
+  "lon": 2.6985,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Meriye",
+  "lat": 36.836,
+  "lon": -2.455,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Pleiades 'Portus Magnus' Cezayir'dir, kullanılmadı."
+ },
+ {
+  "ad": "Turtûşe",
+  "lat": 40.8125,
+  "lon": 0.5216,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Kıta uyumu: 1148 Barselona kontu (Katalonya); Suriye Tartus elendi."
+ },
+ {
+  "ad": "Pontida",
+  "lat": 45.73,
+  "lon": 9.51,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Lombard Birliği yemini geleneği Pontida manastırına bağlıdır (Pontida, Bergamo yakını)."
+ },
+ {
+  "ad": "Windsor",
+  "lat": 51.4835,
+  "lon": -0.6025,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Avustralya/Kanada Windsor'ları elendi; 1175 Windsor Antlaşması İngiltere'dedir."
+ },
+ {
+  "ad": "Ulcinj",
+  "lat": 41.931,
+  "lon": 19.22,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Bonifacio",
+  "lat": 41.387,
+  "lon": 9.158,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Muret",
+  "lat": 43.463,
+  "lon": 1.326,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Peremışl",
+  "lat": 49.784,
+  "lon": 22.775,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Viljandi",
+  "lat": 58.363,
+  "lon": 25.592,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Fellin",
+  "lat": 58.363,
+  "lon": 25.592,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Lyndanise",
+  "lat": 59.4335,
+  "lon": 24.745,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Bornhöved",
+  "lat": 54.067,
+  "lon": 10.23,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Yaroslav",
+  "lat": 50.01,
+  "lon": 22.672,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Kıta uyumu: Danilo/Galiçya-Polonya-Macar koalisyonu, Rusya'daki Yaroslavl elendi."
+ },
+ {
+  "ad": "Jarosław",
+  "lat": 50.01,
+  "lon": 22.672,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Yaroslavl (57.63,39.87) 1245 bağlamına uymaz, elendi."
+ },
+ {
+  "ad": "Tavastehus",
+  "lat": 60.998,
+  "lon": 24.45,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Stockholm",
+  "lat": 59.331,
+  "lon": 18.07,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Dürnkrut",
+  "lat": 48.4735,
+  "lon": 16.855,
+  "dosya": "parti_95_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+ },
+ {
+  "ad": "Mukaçevo",
+  "lat": 48.44,
+  "lon": 22.72,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Karpat-ötesi (Zakarpattia) bağlamıyla uyumlu."
+ },
+ {
+  "ad": "Lauffen am Neckar",
+  "lat": 49.0739,
+  "lon": 9.1461,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Ad tektir (Staufer Neckar kenti)."
+ },
+ {
+  "ad": "Thorn",
+  "lat": 53.015,
+  "lon": 18.59,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Thorn = Toruń; bağlam (Vistula, Kulm, Elbing, Balke 1231) Toruń ile uyumlu; GeoNames \"Thorn 51.16,5.84\" (Hollanda) bölge dışı elendi."
+ },
+ {
+  "ad": "Altenburg",
+  "lat": 50.9865,
+  "lon": 12.4356,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Pleißen Reichsland merkezi Altenburg (Türingiya); Aşağı Avusturya Altenburg 48.65,15.59 bağlam dışı elendi."
+ },
+ {
+  "ad": "Zwickau",
+  "lat": 50.73,
+  "lon": 12.49,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Pleißen Reichsland kenti Zwickau; Cvikov (Çekya) elendi."
+ },
+ {
+  "ad": "Alessandria",
+  "lat": 44.908,
+  "lon": 8.611,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Monferrato Markgrafı VII. Guglielmo bağlamı (Piemonte) Alessandria (AL) ile uyumlu; Mısır İskenderiyesi ve Calabria elendi."
+ },
+ {
+  "ad": "Bianjing",
+  "lat": 34.7833,
+  "lon": 114.3333,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Bianjing = Kaifeng (Jin 1214 başkenti); bu kimlik TGN kaydında doğrulanmadı, alan bilgisi — TDV/Kaifeng maddesiyle teyit edilmeli."
+ },
+ {
+  "ad": "Ponnani",
+  "lat": 10.767,
+  "lon": 75.9126,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Perumpadappu/Kochi hanedanının Ponnani'ye taşınması bağlamı Kerala ile uyumlu."
+ },
+ {
+  "ad": "Malazgirt",
+  "lat": 39.1465,
+  "lon": 42.5354,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Savaş alanı kasabanın çevresidir (savaş yeri kesin değil); koordinat Malazgirt ilçe merkezidir."
+ },
+ {
+  "ad": "Uşnu",
+  "lat": 37.045,
+  "lon": 45.09,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik (Uşnu = Oshnavieh) TDV başlığıyla önceki turda teyit edilmemişti (alias_teyit:false); bölge (Azerbaycan/Merâga çevresi) uyumlu."
+ },
+ {
+  "ad": "Hârim",
+  "lat": 36.51,
+  "lon": 36.21,
+  "dosya": "parti_96_sonuc.json",
+  "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. İki kayıt DAI içinde; ikinci GeoNames ile birebir. Kimlik: Nûreddin Mahmud 1164 Hârim Haçlı kalesi = Qal'at Harim; çevre uyumlu."
+ },
+ {
+  "ad": "Katâi",
+  "lat": 30.0288,
+  "lon": 31.2496,
+  "dosya": "parti_96_sonuc.json",
+  "not": "Katâi için doğrudan koordinat kaydı bulunamadı; vekil (hesap). Katâi'nin yeri (Fustat'ın kuzeydoğusu, Camii İbn Tolun) bilinen konumdur ama tanıklar yerleşimi değil komşuyu gösterir — yaklaşık. İkinci tanık komşu Fustat olduğundan bağımsızlık sınırlı."
+ }
+]

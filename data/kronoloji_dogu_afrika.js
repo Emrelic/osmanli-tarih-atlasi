@@ -188,7 +188,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Sultan Ebû Bekir b. Muhammed b. Ezhereddin, 926 (1520) yılında sultanlığın merkezini deniz kıyısındaki Zeyla'dan iç bölgedeki Harar'a taşıdı ve Denkalî ile Somali halklarının desteğini sağladı. Başkentin sahilden yaylanın eşiğine kayması, Adal'ı Portekiz donanmasının menzilinden çıkardığı gibi cihad için gereken insan gücünü de yanına aldı.",
   kaynak:"TDV `harar`: \"Ezhereddin tarafından 926'da (1520) Harar'a taşınması ve Denkalî, Somali halklarının desteğini sağlamasından sonradır\" · TDV `etiyopya`: \"1521'de Adel Sultanı Ebû Bekir\"" },
 
-{ taraflar:["adal"], t:"1506-01-01", b:"Ahmed el-Mücâhid'in (Ahmed Gran) doğumu", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Zeyla"], taraflar:["adal"], t:"1506-01-01", b:"Ahmed el-Mücâhid'in (Ahmed Gran) doğumu", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Habeş kaynaklarında Gran (solak) lakabıyla anılan Ahmed b. İbrâhim el-Gāzî'nin Abad Emirliği'nin Hubat bölgesinde 1506'da doğduğu rivayet edilir. Doğu Afrika tarihinin en geniş İslâm fetih hareketini o yönetecektir.",
   kaynak:"TDV `ahmed-el-mucahid`: \"Abad Emirliği'nin Hubat bölgesinde 1506'da doğduğu rivayet edilmektedir\"" },
@@ -243,7 +243,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Portekiz desteğiyle güçlenen Habeşliler karşısında İmam Ahmed Osmanlılardan asker ve teçhizat istedi ve isteğinin kabulüyle bir ittifak kuruldu. Yemen Beylerbeyi Mustafa Paşa kumandasında gönderilen kuvvet Portekizlilere ağır bir yenilgi tattırdı; Osmanlı Devleti bölgeyle böylece ilgilenmeye başladı.",
   kaynak:"TDV `berbera`: \"1542'de Yemen Beylerbeyi Mustafa Paşa kumandasında bir ordunun İmam Ahmed'in yardımına gönderilmesiyle Portekizliler ağır bir yenilgiye uğratıldılar ve böylece Osmanlı Devleti bu bölge ile ilgilenmeye başlamış oldu\"" },
 
-{ taraflar:["adal"], t:"1542-08-28", b:"Ahmed el-Mücâhid, Habeş-Portekiz ordusunu bozguna uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Zeyla"], taraflar:["adal"], t:"1542-08-28", b:"Ahmed el-Mücâhid, Habeş-Portekiz ordusunu bozguna uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Osmanlıdan aldığı top ve tüfekçi desteğiyle Ahmed el-Mücâhid, 28 Ağustos 1542'de Habeş krallık ordusunu ve yanındaki Portekiz kuvvetlerini büyük bir bozguna uğrattı. Cristóvão da Gama'nın kuvveti dağıtıldı; bu, cihadın son büyük zaferidir.",
   kaynak:"TDV `ahmed-el-mucahid`: \"28 Ağustos 1542'de Habeş krallık ordusu ile Portekiz kuvvetlerini büyük bir bozguna uğrattı\"" },
@@ -484,7 +484,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Habeş eyaleti en geniş sınırlarına 1560-1578 arasında ulaştı; 1578'de yapılan savaşlar bu ülkede daha fazla yayılma imkânı bulunmadığını gösterdi. Aynı yıl Osmanlı-yerli kuvvetlerle çıkan çatışmalarda Habeşler galip geldiyse de Masavva Türklerin elinde kalmaya devam etti.",
   kaynak:"TDV `habes-eyaleti`: \"Habeş eyaleti en geniş sınırlarına 1560-1578 yılları arasında ulaştı ... 1578'de ulaşılan sınırın âzami sınırlar olduğunu gösterdi\" · TDV `masavva`: \"986 (1578) yılında ... Habeşler galip geldilerse de Masavva‘ Türkler'in elinde kalmaya devam etti\"" },
 
-{ taraflar:["habesistan"], t:"1579-01-01", b:"Addi Karro Muharebesi — Osmanlı yenilgisi ve toprak kaybı", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Gondar"], taraflar:["habesistan"], t:"1579-01-01", b:"Addi Karro Muharebesi — Osmanlı yenilgisi ve toprak kaybı", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Tigre toprakları üzerinde Addi Karro denilen yerde yapılan meydan savaşında Osmanlı kuvvetleri yenildi ve Beylerbeyi Ahmed Paşa öldürüldü; eyalet topraklarının bir kısmı Habeşistan Krallığı'nın eline geçti. Osmanlı'nın Habeş yaylasındaki ilerlemesi burada kalıcı olarak durdu.", ic_not_d:"Addi Karro atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `habes-eyaleti`: \"meydan savaşı, Tigre toprakları üzerinde Addi Karro denilen yerde yapıldı (1579)\" · \"1579'da Osmanlılar'ın yenilgisiyle sonuçlanan Addi Karro Savaşı'nın ardından eyalet topraklarının bir kısmı Habeşistan Krallığı'nın eline geçti\"" },

@@ -1,0 +1,392 @@
+[
+ {
+  "t": "0710-04-13",
+  "devlet": "nara-japonya",
+  "taraflar": [
+   "nara-japonya"
+  ],
+  "b": "Heijō-kyō'ya taşınma: Nara dönemi: Nara sahibi nara-japonya oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Nara",
+  "yer_id": "Nara",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Nara, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).",
+  "kaynak": "Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」",
+  "gun": "Wadō 3/3 (710)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "Heijō-kyō şehri bu günle kuruldu (kur = 0710-04-13 «kuruluş = saray taşınması»; öncesinde Nara havzasında Asuka bölgesi başka yerleşimdir). · Önceki dilim sahibi: yok (yerleşimin ilk dilimi)",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛酉 (3. ay içi; ay başı ≈ 3. ayın 10. günü)) ile ay başı (ortalama yeniay hesabı: 710-04-04, ±1) kesiştirilerek Jülyen 710-04-13 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "0794-11-18",
+  "devlet": "heian-japonya",
+  "taraflar": [
+   "heian-japonya"
+  ],
+  "b": "Heian-kyō'ya taşınma: Heian dönemi: Nara sahibi heian-japonya oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Nara",
+  "yer_id": "Nara",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Nara, 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi).",
+  "kaynak": "Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」",
+  "gun": "Enryaku 13/10 (794)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "ABİ MERKEZ: Kyoto — saray 794'te Heian-kyō'ya taşındı, Nara eski başkent olarak aynı saray devleti içinde kaldı (kaynak yalnız taşınmayı yazar; Nara'nın sonraki sahibi çıkarımdır) · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · Önceki dilim sahibi: nara-japonya",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛酉 (10. ay içi; ≈ 21-22. gün)) ile ay başı (ortalama yeniay hesabı: 794-10-29, ±1) kesiştirilerek Jülyen 794-11-18 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "1185-12-22",
+  "devlet": "kamakura",
+  "taraflar": [
+   "kamakura"
+  ],
+  "b": "Shugo-jitō yetkisi: Kamakura bakufu dönemi: Nara sahibi kamakura oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Nara",
+  "yer_id": "Nara",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Nara, 1185-12-22 tarihinde kamakura polity'sine/dönemine geçti (Shugo-jitō yetkisi: Kamakura bakufu dönemi).",
+  "kaynak": "Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」",
+  "gun": "Bunji 1/11/29 (1185)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · Önceki dilim sahibi: heian-japonya",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (戊申 = 11. ay 29. gün (ay başı 1185-11-24)) ile ay başı (ortalama yeniay hesabı: 1185-11-24, ±1) kesiştirilerek Jülyen 1185-12-22 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "0794-11-18",
+  "devlet": "heian-japonya",
+  "taraflar": [
+   "heian-japonya"
+  ],
+  "b": "Heian-kyō'ya taşınma: Heian dönemi: Kyoto sahibi heian-japonya oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Kyoto",
+  "yer_id": "Kyoto",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Kyoto, 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi).",
+  "kaynak": "Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」",
+  "gun": "Enryaku 13/10 (794)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "Heian-kyō şehri bu günle kuruldu (kur = 0794-11-18). · Önceki dilim sahibi: yok (yerleşimin ilk dilimi)",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛酉 (10. ay içi; ≈ 21-22. gün)) ile ay başı (ortalama yeniay hesabı: 794-10-29, ±1) kesiştirilerek Jülyen 794-11-18 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "1185-12-22",
+  "devlet": "kamakura",
+  "taraflar": [
+   "kamakura"
+  ],
+  "b": "Shugo-jitō yetkisi: Kamakura bakufu dönemi: Kyoto sahibi kamakura oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Kyoto",
+  "yer_id": "Kyoto",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Kyoto, 1185-12-22 tarihinde kamakura polity'sine/dönemine geçti (Shugo-jitō yetkisi: Kamakura bakufu dönemi).",
+  "kaynak": "Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」",
+  "gun": "Bunji 1/11/29 (1185)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · Önceki dilim sahibi: heian-japonya",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (戊申 = 11. ay 29. gün (ay başı 1185-11-24)) ile ay başı (ortalama yeniay hesabı: 1185-11-24, ±1) kesiştirilerek Jülyen 1185-12-22 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "1180-11-04",
+  "devlet": "heian-japonya",
+  "taraflar": [
+   "heian-japonya"
+  ],
+  "b": "Yoritomo Kamakura'ya girdi: Kamakura sahibi heian-japonya oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Kamakura",
+  "yer_id": "Kamakura",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Kamakura, 1180-11-04 tarihinde heian-japonya polity'sine/dönemine geçti (Yoritomo Kamakura'ya girdi).",
+  "kaynak": "Azuma Kagami j.1, Jishō 4 (1180) (zh.wikisource.org/wiki/吾妻鏡/卷001, okundu): 「十月小十五日甲午。武衛始入御鎌倉御亭。此間爲景義奉行所令修理也。」",
+  "gun": "Jishō 4/10/15 (1180)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BEYANLI YAKLAŞIKLIK: Yoritomo'nun fiilî Kantō rejimi hukuken Heian saray yetkisine dayanıyordu; kamakura künyesi (f=1185-01-01) 1185-12-22'den önce yoktur. Kamakura-gun (Sagami) 1180 öncesi de vardı ama tarihli tanığı bu oturumda açılmadı. · Önceki dilim sahibi: yok (yerleşimin ilk dilimi)",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (甲午 = 10. ay 15. gün (ay başı 1180-10-21)) ile ay başı (ortalama yeniay hesabı: 1180-10-21, ±1) kesiştirilerek Jülyen 1180-11-04 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "1185-12-22",
+  "devlet": "kamakura",
+  "taraflar": [
+   "kamakura"
+  ],
+  "b": "Shugo-jitō yetkisi: Kamakura bakufu dönemi: Kamakura sahibi kamakura oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Kamakura",
+  "yer_id": "Kamakura",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Kamakura, 1185-12-22 tarihinde kamakura polity'sine/dönemine geçti (Shugo-jitō yetkisi: Kamakura bakufu dönemi).",
+  "kaynak": "Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」",
+  "gun": "Bunji 1/11/29 (1185)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "Kamakura bakufunun hukukî temeli (shugo-jitō) bu gün sayıldı. · Önceki dilim sahibi: heian-japonya",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (戊申 = 11. ay 29. gün (ay başı 1185-11-24)) ile ay başı (ortalama yeniay hesabı: 1185-11-24, ±1) kesiştirilerek Jülyen 1185-12-22 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "0646-01-01",
+  "devlet": "yamato",
+  "taraflar": [
+   "yamato"
+  ],
+  "b": "Naniwa Nagara Toyosaki başkenti: Yamato sarayı: Osaka sahibi yamato oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Osaka",
+  "yer_id": "Osaka",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Osaka, 0646-01-01 tarihinde yamato polity'sine/dönemine geçti (Naniwa Nagara Toyosaki başkenti: Yamato sarayı).",
+  "kaynak": "Nihon Shoki j.25, Taika 1 (645) (zh.wikisource.org/wiki/日本書紀/卷第廿五, okundu): 「冬十二月乙未朔癸卯，天皇遷都難波長柄豐碕。」",
+  "gun": "Taika 1/12/9 (645)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "Naniwa Nagara Toyosaki Sarayı ilk tarihli saray tanığı; 646 öncesi Naniwa limanı (kuruluş efsanevî Nintoku dönemi) bu oturumda tarihli kaynakla bulunmadı → önce dilim yok. Özdeşleme: Naniwa = bugünkü Osaka (genel kabul; kazı koordinatı açılmadı). · Önceki dilim sahibi: yok (yerleşimin ilk dilimi)",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (癸卯 = 乙未朔 + 8) ile ay başı (ortalama yeniay hesabı: 645-12-24, ±1) kesiştirilerek Jülyen 646-01-01 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "0710-04-13",
+  "devlet": "nara-japonya",
+  "taraflar": [
+   "nara-japonya"
+  ],
+  "b": "Heijō-kyō'ya taşınma: Nara dönemi: Osaka sahibi nara-japonya oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Osaka",
+  "yer_id": "Osaka",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Osaka, 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).",
+  "kaynak": "Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」",
+  "gun": "Wadō 3/3 (710)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · Önceki dilim sahibi: yamato",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛酉 (3. ay içi; ay başı ≈ 3. ayın 10. günü)) ile ay başı (ortalama yeniay hesabı: 710-04-04, ±1) kesiştirilerek Jülyen 710-04-13 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "0794-11-18",
+  "devlet": "heian-japonya",
+  "taraflar": [
+   "heian-japonya"
+  ],
+  "b": "Heian-kyō'ya taşınma: Heian dönemi: Osaka sahibi heian-japonya oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Osaka",
+  "yer_id": "Osaka",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Osaka, 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi).",
+  "kaynak": "Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」",
+  "gun": "Enryaku 13/10 (794)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "ABİ MERKEZ: Kyoto — başkent taşınması sonrası aynı saray devleti · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · Önceki dilim sahibi: nara-japonya",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛酉 (10. ay içi; ≈ 21-22. gün)) ile ay başı (ortalama yeniay hesabı: 794-10-29, ±1) kesiştirilerek Jülyen 794-11-18 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "1185-12-22",
+  "devlet": "kamakura",
+  "taraflar": [
+   "kamakura"
+  ],
+  "b": "Shugo-jitō yetkisi: Kamakura bakufu dönemi: Osaka sahibi kamakura oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Osaka",
+  "yer_id": "Osaka",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Osaka, 1185-12-22 tarihinde kamakura polity'sine/dönemine geçti (Shugo-jitō yetkisi: Kamakura bakufu dönemi).",
+  "kaynak": "Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」",
+  "gun": "Bunji 1/11/29 (1185)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · Önceki dilim sahibi: heian-japonya",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (戊申 = 11. ay 29. gün (ay başı 1185-11-24)) ile ay başı (ortalama yeniay hesabı: 1185-11-24, ±1) kesiştirilerek Jülyen 1185-12-22 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "0536-06-05",
+  "devlet": "yamato",
+  "taraflar": [
+   "yamato"
+  ],
+  "b": "Nanotsu ambarı: Yamato yönetimi: Hakata (Fukuoka) sahibi yamato oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Hakata (Fukuoka)",
+  "yer_id": "Hakata (Fukuoka)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Hakata (Fukuoka), 0536-06-05 tarihinde yamato polity'sine/dönemine geçti (Nanotsu ambarı: Yamato yönetimi).",
+  "kaynak": "Nihon Shoki j.18, Senka 1 (536) (zh.wikisource.org/wiki/日本書紀/卷第十八, okundu): 「夏五月辛丑朔。詔曰。…夫筑紫國者遐迩之所朝届。去來之所關門。…修造官家那津之口。」 …「是年也太歳丙辰。」",
+  "gun": "Senka 1/5/1 (536)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "Nanotsu = Hakata limanı özdeşleştirmesi yaygın kabuldür, akademik kaynak açılmadı. 528'de Iwai yenilgisiyle (Nihon Shoki j.17) Chikushi Yamato'ya bağlandı; 500-536 arası Hakata Körfezi sahibi bu oturumda tarihli tanıkla bulunmadı → önce dilim yok. · Önceki dilim sahibi: yok (yerleşimin ilk dilimi)",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛丑 (ay başı)) ile ay başı (ortalama yeniay hesabı: 536-06-05, ±1) kesiştirilerek Jülyen 536-06-05 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "0710-04-13",
+  "devlet": "nara-japonya",
+  "taraflar": [
+   "nara-japonya"
+  ],
+  "b": "Heijō-kyō'ya taşınma: Nara dönemi: Hakata (Fukuoka) sahibi nara-japonya oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Hakata (Fukuoka)",
+  "yer_id": "Hakata (Fukuoka)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Hakata (Fukuoka), 0710-04-13 tarihinde nara-japonya polity'sine/dönemine geçti (Heijō-kyō'ya taşınma: Nara dönemi).",
+  "kaynak": "Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」",
+  "gun": "Wadō 3/3 (710)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · Önceki dilim sahibi: yamato",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛酉 (3. ay içi; ay başı ≈ 3. ayın 10. günü)) ile ay başı (ortalama yeniay hesabı: 710-04-04, ±1) kesiştirilerek Jülyen 710-04-13 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "0794-11-18",
+  "devlet": "heian-japonya",
+  "taraflar": [
+   "heian-japonya"
+  ],
+  "b": "Heian-kyō'ya taşınma: Heian dönemi: Hakata (Fukuoka) sahibi heian-japonya oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Hakata (Fukuoka)",
+  "yer_id": "Hakata (Fukuoka)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Hakata (Fukuoka), 0794-11-18 tarihinde heian-japonya polity'sine/dönemine geçti (Heian-kyō'ya taşınma: Heian dönemi).",
+  "kaynak": "Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」",
+  "gun": "Enryaku 13/10 (794)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "ABİ MERKEZ: Kyoto — başkent taşınması sonrası aynı saray devleti · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · Önceki dilim sahibi: nara-japonya",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛酉 (10. ay içi; ≈ 21-22. gün)) ile ay başı (ortalama yeniay hesabı: 794-10-29, ±1) kesiştirilerek Jülyen 794-11-18 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ },
+ {
+  "t": "1185-12-22",
+  "devlet": "kamakura",
+  "taraflar": [
+   "kamakura"
+  ],
+  "b": "Shugo-jitō yetkisi: Kamakura bakufu dönemi: Hakata (Fukuoka) sahibi kamakura oldu",
+  "tur": "toprak-kazanc",
+  "onem": 1,
+  "dunya": 1,
+  "kapsam": "ic",
+  "yer": "Hakata (Fukuoka)",
+  "yer_id": "Hakata (Fukuoka)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "d": "Hakata (Fukuoka), 1185-12-22 tarihinde kamakura polity'sine/dönemine geçti (Shugo-jitō yetkisi: Kamakura bakufu dönemi).",
+  "kaynak": "Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」",
+  "gun": "Bunji 1/11/29 (1185)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · Önceki dilim sahibi: heian-japonya",
+  "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (戊申 = 11. ay 29. gün (ay başı 1185-11-24)) ile ay başı (ortalama yeniay hesabı: 1185-11-24, ±1) kesiştirilerek Jülyen 1185-12-22 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
+ }
+]

@@ -61,6 +61,9 @@ def kunyeler():
 
 # sahip dizgisi (regex) → künye id | None (künyesi yok) ; ilk eşleşen kazanır
 OWNER_MAP = [
+    (r"Ahameniş Mısır", "ahamenis-misir"), (r"^Kerma Krallığı", "kerma"), (r"^Hitit", "hitit"), (r"^Ugarit", "ugarit"),
+    (r"^Yahuda", "yahuda"), (r"^Israil|^İsrail", "israil-krallik"), (r"^Aram-Şam", "aram-sam"), (r"^Nabatiye", "nabatiye"),
+    (r"^Urartu", "urartu"), (r"^Ptolemaios", "ptolemai"), (r"^Roma \(", "roma-imp"),
     (r"Lugalzagesi", None), (r"Enşakuşana", None), (r"Gutium egemenliğinde Umma", "gutium"), (r"^Gutium|Gutium çağı", "gutium"),
     (r"Akad İmparatorluğu", "akad"), (r"Ur III", "ur-3"),
     (r"İsin I Hanedanı", "isin"), (r"Larsa", "larsa"), (r"Babil I Hanedanı|Eski Babil", "babil-eski"),
@@ -72,10 +75,63 @@ OWNER_MAP = [
     (r"Ebla krallığı", "ebla-1"), (r"Mari \(Ville II\)", "mari-erken"),
     (r"Güney isyanı|Pers \(Ahameniş atası\)|Ur III eyaleti", None),
 ]
+KARA_DUZELT = {"Karthago": (36.8537, 10.3225)}
+ATLAS_NODE = {"Xi'an (Chang'an)": ("yerlesimler_asya.js", "Xi'an (Chang'an)"), "Çengdu (Chengdu)": ("yerlesimler_asya.js", "Çengdu (Chengdu)"),
+              "Luoyang": ("yerlesimler_asya.js", "Luoyang"), "Zhangye (Ganzhou)": ("yerlesimler_asya.js", "Zhangye (Ganzhou)"),
+              "Dunhuang": ("yerlesimler_asya.js", "Dunhuang"), "Mekke": ("yerlesimler.js", "Mekke"), "Urfa": ("yerlesimler.js", "Urfa"),
+              "Trier": ("yerlesimler_avrupa.js", "Trier"), "Köln": ("yerlesimler.js", "Köln")}
+# Atlasta ZATEN var olan, ilk `s:` dönemi geç başlayan noktalar (DELİK): antik zincir `s:`in ÖNÜNE eklenir (ilk dönemin f'sinde biter; kaynak sessizse beyanlı __BOSLUK__).
+# Yalnız bu dosyalar (başka oturumların noktaları; çatışma push kapısında rebase ile görünür). BOYALAR'da olmayan künye → d:"__BOSLUK__" + "BOŞLUK BEYANI: sahip <id>" (DOGU/MS1 deseni).
+UZAT_DOSYA = {"yerlesimler.js", "yerlesimler_asya.js", "yerlesimler_afrika.js", "yerlesimler_ek25.js", "yerlesimler_avrupa.js"}
+
+
+def _boyali():
+    s = open(os.path.join(KOK, "arac", "renkler.py"), encoding="utf-8").read()
+    return set(re.findall(r'"([a-z0-9][a-z0-9\-]*)"', s))
+
+
+def uzat_mevcut(fn, ad2, rec):
+    yol = os.path.join(KOK, "data", fn)
+    s = open(yol, encoding="utf-8", newline="").read()
+    m0 = re.search(r'\{ ad:"%s"' % re.escape(ad2), s)
+    if not m0:
+        return None
+    sonr = s.find("\n{ ad:", m0.start() + 1)
+    sonr = sonr if sonr != -1 else s.index("\n];", m0.start())
+    blok = s[m0.start():sonr]
+    m = re.search(r's:\[\{f:"([^"]+)"', blok)
+    if not m:
+        return None                                  # s:[] boş ya da biçim farklı: dokunma
+    ilk_f = m.group(1)
+    if not rec["s"] or gn(rec["s"][0]["f"]) >= gn(ilk_f):
+        return None                                  # zincir zaten kapsıyor ya da sonra başlıyor
+    boyali = _boyali()
+    P = []
+    for g in rec["s"]:
+        if gn(g["f"]) >= gn(ilk_f):
+            break
+        t = g["t"] if gn(g["t"]) <= gn(ilk_f) else ilk_f
+        d, kay = g["d"], g["kaynak"]
+        if d != "__BOSLUK__" and d not in boyali:
+            kay = "BOŞLUK BEYANI: sahip %s (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"%s\" geri yazılır) · %s" % (d, d, kay)
+            d = "__BOSLUK__"
+        P.append(dict(f=g["f"], t=t, d=d, kesinlik=g["kesinlik"], kaynak=kay))
+    if P and gn(P[-1]["t"]) < gn(ilk_f):
+        P.append(dict(f=P[-1]["t"], t=ilk_f, d="__BOSLUK__", kesinlik="yil",
+                      kaynak="BEYAN (VERI-MO-ARKEO): antik zincir ile ilk mevcut dönem arasında sahip kaynakta yok → boşluk, bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak sessiz)"))
+    if not P:
+        return None
+    metin = ",".join(jso(p) for p in P) + ","
+    yeni_blok = blok.replace('s:[{f:"', "s:[" + metin + '{f:"', 1)
+    with open(yol, "w", encoding="utf-8", newline="") as fh:
+        fh.write(s[:m0.start()] + yeni_blok + s[sonr:])
+    return "%s'a %d dönem (%s → %s)" % (ad2, len(P), P[0]["f"], ilk_f)
 ELAM_ZINCIR = ["elam-simaski", "elam-sukkalmah", "elam-orta", "elam-yeni"]
 
 
 def eslestir(sahip, KU, bas_iso, son_iso):
+    if sahip in KU:                                  # 4. dalga: araştırma doğrudan künye id'si veriyor
+        return [sahip]
     for rx, kid in OWNER_MAP:
         if re.search(rx, sahip):
             if kid == "ELAM":
@@ -99,7 +155,7 @@ def parcala(kids, KU, bas_iso, son_iso):
 
 def oku_sk():
     sk = []
-    for f in sorted(glob.glob(os.path.join(ARA, "3-*.json"))):
+    for f in sorted(glob.glob(os.path.join(ARA, "3-*.json")) + glob.glob(os.path.join(ARA, "4-*.json")) + glob.glob(os.path.join(ARA, "9-*.json"))):
         d = json.load(open(f, encoding="utf-8"))
         for s in d.get("sehir_kontrol") or []:
             s["_dosya"] = os.path.basename(f)
@@ -146,18 +202,41 @@ def main():
 
     for s in SK:
         ad = re.sub(r"\s*\(.*?\)", "", s["sehir"]).strip()
-        tn = [x for x in (s.get("konum_tanik") or []) if x.get("lat") is not None]
-        if s.get("lat") is None or len(tn) < 2:
-            red.append((s["sehir"], "koordinat <2 tanık"))
-            continue
+        if s["_dosya"].startswith("9-"):             # DELİK şehirleri: atlasta ZATEN var olan nokta; koordinat atlas noktasından, yeni nokta ÜRETİLMEZ (yalnız `s:` öne uzatılır)
+            nd = next((v for k, v in ATLAS_NODE.items() if s["sehir"].startswith(k)), None)
+            if not nd:
+                red.append((s["sehir"], "9-delik: atlas noktası eşlemesi yok"))
+                continue
+            _t = open(os.path.join(KOK, "data", nd[0]), encoding="utf-8").read()
+            _m = re.search(r'\{ ad:"%s", [^\n]*?lat:(-?[\d.]+)\s*,\s*lon:(-?[\d.]+)' % re.escape(nd[1]), _t)
+            if not _m:
+                red.append((s["sehir"], "9-delik: atlas noktası bulunamadı"))
+                continue
+            s = dict(s, lat=float(_m.group(1)), lon=float(_m.group(2)))
+            tn = []
+        else:
+            tn = [x for x in (s.get("konum_tanik") or []) if isinstance(x, dict) and x.get("lat") is not None]
+            if s.get("lat") is None or len(tn) < 2:
+                red.append((s["sehir"], "koordinat <2 tanık"))
+                continue
         # dönemleri sırala
         P = []
         for p in s["donemler"]:
-            if p.get("dolayli_cikarim") or p.get("bas_mo") is None:
-                continue
-            if p["bas_mo"] < 0 or (p.get("son_mo") is not None and p["son_mo"] < 0):
-                continue                               # MS ucu — bu katman MÖ
-            P.append(p)
+            if p.get("dolayli_cikarim") or p.get("celiskili"):
+                continue                               # çelişkili (okullar arası) dönem YAZILMAZ (ajan önerisi; çelişki araştırma JSON'unda)
+            if p.get("bas_mo") is None:
+                # başlangıç kaynakta yok: sahip künye ise dönem künyenin kendi f'sinden başlar (künye f'si kaynaklı)
+                _k = eslestir(p["sahip"], KU, "0000-01-01", "0001-01-01") if p.get("sahip") else None
+                if _k and len(_k) == 1 and p.get("yil_durumu") != "yil-bulunamadi" and p.get("son_mo") is not None:
+                    p = dict(p)
+                    p["_kid"] = _k[0]
+                    p["bas_mo"] = 10 ** 6                      # sentinel: aşağıda künye f'sine çekilir
+                    p["_bas_kunye"] = True
+                else:
+                    continue
+            if p.get("yil_durumu") == "yil-bulunamadi" or not p.get("sahip"):
+                continue                               # yılı kaynaklanmamış / sahibi künyesiz-özerk (ör. Sparta: Akhaia Birliği) dönemler YAZILMAZ
+            P.append(p)                                # (MS yılları negatif bas_mo/son_mo: -476 = MS 476 — iso() halleder)
         P.sort(key=lambda p: -p["bas_mo"])
         if not P:
             red.append((s["sehir"], "kaynaklı dönem yok (bas_mo'su olan, dolaylı olmayan)"))
@@ -165,7 +244,7 @@ def main():
         # künye parçaları
         seg = []                                       # dict(f,t,d,kaynak,p)
         for i, p in enumerate(P):
-            f = iso(p["bas_mo"])
+            f = KU[p["_kid"]][1] if p.get("_bas_kunye") else iso(p["bas_mo"])
             if p.get("son_mo") is not None:
                 t = iso(p["son_mo"])
             else:
@@ -203,6 +282,10 @@ def main():
         # çakışma: sonraki başlangıcı öncekini keser; boşluk doldur
         temiz = []
         for g in seg:
+            if temiz and g["f"] == temiz[-1]["f"] and g["d"] == temiz[-1]["d"]:     # aynı sahip, aynı başlangıç (iki kaynak satırı aynı dönemi verir): ilki kalır
+                if gn(g["t"]) > gn(temiz[-1]["t"]):
+                    temiz[-1]["t"] = g["t"]
+                continue
             if temiz and gn(g["f"]) < gn(temiz[-1]["t"]):
                 temiz[-1]["t"] = g["f"] if gn(g["f"]) > gn(temiz[-1]["f"]) else temiz[-1]["t"]
                 if gn(temiz[-1]["f"]) >= gn(temiz[-1]["t"]):
@@ -242,6 +325,9 @@ def main():
                 "(künye ömrüne kırpılmış). Kronoloji: %s. %s Koordinat tanıkları: %s. Dönemler araştırma kaydı `sehir_kontrol` (denetim/arastirma/%s); dolaylı çıkarım dönemler YAZILMADI. %s"
                 % ("Orta Kronoloji (MC) / kronik yılı (mutlak)", "Boşluklar: " + (s.get("bosluk_notu") or "")[:500],
                    " ↔ ".join("%s (%.4f,%.4f)" % (x["kaynak"], x["lat"], x["lon"]) for x in tn), s["_dosya"], (s.get("konum_not") or "")[:300]))
+        if ad in KARA_DUZELT:                       # denetle 'konum': tanık koordinatı kara maskesinin 0,04 km dışında → maskede sınanmış nokta (denetle önerisi)
+            s = dict(s, lat=KARA_DUZELT[ad][0], lon=KARA_DUZELT[ad][1])
+            notm += " Koordinat denetle kara-maskesi düzeltmesi: %.4f,%.4f (tanık noktası maske dışındaydı)." % KARA_DUZELT[ad]
         rec = dict(ad=ad, tur="sehir", lat=s["lat"], lon=s["lon"], g=1, k=0, kur=kur_t, bit=bit_t,
                    kesinlik={"f": "onyil", "t": "onyil"}, d=[],
                    s=[dict(f=g["f"], t=g["t"], d=g["d"], kesinlik={"f": "onyil", "t": "onyil"}, kaynak=g["kaynak"][:600]) for g in son],
@@ -254,7 +340,16 @@ def main():
             continue
         mk = [(a2, fn) for (a2, la, lo, fn) in MEV if km((s["lat"], s["lon"]), (la, lo)) < 3.0]
         if mk:
-            red.append((s["sehir"], "3 km içinde mevcut nokta: %s" % (mk[0],)))
+            for o_ in gecisler.values():                # dönem-ucu maddeleri atlas NOKTA adını da anar (denetle 2s: araştırma adı 'Ekbatana' ≠ nokta 'Hemedan')
+                _sd = lambda x: re.sub(r"\s*\(.*?\)", "", x).strip().lower()
+                if s["sehir"] in o_["s"] and _sd(mk[0][0]) not in {_sd(x) for x in o_["s"]}:
+                    o_["s"].add(mk[0][0])
+            uz =uzat_mevcut(mk[0][1], mk[0][0], rec) if mk[0][1] in UZAT_DOSYA else None
+            red.append((s["sehir"], "3 km içinde mevcut nokta: %s%s" % (mk[0], (" → ÖNE UZATILDI: %s" % uz) if uz else "")))
+            continue
+        ayni = [y["ad"] for y in yeni if km((s["lat"], s["lon"]), (y["lat"], y["lon"])) < 3.0 or y["ad"] == rec["ad"]]
+        if ayni:                                    # iki araştırma dosyası aynı şehri vermiş (Hattuşa, Karthago…): ilki kalır, ikinci YAZILMAZ (ad benzersiz olmalı)
+            red.append((s["sehir"], "aynı çalışmada zaten üretildi: %s (ilk gelen kalır; %s)" % (ayni[0], s["_dosya"])))
             continue
         yeni.append(rec)
 
@@ -356,7 +451,7 @@ def main():
             tip = "b"
             kaynak_var = True
         sehirler = sorted(o["s"])
-        yakin = [(e, f) for (e, f) in havuz if abs(gn(t) - gn(e["t"])) <= 31]
+        yakin = [(e, f) for (e, f) in havuz if abs(gn(t) - gn(e["t"])) <= 27]    # denetle 2s penceresi ±30 gün (31 değil)
         kapsam = [w for w in sozc(sehirler)]
         eksik = [sh for sh in sehirler if not any(re.search(r"(?<!\w)" + re.escape(w) + r"(?!\w)", metin(e)) for (e, f) in yakin
                                                  for w in sozc([sh]))]

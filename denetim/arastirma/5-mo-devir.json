@@ -1,0 +1,2040 @@
+{
+ "siniflar": [
+  {
+   "ad": "Olmek",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "olmek",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "San Lorenzo ve La Venta noktalari data/yerlesimler_mo_amerika.js'te"
+  },
+  {
+   "ad": "Lagaş devletinin merkezi",
+   "sinif": "alias",
+   "alias_of": "Girsu (Tell Telloh)",
+   "mevcut_dosya": "data/yerlesimler_mo_sumer.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Madde 'Girsu (Lagaş devletinin merkezi)'; Lagaş (Tell al-Hiba) ayrı noktadır, karıştırma"
+  },
+  {
+   "ad": "Karnataka",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_iran_asya.js",
+   "kunye_id": "guney-hint-neolitik-megalitik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Eyalet/bölge etiketi; nokta değil. Sanganakallu-Kupgal noktası data/yerlesimler_mo_iran_asya.js'de"
+  },
+  {
+   "ad": "Khok Phanom Di",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 13.58,
+    "lon": 101.14,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q1740652 (P625)",
+      "lat": 13.58,
+      "lon": 101.14,
+      "url": "https://www.wikidata.org/wiki/Q1740652"
+     },
+     {
+      "kaynak": "OSM Nominatim Khok Phanom Di Chonburi (attraction)",
+      "lat": 13.5850726,
+      "lon": 101.1403248,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Tha Kham, Phanat Nikhom, Chonburi"
+  },
+  {
+   "ad": "Tappe Yahya",
+   "sinif": "alias",
+   "alias_of": "Tepe Yahya",
+   "mevcut_dosya": "data/yerlesimler_mo_iran_asya.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Hakhamanishiya",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "ahamenis",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Ahameniş'in Eski Farsça adı"
+  },
+  {
+   "ad": "Achaemenid",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "ahamenis",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "İngilizce ad"
+  },
+  {
+   "ad": "Elam",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "elam-simaski",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Bölge/devlet etiketi; ilgili künyeler: awan, elam-simaski, elam-sukkalmah, elam-orta, elam-yeni. Başkent Susa noktası data/yerlesimler_mo_zincir.js"
+  },
+  {
+   "ad": "Haltamti",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "elam-yeni",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Elam'ın yerel adı (Elam ile aynı künye zinciri: awan/elam-simaski/elam-sukkalmah/elam-orta/elam-yeni)"
+  },
+  {
+   "ad": "Dzheitun",
+   "sinif": "alias",
+   "alias_of": "Jeitun",
+   "mevcut_dosya": "data/yerlesimler_mo_iran_asya.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Ahal",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_iran_asya.js",
+   "kunye_id": "jeitun-kultur",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Türkmenistan vilayeti (bölge); GeoNames noktası vilayet merkezi, Jeitun yerleşimi değil. Nokta: Jeitun data/yerlesimler_mo_iran_asya.js"
+  },
+  {
+   "ad": "Antas",
+   "sinif": "alias",
+   "alias_of": "El Argar",
+   "mevcut_dosya": "data/yerlesimler_mo_avrupa.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Antas = Almería'da El Argar'ın bulunduğu belediye; Pleiades 786551142 (Sardinya 39.39,8.50) YANLIŞ eşleşme; künye el-argar-kultur"
+  },
+  {
+   "ad": "Baranya",
+   "sinif": "alias",
+   "alias_of": "Szederkény-Kukorica-dűlő",
+   "mevcut_dosya": "data/yerlesimler_mo_avrupa.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Baranya = Macaristan ili (bölge etiketi), künye lbk-szederkeny; GeoNames Baranyntsi (Ukrayna) YANLIŞ"
+  },
+  {
+   "ad": "Tell Mureybet",
+   "sinif": "alias",
+   "alias_of": "Mureybet",
+   "mevcut_dosya": "data/yerlesimler_mo_levant_anadolu.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Mureybit",
+   "sinif": "alias",
+   "alias_of": "Mureybet",
+   "mevcut_dosya": "data/yerlesimler_mo_levant_anadolu.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Tell Abu Hureyra",
+   "sinif": "alias",
+   "alias_of": "Ebu Hureyre (Abu Hureyra)",
+   "mevcut_dosya": "data/yerlesimler_mo_levant_anadolu.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "‘Ayn Ghazāl",
+   "sinif": "alias",
+   "alias_of": "Ain Ghazal",
+   "mevcut_dosya": "data/yerlesimler_mo_levant_anadolu.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Qalʿat Sherqat",
+   "sinif": "alias",
+   "alias_of": "Aşşur",
+   "mevcut_dosya": "data/yerlesimler_mo_zincir.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Aşşur'un modern adı (Qal'at Sherqat)"
+  },
+  {
+   "ad": "Urim",
+   "sinif": "alias",
+   "alias_of": "Ur (Tell al-Muqayyar)",
+   "mevcut_dosya": "data/yerlesimler_mo_sumer.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Sargonic period",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "akad",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Dönem etiketi"
+  },
+  {
+   "ad": "Unug",
+   "sinif": "alias",
+   "alias_of": "Uruk (Warka)",
+   "mevcut_dosya": "data/yerlesimler_mo_sumer.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "ʿUbaid",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_sumer.js",
+   "kunye_id": "ubaid-kultur",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Tip yerleşim Tell al-Ubaid noktası data/yerlesimler_mo_sumer.js"
+  },
+  {
+   "ad": "Kerma culture",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "kerma",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Klasik Kerma künyesi f -1749; madde -2499 başlangıçlı, Eski Kerma dönemi künyede yok (bağlanma kısmi). Kerma noktası data/yerlesimler_afrika.js"
+  },
+  {
+   "ad": "Kingdom of Kush",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "kerma",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Madde 'Kerma (Kush) krallığı/kültürü' -> kerma; Napata-Meroe dönemi için kush-krallik"
+  },
+  {
+   "ad": "Middle Kingdom of Egypt",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "misir-orta-krallik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "First Intermediate Period",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "herakleopolis",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Tek künyeye bağlanamaz: -2242..-2050 aralığı herakleopolis (f -2159) + tebai-11-hanedan (f -2124) ile kısmen örtüşür; misir-eski-krallik -2180'de biter. BAĞLANAMAZ (tek id yok)"
+  },
+  {
+   "ad": "Old Kingdom of Egypt",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "misir-eski-krallik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Naqada culture",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_afrika.js",
+   "kunye_id": "naqada-kultur",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Naqada noktası data/yerlesimler_mo_afrika.js"
+  },
+  {
+   "ad": "Naqada I–III",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_afrika.js",
+   "kunye_id": "naqada-kultur",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Aşama etiketi"
+  },
+  {
+   "ad": "Takarkori rock shelter",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 24.8833,
+    "lon": 10.3333,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q124881312 (P625)",
+      "lat": 24.883333,
+      "lon": 10.333333,
+      "url": "https://www.wikidata.org/wiki/Q124881312"
+     },
+     {
+      "kaynak": "Pleiades 165753154 (Tadrart Acacus bölge noktası)",
+      "lat": 24.833333,
+      "lon": 10.333333,
+      "url": "https://pleiades.stoa.org/places/165753154 (Tadrart Acacus bölge noktası)"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Pleiades noktası dağ silsilesi bölge noktasıdır, sığınak değil; sit düzeyi tanık tek (Wikidata). Kullanma önerme, bölge ölçeğinde ok"
+  },
+  {
+   "ad": "Tadrart Acacus",
+   "sinif": "bolge_dogal",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 24.8333,
+    "lon": 10.3333,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 165753154",
+      "lat": 24.833333,
+      "lon": 10.333333,
+      "url": "https://pleiades.stoa.org/places/165753154"
+     },
+     {
+      "kaynak": "Wikidata Q308807 (P625)",
+      "lat": 24.833429,
+      "lon": 10.333319,
+      "url": "https://www.wikidata.org/wiki/Q308807"
+     },
+     {
+      "kaynak": "OSM Nominatim mountain_range centroid",
+      "lat": 25.1890957,
+      "lon": 10.5110396,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Dağ silsilesi; nokta değil. Takarkori için bölge kapsayıcısı"
+  },
+  {
+   "ad": "Pakistan",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Ülke etiketi; bağlanamaz (Mehrgarh/Harappa noktaları data/yerlesimler_mo_iran_asya.js)"
+  },
+  {
+   "ad": "фаза I-II",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_avrupa.js",
+   "kunye_id": "lepenski-vir-trapez",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Lepenski Vir faz I-II etiketi; nokta Lepenski Vir data/yerlesimler_mo_avrupa.js"
+  },
+  {
+   "ad": "Gobero",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 16.915,
+    "lon": 9.4961,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q849269 (P625)",
+      "lat": 16.915017,
+      "lon": 9.496108,
+      "url": "https://www.wikidata.org/wiki/Q849269"
+     },
+     {
+      "kaynak": "Pleiades 218046074",
+      "lat": 17.083333,
+      "lon": 9.516667,
+      "url": "https://pleiades.stoa.org/places/218046074"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "İki tanık 19 km ayrışıyor: Pleiades kaba (Ténéré Çemberi) noktası; Wikidata Sereno 2008 kazı alanıyla uyumlu (~16°55'K 9°30'D). Wikidata önerilir"
+  },
+  {
+   "ad": "Boncuklu Höyük",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 37.75183,
+    "lon": 32.86478,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q6099672 (P625)",
+      "lat": 37.75183,
+      "lon": 32.86478,
+      "url": "https://www.wikidata.org/wiki/Q6099672"
+     },
+     {
+      "kaynak": "OSM Nominatim archaeological_site",
+      "lat": 37.7518998,
+      "lon": 32.8648709,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Çumra/Karatay, Konya"
+  },
+  {
+   "ad": "Tappa Hesar",
+   "sinif": "alias",
+   "alias_of": "Tepe Hissar",
+   "mevcut_dosya": "data/yerlesimler_mo_iran_asya.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Pleiades 942329 36.1545,54.3851 zaten Tepe Hissar noktasıyla aynı"
+  },
+  {
+   "ad": "Brochtorff Circle",
+   "sinif": "alias",
+   "alias_of": "Xagħra (Brochtorff Çemberi)",
+   "mevcut_dosya": "data/yerlesimler_mo_avrupa.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Ix-Xagħra",
+   "sinif": "alias",
+   "alias_of": "Xagħra (Brochtorff Çemberi)",
+   "mevcut_dosya": "data/yerlesimler_mo_avrupa.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "GeoNames Xagħra köyü 36.05,14.264 mevcut noktaya (36.0464,14.2647) uyuyor"
+  },
+  {
+   "ad": "Late Harappan",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gec-harappa",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Localization Era",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gec-harappa",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Harappa kronolojisi 'Yerelleşme Dönemi'"
+  },
+  {
+   "ad": "Babilim",
+   "sinif": "alias",
+   "alias_of": "Babil",
+   "mevcut_dosya": "data/yerlesimler_mo_zincir.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Tell Halaf",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 36.8267,
+    "lon": 40.0397,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 874739",
+      "lat": 36.8267304,
+      "lon": 40.0396766,
+      "url": "https://pleiades.stoa.org/places/874739"
+     },
+     {
+      "kaynak": "Wikidata Q2142541 (P625)",
+      "lat": 36.8267852,
+      "lon": 40.0396697,
+      "url": "https://www.wikidata.org/wiki/Q2142541"
+     },
+     {
+      "kaynak": "OSM Nominatim village",
+      "lat": 36.8230854,
+      "lon": 40.0395506,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Atlasta nokta YOK; künye halaf-kultur kültür etiketi, merkez tanımsız. Tell Halaf = antik Guzana"
+  },
+  {
+   "ad": "Guzana",
+   "sinif": "gercek_yer",
+   "alias_of": "Tell Halaf",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 36.8267,
+    "lon": 40.0397,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 874739",
+      "lat": 36.8267304,
+      "lon": 40.0396766,
+      "url": "https://pleiades.stoa.org/places/874739"
+     },
+     {
+      "kaynak": "Wikidata Q2142541 (P625)",
+      "lat": 36.8267852,
+      "lon": 40.0396697,
+      "url": "https://www.wikidata.org/wiki/Q2142541"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Tell Halaf'ın antik adı"
+  },
+  {
+   "ad": "Fayum depression",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "fayum-neolitik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Bölge etiketi; nokta yok"
+  },
+  {
+   "ad": "Lake Qarun",
+   "sinif": "bolge_dogal",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "fayum-neolitik",
+   "koordinat": {
+    "lat": 29.4722,
+    "lon": 30.6142,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 736967 (Moeris lake)",
+      "lat": 29.473834,
+      "lon": 30.628816,
+      "url": "https://pleiades.stoa.org/places/736967 (Moeris lake)"
+     },
+     {
+      "kaynak": "Wikidata Q1330952 (P625)",
+      "lat": 29.472222,
+      "lon": 30.614167,
+      "url": "https://www.wikidata.org/wiki/Q1330952"
+     },
+     {
+      "kaynak": "OSM Nominatim lake",
+      "lat": 29.4706656,
+      "lon": 30.6239506,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Göl; yerleşim noktası değil. Fayum etiketiyle aynı bölge"
+  },
+  {
+   "ad": "Early Khartoum",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "erken-hartum",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Khartoum Mesolithic",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "erken-hartum",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Libya",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Ülke etiketi; Pleiades adayları yerleşim değil"
+  },
+  {
+   "ad": "Konya Ovası",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "orta-anadolu-neolitik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Bölge etiketi; Çatalhöyük/Boncuklu noktaları"
+  },
+  {
+   "ad": "Djenné-Djenno",
+   "sinif": "alias",
+   "alias_of": "Cenne (Djenné)",
+   "mevcut_dosya": "data/yerlesimler_e9353f.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Jenne-jeno Djenné'nin 3 km güneyindedir (ayrı kazı höyüğü); mevcut nokta Djenné kasabası. Aynı yer sayılacaksa alias; ayrı nokta istenirse kaynakla ~13.91N 4.53W teyit gerekir (yapılmadı)"
+  },
+  {
+   "ad": "Bābili",
+   "sinif": "alias",
+   "alias_of": "Babil",
+   "mevcut_dosya": "data/yerlesimler_mo_zincir.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Hagmatāna",
+   "sinif": "gercek_yer",
+   "alias_of": "Ekbatana",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 34.8056,
+    "lon": 48.5164,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 903021 (Ecbatana)",
+      "lat": 34.80555515,
+      "lon": 48.51640575,
+      "url": "https://pleiades.stoa.org/places/903021 (Ecbatana)"
+     },
+     {
+      "kaynak": "Wikidata Q28587 (Hamadan) (P625)",
+      "lat": 34.8,
+      "lon": 48.516667,
+      "url": "https://www.wikidata.org/wiki/Q28587 (Hamadan)"
+     },
+     {
+      "kaynak": "OSM Nominatim Hamadan city",
+      "lat": 34.7992888,
+      "lon": 48.5152464,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Atlasta Ekbatana/Hamedan noktası YOK (yerlesimler*.js'te aranmadı bulundu). Ekbatana = Hegmatana = Hamedan"
+  },
+  {
+   "ad": "Teouma",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": -17.7856,
+    "lon": 168.3862,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q7701210 (P625)",
+      "lat": -17.7856,
+      "lon": 168.3862,
+      "url": "https://www.wikidata.org/wiki/Q7701210"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Efate, Vanuatu; Lapita mezarlığı"
+  },
+  {
+   "ad": "Efate",
+   "sinif": "bolge_dogal",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": -17.6667,
+    "lon": 168.4167,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q266594 (P625)",
+      "lat": -17.666667,
+      "lon": 168.416667,
+      "url": "https://www.wikidata.org/wiki/Q266594"
+     },
+     {
+      "kaynak": "OSM Nominatim island",
+      "lat": -17.6739005,
+      "lon": 168.3648386,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Ada; Teouma bu adadadır"
+  },
+  {
+   "ad": "Vanuatu",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Ülke etiketi"
+  },
+  {
+   "ad": "Kuk Swamp Phase 2",
+   "sinif": "gercek_yer",
+   "alias_of": "Kuk Swamp",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": -5.7825,
+    "lon": 144.33,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q1165562 (P625)",
+      "lat": -5.7825,
+      "lon": 144.33,
+      "url": "https://www.wikidata.org/wiki/Q1165562"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Kuk Swamp Evre 2; aynı sit"
+  },
+  {
+   "ad": "Monte Verde",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": -41.5047,
+    "lon": -73.2044,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q975775 (P625)",
+      "lat": -41.504722,
+      "lon": -73.204444,
+      "url": "https://www.wikidata.org/wiki/Q975775"
+     },
+     {
+      "kaynak": "OSM Nominatim hamlet",
+      "lat": -41.5062151,
+      "lon": -73.2046724,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Şili, Llanquihue; devirdeki Pleiades 432970 (İtalya) YANLIŞ"
+  },
+  {
+   "ad": "Chupacigarro",
+   "sinif": "alias",
+   "alias_of": "Caral",
+   "mevcut_dosya": "data/yerlesimler_mo_amerika.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Chupacigarro = Caral'ın yerel adı (Caral-Supe)"
+  },
+  {
+   "ad": "Norte Chico",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "caral-norte-chico",
+   "koordinat": "data/yerlesimler_mo_amerika.js",
+   "tek_tanik": null,
+   "not": "Bölge etiketi; Caral noktası mevcut"
+  },
+  {
+   "ad": "Caral-Supe",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_amerika.js",
+   "kunye_id": "caral-norte-chico",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Caral'ın alias'ı + uygarlık etiketi"
+  },
+  {
+   "ad": "Stonehenge",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 51.17889,
+    "lon": -1.82611,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q39671 (P625)",
+      "lat": 51.178889,
+      "lon": -1.826111,
+      "url": "https://www.wikidata.org/wiki/Q39671"
+     },
+     {
+      "kaynak": "OSM Nominatim archaeological_site",
+      "lat": 51.1788293,
+      "lon": -1.826183,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Wiltshire. Pleiades 509089189 konumsuz"
+  },
+  {
+   "ad": "Complexe mégalithique de Carnac",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 47.5933,
+    "lon": -3.0797,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q833850 (Carnac stones) (P625)",
+      "lat": 47.593333,
+      "lon": -3.079722,
+      "url": "https://www.wikidata.org/wiki/Q833850 (Carnac stones)"
+     },
+     {
+      "kaynak": "Pleiades 242742173 (Ménec alignments)",
+      "lat": 47.59248,
+      "lon": -3.08309,
+      "url": "https://pleiades.stoa.org/places/242742173 (Ménec alignments)"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Kompleks; Le Plasker bölümü ayrı alt nokta (bkz.)"
+  },
+  {
+   "ad": "Plouharnel",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 47.59856,
+    "lon": -3.11442,
+    "tanik": [
+     {
+      "kaynak": "GeoNames 2986657 Plouharnel",
+      "lat": 47.59856,
+      "lon": -3.11442,
+      "url": "https://www.geonames.org/2986657"
+     },
+     {
+      "kaynak": "OSM Nominatim Plouharnel içi yol",
+      "lat": 47.5985954,
+      "lon": -3.1116274,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Komün merkezi; OSM tanığı zayıf (yol)"
+  },
+  {
+   "ad": "San Martin Tilcajete",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 16.8589,
+    "lon": -96.695,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q61273942 (P625)",
+      "lat": 16.858889,
+      "lon": -96.695,
+      "url": "https://www.wikidata.org/wiki/Q61273942"
+     },
+     {
+      "kaynak": "GeoNames 3515582 San Martín Tilcajete",
+      "lat": 16.85991,
+      "lon": -96.69547,
+      "url": "https://www.geonames.org/3515582"
+     },
+     {
+      "kaynak": "OSM Nominatim administrative",
+      "lat": 16.8802,
+      "lon": -96.6911,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Antik Tilcajete = kazı alanı köyün yakınında; kasaba merkezi"
+  },
+  {
+   "ad": "San José Mogote",
+   "sinif": "alias",
+   "alias_of": "San Jose Mogote",
+   "mevcut_dosya": "data/yerlesimler_mo_boya_bekleyen.js",
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 17.1675,
+    "lon": -96.80333,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q2535980 (P625)",
+      "lat": 17.1675,
+      "lon": -96.80333,
+      "url": "https://www.wikidata.org/wiki/Q2535980"
+     }
+    ]
+   },
+   "tek_tanik": null,
+   "not": "Mevcut kayıt adı 'San Jose Mogote: koy yerlesimi ve Rosario sonrasi toren merkezinin terki'; Wikidata Q2535980 17.1675,-96.8033"
+  },
+  {
+   "ad": "Ceibal",
+   "sinif": "gercek_yer",
+   "alias_of": "Seibal",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 16.5117,
+    "lon": -90.0611,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q1534212 (Seibal) (P625)",
+      "lat": 16.511667,
+      "lon": -90.061111,
+      "url": "https://www.wikidata.org/wiki/Q1534212 (Seibal)"
+     },
+     {
+      "kaynak": "OSM Nominatim Ceibal attraction",
+      "lat": 16.5288707,
+      "lon": -90.0468755,
+      "url": "https://nominatim.openstreetmap.org/"
+     },
+     {
+      "kaynak": "OSM Nominatim El Ceibal hamlet",
+      "lat": 16.5389826,
+      "lon": -90.0535691,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "OSM tanıkları 1-3 km kayık; Wikidata Seibal sit noktası esas"
+  },
+  {
+   "ad": "Kerma Ancien",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "kerma",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Eski Kerma; künye 'kerma' f -1749 (Klasik); Eski Kerma dönemi için künye YOK — kısmi bağlanma. Kerma noktası data/yerlesimler_afrika.js"
+  },
+  {
+   "ad": "Early Kerma",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "kerma",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Kerma Ancien ile aynı"
+  },
+  {
+   "ad": "Lothagam North Pillar Site",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 2.9242,
+    "lon": 36.0651,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q27195566 (Lothagam tepe) (P625)",
+      "lat": 2.9242,
+      "lon": 36.0651,
+      "url": "https://www.wikidata.org/wiki/Q27195566 (Lothagam tepe)"
+     },
+     {
+      "kaynak": "OSM Nominatim Lothagam Pillar Site",
+      "lat": 2.9297958,
+      "lon": 36.0563018,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Turkana Gölü batısı; 1 km düzeyi"
+  },
+  {
+   "ad": "Salihli",
+   "sinif": "gercek_yer",
+   "alias_of": "Sardes (Sardis)",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 38.4883,
+    "lon": 28.0403,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 550867 (Sardis)",
+      "lat": 38.488314,
+      "lon": 28.040286,
+      "url": "https://pleiades.stoa.org/places/550867 (Sardis)"
+     },
+     {
+      "kaynak": "Wikidata Q232615 (Sardis) (P625)",
+      "lat": 38.488314,
+      "lon": 28.040286,
+      "url": "https://www.wikidata.org/wiki/Q232615 (Sardis)"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Madde Sardes; Salihli modern ilçe (GeoNames 38.48258,28.14774 yaklaşık 9 km doğu) — nokta Sardes sitidir. Atlasta Sardes noktası aranmalı (ad: 'Sardes' bulunamadı)"
+  },
+  {
+   "ad": "Gordion Tumulus MM",
+   "sinif": "alias",
+   "alias_of": "Gordion",
+   "mevcut_dosya": "data/yerlesimler_mo_zincir.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Tümülüs Gordion'un 3 km kadar içinde; Pleiades 609393 = mevcut Gordion noktası"
+  },
+  {
+   "ad": "Midas Mound",
+   "sinif": "alias",
+   "alias_of": "Gordion",
+   "mevcut_dosya": "data/yerlesimler_mo_zincir.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Media",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "medya",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Bölge etiketi; Pleiades bölge noktası"
+  },
+  {
+   "ad": "Anau IA",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 37.8977,
+    "lon": 58.5287,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q2845669 (Anau) (P625)",
+      "lat": 37.89765,
+      "lon": 58.528734,
+      "url": "https://www.wikidata.org/wiki/Q2845669 (Anau)"
+     },
+     {
+      "kaynak": "OSM Nominatim Änew",
+      "lat": 37.9021725,
+      "lon": 58.5044999,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Anau höyüğü (Aşkabat yakını). Pleiades 952061 38.19,58.48 UYUŞMUYOR (30 km), kullanma. Evre etiketi sit Anau'ya bağlanır"
+  },
+  {
+   "ad": "Meana Horizon",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Kültür ufku etiketi (Meana, Türkmenistan); künye yok. Anau noktasıyla birlikte düşün"
+  },
+  {
+   "ad": "Gadachrili Gora",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 41.3904,
+    "lon": 44.821,
+    "tanik": [
+     {
+      "kaynak": "OSM Nominatim archaeological_site",
+      "lat": 41.3903918,
+      "lon": 44.820974,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Marneuli, Gürcistan"
+  },
+  {
+   "ad": "Trypillia A1-2",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Kültür evresi etiketi; künye yok"
+  },
+  {
+   "ad": "Precucuteni II",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Kültür evresi etiketi; künye yok"
+  },
+  {
+   "ad": "Formative LBK",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "lbk-szederkeny",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Transdanubien",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "lbk-szederkeny",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Bölge etiketi (Transdanubia, Macaristan)"
+  },
+  {
+   "ad": "Natufian",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "natufiyen",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Ayn Gazal",
+   "sinif": "alias",
+   "alias_of": "Ain Ghazal",
+   "mevcut_dosya": "data/yerlesimler_mo_levant_anadolu.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Madde 'Kfar HaHoresh' -> yer adı karışıklığı olabilir; yorum için maddeye bak"
+  },
+  {
+   "ad": "Little Petra",
+   "sinif": "gercek_yer",
+   "alias_of": "Ba'ja (komşu)",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 30.3753,
+    "lon": 35.4514,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q2284751 (P625)",
+      "lat": 30.375278,
+      "lon": 35.451389,
+      "url": "https://www.wikidata.org/wiki/Q2284751"
+     },
+     {
+      "kaynak": "OSM Nominatim Little Petra",
+      "lat": 30.3740772,
+      "lon": 35.4480326,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Madde 'Ba‘ja' (neolitik) — Little Petra (Siq al-Barid) tanım bölgesidir; Ba'ja noktası mevcut data/yerlesimler_mo_levant_anadolu.js (30.4134,35.4612, ~5 km KKD)"
+  },
+  {
+   "ad": "Hallan Çemi Tepesi",
+   "sinif": "alias",
+   "alias_of": "Hallan Çemi",
+   "mevcut_dosya": "data/yerlesimler_mo_levant_anadolu.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Pre-Pottery Neolithic A",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "ppna-guney-levant",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Ninua",
+   "sinif": "alias",
+   "alias_of": "Ninova",
+   "mevcut_dosya": "data/yerlesimler_mo_zincir.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Neo-Babylonian",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "yeni-babil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Kaldean Babil",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "yeni-babil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Napatan period of Kush",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "kush-krallik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Napata",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 18.566,
+    "lon": 31.8537,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 805634",
+      "lat": 18.565952,
+      "lon": 31.853738,
+      "url": "https://pleiades.stoa.org/places/805634"
+     },
+     {
+      "kaynak": "Wikidata Q743282 (P625)",
+      "lat": 18.533333,
+      "lon": 31.816667,
+      "url": "https://www.wikidata.org/wiki/Q743282"
+     },
+     {
+      "kaynak": "Pleiades 508356079 (Jebel Barkal)",
+      "lat": 18.537276,
+      "lon": 31.828629,
+      "url": "https://pleiades.stoa.org/places/508356079 (Jebel Barkal)"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Atlasta nokta YOK. Pleiades Napata noktası ile Jebel Barkal 3-4 km ayrı; kutsal dağ/şehir çekirdeği 18.537,31.829"
+  },
+  {
+   "ad": "Jebel Barkal",
+   "sinif": "gercek_yer",
+   "alias_of": "Napata",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 18.5373,
+    "lon": 31.8286,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 508356079",
+      "lat": 18.537276,
+      "lon": 31.828629,
+      "url": "https://pleiades.stoa.org/places/508356079"
+     },
+     {
+      "kaynak": "Wikidata Q499019 (P625)",
+      "lat": 18.5368,
+      "lon": 31.8276,
+      "url": "https://www.wikidata.org/wiki/Q499019"
+     },
+     {
+      "kaynak": "OSM Nominatim desert/peak",
+      "lat": 18.5364188,
+      "lon": 31.8275045,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Madde 'Napata (Cebel Barkal)'"
+  },
+  {
+   "ad": "New Kingdom of Egypt",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "misir-yeni-krallik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "accession of Ahmose I",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "misir-yeni-krallik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Olay etiketi (I. Ahmose tahta çıkışı = Yeni Krallık başı)"
+  },
+  {
+   "ad": "Badari",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 26.9925,
+    "lon": 31.41556,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q25461922 (El-Badari) (P625)",
+      "lat": 26.9925,
+      "lon": 31.415556,
+      "url": "https://www.wikidata.org/wiki/Q25461922 (El-Badari)"
+     },
+     {
+      "kaynak": "GeoNames 361478 Al Badari",
+      "lat": 26.99306,
+      "lon": 31.41605,
+      "url": "https://www.geonames.org/361478"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Badari kültürü künyesi yok; tip yerleşim bölgesi Qau-Badari"
+  },
+  {
+   "ad": "Aşağı Mısır",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Bölge etiketi; birleşme maddesi misir-erken-hanedan'a ait"
+  },
+  {
+   "ad": "Kuk Swamp",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": -5.7825,
+    "lon": 144.33,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q1165562 (P625)",
+      "lat": -5.7825,
+      "lon": 144.33,
+      "url": "https://www.wikidata.org/wiki/Q1165562"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Wahgi vadisi, Papua Yeni Gine (UNESCO Kuk Early Agricultural Site ile aynı)"
+  },
+  {
+   "ad": "Kuk Early Agricultural Site",
+   "sinif": "alias",
+   "alias_of": "Kuk Swamp",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "UNESCO adı; Kuk Swamp ile aynı"
+  },
+  {
+   "ad": "Cultura Valdivia",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Kültür; künye yok. Madde 'Loma Alta / Real Alto'. Real Alto: Wikidata Q122746372 -2.3653,-80.6536 ve OSM -2.3723,-80.7105 (6 km kayık) — sit koordinatı çelişkili, bulunamadi say; Loma Alta aranmadı"
+  },
+  {
+   "ad": "Stonehenge sarsen circle",
+   "sinif": "alias",
+   "alias_of": "Stonehenge",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Atlasta Stonehenge noktası yok; bkz. Stonehenge gerçek yer girdisi"
+  },
+  {
+   "ad": "Yuchanyan",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 25.5816,
+    "lon": 111.4761,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q915738 (P625)",
+      "lat": 25.581606,
+      "lon": 111.47607,
+      "url": "https://www.wikidata.org/wiki/Q915738"
+     },
+     {
+      "kaynak": "OSM Nominatim cave_entrance",
+      "lat": 25.6067012,
+      "lon": 111.482799,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Daoxian, Hunan; 3 km kayık"
+  },
+  {
+   "ad": "Kotosh Religious Tradition",
+   "sinif": "gercek_yer",
+   "alias_of": "Kotosh",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": -9.9308,
+    "lon": -76.2794,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q2669852 (Kotosh) (P625)",
+      "lat": -9.930833,
+      "lon": -76.279444,
+      "url": "https://www.wikidata.org/wiki/Q2669852 (Kotosh)"
+     },
+     {
+      "kaynak": "OSM Nominatim archaeological_site",
+      "lat": -9.9321803,
+      "lon": -76.2795639,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Gelenek etiketi + tip sit Kotosh (Huánuco)"
+  },
+  {
+   "ad": "大平山元I遺跡",
+   "sinif": "gercek_yer",
+   "alias_of": "Ōdai Yamamoto I",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 41.0655,
+    "lon": 140.5522,
+    "tanik": [
+     {
+      "kaynak": "OSM Nominatim archaeological_site",
+      "lat": 41.0654753,
+      "lon": 140.5521693,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Aomori, Sotogahama"
+  },
+  {
+   "ad": "Anuradhapura Salgaha Watta 2",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 8.3244,
+    "lon": 80.4128,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 49863 (Anurādhapura)",
+      "lat": 8.32444,
+      "lon": 80.41276,
+      "url": "https://pleiades.stoa.org/places/49863 (Anurādhapura)"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Salgaha Watta Anuradhapura Kale içi kazı alanıdır; yalnız şehir noktası bulundu"
+  },
+  {
+   "ad": "Brahmi sherds",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Buluntu türü; nokta değil"
+  },
+  {
+   "ad": "Ban Chiang",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 17.4063,
+    "lon": 103.2388,
+    "tanik": [
+     {
+      "kaynak": "OSM Nominatim Ban Chiang",
+      "lat": 17.4062537,
+      "lon": 103.2387824,
+      "url": "https://nominatim.openstreetmap.org/"
+     },
+     {
+      "kaynak": "Wikidata Q17115113 (tambon) (P625)",
+      "lat": 17.399898,
+      "lon": 103.225876,
+      "url": "https://www.wikidata.org/wiki/Q17115113 (tambon)"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Wikidata sit noktası Q584125 (17.5486,103.3583) ~20 km kayık, kullanma; Udon Thani, Nong Han"
+  },
+  {
+   "ad": "Ban Non Wat",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 15.2744,
+    "lon": 102.2689,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q806037 (P625)",
+      "lat": 15.274415,
+      "lon": 102.268896,
+      "url": "https://www.wikidata.org/wiki/Q806037"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Nakhon Ratchasima, Phimai civarı köy"
+  },
+  {
+   "ad": "Southern Neolithic",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "guney-hint-neolitik-megalitik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Ashmound Tradition",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "guney-hint-neolitik-megalitik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Karnataka-Andhra",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "guney-hint-neolitik-megalitik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Proto-Elamite script",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Yazı sistemi/olay etiketi; Susa noktası data/yerlesimler_mo_zincir.js; künye yok (awan f -2499)"
+  },
+  {
+   "ad": "Liangzhu Kültürü",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_dogu_asya.js",
+   "kunye_id": "liangzhu",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Nokta Liangzhu data/yerlesimler_mo_dogu_asya.js"
+  },
+  {
+   "ad": "Hemudu Kültürü",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_dogu_asya.js",
+   "kunye_id": "hemudu",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Nokta Hemudu data/yerlesimler_mo_dogu_asya.js"
+  },
+  {
+   "ad": "Eş-Şeheynab Neolitiği",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_afrika.js",
+   "kunye_id": "shaheinab-neolitik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Nokta Esh-Shaheinab data/yerlesimler_mo_afrika.js"
+  },
+  {
+   "ad": "Shaheinab",
+   "sinif": "alias",
+   "alias_of": "Esh-Shaheinab",
+   "mevcut_dosya": "data/yerlesimler_mo_afrika.js",
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Kuahuqiao Kültürü",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_dogu_asya.js",
+   "kunye_id": "kuahuqiao",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Nokta Kuahuqiao data/yerlesimler_mo_dogu_asya.js"
+  },
+  {
+   "ad": "Rakhigarhi",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 29.2913,
+    "lon": 76.1115,
+    "tanik": [
+     {
+      "kaynak": "Pleiades 168523099",
+      "lat": 29.291323,
+      "lon": 76.111482,
+      "url": "https://pleiades.stoa.org/places/168523099"
+     },
+     {
+      "kaynak": "OSM Nominatim RGR-2 archaeological_site",
+      "lat": 29.2913235,
+      "lon": 76.110736,
+      "url": "https://nominatim.openstreetmap.org/"
+     },
+     {
+      "kaynak": "Wikidata Q3418050 (kaba) (P625)",
+      "lat": 29.17,
+      "lon": 76.07,
+      "url": "https://www.wikidata.org/wiki/Q3418050 (kaba)"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Wikidata kaba (15 km); Pleiades+OSM uyumlu"
+  },
+  {
+   "ad": "Mature Harappan",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "harappa",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Harappa Phase",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "harappa",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Integration Era",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "harappa",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Burzahom",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 34.1705,
+    "lon": 74.8673,
+    "tanik": [
+     {
+      "kaynak": "OSM Nominatim Burzahom Archaeological Site",
+      "lat": 34.1704823,
+      "lon": 74.8673354,
+      "url": "https://nominatim.openstreetmap.org/"
+     },
+     {
+      "kaynak": "OSM Nominatim attraction",
+      "lat": 34.1691499,
+      "lon": 74.866985,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": true,
+   "not": "Srinagar, Keşmir; iki OSM düğümü tek kaynak"
+  },
+  {
+   "ad": "Burzahama",
+   "sinif": "alias",
+   "alias_of": "Burzahom",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Yazım varyantı"
+  },
+  {
+   "ad": "Early Harappan",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "erken-harappa",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Bhirrana",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 29.5542,
+    "lon": 75.5653,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q4901824 (P625)",
+      "lat": 29.554167,
+      "lon": 75.565278,
+      "url": "https://www.wikidata.org/wiki/Q4901824"
+     },
+     {
+      "kaynak": "OSM Nominatim archaeological_site",
+      "lat": 29.5549146,
+      "lon": 75.5477754,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Fatehabad, Haryana; 1.5 km kayık"
+  },
+  {
+   "ad": "Bhirdana",
+   "sinif": "alias",
+   "alias_of": "Bhirrana",
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Aynı sit, alternatif yazım"
+  },
+  {
+   "ad": "Final PPNB",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "ppnc-guney-levant",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "PPNC",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "ppnc-guney-levant",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Pre-Pottery Neolithic B",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "ppnb-guney-levant",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Meroitic period",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "kush-krallik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Meroe",
+   "sinif": "gercek_yer",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": null,
+   "koordinat": {
+    "lat": 16.9351,
+    "lon": 33.7508,
+    "tanik": [
+     {
+      "kaynak": "Wikidata Q5780 (P625)",
+      "lat": 16.935139,
+      "lon": 33.75075,
+      "url": "https://www.wikidata.org/wiki/Q5780"
+     },
+     {
+      "kaynak": "OSM Nominatim archaeological_site",
+      "lat": 16.9380862,
+      "lon": 33.7480636,
+      "url": "https://nominatim.openstreetmap.org/"
+     }
+    ]
+   },
+   "tek_tanik": false,
+   "not": "Atlasta nokta YOK; Pleiades 'Meroe' iki küme: 16.937,33.712 doğru, 36.25,36.26 yanlış"
+  },
+  {
+   "ad": "Pre-Kerma",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "pre-kerma",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Shaheinab Neolithic",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "shaheinab-neolitik",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": ""
+  },
+  {
+   "ad": "Hulah Vadisi",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": "data/yerlesimler_mo_levant_anadolu.js",
+   "kunye_id": "natufiyen",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Bölge etiketi; nokta Ain Mallaha (Eynan) data/yerlesimler_mo_levant_anadolu.js"
+  },
+  {
+   "ad": "Vietnam",
+   "sinif": "etiket",
+   "alias_of": null,
+   "mevcut_dosya": null,
+   "kunye_id": "gerekli degil",
+   "koordinat": null,
+   "tek_tanik": null,
+   "not": "Ülke etiketi; GeoNames 13680668 (Kiev) YANLIŞ. Man Bac için bulunamadi"
+  }
+ ],
+ "bulunamadi": [
+  {
+   "ad": "Pınarbaşı Höyüğü",
+   "not": "Karaman/Konya havzası Pınarbaşı höyüğünün koordinatı çift tanıkla bulunamadı. Zayıf aday: Wikidata Q2121053 Pınarbaşı köyü (Karaman merkez) 37.1017,33.0536 — kazı alanı olduğu doğrulanmadı; kullanma. Devir listesindeki GeoNames adayları başka Pınarbaşı'lar."
+  },
+  {
+   "ad": "Akkade",
+   "not": "Akad şehrinin yeri bilinmiyor (Pleiades 56567730/63806066 32.5,44.5 yer tutucu bölge noktasıdır, sit değil). Künye 'akad' başkent: 'Agade (konum bilinmiyor)'. Nokta yazılmamalı."
+  },
+  {
+   "ad": "Agade",
+   "not": "Akkade ile aynı: konum bilinmiyor; 32.5,44.5 Pleiades yer tutucusu. alias_of Akkade"
+  },
+  {
+   "ad": "Le Plasker",
+   "not": "Le Plasker dolmeni/bölümü için sit düzeyi koordinat bulunamadı; Plouharnel komünü ile Carnac kompleksi arası. Kompleks noktası (47.593,-3.080) kullanılabilir, beyan et"
+  },
+  {
+   "ad": "Los Morteros",
+   "not": "Chao Vadisi (Peru) sitinin koordinatı Wikidata/OSM'de bulunamadı (Wikidata Q20215194 Meksika yerleşimi YANLIŞ)"
+  },
+  {
+   "ad": "Xianrendong",
+   "not": "Wannian (Jiangxi) mağarası koordinatı çift tanıkla bulunamadı (Wikidata Q10884174 Liaoning kasabası YANLIŞ)"
+  },
+  {
+   "ad": "Cueva San Marcos",
+   "not": "Tehuacán Vadisi San Marcos Mağarası için Wikidata/OSM bulunamadı"
+  },
+  {
+   "ad": "Valle de Tehuacan",
+   "not": "Bölge; Puebla (~18.5N,-97.4W) yaklaşık, çift tanık bulunamadı; etiket olarak ele al"
+  },
+  {
+   "ad": "Non Nok Tha",
+   "not": "Khon Kaen, Phu Wiang sit koordinatı bulunamadı (OSM/Wikidata yanlış eşleşme)"
+  },
+  {
+   "ad": "Man Bac",
+   "not": "Ninh Binh sit koordinatı bulunamadı (OSM yanlış eşleşme)"
+  }
+ ],
+ "ozet": {
+  "toplam": 143,
+  "sinif_sayilari": {
+   "etiket": 66,
+   "alias": 30,
+   "gercek_yer": 34,
+   "bolge_dogal": 3
+  },
+  "bulunamadi": 10,
+  "gercek_yer_cift_tanikli": 24,
+  "gercek_yer_tek_tanikli": 10
+ }
+}

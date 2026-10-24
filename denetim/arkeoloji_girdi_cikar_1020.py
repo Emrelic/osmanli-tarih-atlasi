@@ -17,7 +17,9 @@ def yaz(p, s):
 
 gp, ip, yp = (os.path.join(KOK, "arac", "girdi_listesi.py"), os.path.join(KOK, "index.html"), os.path.join(KOK, "arac", "denetle_yayin.py"))
 g, ix, y = oku(gp), oku(ip), oku(yp)
-adlar = sorted(os.path.basename(f) for f in glob.glob(os.path.join(KOK, "data", "yerlesimler_mo_*.js")) if "sumer" not in f)
+adlar = sorted(os.path.basename(f) for f in glob.glob(os.path.join(KOK, "data", "yerlesimler_mo_*.js")) if "sumer" not in f and "boya_bekleyen" not in f)
+if len(sys.argv) > 2:
+    adlar = [os.path.basename(a) for a in sys.argv[2:]]       # açık dosya adı: py … cikar yerlesimler_mo_boya_bekleyen.js
 mod = sys.argv[1] if len(sys.argv) > 1 else ""
 capa_y = '        "data/sehir_tarihce_osm.js":'
 for fn in adlar:

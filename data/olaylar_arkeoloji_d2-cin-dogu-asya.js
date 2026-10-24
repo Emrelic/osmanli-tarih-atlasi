@@ -18,12 +18,17 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "k": "fetih",
   "b": "Qin'in Çin'i birleştirmesi (Qin Shi Huangdi): Qin altı devleti birleştirir (gelenek 221)",
   "gun": "MÖ 221",
-  "yer": "秦统一六国 / 皇帝称号",
+  "yer": "秦统一六国 / 皇帝称号 / Luoyang / Çengdu (Chengdu) / Xi'an (Chang'an)",
   "d": "Qin Kralı Ying Zheng, Qi'nin fethiyle 26. yıl (221 MÖ) altı devleti birleştirdi ve 'Huangdi' (İmparator) unvanını ilan etti.",
   "kaynak": "Liu Rui (刘瑞, CASS Arkeoloji Enstitüsü), 「秦五大夫翳刻石纪年与时代」, Chinese Social Sciences Today, 19 Eylül 2025 · https://www.cssn.cn/skgz/bwyc/202509/t20250919_5916301.shtml",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «秦王嬴政在二十六年（前221年）完成统一六国大业». YAZILI GELENEK: Shiji 'Qin Shihuang benji' ('初并天下') anlatısından türer; Liu Rui makalesinin başlığı Wudafu Yi taş kitabesinin 'not earlier than 221' sınırını tartışır. Qin'in 230–221 arası fetih sırası ve 'Baiyue seferi' ayrıdır (arama özetinde). Shiji birincil metnine ctext.org'dan bot engeli yüzünden ulaşılamadı; Bai Qi–Wang Jian biyografisindeki 'Qin Shihuang 26. yıl' ifadesi yalnız arama özetinde görüldü. Başka bağımsız kaynakla kısıtlı."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «秦王嬴政在二十六年（前221年）完成统一六国大业». YAZILI GELENEK: Shiji 'Qin Shihuang benji' ('初并天下') anlatısından türer; Liu Rui makalesinin başlığı Wudafu Yi taş kitabesinin 'not earlier than 221' sınırını tartışır. Qin'in 230–221 arası fetih sırası ve 'Baiyue seferi' ayrıdır (arama özetinde). Shiji birincil metnine ctext.org'dan bot engeli yüzünden ulaşılamadı; Bai Qi–Wang Jian biyografisindeki 'Qin Shihuang 26. yıl' ifadesi yalnız arama özetinde görüldü. Başka bağımsız kaynakla kısıtlı.",
+  "odak_yer": [
+   "Luoyang",
+   "Çengdu (Chengdu)",
+   "Xi'an (Chang'an)"
+  ]
  },
  {
   "t": "-0769-01-01",
@@ -38,6 +43,9 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «公元前770年，周平王“辟戎寇”，东迁洛邑，定都王城». YAZILI GELENEK (Shiji): 770 MÖ geleneksel başlangıç; Shiji 'Liuguo nianbiao' 770'den başlar diye aktarılır (Jingzhou Üniv. Kütüphanesi, 15.05.2024 — ikincil aktarım, Shiji metni okunmadı). ÇELİŞKİ: Xia-Shang-Zhou Projesi Western Zhou'nun sonunu 771 MÖ koyar (Han Han, Guangming Daily 24.08.2022: 'Batı Zhou ... 1046–771'); 1 yıl fark yazılı/gelenek ile proje kronolojisi arasında kayıtlı. Kesin tarihli yazılı kronolojinin başı 841 MÖ (Gonghe 1. yıl; Shiji 'Shi'er zhuhou nianbiao') ve öncesi proje hesabıdır. Xinian (Tsinghua) el yazması farklı bir iki kral sırası önerir (yalnız arama özetinde, okunmadı)."
  },
  {
+  "odak_yer": [
+   "Sanxingdui"
+  ],
   "t": "-1049-01-01",
   "k": "kayip",
   "b": "Sanxingdui (Guanghan, Sichuan) medeniyeti: Sanxingdui uygarlığı sona erer",
@@ -53,6 +61,9 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "TEK DEĞER MÖ 1050 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «三星堆文明的结束年代大致在商末周初，距今3000年前后». Zhu'nun 'oluşum' tarihi Erlitou/Qijia buluntularıyla çapraz tarihlemeye dayanır (14C ham sayısı değil); I. evre (Neolitik, Baodun benzeri) için 'üst sınır ~4800 BP' iddiası Xu Hong'un tarihçesine göre ayrı kültürlere ait olduğundan 4800 BP 'erken olanı seçerek' verilmiştir, kalibre veriler 4600–4500 BP'ye yakındır (arama özetinde, PDF okunamadı → bulunamadı listesinde)."
  },
  {
+  "odak_yer": [
+   "Sanxingdui"
+  ],
   "t": "-1105-01-01",
   "k": "gelisme",
   "b": "Sanxingdui kurban çukurları (K3, K4, K6, K8) — gömülme olayı: kurban çukurları (K3/K4/K6/K8) gömülür (AMS)",
@@ -88,7 +99,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 13750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. UFUK DIŞI: MÖ 13750, ufuk MÖ 12000'den 1750 yıl önce; tarih aynen tutuldu (harita f'i ufka kenetlenir, varsayılan — Emre değiştirebilir). Kaynaktan okunan: «縄紋時代草創期はおおよそ15，700年前からおおよそ11，600年前まで». cal BP→MÖ: 15700−1950 = 13750; 11600−1950 = 9650 (bu oturumda). Yazar: erken ucu 12450 14C BP'den eski olduğundan kalibrasyon belirsiz; Okinawa hariç ana adalarda ~1500 yıl süren bir dizi. Başlangıç sınırı çanak-çömlek-merkezli tanımdır (Ryūsenmon = 15500 civarı; Ōdai Yamamoto 16000–15500)."
  },
- {
+ { "odak_yer":["Japonya"], 
   "t": "-13799-01-01",
   "k": "ilk_anilis",
   "b": "Ōdai Yamamoto I (Aomori) — Japonya'nın en eski çanak-çömlek yerleşimlerinden: en eski çanak çömlek (Jomon öncesi/erken) icadı",
@@ -110,6 +121,9 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 14050–13550 (kaynağın verdiği uçlar); orta nokta MÖ 13800 = astronomik -1379. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. UFUK DIŞI: MÖ 13800, ufuk MÖ 12000'den 1800 yıl önce; tarih aynen tutuldu (harita f'i ufka kenetlenir, varsayılan — Emre değiştirebilir). Kaynaktan okunan: «土器の発明の実年代がおおよそ16，000～15，500年のあいだ». bas/son = 16000–15500 yıl önce (cal BP; BP−1950, bu oturumda). ÖRNEK DÜZEYİ (Kobayashi 2007, IntCal04, %95.4, MÖ): F5-017 (13780±170 14C BP) 15015–13910 cal BC; E4-036 (13030±170) 14095–12955 cal BC; E4-048 (12680±140) 13355–12310 cal BC (%95.3). Kobayashi: tek kap kırığından 5 örnek 13780–12680 14C BP; kuru-karbon içeriği %5–8 gibi çok düşük olduğundan en eski ölçümün en az kirli olduğu söylenemez; ortalama değer E4-036'yı esas aldı; 12450 14C BP'den eski kalibrasyon ağaç halkası dışı → belirsiz; ortanca ~15500 yıl önce, tarihsel olarak 15700'e kadar olabilir. Arama özetinde (okunmadı): yayımlanan ilk kalibre değer ~16520 cal BP (Nakamura & Tsuji 1999; Nakamura vd. 2001) — daha eski, bu kaydın kullandığı değer değil; Kobayashi bunu 'yeniden değerlendirmeye ihtiyaç var' diye tartışır. Çelişki: ilk yayın (~16.5 bin cal BP) ↔ Kobayashi (16–15.5 bin cal BP); ikisi de verilmiştir, Kobayashi esas alındı (daha sonra, örnek-bazlı IntCal04)."
  },
  {
+  "odak_yer": [
+   "Erlitou"
+  ],
   "t": "-1519-01-01",
   "k": "kayip",
   "b": "Erlitou (Erlitou kültürü, Yanshi): IV. faz sona erer",
@@ -129,14 +143,21 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "k": "kayip",
   "b": "Xia hanedanı (yazılı gelenek / Dönemlendirme Projesi kronolojisi — arkeolojik tarih DEĞİL): Xia sona erer, Shang başlar (yazılı gelenek)",
   "gun": "MÖ 1600",
-  "yer": "夏 (夏商周断代工程年表)",
+  "yer": "夏 (夏商周断代工程年表) / Dholavira / Rakhigarhi",
   "d": "Geleneksel dönemlendirmede Xia ~2070–1600 MÖ (471 yıl). Bu tarih Shiji/Zhushu Jinian benzeri yazılı geleneğin ve proje hesabının ürünüdür; çağdaş yazılı belge yoktur.",
   "kaynak": "Aynı (Xia–Shang sınırı ~1600) · https://epaper.gmw.cn/gmrb/html/2022-08/24/nw.D110000gmrb_20220824_1-09.htm",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «夏为公元前2070年至公元前1600年». YAZILI GELENEK ≠ ARKEOLOJİ (ayrı yazıldı). Arkeolojik tarafta Xia'yı doğrudan tarihleyen yazıt yoktur. Erlitou I'in 14C tarihi 1750 MÖ'den eski değildir (bkz. erlitou kaydı); CASS'tan Dong Xiaolei (CSSN 16.08.2024) bunu şöyle özetler: 'Erlitou I'in 14C tarihlerinin en erkeni ancak MÖ 18. yy başında; Xia başlangıcı ile arada belirgin boşluk'. Chen Minzhen'e göre Erlitou kültürü 200 küsur yıl sürer ve 471 yıllık Xia'yı dolduramaz. Lee vd. 2007 (PNAS) Xia'yı 'ca. 2100–1600 B.C.' diye yazar (gelenek). Bu iki değer birbirinden bağımsız doğrulama DEĞİLDİR; ikisi de proje kronolojisine dayanır. Projenin kendisi yöntem olarak yazılı kral yıllarını referans çerçeve almış olduğundan eleştirilir (Nanjing Üniv. Zhou Xiaolu, 2014 konferansı; 1046 MÖ vb. sonuçlar yurtiçi/yurtdışı eleştirmişti)."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «夏为公元前2070年至公元前1600年». YAZILI GELENEK ≠ ARKEOLOJİ (ayrı yazıldı). Arkeolojik tarafta Xia'yı doğrudan tarihleyen yazıt yoktur. Erlitou I'in 14C tarihi 1750 MÖ'den eski değildir (bkz. erlitou kaydı); CASS'tan Dong Xiaolei (CSSN 16.08.2024) bunu şöyle özetler: 'Erlitou I'in 14C tarihlerinin en erkeni ancak MÖ 18. yy başında; Xia başlangıcı ile arada belirgin boşluk'. Chen Minzhen'e göre Erlitou kültürü 200 küsur yıl sürer ve 471 yıllık Xia'yı dolduramaz. Lee vd. 2007 (PNAS) Xia'yı 'ca. 2100–1600 B.C.' diye yazar (gelenek). Bu iki değer birbirinden bağımsız doğrulama DEĞİLDİR; ikisi de proje kronolojisine dayanır. Projenin kendisi yöntem olarak yazılı kral yıllarını referans çerçeve almış olduğundan eleştirilir (Nanjing Üniv. Zhou Xiaolu, 2014 konferansı; 1046 MÖ vb. sonuçlar yurtiçi/yurtdışı eleştirmişti).",
+  "odak_yer": [
+   "Dholavira",
+   "Rakhigarhi"
+  ]
  },
  {
+  "odak_yer": [
+   "Sanxingdui"
+  ],
   "t": "-1599-01-01",
   "k": "kurulus",
   "b": "Sanxingdui (Guanghan, Sichuan) medeniyeti: Sanxingdui uygarlığı oluşur (çapraz tarihleme)",
@@ -158,6 +179,9 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 1600–1500) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «可以推定三星堆文明的形成年代大致在公元前1600—前1500年之间». Zhu'nun 'oluşum' tarihi Erlitou/Qijia buluntularıyla çapraz tarihlemeye dayanır (14C ham sayısı değil); I. evre (Neolitik, Baodun benzeri) için 'üst sınır ~4800 BP' iddiası Xu Hong'un tarihçesine göre ayrı kültürlere ait olduğundan 4800 BP 'erken olanı seçerek' verilmiştir, kalibre veriler 4600–4500 BP'ye yakındır (arama özetinde, PDF okunamadı → bulunamadı listesinde)."
  },
  {
+  "odak_yer": [
+   "Erlitou"
+  ],
   "t": "-1749-01-01",
   "k": "kurulus",
   "b": "Erlitou (Erlitou kültürü, Yanshi): Erlitou kültürü I. faz başlar",
@@ -173,6 +197,9 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "TEK DEĞER MÖ 1750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «二里头文化一期的年代为公元前1750～前1680年». ÇELİŞKİ (üç kaynak, ortası alınmadı). (a) Xia-Shang-Zhou Dönemlendirme Projesi (2000) tüm Erlitou kültürü için 1880–1521 MÖ yayımladı (aynı makale, Chen Minzhen 2020). (b) 2005 sonrası seri-uydurma: I. faz 1750'den erken değil, IV. faz sonu 1520 (Qiu Shihua vd.; yukarıdaki kur/bit). (c) Lee, Crawford, Liu, Chen 2007, PNAS 104(3):1087, doi 10.1073/pnas.0609763104: Erlitou 'ca. 1900–1500 B.C.' (genel dönem değeri; PMC1764861 metninde okundu). Esas alınan (b): sonraki, kısa-ömürlü örnek + wiggle-match yöntemi; gerekçe Zhang Xuelian vd. 2022 Radiocarbon 64(4):819–832, doi 10.1017/RDC.2021.72 özetinde de wiggle-matching ile alan tarihinin netleştiği belirtiliyor (bu oturumda yalnız özet okunabildi, faz sayıları tam metinden doğrulanamadı). Chen Minzhen ayrıca bu verilere göre III. fazın (~1610'dan) 1600 MÖ Shang başlangıcına göre Shang'a düştüğünü tartışır. Takvim: kaynaklar kalibre MÖ yıl veriyor."
  },
  {
+  "odak_yer": [
+   "Shimao"
+  ],
   "t": "-1799-01-01",
   "k": "kayip",
   "b": "Shimao (Shenmu, Shaanxi): terk edilir",
@@ -188,11 +215,14 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "TEK DEĞER MÖ 1800 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «废弃于公元前1800年前后». Aynı ekip, aynı veri: Xinhua 02.01.2019 (kazı ekibi) 'başlangıç 2300'den geç değil, terk ~1800' diyor (zh, https://www.xinhuanet.com/politics/2019-01/02/c_1123936756.htm) — bağımsız teyit sayılmadı. Alt kayıtlar (aynı makale): Huangchengtai doğu koruma duvarı kerestesi 14C: 2200–1900 MÖ; tepe F2 çürük ahşap: 1900–1800 MÖ; 'büyük platformun yapımı Shimao ortasından, ~2000 MÖ'den geç değil' (tabakalanma çıkarımı, 14C değil). Terk sonrası yılan desenli ördek/lì tipi buluntular ~1700–1600 MÖ. Shao Jing (Kaogu 2020(5)): üç segment A–C 'kabaca 2300–1800 MÖ'."
  },
  {
+  "odak_yer": [
+   "Taosi"
+  ],
   "t": "-1899-01-01",
   "k": "kayip",
   "b": "Taosi (Longshan sonu, Xiangfen): yerleşim sona erer",
   "gun": "MÖ 1900 civarı",
-  "yer": "陶寺遗址",
+  "yer": "陶寺遗址 / Dholavira / Rakhigarhi",
   "d": "Shanxi güneyinde surlu erken merkez: erken (küçük) şehir, orta (büyük şehir + dış sur, gözlemevi), geç dönem terk. Dönem toplamı 2300–1900 MÖ.",
   "kaynak": "Aynı (Shao Jing 2020) · https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552726.shtml",
   "kesinlik": "yuzyil",
@@ -215,6 +245,9 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «夏为公元前2070年至公元前1600年». YAZILI GELENEK ≠ ARKEOLOJİ (ayrı yazıldı). Arkeolojik tarafta Xia'yı doğrudan tarihleyen yazıt yoktur. Erlitou I'in 14C tarihi 1750 MÖ'den eski değildir (bkz. erlitou kaydı); CASS'tan Dong Xiaolei (CSSN 16.08.2024) bunu şöyle özetler: 'Erlitou I'in 14C tarihlerinin en erkeni ancak MÖ 18. yy başında; Xia başlangıcı ile arada belirgin boşluk'. Chen Minzhen'e göre Erlitou kültürü 200 küsur yıl sürer ve 471 yıllık Xia'yı dolduramaz. Lee vd. 2007 (PNAS) Xia'yı 'ca. 2100–1600 B.C.' diye yazar (gelenek). Bu iki değer birbirinden bağımsız doğrulama DEĞİLDİR; ikisi de proje kronolojisine dayanır. Projenin kendisi yöntem olarak yazılı kral yıllarını referans çerçeve almış olduğundan eleştirilir (Nanjing Üniv. Zhou Xiaolu, 2014 konferansı; 1046 MÖ vb. sonuçlar yurtiçi/yurtdışı eleştirmişti)."
  },
  {
+  "odak_yer": [
+   "Taosi"
+  ],
   "t": "-2299-01-01",
   "k": "kurulus",
   "b": "Taosi (Longshan sonu, Xiangfen): yerleşim başlar",
@@ -230,6 +263,9 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "TEK DEĞER MÖ 2300 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «遗址绝对年代为公元前2300年至公元前1900年». Kaynak 14C tablosu vermez, 'sistematik tarih verisi'ne atıf yapar; faz sınırları (erken/orta/geç) sayfada yok. ÇİFT TEYİT sayılmadı: Gao Jiangtao (高江涛, CASS), Guangming Daily/CSSN 10.03.2025: Taosi 'distance to present ≈ 4300–3900 yıl' (BP−1950 ile ≈ 2350–1950 MÖ; çeviri bu oturumda; kalibre durumu belirtilmemiş) — https://cssn.cn/kgxc/kgxc_kgdz/202503/t20250310_5856614.shtml. Medya düzeyi faz değerleri (erken 4300–4100, orta 4100–4000, geç 4000–3900 BP; Thepaper.cn/He Nu) kayda alınmadı. Taosi erken evresinin Shimao A segmentinden hafif eski olduğu belirtilir (Shao Jing)."
  },
  {
+  "odak_yer": [
+   "Shimao"
+  ],
   "t": "-2299-01-01",
   "k": "kurulus",
   "b": "Shimao (Shenmu, Shaanxi): kent kurulur",
@@ -245,6 +281,9 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "TEK DEĞER MÖ 2300 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «石峁城址初建于公元前2300年前后». Aynı ekip, aynı veri: Xinhua 02.01.2019 (kazı ekibi) 'başlangıç 2300'den geç değil, terk ~1800' diyor (zh, https://www.xinhuanet.com/politics/2019-01/02/c_1123936756.htm) — bağımsız teyit sayılmadı. Alt kayıtlar (aynı makale): Huangchengtai doğu koruma duvarı kerestesi 14C: 2200–1900 MÖ; tepe F2 çürük ahşap: 1900–1800 MÖ; 'büyük platformun yapımı Shimao ortasından, ~2000 MÖ'den geç değil' (tabakalanma çıkarımı, 14C değil). Terk sonrası yılan desenli ördek/lì tipi buluntular ~1700–1600 MÖ. Shao Jing (Kaogu 2020(5)): üç segment A–C 'kabaca 2300–1800 MÖ'."
  },
  {
+  "odak_yer": [
+   "Dadiwan"
+  ],
   "t": "-2949-01-01",
   "k": "kayip",
   "b": "Dadiwan (Qin'an, Gansu): Faz V (Changshan) sona erer",
@@ -266,6 +305,9 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "ic_not_d": "donem-toplami aralığı (MÖ 2950–2850) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Phase V (4,900-4,800 cal BP, Changshan culture)». cal BP→MÖ: BP−1950, bu oturumda. ÇİFT TEYİT (bağımsızlık belirsiz): Leipe C. vd. 2019, Science Advances 5:eaax6225 (PMC6760930): Dadiwan 'occupation phase 1 (5800 to 5300 BCE)' (en). Her iki kaynak da aynı Dadiwan kazı raporlarına dayanıyor olabilir. Eski Çince değer (Dili Xuebao / Acta Geographica Sinica 1985): Dadiwan I 7800–7355 BP — kalibre edilmemiş ham tarih, KAYIT DIŞI. Leipe'nin notu: Dadiwan I'deki 8 darı tanesi tek bir çukurdan, daha genç tabakadan karışma ihtimali yüksek (tarih tartışmalı)."
  },
  {
+  "odak_yer": [
+   "Dadiwan"
+  ],
   "t": "-5849-01-01",
   "k": "kurulus",
   "b": "Dadiwan (Qin'an, Gansu): Faz I başlar",

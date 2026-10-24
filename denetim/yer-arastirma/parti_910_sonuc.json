@@ -1,0 +1,696 @@
+{
+ "parti": 910,
+ "sonuclar": [
+  {
+   "ad": "Georgenberg",
+   "durum": "tek_tanik",
+   "lat": 48.2165,
+   "lon": 14.483,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Enns-Georgenberg",
+   "ulke_modern": "Avusturya",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 48.2165,
+     "lon": 14.483,
+     "not": "'Enns, Georgenberg' kaydi; 1186 Georgenberg Pakti Enns yakininda"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Pakt yeri Enns'teki Georgenberg; yalniz DAI kaydi, ikinci tanik yok"
+  },
+  {
+   "ad": "Drinopolje",
+   "durum": "tek_tanik",
+   "lat": 41.67719,
+   "lon": 26.55597,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Edirne",
+   "ulke_modern": "Turkiye",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 41.67719,
+     "lon": 26.55597,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Madde Edirne Muharebesi (1205); Drinopolje = Adrianopolis/Edirne ad bicimi"
+  },
+  {
+   "ad": "Zawichost",
+   "durum": "tek_tanik",
+   "lat": 50.80743,
+   "lon": 21.85408,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Zawichost",
+   "ulke_modern": "Polonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 50.80743,
+     "lon": 21.85408,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 50.8,
+     "lon": 21.85,
+     "not": "DAI adi var, koordinat yok"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": ""
+  },
+  {
+   "ad": "Mantes",
+   "durum": "tek_tanik",
+   "lat": 48.99048,
+   "lon": 1.7167,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Mantes-la-Jolie",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 48.99048,
+     "lon": 1.7167,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Mantes-la-Jolie (Philippe Auguste 1223 burada oldu)"
+  },
+  {
+   "ad": "Cortenuova",
+   "durum": "tek_tanik",
+   "lat": 45.53898,
+   "lon": 9.78786,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Cortenuova",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 45.53898,
+     "lon": 9.78786,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Savas yeri kasaba cevresi"
+  },
+  {
+   "ad": "Vordingborg",
+   "durum": "tek_tanik",
+   "lat": 55.00801,
+   "lon": 11.91057,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Vordingborg",
+   "ulke_modern": "Danimarka",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 55.00801,
+     "lon": 11.91057,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 55.0,
+     "lon": 11.9,
+     "not": "DAI adi var, koordinat yok"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": ""
+  },
+  {
+   "ad": "Fossalta",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "",
+   "konum_kesinligi": "",
+   "esanlam_modern": "",
+   "ulke_modern": "",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 44.8517,
+     "lon": 11.76666,
+     "not": "Fossalta (Ferrara) - 1249 savasinin Modena yakinindaki Fossalta'sini dogrulamaz"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "1249 Fossalta savasi Modena yakininda (Panaro); eldeki adaylar (Portogruaro, Piave, Ferrara) kimlik dogrulamasi yok"
+  },
+  {
+   "ad": "Castel Fiorentino",
+   "durum": "tek_tanik",
+   "lat": 41.60628,
+   "lon": 15.263,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Castelfiorentino (Torremaggiore) kalesi",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/471828779/json",
+     "lat": 41.60627802531515,
+     "lon": 15.262995851217672,
+     "not": "kimlik: Friedrich II'nin 1250'de olum yeri kale; OSM turevi konum"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "ikinci bagimsiz tanik bulunamadi"
+  },
+  {
+   "ad": "Lavello",
+   "durum": "tek_tanik",
+   "lat": 41.04769,
+   "lon": 15.78915,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Lavello",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 41.04769,
+     "lon": 15.78915,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 41.04769,
+     "lon": 15.78915,
+     "not": "GeoNames ile birebir ayni, turev"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": ""
+  },
+  {
+   "ad": "Potenza",
+   "durum": "tek_tanik",
+   "lat": 40.64175,
+   "lon": 15.80794,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Potenza",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 40.64175,
+     "lon": 15.80794,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 40.63858,
+     "lon": 15.804627,
+     "not": "DAI, turev"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "IV. Konrad Lavello'da oldu; Potenza yakin merkez"
+  },
+  {
+   "ad": "Largs",
+   "durum": "tek_tanik",
+   "lat": 55.79629,
+   "lon": -4.86337,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Largs",
+   "ulke_modern": "Iskocya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 55.79629,
+     "lon": -4.86337,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Iki GeoNames adayindan Iskocya olan (Avustralya elendi)"
+  },
+  {
+   "ad": "Scurcola Marsicana",
+   "durum": "tek_tanik",
+   "lat": 42.06313,
+   "lon": 13.33919,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Scurcola Marsicana",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 42.06313,
+     "lon": 13.33919,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 42.06313,
+     "lon": 13.33919,
+     "not": "birebir ayni, turev"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": ""
+  },
+  {
+   "ad": "Tagliacozzo",
+   "durum": "tek_tanik",
+   "lat": 42.06933,
+   "lon": 13.25469,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tagliacozzo",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 42.06933,
+     "lon": 13.25469,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "1268 savasi Scurcola ovasinda; kasaba yaklasik"
+  },
+  {
+   "ad": "taç",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "",
+   "konum_kesinligi": "",
+   "esanlam_modern": "",
+   "ulke_modern": "",
+   "tanik": [],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Ortak sozcuk (tac: Aachen'de taç giyme); yer adi degil. Parti 50'deki Macaristan/Pleiades 197287 eslesmesi yanlis"
+  },
+  {
+   "ad": "Hova",
+   "durum": "tek_tanik",
+   "lat": 58.85363,
+   "lon": 14.21914,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Hova",
+   "ulke_modern": "Isvec",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 58.85363,
+     "lon": 14.21914,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Vastergotland/Hova savasi, Isvec uyumlu"
+  },
+  {
+   "ad": "Desio",
+   "durum": "tek_tanik",
+   "lat": 45.61831,
+   "lon": 9.20249,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Desio",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 45.61831,
+     "lon": 9.20249,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 45.62018,
+     "lon": 9.20425,
+     "not": "DAI, turev"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": ""
+  },
+  {
+   "ad": "Aizkraukle",
+   "durum": "tek_tanik",
+   "lat": 56.60477,
+   "lon": 25.25534,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Aizkraukle",
+   "ulke_modern": "Letonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 56.60477,
+     "lon": 25.25534,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Savas Ascheraden/Aizkraukle sato yakininda; kasaba koordinati"
+  },
+  {
+   "ad": "Ascheraden",
+   "durum": "tek_tanik",
+   "lat": 56.60477,
+   "lon": 25.25534,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Aizkraukle",
+   "ulke_modern": "Letonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 56.60477,
+     "lon": 25.25534,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Ascheraden = Aizkraukle'nin Almanca adi; kasaba koordinati"
+  },
+  {
+   "ad": "Vlaardingen",
+   "durum": "tek_tanik",
+   "lat": 51.9125,
+   "lon": 4.34167,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Vlaardingen",
+   "ulke_modern": "Hollanda",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 51.9125,
+     "lon": 4.34167,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 51.91,
+     "lon": 4.34,
+     "not": "DAI adi var, koordinat yok"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": ""
+  },
+  {
+   "ad": "Eschwege",
+   "durum": "tek_tanik",
+   "lat": 51.18386,
+   "lon": 10.05329,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Eschwege",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 51.18386,
+     "lon": 10.05329,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 51.185057,
+     "lon": 10.054427,
+     "not": "turev"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": ""
+  },
+  {
+   "ad": "Gurk",
+   "durum": "tek_tanik",
+   "lat": 46.87389,
+   "lon": 14.29167,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Gurk",
+   "ulke_modern": "Avusturya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 46.87389,
+     "lon": 14.29167,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 46.87,
+     "lon": 14.29,
+     "not": "DAI 'Gurk, VB St. Veit a.d. Glan' adi var, koordinat yok"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Karinthiya, piskoposluk merkezi"
+  },
+  {
+   "ad": "Payerne",
+   "durum": "tek_tanik",
+   "lat": 46.82192,
+   "lon": 6.93817,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Payerne",
+   "ulke_modern": "Isvicre",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 46.82192,
+     "lon": 6.93817,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 46.82201,
+     "lon": 6.93608,
+     "not": "turev"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": ""
+  },
+  {
+   "ad": "Lauterberg",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "",
+   "konum_kesinligi": "",
+   "esanlam_modern": "",
+   "ulke_modern": "",
+   "tanik": [],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Konrad (Wettin) 1157'de Lauterberg (Petersberg) manastirinda, Halle yakini; Bad Lauterberg (Harz) ve Lauterbourg elendi; yer koordinati dogrulanamadi"
+  },
+  {
+   "ad": "Laufen",
+   "durum": "tek_tanik",
+   "lat": 47.93568,
+   "lon": 12.92856,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Laufen (Salzach)",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 47.93568,
+     "lon": 12.92856,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Salzburg piskoposlugu baglami: Salzach kiyisinda Laufen; Isvicre'deki Laufen elendi"
+  },
+  {
+   "ad": "Freiberg",
+   "durum": "tek_tanik",
+   "lat": 50.91089,
+   "lon": 13.33881,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Freiberg (Saksonya)",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 50.91089,
+     "lon": 13.33881,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Christiansdorf=Freiberg, Meissen; Neckar/Cek adaylari elendi"
+  },
+  {
+   "ad": "Wartburg",
+   "durum": "tek_tanik",
+   "lat": 50.96605,
+   "lon": 10.30646,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Wartburg (Eisenach)",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 50.96605,
+     "lon": 10.30646,
+     "not": "building-institution kaydi, kimlik dogru"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Thuringen; ikinci bagimsiz tanik alinamadi"
+  },
+  {
+   "ad": "Nossen",
+   "durum": "tek_tanik",
+   "lat": 51.05798,
+   "lon": 13.29652,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Nossen",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 51.05798,
+     "lon": 13.29652,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json",
+     "lat": 51.05,
+     "lon": 13.3,
+     "not": "DAI adi var, koordinat yok"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Meissen markgraflik baglami uyumlu"
+  },
+  {
+   "ad": "Franeker",
+   "durum": "tek_tanik",
+   "lat": 53.18546,
+   "lon": 5.54123,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Franeker",
+   "ulke_modern": "Hollanda",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 53.18546,
+     "lon": 5.54123,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Frizya"
+  },
+  {
+   "ad": "Kulm",
+   "durum": "tek_tanik",
+   "lat": 53.34855,
+   "lon": 18.4251,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Chelmno (Kulm)",
+   "ulke_modern": "Polonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 53.34855,
+     "lon": 18.4251,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Kulm Handfeste = Chelmno; Kulm am Zirbitz, Khulm vb. elendi"
+  },
+  {
+   "ad": "Chełmno",
+   "durum": "tek_tanik",
+   "lat": 53.34855,
+   "lon": 18.4251,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Chelmno (Kulm)",
+   "ulke_modern": "Polonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 kaydi)",
+     "url_veya_atif": "geonames.org",
+     "lat": 53.34855,
+     "lon": 18.4251,
+     "not": "tek kaynak; bagimsiz ikinci tanik bulunamadi"
+    }
+   ],
+   "hesap": "ikinci tur: iDAI.gazetteer, Pleiades sorgulandi; Getty TGN SPARQL erisilemedi",
+   "not": "Kulm ile ayni yer"
+  }
+ ]
+}

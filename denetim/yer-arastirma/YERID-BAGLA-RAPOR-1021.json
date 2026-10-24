@@ -1,0 +1,4021 @@
+{
+ "sayac": {
+  "once1281_madde": 2901,
+  "yer_id_zaten_var": 819,
+  "yer_alani_yok": 53,
+  "yer_var_yer_id_yok": 2029,
+  "BAGLANACAK": 647,
+  "tip_ad": 557,
+  "tip_eski": 49,
+  "tip_paran": 38,
+  "tip_alias": 3
+ },
+ "belirsiz": {
+  "atlasta_yok": 1297,
+  "bolge_uyumsuz": 51,
+  "belirsiz_cok_aday": 34
+ },
+ "belirsiz_detay": [
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0378-08-09",
+   "yer": "Adrianopolis (Edirne)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Edirne"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0476-08-28",
+   "yer": "Placentia (Piacenza)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Plaisance (Placentia)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0874-01-01",
+   "yer": "Reykjavík",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Reykjavík"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0925-09-04",
+   "yer": "Kingston",
+   "neden": "çok aday",
+   "adaylar": [
+    "Fort Frontenac (Kingston)",
+    "Kingston"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0930-01-01",
+   "yer": "Þingvellir",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Þingvellir (Thingvellir, Althing)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0999-01-01",
+   "yer": "Þingvellir",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Þingvellir (Thingvellir, Althing)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0827-04-02",
+   "yer": "Girit",
+   "neden": "çok aday",
+   "adaylar": [
+    "Girit (Resmo)",
+    "Kandiye (Girit)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0887-11-01",
+   "yer": "Frankfurt",
+   "neden": "çok aday",
+   "adaylar": [
+    "Frankfurt",
+    "Frankfurt (Oder)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0069-07-01",
+   "yer": "İskenderiye / Yahudiye",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "İskenderiye"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0070-01-01",
+   "yer": "Kudüs",
+   "neden": "çok aday",
+   "adaylar": [
+    "Kudus",
+    "Kudüs"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0130-01-01",
+   "yer": "Tedmür (Palmira)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Tedmür (Palmyra)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0130-01-01",
+   "yer": "Kudüs / Tedmür",
+   "neden": "çok aday",
+   "adaylar": [
+    "Kudus",
+    "Kudüs"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0305-01-01",
+   "yer": "Kâs (Hârizm)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Kaş (Antiphellos)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0320-01-01",
+   "yer": "İskenderiye",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "İskenderiye"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0324-01-01",
+   "yer": "İstanbul (Byzantion)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "İstanbul"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0324-09-18",
+   "yer": "Chrysopolis (Üsküdar)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Üsküdar"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0325-01-01",
+   "yer": "İznik",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "İznik"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0325-05-20",
+   "yer": "İznik",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "İznik"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0540-01-01",
+   "yer": "Antakya",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Antakya"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0570-01-01",
+   "yer": "San'a (Yemen)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Sana"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0573-01-01",
+   "yer": "San‘a",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Sana"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0613-01-01",
+   "yer": "Dımaşk",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Şam"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0645-10-01",
+   "yer": "Erzurum (Kālîkalâ)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Erzurum"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0694-01-01",
+   "yer": "Mekke",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Mekke"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0695-01-12",
+   "yer": "Kâzerûn (Fars)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Kâzerûn"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0705-01-02",
+   "yer": "Merv",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Merv (Mari)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0707-01-01",
+   "yer": "Buhara çevresi",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Buhara"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0708-11-20",
+   "yer": "Buhara",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Buhara"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0708-11-20",
+   "yer": "Buhara",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Buhara"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0710-01-01",
+   "yer": "Belh / Tohâristan",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Belh"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0710-10-29",
+   "yer": "Sîstan",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Zerenc (Sîstan)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0711-10-19",
+   "yer": "Semerkant",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Semerkant"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0712-01-01",
+   "yer": "Deybül (Sind)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Haydarâbâd (Sind)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0714-01-01",
+   "yer": "Merv",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Merv (Mari)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0745-10-03",
+   "yer": "Merv",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Merv (Mari)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0748-01-15",
+   "yer": "Merv (Horasan)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Merv (Mari)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0748-01-15",
+   "yer": "Merv",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Merv (Mari)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0750-01-02",
+   "yer": "Nezvâ (Uman)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Uman"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0750-08-09",
+   "yer": "Buhara",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Buhara"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0751-01-01",
+   "yer": "Uman",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Uman"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0757-01-01",
+   "yer": "Hadramut",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Hadramut"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0809-03-24",
+   "yer": "Tûs",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Tûs"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0815-01-01",
+   "yer": "San‘a, Sa‘de",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Sana"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0827-04-02",
+   "yer": "Girit",
+   "neden": "çok aday",
+   "adaylar": [
+    "Girit (Resmo)",
+    "Kandiye (Girit)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0915-07-17",
+   "yer": "Mehdiye (Tunus)",
+   "neden": "çok aday",
+   "adaylar": [
+    "Mamûra (Mehdiye)",
+    "Mehdiye"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0930-01-02",
+   "yer": "Uman",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Uman"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0932-01-01",
+   "yer": "Uman",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Uman"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0961-03-06",
+   "yer": "Girit (Kandiye)",
+   "neden": "çok aday",
+   "adaylar": [
+    "Girit (Resmo)",
+    "Kandiye (Girit)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0967-01-01",
+   "yer": "Umân / Kirman",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Uman"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0995-02-05",
+   "yer": "Kâs (Kât)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Kaş (Antiphellos)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0995-02-05",
+   "yer": "Kâs / Gürgenç (Hârizm)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Kaş (Antiphellos)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_avrupa.js",
+   "t": "1000-01-01",
+   "yer": "Þingvellir (Althing)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Þingvellir (Thingvellir, Althing)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_avrupa.js",
+   "t": "1042-01-01",
+   "yer": "Bar",
+   "neden": "çok aday",
+   "adaylar": [
+    "Bar (Antivari)",
+    "Bar (Podolya)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_avrupa.js",
+   "t": "1098-01-01",
+   "yer": "Orkney · Hebridler (Suderøyene)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Kirkwall (Orkney)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_avrupa.js",
+   "t": "1229-01-01",
+   "yer": "Cáceres, Extremadura",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Cáceres (São Luís de Cáceres)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_avrupa.js",
+   "t": "1267-09-29",
+   "yer": "Rhydwhyman geçidi (Montgomery)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Montgomery"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_avrupa2.js",
+   "t": "1190-01-01",
+   "yer": "Akka",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Akkâ"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_avrupa2.js",
+   "t": "1192-04-28",
+   "yer": "Sur (Doğu)",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Sûr"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_dogu_asya.js",
+   "t": "1280-01-01",
+   "yer": "Sakya",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Sakya Manastırı (Sakya)"
+   ]
+  },
+  {
+   "dosya": "kronoloji_cok_once1281_guney_okyanusya.js",
+   "t": "1240-01-01",
+   "yer": "Hawaii Adaları",
+   "neden": "bölge uyumsuz",
+   "adaylar": [
+    "Hawaii Adaları (Birleşme Öncesi — moku/aliʻi sistemi)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_d2-iran-orta-asya.js",
+   "t": "-3999-01-01",
+   "yer": "Shush (Susa)",
+   "neden": "çok aday",
+   "adaylar": [
+    "Susa",
+    "Şuşa"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0026-01-01",
+   "yer": "Roma / İskenderiye / Iskenderiye / Atina / Capua / Massalia / Pergamon / Syrakusai / Veii",
+   "neden": "çok aday",
+   "adaylar": [
+    "Roma",
+    "Roma (Queensland)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0140-01-01",
+   "yer": "Babil / Seleukeia (Dicle üzerinde) / Uruk / Ktesiphon",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0310-01-01",
+   "yer": "Babil / Uruk",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0322-06-10",
+   "yer": "Babil / Ekbatana / Pasargad / Uruk",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0330-01-01",
+   "yer": "Babil / Uruk / Susa",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0709-01-01",
+   "yer": "Babil",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-1099-01-01",
+   "yer": "Susa",
+   "neden": "çok aday",
+   "adaylar": [
+    "Susa",
+    "Şuşa"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-1209-01-01",
+   "yer": "Babil",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-1219-01-01",
+   "yer": "Babil",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-1760-01-01",
+   "yer": "Mari",
+   "neden": "çok aday",
+   "adaylar": [
+    "Mari",
+    "Merv (Mari)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-1899-01-01",
+   "yer": "Susa",
+   "neden": "çok aday",
+   "adaylar": [
+    "Susa",
+    "Şuşa"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-2023-01-01",
+   "yer": "Susa / Aşşur",
+   "neden": "çok aday",
+   "adaylar": [
+    "Susa",
+    "Şuşa"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "0395-01-01",
+   "yer": "Roma / İskenderiye / Iskenderiye / Petra",
+   "neden": "çok aday",
+   "adaylar": [
+    "Roma",
+    "Roma (Queensland)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0585-01-01",
+   "yer": "Kudüs",
+   "neden": "çok aday",
+   "adaylar": [
+    "Kudus",
+    "Kudüs"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0626-01-01",
+   "yer": "Babil",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0752-01-01",
+   "yer": "Roma",
+   "neden": "çok aday",
+   "adaylar": [
+    "Roma",
+    "Roma (Queensland)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-0929-01-01",
+   "yer": "Kudüs / Samiriye (Samaria / Sebaste)",
+   "neden": "çok aday",
+   "adaylar": [
+    "Kudus",
+    "Kudüs"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-1196-01-01",
+   "yer": "Anyang / Yinxu (殷墟)",
+   "neden": "çok aday",
+   "adaylar": [
+    "Anyang",
+    "Yinxu (Anyang)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-1253-01-01",
+   "yer": "Anyang / Yinxu (殷墟)",
+   "neden": "çok aday",
+   "adaylar": [
+    "Anyang",
+    "Yinxu (Anyang)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-1893-01-01",
+   "yer": "Babil",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-2294-01-01",
+   "yer": "Mari",
+   "neden": "çok aday",
+   "adaylar": [
+    "Mari",
+    "Merv (Mari)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "-2549-01-01",
+   "yer": "Mari",
+   "neden": "çok aday",
+   "adaylar": [
+    "Mari",
+    "Merv (Mari)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "0224-04-28",
+   "yer": "Babil / Dura-Europos / Ekbatana / Ktesiphon / Seleukeia (Dicle üzerinde) / Uruk",
+   "neden": "çok aday",
+   "adaylar": [
+    "Babil",
+    "Bârfurûş (Bâbil)"
+   ]
+  },
+  {
+   "dosya": "olaylar_arkeoloji_zincir.js",
+   "t": "0476-01-01",
+   "yer": "Roma",
+   "neden": "çok aday",
+   "adaylar": [
+    "Roma",
+    "Roma (Queensland)"
+   ]
+  }
+ ],
+ "ornek": [
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0410-01-01",
+   "b": "Alaric'in Vizigotları Roma'yı yağmaladı",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0455-06-01",
+   "b": "Gaiseric Roma'yı yağmaladı",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0475-10-31",
+   "b": "Orestes oğlu Romulus Augustulus'u Batı Roma tahtına çıkardı",
+   "yer": "Ravenna",
+   "yer_id": "Ravenna",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0488-01-01",
+   "b": "Zenon, Odoacer'a karşı Theodoric'i İtalya Kralı atadı",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0493-03-05",
+   "b": "Ravenna teslim oldu; Theodoric Odoacer'ı öldürüp İtalya Kralı oldu",
+   "yer": "Ravenna",
+   "yer_id": "Ravenna",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0511-11-27",
+   "b": "Clovis öldü; Frank krallığı Galya'nın en güçlü devleti olarak kaldı",
+   "yer": "Paris",
+   "yer_id": "Paris",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0527-04-04",
+   "b": "I. Justinianos amcası Justinus'un eş imparatoru oldu; 1 Ağustos'ta tek",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0532-01-01",
+   "b": "Nika ayaklanması Belisarius'un katliamıyla bastırıldı",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0532-01-01",
+   "b": "Bizans–Sâsânî 'Ebedî Barış' antlaşması onaylandı",
+   "yer": "Konstantinopolis / Ktesiphon",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0526-01-01",
+   "b": "Büyük Theodoric öldü; Ostrogot hanedanında istikrarsızlık başladı",
+   "yer": "Ravenna",
+   "yer_id": "Ravenna",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0565-11-14",
+   "b": "I. Justinianos öldü",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0572-06-28",
+   "b": "Lombard Kralı Alboin suikastla öldürüldü",
+   "yer": "Verona",
+   "yer_id": "Verona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0800-01-01",
+   "b": "Charlemagne Romalıların imparatoru oldu",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0808-01-01",
+   "b": "II. İdrîs Fas şehrini başkent olarak kurdu",
+   "yer": "Fas (Fes)",
+   "yer_id": "Fas (Fez)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_akdeniz.js",
+   "t": "0985-01-01",
+   "b": "Son İdrîsî hükümdarı Emevîlerin tutsağıyken öldürüldü",
+   "yer": "Fas",
+   "yer_id": "Fas (Fez)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0563-01-01",
+   "b": "Aziz Columba Dál Riata'ya geldi, Iona'yı kurdu",
+   "yer": "Iona",
+   "yer_id": "Iona (Hebridler)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0574-01-01",
+   "b": "Áedán mac Gabráin Iona'da Columba tarafından kral olarak taç giydi",
+   "yer": "Iona",
+   "yer_id": "Iona (Hebridler)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0795-01-01",
+   "b": "Vikingler Iona'yı bastı: Dál Riata kıyılarına ilk Norse darbesi",
+   "yer": "Iona",
+   "yer_id": "Iona (Hebridler)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0845-01-01",
+   "b": "Ragnar'ın Viking filosu Seine'den Paris'e çıkıp yağmaladı",
+   "yer": "Paris",
+   "yer_id": "Paris",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0849-01-01",
+   "b": "Frédelon Charles le Chauve'ce Toulouse kontu atandı",
+   "yer": "Toulouse",
+   "yer_id": "Toulouse",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0866-01-01",
+   "b": "Danimarka 'büyük ordusu' York'u aldı",
+   "yer": "York",
+   "yer_id": "York",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0885-01-01",
+   "b": "Paris kuşatması: Odo Vikinglere karşı Île de la Cité'yi savundu",
+   "yer": "Paris",
+   "yer_id": "Paris",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0911-01-01",
+   "b": "Basit Charles Rollo'ya Aşağı Seine'de toprak verdi: Normandiya'nın tem",
+   "yer": "Aşağı Seine vadisi (Rouen)",
+   "yer_id": "Rouen",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0912-01-01",
+   "b": "Rollon Rouen'da vaftiz edilip Robert adını aldı",
+   "yer": "Rouen",
+   "yer_id": "Rouen",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0923-01-01",
+   "b": "III. Raimond (923-950 dolayı) Gothie markizliğini Toulouse'a kattı",
+   "yer": "Toulouse / Gothie",
+   "yer_id": "Toulouse",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0927-01-01",
+   "b": "Athelstan York Viking krallığını ilhak etti; krallıklar birleşti",
+   "yer": "York",
+   "yer_id": "York",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0927-01-01",
+   "b": "Athelstan York krallığını ilhak etti",
+   "yer": "York",
+   "yer_id": "York",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0937-01-01",
+   "b": "Alain II Barbe-Torte Normanları Nantes'ta yendi; Bretanya Dükalığı yen",
+   "yer": "Nantes",
+   "yer_id": "Nantes",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_batiavrupa.js",
+   "t": "0954-01-01",
+   "b": "Erik Kanlı Balta kovuldu ve öldürüldü; Northumbria Eadred'e boyun eğdi",
+   "yer": "York",
+   "yer_id": "York",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0626-01-01",
+   "b": "Hazarlar, İstanbul'u kuşatan Sâsânî-Avar ittifakına karşı Herakleios'a",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0705-01-01",
+   "b": "II. Iustinianos Hazar prensesiyle (Theodora) evlenip Bizans tahtına ik",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0714-01-01",
+   "b": "Mesleme b. Abdülmelik Derbend geçidini aldı",
+   "yer": "Derbend (Bâbülebvâb)",
+   "yer_id": "Derbend",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0764-01-01",
+   "b": "Hazar kuvvetleri (Es-Tarhan'ın ordusu) Tiflis'i ele geçirdi",
+   "yer": "Tiflis",
+   "yer_id": "Tiflis",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0920-01-01",
+   "b": "İdil Bulgar hanı Almış, Müslüman olup Bağdat'a elçi göndererek din âli",
+   "yer": "Bulgar (Orta İdil)",
+   "yer_id": "Bulgar (Bolgar)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0921-06-21",
+   "b": "Halife Muktedir'in elçilik heyeti (İbn Fadlân dahil) Bağdat'tan Bulgar",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0922-05-12",
+   "b": "Muktedir'in heyeti Bulgar hanının ordugâhına ulaştı; İdil Bulgarları'n",
+   "yer": "Bulgar (Orta İdil)",
+   "yer_id": "Bulgar (Bolgar)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0879-01-01",
+   "b": "Rurik öldü; hanedan Kiev Rus'unun kurucusu sayılır",
+   "yer": "Novgorod",
+   "yer_id": "Novgorod",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0912-01-01",
+   "b": "Igor Kiev Rus'unun başına geçti (hükümdarlık 912-945)",
+   "yer": "Kiev",
+   "yer_id": "Kiev",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0959-01-01",
+   "b": "Olga, Frank hükümdarı I. Otto'dan Rus'a rahip göndermesini istedi",
+   "yer": "Kiev",
+   "yer_id": "Kiev",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_dunya.js",
+   "t": "0962-01-01",
+   "b": "Svyatoslav'ın bağımsız hükümdarlığı başladı; neredeyse kesintisiz sava",
+   "yer": "Kiev",
+   "yer_id": "Kiev",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0044-01-01",
+   "b": "Claudius Mauretania'yı ilhak edip Tingitana ve Caesariensis diye iki e",
+   "yer": "Tingis (Tanca) / Caesarea (Şerşel)",
+   "yer_id": "Tanca",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0069-01-01",
+   "b": "Valerius Festus Fizan (Garamant) üzerine seferler düzenledi",
+   "yer": "Fizan (Garamant ülkesi)",
+   "yer_id": "Murzuk (Fizan)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0569-01-01",
+   "b": "Leovigild Suebler'den León ve Zamora'yı aldı",
+   "yer": "León / Zamora",
+   "yer_id": "León",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0666-03-13",
+   "b": "Ukbe b. Nâfi Fizan'ı (Garamant ülkesini) fethetti",
+   "yer": "Fizan (Cerme)",
+   "yer_id": "Murzuk (Fizan)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0757-01-01",
+   "b": "Fruela Asturias kralı oldu; Oviedo manastır olarak kuruldu (757)",
+   "yer": "Oviedo",
+   "yer_id": "Oviedo",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0757-05-25",
+   "b": "Ebü'l-Kâsım b. Semkû Sicilmâse şehrinin temelini attı",
+   "yer": "Sicilmâse (Tâfîlâlt)",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0761-04-11",
+   "b": "İbâzî imamı Ebü'l-Hattâb Abbâsîler'e yenilip öldürüldü; Abdurrahman b.",
+   "yer": "Kayrevan / Cebelicezzûl",
+   "yer_id": "Kayrevan",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0772-01-01",
+   "b": "Ebü'l-Kâsım idareyi yeniden üstlendi; Midrârî emirliği başladı (772-97",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0777-01-01",
+   "b": "Abdurrahman b. Rüstem imam seçildi; Rüstemîler Devleti kuruldu, Tâhert",
+   "yer": "Tâhert (Cebelicezzûl)",
+   "yer_id": "Tâhert (Tiaret)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0778-01-01",
+   "b": "Büyük Karl Zaragoza önünden yenilgiyle çekildi",
+   "yer": "Zaragoza (Sarakusta)",
+   "yer_id": "Zaragoza",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0787-06-22",
+   "b": "Abdurrahman b. Rüstem öldü; oğlu Abdülvehhâb imam seçildi (veraset kur",
+   "yer": "Tâhert",
+   "yer_id": "Tâhert (Tiaret)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0788-06-11",
+   "b": "I. Abdurrahman öldü; oğlu I. Hişâm emir oldu (788)",
+   "yer": "Kurtuba",
+   "yer_id": "Kurtuba (Córdoba)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0790-05-20",
+   "b": "I. Elyesa' kardeşi Ebü'l-Vezîr İlyâs'ı tahttan indirdi (saltanat 791-8",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0791-01-01",
+   "b": "Barselona'daki isyan I. Hişâm tarafından bastırıldı (791)",
+   "yer": "Barselona",
+   "yer_id": "Barselona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0791-01-01",
+   "b": "II. Alfonso Asturias kralı oldu (791-842); Oviedo'yu başkent yaptı",
+   "yer": "Oviedo",
+   "yer_id": "Oviedo",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0798-01-01",
+   "b": "Iñigo Arista bağımsız hükümdar olarak öne çıktı",
+   "yer": "Pamplona",
+   "yer_id": "Pamplona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0801-01-01",
+   "b": "Louis kumandasındaki Franklar Barselona yöresini istilâ etti; Marca Hi",
+   "yer": "Barselona",
+   "yer_id": "Barselona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0809-01-01",
+   "b": "Krum Sredets'i (Sofya) aldı",
+   "yer": "Sredets (Sofya)",
+   "yer_id": "Sofya",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0810-01-01",
+   "b": "Oviedo Asturias Krallığı'nın başkenti oldu",
+   "yer": "Oviedo",
+   "yer_id": "Oviedo",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0812-01-01",
+   "b": "Rüstemî-Ağlebî antlaşması: Trablus ve kıyı Ağlebîler'de, iç bölgeler R",
+   "yer": "Trablus",
+   "yer_id": "Trablus",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0813-01-01",
+   "b": "Krum Edirne'yi aldı, İstanbul'u kuşattı",
+   "yer": "Edirne / İstanbul",
+   "yer_id": "Edirne",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0818-01-01",
+   "b": "Rabaz Vak'ası: Endülüs'ten sürülen binlerce kişi İskenderiye'ye gitti",
+   "yer": "Kurtuba / İskenderiye",
+   "yer_id": "Kurtuba (Córdoba)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0822-01-01",
+   "b": "II. Abdurrahman Endülüs emiri oldu (822)",
+   "yer": "Kurtuba",
+   "yer_id": "Kurtuba (Córdoba)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0823-05-16",
+   "b": "Abdülvehhâb öldü; oğlu Eflah imam oldu",
+   "yer": "Tâhert",
+   "yer_id": "Tâhert (Tiaret)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0823-05-16",
+   "b": "I. Elyesa' öldü; oğlu Midrâr (Ebû Mâlik el-Müntasır) emir oldu",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0866-01-01",
+   "b": "Dubrovnik 15 aylık Arap kuşatmasını savuşturdu (866/67)",
+   "yer": "Dubrovnik (Ragusa)",
+   "yer_id": "Dubrovnik",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0866-01-01",
+   "b": "III. Alfonso Asturias kralı oldu (866-910); başkenti León'a taşıdı",
+   "yer": "León",
+   "yer_id": "León",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0867-01-11",
+   "b": "Midrâr öldü; İbnü's-Sakıyye emir oldu",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0868-01-01",
+   "b": "III. Alfonso Porto'yu (Oporto) işgal etti",
+   "yer": "Porto",
+   "yer_id": "Porto",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0871-01-01",
+   "b": "Dubrovnik gemileri Bizans ve Hırvat donanmalarıyla Bari'yi Araplar'dan",
+   "yer": "Bari",
+   "yer_id": "Bari",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0872-01-01",
+   "b": "Eflah'tan sonra oğlu Ebû Bekir imam oldu; yönetim Muhammed b. Arafe'ye",
+   "yer": "Tâhert",
+   "yer_id": "Tâhert (Tiaret)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0874-01-01",
+   "b": "Ebü'l-Yakzân imam oldu; Rüstemîler eski güçlerine kavuştu",
+   "yer": "Tâhert",
+   "yer_id": "Tâhert (Tiaret)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0888-01-01",
+   "b": "Barselona bağımsız Katalonya (Barselona) Kontluğu'nun merkezi oldu",
+   "yer": "Barselona",
+   "yer_id": "Barselona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0894-03-13",
+   "b": "Ebû Hâtim Yûsuf'a biat edildi; ülke yeniden isyanlara sahne oldu",
+   "yer": "Tâhert",
+   "yer_id": "Tâhert (Tiaret)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0905-01-01",
+   "b": "I. Sancho Garcés Pamplona (Navarra) kralı oldu",
+   "yer": "Pamplona",
+   "yer_id": "Pamplona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0905-08-01",
+   "b": "Ubeydullah el-Mehdî tâcir kılığında Sicilmâse'ye ulaştı; II. Elyesa' o",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0906-10-22",
+   "b": "Ebû Hâtim öldürüldü; Yakzân imamlığını ilân etti",
+   "yer": "Tâhert",
+   "yer_id": "Tâhert (Tiaret)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0909-07-01",
+   "b": "Ebû Abdullah eş-Şiî Tâhert'e girdi; Rüstemî hânedanı sona erdi",
+   "yer": "Tâhert",
+   "yer_id": "Tâhert (Tiaret)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0909-08-26",
+   "b": "Ebû Abdullah eş-Şiî Sicilmâse'yi aldı, Ubeydullah el-Mehdî'yi kurtardı",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0910-01-01",
+   "b": "III. Alfonso öldü; krallık León Krallığı adıyla sürdü",
+   "yer": "León / Zamora",
+   "yer_id": "León",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0910-08-01",
+   "b": "Midrârîler Fâtımî valisini ve muhafızlarını öldürüp Sicilmâse'ye yenid",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0912-08-18",
+   "b": "III. Abdurrahman Endülüs emiri oldu (912)",
+   "yer": "Kurtuba",
+   "yer_id": "Kurtuba (Córdoba)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0921-05-12",
+   "b": "Fâtımî valisi Mesâle Sicilmâse'ye tekrar hâkim oldu; Ahmed b. Meymûn ö",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0924-01-01",
+   "b": "III. Abdurrahman Navarra'yı sürdü, başkent Pamplona'yı yağmaladı",
+   "yer": "Pamplona",
+   "yer_id": "Pamplona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0925-01-01",
+   "b": "I. Sancho Garcés öldü",
+   "yer": "Pamplona",
+   "yer_id": "Pamplona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0925-01-01",
+   "b": "Tomislav ilk Hırvat kralı: Split sinodunda 'Hırvatlar Kralı' diye anıl",
+   "yer": "Split / Hırvatistan",
+   "yer_id": "Split (Spalato)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0929-01-01",
+   "b": "III. Abdurrahman halifelik ve emîrülmüminîn unvanını aldı; Kurtuba Hil",
+   "yer": "Kurtuba",
+   "yer_id": "Kurtuba (Córdoba)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0931-01-01",
+   "b": "II. Ramiro León ve Asturias kralı oldu (931-951)",
+   "yer": "León",
+   "yer_id": "León",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0931-01-01",
+   "b": "III. Abdurrahman Sebte'yi (Ceuta) alıp Mağrib'de deniz üssü kurdu",
+   "yer": "Sebte (Ceuta)",
+   "yer_id": "Sebte (Ceuta)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0932-08-02",
+   "b": "III. Abdurrahman Toledo'ya girdi; Tuleytula direnişi bitti",
+   "yer": "Toledo (Tuleytula)",
+   "yer_id": "Toledo",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0933-01-01",
+   "b": "Muhammed b. Sârû öldü; oğlu Ebü'l-Müntasır Muhammed geçti",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0936-01-01",
+   "b": "III. Abdurrahman Medînetüzzehrâ'yı kurdu",
+   "yer": "Kurtuba yakını",
+   "yer_id": "Kurtuba (Córdoba)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0943-01-01",
+   "b": "İbn Vâsûl isyanla yönetimi ele geçirdi, Semkû el-Müntasır'ı hapsetti",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0944-01-01",
+   "b": "II. Ramiro halife III. Abdurrahman'la beş yıllık ateşkes yaptı",
+   "yer": "León / Kurtuba",
+   "yer_id": "León",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0951-01-01",
+   "b": "II. Ramiro öldü",
+   "yer": "León",
+   "yer_id": "León",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0953-05-18",
+   "b": "İbn Vâsûl halifeliğini ilân etti (Şâkir-Billâh), Şâkiriyye sikkesi bas",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0955-04-27",
+   "b": "III. Abdurrahman Muhammed b. Hayr'ı Fas şehri valiliğine getirdi",
+   "yer": "Fas (Fez)",
+   "yer_id": "Fas (Fez)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0958-03-25",
+   "b": "Cevher es-Sıkıllî Sicilmâse'yi aldı; İbn Vâsûl yakalanıp Rakkāde'ye gö",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0958-03-25",
+   "b": "Fâtımî komutanı Cevher Tâhert ve Sicilmâse'yi aldı; Endülüs Mağrib'de ",
+   "yer": "Tâhert / Sicilmâse",
+   "yer_id": "Tâhert (Tiaret)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0960-03-03",
+   "b": "Fâtımîler Fas ve Sicilmâse'yi zaptetti",
+   "yer": "Fas / Sicilmâse",
+   "yer_id": "Fas (Fez)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0961-03-06",
+   "b": "Nikephoros Phokas Kandiye'yi aldı; Girit Emirliği sona erdi",
+   "yer": "Kandiye (Heraklion)",
+   "yer_id": "Kandiye (Girit)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0961-10-15",
+   "b": "III. Abdurrahman öldü; II. Hakem halife oldu",
+   "yer": "Kurtuba",
+   "yer_id": "Kurtuba (Córdoba)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0963-01-30",
+   "b": "Fâtımîler Semkû'yu bertaraf edip el-Mu'tez'i Midrârî emiri yaptı",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0970-01-01",
+   "b": "II. Sancho Garcés Pamplona kralı oldu (970)",
+   "yer": "Pamplona",
+   "yer_id": "Pamplona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0972-10-02",
+   "b": "Muiz Mısır'a giderken Bulukkîn'i İfrîkıye valisi atadı; Zîrîler fiilen",
+   "yer": "Kayrevan",
+   "yer_id": "Kayrevan",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0976-08-30",
+   "b": "Hazrûn b. Fülfûl el-Mu'tez'i öldürdü; Midrârî hânedanı sona erdi, Sici",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0976-08-30",
+   "b": "II. Hakem öldü; küçük yaştaki II. Hişâm halife oldu, fiilî iktidar el-",
+   "yer": "Kurtuba",
+   "yer_id": "Kurtuba (Córdoba)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0978-01-01",
+   "b": "Bâd Erciş'i ele geçirdi",
+   "yer": "Erciş (Van)",
+   "yer_id": "Erciş",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0979-01-01",
+   "b": "Bulukkîn Zenâte'ye karşı seferlerle Fas ve Sicilmâse'yi aldı (979-984)",
+   "yer": "Fas / Sicilmâse",
+   "yer_id": "Fas (Fez)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0979-07-29",
+   "b": "Hazrûn b. Fülfûl Bulukkîn tarafından öldürüldü; oğlu Vânüdîn Sicilmâse",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0984-01-01",
+   "b": "Bâd Musul'a hâkim oldu; Samsâmüddevle'yle antlaşmayla Diyarbekir'in ta",
+   "yer": "Musul / Diyarbekir",
+   "yer_id": "Musul",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0985-01-01",
+   "b": "el-Mansûr Barselona'yı aldı (985); 987'de Kont I. Borrell geri aldı",
+   "yer": "Barselona",
+   "yer_id": "Barselona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0985-05-24",
+   "b": "Zîrî b. Atıyye Fas yakınında Mansûr b. Bulukkîn'in ordusunu bozguna uğ",
+   "yer": "Fas (Fez) yakını",
+   "yer_id": "Fas (Fez)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0987-01-01",
+   "b": "Barselona Kontu I. Borrell şehri Müslümanlar'dan geri aldı",
+   "yer": "Barselona",
+   "yer_id": "Barselona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0987-05-03",
+   "b": "Zîrî b. Atıyye el-Mansûr tarafından Fas valiliğine atandı",
+   "yer": "Fas (Fez)",
+   "yer_id": "Fas (Fez)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0992-01-01",
+   "b": "II. Sancho Garcés Kurtuba'da el-Mansûr'a saygı sundu",
+   "yer": "Kurtuba",
+   "yer_id": "Kurtuba (Córdoba)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0992-01-01",
+   "b": "Ramon Borrell Barselona kontu oldu (992-1018)",
+   "yer": "Barselona",
+   "yer_id": "Barselona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0993-02-26",
+   "b": "Zîrî b. Atıyye Fas'ı Fâtımî valisinden geri aldı; Vecde şehrini kurmay",
+   "yer": "Fas (Fez) / Vecde",
+   "yer_id": "Fas (Fez)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0996-01-25",
+   "b": "Mansûr b. Bulukkîn öldü; oğlu Bâdîs Zîrî emiri oldu",
+   "yer": "Kayrevan",
+   "yer_id": "Kayrevan",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "0999-01-01",
+   "b": "V. Alfonso León kralı oldu; Almanzor'un baskısı altındaki krallık devr",
+   "yer": "León",
+   "yer_id": "León",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "1000-01-01",
+   "b": "III. Sancho Garcés Pamplona kralı oldu (yaklaşık 1000-1035)",
+   "yer": "Pamplona",
+   "yer_id": "Pamplona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_iber_balkan.js",
+   "t": "1000-01-01",
+   "b": "Vânüdîn Sicilmâse'yi geri aldı",
+   "yer": "Sicilmâse",
+   "yer_id": "Sicilmâse (Tâfilelt)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0584-01-01",
+   "b": "Bizans İtalyası'nda Ravenna Eksarhlığı kuruldu",
+   "yer": "Ravenna",
+   "yer_id": "Ravenna",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0619-01-01",
+   "b": "Ravenna'da eksarh makamına karşı isyan (619)",
+   "yer": "Ravenna",
+   "yer_id": "Ravenna",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0626-01-01",
+   "b": "Avarlar İstanbul'u neredeyse ele geçirdi",
+   "yer": "İstanbul (Konstantinopolis)",
+   "yer_id": "İstanbul",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0651-01-01",
+   "b": "Ravenna'da eksarha karşı ikinci isyan (651)",
+   "yer": "Ravenna",
+   "yer_id": "Ravenna",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0751-01-01",
+   "b": "Lombard Kralı Aistulf Ravenna'yı aldı; eksarhlık sona erdi",
+   "yer": "Ravenna",
+   "yer_id": "Ravenna",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0799-01-01",
+   "b": "Papa III. Leo Roma'da saldırıya uğrayıp Charlemagne'a sığındı",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0814-01-01",
+   "b": "Frank-Bizans antlaşması Venedik'in bağımsızlığını güvenceye aldı",
+   "yer": "Venedik",
+   "yer_id": "Venedik",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0833-01-01",
+   "b": "I. Mojmir Nitra bölgesini Moravya'ya kattı",
+   "yer": "Nitra (Batı Slovakya)",
+   "yer_id": "Nitra (Nyitra)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0871-01-01",
+   "b": "II. Louis'in koalisyonu Bari'yi Araplar'dan aldı",
+   "yer": "Bari",
+   "yer_id": "Bari",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0896-02-22",
+   "b": "Arnulf Roma'da imparator tacı giydi",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0905-07-21",
+   "b": "Berengar Verona'da III. Louis'i yakalatıp kör ettirdi",
+   "yer": "Verona",
+   "yer_id": "Verona",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0915-01-01",
+   "b": "Gaeta, Britannica'ya göre 915'ten sonra özerk dukalık oldu",
+   "yer": "Gaeta",
+   "yer_id": "Gaeta",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0915-01-01",
+   "b": "Papa X. Ioannes Berengar'ı imparator tacıyla taçlandırdı",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0919-01-01",
+   "b": "Schwaben dükü Burchard I. Henry'ye boyun eğdi, idarî özerkliği korudu",
+   "yer": "Schwaben",
+   "yer_id": "Hohenstaufen Kalesi (Göppingen, Schwaben)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0924-01-01",
+   "b": "Marozia ve oğlu Alberic Roma'nın fiilî yöneticileri oldu (924-954)",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0936-08-07",
+   "b": "I. Otto Aachen'de kral seçildi",
+   "yer": "Aachen",
+   "yer_id": "Aachen",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0947-01-01",
+   "b": "Hasan b. Ali el-Kelbî vali oldu: Kelbîler dönemi başladı",
+   "yer": "Palermo",
+   "yer_id": "Palermo",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0962-02-02",
+   "b": "I. Otto Roma'da imparator taçlandırıldı",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0962-02-02",
+   "b": "Otto I Roma'da imparator taçlandırıldı",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0962-02-13",
+   "b": "Privilegium Ottonianum: Otto I papalığın dünyevi iktidarını onayladı",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0963-12-01",
+   "b": "Otto I Papa XII. Ioannes'i azletti, VIII. Leo'yu papa yaptı",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0969-01-01",
+   "b": "Muiz Kelbîler'i İfrîkıye'ye çağırdı; vali Yaîş atandı",
+   "yer": "Palermo",
+   "yer_id": "Palermo",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortaavrupa_italya.js",
+   "t": "0987-01-01",
+   "b": "Ebü'l-Fütûh Yûsuf Kelbî valisi oldu (987-998)",
+   "yer": "Palermo",
+   "yer_id": "Palermo",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0066-01-01",
+   "b": "Tiridates Roma'da Nero'dan Ermenistan tacını aldı; iki imparatorluk on",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0066-01-01",
+   "b": "Birinci Yahudi İsyanı başladı: Yahudiler Romalıları Kudüs'ten attı, Be",
+   "yer": "Kudüs / Beth-Horon",
+   "yer_id": "Kudüs",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0066-01-01",
+   "b": "I. Tiridates Roma’da Nero’dan taç aldı",
+   "yer": "Roma",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0106-01-01",
+   "b": "Roma Nabatî Krallığı'nı ilhak etti: Arabia Petraea eyaleti kuruldu, ba",
+   "yer": "Petra / Bostra",
+   "yer_id": "Petra",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0116-01-01",
+   "b": "Traianus Mezopotamya ayaklanmasını bastırdıktan sonra Osrhoene kralı V",
+   "yer": "Edessa",
+   "yer_id": "Vodina (Edessa)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0123-01-01",
+   "b": "VII. Abgar'ın kardeşi Ma'nu VII Hadrianus'un himayesinde Osrhoene kral",
+   "yer": "Edessa",
+   "yer_id": "Vodina (Edessa)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0165-01-01",
+   "b": "Romalılar Seleukeia ve Ktesifon'u aldı; salgın yüzünden bahar 166'da g",
+   "yer": "Seleukeia / Ktesifon",
+   "yer_id": "Seleukeia",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0216-01-01",
+   "b": "Caracalla Edessa'yı işgal edip Osrhoene krallığını kaldırdı",
+   "yer": "Edessa (Urfa)",
+   "yer_id": "Vodina (Edessa)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0226-01-01",
+   "b": "Erdeşîr Medâin'de şâhânşâh olarak taç giydi; Sâsânî İmparatorluğu kuru",
+   "yer": "Medâin (Ktesiphon)",
+   "yer_id": "Ktesiphon",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0260-01-01",
+   "b": "Edessa Savaşı: I. Şâpûr Roma imparatoru Valerianus'u yenip esir aldı",
+   "yer": "Edessa (Urfa)",
+   "yer_id": "Vodina (Edessa)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0261-01-01",
+   "b": "Odaenathus Emesa'da Roma karşıtı Quietus'u yenip doğu eyaletlerinde Ro",
+   "yer": "Emesa (Humus)",
+   "yer_id": "Humus",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0267-01-01",
+   "b": "Tedmür Hükümdarı Üzeyne (Odaenathus) suikastla öldürüldü",
+   "yer": "Tedmür",
+   "yer_id": "Tedmür (Palmyra)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0272-01-01",
+   "b": "İmparator Aurelianus Tedmür'ü ele geçirdi; Kraliça Zeyneb esir alındı",
+   "yer": "Tedmür",
+   "yer_id": "Tedmür (Palmyra)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0272-01-01",
+   "b": "Aurelianus Zeyneb'i Antakya ve Humus (Emesa) yakınında yendi; Palmira ",
+   "yer": "Humus (Emesa) / Antakya",
+   "yer_id": "Humus",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0273-01-01",
+   "b": "Palmira'nın ikinci isyanı bastırıldı; şehir Aurelianus'un emriyle tahr",
+   "yer": "Palmira (Tedmür)",
+   "yer_id": "Tedmür (Palmyra)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0283-01-01",
+   "b": "Romalılar Sâsânî başşehri Medâin'i ele geçirdi",
+   "yer": "Medâin (Ktesiphon)",
+   "yer_id": "Ktesiphon",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0312-01-01",
+   "b": "Konstantin Milvius Köprüsü'nde Maxentius'u yendi",
+   "yer": "Roma (Milvius Köprüsü)",
+   "yer_id": "Roma",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0313-01-01",
+   "b": "Milano Fermanı: Konstantin ve Licinius Hristiyanlığa özgürlük tanıdı",
+   "yer": "Mediolanum (Milano)",
+   "yer_id": "Milano",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0330-05-11",
+   "b": "Konstantinopolis'in resmî açılışı: Yeni Roma başşehir oldu; Bizans İmp",
+   "yer": "Konstantinopolis (İstanbul)",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0347-01-01",
+   "b": "Frumentius, Atanasios tarafından Aksum piskoposu atandı; Ezana vaftiz ",
+   "yer": "Aksum / İskenderiye",
+   "yer_id": "Aksum",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0359-01-01",
+   "b": "II. Şâpûr Amid'i (Diyarbekir) aldı",
+   "yer": "Amid (Diyarbekir)",
+   "yer_id": "Diyarbakır",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0415-01-01",
+   "b": "Yeni Eflâtuncu filozof Hypatia İskenderiye'de bir kalabalık tarafından",
+   "yer": "İskenderiye",
+   "yer_id": "İskenderiye",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0480-01-01",
+   "b": "Kinde Devleti Necid'de Hucr b. Amr tarafından Himyerîler'e tâbi olarak",
+   "yer": "Necid",
+   "yer_id": "Dir'iye (Necid)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0529-01-01",
+   "b": "II. Hâris b. Cebele'ye Bizans'ta 'büyük emîr' (phylarkhos) unvanı veri",
+   "yer": "Petra",
+   "yer_id": "Petra",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0537-01-01",
+   "b": "Ebrehe Yemen'de idareyi ele geçirdi (Habeş valisi)",
+   "yer": "San‘a",
+   "yer_id": "Sana",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0543-01-01",
+   "b": "Enûşirvân ikinci Suriye işgalinde Urfa'yı kuşattı",
+   "yer": "Urfa (Edessa)",
+   "yer_id": "Urfa",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0563-01-01",
+   "b": "II. Hâris b. Cebele Konstantiniye'de I. Iustinianos'la görüştü",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0580-01-01",
+   "b": "Gassânî Münzir b. Hâris Konstantiniye'de taç giydi",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0610-01-01",
+   "b": "Herakleios Bizans tahtına geçti; Mısır Phokas'a karşı Herakleios'u des",
+   "yer": "İstanbul / Mısır",
+   "yer_id": "İstanbul",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0610-10-05",
+   "b": "Herakleios İstanbul'da imparatorluk tacını giydi; Phokas idam edildi",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0614-01-01",
+   "b": "Sâsânîler Kudüs'ü zaptedip Kutsal Haç'ı Medâin'e götürdü",
+   "yer": "Kudüs",
+   "yer_id": "Kudüs",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0615-01-01",
+   "b": "İlk Habeşistan hicreti: Müslümanlar Aksum Necâşîsine sığındı",
+   "yer": "Mekke → Aksum",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0619-01-01",
+   "b": "Sâsânîler Mısır'ı ele geçirdi",
+   "yer": "İskenderiye / Mısır",
+   "yer_id": "İskenderiye",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0622-04-05",
+   "b": "Herakleios Sâsânîler'e karşı seferine çıktı",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0622-09-24",
+   "b": "Hicret: Hz. Muhammed Yesrib'e (Medine) girdi",
+   "yer": "Yesrib (Medine)",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0623-01-01",
+   "b": "Bizans ordusu Sâsânîlerin kutsal şehri Gence'yi aldı",
+   "yer": "Gence",
+   "yer_id": "Gence",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0623-01-01",
+   "b": "Medine vesikası düzenlendi ve Medine Haremi'nin sınırları belirlendi",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0624-01-01",
+   "b": "Benî Kaynukā‘ Gazvesi: Medine'deki Yahudi kabilesi şehirden ayrıldı",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0624-03-13",
+   "b": "Bedir Gazvesi: Müslümanlar Mekkeli müşrikleri yendi",
+   "yer": "Bedir (Medine-Mekke yolu)",
+   "yer_id": "Bedir",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0625-01-01",
+   "b": "Benî Nadîr Gazvesi: Nadîr kabilesi Medine'den sürüldü",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0626-08-10",
+   "b": "Avar-Sâsânî kuşatmasında İstanbul savunuldu; Avarlar çekildi",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0627-01-01",
+   "b": "Ninova Savaşı: Herakleios Sâsânî ana ordusunu kesin yenilgiye uğrattı",
+   "yer": "Ninova",
+   "yer_id": "Ninova",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0627-01-01",
+   "b": "Benî Kurayza Gazvesi: Kurayza kabilesinin Medine'deki varlığı sona erd",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0627-01-01",
+   "b": "Herakleios’un müttefiki Hazarlar Derbend’i (Çor) zapteti",
+   "yer": "Derbend",
+   "yer_id": "Derbend",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0627-04-15",
+   "b": "Hendek (Ahzâb) Gazvesi: Mekkeliler ve müttefiklerinin Medine kuşatması",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0628-01-01",
+   "b": "Hz. Muhammed Bizans ve Sâsânî imparatorlarına ve çevre yöneticilerine ",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0628-01-01",
+   "b": "Herakleios, Türklerle (Hazarlar) ittifak yaparak Tiflis’i kuşatıp ele ",
+   "yer": "Tiflis",
+   "yer_id": "Tiflis",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0628-01-02",
+   "b": "Hayber Gazvesi: Yahudi vahası Hayber Müslümanların eline geçti",
+   "yer": "Hayber",
+   "yer_id": "Hayber",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0628-01-03",
+   "b": "Yemen'deki Sâsânî valisi Bâzân ve Ebnâ topluluğu Müslüman oldu",
+   "yer": "San‘a",
+   "yer_id": "Sana",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0629-01-01",
+   "b": "Hazarlar Tiflis’i zapteti ve bazı Ermeni grupları Hazar hâkimiyetine g",
+   "yer": "Tiflis",
+   "yer_id": "Tiflis",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0629-05-31",
+   "b": "Hâlid b. Velîd, Amr b. Âs ve Osman b. Talha Müslüman oldu",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0630-01-01",
+   "b": "Gaochang (Turfan) kralı Kao Wen-t'ai Tang sarayına gelip bağlılığını s",
+   "yer": "Chang'an / Turfan",
+   "yer_id": "Xi'an (Chang'an)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0630-01-04",
+   "b": "Hz. Muhammed Mekke'nin fethi için Medine'den yola çıktı",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0630-01-04",
+   "b": "Tâif Gazvesi: Müslümanlar Sakîf'in Tâif kalesini kuşattı",
+   "yer": "Tâif",
+   "yer_id": "Tâif",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0630-01-05",
+   "b": "Tebük Seferi: Hz. Muhammed 30 bin kişilik orduyla Bizans sınırına yürü",
+   "yer": "Tebük",
+   "yer_id": "Tebük",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0630-01-11",
+   "b": "Mekke'nin fethi: Hz. Muhammed Mekke'ye girdi",
+   "yer": "Mekke",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0631-01-01",
+   "b": "Necran Hıristiyanları Medine'ye heyet gönderip Hz. Muhammed'le antlaşm",
+   "yer": "Medine, Necran",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0632-02-23",
+   "b": "Hz. Muhammed Veda Haccı için Medine'den ayrıldı",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0632-06-03",
+   "b": "Yemen'deki peygamberlik iddiacısı Esved el-Ansî öldürüldü",
+   "yer": "San‘a",
+   "yer_id": "Sana",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0632-06-08",
+   "b": "Hz. Muhammed vefat etti",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0632-06-08",
+   "b": "Sakîfetü Benî Sâide: Ebû Bekir'e biat edildi, Hulefâ-yi Râşidîn dönemi",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0632-06-26",
+   "b": "Ebû Bekir Üsâme b. Zeyd'in Suriye ordusuna hareket emri verdi",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0632-09-19",
+   "b": "Ridde Savaşları: Hâlid b. Velîd Tuleyha'ya karşı yürüdü (Büzâha)",
+   "yer": "Büzâha (Necid)",
+   "yer_id": "Dir'iye (Necid)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0634-08-23",
+   "b": "Halife Ebû Bekir vefat etti; Ömer halife oldu",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0635-01-01",
+   "b": "Dımaşk Müslümanlar tarafından fethedildi",
+   "yer": "Dımaşk",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0637-01-03",
+   "b": "Halife Ömer hicrî takvimin kullanılmasına karar verdi",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0638-01-01",
+   "b": "Halife Ömer Kudüs'ü Patrik Sophronios'tan teslim aldı",
+   "yer": "Kudüs",
+   "yer_id": "Kudüs",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0640-01-01",
+   "b": "Tang orduları Gaochang (Turfan) krallığını yıktı",
+   "yer": "Turfan (Gaochang)",
+   "yer_id": "Turfan",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0641-01-01",
+   "b": "Babilon Kalesi fethedildi; deltanın güneyle bağlantısı kesildi",
+   "yer": "Babilon Kalesi (Eski Kahire)",
+   "yer_id": "Kahire",
+   "tip": "alias"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0641-02-11",
+   "b": "Herakleios öldü",
+   "yer": "Konstantinopolis",
+   "yer_id": "İstanbul",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0642-01-01",
+   "b": "İskenderiye Müslümanların eline geçti; Mısır fethi tamamlandı",
+   "yer": "İskenderiye",
+   "yer_id": "İskenderiye",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0642-09-02",
+   "b": "İskenderiye müslümanlara teslim oldu; Mısır'ın fethi tamamlandı",
+   "yer": "İskenderiye",
+   "yer_id": "İskenderiye",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0642-11-30",
+   "b": "Bâbülebvâb (Derbend) harekâtı: Sürâka b. Amr komutasındaki İslâm ordus",
+   "yer": "Bâbülebvâb (Derbend)",
+   "yer_id": "Derbend",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0643-01-01",
+   "b": "Amr b. Âs Fustat'ı kurdu (Mısır'ın ilk İslâm şehri)",
+   "yer": "Fustat (Eski Kahire)",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0644-11-03",
+   "b": "Halife Ömer vefat etti",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0645-01-01",
+   "b": "Bizans donanması İskenderiye'yi geri aldı",
+   "yer": "İskenderiye",
+   "yer_id": "İskenderiye",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0646-01-01",
+   "b": "Amr b. Âs İskenderiye'yi yeniden aldı ve surlarını yıktı",
+   "yer": "İskenderiye",
+   "yer_id": "İskenderiye",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0648-01-01",
+   "b": "Hz. Osman Amr b. Âs'ı azletti; Abdullah b. Sa‘d b. Ebû Serh Mısır vali",
+   "yer": "Fustat",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0651-01-01",
+   "b": "III. Yezdicerd Merv'de öldürüldü; Sâsânî devleti sona erdi",
+   "yer": "Merv",
+   "yer_id": "Merv (Mari)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0652-01-01",
+   "b": "Mısır Valisi Abdullah b. Sa‘d Dongola'yı kuşattı; Nûbe krallığı barış ",
+   "yer": "Dongola",
+   "yer_id": "Dongola",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0652-01-01",
+   "b": "Nûbe ile Bakt Antlaşması: yıllık 360 köle karşılığı barış ve ticaret s",
+   "yer": "Dongola",
+   "yer_id": "Dongola",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0652-08-12",
+   "b": "Selmân b. Rebîa Derbend Geçidi’ni aşıp Hazar başşehri Belencer’e dayan",
+   "yer": "Derbend – Belencer",
+   "yer_id": "Derbend",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0656-01-04",
+   "b": "Mısır'da Hz. Osman'a karşı büyük isyan çıktı",
+   "yer": "Fustat",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0656-12-24",
+   "b": "Cemel Vak‘ası sonrası Hz. Âişe Basra'dan ayrıldı",
+   "yer": "Basra",
+   "yer_id": "Basra",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0658-01-01",
+   "b": "Hakemler Dûmetülcendel'de ilk toplantılarını yaptı",
+   "yer": "Dûmetülcendel",
+   "yer_id": "Dûmetülcendel (Cevf)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0658-06-09",
+   "b": "Amr b. Âs Muâviye adına Mısır'ı Hz. Ali'nin valisinden aldı",
+   "yer": "Fustat",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0661-01-26",
+   "b": "Hz. Ali Hâricî İbn Mülcem'in suikastı sonucu vefat etti",
+   "yer": "Kûfe",
+   "yer_id": "Kûfe",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0661-07-29",
+   "b": "Hz. Hasan hilâfeti Muâviye'ye bıraktı; Râşid halifeler dönemi sona erd",
+   "yer": "Kûfe",
+   "yer_id": "Kûfe",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0669-01-01",
+   "b": "Emevî kuvvetleri ilk İstanbul kuşatmasını gerçekleştirdi",
+   "yer": "İstanbul",
+   "yer_id": "İstanbul",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0680-01-01",
+   "b": "Muâviye öldü; Yezîd Dımaşk'ta halife olarak biat aldı",
+   "yer": "Dımaşk",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0683-08-27",
+   "b": "Harre Savaşı: Emevî ordusu Medine'yi ele geçirip yağmaladı",
+   "yer": "Medine (Harretüvâkım)",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0683-09-24",
+   "b": "Emevî ordusu Mekke'yi kuşattı; Kâbe mancınıkla taşlandı",
+   "yer": "Mekke",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0683-11-27",
+   "b": "Mekke kuşatması kalktı; Abdullah b. Zübeyr hilâfetini Hicaz'da ilan et",
+   "yer": "Mekke",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0684-12-14",
+   "b": "I. Mervân Fustat'a girip Mısır'da Emevî hâkimiyetini yeniden kurdu",
+   "yer": "Fustat",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0685-01-01",
+   "b": "Mervân öldü; oğlu Abdülmelik Dımaşk'ta halife oldu",
+   "yer": "Dımaşk",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0692-01-01",
+   "b": "Haccâc b. Yûsuf Mekke'yi kuşattı",
+   "yer": "Mekke",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0692-01-01",
+   "b": "Tang askerleri Turfan bölgesine yerleşti",
+   "yer": "Turfan",
+   "yer_id": "Turfan",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0692-10-01",
+   "b": "Abdullah b. Zübeyr öldürüldü; Mekke Emevî hâkimiyetine girdi, Zübeyrî ",
+   "yer": "Mekke",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0695-01-01",
+   "b": "Abdülmelik Dımaşk'ta ilk İslâm dinarını bastırdı",
+   "yer": "Dımaşk",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0705-10-08",
+   "b": "Abdülmelik vefat etti; I. Velîd halife oldu",
+   "yer": "Dımaşk",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0714-01-01",
+   "b": "Mesleme Derbend Geçidi’ni ele geçirdi",
+   "yer": "Derbend",
+   "yer_id": "Derbend",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0715-02-24",
+   "b": "I. Velîd vefat etti; Süleyman b. Abdülmelik halife oldu",
+   "yer": "Dımaşk (Deyrümürrân)",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0717-01-01",
+   "b": "Mesleme b. Abdülmelik komutasındaki Emevî ordusu İstanbul'u kuşattı",
+   "yer": "İstanbul",
+   "yer_id": "İstanbul",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0717-09-22",
+   "b": "Ömer b. Abdülazîz halife olarak biat aldı",
+   "yer": "Dımaşk",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0732-01-01",
+   "b": "Mervân b. Muhammed Derbend’i aşıp Belencer’e girdi; Hazarlarla İslâm ş",
+   "yer": "Derbend – Belencer – İdil",
+   "yer_id": "Derbend",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0744-12-07",
+   "b": "II. Mervân halife ilân edildi",
+   "yer": "Humus/Suriye",
+   "yer_id": "Humus",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0747-01-01",
+   "b": "Hâricî Ebû Hamza eş-Şârî Medine'yi ele geçirdi",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0749-11-28",
+   "b": "Kûfe'de Ebü'l-Abbas es-Seffâh'a biat edildi: Abbâsî hilâfeti kuruldu",
+   "yer": "Kûfe",
+   "yer_id": "Kûfe",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0749-11-28",
+   "b": "Ebü'l-Abbas es-Seffâh için Kûfe'de biat edildi: Abbâsî hilâfeti kuruld",
+   "yer": "Kûfe",
+   "yer_id": "Kûfe",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0750-04-26",
+   "b": "Dımaşk Abbâsî kuvvetlerinin eline geçti",
+   "yer": "Dımaşk",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0754-06-27",
+   "b": "Ebû Müslim Nusaybin yakınında Abdullah b. Ali'yi yendi; Mansûr'un hilâ",
+   "yer": "Nusaybin",
+   "yer_id": "Nusaybin",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0758-05-14",
+   "b": "Mansûr Revvâd aşiretini Basra'dan alıp Azerbaycan'a yerleştirdi",
+   "yer": "Azerbaycan (Tebriz)",
+   "yer_id": "Tebriz",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0762-01-01",
+   "b": "Mansûr Bağdat'ın (Medînetüsselâm) inşasına başladı",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0762-09-25",
+   "b": "Muhammed en-Nefsüzzekiyye Medine'de Abbâsîler'e karşı ayaklandı",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0762-12-06",
+   "b": "Abbâsî ordusu Medine'yi geri aldı; Nefsüzzekiyye öldürüldü",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0763-01-01",
+   "b": "Mansûr hilâfet merkezini Bağdat'a taşıdı",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0766-01-01",
+   "b": "Bağdat'ın yuvarlak şehri tamamlandı",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0775-10-07",
+   "b": "Mansûr hac yolunda öldü; Mehdî Bağdat'ta halife oldu",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0786-09-15",
+   "b": "Hâdî öldü; Hârûnürreşîd halife oldu",
+   "yer": "Îsâbâd (Bağdat)",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0794-01-01",
+   "b": "Uman'da ikinci İbâzî imamlığı kuruldu: Muhammed b. Abdullah b. Affân i",
+   "yer": "Nizvâ (Uman)",
+   "yer_id": "Nizva",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0806-01-01",
+   "b": "Hârûnürreşîd büyük orduyla Bizans'a girdi: Herakleia, Iconium ve Tyana",
+   "yer": "Ereğli, Konya, Niğde (Kapadokya)",
+   "yer_id": "Ereğli (Konya)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0813-09-01",
+   "b": "Bağdat Tâhir b. Hüseyin'in ordusunca ele geçirildi; Me'mûn iktidara ge",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0813-09-24",
+   "b": "Emîn öldürüldü; Bağdat kuşatması bitti, Me'mûn tek halife oldu",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0819-06-28",
+   "b": "Me'mûn Tâhir b. Hüseyin'i Bağdat sâhibü'ş-şurtalığına getirdi",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0819-06-28",
+   "b": "Me'mûn Esed b. Sâmânhudât'ın dört oğlunu Semerkant, Fergana, Şâş ve He",
+   "yer": "Semerkant",
+   "yer_id": "Semerkant",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0819-08-11",
+   "b": "Me'mûn Merv'den gelip Bağdat'a girdi; Abbâsî siyahı yeniden resmî renk",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0820-01-01",
+   "b": "İbn Ziyâd dairevî planlı Zebîd şehrini kurdu",
+   "yer": "Zebîd (Tihâme)",
+   "yer_id": "Zebîd",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0821-05-06",
+   "b": "Tâhir b. Hüseyin kendini Horasan valiliğine tayin ettirdi: Tâhirî hâne",
+   "yer": "Merv",
+   "yer_id": "Merv (Mari)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0822-05-27",
+   "b": "Son Mihranî prensi Varaz Trdat öldürüldü; Ermeni vali Sehl b. Simbat b",
+   "yer": "Arrân (Şekî)",
+   "yer_id": "Şeki (Nuha)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0822-11-15",
+   "b": "Tâhir b. Hüseyin Merv'de öldü; oğlu Talha Horasan valisi oldu",
+   "yer": "Merv",
+   "yer_id": "Merv (Mari)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0830-01-01",
+   "b": "Abdullah b. Tâhir Horasan valiliğine getirildi",
+   "yer": "Merv",
+   "yer_id": "Merv (Mari)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0830-07-10",
+   "b": "Me'mûn Bizans topraklarına girdi: Anadolu seferleri başladı",
+   "yer": "Tarsus / Kilikya kapıları",
+   "yer_id": "Tarsus",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0833-01-01",
+   "b": "İshak b. İsmâil Tiflis’te İslâm emirliği kurdu",
+   "yer": "Tiflis",
+   "yer_id": "Tiflis",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0838-01-04",
+   "b": "Bâbek Sâmerrâ'da halifenin huzurunda idam edildi",
+   "yer": "Sâmerrâ",
+   "yer_id": "Sâmerrâ",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0840-01-01",
+   "b": "Karluk yabgusu Bilge Kül Kadır Kara Han unvanını alıp Karahanlı hâneda",
+   "yer": "Balasagun / Kâşgar",
+   "yer_id": "Balasagun (Ak-Beşim)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0842-01-05",
+   "b": "Mu'tasım öldü; oğlu Vâsik halife oldu",
+   "yer": "Sâmerrâ",
+   "yer_id": "Sâmerrâ",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0844-09-18",
+   "b": "Abdullah b. Tâhir öldü; Nîşâbur Tâhirî başkenti olarak kaldı",
+   "yer": "Nîşâbur",
+   "yer_id": "Nîşâbur",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0847-01-01",
+   "b": "Ya‘fur b. Abdurrahman el-Hivâlî San‘a'yı ele geçirip Yu‘firî (Ya‘furî)",
+   "yer": "San‘a",
+   "yer_id": "Sana",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0847-08-10",
+   "b": "Vâsik öldü; Mütevekkil halife oldu (Türk kumandanların halife belirled",
+   "yer": "Sâmerrâ",
+   "yer_id": "Sâmerrâ",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0852-06-23",
+   "b": "Boğa el-Kebîr Tiflis emiri İshak b. İsmâil’i esir alıp öldürttü; Tifli",
+   "yer": "Tiflis",
+   "yer_id": "Tiflis",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0859-01-01",
+   "b": "Ziyâdî kurucusu Muhammed b. Ziyâd öldü; oğlu İbrâhim geçti",
+   "yer": "Zebîd",
+   "yer_id": "Zebîd",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0861-03-17",
+   "b": "Ya‘kūb b. Leys es-Saffâr Sîstan'a hâkim oldu: Saffârî hânedanının başl",
+   "yer": "Zerenc (Sîstan)",
+   "yer_id": "Zerenc (Sîstan)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0861-12-11",
+   "b": "Mütevekkil Türk kumandanlarca öldürüldü; Müntasır halife oldu",
+   "yer": "Sâmerrâ",
+   "yer_id": "Sâmerrâ",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0862-03-07",
+   "b": "II. Tâhir öldü; genç Muhammed b. Tâhir Horasan'da valiliği devraldı, T",
+   "yer": "Nîşâbur",
+   "yer_id": "Nîşâbur",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0862-06-09",
+   "b": "Türk kumandanlar Müstaîn'i halife ilân etti",
+   "yer": "Sâmerrâ",
+   "yer_id": "Sâmerrâ",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0864-02-13",
+   "b": "Hasan b. Zeyd el-Alevî Taberistan'da Zeydî (Alevî) devletini kurdu",
+   "yer": "Taberistan (Âmül)",
+   "yer_id": "Âmül",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0866-01-25",
+   "b": "Bağdat teslim oldu; Müstaîn hal'edilip Mu'tezz halife ilân edildi",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0868-09-15",
+   "b": "Ahmed b. Tolun Mısır'a gitti: Tolunoğulları'nın temeli atıldı",
+   "yer": "Mısır (Fustat)",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0869-01-01",
+   "b": "Derbend’de Arap asıllı Hâşimî emirliği kuruldu",
+   "yer": "Derbend (Bâbülebvâb)",
+   "yer_id": "Derbend",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0869-07-11",
+   "b": "Mu'tezz Türk askerlerince hal'edildi; Mühtedî halife oldu",
+   "yer": "Sâmerrâ",
+   "yer_id": "Sâmerrâ",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0870-06-18",
+   "b": "Mühtedî Türk kumandanlarca hal'edildi; Mu'temid halife oldu",
+   "yer": "Sâmerrâ",
+   "yer_id": "Sâmerrâ",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0873-01-01",
+   "b": "Ya‘kūb b. Leys Nîşâbur'u alarak Tâhirîler'in Horasan'daki hâkimiyetine",
+   "yer": "Nîşâbur",
+   "yer_id": "Nîşâbur",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0874-01-01",
+   "b": "İsmâil b. Ahmed Buhara valisi olarak şehre girdi ve tek başına hâkimiy",
+   "yer": "Buhara",
+   "yer_id": "Buhara",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0874-10-16",
+   "b": "Halife Mu'temid Mâverâünnehir yönetimini Nasr b. Ahmed'e verdi",
+   "yer": "Semerkant",
+   "yer_id": "Semerkant",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0880-07-18",
+   "b": "Amr b. Leys Nîşâbur'da Ahmed b. Abdullah el-Hucistânî'ye yenildi",
+   "yer": "Nîşâbur",
+   "yer_id": "Nîşâbur",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0884-01-01",
+   "b": "Hasan b. Zeyd Âmül'de öldü; kardeşi Dâî-i Sagīr Muhammed b. Zeyd geçti",
+   "yer": "Âmül",
+   "yer_id": "Âmül",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0884-06-29",
+   "b": "Son Tâhirî emîri Muhammed b. II. Tâhir Horasan valiliğine yeniden tayi",
+   "yer": "Nîşâbur",
+   "yer_id": "Nîşâbur",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0886-01-01",
+   "b": "Yu‘firî hükümdarı İbrâhim b. Muhammed katledildi; San‘a'daki isyan son",
+   "yer": "San‘a",
+   "yer_id": "Sana",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0886-01-01",
+   "b": "Abbâsîler Tolunoğulları'nın Mısır hâkimiyetini tanıdı: Suriye, Sugūr, ",
+   "yer": "Bağdat / Mısır",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0888-06-21",
+   "b": "Muvaffak, Kirman, Fars ve Horasan'ı 10 milyon dirhem karşılığında Amr ",
+   "yer": "Bağdat / Fars",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0889-05-06",
+   "b": "Muhammed b. Ebü’s-Sâc Azerbaycan valisi oldu; Sâcoğulları hânedanı kur",
+   "yer": "Azerbaycan (Merâga)",
+   "yer_id": "Merâga",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0890-04-25",
+   "b": "Amr b. Leys Abbâsî ordusunu yenip Şîraz'a girdi",
+   "yer": "Şîraz",
+   "yer_id": "Şiraz",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0892-01-01",
+   "b": "Mu'temid hilâfet merkezini Sâmerrâ'dan Bağdat'a geri taşıdı",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0892-08-21",
+   "b": "Nasr b. Ahmed öldü; İsmâil b. Ahmed bütün Mâverâünnehir'e hâkim oldu, ",
+   "yer": "Buhara",
+   "yer_id": "Buhara",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0892-10-14",
+   "b": "Mu'temid öldü; Mu'tazıd halife oldu (Bağdat'ta kısmî toparlanma)",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0893-01-01",
+   "b": "Abbâsî valisi Muhammed b. Nûr Nizvâ'yı ele geçirdi; Uman imamlığı sona",
+   "yer": "Nizvâ (Uman)",
+   "yer_id": "Nizva",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0893-03-23",
+   "b": "Muhammed b. Ebü’s-Sâc Merâga’yı alıp idare merkezi yaptı",
+   "yer": "Merâga",
+   "yer_id": "Merâga",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0893-03-23",
+   "b": "Sâmânî emîri İsmâil b. Ahmed Talas'ı alıp esir aldı; Karahanlılar başş",
+   "yer": "Talas (Tarâz)",
+   "yer_id": "Taraz (Evliya-Ata)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0893-06-14",
+   "b": "Halife Mu'tazıd Fırat'tan Berka'ya uzanan toprakları Humâreveyh'e verd",
+   "yer": "Bağdat / Mısır",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0894-03-13",
+   "b": "I. Smbat Duvîn (Dvin) şehrini ele geçirdi",
+   "yer": "Duvîn (Dvin)",
+   "yer_id": "Dvin",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0897-01-01",
+   "b": "Hâdî-İlelhak Yahyâ b. Hüseyin Sa‘de'ye gelip Zeydî imâmetini kurdu",
+   "yer": "Sa‘de (Yemen)",
+   "yer_id": "Sa'de",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0898-01-28",
+   "b": "Muhammed b. Ebü’s-Sâc Kars’ı ele geçirdi; halife Azerbaycan-İrmîniye h",
+   "yer": "Kars",
+   "yer_id": "Kars",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0898-02-19",
+   "b": "Halife Mu'tazıd Amr b. Leys'i Mâverâünnehir valisi tayin edip Sâmânî İ",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0899-01-01",
+   "b": "Ebû Saîd el-Cennâbî önderliğindeki Karmatîler Katîf'i ve Bahreyn bölge",
+   "yer": "Katîf, Lahsâ (Bahreyn)",
+   "yer_id": "Katîf",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0900-04-19",
+   "b": "Belh Savaşı: Sâmânî İsmâil, Saffârî Amr b. Leys'i yenip esir aldı",
+   "yer": "Belh",
+   "yer_id": "Belh",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0901-01-01",
+   "b": "İmam Hâdî-İlelhak San‘a'yı ele geçirdi; Ya‘furîler ertesi yıl geri ald",
+   "yer": "San‘a",
+   "yer_id": "Sana",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0902-01-01",
+   "b": "Ziyâdî emîri İbrâhim b. Muhammed öldü; Ebü'l-Ceyş İshak dönemi başladı",
+   "yer": "Zebîd",
+   "yer_id": "Zebîd",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0902-01-01",
+   "b": "Amr b. Leys Bağdat'ta öldürüldü; Saffârîler Fars'ı Tâhir b. Muhammed'e",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0902-04-05",
+   "b": "Mu'tazıd öldü; oğlu Müktefî halife oldu",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0905-01-11",
+   "b": "Tolunoğulları sona erdi: Abbâsî ordusu Fustat'a girdi, Mısır yeniden A",
+   "yer": "Fustat",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0905-11-02",
+   "b": "Ebü'l-Heycâ Abdullah b. Hamdân Musul valiliğine getirildi: Hamdânî hâk",
+   "yer": "Musul",
+   "yer_id": "Musul",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0907-11-24",
+   "b": "Emîr İsmâil b. Ahmed öldü; oğlu Ahmed b. İsmâil geçti",
+   "yer": "Buhara",
+   "yer_id": "Buhara",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0908-01-01",
+   "b": "Yûsuf b. Ebü’s-Sâc Ardzruni prensi Haçik Gagik’e kral unvanı verip taç",
+   "yer": "Vaspurakan (Van)",
+   "yer_id": "Van",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0908-08-14",
+   "b": "Çocuk yaştaki Muktedir halife ilân edildi",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0913-01-01",
+   "b": "Zeydî imam Ahmed b. Yahyâ en-Nâsır dönemi başladı (913-934)",
+   "yer": "Sa‘de",
+   "yer_id": "Sa'de",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0914-01-01",
+   "b": "Karmatîler Zebîd'i tahrip etti",
+   "yer": "Zebîd (Tihâme)",
+   "yer_id": "Zebîd",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0914-01-01",
+   "b": "Sâmânî emîri Ahmed b. İsmâil gulâmlarınca öldürüldü; küçük yaştaki II.",
+   "yer": "Buhara",
+   "yer_id": "Buhara",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0914-01-01",
+   "b": "Hasan el-Utrûş Âmül'de hükümdarlığını ilân etti: Zeydî-Hüseynî (Nâsırî",
+   "yer": "Âmül",
+   "yer_id": "Âmül",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0919-06-03",
+   "b": "Erdebil yakınında Abbâsî ordusu Yûsuf b. Ebü’s-Sâc’ı yendi; Yûsuf esir",
+   "yer": "Erdebil",
+   "yer_id": "Erdebil",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0921-01-01",
+   "b": "Zeydî komutan Leylâ b. Nu‘mân Nîşâbur'u aldı; Sâmânî kumandanı Hâmûye ",
+   "yer": "Nîşâbur",
+   "yer_id": "Nîşâbur",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0923-01-01",
+   "b": "Ebû Tâhir el-Cennâbî Bahreyn Karmatîleri'nin başına geçip Irak'a saldı",
+   "yer": "Lahsâ (Bahreyn) → Güney Irak",
+   "yer_id": "Lahsa",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0923-04-21",
+   "b": "Zerenc ayyârları Ebû Ca‘fer Ahmed'i iktidara getirdi: Halefî Saffârî k",
+   "yer": "Zerenc",
+   "yer_id": "Zerenc (Sîstan)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0927-12-07",
+   "b": "Yûsuf b. Ebü’s-Sâc Kûfe önünde Karmatîler’e yenilip esir düştü (sonra ",
+   "yer": "Kûfe",
+   "yer_id": "Kûfe",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0928-02-25",
+   "b": "Merdâvîc b. Ziyâr bağımsızlığını ilân edip Cürcân merkezli Ziyârî hâne",
+   "yer": "Cürcân (Gürgân)",
+   "yer_id": "Esterâbâd (Gürgân)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0928-11-10",
+   "b": "Hasan b. Kāsım ed-Dâî-İlelhakk öldürüldü; Taberistan Zeydî devleti son",
+   "yer": "Âmül yakını",
+   "yer_id": "Âmül",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0929-02-28",
+   "b": "Muktedir hal'edildi; Kāhir-Billâh halife ilân edildi",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0929-03-02",
+   "b": "Ebü'l-Heycâ öldü; Hamdânîler Musul ve Halep olmak üzere iki kola ayrıl",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0930-01-01",
+   "b": "Karmatîler hac mevsiminde Mekke'ye baskın yaptı; Hacerülesved Bahreyn'",
+   "yer": "Mekke",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0930-01-12",
+   "b": "Ebû Tâhir el-Cennâbî önderliğindeki Karmatîler Kâbe'ye baskın yaptı; H",
+   "yer": "Mekke / Hecer (Bahreyn)",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0931-01-24",
+   "b": "Merdâvîc Hemedan'da Halife Muktedir'in ordusunu yendi; Dînever, Karmîs",
+   "yer": "Hemedan",
+   "yer_id": "Hemedan",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0932-01-01",
+   "b": "İmâdüddevle Ali b. Büveyh İsfahan'ı işgal etti: Büveyhî yükselişinin b",
+   "yer": "İsfahan",
+   "yer_id": "Isfahan",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0932-02-14",
+   "b": "Mûnis el-Muzaffer Musul'u ele geçirip Hamdânîler'in hazinelerine el ko",
+   "yer": "Musul",
+   "yer_id": "Musul",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0932-10-31",
+   "b": "Muktedir öldürüldü; Kāhir ikinci kez halife oldu",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0934-01-01",
+   "b": "Merdâvîc'in ordusu Ahvaz'ı aldı; Ali b. Büveyh onun metbûluğunu tanıyı",
+   "yer": "Ahvaz",
+   "yer_id": "Ahvaz",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0934-01-01",
+   "b": "Ali b. Büveyh Fars'ı alıp Şîraz'a girdi",
+   "yer": "Şîraz",
+   "yer_id": "Şiraz",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0935-01-01",
+   "b": "Muhammed b. Tuğç Mısır valisi oldu: İhşîdîler döneminin temeli atıldı",
+   "yer": "Fustat (Mısır)",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0935-01-01",
+   "b": "Nâsırüddevle Hasan Musul'u ve çevresini ele geçirdi; Halife Râzî'nin g",
+   "yer": "Musul",
+   "yer_id": "Musul",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0936-01-01",
+   "b": "Râzî-Billâh, Muhammed b. Râik'i emîrü'l-ümerâ tayin etti: Emîrülümerâ ",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0942-01-01",
+   "b": "Müslüman olmayan Türkler Balasagun'u ele geçirdi; Satuk Buğra Han sonr",
+   "yer": "Balasagun",
+   "yer_id": "Balasagun (Ak-Beşim)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0942-04-21",
+   "b": "Hamdânî Nâsırüddevle Hasan emîrü'l-ümerâ oldu",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0943-01-01",
+   "b": "II. Nasr öldü; oğlu I. Nûh Sâmânî emîri oldu",
+   "yer": "Buhara",
+   "yer_id": "Buhara",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0943-05-12",
+   "b": "Nâsırüddevle emîrülümerâlığı bıraktı; yerine Tüzün tayin edildi",
+   "yer": "Bağdat / Musul",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0944-01-01",
+   "b": "Yu‘firî hükümdarı Es‘ad b. Ya‘fur öldü; Yu‘firîler zayıflamaya başladı",
+   "yer": "San‘a",
+   "yer_id": "Sana",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0944-08-24",
+   "b": "Halife Müttakī Mısır'ın yönetimini otuz yıl süreyle Muhammed b. Tuğç'a",
+   "yer": "Rakka",
+   "yer_id": "Rakka",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0944-10-29",
+   "b": "Seyfüddevle Halep'e girdi: Hamdânîler'in Halep kolu kuruldu",
+   "yer": "Halep",
+   "yer_id": "Halep",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0945-01-01",
+   "b": "Seyfüddevle Dımaşk'ı aldı, kısa sürede kaybetti: Kuzey Suriye Hamdânîl",
+   "yer": "Dımaşk / Kınnesrîn",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0945-12-19",
+   "b": "Büveyhî Ahmed (Muizzüddevle) Bağdat'a girdi; Abbâsî halifesi Büveyhî v",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0945-12-19",
+   "b": "Muizzüddevle Ahmed Bağdat'a girdi; emîrü'l-ümerâ oldu: Büveyhî dönemi ",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0946-01-29",
+   "b": "Müstekfî hal'edilip gözlerine mil çekildi; Mutî'-Lillâh halife yapıldı",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0949-07-01",
+   "b": "İmâdüddevle Ali öldü; Adudüddevle Fars hâkimi olarak amcasının yerine ",
+   "yer": "Şîraz",
+   "yer_id": "Şiraz",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0949-07-01",
+   "b": "Büveyhîler Kazvin yakınında Merzübân'ı yenip esir aldı",
+   "yer": "Kazvin yakını",
+   "yer_id": "Kazvin",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0950-06-20",
+   "b": "Hacerülesved Karmatîler'den geri alınıp Mekke'ye getirildi",
+   "yer": "Mekke",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0951-01-01",
+   "b": "Muhammed b. Şeddâd Dvin’i alıp Şeddâdîler hânedanını kurdu",
+   "yer": "Dvin",
+   "yer_id": "Dvin",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0953-01-01",
+   "b": "Seyfüddevle Bizans'tan Maraş'ı geri aldı",
+   "yer": "Maraş",
+   "yer_id": "Maraş",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0954-08-28",
+   "b": "I. Nûh öldü; I. Abdülmelik Sâmânî emîri oldu",
+   "yer": "Buhara",
+   "yer_id": "Buhara",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0955-04-27",
+   "b": "Muhammed b. Şeddâd öldü",
+   "yer": "Dvin",
+   "yer_id": "Dvin",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0955-04-27",
+   "b": "Gence Sâlârîler (Müsâfirîler) hânedanı topraklarına katıldı; Arrân val",
+   "yer": "Gence",
+   "yer_id": "Gence",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0956-04-15",
+   "b": "Ebü'l-Heycâ Hüseyin Tebriz'e hâkim oldu; 961'de surla çevirip başşehir",
+   "yer": "Tebriz",
+   "yer_id": "Tebriz",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0961-02-20",
+   "b": "I. Abdülmelik öldü; kısa süren Nasr'ın ardından I. Mansûr b. Nûh tahta",
+   "yer": "Buhara",
+   "yer_id": "Buhara",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0963-01-01",
+   "b": "Ebû Ca‘fer Ahmed öldürüldü; oğlu Halef es-Saffâr Sîstan emîri oldu",
+   "yer": "Zerenc",
+   "yer_id": "Zerenc (Sîstan)",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0963-01-01",
+   "b": "Alp Tegin Levikler'i uzaklaştırıp Gazne'yi aldı: Gazneli Devleti'nin t",
+   "yer": "Gazne",
+   "yer_id": "Gazne",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0963-01-30",
+   "b": "Alp Tegin öldü; oğlu Ebû İshak İbrâhim Gazne'de geçti",
+   "yer": "Gazne",
+   "yer_id": "Gazne",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0963-02-08",
+   "b": "Muizzüddevle Bağdat'ta Âşûrâ matemini resmî törenle başlattı; Gadîr-i ",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0963-02-08",
+   "b": "Muizzüddevle Bağdat'ta Aşûrâ matemini emretti: Şiî-Sünnî gerilimi artt",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0965-01-07",
+   "b": "Nikephoros Phokas Misis ve Tarsus'u aldı: Çukurova Bizans'a geçti",
+   "yer": "Tarsus / Misis (Kilikya)",
+   "yer_id": "Tarsus",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0966-01-01",
+   "b": "Kâfûr Mısır'da resmen hükümdar oldu",
+   "yer": "Fustat (Mısır)",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0967-02-08",
+   "b": "Seyfüddevle Halep'te öldü; oğlu Sa'düddevle yerine geçti",
+   "yer": "Halep",
+   "yer_id": "Halep",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0967-04-01",
+   "b": "Muizzüddevle öldü; oğlu Bahtiyâr Büveyhî Irak emîri oldu",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0967-04-01",
+   "b": "Muizzüddevle Ahmed Bağdat'ta öldü; oğlu Bahtiyâr Irak emîri oldu",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0968-01-01",
+   "b": "Nikephoros Phokas Antakya'yı aldı",
+   "yer": "Antakya",
+   "yer_id": "Antakya",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0968-04-22",
+   "b": "Kâfûr öldü; çocuk yaştaki Ebü'l-Fevâris Ahmed'e biat edildi, İhşîdî de",
+   "yer": "Fustat (Mısır)",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0969-01-01",
+   "b": "Ca‘fer b. Muhammed Mekke'yi hâkimiyeti altına alıp Fâtımîler adına hut",
+   "yer": "Mekke",
+   "yer_id": "Mekke",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0969-01-01",
+   "b": "Nikephoros Phokas Halep'i yeniden istilâ etti; Hamdânîler şehri ancak ",
+   "yer": "Halep",
+   "yer_id": "Halep",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0969-01-02",
+   "b": "Hüseynîler Medine'ye yeniden hâkim oldu; Fâtımîler adına hutbe okuttu",
+   "yer": "Medine",
+   "yer_id": "Medine",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0969-07-06",
+   "b": "Cevher es-Sıkıllî Fustat'a girdi: Fâtımîler Mısır'ı İhşîdîler'den aldı",
+   "yer": "Fustat (Mısır)",
+   "yer_id": "Kahire",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0969-07-06",
+   "b": "Cevher es-Sıkıllî Kâhire şehrinin temelini attı",
+   "yer": "Fustat'ın kuzeyi (Kâhire)",
+   "yer_id": "Kahire",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0970-04-04",
+   "b": "Ezher Camii'nin temeli atıldı",
+   "yer": "Kâhire",
+   "yer_id": "Kahire",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0971-01-01",
+   "b": "Hasan el-A'sam önderliğindeki Karmatîler Dımaşk ve Remle'yi yeniden al",
+   "yer": "Dımaşk / Remle / Kahire",
+   "yer_id": "Şam",
+   "tip": "eski"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0971-01-01",
+   "b": "Halife Mutî‘, Büveyhîler'in desteklediği Bihistûn'a Taberistan, Cürcân",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0971-01-01",
+   "b": "Fazl b. Muhammed Gence’yi ele geçirdi; Müsâfirîler Şeddâdîler’i tanıma",
+   "yer": "Gence",
+   "yer_id": "Gence",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0972-01-01",
+   "b": "Saffârî Halef, yedi yıl süren Sâmânî seferleri sonunda Sâmânî adına hu",
+   "yer": "Sîstan",
+   "yer_id": "Zerenc (Sîstan)",
+   "tip": "paran"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0973-01-01",
+   "b": "Muiz-Lidînillâh Mısır'a gelip Kâhire'ye ulaştı: Fâtımî hilâfetinin mer",
+   "yer": "Kâhire",
+   "yer_id": "Kahire",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0974-08-05",
+   "b": "Mutî'-Lillâh Sebük Tegin'in isteğiyle hilâfeti oğlu Tâi'-Lillâh'a bıra",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0975-01-01",
+   "b": "Adudüddevle Bahtiyâr'a yardım bahanesiyle Türk askerlerini yenip Bağda",
+   "yer": "Bağdat",
+   "yer_id": "Bağdat",
+   "tip": "ad"
+  },
+  {
+   "dosya": "kronoloji_cok_ms1_1000_ortadogu.js",
+   "t": "0975-09-10",
+   "b": "Hamdânîler Halep'i Bizans'tan geri aldı",
+   "yer": "Halep",
+   "yer_id": "Halep",
+   "tip": "ad"
+  }
+ ]
+}

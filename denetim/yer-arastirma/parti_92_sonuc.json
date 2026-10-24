@@ -1,0 +1,668 @@
+{
+ "parti": 92,
+ "sonuclar": [
+  {
+   "ad": "Afyonkarahisar",
+   "durum": "cift_tanik",
+   "lat": 38.7567,
+   "lon": 30.538,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Afyonkarahisar",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7685876",
+     "lat": 38.75671,
+     "lon": 30.531561,
+     "not": "Afyon Kalesi"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/325303",
+     "lat": 38.75667,
+     "lon": 30.54333,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Modern şehir; TDV Afyonkarahisar maddesi var. UYARI: 838 Amorion maddesi Hisarköy'e (39.02N 31.29E) ait, bu koordinat o maddeye BAĞLANMAMALI; 1277 İnançoğlu maddesi için uygun."
+  },
+  {
+   "ad": "Kaliningrad",
+   "durum": "cift_tanik",
+   "lat": 54.69,
+   "lon": 20.51,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kaliningrad (Königsberg)",
+   "ulke_modern": "Rusya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7013050",
+     "lat": 54.6667,
+     "lon": 20.5,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/554234",
+     "lat": 54.70639,
+     "lon": 20.51102,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Königsberg 1255 = bugünkü Kaliningrad; TGN ve GeoNames ~4 km içinde. DAI Königsberg 2090364 de 54.7065,20.5110 (aynı aile)."
+  },
+  {
+   "ad": "Kâlincar",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7571083",
+     "lat": 25.00064,
+     "lon": 80.485195,
+     "not": "Kalinjar Fort"
+    }
+   ],
+   "hesap": "",
+   "not": "Kalinjar Kalesi (Banda, UP, Hindistan) TGN 7571083: 25.00064,80.485195 tek tanık; ikinci bağımsız kaynak bulunamadı."
+  },
+  {
+   "ad": "Lorraine",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Lotharingia/Lorraine bölgesi (Doğu Fransa); nokta yok. GeoNames Kanada kaydı yanlış."
+  },
+  {
+   "ad": "İdil",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Volga nehri / İdil Bulgar ülkesi; nokta yok."
+  },
+  {
+   "ad": "Kūmis",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Kūmis (Qumis) bölge adı (Damgan-Semnan çevresi); Pleiades 942260 bölge temsilcisi, şehir değil."
+  },
+  {
+   "ad": "Vengi",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Vengi: Krishna-Godavari arası Doğu Çalukya ülkesi (başkent Vengipura/Pedda Vegi); bölge."
+  },
+  {
+   "ad": "Burma",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Ülke/bölge adı (Myanmar)."
+  },
+  {
+   "ad": "Hoa Lu",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/1571968",
+     "lat": 20.25809,
+     "lon": 105.97965,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "GeoNames 1571968 (20.25809,105.97965) tek tanık; TGN/DAI yalnız Ninh Binh şehri (20.25,105.9833 / 20.2506,105.9745) verir, Hoa Lu adı vermez; ikinci bağımsız kaynak yok."
+  },
+  {
+   "ad": "Dumbarton",
+   "durum": "cift_tanik",
+   "lat": 55.945,
+   "lon": -4.569,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Dumbarton (Alt Clut kayası)",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1050618",
+     "lat": 55.95,
+     "lon": -4.566667,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2650752",
+     "lat": 55.94433,
+     "lon": -4.57061,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Strathclyde başkenti Alt Clut = Dumbarton Kayası; iki kayıt ~1 km."
+  },
+  {
+   "ad": "Petra",
+   "durum": "cift_tanik",
+   "lat": 30.329,
+   "lon": 35.443,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Petra",
+   "ulke_modern": "Ürdün",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/777218559 (Great Temple of Petra)",
+     "lat": 30.328813,
+     "lon": 35.442349,
+     "not": "Roma tiyatrosu 30.3248,35.4469"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "gazetteer.dainst.org/place/2281717",
+     "lat": 30.329413,
+     "lon": 35.442813,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Arabia Petraea/Ghassânî bağlamı Ürdün Petra'sı; Pleiades ana 'Petra' kaydı 697725 (30.345,35.383) kaba, tesis kayıtları kullanıldı. TDV Aynimûsâ: Petra harabelerinin doğusu (kimlik)."
+  },
+  {
+   "ad": "Talas",
+   "durum": "cift_tanik",
+   "lat": 42.9,
+   "lon": 71.37,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Taraz (Cambul/Evliya-Ata)",
+   "ulke_modern": "Kazakistan",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7016637",
+     "lat": 42.9,
+     "lon": 71.366,
+     "not": "Taraz"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/1538317 (Taraz)",
+     "lat": 42.89799,
+     "lon": 71.37334,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "TDV Talas Savaşı: 'Talas (Tarâz) nehri kıyısında (bugünkü Evliyaata'nın doğusunda)'; 893 Sâmânî seferi Talas/Tarâz şehrine. Diğer Talas adayları reddedildi."
+  },
+  {
+   "ad": "Barbastro",
+   "durum": "cift_tanik",
+   "lat": 42.0357,
+   "lon": 0.1275,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Barbastro",
+   "ulke_modern": "İspanya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1061813",
+     "lat": 42.035573,
+     "lon": 0.127019,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3128795",
+     "lat": 42.03565,
+     "lon": 0.12686,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Koordinatlar neredeyse aynı; iki veritabanı farklı kayıt (aynı kaynaktan türemiş olabilir)."
+  },
+  {
+   "ad": "Zhongxing",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1073544",
+     "lat": 38.468056,
+     "lon": 106.273056,
+     "not": "Yinchuan"
+    }
+   ],
+   "hesap": "",
+   "not": "Batı Xia başkenti Zhongxingfu = Yinchuan (TGN 1073544: 38.468056,106.273056) fakat Zhongxing=Yinchuan özdeşliğini veren ikinci bağımsız kaynak çekilemedi."
+  },
+  {
+   "ad": "Mahoba",
+   "durum": "cift_tanik",
+   "lat": 25.291,
+   "lon": 79.874,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Mahoba",
+   "ulke_modern": "Hindistan",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1076134",
+     "lat": 25.292219,
+     "lon": 79.872312,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/1264359",
+     "lat": 25.2905,
+     "lon": 79.87533,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Çandela şehri; iki kayıt ~0.3 km."
+  },
+  {
+   "ad": "Sui",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Sui hanedanı (581-618)."
+  },
+  {
+   "ad": "Badami",
+   "durum": "cift_tanik",
+   "lat": 15.916,
+   "lon": 75.68,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Badami (Vatapi)",
+   "ulke_modern": "Hindistan",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1074491",
+     "lat": 15.916667,
+     "lon": 75.683333,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/1278017",
+     "lat": 15.91495,
+     "lon": 75.67683,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Badami Çalukya başkenti Vatapi; iki kayıt ~0.7 km."
+  },
+  {
+   "ad": "Yanmen",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Yanmen Geçidi/komutanlığı kuzey Şanşi (~39N 112-113E) ama TGN'de Yanmen kayıtları yanlış yerlerde; kaynaklı koordinat bulunamadı."
+  },
+  {
+   "ad": "Jiangdu",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001999",
+     "lat": 32.397222,
+     "lon": 119.435833,
+     "not": "Yangzhou"
+    }
+   ],
+   "hesap": "",
+   "not": "Jiangdu = Yangzhou (Jiangsu) olası: TGN 7001999 32.397222,119.435833 ve GeoNames 32.39722,119.43583 aynı değer (tek veri ailesi); Jiangdu=Yangzhou özdeşliğini veren bağımsız kaynak çekilemedi."
+  },
+  {
+   "ad": "Yamato",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Yamato eyaleti/ülkesi (Nara havzası); bölge adı."
+  },
+  {
+   "ad": "Atlah",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "TDV",
+     "url_veya_atif": "islamansiklopedisi.org.tr/talas-savasi",
+     "lat": null,
+     "lon": null,
+     "not": "Evliyaata doğusu"
+    }
+   ],
+   "hesap": "",
+   "not": "TDV Talas Savaşı: 'Talas nehri kıyısındaki Atlah mevkii', Talas(Tarâz)/Evliyaata'nın doğusu - sayısal koordinat yok, tek tanık. Taraz yaklaşık 42.9N 71.37E ama mevki kesin değil."
+  },
+  {
+   "ad": "Kalyani",
+   "durum": "cift_tanik",
+   "lat": 17.878,
+   "lon": 76.95,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Basavakalyan (Kalyani)",
+   "ulke_modern": "Hindistan",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6002926",
+     "lat": 17.8833,
+     "lon": 76.95,
+     "not": "Kalyani, Karnataka"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/1277339 (Basavakalyan)",
+     "lat": 17.87445,
+     "lon": 76.94972,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Batı Çalukya başkenti Kalyani = Basavakalyan (Bidar); Bengal'deki Kalyani (22.98N) reddedildi."
+  },
+  {
+   "ad": "Agaune",
+   "durum": "cift_tanik",
+   "lat": 46.213,
+   "lon": 7.005,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Saint-Maurice (Agaunum)",
+   "ulke_modern": "İsviçre",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7544518",
+     "lat": 46.208435,
+     "lon": 7.006196,
+     "not": "Saint Maurice, Valais"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2658051 (Saint-Maurice VS)",
+     "lat": 46.21826,
+     "lon": 7.0032,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Agaunum = Saint-Maurice d'Agaune (Valais). TGN'nin ikinci kaydı (7007300) GeoNames ile birebir aynı; bağımsızlık sınırlı."
+  },
+  {
+   "ad": "Canterbury",
+   "durum": "cift_tanik",
+   "lat": 51.28,
+   "lon": 1.08,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Canterbury",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1100072",
+     "lat": 51.2833,
+     "lon": 1.0833,
+     "not": "Canterbury Cathedral"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "gazetteer.dainst.org/place/2087953",
+     "lat": 51.27904,
+     "lon": 1.07992,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Kent, Augustinus başpiskoposluğu; modern Canterbury."
+  },
+  {
+   "ad": "Pliska",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/728199",
+     "lat": 43.36667,
+     "lon": 27.11667,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "GeoNames 728199 (43.36667,27.11667) tek tanık; DAI 2066850 koordinatsız, TGN'de yok."
+  },
+  {
+   "ad": "Simancas",
+   "durum": "cift_tanik",
+   "lat": 41.585,
+   "lon": -4.82,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Simancas",
+   "ulke_modern": "İspanya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/4010455",
+     "lat": 41.583333,
+     "lon": -4.816667,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3109081",
+     "lat": 41.59072,
+     "lon": -4.82796,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "939 Simancas Muharebesi; Valladolid'deki Simancas (Madrid'deki aday reddedildi)."
+  },
+  {
+   "ad": "Meşan",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Meşan (Mesene/Karakene) krallık/bölge adı, Şattülarap çevresi; GeoNames Etiyopya kaydı yanlış."
+  },
+  {
+   "ad": "Palmira",
+   "durum": "cift_tanik",
+   "lat": 34.553,
+   "lon": 38.266,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Palmyra (Tedmür)",
+   "ulke_modern": "Suriye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/668331",
+     "lat": 34.552809,
+     "lon": 38.264867,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7018835",
+     "lat": 34.553,
+     "lon": 38.268,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "gazetteer.dainst.org/place/2281530",
+     "lat": 34.56077,
+     "lon": 38.28055,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Üç kayıt ~2 km içinde."
+  },
+  {
+   "ad": "Mansûriye",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "gazetteer.dainst.org/place/2770960",
+     "lat": 35.658056,
+     "lon": 10.113889,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Fâtımî Mansûriye (Sabra al-Mansûriyye, Kayrevan yakını): DAI 2770960 35.658056,10.113889 tek sayısal tanık; TDV'de başlık yok; ikinci bağımsız kaynak bulunamadı."
+  },
+  {
+   "ad": "Gnezno",
+   "durum": "cift_tanik",
+   "lat": 52.534,
+   "lon": 17.55,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Gniezno",
+   "ulke_modern": "Polonya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7007717",
+     "lat": 52.5333,
+     "lon": 17.5333,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3099112",
+     "lat": 52.53481,
+     "lon": 17.58259,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Fark ~3 km (TGN'nin kaba derece-dakika değeri)."
+  }
+ ]
+}

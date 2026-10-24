@@ -75,6 +75,8 @@ def arastirma():
         if n.startswith("2-") or n.startswith("3-"):
             continue
         d = json.load(open(f, encoding="utf-8"))
+        if "kayitlar" not in d:
+            continue
         for r in d["kayitlar"]:
             out[r["id"]] = r
     return out
@@ -95,7 +97,7 @@ def olaylar_mo():
             continue                       # bu betiğin KENDİ çıktısı
         s = open(f, encoding="utf-8").read()
         m = re.search(r"=\s*(\[.*\])\s*;?\s*$", s, re.S)
-        ev += [(o["t"], " ".join(str(o.get(a) or "") for a in ("b", "yer", "d")).lower()) for o in json.loads(m.group(1))]
+        ev += [(o["t"], " ".join(str(o.get(a) or "") for a in ("b", "yer")).lower()) for o in json.loads(m.group(1))]
     return ev
 
 
@@ -143,6 +145,18 @@ NEW = {
  "turkana-pastoral-neolitik": dict(ad="Turkana Pastoral Neolitiği ('pillar sites' geleneği)", bolge="dogu-afrika", uyeler=["lothagam-north-turkana"]),
  "shaheinab-neolitik": dict(ad="Shaheinab Neolitiği (Orta Sudan)", bolge="misir-sudan", uyeler=["esh-shaheinab"]),
  "khok-phanom-di-neolitik": dict(ad="Khok Phanom Di Neolitiği (Orta Tayland kıyısı)", bolge="guneydogu-asya", uyeler=["khok-phanom-di"]),
+ "casma-sechin": dict(ad="Casma Vadisi Geç Arkaik–Formatif toplulukları (Sechín Bajo, Cerro Sechín, Sechín Alto)", bolge="guney-amerika", uyeler=["sechin-bajo", "cerro-sechin", "sechin-alto"]),
+ "paracas-kultur": dict(ad="Paracas Kültürü (Ica, Güney Peru kıyısı)", bolge="guney-amerika", uyeler=["paracas-kulturu-ica"]),
+ "oaxaca-formatif": dict(ad="Oaxaca Vadisi Formatif köyleri (San José Mogote, Rosario evresine dek)", bolge="orta-amerika", uyeler=["san-jose-mogote-ilk-koy-ve-terk"]),
+ "la-blanca-formatif": dict(ad="La Blanca (Pasifik kıyısı Guatemala) Orta Formatif anıtsal merkez", bolge="orta-amerika", uyeler=["la-blanca-san-marcos-conchas"]),
+ "kaminaljuyu-providencia": dict(ad="Kaminaljuyú Providencia evresi", bolge="orta-amerika", uyeler=["kaminaljuyu-providencia-fazi"]),
+ "tonga-lapita": dict(ad="Tonga Lapita iskânı (Nukuleka)", bolge="okyanusya", uyeler=["nukuleka-tonga-lapita"]),
+ "monte-verde-kultur": dict(ad="Monte Verde II (Güney Şili, Pleistosen sonu yerleşimi)", bolge="guney-amerika", uyeler=["monte-verde-ii"]),
+ "gobero-kultur": dict(ad="Gobero Holosen yerleşimi (Kiffian–Tenerian, Ténéré)", bolge="sahra", uyeler=["gobero-nijer"]),
+ "anau-ia-kultur": dict(ad="Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ)", bolge="orta-asya", uyeler=["anau-ia-meana"]),
+ "yuchanyan-kultur": dict(ad="Yuchanyan Mağarası toplulukları (Hunan)", bolge="dogu-asya", uyeler=["yuchanyan-magarasi"]),
+ "ban-chiang-kultur": dict(ad="Ban Chiang Kültürü (Kuzeydoğu Tayland)", bolge="guneydogu-asya", uyeler=["ban-chiang"]),
+ "bhirrana-hakra": dict(ad="Bhirrana / Hakra evresi (Haryana, Harappa öncesi)", bolge="guney-asya", uyeler=["bhirrana"]),
  "guney-hint-neolitik-megalitik": dict(ad="Güney Hint Neolitiği → Megalitik geçiş (Sanganakallu-Kupgal)", bolge="guney-asya", uyeler=["sanganakallu-kupgal"]),
 }
 
@@ -181,17 +195,31 @@ TABLO = {
  "caral": ["caral-norte-chico"], "chavin-de-huantar": ["chavin"], "poverty-point": ["poverty-point-kultur"],
  "san-lorenzo-tenochtitlan": ["olmek"], "la-venta": ["olmek"],
  "nakbe": ["maya-orta-preklasik"], "el-mirador": ["maya-orta-preklasik"], "aguada-fenix": ["maya-orta-preklasik"],
+ "sechin-bajo": ["casma-sechin"], "cerro-sechin": ["casma-sechin"], "sechin-alto": ["casma-sechin"], "paracas-kulturu-ica": ["paracas-kultur"],
+ "san-jose-mogote-ilk-koy-ve-terk": ["oaxaca-formatif"], "la-blanca-san-marcos-conchas": ["la-blanca-formatif"],
+ "kaminaljuyu-providencia-fazi": ["kaminaljuyu-providencia"], "nukuleka-tonga-lapita": ["tonga-lapita"],
+ "dholavira": ["erken-harappa", "harappa", "gec-harappa"], "lothal": ["harappa", "gec-harappa"],
+ "banpo-yerlesimi-3": ["yangshao"], "jiangzhai-yerlesimi-3": ["yangshao"], "hierakonpolis-hk11c-iskan": ["naqada-kultur"],
+ "monte-verde-ii": ["monte-verde-kultur"], "gobero-nijer": ["gobero-kultur"], "anau-ia-meana": ["anau-ia-kultur"],
+ "yuchanyan-magarasi": ["yuchanyan-kultur"], "ban-chiang": ["ban-chiang-kultur"], "bhirrana": ["bhirrana-hakra", "erken-harappa", "harappa"],
+ "rakhigarhi": ["erken-harappa", "harappa", "gec-harappa"], "ceibal-guatemala": ["maya-orta-preklasik"],
+ "napata": ["kush-krallik"], "meroe-donemi-kush": ["kush-krallik"],
  "monte-alban": ["zapotek-monte-alban"], "teotihuacan-baslangic": ["teotihuacan"], "kotosh-dini-gelenegi": ["kotosh-dini-gelenek"],
 }
 GRUP = {  # site → dosya grubu
  "levant-anadolu": ["ain-mallaha", "eriha", "kfar-hahoresh", "ain-ghazal", "baja", "abu-hureyra", "mureybet", "nevali-cori", "cayonu-tepesi", "hallan-cemi",
                     "jerf-el-ahmar", "gobekli-tepe", "asikli-hoyuk", "catalhoyuk", "boncuklu-konya", "halaf-kulturu"],
- "iran-asya": ["jeitun", "tepe-hissar", "tepe-yahya", "mehrgarh", "harappa", "sanganakallu-kupgal", "khok-phanom-di"],
- "dogu-asya": ["jiahu", "hemudu-kulturu", "liangzhu-kulturu", "kuahuqiao-kulturu", "dadiwan", "taosi", "shimao", "erlitou-2-liton-arkeolojik", "sanxingdui-medeniyet", "yinxu-anyang"],
+ "iran-asya": ["jeitun", "tepe-hissar", "tepe-yahya", "mehrgarh", "harappa", "sanganakallu-kupgal", "khok-phanom-di", "dholavira", "lothal", "anau-ia-meana", "ban-chiang", "bhirrana", "rakhigarhi"],
+ "dogu-asya": ["jiahu", "hemudu-kulturu", "liangzhu-kulturu", "kuahuqiao-kulturu", "dadiwan", "taosi", "shimao", "erlitou-2-liton-arkeolojik", "sanxingdui-medeniyet", "yinxu-anyang",
+               "banpo-yerlesimi-3", "jiangzhai-yerlesimi-3", "yuchanyan-magarasi"],
  "avrupa": ["lepenski-vir", "vinca-belo-brdo", "skara-brae", "xaghra-brochtorff-circle", "los-millares", "el-argar", "szederkeny-kukorica-dulo"],
- "afrika": ["naqada-kulturu", "esh-shaheinab", "lothagam-north-turkana"],
+ "afrika": ["naqada-kulturu", "esh-shaheinab", "lothagam-north-turkana", "hierakonpolis-hk11c-iskan", "gobero-nijer", "napata", "meroe-donemi-kush"],
  "amerika": ["caral", "chavin-de-huantar", "poverty-point", "san-lorenzo-tenochtitlan", "la-venta", "nakbe", "el-mirador", "aguada-fenix", "monte-alban",
-             "teotihuacan-baslangic", "kotosh-dini-gelenegi"],
+             "teotihuacan-baslangic", "kotosh-dini-gelenegi", "monte-verde-ii", "ceibal-guatemala"],
+ # BOYALAR girişi henüz OLMAYAN yeni künyelerin noktaları (casma-sechin, paracas-kultur, oaxaca-formatif, la-blanca-formatif, kaminaljuyu-providencia, tonga-lapita):
+ # ayrı dosya → girdi/index'e BAĞLANMAZ (denetle_yayin BEKLEYEN); MO-MOTOR boya yazınca: py denetim/arkeoloji_girdi_cikar_1020.py ekle yerlesimler_mo_boya_bekleyen.js
+ "boya-bekleyen": ["sechin-bajo", "cerro-sechin", "sechin-alto", "paracas-kulturu-ica", "san-jose-mogote-ilk-koy-ve-terk",
+                   "la-blanca-san-marcos-conchas", "kaminaljuyu-providencia-fazi", "nukuleka-tonga-lapita"],
 }
 AD = {  # görünen ad (yerel/yaygın), yoksa sehir_tarihce adı
  "teotihuacan-baslangic": "Teotihuacan", "cayonu-tepesi": "Çayönü Tepesi", "boncuklu-konya": "Boncuklu Höyük", "halaf-kulturu": "Tell Halaf",
@@ -203,20 +231,29 @@ AD = {  # görünen ad (yerel/yaygın), yoksa sehir_tarihce adı
  "dadiwan": "Dadiwan", "ain-ghazal": "Ain Ghazal", "tepe-hissar": "Tepe Hissar", "tepe-yahya": "Tepe Yahya", "chavin-de-huantar": "Chavín de Huántar",
  "monte-alban": "Monte Albán", "caral": "Caral", "la-venta": "La Venta", "aguada-fenix": "Aguada Fénix", "el-mirador": "El Mirador",
  "poverty-point": "Poverty Point", "mehrgarh": "Mehrgarh", "harappa": "Harappa", "jiahu": "Jiahu", "jeitun": "Jeitun", "sanganakallu-kupgal": "Sanganakallu-Kupgal",
- "khok-phanom-di": "Khok Phanom Di", "taosi": "Taosi", "shimao": "Shimao", "el-argar": "El Argar", "skara-brae": "Skara Brae",
+ "paracas-kulturu-ica": "Paracas", "san-jose-mogote-ilk-koy-ve-terk": "San José Mogote", "la-blanca-san-marcos-conchas": "La Blanca",
+ "kaminaljuyu-providencia-fazi": "Kaminaljuyú", "nukuleka-tonga-lapita": "Nukuleka",
+ "khok-phanom-di": "Khok Phanom Di", "monte-verde-ii": "Monte Verde", "gobero-nijer": "Gobero", "anau-ia-meana": "Anau", "yuchanyan-magarasi": "Yuchanyan", "ban-chiang": "Ban Chiang", "bhirrana": "Bhirrana", "rakhigarhi": "Rakhigarhi", "ceibal-guatemala": "Ceibal", "napata": "Napata (Cebel Barkal)", "meroe-donemi-kush": "Meroe", "taosi": "Taosi", "shimao": "Shimao", "el-argar": "El Argar", "skara-brae": "Skara Brae",
 }
 
 
 # ───────────────────────────── çekirdek
 BIT_EK = {   # kaynaklı ama sehir_tarihce'de bulunmayan bitişler: site → (iso, etiket)
+    "anau-ia-meana": ("-3819-01-01", "olay", "Heit 2019, Looking Closely cilt 1: 'Anau Ia is dated 4300-3820 cal BCE' — EVRE SONU (yerleşim terk edilmedi, Anau Ib'ye geçti); ARASTIRMA7-bitis.json"),
+    "lothagam-north-turkana": ("-2203-01-01", "olay", "Hildebrand vd. 2018 PNAS: platform kullanımı sonu 4154 cal BP = MÖ 2204 (BP-1950); ARASTIRMA7-bitis.json"),
+    "kotosh-dini-gelenegi": ("-0549-01-01", "olay", "Mesia-Montenegro & Sánchez-Borjas 2023 Antiquity: 'Late Archaic and Formative periods (2800–550 BC)' — DÖNEM TOPLAMI sonu (geleneğin hâkim olduğu dönemin sonu; sitenin kendi terk tarihi DEĞİL; yalnız Cambridge özet sayfasından okundu); ARASTIRMA7-bitis.json"),
+    "ban-chiang": ("0001-01-01", "olay", "Higham, Douka & Higham 2015 PLoS ONE (PMC4575132): 'Two burials from the late Iron Age are dated to the first two centuries AD' — SON TARİHLİ KANIT (terk yılı kaynakta yok), alt sınır MS 1; ARASTIRMA7-bitis.json"),
     "mehrgarh": ("-4723-01-01", "olay"),   # Mutin vd. 2025: Dönem I mezarlığı 4769–4679 cal BCE'de sona erdi (orta nokta MÖ 4724; denetim/arastirma/2-hint-guneydogu.json)
 }
+
+
+BIT_NOT = {k: v[2] for k, v in BIT_EK.items() if len(v) > 2}
 
 
 def site_bit(y, r):
     """(bit_t, etiket) ya da (None, None). Öncelik: sehir_tarihce bit → araştırma kur bloğunun dönem-sonu."""
     if y["id"] in BIT_EK:
-        return BIT_EK[y["id"]]
+        return BIT_EK[y["id"]][:2]
     if y.get("bit"):
         return y["bit"]["t"], "olay"
     kur = (r or {}).get("kur") or {}
@@ -310,7 +347,7 @@ def main():
                     gecis.append((uc_, ad, sg["d"], tip_, y["ad"]))
             notm = ("MÖ ARKEOLOJİ KAYDI (21 Ekim 2026). kur: KURULUŞ DEĞİL, İLK TARİHLİ KANIT (%s; %s). " % (y["ilk"]["gun"], y["ilk"]["nicelik"]) +
                     ("bit: TÜRETİLMİŞ = sahip künyenin sonu (ölçüm/terk günü DEĞİL). " if turetilmis else
-                     ("bit: kaynak bitişi (%s). " % (y["bit"]["gun"] if y.get("bit") else "Mutin vd. 2025: Dönem I mezarlığı 4769–4679 cal BCE'de sona erdi; orta nokta MÖ 4724") if bit_et == "olay" else "bit: kaynaktaki kur bloğunun dönem-sonu ucu (dönem toplamı). ")) +
+                     ("bit: kaynak bitişi (%s). " % (y["bit"]["gun"] if y.get("bit") else (BIT_NOT.get(sid) or "Mutin vd. 2025: Dönem I mezarlığı 4769–4679 cal BCE'de sona erdi; orta nokta MÖ 4724")) if bit_et == "olay" else "bit: kaynaktaki kur bloğunun dönem-sonu ucu (dönem toplamı). ")) +
                     "Koordinat: %s " % y["konum_teyit"][:300] + "Sahiplik: kültür künyesi (sahip kavramı yok); bos:'veri-yok'. Kaynak/alıntı/uç aralıkları: olaylar_arkeoloji_*.js ic_not_d ve denetim/arastirma/*.json.")
             rec = dict(ad=ad, tur="sehir", lat=y["lat"], lon=y["lon"], g=0, k=0, kur=kur_t, bit=bit_t,
                        kesinlik={"f": y["ilk"]["kesinlik"], "t": (y["bit"]["kesinlik"] if y.get("bit") else "belirsiz")},
@@ -364,14 +401,15 @@ def main():
     havuz = [(o, f) for f, (_, L) in dosyalar.items() for o in L]
 
     def metin(o):
-        return " ".join(str(o.get(a) or "") for a in ("b", "yer", "d")).lower()
+        return " ".join(str(o.get(a) or "") for a in ("b", "yer")).lower()
 
     for (t, ad, kid, tip, tamad) in sorted(set(gecis)):
         sozc = {w for w in re.sub(r"[^\wçğıöşü]", " ", (ad + " " + tamad).lower()).split() if len(w) >= 4} or {tamad.lower()}
-        yakin = [(o, f) for (o, f) in havuz if abs(gun_no(t) - gun_no(o["t"])) <= 31]
+        yakin = [(o, f) for (o, f) in havuz if abs(gun_no(t) - gun_no(o["t"])) <= 27]    # denetle 2s penceresi ±30 gün (31 değil)
         if any(re.search(r"(?<!\w)" + re.escape(w) + r"(?!\w)", metin(o)) for (o, f) in yakin for w in sozc):
             continue                                       # ±30 günde YERİ anan madde zaten var
-        if yakin:                                          # madde var ama yeri anmıyor → o maddenin `yer`ine nokta adı eklenir (yeni mükerrer madde AÇILMAZ)
+        yakin = [(o, f) for (o, f) in yakin if gun_no(o["t"]) == gun_no(t)]    # yalnız AYNI gün: ilgisiz komşu maddenin yer alanı şişirilmez
+        if yakin:                                          # aynı gün madde var ama yeri anmıyor → o maddenin `yer`ine nokta adı eklenir (yeni mükerrer madde AÇILMAZ)
             o, f = min(yakin, key=lambda of: abs(gun_no(t) - gun_no(of[0]["t"])))
             o["yer"] = ((o.get("yer") or "") + " / " + tamad).strip(" /")
             kirli.add(f)

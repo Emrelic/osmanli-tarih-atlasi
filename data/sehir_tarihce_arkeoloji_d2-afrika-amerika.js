@@ -1,6 +1,60 @@
 // ŞEHİR TARİHÇESİ — ARKEOLOJİ d2-afrika-amerika · üretici denetim/arkeoloji_uret_1020.py · motor/denetle/site OKUMAZ
 window.SEHIR_TARIHCE_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
  {
+  "id": "gobero-nijer",
+  "ad": "Gobero (Tenere cemberi, Nijer)",
+  "atlas_ad": null,
+  "lat": 16.915,
+  "lon": 9.4961,
+  "kat1900": 3,
+  "adlar": [
+   "Gobero (Tenere cemberi, Nijer)",
+   "Gobero"
+  ],
+  "konum_teyit": "KOORDİNAT TEYİTLİ 20 Ekim 2026: Wikidata Q849269 (P625) https://www.wikidata.org/wiki/Q849269 (16.9150,9.4961) ↔ Pleiades 218046074 https://pleiades.stoa.org/places/218046074 (17.0833,9.5167) · Koordinat YER-TANIMA devrinden (5-mo-devir.json, 21 Ekim 2026), ≥2 bağımsız tanık; seçilen nokta 16.9150,9.4961. İki tanık 19 km ayrışıyor: Pleiades kaba (Ténéré Çemberi) noktası; Wikidata Sereno 2008 kazı alanıyla uyumlu (~16°55'K 9°30'D). Wikidata önerilir",
+  "ilk": {
+   "t": "-7699-01-01",
+   "gun": "MÖ 7700 (ALT SINIR; donem-toplami MÖ 7700–6200)",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Sereno vd. 2008, Lakeside cemeteries in the Sahara: 5000 years of Holocene population and environmental change, PLoS ONE 3(8):e2995, Faz 2 'Early Holocene Occupation', Tablo 2 (Cal BC 95%); kalibre 14C, OSL tarihleri ayri (kalibre degil)",
+   "kaynak_turu": "arkeoloji"
+  },
+  "kur": null,
+  "ark": {
+   "t": "-7699-01-01",
+   "gun": "MÖ 7700 (ALT SINIR; donem-toplami MÖ 7700–6200)",
+   "kesinlik": "yuzyil",
+   "kaynak": "Sereno vd. 2008, Lakeside cemeteries in the Sahara: 5000 years of Holocene population and environmental change, PLoS ONE 3(8):e2995, Faz 2 'Early Holocene Occupation', Tablo 2 (Cal BC 95%); kalibre 14C, OSL tarihleri ayri (kalibre degil)"
+  },
+  "bit": {
+   "t": "-2834-01-01",
+   "gun": "MÖ 2910–2760 arası (orta nokta MÖ 2835)",
+   "kesinlik": "yuzyil",
+   "kaynak": "Sereno vd. 2008, PLoS ONE 3(8):e2995, Tablo 2, tarih no 25 (en genc Tenerean gomu, enamel P-593, 4250±40 BP): 2910-2760 cal BC (orta nokta 2835)"
+  },
+  "sahip": [
+   {
+    "f": "-7699-01-01",
+    "t": "-2834-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Sereno vd. 2008, Lakeside cemeteries in the Sahara: 5000 years of Holocene population and environmental change, PLoS ONE 3(8):e2995, Faz 2 'Early Holocene Occupation', Tablo 2 (Cal BC 95%); kalibre 14C, OSL tarihleri ayri (kalibre degil)",
+    "ic_not": "Devlet öncesi/kültür dönemi: siyasî sahip kavramı YOK → __BOSLUK__ = «sahip kavramı henüz yok», «kültürsüz» DEĞİL. bos:\"veri-yok\" (veri yok ≠ kimse yok; MÖ katmanı beyanı). Kaynaktaki kültür/dönem adı: Kiffian (Erken Holosen) ve Tenerean (Orta Holosen)."
+   },
+   {
+    "f": "-2834-01-01",
+    "t": "1900-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "Bu bölge oturumunun penceresi dışı: yerin sonraki durumu ARAŞTIRILMADI — uydurma süreklilik/kesinti yazılmaz."
+   }
+  ],
+  "olay": [],
+  "ic_not": "donem-toplami aralığı (MÖ 7700–6200) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı."
+ },
+ {
   "id": "kerma-ancien",
   "ad": "Eski Kerma (Kerma Ancien)",
   "atlas_ad": null,

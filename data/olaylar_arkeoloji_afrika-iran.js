@@ -2,6 +2,9 @@
 // Girdi: denetim/arastirma/afrika-iran.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
  {
+  "odak_yer": [
+   "Cenne"
+  ],
   "t": "-0299-01-01",
   "k": "kurulus",
   "b": "Cenne-Ceno (Jenne-jeno): başlar",
@@ -21,7 +24,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "k": "fetih",
   "b": "Babil'in Kyros'a geçişi: başlar",
   "gun": "MÖ 539",
-  "yer": "Bābili / Sippar / Uruk / Ur / Ur / Ur / Ur",
+  "yer": "Bābili / Sippar / Uruk / Ur",
   "d": "Nabonidus'un 17. yilinda (539/538) Ugbaru ve Kyros'un ordusu savassiz Babil'e girer; Kyros 3 Arahsamna'da sehre girer.",
   "kaynak": "Grayson, ABC 7 (Nabonidus Chronicle), col. iii.18; Livius.org · https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
   "kesinlik": "yil",
@@ -31,10 +34,11 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
  },
  {
   "t": "-0549-01-01",
+  "yer_id": "Hemedan",
   "k": "fetih",
   "b": "Ekbatana (Hamedan): Kyros'un Med başkentini alması: başlar",
   "gun": "MÖ 550",
-  "yer": "Ecbatana / Hagmatāna",
+  "yer": "Ecbatana / Hagmatāna / Kotosh Dini Gelenegi (Kotosh, Peru) / Hemedan",
   "d": "Nabonidus'un 6. yilinda (MO 550/549) Kyros, Med kralinin 'kral sehri' Ekbatana'ya yurur; Med devletinin Kyros'a gecisi ve Ahamenis imparatorlugunun kurulus tarihi olarak 550 gelenegi bu kayda dayanir.",
   "kaynak": "Grayson AK, Assyrian and Babylonian Chronicles (ABC 7, Nabonidus Chronicle), col. ii.3; Livius.org'daki gozden gecirilmis ceviri · https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
   "kesinlik": "yil",

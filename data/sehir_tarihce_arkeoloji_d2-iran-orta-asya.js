@@ -210,5 +210,54 @@ window.SEHIR_TARIHCE_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   ],
   "olay": [],
   "ic_not": "ARALIK→ORTA NOKTA: MÖ 6214–5985 (kaynağın verdiği uçlar); orta nokta MÖ 6099 = astronomik -6098. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95."
+ },
+ {
+  "id": "anau-ia-meana",
+  "ad": "Anau IA ve Meana Ufku (Kopet Dağ, İlk Kalkolitik)",
+  "atlas_ad": null,
+  "lat": 37.8977,
+  "lon": 58.5287,
+  "kat1900": 3,
+  "adlar": [
+   "Anau IA ve Meana Ufku (Kopet Dağ, İlk Kalkolitik)",
+   "Anau IA / Meana Horizon"
+  ],
+  "konum_teyit": "KOORDİNAT TEYİTLİ 20 Ekim 2026: Wikidata Q2845669 (Anau) (P625) https://www.wikidata.org/wiki/Q2845669 (Anau) (37.8976,58.5287) ↔ OSM Nominatim Änew https://nominatim.openstreetmap.org/ (37.9022,58.5045) · Koordinat YER-TANIMA devrinden (5-mo-devir.json, 21 Ekim 2026), ≥2 bağımsız tanık; seçilen nokta 37.8977,58.5287. Anau höyüğü (Aşkabat yakını). Pleiades 952061 38.19,58.48 UYUŞMUYOR (30 km), kullanma. Evre etiketi sit Anau'ya bağlanır",
+  "ilk": {
+   "t": "-4299-01-01",
+   "gun": "MÖ 4300 (ALT SINIR; donem-toplami MÖ 4300–3820)",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Heit 2019, Chap. 3, in Pollock, Bernbeck, Ogut (eds), Looking Closely vol. 1: Anau Ia, Anau Kuzey alt tabakalari (OxCal modeli)",
+   "kaynak_turu": "arkeoloji"
+  },
+  "kur": null,
+  "ark": {
+   "t": "-4299-01-01",
+   "gun": "MÖ 4300 (ALT SINIR; donem-toplami MÖ 4300–3820)",
+   "kesinlik": "yuzyil",
+   "kaynak": "Heit 2019, Chap. 3, in Pollock, Bernbeck, Ogut (eds), Looking Closely vol. 1: Anau Ia, Anau Kuzey alt tabakalari (OxCal modeli)"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-4299-01-01",
+    "t": "0000-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Heit 2019, Chap. 3, in Pollock, Bernbeck, Ogut (eds), Looking Closely vol. 1: Anau Ia, Anau Kuzey alt tabakalari (OxCal modeli)",
+    "ic_not": "Devlet öncesi/kültür dönemi: siyasî sahip kavramı YOK → __BOSLUK__ = «sahip kavramı henüz yok», «kültürsüz» DEĞİL. bos:\"veri-yok\" (veri yok ≠ kimse yok; MÖ katmanı beyanı). Kaynaktaki kültür/dönem adı: Anau IA; Meana Ufku."
+   },
+   {
+    "f": "0000-01-01",
+    "t": "1900-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "Bu bölge oturumunun penceresi dışı: yerin sonraki durumu ARAŞTIRILMADI — uydurma süreklilik/kesinti yazılmaz."
+   }
+  ],
+  "olay": [],
+  "ic_not": "donem-toplami aralığı (MÖ 4300–3820) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı."
  }
 ];

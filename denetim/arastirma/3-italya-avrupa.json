@@ -1,0 +1,1058 @@
+{
+ "bolge": "İtalya, Yunan dünyası, Orta/Batı Avrupa, Britanya (3. dalga)",
+ "tarih_olcum": "21 Ekim 2026",
+ "yontem_notu": "PDF/HTML bu oturumda indirilip pdftotext/metin ayrıştırmayla okundu; Cloudflare/Anubis/bakım engelleri aşılmadı. cal BP kaydı yok. 'HESAP' etiketli MÖ sayıları bu oturumun aritmetiğidir.",
+ "kayitlar": [
+  {
+   "id": "yunan-geometrik-donemi-sindos-14c",
+   "ad": "Yunan Geometrik dönemi (14C ile yükseltilmiş mutlak tarihler)",
+   "ad_yerel": "Γεωμετρική περίοδος",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [
+    {
+     "kaynak": "Sindos (Selanik) Wikidata Q3392954 / OSM",
+     "lat": 40.6705,
+     "lon": 22.8032
+    }
+   ],
+   "konum_not": "Dönem kaydı; koordinat zorunlu değil. Örnek tabakalı yerleşim Sindos (Kuzey Yunanistan), 21 AMS tarihi hayvan kemiği.",
+   "kur": {
+    "bas_mo": 930,
+    "son_mo": null,
+    "guven": "belirsiz (kaynakta olasılık düzeyi tabloda; metinde belirtilmemiş)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Gimatzidis S., Weninger B. 2020, Radiocarbon dating the Greek Protogeometric and Geometric periods: The evidence of Sindos, PLoS ONE 15(5):e0232906, doi:10.1371/journal.pone.0232906 (Orta Geometrik II başlangıcı, 'calBC')",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7252618/",
+    "alinti": "Three 14C-determinations from phase 8 raise the beginning of Middle Geometric II from 800 histBC to 930 calBC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 735,
+    "son_mo": null,
+    "guven": "geleneksel (histBC) - 14C degil",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Aynı makale: geleneksel (Coldstream tipi) çizelgede Geç Geometrik Ib sonu 735 histBC; metin 'Late Geometric Ib (750-735 histBC)' der",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7252618/",
+    "alinti": "Late Geometric Ib (750–735 histBC)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "alt_olcumler": [
+    {
+     "olay": "Geç Geometrik I başlangıcı",
+     "cal_bc": 870,
+     "geleneksel_hist_bc": 760,
+     "not": "Makale: 'beginning of Late Geometric I at 870 calBC' (geleneksel çizelge LG Ia = 760-750)"
+    },
+    {
+     "olay": "Geç Geometrik Ia/Ib sınırı",
+     "cal_bc": 790,
+     "geleneksel_hist_bc": 750
+    },
+    {
+     "olay": "Orta Geometrik II başlangıcı",
+     "cal_bc": 930,
+     "geleneksel_hist_bc": 800
+    },
+    {
+     "olay": "Erken Geometrik",
+     "cal_bc": "11. yy ikinci yarısı (sayısal uç verilmedi)",
+     "geleneksel_hist_bc": "ca. 900-850",
+     "not": "Makale: EG '100-150 yıl' yükseliyor; sayı yazılmadı çünkü kaynak sayısal uç vermiyor"
+    },
+    {
+     "olay": "Geç Protogeometrik",
+     "cal_bc": "11. yy ilk yarısı (sayısal uç verilmedi)",
+     "geleneksel_hist_bc": "950-900"
+    }
+   ],
+   "geleneksel_cizelge_hist_bc": {
+    "EG->MG I": 850,
+    "MG I->II": 800,
+    "MG II->LG": "760/750",
+    "LG Ia": "760-750",
+    "LG Ib": "750-735",
+    "LG_Ia_suresi_yil": 10
+   },
+   "k": "gelisme",
+   "d": "Kuzey Yunanistan Sindos'ta stratigrafik hayvan-kemiği 14C serisi, Geometrik alt evrelerin geleneksel mutlak tarihlerini (Sicilya koloni tarihlerine dayalı) 100-150 yıl yukarı çekiyor; MG II başlangıcı 800 histBC yerine 930 calBC.",
+   "sahip_kultur": "Yunan Geometrik (Protogeometrik-Geometrik) seramik dönemleri",
+   "ic_not": "KRONOLOJİ OKULU ÇELİŞKİSİ: geleneksel (histBC, Coldstream/Sicilya kolonileri) vs 14C (calBC, Sindos). Makale, Sicilya kolonilerinin Thukydides tarihlerinin Geç Geometrik için çapa olarak kullanıldığını söyler (aynı zamanda İtalya'da Nijboer vd. 2000 'yüksek kronoloji' ile uyumlu). Atina/Korinth/Sparta için ayrı mutlak 14C yok; bu kayıt Kuzey Yunanistan (Sindos) bulgusudur, Atina'ya genellemesi makalede 'ima' düzeyindedir. Hakem sürecinden geçen ikincil tartışma (ör. geleneksel okulun cevabı) okunmadı.",
+   "kaynak_dili": "İngilizce",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7252618/"
+   ]
+  },
+  {
+   "id": "latial-ii-iii-gecisi-yuksek-kronoloji",
+   "ad": "Latium Vetus: Latial II -> III geçişi (geleneksel ~770 vs 14C yüksek kronoloji 850-825)",
+   "ad_yerel": "Fase laziale IIB -> III",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür/dönem kaydı. Referans bağlamlar: Fidene (Roma), Satricum, Castiglione nekropolü, Osteria dell'Osa.",
+   "kur": {
+    "bas_mo": 850,
+    "son_mo": 825,
+    "guven": "95.4 (Fidene kulübesi için yazarların 'en geç 820' sonucu)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Nijboer A.J., van der Plicht J., Bietti Sestieri A.M., De Santis A. 1999-2000, A high chronology for the Early Iron Age in central Italy, Palaeohistoria 41/42 (Groningen), Epilogue",
+    "url": "https://lcm2.web.rug.nl/wp-content/uploads/2018/03/Palaeohistoria-1999-2000-Nijboer-et-al-A-high-chronology.pdf",
+    "alinti": "we propose to raise the absolute chronology for the transition from Latial period II to Latial period III by about 50 to 75 years, to the third quarter of the 9th century BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "alt_olcumler": [
+    {
+     "olay": "Castiglione nekropolü, mezar 25 ve 40 (GrN-23475, GrN-23478; 2670±30 BP)",
+     "cal_bc_95_4": [
+      "900-880",
+      "860-850",
+      "840-800"
+     ],
+     "not": "Latial IIa2-IIb1 (870/860-800 BC) ile uyumlu; yazarlar mezarların 9. yy başına yükseltilmesi gerektiğini söyler"
+    },
+    {
+     "olay": "Fidene kulübesi (Latial IIB/III sınırı referansı)",
+     "cal_bc_95_4": [
+      "en geç 820 (kulübe ve içeriği)"
+     ],
+     "not": "wave-2'de 'fidene-kulubesi' kaydı var; burada geçişin okul çelişkisi kaydedildi"
+    }
+   ],
+   "k": "gelisme",
+   "d": "Orta İtalya (Latium Vetus) Erken Demir Çağı'nda Latial II'den III'e geçiş, geleneksel tipo-kronolojide ~MÖ 770; kısa ömürlü örneklerin (Fidene tohumları) 14C'si geçişi MÖ 9. yy üçüncü çeyreğine (850-825) çeker.",
+   "sahip_kultur": "Latial kültürü (Latium Vetus Demir Çağı)",
+   "ic_not": "ÇELİŞKİ (iki okul): geleneksel ~770 BC (Epilogue: 'Traditionally the transition from Latial period II to Latial period III is dated to around 770 BC') vs 14C 850-825. Makale ayrıca Yunan Geometrik (Thukydides çapalı) tarihlerinin değişmeden kalabileceğini, değişenin koloni bağlamı olduğunu söyler; Sindos (Gimatzidis & Weninger 2020) ile aynı yönde. OCR'li PDF'den okundu (Roma Latial II-III tablo sayısı doğrulandı: 'Castiglione' 3 aralık).",
+   "kaynak_dili": "İngilizce",
+   "okunan_sayfa": [
+    "https://lcm2.web.rug.nl/wp-content/uploads/2018/03/Palaeohistoria-1999-2000-Nijboer-et-al-A-high-chronology.pdf"
+   ]
+  },
+  {
+   "id": "roma-kurulus-gelenegi-yazili",
+   "ad": "Roma'nın kuruluşu (YAZILI GELENEK tarihleri)",
+   "ad_yerel": "Roma condita (traditio)",
+   "tur": "sehir",
+   "lat": 41.89,
+   "lon": 12.4912581748554,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 423025 (Roma)",
+     "lat": 41.88998,
+     "lon": 12.49126
+    },
+    {
+     "kaynak": "Wikidata Q220 (P625)",
+     "lat": 41.89306,
+     "lon": 12.48278
+    },
+    {
+     "kaynak": "OSM Nominatim 'Colle Palatino'",
+     "lat": 41.88931,
+     "lon": 12.48711
+    }
+   ],
+   "konum_not": "Tanıklar arası <1 km; Pleiades esas (antik kent merkezi).",
+   "kur": {
+    "bas_mo": 752,
+    "son_mo": null,
+    "guven": "belirsiz (gelenek; Dionysios'a göre 7. Olimpiyat 1. yılı = Cato)",
+    "aralik_turu": "yazili",
+    "kaynak": "Dionysios of Halicarnassus, Roman Antiquities 1.74-75 (Loeb, E. Cary çevirisi; Thayer/LacusCurtius metni, kamu malı). MÖ sayısı: 1. Olimpiyat=776 varsayımıyla 776-24=752 HESAPTIR (bu oturumda), 776 değeri bu kaynakta yoktur",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/1D*.html",
+    "alinti": "founded Rome, in the beginning of the first year of the seventh Olympiad",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "alt_olcumler": [
+    {
+     "yazar_gelenegi": "Cato (Troya'dan 432 yıl sonra = Eratosthenes'le 7. Olimpiyat 1. yıl)",
+     "olimpiyat": "7.1"
+    },
+    {
+     "yazar_gelenegi": "Polybios (Dionysios aktarımı)",
+     "olimpiyat": "7.2"
+    },
+    {
+     "yazar_gelenegi": "Quintus Fabius (Pictor)",
+     "olimpiyat": "8.1"
+    },
+    {
+     "yazar_gelenegi": "Lucius Cincius",
+     "olimpiyat": "12.4"
+    },
+    {
+     "yazar_gelenegi": "Timaios (Sicilyalı): Kartaca ile aynı zaman, 1. Olimpiyat'tan 38 yıl önce",
+     "olimpiyat": "-38 yıl",
+     "not": "Kartaca 814 geleneğinin kaynağı; MÖ=776+38=814 hesaptır"
+    }
+   ],
+   "k": "kurulus",
+   "d": "Yazılı gelenek Roma'nın kuruluşunu Olimpiyat sayımıyla 7. Olimpiyat'ın 1. yılına (Cato, Dionysios) -yazarlar arası 7.1 ile 12.4 arası- koyar. Varro'nun 753'ü bu oturumda KAYNAKTAN okunmadı.",
+   "sahip_kultur": null,
+   "ic_not": "GELENEK beyanı: bu kayıt arkeolojik başlangıç DEĞİLDİR. Arkeolojik başlangıç için bkz. wave-2 'latium-vetus-roma-colli-albani', 'roma-forum-nekropolu', 'fidene-kulubesi'. Palatino kulübeleri / Carandini (2. çeyrek 8. yy duvar iddiası) yalnız popüler/ikincil sayfalarda görüldü ve ALINMADI; Carandini 'La nascita di Roma' ve Cornell 1995 kütüphane_gerekli'de.",
+   "kaynak_dili": "İngilizce çeviri (Yunanca asıl)",
+   "okunan_sayfa": [
+    "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/1D*.html",
+    "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/1C*.html"
+   ]
+  },
+  {
+   "id": "roma-krallik-cumhuriyet-gecisi-gelenek",
+   "ad": "Roma: Krallık -> Cumhuriyet (ilk konsüller) - YAZILI GELENEK",
+   "ad_yerel": "Expulsio regum / primi consules",
+   "tur": "sehir",
+   "lat": 41.88998,
+   "lon": 12.49126,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 423025",
+     "lat": 41.88998,
+     "lon": 12.49126
+    },
+    {
+     "kaynak": "Wikidata Q220",
+     "lat": 41.89306,
+     "lon": 12.48278
+    }
+   ],
+   "konum_not": "Bkz. roma-kurulus-gelenegi-yazili.",
+   "kur": {
+    "bas_mo": 508,
+    "son_mo": null,
+    "guven": "belirsiz (gelenek; hesap)",
+    "aralik_turu": "yazili",
+    "kaynak": "Polybios 3.22.1-2 (Loeb 1922): ilk Roma-Kartaca antlaşması 'ilk konsüller' L. Iunius Brutus ve M. Horatius'un konsüllüğünde, 'Xerxes'in Yunanistan'a geçişinden 28 yıl önce'. MÖ sayısı = 480+28 HESAPTIR (480 değeri bu kaynakta yok). Dionysios 1.74.4: Galya istilasından (98. Olimpiyat 1. yıl) 120 yıl önce ilk konsüller Brutus ve Collatinus; krallık toplam 244 yıl (1.75.3) => 752-244=508 HESAP",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3*.html",
+    "alinti": "dates from the consulship of Lucius Junius Brutus and Marcus Horatius, the first Consuls after the expulsion of the kings",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Polybios ve Dionysios, Krallığın sona ermesini ve ilk konsülleri aynı yıla koyar; üç bağımsız iç hesap (Polybios/Xerxes, Dionysios/Galya sonrası 120 yıl, Dionysios/244 yıl krallık) MÖ 508'e çıkar.",
+   "sahip_kultur": null,
+   "ic_not": "Yaygın '509' (Varro fasti) bu oturumda KAYNAKTAN okunmadı; 508 hesaptır, bir yıllık konvansiyon farkı olabilir (Olimpiyat başı/sonu). Cornell 1995 (The Beginnings of Rome) kütüphane_gerekli.",
+   "kaynak_dili": "İngilizce çeviri (Yunanca asıl)",
+   "okunan_sayfa": [
+    "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3*.html",
+    "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/1D*.html"
+   ]
+  },
+  {
+   "id": "tarquinia-civita-protokentsel",
+   "ad": "Tarquinia (Tarquinii) - Civita platosu, proto-kentsel yerleşim",
+   "ad_yerel": "Tarquinii / Tarchna",
+   "tur": "sehir",
+   "lat": 42.25725,
+   "lon": 11.79145,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 413332 Tarchna/Tarquinii",
+     "lat": 42.25725,
+     "lon": 11.79145
+    },
+    {
+     "kaynak": "Wikidata Q179999 (modern comune)",
+     "lat": 42.24917,
+     "lon": 11.75611
+    },
+    {
+     "kaynak": "OSM Nominatim 'Tarquinia'",
+     "lat": 42.25324,
+     "lon": 11.75917
+    }
+   ],
+   "konum_not": "Wikidata/OSM modern kasabayı (Civita'nın ~3 km batısı) verir; Pleiades antik kenti (Civita platosu) verir. Antik kent için Pleiades esas.",
+   "kur": {
+    "bas_mo": null,
+    "son_mo": null,
+    "guven": "yalnız göreli kronoloji",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Iaia C., Pacciarelli M. 2023, Cretoncini: scavo di un settore dell'abitato del primo Ferro di Tarquinia, Ostraka XXXII, 137-141, doi:10.4454/ostraka.v32.732 (BF3 mezarlığı -> Erken Demir Çağı başında proto-kentsel yerleşimin Cretoncini kesiminin kuruluşu; Veii 1C-Tarquinii 1B2 alt evresi)",
+    "url": "https://www.journal.edizioniets.eu/index.php/ostraka/article/download/732/874/1902",
+    "alinti": "rimane intensamente occupata fino agli inizi dell'VIII secolo a.C.",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Civita'nın kuzey kesimi Cretoncini'de Bronz Çağı sonu 3 (BF3) mezarlığını Erken Demir Çağı başında geniş proto-kentsel Tarquinii yerleşiminin bir kesimi izler; kesim MÖ 8. yy başına dek yoğun iskân edilir, sonra terk edilip Civita'nın geri kalanına yoğunlaşılır.",
+   "sahip_kultur": "Villanova (Erken Demir Çağı)",
+   "ic_not": "SAYISAL TARİH YOK: kaynak seramik tipo-kronolojisiyle (Veii 1C-Tarquinii 1B2) göreli konuşur, kalibre 14C vermez; bas_mo/son_mo bu yüzden null (tarih uydurma yok). Bartoloni (Populonia makalesi): 'Tarquinia ve Vulci Bronz Çağı sonunda zaten iskân ediliyordu' (gia frequentati o abitati alla fine dell'età del Bronzo). Etrüsk şehirleri için mutlak kronoloji (Villanova uzun/kısa) üzerine hakemli, sayısal bir makale bulunamadı -> kutuphane_gerekli.",
+   "kaynak_dili": "İtalyanca/İngilizce özet",
+   "okunan_sayfa": [
+    "https://www.journal.edizioniets.eu/index.php/ostraka/article/download/732/874/1902",
+    "https://www.studietruschi.org/wp-content/uploads/2026/05/ATTISE28_Bartoloni.pdf"
+   ]
+  },
+  {
+   "id": "populonia-poggio-del-telegrafo",
+   "ad": "Populonia (Fufluna) - Poggio del Telegrafo akropolü ve Poggio delle Granate nekropolü",
+   "ad_yerel": "Populonia / Fufluna",
+   "tur": "sehir",
+   "lat": 42.98824,
+   "lon": 10.48965,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 403212 Fufluna/Populonium",
+     "lat": 42.98824,
+     "lon": 10.48965
+    },
+    {
+     "kaynak": "Wikidata Q20108700 (P625)",
+     "lat": 42.98807,
+     "lon": 10.48968
+    },
+    {
+     "kaynak": "OSM Nominatim 'Populonia'",
+     "lat": 42.98945,
+     "lon": 10.49157
+    }
+   ],
+   "konum_not": "Tanıklar arası <0.2 km; Pleiades esas.",
+   "kur": {
+    "bas_mo": null,
+    "son_mo": null,
+    "guven": "yalnız göreli (seramik) kronoloji; yüzyıl hassasiyeti",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Bartoloni G., Populonia e le isole del Tirreno centrale tra VIII e VII secolo a.C.: riflessioni dagli scavi e ricerche in corso, ss. 339-355 (studietruschi.org, dosya ATTISE28_Bartoloni.pdf; dergi/cilt bilgisi PDF'den doğrulanamadı) - Poggio del Telegrafo Periyot I faz A kulübe kalıntıları",
+    "url": "https://www.studietruschi.org/wp-content/uploads/2026/05/ATTISE28_Bartoloni.pdf",
+    "alinti": "La datano al pieno IX secolo a.C.",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Poggio del Telegrafo (Populonia'nın tarihî akropolü) yamaçlarındaki 2003'ten beri kazılarda Periyot I faz A kulübesi (üç nefli, çukurlardaki biconik çömlekler) MÖ 9. yy ortasına (pieno IX secolo); faz B malzemesi 8. yy ortasını geçmez; faz C kulübesi 8. yy içinde yıkılır. Bakır cürufu 'pieno VIII secolo' tarihlenmiş (yöntem metinde belirtilmemiş).",
+   "sahip_kultur": "Villanova (Poggio delle Granate / Piano delle Granate / San Cerbone nekropolleri)",
+   "ic_not": "Yüzyıl ifadesi 'pieno IX' = 9. yy ortası; sayısal uç YAZILMADI. Populonia'nın daha eski yerleşimi (Poggio delle Granate, belki proto-Villanova öncülü) Bartoloni'nin tartıştığı varsayımdır (Colonna/Delpino ile çelişen görüş): tek köy mü iki köy mü (güney Poggio del Telegrafo / kuzey Casone-Piano-Granate) açık. Wikipedia türevi 'Villanova ~900' alınmadı. 2017 Poggio-Piano delle Granate makalesi (L'Erma, doi 10.1400/258237) yalnız başlık görüldü -> kutuphane_gerekli.",
+   "kaynak_dili": "İtalyanca",
+   "okunan_sayfa": [
+    "https://www.studietruschi.org/wp-content/uploads/2026/05/ATTISE28_Bartoloni.pdf"
+   ]
+  },
+  {
+   "id": "heuneburg-bettelbuhl-583",
+   "ad": "Heuneburg - Bettelbühl 'Keltenblock' mezarı (Ha D1, dendro 583)",
+   "ad_yerel": "Heuneburg / Bettelbühl",
+   "tur": "kultur",
+   "lat": 48.09467,
+   "lon": 9.41257,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 118742 Heuneburg",
+     "lat": 48.094667,
+     "lon": 9.412566
+    },
+    {
+     "kaynak": "Wikidata Q428756 (P625)",
+     "lat": 48.094722,
+     "lon": 9.411944
+    },
+    {
+     "kaynak": "OSM Nominatim 'Heuneburg, Herbertingen'",
+     "lat": 48.0956,
+     "lon": 9.4079
+    }
+   ],
+   "konum_not": "Üç tanık <0.4 km. Bettelbühl mezarı kalenin ~1 km yakınında (makale: 'close to the Heuneburg').",
+   "kur": {
+    "bas_mo": 583,
+    "son_mo": null,
+    "guven": "dendro: yıl, kesim 583'ün ikinci yarısı (waney-edge/kabuklu kereste)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Krausse D., Ebinger-Rist N., Million S., Billamboz A., Wahl J., Stephan E. 2017, The 'Keltenblock' project: discovery and excavation of a rich Hallstatt grave at the Heuneburg, Germany, Antiquity 91(355):108-123, doi:10.15184/aqy.2016.228",
+    "url": "https://www.cambridge.org/core/product/06DA174F38A2CD1D2EB737222AAFCEBA/core-reader",
+    "alinti": "the trees used to construct the burial chamber were felled in the second half of 583 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Heuneburg'un yakınında Ha D1'e (Heuneburg Periyot IV) yerleştirilen zengin kadın mezarı, meşe (873-583) ve ladin (684-583) ağaç halkası kronolojileriyle 583'e dendro-tarihlenir; Alpler'in kuzeyinde bu tür zengin mezar dizisinin en eskisi ve Erken Demir Çağı mutlak kronolojisinin bir çapası.",
+   "sahip_kultur": "Hallstatt kültürü (Batı Hallstatt, Ha D1)",
+   "ic_not": "Bu, Heuneburg kerpiç duvarının KENDİ dendro tarihi değildir: makale kerpiç duvarlı dönemi 'MÖ 6. yy ilk yarısı' der (göreli); kale dendro tarihleri (dış avlu hendek kerestesi ~580) yalnız arama özetinde görüldü ve ALINMADI. Wave-2 'heuneburg' kaydını tamamlar. Mezar, Vix 'dame' mezarından ~100 yıl, Hochdorf 'prens'inden ~200 yıl eskidir (makale).",
+   "kaynak_dili": "İngilizce",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/product/06DA174F38A2CD1D2EB737222AAFCEBA/core-reader"
+   ]
+  },
+  {
+   "id": "hallstatt-c-d-gecisi-dietfurt",
+   "ad": "Hallstatt C -> D geçişi (Dietfurt Bayes modeli; geleneksel 616)",
+   "ad_yerel": "Hallstatt C/D-Übergang",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q504648 Dietfurt an der Altmühl",
+     "lat": 49.0333,
+     "lon": 11.5833
+    },
+    {
+     "kaynak": "OSM Nominatim",
+     "lat": 49.0241,
+     "lon": 11.6024
+    }
+   ],
+   "konum_not": "Dönem kaydı; ref. mezarlık 'Tennisplatz' (Dietfurt an der Altmühl, Bavyera); iki tanık ~2 km ayrışıyor, şehir ölçeğinde yeterli.",
+   "kur": {
+    "bas_mo": 685,
+    "son_mo": 655,
+    "guven": "68.3 (kaynak 95.4 için 'kesinlikle 650'den önce' der)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Rose H.A., Müller-Scheeßel N., Meadows J., Hamann C. 2022, Radiocarbon dating and Hallstatt chronology: a Bayesian chronological model for the burial sequence at Dietfurt an der Altmühl 'Tennisplatz', Bavaria, Archaeol Anthropol Sci 14:72, doi:10.1007/s12520-022-01542-1",
+    "url": "https://link.springer.com/10.1007/s12520-022-01542-1",
+    "alinti": "the HaC-HaD transition almost certainly occurred before 650 cal BC, and most likely between 685 and 655 cal BC (68.3% probability)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Güney Almanya'da Ha C'den Ha D'ye geçiş, Dietfurt mezar dizisinin Bayes modeline göre 650 cal BC'den önce ve büyük olasılıkla 685-655 arasındadır; yaygın kabul edilenden onlarca yıl eski.",
+   "sahip_kultur": "Hallstatt kültürü",
+   "ic_not": "ÇELİŞKİ (iki okul): geleneksel ~616 BC (Villingen-Schwenningen 'Magdalenenberg' Ha D1 dendro kesim tarihi; Friedrich & Hennig 1996, Parzinger 1989) vs 14C 685-655. Makale ayrıca 'Hallstatt dönemi c.800-450 BC' çerçevesini verir (Ha D3 / La Tène A sınırı olarak ~450 çerçeve bitişi). Bu çerçeve AYNI makalenin giriş ifadesidir; Ha D3/La Tène A sınırı için ayrı, dendro/14C'li bir kaynak BULUNAMADI. Kalibrasyon platosu 750-400 cal BC nedeniyle model yerel (Dietfurt) bir sonuçtur; coğrafi gecikme olasılığı makalede belirtilir.",
+   "kaynak_dili": "İngilizce",
+   "okunan_sayfa": [
+    "https://link.springer.com/10.1007/s12520-022-01542-1"
+   ]
+  },
+  {
+   "id": "bz-a1-bz-c-isvicre-guney-almanya",
+   "ad": "İsviçre ve Güney Almanya Tunç Çağı fazları (Bz A1 - Bz C), Bayes modeli",
+   "ad_yerel": "Bronzezeit Bz A1-Bz C (Reinecke)",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bölgesel dönem kaydı (İsviçre + Güney Almanya, 125 14C tarihi).",
+   "kur": {
+    "bas_mo": 2134,
+    "son_mo": 1834,
+    "guven": "95.4",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Brunner M. vd. 2020, Central European Early Bronze Age chronology revisited: A Bayesian examination of large-scale radiocarbon dating, PLoS ONE 15(12):e0243719, doi:10.1371/journal.pone.0243719, Table 2 (Bz A1 modellenmiş süre)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7769557/",
+    "alinti": "Transition Bz A1/A2 1876–1820; Bz A2 1865–1546; Bz B 1595–1444; Bz C 1483–1364",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 1483,
+    "son_mo": 1364,
+    "guven": "95.4",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Aynı makale, Table 2 (Bz C)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7769557/",
+    "alinti": "Bz C 1483–1364",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "alt_olcumler": [
+    {
+     "faz": "Çan Kadeh Fenomeni (BBP)",
+     "mo": "2470-2061"
+    },
+    {
+     "gecis": "BBP->Bz A1",
+     "mo": "2150-2044"
+    },
+    {
+     "faz": "Bz A1",
+     "mo": "2134-1834"
+    },
+    {
+     "gecis": "Bz A1->A2",
+     "mo": "1876-1820"
+    },
+    {
+     "faz": "Bz A2",
+     "mo": "1865-1546"
+    },
+    {
+     "gecis": "Bz A2->B (Erken->Orta Tunç)",
+     "mo": "1616-1531"
+    },
+    {
+     "faz": "Bz B",
+     "mo": "1595-1444"
+    },
+    {
+     "gecis": "Bz B->C",
+     "mo": "1498-1434"
+    },
+    {
+     "faz": "Bz C",
+     "mo": "1483-1364"
+    }
+   ],
+   "k": "gelisme",
+   "d": "Reinecke Bz A1/A2/B/C fazlarının Bayes 14C modeli: Erken-Orta Tunç geçişi 1616-1531 (Stockhammer vd. 2015: ~1700; Massy 2018: ~1650 önermişti).",
+   "sahip_kultur": "Erken ve Orta Tunç Çağı (Reinecke Bz A-C), Çan Kadeh sonrası",
+   "ic_not": "ÇELİŞKİ: Stockhammer vd. 2015 (Bz A1a 2150/2100-1900, Bz A1b 2050-1750/1700, Bz A2a 1900-1700, Bz B 1700'den) ve Massy 2018 (~1650) ile bu model arasında EBA/MBA geçişi farkı var; makale bunu açıkça tartışır. Bölge İsviçre+Güney Almanya, Únětice (KD) farklı: Bz A2 iğneleri ~2050'de. Wessex Erken Tunç / Britanya bu makalede yok.",
+   "kaynak_dili": "İngilizce",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7769557/"
+   ]
+  },
+  {
+   "id": "malta-gozo-ggantija-tapinak-donemi",
+   "ad": "Ġgantija (Gozo) ve Malta tapınak dönemleri",
+   "ad_yerel": "Ġgantija",
+   "tur": "kultur",
+   "lat": 36.04861,
+   "lon": 14.26898,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 62131047 Ġgantija",
+     "lat": 36.04861,
+     "lon": 14.26898
+    },
+    {
+     "kaynak": "Wikidata Q216862 (P625)",
+     "lat": 36.047265,
+     "lon": 14.269095
+    }
+   ],
+   "konum_not": "İki tanık ~0.2 km; (Wikidata/Pleiades tam bağımsız sayılmayabilir; OSM aramasında sonuç dönmedi).",
+   "kur": {
+    "bas_mo": 3600,
+    "son_mo": 3000,
+    "guven": "belirsiz ('estimated date range', Trump-sonrası yeniden kalibre)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Malone C. vd. 2019, Archaeol Anthropol Sci 11:4251-4306, doi:10.1007/s12520-019-00790-y, Table 1 (s.4252): Ġgantija c. 3600-3000 cal BC; Saflieni c. 3300-3000; Tarxien c. 3000-2500; Tarxien Cemetery c. 2500-1500; Żebbuġ ('ebbu' tabloda) c. 4100-3800; Mġarr ('Marr') c. 3800-3600; Skorba Grey 4500-4400, Red 4400-4100",
+    "url": "https://link.springer.com/doi/10.1007/s12520-019-00790-y",
+    "alinti": "gantija c. 3600–3000 cal BC / Tarxien c. 3000–2500 cal BC (Table 1)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Malta tapınak ('Ġgantija') seramik dönemi c. 3600-3000 cal BC, ardından Saflieni (3300-3000) ve Tarxien (3000-2500).",
+   "sahip_kultur": "Malta Neolitik Tapınak Kültürü (Ġgantija fazı)",
+   "ic_not": "SINIRLAMA: bunlar seramik FAZ tahmini aralıklarıdır (Trump 2002 geleneği), tapınak İNŞASININ kalibre/Bayes tarihi DEĞİLDİR. Ġgantija/Ħaġar Qim/Tarxien tapınaklarının kendi inşa tarihi için Malone, Stoddart vd. 2009 'Dating Maltese prehistory' (McDonald Inst.) ve Temple Places (2020) bölümü tam metin erişilemedi -> kutuphane_gerekli. Mutlak tarihli gömü Xağra'da Ġgantija döneminde (orta-geç 4. binyıl) küçük kaya mezarıyla başlar (wave-2 'xaghra-brochtorff-circle').",
+   "kaynak_dili": "İngilizce",
+   "okunan_sayfa": [
+    "https://eprints.gla.ac.uk/299630/1/299630.pdf (=Springer PDF, yerelde pdftotext)"
+   ]
+  },
+  {
+   "id": "huelva-fenike-mendez-nunez",
+   "ad": "Huelva (Onoba) - Batı'daki en eski belgeli Fenike yerleşimi",
+   "ad_yerel": "Huelva (Méndez Núñez-Las Monjas)",
+   "tur": "sehir",
+   "lat": 37.2576,
+   "lon": -6.9485,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q12246 (P625)",
+     "lat": 37.25,
+     "lon": -6.95
+    },
+    {
+     "kaynak": "OSM Nominatim 'Huelva'",
+     "lat": 37.2576,
+     "lon": -6.9485
+    }
+   ],
+   "konum_not": "Pleiades'te güvenilir Onuba girdisi bulunamadı (id 265985 farklı koordinat verdi, ALINMADI). Tanıklar ~1 km. Kazı alanı modern şehir merkezinde Calle Méndez Núñez / Plaza de las Monjas.",
+   "kur": {
+    "bas_mo": 900,
+    "son_mo": 770,
+    "guven": "belirsiz (seramik topluluğuna atfedilen kronoloji)",
+    "aralik_turu": "yerlesim-suresi",
+    "kaynak": "Padilla Monge A. 2014, Los inicios de la presencia fenicia en Cádiz, Gerión 32:15-56, doi:10.5209/rev_GERI.2014.v32.46664 (González de Canales vd. 2006'ya atıf, n.87)",
+    "url": "https://revistas.ucm.es/index.php/GERI/article/viewFile/46664/43802",
+    "alinti": "la fundación del establecimiento puede ubicarse preferentemente en el segundo cuarto del siglo IX a.C.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Huelva'da Fenike seramik topluluğu 900-770 BC arasına, yerleşimin kuruluşu tercihen MÖ 9. yy ikinci çeyreğine (Tyros kralı Ittobaal I, 887-856 ile ilişkilendirilir) konur.",
+   "sahip_kultur": "Fenike (Tyros kaynaklı); 'emporitana-öncül kolonyal' (González de Canales vd.: 900-770/740)",
+   "ic_not": "İKİNCİL kaynak (Padilla Monge özeti); birincil kazı yayını (González de Canales vd. 2004-2010) okunmadı. Padilla'ya göre Huelva, Cádiz körfezinden ÖNCE kurulan ilk yerleşimdir (Diodoros'un Gadir önceliği iddiasına karşı). 14C yok; seramik kronolojisi.",
+   "kaynak_dili": "İspanyolca",
+   "okunan_sayfa": [
+    "https://revistas.ucm.es/index.php/GERI/article/viewFile/46664/43802"
+   ]
+  },
+  {
+   "id": "gadir-cadiz-kurulus-gelenek-ve-arkeoloji",
+   "ad": "Gadir (Cádiz) - kuruluş: gelenek ~1110 vs arkeolojik 9.-8. yy dönümü",
+   "ad_yerel": "Gadir / Gades / Cádiz",
+   "tur": "sehir",
+   "lat": 36.52928,
+   "lon": -6.29312,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 256177 Gadeira/Gades",
+     "lat": 36.529278,
+     "lon": -6.293121
+    },
+    {
+     "kaynak": "OSM Nominatim 'Cádiz'",
+     "lat": 36.5297,
+     "lon": -6.2929
+    },
+    {
+     "kaynak": "Wikidata Q3094251 (Gadir)",
+     "lat": 36.534789,
+     "lon": -6.298979
+    }
+   ],
+   "konum_not": "Tanıklar <0.8 km; Pleiades+OSM örtüşür.",
+   "kur": {
+    "bas_mo": 800,
+    "son_mo": 700,
+    "guven": "belirsiz ('9. yy sonu/8. yy başı' ifadesi - sayısal uç yazarın değildir)",
+    "aralik_turu": "yerlesim-suresi",
+    "kaynak": "Padilla Monge A. 2014, Gerión 32:15-56 (özet: Cádiz yarımadasının kuzeyindeki Fenike yapıları 'late ninth century or early eighth century B.C. onward'); bas_mo/son_mo değerleri 'IX sonu - VIII' ifadesinin çevirisidir, kaynak sayısal aralık vermez -> DİKKAT",
+    "url": "https://revistas.ucm.es/index.php/GERI/article/viewFile/46664/43802",
+    "alinti": "from the late ninth century or early eighth century B.C. onward",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "gelenek": {
+    "bas_mo": 1110,
+    "kaynak": "Velleius Paterculus 1.2.3 (Troya'dan 80 yıl sonra) - Padilla Monge'nin aktardığı hesap: 'hacia 1110 a.C.'; Herodotos'a göre Troya ~1250'ye çekilirse ~1175 (Pellicer) ve Mela ile tapınak 1190",
+    "alinti": "la fundación de Gades habría tenido lugar hacia 1110 a.C.",
+    "beyan": "GELENEK - arkeolojik teyit YOK; Padilla Monge, Domínguez Monedero'yu izleyerek bu kronolojiye 'mutlak gerçek' gibi bağlanılmasını yanlış bulur"
+   },
+   "k": "kurulus",
+   "d": "Gadir'in gelenekle ~MÖ 1110 (Velleius) kuruluş tarihi arkeolojik olarak doğrulanmamıştır; Padilla Monge'ye göre Cádiz yarımadasının kuzeyindeki ilk Fenike yapıları 9.-8. yy dönümünde, esas kent yapısı 6. yy'da gelişir.",
+   "sahip_kultur": "Fenike / Kenanlı",
+   "ic_not": "bas_mo/son_mo 800/700 yalnız '9. yy sonu - 8. yy' sözlü aralığının UÇ ÇEVİRİSİDİR; kullanıcıya gösterim gerekiyorsa yalnız 'IX-VIII yy dönümü' yazılmalı. Çelişen görüş: Ruiz Mata (arama özeti, ALINMADI) Doña Blanca'yı esas alır ve Cádiz adasının iskânını 7. yy sonu/6. yy başına koyar. Birincil kazı yayınları (Teatro Cómico, Torres Ortiz) okunmadı -> kutuphane_gerekli.",
+   "kaynak_dili": "İspanyolca/İngilizce özet",
+   "okunan_sayfa": [
+    "https://revistas.ucm.es/index.php/GERI/article/viewFile/46664/43802"
+   ]
+  },
+  {
+   "id": "tartessos-kulturu-turunuelo",
+   "ad": "Tartessos kültürü ve Casas del Turuñuelo yapısının sonu",
+   "ad_yerel": "Cultura tartésica",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q30904062 El Turuñuelo (P625)",
+     "lat": 38.94917,
+     "lon": -6.06472
+    }
+   ],
+   "konum_not": "Kültür kaydı; Turuñuelo için yalnız tek tanık (Wikidata) - koordinat YAZILMADI.",
+   "kur": {
+    "bas_mo": 900,
+    "son_mo": null,
+    "guven": "belirsiz ('9th-5th centuries BCE' ifadesi; yazar kaynağı [12])",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Iborra Eres M.P. vd. 2023, Mass animal sacrifice at casas del Turuñuelo (Guareña, Spain): A unique Tartessian (Iron Age) site, PLoS ONE 18(11):e0293654, doi:10.1371/journal.pone.0293654 (giriş bölümü, dayanak ref.12)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10664939/",
+    "alinti": "The Tartessian Culture (9th-5th centuries BCE) presumably stemmed from the hybridization of Phoenicians arriving",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 500,
+    "son_mo": 401,
+    "guven": "belirsiz (yüzyıl ifadesi 'end of the 5th century BCE')",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Aynı makale: Turuñuelo yapısı ve kurban edilen hayvanlar 5. yy sonunda tümülüsle gömüldü (UCIAMS 14C, IntCal20: örn. EQ35 2420±15 BP = 717-409 cal BCE %95.4 - yassı platoda geniş aralık)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10664939/",
+    "alinti": "was party destroyed and covered by a tumulus towards the end of the 5th century BCE",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Tartessos kültürü 9.-5. yy; alt evreler Doğu (8.-7.), Orta (7.-6.), Geç (6.-5.) Tartessos; Guadalquivir çekirdeğinde 6. yy sonu krizi. Turuñuelo yapısı 5. yy sonunda kasıtlı yıkıldı/gömüldü.",
+   "sahip_kultur": "Tartessos (Fenike x yerel melez)",
+   "ic_not": "bas_mo=900 ve bit 500-401 YÜZYIL ifadelerinin uç çevirisidir (kaynak sayısal uç vermez); makaledeki 'Phoenicians arriving at the end of the 9th century BCE' ifadesi Huelva'daki 900-770 ile gerilim içindedir (Padilla'ya göre Huelva 9. yy ikinci çeyrek). Tartessos'un ilk anılması / Herodotos (Kolaios) / Stesikhoros kaynakları okunmadı.",
+   "kaynak_dili": "İngilizce",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10664939/"
+   ]
+  },
+  {
+   "id": "karthago-kurulus-814-vs-760",
+   "ad": "Karthago - kuruluş geleneği 814/813 vs arkeolojik ~760",
+   "ad_yerel": "Qart-ḥadašt / Carthago",
+   "tur": "sehir",
+   "lat": 36.853056,
+   "lon": 10.323056,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 314921 Carthago",
+     "lat": 36.853056,
+     "lon": 10.323056
+    },
+    {
+     "kaynak": "Wikidata Q6343 (P625)",
+     "lat": 36.852558,
+     "lon": 10.323461
+    }
+   ],
+   "konum_not": "Tanıklar <0.1 km. (OSM sonuçları anıt noktalarını verdi, kent merkezi için kullanılmadı.)",
+   "kur": {
+    "bas_mo": 760,
+    "son_mo": null,
+    "guven": "belirsiz ('about 760 BC' - kesintisiz iskân tarihinin başı)",
+    "aralik_turu": "yerlesim-suresi",
+    "kaynak": "Docter R.F. 2002-2003, The topography of archaic Carthage: preliminary results of recent excavations and some prospects, Talanta XXXIV-XXXV:113-134 (Hamburg/Amsterdam derin sondajı 'about 760 BC to about AD 700')",
+    "url": "https://www.talanta.nl/wp-content/uploads/2015/02/TAL-34-35-2002-2003-art-6-pag-113-134.pdf",
+    "alinti": "This fieldwork has brought to light a more or less uninterrupted habitation history of about 1460 years (from about 760 BC to about AD 700)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "gelenek": {
+    "bas_mo": 814,
+    "son_mo": 813,
+    "kaynak": "Docter 2002-2003 giriş: 'legendary foundation by princess Elissa/Dido in 814-813 BC'; Timaios'a göre (Dionysios 1.74.1) Roma ile eşzamanlı, 1. Olimpiyat'tan 38 yıl önce",
+    "beyan": "GELENEK (Timaios/Elissa) - arkeolojik olarak doğrulanmadı; en eski kazı bulguları ~760"
+   },
+   "k": "kurulus",
+   "d": "Karthago'nun efsanevi kuruluşu (Elissa/Dido) 814-813; kentte kesintisiz iskân kazılarda yaklaşık MÖ 760'tan başlar, en eski mezarlar 8. yy ikinci yarısı; 8. yy nekropolü henüz bulunmadı.",
+   "sahip_kultur": "Fenike-Pön",
+   "ic_not": "Docter vd. 2008 (Beyond the Homeland, Peeters, ss.379-422) 14C: hayvan kemiği örnekleri 9.-8. yy cal BCE aralığı veriyor ve 'geleneksel kuruluş tarihiyle güvenilir bağ kurulamıyor' diyor - bu özet YALNIZ arama sonucundan görüldü, kitap bölümü okunamadı -> kutuphane_gerekli. Utica tohum 14C'si (Maraoui Telmini vd.) okunmadı.",
+   "kaynak_dili": "İngilizce",
+   "okunan_sayfa": [
+    "https://www.talanta.nl/wp-content/uploads/2015/02/TAL-34-35-2002-2003-art-6-pag-113-134.pdf",
+    "https://research.rug.nl/en/publications/new-radiocarbon-dates-from-carthage-bridging-the-gap-between-hist/"
+   ]
+  },
+  {
+   "id": "sicilya-yunan-kolonileri-thukydides-goreli",
+   "ad": "Sicilya Yunan kolonileri: Naxos, Syrakusai, Megara Hyblaia, Gela (Thukydides göreli sırası)",
+   "ad_yerel": "Νάξος / Συράκουσαι / Μέγαρα Ὑβλαία / Γέλα",
+   "tur": "bolge",
+   "lat": 37.2038,
+   "lon": 15.18228,
+   "konum_tanik": [
+    {
+     "kaynak": "Megara Hyblaia: Pleiades 462307",
+     "lat": 37.203805,
+     "lon": 15.182285
+    },
+    {
+     "kaynak": "Megara Hyblaia: Wikidata Q1457477",
+     "lat": 37.203717,
+     "lon": 15.181777
+    },
+    {
+     "kaynak": "Naxos: Pleiades 462386",
+     "lat": 37.822487,
+     "lon": 15.267795
+    },
+    {
+     "kaynak": "Naxos: OSM Giardini-Naxos (modern kasaba)",
+     "lat": 37.83544,
+     "lon": 15.27185
+    }
+   ],
+   "konum_not": "Megara Hyblaia için iki tanık <0.1 km. Naxos: Pleiades antik yerleşim, OSM modern kasaba (~1.5 km fark) - antik için Pleiades esas.",
+   "kur": {
+    "bas_mo": null,
+    "son_mo": null,
+    "guven": "yalnız göreli (yıl farkı)",
+    "aralik_turu": "yazili",
+    "kaynak": "Thukydides 6.3.1-6.4.3 (Perseus, Crawley/Marchant): Naxos ilk Yunan kolonisi; Syrakusai 'ertesi yıl'; Naxoslular Syrakusai'dan 5. yılda Leontinoi'yi kurar; Gela Syrakusai'dan 45. yılda; Megara Hyblaia'da 245 yıl yaşadılar ve Gelon tarafından sürüldü; Selinus Megara'dan 100 yıl sonra",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0200%3Abook%3D6%3Achapter%3D3",
+    "alinti": "Syracuse was founded the year afterwards by Archias, one of the Heraclids from Corinth",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Thukydides Sicilya'daki Yunan kolonileri için MÖ yılı vermez, yalnız sıra ve yıl farkı verir; MÖ 734/733/728 gibi sayılar sonraki kronografidir ve bu oturumda akademik kaynaktan OKUNMADI.",
+   "sahip_kultur": null,
+   "ic_not": "YAZILI GELENEK, göreli. Sindos makalesi (Gimatzidis & Weninger 2020) Sicilya kolonilerinin Thukydides tarihlerinin Geç Geometrik için çapa olarak kullanıldığını ve 14C'nin bunu sorguladığını söyler. Mutlak arkeolojik (seramik) kuruluş tarihleri (Morris 1996, Ridgway, Coldstream, Amara 2022) tam metin erişilemedi -> kutuphane_gerekli. Pithekoussai ve Syrakusai wave-2'de var; Cumae için sayısal/ayrıntılı kaynak bulunamadı.",
+   "kaynak_dili": "İngilizce çeviri (Yunanca asıl)",
+   "okunan_sayfa": [
+    "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0200%3Abook%3D6%3Achapter%3D3",
+    "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0200%3Abook%3D6%3Achapter%3D4"
+   ]
+  },
+  {
+   "id": "lbk-bati-yayilimi-ve-sonu",
+   "ad": "Çizgisel Bantlı Seramik (LBK) kültürü - Batı LBK yayılımı ve sonu",
+   "ad_yerel": "Linearbandkeramik (LBK)",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür kaydı; Slovakya (Nitra), Aşağı Avusturya (Asparn-Schletz), Çekya-Moravya-Bohemya'ya yayılım ifadesi.",
+   "kur": {
+    "bas_mo": 5500,
+    "son_mo": null,
+    "guven": "belirsiz ('ca. 5500 BCE', giriş cümlesi)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Gelabert P. vd. 2025, Social and genetic diversity in first farmers of central Europe, Nat Hum Behav 9(1):53-64, doi:10.1038/s41562-024-02034-z (Giriş)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11774665/",
+    "alinti": "The western LBK has been reconstructed to have spread in two waves, first from Transdanubia, at ca. 5500 BCE, to Slovakia, Austria, Moravia, Bohemia",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 5000,
+    "son_mo": 4900,
+    "guven": "belirsiz ('after around 5000-4900 BCE')",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Aynı makale: 'The LBK culture is no longer recognized after around 5000-4900 BCE'; Asparn-Schletz son evre ~5000 BCE; Nitra genişleme evresi 5200-5000 BCE",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11774665/",
+    "alinti": "The LBK culture is no longer recognized after around 5000-4900 BCE",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "LBK Transdanubya'dan ca. MÖ 5500'de Slovakya-Avusturya-Moravya-Bohemya'ya yayılır; ikinci dalga Paris havzasına ulaşır; 5000-4900 dolayında kültür tanınmaz olur.",
+   "sahip_kultur": "LBK",
+   "ic_not": "Bu, genom makalesinin GİRİŞİNDEKİ genel çerçevedir; Çek/Polonya LBK için ayrı Bayes 14C modeli (Almanca/Lehçe/Çekçe) BULUNAMADI. Moldova'da Floreşti I LBK sitesi 5301-5060 calBCE (2σ) (Kiosak vd. 2024, Radiocarbon, BE-16907) ayrı veridir; Erken Trypillia (Kiosak vd. 2024) yayılımı '47-45. yy BCE' ifadesi wave-2 'erken-trypillia' ile birleştirilebilir.",
+   "kaynak_dili": "İngilizce",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11774665/",
+    "https://www.cambridge.org/core/product/44CD5BDFD7BFCB76D6937BDEA66A14F4/core-reader"
+   ]
+  }
+ ],
+ "sehir_kontrol": [
+  {
+   "sehir": "Roma",
+   "lat": 41.88998,
+   "lon": 12.49126,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 423025",
+     "lat": 41.88998,
+     "lon": 12.49126
+    },
+    {
+     "kaynak": "Wikidata Q220",
+     "lat": 41.89306,
+     "lon": 12.48278
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Roma Krallığı (gelenek)",
+     "bas_mo": 752,
+     "son_mo": 508,
+     "kronoloji_okulu": "Dionysios/Cato (Olimpiyat hesabı)",
+     "guven": "gelenek",
+     "gecis_kaynagi": "Kuruluş: Dionysios 1.74-75 (7. Olimpiyat 1. yıl, Cato); Krallığın sonu: ilk konsüller Brutus ve Collatinus (Dionysios 1.74.4) / Brutus ve Horatius (Polybios 3.22.1). Krallık süresi 244 yıl (Dionysios 1.75.3). MÖ sayıları hesaptır (776-24 ve 752-244).",
+     "alinti": "founded Rome, in the beginning of the first year of the seventh Olympiad",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/1D*.html"
+    },
+    {
+     "sahip": "Roma Cumhuriyeti",
+     "bas_mo": 508,
+     "son_mo": null,
+     "kronoloji_okulu": "Polybios/Dionysios (Varro 509 okunmadı)",
+     "guven": "gelenek",
+     "gecis_kaynagi": "Polybios 3.22: ilk konsüller 'krallar kovulduktan sonra'; Xerxes'in geçişinden 28 yıl önce. Dionysios 1.74.4: Galya istilasından 120 yıl önce.",
+     "alinti": "the first Consuls after the expulsion of the kings",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3*.html"
+    },
+    {
+     "sahip": "Principatus (Augustus)",
+     "bas_mo": null,
+     "son_mo": null,
+     "kronoloji_okulu": "-",
+     "guven": "yıl yazılmadı",
+     "gecis_kaynagi": "Cassius Dio 53.16-17 (Loeb 1917, kitap 53: 'Duration of time, four years' = 28-25 BC konsül tablosu): 'In this way the power of both people and senate passed entirely into the hands of Augustus' (53.17.1). Loeb tablosu bölümleri yıllara ayırmaz; 27 yaygın kabuldür ama bu kaynakta bölüm-yıl eşlemesi yok.",
+     "alinti": "the power of both people and senate passed entirely into the hands of Augustus",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/53*.html"
+    }
+   ],
+   "bosluk_notu": "Cumhuriyet->Principatus geçiş yılı kaynakta bölüm düzeyinde verilmedi (28-25 BC aralığı): kesin yıl YAZILMADI; Res Gestae 34 ve fasti (Degrassi) okunmadı. Roma'nın Etrüsk kralları (Tarquinius Priscus 38, Servius Tullius 44, Superbus 25 yıl - Dionysios 1.75) hükümdar süreleri geleneksel; Etrüsk egemenliğinin arkeolojik karşılığı (Roma'nın Etrüsk kontrolü) bu oturumda kaynaklı çıkmadı. Roma imparatorluğunun bölünmesi / Batı Roma sonu gibi sonraki geçişler araştırılmadı."
+  },
+  {
+   "sehir": "Karthago",
+   "lat": 36.853056,
+   "lon": 10.323056,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 314921",
+     "lat": 36.853056,
+     "lon": 10.323056
+    },
+    {
+     "kaynak": "Wikidata Q6343",
+     "lat": 36.852558,
+     "lon": 10.323461
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Fenike-Pön Karthago",
+     "bas_mo": 760,
+     "son_mo": 146,
+     "kronoloji_okulu": "arkeolojik (Docter)",
+     "guven": "belirsiz",
+     "gecis_kaynagi": "Başlangıç: derin sondajda iskân 'about 760 BC'ten itibaren'; son: 'destruction by the Romans in 146 BC, at the end of the Third Punic War' (Docter 2002-03). Gelenek kuruluş 814-813 AYRI kaydedildi.",
+     "alinti": "After its destruction by the Romans in 146 BC, at the end of the Third Punic War",
+     "url": "https://www.talanta.nl/wp-content/uploads/2015/02/TAL-34-35-2002-2003-art-6-pag-113-134.pdf"
+    },
+    {
+     "sahip": "Roma kolonisi Colonia Iulia Concordia Carthago",
+     "bas_mo": 44,
+     "son_mo": null,
+     "bas_ce_son": 439,
+     "kronoloji_okulu": "-",
+     "guven": "belirsiz",
+     "gecis_kaynagi": "Docter 2002-03 giriş: 'Roman re-foundation from 44 or 29 BC' (iki seçenek), Vandal Geiserik fethi AD 439, Belisarios AD 534, Arap fethi AD 695 (yıkım 3 yıl sonra).",
+     "alinti": "The Roman re-foundation from 44 or 29 BC",
+     "url": "https://www.talanta.nl/wp-content/uploads/2015/02/TAL-34-35-2002-2003-art-6-pag-113-134.pdf"
+    }
+   ],
+   "bosluk_notu": "146 ile 44/29 BC arası ~100 yıl 'barren' (terk) - Docter. Roma/Vandal/Bizans/Arap geçişleri bu oturumda yalnız Docter'in tarihçeli girişi (ikincil özet) ile; AD tarihleri birincil kaynaktan teyit edilmedi."
+  },
+  {
+   "sehir": "Atina",
+   "lat": 37.97164747,
+   "lon": 23.7239548,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 579885 Athenae",
+     "lat": 37.971648,
+     "lon": 23.723955
+    },
+    {
+     "kaynak": "Wikidata Q1524",
+     "lat": 37.98417,
+     "lon": 23.72806
+    },
+    {
+     "kaynak": "OSM Nominatim",
+     "lat": 37.97556,
+     "lon": 23.73483
+    }
+   ],
+   "donemler": [],
+   "bosluk_notu": "Atina şehir-kontrol/Geometrik dönem kaynağı BULUNAMADI. Yunan Geometrik dönem mutlak tarihleri yalnız Kuzey Yunanistan Sindos 14C'si (yunan-geometrik-donemi-sindos-14c) ve Atina seramik tarihleri onun üzerinden geleneksel çizelge olarak (LG Ia 760-750 vb.) var; Atina'nın siyasi kontrol geçişleri (kral->arkhon, Peisistratos vb.) bu oturumda kaynaklı çıkmadı."
+  },
+  {
+   "sehir": "Sparta",
+   "lat": 37.0817824,
+   "lon": 22.4246721,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 570685",
+     "lat": 37.081782,
+     "lon": 22.424672
+    },
+    {
+     "kaynak": "Wikidata Q5690",
+     "lat": 37.081944,
+     "lon": 22.423611
+    },
+    {
+     "kaynak": "OSM Nominatim",
+     "lat": 37.08111,
+     "lon": 22.42485
+    }
+   ],
+   "donemler": [],
+   "bosluk_notu": "Sparta için kaynaklı geçiş tarihi bulunamadı (Geometrik/Dor kronolojisi, Lykourgos geleneği). Olimpiyat 776 geleneği için Christesen 2007 kütüphane_gerekli."
+  },
+  {
+   "sehir": "Massalia",
+   "lat": 43.296854,
+   "lon": 5.382499,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 148127 Massalia/Massilia",
+     "lat": 43.296854,
+     "lon": 5.382499
+    },
+    {
+     "kaynak": "Wikidata Q2566850 (antik Massalia)",
+     "lat": 43.296346,
+     "lon": 5.369889
+    },
+    {
+     "kaynak": "OSM Nominatim 'Marseille'",
+     "lat": 43.2964,
+     "lon": 5.3778
+    }
+   ],
+   "donemler": [],
+   "bosluk_notu": "Massalia ~600 BC kuruluşu yalnız arama özetinde (Tréziny, Empúries, raco.cat; Cloudflare engeli, AŞILMADI) ve popüler sayfalarda görüldü; hakemli metin okunamadı, bu yüzden dönem YAZILMADI -> kutuphane_gerekli."
+  }
+ ],
+ "kutuphane_gerekli": [
+  {
+   "eser": "Docter R.F., Chelbi F., Maraoui Telmini B., Nijboer A.J., van der Plicht J., van Neer W., Mansel K., Garsallah S. 2008, New radiocarbon dates from Carthage: bridging the gap between history and archaeology?, in C. Sagona (ed.), Beyond the Homeland: Markers in Phoenician Chronology, Peeters, Leuven, ss.379-422",
+   "url": "https://research.rug.nl/en/publications/new-radiocarbon-dates-from-carthage-bridging-the-gap-between-hist/",
+   "neden_gerekli": "Karthago 14C tabloları (GrN-26090 vb.) ve 814 geleneği ile ilişki; tam metin yalnız basılı/Peeters"
+  },
+  {
+   "eser": "Malone C., Stoddart S., Cook G., Higham T., Reimer P. 2009, Dating Maltese prehistory, in Malone vd. (ed.), Mortuary Customs in Prehistoric Malta (McDonald Inst.), ss.~; ve Temple Places (Cambridge 2020) bölümü",
+   "url": "https://www.um.edu.mt/library/oar/handle/123456789/47526",
+   "neden_gerekli": "Ġgantija/Ħaġar Qim/Tarxien TAPINAK inşa tarihleri için Bayes tabloları"
+  },
+  {
+   "eser": "Nijboer A.J., van der Plicht J. 2008, The Iron Age in the Mediterranean: recent radiocarbon research at the University of Groningen, in Brandherm & Trachsel (eds), A New Dawn for the Dark Age?, BAR S1871, Oxford, ss.103-118; ve van der Plicht, Bruins, Nijboer 2009, Radiocarbon 51",
+   "url": "https://resolve.cambridge.org/core/journals/radiocarbon/article/iron-age-around-the-mediterranean-a-high-chronology-perspective-from-the-groningen-radiocarbon-database/EBFD174613A308BBF1F4FE8626D47192",
+   "neden_gerekli": "Roma/Latium/Etrüsk/Sardinya 14C tabloları; Cambridge sayfası bot korumalı/ücretli, açık metin yok"
+  },
+  {
+   "eser": "Carandini A. 2011, Rome: Day One / La nascita di Roma (Einaudi 1997); Cornell T.J. 1995, The Beginnings of Rome (Routledge)",
+   "url": "https://bmcr.brynmawr.edu/?p=38841",
+   "neden_gerekli": "Palatino kulübeleri, Romulus duvarı, 753/509 geleneğinin akademik değerlendirmesi; açık metin yok"
+  },
+  {
+   "eser": "Bartoloni G., Acconcia V. vd.; Boitani F., Biagi F., Neri S. - Veii ve Piazza d'Armi (Veii volume, Univ. of Texas Press 2019); Biagi bölümü 'Veii and its Territory from the Final Bronze Age to the Early Iron Age'",
+   "url": "https://www.degruyterbrill.com/document/doi/10.7560/317259-fm/html",
+   "neden_gerekli": "Veii'nin Son Tunç/Erken Demir geçişi ve Villanova uzun-kısa kronoloji sayıları; açık metin yok"
+  },
+  {
+   "eser": "Nardi G. 2003, Cerveteri: topografia della Vigna Parrocchiale I, Archeologia e Calcolatori 14:153-176",
+   "url": "https://www.archcalc.cnr.it/journal/articles/358",
+   "neden_gerekli": "Caere Villanova yerleşimi ve katman dizisi; PDF sayfası açıldı (bu oturumda Nardi'nin başka bir ATTISE23 makalesi okundu: sayısal tarih içermiyor)"
+  },
+  {
+   "eser": "Christesen P. 2007, Olympic Victor Lists and Ancient Greek History, Cambridge UP ('Whence 776?')",
+   "url": "https://assets.cambridge.org/97805218/66347/frontmatter/9780521866347_frontmatter.htm",
+   "neden_gerekli": "Olimpiyat MÖ 776 geleneği ve Hippias'ın liste kurgusu"
+  },
+  {
+   "eser": "Morris I. 1996, The absolute chronology of the Greek colonies in Sicily, Acta Archaeologica 67 (Suppl. I):51-59; Ridgway D. 1992, The first Western Greeks; Amara vd. 2022",
+   "url": "https://www.magnagraecia.nl",
+   "neden_gerekli": "Naxos/Megara/Gela/Pithekoussai/Cumae seramik-14C kuruluş tarihleri"
+  },
+  {
+   "eser": "Webster G.S. 2015/2016, The Archaeology of Nuragic Sardinia, Equinox (Sheffield); Ialongo N., Defining the question: a brief history of studies on Nuragic chronology (Equinox bölümü); Holt E., Perra M. 2021, Progetto Pran'e Siddi, Layers 6 (Sa Conca 'e sa Cresia 1750-1450 BCE özeti)",
+   "url": "https://www.equinoxpub.com/journals/index.php/books/rt/metadata/22849",
+   "neden_gerekli": "Nuraghe ilk inşa tarihleri (14C Bayes); UniCA Open Journals (ojs.unica.it) bu oturumda 'bakımda' sayfası döndürdü, Layers PDF açılamadı"
+  },
+  {
+   "eser": "Müller J., Hofmann R., Kirleis W. vd. 2025, Radiocarbon dating: Trypillia detailed chronology, house duration estimates and the contemporaneity of earliest European mega-sites, Sidestone Press, doi:10.59641/kao351dm",
+   "url": "https://elibrary.kubg.edu.ua/id/eprint/53586/",
+   "neden_gerekli": "Cucuteni-Trypillia mega-sit kronolojisi ve sonu (66 MB PDF; bu oturumda indirilmedi: boyut/indirme onayı gerekir)"
+  },
+  {
+   "eser": "Tréziny H., Massalia / Marseille foundation article, Empúries (raco.cat/index.php/Empuries/article/download/327071/417558)",
+   "url": "https://raco.cat/index.php/Empuries/article/download/327071/417558",
+   "neden_gerekli": "Massalia ~600 BC kuruluşu ve en eski seramiklerin tarihi; Cloudflare 'Just a moment' engeli (AŞILMADI)"
+  },
+  {
+   "eser": "Gersbach E. (Baubefunde der Heuneburg IV); Kimmig W.; Heuneburg-Chronologie (Relative und absolute Chronologie der Heuneburg, Tübingen)",
+   "url": "https://hsbiblio.uni-tuebingen.de/xmlui/handle/10900/44016",
+   "neden_gerekli": "Heuneburg Periyot IVc-IVa kerpiç duvar dendro tarihleri; Tübingen/Heidelberg PDF'leri açılmadı (404/Anubis engeli)"
+  },
+  {
+   "eser": "Ruiz Mata D. 1999/2018 (Complutum, Onoba); González de Canales F. vd. 2004-2010 (Huelva Méndez Núñez kazısı); Torres Ortiz M.",
+   "url": "https://dialnet.unirioja.es/descarga/articulo/1961796.pdf",
+   "neden_gerekli": "Gadir/Huelva/Doña Blanca birincil kazı ve 14C verileri; dialnet PDF'i indirilemedi"
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Caere (Cerveteri) kuruluş/gelişme sayısal tarihi - denenen: Nardi 2003 (Arch. e Calcolatori), Nardi ATTISE23 PDF (sayısal tarih yok), Bellelli 2017 (açılmadı). Pleiades 422859 ile yalnız koordinat alındı.",
+  "bulunamadı: Veii için Villanova/Erken Demir başlangıcı sayısal tarihi - denenen: arama özetleri (Piazza d'Armi 'dokuzuncu yüzyıldan beri kesintisiz'; popüler/ikincil) ALINMADI.",
+  "bulunamadı: Roma Palatino kulübeleri / Forum nekropolü yeni 14C ve Carandini'nin MÖ 8. yy 2. çeyrek duvar tarihi - yalnız colosseo.it/NBC gibi popüler-resmî rehber sayfaları ve BMCR; ALINMADI.",
+  "bulunamadı: Atina/Korinth/Sparta Geometrik mutlak tarihi (Sindos dışı), Olimpiyat MÖ 776 geleneği için akademik açık metin.",
+  "bulunamadı: Cumae (Kyme) kuruluş tarihi; Naxos/Syrakusai/Megara Hyblaia/Gela MÖ yılları için akademik kaynak (yalnız Thukydides göreli).",
+  "bulunamadı: Nuragik Sardinya kalibre 14C (Su Nuraxi, ilk nuraghe) - denenen: Layers (ojs.unica.it bakım sayfası), Antiquity NBC (kitap incelemesi), XRONOS kayıtları (bağlamsız, ALINMADI), Webster/Ialongo (ücretli).",
+  "bulunamadı: Malta tapınak İNŞA tarihleri (yalnız faz aralıkları Table 1); Ħaġar Qim kaydı yok.",
+  "bulunamadı: La Tène başlangıcı ve Ha D3/La Tène A sınırı için dendro/14C - yalnız Hallstatt çerçevesi 'c.800-450' (Rose vd. 2022 girişi); Almanca Reinecke/Eggers metinleri açılmadı; Hallstatt tuz madeni dendrokronolojisi (Europe PMC alakasız).",
+  "bulunamadı: Keltlerin ilk anılışı (Hekataios/Herodotos); Massalia'nın hakemli tarihi (Cloudflare).",
+  "bulunamadı: Wessex Orta Tunç Çağı Bayes (Needham vd.) - yalnız Orta Avrupa Bz (Brunner 2020) ve Historic England Erken Neolitik raporu çıktı.",
+  "bulunamadı: Çek/Polonya LBK Bayes yayını (Almanca/Lehçe/Çekçe) - yalnız Gelabert 2025 genel çerçeve ve Kiosak 2024 Moldova.",
+  "bulunamadı: Cucuteni-Trypillia TAMAMLANMASI (CIII sonu ~3000) için kaynak - Kiosak vd. 2024 yalnız başlangıç/yayılım (47-45. yy BCE); Müller vd. 2025 Sidestone PDF 66 MB, indirilmedi.",
+  "bulunamadı: Atlantik Fransa/Brittany menhir (Carnac) tarihleri - yalnız Barnenez için popüler/ikincil özetler (4850-4250, 4450-4000 gibi); Le Roux & Lecerf 2003 birincil okunmadı, ALINMADI.",
+  "bulunamadı: İskandinav Tunç Çağı sayısal tarih - Hjortspring teknesi (Danimarka, Öncesi Roma Demir Çağı) 381-161 cal BCE (95.4%) çıktı (Plos One 2025, e0336965) ancak Tunç Çağı değil, kayda alınmadı.",
+  "bulunamadı: Tarquinia/Populonia/Caere için Villanova uzun-kısa kronoloji SAYISAL karşılaştırması - kaynaklar göreli seramik fazı veriyor."
+ ]
+}

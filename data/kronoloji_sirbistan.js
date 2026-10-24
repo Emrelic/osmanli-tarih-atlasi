@@ -159,7 +159,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"II. Murad ile Macar Kralı I. Ulászló arasındaki barışın bir parçası olarak Sırp Despotluğu'nun toprakları Đurađ Branković'e iade edildi; despotluk kısa bir soluklanma dönemine girdi. Bu barış aynı yıl sonunda Varna'da Macar tarafınca bozulacaktır.",
   kaynak:"devletler.js `sirp-despotlugu` künyesi + TDV `semendire`." },
 
-{ taraflar:["sirp-despotlugu"], t:"1448-10-17", b:"II. Kosova Savaşı — despotluğun tarafsızlığı", tur:"savas",
+{ odak_yer:["Belgrad"], taraflar:["sirp-despotlugu"], t:"1448-10-17", b:"II. Kosova Savaşı — despotluğun tarafsızlığı", tur:"savas",
   onem:2, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"",
   d:"Hunyadi János'un Osmanlı'ya karşı düzenlediği haçlı seferi, Sırp Despotluğu topraklarından geçerken Đurađ Branković'in desteğini ALAMADI; despotluk, 1444'te iade edilen topraklarını yeniden tehlikeye atmamak için tarafsız kaldı ve hatta bazı kaynaklara göre Macar ordusunun geçişini engelledi.", ic_not_d:"II. Murad'ın zaferiyle Osmanlı'nın Balkanlar'daki konumu kalıcılaştı. dunya puanı kronoloji_macaristan.js'teki aynı olayla eşleştirildi.",
@@ -253,13 +253,13 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Özerk Sırp yönetimi, Osmanlı askerî idaresinde kalan son dört kaledeki (Belgrad, Fethülislâm, Semendire, Böğürdelen) garnizonların geri çekilmesini sağladı; Sırbistan'daki fiilî Osmanlı askerî varlığı burada sona erdi ve tam bağımsızlığa giden yolda kritik bir eşik aşıldı.", ic_not_d:"TDV gün vermiyor, YYYY-01-01.",
   kaynak:"TDV `sirbistan`: '1867'de Özerk Sırp yönetimi Osmanlı askerî idaresinde bulunan Belgrad, Fethülislâm, Semendire ve Böğürdelen kalelerindeki garnizonların geri çekilmesiyle buralardaki egemenliğini güçlendirdi.'" },
 
-{ taraflar:["sirbistan-prensligi"], t:"1876-06-30", b:"Sırbistan Osmanlı Devleti'ne savaş ilan etti", tur:"savas",
+{ odak_yer:["Belgrad"], taraflar:["sirbistan-prensligi"], t:"1876-06-30", b:"Sırbistan Osmanlı Devleti'ne savaş ilan etti", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"",
   d:"1875'te Bosna-Hersek'te başlayan Hristiyan köylü ayaklanmalarının Balkanlar'a yayılması üzerine Sırbistan ve Karadağ Osmanlı Devleti'ne savaş ilan etti; Sırp ordusu Rus gönüllü general Çernayev komutasında saldırıya geçti ama yenilgiye uğradı — nihai bağımsızlık ancak 1877-78 Osmanlı-Rus Savaşı'nın sonunda gelecektir.",
   kaynak:"TDV `sirbistan`: '1875'te Bosna-Hersek'te başlayan isyanlar üzerine Sırbistan ve Karadağ Osmanlı Devleti'ne karşı savaşa girdi.' Gün: akademik (Jelavich)." },
 
-{ taraflar:["sirbistan-prensligi"], t:"1878-03-03", b:"Ayastefanos (San Stefano) Antlaşması — bağımsızlık ilk kez tanındı", tur:"antlasma",
+{ odak_yer:["Belgrad"], taraflar:["sirbistan-prensligi"], t:"1878-03-03", b:"Ayastefanos (San Stefano) Antlaşması — bağımsızlık ilk kez tanındı", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"1877-78 Osmanlı-Rus Savaşı'nı bitiren Ayastefanos Antlaşması'yla Osmanlı Devleti, Romanya, Karadağ ve Sırbistan'ın bağımsızlıklarını ilk kez kabul etti; Sırbistan'a Niş şehri de verildi.", ic_not_d:"Antlaşma, Avrupa devletlerinin (özellikle İngiltere'nin) itirazıyla dört ay sonra Berlin'de yeniden ele alınacaktır. dunya puanı kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
@@ -279,7 +279,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Bağımsızlığın uluslararası tanınmasının ardından Prens Milan Obrenović kendini kral ilan etti ve Prenslik, Sırbistan Krallığı'na dönüştü.", ic_not_d:"Bu tarih devletler.js `sirbistan-kralligi` künyesinin f: tarihidir.",
   kaynak:"TDV `sirbistan`: 'Prens Milan Obrenoviç 1882'de krallığını ilân etti.'" },
 
-{ taraflar:["sirbistan-kralligi"], t:"1885-11-14", b:"Sırp-Bulgar Savaşı başladı", tur:"savas",
+{ odak_yer:["Belgrad"], taraflar:["sirbistan-kralligi"], t:"1885-11-14", b:"Sırp-Bulgar Savaşı başladı", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"",
   d:"Bulgaristan'ın Doğu Rumeli eyaletini ilhak ederek Balkan güç dengesini bozmasına tepki olarak Sırbistan Bulgaristan'a savaş açtı; kısa savaş Sırbistan'ın Slivnitsa'da yenilgisiyle sonuçlandı ve Avusturya-Macaristan arabuluculuğuyla durduruldu. Gün akademik kaynaktan (standart tarih 14 Kasım 1885).",

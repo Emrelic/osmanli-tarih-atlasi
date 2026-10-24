@@ -1,0 +1,1644 @@
+{
+ "alias_teyitsiz_yazilmadi": [
+  "Seylan",
+  "Ahsâ",
+  "Rhône-Saône",
+  "Kosantîne",
+  "Lâride",
+  "Cebele",
+  "Mādā"
+ ],
+ "mukerrer": [
+  {
+   "ad": "Harran",
+   "atlas": "Harran",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Taormina",
+   "atlas": "Taormina",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Gırnata",
+   "atlas": "Granada",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Kerman",
+   "atlas": "Kirman",
+   "km": 1.34,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kançipuram",
+   "atlas": "Kançipuram (Kanchipuram)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Nisibis",
+   "atlas": "Nusaybin",
+   "km": 1.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Misis",
+   "atlas": "Misis (Yakapınar)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Taberiye",
+   "atlas": "Tiberya (Tabariyye / Tiberias)",
+   "km": 1.16,
+   "neden": "3km"
+  },
+  {
+   "ad": "Heraklion",
+   "atlas": "Kandiye (Girit)",
+   "km": 0.16,
+   "neden": "3km"
+  },
+  {
+   "ad": "Mazara del Vallo",
+   "atlas": "Mazara del Vallo",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Balkh",
+   "atlas": "Belh",
+   "km": 1.16,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kālîkalâ",
+   "atlas": "Erzurum",
+   "km": 0.9,
+   "neden": "ad"
+  },
+  {
+   "ad": "Ahlat",
+   "atlas": "Ahlat",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Carcassonne",
+   "atlas": "Carcassonne",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Meaux",
+   "atlas": "Meaux",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Halkis",
+   "atlas": "Eğriboz",
+   "km": 1.83,
+   "neden": "3km"
+  },
+  {
+   "ad": "Karystos",
+   "atlas": "Karistos (Kızılhisar)",
+   "km": 2.26,
+   "neden": "3km"
+  },
+  {
+   "ad": "Karmîsîn",
+   "atlas": "Kirmanşah",
+   "km": 0.68,
+   "neden": "3km"
+  },
+  {
+   "ad": "Menbic",
+   "atlas": "Münbiç",
+   "km": 0.2,
+   "neden": "3km"
+  },
+  {
+   "ad": "Tyrus",
+   "atlas": "Sûr (Tyre) — Lübnan",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Sart",
+   "atlas": "Sart",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Hamgmatāna = Ekbatana",
+   "atlas": "Hemedan",
+   "km": 0.74,
+   "neden": "3km"
+  },
+  {
+   "ad": "Shush",
+   "atlas": "Susa",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Nīnawā",
+   "atlas": "Ninova",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Emesa",
+   "atlas": "Humus",
+   "km": 1.2,
+   "neden": "3km"
+  },
+  {
+   "ad": "Senlis",
+   "atlas": "Senlis",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Auxerre",
+   "atlas": "Auxerre",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Laon",
+   "atlas": "Laon",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Strasbourg",
+   "atlas": "Strazburg",
+   "km": 1.1,
+   "neden": "3km"
+  },
+  {
+   "ad": "Peshawar",
+   "atlas": "Peşâver",
+   "km": 0.49,
+   "neden": "3km"
+  },
+  {
+   "ad": "Nikomedia",
+   "atlas": "İzmit",
+   "km": 0.3,
+   "neden": "ad"
+  },
+  {
+   "ad": "Yakapınar",
+   "atlas": "Misis (Yakapınar)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Sis",
+   "atlas": "Sis (Kozan)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Béziers",
+   "atlas": "Béziers",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Şanlıurfa",
+   "atlas": "Urfa",
+   "km": 1.4,
+   "neden": "ad"
+  },
+  {
+   "ad": "Hatra",
+   "atlas": "Hatra",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Harran",
+   "atlas": "Harran",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Alamut",
+   "atlas": "Alamut (Alamut Kalesi, Kazvin vilayeti)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Ekbatana",
+   "atlas": "Hemedan",
+   "km": 0.74,
+   "neden": "3km"
+  },
+  {
+   "ad": "Negroponte",
+   "atlas": "Eğriboz",
+   "km": 0.8,
+   "neden": "ad"
+  },
+  {
+   "ad": "Sarakusta",
+   "atlas": "Zaragoza",
+   "km": 1.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Belensiye",
+   "atlas": "Valensiya",
+   "km": 0.01,
+   "neden": "3km"
+  },
+  {
+   "ad": "Mürsiye",
+   "atlas": "Murcia",
+   "km": 0.4,
+   "neden": "ad"
+  },
+  {
+   "ad": "Qalʿat Sherqat",
+   "atlas": "Aşşur",
+   "km": 0.45,
+   "neden": "3km"
+  },
+  {
+   "ad": "Unug",
+   "atlas": "Uruk (Warka)",
+   "km": 0.7,
+   "neden": "ad"
+  },
+  {
+   "ad": "Korint (Korinthos)",
+   "atlas": "Korint",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Thebai (Teb)",
+   "atlas": "İstefe (Tebai)",
+   "km": 0.26,
+   "neden": "3km"
+  },
+  {
+   "ad": "Aigospotamoi",
+   "atlas": "Gelibolu",
+   "km": 1.5,
+   "neden": "ad"
+  },
+  {
+   "ad": "Sardes",
+   "atlas": "Sart",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Halikarnassos",
+   "atlas": "Bodrum",
+   "km": 1.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Miletos",
+   "atlas": "Balat (Palatia)",
+   "km": 2.3,
+   "neden": "ad"
+  },
+  {
+   "ad": "Efes (Ephesos)",
+   "atlas": "Ayasuluk (Selçuk)",
+   "km": 2.5,
+   "neden": "ad"
+  },
+  {
+   "ad": "Tyros (Sur)",
+   "atlas": "Sûr (Tyre) — Lübnan",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Gazze (Gaza)",
+   "atlas": "Gazze",
+   "km": 2.44,
+   "neden": "3km"
+  },
+  {
+   "ad": "Lysimacheia",
+   "atlas": "Bolayır",
+   "km": 1.8,
+   "neden": "ad"
+  },
+  {
+   "ad": "Ambrakia",
+   "atlas": "Arta",
+   "km": 0.8,
+   "neden": "ad"
+  },
+  {
+   "ad": "Dardanos",
+   "atlas": "Çanakkale",
+   "km": 8.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Nikomedeia",
+   "atlas": "İzmit",
+   "km": 0.3,
+   "neden": "ad"
+  },
+  {
+   "ad": "Narbo Martius",
+   "atlas": "Narbonne",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Capua",
+   "atlas": "Capua",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Kyrene (Cyrene)",
+   "atlas": "Beyzâ (Kirene)",
+   "km": 0.79,
+   "neden": "3km"
+  },
+  {
+   "ad": "Cirta",
+   "atlas": "Konstantin",
+   "km": 0.38,
+   "neden": "3km"
+  },
+  {
+   "ad": "Massalia",
+   "atlas": "Marsilya",
+   "km": 1.01,
+   "neden": "3km"
+  },
+  {
+   "ad": "Pantikapaion",
+   "atlas": "Kerç",
+   "km": 0.57,
+   "neden": "3km"
+  },
+  {
+   "ad": "Singidunum",
+   "atlas": "Belgrad",
+   "km": 0.56,
+   "neden": "3km"
+  },
+  {
+   "ad": "Soissons (Noviodunum)",
+   "atlas": "Soissons",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Salona",
+   "atlas": "Solin",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Palmyra",
+   "atlas": "Tedmür (Palmyra)",
+   "km": 0.6,
+   "neden": "ad"
+  },
+  {
+   "ad": "Napata (Cebel Barkal)",
+   "atlas": "Merevî",
+   "km": 1.82,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kirene (Cyrene)",
+   "atlas": "Beyzâ (Kirene)",
+   "km": 0.79,
+   "neden": "3km"
+  },
+  {
+   "ad": "Syene",
+   "atlas": "Asvan",
+   "km": 0.26,
+   "neden": "3km"
+  },
+  {
+   "ad": "Hattuşa",
+   "atlas": "Hattuşa",
+   "km": 0.6,
+   "neden": "ad"
+  },
+  {
+   "ad": "Samiriye (Samaria)",
+   "atlas": "Samiriye",
+   "km": 0.01,
+   "neden": "3km"
+  },
+  {
+   "ad": "Teymâ (Tayma)",
+   "atlas": "Teymâ",
+   "km": 1.23,
+   "neden": "3km"
+  },
+  {
+   "ad": "Teb (Waset)",
+   "atlas": "Uksur (Luksor)",
+   "km": 2.6,
+   "neden": "3km"
+  },
+  {
+   "ad": "Harran",
+   "atlas": "Harran",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Sardes (Sart)",
+   "atlas": "Sart",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Ekbatana (Hegmatane)",
+   "atlas": "Hemedan",
+   "km": 0.74,
+   "neden": "3km"
+  },
+  {
+   "ad": "Hatra",
+   "atlas": "Hatra",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Meroe",
+   "atlas": "Meroe",
+   "km": 4.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Karkemiş",
+   "atlas": "Cerablus",
+   "km": 0.87,
+   "neden": "3km"
+  },
+  {
+   "ad": "Megiddo",
+   "atlas": "Megiddo",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Memfis (Menfe/Mit Rahina)",
+   "atlas": "Memphis",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Harran",
+   "atlas": "Harran",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Meyyâfârikîn (Silvan)",
+   "atlas": "Meyyâfârikīn",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Rey (Rhages; Tahran güneyi)",
+   "atlas": "Rey",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Büst (Lashkar Gah/Bust, Helmand)",
+   "atlas": "Büst",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Ahlat",
+   "atlas": "Ahlat",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Uclés (Uklîş)",
+   "atlas": "Uclés",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Denia (Dâniye)",
+   "atlas": "Dénia",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Vic (Ausona)",
+   "atlas": "Vic (Ausona / Osona)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Mytilene",
+   "atlas": "Midilli",
+   "km": 0.78,
+   "neden": "3km"
+  },
+  {
+   "ad": "Karkamis",
+   "atlas": "Cerablus",
+   "km": 0.5,
+   "neden": "3km"
+  },
+  {
+   "ad": "Nikomedia",
+   "atlas": "İzmit",
+   "km": 0.3,
+   "neden": "ad"
+  },
+  {
+   "ad": "Mylasa",
+   "atlas": "Milas",
+   "km": 1.6,
+   "neden": "ad"
+  },
+  {
+   "ad": "Odessos",
+   "atlas": "Varna",
+   "km": 0.9,
+   "neden": "ad"
+  },
+  {
+   "ad": "Nauplia",
+   "atlas": "Anabolu (Nauplion)",
+   "km": 0.78,
+   "neden": "3km"
+  },
+  {
+   "ad": "Massalia",
+   "atlas": "Marsilya",
+   "km": 1.01,
+   "neden": "3km"
+  },
+  {
+   "ad": "Mansura",
+   "atlas": "Mansûre",
+   "km": 0.06,
+   "neden": "3km"
+  },
+  {
+   "ad": "Gırnata",
+   "atlas": "Granada",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Brundisium",
+   "atlas": "Brindisi",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Katane",
+   "atlas": "Katanya (Catania)",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Brixia",
+   "atlas": "Brescia",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Bologna",
+   "atlas": "Bolonya",
+   "km": 0.21,
+   "neden": "3km"
+  },
+  {
+   "ad": "Cirta",
+   "atlas": "Konstantin",
+   "km": 0.38,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kâbis",
+   "atlas": "Gabes",
+   "km": 1.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Balh",
+   "atlas": "Belh",
+   "km": 1.16,
+   "neden": "3km"
+  },
+  {
+   "ad": "Buda",
+   "atlas": "Aquincum-Óbuda-Pest",
+   "km": 0.08,
+   "neden": "3km"
+  },
+  {
+   "ad": "Ras",
+   "atlas": "Ras",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Pyeongyang",
+   "atlas": "Pyongyang",
+   "km": 10.9,
+   "neden": "ad"
+  },
+  {
+   "ad": "Taksila",
+   "atlas": "Taksila",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Thourioi",
+   "atlas": "Sybaris",
+   "km": 0.3,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Artaksata",
+   "atlas": "Artaksata",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Volubilis",
+   "atlas": "Velîlâ",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Abydos",
+   "atlas": "Abydos",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Marienburg",
+   "atlas": "Marienburg",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Worms",
+   "atlas": "Worms",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Alalah",
+   "atlas": "Kinalua",
+   "km": 1.34,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Cürcân",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Ktesifon",
+   "atlas": "Ktesiphon",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Meyyâfârikīn",
+   "atlas": "Meyyâfârikīn",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Meißen",
+   "atlas": "Meissen",
+   "km": 0.35,
+   "neden": "3km"
+  },
+  {
+   "ad": "Bâbülebvâb",
+   "atlas": "Derbend",
+   "km": 1.09,
+   "neden": "3km"
+  },
+  {
+   "ad": "Saluzzo",
+   "atlas": "Saluzzo",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Haliç",
+   "atlas": "Haliç",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Şeyzer",
+   "atlas": "Şeyzer",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Duvîn",
+   "atlas": "Dvin",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Efes",
+   "atlas": "Ayasuluk (Selçuk)",
+   "km": 2.55,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kadıköy",
+   "atlas": "Kadıköy",
+   "km": 1.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Székesfehérvár",
+   "atlas": "İstolni Belgrad",
+   "km": 0.05,
+   "neden": "3km"
+  },
+  {
+   "ad": "Legnano",
+   "atlas": "Legnano",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Dînever",
+   "atlas": "Dînever",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Medâin",
+   "atlas": "Ktesiphon",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kirman",
+   "atlas": "Kirman",
+   "km": 0.4,
+   "neden": "ad"
+  },
+  {
+   "ad": "Kannauj",
+   "atlas": "Kannauc",
+   "km": 0.32,
+   "neden": "3km"
+  },
+  {
+   "ad": "Ani",
+   "atlas": "Ani",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Silvan",
+   "atlas": "Meyyâfârikīn",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Tancavur",
+   "atlas": "Tancûr (Thanjavur)",
+   "km": 0.53,
+   "neden": "3km"
+  },
+  {
+   "ad": "Preslav",
+   "atlas": "Preslav",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Polonnaruva",
+   "atlas": "Polonnaruwa",
+   "km": 0.88,
+   "neden": "3km"
+  },
+  {
+   "ad": "Remle",
+   "atlas": "Remle (Ramla)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Berdea",
+   "atlas": "Berde (Karabağ)",
+   "km": 1.36,
+   "neden": "3km"
+  },
+  {
+   "ad": "Baden",
+   "atlas": "Baden-Baden",
+   "km": 0.28,
+   "neden": "3km"
+  },
+  {
+   "ad": "Verdun",
+   "atlas": "Verdun",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Derbent",
+   "atlas": "Derbend",
+   "km": 1.09,
+   "neden": "3km"
+  },
+  {
+   "ad": "Bagan",
+   "atlas": "Pagan",
+   "km": 0.53,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kartaca",
+   "atlas": "Kartaca (Carthage)",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Deybül",
+   "atlas": "Deybül (Debal)",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Afyonkarahisar",
+   "atlas": "Karahisâr-ı Sâhib (Afyon)",
+   "km": 0.03,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kaliningrad",
+   "atlas": "Königsberg",
+   "km": 2.23,
+   "neden": "3km"
+  },
+  {
+   "ad": "Dumbarton",
+   "atlas": "Dumbarton",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Petra",
+   "atlas": "Petra",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Talas",
+   "atlas": "Taraz (Evliya-Ata)",
+   "km": 0.24,
+   "neden": "3km"
+  },
+  {
+   "ad": "Barbastro",
+   "atlas": "Barbastro",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Kalyani",
+   "atlas": "Kalyani (Basavakalyan)",
+   "km": 0.4,
+   "neden": "ad"
+  },
+  {
+   "ad": "Canterbury",
+   "atlas": "Canterbury",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Simancas",
+   "atlas": "Simancas",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Palmira",
+   "atlas": "Tedmür (Palmyra)",
+   "km": 0.5,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kayravan",
+   "atlas": "Kayrevan",
+   "km": 0.18,
+   "neden": "3km"
+  },
+  {
+   "ad": "Fes",
+   "atlas": "Fas (Fez)",
+   "km": 0.11,
+   "neden": "3km"
+  },
+  {
+   "ad": "Tâfîlâlt",
+   "atlas": "Sicilmâse (Tâfilelt)",
+   "km": 0.77,
+   "neden": "3km"
+  },
+  {
+   "ad": "Zülpich",
+   "atlas": "Tolbiacum",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Yesrib",
+   "atlas": "Medine",
+   "km": 0.4,
+   "neden": "ad"
+  },
+  {
+   "ad": "Peluzyum",
+   "atlas": "Feremâ",
+   "km": 0.3,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Pelusium",
+   "atlas": "Feremâ",
+   "km": 0.3,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Babilon Kalesi",
+   "atlas": "Eski Kahire",
+   "km": 0.18,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Babilon",
+   "atlas": "Eski Kahire",
+   "km": 0.18,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Partav",
+   "atlas": "Berde (Karabağ)",
+   "km": 0.9,
+   "neden": "3km"
+  },
+  {
+   "ad": "Koço",
+   "atlas": "Gaochang",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Kao-ch'ang",
+   "atlas": "Gaochang",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Büst",
+   "atlas": "Büst",
+   "km": 0.6,
+   "neden": "ad"
+  },
+  {
+   "ad": "Tmutorakan",
+   "atlas": "Taman",
+   "km": 1.81,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kulumriye",
+   "atlas": "Coimbra",
+   "km": 1.55,
+   "neden": "3km"
+  },
+  {
+   "ad": "Trablusgarp",
+   "atlas": "Trablus",
+   "km": 1.14,
+   "neden": "3km"
+  },
+  {
+   "ad": "Üşbûne",
+   "atlas": "Lizbon",
+   "km": 0.3,
+   "neden": "ad"
+  },
+  {
+   "ad": "Ceyyân",
+   "atlas": "Jaén",
+   "km": 1.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Chalkis",
+   "atlas": "Eğriboz",
+   "km": 0.26,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kanauj",
+   "atlas": "Kannauc",
+   "km": 0.46,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kerek",
+   "atlas": "Kerak",
+   "km": 0.35,
+   "neden": "3km"
+  },
+  {
+   "ad": "Châlons",
+   "atlas": "Catalaunum (Châlons)",
+   "km": 0.5,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Geneva",
+   "atlas": "Cenevre",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Saint-Maurice",
+   "atlas": "Saint-Maurice d'Agaune",
+   "km": 0.61,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Tingis",
+   "atlas": "Tanca",
+   "km": 1.29,
+   "neden": "3km"
+  },
+  {
+   "ad": "Caesarea",
+   "atlas": "Şerşel (Cherchell)",
+   "km": 0.61,
+   "neden": "3km"
+  },
+  {
+   "ad": "Argentoratum",
+   "atlas": "Strazburg",
+   "km": 1.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Arbela",
+   "atlas": "Erbil",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Carrhae",
+   "atlas": "Harran",
+   "km": 0.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Barbalissus",
+   "atlas": "Bâlis",
+   "km": 0.01,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Vagarşapat",
+   "atlas": "Eçmiyadzin",
+   "km": 1.57,
+   "neden": "3km"
+  },
+  {
+   "ad": "Chrysopolis",
+   "atlas": "Üsküdar",
+   "km": 0.3,
+   "neden": "ad"
+  },
+  {
+   "ad": "Ctesiphon",
+   "atlas": "Ktesiphon",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Arîş",
+   "atlas": "El-Arîş",
+   "km": 2.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Durrës",
+   "atlas": "Draç",
+   "km": 0.98,
+   "neden": "3km"
+  },
+  {
+   "ad": "Dıraç",
+   "atlas": "Draç",
+   "km": 0.98,
+   "neden": "3km"
+  },
+  {
+   "ad": "Mısır",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Azerbaycan",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Mezopotamya",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Sicilya",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "İtalya",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Hindistan",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  }
+ ],
+ "yazilmadi": {
+  "yok": 794,
+  "belirsiz": 196,
+  "tek_tanik": 603,
+  "dogal": 10,
+  "bolge": 43,
+  "bulunamadi": 111,
+  "cozulemedi": 743,
+  "atlasta_yakin": 90,
+  "model_red": 20,
+  "tek_kaynak": 55,
+  "celiski": 20,
+  "ikinci_tanik_yok": 18,
+  "bolge_adi": 55,
+  "?": 87
+ },
+ "yazilan": 360,
+ "haric": [
+  {
+   "ad": "Lade",
+   "neden": "Kronoloji Norveç Lade'si (Håkon jarl, 970); Pleiades 599746 İyonya'daki Lade adası (37.52K 27.18D) — kıtalar arası ad çakışması."
+  }
+ ],
+ "bagimsizlik_sinirli": [
+  {
+   "ad": "Tiryns",
+   "lat": 37.5994,
+   "lon": 22.7999,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Knossos",
+   "lat": 35.298,
+   "lon": 25.163,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Messene (Ithome)",
+   "lat": 37.1755,
+   "lon": 21.9202,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Ithome tepesi site'in hemen yaninda. Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Leuktra",
+   "lat": 38.2544,
+   "lon": 23.1821,
+   "dosya": "parti_102_sonuc.json",
+   "not": "MO 371 savas alani tam sahasi kesin degil; koy/yerlesim yaklasik 1-3 km. TGN Pleiades-OSM ile ayni olabilir."
+  },
+  {
+   "ad": "Mantineia",
+   "lat": 37.6173,
+   "lon": 22.3925,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Plataia",
+   "lat": 38.221,
+   "lon": 23.2735,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Sehir yeri kesin; MO 479 savas alaninin tam sahasi Asopos'un guneyinde tartismali ama ~5 km icinde."
+  },
+  {
+   "ad": "Amphipolis",
+   "lat": 40.825,
+   "lon": 23.842,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Memphis",
+   "lat": 29.8495,
+   "lon": 31.2551,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Sikyon",
+   "lat": 37.9838,
+   "lon": 22.7122,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Nikopolis (Lykos ovası)",
+   "lat": 40.1486,
+   "lon": 38.1435,
+   "dosya": "parti_102_sonuc.json",
+   "not": "TSV ipucu Koyulhisar (40.3,37.9) ~30 km uzakta; iki kaynak Purk/Susehri'yi gosterir. Lykos savasi alani ayrica tartismali; bu yalniz kent. Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Emporion",
+   "lat": 42.1334,
+   "lon": 3.1145,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Kartaca (Carthago)",
+   "lat": 36.8531,
+   "lon": 10.3231,
+   "dosya": "parti_102_sonuc.json",
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Cannae",
+   "lat": 41.29663,
+   "lon": 16.15153,
+   "dosya": "parti_103_sonuc.json",
+   "not": "Yerleşim/arkeolojik alan; savaş meydanı tam yeri tartışmalı ama kasaba-tepe konumu bellidir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Veii",
+   "lat": 42.0213,
+   "lon": 12.3905,
+   "dosya": "parti_103_sonuc.json",
+   "not": "Pleiades ile OSM panosu birbirine çok yakın. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Cumae (Kyme)",
+   "lat": 40.84795,
+   "lon": 14.05638,
+   "dosya": "parti_103_sonuc.json",
+   "not": "Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Himera",
+   "lat": 37.9698,
+   "lon": 13.8223,
+   "dosya": "parti_103_sonuc.json",
+   "not": "Sit Buonfornello'dadır (TSV ipucuyla ~0.2 km). iDAI kaba nokta 4 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Selinus",
+   "lat": 37.5883,
+   "lon": 12.8249,
+   "dosya": "parti_103_sonuc.json",
+   "not": "iDAI'deki 'Selinus' 36.3/32.3 (Antalya Selinus) ayrı yer; kullanılmadı. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Thapsus",
+   "lat": 35.6214,
+   "lon": 11.0427,
+   "dosya": "parti_103_sonuc.json",
+   "not": "Thapsus savaşı (MÖ 46) bu kentin çevresinde; meydan tam yeri yaklaşık. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Sarmizegetusa Regia",
+   "lat": 45.6229,
+   "lon": 23.3104,
+   "dosya": "parti_103_sonuc.json",
+   "not": "Pleiades/TGN (45.6696) ~5 km kuzeye kayık; iDAI+GeoNames+OSM 45.619-45.623 kümeleniyor. Önceki tek tanık değeri (45.6696) yerine 45.6229,23.3104 önerilir."
+  },
+  {
+   "ad": "Teutoburg Ormanı (Kalkriese)",
+   "lat": 52.4064,
+   "lon": 8.1286,
+   "dosya": "parti_103_sonuc.json",
+   "not": "Varus savaşı yeri olarak Kalkriese yaygın kabul görür (arkeolojik buluntular) ama kesin meydan tartışması sürer: yaklasik. Nokta Kalkriese'dir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Memphis (Men-nefer / İneb-hedj)",
+   "lat": 29.8495,
+   "lon": 31.2551,
+   "dosya": "parti_103_sonuc.json",
+   "not": "UNESCO Memphis ve nekropolü bölgesi. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Avaris / Pi-Ramesse",
+   "lat": 30.7863,
+   "lon": 31.8229,
+   "dosya": "parti_103_sonuc.json",
+   "not": "İki çağ yeri birbirine ~2.5 km; tek nokta Tell el-Dab'a. Bağımsız teyit: OSM Qantir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Megiddo (Tel Megiddo)",
+   "lat": 32.5854,
+   "lon": 35.1846,
+   "dosya": "parti_103_sonuc.json",
+   "not": "UNESCO Biblical Tels. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Kadeş (Qadesh)",
+   "lat": 34.5571,
+   "lon": 36.5194,
+   "dosya": "parti_103_sonuc.json",
+   "not": "TSV ipucu 34.5703 yerine 34.557 (1.5 km). Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Akhetaton (Amarna)",
+   "lat": 27.6441,
+   "lon": 30.8982,
+   "dosya": "parti_103_sonuc.json",
+   "not": "Pleiades antik şehir merkezi, GeoNames/OSM çağdaş köy: 1.8 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Bubastis (Per-Bast)",
+   "lat": 30.5725,
+   "lon": 31.5121,
+   "dosya": "parti_103_sonuc.json",
+   "not": "Pleiades CSV'sinde Bubastis girdisi bulunamadı. GeoNames+TGN+OSM site uyuşuyor; TSV ipucuna 0.2 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Agaune",
+   "lat": 46.213,
+   "lon": 7.005,
+   "dosya": "parti_92_sonuc.json",
+   "not": "Agaunum = Saint-Maurice d'Agaune (Valais). TGN'nin ikinci kaydı (7007300) GeoNames ile birebir aynı; bağımsızlık sınırlı."
+  },
+  {
+   "ad": "Besalú",
+   "lat": 42.1995,
+   "lon": 2.6985,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Meriye",
+   "lat": 36.836,
+   "lon": -2.455,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Pleiades 'Portus Magnus' Cezayir'dir, kullanılmadı."
+  },
+  {
+   "ad": "Turtûşe",
+   "lat": 40.8125,
+   "lon": 0.5216,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Kıta uyumu: 1148 Barselona kontu (Katalonya); Suriye Tartus elendi."
+  },
+  {
+   "ad": "Pontida",
+   "lat": 45.73,
+   "lon": 9.51,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Lombard Birliği yemini geleneği Pontida manastırına bağlıdır (Pontida, Bergamo yakını)."
+  },
+  {
+   "ad": "Windsor",
+   "lat": 51.4835,
+   "lon": -0.6025,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Avustralya/Kanada Windsor'ları elendi; 1175 Windsor Antlaşması İngiltere'dedir."
+  },
+  {
+   "ad": "Ulcinj",
+   "lat": 41.931,
+   "lon": 19.22,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Bonifacio",
+   "lat": 41.387,
+   "lon": 9.158,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Muret",
+   "lat": 43.463,
+   "lon": 1.326,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Peremışl",
+   "lat": 49.784,
+   "lon": 22.775,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Viljandi",
+   "lat": 58.363,
+   "lon": 25.592,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Fellin",
+   "lat": 58.363,
+   "lon": 25.592,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Lyndanise",
+   "lat": 59.4335,
+   "lon": 24.745,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Bornhöved",
+   "lat": 54.067,
+   "lon": 10.23,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Yaroslav",
+   "lat": 50.01,
+   "lon": 22.672,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Kıta uyumu: Danilo/Galiçya-Polonya-Macar koalisyonu, Rusya'daki Yaroslavl elendi."
+  },
+  {
+   "ad": "Jarosław",
+   "lat": 50.01,
+   "lon": 22.672,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Yaroslavl (57.63,39.87) 1245 bağlamına uymaz, elendi."
+  },
+  {
+   "ad": "Tavastehus",
+   "lat": 60.998,
+   "lon": 24.45,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Stockholm",
+   "lat": 59.331,
+   "lon": 18.07,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Dürnkrut",
+   "lat": 48.4735,
+   "lon": 16.855,
+   "dosya": "parti_95_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Mukaçevo",
+   "lat": 48.44,
+   "lon": 22.72,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Karpat-ötesi (Zakarpattia) bağlamıyla uyumlu."
+  },
+  {
+   "ad": "Lauffen am Neckar",
+   "lat": 49.0739,
+   "lon": 9.1461,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Ad tektir (Staufer Neckar kenti)."
+  },
+  {
+   "ad": "Thorn",
+   "lat": 53.015,
+   "lon": 18.59,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Thorn = Toruń; bağlam (Vistula, Kulm, Elbing, Balke 1231) Toruń ile uyumlu; GeoNames \"Thorn 51.16,5.84\" (Hollanda) bölge dışı elendi."
+  },
+  {
+   "ad": "Altenburg",
+   "lat": 50.9865,
+   "lon": 12.4356,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Pleißen Reichsland merkezi Altenburg (Türingiya); Aşağı Avusturya Altenburg 48.65,15.59 bağlam dışı elendi."
+  },
+  {
+   "ad": "Zwickau",
+   "lat": 50.73,
+   "lon": 12.49,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Pleißen Reichsland kenti Zwickau; Cvikov (Çekya) elendi."
+  },
+  {
+   "ad": "Alessandria",
+   "lat": 44.908,
+   "lon": 8.611,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Monferrato Markgrafı VII. Guglielmo bağlamı (Piemonte) Alessandria (AL) ile uyumlu; Mısır İskenderiyesi ve Calabria elendi."
+  },
+  {
+   "ad": "Bianjing",
+   "lat": 34.7833,
+   "lon": 114.3333,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Bianjing = Kaifeng (Jin 1214 başkenti); bu kimlik TGN kaydında doğrulanmadı, alan bilgisi — TDV/Kaifeng maddesiyle teyit edilmeli."
+  },
+  {
+   "ad": "Ponnani",
+   "lat": 10.767,
+   "lon": 75.9126,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Perumpadappu/Kochi hanedanının Ponnani'ye taşınması bağlamı Kerala ile uyumlu."
+  },
+  {
+   "ad": "Malazgirt",
+   "lat": 39.1465,
+   "lon": 42.5354,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Savaş alanı kasabanın çevresidir (savaş yeri kesin değil); koordinat Malazgirt ilçe merkezidir."
+  },
+  {
+   "ad": "Uşnu",
+   "lat": 37.045,
+   "lon": 45.09,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik (Uşnu = Oshnavieh) TDV başlığıyla önceki turda teyit edilmemişti (alias_teyit:false); bölge (Azerbaycan/Merâga çevresi) uyumlu."
+  },
+  {
+   "ad": "Hârim",
+   "lat": 36.51,
+   "lon": 36.21,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. İki kayıt DAI içinde; ikinci GeoNames ile birebir. Kimlik: Nûreddin Mahmud 1164 Hârim Haçlı kalesi = Qal'at Harim; çevre uyumlu."
+  },
+  {
+   "ad": "Katâi",
+   "lat": 30.0288,
+   "lon": 31.2496,
+   "dosya": "parti_96_sonuc.json",
+   "not": "Katâi için doğrudan koordinat kaydı bulunamadı; vekil (hesap). Katâi'nin yeri (Fustat'ın kuzeydoğusu, Camii İbn Tolun) bilinen konumdur ama tanıklar yerleşimi değil komşuyu gösterir — yaklaşık. İkinci tanık komşu Fustat olduğundan bağımsızlık sınırlı."
+  }
+ ],
+ "bilesik_ad_yazilmadi": [
+  "Sebte (Ceuta), Sicilmâse mevcut ama Secûmâ (Sicilmâse yakını) yok"
+ ],
+ "ad_cakisti_yazilmadi": [
+  "Mora",
+  "Hadramut"
+ ]
+}

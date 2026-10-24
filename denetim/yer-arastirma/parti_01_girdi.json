@@ -1,0 +1,285 @@
+{
+ "sinif": "yok",
+ "adlar": [
+  {
+   "ad": "Ötüken",
+   "madde_sayisi": 23,
+   "yil_araligi": [
+    552,
+    920
+   ],
+   "ornek_maddeler": [
+    "0716-01-01 İlteriş'in oğlu Bilge Kağan tahta çıkar",
+    "0731-01-01 Kültigin ölür",
+    "0732-01-01 Kültigin Yazıtı dikilir (Orhon yazıtları)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Medâin",
+   "madde_sayisi": 21,
+   "yil_araligi": [
+    226,
+    755
+   ],
+   "ornek_maddeler": [
+    "0226-01-01 Erdeşîr Medâin'de şâhânşâh olarak taç giydi; Sâsânî İmparatorluğu kuru",
+    "0240-04-12 I. Şâpûr babası Erdeşîr'le ortak hükümdar oldu",
+    "0242-01-01 Erdeşîr öldü; I. Şâpûr tek başına hükümdar kaldı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Rey",
+   "madde_sayisi": 13,
+   "yil_araligi": [
+    427,
+    1095
+   ],
+   "ornek_maddeler": [
+    "0427-01-01 V. Behram Akhunlar'ı Rey'de yendi",
+    "0916-07-05 Yûsuf b. Ebü’s-Sâc Sâmânî idaresindeki Rey’e girdi",
+    "0924-03-18 Yûsuf b. Ebü’s-Sâc Ebher-Zencan arasında Sâmânî valisini yenip Rey’e h"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Şanlıurfa",
+   "madde_sayisi": 9,
+   "yil_araligi": [
+    -9528,
+    1131
+   ],
+   "ornek_maddeler": [
+    "1027-01-01 Nasrüddevle Urfa'yı ele geçirdi",
+    "1031-01-01 Bizans Urfa'ya yerleşti, Mervânî kuşatması sonuçsuz kaldı",
+    "1081-01-01 Türk emîri Hüsrev, Filaretos'un elindeki Urfa'yı kuşattı, alamadı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kannauj",
+   "madde_sayisi": 8,
+   "yil_araligi": [
+    770,
+    1170
+   ],
+   "ornek_maddeler": [
+    "0770-01-01 Dharmapala Pala tahtında (yak. 770-810); krallığı genişletir, bir süre",
+    "0816-01-01 II. Nagabhata Kannauj'u Çakrayudha'dan alır ve yeni başkent yapar (yak",
+    "0836-01-01 Mihira Bhoja Pratihara tahtına çıkar (yak. 836)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Ani",
+   "madde_sayisi": 8,
+   "yil_araligi": [
+    885,
+    1161
+   ],
+   "ornek_maddeler": [
+    "0885-06-18 Bagratlı Aşot (I. Aşot) halife ve Bizans imparatorunca Ermenistan kral",
+    "0893-01-01 Ermeni kralı I. Smbat Bizans’la ittifakı yeniledi (VI. Leon’a elçi)",
+    "0962-01-01 III. Aşot başkenti Ani’ye taşıdı; kardeşi Muşeg’e merkezi Kars olan Va"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Pavia",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    476,
+    951
+   ],
+   "ornek_maddeler": [
+    "0476-08-23 Odoacer askerlerince kral ilan edildi",
+    "0774-01-01 Karl (Charlemagne) Lombard kralı oldu; Lombard Krallığı sona erdi",
+    "0817-01-01 Pius Louis Bernard'ın yerine Lothar'ı İtalya kralı yaptı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kuzey Çin",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    207,
+    630
+   ],
+   "ornek_maddeler": [
+    "0207-01-01 Cao Cao Kuzey Çin’in denetimini ele geçirdi",
+    "0303-01-01 Kuzey Çin’de Yabancı hanedanlar (On Altı Krallık) dönemi başladı",
+    "0577-01-01 Kuzey Zhou Kuzey Qi’yi fethedip kuzeyi birleştirdi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Doğu Anglia",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    616,
+    927
+   ],
+   "ornek_maddeler": [
+    "0616-01-01 Raedwald Doğu Anglia'nın ilk kralı; River Idle zaferiyle Humber güneyi",
+    "0825-01-01 Doğu Anglialılar Mercia boyunduruğunu atıp Beornwulf'u öldürdü",
+    "0855-01-01 Edmund Doğu Anglia kralı oldu"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Ktesifon",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    10,
+    637
+   ],
+   "ornek_maddeler": [
+    "0010-01-01 II. Artabanos Ktesifon'da Part kralı olarak taç giydi",
+    "0035-01-01 Ermenistan vârisliği krizi: Roma adayı Tiridates Ktesifon'da Part kral",
+    "0116-01-01 Traianus Babil, Seleukeia ve Ktesifon'u aldı, Basra Körfezi'ne ulaştı;"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Hîre",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    268,
+    602
+   ],
+   "ornek_maddeler": [
+    "0268-01-01 Cezîme el-Ebraş Zebbâ'ca öldürüldü; Amr b. Adî ilk Lahmî hükümdarı old",
+    "0288-01-01 İmruülkays b. Amr Lahmî tahtına geçti (288-328)",
+    "0525-01-01 Hâris b. Amr Bekir ve Tağlib desteğiyle Hîre'yi ele geçirdi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Meyyâfârikīn",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    983,
+    1260
+   ],
+   "ornek_maddeler": [
+    "0983-06-15 Bâd Meyyâfârikīn'i aldı; Mervânî devletinin temeli atıldı",
+    "0990-03-31 Bâd öldü; yeğeni Ebû Ali Hasan Meyyâfârikīn'i ve Diyarbekir kalelerini",
+    "0997-01-14 Ebû Ali Hasan öldürüldü; kardeşi Mümehhidüddevle Saîd geçti"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Silvan",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    983,
+    1260
+   ],
+   "ornek_maddeler": [
+    "0983-06-15 Bâd Meyyâfârikīn'i aldı; Mervânî devletinin temeli atıldı",
+    "1109-01-01 Sökmen el-Kutbî Meyyâfârikīn'ı aldı; Âmid'in İnaloğulları ona tâbi old",
+    "1110-01-01 Dilmaçoğlu Togan Arslan Silvan'a bağlı köyleri aldı, sonra bağımsızlığ"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Hatra",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    117,
+    240
+   ],
+   "ornek_maddeler": [
+    "0117-01-01 Traianus Hatra'yı kuşattı ancak su ve odun yokluğundan sonuç alamadı",
+    "0193-01-01 Hatra kralı Barsemias ve Part kralı V. Vologases Pescennius Niger'i de",
+    "0197-01-01 Septimius Severus ikinci kez Hatra'yı kuşattı; kuşatma makineleri yakı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Harran",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    217,
+    1174
+   ],
+   "ornek_maddeler": [
+    "0217-04-08 Caracalla Harran yakınında suikastla öldürüldü; yerine Macrinus geçti",
+    "0991-01-01 Sa'düddevle'nin ölümü: Halep'e bağlı valiler bağımsızlıklarını ilân et",
+    "1104-05-07 Harran Savaşı: Artukoğlu Sökmen ve Çökürmüş, Urfa ve Antakya Haçlıları"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kerec",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    825,
+    897
+   ],
+   "ornek_maddeler": [
+    "0825-04-24 Ebû Dülef el-İclî Kerec merkezli Dülefî emirliğinin başına geçti",
+    "0839-11-12 Dülefî emîri Abdülazîz b. Ebû Dülef başa geçti",
+    "0873-10-27 Dülef b. Abdülazîz Dülefî emîri oldu"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Meißen",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    1089,
+    1263
+   ],
+   "ornek_maddeler": [
+    "1089-01-01 Wettin soyundan Heinrich I. von Eilenburg Meißen Markgraflığı ile bele",
+    "1123-01-01 Dük Lothar von Süpplingenburg Meißen Markgraflığı'nı Wettin'den Konrad",
+    "1156-01-01 Konrad tahttan çekildi; Otto der Reiche Meißen Markgrafı oldu"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Alamut",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    1091,
+    1198
+   ],
+   "ornek_maddeler": [
+    "1091-01-01 Melikşah'ın Alamut kuşatması sonuçsuz kaldı",
+    "1094-01-01 Nizârî-Müsta'lî ayrılığı: Hasan Sabbâh Fâtımîlerle ilişkiyi kesti",
+    "1117-07-13 Sultan Muhammed Tapar'ın büyük Alamut kuşatması"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Ekbatana",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    -677,
+    224
+   ],
+   "ornek_maddeler": [
+    "-0147-01-01 Ekbatana: sahipsiz aralık → Part (Arsakid) Imparatorlugu",
+    "-0322-06-10 Babil, Ekbatana, Pasargad, Uruk: Buyuk Iskender Imparatorlugu → sahips",
+    "-0327-01-01 Ekbatana: sahipsiz aralık → Buyuk Iskender Imparatorlugu"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Bâbülebvâb",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    642,
+    869
+   ],
+   "ornek_maddeler": [
+    "0652-01-01 Selmân b. Rebîa Derbend'i aşıp Hazar başşehri Belencer'e kadar ilerled",
+    "0714-01-01 Mesleme b. Abdülmelik Derbend geçidini aldı",
+    "0642-11-30 Bâbülebvâb (Derbend) harekâtı: Sürâka b. Amr komutasındaki İslâm ordus"
+   ],
+   "kronolojide_yer_kon": null
+  }
+ ]
+}

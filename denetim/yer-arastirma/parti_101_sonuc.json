@@ -1,0 +1,3521 @@
+{
+ "parti": 101,
+ "yontem": "cevrimdisi Pleiades+GeoNames; KRON-ANTIK TSV",
+ "sonuclar": [
+  {
+   "ad": "Mikene (Mycenae)",
+   "modern_ad": "Mykines (Argolis)",
+   "tsv_ipucu": [
+    37.73,
+    22.76
+   ],
+   "ilgili_devlet": "miken",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Mikínai",
+   "ulke_modern": "GR",
+   "lat": 37.730456,
+   "lon": 22.756172,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/780715578 (Grave Circle A at Mycenae, tomb, cemetery, precise)",
+     "lat": 37.730456,
+     "lon": 22.756172
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/257059 (Mikínai, GR)",
+     "lat": 37.71947,
+     "lon": 22.74569
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Pylos (Ano Englianos)",
+   "modern_ad": "Pylos / Chora",
+   "tsv_ipucu": [
+    37.03,
+    21.7
+   ],
+   "ilgili_devlet": "miken",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Chóra",
+   "ulke_modern": "GR",
+   "lat": 37.0271376905,
+   "lon": 21.694962419,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/156116232 (Nestor's Palace, palace-complex, settlement, archaeological-site, palace, precise)",
+     "lat": 37.0271376905,
+     "lon": 21.694962419
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/259919 (Chóra, GR)",
+     "lat": 37.05106,
+     "lon": 21.7169
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Tiryns",
+   "modern_ad": "Tiryns (Argolis)",
+   "tsv_ipucu": [
+    37.6,
+    22.8
+   ],
+   "ilgili_devlet": "miken",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.5992830636,
+    "lon": 22.7999855106,
+    "kaynak": "Pleiades 570740"
+   },
+   "lat": 37.5992830636,
+   "lon": 22.7999855106,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/570740 (Tiryns, settlement, findspot, precise)",
+     "lat": 37.5992830636,
+     "lon": 22.7999855106
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Knossos",
+   "modern_ad": "Knossos (Girit)",
+   "tsv_ipucu": [
+    35.3,
+    25.16
+   ],
+   "ilgili_devlet": "minos",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 35.2980325787,
+    "lon": 25.1628568364,
+    "kaynak": "Pleiades 238779098"
+   },
+   "lat": 35.2980325787,
+   "lon": 25.1628568364,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/238779098 (Minoan Palatial Center (Knossos), palace-complex, architecturalcomplex, precise)",
+     "lat": 35.2980325787,
+     "lon": 25.1628568364
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Sparta",
+   "modern_ad": "Sparti",
+   "tsv_ipucu": [
+    37.07,
+    22.43
+   ],
+   "ilgili_devlet": "sparta",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Sparta",
+   "ulke_modern": "GR",
+   "lat": 37.0817824552,
+   "lon": 22.4246722824,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/570685 (Sparta, settlement, temple, temple-2, archaeological-site, precise)",
+     "lat": 37.0817824552,
+     "lon": 22.4246722824
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/253394 (Sparta, GR)",
+     "lat": 37.07446,
+     "lon": 22.43009
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.4 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Messene (Ithome)",
+   "modern_ad": "Mavromati",
+   "tsv_ipucu": [
+    37.18,
+    21.92
+   ],
+   "ilgili_devlet": "sparta",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.1753043883,
+    "lon": 21.9200475448,
+    "kaynak": "Pleiades 570479"
+   },
+   "lat": 37.1753043883,
+   "lon": 21.9200475448,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/570479 (Messene, settlement, precise)",
+     "lat": 37.1753043883,
+     "lon": 21.9200475448
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Tegea",
+   "modern_ad": "Alea Tegea",
+   "tsv_ipucu": [
+    37.45,
+    22.42
+   ],
+   "ilgili_devlet": "peloponnes-birligi",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Aléa",
+   "ulke_modern": "GR",
+   "lat": 37.455301,
+   "lon": 22.420672,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/570707 (Tegea, settlement, precise)",
+     "lat": 37.455301,
+     "lon": 22.420672
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/265368 (Aléa, GR)",
+     "lat": 37.45469,
+     "lon": 22.42068
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Megalopolis",
+   "modern_ad": "Megalopoli",
+   "tsv_ipucu": [
+    37.4,
+    22.14
+   ],
+   "ilgili_devlet": "peloponnes-birligi",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Megalópoli",
+   "ulke_modern": "GR",
+   "lat": 37.414271211,
+   "lon": 22.1263961621,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/570467 (Megalopolis, settlement, archaeological-site, precise)",
+     "lat": 37.414271211,
+     "lon": 22.1263961621
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/257395 (Megalópoli, GR)",
+     "lat": 37.40111,
+     "lon": 22.14222
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 2.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Korint (Korinthos)",
+   "modern_ad": "Archaia Korinthos",
+   "tsv_ipucu": [
+    37.91,
+    22.88
+   ],
+   "ilgili_devlet": "korint",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Kórinthos",
+   "ulke_modern": "GR",
+   "lat": 37.9056416435,
+   "lon": 22.8786143909,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/570182 (Corinthus/Korinthos, settlement, archaeological-site, precise)",
+     "lat": 37.9056416435,
+     "lon": 22.8786143909
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/259289 (Kórinthos, GR)",
+     "lat": 37.94007,
+     "lon": 22.9513
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Thebai (Teb)",
+   "modern_ad": "Thiva",
+   "tsv_ipucu": [
+    38.32,
+    23.32
+   ],
+   "ilgili_devlet": "boiotia-birligi",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Thívai",
+   "ulke_modern": "GR",
+   "lat": 38.3199488333,
+   "lon": 23.3176534333,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/541138 (Thebai/Thebae, settlement, archaeological-site, findspot, precise)",
+     "lat": 38.3199488333,
+     "lon": 23.3176534333
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/252910 (Thívai, GR)",
+     "lat": 38.325,
+     "lon": 23.31889
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.2 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Leuktra",
+   "modern_ad": "Lefktra (Boiotia)",
+   "tsv_ipucu": [
+    38.2,
+    23.2
+   ],
+   "ilgili_devlet": "sparta",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 38.2544053,
+    "lon": 23.1821091,
+    "kaynak": "Pleiades 540913"
+   },
+   "lat": 38.2544053,
+   "lon": 23.1821091,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/540913 (Leuktra, settlement, settlement-modern, precise)",
+     "lat": 38.2544053,
+     "lon": 23.1821091
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 6.2 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Mantineia",
+   "modern_ad": "Mantineia (Arkadia)",
+   "tsv_ipucu": [
+    37.62,
+    22.38
+   ],
+   "ilgili_devlet": "boiotia-birligi",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.6173785,
+    "lon": 22.3925775,
+    "kaynak": "Pleiades 570459"
+   },
+   "lat": 37.6173785,
+   "lon": 22.3925775,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/570459 (Mantineia/Antigoneia, settlement, precise)",
+     "lat": 37.6173785,
+     "lon": 22.3925775
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Plataia",
+   "modern_ad": "Plataies",
+   "tsv_ipucu": [
+    38.22,
+    23.27
+   ],
+   "ilgili_devlet": "atina-demokrasisi",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Marathon",
+   "modern_ad": "Marathonas",
+   "tsv_ipucu": [
+    38.15,
+    23.96
+   ],
+   "ilgili_devlet": "atina-demokrasisi",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Marathónas",
+   "ulke_modern": "GR",
+   "lat": 38.1465515,
+   "lon": 23.970146,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/580021 (Marathon, settlement, deme-attic, precise)",
+     "lat": 38.1465515,
+     "lon": 23.970146
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/257717 (Marathónas, GR)",
+     "lat": 38.15317,
+     "lon": 23.96278
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.0 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Salamis (boğaz)",
+   "modern_ad": "Salamina",
+   "tsv_ipucu": [
+    37.96,
+    23.5
+   ],
+   "ilgili_devlet": "atina-demokrasisi",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Salamína",
+   "ulke_modern": "GR",
+   "lat": 37.9487647,
+   "lon": 23.53033145,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/580100 (Salamis (settlement), settlement, settlement-modern, precise)",
+     "lat": 37.9487647,
+     "lon": 23.53033145
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/254144 (Salamína, GR)",
+     "lat": 37.96427,
+     "lon": 23.49649
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 2.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Aigospotamoi",
+   "modern_ad": "Çanakkale Boğazı Trakya yakası (Gelibolu)",
+   "tsv_ipucu": [
+    40.4,
+    26.6
+   ],
+   "ilgili_devlet": "delos-birligi",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Gelibolu",
+   "ulke_modern": "TR",
+   "lat": 40.4139,
+   "lon": 26.6807775,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/501450 (Kallipo(u)lis, settlement, port, precise)",
+     "lat": 40.4139,
+     "lon": 26.6807775
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/746983 (Gelibolu, TR)",
+     "lat": 40.40836,
+     "lon": 26.67174
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 7.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Thasos",
+   "modern_ad": "Thasos",
+   "tsv_ipucu": [
+    40.78,
+    24.7
+   ],
+   "ilgili_devlet": "delos-birligi",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Thásos",
+   "ulke_modern": "GR",
+   "lat": 40.78201,
+   "lon": 24.717535,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/501634 (Thasos (settlement), settlement, precise)",
+     "lat": 40.78201,
+     "lon": 24.717535
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/734094 (Thásos, GR)",
+     "lat": 40.77806,
+     "lon": 24.70944
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Amphipolis",
+   "modern_ad": "Amfipoli",
+   "tsv_ipucu": [
+    40.82,
+    23.84
+   ],
+   "ilgili_devlet": "makedonya-krallik",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 40.8258114808,
+    "lon": 23.8415794323,
+    "kaynak": "Pleiades 501347"
+   },
+   "lat": 40.8258114808,
+   "lon": 23.8415794323,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/501347 (Amphipolis, city-wall, settlement, fort, precise)",
+     "lat": 40.8258114808,
+     "lon": 23.8415794323
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.7 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Olynthos",
+   "modern_ad": "Olynthos (Khalkidiki)",
+   "tsv_ipucu": [
+    40.29,
+    23.36
+   ],
+   "ilgili_devlet": "makedonya-krallik",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Ólynthos",
+   "ulke_modern": "GR",
+   "lat": 40.295241948,
+   "lon": 23.3542614956,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/491678 (Olynthos, settlement, precise)",
+     "lat": 40.295241948,
+     "lon": 23.3542614956
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/734996 (Ólynthos, GR)",
+     "lat": 40.29147,
+     "lon": 23.34205
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.8 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Pella",
+   "modern_ad": "Pella",
+   "tsv_ipucu": [
+    40.76,
+    22.52
+   ],
+   "ilgili_devlet": "antigonid-makedonya",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Pélla",
+   "ulke_modern": "GR",
+   "lat": 40.7543596457,
+   "lon": 22.5182247655,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/491687 (Pella/Diokletianoupolis, settlement, archaeological-site, precise)",
+     "lat": 40.7543596457,
+     "lon": 22.5182247655
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/734726 (Pélla, GR)",
+     "lat": 40.76169,
+     "lon": 22.52637
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Aigai (Vergina)",
+   "modern_ad": "Vergina",
+   "tsv_ipucu": [
+    40.48,
+    22.32
+   ],
+   "ilgili_devlet": "makedonya-krallik",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Vergína",
+   "ulke_modern": "GR",
+   "lat": 40.480092,
+   "lon": 22.321872,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/491512 (Aigeai, settlement, precise)",
+     "lat": 40.480092,
+     "lon": 22.321872
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/733901 (Vergína, GR)",
+     "lat": 40.48654,
+     "lon": 22.31735
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.2 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Khaironeia",
+   "modern_ad": "Chaironeia",
+   "tsv_ipucu": [
+    38.49,
+    22.85
+   ],
+   "ilgili_devlet": "makedonya-krallik",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Krannon",
+   "modern_ad": "Krannon (Tesalya)",
+   "tsv_ipucu": [
+    39.6,
+    22.4
+   ],
+   "ilgili_devlet": "atina-demokrasisi",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 39.4991145,
+    "lon": 22.304133,
+    "kaynak": "Pleiades 540886"
+   },
+   "lat": 39.4991145,
+   "lon": 22.304133,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/540886 (Krannon/Ephyra, settlement, precise)",
+     "lat": 39.4991145,
+     "lon": 22.304133
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 13.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Granikos",
+   "modern_ad": "Biga Çayı (Çanakkale)",
+   "tsv_ipucu": [
+    40.2,
+    27.3
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Sardes",
+   "modern_ad": "Sart (Salihli)",
+   "tsv_ipucu": [
+    38.49,
+    28.04
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Salihli",
+   "ulke_modern": "TR",
+   "lat": 38.488314,
+   "lon": 28.040286,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/550867 ( Sardis/Hyde?, settlement, precise)",
+     "lat": 38.488314,
+     "lon": 28.040286
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/302043 (Salihli, TR)",
+     "lat": 38.48258,
+     "lon": 28.14774
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.2 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Halikarnassos",
+   "modern_ad": "Bodrum",
+   "tsv_ipucu": [
+    37.04,
+    27.43
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Bodrum",
+   "ulke_modern": "TR",
+   "lat": 37.0404005,
+   "lon": 27.4221505,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/599636 (Halicarnassus/Halikarnassos, settlement, port, monument, precise)",
+     "lat": 37.0404005,
+     "lon": 27.4221505
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/320995 (Bodrum, TR)",
+     "lat": 37.03833,
+     "lon": 27.42917
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.7 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Miletos",
+   "modern_ad": "Miletos (Söke/Balat)",
+   "tsv_ipucu": [
+    37.53,
+    27.28
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Balat",
+   "ulke_modern": "TR",
+   "lat": 37.53046444,
+   "lon": 27.2788084839,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/599799 (Miletus, settlement, port, archaeological-site, precise)",
+     "lat": 37.53046444,
+     "lon": 27.2788084839
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/322215 (Balat, TR)",
+     "lat": 37.51278,
+     "lon": 27.27917
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Efes (Ephesos)",
+   "modern_ad": "Selçuk",
+   "tsv_ipucu": [
+    37.94,
+    27.34
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Selçuk",
+   "ulke_modern": "TR",
+   "lat": 37.940164272,
+   "lon": 27.342402982,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/599612 (Ephesus/Arsinoe(ia), settlement, archaeological-site, precise)",
+     "lat": 37.940164272,
+     "lon": 27.342402982
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/301256 (Selçuk, TR)",
+     "lat": 37.95137,
+     "lon": 27.36849
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.2 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Issos",
+   "modern_ad": "Kinet Höyük / İskenderun Körfezi",
+   "tsv_ipucu": [
+    36.8,
+    36.2
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.8536681114,
+    "lon": 36.1570387516,
+    "kaynak": "Pleiades 658490"
+   },
+   "lat": 36.8536681114,
+   "lon": 36.1570387516,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/658490 (Issus/Nikopolis, settlement, archaeological-site, precise)",
+     "lat": 36.8536681114,
+     "lon": 36.1570387516
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 7.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Tyros (Sur)",
+   "modern_ad": "Sour (Lübnan)",
+   "tsv_ipucu": [
+    33.27,
+    35.2
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Tyre",
+   "ulke_modern": "LB",
+   "lat": 33.2693355,
+   "lon": 35.201829,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/678437 (Tyrus/Col. Septimia Severa, settlement, settlement-modern, findspot, precise)",
+     "lat": 33.2693355,
+     "lon": 35.201829
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/267008 (Tyre, LB)",
+     "lat": 33.27333,
+     "lon": 35.19389
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.2 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Gazze (Gaza)",
+   "modern_ad": "Gazze",
+   "tsv_ipucu": [
+    31.5,
+    34.47
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Gaza",
+   "ulke_modern": "PS",
+   "lat": 31.5202095,
+   "lon": 34.451719,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/687902 (Gaza, settlement, port, precise)",
+     "lat": 31.5202095,
+     "lon": 34.451719
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/281133 (Gaza, PS)",
+     "lat": 31.50161,
+     "lon": 34.46672
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 2.8 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Memphis",
+   "modern_ad": "Mit Rahine",
+   "tsv_ipucu": [
+    29.85,
+    31.25
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 29.849491,
+    "lon": 31.255061,
+    "kaynak": "Pleiades 736963"
+   },
+   "lat": 29.849491,
+   "lon": 31.255061,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/736963 (Memphis, urban, settlement, archaeological-site, precise)",
+     "lat": 29.849491,
+     "lon": 31.255061
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Gaugamela",
+   "modern_ad": "Tel Gomel (Kuzey Irak)",
+   "tsv_ipucu": [
+    36.4,
+    43.3
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Hydaspes (Jhelum) / Taksila",
+   "modern_ad": "Jhelum / Taxila (Pakistan)",
+   "tsv_ipucu": [
+    32.93,
+    73.73
+   ],
+   "ilgili_devlet": "iskender-imparatorlugu",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Triparadeisos",
+   "modern_ad": "Suriye (kesin yer bilinmiyor)",
+   "tsv_ipucu": [
+    null,
+    null
+   ],
+   "ilgili_devlet": "antigonos",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 34.443566,
+    "lon": 36.594978,
+    "kaynak": "Pleiades 668393"
+   },
+   "lat": 34.443566,
+   "lon": 36.594978,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/668393 ((Tri)Paradeisos, settlement, precise)",
+     "lat": 34.443566,
+     "lon": 36.594978
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Gabiene",
+   "modern_ad": "İran (kesin yer bilinmiyor)",
+   "tsv_ipucu": [
+    null,
+    null
+   ],
+   "ilgili_devlet": "antigonos",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Ipsos",
+   "modern_ad": "Afyon-Sipsin yakını (tartışmalı)",
+   "tsv_ipucu": [
+    38.6,
+    30.5
+   ],
+   "ilgili_devlet": "antigonos",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Lysimacheia",
+   "modern_ad": "Hexamilion / Bolayır (Gelibolu)",
+   "tsv_ipucu": [
+    40.5,
+    26.7
+   ],
+   "ilgili_devlet": "lizimakhos",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Bolayır",
+   "ulke_modern": "TR",
+   "lat": 40.548232,
+   "lon": 26.75081,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/501458 (Kardia/Lysimacheia, settlement, precise)",
+     "lat": 40.548232,
+     "lon": 26.75081
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/750525 (Bolayır, TR)",
+     "lat": 40.51498,
+     "lon": 26.75725
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 6.9 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Korupedion",
+   "modern_ad": "Lidya (Salihli yakını, tartışmalı)",
+   "tsv_ipucu": [
+    38.5,
+    28.0
+   ],
+   "ilgili_devlet": "lizimakhos",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Kynoskephalai",
+   "modern_ad": "Tesalya (Farsala-Larissa arası)",
+   "tsv_ipucu": [
+    39.4,
+    22.5
+   ],
+   "ilgili_devlet": "antigonid-makedonya",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Pydna",
+   "modern_ad": "Kitros (Pieria)",
+   "tsv_ipucu": [
+    40.4,
+    22.6
+   ],
+   "ilgili_devlet": "antigonid-makedonya",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Kítros",
+   "ulke_modern": "GR",
+   "lat": 40.3975687841,
+   "lon": 22.6149909099,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/491703 (Pydna, settlement, archaeological-site, precise)",
+     "lat": 40.3975687841,
+     "lon": 22.6149909099
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/735702 (Kítros, GR)",
+     "lat": 40.37399,
+     "lon": 22.57862
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.3 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Sellasia",
+   "modern_ad": "Lakonia (Sellasia)",
+   "tsv_ipucu": [
+    37.2,
+    22.4
+   ],
+   "ilgili_devlet": "antigonid-makedonya",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.169269,
+    "lon": 22.440604,
+    "kaynak": "Pleiades 570662"
+   },
+   "lat": 37.169269,
+   "lon": 22.440604,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/570662 (Sellasia, ruin, settlement, precise)",
+     "lat": 37.169269,
+     "lon": 22.440604
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 5.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Delphi",
+   "modern_ad": "Delphi",
+   "tsv_ipucu": [
+    38.48,
+    22.5
+   ],
+   "ilgili_devlet": "aitolia-birligi",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Delphi",
+   "ulke_modern": "GR",
+   "lat": 38.482289,
+   "lon": 22.501169,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/540726 (Delphi, sanctuary, settlement, precise)",
+     "lat": 38.482289,
+     "lon": 22.501169
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/263219 (Delphi, GR)",
+     "lat": 38.47942,
+     "lon": 22.49357
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Ambrakia",
+   "modern_ad": "Arta",
+   "tsv_ipucu": [
+    39.15,
+    20.99
+   ],
+   "ilgili_devlet": "aitolia-birligi",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Árta",
+   "ulke_modern": "GR",
+   "lat": 39.1549245,
+   "lon": 20.9900925,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/530794 (Ambracia, settlement, precise)",
+     "lat": 39.1549245,
+     "lon": 20.9900925
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/264559 (Árta, GR)",
+     "lat": 39.16014,
+     "lon": 20.98561
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Sikyon",
+   "modern_ad": "Sikyon (Korint körfezi)",
+   "tsv_ipucu": [
+    37.98,
+    22.72
+   ],
+   "ilgili_devlet": "akhaia-birligi",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Leukopetra",
+   "modern_ad": "Isthmos yakını",
+   "tsv_ipucu": [
+    37.9,
+    22.9
+   ],
+   "ilgili_devlet": "akhaia-birligi",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Apameia (Kibotos)",
+   "modern_ad": "Dinar (Afyon)",
+   "tsv_ipucu": [
+    38.07,
+    30.16
+   ],
+   "ilgili_devlet": "bergama",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Dinar",
+   "ulke_modern": "TR",
+   "lat": 38.07007556,
+   "lon": 30.1716213761,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/638751 (Apamea/Kelainai/Kibotos, settlement, settlement-modern, precise)",
+     "lat": 38.07007556,
+     "lon": 30.1716213761
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/316634 (Dinar, TR)",
+     "lat": 38.065,
+     "lon": 30.16557
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Dardanos",
+   "modern_ad": "Çanakkale (Dardanos)",
+   "tsv_ipucu": [
+    40.03,
+    26.4
+   ],
+   "ilgili_devlet": "pontus",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Çanakkale",
+   "ulke_modern": "TR",
+   "lat": 40.079727,
+   "lon": 26.37442,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/501393 (Dardanos, settlement, precise)",
+     "lat": 40.079727,
+     "lon": 26.37442
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/749780 (Çanakkale, TR)",
+     "lat": 40.15552,
+     "lon": 26.41271
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 5.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Nikopolis (Lykos ovası)",
+   "modern_ad": "Koyulhisar/Sivas",
+   "tsv_ipucu": [
+    40.3,
+    37.9
+   ],
+   "ilgili_devlet": "pontus",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Nikomedeia",
+   "modern_ad": "İzmit",
+   "tsv_ipucu": [
+    40.77,
+    29.92
+   ],
+   "ilgili_devlet": "bitinya",
+   "durum": "cift_tanik",
+   "esanlam_modern": "İzmit",
+   "ulke_modern": "TR",
+   "lat": 40.7651905,
+   "lon": 29.919887,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/511337 (Nicomedia, settlement, precise)",
+     "lat": 40.7651905,
+     "lon": 29.919887
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/745028 (İzmit, TR)",
+     "lat": 40.76499,
+     "lon": 29.92928
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Zela",
+   "modern_ad": "Zile (Tokat)",
+   "tsv_ipucu": [
+    40.3,
+    35.89
+   ],
+   "ilgili_devlet": "pontus",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Zile",
+   "ulke_modern": "TR",
+   "lat": 40.3038830899,
+   "lon": 35.8901884263,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/857382 (Zela, settlement, archaeological-site, precise)",
+     "lat": 40.3038830899,
+     "lon": 35.8901884263
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/737054 (Zile, TR)",
+     "lat": 40.30306,
+     "lon": 35.88639
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Emporion",
+   "modern_ad": "Empúries (Katalonya)",
+   "tsv_ipucu": [
+    42.13,
+    3.12
+   ],
+   "ilgili_devlet": "roma-cumhuriyeti",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.13342,
+    "lon": 3.1145495,
+    "kaynak": "Pleiades 246382"
+   },
+   "lat": 42.13342,
+   "lon": 3.1145495,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/246382 (Emporiae, settlement, port, precise)",
+     "lat": 42.13342,
+     "lon": 3.1145495
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Numantia",
+   "modern_ad": "Garray (Soria)",
+   "tsv_ipucu": [
+    41.81,
+    -2.45
+   ],
+   "ilgili_devlet": "roma-cumhuriyeti",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Soria",
+   "ulke_modern": "ES",
+   "lat": 41.809388242,
+   "lon": -2.44433338524,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/246523 (Numantia, settlement, precise)",
+     "lat": 41.809388242,
+     "lon": -2.44433338524
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3108681 (Soria, ES)",
+     "lat": 41.76401,
+     "lon": -2.46883
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Narbo Martius",
+   "modern_ad": "Narbonne",
+   "tsv_ipucu": [
+    43.18,
+    3.0
+   ],
+   "ilgili_devlet": "roma-cumhuriyeti",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Narbonne",
+   "ulke_modern": "FR",
+   "lat": 43.1836165,
+   "lon": 3.004203,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/246347 (Col. Narbo Martius, settlement, precise)",
+     "lat": 43.1836165,
+     "lon": 3.004203
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2990919 (Narbonne, FR)",
+     "lat": 43.18396,
+     "lon": 3.00141
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Capua",
+   "modern_ad": "Santa Maria Capua Vetere",
+   "tsv_ipucu": [
+    41.09,
+    14.26
+   ],
+   "ilgili_devlet": "roma-cumhuriyeti",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Santa Maria Capua Vetere",
+   "ulke_modern": "IT",
+   "lat": 41.0860925,
+   "lon": 14.250207,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/432754 (Capua, settlement, precise)",
+     "lat": 41.0860925,
+     "lon": 14.250207
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3167561 (Santa Maria Capua Vetere, IT)",
+     "lat": 41.08156,
+     "lon": 14.25342
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Kartaca (Carthago)",
+   "modern_ad": "Tunus yakını (Kartaca)",
+   "tsv_ipucu": [
+    36.85,
+    10.33
+   ],
+   "ilgili_devlet": "kartaca",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.853056,
+    "lon": 10.323056,
+    "kaynak": "Pleiades 314921"
+   },
+   "lat": 36.853056,
+   "lon": 10.323056,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/314921 (Carthago, settlement, port, precise)",
+     "lat": 36.853056,
+     "lon": 10.323056
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.7 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Utica",
+   "modern_ad": "Utique (Tunus)",
+   "tsv_ipucu": [
+    37.06,
+    10.06
+   ],
+   "ilgili_devlet": "roma-cumhuriyeti",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.0558774503,
+    "lon": 10.0600077651,
+    "kaynak": "Pleiades 315248"
+   },
+   "lat": 37.0558774503,
+   "lon": 10.0600077651,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/315248 (Utica, settlement, archaeological-site, precise)",
+     "lat": 37.0558774503,
+     "lon": 10.0600077651
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Saguntum",
+   "modern_ad": "Sagunto",
+   "tsv_ipucu": [
+    39.68,
+    -0.28
+   ],
+   "ilgili_devlet": "kartaca",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Sagunto",
+   "ulke_modern": "ES",
+   "lat": 39.678125,
+   "lon": -0.2772475,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/266021 (Saguntum/Arse, settlement, precise)",
+     "lat": 39.678125,
+     "lon": -0.2772475
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2511619 (Sagunto, ES)",
+     "lat": 39.68333,
+     "lon": -0.26667
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Ilipa",
+   "modern_ad": "Alcalá del Río (Sevilla)",
+   "tsv_ipucu": [
+    37.52,
+    -5.98
+   ],
+   "ilgili_devlet": "roma-cumhuriyeti",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Alcalá del Río",
+   "ulke_modern": "ES",
+   "lat": 37.518215,
+   "lon": -5.978254,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/256222 (Ilipa Magna, settlement, precise)",
+     "lat": 37.518215,
+     "lon": -5.978254
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2522474 (Alcalá del Río, ES)",
+     "lat": 37.5178,
+     "lon": -5.98185
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Cannae",
+   "modern_ad": "Canne della Battaglia (Apulia)",
+   "tsv_ipucu": [
+    41.3,
+    16.13
+   ],
+   "ilgili_devlet": "kartaca",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 41.296683331,
+    "lon": 16.1518327589,
+    "kaynak": "Pleiades 442523"
+   },
+   "lat": 41.296683331,
+   "lon": 16.1518327589,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/442523 (Cannae, settlement, precise)",
+     "lat": 41.296683331,
+     "lon": 16.1518327589
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Zama",
+   "modern_ad": "Tunus (konum bilinmiyor)",
+   "tsv_ipucu": [
+    null,
+    null
+   ],
+   "ilgili_devlet": "roma-cumhuriyeti",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Veii",
+   "modern_ad": "Isola Farnese (Roma)",
+   "tsv_ipucu": [
+    42.0,
+    12.4
+   ],
+   "ilgili_devlet": "etrusk-sehir-devletleri",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.021338,
+    "lon": 12.390519,
+    "kaynak": "Pleiades 423116"
+   },
+   "lat": 42.021338,
+   "lon": 12.390519,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/423116 (Veii, urban, settlement, precise)",
+     "lat": 42.021338,
+     "lon": 12.390519
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 2.5 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Sentinum",
+   "modern_ad": "Sassoferrato (Marche)",
+   "tsv_ipucu": [
+    43.43,
+    12.86
+   ],
+   "ilgili_devlet": "etrusk-sehir-devletleri",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Sassoferrato",
+   "ulke_modern": "IT",
+   "lat": 43.427013,
+   "lon": 12.855963,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/413312 (Sentinum, settlement, precise)",
+     "lat": 43.427013,
+     "lon": 12.855963
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3167068 (Sassoferrato, IT)",
+     "lat": 43.43109,
+     "lon": 12.8566
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Volsinii",
+   "modern_ad": "Orvieto",
+   "tsv_ipucu": [
+    42.72,
+    12.11
+   ],
+   "ilgili_devlet": "etrusk-sehir-devletleri",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Orvieto",
+   "ulke_modern": "IT",
+   "lat": 42.716449,
+   "lon": 12.111566,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/413373 (Velzna/*Volsinii Veteres/Urbiventus, settlement, precise)",
+     "lat": 42.716449,
+     "lon": 12.111566
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3171874 (Orvieto, IT)",
+     "lat": 42.71924,
+     "lon": 12.11249
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 3 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Alalia",
+   "modern_ad": "Aléria (Korsika)",
+   "tsv_ipucu": [
+    42.1,
+    9.5
+   ],
+   "ilgili_devlet": "etrusk-sehir-devletleri",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Aléria",
+   "ulke_modern": "FR",
+   "lat": 42.1009061165,
+   "lon": 9.51017992831,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/611814584 (Roman amphitheater at Alalie/Aleria, amphitheatre, precise)",
+     "lat": 42.1009061165,
+     "lon": 9.51017992831
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3038225 (Aléria, FR)",
+     "lat": 42.10431,
+     "lon": 9.51265
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.8 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Cumae (Kyme)",
+   "modern_ad": "Cuma (Kampanya)",
+   "tsv_ipucu": [
+    40.85,
+    14.05
+   ],
+   "ilgili_devlet": "etrusk-sehir-devletleri",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 40.84794965,
+    "lon": 14.0563813,
+    "kaynak": "Pleiades 432808"
+   },
+   "lat": 40.84794965,
+   "lon": 14.0563813,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/432808 (Cumae/Kyme (Campanian), settlement, port, precise)",
+     "lat": 40.84794965,
+     "lon": 14.0563813
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Himera",
+   "modern_ad": "Termini Imerese (Sicilya)",
+   "tsv_ipucu": [
+    37.97,
+    13.82
+   ],
+   "ilgili_devlet": "kartaca",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.9698366164,
+    "lon": 13.8223437955,
+    "kaynak": "Pleiades 462244"
+   },
+   "lat": 37.9698366164,
+   "lon": 13.8223437955,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/462244 (Himera, settlement, archaeological-site, precise)",
+     "lat": 37.9698366164,
+     "lon": 13.8223437955
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.2 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Selinus",
+   "modern_ad": "Selinunte",
+   "tsv_ipucu": [
+    37.58,
+    12.83
+   ],
+   "ilgili_devlet": "kartaca",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.5882816559,
+    "lon": 12.8248930865,
+    "kaynak": "Pleiades 462489"
+   },
+   "lat": 37.5882816559,
+   "lon": 12.8248930865,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/462489 (Selinus, settlement, archaeological-site, precise)",
+     "lat": 37.5882816559,
+     "lon": 12.8248930865
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.0 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Kyrene (Cyrene)",
+   "modern_ad": "Shahhat (Libya)",
+   "tsv_ipucu": [
+    32.82,
+    21.86
+   ],
+   "ilgili_devlet": "kyrene",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Shahhat",
+   "ulke_modern": "LY",
+   "lat": 32.8200266273,
+   "lon": 21.8565385134,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/373778 (Cyrene, settlement, precise)",
+     "lat": 32.8200266273,
+     "lon": 21.8565385134
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/7602388 (Shahhat, LY)",
+     "lat": 32.8043,
+     "lon": 21.86605
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Cirta",
+   "modern_ad": "Konstantine (Cezayir)",
+   "tsv_ipucu": [
+    36.37,
+    6.61
+   ],
+   "ilgili_devlet": "numidia",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Constantine",
+   "ulke_modern": "DZ",
+   "lat": 36.3681146667,
+   "lon": 6.61330266667,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/305064 (Cirta/Constantina, settlement, precise)",
+     "lat": 36.3681146667,
+     "lon": 6.61330266667
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2501152 (Constantine, DZ)",
+     "lat": 36.365,
+     "lon": 6.61472
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Thapsus",
+   "modern_ad": "Ras Dimas (Tunus)",
+   "tsv_ipucu": [
+    35.64,
+    11.03
+   ],
+   "ilgili_devlet": "numidia",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 35.6213685746,
+    "lon": 11.0427093523,
+    "kaynak": "Pleiades 324827"
+   },
+   "lat": 35.6213685746,
+   "lon": 11.0427093523,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/324827 (Thapsus, settlement, amphitheatre, port, archaeological-site, precise)",
+     "lat": 35.6213685746,
+     "lon": 11.0427093523
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 2.4 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Massalia",
+   "modern_ad": "Marsilya",
+   "tsv_ipucu": [
+    43.3,
+    5.37
+   ],
+   "ilgili_devlet": "massalia",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Marseille",
+   "ulke_modern": "FR",
+   "lat": 43.296854,
+   "lon": 5.382499,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/148127 (Massalia/Massilia, settlement, precise)",
+     "lat": 43.296854,
+     "lon": 5.382499
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2995469 (Marseille, FR)",
+     "lat": 43.29695,
+     "lon": 5.38107
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Pantikapaion",
+   "modern_ad": "Kerç",
+   "tsv_ipucu": [
+    45.35,
+    36.47
+   ],
+   "ilgili_devlet": "bosporos-krallik",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Kerch",
+   "ulke_modern": "UA",
+   "lat": 45.350983375,
+   "lon": 36.4685796815,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/854719 (Pantikapaion/Bosp(h)orus, settlement, port, precise)",
+     "lat": 45.350983375,
+     "lon": 36.4685796815
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/706524 (Kerch, UA)",
+     "lat": 45.35675,
+     "lon": 36.47542
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.2 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Sarmizegetusa Regia",
+   "modern_ad": "Grădiștea de Munte (Romanya)",
+   "tsv_ipucu": [
+    45.62,
+    23.31
+   ],
+   "ilgili_devlet": "dakya",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 45.669615,
+    "lon": 23.323961,
+    "kaynak": "Pleiades 207425"
+   },
+   "lat": 45.669615,
+   "lon": 23.323961,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/207425 (Sarmizegetusa (Regia), settlement, precise)",
+     "lat": 45.669615,
+     "lon": 23.323961
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 5.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Singidunum",
+   "modern_ad": "Belgrad",
+   "tsv_ipucu": [
+    44.82,
+    20.45
+   ],
+   "ilgili_devlet": "hun-avrupa",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Belgrade",
+   "ulke_modern": "RS",
+   "lat": 44.812991,
+   "lon": 20.4579465,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/207443 (Singidunum, settlement, precise)",
+     "lat": 44.812991,
+     "lon": 20.4579465
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/792680 (Belgrade, RS)",
+     "lat": 44.80401,
+     "lon": 20.46513
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Aquileia",
+   "modern_ad": "Aquileia (Friuli)",
+   "tsv_ipucu": [
+    45.77,
+    13.37
+   ],
+   "ilgili_devlet": "hun-avrupa",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Aquileia",
+   "ulke_modern": "IT",
+   "lat": 45.769631,
+   "lon": 13.370946,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/187290 (Aquileia, settlement, precise)",
+     "lat": 45.769631,
+     "lon": 13.370946
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3182943 (Aquileia, IT)",
+     "lat": 45.7683,
+     "lon": 13.36779
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Soissons (Noviodunum)",
+   "modern_ad": "Soissons",
+   "tsv_ipucu": [
+    49.38,
+    3.33
+   ],
+   "ilgili_devlet": "frank",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Soissons",
+   "ulke_modern": "FR",
+   "lat": 49.380839,
+   "lon": 3.3258515,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/108772 (Augusta Suessionum, settlement, precise)",
+     "lat": 49.380839,
+     "lon": 3.3258515
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2974389 (Soissons, FR)",
+     "lat": 49.38167,
+     "lon": 3.32361
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Salona",
+   "modern_ad": "Solin (Hırvatistan)",
+   "tsv_ipucu": [
+    43.54,
+    16.48
+   ],
+   "ilgili_devlet": "bati-roma",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Solin",
+   "ulke_modern": "HR",
+   "lat": 43.539561,
+   "lon": 16.483426,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/197488 (Salona, settlement, precise)",
+     "lat": 43.539561,
+     "lon": 16.483426
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3190359 (Solin, HR)",
+     "lat": 43.5432,
+     "lon": 16.49314
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Camulodunum",
+   "modern_ad": "Colchester",
+   "tsv_ipucu": [
+    51.89,
+    0.9
+   ],
+   "ilgili_devlet": "roma-imp",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Colchester",
+   "ulke_modern": "GB",
+   "lat": 51.8900740264,
+   "lon": 0.901087762674,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/79393 (Col. Camulodunum, settlement, precise)",
+     "lat": 51.8900740264,
+     "lon": 0.901087762674
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2652618 (Colchester, GB)",
+     "lat": 51.88921,
+     "lon": 0.90421
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Teutoburg Ormanı (Kalkriese)",
+   "modern_ad": "Kalkriese (Aşağı Saksonya)",
+   "tsv_ipucu": [
+    52.4,
+    8.1
+   ],
+   "ilgili_devlet": "roma-imp",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 52.406375562,
+    "lon": 8.12857832357,
+    "kaynak": "Pleiades 98992"
+   },
+   "lat": 52.406375562,
+   "lon": 8.12857832357,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/98992 (Kalkriese, settlement, archaeological-site, precise)",
+     "lat": 52.406375562,
+     "lon": 8.12857832357
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 2.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Palmyra",
+   "modern_ad": "Tedmür",
+   "tsv_ipucu": [
+    34.55,
+    38.27
+   ],
+   "ilgili_devlet": "roma-imp",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Tadmur",
+   "ulke_modern": "SY",
+   "lat": 34.5528093938,
+   "lon": 38.2648672156,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/668331 (Palmyra, urban, oasis, station, archaeological-site, settlement, precise)",
+     "lat": 34.5528093938,
+     "lon": 38.2648672156
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/163808 (Tadmur, SY)",
+     "lat": 34.5624,
+     "lon": 38.28402
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Catalaunum (Châlons)",
+   "modern_ad": "Châlons-en-Champagne",
+   "tsv_ipucu": [
+    48.96,
+    4.37
+   ],
+   "ilgili_devlet": "roma-imp",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Châlons-en-Champagne",
+   "ulke_modern": "FR",
+   "lat": 48.9551605,
+   "lon": 4.3606545,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/108944 (Durocatalaunum, settlement, precise)",
+     "lat": 48.9551605,
+     "lon": 4.3606545
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3027487 (Châlons-en-Champagne, FR)",
+     "lat": 48.95393,
+     "lon": 4.36724
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Toxandria",
+   "modern_ad": "Brabant (Hollanda-Belçika)",
+   "tsv_ipucu": [
+    51.5,
+    5.0
+   ],
+   "ilgili_devlet": "frank",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Tuna (Margus)",
+   "modern_ad": "Požarevac yakını (Sırbistan)",
+   "tsv_ipucu": [
+    44.7,
+    21.1
+   ],
+   "ilgili_devlet": "hun-avrupa",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "ad",
+   "modern_ad": "modern_ad",
+   "tsv_ipucu": [
+    null,
+    null
+   ],
+   "ilgili_devlet": "ilgili_devlet",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Memphis (Men-nefer / İneb-hedj)",
+   "modern_ad": "Mit Rahina (Kahire güneyi)",
+   "tsv_ipucu": [
+    29.8495,
+    31.2551
+   ],
+   "ilgili_devlet": "misir-erken-hanedan, misir-eski-krallik, ptolemai (başkent)",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 29.849491,
+    "lon": 31.255061,
+    "kaynak": "Pleiades 736963"
+   },
+   "lat": 29.849491,
+   "lon": 31.255061,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/736963 (Memphis, urban, settlement, archaeological-site, precise)",
+     "lat": 29.849491,
+     "lon": 31.255061
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Giza",
+   "modern_ad": "Giza Nekropolü",
+   "tsv_ipucu": [
+    29.9701,
+    31.1267
+   ],
+   "ilgili_devlet": "misir-eski-krallik",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Giza",
+   "ulke_modern": "EG",
+   "lat": 29.970055997,
+   "lon": 31.1266822757,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/442962448 (Giza, sanctuary, cemetery, pyramid, tomb, settlement, architecturalcomplex, precise)",
+     "lat": 29.970055997,
+     "lon": 31.1266822757
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/360995 (Giza, EG)",
+     "lat": 30.00944,
+     "lon": 31.20861
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Herakleopolis Magna (Henen-nesut)",
+   "modern_ad": "Ihnasya el-Medine (Beni Suef)",
+   "tsv_ipucu": [
+    29.0787,
+    30.9347
+   ],
+   "ilgili_devlet": "herakleopolis",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Itj-tawy",
+   "modern_ad": "Lisht (el-Lisht)",
+   "tsv_ipucu": [
+    29.5675,
+    31.2232
+   ],
+   "ilgili_devlet": "misir-orta-krallik",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 29.5675103879,
+    "lon": 31.2232262448,
+    "kaynak": "Pleiades 797229144"
+   },
+   "lat": 29.5675103879,
+   "lon": 31.2232262448,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/797229144 (Lisht, cemetery, related)",
+     "lat": 29.5675103879,
+     "lon": 31.2232262448
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Avaris / Pi-Ramesse",
+   "modern_ad": "Tell el-Dab'a / Qantir",
+   "tsv_ipucu": [
+    30.7863,
+    31.8229
+   ],
+   "ilgili_devlet": "hiksos-15, misir-yeni-krallik",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 30.7863139,
+    "lon": 31.8228926667,
+    "kaynak": "Pleiades 727080"
+   },
+   "lat": 30.7863139,
+   "lon": 31.8228926667,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/727080 (Avaris/Ramesses, settlement, archaeological-site, precise)",
+     "lat": 30.7863139,
+     "lon": 31.8228926667
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Şaruhen (Sharuhen)",
+   "modern_ad": "Tell el-Ajjul (önerilen, tartışmalı)",
+   "tsv_ipucu": [
+    31.4667,
+    34.4
+   ],
+   "ilgili_devlet": "misir-yeni-krallik (Hiksos son kalesi)",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 31.467665,
+    "lon": 34.404297,
+    "kaynak": "Pleiades 73662437"
+   },
+   "lat": 31.467665,
+   "lon": 34.404297,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/73662437 (Tell el-Ajjul, tell, precise)",
+     "lat": 31.467665,
+     "lon": 34.404297
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Megiddo (Tel Megiddo)",
+   "modern_ad": "Tel Megiddo (İsrail)",
+   "tsv_ipucu": [
+    32.585,
+    35.1846
+   ],
+   "ilgili_devlet": "misir-yeni-krallik (III. Thutmose, Megiddo savaşı)",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 32.5837762667,
+    "lon": 35.1837314847,
+    "kaynak": "Pleiades 26356565"
+   },
+   "lat": 32.5837762667,
+   "lon": 35.1837314847,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/26356565 (Magidû, settlement, archaeological-site, precise)",
+     "lat": 32.5837762667,
+     "lon": 35.1837314847
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.2 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Kadeş (Qadesh)",
+   "modern_ad": "Tell Nebi Mend (Hums yakını, Suriye)",
+   "tsv_ipucu": [
+    34.5703,
+    36.5192
+   ],
+   "ilgili_devlet": "misir-yeni-krallik (Kadeş savaşı), Hatti",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 34.5570749357,
+    "lon": 36.5193778642,
+    "kaynak": "Pleiades 668291"
+   },
+   "lat": 34.5570749357,
+   "lon": 36.5193778642,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/668291 (Laodicea ad Libanum, settlement, archaeological-site, precise)",
+     "lat": 34.5570749357,
+     "lon": 36.5193778642
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Akhetaton (Amarna)",
+   "modern_ad": "Tell el-Amarna",
+   "tsv_ipucu": [
+    27.6441,
+    30.8982
+   ],
+   "ilgili_devlet": "misir-yeni-krallik",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 27.6440995973,
+    "lon": 30.8981820375,
+    "kaynak": "Pleiades 149576487"
+   },
+   "lat": 27.6440995973,
+   "lon": 30.8981820375,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/149576487 (Amarna, settlement, urban, sanctuary, archaeological-site, precise)",
+     "lat": 27.6440995973,
+     "lon": 30.8981820375
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Tanis (Cane)",
+   "modern_ad": "San el-Hagar (Doğu Delta)",
+   "tsv_ipucu": [
+    30.9775,
+    31.88
+   ],
+   "ilgili_devlet": "misir-3-ara (XXI. Hanedan başkenti)",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Şān al Ḩajar al Qiblīyah",
+   "ulke_modern": "EG",
+   "lat": 30.9754528374,
+   "lon": 31.8836195624,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/727236 (Tanis, settlement, archaeological-site, findspot, precise)",
+     "lat": 30.9754528374,
+     "lon": 31.8836195624
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/349653 (Şān al Ḩajar al Qiblīyah, EG)",
+     "lat": 30.97478,
+     "lon": 31.87231
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Bubastis (Per-Bast)",
+   "modern_ad": "Tell Basta (Zagazig)",
+   "tsv_ipucu": [
+    30.5742,
+    31.512
+   ],
+   "ilgili_devlet": "misir-3-ara (XXII. Hanedan)",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Sais (Sa el-Hagar)",
+   "modern_ad": "Sa el-Hagar (Batı Delta)",
+   "tsv_ipucu": [
+    30.7744,
+    30.9671
+   ],
+   "ilgili_devlet": "sait-26-hanedan",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Momemphis",
+   "modern_ad": "Kom el-Hisn yakını (Batı Delta)",
+   "tsv_ipucu": [
+    30.6005,
+    30.7951
+   ],
+   "ilgili_devlet": "sait-26-hanedan",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Naukratis",
+   "modern_ad": "Kom Gieif (el-Nibeyra, Batı Delta)",
+   "tsv_ipucu": [
+    30.5919,
+    30.9005
+   ],
+   "ilgili_devlet": "sait-26-hanedan",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Pelusium",
+   "modern_ad": "Tell el-Farama (Port Said doğusu)",
+   "tsv_ipucu": [
+    31.0426,
+    32.5471
+   ],
+   "ilgili_devlet": "ahamenis-misir, ptolemai, iskender",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 31.0426270897,
+    "lon": 32.5471045497,
+    "kaynak": "Pleiades 727192"
+   },
+   "lat": 31.0426270897,
+   "lon": 32.5471045497,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/727192 (Pelusium, fort-2, church-2, temple-2, archaeological-site, settlement, port, fort, precise)",
+     "lat": 31.0426270897,
+     "lon": 32.5471045497
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Heroonpolis (Pithom çevresi)",
+   "modern_ad": "Tell el-Maskhuta (Vadi Tumilat)",
+   "tsv_ipucu": [
+    30.55,
+    32.09
+   ],
+   "ilgili_devlet": "ptolemai, roma-misir",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 30.5534153618,
+    "lon": 32.0995839765,
+    "kaynak": "Pleiades 727124"
+   },
+   "lat": 30.5534153618,
+   "lon": 32.0995839765,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/727124 (Heroonpolis, settlement, archaeological-site, findspot, precise)",
+     "lat": 30.5534153618,
+     "lon": 32.0995839765
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Napata (Cebel Barkal)",
+   "modern_ad": "Karima (Sudan)",
+   "tsv_ipucu": [
+    18.566,
+    31.8537
+   ],
+   "ilgili_devlet": "kush-krallik, kush-25-hanedan",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Kuraymah",
+   "ulke_modern": "SD",
+   "lat": 18.565952,
+   "lon": 31.853738,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/805634 (Napata, settlement, precise)",
+     "lat": 18.565952,
+     "lon": 31.853738
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/371870 (Kuraymah, SD)",
+     "lat": 18.55,
+     "lon": 31.85
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Meroe",
+   "modern_ad": "Begrawiya piramitleri (Sudan)",
+   "tsv_ipucu": [
+    16.9373,
+    33.7503
+   ],
+   "ilgili_devlet": "kush-krallik",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 16.9368579733,
+    "lon": 33.7119202261,
+    "kaynak": "Pleiades 805630"
+   },
+   "lat": 16.9368579733,
+   "lon": 33.7119202261,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/805630 (Meroe, settlement, temple-2, precise)",
+     "lat": 16.9368579733,
+     "lon": 33.7119202261
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 4.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Pselkis (Dakka)",
+   "modern_ad": "Dakka (Aşağı Nubya)",
+   "tsv_ipucu": [
+    23.1957,
+    32.7494
+   ],
+   "ilgili_devlet": "kush-krallik, roma-misir",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Hiera Sykaminos (Maharraqa)",
+   "modern_ad": "Maharraqa (Aşağı Nubya)",
+   "tsv_ipucu": [
+    23.0613,
+    32.7032
+   ],
+   "ilgili_devlet": "roma-misir (Roma-Kush sınırı MÖ 21/20 - MS ~298)",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 23.0613075,
+    "lon": 32.7032325,
+    "kaynak": "Pleiades 795815"
+   },
+   "lat": 23.0613075,
+   "lon": 32.7032325,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/795815 (Hierasykaminos, settlement, precise)",
+     "lat": 23.0613075,
+     "lon": 32.7032325
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Kirene (Cyrene)",
+   "modern_ad": "Shahhat (Libya)",
+   "tsv_ipucu": [
+    32.8245,
+    21.8508
+   ],
+   "ilgili_devlet": "ptolemai",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Shahhat",
+   "ulke_modern": "LY",
+   "lat": 32.8200266273,
+   "lon": 21.8565385134,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/373778 (Cyrene, settlement, precise)",
+     "lat": 32.8200266273,
+     "lon": 21.8565385134
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/7602388 (Shahhat, LY)",
+     "lat": 32.8043,
+     "lon": 21.86605
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.7 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Seleukeia Pieria",
+   "modern_ad": "Çevlik / Samandağ yakını (Hatay)",
+   "tsv_ipucu": [
+    36.1217,
+    35.9425
+   ],
+   "ilgili_devlet": "ptolemai, seleukos",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.1212645,
+    "lon": 35.9285965,
+    "kaynak": "Pleiades 658483"
+   },
+   "lat": 36.1212645,
+   "lon": 35.9285965,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/658483 (Hydatos Potamoi/Seleukeia Pieria, settlement, port, precise)",
+     "lat": 36.1212645,
+     "lon": 35.9285965
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.2 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Paneion (Paneas)",
+   "modern_ad": "Banyas (Golan eteği)",
+   "tsv_ipucu": [
+    33.2475,
+    35.6935
+   ],
+   "ilgili_devlet": "ptolemai, seleukos",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 33.2475255,
+    "lon": 35.6934605,
+    "kaynak": "Pleiades 678324"
+   },
+   "lat": 33.2475255,
+   "lon": 35.6934605,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/678324 (Paneas/Caesarea Philippi, settlement, precise)",
+     "lat": 33.2475255,
+     "lon": 35.6934605
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Syene",
+   "modern_ad": "Asvan (Atlas'ta 'Asvan' olarak var)",
+   "tsv_ipucu": [
+    24.0886,
+    32.9015
+   ],
+   "ilgili_devlet": "roma-misir, kush-krallik",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Aswān",
+   "ulke_modern": "EG",
+   "lat": 24.0885745,
+   "lon": 32.901491,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/786123 (Syene, settlement, precise)",
+     "lat": 24.0885745,
+     "lon": 32.901491
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/359792 (Aswān, EG)",
+     "lat": 24.09082,
+     "lon": 32.89942
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Aktion (Actium)",
+   "modern_ad": "Aktio / Preveza yakını (Yunanistan)",
+   "tsv_ipucu": [
+    39.0277,
+    20.7357
+   ],
+   "ilgili_devlet": "ptolemai (son savaş)",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Eleusis (İskenderiye yakını)",
+   "modern_ad": "İskenderiye doğusu (Nikopolis yakını)",
+   "ilgili_devlet": "ptolemai",
+   "durum": "belirsiz",
+   "not": "TSV koordinatı yok; ad birden çok uzak Pleiades kaydına çözülüyor"
+  },
+  {
+   "ad": "Salamis (Kıbrıs)",
+   "modern_ad": "Famagusta yakını (Atlas'ta Magosa var)",
+   "ilgili_devlet": "ptolemai",
+   "durum": "belirsiz",
+   "not": "TSV koordinatı yok; ad birden çok uzak Pleiades kaydına çözülüyor"
+  },
+  {
+   "ad": "ad",
+   "modern_ad": "modern_ad",
+   "tsv_ipucu": [
+    null,
+    null
+   ],
+   "ilgili_devlet": "ilgili_devlet",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Hattuşa",
+   "modern_ad": "Boğazkale (Çorum)",
+   "tsv_ipucu": [
+    40.0198,
+    34.6153
+   ],
+   "ilgili_devlet": "hitit-eski/hitit-imp",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Boğazkale",
+   "ulke_modern": "TR",
+   "lat": 40.0149132097,
+   "lon": 34.6171576225,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/283602441 (Hattusa, settlement, archaeological-site, precise)",
+     "lat": 40.0149132097,
+     "lon": 34.6171576225
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/750539 (Boğazkale, TR)",
+     "lat": 40.02191,
+     "lon": 34.60947
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Kaneş (Neşa)",
+   "modern_ad": "Kültepe (Kayseri)",
+   "tsv_ipucu": [
+    38.8514,
+    35.6309
+   ],
+   "ilgili_devlet": "eski-asur/hitit-eski",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 38.8510830725,
+    "lon": 35.6353283545,
+    "kaynak": "Pleiades 628923"
+   },
+   "lat": 38.8510830725,
+   "lon": 35.6353283545,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/628923 (Anisa, settlement, archaeological-site, precise)",
+     "lat": 38.8510830725,
+     "lon": 35.6353283545
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 3 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Kalhu (Nimrud)",
+   "modern_ad": "Nimrud (Musul)",
+   "tsv_ipucu": [
+    36.0986,
+    43.3281
+   ],
+   "ilgili_devlet": "orta-asur/yeni-asur",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.0999751709,
+    "lon": 43.3315352658,
+    "kaynak": "Pleiades 894019"
+   },
+   "lat": 36.0999751709,
+   "lon": 43.3315352658,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/894019 (Nimrud, settlement, archaeological-site, precise)",
+     "lat": 36.0999751709,
+     "lon": 43.3315352658
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Karkemiş",
+   "modern_ad": "Cerablus (Gaziantep/Halep sınırı)",
+   "tsv_ipucu": [
+    36.8283,
+    38.0147
+   ],
+   "ilgili_devlet": "hitit-imp/yeni-hitit",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Samiriye (Samaria)",
+   "modern_ad": "Sebastiya (Batı Şeria)",
+   "tsv_ipucu": [
+    32.2756,
+    35.1939
+   ],
+   "ilgili_devlet": "israil-krallik",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Sabasţīyah",
+   "ulke_modern": "PS",
+   "lat": 32.2764453625,
+   "lon": 35.1900814386,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/678370 (Samaria/Sebaste, settlement, archaeological-site, findspot, precise)",
+     "lat": 32.2764453625,
+     "lon": 35.1900814386
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/282108 (Sabasţīyah, PS)",
+     "lat": 32.27562,
+     "lon": 35.19873
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Karkar (Qarqar)",
+   "modern_ad": "Tell Qarqur (Hama)",
+   "tsv_ipucu": [
+    35.8167,
+    36.3667
+   ],
+   "ilgili_devlet": "yeni-asur",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 35.7420523701,
+    "lon": 36.330799958,
+    "kaynak": "Pleiades 995604669"
+   },
+   "lat": 35.7420523701,
+   "lon": 36.330799958,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/995604669 (Tell Qarqur, settlement, precise)",
+     "lat": 35.7420523701,
+     "lon": 36.330799958
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 8.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Megiddo",
+   "modern_ad": "Tel Megiddo",
+   "tsv_ipucu": [
+    32.5851,
+    35.1807
+   ],
+   "ilgili_devlet": "yahuda",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 32.5837762667,
+    "lon": 35.1837314847,
+    "kaynak": "Pleiades 26356565"
+   },
+   "lat": 32.5837762667,
+   "lon": 35.1837314847,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/26356565 (Magidû, settlement, archaeological-site, precise)",
+     "lat": 32.5837762667,
+     "lon": 35.1837314847
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Aşkelon",
+   "modern_ad": "Aşkelon (İsrail)",
+   "tsv_ipucu": [
+    31.6583,
+    34.5469
+   ],
+   "ilgili_devlet": "filistin-pentapolis",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 31.6647972122,
+    "lon": 34.5505214667,
+    "kaynak": "Pleiades 687839"
+   },
+   "lat": 31.6647972122,
+   "lon": 34.5505214667,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/687839 (Ashqelon/Ascalon, basilica, settlement-modern, archaeological-site, findspot, settlement, precise)",
+     "lat": 31.6647972122,
+     "lon": 34.5505214667
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.8 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Teymâ (Tayma)",
+   "modern_ad": "Teymâ (Suudi Arabistan)",
+   "tsv_ipucu": [
+    27.6286,
+    38.5451
+   ],
+   "ilgili_devlet": "yeni-babil",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Taymā’",
+   "ulke_modern": "SA",
+   "lat": 27.6219,
+   "lon": 38.55,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/814739 (Thaima, settlement, archaeological-site, findspot, precise)",
+     "lat": 27.6219,
+     "lon": 38.55
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/101516 (Taymā’, SA)",
+     "lat": 27.62233,
+     "lon": 38.53882
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Opis",
+   "modern_ad": "Dicle kıyısı, Bağdat güneyi (Tell Mohammed?)",
+   "tsv_ipucu": [
+    33.1,
+    44.3
+   ],
+   "ilgili_devlet": "yeni-babil",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 33.095178225,
+    "lon": 44.52098595,
+    "kaynak": "Pleiades 894178"
+   },
+   "lat": 33.095178225,
+   "lon": 44.52098595,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/894178 (Veh Ardashir/Coche/Mahoza/‘Seleucia’, urban, findspot, settlement, archaeological-site, precise)",
+     "lat": 33.095178225,
+     "lon": 44.52098595
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 20.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Memfis (Menfe/Mit Rahina)",
+   "modern_ad": "Mit Rahina (Mısır)",
+   "tsv_ipucu": [
+    29.8447,
+    31.2511
+   ],
+   "ilgili_devlet": "yeni-asur/ahamenis-misir",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 29.849491,
+    "lon": 31.255061,
+    "kaynak": "Pleiades 736963"
+   },
+   "lat": 29.849491,
+   "lon": 31.255061,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/736963 (Memphis, urban, settlement, archaeological-site, precise)",
+     "lat": 29.849491,
+     "lon": 31.255061
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.7 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Teb (Waset)",
+   "modern_ad": "Luksor",
+   "tsv_ipucu": [
+    25.7188,
+    32.6573
+   ],
+   "ilgili_devlet": "yeni-asur",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Luxor",
+   "ulke_modern": "EG",
+   "lat": 25.664781,
+   "lon": 32.631884,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/786017 (Diospolis Magna/Thebai, settlement, precise)",
+     "lat": 25.664781,
+     "lon": 32.631884
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/360502 (Luxor, EG)",
+     "lat": 25.69893,
+     "lon": 32.6421
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 6.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Pelusion",
+   "modern_ad": "Tell el-Farama",
+   "tsv_ipucu": [
+    31.0434,
+    32.5469
+   ],
+   "ilgili_devlet": "ahamenis-misir",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 31.0426270897,
+    "lon": 32.5471045497,
+    "kaynak": "Pleiades 727192"
+   },
+   "lat": 31.0426270897,
+   "lon": 32.5471045497,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/727192 (Pelusium, fort-2, church-2, temple-2, archaeological-site, settlement, port, fort, precise)",
+     "lat": 31.0426270897,
+     "lon": 32.5471045497
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Harran",
+   "modern_ad": "Harran (Şanlıurfa)",
+   "tsv_ipucu": [
+    36.8625,
+    39.0267
+   ],
+   "ilgili_devlet": "yeni-asur",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Harran",
+   "ulke_modern": "TR",
+   "lat": 36.8635943094,
+   "lon": 39.0307496505,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/658427 (Harran/Carrhae, settlement, archaeological-site, precise)",
+     "lat": 36.8635943094,
+     "lon": 39.0307496505
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/312531 (Harran, TR)",
+     "lat": 36.86,
+     "lon": 39.03139
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Sardes (Sart)",
+   "modern_ad": "Sart (Salihli, Manisa)",
+   "tsv_ipucu": [
+    38.488,
+    28.04
+   ],
+   "ilgili_devlet": "lidya/ahamenis",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Salihli",
+   "ulke_modern": "TR",
+   "lat": 38.488314,
+   "lon": 28.040286,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/550867 ( Sardis/Hyde?, settlement, precise)",
+     "lat": 38.488314,
+     "lon": 28.040286
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/302043 (Salihli, TR)",
+     "lat": 38.48258,
+     "lon": 28.14774
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Ekbatana (Hegmatane)",
+   "modern_ad": "Hamedan",
+   "tsv_ipucu": [
+    34.7983,
+    48.5148
+   ],
+   "ilgili_devlet": "medya/ahamenis",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Hamadān",
+   "ulke_modern": "IR",
+   "lat": 34.80555515,
+   "lon": 48.51640575,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/903021 (Ecbatana/Hagmatana/Achmeta/Epiphaneia/Ahmadan, settlement, archaeological-site, precise)",
+     "lat": 34.80555515,
+     "lon": 48.51640575
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/132144 (Hamadān, IR)",
+     "lat": 34.79922,
+     "lon": 48.51456
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.8 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Hekatompylos",
+   "modern_ad": "Şehr-i Kumis (Damgan)",
+   "tsv_ipucu": [
+    36.18,
+    54.37
+   ],
+   "ilgili_devlet": "part",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.166666,
+    "lon": 54.349998,
+    "kaynak": "Pleiades 942260"
+   },
+   "lat": 36.166666,
+   "lon": 54.349998,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/942260 ([Damghan]/[(Medinat) Qumis], settlement, precise)",
+     "lat": 36.166666,
+     "lon": 54.349998
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 2.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Paneion (Banyas)",
+   "modern_ad": "Banyas (Golan)",
+   "tsv_ipucu": [
+    33.2481,
+    35.6942
+   ],
+   "ilgili_devlet": "selevkos",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Hatra",
+   "modern_ad": "Al-Hadr (Irak)",
+   "tsv_ipucu": [
+    35.5886,
+    42.7217
+   ],
+   "ilgili_devlet": "sasani",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Al Ḩaḑar",
+   "ulke_modern": "IQ",
+   "lat": 35.587884,
+   "lon": 42.718342,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/894004 (Hatra, settlement, precise)",
+     "lat": 35.587884,
+     "lon": 42.718342
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/99413 (Al Ḩaḑar, IQ)",
+     "lat": 35.5729,
+     "lon": 42.73395
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). "
+  },
+  {
+   "ad": "Kadeş",
+   "modern_ad": "Tell Nebi Mend (Humus)",
+   "tsv_ipucu": [
+    34.5694,
+    36.5136
+   ],
+   "ilgili_devlet": "hitit-imp",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 34.5570749357,
+    "lon": 36.5193778642,
+    "kaynak": "Pleiades 668291"
+   },
+   "lat": 34.5570749357,
+   "lon": 36.5193778642,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/668291 (Laodicea ad Libanum, settlement, archaeological-site, precise)",
+     "lat": 34.5570749357,
+     "lon": 36.5193778642
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 1.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Arpad",
+   "modern_ad": "Tell Rifaat (Halep)",
+   "tsv_ipucu": [
+    36.4806,
+    36.8172
+   ],
+   "ilgili_devlet": "urartu",
+   "durum": "cozulemedi",
+   "not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Musasir",
+   "modern_ad": "Mudjesir (Irak-İran sınırı)",
+   "tsv_ipucu": [
+    36.9,
+    44.4
+   ],
+   "ilgili_devlet": "urartu",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.839444,
+    "lon": 44.303333,
+    "kaynak": "Pleiades 126728263"
+   },
+   "lat": 36.839444,
+   "lon": 44.303333,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/126728263 (Muṣaṣir, settlement, settlement-modern, precise)",
+     "lat": 36.839444,
+     "lon": 44.303333
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 10.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Pteria",
+   "modern_ad": "Kerkenes Dağ? (Yozgat)",
+   "tsv_ipucu": [
+    39.749,
+    35.253
+   ],
+   "ilgili_devlet": "lidya",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 39.748976978,
+    "lon": 35.0683124992,
+    "kaynak": "Pleiades 619244"
+   },
+   "lat": 39.748976978,
+   "lon": 35.0683124992,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/619244 (Kerkenes/Pteria?, fortified-settlement, settlement, precise)",
+     "lat": 39.748976978,
+     "lon": 35.0683124992
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 15.8 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Dur-Untaş (Çoğa Zanbil)",
+   "modern_ad": "Çoğa Zanbil (Huzistan)",
+   "tsv_ipucu": [
+    32.0094,
+    48.5222
+   ],
+   "ilgili_devlet": "elam-orta",
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 32.0083920425,
+    "lon": 48.5217737187,
+    "kaynak": "Pleiades 459393126"
+   },
+   "lat": 32.0083920425,
+   "lon": 48.5217737187,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/459393126 (Tchogha Zanbil, settlement, archaeological-site, precise)",
+     "lat": 32.0083920425,
+     "lon": 48.5217737187
+    }
+   ],
+   "not": "KRON-ANTIK TSV ipucuna 0.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  }
+ ]
+}

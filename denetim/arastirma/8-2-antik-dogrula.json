@@ -1,0 +1,494 @@
+{
+ "sonuclar": [
+  {
+   "id": "dai-krallik-chuhan",
+   "onay": "celiskili",
+   "f_mo": 206,
+   "t_mo": 205,
+   "f_iso": "-0205-01-01",
+   "t_iso": "-0204-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Sima Qian, Shiji, juan 7 «Xiang Yu benji» — zh.wikisource.org/wiki/史記/卷007 (okundu): Xiang Yu bölüşümünde 徙趙王歇為代王",
+    "Sima Qian, Shiji, juan 89 «Zhang Er Chen Yu liezhuan» — zh.wikisource.org/wiki/史記/卷089 (okundu): 迎趙王於代，復爲趙王 (Chen Yu, Xie'yi Dai'den Zhao'ya geri alır)",
+    "Sima Qian, Shiji, juan 16 «Qin Chu zhi ji yuebiao» — zh.wikisource.org/wiki/史記/卷016 (okundu; 'Mieqin yihou' tablosu, ay-ay): Han 1 'Dai'a bölündü'; Han 2 ay 10 '歇復王趙'; Han 3 ay 10 '漢滅歇'"
+   ],
+   "alinti": "徙趙王歇為代王",
+   "alinti_2": "陳餘…迎趙王於代，復爲趙王",
+   "kronoloji_okulu": "Han takvimi (Zhuanxu li; yıl 10. ayda başlar, 10-12. aylar önceki Jülyen yıla düşer; 12. ay yıl sınırında belirsiz)",
+   "ic_not": "Han-ay→Jülyen: Yuebiao satır etiketi (ör. '204') = ayların 1-9'unun Jülyen yılı; 10-12. aylar bir önceki Jülyen yıldır (Han 3. yıl 10. ay = Kas MÖ 205). f: Shiji 7 + Shiji 16: Zhao Xie Dai kralı Han 1 (MÖ 206) -> f=-0205 doğrulandı. t ÇELİŞKİ (varlık tanımı): (a) Xiang Yu'nun yarattığı Dai krallığı, Xie'nin Zhao'ya dönmesiyle Han 2 ay 10'da (Kas MÖ 206 = -0205) sona erer — o zaman f=t (sıfır uzunluk, künye yazılamaz); Dai bundan sonra Chen Yu'nun (Xie'nin 'Dai kralı' atadığı, Shiji 89) bölgesi olarak sürer. (b) Han Xin/Zhang Er'in Zhao Xie ve Chen Yu'yu yok etmesi Han 3 ay 10 (Kas MÖ 205 = -0204; Shiji 16 satır etiketi '204' yıl-etiketi tuzağıdır). Atlas t=-0203 (MÖ 204) her iki okumada da desteklenmiyor. Tek polity olarak Dai+Zhao Xie hattı için en savunulabilir uç -0204; Dai'in tarihin başka bir polity'si (Chen Yu) olarak ayrı kaydı gerekir. Mükerrer riski: 'zhao' kaydıyla örtüşür."
+  },
+  {
+   "id": "jiujiang-krallik",
+   "onay": "celiskili",
+   "f_mo": 206,
+   "t_mo": null,
+   "f_iso": "-0205-01-01",
+   "t_iso": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Sima Qian, Shiji, juan 7 «Xiang Yu benji» — zh.wikisource.org/wiki/史記/卷007 (okundu): 立布為九江王，都六",
+    "Sima Qian, Shiji, juan 8 «Gaozu benji» — zh.wikisource.org/wiki/史記/卷008 (okundu): 九江王布與龍且戰，不勝，與隨何閒行歸漢; 立武王布為淮南王",
+    "Sima Qian, Shiji, juan 16 «Qin Chu zhi ji yuebiao» — zh.wikisource.org/wiki/史記/卷016 (okundu; 'Mieqin yihou' tablosu, ay-ay): Han 3 ay 12 '布身降漢，地屬項籍'; Han 4 ay 7 '立布為淮南王'",
+    "Sima Qian, Shiji, juan 91 «Qing Bu liezhuan» — zh.wikisource.org/wiki/史記/卷091 (okundu): 龍且擊淮南，破布軍"
+   ],
+   "alinti": "當陽君黥布為楚將，常冠軍，故立布為九江王，都六",
+   "alinti_2": "立武王布為淮南王",
+   "kronoloji_okulu": "Han takvimi (Zhuanxu li; yıl 10. ayda başlar, 10-12. aylar önceki Jülyen yıla düşer; 12. ay yıl sınırında belirsiz)",
+   "ic_not": "Han-ay→Jülyen: Yuebiao satır etiketi (ör. '204') = ayların 1-9'unun Jülyen yılı; 10-12. aylar bir önceki Jülyen yıldır (Han 3. yıl 10. ay = Kas MÖ 205). f=-0205 dogrulandi (Han 1, MÖ 206). t ÇELİŞKİLİ, tek yıl önerilmez: Shiji 8 Ying Bu'nun Long Ju'ya yenilip Han'a kaçışını 'üçüncü yıl'dan ÖNCE (Han 2, MÖ 205) anlatır; Shiji 91 olayı Pengcheng'den sonra 'Han 3' altında; Shiji 16 tablosu 'Han 3 ay 12' (Aralık MÖ 205/Ocak MÖ 204, yıl sınırı) verir. Huainan krallığı (yeni polity) Han 4 ay 7 (MÖ 203 = -0202) kuruldu; atlas t=-0202 bu YENİ polity'nin kuruluşuna denk geliyor, Jiujiang'ın sonuna değil. Sonuç: -0204/-0203 (MÖ 205/204) arası Jiujiang'ın fiili sonu; -0202 ancak 'Huainan ardıl' olarak savunulur (ayrı künye)."
+  },
+  {
+   "id": "hengshan-krallik",
+   "onay": "dogrulandi",
+   "f_mo": 206,
+   "t_mo": 202,
+   "f_iso": "-0205-01-01",
+   "t_iso": "-0201-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Sima Qian, Shiji, juan 7 «Xiang Yu benji» — zh.wikisource.org/wiki/史記/卷007 (okundu): 立芮為衡山王，都邾",
+    "Sima Qian, Shiji, juan 16 «Qin Chu zhi ji yuebiao» — zh.wikisource.org/wiki/史記/卷016 (okundu; 'Mieqin yihou' tablosu, ay-ay): Han 1 'Hengshan'a bölündü; Han 5 ay 1 '徙王長沙'; ay 2 '屬淮南國' (bölge Huainan'a)",
+    "Sima Qian, Shiji, juan 8 «Gaozu benji» — zh.wikisource.org/wiki/史記/卷008 (okundu): Gaozu imparator ilanı Han 5 ay 2 (Changsha krallığı Wu Rui)"
+   ],
+   "alinti": "鄱君吳芮率百越佐諸侯，又從入關，故立芮為衡山王，都邾",
+   "alinti_2": "徙王長沙",
+   "kronoloji_okulu": "Han takvimi (Zhuanxu li; yıl 10. ayda başlar, 10-12. aylar önceki Jülyen yıla düşer; 12. ay yıl sınırında belirsiz)",
+   "ic_not": "Han-ay→Jülyen: Yuebiao satır etiketi (ör. '204') = ayların 1-9'unun Jülyen yılı; 10-12. aylar bir önceki Jülyen yıldır (Han 3. yıl 10. ay = Kas MÖ 205). f: Han 1 (MÖ 206). t: Shiji 16 sütununda Hengshan Han 5 ay 1'de (Şubat MÖ 202 = -0201) Wu Rui'nin Changsha'ya taşınmasıyla biter; toprak Huainan'a katılır. Her iki uç yıl düzeyinde dogrulandi. Not: Changsha krallığı ardıl/yeni polity (Hengshan 'Changsha'ya dönüştü' demek ardıl kaydı gerektirir)."
+  },
+  {
+   "id": "linjiang-krallik",
+   "onay": "dogrulandi",
+   "f_mo": 206,
+   "t_mo": 202,
+   "f_iso": "-0205-01-01",
+   "t_iso": "-0201-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Sima Qian, Shiji, juan 7 «Xiang Yu benji» — zh.wikisource.org/wiki/史記/卷007 (okundu): 義帝柱國共敖將兵擊南郡，功多，因立敖為臨江王，都江陵",
+    "Sima Qian, Shiji, juan 8 «Gaozu benji» — zh.wikisource.org/wiki/史記/卷008 (okundu): 故臨江王驩…令盧綰、劉賈圍之，不下。數月而降，殺之雒陽 (Gaozu'nun imparator ilanından sonra)",
+    "Sima Qian, Shiji, juan 16 «Qin Chu zhi ji yuebiao» — zh.wikisource.org/wiki/史記/卷016 (okundu; 'Mieqin yihou' tablosu, ay-ay): Han 5 ay 12 '漢虜驩'; sonra '屬漢，為南郡'"
+   ],
+   "alinti": "故臨江王驩為項羽叛漢，令盧綰、劉賈圍之，不下。數月而降",
+   "alinti_2": "漢虜驩 屬漢，為南郡",
+   "kronoloji_okulu": "Han takvimi (Zhuanxu li; yıl 10. ayda başlar, 10-12. aylar önceki Jülyen yıla düşer; 12. ay yıl sınırında belirsiz)",
+   "ic_not": "Han-ay→Jülyen: Yuebiao satır etiketi (ör. '204') = ayların 1-9'unun Jülyen yılı; 10-12. aylar bir önceki Jülyen yıldır (Han 3. yıl 10. ay = Kas MÖ 205). f=-0205 dogrulandi. t: Shiji 16 'Han 5 ay 12 Han Gong Huan'ı tutsak aldı' (Aralık MÖ 203/Ocak MÖ 202, yıl sınırı); Shiji 8 ise kuşatmayı Gaozu'nun imparator ilanından (Han 5 ay 2 = Şubat MÖ 202) SONRA 'aylar sürdü' diye anlatır => MÖ 202 (-0201). İki kaynak yıl sınırında; Shiji 8 sırası MÖ 202'yi destekler -> t=-0201 (atlas ile aynı), 12. ay belirsizliği nedeniyle ±1 yıl riski ic_not'ta."
+  },
+  {
+   "id": "liaodong-krallik-chuhan",
+   "onay": "duzeltildi",
+   "f_mo": 206,
+   "t_mo": 206,
+   "f_iso": "-0205-01-01",
+   "t_iso": "-0205-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "duzeltildi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Sima Qian, Shiji, juan 7 «Xiang Yu benji» — zh.wikisource.org/wiki/史記/卷007 (okundu): 徙燕王韓廣為遼東王; 臧荼之國，因逐韓廣之遼東，廣弗聽，荼擊殺廣無終，并王其地",
+    "Sima Qian, Shiji, juan 16 «Qin Chu zhi ji yuebiao» — zh.wikisource.org/wiki/史記/卷016 (okundu; 'Mieqin yihou' tablosu, ay-ay): Han 1 ay 2 '王韓廣始'; ay 8 '臧荼擊廣無終，滅之'; ay 9 '屬燕'"
+   ],
+   "alinti": "荼擊殺廣無終，并王其地",
+   "alinti_2": "臧荼擊廣無終，滅之",
+   "kronoloji_okulu": "Han takvimi (Zhuanxu li; yıl 10. ayda başlar, 10-12. aylar önceki Jülyen yıla düşer; 12. ay yıl sınırında belirsiz)",
+   "ic_not": "Han-ay→Jülyen: Yuebiao satır etiketi (ör. '204') = ayların 1-9'unun Jülyen yılı; 10-12. aylar bir önceki Jülyen yıldır (Han 3. yıl 10. ay = Kas MÖ 205). f: Han 1 (MÖ 206). t: Shiji 16 Han Guang'ın Wuzhong'da Zang Tu tarafından yok edilişini Han 1 ay 8'e (MÖ 206; ay 1-9 aynı yıl) koyar -> t=-0205, atlas t=-0204 (MÖ 205) bir yıl fazla. SORUN: f=t=-0205, yıl hassasiyetinde SIFIR UZUNLUK; künye ancak gün/ay hassasiyetiyle (Han 1 ay 2 -> ay 8, yani ~Şubat-Ağustos MÖ 206, Jülyen gün kaynakta yok) yazılabilir ya da kayıt kültür-polity değil kısa ömürlü olarak atlanmalı."
+  },
+  {
+   "id": "yan-krallik-chuhan",
+   "onay": "dogrulandi",
+   "f_mo": 206,
+   "t_mo": 202,
+   "f_iso": "-0205-01-01",
+   "t_iso": "-0201-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Sima Qian, Shiji, juan 7 «Xiang Yu benji» — zh.wikisource.org/wiki/史記/卷007 (okundu): 燕將臧荼從楚救趙，因從入關，故立荼為燕王，都薊",
+    "Sima Qian, Shiji, juan 16 «Qin Chu zhi ji yuebiao» — zh.wikisource.org/wiki/史記/卷016 (okundu; 'Mieqin yihou' tablosu, ay-ay): Han 1 'Yan ikiye bölündü'; Han 5 ay 9 '反漢，虜荼' (Zang Tu isyan edip tutsak); ay 'sonra 9' 燕王盧綰始",
+    "Sima Qian, Shiji, juan 8 «Gaozu benji» — zh.wikisource.org/wiki/史記/卷008 (okundu): 十月，燕王臧荼反…高祖自將擊之，得燕王臧荼。即立太尉盧綰為燕王 (Shiji 8 '10. ay' der)"
+   ],
+   "alinti": "反漢，虜荼",
+   "alinti_2": "燕王盧綰始，漢太尉",
+   "kronoloji_okulu": "Han takvimi (Zhuanxu li; yıl 10. ayda başlar, 10-12. aylar önceki Jülyen yıla düşer; 12. ay yıl sınırında belirsiz)",
+   "ic_not": "Han-ay→Jülyen: Yuebiao satır etiketi (ör. '204') = ayların 1-9'unun Jülyen yılı; 10-12. aylar bir önceki Jülyen yıldır (Han 3. yıl 10. ay = Kas MÖ 205). f=-0205 (Han 1). Shiji 8 isyanı '10. ay' yazar (6. aydan sonra => Han 6 ay 10 = Kas MÖ 202), Shiji 16 Han 5 ay 9 (Eyl-Ekim MÖ 202): ikisi de MÖ 202. t: Zang Tu Han 5 ay 9'da (Eylül-Ekim MÖ 202 = -0201) yenilip tutsak edildi, hemen ardından Lu Wan Yan kralı (Han'ın atadığı krallık; polity süreklidir, Zang Tu'nun şahsı biter). Atlas t=-0201 doğru ancak 'Yan' Lu Wan dönemiyle sürer: künye ölçütü 'hanedan değişimi mi polity sonu mu' kararı Emre'ye (polity-değil riski)."
+  },
+  {
+   "id": "jiaodong-krallik",
+   "onay": "duzeltildi",
+   "f_mo": 206,
+   "t_mo": 206,
+   "f_iso": "-0205-01-01",
+   "t_iso": "-0205-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "duzeltildi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Sima Qian, Shiji, juan 94 «Tian Dan liezhuan» — zh.wikisource.org/wiki/史記/卷094 (okundu): 徙齊王田市更王膠東，治即墨…田榮怒，追擊殺齊王市於即墨",
+    "Sima Qian, Shiji, juan 16 «Qin Chu zhi ji yuebiao» — zh.wikisource.org/wiki/史記/卷016 (okundu; 'Mieqin yihou' tablosu, ay-ay): Han 1 ay 2 '王田市始'; ay 6 '田榮擊殺市'; ay 7 '屬齊'",
+    "Sima Qian, Shiji, juan 7 «Xiang Yu benji» — zh.wikisource.org/wiki/史記/卷007 (okundu): 田榮…并王三齊"
+   ],
+   "alinti": "田榮怒，追擊殺齊王市於即墨，還攻殺濟北王安",
+   "alinti_2": "田榮擊殺市 屬齊",
+   "kronoloji_okulu": "Han takvimi (Zhuanxu li; yıl 10. ayda başlar, 10-12. aylar önceki Jülyen yıla düşer; 12. ay yıl sınırında belirsiz)",
+   "ic_not": "Han-ay→Jülyen: Yuebiao satır etiketi (ör. '204') = ayların 1-9'unun Jülyen yılı; 10-12. aylar bir önceki Jülyen yıldır (Han 3. yıl 10. ay = Kas MÖ 205). f=-0205. t: Tian Shi, Han 1 ay 6'da (MÖ 206) Tian Rong'ca Jimo'da öldürüldü, ay 7'de 'Qi'ye bağlandı' -> t=-0205; atlas t=-0204 (MÖ 205) bir yıl fazla. SIFIR UZUNLUK: f=t (Şubat-Temmuz MÖ 206). Yıl düzeyinde künye yazılamaz (CLAUDE.md: sıfır uzunluklu dönem yasak)."
+  },
+  {
+   "id": "qi-krallik-chuhan",
+   "onay": "celiskili",
+   "f_mo": 206,
+   "t_mo": 206,
+   "f_iso": "-0205-01-01",
+   "t_iso": "-0205-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Sima Qian, Shiji, juan 94 «Tian Dan liezhuan» — zh.wikisource.org/wiki/史記/卷094 (okundu): 齊將田都…故立都為齊王，治臨淄; 田榮…亦發兵以距擊田都，田都亡走楚",
+    "Sima Qian, Shiji, juan 16 «Qin Chu zhi ji yuebiao» — zh.wikisource.org/wiki/史記/卷016 (okundu; 'Mieqin yihou' tablosu, ay-ay): Han 1 ay 2 '王田都始'; ay 5 '田榮擊都，都降楚'; ay 6 '齊王田榮始'; Han 4 ay 11 '漢將韓信擊殺廣'"
+   ],
+   "alinti": "田榮…發兵以距擊田都，田都亡走楚",
+   "alinti_2": "漢將韓信擊殺廣",
+   "kronoloji_okulu": "Han takvimi (Zhuanxu li; yıl 10. ayda başlar, 10-12. aylar önceki Jülyen yıla düşer; 12. ay yıl sınırında belirsiz)",
+   "ic_not": "Han-ay→Jülyen: Yuebiao satır etiketi (ör. '204') = ayların 1-9'unun Jülyen yılı; 10-12. aylar bir önceki Jülyen yıldır (Han 3. yıl 10. ay = Kas MÖ 205). f=-0205. t ÇELİŞKİLİ (varlık tanımı): Tian Du'nun Xiang Yu-krallığı Han 1 ay 5'te (MÖ 206 = -0205) biter, ardından Tian Rong 'Qi kralı' (aynı Qi toprağı, ay 6). Atlas ozeti ('Tian Rong ile birleşti, sonra Han Xin fethetti') sürekli Qi polity'sini varsayar: Han Xin Tian Guang'ı Han 4 ay 11'de (Aralık MÖ 204 = -0203; yıl-etiketi '203' tuzağı) öldürdü, Qi 'Han komutanlığı' oldu. Atlas t=-0204 (MÖ 205) hiçbirine denk gelmiyor. Sürekli Qi (Tian Rong/Guang) için t=-0203 önerilir ama bu Xiang Yu 'Qi' kaydıyla tek polity sayılırsa mükerrer/üst küme olur; Emre kararı."
+  },
+  {
+   "id": "jibei-krallik",
+   "onay": "duzeltildi",
+   "f_mo": 206,
+   "t_mo": 206,
+   "f_iso": "-0205-01-01",
+   "t_iso": "-0205-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "duzeltildi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Sima Qian, Shiji, juan 94 «Tian Dan liezhuan» — zh.wikisource.org/wiki/史記/卷094 (okundu): 項羽立田安為濟北王，治博陽…田榮…還攻殺濟北王安",
+    "Sima Qian, Shiji, juan 7 «Xiang Yu benji» — zh.wikisource.org/wiki/史記/卷007 (okundu): 田榮…西殺擊濟北王田安，并王三齊",
+    "Sima Qian, Shiji, juan 16 «Qin Chu zhi ji yuebiao» — zh.wikisource.org/wiki/史記/卷016 (okundu; 'Mieqin yihou' tablosu, ay-ay): Han 1 ay 2 '王田安始'; ay 7 '田榮擊殺安'; ay 8 '屬齊'"
+   ],
+   "alinti": "田榮…還攻殺濟北王安",
+   "alinti_2": "田榮擊殺安 屬齊",
+   "kronoloji_okulu": "Han takvimi (Zhuanxu li; yıl 10. ayda başlar, 10-12. aylar önceki Jülyen yıla düşer; 12. ay yıl sınırında belirsiz)",
+   "ic_not": "Han-ay→Jülyen: Yuebiao satır etiketi (ör. '204') = ayların 1-9'unun Jülyen yılı; 10-12. aylar bir önceki Jülyen yıldır (Han 3. yıl 10. ay = Kas MÖ 205). f=-0205. t: Tian An, Han 1 ay 7'de (MÖ 206) Tian Rong'ca öldürüldü -> t=-0205; atlas t=-0203 (MÖ 204) iki yıl fazla. SIFIR UZUNLUK f=t (yıl düzeyi)."
+  },
+  {
+   "id": "gengshi",
+   "onay": "dogrulandi",
+   "f_mo": -23,
+   "t_mo": -25,
+   "f_iso": "0023-01-01",
+   "t_iso": "0025-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fan Ye, Hou Han shu, juan 11 «Liu Xuan Liu Penzi liezhuan» — zh.wikisource.org/wiki/後漢書/卷11 (okundu): Liu Xuan'ın Yushui kıyısında taht kurması (二月辛巳), 更始元年; 九月 Chimei Chang'an'a girer, 十月 Liu Xuan Changle Sarayı'nda mühürü Liu Penzi'ye teslim eder",
+    "Fan Ye, Hou Han shu, juan 1 «Guangwu di ji» (shang) — zh.wikisource.org/wiki/後漢書/卷1上 (okundu): Guangwu 建武元年 (25) bağlamı; Gengshi'nin Chimei'ce öldürülmesi"
+   ],
+   "alinti": "二月辛巳，設壇場於淯水上沙中，陳兵大會。更始即帝位",
+   "alinti_2": "十月更始遂隨祿肉袒詣長樂宮，上璽綬於盆子",
+   "kronoloji_okulu": "Xin/Han takvimi; yıl adı Gengshi 1 = 23, Gengshi 3 = 25",
+   "ic_not": "f: yıl 23 doğrulandı (Hou Han shu 11: 地皇四年 -> 更始元年). Gün adayı: ganzhi 辛巳 Jülyen 0023-03-11'e denk gelir (aritmetik doğrulandı: JDN 辛巳 = indeks 17), ancak Hou Han shu 1'in 更始元年正月甲子朔 kaydı ay başlarını Xin takvimiyle (Wang Mang yıl başı 12. ay) karıştırdığı için '2. ay -> Mart' eşlemesi Academia Sinica tablosuyla DOĞRULANMADI; bu yüzden f_iso yıl düzeyinde (0023-01-01) bırakıldı, 0023-03-11 yalnız aday. t: yıl 25 doğrulandı (Gengshi 3; Chimei 9. ay Chang'an'a girer, 10. ay Liu Xuan teslim; sonra öldürülür). Taslak değer 0023-01-01 yıl-düzeyi uyumlu. Not: Liu Penzi'nin 'Jianshi' rejimi (25-06) Gengshi'nin sonundan ÖNCE başladığı için iki kayıt yıl düzeyinde çakışır (Gengshi 25'te Chang'an'da; Penzi Haziran 25'te ilan)."
+  },
+  {
+   "id": "chimei-jianshi",
+   "onay": "dogrulandi",
+   "f_mo": -25,
+   "t_mo": -27,
+   "f_iso": "0025-01-01",
+   "t_iso": "0027-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fan Ye, Hou Han shu, juan 11 «Liu Xuan Liu Penzi liezhuan» — zh.wikisource.org/wiki/後漢書/卷11 (okundu): 六月，遂立盆子爲帝，自號建世元年",
+    "Fan Ye, Hou Han shu, juan 1 «Guangwu di ji» (shang) — zh.wikisource.org/wiki/後漢書/卷1上 (okundu): 建武三年 (27) 閏月 丙午 'Chimei yöneticileri Gaozu mühürüyle teslim oldu' (Yiyang)",
+    "Fan Ye, Hou Han shu, juan 11 «Liu Xuan Liu Penzi liezhuan» — zh.wikisource.org/wiki/後漢書/卷11 (okundu): 樊崇乃將盆子及丞相徐宣以下三十餘人肉袒降"
+   ],
+   "alinti": "六月，遂立盆子爲帝，自號建世元年",
+   "alinti_2": "赤眉望見震怖，遣使乞降。丙午，赤眉君臣面縛",
+   "kronoloji_okulu": "Han takvimi; Jianshi 1 = 25; Jianwu 3 = 27",
+   "ic_not": "f: Liu Penzi 25'te (6. ay) imparator ilan edildi. t: Guangwu Yiyang'da 建武三年 (27) bir 閏月 (artık ay) içinde 丙午 günü Chimei'nin teslimini aldı -> 27. Her iki uç yıl düzeyinde dogrulandi. 'Rejim' = isyan ordusunun taht rejimi; polity-değil riski (Chimei isyanı 18'den beri, sadece 'Jianshi' dönemi 25-27 kaydedilmiş)."
+  },
+  {
+   "id": "chengjia-gongsun-shu",
+   "onay": "dogrulandi",
+   "f_mo": -25,
+   "t_mo": -36,
+   "f_iso": "0025-01-01",
+   "t_iso": "0036-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fan Ye, Hou Han shu, juan 13 «Wei Xiao Gongsun Shu liezhuan» — zh.wikisource.org/wiki/後漢書/卷13 (okundu): 自立為蜀王，都成都 … 建武元年四月，遂自立為天子，號成家",
+    "Fan Ye, Hou Han shu, juan 1 «Guangwu di ji» (xia) — zh.wikisource.org/wiki/後漢書/卷1下 (okundu): 冬十一月戊寅，吳漢、臧宮與公孫述戰於成都，大破之。述被創，夜死。辛巳，吳漢屠成都",
+    "Fan Ye, Hou Han shu, juan 13 «Wei Xiao Gongsun Shu liezhuan» — zh.wikisource.org/wiki/後漢書/卷13 (okundu): 十二年，述弟恢及子婿史興並為大司馬吳漢…所破，戰死"
+   ],
+   "alinti": "建武元年四月，遂自立為天子，號成家",
+   "alinti_2": "冬十一月戊寅…述被創，夜死。辛巳，吳漢屠成都",
+   "kronoloji_okulu": "Han takvimi; Jianwu 1 = 25, Jianwu 12 = 36",
+   "ic_not": "f: Hou Han shu 13: Gongsun Shu önce 蜀王 (Gengshi dönemi), 建武元年 4. ay (25) imparator, devlet adı 成家 -> f=25 doğrulandi. t: Hou Han shu 1 (xia) 建武十二年 11. ay 戊寅 Wu Han Chengdu önünde Gongsun Shu'yu yendi, Shu yaralanıp ölür; 辛巳 Chengdu yağmalanır -> t=36. Gün adayı: ganzhi 戊寅 = Jülyen 0036-12-24 (veya 0036-10-25); 11. ay Aralık'a denk gelir ama ay eşlemesi doğrulanmadı, bu yüzden yıl düzeyi. 'Wei Xiao' (Wei Xiao ile Gongsun Shu aynı juan) bağlı değil; polity sürekli."
+  },
+  {
+   "id": "hanzhong-zhang-lu",
+   "onay": "celiskili",
+   "f_mo": -191,
+   "t_mo": -215,
+   "f_iso": "0191-01-01",
+   "t_iso": "0215-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 益州牧劉焉以魯為督義司馬…魯遂襲脩殺之，奪其眾。焉死，子璋代立，以魯不順…魯遂據漢中，以鬼道教民，自號「師君」",
+    "Fan Ye, Hou Han shu, juan 75 «Liu Yan zhuan» — zh.wikisource.org/wiki/後漢書/卷75 (okundu): 張魯 Hanzhong'u alır (初平二年 olaylarından ÖNCE anlatılır)",
+    "Sima Guang, Zizhi Tongjian — zh.wikisource.org/wiki/資治通鑑/卷060 (okundu; ikincil derleme, Song): 初平二年 (191) altında 'Liu Yan Zhang Lu'yu Su Gu'ya karşı gönderdi'",
+    "Chen Shou, Sanguo zhi, Wei shu 1 «Wu di ji» — zh.wikisource.org/wiki/三國志/卷01 (okundu): 十一月，魯自巴中將其餘衆降 (建安二十年)",
+    "Sima Guang, Zizhi Tongjian — zh.wikisource.org/wiki/資治通鑑/卷068 (okundu; ikincil derleme, Song): 十一月，張魯將家屬出降"
+   ],
+   "alinti": "魯遂據漢中，以鬼道教民，自號「師君」",
+   "alinti_2": "十一月，魯自巴中將其餘衆降",
+   "kronoloji_okulu": "Han takvimi; Jian'an 20 = 215 (11. ay yıl sonuna yakın, yıl 215 korunur)",
+   "ic_not": "t: Cao Cao 建安二十年 (215) Yangping Geçidi, Nanzheng; 11. ay Zhang Lu Bazhong'dan teslim -> t=215 dogrulandi (Sanguo zhi Wei 1; ZZTJ 68). f ÇELİŞKİLİ (iki okuma): (a) 191: Liu Yan'ın atadığı Zhang Lu Su Gu'yu öldürüp Hanzhong'u alır — ZZTJ bunu 初平二年 (191) altına koyar, Hou Han shu 75 de 初平二年 olaylarından önce anlatır (tavan 191; alt sınır Liu Yan'ın Yizhou Mu oluşu 188); (b) ~194+: Sanguo zhi 'Liu Yan ölünce (194), oğlu Zhang Lu'nun annesini öldürünce, Lu Hanzhong'u kendi başına tuttu' — bağımsızlık 194 sonrası. Atlas f=191 (a) ile uyumlu; iki kaynağı da ver, Emre seçsin. Tür: teokrasi önerisi (tur_yeni) kaynakla desteklenir ('以鬼道教民')."
+  },
+  {
+   "id": "gongsun-liaodong",
+   "onay": "dogrulandi",
+   "f_mo": -189,
+   "t_mo": -238,
+   "f_iso": "0189-01-01",
+   "t_iso": "0238-09-19",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 始度以中平六年據遼東，至淵三世，凡五十年而滅",
+    "Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 二年春，遣太尉司馬宣王徵淵 … 八月丙寅夜，大流星…墜襄平城東南。壬午，淵眾潰…斬淵父子",
+    "Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 景初元年…淵遂自立為燕王"
+   ],
+   "alinti": "始度以中平六年據遼東，至淵三世，凡五十年而滅",
+   "alinti_2": "壬午，淵眾潰，與其子脩…突圍東南走，…斬淵父子",
+   "kronoloji_okulu": "Han/Wei takvimi; Zhongping 6 = 189; Jingchu 2 = 238",
+   "ic_not": "f=189 (中平六年) Chen Shou'nun kendi hükmü. t=238: Sima Yi 景初二年 (238) baharında sefere çıktı; Xiangping kuşatması, 8. ay ganzhi 丙寅 (Jülyen 0238-09-03) ve 壬午 (0238-09-19) günleri; Gongsun Yuan ve oğlu 壬午'da öldürüldü. t_iso gün düzeyi ganzhi aritmetiğiyle (ay=8 -> Eylül) verilmiştir; Çin ayı->Jülyen eşlemesi Academia Sinica ile doğrulanmadı => yıl düzeyi güvenli, gün 'aday'. Yan unvanı 景初元年 (237) Gongsun Yuan. Hakimiyet 'Du->Kang->Gongsun Yuan' üç kuşak."
+  },
+  {
+   "id": "hou-zhao",
+   "onay": "dogrulandi",
+   "f_mo": -319,
+   "t_mo": -351,
+   "f_iso": "0319-01-01",
+   "t_iso": "0351-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fang Xuanling vd., Jin shu, juan 105 — zh.wikisource.org/wiki/晉書/卷105 (okundu) «Zaiji 5 Shi Le»: 太興二年，勒偽稱趙王… 乃僭即皇帝位，改元曰建平",
+    "Fang Xuanling vd., Jin shu, juan 8 — zh.wikisource.org/wiki/晉書/卷008 (okundu) (Mu di ji), 永和七年: 劉顯殺石祗",
+    "Fang Xuanling vd., Jin shu, juan 107 — zh.wikisource.org/wiki/晉書/卷107 (okundu) «Zaiji 7»: 劉顯果殺祗及其太宰趙鹿等十餘人，傳首於鄴"
+   ],
+   "alinti": "太興二年，勒偽稱趙王",
+   "alinti_2": "劉顯殺石祗 (永和七年)",
+   "kronoloji_okulu": "Jin nianhao; Taixing 2 = 319; Yonghe 7 = 351",
+   "ic_not": "f: Shi Le 太興二年 (319) Zhao Kralı -> f=319 dogrulandi (Jin shu 105). t: Shi Zhi (Xiangguo'daki son Shi hükümdarı) 永和七年 (351) Liu Xian tarafından öldürüldü (Jin shu 8 yıl başlığı 永和七年; Jin shu 107 olayı Ran Min'in Xiangguo kuşatmasından sonra anlatır) -> t=351. İÇ ÇELİŞKİ: Jin shu 107 kapanış hükmü 'Shi Le 咸和三年 (328) ... 永和五年 (349) 滅, 凡二十三年' der (Shi Hu'nun ölümüyle devlet ‘bitti’ sayar, Shi Zhi hattını saymaz); atlas 319/351 olay-bazlı ve Jin shu 8 ile uyumlu. Shi Jian/Ran Min (349-350) ve Shi Zhi (350-351) dönemleri paralel polity'lerdir (Ran Wei ayrı kayıt)."
+  },
+  {
+   "id": "onceki-liang",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": -376,
+   "f_iso": null,
+   "t_iso": "0376-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fang Xuanling vd., Jin shu, juan 86 — zh.wikisource.org/wiki/晉書/卷086 (okundu) «Zhang Gui»: 永甯初，出為護羌校尉、涼州刺史; Zhang Shi 建興 yıl adını sürdürür; Zhang Mao太興三年 (320)",
+    "Fang Xuanling vd., Jin shu, juan 9 — zh.wikisource.org/wiki/晉書/卷009 (okundu) (Xiaowu di ji) 太元元年: 秋七月，苻堅將苟萇陷涼州，虜刺史張天錫，盡有其地",
+    "Fang Xuanling vd., Jin shu, juan 86 — zh.wikisource.org/wiki/晉書/卷086 (okundu): 太元元年，苻堅遣其將苟萇、毛當、梁熙、姚萇來寇"
+   ],
+   "alinti": "秋七月，苻堅將苟萇陷涼州，虜刺史張天錫，盡有其地",
+   "alinti_2": "永甯初，出為護羌校尉、涼州刺史",
+   "kronoloji_okulu": "Jin nianhao; Taiyuan 1 = 376",
+   "ic_not": "t=376 (太元元年 7. ay, Zhang Tianxi esir) dogrulandi — iki Jin shu juan'ında. f ÇELİŞKİLİ ve atlas f=320 kaynakta doğrudan desteklenmiyor: Jin shu 86 hanedanın başlangıcı için 永甯初 (301-302, Zhang Gui Liangzhou Cishi) verir; 320 (太興三年) yalnız Zhang Mao'nun Liangzhou Mu olarak geçmesidir (Zhang Shi'nin öldürülmesi). Polity tanımı Emre kararı: (a) 301 Zhang hanedanı özerk vali (Jin vassalı, Jin takvimiyle 建興 yıl adı sürdürülür), (b) 345 Zhang Jun 'Liang Wang', (c) 354 Zhang Zuo 'Liang Gong/imparator'. f_mo/f_iso verilmedi: tek yıl önerilemez."
+  },
+  {
+   "id": "ran-wei",
+   "onay": "dogrulandi",
+   "f_mo": -350,
+   "t_mo": -352,
+   "f_iso": "0350-01-01",
+   "t_iso": "0352-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fang Xuanling vd., Jin shu, juan 107 — zh.wikisource.org/wiki/晉書/卷107 (okundu): 永和六年，殺石鑒…僭即皇帝位於南郊，大赦，改元曰永興，國號大魏，復姓冉氏",
+    "Fang Xuanling vd., Jin shu, juan 8 — zh.wikisource.org/wiki/晉書/卷008 (okundu) (Mu di ji): 永和六年 閏月，冉閔弑石鑒，僭稱天王，國號魏; 永和八年 夏四月，冉閔爲慕容儁所滅"
+   ],
+   "alinti": "閏月，冉閔弑石鑒，僭稱天王，國號魏",
+   "alinti_2": "夏四月，冉閔爲慕容儁所滅",
+   "kronoloji_okulu": "Jin nianhao; Yonghe 6 = 350; Yonghe 8 = 352",
+   "ic_not": "f: 永和六年 (350) iki juan'da (Jin shu 8 ve 107) -> dogrulandi. t: 永和八年 4. ay (352) Murong Jun'un Ran Min'i yok edişi (Jin shu 8) ve 107'de 是歲永和八年也 -> dogrulandi. Ay: 4. ay (Jülyen ay eşlemesi kaynakta yok)."
+  },
+  {
+   "id": "onceki-qin",
+   "onay": "dogrulandi",
+   "f_mo": -351,
+   "t_mo": -394,
+   "f_iso": "0351-01-01",
+   "t_iso": "0394-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fang Xuanling vd., Jin shu, juan 112 — zh.wikisource.org/wiki/晉書/卷112 (okundu) «Zaiji 12 Fu Jian (苻健)»: 永和七年，僭稱天王、大單于…建元皇始…置百官于長安",
+    "Fang Xuanling vd., Jin shu, juan 8 — zh.wikisource.org/wiki/晉書/卷008 (okundu): 永和七年 苻健僭稱王，國號秦; 永和八年 僭帝號于長安",
+    "Fang Xuanling vd., Jin shu, juan 9 — zh.wikisource.org/wiki/晉書/卷009 (okundu) (Xiaowu di ji) 太元十九年: 苻登爲姚興所殺，登太子崇奔于湟中，僭稱皇帝"
+   ],
+   "alinti": "永和七年，僭稱天王、大單于，赦境內死罪，建元皇始",
+   "alinti_2": "苻登爲姚興所殺，登太子崇奔于湟中，僭稱皇帝",
+   "kronoloji_okulu": "Jin nianhao; Yonghe 7 = 351; Taiyuan 19 = 394",
+   "ic_not": "Kurucu Fu Jian = 苻健 (Jin); 苻堅 ayrı kişi (Qin'in 4. hükümdarı, 357-385). f: Fu Jian 永和七年 (351) Qin Kralı/Tian Wang (Jin shu 8 ve 112) -> dogrulandi (imparatorluk unvanı 352). t: Fu Deng 394'te Yao Xing'ce öldürüldü; oğlu Fu Chong Huangzhong'da bir süre 'imparator' sürdürdü (Jin shu 9) -> künye devlet merkezi olarak 394; Fu Chong'un kalıntısı 394-395 arası, Qifu Qiangui'ce yok (Jin shu 125 bunu okundu; yıl metinde yok). Fei Nehri 383 sonrası fiili bölünme."
+  },
+  {
+   "id": "bati-qin",
+   "onay": "dogrulandi",
+   "f_mo": -385,
+   "t_mo": -431,
+   "f_iso": "0385-01-01",
+   "t_iso": "0431-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fang Xuanling vd., Jin shu, juan 125 — zh.wikisource.org/wiki/晉書/卷125 (okundu) «Zaiji 25 Qifu Guoren»: 以孝武太元十年自稱大都督、大將軍、大單于、領秦、河二州牧，建元曰建義",
+    "Fang Xuanling vd., Jin shu, juan 125 — zh.wikisource.org/wiki/晉書/卷125 (okundu): 始國仁以孝武太元十年僭位，至慕末四世，凡四十有六載而滅",
+    "Wei Shou, Wei shu, juan 4 shang «Shizu ji»: 神䴥四年 '是月，乞伏慕末為赫連定所滅' — zh.wikisource.org/wiki/魏書/卷4上 (okundu)"
+   ],
+   "alinti": "以孝武太元十年自稱大都督、大將軍、大單于、領秦、河二州牧，建元曰建義",
+   "alinti_2": "乞伏慕末為赫連定所滅 (神䴥四年)",
+   "kronoloji_okulu": "Jin nianhao + Wei nianhao; Taiyuan 10 = 385; Shenjia 4 = 431",
+   "ic_not": "f=385 (太元十年) Jin shu 125. t=431: Jin shu 125 '46 yıl' hesabı (385+46) + Wei shu 4 'Shenjia 4 (431) Qifu Mumo Helian Ding tarafından yok edildi' -> dogrulandi. Not: 400-409 arası Qifu Qiangui'nin Hou Qin'e teslimi nedeniyle devlet kesintili (Jin shu 125: 義熙三年 秦王 yeniden; Jin shu 10: 義熙五年 西秦王); atlas tek aralık verir. ID çakışması: BOZKIR 'bati-qin-qifu' ile aynı polity — tek kayıt kalsın."
+  },
+  {
+   "id": "sonraki-liang-16",
+   "onay": "celiskili",
+   "f_mo": -386,
+   "t_mo": -403,
+   "f_iso": "0386-01-01",
+   "t_iso": "0403-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fang Xuanling vd., Jin shu, juan 122 — zh.wikisource.org/wiki/晉書/卷122 (okundu) «Zaiji 22 Lü Guang»: 呂光以孝武太元十二年定涼州，十五年僭立，至隆凡十有三載，以安帝元興三年滅",
+    "Sima Guang, Zizhi Tongjian — zh.wikisource.org/wiki/資治通鑑/卷106 (okundu; ikincil derleme, Song): 太元十一年 12. ay '呂光自稱…涼州牧、酒泉公'",
+    "Fang Xuanling vd., Jin shu, juan 10 — zh.wikisource.org/wiki/晉書/卷010 (okundu) (An di ji) 隆安五年: 九月，呂隆降于姚興",
+    "Sima Guang, Zizhi Tongjian — zh.wikisource.org/wiki/資治通鑑/卷113 (okundu; ikincil derleme, Song): 元興二年 (403) 8. ay Qi Nan Guzang'a geldi; 及隆東遷"
+   ],
+   "alinti": "呂光以孝武太元十二年定涼州，十五年僭立，至隆凡十有三載，以安帝元興三年滅",
+   "alinti_2": "呂隆降于姚興 (隆安五年); 及隆東遷 (元興二年)",
+   "kronoloji_okulu": "Jin nianhao; Taiyuan 11/12/15; Longan 5 = 401; Yuanxing 2/3 = 403/404",
+   "ic_not": "f ve t iki kaynak ailesi arasında KAYIYOR. f: ZZTJ 卷106 Lü Guang'ın Liangzhou Mu/Jiuquan Gong olarak kendini ilanını 太元十一年 (386) 12. aya koyar (atlas f=386 ile uyumlu); Jin shu 122 ise 太元十二年 (387) 'Liangzhou'yu sakinleştirdi' ve 十五年 (390) 僭立 der. t: üç aday — 401 (Jin shu 10: 隆安五年 9. ay Lü Long Yao Xing'e 降), 403 (ZZTJ 113: 元興二年 8. ay Lü Long doğuya taşındı, Guzang'ı bıraktı), 404 (Jin shu 122: 元興三年 滅). Atlas 403 yalnız ZZTJ (ikincil derleme) ile destekli. 403 önerilir ancak Jin shu birincil metninde 401/404 var => celiskili; Emre seçmeli. Lü Guang'ın 396 Tian Wang unvanı (ZZTJ 108) ayrı bir ‘devlet unvanı’ ucu."
+  },
+  {
+   "id": "kuzey-liang",
+   "onay": "dogrulandi",
+   "f_mo": -397,
+   "t_mo": -439,
+   "f_iso": "0397-01-01",
+   "t_iso": "0439-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fang Xuanling vd., Jin shu, juan 129 — zh.wikisource.org/wiki/晉書/卷129 (okundu) «Zaiji 29 Juqu Mengxun»: 推光建康太守段業為使持節、大都督、龍驤大將軍、涼州牧、建康公，改呂光龍飛二年為神璽元年",
+    "Fang Xuanling vd., Jin shu, juan 10 — zh.wikisource.org/wiki/晉書/卷010 (okundu): 隆安元年 光建康太守段業自號涼州牧; 隆安五年 沮渠蒙遜殺段業，自號大都督、北涼州牧",
+    "Wei Shou, Wei shu, juan 4 shang «Shizu ji» 太延五年: 九月丙戌…牧犍與左右文武五千人面縛軍門 — zh.wikisource.org/wiki/魏書/卷4上 (okundu)"
+   ],
+   "alinti": "改呂光龍飛二年為神璽元年",
+   "alinti_2": "是日，牧犍與左右文武五千人面縛軍門",
+   "kronoloji_okulu": "Jin/Wei nianhao; Longfei 2 = Shenxi 1 = 397; Taiyan 5 = 439",
+   "ic_not": "f: Duan Ye Liangzhou Mu olarak 397 (Longfei 2 yılı Shenxi 1 yapıldı; Jin shu 10 隆安元年 = 397) -> dogrulandi. Atlas ozeti 'Duan Ye 397 + Juqu Mengxun 401': Mengxun 401'de Duan Ye'yi öldürdü (隆安五年). t: Wei Shu 4: 太延五年 (439) 9. ay Juqu Muqian teslim, Guzang düştü -> dogrulandi. Kalıntı: Juqu Wuhui/Anzhou 439-460 (Gaochang) ayrı hat, bu künyenin dışında. Day: 9. ay丙戌 (Wei shu)."
+  },
+  {
+   "id": "bati-liang-16",
+   "onay": "celiskili",
+   "f_mo": -400,
+   "t_mo": -421,
+   "f_iso": "0400-01-01",
+   "t_iso": "0421-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fang Xuanling vd., Jin shu, juan 87 — zh.wikisource.org/wiki/晉書/卷087 (okundu) «Li Gao»: 隆安四年，晉昌太守唐瑤移檄六郡，推玄盛為大都督、大將軍、涼公、領秦涼二州牧",
+    "Wei Shou, Wei shu, juan 99 «Si shu Liang wang Li Hao»: 天興中，暠私署大都督…涼公，年號庚子，居敦煌; … 城陷，恂自殺，蒙遜克敦煌 — zh.wikisource.org/wiki/魏書/卷99 (okundu)",
+    "Sima Guang, Zizhi Tongjian — zh.wikisource.org/wiki/資治通鑑/卷119 (okundu; ikincil derleme, Song): 永初二年 河西王蒙遜築堤壅水以灌敦煌；李恂乞降，不許",
+    "Fang Xuanling vd., Jin shu, juan 87 — zh.wikisource.org/wiki/晉書/卷087 (okundu): 玄盛以安帝隆安四年立，至宋少帝景平元年滅"
+   ],
+   "alinti": "暠私署大都督、大將軍、護羌校尉、秦涼二州牧、涼公，年號庚子",
+   "alinti_2": "蒙遜攻恂于敦煌，三面起堤，以水灌城。城陷，恂自殺",
+   "kronoloji_okulu": "Jin/Song nianhao; Longan 4 = 400 (Gengzi); Yongchu 2 = 421; Jingping 1 = 423",
+   "ic_not": "f=400 iki kaynakta (Jin shu 87 隆安四年; Wei shu 99 年號庚子 = 400) -> dogrulandi. t ÇELİŞKİLİ: olay-bazlı anlatımlar (Wei shu 99: Li Xin Liaoquan'da öldü -> Jiuquan düştü; Li Xun Dunhuang'da sığındı, Mengxun suyla kuşattı, şehir düştü, Xun intihar; ZZTJ 119 bu kuşatmayı 永初二年 (421) altına koyar) => 421; Jin shu 87'nin kendi kapanış hükmü '宋少帝景平元年 (423) 滅' der (aritmetik 'iki-nesil toplamı' görünümü). Atlas 421 olay-bazlı iki kaynağa (Wei shu 99, ZZTJ) dayanıyor; Jin shu 87 birincil metni 423. Qifu/BOZKIR kayıtlarıyla örtüşme yok."
+  },
+  {
+   "id": "hu-xia",
+   "onay": "dogrulandi",
+   "f_mo": -407,
+   "t_mo": -431,
+   "f_iso": "0407-01-01",
+   "t_iso": "0431-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Fang Xuanling vd., Jin shu, juan 130 — zh.wikisource.org/wiki/晉書/卷130 (okundu) «Zaiji 30 Helian Bobo»: 義熙三年，僭稱天王、大單于…建元曰龍昇…國稱大夏",
+    "Fang Xuanling vd., Jin shu, juan 10 — zh.wikisource.org/wiki/晉書/卷010 (okundu) (An di ji) 義熙三年: 六月，姚興將赫連勃勃僭稱天王于朔方，國號夏",
+    "Wei Shou, Wei shu, juan 4 shang 神䴥四年: 六月，赫連定北襲沮渠蒙遜，為吐谷渾慕璝所執 — zh.wikisource.org/wiki/魏書/卷4上 (okundu)"
+   ],
+   "alinti": "義熙三年，僭稱天王、大單于，赦其境內，建元曰龍昇",
+   "alinti_2": "赫連定北襲沮渠蒙遜，為吐谷渾慕璝所執",
+   "kronoloji_okulu": "Jin/Wei nianhao; Yixi 3 = 407; Shenjia 4 = 431",
+   "ic_not": "f: Jin shu 130 ve Jin shu 10 (義熙三年 6. ay) -> 407 iki juan'da dogrulandi. t: Wei shu 4: Helian Ding 神䴥四年 (431) 6. ay Tuyuhun Murong Gui'ye esir düştü; Xia'nın son hükümdarı -> 431. Ek: Helian Chang'ın 428'de Tongwancheng düşmesi (始光四年) ve Helian Ding'in Pingliang'da devamı (428-431) künye için 'Xia 428'e kadar' alternatifi gerektirir; atlas 431 son hükümdarın düşüşüne denk."
+  },
+  {
+   "id": "qiuchi",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Wei Shou, Wei shu, juan 101 «Di»: 漢建安中…楊騰…始徙居仇池… 惠帝元康中，茂搜自號輔國將軍、右賢王，羣氐推以為主 — zh.wikisource.org/wiki/魏書/卷101 (okundu)",
+    "Linghu Defen vd., Zhou shu, juan 49 «Yiyu shang: Di» — zh.wikisource.org/wiki/周書/卷49 (okundu): Wuxing Yang hanedanı 魏恭帝末 isyanıyla biter"
+   ],
+   "alinti": "惠帝元康中，茂搜自號輔國將軍、右賢王，羣氐推以為主",
+   "alinti_2": "魏恭帝末，武興氐反，圍利州",
+   "kronoloji_okulu": "Wei/Zhou nianhao; Yuankang = 291-299; Gongdi = 554-556",
+   "ic_not": "Atlas f=296 / t=580 kaynakla DESTEKLENMİYOR. Wei shu 101 Yang Maosou'nun ünvanı için yalnız '元康中' (291-299) verir (296 yıl düzeyinde yok). t=580'e Wei shu 101 ve Zhou shu 49 çelişir: Zhou shu 49'a göre Wuxing Yang hattı Western Wei dönemi 554-556'da (魏恭帝) isyan ve Zhou fethiyle söner; Qiuchi (Maosou) hattı ise Hou Qiuchi/Chouchi kesintileri (371 Qian Qin, 443 Wei) yüzünden TEK polity değildir. Kültür-kompleksi/polity-değil: 'Yang hanedanı' birden fazla (Qian Qiuchi, Hou Qiuchi, Yinping, Wuxing, Wudu). Öneri: aralıklı ayrı künyeler; 296/580 uçları yazılmasın. Birincil kaynak için Jin shu 57 Yang Maosou, Song shu 98 (Di), Beishi 96 gerekir.",
+   "kutuphane": "Jin shu 57/120 (Yang Maosou), Song shu 98, Nan Qi shu 59, Beishi 96 (zh.wikisource Beishi 96 çekilemedi); 580 iddiasının kaynağı (Sui shu?) bulunmadı"
+  }
+ ],
+ "bulunamadi": [
+  "qiuchi"
+ ],
+ "kutuphane_gerekli": [
+  {
+   "id": "qiuchi",
+   "ne": "Jin shu 57/120 (Yang Maosou), Song shu 98, Nan Qi shu 59, Beishi 96 (zh.wikisource Beishi 96 çekilemedi); 580 iddiasının kaynağı (Sui shu?) bulunmadı"
+  }
+ ]
+}

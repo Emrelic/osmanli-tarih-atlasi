@@ -1104,10 +1104,32 @@ function tabiYazisi(id, t) {
   if (!l) return "";
   for (var i = 0; i < l.length; i++) {
     if (gunIdx(l[i].f) <= t && t < gunIdx(l[i].t)) {
-      return "tâbi: " + devletAdi(l[i].ust).replace(/\s*\(.*\)\s*$/, "");
+      return tabiUstEki(devletAdi(l[i].ust).replace(/\s*\(.*\)\s*$/, "")) + " tâbi";
     }
   }
   return "";
+}
+// "Memlûk Sultanlığı" → "Memlûk Sultanlığı'na" (yönelme eki, ünlü uyumu).
+function tabiUstEki(ad) {
+  var m = ad.match(/[aıoueiöüâîû](?=[^aıoueiöüâîû]*$)/i);
+  var on = m && /[eiöüî]/i.test(m[0]);
+  // -ı/-i/-u/-ü ile biten adlar iyelik ekli (Sultanlığı, Devleti) → 'na/'ne; a/e/o/ö → 'ya/'ye
+  var araSes = /[ıiuü]$/i.test(ad) ? "n" : /[aeoöâîû]$/i.test(ad) ? "y" : "";
+  return ad + "'" + araSes + (on ? "e" : "a");
+}
+// Postit #36 (Emre, 17 Ekim): yabancı süzerene tâbi devletin gövdesi, süzerenin
+// renginin bir ton açığı olur. Süzerenin rengi `_DEVLET_RENK`ten (çalışma anında).
+function tabiGovdeRengi(id, t, asil) {
+  if (!tabiYazisi(id, t)) return asil;
+  var l = _TABI_IX[id];
+  for (var i = 0; i < l.length; i++) {
+    if (gunIdx(l[i].f) <= t && t < gunIdx(l[i].t)) {
+      var ust = l[i].ust, r = _DEVLET_RENK[ust];
+      if (!r) { var d = _cDevletIx()[ust]; r = d && d.harita && _DEVLET_RENK[d.harita]; }
+      return r ? acikTon(r) : asil;
+    }
+  }
+  return asil;
 }
 
 // 🔴 POSTIT #112 — iki devletin gövdesi AYNI toprağı örtmesin. Motor çıktısında
@@ -1185,7 +1207,11 @@ function devletGuncelle(t) {
         // BELLEK içi verisi (dosyaya yazılmıyor).
         p.ft.properties = p.ft.properties || {};
         p.ft.properties.id = s.id;
-        fs.push(p.ft);
+        var tr = tabiGovdeRengi(s.id, t, s.renk);
+        if (tr !== s.renk) {
+          fs.push({ type: "Feature", geometry: p.ft.geometry,
+                    properties: Object.assign({}, p.ft.properties, { renk: tr }) });
+        } else fs.push(p.ft);
         // Her gövde parçası için ayrı etiket adayı
         var mp = p.ft.geometry.coordinates;
         for (var k = 0; k < mp.length; k++) {
@@ -1620,7 +1646,10 @@ function dolguGuncelle(t) {
   if (!dolgular.length) return;
   var acik = true;
   try {
-    acik = harita.getLayoutProperty("dolgu-b-alan", "visibility") !== "none";
+    // Katman stil yüklenmeden önce yoktur; `getLayoutProperty` o hâlde konsola
+    // hata yazar (veri artık var olduğu için bu yola ilk kez giriliyor).
+    acik = !!harita.getLayer("dolgu-b-alan") &&
+           harita.getLayoutProperty("dolgu-b-alan", "visibility") !== "none";
   } catch (e) { acik = false; }
   if (!acik) { dolguImza = null; return; }
   var fs = [], imza = "";
@@ -1637,7 +1666,21 @@ function dolguGuncelle(t) {
     harita.getSource("dolgu").setData({ type: "FeatureCollection", features: fs });
   } catch (e) { /* kaynak henüz kurulmadı — stil geç yüklenebilir */ }
   var rozet = document.getElementById("kat-sayi-dolgu");
-  if (rozet) rozet.textContent = fs.length ? fs.length : "0";
+  if (rozet) {
+    rozet.textContent = fs.length ? fs.length : "0";
+    // 🔴 22 Ekim 2026 — dolgu YALNIZ üretildiği tarih aralığını kapsar (şimdilik
+    // 1281 öncesi). Kapsam dışında "0" yazmak "dolgu gerek yok" sanılırdı;
+    // oysa veri HENÜZ ÜRETİLMEDİ. Kapsamın sonunu veri söyler (azami `ti`).
+    var kapsamSon = 0, kapsamYazi = "";
+    for (var ki = 0; ki < dolgular.length; ki++) {
+      if (dolgular[ki].ti > kapsamSon) { kapsamSon = dolgular[ki].ti; kapsamYazi = dolgular[ki].t; }
+    }
+    if (!fs.length && t >= kapsamSon) {
+      rozet.textContent = "—";
+      rozet.title = "Bu tarih için dolgu henüz hazırlanmadı (şimdilik yalnız " +
+        kapsamYazi + " öncesi)";
+    } else { rozet.title = ""; }
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════
@@ -18920,6 +18963,11 @@ function katmanSeciciKur() {
       // ARAYUZ-0077 H-78:1 — veri yokken rozet KATMAN sayısını ("2") yazıp
       // yukarıdaki "—"yi eziyordu: ayar çalışıyormuş gibi görünüyordu.
       if (a === "dolgu" && !dolgular.length) say = null;
+      // 22 Ekim 2026: veri VARKEN de bu genel yazıcı rozeti ezmemeli — rozeti
+      // `dolguGuncelle` yönetir (aktif parça sayısı ya da "—: kapsam dışı").
+      // Aksi hâlde düğme açılınca kova uzunluğu ("2") yazılıp gerçek sayının
+      // yerine geçiyordu.
+      if (a === "dolgu") say = null;
       if (say) {
         say.textContent = (a === "yerlesim")
           ? document.querySelectorAll(".maplibregl-marker").length

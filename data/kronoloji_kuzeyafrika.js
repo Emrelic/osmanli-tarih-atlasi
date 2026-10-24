@@ -64,7 +64,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"80.000 kişilik bir Muvahhid ordusu Fas yakınlarında mağlûp edildi; Merînîlerin kuzey Fas'taki üstünlüğü perçinlendi.",
   kaynak:"TDV `meriniler`: \"653 (1255) yılında 80.000 kişilik Muvahhid ordusunu Fas yakınlarında mağlûp etti.\"", yer_id:"Fas (Fez)" },
 
-{ taraflar:["merini"], t:"1258-01-01", b:"Ebû Yûsuf Ya'kūb saltanata geçti", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["merini"], t:"1258-01-01", b:"Ebû Yûsuf Ya'kūb saltanata geçti", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-hanedan"],
   d:"Hanedanın en güçlü hükümdarlarından Ebû Yûsuf Ya'kūb saltanata geçti; onun döneminde Muvahhid Devleti kesin olarak sona erdirilecek ve Endülüs'e büyük seferler düzenlenecekti.",
   kaynak:"TDV `meriniler`: 656/1258'de Ebû Yûsuf Ya'kūb saltanata geçti" },
@@ -119,12 +119,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Ebû İnân, babası Ebü'l-Hasan'ın işini tamamlayıp Tilimsan'ı yeniden ilhak etti; aynı yıl Kostantîne'yi zaptedip Tunus'a girerek Hafsî hâkimiyetine de son verdi — Merînî gücünün son zirvesi.",
   kaynak:"TDV `meriniler`: \"759/1358'de Ebû İnân Tilimsân'a girdi\" · \"758/1357'de Kostantîne zaptedilerek Tunus'a girilerek Hafsîler hâkimiyeti sona erdi\"" },
 
-{ taraflar:["merini"], t:"1350-01-01", b:"Ebû İnân babasını tahttan feragate zorladı", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["merini"], t:"1350-01-01", b:"Ebû İnân babasını tahttan feragate zorladı", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["isyan","hanedan","konu-isyan","konu-hanedan"],
   d:"Ebû İnân, Medgūsa'da (Ümmürrebî vadisi) babası Ebü'l-Hasan'ı tahttan feragate mecbur ederek iktidarı ele geçirdi.",
   kaynak:"TDV `meriniler`: \"Ebû İnân Ümmürrebî vadisinde (Medgūsa) cereyan eden savaştan galip çıkarak Cebelülhintâte’ye sığınan babasını tahttan feragate mecbur etti (751/1350).\"" },
 
-{ taraflar:["merini"], t:"1358-01-01", b:"Ebû İnân boğularak öldürüldü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["merini"], t:"1358-01-01", b:"Ebû İnân boğularak öldürüldü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Merînî gücünün zirvesindeki hükümdar Ebû İnân sarayında boğularak öldürüldü; ölümünün ardından hanedan on yıllar sürecek bir taht kavgaları dönemine girdi.",
   kaynak:"TDV `meriniler`: 759/1358'de Ebû İnân boğularak öldü" },
@@ -159,7 +159,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Fas'ta, Merînî medrese mimarisinin özgün örneklerinden Medresetü'l-Attârîn inşa edildi; hanedan, başkentini bir ilim merkezine dönüştürme siyasetini bu tür kurumlarla sürdürdü.",
   kaynak:"TDV `meriniler`: \"723/1323'e ait kaynaklar Medresetü'l-Attârîn'in inşasını gösterir\"" },
 
-{ taraflar:["merini"], t:"1304-01-01", b:"İlk resmî hac kafilesi yola çıktı", tur:"din", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["merini"], t:"1304-01-01", b:"İlk resmî hac kafilesi yola çıktı", tur:"din", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["din","konu-din"],
   d:"Merînî hükümdarlığı himayesinde ilk resmî hac kafilesi Mekke'ye yola çıktı; hanedanın dinî meşruiyet ve hac yolu güvenliği siyasetinin erken bir göstergesi.",
   kaynak:"TDV `meriniler`: 703/1303-1304'te ilk hac kafilesi yola çıktı" },
@@ -173,7 +173,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde elli kadar kabile reisinden biat alarak cihad emîri oldu — İber yarımadası ve Portekiz'in kıyı işgallerine karşı direniş söylemiyle yükselen Sâdî hanedanının başlangıcı.",
   kaynak:"TDV `sadiler`: 916/1511'de Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde cihad emîri olarak atandı", kapsam_genis:true },
 
-{ taraflar:["sadi"], t:"1517-01-01", b:"Kurucunun vefatı, Ahmed el-A'rec tahta geçti", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["sadi"], t:"1517-01-01", b:"Kurucunun vefatı, Ahmed el-A'rec tahta geçti", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Hanedanın kurucusu Muhammed'in vefatının ardından oğlu Ahmed el-A'rec tahta geçti.",
   kaynak:"TDV `sadiler`: 923/1517'de Muhammed'in vefatı; Ahmed el-A'rec'in tahta geçmesi" },
@@ -183,12 +183,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Sâdîler Merakeş'e girerek şehri başşehir yaptı; Sûs'taki yerel bir cihad hareketi artık bölgesel bir devletin merkezine sahipti.",
   kaynak:"TDV `sadiler`: 930/1524'te Merakeş'e girerek başşehir yapılması" },
 
-{ taraflar:["sadi"], t:"1536-01-01", b:"Ukbâ savaşı sonrası Vattâsîlerle sınır antlaşması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["sadi"], t:"1536-01-01", b:"Ukbâ savaşı sonrası Vattâsîlerle sınır antlaşması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
   d:"Ukbâ savaşının ardından Sâdîler ile eski Merînî vezirleri Vattâsîler arasında egemenlik alanlarını belirleyen bir antlaşma yapıldı — ülke fiilen ikiye bölünmüş durumdaydı.",
   kaynak:"TDV `sadiler`: 943/1536'da Ukbâ savaşından sonra Vattâsîler ile egemenlik alanları belirleme antlaşması" },
 
-{ taraflar:["sadi"], t:"1537-01-01", b:"Portekiz ile üç yıllık antlaşma", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["sadi"], t:"1537-01-01", b:"Portekiz ile üç yıllık antlaşma", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
   d:"Sâdîler, kıyı kalelerini elinde tutan Portekiz ile üç yıllık bir antlaşma imzaladı.",
   kaynak:"TDV `sadiler`: 1537'de Portekiz ile 3 yıllık antlaşma imzalanması" },
@@ -208,7 +208,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Osmanlı-destekli bir sefer Fas şehrini ele geçirip Sâdîleri geçici olarak çıkardı ve eski Vattâsî hanedanından Ebû Hassûn'u tahta oturttu — Osmanlı'nın Fas'a ilk ve tek doğrudan askerî müdahalesi. Aynı yıl Muhammed eş-Şeyh Ebû Hassûn'u yenip öldürerek Fas'ı geri aldı.",
   kaynak:"TDV `sadiler`: 961/1554'te Osmanlı ordusu tarafından Fas'tan çıkarılması; Ebû Hassûn'un iktidarı · \"Aynı yıl Muhammed eş-Şeyh tarafından Ebû Hassûn'un yenilgisi ve ölümü\"" },
 
-{ taraflar:["sadi"], t:"1557-01-01", b:"Muhammed eş-Şeyh Osmanlı ordusunca öldürüldü, Abdullah tahta geçti", tur:"olum", onem:5, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["sadi"], t:"1557-01-01", b:"Muhammed eş-Şeyh Osmanlı ordusunca öldürüldü, Abdullah tahta geçti", tur:"olum", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan","konu-din"],
   d:"1554'te Osmanlıları Fas'tan çıkaran Muhammed eş-Şeyh, üç yıl sonra bir Osmanlı harekâtı sırasında öldürüldü; yerine oğlu Abdullah (Gālib-Billâh) geçti. Osmanlı-Sâdî çekişmesi bir kuşak daha sürecekti.", ic_not_d:"⚠️ Kaynağın verdiği yer adı ('Derna dağları') Trablusgarp'taki Derne ile KARIŞTIRILMASIN — Fas içinde bir yerdir, atlasın Derne noktasıyla eşleştirilmedi.",
   kaynak:"TDV `sadiler`: 964/1557'de Muhammed eş-Şeyh'in Osmanlı ordusu tarafından Derna dağlarında öldürülmesi · \"964/1557'de Abdullah (Gālib-Billâh) tahta geçişi\"" },
@@ -228,7 +228,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Portekiz Kralı Sebastião'nun bizzat başında bulunduğu Haçlı ordusu Vâdilmehâzin'de (Alcácer Quibir) bozguna uğratıldı; kral savaş alanında öldü, Abdülmelik de aynı gün hastalıktan öldü, Ahmed el-Mansûr tahta geçti. Portekiz tahtı vâris bırakmadan boşaldı ve iki yıl sonra İspanya Kralı II. Felipe Portekiz tacını ele geçirdi (1580 İber Birliği) — savaş, Fas sınırları dışında bir Avrupa hanedan krizini doğrudan tetikledi.", ic_not_d:"⚠️ Savaş alanı (Ksar el-Kebir/Alcácer Quibir) atlasın yerleşim veri tabanında YOK, yer_id boş bırakıldı.",
   kaynak:"TDV `sadiler`: 30 Cemâziyelevvel 986/4 Ağustos 1578'de Vâdilmehâzin (Üç Kral) savaşında Portekiz Haçlı ordusunun mağlûbiyeti · \"Abdülmelik'in hastalıktan savaş alanında ölümü\" · \"Ahmed el-Mansûr'un tahta geçişi\" — İber Birliği bağlantısı genel akademik bilgi, TDV maddesinde işlenmiyor", yer_kon:[35.006,-5.904] },
 
-{ taraflar:["sadi"], t:"1588-01-01", b:"Ahmed el-Mansûr Osmanlı'ya vergiyi kesti", tur:"idari", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["sadi"], t:"1588-01-01", b:"Ahmed el-Mansûr Osmanlı'ya vergiyi kesti", tur:"idari", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","konu-idari","konu-diplomasi","konu-ekonomi"],
   d:"Ahmed el-Mansûr, İstanbul'a gönderdiği vergiyi kesti; ardından yumuşatıcı bir elçilik heyeti gönderdi. Sâdîlerin Osmanlı'ya karşı fiilî bağımsızlığının bir göstergesi.",
   kaynak:"TDV `sadiler`: 1588'de Ahmed el-Mansûr'un Osmanlıya vergi göndermemesi; ardından elçilik heyeti gönderilmesi" },
@@ -243,7 +243,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Tondibi zaferinin ardından Sâdî ordusu yaklaşık 20.000 köle ile büyük miktarda altın ve fildişi ganimeti Fas'a taşıdı; Sâdî hazinesi Sudan altınıyla dolduğu için Ahmed el-Mansûr'a 'ez-Zeheb' (Altınlı) lakabı yakıştırıldı.",
   kaynak:"TDV `sadiler`: \"Sudan seferinden 20.000 civarında köle ve bol miktarda altın ve fildişi ile dönüldü.\"" },
 
-{ taraflar:["sadi"], t:"1602-01-01", b:"Veliahtın isyanı bastırıldı", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Fas"], taraflar:["sadi"], t:"1602-01-01", b:"Veliahtın isyanı bastırıldı", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["isyan","konu-isyan"],
   d:"Veliaht Muhammed eş-Şeyh el-Me'mûn'un isyanı bastırılıp kendisi hapsedildi; hanedanın taht kavgaları döneminin habercisiydi.",
   kaynak:"TDV `sadiler`: 1011/1602'de veliaht Muhammed eş-Şeyh el-Me'mûn'un isyanının bastırılması; hapsedilmesi" },
