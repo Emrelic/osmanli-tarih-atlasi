@@ -169,35 +169,36 @@ window.YERLESIMLER_DOGU_500_1281 = [
   "g": 1,
   "k": 3,
   "s": [
-   {
+     {f:"0413-01-01",t:"0427-07-12",d:"hu-xia",kesinlik:{f:"yil",t:"gun"},kaynak:"ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 乙巳 (元嘉四年六月, 癸卯朔) → Jülyen 0427-07-12 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13); 1582 öncesi gün Jülyen kalır. Fang Xuanling vd., Jin shu, juan 130 «Zaiji 30: Helian Bobo» (zh.wikisource.org/wiki/晉書/卷130, okundu): «義熙三年，僭稱天王、大單于，赦其境內，建元曰龍昇 ... 國稱大夏» ; «乃赦其境內，改元為鳳翔，... 于朔方水北、黑水之南營起都城» · Sima Guang, Zizhi tongjian, juan 116, Yixi 9 (413) (zh.wikisource.org/wiki/資治通鑑/卷116, okundu): «夏王勃勃大赦，改元鳳翔。... 築都城於朔方水北、黑水之南。勃勃曰：『朕方統一天下，君臨萬邦，宜名新城曰統萬。』» · Zizhi tongjian, juan 120, Yuanjia 4 (427) (zh.wikisource.org/wiki/資治通鑑/卷120, okundu): «六月癸卯朔，日有食之。... 甲辰，將步騎三萬出城 ... 乙巳，魏主入城，獲夏王、公、卿、將、校 ...»; «辛酉，魏主自統萬東還，... 留鎮統萬» | TAKVİM DOĞRULAMASI: 癸卯 (6. ay朔) = 0427-07-10 ortalama yeni ay gününe oturur (ay evresi 0,2 gün); 乙巳 = 0427-07-12 Wei'nin Tongwan'a girişi. BEYANLI YAKLAŞIKLIK: dönem başı yalnız yıl (Tongwan'ın inşasının başlatıldığı 413 = 義熙九年, ay kaynakta yok; şehir 418 dolaylarında tamamlandı, kesin gün yok); Hu Xia'nın 407'deki ilk iktidarı (Shuofang) bu yerleşimde yazılmadı çünkü Tongwan 413'te kuruldu. · ASYA-ZINCIR-1024 (F6a)"},
+     {f:"0427-07-12",t:"0881-01-01",d:"__BOSLUK__",kesinlik:"yuzyil",kaynak:"BOŞLUK BEYANI: 0427-07-12–0881-01-01 arası sahip YAZILMADI: önceki dilim (hu-xia) kaynaklı olarak 0427-07-12'te biter, sonraki dilim (__BOSLUK__) 0881-01-01'te başlar; aradaki dilim için bu pakette (ASYA-ZINCIR-1024) kaynak okunmadı/bulunamadı. Boşluk komşuya İTİLMEDİ (VERI-YAPISI __BOSLUK__ kuralı); BORÇ: bu dilim için TDV ve ardıl kaynak taraması. · ASYA-ZINCIR-1024"},
+     {
     "f": "0881-01-01",
     "t": "0982-01-01",
     "d": "__BOSLUK__",
     "kesinlik": "yil",
     "kaynak": "BOŞLUK BEYANI: sahip xiazhou-dangxiang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"xiazhou-dangxiang\" geri yazılır) · Sima Guang, Zizhi tongjian, juan 254 (zh.wikisource.org/wiki/資治通鑑/卷254; açıldı, okundu; Zhonghe 1 / 881 bölümü): «鄜延節度使李孝昌、權夏州節度使拓跋思恭屯東渭橋，黃巢遣朱溫拒之。»; Song shi 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «唐末，拓跋思恭鎮夏州，統銀、夏、綏、宥、靜五州地，討黃巢有功，復賜李姓。» ‖ bitiş: Song shi, juan 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «繼捧立，以太平興國七年率族人入朝。…遂曲赦銀、夏管內。»; «太平興國八年，知夏州尹憲與都巡檢曹光實偵知，夜襲破之»"
    },
-   {
+     {
     "f": "0982-01-01",
     "t": "0988-01-01",
     "d": "song",
     "kesinlik": "yil",
     "kaynak": "Song shi, juan 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «繼捧立，以太平興國七年率族人入朝。…遂曲赦銀、夏管內。»; «太平興國八年，知夏州尹憲與都巡檢曹光實偵知，夜襲破之» ‖ bitiş: Song shi, juan 485 (okundu): «端拱初，…召赴闕，賜姓趙氏，更名保忠，…授夏州刺史，充定難軍節度使、夏銀綏宥靜等州觀察處置押蕃落等使»"
    },
-   {
+     {
     "f": "0988-01-01",
     "t": "0994-05-06",
     "d": "__BOSLUK__",
     "kesinlik": "ay",
     "kaynak": "BOŞLUK BEYANI: sahip xiazhou-dangxiang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"xiazhou-dangxiang\" geri yazılır) · Song shi, juan 485 (okundu): «端拱初，…召赴闕，賜姓趙氏，更名保忠，…授夏州刺史，充定難軍節度使、夏銀綏宥靜等州觀察處置押蕃落等使» ‖ bitiş: Xiazhou kentinin yıkımı (Chunhua 5 = 994, Song Taizong’un surların yıkılıp halkın Sui-Yin’e taşınması emri): atıf; açılmadı (Song shi Taizong ben ji; web özetleri Baidu Baike — dayanak değil). BEYANLI: yerleşim 994’te terk (idarî ad kâğıt üstünde sürdü). ‖ Song shi j.5 «Taizong 2» (zh.wikisource.org/wiki/宋史/卷005; açıldı, okundu): «三月乙亥，趙保忠為趙保吉所襲，奔還夏州，指揮使趙光嗣執之以獻，李繼隆帥師入夏州。» (994 başında Xiazhou Dangxiang beyi Zhao Baozhong’un elinde; Song ordusu girene dek) | Takvim: 三月乙亥 → Jülyen 0994-05-06 (gan-zhi çevrimi; Changbian j.35’te 三月甲寅朔 = 0994-04-15)"
    },
-   {
+     {
     "f": "0994-05-06",
     "t": "0994-05-16",
     "d": "song",
     "kesinlik": "gun",
     "kaynak": "Song shi j.5: «李繼隆帥師入夏州»; Xu zizhi tongjian changbian j.35 (zh.wikisource.org/wiki/續資治通鑑長編/卷035; açıldı, okundu), Chunhua 5: «甲申，上聞趙保忠既成擒，詔以趙光嗣為夏州團練使，高文岯為綏州團練使» (Song, Xiazhou’ya kendi valisini atadı) | Takvim: 三月乙亥 = Jülyen 0994-05-06 (gan-zhi çevrimi)"
-   }
-  ],
+   }],
   "not": "kur YAZILMADI: Tongwan Şehri (Helian Bobo, 413) kuruluşu bu kümenin penceresinde değil; 500–880 Sui/Tang dilimi cin1 kümesi tarafından bu kaydın önüne eklenmeli (s: ilk dilim 0881-01-01). Xiazhou kenti 994’te yıkıldı (Song Taizong); sonrası yerleşim yok (BEYANLI, kaynak açılmadı). Kimlik kanıtı: Xin Wudai 40 «夏州城壁素堅，故老傳言赫連勃勃蒸土築之». Aynı kent adı: Tongwan 統萬城 (Baichengzi, Jingbian, Shaanxi).",
   "kaynak": "koordinat: Wikidata Q897898 «Tongwan» (37.99876, 108.84722) + OSM Nominatim way 470729772 «统万城遗址» (38.00054, 108.85149) — 0,4 km (Pleiades/GeoNames bölgeyi kapsamaz; çift tanık = Wikidata + OSM).",
   "bit": "0994-05-16"
