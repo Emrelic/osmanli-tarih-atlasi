@@ -37,7 +37,7 @@ window.OLAYLAR_ORTADOGU_0919 = [
 
 // ── 3. MISIR GARNİZONU HARC'TAN ÇEKİLDİ (13 AĞUSTOS 1819) ─────────────
 { t:"1819-08-13", b:"Mısır garnizonu Harc'taki Süleymiye'den çekilip Menfûha'ya ulaştı — Necid'in güneyi başsız kaldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Dilem (Harc)",
-  gun:"13 Ağustos 1819", yer:"Harc (Süleymiye, Dilem), Menfûha, Eflâc",
+  gun:"13 Ağustos 1819", yer:"Harc (Süleymiye, Dilem), Menfûha, Eflâc, Leylâ, Havta",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Dir'iye'nin yıkılışından sonra İbrâhim Paşa'nın Harc'taki Süleymiye'ye koyduğu Mısır karakolu, Paşa'nın geri çekilme emriyle yola çıkmadan önce Dilem'in dört şeyhini bir ziyafette öldürttü ve bedevîlerce kuşatıldı. Kurtarılan garnizon 13 Ağustos 1819'da Menfûha'ya ulaştı ve Kasîm'e yürüyüş başladı. Necid'in güneyinde merkezî bir otorite kalmadı; Suûd ailesinin girişimleri 1824'e kadar sonuç vermedi.",
   kaynak:"Lorimer, Gazetteer I/1 (1915) s.1091-1092: 'On the 13th of August the Sulaimiyah garrison reached Manfuhah in safety' (dipnot: Dilem şeyhlerinin öldürülmesi) · suudiler (TDV: '1824 yılına kadar bir başarı elde edemediler') · necid (TDV: 1819'da İbrâhim Paşa'nın dönüşünden sonra idarî düzenlemeler zayıfladı)" },
