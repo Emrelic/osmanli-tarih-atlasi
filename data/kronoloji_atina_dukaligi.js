@@ -18,7 +18,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
   d:"Haçlılar İstanbul'u aldı ve Bizans toprakları Latin beyleri arasında paylaşıldı. Orta Yunanistan, Selânik Kralı Boniface de Montferrat'ın payına düştü ve oradan bir vassala verilecekti. Atina Dukalığı bu paylaşımın doğrudan ürünüdür.",
   kaynak:"TDV 'atina' md.: \"1204: Haçlılar tarafından ele geçirilen şehir\" · Lock, The Franks in the Aegean 1204-1500 · `dunya:4`" },
 
-{ t:"1205-01-01", b:"Otto de la Roche'un Atina beyi olması — dukalığın kuruluşu", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
+{ t:"1204-01-01", b:"Otto de la Roche'un Atina beyi olması — dukalığın kuruluşu", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["kurulus","toprak-kazanc","konu-askeri","konu-siyasi"],
   d:"Burgonyalı şövalye Otto de la Roche, Boniface de Montferrat'tan Atina ve Tebai'yi aldı ve Yunanlar'ın 'Megas Kyr' (Büyük Efendi) dediği unvanla yönetmeye başladı. Akropolis, Partenon'un yanı başında bir Frank saray-kalesine dönüştürüldü. Batı Avrupa feodalizminin klasik Yunan şehirlerine yerleştiği andır.",
   kaynak:"Lock, The Franks in the Aegean 1204-1500 (Longman, 1995) · Setton, The Papacy and the Levant, c. I · gün bilinmiyor" },
