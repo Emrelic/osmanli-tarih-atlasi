@@ -505,6 +505,177 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Çift teyit: Caesar BG 5.24 (Perseus Latin metni) + Dickinson College Commentaries (kışlık 54-53 haritası) + Pleiades; MÖ 54 yılı DCC başlık/haritasından (BG 5.1 Perseus metni konsülleri 'L. Domitio Ap. Claudio consulibus' diye anar; takvim yılı DCC başlığından). Treccani Amiens: 'Prima della conquista romana ... Samarabriva era capoluogo degli Ambiani' (tarih yok). Modern nokta Roma kentiyle aynı (Pleiades 49.89/2.30). Not: bir arkeolojik değerlendirme (arama özeti) kentin Via Agrippa etrafında sonradan kurulduğunu öne sürer — Caesar'ın metni yine de MÖ 54 yazılı tanıktır. Atlas başlangıç 1281 fransa ile zincir uyumlu."
  },
  {
+  "id": "amul-ir",
+  "ad": "Âmül",
+  "atlas_ad": "Âmül",
+  "lat": 36.4697,
+  "lon": 52.3508,
+  "kat1900": 3,
+  "adlar": [
+   "Amardoi/Mardoi (halk adı, özdeşlik belirsiz)",
+   "*Āmṛda (Eski Farsça)",
+   "Ahlüm (TDV)",
+   "Âmül (Āmol)"
+  ],
+  "ilk": {
+   "t": "0553-01-01",
+   "gun": "553",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'ĀMOL i. History' (Bosworth-Blair-Ehlers), https://www.iranicaonline.org/articles/amol-a-town-on-the-caspian-shore/amol-i-history/",
+   "tanik": "together with Gīlān is mentioned in 553 A.D. as a Nestorian bishopric",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): 553 Nestûrî sinodu belgesinde Âmül piskoposluğu (Guidi 1889). Iranica ayrıca Âmül'ün Mardoi/Amardoi'nin yurdu olduğunu (İskender zamanı; Part Phraates I MÖ 176 civarı boyunduruk) söyler — BU HALKIN adıdır, şehre özdeşliği belirsiz (başlangıç sayılmadı). Sâsânî çağında Kavād'ın büyük oğlu Kāvūs'un başşehri (tarihsiz). Kuruluş efsaneleri: Âmüle Hatun (İbn İsfendiyâr) / Tahmûras (Müstevfî) — gelenek. TDV: 30/650-51'de Saîd b. Âs seferleri sırasında Müslümanların eline geçti (Taberistan fethi sonradan, tam bağımsızlık Dabuyîd çağı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0553-01-01",
+    "t": "0651-08-24",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ĀMOL i. History' (Bosworth-Blair-Ehlers), https://www.iranicaonline.org/articles/amol-a-town-on-the-caspian-shore/amol-i-history/",
+    "ic_not": "Iranica: 'In the Sasanian period, Kavād’s eldest son Kāvūs was made ruler of the Caspian marches ... his capital was at Āmol' (tarihsiz). Bitiş: Hicrî 31 / 651-52 — Dabuyîd Ferruhân'ın Yazdgerd'e ülkesini teklif etmesi (Dabuyids maddesi).",
+    "boyasiz": true
+   },
+   {
+    "f": "0651-08-24",
+    "t": "0761-04-11",
+    "d": "dabuyi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'DABUYIDS', https://www.iranicaonline.org/articles/dabuyids-the-dynasty-of-espahbads-ruling-tabarestan-until-its-conquest-by-the-muslims-in-144-761/",
+    "ic_not": "Dabuyîd espahbadlar Tabaristan'ı yönetir; 'Āmol remained the capital of the province'. Bitiş: Müslümanların fethi 144/761.",
+    "kunye_yok": true
+   },
+   {
+    "f": "0761-04-11",
+    "t": "0864-02-13",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'TAHERIDS', https://www.iranicaonline.org/articles/taherid-dynasty/; Encyclopaedia Iranica 'ĀMOL i. History' (Bosworth-Blair-Ehlers), https://www.iranicaonline.org/articles/amol-a-town-on-the-caspian-shore/amol-i-history/",
+    "ic_not": "Abbâsî hâkimiyeti (Tabaristan; Tâhirî valiler 'nominally' idare eder, fiilî yönetim yerel hanedanlarda — Iranica Taherids). Bitiş: Hasan b. Zeyd isyanı/Âmül'ün alınışı (250/864)."
+   },
+   {
+    "f": "0864-02-13",
+    "t": "0900-01-07",
+    "d": "taberistan-zeydi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ʿALIDS', https://www.iranicaonline.org/articles/alids-of-tabarestan-daylaman-and-gilan/; Encyclopaedia Iranica 'ĀMOL i. History' (Bosworth-Blair-Ehlers), https://www.iranicaonline.org/articles/amol-a-town-on-the-caspian-shore/amol-i-history/",
+    "ic_not": "Zeydî Hasan b. Zeyd Âmül'ü alır, başkenti Sārī'den Âmül'e taşır (Hasan 270/884'te Âmül'de ölür). 251/865-66'da Tâhirî Süleyman Âmül'ü kısa süre geri aldı (süre 'a few months', dilim açılmadı).",
+    "boyasiz": true
+   },
+   {
+    "f": "0900-01-07",
+    "t": "0914-01-01",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ʿALIDS', https://www.iranicaonline.org/articles/alids-of-tabarestan-daylaman-and-gilan/",
+    "ic_not": "Muhammed b. Zeyd'in 287/900'de Sâmânî ordusuyla savaşta ölümünden sonra 'Ṭabarestān came under Samanid rule'; TDV Sâmânîler: Taberistan 287 (900) ve 291 (904) seferleriyle Sâmânîler'e bağlandı."
+   },
+   {
+    "f": "0914-01-01",
+    "t": "0928-02-25",
+    "d": "taberistan-zeydi-ii",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ʿALIDS', https://www.iranicaonline.org/articles/alids-of-tabarestan-daylaman-and-gilan/",
+    "ic_not": "Nâsır Oṭrūş 301/914'te Sâmânî ordusunu Būrrūd'da yenip Tabaristan'ı alır (Âmül'de ölür 304/917). Bitiş: 316/928 civarı Asfār'ın saldırısı (Iranica Alids) — yaklaşık.",
+    "boyasiz": true
+   },
+   {
+    "f": "0928-02-25",
+    "t": "1238-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ĀMOL i. History' (Bosworth-Blair-Ehlers), https://www.iranicaonline.org/articles/amol-a-town-on-the-caspian-shore/amol-i-history/; Encyclopaedia Iranica 'ZIYARIDS', https://www.iranicaonline.org/articles/ziyarids/",
+    "ic_not": "928-1238 arası Âmül'ün sahibi dilim dilim tarihli tanıkla gösterilemedi: Mâkân b. Kākī/Asfār/Ziyârî çekişmesi (928-), Büveyhî Adudüddevle'nin 980'de Tabaristan'ı alması (Iranica Ziyarids: 'In 980 and 981 Qābus lost first Ṭabarestān to ʿAżod al-Dowla'), Gazneli Mesud'un 426/1035'te Âmül'ü yağması (sahiplik değil, haraç seferi), 'in the 6th/12th century Āmol slipped out of the Saljuqs’ control into that of the Bavandid princes' (tarihsiz). Büveyhî dilimi (980-) başlangıç/bitiş günü ayrı tutulmadı."
+   },
+   {
+    "f": "1238-01-01",
+    "t": "1281-01-01",
+    "d": "bavendi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ĀMOL i. History' (Bosworth-Blair-Ehlers), https://www.iranicaonline.org/articles/amol-a-town-on-the-caspian-shore/amol-i-history/; TDV İslâm Ansiklopedisi (Âmül, Mâzenderan), https://islamansiklopedisi.org.tr/amul-2",
+    "ic_not": "f 'en geç tanıktan': 635/1238'de Kinhvâriyye kolundan Hüsâmüddevle Erdeşîr başkenti Sārī'den Âmül'e taşır (Iranica). Bâvendîler 6./12. yy'dan beri Âmül'dedir; önceki sahip (BOŞLUK) > 1 kuşak olduğundan 1238 'en geç' f olarak alındı. Moğol vasalı Bâvendî hâkimiyeti 1281'e uzatıldı (atlas 1281'de İlhanlı başlatır — bkz. dikis_beyan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0651-08-24",
+    "gun": "31/651-52",
+    "k": "diger",
+    "b": "Dabuyîd espahbad Ferruhân, bozguna uğramış Yazdgerd'e ülkesini sunar (Sâsânî → Dabuyîd künye geçişi).",
+    "kaynak": "Encyclopaedia Iranica 'DABUYIDS', https://www.iranicaonline.org/articles/dabuyids-the-dynasty-of-espahbads-ruling-tabarestan-until-its-conquest-by-the-muslims-in-144-761/",
+    "tanik": "In 31/651-52 he offered the defeated Yazdegerd his country",
+    "ic_not": "Dabuyîd hanedanı 'appears to have reigned at the time of the rise of Islam' — başlangıç günü yok; f = hicrî 31 (24 Ağustos 651). Sâsânî künyesi 651-01-01'de biter (uyarı)."
+   },
+   {
+    "t": "0761-04-11",
+    "gun": "144/761",
+    "k": "fetih",
+    "b": "Tabaristan Müslümanlarca fethedilir, Dabuyîd hanedanı sona erer.",
+    "kaynak": "Encyclopaedia Iranica 'DABUYIDS'",
+    "tanik": "ruling Ṭabarestān until its conquest by the Muslims in 144/761",
+    "ic_not": "hicrî 144 başlangıcı (11 Nisan 761, Jülyen); fetih 141/758-59'da başlar, 144/761'de tamamlanır (Iranica)."
+   },
+   {
+    "t": "0864-02-13",
+    "gun": "250/864",
+    "k": "isyan",
+    "b": "Tabaristan isyanı: Hasan b. Zeyd ve isyancılar eyalet başkenti Âmül'e yürür ve şehri alır.",
+    "kaynak": "Encyclopaedia Iranica 'TAHERIDS', https://www.iranicaonline.org/articles/taherid-dynasty/",
+    "tanik": "marched on the provincial capital Āmol and captured the city",
+    "ic_not": "250/864-65 isyanı; hicrî 250 başlangıcı 13 Şubat 864 (Zeydî künyesi 864-02-13 ile aynı)."
+   },
+   {
+    "t": "0900-01-07",
+    "gun": "287/900",
+    "k": "fetih",
+    "b": "Muhammed b. Zeyd Gürgân yakınında Sâmânî ordusuyla savaşta öldürülür; Tabaristan Sâmânî hâkimiyetine girer.",
+    "kaynak": "Encyclopaedia Iranica 'ʿALIDS'",
+    "tanik": "and Ṭabarestān came under Samanid rule"
+   },
+   {
+    "t": "0914-01-01",
+    "gun": "301/914",
+    "k": "fetih",
+    "b": "Zeydî Nâsır Oṭrūş Sâmânî ordusunu yenip Tabaristan'ı alır.",
+    "kaynak": "Encyclopaedia Iranica 'ʿALIDS'",
+    "tanik": "took possession of Ṭabarestān",
+    "ic_not": "hicrî 301 ∩ 914 = yılın başı (914-01-01)."
+   },
+   {
+    "t": "0928-02-25",
+    "gun": "316/928",
+    "k": "diger",
+    "b": "Sâmânî hâkimiyetinde Gürgân'ı yöneten Asfār Tabaristan'a saldırır; Alevî hâkimiyeti çöker.",
+    "kaynak": "Encyclopaedia Iranica 'ʿALIDS'",
+    "tanik": "Asfār, who was governing Gorgān under Samanid suzerainty, invaded Ṭabarestān",
+    "ic_not": "Dilim sınırı yaklaşık (Âmül'ün alınış günü kaynakta yok)."
+   },
+   {
+    "t": "1035-01-01",
+    "gun": "426/1035",
+    "k": "diger",
+    "b": "Gazneli Mesud, haraç borcunu ödemeyen Bā Kālīcār'a karşı Gürgân-Tabaristan seferinde Âmül'ü yağmalar.",
+    "kaynak": "Encyclopaedia Iranica 'ĀMOL i. History' (Bosworth-Blair-Ehlers), https://www.iranicaonline.org/articles/amol-a-town-on-the-caspian-shore/amol-i-history/",
+    "tanik": "Āmol was plundered by Masʿūd of Ḡazna in 426/1035",
+    "ic_not": "Sahip değişimi değil (haraç seferi); hicrî 426 ∩ 1035 = 1035-01-01'den sonraki ilk gün."
+   },
+   {
+    "t": "1238-01-01",
+    "gun": "635/1238",
+    "k": "diger",
+    "b": "Bâvendî Hüsâmüddevle Erdeşîr tahta çıkınca başkenti Sārī'den Âmül'e taşır.",
+    "kaynak": "Encyclopaedia Iranica 'ĀMOL i. History' (Bosworth-Blair-Ehlers), https://www.iranicaonline.org/articles/amol-a-town-on-the-caspian-shore/amol-i-history/",
+    "tanik": "transferred his capital from the ancestral seat of Sārī to Āmol",
+    "ic_not": "hicrî 635 ∩ 1238 = yılın başı."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'ĀMOL i. History' + 'DABUYIDS' + 'ʿALIDS' + 'TAHERIDS' + 'ZIYARIDS'; TDV 'Âmül' (Mâzenderan). Kuruluş bulunamadı. 928-1238 BOŞLUK. Dabuyîd (Āl-e Dābūya) künyesi YOK: önerilen id 'dabuyi', ömür ?-761 (başlangıç Iranica'da 'İslâm'ın yükselişi zamanı', gün yok), kaynak Iranica 'DABUYIDS'. ATLAS NOTU: atlas Âmül'ü 1281-01-01'de ilhanli (Moğol) ile başlatır; Iranica'ya göre Bâvendîler 1238'den Âmül'ü başkent yapar (Moğol vasalı).",
+  "dikis_beyan": "Atlas Âmül'ü 1281-01-01'de ilhanli ile başlatır; Bâvendî (Kinhvâriyye) 1238'de Âmül'ü başkent yapmıştır (Iranica). Bâvendîlerin Moğol vasallığına geçiş günü bu oturumda bulunamadı; 1281'de el değiştirme tanığı yok."
+ },
+ {
   "id": "angers-fr",
   "ad": "Angers",
   "atlas_ad": "Angers",
@@ -2180,6 +2351,54 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "KONUM: atlas noktası (38.874 N, 115.464 E) Baoding kent merkezidir. Song Baosai jun/Baozhou = Yuan Baoding lu = Ming-Qing Baoding (Yuan Shi 58 \"保定路…本清苑縣…宋升保州，金改順天軍\"; 畿輔通志/卷026 \"清苑縣署…即宋保塞軍故地\"). ESKİ QINGYUAN (3 km KURALI): Wei Shu 106上 \"清苑 高祖太和元年分新城置\" (477, Gaoyang jun), Sui 開皇18 (598) \"改為清苑\" (Yudi guangji 12), Tang 清苑 (Ying→Mo zhou, Jiu/Xin Tang Shu dili zhi) — ancak 欽定大清一統志/卷011 \"清苑故城 在今清苑縣治東北七里\" (≈4 km, kesin değil, Qing derlemesi) ⇒ eski Qingyuan ilçe merkezi bugünkü noktadan >3 km KD'de olabilir ⇒ burada yazılmadı; AYRI KAYIT önerisi: \"Qingyuan (eski, Wei-Tang)\": ilk tanık Wei Shu 106上 (477), Qing'e göre konum Baoding merkezinin ~7 li KD'sı. Han dönemi Fan Yu/Beixincheng/Yue Xiang yerleri (Taiping Huanyu ji 68: \"漢縣廢城在今縣東南三十里…樊輿城…東南三十五里\") ayrı kayıt adayı, Han Mo (鄚)/Anxin ile KARIŞTIRILMADI. 937-944 Liao dönemi: Taiping Huanyu ji 68 \"石晉初割屬契丹，蕃戎立為秦州；出帝開運元年尅復秦州；二年…移治於滿城，其舊秦州復為清苑縣\" — bu eski Qingyuan'e aittir, ilk tanıktan önce, burada yazılmadı. İLK TANIK: 輿地廣記/卷12 + Song Shi 86 (960). Gün yok (yıl). ATLAS ÖNERİSİ: atlas Baoding'i 1281-01-01'de yuan-hanedani ile başlatıyor (kaynaksız atlas iddiası yok; bu kayıt 960'a geri götürür). KÜNYE: mogol-imparatorlugu t=1260-01-01 < 1260-05-05 — GENİŞLET önerisi. BULUNAMADI: (1) Jin→Moğol geçişinde Baozhou'ya özgü kesin gün (Yuan Shi 147 yalnız yıl 戊寅; Jin Shi 13-15'te Baozhou (Hebei) geçmiyor); (2) 1213-1218 arasında Baozhou'nun fiilî sahibi (Jin tabiyetli yerel kumandanlar: Miao Daorun/Jia Yu/Wu Xian çevresi; Jin Shi 118) — dönem Jin'e bırakıldı, beyanla. Zhang Rou'nun 1218-1227 arası kenti Mancheng'den yönetmesi: Yuan Shi 147 \"徙治滿城\". DergiPark/akademik makale bu oturumda kullanılmadı."
  },
  {
+  "id": "barfurus-ir",
+  "ad": "Bârfurûş (Bâbol)",
+  "atlas_ad": "Bârfurûş (Bâbil)",
+  "lat": 36.5461,
+  "lon": 52.6789,
+  "kat1900": 3,
+  "adlar": [
+   "Māmṭīr (eski kent)",
+   "Bârfurûş (Bārforūš)",
+   "Bâbol (1927'den)"
+  ],
+  "ilk": {
+   "t": "1229-01-01",
+   "gun": "13. yüzyıl başı (Yâkūt, ö. 1229)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Iranica 'BĀBOL ii. Islamic Monuments', https://www.iranicaonline.org/articles/babol-parent/babol-ii-islamic-monuments/",
+   "tanik": "the geographer Yāqūt (IV, p. 642) mentioned its congregational mosque",
+   "ic_not": "İLK ANILIŞ (kuruluş değil), YER: Iranica 'Bābol i': Bârfurûş 'Safevî başlarında eski Māmṭīr kentinin yerinde' gelişti (çok küçük pazar yeri; 1627'de Pietro della Valle köy der) — yani modern ad Bârfurûş eski MÂMTİR ile aynı yerde. Iranica 'ii': 7./13. yy başında Yâkūt şehrin Cuma Camii'ni anar; İbn İsfendiyâr Hasan b. Mehdî Māmṭīrî'nin türbesini ziyaret eder (ikisi de aralık: 'early seventh/thirteenth century'). Üst uç Yâkūt'un ölümü 626/1229 (Iranica 'BESṬĀM': 'Yāqūt (d. 626/1229)'): güvenli uç 1229. Yâkūt'un anıp anmadığı 'Māmṭīr' mi 'Bābol' mu — Iranica'nın aktarımıyla 'its congregational mosque'; Yâkūt metni açılmadı. Kuruluş bulunamadı. Atlas noktası (36.5461, 52.6789) ile Māmṭīr özdeşliği Iranica'ya dayanır (mesafe verilmedi)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1229-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BĀBOL ii. Islamic Monuments', https://www.iranicaonline.org/articles/babol-parent/babol-ii-islamic-monuments/; Encyclopaedia Iranica 'BĀBOL i. The Town' (X. de Planhol), https://www.iranicaonline.org/articles/babol-parent/babol-town/",
+    "ic_not": "1229-1281 arası Māmṭīr/Bârfurûş'un sahibi tarihli tanıkla gösterilemedi (Tabaristan: Bâvendî Kinhvâriyye kolu 1238'de başkenti Âmül'e taşır — Bârfurûş'a özgü değil; Moğol vasallığı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1229-01-01",
+    "gun": "13. yüzyıl başı (Yâkūt, ö. 1229)",
+    "k": "diger",
+    "b": "Yâkūt Māmṭīr/Bābol'ün Cuma Camii'ni anar (ilk yazılı anış, üst sınır).",
+    "kaynak": "Encyclopaedia Iranica 'BĀBOL ii. Islamic Monuments', https://www.iranicaonline.org/articles/babol-parent/babol-ii-islamic-monuments/",
+    "tanik": "the geographer Yāqūt (IV, p. 642) mentioned its congregational mosque",
+    "ic_not": "'early seventh/thirteenth century' aralığının üst ucu: Yâkūt'un ölümü 626/1229."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'BĀBOL i/ii' (gövde okundu). TDV'de Bârfurûş maddesi bulunamadı. Atlas 'Bârfurûş (Bâbil)': modern ad Bâbol. Kuruluş bulunamadı. Zincir tek BOŞLUK (1229-1281).",
+  "dikis_beyan": "Atlas Bârfurûş'u 1281-01-01'de ilhanli ile başlatır; Māmṭīr'in Tabaristan'daki Moğol vasalı Bâvendîlere/İlhanlılara geçiş tarihli tanığı bulunamadı."
+ },
+ {
   "id": "bari-italya",
   "ad": "Bari",
   "atlas_ad": "Bari",
@@ -2909,6 +3128,168 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Bilbao 1281'de başlıyor, kuruluş Haziran 1300. Zincir boş bırakıldı (kural). Eski yer: Treccani 'forse Bermeo' (Flaviobriga) — modern noktadan uzak olabilir."
+ },
+ {
+  "id": "bistam-ir",
+  "ad": "Bistâm (Besṭām)",
+  "atlas_ad": "Bistâm",
+  "lat": 36.4831,
+  "lon": 55.01,
+  "kat1900": 3,
+  "adlar": [
+   "Besṭām",
+   "Basṭām",
+   "Bustam",
+   "Bostam"
+  ],
+  "ilk": {
+   "t": "0643-01-01",
+   "gun": "yaklaşık 22/643",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'BESṬĀM (Central Iran)' (Adle), https://www.iranicaonline.org/articles/bestam-3/",
+   "tanik": "it served as a point of departure for the troops of Sowayd b. Moqarren",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Iranica: Besṭām Arap fethinden (yaklaşık 22/643) önce vardır — Taberî (I,2657-58): Süveyd b. Mukarrin'in Gürgân'ı boyunduruk altına alma seferi için çıkış noktası. Hicrî 22 ∩ 643 kesişiminin ilk günü (1 Ocak 643). Kuruluş: Hüsrev II Perviz'in dayısı Bestâm'a atfedilir (Markwart, Nöldeke) — Iranica: 'no trace of the Sasanians has so far been discovered in the town itself'; Şāpūr II'nin kalesi (Ebû Dolef 331/943, tepede, yeri bilinmiyor). Tepe Sang-e Çakmak (1 km kuzey) MÖ 8./6.-4. binyıl höyüğü — >3 km DEĞİL ama yerleşim kesintisi belirsiz; Partho-Sâsânî çanak çömlek buluntuları; kaynak: Iranica. Kuruluş tarihi bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0643-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BESṬĀM (Central Iran)' (Adle), https://www.iranicaonline.org/articles/bestam-3/; TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "ic_not": "Besṭām Arap ordularının (Süveyd b. Mukarrin) çıkış noktası olduğundan Arap denetimindedir (Iranica: Qūmes'in ~22/643 işgali). Fetih günü yok; f = ilk anılış yılı başı.",
+    "boyasiz": true
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan; Encyclopaedia Iranica 'BESṬĀM (Central Iran)' (Adle), https://www.iranicaonline.org/articles/bestam-3/",
+    "ic_not": "Emevî dönemi Qūmes'i (Iranica Dâmgân: 'Omayyad rule (41-132/661-750)'); Besṭām'a özgü tanık yok.",
+    "boyasiz": true
+   },
+   {
+    "f": "0749-11-28",
+    "t": "1193-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BESṬĀM (Central Iran)' (Adle), https://www.iranicaonline.org/articles/bestam-3/; Encyclopaedia Iranica 'DĀMḠĀN', https://www.iranicaonline.org/articles/damgan-persian-town/",
+    "ic_not": "749-1193 arası Besṭām'ın sahibi şehre özgü tarihli tanıkla gösterilemedi. Qūmes için Iranica Dâmgân: Tâhirî/Saffârî/Sâmânî/Alevî çekişmesi, Ziyârî (927-), Selçuklu paylaşımı 434/1042-43 — hepsi DÂMGÂN'a özgü; Besṭām'da yalnız: 856 depremi (Besṭām binalarının üçte biri yıkıldı), Ebû Dolef 331/943 ziyareti ('large village'), Ziyârî Kābūs'un Besṭām'a kaçırılması (~1012, Iranica Ziyarids), Gurlu şehzade Alâeddin Muhammed'in ~612/1215'te Bâyezîd türbesi yanında türbe yaptırması (Iranica) — hiçbiri sahiplik değil."
+   },
+   {
+    "f": "1193-01-01",
+    "t": "1220-03-08",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Hârizmşahlar), https://islamansiklopedisi.org.tr/harizmsahlar",
+    "ic_not": "f 'en geç tanıktan': TDV: 'Bistâm, Damgan gibi vilâyetleri ele geçiren Tekiş' (Tekiş saltanatı 1172-1200; 'Sultan Şah’ın ölümünden (1193) sonra' cümlesinden önce). Önceki dilim > 1 kuşak: BOŞLUK. Bitiş: Moğol istilâsı (617/1220)."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BESṬĀM (Central Iran)' (Adle), https://www.iranicaonline.org/articles/bestam-3/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Moğol istilâsı sonrası Besṭām'ın sahibi tarihli tanıkla gösterilemedi; Iranica: İlhanlıların İslâm'ı kabulünden (1295) sonra Besṭām'daki türbelere himaye (1281 sonrası)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0643-01-01",
+    "gun": "yaklaşık 22/643",
+    "k": "diger",
+    "b": "Besṭām, Arapların Qūmes işgalinde Süveyd b. Mukarrin birliklerinin çıkış noktası olarak anılır.",
+    "kaynak": "Encyclopaedia Iranica 'BESṬĀM (Central Iran)' (Adle), https://www.iranicaonline.org/articles/bestam-3/",
+    "tanik": "it served as a point of departure for the troops of Sowayd b. Moqarren"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "25 Rebîülevvel 41 / 29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'ye biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)."
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe'de biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi."
+   },
+   {
+    "t": "1193-01-01",
+    "gun": "≤1193",
+    "k": "fetih",
+    "b": "Hârizmşah Tekiş Bâvendîler'den Bistâm ve Damgan'ı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Hârizmşahlar), https://islamansiklopedisi.org.tr/harizmsahlar",
+    "tanik": "Bistâm, Damgan gibi vilâyetleri ele geçiren Tekiş",
+    "ic_not": "TDV ele geçirme günü/yılı vermez; en geç 1193."
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 / 1220",
+    "k": "fetih",
+    "b": "Moğol (Cengiz) istilâsı Horasan'a girer; Horasan şehirleri Moğol hâkimiyetine düşer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Cengiz istilâsına ilk mâruz kalan yerlerden biri Horasan oldu",
+    "ic_not": "Bölge olayı (TDV Horasan: 617/1220); hicrî 617 ∩ 1220 = yılın başı (8 Mart 1220, Jülyen); şehre özgü teslim günü yok."
+   },
+   {
+    "t": "0856-12-20",
+    "gun": "18 Şaban 242 / 22 Aralık 856",
+    "k": "diger",
+    "b": "Qūmes'i sarsan deprem Besṭām binalarının üçte birini yıkar.",
+    "kaynak": "Encyclopaedia Iranica 'BESṬĀM (Central Iran)' (Adle), https://www.iranicaonline.org/articles/bestam-3/",
+    "tanik": "destroyed a third of the buildings at Besṭām",
+    "ic_not": "Iranica '18 Šaʿbān 242/22 December 856' der; hicrî tablo 20 Aralık verir (Dâmgân maddesi 20 Aralık) — Iranica'nın iki maddesi arasında 2 günlük fark."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'BESṬĀM (Central Iran)' (tam okundu). TDV'de şehir maddesi YOK (arama: Bâyezîd-i Bistâmî, Bistâmî...). Kuruluş: bulunamadı. ATLAS NOTU: Iranica Besṭām'ı Qūmes eyaletinde gösterir (Horasan değil); atlas ilhanli'yi 1281'de başlatır.",
+  "dikis_beyan": "Atlas Bistâm'ı 1281-01-01'de ilhanli ile başlatır; Bistâm için Moğol hâkimiyetine/İlhanlı'ya geçiş tarihli tanığı bulunamadı (Iranica yalnız İlhanlı himayesi 1295 sonrası)."
+ },
+ {
+  "id": "bocnurd-ir",
+  "ad": "Bocnûrd (Bojnūrd)",
+  "atlas_ad": "Bocnûrd",
+  "lat": 37.4744,
+  "lon": 57.3292,
+  "kat1900": 3,
+  "adlar": [
+   "Būzanjerd (öncül? belirsiz)",
+   "Bojnūrd"
+  ],
+  "ilk": {
+   "t": "1600-01-01",
+   "gun": "yaklaşık 1600",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Iranica 'KHORASAN i. ETHNIC GROUPS', https://www.iranicaonline.org/articles/khorasan-1-ethnic-groups/; 'BOJNŪRD', https://www.iranicaonline.org/articles/bojnurd-a-town-and-district-in-khorasan/",
+   "tanik": "they settled in and around Bojnurd",
+   "ic_not": "ZAYIF TANIK (alt sınır): Iranica 'KHORASAN i': Şādlū Kürtleri Şah I. Abbas'ça ~1600'de batı İran'dan getirilir, önce sınırın kuzeyine yerleşir, Türkmen akınları yüzünden Bocnûrd çevresine yerleşir. Iranica 'BOJNŪRD': 'is of relatively recent origin. Possibly founded by the Safavids in connection with the resettlement of the Kurdish Šādlū tribe'; 'Whether or not Bojnūrd is a successor to a former settlement, Būzanjerd, is still open to discussion' (öncül belirsiz). Kuruluş günü/yılı yok; ~1600 ALT SINIR olarak yazıldı. 1281 öncesi tanık bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1600-01-01",
+    "gun": "yaklaşık 1600",
+    "k": "diger",
+    "b": "Şādlū Kürtleri Bocnûrd çevresine yerleştirilir (Safevî sınır savunması).",
+    "kaynak": "Encyclopaedia Iranica 'KHORASAN i. ETHNIC GROUPS', https://www.iranicaonline.org/articles/khorasan-1-ethnic-groups/; 'BOJNŪRD', https://www.iranicaonline.org/articles/bojnurd-a-town-and-district-in-khorasan/",
+    "tanik": "they settled in and around Bojnurd",
+    "ic_not": "Şah I. Abbas'ın yeniden iskânı ~1600 (yıl yaklaşık)."
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Bocnûrd'u 1281-01-01'de ilhanli ile başlatır; Iranica 'relatively recent origin'; olası Safevî kuruluşu (~1600), öncül Būzanjerd belirsiz. Zincir BOŞ. Kaynak: Iranica 'BOJNŪRD' ve 'KHORASAN i' (gövde okundu); Iranica Bojnūrd 'ii. History' alt maddesi bağlantısız/açılmadı. TDV Horasan şehristan listesinde anar (tarih yok). Būzanjerd öncül kaydı bulunamadı."
  },
  {
   "id": "bordeaux-fr",
@@ -6906,6 +7287,138 @@ window.SEHIR_TARIHCE_K3 = [
   "dikis_beyan": "Atlas Cosenza'yı 1281-01-01'de 'napoli' ile başlatıyor; devletler.js napoli künyesi 1282-03-30'da başlar. 1281'de şehir Anjou Sicilya Krallığı'ndadır (Treccani EI 'Carlo I d'Angiò': Vespro 31 Mart 1282). Zincir sicilya-kralligi ile 1281-01-01'de biter; 1281-01-01 için olay uydurulmadı, atlas düzeltmesi önerildi."
  },
  {
+  "id": "damgan-ir",
+  "ad": "Dâmgan (Dāmḡān)",
+  "atlas_ad": "Dâmgan",
+  "lat": 36.1683,
+  "lon": 54.3481,
+  "kat1900": 3,
+  "adlar": [
+   "Qūmes/Kūmeš (eyalet adı; Dâmgân'a da denir)",
+   "Şahr-i Qūmes",
+   "Dâmgân"
+  ],
+  "ilk": {
+   "t": "0856-12-20",
+   "gun": "18 Şaban 242 / 20 Aralık 856",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/",
+   "tanik": "The city was devastated on 18 Šaʿbān 242/20 December 856 by a violent earthquake",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): şehrin TARİHLİ ilk olgusu 856 depremi (Ambraseys-Melville'e dayanarak Iranica). Iranica: 'The earliest references to the name Dāmḡān do not seem to predate the mid-9th century' (Kudâme, Belâzürî, Yaʿkūbî — tarihsiz); 'the city must already have been in existence when the Arab armies arrived' (Iranica çıkarımı; Taberî I,2656-57 22/643'te 'geçici teslim olmuş olabilir' — Qūmes adıyla); geç Sâsânî sarayı Tepe Hissar'da (şehrin GD'sinde, aynı yer DEĞİL; Iranica: şehirde Sâsânî öncesi kalıntı yok). Hekatompylos özdeşliği çürütülmüştür. 'Kuruluş': Pîşdâdî Hōşang efsanesi (Mücmelü't-tevârîh) — gelenek, yazılmadı. Tepe Hissar (MÖ ~4590-1705) arkeolojik yerleşim >3 km uzaklıkta: ayrı kayıt önerilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0856-12-20",
+    "t": "0927-03-08",
+    "d": "abbasi",
+    "kesinlik": "belirsiz",
+    "kaynak": "Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Abbâsî halifeliği hukuken sahiptir; fiilî durum Iranica'ya göre 'long since escaped from direct ʿAbbasid rule and become a bone of contention among various Persian dynasties (Taherid, Saffarid, and above all Samanid) and the ʿAlids of Ṭabarestān' — bu rakiplerden hiçbirinin Dâmgân'ı tarihli olarak elinde tuttuğu gösterilmediği için BOŞLUK yerine Abbâsî nominal egemenliği yazıldı. 921-22'de surların Alevî saldırılarına karşı yapılması (Iranica) çekişmeyi gösterir."
+   },
+   {
+    "f": "0927-03-08",
+    "t": "1042-08-21",
+    "d": "ziyari",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/",
+    "ic_not": "Mardāvic b. Ziyâr (315-23/927-35) Dâmgân'ı elinde tutar (İbnü'l-Esîr VIII,304); Ziyârî Manûçihr devrinde (402-23/1012-32) Ebû Harb Bahtiyâr Dâmgân valisidir (417-18/1026-27'den); Sâmânî komutan Mohtâc 940'ta Dâmgân yakınında Mâkân ve Veşmgîr'i yenmiş (Iranica Ziyarids) — kısa kesinti. 431/1040 Dandanakan'dan sonra Ebû Harb gücünü kaybeder; bitiş 'en geç' tanık: 434/1042-43 Selçuklu paylaşımı."
+   },
+   {
+    "f": "1042-08-21",
+    "t": "1118-04-18",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/; TDV İslâm Ansiklopedisi (Selçuklular), https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "f 'en geç tanıktan': 434/1042-43'te Selçuklular fethettikleri toprakları paylaşır; Dâmgân, Tabaristan ve Gürgân Kutulmuş b. İsrâil'e verilir; Tuğrul onu Deylemli Asfār b. Kürdûye'ye devreder (Iranica; yıl 433/434 kendi içinde tutarsız). Bitiş: Sultan Muhammed Tapar'ın ölümü (24 Zilhicce 511 / 18 Nisan 1118, TDV) — Qūmes'in Muhammed Tapar'a bağlılığı kaynakta açık değil; sonrası Irak/Horasan Selçuklu çekişmesi (Sencer'in Mahmud'u tanımaması, TDV)."
+   },
+   {
+    "f": "1118-04-18",
+    "t": "1193-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/",
+    "ic_not": "Muhammed Tapar'ın ölümünden Tekiş'in ele geçirişine kadar Dâmgân'ın sahibi tarihli tanıkla gösterilemedi: Iranica 'the official central power (Saljuqs, Ḵᵛārazmšāhs, Il-khanids) and various local and Shiʿite powers (Ismaʿilis, the reinstalled Bavandids)'; İsmâilîler 489/1096'da Gerdkûh'u alır (Dâmgân'ın 18 km batısı) — şehrin kendisi değil."
+   },
+   {
+    "f": "1193-01-01",
+    "t": "1220-03-08",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Hârizmşahlar), https://islamansiklopedisi.org.tr/harizmsahlar; Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/",
+    "ic_not": "f 'en geç tanıktan': TDV: 'Bâvendîler’in hâkimiyetindeki Taberistan’a akınlar düzenleyen ve Bistâm, Damgan gibi vilâyetleri ele geçiren Tekiş, Sultan Şah’ın ölümünden (1193) sonra ...' — ele geçiriş Tekiş'in saltanatı (1172-1200) içindedir, günü yok; 1193 üst sınır alındı. Önceki dilim (BOŞLUK, 75 yıl) > 1 kuşak. Bitiş: Moğol istilâsı (617/1220)."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Moğol istilâsı sonrası: Iranica Dâmgân 'Dāmḡān was a mint town only sporadically before the Mongol invasion, after which it minted almost continuously from about the 1230s or 1240s' (Moğol/İlhanlı darbı) ve İsmâilî Gerdkûh'un 658/1260'a kadar Moğollara direnmesi; Moğol hâkimiyetine geçiş günü ve İlhanlı geçişi Dâmgân için tarihli tanıkla gösterilemedi (Qūmes, Horasan değil — TDV Horasan zinciri uygulanmadı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0856-12-20",
+    "gun": "18 Şaban 242 / 20 Aralık 856",
+    "k": "diger",
+    "b": "Şiddetli deprem Dâmgân'ı yıkar (binaların yarısı), yaklaşık 45.000 ölü (Iranica: abartılı).",
+    "kaynak": "Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/",
+    "tanik": "The city was devastated on 18 Šaʿbān 242/20 December 856 by a violent earthquake"
+   },
+   {
+    "t": "0927-03-08",
+    "gun": "315-23/927-35",
+    "k": "diger",
+    "b": "Ziyârî Mardāvic b. Ziyâr Dâmgân'ı denetler (Ziyârî egemenliğinin ilk tanığı).",
+    "kaynak": "Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/",
+    "tanik": "Mardāvij b. Zīār (315-23/927-35) had controlled Dāmḡān",
+    "ic_not": "Mardāvic'in iktidar yılları 315-23/927-35; başlangıç günü yok → hicrî 315 başlangıcı (8 Mart 927)."
+   },
+   {
+    "t": "1042-08-21",
+    "gun": "434/1042-43",
+    "k": "diger",
+    "b": "Selçuklular fethettikleri toprakları paylaşır: Dâmgân, Tabaristan, Gürgân Kutulmuş b. İsrâil'e verilir.",
+    "kaynak": "Encyclopaedia Iranica 'DĀMḠĀN' (Adle), https://www.iranicaonline.org/articles/damgan-persian-town/",
+    "tanik": "Dāmḡān, Ṭabarestān, and Gorgān were allotted to Qutulmuš b. Esrāʾīl",
+    "ic_not": "Iranica yıl tutarsızlığı: '434/1042-43' ve devamında 'in 433/1041-42 Ṭoḡrel entrusted it to Asfār b. Kordūya' — 'en geç tanık' 434/1042. Dandanakan 431/1040 sonrası Ebû Harb gücünü kaybetti."
+   },
+   {
+    "t": "1118-04-18",
+    "gun": "24 Zilhicce 511 / 18 Nisan 1118",
+    "k": "diger",
+    "b": "Selçuklu Sultanı Muhammed Tapar ölür; oğlu Mahmud sultan ilân edilir, Sencer tanımaz.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Selçuklular), https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Sultan Muhammed Tapar 24 Zilhicce 511’de (18 Nisan 1118) vefat etti.",
+    "ic_not": "Bölge sınırı: Qūmes'in kime bağlı olduğu bu tarihten sonra kaynakla gösterilemedi."
+   },
+   {
+    "t": "1193-01-01",
+    "gun": "≤1193",
+    "k": "fetih",
+    "b": "Hârizmşah Tekiş Bâvendîler'den Bistâm ve Damgan'ı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Hârizmşahlar), https://islamansiklopedisi.org.tr/harizmsahlar",
+    "tanik": "Bistâm, Damgan gibi vilâyetleri ele geçiren Tekiş",
+    "ic_not": "TDV ele geçirme günü/yılı vermez; 'Sultan Şah’ın ölümünden (1193) sonra' cümlesinden önce gelir → en geç 1193."
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 / 1220",
+    "k": "fetih",
+    "b": "Moğol (Cengiz) istilâsı Horasan'a girer; Horasan şehirleri Moğol hâkimiyetine düşer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Cengiz istilâsına ilk mâruz kalan yerlerden biri Horasan oldu",
+    "ic_not": "Bölge olayı (TDV Horasan: 617/1220); hicrî 617 ∩ 1220 = yılın başı (8 Mart 1220, Jülyen); şehre özgü teslim günü yok."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'DĀMḠĀN' (tam gövde okundu, birebir); TDV'de Dâmgan şehir maddesi YOK (yalnız 'Damgan Târîhâne Camii'). Kuruluş: bulunamadı. Sasanî öncesi kentleşme kaynaklarda yok. ZİNCİR: 856-927 Abbâsî (BEYANLI yaklaşıklık), Ziyârî (927-1042, kısa Sâmânî akını 940), Selçuklu (1042-1118), BOŞLUK, Hârizmşah (en geç 1193), BOŞLUK. KRONOLOJİ UYARISI: Iranica kendi içinde 433/1041-42 ve 434/1042-43 verir.",
+  "dikis_beyan": "Atlas Dâmgân'ı 1281-01-01'de ilhanli ile başlatır; 1220-1281 arası (Moğol → İlhanlı) Dâmgân'a özgü tarihli tanık bulunamadı (Iranica: Moğol darbı 1230-40'lardan; Gerdkûh direnişi 1260'a kadar)."
+ },
+ {
   "id": "danzhou-cin",
   "ad": "Danzhou (Zhonghe)",
   "atlas_ad": "Danzhou (Zhonghe)",
@@ -7662,6 +8175,256 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "ÇİFT TEYİT: 1205 (HE + Treccani EI), 1192 (HE + Treccani EI). KAYNAK ÇELİŞKİLERİ sahip[] ic_not'larında; en önemlisi kuruluş (TDV VIII. yy vs HE VII. yy başı) — Emre kararı gerek. Atlas ilk dönemi dubrovnik 1205 'venedik enklav': HE ve Treccani Venedik üstünlüğünü doğrular. Dubrovnik künyesi (dubrovnik, 700-01-01'den) boyasızdır (boyali:false); 1069–1081 ve 1085–1167 dönemleri bu künyeyle yazıldı, boyası yoksa renk istenmeli. Açılamayan: Iranica/Brill/Pleiades yok sayıldı; Vikipedi kullanılmadı."
  },
  {
+  "id": "ebiverd-ir",
+  "ad": "Ebîverd (Abīvard)",
+  "atlas_ad": "Ebîverd",
+  "lat": 37.9,
+  "lon": 59.6167,
+  "kat1900": 3,
+  "adlar": [
+   "Apauarktikē (İsidoros, özdeşlik belirsiz)",
+   "Abīvard",
+   "Bāvard",
+   "Kohna Abīvard"
+  ],
+  "ilk": {
+   "t": "0553-01-01",
+   "gun": "553",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/",
+   "tanik": "synod under Catholicos Joseph in 553 was a bishop for Abīvard",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Nestûrî sinodunda Abīvard piskoposu (553). Iranica ayrıca Apauarktikē (İsidoros) ile özdeşliği 'seems to be identifiable' diye verir — YERİ KESİN OLMAYAN AD EŞİTLEMESİ, başlangıç sayılmadı (ic_not). Iranica: 'Its history certainly goes back to Parthian times' (tarihsiz); efsane: Keykâvus'un tımarlısı Bāvard b. Gūdarz. Modern 'Ebîverd' = Kohna Abīvard (Kahka istasyonunun 8 km batısı, Türkmenistan); atlas noktası (37.90, 59.617) ile uyumu ölçülmedi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0553-01-01",
+    "t": "0651-08-24",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/",
+    "ic_not": "Iranica: Sâsânî döneminde Abīvard'da önemli Hıristiyan cemaati; Sâsânî Horasan'ının kuzey eteği (Iranica Khorasan iii). Bitiş: Arap fethi (hicrî 31).",
+    "boyasiz": true
+   },
+   {
+    "f": "0651-08-24",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0821-05-06",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0821-05-06",
+    "t": "0873-08-01",
+    "d": "tahiri-horasan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0873-08-01",
+    "t": "0900-01-07",
+    "d": "saffari",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0900-01-07",
+    "t": "0999-01-01",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: Iranica Abivard: 'After the fall of the Taherids and the expulsion ... of the early Saffarids, Abīvard passed to the Samanid rulers'; 394/1004'te son Sâmânî emiri İbrahim Ebîverd'de Hârezmli kuvvetlerce yenildi.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0999-01-01",
+    "t": "1040-01-01",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: Mahmud 416/1025 sonrası 4.000 Türkmen ailesini Serahs-Ebîverd-Ferâve otlaklarına kabul eder; 418/1027 şikâyeti (Iranica Abivard).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1040-01-01",
+    "t": "1157-02-13",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1157-02-13",
+    "t": "1220-03-08",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Sencer'in ölümünden Moğol istilâsına kadar Ebîverd'in sahibini gösteren tarihli tanık bulunamadı (TDV Horasan sırası Oğuz/Gurlu/Hârizmşah — şehre özgü değil, tarihsiz)."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/",
+    "ic_not": "Bölge olayı: Horasan 617/1220'de Moğol istilâsına uğradı (TDV Horasan); Ebîverd'e özgü teslim tanığı yok."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Horasan İlhanlı yönetimine bırakılır. (Iranica Abivard: İlhanlı çöküşünde Çûn Gurbânî beyleri — 1281 sonrası.)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0651-08-24",
+    "gun": "31/651-52",
+    "k": "fetih",
+    "b": "Basra valisi Abdullah b. Âmir Ebîverd'de görünür; şehrin şefi 400.000 dirhem haraç vaat eder.",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/",
+    "tanik": "Korayz appeared at Abīvard in 31/651-52",
+    "ic_not": "Sâsânî→Râşidîn geçişi: haraç antlaşması; Sâsânî künyesi 651-01-01'de biter, f hicrî 31 başlangıcı (24 Ağustos 651) — 8 aylık fark uyarı."
+   },
+   {
+    "t": "1025-03-04",
+    "gun": "416 / 1025",
+    "k": "diger",
+    "b": "Gazneli Mahmud 4.000 Türkmen ailesini Serahs, Ebîverd ve Ferâve otlaklarına kabul eder.",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/",
+    "tanik": "the sultan was compelled to admit 4,000 Turkmen families to pasture grounds",
+    "ic_not": "Iranica: 'shortly after 416/1025' (yaklaşık)."
+   },
+   {
+    "t": "1027-02-11",
+    "gun": "418 / 1027",
+    "k": "diger",
+    "b": "Nesâ ve Ebîverd halkı sultana Türkmen şiddetinden şikâyet eder.",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD' (C. E. Bosworth), https://www.iranicaonline.org/articles/abivard/",
+    "tanik": "by 418/1027 the people of Nesā and Abīvard were complaining to the sultan"
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 / 1220",
+    "k": "fetih",
+    "b": "Moğol (Cengiz) istilâsı Horasan'a girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Cengiz istilâsına ilk mâruz kalan yerlerden biri Horasan oldu."
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "25 Rebîülevvel 41 / 29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'ye biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)."
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe'de biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi."
+   },
+   {
+    "t": "0821-05-06",
+    "gun": "29 Zilkade 205 / 6 Mayıs 821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valiliğine kendini tayin ettirir (Tâhirîler başlangıcı)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "tanik": "29 Zilkade 205’te (6 Mayıs 821) kendini Horasan valiliğine tayin ettirdi."
+   },
+   {
+    "t": "0873-08-01",
+    "gun": "Şevval 259 / Ağustos 873",
+    "k": "fetih",
+    "b": "Yakub b. Leys Nîşâbur'u alır, Tâhirîler'in Horasan idaresi sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "tanik": "Nîşâbur’u istilâ edip Tâhirîler’in buradaki idaresine son verdi (Şevval 259 / Ağustos 873)."
+   },
+   {
+    "t": "0900-01-07",
+    "gun": "287 H / 900",
+    "k": "fetih",
+    "b": "Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener, Horasan Sâmânîler'e geçer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İsmâil b. Ahmed’in 287’de (900) Amr b. Leys’i yenmesiyle de Sâmânîler’in yönetimine geçti"
+   },
+   {
+    "t": "0999-01-01",
+    "gun": "389 H / 999",
+    "k": "fetih",
+    "b": "Horasan Gazneliler'in eline geçer (Gazne ordusu Sâmânîler'i yener)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "tanik": "Bu olayın ardından Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999).",
+    "ic_not": "TDV Horasan: 'X. yüzyılın sonlarına doğru Horasan Gazneliler’in eline geçti' (yıl belirtmez); 389/999 TDV Sâmânîler'deki savaş yılıdır — hicrî 389 ∩ 999 kesişiminin ilk günü; Sebük Tegin/Mahmud Horasan'da 385/995'te (TDV Gazneliler) Sâmânî adına çalışıyordu."
+   },
+   {
+    "t": "1040-01-01",
+    "gun": "431 H / 1040",
+    "k": "fetih",
+    "b": "Dandanakan Savaşı: Horasan bütünüyle Selçuklu toprağı olur",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Dandanakan Savaşı’nın (431/1040) ardından Horasan bütünüyle bir Selçuklu toprağı haline geldi",
+    "ic_not": "hicrî 431 ∩ 1040 kesişiminin ilk günü (1040-01-01); TDV Gazneliler: 428/1037 ve 429/1038'de Gazneli ordusu bozguna uğradı, 'Gazneliler’in Horasan’daki hâkimiyetlerine son verildi'."
+   },
+   {
+    "t": "1157-02-13",
+    "gun": "552 H / 1157",
+    "k": "diger",
+    "b": "Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti",
+    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü (tablo takvimi, Jülyen); Sencer'in ölüm günü TDV Horasan'da yok."
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "654 H / 1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol Hakanlığı → İlhanlılar (Horasan İlhanlı yönetimine bırakılır)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İlhanlılar’ın kuruluşundan (654/1256) sonra onların yönetimine bırakıldı",
+    "ic_not": "yıl düzeyinde (hicrî 654 = 30 Ocak 1256 Jülyen başlangıcı); atlas İlhanlı künyesi 1256-01-01."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'ABĪVARD' (açıldı, birebir); TDV'de Ebîverd maddesi YOK (arama: yalnız Ebîverdî). Kuruluş bulunamadı. Apauarktikē özdeşliği belirsiz. Sahip zinciri: Sâsânî (553'ten) + Horasan bölge zinciri; Gazneli/Sâmânî dilimleri şehir kaynağıyla teyitli; 1157-1220 BOŞLUK."
+ },
+ {
   "id": "eger-hu",
   "ad": "Eğri (Eger)",
   "atlas_ad": "Eğri",
@@ -7811,6 +8574,371 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "İlk anılış: Bonifatius mektubu (Emerton 1940: 'Early in 742'; Vikipedi DE 742). Çift teyit YOK (Vikipedi DE aynı mektubu 742 verir; Treccani Erfurt: 'arcivescovi di Magonza dominarono dal 745 al 1802' — bu piskoposluk (kilise) egemenliğidir, Vikipedi DE'de 10. yy'da 'weltliche Herrschaft'; çelişki beyan edildi, sahiplik zincirinde nominal almanya). Emerton'da mektubun yılı metin içinde yok (başlık köşeli parantez 'Early in 742' editör tarihlemesi); Zacharias'ın cevabı 1 Nisan 743 (editör). Mektup Erfurt'u 'urbs ... heidnischer Bauern' (öncesi tahkimli yerleşim) olarak anar; Vikipedi DE Frienstedt (batıda Germen yerleşimi) ve 480'de Thüringer — Erfurt noktası için yazılı tanık değil. 'frank' sahipliği 742: Emerton'daki Karlmann sınodu belgesi 21 Nisan 742 (Austrasia hükümdarı)."
+ },
+ {
+  "id": "esferayin-ir",
+  "ad": "Esferâyin (Esfarāyen)",
+  "atlas_ad": "Esferâyin",
+  "lat": 37.0769,
+  "lon": 57.51,
+  "kat1900": 3,
+  "adlar": [
+   "Mihrcân (efsanevî)",
+   "Siparāyin (Hudûdü'l-âlem)",
+   "Esfarāyen/Esfarā'in",
+   "Şehr-i Belkıs (harabe)"
+  ],
+  "ilk": {
+   "t": "0982-06-26",
+   "gun": "372/982-83",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'ESFARĀYEN' (C. E. Bosworth), https://www.iranicaonline.org/articles/esfarayen/",
+   "tanik": "Ḥodūd al-ʿālam , tr. Minorsky, pp. 64, 102, has",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Iranica Esfarâyen maddesi Hudûdü'l-âlem'i (Minorsky çevirisi s. 64, 102: 'Siparāyin') dönemin kaynağı olarak gösterir; Hudûdü'l-âlem tarihi 372/982-83 Iranica 'DĀMḠĀN' maddesinde verilir (alıntı: 'Ḥodūd al-ʿālam (372/982-83, p. 146)'); f = hicrî 372 başlangıcı (26 Haziran 982, Jülyen). Iranica 'geographers of the 4th/10th century' (İstahrî 340/951, İbn Havkal 367/978 dahil olabilir) der — hangisinin ilk bahsettiği doğrulanmadı; 982 üst sınırdır. Efsane: kurucu Esfendiyâr, eski adı Mihrcân (Iranica). 'Pre-Islamic history ... little is known' ve erken Arap fetihlerinde geçmez. Şehir 1143/1731'de Afganlarca yıkıldı; harabe Şehr-i Belkıs (Iranica) — atlas noktası (37.0769, 57.51) modern Esferâyin'dir (Mîyânâbâd merkezli ilçe); harabeyle mesafe ölçülmedi, >3 km ise ayrı kayıt önerilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0982-06-26",
+    "t": "0999-01-01",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ESFARĀYEN' (C. E. Bosworth), https://www.iranicaonline.org/articles/esfarayen/; Horasan geneli: TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü tanık yok; Iranica: 'rural districts of Nīšāpūr' (Horasan içinde).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0999-01-01",
+    "t": "1040-01-01",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ESFARĀYEN' (C. E. Bosworth), https://www.iranicaonline.org/articles/esfarayen/; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1040-01-01",
+    "t": "1157-02-13",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ESFARĀYEN' (C. E. Bosworth), https://www.iranicaonline.org/articles/esfarayen/; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1157-02-13",
+    "t": "1220-03-08",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'ESFARĀYEN' (C. E. Bosworth), https://www.iranicaonline.org/articles/esfarayen/",
+    "ic_not": "Sencer'in ölümünden Moğol istilâsına kadar şehrin sahibini gösteren tarihli tanık bulunamadı. Iranica Esfarâyen: Sübetey 617/1220'de yağmalar; 630'da yerel melik Bahâeddin Moğol Horasan valisi Çin-Temür'e bağlı (olay listesi)."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Encyclopaedia Iranica 'ESFARĀYEN' (C. E. Bosworth), https://www.iranicaonline.org/articles/esfarayen/",
+    "ic_not": "Bölge olayı: Horasan 617/1220'de Moğol istilâsına uğradı (TDV Horasan); şehre özgü teslim tanığı yoksa bölge tarihi esas alındı."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Horasan İlhanlı yönetimine bırakılır (TDV Horasan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0982-06-26",
+    "gun": "372/982-83",
+    "k": "diger",
+    "b": "Esfarâyen (Siparāyin) Hudûdü'l-âlem'de anılır.",
+    "kaynak": "Encyclopaedia Iranica 'ESFARĀYEN' (C. E. Bosworth), https://www.iranicaonline.org/articles/esfarayen/",
+    "tanik": "Ḥodūd al-ʿālam , tr. Minorsky, pp. 64, 102, has",
+    "ic_not": "Hudûdü'l-âlem tarihi (372/982-83): Iranica Dâmgân maddesi."
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 / 1220",
+    "k": "fetih",
+    "b": "Moğol (Cengiz) istilâsı Horasan'a girer; Horasan şehirleri Moğol hâkimiyetine düşer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Cengiz istilâsına ilk mâruz kalan yerlerden biri Horasan oldu",
+    "ic_not": "Bölge olayı (TDV Horasan: 617/1220); hicrî 617 ∩ 1220 = yılın başı (8 Mart 1220, Jülyen); şehre özgü teslim günü yok."
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617/1220",
+    "k": "fetih",
+    "b": "Cengiz Han'ın komutanı Sübetey Esfarâyen'i yağmalar.",
+    "kaynak": "Encyclopaedia Iranica 'ESFARĀYEN' (C. E. Bosworth), https://www.iranicaonline.org/articles/esfarayen/",
+    "tanik": "Esfarāyen was savagely sacked by Čengīz Khan’s commander Sübetey in 617/1220"
+   },
+   {
+    "t": "1232-10-18",
+    "gun": "630 H / 1232-33 (Iranica yazımı: 630/1223)",
+    "k": "diger",
+    "b": "Esfarâyen, Moğol Horasan valisi Çin-Temür'e bağlı yerel melik Bahâeddin'e verilir (Moğol idaresinin tanığı).",
+    "kaynak": "Encyclopaedia Iranica 'ESFARĀYEN' (C. E. Bosworth), https://www.iranicaonline.org/articles/esfarayen/",
+    "tanik": "it was entrusted to a local malek called Bahāʾ-al-Dīn, responsible to the Mongol governor",
+    "ic_not": "TUTARSIZLIK: Iranica '630/1223' yazar, hicrî 630 = 1232-33 Jülyen (tablo takvimi); 1223 muhtemelen baskı hatası (1233). Hicrî yıl esas alındı: t = hicrî 630 başlangıcı (18 Ekim 1232). Sahip değişimi değil (Moğol hâkimiyeti 617/1220'den sürüyor)."
+   },
+   {
+    "t": "0999-01-01",
+    "gun": "389 H / 999",
+    "k": "fetih",
+    "b": "Horasan Gazneliler'in eline geçer (Gazne ordusu Sâmânîler'i yener)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "tanik": "Bu olayın ardından Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999).",
+    "ic_not": "TDV Horasan: 'X. yüzyılın sonlarına doğru Horasan Gazneliler’in eline geçti' (yıl belirtmez); 389/999 TDV Sâmânîler'deki savaş yılıdır — hicrî 389 ∩ 999 kesişiminin ilk günü; Sebük Tegin/Mahmud Horasan'da 385/995'te (TDV Gazneliler) Sâmânî adına çalışıyordu."
+   },
+   {
+    "t": "1040-01-01",
+    "gun": "431 H / 1040",
+    "k": "fetih",
+    "b": "Dandanakan Savaşı: Horasan bütünüyle Selçuklu toprağı olur",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Dandanakan Savaşı’nın (431/1040) ardından Horasan bütünüyle bir Selçuklu toprağı haline geldi",
+    "ic_not": "hicrî 431 ∩ 1040 kesişiminin ilk günü (1040-01-01); TDV Gazneliler: 428/1037 ve 429/1038'de Gazneli ordusu bozguna uğradı, 'Gazneliler’in Horasan’daki hâkimiyetlerine son verildi'."
+   },
+   {
+    "t": "1157-02-13",
+    "gun": "552 H / 1157",
+    "k": "diger",
+    "b": "Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti",
+    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü (tablo takvimi, Jülyen); Sencer'in ölüm günü TDV Horasan'da yok."
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "654 H / 1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol Hakanlığı → İlhanlılar (Horasan İlhanlı yönetimine bırakılır)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İlhanlılar’ın kuruluşundan (654/1256) sonra onların yönetimine bırakıldı",
+    "ic_not": "yıl düzeyinde (hicrî 654 = 30 Ocak 1256 Jülyen başlangıcı); atlas İlhanlı künyesi 1256-01-01."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'ESFARĀYEN' (birebir); TDV'de Esferâyin maddesi YOK (arama: yalnız Esferâyînî nisbesi). Kuruluş: bulunamadı (Esfendiyâr efsanesi). İlk anılış üst sınır 982. Sahip zinciri 982'den: Horasan bölge zinciri (Sâmânî ... Selçuklu) + Moğol (şehir kaynağıyla teyitli); 1157-1220 BOŞLUK."
+ },
+ {
+  "id": "esref-ir",
+  "ad": "Eşref (Behşehr)",
+  "atlas_ad": "Eşref (Behşehr)",
+  "lat": 36.6942,
+  "lon": 53.5522,
+  "kat1900": 3,
+  "adlar": [
+   "Ḵarkūrān (önceki önemsiz yerleşim)",
+   "Ašraf/Eşref",
+   "Behşehr (1936'dan)"
+  ],
+  "ilk": {
+   "t": "1612-03-04",
+   "gun": "1021/1612-13",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'BEHŠAHR' (E. Ehlers), https://www.iranicaonline.org/articles/?p=6938",
+   "tanik": "the new town of Ašraf was established by Shah ʿAbbās I in 1021/1612-13",
+   "ic_not": "KURULUŞ: Iranica: 'Behšahr as a city is of comparatively recent age'; Şah I. Abbas 1021/1612-13'te 'formerly unimportant settlement called Ḵarkūrān' yerinde Eşref'i kurar (yazlık saray kenti). hicrî 1021 ∩ 1612 kesişiminin ilk günü (Gregoryen 4 Mart 1612, tablo takvimi). Ḵarkūrān'ın önemsiz yerleşim olduğu dışında tarihi kaynakta yok. 1281 ÖNCESİ zincir: BOŞ (şehir 1281'den ~330 yıl sonra kuruldu)."
+  },
+  "kur": {
+   "t": "1612-03-04",
+   "gun": "1021/1612-13",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'BEHŠAHR' (E. Ehlers), https://www.iranicaonline.org/articles/?p=6938",
+   "tanik": "the new town of Ašraf was established by Shah ʿAbbās I in 1021/1612-13"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1612-03-04",
+    "gun": "1021/1612-13",
+    "k": "kurulus",
+    "b": "Şah I. Abbas Ḵarkūrān yerinde Eşref (Behşehr) kentini kurar.",
+    "kaynak": "Encyclopaedia Iranica 'BEHŠAHR' (E. Ehlers), https://www.iranicaonline.org/articles/?p=6938",
+    "tanik": "the new town of Ašraf was established by Shah ʿAbbās I in 1021/1612-13"
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Eşref (Behşehr)'i 1281-01-01'de ilhanli ile başlatır; Iranica'ya göre şehir 1612-13'te kuruldu (öncesinde 'unimportant settlement' Ḵarkūrān). Zincir BOŞ. Kaynak: Iranica 'BEHŠAHR' (gövde okundu); TDV'de madde bulunamadı. Ḵarkūrān'ın 1281 öncesi anılışı aranmadı (önemsiz köy; tanık bulunamadı)."
+ },
+ {
+  "id": "esterabad-ir",
+  "ad": "Esterâbâd (Gürgân)",
+  "atlas_ad": "Esterâbâd (Gürgân)",
+  "lat": 36.8381,
+  "lon": 54.4342,
+  "kat1900": 3,
+  "adlar": [
+   "Zadrakarta (Mordtmann tahmini, belirsiz)",
+   "Esterek (köy, gelenek)",
+   "Esterâbâd (Astarābād)",
+   "Dârülmü'minîn",
+   "Gürgân (1926'dan)"
+  ],
+  "ilk": {
+   "t": "0888-05-16",
+   "gun": "275/888-89",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad",
+   "tanik": "275’te (888-89) Rafi‘ b. Herseme, Esterâbâd’a kapanan Muhammed b. Zeyd’i ele geçirmek için şehri kuşatmış",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): ÇİFT TEYİT — TDV Esterâbâd ve Iranica 'Astarābād i' aynı olguyu 275/888-89'a koyar (iki ansiklopedi İbnü'l-Esîr VII,434 / İbn İsfendiyâr s.238'e dayanır; bağımsızlık sınırlı). Iranica alıntısı: 'in 275/888-89 the rebel Rāfeʿ b. Harṯama besieged the ʿAlid Moḥammad b. Zayd in Astarābād for two years'. f = hicrî 275 başlangıcı (16 Mayıs 888, Jülyen). Kuruluş geleneği: Yezîd b. Mühelleb 98/716-17 (Iranica: 'This may also be the time ...'; TDV: 'bu tez ispat edilememiştir') — kur YAZILMADI. Iranica: öncesi karanlık, Zadrakarta (Mordtmann) tahmini. 'İlk devir coğrafyacıları Cürcân'ın dört şehrinden biri' (TDV, tarihsiz; Cürcân şehri ayrı yerleşim, Gürgân nehri kıyısında). Atlas noktası = modern Gürgân; eski Cürcân şehri harap, ayrı kayıt konusu."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0888-05-16",
+    "t": "0890-04-25",
+    "d": "taberistan-zeydi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad; Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/",
+    "ic_not": "Muhammed b. Zeyd (Zeydî Alevî, Tabaristan hâkimi) Esterâbâd'a kapanmıştır; Râfi' b. Harseme kuşatır. Bitiş: Muhammed'in Tabaristan'dan çıkarılışı (277/890). Iranica 'ʿAlids' maddesi aynı olayı 277/891 verir (TDV/Iranica Astarābād: 277/890) — iki Iranica maddesi arasında bir yıl fark; Astarābād maddesi esas alındı.",
+    "boyasiz": true
+   },
+   {
+    "f": "0890-04-25",
+    "t": "0922-05-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad; Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/; Encyclopaedia Iranica 'ĀL-E BĀVAND' https://www.iranicaonline.org/articles/al-e-bavand/",
+    "ic_not": "Râfi' b. Harseme'nin (Horasan hâkimi) Tabaristan'ı elde tuttuğu yıllar (277-79/891-93), Rüstem b. Kārin'in teslimiyeti, Bâvendî Rüstem'in Esterâbâd'ı alıp kaçması (266/879), Sâmânî hâkimiyeti (287/900'den) — hiçbiri Esterâbâd'ın sahibini tarihli ve kesin göstermez; sıra çatışmalı. Beyansız yaklaşıklık yazılmadı."
+   },
+   {
+    "f": "0922-05-01",
+    "t": "0928-02-25",
+    "d": "taberistan-zeydi-ii",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad; Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/",
+    "ic_not": "f 'en geç tanıktan': Iranica 310/922-23'te Esterâbâd'ı Alevî Ebü'l-Hüseyin b. Hasan b. Oṭrūş'un tayin ettiği Deylemli Mâkân b. Kākī'nin yönettiğini söyler; Sâmânî komutanları Simcûr ve Belʿamî onu geçici işgal eder (süre bilinmiyor, dilim açılmadı). Önceki dilim (BOŞLUK) 33 yıl — > 1 kuşak değil ama sahip belirsiz olduğundan BOŞLUK korundu. Bitiş: 316/928'de Sâmânî hâkimiyetinde Gürgân'ı yöneten Asfār'ın Tabaristan'a saldırısı (Iranica Alids) — yaklaşık.",
+    "boyasiz": true
+   },
+   {
+    "f": "0928-02-25",
+    "t": "0981-07-07",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad; Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/; Encyclopaedia Iranica 'ZIYARIDS' https://www.iranicaonline.org/articles/ziyarids/",
+    "ic_not": "928-981 arası Esterâbâd'ın sahibi tarihli bir tanıkla gösterilemedi: Sâmânî/Ziyârî/Alevî/Deylemî çekişmesi (Iranica). Son tanık: 371/981'de 'yerel Ziyârî hükümdarı Kābūs b. Veşmgîr' Büveyhîler'ce kovulur (Ziyârî ile Büveyhî dilimi arasındaki Ziyârî dilimi başlangıcı bilinmiyor)."
+   },
+   {
+    "f": "0981-07-07",
+    "t": "0987-01-01",
+    "d": "buveyhi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad; Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/",
+    "ic_not": "Adudüddevle'nin kuvvetleri 981'de ele geçirir; kardeşi Müeyyidüddevle Ziyârî Kâbus'u çıkarır; 984'te Fahrüddevle Esterâbâd'ı Taş Hâcib'e iktâ verir. Bitiş: Taş Hâcib'in ölümü (987) — iktâ sahibinin ölümü egemenliğin değiştiğini göstermez, son Büveyhî tanığıdır."
+   },
+   {
+    "f": "0987-01-01",
+    "t": "1159-01-23",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad; Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/",
+    "ic_not": "TDV: 'Kısa bir süre Selçuklular’ın elinde kalan Esterâbâd' (tarihsiz); Iranica: 'not much heard of under the Saljuqs'; Ziyârî/Gazneli üstünlüğü Esterâbâd'a özgü tarihli tanıkla gösterilemedi. Büveyhî ile Bâvendî arası > 1 kuşak: BOŞLUK (kural)."
+   },
+   {
+    "f": "1159-01-23",
+    "t": "1163-01-01",
+    "d": "bavendi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad; Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/",
+    "ic_not": "f 'en geç tanıktan': Iranica: 12. yy'da Esterâbâd yerel Bâvendî hükümdarı Şāh-Ġāzī Rüstem'in (534-58/1140-63) topraklarına girer; 554/1159'da şehirdeki Şiî-Şâfiî fitnesini yatıştırır. TDV: 'Şah Gazi Rüstem’in (1140-1163) yönetimine girdi'. Giriş günü yok; Rüstem'in saltanatı 1140'ta başlar ama Esterâbâd'a hâkimiyeti bundan önce olabilir (belirsiz). Bitiş: Rüstem'in saltanat sonu (1163)."
+   },
+   {
+    "f": "1163-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad",
+    "ic_not": "1163-1281 arası sahip tarihli tanıkla gösterilemedi: TDV 'Moğol istilâsında Büyük Han Ögedey’in kumandanlarından Çin-temür ... Nusretüddin’i Esterâbâd valiliğine getirdi' (tarihsiz, Ögedey 1229-41); 'XIII. yüzyıl ortalarında bir ara Elburz İsmâilîleri'nin tahribatı' (tarihsiz); Hârizmşah Tekiş Taberistan/Bistâm/Damgan'a akın (TDV Hârizmşahlar, Esterâbâd'ı anmaz). Atlas 1281'de İlhanlı başlatır; el değiştirme günü bulunamadı (dikis_beyan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0888-05-16",
+    "gun": "275/888-89",
+    "k": "diger",
+    "b": "Râfi' b. Harseme, Esterâbâd'a kapanan Zeydî Muhammed b. Zeyd'i iki yıl kuşatır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad",
+    "tanik": "275’te (888-89) Rafi‘ b. Herseme, Esterâbâd’a kapanan Muhammed b. Zeyd’i ele geçirmek için şehri kuşatmış"
+   },
+   {
+    "t": "0890-04-25",
+    "gun": "277/890",
+    "k": "kayip",
+    "b": "Muhammed b. Zeyd Tabaristan'dan tümüyle çıkarılır; Rüstem b. Kārin Râfi'ye teslim olur.",
+    "kaynak": "Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/",
+    "tanik": "forced the latter to flee from Ṭabarestān completely (277/890)"
+   },
+   {
+    "t": "0922-05-01",
+    "gun": "310/922-23",
+    "k": "diger",
+    "b": "Esterâbâd Alevî Ebü'l-Hüseyin'in atadığı Deylemli Mâkân b. Kākī tarafından yönetilirken Sâmânî komutanlarının saldırısına uğrar.",
+    "kaynak": "Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/",
+    "tanik": "Astarābād was being governed by the Daylamī Mākān b. Kākī",
+    "ic_not": "en geç tanık (310/922-23); başlangıç günü yok."
+   },
+   {
+    "t": "0928-02-25",
+    "gun": "316/928",
+    "k": "diger",
+    "b": "Sâmânî hâkimiyetinde Gürgân'ı yöneten Asfār Tabaristan'a saldırır (Alevî-Mâkân hâkimiyetinin çöküşü).",
+    "kaynak": "Encyclopaedia Iranica 'ʿALIDS', https://www.iranicaonline.org/articles/alids-of-tabarestan-daylaman-and-gilan/",
+    "tanik": "Asfār, who was governing Gorgān under Samanid suzerainty, invaded Ṭabarestān",
+    "ic_not": "Dilim sınırı yaklaşık: Asfār'ın Esterâbâd'ı aldığı kaynakta yok; Esterâbâd bu sınırda 'BOŞLUK'a girer."
+   },
+   {
+    "t": "0981-07-07",
+    "gun": "371/981",
+    "k": "fetih",
+    "b": "Büveyhî Adudüddevle'nin kuvvetleri Cürcân'ı ve Esterâbâd'ı ele geçirir; Müeyyidüddevle Ziyârî Kâbus'u çıkarır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad; Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/",
+    "tanik": "Adudüddevle’nin kuvvetleri tarafından ele geçirildi (981)",
+    "ic_not": "Iranica Astarābād: 'in 371/981 the great Buyid amir ʿAżod-al-dawla’s forces invaded Gorgān, and his brother Moʾayyed-al-dawla drove out the local Ziarid ruler Qābūs' — ÇİFT TEYİT."
+   },
+   {
+    "t": "0987-01-01",
+    "gun": "377/987-88",
+    "k": "diger",
+    "b": "Taş Hâcib (Fahrüddevle'nin Esterâbâd iktâ sahibi) vebadan ölür; son Büveyhî-dönemi tanığı.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad",
+    "tanik": "Ebü’l-Abbas Taş Hâcib vebadan öldü (987)",
+    "ic_not": "Iranica 377/987-88. TDV yıl 987."
+   },
+   {
+    "t": "1159-01-23",
+    "gun": "554/1159",
+    "k": "diger",
+    "b": "Bâvendî Şāh-Ġāzī Rüstem Esterâbâd'daki Şiî-Şâfiî fitnesini yatıştırır, görevden alınan Şâfiî kadıyı iade eder.",
+    "kaynak": "Encyclopaedia Iranica 'ASTARĀBĀD i. History' (C. E. Bosworth), https://www.iranicaonline.org/articles/astarabad/astarabad-i-history/",
+    "tanik": "it came within the dominions of the local Bavandid ruler Šāh-Ḡāzī Rostam",
+    "ic_not": "en geç tanık: 554/1159 (Iranica Ebn al-Aṯīr XI,250); TDV: Rüstem 1140-1163 yönetimine girdi."
+   },
+   {
+    "t": "1163-01-01",
+    "gun": "1163",
+    "k": "diger",
+    "b": "Bâvendî Şah Gazi Rüstem'in saltanatı biter (1140-1163); Esterâbâd'ın sonraki sahibi bilinmez.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Esterâbâd, Tahsin Yazıcı), https://islamansiklopedisi.org.tr/esterabad",
+    "tanik": "Şah Gazi Rüstem’in (1140-1163) yönetimine girdi",
+    "ic_not": "Rüstem'in ölüm günü TDV'de yok."
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Esterâbâd (T. Yazıcı) + Iranica 'ASTARĀBĀD i' (ikisi curl ile gövde okundu); Iranica Alids/Bāvand/Ziyarids (kısmî alıntı). Kuruluş bulunamadı. Zincir seyrek: 6 BOŞLUK dilimi (Iranica ve TDV tarihli sahiplik vermiyor). Eski Cürcân şehri (Gürgân nehri kıyısı) modern noktadan farklı yerleşim — ayrı kayıt önerilir (kaynakta mesafe verilmedi).",
+  "dikis_beyan": "Atlas Esterâbâd'ı 1281-01-01'de ilhanli ile başlatır; 1163-1281 arası sahip tarihli tanıkla bulunamadı (TDV: Moğol valisi Çin-temür/Nusretüddin Ögedey devrinde, tarihsiz). 1281 el değiştirme günü tanığı yok."
  },
  {
   "id": "esztergom-hu",
@@ -12677,6 +13805,53 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "KAPSAM: Zincir Daliang'ın taşınma günü (MÖ 340, Wei) ile atlasın ilk günü (1000-01-01, song) arasındadır. YER VE 3 KM SORUNU: Atlas noktası (34.797, 114.307) Kaifeng'in eski kenti içindedir; \"Daliang\" burada Han Junyi ilçesi = Tang Bianzhou şehri = Kuzey Song Dongjing'in aynı alanıdır (Yuanhe junxian zhi 7: Junyi \"郭下…故大梁也\"; Jiu Tang shu 38: Bianzhou şehrinin içi). AMA: (a) mesafe bu oturumda ölçülmedi, yalnız haber düzeyinde arkeoloji (Xinhua 2023-06-25, ChinaNews 2024-07-12: \"城摞城\": Wei Daliang → Tang Bianzhou → Song Dongjing → Jin Bianjing → Ming → Qing üst üste) vardır — \"kesin değil\"; (b) Han Kaifeng ilçe merkezi bugünkü ilçenin 50 li güneyindedir (Jiu Tang shu 38) → AYRI KAYIT önerisi (Zheng Zhuang Gong \"Qifeng/Kaifeng\" kenti; Han Kaifeng ilçesi); (c) Sui Junyi (eski) bugünkü ilçenin 30 li kuzeyindeydi (Jiu Tang shu 38), Tang Bianzhou şehrine 617'de taşındı: Sui dönemindeki \"Junyi\" yeri ayrı. Eğer Daliang eşitlemesi 3 km'yi aşarsa kayıt Tang Bianzhou'dan (617–620) başlamalıdır. SAHİP ZİNCİRİ: -0339 → 1000-01-01, son sahip song. Önerilen yeni künyeler: zheng-wang-shichong, yan-an-lushan. KÜNYE GENİŞLET: bati-han t→0009-01-10; xin t→0023-10-06; dogu-han t→0220-12-10; cao-wei t→0266-02-08; kuzey-wei t→0534-11-08; kuzey-zhou t→0581-03-04; dogu-wei t→0550-06-10; kuzey-qi t→0577-02-23; wu-zhou t→0705-03-03; tang t→0907-06-01; sonraki-liang-5hanedan t→0923-11-19; sonraki-tang-5hanedan t→0937-01-11; sonraki-jin-5hanedan t→0947-07-05; sonraki-han-5hanedan t→0951-02-13; sonraki-zhou-5hanedan t→0960-02-04. BOŞLUKLAR (4): MÖ 207–202 (Chu-Han), 0023-10-06 → 0047-09 (Gengshi/Liu Yong/Guangwu), 309 → 526 (217 yıl; Junyi'ye özgü sahiplik okunmadı), 617 → 619-05 (Li Mi/Wang Yaohan/Wang Shichong). ÇELİŞKİ: Shiji 44 (Hui 31. yıl) ile Zhushu Jinian (Hui 9. yıl) Daliang'a taşınma yılı → Shiji (geç uç) esas. BULUNAMADI: Daliang'ın Han-Wei-Jin arası ayrı anılışı (Hanshu 28上 yalnız Junyi adını verir); Shiji 58 Liang Xiaowang başkenti (okunamadı); Zuozhuan \"Qifeng\". TAKVİM: ytliu0 ChineseCalendar ile Jülyen; Han dönemi (MÖ 104 öncesi) yıl 10. aydan; Kuzey Wei-Qi için WeiQi, Zhou için WeiZhouSui; Wu Zhou 690 ay kayması beyan."
  },
  {
+  "id": "kain-ir",
+  "ad": "Kâin (Qāʾen)",
+  "atlas_ad": "Kâin",
+  "lat": 33.7272,
+  "lon": 59.1831,
+  "kat1900": 3,
+  "adlar": [
+   "Qāʾen",
+   "Qāʾenāt (idarî ad)",
+   "Kayen"
+  ],
+  "ilk": {
+   "t": "1000-01-01",
+   "gun": "10. yüzyıl (4. hicrî yüzyıl)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Iranica 'BĪRJAND i. The town and sub-province', https://www.iranicaonline.org/articles/birjand-parent/birjand-town-and-district/",
+   "tanik": "Qāʾen, known to geographers of the 4th/10th century, prospered",
+   "ic_not": "İLK ANILIŞ (alt sınır, kuruluş değil): Iranica: Kâin 4./10. yy coğrafyacılarınca bilinir (kitap/sayfa verilmedi; Hudûdü'l-âlem 372/982-83 ya da İstahrî/İbn Havkal olabilir — doğrulanmadı). Aralık verildiği için güvenli uç (10. yy sonu) alındı. Iranica 'KHORASAN iii': 'Qāʾen in Qohestān was a small but important place for transiting into and out of Sasanian Khorasan via the desert route to Kermān' (Sâsânî dönemi yerleşim, tarihsiz). Wikipedia'nın aktardığı 'Şehrestânihâ-yi Îranşahr' anılışı bu oturumda birincil kaynaktan açılmadı. Kuruluş bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1000-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BĪRJAND i. The town and sub-province', https://www.iranicaonline.org/articles/birjand-parent/birjand-town-and-district/; Encyclopaedia Iranica 'ISMAʿILISM xv', https://www.iranicaonline.org/articles/ismailism-xv-nezari-ismaili-monuments/",
+    "ic_not": "1000-1281 arası Kâin'in sahibi tarihli tanıkla gösterilemedi. Iranica 'ISMAʿILISM xv': Nizârî İsmâilî devleti 654/1256 Ruknüddin Hurşah'ın Moğollara teslimine kadar Alamut + Rudbar, Qūmes ve Kuhistan (Qohestān) alanlarından oluşur; 'The fortresses at Qāʾen, Fourk, and Šāhdiz are particularly impressive' — Kâin kalesi İsmâilî ağındadır, ama İsmâilî egemenliğinin Kâin'e giriş günü yok. Kuhistan-Selçuklu/Gazneli/Sâmânî/Hârizmşah dilimleri Kâin'e özgü tanıkla gösterilemedi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1000-01-01",
+    "gun": "10. yüzyıl (4. hicrî yüzyıl)",
+    "k": "diger",
+    "b": "Kâin (Qāʾen) Kuhistan'ın merkezi olarak 4./10. yy coğrafyacılarınca bilinir.",
+    "kaynak": "Encyclopaedia Iranica 'BĪRJAND i. The town and sub-province', https://www.iranicaonline.org/articles/birjand-parent/birjand-town-and-district/",
+    "tanik": "Qāʾen, known to geographers of the 4th/10th century, prospered"
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'BĪRJAND i', 'KHORASAN iii', 'ISMAʿILISM xv' (gövde okundu); Iranica'da ayrı 'QĀʾEN' maddesi bulunamadı (404); TDV'de Kâin şehri YOK (arama: Kâinat). Kuruluş bulunamadı. Zincir tek BOŞLUK.",
+  "dikis_beyan": "Atlas Kâin'i 1281-01-01'de ilhanli ile başlatır; Kâin için 1256 öncesi İsmâilî (alamut-nizari) ve Moğol/İlhanlı geçişinin şehre özgü tarihli tanığı bulunamadı."
+ },
+ {
   "id": "kanizsa-hu",
   "ad": "Kanije (Nagykanizsa)",
   "atlas_ad": "Kanije",
@@ -13613,6 +14788,44 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Atlas ilk dönemi 1271-01-01 sicilya-kralligi (TDV 1271-72, yıl); zincir bu güne kadar. Atlas düzeltme önerisi: Kruja 1271-01-01'de yıl hassasiyetlidir; TIB 1268 diyor — TDV esas, atlas dokunulmaz. Çift teyit: ilk anılış 879 (TDV + TIB). Kruja kaynakta 'Ohri sancağı kazası' (TDV) = 1900 kat. 4 olabilir; kat1900=3 liste gereği bırakıldı. Antik/ayrı yer yok (Kruja ortaçağ kalesi, noktayla aynı). Bulunamadı: Arbanon beyliğinin başlangıç yılı ve Kruja'nın Bizans/Bulgar el değiştirme günleri, 1204-1253 arası bağlılık."
+ },
+ {
+  "id": "kucan-ir",
+  "ad": "Kûçân (Quchan)",
+  "atlas_ad": "Kûçân",
+  "lat": 37.1,
+  "lon": 58.51,
+  "kat1900": 3,
+  "adlar": [
+   "Ḵabušān (Eski Kûçân, ~13 km batı)",
+   "Qučān",
+   "Quchan"
+  ],
+  "ilk": {
+   "t": "1883-01-01",
+   "gun": "19. yüzyıl (13. hicrî yüzyılın 2. yarısı)",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Journal of Greater Khorasan (R. Nadaf, 'Quchan Bridge according to the documents', doi 10.22034/jgk.2022.137991), https://jgk.imamreza.ac.ir/article_137991_en.html",
+   "tanik": "a new city was built nearby",
+   "ic_not": "KURULUŞ (MODERN NOKTA): hakemli Büyük Horasan Tarihî Coğrafya Dergisi özeti: 13. hicrî yüzyılın 2. yarısında (1834-1883 Gregoryen) 'ESKİ Kûçân'daki yıkıcı ve ardışık depremlerin ardından yakınında yeni bir şehir kuruldu'. Güvenli uç (aralığın SON ucu) 1883. Arama özetinde (Vikipedi/Britannica: Britannica sayfası Cloudflare yüzünden açılamadı) 1895 depremi sonrası ~13 km doğuda taşınma da anılır — iki kaynak tutarsız (1895 > 1883); açılabilen akademik kaynak (JGK) esas alındı, çelişki beyan edilir. ESKİ Kûçân = Ḵabušān: Iranica 'KHORASAN xvii': 'Kurdish chiefs of Ḵabušān (later called Qučān)' (erken Safevî, Şah İsmail devri); Muhammed Hudâbende (1578-87) Kürt Budâk Han'ı Ḵabušān valisi atar. ESKİ YER modern noktadan >3 km uzakta (taşınma ~13 km) → ayrı kayıt önerilir: 'Ḵabušān (Eski Kûçân)'; 1281 öncesi anılışı bu oturumda bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1883-01-01",
+    "gun": "19. yüzyıl (13. hicrî yüzyılın 2. yarısı)",
+    "k": "kurulus",
+    "b": "Eski Kûçân'ı yıkan depremler sonrası yakınında yeni Kûçân kurulur.",
+    "kaynak": "Journal of Greater Khorasan (R. Nadaf, 'Quchan Bridge according to the documents', doi 10.22034/jgk.2022.137991), https://jgk.imamreza.ac.ir/article_137991_en.html",
+    "tanik": "a new city was built nearby",
+    "ic_not": "Güvenli uç; kesin yıl yok."
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Kûçân'ı 1281-01-01'de ilhanli ile başlatır; açılabilen akademik kaynağa göre modern şehir 19. yy'da (1883'e kadar) eski Kûçân'ın yakınında kurulmuştur → zincir BOŞ. ESKİ Kûçân/Ḵabušān (Iranica: erken Safevî çağında anılır; 1281 öncesi tanık bulunamadı) ayrı kayıt olarak önerilir. TDV'de madde yok."
  },
  {
   "id": "kurtuba-es",
@@ -17176,6 +18389,276 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "ILK: Treccani 'MÖ 7. yy Argos egemenliği' ve Strabon/Pausanias Nauplia'nın MÖ 300'den çok önce var olduğunu gösterir; TDV ise 'eski Grek şehri MÖ 300 senelerinde kuruldu' der. ÇELİŞKİ beyanı: TDV esas olduğu için kur alanında TDV (-0299, yüzyıl hassasiyeti) yazıldı, ama zincirin başı yazılı tanık önceliğiyle ilk anılış (Treccani, güvenli uç MÖ 601) alındı; TDV'nin 'kuruldu' sözü kendi içinde Pausanias'ın anlattığı Roma dönemi terkinden önceki Helenistik yeniden kuruluşu gösteriyor olabilir — Pleiades (570501) Helenistik akropol duvarı ve Neolitikten beri iskân der. ARK: TDV 'MÖ III. bin sonlarında yerleşme yeri oldu'. Modern Nafplio/Acronauplia ile atlas noktası aynı yer (3 km içinde)."
  },
  {
+  "id": "nesa-ir",
+  "ad": "Nesâ",
+  "atlas_ad": "Nesâ",
+  "lat": 37.9667,
+  "lon": 58.1833,
+  "kat1900": 3,
+  "adlar": [
+   "Mithradātkert (Eski Nisa)",
+   "Parthaunisa/Nisa (Yunan-Roma)",
+   "Nasā/Nesā (İslâm)",
+   "Nisa (Bagir)"
+  ],
+  "ilk": {
+   "t": "0000-01-01",
+   "gun": "MÖ 1",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/",
+   "tanik": "the 2nd and 1st centuries BCE are the probable period from which the corpus dates",
+   "ic_not": "ARKEOLOJİK (yazılı tanık bulunamadı): Iranica Nisa: Arsakî 'ceremonial center' (Old Nisa = Mithradātkert, 'Mithradates, probably the first king of that name' kurucu), New Nisa 'flourished from at least the Parthian period until the Middle Ages'. Verilen tarih, Old Nisa heykel/rhyton külliyatının 'olası dönemi'dir (MÖ 2.-1. yy) — KURULUŞ tarihi DEĞİL; güvenli uç (MÖ 1. yy sonu = MÖ 1 → astronomik 0000) alındı. Mithradates I'in tarihi bu oturumda birincil kaynaktan açılmadı; hafızadan yazılmadı. ADLAR: antik Mithradātkert (Old Nisa), ortaçağ Nasā/Nesā (New Nisa) — iki kalıntı Bagir köyünün batı/doğusunda bitişik (Iranica); atlas noktası ile aralarındaki mesafe ölçülmedi, >3 km ise Old Nisa ayrı kayıt olarak önerilir. Yazılı ilk tanık (Isidoros 'Parthian Stations', Strabon vb.) bu oturumda açılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0000-01-01",
+    "t": "0224-01-01",
+    "d": "part",
+    "kesinlik": "yuzyil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/",
+    "ic_not": "Iranica Nisa: 'an Arsacid city and ceremonial center in Parthia' (Parth dönemi; dilim başı arkeolojik güvenli uç, bitişi TDV Horasan 224).",
+    "boyasiz": true
+   },
+   {
+    "f": "0224-01-01",
+    "t": "0651-08-24",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Sâsânî dönemi: TDV Horasan (Sâsânî Horasan'ı); Iranica Khorasan iii: Nasā ve Abivard 'major population centers on the northern piedmont of Sasanian Khorasan'. Bitiş: Arap garnizonu/fethi (hicrî 31).",
+    "boyasiz": true
+   },
+   {
+    "f": "0651-08-24",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0821-05-06",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: Nesâ'da 188 (804) Ebü'l-Hasîb isyanı (Tûs/Serahs TDV).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0821-05-06",
+    "t": "0873-08-01",
+    "d": "tahiri-horasan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0873-08-01",
+    "t": "0900-01-07",
+    "d": "saffari",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0900-01-07",
+    "t": "0999-01-01",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0999-01-01",
+    "t": "1040-01-01",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: Mahmud 416/1025 sonrası 4.000 Türkmen ailesini Serahs-Ebîverd-Ferâve otlaklarına kabul eder; 418/1027'de Nesâ ve Ebîverd halkı şikâyetçi (Iranica Abivard).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1040-01-01",
+    "t": "1157-02-13",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'NISA' (A. Invernizzi), https://www.iranicaonline.org/articles/nisa/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1157-02-13",
+    "t": "1220-03-08",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Sencer'in ölümünden Moğol istilâsına kadar Nesâ'nın sahibini gösteren tarihli tanık bulunamadı (TDV Horasan sırası: Oğuz, Gurlu, Hârizmşah — Nesâ'ya özgü değil, tarihsiz)."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "TDV Horasan: 'Cengiz istilâsına ilk mâruz kalan yerlerden biri Horasan' (617/1220); Nesâ'ya özgü teslim tanığı yok — hicrî 617 başlangıcı (8 Mart 1220, Jülyen) bölge tarihidir."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Horasan İlhanlı yönetimine bırakılır (TDV Horasan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0224-01-01",
+    "gun": "224",
+    "k": "diger",
+    "b": "künye geçişi: Part (Arsakî) → Sâsânî (I. Erdeşîr Arsakîler'i yıkar).",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "224’ten sonra Arsakîler’i yıkarak Sâsânî İmparatorluğu’nu kuran I. Erdeşîr’in eline geçti.",
+    "ic_not": "TDV: '224’ten sonra' (yıl, 'sonra'); gün yok → 0224-01-01; Sâsânî künyesi 224-04-28'de başlar (atlas künyesi referans değildir; ~4 aylık fark uyarı olarak kalır)."
+   },
+   {
+    "t": "0651-08-24",
+    "gun": "31/651-52",
+    "k": "fetih",
+    "b": "Nesâ Arap fethinde garnizon şehirlerinden biri olur (Basra valisi Abdullah b. Âmir seferi).",
+    "kaynak": "Encyclopaedia Iranica 'KHORASAN iv', https://www.iranicaonline.org/articles/khorasan-iv-the-arab-conquest-and-omayyad-period/",
+    "tanik": "there were garrisons in Nasā, Abivard, Saraḵs, Nishapur, Ṭus, Marv al-Ruḏ",
+    "ic_not": "Iranica: Ṭabarī I, 2884-904 anlatısı (31/651-52 fetih seferi); garnizonun kuruluş günü yok. 'en geç' tanık: f = hicrî 31 başlangıcı (24 Ağustos 651). Sâsânî sonu (künye 651-01-01) ile 8 aylık fark uyarı olarak kalır."
+   },
+   {
+    "t": "0804-01-01",
+    "gun": "188 / 804",
+    "k": "isyan",
+    "b": "Ebü'l-Hasîb Vüheyb b. Abdullah Nesâ'da ayaklanır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus",
+    "tanik": "Ebü’l-Hasîb Vüheyb b. Abdullah kısa sürede Tûs’u ve bölgenin diğer şehirlerini kontrol altına aldı.",
+    "ic_not": "Sahip değişimi değil (Abbâsî dönemi isyan)."
+   },
+   {
+    "t": "1027-02-11",
+    "gun": "418 / 1027",
+    "k": "diger",
+    "b": "Nesâ ve Ebîverd halkı Gazneli Sultan'a Türkmenlerin şiddetinden şikâyet eder (Gazneli idaresinin tanığı).",
+    "kaynak": "Encyclopaedia Iranica 'ABĪVARD', https://www.iranicaonline.org/articles/abivard/",
+    "tanik": "by 418/1027 the people of Nesā and Abīvard were complaining to the sultan",
+    "ic_not": "Sultan = Gazneli Mahmud (Iranica metni)."
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "25 Rebîülevvel 41 / 29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'ye biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)."
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe'de biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi."
+   },
+   {
+    "t": "0821-05-06",
+    "gun": "29 Zilkade 205 / 6 Mayıs 821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valiliğine kendini tayin ettirir (Tâhirîler başlangıcı)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "tanik": "29 Zilkade 205’te (6 Mayıs 821) kendini Horasan valiliğine tayin ettirdi."
+   },
+   {
+    "t": "0873-08-01",
+    "gun": "Şevval 259 / Ağustos 873",
+    "k": "fetih",
+    "b": "Yakub b. Leys Nîşâbur'u alır, Tâhirîler'in Horasan idaresi sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "tanik": "Nîşâbur’u istilâ edip Tâhirîler’in buradaki idaresine son verdi (Şevval 259 / Ağustos 873)."
+   },
+   {
+    "t": "0900-01-07",
+    "gun": "287 H / 900",
+    "k": "fetih",
+    "b": "Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener, Horasan Sâmânîler'e geçer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İsmâil b. Ahmed’in 287’de (900) Amr b. Leys’i yenmesiyle de Sâmânîler’in yönetimine geçti"
+   },
+   {
+    "t": "0999-01-01",
+    "gun": "389 H / 999",
+    "k": "fetih",
+    "b": "Horasan Gazneliler'in eline geçer (Gazne ordusu Sâmânîler'i yener)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "tanik": "Bu olayın ardından Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999).",
+    "ic_not": "TDV Horasan: 'X. yüzyılın sonlarına doğru Horasan Gazneliler’in eline geçti' (yıl belirtmez); 389/999 TDV Sâmânîler'deki savaş yılıdır — hicrî 389 ∩ 999 kesişiminin ilk günü; Sebük Tegin/Mahmud Horasan'da 385/995'te (TDV Gazneliler) Sâmânî adına çalışıyordu."
+   },
+   {
+    "t": "1040-01-01",
+    "gun": "431 H / 1040",
+    "k": "fetih",
+    "b": "Dandanakan Savaşı: Horasan bütünüyle Selçuklu toprağı olur",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Dandanakan Savaşı’nın (431/1040) ardından Horasan bütünüyle bir Selçuklu toprağı haline geldi",
+    "ic_not": "hicrî 431 ∩ 1040 kesişiminin ilk günü (1040-01-01); TDV Gazneliler: 428/1037 ve 429/1038'de Gazneli ordusu bozguna uğradı, 'Gazneliler’in Horasan’daki hâkimiyetlerine son verildi'."
+   },
+   {
+    "t": "1157-02-13",
+    "gun": "552 H / 1157",
+    "k": "diger",
+    "b": "Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti",
+    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü (tablo takvimi, Jülyen); Sencer'in ölüm günü TDV Horasan'da yok."
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "654 H / 1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol Hakanlığı → İlhanlılar (Horasan İlhanlı yönetimine bırakılır)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İlhanlılar’ın kuruluşundan (654/1256) sonra onların yönetimine bırakıldı",
+    "ic_not": "yıl düzeyinde (hicrî 654 = 30 Ocak 1256 Jülyen başlangıcı); atlas İlhanlı künyesi 1256-01-01."
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 / 1220",
+    "k": "fetih",
+    "b": "Moğol (Cengiz) istilâsı Horasan'a girer; Horasan şehirleri Moğol hâkimiyetine düşer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Cengiz istilâsına ilk mâruz kalan yerlerden biri Horasan oldu.",
+    "ic_not": "Bölge olayı; Nesâ'ya özgü teslim günü yok. hicrî 617 ∩ 1220 = yılın başı (8 Mart 1220 Jülyen)."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'NISA' (Invernizzi), 'ABĪVARD', 'KHORASAN iii/iv'; TDV Horasan/Tûs. TDV'de Nesâ maddesi YOK (arama: yalnız Nesâî). Kuruluş tarihi bulunamadı; ark. tarihi güvenli uç. Sahip zinciri Part+Sâsânî (TDV Horasan) + Horasan bölge zinciri + Nesâ'ya özgü olaylar; 1157-1220 BOŞLUK. Atlas Nesâ'yı 1281'de İlhanlı ile başlatır — uyumlu."
+ },
+ {
   "id": "ningbo-cin",
   "ad": "Ningbo",
   "atlas_ad": "Ningbo",
@@ -19715,6 +21198,271 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Atlas Santander 1281 'kastilya' — uyumlu."
  },
  {
+  "id": "sebzevar-ir",
+  "ad": "Sebzevâr (Beyhak)",
+  "atlas_ad": "Sebzevâr",
+  "lat": 36.2133,
+  "lon": 57.6792,
+  "kat1900": 3,
+  "adlar": [
+   "Beyhak (Bayhaq)",
+   "Sebzevâr (Sabzavār)"
+  ],
+  "ilk": {
+   "t": "0650-09-04",
+   "gun": "30/650-51",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/",
+   "tanik": "surrender of the town in 30/650-51 to the Arab general",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): İbn Fündük 'Târîh-i Beyhak' (563/1167-68) aracılığıyla Iranica: şehir 30/650-51'de Arap komutan Abdullah b. Âmir'e haraçla teslim olur. Hicrî 30 başlangıcı 4 Eylül 650 (Jülyen). Beyhak aslında bir 'rostāq'tır; Sebzevâr ve Hosrowcird onun iki kent merkezidir (Iranica) — 'town' = Beyhak-Sebzevâr. TDV'de 'Sebzevâr' maddesi 'bk. BEYHAK' yönlendirmesidir ve Beyhak maddesi yalnız 5,6 bin karakterlik özet taşır (tarih yok). Kuruluş: bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0650-09-04",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/; Horasan geneli: TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/; Horasan geneli: TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0821-05-06",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/; Horasan geneli: TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: 213/828 Hâricî Hamza b. Âzerak Beyhak'ı yağmalar (olay listesi).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0821-05-06",
+    "t": "0873-08-01",
+    "d": "tahiri-horasan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/; Horasan geneli: TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü (tarihsiz): 'a considerable number of ʿAlid sayyeds emigrated thither in the Taherid period' (Iranica Bayhaq).",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0873-08-01",
+    "t": "0900-01-07",
+    "d": "saffari",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0900-01-07",
+    "t": "0999-01-01",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/; Horasan geneli: TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0999-01-01",
+    "t": "1040-01-01",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1040-01-01",
+    "t": "1157-02-13",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: Nizâmülmülk 464/1071-72'de surları yükseltir; Arslan Argun yıktırır (olay listesi).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1157-02-13",
+    "t": "1220-03-08",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/",
+    "ic_not": "Sencer'in ölümünden Moğol istilâsına kadar şehrin sahibini gösteren tarihli tanık bulunamadı. Iranica Bayhaq: Yinaltigin 548-49/1153-54 (Sencer devri) ve Ay Aba 561-62/1165-67 kuşatıp yağmalar — sahiplik göstermez; Ay Aba'nın 1157 sonrası Nîşâbur çevresi emîrliği (TDV Horasan) için Beyhak'a özgü tanık yok."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/",
+    "ic_not": "Bölge olayı: Horasan 617/1220'de Moğol istilâsına uğradı (TDV Horasan); şehre özgü teslim tanığı yoksa bölge tarihi esas alındı."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Horasan İlhanlı yönetimine bırakılır (TDV Horasan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0650-09-04",
+    "gun": "30/650-51",
+    "k": "fetih",
+    "b": "Beyhak, Arap komutan Abdullah b. Âmir'e haraç karşılığı teslim olur.",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/",
+    "tanik": "surrender of the town in 30/650-51 to the Arab general"
+   },
+   {
+    "t": "0828-03-22",
+    "gun": "213/828",
+    "k": "isyan",
+    "b": "Hâricî Hamza b. Âzerak isyanında Beyhak yağmalanır, Cuma Camii yıkılır.",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/",
+    "tanik": "Bayhaq was sacked by these sectaries, who destroyed the Friday mosque",
+    "ic_not": "Sahip değişimi değil (Abbâsî dönemi isyan)."
+   },
+   {
+    "t": "1071-09-29",
+    "gun": "464/1071-72",
+    "k": "diger",
+    "b": "Selçuklu veziri Nizâmülmülk Beyhak surlarını yükseltir (Selçuklu idaresinin tanığı); sonra Arslan Argun yıktırır.",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/",
+    "tanik": "raised in height by the Saljuq vizier Neẓām al-Molk in 464/1071-72"
+   },
+   {
+    "t": "1153-03-29",
+    "gun": "548-49/1153-54",
+    "k": "diger",
+    "b": "Hârizmşah Atsız'ın kardeşi Yinaltigin Beyhak'ı kuşatıp yağmalar.",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/",
+    "tanik": "it was besieged and sacked in 548-49/1153-54 by the",
+    "ic_not": "Sahip değişimi değil; Sencer devri (1153-54)."
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 / 1220",
+    "k": "fetih",
+    "b": "Moğol (Cengiz) istilâsı Horasan'a girer; Horasan şehirleri Moğol hâkimiyetine düşer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Cengiz istilâsına ilk mâruz kalan yerlerden biri Horasan oldu",
+    "ic_not": "Bölge olayı (TDV Horasan: 617/1220); hicrî 617 ∩ 1220 = yılın başı (8 Mart 1220, Jülyen); şehre özgü teslim günü yok."
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617/1220",
+    "k": "fetih",
+    "b": "Börke Noyan Beyhak'ı alır (yaklaşık 70.000 ölü — Iranica'ya göre abartılı).",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/",
+    "tanik": "When the Mongols appeared in Khorasan in 617/1220, Bayhaq was taken by Börkey Noyan"
+   },
+   {
+    "t": "1265-01-01",
+    "gun": "663-80/1265-82",
+    "k": "diger",
+    "b": "İlhanlı Abaka devrinden itibaren Sebzevâr'da sikke basılır (İlhanlı idaresinin tanığı).",
+    "kaynak": "Encyclopaedia Iranica 'BAYHAQ' (C. E. Bosworth), https://www.iranicaonline.org/articles/bayhaq-town/",
+    "tanik": "under the Il-khanids coins begin to be minted at Sabzavār from the reign of Abaqa",
+    "ic_not": "Abaka 663-80/1265-82; hicrî 663 ∩ 1265 = yılın başı."
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "25 Rebîülevvel 41 / 29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'ye biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)."
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe'de biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi."
+   },
+   {
+    "t": "0821-05-06",
+    "gun": "29 Zilkade 205 / 6 Mayıs 821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valiliğine kendini tayin ettirir (Tâhirîler başlangıcı)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "tanik": "29 Zilkade 205’te (6 Mayıs 821) kendini Horasan valiliğine tayin ettirdi."
+   },
+   {
+    "t": "0873-08-01",
+    "gun": "Şevval 259 / Ağustos 873",
+    "k": "fetih",
+    "b": "Yakub b. Leys Nîşâbur'u alır, Tâhirîler'in Horasan idaresi sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "tanik": "Nîşâbur’u istilâ edip Tâhirîler’in buradaki idaresine son verdi (Şevval 259 / Ağustos 873)."
+   },
+   {
+    "t": "0900-01-07",
+    "gun": "287 H / 900",
+    "k": "fetih",
+    "b": "Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener, Horasan Sâmânîler'e geçer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İsmâil b. Ahmed’in 287’de (900) Amr b. Leys’i yenmesiyle de Sâmânîler’in yönetimine geçti"
+   },
+   {
+    "t": "0999-01-01",
+    "gun": "389 H / 999",
+    "k": "fetih",
+    "b": "Horasan Gazneliler'in eline geçer (Gazne ordusu Sâmânîler'i yener)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "tanik": "Bu olayın ardından Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999).",
+    "ic_not": "TDV Horasan: 'X. yüzyılın sonlarına doğru Horasan Gazneliler’in eline geçti' (yıl belirtmez); 389/999 TDV Sâmânîler'deki savaş yılıdır — hicrî 389 ∩ 999 kesişiminin ilk günü; Sebük Tegin/Mahmud Horasan'da 385/995'te (TDV Gazneliler) Sâmânî adına çalışıyordu."
+   },
+   {
+    "t": "1040-01-01",
+    "gun": "431 H / 1040",
+    "k": "fetih",
+    "b": "Dandanakan Savaşı: Horasan bütünüyle Selçuklu toprağı olur",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Dandanakan Savaşı’nın (431/1040) ardından Horasan bütünüyle bir Selçuklu toprağı haline geldi",
+    "ic_not": "hicrî 431 ∩ 1040 kesişiminin ilk günü (1040-01-01); TDV Gazneliler: 428/1037 ve 429/1038'de Gazneli ordusu bozguna uğradı, 'Gazneliler’in Horasan’daki hâkimiyetlerine son verildi'."
+   },
+   {
+    "t": "1157-02-13",
+    "gun": "552 H / 1157",
+    "k": "diger",
+    "b": "Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti",
+    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü (tablo takvimi, Jülyen); Sencer'in ölüm günü TDV Horasan'da yok."
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "654 H / 1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol Hakanlığı → İlhanlılar (Horasan İlhanlı yönetimine bırakılır)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İlhanlılar’ın kuruluşundan (654/1256) sonra onların yönetimine bırakıldı",
+    "ic_not": "yıl düzeyinde (hicrî 654 = 30 Ocak 1256 Jülyen başlangıcı); atlas İlhanlı künyesi 1256-01-01."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'BAYHAQ' (birebir okundu); TDV 'Beyhak' ve 'Sebzevâr' (yönlendirme; gövde kısa, tarih yok). Kuruluş: bulunamadı. Sebzevâr Serbedârîler'in başkenti oldu (1337, atlas zincirinde var). Sahip zinciri Horasan bölge zinciri + Beyhak'a özgü tanıklar (Selçuklu surları, İlhanlı sikkesi); 1157-1220 BOŞLUK."
+ },
+ {
   "id": "semendire-rs",
   "ad": "Semendire (Smederevo)",
   "atlas_ad": "Semendire",
@@ -19770,6 +21518,221 @@ window.SEHIR_TARIHCE_K3 = [
   ],
   "dikis_beyan": "Atlas Semendire'yi 1281-01-01'de 'sirbistan' ile başlatıyor; 1281 civarına ait Semendire'ye özgü sahiplik tanığı HE/TDV/Treccani'de BULUNAMADI (komşu Belgrad HE: ilk Sırp hâkimiyeti 1284). Yer tutucu olay yazılmadı.",
   "ic_not": "Semendire: atlas 1281 sirbistan iddiası kaynaksız; HE Beograd'a göre komşu Belgrad 1284'te ilk kez Sırp hâkimiyetine girdi, Semendire için tanık yok — Atlas başlangıcı gözden geçirilmeli (kaynak: bulunamadı). Açılamayan: Srpska enciklopedija / Istorijski institut yayınları (arama yapılmadı)."
+ },
+ {
+  "id": "serahs-ir",
+  "ad": "Serahs",
+  "atlas_ad": "Serahs",
+  "lat": 36.5386,
+  "lon": 61.1611,
+  "kat1900": 3,
+  "adlar": [
+   "Serahs (Saraḵs)",
+   "Saragt",
+   "Sarakhs"
+  ],
+  "ilk": {
+   "t": "0651-08-24",
+   "gun": "31/651-52",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
+   "tanik": "Abdullah b. Hâzim tarafından fethedildi (31/651-52).",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): TDV'nin ilk TARİHLİ olgusu İslâm fethi; hicrî 31 = 24 Ağustos 651 başlangıcı (tablo takvimi, Jülyen), aralığın ilk günü. TDV: kuruluş 'MÖ VI-IV. yüzyıllarda Persler devrinde kurulduğu tahmin edilmektedir' (TAHMİN — kur olarak yazılmadı); ortaçağ kaynaklarında Keykâvus/Efrâsiyâb/Zülkarneyn'e atfedilir (gelenek); 'Önceleri Selevkoslar ve Sâsânîler’in hâkimiyetine girdi' (tarihsiz). Iranica (Khorasan iii): Sâsânî Horasan'ının kuzey eteği şehirlerinden, 'malek' Ebn Aʿṯam'da. Atlas Serahs'ı 1193-01-01'de Hârizmşah ile başlatır; zincir 1193-01-01'de biter.Modern Serahs (Türkmenistan) ile 'Eski Serahs' kalıntıları (TDV: yeni Serahs'ın GD'sinde) arasındaki mesafe ölçülmedi; >3 km ise ayrı kayıt önerilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0651-08-24",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs; Horasan geneli: TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs; Horasan geneli: TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0821-05-06",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs; Horasan geneli: TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0821-05-06",
+    "t": "0873-08-01",
+    "d": "tahiri-horasan",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs; Horasan geneli: TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0873-08-01",
+    "t": "0900-01-07",
+    "d": "saffari",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0900-01-07",
+    "t": "0999-01-01",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs; Horasan geneli: TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: TDV Serahs 'X. yüzyılda Sâmânîler’in idaresinde olan şehir'.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0999-01-01",
+    "t": "1040-01-01",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: TDV Serahs 'Sâmânîler’in yıkılmasının ardından Gazneliler’in eline geçti'.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1040-01-01",
+    "t": "1157-02-13",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: Selçuklular 426'da (1035) Horasan'a göçünce ilk yurt edindikleri yerlerden biri Serahs; Dandanakan'dan (431/1040) sonra yeni devletin sınırları içinde kaldı (TDV Serahs).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1157-02-13",
+    "t": "1193-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
+    "ic_not": "TDV Serahs: Sencer'in ölümüyle (552/1157) Selçuklu devleti tarihe karışınca 'Serahs bir süre Oğuzlar’ın elinde kaldı' — Oğuzlar için künye yok (kunye_yok açılmadı: egemen devlet değil, bölgesel güç); dilimin sonu: Hârizmşah hâkimiyeti 1193 (TDV)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0651-08-24",
+    "gun": "31/651-52",
+    "k": "fetih",
+    "b": "Serahs, Basra valisi Abdullah b. Âmir'in komutanı Abdullah b. Hâzim tarafından fethedilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
+    "tanik": "Abdullah b. Hâzim tarafından fethedildi (31/651-52)."
+   },
+   {
+    "t": "0748-01-15",
+    "gun": "9 Cemâziyelevvel 130 / 15 Ocak 748",
+    "k": "diger",
+    "b": "Emevî Horasan valisi Nasr b. Seyyâr Merv'i Ebû Müslim'e bırakıp Serahs'a çekilir, oradan Tûs ve Nîşâbur'a gider.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
+    "tanik": "Nasr (9 Cemâziyelevvel 130 / 15 Ocak 748) buradan Serahs’a, ardından Tûs ve Nîşâbur’a çekildi.",
+    "ic_not": "Sahip değişimi değil; Abbâsî ihtilâli sırasında Serahs'ın Emevî eliyle son kullanımı."
+   },
+   {
+    "t": "1157-02-13",
+    "gun": "552 / 1157",
+    "k": "diger",
+    "b": "Sencer'in ölümüyle Büyük Selçuklu Devleti sona erer; Serahs bir süre Oğuzlar'da kalır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
+    "tanik": "Sencer’in ölümüyle Büyük Selçuklu Devleti’nin tarihe karışması sonucunda Serahs bir süre Oğuzlar’ın elinde kaldı",
+    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü; (bu madde ol_selcuklu_son ile aynı olguyu şehir kaynağından da teyit eder)."
+   },
+   {
+    "t": "1193-01-01",
+    "gun": "1193",
+    "k": "fetih",
+    "b": "Hârizmşahlar Serahs'ı da içeren Horasan'a hâkim olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Serahs), https://islamansiklopedisi.org.tr/serahs",
+    "tanik": "ardından bütün Horasan’la birlikte şehir ve çevresine Hârizmşahlar hâkim oldu (1193)"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "25 Rebîülevvel 41 / 29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'ye biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)."
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe'de biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi."
+   },
+   {
+    "t": "0821-05-06",
+    "gun": "29 Zilkade 205 / 6 Mayıs 821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valiliğine kendini tayin ettirir (Tâhirîler başlangıcı)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "tanik": "29 Zilkade 205’te (6 Mayıs 821) kendini Horasan valiliğine tayin ettirdi."
+   },
+   {
+    "t": "0873-08-01",
+    "gun": "Şevval 259 / Ağustos 873",
+    "k": "fetih",
+    "b": "Yakub b. Leys Nîşâbur'u alır, Tâhirîler'in Horasan idaresi sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "tanik": "Nîşâbur’u istilâ edip Tâhirîler’in buradaki idaresine son verdi (Şevval 259 / Ağustos 873)."
+   },
+   {
+    "t": "0900-01-07",
+    "gun": "287 H / 900",
+    "k": "fetih",
+    "b": "Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener, Horasan Sâmânîler'e geçer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İsmâil b. Ahmed’in 287’de (900) Amr b. Leys’i yenmesiyle de Sâmânîler’in yönetimine geçti"
+   },
+   {
+    "t": "0999-01-01",
+    "gun": "389 H / 999",
+    "k": "fetih",
+    "b": "Horasan Gazneliler'in eline geçer (Gazne ordusu Sâmânîler'i yener)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "tanik": "Bu olayın ardından Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999).",
+    "ic_not": "TDV Horasan: 'X. yüzyılın sonlarına doğru Horasan Gazneliler’in eline geçti' (yıl belirtmez); 389/999 TDV Sâmânîler'deki savaş yılıdır — hicrî 389 ∩ 999 kesişiminin ilk günü; Sebük Tegin/Mahmud Horasan'da 385/995'te (TDV Gazneliler) Sâmânî adına çalışıyordu."
+   },
+   {
+    "t": "1040-01-01",
+    "gun": "431 H / 1040",
+    "k": "fetih",
+    "b": "Dandanakan Savaşı: Horasan bütünüyle Selçuklu toprağı olur",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Dandanakan Savaşı’nın (431/1040) ardından Horasan bütünüyle bir Selçuklu toprağı haline geldi",
+    "ic_not": "hicrî 431 ∩ 1040 kesişiminin ilk günü (1040-01-01); TDV Gazneliler: 428/1037 ve 429/1038'de Gazneli ordusu bozguna uğradı, 'Gazneliler’in Horasan’daki hâkimiyetlerine son verildi'."
+   },
+   {
+    "t": "1157-02-13",
+    "gun": "552 H / 1157",
+    "k": "diger",
+    "b": "Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti",
+    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü (tablo takvimi, Jülyen); Sencer'in ölüm günü TDV Horasan'da yok."
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Serahs (curl ile gövde okundu; Bosworth EI2, Ruska İA bibliyografyada, açılmadı); Iranica Khorasan iii/v (Sasanian Khorasan, Fażl b. Sahl 202/818). Kuruluş: TAHMİN (MÖ VI-IV. yy, TDV) — kaynaklı kuruluş yok. 1157-1193 Oğuz dilimi BOŞLUK (TDV). ATLAS DİKİŞİ: atlas Serahs'ı 1193-01-01'de harizmsah ile başlatır (kaynak: aynı TDV Serahs, 1193) → zincir 1193-01-01'de BOŞLUK ile biter; dikiş olayı TDV Serahs 1193. 1193 sonrası atlasın zinciri esastır (Moğol 618/1221 TDV Serahs ile atlasta zaten var)."
  },
  {
   "id": "shaoxing-cin",
@@ -21869,6 +23832,603 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Kuruluş: Augustus MÖ 16-13 (Treccani EI + Treccani online aynı aralık, aynı kuruluşun iki yayını; güvenli uç MÖ 13 = -0012). Kuruluş tanığı çağdaş değil (devşirme akademik ansiklopedi); Trier köprüsü dendro MÖ 18/17 (Vikipedi — ikinci tanık, kullanılmadı). EI: Tacitus Hist. 4.77 köprüyü anar, Tacitus döneminde colonia (Mommsen: Latin hukuku) — yazılı tanık Tacitus (MS 69-70) kuruluştan SONRA, kur esas alındı. Frank geçişi 462/464 (Treccani: belirsiz) → hayalet uyarısı beklenir, künye genişletme önerisi. 870-911: Trier'in Louis payına düştüğü Treccani'de açık değil (Vikipedi EN bölgesel harita) — beyan. 911-925 Batı Francia Treccani Lorena aktarımı. Atlas Trier 1281 'almanya': tutarlı. Çift teyit YOK (Treccani x2 aynı kuruluş)."
+ },
+ {
+  "id": "turbet-i-cam-ir",
+  "ad": "Turbet-i Câm (Torbat-e Jām)",
+  "atlas_ad": "Turbet-i Câm",
+  "lat": 35.2439,
+  "lon": 60.6242,
+  "kat1900": 3,
+  "adlar": [
+   "Maʿaddābād (türbe köyü)",
+   "Zām/Jām (eski bölge)",
+   "Torbat-e Şeyh-e Câm",
+   "Torbat-e Câm"
+  ],
+  "ilk": {
+   "t": "1141-08-06",
+   "gun": "536/1141",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'AḤMAD-E JĀM', https://www.iranicaonline.org/articles/ahmad-e-jam/",
+   "tanik": "d. 536/1141 in Maʿaddābād on the outskirts of Jām",
+   "ic_not": "İLK ANILIŞ (alt sınır, kuruluş değil) — YER SORUNU: Iranica: Ahmed-i Câm 536/1141'de Câm'ın kenarındaki Maʿaddābād'da öldü; 'bugün türbesi sayesinde Torbat-e [Şeyh-e] Câm adını taşıyor'. Yani atlas noktası (Torbat-e Câm) TÜRBE-şehridir (ad 1141 sonrası); eski CÂM (Zām/Jām, Belâzürî: 31/651-52'de Yezîd Corâşî zorla fethetti — Iranica 'BĀḴARZ') ile aynı yer olup olmadığı kaynakta verilmedi. ANTİK YER >3 km ise ayrı kayıt önerilir (Cām/Zām köyü). Hicrî 536 başlangıcı 6 Ağustos 1141 (Jülyen). Kuruluş bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1141-08-06",
+    "t": "1187-03-13",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'AḤMAD-E JĀM', https://www.iranicaonline.org/articles/ahmad-e-jam/; Encyclopaedia Iranica 'BĀḴARZ', https://www.iranicaonline.org/articles/bakarz-district-quhestan/",
+    "ic_not": "Ahmed-i Câm'ın ölümünden (1141) Hârizmşah Tekiş'in Câm ve Bâkarz'ı kardeşine devrine (583/1187) kadar sahip tarihli tanıkla gösterilemedi (Câm bölgesi Sencer'in Horasan'ında, Sencer 1157'de öldü — Câm'a özgü tanık yok)."
+   },
+   {
+    "f": "1187-03-13",
+    "t": "1220-03-08",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BĀḴARZ', https://www.iranicaonline.org/articles/bakarz-district-quhestan/",
+    "ic_not": "f 'en geç tanıktan': 583/1187'de Hârizmşah Tekiş Câm, Bâkarz ve Zīr-e Pol'ü kardeşi Sultanşah'a devreder (Iranica Bāḵarz) — Tekiş'in Câm üzerindeki hâkimiyetinin tanığı; önceki dilim BOŞLUK. Bitiş: Moğol istilâsı."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Encyclopaedia Iranica 'AḤMAD-E JĀM', https://www.iranicaonline.org/articles/ahmad-e-jam/",
+    "ic_not": "Bölge olayı: Horasan 617/1220'de Moğol istilâsına uğradı (TDV Horasan); şehre özgü teslim tanığı yoksa bölge tarihi esas alındı."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Horasan İlhanlı yönetimine bırakılır (TDV Horasan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1141-08-06",
+    "gun": "536/1141",
+    "k": "diger",
+    "b": "Ahmed-i Câm Câm'ın kenarındaki Maʿaddābād'da ölür; türbesi yerleşimin adı olur (Torbat-e Câm).",
+    "kaynak": "Encyclopaedia Iranica 'AḤMAD-E JĀM', https://www.iranicaonline.org/articles/ahmad-e-jam/",
+    "tanik": "d. 536/1141 in Maʿaddābād on the outskirts of Jām"
+   },
+   {
+    "t": "1187-03-13",
+    "gun": "583/1187",
+    "k": "diger",
+    "b": "Hârizmşah Tekiş Câm, Bâkarz ve Zīr-e Pol'ü kardeşi Sultanşah'a devreder.",
+    "kaynak": "Encyclopaedia Iranica 'BĀḴARZ', https://www.iranicaonline.org/articles/bakarz-district-quhestan/",
+    "tanik": "made over possession of Jām, Bāḵarz and Zīr-e Pol (unidentified) to Solṭānšāh"
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 / 1220",
+    "k": "fetih",
+    "b": "Moğol (Cengiz) istilâsı Horasan'a girer; Horasan şehirleri Moğol hâkimiyetine düşer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Cengiz istilâsına ilk mâruz kalan yerlerden biri Horasan oldu",
+    "ic_not": "Bölge olayı (TDV Horasan: 617/1220); hicrî 617 ∩ 1220 = yılın başı (8 Mart 1220, Jülyen); şehre özgü teslim günü yok."
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "654 H / 1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol Hakanlığı → İlhanlılar (Horasan İlhanlı yönetimine bırakılır)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İlhanlılar’ın kuruluşundan (654/1256) sonra onların yönetimine bırakıldı",
+    "ic_not": "yıl düzeyinde (hicrî 654 = 30 Ocak 1256 Jülyen başlangıcı); atlas İlhanlı künyesi 1256-01-01."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'AḤMAD-E JĀM' ve 'BĀḴARZ' (gövde okundu); TDV'de yok; Câm şehri için ayrı Iranica maddesi bulunamadı ('JĀM i' Gur'daki başka yer). Kuruluş bulunamadı. 1141 öncesi (Zām/Jām 651-52 fethi) zincire alınmadı — özdeşlik belirsiz."
+ },
+ {
+  "id": "turbet-i-haydariye-ir",
+  "ad": "Turbet-i Haydariye (Zāva)",
+  "atlas_ad": "Turbet-i Haydariye",
+  "lat": 35.2739,
+  "lon": 59.2189,
+  "kat1900": 3,
+  "adlar": [
+   "Zāva (Zāvah)",
+   "Torbat-e Ḥaydariya",
+   "Torbat-e Ishaq Khan (19. yy)"
+  ],
+  "ilk": {
+   "t": "0749-01-01",
+   "gun": "131/748-49 (en geç; 749)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/",
+   "tanik": "mentions the province of Ḵᵛāf and the village Zāva (present-day Torbat-e Ḥaydarīya)",
+   "ic_not": "ZAYIF İLK ANILIŞ (alt sınır, kuruluş değil): Iranica 'Behāfarīd': Behâfarîd'in Zerdüşt'î isyanı (129/747 - 131/748-49 arası) GEÇ kaynak Mecd-i Hvâfî'ye (s.280) göre 'Zāva köyü (bugünkü Torbat-e Haydariye)'nde başlar — Zāva'nın çağdaş yazılı anılışı DEĞİL (Hârezmî/Birûnî isyanı Hvâf'taki Sîrâvend'e koyar). Güvenli uç: 131/748-49 aralığının son ucu → 749-01-01 (yıl düzeyi). Kutbüddin Haydar-ı Zâvî (ö. 613/1216, 618/1221 ya da 628/1231) Zāva'da doğdu; türbesi şehrin adını (Torbat-e Haydariye) verdi (Iranica 'Qoṭb-al-Din Ḥaydar Zāvi'). Kuruluş bulunamadı; Sam'ânî/Yâkūt Zāva maddeleri bu oturumda açılamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0749-01-01",
+    "t": "0749-11-28",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Ebû Müslim'in Horasan'a 'tamamen hâkim' olduğu yıl (TDV Horasan: Nasr 130/748'de batıya çekildi): Emevî çökmüş, Abbâsî künyesi henüz kurulmamış (749-11-28 Kûfe biatı). Zāva için ayrıca tanık yok."
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0821-05-06",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/; Encyclopaedia Iranica 'QOṬB-AL-DIN ḤAYDAR ZĀVI', https://www.iranicaonline.org/articles/qotb-al-din-haydar-zavi/; Horasan geneli: TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Zāva'nın Ḵᵛāf-Nîşâbur çevresinde (Horasan) olduğu Iranica Behāfarīd'e dayanır.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0821-05-06",
+    "t": "0873-08-01",
+    "d": "tahiri-horasan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/; Encyclopaedia Iranica 'QOṬB-AL-DIN ḤAYDAR ZĀVI', https://www.iranicaonline.org/articles/qotb-al-din-haydar-zavi/; Horasan geneli: TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0873-08-01",
+    "t": "0900-01-07",
+    "d": "saffari",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/; Encyclopaedia Iranica 'QOṬB-AL-DIN ḤAYDAR ZĀVI', https://www.iranicaonline.org/articles/qotb-al-din-haydar-zavi/; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0900-01-07",
+    "t": "0999-01-01",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/; Encyclopaedia Iranica 'QOṬB-AL-DIN ḤAYDAR ZĀVI', https://www.iranicaonline.org/articles/qotb-al-din-haydar-zavi/; Horasan geneli: TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0999-01-01",
+    "t": "1040-01-01",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/; Encyclopaedia Iranica 'QOṬB-AL-DIN ḤAYDAR ZĀVI', https://www.iranicaonline.org/articles/qotb-al-din-haydar-zavi/; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1040-01-01",
+    "t": "1157-02-13",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/; Encyclopaedia Iranica 'QOṬB-AL-DIN ḤAYDAR ZĀVI', https://www.iranicaonline.org/articles/qotb-al-din-haydar-zavi/; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1157-02-13",
+    "t": "1220-03-08",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/; Encyclopaedia Iranica 'QOṬB-AL-DIN ḤAYDAR ZĀVI', https://www.iranicaonline.org/articles/qotb-al-din-haydar-zavi/",
+    "ic_not": "Sencer'in ölümünden Moğol istilâsına kadar şehrin sahibini gösteren tarihli tanık bulunamadı. Zāva: Ḵᵛāf (Nîşâbur) ilçesindedir (Iranica Behāfarīd); Selçuklu/Hârizmşah dilimlerine özgü tanık yok."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan; Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/; Encyclopaedia Iranica 'QOṬB-AL-DIN ḤAYDAR ZĀVI', https://www.iranicaonline.org/articles/qotb-al-din-haydar-zavi/",
+    "ic_not": "Bölge olayı: Horasan 617/1220'de Moğol istilâsına uğradı (TDV Horasan); şehre özgü teslim tanığı yoksa bölge tarihi esas alındı."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Horasan İlhanlı yönetimine bırakılır (TDV Horasan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0749-01-01",
+    "gun": "131/748-49 (749)",
+    "k": "diger",
+    "b": "Behâfarîd'in isyanı Zāva köyünden başlar (geç kaynak Mecd-i Hvâfî).",
+    "kaynak": "Encyclopaedia Iranica 'BEHĀFARĪD', https://www.iranicaonline.org/articles/behafarid-zoroastrian-heresiarch-and-self-styled-prophet-killed-131-748-49/",
+    "tanik": "mentions the province of Ḵᵛāf and the village Zāva (present-day Torbat-e Ḥaydarīya)",
+    "ic_not": "Behâfarîd'in faaliyeti 129/747 ile 131/748-49 arası (Iranica); 127/745 başlangıcı da önerilmiştir."
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "Abbâsî Halifesi Ebü'l-Abbas'a Kûfe'de biat edilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi."
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 / 1220",
+    "k": "fetih",
+    "b": "Moğol (Cengiz) istilâsı Horasan'a girer; Horasan şehirleri Moğol hâkimiyetine düşer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Cengiz istilâsına ilk mâruz kalan yerlerden biri Horasan oldu",
+    "ic_not": "Bölge olayı (TDV Horasan: 617/1220); hicrî 617 ∩ 1220 = yılın başı (8 Mart 1220, Jülyen); şehre özgü teslim günü yok."
+   },
+   {
+    "t": "0821-05-06",
+    "gun": "29 Zilkade 205 / 6 Mayıs 821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valiliğine kendini tayin ettirir (Tâhirîler başlangıcı)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "tanik": "29 Zilkade 205’te (6 Mayıs 821) kendini Horasan valiliğine tayin ettirdi."
+   },
+   {
+    "t": "0873-08-01",
+    "gun": "Şevval 259 / Ağustos 873",
+    "k": "fetih",
+    "b": "Yakub b. Leys Nîşâbur'u alır, Tâhirîler'in Horasan idaresi sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "tanik": "Nîşâbur’u istilâ edip Tâhirîler’in buradaki idaresine son verdi (Şevval 259 / Ağustos 873)."
+   },
+   {
+    "t": "0900-01-07",
+    "gun": "287 H / 900",
+    "k": "fetih",
+    "b": "Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener, Horasan Sâmânîler'e geçer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İsmâil b. Ahmed’in 287’de (900) Amr b. Leys’i yenmesiyle de Sâmânîler’in yönetimine geçti"
+   },
+   {
+    "t": "0999-01-01",
+    "gun": "389 H / 999",
+    "k": "fetih",
+    "b": "Horasan Gazneliler'in eline geçer (Gazne ordusu Sâmânîler'i yener)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "tanik": "Bu olayın ardından Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999).",
+    "ic_not": "TDV Horasan: 'X. yüzyılın sonlarına doğru Horasan Gazneliler’in eline geçti' (yıl belirtmez); 389/999 TDV Sâmânîler'deki savaş yılıdır — hicrî 389 ∩ 999 kesişiminin ilk günü; Sebük Tegin/Mahmud Horasan'da 385/995'te (TDV Gazneliler) Sâmânî adına çalışıyordu."
+   },
+   {
+    "t": "1040-01-01",
+    "gun": "431 H / 1040",
+    "k": "fetih",
+    "b": "Dandanakan Savaşı: Horasan bütünüyle Selçuklu toprağı olur",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Dandanakan Savaşı’nın (431/1040) ardından Horasan bütünüyle bir Selçuklu toprağı haline geldi",
+    "ic_not": "hicrî 431 ∩ 1040 kesişiminin ilk günü (1040-01-01); TDV Gazneliler: 428/1037 ve 429/1038'de Gazneli ordusu bozguna uğradı, 'Gazneliler’in Horasan’daki hâkimiyetlerine son verildi'."
+   },
+   {
+    "t": "1157-02-13",
+    "gun": "552 H / 1157",
+    "k": "diger",
+    "b": "Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti",
+    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü (tablo takvimi, Jülyen); Sencer'in ölüm günü TDV Horasan'da yok."
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "654 H / 1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol Hakanlığı → İlhanlılar (Horasan İlhanlı yönetimine bırakılır)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İlhanlılar’ın kuruluşundan (654/1256) sonra onların yönetimine bırakıldı",
+    "ic_not": "yıl düzeyinde (hicrî 654 = 30 Ocak 1256 Jülyen başlangıcı); atlas İlhanlı künyesi 1256-01-01."
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'BEHĀFARĪD', 'QOṬB-AL-DIN ḤAYDAR ZĀVI', 'ʿARAB iv' (gövde okundu); TDV'de yok. İlk anılış ZAYIF (geç kaynak). Kuruluş bulunamadı. Zincir: 749 BOŞLUK + Horasan bölge zinciri (Zāva Nîşâbur/Hvâf çevresi). Atlas 1281 ilhanli — uyumlu."
+ },
+ {
+  "id": "tursiz-ir",
+  "ad": "Turşiz (Kâşmer)",
+  "atlas_ad": "Turşiz (Kâşmer)",
+  "lat": 35.2383,
+  "lon": 58.4658,
+  "kat1900": 3,
+  "adlar": [
+   "Torşīz",
+   "Kešmīr/Kašmar (efsanevî servi köyü)",
+   "Kâşmer (Kashmar)"
+  ],
+  "ilk": {
+   "t": "1049-01-01",
+   "gun": "440/1049",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'AḤMAD-E JĀM', https://www.iranicaonline.org/articles/ahmad-e-jam/",
+   "tanik": "b. 440/1049 in Nāmaq, near Toršīz, Khorasan",
+   "ic_not": "İLK ANILIŞ (alt sınır, kuruluş değil): Iranica 'Aḥmad-e Jām': 440/1049'da Torşīz yakınındaki Nāmaq'ta doğdu — Torşīz'in TARİHLİ ilk bulunan anılışı (Ahmed-i Câm'ın doğumu; coğrafî ad olarak anılışı daha eskiye gidebilir). Kâşmer = Torşīz özdeşliği: Iranica 'ʿARAB iv': 'Arabs around both Toršīz (Kašmar) and Torbat-e Jām' (aynı yerler, ad değişikliği ~2 yüzyıl önce — Vikipedi'den; Iranica'da doğrulanmadı). Efsane: Gûştâsp'ın Zerdüşt'ten aldığı servi (Iranica 'CYPRESS': Kāšmar/Kešmīr — Bost rostâğının 'hamlet'i; Kâşmer şehrine özdeşliği belirsiz) ve Kâşmer ateşgâhı — gelenek, yazılmadı. Kuruluş bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1049-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'AḤMAD-E JĀM', https://www.iranicaonline.org/articles/ahmad-e-jam/; Encyclopaedia Iranica 'ISMAʿILISM xv', https://www.iranicaonline.org/articles/ismailism-xv-nezari-ismaili-monuments/",
+    "ic_not": "1049-1281 arası Torşīz'in sahibi tarihli tanıkla gösterilemedi (Kuhistan: Selçuklu, İsmâilî — Iranica 'ISMAʿILISM xv' Qohestān'ı İsmâilî devletinin parçası sayar, Torşīz'e özgü tanık yok; Hârizmşah Tekiş Cām/Bâkarz'ı 583/1187'de kardeşine devreder — bunlar Torşīz değil)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1049-01-01",
+    "gun": "440/1049",
+    "k": "diger",
+    "b": "Ahmed-i Câm Torşīz yakınındaki Nāmaq'ta doğar (Torşīz'in ilk tarihli anılışı).",
+    "kaynak": "Encyclopaedia Iranica 'AḤMAD-E JĀM', https://www.iranicaonline.org/articles/ahmad-e-jam/",
+    "tanik": "b. 440/1049 in Nāmaq, near Toršīz, Khorasan"
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica 'AḤMAD-E JĀM' ve 'ʿARAB iv' (gövde okundu); Iranica'da Torşīz/Kašmar maddesi bulunamadı; TDV'de yok. Kuruluş bulunamadı. İlk anılış zayıf (kişi doğum yeri). Zincir tek BOŞLUK.",
+  "dikis_beyan": "Atlas Turşiz (Kâşmer)'i 1281-01-01'de ilhanli ile başlatır; 1049-1281 arası ve 1281 geçişi için Torşīz'e özgü tarihli sahiplik tanığı bulunamadı."
+ },
+ {
+  "id": "tus-ir",
+  "ad": "Tûs",
+  "atlas_ad": "Tûs",
+  "lat": 36.4869,
+  "lon": 59.5222,
+  "kat1900": 3,
+  "adlar": [
+   "Susia (Yunanca, TDV)",
+   "Tûs",
+   "Tûs (Tâberân-Nûkān)"
+  ],
+  "ilk": {
+   "t": "0650-01-01",
+   "gun": "29/650",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus",
+   "tanik": "Tûs, Hz. Osman’ın Basra valisi Abdullah b. Âmir tarafından fethedildi (29/650).",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): TDV'de ilk TARİHLİ olgu İslâm fethi (29/650); hicrî 29 ∩ 650 kesişiminin ilk günü 650-01-01 (yıl düzeyi). Şehir daha eskidir: TDV 'Kuruluşu Büyük İskender dönemine kadar uzanır; Yunanca’da Susia' (tarihsiz) ve Pîşdâdîler/Cemşîd efsanesi (Müstevfî) — gelenek, kur YAZILMADI. Iranica (Khorasan iii): 'Tus was the oldest' (Sâsânî-Eftalit dönemi), kanārang valisi — tarihsiz. Sâsânî dönemi dilimi açılmadı: ilk tarihli tanık fetihtir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0650-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus; Horasan geneli: TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus; Horasan geneli: TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0821-05-06",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus; Horasan geneli: TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: 193 (809) Hârûnürreşîd Tûs'un Senâbâz köyünde ölür (olay listesi).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0821-05-06",
+    "t": "0873-08-01",
+    "d": "tahiri-horasan",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus; Horasan geneli: TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0873-08-01",
+    "t": "0900-01-07",
+    "d": "saffari",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true,
+    "boyasiz": true
+   },
+   {
+    "f": "0900-01-07",
+    "t": "0999-01-01",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus; Horasan geneli: TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: 336 (947) Sâmânî valisi Ebû Mansûr Muhammed b. Abdürrezzâk isyan eder (olay listesi).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "0999-01-01",
+    "t": "1040-01-01",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli.",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1040-01-01",
+    "t": "1157-02-13",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus; Horasan geneli: TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Bölge zinciri (Horasan): şehre özgü el değiştirme günü yok; sınır, Horasan genelinin kaynaklı olay günüdür (olay listesindeki künye/sınır olayları). Şehrin bu dönemde Horasan içinde olduğu şehir kaynağıyla teyitli. Şehre özgü: 465 (1072) Melikşah Tûs'u Nizâmülmülk'e iktâ eder (olay listesi).",
+    "bolge_zinciri": true
+   },
+   {
+    "f": "1157-02-13",
+    "t": "1220-07-02",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus; TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Sencer'in ölümünden (552/1157) Moğol alınışına (Nûkān, 28 Rebîülâhir 617) kadar Tûs'un sahibini gösteren tarihli tanık bulunamadı. TDV Horasan: Oğuzlar, Müeyyed Ay-aba, Gurlular, Hârizmşahlar sırası (tarihsiz, Tûs'a özgü değil); TDV Hârizmşahlar: 'Merv ve Tûs’u zapteden Gurlular' (tarihsiz); TDV Tûs: 510 (1116) Muharrem'inde Sünnî-Şiî tartışması (sahiplik göstermez). Beyansız yaklaşıklık yazılmadı."
+   },
+   {
+    "f": "1220-07-02",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus",
+    "ic_not": "Nûkān'ın alındığı gün (2 Temmuz 1220); Tûs'un son istihkâmları Tuluy'a düştü. 1221 baharı Tuluy Tûs köylerini ele geçirdi (TDV Tûs)."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "ic_not": "Moğol Hakanlığı'ndan İlhanlılar'a künye geçişi (olay: 1256-01-01); atlas Tûs'u 1281'de İlhanlı olarak başlatır, dikiş sorunu yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0804-01-01",
+    "gun": "188 / 804",
+    "k": "isyan",
+    "b": "Nesâ'da ayaklanan Ebü'l-Hasîb Vüheyb Tûs'u ve bölgenin öteki şehirlerini kontrol altına alır (Abbâsî vali İbn Mâhân'a karşı).",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus",
+    "tanik": "Ebü’l-Hasîb Vüheyb b. Abdullah kısa sürede Tûs’u ve bölgenin diğer şehirlerini kontrol altına aldı.",
+    "ic_not": "TDV 188 (804); TDV Serahs aynı isyanı 799-802 aralığında ve ölümünü 186 (802) olarak verir — TDV'nin kendi içinde çelişkisi, burada Tûs maddesindeki yıl alındı."
+   },
+   {
+    "t": "0809-01-01",
+    "gun": "193 / 809",
+    "k": "diger",
+    "b": "Abbâsî Halifesi Hârûnürreşîd Tûs'un Senâbâz köyünde ölür ve orada defnedilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus",
+    "tanik": "Abbâsî Halifesi Hârûnürreşîd, Tûs’un Senâbâz köyünde vefat edip oraya defnedildi.",
+    "ic_not": "Gün TDV Tûs'ta yok (yıl düzeyi)."
+   },
+   {
+    "t": "0947-07-23",
+    "gun": "336 / 947",
+    "k": "isyan",
+    "b": "Bölge valisi Ebû Mansûr Muhammed b. Abdürrezzâk (Sâmânî valisi) isyan çıkarır, Tûs'u terk edip sonra geri döner.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus",
+    "tanik": "336’da (947) bölgenin valisi Ebû Mansûr Muhammed b. Abdürrezzâk isyan çıkardı"
+   },
+   {
+    "t": "1072-09-17",
+    "gun": "465 / 1072",
+    "k": "diger",
+    "b": "Selçuklu Sultanı Melikşah, Tûs'u da içeren yerleri Nizâmülmülk'e iktâ eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus",
+    "tanik": "Selçuklu Sultanı Melikşah, Nizâmülmülk’e aralarında doğum yeri olan Tûs’un da bulunduğu bazı yerleri iktâ etti"
+   },
+   {
+    "t": "1220-07-02",
+    "gun": "28 Rebîülâhir 617 / 2 Temmuz 1220",
+    "k": "fetih",
+    "b": "Tûs'un son istihkâmı Nûkān Moğollar'a (Tuluy öncüleri) düşer; Moğol hâkimiyeti başlar.",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tûs), https://islamansiklopedisi.org.tr/tus",
+    "tanik": "Nûkān şiddetle karşı koyduysa da 28 Rebîülâhir 617 (2 Temmuz 1220) tarihinde ele geçirildi.",
+    "ic_not": "Nûkān, Tûs'un iki mahallesinden biridir (TDV: Tâberân ve Nûkān); TDV gün + miladî karşılığı birlikte verir."
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "25 Rebîülevvel 41 / 29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'ye biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Muâviye b. Ebû Süfyân), https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)."
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe'de biat)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Abbâsîler), https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi."
+   },
+   {
+    "t": "0821-05-06",
+    "gun": "29 Zilkade 205 / 6 Mayıs 821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valiliğine kendini tayin ettirir (Tâhirîler başlangıcı)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Tâhir b. Hüseyin), https://islamansiklopedisi.org.tr/tahir-b-huseyin",
+    "tanik": "29 Zilkade 205’te (6 Mayıs 821) kendini Horasan valiliğine tayin ettirdi."
+   },
+   {
+    "t": "0873-08-01",
+    "gun": "Şevval 259 / Ağustos 873",
+    "k": "fetih",
+    "b": "Yakub b. Leys Nîşâbur'u alır, Tâhirîler'in Horasan idaresi sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Saffârîler), https://islamansiklopedisi.org.tr/saffariler",
+    "tanik": "Nîşâbur’u istilâ edip Tâhirîler’in buradaki idaresine son verdi (Şevval 259 / Ağustos 873)."
+   },
+   {
+    "t": "0900-01-07",
+    "gun": "287 H / 900",
+    "k": "fetih",
+    "b": "Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener, Horasan Sâmânîler'e geçer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İsmâil b. Ahmed’in 287’de (900) Amr b. Leys’i yenmesiyle de Sâmânîler’in yönetimine geçti"
+   },
+   {
+    "t": "0999-01-01",
+    "gun": "389 H / 999",
+    "k": "fetih",
+    "b": "Horasan Gazneliler'in eline geçer (Gazne ordusu Sâmânîler'i yener)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Sâmânîler), https://islamansiklopedisi.org.tr/samaniler",
+    "tanik": "Bu olayın ardından Gazne ordusuyla yapılan savaş Sâmânîler’in yenilgisiyle sonuçlandı (389/999).",
+    "ic_not": "TDV Horasan: 'X. yüzyılın sonlarına doğru Horasan Gazneliler’in eline geçti' (yıl belirtmez); 389/999 TDV Sâmânîler'deki savaş yılıdır — hicrî 389 ∩ 999 kesişiminin ilk günü; Sebük Tegin/Mahmud Horasan'da 385/995'te (TDV Gazneliler) Sâmânî adına çalışıyordu."
+   },
+   {
+    "t": "1040-01-01",
+    "gun": "431 H / 1040",
+    "k": "fetih",
+    "b": "Dandanakan Savaşı: Horasan bütünüyle Selçuklu toprağı olur",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Dandanakan Savaşı’nın (431/1040) ardından Horasan bütünüyle bir Selçuklu toprağı haline geldi",
+    "ic_not": "hicrî 431 ∩ 1040 kesişiminin ilk günü (1040-01-01); TDV Gazneliler: 428/1037 ve 429/1038'de Gazneli ordusu bozguna uğradı, 'Gazneliler’in Horasan’daki hâkimiyetlerine son verildi'."
+   },
+   {
+    "t": "1157-02-13",
+    "gun": "552 H / 1157",
+    "k": "diger",
+    "b": "Sencer'in ölümü; Büyük Selçuklu Devleti'nin Horasan'daki hâkimiyeti sona erer",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın Horasan’daki tahribatı devam etti",
+    "ic_not": "hicrî 552 ∩ 1157 kesişiminin ilk günü (tablo takvimi, Jülyen); Sencer'in ölüm günü TDV Horasan'da yok."
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "654 H / 1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol Hakanlığı → İlhanlılar (Horasan İlhanlı yönetimine bırakılır)",
+    "kaynak": "TDV İslâm Ansiklopedisi (Horasan), https://islamansiklopedisi.org.tr/horasan",
+    "tanik": "İlhanlılar’ın kuruluşundan (654/1256) sonra onların yönetimine bırakıldı",
+    "ic_not": "yıl düzeyinde (hicrî 654 = 30 Ocak 1256 Jülyen başlangıcı); atlas İlhanlı künyesi 1256-01-01."
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Tûs (gövde curl ile okundu); Iranica Khorasan iii/iv (Tus eski şehir, kanārang, Arap garnizonu). Kuruluş/ilk iskân: bulunamadı (TDV tarihsiz gelenek). Sahip zinciri: 650'den İlhanlı'ya kadar Horasan bölge zinciri (TDV Horasan) + Tûs'a özgü olaylar; 1157-1220 arası BOŞLUK (Tûs için tarihli sahip tanığı yok). Timur 1389'da yıktı, Meşhed yerini aldı (TDV; 1281 sonrası, zincire girmez). Atlas noktası Tus kalıntılarındadır (Meşhed'in ~25 km KB'sı)."
  },
  {
   "id": "ulm-de",
