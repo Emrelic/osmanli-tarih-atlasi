@@ -5500,6 +5500,50 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Kuruluş bulunamadı. Atlas Cahors 1281 'fransa' — uyumlu. 1271 yıl hassasiyeti (gerçek Alphonse de Poitiers'nin ölümü 1271 Ağustos, kaynaklanmadı). Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
  },
  {
+  "id": "cakovec-hr",
+  "ad": "Čakovec (Csáktornya)",
+  "atlas_ad": "Čakovec (Csáktornya)",
+  "lat": 46.3844,
+  "lon": 16.4339,
+  "kat1900": 3,
+  "adlar": [
+   "Chakthornya",
+   "Čakova kula",
+   "Csáktornya",
+   "Čakovec"
+  ],
+  "ilk": {
+   "t": "1300-01-01",
+   "gun": "13. yüzyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija (LZMK) 'Čakovec' (https://www.enciklopedija.hr/clanak/cakovec)",
+   "tanik": "u XIII. st. podignula je utvrdu (Chakthornya – Čakova kula)",
+   "ic_not": "KURULUŞ (Csák ailesinin kalesi, 13. yy; yüzyıl kesinliği, güvenli uç 1300-01-01 = atlas başlangıcı 1281'den SONRA). İlk yazılı anılış 1328 (HR: 'Prvi spomen grada Čakovca potječe iz 1328.') da 1281'den sonradır. 1281 öncesi tanık bulunamadı -> ZİNCİR BOŞ. Kuruluşun 1281 öncesine düştüğü varsayılabilir (13. yy içinde) ama tarih yok. MKL 'Csáktornya' yalnız 1376 Pavlus manastırından söz eder."
+  },
+  "kur": {
+   "t": "1300-01-01",
+   "gun": "13. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija (LZMK) 'Čakovec' (https://www.enciklopedija.hr/clanak/cakovec)",
+   "tanik": "u XIII. st. podignula je utvrdu (Chakthornya – Čakova kula)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1328-01-01",
+    "gun": "1328",
+    "k": "diger",
+    "b": "Čakovec şehri ilk yazılı anılış",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Čakovec' (https://www.enciklopedija.hr/clanak/cakovec)",
+    "tanik": "Prvi spomen grada Čakovca potječe iz 1328."
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ/KAYNAKSIZ: atlas Čakovec'i 1281-01-01'de macaristan ile başlatıyor, ama açılan kaynaklarda yerleşime tarihli ilk tanık 1328 (kale kuruluşu 13. yy, tarihsiz). Zincir boş."
+ },
+ {
   "id": "calais-fr",
   "ad": "Calais",
   "atlas_ad": "Calais",
@@ -25353,6 +25397,117 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış: Caesar BG 7.3 'Cenabum' (MÖ 52; yıl Treccani Vercingetorige: 'organizzò (52) ... la ribellione'). Treccani Cenabum=Genabum=Orléans eşitlemesini tartışır (Gien ihtimali reddedilir; Cesare 'Genabum Carnutum'). Orléans'ta BG 7.3 bir katliam sahnesi — şehir var, ama tanık olay-öncelikli. Modern nokta Roma kentiyle aynı. İki olay (isyan, fetih) aynı yıl içinde; gün kaynakta yok. Orléans 1281 sonrası atlasta zaten 'fransa' (1281-1792); zincir uyumlu."
  },
  {
+  "id": "osijek-hr",
+  "ad": "Ösek (Osijek)",
+  "atlas_ad": "Ösek (Osijek)",
+  "lat": 45.554,
+  "lon": 18.695,
+  "kat1900": 3,
+  "adlar": [
+   "Mursa",
+   "Colonia Aelia Mursa",
+   "Eszék",
+   "Essegg",
+   "Osijek",
+   "Ösek"
+  ],
+  "ilk": {
+   "t": "0001-01-01",
+   "gun": "1. yüzyıl başı",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek)",
+   "tanik": "početkom I. st. osvojili Rimljani i ondje osnovali naselje utvrđeno",
+   "ic_not": "KURULUŞ (Roma tahkimli yerleşimi Mursa, Donji grad bölgesinde; öncül İliri-Kelt yerleşimi MÖ 3. yy). t=0001-01-01 YER TUTUCU (yüzyıl kesinliği). Mursa'nın ortaçağ Osijek'iyle sürekliliği YOK: HR 'X. ve XI. yy'da antik Mursa kalıntılarının batısında yeni yerleşim doğdu'. Mursa Donji grad'ın içindedir (Osijek merkezine ~2 km tahmin, ÖLÇÜLMEDİ); > 3 km ise Mursa ayrı kayıt olmalı. Çift teyit YOK; Latince yazılı tanık (Mursa) açılmadı."
+  },
+  "kur": {
+   "t": "0001-01-01",
+   "gun": "1. yüzyıl başı",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek)",
+   "tanik": "početkom I. st. osvojili Rimljani i ondje osnovali naselje utvrđeno"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0001-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek)",
+    "ic_not": "II. yy kolonia (Colonia Aelia Mursa), Aşağı Pannonia valiliği merkezi; 350 Vetranio, 351 Mursa muharebesi. Dönem sonu künye gününden."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0441-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek)",
+    "ic_not": "Şehir VAR (IV. yy sonu Gotlar tahrip eder, 441'de Hunlar yıkar); 395 sonrası sahibi kaynakta yok (Batı/Doğu Roma, Hun). Bitiş 441: HR 'a 441. razorili Huni'."
+   },
+   {
+    "f": "0441-01-01",
+    "t": "1196-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek)",
+    "ic_not": "HR: VI. yy sonunda Avar ve Slavlar bölgeye yerleşir; X-XI. yy'da antik kalıntıların BATISINDA yeni yerleşim doğar (tarihsiz). Bu aralıkta yerleşimin var olup olmadığı ve sahibi kaynakta yok. Bitiş 1196: ortaçağ Osijek'in ilk yazılı anılışı (f en geç tanıktan)."
+   },
+   {
+    "f": "1196-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek) ; MKL 'Eszék' (https://lexikon.katolikus.hu/E/Eszék.html)",
+    "ic_not": "1196: Macar-Hırvat kralı Emerich belgesi (Cikador manastırı). Atlas dikişi: atlas 1281'de macaristan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0200-01-01",
+    "gun": "2. yüzyıl",
+    "k": "idari",
+    "b": "Mursa Colonia Aelia Mursa statüsü alır (güvenli uç 2. yy sonu)",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek)",
+    "tanik": "U II. st. naselje je dobilo status kolonije (Colonia Aelia Mursa)"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu -> Batı Roma (Theodosios'un ölümü, imparatorluk ikiye ayrılır)",
+    "kaynak": "TDV 'Bizans' (https://islamansiklopedisi.org.tr/bizans)",
+    "tanik": "Doğu ve Batı Roma olmak üzere ikiye ayrıldı"
+   },
+   {
+    "t": "0441-01-01",
+    "gun": "441",
+    "k": "savas",
+    "b": "Hunlar Mursa'yı yıkar",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek)",
+    "tanik": "a 441. razorili Huni"
+   },
+   {
+    "t": "1100-01-01",
+    "gun": "10.-11. yüzyıl",
+    "k": "kurulus",
+    "b": "Antik Mursa'nın batısında yeni yerleşim doğar (güvenli uç 11. yy sonu)",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek)",
+    "tanik": "zapadno od ruševina antičke Murse, izraslo je novo naselje"
+   },
+   {
+    "t": "1196-01-01",
+    "gun": "1196",
+    "k": "diger",
+    "b": "Osijek ticaret yeri ve Drava limanı olarak ilk yazılı anılış (Cikador manastırının iskelesi ve pazarı)",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Osijek' (https://www.enciklopedija.hr/clanak/osijek) ; MKL 'Eszék' (https://lexikon.katolikus.hu/E/Eszék.html)",
+    "tanik": "prvi se put spominje 1196. u ispravi hrvatsko-ugarskoga kralja Emerika Arpadovića || 1196: Ezeek, piaca és réve a cikádori apátságé volt"
+   }
+  ],
+  "ic_not": "1196 ilk anılış çift teyitli (HR + MKL). MKL 1332'de 'mezőváros' der (sonraki). Atlas 1281 macaristan ile dikiş uyumlu."
+ },
+ {
   "id": "oviedo-es",
   "ad": "Oviedo",
   "atlas_ad": "Oviedo",
@@ -25892,6 +26047,86 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "MKL: Taksony Müslüman tüccar yerleştirdi; 1220 civarı Almanlar yerleşti; 1292 en eski mühür. Buda'nın TDV maddesi 'Budin' Pest'i 'Peşte bk. Budin' ile Buda'ya yönlendirir (TDV'de Pest ayrı madde yok)."
+ },
+ {
+  "id": "petrovaradin-hu",
+  "ad": "Varadin (Petrovaradin)",
+  "atlas_ad": "Varadin (Petrovaradin)",
+  "lat": 45.248,
+  "lon": 19.862,
+  "kat1900": 3,
+  "adlar": [
+   "Cusum",
+   "Petricum",
+   "Petrikon",
+   "Pétervárad",
+   "Bélakút (Belae Fons)",
+   "Peterwardein",
+   "Petrovaradin",
+   "Varadin"
+  ],
+  "ilk": {
+   "t": "0001-01-01",
+   "gun": "1. yüzyıl",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV 'Varadin' (https://islamansiklopedisi.org.tr/varadin)",
+   "tanik": "Romalılar tarafından I. yüzyıla doğru genişletilerek Cusum adıyla sürekli asker bulundurulan bir üs haline getirildi",
+   "ic_not": "ARKEOLOJİK/ROMA ASKERÎ ÜSSÜ (Cusum): TDV 'Mithra kalıntılarının mevcut olduğu yer' ve 'I. yüzyıla doğru' der; t=0001-01-01 YER TUTUCU (yüzyıl kesinliği; 'doğru' = yaklaşık, belirsiz). Cusum'un Roma yazılı kaynaklardaki ilk anılışı (Itinerarium/Tabula Peutingeriana) bu oturumda AÇILMADI -> yazılı tanık bulunamadı, bu yüzden 'arkeolojik'. Süreklilik: TDV V. yy'da Hun hâkimiyeti, 'I. Haçlı Seferi sırasında Petricum' der; Roma ile ortaçağ arası kesinti/süreklilik kaynakta yok. Ortaçağ yazılı tanıkları: MKL 1198 'Szt György plébánia: már említik' (Pétervárad maddesi; hangi cemaat olduğu açık değil) ve 1234 Bélakút manastırı kuruluşu. Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0001-01-01",
+   "gun": "1. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV 'Varadin' (https://islamansiklopedisi.org.tr/varadin)"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0001-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV 'Varadin' (https://islamansiklopedisi.org.tr/varadin)",
+    "ic_not": "Dönem sonu künye gününden; TDV Cusum'un Roma üssü olduğunu söyler, Roma'nın bu noktadaki bitiş tarihini vermez."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1234-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV 'Varadin' (https://islamansiklopedisi.org.tr/varadin) ; MKL 'Pétervárad' (https://lexikon.katolikus.hu/P/P%C3%A9terv%C3%A1rad.html)",
+    "ic_not": "Varlığı ve sahibi kaynakta tarihli değil: TDV V. yy Hun hâkimiyeti, Bizans-Macar savaşlarında Petrikon, 'kısa bir süre Bizans egemenliği' sonra Macar idaresi (tarihsiz). Bitiş 1234: MKL, IV. Béla'nın 1234'te Gurwey Péter'in müsadere edilmiş kalesinde Bélakút manastırını kurması = en geç Macar tanığı (f en geç tanıktan). Aradaki süre > 1 kuşak -> BILINMIYOR."
+   },
+   {
+    "f": "1234-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Pétervárad' (https://lexikon.katolikus.hu/P/P%C3%A9terv%C3%A1rad.html) ; TDV 'Varadin' (https://islamansiklopedisi.org.tr/varadin)",
+    "ic_not": "MKL 1234/1237 kuruluş ve imtiyaz; TDV 1237 Cistercian bağışı. Atlas dikişi: atlas 1281'de macaristan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1234-01-01",
+    "gun": "1234",
+    "k": "kurulus",
+    "b": "IV. Béla (dük iken) Pétervárad'daki kalede Bélakút Sistersiyen manastırını kurar",
+    "kaynak": "MKL 'Pétervárad' (https://lexikon.katolikus.hu/P/P%C3%A9terv%C3%A1rad.html)",
+    "tanik": "Gurwey Péternek elkobzott várában és birtokaiból ciszt. apátságot alapított"
+   },
+   {
+    "t": "1237-01-01",
+    "gun": "1237",
+    "k": "idari",
+    "b": "Kale ve şehir IV. Béla tarafından Sistersiyenlere bağışlanır",
+    "kaynak": "TDV 'Varadin' (https://islamansiklopedisi.org.tr/varadin)",
+    "tanik": "IV. Kral Bela tarafından Cistercians rahiplerine bağışlandı (1237)."
+   }
+  ],
+  "ic_not": "Cusum = Petrovaradin kalesi (TDV aynı yer der); modern nokta ile aynı, > 3 km sorunu yok. 1198 MKL 'Szt György plébánia: már említik' olayı yazılmadı (cemaatin Petrovaradin olduğu kesin değil)."
  },
  {
   "id": "pingyao-cin",
@@ -26573,6 +26808,154 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Porto: ilk tarihli tanık 456 (Treccani'nin aktardığı Theoderic II alışı; Hydatius adı geçiyor ama kronik sayfası açılamadı). 456-585 BOŞLUK. Arap dönemi başlangıcı ve Portekiz kontluğu (≈1096) için günlü kaynak yok; atlas 1281 'portekiz' uyumlu. Çift teyit yok."
+ },
+ {
+  "id": "ptuj-si",
+  "ad": "Ptuj (Pettau)",
+  "atlas_ad": "Ptuj (Pettau)",
+  "lat": 46.42,
+  "lon": 15.87,
+  "kat1900": 3,
+  "adlar": [
+   "Poetovio",
+   "Colonia Ulpia Traiana Poetovio",
+   "Pettau",
+   "Ptuj"
+  ],
+  "ilk": {
+   "t": "0001-01-01",
+   "gun": "1. yüzyıl başı",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+   "tanik": "Na mjestu keltskog naselja Rimljani su poč. I. st. podignuli utvrđeno naselje",
+   "ic_not": "KURULUŞ (Roma tahkimli yerleşimi, Kelt yerleşiminin yerinde). 'poč. I. st.' = Kr. u. 1. yüzyıl başı; t=0001-01-01 YER TUTUCU (yüzyıl kesinliği). Kaynak Hırvat ansiklopedisi (LZMK); Sloven kaynağı (Enciklopedija Slovenije / Šašel Kos) bu oturumda AÇILAMADI. Web arama özetinde (doğrulanmadı) Legio VIII Augusta'nın 1. yy başından, Legio XIII Gemina'nın 45/46'dan itibaren Poetovio'da bulunduğu, kolonilik tarihinin kaynağa göre 98-103 arası verildiği görüldü — akademik metin açılmadığı için yazılmadı. Tacitus Hist. III.1 (The Latin Library) Poetovio'yu 'Poetovionem in hiberna tertiae decimae legionis' diye anar ama yıl vermez. Çift teyit YOK."
+  },
+  "kur": {
+   "t": "0001-01-01",
+   "gun": "1. yüzyıl başı",
+   "kesinlik": "yuzyil",
+   "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+   "tanik": "Na mjestu keltskog naselja Rimljani su poč. I. st. podignuli utvrđeno naselje"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0001-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "ic_not": "Kaynak 'Panonije' içinde rimsko naselje der; dönem sonu künye gününden (395-01-17) alındı, Ptuj'a özgü el değiştirme tanığı yok."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0577-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "ic_not": "Şehir VAR (452'de Hunlar yağmalar), sahibi kaynakta yok (Batı Roma / Hun / Got / Avar parçalanması kaynakla Ptuj'a bağlanmadı). 'Prije 577.' = 577 öncesi Avar-Slav yıkımı (güvenli uç)."
+   },
+   {
+    "f": "0577-01-01",
+    "t": "0796-01-01",
+    "d": "__YOK__",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "ic_not": "Kaynak: 577 öncesi Avarlar ve Slavlar yıkar, Franklar 796'da yeniden kurar (obnovili) -> kesinti kaynaklı. Aynı noktada Poetovio=Ptuj (modern şehir antik yerin üstünde, > 3 km sorunu yok)."
+   },
+   {
+    "f": "0796-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)"
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0977-01-01",
+    "d": "dogu-francia",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "ic_not": "Kaynak: 843'te 'istočnog područja franačke države, tj. srednjovjekovne Njemačke'. Künye dogu-francia 962'de biter; 962-977 arası aynı polity (Alman Krallığı/Kutsal Roma) sürer -> künye genişletme önerisi (962 sonrası almanya künyesi 962-02-02'de açılıyor ama olay tanığı yok, bu yüzden dogu-francia 977'ye uzatıldı = BEYANLI YAKLAŞIKLIK)."
+   },
+   {
+    "f": "0977-01-01",
+    "t": "1281-01-01",
+    "d": "salzburg-prens-basepiskoposlugu",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "ic_not": "977: Salzburg senyörlüğünün merkezi olur (HR enc.). Künye salzburg-prens-basepiskoposlugu f=1000-01-01 -> 977'ye GENİŞLETME önerisi (aynı polity). 'vlastelinstvo' toprak senyörlüğüdür, Salzburg'un dünyevî hâkimiyeti beyanlı. Atlas dikişi: atlas 1281'de aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu -> Batı Roma (Theodosios'un ölümü, imparatorluk ikiye ayrılır)",
+    "kaynak": "TDV 'Bizans' (https://islamansiklopedisi.org.tr/bizans)",
+    "tanik": "Doğu ve Batı Roma olmak üzere ikiye ayrıldı"
+   },
+   {
+    "t": "0106-01-01",
+    "gun": "103-106",
+    "k": "diger",
+    "b": "Poetovio Roma kolonisi statüsü alır (Colonia Ulpia Traiana Poetovio); güvenli uç 106",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "tanik": "Između 103. i 106. naselje je dobilo status rimske kolonije"
+   },
+   {
+    "t": "0452-01-01",
+    "gun": "452",
+    "k": "savas",
+    "b": "Hunlar şehri yağmalar",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "tanik": "Grad su 452. opljačkali Huni."
+   },
+   {
+    "t": "0577-01-01",
+    "gun": "577 öncesi",
+    "k": "savas",
+    "b": "Avarlar ve Slavlar şehri yıkar (577 öncesi, güvenli uç 577)",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "tanik": "Prije 577. uništili su ga Avari i Slaveni."
+   },
+   {
+    "t": "0796-01-01",
+    "gun": "796",
+    "k": "diger",
+    "b": "Franklar Avar savaşları sırasında şehri yeniden kurar",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "tanik": "Obnovili su ga Franci 796. tijekom ratova s Avarima"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "diger",
+    "b": "künye geçişi: Frank -> Doğu Francia (Verdun bölüşümü sonrası)",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "tanik": "Pod franačkom vlašću naselje je ostalo do 843."
+   },
+   {
+    "t": "0977-01-01",
+    "gun": "977",
+    "k": "idari",
+    "b": "Ptuj Salzburg senyörlüğünün Drava Ovası merkezi olur",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "tanik": "Od 977. do 1555. bilo je središte salzburškoga vlastelinstva u Dravskom polju."
+   },
+   {
+    "t": "1250-01-01",
+    "gun": "1250 civarı",
+    "k": "idari",
+    "b": "Ptuj ilk ayrıcalıklarını alır",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Ptuj' (https://www.enciklopedija.hr/clanak/ptuj)",
+    "tanik": "Prve privilegije Ptuj je dobio oko 1250."
+   }
+  ],
+  "ic_not": "Roma Poetovio ile modern Ptuj aynı nokta. Zincir 'Hırvat ansiklopedisi'ne dayanır (tek kaynak); Sloven akademik kaynağı AÇILAMADI -> çift teyit YOK. Atlas ilk sahibi salzburg-prens-basepiskoposlugu @1281 ile dikiş uyumlu. Künye önerisi: salzburg f 1000 -> 977, dogu-francia t 962 -> 977 (ya da almanya f 962 olay desteğiyle)."
  },
  {
   "id": "pusan-kr",
@@ -30851,6 +31234,124 @@ window.SEHIR_TARIHCE_K3 = [
   "dikis_beyan": "Atlas Sicilmâse'yi 1274-01-01'de 'merini' ile başlatıyor; zincirin son sahibi 'zeyyani' (Abdülvâdî; 1263-64'ten). Merînî geri alma Safer 673 = ~1274-08-06 (Ibn Haldûn) / 673 H (TDV) — atlas günü kaynaktan ~7 ay önce, yer tutucu olay yazılmadı."
  },
  {
+  "id": "sopron-hu",
+  "ad": "Sopron",
+  "atlas_ad": "Sopron",
+  "lat": 47.685,
+  "lon": 16.59,
+  "kat1900": 3,
+  "adlar": [
+   "Scarbantia",
+   "Scarabantia Iulia",
+   "Supruniensis (castrum)",
+   "Ödenburg",
+   "Sopron"
+  ],
+  "ilk": {
+   "t": "0001-01-01",
+   "gun": "1. yüzyıl başı",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+   "tanik": "a Kr. u. 1. sz. elején kereskedőkből és kiszolgált katonákból álló csop. telepedett meg",
+   "ic_not": "KURULUŞ (Roma yerleşimi Scarbantia, MKL: Kr. u. 1. yy başında tüccar ve emekli askerler yerleşti; 'vsz. kelta eredetű szóval Scarbantiának'). t=0001-01-01 YER TUTUCU (yüzyıl kesinliği). Yazılı ikinci tanık: Plinius NH III.146 'oppido Scarabantia Iulia' (tarih metinde yok, yazılmadı). Modern belvárosun altında -> > 3 km sorunu yok. Çift teyit YOK (tarih için)."
+  },
+  "kur": {
+   "t": "0001-01-01",
+   "gun": "1. yüzyıl başı",
+   "kesinlik": "yuzyil",
+   "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+   "tanik": "a Kr. u. 1. sz. elején kereskedőkből és kiszolgált katonákból álló csop. telepedett meg"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0001-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "ic_not": "MKL: municipium, Borostyánkő út durağı; 374 Kvad istilasıyla Roma yönetimi/şehir hayatı 'fokozatosan' sona erer. Dönem sonu künye gününden."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1038-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "ic_not": "MKL: 374 sonrası Roma yönetimi ve şehir hayatı kademeli bitti; Gotlar, Hunlar, Avarlar bölgede yaşadı, Macarlar 9. yy'da göründü; 11. yy'a kadar Roma kentinin yerinde varlık sürekliliği AÇILAN kaynakta gösterilmedi. Bitiş 1038: 'comitatus castri Supruniensis' ilk anılışının (1000-38) güvenli ucu (f en geç tanıktan)."
+   },
+   {
+    "f": "1038-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "ic_not": "f 1038: ilk anılış aralığının (1000-38) SON ucu = en geç tanık; Macar Krallığı 1000'den beri var, 1000-1038 arası BILINMIYOR'da bırakıldı. Atlas dikişi: atlas 1281'de macaristan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0374-01-01",
+    "gun": "374",
+    "k": "diger",
+    "b": "Kvad istilası; Roma idaresi ve şehir hayatı kademeli sona erer",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "tanik": "374: a kvád betörést követően fokozatosan megszűnt a róm. közigazg., a városi élet"
+   },
+   {
+    "t": "1038-01-01",
+    "gun": "1000-1038",
+    "k": "diger",
+    "b": "Sopron várispánlığı (castrum Supruniense) ilk anılış, I. István dönemi (güvenli uç 1038)",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "tanik": "Első említése 1000-38: comitatus castri Supruniensis"
+   },
+   {
+    "t": "1153-01-01",
+    "gun": "1153",
+    "k": "diger",
+    "b": "İdrisî Sopron'u 'önemli şehir' diye tarif eder",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "tanik": "jelentős város, melynek megművelt és termékeny környéke, látogatott vásárai"
+   },
+   {
+    "t": "1225-01-01",
+    "gun": "1225",
+    "k": "diger",
+    "b": "Kraliyet tuz deposu: Salinarii de Suprun",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "tanik": "1225: Salinarii de Suprun"
+   },
+   {
+    "t": "1247-01-01",
+    "gun": "1247",
+    "k": "diger",
+    "b": "IV. Béla Tatar istilası ve birkaç aylık Avusturya işgali sonrası Sopron'a Yohannitleri yerleştirir",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "tanik": "tatár, majd az azt követő néhány hónapos osztrák uralom tapasztalataitól indíttatva"
+   },
+   {
+    "t": "1269-01-01",
+    "gun": "1269",
+    "k": "diger",
+    "b": "Civitas Supruniensis olarak anılır",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "tanik": "1269: Civitas Supruniensis"
+   },
+   {
+    "t": "1277-01-01",
+    "gun": "1277",
+    "k": "idari",
+    "b": "IV. (Kun) László surlu Sopron'u ispan yargısından çıkarıp şehir rütbesine yükseltir",
+    "kaynak": "MKL 'Sopron' (https://lexikon.katolikus.hu/S/Sopron.html)",
+    "tanik": "s városi rangra emelte"
+   }
+  ],
+  "ic_not": "Roma Scarbantia -> 395 sonrası kesinti? MKL şehir hayatının bittiğini söyler ama 'Pannonia'nın başka şehirleri gibi' süreklilik iddiası yok; bu yüzden 395-1038 BILINMIYOR. Atlas Sopron'u 1281 macaristan ile başlatır: zincir aynı sahiple biter. Vikipedi kullanılmadı."
+ },
+ {
   "id": "stettin-de",
   "ad": "Stettin (Szczecin)",
   "atlas_ad": "Stettin (Szczecin)",
@@ -31868,6 +32369,371 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Suzhou (atlas_ad 'Suzhou', kat1900 3; atlas ilk gün 1281-01-01 yuan-hanedani). ① YER: atlas noktası (31.299, 120.585) Suzhou eski şehridir (Song Pingjiang fu surları içi; Pan/Chang/Xu/Lou kapıları). Eski şehir = Helü'nün 'büyük şehri' eşitlemesi KAYNAKLA ÇAĞDAŞ DEĞİL: Wujun tujing xuji (Zhu Changwen, 1084) '闔廬城，即今郡城也 ... 郡城之狀，如亞字'; Wuzhi 3 (Fan Chengda, 1229) '闔閭城，吳王闔閭自梅里徙都，即今郡城' + 8 kapının adları (閶, 胥, 盤, 蛇, 婁, 匠, 齊, 平) ve Tang'da 8 kapı açık; Tang tanığı: Jiu Tang Shu 40 'Wude 7 ... 治于故吳城'. ② ZİNCİR BAŞI = MÖ 514 GELENEK (Brif yönergesi): Wu Yue chunqiu (Doğu Han) Helü neizhuan 'Helü 1. yıl ... 造築大城, çevre 47 li' + Shiji 31 'Helü 1. yıl'. Gelenek tarihi ile ARKEOLOJİK/AKADEMİK tarih ayrı: arkeolojik doğrulama BULUNAMADI (OpenAlex: ZHANG Li & WU Jianping, National Remote Sensing Bulletin 2005, 'Investigation and Prediction of the Capital Position of the Wu's in the Spring and Autumn Period by Means of Remote Sensing', doi 10.11834/jrs.20050589 — yalnız Çince özet açıldı: Suzhou/Taihu bölgesinde uzaktan algılamayla Wu başkenti izinin yerini 'tahmin eder', kazı için referans önerir; kesin saptama yok). Muhafazakâr alternatif başlangıç (yeri-kesin ilk YAZILI tanık): MÖ 209 (Shiji 7: Xiang Liang Kuaiji valisini Wu'da öldürür, '吳中兵') ya da MÖ 222 (Kuaiji jun, merkez Wu: Wuzhi 1). Karar Emre'nindir; bu kayıtta gelenek ilk/kur olarak yazıldı ve her gelenek-bağımlı dönemde ic_not'ta etiketlendi. ③ ZİNCİR ÖZETİ: Wu (gelenek MÖ 514 – MÖ 473, kunye_yok wu-devleti-zhou) → Yue (MÖ 473 – ~MÖ 333, kunye_yok yue-devleti-zhou) → Chu (MÖ 333 güvenli uç – MÖ 222) → Qin devleti (MÖ 222) → Qin imparatorluğu (MÖ 221) → MÖ 209 Xiang Liang isyanı → __BOSLUK__ (MÖ 209 – MÖ 202; Xi Chu Wu'yu kapsıyor mu yazılı değil; künye yok) → Batı Han (MÖ 202, Gaozu; Kuaiji/Wu Han vasal krallıkları içinde) → Xin (9) → __BOSLUK__ (23-10-06 – 25-08-05; Changsha kaydındaki gibi) → Doğu Han → Sun Wu (220-11-25) → Batı Jin (280-05-01) → Doğu Jin (316-12-11) → Liu Song (420) → Güney Qi (479) → Liang (502) → Chen (557) → Sui (589-02-02) → 591-01-01'de __BILINMIYOR__ (aşağıda ④) → Tang (624) → Wu Zhou (690) → Tang (705) → Wuyue (907-06-01) → Song (978-06-11) → Yuan (1275-12-26 Yuan Shi 8) → 1281-01-01. Ulusal geçişlerin hepsi k12-44 katalogundan alınıp alıntıları yeniden doğrulandı (xian/changsha/fuzhou/nanking); Suzhou'ya özgü olaylar ayrıca yazıldı. ④ 3 KM KURALI — SUI YENİ ŞEHRİ: Sui Shu 2: Kaihuang 10 (590) 11. ay Suzhou'lu Shen Xuanhuai isyan eder; Yang Su bastırır ve 'Suzhou'ya varıp vilayet/ilçeyi Hengshan eteğine taşır, eski şehri boşaltmak ister' (Wujun tujing xuji: '移郡邑於橫山下，蓋欲空其舊城耳. 此新郭者，當時之遺址也'); Wu di ji (Tang, Lu Guangwei): '隋文帝開皇九年，改郡邑至橫山東，新立城郭 ... 唐武德七年，移新州，卻復舊址' (589/590 çelişkisi: güvenli uç 591). Hengshan, Suzhou eski şehrinin batı-güneybatısında birkaç km (kesin değil; Wujun tujing xuji: Lengqie Tapınağı '在吳縣西南橫山下', Yu cheng '在吳縣西橫山下') → AYRI KAYIT ÖNERİSİ 'suzhou-hengshan-cin' (590/591–624). Atlas noktasındaki eski şehir 591–624 arası __BILINMIYOR__ (varlık kaynakta susar; 'boşaltma niyeti' yazar, fiilen terk yazmaz); 624'te Tang merkezi eski Wu şehrine döner (Jiu Tang Shu 40). AYRICA ayrı kayıt önerileri: Taibo'nun/ Meili 'Gu Wu' (Wuzhi 3: 太伯城 ... 在今梅里平墟 — Wuxi yönü, yer eşitlemesi kesin değil), Yu cheng (魚城, Hengshan altı, Wujun tujing xuji), Gusu Terası (Wuzhi 3; yer kesin değil). ⑤ ÇELİŞKİLER VE KAYNAK HATALARI: (a) Wu Yue chunqiu ve Wuzhi 3 büyük şehir 47 li vs Wujun tujing xuji (卷上) '周四十里'; (b) Wuzhi 1 'Qin 25. yıl天下並' (Shiji 6: 25. yıl Jiangnan'ın alınışı, 26. yıl tüm birlik) — 25. yıl esas; (c) Wu di ji 589 vs Sui Shu 2 590 – Hengshan'a taşınma; (d) Song Shi 47 Deyou 1 3. ay Qian Shuoyou teslimi vs Yuan Shi 8 Zhiyuan 12 12. ay Wang Bangjie teslimi (1275-12-26) — Yuan Shi esas; (e) Shiguo chunqiu/Wuyue beishi 893 gün çelişkisi Hangzhou kaydında; (f) Wuzhi 1 'Liang Kaiping 2 Yang Xingmi Suzhou'yu yeniden kuşattı; 3 Qian Liu bastırdı' cümlesi (aktörün/adın doğruluğu bu oturumda başka birincil kaynakla sınanmadı) dönem/olay olarak yazılmadı. ⑥ KÜNYE ÖNERİLERİ: wu-devleti-zhou (Wu, Zhou dönemi; Shiji 31 Wu Taibo shijia; sonu MÖ 473 Shiji 31/15); yue-devleti-zhou (Yue; Shiji 41; MÖ 473'te Wu'yu yutar, Chu Weiwang Wujiang'ı öldürür); isteğe bağlı xi-chu-bawang (Xiang Yu, 'Xi Chu', Shiji 7 '自立為西楚霸王，王九郡，都彭城', MÖ 206–202). Künye uyarıları: chu-devleti t=-0222-01-01 (MÖ 223) < dönem t -0221-01-01 (MÖ 222) → chu-devleti.t GENİŞLET önerisi; tang t=907-01-01 < 907-06-01 (GENİŞLET); wuyue t=978-01-01 < 978-06-11 (GENİŞLET); sun-wu f=222 > 220-11-25 (hayalet; Fuzhou/Nanking ile aynı); dogu-han t=220-01-01 < 220-11-25; aynı örüntü bati-han (t 0008-01-01 < 0009-01-10), xin (0023-01-01 < 0023-10-06), sun-wu, bati-jin, dogu-jin, liu-song, guney-qi, liang-guney, chen, wu-zhou için de geçerli: künye bitişleri 1 Ocak yuvarlaması, gerçek geçiş günleri k12-44 kataloğundaki günlerdir (toplu GENİŞLET önerisi, 21 uyarının tamamı bu sınıftandır). ⑦ ATLAS: atlas 1281-01-01 yuan-hanedani ile uyumlu (zincir 1275-12-26'dan beri yuan). Atlas noktasının 'ilk sahipliği' 1281 yerine geriye çekilmeli (kaynaklı zincir MÖ 514 gelenek / MÖ 209 yazılı). ⑧ BULUNAMADI: arkeolojik/akademik doğrulama (yalnız yukarıdaki uzaktan algılama özeti); MÖ 209–202 Wu'nun sahibi; 23–25 Wu jun sahibi; Chu'nun Yue'yi yendiği kesin yıl; Hou Jing (548–552) dönemi Wu jun; 590–624 atlas noktasındaki kentin fiili durumu; Sun Ce'nin Wu jun'u aldığı gün (Sanguozhi Wu 46'da gün yok, tarandı); Yuan'a düşüş günü için Yuan Shi 8 dışı ikinci tanık (çift teyit YOK)."
+ },
+ {
+  "id": "szatmar-hu",
+  "ad": "Szatmár (Satu Mare)",
+  "atlas_ad": "Szatmár (Satu Mare)",
+  "lat": 47.7892,
+  "lon": 22.8726,
+  "kat1900": 3,
+  "adlar": [
+   "Szatmár",
+   "Szatmárnémeti",
+   "Satu Mare"
+  ],
+  "ilk": {
+   "t": "1213-01-01",
+   "gun": "1213",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'Szatmárnémeti' (https://lexikon.katolikus.hu/S/Szatm%C3%A1rn%C3%A9meti.html)",
+   "tanik": "1213: Oltuman",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): MKL Szatmár plebanyasının/başdiyakozunun ismen bilinen ilk din görevlisi 'Oltuman' 1213 (dolaylı tanık; yer adı aynı sayfada). Çelişki/gelenek: MKL 'hagyomány szerint 1006: Gizella ile gelen Bavyeralı avcıların plebanyası' (gelenek, tanıklı değil, kullanılmadı); MKL 'Szatmárvár': 'Vsz. már a honfoglalás előtt vár állt itt' (varsayım, tarihsiz). Çift teyit YOK; TDV'de Szatmar maddesi AÇILMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1213-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Szatmárnémeti' (https://lexikon.katolikus.hu/S/Szatm%C3%A1rn%C3%A9meti.html)",
+    "ic_not": "Szatmár vm. Macar Krallığı toprağı; MKL 'Szatmárvár': ilk kraliyet kalelerinden. Atlas dikişi: atlas 1281'de macaristan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1213-01-01",
+    "gun": "1213",
+    "k": "diger",
+    "b": "Szatmár kilise görevlisi Oltuman anılır (en erken tarihli tanık)",
+    "kaynak": "MKL 'Szatmárnémeti' (https://lexikon.katolikus.hu/S/Szatm%C3%A1rn%C3%A9meti.html)",
+    "tanik": "1213: Oltuman"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "savas",
+    "b": "Tatarlar Szatmár kalesini yok eder",
+    "kaynak": "MKL 'Szatmárvár' (https://lexikon.katolikus.hu/S/Szatm%C3%A1rv%C3%A1r.html)",
+    "tanik": "1241: a tatárok elpusztították"
+   }
+  ],
+  "ic_not": "Atlas Szatmár'ı 1281 macaristan ile başlatır (1526 sonrası Erdel/Habsburg paylaşımı atlasta ayrıca). 1230 'exempt pléb.' (MKL)."
+ },
+ {
+  "id": "szeged-hu",
+  "ad": "Segedin (Szeged)",
+  "atlas_ad": "Segedin (Szeged)",
+  "lat": 46.253,
+  "lon": 20.148,
+  "kat1900": 3,
+  "adlar": [
+   "Cegeddin",
+   "Ciggedin",
+   "Szeged",
+   "Segedin"
+  ],
+  "ilk": {
+   "t": "1183-01-01",
+   "gun": "1183",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV 'Segedin' (https://islamansiklopedisi.org.tr/segedin)",
+   "tanik": "Yazılı belgelerde adı ilk defa 1183 yılında Cegeddin biçiminde geçer.",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). İkinci tanık: MKL 'Szeged' (https://lexikon.katolikus.hu/S/Szeged.html): 'okl. 1183: írta először Szegednek' (Ciggedin) -> TDV ve MKL ayrı eserler, aynı yıl (ÇİFT TEYİT, ama ikisi de aynı belgeye dayanıyor olabilir). TDV: 'Romalılar çağında Maros kıyısında Partiskon adlı bir ileri karakol' ama 'şehrin Macarlar'ın gelişinden sonra kurulduğu belirtilir' -> Partiskon aynı nokta kabul edilmedi (konum/süreklilik belirsiz; MKL ise Ptolemaios 'Partiscum'u Szeged'e bağlar ama yüzyılı 'Kr. e. 2.' diye yanlış verir). Antik yer ayrı kayıt olarak önerilebilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1183-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Segedin' (https://islamansiklopedisi.org.tr/segedin) ; MKL 'Szeged' (https://lexikon.katolikus.hu/S/Szeged.html)",
+    "ic_not": "Atlas dikişi: atlas 1281'de macaristan. 1183'te Macar Krallığı toprağı: TDV 'Kral IV. Béla şehri yeniden iskân etti' (1241 sonrası) ve MKL III. Béla dönemi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1183-01-01",
+    "gun": "1183",
+    "k": "diger",
+    "b": "Szeged ilk yazılı anılış (Cegeddin/Ciggedin)",
+    "kaynak": "TDV 'Segedin' (https://islamansiklopedisi.org.tr/segedin) ; MKL 'Szeged' (https://lexikon.katolikus.hu/S/Szeged.html)",
+    "tanik": "Yazılı belgelerde adı ilk defa 1183 yılında Cegeddin biçiminde geçer. || okl. 1183: írta először Szegednek"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241-1242",
+    "k": "savas",
+    "b": "Moğol istilası; Segedin çevresinde sur yoktu, taş kale vardı",
+    "kaynak": "TDV 'Segedin' (https://islamansiklopedisi.org.tr/segedin)",
+    "tanik": "Moğol saldırısı sırasında (1241) şehrin çevresinde henüz bir sur yoktu"
+   },
+   {
+    "t": "1247-01-01",
+    "gun": "1247",
+    "k": "idari",
+    "b": "IV. Béla Szeged'e Buda ve Székesfehérvár gibi şehir hakları verir",
+    "kaynak": "MKL 'Szeged' (https://lexikon.katolikus.hu/S/Szeged.html)",
+    "tanik": "1247: kapott Budához és Székesfehérvárhoz hasonló városi jogokat"
+   }
+  ],
+  "ic_not": "Atlas Segedin 1281 macaristan: zincir aynı sahiple biter. TDV'de 1241'den sonra yeniden iskân."
+ },
+ {
+  "id": "szekesfehervar-hu",
+  "ad": "İstolni Belgrad (Székesfehérvár)",
+  "atlas_ad": "İstolni Belgrad",
+  "lat": 47.19,
+  "lon": 18.411,
+  "kat1900": 3,
+  "adlar": [
+   "Alba Civitas",
+   "Alba Regia",
+   "Fehérvár",
+   "Stuhlweißenburg",
+   "Székesfehérvár",
+   "İstolni Belgrad"
+  ],
+  "ilk": {
+   "t": "0901-01-01",
+   "gun": "10. yüzyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV 'İstolni Belgrad' (https://islamansiklopedisi.org.tr/istolni-belgrad)",
+   "tanik": "Eskiçağ’dan beri meskûn olan düz bir alanda X. yüzyılda kurulan şehir",
+   "ic_not": "KURULUŞ (10. yy, yüzyıl kesinliği; t=0901-01-01 YER TUTUCU). MKL 'Székesfehérvár' (https://lexikon.katolikus.hu/S/Sz%C3%A9kesfeh%C3%A9rv%C3%A1r.html): 'Géza fejed. várat épített, itt temették el' (Géza 10. yy; MKL yıl vermez) ve 'Római előzmények csak tágabb környezetében találhatóak' (Roma öncülü aynı noktada DEĞİL) -> TDV ve MKL yüzyıl düzeyinde uyuşur (ÇİFT TEYİT: 10. yy, Géza). TDV 'Eskiçağ’dan beri meskûn' bölge düzeyi."
+  },
+  "kur": {
+   "t": "0901-01-01",
+   "gun": "10. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV 'İstolni Belgrad' (https://islamansiklopedisi.org.tr/istolni-belgrad)",
+   "tanik": "Eskiçağ’dan beri meskûn olan düz bir alanda X. yüzyılda kurulan şehir"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0901-01-01",
+    "t": "1000-01-01",
+    "d": "macar-prensligi",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV 'İstolni Belgrad' (https://islamansiklopedisi.org.tr/istolni-belgrad) ; MKL 'Székesfehérvár' (https://lexikon.katolikus.hu/S/Sz%C3%A9kesfeh%C3%A9rv%C3%A1r.html)",
+    "ic_not": "Macarlar 895'ten beri Karpat havzasında (künye macar-prensligi 895-1000); 10. yy içinde kuruluş, Géza (Macar prensi) kaleyi yaptırdı. Künye BOYASIZ (renk istenecek).",
+    "boyasiz": true
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'İstolni Belgrad' (https://islamansiklopedisi.org.tr/istolni-belgrad)",
+    "ic_not": "Aziz István döneminde krallık merkezlerinden biri; krallar burada taç giydi ve gömüldü. Atlas dikişi: atlas 1281'de macaristan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1000-01-01",
+    "gun": "1000-1001",
+    "k": "diger",
+    "b": "künye geçişi: Macar Prensliği -> Macaristan Krallığı (I. István taç giyer)",
+    "kaynak": "TDV 'Macaristan' (https://islamansiklopedisi.org.tr/macaristan)",
+    "tanik": "1000-1001’de taç giyen ilk kral olan I. István Macar Devleti’nin kurucusudur."
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "1000-1038",
+    "k": "idari",
+    "b": "Aziz István döneminde Székesfehérvár krallık merkezlerinden biri olur",
+    "kaynak": "TDV 'İstolni Belgrad' (https://islamansiklopedisi.org.tr/istolni-belgrad)",
+    "tanik": "Aziz István döneminde (1000-1038) krallık merkezlerinden biri sıfatını kazandı"
+   },
+   {
+    "t": "1221-01-01",
+    "gun": "1221",
+    "k": "diger",
+    "b": "Dominikenler Székesfehérvár'da görünür",
+    "kaynak": "MKL 'Székesfehérvár' (https://lexikon.katolikus.hu/S/Sz%C3%A9kesfeh%C3%A9rv%C3%A1r.html)",
+    "tanik": "A domonkosok már 1221: megjelentek a városban"
+   },
+   {
+    "t": "1242-01-01",
+    "gun": "1242",
+    "k": "savas",
+    "b": "Székesfehérvár Tatarlara direnir",
+    "kaynak": "MKL 'Székesfehérvár' (https://lexikon.katolikus.hu/S/Sz%C3%A9kesfeh%C3%A9rv%C3%A1r.html)",
+    "tanik": "1242: ellenállt a tatároknak"
+   }
+  ],
+  "ic_not": "Atlas ad 'İstolni Belgrad' = Székesfehérvár (TDV). Atlas dikişi: macaristan 1281."
+ },
+ {
+  "id": "szolnok-hu",
+  "ad": "Solnok (Szolnok)",
+  "atlas_ad": "Solnok (Szolnok)",
+  "lat": 47.174,
+  "lon": 20.198,
+  "kat1900": 3,
+  "adlar": [
+   "Szolnok",
+   "Solnok"
+  ],
+  "ilk": {
+   "t": "1038-01-01",
+   "gun": "997-1038",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'Szolnok' (https://lexikon.katolikus.hu/S/Szolnok.html)",
+   "tanik": "Vára Szt István idejében épült várispánság székhelyeként",
+   "ic_not": "KURULUŞ (kale/várispánlık merkezi, I. István dönemi 997-1038). Aralık veren kaynakta güvenli uç alındı: 1038-01-01. MKL tek kaynak; TDV'de 'Solnok' maddesi yok (arama: 4 madde içeriği eşleşmesi, madde başlığı 0) -> çift teyit YOK. Şehir/yerleşimin kendisi (kale dışı) için daha erken tanık bulunamadı."
+  },
+  "kur": {
+   "t": "1038-01-01",
+   "gun": "997-1038",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'Szolnok' (https://lexikon.katolikus.hu/S/Szolnok.html)",
+   "tanik": "Vára Szt István idejében épült várispánság székhelyeként"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1038-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Szolnok' (https://lexikon.katolikus.hu/S/Szolnok.html)",
+    "ic_not": "f 1038: aralığın SON ucu; I. István 997'de başa geçti, 1000'de kral oldu (macaristan künyesi 1000-1527). Atlas dikişi: atlas 1281'de macaristan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1038-01-01",
+    "gun": "997-1038",
+    "k": "kurulus",
+    "b": "Szolnok kalesi várispánlık merkezi olarak I. István döneminde yapılır",
+    "kaynak": "MKL 'Szolnok' (https://lexikon.katolikus.hu/S/Szolnok.html)",
+    "tanik": "Vára Szt István idejében épült várispánság székhelyeként"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "yangin",
+    "b": "Tatarlar kaleyi yakar",
+    "kaynak": "MKL 'Szolnok' (https://lexikon.katolikus.hu/S/Szolnok.html)",
+    "tanik": "1241: a tatárok felégették"
+   }
+  ],
+  "ic_not": "Atlas Solnok'u 1281'de macaristan ile başlatır; zincir aynı sahiple biter."
+ },
+ {
+  "id": "szombathely-hu",
+  "ad": "Szombathely (Steinamanger)",
+  "atlas_ad": "Szombathely (Steinamanger)",
+  "lat": 47.2309,
+  "lon": 16.6216,
+  "kat1900": 3,
+  "adlar": [
+   "Savaria",
+   "Colonia Claudia Savariensium",
+   "Stein am Anger",
+   "Szombathely"
+  ],
+  "ilk": {
+   "t": "0043-01-01",
+   "gun": "43",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'Szombathely' (https://lexikon.katolikus.hu/S/Szombathely.html)",
+   "tanik": "melynek katonai táborát Claudius cs. 43: colonia rangra emelte",
+   "ic_not": "KURULUŞ olarak Roma KOLONİSİ (colonia) statüsü: MKL, askerî kamp 43'te Claudius'ça colonia rütbesine yükseltildi -> yerleşimin öncülü askerî kamp, kamp tarihi bulunamadı (kuruluş için güvenli uç değil, 'colonia' tarihi). Yazılı ikinci tanık: Plinius NH III.146 'colonia Divi Claudi Savaria' (The Latin Library; tarih metinde yok). Modern Szombathely = Savaria (MKL). Çift teyit YOK (yıl)."
+  },
+  "kur": {
+   "t": "0043-01-01",
+   "gun": "43",
+   "kesinlik": "yil",
+   "kaynak": "MKL 'Szombathely' (https://lexikon.katolikus.hu/S/Szombathely.html)",
+   "tanik": "melynek katonai táborát Claudius cs. 43: colonia rangra emelte"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0043-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Szombathely' (https://lexikon.katolikus.hu/S/Szombathely.html)",
+    "ic_not": "MKL: Claudius colonia, Domitianus yapılaşması, Felsö-Pannonia merkezi, 197 Septimius Severus ilanı. Dönem sonu künye gününden."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1000-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "MKL 'Szombathely' (https://lexikon.katolikus.hu/S/Szombathely.html)",
+    "ic_not": "Şehir VAR: MKL 'Pannoniában ~ az egyetlen város, mely a m. honfoglalásig folyamatosan lakott település volt' (455 depremi sonrası yeniden inşa; erken Orta Çağ'da Frank sınır kalesi — tarihsiz). Sahibi bu aralıkta kaynakla Savaria'ya bağlanmadı (Hun/Got/Avar/Frank/Macar bölge düzeyi). Bitiş 1000-01-01: Macaristan Krallığı künye başlangıcı; MKL István-Gizella evliliği sonrası Győr piskoposluğuna geçişi tarihsiz anlatır (f en geç tanıktan DEĞİL, künye başlangıcından -> BEYANLI YAKLAŞIKLIK)."
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "MKL 'Szombathely' (https://lexikon.katolikus.hu/S/Szombathely.html)",
+    "ic_not": "MKL: István-Gizella evliliğinden sonra Győr piskoposluğuna bağlı kasaba. Atlas dikişi: atlas 1281'de macaristan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0043-01-01",
+    "gun": "43",
+    "k": "kurulus",
+    "b": "Savaria askerî kampı Claudius tarafından colonia rütbesine yükseltilir",
+    "kaynak": "MKL 'Szombathely' (https://lexikon.katolikus.hu/S/Szombathely.html)",
+    "tanik": "melynek katonai táborát Claudius cs. 43: colonia rangra emelte"
+   },
+   {
+    "t": "0316-01-01",
+    "gun": "316",
+    "k": "diger",
+    "b": "Aziz Martin Savaria'da doğar",
+    "kaynak": "MKL 'Szombathely' (https://lexikon.katolikus.hu/S/Szombathely.html)",
+    "tanik": "316: itt született (Szt) Márton"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu -> Batı Roma (Theodosios'un ölümü, imparatorluk ikiye ayrılır)",
+    "kaynak": "TDV 'Bizans' (https://islamansiklopedisi.org.tr/bizans)",
+    "tanik": "Doğu ve Batı Roma olmak üzere ikiye ayrıldı"
+   },
+   {
+    "t": "0455-01-01",
+    "gun": "455",
+    "k": "diger",
+    "b": "Deprem şehri yıkar, yeniden inşa edilir",
+    "kaynak": "MKL 'Szombathely' (https://lexikon.katolikus.hu/S/Szombathely.html)",
+    "tanik": "földrengés döntötte romba, de újjáépítették"
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "1000-1001",
+    "k": "diger",
+    "b": "künye geçişi: Macar Prensliği -> Macaristan Krallığı (I. István taç giyer)",
+    "kaynak": "TDV 'Macaristan' (https://islamansiklopedisi.org.tr/macaristan)",
+    "tanik": "1000-1001’de taç giyen ilk kral olan I. István Macar Devleti’nin kurucusudur."
+   }
+  ],
+  "ic_not": "Savaria = Szombathely. Plinius ve MKL Claudius kolonisinde uyuşur; MKL'nin '43' yılı tek akademik-ansiklopedik kaynak (başka kaynakta 40'lar-50'ler dendiği web arama özetinde görüldü, doğrulanmadı). Atlas 1281'de macaristan: zincir aynı sahiple biter."
  },
  {
   "id": "taiyuan-cin",
@@ -34973,6 +35839,50 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "İlk anılış: ARKEOLOJİK/Livius (fort kuruluşu ~47; 'mid-first century'); yazılı tanık: Treccani 'nominata nell'Itinerario di Antonino' — İtinerarium'un tarihi bu turda açılan akademik kaynakta yoktu (ikincil: Vikipedi 'Antonine Itinerary' orijinali Diocletianus sonlarına/erken IV. yy'a bağlar) → yazılı tanık tarihlenemedi, bu yüzden nicelik 'arkeolojik' (kural: yazılı tanık varsa o; burada tarihi doğrulanamadı, beyan). Tacitus Batav isyanında Rhine kalelerinin yıkıldığını; Livius Traiectum'un da yıkıldığını yazar (70), yeniden inşa 88/89 — kesinti zincire yazılmadı (kısa; Livius). Modern nokta (Domplein) kentin merkezi: aynı. Treccani çelişkisi: 'Romani dopo la metà del sec. III abbandonarono definitivamente la regione' vs Livius 'castle still functioning in the fourth century' → arkeolojik kaynak esas. Lotharingia künyesi f=0855 — genişletme önerisi."
  },
  {
+  "id": "uyvar-hu",
+  "ad": "Uyvar",
+  "atlas_ad": "Uyvar",
+  "lat": 47.986,
+  "lon": 18.162,
+  "kat1900": 3,
+  "adlar": [
+   "Érsek Ujvár",
+   "Újvár",
+   "Nové Zámky",
+   "Uyvar"
+  ],
+  "ilk": {
+   "t": "1545-01-01",
+   "gun": "1545",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV 'Uyvar' (https://islamansiklopedisi.org.tr/uyvar)",
+   "tanik": "Estergon başpiskoposu tarafından inşa ettirilen ve Macarca Érsek Ujvár denilen küçük bir kale",
+   "ic_not": "KURULUŞ: TDV 'Uyvar şehrinin çekirdeğini 1545’te Nitra suyu kıyısında Osmanlı akınlarına karşı Estergon başpiskoposu tarafından inşa ettirilen ... küçük bir kale (palanka) oluşturur'. 1281 öncesi tanık YOK (nokta 1545'te kuruldu). MKL 'Újvár/Uyvar' maddesi bulunamadı (404). Çift teyit YOK."
+  },
+  "kur": {
+   "t": "1545-01-01",
+   "gun": "1545",
+   "kesinlik": "yil",
+   "kaynak": "TDV 'Uyvar' (https://islamansiklopedisi.org.tr/uyvar)",
+   "tanik": "Estergon başpiskoposu tarafından inşa ettirilen ve Macarca Érsek Ujvár denilen küçük bir kale"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1545-01-01",
+    "gun": "1545",
+    "k": "kurulus",
+    "b": "Estergon başpiskoposu Érsek Ujvár (Uyvar) palankasını kurdurur",
+    "kaynak": "TDV 'Uyvar' (https://islamansiklopedisi.org.tr/uyvar)",
+    "tanik": "Estergon başpiskoposu tarafından inşa ettirilen ve Macarca Érsek Ujvár denilen küçük bir kale"
+   }
+  ],
+  "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Uyvar'ı 1281-01-01'de 'macaristan' ile başlatıyor, ama nokta 1545'te kuruldu (atlasın kendi kaynak notu da 'nokta 1545’te KURULDU' der). Zincir bu yüzden BOŞ; 1281-1545 arası 'macaristan' dönemi kaldırılmalı, kd:/kur penceresi 1545."
+ },
+ {
   "id": "vannes-fr",
   "ad": "Vannes",
   "atlas_ad": "Vannes",
@@ -35074,6 +35984,142 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Kuruluş bulunamadı. 846 sınırı Vannes için doğrudan tanık değil (Bretanya genel) — yaklaşıklık beyanlı. Atlas Vannes 1281 'bretanya' — uyumlu. Çift teyit yok. Roma: Treccani/Ptolemaios'a göre kent imparatorluk Galyası'nda; Galya İmparatorluğu (260-274, künye galya-imp) yazılmadı — şehir için kaynak bulunamadı."
+ },
+ {
+  "id": "varad-hu",
+  "ad": "Varad (Oradea)",
+  "atlas_ad": "Varad (Oradea)",
+  "lat": 47.053,
+  "lon": 21.941,
+  "kat1900": 3,
+  "adlar": [
+   "Varadinum",
+   "Varadium",
+   "Bihar-Várad",
+   "Nagyvárad",
+   "Grosswardein",
+   "Oradea",
+   "Varad"
+  ],
+  "ilk": {
+   "t": "1113-01-01",
+   "gun": "1113",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV 'Varad' (https://islamansiklopedisi.org.tr/varad)",
+   "tanik": "Adı kaynaklarda ilk defa 1113’te Varadinum şeklinde geçer.",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). Çelişki: TDV 1113 der; MKL 'Nagyvárad' Szt László'nun (1077-95) kaleyi güçlendirdiğini, cesedinin 1096/1098 civarı Várad'a getirildiğini söyler (daha erken, ama ad tanığı tarihli belge değil) ve MKL kuruluşu Szt István (997-1038) ya da Szt László'ya bağlar. TDV esas alındı. TDV: 'X. yüzyılda burada küçük bir kale bulunuyordu' (tarihsiz). MKL 'A római korban Ulpianum' derken kaynak göstermez -> Roma süreklilik iddiası KULLANILMADI. Çift teyit YOK (ilk anılış)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1113-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Varad' (https://islamansiklopedisi.org.tr/varad) ; MKL 'Nagyvárad' (https://lexikon.katolikus.hu/N/Nagyv%C3%A1rad.html)",
+    "ic_not": "TDV: Ortaçağ'da Macar Krallığı sınırları içinde; MKL: 896'da Macarlar Körös vadisini aldı. 1113'te macaristan. Atlas dikişi: atlas 1281'de macaristan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1113-01-01",
+    "gun": "1113",
+    "k": "diger",
+    "b": "Varadinum ilk yazılı anılış",
+    "kaynak": "TDV 'Varad' (https://islamansiklopedisi.org.tr/varad)",
+    "tanik": "Adı kaynaklarda ilk defa 1113’te Varadinum şeklinde geçer."
+   },
+   {
+    "t": "1114-01-01",
+    "gun": "1114-1131",
+    "k": "kurulus",
+    "b": "Beş köşeli ortaçağ kalesi 1114-1131 arasında kurulur",
+    "kaynak": "TDV 'Varad' (https://islamansiklopedisi.org.tr/varad)",
+    "tanik": "1114-1131 yıllarında kurulan kale 1241’de Moğollar tarafından yıkılmış"
+   },
+   {
+    "t": "1192-06-27",
+    "gun": "27 Haziran 1192",
+    "k": "diger",
+    "b": "Szt László kanonizasyonu sonrası Várad'daki mezarı and/ordal ve yemin yeri olur",
+    "kaynak": "MKL 'Nagyvárad' (https://lexikon.katolikus.hu/N/Nagyv%C3%A1rad.html)",
+    "tanik": "Szt László szttéavatás után (1192. VI. 27.) sírja"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "yangin",
+    "b": "Moğol/Tatar istilası: Várad yağmalanır ve yakılır",
+    "kaynak": "TDV 'Varad' (https://islamansiklopedisi.org.tr/varad) ; MKL 'Nagyvárad' (https://lexikon.katolikus.hu/N/Nagyv%C3%A1rad.html)",
+    "tanik": "1241’de Moğol istilâsı neticesinde yağmalandıysa || 1241: a tatárok elfoglalták és fölégették"
+   }
+  ],
+  "ic_not": "1241 olayı için çift teyit (TDV + MKL). Atlas 1281 macaristan ile dikiş uyumlu; atlas Varad v:/s: dönemlerinde 1526+ ayrı."
+ },
+ {
+  "id": "varazdin-hr",
+  "ad": "Varasd (Varaždin)",
+  "atlas_ad": "Varasd (Varaždin)",
+  "lat": 46.3057,
+  "lon": 16.3366,
+  "kat1900": 3,
+  "adlar": [
+   "Garestin",
+   "Varasd",
+   "Varaždin"
+  ],
+  "ilk": {
+   "t": "1181-01-01",
+   "gun": "1181",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija (LZMK) 'Varaždin' (https://www.enciklopedija.hr/clanak/varazdin)",
+   "tanik": "prvi se put spominje kao Garestin 1181. u ispravi kojom je Bela III.",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): HR enc. 'Garestin' adını Varaždin ile özdeşleştirir (belge III. Béla'nın Zagreb Kaptolu'na Varaždinske Toplice mülkünü onayladığı charter; adın Varaždin'e mi yoksa Toplice'ye mi ait olduğu HR cümlesinden kesin değil — BEYANLI). Kale (Stari grad) 'župan merkezi'. Birincil belge ve ikinci akademik kaynak AÇILAMADI -> çift teyit YOK. MKL 'Varasd' maddesi Tolna/başka Varasd karışık (kullanılmadı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1181-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Varaždin' (https://www.enciklopedija.hr/clanak/varazdin)",
+    "ic_not": "HR: yer 'Ugarskoga Kraljevstva' ile Kutsal Roma ve İtalya arasında yol kavşağı; III. Béla belgesi; 1209 Andrija II. imtiyazı. Hırvatistan Krallığı künyesi 1102'de biter (Macar-Hırvat birliği, TDV Hırvatistan: 1091-1102). Atlas dikişi: atlas 1281'de macaristan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1181-01-01",
+    "gun": "1181",
+    "k": "diger",
+    "b": "Garestin (Varaždin) ilk yazılı anılış, III. Béla belgesi",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Varaždin' (https://www.enciklopedija.hr/clanak/varazdin)",
+    "tanik": "prvi se put spominje kao Garestin 1181. u ispravi kojom je Bela III."
+   },
+   {
+    "t": "1209-01-01",
+    "gun": "1209",
+    "k": "idari",
+    "b": "II. András Varaždin'e serbest kraliyet şehri imtiyazı verir",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Varaždin' (https://www.enciklopedija.hr/clanak/varazdin)",
+    "tanik": "stekao status slobodnoga kraljevskog grada, podijelio mu je 1209. Andrija II."
+   },
+   {
+    "t": "1242-01-01",
+    "gun": "1242",
+    "k": "idari",
+    "b": "IV. Béla ikinci imtiyazı: vatandaşların bazı hakları sınırlanır",
+    "kaynak": "Hrvatska enciklopedija (LZMK) 'Varaždin' (https://www.enciklopedija.hr/clanak/varazdin)",
+    "tanik": "U drugoj Belinoj povlastici, izdanoj 1242., ograničena su pojedina prava građana"
+   }
+  ],
+  "ic_not": "Atlas Varasd'ı 1281 macaristan ile başlatır; zincir aynı sahiple biter."
  },
  {
   "id": "vecde-ma",
