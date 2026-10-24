@@ -281,9 +281,14 @@ window.YERLESIMLER_H2_RUSYA = [
 // 🔴 `kasim` kimliği RENKSİZ ve KÜNYESİZ olduğu için `rusya` yazıldı; renk
 // gelirse 1452-1681 penceresi buraya girer. Koordinatöre bildirildi.
 { ad:"Kasimov", tur:"sehir", lat:54.945, lon:41.393, g:1, k:1,
-  s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
-     {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+  s:[
+     {f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
+     {f:"1325-01-01", t:"1452-01-01", d:"moskova"},
+     {f:"1452-01-01",t:"1681-01-01",d:"kasim",kesinlik:{f:"onyil",t:"yil"},kaynak:"TDV İslâm Ansiklopedisi, «Kasım Hanlığı» md. (islamansiklopedisi.org.tr/kasim-hanligi, bu oturumda okundu): hanlığın merkezi Kāsım (Gorodets Meşçerski) şehridir; kuruluş «1445» ya da «1452-1456 yıllarında» olarak iki biçimde verilir (kaynak çelişkisi; seçilen: aralığın ilk yılı 1452, kesinlik onyıl) · son: Seyyid Burhan'ın 1679'daki ölümünden sonra annesi tahta geçti ve «bunun 1681 yılında ölümüyle de Kāsım Hanlığı tarihe karıştı» (yalnız yıl; 1681-01-01 + yıl hassasiyeti) | BEYANLI: Kāsım Hanlığı Moskova'nın tâbi hanlığıdır; moskova/rusya sahipliği hanlık süresince kasim ile değiştirildi (kendi toprağında tâbi yönetim). · ASYA-ZINCIR-1024"},
+     {f:"1681-01-01",t:"1917-03-15",d:"rusya"},
+     {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+     {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},
+     {f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Temnikov", tur:"sehir", lat:54.633, lon:43.223, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
