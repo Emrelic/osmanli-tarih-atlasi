@@ -16993,6 +16993,59 @@ function kronoTemsilEdiliyor(k, derin) {
     return [OSMANLI_SYNTH].concat(adaylar);
   }
 
+  // 🆕 LAB-KRONO-ARAMA-1024 — Emre (24 Ekim 2026): *"kronoloji dropdownunda
+  // textbox olsun ve oraya yazılan devlet isminin filtrelenerek getirilmesi
+  // sağlansın."* Liste ~675 satır; kaydırarak bulmak fiilen imkânsızdı.
+  // Kutu `secListe`nin DIŞINDA, bir kez kurulur: `panelDoldur` her "+ ek"te
+  // listeyi yeniden çiziyor ve kutu içeride olsaydı her tıkta odağını ve
+  // yazılanı kaybederdi. Süzgeç yeniden çizimin SONUNDA tekrar uygulanır.
+  // 🔴 Türkçe normalleştirme KOPYALANMADI — `SUZGEC.sgNorm` (D215: "İ".lower()).
+  var secAra = null, secAraSonuc = null;
+  if (secPanel && secListe) {
+    var araSatir = document.createElement("div");
+    araSatir.className = "dss-ara-satir";
+    secAra = document.createElement("input");
+    secAra.type = "search";
+    secAra.id = "devlet-secici-ara";
+    secAra.autocomplete = "off";
+    secAra.placeholder = "🔍 Devlet adı yazın";
+    secAra.title = "Yazdığınız kelimeleri adında taşıyan devletler kalır. Büyük/küçük harf ve Türkçe şapka farkı YOK.";
+    secAraSonuc = document.createElement("span");
+    secAraSonuc.className = "dss-ara-sonuc";
+    araSatir.appendChild(secAra);
+    araSatir.appendChild(secAraSonuc);
+    secPanel.insertBefore(araSatir, secListe);
+    secAra.addEventListener("input", araUygula);
+    secAra.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") { secAra.value = ""; araUygula(); }
+      else if (e.key === "Enter") {             // tek eşleşme kaldıysa Enter = ODAK yap
+        var gorunen = secListe.querySelectorAll(".devlet-secici-satir[data-id]:not(.dss-gizli)");
+        if (gorunen.length === 1) satirTikla(gorunen[0].getAttribute("data-id"));
+      }
+    });
+  }
+  // KELİME BAŞI eşleşir: "ing" İngiltere'yi getirir, Ming'i/Jingwei'yi getirmez
+  // (iç-kelime eşleşmesi ölçüldü: "İNG" → 33 satır, çoğu alakasız).
+  function araNorm(s) {
+    var n = (window.SUZGEC && window.SUZGEC.sgNorm) ? window.SUZGEC.sgNorm(s) : String(s).toLocaleLowerCase("tr");
+    return " " + n.replace(/[\s()\[\]\/,.;:'’"·\-–—+]+/g, " ").trim() + " ";
+  }
+  function araUygula() {
+    if (!secAra || !secListe) return;
+    var terimler = araNorm(secAra.value).split(" ").filter(Boolean)
+                     .map(function (t) { return " " + t; });
+    var satirlar = secListe.querySelectorAll(".devlet-secici-satir[data-id]");
+    var kalan = 0;
+    Array.prototype.forEach.call(satirlar, function (s) {
+      var ad = s.getAttribute("data-ara") || "";
+      var gecer = terimler.every(function (t) { return ad.indexOf(t) >= 0; });
+      s.classList.toggle("dss-gizli", !gecer);
+      if (gecer) kalan++;
+    });
+    secAraSonuc.textContent = terimler.length
+      ? (kalan ? kalan + " devlet" : "eşleşen devlet yok") : "";
+  }
+
   function rolYaz() {
     if (!secButon) return;
     var ozet = ODAK ? ODAK.ad : "☪ Osmanlı";
@@ -17168,12 +17221,16 @@ function kronoTemsilEdiliyor(k, derin) {
       ekBtn.addEventListener("click", function (ev) { ev.stopPropagation(); satirTikla(d.id, true); });
       satir.appendChild(nokta); satir.appendChild(ad); satir.appendChild(rozet); satir.appendChild(ekBtn);
       satir.setAttribute("data-ipucu", rol === "odak" ? "Odak devlet." : "Tıkla: bu devleti ODAK yap.");
+      satir.setAttribute("data-id", d.id);
+      satir.setAttribute("data-ara", araNorm(d.ad + " " + d.id.replace(/-/g, " ")));
       satir.addEventListener("click", function () { satirTikla(d.id); });
       secListe.appendChild(satir);
     });
+    araUygula();                                // yeniden çizim süzgeci SİLMESİN
   }
   if (secButon && secPanel) secButon.addEventListener("click", function () {
     secPanel.classList.toggle("gizli");
+    if (secAra && !secPanel.classList.contains("gizli")) secAra.focus();
   });
   if (ekDunyaSel) ekDunyaSel.addEventListener("change", function () {
     EK_DUNYA_ESIK = +ekDunyaSel.value; render();
