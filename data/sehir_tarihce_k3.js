@@ -560,6 +560,45 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "Agadir: 1505 öncesi yerleşim kaynakta yok → zincir BOŞ (ilk.t atlas başlangıcından sonra). ATLAS DÜZELTME ÖNERİSİ: Agadir 'merini' 1281-1505 dilimi kaynaksız ve yerleşim yokken yazılmış görünüyor; nokta 1505'te başlamalı ya da 1281-1505 dilimi KIRPILMALI (Boşluk doldurma merdiveni ④: yerleşim yok → dönemi kırp). Sus bölgesinde Merînî egemenliği de tartışmalı (TDV: Sa‘dîler Portekizleri 'Agādîr ve Sûs sahillerinden' uzaklaştırır, 1541)."
  },
  {
+  "id": "ahtopol-agathopolis-bg",
+  "ad": "Ahtapolu (Ahtopol)",
+  "atlas_ad": "Ahtapolu (Ahtopol)",
+  "lat": 42.099,
+  "lon": 27.937,
+  "kat1900": 3,
+  "adlar": [
+   "Aulaiouteichos (eşitleme önerisi, Rigsby)",
+   "Agathopolis",
+   "Ahtopol",
+   "Ahtapolu"
+  ],
+  "ilk": {
+   "t": "0933-01-01",
+   "gun": "10. yüzyıl başı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "K. J. Rigsby, 'Agathopolis and Doulopolis', Epigraphica Anatolica 38 (2005) 109-115, s.109 ve dn.5 (J. Darrouzès, Notitiae episcopatuum Ecclesiae Constantinopolitanae, Paris 1981, 7.623, s.286); https://www.uni-koeln.de/phil-fak/ifa/EpAnat/38%20pdfs%20web/038109.pdf (curl + pypdf ile tam metin)",
+   "tanik": "no mention of it in our evidence before the tenth century A.D.",
+   "ic_not": "Rigsby: Bulgaristan kıyısındaki Agathopolis'in 'onuncu yüzyıldan önce' kaynaklarda anıldığı yok (antik periplus literatürü dahil); dn.5: en erken anılış Darrouzès, Notitiae 7.623, 'early tenth century'. 'Early' için aralık 901-933 alındı, güvenli uç 933 (yüzyıl hassasiyeti). Aynı dipnot, J. Jouroukova'nın adı 812'ye çekmesini yanlış bulur (Beshevliev no.34 tarihsiz, yalnız 'kastron A...N'). Rigsby: 'The Bulgarian site visibly was an urban center in antiquity' ve Arrianos Peripl. P.E. 24.6'nın Aulaiouteichos'una bağlanır — eşitleme KABUL EDİLİR, kesin değil (Aulaiouteichos 'reportedly near here'): Aulaiouteichos başlangıç sayılmadı. Hellenistik AGA/AGAYO sikkeleri (MÖ ~300, Agathokles kuruluşu) Bulgar Agathopolis'e değil Trak Khersonesos çevresine ait olabilir (Robert; Cohen 1995 'almost certainly' tersini söyler) — kazı buluntusu YOK, bu yüzden MÖ ~300 başlangıç sayılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0933-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Rigsby 2005 (Notitiae episcopatuum: Konstantinopolis patrikhanesi listeleri — kilise teşkilatı, siyasî sahiplik tanığı değil); Bulgar/Bizans el değiştirmeleri için tarihli tanık açılmadı",
+    "ic_not": "Şehir VAR (Notitiae'de anılır) ama siyasî sahibi tarihli ve kesin kaynakla ayrışmadı: Bizans patrikhane listesinde olması Bizans hâkimiyetini ima eder fakat Birinci/İkinci Bulgar Devleti ile Bizans arasındaki sıra değişimleri (X-XIII. yy) bu oturumda açılan kaynakta Ahtopol için tarihlenmedi. 348 yıllık aralık bir kuşağı aşıyor => __BOSLUK__ (beyansız yaklaşıklık yok). Açılamayan: Bulgar akademik yayınları (Velkov, Thracia Pontica 5 / Jouroukova 1994 kazı raporları), TIB Thrakien (Soustal 1991)."
+   }
+  ],
+  "dikis_beyan": "Atlas 1281-01-01'de Ahtapolu'yu 'bizans' yazıyor (sonra 1369'da bizans -> Suleyman Çelebi, 1403'te yine bizans); 1281 Bizans iddiasının tanığı açılan kaynaklarda (Rigsby 2005) YOK. Dikiş için yer tutucu olay yazılmadı.",
+  "olay": [],
+  "ic_not": "ATLAS ÖNERİSİ: Ahtapolu 1281 'bizans' tanıksız; ayrıca kayıt adı atlasta 'Ahtapolu (Ahtopol)'. Bulunamadı: Ahtopol'un 933 öncesi siyasî sahibi, kuruluş tarihi (Arrianos Peripl. P.E. 24.6 metni açılmadı, Aulaiouteichos eşitlemesi Rigsby'den aktarım). Çift teyit YOK (tek akademik kaynak: Rigsby)."
+ },
+ {
   "id": "alacahisar-rs",
   "ad": "Alacahisar (Kruševac)",
   "atlas_ad": "Alacahisar (Kruševac)",
@@ -4176,6 +4215,74 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Atlas Bourges 1281 'fransa' — uyumlu. 1120: vikont Bourges'ü krala devreder (Treccani) — 987-1120 vasal belirsizliği beyanlı. gun '508 (≈ 478+30)': 'trent'anni dopo' hesabı (kaynakta yıl yok). Çift teyit YOK. "
+ },
+ {
+  "id": "bozcaada-tenedos-tr",
+  "ad": "Bozcaada (Tenedos)",
+  "atlas_ad": "Bozcaada",
+  "lat": 39.833,
+  "lon": 26.045,
+  "kat1900": 3,
+  "adlar": [
+   "Leukophrys",
+   "Kalydna",
+   "Phoinike",
+   "Lyrnessos",
+   "Tenedos",
+   "Bohçaada",
+   "Bozcaada"
+  ],
+  "ilk": {
+   "t": "-2699-01-01",
+   "gun": "MÖ 2700",
+   "nicelik": "arkeolojik",
+   "kesinlik": "belirsiz",
+   "kaynak": "N. Sevinç - T. Takaoğlu, 'The Early Bronze Age on Tenedos/Bozcaada', Studia Troica 14 (2004) 135-140 (OpenAlex -> avesis.comu.edu.tr oai/document.pdf; tam metin pypdf ile okundu — MUTLAK TARİH VERMİYOR); Vikipedi 'Tenedos' (EB II ca. 3000-2700 BC, bu makaleye atıfla) — yalnız İKİNCİ tanık",
+   "tanik": "Early Bronze II period remains from the island of Tenedos/Bozcaada",
+   "ic_not": "UYARI: Sevinç-Takaoğlu 1992-93 kurtarma kazılarında Erken Tunç II (EB II) mezar ve kerpiç yapı bildirir; açılan metinde mutlak yıl bulunamadı, 'ca. 3000-2700 BC' Vikipedi'nin aktarımıdır => kesinlik 'belirsiz', güvenli uç MÖ 2700 (-2699). Yazılı tanık: Homeros (Ilias 1.38; Odysseia) adayı anar fakat kaynakta yıl yok (yıl bilinmediği için yazılı başlangıç yazılmadı); makale de 'Our only source was Homer' (EB öncesi için) der. Smith DGRG 'Tenedos': adın Tennes'ten geldiği (Strab. 8, Diod. 5.83 — Smith atfı, metinler açılmadı), Aiol kolonisi (Hdt 1.149'da on bir Aiol kenti listesinde Tenedos YOK — Smith'in atfı doğrulanamadı) — şehir (Tenedos kenti) tarih sütununda ada ile aynı kabul edildi, koordinat tek (ada). TDV Bozcaada: 'Adanın Türk devrinden önceki adı Tenedos’tur.'"
+  },
+  "kur": null,
+  "ark": {
+   "t": "-2699-01-01",
+   "gun": "MÖ 2700",
+   "kesinlik": "belirsiz",
+   "kaynak": "Sevinç - Takaoğlu 2004, Studia Troica 14, 135-140 (EB II buluntuları; mutlak tarih Vikipedi aktarımı)"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-2699-01-01",
+    "t": "0395-01-17",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "gun"
+    },
+    "kaynak": "Smith, Dictionary of Greek and Roman Geography (1854), 'Tenedos' (Perseus): Perslerin alışı (Hdt 6.31), Atina'ya haraç (Thuc. 7.57), MÖ 389 Lakedaimon yağması (Xen. Hell. 5.1.6), İskender zamanı Pers'ten ayrılma (Arrian 2.2, 3.2), Makedonya-Roma savaşlarında deniz üssü (Plb. 16.34, Liv. 31.16), Alexandreia Troas himayesi (Paus. 10.14.4)",
+    "ic_not": "Şehir VAR ama 4300 yıllık aralıkta sahibi tek bir tarihli zincirle kurulamadı: Smith'in sayfasında MÖ 389 dışında yıl yok; Hdt 6.31 (Pers donanması Khios, Lesbos ve Tenedos'u alır) ve Thuc. 7.57 (Tenedoslular haraç öder, 'The Tenedians and Aenians who paid tribute') yıl vermez. Yıl uydurulmadı => __BOSLUK__ (beyanlı). Bitiş: Roma->Bizans künye geçişi (Livius Theodosius I). Kullanılabilecek künyeler (tarihlenirse): ahamenis, delos-birligi, atina-demokrasisi, iskender-imparatorlugu, antigonos-krallik, lizimakhos, selevkos, bergama, roma-cumhuriyeti, roma-imp. Pleiades/TIB açılmadı."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1281-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Smith DGRG 'Tenedos': 'the emperor Justinian caused granaries to be erected in it' (Procop. de Aed. 5.1); TDV 'Bozcaada' (C. Orhonlu): XIV. yy'da 'Ada Bizans’ın elinde olmasına rağmen' Venedik ve Ceneviz rekabeti; 1329 Aydınoğlu Umur Bey 'Bizans’a tâbi olan Bozcaada’ya' gelip yağma etti",
+    "ic_not": "BEYANLI: 395-1281 arası sahiplik TDV'nin XIV. yy durumundan ve Smith/Prokopios'tan (VI. yy ambar) çıkarımdır; 1204-1261 (Latin İstanbul İmparatorluğu / İznik İmparatorluğu / Venedik) arasında adanın kimde olduğu açılan kaynakta YOKTUR — 1204 sonrasını Bizans saymak YAKLAŞIKLIKTIR (BEYAN). 1281 sonrası zincir atlasın."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu -> Bizans (I. Theodosius ölür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/ ('17 January 395: natural death')"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Atlas önerisi: Bozcaada 1381-1455 'boş ada' (TDV: Torino 1381; Clavijo 1403 adanın boş olduğunu yazar) için atlas k:0 kd penceresini zaten taşıyor. Açılamayan: Pleiades (Anubis), Sevinç-Takaoğlu mutlak tarih tablosu, Bamyacı 2014 (Mersin Univ. J. Hist. 10.13114/mjh.201428454 — antik denizcilikte Tenedos; açılmadı)."
  },
  {
   "id": "braga-pt",
@@ -9862,6 +9969,105 @@ window.SEHIR_TARIHCE_K3 = [
   "ic_not": "KAYNAK: Iranica 'ESFARĀYEN' (birebir); TDV'de Esferâyin maddesi YOK (arama: yalnız Esferâyînî nisbesi). Kuruluş: bulunamadı (Esfendiyâr efsanesi). İlk anılış üst sınır 982. Sahip zinciri 982'den: Horasan bölge zinciri (Sâmânî ... Selçuklu) + Moğol (şehir kaynağıyla teyitli); 1157-1220 BOŞLUK."
  },
  {
+  "id": "eskisehir-dorylaion-tr",
+  "ad": "Eskişehir (Dorylaion)",
+  "atlas_ad": "Eskişehir",
+  "lat": 39.776,
+  "lon": 30.52,
+  "kat1900": 3,
+  "adlar": [
+   "Dorylaion (Dorylaeum)",
+   "Durûlye (Arap kaynakları)",
+   "Sultanöyüğü (Sultanönü)",
+   "Eskişehir"
+  ],
+  "ilk": {
+   "t": "-0000-01-01",
+   "gun": "MÖ 1. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, Y. Oğuzoğlu - F. Emecen, 'Eskişehir', https://islamansiklopedisi.org.tr/eskisehir (curl ile tam metin); Strabon, Geographika 12.8.12 (Perseus, ed. H. L. Jones); Cicero, Pro Flacco 17 (Perseus, Yonge)",
+   "tanik": "Dorylaion’u Frigya şehirleri arasında gösterdiği",
+   "ic_not": "TDV: 'Milâttan önce I. yüzyılda coğrafyacı Strabon Dorylaion’u Frigya şehirleri arasında gösterdiği' — yüzyıl hassasiyeti, güvenli uç (yüzyılın SON ucu, MÖ 1 = astronomik -0000) alındı. Strabon 12.8.12: 'To Phrygia Epictetus belong the cities Azani, Nacolia, Cotiäeium, Midäeium, and Dorylaeum' (Perseus). Cicero Pro Flacco 17 de aynı yüzyılda Dorylaion halkının tanıklığını anar ('I come now to the evidence of the people of Dorylaeum') ama Perseus sayfası dava yılını vermez, yıl yazılmadı. Smith DGRG 'Dorylaeum': Stephanos Byz. 'Demosthenes bu adı kullanır' diyor — Demosthenes metni açılmadı, tarih çıkarılmadı (daha erken yazılı tanık varsa ilk anılış öne çekilir). Yazılı tanık varken arkeolojik başlangıç kullanılmadı; TDV: Frig şehri olarak MÖ 700'lerde gelişmeye başladığı 'sanılıyor', Dorylaion'un kurulduğu yer 'hâlâ tartışmalıdır' (TDV). Şarhöyük (Dorylaion) atlas noktasına ~1 km (Vikipedi koordinatı 39.783 / 30.517; ölçüm); eski yerleşim Karacahisar (~8-10 km, Vikipedi) AYRI kayıt önerisi — buraya karıştırılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0000-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "yuzyil",
+     "t": "gun"
+    },
+    "kaynak": "Strabon 12.8.12 (Frigya Epiktetos kentleri, Roma dönemi anlatımı; Perseus); TDV 'Eskişehir': 'Roma ve Bizans dönemlerinde' stratejik merkezler geliştiği sırada Dorylaion yalnız uğrak yeri; Livius.org 'Theodosius I' (17 Ocak 395)",
+    "ic_not": "BEYANLI BÖLGE SAHİBİ: Dorylaion'a özgü tarihli Roma yönetimi tanığı açılmadı; Frigya Epiktetos'un Roma hâkimiyetinde olduğu varsayımı (Strabon 12.4.6: Bitinya/Frigya/Mysia halklarının üstünde 'lastly the Romans' egemen — Perseus). Başlangıç ilk anılış yüzyılının güvenli ucudur. Bitiş: I. Theodosius'un ölümü, Roma'nın Doğu/Batı bölünmesi (künye geçişi roma-imp -> bizans; Livius.org)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1075-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Eskişehir': 'Roma ve Bizans dönemlerinde' Dorylaion İstanbul'dan Anadolu'ya ana yolda uğrak yeri; VII. yy'da 'İstanbul ve Marmara sahasındaki Bizans düzeniyle bütünleşen bir taşra kasabası' haline geldi; künye ömrü DEVLETLER-1300-oncesi.json (bizans)",
+    "ic_not": "Bizans dönemi boyunca sahiplik TDV'nin anlatımıdır; 708 (Mesleme) ve 778 (Hasan b. Kahtabe) Arap akınlarında şehir 'zaptedildi' ama kalıcı el değiştirme/süre kaynakta YOK => dönem AÇILMADI, olay olarak yazıldı (kısa ele geçirme kuralı). Bitiş 1075: TDV 'Malazgirt Zaferi’nden dört yıl sonra İznik’in fethedilmiş olması' ve Süleyman Şah'a bağlı Türkmenlerin 'bu sıralarda' Eskişehir'i almış olması — kesin gün yok, 1071+4 = 1075 yıl hassasiyeti; atlasın İznik kaydı (1078) ve TDV Kütahya ('1080 yılına doğru') ile uyumsuz ucu AYRIŞMADI, iki kaynaklı kesin tarih bulunamadı. Selçuklu künyesi f=1075-01-01 ile aynı yıl."
+   },
+   {
+    "f": "1075-01-01",
+    "t": "1097-06-30",
+    "d": "selcuklu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV 'Eskişehir': 'Nitekim Kutalmışoğlu Süleyman Şah’a bağlı Türkmenler bu sıralarda Eskişehir’i ele geçirmişlerdi.'; 'Selçuklular’ın çekilmesinin ardından şehir yeniden Bizans idaresi altına girdi.'",
+    "ic_not": "f TDV'de 'bu sıralarda' (İznik'in fethi, Malazgirt + 4 yıl) => en geç/yaklaşık tanık, dönem başlangıcı kesin gün değil; önceki Bizans dönemi buraya uzar (BEYAN). Bitiş = atlasın Eskişehir ilk dönemi (Bizans, 1097-06-30; atlas notu: f = Dorylaion muharebesi günü, Bizans dönüşü 'çekilmenin ardından' => alt sınır). Ayrıntı: TDV I. Kılıcarslan'ın 30 Haziran 1097'de savunma hattı kurduğunu söyler; Selçuklu'dan Bizans'a geçişin tam günü kaynakta ayrışmadı, atlasın günü TDV'den okunan muharebe günüdür."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu -> Bizans (I. Theodosius ölür, imparatorluk Doğu/Batı olarak ayrılır; Dorylaion Doğu payında).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/ ('17 January 395: natural death')"
+   },
+   {
+    "t": "0708-01-01",
+    "gun": "708",
+    "k": "fetih",
+    "b": "Mesleme b. Abdülmelik Dorylaion'u zapteder (İstanbul seferleri sırasında; süre/kalıcılık yok, dönem açılmadı).",
+    "kaynak": "TDV 'Eskişehir': 'İlk fetih 708’de Emevî Halifesi I. Velîd zamanında Mesleme b. Abdülmelik tarafından gerçekleştirildi.'"
+   },
+   {
+    "t": "0778-01-01",
+    "gun": "778",
+    "k": "diger",
+    "b": "Hasan b. Kahtabe şehir civarına kadar gelir; Arap kaynaklarında şehir 'Durûlye, Derveliye' adıyla anılır.",
+    "kaynak": "TDV 'Eskişehir': 778 yılında Hasan b. Kahtabe şehir civarına kadar geldi (Belâzürî, s. 236 atfıyla); ic_not: TDV 778'i 'ikinci fetih' sayar ama metin yalnız 'civarına kadar geldi' der"
+   },
+   {
+    "t": "1075-01-01",
+    "gun": "1075 (yaklaşık)",
+    "k": "fetih",
+    "b": "Süleyman Şah'a bağlı Türkmenler Eskişehir'i ele geçirir (Malazgirt + 4 yıl, İznik fethiyle aynı sıralar).",
+    "kaynak": "TDV 'Eskişehir': 'Nitekim Kutalmışoğlu Süleyman Şah’a bağlı Türkmenler bu sıralarda Eskişehir’i ele geçirmişlerdi.'"
+   },
+   {
+    "t": "1097-06-30",
+    "gun": "30 Haziran 1097",
+    "k": "kayip",
+    "b": "I. Kılıcarslan Dorylaion'da Haçlılara karşı savunma hattı kurar, çekilmek zorunda kalır; şehir Bizans idaresine döner.",
+    "kaynak": "TDV 'Eskişehir': '30 Haziran 1097 tarihinde Eskişehir’de bir savunma hattı kuran I. Kılıcarslan,' ... 'Selçuklular’ın çekilmesinin ardından şehir yeniden Bizans idaresi altına girdi.' (Runciman I, 140-144 atfıyla)"
+   }
+  ],
+  "ic_not": "Çift teyit yok: TDV tek ana kaynak, Strabon/Cicero ilk anılış için. Açılamayan: Pleiades (Anubis bot koruması), Iranica yok. Hitit/Frig katmanları (Şarhöyük IV Frig, Vikipedi/Baştürk 2019 atfıyla) arkeolojik, yazılı tanık varken kullanılmadı. ATLAS ÖNERİSİ: Dorylaion'un VII-XI. yy Bizans-Arap ara el değiştirmeleri atlasın 1097 öncesini kapsamıyor, sorun değil. Eski yerleşim Karacahisar (Vikipedi: ~10 km, MÖ 4. yy sonuna kadar) ayrı kayıt önerisi."
+ },
+ {
   "id": "esref-ir",
   "ad": "Eşref (Behşehr)",
   "atlas_ad": "Eşref (Behşehr)",
@@ -10872,6 +11078,126 @@ window.SEHIR_TARIHCE_K3 = [
   "sahip": [],
   "olay": [],
   "ic_not": "ATLAS BAŞLANGICI DÜZELTİLMELİ: atlas Funai/Ōita'yı 1281-01-01'de \"kamakura\" ile başlatıyor; bu oturumda şehre özgü, yer-kesin ve 1281 öncesi tarihli yazılı tanık BULUNAMADI (aranan: 日本歴史地名大系 «大分市/大分郡/豊後国/府内», 世界大百科事典, ブリタニカ, 日本大百科全書; en yakın: Kamakura dönemi tarihsiz kayıt). 豊後国 sayfası: Bungo eyaleti ilk tarihli anılışı 《続日本紀》文武2年（698）9月乙酉 (eyalet düzeyi, şehir değil); \"大分郡\" için 平城宮跡出土木簡 \"豊後国大分郡調綿壱伯屯\" (tarihsiz). Ayrı kayıt önerisi: \"Bungo Kokufu (豊後国府, Furugō)\" — kokufu/atlas mesafesi ölçülmedi. Çift teyit: yok."
+ },
+ {
+  "id": "gemlik-kios-tr",
+  "ad": "Gemlik (Kios)",
+  "atlas_ad": "Gemlik (Kios)",
+  "lat": 40.43,
+  "lon": 29.157,
+  "kat1900": 3,
+  "adlar": [
+   "Kios (Cius)",
+   "Prusias ad Mare (Prusias, Prusias hê pros thalassan)",
+   "Gemlik"
+  ],
+  "ilk": {
+   "t": "-0498-01-01",
+   "gun": "MÖ 499",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Herodotos 5.122 (Perseus, A. D. Godley); Smith, Dictionary of Greek and Roman Geography (1854), 'Cius' (Perseus): yıl",
+   "tanik": "Cius was taken by the Persian general Hymees, after the burning of Sardis, B.C. 499.",
+   "ic_not": "Herodotos 5.122: 'now turned towards the Propontis, and there took Cius in Mysia' (yıl yok); yıl MÖ 499 Smith DGRG'dendir (Sardes'in yakılması, 'after the burning of Sardis'); modern kronolojinin MÖ 498'e koyduğu bilgisi bu oturumda açılan kaynakla doğrulanmadı. Daha erken yazılı tanık: Strabon 12.4.3'te Kios'u Herakles yoldaşı Kios'un kurduğu efsane (gelenek, tarih yok); Plinius NH 5.32'ye göre Miletos kolonisi (Smith aktarımı; 'tradition'). Hieronymus'un MÖ 626/5 kuruluş tarihi arama sonucunda geçti ama kaynak sayfası açılmadı => YAZILMADI. 'kur' yok. Gemlik atlas noktasına ~0 km (Kios burada: Vikipedi 40.4325/29.1564)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0498-01-01",
+    "t": "-0199-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Herodotos 5.122 (Perslerin alışı); Xenophon Hell. 1.4.7 (Persli Ariobarzanes eskortuyla 'Cius, in Mysia'ya varış — Perseus, Brownson); Smith 'Cius'; Vikipedi 'Cius' (Delos Birliği üyesi, Aitolia Birliği üyesi, Girit Savaşı 205-200) — ikinci tanık",
+    "ic_not": "Şehir VAR; ama 300 yıllık aralıkta sahibi tarihli kaynakla ayrışmadı: Pers hâkimiyeti MÖ 499 civarında başlar (Hdt), Xenophon (Hell. 1.4.7) Persli Ariobarzanes'in Kios'a eskortunu anlatır (Peloponnesos Savaşı sonları; yıl bu oturumda okunmadı), sonra Delos Birliği/Aitolia Birliği üyeliği (Vikipedi, ikinci tanık) ve İskender/Hellenistik krallıklar tarihlenmedi. Yıl uydurulmadı => __BOSLUK__ (beyanlı). Bitiş: en geç tanıktan: Philippos V Kios'u yıkıp Bitinya'lı I. Prusias'a verir (Vikipedi: Girit Savaşı 205-200 arasında; aralığın SON ucu MÖ 200 alındı)."
+   },
+   {
+    "f": "-0199-01-01",
+    "t": "-0076-01-01",
+    "d": "bitinya",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Strabon 12.4.3 (Perseus, Jones): 'Cius was razed to the ground by Philip, the son of Demetrius' ... 'And Prusias restored them from their ruins'; Livius.org 'Nicomedes IV Philopator' (vasiyet)",
+    "ic_not": "f en geç tanıktan: Strabon yıl vermez; Vikipedi 'Cius' Philippos V'in Girit Savaşı (205-200) içinde Kios'u kuşatıp yıktığını yazar (ikinci tanık, kaynağı doğrulanmadı); aralığın son ucu -0199 (MÖ 200). Önceki dönem (BOSLUK) bu uca uzar. Şehir yeniden kurulup 'Prusias' adını alır (Strabon). Bitiş: Livius.org Nikomedes IV'ün 'in his will, he bequaethed his kingdom to Rome (77 BCE)' der; bitinya künyesi t=-0073 (MÖ 74) ile ÇELİŞKİ: Livius sayfası MÖ 77 yazıyor (olası sayfa hatası; modern kaynaklar MÖ 74), burada kaynağın verdiği -0076 alınmadı — dikkat: -0076 = MÖ 77. Çelişki beyan edilmiştir; künye tarihiyle ±3 yıl fark."
+   },
+   {
+    "f": "-0076-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Livius.org 'Nicomedes IV Philopator'; Strabon 12.4.3: 'the Prusians obtained freedom'",
+    "ic_not": "Strabon, Prusiaslıların Roma'ya dostça davranınca 'özgürlük' elde ettiğini söyler (Roma himayesinde özgür kent; tarihi yok). Bitiş: Octavianus'a Augustus unvanı 16 Ocak MÖ 27 (künye geçişi, Livius.org 'Augustus')."
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "Vikipedi 'Cius': Roma dönemi sikkeleri, Claudius'tan itibaren ad Kios'a döner (Sommer atfıyla; ikinci tanık); Strabon 12.4.3",
+    "ic_not": "BEYANLI: imparatorluk dönemi sahiplik künye geçişinden çıkarımdır; Kios'un Roma imparatorluğundaki eyaleti (Bithynia et Pontus) kaynakta açılmadı. Bitiş I. Theodosius'un ölümü (Livius.org)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1281-01-01",
+    "d": "bizans",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV 'Bahriye' (arama sonucu parçası, tam metin açılmadı): 'Bizans’ın elinde bulunan Gemlik kasabasını fethetti'; Vikipedi 'Cius': piskoposluk (325 İznik Konsili'nde Kios piskoposu) — ikinci tanık",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: 395-1281 aralığı için doğrudan tarihli tanık bulunmadı; XIV. yy'da Bizans elinde olduğu TDV parçalarından (Bahriye, Anadolu maddeleri: '1334’te Gemlik') anlaşılıyor, 1081-1097 Selçuklu ve 1204-1261 Latin/İznik dönemlerinde Gemlik'in sahibi açılan kaynakta ayrışmadı. TDV'de 'Gemlik' maddesi YOK (curl: 'madde başlıklarında sonuç bulunamadı'). Atlas 1281 'bizans' ile ayni sahip => dikiş uyumlu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0498-01-01",
+    "gun": "MÖ 499",
+    "k": "fetih",
+    "b": "Pers komutanı Hymaees Kios'u alır (İon ayaklanması).",
+    "kaynak": "Herodotos 5.122 (Perseus, Godley): 'and there took Cius in Mysia'; yıl: Smith DGRG 'Cius' (B.C. 499)"
+   },
+   {
+    "t": "-0199-01-01",
+    "gun": "MÖ 200 (205-200 aralığının son ucu)",
+    "k": "kayip",
+    "b": "Makedonya Kralı V. Philippos Kios'u yıkar, Bitinya'lı I. Prusias'a verir; Prusias şehri onarıp Prusias adını koyar.",
+    "kaynak": "Strabon 12.4.3 (Perseus, Jones): 'Cius was razed to the ground by Philip, the son of Demetrius'; yıl aralığı Vikipedi 'Cius' (205-200), ikinci tanık"
+   },
+   {
+    "t": "-0076-01-01",
+    "gun": "MÖ 77",
+    "k": "diger",
+    "b": "Bitinya Kralı IV. Nikomedes krallığını vasiyetle Roma'ya bırakır (Livius sayfası MÖ 77 yazar; künye MÖ 74).",
+    "kaynak": "Livius.org (J. Lendering), 'Nicomedes IV Philopator', https://www.livius.org/articles/person/nicomedes-iv-philopator/ ('in his will, he bequaethed his kingdom to Rome (77 BCE)')"
+   },
+   {
+    "t": "-0026-01-16",
+    "gun": "16 Ocak MÖ 27",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti -> İmparatorluk (Octavianus Augustus unvanını alır).",
+    "kaynak": "Livius.org (J. Lendering), 'Augustus', https://www.livius.org/articles/person/augustus/ ('16 January 27: Imperator Caesar Divi filius Augustus')"
+   },
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu -> Bizans (I. Theodosius ölür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/ ('17 January 395: natural death')"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Açılamayan: Pleiades 511385 (Anubis), TDV 'Gemlik' maddesi yok. Atlas önerisi: yok; Gemlik 1281 'bizans' dikişi uyumlu ama 1281 öncesi Bizans sürekliliği (1204-1261 Latin dönemi) kaynaksız kabul edilmiştir (BEYAN)."
  },
  {
   "id": "gent-be",
@@ -17432,6 +17758,34 @@ window.SEHIR_TARIHCE_K3 = [
    }
   ],
   "ic_not": "Kotor: ilk yazılı tanık 809 (Treccani EI), arkeolojik Grek yerleşim MÖ 3. yy (HE). Roma çağı Acruvium eşlemesi (Plinius) 'belki' olduğundan zincire alınmadı; 395/476 künye geçişleri için de tanık gerekmediğinden zincir 809'da başlar. KAYNAK BASAMAKLARI: HE, Treccani EI (iki ayrı baskı), Perseus (Plinius), TDV Karadağ (bölge düzeyi) açıldı. TDV'de 'Kotor' başlıklı madde yok (arama: 8 içerik eşleşmesi, kendi maddesi yok); Iranica/Brill/Pleiades açılmadı (Pleiades 'Anubis' bot koruması)."
+ },
+ {
+  "id": "krayova-craiova-ro",
+  "ad": "Krayova (Craiova)",
+  "atlas_ad": "Krayova (Craiova)",
+  "lat": 44.33,
+  "lon": 23.795,
+  "kat1900": 3,
+  "adlar": [
+   "Pelendava (eşitleme belirsiz)",
+   "Craiova",
+   "Krayova"
+  ],
+  "ilk": {
+   "t": "1475-06-01",
+   "gun": "1 Haziran 1475",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Puterea.ro, M. Apipie, 'Cum s-a format orașul Craiova', 1 Haz 2025, https://www.puterea.ro/?p=494546 (Primăria Craiova atfıyla; curl ile çekildi) — AKADEMİK BİRİNCİL (hrisov neşri) AÇILMADI",
+   "tanik": "Craiova a fost menționată pentru prima data la 1 iunie 1475",
+   "ic_not": "Basarab Laiotă cel Bătrân hrisovu (Eflak voyvodası), Jülyen takvim (1582 öncesi, çevrilmedi). Kaynak haber sitesi; belediye sitesi aynı tarihi verir ('atestată documentar din 1475', Primăria Craiova pdf, arama sonucu). Akademik teyit (Documenta Romaniae Historica B, Craiova Arhivele Olteniei) bu oturumda açılamadı => ÇİFT TEYİT YOK; nicelik ilk_anilis (kuruluş DEĞİL). Pelendava (Geto-Dak yerleşimi MÖ 4. yy., Roma castrumu II-III. yy.) ile Craiova eşitlemesi haber sitesinde 'aynı alan' diye geçer; Pelendava'nın kesin yeri/mesafesi akademik kaynakla ölçülmedi => YERİ KESİN OLMAYAN EŞİTLEME, başlangıç sayılmadı (VERI-YAPISI kuralı); Ptolemaios/Tabula Peutingeriana tanığı açılmadı. Neolitik sürekli iskân iddiası (Dan Ghinea atfıyla, haber sitesi) doğrulanmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "1281 öncesi zincir YAZILMADI (ilk tanık 1475 atlas başlangıcından sonra). Bulunamadı: Craiova'nın 1475 öncesi anılışı ve atlasın 1281 'macaristan' (sonra 1330 'eflak') iddiasının tanığı. ATLAS DÜZELTME ÖNERİSİ: Krayova 1281-1475 arası sahiplik iddiası kaynaksız; Küçük Eflak (Oltenia) 1330 Posada öncesi Macar/Severin Banlığı varsayımı bu oturumda kaynakla teyit edilmedi."
  },
  {
   "id": "kristianstad-se",
