@@ -20098,14 +20098,14 @@ window.DEVLETLER = [
     { odak_yer:["Nanking (Nanjing)"], t:"0264-01-01", tur:"hukumdar", b:"Sun Hao tahta çıkar.", kaynak:"Sanguozhi 48" },
     { odak_yer:["Nanking (Nanjing)"], t:"0280-01-01", tur:"son", b:"Jin orduları Jianye'yi alır, Sun Hao teslim olur; Çin Jin altında birleşir (Mayıs 280).", kaynak:"https://www.britannica.com/topic/Jin-dynasty-China-AD-265-316-317-317-420; Jinshu 3, 42" }
   ] },
-{ id:"bati-jin", ad:"Bati Jin Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0266-02-08", t:"0316-12-11", baskent:"Luoyang", ozet:"Sima Yan 266-02-08'de (Jin shu 3: Taishi 1, 12. ay 丙寅; Britannica '265' = Cin yil adi) kurdu; 311'de Luoyang, 316-12-11'de (Jin shu 5: 乙未) hukumdar Xiongnu'ya teslim oldu.", kaynak:"https://www.britannica.com/topic/Jin-dynasty-China-AD-265-316-317-317-420", kronoloji:[
+{ id:"bati-jin", ad:"Bati Jin Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0266-02-08", t:"0317-04-06", baskent:"Luoyang", ozet:"Sima Yan 266-02-08'de (Jin shu 3: Taishi 1, 12. ay 丙寅; Britannica '265' = Cin yil adi) kurdu; 311'de Luoyang, 316-12-11'de (Jin shu 5: 乙未) hukumdar Xiongnu'ya teslim oldu.", kaynak:"https://www.britannica.com/topic/Jin-dynasty-China-AD-265-316-317-317-420", kronoloji:[
     { odak_yer:["Luoyang"], t:"0266-02-08", tur:"kurulus", b:"Sima Yan Cao hanedanını devirip Jin'i kurdu.", kaynak:"https://www.britannica.com/topic/Jin-dynasty-China-AD-265-316-317-317-420 ; https://www.britannica.com/summary/Jin-dynasty-China-AD-265-316-317-317-420" },
     { odak_yer:["Luoyang"], t:"0280-01-01", tur:"toprak-kazanc", b:"Jin Doğu Wu'yu yıkıp Çin'i yeniden birleştirdi; Üç Krallık dönemi bitti.", kaynak:"https://www.britannica.com/summary/Jin-dynasty-China-AD-265-316-317-317-420" },
     { odak_yer:["Luoyang"], t:"0290-01-01", tur:"hukumdar", b:"İmparator Wu (Sima Yan) öldü; halefleri yetersiz kaldı, iç savaş başladı.", kaynak:"https://www.britannica.com/summary/Jin-dynasty-China-AD-265-316-317-317-420" },
     { odak_yer:["Luoyang"], t:"0311-01-01", tur:"toprak-kayip", b:"Xiongnu (Han-Zhao) kuvvetleri başkent Luoyang'ı yağmaladı, imparator esir düştü.", kaynak:"https://www.britannica.com/summary/Jin-dynasty-China-AD-265-316-317-317-420" },
     { odak_yer:["Luoyang"], t:"0316-12-11", tur:"son", b:"Jin imparatoru Xiongnu'ya teslim oldu; Batı Jin sona erdi.", kaynak:"https://www.britannica.com/summary/Jin-dynasty-China-AD-265-316-317-317-420" }
   ] },
-{ id:"dogu-jin", ad:"Dogu Jin Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0317-01-01", t:"0420-01-01", baskent:"Jiankang", ozet:"Sima hanedanindan bir prensin 317'de Jiankang'da kurdugu guney hanedani; 420'de Liu Yu Liu Song'u kurdu.", kaynak:"https://www.britannica.com/topic/Jin-dynasty-China-AD-265-316-317-317-420", kronoloji:[
+{ id:"dogu-jin", ad:"Dogu Jin Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0317-04-06", t:"0420-07-10", baskent:"Jiankang", ozet:"Sima hanedanindan bir prensin 317'de Jiankang'da kurdugu guney hanedani; 420'de Liu Yu Liu Song'u kurdu.", kaynak:"https://www.britannica.com/topic/Jin-dynasty-China-AD-265-316-317-317-420", kronoloji:[
     { odak_yer:["Nanking (Nanjing)"], t:"0317-01-01", tur:"kurulus", b:"Bir Sima prensi Jiankang'da Doğu Jin sarayını kurdu.", kaynak:"https://www.britannica.com/topic/Jin-dynasty-China-AD-265-316-317-317-420 ; https://www.britannica.com/summary/Jin-dynasty-China-AD-265-316-317-317-420" },
     { odak_yer:["Nanking (Nanjing)"], t:"0318-01-01", tur:"hukumdar", b:"Sima Rui, İmparator Min'in ölümünün ardından Jiankang'da imparator (Yuan) oldu.", kaynak:"https://en.wikipedia.org/wiki/Timeline_of_the_Jin_dynasty_(266%E2%80%93420)_and_the_Sixteen_Kingdoms_(304%E2%80%93439); https://www.britannica.com/topic/Jin-dynasty-China-AD-265-316-317-317-420" },
     { odak_yer:["Nanking (Nanjing)"], t:"0322-01-01", tur:"isyan", b:"Güçlü vali Wang Dun Wuchang'da isyan etti (324'te öldü).", kaynak:"ChinaKnowledge.de (Ulrich Theobald), «Wang Dun 王敦» http://www.chinaknowledge.de/History/Division/personswangdun.html — «In 322, Wang Dun, being aware of the challenge, rose in rebellion» ; https://en.wikipedia.org/wiki/Timeline_of_the_Jin_dynasty_(266%E2%80%93420)_and_the_Sixteen_Kingdoms_(304%E2%80%93439)" },
@@ -20128,7 +20128,7 @@ window.DEVLETLER = [
     { odak_yer:["Pingyang"], t:"0319-01-01", tur:"baskent", b:"Liu Yao başkenti Chang'an'a taşıdı ve devletin adını Han'dan Zhao'ya çevirdi (bazı kaynaklar 318).", kaynak:"https://en.wikipedia.org/wiki/Han-Zhao; https://www.britannica.com/biography/Liu-Yuan-ruler-of-China" },
     { odak_yer:["Pingyang"], t:"0319-01-01", tur:"bolunme", b:"Komutan Shi Le, Liu Yao ile anlaşmazlığın ardından ayrılıp kendi devleti Sonraki Zhao'yu kurdu.", kaynak:"https://en.wikipedia.org/wiki/Han-Zhao; https://en.wikipedia.org/wiki/Timeline_of_the_Jin_dynasty_(266%E2%80%93420)_and_the_Sixteen_Kingdoms_(304%E2%80%93439)" }
   ] },
-{ id:"liu-song", ad:"Liu Song", tur:"imparatorluk", bolge:"dogu-asya", f:"0420-01-01", t:"0479-01-01", baskent:"Jiankang", ozet:"Guney Hanedanlarinin ilki, 420-479.", kaynak:"https://www.britannica.com/topic/Liu-Song-dynasty", kronoloji:[
+{ id:"liu-song", ad:"Liu Song", tur:"imparatorluk", bolge:"dogu-asya", f:"0420-01-01", t:"0479-05-29", baskent:"Jiankang", ozet:"Guney Hanedanlarinin ilki, 420-479.", kaynak:"https://www.britannica.com/topic/Liu-Song-dynasty", kronoloji:[
     { odak_yer:["Nanking (Nanjing)"], t:"0420-01-01", tur:"kurulus", b:"Liu Yu Doğu Jin'i devirip Liu Song hanedanını kurdu.", kaynak:"https://www.britannica.com/topic/Liu-Song-dynasty ; https://www.britannica.com/summary/Jin-dynasty-China-AD-265-316-317-317-420" },
     { odak_yer:["Nanking (Nanjing)"], t:"0422-01-01", tur:"hukumdar", b:"Liu Yu öldü; oğlu Liu Yifu (Shaodi) tahta çıktı.", kaynak:"https://en.wikipedia.org/wiki/Liu_Song_dynasty (Song shu; Zizhi Tongjian c.119-134); https://www.britannica.com/topic/Liu-Song-dynasty" },
     { odak_yer:["Nanking (Nanjing)"], t:"0424-01-01", tur:"hukumdar", b:"Shaodi tahttan indirildi; Liu Yilong (İmparator Wen) tahta çıktı, Yuanjia dönemi (424-453) başladı.", kaynak:"https://en.wikipedia.org/wiki/Liu_Song_dynasty (Song shu)" },
@@ -20139,7 +20139,7 @@ window.DEVLETLER = [
     { odak_yer:["Nanking (Nanjing)"], t:"0477-01-01", tur:"siyaset", b:"Xiao Daocheng, İmparator Houfei'yi (Liu Yu) öldürtüp İmparator Shun'u tahta çıkardı.", kaynak:"https://en.wikipedia.org/wiki/Liu_Song_dynasty (Song shu; Book of Southern Qi c.1)" },
     { odak_yer:["Nanking (Nanjing)"], t:"0479-01-01", tur:"son", b:"Xiao Daocheng tahtı alıp Liu Song'u sona erdirdi, Güney Qi'yi kurdu.", kaynak:"https://www.britannica.com/topic/Liu-Song-dynasty" }
   ] },
-{ id:"guney-qi", ad:"Guney Qi", tur:"imparatorluk", bolge:"dogu-asya", f:"0479-01-01", t:"0502-01-01", baskent:"Jiankang", ozet:"Liu Song'un ardili, 479-502.", kaynak:"https://www.britannica.com/topic/Southern-Qi-dynasty", kronoloji:[
+{ id:"guney-qi", ad:"Guney Qi", tur:"imparatorluk", bolge:"dogu-asya", f:"0479-01-01", t:"0502-04-30", baskent:"Jiankang", ozet:"Liu Song'un ardili, 479-502.", kaynak:"https://www.britannica.com/topic/Southern-Qi-dynasty", kronoloji:[
     { odak_yer:["Nanking (Nanjing)"], t:"0479-01-01", tur:"kurulus", b:"Xiao Daocheng Liu Song'u devirip Güney Qi'yi kurar (Gao Di, 479-482/483).", kaynak:"https://www.britannica.com/topic/Southern-Qi-dynasty (Britannica 403 verdi; yalnız aranan özet), EBSCO Research Starters https://www.ebsco.com/research-starters/history/southern-dynasties-period-begins-china" },
     { odak_yer:["Nanking (Nanjing)"], t:"0482-01-01", tur:"hukumdar", b:"İmparator Gao (Xiao Daocheng) öldü; İmparator Wu (Xiao Ze) tahta çıktı (hükümdarlık 482/483-493).", kaynak:"https://en.wikipedia.org/wiki/Southern_Qi; https://www.britannica.com/topic/Southern-Qi-dynasty" },
     { odak_yer:["Nanking (Nanjing)"], t:"0490-01-01", tur:"antlasma", b:"İmparator Wu döneminde Kuzey Wei ile barış anlaşması yapıldı.", kaynak:"https://en.wikipedia.org/wiki/Southern_Qi" },
@@ -20149,7 +20149,7 @@ window.DEVLETLER = [
     { odak_yer:["Nanking (Nanjing)"], t:"0501-01-01", tur:"isyan", b:"Zalim Xiao Baojuan'ın Xiao Yi'yi öldürmesi üzerine kardeşi Xiao Yan isyan edip Jiankang'a yürür; Baojuan öldürülür, İmparator He tahta çıkarılır.", kaynak:"EBSCO Research Starters https://www.ebsco.com/research-starters/history/southern-dynasties-period-begins-china ; Liang Shu geleneği (ikincil özet)" },
     { odak_yer:["Nanking (Nanjing)"], t:"0502-01-01", tur:"son", b:"Xiao Yan, İmparator He'yi tahtı devretmeye zorlar; Güney Qi sona erer, Liang kurulur.", kaynak:"EBSCO Research Starters https://www.ebsco.com/research-starters/history/southern-dynasties-period-begins-china" }
   ] },
-{ id:"liang-guney", ad:"Liang (Guney Hanedani)", tur:"imparatorluk", bolge:"dogu-asya", f:"0502-01-01", t:"0557-01-01", baskent:"Jiankang", ozet:"Guney Qi'nin ardili, 502-557.", kaynak:"https://www.britannica.com/topic/Nan-Liang-dynasty", kronoloji:[
+{ id:"liang-guney", ad:"Liang (Guney Hanedani)", tur:"imparatorluk", bolge:"dogu-asya", f:"0502-01-01", t:"0557-11-16", baskent:"Jiankang", ozet:"Guney Qi'nin ardili, 502-557.", kaynak:"https://www.britannica.com/topic/Nan-Liang-dynasty", kronoloji:[
     { odak_yer:["Nanking (Nanjing)"], t:"0502-01-01", tur:"kurulus", b:"Xiao Yan (İmparator Wu) Güney Qi'den tahtı alıp Liang hanedanını kurar.", kaynak:"EBSCO Research Starters https://www.ebsco.com/research-starters/history/southern-dynasties-period-begins-china" },
     { odak_yer:["Nanking (Nanjing)"], t:"0548-01-01", tur:"isyan", b:"Doğu Wei'den sığınan general Hou Jing yaz 548'de Liang'a isyan eder.", kaynak:"Zizhi Tongjian geleneği; ikincil özet (ctext/Hou Jing isyanı anlatıları); gün doğrulanamadı" },
     { odak_yer:["Nanking (Nanjing)"], t:"0549-01-01", tur:"siyaset", b:"Hou Jing Jiankang'ı ve Taicheng sarayını alır; İmparator Wu tutsak ölür, Xiao Gang (Jianwen) Hou Jing denetiminde tahta çıkarılır.", kaynak:"Zizhi Tongjian geleneği; ikincil özet; gün doğrulanamadı" },
@@ -20157,14 +20157,14 @@ window.DEVLETLER = [
     { odak_yer:["Nanking (Nanjing)"], t:"0555-01-01", tur:"siyaset", b:"Chen Baxian, Hou Jing'i yenen general Wang Sengbian'a karşı darbe yapar ve iktidarı ele geçirir; Xiao Fangzhi (Jing) imparator yapılır.", kaynak:"ikincil özet (Zizhi Tongjian geleneği); gün doğrulanamadı" },
     { odak_yer:["Nanking (Nanjing)"], t:"0557-01-01", tur:"son", b:"Chen Baxian, İmparator Jing'i tahttan feragate zorlayıp Chen hanedanını kurar; Liang sona erer.", kaynak:"ikincil özet (Zizhi Tongjian geleneği); Britannica Nan-Liang https://www.britannica.com/topic/Nan-Liang-dynasty (403, okunamadı)" }
   ] },
-{ id:"chen", ad:"Chen Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0557-01-01", t:"0589-01-01", baskent:"Jiankang", ozet:"Guney Hanedanlarinin sonuncusu; 589'da Sui fethetti.", kaynak:"https://www.britannica.com/event/Southern-Dynasties ; https://www.britannica.com/place/China/The-Sui-dynasty", kronoloji:[
+{ id:"chen", ad:"Chen Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0557-01-01", t:"0589-02-02", baskent:"Jiankang", ozet:"Guney Hanedanlarinin sonuncusu; 589'da Sui fethetti.", kaynak:"https://www.britannica.com/event/Southern-Dynasties ; https://www.britannica.com/place/China/The-Sui-dynasty", kronoloji:[
     { odak_yer:["Nanking (Nanjing)"], t:"0557-01-01", tur:"kurulus", b:"Chen Baxian, Liang tahtını alıp Chen Hanedanı'nı kurdu (Jiankang).", kaynak:"https://www.britannica.com/event/Southern-Dynasties" },
     { odak_yer:["Nanking (Nanjing)"], t:"0559-01-01", tur:"hukumdar", b:"Chen Baxian öldü; yeğeni Chen Qian (İmparator Wen) tahta çıktı.", kaynak:"https://www.britannica.com/event/Southern-Dynasties" },
     { odak_yer:["Nanking (Nanjing)"], t:"0582-01-01", tur:"hukumdar", b:"Chen Shubao (Houzhu) tahta çıktı; Chen'in son hükümdarı.", kaynak:"https://www.britannica.com/event/Southern-Dynasties" },
     { odak_yer:["Nanking (Nanjing)"], t:"0588-01-01", tur:"savas", b:"Sui, Yangzi kıyısında yaklaşık 518.000 askerle Chen'e karşı sefer hazırlığını tamamladı.", kaynak:"https://www.britannica.com/place/China/The-Sui-dynasty" },
     { odak_yer:["Nanking (Nanjing)"], t:"0589-01-01", tur:"son", b:"Sui orduları Jiankang'a girdi, Chen Shubao teslim oldu; Chen sona erdi.", kaynak:"https://www.britannica.com/place/China/The-Sui-dynasty" }
   ] },
-{ id:"sui", ad:"Sui Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0581-01-01", t:"0618-01-01", baskent:"Daxing / Luoyang", ozet:"Cin'i 581'de yeniden birlestiren hanedan (589'da Chen'i fethetti). Gun (581-03-04) ve t gunu (618-06-18) Brit'te dogrulanamadi: yil hassasiyeti.", kaynak:"https://www.britannica.com/place/China/The-Sui-dynasty", kronoloji:[
+{ id:"sui", ad:"Sui Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0581-01-01", t:"0619-05-25", baskent:"Daxing / Luoyang", ozet:"Cin'i 581'de yeniden birlestiren hanedan (589'da Chen'i fethetti). Gun (581-03-04) ve t gunu (618-06-18) Brit'te dogrulanamadi: yil hassasiyeti.", kaynak:"https://www.britannica.com/place/China/The-Sui-dynasty", kronoloji:[
     { odak_yer:["Luoyang"], t:"0581-01-01", tur:"kurulus", b:"Yang Jian, Kuzey Zhou tahtını alıp İmparator Wen olarak Sui'yi kurdu.", kaynak:"https://www.britannica.com/place/China/The-Sui-dynasty" },
     { odak_yer:["Luoyang"], t:"0589-01-01", tur:"toprak-kazanc", b:"Chen'in fethiyle Çin yaklaşık üç buçuk yüzyıl sonra yeniden birleşti.", kaynak:"https://www.britannica.com/place/China/The-Sui-dynasty" },
     { odak_yer:["Luoyang"], t:"0605-01-01", tur:"siyaset", b:"Büyük Kanal inşası Yang Guang döneminde başladı.", kaynak:"https://www.britannica.com/place/China/The-Sui-dynasty" },
@@ -20172,7 +20172,7 @@ window.DEVLETLER = [
     { odak_yer:["Luoyang"], t:"0614-01-01", tur:"savas", b:"Goguryeo seferleri yenilgiyle bitti; halk isyanları yayıldı.", kaynak:"https://www.britannica.com/place/China/The-Sui-dynasty" },
     { odak_yer:["Taiyuan"], t:"0617-01-01", tur:"isyan", b:"Taiyuan valisi Li Yuan isyan edip başkent Daxing'i aldı.", kaynak:"https://www.britannica.com/place/China/The-Sui-dynasty" }
   ] },
-{ id:"tang", ad:"Tang Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0618-01-01", t:"0907-01-01", baskent:"Chang'an", ozet:"618-907 (Brit Wuhou maddesi). Wu Zetian'in Zhou kesintisi (690-705) ayri kayit.", kaynak:"https://www.britannica.com/summary/Wuhou", kronoloji:[
+{ id:"tang", ad:"Tang Hanedani", tur:"imparatorluk", bolge:"dogu-asya", f:"0617-12-12", t:"0907-06-01", baskent:"Chang'an", ozet:"618-907 (Brit Wuhou maddesi). Wu Zetian'in Zhou kesintisi (690-705) ayri kayit.", kaynak:"https://www.britannica.com/summary/Wuhou", kronoloji:[
     { odak_yer:["Xi'an"], t:"0618-01-01", tur:"kurulus", b:"Li Yuan (Gaozu) Sui'yi devirip Tang Hanedanı'nı kurdu (Chang'an).", kaynak:"https://www.britannica.com/summary/Wuhou" },
     { odak_yer:["Xi'an"], t:"0626-01-01", tur:"hukumdar", b:"Li Shimin (Taizong) Gaozu'nun yerine geçti.", kaynak:"https://www.britannica.com/summary/Wuhou" },
     { odak_yer:["Xi'an"], t:"0690-01-01", tur:"siyaset", b:"Wu Zetian Tang'ın yerine Zhou'yu ilan etti; Tang 705'e dek kesintiye uğradı.", kaynak:"https://www.britannica.com/summary/Wuhou" },
@@ -20182,13 +20182,13 @@ window.DEVLETLER = [
     { odak_yer:["Xi'an"], t:"0875-01-01", tur:"isyan", b:"Huang Chao isyanı başladı; Tang fiilen çözülmeye yöneldi.", kaynak:"https://www.britannica.com/summary/Wuhou" },
     { odak_yer:["Xi'an"], t:"0907-01-01", tur:"son", b:"Zhu Wen Tang tahtını gasp edip Sonraki Liang'ı kurdu; Tang sona erdi.", kaynak:"https://www.britannica.com:443/print/article/208994" }
   ] },
-{ id:"wu-zhou", ad:"Wu Zhou (Wu Zetian)", tur:"imparatorluk", bolge:"dogu-asya", f:"0690-01-01", t:"0705-01-01", baskent:"Luoyang", ozet:"Wu Zetian 690'da Tang yerine Zhou'yu ilan etti; Subat 705'te Zhongzong'a devredildi, Tang yeniden kuruldu (Brit). Gun/ay bulunamadi: yil hassasiyeti; t ayi Subat 705.", kaynak:"https://www.britannica.com/place/China/Rise-of-the-empress-Wuhou ; https://www.britannica.com/summary/Wuhou", kronoloji:[
+{ id:"wu-zhou", ad:"Wu Zhou (Wu Zetian)", tur:"imparatorluk", bolge:"dogu-asya", f:"0690-01-01", t:"0705-03-03", baskent:"Luoyang", ozet:"Wu Zetian 690'da Tang yerine Zhou'yu ilan etti; Subat 705'te Zhongzong'a devredildi, Tang yeniden kuruldu (Brit). Gun/ay bulunamadi: yil hassasiyeti; t ayi Subat 705.", kaynak:"https://www.britannica.com/place/China/Rise-of-the-empress-Wuhou ; https://www.britannica.com/summary/Wuhou", kronoloji:[
     { odak_yer:["Luoyang"], t:"0690-10-16", tur:"kurulus", b:"Wu Zetian Tang yerine Zhou Hanedanı'nı ilan edip kendini imparator ilan etti.", kaynak:"https://www.britannica.com/place/China/Rise-of-the-empress-Wuhou" },
     { odak_yer:["Luoyang"], t:"0690-10-16", tur:"hukumdar", b:"Tang İmparatoru Ruizong tahttan çekilip veliaht konumuna alındı.", kaynak:"https://www.britannica.com/place/China/Rise-of-the-empress-Wuhou" },
     { odak_yer:["Luoyang"], t:"0698-01-01", tur:"siyaset", b:"Zhongzong veliaht olarak geri çağrıldı; Tang soyuna dönüş zemini hazırlandı.", kaynak:"https://www.britannica.com/place/China/Rise-of-the-empress-Wuhou" },
     { odak_yer:["Luoyang"], t:"0705-01-01", tur:"son", b:"Wu Zetian darbeyle devrildi, Zhongzong'a devretti; Tang yeniden kuruldu.", kaynak:"https://www.britannica.com/place/China/Rise-of-the-empress-Wuhou ; https://www.britannica.com/summary/Wuhou" }
   ] },
-{ id:"sonraki-liang-5hanedan", ad:"Sonraki Liang (Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0907-01-01", t:"0923-01-01", baskent:"Kaifeng", ozet:"Zhu Wen 907'de Tang tahtini gasp edip kurdu; Li Cunxu 923'te devirdi.", kaynak:"https://www.britannica.com:443/print/article/208994", kronoloji:[
+{ id:"sonraki-liang-5hanedan", ad:"Sonraki Liang (Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0907-01-01", t:"0923-12-31", baskent:"Kaifeng", ozet:"Zhu Wen 907'de Tang tahtini gasp edip kurdu; Li Cunxu 923'te devirdi.", kaynak:"https://www.britannica.com:443/print/article/208994", kronoloji:[
     { odak_yer:["Kaifeng"], t:"0907-01-01", tur:"kurulus", b:"Zhu Wen Tang tahtını gasp edip Sonraki Liang'ı kurdu (Kaifeng).", kaynak:"https://www.britannica.com:443/print/article/208994" },
     { odak_yer:["Kaifeng"], t:"0908-01-01", tur:"siyaset", b:"Zhu Wen, tahttan indirdiği Tang imparatorunu (Jiyin Prensi) zehirletti.", kaynak:"https://en.wikipedia.org/wiki/Zhu_Wen; https://www.britannica.com/biography/Zhu-Wen" },
     { odak_yer:["Kaifeng"], t:"0908-01-01", tur:"savas", b:"Li Keyong'un ölümünün ardından Li Cunxu'nun saldırısı Zhu Wen'in Lu Eyaleti kuşatmasını kaldırttı.", kaynak:"https://en.wikipedia.org/wiki/Zhu_Wen (Zizhi Tongjian)" },
@@ -20201,26 +20201,26 @@ window.DEVLETLER = [
     { odak_yer:["Kaifeng"], t:"0919-01-01", tur:"savas", b:"Li Cunxu Sarı Irmak'ı geçti; Huliu Yamacı'nda iki taraf da ağır kayıp verdi.", kaynak:"https://en.wikipedia.org/wiki/Zhu_Youzhen (Zizhi Tongjian c.270)" },
     { odak_yer:["Kaifeng"], t:"0923-01-01", tur:"son", b:"Li Cunxu (Shatuo) Sonraki Liang'ı yıkıp Sonraki Tang'ı ilan etti.", kaynak:"https://www.britannica.com:443/print/article/208994" }
   ] },
-{ id:"sonraki-tang-5hanedan", ad:"Sonraki Tang (Shatuo, Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0923-01-01", t:"0936-01-01", baskent:"Luoyang", ozet:"Li Cunxu 923'te kurdu; Shi Jingtang Kitan yardimiyla devirip Sonraki Jin'i kurdu (aday t 937: DUZELTILDI 936, Toronto Sonraki Jin 936).", kaynak:"https://www.britannica.com:443/print/article/208994 ; Toronto east.library.utoronto.ca/node/28218", kronoloji:[
+{ id:"sonraki-tang-5hanedan", ad:"Sonraki Tang (Shatuo, Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0923-01-01", t:"0937-01-11", baskent:"Luoyang", ozet:"Li Cunxu 923'te kurdu; Shi Jingtang Kitan yardimiyla devirip Sonraki Jin'i kurdu (aday t 937: DUZELTILDI 936, Toronto Sonraki Jin 936).", kaynak:"https://www.britannica.com:443/print/article/208994 ; Toronto east.library.utoronto.ca/node/28218", kronoloji:[
     { odak_yer:["Luoyang"], t:"0923-01-01", tur:"kurulus", b:"Li Cunxu Sonraki Tang'ı ilan edip Sonraki Liang'ı yıktı (Luoyang).", kaynak:"https://www.britannica.com:443/print/article/208994" },
     { odak_yer:["Luoyang"], t:"0926-01-01", tur:"hukumdar", b:"Li Cunxu isyanda öldürüldü; evlatlığı Li Siyuan tahta çıktı.", kaynak:"https://www.britannica.com:443/print/article/208994" },
     { odak_yer:["Luoyang"], t:"0936-01-01", tur:"toprak-kayip", b:"Shi Jingtang Kitan desteğiyle isyan edip Sonraki Tang'ı yıktı; Kitan'a On Altı Vilayet verildi.", kaynak:"https://www.britannica.com:443/print/article/208994 ; Toronto east.library.utoronto.ca/node/28218" },
     { odak_yer:["Luoyang"], t:"0936-01-01", tur:"son", b:"Sonraki Tang sona erdi; Sonraki Jin kuruldu.", kaynak:"Toronto east.library.utoronto.ca/node/28218" }
   ] },
-{ id:"sonraki-jin-5hanedan", ad:"Sonraki Jin (Shatuo, Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0936-01-01", t:"0947-01-01", baskent:"Kaifeng", ozet:"936-947 (Toronto); Kitanlar 946'da yeniden isgal edip hukumdari esir aldi (Brit), Sonraki Han 947'de kuruldu.", kaynak:"Toronto east.library.utoronto.ca/node/28218 ; Brit print/article/208994", kronoloji:[
+{ id:"sonraki-jin-5hanedan", ad:"Sonraki Jin (Shatuo, Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0936-01-01", t:"0947-03-10", baskent:"Kaifeng", ozet:"936-947 (Toronto); Kitanlar 946'da yeniden isgal edip hukumdari esir aldi (Brit), Sonraki Han 947'de kuruldu.", kaynak:"Toronto east.library.utoronto.ca/node/28218 ; Brit print/article/208994", kronoloji:[
     { odak_yer:["Kaifeng"], t:"0936-01-01", tur:"kurulus", b:"Shi Jingtang Kitan yardımıyla Sonraki Jin'i kurdu (Kaifeng).", kaynak:"Toronto east.library.utoronto.ca/node/28218 ; Brit print/article/208994" },
     { odak_yer:["Kaifeng"], t:"0936-01-01", tur:"vassal", b:"Kitan'a On Altı Vilayet bırakıldı ve Kitan'a bağımlılık kabul edildi.", kaynak:"https://www.britannica.com:443/print/article/208994" },
     { odak_yer:["Kaifeng"], t:"0942-01-01", tur:"hukumdar", b:"Shi Chonggui tahta çıktı ve Kitan'a bağımlılığı bıraktı.", kaynak:"https://www.britannica.com:443/print/article/208994" },
     { odak_yer:["Kaifeng"], t:"0946-01-01", tur:"isgal", b:"Kitanlar Sonraki Jin'e yeniden saldırıp başkent Kaifeng'i aldı, hükümdarı esir etti.", kaynak:"https://www.britannica.com:443/print/article/208994" },
     { odak_yer:["Kaifeng"], t:"0947-01-01", tur:"son", b:"Sonraki Jin sona erdi; Liu Zhiyuan Sonraki Han'ı ilan etti.", kaynak:"Toronto east.library.utoronto.ca/node/28218" }
   ] },
-{ id:"sonraki-han-5hanedan", ad:"Sonraki Han (Shatuo, Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0947-01-01", t:"0951-01-01", baskent:"Kaifeng", ozet:"Liu Zhiyuan 947'de kurdu (Brit); dort yil sonra Sonraki Zhou kuruldu.", kaynak:"https://www.britannica.com:443/print/article/208994", kronoloji:[
+{ id:"sonraki-han-5hanedan", ad:"Sonraki Han (Shatuo, Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0947-01-01", t:"0951-02-13", baskent:"Kaifeng", ozet:"Liu Zhiyuan 947'de kurdu (Brit); dort yil sonra Sonraki Zhou kuruldu.", kaynak:"https://www.britannica.com:443/print/article/208994", kronoloji:[
     { odak_yer:["Taiyuan","Kaifeng"], t:"0947-01-01", tur:"kurulus", b:"Liu Zhiyuan Taiyuan'da imparator ilan edip Sonraki Han'ı kurdu; Kaifeng'e yürüdü.", kaynak:"https://www.britannica.com:443/print/article/208994" },
     { odak_yer:["Kaifeng"], t:"0948-01-01", tur:"hukumdar", b:"Liu Zhiyuan öldü; oğlu Liu Chengyou tahta çıktı.", kaynak:"https://www.britannica.com:443/print/article/208994" },
     { odak_yer:["Kaifeng"], t:"0950-01-01", tur:"isyan", b:"General Guo Wei ordu desteğiyle Liu Chengyou'ya karşı harekete geçti.", kaynak:"https://www.britannica.com:443/print/article/208994" },
     { odak_yer:["Kaifeng"], t:"0951-01-01", tur:"son", b:"Guo Wei tahtı alıp Sonraki Zhou'yu kurdu; Sonraki Han sona erdi.", kaynak:"https://www.britannica.com:443/print/article/208994" }
   ] },
-{ id:"sonraki-zhou-5hanedan", ad:"Sonraki Zhou (Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0951-01-01", t:"0960-01-01", baskent:"Kaifeng", ozet:"951-960 (Toronto); Zhao Kuangyin 960'ta Song'u kurdu (Brit).", kaynak:"Toronto east.library.utoronto.ca/node/28218 ; Brit print/article/208994", kronoloji:[
+{ id:"sonraki-zhou-5hanedan", ad:"Sonraki Zhou (Bes Hanedan)", tur:"hanedan", bolge:"dogu-asya", f:"0951-01-01", t:"0960-02-04", baskent:"Kaifeng", ozet:"951-960 (Toronto); Zhao Kuangyin 960'ta Song'u kurdu (Brit).", kaynak:"Toronto east.library.utoronto.ca/node/28218 ; Brit print/article/208994", kronoloji:[
     { odak_yer:["Kaifeng"], t:"0951-01-01", tur:"kurulus", b:"Guo Wei Sonraki Han'ı devirip Sonraki Zhou'yu kurdu (gün kaynakta kesin değil).", kaynak:"https://en.osgeo.cn/map/m0505 ; Toronto east.library.utoronto.ca/node/28218" },
     { odak_yer:["Kaifeng"], t:"0954-01-01", tur:"hukumdar", b:"Guo Wei öldü, evlatlığı Chai Rong tahta çıktı.", kaynak:"https://en.osgeo.cn/map/m0505 (yıl; gün bulunamadı)" },
     { odak_yer:["Kaifeng"], t:"0954-01-01", tur:"savas", b:"Gaoping Muharebesi: Chai Rong Kuzey Han ve Liao kuvvetlerini yendi.", kaynak:"https://en.osgeo.cn/map/m0505 (yıl; gün bulunamadı)" },
@@ -20795,14 +20795,14 @@ window.DEVLETLER = [
     { odak_yer:["Lhasa"], t:"0836-01-01", tur:"hukumdar", b:"Ralpachen suikastla öldürüldü.", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" },
     { odak_yer:["Yarlung"], t:"0842-01-01", tur:"son", b:"Langdarma öldürüldü; imparatorluk parçalandı, Yumtan Yarlung'da rakip krallık kurdu.", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" }
   ] },
-{ id:"yang-wu", ad:"Wu (Yang Wu) Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0902-01-01", t:"0937-01-01", ozet:"On Krallık dönemi Yangtze orta-aşağı havzası krallığı, 937'de Güney Tang'a devrildi.", kaynak:"https://www.britannica.com/topic/Wu-ancient-kingdom-China-902-937 ; https://www.britannica.com/place/Southern-Tang", kronoloji:[
+{ id:"yang-wu", ad:"Wu (Yang Wu) Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0902-01-01", t:"0937-11-10", ozet:"On Krallık dönemi Yangtze orta-aşağı havzası krallığı, 937'de Güney Tang'a devrildi.", kaynak:"https://www.britannica.com/topic/Wu-ancient-kingdom-China-902-937 ; https://www.britannica.com/place/Southern-Tang", kronoloji:[
     { odak_yer:["Yangzhou"], t:"0904-01-01", tur:"kurulus", b:"Yang Xingmi Wu krallığını kurdu (kaynak 904; künye 902).", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Yangzhou"], t:"0905-01-01", tur:"hukumdar", b:"Yang Wo hükümdar oldu (905-908).", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Yangzhou"], t:"0908-01-01", tur:"hukumdar", b:"Yang Longyan hükümdar oldu (908-921).", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Yangzhou"], t:"0921-01-01", tur:"hukumdar", b:"Yang Pu hükümdar oldu (921-937).", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Yangzhou"], t:"0937-01-01", tur:"son", b:"Güney Tang Wu'yu ele geçirdi.", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" }
   ] },
-{ id:"guney-tang", ad:"Güney Tang (Nan Tang) Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0937-01-01", t:"0975-01-01", ozet:"Wu'nun yerine 937'de kurulan On Krallık devleti; Britannica bitişi 975/976 verir (Song'a yenildi), alt tarih 975 alınmıştır, yıl hassasiyeti.", kaynak:"https://www.britannica.com/place/Southern-Tang", kronoloji:[
+{ id:"guney-tang", ad:"Güney Tang (Nan Tang) Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0937-01-01", t:"0976-01-01", ozet:"Wu'nun yerine 937'de kurulan On Krallık devleti; Britannica bitişi 975/976 verir (Song'a yenildi), alt tarih 975 alınmıştır, yıl hassasiyeti.", kaynak:"https://www.britannica.com/place/Southern-Tang", kronoloji:[
     { odak_yer:["Nanking (Nanjing)"], t:"0937-11-11", tur:"kurulus", b:"Xu Gao (Li Bian), Yang Wu'nun yerine resmen tahta çıkar; Güney Tang'ın temeli atılır.", kaynak:"Kurz, Johannes (2014), s.602-603 (Wikipedia 'Southern Tang' alıntısıyla)" },
     { odak_yer:["Nanking (Nanjing)"], t:"0939-01-01", tur:"siyaset", b:"Li Bian devlet adını Büyük Tang (Da Tang) yapar ve Tang soyundan geldiğini ilan eder.", kaynak:"Kurz (2014), s.602-603 ; https://en.wikipedia.org/wiki/Southern_Tang" },
     { odak_yer:["Nanking (Nanjing)"], t:"0943-01-01", tur:"hukumdar", b:"Li Bian ölür; oğlu Li Jing tahta çıkar.", kaynak:"Kurz, Johannes (2011a), s.38 ; https://en.wikipedia.org/wiki/Southern_Tang" },
@@ -20823,7 +20823,7 @@ window.DEVLETLER = [
     { odak_yer:["Jingzhou (Jiangling)"], t:"0962-01-01", tur:"hukumdar", b:"Gao Jichong, Jingnan'ın son hükümdarı olur.", kaynak:"https://en.wikipedia.org/wiki/Jingnan ; https://en.wikipedia.org/wiki/Gao_Jichong (ikincil)" },
     { odak_yer:["Chenzhou"], t:"0963-01-01", tur:"son", b:"Song ordusu Hunan seferi için geçiş bahanesiyle Jiangling'i alır; Gao Jichong teslim olur, Nanping On Krallık'tan ilk fethedilen devlet olur.", kaynak:"https://en.wikipedia.org/wiki/Gao_Jichong ; https://en.wikipedia.org/wiki/Jingnan (ikincil)" }
   ] },
-{ id:"chu-ma", ad:"Chu (Ma Chu) Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0927-01-01", t:"0951-01-01", ozet:"On Krallık dönemi Hunan krallığı, Britannica 927-951.", kaynak:"https://www.britannica.com/place/Chu-historical-state-China-AD-927-951", kronoloji:[
+{ id:"chu-ma", ad:"Chu (Ma Chu) Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0894-01-01", t:"0951-11-17", ozet:"On Krallık dönemi Hunan krallığı, Britannica 927-951.", kaynak:"https://www.britannica.com/place/Chu-historical-state-China-AD-927-951", kronoloji:[
     { odak_yer:["Changsha"], t:"0927-01-01", tur:"siyaset", b:"Kuzeydeki Geç Tang, Ma Yin'in Chu prensliğini onaylar (Ma Yin 907'den beri Chu prensi).", kaynak:"https://en.wikipedia.org/wiki/Ma_Chu (ikincil; Mote 1999, s.15)" },
     { odak_yer:["Changsha"], t:"0930-01-01", tur:"hukumdar", b:"Ma Xisheng tahta çıkar (930-932).", kaynak:"ChinaKnowledge.de (Ulrich Theobald), «Chu 楚 (Ten States) rulers» http://www.chinaknowledge.de/History/Tang/rulers-chu.html — «The Prince of Hengyang 衡陽王 (r. 930-931) Ma Xisheng 馬希聲» ; https://en.wikipedia.org/wiki/Ma_Chu (ikincil)" },
     { odak_yer:["Changsha"], t:"0932-01-01", tur:"hukumdar", b:"Ma Xifan tahta çıkar (932-947).", kaynak:"ChinaKnowledge.de (Ulrich Theobald), «Chu 楚 (Ten States) rulers» http://www.chinaknowledge.de/History/Tang/rulers-chu.html — «Chu Wenzhaowang 楚文昭王 (r. 932-946) Ma Xifan 馬希範» ; https://en.wikipedia.org/wiki/Ma_Chu (ikincil)" },
@@ -20850,7 +20850,7 @@ window.DEVLETLER = [
     { odak_yer:["Chengdu"], t:"0955-01-01", tur:"toprak-kayip", b:"Geç Zhou (Guo Rong) Qin, Cheng, Jie ve Feng vilayetlerini Shu'dan aldı; Meng Chang'ın barış talebi reddedildi.", kaynak:"https://en.wikipedia.org/wiki/Meng_Chang (Zizhi Tongjian 292) ; http://www.chinaknowledge.de/History/Tang/rulers-houshu.html" },
     { odak_yer:["Chengdu"], t:"0964-12-08", tur:"savas", b:"Song ordusu (Wang Quanbin, Liu Guangyi, Cao Bin) Shu seferine başlar; kısa sürede Sichuan ele geçirilir.", kaynak:"https://en.wikipedia.org/wiki/Song_conquest_of_Later_Shu (ikincil; sefer 964-12-08 / 965-02-11)" }
   ] },
-{ id:"min-krallik", ad:"Min Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0909-01-01", t:"0945-01-01", ozet:"On Krallık dönemi Fujian krallığı, Britannica 909-945.", kaynak:"https://www.britannica.com/place/Southern-Tang (On Krallık dökümü) ; Britannica Ten Kingdoms tablosu", kronoloji:[
+{ id:"min-krallik", ad:"Min Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0892-01-01", t:"0946-08-30", ozet:"On Krallık dönemi Fujian krallığı, Britannica 909-945.", kaynak:"https://www.britannica.com/place/Southern-Tang (On Krallık dökümü) ; Britannica Ten Kingdoms tablosu", kronoloji:[
     { odak_yer:["Fuzhou"], t:"0909-01-01", tur:"kurulus", b:"Wang Shenzhi Changle'de (Fuzhou) Min krallığını kurdu.", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Fuzhou"], t:"0925-01-01", tur:"hukumdar", b:"Wang Shenzhi öldü; Wang Yanhan yaklaşık iki ay sonra devrilip öldürüldü.", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Fuzhou"], t:"0933-01-01", tur:"hukumdar", b:"Wang Yanjun (Yanhan'ın kardeşi) kendini Min imparatoru ilan etti; bundan sonra hükümdarlar komutan ve bakanların denetimine girdi.", kaynak:"http://www.chinaknowledge.de/History/Tang/rulers-min.html ; Schafer, The Empire of Min (1954); https://en.wikipedia.org/wiki/Min_(Ten_Kingdoms) (infobox: 933)" },
@@ -20874,14 +20874,14 @@ window.DEVLETLER = [
     { odak_yer:["Kanton (Guangzhou)"], t:"0958-01-01", tur:"hukumdar", b:"Liu Chang hükümdar oldu.", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Kanton (Guangzhou)"], t:"0971-01-01", tur:"son", b:"Güney Han Song hakimiyetine boyun eğmek zorunda kaldı.", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" }
   ] },
-{ id:"wuyue", ad:"Wuyue Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0907-01-01", t:"0978-01-01", ozet:"Aşağı Yangtze deltasında On Krallık dönemi krallığı, Britannica 907-978.", kaynak:"https://www.britannica.com/place/Northern-Han (Wu-Yue dökümü) ; Britannica Ten Kingdoms", kronoloji:[
+{ id:"wuyue", ad:"Wuyue Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0907-01-01", t:"0978-06-09", ozet:"Aşağı Yangtze deltasında On Krallık dönemi krallığı, Britannica 907-978.", kaynak:"https://www.britannica.com/place/Northern-Han (Wu-Yue dökümü) ; Britannica Ten Kingdoms", kronoloji:[
     { odak_yer:["Hangzhou"], t:"0907-01-01", tur:"kurulus", b:"Qian Liu Wuyue krallığını kurdu (907-932).", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Hangzhou"], t:"0932-01-01", tur:"hukumdar", b:"Qian Yuanguan hükümdar oldu.", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Hangzhou"], t:"0941-01-01", tur:"hukumdar", b:"Qian Zuo hükümdar oldu.", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Hangzhou"], t:"0947-01-01", tur:"hukumdar", b:"Qian Chu hükümdar oldu (947-978).", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" },
     { odak_yer:["Hangzhou"], t:"0978-01-01", tur:"son", b:"Qian Chu Song hanedanına teslim oldu.", kaynak:"https://www.chinahighlights.com/travelguide/china-history/five-dynasties-and-ten-kingdoms.htm" }
   ] },
-{ id:"kuzey-wei", ad:"Kuzey Wei (Tuoba/Tabgaç) Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0386-01-01", t:"0534-01-01", baskent:"Datong (sonra Luoyang)", ozet:"Kuzey Çin'in en uzun ömürlü ve güçlü Tuoba hanedanı; 534/535'te Doğu ve Batı Wei'ye bölündü (alt sınır 534).", kaynak:"https://www.britannica.com/topic/Wei-dynasty ; https://www.britannica.com/event/Six-Dynasties", kronoloji:[
+{ id:"kuzey-wei", ad:"Kuzey Wei (Tuoba/Tabgaç) Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0386-01-01", t:"0535-01-20", baskent:"Datong (sonra Luoyang)", ozet:"Kuzey Çin'in en uzun ömürlü ve güçlü Tuoba hanedanı; 534/535'te Doğu ve Batı Wei'ye bölündü (alt sınır 534).", kaynak:"https://www.britannica.com/topic/Wei-dynasty ; https://www.britannica.com/event/Six-Dynasties", kronoloji:[
     { odak_yer:["Datong"], t:"0386-01-01", tur:"kurulus", b:"Tuoba Gui Tuoba yönetimini yeniden kurup Kuzey Wei'yi ilan etti.", kaynak:"https://worldhistoryedu.com/what-was-the-northern-wei-dynasty/" },
     { odak_yer:["Datong"], t:"0398-01-01", tur:"baskent", b:"Başkent Pingcheng'e (Datong) taşındı.", kaynak:"https://worldhistoryedu.com/what-was-the-northern-wei-dynasty/" },
     { odak_yer:["Luoyang"], t:"0495-01-01", tur:"baskent", b:"Xiaowen sarayı Luoyang'a taşıdı; Çinleştirme politikası.", kaynak:"Britannica 'Wei dynasty' (By 495, the Wei … transferred their capital to the ancient Chinese city of Luoyang); Britannica 'Luoyang' (revived in 495 by the Xiaowendi emperor)", ic_not:"494: ikincil kaynaklarda saray tasima baslangici; Britannica iki maddede 495. Cambridge/Wei shu dogrulanamadi (bulunamadi)." },
@@ -20897,7 +20897,7 @@ window.DEVLETLER = [
     { odak_yer:["Ye"], t:"0547-02-13", tur:"hukumdar", b:"Doğu Wei'nin fiilî yöneticisi Gao Huan öldü (13/17 Şubat, kaynaklar ayrışır); ölümü bir süre gizlendi ve Gao Cheng yönetimi aldı.", kaynak:"Bei Qi shu; Bei shi; https://en.wikipedia.org/wiki/Gao_Huan" },
     { odak_yer:["Ye"], t:"0549-01-01", tur:"siyaset", b:"Gao Huan'ın varisi Gao Cheng kölesi Lan Jing tarafından öldürüldü; yönetim Gao Yang'a geçti.", kaynak:"ChinaKnowledge.de (Ulrich Theobald), «Hou Jing 侯景» http://www.chinaknowledge.de/History/Division/personshoujing.html — «Gao's son, Gao Cheng 高澄 (521-549)» ; https://en.wikipedia.org/wiki/Emperor_Wenxuan_of_Northern_Qi; https://en.wikipedia.org/wiki/Eastern_Wei" }
   ] },
-{ id:"bati-wei", ad:"Batı Wei Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0535-01-01", t:"0557-01-01", baskent:"Chang'an", ozet:"Kuzey Wei'nin batı kolu, Chang'an başkentli; Britannica 535-556/557 (alt sınır 557).", kaynak:"https://www.britannica.com/event/Six-Dynasties", kronoloji:[
+{ id:"bati-wei", ad:"Batı Wei Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0535-01-01", t:"0557-02-15", baskent:"Chang'an", ozet:"Kuzey Wei'nin batı kolu, Chang'an başkentli; Britannica 535-556/557 (alt sınır 557).", kaynak:"https://www.britannica.com/event/Six-Dynasties", kronoloji:[
     { odak_yer:["Xi'an"], t:"0535-01-01", tur:"kurulus", b:"Yuwen Tai Chang'an'da Yuan Baoju'yu İmparator Wen yaparak Batı Wei'yi kurdu.", kaynak:"ChinaKnowledge.de (Ulrich Theobald), «Western Wei 西魏» http://www.chinaknowledge.de/History/Division/xiwei-rulers.html — «Yuwen Tai killed him and installed Prince Yuan Baoju as emperor of the Wei dynasty» ; https://www.asiaculturaltravel.co.uk/the-northern-dynasties/" },
     { odak_yer:["Xi'an"], t:"0537-01-01", tur:"savas", b:"Yuwen Tai, çok daha kalabalık Doğu Wei ordusunu Shayuan'da yendi; Guanzhong Batı Wei'de kaldı.", kaynak:"ChinaKnowledge.de (Ulrich Theobald), «Eastern Wei 東魏» http://www.chinaknowledge.de/History/Division/dongwei-rulers.html — «In the same year the battle of Shayuan 沙苑 … brought no decision» ; https://en.wikipedia.org/wiki/Battle_of_Shayuan; https://en.wikipedia.org/wiki/Yuwen_Tai" },
     { odak_yer:["Xi'an"], t:"0546-01-01", tur:"savas", b:"Wei Xiaokuan, Yubi kalesini Doğu Wei'nin Gao Huan komutasındaki büyük ordusuna karşı savundu; kuşatma kaldırıldı.", kaynak:"ChinaKnowledge.de (Ulrich Theobald), «Eastern Wei 東魏» http://www.chinaknowledge.de/History/Division/dongwei-rulers.html — «In 546 Gao Huan personally led an army to besiege the city of Yubi 玉壁» ; https://en.wikipedia.org/wiki/Wei_Xiaokuan; https://en.wikipedia.org/wiki/Yuwen_Tai" },
@@ -20909,7 +20909,7 @@ window.DEVLETLER = [
     { odak_yer:["Xi'an"], t:"0556-11-21", tur:"hukumdar", b:"Fiilî yönetici Yuwen Tai Qiantun Dağı'nda öldü.", kaynak:"Zhou shu c.2; Bei shi c.9; https://en.wikipedia.org/wiki/Yuwen_Tai" },
     { odak_yer:["Xi'an"], t:"0557-01-01", tur:"son", b:"Batı Wei sona erdi (535-557).", kaynak:"https://www.asiaculturaltravel.co.uk/the-northern-dynasties/" }
   ] },
-{ id:"kuzey-qi", ad:"Kuzey Qi Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0550-01-01", t:"0577-01-01", baskent:"Ye", ozet:"Doğu Wei'nin yerine geçen hanedan; 577'de Kuzey Zhou'ya katıldı (Britannica 550-577).", kaynak:"https://www.britannica.com/event/Six-Dynasties ; https://www.britannica.com/topic/history-of-China/The-Six-Dynasties", kronoloji:[
+{ id:"kuzey-qi", ad:"Kuzey Qi Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0550-01-01", t:"0577-02-23", baskent:"Ye", ozet:"Doğu Wei'nin yerine geçen hanedan; 577'de Kuzey Zhou'ya katıldı (Britannica 550-577).", kaynak:"https://www.britannica.com/event/Six-Dynasties ; https://www.britannica.com/topic/history-of-China/The-Six-Dynasties", kronoloji:[
     { odak_yer:["Ye"], t:"0550-06-09", tur:"kurulus", b:"Gao Yang tahta çıkıp Kuzey Qi'yi kurdu (Doğu Wei'nin yerine).", kaynak:"https://archontology.org/nations/china/northern_qi/00_550_577_s.php" },
     { odak_yer:["Ye"], t:"0559-11-25", tur:"hukumdar", b:"Gao Yang (Wenxuan) öldü; hükümdarlık Gao Yin'e geçti (4 Aralık 559).", kaynak:"https://archontology.org/nations/china/northern_qi/00_550_577_s.php" },
     { odak_yer:["Ye"], t:"0560-09-08", tur:"hukumdar", b:"Gao Yin tahttan indirildi, Gao Yan (Xiaozhao) tahta çıktı.", kaynak:"https://archontology.org/nations/china/northern_qi/00_550_577_s.php" },
@@ -20918,7 +20918,7 @@ window.DEVLETLER = [
     { odak_yer:["Ye"], t:"0577-01-17", tur:"savas", b:"Kuzey Zhou saldırısı karşısında Gao Wei Jinyang'ı terk etti.", kaynak:"https://archontology.org/nations/china/northern_qi/00_550_577_s.php" },
     { odak_yer:["Ye"], t:"0577-01-18", tur:"hukumdar", b:"Gao Yanzong Jinyang'da karşı imparator ilan edildi; 21 Ocak'ta yenilip esir düştü.", kaynak:"https://archontology.org/nations/china/northern_qi/00_550_577_s.php" }
   ] },
-{ id:"kuzey-zhou", ad:"Kuzey Zhou Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0557-01-01", t:"0581-01-01", baskent:"Chang'an", ozet:"Batı Wei'nin yerine kurulan, 577'de kuzeyi birleştiren hanedan; 581'de Sui'ye devrildi.", kaynak:"https://www.britannica.com/event/Six-Dynasties", kronoloji:[
+{ id:"kuzey-zhou", ad:"Kuzey Zhou Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0557-01-01", t:"0581-03-04", baskent:"Chang'an", ozet:"Batı Wei'nin yerine kurulan, 577'de kuzeyi birleştiren hanedan; 581'de Sui'ye devrildi.", kaynak:"https://www.britannica.com/event/Six-Dynasties", kronoloji:[
     { odak_yer:["Xi'an"], t:"0557-02-15", tur:"kurulus", b:"Yuwen Jue tahta çıkarak Kuzey Zhou'yu kurdu (Batı Wei'nin yerine).", kaynak:"https://www.archontology.org/nations/china/northern_zhou/00_557_581_s.php" },
     { odak_yer:["Xi'an"], t:"0557-11-05", tur:"hukumdar", b:"Yuwen Jue indirildi; Yuwen Yu tahta çıktı.", kaynak:"https://www.archontology.org/nations/china/northern_zhou/00_557_581_s.php" },
     { odak_yer:["Xi'an"], t:"0560-05-31", tur:"hukumdar", b:"Yuwen Yong (Wu Di) tahta çıktı.", kaynak:"https://www.archontology.org/nations/china/northern_zhou/00_557_581_s.php" },
@@ -23157,7 +23157,7 @@ window.DEVLETLER = [
   tur:"krallik",
   bolge:"dogu-asya",
   f:"0619-01-01",
-  t:"0621-01-01",
+  t:"0621-06-04",
   baskent:"Luoyang",
   ozet:"Wang Shichong'un 619'da kurduğu Zheng; Tang 621'de yıktı.",
   kaynak:"Liu Xu vd., Jiu Tang shu, juan 53-56 (Li Mi: 號為魏公…二月…即位，稱元年; Wang Shichong: 世充僭即皇帝位，建元曰開明，國號鄭; Xiao Xian: 自稱梁王…義寧二年，僭稱皇帝; Xue Ju: 自稱西秦霸王，建元為秦興) — zh.wikisource.org/wiki/舊唐書/卷53-56 (okundu)",
@@ -28456,7 +28456,7 @@ window.DEVLETLER = [
     { odak_yer:["Liaoyang"], t:"0189-01-01", tur:"kurulus", b:"Gongsun Liaodong Yönetimi (Yan): başlangıç (始度以中平六年據遼東，至淵三世，凡五十年而滅)", kaynak:"Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 始度以中平六年據遼東，至淵三世，凡五十年而滅 · Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 二年春，遣太尉司馬宣王徵淵 … 八月丙寅夜，大流星…墜襄平城東南。壬午，淵眾潰…斬淵父子 · Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 景初元年…淵遂自立為燕王" },
     { odak_yer:["Liaoyang"], t:"0238-01-01", tur:"son", b:"Gongsun Liaodong Yönetimi (Yan): sona erer (壬午，淵眾潰，與其子脩…突圍東南走，…斬淵父子)", kaynak:"Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 始度以中平六年據遼東，至淵三世，凡五十年而滅 · Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 二年春，遣太尉司馬宣王徵淵 … 八月丙寅夜，大流星…墜襄平城東南。壬午，淵眾潰…斬淵父子 · Chen Shou, Sanguo zhi, Wei shu 8 «Er Gongsun Tao Si Zhang zhuan» — zh.wikisource.org/wiki/三國志/卷08 (okundu): 景初元年…淵遂自立為燕王" }
   ] },
-{ id:"hou-zhao", ad:"Sonraki Zhao (後趙)", tur:"krallik", bolge:"dogu-asya", f:"0319-01-01", t:"0351-01-01", baskent:"Xiangguo → Ye", ozet:"Shi Le'nin Zhao kralı ilanı (319); Ran Min darbesi ve çöküş (350-351). [Künye ucu doğrulaması: f: Shi Le 太興二年 (319) Zhao Kralı -> f=319 dogrulandi (Jin shu 105). t: Shi Zhi (Xiangguo'daki son Shi hükümdarı) 永和七年 (351) Liu Xian tarafından öldürüldü (Jin shu 8 yıl başlığı 永和七年; Jin shu 107 olayı Ran Min'in Xiangguo kuşatmasından sonra anlatır) -> t=351. İÇ ÇELİŞKİ: Jin shu 107 kapanış hükmü 'Shi Le 咸和三年 (328) ... 永和五年 (349) 滅, 凡二十三年' der (Shi Hu'nun ölümüyle devlet ‘bitti’ sayar, Shi Zhi hattını saymaz); atlas 319/351 olay-bazlı ve Jin shu 8 ile uyumlu. Shi Jian/Ran Min (349-350) ve Shi Zhi]", kaynak:"Fang Xuanling vd., Jin shu, juan 105 — zh.wikisource.org/wiki/晉書/卷105 (okundu) «Zaiji 5 Shi Le»: 太興二年，勒偽稱趙王… 乃僭即皇帝位，改元曰建平 · Fang Xuanling vd., Jin shu, juan 8 — zh.wikisource.org/wiki/晉書/卷008 (okundu) (Mu di ji), 永和七年: 劉顯殺石祗 · Fang Xuanling vd., Jin shu, juan 107 — zh.wikisource.org/wiki/晉書/卷107 (okundu) «Zaiji 7»: 劉顯果殺祗及其太宰趙鹿等十餘人，傳首於鄴",
+{ id:"hou-zhao", ad:"Sonraki Zhao (後趙)", tur:"krallik", bolge:"dogu-asya", f:"0319-01-01", t:"0351-02-17", baskent:"Xiangguo → Ye", ozet:"Shi Le'nin Zhao kralı ilanı (319); Ran Min darbesi ve çöküş (350-351). [Künye ucu doğrulaması: f: Shi Le 太興二年 (319) Zhao Kralı -> f=319 dogrulandi (Jin shu 105). t: Shi Zhi (Xiangguo'daki son Shi hükümdarı) 永和七年 (351) Liu Xian tarafından öldürüldü (Jin shu 8 yıl başlığı 永和七年; Jin shu 107 olayı Ran Min'in Xiangguo kuşatmasından sonra anlatır) -> t=351. İÇ ÇELİŞKİ: Jin shu 107 kapanış hükmü 'Shi Le 咸和三年 (328) ... 永和五年 (349) 滅, 凡二十三年' der (Shi Hu'nun ölümüyle devlet ‘bitti’ sayar, Shi Zhi hattını saymaz); atlas 319/351 olay-bazlı ve Jin shu 8 ile uyumlu. Shi Jian/Ran Min (349-350) ve Shi Zhi]", kaynak:"Fang Xuanling vd., Jin shu, juan 105 — zh.wikisource.org/wiki/晉書/卷105 (okundu) «Zaiji 5 Shi Le»: 太興二年，勒偽稱趙王… 乃僭即皇帝位，改元曰建平 · Fang Xuanling vd., Jin shu, juan 8 — zh.wikisource.org/wiki/晉書/卷008 (okundu) (Mu di ji), 永和七年: 劉顯殺石祗 · Fang Xuanling vd., Jin shu, juan 107 — zh.wikisource.org/wiki/晉書/卷107 (okundu) «Zaiji 7»: 劉顯果殺祗及其太宰趙鹿等十餘人，傳首於鄴",
   kronoloji:[
     { odak_yer:["Ye"], t:"0319-01-01", tur:"kurulus", b:"Sonraki Zhao (後趙): başlangıç (太興二年，勒偽稱趙王)", kaynak:"Fang Xuanling vd., Jin shu, juan 105 — zh.wikisource.org/wiki/晉書/卷105 (okundu) «Zaiji 5 Shi Le»: 太興二年，勒偽稱趙王… 乃僭即皇帝位，改元曰建平 · Fang Xuanling vd., Jin shu, juan 8 — zh.wikisource.org/wiki/晉書/卷008 (okundu) (Mu di ji), 永和七年: 劉顯殺石祗 · Fang Xuanling vd., Jin shu, juan 107 — zh.wikisource.org/wiki/晉書/卷107 (okundu) «Zaiji 7»: 劉顯果殺祗及其太宰趙鹿等十餘人，傳首於鄴" },
     { odak_yer:["Ye"], t:"0351-01-01", tur:"son", b:"Sonraki Zhao (後趙): sona erer (劉顯殺石祗 (永和七年))", kaynak:"Fang Xuanling vd., Jin shu, juan 105 — zh.wikisource.org/wiki/晉書/卷105 (okundu) «Zaiji 5 Shi Le»: 太興二年，勒偽稱趙王… 乃僭即皇帝位，改元曰建平 · Fang Xuanling vd., Jin shu, juan 8 — zh.wikisource.org/wiki/晉書/卷008 (okundu) (Mu di ji), 永和七年: 劉顯殺石祗 · Fang Xuanling vd., Jin shu, juan 107 — zh.wikisource.org/wiki/晉書/卷107 (okundu) «Zaiji 7»: 劉顯果殺祗及其太宰趙鹿等十餘人，傳首於鄴" }
@@ -28579,5 +28579,77 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"0843-01-01", b:"Verdun Antlaşması: I. Lothar'a Orta Francia ve imparatorluk unvanı kaldı", tur:"antlasma", onem:4, dunya:2, kapsam:"ic", etiket:["konu-siyasi"], yer:"Verdun", taraflar:["orta-francia"], d:"Ağustos 843 Verdun Antlaşması'yla Frank mülkü üçe bölündü; Lothar İtalya ve imparatorluk unvanını, Kuzey Denizi ile Akdeniz arasındaki toprak şeridini aldı. Gün kaynakta yok.", kaynak:"EB1911 'Lothair I.': 'the treaty of Verdun signed in August 843'. Gün yok (yer tutucu 01-01)." },
     { t:"0855-09-29", b:"I. Lothar Prüm'de öldü; Orta Francia oğulları arasında bölüşüldü", tur:"son", onem:4, dunya:2, kapsam:"ic", etiket:["konu-siyasi"], yer:"Prüm", taraflar:["orta-francia"], d:"Lothar I 23 Eylül 855'te Prüm manastırına girdi ve altı gün sonra öldü; imparatorluk payı Louis II (İtalya), Lothar II (kuzey) ve Charles'a bölündü.", kaynak:"EB1911 'Lothair I.': 'entered the monastery of Prüm, where he died six days later' (girişi 23 Eylül); 29 Eylül TÜRETİLMİŞ. Bölüşüm: EB1911 'Louis of the East Franks'." }
+  ] },
+{ id:"bati-yan", ad:"Batı Yan (西燕, Murong Chong)", tur:"krallik", bolge:"dogu-asya",
+  f:"0385-07-24", t:"0386-05-15", baskent:"Chang'an",
+  boya_gerekli:true,
+  ozet:"Xianbei Murong Chong'un Chang'an'ı alıp (385) Sonraki Qin karşısında tuttuğu Yan kolu; 386 baharında Chong öldürüldü. Künye ömrü atlasta Chang'an dilimiyle sınırlıdır.",
+  kesinlik:"gun",
+  ic_not:"KÜNYE ÖMRÜ yalnız atlasın kaynaklı dönem uçlarından alındı (CIN2-MS317); devletin tüm ömrü bu pakette araştırılmadı. f/t günleri ilgili yerleşim s: kayıtlarının kaynak alanında.",
+  ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
+  kaynak:"Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106)",
+  kronoloji:[
+    { odak_yer:["Chang'an"], t:"0385-07-24", tur:"kurulus", b:"Batı Yan (西燕, Murong Chong) başladı (atlas dilimi)", kaynak:"Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106)" },
+    { odak_yer:["Chang'an"], t:"0386-05-15", tur:"son", b:"Batı Yan (西燕, Murong Chong) sona erdi (atlas dilimi)", kaynak:"Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106)" }
+  ] },
+{ id:"hunan-wuping-rejimi", ad:"Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng)", tur:"krallik", bolge:"dogu-asya",
+  f:"0952-11-04", t:"0963-03-10", baskent:"Tanzhou (Changsha)",
+  boya_gerekli:true,
+  ozet:"Ma Chu'nun çöküşünden (951) sonra Wang Kui ve Zhou Xingfeng'in Tanzhou'da yönettiği, Sonraki Zhou/Song'a nominal bağlı Wuping Ordusu rejimi; 963'te Song'a katıldı.",
+  kesinlik:"gun",
+  ic_not:"KÜNYE ÖMRÜ yalnız atlasın kaynaklı dönem uçlarından alındı (CIN2-MS317); devletin tüm ömrü bu pakette araştırılmadı. f/t günleri ilgili yerleşim s: kayıtlarının kaynak alanında.",
+  ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
+  kaynak:"Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001",
+  kronoloji:[
+    { odak_yer:["Tanzhou"], t:"0952-11-04", tur:"kurulus", b:"Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng) başladı (atlas dilimi)", kaynak:"Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001" },
+    { odak_yer:["Tanzhou"], t:"0963-03-10", tur:"son", b:"Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng) sona erdi (atlas dilimi)", kaynak:"Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001" }
+  ] },
+{ id:"sonraki-qin", ad:"Sonraki Qin (後秦, Yao hanedanı)", tur:"krallik", bolge:"dogu-asya",
+  f:"0386-05-15", t:"0417-08-28", baskent:"Chang'an",
+  boya_gerekli:true,
+  ozet:"Yao Chang'ın Chang'an'da kurduğu Qiang hanedanı; 386'da imparator ilan edildi, Yao Hong 417'de Liu Yu'ya teslim oldu. Künye ömrü atlasta Chang'an dilimiyle (386-05-15 → 417-08-28) sınırlıdır; hanedanın tüm ömrü bu pakette kaynaklanmadı.",
+  kesinlik:"gun",
+  ic_not:"KÜNYE ÖMRÜ yalnız atlasın kaynaklı dönem uçlarından alındı (CIN2-MS317); devletin tüm ömrü bu pakette araştırılmadı. f/t günleri ilgili yerleşim s: kayıtlarının kaynak alanında.",
+  ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
+  kaynak:"Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10",
+  kronoloji:[
+    { odak_yer:["Chang'an"], t:"0386-05-15", tur:"kurulus", b:"Sonraki Qin (後秦, Yao hanedanı) başladı (atlas dilimi)", kaynak:"Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10" },
+    { odak_yer:["Chang'an"], t:"0417-08-28", tur:"son", b:"Sonraki Qin (後秦, Yao hanedanı) sona erdi (atlas dilimi)", kaynak:"Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10" }
+  ] },
+{ id:"tai-qi-huang-chao", ad:"Büyük Qi (大齊, Huang Chao)", tur:"isyanci-devlet", bolge:"dogu-asya",
+  f:"0881-01-08", t:"0883-05-20", baskent:"Chang'an",
+  boya_gerekli:true,
+  ozet:"Huang Chao'nun Chang'an'ı alıp 881 başında Büyük Qi'yi ilan ettiği isyancı rejim; Tang güçleri 883'te Chang'an'ı geri aldı. Künye ömrü Chang'an dilimiyle sınırlıdır (Huang Chao'nun sonu 884, bu pakette okunmadı).",
+  kesinlik:"gun",
+  ic_not:"KÜNYE ÖMRÜ yalnız atlasın kaynaklı dönem uçlarından alındı (CIN2-MS317); devletin tüm ömrü bu pakette araştırılmadı. f/t günleri ilgili yerleşim s: kayıtlarının kaynak alanında.",
+  ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
+  kaynak:"Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009)",
+  kronoloji:[
+    { odak_yer:["Chang'an"], t:"0881-01-08", tur:"kurulus", b:"Büyük Qi (大齊, Huang Chao) başladı (atlas dilimi)", kaynak:"Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009)" },
+    { odak_yer:["Chang'an"], t:"0883-05-20", tur:"son", b:"Büyük Qi (大齊, Huang Chao) sona erdi (atlas dilimi)", kaynak:"Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009)" }
+  ] },
+{ id:"weiwu-li-rengda", ad:"Weiwu Ordusu Rejimi (威武軍; Li Rengda, Fuzhou)", tur:"krallik", bolge:"dogu-asya",
+  f:"0946-08-30", t:"0947-01-01", baskent:"Fuzhou",
+  boya_gerekli:true,
+  ozet:"Min'in çöküşünden sonra Nan Tang'ın atadığı Li Rengda'nın Fuzhou'da fiilen özerk yönettiği Weiwu Ordusu; 947'de Wuyue'ye geçti.",
+  kesinlik:"gun",
+  ic_not:"KÜNYE ÖMRÜ yalnız atlasın kaynaklı dönem uçlarından alındı (CIN2-MS317); devletin tüm ömrü bu pakette araştırılmadı. f/t günleri ilgili yerleşim s: kayıtlarının kaynak alanında.",
+  ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
+  kaynak:"Xin Wudai Shi 62 (Nan Tang shijia); Xin Wudai Shi 68 (Min shijia); Xin Wudai Shi 67 (Wuyue shijia)",
+  kronoloji:[
+    { odak_yer:["Fuzhou"], t:"0946-08-30", tur:"kurulus", b:"Weiwu Ordusu Rejimi (威武軍; Li Rengda, Fuzhou) başladı (atlas dilimi)", kaynak:"Xin Wudai Shi 62 (Nan Tang shijia); Xin Wudai Shi 68 (Min shijia); Xin Wudai Shi 67 (Wuyue shijia)" },
+    { odak_yer:["Fuzhou"], t:"0947-01-01", tur:"son", b:"Weiwu Ordusu Rejimi (威武軍; Li Rengda, Fuzhou) sona erdi (atlas dilimi)", kaynak:"Xin Wudai Shi 62 (Nan Tang shijia); Xin Wudai Shi 68 (Min shijia); Xin Wudai Shi 67 (Wuyue shijia)" }
+  ] },
+{ id:"xiao-xian-liang", ad:"Xiao Xian'ın Liang'ı (梁, Jiangling)", tur:"krallik", bolge:"dogu-asya",
+  f:"0617-01-01", t:"0621-11-10", baskent:"Jiangling",
+  boya_gerekli:true,
+  ozet:"Sui sonu karışıklığında Xiao Xian'ın Jiangling merkezli kurduğu Liang; 621'de Tang'a teslim oldu. Künye ömrü atlasta Changsha dilimiyle sınırlıdır.",
+  kesinlik:"gun",
+  ic_not:"KÜNYE ÖMRÜ yalnız atlasın kaynaklı dönem uçlarından alındı (CIN2-MS317); devletin tüm ömrü bu pakette araştırılmadı. f/t günleri ilgili yerleşim s: kayıtlarının kaynak alanında.",
+  ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
+  kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1",
+  kronoloji:[
+    { odak_yer:["Jiangling"], t:"0617-01-01", tur:"kurulus", b:"Xiao Xian'ın Liang'ı (梁, Jiangling) başladı (atlas dilimi)", kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1" },
+    { odak_yer:["Jiangling"], t:"0621-11-10", tur:"son", b:"Xiao Xian'ın Liang'ı (梁, Jiangling) sona erdi (atlas dilimi)", kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1" }
   ] }
 ];
