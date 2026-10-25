@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tarih Atlası</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
-<script>window.SURUM="r13092";</script>
-<link rel="stylesheet" href="css/style.css?v=r180452167">
+<script>window.SURUM="r0";</script>
+<link rel="stylesheet" href="css/style.css?v=r205553724">
 </head>
 <body>
 <!-- ACILIS-ANIM-0929 — serpilen haritalar perdesi. <body>'nin HEMEN ardından,
@@ -494,6 +494,21 @@
             ☪ Osmanlı ▾
           </button>
           <div id="devlet-secici-panel" class="gizli">
+            <!-- 🔎 KRONOLOJİ ARAMA — Emre (25 Ekim 2026): "kronoloji bölümünde
+                 textbox olsun, yazılan metinler dropdownda listelensin; aranan
+                 kronolojiye daha kolay erişmek için. Tüm kronolojileri seçme
+                 imkânı da olsun." Kutu listeyi SÜZER (Türkçe harf farkı yok,
+                 kelimelerin hepsi geçmeli); Enter ilk eşleşeni ODAK yapar.
+                 "Tümünü seç" GÖRÜNEN satırların hepsini EK havuzuna katar —
+                 kutu boşsa bütün kronolojiler. Kutu `#devlet-secici-liste`nin
+                 DIŞINDA: liste her tıkta yeniden çiziliyor, içinde olsa yazı
+                 ve imleç kaybolurdu. -->
+            <div id="devlet-secici-ara-satir">
+              <input type="search" id="devlet-secici-ara" autocomplete="off"
+                     placeholder="🔎 Kronoloji ara (ör. venedik)"
+                     title="Devlet adına göre süzer · Enter: ilk eşleşeni ODAK yap">
+              <button type="button" id="devlet-secici-tumu">☑ Tümünü seç</button>
+            </div>
             <div id="devlet-secici-liste"></div>
             <label class="ek-ayar-satir">
               Ek devletlerde dünya önemi ≥
@@ -2136,7 +2151,7 @@
 <script src="js/kaynak_damga.js?v=r126307977"></script>
 <!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
 <script src="js/odak_zoom.js?v=r126728536"></script>
-<script src="js/app.js?v=r56798101"></script>
+<script src="js/app.js?v=r2293086"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).

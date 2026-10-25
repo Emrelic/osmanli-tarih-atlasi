@@ -16988,9 +16988,56 @@ function kronoTemsilEdiliyor(k, derin) {
   var secButon = document.getElementById("devlet-secici-buton");
   var secPanel = document.getElementById("devlet-secici-panel");
   var secListe = document.getElementById("devlet-secici-liste");
+  var secAra = document.getElementById("devlet-secici-ara");
+  var secTumu = document.getElementById("devlet-secici-tumu");
 
   function tumSatirlar() {                     // Osmanlı pinned + kronolojisi olan devletler
     return [OSMANLI_SYNTH].concat(adaylar);
+  }
+
+  // 🔎 Emre (25 Ekim 2026): arama kutusu listeyi süzer. Kelimelerin HEPSİ
+  // adda (ya da id'de) geçmeli; `trKatla` ile "osmanli" = "Osmanlı".
+  function gorunenSatirlar() {
+    var kelimeler = trKatla((secAra && secAra.value || "").trim()).split(/\s+/).filter(Boolean);
+    if (!kelimeler.length) return tumSatirlar();
+    return tumSatirlar().filter(function (d) {
+      var hedef = trKatla(d.ad) + " " + d.id;
+      return kelimeler.every(function (k) { return hedef.indexOf(k) >= 0; });
+    });
+  }
+
+  // "Tümünü seç": görünen satırların ODAK olmayanlarının hepsi EK olur; hepsi
+  // zaten EK ise aynı düğme hepsini çıkarır. Osmanlı EK olamaz (yukarıdaki not).
+  function tumuSecilebilir() {
+    var odakId = ODAK ? ODAK.id : "osmanli";
+    return gorunenSatirlar().filter(function (d) {
+      return d.id !== "osmanli" && d.id !== odakId;
+    }).map(function (d) { return d.id; });
+  }
+  function tumuDugmeYaz() {
+    if (!secTumu) return;
+    var ids = tumuSecilebilir();
+    var hepsi = ids.length && ids.every(function (id) { return EK_SECILI.indexOf(id) >= 0; });
+    secTumu.textContent = hepsi ? "☐ Seçimi kaldır" : "☑ Tümünü seç";
+    secTumu.disabled = !ids.length;
+    secTumu.title = hepsi
+      ? "Görünen " + ids.length + " kronolojiyi havuzdan çıkarır."
+      : "Görünen " + ids.length + " kronolojinin hepsini EK havuzuna katar"
+        + (secAra && secAra.value.trim() ? " (aramaya uyanlar)." : " (bütün kronolojiler).");
+  }
+  function tumunuSec() {
+    var ids = tumuSecilebilir();
+    if (!ids.length) return;
+    var hepsi = ids.every(function (id) { return EK_SECILI.indexOf(id) >= 0; });
+    ids.forEach(function (id) {
+      var i = EK_SECILI.indexOf(id);
+      if (hepsi && i >= 0) EK_SECILI.splice(i, 1);
+      else if (!hepsi && i < 0) EK_SECILI.push(id);
+    });
+    panelDoldur();
+    render();
+    console.log("Atlas: tümünü seç → " + EK_SECILI.length + " ek kronoloji");
+    guncelle();
   }
 
   function rolYaz() {
@@ -17140,7 +17187,15 @@ function kronoTemsilEdiliyor(k, derin) {
       sif.addEventListener("click", function () { satirTikla("__sifirla__"); });
       secListe.appendChild(sif);
     }
-    tumSatirlar().forEach(function (d) {
+    tumuDugmeYaz();
+    var gorunen = gorunenSatirlar();
+    if (!gorunen.length) {
+      var yok = document.createElement("div");
+      yok.className = "dss-bulunamadi";
+      yok.textContent = "“" + secAra.value.trim() + "” adlı bir kronoloji yok.";
+      secListe.appendChild(yok);
+    }
+    gorunen.forEach(function (d) {
       var rol = d.id === "osmanli"
                 ? (!ODAK ? "odak" : EK_SECILI.indexOf("osmanli") >= 0 ? "ek" : null)
               : ODAK && ODAK.id === d.id ? "odak"
@@ -17174,7 +17229,23 @@ function kronoTemsilEdiliyor(k, derin) {
   }
   if (secButon && secPanel) secButon.addEventListener("click", function () {
     secPanel.classList.toggle("gizli");
+    if (secAra && !secPanel.classList.contains("gizli")) secAra.focus();
   });
+  if (secAra) {
+    secAra.addEventListener("input", function () {
+      panelDoldur();
+      if (secListe) requestAnimationFrame(function () { secListe.scrollTop = 0; });
+    });
+    secAra.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter") {
+        var ilk = gorunenSatirlar()[0];
+        if (ilk) satirTikla(ilk.id);
+      } else if (ev.key === "Escape" && secPanel) {
+        secPanel.classList.add("gizli");
+      }
+    });
+  }
+  if (secTumu) secTumu.addEventListener("click", tumunuSec);
   if (ekDunyaSel) ekDunyaSel.addEventListener("change", function () {
     EK_DUNYA_ESIK = +ekDunyaSel.value; render();
   });
