@@ -8969,9 +8969,10 @@ function suzgecUrlOku() {
   //     [706 / 1223 başlık]
   // Açılır gövde `position:absolute` — açılınca başlığı büyütmüyor, listenin
   // üstüne biniyor (css/style.css #konu-suzgec).
-  var _h2 = document.querySelector("#olay-akisi h2");
+  // 📌 25 Ekim 2026 — Emre: "konu süzgeci ve uçuş butonu yan yana en tepede."
+  // #ucus-grup artık `#yanpanel-ust`te; kutu nerede olursa onun ÖNÜNE girer.
   var _ucus = document.getElementById("ucus-grup");
-  if (_h2 && _ucus) _h2.insertBefore(kutu, _ucus);
+  if (_ucus) _ucus.parentNode.insertBefore(kutu, _ucus);
   else olayListe.parentNode.insertBefore(kutu, olayListe);   // yedek: eski yer
   if (suzgecSecim || toprakSecim || baslikSecim || sehirKronGizli) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
   suzgecUygula();
