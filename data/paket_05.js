@@ -28598,8 +28598,8 @@ window.DEVLETLER = [
   ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
   kaynak:"Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106)",
   kronoloji:[
-    { odak_yer:["Chang'an"], t:"0385-07-24", tur:"kurulus", b:"Batı Yan (西燕, Murong Chong) başladı (atlas dilimi)", kaynak:"Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106)" },
-    { odak_yer:["Chang'an"], t:"0386-05-15", tur:"son", b:"Batı Yan (西燕, Murong Chong) sona erdi (atlas dilimi)", kaynak:"Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106)" }
+    { odak_yer:["Xi'an (Chang'an)"], t:"0385-07-24", tur:"kurulus", b:"Batı Yan (西燕, Murong Chong) başladı (atlas dilimi)", kaynak:"Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106)" },
+    { odak_yer:["Xi'an (Chang'an)"], t:"0386-05-15", tur:"son", b:"Batı Yan (西燕, Murong Chong) sona erdi (atlas dilimi)", kaynak:"Jin shu 9 · Jin shu 116 (姚萇載記) · Zizhi tongjian 106 (資治通鑑/卷106)" }
   ] },
 { id:"hunan-wuping-rejimi", ad:"Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng)", tur:"krallik", bolge:"dogu-asya",
   f:"0952-11-04", t:"0963-03-10", baskent:"Tanzhou (Changsha)",
@@ -28610,8 +28610,8 @@ window.DEVLETLER = [
   ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
   kaynak:"Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001",
   kronoloji:[
-    { odak_yer:["Tanzhou"], t:"0952-11-04", tur:"kurulus", b:"Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng) başladı (atlas dilimi)", kaynak:"Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001" },
-    { odak_yer:["Tanzhou"], t:"0963-03-10", tur:"son", b:"Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng) sona erdi (atlas dilimi)", kaynak:"Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001" }
+    { odak_yer:["Changsha"], t:"0952-11-04", tur:"kurulus", b:"Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng) başladı (atlas dilimi)", kaynak:"Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001" },
+    { odak_yer:["Changsha"], t:"0963-03-10", tur:"son", b:"Hunan Wuping Rejimi (武平軍; Wang Kui – Zhou Xingfeng) sona erdi (atlas dilimi)", kaynak:"Sima Guang, Zizhi Tongjian 291, zh.wikisource.org/wiki/資治通鑑/卷291 ; Ouyang Xiu, Xin Wudai Shi 66 (Chu shijia), zh.wikisource.org/wiki/新五代史/卷66 ; Song Shi 1 (Taizu ji 1), zh.wikisource.org/wiki/宋史/卷001" }
   ] },
 { id:"sonraki-qin", ad:"Sonraki Qin (後秦, Yao hanedanı)", tur:"krallik", bolge:"dogu-asya",
   f:"0386-05-15", t:"0417-08-28", baskent:"Chang'an",
@@ -28622,8 +28622,8 @@ window.DEVLETLER = [
   ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
   kaynak:"Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10",
   kronoloji:[
-    { odak_yer:["Chang'an"], t:"0386-05-15", tur:"kurulus", b:"Sonraki Qin (後秦, Yao hanedanı) başladı (atlas dilimi)", kaynak:"Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10" },
-    { odak_yer:["Chang'an"], t:"0417-08-28", tur:"son", b:"Sonraki Qin (後秦, Yao hanedanı) sona erdi (atlas dilimi)", kaynak:"Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10" }
+    { odak_yer:["Xi'an (Chang'an)"], t:"0386-05-15", tur:"kurulus", b:"Sonraki Qin (後秦, Yao hanedanı) başladı (atlas dilimi)", kaynak:"Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10" },
+    { odak_yer:["Xi'an (Chang'an)"], t:"0417-08-28", tur:"son", b:"Sonraki Qin (後秦, Yao hanedanı) sona erdi (atlas dilimi)", kaynak:"Jin shu 116 · Zizhi tongjian 106 · Song shu 2 (宋書/卷2) · Jin shu 10" }
   ] },
 { id:"tai-qi-huang-chao", ad:"Büyük Qi (大齊, Huang Chao)", tur:"isyanci-devlet", bolge:"dogu-asya",
   f:"0881-01-08", t:"0883-05-20", baskent:"Chang'an",
@@ -28634,8 +28634,8 @@ window.DEVLETLER = [
   ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
   kaynak:"Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009)",
   kronoloji:[
-    { odak_yer:["Chang'an"], t:"0881-01-08", tur:"kurulus", b:"Büyük Qi (大齊, Huang Chao) başladı (atlas dilimi)", kaynak:"Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009)" },
-    { odak_yer:["Chang'an"], t:"0883-05-20", tur:"son", b:"Büyük Qi (大齊, Huang Chao) sona erdi (atlas dilimi)", kaynak:"Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009)" }
+    { odak_yer:["Xi'an (Chang'an)"], t:"0881-01-08", tur:"kurulus", b:"Büyük Qi (大齊, Huang Chao) başladı (atlas dilimi)", kaynak:"Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009)" },
+    { odak_yer:["Xi'an (Chang'an)"], t:"0883-05-20", tur:"son", b:"Büyük Qi (大齊, Huang Chao) sona erdi (atlas dilimi)", kaynak:"Jiu Tang shu 200下 · Xin Tang shu 9 (新唐書/卷009)" }
   ] },
 { id:"weiwu-li-rengda", ad:"Weiwu Ordusu Rejimi (威武軍; Li Rengda, Fuzhou)", tur:"krallik", bolge:"dogu-asya",
   f:"0946-08-30", t:"0947-01-01", baskent:"Fuzhou",
@@ -28658,8 +28658,8 @@ window.DEVLETLER = [
   ic_not_boya:"BOYA BORCU, BEYANLI: renkler.py motor tuzundadır; boya tam inşa koşusuna kalır (denetim/ILERLEME-BOYA-BEKLEYEN-CIN2.tsv).",
   kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1",
   kronoloji:[
-    { odak_yer:["Jiangling"], t:"0617-01-01", tur:"kurulus", b:"Xiao Xian'ın Liang'ı (梁, Jiangling) başladı (atlas dilimi)", kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1" },
-    { odak_yer:["Jiangling"], t:"0621-11-10", tur:"son", b:"Xiao Xian'ın Liang'ı (梁, Jiangling) sona erdi (atlas dilimi)", kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1" }
+    { odak_yer:["Jingzhou (Jiangling)"], t:"0617-01-01", tur:"kurulus", b:"Xiao Xian'ın Liang'ı (梁, Jiangling) başladı (atlas dilimi)", kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1" },
+    { odak_yer:["Jingzhou (Jiangling)"], t:"0621-11-10", tur:"son", b:"Xiao Xian'ın Liang'ı (梁, Jiangling) sona erdi (atlas dilimi)", kaynak:"Jiu Tang Shu 56 (Xiao Xian zhuan), zh.wikisource.org/wiki/舊唐書/卷56 ; Jiu Tang Shu 1 (Gaozu ji), zh.wikisource.org/wiki/舊唐書/卷1" }
   ] },
 // ===== KUNYESIZ-DEVREDILEBILIR (24 Ekim 2026): DEVLET-LISTESI'nde olup kunyesi olmayan devletler =====
 { id:"sacilar", ad:"Sâcîler (Ebü's-Sâcoğulları)", tur:"hanedanlik", bolge:"iran",
