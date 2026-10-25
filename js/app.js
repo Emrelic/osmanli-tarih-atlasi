@@ -358,7 +358,11 @@ function parcaCoz(dizi, havuz, parcaHalka) {
              //    attığı an bir veri kusuru var demektir, sessiz kalmasın:
              var hs = ph.map(function (h) { return havuz[h]; });
              var tam = hs.filter(function (r) { return !!r; });
-             if (tam.length !== hs.length && window.__DP_TAM_HALKA) {
+             // Tam-havuz bayrağı havuza göre: dönem (PARCALAR) → __PR_TAM_HALKA,
+             // devlet → __DP_TAM_HALKA (dönem katman 1: 25 Ekim 2026).
+             var tamBayrak = (havuz === window.PARCALAR) ? window.__PR_TAM_HALKA
+                                                          : window.__DP_TAM_HALKA;
+             if (tam.length !== hs.length && tamBayrak) {
                window.__PARCA_DELIK = (window.__PARCA_DELIK || 0) +
                                       (hs.length - tam.length);
              }
@@ -776,6 +780,37 @@ window.__govdeYenile = function () {
     return false;
   }
   window.__GOVDE_YENILENDI = true;
+  return true;
+};
+
+// 🔴 DÖNEM TEMBEL YÜKLEME KANCASI — `js/geo_coz.js` tam DÖNEM havuzu (PARCALAR,
+// data/donem_parcalar.js, 13,5 MB) inince bunu çağırır. Açılışta PARCALAR
+// SEYREKTİR (`data/donem_parca_on.js`: açılış gününün halkaları, havuzun %0,01'i).
+// ÖLÇÜLDÜ (25 Ekim 2026): bu havuzun çözümü 372 ms — maliyet İNDİRMEDİR.
+// ⚠️ `donemler` DİZİSİ YERİNDE güncellenir (yeniden atanmaz): 54 yerde ona
+//    başvuru var. Yalnız geometri alanları (o · v · h[].g) yeniden kurulur.
+// ⚠️ Aynı dönem hâlâ aktifse `guncelle()` onu "değişmedi" sayıp ÇİZMEZ
+//    (`di !== aktifDonem`); bu yüzden aktifDonem -1'e ("henüz çizilmedi")
+//    çekilir — 11055'teki rotus yolu aynı yöntemi kullanıyor.
+window.__donemYenile = function () {
+  var yeni = window.PARCALAR;
+  if (!yeni || !yeni.length) return false;
+  PARCALAR = yeni;
+  window.DONEMLER.forEach(function (d, i) {
+    var k = donemler[i];
+    if (!k) return;
+    k.o = parcaCoz(d.o, PARCALAR, PARCA_HALKA);
+    k.v = parcaCoz(d.v, PARCALAR, PARCA_HALKA);
+    (d.h || []).forEach(function (hb, j) {
+      if (k.h[j]) k.h[j].g = parcaCoz(hb.g, PARCALAR, PARCA_HALKA);
+    });
+  });
+  if (typeof aktifDonem !== "undefined" && aktifDonem >= 0) aktifDonem = -1;
+  try { guncelle(); } catch (e) {
+    if (window.console) console.error("🔴 __donemYenile: guncelle() attı:", e);
+    return false;
+  }
+  window.__DONEM_YENILENDI = true;
   return true;
 };
 
