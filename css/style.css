@@ -134,6 +134,11 @@
   display: flex; flex-wrap: wrap; gap: 4px; align-items: center;
   padding: 6px; background: var(--panel-koyu); border-bottom: 1px solid var(--altin);
   font-size: 12px;
+  /* Emre 26 Ekim: "6-7 devletten sonra liste görünmez oluyor". ÖLÇÜLDÜ: havuz
+     sticky ve SINIRSIZ büyüyordu; 220 px'lik listenin içinde 10 çipte 201 px,
+     11'de tamamı ⇒ görünen satır 0. Artık 72 px'te durur, kendi içinde kayar;
+     altta satır alanı HER ZAMAN kalır. */
+  max-height: 72px; overflow-y: auto; overscroll-behavior: contain;
 }
 .dss-cip {
   display: inline-flex; align-items: center; gap: 2px;
