@@ -2674,33 +2674,46 @@ window.atlasTani = function (ac) {
          + n + " katman (g-nehir-motor camgöbeği · g-sirt-motor turuncu)";
 };
 
-harita.on("load", function () {
+// 🔴 YÜKLEME HIZI (25 Ekim 2026): `data/altlik.js` 11,8 MB ham (kara 9,2 · nehir
+// 1,7 · göl 0,6 …) ve eskiden index.html'de ENGELLEYİCİ <script> idi. Canlı site
+// ölçüldü: sayfa hazır 21,6 sn · JS 23,1 MB (sıkıştırılmış). Altlık katmanları
+// zaten `visibility:"none"` kurulur (yalnız g-nehir "esri"de açık) ⇒ harita
+// çizilmeden gelmesi gerekmiyor. Artık harita `load`undan SONRA arka planda gelir,
+// katmanlar o zaman kurulur ve seçici kipi o anda uygulanır.
+// ⚠️ Grup B (tanı hatları, varsayılan kapalı) artık tüm katmanların ÜSTÜNE eklenir.
+function altlikYukle(bitti) {
+  if (window.ALTLIK) { bitti(); return; }
+  var s = document.createElement("script");
+  s.src = "data/altlik.js" + (window.SURUM ? "?v=" + window.SURUM : "");
+  s.onload = bitti;
+  s.onerror = function () {
+    console.warn("Atlas: data/altlik.js yüklenemedi — nehir/altlık katmanları kurulmadı.");
+  };
+  document.head.appendChild(s);
+}
+function altlikKurVeUygula() {
   altlikKur();
+  nehriUsteAl();
   // 🔴 SIRA ÖLÇÜLDÜ (29 Eylül 2026) — bu satır bir tedbir değil, bir ONARIM.
-  // `altlikKur()` katmanları `visibility:"none"` ile kurar. `#altlik-sec`in
-  // `styledata` dinleyicisi açılışta ÇALIŞIYOR ama bu satırdan ÖNCE: kipi
-  // uyguluyor, sonra `altlikKur()` katmanları yeniden "none" yapıyor ve
-  // üstüne yeni bir `styledata` gelmiyor. Sonuç ekranda ölçüldü:
-  //     seçici "Esri" diyor · `g-nehir` = "none"  ⇒ SEÇİCİ YALAN SÖYLÜYOR
-  // Yani bugün sildiğimiz kusurun (kutu bir şey der, katman başka) tıpatıp
-  // aynısını yeni seçicide üretmiştik. Katmanları KURAN yer, o anki kipi
-  // UYGULAMAK zorundadır — arada geçen hiçbir olaya güvenilmez.
-  // ⚠️ `harita.isStyleLoaded()` bu anda **false** döner (ölçüldü); "stil
-  //    hazır mı" diye sorup beklemek bu yüzden çare DEĞİLDİ.
+  // `altlikKur()` katmanları `visibility:"none"` ile kurar. Katmanları KURAN yer,
+  // o anki kipi UYGULAMAK zorundadır — arada geçen hiçbir olaya güvenilmez.
+  // `isStyleLoaded()` bu anda false döner (ölçüldü); "hazır mı" diye beklemek çare değil.
   altlikKip((document.getElementById("altlik-sec") || {}).value || "esri");
-  // 🔴 MOTOR TANI — `?tani=1` kapısı DA BURADA, aynı sebeple. İlk yazışında
-  // `harita.once("idle", …)` kullanılmıştı; ölçüldü: **hiç ateşlemiyor**.
-  // Bu atlasta stil sürekli tazeleniyor (`isStyleLoaded()` açılışta false),
-  // yani "sakinleşince yap" demek "hiç yapma" demek. Katmanlar bir satır
-  // yukarıda kuruldu; doğru an BU an.
-  // Öteki kapı konsol: `atlasTani()` / `atlasTani(false)`.
-  (function () {
-    var p = new URLSearchParams(location.search).get("tani");
-    if (p === "1" || p === "acik") {
-      try { console.info("Atlas: " + window.atlasTani(true)); } catch (e) { }
-    }
-  })();
+  // 🔴 MOTOR TANI — `?tani=1` kapısı DA BURADA, aynı sebeple (`once("idle")` hiç
+  // ateşlemiyor, ölçüldü). Öteki kapı konsol: `atlasTani()` / `atlasTani(false)`.
+  var p = new URLSearchParams(location.search).get("tani");
+  if (p === "1" || p === "acik") {
+    try { console.info("Atlas: " + window.atlasTani(true)); } catch (e) { }
+  }
   veriSiniriDogrula();
+}
+
+harita.on("load", function () {
+  // Açılışı bloklamasın: altlık haritadan sonra, tarayıcı boştayken gelir.
+  (window.requestIdleCallback || function (f) { setTimeout(f, 50); })(function () {
+    altlikYukle(altlikKurVeUygula);
+  });
+  // (altlikKur/altlikKip/tanı/veriSiniriDogrula çağrıları altlikKurVeUygula'ya taşındı.)
 
   // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
   // ═════════════════════════════════════════════════════════════════════
