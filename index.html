@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tarih Atlası</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
-<script>window.SURUM="r13100";</script>
+<script>window.SURUM="r13104";</script>
 <link rel="stylesheet" href="css/style.css?v=r139864218">
 </head>
 <body>
@@ -1989,10 +1989,16 @@
         (İlk hedefte havuz dosyanın EN BAŞINDAYDI, bu yüzden hiç görünmemişti.)
      📌 donemler.js artık DEPODA DURMUYOR (.gitignore). Araçlar için yerelde:
         py arac/kodla.py coz-c data data/donemler.js donem -->
-<script src="data/donemler_on.js?v=r186631943"></script>
-<script src="data/donemler_ust.js?v=r63215690"></script>
-<script src="data/donem_parcalar.js?v=r260304055"></script>
-<script src="js/geo_coz.js?v=r197159462"></script>
+<script src="data/donemler_on.js?v=r150218194"></script>
+<script src="data/donemler_ust.js?v=r46653994"></script>
+<!-- 🔴 DÖNEM KATMAN 1 (25 Ekim 2026): donem_parcalar.js (13,5 MB) artık BURADA
+     YÜKLENMEZ — engelleyici <script> idi. Yerine açılış gününün halkalarını
+     taşıyan donem_parca_on.js (0,7 KB) var; tam havuz js/geo_coz.js tarafından
+     `load`dan SONRA arka planda getirilir ve window.__donemYenile() çağrılır.
+     Üretim: py arac/kodla.py on-dilim-donem data  (havuz değişince YENİDEN
+     koşturulmalı; `kodla.py kapi` bayatlığı yakalar). -->
+<script src="data/donem_parca_on.js?v=r213175669"></script>
+<script src="js/geo_coz.js?v=r56615683"></script>
 <script src="data/sehirler.js?v=r187347916"></script>
 <!-- Ⓑ DOLGU KATMANI (arac/dolgu.py) — window.DOLGU + DOLGU_PARCALAR +
      DOLGU_PARCA_HALKA. Üretilmemişse dosya YOKTUR ve yükleyici satırı
@@ -2035,7 +2041,6 @@
      rozet bunu söyler (app.js `dolguGuncelle`). Anahtar kapalı varsayılandır.
      Dosya `py arac/dolgu.py` ile (MOTOR_DOLGU_TARIH_SON=1281-01-01) üretildi. -->
 <script src="data/dolgu_once1281.js?v=r110065888"></script>
-<script src="data/altlik.js?v=r164724854"></script>
 <!-- 🔴 KORİDOR AĞI — 5. altyapı maddesi. 65 boğum düğümü · 64 kenar.
      Osmanlı menzil sistemi: sağ kol (Üsküdar→Konya→Halep→Şam→Mekke) ·
      orta kol (İznik→Sivas→Diyarbakır→Kerkük) · sol kol (→Erzurum→Kars⑂Tebriz)
@@ -2178,7 +2183,7 @@
 <script src="js/kaynak_damga.js?v=r104472814"></script>
 <!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
 <script src="js/odak_zoom.js?v=r126728536"></script>
-<script src="js/app.js?v=r98207106"></script>
+<script src="js/app.js?v=r106559269"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).

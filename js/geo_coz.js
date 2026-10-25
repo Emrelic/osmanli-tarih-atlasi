@@ -252,46 +252,95 @@
     } catch (e) { return ""; }
   }
 
-  function tamHavuzuGetir() {
+  // İKİ tam havuz da aynı yoldan iner (parametreli; ilk sürümde yalnız devlet vardı):
+  //   devlet: data/devlet_parcalar.js → DEVLET_PARCALAR · kanca __govdeYenile
+  //   dönem : data/donem_parcalar.js  → PARCALAR        · kanca __donemYenile
+  // Dönem katman 1'i (`donem_parca_on.js`, 25 Ekim 2026): açılış günü havuzun
+  // %0,01'ini (1 halka) ister; 13,5 MB'lık tam havuz ilk boyamayı BEKLETMEZ.
+  var TAM_DEVLET = { dosya: "data/devlet_parcalar.js", b64: "__DP_B64",
+                     kuresel: "DEVLET_PARCALAR", ms: "__DP_TAM_MS",
+                     halka: "__DP_TAM_HALKA", hata: "__DP_TAM_HATA",
+                     kanca: "__govdeYenile", ad: "devlet" };
+  var TAM_DONEM  = { dosya: "data/donem_parcalar.js", b64: "__PR_B64",
+                     kuresel: "PARCALAR", ms: "__PR_TAM_MS",
+                     halka: "__PR_TAM_HALKA", hata: "__PR_TAM_HATA",
+                     kanca: "__donemYenile", ad: "dönem" };
+
+  function tamHavuzuGetir(c) {
+    c = c || TAM_DEVLET;
     var s = kok.document.createElement("script");
-    s.src = "data/devlet_parcalar.js" + surumEki();
+    s.src = c.dosya + surumEki();
     s.async = true;
     s.onload = function () {
       var t = (kok.performance && kok.performance.now) ? kok.performance.now() : 0;
       function hata(e) {
-        kok.__DP_TAM_HATA = String(e);
-        if (kok.console) console.error("🔴 geo_coz tam havuz BAŞARISIZ:", e);
+        kok[c.hata] = String(e);
+        if (kok.console) console.error("🔴 geo_coz tam havuz BAŞARISIZ [" + c.ad + "]:", e);
       }
       function bitti(havuz) {
         try {
-          kok.DEVLET_PARCALAR = havuz;
-          // __DP_TAM_MS = duvar saati (dilimler arası boşluk dâhil); ana iş parçacığı
+          kok[c.kuresel] = havuz;
+          // *_TAM_MS = duvar saati (dilimler arası boşluk dâhil); ana iş parçacığı
           // hiçbir dilimde ~30 ms'den uzun tutulmaz.
-          if (t) kok.__DP_TAM_MS = Math.round(kok.performance.now() - t);
-          kok.__DP_TAM_HALKA = kok.DEVLET_PARCALAR.length;
-          if (kok.console) console.log("geo_coz: tam havuz indi — " +
-              kok.DEVLET_PARCALAR.length + " halka, " + kok.__DP_TAM_MS + " ms (dilimli)");
+          if (t) kok[c.ms] = Math.round(kok.performance.now() - t);
+          kok[c.halka] = kok[c.kuresel].length;
+          if (kok.console) console.log("geo_coz: tam havuz indi [" + c.ad + "] — " +
+              kok[c.kuresel].length + " halka, " + kok[c.ms] + " ms (dilimli)");
           // 🔴 app.js'in kancası. YOKSA sessizce geçilmez: katman 1 ile kalmak
           //    ileri tarihlerde EKSİK harita demektir, ve bu görünmez bir kusurdur.
-          if (typeof kok.__govdeYenile === "function") kok.__govdeYenile();
+          if (typeof kok[c.kanca] === "function") kok[c.kanca]();
           else {
-            kok.__DP_TAM_HATA = "app.js kancası (__govdeYenile) YOK";
-            if (kok.console) console.error("🔴 " + kok.__DP_TAM_HATA);
+            kok[c.hata] = "app.js kancası (" + c.kanca + ") YOK";
+            if (kok.console) console.error("🔴 " + kok[c.hata]);
           }
         } catch (e) { hata(e); }
       }
       try {
-        if (!kok.__DP_B64) throw new Error("__DP_B64 gelmedi");
-        var b64 = kok.__DP_B64;
-        kok.__DP_B64 = null;
+        if (!kok[c.b64]) throw new Error(c.b64 + " gelmedi");
+        var b64 = kok[c.b64];
+        kok[c.b64] = null;
         dilimliCoz(b64, bitti, hata);
       } catch (e) { hata(e); }
     };
     s.onerror = function () {
-      kok.__DP_TAM_HATA = "devlet_parcalar.js İNDİRİLEMEDİ";
-      if (kok.console) console.error("🔴 " + kok.__DP_TAM_HATA);
+      kok[c.hata] = c.dosya.split("/").pop() + " İNDİRİLEMEDİ";
+      if (kok.console) console.error("🔴 " + kok[c.hata]);
     };
     kok.document.head.appendChild(s);
+  }
+
+  // DÖNEM KATMAN 1 — `donem_parca_on.js` varsa PARCALAR seyrek kurulur, tam havuz
+  // `load`dan sonra gelir. Dosya YOKSA (eski düzen) aşağıdaki eşzamanlı döngü
+  // `__PR_B64`ü aynen eskisi gibi çözer.
+  var donemKatman1 = false;
+  if (kok.__PR_ON_B64 && !kok.PARCALAR && !kok.__PR_B64) {
+    var tPr = (kok.performance && kok.performance.now) ? kok.performance.now() : 0;
+    try {
+      kok.PARCALAR = seyrekCoz(b64Coz(kok.__PR_ON_B64));
+      kok.__PR_ON_B64 = null;
+      kok.__PR_ON_MS = tPr ? Math.round(kok.performance.now() - tPr) : 0;
+      donemKatman1 = true;
+      if (kok.console) console.log("geo_coz[dönem katman1]: " + kok.__PR_ON_GUN +
+          " için seyrek havuz, " + kok.__PR_ON_MS + " ms");
+    } catch (e) {
+      kok.__PR_ON_HATA = String(e);
+      if (kok.console) console.error("🔴 geo_coz dönem katman1 BAŞARISIZ:", e);
+      // app.js `geometriKapisi` PARCALAR'sız AÇILMAZ; boş havuzla açılır, hata
+      // yukarıda haykırıldı ve tam havuz (aşağıda) hemen istenir.
+      kok.PARCALAR = [];
+    }
+    if (donemKatman1) {
+      // Tam havuzu ilk boyamadan SONRA iste.
+      if (kok.addEventListener) {
+        kok.addEventListener("load", function () {
+          setTimeout(function () { tamHavuzuGetir(TAM_DONEM); }, 0);
+        });
+      } else {
+        tamHavuzuGetir(TAM_DONEM);
+      }
+    } else {
+      tamHavuzuGetir(TAM_DONEM);
+    }
   }
 
   if (kok.__DP_ON_B64 && !kok.DEVLET_PARCALAR) {
@@ -340,7 +389,8 @@
   }
 
   // Katman 1 de bir çözümdür — yerleşim onarımı onda da kurulmalı.
-  if (cozulenVar || typeof kok.__DP_ON_MS === "number") {
+  if (cozulenVar || typeof kok.__DP_ON_MS === "number" ||
+      typeof kok.__PR_ON_MS === "number") {
     // ── 🔴 YERLEŞİM ONARIMI — ölçülmüş bir GERİLEMENİN çaresi ──────────
     // Bu blok bir "ihtiyaten" satırı değil; kıyaslamayla bulunmuş bir kusuru
     // kapatıyor. ÖLÇÜM (28 Eylül 2026, aynı pencere 1024×768):

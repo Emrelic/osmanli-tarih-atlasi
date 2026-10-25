@@ -358,7 +358,11 @@ function parcaCoz(dizi, havuz, parcaHalka) {
              //    attığı an bir veri kusuru var demektir, sessiz kalmasın:
              var hs = ph.map(function (h) { return havuz[h]; });
              var tam = hs.filter(function (r) { return !!r; });
-             if (tam.length !== hs.length && window.__DP_TAM_HALKA) {
+             // Tam-havuz bayrağı havuza göre: dönem (PARCALAR) → __PR_TAM_HALKA,
+             // devlet → __DP_TAM_HALKA (dönem katman 1: 25 Ekim 2026).
+             var tamBayrak = (havuz === window.PARCALAR) ? window.__PR_TAM_HALKA
+                                                          : window.__DP_TAM_HALKA;
+             if (tam.length !== hs.length && tamBayrak) {
                window.__PARCA_DELIK = (window.__PARCA_DELIK || 0) +
                                       (hs.length - tam.length);
              }
@@ -776,6 +780,37 @@ window.__govdeYenile = function () {
     return false;
   }
   window.__GOVDE_YENILENDI = true;
+  return true;
+};
+
+// 🔴 DÖNEM TEMBEL YÜKLEME KANCASI — `js/geo_coz.js` tam DÖNEM havuzu (PARCALAR,
+// data/donem_parcalar.js, 13,5 MB) inince bunu çağırır. Açılışta PARCALAR
+// SEYREKTİR (`data/donem_parca_on.js`: açılış gününün halkaları, havuzun %0,01'i).
+// ÖLÇÜLDÜ (25 Ekim 2026): bu havuzun çözümü 372 ms — maliyet İNDİRMEDİR.
+// ⚠️ `donemler` DİZİSİ YERİNDE güncellenir (yeniden atanmaz): 54 yerde ona
+//    başvuru var. Yalnız geometri alanları (o · v · h[].g) yeniden kurulur.
+// ⚠️ Aynı dönem hâlâ aktifse `guncelle()` onu "değişmedi" sayıp ÇİZMEZ
+//    (`di !== aktifDonem`); bu yüzden aktifDonem -1'e ("henüz çizilmedi")
+//    çekilir — 11055'teki rotus yolu aynı yöntemi kullanıyor.
+window.__donemYenile = function () {
+  var yeni = window.PARCALAR;
+  if (!yeni || !yeni.length) return false;
+  PARCALAR = yeni;
+  window.DONEMLER.forEach(function (d, i) {
+    var k = donemler[i];
+    if (!k) return;
+    k.o = parcaCoz(d.o, PARCALAR, PARCA_HALKA);
+    k.v = parcaCoz(d.v, PARCALAR, PARCA_HALKA);
+    (d.h || []).forEach(function (hb, j) {
+      if (k.h[j]) k.h[j].g = parcaCoz(hb.g, PARCALAR, PARCA_HALKA);
+    });
+  });
+  if (typeof aktifDonem !== "undefined" && aktifDonem >= 0) aktifDonem = -1;
+  try { guncelle(); } catch (e) {
+    if (window.console) console.error("🔴 __donemYenile: guncelle() attı:", e);
+    return false;
+  }
+  window.__DONEM_YENILENDI = true;
   return true;
 };
 
@@ -2674,33 +2709,46 @@ window.atlasTani = function (ac) {
          + n + " katman (g-nehir-motor camgöbeği · g-sirt-motor turuncu)";
 };
 
-harita.on("load", function () {
+// 🔴 YÜKLEME HIZI (25 Ekim 2026): `data/altlik.js` 11,8 MB ham (kara 9,2 · nehir
+// 1,7 · göl 0,6 …) ve eskiden index.html'de ENGELLEYİCİ <script> idi. Canlı site
+// ölçüldü: sayfa hazır 21,6 sn · JS 23,1 MB (sıkıştırılmış). Altlık katmanları
+// zaten `visibility:"none"` kurulur (yalnız g-nehir "esri"de açık) ⇒ harita
+// çizilmeden gelmesi gerekmiyor. Artık harita `load`undan SONRA arka planda gelir,
+// katmanlar o zaman kurulur ve seçici kipi o anda uygulanır.
+// ⚠️ Grup B (tanı hatları, varsayılan kapalı) artık tüm katmanların ÜSTÜNE eklenir.
+function altlikYukle(bitti) {
+  if (window.ALTLIK) { bitti(); return; }
+  var s = document.createElement("script");
+  s.src = "data/altlik.js" + (window.SURUM ? "?v=" + window.SURUM : "");
+  s.onload = bitti;
+  s.onerror = function () {
+    console.warn("Atlas: data/altlik.js yüklenemedi — nehir/altlık katmanları kurulmadı.");
+  };
+  document.head.appendChild(s);
+}
+function altlikKurVeUygula() {
   altlikKur();
+  nehriUsteAl();
   // 🔴 SIRA ÖLÇÜLDÜ (29 Eylül 2026) — bu satır bir tedbir değil, bir ONARIM.
-  // `altlikKur()` katmanları `visibility:"none"` ile kurar. `#altlik-sec`in
-  // `styledata` dinleyicisi açılışta ÇALIŞIYOR ama bu satırdan ÖNCE: kipi
-  // uyguluyor, sonra `altlikKur()` katmanları yeniden "none" yapıyor ve
-  // üstüne yeni bir `styledata` gelmiyor. Sonuç ekranda ölçüldü:
-  //     seçici "Esri" diyor · `g-nehir` = "none"  ⇒ SEÇİCİ YALAN SÖYLÜYOR
-  // Yani bugün sildiğimiz kusurun (kutu bir şey der, katman başka) tıpatıp
-  // aynısını yeni seçicide üretmiştik. Katmanları KURAN yer, o anki kipi
-  // UYGULAMAK zorundadır — arada geçen hiçbir olaya güvenilmez.
-  // ⚠️ `harita.isStyleLoaded()` bu anda **false** döner (ölçüldü); "stil
-  //    hazır mı" diye sorup beklemek bu yüzden çare DEĞİLDİ.
+  // `altlikKur()` katmanları `visibility:"none"` ile kurar. Katmanları KURAN yer,
+  // o anki kipi UYGULAMAK zorundadır — arada geçen hiçbir olaya güvenilmez.
+  // `isStyleLoaded()` bu anda false döner (ölçüldü); "hazır mı" diye beklemek çare değil.
   altlikKip((document.getElementById("altlik-sec") || {}).value || "esri");
-  // 🔴 MOTOR TANI — `?tani=1` kapısı DA BURADA, aynı sebeple. İlk yazışında
-  // `harita.once("idle", …)` kullanılmıştı; ölçüldü: **hiç ateşlemiyor**.
-  // Bu atlasta stil sürekli tazeleniyor (`isStyleLoaded()` açılışta false),
-  // yani "sakinleşince yap" demek "hiç yapma" demek. Katmanlar bir satır
-  // yukarıda kuruldu; doğru an BU an.
-  // Öteki kapı konsol: `atlasTani()` / `atlasTani(false)`.
-  (function () {
-    var p = new URLSearchParams(location.search).get("tani");
-    if (p === "1" || p === "acik") {
-      try { console.info("Atlas: " + window.atlasTani(true)); } catch (e) { }
-    }
-  })();
+  // 🔴 MOTOR TANI — `?tani=1` kapısı DA BURADA, aynı sebeple (`once("idle")` hiç
+  // ateşlemiyor, ölçüldü). Öteki kapı konsol: `atlasTani()` / `atlasTani(false)`.
+  var p = new URLSearchParams(location.search).get("tani");
+  if (p === "1" || p === "acik") {
+    try { console.info("Atlas: " + window.atlasTani(true)); } catch (e) { }
+  }
   veriSiniriDogrula();
+}
+
+harita.on("load", function () {
+  // Açılışı bloklamasın: altlık haritadan sonra, tarayıcı boştayken gelir.
+  (window.requestIdleCallback || function (f) { setTimeout(f, 50); })(function () {
+    altlikYukle(altlikKurVeUygula);
+  });
+  // (altlikKur/altlikKip/tanı/veriSiniriDogrula çağrıları altlikKurVeUygula'ya taşındı.)
 
   // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
   // ═════════════════════════════════════════════════════════════════════
