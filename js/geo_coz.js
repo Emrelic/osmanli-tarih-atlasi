@@ -131,7 +131,71 @@
     return out;
   }
 
-  kok.geoCoz = { b64Coz: b64Coz, havuzCoz: havuzCoz, yuvaCoz: yuvaCoz };
+  // ── DİLİMLİ ÇÖZÜM (tam havuz, `load`dan sonra) ─────────────────────
+  // ÖLÇÜLDÜ (25 Ekim 2026, yayın): tam havuzun çözümü TEK görevde 3,7 sn sürüyordu
+  // ve sayfa açıldıktan hemen sonra arayüzü donduruyordu (uzun görev 5,9 sn).
+  // Aynı iki çözücünün BİREBİR eşi, yalnız ~30 ms'lik dilimlerle ve aralarda ana
+  // iş parçacığını bırakarak koşar. Biçim, sınavlar (artakalan bayt, eksi
+  // kuyruğu) ve çıktı AYNI — b64Coz/havuzCoz değişirse bu da birlikte değişir.
+  function dilimliCoz(s, bitti, hata) {
+    var BUTCE = 30;
+    var simdi = function () { return kok.performance ? kok.performance.now() : Date.now(); };
+    // Dilimler arası geçiş MessageChannel ile: zincirleme setTimeout(0) 5. halkadan sonra
+    // 4 ms'ye, arka plan sekmesinde 1 sn'ye kısılır (ölçüldü: gizli sekmede çözüm bitmedi).
+    var kuyruk = [], kanal = null;
+    if (typeof kok.MessageChannel === "function") {
+      kanal = new kok.MessageChannel();
+      kanal.port1.onmessage = function () { var f = kuyruk.shift(); if (f) f(); };
+    }
+    var sonraki = function (f) {
+      var g = function () { try { f(); } catch (e) { hata(e); } };
+      if (kanal) { kuyruk.push(g); kanal.port2.postMessage(0); }
+      else kok.setTimeout(g, 0);
+    };
+    // 1) base64 → u8 (b64Coz ile aynı 4 MB'lık dilimler; dilim başına bir görev)
+    var DILIM = 4 * 1024 * 1024;
+    var uzunluk = (s.length / 4) * 3;
+    if (s.charCodeAt(s.length - 1) === 61) uzunluk--;
+    if (s.charCodeAt(s.length - 2) === 61) uzunluk--;
+    var u8 = new Uint8Array(uzunluk), y = 0, si = 0;
+    function b64Adim() {
+      var ham = atob(s.substr(si, DILIM));
+      for (var j = 0; j < ham.length; j++) u8[y++] = ham.charCodeAt(j);
+      si += DILIM;
+      if (si < s.length) sonraki(b64Adim);
+      else { s = null; sonraki(havuzBasla); }
+    }
+    // 2) varint akışı → halka havuzu (havuzCoz ile aynı)
+    var i = 0, nHalka, havuz, h = 0;
+    function v() {
+      var z = 0, k = 0, c;
+      do { c = u8[i++]; z |= (c & 0x7F) << k; k += 7; } while (c & 0x80);
+      return (z & 1) ? -((z + 1) >>> 1) : (z >>> 1);
+    }
+    function havuzBasla() { nHalka = v(); havuz = new Array(nHalka); havuzAdim(); }
+    function havuzAdim() {
+      var t0 = simdi();
+      while (h < nHalka) {
+        var nNokta = v(), halka = new Array(nNokta), px = 0, py = 0;
+        for (var p = 0; p < nNokta; p++) {
+          px += v(); py += v();
+          halka[p] = [px / 1000, py / 1000];   // bölme — havuzCoz'daki gerekçe
+        }
+        havuz[h++] = halka;
+        if ((h & 255) === 0 && simdi() - t0 > BUTCE) { sonraki(havuzAdim); return; }
+      }
+      var nEksi = v();
+      for (var e = 0; e < nEksi; e++) v();
+      if (i !== u8.length) {
+        throw new Error("geo_coz: akış sonunda " + (u8.length - i) +
+                        " bayt arttı — biçim uyuşmuyor");
+      }
+      bitti(havuz);
+    }
+    sonraki(b64Adim);
+  }
+
+  kok.geoCoz = { b64Coz: b64Coz, havuzCoz: havuzCoz, yuvaCoz: yuvaCoz, dilimliCoz: dilimliCoz };
 
   // ── OTOMATİK BAĞLAMA ───────────────────────────────────────────────
   // Her hedef bir satırlık base64 atar; bu dosya onu çözer ve app.js'in
@@ -194,25 +258,34 @@
     s.async = true;
     s.onload = function () {
       var t = (kok.performance && kok.performance.now) ? kok.performance.now() : 0;
-      try {
-        if (!kok.__DP_B64) throw new Error("__DP_B64 gelmedi");
-        kok.DEVLET_PARCALAR = havuzCoz(b64Coz(kok.__DP_B64));
-        kok.__DP_B64 = null;
-        if (t) kok.__DP_TAM_MS = Math.round(kok.performance.now() - t);
-        kok.__DP_TAM_HALKA = kok.DEVLET_PARCALAR.length;
-        if (kok.console) console.log("geo_coz: tam havuz indi — " +
-            kok.DEVLET_PARCALAR.length + " halka, " + kok.__DP_TAM_MS + " ms");
-        // 🔴 app.js'in kancası. YOKSA sessizce geçilmez: katman 1 ile kalmak
-        //    ileri tarihlerde EKSİK harita demektir, ve bu görünmez bir kusurdur.
-        if (typeof kok.__govdeYenile === "function") kok.__govdeYenile();
-        else {
-          kok.__DP_TAM_HATA = "app.js kancası (__govdeYenile) YOK";
-          if (kok.console) console.error("🔴 " + kok.__DP_TAM_HATA);
-        }
-      } catch (e) {
+      function hata(e) {
         kok.__DP_TAM_HATA = String(e);
         if (kok.console) console.error("🔴 geo_coz tam havuz BAŞARISIZ:", e);
       }
+      function bitti(havuz) {
+        try {
+          kok.DEVLET_PARCALAR = havuz;
+          // __DP_TAM_MS = duvar saati (dilimler arası boşluk dâhil); ana iş parçacığı
+          // hiçbir dilimde ~30 ms'den uzun tutulmaz.
+          if (t) kok.__DP_TAM_MS = Math.round(kok.performance.now() - t);
+          kok.__DP_TAM_HALKA = kok.DEVLET_PARCALAR.length;
+          if (kok.console) console.log("geo_coz: tam havuz indi — " +
+              kok.DEVLET_PARCALAR.length + " halka, " + kok.__DP_TAM_MS + " ms (dilimli)");
+          // 🔴 app.js'in kancası. YOKSA sessizce geçilmez: katman 1 ile kalmak
+          //    ileri tarihlerde EKSİK harita demektir, ve bu görünmez bir kusurdur.
+          if (typeof kok.__govdeYenile === "function") kok.__govdeYenile();
+          else {
+            kok.__DP_TAM_HATA = "app.js kancası (__govdeYenile) YOK";
+            if (kok.console) console.error("🔴 " + kok.__DP_TAM_HATA);
+          }
+        } catch (e) { hata(e); }
+      }
+      try {
+        if (!kok.__DP_B64) throw new Error("__DP_B64 gelmedi");
+        var b64 = kok.__DP_B64;
+        kok.__DP_B64 = null;
+        dilimliCoz(b64, bitti, hata);
+      } catch (e) { hata(e); }
     };
     s.onerror = function () {
       kok.__DP_TAM_HATA = "devlet_parcalar.js İNDİRİLEMEDİ";

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tarih Atlası</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
-<script>window.SURUM="r0";</script>
+<script>window.SURUM="r13100";</script>
 <link rel="stylesheet" href="css/style.css?v=r180452167">
 </head>
 <body>
@@ -460,6 +460,167 @@
   </div><!-- /#sol-govde -->
 
   <aside id="yanpanel">
+    <!-- 🔝 ÜST SATIR — Emre (25 Ekim 2026): "en tepede öncelikle bakılacak
+         devletin kronolojisi seçilip bundan sonra ilgili devletin padişah
+         kartının görünmesi sağlanmalı … konu süzgeci ve uçuş butonu ayarları
+         yan yana en tepede yer almalı; hükümdar kartı ve kronoloji maddeleri
+         bunun altında açılmalı." Eskiden seçici padişah kartının İÇİNDE,
+         süzgeç ve uçuş kronoloji başlığındaydı — kronoloji kartın alt
+         bölümü gibi okunuyordu. Sıra artık: SEÇ → hükümdar kartı → maddeler.
+         id'ler AYNI kaldı; konu süzgecini js/app.js `suzgecKur` #ucus-grup'un
+         önüne koyar (artık burada). Açılır paneller bu satıra göre konumlanır. -->
+    <div id="yanpanel-ust">
+      <!-- 🔴 21 Ağustos — PAKET 0026/H-0001, Emre: "padişah ismi kronoloji
+           seçme combobox'ı VE ek devlet combobox'ı TEK OLSUN, çoktan
+           seçmeli olsun, tek tek işaretlenebilsin. İLK İŞARETLENEN ODAK
+           DEVLET olacak, ikinci üçüncü seçilenler EK DEVLET kategorisinde."
+           Eskiden İKİ ayrı kontrol vardı (`#odak-devlet` tek seçimli
+           `<select>` + `#ek-devletler-*` checkbox paneli); şimdi TEK panel,
+           rol TIKLAMA SIRASINDAN türüyor (js/app.js `satirTikla`). Satırlar
+           ELLE YAZILMIYOR — Osmanlı sabit ilk satır + kronolojisi olan
+           devletler DİNAMİK (yeni bir kronoloji_*.js otomatik listeye girer). -->
+      <div id="devlet-secici">
+        <button type="button" id="devlet-secici-buton" title="Kronoloji odağını ve ek devletleri seç — ilk tıkladığın ODAK, sonrakiler EK olur">
+          ☪ Osmanlı ▾
+        </button>
+        <div id="devlet-secici-panel" class="gizli">
+          <!-- 🔎 KRONOLOJİ ARAMA — Emre (25 Ekim 2026): "kronoloji bölümünde
+               textbox olsun, yazılan metinler dropdownda listelensin; aranan
+               kronolojiye daha kolay erişmek için. Tüm kronolojileri seçme
+               imkânı da olsun." Kutu listeyi SÜZER (Türkçe harf farkı yok,
+               kelimelerin hepsi geçmeli); Enter ilk eşleşeni ODAK yapar.
+               "Tümünü seç" GÖRÜNEN satırların hepsini EK havuzuna katar —
+               kutu boşsa bütün kronolojiler. Kutu `#devlet-secici-liste`nin
+               DIŞINDA: liste her tıkta yeniden çiziliyor, içinde olsa yazı
+               ve imleç kaybolurdu. -->
+          <div id="devlet-secici-ara-satir">
+            <input type="search" id="devlet-secici-ara" autocomplete="off"
+                   placeholder="🔎 Kronoloji ara (ör. venedik)"
+                   title="Devlet adına göre süzer · Enter: ilk eşleşeni ODAK yap">
+            <button type="button" id="devlet-secici-tumu">☑ Tümünü seç</button>
+          </div>
+          <div id="devlet-secici-liste"></div>
+          <label class="ek-ayar-satir">
+            Ek devletlerde dünya önemi ≥
+            <select id="ek-dunya-esik" title="Yalnız bu değerin ÜSTÜNDEKİ dünya öneminde maddeler eklenir">
+              <option value="1">1 (hepsi)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4" selected>4</option>
+              <option value="5">5 (yalnız dönüm noktaları)</option>
+            </select>
+          </label>
+          <label class="ek-ayar-satir">
+            <input type="checkbox" id="ek-yalniz-dis"> ek devletlerde yalnız dış mesele maddeleri
+          </label>
+          <!-- 🔴🔴 ODAK SÜZGECİ — Emre'nin 10 Eylül 2026 tarifi, ve BİR
+               KURALI KALDIRIYOR. Buranın üstündeki iki ayar YALNIZ EK
+               devletlere işliyordu; kayıtlı kural şuydu: *"ODAK'ın kendi
+               kronolojisi HER ZAMAN TAM gösterilir — süzgeç YOK."*
+               Emre: *"kişi bir devlet seçtiği zaman o devletin
+               kronolojisini ÇALIŞTIRMADAN ÖNCE bu ayarları yapmalı —
+               tüm kronolojik maddeleri istiyor mu, sadece toprak
+               kazancı kaybı maddelerini mi, hükümdar hanedan haberlerini
+               görmek istiyor mu, kendi bölgesindeki devletlerden hangi
+               önemdekileri, dünyayı ilgilendirenleri istiyor mu."*
+               ⇒ Kural düştü: odak da süzülüyor. Varsayılan İÇ=1 (hepsi),
+               yani AÇILIŞTA DAVRANIŞ DEĞİŞMEZ — süzgeç ancak kullanıcı
+               eşiği yükseltince iş görür.
+               🔴 Mantık `js/suzgec.js`te (DOM'suz, node'da sınandı:
+               `denetim/SINAV-ONEM-SUZGEC-0910.js`, 9/9 geçti). Burada
+               yalnız kontroller var. -->
+          <details id="odak-suzgec" class="ek-ayar-grup">
+            <summary>🎚 Bu devletin kronolojisinde ne göreyim?</summary>
+            <label class="ek-ayar-satir">
+              İç olaylar, önem ≥
+              <select id="odak-ic-esik" title="Devletin KENDİ olayları — 5 çok önemli, 1 hiç önemli değil">
+                <option value="1" selected>1 — hepsi</option>
+                <option value="2">2 — önemsizleri ele</option>
+                <option value="3">3 — orta ve üstü</option>
+                <option value="4">4 — önemli</option>
+                <option value="5">5 — yalnız çok önemli</option>
+                <option value="0">kapalı</option>
+              </select>
+            </label>
+            <label class="ek-ayar-satir">
+              Bölgesel dış olaylar ≥
+              <select id="odak-bolge-esik" title="Komşu devletlerin olayları. ⚠️ `bolge` alanı veride henüz yok — bugün `onem` vekil olarak kullanılıyor ve bu panelde BEYAN EDİLİYOR">
+                <option value="1" selected>1 — hepsi</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4 — önemli</option>
+                <option value="5">5 — yalnız dönüm noktaları</option>
+                <option value="0">kapalı</option>
+              </select>
+            </label>
+            <!-- 🔴 BU DAL BİR EŞİK DEĞİL, BİR KURTARMADIR — ve varsayılanı
+                 KAPALI olmak zorunda. Sebebi tarayıcıda ölçüldü: üç dal
+                 arasında VEYA var (bir madde herhangi birinden geçerse
+                 görünür), ve `dünya ≥ 1` açıkken HER madde bu daldan
+                 geçiyordu — yani "İç olaylar ≥ 4" ayarı hiçbir şey
+                 yapmıyordu. Ölçüm: İngiltere 270 madde, ic=4 yapıldı,
+                 sonuç YİNE 270. Ayar EKRANDA vardı, ÖLÜYDÜ.
+                 ⇒ Kapalıyken `ic`/`bölge` eşikleri kendi maddelerini
+                   yönetir; açılınca dünya çapında olaylar eşiği geçemeseler
+                   bile AYRICA gösterilir. -->
+            <label class="ek-ayar-satir">
+              Dünya olaylarını ayrıca göster
+              <select id="odak-dunya-esik" title="KURTARMA dalı: eşiği geçemeyen bir madde, dünya önemi bu değerin üstündeyse yine de görünür. Kapsamdan bağımsızdır.">
+                <option value="0" selected>kapalı</option>
+                <option value="5">dünya önemi 5 — yalnız dönüm noktaları</option>
+                <option value="4">4 — önemli</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 — hepsi (dal etkisiz kalır)</option>
+              </select>
+            </label>
+            <!-- 🔴 D015 — *ölçemediğini eleyen bir süzgeç onu temiz sayar.*
+                 Puansız bir madde "önemsiz" DEĞİL, "ÖLÇÜLMEMİŞ"tir.
+                 Varsayılan AÇIK: kapatılırsa Osmanlı zaman çizgisinin
+                 1253 iç maddesi bir anda kaybolur (ölçüldü). -->
+            <label class="ek-ayar-satir">
+              <input type="checkbox" id="odak-puansiz" checked>
+              puansız maddeleri de göster
+            </label>
+            <label class="ek-ayar-satir" title="Bir şehrin bir belgede ilk kez anıldığını anlatan maddeler (etiket: sehir-kronolojisi). Kronoloji sütunundaki süzgeçle ortak ayar.">
+              <input type="checkbox" id="odak-sehir-kron" checked>
+              şehir kronolojisi (ilk anılış) maddelerini göster
+            </label>
+            <div id="odak-suzgec-konu" class="ek-ayar-satir ek-konu-kutu"></div>
+            <div id="odak-suzgec-ozet" class="ek-ayar-ozet"></div>
+          </details>
+        </div>
+      </div>
+      <span id="ucus-grup">
+        <!-- 🔴🔴 24 Ağustos 2026 — `ucus-ac` ONAY KUTUSU KALDIRILDI, üçüncü
+             seçenek olarak KİP KUTUSUNA katıldı. Emre: *"checkbox
+             kaldırılabilir, ve comboboxda PASİF seçeneği olur … eğer
+             checkbox işaretli değil ise kullanıcı haritayı hangi çerçeveye
+             getirdi ve hangi zoomda bıraktı ise harita o şekilde
+             kalacaktır."*
+
+             NİÇİN GÜVENLİYDİ — değiştirmeden önce ölçüldü: `ucusAcEl`
+             kodun tamamında yedi yerde geçiyordu ve dördü anlamlıydı
+             (bir kapı + üç `essential`). Yani kutu TEK BİR kararı
+             besliyordu: "harita kıpırdasın mı". O karar buraya taşındı.
+
+             ⚠️ Ve bir davranış BİLEREK değişti: `pasif` kipte artık ELLE
+             TIKLAMA da haritayı oynatmıyor. Eskiden `zorla` bayrağı kutuyu
+             atlıyordu ("tıklamak zaten 'beni oraya götür' demektir" — o
+             gerekçe kendi bağlamında doğruydu). Ama Emre'nin tanımı
+             *"harita o şekilde kalacaktır"* diyor; tıklamada kıpırdayan
+             bir harita "o şekilde" kalmış olmaz. ⇒ `pasif` gerçekten
+             pasif, yoksa adı yalan olurdu.
+             📌 Sessiz kalmıyor: pasif kipte tıklanınca panelde SEBEBİ
+             yazılıyor — hiçbir şey yapmamak, kusurdan ayırt edilemez. -->
+        <select id="ucus-kip" title="Sıradaki olaya geçilince harita ne yapsın">
+          <option value="pasif">Pasif</option>
+          <option value="ani">Ani</option>
+          <option value="ucus" selected>Uçuş</option>
+        </select>
+        <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız, kenar payı">⚙</button>
+      </span>
+    </div>
     <section id="padisah-karti">
       <div id="padisah-portre"></div>
       <div id="padisah-bilgi">
@@ -480,112 +641,6 @@
           <div id="padisah-ad">—</div>
         </div>
         <div id="padisah-saltanat"></div>
-        <!-- 🔴 21 Ağustos — PAKET 0026/H-0001, Emre: "padişah ismi kronoloji
-             seçme combobox'ı VE ek devlet combobox'ı TEK OLSUN, çoktan
-             seçmeli olsun, tek tek işaretlenebilsin. İLK İŞARETLENEN ODAK
-             DEVLET olacak, ikinci üçüncü seçilenler EK DEVLET kategorisinde."
-             Eskiden İKİ ayrı kontrol vardı (`#odak-devlet` tek seçimli
-             `<select>` + `#ek-devletler-*` checkbox paneli); şimdi TEK panel,
-             rol TIKLAMA SIRASINDAN türüyor (js/app.js `satirTikla`). Satırlar
-             ELLE YAZILMIYOR — Osmanlı sabit ilk satır + kronolojisi olan
-             devletler DİNAMİK (yeni bir kronoloji_*.js otomatik listeye girer). -->
-        <div id="devlet-secici">
-          <button type="button" id="devlet-secici-buton" title="Kronoloji odağını ve ek devletleri seç — ilk tıkladığın ODAK, sonrakiler EK olur">
-            ☪ Osmanlı ▾
-          </button>
-          <div id="devlet-secici-panel" class="gizli">
-            <div id="devlet-secici-liste"></div>
-            <label class="ek-ayar-satir">
-              Ek devletlerde dünya önemi ≥
-              <select id="ek-dunya-esik" title="Yalnız bu değerin ÜSTÜNDEKİ dünya öneminde maddeler eklenir">
-                <option value="1">1 (hepsi)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4" selected>4</option>
-                <option value="5">5 (yalnız dönüm noktaları)</option>
-              </select>
-            </label>
-            <label class="ek-ayar-satir">
-              <input type="checkbox" id="ek-yalniz-dis"> ek devletlerde yalnız dış mesele maddeleri
-            </label>
-            <!-- 🔴🔴 ODAK SÜZGECİ — Emre'nin 10 Eylül 2026 tarifi, ve BİR
-                 KURALI KALDIRIYOR. Buranın üstündeki iki ayar YALNIZ EK
-                 devletlere işliyordu; kayıtlı kural şuydu: *"ODAK'ın kendi
-                 kronolojisi HER ZAMAN TAM gösterilir — süzgeç YOK."*
-                 Emre: *"kişi bir devlet seçtiği zaman o devletin
-                 kronolojisini ÇALIŞTIRMADAN ÖNCE bu ayarları yapmalı —
-                 tüm kronolojik maddeleri istiyor mu, sadece toprak
-                 kazancı kaybı maddelerini mi, hükümdar hanedan haberlerini
-                 görmek istiyor mu, kendi bölgesindeki devletlerden hangi
-                 önemdekileri, dünyayı ilgilendirenleri istiyor mu."*
-                 ⇒ Kural düştü: odak da süzülüyor. Varsayılan İÇ=1 (hepsi),
-                 yani AÇILIŞTA DAVRANIŞ DEĞİŞMEZ — süzgeç ancak kullanıcı
-                 eşiği yükseltince iş görür.
-                 🔴 Mantık `js/suzgec.js`te (DOM'suz, node'da sınandı:
-                 `denetim/SINAV-ONEM-SUZGEC-0910.js`, 9/9 geçti). Burada
-                 yalnız kontroller var. -->
-            <details id="odak-suzgec" class="ek-ayar-grup">
-              <summary>🎚 Bu devletin kronolojisinde ne göreyim?</summary>
-              <label class="ek-ayar-satir">
-                İç olaylar, önem ≥
-                <select id="odak-ic-esik" title="Devletin KENDİ olayları — 5 çok önemli, 1 hiç önemli değil">
-                  <option value="1" selected>1 — hepsi</option>
-                  <option value="2">2 — önemsizleri ele</option>
-                  <option value="3">3 — orta ve üstü</option>
-                  <option value="4">4 — önemli</option>
-                  <option value="5">5 — yalnız çok önemli</option>
-                  <option value="0">kapalı</option>
-                </select>
-              </label>
-              <label class="ek-ayar-satir">
-                Bölgesel dış olaylar ≥
-                <select id="odak-bolge-esik" title="Komşu devletlerin olayları. ⚠️ `bolge` alanı veride henüz yok — bugün `onem` vekil olarak kullanılıyor ve bu panelde BEYAN EDİLİYOR">
-                  <option value="1" selected>1 — hepsi</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4 — önemli</option>
-                  <option value="5">5 — yalnız dönüm noktaları</option>
-                  <option value="0">kapalı</option>
-                </select>
-              </label>
-              <!-- 🔴 BU DAL BİR EŞİK DEĞİL, BİR KURTARMADIR — ve varsayılanı
-                   KAPALI olmak zorunda. Sebebi tarayıcıda ölçüldü: üç dal
-                   arasında VEYA var (bir madde herhangi birinden geçerse
-                   görünür), ve `dünya ≥ 1` açıkken HER madde bu daldan
-                   geçiyordu — yani "İç olaylar ≥ 4" ayarı hiçbir şey
-                   yapmıyordu. Ölçüm: İngiltere 270 madde, ic=4 yapıldı,
-                   sonuç YİNE 270. Ayar EKRANDA vardı, ÖLÜYDÜ.
-                   ⇒ Kapalıyken `ic`/`bölge` eşikleri kendi maddelerini
-                     yönetir; açılınca dünya çapında olaylar eşiği geçemeseler
-                     bile AYRICA gösterilir. -->
-              <label class="ek-ayar-satir">
-                Dünya olaylarını ayrıca göster
-                <select id="odak-dunya-esik" title="KURTARMA dalı: eşiği geçemeyen bir madde, dünya önemi bu değerin üstündeyse yine de görünür. Kapsamdan bağımsızdır.">
-                  <option value="0" selected>kapalı</option>
-                  <option value="5">dünya önemi 5 — yalnız dönüm noktaları</option>
-                  <option value="4">4 — önemli</option>
-                  <option value="3">3</option>
-                  <option value="2">2</option>
-                  <option value="1">1 — hepsi (dal etkisiz kalır)</option>
-                </select>
-              </label>
-              <!-- 🔴 D015 — *ölçemediğini eleyen bir süzgeç onu temiz sayar.*
-                   Puansız bir madde "önemsiz" DEĞİL, "ÖLÇÜLMEMİŞ"tir.
-                   Varsayılan AÇIK: kapatılırsa Osmanlı zaman çizgisinin
-                   1253 iç maddesi bir anda kaybolur (ölçüldü). -->
-              <label class="ek-ayar-satir">
-                <input type="checkbox" id="odak-puansiz" checked>
-                puansız maddeleri de göster
-              </label>
-              <label class="ek-ayar-satir" title="Bir şehrin bir belgede ilk kez anıldığını anlatan maddeler (etiket: sehir-kronolojisi). Kronoloji sütunundaki süzgeçle ortak ayar.">
-                <input type="checkbox" id="odak-sehir-kron" checked>
-                şehir kronolojisi (ilk anılış) maddelerini göster
-              </label>
-              <div id="odak-suzgec-konu" class="ek-ayar-satir ek-konu-kutu"></div>
-              <div id="odak-suzgec-ozet" class="ek-ayar-ozet"></div>
-            </details>
-          </div>
-        </div>
       </div>
     </section>
     <section id="olay-akisi">
@@ -595,40 +650,13 @@
            ("bu ayar olmadan çok yaklaşıyor" — ayar zaten vardı, yerleşim
            kusuruydu). ⚙ düğmesi de BURAYA taşındı (§⑧②: ikinci pencere
            YOK, mevcut #ayarlar-pencere'yi açıyor — btn-ayarlar id'si aynı
-           kaldığı için js/app.js'teki dinleyici DOKUNULMADAN çalışıyor). -->
+           kaldığı için js/app.js'teki dinleyici DOKUNULMADAN çalışıyor).
+           📌 25 Ekim 2026: uçuş grubu ve konu süzgeci `#yanpanel-ust`e taşındı;
+           başlıkta yalnız "📜 Kronoloji" ve sayaç kaldı. -->
       <h2>
         <span id="olay-akisi-baslik">
           <span>📜 Kronoloji</span>
           <span id="olay-sayac"></span>
-        </span>
-        <span id="ucus-grup">
-          <!-- 🔴🔴 24 Ağustos 2026 — `ucus-ac` ONAY KUTUSU KALDIRILDI, üçüncü
-               seçenek olarak KİP KUTUSUNA katıldı. Emre: *"checkbox
-               kaldırılabilir, ve comboboxda PASİF seçeneği olur … eğer
-               checkbox işaretli değil ise kullanıcı haritayı hangi çerçeveye
-               getirdi ve hangi zoomda bıraktı ise harita o şekilde
-               kalacaktır."*
-
-               NİÇİN GÜVENLİYDİ — değiştirmeden önce ölçüldü: `ucusAcEl`
-               kodun tamamında yedi yerde geçiyordu ve dördü anlamlıydı
-               (bir kapı + üç `essential`). Yani kutu TEK BİR kararı
-               besliyordu: "harita kıpırdasın mı". O karar buraya taşındı.
-
-               ⚠️ Ve bir davranış BİLEREK değişti: `pasif` kipte artık ELLE
-               TIKLAMA da haritayı oynatmıyor. Eskiden `zorla` bayrağı kutuyu
-               atlıyordu ("tıklamak zaten 'beni oraya götür' demektir" — o
-               gerekçe kendi bağlamında doğruydu). Ama Emre'nin tanımı
-               *"harita o şekilde kalacaktır"* diyor; tıklamada kıpırdayan
-               bir harita "o şekilde" kalmış olmaz. ⇒ `pasif` gerçekten
-               pasif, yoksa adı yalan olurdu.
-               📌 Sessiz kalmıyor: pasif kipte tıklanınca panelde SEBEBİ
-               yazılıyor — hiçbir şey yapmamak, kusurdan ayırt edilemez. -->
-          <select id="ucus-kip" title="Sıradaki olaya geçilince harita ne yapsın">
-            <option value="pasif">Pasif</option>
-            <option value="ani">Ani</option>
-            <option value="ucus" selected>Uçuş</option>
-          </select>
-          <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız, kenar payı">⚙</button>
         </span>
       </h2>
       <!-- ZAMAN-ATLAMA-1021 — seyrek devir (veri penceresinden önce) bilgi satırı;
@@ -2147,7 +2175,7 @@
      Tablo (data/kaynak_guven.js) + hesaplayıcı (js/kaynak_damga.js) app.js'ten ÖNCE durmalı:
      app.js `olaylar`ı ve künye kronolojilerini kurarken süzgeç olarak çağırır. -->
 <script src="data/kaynak_guven.js?v=r208058036"></script>
-<script src="js/kaynak_damga.js?v=r126307977"></script>
+<script src="js/kaynak_damga.js?v=r104472814"></script>
 <!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
 <script src="js/odak_zoom.js?v=r126728536"></script>
 <script src="js/app.js?v=r167928946"></script>

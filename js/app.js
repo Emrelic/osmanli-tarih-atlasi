@@ -4480,24 +4480,37 @@ function kisaAdKalibi(ad) {
 function olayYeriKur() {
   // Kalıplar bir kez kurulur: 958 madde × 33 kısa ad = her koşuda 31.614 regex
   // derlemesi olurdu.
-  var kalip = [];
+  // HIZ (25 Ekim 2026): eski hâli her madde × her şehir için `split` + `indexOf`
+  // yapıyordu (4.198 × 4.703) ve ilk çizimden sonra arayüzü ~13 sn donduruyordu
+  // (CPU profili). Sonuç AYNI (aynı veride fark 0, 12,8 sn → 0,3 sn): uzun adlar
+  // 4 harflik önek tablosuyla aday bulunup `startsWith` ile sınanır ("metinde
+  // geçer mi" ile birebir), kısa adlar eskisi gibi kalıpla; liste artan i sırasında.
+  var kalip = [], onek = new Map(), kisa = [];
   for (var k = 0; k < sehirler.length; k++) {
+    // Parantezli karşılık da eşleşsin: "Bapheus (Koyunhisar)" → "Bapheus"
     var a = sehirler[k].s.ad.split(" (")[0];
     kalip[k] = (a.length > 0 && a.length < 4) ? kisaAdKalibi(a) : null;
+    if (a.length >= 4) {                                  // gevşek: ek alabilir
+      var o4 = a.slice(0, 4);
+      if (!onek.has(o4)) onek.set(o4, []);
+      onek.get(o4).push([k, a]);
+    } else if (kalip[k]) kisa.push(k);                    // sıkı: iki yanlı sınır
   }
   OLAY_YERI = olaylar.map(function (o) {
     var metin = ((o.yer || "") + " " + (o.b || ""));
-    var liste = [];
-    for (var i = 0; i < sehirler.length; i++) {
-      // Parantezli karşılık da eşleşsin: "Bapheus (Koyunhisar)" → "Bapheus"
-      var ad = sehirler[i].s.ad.split(" (")[0];
-      if (ad.length >= 4) {
-        if (metin.indexOf(ad) >= 0) liste.push(i);      // gevşek: ek alabilir
-      } else if (kalip[i] && kalip[i].test(metin)) {
-        liste.push(i);                                   // sıkı: iki yanlı sınır
+    var bulunan = {}, liste = [];
+    for (var j = 0; j + 4 <= metin.length; j++) {
+      var aday = onek.get(metin.substr(j, 4));
+      if (!aday) continue;
+      for (var c = 0; c < aday.length; c++) {
+        var i = aday[c][0];
+        if (!bulunan[i] && metin.startsWith(aday[c][1], j)) { bulunan[i] = true; liste.push(i); }
       }
     }
-    return liste;
+    for (var q = 0; q < kisa.length; q++) {
+      if (kalip[kisa[q]].test(metin)) liste.push(kisa[q]);
+    }
+    return liste.sort(function (x, y) { return x - y; });
   });
 }
 
@@ -8970,9 +8983,10 @@ function suzgecUrlOku() {
   //     [706 / 1223 başlık]
   // Açılır gövde `position:absolute` — açılınca başlığı büyütmüyor, listenin
   // üstüne biniyor (css/style.css #konu-suzgec).
-  var _h2 = document.querySelector("#olay-akisi h2");
+  // 📌 25 Ekim 2026 — Emre: "konu süzgeci ve uçuş butonu yan yana en tepede."
+  // #ucus-grup artık `#yanpanel-ust`te; kutu nerede olursa onun ÖNÜNE girer.
   var _ucus = document.getElementById("ucus-grup");
-  if (_h2 && _ucus) _h2.insertBefore(kutu, _ucus);
+  if (_ucus) _ucus.parentNode.insertBefore(kutu, _ucus);
   else olayListe.parentNode.insertBefore(kutu, olayListe);   // yedek: eski yer
   if (suzgecSecim || toprakSecim || baslikSecim || sehirKronGizli) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
   suzgecUygula();
@@ -16989,9 +17003,56 @@ function kronoTemsilEdiliyor(k, derin) {
   var secButon = document.getElementById("devlet-secici-buton");
   var secPanel = document.getElementById("devlet-secici-panel");
   var secListe = document.getElementById("devlet-secici-liste");
+  var secAra = document.getElementById("devlet-secici-ara");
+  var secTumu = document.getElementById("devlet-secici-tumu");
 
   function tumSatirlar() {                     // Osmanlı pinned + kronolojisi olan devletler
     return [OSMANLI_SYNTH].concat(adaylar);
+  }
+
+  // 🔎 Emre (25 Ekim 2026): arama kutusu listeyi süzer. Kelimelerin HEPSİ
+  // adda (ya da id'de) geçmeli; `trKatla` ile "osmanli" = "Osmanlı".
+  function gorunenSatirlar() {
+    var kelimeler = trKatla((secAra && secAra.value || "").trim()).split(/\s+/).filter(Boolean);
+    if (!kelimeler.length) return tumSatirlar();
+    return tumSatirlar().filter(function (d) {
+      var hedef = trKatla(d.ad) + " " + d.id;
+      return kelimeler.every(function (k) { return hedef.indexOf(k) >= 0; });
+    });
+  }
+
+  // "Tümünü seç": görünen satırların ODAK olmayanlarının hepsi EK olur; hepsi
+  // zaten EK ise aynı düğme hepsini çıkarır. Osmanlı EK olamaz (yukarıdaki not).
+  function tumuSecilebilir() {
+    var odakId = ODAK ? ODAK.id : "osmanli";
+    return gorunenSatirlar().filter(function (d) {
+      return d.id !== "osmanli" && d.id !== odakId;
+    }).map(function (d) { return d.id; });
+  }
+  function tumuDugmeYaz() {
+    if (!secTumu) return;
+    var ids = tumuSecilebilir();
+    var hepsi = ids.length && ids.every(function (id) { return EK_SECILI.indexOf(id) >= 0; });
+    secTumu.textContent = hepsi ? "☐ Seçimi kaldır" : "☑ Tümünü seç";
+    secTumu.disabled = !ids.length;
+    secTumu.title = hepsi
+      ? "Görünen " + ids.length + " kronolojiyi havuzdan çıkarır."
+      : "Görünen " + ids.length + " kronolojinin hepsini EK havuzuna katar"
+        + (secAra && secAra.value.trim() ? " (aramaya uyanlar)." : " (bütün kronolojiler).");
+  }
+  function tumunuSec() {
+    var ids = tumuSecilebilir();
+    if (!ids.length) return;
+    var hepsi = ids.every(function (id) { return EK_SECILI.indexOf(id) >= 0; });
+    ids.forEach(function (id) {
+      var i = EK_SECILI.indexOf(id);
+      if (hepsi && i >= 0) EK_SECILI.splice(i, 1);
+      else if (!hepsi && i < 0) EK_SECILI.push(id);
+    });
+    panelDoldur();
+    render();
+    console.log("Atlas: tümünü seç → " + EK_SECILI.length + " ek kronoloji");
+    guncelle();
   }
 
   function rolYaz() {
@@ -17141,7 +17202,15 @@ function kronoTemsilEdiliyor(k, derin) {
       sif.addEventListener("click", function () { satirTikla("__sifirla__"); });
       secListe.appendChild(sif);
     }
-    tumSatirlar().forEach(function (d) {
+    tumuDugmeYaz();
+    var gorunen = gorunenSatirlar();
+    if (!gorunen.length) {
+      var yok = document.createElement("div");
+      yok.className = "dss-bulunamadi";
+      yok.textContent = "“" + secAra.value.trim() + "” adlı bir kronoloji yok.";
+      secListe.appendChild(yok);
+    }
+    gorunen.forEach(function (d) {
       var rol = d.id === "osmanli"
                 ? (!ODAK ? "odak" : EK_SECILI.indexOf("osmanli") >= 0 ? "ek" : null)
               : ODAK && ODAK.id === d.id ? "odak"
@@ -17175,7 +17244,23 @@ function kronoTemsilEdiliyor(k, derin) {
   }
   if (secButon && secPanel) secButon.addEventListener("click", function () {
     secPanel.classList.toggle("gizli");
+    if (secAra && !secPanel.classList.contains("gizli")) secAra.focus();
   });
+  if (secAra) {
+    secAra.addEventListener("input", function () {
+      panelDoldur();
+      if (secListe) requestAnimationFrame(function () { secListe.scrollTop = 0; });
+    });
+    secAra.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter") {
+        var ilk = gorunenSatirlar()[0];
+        if (ilk) satirTikla(ilk.id);
+      } else if (ev.key === "Escape" && secPanel) {
+        secPanel.classList.add("gizli");
+      }
+    });
+  }
+  if (secTumu) secTumu.addEventListener("click", tumunuSec);
   if (ekDunyaSel) ekDunyaSel.addEventListener("change", function () {
     EK_DUNYA_ESIK = +ekDunyaSel.value; render();
   });

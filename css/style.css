@@ -819,7 +819,48 @@ body {
   box-shadow: 0 6px 16px rgba(0,0,0,0.3);
 }
 #devlet-secici-panel.gizli { display: none; }
+/* 🔝 ÜST SATIR — Emre (25 Ekim 2026): kronoloji seçici · konu süzgeci · uçuş
+   EN TEPEDE yan yana; hükümdar kartı ve maddeler altında. Seçici ile süzgeç
+   `position: static` ⇒ açılır panelleri bu satıra göre konumlanır ve satırın
+   TAM genişliğini alır (seçici düğmesi dar olsa da liste dar kalmaz).
+   `z-index` açılırların alttaki kartın ve listenin üstüne binmesi için. */
+#yanpanel-ust {
+  position: relative; z-index: 20;
+  display: flex; align-items: center; gap: 5px;
+  padding: 5px 8px;
+  background: var(--panel-koyu);
+  border-bottom: 1px solid #d8c9a3;
+  flex: 0 0 auto;
+}
+#yanpanel-ust #devlet-secici { position: static; margin-top: 0; flex: 1 1 40%; min-width: 0; }
+#yanpanel-ust #devlet-secici-panel { left: 8px; right: 8px; }
+#yanpanel-ust #konu-suzgec { position: static; flex: 0 1 auto; }
+#yanpanel-ust #konu-suzgec .suzgec-govde { left: 8px; right: 8px; }
+
+/* ⚡ UZUN LİSTE HIZI — Emre (25 Ekim 2026): "Tümünü seç" 1771 kronolojide
+   ~17 bin satır çiziyor ve sayfa donuyordu. ÖLÇÜLDÜ (yayın, 1400×900):
+   liste gizliyken çizim 415 ms, görünürken 4212 ms ⇒ maliyet JS değil,
+   17 bin satırın YERLEŞİM hesabı. `content-visibility:auto` ekran dışındaki
+   satırın yerleşimini atlatır: Tümünü seç 3555 → 1065 ms · Seçimi kaldır
+   1063 → 251 ms. `contain-intrinsic-size` ölçülen ortalama satır boyu
+   (40 px; `auto` gerçek boyu çizildikten sonra hatırlar). Şimdiki maddeye
+   kaydırma sınandı: 1453 · 1683 · 1914'e atlamada satır görünür kaldı. */
+#olay-listesi > .olay { content-visibility: auto; contain-intrinsic-size: auto 40px; }
+.devlet-secici-satir { content-visibility: auto; contain-intrinsic-size: auto 24px; }
 #devlet-secici-liste { max-height: 220px; overflow-y: auto; }
+#devlet-secici-ara-satir { display: flex; gap: 4px; margin-bottom: 4px; }
+#devlet-secici-ara {
+  flex: 1; min-width: 0;
+  font-size: 12px; padding: 3px 6px;
+  border: 1px solid #d8c9a3; border-radius: 4px;
+}
+#devlet-secici-tumu {
+  flex: none; font-size: 11px; padding: 2px 6px; cursor: pointer;
+  border: 1px solid var(--altin); border-radius: 4px; background: var(--panel-koyu);
+  color: var(--metin);
+}
+#devlet-secici-tumu:hover { background: #ffe9a8; }
+.dss-bulunamadi { padding: 6px; font-style: italic; opacity: .75; }
 .devlet-secici-satir {
   display: flex; align-items: center; gap: 5px;
   padding: 3px 4px; border-radius: 4px; cursor: pointer;
