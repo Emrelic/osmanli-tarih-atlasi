@@ -503,7 +503,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1657-01-01", devlet:"erdel", b:"II. Rákóczi György'nin talihsiz Lehistan seferi", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","kriz","konu-askeri","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Varşova"],
   d:"Osmanlı'nın açık izni olmadan İsveç ile birlikte Lehistan'a giren Rákóczi'nin ordusu Tatar kuvvetlerince imha edildi; felaket, Osmanlı'nın Erdel üzerindeki denetimini sertleştirmesine ve prensliğin bir daha toparlanamayacağı bir çöküş sürecine yol açtı.",
   kaynak:"akademik: Kontler (2002), s. 160-161", kapsam_genis:true },
 
@@ -521,7 +521,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1678-09-13", devlet:"macaristan-habsburg", b:"Thököly İmre'nin Kuruc hareketinin başına geçmesi", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic",
   etiket:["isyan","hukumdar","konu-isyan","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Kassa (Košice)","Eperjes (Prešov)"],
   d:"Wesselényi Tertibi sonrası Habsburg baskısından kaçan Protestan soylu ve askerlerden oluşan Kuruc hareketi, genç Thököly İmre'nin liderliğinde birleşti; Thököly, Osmanlı desteğiyle Kuzey-Doğu Macaristan'ın büyük kısmını ele geçirecekti.",
   kaynak:"TDV `tokoli-imre`: Thököly'nin Kuruc hareketinin lideri olarak Osmanlı desteğiyle Kuzey Macaristan'da hâkimiyet kurduğu anlatılır", kapsam_genis:true },
 
@@ -609,7 +609,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1720-01-01", devlet:"macaristan-habsburg", b:"Bácska ve Bánát'a Alman (Schwaben) göçmenlerin iskânının başlaması", tur:"diger", onem:3, dunya:1, kapsam:"ic",
   etiket:["sosyal","goc","ekonomi","konu-ekonomi","konu-sosyal","konu-demografi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Temeşvar","Varadin (Petrovaradin)"], kapsam_genis:true,
   d:"Uzun savaşlarla nüfusu boşalan Güney Macaristan'a, Habsburg idaresi Katolik Alman köylülerini iskân etmeye başladı; bu 'Büyük Schwaben Göçü' bir asra yayılarak bölgenin etnik ve tarımsal yapısını kalıcı biçimde değiştirdi.",
   kaynak:"akademik: Evans (2006), s. 178-180" },
 
@@ -631,7 +631,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1738-01-01", devlet:"macaristan-habsburg", b:"Büyük veba salgınının Güney Macaristan'ı vurması", tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["salgin","sosyal","konu-sosyal","afet","afet-salgin"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Temeşvar","Varadin (Petrovaradin)"], kapsam_genis:true,
   d:"Osmanlı-Habsburg sınır bölgesinden yayılan veba, yeni iskân edilen Bánát ve Bácska nüfusunu ağır biçimde vurdu; salgın, sınır boyunca kurulan sıhhî kordon (Militärgrenze) uygulamalarının sıkılaştırılmasına yol açtı.",
   kaynak:"akademik: Evans (2006), s. 180-181" },
 
@@ -689,7 +689,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1831-08-01", devlet:"macaristan-habsburg", b:"Doğu Slovakya kolera isyanı", tur:"isyan", onem:2, dunya:1, kapsam:"ic",
   etiket:["salgin","isyan","sosyal","konu-isyan","konu-sosyal","afet","afet-salgin"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Kassa (Košice)","Eperjes (Prešov)"],
   d:"Kolera salgını sırasında köylüler arasında yayılan 'kuyuların zehirlendiği' söylentisi, Kuzey-Doğu Macaristan'da toprak beylerine yönelik kanlı bir ayaklanmaya dönüştü; olay, köylü hoşnutsuzluğunun serflik meselesini yeniden gündeme getirmesinde etkili oldu.",
   kaynak:"akademik: Kontler (2002), s. 216", kapsam_genis:true },
 
@@ -765,13 +765,13 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1850-01-01", devlet:"macaristan-habsburg", b:"Bach döneminin merkezîleştirici idaresinin kurulması", tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["idari","kriz","konu-siyasi","konu-idari"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Aquincum-Óbuda-Pest","Viyana"], kapsam_genis:true,
   d:"İçişleri Bakanı Alexander Bach'ın adını taşıyan sistem, Macaristan'ı ayrı bir siyasî varlık olarak tanımayıp doğrudan Viyana'dan yönetilen bir eyalete indirgedi; Alman memurlar ve jandarma ile yürütülen bu idare, Macar toplumunda 'pasif direniş' (Deák Ferenc'in siyasetiyle özdeşleşen) tepkisini doğurdu.",
   kaynak:"akademik: Kontler (2002), s. 233-235" },
 
 { t:"1854-03-02", devlet:"macaristan-habsburg", b:"Urbéri kárpótlás — serflik tazminatının yasal çerçevesinin tamamlanması", tur:"reform", onem:3, dunya:1, kapsam:"ic",
   etiket:["mali","reform","konu-ekonomi","konu-islahat"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Aquincum-Óbuda-Pest"], kapsam_genis:true,
   d:"1848 Nisan Yasaları'yla ilke olarak kaldırılan serfliğin toprak beylerine devlet tarafından ödenecek tazminatının usulleri, Bach döneminde tamamlandı; düzenleme köylü mülkiyetini hukuken kesinleştirse de büyük toprak sahiplerini malî olarak kayırdı.",
   kaynak:"akademik: Evans (2006), s. 280-281" },
 
@@ -865,7 +865,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1878-01-01", devlet:"macaristan-habsburg", b:"Avusturya-Macaristan Gümrük ve Ticaret Birliği'nin on yıllık yenilenmesi", tur:"ekonomi", onem:2, dunya:1, kapsam:"ic",
   etiket:["ekonomi","antlasma","konu-diplomasi","konu-ekonomi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Viyana","Aquincum-Óbuda-Pest"], kapsam_genis:true,
   d:"Ausgleich'ın ekonomik ayağı olan ortak gümrük birliği, on yılda bir yeniden müzakere edilerek yenilendi; Macar tarım ürünlerinin Avusturya sanayi pazarına serbest girişi, Macaristan'ın 'imparatorluğun tahıl ambarı' konumunu pekiştirdi.",
   kaynak:"akademik: Kontler (2002), s. 253-254" },
 

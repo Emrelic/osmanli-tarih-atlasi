@@ -498,7 +498,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙辰 → 617-12-12; 辛巳 (10. ay) 617-11-07 ile tutarlı. Bu, yerleşim zincirinde devir günü SAYILMADI: şehir resmî olarak Sui adına (Yang You) kaldı, devir 618-06-18."
  },
- {
+ { "odak_yer":["Yangzhou"], 
   "t": "0618-04-11",
   "b": "Yangdi Jiangdu'da Yuwen Huaji tarafından öldürüldü",
   "tur": "hukumdar",
@@ -1115,7 +1115,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 2. ayının başı."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0618-09-24",
   "b": "Wang Shichong, Yanshi'de Li Mi'yi yendi; Luokou ve Yanshi Wang'ın eline geçti",
   "tur": "savas",
@@ -1487,7 +1487,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Baoying 1 = 762 (yıl kaynakta var; ay/gün yok)."
  },
- {
+ { "odak_yer":["Changsha"], 
   "t": "0894-01-01",
   "b": "Liu Jianfeng Tanzhou’yu (Changsha) alıp Hunan’a girdi",
   "tur": "isgal",
@@ -1549,7 +1549,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Künye (ms1) f=0902-01-01 gösterir; bu kaynak 895’i verir. Ay/gün kaynakta yok; yıl 895. Künye (ms1) f=0902-01-01 diyor: künye f 0895-01-01 olmalı (öneri). Li Keyong Hedong valisi olarak 883’ten beri Taiyuan’dadır; Tang resmî egemen kaldı — BEYANLI YAKLAŞIKLIK."
  },
- {
+ { "odak_yer":["Changsha"], 
   "t": "0896-01-01",
   "b": "Ma Yin Tanzhou’yu devraldı (Hunan valisi)",
   "tur": "hukumdar",

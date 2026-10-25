@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "afa76d1cbdfec4ef",
-     "bayt": 5460837
+     "sha": "c396f3dc9c46c5c8",
+     "bayt": 5460909
     }
    ],
-   "bayt": 5640645
+   "bayt": 5640717
   },
   {
    "paket": "data/paket_06.js",
@@ -227,11 +227,11 @@
     },
     {
      "yol": "data/kronoloji_macaristan.js",
-     "sha": "1d71723f1782d1e7",
-     "bayt": 94473
+     "sha": "ee5302df2cd43f8e",
+     "bayt": 94817
     }
    ],
-   "bayt": 276139
+   "bayt": 276483
   },
   {
    "paket": "data/paket_08.js",
