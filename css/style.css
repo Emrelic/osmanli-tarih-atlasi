@@ -820,11 +820,6 @@ body {
 }
 #devlet-secici-panel.gizli { display: none; }
 #devlet-secici-liste { max-height: 220px; overflow-y: auto; }
-/* LAB-KRONO-ARAMA-1024 — devlet adına göre süzme kutusu (js/app.js `araUygula`) */
-.dss-ara-satir { display: flex; align-items: center; gap: 6px; padding: 4px 2px 6px; }
-#devlet-secici-ara { flex: 1; min-width: 0; font-size: 12px; padding: 3px 6px; }
-.dss-ara-sonuc { font-size: 11px; color: #6b5a3a; white-space: nowrap; }
-.devlet-secici-satir.dss-gizli { display: none; }
 .devlet-secici-satir {
   display: flex; align-items: center; gap: 5px;
   padding: 3px 4px; border-radius: 4px; cursor: pointer;
