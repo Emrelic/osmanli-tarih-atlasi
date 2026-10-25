@@ -4479,24 +4479,37 @@ function kisaAdKalibi(ad) {
 function olayYeriKur() {
   // Kalıplar bir kez kurulur: 958 madde × 33 kısa ad = her koşuda 31.614 regex
   // derlemesi olurdu.
-  var kalip = [];
+  // HIZ (25 Ekim 2026): eski hâli her madde × her şehir için `split` + `indexOf`
+  // yapıyordu (4.198 × 4.703) ve ilk çizimden sonra arayüzü ~13 sn donduruyordu
+  // (CPU profili). Sonuç AYNI (aynı veride fark 0, 12,8 sn → 0,3 sn): uzun adlar
+  // 4 harflik önek tablosuyla aday bulunup `startsWith` ile sınanır ("metinde
+  // geçer mi" ile birebir), kısa adlar eskisi gibi kalıpla; liste artan i sırasında.
+  var kalip = [], onek = new Map(), kisa = [];
   for (var k = 0; k < sehirler.length; k++) {
+    // Parantezli karşılık da eşleşsin: "Bapheus (Koyunhisar)" → "Bapheus"
     var a = sehirler[k].s.ad.split(" (")[0];
     kalip[k] = (a.length > 0 && a.length < 4) ? kisaAdKalibi(a) : null;
+    if (a.length >= 4) {                                  // gevşek: ek alabilir
+      var o4 = a.slice(0, 4);
+      if (!onek.has(o4)) onek.set(o4, []);
+      onek.get(o4).push([k, a]);
+    } else if (kalip[k]) kisa.push(k);                    // sıkı: iki yanlı sınır
   }
   OLAY_YERI = olaylar.map(function (o) {
     var metin = ((o.yer || "") + " " + (o.b || ""));
-    var liste = [];
-    for (var i = 0; i < sehirler.length; i++) {
-      // Parantezli karşılık da eşleşsin: "Bapheus (Koyunhisar)" → "Bapheus"
-      var ad = sehirler[i].s.ad.split(" (")[0];
-      if (ad.length >= 4) {
-        if (metin.indexOf(ad) >= 0) liste.push(i);      // gevşek: ek alabilir
-      } else if (kalip[i] && kalip[i].test(metin)) {
-        liste.push(i);                                   // sıkı: iki yanlı sınır
+    var bulunan = {}, liste = [];
+    for (var j = 0; j + 4 <= metin.length; j++) {
+      var aday = onek.get(metin.substr(j, 4));
+      if (!aday) continue;
+      for (var c = 0; c < aday.length; c++) {
+        var i = aday[c][0];
+        if (!bulunan[i] && metin.startsWith(aday[c][1], j)) { bulunan[i] = true; liste.push(i); }
       }
     }
-    return liste;
+    for (var q = 0; q < kisa.length; q++) {
+      if (kalip[kisa[q]].test(metin)) liste.push(kisa[q]);
+    }
+    return liste.sort(function (x, y) { return x - y; });
   });
 }
 
