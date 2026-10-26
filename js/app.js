@@ -17006,6 +17006,19 @@ function kronoTemsilEdiliyor(k, derin) {
     return d.kronoloji && d.kronoloji.length;
   }).sort(function (a, b) { return a.ad.localeCompare(b.ad, "tr"); });
 
+  // 🏺 Emre (26 Ekim 2026): "arkeoloji etiketli maddeleri kronoloji künyesi listesinden
+  // ARKEOLOJİ seçince getirebiliriz." Devleti olmayan arkeolojik maddeler için sentetik
+  // künye: kronolojisi = `etiket:["arkeoloji"]` taşıyan bütün maddeler (gün sırasıyla).
+  // `harita` kasıtlı sahte: haritada boyanacak bir devlet yok, `devletiYay` hata vermeden geçer.
+  var ARKEOLOJI_SYNTH = (function () {
+    var m = olaylar.filter(function (o) { return o.etiket && o.etiket.indexOf("arkeoloji") >= 0; })
+      .sort(function (a, b) { return a.gi - b.gi; });
+    if (!m.length) return null;
+    return { id: "arkeoloji", ad: "🏺 Arkeoloji (devletsiz)", harita: "__arkeoloji__",
+             f: m[0].t, t: m[m.length - 1].t, kronoloji: m };
+  })();
+  if (ARKEOLOJI_SYNTH) kunye = kunye.concat([ARKEOLOJI_SYNTH]);
+
   function bul(id) {
     for (var i = 0; i < kunye.length; i++) if (kunye[i].id === id) return kunye[i];
     return null;
@@ -17066,7 +17079,7 @@ function kronoTemsilEdiliyor(k, derin) {
   var secTumu = document.getElementById("devlet-secici-tumu");
 
   function tumSatirlar() {                     // Osmanlı pinned + kronolojisi olan devletler
-    return [OSMANLI_SYNTH].concat(adaylar);
+    return [OSMANLI_SYNTH].concat(ARKEOLOJI_SYNTH ? [ARKEOLOJI_SYNTH] : [], adaylar);
   }
 
   // 🔎 Emre (25 Ekim 2026): arama kutusu listeyi süzer. Kelimelerin HEPSİ
