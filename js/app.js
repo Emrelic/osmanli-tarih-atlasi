@@ -17806,7 +17806,10 @@ function kronoTemsilEdiliyor(k, derin) {
         "bu tarihe gidemez, harita değiştirilmedi.";
       return;
     }
-    var hedefYer = m.yer_id ? olayKonumu(m) : null;
+    // 🆕 26 Ekim 2026 (KRONOLOJI-KONUM) — `yer_kon` tek başına da nokta.
+    // Eski koşul yalnız `yer_id`ye bakıyordu ⇒ `yer_id`siz `yer_kon`lu 748
+    // madde (savaş meydanları vb.) sekmede kıpırdamıyordu (odak_olc OKUNMAYAN).
+    var hedefYer = (m.yer_id || (m.yer_kon && m.yer_kon.length === 2)) ? olayKonumu(m) : null;
     if (hedefYer) {
       try { haritayiOlayaGotur(m, true); } catch (e) { /* harita hazır değil */ }
     } else if (!m.kapsam_genis) {

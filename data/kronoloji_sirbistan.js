@@ -173,19 +173,19 @@ window.KRONOLOJI_SIRBISTAN = [
 
 // ───────────────────────── OSMANLI DOĞRUDAN İDARESİ (1459-1804) — ayrı Sırp devleti YOK
 
-{ taraflar:["sirbistan-eyaleti"], t:"1463-01-01", b:"Peç (İpek) Patrikliği kaldırıldı", tur:"din",
+{ odak_yer:["Peç (Pejë)"], taraflar:["sirbistan-eyaleti"], t:"1463-01-01", b:"Peç (İpek) Patrikliği kaldırıldı", tur:"din",
   onem:3, dunya:1, kapsam:"ic", etiket:["din","konu-din"],
   yer_id:"",
   d:"Sırp Ortodoks Kilisesi'nin bağımsız patrikliği kaldırıldı; Sırp kiliseleri doğrudan Fener Rum Ortodoks Patrikhânesi'ne bağlandı. Bu dönemde Sırbistan'ın kendi devleti yoktur; kilise, Sırp kimliğinin sürdüğü tek kurumsal çatıydı.",
   kaynak:"TDV `sirbistan` — gün verilmiyor, YYYY-01-01.", kunye:["sirbistan-eyaleti"] },
 
-{ taraflar:["sirbistan-eyaleti"], t:"1557-01-01", b:"Peç Patrikliği ihya edildi (Sokollu Mehmed Paşa)", tur:"din",
+{ odak_yer:["Peç (Pejë)"], taraflar:["sirbistan-eyaleti"], t:"1557-01-01", b:"Peç Patrikliği ihya edildi (Sokollu Mehmed Paşa)", tur:"din",
   onem:4, dunya:2, kapsam:"ic", etiket:["din","konu-din"],
   yer_id:"",
   d:"Sırp asıllı Sadrazam Sokollu Mehmed Paşa'nın da rolüyle, doksan dört yıl önce kaldırılmış olan Peç Patrikliği yeniden ihya edildi; ilk patrik Sokollu'nun akrabası Makarije Sokolović oldu. İhya, Sırp Ortodoks kimliğinin Osmanlı idaresi altında kurumsal olarak sürmesini sağladı.",
   kaynak:"TDV `sirbistan`: 'XVI. yüzyılın ortalarında Sokullu Mehmed Paşa'nın da rolüyle daha önce kaldırılmış olan Peç (İpek) patrikliği yeniden ihya edildi (1557).'", kunye:["sirbistan-eyaleti"] },
 
-{ taraflar:["sirbistan-eyaleti"], t:"1690-01-01", b:"Büyük Sırp Göçü (Arsenije III Crnojević)", tur:"toprak-kayip",
+{ odak_yer:["Peç (Pejë)","Belgrad","Varadin (Petrovaradin)"], taraflar:["sirbistan-eyaleti"], t:"1690-01-01", b:"Büyük Sırp Göçü (Arsenije III Crnojević)", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"ic", etiket:["goc","din","konu-askeri","konu-din","konu-demografi"],
   yer_id:"",
   d:"Osmanlı-Avusturya savaşında (1683-1699) Habsburg tarafını tutan Sırplar, savaş Osmanlı lehine döndüğünde Osmanlı misillemesinden korkarak Patrik Arsenije III Crnojević önderliğinde Kosova ve çevresini terk edip kuzeye, Habsburg topraklarındaki Karlofça'ya göç etti (tahminen on binlerce aile). Göç, Kosova'nın etnik demografisini kalıcı biçimde değiştirdi ve modern Sırp-Arnavut anlaşmazlığının köklerinden biri sayılır.",
@@ -197,7 +197,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"1717-1739 arası yirmi iki yıl Habsburg idaresinde kalan Belgrad ve kuzey Sırbistan, Osmanlı-Avusturya savaşını bitiren Belgrad Antlaşması'yla yeniden Osmanlı'ya geçti.", ic_not_d:"dunya puanı kronoloji_habsburg.js'teki aynı olayla eşleştirildi; kronoloji_kirim.js aynı olaya dunya:2 veriyor — iki dosya arasındaki bu çelişki bildirildi (M-1021), burada habsburg değeri alındı.",
   kaynak:"TDV `avusturya` (kronoloji_habsburg.js'te alıntılanan): 'Avusturya Pasarofça'da kazandığı yerleri…ve Belgrad'ı geri vermiştir.'", kunye:["sirbistan-eyaleti"] },
 
-{ taraflar:["sirbistan-eyaleti"], t:"1766-01-01", b:"Peç Patrikliği kalıcı olarak kaldırıldı", tur:"din",
+{ odak_yer:["Peç (Pejë)"], taraflar:["sirbistan-eyaleti"], t:"1766-01-01", b:"Peç Patrikliği kalıcı olarak kaldırıldı", tur:"din",
   onem:3, dunya:1, kapsam:"ic", etiket:["din","konu-din"],
   yer_id:"",
   d:"Peç Patrikliği bu kez kalıcı olarak kaldırıldı ve bölgedeki Sırp kiliseleri yeniden Fener Rum Ortodoks Patrikhânesi'ne bağlandı; Sırp kilisesinin kurumsal özerkliği 1832'ye (Sırp Ortodoks Kilisesi'nin özerklik kazanmasına) kadar kesintiye uğradı.",

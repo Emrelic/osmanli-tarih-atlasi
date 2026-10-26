@@ -280,7 +280,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"1860 Torino Antlaşması'nın öngördüğü karma komisyon, Savoy ve Nice'in Fransa'ya geçmesinden sonraki sınırı Torino'da imzalanan sözleşmeyle belirledi. Hat birçok yerde antlaşmada tasarlanandan ayrıldı ve Fransa bazı vadi başlarını kaybetti. On gün sonra İtalya Krallığı ilan edilince bu hat Fransa–İtalya sınırı oldu; 1947'ye kadar yalnız küçük düzeltmeler gördü.",
   kaynak:"IBS No. 4 France–Italy (Torino 1860-61)" },
 
-{ t:"1862-06-21", devlet:"ispanya", devletler:["ispanya","fas"], sinir_id:"dg3-es-ma-melilla-1894-oncesi",
+{ odak_yer:["Melîle (Melilla)","Tanca"], t:"1862-06-21", devlet:"ispanya", devletler:["ispanya","fas"], sinir_id:"dg3-es-ma-melilla-1894-oncesi",
   b:"Tanca demarkasyon akdi — Melilla sınırı işaretlendi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","ispanya","fas"],
   d:"1859 Tetuan Sözleşmesi ve 1861 Madrid Antlaşması'nın genişlettiği Melilla sınırı Tanca'da imzalanan demarkasyon akdiyle yerinde işaretlendi. Akdin günü kaynaklar arasında çelişkilidir: İspanya hükümeti 21 Haziran, basın 26 Haziran 1862 veriyor.",

@@ -430,7 +430,8 @@ function veriDisi(m, d, sd) {
   return dv[0];
 }
 function sekmeDali(m, d) {
-  const hedef = m.yer_id ? olayKonumu(m) : null;
+  // 26 Ekim 2026 — app.js `maddeAc` artık `yer_kon`u `yer_id`siz de okur (aynası).
+  const hedef = (m.yer_id || yerKonYazili(m)) ? olayKonumu(m) : null;
   if (hedef) return { dal: "SEKME_NOKTA" };
   if (!m.kapsam_genis) {
     // 14 Ekim 2026 (KARARLAR-1014 #40) — app.js `maddeAc` bu dalda da `maddeOdakKutusu(m)`

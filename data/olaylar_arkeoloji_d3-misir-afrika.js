@@ -163,7 +163,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3731–3550 (kaynağın verdiği uçlar); orta nokta MÖ 3640 = astronomik -3639. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Naqada IB/IC 3690 3605 (68%) 3731 3550 (95%) [Tablo 1 satiri]». UYARI: kur/bit HK11C'ye ozgu bir Bayes modeli DEGIL; Dee 2013 modelinde Hierakonpolis dortluden biridir ama faz sinirlari butun sahalar icin ortaktir; HK11C'nin IC-IIB atamasi gorece kronolojidir (Friedman). Yardimci veri (IntChron, VERI TABANI KALIBRASYONU, ham degil, ortalama +- sigma, 95.4 DEGIL): HK11 Lokalite 11c/11a komur/odun serisi: WIS-1151 -3517+-87 (Mound A Level 14), WIS-1152 -3695+-83 (Level 6), WIS-1153 -3576+-92, WIS-1168 -3486+-97, W-4353 -3480+-110, UW-104 -3488+-113, UW-105 -3485+-114; WIS-1181 odun -3278+-142 (sapma). Yani kaba MO ~3700-3350. Bunlar 1970-80 ham odun/komur dizisidir (eski-odun etkisi olasi) - sinir olarak kullanma. Burleigh 1983 kabuk (BM-1127A/B) HK33 'boyali mezar', ham 5000+-90 BP."
  },
- {
+ {"odak_yer":["Mopti"],
   "t": "-9249-01-01",
   "k": "ilk_anilis",
   "b": "Ounjougou (Ravin de la Mouche) - Afrika'nin en eski seramigi: Afrika'nın en erken çanak çömleği (Ounjougou)",

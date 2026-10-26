@@ -115,7 +115,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3640–3385 (kaynağın verdiği uçlar); orta nokta MÖ 3512 = astronomik -3511. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «burial in the rock-cut tomb would have begun in 3640-3500 cal BC (73% probability) or 3465-3385 cal BC (22% probability)». MÖ 3640-3385 'kayaya oyulmuş mezarda gömü BAŞLANGICI'nın oluş-zamanı belirsizliğidir (kalibre tek olay: %95 = 3640-3500 veya 3465-3385); Ġgantija TAPINAĞININ inşa tarihi DEĞİLDİR. Mezar 3355-3115'e kadar kullanılmış (95%, Fig. 9 end); sonra yüzyıllar boşluk, 30. yy MÖ'de Tarxien ile yeniden gömü. 'bit' son gömüdür, yerleşimin sonu değil. Tapınak dönemi için McLaughlin, Parkinson, Reimer, Malone 'Dating Maltese prehistory' (Temple Places) önerilir ama içeriği okunamadı. Okunan metin yayımlanmış sürüm değil el yazması: şekil numaraları yayınla eşleşmeyebilir."
  },
- {
+ {"odak_yer":["Yaş","Kişinev (Chișinău)","Uman"],
   "t": "-4648-01-01",
   "k": "kurulus",
   "b": "Erken Trypillia (Cucuteni-Trypillia, A1-2 evresi): Erken Trypillia genişlemesi (A1-2) başlar",
@@ -178,7 +178,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 5360–5305 (kaynağın verdiği uçlar); orta nokta MÖ 5332 = astronomik -5331. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Model 1 suggests that the Neolithic settlement began in 5360-5305 cal BC (95% probability». Bu SİTENİN tarihi. Formatif LBK Transdanubia için ayrı kayıt: lbk-formatif-transdanubia. Makale okuması ilk 100.000 karakterle sınırlı (sonrası okunmadı). Almanca/Çek/Polonya LBK'nın kendi Bayes yayınları bulunamadı."
  },
- {
+ {"odak_yer":["Yanıkkale (Győr)","İstolni Belgrad","Peçuy"],
   "t": "-5499-01-01",
   "k": "kurulus",
   "b": "Formatif Linearbandkeramik (Transdanubia): Transdanubia'da Formatif LBK ortaya çıkar",

@@ -22,7 +22,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2545–2440 (kaynağın verdiği uçlar); orta nokta MÖ 2492 = astronomik -2491. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Boundary parameter estimating the end of the activity associated with the second phase of settlement». Rakamlar 'central area' (merkez alan) için ve model henüz tam yayımlanmamış monografiye dayanır (ek tabloda özet). Faz 1 sonu 2870–2815 (92%) / 2795–2760 (3%). Ness of Brodgar sitesi popüler özetleri 3300/2900 BC gibi başka başlangıçlar anar; bunlar akademik kaynak değil, kullanılmadı. 'Tabaka-donem' sınırı. [VERI-MO-ARKEO: kaynaktaki 'boundary' parametresi bir oluş zamanının modelli tahminidir → orta nokta uygulandı.]"
  },
- {
+ {"odak_yer":["Edington"],
   "t": "-2526-01-01",
   "k": "gelisme",
   "b": "Stonehenge sarsen halkası ve trilitonlar (Aşama 2): başlar",
@@ -43,7 +43,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2580–2475 (kaynağın verdiği uçlar); orta nokta MÖ 2527 = astronomik -2526. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynaktan okunan: «best estimate for the date of construction of the sarsen circle, from an antler pick (UB-3821) in the socket around stone 1 is 2580–2475 cal BC». Tek örnek (boynuz kazma) ile tek olay tarihidir; güven düzeyi makalede yazılmamış ('belirsiz'). Trilitonlar için 2585–2400 cal BC (93%, OxA-4840). Aşama 2 sınırları 2760–2510 ile 2470–2300: iki senaryo (zaman zaman uzar). Aralıklar tek olay mı tabaka toplamı mı karıştırılmasın: bu kayıt tek-olay tarihidir."
  },
- {
+ {"odak_yer":["Edington"],
   "t": "-2871-01-01",
   "k": "kurulus",
   "b": "Stonehenge (Aşama 1: hendek ve set): başlar",
@@ -127,7 +127,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4625–4550 (kaynağın verdiği uçlar); orta nokta MÖ 4587 = astronomik -4586. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «the dated sequence in sector II began in 4625–4550 cal BC (95% probability; start sector II». DİKKAT: bu rakamlar yazarların 'duyarlılık analizi' (alternatif) modelindendir (Şekil S1); yazarlar bitiş tarihinin tercih edilen modelle (ana metin Şekil 8) neredeyse aynı olduğunu söyler, ama ana metin okunmadı. Başlangıç yalnız SEKTÖR II dizisinin başıdır, bütün tell'in kuruluşu DEĞİLDİR (Vinča yerleşmesi daha erken olabilir). Dönem/tabaka sınırı türüdür."
  },
- {
+ {"odak_yer":["Vannes"],
   "t": "-4790-01-01",
   "k": "kurulus",
   "b": "Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel): başlar",

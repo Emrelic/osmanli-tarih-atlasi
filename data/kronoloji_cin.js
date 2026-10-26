@@ -112,13 +112,13 @@ window.KRONOLOJI_CIN = [
   d:"Fransisken misyoner Giovanni da Montecorvino Hanbalık'a ulaşıp Çin'de ilk Katolik cemaatini kurdu, sonradan başpiskopos unvanı aldı. Görev, Moğol barışının Avrasya'yı dinî temasa da açtığını gösterir.",
   kaynak:"The Cambridge History of China, cilt 6 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["yuan-hanedani"], t:"1313-01-01", b:"Konfüçyüsçü sınav sistemi (keju) yeniden ilan edildi", tur:"idari",
+{ odak_yer:["Pekin (Hanbalık)"], taraflar:["yuan-hanedani"], t:"1313-01-01", b:"Konfüçyüsçü sınav sistemi (keju) yeniden ilan edildi", tur:"idari",
   onem:4, dunya:1, kapsam:"ic", etiket:["idari","egitim","konu-idari","konu-egitim"],
   yer_id:"", odak_kimlik:["yuan-hanedani"],
   d:"Ayurbarwada (Renzong) döneminde, Song'un düşüşünden beri askıya alınmış imparatorluk sınav sistemi Konfüçyüsçü klasikler temelinde yeniden yürürlüğe konuldu. Karar, Moğol yönetiminin Çin bürokrat sınıfıyla uzlaşma arayışının işaretiydi.",
   kaynak:"The Cambridge History of China, cilt 6 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["yuan-hanedani"], t:"1313-01-01", b:"Wang Zhen'in Nong Shu (Tarım Kitabı) tamamlandı", tur:"bilim",
+{ odak_yer:["Pekin (Hanbalık)"], taraflar:["yuan-hanedani"], t:"1313-01-01", b:"Wang Zhen'in Nong Shu (Tarım Kitabı) tamamlandı", tur:"bilim",
   onem:2, dunya:1, kapsam:"ic", etiket:["bilim","teknoloji","konu-bilim","konu-sanayi"],
   yer_id:"", odak_kimlik:["yuan-hanedani"],
   d:"Yerel yönetici Wang Zhen'in kaleme aldığı Nong Shu, tarım aletlerini ve tahta hareketli harfle basım denemesini kayda geçiren kapsamlı bir el kitabıdır. Matbaa teknolojisinin Song sonrası gelişiminin önemli bir tanığıdır.",
@@ -154,7 +154,7 @@ window.KRONOLOJI_CIN = [
   d:"Ming orduları Hanbalık'a (Pekin) girdi; son Yuan imparatoru Toghon Temür saray erkânıyla bozkıra çekilerek Kuzey Yuan hanlığını sürdürdü. Çin toprağının Moğol yönetiminden çıkışı bu günle tamamlandı.",
   kaynak:"cin--ulke" },
 
-{ taraflar:["ming-hanedani"], t:"1370-01-01", b:"İmparatorluk sınav sistemi Ming altında yeniden düzenlendi", tur:"idari",
+{ odak_yer:["Nanking (Nanjing)"], taraflar:["ming-hanedani"], t:"1370-01-01", b:"İmparatorluk sınav sistemi Ming altında yeniden düzenlendi", tur:"idari",
   onem:3, dunya:1, kapsam:"ic", etiket:["idari","egitim","konu-idari","konu-egitim"],
   yer_id:"", odak_kimlik:["ming-hanedani"],
   d:"Hongwu, memur alımını Konfüçyüsçü klasiklere dayalı sınavlara bağlayan sistemi Ming bürokrasisinin temel taşı yaptı. Sistem, sonraki beş asır boyunca (küçük kesintilerle) Çin devlet yapısının omurgası olacaktı.",
@@ -166,7 +166,7 @@ window.KRONOLOJI_CIN = [
   d:"Hongwu, başbakan Hu Weiyong'u ihanetle suçlayıp bini aşkın kişiyi idam ettirdikten sonra başbakanlık makamını tamamen kaldırdı; devlet işlerini doğrudan kendisi yönetmeye başladı. Karar, Ming ve ardından Qing boyunca imparatorluk otoritesini bürokrasi karşısında kalıcı biçimde güçlendirdi.",
   kaynak:"The Cambridge History of China, cilt 7 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["ming-hanedani"], t:"1381-01-01", b:"Sarı Kayıtlar ve Lijia hane sistemi kuruldu", tur:"idari",
+{ odak_yer:["Nanking (Nanjing)"], taraflar:["ming-hanedani"], t:"1381-01-01", b:"Sarı Kayıtlar ve Lijia hane sistemi kuruldu", tur:"idari",
   onem:3, dunya:1, kapsam:"ic", etiket:["idari","mali","konu-idari","konu-ekonomi"],
   yer_id:"", odak_kimlik:["ming-hanedani"],
   d:"Hongwu, nüfus ve vergiyi onlu hane gruplarıyla (lijia) kayıt altına alan Sarı Kayıtlar sistemini kurdu. Sistem, imparatorluğun köylü tabanını doğrudan denetlemesini sağladı ve iki asır boyunca malî idarenin temeli oldu.",
@@ -190,13 +190,13 @@ window.KRONOLOJI_CIN = [
   d:"Pekin'deki güçlü prens Zhu Di, yeğeni Jianwen'e karşı üç yıllık iç savaşı (Jingnan) kazanıp Nanjing'i ele geçirdi ve Yongle unvanıyla tahta çıktı. Jianwen'in akıbeti hiç netleşmedi; söylenceye göre sarayın yanmasıyla kayboldu.",
   kaynak:"The Cambridge History of China, cilt 7 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["ming-hanedani"], t:"1403-01-01", b:"Yongle Ansiklopedisi'nin derlenmesi başladı", tur:"kultur",
+{ odak_yer:["Nanking (Nanjing)"], taraflar:["ming-hanedani"], t:"1403-01-01", b:"Yongle Ansiklopedisi'nin derlenmesi başladı", tur:"kultur",
   onem:4, dunya:2, kapsam:"ic", etiket:["kultur","bilim","konu-bilim","konu-kultur"],
   yer_id:"", odak_kimlik:["ming-hanedani"],
   d:"Yongle, dönemin bilinen bütün klasik, tarih, felsefe ve bilim metinlerini tek külliyatta toplayan devasa bir ansiklopedi projesi başlattı. 1408'de tamamlanan eser, elle yazılmış 22.937 fasikülle dünyanın o güne dek üretilmiş en hacimli genel ansiklopedisiydi.",
   kaynak:"cin--ulke" },
 
-{ taraflar:["ming-hanedani"], t:"1406-01-01", b:"Ming, Đại Ngu'yu (Vietnam) işgal etti", tur:"savas",
+{ odak_yer:["Hanoi (Thăng Long)","Nanking (Nanjing)"], taraflar:["ming-hanedani"], t:"1406-01-01", b:"Ming, Đại Ngu'yu (Vietnam) işgal etti", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kazanc","konu-askeri"],
   yer_id:"", odak_kimlik:["ho-hanedani"],
   d:"Hồ hanedanının Ming'e karşı taht gasbı bahane edilerek Ming orduları Vietnam'ı işgal edip doğrudan eyalet olarak ilhak etti. İşgal, 1427'de Lê Lợi'nin direnişiyle geri püskürtülene dek yirmi yıl sürdü.",
@@ -322,7 +322,7 @@ window.KRONOLOJI_CIN = [
   d:"On yaşındaki Wanli tahta çıkınca fiilî yönetimi başbakan Zhang Juzheng üstlendi; vergi denetimi, sınır tahkimatı ve bürokratik disiplin reformlarıyla hazineyi güçlü bir fazlaya taşıdı. Reformlar, Zhang'ın 1582'deki ölümünden sonra büyük ölçüde geri alınacaktı.",
   kaynak:"The Cambridge History of China, cilt 8 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["ming-hanedani"], t:"1581-01-01", b:"Tek Kırbaç (Single Whip) vergi reformu genelleştirildi", tur:"reform",
+{ odak_yer:["Pekin (Hanbalık)"], taraflar:["ming-hanedani"], t:"1581-01-01", b:"Tek Kırbaç (Single Whip) vergi reformu genelleştirildi", tur:"reform",
   onem:5, dunya:2, kapsam:"ic", etiket:["mali","reform","konu-ekonomi","konu-islahat"],
   yer_id:"", odak_kimlik:["ming-hanedani"],
   d:"Zhang Juzheng'in öncülüğünde bütün vergi ve angarya yükümlülükleri tek bir gümüş ödemesinde birleştirildi. Reform, Ming malî sistemini basitleştirip merkezîleştirdi ve gümüş ekonomisine geçişi kalıcı kıldı.",
@@ -334,13 +334,13 @@ window.KRONOLOJI_CIN = [
   d:"Cizvit misyoner Matteo Ricci, Çince öğrenip Konfüçyüsçü âlim kisvesiyle Zhaoqing'e yerleşti. Ricci'nin \"uyum siyaseti\" (accommodatio), Hıristiyanlığı Çin klasik geleneğiyle uzlaştırma çabasının başlangıcı oldu.",
   kaynak:"The Cambridge History of China, cilt 8 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_kon:[23.047,112.472] },
 
-{ taraflar:["ming-hanedani"], t:"1592-01-01", b:"Wu Cheng'en'in Batı'ya Seyahat'i (Xiyou Ji) yaygınlaştı", tur:"kultur",
+{ odak_yer:["Nanking (Nanjing)"], taraflar:["ming-hanedani"], t:"1592-01-01", b:"Wu Cheng'en'in Batı'ya Seyahat'i (Xiyou Ji) yaygınlaştı", tur:"kultur",
   onem:3, dunya:2, kapsam:"ic", etiket:["edebiyat","konu-kultur"],
   yer_id:"", odak_kimlik:["ming-hanedani"],
   d:"Maymun Kral Sun Wukong'un Budist kutsal metinlerini getirmek için çıktığı efsanevi yolculuğu anlatan Xiyou Ji, Ming'in dört büyük klasik romanından biri olarak yaygın basılı hâlde dolaşıma girdi. Eser, Çin popüler edebiyatının en kalıcı eserlerinden biri olacaktı.",
   kaynak:"The Cambridge History of China, cilt 8 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["ming-hanedani"], t:"1592-05-23", b:"Japonya'nın Kore'yi işgali — Ming müdahale etti", tur:"savas",
+{ odak_yer:["Pusan","Seul (Hanyang)","Pyongyang"], taraflar:["ming-hanedani"], t:"1592-05-23", b:"Japonya'nın Kore'yi işgali — Ming müdahale etti", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"],
   yer_id:"", odak_kimlik:["joseon"],
   d:"Toyotomi Hideyoshi'nin Kore'yi işgal edip Ming'e yürüme niyetini açıklaması üzerine Ming orduları müttefik Joseon'u desteklemek için sefere çıktı. Altı yıl süren savaş (Imjin Savaşı), Ming hazinesini büyük ölçüde tüketen kanlı bir cephe açtı.",
@@ -412,7 +412,7 @@ window.KRONOLOJI_CIN = [
   d:"Ming generali Wu Sangui'nin Şanhaiguan geçidini açmasıyla Qing orduları Pekin'e girip Li Zicheng'i kovdu. Nâip Dorgon, küçük yaştaki Shunzhi İmparatoru adına fiilî yönetimi ele aldı ve Çin'in tamamına yayılacak fetih başladı.",
   kaynak:"cin--ulke" },
 
-{ taraflar:["qing-hanedani"], t:"1645-07-21", b:"Saç örgüsü (queue) fermanı yayımlandı", tur:"sosyal",
+{ odak_yer:["Pekin (Hanbalık)"], taraflar:["qing-hanedani"], t:"1645-07-21", b:"Saç örgüsü (queue) fermanı yayımlandı", tur:"sosyal",
   onem:4, dunya:2, kapsam:"ic", etiket:["sosyal","konu-sosyal"],
   yer_id:"", odak_kimlik:["qing-hanedani"],
   d:"Qing yönetimi, bütün Han Çinli erkeklere Mançu saç örgüsünü ve giyim tarzını benimsemeyi zorunlu kıldı; \"saçını kes, başını kaybet\" sloganıyla dayatılan ferman şiddetli direnişle karşılandı. Uygulama, Qing egemenliğinin toplumsal simgesi ve iki buçuk asır boyunca sürecek bir zorunluluk hâline geldi.",
@@ -478,25 +478,25 @@ window.KRONOLOJI_CIN = [
   d:"Kangxi, Dolonnor'da düzenlediği büyük kurultayda Halha Moğol beylerinin bağlılık yeminini kabul etti. Törenle Dış Moğolistan resmen Qing imparatorluğuna katıldı.",
   kaynak:"cin--ulke", yer_kon:[42.18,116.47] },
 
-{ taraflar:["qing-hanedani"], t:"1700-01-01", b:"Çin Ayinleri Tartışması (Rites Controversy) doruğa çıktı", tur:"din",
+{ odak_yer:["Pekin (Hanbalık)"], taraflar:["qing-hanedani"], t:"1700-01-01", b:"Çin Ayinleri Tartışması (Rites Controversy) doruğa çıktı", tur:"din",
   onem:3, dunya:2, kapsam:"dis", etiket:["din","konu-din"],
   yer_id:"", odak_kimlik:["qing-hanedani"],
   d:"Cizvitlerin Konfüçyüsçü ata kültü ve Konfüçyüs ayinlerine hoşgörülü tutumu, Dominikan ve Fransisken misyonerlerle Roma'yı karşı karşıya getirdi. Kangxi tartışmaya doğrudan müdahil oldu ve Papa'nın nihai kararını (1715 Ex Illa Die) Hıristiyanlığa karşı bir hakaret saydı.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["qing-hanedani"], t:"1708-01-01", b:"Kangxi Atlası için Cizvit haritalama seferi başladı", tur:"bilim",
+{ odak_yer:["Pekin (Hanbalık)","Kanton (Guangzhou)","Mukden (Şenyang)","Chengdu"], taraflar:["qing-hanedani"], t:"1708-01-01", b:"Kangxi Atlası için Cizvit haritalama seferi başladı", tur:"bilim",
   onem:4, dunya:2, kapsam:"ic", etiket:["bilim","konu-bilim"],
   yer_id:"", odak_kimlik:["qing-hanedani"],
   d:"Kangxi, Cizvit bilginlere (Jean-Baptiste Régis başta) enlem-boylam ölçümüyle bütün imparatorluğu haritalama görevi verdi. On yıl süren çalışma, dönemin en hassas Çin haritası olan Huangyu Quanlan Tu'yu (Kangxi Atlası) doğurdu.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["qing-hanedani"], t:"1711-01-01", b:"Kangxi toprak vergisi nüfusunu dondurdu", tur:"reform",
+{ odak_yer:["Pekin (Hanbalık)"], taraflar:["qing-hanedani"], t:"1711-01-01", b:"Kangxi toprak vergisi nüfusunu dondurdu", tur:"reform",
   onem:4, dunya:1, kapsam:"ic", etiket:["mali","reform","konu-ekonomi","konu-islahat"],
   yer_id:"", odak_kimlik:["qing-hanedani"],
   d:"Kangxi, \"sonsuza dek sabit\" ilkesiyle kişi başı vergi nüfusunu 1711'deki düzeyde dondurdu; sonraki nüfus artışı vergi yükünü artırmayacaktı. Reform, 18. yüzyıl nüfus patlamasının vergi krizine dönüşmesini geciktiren yapısal bir karardı.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["qing-hanedani"], t:"1716-01-01", b:"Kangxi Sözlüğü yayımlandı", tur:"kultur",
+{ odak_yer:["Pekin (Hanbalık)"], taraflar:["qing-hanedani"], t:"1716-01-01", b:"Kangxi Sözlüğü yayımlandı", tur:"kultur",
   onem:3, dunya:2, kapsam:"ic", etiket:["kultur","konu-kultur"],
   yer_id:"", odak_kimlik:["qing-hanedani"],
   d:"Kırk yedi bin küsur karakteri kapsayan Kangxi Zidian, imparatorun emriyle derlenip Çin sözlükçülüğünün standart referansı hâline geldi. Sözlüğün karakter sıralaması, yirminci yüzyıla dek Çince sözlüklerin temel çatısı olarak kullanıldı.",
@@ -532,7 +532,7 @@ window.KRONOLOJI_CIN = [
   d:"Yongzheng'in on üç yıllık, malî disiplinle geçen saltanatının ardından oğlu Hongli, Qianlong unvanıyla tahta çıktı. Altmış yıl sürecek saltanatı, Qing topraklarının en geniş sınırlarına ulaştığı dönem olacaktı.",
   kaynak:"cin--ulke" },
 
-{ taraflar:["qing-hanedani"], t:"1755-01-01", b:"Qianlong'un Cungar seferleri başladı", tur:"savas",
+{ odak_yer:["Gulca (Yining)","Ürümçi (Dihua)"], taraflar:["qing-hanedani"], t:"1755-01-01", b:"Qianlong'un Cungar seferleri başladı", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kazanc","konu-askeri"],
   yer_id:"", odak_kimlik:["cungar"],
   d:"Qianlong, iç kavgalarla zayıflamış Cungar Hanlığı'na karşı büyük bir sefer başlattı; 1758'e dek süren kampanya Cungar nüfusunun büyük bölümünün yok edilmesiyle sonuçlandı. Zafer, Doğu Türkistan'ın (Xinjiang) Qing topraklarına katılmasının önünü açtı.",
@@ -562,7 +562,7 @@ window.KRONOLOJI_CIN = [
   d:"Dövüş sanatları ve mesihçi inanç karışımı bir tarikat önderi Wang Lun, Shandong'da kısa süreli bir ayaklanma başlattı. Hareket hızla bastırıldı ama Qing yönetimine gizli dinî tarikatların yeniden yükselen tehdidini gösterdi.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_kon:[36.13,115.78] },
 
-{ taraflar:["qing-hanedani"], t:"1782-01-01", b:"Siku Quanshu (Dört Hazine Külliyatı) tamamlandı", tur:"kultur",
+{ odak_yer:["Pekin (Hanbalık)"], taraflar:["qing-hanedani"], t:"1782-01-01", b:"Siku Quanshu (Dört Hazine Külliyatı) tamamlandı", tur:"kultur",
   onem:5, dunya:2, kapsam:"ic", etiket:["kultur","bilim","konu-bilim","konu-kultur"],
   yer_id:"", odak_kimlik:["qing-hanedani"],
   d:"Qianlong'un emriyle on yıl boyunca binlerce âlim, Çin klasik, tarih, felsefe ve edebiyat mirasını dört ana başlıkta toplayan devasa bir külliyat derledi. Proje aynı zamanda hanedana muhalif sayılan eserlerin ayıklanıp yakıldığı büyük bir sansür operasyonuydu.",
@@ -682,7 +682,7 @@ window.KRONOLOJI_CIN = [
   d:"Xianfeng'in ölümü üzerine beş yaşındaki oğlu Tongzhi tahta çıktı; bir saray darbesiyle iktidarı ele geçiren dul eşi Cixi, kırk yılı aşkın sürecek fiilî hâkimiyetinin ilk perdesini açtı.",
   kaynak:"The Cambridge History of China, cilt 10 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["qing-hanedani"], t:"1862-01-01", b:"Kendini Güçlendirme Hareketi (Yangwu) başladı", tur:"reform",
+{ odak_yer:["Pekin (Hanbalık)","Şanghay","Anqing"], taraflar:["qing-hanedani"], t:"1862-01-01", b:"Kendini Güçlendirme Hareketi (Yangwu) başladı", tur:"reform",
   onem:5, dunya:3, kapsam:"ic", etiket:["reform","bilim","teknoloji","konu-bilim","konu-islahat"],
   yer_id:"", odak_kimlik:["qing-hanedani"],
   d:"Li Hongzhang ve Zeng Guofan gibi devlet adamları, Batı silah ve endüstri teknolojisini \"Çin özü, Batı kullanımı\" (zhongti xiyong) ilkesiyle içe aktaran geniş bir modernleşme programı başlattı. Hareket, tersaneler, cephaneler ve mühendislik okulları kurarak sonraki otuz yılın teknik altyapısını oluşturdu.",
@@ -796,13 +796,13 @@ window.KRONOLOJI_CIN = [
   d:"Qing, Sekiz Ülke İttifakı'na ve on bir devlete karşı imzaladığı protokolle dev bir tazminat (450 milyon gümüş tael, otuz dokuz yılda ödenecek), Pekin'de yabancı garnizon hakkı ve Boksör destekçisi yetkililerin cezalandırılmasını kabul etti. Antlaşma, Qing devletinin malî ve askerî egemenliğini fiilen büyük güçlerin denetimine bıraktı.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — WebSearch ile tarih doğrulandı (1901-09-07)" },
 
-{ taraflar:["qing-hanedani"], t:"1901-01-29", b:"Yeni Politikalar (Xinzheng) reformları ilan edildi", tur:"reform",
+{ odak_yer:["Xi'an (Chang'an)"], taraflar:["qing-hanedani"], t:"1901-01-29", b:"Yeni Politikalar (Xinzheng) reformları ilan edildi", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","askeri","konu-askeri","konu-idari","konu-islahat"],
   yer_id:"", odak_kimlik:["qing-hanedani"],
   d:"Boksör felaketinin ardından Cixi, bizzat on yıl önce reddettiği Yüz Gün Reformu'nun büyük bölümünü içeren geniş bir modernleşme programını (ordu, eğitim, idare) başlattı. Reformlar, hanedanı kurtaramayacak ama Cumhuriyet dönemi kurumlarının temelini atacaktı.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["qing-hanedani"], t:"1905-09-02", b:"İmparatorluk sınav sistemi (keju) kaldırıldı", tur:"sosyal",
+{ odak_yer:["Pekin (Hanbalık)"], taraflar:["qing-hanedani"], t:"1905-09-02", b:"İmparatorluk sınav sistemi (keju) kaldırıldı", tur:"sosyal",
   onem:5, dunya:3, kapsam:"ic", etiket:["sosyal","idari","egitim","konu-idari","konu-egitim","konu-sosyal"],
   yer_id:"", odak_kimlik:["qing-hanedani"],
   d:"Qing sarayı, on üç asırdır memur alımının temeli olan Konfüçyüsçü sınav sistemini kaldırıp yerine Batı tarzı okullar kurma kararı aldı. Karar, Çin toplumsal yapısının bin yılı aşkın sürdürdüğü âlim-bürokrat statü yolunu bir gecede ortadan kaldıran en köklü sosyal değişimlerden biriydi.",

@@ -95,7 +95,7 @@ window.KRONOLOJI_COK_FAS = [
   gun:"23 Eylül 1554",
   celiski:"TDV `fas`: \"şehri aldı ve Ebû Hassûn öldürüldü (23 Eylül 1554)\" || TDV `vattasiler`: \"Yenilgiye uğrayan Sultan Ebû Hassûn savaş meydanında öldürüldü (24 Şevval 961 / 22 Eylül 1554).\"" },
 
-{ t:"1581-01-01", b:"Ahmed el-Mansûr Sahra üzerine ordu gönderip bölgeyi hâkimiyetine aldı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+{ odak_yer:["Merakeş","Advâr (Tuvât)"], t:"1581-01-01", b:"Ahmed el-Mansûr Sahra üzerine ordu gönderip bölgeyi hâkimiyetine aldı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
   etiket:["toprak-kazanc","konu-askeri"], yer_id:"", odak_kimlik:"sadi", taraflar:["sadi"],
   d:"Vâdilmehâzin zaferinden sonra iç düzeni kuran Ahmed el-Mansûr, güneydeki Sahra'ya büyük bir ordu sevkederek bölgeyi kendine bağladı. Bu sefer, on yıl sonraki Sudan (Songay) seferinin ön adımı oldu.",
   kaynak:"TDV `ahmed-el-mansur`: \"Sahra üzerine büyük bir ordu sevkederek burayı hâkimiyeti altına alması (1581)\"",
@@ -132,7 +132,7 @@ window.KRONOLOJI_COK_FAS = [
   kaynak:"TDV `titvan`: \"1078’den (1667) itibaren Filâlî egemenliğine girdi\" · TDV `mevlay-resid`: \"Kasrülkütâme’yi aldıktan sonra (1078/1667) Fas şehrine döndü\"",
   gun:"1078/1667 (TDV gün vermez)" },
 
-{ t:"1668-06-18", b:"Mevlây Reşîd Dilâ Zâviyesi'ni dağıttı", tur:"savas", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Fas (Fez)","Hunayfire (Khenifra)"], t:"1668-06-18", b:"Mevlây Reşîd Dilâ Zâviyesi'ni dağıttı", tur:"savas", onem:4, dunya:1, kapsam:"ic",
   etiket:["savas","din","konu-askeri","konu-din"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Orta Atlas'ta Fas şehri ve çevresine yarım asırdır hükmeden Dilâîler, Filâlîler'in en güçlü rakibiydi. Reşîd, Batnürrummân yakınında Şeyh Muhammed el-Hâcc'ı yenip zâviyeyi dağıttı ve binalarını yıktırdı; ülkenin kuzeyinde rakipsiz kaldı.",
   kaynak:"TDV `mevlay-resid`: \"Batnürrummân yakınında Şeyh Muhammed el-Hâcc’ı mağlûp ederek zâviyesini dağıttı (8 Muharrem 1079 / 18 Haziran 1668)\"",
@@ -144,7 +144,7 @@ window.KRONOLOJI_COK_FAS = [
   kaynak:"TDV `mevlay-resid`: \"1080’de (1669) Şebbâne kabilesinin yönetimindeki Merakeş üzerine giderek bu önemli şehri de ele geçirdi\"",
   gun:"1080/1669 (TDV gün vermez)" },
 
-{ t:"1670-01-01", b:"Sûs'un alınmasıyla bütün Mağrib-i Aksâ Mevlây Reşîd'in elinde birleşti", tur:"birlesme", onem:5, dunya:2, kapsam:"ic",
+{ odak_yer:["Tarûdant","Merakeş"], t:"1670-01-01", b:"Sûs'un alınmasıyla bütün Mağrib-i Aksâ Mevlây Reşîd'in elinde birleşti", tur:"birlesme", onem:5, dunya:2, kapsam:"ic",
   etiket:["birlesme","toprak-kazanc","konu-siyasi"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Merakeş'ten sonra isyan hâlindeki Sûs'a yönelen Reşîd, Târûdânt ve çevresini itaat altına aldı. Fas şehrine döndüğünde bütün Mağrib-i Aksâ'yı tek hâkimiyette toplamıştı; TDV bu birliği bugünkü Fas devletinin temeli sayar.",
   kaynak:"TDV `mevlay-resid`: \"Sûs bölgesine yönelip Târûdânt ve çevresini itaat altına aldı, bölgede istikrarı sağladı (1081/1670).\"",
@@ -184,7 +184,7 @@ window.KRONOLOJI_COK_FAS = [
   kaynak:"TDV `fas`: \"1672’de sultan olan Mevlây İsmâil 1691’de Tilimsân’ı Türkler’den almaya yeltenmişse de başarılı olamamış\"",
   gun:"1691 (TDV gün vermez)" },
 
-{ t:"1699-01-01", b:"Mevlây İsmâil ülkeyi beş eyalete ayırıp oğullarına paylaştırdı", tur:"idari", onem:3, dunya:1, kapsam:"ic",
+{ odak_yer:["Miknâs (Meknes)","Merakeş","Fas (Fez)","Sicilmâse (Tâfilelt)"], t:"1699-01-01", b:"Mevlây İsmâil ülkeyi beş eyalete ayırıp oğullarına paylaştırdı", tur:"idari", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","hanedan","konu-idari"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Mevlây İsmâil yönetimi kolaylaştırmak için ülkeyi beş eyalete bölüp başlarına oğullarını getirdi. Bu taksim kardeşler arasında kanlı savaşlara yol açtı ve onun ölümünden sonraki otuz yıllık anarşinin tohumlarını attı.",
   kaynak:"TDV `mevlay-ismail`: \"1111’de (1699) ülkeyi beş eyalete ayırıp oğulları arasında paylaştırdı.\"",
@@ -196,25 +196,25 @@ window.KRONOLOJI_COK_FAS = [
   kaynak:"TDV `mevlay-ismail`: \"Mevlây İsmâil 27 Receb 1139’da (20 Mart 1727) vefat etti.\"",
   gun:"20 Mart 1727" },
 
-{ t:"1757-01-01", b:"III. Muhammed (Sîdî Muhammed b. Abdullah) tahta çıktı", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Merakeş"], t:"1757-01-01", b:"III. Muhammed (Sîdî Muhammed b. Abdullah) tahta çıktı", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
   etiket:["hukumdar","hanedan","konu-hanedan"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Mevlây Abdullah'ın ölümüyle tahta geçen oğlu Mevlây Muhammed, birbirine karşıt grupların gücünü kırarak otuz yıllık anarşiye son verdi. Ulemâyı yanına alıp vergi düzenini oturttu, Avrupa tüccarına kolaylık tanıyarak ticaretin ağırlığını Atlas kıyısına kaydırdı.",
   kaynak:"TDV `fas`: \"1757’de ölen Abdullah’ın yerine sırasıyla oğulları Mevlây Muhammed (1757-1790), Mevlây Yezîd (1790-1792) ve torunu Mevlây Süleyman (1792-1822) geçti.\"",
   gun:"1757 (TDV gün vermez)" },
 
-{ t:"1767-01-01", b:"Osmanlı'nın gönderdiği gemi ve ustalarla Fas heyeti ülkesine döndü", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
+{ odak_yer:["Merakeş","İstanbul"], t:"1767-01-01", b:"Osmanlı'nın gönderdiği gemi ve ustalarla Fas heyeti ülkesine döndü", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
   etiket:["diplomasi","konu-diplomasi","konu-askeri"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Fas donanmasının yakaladığı Dubrovnik gemilerini padişahın aracılığıyla serbest bırakmasının ardından İstanbul'a giden heyet, kışı orada geçirip döndü. Padişahın hediyeleri arasında toplu bir gemi ile otuz kadar gemi ve top ustası vardı; ustalar ömürlerinin sonuna dek Selâ tersanesinde çalıştı.",
   kaynak:"TDV `fas`: \"Bu münasebetle İstanbul’a giden ve kışı orada geçiren Fas heyeti 1767 Mayısında ülkesine padişahın verdiği kıymetli hediyelerle döndü.\"",
   gun:"Mayıs 1767 (TDV gün vermez)" },
 
-{ t:"1789-01-01", b:"III. Muhammed Osmanlı'ya esir, güherçile ve barut gönderdi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
+{ odak_yer:["Merakeş","İstanbul"], t:"1789-01-01", b:"III. Muhammed Osmanlı'ya esir, güherçile ve barut gönderdi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
   etiket:["diplomasi","ittifak","konu-diplomasi"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Rusya ve Avusturya savaşları sırasında Fas sultanı dört firkateyn ile Malta korsanlarından kurtardığı 536 müslüman esiri İstanbul'a yolladı; güherçile ve barut da gönderildi. Haremeyn için yollanan altın külçeleri ise Mevlây Yezîd'in geri istemesi üzerine Aralık 1789'da iade edildi.",
   kaynak:"TDV `fas`: \"1789 yılındaki Rusya ve Avusturya savaşları sırasında ise III. Muhammed dört firkateyn ile Malta korsanlarının elinden kurtardığı 536 müslüman esiri gönderdi\"",
   gun:"1789 (TDV gün vermez)" },
 
-{ t:"1790-01-01", b:"III. Muhammed öldü; Mevlây Yezîd tahta geçti, kargaşa dönemi başladı", tur:"olum", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Rabat","Miknâs (Meknes)","Fas (Fez)"], t:"1790-01-01", b:"III. Muhammed öldü; Mevlây Yezîd tahta geçti, kargaşa dönemi başladı", tur:"olum", onem:4, dunya:1, kapsam:"ic",
   etiket:["olum","hanedan","konu-hanedan"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Otuz üç yıl hüküm süren III. Muhammed'in ölümüyle yoğun taht kavgaları başladı. Yerine geçen Mevlây Yezîd iki yıllık saltanatında İspanya ile savaştı ve güneydeki isyanlarla uğraştı.",
   kaynak:"TDV `filaliler`: \"1790’da Mevlây III. Muhammed’in ölümüyle ülkede yeni bir kargaşa dönemi başladı.\"",
@@ -233,13 +233,13 @@ window.KRONOLOJI_COK_FAS = [
   gun:"1212/1797 (TDV gün vermez)",
   ic_not_d:"HARİTADA KARŞILIĞI YOK: harita Vecde'yi 1659'dan 1923'e kesintisiz fas gösteriyor; TDV'ye göre Cezayir Türkleri 1790-97 arasında bir süre tuttu (geçiş yılı TDV'de yok)." },
 
-{ t:"1817-01-01", b:"Mevlây Süleyman korsanlığı yasakladı", tur:"kanun", onem:3, dunya:2, kapsam:"dis",
+{ odak_yer:["Rabat","Tıtvân (Tetuan)"], t:"1817-01-01", b:"Mevlây Süleyman korsanlığı yasakladı", tur:"kanun", onem:3, dunya:2, kapsam:"dis",
   etiket:["kanun","diplomasi","konu-diplomasi","konu-ekonomi"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Avrupa ile ihtilâftan kaçınan Mevlây Süleyman, Viyana Kongresi'nin korsanlığın kaldırılması kararına uyarak Fas korsanlığını yasakladı. Aynı içe kapanma siyasetiyle ihracatı yasaklayıp ithalâta yüzde elli gümrük koydu.",
   kaynak:"TDV `fas`: \"Avrupa ile temastan kaçınan Mevlây Süleyman herhangi bir ihtilâfa meydan vermemek için korsanlığı yasakladı (1817).\"",
   gun:"1817 (TDV gün vermez)" },
 
-{ t:"1822-11-30", b:"Mevlây Abdurrahman b. Hişâm tahta geçti", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Merakeş","Fas (Fez)"], t:"1822-11-30", b:"Mevlây Abdurrahman b. Hişâm tahta geçti", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
   etiket:["hukumdar","hanedan","konu-hanedan"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Berberî isyanlarıyla otoritesi sarsılan Mevlây Süleyman, kendi oğulları yerine yeğeni Abdurrahman'ı veliaht tayin etti ve dokuz gün sonra Merakeş'te öldü (28 Kasım 1822). Abdurrahman resmî vâris olarak tahta çıktı ve otuz yedi yıl hüküm sürdü.",
   kaynak:"TDV `abdurrahman-b-hisam`: \"Abdurrahman amcasının ölümü üzerine onun resmî vârisi olarak 30 Kasım 1822’de tahta geçti.\"",
@@ -272,13 +272,13 @@ window.KRONOLOJI_COK_FAS = [
   kaynak:"TDV `mevlay-hasan`: \"Babası Mevlây Muhammed Sîdî’nin 18 Receb 1290’da (11 Eylül 1873) ölümünün ardından devlet adamları tarafından başşehir Merakeş’te sultan ilân edilen\"",
   gun:"11 Eylül 1873 (babasının ölüm günü; ilân günü ayrıca verilmez)" },
 
-{ t:"1880-01-01", b:"Madrid Konferansı Fas'ın toprak bütünlüğünü ve ticaret eşitliğini kabul etti", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis",
+{ odak_yer:["Madrid","Tanca"], t:"1880-01-01", b:"Madrid Konferansı Fas'ın toprak bütünlüğünü ve ticaret eşitliğini kabul etti", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis",
   etiket:["diplomasi","antlasma","konu-diplomasi"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Himaye ve imtiyaz sorunları üzerine Madrid'de toplanan konferansta büyük devletler Fas'ın toprak bütünlüğünü ve bütün ülkeler için ticaret eşitliğini tanıdı. Karar Fas'ı bir süre korudu ama ülkeyi büyük devletlerin nüfuz yarışının açık sahnesine çevirdi.",
   kaynak:"TDV `fas`: \"1880’de Madrid’de toplanan konferansta Fas’ın toprak bütünlüğü ve diğer ülkeler için ticaret eşitliği prensibi kabul edildi.\"",
   gun:"1880 (TDV gün vermez)" },
 
-{ t:"1894-06-07", b:"Mevlây Hasan seferde öldü; 14 yaşındaki Abdülazîz tahta çıktı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Rabat","Merakeş"], t:"1894-06-07", b:"Mevlây Hasan seferde öldü; 14 yaşındaki Abdülazîz tahta çıktı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
   etiket:["hukumdar","olum","konu-hanedan"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Berberîler'e karşı bir sefer dönüşünde Tâdlâ'da ölen Mevlây Hasan'ın yerine on dört yaşındaki oğlu Abdülazîz geçti. İşleri 1900'deki ölümüne dek başvezir Bâ Ahmed yürüttü; ardından sultanın otoritesi hızla zayıfladı.",
   kaynak:"TDV `mevlay-hasan`: \"Mevlây Hasan, 3 Zilhicce 1311 (7 Haziran 1894) tarihinde Berberîler’e karşı düzenlediği bir sefer dönüşünde Tâdlâ’da Vâdilabîd’de vefat etti.\"",
@@ -292,13 +292,13 @@ window.KRONOLOJI_COK_FAS = [
   gun:"1902 (TDV gün vermez)",
   celiski:"TDV `abdulaziz-el-alevi`: \"1902’de Tâzâ kasabasında isyan çıkardı\" || TDV `filaliler`: \"Özellikle 1904’te patlak veren Cilâlî b. İdrîs ez-Zerhûnî’nin (Bû Hamâre er-Rûkî) isyanları sultanı güç durumda bıraktı.\"" },
 
-{ t:"1904-10-03", b:"Fransa-İspanya antlaşması: Akdeniz kıyısı İspanya'nın nüfuzuna bırakıldı", tur:"antlasma", onem:4, dunya:3, kapsam:"dis",
+{ odak_yer:["Tıtvân (Tetuan)","Melîle (Melilla)","Sebte (Ceuta)"], t:"1904-10-03", b:"Fransa-İspanya antlaşması: Akdeniz kıyısı İspanya'nın nüfuzuna bırakıldı", tur:"antlasma", onem:4, dunya:3, kapsam:"dis",
   etiket:["antlasma","konu-diplomasi"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"İngiltere ile Entente Cordiale'i imzalayan Fransa, Fas üzerinde emeli olan İspanya ile de ayrı bir antlaşma yaptı. Sebte ve Tıtvân dahil Akdeniz kıyısı İspanya'ya bırakıldı; 1912'deki iki ayrı himaye bölgesinin çerçevesi burada çizildi.",
   kaynak:"TDV `fas`: \"İspanya’ya da 3 Ekim 1904 tarihli Fransa-İspanya antlaşmasıyla Akdeniz kıyısındaki Sebte ve Tıtvân bırakıldı.\"",
   gun:"3 Ekim 1904" },
 
-{ t:"1906-04-07", b:"Cezîretülhadrâ (Algeciras) Konferansı kararları imzalandı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis",
+{ odak_yer:["Cebelitarık (Gibraltar)","Tanca"], t:"1906-04-07", b:"Cezîretülhadrâ (Algeciras) Konferansı kararları imzalandı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis",
   etiket:["antlasma","diplomasi","konu-diplomasi"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"II. Wilhelm'in Tanca ziyaretiyle doğan krizi çözmek için Ocak 1906'da on üç devletin katıldığı konferans toplandı. Sultanın hâkimiyeti ve ülkenin toprak bütünlüğü kâğıt üzerinde tanındı, fakat idare, maliye ve gümrükleri düzenleyen 123 maddelik antlaşma asayiş görevini Fransa'ya verdi; Fas'ta bu kararlar teslimiyet sayıldı.",
   kaynak:"TDV `abdulaziz-el-alevi`: \"Ancak, 7 Nisan 1906 tarihli konferans kararlarının Avrupa devletlerinin arzularına boyun eğmek şeklinde yorumlanmış olması\" · TDV `fas`: \"İspanya’nın Algeciras (Cezîretülhadrâ) şehrinde toplanan konferansta büyük bir zafer kazandı (Ocak 1906).\"",
@@ -358,7 +358,7 @@ window.KRONOLOJI_COK_FAS = [
   gun:"19 Temmuz 1911",
   ic_not_d:"HARİTADA KARŞILIĞI YOK (OCAK_NOTU)." },
 
-{ t:"1912-08-12", b:"Abdülhafîz tahttan çekildi, yerine Mevlây Yûsuf getirildi", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Rabat","Fas (Fez)"], t:"1912-08-12", b:"Abdülhafîz tahttan çekildi, yerine Mevlây Yûsuf getirildi", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
   etiket:["hukumdar","hanedan","konu-hanedan"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
   d:"Himaye antlaşmasından sonra askerlerin Fas şehrindeki ayaklanmasını (17 Mayıs 1912) bastıran Fransızlar, ülkeyi sultan adına yeniden zapta girişti ve Lyautey'i genel vali atadı. Himaye doğrudan idareye dönüşünce Abdülhafîz tahttan çekilip Fransa'ya gitti; yerine Fransızlarla iş birliğine yatkın kardeşi Mevlây Yûsuf geçti.",
   kaynak:"TDV `abdulhafiz-el-alevi`: \"Fransız himayesinin doğrudan idare şeklini alması üzerine Abdülhafîz de sultanlıktan çekilmeye ve Fransa’ya gitmeye mecbur oldu (12 Ağustos 1912).\"",

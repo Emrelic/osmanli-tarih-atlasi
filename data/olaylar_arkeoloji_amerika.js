@@ -142,7 +142,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1200–800) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «los fechados obtenidos en esta zona apuntan a considerar una ocupación antigua, quizás en el rango de 1200-800 a.n.e.». ÇELİŞKİ/UYARI: kronoloji kendi içinde tartışmalıdır (yazarlar 'cronología todavía debatida e insegura' der). Janabarroide seramik: 'alrededor de 800-500 a.C. (calib.)'. Genel Chavín iskânı için eski tarihler 1500–400 a.n.e. aralığını verir ama bunlar yalnız Ofrendas Galerisi'ne bağlanabilir (zayıf). Burger (1981) Urabarriu 850–460 a.n.e.; Rick vd. bu beş tarihin bu aralığın dışında kaldığını gösterir. Kazılarda Geç Prekeramik (~2850–2600 a.n.e. örnekleri, La Banda) altta bulunur; Chavín tapınak yapısının başlangıcı için kesin kalibre ucu okunamadı. 1200 MÖ ucu 'quizás' ile verilmiş bir tahmindir (güven: belirsiz/orta)."
  },
- {
+ {"odak_yer":["Puerto Montt"],
   "t": "-12599-01-01",
   "k": "kurulus",
   "b": "Monte Verde II: başlar",
@@ -247,7 +247,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 3000–1800) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «emergence and development of a major cultural complex in this region during the Late Archaic period between 3000 and 1800 calibrated calendar years bc». 'Bit' ayrı verilmedi: 1800 MÖ dönemin üst sınırıdır (3000–1800 cal BC dönem toplamı), tek bir yerleşimin yıkılış tarihi değil. Haas vd. 2013 (PNAS 110:4945–4949, doi:10.1073/pnas.1219425110) aynı 3000–1800 MÖ aralığını 126 14C tarihiyle mısır kanıtı için kullanır (özet okundu). Yazar listesi için tam metin okunmadı."
  },
- {
+ {"odak_yer":["Guayaquil (Santiago de Guayaquil)"],
   "t": "-4499-01-01",
   "k": "ilk_anilis",
   "b": "Valdivia kültürü (Loma Alta / Real Alto): başlar",

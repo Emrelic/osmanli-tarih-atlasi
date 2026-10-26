@@ -17,7 +17,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 300 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «remained an important city during the subsequent Meroitic period (300 BCE to 350 CE)». MS 350'nin neyin sonu olduğu bu kaynakta açık değil (kayıt: dönem adı sınırı). Meroitik dönem sonu için ikinci bir kaynak (Esh-Shaheinab makalesi 'Meroitic (280 BCE–CE 400)' der) FARKLI sınır verir: 280 MÖ–MS 400 → İKİ KAYNAK ÇELİŞKİSİ (300–350 vs 280–400); 'Peeters 2026' seçildi çünkü konu Napata/Meroe'dir; D'Ercole 2024 yalnız mezar tipinin bağlamı olarak sayar. Meroe kentinin kendi kuruluş tarihi okunmadı. [VERI-MO-ARKEO: dönem sonu MS 350 bu MÖ katmanının dışında, bit yazılmadı.]"
  },
- {
+ {"odak_yer":["Merevî"],
   "t": "-1069-01-01",
   "k": "kurulus",
   "b": "Kush krallığı — Napata dönemi: başlar",
@@ -50,7 +50,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1450 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Kerma period (2500–1450 BCE)». KAYNAK KÜÇÜK FARKI: Le Moyne 2023 başlangıç 2500; Bonnet vd. 1999 (Genava) tablosu OCR'den 2450 okunuyor (±50). WebSearch özetinde (SAYFA AÇILMADI) 'Early Kerma 2550–2050, Kerma Moyen 2050–1750' Honegger/Bonnet'e atfedildi; Kerma Ancien/Moyen/Classique/Récent SINIRLARI için okunmuş temiz hakemli kaynak YOK, Wikipedia/Heritage Daily kullanılmadı. Mısır'ın fethi (I. Thutmose ~MÖ 1500 civarı) ile bitiş — Yeni Krallık başı (Ahmose 1570–1544) ile çakışma kontrol edilmeli. Honegger 2005 (Genava 53, s.239-250) 'Kerma Classique (vers 1500 av. J.-C.)' ifadesi."
  },
- {
+ {"odak_yer":["Merevî"],
   "t": "-1499-01-01",
   "k": "kurulus",
   "b": "Napata (Cebel Barkal): başlar",
@@ -71,7 +71,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1500–1450) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Napata was originally founded as an Egyptian fortified outpost during the New Kingdom in the early to mid-15th century BCE». 'bit' null: kentin terkedilişi okunmadı. Kaynak ifadesi: Napata kenti Kush'un başlıca merkezi olarak 1070 MÖ'den MS 350'ye ('for over a millennium (1070 BCE to 350 CE)'); Napata dönemi 1070–300 MÖ, Meroitik dönem 300 MÖ–MS 350. Kuruluş: 15. yy MÖ erken-ortası (Mısır karakolu, Peeters vd. 2026'nın atıfları ref 17, 18 — bu atıflar açılmadı). Napata'nın 'Kush devlet merkezi' oluşu 1070 MÖ (Peeters ifadesi); 'kur' alanı kentin kuruluşu (15. yy), Kush merkezi oluşu için ayrı kayıt 'napata-donemi' kullanın. Yeni Krallık'ın Kush fethi öncesi Kerma bitişiyle (1450) tutarlıdır."
  },
- {
+ {"odak_yer":["Uksur (Luksor)"],
   "t": "-1556-01-01",
   "k": "kurulus",
   "b": "Yeni Krallık (XVIII. Hanedan başı: I. Ahmose): başlar",
@@ -92,7 +92,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1570–1544 (kaynağın verdiği uçlar); orta nokta MÖ 1557 = astronomik -1556. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The resulting age ranges are 1566–1552 BCE (1σ) and 1570–1544 BCE (2σ)». KAYNAK ÇELİŞKİSİ (aynı makalede listelenen alternatifler, hepsi Ahmose tahta çıkışı): tarihsel (Sothis/saltanat) tahminler 1580–1557 (ref 88) ile 1524–1499 (ref 89) arası; Quiles vd. Bayes modeli 1564–1528 (2σ). Atlas için Bronk Ramsey 2010 değeri seçildi çünkü radyokarbon+Bayes, düşük/yüksek tarihsel uçlar arasında ortada yer alır (ortalama alınmadı, tek seçim). Orijinal Science makalesi (Bronk Ramsey 2010) ve brifteki Shaw 2000 / Hornung 2006 kitapları bu oturumda açılmadı — Yeni Krallık bitişi (XX. Hanedan sonu) için okunmuş kaynak YOK (bulunamadi'ya yazıldı)."
  },
- {
+ {"odak_yer":["Memphis","Uksur (Luksor)"],
   "t": "-1811-01-01",
   "k": "kayip",
   "b": "Orta Krallık: sona erer",
@@ -113,7 +113,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1825–1799 (kaynağın verdiği uçlar); orta nokta MÖ 1812 = astronomik -1811. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «End of MK 1819 1806 1825 1799 1819 1807 1825 1800 1811 1794 1818 1784». 95% hpd (MÖ): MK başı P1 2065–2037, P2 2064–2038, P3 2070–2040; MK sonu P1 1825–1799, P2 1825–1800, P3 1818–1784. 68%: MK başı P1 2058–2045; MK sonu P1 1819–1806. Atlas dikkat: 'End of MK' = Orta Krallık sonu; İkinci Ara Dönem başlangıcıyla (XIII. Hanedan sonu) aynı şey olduğu makalede ayrıca belirtilmedi — arada XIII. Hanedan uzun sürebilir; AYRICA teyit. Makalenin 'Low' kronoloji ret ifadesi: abstract 'the Low Chronology is no longer empirically supported for the Old and Middle Kingdoms'."
  },
- {
+ {"odak_yer":["Uksur (Luksor)","Herakleopolis"],
   "t": "-2050-01-01",
   "k": "kayip",
   "b": "Birinci Ara Dönem: sona erer",
@@ -134,7 +134,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2065–2037 (kaynağın verdiği uçlar); orta nokta MÖ 2051 = astronomik -2050. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Start of MK 2058 2045 2065 2037». Başlangıç (95%, MÖ): P1 2283–2204, P2 2236–2158, P3 2262–2197. Bitiş = MK başı (95%): P1 2065–2037, P2 2064–2038, P3 2070–2040. Dönem süresi bu iki ucun farkıdır; kaynak kendisi 'FIP süresi' vermedi — fark hesabı bana aittir ve ~150–200 yıl düzeyindedir (kanıtlı değildir, kullanmayın; uç değerler esastır). 4.2 ka olayı metinde 'c. 2250 BCE' diye geçer."
  },
- {
+ {"odak_yer":["Uksur (Luksor)"],
   "t": "-2050-01-01",
   "k": "kurulus",
   "b": "Orta Krallık: başlar",
@@ -155,7 +155,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2065–2037 (kaynağın verdiği uçlar); orta nokta MÖ 2051 = astronomik -2050. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Start of MK 2058 2045 2065 2037 2058 2045 2064 2038 2063 2048 2070 2040». 95% hpd (MÖ): MK başı P1 2065–2037, P2 2064–2038, P3 2070–2040; MK sonu P1 1825–1799, P2 1825–1800, P3 1818–1784. 68%: MK başı P1 2058–2045; MK sonu P1 1819–1806. Atlas dikkat: 'End of MK' = Orta Krallık sonu; İkinci Ara Dönem başlangıcıyla (XIII. Hanedan sonu) aynı şey olduğu makalede ayrıca belirtilmedi — arada XIII. Hanedan uzun sürebilir; AYRICA teyit. Makalenin 'Low' kronoloji ret ifadesi: abstract 'the Low Chronology is no longer empirically supported for the Old and Middle Kingdoms'."
  },
- {
+ {"odak_yer":["Memphis"],
   "t": "-2242-01-01",
   "k": "kayip",
   "b": "Eski Krallık (Piramit Çağı): sona erer",
@@ -176,7 +176,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2283–2204 (kaynağın verdiği uçlar); orta nokta MÖ 2243 = astronomik -2242. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Start of FIP 2267 2228 2283 2204 2220 2183 2236 2158 2247 2217 2262 2197». Üç varyant (95% hpd, MÖ). OK başı: P1 Hornung vd. 2698–2629; P2 Kitchen 2750–2635; P3 Shaw 2704–2632. FIP başı: P1 2283–2204; P2 2236–2158; P3 2262–2197. 68% hpd: OK başı P1 2679–2642, P2 2695–2652, P3 2686–2648; FIP başı P1 2267–2228, P2 2220–2183, P3 2247–2217. P1 'tek seçim' olarak alındı çünkü Hornung-Krauss-Warburton 2006 standart akademik başvurudur (gerekçe: çelişkide ortalama yok; üç varyant da yukarıda). Makale OK başının hangi hükümdarla (III. Hanedan başı) tanımlandığını bu oturumda okunan metinde açıkça belirtmiyor (yalnız 'Dynasty III and IV' etrafında modellerin 'cantilevered' olduğunu söylüyor) — hanedan eşlemesi AYRICA teyit gerekir. Brifteki Shaw 2000 / Hornung 2006 kitaplarının kendisi bu oturumda AÇILMADI; yalnız Erdil'in onlara atfettiği varyantlar kullanıldı."
  },
- {
+ {"odak_yer":["Memphis","Herakleopolis"],
   "t": "-2242-01-01",
   "k": "kurulus",
   "b": "Birinci Ara Dönem: başlar",
@@ -215,7 +215,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «increased throughout the Kerma period (2500–1450 BCE)». KAYNAK KÜÇÜK FARKI: Le Moyne 2023 başlangıç 2500; Bonnet vd. 1999 (Genava) tablosu OCR'den 2450 okunuyor (±50). WebSearch özetinde (SAYFA AÇILMADI) 'Early Kerma 2550–2050, Kerma Moyen 2050–1750' Honegger/Bonnet'e atfedildi; Kerma Ancien/Moyen/Classique/Récent SINIRLARI için okunmuş temiz hakemli kaynak YOK, Wikipedia/Heritage Daily kullanılmadı. Mısır'ın fethi (I. Thutmose ~MÖ 1500 civarı) ile bitiş — Yeni Krallık başı (Ahmose 1570–1544) ile çakışma kontrol edilmeli. Honegger 2005 (Genava 53, s.239-250) 'Kerma Classique (vers 1500 av. J.-C.)' ifadesi."
  },
- {
+ {"odak_yer":["Memphis"],
   "t": "-2662-01-01",
   "k": "kurulus",
   "b": "Eski Krallık (Piramit Çağı): başlar",
@@ -302,7 +302,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3896–3616 (kaynağın verdiği uçlar); orta nokta MÖ 3756 = astronomik -3755. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Badarian start 4407 4308 4489 4266 end 3800 3667 3896 3616 duration Badarian». Başlangıç = Badarian'ın BİTİŞİ (Dee 2013 tanımı), 95% hpd 3896–3616 MÖ (tablo satırı 'end 3800 3667 3896 3616' = 68% 3800–3667, 95% 3896–3616). Bitiş = Aha'nın tahta çıkışı 95% 3218–3035 (68%: 3111–3045). Alt evre geçişleri (95% hpd, MÖ): Naqada IB/IC 3731–3550 (68%: 3690, 3605 = 3690–3605); IIB/IIC 3562–3367; IID/IIIA 3377–3238. 'Naqada IIIA başlangıcı geç 34. yy' (yazının ilk görüldüğü evre, Dee 2013 metni). Kronoloji okulu: Dee 2013 Bayes modeli (Yüksek/Kısa okul değil; radyokarbon+saltanat sırası). Aha bitişi ve Badari başlangıcı brif gereği ayrıca kaydedilmedi. Not: tablo 68% sütunlarında 'from' büyük/küçük sırası kaynakta '3690 3605 | 3731 3550' biçimindedir (68 from-to, 95 from-to)."
  },
- {
+ {"odak_yer":["Gât"],
   "t": "-3949-01-01",
   "k": "kayip",
   "b": "Takarkori kaya sığınağı (Tadrart Acacus): sona erer",
@@ -345,7 +345,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 4700–4200) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «placing the timespan of the Neolithic occupation across the mid-fifth millennium BCE (4700–4200 BCE)». '4700–4200' yazarların yorum aralığıdır (3 kabuk tarihinin medyanı 4391, 4504, 4568 cal BCE). Arkell'in ilk 1940'lar tarihleri çok geniş (σ ±450/±380) — kullanılmaz. Shaheinab Neolitiği genel aralığı '5000 and 3800 BCE' (kaynak, atıf Garcea 2020) → bit alanı yerleşim bitişi DEĞİL. Aynı site Meroitik mezarları (MÖ 280–MS 400) ve Geç Neolitik (MÖ 4. bin) içerir."
  },
- {
+ {"odak_yer":["Feyyûm"],
   "t": "-4849-01-01",
   "k": "kayip",
   "b": "Fayum (Karun Gölü çevresi) Holosen iskânı: sona erer",
@@ -402,7 +402,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
    "Aşıklı Höyük"
   ]
  },
- {
+ {"odak_yer":["Gât"],
   "t": "-8219-01-01",
   "k": "kurulus",
   "b": "Takarkori kaya sığınağı (Tadrart Acacus): başlar",

@@ -147,7 +147,7 @@ window.KRONOLOJI_MACARISTAN = [
   d:"Károly Róbert'in ölümüyle on altı yaşındaki oğlu Lajos, babasının kurduğu güçlü malî ve idarî temeller üzerinde tahta çıktı. Kırk yıllık saltanatı Macaristan'ı Balkanlar'dan Baltık'a uzanan bir güç hâline getirecekti.",
   kaynak:"akademik: Engel (2001), s. 158-160" },
 
-{ t:"1351-12-11", devlet:"macaristan", b:"I. Lajos'un büyük yasası — soylu ayrıcalıklarının genelleştirilmesi ve 'aviticitas'", tur:"kanun", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Peşte"], t:"1351-12-11", devlet:"macaristan", b:"I. Lajos'un büyük yasası — soylu ayrıcalıklarının genelleştirilmesi ve 'aviticitas'", tur:"kanun", onem:4, dunya:1, kapsam:"ic",
   etiket:["kanun","idari","konu-idari","konu-hukuk"],
   yer_id:"", kapsam_genis:true,
   d:"1222 Altın Bulla'yı teyit eden yasa, bütün soyluları hukuken eşitledi ve soylu topraklarının aile dışına satılmasını yasaklayan 'aviticitas' ilkesini getirdi; ayrıca köylülerin toprak sahibine ödediği ondalık oranını (kilenc) sabitledi. Bu düzenleme Macar soylu anayasacılığının temel taşlarından biri olarak yüzyıllarca yürürlükte kaldı.",
@@ -187,7 +187,7 @@ window.KRONOLOJI_MACARISTAN = [
   d:"Zsigmond'un çağrısıyla toplanan Avrupa haçlı ordusu, Yıldırım Bayezid karşısında Niğbolu'da ağır bir yenilgiye uğradı; Zsigmond kendisi güçlükle kaçabildi. Bozgun, Osmanlı'nın Tuna sınırındaki ilerleyişini artık hiçbir koalisyonun tek seferde durduramayacağını gösterdi ve Macaristan'ı sürekli bir sınır savaşı devletine dönüştürdü.",
   kaynak:"TDV `nigbolu`: Niğbolu Savaşı'nın Haçlı ordusunun bozgunuyla sonuçlandığı ve Zsigmond'un canını güçlükle kurtardığı anlatılır", yer_id:"Niğbolu" },
 
-{ t:"1404-04-06", devlet:"macaristan", b:"Placetum regium — kraliyet onayı olmadan papalık fermanlarının yürürlüğe girmemesi", tur:"kanun", onem:2, dunya:1, kapsam:"ic",
+{ odak_yer:["Peşte"], t:"1404-04-06", devlet:"macaristan", b:"Placetum regium — kraliyet onayı olmadan papalık fermanlarının yürürlüğe girmemesi", tur:"kanun", onem:2, dunya:1, kapsam:"ic",
   etiket:["kanun","din","idari","konu-idari","konu-din","konu-hukuk"],
   yer_id:"", kapsam_genis:true,
   d:"Zsigmond, papalık bulalarının ve atamalarının Macaristan'da geçerli olabilmesi için önce kraliyet onayından geçmesini şart koştu; bu, kilise üzerinde kraliyet denetimini pekiştiren erken bir 'placetum' örneğiydi.",
@@ -309,7 +309,7 @@ window.KRONOLOJI_MACARISTAN = [
   d:"Mátyás, dağınık ve düzensiz feodal vergileri tek bir hane vergisi (kapuadó) altında topladı; reform kraliyet hazinesinin gelirini önemli ölçüde artırdı ve daimi bir ücretli ordunun (Fekete Ordu) finansmanını mümkün kıldı. Soylu muafiyetleri korunduğu için yük esas olarak köylülüğe bindi.",
   kaynak:"akademik: Engel (2001), s. 308-311", yer_id:"Aquincum-Óbuda-Pest" },
 
-{ t:"1471-01-01", devlet:"macaristan", b:"Fekete Ordu'nun (Fekete Sereg) daimi ücretli ordu olarak kurumsallaşması", tur:"kurulus", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Peşte","Viyana"], t:"1471-01-01", devlet:"macaristan", b:"Fekete Ordu'nun (Fekete Sereg) daimi ücretli ordu olarak kurumsallaşması", tur:"kurulus", onem:4, dunya:2, kapsam:"ic",
   etiket:["askeri","reform","konu-askeri","konu-siyasi","konu-islahat"],
   yer_id:"", kapsam_genis:true,
   d:"Çoğu Çek ve Alman paralı askerden oluşan Fekete Ordu, Mátyás'ın vergi reformuyla finanse edilen Avrupa'nın ilk büyük daimi ücretli ordularından biri hâline geldi; disiplinli yapısı Mátyás'a Avusturya ve Bohemya'ya karşı seferler açma gücü verdi.",

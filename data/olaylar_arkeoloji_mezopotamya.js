@@ -83,7 +83,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Revised Eponym List (REL) of 255 years from MC 1972 to MC 1718». kur 'Aşşur'un kuruluşu' DEĞİL: REL, kayıtlı eponimlerin başlangıcı (belge). Şehir daha eskidir (Ur III kaynaklarında 'eyalet', kitapta Barjamovic 2011'e atıf; açılmadı). bit: Livius sayfası kroniği çeviriyor; kitap-basımı Grayson'a erişemedim, çeviri ikincil. 'Abu' ayı tarihi sayfada gün olarak yok; takvime çevirisi yapılmadı (Abu ~Temmuz/Ağustos, doğrulanmadı) ⇒ yıl hassasiyeti. 12. yıl notu sayfada '614-613 BCE'. Şamşi-Adad'ın ölümü MC 1775 (Hammurabi 18. yıl) aynı kaynakta, s.7. Orta Asur/Yeni Asur imparatorluğunun kuruluş tarihleri bu oturumda kaynaklanmadı."
  },
- {
+ {"odak_yer":["Ur (Tell al-Muqayyar)"],
   "t": "-2002-01-01",
   "k": "kayip",
   "b": "Ur III Hanedanı (Ur): Ur III Hanedanı sona erer (Ibbi-Suen'in son yılı)",
@@ -108,7 +108,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «(Urnamma year 1, MC 2110)». Orta Kronoloji. MC: Urnamma 2110-2093, Şulgi 2092-2045, Amarsuena 2044-2036, Şusuen 2035-2027, Ibbi-Suen 2026-2003. MC II (rMC8): hepsi 8 yıl aşağı (Urnamma 2102-2085 ... Ibbi-Suen 2018-1995). Yazarlar Urnamma yıl1'den Babil I sonuna kadar göreli kronolojiyi ±1 yıl sağlam bulur (s.5). Egberts 2023 Tablo 1'de Ur III = '2100–2000 BC' (yuvarlak). Atlas dosyasında Ur için bit: MÖ 317 (-0316) (Brinkman) ayrı bir olgudur (yerleşimin yerel belge sonu).",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {
+ {"odak_yer":["Sippar (Tell Abu Habbah)"],
   "t": "-2141-01-01",
   "k": "kayip",
   "b": "Akad İmparatorluğu (Sargon): Akad İmparatorluğu: son kral Şudurul'un saltanatı sona erer",
@@ -193,7 +193,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 3800 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «spanning nearly three millennia from about 6500 to 3800 b.c.». ÇELİŞKİ (ikisi de verildi, biri seçilmedi): (a) Carter & Philip 2010 s.2: bütün güney Ubaid ~6500–3800 (b.c.); kuzey için 'daha kısa': ~5300–4300 (Akkermans & Schwartz 2003'e atfen). (b) Egberts vd. 2023, Radiocarbon 65(4):979-1002, Tablo 1 (ARCANE/MC II + yeni 14C): Ubaid 0 6500-6000, Ubaid 1 6000-5700, Ubaid 2 5700-5300, Ubaid 3 5300-4900, Ubaid 4 4900-4500, Ubaid 5 4500-4200, Early Uruk 4200-3900 yani Ubaid ~6500–4200. Fark yalnız bitişte (3800 vs 4200): Carter&Philip'in 3800'ü Uruk'un başlangıç tanımına (Geç Ubaid/Terminal) bağlı. Atlas için sınır-noktası kullanılacaksa evre bazlı Egberts tablosu daha ayrıntılıdır. Evre adları SAOC63'ten: Ubaid 1 'Eridu', Ubaid 3 'Tell al-Ubaid', Ubaid 4 eski adıyla 'Late Ubaid'. Egberts PDF: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DFCB7F569B744396C9E4BDA923A8EB07/S0033822223000401a.pdf (CC BY-NC-SA)."
  },
- {
+ {"odak_yer":["Ceylanpınar"],
   "t": "-5499-01-01",
   "k": "kayip",
   "b": "Halaf kültürü: Halaf döneminin en geç tarihi (üst sınır)",
@@ -214,7 +214,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 5500–5400) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Halaf period cannot be conclusively shown to extend beyond a date somewhere between ca. 5500 and ca. 5400 (calibrated) b.c.». İki ayrı tür birleşik: başlangıç = Nieuwenhuyse'nin 'rise' aralığı (5900-5400 cal BC, kitap özetinden), bitiş = Campbell & Fletcher'ın en geç tarihli Halaf için üst sınırı (≤5500-5400); aynı kültürün başı ve sonu farklı yazarlardan. Pre-Halaf → Erken Halaf geçişi Sabi Abyad'da 6100-5900 cal BC (Nieuwenhuyse özetinden, makale açılmadı). Kuzey Ubaid'in en erken kesin tarihi 5100-5000 (calibrated) b.c. civarı: 'Halaf-Ubaid arası 400-500 yıl' boşluk (aynı s.78). Eski kitaplar (Akkermans 1993) ham 14C ile 5200-4500 verir; kullanılmadı. Yarım Tepe tarihlerinin 200-300 yıl geç çıktığı s.78'de belirtiliyor."
  },
- {
+ {"odak_yer":["Ceylanpınar"],
   "t": "-5899-01-01",
   "k": "gelisme",
   "b": "Halaf kültürü: Halaf kültürü: yükseliş başlar (tarihli en erken uç)",

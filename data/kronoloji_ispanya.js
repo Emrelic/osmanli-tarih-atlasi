@@ -114,12 +114,12 @@ window.KRONOLOJI_ISPANYA = [
   d:"IV. Enrique'nin ölümü üzerine İsabel, kardeşinin kızı Juana la Beltraneja'nın veraset iddiasına rağmen Kastilya tahtına çıktı. İzleyen veraset savaşı (1475-1479) Portekiz'in müdahalesiyle büyüdü ve ancak Alcáçovas Antlaşması'yla (1479) kapandı.",
   kaynak:"standart akademik kaynak (Kamen)", yer_kon:[40.9429,-4.1088] },
 
-{ t:"1478-11-01", b:"İspanyol Engizisyonu kuruldu", tur:"din", onem:5, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Sevilla","Toledo"], t:"1478-11-01", b:"İspanyol Engizisyonu kuruldu", tur:"din", onem:5, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["din","kriz","konu-siyasi","konu-din"],
   d:"Papa IV. Sixtus'un fermanıyla, Kastilya tacına bağlı ama doğrudan krallık denetiminde çalışan Engizisyon kuruldu; ilk mahkeme 1480'de Sevilla'da göreve başladı. Kurum, sonraki üç asır boyunca dinî birlik ve siyasî denetimin başlıca aracı oldu ve 1834'e dek (ara kesintilerle) yürürlükte kaldı.",
   kaynak:"standart akademik kaynak (Kamen, The Spanish Inquisition: A Historical Revision)" },
 
-{ t:"1479-01-19", b:"Kastilya ile Aragon tacları fiilen birleşti", tur:"birlesme", onem:5, dunya:4, kapsam:"ic", yer_id:"",
+{ odak_yer:["Toledo","Zaragoza","Barselona"], t:"1479-01-19", b:"Kastilya ile Aragon tacları fiilen birleşti", tur:"birlesme", onem:5, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["hanedan","antlasma","konu-siyasi","konu-diplomasi","konu-hanedan"],
   d:"Fernando'nun babası II. Juan'ın ölümüyle Aragon tahtına çıkması, İsabel'in zaten hüküm sürdüğü Kastilya ile tacı aynı çiftin elinde birleştirdi. İki krallık ayrı kurumlarını (Cortes, para birimi, hukuk) korudu; birlik kişisel/hanedan temelliydi, tam idari birleşme 18. yüzyıl Nueva Planta kararnamelerini bekleyecekti.",
   kaynak:"gün: DBE (Real Academia de la Historia), 'Juan II de Aragón y de Navarra': «Barcelona, 19.I.1479» (https://dbe.rah.es/biografias/10845/juan-ii-de-aragon-y-de-navarra); Gran Enciclopèdia Catalana aynı · standart akademik kaynak (Elliott)",
@@ -130,7 +130,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"On yıllık kuşatma savaşının ardından son Nasrî emiri Ebû Abdullah (Boabdil), Gırnata'yı Katolik krallara teslim etti.", ic_not_d:"TDV `endulus` maddesi bunu \\\"İslâm hâkimiyetinin Endülüs'teki en son kalesi de düşmüş oldu\\\" diye özetler; Osmanlı donanması (Kemal Reis) sonraki yıllarda kaçan müslümanları Kuzey Afrika'ya taşıdı.",
   kaynak:"TDV `endulus`: \"1492'de teslim olmak zorunda kaldılar\" (gövdesi OKUNDU) · `data/devletler.js` `granada` künyesi" },
 
-{ t:"1492-03-31", b:"Alhambra Fermanı — Yahudilerin sürgünü", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Granada"], t:"1492-03-31", b:"Alhambra Fermanı — Yahudilerin sürgünü", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["din","sosyal","kriz","konu-siyasi","konu-din","konu-sosyal","konu-demografi"],
   d:"İsabel ve Fernando, hıristiyanlığa dönmeyen bütün Yahudilerin dört ay içinde ülkeyi terk etmesini emretti; 40.000-100.000 arası kişi (tahminler değişir) Portekiz, Kuzey Afrika ve Osmanlı topraklarına göç etti. Sultan II. Bayezid'in donanma göndererek göçmenleri taşıttığı rivayeti bu olayla aynı dalgaya aittir.",
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714) — imparatorluk çapında ferman, tek bir yerleşime bağlanamaz" },
@@ -165,7 +165,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Kardinal Cisneros'un girişimiyle kurulan üniversite, kısa sürede Salamanca'nın yanında İspanya'nın ikinci büyük bilim merkezi hâline geldi; Complutensian Politgot İncil projesinin de merkeziydi.", ic_not_d:"Alcalá'daki yerleşim kaydı bulunmadığından `yer_id` boş bırakıldı.",
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[40.4818,-3.3635] },
 
-{ t:"1499-01-01", b:"Fernando de Rojas'ın La Celestina'sının yayımlanması", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Burgos"], t:"1499-01-01", b:"Fernando de Rojas'ın La Celestina'sının yayımlanması", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["kultur","edebiyat","konu-kultur"],
   d:"Diyalog biçiminde yazılan *La Celestina*, İspanyol edebiyatının Rönesans'a geçişinin ilk büyük eseri sayılır ve sonraki pikaresk romanın öncüsüdür.", ic_not_d:"Yayım yılı kesin biliniyor, ay/gün kaynaklarda geçmiyor.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)", kapsam_genis:true },
@@ -190,7 +190,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Fernando, Papa'nın aforoz tehdidini gerekçe göstererek Navarra Krallığı'nın güney (bugünkü İspanyol) kısmını işgal edip Kastilya'ya kattı; kuzeydeki Béarn/Fransız kolu 1620'ye dek ayrı sürdü.", ic_not_d:"`data/devletler.js`teki `navarra` künyesinin `t:` alanı zaten bu tarihi taşıyordu.",
   kaynak:"`data/devletler.js` `navarra` künyesi (tarih korunuyor) · standart akademik kaynak", yer_id:"Pamplona" },
 
-{ t:"1512-12-27", b:"Burgos Kanunları — Amerika yerlilerine yönelik ilk kodifiye hukuk", tur:"hukuk", onem:3, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Burgos","Santo Domingo"], t:"1512-12-27", b:"Burgos Kanunları — Amerika yerlilerine yönelik ilk kodifiye hukuk", tur:"hukuk", onem:3, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["hukuk","sosyal","konu-sosyal","konu-hukuk"],
   d:"Kraliyet, encomienda sistemindeki yerli işçilerin çalışma saatleri, ücreti ve dinî eğitimi hakkında ilk yazılı düzenlemeyi çıkardı; uygulamada büyük ölçüde ihlal edildi ama Avrupa hukuk tarihinde sömürge halklarını konu alan ilk kodifikasyon sayılır. 1542 Yeni Kanunlar'ın öncüsüdür.",
   kaynak:"standart akademik kaynak (Elliott, The Old World and the New)" },
@@ -279,7 +279,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Salamanca Okulu'nun kurucu ismi Dominiken teolog Francisco de Vitoria, Amerika yerlilerinin doğal hukuk kapsamında hak sahibi olduğunu ve İspanyol fethinin sınırsız bir hak vermediğini savunan dersler verdi. Bu dersler, modern uluslararası hukukun (ius gentium) kurucu metinleri arasında sayılır.",
   kaynak:"standart akademik kaynak (Elliott, Imperial Spain, felsefe/hukuk bölümü)" },
 
-{ t:"1542-11-20", b:"Yeni Kanunlar (Leyes Nuevas) — yerlilerin korunması", tur:"hukuk", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Barselona","Tenochtitlan (Mexico City)","Lima (Ciudad de los Reyes)"], t:"1542-11-20", b:"Yeni Kanunlar (Leyes Nuevas) — yerlilerin korunması", tur:"hukuk", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["hukuk","sosyal","reform","konu-islahat","konu-sosyal","konu-hukuk"],
   d:"Bartolomé de las Casas'ın baskısıyla çıkarılan Yeni Kanunlar, encomienda sistemini kademeli olarak kaldırmayı ve yerli kölelemesini yasaklamayı hedefliyordu; Peru'daki İspanyol yerleşimcilerin şiddetli direnişiyle karşılaştı ve kısmen geri çekildi. Yine de yerli haklarını koruma girişiminin en kapsamlı erken modern örneğiydi.",
   kaynak:"standart akademik kaynak (Elliott, The Old World and the New)" },
@@ -410,7 +410,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Lope de Vega, klasik üç birlik kuralını reddedip halk zevkine uygun yeni bir oyun yazma kuramını ortaya koydu; bu metin, İspanyol Altın Çağ tiyatrosunun (comedia nueva) kuramsal temeli oldu ve yüzlerce oyun yazarını etkiledi.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 
-{ t:"1609-04-04", b:"Moriskoların sürgün fermanının uygulanmaya başlaması", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Valensiya"], t:"1609-04-04", b:"Moriskoların sürgün fermanının uygulanmaya başlaması", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["din","sosyal","kriz","konu-siyasi","konu-din","konu-sosyal","konu-demografi"],
   d:"III. Felipe hükümeti, hâlâ gizlice müslüman kalan Morisko nüfusunu sınır dışı etmeye karar verdi; sürgün 1609'dan 1614'e dek sürdü ve 300 bini aşkın kişi ülkeden çıkarıldı. TDV'ye göre çoğunluk Fas, Cezayir ve Tunus'a, bir kısmı da Selanik, Belgrad, İzmir, İstanbul, Şam ve Trablusgarp gibi Osmanlı şehirlerine yerleşti; Sultan I. Ahmed, Cezayir ve Tunus beylerbeyilerine himaye fermanları gönderdi ve göçmenlere beş yıl vergi muafiyeti tanındı.",
   kaynak:"TDV `moriskolar`: \"1609-1614 yılları arasında... 300.000'i aşmıştır... I. Ahmed... himaye fermanları gönderdi\" (gövdesi OKUNDU)" },
@@ -489,7 +489,7 @@ window.KRONOLOJI_ISPANYA = [
 // V. VERASET SAVAŞI VE BOURBON REFORMLARI (1701-1808)
 // ───────────────────────────────────────────────────────────────────
 
-{ t:"1702-05-15", gun:"15 Mayıs 1702 Büyük İttifak'ın savaş ilanı; İtalya'da çatışma 1701 yazında başlamıştı", b:"İspanya Veraset Savaşı başladı", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
+{ odak_yer:["Madrid","Londra","Lahey (Den Haag)","Viyana"], t:"1702-05-15", gun:"15 Mayıs 1702 Büyük İttifak'ın savaş ilanı; İtalya'da çatışma 1701 yazında başlamıştı", b:"İspanya Veraset Savaşı başladı", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","hanedan","konu-askeri","konu-hanedan"],
   d:"Fransa, İspanya ve Bavyera'ya karşı İngiltere, Hollanda ve Kutsal Roma İmparatorluğu'nun oluşturduğu Büyük İttifak, V. Felipe'nin (Anjou Dükü) İspanya tahtına çıkmasını Avrupa güçler dengesine tehdit sayarak savaş ilan etti. Savaş, Avrupa'nın yanı sıra Kuzey Amerika (Kraliçe Anne Savaşı) ve İtalya'da da yürütülen ilk küresel çaplı çatışmalardan biriydi.",
   kaynak:"Encyclopaedia Britannica, 'War of the Spanish Succession': Büyük İttifak 15 Mayıs 1702'de savaş ilan etti · H. Kamen, The War of Succession in Spain 1700-15 (1969) · (1 Mayıs 1701 için dayanak bulunamadı)", kapsam_genis:true },
@@ -544,7 +544,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"İspanyol tarihini eleştirel yöntemlerle inceleyip belgeleyecek resmî akademi Madrid'de kuruldu; kurum 18. yüzyılın Aydınlanma çağı reform hareketinin akademik kurumsallaşmasının bir parçasıydı.",
   kaynak:"Real Academia de la Historia, 'Real Cédula fundacional' (rah.es): V. Felipe'nin 18 Nisan 1738 tarihli kararnamesi" },
 
-{ t:"1736-01-01", b:"Fransız-İspanyol Jeodezi Seferi (Ekvator ölçümü)", tur:"bilim", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Quito"], t:"1736-01-01", b:"Fransız-İspanyol Jeodezi Seferi (Ekvator ölçümü)", tur:"bilim", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["bilim","teknoloji","konu-bilim"],
   d:"Fransız Bilimler Akademisi'nin Dünya'nın şeklini ölçmek için düzenlediği sefere İspanyol subay-bilim insanları Jorge Juan ve Antonio de Ulloa da katıldı; ekip bugünkü Ekvador'da (o zamanki Peru Genel Valiliği) yıllarca çalışarak enlem-boylam ölçümleri yaptı. Sefer, İspanyol biliminin Aydınlanma çağı Avrupa bilimiyle doğrudan temasının erken örneğiydi.",
   kaynak:"standart akademik kaynak (Elliott, The Old World and the New / genel bilim tarihi)", kapsam_genis:true },
@@ -579,12 +579,12 @@ window.KRONOLOJI_ISPANYA = [
   d:"İtalyan asıllı bakan Esquilache'nin kıyafet ve fiyat reformlarına (uzun pelerin ve geniş şapkanın yasaklanması dahil) tepki gösteren Madrid halkı ayaklandı; III. Carlos, olaylar sırasında sarayını terk etmek zorunda kaldı. İsyan, reformların halk nezdindeki kırılganlığını gösterdi.",
   kaynak:"standart akademik kaynak (Kamen)" },
 
-{ t:"1767-04-02", b:"Cizvitlerin İspanya ve sömürgelerinden sürülmesi", tur:"din", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Madrid","Tenochtitlan (Mexico City)","Lima (Ciudad de los Reyes)","Buenos Aires"], t:"1767-04-02", b:"Cizvitlerin İspanya ve sömürgelerinden sürülmesi", tur:"din", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["din","reform","konu-din","konu-islahat"],
   d:"III. Carlos, Cizvit tarikatının siyasî nüfuzundan ve Esquilache isyanındaki rolüne dair kuşkulardan hareketle, tarikat üyelerinin bütün İspanya topraklarından (Avrupa ve Amerika) sınır dışı edilmesini emretti. Karar, aydın despotizmin kilise üzerindeki devlet denetimini pekiştirme çabasının bir parçasıydı.",
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
 
-{ t:"1778-10-12", b:"Serbest Ticaret Kararnamesi — sömürge limanlarının açılması", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Cádiz","Barselona","Santander","A Coruña"], t:"1778-10-12", b:"Serbest Ticaret Kararnamesi — sömürge limanlarının açılması", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["ekonomi","reform","konu-ekonomi","konu-islahat"],
   d:"Bourbon reformlarının en önemli iktisadi adımlarından biriyle, Amerika ile ticaret artık yalnız Cádiz üzerinden değil, İspanya'nın on üç limanından yapılabilir hâle geldi; karar, sömürge ekonomisinde canlanma yarattı ama yerel üreticilerin İspanya mallarıyla rekabetini de zorlaştırdı.",
   kaynak:"standart akademik kaynak (Kamen)" },
@@ -599,7 +599,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Amerikan Bağımsızlık Savaşı'nın yan cephelerinden birinde İspanyol-Fransız kuvvetleri, yedi aylık kuşatmanın ardından 1713'ten beri İngiliz elinde olan Menorca'yı geri aldı. Ada 1802'ye dek (Amiens Barışı'na kadar) İspanya'da kalacaktı.",
   kaynak:"standart akademik kaynak (Kamen)" },
 
-{ t:"1783-01-01", b:"Yeni Granada Kraliyet Botanik Seferi'nin başlaması", tur:"bilim", onem:2, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Bacatá (Bogotá)"], t:"1783-01-01", b:"Yeni Granada Kraliyet Botanik Seferi'nin başlaması", tur:"bilim", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["bilim","konu-bilim"],
   d:"Botanikçi José Celestino Mutis öncülüğünde, bugünkü Kolombiya topraklarında geniş çaplı bir bitki örnekleme ve sınıflandırma seferi başlatıldı; sefer otuz yılı aşkın sürdü ve Aydınlanma çağı İspanyol biliminin en büyük doğa tarihi projelerinden biri oldu.",
   kaynak:"standart akademik kaynak (genel bilim tarihi)", kapsam_genis:true },
@@ -708,7 +708,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Amerika'ya sevk edilmek üzere toplanan bir ordu birliğinin komutanı Rafael del Riego, birliğini Cádiz yakınında ayaklandırıp 1812 Anayasası'nın yeniden yürürlüğe girmesini talep etti; VII. Fernando kısa süre sonra anayasayı kabul etmek zorunda kaldı. Üç yıl sürecek liberal dönem (Trienio Liberal) böyle başladı.",
   kaynak:"standart akademik kaynak", yer_kon:[36.98,-5.935] },
 
-{ t:"1823-04-07", b:"\"Aziz Louis'nin Yüz Bin Oğlu\" Fransız ordusu İspanya'yı işgal etti", tur:"isgal", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Bayonne","Madrid","Cádiz"], t:"1823-04-07", b:"\"Aziz Louis'nin Yüz Bin Oğlu\" Fransız ordusu İspanya'yı işgal etti", tur:"isgal", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","askeri","konu-askeri"],
   d:"Kutsal İttifak'ın kararıyla harekete geçen büyük bir Fransız ordusu İspanya'ya girip liberal hükümeti devirdi ve VII. Fernando'nun mutlak yetkilerini yeniden tesis etti; liberal önderlerin çoğu idam edildi ya da sürgüne gitti.",
   kaynak:"standart akademik kaynak", kapsam_genis:true },
@@ -732,7 +732,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Fernando'nun kızı İsabel'i tahta çıkarabilmek için Salik veraset kuralını kaldırmasına itiraz eden kardeşi Don Carlos, tahtı kendisinin hakkı sayarak isyan bayrağını açtı; yedi yıl sürecek Birinci Karlist Savaşı, liberal ve mutlakiyetçi-gelenekçi kesimler arasındaki bölünmeyi bütün 19. yüzyıl boyunca derinleştirdi.",
   kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal)" },
 
-{ t:"1836-01-01", b:"Mesta'nın (göçebe koyun yetiştiricileri loncası) kaldırılması", tur:"ekonomi", onem:2, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Madrid"], t:"1836-01-01", b:"Mesta'nın (göçebe koyun yetiştiricileri loncası) kaldırılması", tur:"ekonomi", onem:2, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["ekonomi","reform","konu-ekonomi","konu-islahat","konu-demografi"],
   d:"Ortaçağdan beri Kastilya kırsalının en etkili ekonomik-hukuki kurumlarından biri olan Mesta, liberal hükümetin toprak reformları çerçevesinde kaldırıldı; karar, İspanyol kırsal ekonomisinin serbest mülkiyet temelinde yeniden düzenlenmesinin bir parçasıydı.",
   kaynak:"standart akademik kaynak (Payne)", kapsam_genis:true },
@@ -762,7 +762,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Cánovas del Castillo'nun kaleme aldığı anayasa, kraliyet yetkisiyle parlamenter sistemi dengelemeyi amaçlıyordu ve 1931'e dek (elli beş yıl) yürürlükte kalarak İspanya tarihinin en uzun ömürlü anayasası oldu.",
   kaynak:"standart akademik kaynak (Payne)" },
 
-{ t:"1898-04-25", b:"İspanyol-Amerikan Savaşı'nın başlaması", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
+{ odak_yer:["Havana (La Habana)","Santiago de Cuba","Manila"], t:"1898-04-25", b:"İspanyol-Amerikan Savaşı'nın başlaması", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Küba'daki bağımsızlık ayaklanması ve Havana limanında batan USS Maine zırhlısı gerekçesiyle ABD, İspanya'ya savaş ilan etti; savaş yalnız on haftada İspanyol donanmasının Santiago de Cuba ve Manila'da imhasıyla sonuçlandı. Yenilgi, ABD'nin dünya gücü olarak sahneye çıkışını ve İspanya'nın son büyük sömürge imparatorluğunun sonunu birlikte simgeledi.",
   kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal) — dünya güçler dengesini değiştiren bir savaş", kapsam_genis:true },
@@ -898,7 +898,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Barselona'da toplanan bir kongrede kurulan UGT, PSOE'ye yakın sosyalist sendikal hareketin çatı örgütü oldu ve 20. yüzyıl boyunca İspanyol işçi hareketinin en büyük iki kanadından (öteki anarko-sendikalist CNT) biri olarak kaldı.",
   kaynak:"standart akademik kaynak (Payne)", yer_id:"Barselona" },
 
-{ t:"1898-01-01", b:"98 Kuşağı'nın doğuşu — imparatorluk kaybının aydınlar üzerindeki etkisi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Madrid"], t:"1898-01-01", b:"98 Kuşağı'nın doğuşu — imparatorluk kaybının aydınlar üzerindeki etkisi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["kultur","felsefe","sosyal","konu-din","konu-kultur","konu-sosyal"],
   d:"1898 felaketinin ardından Miguel de Unamuno, Azorín, Pío Baroja ve Antonio Machado gibi yazarlar, İspanya'nın kimliğini ve gerilemesinin köklerini sorgulayan bir edebî-felsefî akım oluşturdu; \"98 Kuşağı\" adı sonradan verildi, hareketin billurlaşması 1898-1900 arasına yayılır.",
   kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal)", kapsam_genis:true },

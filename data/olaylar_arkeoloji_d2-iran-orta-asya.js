@@ -19,7 +19,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 200 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «II 500-275 BCE I 200 BCE-300 CE». Iranica donem tablosunu 'tentative' (ozellikle IVA-I) olarak bildirir ve kalibre/ham ayrimi acik degil; sayilar 'donem-toplami' gibi okundu. Ham BP verisi yazilmadi. Period VII baslangici icin bagimsiz kalibre 14C tablosu bu oturumda bulunamadi (Beale 1986 erisilemedi). Matthews vd. 2025: Period VII 'late sixth and early fifth millennium BC' (uyumlu)."
  },
- {
+ {"odak_yer":["Persepolis","Dâmgan"],
   "t": "-0329-01-01",
   "k": "kayip",
   "b": "Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Ahameniş Devleti sona erer (III. Dareios, 330)",
@@ -50,7 +50,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
    "Susa"
   ]
  },
- {
+ {"odak_yer":["Pasargad","Anşan"],
   "t": "-0558-01-01",
   "k": "kurulus",
   "b": "Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Kyros II Pers tahtına çıkar (559)",
@@ -220,7 +220,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 5500–4500) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «Period VII 5500-4500 BCE Period VI-VC 4500-3600 BCE Period VA-B 3600-3200 BCE Period IVC2 3100-2800 BCE». Iranica donem tablosunu 'tentative' (ozellikle IVA-I) olarak bildirir ve kalibre/ham ayrimi acik degil; sayilar 'donem-toplami' gibi okundu. Ham BP verisi yazilmadi. Period VII baslangici icin bagimsiz kalibre 14C tablosu bu oturumda bulunamadi (Beale 1986 erisilemedi). Matthews vd. 2025: Period VII 'late sixth and early fifth millennium BC' (uyumlu)."
  },
- {
+ {"odak_yer":["Tiflis"],
   "t": "-5919-01-01",
   "k": "kurulus",
   "b": "Gadaçrili Gora: Şulaveri-Şomu: höyüğün ilk katmanları",

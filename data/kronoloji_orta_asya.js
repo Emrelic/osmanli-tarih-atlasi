@@ -344,13 +344,13 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Cuci ulusunda söz sahibi beylerden Edige'nin 823 (1420) yılında ölümünden sonra oğulları Deştikıpçak'taki siyasî faaliyetlerde yer aldılar ve bazı hanların yanında emirlik yürüttüler. Nogay beylerinin atası sayılan Edige, Mangıt boyundandı; Nogay ordasının yönetim kadrosunu bu boy teşkil eder, halk tabakasının esas unsuru ise Kıpçak Türkleridir.", ic_not_d:"⚠️ Olayın Altın Orda tarafı kronoloji_altinorda.js'te ZATEN var; bu madde Nogay ordasının KURULUŞ tarafıdır.",
   kaynak:"nogaylar (TDV, madde: nogaylar — içerik okundu, 2026-08-22)" },
 
-{ taraflar:["nogay"], t:"1500-01-01", b:"Mûsâ Mirza Nogayların beyi olarak anılmaya başlandı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
+{ odak_yer:["Guryev (Atyrau)","Uralsk (Yayık)"], taraflar:["nogay"], t:"1500-01-01", b:"Mûsâ Mirza Nogayların beyi olarak anılmaya başlandı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["hanedan","hukumdar","konu-hanedan"],
   yer_id:"", odak_kimlik:["nogay"],
   d:"XVI. yüzyılın başında Nogayların beyi olarak Mûsâ Mirza'nın adı geçer. Bu yüzyılın ilk yarısında Nogay ordası, Kırım Hanlığı ve diğer Türk hanlıkları ile ilişkilerinde önemli bir yere sahipti. Orda İdil'in sol kıyısından İrtiş kollarına, doğuda Emba üzerinden Aral'a kadar uzanıyordu.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'XVI. yüzyılın başında' diyor" },
 
-{ taraflar:["nogay"], t:"1554-01-01", b:"Yûsuf Mirza öldürüldü — orda Osmanlı ve Moskova taraftarı diye ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic",
+{ odak_yer:["Guryev (Atyrau)","Uralsk (Yayık)","Astrahan"], taraflar:["nogay"], t:"1554-01-01", b:"Yûsuf Mirza öldürüldü — orda Osmanlı ve Moskova taraftarı diye ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","kriz","hanedan","taht-kavgasi","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"", odak_kimlik:["nogay"],
   d:"Osmanlı taraftarı Yûsuf Mirza ile Moskova taraftarı kardeşi İsmâil Mirza arasındaki mücadele Yûsuf'un öldürülmesiyle sonuçlandı ve yüzyılın ortasında orda bölünmeye uğradı. Bir bozkır konfederasyonunun iç kavgası, iki büyük devletin dış siyaseti hâline gelmişti; bölünme bir daha onarılamadı.",
@@ -368,7 +368,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"XVI. yüzyıl içinde Nogaylardan bir grup tarafından, adını Basarabya'nın güneyindeki Bucak'tan alan yeni bir orda kuruldu; Ruslar buna Belgorod ordası adını verdi. Ayrıca Aral çevresinde Altavul (Altıulı) ordası bulunuyordu. Nogay adının Tuna ağzından Aral'a kadar dağılması bu parçalanmanın sonucudur.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'XVI. yüzyıl içinde' diyor" },
 
-{ taraflar:["nogay"], t:"1563-01-01", b:"İsmâil ve Tin Ahmed Mirza devrinde Rus baskısı sürdü", tur:"siyaset", onem:2, dunya:1, kapsam:"dis",
+{ odak_yer:["Guryev (Atyrau)","Uralsk (Yayık)","Astrahan"], taraflar:["nogay"], t:"1563-01-01", b:"İsmâil ve Tin Ahmed Mirza devrinde Rus baskısı sürdü", tur:"siyaset", onem:2, dunya:1, kapsam:"dis",
   etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
   yer_id:"", odak_kimlik:["nogay"],
   d:"Büyük Nogay ordası üzerindeki yoğun Moskova baskısı İsmâil Mirza ve Tin Ahmed Mirza zamanında (1563-1578) da sürdü. Rusya bu devirlerde Nogaylarla ilişkilerini görünüşte dostluk çerçevesinde tutma politikası izliyordu; oysa aynı yüzyıla ait Rus belgeleri Moskova'nın düşmanları sıralanırken hem Büyük hem Küçük Nogay ordasını sayıyordu.",
@@ -380,7 +380,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"977 (1569) yılındaki Astarhan seferine Osmanlı Devleti'ni yönlendirenler arasında Nogaylar da vardı; fakat sefer sırasında herhangi bir yardımda bulunmadılar. Bir seferi isteyip desteklememek, Nogay ordasının bölünmüşlüğünün ve hiçbir tarafa tam bağlanamayışının en somut örneğidir.", ic_not_d:"⚠️ Seferin kendisi kronoloji_rusya.js ve kronoloji_ozbek.js'te ZATEN var.",
   kaynak:"nogaylar (TDV)" },
 
-{ taraflar:["nogay"], t:"1578-01-02", b:"Urus Mirza Rus baskısına direndi", tur:"hukumdar", onem:3, dunya:1, kapsam:"dis",
+{ odak_yer:["Guryev (Atyrau)","Uralsk (Yayık)","Astrahan"], taraflar:["nogay"], t:"1578-01-02", b:"Urus Mirza Rus baskısına direndi", tur:"hukumdar", onem:3, dunya:1, kapsam:"dis",
   etiket:["hanedan","hukumdar","askeri","konu-askeri","konu-hanedan"],
   yer_id:"", odak_kimlik:["nogay"],
   d:"Büyük Nogay ordasının beyi Urus Mirza (1578-1590) Rus baskısına karşı direndiyse de Rus yönetiminin etkisi onun zamanında da sürdü. Bu dönemde Büyük Nogay ordasından bazı gruplar zaman zaman Rus topraklarına ganimet amaçlı akınlar düzenlediler.",
@@ -404,7 +404,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"1590'da Saratov'un kurulmasıyla Samara-Ufa-Tsaritsin-Saratov hattı tamamlandı. Dört şehir beş yıl içinde kuruldu ve Büyük Nogay ordasının hareket sahasını kalıcı biçimde daralttı.",
   kaynak:"nogaylar (TDV)" },
 
-{ taraflar:["nogay"], t:"1600-01-01", b:"İşterek Mirza Kırım'ı atlayıp doğrudan Osmanlı ile görüşmek istedi", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis",
+{ odak_yer:["Guryev (Atyrau)","Uralsk (Yayık)","Bahçesaray"], taraflar:["nogay"], t:"1600-01-01", b:"İşterek Mirza Kırım'ı atlayıp doğrudan Osmanlı ile görüşmek istedi", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis",
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"", odak_kimlik:["nogay"],
   d:"XVII. yüzyılın başında Büyük Nogay ordasının beyi olan İşterek Mirza, Kırım Hanlığı'nın aracılığı olmadan Osmanlı Devleti ile görüşmeler yapmak ve Rusya ile İran'a karşı kendi çıkarına bir siyaset izlemek istedi; bunda başarılı olamadı. Nogayların kendi adına bir dış siyaset kurma çabası bu denemeyle bitmiştir.",

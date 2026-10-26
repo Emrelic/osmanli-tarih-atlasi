@@ -116,7 +116,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Masraflarını kısmak isteyen II. Andronikos savaş filosunu büyük ölçüde dağıttı ve deniz güvenliğini Cenevizlilere havale etti. Bizans tarihyazımında bu karar, imparatorluğun kendi denizlerinde bir daha söz sahibi olamamasının başlangıcı sayılır ve çöküşün en sık gösterilen tekil sebeplerindendir.",
   kaynak:"el-kitabi" },
 
-{ t:"1290-01-01", b:"Anadolu sınırı çözüldü — akritai düzeninin sonu", tur:"toprak-kayip",
+{ odak_yer:["İznik","Bursa","Alaşehir"], t:"1290-01-01", b:"Anadolu sınırı çözüldü — akritai düzeninin sonu", tur:"toprak-kayip",
   onem:5, dunya:2, kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Sınır boylarını tutan asker-köylü (akritai) düzeninin vergi muafiyetleri kaldırılınca savunma hattı dağıldı ve Türkmen beylikleri Batı Anadolu'ya serbestçe yayıldı. Bizans'ın Anadolu'yu kaybetmesi askerî bir yenilgiyle değil, bu idarî çözülmeyle başladı.",
@@ -154,7 +154,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Halmyros'ta Frank ordusunu yenen kumpanya Atina'ya yerleşti ve yetmiş yıl orada kaldı. Yunanistan'ın parçalanmışlığı bir kat daha arttı.",
   kaynak:"A. A. Vasiliev, History of the Byzantine Empire 324–1453, University of Wisconsin Press 1952, «The external policy of Byzantium during the reigns of the Andronicoi» https://www.ellopos.net/elpenor/vasilief/external-policy-andronicoi.asp?pg=5 — «In the spring of 1311 there took place a battle in Boeotia» [yalnız yıl teyitli; gün teyitsiz] ; el-kitabi" },
 
-{ t:"1321-01-01", b:"Birinci iç savaş başladı — dede ile torun karşı karşıya", tur:"isyan",
+{ odak_yer:["İstanbul","Edirne"], t:"1321-01-01", b:"Birinci iç savaş başladı — dede ile torun karşı karşıya", tur:"isyan",
   onem:5, dunya:2, kapsam:"ic", etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
   yer_id:"", kapsam_genis:true,
   d:"II. Andronikos ile torunu III. Andronikos arasındaki taht kavgası yedi yıl sürdü ve imparatorluğun son askerî ve malî kaynaklarını tüketti. Bu yıllar, Osmanlı Beyliği'nin Bitinya şehirlerini rahatça kuşatabildiği yıllardır: Bizans'ın kaybı düşman yüzünden değil, kendi iç savaşı yüzünden hızlandı.",

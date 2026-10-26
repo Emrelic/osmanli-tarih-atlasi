@@ -387,7 +387,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi Bahadır Han, Hîve'ye girip bölgenin tamamını hâkimiyeti altına aldı; TDV'nin ifadesiyle hanlığı 'Orta Asya'nın en güçlü devletlerinden biri' hâline getirdiği dönem başladı.",
   kaynak:"TDV, madde: hive-hanligi" },
 
-{ taraflar:["hive"], t:"1648-01-01",
+{ odak_yer:["Hîve","Köhne Ürgenç (Gürgenç)"], taraflar:["hive"], t:"1648-01-01",
   b:"Ebulgazi'nin Türkmen ve Kalmuklara karşı seferleri (1648-1656)",
   tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","hive","konu-askeri"],
@@ -395,7 +395,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi Bahadır Han, saltanatı boyunca (1648, 1651, 1653, 1656) Türkmen boylarına karşı ve (1649, 1653, 1656) Kalmuk akınlarına karşı üst üste seferler düzenledi; hanlığın Harzem'deki otoritesini bu askerî üstünlükle pekiştirdi.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ taraflar:["hive"], t:"1655-01-01",
+{ odak_yer:["Hîve","Buhara"], taraflar:["hive"], t:"1655-01-01",
   b:"Ebulgazi'nin Buhara Özbek Hanlığı'na karşı akınları",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","hive","buhara","konu-askeri"],
@@ -403,7 +403,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi Bahadır Han, 1655 ve 1662'de komşu Buhara hanlığı topraklarına akınlar düzenledi; iki hanlık arasındaki sınır çatışmaları bu dönemde de sürdü.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ taraflar:["hive"], t:"1659-01-01",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1659-01-01",
   b:"Ebulgazi Bahadır Han'ın Şecere-i Terâkime'yi tamamlaması",
   tur:"diger", onem:3, dunya:1, kapsam:"ic",
   etiket:["edebiyat","kultur","hive","konu-kultur"],
@@ -411,7 +411,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Bizzat kalemiyle tarih yazan nadir Orta Asya hükümdarlarından Ebulgazi Bahadır Han, Türkmen boylarının soy kütüğünü ve tarihini anlatan Şecere-i Terâkime adlı eserini tamamladı; Çağatay Türkçesi tarih yazıcılığının en önemli örneklerinden biridir.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ taraflar:["hive"], t:"1663-01-01",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1663-01-01",
   b:"Ebulgazi Bahadır Han'ın ölümü",
   tur:"son", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","hive","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -419,7 +419,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Tahtı oğluna bırakıp çekildikten kısa süre sonra Ebulgazi Bahadır Han öldü. Genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eser, Cengizli soy kütüğünü anlatan Şecere-i Türk'tür; standart akademik kaynaklara göre eser Ebulgazi'nin ölümü sırasında yarım kalmış, oğlu ve halefi tarafından tamamlanmıştır (yaklaşık 1665).", ic_not_d:"Ölçmedim: Şecere-i Türk TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor",
   kaynak:"TDV, madde: ebulgazi-bahadir-han (ölüm); Şecere-i Türk'ün tamamlanması İÇİN TDV doğrulanamadı, standart akademik kaynağa (Orta Asya tarihyazımı literatürü) dayanılarak yazıldı" },
 
-{ taraflar:["hive"], t:"1825-01-01",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1825-01-01",
   b:"Allahkulı Han döneminde hanlığın parlak çağı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","kultur","hive","konu-idari","konu-hanedan","konu-kultur"],
@@ -435,7 +435,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Hîve Hanı Muhammed Emin, Serahs yakınında Teke Türkmenlerine karşı giriştiği seferde ağır bir yenilgiye uğrayıp öldürüldü; bu yenilgi, hanlığın güneydoğu sınırındaki Türkmen boyları üzerindeki nüfuzunun kalıcı biçimde zayıflamasına yol açtı.",
   kaynak:"standart akademik kaynak (TDV 'ozbekler' maddesinde de bu olaya kısaca değiniliyor)" },
 
-{ taraflar:["hive"], t:"1864-01-01",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1864-01-01",
   b:"Seyyid Muhammed Rahim Bahadır Han'ın tahta çıkışı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hive","konu-siyasi","konu-hanedan"],
@@ -443,7 +443,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Rus istilasının arifesinde tahta çıkan Seyyid Muhammed Rahim Bahadır Han, hanlığın Rus himayesine girişine (1873) ve devamında kırk altı yıl sürecek saltanatına şahitlik etti.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ taraflar:["hive"], t:"1873-08-12",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1873-08-12",
   b:"Hîve Hanlığı Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],
@@ -459,7 +459,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Rus istilası sırasında Osmanlı devleti, Müslüman dünyasının önderi sıfatıyla önce Kâbil'e, ardından Buhara ve Hîve'ye elçiler göndererek Rusya'ya karşı bir ittifak kurmaya çalıştı; girişim, Rus askeri üstünlüğü karşısında sonuçsuz kaldı.",
   kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; makalenin tam metni okunmadı, yalnız özeti)" },
 
-{ taraflar:["hive"], t:"1920-02-02",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1920-02-02",
   b:"Son Han Seyyid Abdullah'ın tahttan çekilmesi",
   tur:"son", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","son","hive","konu-siyasi"],

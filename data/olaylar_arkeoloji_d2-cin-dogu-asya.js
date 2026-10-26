@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Çin, Kore, Japonya, Moğolistan — MÖ 8000–MÖ 200 (2. dalga, çok dilli: zh / ja / en / ko) (d2-cin-dogu-asya) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d2-cin-dogu-asya.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
- {
+ {"odak_yer":["Orhun Vadisi (Ötüken bölgesi)","Urga (Ulan Batur)"],
   "t": "-0208-01-01",
   "k": "kurulus",
   "b": "Xiongnu (Hunnu) imparatorluğu: Xiongnu İmparatorluğu kurulur (Han kaynakları)",
@@ -30,7 +30,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
    "Xi'an (Chang'an)"
   ]
  },
- {
+ {"odak_yer":["Luoyang","Haojing (Fenghao, Xi'an yakını)"],
   "t": "-0769-01-01",
   "k": "kurulus",
   "b": "Doğu Zhou'nun başlangıcı (Ping Kralı'nın doğuya taşınması): Doğu Zhou: Ping Wang Luoyi'ye taşınır (gelenek 770)",
@@ -84,7 +84,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1201–1012 (kaynağın verdiği uçlar); orta nokta MÖ 1106 = astronomik -1105. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «埋藏年代有95.4%的概率处于公元前1201年至公元前1012年». ÇİFT ANLAMLI TEYİT YOK: Pekin Üniv. Fizik Okulu Ağır İyon Fiziği Enstitüsü AMS'iyle 6 çukurdan 73 kömür örneği (haber 25.03.2021): K4 'en olası' 1199–1017 MÖ (https://sklnpt.pku.edu.cn/info/1120/2167.htm) — aynı veri tabanı, bağımsız değil. Zhu Naicheng 2022: K4 için 6 14C örneği Bayes kalibrasyonu → %68.3 olasılıkla 3072–3003 BP (≈1122–1053 MÖ; BP−1950 çevirisi aracın hesabı); tüm çukur gömülmesi 'MÖ ~1300–1046' (Shang sonu). Kaynaklarda örnek sayısı çelişiyor (73 / 14; Sixth Tone ~200) → belirsiz. K1 ve diğer eski çukurlar ayrı olabilir."
  },
- {
+ {"odak_yer":["Hakata (Fukuoka)","Edo (Tokyo)","Hirosaki"],
   "t": "-13749-01-01",
   "k": "kurulus",
   "b": "Jōmon başlangıcı: Sōsōki (Incipient) dönemi: Sōsōki (Jomon başlangıç evresi) başlar",
@@ -232,7 +232,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1900 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «遗址绝对年代为公元前2300年至公元前1900年». Kaynak 14C tablosu vermez, 'sistematik tarih verisi'ne atıf yapar; faz sınırları (erken/orta/geç) sayfada yok. ÇİFT TEYİT sayılmadı: Gao Jiangtao (高江涛, CASS), Guangming Daily/CSSN 10.03.2025: Taosi 'distance to present ≈ 4300–3900 yıl' (BP−1950 ile ≈ 2350–1950 MÖ; çeviri bu oturumda; kalibre durumu belirtilmemiş) — https://cssn.cn/kgxc/kgxc_kgdz/202503/t20250310_5856614.shtml. Medya düzeyi faz değerleri (erken 4300–4100, orta 4100–4000, geç 4000–3900 BP; Thepaper.cn/He Nu) kayda alınmadı. Taosi erken evresinin Shimao A segmentinden hafif eski olduğu belirtilir (Shao Jing)."
  },
- {
+ {"odak_yer":["Erlitou"],
   "t": "-2069-01-01",
   "k": "ilk_anilis",
   "b": "Xia hanedanı (yazılı gelenek / Dönemlendirme Projesi kronolojisi — arkeolojik tarih DEĞİL): Xia hanedanı başlar (yazılı gelenek, Dönemlendirme Projesi)",
@@ -328,7 +328,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 5850–5350) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Phase I (7,800–7,300 cal BP, pre-Yangshao)». cal BP→MÖ: BP−1950, bu oturumda. ÇİFT TEYİT (bağımsızlık belirsiz): Leipe C. vd. 2019, Science Advances 5:eaax6225 (PMC6760930): Dadiwan 'occupation phase 1 (5800 to 5300 BCE)' (en). Her iki kaynak da aynı Dadiwan kazı raporlarına dayanıyor olabilir. Eski Çince değer (Dili Xuebao / Acta Geographica Sinica 1985): Dadiwan I 7800–7355 BP — kalibre edilmemiş ham tarih, KAYIT DIŞI. Leipe'nin notu: Dadiwan I'deki 8 darı tanesi tek bir çukurdan, daha genç tabakadan karışma ihtimali yüksek (tarih tartışmalı)."
  },
- {
+ {"odak_yer":["Hakata (Fukuoka)","Edo (Tokyo)","Hirosaki"],
   "t": "-9649-01-01",
   "k": "kayip",
   "b": "Jōmon başlangıcı: Sōsōki (Incipient) dönemi: Sōsōki sona erer",

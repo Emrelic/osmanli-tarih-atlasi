@@ -35,7 +35,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 100 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «fechándose para 350 a 100/1 AC». CIFT TEYIT (kismen): 350 BC gecisi iki bagimsiz-degil-ama-ayri yayinda ayni: Arroyo vd. 2020 (EN, ozet) ve Inomata 2015 (ES, tam metin, 'Las Charcas tardia 600 a 350 AC, Providencia 350 a 100/1 AC'). Ikisi ayni grubun (Inomata, Arroyo) urunu; 'bagimsiz' sayilmaz, bu yuzden ic_not'ta 'ayni grup' olarak anildi. UYARI: bit alani iki kaynak arasi: Inomata 2015 'Providencia 350-100/1 AC' vs Arroyo 2020 ozeti 'Providencia-Verbena ~75 BC'; ikisi de yazarlarin kendi Bayes modelinden, aralik degil tek deger. Kaminaljuyu'nun KURULUS/ilk iskan tarihi bu kaynaklarda yok (Erken-Orta Preklasik Las Charcas baslangici okunamadi); 2020 makalesi kapali (Unpaywall closed) - tam metin kutuphane_gerekli. Karsit gorus: Love 2017, Latin American Antiquity (okunmadi): Verbena-Arenal doruk tarihlemesine temkin."
  },
- {
+ {"odak_yer":["La Centinela"],
   "t": "-0141-01-01",
   "k": "kurulus",
   "b": "Topará geleneği (Jahuay, Chincha): Topará: Jahuay iskânı başlar",
@@ -56,7 +56,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 220–65 (kaynağın verdiği uçlar); orta nokta MÖ 142 = astronomik -0141. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «median start occupation date for Jahuay was 130 BC (220–65 cal BC, 95.4% hpd)». Bu, Jahuay SİTE başlangıcı (tek yerleşim). Sayfa metni WebFetch ile okundu; tablolar (Tablo 2-4) görüntü olduğundan okunamadı, yalnız metindeki cümleler alındı. Aynı çalışma: Cerro del Gentil (Paracas, Chincha) son sınırı 350-205 cal BC (%92.9 hpd, medyan ~295 BC) ve Cerro del Gentil sonu ile Jahuay başlangıcı arası ~165 yıl (30-255, %95.4) — Topará'nın Paracas'ı yıkan işgalci olmadığı, ondan SONRA çıktığı iddiası. Conlee vd. 2024'e göre Paracas/Ica'da Late Paracas HPDI 600-40 BCE ve Topará Late Paracas/Erken Nasca ile birlikte var olmuştur (alt bölgeye göre kısmen çakışma) — iki çalışma Paracas sonu konusunda tam uyuşmuyor, uç seçilmedi."
  },
- {
+ {"odak_yer":["Kerulen (Çoybalsan)","Urga (Ulan Batur)"],
   "t": "-0340-01-01",
   "k": "kayip",
   "b": "Levha Mezar (Slab Grave) kulturu, Mogolistan: Slab Grave gömüleri sona erer (medyan)",
@@ -204,7 +204,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 800–600) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Eb 800-600 AC». UYARI: Bu bir seramik-kompleks tarihidir, kalibre 14C ARALIGI DEGILDIR; kaynak 'AC' (a.C.) yaziyor, kalibrasyon durumunu belirtmiyor. Istenen 'Erken Preklasik (MO >1000) kalibre iskan' bulunamadi (bulunamadi listesine bakiniz). Culbert 'kazilar Kuzey Akropolis'te gec Eb ve Tzec'in yalniz tesadufen karisik tiestolarla temsil edildigini; kesintisiz seramik dizisinin Chuen'le basladigini' yaziyor: yani Eb'in ilk iskan oldugu (mekansal) kanitli degil. Karsilastirma: Ceibal E-grubu ~MO 950 (Inomata 2015), Eb ile ayni cag."
  },
- {
+ {"odak_yer":["Cajamarca"],
   "t": "-0799-01-01",
   "k": "kayip",
   "b": "Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Töreni merkezler terk edilir",
@@ -225,7 +225,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 800–550) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Alrededor de 800 a.C. (calib.) todos los centros ceremoniales de la fase Tembladera fueron abandonados». CUPISNIQUE HEDEFİNİN KISMİ KARŞILIĞI: makale 'Cupisnique' etiketini yalnız 'Cupisnique Clásico' kaplarından bahsederken kullanır; Hamacas fazı kalibre başlangıcı için yazar ~1500 cal BC'yi 'yuvarlama' olarak önerir (Hamacas 1: 1450-1350, Hamacas 2: 1350-1250, Tembladera 1: 1250-1000, Tembladera 2: 1000-800 cal BC). Montegrande'nin TL (termolüminesans) tarihi ~1800 cal BC (Ulbert 1994 atfı, ikincil) — daha erken, kullanılmadı. Güven düzeyi (σ) makale metninde belirtilmemiş. Cupisnique için başka sayılar (1500-1000 / 1200-800 / 2000-200 MÖ) yalnız arama özetlerinde, kalibrasyonu belirsiz — YAZILMADI."
  },
- {
+ {"odak_yer":["Tepeaca"],
   "t": "-0849-01-01",
   "k": "kayip",
   "b": "Ajalpan evresi (Tehuacán Vadisi): sona erer",
@@ -240,7 +240,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 850 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Our estimate for the Ajalpan phase (3250-2800 cal BP) begins 600 years later and ends 150 years later». ÇELİŞKİ (iki kronoloji, ikisi de beyan): revize Bayesian model = 3250-2800 cal BP; geleneksel Johnson & MacNeish dizisi = 3850-2950 cal BP. Supplementary Text'e göre 'Tablo 1' önceki çalışmalardan sentezlenmiş ve yeni Bayesian modelle bilgilendirilmiş yaklaşık değerler; ham OxCal sınır dağılımları (Data S1.xlsx) bu oturumda okunmadı (zip HTML döndü). Geleneksel dizinin aslı (Johnson & MacNeish, ref. 38) bu oturumda açılmadı, değerler Somerville vd. aktarımıdır. Tek yayın; çift teyit YOK. 'bit' = evre sonu."
  },
- {
+ {"odak_yer":["Apia"],
   "t": "-0864-01-01",
   "k": "ilk_anilis",
   "b": "Mulifanua (Lapita sitesi), Upolu, Samoa: Mulifanua: Samoa'da Lapita iskânı",
@@ -321,7 +321,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1100–920 (kaynağın verdiği uçlar); orta nokta MÖ 1010 = astronomik -1009. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «El ensayo más reciente atribuido al Periodo Haldas en Sechín Alto, Beta-150765, señala el intervalo 1100-920 a.C. (calib.)». ÖNCEKİ DALGA 'bulunamadı'sını çözer. kur/bit: bilinen en eski yapıların dolgu örnekleri ile Haldas dönemine atfedilen en genç örnek (1σ) — kuruluş/terk tarihi DEĞİL; çekirdek adobe kütlesinin yaşı belirlenmemiş (Bischof: 'no ha sido determinada'). Pozorski & Pozorski 2005 (Bischof'un atfıyla) başlangıcı 1400 alır; Bischof Haldas başlangıcı 1400'ü 'tal vez algo tardía' sayar. Çelişki (diller arası değil, okullar arası): Pozorskiler Moxeke/Casma seramiğini ~2150 cal BC'ye çeker, Bischof ~1650'ye (Bischof 'Periodo Inicial' çerçevesini aşılmış sayar)."
  },
- {
+ {"odak_yer":["Kerulen (Çoybalsan)","Urga (Ulan Batur)"],
   "t": "-1099-01-01",
   "k": "gelisme",
   "b": "Levha Mezar (Slab Grave) kulturu, Mogolistan: Slab Grave kültürü başlar",
@@ -336,7 +336,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1100 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Slab Grave culture (ca. 1100-400 BCE) emerged from the figure-shaped graves in eastern and southern Mongolia». UYARI: kur 'ca. 1100' bir genel donem ozeti (genetik makalenin girisi), kalibre Bayesci baslangic siniri DEGIL; Taylor vd. 2019'da Slab Burial baslangic siniri metinde sayisal verilmedi (yalnizca grafikte/Ek Tablo S2'de) - kutuphane_gerekli degil, S2 Table acik erisimli ek dosya, bu oturumda acilmadi. Taylor vd. bitisi medyan 341 BCE verir (baslangic ve bitis ucunda 400 BCE ozet ile ~60 yil fark: iki kaynak, ikisi de beyan edilir; ortasi alinmadi). Taylor: Slab Burial, hirigsuur (%97) ve Sagsai (%97) mezarlarindan sonra gelir. Nat Commun makalesi Erken Demir Cagi'ni ca. 1000-300 BCE diye tanimlar. Yalnizca insan kemigi tarihleri; hayvan kemigi tarihleri birkac yuzyil farkli cikar (kaynak, Zazzo vd. kirlenme uyarisini aktarir)."
  },
- {
+ {"odak_yer":["Kotosh"],
   "t": "-1129-01-01",
   "k": "kayip",
   "b": "Waira-jirca seramik evresi (Huánuco havzası, Jancao): Wairajirca seramiği sona erer",
@@ -357,7 +357,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1200–1060 (kaynağın verdiği uçlar); orta nokta MÖ 1130 = astronomik -1129. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «End Wairajirca V 1185–1110 1200–1060 1140». ÖNCEKİ DALGA 'bulunamadı'sını (Kotosh Mito / Waira-jirca) KISMEN çözer: bu, Jancao SİTESİNDEKİ Waira-jirca seramik sekansıdır (17 kömür örneği), Kotosh tip-yerleşiminin kendi Waira-jirca evresi değildir. Sınırlar OxCal 'Boundary' değerleridir (medyan: I 1735 → V sonu 1140); evre süreleri 80-170 yıl. Yazarlar Kotosh sekansı ile karşılaştırma yapar. KOTOSH MİTO (seramiksiz, Waira-jirca'dan ÖNCE): kalibre aralığı bulunamadı — bkz. bulunamadi. Onuki 2014 (Senri Ethnol. Stud. 89:105-122, İspanyolca, açık) Mito evresinin 'alrededor de 2000 a.C.' beş sitesinden bahseder ama kalibrasyon belirtmez (yazılmadı)."
  },
- {
+ {"odak_yer":["Kavieng (Käwieng)"],
   "t": "-1284-01-01",
   "k": "ilk_anilis",
   "b": "Talepakemalai (ECA), Eloaua Adasi, Mussau: Talepakemalai (Mussau) Lapita iskânı",
@@ -378,7 +378,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1510–1060 (kaynağın verdiği uçlar); orta nokta MÖ 1285 = astronomik -1284. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «Twenty determinations from site ECA on Eloaua provide a date for the initial appearance of ceramics sometime between 3460–3010 cal BP (95.4%)». Aralik 'seramigin ilk gorunusu' modelidir (olay-zamani belirsizligi); yerlesmenin kurulus yili degildir. Adanin tum Eloaua modeli (ECA+ECB, 23 olcum): 3470-3010 cal BP; %68.2: ECA 3330-3080 cal BP. Kirch'in nitel tarihi (>=3300, belki ~3450 cal BP) Bayesci araligin icindedir (kaynak boyle belirtiyor). Birincil kaynak Kirch & Hunt 1988 (Radiocarbon 30:161-169) ve Kirch 2001/2021 Mussau cildi acilamadi (Anubis/JSTOR) -> kutuphane_gerekli. cal BP->MO: BP-1950, bu oturumda. 'ECA = Talepakemalai' eslesmesi Kirch'in Mussau cildi basliklarindan (Crossref: 'Macrobotanical Remains from Talepakemalai (Site ECA)') okundu."
  },
- {
+ {"odak_yer":["Tepeaca"],
   "t": "-1299-01-01",
   "k": "gelisme",
   "b": "Ajalpan evresi (Tehuacán Vadisi): Tehuacán: Ajalpan evresi",
@@ -399,7 +399,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1300–850) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Ajalpan 3250-2800 cal BP = 1300-850 BC (Tablo 1)». ÇELİŞKİ (iki kronoloji, ikisi de beyan): revize Bayesian model = 3250-2800 cal BP; geleneksel Johnson & MacNeish dizisi = 3850-2950 cal BP. Supplementary Text'e göre 'Tablo 1' önceki çalışmalardan sentezlenmiş ve yeni Bayesian modelle bilgilendirilmiş yaklaşık değerler; ham OxCal sınır dağılımları (Data S1.xlsx) bu oturumda okunmadı (zip HTML döndü). Geleneksel dizinin aslı (Johnson & MacNeish, ref. 38) bu oturumda açılmadı, değerler Somerville vd. aktarımıdır. Tek yayın; çift teyit YOK. 'bit' = evre sonu."
  },
- {
+ {"odak_yer":["Herbertshöhe (Kokopo) — Rabaul","Kavieng (Käwieng)"],
   "t": "-1324-01-01",
   "k": "ilk_anilis",
   "b": "Kamgot (Erken Lapita yerlesmesi), Babase Adasi, Anir Adalari: Kamgot (Anir) erken Lapita iskânı",
@@ -420,7 +420,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1440–1210 (kaynağın verdiği uçlar); orta nokta MÖ 1325 = astronomik -1324. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «3075±45 BP (charcoal Wk–7563) ... These calibrate to 3390–3160 cal. BP and 3450–3100 cal. BP at 95.4 per cent probability respectively.». bas_mo 1440 / son_mo 1210 = en eski kisa omurlu (kömür) numunenin %95.4 araligi (3390-3160 cal BP). Aynı katmanin eslestirilmis DENIZ KABUGU tarihi 3450-3100 cal BP (MO 1500-1150) verir ama kaynaklar kabuk icin yerel DeltaR duzeltmesi sorunundan soz eder (Specht 2007), bu yuzden kömür esas alindi. Ikinci eslesmis cift: kömür 3360-3080, kabuk 3350-2980 cal BP (%95.4). Layer 2 tabanindan (TP 20) findik kabugu 3160-2990 cal BP; devam eden isgal 2920-2790 ve 2740-2500 cal BP (MO ~970-840 ve ~790-550) - bunlar yerlesmenin bitisi DEGIL, sonraki isgal tarihleridir; bit bilinmiyor. Erken Lapita 'evre' toplami (Summerhayes 2010 / Horrocks 2024) 3300-3000 cal BP = MO 1350-1050; bu bir evre toplamidir, kur ile karistirilmamali. cal BP->MO: BP-1950, bu oturumda. Birincil yayin Summerhayes 2001 (kömür/kabuk laboratuvar kayitlari) bu oturumda acilmadi."
  },
- {
+ {"odak_yer":["Mörön (Hövsgöl)","Urga (Ulan Batur)"],
   "t": "-1346-01-01",
   "k": "gelisme",
   "b": "Geyik Tasi-Hirigsuur Kompleksi (Deer Stone-Khirigsuur Complex), Mogolistan: Hirigsuur (Geyik Taşı) mezar anıtları başlar",
@@ -441,7 +441,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1430–1265 (kaynağın verdiği uçlar); orta nokta MÖ 1347 = astronomik -1346. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2 (1 sigma). Kaynaktan okunan: «Khirigsuur (1430–1265 cal. BCE, 1 sigma range)». Rakam yalniz HIRIGSUUR baslangic siniridir (1 sigma, %68.2 - %95.4 degil); geyik tasinin (stel) kendisi dogrudan karbon-14 ile tarihlenemez, kaynak 'geyik tasi + hirigsuur' bir kultur ufku olarak ele alinir ('often, though not universally, considered a single cultural horizon'). Ayni kaynakta Sekilli mezar baslangici 1989-1453 cal BCE, Ulaanzuukh 1501-1434, D-sekilli 1732-1031 (1 sigma) ve Baitag baslangici 1145-940 cal BCE. Hirigsuur BITIS siniri sayisal olarak metinde verilmedi (Ek Tablo S2/grafik); bit null. At kemigi tarihlerinin sığ gömüt kirlenmesinden etkilenebilecegi uyarisi kaynakta (Zazzo vd.). Genetik makale Slab Grave'in DSKC'nin yerini aldigini soyler; kesin tarih verilmemis."
  },
- {
+ {"odak_yer":["Herbertshöhe (Kokopo) — Rabaul","Kavieng (Käwieng)"],
   "t": "-1449-01-01",
   "k": "kurulus",
   "b": "Lapita kulturu - Bismarck Takimadalari baslangici: Lapita Bismarck Takımadaları'nda ortaya çıkar",
@@ -592,7 +592,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1650 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Su límite superior se fijó alrededor de 1650 a.C. (calib.), cuando apareció la primera cerámica en la región de Casma». ÖNCEKİ DALGA 'bulunamadı'sını çözer (Cerro Sechín için). kur: yerleşimin kuruluşu DEĞİL, en eski tarihli iki örnek (Hd-6959 faz 4 öncesi/içi, Hd-6958 faz 1), 1σ; Bischof 'inşa evre 1-4 ve sanatı' tarihler olarak MÖ 3. binyıl sonuna kadar uzandığını söyler. bit=1650 Sechín Dönemi'nin kaynaklı üst sınırı (Casma'da ilk seramik); rölif cephesinin örtülmesi 1σ: Hd-11291 1740-1562, Hd-11290 1682-1531, Hd-11292 1529-1433 (Fuchs 1997 atfı). Fuchs 1997'ye göre Cerro Sechín anıtsal işgali ~3300 BP (ham) dolaylarında biter — ham BP yazılmadı, Bischof'un kalibre değeri esas. Sonraki yeniden yapı ~1300 cal BC (Hd-11312 1502-1317; Hd-11373 1305-1052)."
  },
- {
+ {"odak_yer":["Kotosh"],
   "t": "-1769-01-01",
   "k": "kurulus",
   "b": "Waira-jirca seramik evresi (Huánuco havzası, Jancao): Wairajirca seramiği başlar (Jancao)",
@@ -613,7 +613,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1915–1625 (kaynağın verdiği uçlar); orta nokta MÖ 1770 = astronomik -1769. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «Start Wairajirca I 1790–1665 1915–1625 1735». ÖNCEKİ DALGA 'bulunamadı'sını (Kotosh Mito / Waira-jirca) KISMEN çözer: bu, Jancao SİTESİNDEKİ Waira-jirca seramik sekansıdır (17 kömür örneği), Kotosh tip-yerleşiminin kendi Waira-jirca evresi değildir. Sınırlar OxCal 'Boundary' değerleridir (medyan: I 1735 → V sonu 1140); evre süreleri 80-170 yıl. Yazarlar Kotosh sekansı ile karşılaştırma yapar. KOTOSH MİTO (seramiksiz, Waira-jirca'dan ÖNCE): kalibre aralığı bulunamadı — bkz. bulunamadi. Onuki 2014 (Senri Ethnol. Stud. 89:105-122, İspanyolca, açık) Mito evresinin 'alrededor de 2000 a.C.' beş sitesinden bahseder ama kalibrasyon belirtmez (yazılmadı)."
  },
- {
+ {"odak_yer":["İrkutsk"],
   "t": "-22206-01-01",
   "k": "ilk_anilis",
   "b": "Mal'ta (Belaya Nehri, Baykal yakini) - MA-1 bireyi: Mal'ta (MA-1): Üst Paleolitik Sibirya iskânı (ufuk dışı)",
@@ -702,7 +702,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 3400–2950) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «los 10 ensayos de radiocarbono de Sechín Bajo, que cubren el periodo de 3400-2950 a.C. (calib.), indican el límite inferior del Periodo Sechín». ÖNCEKİ DALGA 'bulunamadı'sını çözer. 3400-2950: Bischof'un 10 Sechín Bajo analizinin kapsadığı aralık (alt sınır tahmini; 1σ — dipnot 1). Bischof dipnot 2: kuruluşa dair iki dayanak 'moluscos' (deniz kabuğu) ölçümleri olduğundan rezervuar etkisi sorusu var (dipnotun devamı okunmadı). İKİNCİ KAYNAK (kalitatif çift teyit): Fuchs vd. (Boletín de Arqueología PUCP) batık dairesel plazaya ait üç tarihi 'cuarto milenio a.C.' ve ilk insan varlığını 'quinto milenio a.C.' yerleştirir; tablo (Tabla 1) PDF çıkarımında satır-sütun eşleşmesi bozuk olduğundan sayısal değer alınmadı. Vikipedi (tek dayanak olamaz) ~MÖ 3500 plaza / ~3600 friz diyor: Bischof'la 100-200 yıl fark; Bischof esas alındı (hakemli, kalibre açık). Bit: Formatif işgal sonu; yapıların terk/sonu tarihi değil 'Haldas Punteado'nun yokluğu' ile çıkarılmış sıralama."
  },
- {
+ {"odak_yer":["Tepeaca"],
   "t": "-4349-01-01",
   "k": "kayip",
   "b": "Coxcatlán evresi (Tehuacán Vadisi): sona erer",
@@ -717,7 +717,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4350 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «our model for the Coxcatlan phase (7900-6300 cal BP) begins 150 years earlier and ends 200 years earlier than the traditional estimate». ÇELİŞKİ (iki kronoloji, ikisi de beyan): revize Bayesian model = 7900-6300 cal BP; geleneksel Johnson & MacNeish dizisi = 7750-6100 cal BP. Supplementary Text'e göre 'Tablo 1' önceki çalışmalardan sentezlenmiş ve yeni Bayesian modelle bilgilendirilmiş yaklaşık değerler; ham OxCal sınır dağılımları (Data S1.xlsx) bu oturumda okunmadı (zip HTML döndü). Geleneksel dizinin aslı (Johnson & MacNeish, ref. 38) bu oturumda açılmadı, değerler Somerville vd. aktarımıdır. Tek yayın; çift teyit YOK. 'bit' = evre sonu."
  },
- {
+ {"odak_yer":["Tepeaca"],
   "t": "-5949-01-01",
   "k": "gelisme",
   "b": "Coxcatlán evresi (Tehuacán Vadisi): Tehuacán: Coxcatlán evresi",

@@ -109,7 +109,7 @@ window.KRONOLOJI_FRANSA = [
   d:"IV. Charles'ın erkek varis bırakmadan ölmesiyle 341 yıllık Kapetiyen doğrudan hattı sona erdi; taht, Salik Kanunu gerekçesiyle kadın hattından İngiltere kralı III. Edward'ı dışlayarak Valois kolundan VI. Philippe'e geçti. Bu veraset anlaşmazlığı doğrudan Yüzyıl Savaşları'nın hukukî gerekçesini oluşturacaktı.",
   kaynak:"standart ders kitabı bilgisi — gün belirsiz, ay bilgisiyle yazıldı" },
 
-{ t:"1337-05-24", b:"Yüzyıl Savaşları'nın başlaması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+{ odak_yer:["Paris","Calais","Bordo"], t:"1337-05-24", b:"Yüzyıl Savaşları'nın başlaması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","hanedan","konu-askeri","konu-hanedan"],
   d:"III. Edward'ın Fransa tahtı üzerindeki iddiasını resmen ileri sürmesiyle, aralıklarla 116 yıl sürecek olan Fransa-İngiltere çatışması başladı. Savaş yalnız bir hanedan anlaşmazlığı değil, iki krallığın millet kimliğinin şekillendiği uzun bir süreç olacaktı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
@@ -139,7 +139,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Kara Prens'in kuvvetleri Fransız ordusunu ikinci kez ağır yenilgiye uğrattı ve bizzat Kral II. Jean'ı esir aldı; kral dört yıl Londra'da rehin tutuldu. Kralın yokluğu, ülkede vergi ve otorite krizini tetikleyen bir siyasî boşluk doğurdu.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1358-05-28", b:"Jacquerie köylü ayaklanması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Senlis","Meaux","Paris"], t:"1358-05-28", b:"Jacquerie köylü ayaklanması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","sosyal","konu-isyan","konu-sosyal"],
   d:"Kralın esaretinden ve savaşın yıkımından bunalan Kuzey Fransa köylüleri, kısa ama son derece kanlı bir ayaklanma başlattı; hareket birkaç hafta içinde soylular tarafından acımasızca bastırıldı. 'Jacquerie' terimi sonraki yüzyıllarda her köylü isyanı için kullanılan genel ad oldu.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
@@ -189,7 +189,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Burgonya Dükü İyi Philippe, VII. Charles ile barış yaparak İngiliz ittifakını terk etti; Armagnac-Burgonya bölünmesi böylece kapandı. Fransız cephesinin birleşmesi, savaşın son on sekiz yılında İngilizlerin geri püskürtülmesini mümkün kıldı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Arras" },
 
-{ t:"1445-01-01", b:"Compagnies d'ordonnance — daimî kraliyet ordusunun kurulması", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Paris"], t:"1445-01-01", b:"Compagnies d'ordonnance — daimî kraliyet ordusunun kurulması", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["askeri","idari","reform","konu-askeri","konu-idari","konu-islahat"],
   d:"VII. Charles, savaş sonrası başıboş kalan paralı asker birliklerini disipline etmek için Avrupa'nın ilk daimî, maaşlı kraliyet ordusunu kurdu. Reform, kraliyetin vergilendirme ve askerî tekelini feodal beylerin elinden alan uzun sürecin başlangıcı sayılır.",
   kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, YYYY-01-01", kapsam_genis:true },
@@ -224,7 +224,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Kralın Bretanya Düşesi Anne ile evliliği, Fransa'nın son büyük bağımsız feodal beyliğini fiilen krallığa bağladı; birlik 1532'de resmî ilhakla tamamlanacaktı. Bugünkü Fransa'nın altıgen coğrafyası büyük ölçüde bu evlilikle şekillendi.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1494-09-02", b:"İtalyan Savaşları'nın başlaması — VIII. Charles'ın Napoli seferi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+{ odak_yer:["Milano","Floransa","Roma","Napoli"], t:"1494-09-02", b:"İtalyan Savaşları'nın başlaması — VIII. Charles'ın Napoli seferi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","konu-askeri"],
   d:"Napoli tahtı üzerindeki hanedan iddiasıyla İtalya'yı istila eden VIII. Charles, altmış yıl sürecek ve bütün büyük Avrupa güçlerini İtalya'da karşı karşıya getirecek savaşlar dizisini başlattı. Sefer aynı zamanda Fransız soylularını İtalyan Rönesansı'nın sanat ve mimarisiyle doğrudan temasa geçirdi.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
@@ -409,7 +409,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Colbert'in girişimiyle kurulan Académie royale des sciences, devlet himayesinde düzenli bilimsel araştırmayı kurumsallaştıran Avrupa'nın öncü bilim akademilerinden biri oldu. Ertesi yıl kurulan Paris Gözlemevi ile akademi, Fransa'yı bilimde bir asrı aşkın süre öncü konuma taşıdı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1667-05-24", b:"Devrolma Savaşı'nın başlaması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lille","Brüksel"], t:"1667-05-24", b:"Devrolma Savaşı'nın başlaması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"XIV. Louis, eşi Maria Theresa'nın İspanyol Hollandası üzerindeki miras hakkını gerekçe göstererek bölgeyi işgal etti; savaş 1668 Aachen Antlaşması'yla sınırlı toprak kazanımıyla sona erdi. Sefer, kralın sonraki elli yıl boyunca sürdüreceği yayılmacı dış siyasetin ilk denemesiydi.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
@@ -429,7 +429,7 @@ window.KRONOLOJI_FRANSA = [
   d:"XIV. Louis, seksen yedi yıllık dinî tahammül düzenlemesini yürürlükten kaldırarak Protestanlığı fiilen yasakladı; yaklaşık iki yüz bin Huguenot, servetlerini ve becerilerini beraberinde götürerek Hollanda, İngiltere ve Prusya'ya göç etti. Karar, Fransa'nın zanaat ve ticaret gücüne uzun vadeli, telafisi güç bir zarar verdi.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[48.408,2.701] },
 
-{ t:"1701-09-07", b:"İspanya Veraset Savaşı'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+{ odak_yer:["Paris","Madrid","Brüksel"], t:"1701-09-07", b:"İspanya Veraset Savaşı'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","hanedan","konu-askeri","konu-hanedan"],
   d:"XIV. Louis'nin torunu Felipe'nin İspanya tahtına geçmesi, Avrupa'nın büyük çoğunluğunu Fransa-İspanya birleşmesini önlemek için Büyük İttifak'ta bir araya getirdi. On üç yıl sürecek savaş, Fransa'yı Blenheim ve Ramillies gibi ağır yenilgilerle mali ve askerî olarak tüketecekti.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
@@ -464,7 +464,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Diderot ve d'Alembert'in editörlüğünde başlayan 'Ansiklopedi ya da Bilimler, Sanatlar ve Zanaatlar Açıklamalı Sözlüğü', Aydınlanma düşüncesinin bütün akıl-eleştiri programını tek bir başvuru eserinde topladı. Yirmi sekiz ciltlik proje, kilise ve krallık sansürüyle defalarca çatışarak 1772'de tamamlanacaktı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1756-01-01", b:"Diplomatik Devrim ve Yedi Yıl Savaşları'na giriş", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+{ odak_yer:["Paris","Viyana","Berlin"], t:"1756-01-01", b:"Diplomatik Devrim ve Yedi Yıl Savaşları'na giriş", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Fransa, asırlık düşmanı Habsburg Avusturya ile ittifak kurarak Prusya-İngiltere bloğuna karşı savaşa girdi; savaş Avrupa'da olduğu kadar Kuzey Amerika ve Hindistan'da da sürdü. Yedi yıl sonra imzalanacak Paris Antlaşması, Fransa'yı Kuzey Amerika sömürge imparatorluğunun neredeyse tamamından mahrum bırakacaktı.",
   kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, YYYY-01-01", kapsam_genis:true },
@@ -614,7 +614,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Terör'ün aşırılıklarına tepki olarak hazırlanan yeni anayasa, yürütmeyi beş kişilik bir Direktuvar'a ve yasamayı iki meclise bölerek güçler ayrılığını sağlamlaştırmaya çalıştı. Rejim istikrarsız kaldı ve dört yıl sonra Napolyon'un darbesiyle sona erecekti.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1796-04-12", b:"Napolyon Bonapart'ın İtalya Seferi'nin başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Nice","Milano","Mantova"], t:"1796-04-12", b:"Napolyon Bonapart'ın İtalya Seferi'nin başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","konu-askeri"],
   d:"Yirmi altı yaşındaki general Napolyon Bonapart, Direktuvar ordusunun İtalya kolunu devralıp Avusturya kuvvetlerine karşı bir dizi parlak zafer kazandı. Sefer, onu Fransa'nın en popüler askerî figürüne dönüştürerek üç yıl sonraki iktidar yürüyüşünün zeminini hazırladı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
@@ -819,7 +819,7 @@ window.KRONOLOJI_FRANSA = [
   d:"III. Napolyon, Piedmont-Sardunya'nın yanında Avusturya'ya karşı savaşarak İtalyan birliği sürecini destekledi; muharebenin dehşet verici yaralı sayısı, İsviçreli tanık Henry Dunant'ı Kızılhaç'ı kurmaya yöneltti. Zafer karşılığında Fransa, Savoie ve Nice'i topraklarına kattı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[45.383,10.583] },
 
-{ t:"1863-06-10", b:"Meksika Seferi — Maximilian'ın imparator ilanı hazırlığı", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Tenochtitlan (Mexico City)","Veracruz (Villa Rica de la Vera Cruz)","Puebla de los Ángeles"], t:"1863-06-10", b:"Meksika Seferi — Maximilian'ın imparator ilanı hazırlığı", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","askeri","siyaset","konu-askeri","konu-siyasi"],
   d:"III. Napolyon, ABD İç Savaşı'nın verdiği fırsatla Meksika'yı işgal ettirip Habsburg Arşidükü Maximilian'ı kukla imparator yaptı; macera 1867'de Maximilian'ın idamıyla Fransa için büyük bir dış politika hezimetine dönüştü. Girişim, III. Napolyon'un yayılmacı hırsının en pahalı ve en talihsiz örneğidir.",
   kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, ay bilgisiyle yazıldı", kapsam_genis:true },
@@ -969,7 +969,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Somme Muharebesi sırasında İngiliz kuvvetleri (Fransız cephesinin bir parçası olarak) ilk kez zırhlı tankları savaş alanına sürdü; yenilik siper savaşının çıkmazını kırmaya yönelik ilk ciddi teknolojik girişimdi. Muharebe, aynı zamanda savaşın en yüksek kayıp oranlı çarpışmalarından biriydi.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[50,2.65] },
 
-{ t:"1917-04-16", b:"Nivelle Taarruzu ve Fransız ordusu isyanları", tur:"isyan", onem:4, dunya:3, kapsam:"ic", yer_id:"",
+{ odak_yer:["Reims","Soissons","Laon"], t:"1917-04-16", b:"Nivelle Taarruzu ve Fransız ordusu isyanları", tur:"isyan", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["isyan","askeri","kriz","konu-askeri","konu-siyasi","konu-isyan"],
   d:"General Nivelle'in kesin zafer vaat ettiği taarruz ağır kayıplarla başarısız olunca, tükenmiş Fransız birliklerinde geniş çaplı itaatsizlik dalgaları başladı; General Pétain, disiplini iyileştirme ve siper koşullarını düzeltme sözüyle isyanları büyük ölçüde şiddetsiz bastırdı. Kriz, Fransız ordusunun moral tükenişinin savaşın en kritik anlarından biri olduğunu gösterdi.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },

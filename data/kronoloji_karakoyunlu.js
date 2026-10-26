@@ -522,13 +522,13 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"Cihan Şah, aralarında Celâleddin ed-Devvânî'nin de bulunduğu âlimleri himaye etti ve Molla Câmî ile edebî mektuplaşmalar yürüttü, sarayında ilim meclisleri kurdu.", ic_not_d:"⚠️ TARİH HAKKINDA: `celaleddin-ed-devvani` maddesi HTTP 200 döndürdüğü hâlde GÖVDESİ ÇEKİLEMEDİ, bu yüzden Devvânî'nin Karakoyunlu sarayındaki dönemi tarihlendirilemedi; madde devletin en güçlü olduğu Bağdat fethi yılına bağlandı. Bu bir tercihtir. 'TDV'de yok' DEMİYORUM — 'çekilemedi' diyorum.",
   kaynak:"karakoyunlular (himaye) · celaleddin-ed-devvani ÇEKİLEMEDİ" },
 
-{ t:"1438-04-19", b:"Dört halife adına para basımı — Sünnî çizginin sürdüğünün delili", gun:"Karakoyunlu devri", tur:"din",
+{ odak_yer:["Tebriz"], t:"1438-04-19", b:"Dört halife adına para basımı — Sünnî çizginin sürdüğünün delili", gun:"Karakoyunlu devri", tur:"din",
   onem:4, dunya:1, kapsam:"ic", etiket:["din","ekonomi","sosyal","konu-ekonomi","konu-din","konu-sosyal"],
   yer_id:"", kapsam_genis:true,
   d:"Karakoyunlu hükümdarları dört halifenin adını taşıyan sikkeler bastırdılar. Bu, aynı dönemde Şeyh Cüneyd-i Safevî gibi isimlerin öncülüğünde Şiî hareketlerin bölgede yayılmasına rağmen hanedanın resmî çizgisinde Sünnî unsurların sürdüğünü gösterir. Karakoyunlu'nun mezhep kimliği bu yüzden tek renkli değildir: sikke Sünnî, çevredeki tarikat hareketi Şiîdir ve ikisi aynı devlette yan yana durmaktadır.", ic_not_d:"TARİH HAKKINDA: kaynak sikkelerin basım yılını vermiyor; madde Cihan Şah'ın cülûsuna bağlandı, bir tercihtir. `kapsam_genis` sayılabilecek imparatorluk çapında bir uygulamadır, bu yüzden `yer_id` boştur.",
   kaynak:"karakoyunlular" },
 
-{ t:"1446-01-01", b:"Malî teşkilât: muhassıl ve tahvildarlar eliyle şer'î ve örfî vergi düzeni", gun:"Karakoyunlu devri", tur:"idari",
+{ odak_yer:["Tebriz","Bağdat"], t:"1446-01-01", b:"Malî teşkilât: muhassıl ve tahvildarlar eliyle şer'î ve örfî vergi düzeni", gun:"Karakoyunlu devri", tur:"idari",
   onem:3, dunya:1, kapsam:"ic", etiket:["idari","ekonomi","hukuk","konu-idari","konu-ekonomi","konu-hukuk"],
   yer_id:"", kapsam_genis:true,
   d:"Karakoyunlu Devleti, muhassıl ve tahvildar gibi malî görevliler eliyle hem şer'î hem örfî vergileri toplayan bir maliye teşkilâtı işletiyordu; bu gelirler geniş saray bürokrasisini ve orduyu finanse ediyordu.", ic_not_d:"TARİH HAKKINDA: kaynak bu teşkilâtın kuruluş yılını vermiyor; madde devletin sınırlarının en geniş olduğu ve teşkilâtın en çok yüklendiği Bağdat fethi yılına bağlandı. Bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",

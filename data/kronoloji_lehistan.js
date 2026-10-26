@@ -398,7 +398,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Katolikliğe geçen Saksonya elektörü, rüşvet ve yabancı destekle seçimi kazandı. Saksonya ile kişisel birlik, cumhuriyeti kendi çıkarı olmayan savaşlara sürükleyecekti.",
   kaynak:"el-kitabi" },
 
-{ t:"1700-01-01", b:"Büyük Kuzey Savaşı Polonya topraklarında başladı", tur:"savas",
+{ odak_yer:["Riga","Varşova"], t:"1700-01-01", b:"Büyük Kuzey Savaşı Polonya topraklarında başladı", tur:"savas",
   onem:4, dunya:4, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Kralın Saksonya elektörü sıfatıyla girdiği savaş, cumhuriyeti taraf olmadığı bir çatışmanın savaş meydanına çevirdi. Yirmi yıl boyunca İsveç, Rus ve Sakson orduları ülkeyi çiğnedi.",
@@ -595,7 +595,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"İsveç istilasının en karanlık anında II. Jan Kazimierz Lwów katedralinde ülkeyi Meryem'in himayesine adadı ve köylülerin yükünü hafifletme sözü verdi. Polonya Katolikliğinin ulusal kimlikle özdeşleşmesinin en çok anılan sahnesi budur; verilen sosyal sözler ise tutulmadı.",
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1658-07-20", b:"Polonyalı Kardeşler sürgün edildi", tur:"din",
+{ odak_yer:["Varşova","Kielce"], t:"1658-07-20", b:"Polonyalı Kardeşler sürgün edildi", tur:"din",
   onem:4, dunya:2, kapsam:"ic", etiket:["din","siyaset","konu-siyasi","konu-din","konu-demografi"],
   yer_id:"",
   d:"Sejm, Arian'lara ya Katolikliği kabul etmeyi ya da ülkeyi terk etmeyi şart koştu. Avrupa'nın ilk dinî hoşgörü belgesini üretmiş olan ülke, seksen beş yıl sonra bir mezhebi topluca sürdü. Sürgünler Hollanda ve Prusya'ya giderek Aydınlanma düşüncesine katkıda bulundu.",

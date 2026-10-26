@@ -341,7 +341,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Altın Orda Hanı Taktaga 1301 yılında Kuzey Azerbaycan'ı istilâ teşebbüsünde bulunduysa da başarılı olamadı. Hülâgû ile Berke Han arasında başlayan Kafkasya rekabeti kırk yıl sonra da sürüyordu: Derbend geçidi iki Moğol devleti arasındaki değişmez sınır hattıydı.",
   kaynak:"gazan-han" },
 
-{ taraflar:["ilhanli"], t:"1302-04-12", b:"Gāzân Han Papa VIII. Bonifacius'a mektup yazdı", tur:"diplomasi",
+{ odak_yer:["Tebriz","Roma"], taraflar:["ilhanli"], t:"1302-04-12", b:"Gāzân Han Papa VIII. Bonifacius'a mektup yazdı", tur:"diplomasi",
   onem:3, dunya:3, kapsam:"dis", etiket:["diplomasi","din","konu-diplomasi","konu-din"],
   yer_id:"",
   d:"Suriye ve Mısır'a hâkim olma arzusundan vazgeçmeyen Gāzân Han, 12 Nisan 1302'de Papa VIII. Bonifacius'a mektup yazarak Memlüklere karşı hıristiyan devletlerinin desteğini sağlamaya çalıştı, fakat sonuç alamadı. Müslüman olmuş bir Moğol hükümdarının papalıkla ittifak araması, İlhanlı dış siyasetinin dinî değil jeopolitik olduğunu gösterir.", ic_not_d:"`kapsam_genis` — muhatabı Avrupa'dır, tek bir yere bağlanamaz.",
@@ -353,13 +353,13 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Moğol ordusuyla Memlük kuvvetleri arasında Dımaşk yakınlarında meydana gelen savaş Memlükler'in zaferiyle neticelendi (2 Ramazan 702 / 20 Nisan 1303). Bu yenilgi İlhanlı'nın Suriye üzerindeki elli yıllık iddiasını fiilen sona erdirdi; Gāzân Han üzüntüsünden yeni bir sefere çıkma imkânı bulamadan öldü.", ic_not_d:"⚠️ YER HAKKINDA: Dımaşk (Şam) bu atlasın penceresi içinde ama madde İran ardılları dosyasında olduğu için yer_id boş bırakıldı — savaş alanı şehrin kendisi değildir.",
   kaynak:"gazan-han" },
 
-{ taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"reform",
+{ odak_yer:["Tebriz","Bağdat"], taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","toprak","mali","konu-askeri","konu-idari","konu-ekonomi","konu-islahat"],
   yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han önce ülkedeki toprakların genel bir tahririni yaptırdı: vilâyetlere gönderilen yazıcılar köy köy dolaşıp 'defâtîr-i kanûn' adı verilen defterlere bütün özel mülk, incü ve vakıf arazilerini kaydettiler. Ardından 703 yılı başlarında (Ağustos 1303) askerî güzergâhlarla yaylak-kışlak yolları üzerindeki araziler Moğol askerlerine iktâ olarak dağıtıldı. Bu, İran'da toprağın merkezî bir defterle kayda geçirilmesinin ilk büyük örneğidir; ancak uygulama Gāzân'ın ölümünden sonra bütün ülkeye yaygınlaştırılamamıştır.", ic_not_d:"İmparatorluk çapında olduğu için `yer_id` boştur.",
   kaynak:"incu" },
 
-{ taraflar:["ilhanli"], t:"1300-01-01", b:"Gāzân Han'ın vergi ve posta reformu — menzilhâneler", gun:"1300", ic_not_gun:"1300 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"reform",
+{ odak_yer:["Tebriz"], taraflar:["ilhanli"], t:"1300-01-01", b:"Gāzân Han'ın vergi ve posta reformu — menzilhâneler", gun:"1300", ic_not_gun:"1300 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","mali","ulasim","konu-idari","konu-ekonomi","konu-islahat","konu-ulastirma"],
   yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han âdeta soygun derecesine ulaşan vergileri düzene koydu, kanun ve teamülleri gözden geçirip bazılarını kaldırdı, vergilerin âdil tahsili için görevlilere ağır cezaî hükümler getirdi. Posta teşkilâtını ıslah için menzilhâneler yaptırarak ulakların buralarda dinlenmesini sağladı ve böylece halkı tâciz etmelerini engelledi. Kumandanlara hizmet karşılığı dirlik verdi.", ic_not_d:"⚠️ TARİH HAKKINDA: kaynak bu düzenlemelerin yıl yıl sırasını vermiyor; madde saltanatın reform yılları olan dönemin ortasına bağlandı, bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
@@ -447,7 +447,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Beylerbeyi görevine getirilen Emîr Çoban Anadolu'da ortaya çıkan isyanları bastırdı; Altın Orda ve Çağatay hanlıklarından gelecek tehlikeler bertaraf edildi ve doğuda Gazne şehrine, kuzeyde Terek nehrine kadar uzanan topraklarda hâkimiyet sağlandı. Emîr Çoban aynı zamanda saltanat nâibiydi: devlet fiilen onun elindeydi ve bu aile yirmi yıl sonra Çobanlılar adıyla İlhanlı mirasının yarısını talep edecektir.",
   kaynak:"ilhanlilar" },
 
-{ taraflar:["ilhanli"], t:"1323-01-01", b:"Memlüklerle barış antlaşması — altmış yıllık savaş bitti", gun:"1323", ic_not_gun:"1323 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"antlasma",
+{ odak_yer:["Sultâniye","Kahire"], taraflar:["ilhanli"], t:"1323-01-01", b:"Memlüklerle barış antlaşması — altmış yıllık savaş bitti", gun:"1323", ic_not_gun:"1323 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","diplomasi","baris","konu-diplomasi"],
   yer_id:"",
   d:"Memlükler ile yıllardır devam eden mücadeleye 1323'te yapılan bir antlaşmayla son verildi. Aynicâlût'tan (1260) beri altmış üç yıl süren düşmanlık böylece kapandı; iki devlet arasında ticaret ve hac yolları yeniden açıldı.", ic_not_d:"`kapsam_genis` — antlaşma iki devletin bütün sınırını bağlar.",

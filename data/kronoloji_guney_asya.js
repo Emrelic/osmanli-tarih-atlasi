@@ -142,7 +142,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Sind] Delhi'yi yağmalayan Avşarlı hükümdarı, dönüş yolunda İndus vadisini de itaat altına aldı ve Kalhora idaresinden ağır bir yıllık vergi bağladı. Sind'in yönü bir kez daha batıya, İran ve Afganistan'a çevrildi.",
   kaynak:"sind (TDV): \"1153'te (1740) Avşarlı hânedanının kurucusu Nâdir Şah'ın ... ele geçirdiği Sind\"" },
 
-{ taraflar:["sind"], t:"1752-01-01", b:"Sindî şairi Şah Abdüllatîf Bhitâî öldü", tur:"kultur", onem:5, dunya:2, kapsam:"ic",
+{ odak_yer:["Haydarâbâd (Sind)","Tatta (Thatta)"], taraflar:["sind"], t:"1752-01-01", b:"Sindî şairi Şah Abdüllatîf Bhitâî öldü", tur:"kultur", onem:5, dunya:2, kapsam:"ic",
   etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"", odak_kimlik:["sind"],
   d:"[Sind] Şah Cû Risâlo adlı divanıyla Sindî'yi bir edebiyat dili hâline getiren mutasavvıf şair, halk destanlarını tasavvufî bir dille yeniden yazdı. Sind kimliğinin bugün de en güçlü ortak zemini onun şiiridir — bir dilin klasiği, çoğu zaman bir devletten uzun yaşar.", ic_not_d:"yer_id boş: Bhit Şah atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı; dayanak: Annemarie Schimmel, Pearls from the Indus: Studies in Sindhi Culture" },
@@ -162,7 +162,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Sind — Talpur] Belûç asıllı Talpurlar, Halani'de Kalhora ordusunu yenerek idareyi devraldı ve merkezi Haydarâbâd'a taşıdı. 'Mîr'ler ülkeyi aile kolları arasında paylaşarak yönettiler — bu paylaşımlı yapı altmış yıl sonra İngilizler karşısındaki en büyük zaafları olacaktı.",
   kaynak:"sind (TDV): \"1783'te Tâlpûr sülâlesinden Mîr Feth Ali Han Sind'e hâkim olduysa da\"" },
 
-{ taraflar:["sind"], t:"1827-01-01", b:"Sindî şairi Sachal Sarmast öldü", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
+{ odak_yer:["Aror (Alor, Rohri yakını)","Haydarâbâd (Sind)"], taraflar:["sind"], t:"1827-01-01", b:"Sindî şairi Sachal Sarmast öldü", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
   etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"", odak_kimlik:["sind"],
   d:"[Sind — Talpur] Yedi dilde şiir söylediği rivayet edilen mutasavvıf şair, vahdet-i vücûd düşüncesini halk diline taşıdı. Şah Abdüllatîf'ten sonra Sindî edebiyatının ikinci büyük adıdır.", ic_not_d:"yer_id boş: Daraza atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı; dayanak: Annemarie Schimmel, Pearls from the Indus" },
@@ -408,7 +408,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Racput / Bâbürlü] Racput desteğine güvenen şehzade, Evrengzîb karşısında üç gün süren savaşı kaybetti. Racput devletlerinin taht kavgasında seçtiği taraf, sonraki yirmi yılın Bâbürlü-Racput ilişkisini belirledi.",
   kaynak:"evrengzib (TDV): \"Dârâ Şükûh'u da Ecmîr yakınlarında üç gün süren savaşta bozguna uğrattı (23 Mart 1659)\"" },
 
-{ taraflar:["babur-imparatorlugu","racput"], t:"1679-04-02", b:"Evrengzîb cizyeyi yeniden koydu", tur:"idari", onem:5, dunya:2, kapsam:"dis",
+{ odak_yer:["Delhi","Agra"], taraflar:["babur-imparatorlugu","racput"], t:"1679-04-02", b:"Evrengzîb cizyeyi yeniden koydu", tur:"idari", onem:5, dunya:2, kapsam:"dis",
   etiket:["vergi","din","kriz","konu-siyasi","konu-idari","konu-ekonomi","konu-din"], yer_id:"", odak_kimlik:["babur-imparatorlugu"],
   d:"[Bâbürlü / Racput] Ekber'in kaldırdığı gayri müslim vergisinin yüz yıl sonra yeniden konması, Racput devletleriyle imparatorluk arasındaki uzlaşmanın temelini sarstı. Vergi bir maliye kararıydı; sonucu ise imparatorluğun en sadık askerî ortağını kaybetmesi oldu.",
   kaynak:"evrengzib (TDV) — Racpûtlar'ın destek çekmesi ve isyanlar bölümü; tarih için Cambridge History of India, IV" },

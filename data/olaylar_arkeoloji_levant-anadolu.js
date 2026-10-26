@@ -43,7 +43,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 11220–10750) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The range of the radiocarbon dates of the Epipalaeolithic layers indicates an occupation of the settlement between 11220 and 10750 BC.». KRONOLOJI CELISKISI/SINIF: Smith vd. 2022 (PLoS One 17(9):e0272947, doi 10.1371/journal.pone.0272947, IntCal20 kalibre) evre tablosu: 1A 13,300-12,800 calBP ... 2C 8,000-7,800 calBP (Gec Neolitik); alinti: 'Epipalaeolithic (ca. 13,300-11,400 calBP) and Neolithic (ca. 10,600-7,800 calBP) occupations'. calBP->MO (BP-1950): Epipaleolitik basi ~11350, Neolitik sonu ~5850 MO. PPND aralik 11220-10750 (Epipaleolitik tabakalarin 14C ozeti) ve 7100 (Faz 2B sonu) -> iki kaynak 2A/2B bitisinde farkli (PPND 14C toplam, Smith evre sinirlari). Ikisi de verilmistir; tek secim yok. PPND 2A basi ~7760 (muhtemelen 7600). Aralarinda Epipaleolitik sonrasi 'Intermediate' (11,400-10,600 calBP ~ 9450-8650 MO) bosluk/yerlesme sorunu vardir."
  },
- {
+ {"odak_yer":["Ain Mallaha (Eynan)","Eriha (Tell es-Sultan)"],
   "t": "-12649-01-01",
   "k": "kurulus",
   "b": "Natufiyen Kültürü: başlar",
@@ -100,7 +100,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 6750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Kfar HaHoresh (KHH) (ca. 10,600–8700 cal BP), Israel is a rare site». CELISKI: PPND (Goring-Morris vd. 2008'e atifla) yalniz dort 14C: 8523+-154 ile 7668+-54 BC cal -> yaklasik 8523-7668 MO.Meier vd. 2016 yeni kazilar (2010-12) ve yayimlanmamis tarihlerle 10,600-8,700 cal BP (~8650-6750 MO). Yeni ve kapsamli oldugu icin Meier esas, PPND alternatif; PPND son sinir (7668) Meier'in gec PPNB sonundan (6750) ~900 yil once - PPND 'yalniz bir tarih yayimlanmis' notunu da dusmus. Tarihler ±50-100 yil."
  },
- {
+ {"odak_yer":["Ain Ghazal"],
   "t": "-6749-01-01",
   "k": "gelisme",
   "b": "PPNC (Son PPNB) — Güney Levant: başlar",
@@ -322,7 +322,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 8650 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «the longest continuous Pre-Pottery Neolithic B faunal sequence ... (Early–Late periods, 10,600–8,700 cal. BP)». CELISKI: PPND (Goring-Morris vd. 2008'e atifla) yalniz dort 14C: 8523+-154 ile 7668+-54 BC cal -> yaklasik 8523-7668 MO.Meier vd. 2016 yeni kazilar (2010-12) ve yayimlanmamis tarihlerle 10,600-8,700 cal BP (~8650-6750 MO). Yeni ve kapsamli oldugu icin Meier esas, PPND alternatif; PPND son sinir (7668) Meier'in gec PPNB sonundan (6750) ~900 yil once - PPND 'yalniz bir tarih yayimlanmis' notunu da dusmus. Tarihler ±50-100 yil."
  },
- {
+ {"odak_yer":["Ain Ghazal","Eriha (Tell es-Sultan)"],
   "t": "-8649-01-01",
   "k": "gelisme",
   "b": "PPNB (Çömlekten Önceki Neolitik B) — Güney Levant: başlar",
@@ -385,7 +385,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 9660–9320) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The main occupation of the site starts around 9660 BC and lasts until about 9320 BC.». bit blogu yok: kaynak yerlesmenin bittigini ayri bir olay olarak vermiyor; 'ana iskan' kur-bit tek aralik (kur.son_mo=9320). Eski tarihler (11100-9300 MO) yuksek sapma nedeniyle kalibre edilmemis; Natufiyen-oncesi iskan olabilir. Toplam: 9660-9570 (%17.1), 9560-9320 (%51.1)."
  },
- {
+ {"odak_yer":["Eriha (Tell es-Sultan)"],
   "t": "-9699-01-01",
   "k": "kurulus",
   "b": "PPNA (Çömlekten Önceki Neolitik A) — Güney Levant: başlar",

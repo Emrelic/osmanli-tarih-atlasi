@@ -68,7 +68,7 @@ window.KRONOLOJI_PORTEKIZ = [
 // I. RECONQUISTA SONRASI VE AVİZ HANEDANI (1281-1415)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1281-01-01", b:"XIII. yüzyıl sonunda Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", ic_not_b:"eski b: Atlasın açılışında Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Lizbon","Porto","Faro"], t:"1281-01-01", b:"XIII. yüzyıl sonunda Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", ic_not_b:"eski b: Atlasın açılışında Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Atlas penceresi açıldığında Portekiz Krallığı 1139'dan beri bağımsız, sınırları 1249'da Algarve'nin fethiyle bugünkü hâline kavuşmuş bir Burgonya hanedanı krallığıdır — Avrupa'nın Reconquista'yı en erken tamamlayan devletidir. Bu erken bitiş, Kastilya ve Aragon henüz Endülüs'le uğraşırken Portekiz'i Atlantik'e yönelmeye hazırlayan yapısal bir avantaj olarak okunur.",
   kaynak:"TDV `portekiz`: 1095'te bağımsız devlet kurulması başladı · standart akademik kronoloji (Algarve fethi 1249)" },
@@ -97,7 +97,7 @@ window.KRONOLOJI_PORTEKIZ = [
 // II. KEŞİFLER ÇAĞI — AFRİKA KIYISI VE OKYANUS YOLU (1419-1497)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1419-01-01", b:"Denizci Henrique, Sagres'te bir keşif kadrosu kurdu", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Lagos (Algarve)"], t:"1419-01-01", b:"Denizci Henrique, Sagres'te bir keşif kadrosu kurdu", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["bilim","teknoloji","konu-bilim"],
   d:"Ceuta seferinden dönen Şehzade Henrique, Sagres burnunda kartograflar, denizciler, gökbilimciler ve gemi ustalarından oluşan bir ekip topladı; ekip hem Hıristiyan hem yahudi uzmanları ve Arap kaynaklarını kullandı.", ic_not_d:"⚠️ Modern araştırma, burada efsanevi anlamda bir 'denizcilik okulu' bulunduğu iddiasına şüpheyle yaklaşır — kesin olan, kraliyet destekli sistemli bir keşif teşebbüsünün burada örgütlendiğidir.",
   kaynak:"World History Encyclopedia, 'Prince Henry the Navigator' — akademik tarih ansiklopedisi; makale açıkça 'efsanenin aksine burada resmî bir denizcilik okulu yoktu' notunu düşer" },
@@ -176,7 +176,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"I. Manuel, Vasco da Gama'nın Hindistan seferinin getirdiği zenginlikle Lizbon'da Jerónimos Manastırı'nın inşasını başlattı; yapı, denizcilik motifleriyle (halat, mercan, deniz canavarları) süslü Manuelino mimarisinin en olgun örneğidir. Manastır aynı zamanda Vasco da Gama'nın mezarını da barındıracaktı.",
   kaynak:"Mosteiro dos Jerónimos e Torre de Belém (resmî kurum, mosteirojeronimos.torrebelem.gov.pt): temel atma \"6 de Janeiro de 1501 ou 1502\"" },
 
-{ t:"1502-01-01", b:"Cartaz sistemi kuruldu — Hint Okyanusu ticareti izne bağlandı", tur:"reform", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Goa","Koçin (Kochi)","Kalikut (Kozhikode)"], t:"1502-01-01", b:"Cartaz sistemi kuruldu — Hint Okyanusu ticareti izne bağlandı", tur:"reform", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ekonomi","reform","konu-ekonomi","konu-islahat"],
   d:"Vasco da Gama'nın ikinci seferinde başlattığı cartaz sistemi, Hint Okyanusu'nda seyreden her Asyalı ticaret gemisinin Portekiz limanlarından geçiş izni almasını zorunlu kıldı; izinsiz yakalanan gemiler mallarına el konularak batırıldı. Bu, Portekiz'in gücünü toprak fethiyle değil deniz üzerindeki zorla-tekel ile kurduğu bir stratejinin resmî aracıydı ve on sekizinci yüzyıla dek yürürlükte kaldı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Cartaz sisteminin 1502'de Vasco da Gama'nın ikinci seferiyle başlatılması — çoklu akademik özet kaynak)" },
@@ -211,7 +211,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Albuquerque, Malaka Boğazı'nı denetleyen zengin liman şehri Malaka'yı Malaka Sultanlığı'ndan aldı. Boğaz, Hint Okyanusu ile Güneydoğu Asya baharat adaları arasındaki tek deniz geçidiydi; onun ele geçirilmesi Portekiz'e baharat ticaretinin kaynağına doğrudan erişim sağladı.",
   kaynak:"TDV `portekiz`: \"1511: Malezya zaptedildi\" (Malaka Sultanlığı kastediliyor)" },
 
-{ t:"1512-01-01", b:"Ordenações Manuelinas — birleşik hukuk kodu yürürlüğe girdi", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Lizbon"], t:"1512-01-01", b:"Ordenações Manuelinas — birleşik hukuk kodu yürürlüğe girdi", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","konu-islahat","konu-hukuk"],
   d:"I. Manuel, Portekiz'in dağınık örfî hukukunu ve kraliyet fermanlarını beş kitap hâlinde tek bir kodda topladı (Ordenações Manuelinas). Kod, matbaanın yaygınlaşmasından yararlanarak krallığın her yerinde aynı hukukun uygulanmasını sağlayan ilk basılı Portekiz hukuk derlemesiydi.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, TDV bu taneciği kapsamıyor, dayanak: standart akademik kaynak" },
@@ -241,7 +241,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Hint Okyanusu imparatorluğunun kurucusu I. Manuel öldü; oğlu III. João, otuz altı yıl sürecek saltanatında imparatorluğu Brezilya'ya (donatary kaptanlıklar), Japonya'ya (Cizvit misyonları) ve Fas'a (Sa'dî mücadelesi) doğru genişletecek, aynı zamanda Portekiz Engizisyonu'nu kuracaktı.",
   kaynak:"Encyclopaedia of Portuguese Expansion (FCSH-UNL), 'Dom Manuel I (1469-1521)' ve 'Dom João III (1502/1521-1557)'" },
 
-{ t:"1525-01-01", b:"Selman Reis'in raporu — Kızıldeniz savunma planı", tur:"reform", onem:2, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Cidde","Süveyş"], t:"1525-01-01", b:"Selman Reis'in raporu — Kızıldeniz savunma planı", tur:"reform", onem:2, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri","konu-islahat"],
   d:"Artık Osmanlı hizmetinde olan Selman Reis, Kızıldeniz'i Portekiz baskısına karşı savunmak için ayrıntılı bir donanma ve tahkimat raporu sundu; rapor, sonraki on yılda inşa edilecek Süveyş tersanesi ve Habeş seferlerinin zeminini oluşturdu. Portekiz açısından bu, rakip cephenin artık sistemli bir devlet politikasına dönüştüğü anlamına geliyordu.",
   kaynak:"TDV `portekiz`: \"1525 tarihli raporuyla konuya ışık tutan ve bu tür yardımların sevkini yürütmüş olan Selman Reis, Osmanlılar’ı daha etkin bir siyasete teşvik etmekteydi.\"" },
@@ -265,7 +265,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Lizbon ve Coimbra arasında yüzyıllardır gidip gelen üniversite, III. João döneminde kalıcı olarak Coimbra'ya nakledildi ve eski kraliyet sarayına yerleşti. Bu tarihten sonra Coimbra, Portekiz'in tek üniversite şehri olarak dört asır boyunca ülkenin bütün hukukçu, din adamı ve idarecilerini yetiştirecekti.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (University of Coimbra'nın 1537'de kalıcı nakli)" },
 
-{ t:"1537-01-01", b:"Pedro Nunes'un rota risalesi — loxodrome'un keşfi", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Coimbra"], t:"1537-01-01", b:"Pedro Nunes'un rota risalesi — loxodrome'un keşfi", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["bilim","teknoloji","konu-bilim","konu-kesif"],
   d:"Coimbra'da matematik okutan Pedro Nunes, 'Tratado em defensam da carta de marear' adlı risalesinde bir geminin sabit pusula rotasında seyrettiğinde aslında büyük daire değil sarmal bir yol (loxodrome) izlediğini matematiksel olarak ilk kanıtlayan kişi oldu. Nunes aynı zamanda 1529'da kraliyet baş kozmografı atanmış, deniz haritacılığının resmî denetleyicisi olmuştu — Portekiz'in keşif seferlerini ayakta tutan bilimsel altyapının en önemli ismidir.",
   kaynak:"MacTutor History of Mathematics (St Andrews Üniversitesi, akademik proje), 'Pedro Nunes' — risalenin 1537 yayın tarihi ve baş kozmograf ataması teyitli" },
@@ -448,7 +448,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"İngiltere'nin arabuluculuğuyla VI. João, oğlu I. Pedro'nun imparator unvanını ve Brezilya'nın bağımsızlığını resmen tanıdı; karşılığında Portekiz'e ağır bir tazminat ve ticarî ayrıcalıklar sağlandı. Antlaşma, üç asırlık Portekiz-Brezilya bağını hukuken sona erdirdi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Treaty of Rio de Janeiro, 1825)" },
 
-{ t:"1826-04-29", b:"Anayasal Karta ilan edildi", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Lizbon"], t:"1826-04-29", b:"Anayasal Karta ilan edildi", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","reform","konu-islahat","konu-hukuk"],
   d:"Brezilya'dan Portekiz kralı IV. Pedro sıfatıyla hareket eden I. Pedro, Portekiz'e krala geniş yetkiler (dördüncü bir 'ılımlaştırıcı güç' dahil) tanıyan ama iki meclisli bir Kortes de öngören bir anayasal karta bahşetti. Karta, 1822 anayasasından daha az liberaldi ama 1910'a kadar (iki kısa kesintiyle) Portekiz'in temel yasası olarak yürürlükte kalacaktı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Constitutional Charter of 1826, 29 Nisan 1826)" },
@@ -472,12 +472,12 @@ window.KRONOLOJI_PORTEKIZ = [
 // VII. LİBERAL MONARŞİ, SÖMÜRGE AFRİKA VE CUMHURİYET (1836-1923)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1836-12-10", b:"Sá da Bandeira kararnamesi — köle ticareti yasaklandı", tur:"reform", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Luanda","Mozambik Adası"], t:"1836-12-10", b:"Sá da Bandeira kararnamesi — köle ticareti yasaklandı", tur:"reform", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["reform","sosyal","konu-ekonomi","konu-islahat","konu-sosyal"],
   d:"İçişleri bakanı Sá da Bandeira, Ekvator'un güneyindeki bütün Portekiz sömürgelerinde (başta Angola ve Mozambik) Atlantik köle ticaretini resmen yasaklayan bir kararname çıkardı. Yasak, uygulamada kaçak ticareti tamamen durduramadıysa da Portekiz'in Brezilya'ya köle ihraç eden en büyük Avrupa gücü kimliğinden çekilme sürecinin ilk resmî adımıydı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Sá da Bandeira kararnamesi, 10 Aralık 1836)" },
 
-{ t:"1869-02-25", b:"Kölelik bütün Portekiz topraklarında kaldırıldı", tur:"reform", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Luanda","Mozambik Adası","Goa"], t:"1869-02-25", b:"Kölelik bütün Portekiz topraklarında kaldırıldı", tur:"reform", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["reform","sosyal","konu-islahat","konu-sosyal"],
   d:"Kral I. Luís, 1858'den beri sürdürülen kademeli özgürleştirme sürecini tamamlayan bir kararnameyle köleliği Portekiz Krallığı'nın bütün topraklarında (Angola, Mozambik, Goa dahil) hukuken sona erdirdi. Bu, Portekiz'i Avrupa'nın büyük sömürge güçleri arasında köleliği tamamen kaldıran devletlerden biri yaptı — ama zorunlu çalıştırma pratikleri (contrato işçiliği) yirminci yüzyıla dek sürecekti.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (25 Şubat 1869 kölelik kaldırma kararnamesi, Sá da Bandeira'nın girişimiyle)" },

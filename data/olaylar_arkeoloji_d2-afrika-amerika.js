@@ -136,7 +136,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3083–2921 (kaynağın verdiği uçlar); orta nokta MÖ 3002 = astronomik -3001. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «The minimum period of platform use is 4,871–4,154 cal. BP». Tablo 14C+cal BP+cal BCE (95.4%) sutunlari makalede; ben cal BP'den cevirdim (BP-1950); en genc ornek ISGS-A2649 gibi tekil tarihler 2906-2777 cal BCE gibi. Makale giris metni 'pillar sites ~5000-4000 cal BP'. Aliel (Wilshaw 2019) ikincil: Lothagam North 5033-4870, Jarigole 5270-4857 cal BP (arama ozeti, okunmadi)."
  },
- {
+ {"odak_yer":["Tepeaca"],
   "t": "-3184-01-01",
   "k": "ilk_anilis",
   "b": "Tehuacan Vadisi, San Marcos Magarasi - en eski misir (partial domestikat): en eski mısır (San Marcos, Tehuacán)",

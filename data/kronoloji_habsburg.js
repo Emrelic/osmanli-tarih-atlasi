@@ -170,7 +170,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"II. Rudolf, imparatorluk ikametgâhını Viyana'dan Prag'a taşıdı ve şehri siyasî olduğu kadar kültürel bir merkeze dönüştürdü. Büyük sanat koleksiyonları kurdu, bilim adamlarını himaye etti; Prag bir kuşak boyunca Orta Avrupa'nın entelektüel başkenti oldu.",
   kaynak:"Die Welt der Habsburger, 'Rudolf II. und die Goldene Stadt': \"Soon after the beginning of his reign as Emperor, Rudolf II transferred the Residence from Vienna to Prague, which he made into a political and cultural centre, and built up important art collections while patronizing scientists such as the astronomer Johannes Kepler\" · Dikkat: YIL doğrulanmadı (kaynak 'saltanatının başından kısa süre sonra' diyor)" },
 
-{ t:"1593-07-01", b:"Uzun Türk Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Sisak","Yanıkkale (Győr)","Estergon"], t:"1593-07-01", b:"Uzun Türk Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri"],
   d:"On üç yıl sürecek savaş başladı; iki taraf da kesin sonuç alamadı ama Macaristan yıkıma uğradı. Savaş Habsburg maliyesini imparatorluk yardımlarına ve Alman prenslerine bağımlı hâle getirdi.",
   kaynak:"TDV `avusturya`: \"1593-1606 arası devam eden savaş\" · depo savaslar.js (savas_basi 1593-07-01)" },
@@ -189,7 +189,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Kanije kalesi Osmanlı eline geçti ve Habsburg savunma hattında güneybatıya açılan bir gedik oluştu. Ertesi yıl kaleyi geri alma girişimi de başarısız oldu.", ic_not_d:"eski kaynak: depo savaslar.js (1600-10-22)",
   kaynak:"TDV `kanije` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"anlaşma yoluyla 11 Rebîülâhir 1009'da (20 Ekim 1600) Osmanlılar'a teslim edildi\" · yerin kendi maddesi esas alındı; önceki gün (22 Ekim, TDV tiryaki-hasan-pasa · mehmed-iii'ye dayandırılmıştı) çekirdekteki olaylar_ek.js 1600-10-20 kaydıyla da çelişiyordu" },
 
-{ t:"1604-10-15", gun:"15 Ekim 1604 (Álmosd çatışması) — gün komşudan (Macaristan kronolojisi · Kontler)", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Debrecen","Kassa (Košice)"], t:"1604-10-15", gun:"15 Ekim 1604 (Álmosd çatışması) — gün komşudan (Macaristan kronolojisi · Kontler)", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","din","milliyetcilik","konu-siyasi","konu-isyan","konu-din"],
   d:"Habsburg'un Macaristan'da yürüttüğü karşı-reform ve merkezîleştirme siyaseti, Bocskai István önderliğinde bir soylu ayaklanmasını tetikledi. İsyan, Viyana'yı hem Osmanlı hem de kendi Macar tebaası karşısında iki cepheli bir mücadeleye zorladı.",
   kaynak:"gün komşudan: kronoloji_macaristan.js · akademik: Kontler (2002), s. 154-155 (ayaklanmanın başlangıcı 15 Ekim 1604) — önceki yıl damgası (1604-01-01) KRONO-ORTA-AVRUPA-0929 ile değiştirildi", kapsam_genis:true },
@@ -326,12 +326,12 @@ window.KRONOLOJI_HABSBURG = [
 // IV. BÜYÜK GÜÇ VE VERASET MESELESİ (1700-1740)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1701-01-01", b:"İspanya Veraset Savaşı'na girilmesi", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Viyana","Milano"], t:"1701-01-01", b:"İspanya Veraset Savaşı'na girilmesi", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-hanedan"],
   d:"İspanya Habsburglarının erkek hattı tükenince Viyana, mirası Bourbonlara kaptırmamak için savaşa girdi. Savaş on üç yıl sürdü ve Habsburg'u Batı Avrupa'nın belirleyici güçlerinden biri hâline getirdi.",
   kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası)" },
 
-{ t:"1703-01-01", b:"II. Rákóczi Ferenc ayaklanmasının başlaması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Kassa (Košice)","Viyana"], t:"1703-01-01", b:"II. Rákóczi Ferenc ayaklanmasının başlaması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","milliyetcilik","konu-siyasi","konu-isyan"],
   d:"Türk hâkimiyetinden yeni kurtulmuş Macaristan'ı Viyana'ya sıkı sıkıya bağlamak isteyen mutlakiyetçi yeniden düzenlemeye karşı, Rákóczi önderliğinde bir bağımsızlık savaşı patlak verdi. Ayaklanma 1704'te Viyana'yı doğrudan tehdit etti ve şehirde Linienwall savunma duvarının yapımına yol açtı.",
   kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár' ve 'Kuruzzeneinfall': 1703'te patlak veren Macar isyanı; 1704'te Viyana tehdidi ve Linienwall · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
@@ -365,7 +365,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Tımışvar, Belgrad, kuzey Sırbistan ve Küçük Eflak Habsburg'a bırakıldı. İmparatorluğun güneydoğudaki sınırı tarihindeki en uzak noktaya ulaştı; bu genişleme yirmi bir yıl sürecekti.",
   kaynak:"TDV `avusturya`: \"Tımışvar ve Belgrad Avusturya'ya bırakılmakta\" · depo savaslar.js (1718-07-21) · TDV `pasarofca-antlasmasi` slug CANLI · TDV `temesvar` slug CANLI", yer_kon:[44.62,21.19] },
 
-{ t:"1720-01-01", b:"Pragmatik Yaptırım'ın eyalet meclislerince kabulü", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Viyana","Prag","Bratislava"], t:"1720-01-01", b:"Pragmatik Yaptırım'ın eyalet meclislerince kabulü", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","diplomasi","konu-idari","konu-diplomasi","konu-islahat","konu-hukuk"],
   d:"VI. Karl, yaptırımı tek tek eyalet meclislerine ve yabancı devletlere kabul ettirmek için uzun bir diplomatik kampanya yürüttü. Bu kampanya imparatorluğun dış siyasetini yirmi yıl boyunca belirledi ve pahalı ödünlerle yürüdü.",
   kaynak:"bulunamadı — Die Welt der Habsburger'in ilgili sayfası 1720-1725 arası meclis kabullerini AYRINTILANDIRMIYOR (doğrudan okundu, yok); gün DOĞRULANMADI" },
@@ -398,7 +398,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Erkek vârissiz ölen VI. Karl'ın ardından Pragmatik Yaptırım işledi ve yirmi üç yaşındaki Maria Theresia bütün Habsburg ülkelerinin hükümdarı oldu. Ama birkaç hükümdar onun haklarını tanımadı ve Avusturya Veraset Savaşı patladı; hanedanın varlık mücadelesi Avusturya anlatısının kurucu sahnelerinden biridir.",
   kaynak:"Die Welt der Habsburger, 'Pragmatische Sanktion 1713' (doğrudan okundu): \"Nach dem Tod Karls VI. 1740 trat dieser Fall ein, jedoch wiesen einige Herrscher die Ansprüche seiner Tochter Maria Theresia zurück – es kam zum Österreichischen Erbfolgekrieg\" · Dikkat: gün DOĞRULANMADI" },
 
-{ t:"1740-12-16", b:"Prusya'nın Silezya'yı işgali", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+{ odak_yer:["Breslau (Wrocław)"], t:"1740-12-16", b:"Prusya'nın Silezya'yı işgali", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Prusya Kralı II. Friedrich Silezya'ya girdi; bu, Avusturya Veraset Savaşı'nın başlangıç işareti oldu. Silezya monarşinin en zengin ve en sanayileşmiş eyaletiydi ve kaybı, Avusturya'nın bir asır sürecek Prusya rekabetinin başlangıcıdır.",
   kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"1740 fiel der preußische König Friedrich der Große in Schlesien ein – der Startschuss für den Österreichischen Erbfolgekrieg\" · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
@@ -418,12 +418,12 @@ window.KRONOLOJI_HABSBURG = [
   d:"Silezya'nın kaybı, devletin yeniden kurulması gerektiğini gösterdi: maliye ve idare eyalet meclislerinden alınıp merkezî dairelerde birleştirildi, sürekli ordu için düzenli vergi bağlandı. Maria Theresia dönemi reformları modern Avusturya devletinin doğduğu an sayılır.",
   kaynak:"Die Welt der Habsburger, 'Die maria-theresianischen Reformen' (başlık ve konu doğrulandı) · Dikkat: gün DOĞRULANMADI, reform dizisi yıllara yayılıdır", yer_id:"Viyana" },
 
-{ t:"1756-01-01", b:"Renversement des alliances — Fransa ile ittifak", tur:"ittifak", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Viyana","Paris"], t:"1756-01-01", b:"Renversement des alliances — Fransa ile ittifak", tur:"ittifak", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ittifak","diplomasi","konu-diplomasi"],
   d:"Kaunitz'in yürüttüğü siyaset, iki yüz elli yıllık Habsburg-Fransa düşmanlığını sona erdirip Prusya'ya karşı ittifaka çevirdi. Avrupa'nın ittifak sisteminin tersine dönmesi, Yedi Yıl Savaşı'nın zeminini kurdu.",
   kaynak:"bulunamadı — gün DOĞRULANMADI" },
 
-{ t:"1756-08-29", b:"Yedi Yıl Savaşı'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Dresden","Prag","Breslau (Wrocław)"], t:"1756-08-29", b:"Yedi Yıl Savaşı'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri"],
   d:"Savaş, Maria Theresia'nın Silezya'yı geri alma isteği üzerine yürüdü ve Avrupa dışına taşarak bir dünya savaşına dönüştü. Avusturya yedi yıl boyunca büyük insan ve para kaybetti.",
   kaynak:"Die Welt der Habsburger, 'Der Siebenjährige Krieg: Ein Weltkrieg' ve 'Siebenjähriger Krieg 1756-1763': savaş Silezya için yürütüldü · Dikkat: gün DOĞRULANMADI" },
@@ -491,7 +491,7 @@ window.KRONOLOJI_HABSBURG = [
 // VI. FRANSIZ SAVAŞLARI VE İMPARATORLUĞUN İLANI (1792-1815)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1792-04-20", b:"Fransa ile savaşın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+{ odak_yer:["Viyana","Paris"], t:"1792-04-20", b:"Fransa ile savaşın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","hanedan","konu-askeri","konu-hanedan"],
   d:"Devrimci Fransa Avusturya'ya savaş ilan etti; Marie Antoinette'in kardeşi olan imparator için mesele hem hanedanî hem rejim meselesiydi. Yirmi üç yıl sürecek savaşlar dizisi başladı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", kapsam_genis:true },
@@ -550,7 +550,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Metternich'in yönlendirmesiyle Alman Konfederasyonu basın sansürü, üniversite denetimi ve muhalefet takibi kararları aldı. \"Vormärz\" denen otuz yıllık baskı dönemi böyle kuruldu ve 1848 patlamasının basıncını biriktirdi.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[50.2311,12.8712] },
 
-{ t:"1821-01-01", b:"İtalya'daki ayaklanmaların bastırılması", tur:"isyan", onem:2, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Napoli","Torino"], t:"1821-01-01", b:"İtalya'daki ayaklanmaların bastırılması", tur:"isyan", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","isyan","konu-askeri","konu-isyan"],
   d:"Napoli ve Piyemonte'deki anayasa hareketleri Avusturya ordusu tarafından bastırıldı. Avusturya, kutsal ittifak düzeninin jandarması rolünü üstlenmiş oldu.",
   kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası)", kapsam_genis:true },
@@ -590,7 +590,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"1849 anayasası yürürlükten kaldırıldı ve imparator doğrudan idareyi yeniden kurdu. Bach sisteminin on yılı, merkezîleşme ve modern bürokrasi ile birlikte sıkı bir polis rejimi anlamına geliyordu.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", yer_id:"Viyana" },
 
-{ t:"1854-01-01", b:"Kırım Savaşı'nda silahlı tarafsızlık — Rusya'nın Tuna'dan çekilmesi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Bükreş","Yaş"], t:"1854-01-01", b:"Kırım Savaşı'nda silahlı tarafsızlık — Rusya'nın Tuna'dan çekilmesi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","askeri","konu-askeri","konu-diplomasi"],
   d:"Avusturya savaşa girmedi ama Tuna prensliklerine asker yığarak Rusya'yı çekilmeye mecbur bıraktı. 1849'da kendisini kurtaran Rusya'yı bu şekilde karşısına alması, imparatorluğu Avrupa'da yalnızlaştırdı.",
   kaynak:"TDV `avusturya`: Avusturya tarafsızlığını korudu, sonra \"Rusya'yı çekilmek mecburiyetinde bırakmıştır (1854)\" · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },

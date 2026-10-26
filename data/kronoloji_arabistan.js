@@ -134,7 +134,7 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Aden'in alınmasından dokuz yıl sonra Osmanlı kuvvetleri iç yaylaya ilerleyip San'a'yı da ele geçirdi; Yemen beylerbeyiliği artık ülkenin can damarını tutuyordu. Zeydî imamlar bu tarihten itibaren dağlık kuzeye çekilip direnişi oradan sürdürdü.", ic_not_d:"Tarih yerlesimler.js'teki San'a kaydıyla (1547-01-01) birebir örtüşüyor.",
   kaynak:"TDV `yemen`: 1547: San'a ele geçirildi. — data/yerlesimler.js Sana kaydıyla çapraz doğrulandı." },
 
-{ taraflar:["yemen-zeydi"], t:"1567-01-01", b:"Mutahhar isyanı — Yemen ikiye bölündü", tur:"isyan",
+{ odak_yer:["Sana","Zebîd","Aden"], taraflar:["yemen-zeydi"], t:"1567-01-01", b:"Mutahhar isyanı — Yemen ikiye bölündü", tur:"isyan",
   onem:4, dunya:2, kapsam:"ic", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   yer_id:"",
   d:"Yerel lider Mutahhar b. Şerefeddin'in başlattığı geniş çaplı ayaklanma, Osmanlı idaresini Yemen'in büyük kısmından sürdü; ülke fiilen Osmanlı'nın elinde kalan bölge ile isyancıların denetimindeki bölge olarak ikiye ayrıldı. Bu, imamet çevresindeki direnç ağının Osmanlı'ya karşı ilk büyük başarısıydı.",
@@ -146,13 +146,13 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Koca Sinan Paşa'nın sevkiyle gönderilen büyük Osmanlı ordusu isyanı ağır biçimde bastırdı; Mart 1568'de bölünmüş eyalet yeniden birleştirilmiş, Sinan Paşa 1 Mart 1571'de (4 Şevval 978) Yemen'den ayrılmıştı. Mutahhar 1573'te öldürüldü ve dört oğlu İstanbul'a sürgün edildi (1586) — imamet hattının bu koluna ağır bir darbe.",
   kaynak:"TDV `yemen`: 'Mart 1568’de iki eyalet birleştirilerek merkezi Zebîd olan Yemen beylerbeyiliği kuruldu, yönetimi de Hasan Paşa’ya verildi.' · '4 Şevval 978 (1 Mart 1571): Sinan Paşa Yemen'den ayrıldı.' · '1573: Mutahhar öldürüldü.' · '994/1586: Mutahhar'ın dört oğlu İstanbul'a gönderildi.'", yer_kon:[15.5,43.9] },
 
-{ taraflar:["yemen-zeydi"], t:"1608-01-01", b:"İmam Kāsım b. Muhammed ile on yıllık antlaşma", tur:"antlasma",
+{ odak_yer:["Şehâre","Sana"], taraflar:["yemen-zeydi"], t:"1608-01-01", b:"İmam Kāsım b. Muhammed ile on yıllık antlaşma", tur:"antlasma",
   onem:3, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Kāsımî hanedanının kurucusu İmam el-Mansûr Kāsım b. Muhammed ile Osmanlı beylerbeyi Câfer Paşa arasında on yıllık bir barış anlaşması imzalandı — imamet artık Osmanlı idaresiyle resmî düzeyde pazarlık edebilecek kadar güçlenmişti.",
   kaynak:"TDV `yemen`: 'İmam Kāsım b. Muhammed’le olan anlaşmazlık ise yapılan on senelik bir antlaşma ile çözümlendi (1608).'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
-{ taraflar:["yemen-zeydi"], t:"1619-01-01", b:"Mehmed Paşa - Zeydîler arasında ikinci on yıllık antlaşma", tur:"antlasma",
+{ odak_yer:["Sana","Şehâre"], taraflar:["yemen-zeydi"], t:"1619-01-01", b:"Mehmed Paşa - Zeydîler arasında ikinci on yıllık antlaşma", tur:"antlasma",
   onem:3, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"İlk antlaşmanın süresi dolunca beylerbeyi Mehmed Paşa ile Zeydî imamet arasında yeni bir on yıllık barış imzalandı; ama bu kez denge imametten yanaydı — bir sonraki imam Müeyyed döneminde barış tek taraflı bozulacaktı.",
@@ -170,7 +170,7 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Haydar Paşa'nın San'a'yı tutamayıp geri çekilmesiyle eş zamanlı olarak Taiz de imamet kuvvetlerinin eline geçti; Osmanlı idaresi artık yalnızca kıyı şeridine ve birkaç iç kaleye sıkışmıştı.", ic_not_d:"Tarih yerlesimler.js'teki Taiz kaydıyla (1629-01-01) birebir örtüşüyor.",
   kaynak:"TDV `yemen`: 'Haydar Paşa 1038’de (1629) bir anlaşma ile San‘a’yı İmam Müeyyed’e bırakmak zorunda kaldı.' — data/yerlesimler.js Taiz kaydıyla çapraz doğrulandı." },
 
-{ taraflar:["yemen-zeydi"], t:"1630-08-01", b:"Kansu Paşa ile İmam Müeyyed arasında geçici anlaşma", tur:"antlasma",
+{ odak_yer:["Sana","Zebîd"], taraflar:["yemen-zeydi"], t:"1630-08-01", b:"Kansu Paşa ile İmam Müeyyed arasında geçici anlaşma", tur:"antlasma",
   onem:2, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Vezir ve serasker Kansu Paşa'nın kethüdâsı kuşatılıp zor durumda kalınca, Muharrem 1040'ta (Ağustos 1630) İmam Müeyyed ile geçici bir anlaşma yapıldı; ancak barış üç yıl sonra (1633) yeniden bozulacaktı — Osmanlı çekilişinin artık kaçınılmaz olduğunun işareti.",
@@ -188,7 +188,7 @@ window.KRONOLOJI_ARABISTAN = [
   d:"İmam Müeyyed'in ölümünün ardından Mütevekkil İsmâil b. Kāsım imam oldu ve 1676'ya kadar sürecek dönemde Kāsımî imametini Yemen'in neredeyse tamamına (Hadramut'a kadar) yayarak en geniş sınırlarına ulaştırdı — Zeydî imametin tarihindeki en güçlü dönemlerinden biri.",
   kaynak:"TDV `yemen`: 1644-1676: Mütevekkil İsmâil b. Kāsım hüküm sürdü.", yer_id:"Sana" },
 
-{ taraflar:["yemen-zeydi"], t:"1681-01-01", b:"Ahmed b. Hasan'ın nominal Osmanlı bağı iddiası", tur:"siyaset",
+{ odak_yer:["Sana"], taraflar:["yemen-zeydi"], t:"1681-01-01", b:"Ahmed b. Hasan'ın nominal Osmanlı bağı iddiası", tur:"siyaset",
   onem:2, dunya:1, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   yer_id:"",
   d:"Bir dönem imamet içi bir yönetici olan Ahmed b. Hasan, Yemen'i Osmanlı padişahı adına yönettiğini ileri sürdü — Osmanlı'nın fiilen yıllardır Yemen'de bulunmadığı bir dönemde bu iddianın pratikte bir karşılığı olmadığı, sembolik/diplomatik bir jest olduğu anlaşılıyor.",
@@ -216,13 +216,13 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Ahmed Muhtar Paşa'nın seferiyle San'a bu kez kesin olarak Osmanlı'nın eline geçti ve 1864 Tanzimat vilâyet düzenine göre bir Yemen vilâyeti kuruldu — imamet, 1918'e kadar sürecek 46 yıllık ikinci ve son doğrudan Osmanlı hâkimiyeti dönemine girdi.", ic_not_d:"Tarih yerlesimler.js'teki San'a kaydıyla (1872-04-01) birebir örtüşüyor.",
   kaynak:"TDV `yemen`: 1871: Ahmed Muhtar Paşa San'a'yı aldı, vilâyet düzeni kurdu. — data/yerlesimler.js Sana kaydıyla (1872-04-01) çapraz doğrulandı; bir yıllık fark TDV'nin sefer başlangıcı/şehrin düşüşü ayrımından kaynaklanıyor olabilir, ÇÖZÜLMEDİ." },
 
-{ taraflar:["yemen-zeydi"], t:"1889-01-01", b:"Zeydîler isyan etti", tur:"isyan",
+{ odak_yer:["Sana","Sa'de"], taraflar:["yemen-zeydi"], t:"1889-01-01", b:"Zeydîler isyan etti", tur:"isyan",
   onem:3, dunya:1, kapsam:"ic", etiket:["isyan","konu-isyan"],
   yer_id:"",
   d:"Vilâyet idaresine karşı yaygın bir Zeydî ayaklanması patlak verdi; imamet hattı, doğrudan Osmanlı idaresi altında bile direniş kapasitesini korumaya devam ediyordu.",
   kaynak:"TDV `yemen`: 'Ancak bölgede görev yapan Osmanlı memurlarının yetersiz kalması ve idarî işlerde âdil davranılmaması yüzünden 1889’da Yemen’i kendi imamlarının yönetmesini isteyen Zeydîler isyan etti.'", kapsam_genis:true },
 
-{ taraflar:["yemen-zeydi"], t:"1895-01-01", b:"Hüseyin Hilmi Paşa isyanı bastırdı", tur:"savas",
+{ odak_yer:["Sana","Sa'de"], taraflar:["yemen-zeydi"], t:"1895-01-01", b:"Hüseyin Hilmi Paşa isyanı bastırdı", tur:"savas",
   onem:2, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri","konu-isyan"],
   yer_id:"",
   d:"1889 isyanının uzantısı olan direniş, Hüseyin Hilmi Paşa'nın seferiyle bastırıldı; ama bastırma kalıcı olmayacak, yedi yıl sonra çok daha büyük bir ayaklanma (İmam Yahyâ'nınki) başlayacaktı.",
@@ -320,7 +320,7 @@ window.KRONOLOJI_ARABISTAN = [
   d:"II. Sultân'ın ölümüyle on iki yaşındaki oğlu II. Seyf imam ilan edildi; yaşının küçüklüğü kabile reisleri arasında sekiz yıl sürecek bir iç savaşı tetikledi ve imametin bu krizden zayıflamış çıkması, otuz yıl sonra hanedanın tamamen el değiştirmesinin zeminini hazırladı.",
   kaynak:"TDV `yarubiler`: 1720 - II. Sultân öldü; on iki yaşındaki oğlu II. Seyf'in yönetimi tartışmalar başlattı.", yer_kon:[23.39,57.42] },
 
-{ taraflar:["umman"], t:"1728-01-01", b:"İç savaş sona erdi, II. Seyf'in imameti kabul edildi", tur:"antlasma",
+{ odak_yer:["Nizva","Maskat"], taraflar:["umman"], t:"1728-01-01", b:"İç savaş sona erdi, II. Seyf'in imameti kabul edildi", tur:"antlasma",
   onem:2, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Sekiz yıllık iç çatışmanın ardından kabileler II. Seyf'in imametini nihayet kabul etti; ama barış kalıcı olmayacak, on beş yıl sonra imamet Ya'rubî hanedanının elinden tamamen çıkacaktı.",

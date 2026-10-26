@@ -16,7 +16,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
    "Roma"
   ]
  },
- {
+ {"odak_yer":["Regensburg"],
   "t": "-0669-01-01",
   "k": "gelisme",
   "b": "Hallstatt C -> D geçişi (Dietfurt Bayes modeli; geleneksel 616): Hallstatt C → D geçişi (14C modeli)",
@@ -37,7 +37,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 685–655 (kaynağın verdiği uçlar); orta nokta MÖ 670 = astronomik -0669. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.3 (kaynak 95.4 için 'kesinlikle 650'den önce' der). Kaynaktan okunan: «the HaC-HaD transition almost certainly occurred before 650 cal BC, and most likely between 685 and 655 cal BC (68.3% probability)». ÇELİŞKİ (iki okul): geleneksel ~616 BC (Villingen-Schwenningen 'Magdalenenberg' Ha D1 dendro kesim tarihi; Friedrich & Hennig 1996, Parzinger 1989) vs 14C 685-655. Makale ayrıca 'Hallstatt dönemi c.800-450 BC' çerçevesini verir (Ha D3 / La Tène A sınırı olarak ~450 çerçeve bitişi). Bu çerçeve AYNI makalenin giriş ifadesidir; Ha D3/La Tène A sınırı için ayrı, dendro/14C'li bir kaynak BULUNAMADI. Kalibrasyon platosu 750-400 cal BC nedeniyle model yerel (Dietfurt) bir sonuçtur; coğrafi gecikme olasılığı makalede belirtilir."
  },
- {
+ {"odak_yer":["Roma"],
   "t": "-0751-01-01",
   "k": "kurulus",
   "b": "Roma'nın kuruluşu (YAZILI GELENEK tarihleri): Roma'nın kuruluşu (yazılı gelenek, Dionysios)",
@@ -68,7 +68,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 760 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «This fieldwork has brought to light a more or less uninterrupted habitation history of about 1460 years (from about 760 BC to about AD 700)». Docter vd. 2008 (Beyond the Homeland, Peeters, ss.379-422) 14C: hayvan kemiği örnekleri 9.-8. yy cal BCE aralığı veriyor ve 'geleneksel kuruluş tarihiyle güvenilir bağ kurulamıyor' diyor - bu özet YALNIZ arama sonucundan görüldü, kitap bölümü okunamadı -> kutuphane_gerekli. Utica tohum 14C'si (Maraoui Telmini vd.) okunmadı."
  },
- {
+ {"odak_yer":["Roma"],
   "t": "-0836-01-01",
   "k": "gelisme",
   "b": "Latium Vetus: Latial II -> III geçişi (geleneksel ~770 vs 14C yüksek kronoloji 850-825): Latium: Latial II → III geçişi (yüksek kronoloji)",
@@ -89,7 +89,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 850–825 (kaynağın verdiği uçlar); orta nokta MÖ 837 = astronomik -0836. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4 (Fidene kulübesi için yazarların 'en geç 820' sonucu). Kaynaktan okunan: «we propose to raise the absolute chronology for the transition from Latial period II to Latial period III by about 50 to 75 years, to the third quarter of the 9th century BC». ÇELİŞKİ (iki okul): geleneksel ~770 BC (Epilogue: 'Traditionally the transition from Latial period II to Latial period III is dated to around 770 BC') vs 14C 850-825. Makale ayrıca Yunan Geometrik (Thukydides çapalı) tarihlerinin değişmeden kalabileceğini, değişenin koloni bağlamı olduğunu söyler; Sindos (Gimatzidis & Weninger 2020) ile aynı yönde. OCR'li PDF'den okundu (Roma Latial II-III tablo sayısı doğrulandı: 'Castiglione' 3 aralık)."
  },
- {
+ {"odak_yer":["Selanik","Atina"],
   "t": "-0929-01-01",
   "k": "gelisme",
   "b": "Yunan Geometrik dönemi (14C ile yükseltilmiş mutlak tarihler): Orta Geometrik II başlar (Sindos 14C: geleneksel 800'e karşı 930)",

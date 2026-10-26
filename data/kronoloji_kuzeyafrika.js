@@ -253,7 +253,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Sâdîlerin en güçlü hükümdarı Ahmed el-Mansûr vebadan öldü; ardından yarım asra yakın sürecek, ülkeyi paramparça edecek bir taht kavgaları dönemi başladı.",
   kaynak:"TDV `sadiler`: 1012/1603'te Ahmed el-Mansûr'un vebadan ölümü" },
 
-{ taraflar:["sadi"], t:"1610-01-01", b:"Ülke Fas ve Merakeş emirlikleri olarak fiilen ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Fas (Fez)","Merakeş"], taraflar:["sadi"], t:"1610-01-01", b:"Ülke Fas ve Merakeş emirlikleri olarak fiilen ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","toprak-kayip","konu-askeri","konu-siyasi","konu-hanedan"],
   d:"On yıla yakın süren taht kavgalarının ardından ülke kuzeyde Fas, güneyde Merakeş merkezli iki ayrı emirliğe bölündü; bu bölünme hanedanın 1659'daki sonuna kadar sürdü.",
   kaynak:"TDV `sadiler`: Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi (1019/1610 dolayları)", odak_kimlik:["sadi"], kapsam_genis:true },
@@ -263,7 +263,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Son Sâdî hükümdarı Ahmed el-Abbas, Şebbâne liderleri tarafından öldürüldü; bir buçuk asırlık hanedan sona erdi. İktidar, Sûs'tan yükselen yeni bir şerif ailesine, Alevîlere (Filalîlere) geçecekti — bkz. [[fas]].",
   kaynak:"TDV `sadiler`: 1069/1659'da Ahmed el-Abbas'ın Şebbâne liderleri tarafından öldürülmesi; Sâdîler hânedanının sona ermesi" },
 
-{ taraflar:["sadi"], t:"1580-01-01", b:"Osmanlı ordu teşkilâtı örnek alınarak reform", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Merakeş","Fas (Fez)"], taraflar:["sadi"], t:"1580-01-01", b:"Osmanlı ordu teşkilâtı örnek alınarak reform", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["reform","konu-idari","konu-islahat"],
   d:"Abdülmelik ve Ahmed el-Mansûr döneminde Osmanlı'da tanınan idari deneyim örnek alınarak devlet teşkilâtlanması ve ordu (özellikle ateşli silah birlikleri) reformları yapıldı — ironik biçimde Osmanlı'ya karşı bağımsızlığını koruyan bir devlet, gücünü kısmen Osmanlı modelinden aldı.", ic_not_d:"⚠️ TDV yalnız \\\"Abdülmelik ve Ahmed el-Mansûr devrinde\\\" diyor, kesin yıl vermiyor; saltanat başlangıcı (1578) yaklaşık tarih olarak kullanıldı.",
   kaynak:"TDV `sadiler`: Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları", odak_kimlik:["sadi"], kapsam_genis:true },
@@ -273,7 +273,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Ahmed el-Mansûr, Tondibi zaferinin Sudan altınıyla finanse edilen görkemli Kasrü'l-bedî' Sarayı'nı Merakeş'te inşa ettirdi; saray, dönemin İber ve Osmanlı saraylarıyla rekabet eden bir güç gösterisiydi.", ic_not_d:"⚠️ TDV yalnız \\\"Ahmed el-Mansûr devrinde\\\" diyor; saltanatının ortası (1593) yaklaşık tarih olarak kullanıldı, gün doğrulanmadı.",
   kaynak:"TDV `sadiler`: Ahmed el-Mansûr devrinde Kasrü'l-bedî' Sarayı'nın Merakeş'te inşası" },
 
-{ taraflar:["sadi"], t:"1595-01-01", b:"Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Merakeş","Agadir"], taraflar:["sadi"], t:"1595-01-01", b:"Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Ahmed el-Mansûr döneminde Sâdîler, şeker ve Sudan altını ticareti üzerinden Fransa, İngiltere ve Hollanda ile doğrudan ticarî ilişkiler kurdu — Fas'ın Avrupa devletleriyle Osmanlı arabuluculuğu olmaksızın kurduğu ilk düzenli ilişkiler.", ic_not_d:"⚠️ TDV kesin yıl vermiyor, saltanatının sonu yaklaşık tarih olarak kullanıldı.",
   kaynak:"TDV `sadiler`: Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması", odak_kimlik:["sadi"], kapsam_genis:true },

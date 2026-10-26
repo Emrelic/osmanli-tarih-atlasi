@@ -66,7 +66,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 970–920 (kaynağın verdiği uçlar); orta nokta MÖ 945 = astronomik -0944. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (Bayes modeli 'en olasi baslangic' araligi). Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Bayesian chronological framework proposed by Petchey et al. indicates 2870–2920 BP as the most likely start date of occupation of the site». Birincil makale (Petchey vd. 2015) acilamadi; deger Camperio 2024'ten alintidir (ikincil). 2870-2920 'BP' - kalibre mi belirtilmemis; 2739-2879 BP ise tortu cekirdeginin ilk izi. Bismarck Takimadalari'ndaki erken Lapita Kamgot 3300-3000 BP (Horrocks vd. 2024, Parasitology/J Helminthol doi:10.1017/S0022149X23000998 ozeti) ve GB Yeni Gine'de Lapita-getirilmis hayvan/obsidyen 3480-3060 yil once (Shaw vd. 2022, Nat Ecol Evol 6:802-812, doi:10.1038/s41559-022-01735-w ozeti) - bunlar BP'dir, kalibre oldugu ozetten anlasilmiyor; MO'ya cevrilmedi."
  },
- {
+ {"odak_yer":["Yeni Gine İç Yaylaları (Merkez — Mount Hagen)"],
   "t": "-4744-01-01",
   "k": "kurulus",
   "b": "Kuk: hoyuk (mound) tarimi, Evre 2: başlar",
@@ -87,7 +87,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 5000–4490 (kaynağın verdiği uçlar); orta nokta MÖ 4745 = astronomik -4744. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynaktan okunan: «mounding cultivation began by 6950 to 6440 cal yr B.P. (phase 2)». 6950-6440 cal BP = 'en gec'; baslangic ucu degil sinir degeri. MO donusumu bizimdir."
  },
- {
+ {"odak_yer":["Yeni Gine İç Yaylaları (Merkez — Mount Hagen)"],
   "t": "-8114-01-01",
   "k": "ilk_anilis",
   "b": "Kuk Bataklığı (erken tarım alanı): başlar",

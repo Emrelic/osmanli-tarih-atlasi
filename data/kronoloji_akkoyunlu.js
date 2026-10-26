@@ -211,7 +211,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   d:"833 (1430) yılında esir tutulan Hâbil Kahire'de öldü. Hanedan üyesinin esarette ölmesi, iki yıl sonra imzalanacak Memlük tâbiiyet anlaşmasının zeminini hazırladı.",
   kaynak:"akkoyunlular" },
 
-{ t:"1431-01-01", b:"Memlükler'e tâbi kalma şartıyla barış yapıldı", gun:"H. 834 / 1431", ic_not_gun:"H. 834 / 1431 — yıl hassasiyeti · TDV `akkoyunlular`, `uzun-hasan`, `karakoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"antlasma",
+{ odak_yer:["Diyarbakır","Kahire"], t:"1431-01-01", b:"Memlükler'e tâbi kalma şartıyla barış yapıldı", gun:"H. 834 / 1431", ic_not_gun:"H. 834 / 1431 — yıl hassasiyeti · TDV `akkoyunlular`, `uzun-hasan`, `karakoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"antlasma",
   onem:4, dunya:1, kapsam:"dis", etiket:["antlasma","tabiiyet","memluk","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"834 (1431) yılında Akkoyunlu, Memlükler'e bağlı kalma şartıyla barış yaptı. Hanedanın resmen bir başka devletin tâbiiyetine girdiği bu anlaşma, Uzun Hasan'ın bağımsız imparatorluk kuracağı dönemin ne kadar uzaktan başladığını gösterir. İmparatorluk çapında bir siyasî statü değişimi olduğu için belirli bir yere bağlanmadı.",
@@ -343,7 +343,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   d:"875 (1470) yılında Bağdat ele geçirildi. Irak'ın merkezi, üç yıl önce Karakoyunlu'nun elindeyken şimdi Akkoyunlu'nundur; Uzun Hasan'ın imparatorluğu bu fetihle Basra körfezine açılan ticaret yollarını da kapsar hâle geldi.",
   kaynak:"akkoyunlular" },
 
-{ t:"1472-01-01", b:"Venedik'e elçi gönderildi — ateşli silâh talebi", gun:"H. 877 / 1472", ic_not_gun:"H. 877 / 1472 — yıl hassasiyeti · TDV `uzun-hasan`, `akkoyunlular`, `karakoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"siyaset",
+{ odak_yer:["Tebriz","Venedik"], t:"1472-01-01", b:"Venedik'e elçi gönderildi — ateşli silâh talebi", gun:"H. 877 / 1472", ic_not_gun:"H. 877 / 1472 — yıl hassasiyeti · TDV `uzun-hasan`, `akkoyunlular`, `karakoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"siyaset",
   onem:5, dunya:3, kapsam:"dis", etiket:["siyaset","ittifak","teknoloji","venedik","osmanli","konu-siyasi","konu-diplomasi","konu-bilim"],
   yer_id:"",
   d:"877 (1472) yılında Uzun Hasan, Hacı Muhammed'i elçi olarak Venedik'e göndererek ateşli silâh istedi. Bir Türkmen hükümdarının Osmanlı'ya karşı Avrupa'dan top ve tüfek talep etmesi, Otlukbeli'nde belirleyici olacak teknoloji farkının Akkoyunlu tarafından da GÖRÜLDÜĞÜNÜ kanıtlar; sorun bilgisizlik değil, silâhların zamanında ulaşmamasıydı. İmparatorluk çapında bir dış siyaset kararı olduğu için belirli bir yere bağlanmadı.",
@@ -355,7 +355,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   d:"Rebîülevvel 877 (Ağustos 1472) ayında Uzun Hasan'ın sürgündeki Karamanoğlu şehzadelerini desteklemek için gönderdiği yirmi bin kişilik kuvvetin bir kolu, Osmanlı Anadolu Beylerbeyi Koca Dâvud Paşa tarafından Eflâtunpınarı'nda bozguna uğratıldı. Otlukbeli'nden bir yıl önceki bu yenilgi, Osmanlı ordusunun üstünlüğünün ilk somut işaretiydi.", ic_not_d:"⚠️ Eflâtunpınarı'nın atlas kaydı YOKTUR.",
   kaynak:"otlukbeli-savasi · uzun-hasan" },
 
-{ t:"1473-02-01", b:"Venedik on altı top ve bin tüfek gönderdi — hiçbiri ulaşmadı", gun:"Şubat 1473 — ay hassasiyeti · ay TDV'de var, gün yok (`uzun-hasan`, `akkoyunlular`, `karakoyunlular`)", tur:"teknoloji",
+{ odak_yer:["Venedik","Tebriz"], t:"1473-02-01", b:"Venedik on altı top ve bin tüfek gönderdi — hiçbiri ulaşmadı", gun:"Şubat 1473 — ay hassasiyeti · ay TDV'de var, gün yok (`uzun-hasan`, `akkoyunlular`, `karakoyunlular`)", tur:"teknoloji",
   onem:5, dunya:2, kapsam:"dis", etiket:["teknoloji","ittifak","venedik","askeri","konu-askeri","konu-diplomasi","konu-bilim"],
   yer_id:"",
   d:"Şubat 1473'te Venedik, Uzun Hasan'ın talebi üzerine on altı top ve bin tüfeği gemiyle yola çıkardı; sevkiyat Akkoyunlu'ya HİÇ ULAŞMADI. Altı ay sonra Otlukbeli'nde Akkoyunlu ordusu tam da bu silâhların yokluğu yüzünden Osmanlı topçusu karşısında çözüldü.", ic_not_d:"📌 Bu madde, bir savaşın sonucunu belirleyen şeyin bazen savaş alanında değil bir lojistik başarısızlıkta olduğunu gösterdiği için ayrı yazıldı.",
@@ -473,7 +473,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   d:"904 (1499) yılında Aziz Kendi'de yapılan savaşta Muhammedî Mirza galip geldi ve İbe Sultan öldü.", ic_not_d:"⚠️ Aziz Kendi'nin atlas verisinde yerleşim kaydı YOKTUR.",
   kaynak:"akkoyunlular" },
 
-{ t:"1500-01-01", b:"DEVLET RESMEN İKİYE BÖLÜNDÜ — Elvend ve Murad", gun:"H. 905 / 1500", ic_not_gun:"H. 905 / 1500 — yıl hassasiyeti · TDV `akkoyunlular`, `uzun-hasan`, `karakoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"siyaset",
+{ odak_yer:["Diyarbakır","Tebriz","Şiraz","Kirman"], t:"1500-01-01", b:"DEVLET RESMEN İKİYE BÖLÜNDÜ — Elvend ve Murad", gun:"H. 905 / 1500", ic_not_gun:"H. 905 / 1500 — yıl hassasiyeti · TDV `akkoyunlular`, `uzun-hasan`, `karakoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"siyaset",
   onem:5, dunya:1, kapsam:"ic", etiket:["siyaset","ic-savas","donum-noktasi","konu-askeri","konu-siyasi","konu-isyan"],
   yer_id:"",
   d:"905 (1500) yılında Akkoyunlu Devleti resmen ikiye ayrıldı: Elvend'e Âmid, Azerbaycan ve Arrân; Murad'a Irakeyn, Kirman ve Fars düştü.", ic_not_d:"🔴 Bu bölünme, bir yıl sonra Şah İsmâil'in iki parçayı ayrı ayrı yenmesini mümkün kıldı — birleşik bir Akkoyunlu ordusu karşısında Safevî hareketinin başarı şansı çok daha düşük olurdu. İmparatorluk çapında bir yapı değişimi olduğu için belirli bir yere bağlanmadı.",
@@ -513,19 +513,19 @@ window.KRONOLOJI_AKKOYUNLU = [
 
 // ───────────────────────── KÜLTÜR · İLİM · MİMARÎ · HUKUK · İKTİSAT
 
-{ t:"1452-09-01", b:"HASAN PADİŞAH KANUNLARI — Akkoyunlu vergi kanunnâmesi", gun:"Uzun Hasan devri", tur:"hukuk",
+{ odak_yer:["Diyarbakır"], t:"1452-09-01", b:"HASAN PADİŞAH KANUNLARI — Akkoyunlu vergi kanunnâmesi", gun:"Uzun Hasan devri", tur:"hukuk",
   onem:5, dunya:3, kapsam:"ic", etiket:["hukuk","idari","ekonomi","reform","konu-idari","konu-hanedan","konu-ekonomi","konu-islahat","konu-hukuk"],
   yer_id:"", kapsam_genis:true,
   d:"Uzun Hasan, 'Hasan Padişah Kanunları' adıyla bilinen bir vergi kanunnâmesi düzenletti; çiftçiden, esnaftan, sanatkârdan ve tüccardan alınan vergilerin âdil biçimde tarh ve tahsili esasına dayanıyordu. Bu kanunnâmenin önemi Akkoyunlu'yu aşar: Osmanlılar doğu eyaletlerinde fetihten sonra uzun süre bu kanunları uygulamayı sürdürdü, Safevîler de İran'da uzun süre kullandı. Yani hanedan yıkıldıktan sonra da hukuku yaşadı — Akkoyunlu'nun en kalıcı eseri bir kale ya da cami değil, bir vergi düzenidir.", ic_not_d:"TARİH HAKKINDA: kaynak kanunnâmenin çıkarılış yılını vermiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı. Bu bir TERCİHTİR, ölçüm değildir.",
   kaynak:"uzun-hasan · akkoyunlular" },
 
-{ t:"1452-09-01", b:"'Hasanbegî' sikkesi bastırıldı", gun:"Uzun Hasan devri", tur:"ekonomi",
+{ odak_yer:["Diyarbakır"], t:"1452-09-01", b:"'Hasanbegî' sikkesi bastırıldı", gun:"Uzun Hasan devri", tur:"ekonomi",
   onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","idari","para","konu-idari","konu-ekonomi"],
   yer_id:"", kapsam_genis:true,
   d:"Uzun Hasan, iki akçe değerinde 'hasanbegî' adlı sikkeler bastırdı. Kendi adını taşıyan bir para birimi çıkarmak, Memlük tâbiiyetinden çıkan hanedanın egemenlik iddiasının iktisadî ilânıdır.", ic_not_d:"TARİH HAKKINDA: kaynak basım yılını vermiyor; madde iktidara geliş tarihine bağlandı, bir tercihtir.",
   kaynak:"uzun-hasan" },
 
-{ t:"1452-09-01", b:"Bayındır damgası devlet arması yapıldı — Oğuz soy iddiası", gun:"Uzun Hasan devri", tur:"kultur",
+{ odak_yer:["Diyarbakır"], t:"1452-09-01", b:"Bayındır damgası devlet arması yapıldı — Oğuz soy iddiası", gun:"Uzun Hasan devri", tur:"kultur",
   onem:4, dunya:1, kapsam:"ic", etiket:["kultur","siyaset","sosyal","kimlik","konu-siyasi","konu-kultur","konu-sosyal"],
   yer_id:"", kapsam_genis:true,
   d:"Uzun Hasan, Oğuz Han ve Bayındır Han soyundan gelişini vurguladı ve Bayındır damgasını sikkelerde, belgelerde ve sancaklarda kullanılan devlet arması hâline getirdi. Bir Türkmen konfederasyonunun kendini boy şeceresiyle meşrulaştırması, İslâm dünyasında hanedan meşruiyetinin İslâmî olduğu kadar SOY temelli de kurulabildiğini gösterir.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; iktidara geliş tarihine bağlandı, bir tercihtir.",
@@ -549,7 +549,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   d:"Uzun Hasan, kendi yaptırdığı Nasriyye bahçesine defnedildi. Hükümdarın kendi ölümünden önce defnedileceği yeri inşa ettirmesi, Akkoyunlu'nun Tebriz'i yalnız fethedilmiş bir şehir değil hanedanın kalıcı yurdu saydığını gösterir.", ic_not_d:"Nasriyye bahçesinin atlas verisinde ayrı bir kaydı yoktur; `yer_id` şehre verildi.",
   kaynak:"uzun-hasan" },
 
-{ t:"1452-09-01", b:"Cami, medrese, zâviye ve kervansaray imar programı", gun:"Uzun Hasan devri", tur:"mimari",
+{ odak_yer:["Diyarbakır","Tebriz"], t:"1452-09-01", b:"Cami, medrese, zâviye ve kervansaray imar programı", gun:"Uzun Hasan devri", tur:"mimari",
   onem:4, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","ekonomi","imar","konu-ekonomi","konu-din","konu-kultur","konu-imar","konu-egitim"],
   yer_id:"", kapsam_genis:true,
   d:"Uzun Hasan cami, medrese, zâviye ve kervansaray olmak üzere birçok eser yaptırdı. Bu eserlerin BÜYÜK KISMI GÜNÜMÜZE ULAŞMADI: Safevîler Tebriz'deki Akkoyunlu yapılarının çoğunu KASITLI olarak yıktı. Bir hanedanın mimarî mirasının ardılı tarafından bilerek silinmesi, Akkoyunlu'nun bugün Karakoyunlu'dan (Gökmescid ayakta) daha az görünür olmasının sebebidir — yani kaynak azlığı bir tesadüf değil, bir siyasetin sonucudur.", ic_not_d:"TARİH HAKKINDA: kaynak tek tek yapıların tarihini vermiyor; imar programı iktidara geliş tarihine bağlandı, bir tercihtir.",

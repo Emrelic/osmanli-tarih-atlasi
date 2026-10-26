@@ -57,7 +57,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «Around or shortly after 1200 bc, the Hittite Empire and central administrative system collapsed.». 1. dalga kaydı 'hattusa-cokus' (1198-1196) KURAKLIK penceresidir, terk tarihi DEĞİLDİR; bu okuma onu doğrular ve netleştirir: atlas bitişi için ≈1200 (kaynağın ifadesi) kullanılmalı, 1198-1196 'kuraklık' diye etiketlenmeli. Aynı makale ('Discussion') nedensellik için 'lack the evidence' der. Terk tarihi yılı Seeher/Schachner'in DAI Boğazköy 14C veri setinde (repo.dainst.org) ve AA/MDOG'da — okunamadı (kutuphane_gerekli)."
  },
- {
+ {"odak_yer":["Hattuşa"],
   "t": "-1206-01-01",
   "k": "kurulus",
   "b": "II. Şuppiluliuma (son bilinen Hitit kralı) — tahta çıkışı: II. Şuppiluliuma tahta çıkar (son Hitit kralı)",
@@ -109,7 +109,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
    "Hattuşa"
   ]
  },
- {
+ {"odak_yer":["Truva yöresi (Tevfikiye)"],
   "t": "-1749-01-01",
   "k": "kayip",
   "b": "Troya V ve Troya VI başı (VIa): Troya V sonu / VI başı (uzlaşı değeri)",
@@ -124,7 +124,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «c. 1750 cal BC for the end of Troy V/beginning of Troy VI». ÇELİŞKİ (aynı makalede): Easton-Weninger modeli VIa başlangıcı için 1820±20 cal BC verir; Pavúk (2014: 394-396, 404) 1780/1750 önerir, yazarlar bunu 'belki de daha olası' sayar. VIa'nın geç evresi 1714±13 cal BC (Pavúk 2020'nin Seramik Evre 1 sonu c. 1720 ile uyumlu). VIa için yalnız 3 kısa-ömürlü örnek var, model 'far from final'. Blegen VI başlangıcını c. 1900 BC koymuştu."
  },
- {
+ {"odak_yer":["Truva yöresi (Tevfikiye)"],
   "t": "-1915-01-01",
   "k": "gelisme",
   "b": "Troya V ve Troya VI başı (VIa): Troya Va evresi (tek örnek)",
@@ -145,7 +145,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1916–1877) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «it lies in the region 1916-1877 cal BC». ÇELİŞKİ (aynı makalede): Easton-Weninger modeli VIa başlangıcı için 1820±20 cal BC verir; Pavúk (2014: 394-396, 404) 1780/1750 önerir, yazarlar bunu 'belki de daha olası' sayar. VIa'nın geç evresi 1714±13 cal BC (Pavúk 2020'nin Seramik Evre 1 sonu c. 1720 ile uyumlu). VIa için yalnız 3 kısa-ömürlü örnek var, model 'far from final'. Blegen VI başlangıcını c. 1900 BC koymuştu."
  },
- {
+ {"odak_yer":["Truva yöresi (Tevfikiye)"],
   "t": "-1929-01-01",
   "k": "kayip",
   "b": "Troya 'Proto-IV' (varsayım) ve Troya IV: Troya IV evresi sona erer (veya daha geç)",
@@ -160,7 +160,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1930 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «bringing the end of Troy IV to 1930±10 cal BC or later». 'Proto-IV' kazı bulgusuyla DOĞRUDAN doğrulanmamıştır (yazarlar 'plausible' der). Troya IV'ün 1990 sonrasına inmesi, EH III ile yaygın senkronizmaya aykırıdır; yazarlar buna itiraz eder (aynı makale, s.399)."
  },
- {
+ {"odak_yer":["Truva yöresi (Tevfikiye)"],
   "t": "-2059-01-01",
   "k": "gelisme",
   "b": "Troya 'Proto-IV' (varsayım) ve Troya IV: Troya IV evresi başlar",
@@ -175,7 +175,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2060 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Troy IV beginning 2060±10 cal BC». 'Proto-IV' kazı bulgusuyla DOĞRUDAN doğrulanmamıştır (yazarlar 'plausible' der). Troya IV'ün 1990 sonrasına inmesi, EH III ile yaygın senkronizmaya aykırıdır; yazarlar buna itiraz eder (aynı makale, s.399)."
  },
- {
+ {"odak_yer":["Truva yöresi (Tevfikiye)"],
   "t": "-2169-01-01",
   "k": "kayip",
   "b": "Troya II sonu / Troya III (Erken Tunç Çağı): Troya III evresi sona erer",
@@ -190,7 +190,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2170 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «period ends 2170±10 cal BC, as already proposed». Tübingen şemasında Troya III başlangıcı c. 2340 cal BC'dir (aynı makale); fark yazarlarca belirtilir. 2170'in Tübingen/Blum 2012 ve Pernicka 2014 ile uyumlu olduğu yazılıdır. Hata değerleri ±10 yıla YUVARLANMIŞTIR (kaynak notu 2)."
  },
- {
+ {"odak_yer":["Truva yöresi (Tevfikiye)"],
   "t": "-2266-01-01",
   "k": "gelisme",
   "b": "Troya II sonu / Troya III (Erken Tunç Çağı): Troya III evresi başlar",
@@ -205,7 +205,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2267 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Troy III begins 2267±10 cal BC». Tübingen şemasında Troya III başlangıcı c. 2340 cal BC'dir (aynı makale); fark yazarlarca belirtilir. 2170'in Tübingen/Blum 2012 ve Pernicka 2014 ile uyumlu olduğu yazılıdır. Hata değerleri ±10 yıla YUVARLANMIŞTIR (kaynak notu 2)."
  },
- {
+ {"odak_yer":["Truva yöresi (Tevfikiye)"],
   "t": "-2919-01-01",
   "k": "kurulus",
   "b": "Troya I (Hisarlık, Erken Tunç Çağı başı): Troya Ia evresi başlar (Weninger 1995)",
@@ -220,7 +220,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2920 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «the age of Troy Ia can be narrowed down to ca. 2920 cal BC, simply on the basis of the 14C dates». Aynı makale Troya Ib/Ic için 226 halkalı yakılmış odundan dendro-wiggle-match 'cutting date' 2699±15 cal BC (±1 evre) verir (Korfmann & Kromer 1993, Studia Troica 3'ten aktarma; ilk elden okunmadı). Makale kendi eğri-eşleme sonucuyla bu seri arasında 20-100 yıl fark olduğunu, 'old wood' etkisiyle açıkladığını yazar. Troya Ia için tek-değer kaynağın kendi iddiasıdır, 14C kalibrasyon platosu nedeniyle ±50 yıl dolayı geçerlidir. Troya I'in BİTİŞ tarihi bu makalede sayı olarak okunamadı (Fig. 8 grafikte)."
  },
- {
+ {"odak_yer":["Limasol"],
   "t": "-9149-01-01",
   "k": "ilk_anilis",
   "b": "Klimonas ve Shillourokambos (Kıbrıs, Erken Aseramik Neolitik): Kıbrıs'ta ilk yerleşik köyler (Klimonas)",

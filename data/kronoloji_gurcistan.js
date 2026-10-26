@@ -89,31 +89,31 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"bulunamadı — TDV bu konuyu (Hıristiyan Gürcü edebiyatı) kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi) — tarih YAKLAŞIK olarak işaretlidir" },
 
 // === B) MOĞOL VE TİMUR İSTİLALARI (1231-1403) ================================
-{ t:"1231-01-01", b:"Moğol istilası başladı", tur:"isgal", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Tiflis","Gence"], t:"1231-01-01", b:"Moğol istilası başladı", tur:"isgal", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","isgal","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Moğol orduları 1231'de Gürcistan'a girdi; krallık bir asırdan uzun sürecek bir zayıflama ve parçalanma sürecine girdi. TDV'nin 'gurcistan' maddesi bu tarihi birebir veriyor.", ic_not_d:"(devletler.js künyesindeki 1220 tarihinden farklıdır, bu dosyada TDV'nin doğrudan verdiği tarih esas alındı)",
   kaynak:"gurcistan (TDV, madde: gurcistan — 'Moğollar 1231'de Gürcistan'a girdiler')" },
 
-{ t:"1386-01-01", b:"Timur'un birinci Gürcistan seferi", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
+{ odak_yer:["Tiflis"], t:"1386-01-01", b:"Timur'un birinci Gürcistan seferi", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","isgal","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Timur, 'üç yıllık sefer'i sırasında Gürcistan üzerinden Azerbaycan'a geçti; ülke bu geçişte ağır tahribata uğradı. TDV'nin 'gurcistan' maddesi Timur'un seferlerini dört ayrı tarihte (1386, 1399-1400, 1402, 1403) sayıyor; her biri ayrı madde olarak yazıldı.",
   kaynak:"gurcistan (TDV, madde: gurcistan)" },
 
-{ t:"1399-01-01", b:"Timur'un ikinci Gürcistan seferi (1399-1400)", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
+{ odak_yer:["Tiflis"], t:"1399-01-01", b:"Timur'un ikinci Gürcistan seferi (1399-1400)", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","isgal","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Timur'un art arda gerçekleştirdiği seferlerin ikincisi 1399-1400 yıllarına tarihlenir; krallığın toparlanma çabaları her seferinde yeniden kesintiye uğradı.",
   kaynak:"gurcistan (TDV, madde: gurcistan)" },
 
-{ t:"1402-01-01", b:"Timur'un üçüncü Gürcistan seferi", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
+{ odak_yer:["Tiflis"], t:"1402-01-01", b:"Timur'un üçüncü Gürcistan seferi", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","isgal","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Ankara Savaşı'nın kazanıldığı yıl Timur, doğuya dönerek Gürcistan'a üçüncü kez sefer düzenledi; imparatorluğun batı ve doğu cephelerindeki eş zamanlı harekâtı, dönemin en geniş askerî menzile sahip gücü olduğunu gösterir.",
   kaynak:"gurcistan (TDV, madde: gurcistan)" },
 
-{ t:"1403-01-01", b:"Timur'un dördüncü ve son Gürcistan seferi", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
+{ odak_yer:["Tiflis"], t:"1403-01-01", b:"Timur'un dördüncü ve son Gürcistan seferi", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","isgal","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Timur'un dördüncü seferi krallığın 15. yüzyıl başındaki çöküşünü kesinleştirdi; art arda dört istila, 1490'daki üçe bölünmenin doğrudan zeminini hazırladı.",
@@ -126,7 +126,7 @@ window.KRONOLOJI_GURCISTAN = [
   d:"Osmanlı Devleti, Gürcistan Krallığı'nın parçalanma sürecindeyken Karadeniz kıyısındaki Acaristan bölgesini (Batum ve çevresi) fethetti; bu, Osmanlı'nın Gürcü topraklarındaki ilk kalıcı kazanımıdır ve bir yüzyıl sonraki Çıldır Eyaleti genişlemesinin öncüsüdür.",
   kaynak:"gurcistan (TDV, madde: gurcistan — 'Acaristan (Batum) ve çevresi 1479'da fethedildi')" },
 
-{ t:"1490-01-01", b:"Krallığın Kartli, Kaheti ve İmereti'ye bölünmesi", tur:"bolunme", onem:5, dunya:2, kapsam:"ic",
+{ odak_yer:["Tiflis","Kutaisi","Telavi"], t:"1490-01-01", b:"Krallığın Kartli, Kaheti ve İmereti'ye bölünmesi", tur:"bolunme", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","bolunme","konu-siyasi"],
   yer_id:"", kapsam_genis:true,
   d:"I. Alexandre'ın (1412-1442) ölümünden sonraki veraset kavgaları krallığı üçe böldü: Kartli, Kaheti ve İmereti. TDV bölünmeyi kesin bir güne bağlamıyor, genel olarak Alexandre sonrası dönemi işaret ediyor; 1490 standart akademik tarihyazımının kabul ettiği kesinleşme tarihidir.",
@@ -144,7 +144,7 @@ window.KRONOLOJI_GURCISTAN = [
   d:"Gürcistan Krallığı'nın bölünmesiyle Kutaisi merkezli batı Gürcü krallığı İmereti ayrı bir siyasi varlık olarak doğdu; Kartli-Kaheti'nin aksine 1810'a kadar bağımsızlığını (giderek zayıflayan biçimde) sürdürecekti.",
   kaynak:"devletler.js imereti künyesi (bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak)" },
 
-{ t:"1555-05-29", b:"Amasya Antlaşması — Gürcistan'ın Osmanlı-Safevî nüfuz bölgelerine bölünmesi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Amasya","Kutaisi","Tiflis"], t:"1555-05-29", b:"Amasya Antlaşması — Gürcistan'ın Osmanlı-Safevî nüfuz bölgelerine bölünmesi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","diplomasi","toprak","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true, devletler:["OSMANLI","safevi","imereti","megrelya-prensligi","guria-prensligi","gurcistan"],
   d:"Osmanlı ile Safevî arasındaki ilk resmî barış antlaşması Gürcistan'ı da taksim etti: batısı (İmereti, Megrelya/Dadyan, Güryel ve Kartli'nin bir kısmı) Osmanlı, doğusu (Kaheti ve Kartli'nin çoğu) Safevî nüfuz bölgesi sayıldı. Gürcü tarafının hiç katılmadığı bu taksim, ülkenin kendi rızası dışında iki imparatorluk arasında paylaşılmasının ilk resmî belgesidir.",
@@ -174,7 +174,7 @@ window.KRONOLOJI_GURCISTAN = [
   d:"6 Cemâziyelevvel 987 (1 Temmuz 1579) tarihinde Atabegli Mustafa (Menûçihr) Paşa ilk beylerbeyi tayin edilerek Çıldır, Ardanuç, Şavşat, Oltu ve Ahıska'yı kapsayan yeni bir eyalet kuruldu. 17. yüzyıl başında on beş sancağa ve 656 tımarlı sipahiden oluşan yaklaşık 1800 kişilik bir güce ulaştı; Osmanlı'nın Gürcistan'daki idari varlığının kurumsal iskeletini oluşturdu.",
   kaynak:"cildir-eyaleti (TDV, madde: cildir-eyaleti — içerik okundu, 2026-08-22)" },
 
-{ t:"1590-03-21", b:"Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı Osmanlı'da kaldı", gun:"998 (1590)", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Tiflis","Tebriz","Şamahı"], t:"1590-03-21", b:"Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı Osmanlı'da kaldı", gun:"998 (1590)", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"On iki yıllık savaşı bitiren antlaşmayla Azerbaycan, Şirvan, Karabağ, Gürcistan'ın büyük kısmı ve Luristan'ın bir bölümü Osmanlı'ya bırakıldı; imparatorluk doğuda tarihinin en geniş sınırlarına ulaştı. Gürcü toprakları için bu, 1723'e kadar sürecek en yaygın Osmanlı hâkimiyeti dönemidir.", ic_not_d:"eski kaynak: ferhad-pasa-antlasmasi (TDV — müstakil maddesi yok, hükümleri luristan maddesinden derlenmiştir; zaten doğrulanmış, bkz. data/kronoloji_iran.js)",

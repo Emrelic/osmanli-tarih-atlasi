@@ -4996,7 +4996,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok: yıl (3. ay ay-güneş)."
  },
- {
+ {"odak_yer":["Goryeong (Daegaya)","Nanking (Nanjing)"],
   "t": "0479-01-01",
   "b": "Gaya (Garak) Kralı Hajji Güney Qi sarayına elçi gönderdi; 'Gaya Kralı' unvanı aldı",
   "tur": "siyaset",
@@ -7971,7 +7971,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1247 ve ~1270 (yıl)",
   "kesinlik": "yil"
  },
- {
+ {"odak_yer":["Samudra Pasai"],
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -9331,7 +9331,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Bana'nın övgüsü bir evlilik ittifakı bağlamındadır; Majumdar mübalağa payı olduğunu belirtir."
  },
- {
+ {"odak_yer":["Kalinganagara"],
   "t": "0583-01-01",
   "b": "II. Indravarman 'tüm Kalinga'nın efendisi' unvanıyla tahtta (Ganga yılı 87-91)",
   "tur": "hukumdar",
@@ -9822,7 +9822,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yazıtın tarih okuması belirsiz; Majumdar 'üçüncü çeyrek yedinci yüzyıl' der."
  },
- {
+ {"odak_yer":["Kalinganagara"],
   "t": "0679-01-01",
   "b": "Devendravarman tüm Kalinga'nın üstünlüğünü ilan etti (Ganga yılı 183-195)",
   "tur": "hukumdar",
@@ -10175,7 +10175,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "ÇELİŞKİ BEYANI: TDV 255/869, Majumdar IV 870 (Ya‘kūb'un Kâbil'i alması) — TDV esastır. ic_not_takvim: hicrî 255 (aritmetik, ±2 gün) 868-12-20…869-12-08; miladî 869 ile kesişimin ilk günü 0869-01-01. 'Kâbil'e kadar ilerledi' tam fethi mi göstermez; Kâbil yerleşimi yamasında hindu-sahiler son dilimi 0869'a kadar yazıldı.",
   "ic_not_takvim": "hicrî 255 = 868-12-20…869-12-08 (aritmetik, ±2 gün); kesişimin ilk günü 0869-01-01"
  },
- {
+ {"odak_yer":["Kalinganagara"],
   "t": "0893-01-01",
   "b": "IV. Devendravarman'ın Chidivalasa hibesi (Ganga yılı 397) — Ganga krallığı parçalanmaya gidiyor",
   "tur": "hukumdar",
@@ -10295,7 +10295,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çola kayıtlarının 1017 tarihi için bkz. Majumdar IV, Ceylon bölümü."
  },
- {
+ {"odak_yer":["Kalinganagara"],
   "t": "1038-04-09",
   "b": "Vajrahasta Anantavarman taç giydi: 'Büyük Gangalar'ın ilk kesin tarihi",
   "tur": "hukumdar",
@@ -10314,7 +10314,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "9 Nisan 1038 (Majumdar IV; Jülyen)",
   "kesinlik": "gun"
  },
- {
+ {"odak_yer":["Kalinganagara"],
   "t": "1078-01-01",
   "b": "Anantavarman Chodaganga Ganga tahtına anointed oldu",
   "tur": "hukumdar",
@@ -10353,7 +10353,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Toplantı yeri Kalasa'nın başkenti Srinagara. Chamba hanedanı 1087'den 1281'e süreklilik gösteriyor mu, bu oturumda kaynaklanmadı."
  },
- {
+ {"odak_yer":["Kalinganagara","Kattak (Cuttack)","Puri"],
   "t": "1118-01-01",
   "b": "Anantavarman tüm Orissa'yı Ganga krallığına kattı",
   "tur": "isgal",
@@ -10373,7 +10373,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Kesin yıl kaynakta yok; 1118 üst sınırdır. 'Kattak (Cuttack)', 'Puri' atlas yerleşimleri için bu kümede zincir yazılmadı."
  },
- {
+ {"odak_yer":["Kattak (Cuttack)","Gaur (Lakhnautî)"],
   "t": "1205-01-01",
   "b": "Muhammed Bahtiyar Cacnagar (Orissa) üzerine ordu gönderdi",
   "tur": "savas",
@@ -11424,7 +11424,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1093 (bilinen tarih)",
   "kesinlik": "yil"
  },
- {
+ {"odak_yer":["Simraungarh"],
   "t": "1097-01-01",
   "b": "Nanyadeva Tirabhukti'de (Mithila) Karnata hanedanını kurdu, başkent Simraungarh",
   "tur": "kurulus",
@@ -12155,7 +12155,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: Majumdar fetih yılını vermez; Mahadeva 1261'de tahta çıktı, saltanat sonu c.1271 (kaynakta okunmadı). MS1 künye t=1265 bu oturumda doğrulanamadı; 1271-01-01 üst sınır olarak alındı."
  },
- {
+ {"odak_yer":["Simraungarh","Katmandu"],
   "t": "1314-01-01",
   "b": "Chandesvara Nepal fethini kutlayıp Tulapurusha bağışı yaptı (1314); geleneksel tarih 1324",
   "tur": "savas",
@@ -13001,7 +13001,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "İlk sefer yılı 1248 alındı."
  },
- {
+ {"odak_yer":["Dhâr"],
   "t": "1250-01-01",
   "b": "Vaghela Visaladeva Dhara'yı yağmaladı",
   "tur": "savas",
@@ -13287,7 +13287,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok."
  },
- {
+ {"odak_yer":["Ranthambore"],
   "t": "1283-01-01",
   "b": "Hammira Ranthambhor tahtına çıktı",
   "tur": "hukumdar",
@@ -13327,7 +13327,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "BEYANLI: kesin yıl yok; Mahâvamsa olayı ölümden sonraya, Daladâ Sirita saltanatın sonuna koyar (Codrington); 1284 yaklaşık işaretidir."
  },
- {
+ {"odak_yer":["Gauhâtî (Guwahati)","Gaur (Lakhnautî)"],
   "t": "1290-01-01",
   "b": "Kamata Racası Durlabh Narayan: krallık Karatoya'dan Barnadi'ye uzanıyordu (13. yy sonu)",
   "tur": "hukumdar",
@@ -14477,7 +14477,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "833",
   "kesinlik": "yil"
  },
- {
+ {"odak_yer":["Ordu-Balık (Ordu-Baliq)","Beşbalık","Balasagun (Ak-Beşim)"],
   "onem": 5,
   "dunya": 3,
   "kapsam": "dis",
@@ -18146,7 +18146,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kaynak_turu": "arkeoloji",
   "ic_not": "TEK DEGER ('alrededor del 650'): aralik yazilmadi. Atlas kunyesi f=0800 (kaynak: Seshat/NatGeo, aday); ICANH Giraldo 2010 -> f<=0650 (kunye genisletme onerisi). 'Neguanje' donemi (200-1000/1100) ve 'Tairona donemi (1000-1600)' ICANH sinirlamasi ayri."
  },
- {
+ {"odak_yer":["Teyuna"],
   "t": "1200-01-01",
   "b": "Ciudad Perdida'nın bugün görünen taş teras ve duvarları inşa edilmeye başlar (1200-1600)",
   "tur": "siyaset",
@@ -18563,7 +18563,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "'c. 982' yaklaşık yıldır; atlas künyesi kuruluşu 985 alır (aynı kaynak '~985' der). Gün kaynakta yok."
  },
- {
+ {"odak_yer":["Cartwright (Sandwich Körfezi, Labrador)","St. John's (Newfoundland)"],
   "t": "1021-01-01",
   "b": "Norselilerin Yeni Fundland'da (L'Anse aux Meadows) bulunduğu kesinleşti: 1021",
   "tur": "siyaset",
@@ -18586,7 +18586,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "TEK DEĞER: kaynak yıl-doğruluğunda tek kesim yılı verir (MS 1021; χ² en iyi uyum, 1016-1026 arama aralığı içinde). aralik yazılmadı.",
   "ic_not": "Makale Newfoundland'daki Norse faaliyetini dater; bu faaliyetin Grönland yerleşimcilerinden çıktığı (Grönlendinga saga geleneği) bu makalede ayrıca kanıtlanmaz — taraf olarak norse-gronland yazıldı, çıkarımdır."
  },
- {
+ {"odak_yer":["Mataram (Lombok)"],
   "t": "1257-01-01",
   "b": "Samalas Yanardağı patlaması (1257–1258) Kuzey Atlantik'i soğutur",
   "tur": "siyaset",
@@ -18906,7 +18906,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "TEK DEĞER: kaynak 'at about 1100 CE' der; aralık verilmedi. aralik yazılmadı.",
   "ic_not": "ms1 künyesindeki 'kuruluş' maddesiyle aynı kaynak (Joyce 2016): çift teyit DEĞİL. Kodeks 1081 ↔ arkeoloji ≈1100 çelişkisi 1081 maddesinde beyanlı."
  },
- {
+ {"odak_yer":["La Centinela"],
   "t": "1201-01-01",
   "b": "Chincha Krallığı, Chincha Vadisi'ni 13. yüzyıldan itibaren denetler",
   "tur": "siyaset",
@@ -18949,7 +18949,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "TEK DEĞER: kaynak 'Around 1200 yr B.P.' der; aralık yok. BP→CE çevirisi 1950 esasıyla 750; yüzyıl hassasiyeti.",
   "ic_not": "BP→CE: 1950 − 1200 = 750 (cal BP esası; makale 'around' der). KÜLTÜREL EVRE ≠ konfederasyon: atlas künyesi f=1281 (girdi 1200) siyasî birimi tarif eder; arkeolojik 'Muisca dönemi' çok daha erkendir (BEYANLI YAKLAŞIKLIK; künye f önerisi RAPOR'da)."
  },
- {
+ {"odak_yer":["Santo Domingo","San Juan"],
   "t": "1200-01-01",
   "b": "Chican Ostionoid (Capá/Esperanza) çanak üslubu başlar: 'Taíno' dönemi çekirdeği (≈1200–1500)",
   "tur": "siyaset",
