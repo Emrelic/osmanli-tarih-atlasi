@@ -870,11 +870,11 @@
     },
     {
      "yol": "data/olaylar_sehir_ilk.js",
-     "sha": "76c0513bbc0b660d",
-     "bayt": 25890
+     "sha": "67dcdb9be13a8cfb",
+     "bayt": 26784
     }
    ],
-   "bayt": 227452
+   "bayt": 228346
   },
   {
    "paket": "data/paket_16.js",
@@ -1620,8 +1620,8 @@
     },
     {
      "yol": "data/kronoloji_cok_ukrayna.js",
-     "sha": "fd27dab13bee9f2d",
-     "bayt": 28775
+     "sha": "ac4a22a95a22a99a",
+     "bayt": 29132
     },
     {
      "yol": "data/kronoloji_cok_yunanistan.js",
@@ -1629,7 +1629,7 @@
      "bayt": 13985
     }
    ],
-   "bayt": 955932
+   "bayt": 956289
   }
  ]
 }
