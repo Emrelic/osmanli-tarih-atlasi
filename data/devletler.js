@@ -10349,7 +10349,7 @@ window.DEVLETLER = [
     { odak_yer:["Radom"], t:"1920-11-21", tur:"son", b:"UHC ordusu Zbruç'u geçip Polonya tarafından enterne edildi; hükûmet sürgüne gitti.", kaynak:"Encyclopedia of Ukraine, 'Army of the Ukrainian National Republic' (künyedeki alıntı)" }
   ] },
 { id:"tahiri", ad:"Tâhirîler (Yemen)", tur:"hanedanlik", bolge:"arabistan",
-  f:"1454-07-01", t:"1517-04-15",
+  f:"1454-07-01", t:"1538-08-03",
   ozet:"Yemen'de Resûlîler'den sonra hüküm süren Sünnî hanedan; Memlük seferinin ardından son hükümdar II. Âmir'in öldürülmesiyle sona erdi.",
   kaynak:"TDV `tahiriler--yemen`: 'Yemen'de Resûlîler'den sonra 1454-1517 yılları arasında hüküm süren Sünnî bir hânedan' · f: 'Aden'i ele geçirdiler (Receb 858/Temmuz 1454)' · t: 'el-Melikü'z-Zâfir II. Âmir öldürüldü (23 Rebîülevvel 923/15 Nisan 1517). … Böylece Tâhirîler hânedanına son verildi'. Öneren: KRONO-DOGU-ISLAM-0929 (+ KUNYE-DUNYA 'tahiriler').",
   not:"30 Eylül 2026 KUNYE-UYGULA-0930. f: AY hassasiyeti (Receb 858 = Temmuz 1454). Doğru TDV slug'ı `tahiriler--yemen` (`tahiriler` 302). Harita Zebîd'i `s:{d:\"yemen\"}` ile boyuyor — ayrı iş, künye haritayı değiştirmez.",

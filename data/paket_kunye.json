@@ -170,7 +170,7 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "a0d9b1795cd5cb78",
+     "sha": "fda891bc57bedd8f",
      "bayt": 5477336
     }
    ],
@@ -558,8 +558,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "47752317fd7d7f88",
-     "bayt": 1639672
+     "sha": "e732bec0c1fc2ba3",
+     "bayt": 1640585
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3196652
+   "bayt": 3197565
   },
   {
    "paket": "data/paket_14.js",
