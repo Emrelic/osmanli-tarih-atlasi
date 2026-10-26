@@ -8405,6 +8405,15 @@ olaylar.forEach(function (o, i) {
   div.innerHTML = '<div class="o-tarih">' + agRozetHtml + olayTarihYazi(o) + '</div>' +
                   '<div class="o-baslik"></div>';
   div.lastChild.textContent = o.b;
+  // Emre 26 Ekim 2026: devlet künyesi verilemeyen arkeolojik maddeler etiketle ayrışır.
+  if (o.etiket && o.etiket.indexOf("arkeoloji") >= 0) {
+    var arkRozet = document.createElement("span");
+    arkRozet.className = "o-arkeoloji-rozet";
+    arkRozet.title = "Arkeolojik bulgu — devlet künyesi yok";
+    arkRozet.textContent = "🏺 Arkeolojik";
+    arkRozet.style.cssText = "font-size:.72em;opacity:.75;margin-left:.5em;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap";
+    div.lastChild.appendChild(arkRozet);
+  }
   var duyguSpan = duyguSpanUret(o);
   if (duyguSpan) div.lastChild.appendChild(duyguSpan);
   // hatalar 14 md.1: "olay başlıklarının üzerine tıklayınca AYNI SÜTUNDA SAĞ ALTTA

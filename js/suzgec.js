@@ -395,7 +395,12 @@ var KONU_BASLIKLARI = [
   { id: "ulastirma",  ad: "Ulaştırma haberleşme altyapı",          etiket: "konu-ulastirma" },
   { id: "sanayi",     ad: "Sanayi tarım hayvancılık madencilik",   etiket: "konu-sanayi" },
   { id: "kesif",      ad: "Keşif ve icatlar",                      etiket: "konu-kesif" },
-  { id: "magazin",    ad: "Magazin",                               etiket: "konu-magazin" }
+  { id: "magazin",    ad: "Magazin",                               etiket: "konu-magazin" },
+  // Emre (26 Ekim 2026): devlet künyesi veremeyeceğimiz arkeolojik maddeler
+  // (`kaynak_turu:"arkeoloji"`, MÖ) varsayılan listede künyesiz görünüyordu — veride
+  // `etiket:["arkeoloji"]` vardı, süzgeçte başlığı yoktu. Yazılı kaynaklı MÖ maddeler
+  // (`kaynak_turu:"yazili"`) arkeolojik DEĞİLDİR, bu etiketi almaz.
+  { id: "arkeoloji",  ad: "Arkeolojik",                            etiket: "arkeoloji" }
 ];
 // "Afet" başlığının altı alt türü — üst etiket `afet`, her biri ayrıca seçilebilir.
 var AFET_ALT_TURLER = [
