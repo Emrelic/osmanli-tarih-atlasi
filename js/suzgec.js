@@ -400,8 +400,18 @@ var KONU_BASLIKLARI = [
   // (`kaynak_turu:"arkeoloji"`, MÖ) varsayılan listede künyesiz görünüyordu — veride
   // `etiket:["arkeoloji"]` vardı, süzgeçte başlığı yoktu. Yazılı kaynaklı MÖ maddeler
   // (`kaynak_turu:"yazili"`) arkeolojik DEĞİLDİR, bu etiketi almaz.
-  { id: "arkeoloji",  ad: "Arkeolojik",                            etiket: "arkeoloji" }
+  { id: "arkeoloji",  ad: "Arkeolojik",                            etiket: "arkeoloji" },
+  // Emre (26 Ekim 2026): yazılı kaynaklı antik maddeler (`kaynak_turu:"yazili"`, 616:
+  // MÖ + MS 1–700) ayrı başlık. Etiket VERİDE değil, burada türetilir (`etiketlerOf`).
+  { id: "antik-cag",  ad: "Antik çağ (yazılı kaynaklı)",           etiket: "antik-cag" }
 ];
+// Maddenin etiketleri: veridekiler + türetilen `antik-cag` (kaynak_turu "yazili").
+function etiketlerOf(o) {
+  var et = (o && o.etiket) || [];
+  if (typeof et === "string") et = [et];
+  if (o && o.kaynak_turu === "yazili" && et.indexOf("antik-cag") < 0) et = et.concat("antik-cag");
+  return et;
+}
 // "Afet" başlığının altı alt türü — üst etiket `afet`, her biri ayrıca seçilebilir.
 var AFET_ALT_TURLER = [
   { id: "afet-deprem",         ad: "Deprem" },
@@ -421,8 +431,7 @@ function baslikEtiketleri() {
 // secim: etiket dizisi ("konu-askeri", "afet-deprem" …). Boş/null → süzmez.
 function baslikGecer(o, secim) {
   if (!secim || !secim.length) return true;
-  var et = (o && o.etiket) || [];
-  if (typeof et === "string") et = [et];
+  var et = etiketlerOf(o);
   for (var i = 0; i < secim.length; i++) if (et.indexOf(secim[i]) >= 0) return true;
   return false;
 }
@@ -432,8 +441,7 @@ function baslikSayilari(olaylar) {
   var s = {}, tum = baslikEtiketleri();
   for (var i = 0; i < tum.length; i++) s[tum[i]] = 0;
   for (var j = 0; j < (olaylar || []).length; j++) {
-    var et = (olaylar[j] && olaylar[j].etiket) || [];
-    if (typeof et === "string") et = [et];
+    var et = etiketlerOf(olaylar[j]);
     for (var k = 0; k < et.length; k++) if (s.hasOwnProperty(et[k])) s[et[k]]++;
   }
   return s;
