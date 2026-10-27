@@ -1404,6 +1404,11 @@ BEYAN_EDILEN_BOSLUK = {
     # ve bunu SÖYLEYEN bir dal olmadan bayatlığı görünmez.
     ("Cenne (Djenné)", "1700-01-01", "1818-01-01"),
     ("Cenne (Djenné)", "1591-04-13", "1596-01-01"),
+    # Poti (Faş Kalesi) 1640-1724 — POSTIT-104 (Emre, a seçeneği): TDV fas--gurcistan
+    # kalenin 1640'ta İmereti/Guria/Megrelya birlikleriyle yıkıldığını söyler, yıkanların
+    # orayı aldığını söylemez; inşa kararı 1723-12-23, yeniden inşa Mart 1724. Aralıkta
+    # yerleşim YOK sayıldı (boşluk merdiveni ④), toprak komşu peteklere kalır.
+    ("Poti (Faş Kalesi)", "1640-01-01", "1724-03-01"),
     # 🔴 Timbuktu 1430-1468 — TEVÂRİK (TUAREG) DÖNEMİ, 13.879 gün.
     # Beyan ZATEN YAZILMIŞTI ve kaynaklıydı; düşüren şey kayıt değil ARAÇ oldu.
     #
