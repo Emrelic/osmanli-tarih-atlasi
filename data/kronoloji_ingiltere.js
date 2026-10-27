@@ -1915,6 +1915,48 @@ window.KRONOLOJI_INGILTERE = [
   onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kazanc","iskocya","ingiltere","konu-askeri"],
   yer_id:"",
   d:"Gloucester Dükü Richard (sonradan III. Richard) Ağustos 1482'de Berwick'i İskoçlardan aldı; kent o günden beri kesintisiz İngiliz topraklarıdır.",
-  kaynak:"Newcastle University Special Collections, «Berwick-upon-Tweed: The fortified town» https://blogs.ncl.ac.uk/speccoll/?p=2186 — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.7715,-2.0031], ic_not_t:"gün yalnız Ağustos 1482 (ay) kaynakta; yıla indirildi (TEYIT-KARAR-1014 ilkesi)" }
+  kaynak:"Newcastle University Special Collections, «Berwick-upon-Tweed: The fortified town» https://blogs.ncl.ac.uk/speccoll/?p=2186 — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.7715,-2.0031], ic_not_t:"gün yalnız Ağustos 1482 (ay) kaynakta; yıla indirildi (TEYIT-KARAR-1014 ilkesi)" },
+
+{ t:"1404-01-01", b:"Glyndŵr Aberystwyth ve Harlech kalelerini aldı", tur:"toprak-kazanc",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kazanc","ingiltere","galler","konu-askeri"],
+  yer_id:"",
+  d:"Owain Glyndŵr 1404'te Aberystwyth ve Harlech kalelerini ele geçirdi ve batı Galler'in hâkimi oldu; Harlech onun karargâhı ve ailesinin yurdu oldu.",
+  kaynak:"Dictionary of Welsh Biography, 'OWAIN GLYNDWR (c. 1354 - 1416)' https://biography.wales/article/s-OWAI-GLY-1354.html: 'The capture of Aberystwyth and Harlech in 1404 made him master of west Wales from sea to sea' — gün yok", yer_kon:[52.8606,-4.1089], ic_not_t:"yalnız yıl kaynakta; YYYY-01-01 (yıl hassasiyeti)" },
+
+{ t:"1409-01-01", b:"Aberystwyth ve Harlech İngilizlerce geri alındı; Glyndŵr toprağını yitirdi", tur:"toprak-kayip",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","ingiltere","galler","konu-askeri"],
+  yer_id:"",
+  d:"Uzun kuşatma ve sert kışın ardından Harlech 1409 başında, Aberystwyth ondan az önce İngilizlere teslim oldu; Glyndŵr'ün elinde tuttuğu son kaleler gitti, ailesi esir düştü.",
+  kaynak:"Dictionary of Welsh Biography, 'OWAIN GLYNDWR' https://biography.wales/article/s-OWAI-GLY-1354.html (kaybı yılsız anar: 'finally the loss of Aberystwyth and Harlech'); 1409 başı ikincil kaynaklardan (owain-glyndwr.wales; bazı kaynaklar 1408) — TDV dışı kaynak, akademik teyit bekler", yer_kon:[52.8606,-4.1089], ic_not_t:"1408 sonu / Şubat 1409 çelişkisi; gün yok, 1409-01-01 BEYANLI YAKLAŞIKLIK" },
+
+{ t:"1296-01-01", b:"Edinburgh Kalesi üç günlük kuşatmanın ardından İngilizlerin eline geçti", tur:"toprak-kayip",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","iskocya","ingiltere","konu-askeri"],
+  yer_id:"",
+  d:"I. Edward İskoçya seferinde Edinburgh Kalesi'ni üç günlük kuşatmadan sonra aldı; İngiliz garnizonu kaleyi 18 yıl elinde tuttu.",
+  kaynak:"World History Encyclopedia, 'Edinburgh Castle' https://www.worldhistory.org/Edinburgh_Castle/ ; Wikipedia 'Edinburgh Castle' — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189], ic_not_t:"kaynak yalnız Haziran 1296 (ay) verir; yıla indirildi (TEYIT-KARAR-1014)" },
+
+{ t:"1314-03-14", b:"Randolph Edinburgh Kalesi'ni gece baskınıyla geri aldı", tur:"toprak-kazanc",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kazanc","iskocya","konu-askeri"],
+  yer_id:"",
+  d:"Moray Kontu Thomas Randolph, 30 kişilik bir grupla Castle Rock'ın kuzey yamacından tırmanıp Edinburgh Kalesi'ni İngilizlerden geri aldı; Robert Bruce kalenin yıkılmasını emretti.",
+  kaynak:"World History Encyclopedia, 'Edinburgh Castle' https://www.worldhistory.org/Edinburgh_Castle/ (gün 14 Mart 1314, anlatı Barbour'a dayanır) — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189] },
+
+{ t:"1335-01-01", b:"İngilizler Edinburgh Kalesi'ni yeniden işgal edip tahkim etti", tur:"toprak-kayip",
+  onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","iskocya","ingiltere","konu-askeri"],
+  yer_id:"",
+  d:"İkinci Bağımsızlık Savaşı'nda III. Edward'ın kuvvetleri Edinburgh Kalesi'ni yeniden işgal edip tahkim etti.",
+  kaynak:"Wikipedia 'Edinburgh Castle' (1335) — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189], ic_not_t:"ay/gün kaynakta yok; yıl hassasiyeti" },
+
+{ t:"1341-01-01", b:"William Douglas Edinburgh Kalesi'ni İngilizlerden geri aldı", tur:"toprak-kazanc",
+  onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kazanc","iskocya","konu-askeri"],
+  yer_id:"",
+  d:"Liddesdale Lordu William Douglas, Edinburgh Kalesi'ni İngilizlerden geri aldı; İngiliz işgali altındaki İskoçya'nın merkezi yeniden İskoç eline geçti.",
+  kaynak:"Wikipedia 'Edinburgh Castle' (1341) — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189], ic_not_t:"ay/gün kaynakta yok; yıl hassasiyeti" },
+
+{ t:"1652-02-04", b:"Birlik Teklifi (Tender of Union) Edinburgh'da ilan edildi — İskoçya Cromwell'in Commonwealth'ine katıldı", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"dis", etiket:["siyaset","iskocya","ingiltere","konu-siyaset"],
+  yer_id:"",
+  d:"Dunbar ve Worcester'den sonra İskoçya askerî olarak boyun eğdi; Tender of Union Edinburgh mercat cross'ta ilan edildi. Birleşme ordonansı 12 Nisan 1654'te çıktı, 1660'a dek İskoçya İngiliz Commonwealth'inin parçası sayıldı.",
+  kaynak:"Wikipedia 'Scotland under the Commonwealth' https://en.wikipedia.org/wiki/Scotland_under_the_Commonwealth — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189] }
 
 ];

@@ -13236,6 +13236,17 @@ window.DEVLETLER = [
     { odak_yer:["Shrewsbury"], t:"1283-10-03", tur:"son", b:"Son prens Dafydd ap Gruffudd Shrewsbury'de idam edilir; Gwynedd İngiltere'ye geçer" }
   ]
 },
+{ id:"glyndwr-galler", ad:"Galler Prensliği (Owain Glyndŵr ayaklanması)", tur:"prenslik", bolge:"bati-avrupa",
+  f:"1400-09-16", t:"1415-01-01", baskent:"Harlech / Machynlleth", boya_gerekli:true,
+  ic_not_f:"Owain Glyndŵr'ün Galler Prensi ilanı (kronoloji_ingiltere.js 1400-09-16). Harita toprağı yalnız Aberystwyth ve Harlech'in elde tutulduğu 1404-1409 aralığında görünür; öteki yıllar bu iki kale dışında sahipli yerleşim noktası yoktur (beyanlı yaklaşıklık).",
+  ic_not_t:"Ayaklanmanın sönmesi (kronoloji_ingiltere.js 1415-01-01, yıl hassasiyeti). Toprak fiilen Aberystwyth ve Harlech'in 1409 başındaki kaybıyla bitti; DWB: 'After 1412 he is heard of no more'. Künye ucu sönümleme yılıdır, toprak ucu 1409'dur.",
+  ozet:"Owain Glyndŵr'ün 1400'de ilan ettiği Galler Prensliği; 1404'te Aberystwyth ve Harlech'in alınmasıyla 'batı Galler'in ustası' oldu, 1409 başında bu iki kalenin kaybıyla toprağını yitirdi.",
+  kaynak:"Dictionary of Welsh Biography — 'OWAIN GLYNDWR (c. 1354 - 1416)' — https://biography.wales/article/s-OWAI-GLY-1354.html ('The capture of Aberystwyth and Harlech in 1404 made him master of west Wales from sea to sea'). 1409 kaybı için DWB yıl vermez; erken 1409 bilgisi ikincil kaynaklardan (TDV dışı, akademik teyit bekler; R. R. Davies, The Revolt of Owain Glyn Dŵr, OUP 1995 aranmalı).",
+  kronoloji:[
+    { odak_yer:["Harlech"], t:"1404-01-01", tur:"siyaset", b:"Glyndŵr Aberystwyth ve Harlech kalelerini alır; batı Galler onun eline geçer" },
+    { odak_yer:["Harlech"], t:"1409-01-01", tur:"son", b:"Aberystwyth ve Harlech İngilizlerce geri alınır; Glyndŵr toprağını yitirir" }
+  ]
+},
 { id:"sicilya-emirligi", ad:"Sicilya Emirliği (Kelbîler ve ardıl mahallî emirlikler)", tur:"emirlik", bolge:"italya",
   f:"0947-01-01", t:"1091-01-01", baskent:"Palermo (Belerm)", boya_gerekli:true,
   alinti_f:"Fâtımî Halifesi Mansûr-Billâh’ın Benî Taberî isyanını bastırmak için Hasan b. Ali el-Kelbî’yi yarı müstakil idare yetkisi vererek Sicilya’ya göndermesi (335/947)",

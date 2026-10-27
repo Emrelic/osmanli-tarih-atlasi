@@ -4722,6 +4722,7 @@ BOYALAR = {
     "guatemala-kaptanligi": ("Guatemala Genel Kaptanlığı", "#24cca8"),
     "guney-osetya": ("Güney Osetya (fiilî)", "#2accd8"),
     "guney-sudan-ozerk-bolge": ("Güney Sudan Özerk Bölgesi (Addis Ababa Anlaşması)", "#aecc24"),
+    "glyndwr-galler": ("Galler Prensliği (Owain Glyndŵr ayaklanması)", "#c68a24"),
     "gwynedd": ("Gwynedd Krallığı / Galler Prensliği", "#2454c6"),
     "habsburg-hollandasi": ("Habsburg Hollandası (On Yedi Eyalet)", "#24b4c0"),
     "helvetik-cumhuriyeti": ("Helvetik Cumhuriyeti", "#6624cc"),
