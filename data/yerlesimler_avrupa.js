@@ -90,9 +90,22 @@ window.YERLESIMLER_AVRUPA = [
 // Galler: Gwynedd 1283'te (Edward I) İngiliz tacına geçti; 1281-1283 penceresi
 // iki yıl olduğu için sadeleştirildi, bkz. ILERLEME.
 { ad:"Cardiff", tur:"liman", lat:51.482, lon:-3.179, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"2000-12-31",d:"ingiltere"}] },
-{ ad:"Caernarfon", tur:"kale", lat:53.140, lon:-4.271, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"2000-12-31",d:"ingiltere"}] },
+{ ad:"Caernarfon", tur:"kale", lat:53.140, lon:-4.271, g:0, k:4, d:[], s:[
+  {f:"1281-01-01",t:"1283-10-03",d:"gwynedd",kaynak:"World History Encyclopedia, 'Caernarfon Castle' (worldhistory.org/Caernarfon_Castle): Caernarfon 'the seat of the Welsh royal court from 1115 CE until Edward's takeover'; 'Work began in the summer of 1283 CE.' Son sınır Aberffraw/Garth Celyn ile aynı 1283-10-03 (Dafydd ap Gruffudd'un idamı, kronoloji SINIR_NOKTA2); fiilî İngiliz işgali 1283 yazına iner (BEYANLI YAKLAŞIKLIK, sınır siyasî sonu izler). TDV dışı kaynak, elle doğrulama bekler."},
+  {f:"1283-10-03",t:"2000-12-31",d:"ingiltere"}] },
 // Man Adası — Manş ile İrlanda Denizi ortasında; noktasız kalırsa komşu peteğe emilir
-{ ad:"Douglas (Man)", tur:"liman", lat:54.150, lon:-4.482, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"2000-12-31",d:"ingiltere"}] },
+{ ad:"Douglas (Man)", tur:"liman", lat:54.150, lon:-4.482, g:0, k:3, d:[], s:[
+  {f:"1281-01-01",t:"1399-10-19",d:"iskocya",kaynak:"ZİNCİR Peel'den devralındı (Man Adası: Perth Antlaşması 1266 → İskoçya; 1399-10-19 IV. Henry'nin Percy'ye lordluk vermesi, kronoloji SINIR_NOKTA2). Douglas'ın o devirde yerleşim olarak varlığı kaynakla teyit EDİLMEDİ; ada bütünlüğü gereği Peel/Castletown ile aynı zincir. BEYANLI YAKLAŞIKLIK."},
+  {f:"1399-10-19",t:"1765-05-10",d:"ingiltere",kaynak:"ZİNCİR Peel'den devralındı (1399 Percy lordluğu → 1765 Revestment Act)."},
+  {f:"1765-05-10",t:"2000-12-31",d:"man-adasi",kaynak:"ZİNCİR Peel'den devralındı (Revestment Act 1765, kronoloji SINIR_NOKTA2)."}] },
+{ ad:"Berwick-upon-Tweed", tur:"sehir", lat:55.7715, lon:-2.0031, g:0, k:4, d:[], s:[
+  {f:"1281-01-01",t:"1296-01-01",d:"iskocya",kaynak:"Kronoloji 1296 'Berwick'in yağmalanması' (Kings and Queens of Britain, OUP, 'John Balliol'): Berwick İskoç kenti, I. Edward 1296'da aldı. Yıl hassasiyeti (gün 1296-03-30, TEYIT-KARAR-1014 ile yıla indirildi)."},
+  {f:"1296-01-01",t:"1318-01-01",d:"ingiltere",kaynak:"Kronoloji 1296 (Edward I aldı); İskoçlar Nisan 1318'de geri aldı (yıl hassasiyeti). Yardımcı kaynak: Newcastle Üniv. Özel Koleksiyonlar 'Berwick-upon-Tweed: The fortified town' (blogs.ncl.ac.uk/speccoll/?p=2186); TDV dışı, akademik teyit bekler."},
+  {f:"1318-01-01",t:"1333-07-20",d:"iskocya",kaynak:"İskoçlar Nisan 1318'de aldı; 1333-07-20 Halidon Hill (07-19) ertesi teslim. Kronoloji 1333-07-19 Halidon Hill. TDV dışı, akademik teyit bekler."},
+  {f:"1333-07-20",t:"1461-01-01",d:"ingiltere",kaynak:"Halidon Hill sonrası İngiliz; 1461'de Anjoulu Margaret İskoçlara devretti (NCL Özel Koleksiyonlar; yıl hassasiyeti). TDV dışı, akademik teyit bekler."},
+  {f:"1461-01-01",t:"1482-01-01",d:"iskocya",kaynak:"1461 Margaret of Anjou'nun devri → Ağustos 1482 Gloucester Dükü Richard'ın alışı (NCL Özel Koleksiyonlar). Kaynaklar 1461 devir / 1461-62 İskoç alışı diye ayrışıyor; yıl hassasiyeti. TDV dışı, akademik teyit bekler."},
+  {f:"1482-01-01",t:"2000-12-31",d:"ingiltere",kaynak:"Ağustos 1482 son İngiliz alışı (NCL Özel Koleksiyonlar). Yıl hassasiyeti."}],
+  kaynak:"Koordinat: kronoloji 1296 yer_kon [55.7715,-2.0031]. Sahiplik zinciri: The Kings and Queens of Britain (OUP) 'John Balliol' (1296) + Newcastle University Special Collections, 'Berwick-upon-Tweed: The fortified town', blogs.ncl.ac.uk/speccoll/?p=2186 (1318, 1333, 1461, 1482); TDV dışı kaynak, akademik teyit bekler." },
 
 // ── BRİTANYA: İskoçya (iskocya → 1707-05-01 birlik) ────────────────────────
 { ad:"Glasgow", tur:"sehir", lat:55.861, lon:-4.250, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"2000-12-31",d:"ingiltere"}] },

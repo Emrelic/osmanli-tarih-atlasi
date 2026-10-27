@@ -238,8 +238,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_ingiltere.js",
-     "sha": "b90218ab09f39c01",
-     "bayt": 197779
+     "sha": "c25003d3a6580979",
+     "bayt": 200055
     },
     {
      "yol": "data/kronoloji_fransa.js",
@@ -252,7 +252,7 @@
      "bayt": 101703
     }
    ],
-   "bayt": 420926
+   "bayt": 423202
   },
   {
    "paket": "data/paket_09.js",
@@ -568,8 +568,8 @@
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
-     "sha": "679a255ba86a480f",
-     "bayt": 307041
+     "sha": "e87fe25911a5f29e",
+     "bayt": 310026
     },
     {
      "yol": "data/yerlesimler_asya.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3207482
+   "bayt": 3210467
   },
   {
    "paket": "data/paket_14.js",

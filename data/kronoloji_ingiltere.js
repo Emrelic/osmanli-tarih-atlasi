@@ -1895,6 +1895,26 @@ window.KRONOLOJI_INGILTERE = [
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","kurulus","bolunme","irlanda","konu-siyasi"],
   yer_id:"Dublin",
   d:"Bir önceki yıl imzalanan İngiliz-İrlanda Antlaşması'nın öngördüğü geçiş sürecinin sonunda, Britanya İmparatorluğu içinde geniş özerkliğe sahip İrlanda Serbest Devleti resmen ilan edildi. Kuruluş, sekiz yüzyıla yakın süren İngiliz/Britanya hâkimiyetinin güney İrlanda'da fiilen sona erdiği andır; kuzeydeki altı vilayet Birleşik Krallık'ta kalmayı sürdürdü.",
-  kaynak:"el-kitabi" }
+  kaynak:"el-kitabi" },
+
+// ═════════════ Berwick el değiştirmeleri (haritadaki Berwick-upon-Tweed s: zinciri için, Değişmez 2) ═════════════
+
+{ t:"1318-01-01", b:"Berwick İskoçlarca geri alındı", tur:"toprak-kayip",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","iskocya","ingiltere","konu-askeri"],
+  yer_id:"",
+  d:"Robert Bruce'un kuvvetleri 1315'ten beri abluka altında tuttukları Berwick'i Nisan 1318'de ele geçirdi; 1296'dan beri İngiliz elinde olan kent İskoçya'ya döndü.",
+  kaynak:"Newcastle University Special Collections, «Berwick-upon-Tweed: The fortified town» https://blogs.ncl.ac.uk/speccoll/?p=2186 — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.7715,-2.0031], ic_not_t:"gün yalnız Nisan 1318 (ay) kaynakta; yıla indirildi (TEYIT-KARAR-1014 ilkesi)" },
+
+{ t:"1461-01-01", b:"Berwick, Anjoulu Margaret tarafından İskoçya'ya devredildi", tur:"toprak-kayip",
+  onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","iskocya","ingiltere","konu-askeri"],
+  yer_id:"",
+  d:"Güller Savaşları sırasında VI. Henry adına Anjoulu Margaret, İskoç yardımı karşılığında Berwick'i İskoçya'ya bıraktı; kent 1482'ye kadar İskoç elinde kaldı.",
+  kaynak:"Newcastle University Special Collections, «Berwick-upon-Tweed: The fortified town» https://blogs.ncl.ac.uk/speccoll/?p=2186 — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.7715,-2.0031], ic_not_t:"kaynaklar 1461 (devir) ve 1461-62 (İskoç alışı) diye ayrışıyor; yıl 1461 alındı" },
+
+{ t:"1482-01-01", b:"Berwick son kez İngilizlerce alındı (Gloucester Dükü Richard)", tur:"toprak-kazanc",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kazanc","iskocya","ingiltere","konu-askeri"],
+  yer_id:"",
+  d:"Gloucester Dükü Richard (sonradan III. Richard) Ağustos 1482'de Berwick'i İskoçlardan aldı; kent o günden beri kesintisiz İngiliz topraklarıdır.",
+  kaynak:"Newcastle University Special Collections, «Berwick-upon-Tweed: The fortified town» https://blogs.ncl.ac.uk/speccoll/?p=2186 — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.7715,-2.0031], ic_not_t:"gün yalnız Ağustos 1482 (ay) kaynakta; yıla indirildi (TEYIT-KARAR-1014 ilkesi)" }
 
 ];
