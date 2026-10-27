@@ -581,8 +581,8 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Viyana Kongresi düzeninde, kuzey ile güney Hollanda birleştirilerek Orange hanedanı altında bir krallık kuruldu. Amaç Fransa'nın kuzey sınırında güçlü bir tampon devletti; iki yüz yıllık cumhuriyet geleneği monarşiyle yer değiştirdi.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda Krallığı, ticarete dayanan Protestan kuzey bölgesiyle sanayiin hâkim olduğu Katolik güney bölgesini bir arada tutmak için büyük çaba harcadı\" · Dikkat: GÜN DOĞRULANMADI" },
 
-{ t:"1830-08-25", b:"Belçika'nın ayrılması", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","toprak-kayip","milliyetcilik","konu-askeri","konu-siyasi","konu-isyan"], yer_id:"Brüksel",
-  d:"Güney bölgesinde çıkan ayaklanma sonucunda Belçika bağımsızlığını ilan etti. Uzun mücadelelerden sonra Hollanda bu bağımsızlığı 1839'da tanımak zorunda kaldı; Protestan-ticarî kuzey ile Katolik-sınaî güneyi bir arada tutma denemesi on beş yılda çöktü.",
+{ t:"1830-08-25", b:"Brüksel ayaklanması — Belçika Devrimi'nin başlaması", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","toprak-kayip","milliyetcilik","konu-askeri","konu-siyasi","konu-isyan"], yer_id:"Brüksel",
+  d:"25 Ağustos 1830'da Brüksel'de başlayan ayaklanma güneye yayıldı; geçici hükûmet 4 Ekim 1830'da Belçika'nın bağımsızlığını ilan etti (harita bu ikinci günde döner). Uzun mücadelelerden sonra Hollanda bu bağımsızlığı 1839'da tanımak zorunda kaldı; Protestan-ticarî kuzey ile Katolik-sınaî güneyi bir arada tutma denemesi on beş yılda çöktü.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"1830 yılında çıkan bir ayaklanma sonucunda güney bölgesi Belçika adıyla bağımsızlığını ilân ederek Hollanda Krallığı'ndan ayrıldı. Uzun mücadelelerden sonra Hollanda bu bağımsızlığı tanımak zorunda kaldı (1839)\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1839-04-19", b:"Belçika bağımsızlığının tanınması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"], yer_id:"Londra",
