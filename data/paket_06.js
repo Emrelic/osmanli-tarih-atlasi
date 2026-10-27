@@ -141,7 +141,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Eğri kalesi Osmanlı kuşatmasına dayandı ve savunma, Macar-Habsburg tarafında bir kahramanlık anlatısına dönüştü. Kale 1596'ya kadar Habsburg elinde kaldı.",
   kaynak:"depo savaslar.js (1552-09-04)" },
 
-{ t:"1555-01-01", b:"Augsburg Din Barışı — Ferdinand'ın uzlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"ic", yer_id:"",
+{ t:"1555-09-25", b:"Augsburg Din Barışı — Ferdinand'ın uzlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["din","diplomasi","anayasa","konu-diplomasi","konu-din","konu-islahat","konu-hukuk"],
   d:"Ferdinand'ın imparatorluk meclisiyle müzakere ettiği barış, Protestanlara mülklerini ve serbest ibadeti güvence altına aldı. Ağabeyi Şarlken'in uzlaşmaz çizgisinin aksine Ferdinand pragmatik davrandı; bu tercih Habsburg topraklarında mezhep savaşını yarım yüzyıl erteledi.",
   kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer der österreichischen Monarchie der Habsburger': Ferdinand 1555'te Augsburg barışını müzakere etti, Protestanlara mülk ve serbest ibadet güvencesi · Dikkat: gün DOĞRULANMADI", yer_id:"Augsburg" },

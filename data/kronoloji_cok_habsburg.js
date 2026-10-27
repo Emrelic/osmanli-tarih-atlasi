@@ -56,7 +56,7 @@ window.KRONOLOJI_COK_HABSBURG = [
   d:"V. Karl ile kardeşi Ferdinand arasında Worms'ta yapılan paylaşım antlaşması, Avusturya'daki Habsburg ülkelerini Ferdinand'a bıraktı. Hanedanın İspanyol ve Avusturya kolları böylece ayrılmaya başladı. Ferdinand bir yıl sonra Wiener Neustadt'a gelerek yönetimi fiilen üstlendi; 1526'da Bohemya ve Macaristan taçlarına aday olan da Avusturya kolunun bu yeni başıydı.",
   kaynak:"Wien Geschichte Wiki, 'Ferdinand I. (Heiliges Römisches Reich)' (sayfa okundu): \"aufgrund des am 21. April 1521 zu Worms abgeschlossenen Teilungsvertrags\" · \"im Juni 1522 nach Wiener Neustadt\"" },
 
-{ t:"1526-10-22", b:"I. Ferdinand Bohemya kralı seçildi — Bohemya tacı Habsburg'a geçti", tur:"hukumdar",
+{ t:"1526-10-23", b:"I. Ferdinand Bohemya kralı seçildi — Bohemya tacı Habsburg'a geçti", tur:"hukumdar",
   onem:5, dunya:3, kapsam:"ic", etiket:["hukumdar","hanedan","konu-hanedan","konu-siyasi"],
   yer_id:"Prag", devlet:"habsburg", gun:"22 Ekim 1526 seçim; taç giyme 24 Şubat 1527, Prag",
   d:"Mohaç'ta II. Lajos'un ölümünden sonra Bohemya zümreleri, ciddi bir rakip aday olmadığından Habsburglu Ferdinand'ı kral seçtiler. Bohemya tacına Moravya, Silezya ve Lusatia da bağlıydı. Böylece Bohemya taç ülkeleri 1918'e kadar sürecek Habsburg hâkimiyetine girdi; Ferdinand 24 Şubat 1527'de Prag'da taç giydi.",
