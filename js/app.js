@@ -12171,7 +12171,7 @@ function antlasmaFarkiTemizle() {
   ANT_FARK.madde = null;
   if (haritaHazir && harita.getSource("antlasma-fark")) harita.getSource("antlasma-fark").setData(bosVeri());
 }
-// "once" | "sonra" | "koyu" | "yok" | "savasOncesi" | "fiili"
+// "once" | "sonra" | "koyu" | "koyuSonra" | "yok" | "savasOncesi" | "fiili"
 // 🆕 `koyu` (DALGA-0070 H-0008): el değiştiren bölgenin YENİ sahibinin koyu
 // tonu. Ayrı bir katman/dal AÇILMADI — özellik `_farkKutusuCiz`te her petek
 // için hesaplanıp geometrinin üstüne yazılıyor, burada yalnız `["get", hal]`
@@ -12248,21 +12248,28 @@ function _antlasmaHal(hal) {
 //   kazanç: koyu(eski devlet) → Osmanlı → eski devlet → Osmanlı
 //   kayıp : koyu(Osmanlı)     → karşı taraf → Osmanlı → karşı taraf
 // ⇒ hâl sırası: koyu(once) → sonra → once → sonra → (çözülme)
+// 🔴 DİZİ DEĞİŞTİ — Emre, post-it #144 (Vidin 1690, 27 Ekim 2026), birebir:
+//     3 kaybeden devletin renginin bir ton koyusu · 4 sönerek kaybedenin rengi ·
+//     5 kazananın koyusu · 6 tekrar sönüp kaybedenin rengi · 7 kazananın rengi
+// ⇒ hâl sırası: koyu(once) → once → koyuSonra → once → sonra → (çözülme)
+//   (6. adım "kaybeden devletin koyu rengine" diye yazılmıştı; düzyazıdaki
+//    "sönecek" ve 4. adımın deseni ile düz `once` okundu — post-it'te soruldu.)
 var ELE_GECIRME_DILI = {
-  yanikMs: 450,      // 1: ÖNCEKİ sahibin koyu tonu
-  yeniMs: 330,       // 2: sonraki sahibin rengi
-  eskiMs: 330,       // 3: önceki sahibin rengi
-  sahipMs: 700       // 4: sonraki sahibin rengi — sonra çözülür
+  yanikMs: 450,      // 1: kaybedenin koyu tonu
+  eskiMs: 330,       // 2 ve 4: kaybedenin rengi
+  yeniKoyuMs: 450,   // 3: kazananın koyu tonu
+  sahipMs: 700       // 5: kazananın rengi — sonra çözülür
 };
 // Diziyi ayrı bir fonksiyon üretir ki hem burası hem ölçüm aleti AYNI
 // tablodan okusun (sayıyı iki yere yazmamak — §11).
 function eleGecirmeDizisi() {
   return [
-    { hal: "koyu",  ms: ELE_GECIRME_DILI.yanikMs },
-    { hal: "sonra", ms: ELE_GECIRME_DILI.yeniMs },
-    { hal: "once",  ms: ELE_GECIRME_DILI.eskiMs },
-    { hal: "sonra", ms: ELE_GECIRME_DILI.sahipMs },
-    { hal: "yok",   ms: 0 }                     // çözülme — harita kendi rengini gösterir
+    { hal: "koyu",      ms: ELE_GECIRME_DILI.yanikMs },
+    { hal: "once",      ms: ELE_GECIRME_DILI.eskiMs },
+    { hal: "koyuSonra", ms: ELE_GECIRME_DILI.yeniKoyuMs },
+    { hal: "once",      ms: ELE_GECIRME_DILI.eskiMs },
+    { hal: "sonra",     ms: ELE_GECIRME_DILI.sahipMs },
+    { hal: "yok",       ms: 0 }                 // çözülme — harita kendi rengini gösterir
   ];
 }
 
@@ -12493,6 +12500,7 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
       // de yanlış anlatırdı.
       fsYerel.push({ type: "Feature",
                      properties: { once: x.once, sonra: x.sonra, koyu: x.saydamKoyu ? x.once : koyuTon(x.once),
+                                   koyuSonra: x.saydamKoyu ? x.sonra : koyuTon(x.sonra),
                                    ad: x.ad, kenar: (x.kenar === undefined ? 1 : x.kenar),
                                    savasOncesi: x.savasOncesi || x.once, fiili: x.fiili || x.once,
                                    antSonrasi: x.antSonrasi || x.sonra, k1: x.k1 || "", k3: x.k3 || "" },
@@ -16025,20 +16033,26 @@ function maddeyeDarKirp(o) {
   if (!K) return null;
   var r = K.r, gunR = K.gunR;
   if (!r) return gunR.degisim.length ? "yok" : null;
-  if (!K.fark && r.secilen.length === r.degisim.length) return null;
+  // POSTIT-144 (Vidin 1690-08-29): günün BÜTÜN değişimi bu maddenin olsa da
+  // tam gün kırpmasına (önce↔sonra × 2, koyu ton YOK) düşülmez; el değiştirme
+  // dili (koyu → eski → koyu yeni → eski → yeni) bu örtüde oynar. Tam gün
+  // kırpması yalnız geometri yoksa yedek kalır.
+  var tamGun = !K.fark && r.secilen.length === r.degisim.length;
   function oynat() {
     var G = window.PETEK_GOVDE, P = window.PETEK_GOVDE_PARCA, fs = [];
-    if (!G || !P) return;
+    if (!G || !P) { if (tamGun) oncesiSonrasiKirp(o.gi); return; }
     r.secilen.forEach(function (d) {
       var y = Y[d.i], ix = y ? G[ANT_FARK.petAd[y.ad]] : null;
       if (!ix || !ix.length) return;
       var once = _sahipRengi(d.once), sonra = _sahipRengi(d.sonra);
       fs.push({ type: "Feature",
-                properties: { once: once, sonra: sonra, koyu: koyuTon(sonra), ad: y.ad, kenar: 1,
+                // POSTIT-144: `koyu` burada kazananın tonuydu (antlaşma kutusu kaybedeninkini
+                // veriyordu) — iki yol aynı dili konuşsun.
+                properties: { once: once, sonra: sonra, koyu: koyuTon(once), koyuSonra: koyuTon(sonra), ad: y.ad, kenar: 1,
                               savasOncesi: once, fiili: once },
                 geometry: { type: "MultiPolygon", coordinates: ix.map(function (j) { return P[j]; }) } });
     });
-    if (!fs.length) return;
+    if (!fs.length) { if (tamGun) oncesiSonrasiKirp(o.gi); return; }
     _antlasmaYukle(o, fs);
     antlasmaFarkiKirp(0);
   }
