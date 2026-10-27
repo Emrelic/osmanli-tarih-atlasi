@@ -3,8 +3,9 @@
 Emre yönü: post-it #127, 26 Ekim 2026 ("b" yolu — *"bu boşluk hiç olmamalı; toprak en yakın
 yerleşimin bölgesine emilsin ya da etrafındaki yerleşimler arasında paylaşılsın"*).
 Yama: `denetim/MOTOR-KUSATMA-BILESEN-1027.diff`. Bayrak: `MOTOR_KUSATMA_BILESEN=1`; bayrak yoksa
-çıktı değişmez. **Henüz uygulanmadı** — tam inşada uygulanması Emre'nin bu yamaya özel onayını
-ister (tuz dosyası, 7-8 saat). Temiz uygulanma sınandı: tek başına ve
+çıktı değişmez. **Emre onayı: post-it #127, 27 Ekim 2026 12:12 — "a seçeneğini seçelim"**
+(= bir sonraki tam inşada `MOTOR-KUR-DEVIR-1027.diff` ile BİRLİKTE uygulanır; tuz dosyası,
+7-8 saat). Henüz uygulanmadı. Temiz uygulanma sınandı: tek başına ve
 `MOTOR-KUR-DEVIR-1027.diff` ile birlikte (`git apply --check`, taban c13430519).
 
 ## Kusur
