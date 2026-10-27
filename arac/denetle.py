@@ -7766,6 +7766,24 @@ def main():
     except Exception as e:
         olculemedi("Değişmez 7e eksklav", "%s: %s" % (type(e).__name__, e))
 
+    # ── Değişmez 3b — GÖVDE BİNMESİ (arac/denetle_binme.py) ───────────
+    # Post-it #113 (Zaporojye × Rusya 9 080 km²): iki devletin gövdesi aynı toprağa
+    # girince motor hiçbirini kırpmıyor. Bugünkü ÖRNEK ölçüm TAVAN (denetim/BINME-TAVAN.json,
+    # 61 kırılma günü, ~5 dk); yalnız GERİLEME bloke eder. Tam tarama: --tam (~30 dk).
+    try:
+        import denetle_binme
+        _kb, _ozb = denetle_binme.kapi()
+        if _kb == 1:
+            ihlal = True
+        if _kb == 2:
+            olculemedi("Değişmez 3b binme", _ozb)
+        print(f"Değişmez 3b {'✓' if _kb == 0 else ('✗' if _kb == 1 else '!')}  "
+              f"gövde binmesi: {_ozb}")
+    except ImportError as e:
+        olculemedi("Değişmez 3b binme", "%s (shapely gerekir)" % e)
+    except Exception as e:
+        olculemedi("Değişmez 3b binme", "%s: %s" % (type(e).__name__, e))
+
     print()
     if ZK.get("ozet"):
         print(ZK["ozet"])

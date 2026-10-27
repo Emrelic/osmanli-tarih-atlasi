@@ -177,17 +177,22 @@ def kesit_olc(gun, D, PARCA):
     return sorted(sonuc, key=lambda t: -t[2])
 
 
-ORNEK_ADIM = 50   # kapı örneği: sıralı kırılma günlerinin her 50.'si (~60 kesit)
+ORNEK_ADIM = 20   # kapı örneği: 1000-2000 arası her 20 yılın 1 Temmuz'u (51 kesit)
+
+
+def ornek_gunleri():
+    return ["%04d-07-01" % y for y in range(1000, 2001, ORNEK_ADIM)]
 
 
 def ornek_olc(D, PARCA):
-    """Kapı ölçümü: kırılma günlerinin her ORNEK_ADIM.'si — tam taramanın ~1/50'si.
+    """Kapı ölçümü: sabit takvim günleri — tam taramanın küçük bir örneği.
 
-    Tam tarama (--tam) ~30 dk sürer, her push'ta koşturulamaz. Örnek günler sabit
-    (sıralı kırılma listesinin [::ORNEK_ADIM] dilimi) ⇒ iki ölçüm aynı günlere bakar;
-    yeni kırılma günü eklenince dilim kayar, o zaman tavan yeniden yazılır (Emre onaylar).
+    Tam tarama (--tam) ~30 dk sürer, her push'ta koşturulamaz. Örnek günler TAKVİMDEN
+    seçilir, kırılma listesinden değil: veriye yeni kırılma günü eklenince dilim kaymaz,
+    iki ölçüm hep aynı günlere bakar (ilk sürümde kırılma listesi dilimi kullanıldı,
+    Koşu 30 verisiyle dilim kaydı ve tavan sahte aşıldı). Kapsam: yalnız 1000-2000 CE.
     """
-    gunler = kirilma_gunleri(D)[::ORNEK_ADIM]
+    gunler = ornek_gunleri()
     binen, toplam = 0, 0
     for g in gunler:
         r = kesit_olc(g, D, PARCA)
