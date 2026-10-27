@@ -213,7 +213,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"II. Murad despota topraklarını iade etti ve antlaşma maddelerini yerine getirdi. Ancak TDV'ye göre Bizans imparatoru, Venedik, papalık ve Yanko kesin darbeyi vurmanın zamanı geldiğini düşünerek Macar kralına Segedin'de verdiği yemini bozdurdu; kral 4 Ağustos 1444'te Haçlı seferine çıkacağını teyit etti. Bu haber Edirne'de telaşa yol açtı. Sefer 10 Kasım 1444'te Varna'da Osmanlı zaferiyle sona erdi. Semendire'nin Sırbistan'a fiilî iadesi 1444 yazına düşer.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1444-06-12|Edirne-Segedin","1444-08-01|Semendire","1444-11-10|Varna Zaferi","1444-08-15|Segedin"],
+  olay:["1444-06-12|Edirne-Segedin","1444-08-15|Semendire","1444-11-10|Varna Zaferi","1444-08-15|Segedin"],
   kaynak:"TDV: murad-ii (Uzun Sefer, ateşkes temasları, 24 Safer 848 / 12 Haziran 1444 Edirne anlaşması ve hükümleri, yeminin bozdurulması, 4 Ağustos 1444) · TDV: segedin (Temmuz 1444 sonlarında Segedin'de antlaşma/tasdik)",
   ic_not:"Edirne (12 Haziran) ile Segedin (Temmuz sonu) iki ayrı aşamadır: biri elçilerin imzası, öteki kralın tasdiki/yemini. 'Edirne-Segedin' adı ikisini birleştirir." },
 

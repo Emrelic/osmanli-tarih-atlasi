@@ -1,0 +1,595 @@
+{
+ "parti": 63,
+ "sonuclar": [
+  {
+   "ad": "Slesvig",
+   "durum": "tek_kaynak",
+   "lat": 54.55,
+   "lon": 9.55,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Slesvig/Haithabu (Hedeby) çevresi, Schlei fiyordu; 808 maddesi Slesvig'e taşınmadan söz eder. Kaynak bulunamadı.",
+   "tanik": [
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Schleswig kenti 54.52K 9.55D, Hedeby 54.49K 9.57D"
+    }
+   ],
+   "ulke_modern": "Almanya"
+  },
+  {
+   "ad": "Dacia",
+   "durum": "tek_kaynak",
+   "lat": 46.4,
+   "lon": 23.6,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Gepid krallığı bağlamında Dacia = Erdel havzası (Transilvanya) çekirdeği; Pleiades region kaydı (47.26,23.28) küçük 'related' kutu, province kaydı (47.5,22.5) 'rough'. Gepid merkezi ayrıca Sirmium'a uzanır; ad bağlamı belirsiz.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/207065",
+     "not": "Dacia region reprPoint 47.26K 23.28D, related; kutu çok dar"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/981518",
+     "not": "Dacia province 47.5K 22.5D rough"
+    },
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Erdel havzası Napoca/Alba Iulia çevresi"
+    }
+   ],
+   "ulke_modern": "Romanya"
+  },
+  {
+   "ad": "Cibâl",
+   "durum": "bolge_temsilci",
+   "lat": 34.8,
+   "lon": 48.5,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Hemedan çevresi (Cibâl'in orta/batı çekirdeği). Pleiades Media reprPoint 35.05K 48.92D, Hemedan 34.80K 48.51D; TDV Cibâl'i Batı/Merkezî İran'da, Dînever ve Rey ile anar. Ayrı Cibâl maddesi TDV'de bulunamadı; Dînever/Dülefîler maddelerinin tarifi kullanıldı.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/903080",
+     "not": "Media region, bbox 46.5-51.4D 34.6-35.3K"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/dinever",
+     "not": "Dînever: 'Batı İran'da Cibâl bölgesinde tarihî bir şehir'; Dülefîler: 'Merkezî İran'da (Cibâl)' 825-897"
+    }
+   ],
+   "ulke_modern": "İran"
+  },
+  {
+   "ad": "Gürcistan",
+   "durum": "tek_kaynak",
+   "lat": 41.98,
+   "lon": 44.1,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Kartli (Mtskheta-Gori hattı) tarihî çekirdek; TDV Tiflis'i Didgori (1121) sonrası başşehir, Kartli'yi çekirdek bölge sayar. Pleiades Colchis (42.2K 42.45D) uygun değil (yalnız Kolhis kıyısı).",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/gurcistan",
+     "not": "Kartli ve Tiflis çevresi; 1121 Didgori sonrası Tiflis başşehir"
+    }
+   ],
+   "ulke_modern": "Gürcistan"
+  },
+  {
+   "ad": "Kastilya",
+   "durum": "tek_kaynak",
+   "lat": 41.9,
+   "lon": -4.0,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Eski Kastilya çekirdeği: Burgos (42.34,-3.70) ile Valladolid (41.65,-4.72) arası Duero havzası. TDV yalnız 'İspanya'da tarihî bölge ve krallık' diyor, kapsam vermiyor.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/kastilya",
+     "not": "tanım cümlesi; kapsam/şehir yok"
+    },
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Burgos-Valladolid çekirdeği"
+    }
+   ],
+   "ulke_modern": "İspanya"
+  },
+  {
+   "ad": "Litvanya",
+   "durum": "tek_kaynak",
+   "lat": 54.8,
+   "lon": 24.5,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Mindaugas dönemi (1251-63) Litvanya çekirdeği: Aukštaitija, Kernavė-Vilnius-Kaunas çevresi. TDV'de Litvanya maddesi yok.",
+   "tanik": [
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Kernavė 54.89K 24.85D, Vilnius 54.69K 25.28D"
+    }
+   ],
+   "ulke_modern": "Litvanya"
+  },
+  {
+   "ad": "Necid",
+   "durum": "tek_kaynak",
+   "lat": 25.0,
+   "lon": 45.5,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Orta Arabistan yaylasının ortası: TDV Necid'i Cebelişemmer'in güneyi, Nüfûd'un doğusu, Rub' el-Hâlî'nin kuzeyi, Dehnâ'nın batısı olarak tarif eder; nokta bu kutunun ortası (Kasîm-Riyad arası). 480 Kinde (kuzey-orta) ve 632 Büzâha (Hâil yakını) maddeleri nedeniyle iç konum geniş.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/necid",
+     "not": "Necid sınırları ve alt bölgeleri (Hicazî: Kasîm/Cebelişemmer; Ârızî: Vadihanife, Riyad, Dir'iye)"
+    }
+   ],
+   "ulke_modern": "Suudi Arabistan"
+  },
+  {
+   "ad": "Northumbria",
+   "durum": "tek_kaynak",
+   "lat": 54.0,
+   "lon": -1.2,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "944'te Edmund'un Northumbria'yı alması York merkezli; Humber-Forth krallığının güney çekirdeği York (53.96,-1.08).",
+   "tanik": [
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: York merkezli Northumbria"
+    }
+   ],
+   "ulke_modern": "Birleşik Krallık"
+  },
+  {
+   "ad": "Slavonya",
+   "durum": "tek_kaynak",
+   "lat": 45.4,
+   "lon": 18.0,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Sava ve Drava arasındaki tarihî bölge (doğu Hırvatistan); ortası Požega-Osijek arası.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/slavonya",
+     "not": "'Doğu Hırvatistan'da Sava ve Drava nehirleri arasında kalan tarihî bölge' (arama özeti)"
+    }
+   ],
+   "ulke_modern": "Hırvatistan"
+  },
+  {
+   "ad": "Zeta",
+   "durum": "tek_kaynak",
+   "lat": 42.45,
+   "lon": 19.25,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Zeta/Duklja çekirdeği: Skadar Gölü kuzeyi, Morača vadisi, Podgorica (Doclea) çevresi. TDV'de ayrı madde yok.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/podgorica",
+     "not": "Podgorica Karadağ'da tarihî şehir; Zeta için ayrı madde yok"
+    },
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Duklja/Zeta Morača-Skadar çevresi"
+    }
+   ],
+   "ulke_modern": "Karadağ"
+  },
+  {
+   "ad": "Holstein",
+   "durum": "tek_kaynak",
+   "lat": 54.0,
+   "lon": 9.8,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Holstein (Elbe ile Eider arası); Bornhöved (54.10,10.22) bölge içinde; bölgenin ortası.",
+   "tanik": [
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Holstein Elbe-Eider arası, Bornhöved 54.1K 10.2D"
+    }
+   ],
+   "ulke_modern": "Almanya"
+  },
+  {
+   "ad": "Lübnan",
+   "durum": "tek_kaynak",
+   "lat": 34.0,
+   "lon": 35.7,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Lübnan Dağları kıyıya paralel ~160 km, kıyı şeridi ve Bekaa. Madde (1124 Sûr kuşatması) kıyı bağlamlı; nokta Lübnan Dağı orta kesimi. Sûr'un (33.27,35.2) bölge içi sayılıp sayılmayacağı belirsiz.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/lubnan",
+     "not": "Lübnan Dağları, kıyı ovası, Bekaa; Beyrut, Trablus, Sayda, Sûr"
+    }
+   ],
+   "ulke_modern": "Lübnan"
+  },
+  {
+   "ad": "Hûzistan",
+   "durum": "bolge_temsilci",
+   "lat": 32.27,
+   "lon": 48.5,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Pleiades Elymais/Susiana reprPoint 32.33K 48.50D (Dezful-Şûş); TDV Hûzistan'ı Cündişâpûr (32.27,48.52), Şüşter, Ahvaz ile tarif eder. Nokta Cündişâpûr/Şûş ovası, tarihî çekirdek.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/912843",
+     "not": "Elymais/Susiana region, bbox 47.9-49.1D 32.1-32.5K"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/huzistan",
+     "not": "Güneybatı İran eyaleti; Ahvaz, Şüşter, Cündişâpûr"
+    }
+   ],
+   "ulke_modern": "İran"
+  },
+  {
+   "ad": "Hindistan",
+   "durum": "bolge_temsilci",
+   "lat": 20.6,
+   "lon": 79.5,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Pleiades 'India' etiketi reprPoint 20.64K 79.53D (yarımada ortası); TDV Hindistan maddesi ülke düzeyinde. Xuanzang'ın asıl gittiği Magadha/Nalanda (25.1,85.4) ayrı yerleşimdir; bölge simgesi olarak yarımada ortası.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/50004",
+     "not": "India region label, reprPoint 20.64K 79.53D"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/hindistan",
+     "not": "Güney Asya ülkesi (madde başlığı)"
+    }
+   ],
+   "ulke_modern": "Hindistan"
+  },
+  {
+   "ad": "Annam",
+   "durum": "tek_kaynak",
+   "lat": 21.03,
+   "lon": 105.85,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "858 Annam-Sichuan savaşı = Tang 'Annam Genel Valiliği', merkezi Songping/Dahe (bugünkü Hanoi); sonraki 'Annam' (orta Vietnam) anlamı değil. Kaynak bulunamadı.",
+   "tanik": [
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Tang Annam Protectorate merkezi Hanoi çevresi"
+    }
+   ],
+   "ulke_modern": "Vietnam"
+  },
+  {
+   "ad": "Galya",
+   "durum": "tek_kaynak",
+   "lat": 46.4,
+   "lon": 1.7,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Pleiades Gallia reprPoint 46.36K 1.67D (related, bbox çok geniş). 263 maddesi Galya İmparatorluğu (Postumus; Köln/Trier) olup çekirdeği kuzeydoğudur; nokta Fransa ortası, belirsizlik var. TDV'de Galya maddesi yok.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/993",
+     "not": "Gallia region reprPoint 46.36K 1.67D, related, bbox çok geniş"
+    },
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Gallia İmp. çekirdeği Köln-Trier 49.8K 6.6D"
+    }
+   ],
+   "ulke_modern": "Fransa"
+  },
+  {
+   "ad": "Trakya",
+   "durum": "bolge_temsilci",
+   "lat": 41.6,
+   "lon": 26.8,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Pleiades Thracia reprPoint 41.52K 26.96D (Edirne-Meriç çevresi); TDV Batı Trakya tanımı ve Edirne/Tekirdağ/Kırklareli. Nokta Edirne (41.68,26.56) yakını. TDV'de Trakya'nın tam maddesi bulunamadı, arama özeti kullanıldı.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/501638",
+     "not": "Thracia region, bbox 25.5-28.4D 41.2-41.65K"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/batı-trakya",
+     "not": "Karadeniz, Marmara, Ege ve Balkan-Rodop dizisi arası; Edirne il merkezi (arama özeti)"
+    }
+   ],
+   "ulke_modern": "Türkiye / Bulgaristan / Yunanistan"
+  },
+  {
+   "ad": "Saksonya",
+   "durum": "tek_kaynak",
+   "lat": 52.0,
+   "lon": 10.5,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "933 Riade (Unstrut), Henry'nin Sakson dükalığı bağlamı: Harz çevresi (Quedlinburg 51.79,11.15; Goslar). Modern Saksonya eyaleti (Dresden) DEĞİL. Kaynak bulunamadı.",
+   "tanik": [
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Sakson Dükalığı Harz-Aşağı Saksonya"
+    }
+   ],
+   "ulke_modern": "Almanya"
+  },
+  {
+   "ad": "Britannia",
+   "durum": "tek_kaynak",
+   "lat": 52.9,
+   "lon": -1.8,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Roma Britannia'sı: Pleiades province reprPoint 52.5K -2.5D (rough); 306 maddesi York'ta (53.96,-1.08). Nokta Midlands. Pleiades 'island' kaydı (53.83,-2.42) tek nokta, bölge değil. İkinci bağımsız kaynak bulunamadı.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/981513",
+     "not": "Britannia province reprPoint 52.5K -2.5D, rough"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/20419",
+     "not": "Britannia/Albion island 53.83K -2.42D"
+    }
+   ],
+   "ulke_modern": "Birleşik Krallık"
+  },
+  {
+   "ad": "Yemâme",
+   "durum": "tek_kaynak",
+   "lat": 24.15,
+   "lon": 47.3,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: merkez Hacr (Hacrülyemâme), Riyad'ın ~70 km güneydoğusu (Harc ilçesi). Nokta Harc/el-Yemâme. Tek kaynak.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/yemame",
+     "not": "Orta Arabistan'da tarihî bölge; merkez Hacr, Riyad'ın ~70 km GD'sı"
+    }
+   ],
+   "ulke_modern": "Suudi Arabistan"
+  },
+  {
+   "ad": "Ordos",
+   "durum": "tek_kaynak",
+   "lat": 38.8,
+   "lon": 108.8,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Sarı Nehir'in büyük dirseği içindeki Ordos yaylası; 679 Göktürk isyanı 'Altı Vilayet' bölgesi. TDV yalnız Kansu-Ordos bozkırı olarak anıyor.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/turk",
+     "not": "Kansu-Ordos bozkırları (arama özeti)"
+    },
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Ordos platosu ~38-40K, 107-111D"
+    }
+   ],
+   "ulke_modern": "Çin"
+  },
+  {
+   "ad": "Hicaz",
+   "durum": "tek_kaynak",
+   "lat": 23.0,
+   "lon": 39.7,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Kızıldeniz'in doğu kıyısı, Akabe'den Asîr'e; tarihî çekirdek Mekke (21.42,39.83) - Medine (24.47,39.61) arası orta kesim. Nokta bu iki şehir arasında. Tek kaynak.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/hicaz",
+     "not": "Sınır: Eyle(Akabe)-Asîr; merkez Mekke-Medine-Tâif-Cidde"
+    }
+   ],
+   "ulke_modern": "Suudi Arabistan"
+  },
+  {
+   "ad": "Aragon",
+   "durum": "tek_kaynak",
+   "lat": 42.2,
+   "lon": -0.7,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "1035'te kurulan krallığın çekirdeği Yukarı Aragon (Jaca-Huesca); TDV yalnız Zaragoza'yı (41.65,-0.89) çekirdek anar. Nokta Huesca-Zaragoza arası. Tek kaynak.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/aragon",
+     "not": "Aragon 1035-1833 krallık; Zaragoza merkez"
+    }
+   ],
+   "ulke_modern": "İspanya"
+  },
+  {
+   "ad": "Makedonya",
+   "durum": "bolge_temsilci",
+   "lat": 41.5,
+   "lon": 21.7,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "1072 Makedonya ayaklanması Üsküp/Vardar çevresi. TDV: Aliakmon'dan Şar Dağı'na, Mesta'dan Pindos'a; çekirdek Vardar havzası (Üsküp). Pleiades Macedonia reprPoint 40.97K 22.49D antik Makedonya'dır; Roma eyaleti kutusu (21.3-24.3D, 40.1-41.5K) nokta için kenara yakın. Nokta Vardar ortası (Veles-Prilep).",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/491656",
+     "not": "Macedonia region 40.97K 22.49D, antik"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/981531",
+     "not": "Macedonia Roman province bbox 21.3-24.3D 40.1-41.5K"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/makedonya",
+     "not": "Tarihî Makedonya sınırları; çekirdek Vardar havzası; merkezler Selânik, Manastır, Üsküp"
+    }
+   ],
+   "ulke_modern": "Kuzey Makedonya / Yunanistan / Bulgaristan"
+  },
+  {
+   "ad": "Raşka",
+   "durum": "tek_kaynak",
+   "lat": 43.15,
+   "lon": 20.45,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Raşka = Ras kalesi/Raşka nehri çevresi, bugünkü Sancak (Yenipazar yakını, 43.14,20.52). TDV Sancak maddesi Raşka'yı erken Sırp merkezi olarak anar. Tek kaynak.",
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/sancak--sirbistan",
+     "not": "Sancak eski adı Raşka; Ras erken Sırp merkezi; Yenipazar"
+    }
+   ],
+   "ulke_modern": "Sırbistan"
+  },
+  {
+   "ad": "Silezya",
+   "durum": "tek_kaynak",
+   "lat": 51.1,
+   "lon": 16.9,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Silezya merkezi Wrocław (51.11,17.03); Legnica (51.21,16.16) bölge içinde. TDV'de Silezya için ayrı madde yok.",
+   "tanik": [
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Silezya Odra vadisi, Wrocław çevresi"
+    }
+   ],
+   "ulke_modern": "Polonya"
+  },
+  {
+   "ad": "Toskana",
+   "durum": "bolge_temsilci",
+   "lat": 43.5,
+   "lon": 11.1,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: İtalya'nın orta kesiminde tarihî bölge; merkez Floransa (43.77,11.25), Pisa, Siena, Lucca. Pleiades Etruria/Tuscia (bbox 10.5-12.4D, 42.0-43.7K) 'related': nokta bu kutu içinde, Siena-Floransa arası. Pleiades kaydı yalnız güney Toskana'yı kapsar.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/413122",
+     "not": "Etruria/Tuscia region, related, bbox 10.5-12.4D 42.0-43.7K"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/toskana",
+     "not": "İtalya'nın orta kesiminde tarihî bölge; Floransa, Pisa, Siena, Lucca"
+    }
+   ],
+   "ulke_modern": "İtalya"
+  },
+  {
+   "ad": "Liaodong",
+   "durum": "tek_kaynak",
+   "lat": 41.3,
+   "lon": 123.0,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Liaodong: Liao Nehri doğusu, Liaoyang (41.27,123.17) tarihî merkez; 1216 Doğu Xia, güneydoğu Mançurya. Kaynak bulunamadı.",
+   "tanik": [
+    {
+     "kaynak": "genel bilgi, kaynaksız",
+     "url_veya_atif": "-",
+     "not": "genel bilgi, kaynaksız: Liaoyang çevresi Liaodong"
+    }
+   ],
+   "ulke_modern": "Çin"
+  },
+  {
+   "ad": "Hadramut",
+   "durum": "bolge_temsilci",
+   "lat": 15.95,
+   "lon": 48.75,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "TDV: Yemen'in güney ve güneydoğusu, kıyıya ulaşan Hadramut vadisi; Şibâm, Terîm, Seyvûn, Mükellâ. Pleiades Adramiton Chora reprPoint 16.38K 50.50D vadinin ~1.7 derece doğusunda, çöl kenarı; nokta Seyvûn-Şibâm vadisi (tarihî çekirdek). Pleiades kutusundan sapma var.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/39273",
+     "not": "Adramiton Chora, bbox 49.5-51.6D 15.6-16.9K"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/hadramut",
+     "not": "Hadramut vadisi; Mukalla, Şibâm, Terim, Seyvûn"
+    }
+   ],
+   "ulke_modern": "Yemen"
+  },
+  {
+   "ad": "Mora",
+   "durum": "bolge_temsilci",
+   "lat": 37.2,
+   "lon": 22.3,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "secim": "Mora = Peloponez. Pleiades reprPoint 37.09K 22.34D (Mistra-Sparta çevresi, 'related'); TDV: yarımada, Mistra, Korinth, Modon, Patras, Tripoliçe. 1264 Makryplagi (Arkadia-Messenia). Nokta Mistra/Tripoliçe arası.",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/570577",
+     "not": "Peloponnesus region bbox 21.1-24.0D 36.4-38.4K"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/mora",
+     "not": "Peloponnesos yarımadasının adı; Mistra, Korinth, Modon, Patras, Tripoliçe"
+    }
+   ],
+   "ulke_modern": "Yunanistan"
+  }
+ ]
+}

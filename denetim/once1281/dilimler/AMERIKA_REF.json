@@ -1,0 +1,53 @@
+{
+ "aciklama": "AMERIKA bölgesi: atlas künyesi düzeltme adayları (mevcut_once1281.tsv'ye karşı). Oturum: tur 2 doğrulama, kaynaklar ilgili dilim kayıtlarında.",
+ "mukerrer_cifter": [
+  {
+   "kalmali": "tikal-mutul",
+   "silinmeli_birlestirilmeli": "tikal-mutal",
+   "gerekce": "İki künye aynı polity (Tikal, 0090 - 0869). 'tikal-mutul' tür=krallik, t=0869-08-13 (gün hassasiyetli) ve ad 'Mutul (Tikal) Krallığı'; 'tikal-mutal' tür=devlet. Martin & Grube 2008 imlası 'Mutal' (mutal title); Mutul/Mutal okuma farkıdır, polity ayrı değildir. Gün hassasiyetli künye olduğu için tikal-mutul kalmalı; ad imlası Mutal olarak düzeltilebilir.",
+   "kaynak": "Martin & Grube, Chronicle of the Maya Kings and Queens, 2008 (Tikal bölümü; archive.org tam metin okundu)"
+  },
+  {
+   "kalmali": "monte-alban-zapotek",
+   "silinmeli_birlestirilmeli": "zapotek-monte-alban",
+   "gerekce": "İki künye aynı polity (Monte Albán Zapotek devleti, devlet, -0499 - 0700). 'monte-alban-zapotek' doğru yazımlı ad (Monte Albán). NOT: Redmond & Spencer 1992'ye göre MÖ 500-100 arası Monte Albán 'devlet öncesi' şehirdir; devlet MÖ ~100'de (Faz II) yükselir → künye f=-0499 yerine ya f=-0099 olmalı ya da iki dönem (şeflik/devlet) ayrılmalı.",
+   "kaynak": "Redmond & Spencer 1992, 'The Prehistoric City and State of Monte Albán', UNAM Instituto de Investigaciones Históricas (PDF okundu)"
+  },
+  {
+   "kalmali": "tiwanaku",
+   "silinmeli_birlestirilmeli": "tiwanaku-devleti",
+   "gerekce": "İki künye aynı polity (Tiwanaku, 0500). 'tiwanaku' t=1150, 'tiwanaku-devleti' t=1010 (tür imparatorluk). Moseley 2001: Tiwanaku Faz 4 (MS ~375-600/700) bölgesel hegemonya, Faz 5 koloniler, MS ~1100 kuraklığı ve 'kısa süre sonra' çöküş → t≈1100. 'tiwanaku' (t=1150) kaynağa daha yakın; birleştirilsin, t=1100'e çekilsin.",
+   "kaynak": "Moseley, The Incas and Their Ancestors, rev. ed. 2001 (archive.org tam metin okundu)"
+  },
+  {
+   "kalmali": "chimu",
+   "silinmeli_birlestirilmeli": "chimu-krallik",
+   "gerekce": "İki künye aynı polity (Chimor/Chimú, 1000-1470, Chan Chan, aynı alanlar). Moseley 2001: Cuzco kuvvetleri c. 1470'de yenildi (t doğrulandı); başlangıç kaynakta yılla verilmiyor (Late Intermediate Period teknik olarak 1000'de başlar). Hangisi kalırsa kalsın biri silinmeli; 'chimu' önerilir (adın Chimor ile eşlenik).",
+   "kaynak": "Moseley, The Incas and Their Ancestors, rev. ed. 2001, 'Chimor and the north' (okundu)"
+  }
+ ],
+ "f_t_duzeltme_adaylari": [
+  {"id":"wari","mevcut":"0600-0800","onerilen":"0600-1000","gerekce":"Moseley 2001: Huari kurumsal sanatı MS 600'de Ica vadisine ulaşır (Orta Ufuk başlangıcı); şehir ~MS 1000'de terk edilir."},
+  {"id":"copan","mevcut":"0426-0820","onerilen":"0426-09-05 - 0822-02","gerekce":"Martin & Grube 2008: kurucu 5 Eylül 426 (Altar Q), son kral Ukit Took' Şubat 822."},
+  {"id":"palenque-baak","mevcut":"0431-0799","onerilen":"0431 - ~0814","gerekce":"Martin & Grube 2008: Janaab Pakal III 799'da tahta çıktı; Baakal krallığına son atıf Comalcalco tuğlası ~814."},
+  {"id":"mayapan-birligi","mevcut":"1100-1450","onerilen":"1200 - 1441","gerekce":"Martin & Grube 2008: Geç Postklasik (1200-1697) Chichén'in gerilemesi ve Mayapán; terk ~1441. Başlangıç kaynakta kesin değil."},
+  {"id":"spiro","mevcut":"0850-1450 (devlet)","onerilen":"0900-1450 (şeflik)","gerekce":"Sievert & Rogers 2011 (Smithsonian Contributions to Anthropology 49): Spiro MS ~900'de başlar, ~1450'de sona erer; 'chiefdom' düzeyi."},
+  {"id":"ata-pueblo","mevcut":"0850-1300","onerilen":"Chaco sistemi 0850-1140 (Mesa Verde ayrı)","gerekce":"Guiterman ve ark. PNAS 2016: Chaco büyük evler sistemi MS 850-1140."},
+  {"id":"caral-norte-chico","mevcut":"-2999 - -1999","onerilen":"belirsiz","gerekce":"Moseley kesin Caral dönemleri vermiyor; Aspero radyokarbon 2857 MÖ (Huaca de los Sacrificios). Bu oturumda t doğrulanamadı."},
+  {"id":"teotihuacan","mevcut":"-0099 - 0550","onerilen":"-0099 - ~0600","gerekce":"PLoS ONE 2016 (PMC4988673) kronoloji tablosu: Metepec 550-600, Coyotlatelco 600-900 'siyasî çöküşü izleyen dönem'."}
+ ],
+ "tur_onerileri": [
+  {"id":"spiro","mevcut_tur":"devlet","tur_yeni":"seflik","kaynak":"Sievert & Rogers 2011: 'chiefdom'"},
+  {"id":"cahokia","mevcut_tur":"devlet","tur_yeni":"seflik (tartışmalı)","kaynak":"Koldehoff, Brennan & Emerson 2018 başlığı 'chiefdom, state, or city?'; Milner 1998 'The Cahokia Chiefdom'; PLoS ONE 2025 (PMC12494245)"},
+  {"id":"xochicalco","mevcut_tur":"devlet","tur_yeni":"konfederasyon (bölgesel hegemonya)","kaynak":"Hirth, Ancient Mesoamerica (Cambridge Core özeti): 'regional confederacy dominated by Xochicalco'"},
+  {"id":"sican","mevcut_tur":"devlet","tur_yeni":"konfederasyon (şehir devletleri)","kaynak":"Moseley 2001: 'confederation of local city-states'"},
+  {"id":"moche","mevcut_tur":"devlet","tur_yeni":"devlet (tartışmalı; çok merkezli olabilir)","kaynak":"Moseley 2001: tek devlet kavramı tartışmalı"},
+  {"id":"kuzco-krallik","tur_yeni":"seflik (señorío)","kaynak":"Moseley 2001: 'Killke Cuzco young señorío'"},
+  {"id":"aymara-senyorlukler","tur_yeni":"seflik (señorío)","kaynak":"Moseley 2001: 'combative señoríos'"},
+  {"id":"tiwanaku","mevcut_tur":"krallik/imparatorluk","tur_yeni":"devlet","kaynak":"Moseley 2001: 'Tiwanaku empire/state'"}
+ ],
+ "kapsam_disi_adaylari_atlasta_mevcut": [
+  {"id":"inuit","not":"Atlasta devlet olarak mevcut (1000-1880); Thule göçü etnik/kültürel; siyasî birim değil."},
+  {"id":"ata-pueblo / spiro / etowah / moundville / natchez / cahokia","not":"Atlasta tür=devlet; Güneydoğu/Güneybatı Mississippian ve Pueblo sistemleri akademik kaynakta şeflik/sosyo-ekolojik sistem olarak geçer."}
+ ]
+}

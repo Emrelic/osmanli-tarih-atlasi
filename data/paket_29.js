@@ -131,7 +131,7 @@ window.ANTLASMA_HARITALARI = [
     // Macaristan-Erdel çekirdeği, TDV karlofca'nın "Temeşvar hariç Erdel dahil bütün Macaristan
     // Avusturya'da kaldı" hükmünden, atlastaki yerleşim koordinatlarıyla zarf olarak çizilir.
     { taraf: "habsburg", etiket: "Avusturya'da kalan (Temeşvar hariç Erdel dahil Macaristan)", zarf: true, noktalar: [
-        { ad: "Budin", lat: 47.498, lon: 19.040,
+        { ad: "Aquincum-Óbuda-Pest", lat: 47.498, lon: 19.040,
           kaynak: "TDV karlofca: Temeşvar dışında Erdel dahil bütün Macaristan Avusturya'da kaldı — Budin Macaristan'ın merkezi olarak TEMSİLÎ nokta (metin şehir saymaz); koordinat data/yerlesimler.js" },
         { ad: "Eğri", lat: 47.902, lon: 20.377,
           kaynak: "TDV karlofca (aynı hüküm) — kuzey Macaristan'ın TEMSİLÎ noktası; koordinat data/yerlesimler.js" },
@@ -553,51 +553,6 @@ window.ANTLASMA_HARITALARI = [
     }
   ],
   "not": "Madde 1590 kazanımlarının hepsini anar ama tek tek yer adı vermez; noktalar ferhad-pasa-1590 kaydındakilerle AYNI temsilî yerlerdir. Dağıtım sonrası fiilî durum (1603-1612 savaş) ayrıca ölçülmedi."
-},
-{
-  "id": "kasr-i-sirin-1639",
-  "antlasma_ad": "Kasr-ı Şirin Antlaşması",
-  "tarih": "1639-05-17",
-  "bolgeler": [
-    {
-      "taraf": "osmanli",
-      "etiket": "Osmanlı'da kalan (Irâk-ı Arab)",
-      "zarf": true,
-      "noktalar": [
-        {
-          "ad": "Bağdat",
-          "lat": 33.34,
-          "lon": 44.361,
-          "kaynak": "TDV kasrisirin-antlasmasi: \"Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi Osmanlılar'da kalmış, Revan ise Safevîler'e bırakılmıştır\""
-        },
-        {
-          "ad": "Basra",
-          "lat": 30.508,
-          "lon": 47.783,
-          "kaynak": "TDV kasrisirin-antlasmasi: \"Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi Osmanlılar'da kalmış, Revan ise Safevîler'e bırakılmıştır\""
-        },
-        {
-          "ad": "Şehrizor",
-          "lat": 35.56,
-          "lon": 45.43,
-          "kaynak": "TDV kasrisirin-antlasmasi: \"Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi Osmanlılar'da kalmış, Revan ise Safevîler'e bırakılmıştır\""
-        }
-      ]
-    },
-    {
-      "taraf": "safevi",
-      "etiket": "Safevîlere bırakılan",
-      "noktalar": [
-        {
-          "ad": "Revan",
-          "lat": 40.183,
-          "lon": 44.515,
-          "kaynak": "TDV kasrisirin-antlasmasi: \"Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi Osmanlılar'da kalmış, Revan ise Safevîler'e bırakılmıştır\""
-        }
-      ]
-    }
-  ],
-  "not": "Hat ayrıntıları (Zencir Kalesi, Zalim Kalesi, Avroman, Mihriban) olaylar.js:110 metninde var, atlasta ilgili noktalar bulunmadığından noktalanmadı. Hânekîn metinde YOK (bilerek yazılmadı)."
 },
 {
   "id": "vasvar-1664",

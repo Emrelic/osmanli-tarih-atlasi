@@ -1,0 +1,678 @@
+[
+ {
+  "id": "thaton-mon",
+  "ad": "Thaton (Ramannadesa / Mon)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": null,
+  "t": "1057-01-01",
+  "kesinlik": {
+   "f": null,
+   "t": "yil"
+  },
+  "baskent": "Thaton",
+  "etkin_bolge": "Alt Myanmar kiyi seridi",
+  "sehirler": [
+   "Thaton",
+   "Pegu"
+  ],
+  "ozet": "Aşağı Birmanya'da Sudhammavati (Thaton) merkezli Mon krallığı; Kral Makuta'nın Pagan kralı Anawrahta'ya 1057'de yenilmesiyle sona erdi.",
+  "oncul": [],
+  "ardil": [
+   "pagan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VII (Anoratha - Thaton 1057)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981), Bölüm 2 ve 6, Ek I (Rulers of Arakan); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Anawrahta 1057'de üç aylık kuşatmadan sonra Thaton'u aldı, Kral Makuta'yı Pagan'a götürdü; bu 'efsaneye göre' (Harvey: 'Anawrahta Legend' ile 'Evidence' ayrılmalı). Thaton'un ne zaman devlet olduğu bilinmiyor (Hall: yalnız efsane/Orissa bağlantısı) → f=null. Mons 11. yüzyılda Haripunjaya'dan göçle güçlenmiş olabilir (Coedès).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "launggyet",
+  "ad": "Arakan - Launggyet Hanedanı",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1237-01-01",
+  "t": "1433-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Launggyet",
+  "etkin_bolge": "Arakan (Rakhine)",
+  "sehirler": [
+   "Launggyet"
+  ],
+  "ozet": "Arakan'ın Launggyet merkezli hanedanı: kroniklere göre 17 kral 1237-1433; 1404'te Burma işgali, 1430'da Narameikhla'nın dönüşüyle Mrauk-U dönemine geçildi.",
+  "oncul": [
+   "vesali-chandra"
+  ],
+  "ardil": [
+   "mrauk-u"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981), Bölüm 2 ve 6, Ek I (Rulers of Arakan); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu) (Ek I: Rulers of Arakan, Phayre'ye atıfla)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Hall Ek I (kronik listesi): Vesali 878-1018, 1. Pyinsa 1018-1103, Parin 1103-67, Krit 1167-80, 2. Pyinsa 1180-1237, Launggyet 1237-1433, Mrohaung 1433-1785. Taslak f=1018/t=1167 yanlıştı (1. Pyinsa ve Parin dönemleridir); düzeltildi. Kronik tarihleri ihtiyatla anılır; Hall metninden 1404 Burma seferi ve Launggyet'in alınması okundu. ÖNERİ: Arakan 878-1785 arası tek polity (hanedan değişimli) ise tek künye + ic_not; ana oturum karar versin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "butuan",
+  "ad": "Butuan Racaligi",
+  "tur": "beylik",
+  "bolge": "guneydogu-asya",
+  "f": "1001-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": null
+  },
+  "baskent": "Butuan",
+  "etkin_bolge": "Agusan vadisi (Kuzey Mindanao)",
+  "sehirler": [
+   "Butuan"
+  ],
+  "ozet": "1001 Song elci kaydi; altin Tara, Hindu-Budist Rajah; 16. yy Magellan temasi.",
+  "oncul": [],
+  "ardil": [
+   "filipin-racaliklari"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Butuan'ın 1001 Song elçiliği bu oturumda hiçbir kaynakta doğrulanamadı (WebSearch yalnız Esperanza altın yazıtından söz etti, Butuan-1001 bağını doğrulamadı). Taslak kalır.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "filipin-racaliklari",
+   "not": ""
+  }
+ },
+ {
+  "id": "cebu-racaligi",
+  "ad": "Cebu Racaligi",
+  "tur": "beylik",
+  "bolge": "guneydogu-asya",
+  "f": "1250-01-01",
+  "t": "1565-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Singhapala (Cebu)",
+  "etkin_bolge": "Cebu",
+  "sehirler": [
+   "Cebu"
+  ],
+  "ozet": "Sri Lumay geleneginde Chola kokenli rajalik; 1565 Legazpi fethi.",
+  "oncul": [],
+  "ardil": [
+   "filipin-racaliklari"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Cebu racalığı (f=1250) için bu oturumda kaynak bulunamadı; taslak kalır.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "filipin-racaliklari",
+   "not": ""
+  }
+ },
+ {
+  "id": "samudra-pasai",
+  "ad": "Samudera Pasai Sultanligi",
+  "tur": "emirlik",
+  "bolge": "guneydogu-asya",
+  "f": "1267-01-01",
+  "t": "1521-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Pasai",
+  "etkin_bolge": "Kuzey Sumatra (Aceh)",
+  "sehirler": [
+   "Pasai"
+  ],
+  "ozet": "XIII. yüzyılda Kuzey Sumatra'da Müslümanlarca kurulan ilk müstakil devlet: Pasai-Samudra Sultanlığı; bilinen ilk hükümdarı el-Melikü's-Sâlih (Merah Silu, ö. 696/1296-97); 1521'de Portekiz'in Pasai'yi alması üzerine yıkıldı.",
+  "oncul": [],
+  "ardil": [
+   "aceh"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, 'Açe' maddesi, islamansiklopedisi.org.tr/ace (bu oturumda curl ile okundu)",
+   "TDV İslâm Ansiklopedisi, 'Endonezya' maddesi, islamansiklopedisi.org.tr/endonezya (bu oturumda curl ile okundu)",
+   "TDV İslâm Ansiklopedisi, 'Sumatra' maddesi, islamansiklopedisi.org.tr/sumatra (bu oturumda curl ile okundu)",
+   "Ricklefs, M. C., A History of Modern Indonesia since c. 1200, 3. baskı (2001), Bölüm 1 (Malik as-Salih mezar taşı AH 696; archive.org/details/a-history-of-modern-indonesia-since-c.-1200-3rd-ed, okundu)",
+   "Coedès, The Indianized States of Southeast Asia (1968), Bölüm XII (Samudra-Pasai en eski mezar taşı 1320; okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV Açe: 'XIII. yüzyılda müslümanlar tarafından kurulan ilk müstakil devlet... Pasai-Samudra... bilinen ilk hükümdarı el-Melikü's-Sâlih (ö. 1297)... 1521'de Pasai'yi ele geçirmeleri üzerine bu sultanlık yıkıldı.' TDV Endonezya: Pasai bölgesi 1280'li yıllarda el-Melikü's-Sâlih zamanında İslâm'ı kabul etmişti; mezar taşı 696 (1296-97); Hikâyât Raja-Raja Pasai'ye göre XIII. yüzyıl ortası Şeyh İsmâil heyeti. TDV tam yıl vermediği için taslak f=1267 (Hikayat geleneği) DESTEKLENMEDİ: kesinlik yüzyıl; kesin tanık 1297 (mezar taşı, Ricklefs AH 696 = 1297, TDV 1296-97). t=1521 TDV ile uyumlu. Hicrî 696 = 1296-97 (tam gün mezar taşı metninden okunmadı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta yok; f'nin 1297'ye ya da 'XIII. yy' (yüzyıl kesinliği) çekilmesi ana oturum kararı."
+  },
+  "tur_yeni": "sultanlik"
+ },
+ {
+  "id": "ternate",
+  "ad": "Ternate Krallıgi",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1257-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": null
+  },
+  "baskent": "Sampalu → Ternate",
+  "etkin_bolge": "Kuzey Maluku",
+  "sehirler": [
+   "Ternate"
+  ],
+  "ozet": "Baab Mashur Malamo kuruluşu 1257 geleneksel.",
+  "oncul": [],
+  "ardil": [
+   "ternate-sultanligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, 'Endonezya' maddesi, islamansiklopedisi.org.tr/endonezya (bu oturumda curl ile okundu) (Ternate, Tidor, Gilolo ve Batjan prenslikleri; 1495 Gresik'te Ternate sultanı İslâm'ı kabul; Ternate Sultanlığı 1498)",
+   "Ricklefs, A History of Modern Indonesia since c. 1200 (2001), Bölüm 1 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV Endonezya: Maluku adaları o zaman 'Ternate, Tidor, Gilolo ve Batjan prensliklerinin yönetimindeydi'; 'bölgede ilk defa 1495 yılında Gresik'te Ternate sultanı İslâmiyet'i kabul etmiş'; Ternate Sultanlığı (1498). Ricklefs: Ternate hükümdarı sultan unvanını almıştı. f=1257 (Hikayat Ternate geleneği) hiçbir okunan kaynakta yok; yalnız XV. yüzyıl sonu tanık. Önceki dönem 'prenslik' (TDV) olarak anılır; tur sultanlık değil prenslik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tidore",
+  "ad": "Tidore Krallıgi",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1081-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": null
+  },
+  "baskent": "Soasio",
+  "etkin_bolge": "Kuzey Maluku",
+  "sehirler": [
+   "Tidore"
+  ],
+  "ozet": "Gelenekte Kolano ile 1081.",
+  "oncul": [],
+  "ardil": [
+   "tidore-sultanligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, 'Endonezya' maddesi, islamansiklopedisi.org.tr/endonezya (bu oturumda curl ile okundu) (Tidor prensliği; XV. yy son çeyreğinde Tidor, Gilolo ve Batjan prenslerinin Müslüman olması)",
+   "Ricklefs, A History of Modern Indonesia since c. 1200 (2001), Bölüm 1 (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV Endonezya: Tidor, Gilolo ve Batjan prensleri XV. yüzyılın son çeyreğinde Müslüman oldular; bölge bu dört prenslik tarafından yönetiliyordu. Ricklefs: Tidore hükümdarı raja unvanı, al-Mansur adı. f=1081 (geleneksel) hiçbir okunan kaynakta yok; yalnız XV. yy sonu tanık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "janggala",
+  "ad": "Janggala",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1042-01-01",
+  "t": "1136-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kahuripan / Janggala",
+  "etkin_bolge": "Dogu Cava (Brantas)",
+  "sehirler": [
+   "Kahuripan"
+  ],
+  "ozet": "Airlangga'nın böldüğü iki yarıdan biri; Coedès'e göre baştan Kadiri'ye emilmiş, fiilen bağımsız bir polity olmayabilir.",
+  "oncul": [
+   "kahuripan"
+  ],
+  "ardil": [
+   "kediri"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm IX-4: 'Janggala... had from the start been absorbed by Kadiri'"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès (s. 186): 'Janggala, we recall, had from the start been absorbed by Kadiri and the merger had in fact taken place long before' 1222. Bu nedenle f=1042, t=1136 tarihleri (taslak) kaynakla desteklenmedi; polity niteliği şüpheli. ÖNERİ: ayrı künye açılmasın; kediri künyesine ic_not. ELENEN adayı: bağımsız polity olduğu kanıtlanamadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "var-kisa/elenmeli: kediri."
+  }
+ },
+ {
+  "id": "phayao",
+  "ad": "Phayao",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1096-01-01",
+  "t": "1338-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Phayao",
+  "etkin_bolge": "Kuzey Tayland",
+  "sehirler": [
+   "Phayao"
+  ],
+  "ozet": "Mae Ping ve Mae Wang nehirlerinin kavşağının kuzeyinde küçük bağımsız Tay devleti Phayao; 1287'de Mangrai ve Ramkhamhaeng'le dostluk paktı yaptı.",
+  "oncul": [
+   "ngoenyang"
+  ],
+  "ardil": [
+   "lan-na"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu) ('the small independent T'ai state of P'ayao came into existence as early as 1096'; Ngam Muong 1287 paktı)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Hall: 'as early as 1096' ve 1287 paktı (Ngam Muong). t=1338 (Lan Na'ya katılış) bu oturumda kaynakta okunmadı; Hall t'yi vermez.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "suphannaphum",
+  "ad": "Suphannaphum (Suphanburi)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1000-01-01",
+  "t": "1350-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Suphanburi",
+  "etkin_bolge": "Chao Phraya aşağı havzasi",
+  "sehirler": [
+   "Suphanburi"
+  ],
+  "ozet": "Ayutthaya'nin yükselmesine kadar Tai-Khmer sınır krallıgi.",
+  "oncul": [],
+  "ardil": [
+   "ayutthaya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu) (Suphan bölgesi U Thong; 1347'de Ayutthaya'nın kuruluşu ve Suphanburi bırakılışı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Coedès: Ayutthaya, Suphan bölgesindeki bir kentin terki sonrası kuruldu (~1347-50); Dvaravati adı o bölgedeki bir kente ait olabilir. Suphannaphum'un 1000-1350 bağımsız polity süresi kaynakta bulunmadı. Taslak kalır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "pattani-kadaram",
+  "ad": "Pattani (Langkasuka mirasi)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1000-01-01",
+  "t": "1457-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Pattani",
+  "etkin_bolge": "Güney Tayland",
+  "sehirler": [
+   "Pattani"
+  ],
+  "ozet": "Langkasuka halefi, sultanlık sonrası 1457.",
+  "oncul": [
+   "langkasuka"
+  ],
+  "ardil": [
+   "pattani-sultanligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Pattani/Langkasuka için 1000-1457 bağımsız polity tarihi bu oturumda Coedès/Hall'da bulunamadı. Taslak kalır; Pattani sultanlığı (1457) kapsam dışı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "campa",
+  "ad": "Champa",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1000-01-01",
+  "t": "1832-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Vijaya",
+  "etkin_bolge": "Orta Vietnam",
+  "sehirler": [],
+  "ozet": "Champa'nın İndrapura (875) ve Vijaya (988'den) dönemleri; 1000'e doğru başkent Vijaya'ya kaydı; Đại Việt baskısıyla küçülüp 1832'de Vietnam'a katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VIII-2 (İndrapura hanedanı 875) ve Vijaya'da 988 Harivarman II",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 875 İndrapura hanedanı (Çin adı Chan-ch'eng); 986 Vietnamlı Lưu Kế Tông'un Champa kralı ilanı; 988'de Chamlar Vijaya'da kral seçti (Harivarman II). Atlasta Champa iki künyeye bölünmüştür (linyi-champa 192-999, campa 1000-1832); polity tektir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "campa",
+   "not": "mevcut campa 1000-1832 ve linyi-champa 192-999 aynı polity'nin iki künyesi; ardıllık sürekli (Champa); f=1000 künye bölünmesidir, kaynakla düzeltme gerekmez."
+  }
+ },
+ {
+  "id": "filipin-racaliklari",
+  "ad": "Filipin Racaliklari",
+  "tur": "beylik",
+  "bolge": "guneydogu-asya",
+  "f": "1001-01-01",
+  "t": "1571-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "",
+  "etkin_bolge": "Filipinler",
+  "sehirler": [],
+  "ozet": "Genel.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas künyesi 1001-1571 'Filipin racalıkları'; bu oturumda Filipinler için Hall/Coedès/Ricklefs'te ilgili sayfa bulunamadı; archive.org arama API'si boş döndü; Scott ve Junker'in monografileri okunamadı. Taslak kalır.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "filipin-racaliklari",
+   "not": ""
+  }
+ },
+ {
+  "id": "ly-hanedani",
+  "ad": "Lý Hanedanı (Đại Việt)",
+  "tur": "hanedanlik",
+  "bolge": "guneydogu-asya",
+  "f": "1009-01-01",
+  "t": "1225-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Thăng Long",
+  "etkin_bolge": "Kizil Nehir",
+  "sehirler": [],
+  "ozet": "Lý Công Uẩn 1009 sonunda tahta geçti, başkenti Hoa Lư'den Đại La'ya (Thăng Long) taşıdı; 1225 sonunda Trần Thủ Độ, Trần Cảnh'i Lý prensesi Chiêu Thánh ile evlendirerek tahtı Trần'a devretti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): Lý Công Uẩn 'two days after Le Dinh died in late 1009' kral; sonraki yıl Hoa Lư terk edilip Thăng Long'a taşındı; Lý Nhật Tôn 1054-1072; 'end of 1225' Trần Cảnh kral. Gün yok.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "ly-hanedani",
+   "not": "mevcut ly-hanedani 1009-1225; Taylor ile uyumlu."
+  }
+ },
+ {
+  "id": "kahuripan",
+  "ad": "Kahuripan (Airlangga)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1019-01-01",
+  "t": "1042-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kahuripan",
+  "etkin_bolge": "Dogu Cava",
+  "sehirler": [],
+  "ozet": "Airlangga 1019'da resmen taç giydi; 1028-1037 arası Doğu Cava'yı yeniden birleştirip başkentini Kahuripan'a koydu; 1042 civarından dinî hayata yöneldi ve krallığı ikiye böldü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm IX-4 (Airlangga 1016-49; 1019 taç giyme, 1037 tahta oturuş)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 1019 'officially crowned', 1028-29'da yeniden fetih, 1037'de taht, 'From 1042 on, he perhaps entered the religious life', ölümü 1049 (saka 971); 'Before his death, Airlanga divided his kingdom in two' (bölünme tarihi yazılı değil). t=1042 Coedès'in 'perhaps' kaydına dayanır (kronik 1042 böler), kesin değil.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kahuripan",
+   "not": "mevcut kahuripan 1019-1042; Coedès ile uyumlu (t belirsiz)."
+  }
+ },
+ {
+  "id": "kediri",
+  "ad": "Kediri (Panjalu)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1042-01-01",
+  "t": "1222-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Daha",
+  "etkin_bolge": "Dogu Cava",
+  "sehirler": [],
+  "ozet": "Airlangga'nın krallığını ikiye bölmesinin ardından Panjalu/Kadiri, Janggala'yı fiilen emdi; 1222'de Ken Angrok'un Kritajaya'yı yenmesiyle yerini Singhasari'ye bıraktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm IX-4 ve XI-8 (Kadiri'nin 1222'de düşüşü)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Airlangga ölümünden önce krallığı Janggala ve Panjalu olarak ikiye böldü; 'Janggala... had from the start been absorbed by Kadiri'; Kritajaya (Sringa) 1222'de Angrok'a yenildi. Janggala ve Panjalu'nun gerçekten ayrı polity olup olmadığı Coedès'e göre şüpheli. f=1042 kronik bölünme yılı (Coedès yazmaz); Kadiri'nin başı tartışmalı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kediri",
+   "not": "mevcut kediri 1042-1222; t Coedès ile uyumlu."
+  }
+ },
+ {
+  "id": "sipsong-panna",
+  "ad": "Sipsong Panna",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1180-01-01",
+  "t": "1950-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chiang Rung",
+  "etkin_bolge": "Yunnan guney",
+  "sehirler": [],
+  "ozet": "Tai Lu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu) (Chieng Rung ve Chieng Sen Tay şeflerinin evlilik ittifakı, 13. yy başı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hall: 'the T'ai chiefs of Chieng Rung and Chieng Sen on the upper Mekong made a marriage alliance' (13. yy başı) - Chiang Rung'un (Jinghong) varlığı doğrulanır; kuruluş yılı 1180 bu oturumda kaynakta bulunamadı. Taslak kalır.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sipsong-panna",
+   "not": ""
+  }
+ },
+ {
+  "id": "singhasari",
+  "ad": "Singhasari",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1222-01-01",
+  "t": "1292-05-18",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Singhasari",
+  "etkin_bolge": "Dogu Cava",
+  "sehirler": [],
+  "ozet": "Ken Angrok 1222'de Tumapel'den Kadiri'ye başkaldırıp yeni hanedan kurdu; Kritanagara döneminde Cava gücü yayıldı (1275 Pamalayu seferi); 1292'de Jayakatwang Singhasari'yi alıp Kritanagara'yı öldürdü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm XI-8 ve XII (Kritanagara'nın ölümü 18 Mayıs - 15 Haziran 1292)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Coedès: Angrok 1222; 1275 Malayu seferi; 1292'de Kritanagara'nın ölümü 'between May 18 and June 15' (Coedès, Cava saka kronolojisi). t gün aralığı: 1292-05-18 ... 1292-06-15; alt sınır alındı (kesinlik ay). Aynı yıl Jayakatwang 'yeni Kadiri' (kısa), Mongol seferi Wijaya'yı iktidara getirdi (Majapahit, 1281 sonrası).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "singhasari",
+   "not": "mevcut singhasari 1222-1292; Coedès ile uyumlu."
+  }
+ },
+ {
+  "id": "tran-hanedani",
+  "ad": "Trần Hanedanı (Đại Việt)",
+  "tur": "hanedanlik",
+  "bolge": "guneydogu-asya",
+  "f": "1225-01-01",
+  "t": "1400-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Thăng Long",
+  "etkin_bolge": "Kizil Nehir",
+  "sehirler": [],
+  "ozet": "1225 sonunda Trần Thủ Độ, Trần Cảnh'i tahta çıkardı; Moğol istilaları (1258, 1280'ler) atlatıldı; 1400'de Hồ Quý Ly tahtı alıp Đại Ngu'yu kurdu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): 'end of 1225' Trần Cảnh kral; ilk Moğol saldırısı (1258) 12 gün; 1400'de Hồ Quý Ly 'took the throne', krallığa Đại Ngu dedi. 1281 sonrası kısmı atlas çekirdeğindedir; bu kayıt eşleme içindir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tran-hanedani",
+   "not": "mevcut tran-hanedani 1225-1400; uyumlu."
+  }
+ },
+ {
+  "id": "sukhothai",
+  "ad": "Sukhothai",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1238-01-01",
+  "t": "1438-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sukhothai",
+  "etkin_bolge": "Orta Tayland",
+  "sehirler": [],
+  "ozet": "Pha Mueang ve Bang Klang Hao 1238'de Khmer valisini Sukhothai'den çıkarıp Sri Indraditya'yı kral yaptı; Ramkhamhaeng (c. 1275) döneminde büyüdü; 1438'de Ayutthaya'ya katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu) ('In 1238 two T'ai chiefs attacked and defeated the Khmer commander at Sukhot'ai'; Ek: Sri Int'arat'itya 1238)",
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu) (bağımsızlık Indraditya taç giyme ~1220)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Hall: 1238 (İki Tay şefi Sukhothai'deki Khmer komutanını yendi) ve hanedan listesi: Sri Intharathit 1238; Coedès: kesin tarih yok, Ramkhamhaeng'in 13. yy sonunda hüküm sürmesinden hareketle taç giyme ~1220 (çelişki: Hall 1238, Coedès ~1220). Hall seçildi. t=1438 (1281 sonrası, atlas çekirdeği).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sukhothai",
+   "not": "mevcut sukhothai 1238-1438; Hall ile uyumlu."
+  }
+ },
+ {
+  "id": "lamuri",
+  "ad": "Lamuri (Lamreh, Aceh)",
+  "tur": "sultanlik",
+  "bolge": "guneydogu-asya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Lamreh (Aceh Besar)",
+  "etkin_bolge": "Sumatra'nın kuzey ucu",
+  "sehirler": [
+   "Lamreh"
+  ],
+  "ozet": "Sumatra'nın kuzey ucunda Lamuri (Lambri); 11. yüzyılda Chola kaynaklarında, 1211'de Lamreh mezar taşında Sultan Sulaiman ile Endonezya'nın ilk Müslüman krallığı kanıtı olarak anılır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Ricklefs, M. C., A History of Modern Indonesia since c. 1200, 3. baskı (Basingstoke: Palgrave, 2001), Bölüm 1; tam metin archive.org/details/a-history-of-modern-indonesia-since-c.-1200-3rd-ed (bu oturumda okundu) (Lamreh mezar taşı, Sultan Sulaiman b. Abdullah b. al-Basir, AH 608/1211)",
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu) (Chola 1025 listesinde Ilamuridesam; Lambri)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu) (1330'da Samudra, Lamuri, Perlac bağımsız ticaret merkezleri)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Ricklefs: Lamreh'te Sultan Sulaiman'ın mezar taşı AH 608/AD 1211, 'first evidence of the existence of an Islamic kingdom in Indonesian territory'. Coedès: Lamuri (Ilamuridesam; Çince Lan-wu-li) Srivijaya'ya bağlı limanlar listesinde ve Chola seferi anlatımında. f ve t kaynakta yok (null); 1211 yalnız ilk Müslüman tanık. TDV'de Endonezya maddeleri okunmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta yok; samudra-pasai ve perlak komşu kuzey Sumatra sultanlıkları."
+  }
+ }
+]

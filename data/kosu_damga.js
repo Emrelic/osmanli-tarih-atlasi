@@ -33,12 +33,12 @@ window.KOSU_DAMGA = {
   // KOŞU 25 ELLE yazıldı (HAVVA, 15 Ekim 2026). KOŞU 22-24 çıktıları da yayına indi ama bu dosya
   // GÜNCELLENMEDİ (Emre sitede "KOŞU 21" gördü, 15 Ekim). Değerler atlas-kosu25/kosu25-20261015-002715
   // -bayraklar.log ve aynı koşunun logundan birebir okundu. Çıktı commit'i: e2ca9be62 (yayın r12414).
-  no: 27,                          // koşu numarası — arayüzde "KOŞU 27" diye görünür
-  tarih: "2026-10-17",             // çıktının main'e alındığı gün
+  no: 30,                         // koşu numarası — arayüzde "KOŞU 30" diye görünür
+  tarih: "2026-10-25",             // çıktının main'e alındığı gün
   makine: "HAVVA",                 // koşuyu KOŞTURAN makine
-  commit: "d9121c47",              // KOŞU 27 çıktı commit'i (8b 84→85 Emre onayı, 17 Ekim 2026)
-  temel: "db9de100",               // koşunun girdi temeli · bellek + komşu-kur yamaları DAHİL (MOTOR_SINIR_KISIT=1 · MOTOR_COL_GIRINTI_KAPALI=1 · MOTOR_KOMSU_KUR_BOL=1)
-  sure: "6 sa 31 dk 43 sn",        // 2026-10-16 20:09:52 → 2026-10-17 02:41 (AŞAMA BİLANÇOSU)
+  commit: "39980344",              // KOŞU 30 çıktı commit'i (iniş; denetle 0: 8a 180/180 [Emre onayı, 154→180] · 8k defter 96 · 8b 0/0 · 7e 1985)
+  temel: "ed75c356",               // koşunun girdi temeli · kosu30-hazirlik (bütün gece veri işleri; uret_petek 7a935c02)
+  sure: "7 sa 58 dk + 10 sa 38 dk",  // 2026-10-25 00:49 → 08:47 GEOS çökmesi (0xC0000005) · MOTOR_DEVAM ile 08:53 → 19:31
   bayraklar: {
     yuruyus: true,                 // MOTOR_YURUYUS=1  ← sahiplik prensibi
     yuruyus_saat: 40,              // MOTOR_YURUYUS_SAAT=40 (bütçe 40 saat = 5 gün)
@@ -46,9 +46,12 @@ window.KOSU_DAMGA = {
     col_ufuk_saat: 0,              // MOTOR_COL_UFUK_SAAT=0 — çöl kelepçesi KAPALI (KOŞU 23'ten beri)
     ufuk_bant: [40, 56, 80],       // MOTOR_UFUK_BANT — 5 · 7 · 10 gün
     devam: true,                   // MOTOR_DEVAM=1
-    surec_isci: 2                  // MOTOR_SUREC_ISCI=2 — tuzda DEĞİL, sonucu değiştirmez
+    surec_isci: 2,                 // MOTOR_SUREC_ISCI=2 — tuzda DEĞİL, sonucu değiştirmez
+    yaka_kilidi: true,             // MOTOR_YAKA_KILIDI=1 (KOŞU 28'den beri)
+    kistak_kopru: true,            // MOTOR_KISTAK_KOPRU=1 (başlatıcı bayrak logundan, KOŞU 30)
+    komsu_kur_bol: true            // MOTOR_KOMSU_KUR_BOL=1 (başlatıcı bayrak logundan, KOŞU 30)
   },
-  // Koşunun KENDİ denetim kaydı (depoda): denetim/DEGISMEZ-KOSU25-HAVVA.log
-  //   ÇIKIŞ 0 · 7e 1904/1904 · 8a 1500/1505 (eski ölçüt) · 8b 84/84
-  denetim: "denetim/DEGISMEZ-KOSU27-HAVVA.log"
+  // Koşunun KENDİ denetim kaydı yok (koşu 30 denetle'si iniş zincirinde koşuldu); 8k körlük defteri:
+  //   ÇIKIŞ 0 (iniş) · 7e 1985 · 8a 180/180 (tavan Emre onayıyla 154→180) · 8b 0/0 · 8k defter 96
+  denetim: "denetim/DEGISMEZ-0086-kor-defter.json"
 };

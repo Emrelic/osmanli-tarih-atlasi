@@ -1,0 +1,852 @@
+[
+ {
+  "id": "herakleia-lukanya",
+  "ad": "Herakleia (Lukanya)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0431-01-01",
+  "t": "-0279-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Herakleia",
+  "etkin_bolge": "Siris vadisi",
+  "sehirler": [
+   "Herakleia"
+  ],
+  "ozet": "Taras ve Thourioi ortak kolonisi; Pyrrhos'un ilk zaferi (MÖ 280) buradadır; sonra Roma müttefiki.",
+  "oncul": [
+   "taras"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitişi foedus tarihi (MÖ 278) ile kesinleşir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "thourioi",
+  "ad": "Thourioi",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0443-01-01",
+  "t": "-0279-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Thourioi",
+  "etkin_bolge": "Sybaris yakını",
+  "sehirler": [
+   "Thourioi"
+  ],
+  "ozet": "Atina öncülüğünde Panhelenik koloni (Herodotos, Lysias orada); Lukan baskısı, MÖ 282'de Roma desteği.",
+  "oncul": [
+   "sybaris"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Turi' (https://www.treccani.it/enciclopedia/turi/): «Città della Magna Grecia fondata sul sito della distrutta Sibari nel 444 a.C. come colonia panellenica sotto gli auspici di Pericle»",
+   "Treccani, 'Sibari': Periklesin müdahalesiyle (444/3) Turi kuruldu; kent planı Hippodamos'a atfedilir."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bitiş yaklaşık (MÖ 282-278). [Tur2: taslak f degeri: -0442-01-01] [Tur2] Taslak f=-0442 (443 MÖ) yerine Treccani 444 MÖ (=-0443). t=-0279 (280 MÖ) Roma'ya geçiş bu turda okunmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "latin-birligi",
+  "ad": "Latin Birliği",
+  "tur": "konfederasyon",
+  "bolge": "italya",
+  "f": "-0492-01-01",
+  "t": "-0337-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Lavinium / Ferentina koruluğu",
+  "etkin_bolge": "Latium",
+  "sehirler": [
+   "Lavinium",
+   "Tibur",
+   "Praeneste",
+   "Aricia"
+  ],
+  "ozet": "Foedus Cassianum (MÖ 493) ile Roma-Latin ittifakı; Latin Savaşı sonrası MÖ 338'de dağıtıldı.",
+  "oncul": [
+   "alba-longa"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Latini' (https://www.treccani.it/enciclopedia/latini/): Latium vetus; «Nelle guerre del 5° sec. l'iniziativa si andò sempre più concentrando nelle mani di Roma ... sul principio del 4° sec. aveva una posizione egemonica nella lega»."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Geleneksel tarih; Cassius antlaşması tarihlenmesi tartışmalı. [Tur2] Latin Savaşı sonu (338 MÖ, atlas t=-0337) Treccani Latini sayfasında bulunamadı; f=-0492 (493 MÖ Foedus Cassianum) okunmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "samnit-birligi",
+  "ad": "Samnit Birliği",
+  "tur": "konfederasyon",
+  "bolge": "italya",
+  "f": "-0449-01-01",
+  "t": "-0081-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "yok (Bovianum/Aufidena merkezli)",
+  "etkin_bolge": "Güney-orta Apenin",
+  "sehirler": [
+   "Bovianum",
+   "Aesernia",
+   "Saepinum"
+  ],
+  "ozet": "Oskan dilli Samnit kabile birliği; Üç Samnit Savaşı (MÖ 343-290) ve Sosyal Savaş'ta Roma ile mücadele, Sulla ile MÖ 82-81'de sonlandı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Sanniti' (https://www.treccani.it/enciclopedia/sanniti/): Roma'yla «tre conflitti successivi, le cd. guerre sannitiche (343-341; 326-304; 298-290 a.C.)»."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Birlik yapısı tartışmalı; siyasî bağımsızlık MÖ 290'da fiilen kırıldı (Aquilonia/Curius), son direniş Sosyal Savaş. [Tur2] f=-0449 (450 MÖ) ve t=-0081 (82 MÖ Sosyal Savaş/Sulla) bu turda okunmadı; Treccani yalnız savaşların yıllarını verir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "lukan-birligi",
+  "ad": "Lukan Birliği",
+  "tur": "konfederasyon",
+  "bolge": "italya",
+  "f": "-0429-01-01",
+  "t": "-0270-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Potentia/Paestum",
+  "etkin_bolge": "Lukanya (Basilicata)",
+  "sehirler": [
+   "Paestum",
+   "Heraclea",
+   "Laus"
+  ],
+  "ozet": "Samnit kökenli Lukan kabile devleti; Magna Graecia şehirleriyle çatıştı, Roma'ya yenildi.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Lucani' (https://www.treccani.it/enciclopedia/lucani/): «Popolazione italica di origine sannitica, stanziata nella regione ... dal 5° sec. a.C. Tra il 5° e il 4° sec. a.C. conquistarono Posidonia, Pixunte, Lao»; 2. yy başında Bussento, Copia kolonileri."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş yaklaşık. [Tur2] f 5. yy (atlas -0429 uyumlu), t=-0270 (271 MÖ) okunmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bruttii-birligi",
+  "ad": "Brettii Birliği",
+  "tur": "konfederasyon",
+  "bolge": "italya",
+  "f": "-0355-01-01",
+  "t": "-0202-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Consentia",
+  "etkin_bolge": "Kalabria",
+  "sehirler": [
+   "Consentia",
+   "Hipponion",
+   "Petelia"
+  ],
+  "ozet": "Lukanlardan ayrılan Brettii kabilesi (MÖ 356); Hannibal'e bağlandı, MÖ 203'te teslim.",
+  "oncul": [
+   "lukan-birligi"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Bruzi' (https://www.treccani.it/enciclopedia/bruzi/): «durante il 4° sec. a.C. si stabilì nel territorio dell'attuale Calabria ... Formarono una confederazione di città (Consentia, Aufugum, Bergae, Besidiae, Ocriculum ...), che nel 3° sec. a.C. raggiunsero grande potenza»."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş MÖ 356/355. [Tur2] f=-0355 (356 MÖ) ve t=-0202 (203 MÖ) bu turda okunmadı; 4. yy yerleşim ve 3. yy gücü okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "umbri-kabile",
+  "ad": "Umbri Şehir Birlikleri",
+  "tur": "kabile-konfederasyon",
+  "bolge": "italya",
+  "f": null,
+  "t": "-0264-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "onyil"
+  },
+  "baskent": "Iguvium",
+  "etkin_bolge": "Umbria",
+  "sehirler": [
+   "Iguvium",
+   "Tuder",
+   "Ameria"
+  ],
+  "ozet": "Umbria kabile-şehir toplulukları (Iguvine Tabletleri); Roma'ya MÖ 295-266 arasında katıldı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Umbri' (https://www.treccani.it/enciclopedia/umbri/): Sentinum 295 MÖ; 283 Sena, 268 Ariminum, 266'da Sarsina yenildi; 4. yy'dan itibaren yazı, para, kentleşme."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç yıl bilinmiyor. [Tur2] Tek devlet değil; f null. t=-0264 (265 MÖ): Treccani 266 Sarsina fethi ile yakın.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "insubres-kabile-devleti",
+  "ad": "Insubres Kelt Birliği",
+  "tur": "kabile-konfederasyon",
+  "bolge": "italya",
+  "f": "-0399-01-01",
+  "t": "-0221-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Mediolanum",
+  "etkin_bolge": "Lombardiya",
+  "sehirler": [
+   "Mediolanum",
+   "Comum"
+  ],
+  "ozet": "Po vadisine yerleşen Kelt (Insubres) birliği; MÖ 222'de Roma Mediolanum'u aldı.",
+  "oncul": [
+   "golasecca-kulturu"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Polybios 2.17 (Perseus:text:1999.01.0234:book=2:chapter=17): «the Insubres settled in the country, the largest tribe of all; and next them ... the Cenomani»; 2.34 (Evelyn Shuckburgh çevirisi, 'B. C. 222'): Marcellus ve Gnaeus Cornelius Scipio, Acerrae kuşatması, Insubres'in başkenti Mediolanum'a çekilmesi.",
+   "Treccani, Enciclopedia on line, 'Insubri' (https://www.treccani.it/enciclopedia/insubri/): «Popolazione celtica ... stanziatasi nell'Italia settentrionale, tra il Ticino e il Lago di Como, sullo scorcio del 5° sec. a.C.»; 225'te Talamone'de yenildiler, «sottomessi da Marco Claudio Marcello dopo la battaglia di Clastidio (222)»; 49 MÖ'de Roma vatandaşlığı."
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Livius'a göre MÖ ~600 efsanesi; arkeolojiye göre MÖ 4. yy. Bitiş MÖ 222. [Tur2] f=-0399 (400 MÖ): Treccani '5. yy sonu' ile uyumlu. t=222 MÖ (=-0221) iki kaynakta okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "boii-kabile-devleti",
+  "ad": "Boii Kelt Birliği (Po vadisi)",
+  "tur": "kabile-konfederasyon",
+  "bolge": "italya",
+  "f": "-0399-01-01",
+  "t": "-0190-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Felsina/Bononia",
+  "etkin_bolge": "Emilia-Romagna",
+  "sehirler": [
+   "Bononia",
+   "Mutina"
+  ],
+  "ozet": "Boiiler Etrüsk Felsina'yı aldı; MÖ 191-190'da Roma yendi, birçoğu Bohemya'ya göçtü.",
+  "oncul": [
+   "etrusk-felsina"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Boi' (https://www.treccani.it/enciclopedia/boi/): «un nucleo dalla Gallia transalpina invase l'Italia settentrionale (5° sec. a.C.) e si stabilì fra Modena e Felsina»; 283'te Vadimone gölünde ve 224'te Telamon'da yenildiler; «furono definitivamente assoggettati nel 191»."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": " [Tur2] t=191 MÖ (=-0190) Treccani ile birebir. f 5. yy (atlas -0399, 4. yy başı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "senones-kabile-devleti",
+  "ad": "Senones Kelt Birliği",
+  "tur": "kabile-konfederasyon",
+  "bolge": "italya",
+  "f": "-0399-01-01",
+  "t": "-0282-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Sena Gallica",
+  "etkin_bolge": "Adriyatik kıyısı, Marche",
+  "sehirler": [
+   "Sena Gallica",
+   "Ariminum"
+  ],
+  "ozet": "MÖ 390'da Roma'yı yağmalayan Kelt kabilesi; MÖ 283-282 Roma tarafından topraklarından atıldı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Senoni' (https://www.treccani.it/enciclopedia/senoni/): «Popolazione celtica stanziata sull'Adriatico tra Ancona e Rimini (inizi 4° sec. a.C.) ... Nel 283 a.C. furono sottomessi dai Romani che stabilirono nel territorio le colonie di Sena (Gallica) e Ariminum»."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": " [Tur2] t=283 MÖ (=-0282) okundu. f '4. yy başı' (atlas -0399 uyumlu).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "cenomani-kabile-devleti",
+  "ad": "Cenomani Kelt Birliği",
+  "tur": "kabile-konfederasyon",
+  "bolge": "italya",
+  "f": "-0399-01-01",
+  "t": "-0196-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Brixia",
+  "etkin_bolge": "Brescia-Verona",
+  "sehirler": [
+   "Brixia",
+   "Verona",
+   "Cremona"
+  ],
+  "ozet": "Cenomani Po kuzey yakası Keltleri; Roma müttefiki, MÖ 197-196'da Roma topraklarına katıldı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Polybios 2.17: Insubres'in yanında Cenomani Po boyunda.",
+   "Treccani, Enciclopedia on line, 'Cenomani': Roma-Insubres savaşında Romalıları destekledi (Marcellus zaferi, 222)."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": " [Tur2] t=-0196 (197 MÖ) bu turda okunmadı; Cenomani 222'de Roma müttefikiydi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sikel-birligi-ducetius",
+  "ad": "Sikel Birliği (Ducetius)",
+  "tur": "konfederasyon",
+  "bolge": "italya",
+  "f": "-0457-01-01",
+  "t": "-0438-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Palike (Menai)",
+  "etkin_bolge": "Sicilya iç",
+  "sehirler": [
+   "Menai",
+   "Palike"
+  ],
+  "ozet": "Sikel kralı Ducetius'un Yunan şehirlerine karşı kurduğu yerli birlik; yenilgi ve sürgün, MÖ 440'ta ölüm.",
+  "oncul": [],
+  "ardil": [
+   "sirakuza"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Siculi' (https://www.treccani.it/enciclopedia/siculi/): «I tentativi di affrancamento, come quello guidato da Ducezio nel 5° sec., non ebbero esito duraturo»."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler Diodoros'a dayanır, ±5 yıl. [Tur2] -0457..-0438 (458-439 MÖ) yılları Treccani'de yok; Ducetius yalnız '5. yy'.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kartaca-sicilya",
+  "ad": "Kartaca Sicilyası (Epikrateia)",
+  "tur": "sehir-devleti-imparatorluk",
+  "bolge": "italya",
+  "f": "-0408-01-01",
+  "t": "-0240-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Lilybaion/Panormos",
+  "etkin_bolge": "Batı Sicilya",
+  "sehirler": [
+   "Panormos",
+   "Lilybaion",
+   "Drepana",
+   "Akragas (dönemsel)"
+  ],
+  "ozet": "MÖ 409'dan itibaren Kartaca'nın Sicilya'daki egemen bölgesi; I. Pön Savaşı sonunda (MÖ 241) Roma'ya bırakıldı.",
+  "oncul": [
+   "mozia",
+   "selinous",
+   "himera"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Fenike kolonileri erkenden; 'epikrateia' sınırı sürekli oynadı. Kartaca'nın dilimi (kartaca) olarak da düşünülebilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "mamertin-devleti",
+  "ad": "Mamertinler (Messana)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0287-01-01",
+  "t": "-0263-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Messana",
+  "etkin_bolge": "Kuzeydoğu Sicilya",
+  "sehirler": [
+   "Messana"
+  ],
+  "ozet": "Agathokles'in Kampanyalı paralı askerleri Messana'yı aldı (~MÖ 289-288); MÖ 264'te Roma'dan yardım istediler (I. Pön Savaşı).",
+  "oncul": [
+   "zankle-messana"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ 289/288; antlaşma MÖ 264/263.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "italia-birligi-sosyal-savas",
+  "ad": "İtalya Birliği (Sosyal Savaş isyancıları)",
+  "tur": "konfederasyon",
+  "bolge": "italya",
+  "f": "-0089-01-01",
+  "t": "-0086-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Corfinium (Italica)",
+  "etkin_bolge": "Orta-güney Apenin",
+  "sehirler": [
+   "Corfinium",
+   "Asculum",
+   "Bovianum"
+  ],
+  "ozet": "Marsi, Samnit ve Oskan müttefiklerin Roma'ya karşı kurduğu karşı-devlet (Italia); Lex Julia ile dağıldı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Savaş MÖ 91-88; Italica meclis MÖ 90.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "roma-imp",
+  "ad": "Roma İmparatorluğu (Prinkipat ve Dominat, tek künye)",
+  "tur": "imparatorluk",
+  "bolge": "italya",
+  "f": "-0026-01-16",
+  "t": "0395-01-17",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Roma → (330'dan sonra Konstantinopolis; Batı'da Mediolanum, Ravenna)",
+  "etkin_bolge": "Akdeniz çevresi, Avrupa, Yakın Doğu",
+  "sehirler": [
+   "Roma",
+   "Konstantinopolis",
+   "Mediolanum",
+   "Ravenna"
+  ],
+  "ozet": "Augustus'tan Theodosius I'in ölümüne kadar birleşik Roma Devleti: Prinkipat (MÖ 27-MS 284), Dominat (284-395). 395'te Doğu ve Batı olarak kalıcı biçimde ikiye ayrıldı.",
+  "oncul": [
+   "roma-cumhuriyeti"
+  ],
+  "ardil": [
+   "bati-roma",
+   "bizans"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Cassius Dio, Roma Tarihi 53.16-17 (Loeb, Cary), LacusCurtius/Thayer metni (https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/53*.html): Caesar'a senato ve halk tarafından 'Augustus' unvanı verildi; 'bundan sonra katı anlamda bir monark vardı'.",
+   "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml): «Idibus ... redditaque est omnis populo provincia nostro et tuus Augusto nomine dictus avus» (Ocak İdus'u).",
+   "Treccani, Enciclopedia on line, 'Principato' (https://www.treccani.it/enciclopedia/principato/): Prinkipat, Augustus'un MÖ 1. yy sonunda Cumhuriyet düzeni ile monarşik talepleri uzlaştırmasıyla doğdu."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Prinkipat -0026-01-16..0284-11-20 (Diocletianus), Dominat 0284..0395-01-17. 395 sonrası Doğu Roma (bizans) başka oturumda. Bati Roma'nın bolge alanı bati-avrupa; bu dilimde italya önerilir. [Tur2] Gün çelişkisi: Ovidius Ocak İdus'u (13 Ocak); atlasın -0026-01-16 (=16 Ocak 27 MÖ) günü Fasti Praenestini'ye dayanır, bu turda okunmadı. Dio 53.16 günü vermez. Yıl 27 MÖ iki kaynakla tutarlı (Dio konsüller listesi: MÖ 27 Caesar VII, Agrippa III). t=395-01-17 bu turda okunmadı (Treccani Arcadio: 395 ölüm). Dominat sınırı (284) okunmadı. [Tur2] Treccani, 'Roma' (https://www.treccani.it/enciclopedia/roma/): «Il compito cui Ottaviano, poi Augusto, attese nei primi anni del principato (27 a.C. - 14 d.C.)» - 27 MÖ yıl düzeyinde üçüncü kaynak.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "roma-imp",
+   "not": ""
+  }
+ },
+ {
+  "id": "galya-imparatorlugu",
+  "ad": "Galya İmparatorluğu (Imperium Galliarum)",
+  "tur": "imparatorluk",
+  "bolge": "italya",
+  "f": "0260-01-01",
+  "t": "0273-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Augusta Treverorum (Trier) / Colonia Agrippina",
+  "etkin_bolge": "Galya, Britanya, Hispania (kısmen)",
+  "sehirler": [
+   "Trier",
+   "Köln",
+   "Lugdunum"
+  ],
+  "ozet": "Postumus'un 260'ta Roma'dan ayrılarak kurduğu ayrılıkçı imparatorluk; Aurelianus 274'te Tetricus'u Châlons'ta yendi.",
+  "oncul": [
+   "roma-imp"
+  ],
+  "ardil": [
+   "roma-imp"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Tetrico' (https://www.treccani.it/enciclopedia/tetrico/): «Ultimo degli usurpatori della dignità imperiale in Gallia ... (270 d. C.) fu scelto come successore di Vittorino ... l'imperatore Aureliano marciò contro di lui e nella battaglia ai Campi Catalaunici lo fece prigioniero (273 circa)»",
+   "Treccani, 'Aureliano' (https://www.treccani.it/enciclopedia/aureliano/): «passò in Gallia e sgominò le legioni di Esuvio Tetrico ai Campi Catalauni; nel 274 celebrò il trionfo»",
+   "Treccani, 'Gallieno': Gallieno 253-260 Valerianus ile birlikte hüküm sürdü."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Postumus başlangıcı 260 (sonbahar); bitiş Aurelianus zaferi 274. bolge sözlük: bati-avrupa (önerilen). Ayrılıkçı bölge, Roma tekliği ile çakışır. [Tur2: taslak t degeri: 0274-01-01] [Tur2] Taslak t=274 (Aurelianus'un zafer töreni) yerine fiilî son 273 civarı (Catalaunian Fields, Treccani). Postumus ile f=260 ve Gallia İmparatorluğu'nun kuruluşu bu turda okunmadı (Treccani 'Postumo' maddesi tıbbi 'postumo' çıktı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "palmira-imparatorlugu",
+  "ad": "Palmira İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "suriye-filistin",
+  "f": "0260-01-01",
+  "t": "0272-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Palmira",
+  "etkin_bolge": "Suriye, Mısır, Anadolu (kısmen)",
+  "sehirler": [
+   "Palmira",
+   "Antiokheia",
+   "Aleksandria"
+  ],
+  "ozet": "Odaenathus'un Roma adına Doğu'da fiilî hâkimiyeti (260/262); Zenobia ve Vaballathus döneminde ayrıldı; Aurelianus 272-273'te yıktı.",
+  "oncul": [
+   "roma-imp"
+  ],
+  "ardil": [
+   "roma-imp"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Palmira' (https://www.treccani.it/enciclopedia/palmira/): «nel 259-60 circa, l'esercito di P. fu in grado di intervenire ... Autore della vittoria fu Odenato, sotto il quale la città assunse una progressiva potenza»; Odenato 267'de öldü, oğlu Vaballato ve Zenobia; Roma otoritesi tanınmaz (271); «nel 272, presso Emesa, [Aureliano] inflisse all'esercito palmireno una decisiva disfatta».",
+   "Treccani, 'Zenobia' (https://www.treccani.it/enciclopedia/zenobia/): Odenato'nun ölümü (266-67) sonrası iktidar; 270'te Aureliano ile anlaşma; kendi parası, Vaballato 'Imperator Caesar Augustus'."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç 260 (Odaenathus) ya da 267/270 (Zenobia ayrılışı). Bitiş 272 (Zenobia esir), Palmira isyanı 273. bolge önerisi: suriye-filistin. [Tur2] t=272 (Emesa) okundu, atlas uyumlu. f=260: Odenato'nun 259-60 Pers zaferi (Treccani) Palmira'nın fiilî özerkliğinin başlangıcı; ayrı 'imparatorluk' ilanı 271 (Vaballato). Seçim: 260 mu 267 mi 271 mi - 'kuruluş' tanımı kararı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "britanya-imparatorlugu-carausius",
+  "ad": "Britanya Galya Ayrılıkçı Devleti (Carausius ve Allectus)",
+  "tur": "imparatorluk",
+  "bolge": "bati-avrupa",
+  "f": "0286-01-01",
+  "t": "0296-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Londinium / Gesoriacum",
+  "etkin_bolge": "Britanya, Kuzey Galya kıyısı",
+  "sehirler": [
+   "Londinium",
+   "Boulogne"
+  ],
+  "ozet": "Carausius'un 286'da Britanya'da imparatorluğunu ilan etmesi; Constantius Chlorus 296'da Allectus'u yendi.",
+  "oncul": [
+   "roma-imp"
+  ],
+  "ardil": [
+   "roma-imp"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Carausio' (https://www.treccani.it/enciclopedia/carausio/): «Usurpatore dell'Impero romano in Britannia dal 286 al 293 ... nel 289 sconfisse le truppe di Massimiano ... Nel 293 fu assassinato da Allecto»",
+   "Treccani, 'Allecto' (https://www.treccani.it/enciclopedia/allecto/): «Usurpatore ... in Britannia dal 293 sino al 296 d. C., quando fu vinto e ucciso dalle truppe di Costanzo Cloro, presso Londra»"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "bolge önerisi bati-avrupa. Atlas çekirdeğinde olmayabilir. [Tur2] f=286 (Carausius), t=296 (Allectus'un yenilişi): iki Treccani maddesi birebir uyumlu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "cottius-krallik",
+  "ad": "Cottius Krallığı (Alpes Cottiae)",
+  "tur": "krallik",
+  "bolge": "italya",
+  "f": null,
+  "t": "0063-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Segusio (Susa)",
+  "etkin_bolge": "Cottiya Alpleri",
+  "sehirler": [
+   "Segusio"
+  ],
+  "ozet": "Roma'ya bağlı Alp prensliği; Cottius II'nin ölümünden sonra Nero döneminde (63) eyalete çevrildi.",
+  "oncul": [],
+  "ardil": [
+   "roma-imp"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç: Augustus'un Cottius I'i tanıması (Susa Takı, MÖ 9/8); yıl bilinmiyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "odoakar",
+  "ad": "Odoakar'ın İtalya Krallığı",
+  "tur": "krallik",
+  "bolge": "italya",
+  "f": "0476-08-23",
+  "t": "0493-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "Ravenna",
+  "etkin_bolge": "İtalya",
+  "sehirler": [
+   "Ravenna",
+   "Roma",
+   "Pavia"
+  ],
+  "ozet": "Odoakar 476'da Romulus Augustulus'u tahttan indirip kral ilan edildi; 493'te Theodorik tarafından Ravenna'da öldürüldü.",
+  "oncul": [
+   "bati-roma"
+  ],
+  "ardil": [
+   "dogu-got"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "G. Scrofani, 'Odoacre', Dizionario Biografico degli Italiani, vol. 79 (2013), Treccani (https://www.treccani.it/enciclopedia/odoacre/): «il 23 agosto 476 [l'esercito riunito a Pavia] proclamò Odoacre rex»; Odoacre «fece il suo ingresso a Ravenna nei primi di settembre, depose Romolo Augusto»; Giulio Nepote'nin ölümü 480; 489 Teodorico İsonzo ve Verona'da yendi; Adda 490; «nel 493 l'arcivescovo Giovanni di Ravenna ... negoziare un accordo: dividere il governo»; üç yıl kuşatmadan sonra Teodorico şehre girdi.",
+   "Treccani, Enciclopedia on line, 'Odoacre' (https://www.treccani.it/enciclopedia/odoacre/): «n. circa 434 - m. Ravenna 493»; Romolo Augustolo'yu 476'da devirdi; rex gentium.",
+   "Treccani, Enciclopedia on line, 'Teodorico': Odoacre üç yıl direndikten sonra teslim oldu; Teodorico onu öldürdü."
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Atlas künyesi uyumlu. [Tur2: taslak t degeri: 0493-03-05] [Tur2] f=476-08-23 (rex ilanı, DBI) okundu; Romulus'un tahttan indirilmesi Eylül başı (DBI 'primi di settembre'). t: 493 yılı iki kaynakta; atlasın 493-03-05 günü bu turda okunmadı -> yıl hassasiyeti. Odoakar 480'e kadar Nepos'u meşru Augustus saydı ve Zenon adına vikar olarak yönetti.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "odoakar",
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-roma",
+  "ad": "Batı Roma İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "italya",
+  "f": "0395-01-17",
+  "t": "0476-09-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Mediolanum → Ravenna",
+  "etkin_bolge": "İtalya, Galya (kısmen), İspanya, Kuzey Afrika (kısmen)",
+  "sehirler": [
+   "Mediolanum",
+   "Ravenna",
+   "Roma"
+  ],
+  "ozet": "395'te Theodosius'un ölümüyle Honorius'a kalan yarı; 476'da Romulus Augustulus'un tahtan indirilmesi (geleneksel son).",
+  "oncul": [
+   "roma-imp"
+  ],
+  "ardil": [
+   "odoakar"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Arcadio' (https://www.treccani.it/enciclopedia/arcadio/): «alla morte di questo [Teodosio I] (395) ereditò solo la parte orientale dell'Impero, mentre l'occidentale spettò al fratello Onorio».",
+   "Treccani, Enciclopedia on line, 'Romolo Augustolo' (https://www.treccani.it/enciclopedia/romolo-augustolo/): «Ultimo imperatore romano d'Occidente (475-476 d. C.)»; Oreste'nin oğlu 475'te Augustus ilan edildi.",
+   "G. Scrofani, 'Odoacre', DBI 79 (2013): Odoacre Eylül başında Ravenna'ya girip Romolo Augusto'yu deposed etti.",
+   "Treccani, Enciclopedia on line, 'Giulio Nepote': Nepos 480'de öldürülene kadar unvanını korudu (Dalmaçya)."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas t=0476-08-28; geleneksel 4 Eylül 476 (Romulus'un devrilmesi), 23 Ağustos 476 (Odoakar ilanı). Bolge: atlas bati-avrupa; İtalya merkezli oluşuna göre italya önerilir. [Tur2: taslak t degeri: 0476-09-04] [Tur2] Yeni tarih (t) Odoakar kaydıyla birlikte: Romulus'un indirilişi Eylül 476 başı (DBI 'primi di settembre'); geleneksel 4 Eylül bu turda okunmadı (taslak 09-04; atlas künyesi 08-28 hiçbir kaynakta yok, 23 Ağustos ise Odoakar'ın rex ilanıdır). Batı imparatorluğunun 'hukukî' sonu Nepos'un ölümü (480) sayılabilir (Treccani 'Giulio Nepote', DBI Odoacre): kaynakta çelişki, 480 alternatif son. f=395: yıl okundu (Treccani Arcadio), 17 Ocak günü okunmadı (Theodosius'un ölümü). Atlasta bolge=bati-avrupa: İtalya merkezli (Mediolanum/Ravenna), 'italya' önerilir.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "bati-roma",
+   "not": ""
+  }
+ },
+ {
+  "id": "dogu-got",
+  "ad": "Doğu Got (Ostrogot) Krallığı",
+  "tur": "krallik",
+  "bolge": "italya",
+  "f": "0493-01-01",
+  "t": "0552-10-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Ravenna",
+  "etkin_bolge": "İtalya, Dalmaçya, Sicilya, Provence (kısmen)",
+  "sehirler": [
+   "Ravenna",
+   "Roma",
+   "Pavia",
+   "Verona"
+  ],
+  "ozet": "Theodorik'in 493'te Odoakar'ı yenmesiyle kuruldu; Bizans'ın Gotik Savaşı (535-554) sonrasında 553 civarı düştü.",
+  "oncul": [
+   "odoakar"
+  ],
+  "ardil": [
+   "ravenna-eksarhligi"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Teodorico' (https://www.treccani.it/enciclopedia/teodorico/): 454 civarı - 526; 474'te babası Teodemiro'nun halefi; Odoacre'yi yenip (493) İtalya'daki Ostrogot krallığının hükümdarı oldu.",
+   "Treccani, Enciclopedia on line, 'Ostrogoti' (https://www.treccani.it/enciclopedia/ostrogoti/): başkentler Ravenna ve Pavia, Verona üçüncü merkez; Tagina (552) Totila ölümü; «nella battaglia del Monte Lattaio, presso il Vesuvio, nell'ottobre del 552: Teia, ultimo re degli O., cadde sul campo»; son garnizon Conza 555.",
+   "G. Scrofani, 'Odoacre', DBI 79: Teodorico 489'da İtalya'ya girdi; 493'te Ravenna'ya girdi."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Teia ölümü 552/553; direniş sürdü; bitiş yıl düzeyinde. [Tur2: taslak f degeri: 0493-03-05] [Tur2: taslak t degeri: 0553-01-01] [Tur2] f: Teodorico'nun İtalya'ya girişi 488/489, Ravenna'ya girişi 493 (iki kaynak); atlas 493-03-05 günü okunmadı -> yıl. t: Monte Lattari Ekim 552'de Teia'nın düşmesi (Treccani) -> 0552-10-01; son garnizon Conza 555 (Treccani) ve Pragmatica Sanctio 554 seçilebilir: taslak 553 hiç desteklenmedi. Kuruluş tanımı: Teodorico'nun rex olarak tanınması (497, Anastasius) bu turda okunmadı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-got",
+   "not": ""
+  }
+ }
+]

@@ -1,0 +1,908 @@
+{
+ "parti": 95,
+ "sonuclar": [
+  {
+   "ad": "Besalú",
+   "durum": "cift_tanik",
+   "lat": 42.1995,
+   "lon": 2.6985,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Besalú",
+   "ulke_modern": "İspanya (Katalonya)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 3128096",
+     "lat": 42.19893,
+     "lon": 2.69953,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7007482",
+     "lat": 42.19985,
+     "lon": 2.698501,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2779120",
+     "lat": 42.199167,
+     "lon": 2.697778,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Cerdanya",
+   "durum": "bolge_adi",
+   "lat": 42.4466,
+   "lon": 1.9528,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Cerdanya/Cerdagne (kontluk bölgesi)",
+   "ulke_modern": "İspanya/Fransa",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2074659 Cerdaña",
+     "lat": 42.4466,
+     "lon": 1.9528,
+     "not": "administrative-unit"
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7338326 Cerdagne",
+     "lat": 42.45,
+     "lon": 1.966667,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Kontluk/bölge adı; bölge merkezi yaklaşık. Puigcerdà 1177'de kuruldu (1118'den sonra), şehir eşlemesi yanlış olur."
+  },
+  {
+   "ad": "Trablusgarp",
+   "durum": "cift_tanik",
+   "lat": 32.8925,
+   "lon": 13.18,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Trablus (Tripoli)",
+   "ulke_modern": "Libya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades Oea (önceki tur)",
+     "url_veya_atif": "pleiades Oea",
+     "lat": 32.898,
+     "lon": 13.175,
+     "not": "antik Oea, bağımsız"
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7000630 Ṭarābulus, Libya",
+     "lat": 32.892,
+     "lon": 13.18,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2765580 Tripoli",
+     "lat": 32.87519,
+     "lon": 13.18746,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Kıta/ülke uyumu: 1146'da II. Roger'in Sicilya Krallığı Libya Trablusu'nu aldı (Afrika), Lübnan Trablusu değil. Pleiades antik Oea ile TGN bağımsız."
+  },
+  {
+   "ad": "Meriye",
+   "durum": "cift_tanik",
+   "lat": 36.836,
+   "lon": -2.455,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Almería",
+   "ulke_modern": "İspanya (Endülüs)",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2359875 (adlar: المرية, Portus Magnus)",
+     "lat": 36.83814,
+     "lon": -2.45974,
+     "not": "kimlik: Arapça ad al-Mariyya"
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7007262 Almería",
+     "lat": 36.83333,
+     "lon": -2.45,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Pleiades 'Portus Magnus' Cezayir'dir, kullanılmadı."
+  },
+  {
+   "ad": "Üşbûne",
+   "durum": "cift_tanik",
+   "lat": 38.7195,
+   "lon": -9.14,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Lizbon",
+   "ulke_modern": "Portekiz",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 256338 Olisipo",
+     "url_veya_atif": "pleiades.stoa.org/places/256338",
+     "lat": 38.707166,
+     "lon": -9.135507,
+     "not": "bağımsız"
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7764469 Lisboa",
+     "lat": 38.74378,
+     "lon": -9.15527,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2345198",
+     "lat": 38.71901,
+     "lon": -9.144574,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Pleiades (antik Olisipo) TGN'den bağımsız; ~4 km içinde."
+  },
+  {
+   "ad": "Turtûşe",
+   "durum": "cift_tanik",
+   "lat": 40.8125,
+   "lon": 0.5216,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tortosa",
+   "ulke_modern": "İspanya (Katalonya)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 3107677 Tortosa",
+     "lat": 40.81249,
+     "lon": 0.5216,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7008749 Tortosa, Tarragona",
+     "lat": 40.8,
+     "lon": 0.516667,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2359868",
+     "lat": 40.81249,
+     "lon": 0.5216,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Kıta uyumu: 1148 Barselona kontu (Katalonya); Suriye Tartus elendi."
+  },
+  {
+   "ad": "Pontida",
+   "durum": "cift_tanik",
+   "lat": 45.73,
+   "lon": 9.51,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Pontida",
+   "ulke_modern": "İtalya (Bergamo)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 3170198",
+     "lat": 45.73129,
+     "lon": 9.51141,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7005839 Pontida, Bergamo",
+     "lat": 45.71666,
+     "lon": 9.5,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Lombard Birliği yemini geleneği Pontida manastırına bağlıdır (Pontida, Bergamo yakını)."
+  },
+  {
+   "ad": "Windsor",
+   "durum": "cift_tanik",
+   "lat": 51.4835,
+   "lon": -0.6025,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Windsor",
+   "ulke_modern": "İngiltere",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7011919 Windsor, Windsor and Maidenhead",
+     "lat": 51.48333,
+     "lon": -0.6,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2099529 Windsor",
+     "lat": 51.48333,
+     "lon": -0.6,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2098005 Windsor Castle",
+     "lat": 51.48365,
+     "lon": -0.60502,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Avustralya/Kanada Windsor'ları elendi; 1175 Windsor Antlaşması İngiltere'dedir."
+  },
+  {
+   "ad": "Ulcinj",
+   "durum": "cift_tanik",
+   "lat": 41.931,
+   "lon": 19.22,
+   "tur": "liman",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ulcinj",
+   "ulke_modern": "Karadağ",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 3188516",
+     "lat": 41.92936,
+     "lon": 19.22436,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7015408 Ulcinj",
+     "lat": 41.9333,
+     "lon": 19.2,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Svač",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "",
+   "konum_kesinligi": "",
+   "esanlam_modern": "Šas/Svač harabesi (Ulcinj'in doğusu)",
+   "ulke_modern": "Karadağ",
+   "tanik": [
+    {
+     "kaynak": "Vikipedi Šas (bağımsız sayılmaz)",
+     "url_veya_atif": "en.wikipedia.org/wiki/Šas",
+     "lat": 41.9883,
+     "lon": 19.3186,
+     "not": "41°59′18″N 19°19′07″E, köy"
+    },
+    {
+     "kaynak": "ul-gov.me",
+     "url_veya_atif": "ul-gov.me Old Town Shas",
+     "lat": null,
+     "lon": null,
+     "not": "kimlik: Ulcinj'e bağlı eski şehir Shas, Šas Gölü kuzeyi"
+    }
+   ],
+   "hesap": "",
+   "not": "Önceki turdaki Ulcinj eşlemesi YANLIŞ (ayrı, ~12 km doğuda harabe). İkinci bağımsız koordinat kaynağı bulunamadı; aday 41.988,19.319 (tek tanık)."
+  },
+  {
+   "ad": "Bonifacio",
+   "durum": "cift_tanik",
+   "lat": 41.387,
+   "lon": 9.158,
+   "tur": "liman",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Bonifacio",
+   "ulke_modern": "Fransa (Korsika)",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2079652 (gn 3031801)",
+     "lat": 41.3874,
+     "lon": 9.15941,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7008962 Bonifacio, Corsica",
+     "lat": 41.38681,
+     "lon": 9.156876,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Château-Gaillard",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "",
+   "konum_kesinligi": "",
+   "esanlam_modern": "Château Gaillard, Les Andelys",
+   "ulke_modern": "Fransa (Normandiya)",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 1100272 Gaillard, Château",
+     "lat": 49.2167,
+     "lon": 1.4167,
+     "not": "yaklaşık"
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 1033969 Les Andelys",
+     "lat": 49.24586,
+     "lon": 1.420621,
+     "not": "aynı kaynak"
+    }
+   ],
+   "hesap": "",
+   "not": "Önceki GeoNames eşlemesi (Ain, 45.97,5.30) YANLIŞ; doğru yer Normandiya, Les Andelys (~49.24,1.41). Yalnız TGN bulundu, ikinci bağımsız tanık yok."
+  },
+  {
+   "ad": "Muret",
+   "durum": "cift_tanik",
+   "lat": 43.463,
+   "lon": 1.326,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Muret",
+   "ulke_modern": "Fransa (Haute-Garonne)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 2991153",
+     "lat": 43.45998,
+     "lon": 1.32541,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7009385 Muret, Occitanie",
+     "lat": 43.46587,
+     "lon": 1.327316,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Peremışl",
+   "durum": "cift_tanik",
+   "lat": 49.784,
+   "lon": 22.775,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Przemyśl",
+   "ulke_modern": "Polonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 761168",
+     "lat": 49.78498,
+     "lon": 22.76728,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7003385 Przemyśl",
+     "lat": 49.7833,
+     "lon": 22.7833,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Viljandi",
+   "durum": "cift_tanik",
+   "lat": 58.363,
+   "lon": 25.592,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Viljandi",
+   "ulke_modern": "Estonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 587577",
+     "lat": 58.36319,
+     "lon": 25.59159,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 1061230 Viljandi",
+     "lat": 58.363,
+     "lon": 25.593,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 8717020 Viljandi Linn",
+     "lat": 58.35989,
+     "lon": 25.59126,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Fellin",
+   "durum": "cift_tanik",
+   "lat": 58.363,
+   "lon": 25.592,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Viljandi",
+   "ulke_modern": "Estonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 587577",
+     "lat": 58.36319,
+     "lon": 25.59159,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 1061230 (Fellin varyant adı)",
+     "lat": 58.363,
+     "lon": 25.593,
+     "not": "kimlik: Fellin = Viljandi"
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Lyndanise",
+   "durum": "cift_tanik",
+   "lat": 59.4335,
+   "lon": 24.745,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tallinn",
+   "ulke_modern": "Estonya",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2063671 Tallinn (adlar: Lyndanisse, Reval)",
+     "lat": 59.4332,
+     "lon": 24.7501,
+     "not": "kimlik"
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7006629 Tallinn",
+     "lat": 59.433,
+     "lon": 24.728,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames Tallinn",
+     "lat": 59.43696,
+     "lon": 24.75353,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Bornhöved",
+   "durum": "cift_tanik",
+   "lat": 54.067,
+   "lon": 10.23,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Bornhöved",
+   "ulke_modern": "Almanya (Schleswig-Holstein)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 2946100",
+     "lat": 54.06798,
+     "lon": 10.2279,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7005967 Bornhöved",
+     "lat": 54.06666,
+     "lon": 10.23333,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Muhi",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "",
+   "konum_kesinligi": "",
+   "esanlam_modern": "Muhi (Sajó kıyısı)",
+   "ulke_modern": "Macaristan",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7594127 Muhi, Borsod-Abaúj-Zemplén",
+     "lat": 47.98333,
+     "lon": 20.93333,
+     "not": "doğru yer; önceki Mali eşlemesi yanlış"
+    },
+    {
+     "kaynak": "Vikipedi (bağımsız değil)",
+     "url_veya_atif": "Battle of Mohi",
+     "lat": 47.978,
+     "lon": 20.913,
+     "not": "savaş alanı"
+    }
+   ],
+   "hesap": "",
+   "not": "Önceki GeoNames eşlemesi (Mali) YANLIŞ. Macaristan Muhi ~47.98,20.93 yalnız TGN ile; ikinci bağımsız koordinat bulunamadı."
+  },
+  {
+   "ad": "Yaroslav",
+   "durum": "cift_tanik",
+   "lat": 50.01,
+   "lon": 22.672,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Jarosław",
+   "ulke_modern": "Polonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 770380",
+     "lat": 50.01623,
+     "lon": 22.67776,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7007679 Jarosław",
+     "lat": 50.0,
+     "lon": 22.6667,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Kıta uyumu: Danilo/Galiçya-Polonya-Macar koalisyonu, Rusya'daki Yaroslavl elendi."
+  },
+  {
+   "ad": "Jarosław",
+   "durum": "cift_tanik",
+   "lat": 50.01,
+   "lon": 22.672,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Jarosław",
+   "ulke_modern": "Polonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 770380",
+     "lat": 50.01623,
+     "lon": 22.67776,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7007679 Jarosław",
+     "lat": 50.0,
+     "lon": 22.6667,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir. Yaroslavl (57.63,39.87) 1245 bağlamına uymaz, elendi."
+  },
+  {
+   "ad": "Ceyyân",
+   "durum": "cift_tanik",
+   "lat": 37.77,
+   "lon": -3.787,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Jaén",
+   "ulke_modern": "İspanya (Endülüs)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 302942693",
+     "url_veya_atif": "pleiades.stoa.org",
+     "lat": 37.7728858,
+     "lon": -3.7883289,
+     "not": "bağımsız"
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7007824 Jaén",
+     "lat": 37.76666,
+     "lon": -3.78333,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2090034 (adlar: Yayyan)",
+     "lat": 37.76922,
+     "lon": -3.79028,
+     "not": "kimlik: Arapça Jayyān"
+    }
+   ],
+   "hesap": "",
+   "not": "Pleiades TGN'den bağımsız; <1 km."
+  },
+  {
+   "ad": "Häme",
+   "durum": "bolge_adi",
+   "lat": 60.83,
+   "lon": 24.25,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Kanta-Häme/Tavastia",
+   "ulke_modern": "Finlandiya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7594382 Kanta-Häme",
+     "lat": 60.83333,
+     "lon": 24.25,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7003797 Hämeen Lääni",
+     "lat": 61.5,
+     "lon": 24.5,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Bölge adı (Tavastland). Önceki Hamme (Belçika) eşlemesi yanlıştı."
+  },
+  {
+   "ad": "Tavastehus",
+   "durum": "cift_tanik",
+   "lat": 60.998,
+   "lon": 24.45,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Hämeenlinna",
+   "ulke_modern": "Finlandiya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 659180",
+     "lat": 60.99596,
+     "lon": 24.46434,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7009878 Hämeenlinna (İsveççe Tavastehus)",
+     "lat": 61.0,
+     "lon": 24.4167,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Stockholm",
+   "durum": "cift_tanik",
+   "lat": 59.331,
+   "lon": 18.07,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Stockholm",
+   "ulke_modern": "İsveç",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 2673730",
+     "lat": 59.32938,
+     "lon": 18.06871,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7009861 Stockholm",
+     "lat": 59.3333,
+     "lon": 18.0833,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2065529",
+     "lat": 59.33258,
+     "lon": 18.0649,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Soli",
+   "durum": "bolge_adi",
+   "lat": 44.5384,
+   "lon": 18.6667,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Soli (Tuzla çevresi) bölgesi",
+   "ulke_modern": "Bosna-Hersek",
+   "tanik": [
+    {
+     "kaynak": "Hrvatska enciklopedija / hr.wikipedia Usora i Soli",
+     "url_veya_atif": "enciklopedija.hr/clanak/tuzla",
+     "lat": 44.5384,
+     "lon": 18.667,
+     "not": "Soli = Tuzla çevresi bölge"
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 1065302 Tuzla",
+     "lat": 44.5333,
+     "lon": 18.6667,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Madde 'Usora ve Soli ayrı banlık': bölge adı; merkez Tuzla (Osmanlı Tuzla adı Soli'den). Önceki Çin Jishou eşlemesi yanlış."
+  },
+  {
+   "ad": "Grönland",
+   "durum": "bolge_adi",
+   "lat": 72.0,
+   "lon": -40.0,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Grönland (ada)",
+   "ulke_modern": "Danimarka (Grönland)",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2279384 Grønland",
+     "lat": 72.0,
+     "lon": -40.0,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Ada/ülke adı; Norse yerleşimleri güneybatıda. Önceki Barbados 'Greenland' eşlemesi yanlış."
+  },
+  {
+   "ad": "Languedoc",
+   "durum": "bolge_adi",
+   "lat": 43.666,
+   "lon": 4.0,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Languedoc (Occitanie)",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 7002884 Languedoc",
+     "lat": 43.666,
+     "lon": 4.0,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2079702 Occitanie",
+     "lat": 43.669,
+     "lon": 2.461,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Tarihî bölge adı; önceki Güney Afrika eşlemesi yanlış."
+  },
+  {
+   "ad": "Dürnkrut",
+   "durum": "cift_tanik",
+   "lat": 48.4735,
+   "lon": 16.855,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Dürnkrut",
+   "ulke_modern": "Avusturya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 2780607",
+     "lat": 48.47315,
+     "lon": 16.85062,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN (SPARQL vocab.getty.edu)",
+     "url_veya_atif": "tgn 1025475 Dürnkrut",
+     "lat": 48.4833,
+     "lon": 16.8667,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2780438",
+     "lat": 48.47315,
+     "lon": 16.85062,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Jedenspeigen",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "",
+   "konum_kesinligi": "",
+   "esanlam_modern": "Jedenspeigen",
+   "ulke_modern": "Avusturya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (önceki tur, parti 50)",
+     "url_veya_atif": "GeoNames 2775102",
+     "lat": 48.49807,
+     "lon": 16.87225,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer (gazetteer.dainst.org)",
+     "url_veya_atif": "gazId 2767183 (GeoNames kopyası)",
+     "lat": 48.49807,
+     "lon": 16.87225,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Yalnız GeoNames/DAI (aynı alt); TGN'de kayıt yok. Tek tanık."
+  }
+ ]
+}

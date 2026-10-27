@@ -1,0 +1,486 @@
+{
+ "sinif": "ortacag",
+ "adlar": [
+  {
+   "ad": "Minşâr Kalesi (Malatya yöresi)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: selcuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Viranşehir (Malatya civarı)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: selcuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.7400556667,
+    "lon": 34.5392216667,
+    "kaynak": "Pleiades 648781"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Erzen (Arzen)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: dilmacogullari / seddadiler-ani"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": null,
+   "tek_tanik_koord": null,
+   "onceki_durum": "belirsiz",
+   "onceki_not": "TSV koordinatı yok; ad birden çok uzak Pleiades kaydına çözülüyor"
+  },
+  {
+   "ad": "Sasun",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: ahlatsahlar"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Dârâ",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: artuklu / zengi-musul"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": null,
+   "tek_tanik_koord": null,
+   "onceki_durum": "belirsiz",
+   "onceki_not": "TSV koordinatı yok; ad birden çok uzak Pleiades kaydına çözülüyor"
+  },
+  {
+   "ad": "Re'sülayn",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: artuklu / ilhanli"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Menbic",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: artuklu / zengi-halep"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Ca'ber",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: zengi-musul / ukayli"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Oltu",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: saltuklu / gurcistan"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "İspir",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: saltuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Tercan",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: saltuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Hınıs",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: saltuklu / selcuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.7596713,
+    "lon": 43.4195082,
+    "kaynak": "Pleiades 641191183"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Çemişkezek",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: cubukogullari / artuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Lukri Kalesi",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: gurcistan / ahlatsahlar"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Didgori",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: gurcistan"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Somkheth (Samşvilde yöresi)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: gurcistan"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Betak (Bedak) Gölü",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: harizmsah / gurcistan"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Sultanhanı (Aksaray yakını)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: selcuklu / mogol"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Ahmedhisarı (Kayseri yakını)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: selcuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Altuntaş köyü (Akşehir)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: selcuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Efsûs (Efes)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: selcuklu / mengucuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": {
+    "lat": 37.940164272,
+    "lon": 27.342402982,
+    "kaynak": "Pleiades 599612"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Kouel",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: gurcistan / selcuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Kurzâhil",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: ukayli / selcuklu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Kars-Vanand (Vanand)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: kars-vanand-kralligi"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Lori",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: lori-kralligi"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  }
+ ]
+}

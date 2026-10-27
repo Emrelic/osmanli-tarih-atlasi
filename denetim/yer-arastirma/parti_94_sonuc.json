@@ -1,0 +1,784 @@
+{
+ "parti": 94,
+ "sonuclar": [
+  {
+   "ad": "Celûlâ",
+   "durum": "cift_tanik",
+   "lat": 34.2667,
+   "lon": 45.1667,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Jalula (Celûlâ, Diyala)",
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/894013",
+     "lat": 34.186388,
+     "lon": 45.118333,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6002825",
+     "lat": 34.2667,
+     "lon": 45.1667,
+     "not": "Jalula"
+    }
+   ],
+   "hesap": "",
+   "not": "Pleiades-TGN arasi ~10 km; Celûlâ Savasi 637 Diyala vadisi, kita uyumlu. Kimlik: iki kayit da Jalula."
+  },
+  {
+   "ad": "Peluzyum",
+   "durum": "cift_tanik",
+   "lat": 31.0426,
+   "lon": 32.544,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Pelusium / Tell el-Farama (Ferema)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727192",
+     "lat": 31.0426,
+     "lon": 32.5471,
+     "not": "Pelusium; adlar arasinda Tall al-Farama"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7539229",
+     "lat": 31.0426,
+     "lon": 32.54,
+     "not": "Tall al Faramah"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2277773",
+     "lat": 31.04259,
+     "lon": 32.53998,
+     "not": "Peluse / Tall al-Farama"
+    }
+   ],
+   "hesap": "",
+   "not": "Ferema = Arapca al-Farama = Pelusium (Pleiades ad listesi, DAI). TGN-DAI ayni koordinat olabilir; Pleiades bagimsiz."
+  },
+  {
+   "ad": "Gaochang",
+   "durum": "cift_tanik",
+   "lat": 42.855,
+   "lon": 89.5286,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Gaochang / Karakhoja (Turfan)",
+   "ulke_modern": "Çin (Sincan)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/999273476",
+     "lat": 42.855,
+     "lon": 89.5286,
+     "not": "Gaochang"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8209497",
+     "lat": 42.8,
+     "lon": 89.65,
+     "not": "Gaochang Gucheng"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2379278",
+     "lat": 42.9,
+     "lon": 89.5,
+     "not": "adlar: Kocho, Qocho, Qara-hoja"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Pelusium",
+   "durum": "cift_tanik",
+   "lat": 31.0426,
+   "lon": 32.544,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Pelusium / Tell el-Farama (Ferema)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727192",
+     "lat": 31.0426,
+     "lon": 32.5471,
+     "not": "Pelusium; adlar arasinda Tall al-Farama"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7539229",
+     "lat": 31.0426,
+     "lon": 32.54,
+     "not": "Tall al Faramah"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2277773",
+     "lat": 31.04259,
+     "lon": 32.53998,
+     "not": "Peluse / Tall al-Farama"
+    }
+   ],
+   "hesap": "",
+   "not": "Ferema = Arapca al-Farama = Pelusium (Pleiades ad listesi, DAI). TGN-DAI ayni koordinat olabilir; Pleiades bagimsiz."
+  },
+  {
+   "ad": "Babilon Kalesi",
+   "durum": "cift_tanik",
+   "lat": 30.0058,
+   "lon": 31.2301,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Babylon Fortress, Eski Kahire (Kibti Kahire)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727082",
+     "lat": 30.005783,
+     "lon": 31.2301075,
+     "not": "Babylon/al-Fustat/Old Cairo; Pleiades 758514868 Babylon Fortress 30.0059,31.2299"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2771819",
+     "lat": 30.02303,
+     "lon": 31.244602,
+     "not": "al-Qahira al-Qadima (Eski Kahire) ~2.3 km"
+    }
+   ],
+   "hesap": "",
+   "not": "GeoNames 'Babylon' (New York) kita uyumsuz, reddedildi. Misir fethi baglami."
+  },
+  {
+   "ad": "Babilon",
+   "durum": "cift_tanik",
+   "lat": 30.0058,
+   "lon": 31.2301,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Babylon Fortress, Eski Kahire (Kibti Kahire)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727082",
+     "lat": 30.005783,
+     "lon": 31.2301075,
+     "not": "Babylon/al-Fustat/Old Cairo; Pleiades 758514868 Babylon Fortress 30.0059,31.2299"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2771819",
+     "lat": 30.02303,
+     "lon": 31.244602,
+     "not": "al-Qahira al-Qadima (Eski Kahire) ~2.3 km"
+    }
+   ],
+   "hesap": "",
+   "not": "GeoNames 'Babylon' (New York) kita uyumsuz, reddedildi. Misir fethi baglami."
+  },
+  {
+   "ad": "Partav",
+   "durum": "cift_tanik",
+   "lat": 40.38,
+   "lon": 47.12,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Bərdə (Berde'a, Arran baskenti)",
+   "ulke_modern": "Azerbaycan",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://www.geonames.org/587057",
+     "lat": 40.37577,
+     "lon": 47.12619,
+     "not": "Barda"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1052540",
+     "lat": 40.3833,
+     "lon": 47.1167,
+     "not": "Bərdə"
+    }
+   ],
+   "hesap": "",
+   "not": "Iki kayit ~1.2 km; ikisi de GNS turevi olabilir (bagimsizlik sinirli). Arran/Berde'a baglami uyumlu."
+  },
+  {
+   "ad": "Mâskin",
+   "durum": "cozulemedi",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/894150",
+     "lat": 33.902289,
+     "lon": 44.355518,
+     "not": "Tell Miskin/Maskin?"
+    }
+   ],
+   "not": "Tek kaynak: Pleiades 894150 'Tell Miskin/Maskin?' 33.902,44.356 (soru isaretli). TGN/DAI'de yok. Ikinci tanik bulunamadi."
+  },
+  {
+   "ad": "Tokmok",
+   "durum": "cift_tanik",
+   "lat": 42.85,
+   "lon": 75.3,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tokmok (Suyab/Ak-Besim yakini)",
+   "ulke_modern": "Kırgızistan",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://www.geonames.org/1527199",
+     "lat": 42.84194,
+     "lon": 75.30149,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1060352",
+     "lat": 42.8667,
+     "lon": 75.3,
+     "not": "Tokmak"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8711887",
+     "lat": 42.805,
+     "lon": 75.199,
+     "not": "Ak-Beshim (Suyab), ~9 km GB"
+    }
+   ],
+   "hesap": "",
+   "not": "Bagimsizlik sinirli (GeoNames/TGN GNS turevi); Suyab=Ak-Besim 9 km uzakta, Tang baglami uyumlu."
+  },
+  {
+   "ad": "Nezvâ",
+   "durum": "cozulemedi",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://www.geonames.org/286987",
+     "lat": 22.93333,
+     "lon": 57.53333,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1083249",
+     "lat": 22.9333,
+     "lon": 57.5333,
+     "not": "Nazwa"
+    }
+   ],
+   "not": "GeoNames 286987 ve TGN 1083249 Nazwa ayni koordinat (22.9333,57.5333) = tek tanik (GNS). Bagimsiz ikinci kaynak bulunamadi. Aday: Nizwa, Umman (kita uyumlu)."
+  },
+  {
+   "ad": "Safsâf",
+   "durum": "cozulemedi",
+   "tanik": [],
+   "not": "Onceki Pleiades 373884 (32.78,21.95) Libya/Kirene: Bizans sinir kalesi baglamina UYMUYOR, reddedildi. Dogru kale (797, Harun er-Resid) kaynakta bulunamadi."
+  },
+  {
+   "ad": "Amorion",
+   "durum": "cift_tanik",
+   "lat": 39.0202,
+   "lon": 31.2956,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Amorium / Hisarköy",
+   "ulke_modern": "Türkiye (Afyonkarahisar)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/609302",
+     "lat": 39.0201829,
+     "lon": 31.2955626,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6000247",
+     "lat": 39.02,
+     "lon": 31.289,
+     "not": "Amorium"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2284810",
+     "lat": 39.02073,
+     "lon": 31.29225,
+     "not": "Hisarkoy"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Koço",
+   "durum": "cift_tanik",
+   "lat": 42.855,
+   "lon": 89.5286,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Gaochang = Qocho/Koço",
+   "ulke_modern": "Çin (Sincan)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/999273476",
+     "lat": 42.855,
+     "lon": 89.5286,
+     "not": "Gaochang"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8209497",
+     "lat": 42.8,
+     "lon": 89.65,
+     "not": "Gaochang Gucheng"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2379278",
+     "lat": 42.9,
+     "lon": 89.5,
+     "not": "adlar: Kocho, Qocho, Qara-hoja"
+    }
+   ],
+   "hesap": "",
+   "not": "Kimlik: DAI ad listesi Kocho/Qocho/Gaochang ayni kayitta."
+  },
+  {
+   "ad": "Kao-ch'ang",
+   "durum": "cift_tanik",
+   "lat": 42.855,
+   "lon": 89.5286,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Gaochang = Qocho/Koço",
+   "ulke_modern": "Çin (Sincan)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/999273476",
+     "lat": 42.855,
+     "lon": 89.5286,
+     "not": "Gaochang"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8209497",
+     "lat": 42.8,
+     "lon": 89.65,
+     "not": "Gaochang Gucheng"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2379278",
+     "lat": 42.9,
+     "lon": 89.5,
+     "not": "adlar: Kocho, Qocho, Qara-hoja"
+    }
+   ],
+   "hesap": "",
+   "not": "Kimlik: DAI ad listesi Kocho/Qocho/Gaochang ayni kayitta."
+  },
+  {
+   "ad": "Ebher",
+   "durum": "cift_tanik",
+   "lat": 36.1468,
+   "lon": 49.218,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Abhar",
+   "ulke_modern": "İran (Zencan)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://www.geonames.org/145034",
+     "lat": 36.1468,
+     "lon": 49.218,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1078953",
+     "lat": 36.0833,
+     "lon": 49.3,
+     "not": "Abhar"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2750098",
+     "lat": 36.146667,
+     "lon": 49.218056,
+     "not": "Abhar (TehranDigital)"
+    }
+   ],
+   "hesap": "",
+   "not": "TGN ~10 km; GeoNames-DAI ayni koordinat. Ebher-Zencan arasi baglami uyumlu."
+  },
+  {
+   "ad": "Büst",
+   "durum": "cift_tanik",
+   "lat": 31.5025,
+   "lon": 64.3566,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Qala-i Bust (Lashkar Gah yakini)",
+   "ulke_modern": "Afganistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/310634609",
+     "lat": 31.5025,
+     "lon": 64.3566,
+     "not": "Qala Bost"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7594988",
+     "lat": 31.503,
+     "lon": 64.3568,
+     "not": "Qal'ah-ye Bust"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1065467",
+     "lat": 31.5833,
+     "lon": 64.3667,
+     "not": "Lashkar Gah (Bust sehri bitisigi)"
+    }
+   ],
+   "hesap": "",
+   "not": "Pleiades-TGN koordinati cok yakin (ortak turev olabilir)."
+  },
+  {
+   "ad": "Fâzâz",
+   "durum": "bolge_adi",
+   "tanik": [],
+   "not": "Fazaz = Fas'ta Orta Atlas (Zenate) bolgesi (Merini baglami). Onceki Azaz (Suriye) kita uyumsuz; reddedildi. Bolge icin nokta koordinati verilmedi (kaynakla dogrulanmadi)."
+  },
+  {
+   "ad": "Tâmesnâ",
+   "durum": "bolge_adi",
+   "tanik": [],
+   "not": "Tamesna = Fas Atlantik ovasi (Rabat-Kazablanka arasi) bolge adi. GeoNames 8299790 yerlesim degil/uyusmaz."
+  },
+  {
+   "ad": "Rif",
+   "durum": "bolge_adi",
+   "tanik": [],
+   "not": "Rif = kuzey Fas daglik bolgesi. Onceki Richfield (ABD) kita uyumsuz; reddedildi."
+  },
+  {
+   "ad": "Masvingo",
+   "durum": "cift_tanik",
+   "lat": -20.2667,
+   "lon": 30.9,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Great Zimbabwe (Masvingo yakini)",
+   "ulke_modern": "Zimbabve",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6002348",
+     "lat": -20.2667,
+     "lon": 30.9,
+     "not": "Great Zimbabwe"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1101556",
+     "lat": -20.2833,
+     "lon": 30.95,
+     "not": "Great Zimbabwe Ruins National Park"
+    }
+   ],
+   "hesap": "",
+   "not": "Madde Buyuk Zimbabve yapilaridir; Masvingo kasabasi (-20.08,30.83) ~25 km kuzeybati, o degil. Iki TGN kaydi bagimsiz sayilmayabilir."
+  },
+  {
+   "ad": "Georgia",
+   "durum": "bolge_adi",
+   "tanik": [],
+   "not": "Madde ABD Georgia eyaleti/Etowah hoyukleri; Pleiades 658471 Suriye'de, reddedildi. Yer adi degil bolge; saha Etowah Mounds (yaklasik 34.127,-84.807, bu turda iki kaynakla dogrulanmadi)."
+  },
+  {
+   "ad": "Alabama",
+   "durum": "bolge_adi",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8712738",
+     "lat": 33.005,
+     "lon": -87.6313889,
+     "not": "Moundville State Monument"
+    }
+   ],
+   "not": "Madde ABD Alabama eyaleti/Moundville; GeoNames New York kaydi reddedildi. Saha Moundville: TGN 8712738 33.005,-87.6314 (tek kaynak)."
+  },
+  {
+   "ad": "Ergani",
+   "durum": "cift_tanik",
+   "lat": 38.269,
+   "lon": 39.7545,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ergani (Diyarbakir)",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://www.geonames.org/315468",
+     "lat": 38.26899,
+     "lon": 39.75446,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1086252",
+     "lat": 38.2833,
+     "lon": 39.7333,
+     "not": "Ergani"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7725480",
+     "lat": 38.268986,
+     "lon": 39.754457,
+     "not": "Ergani"
+    }
+   ],
+   "hesap": "",
+   "not": "Bagimsizlik sinirli (GNS turevi); Halar/Tulhum/Cermuk komsulugu uyumlu."
+  },
+  {
+   "ad": "Gainsborough",
+   "durum": "cift_tanik",
+   "lat": 53.39,
+   "lon": -0.77,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Gainsborough (Lincolnshire)",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "GeoNames/TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1029297",
+     "lat": 53.3833,
+     "lon": -0.7667,
+     "not": "ayni koordinat, tek sayilir"
+    },
+    {
+     "kaynak": "OS Open Names (postcodes.io)",
+     "url_veya_atif": "https://api.postcodes.io/places?q=Gainsborough",
+     "lat": 53.4005,
+     "lon": -0.774,
+     "not": "Gainsborough Town"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Bautzen",
+   "durum": "cift_tanik",
+   "lat": 51.182,
+   "lon": 14.43,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Bautzen",
+   "ulke_modern": "Almanya (Saksonya)",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7012305",
+     "lat": 51.1833,
+     "lon": 14.4333,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2044496",
+     "lat": 51.181389,
+     "lon": 14.423889,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Pleiades 'cemetery' adayi alakasiz. TGN 47.83,9.53 Bautzen reddedildi."
+  },
+  {
+   "ad": "Vienne",
+   "durum": "cift_tanik",
+   "lat": 45.52,
+   "lon": 4.875,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Vienne (Isère)",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "geo.api.gouv.fr (IGN/INSEE)",
+     "url_veya_atif": "https://geo.api.gouv.fr/communes?nom=Vienne",
+     "lat": 45.5221,
+     "lon": 4.8803,
+     "not": "Isere"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2080717",
+     "lat": 45.51667,
+     "lon": 4.86667,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Viyana (Avusturya) reddedildi; Burgonya Kralligi baglami."
+  },
+  {
+   "ad": "Tmutorakan",
+   "durum": "cift_tanik",
+   "lat": 45.219,
+   "lon": 36.714,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tmutarakan / Taman, Hermonassa (Taman Yarimadasi)",
+   "ulke_modern": "Rusya (Krasnodar)",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6005991",
+     "lat": 45.219,
+     "lon": 36.714,
+     "not": "Tmutarakan"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/854687",
+     "lat": 45.2191,
+     "lon": 36.7141,
+     "not": "Hermonassa, Taman Korfezi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2096718",
+     "lat": 45.2117,
+     "lon": 36.71609,
+     "not": "Taman koyu"
+    }
+   ],
+   "hesap": "",
+   "not": "TGN-Pleiades koordinati ayni; Taman koyu ~1 km."
+  },
+  {
+   "ad": "Kulumriye",
+   "durum": "cift_tanik",
+   "lat": 40.208,
+   "lon": -8.427,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Coimbra (Aeminium)",
+   "ulke_modern": "Portekiz",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/236321",
+     "lat": 40.2095455,
+     "lon": -8.427646,
+     "not": "Aeminium"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2088427",
+     "lat": 40.20564,
+     "lon": -8.41955,
+     "not": "Coimbra"
+    }
+   ],
+   "hesap": "",
+   "not": "Madde Coimbra'nin 1064'te dususunu verir."
+  },
+  {
+   "ad": "Trogir",
+   "durum": "cift_tanik",
+   "lat": 43.5176,
+   "lon": 16.2506,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Trogir (Tragurium)",
+   "ulke_modern": "Hırvatistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/197555",
+     "lat": 43.517639,
+     "lon": 16.25063,
+     "not": "Tragurium"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://www.geonames.org/3188763",
+     "lat": 43.5125,
+     "lon": 16.25167,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7015545",
+     "lat": 43.5333,
+     "lon": 16.25,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Tinchebrai",
+   "durum": "cift_tanik",
+   "lat": 48.7644,
+   "lon": -0.7333,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tinchebray (Tinchebray-Bocage)",
+   "ulke_modern": "Fransa (Orne)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames/TGN 7603254",
+     "url_veya_atif": "https://www.geonames.org/2972555",
+     "lat": 48.76437,
+     "lon": -0.73333,
+     "not": "ayni koordinat"
+    },
+    {
+     "kaynak": "geo.api.gouv.fr",
+     "url_veya_atif": "https://geo.api.gouv.fr/communes?nom=Tinchebray",
+     "lat": 48.7283,
+     "lon": -0.7337,
+     "not": "Tinchebray-Bocage komun merkezi ~4 km"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  }
+ ]
+}

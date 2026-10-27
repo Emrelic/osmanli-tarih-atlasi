@@ -188,6 +188,8 @@ def kodla_turevleri(kok):
     sonuc = {}
     for ad, h in hedefler.items():
         tur = [h["parca"], h["ust"], h["on"]] + (on_dilim if ad == "devlet" else [])
+        if h.get("kat1"):               # katman 1 dosyası (örn. donem_parca_on.js)
+            tur.append(h["kat1"])
         sonuc[h["kaynak"]] = (h["sha"], h["parca"], tur)
     return sonuc
 

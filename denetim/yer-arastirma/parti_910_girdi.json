@@ -1,0 +1,659 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Georgenberg",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1186,
+    1186
+   ],
+   "ornek_maddeler": [
+    "1186-01-01 Georgenberg Paktı: Steiermark'ın Babenberg'lere mirası kararlaştırıldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Georgenberg 47.63333,13.15; Georgenberg 49.70297,12.42082"
+    }
+   ]
+  },
+  {
+   "ad": "Drinopolje",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1205,
+    1205
+   ],
+   "ornek_maddeler": [
+    "1205-01-01 Edirne Muharebesi: Kaloyan Latin İmparatorluğu'nun Haçlı ordusunu yend"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 41.67719,
+      "lon": 26.55597,
+      "kaynak": "GeoNames 747712 Edirne"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Zawichost",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1205,
+    1205
+   ],
+   "ornek_maddeler": [
+    "1205-10-14 Roman Mstislaviç Zawichost'ta Polonya'ya karşı savaşırken öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 50.80743,
+      "lon": 21.85408,
+      "kaynak": "GeoNames 753611 Zawichost"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Mantes",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1223,
+    1223
+   ],
+   "ornek_maddeler": [
+    "1223-07-14 Philippe Auguste ölür; VIII. Louis Fransa kralı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 48.99048,
+      "lon": 1.7167,
+      "kaynak": "GeoNames 2996148 Mantes-la-Jolie"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Cortenuova",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1237,
+    1237
+   ],
+   "ornek_maddeler": [
+    "1237-11-27 Cortenuova Savaşı: II. Friedrich Lombard Birliği'ni yener"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 45.53898,
+      "lon": 9.78786,
+      "kaynak": "GeoNames 6535165 Cortenuova"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Vordingborg",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1241,
+    1241
+   ],
+   "ornek_maddeler": [
+    "1241-03-28 II. Valdemar (Muzaffer) öldü — Danimarka'da iç çekişmeler çağı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 55.00801,
+      "lon": 11.91057,
+      "kaynak": "GeoNames 2610020 Vordingborg"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Fossalta",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1249,
+    1249
+   ],
+   "ornek_maddeler": [
+    "1249-01-01 Fossalta Savaşı: Kral Enzo Bologna'ya esir düşer"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Fossalta di Portogruaro 45.79329,12.90998; Fossalta di Piave 45.64497,12.50902"
+    }
+   ]
+  },
+  {
+   "ad": "Castel Fiorentino",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1250,
+    1250
+   ],
+   "ornek_maddeler": [
+    "1250-12-13 II. Friedrich Castel Fiorentino'da öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Pleiades adayları yerleşim değil (Castel Fiorentino:castle, archaeological-site)"
+    }
+   ]
+  },
+  {
+   "ad": "Lavello",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1254,
+    1254
+   ],
+   "ornek_maddeler": [
+    "1254-05-21 IV. Konrad'ın ölümü — Büyük Fetret (Interregnum) başladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 41.04769,
+      "lon": 15.78915,
+      "kaynak": "GeoNames 3175009 Lavello"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Potenza",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1254,
+    1254
+   ],
+   "ornek_maddeler": [
+    "1254-05-21 IV. Konrad'ın ölümü — Büyük Fetret (Interregnum) başladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 40.64175,
+      "lon": 15.80794,
+      "kaynak": "GeoNames 3170027 Potenza"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Largs",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1263,
+    1263
+   ],
+   "ornek_maddeler": [
+    "1263-01-01 IV. Håkon'un İskoçya seferi (Largs) — Hebridleri koruma girişimi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Largs -32.7,151.6; Largs 55.79629,-4.86337"
+    }
+   ]
+  },
+  {
+   "ad": "Scurcola Marsicana",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1268,
+    1268
+   ],
+   "ornek_maddeler": [
+    "1268-08-23 Tagliacozzo Savaşı: Konradin yenilir, Hohenstaufen soyu tükenir"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.06313,
+      "lon": 13.33919,
+      "kaynak": "GeoNames 3166856 Scurcola Marsicana"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Tagliacozzo",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1268,
+    1268
+   ],
+   "ornek_maddeler": [
+    "1268-08-23 Tagliacozzo Savaşı: Konradin yenilir, Hohenstaufen soyu tükenir"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.06933,
+      "lon": 13.25469,
+      "kaynak": "GeoNames 3165991 Tagliacozzo"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "taç",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1273,
+    1273
+   ],
+   "ornek_maddeler": [
+    "1273-10-24 Habsburglu I. Rudolf Aachen'de taç giydi — Büyük Fetret sona erdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 47.0899955584,
+      "lon": 18.4205453087,
+      "kaynak": "Pleiades 197287"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Hova",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1275,
+    1275
+   ],
+   "ornek_maddeler": [
+    "1275-01-01 Hova Savaşı: Magnus Ladulås tahtı kardeşi Valdemar'dan aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 58.85363,
+      "lon": 14.21914,
+      "kaynak": "GeoNames 2704716 Hova"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Desio",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1277,
+    1277
+   ],
+   "ornek_maddeler": [
+    "1277-01-22 Desio zaferi: Ottone Visconti Milano senyörü olur"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 45.61831,
+      "lon": 9.20249,
+      "kaynak": "GeoNames 3177608 Desio"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Aizkraukle",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1279,
+    1279
+   ],
+   "ornek_maddeler": [
+    "1279-03-05 Aizkraukle Savaşı: Traidenis Livonya Tarikatı'nı yendi, 71 şövalye öld"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 56.60477,
+      "lon": 25.25534,
+      "kaynak": "GeoNames 461615 Aizkraukle"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Ascheraden",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1279,
+    1279
+   ],
+   "ornek_maddeler": [
+    "1279-03-05 Aizkraukle Savaşı: Traidenis Livonya Tarikatı'nı yendi, 71 şövalye öld"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 56.60477,
+      "lon": 25.25534,
+      "kaynak": "GeoNames 461615 Aizkraukle"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Vlaardingen",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1018,
+    1018
+   ],
+   "ornek_maddeler": [
+    "1018-01-01 Vlaardingen Savaşı: Dirk III, İmparator II. Heinrich'in ordusunu yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 51.9125,
+      "lon": 4.34167,
+      "kaynak": "GeoNames 2745467 Vlaardingen"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Eschwege",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1060,
+    1060
+   ],
+   "ornek_maddeler": [
+    "1060-07-11 Gebhard Salzburg Başpiskoposu olarak yatırım aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 51.18386,
+      "lon": 10.05329,
+      "kaynak": "GeoNames 2928967 Eschwege"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Gurk",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1072,
+    1072
+   ],
+   "ornek_maddeler": [
+    "1072-01-01 Gurk piskoposluğu kuruldu — Salzburg'un Eigenbistum'larının ilki"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 46.87389,
+      "lon": 14.29167,
+      "kaynak": "GeoNames 2777237 Gurk"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Payerne",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1127,
+    1127
+   ],
+   "ornek_maddeler": [
+    "1127-02-09 Burgonya Kontu III. Guillaume Payerne'de öldürüldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 46.82192,
+      "lon": 6.93817,
+      "kaynak": "GeoNames 2659243 Payerne"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Lauterberg",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1157,
+    1157
+   ],
+   "ornek_maddeler": [
+    "1157-02-05 Markgraf Konrad Lauterberg manastırında öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Bad Lauterberg im Harz 51.63272,10.47031; Lauterbourg 48.97515,8.17846"
+    }
+   ]
+  },
+  {
+   "ad": "Laufen",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1166,
+    1166
+   ],
+   "ornek_maddeler": [
+    "1166-03-29 Barbarossa Salzburg başpiskoposluğunu Reichsacht altına aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Laufen 47.42193,7.49946; Laufen 47.93568,12.92856"
+    }
+   ]
+  },
+  {
+   "ad": "Freiberg",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1168,
+    1168
+   ],
+   "ornek_maddeler": [
+    "1168-01-01 Christiansdorf'ta (sonraki Freiberg) gümüş bulundu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Příbor 49.64094,18.14499; Freiberg am Neckar 48.93196,9.2024; Freiberg 50.91089,13.33881"
+    }
+   ]
+  },
+  {
+   "ad": "Wartburg",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1184,
+    1184
+   ],
+   "ornek_maddeler": [
+    "1184-01-01 Thüringen Landgrafı III. Ludwig Otto'yu esir alıp Wartburg'ta tuttu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Wartburg 36.1048,-84.59716; Wartburg -29.43184,30.57567"
+    }
+   ]
+  },
+  {
+   "ad": "Nossen",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1190,
+    1190
+   ],
+   "ornek_maddeler": [
+    "1190-02-18 Otto der Reiche öldü; Albrecht der Stolze Meißen Markgrafı oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 51.05798,
+      "lon": 13.29652,
+      "kaynak": "GeoNames 2861788 Nossen"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Franeker",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1233,
+    1233
+   ],
+   "ornek_maddeler": [
+    "1233-01-01 Hollanda Kontu IV. Floris Franeker'de Frizyalılardan biat aldı; hemen "
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 53.18546,
+      "lon": 5.54123,
+      "kaynak": "GeoNames 2755845 Franeker"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Kulm",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1233,
+    1233
+   ],
+   "ornek_maddeler": [
+    "1233-12-28 Kulm Handfeste: Thorn ve Kulm'a şehir hakları fermanı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 6 aday: Khulm 36.69736,67.69826; Kulm am Zirbitz 47.05814,14.48702; Unterkulm 47.30998,8.11371; Chlumec 50.69972,13.93964"
+    }
+   ]
+  },
+  {
+   "ad": "Chełmno",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1233,
+    1233
+   ],
+   "ornek_maddeler": [
+    "1233-12-28 Kulm Handfeste: Thorn ve Kulm'a şehir hakları fermanı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 53.34855,
+      "lon": 18.4251,
+      "kaynak": "GeoNames 3101795 Chełmno"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  }
+ ]
+}

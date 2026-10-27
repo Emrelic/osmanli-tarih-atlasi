@@ -1,0 +1,934 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Medâin",
+   "madde_sayisi": 21,
+   "yil_araligi": [
+    226,
+    755
+   ],
+   "ornek_maddeler": [
+    "0226-01-01 Erdeşîr Medâin'de şâhânşâh olarak taç giydi; Sâsânî İmparatorluğu kuru",
+    "0240-04-12 I. Şâpûr babası Erdeşîr'le ortak hükümdar oldu",
+    "0242-01-01 Erdeşîr öldü; I. Şâpûr tek başına hükümdar kaldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "01",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.0936,
+      "lon": 44.5806
+     },
+     "not": "Medâin 'şehirler' = Seleukeia (33.0944,44.5222, Syriaca 182) + Ktesifon çifti; ~5 km yayılım. Çift bağımsız tanık alınamadı (Pleiades kaydı bulunamadı)."
+    },
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "2 ayrı Pleiades kümesi: Ctesiphon 33.095,44.581; Medain 31.558,45.513 [ALIAS eşlemesi: Ctesiphon, Al-Mada'in, Madain; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Kirman",
+   "madde_sayisi": 16,
+   "yil_araligi": [
+    967,
+    1252
+   ],
+   "ornek_maddeler": [
+    "0967-01-01 Adudüddevle Umân'a hâkim oldu; sonra Kirman'ı ve Mekrân'ı da aldı",
+    "1048-01-01 Kavurd Kirman'daki Büveyhî hâkimiyetine son verdi",
+    "1067-01-01 Alparslan Kirman'a yürüdü; Kavurd Bey itaat etti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "61",
+     "durum": "tek_kaynak",
+     "koord": {
+      "lat": 30.28,
+      "lon": 57.08
+     },
+     "not": ""
+    }
+   ]
+  },
+  {
+   "ad": "Kannauj",
+   "madde_sayisi": 8,
+   "yil_araligi": [
+    770,
+    1170
+   ],
+   "ornek_maddeler": [
+    "0770-01-01 Dharmapala Pala tahtında (yak. 770-810); krallığı genişletir, bir süre",
+    "0816-01-01 II. Nagabhata Kannauj'u Çakrayudha'dan alır ve yeni başkent yapar (yak",
+    "0836-01-01 Mihira Bhoja Pratihara tahtına çıkar (yak. 836)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "01",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 27.06,
+      "lon": 79.92
+     },
+     "not": "Bağımsız ikinci akademik tanık bulunamadı; GeoNames sayfası doğrudan okunmadı."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 27.05524,
+      "lon": 79.9188,
+      "kaynak": "GeoNames 1268011 Kannauj"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "71",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 27.05524,
+      "lon": 79.9188
+     },
+     "not": "DAI'de Kannauj/Kanauj bulunamadı; TDV bakılmadı."
+    }
+   ]
+  },
+  {
+   "ad": "Ani",
+   "madde_sayisi": 8,
+   "yil_araligi": [
+    885,
+    1161
+   ],
+   "ornek_maddeler": [
+    "0885-06-18 Bagratlı Aşot (I. Aşot) halife ve Bizans imparatorunca Ermenistan kral",
+    "0893-01-01 Ermeni kralı I. Smbat Bizans’la ittifakı yeniledi (VI. Leon’a elçi)",
+    "0962-01-01 III. Aşot başkenti Ani’ye taşıdı; kardeşi Muşeg’e merkezi Kars olan Va"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "01",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 40.5075,
+      "lon": 43.5728
+     },
+     "not": "UNESCO WHC 1518 dosyası mevcut (whc.unesco.org/document/152846) ama koordinatı okunmadı."
+    },
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "2 ayrı Pleiades kümesi: Ani 39.603,39.036; Ani 40.506,43.571"
+    }
+   ]
+  },
+  {
+   "ad": "Hîre",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    268,
+    602
+   ],
+   "ornek_maddeler": [
+    "0268-01-01 Cezîme el-Ebraş Zebbâ'ca öldürüldü; Amr b. Adî ilk Lahmî hükümdarı old",
+    "0288-01-01 İmruülkays b. Amr Lahmî tahtına geçti (288-328)",
+    "0525-01-01 Hâris b. Amr Bekir ve Tağlib desteğiyle Hîre'yi ele geçirdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "01",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.983,
+      "lon": 44.383
+     },
+     "not": "Rounded koordinat; ~25 km2 alan, yaklaşık."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.883324,
+      "lon": 44.449851,
+      "kaynak": "Pleiades 912800"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    },
+    {
+     "parti": "71",
+     "durum": "celiski",
+     "koord": null,
+     "not": "Pleiades noktası DAI ve TDV tarifinden ~11-13 km güneyde. Aynı yer, ama ilk tanık >10 km sapıyor; DAI+TDV ~32.0N 44.4-44.43E, Pleiades 31.88N 44.45E. Karar için ek kaynak gerekir."
+    }
+   ]
+  },
+  {
+   "ad": "Bosna",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    1081,
+    1253
+   ],
+   "ornek_maddeler": [
+    "1081-01-01 Bosna Duklja kralı Bodin'in yönetimine girdi",
+    "1154-01-01 Macar vasalı Ban Borić Bosna'ya atandı, Bizans'a karşı savaştı",
+    "1166-01-01 Bosna kısa süreli Bizans hâkimiyetine girdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "61",
+     "durum": "belirsiz",
+     "koord": {
+      "lat": 43.99,
+      "lon": 18.18
+     },
+     "not": ""
+    }
+   ]
+  },
+  {
+   "ad": "Silvan",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    983,
+    1260
+   ],
+   "ornek_maddeler": [
+    "0983-06-15 Bâd Meyyâfârikīn'i aldı; Mervânî devletinin temeli atıldı",
+    "1109-01-01 Sökmen el-Kutbî Meyyâfârikīn'ı aldı; Âmid'in İnaloğulları ona tâbi old",
+    "1110-01-01 Dilmaçoğlu Togan Arslan Silvan'a bağlı köyleri aldı, sonra bağımsızlığ"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "01",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.1428,
+      "lon": 41.0033
+     },
+     "not": "1110 maddesindeki 'Silvan'a bağlı köyler' de Meyyâfârikīn sancağı; aynı nokta. Meyyâfârikīn ile birleştirilmeli."
+    },
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Silvan -37.81667,145.41667; Silvan 38.13708,41.00817"
+    }
+   ]
+  },
+  {
+   "ad": "Kerec",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    825,
+    897
+   ],
+   "ornek_maddeler": [
+    "0825-04-24 Ebû Dülef el-İclî Kerec merkezli Dülefî emirliğinin başına geçti",
+    "0839-11-12 Dülefî emîri Abdülazîz b. Ebû Dülef başa geçti",
+    "0873-10-27 Dülef b. Abdülazîz Dülefî emîri oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "01",
+     "durum": "bulunamadi",
+     "koord": null,
+     "not": "Kerec (Karac-ı Ebî Dülef), Isfahan-Hemedan arasında Cibâl'de; İranica Âstâne/Kadamgâh köyü civarı (Merkezi eyaleti, Arak yakını) diyor, 2025 makale Arak yakını. Kesin nokta için bağımsız koordinatlı iki kaynak bulunamadı. Not: Bu ad Kerec/Karaj (Tahran'daki Alborz Karaj'ı) ile KARIŞTIRILMAMALI."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 35.83266,
+      "lon": 50.99155,
+      "kaynak": "GeoNames 128747 Karaj"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "71",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 35.83266,
+      "lon": 50.99155
+     },
+     "not": "Dülefî emirliği merkezi Kerec (Kerec-i Ebû Dülef, Hemedân/Arak çevresi) modern Tahran-Karaj olmayabilir; bağlam şüphesi, doğrulanmadı."
+    }
+   ]
+  },
+  {
+   "ad": "Tancavur",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    850,
+    1070
+   ],
+   "ornek_maddeler": [
+    "0850-01-01 Vijayalaya (yak. 850-870) Pallava topraklarını işgale başlar; Çola yük",
+    "0907-01-01 I. Parantaka Çola tahtında (907-yak. 955); Madurai'nin yıkıcısı",
+    "0985-01-01 I. Rajaraja Çola tahtında (985-1014)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "02",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 10.785,
+      "lon": 79.1389
+     },
+     "not": "DAI'de yok; ikinci bagimsiz kaynak bulunamadi."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 10.78523,
+      "lon": 79.13909,
+      "kaynak": "GeoNames 1254649 Thanjavur"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "71",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 10.78523,
+      "lon": 79.13909
+     },
+     "not": "DAI'de bulunamadı."
+    }
+   ]
+  },
+  {
+   "ad": "Belencer",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    652,
+    732
+   ],
+   "ornek_maddeler": [
+    "0652-08-12 Selmân b. Rebîa komutasındaki ordu Derbend'i geçip Belencer'e ulaştı v",
+    "0732-01-01 Mervân b. Muhammed Derbend'i geçip Belencer'de 40.000 kişilik Hazar ku",
+    "0652-08-12 Selmân b. Rebîa Derbend Geçidi’ni aşıp Hazar başşehri Belencer’e dayan"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "02",
+     "durum": "bulunamadi",
+     "koord": null,
+     "not": "Hazar sehri; konumu tartismali: Buynaksk (Artamonov, ilk), Makhachkala guneyi (Artamonov, sonra; Nomadic Civilization 2023 makalesi), Sulak nehri/Chir-Yurt onerisi. Uzlasi yok, koordinat yazilmadi."
+    }
+   ]
+  },
+  {
+   "ad": "Preslav",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    893,
+    971
+   ],
+   "ornek_maddeler": [
+    "0893-01-01 I. Simeon Bulgar hükümdarı oldu (893-927)",
+    "0925-01-01 Simeon 'Bütün Bulgarların Çarı' unvanını aldı; Bulgar başpiskoposu pat",
+    "0927-05-27 Simeon öldü; oğlu I. Petar çar oldu (927-969)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "02",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 43.1667,
+      "lon": 26.8167
+     },
+     "not": "DAI'de adlar var (id 2066851/2066854, Sumen) ama koordinat alinamadi; ikinci koordinat tanigi dogrulanamadi."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 43.16667,
+      "lon": 26.81667,
+      "kaynak": "GeoNames 727987 Veliki Preslav"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "71",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 43.16667,
+      "lon": 26.81667
+     },
+     "not": "DAI 2066854 Veliki Preslav koordinatsız."
+    }
+   ]
+  },
+  {
+   "ad": "Polonnaruva",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    1070,
+    1255
+   ],
+   "ornek_maddeler": [
+    "1070-01-01 I. Vijayabahu Seylan'ı Çola işgalinden kurtardı, başkenti Polonnaruva'",
+    "1153-01-01 I. Parakramabahu Polonnaruva tahtına çıktı; Sinhala krallığı en parlak",
+    "1186-01-01 Seylan tahtı Kalinga hanedanına geçti; Nissankamalla Polonnaruva kralı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "02",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 7.9397,
+      "lon": 81.0027
+     },
+     "not": "DAI'de yalniz 'Polonnaruwa Kingdom' alan kaydi, koordinatsiz."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 7.93965,
+      "lon": 81.00274,
+      "kaynak": "GeoNames 1229901 Polonnaruwa"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "71",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 7.93965,
+      "lon": 81.00274
+     },
+     "not": "DAI kaydı (2379425 Polonnaruwa Kingdom) koordinatsız."
+    }
+   ]
+  },
+  {
+   "ad": "Remle",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    524,
+    979
+   ],
+   "ornek_maddeler": [
+    "0524-01-01 Remle antlaşması: III. Münzir Bizans esirlerini serbest bıraktı",
+    "0940-09-10 Lücûn savaşı ve Remle sınırlı İbn Râik-İhşîd antlaşması: Mısır İhşîdîl",
+    "0971-01-01 Hasan el-A'sam önderliğindeki Karmatîler Dımaşk ve Remle'yi yeniden al"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "02",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.9262,
+      "lon": 34.8635
+     },
+     "not": "DAI'de yok (yalniz Misir'deki Wadi Ramla). 524 'Remle antlasmasi' ayri bir yer olabilir (Munzir/Bizans, Suriye cölü) - baglama dikkat; 940 ve 971 maddeleri Filistin Remle'si. Ikinci kaynak bulunamadi."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 32.934001,
+      "lon": 35.366497,
+      "kaynak": "Pleiades 678356"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    },
+    {
+     "parti": "71",
+     "durum": "celiski",
+     "koord": null,
+     "not": "Pleiades noktası TDV tarifinden ~100 km kuzeyde; yanlış eşleşme. Doğru nokta (Ramla) için sayısal ikinci kaynak bulunamadı."
+    }
+   ]
+  },
+  {
+   "ad": "Berdea",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    645,
+    982
+   ],
+   "ornek_maddeler": [
+    "0645-01-01 Selmân b. Rebîa ve Habîb b. Mesleme Arrân’ın başşehri Berdea’yı fethet",
+    "0943-01-01 Ruslar Hazar’dan Kür yoluyla gelip Berdea’yı yağmaladı ve tahrip etti",
+    "0944-01-01 Rus ordusu Arrân'ın merkezi Berdea'yı işgal etti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "02",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 40.3758,
+      "lon": 47.1262
+     },
+     "not": "DAI'de bulunamadi; ikinci bagimsiz kaynak dogrulanamadi."
+    },
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Barda 40.37577,47.12619; Barda 56.92724,55.59163 [ALIAS eşlemesi: Barda, Partav, Berdaa; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Berdesîr",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1079,
+    1209
+   ],
+   "ornek_maddeler": [
+    "1079-01-01 Melikşah'ın Kirman seferi; Sultan Şah itaat etti",
+    "1142-01-01 Muhammed Şah babası I. Arslanşah'ı hapsederek tahta geçti",
+    "1204-01-01 Salgurlu Sa'd Kirman'da hâkimiyet kurdu ve İsfahan'ı aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "03",
+     "durum": "bulunamadi",
+     "koord": null,
+     "not": "Kirman eyaletinde şehir; kaynakta koordinat okunamadı (iDAI'de arama yapılmadı/sonuçsuz). TDV/İSAM teyidi gerekir."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 30.273015,
+      "lon": 57.068581,
+      "kaynak": "Pleiades 29802"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    },
+    {
+     "parti": "71",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 30.273015,
+      "lon": 57.068581
+     },
+     "not": "TDV Kirman maddesi Berdsîr'i Kirman şehristanlarından biri sayar, konum vermez; DAI Kerman 30.283N 57.079E ancak Berdesîr=Kerman eşitliği kaynakla gösterilmedi."
+    }
+   ]
+  },
+  {
+   "ad": "Baden",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1112,
+    1250
+   ],
+   "ornek_maddeler": [
+    "1112-04-27 Hermann II. ilk kez 'Baden Markgrafı' olarak anıldı: Baden Markgraflığ",
+    "1190-01-01 V. Hermann Baden Markgrafı oldu (1190-1243)",
+    "1243-01-16 V. Hermann öldü; oğulları VI. Hermann ve I. Rudolf birlikte hüküm sürd"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Pleiades adayları yerleşim değil (Aquae Helveticae:bath)"
+    }
+   ]
+  },
+  {
+   "ad": "Girit",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    827,
+    1204
+   ],
+   "ornek_maddeler": [
+    "0827-04-02 Ebû Hafs el-Bellûtî kırk gemiyle Girit'e çıktı; ada fethi başladı",
+    "0827-04-02 Endülüslü muhacirler Girit'i fethetti: Girit Emirliği kuruldu",
+    "0961-03-06 Bizans Girit'i geri aldı: Nikephoros Phokas Kandiye'yi zaptetti, Girit"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "62",
+     "durum": "tek_kaynak",
+     "koord": {
+      "lat": 35.3,
+      "lon": 25.0
+     },
+     "not": ""
+    }
+   ]
+  },
+  {
+   "ad": "Bahreyn",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    899,
+    1067
+   ],
+   "ornek_maddeler": [
+    "0899-01-01 Ebû Saîd el-Cennâbî önderliğindeki Karmatîler Katîf'i ve Bahreyn bölge",
+    "0923-01-01 Ebû Tâhir el-Cennâbî Bahreyn Karmatîleri'nin başına geçip Irak'a saldı",
+    "0930-01-12 Ebû Tâhir el-Cennâbî önderliğindeki Karmatîler Kâbe'ye baskın yaptı; H"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "62",
+     "durum": "tek_kaynak",
+     "koord": {
+      "lat": 26.56,
+      "lon": 50.01
+     },
+     "not": ""
+    }
+   ]
+  },
+  {
+   "ad": "Verdun",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    843,
+    843
+   ],
+   "ornek_maddeler": [
+    "0843-08-01 Verdun Antlaşması: Karolenj İmparatorluğu üç oğul arasında paylaşıldı",
+    "0843-01-01 Verdun Antlaşması: Kel Charles batı Frank krallığını aldı",
+    "0843-01-01 Verdun Antlaşması: Alman Louis doğu krallığını aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 6 aday: Verdun 45.46005,-73.57058; Verdun 41.44273,2.17564; Verdun 49.15964,5.3829; Verdun-sur-le-Doubs 46.89692,5.02127"
+    }
+   ]
+  },
+  {
+   "ad": "Dekan",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    755,
+    975
+   ],
+   "ornek_maddeler": [
+    "0755-01-01 Rastrakuta hanedanı Dekan'da hüküm sürmeye başlar (yak. 755; Dantidurg",
+    "0757-01-01 Badami Çalukya kralı II. Kirtivarman'ın yerini Raştrakuta alır (757)",
+    "0975-01-01 Rastrakuta hanedanı son bulur; Taila I Çalukya mirası alır, ikinci (Ba"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Dekan 24.70638,75.1044; Deçan 42.54018,20.28793"
+    }
+   ]
+  },
+  {
+   "ad": "Nehrevân",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    658,
+    1060
+   ],
+   "ornek_maddeler": [
+    "0658-03-30 Hâricîler Abdullah b. Vehb er-Râsibî'yi emîr seçti",
+    "0658-07-17 Nehrevân Savaşı: Hz. Ali Hâricîleri Nehrevân'da bozguna uğrattı",
+    "1060-01-01 Tuğrul Bey Besâsîrî işgalini sona erdirdi; Halife Kāim-Biemrillâh maka"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.431926,
+      "lon": 44.583522,
+      "kaynak": "Pleiades 894138"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Nahrawan, Nahrawan Canal; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    },
+    {
+     "parti": "71",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 33.431926,
+      "lon": 44.583522
+     },
+     "not": "TDV Nehrevân Savaşı maddesi konum vermedi; DAI'de bulunamadı."
+    }
+   ]
+  },
+  {
+   "ad": "Dazaifu",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    901,
+    1268
+   ],
+   "ornek_maddeler": [
+    "0901-01-01 Sugawara no Michizane, Fujiwara no Tokihira'nın hasmane girişimiyle Ky",
+    "0903-03-26 Sugawara no Michizane Dazaifu'da öldü (sonradan Tenjin olarak tanrılaş",
+    "1268-01-01 Kubilay'ın ilk mektubu Japonya'ya ulaştı — Hōjō Tokimune naip oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.51278,
+      "lon": 130.52389,
+      "kaynak": "GeoNames 7422816 Dazaifu"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "71",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 33.51278,
+      "lon": 130.52389
+     },
+     "not": "DAI'de bulunamadı."
+    }
+   ]
+  },
+  {
+   "ad": "Derbent",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1002,
+    1043
+   ],
+   "ornek_maddeler": [
+    "1002-01-01 Derbend emîri Leşkerî b. Meymûn öldü; emirlik Mansûr b. Meymûn'a geçti",
+    "1034-01-01 Derbend emîri Mansûr b. Meymûn öldü; yerine Abdülmelik b. Mansûr geçti",
+    "1043-01-01 Abdülmelik b. Mansûr öldü; son Hâşimî emîri Mansûr b. Abdülmelik başa "
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.2216,
+      "lon": 66.9068,
+      "kaynak": "Pleiades 962627"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 2 kayıt. "
+    },
+    {
+     "parti": "71",
+     "durum": "celiski",
+     "koord": {
+      "lat": 42.0678,
+      "lon": 48.28987
+     },
+     "not": "Pleiades noktası ~1900 km uzakta; bağlam (Leşkerî b. Meymûn, Hâşimî emirleri) Dağıstan Derbendi. Bâbülebvâb ile aynı yer; lat/lon DAI'den (ikinci bir bağımsız tanıkla Bâbülebvâb kaydında teyitli)."
+    }
+   ]
+  },
+  {
+   "ad": "Tel İfrîn",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1119,
+    1119
+   ],
+   "ornek_maddeler": [
+    "1119-01-01 İlgazi ve Togan Arslan Tel İfrîn'de Antakya Prinkepsi Roger'i yok etti",
+    "1119-06-28 Kanlı Meydan Savaşı: Artuklu İlgazi Antakya ordusunu yok etti, Ruggero",
+    "1119-06-28 Kanlı Meydan (Ager Sanguinis): İlgazi Antakya ordusunu yok etti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.51194,
+      "lon": 36.86954,
+      "kaynak": "GeoNames 174186 ‘Afrīn"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 36.51194,
+      "lon": 36.86954
+     },
+     "not": "Koordinat Afrin kasabasıdır; Kanlı Meydan (Ager Sanguinis) Sarmada/Balat çevresi (Ruj vadisi, Halep GB) olarak anılır, Tel Afrin ile ilişkisi kaynakta teyit edilemedi. Tel İfrîn'in tepe konumu için bağımsız kaynak bulunamadı (TDV 'tel afrin' aramasında yalnız Müslim b. Kureyş ve Kürtler çıktı)."
+    }
+   ]
+  },
+  {
+   "ad": "Bagan",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1044,
+    1256
+   ],
+   "ornek_maddeler": [
+    "1044-01-01 Anawrahta Pagan tahtına çıktı",
+    "1084-01-01 Kyansittha Pagan tahtına çıktı",
+    "1256-01-01 Narathihapate Pagan tahtına çıktı — son büyük kral"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Kampung Bagan 1.8481,102.8588; Bagan 6.92556,124.42028; Bagan 54.09949,77.66691"
+    }
+   ]
+  },
+  {
+   "ad": "Rûyân",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1158,
+    1272
+   ],
+   "ornek_maddeler": [
+    "1158-01-01 Bâdüsbânî Şehrîveş öldü, Keykâvus geçti; Bâvendîlerle savaş başladı",
+    "1185-01-01 Bâvendî Erdeşîr Bâdüsbânî Hezâresb'i yendi; Rûyân'a kendi adayını atad",
+    "1272-01-01 Bâdüsbânî Şehrâkim öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Rūyān 36.35038,55.0025; Rūyān 36.56892,51.96305"
+    }
+   ]
+  },
+  {
+   "ad": "Kartaca",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    439,
+    533
+   ],
+   "ornek_maddeler": [
+    "0439-10-19 Gaiseric Kartaca'yı ele geçirdi",
+    "0533-01-01 Belisarius Vandal Krallığı'na karşı Afrika'ya sefer; krallık birkaç ay"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "03",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.86667,
+      "lon": 10.33333,
+      "kaynak": "iDAI.gazetteer (Carthage)"
+     },
+     "not": "İkinci bağımsız tanık alınamadı (Pleiades bot kontrolü)."
+    },
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "2 ayrı Pleiades kümesi: Carthago 36.853,10.323; Tunes 36.799,10.172 [ALIAS eşlemesi: Carthage, Karthago, Tunis; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Deybül",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    712,
+    712
+   ],
+   "ornek_maddeler": [
+    "0712-01-01 Muhammed b. Kāsım üç ay süren kuşatmanın ardından Deybül'ü alır (93/71",
+    "0712-01-01 Muhammed b. Kāsım Deybül'ü alarak Sind fethini başlattı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "03",
+     "durum": "bulunamadi",
+     "koord": null,
+     "not": "iDAI'de Banbhore sonuçsuz; yer Banbhore/Debal olarak tartışmalı, İSAM/arkeoloji raporu ile teyit gerekir."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 24.7516906818,
+      "lon": 67.5214984622,
+      "kaynak": "Pleiades 91371094"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Debal, Banbhore, Bhanbhore; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    },
+    {
+     "parti": "72",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 24.7516906818,
+      "lon": 67.5214984622
+     },
+     "not": "Genel bölge (Sind kıyısı, İndus deltası batısı) TDV ile uyuşuyor ama Banbhore tam konumu teyitli değil; yaklaşık."
+    }
+   ]
+  },
+  {
+   "ad": "Ellendune",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    825,
+    825
+   ],
+   "ornek_maddeler": [
+    "0825-01-01 Ellendune: Egbert Mercia'yı yendi; Kent, Sussex, Surrey ve Essex Wesse",
+    "0825-01-01 Ellendune Savaşı: Wessex İngiliz krallıklarının en güçlüsü oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "03",
+     "durum": "bulunamadi",
+     "koord": null,
+     "not": "Savaş alanı, konumu tartışmalı; araştırılmadı/teyit yok."
+    }
+   ]
+  },
+  {
+   "ad": "Eski Kahire",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    641,
+    643
+   ],
+   "ornek_maddeler": [
+    "0641-01-01 Babilon Kalesi fethedildi; deltanın güneyle bağlantısı kesildi",
+    "0643-01-01 Amr b. Âs Fustat'ı kurdu (Mısır'ın ilk İslâm şehri)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "03",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 30.02303,
+      "lon": 31.244602,
+      "kaynak": "iDAI.gazetteer (al-Qahira al-Qadima)"
+     },
+     "not": "Semt noktası; Fustat/Babilon Kalesi için ayrı doğrulama gerekir."
+    },
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "2 ayrı Pleiades kümesi: Babylon/al-Fusṭāṭ/Old Cairo 30.006,31.230; Babylon 32.537,44.425 [ALIAS eşlemesi: Fustat, Old Cairo, Babylon; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  }
+ ]
+}

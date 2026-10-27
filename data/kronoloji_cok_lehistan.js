@@ -384,7 +384,7 @@ window.KRONOLOJI_COK_LEHISTAN = [
   d:"Kardinal Stanisław Hosius Cizvitleri Braniewo'ya davet etti ve ilk kolejlerini kurdurdu. Cizvit okul ağı bir yandan Polonya eğitiminin belkemiği oldu, bir yandan da 1573'te güvence altına alınan dinî çoğulculuğun yüzyıl içinde aşınmasının başlıca aracı hâline geldi.",
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", yer_kon:[54.3775,19.8256],
   devlet:"polonya-erken", tasindi:"kronoloji_lehistan.js → KRONO-KUZEY-0929 (künye penceresi dışı; M-5416)" },
-{ t:"1568-01-01", b:"Mikołaj Rej — Polonya dilinde yazan ilk büyük edebiyatçı", tur:"kultur",
+{ odak_yer:["Krakov"], t:"1568-01-01", b:"Mikołaj Rej — Polonya dilinde yazan ilk büyük edebiyatçı", tur:"kultur",
   onem:4, dunya:2, kapsam:"ic", etiket:["kultur","konu-kultur"],
   yer_id:"",
   d:"Rej bütün eserlerini Latince yerine Lehçe yazdı ve Polonyalıların kaz olmadığı, kendi dilleri bulunduğu sözüyle anıldı. Polonya edebiyat tarihi ulusal dilde edebiyatın başlangıcını ona bağlar; şlahta kültürünün kendi sesini bulması bu kuşakla olur.",

@@ -124,7 +124,7 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"TDV `bagirmi` — AYNEN: \"Birni Besi liderliğinde (1522-1536) Çad gölünün 200 km. doğusunda kalan Masinya'da güçlü bir devlet kurdu.\" · Britannica, 'Kingdom of Bagirmi' — AYNEN: \"The Bagirmi dynasty appears to have been established in 1522.\" · hassasiyet: YIL (geleneksel tarih)" },
 
 // ── 1535-11 ──────────────────────────────────────────────────────────
-{ t:"1535-11-01", b:"Son Sforza dükü öldü, Milano V. Karl'a geçti", tur:"siyaset", onem:3, dunya:4, kapsam:"dis", yer_id:"Milano",
+{ t:"1535-11-01", b:"Son Sforza dükü öldü, Milano V. Karl'a geçti",yer:"Como", tur:"siyaset", onem:3, dunya:4, kapsam:"dis", yer_id:"Milano",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Milano dükü II. Francesco Sforza 1-2 Kasım 1535 gecesi çocuksuz öldü. Dükalık İmparator V. Karl'a geçti ve bir İspanyol valisiyle yönetilmeye başlandı.",
   kaynak:"G. Benzoni, 'FRANCESCO II Sforza', Dizionario Biografico degli Italiani, Treccani, https://www.treccani.it/enciclopedia/francesco-ii-sforza-duca-di-milano_(Dizionario-Biografico)/ — AYNEN: \"nella notte tra il 1° e il 2 nov. 1535\" · Britannica, 'Duchy of Milan' — AYNEN: \"When Francesco II Sforza died childless in 1535, Milan devolved to Charles V\" · hassasiyet: GÜN (1/2 Kasım gecesi)" },
@@ -154,7 +154,7 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"Muzeum Historii Polski, 'Rozejm w Jamie Zapolskim', https://muzhp.pl/kalendarium/rozejm-w-jamie-zapolskim — AYNEN: \"15 stycznia 1582 r.\" / \"Moskwa zrzekła się pretensji do Inflant oraz oddała Rzeczypospolitej ziemię połocką z niektórymi zamkami.\" · Britannica, 'Tartu' — AYNEN: \"held in turn by Poles (1582–1600, 1603–25)\" · hassasiyet: GÜN (veri 01-01, 14 gün fark)" },
 
 // ── 1589-07-02 ───────────────────────────────────────────────────────
-{ t:"1589-07-02", b:"Tsaritsyn kalesi ilk kez belgede anıldı", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Tsaritsyn",
+{ t:"1589-07-02", etiket:["sehir-kronolojisi"], b:"Tsaritsyn kalesi ilk kez belgede anıldı", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Tsaritsyn",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Çar Fyodor İvanoviç'in 2 Temmuz 1589 tarihli fermanı, Volga'nın güney sınırını korumak için kurulan Tsaritsyn kalesini anar; bu tarih şehrin kuruluş günü kabul edilir.",
   kaynak:"Volgograd Bölge Tarih Müzesi (ВОКМ), https://vokm134.ru/muzej-onlajn/osnovanie-goroda-caricyna.html — AYNEN: \"грамота царя Федора Иоанновича от 2 июля 1589 г.\" · hassasiyet: GÜN (Jülyen; Miladî 12 Temmuz) — veriyle birebir" },
@@ -468,7 +468,7 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"Büyük Sovyet Ansiklopedisi (3. baskı) 'Аральск' (https://dic.academic.ru/dic.nsf/bse/64755/) — AYNEN: \"Основан в 1905 в связи со строительством железной дороги Оренбург — Ташкент; город — с 1938.\" · Toponimik sözlük 'Аральск' (https://dic.academic.ru/dic.nsf/enc_geo/566/): 'Возник как пос. при ст. Аральское Море (открыта в 1905 г.)' · hassasiyet: YIL · KUTU-VERI-1015 (0052/H-0103)" },
 
 // ── Vaday 2 Haziran 1909 ─────────────────────────────────────────────
-{ t:"1909-06-02", b:"Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Abeşe (Abéché)",
+{ t:"1909-06-02", b:"Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu",yer:"Biltine, Fada (Ennedi), Iriba, Ounianga, Vara (Wara)", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Abeşe (Abéché)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Doğuya ilerlemesini sürdüren Fransızlar Vedây'ın başşehri Abeşe'yi (Ebîşe) ele geçirerek Vedây Sultanlığı'na son verdi; son sultan başşehrini kurtaramadan çekildi.",
   kaynak:"TDV `veday` (başlık: 1635-1909) — AYNEN: \"Doğuya ilerlemeyi sürdüren Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler.\" · hassasiyet: GÜN" },

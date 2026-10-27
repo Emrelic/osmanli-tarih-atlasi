@@ -1,0 +1,749 @@
+{
+ "parti": 97,
+ "sonuclar": [
+  {
+   "ad": "Danyang",
+   "durum": "tek_tanik",
+   "lat": 31.95853,
+   "lon": 119.6321,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Danyang (Jiangsu)",
+   "ulke_modern": "Çin",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/page/tgn/8201884",
+     "lat": 31.95853,
+     "lon": 119.6321,
+     "not": "Danyang Shi, Jiangsu"
+    }
+   ],
+   "hesap": null,
+   "not": "Fu Gongtuo 624 Danyang (Jiangsu/Nanjing çevresi). Tang Danyang ilçesi = bugünkü Danyang kabul edildi; Nanjing (32.06,118.79) alternatifi ~100 km. Önceki GeoNames 26.35,119.48 (Fujian) yanlış bölge, reddedildi."
+  },
+  {
+   "ad": "Qinghai",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": null,
+   "not": "Qinghai bölge/eyalet adı (Kökö Nor havzası); önceki GeoNames Aomi (Tokyo) yanlış."
+  },
+  {
+   "ad": "Lingwu",
+   "durum": "tek_tanik",
+   "lat": 38.0814,
+   "lon": 106.3444,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Lingwu (Ningxia)",
+   "ulke_modern": "Çin",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN / GeoNames",
+     "url_veya_atif": "http://vocab.getty.edu/page/tgn/1069873",
+     "lat": 38.0814,
+     "lon": 106.3444,
+     "not": "Dongta (Lingwu ilçe merkezi)"
+    }
+   ],
+   "hesap": null,
+   "not": "Suzong 756 Lingwu'da tahta çıktı; Tang Lingwu komutanlığı modern Lingwu yakını. TGN'de ayrıca Lingwu 37.93,106.54 var. Bağımsız ikinci tanık yok."
+  },
+  {
+   "ad": "Prambanan",
+   "durum": "tek_tanik",
+   "lat": -7.75,
+   "lon": 110.491,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Prambanan tapınakları",
+   "ulke_modern": "Endonezya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/page/tgn/7003699",
+     "lat": -7.75,
+     "lon": 110.491,
+     "not": "Prambanan"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "GeoNames 1630681",
+     "lat": -7.75,
+     "lon": 110.49417,
+     "not": "aynı aile"
+    }
+   ],
+   "hesap": null,
+   "not": "UNESCO WHC sayfası Cloudflare engelli; bağımsız tanık alınamadı."
+  },
+  {
+   "ad": "Laiwu",
+   "durum": "tek_tanik",
+   "lat": 36.2825,
+   "lon": 117.6652,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Laiwu (Shandong)",
+   "ulke_modern": "Çin",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/page/tgn/8630464",
+     "lat": 36.2825,
+     "lon": 117.6652,
+     "not": "Laiwu, Shandong"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "GeoNames Laiwu",
+     "lat": 36.19278,
+     "lon": 117.65694,
+     "not": "aynı aile"
+    }
+   ],
+   "hesap": null,
+   "not": "Huang Chao 884 Taishan eteği Langhu vadisi/Laiwu; Shandong adayı seçildi (Shantou/Fujian reddedildi)."
+  },
+  {
+   "ad": "Châlons",
+   "durum": "cift_tanik",
+   "lat": 48.95393,
+   "lon": 4.36724,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Châlons-en-Champagne",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/108944",
+     "lat": 48.95516,
+     "lon": 4.36065,
+     "not": "Durocatalaunum; Durocatalaunum = Châlons-en-Champagne"
+    },
+    {
+     "kaynak": "geo.api.gouv.fr (Fransa resmi komün)",
+     "url_veya_atif": "https://geo.api.gouv.fr/communes?nom=Ch%C3%A2lons-en-Champagne",
+     "lat": 48.9656,
+     "lon": 4.3801,
+     "not": "komün merkezi"
+    }
+   ],
+   "hesap": null,
+   "not": "274 savaşı geleneksel olarak Catalaunum (Châlons-sur-Marne). Chalon-sur-Saône alternatifi reddedildi."
+  },
+  {
+   "ad": "Geneva",
+   "durum": "cift_tanik",
+   "lat": 46.2019,
+   "lon": 6.1438,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Cenevre",
+   "ulke_modern": "İsviçre",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/177528",
+     "lat": 46.20196,
+     "lon": 6.1437985,
+     "not": "Genava"
+    },
+    {
+     "kaynak": "swisstopo SearchServer gg25",
+     "url_veya_atif": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Gen%C3%A8ve",
+     "lat": 46.2046,
+     "lon": 6.1425,
+     "not": "Genève komünü"
+    }
+   ],
+   "hesap": null,
+   "not": "Önceki Pleiades kilise adayları yerleşim değildi; Genava (177528) yerleşimdir."
+  },
+  {
+   "ad": "Saint-Maurice",
+   "durum": "cift_tanik",
+   "lat": 46.2085,
+   "lon": 7.0044,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Saint-Maurice (Valais) = Acaunum/Agaune",
+   "ulke_modern": "İsviçre",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/177429",
+     "lat": 46.21846,
+     "lon": 7.00398,
+     "not": "Acaunum"
+    },
+    {
+     "kaynak": "swisstopo SearchServer",
+     "url_veya_atif": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Saint-Maurice",
+     "lat": 46.2078,
+     "lon": 7.0071,
+     "not": "gazetteer yerleşim adı; komün 46.196,7.005"
+    }
+   ],
+   "hesap": null,
+   "not": "Agaune 523 = Saint-Maurice d'Agaune, Valais. Fransa'daki Saint-Maurice adayları reddedildi."
+  },
+  {
+   "ad": "Doncaster",
+   "durum": "cift_tanik",
+   "lat": 53.5228,
+   "lon": -1.1313,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Doncaster (Danum)",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/79412",
+     "lat": 53.52542,
+     "lon": -1.1351,
+     "not": "Danum? Roma kalesi, Doncaster"
+    },
+    {
+     "kaynak": "OS Open Names (postcodes.io)",
+     "url_veya_atif": "https://api.postcodes.io/places?q=Doncaster",
+     "lat": 53.52272,
+     "lon": -1.13235,
+     "not": "Doncaster City"
+    }
+   ],
+   "hesap": null,
+   "not": "616 olayı River Idle (Nottinghamshire) kıyısı; Doncaster yaklaşık bölge göstergesi. Avustralya adayı reddedildi."
+  },
+  {
+   "ad": "Hexham",
+   "durum": "cift_tanik",
+   "lat": 54.9718,
+   "lon": -2.1009,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Hexham",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "OS Open Names (postcodes.io)",
+     "url_veya_atif": "https://api.postcodes.io/places?q=Hexham",
+     "lat": 54.97178,
+     "lon": -2.10093,
+     "not": "Hexham Town"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "TGN 7010009",
+     "lat": 54.96666,
+     "lon": -2.1,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "Heavenfield savaşı Hexham yakınında; kasaba koordinatı yaklaşıktır. İki farklı kurum (OS ve GeoNames/TGN)."
+  },
+  {
+   "ad": "Oswestry",
+   "durum": "cift_tanik",
+   "lat": 52.8606,
+   "lon": -3.0555,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Oswestry (Maserfeld geleneksel yeri)",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "OS Open Names (postcodes.io)",
+     "url_veya_atif": "https://api.postcodes.io/places?q=Oswestry",
+     "lat": 52.86061,
+     "lon": -3.05553,
+     "not": "Oswestry Town"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "TGN 1030249",
+     "lat": 52.85,
+     "lon": -3.03333,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "Maserfeld = Oswestry geleneksel özdeşleştirmesi; tartışmalı, yaklaşık."
+  },
+  {
+   "ad": "Leeds",
+   "durum": "cift_tanik",
+   "lat": 53.8007,
+   "lon": -1.5503,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Leeds (Loidis bölgesi, Winwaed)",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "OS Open Names (postcodes.io)",
+     "url_veya_atif": "https://api.postcodes.io/places?q=Leeds",
+     "lat": 53.8007,
+     "lon": -1.55026,
+     "not": "Leeds City"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "parti 50 Leeds",
+     "lat": 53.79648,
+     "lon": -1.54785,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "Winwaed Savaşı 655 Bede'de Loidis bölgesinde; tam yer bilinmiyor, Leeds yaklaşık."
+  },
+  {
+   "ad": "Whitby",
+   "durum": "cift_tanik",
+   "lat": 54.4851,
+   "lon": -0.6171,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Whitby (Streanæshalch)",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "OS Open Names (postcodes.io)",
+     "url_veya_atif": "https://api.postcodes.io/places?q=Whitby",
+     "lat": 54.48507,
+     "lon": -0.61707,
+     "not": "Whitby Town, N. Yorkshire"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "TGN 7010056",
+     "lat": 54.48666,
+     "lon": -0.630556,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "Streanæshalch = Whitby. Kanada/Yeni Zelanda adayı reddedildi."
+  },
+  {
+   "ad": "Angus",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": null,
+   "not": "Angus İskoçya Pikt bölgesi/ilçe adı (Nechtansmere = Dunnichen, Angus). Önceki GeoNames Kanada reddedildi."
+  },
+  {
+   "ad": "Dunkeld",
+   "durum": "cift_tanik",
+   "lat": 56.5679,
+   "lon": -3.5857,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Dunkeld",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "OS Open Names (postcodes.io)",
+     "url_veya_atif": "https://api.postcodes.io/places?q=Dunkeld",
+     "lat": 56.56792,
+     "lon": -3.58567,
+     "not": "Dunkeld Village"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "TGN 7009742",
+     "lat": 56.56666,
+     "lon": -3.58333,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": ""
+  },
+  {
+   "ad": "Ballon",
+   "durum": "tek_tanik",
+   "lat": 47.716,
+   "lon": -2.074,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Bains-sur-Oust / Ballon manastırı çevresi (Redon yanı)",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "geo.api.gouv.fr (Fransa resmi komün)",
+     "url_veya_atif": "https://geo.api.gouv.fr/communes?nom=Bains-sur-Oust",
+     "lat": 47.716,
+     "lon": -2.074,
+     "not": "Bains-sur-Oust (Ille-et-Vilaine)"
+    }
+   ],
+   "hesap": null,
+   "not": "Ballon Savaşı 845: Oust/Aff çevresi, Redon-Bains-sur-Oust arası. Önceki GeoNames Sarthe 48.18,0.23 YANLIŞ bölge (Maine), reddedildi. Konum tarifi Wikipedia/WarHistory'e dayalı, bağımsız sayılmadı."
+  },
+  {
+   "ad": "Surrey",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": null,
+   "not": "Surrey İngiltere kontluğu/Wessex bölgesi (Aclea belki Ockley); önceki adaylar Kuzey Amerika."
+  },
+  {
+   "ad": "Vendôme",
+   "durum": "cift_tanik",
+   "lat": 47.7995,
+   "lon": 1.0646,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Vendôme",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "geo.api.gouv.fr (Fransa resmi komün)",
+     "url_veya_atif": "https://geo.api.gouv.fr/communes?nom=Vend%C3%B4me",
+     "lat": 47.7995,
+     "lon": 1.0646,
+     "not": "Vendôme komünü"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "GeoNames 2970110",
+     "lat": 47.79292,
+     "lon": 1.06556,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "Pleiades Vindocinum (138661) = Vendôme kimlik desteği; koordinatı okunmadı."
+  },
+  {
+   "ad": "Edington",
+   "durum": "cift_tanik",
+   "lat": 51.2795,
+   "lon": -2.105,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Edington, Wiltshire (Ethandun)",
+   "ulke_modern": "Birleşik Krallık",
+   "tanik": [
+    {
+     "kaynak": "OS Open Names (postcodes.io)",
+     "url_veya_atif": "https://api.postcodes.io/places?q=Edington",
+     "lat": 51.27949,
+     "lon": -2.10504,
+     "not": "Edington village Wiltshire"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "TGN 7449510",
+     "lat": 51.27583,
+     "lon": -2.10638,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "Ethandun = Edington Wiltshire geleneksel özdeşleştirmesi; Somerset Edington ve ABD adayı reddedildi."
+  },
+  {
+   "ad": "Cumbria",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": null,
+   "not": "Cumbria/Cumberland bölge adı (Strathclyde-Cumbria); önceki GeoNames Maryland Cumberland yanlış."
+  },
+  {
+   "ad": "Fitjar",
+   "durum": "tek_tanik",
+   "lat": 59.91803,
+   "lon": 5.31674,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Fitjar",
+   "ulke_modern": "Norveç",
+   "tanik": [
+    {
+     "kaynak": "Kartverket SSR (Norveç resmi yer adları)",
+     "url_veya_atif": "https://ws.geonorge.no/stedsnavn/v1/navn?sok=Fitjar",
+     "lat": 59.91803,
+     "lon": 5.31674,
+     "not": "Fitjar tettsted"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "3157436",
+     "lat": 59.91803,
+     "lon": 5.31674,
+     "not": "birebir aynı koordinat: türetilmiş, bağımsız sayılmadı"
+    }
+   ],
+   "hesap": null,
+   "not": "Fitjar Savaşı c.961."
+  },
+  {
+   "ad": "Melhus",
+   "durum": "tek_tanik",
+   "lat": 63.287,
+   "lon": 10.2754,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Melhus (Rimul)",
+   "ulke_modern": "Norveç",
+   "tanik": [
+    {
+     "kaynak": "Kartverket SSR",
+     "url_veya_atif": "https://ws.geonorge.no/stedsnavn/v1/navn?sok=Melhus",
+     "lat": 63.28704,
+     "lon": 10.2754,
+     "not": "Melhus tettsted"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "TGN 1048657",
+     "lat": 63.2833,
+     "lon": 10.2667,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "Håkon jarl 995 Rimul/Melhus yakını (saga geleneği). Kartverket-GeoNames örtüşebilir, bağımsızlık kanıtlanamadı."
+  },
+  {
+   "ad": "Tingis",
+   "durum": "cift_tanik",
+   "lat": 35.7875,
+   "lon": -5.8102,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tanca (Tangier)",
+   "ulke_modern": "Fas",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/275736",
+     "lat": 35.787546,
+     "lon": -5.8102335,
+     "not": "Tingi"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "TGN 7000442 Tanger",
+     "lat": 35.78057,
+     "lon": -5.81364,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": ""
+  },
+  {
+   "ad": "Caesarea",
+   "durum": "cift_tanik",
+   "lat": 36.607,
+   "lon": 2.1918,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Cherchell (Iol Caesarea)",
+   "ulke_modern": "Cezayir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/295279",
+     "lat": 36.607058,
+     "lon": 2.1918495,
+     "not": "Iol Caesarea"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "TGN 7001266 Cherchell",
+     "lat": 36.6,
+     "lon": 2.1833,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "Bağlam Claudius'un Mauretania ilhakı (Tingitana + Caesariensis): Caesarea = Iol Caesarea. Filistin/Kapadokya/Kilikya Caesareaları reddedildi."
+  },
+  {
+   "ad": "Ragusa",
+   "durum": "tek_tanik",
+   "lat": 42.6667,
+   "lon": 18.1167,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Dubrovnik",
+   "ulke_modern": "Hırvatistan",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "TGN 7015500 Dubrovnik",
+     "lat": 42.6667,
+     "lon": 18.1167,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "parti 50",
+     "lat": 42.64125,
+     "lon": 18.10909,
+     "not": "aynı aile"
+    }
+   ],
+   "hesap": null,
+   "not": "Dubrovnik 866 Arap kuşatması; Sicilya Ragusa reddedildi. Bağımsız ikinci tanık alınamadı."
+  },
+  {
+   "ad": "Talavera",
+   "durum": "cift_tanik",
+   "lat": 39.9601,
+   "lon": -4.8323,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Talavera de la Reina (Caesarobriga)",
+   "ulke_modern": "İspanya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/265834",
+     "lat": 39.96008,
+     "lon": -4.8322732,
+     "not": "Caesarobriga"
+    },
+    {
+     "kaynak": "GeoNames/Getty TGN (tek aile)",
+     "url_veya_atif": "TGN 7008710",
+     "lat": 39.95,
+     "lon": -4.83333,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "Ordoño II 913 Tagus vadisi akını; Peru/Filipin adayları reddedildi."
+  },
+  {
+   "ad": "Argentoratum",
+   "durum": "cift_tanik",
+   "lat": 48.5824,
+   "lon": 7.7474,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Strazburg",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/108754",
+     "lat": 48.582416,
+     "lon": 7.747407,
+     "not": "Argentorate"
+    },
+    {
+     "kaynak": "geo.api.gouv.fr",
+     "url_veya_atif": "https://geo.api.gouv.fr/communes?nom=Strasbourg",
+     "lat": 48.5691,
+     "lon": 7.7621,
+     "not": "komün merkezi"
+    }
+   ],
+   "hesap": null,
+   "not": ""
+  },
+  {
+   "ad": "Forchheim",
+   "durum": "tek_tanik",
+   "lat": 49.71754,
+   "lon": 11.05877,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Forchheim (Oberfranken)",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames (parti 50 adayı)",
+     "url_veya_atif": "GeoNames Forchheim",
+     "lat": 49.71754,
+     "lon": 11.05877,
+     "not": ""
+    }
+   ],
+   "hesap": null,
+   "not": "911 Konrad seçimi Franken-Sakson toplantısı: Forchheim (Bavyera Frankonya'sı). Baden adayı reddedildi. Bağımsız tanık bulunamadı."
+  },
+  {
+   "ad": "Franconia",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": null,
+   "not": "Franconia (Franken dükalığı/bölgesi); önceki GeoNames Virginia mahallesi yanlış."
+  },
+  {
+   "ad": "Fritzlar",
+   "durum": "tek_tanik",
+   "lat": 51.13333,
+   "lon": 9.28333,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Fritzlar",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "TGN 7005947",
+     "lat": 51.13333,
+     "lon": 9.283333,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "2924326",
+     "lat": 51.13181,
+     "lon": 9.27557,
+     "not": "aynı aile"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/119011",
+     "lat": 51.12075,
+     "lon": 9.23644,
+     "not": "Büraburg (Ungedanken); yakın tepe kalesi, ~3 km; Fritzlar noktası değil, destek"
+    }
+   ],
+   "hesap": null,
+   "not": ""
+  }
+ ]
+}

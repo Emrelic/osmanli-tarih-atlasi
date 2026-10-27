@@ -1,0 +1,727 @@
+{
+ "parti": 102,
+ "sonuclar": [
+  {
+   "ad": "Tiryns",
+   "durum": "cift_tanik",
+   "lat": 37.5994,
+   "lon": 22.7999,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tiryns (Tirintha)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 570740",
+     "url_veya_atif": "https://pleiades.stoa.org/places/570740/json",
+     "lat": 37.59928,
+     "lon": 22.79999,
+     "not": "DARE/CIGS 5 m"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2282611",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2282611",
+     "lat": 37.599375,
+     "lon": 22.79985,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN 7011074",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7011074",
+     "lat": 37.6,
+     "lon": 22.8,
+     "not": "kaba"
+    }
+   ],
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Knossos",
+   "durum": "cift_tanik",
+   "lat": 35.298,
+   "lon": 25.163,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Knossos (Girit)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 238779098",
+     "url_veya_atif": "https://pleiades.stoa.org/places/238779098/json",
+     "lat": 35.29803,
+     "lon": 25.16286,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2179832",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2179832",
+     "lat": 35.29799,
+     "lon": 25.16304,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN 7010870",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7010870",
+     "lat": 35.3,
+     "lon": 25.1667,
+     "not": "kaba"
+    }
+   ],
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Messene (Ithome)",
+   "durum": "cift_tanik",
+   "lat": 37.1755,
+   "lon": 21.9202,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Mavromati (Messene)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 570479",
+     "url_veya_atif": "https://pleiades.stoa.org/places/570479/json",
+     "lat": 37.1753,
+     "lon": 21.92005,
+     "not": "Barrington: Mavromati"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2070295",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2070295",
+     "lat": 37.177075,
+     "lon": 21.920267,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN 7010924",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7010924",
+     "lat": 37.166,
+     "lon": 22.0,
+     "not": "Messini terk edilmis yerlesim; kaba, ~8 km"
+    }
+   ],
+   "not": "Ithome tepesi site'in hemen yaninda. Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Leuktra",
+   "durum": "cift_tanik",
+   "lat": 38.2544,
+   "lon": 23.1821,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Lefktra (Boiotia)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 540913",
+     "url_veya_atif": "https://pleiades.stoa.org/places/540913/json",
+     "lat": 38.25441,
+     "lon": 23.18211,
+     "not": "OSM koy"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2286948",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2286948",
+     "lat": 38.268327,
+     "lon": 23.150318,
+     "not": "~3 km fark"
+    },
+    {
+     "kaynak": "Getty TGN 7011124",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7011124",
+     "lat": 38.254,
+     "lon": 23.182,
+     "not": "Pleiades/OSM ile ayni"
+    }
+   ],
+   "not": "MO 371 savas alani tam sahasi kesin degil; koy/yerlesim yaklasik 1-3 km. TGN Pleiades-OSM ile ayni olabilir."
+  },
+  {
+   "ad": "Mantineia",
+   "durum": "cift_tanik",
+   "lat": 37.6173,
+   "lon": 22.3925,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Mantineia (Arkadia)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 570459",
+     "url_veya_atif": "https://pleiades.stoa.org/places/570459/json",
+     "lat": 37.61738,
+     "lon": 22.39258,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2102222",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2102222",
+     "lat": 37.615023,
+     "lon": 22.391961,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN 7010918",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7010918",
+     "lat": 37.6333,
+     "lon": 22.3833,
+     "not": "kaba"
+    }
+   ],
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Plataia",
+   "durum": "cift_tanik",
+   "lat": 38.221,
+   "lon": 23.2735,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Plataies (Kokkla)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 541063",
+     "url_veya_atif": "https://pleiades.stoa.org/places/541063/json",
+     "lat": 38.22108,
+     "lon": 23.27354,
+     "not": "DARE+OSM"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2307625",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2307625",
+     "lat": 38.220833,
+     "lon": 23.273889,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN 7011028",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7011028",
+     "lat": 38.2167,
+     "lon": 23.2667,
+     "not": "kaba"
+    }
+   ],
+   "not": "Sehir yeri kesin; MO 479 savas alaninin tam sahasi Asopos'un guneyinde tartismali ama ~5 km icinde."
+  },
+  {
+   "ad": "Amphipolis",
+   "durum": "cift_tanik",
+   "lat": 40.825,
+   "lon": 23.842,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Amfipoli",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 501347",
+     "url_veya_atif": "https://pleiades.stoa.org/places/501347/json",
+     "lat": 40.82581,
+     "lon": 23.84158,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2293923",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2293923",
+     "lat": 40.820095,
+     "lon": 23.847354,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN 7011094",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7011094",
+     "lat": 40.8333,
+     "lon": 23.85,
+     "not": "kaba"
+    }
+   ],
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Khaironeia",
+   "durum": "cift_tanik",
+   "lat": 38.494,
+   "lon": 22.8412,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Chaironeia",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 540701",
+     "url_veya_atif": "https://pleiades.stoa.org/places/540701/json",
+     "lat": 38.49397,
+     "lon": 22.84143,
+     "not": "Barrington: Kapraina"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2099511",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2099511",
+     "lat": 38.495033,
+     "lon": 22.844009,
+     "not": ""
+    }
+   ],
+   "not": "TGN 7010731 (38.1,22.45) yanlis/uyumsuz, kullanilmadi. MO 338 savas alani ovanin dogusu, ~2 km."
+  },
+  {
+   "ad": "Krannon",
+   "durum": "cift_tanik",
+   "lat": 39.4991,
+   "lon": 22.3041,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Krannon (Kastro/Douraki, Tesalya)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 540886",
+     "url_veya_atif": "https://pleiades.stoa.org/places/540886/json",
+     "lat": 39.49911,
+     "lon": 22.30413,
+     "not": "Barrington: Kastro/Douraki; DARMC 10 km"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2127770",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2127770",
+     "lat": 39.5,
+     "lon": 22.3,
+     "not": "yuvarlak, kaba"
+    }
+   ],
+   "not": "TSV ipucundan (39.6,22.4) ~14 km uzak; ipucu reddedildi. iDAI kaba oldugu icin kesinlik yaklasik."
+  },
+  {
+   "ad": "Granikos",
+   "durum": "tek_tanik",
+   "lat": 40.2926,
+   "lon": 27.237,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Biga Cayi (Granikos) savas alani",
+   "ulke_modern": "Turkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 800531031",
+     "url_veya_atif": "https://pleiades.stoa.org/places/800531031/json",
+     "lat": 40.29265,
+     "lon": 27.23701,
+     "not": "Granicus (battlefield); OSM tabanli adaylar Gulec/Adliye"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2043725",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2043725",
+     "lat": 40.38333,
+     "lon": 27.3,
+     "not": "yalniz nehir, ~12 km"
+    }
+   ],
+   "not": "Nehir kesin (Biga Cayi); gecit/meydan yeri tartismali, tek tanik. iDAI nehir noktasi savas yeri tanigi sayilmadi."
+  },
+  {
+   "ad": "Issos",
+   "durum": "cift_tanik",
+   "lat": 36.8537,
+   "lon": 36.157,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Kinet Hoyuk / Yesil Hoyuk (Issos kenti)",
+   "ulke_modern": "Turkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 658490",
+     "url_veya_atif": "https://pleiades.stoa.org/places/658490/json",
+     "lat": 36.85367,
+     "lon": 36.15704,
+     "not": "Issus/Nikopolis, Barrington: Kinet Hoyuk"
+    },
+    {
+     "kaynak": "Getty TGN 7594299",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7594299",
+     "lat": 36.9333,
+     "lon": 36.2167,
+     "not": "Issus terk edilmis yerlesim; ~9 km"
+    },
+    {
+     "kaynak": "Getty TGN 9226797",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/9226797",
+     "lat": 36.8403,
+     "lon": 36.195,
+     "not": "Kinet Hoyuk"
+    }
+   ],
+   "not": "Issos KENTI Kinet Hoyuk; MO 333 savas meydani (Pinaros nehri) kesin bilinmiyor, ~10-15 km icinde. iDAI'de Issos-Ebene koordinatsiz."
+  },
+  {
+   "ad": "Memphis",
+   "durum": "cift_tanik",
+   "lat": 29.8495,
+   "lon": 31.2551,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Mit Rahina",
+   "ulke_modern": "Misir",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 736963",
+     "url_veya_atif": "https://pleiades.stoa.org/places/736963/json",
+     "lat": 29.84949,
+     "lon": 31.25506,
+     "not": "goruntu 5 m"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2042877",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2042877",
+     "lat": 29.85,
+     "lon": 31.25,
+     "not": ""
+    }
+   ],
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Gaugamela",
+   "durum": "cift_tanik",
+   "lat": 36.5933,
+   "lon": 43.481,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tell Gomel (Gaugamela koyu)",
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 874478",
+     "url_veya_atif": "https://pleiades.stoa.org/places/874478/json",
+     "lat": 36.573315,
+     "lon": 43.494324,
+     "not": "Barrington: perhaps Tell Gomel; DARMC 10 km"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 1001864",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/1001864",
+     "lat": 36.5932,
+     "lon": 43.48104,
+     "not": "Tell Gomel"
+    }
+   ],
+   "not": "TSV ipucu (36.4,43.3) ~26 km uzak, reddedildi. 331 MO savasin tam alani Arbela/Erbil ovasinda; Tell Gomel Gaugamela koyu olarak kabul gorur ama kesin degil."
+  },
+  {
+   "ad": "Hydaspes (Jhelum) / Taksila",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Jhelum / Taxila",
+   "ulke_modern": "Pakistan",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2768036",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2768036",
+     "lat": 32.9,
+     "lon": 73.7,
+     "not": "Jhelum"
+    },
+    {
+     "kaynak": "Getty TGN 7002541",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7002541",
+     "lat": 32.933132,
+     "lon": 73.726367,
+     "not": "Jhelum sehri"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2412498",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2412498",
+     "lat": 33.8,
+     "lon": 72.8,
+     "not": "Taxila"
+    },
+    {
+     "kaynak": "Getty TGN 6005850",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6005850",
+     "lat": 33.759722,
+     "lon": 72.8375,
+     "not": "Taxila"
+    }
+   ],
+   "not": "Ad iki ayri yeri kapsiyor (~130 km): Jhelum/Hydaspes savas gecidi (Jalalpur/Mong/Haranpur tartismali) ve Taxila (33.76,72.84, kesin). Tek nokta secilemedi; madde ayrilmali. Taxila tek basina cift tanikli (iDAI+TGN) 33.76,72.84."
+  },
+  {
+   "ad": "Triparadeisos",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Suriye/Lubnan (kesin yer yok)",
+   "ulke_modern": "Suriye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 668393",
+     "url_veya_atif": "https://pleiades.stoa.org/places/668393/json",
+     "lat": 34.443566,
+     "lon": 36.594978,
+     "not": "Barrington: Jusiye?; DARMC 10 km, soru isaretli"
+    }
+   ],
+   "not": "Yalniz Pleiades soru isaretli aday (Jusiye/Qadesh, 321 MO); ikinci tanik yok, yer tartismali (Bekaa vadisi alternatifi)."
+  },
+  {
+   "ad": "Gabiene",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Iran (bolge)",
+   "ulke_modern": "Iran",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 902990",
+     "url_veya_atif": "https://pleiades.stoa.org/places/902990/json",
+     "lat": 32.6511,
+     "lon": 51.6788,
+     "not": "Aspadana/Isfahan Gabai? soru isaretli"
+    }
+   ],
+   "not": "Gabiene savasi (316 MO) Isfahan cevresi bolgesinde; nokta yok, tek soru isaretli aday."
+  },
+  {
+   "ad": "Ipsos",
+   "durum": "tek_tanik",
+   "lat": 38.8562,
+   "lon": 30.5492,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Sipsin (Cayirbag), Afyon",
+   "ulke_modern": "Turkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 609415",
+     "url_veya_atif": "https://pleiades.stoa.org/places/609415/json",
+     "lat": 38.856193,
+     "lon": 30.549206,
+     "not": "Barrington: Cayirbag, eski Sipsin; DARMC 10 km"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2218200",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2218200",
+     "lat": 38.85,
+     "lon": 30.5317,
+     "not": "Cayirbag koyu; Ipsos adiyla baglanmamis"
+    }
+   ],
+   "not": "Sipsin kimligi gelenekseldir, savas alani kesin degil (301 MO); TSV ipucu 38.6,30.5 ~29 km uzak. iDAI koyu Ipsos tanigi sayilmadi."
+  },
+  {
+   "ad": "Korupedion",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Lidya (Salihli yakini)",
+   "ulke_modern": "Turkiye",
+   "tanik": [],
+   "not": "Pleiades ve iDAI'de kayit bulunamadi; yer tartismali (281 MO)."
+  },
+  {
+   "ad": "Kynoskephalai",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tesalya (Farsala-Larissa arasi)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 540719",
+     "url_veya_atif": "https://pleiades.stoa.org/places/540719/json",
+     "lat": 39.25,
+     "lon": 22.75,
+     "not": "yalniz 0.5x0.5 derece kutu; nokta degil"
+    }
+   ],
+   "not": "Pleiades yalniz kutu verir; tepeler Skotoussa civarinda tartismali (197 MO)."
+  },
+  {
+   "ad": "Sellasia",
+   "durum": "cift_tanik",
+   "lat": 37.1693,
+   "lon": 22.4406,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Palaiogoulas / Kastro Sellasias",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 570662",
+     "url_veya_atif": "https://pleiades.stoa.org/places/570662/json",
+     "lat": 37.169269,
+     "lon": 22.440604,
+     "not": "goruntu 5 m"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2764417",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2764417",
+     "lat": 37.1678,
+     "lon": 22.4171,
+     "not": "~2 km"
+    },
+    {
+     "kaynak": "Getty TGN 6005341",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6005341",
+     "lat": 37.1667,
+     "lon": 22.4167,
+     "not": "kaba"
+    }
+   ],
+   "not": "222 MO savas alani Olympos-Evas tepeleri bu cevrede, ~3 km."
+  },
+  {
+   "ad": "Sikyon",
+   "durum": "cift_tanik",
+   "lat": 37.9838,
+   "lon": 22.7122,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Vasiliko (Sikyon)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 570668",
+     "url_veya_atif": "https://pleiades.stoa.org/places/570668/json",
+     "lat": 37.98382,
+     "lon": 22.71219,
+     "not": "DARE"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2307668",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2307668",
+     "lat": 37.983516,
+     "lon": 22.713665,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN 7011098",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7011098",
+     "lat": 37.9833,
+     "lon": 22.7333,
+     "not": "modern Sikyon, ~2 km"
+    }
+   ],
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Leukopetra",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Isthmos yakini",
+   "ulke_modern": "Yunanistan",
+   "tanik": [],
+   "not": "Pleiades Leucopetra = Kalabriya, iDAI Leukopetra = Makedonya (Meter sanctuary): ikisi de yanlis yer. 146 MO Achaia-Roma Leukopetra savasi Isthmos yakini, nokta bulunamadi."
+  },
+  {
+   "ad": "Nikopolis (Lykos ovası)",
+   "durum": "cift_tanik",
+   "lat": 40.1486,
+   "lon": 38.1435,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Yesilyayla (Purk), Susehri",
+   "ulke_modern": "Turkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 857248",
+     "url_veya_atif": "https://pleiades.stoa.org/places/857248/json",
+     "lat": 40.14856,
+     "lon": 38.14354,
+     "not": "Barrington: Yesilyayla, eski Purk; DARE 100 m"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2233646",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2233646",
+     "lat": 40.13333,
+     "lon": 38.15,
+     "not": "Nicopolis ad Lycum"
+    }
+   ],
+   "not": "TSV ipucu Koyulhisar (40.3,37.9) ~30 km uzakta; iki kaynak Purk/Susehri'yi gosterir. Lykos savasi alani ayrica tartismali; bu yalniz kent. Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Emporion",
+   "durum": "cift_tanik",
+   "lat": 42.1334,
+   "lon": 3.1145,
+   "tur": "liman",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Empuries (Katalonya)",
+   "ulke_modern": "Ispanya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 246382",
+     "url_veya_atif": "https://pleiades.stoa.org/places/246382/json",
+     "lat": 42.13342,
+     "lon": 3.11455,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2768921",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2768921",
+     "lat": 42.135143,
+     "lon": 3.119767,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN 1100522",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1100522",
+     "lat": 42.139543,
+     "lon": 3.117809,
+     "not": "Ampurias"
+    }
+   ],
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  },
+  {
+   "ad": "Kartaca (Carthago)",
+   "durum": "cift_tanik",
+   "lat": 36.8531,
+   "lon": 10.3231,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kartaca (Tunus)",
+   "ulke_modern": "Tunus",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 314921",
+     "url_veya_atif": "https://pleiades.stoa.org/places/314921/json",
+     "lat": 36.853056,
+     "lon": 10.323056,
+     "not": "DARE"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2282702",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2282702",
+     "lat": 36.86667,
+     "lon": 10.33333,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2733106",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2733106",
+     "lat": 36.861727,
+     "lon": 10.324967,
+     "not": "Carthage-Nord"
+    }
+   ],
+   "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+  }
+ ]
+}

@@ -1,0 +1,667 @@
+{
+ "parti": 98,
+ "sonuclar": [
+  {
+   "ad": "Riade",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Riade Savaşı (933) Unstrut yakını Almanya; kesin yer akademik olarak tartışmalı; önceki GeoNames Riyadh kıta dışı. Çift tanık bulunamadı."
+  },
+  {
+   "ad": "Bisütun",
+   "durum": "cift_tanik",
+   "lat": 34.3881,
+   "lon": 47.4318,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Bisotun",
+   "ulke_modern": "İran",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/903002",
+     "lat": 34.3881,
+     "lon": 47.4318,
+     "not": "Bisutun/Bagistana"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2087505",
+     "lat": 34.3996,
+     "lon": 47.445,
+     "not": "Bīsotūn"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Masada",
+   "durum": "cift_tanik",
+   "lat": 31.3164,
+   "lon": 35.3537,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Masada",
+   "ulke_modern": "İsrail",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/687968",
+     "lat": 31.3164,
+     "lon": 35.3537,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2119880",
+     "lat": 31.31561,
+     "lon": 35.35275,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Selinus",
+   "durum": "tek_tanik",
+   "lat": 36.2617,
+   "lon": 32.2808,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Gazipaşa (Selinus/Traianopolis)",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8712329",
+     "lat": 36.2617,
+     "lon": 32.2808,
+     "not": "Selinus deserted settlement"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2289405",
+     "lat": 36.3,
+     "lon": 32.3,
+     "not": "Selinus, Gazipaşa 36.2694,32.3179 (TGN ile beslenen küme)"
+    }
+   ],
+   "hesap": "",
+   "not": "Önceki Pleiades 462489 Sicilya Selinunte: YANLIŞ (Trajan Kilikya'da öldü). Kilikya Selinus için Pleiades kaydı bulunamadı; TGN+DAI tek küme."
+  },
+  {
+   "ad": "Bethar",
+   "durum": "tek_tanik",
+   "lat": 31.73,
+   "lon": 35.135555,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Battir",
+   "ulke_modern": "Filistin (Batı Şeria)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/687851",
+     "lat": 31.73,
+     "lon": 35.135555,
+     "not": "Bethar/Bethther; Battir köyü yanı, arkeoloji çerçevesi kayıtta"
+    }
+   ],
+   "hesap": "",
+   "not": "Bağımsız ikinci koordinat tanığı bulunamadı."
+  },
+  {
+   "ad": "Arbela",
+   "durum": "cift_tanik",
+   "lat": 36.1913,
+   "lon": 44.0094,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Erbil",
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/874341",
+     "lat": 36.19131,
+     "lon": 44.00938,
+     "not": "Arbela/Arba-ilu, Adiabene"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/Erbil, Basar",
+     "lat": 36.188559,
+     "lon": 44.0088,
+     "not": "DAI Erbil"
+    }
+   ],
+   "hesap": "",
+   "not": "Caracalla'nın 216 Part seferi Arbela (Adiabene) baskını; Pleiades'in Filistin ve Ürdün Arbelaları kıta/bağlam dışı."
+  },
+  {
+   "ad": "Carrhae",
+   "durum": "cift_tanik",
+   "lat": 36.8636,
+   "lon": 39.0307,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Harran",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/658427",
+     "lat": 36.86359,
+     "lon": 39.03075,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2280330",
+     "lat": 36.86,
+     "lon": 39.03139,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Barbalissus",
+   "durum": "cift_tanik",
+   "lat": 35.987,
+   "lon": 38.111,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Balis / Meskene",
+   "ulke_modern": "Suriye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/668208",
+     "lat": 35.98703,
+     "lon": 38.11111,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2296409",
+     "lat": 35.98718,
+     "lon": 38.110435,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Vagarşapat",
+   "durum": "cift_tanik",
+   "lat": 40.1761,
+   "lon": 44.2923,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Vagharshapat (Eçmiadzin)",
+   "ulke_modern": "Ermenistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/863815",
+     "lat": 40.176099,
+     "lon": 44.292264,
+     "not": "Kainepolis/Vagharshapat"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames 616062",
+     "lat": 40.16557,
+     "lon": 44.29462,
+     "not": "önceki parti"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Chrysopolis",
+   "durum": "cift_tanik",
+   "lat": 41.0206,
+   "lon": 29.0129,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Üsküdar",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/520995",
+     "lat": 41.020639,
+     "lon": 29.012856,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2234942",
+     "lat": 41.02252,
+     "lon": 29.02369,
+     "not": "Üsküdar, arama Chrysopolis ile eşleşti"
+    }
+   ],
+   "hesap": "",
+   "not": "Besançon adaşı kıta dışı."
+  },
+  {
+   "ad": "Ctesiphon",
+   "durum": "cift_tanik",
+   "lat": 33.0947,
+   "lon": 44.5812,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Selman Pak",
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/893976",
+     "lat": 33.094703,
+     "lon": 44.581223,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/Ctesiphon",
+     "lat": 33.1,
+     "lon": 44.6,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Soba",
+   "durum": "tek_tanik",
+   "lat": 15.45,
+   "lon": 32.6667,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Soba (Hartum yakını)",
+   "ulke_modern": "Sudan",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6005527",
+     "lat": 15.45,
+     "lon": 32.6667,
+     "not": "Soba historic site"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2767799",
+     "lat": 15.4,
+     "lon": 32.9,
+     "not": "DAI (kaba, ~25 km sapma)"
+    }
+   ],
+   "hesap": "",
+   "not": "Önceki Pleiades 668261 Emesa/Humus: YANLIŞ. Alodia başkenti Soba Sudan; bağımsız ikinci tanık bulunamadı."
+  },
+  {
+   "ad": "Mûte",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Mu'ta (Karak güneyi, Ürdün) için çevrimiçi kaynakta koordinat tanığı bulunamadı; önceki Moutier adayları Fransa/İsviçre yanlış."
+  },
+  {
+   "ad": "Arafat",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Arafat Dağı (Mekke yakını, Suudi Arabistan); Pleiades/DAI/TGN'de doğru kayıt bulunamadı (TGN Arafat Moritanya ve Türkiye kıta dışı)."
+  },
+  {
+   "ad": "Heliopolis",
+   "durum": "tek_tanik",
+   "lat": 30.15,
+   "lon": 31.316,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ayn Şems (Kahire)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001183",
+     "lat": 30.15,
+     "lon": 31.316,
+     "not": "Heliopolis ancient site"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2751321",
+     "lat": 30.1,
+     "lon": 31.3,
+     "not": "Heliopolis"
+    }
+   ],
+   "hesap": "",
+   "not": "TGN+DAI tek küme; Pleiades kaydı bulunamadı. Baalbek (Heliopolis Suriye) bağlam dışı."
+  },
+  {
+   "ad": "Orhon",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Orhon yazıtları (Höşöö Tsaydam, Moğolistan); Orhon Vadisi bölge adı; çevrimiçi kaynakta yazıt yeri koordinat tanığı doğrulanamadı."
+  },
+  {
+   "ad": "Enbâr",
+   "durum": "tek_tanik",
+   "lat": 33.378611,
+   "lon": 43.715833,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Fellûce yakını (Enbar)",
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/894043",
+     "lat": 33.378611,
+     "lon": 43.715833,
+     "not": "Misiche/Peroz-Shapur/Anbar"
+    }
+   ],
+   "hesap": "",
+   "not": "Ek bağımsız tanık yok (DAI yalnız idari birim al-Anbar)."
+  },
+  {
+   "ad": "Keş",
+   "durum": "tek_tanik",
+   "lat": 39.0522,
+   "lon": 66.8313,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Şehrisebz (Kesh)",
+   "ulke_modern": "Özbekistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/59945",
+     "lat": 39.05215,
+     "lon": 66.83127,
+     "not": "Shahrisabz"
+    }
+   ],
+   "hesap": "",
+   "not": "Kimlik Kesh=Şehrisebz bilinen; kayıtta Kesh adı açıkça yok; Mukanna' bağlamı Maveraünnehir ile uyumlu. Önceki Irak kümeleri yanlış."
+  },
+  {
+   "ad": "Fah",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Fahh (Mekke yakını) vadisi; koordinat tanığı bulunamadı; Farah (Afganistan) yanlış."
+  },
+  {
+   "ad": "Pozantı",
+   "durum": "cift_tanik",
+   "lat": 37.4258,
+   "lon": 34.8912,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Pozantı (Podandos/Bedendûn)",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/648742",
+     "lat": 37.425804,
+     "lon": 34.891173,
+     "not": "Podandus"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/Pozantı",
+     "lat": 37.42778,
+     "lon": 34.87167,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Me'mûn'un öldüğü Bedendûn = Podandos; Pozantı ile yaklaşık eşleşme (~1.8 km)."
+  },
+  {
+   "ad": "Bez",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Bâbek'in Bezz kalesi (Azerbaycan/Kaleybar çevresi İran); koordinat tanığı bulunamadı; Belz Ukrayna yanlış."
+  },
+  {
+   "ad": "Şirak",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Şirak Ermenistan'da bölge/eyalet adı (Gümrü çevresi)."
+  },
+  {
+   "ad": "Arîş",
+   "durum": "cift_tanik",
+   "lat": 31.1118,
+   "lon": 33.7969,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "El-Arîş",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/688016",
+     "lat": 31.111755,
+     "lon": 33.796926,
+     "not": "Rhinocolura/al-ʿArīš"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2734910",
+     "lat": 31.132093,
+     "lon": 33.803276,
+     "not": "al-Arisch"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Kât",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Harezm başkenti Kât (Beruniy yakını, Özbekistan); koordinat tanığı bulunamadı; Kaitaia yanlış."
+  },
+  {
+   "ad": "Aztlán",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Efsanevî yer; koordinatı yok."
+  },
+  {
+   "ad": "Chapultepec",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Mexico City Chapultepec Tepesi; TGN/DAI kayıtları başka Chapultepeclere (Mexico City dışı) ait; doğru nokta için doğrulanabilir ikinci kaynak bulunamadı."
+  },
+  {
+   "ad": "Durrës",
+   "durum": "cift_tanik",
+   "lat": 41.3163,
+   "lon": 19.4474,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Durrës",
+   "ulke_modern": "Arnavutluk",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/481818",
+     "lat": 41.3163425,
+     "lon": 19.447355,
+     "not": "Dyrrachium/Epidamnos"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2757945",
+     "lat": 41.32306,
+     "lon": 19.44139,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Kozan",
+   "durum": "tek_tanik",
+   "lat": 37.455,
+   "lon": 35.8157,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Kozan (Sis), Adana",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7708961",
+     "lat": 37.455167,
+     "lon": 35.81573,
+     "not": "Kozan ilçe"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2289383",
+     "lat": 37.45,
+     "lon": 35.8,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Sis = Kozan (Hetumî başkenti) bilinen eşleme; TGN+DAI tek küme."
+  },
+  {
+   "ad": "Kemalpaşa",
+   "durum": "tek_tanik",
+   "lat": 38.4262,
+   "lon": 27.4173,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kemalpaşa (Nif/Nymphaion), İzmir",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2285301",
+     "lat": 38.42621,
+     "lon": 27.41731,
+     "not": "Kemalpaşa, arama Nif"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "Kemalpaşa 38.42621,27.41731",
+     "lat": 38.42621,
+     "lon": 27.41731,
+     "not": "önceki parti; DAI ile aynı küme"
+    }
+   ],
+   "hesap": "",
+   "not": "İzmir Kemalpaşa seçildi; Artvin Kemalpaşa bağlam dışı."
+  },
+  {
+   "ad": "Nymphaion",
+   "durum": "tek_tanik",
+   "lat": 38.4262,
+   "lon": 27.4173,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Nif / Kemalpaşa (İzmir)",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2285301",
+     "lat": 38.42621,
+     "lon": 27.41731,
+     "not": "Nif aramasında Kemalpaşa"
+    }
+   ],
+   "hesap": "",
+   "not": "Önceki Pleiades 570511 Lakonia: YANLIŞ. Nikaia imparatorluğu Nymphaion'u = Nif (Kemalpaşa)."
+  }
+ ]
+}

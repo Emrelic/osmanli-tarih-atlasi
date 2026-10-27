@@ -74,7 +74,7 @@ window.KRONOLOJI_VENEDIK = [
 // I. DENİZ İMPARATORLUĞU VE ANAYASAL DÜZEN (1281-1400)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1281-01-01", b:"Levant imparatorluğu — XIII. yüzyıl sonunda Venedik'in elindekiler", ic_not_b:"eski b: Levant imparatorluğu — atlasın açılışında Venedik'in elindekiler", tur:"kurulus", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Kandiye (Girit)","Modon","Koron","Eğriboz"], t:"1281-01-01", b:"Levant imparatorluğu — XIII. yüzyıl sonunda Venedik'in elindekiler", ic_not_b:"eski b: Levant imparatorluğu — atlasın açılışında Venedik'in elindekiler", tur:"kurulus", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["toprak-kazanc","ekonomi","konu-askeri","konu-siyasi","konu-ekonomi"],
   d:"Atlas penceresi açıldığında Venedik, Dördüncü Haçlı Seferi'nin paylaşımından doğan bir deniz imparatorluğunun sahibidir: Girit 1204'te 100.000 gümüş karşılığında devralınmıştır; Eğriboz, Modon ve Koron limanları ile Ege'deki dukalıklar ağın öteki halkalarıdır. Bu bir toprak devleti değil, bir liman ve rota zinciridir ve cumhuriyetin bütün siyaseti onu açık tutmaya dayanır.",
   kaynak:"TDV `girit` (gövdesi okundu): \"12 Ağustos 1204'te yapılan bir anlaşma ile Girit'i 100.000 gümüş karşılığında Venedikliler'e bıraktı\" · TDV `venedik`: \"Dalmaçya sahilinde ve Ege denizindeki pek çok yer Venedik'e bağlı idi\"" },
@@ -212,7 +212,7 @@ window.KRONOLOJI_VENEDIK = [
 // III. OSMANLI İLE İLK BÜYÜK SAVAŞ VE OKYANUS DARBESİ (1463-1503)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1463-01-01", b:"Birinci Osmanlı-Venedik Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Modon","Koron","Anabolu (Nauplion)"], t:"1463-01-01", b:"Birinci Osmanlı-Venedik Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"On altı yıl sürecek savaş, Mora'daki Venedik kalelerinin Osmanlı baskısı altına girmesiyle başladı. Cumhuriyet ilk kez bütün gücüyle Osmanlı'ya karşı savaşa girdi ve sonunda ağır bir fatura ödedi.",
   kaynak:"TDV `venedik` (gövdesi okundu): \"Osmanlı-Venedik savaşı esnasında (1463-1479) Venedikliler, Karaman ve Akkoyunlu idarecileriyle ittifak yaptı.\" · depo `savaslar.js` (savas_basi 1463-01-01) · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
@@ -242,7 +242,7 @@ window.KRONOLOJI_VENEDIK = [
   d:"Kraliçe Caterina Cornaro'nun tahttan feragatiyle Kıbrıs'ın idaresi doğrudan cumhuriyete geçti. Ada, Girit'ten sonra Venedik'in ikinci büyük denizaşırı toprağı oldu ve seksen bir yıl elde tutuldu.",
   kaynak:"TDV `kibris` (gövdesi okundu): \"26 Şubat 1489'da tahttan feragat etmesiyle Kıbrıs'ın idaresini ellerine aldılar\"" },
 
-{ t:"1494-09-01", b:"İtalya Savaşları'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+{ odak_yer:["Venedik","Milano","Napoli"], t:"1494-09-01", b:"İtalya Savaşları'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","diplomasi","konu-askeri","konu-diplomasi"],
   d:"Fransa Kralı VIII. Charles'ın İtalya'ya inmesiyle yarımada büyük güçlerin savaş alanına döndü ve Lodi dengesi çöktü. Venedik bundan sonra kendi ölçeğindeki rakiplerle değil, kıta imparatorluklarıyla uğraşacaktı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", kapsam_genis:true },
@@ -252,7 +252,7 @@ window.KRONOLOJI_VENEDIK = [
   d:"Venedik'in öncülük ettiği lig, Fransız ordusunu Fornovo'da karşıladı ve İtalya'dan çekilmesini sağladı. Cumhuriyet kısa bir süre için yarımadanın hakemi gibi göründü; bu görüntü on üç yıl sonra Cambrai'yi doğuracaktı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[44.7075,10.1075] },
 
-{ t:"1498-05-20", b:"Ümit Burnu yolunun açılması — baharat tekelinin kırılması", tur:"kriz", onem:5, dunya:5, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Venedik","İskenderiye","Beyrut"], t:"1498-05-20", b:"Ümit Burnu yolunun açılması — baharat tekelinin kırılması", tur:"kriz", onem:5, dunya:5, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ekonomi","kriz","konu-siyasi","konu-ekonomi"],
   d:"Portekiz gemilerinin Ümit Burnu üzerinden Hindistan'a varması, Venedik'in üzerine kurulu olduğu Levant baharat ticaretinin tekelini kırdı. Cumhuriyetin zenginliği bir savaşla değil bir deniz yolunun keşfiyle sarsıldı; Venedik tarihyazımında düşüşün başlangıcı çoğu zaman buraya konur.",
   kaynak:"bulunamadı — okunan kaynaklarda tarih DOĞRULANMADI Dikkat: `dunya:5`, '1492' çapasıyla aynı sınıfta değerlendirildi" },
@@ -380,7 +380,7 @@ window.KRONOLOJI_VENEDIK = [
   d:"Papa V. Paulus, ruhbanı devlet mahkemesinde yargılayan cumhuriyeti aforoz etti. Venedik boyun eğmedi; Paolo Sarpi'nin savunmasıyla devletin dünyevî işlerde kiliseden bağımsızlığını savundu ve kriz Venedik lehine kapandı. Avrupa'da devlet-kilise tartışmasının dönüm noktalarından biridir.",
   kaynak:"bulunamadı — Treccani'de müstakil sayfa açılamadı, GÜN DOĞRULANMADI · 📌 Sarpi'nin çevresindeki 'giovani' hizbi Treccani 'Le riforme' maddesinde \"gruppo sarpiano favorevole all'affermazione dell'autorità dello Stato\" diye anılıyor" },
 
-{ t:"1615-01-01", b:"Uskok Savaşı — Avusturya ile Adriyatik çatışması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Fiume (Rijeka)","Gradisca d'Isonzo","Venedik"], t:"1615-01-01", b:"Uskok Savaşı — Avusturya ile Adriyatik çatışması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Adriyatik'te korsanlık yapan Uskoklar yüzünden Venedik ile Habsburg Avusturyası çatıştı. Savaş, cumhuriyetin Adriyatik'i \"kendi körfezi\" sayan iddiasını savunmak için verdiği son büyük mücadeledir.",
   kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası)", kapsam_genis:true },
@@ -498,7 +498,7 @@ window.KRONOLOJI_VENEDIK = [
   d:"21 Temmuz 1718'de imzalanan yirmi altı maddelik antlaşmayla Osmanlı, savaşta zaptettiği Çuha Adası'nı (Çuka/Kythira, Cerigo) Venedik'e iade etti; Ayamavra (Lefkada) da 1715'te geçtiği Osmanlı elinden Venedik'e terk edildi ve 1797'ye dek Venedik'te kaldı. Venedik ayrıca Korfu karşısındaki Butrinto sahil şehrini, İfrindos, Preveze ve Voniçe'yi aldı; karşılığında Bosna-Ragusa arasında serbest yol bırakılıp üç palanka Osmanlı sınırlarına katıldı. Mora antlaşma metninde anılmadı — 1715'te Osmanlı'ya geçmişti. Cumhuriyetin Osmanlı ile savaşları burada sona erdi.",
   kaynak:"TDV `pasarofca-antlasmasi` (gövdesi okundu): imza 22 Şâban 1130 / 21 Temmuz 1718; Çuka iadesi; Butrinto, İfrindos, Preveze, Voniçe · TDV `ayamavra`: \"1718'de Pasarofça Antlaşması ile ada Venedik'e terkedildi\" · `dunya:3` — Habsburg kronolojisiyle birebir aynı · d düzeltildi (eski metin 'Korfu bırakıldı' diyordu; TDV Korfu'dan söz etmiyor)", yer_kon:[44.62,21.19] },
 
-{ t:"1720-01-01", b:"Silahlı tarafsızlık siyasetine geçiş", tur:"diplomasi", onem:4, dunya:1, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Venedik"], t:"1720-01-01", b:"Silahlı tarafsızlık siyasetine geçiş", tur:"diplomasi", onem:4, dunya:1, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["diplomasi","konu-diplomasi"],
   d:"Pasarofça'dan sonra cumhuriyet bütün Avrupa savaşlarının dışında kalmayı ilke edindi ve donanmasını yalnız Barbaresk korsanlara karşı kullandı. Bu tercih yetmiş yıl barış getirdi ama Venedik'i Avrupa siyasetinde giderek görünmez kıldı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası)" },

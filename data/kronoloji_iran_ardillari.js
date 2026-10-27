@@ -287,7 +287,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 
 // ───────────────────────── GĀZÂN HAN · DÖNÜM NOKTASI (1295-1304)
 
-{ taraflar:["ilhanli"], t:"1295-06-19", b:"Gāzân Han Lâr vadisinde müslüman oldu ve Mahmud adını aldı", tur:"din",
+{ odak_yer:["Tebriz"], taraflar:["ilhanli"], t:"1295-06-19", b:"Gāzân Han Lâr vadisinde müslüman oldu ve Mahmud adını aldı", tur:"din",
   onem:5, dunya:4, kapsam:"ic", etiket:["din","hukumdar","donusum","konu-hanedan","konu-din","konu-islahat"],
   yer_id:"",
   d:"Gāzân, kumandanlarından halasının kocası Nevrûz Bey'in teşvikiyle Elburz'da Lâr vadisinde müslüman oldu ve Mahmud adını aldı (19 Haziran 1295). Yanındaki 100.000 asker de onunla birlikte ihtidâ etti. Bu, bir hükümdarın kişisel tercihinden çok bir ordunun din değiştirmesidir ve İran'ın Moğol fâtihlerinin İslâm dünyasına eklemlenmesinin dönüm noktasıdır.", ic_not_d:"⚠️ YER HAKKINDA: Elburz'daki Lâr vadisi veride kayıtlı değildir; Fars'taki 'Lâr' ile karıştırılmaması için yer_id boş bırakıldı.",
@@ -341,7 +341,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Altın Orda Hanı Taktaga 1301 yılında Kuzey Azerbaycan'ı istilâ teşebbüsünde bulunduysa da başarılı olamadı. Hülâgû ile Berke Han arasında başlayan Kafkasya rekabeti kırk yıl sonra da sürüyordu: Derbend geçidi iki Moğol devleti arasındaki değişmez sınır hattıydı.",
   kaynak:"gazan-han" },
 
-{ taraflar:["ilhanli"], t:"1302-04-12", b:"Gāzân Han Papa VIII. Bonifacius'a mektup yazdı", tur:"diplomasi",
+{ odak_yer:["Tebriz","Roma"], taraflar:["ilhanli"], t:"1302-04-12", b:"Gāzân Han Papa VIII. Bonifacius'a mektup yazdı", tur:"diplomasi",
   onem:3, dunya:3, kapsam:"dis", etiket:["diplomasi","din","konu-diplomasi","konu-din"],
   yer_id:"",
   d:"Suriye ve Mısır'a hâkim olma arzusundan vazgeçmeyen Gāzân Han, 12 Nisan 1302'de Papa VIII. Bonifacius'a mektup yazarak Memlüklere karşı hıristiyan devletlerinin desteğini sağlamaya çalıştı, fakat sonuç alamadı. Müslüman olmuş bir Moğol hükümdarının papalıkla ittifak araması, İlhanlı dış siyasetinin dinî değil jeopolitik olduğunu gösterir.", ic_not_d:"`kapsam_genis` — muhatabı Avrupa'dır, tek bir yere bağlanamaz.",
@@ -353,13 +353,13 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Moğol ordusuyla Memlük kuvvetleri arasında Dımaşk yakınlarında meydana gelen savaş Memlükler'in zaferiyle neticelendi (2 Ramazan 702 / 20 Nisan 1303). Bu yenilgi İlhanlı'nın Suriye üzerindeki elli yıllık iddiasını fiilen sona erdirdi; Gāzân Han üzüntüsünden yeni bir sefere çıkma imkânı bulamadan öldü.", ic_not_d:"⚠️ YER HAKKINDA: Dımaşk (Şam) bu atlasın penceresi içinde ama madde İran ardılları dosyasında olduğu için yer_id boş bırakıldı — savaş alanı şehrin kendisi değildir.",
   kaynak:"gazan-han" },
 
-{ taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"reform",
+{ odak_yer:["Tebriz","Bağdat"], taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","toprak","mali","konu-askeri","konu-idari","konu-ekonomi","konu-islahat"],
   yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han önce ülkedeki toprakların genel bir tahririni yaptırdı: vilâyetlere gönderilen yazıcılar köy köy dolaşıp 'defâtîr-i kanûn' adı verilen defterlere bütün özel mülk, incü ve vakıf arazilerini kaydettiler. Ardından 703 yılı başlarında (Ağustos 1303) askerî güzergâhlarla yaylak-kışlak yolları üzerindeki araziler Moğol askerlerine iktâ olarak dağıtıldı. Bu, İran'da toprağın merkezî bir defterle kayda geçirilmesinin ilk büyük örneğidir; ancak uygulama Gāzân'ın ölümünden sonra bütün ülkeye yaygınlaştırılamamıştır.", ic_not_d:"İmparatorluk çapında olduğu için `yer_id` boştur.",
   kaynak:"incu" },
 
-{ taraflar:["ilhanli"], t:"1300-01-01", b:"Gāzân Han'ın vergi ve posta reformu — menzilhâneler", gun:"1300", ic_not_gun:"1300 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"reform",
+{ odak_yer:["Tebriz"], taraflar:["ilhanli"], t:"1300-01-01", b:"Gāzân Han'ın vergi ve posta reformu — menzilhâneler", gun:"1300", ic_not_gun:"1300 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","mali","ulasim","konu-idari","konu-ekonomi","konu-islahat","konu-ulastirma"],
   yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han âdeta soygun derecesine ulaşan vergileri düzene koydu, kanun ve teamülleri gözden geçirip bazılarını kaldırdı, vergilerin âdil tahsili için görevlilere ağır cezaî hükümler getirdi. Posta teşkilâtını ıslah için menzilhâneler yaptırarak ulakların buralarda dinlenmesini sağladı ve böylece halkı tâciz etmelerini engelledi. Kumandanlara hizmet karşılığı dirlik verdi.", ic_not_d:"⚠️ TARİH HAKKINDA: kaynak bu düzenlemelerin yıl yıl sırasını vermiyor; madde saltanatın reform yılları olan dönemin ortasına bağlandı, bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
@@ -427,7 +427,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Gāzân Han zamanında bir dünya tarihi yazmakla görevlendirilmiş olan devlet adamı ve tarihçi Reşîdüddin Fazlullāh-ı Hemedânî eserini tamamlayarak Sultan Olcaytu'ya sundu. Câmiu't-tevârîh yalnız Moğolların değil Çin'in, Hindistan'ın, Frenkler'in ve İsrâiloğulları'nın tarihini de kapsar; dünya tarihi yazma fikrinin ilk gerçek örneğidir. Tebriz'in doğusundaki Rab'-i Reşîdî mahallesi bu eserin çoğaltıldığı bir kitap atölyesiydi.", ic_not_d:"⚠️ TARİH HAKKINDA: sunum yılı için kaynak gün vermiyor.",
   kaynak:"ilhanlilar" },
 
-{ taraflar:["ilhanli"], t:"1305-01-01", b:"Bizans ile evlilik ittifakı — Andronikos'un kızıyla nikâh", gun:"Olcaytu devri", tur:"diplomasi",
+{ odak_yer:["Tebriz"], taraflar:["ilhanli"], t:"1305-01-01", b:"Bizans ile evlilik ittifakı — Andronikos'un kızıyla nikâh", gun:"Olcaytu devri", tur:"diplomasi",
   onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","ittifak","konu-diplomasi"],
   yer_id:"",
   d:"Olcaytu, Memlük düşmanlığını sürdürürken Avrupa'ya yaklaştı ve Anadolu'da Selçuklu Devleti'nin yerini alan Türkmen beyliklerine karşı Bizans'ın yardımına gitti; II. Andronikos Palaiologos'un kızı ile evlendi. Bir Moğol ilhanının Bizans'la akrabalık kurması, Anadolu'daki Türkmen yükselişinin iki eski rakibi aynı safta buluşturduğunu gösterir.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; madde Olcaytu'nun Bizans'a yöneldiği saltanat başına bağlandı, bir tercihtir.",
@@ -447,7 +447,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Beylerbeyi görevine getirilen Emîr Çoban Anadolu'da ortaya çıkan isyanları bastırdı; Altın Orda ve Çağatay hanlıklarından gelecek tehlikeler bertaraf edildi ve doğuda Gazne şehrine, kuzeyde Terek nehrine kadar uzanan topraklarda hâkimiyet sağlandı. Emîr Çoban aynı zamanda saltanat nâibiydi: devlet fiilen onun elindeydi ve bu aile yirmi yıl sonra Çobanlılar adıyla İlhanlı mirasının yarısını talep edecektir.",
   kaynak:"ilhanlilar" },
 
-{ taraflar:["ilhanli"], t:"1323-01-01", b:"Memlüklerle barış antlaşması — altmış yıllık savaş bitti", gun:"1323", ic_not_gun:"1323 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"antlasma",
+{ odak_yer:["Sultâniye","Kahire"], taraflar:["ilhanli"], t:"1323-01-01", b:"Memlüklerle barış antlaşması — altmış yıllık savaş bitti", gun:"1323", ic_not_gun:"1323 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","diplomasi","baris","konu-diplomasi"],
   yer_id:"",
   d:"Memlükler ile yıllardır devam eden mücadeleye 1323'te yapılan bir antlaşmayla son verildi. Aynicâlût'tan (1260) beri altmış üç yıl süren düşmanlık böylece kapandı; iki devlet arasında ticaret ve hac yolları yeniden açıldı.", ic_not_d:"`kapsam_genis` — antlaşma iki devletin bütün sınırını bağlar.",
@@ -1081,7 +1081,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"655'te (1257) Delhi sultanı ile arası açılan Mültan Valisi İzzeddin Balban Kaşlu Han, Şemseddin'in gayretleriyle Moğol hâkimiyetine girdi. Kert meliki bölgedeki melikler ve valiler arasında Moğol nüfuzunun yayılması için de çalışıyordu; aracılık hem koruma hem genişletme aracıydı.", ic_not_d:"⚠️ YER HAKKINDA: Mültan bu atlasın penceresi dışındadır.",
   kaynak:"kert" },
 
-{ taraflar:["kert"], t:"1265-01-01", b:"Şemseddin, Hülâgû'nun yanında yer aldı ve Muhammed Karluk'a saldırdı", gun:"1265", ic_not_gun:"1265 — yıl hassasiyeti · TDV `kert`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas",
+{ odak_yer:["Herat"], taraflar:["kert"], t:"1265-01-01", b:"Şemseddin, Hülâgû'nun yanında yer aldı ve Muhammed Karluk'a saldırdı", gun:"1265", ic_not_gun:"1265 — yıl hassasiyeti · TDV `kert`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"1260'tan itibaren Cengiz Han'ın torunları arasında başlayan mücadelede Şemseddin'in müslüman Berke Han'ı desteklemesi beklenirken siyasî sebeplerle Hülâgû'nun yanında yer aldı; hatta onun emriyle Moğollar'a direnen bazı müslüman emirlikleriyle savaştı. Delhi sultanına yardım eden Kuh-ı Cud ve Binban Emîri Muhammed Karluk bu sebeple onun hücumuna uğradı (1265) ve bölge Moğol hâkimiyetine girdi.", ic_not_d:"⚠️ YER HAKKINDA: Kuh-ı Cud ve Binban bu atlasın penceresi dışındadır.",

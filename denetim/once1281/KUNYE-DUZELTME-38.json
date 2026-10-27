@@ -1,0 +1,646 @@
+[
+ {
+  "id": "roma-cumhuriyeti",
+  "atlas_f": "-0508-01-01",
+  "atlas_t": "-0026-01-16",
+  "onerilen_f": "-0508-01-01",
+  "onerilen_t": "-0026-01-16",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Livius.org (J. Lendering), 'Augustus' — https://www.livius.org/articles/person/augustus/ — '16 January 27: Imperator Caesar Divi filius Augustus' (curl, okundu)",
+   "Treccani, Enciclopedia Italiana, 'Roma' (Storia) — https://www.treccani.it/enciclopedia/roma/ — 'date tradizionali: 754 o 753-509' (curl, okundu)"
+  ],
+  "dogrulama": "okundu (t: Livius 16 Ocak MÖ 27 = -0026-01-16; f: MÖ 509 geleneksel tarih, Treccani)",
+  "cakisma": "roma-imp f ile aynı gün (-0026-01-16) — kusursuz dikiş. roma-kralligi t=-0508 ile bitişik. ptolemai t=-0029-08-01 (İskenderiye): İskenderiye zinciri -0029-08-01'de roma-cumhuriyeti'ne geçiyor, künye ömrü içinde.",
+  "ic_not": "Künye ömrü zincirin dışına TAŞMIYOR; sorun künyede değil zincirde: Roma, Atina, Antakya zincirleri roma-cumhuriyeti t'sini -0026-01-01, roma-imp f'sini -0026-01-01 yazmış — künye günü -0026-01-16'dır (15 gün). Zincirde -0026-01-16 kullanılmalı (Değişmez 1/2 dikiş kayması). f geleneksel (Livius/Treccani: kral dönemi tarihleri güvenilmez); kaynak yıl diyor, gün uydurulmadı.",
+  "zincir_islemi": "Roma, Atina, Antakya zincirlerinde roma-cumhuriyeti/roma-imp dikişi -0026-01-01 → -0026-01-16"
+ },
+ {
+  "id": "roma-imp",
+  "atlas_f": "-0026-01-16",
+  "atlas_t": "0395-01-17",
+  "onerilen_f": "-0026-01-16",
+  "onerilen_t": "0395-01-17",
+  "sinif": "kisalt",
+  "ardil_onerisi": "395-01-17 sonrası Londra/Köln/Paris için sahip bati-roma olmalı (künye var, 0395-01-17→0476-08-28); Londra 410 civarı Britanya'nın kopuşundan sonra ve Köln Franklara geçişten (454) sonra ardıl yapılar — bkz. frank/ripuar-frank, soissons-romen-devleti (künyesi yok).",
+  "kaynak": [
+   "Livius.org (J. Lendering), 'Theodosius I' — https://www.livius.org/articles/person/theodosius-i/ — '17 January 395: natural death' (curl, okundu)",
+   "Livius.org, 'Augustus' — 16 January 27 (curl, okundu)",
+   "Treccani, Enciclopedia Italiana, 'Roma' (Storia) — Romalıların 395 bölünmesi yalnız yıl (zincir notu, bu oturumda yeniden okunmadı)"
+  ],
+  "dogrulama": "okundu (iki uç da Livius'ta günüyle)",
+  "cakisma": "bati-roma f=0395-01-17 ile aynı gün. bizans künyesi f=0330-05-11 → 330-395 örtüşmesi (künye ozet UYARI, D205); İstanbul zinciri bunu roma-imp t=0330-05-11'de kesiyor. KURULUS-GERI'nin istediği uzatma (roma-imp t→0476) bati-roma künyesiyle ÇAKIŞIR: aynı toprak iki künyeye yazılırdı — önerilmez.",
+  "ic_not": "Zincirde taşan dönemler: Paris (roma-imp -0026-01-13→0476-01-01), Köln (0009→0454-01-01), Londra (0061→0409-01-01). Üçü de 395-01-17'den sonra roma-imp'e yazılmış; Treccani Parigi/Franchi ve Bede yalnız bölgenin Batı'da kaldığını gösterir. Çözüm künyeyi uzatmak DEĞİL: 395-01-17'ye kadar roma-imp, sonra bati-roma. Ayrıca zincirlerde -0026-01-01 ve 0395-01-01 gün sapmaları (Roma, Atina, Antakya) künye günlerine çekilmeli; Paris -0026-01-13 → -0026-01-16 (Caesar/Treccani 'Parigi' MÖ 52 sonrası roma-cumhuriyeti sınırı için ayrı ölçüm gerekir).",
+  "zincir_islemi": "Paris/Köln/Londra: roma-imp dönemini 0395-01-17'de kes, kalanı bati-roma'ya devret; Roma/Atina/Antakya: gün sapması düzelt"
+ },
+ {
+  "id": "bati-roma",
+  "atlas_f": "0395-01-17",
+  "atlas_t": "0476-08-28",
+  "onerilen_f": "0395-01-17",
+  "onerilen_t": "0476-08-28",
+  "sinif": "kisalt",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Livius.org, 'Theodosius I' — '17 January 395: natural death' (curl, okundu)",
+   "Livius.org (J. Lendering), 'Romulus Augustulus' — https://www.livius.org/articles/person/romulus-augustulus/ — '31 August 476: forced to resign (4 September?)' (curl, okundu)",
+   "Treccani, Enciclopedia Italiana, 'Odoacre' — https://www.treccani.it/enciclopedia/odoacre/ — 'O. fu a capo della ribellione che depose Romolo Augustolo (476)' (curl, okundu; gün yok)",
+   "Britannica 'Romulus Augustulus' — Orestes 28 Ağustos 476 (atlas ic_not_t'den; bu oturumda okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (f okundu; t: gün KAYNAKLAR ARASI ÇELİŞKİLİ — 28 Ağu Britannica/atlas, 31 Ağu Livius, 4 Eyl ikincil)",
+  "cakisma": "odoakar f=0476-08-23 → künye içinde 5 günlük örtüşme (23–28 Ağu), mevcut ve atlas tarafından bilinçli. dogu-got/odoakar zinciri 476-08-31 kullanıyor (Livius) → künye t ile 3 gün fark.",
+  "ic_not": "Atlas bilinçli olarak 28 Ağustos'u seçmiş (Orestes infazı; 4 Eylül ikincil kaynak diye alınmamış). Zincirler (Milano, Cenova, Floransa, Napoli, Palermo) Livius'a dayanıp 0476-08-31 yazmış → künyeyi 3 gün aşıyor; Roma zinciri ise 0395-01-01..0476-01-01 (gün yok). ÖNERİ A (öneri, düşük risk): zincirleri künye günlerine (0395-01-17 / 0476-08-28) çek. SEÇENEK B (Emre kararı): Livius birincil kaynağı Romulus'un istifasını 31 Ağustos'a koyuyor → künye t→0476-08-31 'genislet' + odoakar f→0476-08-31 (23 Ağu'luk Odoakar kral ilanı iç not olur). İkisini birden uygulamak çakışmayı kaldırır ama atlas kararını değiştirir; ben A'yı öneririm.",
+  "zincir_islemi": "Roma: 0395-01-01 → 0395-01-17 ve bati-roma t 0476-01-01 → 0476-08-23 (odoakar f ile dikiş); Milano/Cenova/Floransa/Napoli/Palermo: t 0476-08-31 → 0476-08-28 (A) ya da künye t uzat (B)"
+ },
+ {
+  "id": "iskender-imparatorlugu",
+  "atlas_f": "-0335-01-01",
+  "atlas_t": "-0322-06-10",
+  "onerilen_f": "-0335-01-01",
+  "onerilen_t": "-0322-06-10",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Livius.org (J. Lendering), 'Alexander the Great' — https://www.livius.org/articles/person/alexander-the-great/ — 'r. 336-323'; 'on 11 June, he died' (curl, okundu)",
+   "Atlas künye kaynağı: Babil astronomik günlükleri (akşam 10 Haziran MÖ 323) — bu oturumda okunmadı"
+  ],
+  "dogrulama": "kismen-okundu (yıllar okundu; t günü: Livius 11 Haziran, künye 10 Haziran — 1 gün Babil-gün/akşam farkı)",
+  "cakisma": "ptolemai f=-0322-06-10 ile aynı gün. makedonya-krallik (-0699→-0167) ve antigonid-makedonya (-0275→-0167) anavatanda örtüşür (Selanik zinciri bunu kendi çözmüş). ahamenis t=-0329-01-01 ile fetih dönemi (-0332…-0329) örtüşme: zincirler -0332'de Ahamenis'ten İskender'e geçiyor (Halep/Şam/Ankara/Konya), künye -0329'a kadar uzanıyor.",
+  "ic_not": "Altı şehir zinciri (Ankara, Halep, Konya, Kudüs, İskenderiye, Şam) künye ömrünün İÇİNDE (-0332…-0322): taşma yok. Künyenin f=-0335 MÖ 336 (Livius: r. 336) — doğru. Hiçbir değişiklik gerekmiyor. İskenderiye zinciri -0330-01-01 (MÖ 331 kuruluş yılı) — künyeyle uyumlu."
+ },
+ {
+  "id": "ahamenis",
+  "atlas_f": "-0549-01-01",
+  "atlas_t": "-0329-01-01",
+  "onerilen_f": "-0549-01-01",
+  "onerilen_t": "-0329-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Livius.org, Nabonidus Chronicle (ABC 7) — https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ — 'On the third day of the month Arahsamna, Cyrus entered Babylon' (curl, okundu)",
+   "Livius.org, 'Alexander the Great' — Ahamenis fethi MÖ 330 (curl, okundu; yalnız genel)",
+   "Atlas künye kaynağı: Wikipedia Median kingdom — Kyros'un Ekbatana'yı alışı MÖ 550 (ipucu; bu oturumda okunmadı)"
+  ],
+  "dogrulama": "taslak (künye f/t bu oturumda ayrıca okunmadı; zincir dönemleri künye ömrü içinde)",
+  "cakisma": "yeni-babil t=-0538-10-12: Kudüs zinciri ahamenis'i -0537-01-01'de başlatıyor (yeni-babil bölümüne bkz.); Şam/Halep zinciri ahamenis f=-0538-10-12 künyeyle uyumlu. iskender-imparatorlugu: -0332…-0329 örtüşme.",
+  "ic_not": "Zincirler (Konya -0400→-0332, İstanbul MÖ 512-498 ve 493-478, Kudüs -0537→-0331, Şam/Halep -0538-10-12→-0332) künye ömrünün içinde. Dara III'ün ölümü (Temmuz MÖ 330 = -0329-07) künye t=-0329-01-01'den sonradır (yıl hassasiyeti): zincirler zaten -0332'de İskender'e geçtiği için çatışma yok."
+ },
+ {
+  "id": "selevkos",
+  "atlas_f": "-0311-01-01",
+  "atlas_t": "-0062-01-01",
+  "onerilen_f": "-0311-01-01",
+  "onerilen_t": "-0062-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV KUDÜS (curl, okundu): 'Helenistik dönemin (332-63)' — Pompeius'un MÖ 63 işgaliyle biter",
+   "Atlas künye kaynağı: worldhistory.org/Seleucid_Empire (MÖ 63 Pompeius); Appianos Syriake 48-50 (zincir notu, bu oturumda okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "cakisma": "tigran-imp zincirde -0082→-0068 Antakya/Halep'i selevkos'tan ayırıyor (selevkos -0299→-0082 ve -0068→-0063 parçalı). roma-cumhuriyeti zinciri Halep/Antakya'da -0063-01-01'den (Şam -0064) başlıyor: selevkos künyesi t=-0062 (MÖ 63) ile 1 yıllık örtüşme (Pompeius Suriye'yi MÖ 64'te eyalet yaptı, MÖ 63'te Kudüs'ü aldı — kaynaklar 64/63 ayrışıyor).",
+  "ic_not": "Zincir künye içinde. Selevkos'un fiilî sonu (XIII. Antiokhos'un Pompeius tarafından kaldırılması MÖ 64) ile künye t=MÖ 63 arasında 1 yıl belirsizlik var; zincir MÖ 64'te bitirmiş. Künyeyi daraltmak için (-0062→-0063) Appianos 49-50 / Iustinus 40.2 okunmalı; okunmadığı için dokunulmadı."
+ },
+ {
+  "id": "dogu-got",
+  "atlas_f": "0493-03-05",
+  "atlas_t": "0553-01-01",
+  "onerilen_f": "0493-03-05",
+  "onerilen_t": "0553-01-01",
+  "sinif": "kisalt",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Treccani, 'Teodorico' — https://www.treccani.it/enciclopedia/teodorico/ — 'sconfitto il re degli Eruli Odoacre (493), divenne sovrano del regno ostrogoto in Italia' (curl, okundu)",
+   "Treccani, 'Odoacre' — 'Re barbarico (n. circa 434 - m. Ravenna 493)'; Ravenna kuşatması 'lunga resistenza' (curl, okundu)",
+   "Britannica 'Theodoric' — 5 Mart 493 (atlas kronoloji; bu oturumda okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (yıl okundu; 5 Mart günü atlas/WHE kaynaklı, okunmadı)",
+  "cakisma": "odoakar t=0493-03-05 ile aynı gün (dikiş temiz). bizans: Roma/Napoli/Palermo Belisarios ile 535-536'da düşüyor (zincir t künye içinde).",
+  "ic_not": "Roma, Napoli, Palermo zincirleri dogu-got'u 0493-01-01'de başlatıyor (kaynak: Cassiodorus Chronicon, Albinus cos. = 493 — yıl); künye 0493-03-05. Teodorik 493 başında değil Mart'ta Ravenna'ya girdi; Odoakar o güne kadar sahip. Zincir f→0493-03-05 ve odoakar t 0493-01-01 → 0493-03-05. Künyeyi 493 başına çekmek (genişletmek) Odoakar'ı kısaltır; kaynak yıl düzeyinde olduğu için tarih uydurmamak adına önerilmez.",
+  "zincir_islemi": "Roma, Napoli, Palermo: odoakar t ve dogu-got f 0493-01-01 → 0493-03-05"
+ },
+ {
+  "id": "yeni-babil",
+  "atlas_f": "-0625-01-01",
+  "atlas_t": "-0538-10-12",
+  "onerilen_f": "-0625-01-01",
+  "onerilen_t": "-0538-10-12",
+  "sinif": "kisalt",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Nabonidus Chronicle (ABC 7, Grayson) — Livius.org çevirisi https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ — 'On the fourteenth day Sippar was captured without a battle. On the sixteenth day, Ugbaru ... entered Babylon' ve 'On the third day of the month Arahsamna, Cyrus entered Babylon' (curl, okundu)",
+   "TDV KUDÜS 1. bölüm (curl, okundu): 'Bâbil esareti sonrasında Kudüs Pers hâkimiyetine girmiş (m.ö. 538)'"
+  ],
+  "dogrulama": "okundu (künye t = 16 Tašrītu = 12 Ekim MÖ 539; Kyros'un girişi 3 Arahsamna = 29 Ekim — 17 gün ayrışması beyanlı)",
+  "cakisma": "ahamenis künyesi zaten kapsıyor (f=-0549). yahuda t=-0585 ile Kudüs dikişi -0586'da tamam. Kudüs zincirinde yeni-babil→ahamenis dikişi -0537-01-01'de (künye gününden ~9 ay sonra).",
+  "ic_not": "Tek taşma: Kudüs zinciri yeni-babil'i -0537-01-01'e (MÖ 538, TDV Pers hâkimiyeti yılı) uzatıyor; künye t=-0538-10-12 (Babil'in düşüşü). Kudüs Babil'in parçasıydı, Babil düşünce Pers'e geçti: dikişi -0538-10-12'ye çek (Kudüs'e dönüş fermanı MÖ 538 ayrı olaydır, sahibi değiştirmez). Şam/Halep zincirleri künye ile uyumlu (-0538-10-12). Künye ömrü uzatılmamalı.",
+  "zincir_islemi": "Kudüs: yeni-babil t ve ahamenis f -0537-01-01 → -0538-10-12"
+ },
+ {
+  "id": "emevi",
+  "atlas_f": "0661-07-29",
+  "atlas_t": "0750-08-05",
+  "onerilen_f": "0661-07-29",
+  "onerilen_t": "0750-08-05",
+  "sinif": "kisalt",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV MUÂVİYE b. EBÛ SÜFYÂN — https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan — 'Kudüs’te “emîrü’l-mü’minîn” unvanıyla biat alan Muâviye ... Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)' (curl, okundu)",
+   "TDV EMEVÎLER — https://islamansiklopedisi.org.tr/emeviler — 'Muâviye ... 41 (661) yılında ülkenin tamamını hâkimiyeti altında topladı'; halife tablosu I. Muâviye 41 (661) (curl, okundu)",
+   "TDV KUDÜS 2. bölüm (zincir notu): 40/660 Kudüs biatı — atlas 14 Ekim 2026 kararında RED"
+  ],
+  "dogrulama": "okundu",
+  "cakisma": "hulefa-yi-rasidin t=0661-07-29 ile aynı gün. abbasi f=0749-11-28 → emevi t=0750-08-05 ile 9 aylık örtüşme (iç savaş, atlas beyanlı). Kudüs'te Muâviye'nin 660 Kudüs biatı ile 661-07-29 arası 14 aylık dilim: künye kuralı gereği hulefa-yi-rasidin'e kalır.",
+  "ic_not": "Taşma yalnız başlangıçta: Kudüs zinciri emevi'yi 0660-05-17'de, Antakya zinciri 0661-05-07'de başlatıyor; künye 0661-07-29. 40/660 önerisi atlas kararıyla (14 Ekim 2026) zaten REDDEDİLMİŞ: TDV Emevîler kuruluşu 41/661'e koyar, 660'ta Muâviye yalnız Şam'ın rakip halifesidir. Genişletme önerilmez; zincir düzelir. Kısıtlı not: Kudüs/Antakya 660-05-17…661-07-29 'hulefa-yi-rasidin' etiketi fiilî hâkimiyeti (Suriye Muâviye'de) yansıtmaz — beyan gerektirir (BEYANLI YAKLAŞIKLIK), ama bu künye kararı değil.",
+  "zincir_islemi": "Kudüs: 0660-05-17 → 0661-07-29; Antakya: 0661-05-07 → 0661-07-29 (hulefa-yi-rasidin t aynı güne)"
+ },
+ {
+  "id": "yeni-asur",
+  "atlas_f": "-0910-01-01",
+  "atlas_t": "-0608-01-01",
+  "onerilen_f": "-0910-01-01",
+  "onerilen_t": "-0608-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV HALEP (curl, okundu): 'Milâttan önce IX. yüzyılın ortalarında Asur İmparatorluğu topraklarına dahil olan şehir' (Halep zinciri f=-0852 ile uyumlu)",
+   "Atlas künye kaynağı: Adad-nirari II (MÖ 911) ... Harran MÖ 609 (bu oturumda okunmadı); Şam: Tiglat-pileser III yıllıkları RINAP 1 + II. Krallar 16:9 (zincir notu, okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (Halep dilimi TDV'de okundu; Şam MÖ 732 ve künye uçları okunmadı)",
+  "cakisma": "aram-sam t=-0731 ile Şam'da dikiş (MÖ 732). yeni-hitit künyesi t=-0707 ile Halep dışı birimlerde örtüşür (Yeni Hitit grubu, Asur ilhaklarıyla biter). Halep zinciri yeni-hitit→yeni-asur dikişi -0852.",
+  "ic_not": "Zincir (Şam -0731→-0608, Halep -0852→-0608) künye ömrü içinde. Not: Halep'in Asur'a -0852'de (MÖ 853 Kurkh/Salmanasar III) girişi künyeyle uyumlu ama TDV yalnız 'IX. yüzyıl ortası' der; yıl TDV'den değil Kurkh monolitinden (zincir notu, okunmadı)."
+ },
+ {
+  "id": "tigran-imp",
+  "atlas_f": "-0094-01-01",
+  "atlas_t": "-0065-01-01",
+  "onerilen_f": "-0094-01-01",
+  "onerilen_t": "-0065-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Appianos, Syriake 48 (H. White çevirisi, livius.org) — Tigranes Suriye'yi 14 yıl elinde tuttu (zincir notu; bu oturumda yeniden okunmadı)",
+   "Encyclopaedia Britannica 11. basım (1911), 'Antioch' (Wikisource) — zincir notu, okunmadı",
+   "Atlas künye kaynağı: Britannica 'Tigranes II' (MÖ 95-55; Tigranokerta MÖ 69, Pompeius MÖ 66) — okunmadı"
+  ],
+  "dogrulama": "taslak (zincir ve künye kaynakları bu oturumda okunmadı; zincir künye içinde)",
+  "cakisma": "selevkos ile Antakya/Halep'te dönüşümlü (selevkos -0299→-0082, tigran -0082→-0068, selevkos -0068→-0063). roma-cumhuriyeti zinciri -0063'te başlıyor.",
+  "ic_not": "Zincir (Antakya, Halep -0082→-0068) künye (-0094→-0065) ömrü içinde. Taşma yok. Künye sonu -0065 (MÖ 66 Pompeius ile antlaşma); Tigran'ın Suriye'yi yitirişi MÖ 69 — zincir -0068 (MÖ 69) ile uyumlu."
+ },
+ {
+  "id": "selcuklu",
+  "atlas_f": "1075-01-01",
+  "atlas_t": "1308-01-01",
+  "onerilen_f": "1075-01-01",
+  "onerilen_t": "1308-01-01",
+  "sinif": "kisalt",
+  "ardil_onerisi": "1073-1075 arası Konya ve Ankara için sahip: buyuk-selcuklu (künye var, 1038-01-01→1157-01-01) — Malazgirt sonrası Türkmen uç beyleri; BEYANLI YAKLAŞIKLIK. (Danişmendliler 1101+ ayrı.)",
+  "kaynak": [
+   "TDV SELÇUKLULAR (Faruk Sümer vd.) — https://islamansiklopedisi.org.tr/selcuklular — bölüm başlığı 'III. ANADOLU SELÇUKLULARI (1075-1308)' (curl, okundu)",
+   "TDV KONYA (T. Baykara) — https://islamansiklopedisi.org.tr/konya — 'Türk fethi, 1071 sonrasında muhtemelen 1073 yılında gerçekleşti' (curl, okundu)",
+   "TDV ANKARA 2. bölüm (A. Özaydın) — 'Selçuklular Malazgirt Zaferi’nden iki yıl sonra Ankara’yı da fethettiler (1073)' (zincir notu)"
+  ],
+  "dogrulama": "okundu (1075–1308 TDV'de ve atlasta aynı; 1073 fethini yapan yapı 'Türkler/Selçuklular' diye geçer — Anadolu Selçuklu devleti değil)",
+  "cakisma": "buyuk-selcuklu (1038→1157), bizans (Konya/Ankara 1073'e kadar). Danişmendliler/Haçlı (Ankara 1101-1121 bizans) künye dışı.",
+  "ic_not": "Zincir 1073-01-01'de başlıyor (Konya, Ankara) → künye 1075-01-01. Kuruluş TDV başlığında 1075 ('Anadolu Selçukluları 1075-1308'); 1073'te şehirleri alan kuvvet Süleymanşah'ın devleti olarak ayrılamıyor. Sınıf: 'aynı polity sürüyor' diyemeyiz (Büyük Selçuklu uç kuvvetleri olabilir) → künye GENİŞLETİLMEZ; zincir 1075'te başlar, 1073-1075 arası buyuk-selcuklu (beyanlı). Ankara 1121-1127 ve künye sonu 1308 uyumlu.",
+  "zincir_islemi": "Konya, Ankara: selcuklu f 1073-01-01 → 1075-01-01; öncesi buyuk-selcuklu (beyanlı) ya da bizans"
+ },
+ {
+  "id": "odoakar",
+  "atlas_f": "0476-08-23",
+  "atlas_t": "0493-03-05",
+  "onerilen_f": "0476-08-23",
+  "onerilen_t": "0493-03-05",
+  "sinif": "kisalt",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Treccani, 'Odoacre' — https://www.treccani.it/enciclopedia/odoacre/ — 'Re barbarico (n. circa 434 - m. Ravenna 493) ... a capo della ribellione che depose Romolo Augustolo (476)' (curl, okundu)",
+   "Livius.org, 'Romulus Augustulus' — '31 August 476: forced to resign (4 September?)' (curl, okundu)",
+   "Britannica 'Odoacer' — 23 Ağustos 476 kral ilanı (atlas künye notu; okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (yıllar okundu; 23 Ağustos Britannica/atlas)",
+  "cakisma": "bati-roma t=0476-08-28 ile 5 gün örtüşme (künye içi, mevcut). dogu-got f=0493-03-05 ile temiz dikiş.",
+  "ic_not": "Taşan tek zincir: Roma 0476-01-01→0493-01-01 (yıl düzeyi). Künye 0476-08-23'te başlıyor; Roma'nın 476-08-23'ten önceki sahibi bati-roma. Zincirde Roma odoakar f→0476-08-23 (ya da bati-roma t ile aynı güne, bkz. bati-roma); t=0493-03-05 (dogu-got bölümüne bkz.). Diğer şehirler 0476-08-31 (Livius) yazmış → künye gününe çek.",
+  "zincir_islemi": "Roma: bati-roma t ve odoakar f 0476-01-01 → 0476-08-23; Roma/Napoli/Palermo t 0493-01-01 → 0493-03-05"
+ },
+ {
+  "id": "papalik",
+  "atlas_f": "0756-01-01",
+  "atlas_t": "1870-09-20",
+  "onerilen_f": "0756-01-01",
+  "onerilen_t": "1870-09-20",
+  "sinif": "ardil-kunye",
+  "ardil_onerisi": "ÖNCÜL künye öneri: 'roma-dukaligi' (Ducatus Romanus — papa idaresinde özerk Roma Dükalığı), f=0726-01-01 (yıl; Treccani 726), t=0756-01-01 (papalik f). ALTERNATİF (zincirin önerisi): papalik f→0726-01-01 'genislet'.",
+  "kaynak": [
+   "Treccani, Enciclopedia Italiana, 'Roma' (Storia) — https://www.treccani.it/enciclopedia/roma/ — 'la rottura definitiva con Bisanzio avvenne sotto l’imperatore Leone III l’Isaurico, in seguito al suo editto fiscale e alle direttive iconoclastiche del 726. Si costituì così un governo autonomo, che amministrava anche l’intero ducato' (curl, okundu)",
+   "Atlas künye notu: Papalık Devleti 756 Pepin Bağışı (TDV papalik; kronoloji) — 756 sınırı bu oturumda yeniden okunmadı"
+  ],
+  "dogrulama": "kismen-okundu (726 özerk yönetim Treccani'de okundu; 'devlet' sayılıp sayılmayacağı ve Bizans tâbiliğinin sonu kaynakta ayrılmıyor)",
+  "cakisma": "bizans (Roma Dükalığı 726'ya kadar Bizans'ın parçası; 726-756 arası Bizans nominal üstünlüğü). langobard (Liutprand tehdidi, 728 Sutri). roma-komunu (KUNYE YOK) 1144-1155: papalik zinciri Roma'da 726-1144 ve 1155-1281 olarak ikiye ayrılıyor; künye t=1870 içinde kalır (kesinti zincirde). KURULUS-GERI'nin papalik f=726 isteği Pepin Bağışı'ndan (756) ÖNCEKİ bir yapıyı 'Papalık Devleti' yapar.",
+  "ic_not": "CLAUDE.md sınıflandırması: Treccani 726'dan itibaren özerk bir papa yönetimi (governo autonomo) gösterir, ama atlas künyesi 'Papalık Devleti = 756 Pepin Bağışı'. 726-756 yönetimi hâlâ Bizans dükalığı (Ducatus Romanus) çerçevesinde, Longobard baskısı altında ve Bizans'a nominal bağlı; egemen devlet olarak 756'da doğar. 'Aynı polity sürüyor' (genişlet) ile 'ardıl/öncül yapı' (yeni künye) arasında kaynaktan kesin ayrım yapılamıyor — kaynak okunmadığı için ben öncül künye (roma-dukaligi) öneririm; Emre genişletmeyi seçerse papalik f=0726-01-01 olur ve harita boyası değişmez (papalik BOYALAR'da yok — KUNYE-BOYA-ISTEGI-k3). Künye sonu 1870-09-20 zincir ufku (1281) ötesinde, sorun yok.",
+  "zincir_islemi": "Roma: 0726-01-01→1144-01-01 dilimi roma-dukaligi (0726→0756) + papalik (0756→1144) olarak bölünür; alternatif tek dilim papalik"
+ },
+ {
+  "id": "yahuda",
+  "atlas_f": "-0929-01-01",
+  "atlas_t": "-0585-01-01",
+  "onerilen_f": "-0929-01-01",
+  "onerilen_t": "-0585-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV KUDÜS 1. bölüm (curl, okundu): 'Bâbil esareti sonrasında Kudüs Pers hâkimiyetine girmiş (m.ö. 538)'; mâbedin yakılışı (Yahuda'nın sonu)",
+   "Atlas künye kaynağı: Albright MÖ 587, Thiele MÖ 586 (okunmadı); Sanherib Rassam silindiri (RINAP 3/1) — zincir f=-0700 (Hizkiya çevresi)"
+  ],
+  "dogrulama": "kismen-okundu (Babil sonrası dönem TDV'de okundu; künye uçları okunmadı)",
+  "cakisma": "yeni-babil f=-0625 ile Kudüs'te -0586'da dikiş (zincir: yahuda -0700→-0586, yeni-babil -0586→). Künye t=-0585 → 1 yıl fazla (MÖ 586/587 kaynak ayrışması): zincir -0586 yazmış, künye -0585 (MÖ 586) — Kudüs'ün Yahuda zincirinde 1 yıl önce bitmesi tutarlı.",
+  "ic_not": "Zincir (Kudüs -0700→-0586) künye ömrü içinde. Taşma yok; künye f=-0929 (MÖ ~930) zincirin çok öncesinde."
+ },
+ {
+  "id": "byzantion-polis",
+  "atlas_f": "-0658-01-01",
+  "atlas_t": "0073-01-01",
+  "onerilen_f": "-0658-01-01",
+  "onerilen_t": "0073-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV İSTANBUL (curl, okundu): 'Şehrin ilk kuruluşuna dair yaygın efsane bir Megara kolonisi olarak kurulduğu (m.ö. 659) şeklindedir'; '... milâttan sonra 73 yılında İmparator Vespasianus tarafından Roma topraklarına katıldı'",
+   "Zincir kaynakları: Ksenophon Hellenika 4.8.27 (MÖ 390), 1.3.20-22 (MÖ 408), Herodot 5.103, 6.33 (okunmadı)"
+  ],
+  "dogrulama": "okundu (iki uç TDV İstanbul'da; f geleneksel/efsane tarihi)",
+  "cakisma": "ahamenis (İstanbul -0511→-0497, -0492→-0477), sparta (-0477→-0476, -0410→-0407, -0404→-0389), delos birliği (atina-demokrasisi) -0476→-0410: İstanbul zinciri bu dönemde byzantion-polis ile dönüşümlü. roma-imp f İstanbul'da 0073-01-01 (künye roma-imp f=-0026 → zincirde sonradan ilhak).",
+  "ic_not": "Taşma yok: zincir -0389→0073 (ve parçalı daha öncesi) künye ömrü içinde. f=-0658 (MÖ 659) efsane tarihi; TDV 'yaygın efsane' diyor — kesinlik yüzyıl. Roma'ya katılış 73 yılı TDV'de yıl düzeyinde."
+ },
+ {
+  "id": "sparta",
+  "atlas_f": "-0799-01-01",
+  "atlas_t": "-0191-01-01",
+  "onerilen_f": "-0799-01-01",
+  "onerilen_t": "-0191-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Thukydides 1.94-95, Ksenophon Hellenika 2.2.2, 1.3.20-22 (zincirdeki harmost/Pausanias dönemleri; okunmadı)",
+   "Atlas künye kaynağı: Britannica Kids Sparta (MÖ 800'ler), Akhaia Birliği'ne katılım MÖ 192 (Philopoimen) — okunmadı"
+  ],
+  "dogrulama": "taslak (künye ve zincir bu oturumda okunmadı; zincir künye ömrü içinde)",
+  "cakisma": "byzantion-polis ile İstanbul'da dönüşümlü; atina-demokrasisi (BOYALAR'da yok). Sparta'nın İstanbul'da hâkimiyeti -0477/-0476 (Pausanias), -0410→-0407 ve -0404→-0389 (harmost) — Sparta'nın metropol ömrü içinde.",
+  "ic_not": "Zincir (İstanbul -0477→-0476, -0410→-0407, -0404→-0389) künye ömrü içinde. Sparta'nın bir devlet olarak İstanbul'daki sahipliği zincirde 'harmost/garnizon' düzeyinde; polity sürekliliği için ayrı bir sorun yok."
+ },
+ {
+  "id": "misir-yeni-krallik",
+  "atlas_f": "-1549-01-01",
+  "atlas_t": "-1068-01-01",
+  "onerilen_f": "-1549-01-01",
+  "onerilen_t": "-1068-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Atlas künye kaynağı: UCL Digital Egypt (3. Ara Dönem 1069-), Met Museum (MÖ 1070) — okunmadı",
+   "Zincir kaynağı: TDV ŞAM (C. Tomar) (Karnak listeleri; Amarna tabletlerinde Di-maş-ka) — bu oturumda yeniden okunmadı"
+  ],
+  "dogrulama": "taslak",
+  "cakisma": "mitanni (-1499→-1259) ve hitit-imp (-1399→-1179) Suriye'de örtüşür: Şam zinciri misir-yeni-krallik'i -1424→-1335 arası yazmış (Amarna dönemi Mısır-Hitit sınırı).",
+  "ic_not": "Zincir (Şam -1424→-1335) künye ömrü içinde. Taşma yok."
+ },
+ {
+  "id": "aram-sam",
+  "atlas_f": "-0939-01-01",
+  "atlas_t": "-0731-01-01",
+  "onerilen_f": "-0939-01-01",
+  "onerilen_t": "-0731-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Atlas künye kaynağı: Pitard 1987, Ancient Damascus (okunmadı)",
+   "Zincir kaynağı: Kurkh monoliti (III. Salmanasar, Karkar MÖ 853, Dımaşklı Adad-idri) — okunmadı"
+  ],
+  "dogrulama": "taslak",
+  "cakisma": "yeni-asur: Şam'da -0731 dikişi (MÖ 732 Tiglat-pileser III). nabatiye/misir: Şam'ın önceki sahipleri.",
+  "ic_not": "Zincir (Şam -0852→-0731) künye ömrü içinde. Taşma yok."
+ },
+ {
+  "id": "nabatiye",
+  "atlas_f": "-0167-01-01",
+  "atlas_t": "0106-01-01",
+  "onerilen_f": "-0167-01-01",
+  "onerilen_t": "0106-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Zincir kaynağı: Iosephus, Antiquitates Iudaicae 13.392 (Aretas III Dımaşk) — 'künye ikinci el; t genel kronoloji' (okunmadı)",
+   "Atlas künye kaynağı: worldhistory.org/Kingdom_of_Nabatea; books.openedition.org/ifpo/4896 — okunmadı"
+  ],
+  "dogrulama": "taslak",
+  "cakisma": "selevkos ile Şam'da dönüşümlü (selevkos -0199→-0084, nabatiye -0084→-0071, ardından tigran/roma).",
+  "ic_not": "Zincir (Şam -0084→-0071) künye ömrü içinde; taşma yok. Nabatiye'nin Şam hâkimiyeti kısa (Aretas III, MÖ 85-71) ve Iosephus'a dayalı: Şam yerleşim noktası olarak Nabatiye 'bölge sahibi' sayılırsa BEYANLI YAKLAŞIKLIK."
+ },
+ {
+  "id": "ebla-1",
+  "atlas_f": "-2399-01-01",
+  "atlas_t": "-2299-01-01",
+  "onerilen_f": "-2399-01-01",
+  "onerilen_t": "-2299-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "A. Archi, 'Hadda of Ḫalab and his temple in the Ebla period', Iraq 72 (2010) (zincir notu; bu oturumda okunmadı)",
+   "Atlas künye notu: Mardikh IIB1 (arşiv dönemi) MÖ ~2400 – 'birinci yıkım' MÖ ~2300 (okunmadı)"
+  ],
+  "dogrulama": "taslak",
+  "cakisma": "Halep zinciri -2300-01-01→-2299-01-01 (1 yıl). Ebla ≠ Halep: Archi, Halep'in (Ḫalab) Hadda tapınağıyla Ebla'ya bağlı bir şehir olduğunu gösterir; bölge sahibi + beyan.",
+  "ic_not": "Zincir künye içinde. Dikkat: zincir yalnız 1 yıllık (künye t'ye bitişik); öncesindeki -2399→-2300 aralığı zincirde __BOSLUK__ ya da başka sahip olabilir — künyeyle ilgili değil, zincir tamamlanmalı. Halep'in Ebla-1'e atanması Archi'nin makalesine dayanır (okunmadı)."
+ },
+ {
+  "id": "hitit-imp",
+  "atlas_f": "-1399-01-01",
+  "atlas_t": "-1179-01-01",
+  "onerilen_f": "-1399-01-01",
+  "onerilen_t": "-1179-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV HALEP (curl, okundu): 'Hitit Krallığı’nın eline geçerek bu devletin imparatorluk döneminde en önemli eyalet merkezlerinden birini oluşturdu; imparatorluğun dağılmasından sonra da Halpa Krallığı adıyla müstakil bir Geç Hitit devleti haline geldi'",
+   "Atlas künye kaynağı: Bryce 2005; worldhistory.org Hittites (okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (TDV Halep'in Hitit imparatorluk dönemini ve çöküşünü teyit eder; tarihler TDV'de yok)",
+  "cakisma": "yeni-hitit f=-1179 ile Halep'te temiz dikiş (zincir hitit-imp -1343→-1179, yeni-hitit -1179→-0852). misir-yeni-krallik/mitanni Halep'in öncesinde.",
+  "ic_not": "Zincir (Halep -1343→-1179) künye ömrü içinde. Taşma yok. TDV tarih vermediği için -1343 (Šuppiluliuma I) zincir kaynağı (okunmadı)."
+ },
+ {
+  "id": "yeni-hitit",
+  "atlas_f": "-1179-01-01",
+  "atlas_t": "-0707-01-01",
+  "onerilen_f": "-1179-01-01",
+  "onerilen_t": "-0707-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV HALEP (curl, okundu): 'Halpa Krallığı adıyla müstakil bir Geç Hitit devleti haline geldi ... Milâttan önce IX. yüzyılın ortalarında Asur İmparatorluğu topraklarına dahil olan şehir'",
+   "Atlas künye notu: Asur ilhakları Melid MÖ 712, Gurgum MÖ 711, Kummuh MÖ 708 (okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (Halep için Geç Hitit→Asur geçişi TDV'de sıra olarak okundu; yıllar okunmadı)",
+  "cakisma": "yeni-asur: Halep'te -0852 dikişi (künye t=-0707 Halep'in ötesinde, çünkü künye bütün Yeni Hitit grubunu kapsıyor). hitit-imp t=-1179 ile bitişik.",
+  "ic_not": "Zincir (Halep -1179→-0852) künye ömrü içinde, künye t=-0707 zinciri aşıyor (Halep Asur'a -0852'de geçmiş; diğer Yeni Hitit birimleri sonra). Sorun yok."
+ },
+ {
+  "id": "suriye-selcuklu",
+  "atlas_f": "1079-01-01",
+  "atlas_t": "1117-01-01",
+  "onerilen_f": "1079-01-01",
+  "onerilen_t": "1117-05-05",
+  "sinif": "genislet",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV SELÇUKLULAR — https://islamansiklopedisi.org.tr/selcuklular — bölüm başlığı 'IV. SURİYE SELÇUKLULARI (1079-1117)' (curl, okundu)",
+   "TDV HALEP — https://islamansiklopedisi.org.tr/halep — Sultan Şah dönemi idare Atabeg Lü’lü’de; 'Lü’lü’ 1116’da ölünce Emîr Yaruktaş idareye hâkim oldu ... Artukoğlu İlgazi’ye haber gönderip Halep’i teslim almasını istediler; İlgazi de oğlu Timurtaş ile birlikte gelip şehre girdi (511/1117-18)' (curl, okundu)",
+   "Hicrî 511 başı: tablo takvimi (Julian) 5 Mayıs 1117 — CLAUDE.md hicrî kuralı (hicrî aralık ∩ mîlâdî yıl, kesişimin ilk günü); hesap bu oturumda yapıldı"
+  ],
+  "dogrulama": "kismen-okundu (TDV 'Halep kolu sona erdi 511/1117' ve Halep 511/1117-18 okundu; mîlâdî yıl 1117 ya da 1118 TDV'de muğlak, gün yok)",
+  "cakisma": "artuklu f=1085-01-01 (zaten başlamış; İlgazi'nin Halep'i alışı artuklu zincirini Halep'e uzatır). Halep zinciri artuklu f=1117-05-05'te başlıyor → künye t ile dikiş. luluogullari-halep (KUNYE YOK) ve hamdani-halep (t=1004) bu künyeyle ilgisiz.",
+  "ic_not": "Zincirin Halep dilimi suriye-selcuklu'yu 1094-05-27→1117-05-05 yazıyor; künye t=1117-01-01 (yıl düzeyi, atlas ic_not_t 'Halep kolu 511/1117'de Artuklu İlgazi'ye geçti'). Aynı polity (Rıdvan→Alparslan el-Ahres→Sultan Şah, atabegler Lü’lü’/Yaruktaş) İlgazi'nin girişine dek sürdüğü için CLAUDE.md gereği künye GENİŞLETİLİR (t=1117-05-05, hicrî 511'in ilk günü ∩ 1117). İhtiyat: TDV '1117-18' ve literatürdeki 1118 olasılığı varsa t belirsiz — gün TDV'de yok, 05-05 hicrî kurala dayanır. 4 aylık fark dışında çakışma/boşluk yaratmaz.",
+  "zincir_islemi": "Halep: artuklu f ve suriye-selcuklu t 1117-05-05 (zincir değişmez; künye uzar)"
+ },
+ {
+  "id": "makedonya-krallik",
+  "atlas_f": "-0699-01-01",
+  "atlas_t": "-0167-01-01",
+  "onerilen_f": "-0699-01-01",
+  "onerilen_t": "-0167-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV SELÂNİK (curl, okundu): 'Milâttan önce 168’de Roma İmparatorluğu’nun bir parçası olan şehirde' (Pydna sonrası)",
+   "Atlas künye kaynağı: Argead hanedanı MÖ 700 (I. Perdikkas); Pydna MÖ 168 (kaynak adı atlas künyesinde; okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (t: TDV Selanik MÖ 168 okundu; f MÖ 700 Perdikkas geleneksel)",
+  "cakisma": "antigonid-makedonya (-0275→-0167) ve iskender-imparatorlugu (-0335→-0322) Makedonya anavatanında örtüşür; Selanik zinciri makedonya-krallik'i -0315 (Kassandros'un Thessalonike kuruluşu)→-0167 yazmış, antigonid'e bölmemiş. Bu iki künyenin sınırı atlas düzeyinde belirsiz (Selanik'te Antigonid Kassandros sonrası -0275).",
+  "ic_not": "Zincir künye içinde, taşma yok. Not: Selanik zinciri -0315→-0167 tek sahip (makedonya-krallik); MÖ 323-315 arası zincirde __BOSLUK__ olabilir (Selanik MÖ 316/315'te kuruldu). Antigonid hanedanı (-0275→-0167) ayrı künye: Selanik zincirinde -0275 sonrası antigonid-makedonya kullanılırsa makedonya-krallik ile çakışır — künyeleri karıştırmama uyarısı."
+ },
+ {
+  "id": "hamdani-halep",
+  "atlas_f": "0944-10-29",
+  "atlas_t": "1004-01-01",
+  "onerilen_f": "0944-10-29",
+  "onerilen_t": "1004-01-01",
+  "sinif": "kisalt",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV HAMDÂNÎLER — https://islamansiklopedisi.org.tr/hamdaniler — 'Seyfüddevle, 8 Rebîülevvel 333’te (29 Ekim 944) şehre girerek ... hutbe okuttu'; 'Hamdânîler’in Halep koluna son veren Lü’lü’ ... (394/1004)' (curl, okundu)",
+   "TDV ANTAKYA — https://islamansiklopedisi.org.tr/antakya — 'Hamdânoğulları’ndan Ebü’l-Ali Hasan (Seyfüddevle) 944’te Antakya’yı aldı. Fakat ... Nikephoros Phokas ... 968’de şehri almayı başardı' (curl, okundu)",
+   "TDV HALEP — 'Halep 404’te (1014) Fâtımîler’in eline geçti ... Mansûr b. Lü’lü’' (curl, okundu)"
+  ],
+  "dogrulama": "okundu (Halep ucu günüyle; Antakya yalnız yıl)",
+  "cakisma": "ihsidi t=0969-07-06 (Halep zinciri ihsidi→hamdani 944-10-29 temiz). luluogullari-halep (KUNYE YOK) f=1004: hamdani t=1004-01-01 ile dikiş. Antakya: Bizans 968 (TDV) / 969 (başka kaynaklar) çelişkisi zincirde beyanlı. KURULUS-GERI istekli çakışma: hamdani-halep ile lulu-halep — Lü'lü' 394/1004'te 'idareyi tek başına ele geçirdi' (hicrî 394 = Ekim 1003–Ekim 1004); künye t 1004-01-01 yıl düzeyi, Lü'lü' dönemi ayrı künye ister (mevcut 'lului' Musul'dur, Halep değil).",
+  "ic_not": "Tek taşma: Antakya zinciri hamdani-halep'i 0944-01-01'de (TDV 'yalnız yıl 944') başlatıyor, künye 0944-10-29 (Halep'in alınışı). Seyfüddevle Antakya'yı Halep'ten SONRA aldı (Halep'e 29 Ekim 944'te girdi) → Antakya f→0944-10-29 ('en erken sınır'; gerçek gün kaynakta yok, beyanlı). Künye ömrü doğru; uzatma gerekmez. Antakya t=0968-01-01 künye içinde.",
+  "zincir_islemi": "Antakya: hamdani-halep f 0944-01-01 → 0944-10-29 (beyanlı en erken sınır)"
+ },
+ {
+  "id": "galatya-keltleri",
+  "atlas_f": "-0277-01-01",
+  "atlas_t": "-0024-01-01",
+  "onerilen_f": "-0277-01-01",
+  "onerilen_t": "-0024-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV ANKARA 1. bölüm (S. Erdem) — https://islamansiklopedisi.org.tr/ankara — 'milâttan önce 278-189 yılları arasında Trakya’dan gelen Galatlar’ın Tektosages kolunun başşehri oldu; ... Romalılar döneminde (m.ö. 189 - m.s. 395)' (curl, okundu)",
+   "Strabon 12.5.1 (Perseus) — MÖ 25 Galatia eyaleti (zincir notu; okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (f TDV 278; t -0024 = MÖ 25 Amyntas'ın ölümü/eyalet, Strabon — okunmadı; TDV Roma dönemini MÖ 189'dan başlatır → beyan)",
+  "cakisma": "pontus (Ankara'da -0087→-0083 Mithridates; zincirde galatya-keltleri -0277→-0087 ve -0083→-0024). roma-imp f=-0026-01-16 → Ankara zinciri roma-imp'i -0024-01-01'de başlatıyor (MÖ 25 Galatia eyaleti; künye imp f'den 2 yıl sonra, sorun yok).",
+  "ic_not": "Zincir künye ömrü içinde; taşma yok. TDV 'Romalılar dönemi MÖ 189'dan' (Magnesia sonrası Roma himayesi) der; künye t=MÖ 25 eyalet kuruluşu — kaynaklar farklı olguyu tarihliyor (himaye vs eyalet): ic_not beyanı."
+ },
+ {
+  "id": "pontus",
+  "atlas_f": "-0280-01-01",
+  "atlas_t": "-0062-01-01",
+  "onerilen_f": "-0280-01-01",
+  "onerilen_t": "-0062-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV ANKARA 1. bölüm (curl, okundu): 'Pontus Kralı Mithridatis’in eline geçtiği dört yıl (m.ö. 88-84)'",
+   "Atlas künye kaynağı: I. Mithridates Ktistes MÖ 281; VI. Mithridates'in yenilgisi Pompeius karşısında MÖ 63 (Britannica; okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (zincir -0087→-0083 = MÖ 88-84 TDV'de okundu; künye uçları okunmadı)",
+  "cakisma": "galatya-keltleri ile Ankara'da dönüşümlü; roma-cumhuriyeti Pontus'un sonunda (MÖ 63).",
+  "ic_not": "Zincir (Ankara -0087→-0083) künye ömrü içinde. Taşma yok."
+ },
+ {
+  "id": "bergama",
+  "atlas_f": "-0281-01-01",
+  "atlas_t": "-0132-01-01",
+  "onerilen_f": "-0281-01-01",
+  "onerilen_t": "-0132-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "TDV KONYA (T. Baykara) — https://islamansiklopedisi.org.tr/konya — 'Selefkiler’e, ardından da Bergama krallarının eline geçti. III. Attalos’un ölümü üzerine Roma İmparatorluğu topraklarına katıldı' (curl, okundu)",
+   "Livius 38.39 (Apameia: 'also gave to him Lycaonia') — zincir notu (okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (sıra TDV'de okundu; MÖ 188 Apameia ve 133 vasiyet yılları zincir/künye kaynaklarında)",
+  "cakisma": "selevkos (Konya -0189→-0187) ve roma-cumhuriyeti (Konya -0132→): Konya'da selevkos→bergama→roma-cumhuriyeti.",
+  "ic_not": "Zincir (Konya -0187→-0132) künye ömrü içinde. Taşma yok."
+ },
+ {
+  "id": "bati-francia",
+  "atlas_f": "0843-01-01",
+  "atlas_t": "0987-01-01",
+  "onerilen_f": "0843-01-01",
+  "onerilen_t": "0987-07-03",
+  "sinif": "genislet",
+  "ardil_onerisi": "Eşzamanlı düzeltme gerekir: fransa f=0987-01-01 → 0987-07-03 (Hugh Capet'in Noyon'da taç giyişi, atlas fransa kronoloji maddesi). Aksi halde bati-francia/fransa dikişi (987-01-01) kronolojide hiçbir maddeye ±30 gün içinde dayanmaz (Değişmez 2).",
+  "kaynak": [
+   "Treccani, Enciclopedia Italiana, 'Francia' — https://www.treccani.it/enciclopedia/francia_(Enciclopedia-Italiana)/ — 'La Francia feudale (987 - 1108). La dissoluzione feudale del sec. X segna un distacco netto fra la storia del vecchio regno dei Franchi e la storia del nuovo regno di Francia' (curl, okundu; gün yok)",
+   "Atlas fransa kronoloji: 0987-07-03 Hugues Capet Noyon'da taç giyer — 'Britannica Hugh Capet; Capetian dynasty' (okunmadı: Britannica curl ile 403/boş döndü)",
+   "Zincir: Treccani 'Francia' ve Richer (1 Haziran 987 seçim) — zincir notu (okunmadı)"
+  ],
+  "dogrulama": "taslak (gün: Britannica okunamadı; Treccani yıl verir)",
+  "cakisma": "fransa f=0987-01-01 (atlas). Zincir Paris'te bati-francia t=0987-06-01 (Richer: 1 Haziran seçimi) yazmış. Aynı polity (Batı Francia = Capet Fransa'sı, hanedan değişimi) sürüyor: iki künye arasında toprak değişimi yok.",
+  "ic_not": "Tek taşma: Paris zinciri bati-francia'yı 0987-06-01'e (Hugh Capet'in seçimi, Richer) uzatıyor; künye 0987-01-01. Fransa künyesi f=0987-01-01 (yıl) ama kendi kronolojisi 987-07-03'te başlıyor. Seçenekler: (1) zinciri 0987-01-01'e kısalt (basit, ama 987-01-01 dikişi kronolojisiz — Değişmez 2 riski); (2) ÖNERİM: iki künye de aynı güne çekilsin — bati-francia t = fransa f = 0987-07-03 (atlas'ın kendi kronoloji maddesi; Karolenj hattı Mayıs 987'de Louis V'in ölümüyle bitti, ama polity sürüyor). 'Aynı polity sürüyorsa künyeyi genişlet' kuralı (2)'yi destekler. Gün kaynağı okunmadığı için taslak.",
+  "zincir_islemi": "Paris: bati-francia t 0987-06-01 → künye t (0987-07-03 ise zincir uzar, 0987-06-01 değil)"
+ },
+ {
+  "id": "frank",
+  "atlas_f": "0481-01-01",
+  "atlas_t": "0843-01-01",
+  "onerilen_f": "0481-01-01",
+  "onerilen_t": "0843-01-01",
+  "sinif": "ardil-kunye",
+  "ardil_onerisi": "ÖNCÜL künye öneri: 'ripuar-frank' (Ripuar Frank Krallığı, Köln merkezli), f=0454-01-01 (Treccani: Aetius'un ölümünden 454 sonra; 'en erken sınır'), t=Salî Frank krallarına (Clovis) katılış — YIL KAYNAKTA YOK; en geç 0511 (Clovis'in ölümü, atlas frank kronolojisi). ALTERNATİF (zincirin önerisi): frank f→0454-01-01 'genislet'.",
+  "kaynak": [
+   "Treccani, Enciclopedia Italiana, 'Franchi' — https://www.treccani.it/enciclopedia/franchi_(Enciclopedia-Italiana)/ — 'Morto Ezio nel 454 i Ripuarî non trovarono più difficoltà nel loro programma di stanziarsi sulla sinistra del fiume. Prima Colonia e poi Treviri caddero in loro possesso ... In tal modo si formò sulla sinistra del Reno una Francia ripuaria. Una Francia salica si estendeva invece più a occidente' (curl, okundu)",
+   "Gregorius Turonensis, Historia Francorum II.40 (Fordham sourcebooks.edu/basis/gregory-hist.asp; Sigibert'in Köln'den çıkışı ve oğlunun öldürtmesi; Clovis'in krallığı devralması) (curl, kısmen okundu: Köln ve Sigibert pasajı görüldü, yıl yok)",
+   "Atlas künye notu: Clovis, Childeric'in yerine 481/482 (Britannica 'Merovingian dynasty') — okunmadı"
+  ],
+  "dogrulama": "kismen-okundu (454 Ripuar yerleşimi Treccani'de okundu; Ripuar krallığının ayrı polity olduğu ve Clovis'e katılış yılı kaynakta yok)",
+  "cakisma": "dogu-francia/orta-francia: sonrası. roma-imp/bati-roma: Köln zinciri roma-imp → 0454 (bati-roma içinde). Soissons (Siagrius) ve vizigot ile dönüşümlü Paris zinciri: frank f=0481 ile Paris frank zinciri 0497 (Treccani 497) → künye içinde. KURULUS-GERI'nin frank f→0454 isteği Ripuar'ı Salî Frank krallığına katar; Gregorius II.40-42'ye göre Sigibert'in Köln krallığı AYRI siyasî birimdi ve Clovis onu sonradan devraldı.",
+  "ic_not": "Köln zinciri frank'ı 0454-01-01'de başlatıyor, künye 0481-01-01 (Salî Franklar, Clovis). Treccani Ripuar ve Salî Franklar'ı aynı halk sayar ama iki ayrı 'Francia' (ripuaria / salica) gösterir; Gregorius Köln'de ayrı kral (Sigibert) anlatır. 'Aynı polity sürüyor' diyemem → öncül künye öneririm; frank künyesi daralmaz/uzamaz. Köln 454 'en erken sınır' (Treccani: Köln kesin yıl vermez). Paris 497, Treccani'de açık ve künye içinde. Künye t=0843-01-01 (Verdun 843-08-10 atlas bati-francia kronolojisinde): 7 aylık yıl-düzeyi fark zincirde Köln frank t=0843-01-01 → orta-francia ile dikiş: aşağıdaki orta-francia bölümüne bakın.",
+  "zincir_islemi": "Köln: 0454-01-01→~0511 ripuar-frank (yeni künye), sonra frank; ya da alternatif tek dilim frank (genişletme)"
+ },
+ {
+  "id": "orta-francia-lotharingia",
+  "atlas_f": "0855-01-01",
+  "atlas_t": "0925-01-01",
+  "onerilen_f": "0855-09-29",
+  "onerilen_t": "0925-01-01",
+  "sinif": "ardil-kunye",
+  "ardil_onerisi": "ÖNCÜL künye öneri: 'orta-francia' (Francia Media — I. Lothar İmparatorluğu), f=0843-08-10 (Verdun, atlas kronoloji 'Britannica Treaty of Verdun'), t=0855-09-29 (I. Lothar'ın ölümü, Prüm bölüşümü; atlas kronoloji 'Encyclopedia.com Lothair II / Britannica Lothar I'). orta-francia-lotharingia künyesi f'sini aynı güne (0855-09-29) çek.",
+  "kaynak": [
+   "Treccani, Enciclopedia Italiana, 'Francia' — 'L'unità imperiale ... crollò nel trattato di Verdun dell'843. Lotario ebbe l'Italia, la Provenza, parte della Borgogna, l'Alsazia e i paesi franchi, fra il Reno da una parte e dall'altra la linea della Saona, della Mosa e della Schelda; Carlo ebbe tutti i paesi a occidente della Mosa ...; Ludovico ebbe i paesi a oriente del regno' (curl, okundu) — Köln Ren-Meuse arasında → Lothar payı",
+   "Annales Xantenses a. 870: 'Lotharius rex Ripuariae' (zincir notu; okunmadı)",
+   "Atlas künye notu: orta-francia-lotharingia ozet 'Aday f=843 (Francia Media, I. Lothar) ayrı bir kuruluştur; Lotharingia adı II. Lothar'ın 855 bölüşümünden gelir'; kronoloji 0855-09-29 (Encyclopedia.com 'Lothair II'; Britannica 'Lothar I') — okunmadı"
+  ],
+  "dogrulama": "kismen-okundu (Verdun'un Köln'ü Lothar payına koyduğu Treccani'de okundu; Verdun/Prüm günleri atlas kronolojisinde, okunmadı)",
+  "cakisma": "frank t=0843-01-01 (Verdun 0843-08-10 atlasta: yıl düzeyindeki dikiş 7 ay önce) ve dogu-francia f=0843-01-01 (Köln'ün doğusu Louis'te) — Köln zinciri frank→(orta-francia)→orta-francia-lotharingia→dogu-francia. almanya, buyuk-moravya yok. Köln zincirinde orta-francia-lotharingia t=0870-01-01, oysa Meerssen 870-08-08 (atlas kronoloji) → zincir 7 ay erken kesiyor (künye t=0925 içinde).",
+  "ic_not": "Taşan dilim: Köln 0843-01-01→0870-01-01 (zincir orta-francia-lotharingia yazmış); künye 0855-01-01'de başlıyor (kendi kronolojisi 0855-09-29: künye f kendi kuruluş olayından 9 ay ÖNCE — Değişmez 2 riski). 843-855 Lothar I'in İmparatorluk Francia'sı (Francia Media), Prüm bölüşümüyle (855) parçalanıyor: 855 sonrası Lotharingia (II. Lothar) bunun devamı değil, bir payıdır → ayrı öncül künye. Önerim: orta-francia (0843-08-10→0855-09-29) + orta-francia-lotharingia f=0855-09-29. Köln'ün sonu: Meerssen 0870-08-08 (zincir 0870-01-01 yazmış, düzeltilmeli).",
+  "zincir_islemi": "Köln: 0843→0855-09-29 orta-francia (yeni künye); 0855-09-29→0870-08-08 orta-francia-lotharingia; sonra dogu-francia 0870-08-08"
+ },
+ {
+  "id": "almanya",
+  "atlas_f": "0962-02-02",
+  "atlas_t": "1945-06-05",
+  "onerilen_f": "0962-02-02",
+  "onerilen_t": "1945-06-05",
+  "sinif": "kisalt",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Treccani, Enciclopedia Italiana, 'Germania' — 'Nel 962, Ottone fu incoronato imperatore' (zincir notu; bu oturumda yeniden okunmadı)",
+   "Treccani, Enciclopedia dei Papi, 'Giovanni XII' (Otto I'in taç giyişi) — zincir notu (okunmadı)"
+  ],
+  "dogrulama": "taslak (962-02-02 günü atlas/Enciclopedia dei Papi; bu oturumda okunmadı)",
+  "cakisma": "dogu-francia t=0962-01-01 → almanya f=0962-02-02: iki künye arasında 32 günlük BOŞLUK (Köln, Milano, Cenova, Floransa zincirlerinde de görünür). ÖNERİ: dogu-francia t→0962-02-02 'genislet' (başka künye; Köln zincirinin sorunu da kapanır). Köln zinciri almanya'yı 0962-01-01'de başlatıyor.",
+  "ic_not": "Köln zinciri dogu-francia→almanya dikişini 0962-01-01 yazmış (yıl düzeyi, Treccani 'Nel 962'); künye 0962-02-02 (Otto I'in imparator tacı). Zinciri künyeye çek ve dogu-francia künyesinin t'sini aynı güne al — aksi halde 32 gün boşluk (Değişmez 1: sahipsiz yerleşim = delik). Künye ömrü zinciri aşıyor değil, ters: zincir künyeden önce başlıyor. Almanya f=962 yerine 911/919 (Alman Krallığı) istemek ayrı bir künye kararı (dogu-francia 'Alman Krallığı, Sakson öncesi dahil' adını taşıyor).",
+  "zincir_islemi": "Köln: dogu-francia t ve almanya f 0962-01-01 → 0962-02-02; (künye düzeltmesi: dogu-francia t → 0962-02-02)"
+ },
+ {
+  "id": "avusturya-dukaligi",
+  "atlas_f": "1156-09-17",
+  "atlas_t": "1276-11-21",
+  "onerilen_f": "1156-09-17",
+  "onerilen_t": "1276-11-21",
+  "sinif": "kisalt",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Wien Geschichte Wiki (Czeike), 'Privilegium minus' — https://www.geschichtewiki.wien.gv.at/Privilegium_minus — 'Urkunde Friedrichs I. Barbarossa vom 18. September 1156, ausgestellt in Regensburg' (curl, okundu)",
+   "Wien Geschichte Wiki, 'Rudolf I.' — https://www.geschichtewiki.wien.gv.at/Rudolf_I. — 'Ottokar unterwarf sich am 25. November' (curl, okundu)",
+   "Deutsche Biographie, ADB 'Heinrich II. Jasomirgott' (17. Sept. 1156 Regensburg) ve NDB 'Přemysl Otakar II.' (Frieden von Wien, 21.11.1276) — atlas künye kaynağı (okunmadı bu oturumda; atlas alıntıları)"
+  ],
+  "dogrulama": "kismen-okundu (iki ucu iki kaynak ailesi veriyor: ADB/NDB 17.09.1156 ve 21.11.1276; Wien Geschichte Wiki 18.09.1156 ve 25.11.1276 — 1 ve 4 gün)",
+  "cakisma": "almanya: Viyana'da 1043-1156-09-18 ve 1276-11-25→ (zincir). Boşluk yaratmaz (zincir künye günlerine çekilince dikişler aynı güne düşer).",
+  "ic_not": "Künye ömrü zinciri taşıyor (zincir 1156-09-18→1276-11-25; künye 1156-09-17→1276-11-21): fark 1 ve 4 gün, kaynak çelişkisi (ADB/NDB vs Wien Geschichte Wiki). Atlas iki Deutsche Biographie kaynağına dayanıyor (17.09 Regensburg Reichstag günü; 21.11 Wiener Frieden belgesi); Wien Wiki 18.09 belge tarihini, 25.11 Ottokar'ın teslim günü/girişi gibi başka bir olguyu veriyor. Önerim: künye değişmez; zincirler künye günlerini kullanır, çelişki iki kaynağıyla beyan edilir (CLAUDE.md 'çelişki ic_not'ta'). Seçenek: Emre WGW'yi esas alırsa künye 1156-09-18 / 1276-11-25 'genislet'.",
+  "zincir_islemi": "Viyana: almanya t / avusturya-dukaligi f 1156-09-18 → 1156-09-17; avusturya-dukaligi t / almanya f 1276-11-25 → 1276-11-21"
+ },
+ {
+  "id": "bohemya",
+  "atlas_f": "1000-01-01",
+  "atlas_t": "1526-08-29",
+  "onerilen_f": "0895-01-01",
+  "onerilen_t": "1526-08-29",
+  "sinif": "genislet",
+  "ardil_onerisi": "Önerilen ad notu: 'Bohemya (Přemyslid Dükalığı → Krallık)'; künye adı 'Bohemya Krallığı' 1085/1198 öncesini taşımaz — ad_not eklenmeli ya da 'bohemya-dukaligi' ayrı künye (alternatif; tur: dukalik, f=0895-01-01, t=1198-01-01; atlas kronoloji 1198 'Ottokar I kalıtsal kral'). Ben tek künye + ad_not öneririm (aynı polity).",
+  "kaynak": [
+   "Treccani, Enciclopedia Italiana, 'Boemia' — https://www.treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/ — 'I suoi figli Spytihněv (890-916) e Vratislao (916-921) si sottrassero nell’895 alla signoria di Mojmír II, ponendosi sotto la protezione dell’impero dei Franchi'; 'Per merito di Boleslao I (929-967) il ducato dei Přemyslidi diventa in breve lo stato più importante dell’Europa centrale' (curl, okundu)",
+   "Treccani, Enciclopedia Italiana, 'Praga' (Stloukal, Baldini) — 'Praga, prima una delle borgate appartenenti ai Přemyslidi' (zincir notu; okunmadı)",
+   "Atlas künye notu: lex 'Tjekkiets historie' '900-tallet', snl 'Tsjekkias historie' — yıl vermeyen kaynaklar; künye f pencere ucu (D210)"
+  ],
+  "dogrulama": "okundu (f=895 Treccani'de yılıyla okundu; kesinlik yıl)",
+  "cakisma": "buyuk-moravya (0833-01-01→0907-01-01): 895-907 arasında ayrı topraklarda örtüşür (Bohemya 895'te Moravya'dan çıktı — Moravya t=0907 ile çelişmez ama sınır yerleşim düzeyinde bakılmalı). almanya/dogu-francia: 895'ten itibaren Doğu Frank vasallığı (zincirde Prag 'bohemya' tek sahip; vasal-suzeren ayrımı künye düzeyinde yok). moravya-markgraflik (1182→) başka.",
+  "ic_not": "Zincir Prag'da bohemya'yı 0900-01-01→1281-01-01 yazıyor; künye f=1000-01-01 ('pencere ucu, ölçüm değil' — atlas ic_not_f: kaynak yıl vermiyor, 'Bořivoj/Václav için yeni kaynak gerekir'). Yeni kaynak BULUNDU: Treccani EB 'Boemia' 895'i açıkça verir → künye GENİŞLETİLİR (f=0895-01-01, yıl hassasiyeti); aynı polity (Přemyslid devleti, dükalık→krallık) 900-1281 boyunca sahip değişimsiz. Zincir 900 başı yerine 895'e inebilir (Prag'ın Přemyslid kalesi oluşu ~880'ler, Treccani 'borgata'). Künye f=895: ad 'Krallığı' yanıltıcı (krallık 1085/1198).",
+  "zincir_islemi": "Prag: 900-01-01 başlangıç künye f=0895-01-01'e uyum (zincir 895'ten başlayabilir; dönem uzatma zincirin tercihidir)"
+ },
+ {
+  "id": "altinorda",
+  "atlas_f": "1242-01-01",
+  "atlas_t": "1502-01-01",
+  "onerilen_f": "1241-01-01",
+  "onerilen_t": "1502-01-01",
+  "sinif": "kisalt",
+  "ardil_onerisi": "Kiev 1240-12-06→altinorda f: sahip mogol-imparatorlugu (künye var, 1206-01-01→1260-01-01) — Batu'nun batı seferi (1237-1241) Ögedey Kağan adına; BEYANLI. (Kiev'in düşüşü 6 Aralık 1240, IEU).",
+  "kaynak": [
+   "TDV ALTIN ORDA HANLIĞI — https://islamansiklopedisi.org.tr/altin-orda-hanligi — başlık '1241-1502 yılları arasında Deştikıpçak’ta hüküm süren bir Türk-Moğol devleti'; 'Batu Han ... 1241 yılında İdil nehrinin aşağı mecrasına dönerek “Orda” merkezini kurdu. Saray ...' (curl, okundu)",
+   "Internet Encyclopedia of Ukraine, 'Kyiv' — Batu'nun 1240'ta Kiev'i alışı; 'revival under the rule of the vassal princes of the Golden Horde' (zincir notu; okunmadı)"
+  ],
+  "dogrulama": "okundu (TDV başlığı 1241-1502; atlas f=1242 TDV'den 1 yıl sapıyor — TDV esastır)",
+  "cakisma": "mogol-imparatorlugu (t=1260-01-01): 1240-12-06→altinorda f arası Kiev'in sahibi; kiev-rusu t=1240-12-06 (zincir, temiz dikiş). rusya/vladimir yok. Atlas altinorda ozet zaten 'Batu Han'ın 1241'de İdil'de kurduğu merkezden doğdu' diyor, f=1242 kendi ozetiyle çelişiyor.",
+  "ic_not": "Kiev zinciri altinorda'yı 1240-12-06'da (Kiev'in düşüşü) başlatıyor; künye 1242-01-01. Batu 1240 sonunda hâlâ Moğol İmparatorluğu'nun (Ögedey) ordusuydu; Altın Orda merkezi (Saray/Orda) TDV'ye göre 1241'de kuruldu. Kiev dilimi: 1240-12-06→1241-01-01 mogol-imparatorlugu (~1 ay), sonrası altinorda. Künye f 1242→1241-01-01 (TDV esas; 'aynı polity sürüyor' ⇒ yönü genişletme, 1 yıl). Künye f'yi 1240-12-06'ya çekmek önerilmez (Altın Orda henüz yok).",
+  "zincir_islemi": "Kiev: altinorda f 1240-12-06 → 1241-01-01; arası mogol-imparatorlugu (beyanlı)"
+ },
+ {
+  "id": "napoli-dukaligi",
+  "atlas_f": "1000-01-01",
+  "atlas_t": "1137-01-01",
+  "onerilen_f": "0763-01-01",
+  "onerilen_t": "1137-10-01",
+  "sinif": "genislet",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Treccani, Enciclopedia Italiana, 'Napoli' — https://www.treccani.it/enciclopedia/napoli_(Enciclopedia-Italiana)/ — 'negli anni di più spiccata floridezza del ducato autonomo (763-1139)'; 'l’avere il duca Stefano I (755-800), in principio ancora ligio a Bisanzio, riconosciuto nel 763 l’autorità del papa' (curl, okundu)",
+   "Treccani, Dizionario Biografico degli Italiani, 'Ruggero II, re di Sicilia' — https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia_(Dizionario-Biografico)/ — 'Nell’ottobre del 1137 Ruggero riprese Salerno ... mentre Napoli gli si arrese spontaneamente' (curl, okundu)",
+   "1911 Encyclopaedia Britannica 'Roger II of Sicily' (atlas künye kaynağı: 1137; okunmadı)"
+  ],
+  "dogrulama": "okundu (f 763 ve t 1137-10 Treccani'de okundu; EI 'Napoli' t=1139 diyor — kaynak içi çelişki beyanlı; 763 'özerkliğe doğru' bir eşik, tam özerklik ertesi yüzyılda)",
+  "cakisma": "bizans: Napoli 763'e dek Bizans dükalığı (zincir bizans→napoli-dukaligi 0763-01-01). sicilya-kralligi (zincir f=1137-10-01). benevento-papalik (1000-1053) başka şehir. KURULUS-GERI uzatması bizans künyesiyle (0330→1461) Napoli'de çakışmaz: zincir 763'te bizans'ı keser.",
+  "ic_not": "Künye ömrü zinciri taşımıyor: künye 1000-01-01→1137-01-01; zincir 0763-01-01→1137-10-01. Atlas künye f=1000 'f pencere' (ozet) ve t=1137-01-01 yıl düzeyi (1911 EB). Treccani EI dukalığı 763'e koyar ('ducato autonomo 763-1139'), DBI 1137 Ekim'de Napoli'nin Ruggero'ya teslimini verir. Aynı polity (Bizans'tan çıkan ama tek dükalık) → künye GENİŞLETİLİR: f=0763-01-01 (yıl), t=1137-10-01 (ay düzeyi; EI 1139 olasılığı iç notta). Uyarı: Treccani 763'ü 'özerkliğe doğru adım' (papa otoritesini tanıma) sayar, 'sostanzialmente raggiunta nel secolo successivo' der — tam bağımsızlık tartışmalı; kaynak yıl diyor, gün uydurulmadı.",
+  "zincir_islemi": "Napoli: zincir künye uzatılınca olduğu gibi kalır (0763-01-01 ve 1137-10-01)"
+ },
+ {
+  "id": "kartaca",
+  "atlas_f": "-0813-01-01",
+  "atlas_t": "-0145-01-01",
+  "onerilen_f": "-0813-01-01",
+  "onerilen_t": "-0145-01-01",
+  "sinif": "degisme",
+  "ardil_onerisi": null,
+  "kaynak": [
+   "Treccani, Enciclopedia Italiana, 'Palermo' — https://www.treccani.it/enciclopedia/palermo_(Enciclopedia-Italiana)/ — 'Panormo divenne la base militare dei Cartaginesi in Sicilia ... Nel porto di Panormo si raccolsero le armate puniche nel 480, nel 406 e nel 391 ... Panormo fu da quel tempo definitivamente perduta per i Cartaginesi (254-3)' (curl, okundu)",
+   "Atlas künye kaynağı: Dido/Timaios gelenek MÖ 814, Roma yıkımı MÖ 146 (okunmadı)"
+  ],
+  "dogrulama": "kismen-okundu (Palermo zinciri -0479→-0253 Treccani'de okundu; künye uçları okunmadı)",
+  "cakisma": "roma-cumhuriyeti: Palermo zincirinde -0253'te Kartaca→Roma dikişi (Treccani MÖ 254); künye t=-0145 (MÖ 146 Kartaca'nın yıkımı) Palermo dışında geçerli. Yunan şehir devletleri (Siraküza) Palermo dışı.",
+  "ic_not": "Zincir (Palermo -0479→-0253) künye ömrü içinde. Taşma yok. f=-0813 gelenek tarihi (kesinlik yüzyıl; arkeolojik kuruluş ~MÖ 750)."
+ }
+]

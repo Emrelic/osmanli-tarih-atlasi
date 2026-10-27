@@ -1,0 +1,543 @@
+##0001 Köprühisar (Yenişehir) [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · yenisehir · yer=1
+  E[1386] Osmanlı döneminde (1386-1881) elliden fazla camisi, önemli bazı medreseleri ve pek çok tekkesiyle imparatorluğun Avrupa’daki en büyük on şehri arasında bulunuyordu.
+  E[986] Larissa 986’da, Aziz Achileios’un kalıntılarını başşehri Prespa’ya kaçıran Makedonya ve Batı Bulgaristan Çarı Samuil tarafından ele geçirildi.
+  E[1402] Yıldırım Bayezid’in 1402’de Timur’a yenilmesinden ve 1403’teki Osmanlı-Bizans Antlaşması’ndan sonra Tesalya’nın Bizans’a iade edildiği düşünülmektedir.
+  E[1404] Bununla birlikte Epirli Tocco Hânedanı Tarihi ’nde 1404 yılında Sinâneddin Yûsuf Bey’in Tesalya’nın Türk hâkimi olarak zikredildiği dikkati çeker.
+
+##0002 Akhisar (Pamukova) [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · akhisar · yer=1
+  Y[1300] Batı Anadolu’da Hıristiyanlığın ilk yayıldığı yedi şehirden biri olan Akhisar, muhtemelen ilk olarak, 1300’den beri Manisa yöresinde faaliyet gösteren Saruhanoğulları tarafından Türk hâkimiyeti altına alınmıştır.
+  E[1390] Yıldırım Bayezid 1390’a doğru burayı Osmanlı topraklarına kattı, ancak Timur’un Anadolu harekâtı sırasında yeniden Saruhanoğulları’nın hâkimiyetine girdi.
+
+##0003 Yalova [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · yalova · yer=1
+  Y[1302] Osmanlı Devleti’nin kurucusu Osman Bey’in 1302’de bir Bizans birliğini yendiği savaş da (Bafeus) Yalova civarında yapıldı.
+  E[None] Bir ara Batı Anadolu’nun büyük kısmına hâkim olan Frigler’in milâttan önce 1200 yıllarından itibaren bu yöreye ulaştıkları (Tunay, IX [1986], s.
+  E[527] Iustinianos döneminde de (527-565) İmparatoriçe Theodora’nın kalabalık maiyetiyle birlikte (abartılı bir rivayete göre 4000 kişi) kaplıcalara gitmesi ve Iustinianos’un eskiden mevcut bir kilise ile bir hastahaneyi tamir ettirmesi, ayrıca burada yeni bir saray…
+
+##0004 Bilecik [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · bilecik · yer=1
+  Y[1299] Osmanlı kaynaklarına göre Bilecik tekfurunun da aralarında bulunduğu bölgedeki diğer tekfurlar Osman Gazi’ye bir suikast hazırladılarsa da bu tertibin haber alınması üzerine Osmanlı kuvvetleri âni bir baskınla Yarhisar ve Bilecik’i fethettiler (1299).
+  E[None] Osmanlılar’ın Söğüt ve çevresine yerleştikleri XIII.
+
+##0005 Eskişehir [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · eskisehir · yer=1
+  Y[1261] 1261’e doğru Sultanöyüğü-Kütahya bölgesinde 200.000 çadırlık Türkmen grupları yerleşmişti.
+  Y[1291] Osmanlı tarihine dair rivayetler 1291 yılında Osman Gazi’nin Karacahisar’ı fethettiği, burada ve Eskişehir’de cami yapılıp minber konduğu, Osman Bey adına ilk cuma hutbesinin Karacahisar’da ve bayram hutbesinin de Eskişehir’de okunduğu şeklinde bilgilerle örü…
+  E[1175] 1175’te İmparator Manuel Komnenos yıkılan kaleyi yeniden tamir ettirdiyse de bu durum az sonra her iki devlet arasında anlaşmazlık konusu haline geldi.
+  E[1555] 1555’te buradan geçen ve şehri uzaktan gören Hans Dernschwam ise buranın dağ silsilesi eteğinde bulunduğunu, yakınlarında da bir kaplıca olduğunu belirtir ( İstanbul ve Anadolu’ya Seyahat Günlüğü , s.
+  E[1921] Anadolu’da büyük bir saldırıya geçen Yunanlılar’ın Sakarya hattında durdurulmasının planlanması üzerine Türk kuvvetleri geri çekilince 20 Temmuz 1921’de Eskişehir Yunanlılar tarafından işgal edildi; 30 Ağustos Zaferi’nden sonra da kurtarıldı (2 Eylül 1922).
+
+##0006 Bursa [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · bursa · yer=1
+  Y[1308] Şehir ilk olarak 1308’de diğer tekfurlarla ittifak kurarak Osmanlı kuvvetlerini Dinboz Geçidi’nde durdurmak isteyen Bursa tekfurunun mağlûp edilmesinden sonra Osman Bey tarafından kuşatma altına alındı.
+  E[1080] Anadolu fâtihi Süleyman Şah 1080’de İznik’i alarak kendisine merkez yaptıktan hemen sonra Bursa’yı fethetti.
+  E[1097] İznik’in 1097’de yeniden Bizans hâkimiyetine girmesinin peşinden buranın da zaptedilip edilmediği hakkında herhangi bir bilgi yoktur.
+  E[1113] Şehir 1113’te Türk kuvvetleri tarafından tekrar zaptedildiyse de bir süre sonra İmparator Aleksis Komnenos tarafından geri alındı.
+  E[1402] Ancak Timur’un Anadolu’ya girip 1402’de Osmanlılar’ı mağlûp etmesi Bursa’nın gelişmesine darbe vurdu.
+
+##0007 İznik [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · iznik · yer=1
+  Y[1204] Haçlı Seferi sırasında İstanbul’un Latinler’in eline geçmesi ve Bizans hâkimiyetinin ortadan kalkması üzerine 1204’te I.
+  Y[1261] İznik böylece, 1261 yılında İstanbul’un geri alınışına kadar devam eden Laskaris hânedanı döneminde Bizans’ın devlet ve kilise merkezi oldu; ayrıca bir sanat ve kültür merkezi haline geldi.
+  Y[1300] 1300’de Yenişehir’den hareket ederek Avdan dağlarını geçip şehri kuşattıysa da son derece müstahkem surları aşamadı.
+  E[None] Makedonyalı Büyük İskender’in ölümünden sonra kumandanlarından Antigones, milâttan önce 316 yılına doğru o zamanlar Askania denilen İznik gölünün kıyısında kurduğu bu şehre kendi isminden hareketle Antigoneia adını vermiştir.
+  E[325] Konstantinos’un Hıristiyanlığı kabul edip bu dini devlet himayesine almasından sonra İznik, 325 yılında imparatorun da hazır bulunduğu I.
+  E[420] Bizans döneminde 358, 362 ve 368 depremleriyle 420 yıllarına doğru yaşanan kıtlıktan büyük zararlar gören şehrin tekrar canlanması I.
+  E[787] İznik, İmparatoriçe Irene’nin girişimleri sonucu tasvir karşıtı harekete (ikonoklazm) son vermek amacıyla 787 yılında toplanan ve II.
+
+##0008 İzmit [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · izmit · yer=1
+  Y[1228] Uzun süre Bizans ve Latinler arasında el değiştiren şehir 1228’de yeniden Bizans hâkimiyetine geçti.
+  E[1078] 1078’de Bizans İmparatorluğu’na isyan eden Nikephoros Botaneiates, kendi ordusu olmadığı için Türkler’den sağladığı ücretli askerlerden oluşan ordusu ile İzmit’ten Üsküdar’a kadar olan bölgedeki garnizonlara Türk askerlerini yerleştirdi.
+  E[1081] 1081’de Süleyman Şah’ın idaresinde bulunan İzmit 1085’te yeniden Bizans’ın hâkimiyetine geçti.
+  E[1096] Kısa süre sonra Haçlı seferlerinin başlaması ile Haçlılar 1096’da İzmit’e geldiler ve şehre yerleştiler (Runciman, I, 100).
+  E[1122] Ioannes Komnenos, Sırbistan’da kazandığı zaferden (1122) sonra esir aldığı Sırplar’ı İzmit’e yerleştirdi.
+
+##0009 Balıkesir [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · balikesir · yer=1
+  Y[1300] Şehir ve civarı tahminen 1300 yıllarına doğru kesin olarak Türk hâkimiyetine girdi.
+  Y[1304] 1304’te Erdek’te sahile çıkan Bizans kuvvetleri Karesi Beyliği kuvvetleriyle çarpıştılar.
+  E[1096] Haçlı Seferi’nden (1096-1099) sonra tekrar Bizans tarafından alındı.
+  E[1841] 1841’de eyalet teşkilâtında yapılan değişiklikle Karesi Hudâvendigâr vilâyetinin bir sancağı haline getirildi.
+  E[1880] 1880’de Biga’nın ilhakı ile Karesi vilâyeti oluşmuş ve bu durum 1888’de vilâyetin ilga edilip tekrar Hudâvendigâr’a bağlanmasına kadar sürmüştür.
+  E[1909] Karesi sancağı 1909’da müstakil mutasarrıflık olmuş, 1924’te bütün mutasarrıflıklar gibi vilâyet haline getirilmiş, 1926’da ise Balıkesir vilâyeti adını almıştır.
+
+##0010 Çanakkale [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · canakkale · yer=1
+  E[1110] Kılıcarslan’ın oğlu Sultan Melikşah döneminde (1110-1116) Selçuklu-Bizans çatışmaları çerçevesi içinde Selçuklu emîrleri Muhammed ve Monolog, Bursa ve Ulubat üzerinden Çanakkale yöresine kadar ulaştılar.
+  E[1360] Murad tarafından 1360 yılında Osmanlı topraklarına kesin olarak katılmasıyla Çanakkale yöresi Osmanlı idaresine geçmiş oldu.
+  E[1464] Bu küçük yerleşim birimi kuruluşundan az sonra 1464 yılındaki bir Venedik zorlamasından başka hemen hemen iki asır hiçbir saldırı görmeyerek gelişti.
+  E[1654] Hatta Venedik-Osmanlı deniz savaşlarının en şiddetlilerinden biri 1654 yılında tam şehrin önünde meydana geldi.
+
+##0011 Bergama [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · bergama · yer=1
+  Y[1302] 1302’de Bizanslılar tarafından terkedilen şehir bundan az sonra bu bölgede faaliyet gösteren Karesioğulları’nın eline geçti.
+  E[None] Bu eserde verilen bilgilerden, Bergama’nın milâttan önce 547-546’da Anadolu’yu istilâ eden Persler’in eline geçtiği ve onların burada bir garnizon kurdukları öğrenilmektedir.
+  E[1113] yüzyılda Türkmen akınlarına sahne oldu, 1113 yılında Türkler şehir civarında göründüler; hatta bazı kayıtlara göre de şehri fethettiler.
+  E[1341] Yahşi Han’ın ölümünün ardından, muhtemelen 1341’den hemen sonra Bergama Osmanlılar tarafından alındı.
+  E[1828] Ayrıca 1828’de Bergama’ya uğrayan seyyah MacFarlane’nin Yunan ayaklanması sebebiyle nüfusun azalmış olduğunu, 14-15.000 kişiden ibaret nüfusun 3000’ini Rum, 300 kadarını Ermeni ve yahudilerin teşkil ettiğini belirtmesi ( Constantinople in 1828 , I, 330-331), …
+
+##0012 Ankara [Anadolu] · SAHIP=ahiler (Ahi Birliği (Ankara)) · ankara · yer=1
+  Y[1204] Ancak Mesud şehri teslim edip giderken yolda iki oğluyla beraber öldürüldü (1204).
+  Y[1211] İzzeddin Keykâvus Selçuklu tahtına geçince (1211), kardeşi Alâeddin Keykubad onu tanımayıp isyan etti ve daha sonra Ankara Kalesi’ne kapanarak müdafaaya çekildi.
+  Y[1212] Uzun süren kuşatma sonunda Alâeddin Keykubad kendisine ve şehir halkına bir zarar verilmeyeceğine dair teminat aldıktan sonra teslim oldu (1212).
+  Y[1235] Ankara 1235’te Tâceddin Pervâne’ye iktâ edildi.
+  Y[1243] Kösedağ yenilgisinden (1243) sonra Moğol takibinden kaçan II.
+  Y[1250] İzzeddin Keykâvus 1250’de şehrin surlarını tamir ettirdi.
+  Y[1299] Kızılbey Camii minberinin 699 (1299) tarihli bir tamir kitâbesinden Germiyanlılar’ın XIII.
+  Y[1304] Ankara 1304-1341 yılları arasında Anadolu’yu istilâ eden İlhanlılar’a tâbi idi.
+  E[776] Nitekim Ramsay, Araplar’ın 776 yılında Ankara’yı ele geçirdikleri yolundaki kendisinin de muhtemel görmediği bir rivayeti reddetmek için Bizans kaynaklarında, Kapadokya’nın güneyinde (asıl Hitit bölgesi) aranması gereken başka bir Ankyra’nın daha bulunduğunda…
+  E[395] Bugün, bitişiğinde Hacı Bayram Camii’nin inşa edildiği Augustus Mâbedi’nin Bizans döneminde de (395-1073) kiliseye çevrilmiş olduğu göz önünde tutularak temellerinin altında Frig-Galat tanrıları Men ve Kybele’ye ait mâbed kalıntılarının bulunduğu ileri sürülm…
+  E[806] Bu durum, hamamın sanıldığı gibi Araplar tarafından tahrip edilmediğini, aksine taşların 806 yılında şehri kuşatan Hârûnürreşîd’e karşı kalenin tahkim edilmesinde kullanılmak üzere bizzat Bizanslılar tarafından sökülmüş olabileceğini düşündürmektedir.
+  E[1073] 1073’te Selçuklular tarafından fethine kadar yaklaşık 150 yıl sakin bir dönem geçiren Ankara 1101’de Haçlılar’ın eline düşmüş ve onlardan tekrar Bizanslılar’a intikal ederek tahminen yirmi yıl yine bir hıristiyan şehri olarak kalmıştır.
+
+##0013 Kütahya [Anadolu] · SAHIP=selcuklu (Anadolu (Türkiye) Selçuklu Devleti) · kutahya · yer=1
+  Y[1233] Alâeddin Keykubad zamanında İznik İmparatorluğu’ndan geri alındı (1233).
+  Y[1234] 631 (1234) tarihli Yoncalı Hamam’ın kitâbesi Türk hâkimiyetinin başlangıcına işaret etmektedir.
+  Y[1277] 1277’de meydana gelen Cimri olayı sırasındaki hizmetlerinden dolayı bölgenin kendilerine verildiği Germiyanlılar zamanla şehri merkez yaparak beyliklerinin temelini attılar.
+  Y[1285] Kütahya 1285 yılından itibaren Germiyanlılar, Moğollar ve Selçuklu Sultanı II.
+  Y[1286] 1286-1291 yılları arasında mücadelelerde bazan Germiyanlılar, bazan Sultan Mesud’un kuvvetleri galip geldi.
+  Y[1300] 699 (1300) tarihli bir kitâbe bu yıllarda Germiyanlılar’ın Selçuklu hâkimiyetini tanıdıklarını gösterir.
+  Y[1300] Kütahya merkez olmak üzere Germiyan Beyliği’nin 1300’de kurulduğu anlaşılmaktadır.
+  Y[1237] Şehirde Balıklı mahallesindeki cami üzerinde, Selçuklu emîrlerinden İmâdüddin Dînârî’ye ait 634 (1237) tarihli kitâbe ile Germiyanlı Özbek Subaşı tarafından yapılan tamiratı gösteren 783 (1381) tarihli kitâbe bulunur.
+  E[1080] Malazgirt’ten sonra Anadolu’nun büyük bir kısmı ile beraber burası da Kutalmışoğlu Süleyman Şah tarafından 1080 yılına doğru alındı.
+  E[1097] Dorylaion (Eskişehir) Muharebesi’ne kadar da (1097) Selçuklu idaresi altında kaldı.
+  E[1180] Manuel’in ölümünden sonra Selçuklular’ın idaresi altına girdi (1180).
+  E[1390] Yâkub Bey, Kosova savaşının ardından kız kardeşinin çeyizi olarak verilen Kütahya ve civarına hâkim olduysa da Yıldırım Bayezid 792’de (1390) Kütahya ve diğer bütün Germiyan topraklarını Osmanlı idaresi altına aldı.
+
+##0014 Isparta [Anadolu] · SAHIP=selcuklu (Anadolu (Türkiye) Selçuklu Devleti) · isparta · yer=1
+  Y[1204] Kılıcarslan zamanında 1204’te zaptedilmiştir ( el-Evâmirü’l-ʿAlâʾiyye , s.
+  Y[1301] Feleküddin Dündar Bey zamanında (1301-1326) Isparta’nın küçük bir kale durumunda bulunduğu tahmin edilebilir.
+  Y[1299] Kutlu Bey buradaki Selçuklu eseri ulucamii (1299) yeniden yaptırmıştır.
+  E[None] Anadolu Selçuklu idaresinin Moğol istilâlarıyla sarsılmasından sonra ortaya çıkan Türkmen beyliklerinden biri olan Hamîdoğulları XIII.
+  E[1326] Demirtaş’ın Mısır’a kaçışının ardından Hamîdoğulları bölgeyi yeniden ele geçirdiler (1326).
+  E[1374] İsmail Hakkı Uzunçarşılı’ya göre 1374’te gerçekleşen bu satış sonucunda Osmanlı hâkimiyetine giren Hamîd-ili kasabalarının altı parça olduğu, bunlar arasında Isparta’nın da bulunduğu söz konusu kaynaklarda belirtilir.
+  E[1326] Akşehir, Beyşehir, Seydişehir, Karaağaç, Eşrefoğulları’nın 1326’dan sonra parçalanması sonucu Hamîdoğulları’nın idaresine giren ve dolayısıyla Karamanoğulları ile ihtilâflı olan yerlerdir.
+
+##0015 Manisa [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · manisa · yer=1
+  Y[1204] Latinler’in 1204’te İstanbul’u almalarından sonra İznik İmparatorluğu’nun sınırlarına dahil edildi.
+  Y[1222] İoannis Vatatzis (1222-1254) bir süre Magnesia’da oturdu, kendi adına bir kilise yaptırdı ve öldüğünde buraya gömüldü.
+  Y[1304] Türkler’le savaşmak üzere Bizanslılar tarafından parayla tutulan Katalan/İspanyol askerî grubu Roger de Flor liderliğinde 1304’te şehre geldiyse de Attalios kendileriyle anlaştı ve onları içeri sokmadı.
+  Y[1305] Bölgede faaliyet gösteren Saruhan Bey, 1305’e doğru etrafını ele geçirdiği şehri 1310’dan sonra 1314’e doğru uzun bir ablukanın ardından zaptetmeyi başardı.
+  Y[1222] İoannis Vatatzis zamanında (1222-1254) şehre büyük bir manastır yapılmıştı.
+  E[1071] 1071’den itibaren Anadolu’ya giren Türkler’in Ege sahillerine kadar uzandığı bilinen akınlarında şehrin nasıl etkilendiği hakkında bilgi yoktur.
+  E[None] Anadolu Selçuklu Devleti ile Bizans İmparatorluğu’nun sınır hattının biraz gerisinde kalan Magnesia’nın durumunda XIII.
+  E[1389] Saruhanoğulları’nın merkezi olarak gelişme gösteren Manisa ilk defa Yıldırım Bayezid’in 791-792 (1389-1390) kışındaki askerî harekâtı sırasında Osmanlı idaresi altına alındı.
+  E[1402] Timurlu ordusunun çekilmesinin ardından Saruhanoğlu Orhan Bey 17 Ağustos 1402’de şehre gelip idareyi ele geçirdi.
+
+##0016 İzmir [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · izmir · yer=1
+  Y[1231] Liman Kalesi (Aşağı Kale, Hisar Kalesi, Ok Kalesi) 1231-1235 yılları arasında iç limanın ağzında yaptırılmıştır.
+  E[None] Milâttan önce 334’te Persler’e karşı savaşmak üzere Anadolu’ya geçen ve Ephesos’a kadar ilerleyen Büyük İskender, rivayete göre Pagus’ta (Kadifekale) avlandığı sırada dinlenirken gördüğü bir rüya üzerine burada yeni bir şehir kurulması tavsiyesinde bulunmuştu…
+  E[None] Bugünkü İzmir’in Kadifekale eteklerinde kurulmasına ve halkın iskânına İskender’den sonra Batı Anadolu’ya hâkim olan Antigones teşebbüs etmiş, fakat milâttan önce 302’de Trakyalı Lysimakhos’la yaptığı savaşta hayatını kaybetmiş, böylece şehir de Lysimakhos’un…
+  E[None] Germiyanoğulları ordusunda subaşı olan Mübârizüddin Gazi Mehmed Bey tarafından XIII.
+  E[1334] Mehmed Bey’in 1334’te ölümünden sonra yerine geçen Umur Bey, Birgi’de sadece üç gün kalıp İzmir’e çıkarma teşebbüsünde bulunan hıristiyan kuvvetlerine karşı hazırlık yapmak üzere İzmir’e döndü ve 17 Eylül 1334’te birleşik donanmanın taarruzunu püskürtüp Saruh…
+
+##0017 Çeşme [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · cesme · yer=0
+  Y[1258] Sâhib Ata’nın 656 (1258) yılında yaptırdığı mescid, hankah ve türbeden meydana gelen külliyenin muhteşem cümle kapısındaki çifte minarenin alt kısımlarında sebil oldukları söylenen bir çift su alma hücresi vardır.
+  Y[1238] Alâeddin Keykubad’ın ölümünden sonra zevcesi Mahperi Hatun tarafından 636’da (1238-39) yaptırılan Hatun Hanı denilen kervansarayın girişinin sol duvarında bulunmaktadır.
+  Y[1271] Selçuklu çeşmelerinin hiç şüphe yok ki en muhteşem örneği, Sivas’ta 670’te (1271-72) Sultan III.
+  Y[1267] Gıyâseddin Keyhusrev zamanında Vezir Sâhib Ata tarafından 666 (1267-68) yılında yaptırılan Sâhibiye Medresesi bitişiğindeki çeşme Safer 665 (Kasım 1266) tarihlidir.
+  E[1804] Yine Tunus’ta Bâb-ı Sîdî Abdüsselâm’ın iç tarafındaki 1219 (1804-1805) tarihli aynı vezirin yaptırdığı çeşme Osmanlı mimarisindeki açık türbeleri andırır.
+  E[1109] Türk mimarisinde en eski çeşmelerden biri, Mardin’de Artuklular’dan Necmeddin İlgazi tarafından 1109-1122 yılları arasında geniş bir külliyenin içinde yaptırılmıştır.
+  E[1973] İstasyon caddesinin genişletilmesi sırasında yolun ortasında kaldığı için maalesef belediye tarafından 1973’te tamamen yıkılan bu çeşmenin cephesi Selçuklu eserlerinde sık rastlanan yarım sekizgen yıldız ve üçgenlerle geometrik motiflerden ibaret üç sıra kade…
+  E[1901] Abdülhamid’e hediye edilen ve 27 Ocak 1901’de törenle açılan çeşme, bütün mimari ve süsleme unsurları ile Bizans sanatından ilham alınarak meydana getirilmiştir.
+
+##0018 Aydın [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · aydin · yer=1
+  Y[1280] Şehir 1280’e doğru sahil beyi Menteşe Bey’in akınlarına uğradı ve bu mücadeleler sırasında harap oldu.
+  Y[1282] Andronikos burayı yeniden imar ve tahkim etti ise de 1282’de Menteşe Bey tarafından kesin olarak Türk hâkimiyeti altına alındı.
+  Y[1309] Anadolu Selçukluları’nın dağılması sırasında bir süre Menteşe Bey’in damadı Sasa Bey’in elinde kalan şehir, 1309’a doğru bölgeye hâkim olan Aydınoğlu Mehmed Bey tarafından ele geçirildi.
+  E[189] Lidyalılar’ın, Persler’in ve İskender’in idaresinden sonra Bergama krallarının merkezi durumuna gelen şehir 189’da Roma hâkimiyetine girdi, ardından da Bizans’ın eline geçti.
+  E[1857] 1857’de inşasına başlanan İzmir-Aydın demiryolunun tamamlanması ve 1866’da şehre ulaşması ile iktisadî ve sosyal gelişme daha da hızlandı.
+  E[1990] Diyanet İşleri Başkanlığı’na ait 1990 yılı istatistiklerine göre Aydın’da il ve ilçe merkezlerinde 170, kasaba ve köylerde ise 764 olmak üzere 934 cami bulunmaktadır.
+  E[1573] yüzyılın ikinci yarısında, muhtemelen 981’de (1573) Aydın sancağının sahil kesimindeki bazı kazalardan yeni bir sancak teşkil edilerek Kaptanpaşa eyaletine bağlandı ( TK, TD , nr.
+
+##0019 Denizli [Anadolu] · SAHIP=inancogullari (İnançoğulları (Denizli/Lâdik Beyliğ…) · denizli · yer=1
+  Y[1291] Şehrin adı Süryânî ve Gürcü kaynaklarından öğrenildiğine göre 1291’de Tangazlu ve Thongouzalo şeklinde anılmaktaydı.
+  Y[1261] yüzyılın başlarına ait bir olaydan söz ederken burayı Lâdik olarak adlandırdığı halde 1261’de meydana gelen Türkmen olaylarından bahsederken de Toguzlu şeklinde belirtir.
+  Y[1214] Honaz vilâyeti hâkimi Esedüddin Ayaz yöredeki askerî birliklere kumanda ederek İzzeddin Keykâvus’un Sinop fethine katılmış (1214), Sinop burçlarından birisini yaptırarak kitâbesini de koydurmuştu (1215).
+  Y[1237] Gıyâseddin Keyhusrev zamanında (1237-1246) kale inşa edilmişti.
+  Y[1259] 1259’da bu Türkmenler’in Denizli’ye hâkim olarak Anadolu’yu istilâ eden Moğol Hakanı Hülâgû’dan istiklâllerini istedikleri görülmektedir.
+  Y[1276] Ali Bey de 1276’daki Cimri olayından faydalanmak isteyince bertaraf edilmiştir.
+  Y[1291] Selçuklu gücünün gittikçe gerilemesi üzerine Türkmenler 1291’de yeniden baş kaldırdılar.
+  Y[1310] Öyle ki 1310 yıllarında antik Lykus yani Çürüksu vadisine kadar ulaşmışlardı.
+  E[1119] 1119 yılında Bizans İmparatoru Yuannis Komnenos, Laodikeia’da bulunan Selçuklu kumandanı Alp Kara’nın üzerine yürüdü.
+  E[1176] 1176’da Bizans İmparatoru Manuel Komnenos’un Denizli topraklarından geçerek Selçuklular’a yaptığı saldırı Türkler’in galibiyetiyle sonuçlandı.
+  E[1190] Öyle ki 1190’da Haçlılar Denizli’den geçerken Türkmenler’in saldırısına uğradılar.
+  E[1192] 1192’de babasının ölümü üzerine hükümdar olunca batı sınırlarındaki durumu Selçuklu devlet siyaseti olarak takip etti.
+
+##0020 Muğla [Anadolu] · SAHIP=mentese (Menteşeoğulları) · mugla · yer=1
+  Y[1220] Moğollar’ın önünden kaçan Türkmen grupları 1220’den sonra Anadolu’ya girdiler ve batıdaki sınırlara yerleştiler.
+  Y[1259] 1259’dan itibaren Bizans sınır savunmasının bozulması ve Bizans dış politikasındaki bazı değişiklikler sebebiyle Karya bölgesi 1261 yılından itibaren Menteşeoğulları’nın hâkimiyetine girdi.
+  Y[1296] 1296’da General Phlanthrop Alexios kumandasındaki ordu bölgenin bir kısmını geri aldıysa da onun imparatora baş kaldırıp bertaraf edilmesinden sonra aldığı yerler tekrar Türkler’in eline geçti.
+  Y[1302] 1302’de ancak Manisa’ya kadar uzanabilen son bir Bizans saldırısının ardından Karya bölgesi kesin biçimde Menteşeoğulları’nın elinde kaldı.
+  E[None] Milâttan önce 129’da Bergama Krallığı’nın vârisi olarak Anadolu’ya giren Romalılar’ın eline geçti ve Asya eyaletine bağlandı.
+  E[395] 395’te Roma İmparatorluğu’nun ikiye ayrılması üzerine Karya Doğu Roma-Bizans sınırları içinde kaldı.
+  E[862] 862 yılına kadar müslümanların elinde kalan bu bölgeler daha sonra Bizans tarafından tekrar geri alındı.
+  E[1103] 1103’te Karya’nın güneybatı sahilleri Türk akınlarıyla yıpratıldı.
+
+##0021 Antalya [Anadolu] · SAHIP=selcuklu (Anadolu (Türkiye) Selçuklu Devleti) · antalya · yer=1
+  Y[1207] Nihayet 5 Mart 1207’de Latin idaresinden memnun olmayan Rumlar’ın da desteği ile fethi gerçekleştirdi.
+  Y[1212] Ancak bir süre sonra Kıbrıs kralının da desteği ile şehirdeki yerli hıristiyan ahalinin çıkardığı isyan sonucu Antalya 1212’de Kıbrıslılar’ın eline geçti; fakat 22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek valiliği tekrar Mübârizüddin Ert…
+  Y[1249] yüzyıl), Ahî Yûsuf Mescidi (1249), Bali Bey Camii (XV.
+  Y[1250] yüzyıl), Karatay Medresesi (1250), Ulucami Medresesi (XIII.
+  Y[1239] yüzyıl) ve Atabey Armağan Medresesi (1239) sayılabilir.
+  E[1103] Türkler’in Anadolu’ya fethi sırasında Süleyman Şah burayı aldı ve şehir 1103’e kadar Selçuklular’ın hâkimiyetinde kaldı.
+  E[1103] 1103’te Bizans İmparatoru I.
+  E[1148] Haçlı Seferi sırasında bir müddet Haçlı kuvvetlerine üs vazifesi gördü (1148).
+  E[1324] Mahmud Bey, 1324’te İlhanlılar’ın Anadolu valisi Demirtaş’ın önünden kaçan ve Antalya’ya sığınan amcası Dündar’ı Moğollar’a teslim ederek ölümüne sebep oldu.
+
+##0022 Konya [Anadolu] · SAHIP=selcuklu (Anadolu (Türkiye) Selçuklu Devleti) · konya · yer=1
+  Y[1221] uzunluğunda yeni sur ve burçlar yaptırıldı (1221).
+  Y[1258] 1243 Kösedağ Savaşı yenilgisi, ardından 1256 Sultanhanı Savaşı ve 1258’de Hülâgû’nun Yakındoğu’ya gelişinin siyasî sonuçları Konya’yı ekonomik ve sosyal bakımdan çok etkilemedi.
+  Y[1277] Cimri Vak‘ası sırasında (1277) bir süre için Konya’yı ele geçiren Karamanlılar, XIV.
+  Y[1230] Altın para kesimine göre Konya şehrinin en parlak devri 1230-1270 yılları arasıdır.
+  Y[1220] Selçuklular tarafından Konya’da yaptırılan ilk cami ulucami konumundaki Alâeddin Camii olup 1220 yılında bugünkü haliyle tamamlanmıştır (bk.
+  Y[1201] İplikçi Camii ise 1201’den önce inşa edilmiştir (bk.
+  Y[1258] Bir diğer Selçuklu yapısı, Lârende Kapısı dışında 1258 yılında Sâhib Ata’nın Kölük b.
+  Y[1274] 1274’te inşa edilen Sadreddin Konevî Camii 1899’da esaslı bir şekilde tamir edilmiş kırma çatılı bir yapıdır.
+  E[1069] Türkler, Konya önlerinde ilk defa Selçuklu kumandanı Afşin ile 1069 yılında göründüler.
+  E[1097] Selçuklular’ın İznik’i 19 Haziran 1097’de Bizans’a teslim etmesi üzerine Selçuklu hükümdar ailesi tarafından Konya başşehir olarak seçildi.
+  E[1101] 1101 yılı Haçlı seferlerine katılan Nevers Kontu II.
+  E[1190] Haçlı Seferi’ne katılan Alman İmparatoru Friedrich Barbarossa, 17 Mayıs 1190’da II.
+
+##0023 Karaman [Anadolu] · SAHIP=karaman (Karamanoğulları) · karaman · yer=1
+  Y[1210] 1210’da önce Hospitalier tarikatına mensup şövalyeler, ardından bu tarikat mensuplarının talebi üzerine Kilikya Ermeni Kralı II.
+  Y[1216] Levon, 1216’da şehri Selçuklu Sultanı I.
+  Y[1256] Selçuklular’ın çöküş dönemi sırasında kurulan Karamanoğulları Beyliği’nin eline geçti (654/1256) ve daha sonra beyliğin merkezi oldu.
+  Y[1288] 687’de (1288) Selçuklu Hükümdarı Gıyâseddin II.
+  E[395] Anadolu’da Pers hâkimiyetine son veren İskender ve haleflerinin, Roma ve 395’ten itibaren de Bizans İmparatorluğu’nun topraklarına katıldı.
+  E[1165] Kılıcarslan döneminde Anadolu Selçuklu topraklarına katıldı (1165).
+  E[1190] Haçlı Seferi esnasında Alman İmparatoru Friedrich Barbarossa Silifke’ye giderken 30 Mayıs 1190’da buradan geçti (Demirkent, s.
+  E[1397] Lârende 799’da (1397) Yıldırım Bayezid tarafından alındıysa da 804’te (1402) yeniden Karamanoğulları’na geçti.
+
+##0024 Niğde [Anadolu] · SAHIP=selcuklu (Anadolu (Türkiye) Selçuklu Devleti) · nigde · yer=1
+  Y[1211] 1211’de Selçuklu tahtına çıkan I.
+  Y[1214] Zeynüddin Beşâre’nin ismi, Sinop’un 611 (1214) yılında fethi sonrasında girişilen inşa ve imar faaliyetleri sırasında da Niğde beyi olarak geçer.
+  Y[1223] Zeynüddin Beşâre’nin Niğde emirliği 620’de (1223) idam edilmesine kadar sürdü.
+  Y[1230] 627’de (1230) yapılan Yassıçimen Savaşı’nın ardından Alâeddin Keykubad, Niğde’yi kendisine tâbi olan Hârizm beylerinden Bilentoğa’ya (Yılanboğa) iktâ olarak verdi (629/1232).
+  Y[1257] Niğde’nin idarecileri 655’te (1257) IV.
+  Y[1262] 660 (1262) yılı sonrasında Anadolu Selçuklu Devleti’nde mutlak iktidar Moğollar’ın desteğiyle Muînüddin Pervâne’nin eline geçince Niğde, Hatîroğlu Şerefeddin’e emâret ve iktâ olarak verildi.
+  Y[1276] Nâib Muînüddin Pervâne ile Emîr Fahreddin Ali 1276’da IV.
+  Y[1276] Gıyâseddin Keyhusrev’i alarak Niğde’ye getirdi (674/1276).
+  E[707] 88 (707) yılında Tyana müslümanların hâkimiyetine geçtiyse de bu uzun sürmedi ve bölge Emevîler’le Bizans arasında sürekli el değiştirdi.
+  E[1196] Niğde’nin surları 1196’da Anadolu Selçuklu sultanı olan II.
+  E[1318] 717’de (1318) Anadolu genel valiliğine getirilen Timurtaş, Konya’yı elinde tutabilmek için Niğde ve Aksaray’a ilk defa olmak üzere Moğol oymaklarını yerleştirdi.
+  E[1366] Eretna Bey’in ölümünden sonra emîrler arasında başlayan mücadeleyi fırsat bilen Karamanoğlu Alâeddin Bey 768’de (1366-67) Niğde ve Aksaray’ı kendi topraklarına kattı.
+
+##0025 Alanya [Anadolu] · SAHIP=karaman (Karamanoğulları) · alanya · yer=1
+  Y[1221] Kıbrıs Krallığı’na bağlı iken 1221 yılında I.
+  Y[1293] 1293’te Karamanoğlu Mecdüddin Mahmud Bey Alâiye’yi ele geçirerek Mısır Sultanı Melik Eşref Selâhaddin Halil adına hutbe okutmuştur.
+  Y[1227] Bugün Alanya’nın tarihî eserleri arasında, 1227 yılına ait, devrinde deniz faaliyetleri üssü olan beş gözlü, üstü tonozlu tersane binası, iç içe üç ayrı bölümden oluşan ve denize beş kapısı bulunan kalesi, önce I.
+  Y[1231] Alâeddin sonra da Kanûnî tarafından yaptırılan Kale Camii, aşağı kaledeki Bedreddin Camii ve Kızılkulesi, Akşebe Sultan Mescidi ve Türbesi, 1720’de Nevşehirli Damad İbrâhim Paşa tarafından yaptırılan Alanya Feneri ve şehri çeviren surlarla bugün Alanya ilçesi…
+  E[1333] Ebü’l-Fidâ’nın Rum şehirleri arasında saydığı ve Ömerî’nin Ermenek’e bağlı olduğunu bildirdiği Alâiye’yi 1333’te gezen İbn Battûta, burasının Türkmenler’le meskûn olduğunu ve idarenin Karamanoğlu Yûsuf Bey’de bulunduğunu kaydeder.
+  E[1366] Hatta 1366’da Kıbrıs Kralı Pierre yirmi iki gemilik bir donanma ile şehre saldırmış, ancak Alâiyeliler’in direnmesi ve Karamanoğlu’nun yardıma gelmesiyle kral yenilmiş ve donanması tahrip edilmiştir.
+  E[1471] Osmanlı fütuhatının Anadolu’da yayıldığı sırada Alâiye 1471’de Gedik Ahmed Paşa tarafından, Selçuklu hânedanının son bakiyelerinden olan Kılıcarslan’dan barış yolu ile alınarak Osmanlı idaresine dahil edilmiştir.
+  E[1481] 1481’de tahrir emini Karamanoğlu Mehmed b.
+
+##0026 Silifke [Anadolu] · SAHIP=karaman (Karamanoğulları) · silifke · yer=1
+  Y[1210] Levon, kendilerine yardım etmeleri için Lârende ile Silifke’yi Saint Jean şövalyelerine terketti (1210); böylece Silifke ve çevresi uzun müddet Kıbrıs ile yakın ilgisi olan Saint Jean şövalyelerinin elinde kaldı.
+  E[1180] Silifke ve çevresine 1180 yılından sonra yerleşme amacıyla yoğun biçimde göçebe Türkmenler geldi.
+  E[1359] Tarihçi Şikârî, Karamanoğlu Mehmed Bey’in kardeşlerinden Kasım’a Ermenek’in, Halil’e Mut ve Silifke’nin idaresini verdiğini aktarıp Silifke’yi Karaman toprağı diye gösterse de Silifke muhtemelen daha geç tarihte, 760’tan (1359) önce Kıbrıs Kralı IV.
+  E[1464] Silifke, Osmanlı-Karaman mücadelesinde Karamanoğulları’nın sığınağı haline geldiği gibi Karamanoğlu İbrâhim Bey’in vefatına (869/1464) yakın kardeşler mücadelesine de sahne oldu.
+  E[1468] 872 (1468) ilkbaharında Karaman seferine çıkan Fâtih Sultan Mehmed, Konya ile Gevele Kalesi’ni alıp bu bölgeyi Karaman beylerbeyiliği olarak teşkilâtlandırıp idaresini Şehzade Mustafa’ya verdiğinde Silifke ve Karataş bunun dışında kaldı.
+
+##0027 Kayseri [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · kayseri · yer=1
+  Y[1215] 612’de (1215) şehri gezen Ebü’l-Hasan el-Herevî, güneyde ilk yerleşim bölgesinde bulunan Battal Gazi Camii’nden ve Hz.
+  Y[1243] 1243’teki Kösedağ Savaşı’ndan sonra Kayseri on günlük bir direnişin ardından Moğollar’ın eline geçti ve büyük tahribata uğradı.
+  Y[1253] 1253-1254 yıllarında Moğol yağmasının harap ettiği şehri gezen seyyah Rubrucklu William, istilâ ve yağma sırasında diğer eserler gibi kiliselerin de tahrip edildiğini yazar.
+  Y[1277] Bundan sonra çeşitli karışıklıklara sahne olan şehre, 675’te (1277) Moğol zulmünü bertaraf etmek için Selçuklu emîrlerince davet edilen Memlük Sultanı Baybars gelerek bir hafta kadar kaldı.
+  Y[1205] asrın ikinci yarısında Melik Muhammed Gazi tarafından yapıldığı tahmin edilen cami 602’de (1205-1206) esaslı bir şekilde onarılmış, bir diğer önemli tâdilât ise 1135’te (1723) gerçekleştirilmiştir.
+  Y[1210] yüzyılda yapıldığı sanılan ve 607’de (1210) tamir gören bu mâbed, burayı 735’te (1334-35) yeniden ihya eden Kölük (Gülük) Şemseddin b.
+  Y[1205] Gıyâseddin Keyhusrev’in, kız kardeşi Gevher Nesibe’nin vasiyeti üzerine 602’de (1205-1206) inşa ettirdiği, biri tıp medresesi olan Çifte Medrese (Gıyâsiye ve Şifâiye), I.
+  Y[1238] Alâeddin Keykubad’ın zevcesi Mahperi Sultan tarafından yaptırılan Huand Hatun Medresesi (635/1238), Hacı Kılıç Camii ve Medresesi (647/1249), Fahreddin Sâhib Ata tarafından inşa ettirilen Sâhibiye Medresesi (665/1267) Selçuklu dönemine aittir.
+  E[611] Hüsrev zamanında Bizans’tan alındıysa da İmparator Herakleios 611’de burayı yeniden ele geçirdi.
+  E[647] Osman zamanında Muâviye idaresindeki ordu Kayseri’ye gelip burayı ele geçirmiş, ardından geri çekilmişti (26/647).
+  E[1067] yüzyıl ortalarında Anadolu’ya yönelik Türkmen akınları sırasında muhtemelen 459’dan (1067) sonra Türkler’in eline geçti.
+  E[1143] Dânişmendli Beyi Emîr Gazi’nin (Melik Gazi) Kayseri’yi ele geçirmesi üzerine büyük oğlu Melik Muhammed şehri tamir ettirerek burayı merkez yaptı, daha önceki akınlarda harap olan şehrin imarına çalıştı; 537’de (1143) Kayseri’de vefat ederek Ulucami’nin kıble …
+
+##0028 Kastamonu [Anadolu] · SAHIP=cobanogullari (Çobanoğulları) · kastamonu · yer=1
+  Y[1274] Coğrafyacı İbn Saîd’in 672 (1274) veya 686 (1287) yılında Kastamonu yöresinde 100.000 çadır göçebe halkın yaşadığını yazması, şehrin iskânında Türkmen veya Yörük adıyla bilinen grupların önemli bir rol oynadığını gösterir.
+  Y[1273] Atabey Camii (672/1273) ve Medresesi, İbn Neccâr Camii (754/1353), Candaroğlu İsmâil Bey Külliyesi (858/1454), Nasrullah Camii (912/1506) ve Köprüsü, Mimar Sinan yapısı Ferhad Paşa Camii (967/1559), Sinan Bey Camii (979/1571), Şâbân-ı Velî Külliyesi (988/1580…
+  E[395] Kastamonu yöresi, Roma İmparatorluğu’nun 395’te ikiye ayrılmasının ardından Doğu Roma İmparatorluğu’nun hâkimiyetinde kaldı ve bu hâkimiyet Türkler’in Anadolu’ya girmesine kadar sürdü.
+  E[1084] Ancak 1071 Malazgirt Savaşı’ndan sonra Selçuklular’ın maiyetinde Türk boylarının kısa süre içinde Anadolu’nun batı uç bölgelerine yayıldığı ve bu arada Anadolu Selçuklu Devleti’nin kurucusu Süleyman Şah’a bağlı beylerden Emîr Kara Tegin’in 1084 yılından sonra…
+  E[1361] 1361 yıllarında Candaroğulları beyi olan Kötürüm Bayezid dönemi Osmanlı Beyliği’nin bu yöreyle ilişkisinin arttığı bir dönem oldu.
+  E[1392] Büyük bir ordu ile Candaroğlu ülkesine giren Yıldırım Bayezid beyliğin Kastamonu şubesini Osmanlı topraklarına dahil etti (794/1392).
+
+##0029 Sinop [Anadolu] · SAHIP=pervane (Pervâneoğulları (Sinop)) · sinop · yer=1
+  Y[1215] Ardından Selçuklular tarafından tahkim edilen Sinop surlarında İzzeddin Keykâvus’a ait 612 (1215) tarihli Arapça ve Grekçe bir kitâbe bulunmaktadır.
+  Y[1243] Kösedağ Savaşı (1243) sonrasında başlayan Moğol vesâyeti döneminde Batu Han’dan aldıkları yarlıklarla devletin çeşitli görevlerine talip olanların tepkiler üzerine merkezden iktâ bölgelerine çekilmesi sırasında nâiblik için yarlık almış olan Şücâüddin Abdulla…
+  Y[1259] İzzeddin Keykâvus arasındaki rekabet sırasında Trabzon Rumları kısa bir süre Sinop’ta tekrar egemenlik kurdu (657/1259).
+  Y[1266] Ancak şehir, Abaka Han’dan kaybedilen toprakları ele geçirmek için izin alan Muînüddin Süleyman Pervâne tarafından geri alındı (664/1266).
+  E[832] Bizans kaynakları (Symeon Magister ve Theophanes Conrinuatus) 832’de Sarasinler’in (müslüman Araplar) Anadolu’ya akınları sırasında Bizans imparatorunun İranlı yardımcı kuvvetlerinin kumandanı olan Theophobos’un kısa bir süre için Sinop kralı ilân edildiğini …
+  E[1341] Bu dönemde bir Venedik ve Ceneviz filosuyla Sinop önlerinde yapılan savaşta Candaroğulları donanması galip geldi (1341).
+  E[1461] Fâtih Sultan Mehmed, Karadeniz bölgesinin tamamında egemenlik kurmak için harekete geçince 865’te (1461) Sinop ve çevresini savaşmadan ele geçirdi, dirlik verdiği Candaroğlu İsmâil Bey ve sipahilerini Rumeli yakasına sürdü.
+  E[1566] Meselâ 1566’da on beş kadırga, 1571’de Kıbrıs seferi sırasında yirmi beş kadırga, 1656’da dört kalyon, üç kadırga inşa edildi.
+
+##0030 Bartın [Anadolu] · SAHIP=selcuklu (Anadolu (Türkiye) Selçuklu Devleti) · bartin · yer=1
+  Y[1204] 1204’te Trabzon Rum İmparatorluğu topraklarına dahil olan Bartın çevresi daha sonra 1214’te İznik Rum İmparatoru Theodoros Laskaris tarafından onlardan alındı, 1261’de yeniden Bizans’ın eline geçti.
+  E[395] Milâttan sonra 395 yılında bu topraklar Bizans’ın payına düşünce Bartın ve çevresi Bizans Devleti’nin idarî birimleri olan temalardan Paflagonya temasının içinde yer aldı.
+  E[1392] Ancak Fâtih Sultan Mehmed’in, Amasra’yı Cenevizliler’den almak üzere Mahmud Paşa idaresindeki deniz kuvvetlerini buraya gönderirken kendisinin de karadan hareket ederek ordugâhını Bartın’da şimdiki Orduyeri mahallesinin bulunduğu yerde kurması, Bartın’ın Amas…
+  E[1402] Yöre 1402’den sonra bir ara İsfendiyaroğulları Beyliği’nin eline geçmiş, fakat Fâtih’in 1461’de Amasra’yı fethiyle kesin olarak Osmanlı topraklarına katılmıştır.
+  E[1970] 1970’li yıllardan sonra bu limandan İtalya, Lübnan, Yunanistan, Libya, Suriye ve İsrail’e fırınlanmış kereste; Macaristan, İsrail ve Libya’ya çimento ve tuğla; Almanya’ya konserve; İran, Küveyt, Lübnan, Irak, Pakistan ve Libya’ya kâğıt torba; Fransa, İspanya …
+
+##0031 Safranbolu [Anadolu] · SAHIP=selcuklu (Anadolu (Türkiye) Selçuklu Devleti) · safranbolu · yer=1
+  Y[1304] Bir süre Bizans idaresi altında kalan kalenin, Yazıcıoğlu’na atfedilen bir olaya dayanılarak 1304’te Gāzân Han’ın ölümünden sonra harekete geçen Candaroğlu Süleyman Bey tarafından Kastamonu ile birlikte ele geçirildiği belirtilir.
+  E[1332] 732’de (1332) buraya gelen İbn Battûta, Candaroğulları’na bağlı olan kasabayı tepe üzerinde kurulmuş küçük bir yerleşim yeri şeklinde tasvir ederek kalenin aşağısındaki medreseye (Süleyman Bey Medresesi) indiğini yazar.
+  E[1389] Muhtemelen Yıldırım Bayezid’in (1389-1402) kontrolü altına girdikten sonra Ankara Savaşı’nın ardından yeniden Candaroğulları’nın hâkimiyetine geçmiştir.
+  E[1423] Murad devrinde 826 (1423) savaşı sonucunda tam anlamıyla Osmanlı hâkimiyeti kurulmuş olmalıdır.
+  E[1354] Bu dönem zarfında, yani 755’ten (1354) itibaren 1424’e kadar Osmanlı Beyliği ile Candaroğulları arasında sınır kasabası olmanın zorluklarını yaşayan Borlu, Osmanlı hâkimiyeti döneminde hızlı bir gelişme sürecine girmiştir.
+
+##0032 Samsun [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · samsun · yer=1
+  Y[1200] Aleksios Angelos’un 1200’de şehri zaptetme girişimi başarısız kaldı ve Canik kesimi kontrol altına alındı.
+  Y[1228] 1228 yılına kadar Sinop’tan Ünye’ye uzanan sahil boyunda hâkimiyet kuruldu.
+  Y[1277] Çepniler’in Samsun-Sinop yöresindeki faaliyetleriyle ön plana çıkmaları Muînüddin Süleyman Pervâne’nin ölümünden (676/1277) sonradır.
+  E[1155] 1150 veya 1155’te Dânişmendliler’in Sivas-Amasya Emîri Yağıbasan Samsun’a yönelik akınlarda bulundu.
+  E[None] Selçuklular devrinde özellikle XIII.
+  E[1398] Osmanlılar şehri ilk defa, Akkoyunlular’ın 1398’de Kadı Burhâneddin’i öldürmesinden sonra I.
+  E[1403] 6 Nisan 1403’te Samsun’dan geçen Katalan elçisi Clavijo buranın Türkler’in elinde, iki kaleden ibaret olup birinde Cenevizliler’in bulunduğu bilgisini tekrarlar ( Anadolu, Orta Asya ve Timur , s.
+
+##0033 Amasya [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · amasya · yer=1
+  Y[1237] Bugüne kadar gelebilen eserler arasında ise Burmalı Minare Camii (1237-1247), Gökmedrese Camii (1266-1267), Fethiye Camii, Gümüşlü Camii (1326), Hızır Paşa Camii (XIV.
+  Y[1308] yüzyıl), Saraçhane Camii (1372), Dârüşşifâ (1308), Halifet Gazi Medresesi ve Türbesi (1209-1210), Torumtay Türbesi, Sultan Mesud’a ait olduğu ileri sürülen türbe, Şadgeldi Paşa Türbesi, Beyazıt Paşa Camii (1414-1419), Yörgüç Paşa Camii (1430), II.
+  E[717] Leon (717-741) idaresindeki Bizans kuvvetleri şehri ele geçirdiler.
+  E[1398] Yıldırım Bayezid bu sırada Kadı Burhâneddin’e mağlûp olmasına rağmen yeniden giriştiği mücadele sonunda Amasya’yı Osmanlı topraklarına kattı (1398); idaresini de oğlu Çelebi Mehmed’e bıraktı.
+  E[1864] Şehrin ticarî canlılığının artması ve sahile oldukça yakın bulunması sebebiyle, her yıl aralık ayının 15’inde başlamak ve sonuna kadar devam etmek üzere, 1864 yılında bir de panayır kurulmuştur.
+  E[2000] Perrot, Amasya’yı “Anadolu’nun Oxford’u” şeklinde tarif eder ve buradaki medreselerde 2000’e yakın talebenin okuduğunu yazar (Souvenirs, s.
+
+##0034 Tokat [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · tokat · yer=1
+  Y[1240] 1240’ta Baba İshak’ın başlattığı ayaklanmaya Tokat civarındaki taraftarları da katıldı.
+  Y[1276] 1276’da Tokat, Nûreddin Cibrîl idaresinde bulunuyordu.
+  Y[1247] Tokat Müzesi’ndeki yapıya ait bir kitâbe 645 (1247) tarihini vermektedir ki bu tarih yapının inşası için geç bir tarih olduğundan bazı araştırmacılar kitâbede bir yazım hatası bulunduğunu ve tarihin 546 (1151) olması gerektiğini düşünmüştür.
+  Y[1275] Devrin önemli eğitim ve sağlık kuruluşlarından Muînüddin Süleyman Pervâne Tıp Medresesi ve Dârüşşifâsı (Gökmedrese) yaygın kanaate göre 1275 yılında yapılmıştır.
+  Y[1234] Kitâbesine göre 631 (1234) yılında inşa edilen Ebü’l-Kāsım-ı Tûsî Türbesi kare plan kuruluşuna sahiptir.
+  Y[1251] Diğer bir yapıyla bütünleşmiş kümbet örneği olarak 649 (1251) tarihli Sefer Paşa Kümbeti mescid ve türbe iki bölüm halinde düzenlenmiş, ancak mescid kısmı günümüze ulaşmamıştır.
+  Y[1292] Halef Sultan Tekkesi (691/1292) mekânların bir arada tasarlandığı, düzgün olmayan dikdörtgen planlı bir yapıdır.
+  Y[1288] Mesud’un 687 (1288) yılında inşa ettirdiği Ebû Şems Hankahı, Osmanlılar döneminde Vezir Ahmed Paşa tarafından esaslı biçimde onarıldığı için kayıtlara Ahmed Paşa Mescidi ve Türbesi diye geçmiştir.
+  E[None] Milâttan önce 585 yılında Medler, Anadolu’da İskit idaresine son verince Tokat’ı da ele geçirdiler.
+  E[None] Makedonya Kralı Büyük İskender milâttan önce 332’de Anadolu’nun büyük bir bölümünde Pers hâkimiyetini sona erdirdi.
+  E[395] Roma İmparatorluğu’nun 395’te ikiye ayrılması üzerine Tokat havalisi Doğu Roma (Bizans) İmparatorluğu sınırları içinde kaldı.
+  E[1074] 1071 Malazgirt zaferinin ardından Emîr Dânişmend 1074’te Tokat’ı fethetti.
+
+##0035 Sivas [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · sivas · yer=1
+  Y[1220] İzzeddin Keykâvus ve 616’da (1220) Sivas’ta hükümdar ilân edilen I.
+  Y[1224] Alâeddin Keykubad döneminde onarıldı (1224).
+  Y[1232] Moğollar 629’dan (1232) itibaren şehrin dış mahallelerine saldırılar düzenlediler.
+  Y[1243] 641 (1243) Kösedağ bozgunu ile Baycu Noyan tarafından ele geçirilen Sivas üç gün süreyle yağmalandı.
+  Y[1210] Hikmet Denizli tarafından yayımlanan yapım ve onarım kitâbelerinde ulucaminin 593 (1197) yılında Kutbüddin Melikşah’ın emriyle yaptırıldığı ve 1210’da ise tamir ettirildiği belirtilmektedir.
+  Y[1217] Diğer önemli bir Selçuklu eseri 614’te (1217) I.
+  Y[1271] Burûciye, Çifte Minare, Dördüncü Medrese ve Gökmedrese (Sâhibiye) 1271 yılında yaptırıldı.
+  Y[1300] Cenevizliler gibi yabancıların konsolosluk kurmalarıyla da arttırıldı (1300).
+  E[781] Sivas, Abbâsî ordusunun 165 (781) yılında gerçekleştirdiği Anadolu seferi sırasında da ele geçirildi, fakat müslümanların buradaki hâkimiyeti birkaç yıl sürdü (bk.
+  E[1021] 1021’de Bizans İmparatoru II.
+  E[1059] Urfalı Mateos’a göre 4 Temmuz 1059’da şehir Selçuklular tarafından yağmalandı.
+  E[1071] 1071’de ise Ermeni prenslerine kızan Bizans İmparatoru IV.
+
+##0036 Trabzon [Anadolu] · SAHIP=trabzon-rum (Trabzon Rum İmparatorluğu) · trabzon · yer=1
+  Y[1204] 1204’te İstanbul’da Latin idaresinin kurulması üzerine Trabzon’a kaçan Aleksios Komnenos kendini imparator ilân edince şehir bu yeni devletin merkezi haline geldi.
+  Y[1228] Denizden ve karadan kuşatılan Trabzon ele geçirilemedi; Gıyâseddin Keyhusrev esir düştü, ardından antlaşma yapıldı ve serbest bırakıldı (625/1228).
+  Y[1295] Marco Polo da 1295’te Tebriz-Trabzon yoluyla ülkesine dönmüştü.
+  Y[1297] Aleksios zamanında (1297-1330) büyük ticarî haklar elde ettiler.
+  Y[1204] Trabzon fizikî açıdan asıl şeklini 1204’ten sonraki dönemde kazanmıştır.
+  Y[1291] Manuel Komnenos zamanında (1143-1180) yapılan Saint Sophia Manastırı, 1291’de inşa edilen Saint Eugenios Kilisesi (1500’lerde Câmi-i Cedîd / Yeni Cuma Camii), Virgin Chrysokephalos Katedrali (1214’te yeniden inşa edilen, imparatorun taç giydirildiği kilise ol…
+  Y[1204] Komnenoslar döneminde başşehir Trabzon 250 yıllık sürede varlığını ve merkez olma özelliğini korumuştur (1204-1461).
+  Y[1243] Ayrıca şehrin gelişen ticarî hareketliliği (hem Venedik hem Ceneviz kolonilerinin mevcudiyeti bunu doğrular) ve Komnenoslar’ın yürüttüğü siyasî evlilik diplomasisi imparatorların güçlü yönetimlerin altında vasal statüsünü kabul etme arzuları da (Selçuklular 1…
+  E[130] yüzyılın ortalarından itibaren iç kesimlerle ulaşımın iyileştirilmesiyle şehir İran, Doğu Anadolu ve Mezopotamya’ya bağlandı, ticarî hareketlilik çok arttı; bir Roma eyaleti haline geldi, İmparator Hadrianus burayı iki defa ziyaret etti ve çeşitli imar faaliy…
+  E[1104] 1104’te Trabzon Dukası Gregorios Taronites ve Konstantin Gabras şehri âdeta bağımsız bir şekilde idare ettiler.
+  E[None] Anadolu’nun Moğollar’ın vesâyeti altına girdiği XIII.
+  E[1320] Bu sıralarda İlhanlı nüfuzu altına giren Trabzon, 1320’li yıllardan itibaren giderek yörede etkili olmaya başlayan Türkmenler’in hedefi haline geldi.
+
+##0037 Giresun [Anadolu] · SAHIP=trabzon-rum (Trabzon Rum İmparatorluğu) · giresun · yer=1
+  Y[1204] Haçlılar’ın İstanbul’u işgallerinin (1204) ardından Trabzon’da kurulan Rum İmparatorluğu’nun sınırları içinde kalan kaleye yönelik Türk akınları ve tehdidi bundan sonra da sürdü.
+  Y[1297] 1297’de Ünye yöresini ele geçiren ve Çepniler olduklarına inanılan Türkmenler Trabzon’a kadar akında bulundular.
+  Y[1301] Nitekim tarihçi Panaretos’un kısa yıllığına göre 1301’de İmparator II.
+  E[1341] Çağdaş kaynaklardan Livadenos’un raporuna göre 1341’den kısa bir süre önce Kerasus Türkmenlerin eline geçti (Zachariadou, s.
+  E[1348] 1348’de şehirde ticaret kolonileri olan Cenevizliler’ce yağmalanıp kale dışındaki yerleşme yeri yakılan Kerasus, Trabzon Rum İmparatorluğu’nun karşı karşıya kaldığı iç bunalımlar sırasında kuvvetli bir sığınak olarak ön plana çıktı.
+  E[1354] Grandük Niketas’ın bir iç mücadele esnasında buraya kaçıp (1354) daha sonra topladığı kuvvetlerle Trabzon’a yürüdüğü, fakat başarısız olunca geri dönüp kaleye kapandığı, bunun üzerine İmparator Alexios’un burayı kuşatıp itaat altına aldığı bilinmektedir.
+  E[1379] Alexios da Niksar hâkimi Tâceddin Bey’e nikahladığı kızı ile Kerasus’a gelmiş, Trabzon’daki karışıklıklar üzerine kızını burada bırakıp geri dönmüştü (1379).
+
+##0038 Ordu (Bayramlı) [Anadolu] · SAHIP=trabzon-rum (Trabzon Rum İmparatorluğu) · ordu · yer=1
+  E[648] 28 (648-49) yılında Kıbrıs’ı vergiye bağlayan deniz kuvvetleri, 33’te (654) Kıbrıs idarecilerinin vergi ödememeleri sebebiyle 500 gemilik donanmayla düzenlediği ikinci Kıbrıs seferinde adayı fethedip 12.000 asker yerleştirdi.
+  E[1528] 1528’de Osmanlı kara kuvvetlerinin mevcudu 150.000 kadardı.
+  E[1831] 1831 yılında İstanbul’un Avrupa yakasındakilere Hassa, Anadolu (Üsküdar) yakasındakilere ise Mansûre denildi.
+  E[1869] 1869’da Serasker Hüseyin Avni Paşa’nın girişimiyle Osmanlı ordusunda nizâmiye, redif ve müstahfız diye üç ana birim oluşturuldu.
+
+##0039 Rize [Anadolu] · SAHIP=trabzon-rum (Trabzon Rum İmparatorluğu) · rize · yer=1
+  Y[1204] Haçlı Seferi’nden sonra Komnenoslar’ın Gürcü Krallığı’nın desteğiyle Trabzon merkez olmak üzere kurdukları Trabzon Rum Devleti’nin sınırları içinde kaldı (1204).
+  E[None] Milâttan önce 400’de Trabzon’a gelen Ksenofon’un bölge hakkında verdiği bilgilerden Rize’nin de bir ticaret limanı olduğu anlaşılmaktadır.
+  E[646] Mesleme kumandasındaki kuvvetler Ermenistan fetihleri (25/646) devam ederken Rize’yi de vergiye bağladılar.
+  E[653] Fakat çok geçmeden şehir tekrar Bizans’ın eline geçti (653).
+  E[1071] Malazgirt zaferinin (1071) ardından bir süre için Dânişmendliler’in kontrolü altına giren Rize (1098) Anadolu Selçukluları zamanında Erzurum valileri tarafından yönetildi.
+
+##0040 Erzincan [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · erzincan · yer=1
+  Y[1228] Alâeddin Keykubad tarafından Anadolu Selçuklu topraklarına katıldı (1228).
+  Y[1220] Alâeddin Keykubad devrinde (1220-1237) Erzincan etrafı surlarla çevrili, mâmur bir şehir haline geldi.
+  Y[1243] Yine Anadolu Selçukluları tarihinin dönüm noktalarından birini teşkil eden ve Selçuklular’ın İlhanlılar’a yenilmesiyle sonuçlanan Kösedağ Savaşı da Erzincan civarında oldu (1243).
+  E[None] Milâttan önce 334 yılında ise İskender İmparatorluğu’na dahil oldu ve bunun ardından yaklaşık iki asır boyunca Helenistik krallıklar, Partlar, Romalılar, Pontuslular ve Ermeniler arasındaki mücadelelerde kilit noktasını teşkil etti.
+  E[1048] Bu dönemde Bizans-Arap, Ermeni ve Gürcü beylikleri arasındaki çekişmelere sahne olan bölge 1048’de Türk akınlarına uğradı.
+  E[1142] Melik İshak’ın 1142’de vefatı üzerine beylik ikiye bölündü ve Erzincan Dâvud Şah’ın idaresine girdi.
+  E[1336] Moğol idaresi sırasında İbn Battûta’nın da tesbit ettiği gibi tarihî önemini koruyan şehir, Hamdullah el-Müstevfî’ye göre 1336 yılı İlhanlı bütçesine dahil vergi veren on bir Anadolu şehri içerisinde ikinci sırada yer alıyordu.
+
+##0041 Erzurum [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · erzurum · yer=1
+  Y[1202] Süleyman Şah Saltukoğulları Beyliği’ni ortadan kaldırarak Erzurum’u kardeşi Mugīsüddin Tuğrul Şah’a iktâ etti (1202).
+  Y[1242] Erzurum 1242’de Moğol ordusu kumandanı Baycu Noyan tarafından tahrip edildi ve halkının çoğu kılıçtan geçirildi.
+  Y[1243] Anadolu Selçuklu Devleti Kösedağ yenilgisinin (1243) ardından Moğollar’ın hâkimiyetini tanıyınca şehir bundan etkilendi.
+  Y[1308] Anadolu Selçuklu Devleti’nin yıkılmasından (1308) sonra İlhanlılar’a bağlandıysa da bu devletin parçalanmasının (1335) ardından en karışık dönemini yaşadı.
+  Y[1200] 1200’den fazla ev oturulamayacak hale geldi.
+  Y[1310] İlhanlılardan, 1310’da Hoca Cemâleddin Yâkut tarafından inşa edilen Yâkutiye Medresesi kalmıştır.
+  Y[1310] Kitâbesinden, 710 (1310) yılında Sultan Olcaytu zamanında Hoca Cemâleddin Yakut tarafından yaptırıldığı öğrenilmektedir (bk.
+  Y[1308] Güney penceresinin üst kısmına yerleştirilen 708 (1308) tarihli kitâbesine göre Sadreddin Türkbeg’e aittir.
+  E[415] Anadolu’ya yönelik İran saldırılarına karşı muhtemelen 415-422 yıllarında kurulmuş olan Erzurum’un ilk devreleri hakkında bilgi yoktur.
+  E[502] 502-503’te İranlılar’ın eline geçtiği, 504’te Bizanslılar tarafından tekrar geri alındığı bilinen şehir, Hz.
+  E[686] Şehir 686’da Bizanslılar’ın eline geçtiyse de 700’de geri alındı.
+  E[751] Bizans ordusunun 751’deki kuşatmasına karşı büyük direnme gösteren Erzurum, şehirdeki Ermeniler’in yardımı ile 753’te yeniden Bizanslılar tarafından ele geçirildi.
+
+##0042 Kars [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · kars · yer=1
+  Y[1226] Onun Kars ve çevresini yeniden fethetmesi (623/1226) İslâm dünyasında sevinç uyandırdı.
+  Y[1239] 636’da (1239) Curmagan Noyan kumandasındaki Moğol ordusu Gürcistan seferi sırasında Kars’ı alarak tahrip etti.
+  E[1058] 450’de (1058) Çağrı Bey’in oğlu Yâkūtî’nin emrindeki Selçuklu kuvvetleri Kars’ın kenar mahallelerini ele geçirip yağmaladı, ancak şehri zaptedemeden Ani üzerine yürüdü.
+  E[1064] 456’da (1064) Alparslan’ın Ani üzerine hareketi esnada Kars’ta hüküm süren Vanand Prensi Gagik, Alparslan’a ve Selçuklu ailesine itaatini bildirdi.
+  E[1074] 1074’te Gürcü Krallığı’na bağlı olan şehir Sultan Melikşah zamanında kesin olarak Selçuklu hâkimiyeti altına alınmıştır (472/1080).
+  E[1336] Şehir 1336 yılına kadar İlhanlılar’ın, ardından da mahallî hânedanların idaresinde kaldı.
+
+##0043 Ardahan [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · ardahan · yer=1
+  E[1549] Osmanlı idaresinde bazan Erzurum eyaleti, bazan da yeni kurulmuş olan Çıldır eyaletine bağlanan Ardahan Kalesi 1549 yılında tamir edilmiştir.
+  E[1568] 1568-1574 yılları arasında Erzurum vilâyeti dahilinde bir sancak merkezi olan Ardahan, Livâ-i Ardahan-ı Kûçek ve Livâ-i Ardahan diye iki livâ halinde görülmektedir ( BA, MAD , nr.
+  E[1578] 1578’de Çıldır’ın fethiyle kurulan Çıldır eyaletine dahil edilen Ardahan, 1578-1588 arasında Erzurum eyaleti sancaklarından biri olarak kaydedilmektedir ( BA, KK , nr.
+  E[1921] Dünya Savaşı sırasında Osmanlı ordusunun Rusya’ya karşı harekâtı bu teşkilât tarafından içten desteklenmiş, Gürcü ve Ermeni çeteleriyle yapılan mücadeleler sonunda 23 Şubat 1921’de Artvin’le birlikte Ardahan sancağı da kurtarılmıştır.
+
+##0044 Van [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · van · yer=1
+  Y[1207] 1207’de Selçuklu Tuğrul Şah ile Ahlatşahlar arasındaki anlaşmazlıktan faydalanan Eyyûbî Hükümdarı el-Melikü’l-Âdil’in oğlu Necmeddin Eyyûb (el-Melikü’l-Evhad) şehir ahalisinin davetiyle Ahlat’a gelip yerleşti ve Ahlatşah hâkimiyeti son buldu (Ebü’l-Ferec, s.
+  Y[1230] 627 (1230) yılında Celâleddin Hârizmşah, Ahlat ile Van’ı ele geçirdi.
+  Y[1232] Alâeddin Keykubad’ın doğuya doğru genişleme siyaseti neticesinde Van 1232’de Selçuklu hâkimiyetine girdi.
+  Y[1284] yüzyılın ikinci yarısından itibaren İlhanlılar’ın yöreye zaman zaman akınlar yaptıkları ve Argun Han zamanında (1284-1291) Van gölünün kuzeydoğusundaki Aladağ’ın bunların yaylakları olduğu bilinmektedir.
+  E[1915] Eski Van şehri Van gölünün doğu sahilinde iken 1915 yılında Ermeniler tarafından tamamen yakılıp tahrip edilmesi sonucu kıyıdan 7 km.
+  E[200] Milâttan sonra 200 yıllarına kadar Partlar ve Bizanslılar arasında sürekli el değiştirdi.
+  E[852] 852’de, Arap kaynaklarında içinde Van’ın da yer aldığı, Ermeniye vilâyeti diye adlandırılan bölge Abbâsîler hizmetindeki Türk kumandanlarından Boğa el-Kebîr tarafından fethedildi.
+  E[885] 885’te Bagrat hânedanından Aşot önce halife ve ardından Bizans imparatoru tarafından Ermenistan kralı olarak tanındı ve Vaspurakan prensleri de bunlara bağlandı.
+
+##0045 Bitlis [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · bitlis · yer=1
+  Y[1209] yüzyıl başlarında Bitlis’e Eyyûbîler hâkim oldu (1209).
+  Y[1231] Daha sonra da Celâleddin Hârizmşah’ı takip eden Moğollar 1231’de Bitlis’i de ele geçirerek tahrip ettiler.
+  Y[1232] Kemâleddin Kâmyar kısa bir süre içinde çevredeki başka yerlerle (Van, Ahlat, Adilcevaz) birlikte Bitlis’i de Anadolu Selçuklu Devleti sınırları içine kattı (1232) ve Moğollar’ın harap etmiş olduğu kaleyi de onardı.
+  E[641] Ganm tarafından fethedildi (641); Bitlis hâkimi Ahlat’tan alınan haraç kadar haraç vermeyi kabul etti.
+  E[1047] yüzyılda Türkmen akınları bu yöreye de ulaştı ve 1047’de şehir Selçuklu hâkimiyetine girdi, fakat yine Mervânîler’in elinde bırakıldı.
+  E[1085] Bitlis’in kesin olarak Büyük Selçuklu Devleti’ne katılması 1085’te (bazı kaynaklara göre 1084) Melikşah zamanında gerçekleşti.
+  E[1092] Kılıcarslan’a (1092-1107), ondan sonra da Ahlatşahlar’ın kurucusu Sökmen el-Kutbî’ye (1100-1111) bağlanınca Bitlis şehri de bunlara tâbi oldu.
+
+##0046 Diyarbakır [Anadolu] · SAHIP=artuklu (Artukoğulları (Artuklu Beyliği)) · diyarbakir · yer=1
+  Y[1240] 638 (1240-41) yılında da Anadolu Selçuklu Sultanı II.
+  Y[1257] Burası 1257’de kısa bir süre için Meyyâfârikīn Hâkimi el-Melikü’l-Kâmil II.
+  Y[1259] Nâsırüddin’in eline geçtiyse de 1259’da Hülâgû tarafından alındı ve Moğollar’a tâbi olan Anadolu Selçuklu Devleti’ne geri verildi.
+  Y[1303] 1303’te Gāzân Han Diyarbekir bölgesini Mardin Artuklu Sultanı el-Melikü’l-Mansûr II.
+  Y[1203] Süleyman veya Nâsıriyye Camii adlarıyla da bilinen Kale Camii (1160), Artukoğulları dönemine ait saray kalıntıları (1203), Osmanlı döneminden kalan ve XIX.
+  Y[1208] Türbelerden Sultan Şücâ (1208-1209), Şeyh Yûsuf el-Hemedânî (XV.
+  E[851] Bunun ardından çıkan Ermeni isyanları Emîr Buga tarafından bastırıldı (851).
+  E[930] 930’da Diyarbekir ve Diyârırebîa valiliğine getirilen Hamdânîler’den Nâsırüddevle Hasan’ın 935’te el-Cezîre valiliğine tayini üzerine yerine geçen kardeşi Seyfüddevle el-Hamdânî Ali zamanında Bizanslılar’a karşı başarılı mücadele ve müdafaada bulunuldu.
+  E[974] Şehir 973 ve 974’te Bizanslılar tarafından kuşatıldıysa da alınamadı.
+  E[1151] 1151’de bu beylik, Mardin ve Meyyâfârikīn Artuklular’ın hâkimiyetini kabul etti.
+
+##0047 Mardin [Anadolu] · SAHIP=artuklu (Artukoğulları (Artuklu Beyliği)) · mardin · yer=1
+  Y[1203] 599 (1203) yılında oğlu el-Melikü’l-Eşref’i Mardin üzerine sevketti, ancak şehri yine zaptedemedi.
+  Y[1220] Alâeddin Keykubad zamanında (1220-1237) Anadolu Selçukluları’na tâbi oldu.
+  Y[1259] 657’de (1259) Hülâgû Han, Mardin Hâkimi Necmeddin Gazi Saîd’den kendisine tâbi olmasını istedi.
+  Y[1260] Sonunda bir rivayete göre el-Melikü’l-Muzaffer Kara Arslan halkın başına daha çok felâket gelmesini önlemek için babasını öldürüp İlhanlılar’a tâbi oldu (658/1260).
+  Y[1261] Ardından Hülâgû’yu ziyaret edip kıymetli hediyeler sundu ve onun tarafından Mardin hâkimi olarak tanındı (659/1261).
+  Y[1293] 1293-1932 yılları arasında patriklik merkezi olarak hizmet vermiştir.
+  Y[1206] Kutbüddin İlgazi’nin saltanatı sırasında (1176-1184) annesi Sitti Radviyye (Radaviyye, Raziyye) tarafından yaptırılmış, vakfiyesi de 602 (1206) yılında kıble cephesinde taş üzerine yazdırılmıştır.
+  Y[1294] Necmeddin Gazi zamanında (1294-1312) mevcut olup Artuklu eseridir (bk.
+  E[1085] Büyük Selçuklu Sultanı Melikşah 478’de (1085) şehirdeki Mervânî hâkimiyetine son verdi.
+  E[1103] Mardin, 496’dan (1103) itibaren el-Cezîre’de yoğunlaşan Türkmen ailelerinin en büyüklerinden olan Artuklular’ın eline geçti ve Hısnıkeyfâ Artukluları’nın yönetiminde kaldı.
+  E[1106] İlgazi daha sonra yeğeni İbrâhim’in elinde bulunan Mardin’i aldı ve “tabakāt-ı İlgāziyye” denilen Mardin Artuklu kolunu kurdu (500/1106).
+  E[1147] Bunlardan en önemlisi, 542’de (1147) Atabeg İmâdüddin Zengî’nin oğlu Musul Emîri Seyfeddin Gazi tarafından gerçekleştirilen ve şehrin yıkılmasına sebep olan saldırıdır.
+
+##0048 Urfa [Anadolu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · sanliurfa · yer=1
+  Y[1235] Alâeddin Keykubad Urfa’yı bu sırada aldı (632/1235); fakat dört ay sonra Eyyûbîler şehri yeniden ele geçirdiler.
+  Y[1241] Şehir 638’de (1241) tekrar Eyyûbîler’in eline geçti.
+  Y[1251] Moğollar 649’da (1251) şehri ve çevresini yağmaladı.
+  Y[1260] 658’de (1260) bölge Hülâgû’ya teslim oldu ve Moğollar Aynicâlût Savaşı’nda Memlükler tarafından bozguna uğratılıncaya kadar onların elinde kaldı.
+  Y[1211] yüzyıl), Halîlürrahman Camii Eyyûbîler devrine (608/1211-12), Hasan Padişah Camii Akkoyunlular zamanına (XV.
+  Y[1301] Camilerin en erken tarihlileri Eski Ömeriye (701/1301), Hasan Padişah (902/1496), Hacı Yâdigâr (920/1514), Mevlid-i Halîlürrahman (929/1523), Çâkerî (930/1524) ve Nimetullah (XVI.
+  E[395] 395’te Roma İmparatorluğu Doğu ve Batı diye ikiye ayrılınca bu kesim Doğu Roma (Bizans) toprakları içinde kaldı.
+  E[942] Bizanslılar 331’de (942-43) bölgeye gelip Urfa halkından Hz.
+  E[959] Bizanslılar 348’de (959) Urfa önlerine kadar geldi.
+  E[1027] Fakat Zengî’nin ölümünün (418/1027) ardından gelişen olaylar neticesinde şehir Bizans kumandanlarından Georgios Maniakes’e bırakıldı, böylece Maniakes 1030-1031 kışında Urfa’ya hâkim oldu.
+
+##0049 Malatya [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · malatya · yer=1
+  Y[1212] İzzeddin Keykâvus tarafından Malatya yakınlarındaki Minşâr Kalesi’nde hapsedildi (1212-1220).
+  Y[1227] Sultan Alâeddin 624’te (1227) Eyyûbî Hükümdarı el-Melikü’l-Eşref’in kız kardeşiyle Malatya’da evlendi.
+  Y[1243] Moğollar, Kösedağ galibiyetinin ardından (1243) Malatya’ya yönelik ilk girişimlerinden bir sonuç alamadılarsa da 1244’te Yasavur Noyan şehri kısa süre için ele geçirdi.
+  Y[1258] 1258’de Baycu Noyan tarafından tahribata uğratıldı.
+  Y[1282] Hülâgû, Fırat nehri üzerinden ordusunu geçirmek için 1282’de Malatya civarında köprüler yaptırdı.
+  Y[1224] Alâeddin Keykubad tarafından 1224 yılında Malatyalı mimar Ya‘kūb b.
+  Y[1243] 1243’te inşa edilmiş, 1473’te ve 1980’li yıllarda onarılmıştır.
+  E[None] Aslantepe höyüğünde milâttan önce 3300-3000 yıllarına ait kerpiç saray, 3600-3500’lere ait bir tapınak, binlerce mühür baskı, metal eserler bulunmuştur.
+  E[None] Burası milâttan önce 2300 yıllarında Anadolu ile Mezopotamya arasında Akadlı Sargon zamanından beri işleyen, Hititler devrinde de kullanılacak olan Hattuşaş-Kültepe-Tegarama (Gürün)-Taranta (Darende)-Melit (Malatya)-Samusat (Samsat)-Urşu (Urfa) güzergâhında y…
+  E[750] Bizans kuvvetleri 133 (750-51) ve 138 (755-56) yıllarında şehri tekrar işgal ettiler.
+  E[757] Bizans kuvvetleri bu sırada Malatya’ya yürüdülerse de müslüman savaşçıların sayıca çok üstün olduğunu haber alıp geri döndüler (140/757).
+
+##0050 Maraş [Anadolu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · kahramanmaras · yer=1
+  Y[1208] Gıyâseddin Keyhusrev 605’te (1208) Ermeniler’i cezalandırmak amacıyla Maraş üzerine bir sefer düzenledi ve Maraş’ı tekrar Selçuklu topraklarına kattı.
+  Y[1240] Maraş Türkmenleri 637 (1240) yılında çıkan Babaî ayaklanmasına katıldılar.
+  Y[1243] 1243’te Kösedağ Savaşı’nda Selçuklu ordusunun ağır bir yenilgiye uğramasının ardından yaşanan karışık ortamda, Maraş-Malatya arasında kalan bölgeyi yurt tutmuş olan Ağaçeri Türkmenleri ticaret yollarına ve etrafa zarar verdiler.
+  Y[1258] Emîr Hüsâmeddin’in ailesinden İmâdüddin, 656’da (1258) Anadolu Selçuklu Sultanı II.
+  Y[1293] 692’de (1293) Sultan Halil Ermeniler’le bir antlaşma yaparak Maraş’ı almaya muvaffak oldu.
+  Y[1298] Memlükler’in çekilmesinden sonra Maraş tekrar Ermeniler’in eline geçtiyse de 697’de (1298) Memlükler’in Halep nâibi Bilbân et-Tabahî tarafından geri alındı; Ermeniler’le yapılan antlaşmada Ceyhan nehri sınır kabul edildi ve Maraş’ın Memlükler’in hâkimiyetine …
+  Y[1204] Son cemaat yerine yerleştirilmiş iki kitâbeden biri 600 (1204), diğeri 1107 (1696) tarihlerini taşır ki bunlardan birincisi bir başka yapıya ait olmalıdır.
+  E[395] Roma İmparatorluğu’nun 395’te ikiye ayrılması üzerine Doğu Roma’nın (Bizans) hâkimiyetine geçti.
+  E[650] Avf el-Gāmidî Maraş’tan hareketle Bizans topraklarına akınlar düzenledi (30/650-51).
+  E[683] Yezîd’in ölümünün (64/683) ardından Maraş’a yönelik Bizans saldırıları yoğunlaşınca müslümanlar Maraş’ı terketmek zorunda kaldılar.
+  E[747] Mervân zamanında 129 (747) yılında Bizanslılar Maraş’ı kuşattı.
+
+##0051 Adana [Anadolu] · SAHIP=kilikya-ermeni (Kilikya Ermeni Krallığı) · adana · yer=1
+  E[333] Kilikya, Asur İmparatorluğu’nun yıkılmasından sonra Anadolu’ya hâkim olan Ahamenid-Pers İmparatorluğu’na bağlı bir satraplık haline getirilmiş, 333 yılında da Issos zaferiyle Büyük İskender’in eline geçmiştir.
+  E[395] Romalılar ve 395’ten sonra da Bizanslılar zamanında, başta Misis olmak üzere Adana bölgesinin büyük imar faaliyetlerine sahne olduğu, Adana surlarının, su kemerlerinin ve ilki Hadrianus tarafından yaptırılan (II.
+  E[1378] yüzyıl ortalarından itibaren Memlükler’in ve bunlara bağlı olarak 1378-1562 yılları arasında Türkmenler’in Üçok koluna mensup Yüregir boyu beylerinden Ramazan Bey’e ve ailesine intikal etmiştir.
+  E[1432] 1432’de Adana’dan geçen Bertrandon de la Broquière, şehrin Hârûnürreşîd zamanında Ebû Süleyman adında bir Türkmen kölesi tarafından tahkim edildiğini ve halkının Türkmen olduğunu kaydetmektedir.
+
+##0052 Tarsus [Anadolu] · SAHIP=kilikya-ermeni (Kilikya Ermeni Krallığı) · tarsus · yer=1
+  Y[1266] Baybars 664’ten (1266) itibaren bölgeye yönelik akınlar başlattı.
+  E[260] 833), Pers, İskender, Selefki, Mısır, Roma ve Sâsânî (260) hâkimiyetinde kalan Tarsus, Bizans döneminde havâri Saint Pavlus’un buralı olmasından dolayı dinî bir merkez özelliği kazandı.
+  E[646] Ebû Süfyân, 25 (646) yılında düzenlediği Anadolu seferinde Antakya-Tarsus arasındaki şehirlere Suriye ve el-Cezîre’den askerî birlikler yerleştirdi.
+  E[787] 171 (787) yazında Abbâsî Halifesi Hârûnürreşîd’in emriyle Bizans seferine çıkan Herseme b.
+  E[830] Me’mûn 215 (830) yılında çıktığı Bizans seferinde Bağdat’tan Tarsus’a geldi ve buradan Bizans topraklarına girdi.
+
+##0053 Antakya [Anadolu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · antakya · yer=1
+  Y[1268] 1268’e kadar buraya birçok Haçlı sülâlesi hükmetti.
+  Y[1268] 18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi, şehir mücadele ile alındığı için yağmaya izin verildi, ayrıca vaktiyle Haçlılar’ın yaptığı gibi halkın çoğu kılıçtan geçirildi, bir kısmı esir alındı.
+  E[636] İranlılar tarafından boşaltıldıktan sonra yeniden Bizans hâkimiyetine giren Antakya, Bizans kuvvetlerinin 636’da İslâm orduları karşısında yenilgiye uğradığı Yermük Savaşı’nın ardından Ebû Ubeyde b.
+  E[944] Daha sonra, hâkimiyetlerini Kuzey Suriye ve Kilikya’ya kadar uzatan Hamdânoğulları’ndan Ebü’l-Ali Hasan (Seyfüddevle) 944’te Antakya’yı aldı.
+  E[1084] Şehir 1084 yılına kadar bir asırdan fazla Bizans hâkimiyetinde kaldı.
+  E[1097] Haçlı orduları 21 Ekim 1097’de şehir önlerine geldiklerinde Yağısıyan Antakya emîri bulunuyordu.
+
+##0054 Lüleburgaz [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · luleburgaz · yer=1
+  E[1358] İlk Osmanlı kaynakları bu kalenin Osmanlılar tarafından 759-761 (1358-1360) yılları arasında alındığında ve ele geçirilmeden önce kalenin terkedildiği ve daha sonra onlar tarafından yıkıldığı hususunda müttefiktir.
+  E[1433] 1433’te buradan geçen Burgondiya şövalyesi Bertrandon de la Broquière yıkık surlu (Pirgasi denilen) şehirde Türkler’den başka kimsenin oturmadığını yazar.
+  E[1912] Balkan Savaşı sırasında (1912) Bulgar ordusu şehri büyük bir çatışma neticesinde ele geçirdiyse de 1913’te Türkler tarafından geri alındı.
+  E[1864] Kornrumpf, Die Territorialverwaltung im östlichen Teil der europäischen Türkei vom Erlass der Vilayetsordnung (1864) bis zum Berliner Kongress (1878) nach amtlichen osmanischen Veröffentlichungen , Freiburg 1976, tür.yer.
+
+##0055 Çirmen [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · cirmen · yer=1
+  E[1371] Meriç kıyısında müstahkem bir kaleye sahip olan Çirmen, aynı zamanda 1371’de Sırplar’a karşı kazanılan ve Osmanlılar’a Makedonya’nın kapılarını açan zafere de ismini vermiştir.
+  E[1632] Çirmen, 1632’den sonra Osmanlı idarî teşkilâtında Özü eyaletinin bir sancağı olarak görülmektedir.
+  E[1864] Kornrumpf, Die Territorialverwaltung im östlichen Teil der europäischen Türkei vom Erlass der Vilayetsordnung (1864) bis zum Berliner Kongress (1878) nach amtlichen osmanischen Veröffentlichungen , Freiburg 1976, s.
+
+##0056 Eski Zağra (Stara Zagora) [Anadolu] · SAHIP=bulgaristan (?bulgaristan) · eski-zagra · yer=1
+  E[1371] Muhtemelen 1371 yılında Osmanlılar tarafından fethedilen şehre, bu sonuncu adlandırmaya dayanarak önceleri Eskihisâr-ı Zağra, Zağra-i Eskihisar, Zağra Eskisi ve Zağra; daha sonraları ise yaygın olarak Zağra-i Atîk veya Eski Zağra denilmiştir.
+  E[1858] 1858’de on sekizi Türk, on ikisi Bulgar, biri yahudi mahallesi olmak üzere toplam otuz bir mahalle ve 2651 ev vardı.
+  E[1875] Şehir 1875’te Rusya’nın Bulgarlar’a kurdurduğu ihtilâl cemiyetlerinin faaliyetleri ve 1877-1878 Osmanlı-Rus Savaşı (Doksanüç Harbi) sırasında büyük tahribata uğradı.
+  E[1878] 1877-1878 Osmanlı-Rus Savaşı sonrasında imzalanan Berlin Antlaşması ile (1878) muhtar bir Bulgaristan Prensliği ve Doğu Rumeli vilâyeti kurulunca Eski Zağra Doğu Rumeli vilâyetinin sınırları içinde kaldı.
+
+##0057 Tatarpazarcığı [Balkan] · SAHIP=bulgaristan (?bulgaristan) · tatarpazarcigi · yer=1
+  E[1694] 1105 (1694), 1108 (1696-97) ve 1109 (1697-98) tarihli üç cizye defteri şehirde İranlı bir grup tüccardan, daha doğrusu İranlı bir Ermeni grubundan söz etmektedir ( BA , D.CMH, nr.
+  E[1874] 1291 (1874) tarihli salnâme, şehrin nüfusunda Bulgar unsurların XIX.
+  E[1878] 1878’de imzalanan Berlin Antlaşması’ndan sonra şehir ve kaza başlangıçta yarı bağımsız olan Rumeli-i Şarkî’ye bağlı idi, ancak 1885’te burası yeni Bulgar prensliğine ilhak edildi.
+  E[1923] Güvenilir bir Bulgar yazarı olan Ivan Batakliev 1923’te sadece dört caminin ayakta olduğunu belirtmektedir (Eskicami, Kurşunlu Cami [Nâzır Ağa], Kâtib Yûnus Camii ve Hacı Sâlih Camii).
+
+##0058 İhtiman [Balkan] · SAHIP=bulgaristan (?bulgaristan) · ihtiman · yer=1
+  E[1371] Osmanlı devrinde (1371-1878), bölgenin zaptından kısa bir süre sonra kurulmuş olup buranın çekirdeğini bütün Balkanlar’ın en eski Osmanlı eserlerinden olan ve yıkıntıları bugüne ulaşan bir zâviye-imaret teşkil eder.
+  E[1370] Burası, hemen yakınındaki Samakov ile birlikte 772’de (1370-71) Lala Şâhin Paşa idaresindeki Osmanlı kuvvetlerince zaptedilmişti.
+  E[1570] Eski Stiponje ise İhtiman nahiyesinin büyük hıristiyan yerleşmelerinden biri olarak (1570’te 148 hâne nüfusa sahipti) Osmanlı dönemi boyunca varlığını sürdürdü; 1800 yılı civarındaki büyük karışıklıklar sırasında ortadan kalktı.
+  E[1371] Resmî Osmanlı belgeleri ve defterlerinden haberdar olmayan bir kısım Bulgar tarihçileri, buranın 1371’deki fetih sırasında tahrip edilip ortadan kaldırıldığını yazar.
+
+##0059 Köstendil [Balkan] · SAHIP=bulgaristan (?bulgaristan) · kostendil · yer=1
+  E[1330] 28 Temmuz 1330’da Bulgar Çarı Michael’in Sırp Kralı Stefan Deçanski ile çarpışarak tahtını ve hayatını kaybettiği Velbujd Savaşı şehrin civarında gerçekleşti.
+  E[1371] Köstendil’in idarecisi olan Sırp Prensi Konstantin Dejanović 1371’de I.
+  E[1395] 1395’ten sonra Konstantin’in yerine geçecek uygun bir kişinin bulunmayışı sebebiyle Osmanlılar, büyük bir direnişle karşılaşmaksızın bu eski prensliği Köstendil sancağı haline getirip doğrudan kendilerine bağladılar.
+  E[1405] 1405 yılı civarında, Fetret devrinin istikrarsız şartları esnasında Emîr Süleyman’ın Köstendil’in hemen kuzeyindeki Timok ve Temska bölgelerinde bir Bulgar isyanını bastırdığı belirtilir.
+
+##0060 Drama [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · drama · yer=1
+  E[1345] Uzun müddet Roma ve Bizans hâkimiyetinde kalan ve bu dönemlerde küçük bir yerleşim birimi olduğu sanılan Drama, Bizans iç savaşı sırasında 1345’te Serez’i zapteden ve hâkimiyetini Mesta nehrine kadar uzatan Sırp Kralı Stefan Duşan’ın eline geçti.
+  E[1356] 1356’da şehrin Sırp kumandanı Vojihna, Rodop dağlarında tutunmaya çalışan İmparator Matthaeos’u Philippoi yakınlarında esir aldı.
+  E[1355] Bu sırada Drama, Duşan’ın ölümünden (1355) sonra Serez bölgesini ele geçiren despot Uglyeşa’nın idaresi altında bulunuyordu.
+  E[1371] Bölgedeki Sırp idaresi 1371’e kadar sürdü.
+

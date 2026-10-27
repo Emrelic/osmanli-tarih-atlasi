@@ -1,0 +1,499 @@
+{
+ "parti": 108,
+ "sonuclar": [
+  {
+   "ad": "Yermük (Yarmuk) vadisi",
+   "durum": "tek_tanik",
+   "lat": 32.732,
+   "lon": 35.825,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Yarmuk (Yarmouk) River valley",
+   "ulke_modern": "Suriye/Urdun/Israil",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/doc/2734257",
+     "lat": 32.732101,
+     "lon": 35.825214,
+     "not": "Nahr al-Yarmuk (nehir)"
+    }
+   ],
+   "not": "636 savas alani tam yeri tartismali (Hazir/Tell al-Jumu'a civari); nehir koordinati vadi icin yaklasik. Ikinci bagimsiz kaynak bulunamadi."
+  },
+  {
+   "ad": "Canossa",
+   "durum": "tek_tanik",
+   "lat": 44.90664,
+   "lon": 10.64595,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Canossa",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/doc/2070645",
+     "lat": 44.90664,
+     "lon": 10.64595,
+     "not": ""
+    }
+   ],
+   "not": "Reggio Emilia, Emilia-Romagna; Canossa kalesi. Ikinci bagimsiz kaynak cekilemedi."
+  },
+  {
+   "ad": "Fontenoy-en-Puisaye",
+   "durum": "tek_tanik",
+   "lat": 47.64838,
+   "lon": 3.30636,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Fontenoy (Yonne)",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Fontenoy, Yonne",
+     "lat": 47.64838,
+     "lon": 3.30636,
+     "not": "bagimsiz sayilmaz"
+    }
+   ],
+   "not": "841 savasi gelenekle Fontenoy-en-Puisaye (Yonne); iDAI'deki Fontenoy kayitlarinin koordinati yok. Savas alani kesin degil."
+  },
+  {
+   "ad": "Hastings (Senlac)",
+   "durum": "tek_tanik",
+   "lat": 50.9151,
+   "lon": 0.486,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Battle (Senlac Hill, Battle Abbey)",
+   "ulke_modern": "Birlesik Krallik (Ingiltere)",
+   "tanik": [
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Battle Abbey, East Sussex",
+     "lat": 50.9150519,
+     "lon": 0.486062,
+     "not": "Battle Abbey = 1066 savas yeri; bagimsiz sayilmaz"
+    },
+    {
+     "kaynak": "iDAI.gazetteer (Hastings kenti)",
+     "url_veya_atif": "https://gazetteer.dainst.org/doc/2112415",
+     "lat": 50.85519,
+     "lon": 0.57292,
+     "not": "kent, savas alanindan ~9 km; savas alani icin tanik degil"
+    }
+   ],
+   "not": "Savas Hastings'te degil Battle'dadir (Senlac Tepesi). Bagimsiz ikinci tanik yok."
+  },
+  {
+   "ad": "Worms",
+   "durum": "cift_tanik",
+   "lat": 49.6305,
+   "lon": 8.3617,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Worms",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/doc/2052675",
+     "lat": 49.630549,
+     "lon": 8.361692,
+     "not": ""
+    },
+    {
+     "kaynak": "UNESCO WHC ShUM Sites of Speyer, Worms and Mainz",
+     "url_veya_atif": "data.unesco.org whc001 dataset, id_no 1636",
+     "lat": 49.6335917,
+     "lon": 8.3662778,
+     "not": "Worms bileseni"
+    }
+   ],
+   "not": "Rheinland-Pfalz; iki bagimsiz kayit 0,5 km icinde."
+  },
+  {
+   "ad": "Amalfi",
+   "durum": "cift_tanik",
+   "lat": 40.6349,
+   "lon": 14.6024,
+   "tur": "liman",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Amalfi",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/doc/2086547",
+     "lat": 40.6349,
+     "lon": 14.60238,
+     "not": ""
+    },
+    {
+     "kaynak": "UNESCO WHC Costiera Amalfitana",
+     "url_veya_atif": "data.unesco.org whc001 dataset, id_no 830",
+     "lat": 40.6333333,
+     "lon": 14.6027778,
+     "not": ""
+    }
+   ],
+   "not": "Salerno, Campania."
+  },
+  {
+   "ad": "Svolder (yeri belirsiz)",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "not": "Svolder (1000) savasinin yeri belirsiz (Oresund/Rugen/Pomeranya onerileri); iDAI'de kayit yok. Uydurma koordinat verilmedi."
+  },
+  {
+   "ad": "Rûyân",
+   "durum": "tek_tanik",
+   "lat": 36.5696,
+   "lon": 51.9623,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ruyan (Nur), Mazenderan",
+   "ulke_modern": "Iran",
+   "tanik": [
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Ruyan Mazandaran",
+     "lat": 36.5696172,
+     "lon": 51.9622645,
+     "not": "Ruyan, Nur ilcesi; bagimsiz sayilmaz"
+    }
+   ],
+   "not": "Ruyan (Taberistan daglik bolgesi) tarihi merkez/bolge; ikinci kaynak bulunamadi; bolge oldugundan yaklasik."
+  },
+  {
+   "ad": "Tiberiye",
+   "durum": "tek_tanik",
+   "lat": 32.795859,
+   "lon": 35.530973,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tiberias (Tabariyya)",
+   "ulke_modern": "Israil",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/doc/2043674",
+     "lat": 32.795859,
+     "lon": 35.530973,
+     "not": "Tiberias yerlesim + arkeolojik alan"
+    }
+   ],
+   "not": "Pleiades'te de Tiberias kaydi var (iDAI ile ayni besleme zinciri, bagimsiz sayilmadi)."
+  },
+  {
+   "ad": "Kamag Moğol yurdu (Onon-Kerulen)",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "not": "Bolge adi (Onon-Kerulen yurdu); nokta yer degil. Aday: Burhan Haldun (UNESCO WHC, 48.762 N 109.009 E) ama Kamag Mogol yurdu icin dogrudan tanik degil."
+  },
+  {
+   "ad": "Fîrûzkûh",
+   "durum": "tek_tanik",
+   "lat": 34.39642,
+   "lon": 64.51589,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Cam (Jam) Minaresi ve kalintilari",
+   "ulke_modern": "Afganistan",
+   "tanik": [
+    {
+     "kaynak": "UNESCO WHC Minaret and Archaeological Remains of Jam",
+     "url_veya_atif": "data.unesco.org whc001 dataset, id_no 211",
+     "lat": 34.3964167,
+     "lon": 64.5158889,
+     "not": "Minare Firuzkuh ile ozdeslestirilir (Maricq-Wiet 1959)"
+    },
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Firuzkuh Ghor",
+     "lat": 34.3964839,
+     "lon": 64.5167747,
+     "not": "bagimsiz sayilmaz"
+    }
+   ],
+   "not": "Firuzkuh=Cam ozdesligi akademik gorus; ikinci bagimsiz arkeoloji yayini okunamadi."
+  },
+  {
+   "ad": "Zafâr (Zafar)",
+   "durum": "tek_tanik",
+   "lat": 14.211704,
+   "lon": 44.400794,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Zafar (Himyer baskenti)",
+   "ulke_modern": "Yemen",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 39423",
+     "url_veya_atif": "pleiades.stoa.org/places/39423",
+     "lat": 14.211704,
+     "lon": 44.400794,
+     "not": "onceki turdan; yeniden dogrulanmadi"
+    }
+   ],
+   "not": "Harabe; ikinci bagimsiz kaynak yok."
+  },
+  {
+   "ad": "Şibâm (Hadramut)",
+   "durum": "tek_tanik",
+   "lat": 15.92694,
+   "lon": 48.62667,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Shibam Hadramawt",
+   "ulke_modern": "Yemen",
+   "tanik": [
+    {
+     "kaynak": "UNESCO WHC Old Walled City of Shibam",
+     "url_veya_atif": "data.unesco.org whc001 dataset, id_no 192",
+     "lat": 15.92694,
+     "lon": 48.62667,
+     "not": ""
+    }
+   ],
+   "not": "Sibam (Hadramut, Wadi Hadramawt); ikinci kaynak cekilemedi (iDAI limit)."
+  },
+  {
+   "ad": "Yingtianfu (Nanjing; bugünkü Shangqiu, Henan)",
+   "durum": "tek_tanik",
+   "lat": 34.4168,
+   "lon": 115.6507,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Shangqiu (Yingtianfu)",
+   "ulke_modern": "Cin (Henan)",
+   "tanik": [
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Shangqiu, Henan",
+     "lat": 34.4168215,
+     "lon": 115.6507447,
+     "not": "bagimsiz sayilmaz"
+    }
+   ],
+   "not": "Song Yingtianfu/Nanjing = Shangqiu; eski kent kalintisi modern kentin guneyinde olabilir, yaklasik."
+  },
+  {
+   "ad": "Ye (Yecheng, Linzhang yakını; Kuzey Qi başkenti)",
+   "durum": "tek_tanik",
+   "lat": 36.3231,
+   "lon": 114.5897,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Yecheng sitesi, Linzhang",
+   "ulke_modern": "Cin (Hebei)",
+   "tanik": [
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Yecheng Linzhang",
+     "lat": 36.3231495,
+     "lon": 114.5896682,
+     "not": "Yecheng Parki; bagimsiz sayilmaz"
+    }
+   ],
+   "not": "Kuzey Qi baskenti Ye alani; alan genis, arkeoloji yayini okunamadi."
+  },
+  {
+   "ad": "Lingwu (Lingzhou, Ningxia)",
+   "durum": "tek_tanik",
+   "lat": 38.102,
+   "lon": 106.3356,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Lingwu",
+   "ulke_modern": "Cin (Ningxia)",
+   "tanik": [
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Lingwu, Ningxia",
+     "lat": 38.1020474,
+     "lon": 106.3355786,
+     "not": "modern sehir; bagimsiz sayilmaz"
+    }
+   ],
+   "not": "Tang Lingzhou'nun tam yeri modern Lingwu'dan farkli olabilir; yaklasik."
+  },
+  {
+   "ad": "Fengxiang (Fengxiangfu, Shaanxi)",
+   "durum": "tek_tanik",
+   "lat": 34.52417,
+   "lon": 107.39,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Fengxiang",
+   "ulke_modern": "Cin (Shaanxi)",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/doc/2359836",
+     "lat": 34.52417,
+     "lon": 107.39,
+     "not": "Fengxiang Xian"
+    },
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Fengxiang, Baoji",
+     "lat": 34.5235103,
+     "lon": 107.390669,
+     "not": "bagimsiz sayilmaz"
+    }
+   ],
+   "not": "Fengxiangfu = bugunku Fengxiang (Baoji); iDAI ile OSM bagimsiz degil."
+  },
+  {
+   "ad": "Kaiping / Shangdu",
+   "durum": "tek_tanik",
+   "lat": 42.358,
+   "lon": 116.18513,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Shangdu (Xanadu) sitesi",
+   "ulke_modern": "Cin (Ic Mogolistan)",
+   "tanik": [
+    {
+     "kaynak": "UNESCO WHC Site of Xanadu",
+     "url_veya_atif": "data.unesco.org whc001 dataset, id_no 1389",
+     "lat": 42.358,
+     "lon": 116.1851278,
+     "not": ""
+    }
+   ],
+   "not": "Zhenglan Banner; ikinci bagimsiz kaynak cekilemedi."
+  },
+  {
+   "ad": "Bạch Đằng ağzı",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "not": "1288 Bach Dang agzi: savas alani nehir agzinda, Quang Ninh (Yen Hung) civari; tanik koordinati alinamadi."
+  },
+  {
+   "ad": "Hoa Lư",
+   "durum": "tek_tanik",
+   "lat": 20.25667,
+   "lon": 105.89639,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Hoa Lu / Trang An",
+   "ulke_modern": "Vietnam",
+   "tanik": [
+    {
+     "kaynak": "UNESCO WHC Trang An Landscape Complex",
+     "url_veya_atif": "data.unesco.org whc001 dataset, id_no 1438",
+     "lat": 20.2566667,
+     "lon": 105.8963889,
+     "not": "Hoa Lu eski baskenti kompleks icinde"
+    },
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Hoa Lu Ninh Binh",
+     "lat": 20.2581199,
+     "lon": 105.9662483,
+     "not": "Hoa Lu bolgesi; bagimsiz sayilmaz, 7 km dogu"
+    }
+   ],
+   "not": "Kompleks genis; kale kalintisi doguda olabilir, yaklasik."
+  },
+  {
+   "ad": "Martaban",
+   "durum": "tek_tanik",
+   "lat": 16.5255,
+   "lon": 97.6084,
+   "tur": "liman",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Mottama (Martaban)",
+   "ulke_modern": "Myanmar",
+   "tanik": [
+    {
+     "kaynak": "OpenStreetMap Nominatim",
+     "url_veya_atif": "nominatim.openstreetmap.org q=Martaban Myanmar",
+     "lat": 16.5255057,
+     "lon": 97.6084052,
+     "not": "Mottama; bagimsiz sayilmaz"
+    }
+   ],
+   "not": "Ortacag Martaban limani = Mottama."
+  },
+  {
+   "ad": "Ötüken",
+   "durum": "tek_tanik",
+   "lat": 47.4792,
+   "lon": 102.6785,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Orhun Vadisi (Hosoo Tsaydam)",
+   "ulke_modern": "Mogolistan",
+   "tanik": [
+    {
+     "kaynak": "UNESCO WHC Orkhon Valley Cultural Landscape",
+     "url_veya_atif": "data.unesco.org whc001 dataset, id_no 1081",
+     "lat": 47.479214,
+     "lon": 102.678482,
+     "not": ""
+    }
+   ],
+   "not": "Otuken yis = Hangay daglik bolgesi; Orhun vadisi yaklasik merkez; kesin nokta degil."
+  },
+  {
+   "ad": "Ötüken / Batı Göktürk merkezi (Aktağ)",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "not": "Bilesik/belirsiz ad: Bati Gokturk merkezi (Aktag) icin tanik bulunamadi."
+  },
+  {
+   "ad": "Belencer",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "not": "Belencer (Hazar kenti, Kuzey Kafkasya): yeri tartismali (Buynaksk/Targu/Kizlar onerileri); tanik alinamadi."
+  },
+  {
+   "ad": "Ötüken / Söğüt ormanı",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "not": "Otuken soGut ormani icin kaynak/koordinat bulunamadi."
+  }
+ ]
+}

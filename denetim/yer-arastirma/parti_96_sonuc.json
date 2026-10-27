@@ -1,0 +1,720 @@
+{
+ "parti": 96,
+ "sonuclar": [
+  {
+   "ad": "Mukaçevo",
+   "durum": "cift_tanik",
+   "lat": 48.44,
+   "lon": 22.72,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Mukachevo / Munkács",
+   "ulke_modern": "Ukrayna",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1057203",
+     "lat": 48.4333,
+     "lon": 22.75,
+     "not": "Zakarpats'ka Oblast'"
+    },
+    {
+     "kaynak": "GeoNames 700646",
+     "url_veya_atif": "geonames.org/700646",
+     "lat": 48.44248,
+     "lon": 22.718,
+     "not": "önceki tur (parti 50) GeoNames kaydı"
+    }
+   ],
+   "hesap": "TGN 48.4333,22.75 ve GeoNames 48.44248,22.718 arası ~2.5 km; GeoNames değeri alındı",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Karpat-ötesi (Zakarpattia) bağlamıyla uyumlu."
+  },
+  {
+   "ad": "San Genesio",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2071132",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2071132",
+     "lat": 45.233446,
+     "lon": 9.182665,
+     "not": "Lombardiya, bağlam dışı"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2073589",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2073589",
+     "lat": 46.53582,
+     "lon": 11.32958,
+     "not": "Güney Tirol, bağlam dışı"
+    }
+   ],
+   "hesap": "",
+   "not": "San Genesio (Lucca komünü, 1162 diet) büyük olasılıkla Valdarno'daki San Genesio/Borgo San Genesio (San Miniato çevresi, yok olmuş Staufer burgu); DAI/GeoNames adayları (Milano yakını 45.23,9.18; Bolzano 46.53,11.33) bu bağlama uymaz. Bu yerin koordinatını iki bağımsız kaynakta bulamadım (yitik yerleşim)."
+  },
+  {
+   "ad": "Chalkis",
+   "durum": "cift_tanik",
+   "lat": 38.4636,
+   "lon": 23.5994,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Khalkís (Eğriboz/Negroponte)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 540703 Chalcis",
+     "url_veya_atif": "https://pleiades.stoa.org/places/540703",
+     "lat": 38.457139,
+     "lon": 23.621937,
+     "not": "Euboea üzerindeki yerleşim; Barrington Atlas kökenli"
+    },
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7010882",
+     "lat": 38.463611,
+     "lon": 23.599444,
+     "not": "Khalkís, Euboea"
+    }
+   ],
+   "hesap": "Pleiades ile TGN arası ~2 km; kentin merkezi için TGN",
+   "not": "Bağımsızlık: Pleiades (antik atlas) TGN/GNS ile farklı köken. Eğriboz = Euboea (Chalkis); Chalcis ad Belum ve Aitolia Hypochalkis elendi (bölge uyuşmuyor)."
+  },
+  {
+   "ad": "Lauffen am Neckar",
+   "durum": "cift_tanik",
+   "lat": 49.0739,
+   "lon": 9.1461,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Lauffen am Neckar",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1040055",
+     "lat": 49.074444,
+     "lon": 9.146944,
+     "not": "Baden-Württemberg"
+    },
+    {
+     "kaynak": "GeoNames 2880111",
+     "url_veya_atif": "geonames.org/2880111",
+     "lat": 49.0734,
+     "lon": 9.14567,
+     "not": "önceki tur (parti 50) GeoNames kaydı"
+    }
+   ],
+   "hesap": "iki değer ~100 m; ortalaması",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Ad tektir (Staufer Neckar kenti)."
+  },
+  {
+   "ad": "Thorn",
+   "durum": "cift_tanik",
+   "lat": 53.015,
+   "lon": 18.59,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Toruń",
+   "ulke_modern": "Polonya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7007831",
+     "lat": 53.0167,
+     "lon": 18.5833,
+     "not": "Toruń, Kuyavian-Pomeranian"
+    },
+    {
+     "kaynak": "GeoNames Toruń",
+     "url_veya_atif": "geonames.org (önceki tur)",
+     "lat": 53.01375,
+     "lon": 18.59814,
+     "not": "önceki tur (parti 50) GeoNames kaydı"
+    }
+   ],
+   "hesap": "iki değer ~1 km",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Thorn = Toruń; bağlam (Vistula, Kulm, Elbing, Balke 1231) Toruń ile uyumlu; GeoNames \"Thorn 51.16,5.84\" (Hollanda) bölge dışı elendi."
+  },
+  {
+   "ad": "Altenburg",
+   "durum": "cift_tanik",
+   "lat": 50.9865,
+   "lon": 12.4356,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Altenburg (Türingiya)",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2052951",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2052951",
+     "lat": 50.985286,
+     "lon": 12.434759,
+     "not": "kendi koordinatı (GeoNames ile birebir değil)"
+    },
+    {
+     "kaynak": "GeoNames Altenburg",
+     "url_veya_atif": "geonames.org (önceki tur)",
+     "lat": 50.98763,
+     "lon": 12.43684,
+     "not": "önceki tur (parti 50) GeoNames kaydı"
+    }
+   ],
+   "hesap": "iki değer ~300 m",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Pleißen Reichsland merkezi Altenburg (Türingiya); Aşağı Avusturya Altenburg 48.65,15.59 bağlam dışı elendi."
+  },
+  {
+   "ad": "Zwickau",
+   "durum": "cift_tanik",
+   "lat": 50.73,
+   "lon": 12.49,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Zwickau",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7012354",
+     "lat": 50.733333,
+     "lon": 12.5,
+     "not": "Saxony"
+    },
+    {
+     "kaynak": "GeoNames Zwickau",
+     "url_veya_atif": "geonames.org (önceki tur)",
+     "lat": 50.72724,
+     "lon": 12.48839,
+     "not": "önceki tur (parti 50) GeoNames kaydı"
+    }
+   ],
+   "hesap": "iki değer ~1 km",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Pleißen Reichsland kenti Zwickau; Cvikov (Çekya) elendi."
+  },
+  {
+   "ad": "Alessandria",
+   "durum": "cift_tanik",
+   "lat": 44.908,
+   "lon": 8.611,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Alessandria",
+   "ulke_modern": "İtalya",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7005125",
+     "lat": 44.9,
+     "lon": 8.616667,
+     "not": "Alessandria, Piedmont"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2337524",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2337524",
+     "lat": 44.90924,
+     "lon": 8.61007,
+     "not": "GeoNames ile aynı tabana dayanabilir"
+    }
+   ],
+   "hesap": "iki değer ~1 km",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Monferrato Markgrafı VII. Guglielmo bağlamı (Piemonte) Alessandria (AL) ile uyumlu; Mısır İskenderiyesi ve Calabria elendi."
+  },
+  {
+   "ad": "Zhongjing",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1070721",
+     "lat": 41.5667,
+     "lon": 119.3333,
+     "not": "Ningcheng — kimlik doğrulanmadı"
+    }
+   ],
+   "hesap": "",
+   "not": "Liao Orta Başkenti Zhongjing (Dading fu, Ningcheng/Chifeng çevresi, yaklaşık 41.5N 119.3E) olması beklenir; TGN Ningcheng 41.5667,119.3333 yalnız ilçe kaydıdır, Zhongjing kimliğini vermez. Önceki turun Kaifeng eşlemesi YANLIŞ (Kaifeng = Dongjing/Bianjing; Zhongjing Liao başkenti). Kimlik veren bağımsız kaynak bulunamadı."
+  },
+  {
+   "ad": "Bianjing",
+   "durum": "cift_tanik",
+   "lat": 34.7833,
+   "lon": 114.3333,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Kaifeng",
+   "ulke_modern": "Çin",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001845",
+     "lat": 34.7833,
+     "lon": 114.3333,
+     "not": "Kaifeng, Henan"
+    },
+    {
+     "kaynak": "GeoNames Kaifeng",
+     "url_veya_atif": "geonames.org (önceki tur)",
+     "lat": 34.7986,
+     "lon": 114.30742,
+     "not": "önceki tur (parti 50) GeoNames kaydı"
+    }
+   ],
+   "hesap": "iki değer ~3 km",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Bianjing = Kaifeng (Jin 1214 başkenti); bu kimlik TGN kaydında doğrulanmadı, alan bilgisi — TDV/Kaifeng maddesiyle teyit edilmeli."
+  },
+  {
+   "ad": "Kahuripan",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Airlangga'nın Doğu Cava krallığı adı (bölge/devlet adı); önceki GeoNames \"Kahuripan\" (-7.35,108.23) Batı Cava köyü, bağlama uymaz."
+  },
+  {
+   "ad": "Ponnani",
+   "durum": "cift_tanik",
+   "lat": 10.767,
+   "lon": 75.9126,
+   "tur": "liman",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ponnani",
+   "ulke_modern": "Hindistan (Kerala)",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1076622",
+     "lat": 10.766667,
+     "lon": 75.9,
+     "not": "Kerala"
+    },
+    {
+     "kaynak": "GeoNames Ponnani",
+     "url_veya_atif": "geonames.org (önceki tur)",
+     "lat": 10.76695,
+     "lon": 75.92523,
+     "not": "önceki tur (parti 50) GeoNames kaydı"
+    }
+   ],
+   "hesap": "iki değer ~2 km",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Perumpadappu/Kochi hanedanının Ponnani'ye taşınması bağlamı Kerala ile uyumlu."
+  },
+  {
+   "ad": "Kalinga",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Kalinga bölge/kraliyet adı (Odisha kıyısı); önceki GeoNames -27.4,153.05 Queensland, bağlam dışı. TGN Kalinga 20.1667,84.4167 (Orissa) bölgesel."
+  },
+  {
+   "ad": "Kanauj",
+   "durum": "cift_tanik",
+   "lat": 27.054,
+   "lon": 79.9205,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kannauj",
+   "ulke_modern": "Hindistan (Uttar Pradesh)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 59862 Kanogiza (Kanauj)",
+     "url_veya_atif": "https://pleiades.stoa.org/places/59862",
+     "lat": 27.053262,
+     "lon": 79.918632,
+     "not": "Ptolemaios Kanogiza = Kannauj (BAtlas 6 D4)"
+    },
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001548",
+     "lat": 27.0546,
+     "lon": 79.922,
+     "not": "Kannauj, Uttar Pradesh"
+    }
+   ],
+   "hesap": "iki değer ~300 m; ortalama",
+   "not": "Bağımsız: Pleiades (Barrington Atlas) ile TGN/GNS. Kimlik Pleiades kaydında (Kanogiza) verilir. 1018 Gazneli Mahmud Kannevc fethi bağlamıyla uyumlu."
+  },
+  {
+   "ad": "Sîrvân Kalesi",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1086463",
+     "lat": 38.05,
+     "lon": 42.0167,
+     "not": "Sirvan, Siirt — kimlik doğrulanmadı"
+    }
+   ],
+   "hesap": "",
+   "not": "Ebü'ş-Şevk Fazl b. Muhammed'in öldüğü Sirvan kalesi: Şirvan (Azerbaycan 39.94,48.93) mi, Siirt Şirvan (38.06,42.03) mi belirsiz; kimlik veren kaynak bulunamadı."
+  },
+  {
+   "ad": "Malazgirt",
+   "durum": "cift_tanik",
+   "lat": 39.1465,
+   "lon": 42.5354,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Malazgirt",
+   "ulke_modern": "Türkiye (Muş)",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7712222",
+     "lat": 39.146496,
+     "lon": 42.535357,
+     "not": "Malazgirt, Muş"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2289385",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2289385",
+     "lat": 39.150051,
+     "lon": 42.5541,
+     "not": "DAI (lon,lat sırası ters okundu düzeltildi)"
+    }
+   ],
+   "hesap": "iki değer ~1.5 km",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Savaş alanı kasabanın çevresidir (savaş yeri kesin değil); koordinat Malazgirt ilçe merkezidir."
+  },
+  {
+   "ad": "Uşnu",
+   "durum": "cift_tanik",
+   "lat": 37.045,
+   "lon": 45.09,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Oshnavieh (Uşnuviyye)",
+   "ulke_modern": "İran (Batı Azerbaycan)",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1079227",
+     "lat": 37.05,
+     "lon": 45.0833,
+     "not": "Oshnovīyeh"
+    },
+    {
+     "kaynak": "GeoNames Ushnu",
+     "url_veya_atif": "geonames.org (önceki tur)",
+     "lat": 37.0397,
+     "lon": 45.0983,
+     "not": "önceki tur (parti 50) GeoNames kaydı"
+    }
+   ],
+   "hesap": "iki değer ~1.2 km",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik (Uşnu = Oshnavieh) TDV başlığıyla önceki turda teyit edilmemişti (alias_teyit:false); bölge (Azerbaycan/Merâga çevresi) uyumlu."
+  },
+  {
+   "ad": "Otrar",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6004463",
+     "lat": 42.913558,
+     "lon": 68.343789,
+     "not": "tek tanık"
+    }
+   ],
+   "hesap": "",
+   "not": "TGN Otrar 42.9136,68.3438 (Kazakistan) var; DAI Otrar kaydında koordinat yok; ikinci bağımsız koordinat bulunamadı. Önceki GeoNames 39.17,63.61 yanlış bölge (Türkmenistan/Özbekistan sınırı) — kullanılmamalı. Kentin harabesi ~42.85N 68.30E civarındadır (tek tanık TGN, yakın)."
+  },
+  {
+   "ad": "Tel Sultan",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Tutuş-Aksungur savaşı (1094) Tel Sultan, Halep çevresi; hiçbir gazetteer kaydı ve kimlik veren kaynak bulunamadı. GeoNames adayları (Libya, Trakya, Washington) bağlam dışı."
+  },
+  {
+   "ad": "Nu‘mâniye",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "GeoNames An Numaniyah",
+     "url_veya_atif": "geonames.org (önceki tur)",
+     "lat": 32.55621,
+     "lon": 45.41293,
+     "not": "tek tanık"
+    },
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu) Wāsiţ",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1001596",
+     "lat": 32.75,
+     "lon": 45.4167,
+     "not": "komşu işaret"
+    }
+   ],
+   "hesap": "",
+   "not": "en-Numâniyye (Dicle üzerinde Bağdat-Vâsıt arası): önceki GeoNames 32.556,45.413 tek tanık; TGN/DAI/Pleiades kaydı bulunamadı. Vâsıt TGN 32.75,45.4167 yalnız bölge işaretidir."
+  },
+  {
+   "ad": "Hille-Vâsıt arası",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu) Bābil",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1001120",
+     "lat": 32.6667,
+     "lon": 44.5833,
+     "not": "Hille yöresi işareti"
+    },
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu) Wāsiţ",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1001596",
+     "lat": 32.75,
+     "lon": 45.4167,
+     "not": "Vâsıt bölgesi işareti"
+    }
+   ],
+   "hesap": "",
+   "not": "Güzergâh/aralık ifadesi; tek bir yer değil (Hille ~32.47,44.42 ile Vâsıt ~32.2,46.3 arası). Nokta verilmedi."
+  },
+  {
+   "ad": "Banyas",
+   "durum": "cift_tanik",
+   "lat": 33.2475,
+   "lon": 35.6935,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Banyas / Paneas (Caesarea Philippi), Golan",
+   "ulke_modern": "Suriye/İsrail (Golan)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 678324 Paneas",
+     "url_veya_atif": "https://pleiades.stoa.org/places/678324",
+     "lat": 33.2475255,
+     "lon": 35.6934605,
+     "not": "Paneas/Caesarea Philippi, Hermon eteği"
+    },
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7016212",
+     "lat": 33.2333,
+     "lon": 35.7,
+     "not": "Banias, Golan"
+    }
+   ],
+   "hesap": "iki değer ~2 km",
+   "not": "Bağımsız: Pleiades ile TGN. Dikkat: önceki tur Suriye kıyısındaki Baniyas (35.18,35.95) vermişti; 1132/33'te Şemsülmülûk İsmâil'in Hama ile birlikte aldığı Banyas Hermon eteğindeki Paneas olarak anlaşılmıştır ancak bu kimlik seçimi (kıyı Baniyas yerine Golan Banyas) kaynakla bu turda tasdik edilmedi — TDV \"Banyas\" maddesiyle teyit önerilir, bu yüzden yaklaşık."
+  },
+  {
+   "ad": "Hârim",
+   "durum": "cift_tanik",
+   "lat": 36.51,
+   "lon": 36.21,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Harim (Qal'at Harim)",
+   "ulke_modern": "Suriye (İdlib)",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2424700 Qal'at Harim",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2424700",
+     "lat": 36.2,
+     "lon": 36.5,
+     "not": "DAI'nin kale kaydı, yuvarlak (0.1°) koordinat"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2281576 Harim / GeoNames",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2281576",
+     "lat": 36.21176,
+     "lon": 36.52078,
+     "not": "GeoNames ile birebir aynı"
+    }
+   ],
+   "hesap": "iki değer ~2 km",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. İki kayıt DAI içinde; ikinci GeoNames ile birebir. Kimlik: Nûreddin Mahmud 1164 Hârim Haçlı kalesi = Qal'at Harim; çevre uyumlu."
+  },
+  {
+   "ad": "Habur",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Habur nehri/vadisi adı (el-Cezîre); nokta yerleşim değil."
+  },
+  {
+   "ad": "Hıttîn",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Pleiades 211425277",
+     "url_veya_atif": "https://pleiades.stoa.org/places/211425277",
+     "lat": 32.75,
+     "lon": 35.25,
+     "not": "TAVO endeksi, yaklaşık"
+    }
+   ],
+   "hesap": "",
+   "not": "Hıttîn (Hattin Boynuzları, Taberiye'nin batısı): Pleiades 211425277 (TAVO) 32.75,35.25 vermiş fakat bu yuvarlak/yaklaşık ve ~20 km sapma olabilir; ikinci bağımsız koordinat kaydı (TGN/DAI/GeoNames Hattin) bulunamadı."
+  },
+  {
+   "ad": "Târût",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu) Qatif",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6004882",
+     "lat": 26.7833,
+     "lon": 49.9667,
+     "not": "komşu şehir"
+    }
+   ],
+   "hesap": "",
+   "not": "Târût (Tarut) Katîf yöresinde ada/kale; önceki GeoNames 26.5733,50.0403 tek tanık; TGN yalnız Qatif 26.7833,49.9667 (komşu). İkinci bağımsız kayıt bulunamadı."
+  },
+  {
+   "ad": "Kerek",
+   "durum": "cift_tanik",
+   "lat": 31.184,
+   "lon": 35.704,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Karak (Kerak Kalesi)",
+   "ulke_modern": "Ürdün",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 697648 Characmoba",
+     "url_veya_atif": "https://pleiades.stoa.org/places/697648",
+     "lat": 31.1831575,
+     "lon": 35.703277,
+     "not": "Kerak / Karak (ad listesinde \"Karak\" var)"
+    },
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7016543",
+     "lat": 31.184722,
+     "lon": 35.704722,
+     "not": "Al Karak, Jordan"
+    }
+   ],
+   "hesap": "iki değer ~200 m",
+   "not": "Bağımsız: Pleiades ile TGN. Önceki tur Java'daki Kerek (-6.89,111.89) vermişti, bölge dışı; Baybars 1263 Kerek/Humus (Suriye-Ürdün) ile Ürdün uyumlu. Pleiades url düzeltme: https://pleiades.stoa.org/places/697648"
+  },
+  {
+   "ad": "Katâi",
+   "durum": "cift_tanik",
+   "lat": 30.0288,
+   "lon": 31.2496,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "el-Katâi (Kahire, İbn Tolun Camii çevresi)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2773269 Jami' Ahmad ibn Tulun",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2773269",
+     "lat": 30.02878538,
+     "lon": 31.24956673,
+     "not": "İbn Tolun Camii: Katâi'nin ayakta kalan çekirdeği"
+    },
+    {
+     "kaynak": "Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu)",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7024441",
+     "lat": 30.007366,
+     "lon": 31.239267,
+     "not": "Misr al-Qadima (Fustat) — Katâi'nin ~2.5 km güneybatısı"
+    }
+   ],
+   "hesap": "camii koordinatı vekil olarak alındı (Katâi camiyi saray/meydanla çevreleyen kuzeydoğu yerleşimdi); Fustat ile ~2.5 km",
+   "not": "Katâi için doğrudan koordinat kaydı bulunamadı; vekil (hesap). Katâi'nin yeri (Fustat'ın kuzeydoğusu, Camii İbn Tolun) bilinen konumdur ama tanıklar yerleşimi değil komşuyu gösterir — yaklaşık. İkinci tanık komşu Fustat olduğundan bağımsızlık sınırlı."
+  },
+  {
+   "ad": "Tisa",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Tisa = Tisza nehri/bölgesi (Avar bağlamı, 602); önceki Tisa 47.95,23.95 köy ve Tipasa Cezayir bağlam dışı."
+  },
+  {
+   "ad": "Angkor Borei",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Önceki GeoNames 10.99497,104.97477 (Takeo) tek tanık; TGN/Pleiades/DAI kaydı yok, ikinci bağımsız kaynak bulunamadı."
+  }
+ ]
+}

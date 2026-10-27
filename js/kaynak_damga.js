@@ -32,10 +32,21 @@
   (T.tdv_slug.haric || []).forEach(function (s) { slugHaric[s] = true; });
   var slugUrl = T.tdv_slug.url_kalibi;
   var tdvKademe = "A";
+  // HIZ (25 Ekim 2026): bir girdinin desenleri TEK alternasyonda birleşir — `eslesen` yalnız
+  // "girdinin HERHANGİ bir deseni tuttu mu"ya bakar, yani (?:a)|(?:b) ile a, b'yi ayrı ayrı
+  // sınamak aynı cevabı verir (desenlerde geri başvuru / adlı grup / satır içi bayrak YOK —
+  // olursa ayrı sınamaya düşülür). ÖLÇÜLDÜ: 957 desen → 292 ifade, 26.915 parça 5,6 → 1,3 sn,
+  // fark 0; esit_sina.py FARK 0.
+  function birlesik(ds, bayrak) {
+    if (!ds.length) return [];
+    if (ds.some(function (p) { return /\\[1-9]|\(\?</.test(p); })) {
+      return ds.map(function (p) { return new RegExp(p, bayrak); });
+    }
+    return [new RegExp(ds.map(function (p) { return "(?:" + p + ")"; }).join("|"), bayrak)];
+  }
   var girdiler = T.kaynaklar.map(function (e) {
     if (e.kod === "TDV") tdvKademe = e.kademe;
-    var rx = (e.desen || []).map(function (p) { return new RegExp(p, "i"); })
-      .concat((e.desen_duyarli || []).map(function (p) { return new RegExp(p); }));
+    var rx = birlesik(e.desen || [], "i").concat(birlesik(e.desen_duyarli || [], ""));
     return { kod: e.kod, kademe: e.kademe, genel: !!e.genel, rx: rx,
              sonra: e.yalniz_sonra || null, once: e.once_kademe || null };
   });
@@ -54,17 +65,23 @@
     function d(s, n) { s = String(s); while (s.length < n) s = "0" + s; return s; }
     return d(+m[1], 4) + "-" + d(+(m[2] || 1), 2) + "-" + d(+(m[3] || 1), 2);
   }
+  // Tutan girdiler tarihten bağımsızdır (tarih yalnız kademeyi seçer) ⇒ parça metnine göre önbellek.
+  var tutanOnbellek = typeof Map === "function" ? new Map() : null;
+  function tutanlar(s) {
+    if (tutanOnbellek && tutanOnbellek.has(s)) return tutanOnbellek.get(s);
+    var r = girdiler.filter(function (g) {
+      for (var i = 0; i < g.rx.length; i++) if (g.rx[i].test(s)) return true;
+      return false;
+    });
+    if (tutanOnbellek) tutanOnbellek.set(s, r);
+    return r;
+  }
   function eslesen(s, tarih) {
     var ozel = [], genel = [];
-    girdiler.forEach(function (g) {
-      for (var i = 0; i < g.rx.length; i++) {
-        if (g.rx[i].test(s)) {
-          var kad = g.kademe;
-          if (g.sonra && (tarih === null || tarih < g.sonra)) kad = g.once;
-          (g.genel ? genel : ozel).push([g.kod, kad]);
-          return;
-        }
-      }
+    tutanlar(s).forEach(function (g) {
+      var kad = g.kademe;
+      if (g.sonra && (tarih === null || tarih < g.sonra)) kad = g.once;
+      (g.genel ? genel : ozel).push([g.kod, kad]);
     });
     return ozel.length ? ozel : genel;
   }

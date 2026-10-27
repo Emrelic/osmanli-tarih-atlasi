@@ -1,0 +1,6436 @@
+[
+ {
+  "ad": "Masvingo (Great Zimbabwe)",
+  "kronoloji_adi": "Masvingo",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_afrika.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Libya",
+  "kronoloji_adi": "Libya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_afrika.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Mısır",
+  "kronoloji_adi": "Mısır",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0116-01-01",
+    "devlet": "part",
+    "madde": "Diaspora İsyanı: Kirenaika'dan Suriye ve Mısır'a yayılan Yahudi ayaklanması Trai",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0116-01-01",
+    "devlet": "roma-imp",
+    "madde": "Diaspora İsyanı: Kirenaika'dan Suriye ve Mısır'a yayılan Yahudi ayaklanması Trai",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0175-01-01",
+    "devlet": "roma-imp",
+    "madde": "Avidius Cassius Marcus Aurelius'a karşı doğuda isyan etti; Temmuzda subayları ta",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0270-01-01",
+    "devlet": "palmira",
+    "madde": "Zeyneb 70.000 kişilik orduyla Mısır'a girip Roma kuvvetlerini yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0270-01-01",
+    "devlet": "roma-imp",
+    "madde": "Zeyneb 70.000 kişilik orduyla Mısır'a girip Roma kuvvetlerini yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0395-01-01",
+    "devlet": "bizans",
+    "madde": "I. Theodosios'un ölümüyle imparatorluk ikiye ayrıldı; Mısır Doğu Roma'da kaldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0395-01-01",
+    "devlet": "roma-imp",
+    "madde": "I. Theodosios'un ölümüyle imparatorluk ikiye ayrıldı; Mısır Doğu Roma'da kaldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0431-01-01",
+    "devlet": "bizans",
+    "madde": "Efes Konsili: Nestorius mahkûm edildi ve Mısır'a sürüldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0610-01-01",
+    "devlet": "bizans",
+    "madde": "Herakleios Bizans tahtına geçti; Mısır Phokas'a karşı Herakleios'u destekledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0619-01-01",
+    "devlet": "bizans",
+    "madde": "Sâsânîler Mısır'ı ele geçirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0619-01-01",
+    "devlet": "bizans",
+    "madde": "Sâsânîler Mısır'ı işgal etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0619-01-01",
+    "devlet": "sasani",
+    "madde": "Sâsânîler Mısır'ı ele geçirdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Feremâ",
+  "kronoloji_adi": "Feremâ",
+  "tur": "kale",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0640-01-01",
+    "devlet": "bizans",
+    "madde": "Amr b. Âs Mısır'a girdi ve Feremâ'yı aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0640-01-01",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Amr b. Âs Mısır'a girdi ve Feremâ'yı aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0640-01-02",
+    "devlet": "bizans",
+    "madde": "Amr b. Âs Mısır seferine çıktı; sınır kasabası Feremâ alındı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0640-01-02",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Amr b. Âs Mısır seferine çıktı; sınır kasabası Feremâ alındı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Eski Kahire (Babilon Kalesi)",
+  "kronoloji_adi": "Eski Kahire",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0641-01-01",
+    "devlet": "bizans",
+    "madde": "Babilon Kalesi fethedildi; deltanın güneyle bağlantısı kesildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0641-01-01",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Babilon Kalesi fethedildi; deltanın güneyle bağlantısı kesildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0643-01-01",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Amr b. Âs Fustat'ı kurdu (Mısır'ın ilk İslâm şehri)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Hatra (Al Ḩaḑar)",
+  "kronoloji_adi": "Hatra",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "hatra",
+    "f": "0155-01-01",
+    "t": "0241-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0117-01-01",
+    "devlet": "part",
+    "madde": "Traianus Hatra'yı kuşattı ancak su ve odun yokluğundan sonuç alamadı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0117-01-01",
+    "devlet": "roma-imp",
+    "madde": "Traianus Hatra'yı kuşattı ancak su ve odun yokluğundan sonuç alamadı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0193-01-01",
+    "devlet": "part",
+    "madde": "Hatra kralı Barsemias ve Part kralı V. Vologases Pescennius Niger'i destekledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0193-01-01",
+    "devlet": "roma-imp",
+    "madde": "Hatra kralı Barsemias ve Part kralı V. Vologases Pescennius Niger'i destekledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0197-01-01",
+    "devlet": "part",
+    "madde": "Septimius Severus ikinci kez Hatra'yı kuşattı; kuşatma makineleri yakıldı, geri ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0197-01-01",
+    "devlet": "roma-imp",
+    "madde": "Septimius Severus ikinci kez Hatra'yı kuşattı; kuşatma makineleri yakıldı, geri ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0226-01-01",
+    "devlet": "sasani",
+    "madde": "Erdeşîr'in Hatra'yı alma girişimi sonuçsuz kaldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0235-01-01",
+    "devlet": "roma-imp",
+    "madde": "Hatra Roma safında: Roma garnizonu yerleşti, Latince adaklar bu yıldan başlar",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0240-01-01",
+    "devlet": "sasani",
+    "madde": "Sâsânîler Hatra'yı aldı; şehir sonra terk edildi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Harran",
+  "kronoloji_adi": "Harran",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "numeyri",
+    "f": "0991-01-01",
+    "t": "1083-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0991-01-01",
+    "devlet": "hamdani-halep",
+    "madde": "Sa'düddevle'nin ölümü: Halep'e bağlı valiler bağımsızlıklarını ilân etti; Vessâb",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0991-01-01",
+    "devlet": "numeyri",
+    "madde": "Sa'düddevle'nin ölümü: Halep'e bağlı valiler bağımsızlıklarını ilân etti; Vessâb",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1010-01-01",
+    "devlet": "numeyri",
+    "madde": "Ukaylî Karvâş ve Harran Nümeyrîleri Fâtımî hâkimiyetini tanıdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1010-01-01",
+    "devlet": "ukayli",
+    "madde": "Ukaylî Karvâş ve Harran Nümeyrîleri Fâtımî hâkimiyetini tanıdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1104-05-07",
+    "devlet": "antakya-prinkipsligi",
+    "madde": "Harran Savaşı: Antakya ve Urfa Haçlıları Sökmen ile Çökürmüş'e yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1104-05-07",
+    "devlet": "antakya-prinkipsligi",
+    "madde": "Harran Savaşı: Artukoğlu Sökmen ve Çökürmüş, Urfa ve Antakya Haçlılarını yendi; ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1104-05-07",
+    "devlet": "artuklu",
+    "madde": "Harran Savaşı: Antakya ve Urfa Haçlıları Sökmen ile Çökürmüş'e yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1104-05-07",
+    "devlet": "artuklu",
+    "madde": "Harran Savaşı: Artukoğlu Sökmen ve Çökürmüş, Urfa ve Antakya Haçlılarını yendi; ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1104-05-07",
+    "devlet": "buyuk-selcuklu",
+    "madde": "Harran Savaşı: Antakya ve Urfa Haçlıları Sökmen ile Çökürmüş'e yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1104-05-07",
+    "devlet": "buyuk-selcuklu",
+    "madde": "Harran Savaşı: Artukoğlu Sökmen ve Çökürmüş, Urfa ve Antakya Haçlılarını yendi; ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1104-05-07",
+    "devlet": "urfa-kontlugu",
+    "madde": "Harran Savaşı: Antakya ve Urfa Haçlıları Sökmen ile Çökürmüş'e yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1104-05-07",
+    "devlet": "urfa-kontlugu",
+    "madde": "Harran Savaşı: Artukoğlu Sökmen ve Çökürmüş, Urfa ve Antakya Haçlılarını yendi; ",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Osrhoene",
+  "kronoloji_adi": "Osrhoene",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0195-01-01",
+    "devlet": "part",
+    "madde": "Septimius Severus'un birinci Part seferi: Osrhoene, Arabia Scenitae ve Adiabene ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0195-01-01",
+    "devlet": "roma-imp",
+    "madde": "Septimius Severus'un birinci Part seferi: Osrhoene, Arabia Scenitae ve Adiabene ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0199-01-01",
+    "devlet": "part",
+    "madde": "Severus Osrhoene ve Mezopotamya eyaletlerini kurarak Part sınırını güvenceye ald",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0199-01-01",
+    "devlet": "roma-imp",
+    "madde": "Severus Osrhoene ve Mezopotamya eyaletlerini kurarak Part sınırını güvenceye ald",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Misis (Yakapınar)",
+  "kronoloji_adi": "Misis",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0965-01-07",
+    "devlet": "bizans",
+    "madde": "Nikephoros Phokas Misis ve Tarsus'u aldı: Çukurova Bizans'a geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0965-01-07",
+    "devlet": "hamdani-halep",
+    "madde": "Nikephoros Phokas Misis ve Tarsus'u aldı: Çukurova Bizans'a geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1199-01-01",
+    "devlet": "selcuklu",
+    "madde": "Misis, Anadolu Selçuklu Sultanı II. Süleyman Şah'a tâbi oldu",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Ahlat",
+  "kronoloji_adi": "Ahlat",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "ahlatsahlar",
+    "f": "1100-01-01",
+    "t": "1208-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1128-01-01",
+    "devlet": "ahlatsahlar",
+    "madde": "Altı yaşındaki II. Sökmen Ahlatşah oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1185-07-10",
+    "devlet": "ahlatsahlar",
+    "madde": "Ahlatşah II. Sökmen öldü; Meyyâfârikīn Selâhaddin'e geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1185-07-10",
+    "devlet": "eyyubi",
+    "madde": "Ahlatşah II. Sökmen öldü; Meyyâfârikīn Selâhaddin'e geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1193-05-18",
+    "devlet": "ahlatsahlar",
+    "madde": "Ahlatşah Begtemür öldürüldü, damadı Hezâr Dînârî tahtı aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Sart",
+  "kronoloji_adi": "Sart",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Nīnawā (Mosul)",
+  "kronoloji_adi": "Nīnawā",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Adiabene",
+  "kronoloji_adi": "Adiabene",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0195-01-01",
+    "devlet": "part",
+    "madde": "Septimius Severus'un birinci Part seferi: Osrhoene, Arabia Scenitae ve Adiabene ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0195-01-01",
+    "devlet": "roma-imp",
+    "madde": "Septimius Severus'un birinci Part seferi: Osrhoene, Arabia Scenitae ve Adiabene ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0216-01-01",
+    "devlet": "part",
+    "madde": "Caracalla II. Artabanos'un kızını istedi, reddedilince Part savaşı çıktı; Roma o",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0216-01-01",
+    "devlet": "roma-imp",
+    "madde": "Caracalla II. Artabanos'un kızını istedi, reddedilince Part savaşı çıktı; Roma o",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Bâlis (Maskanah)",
+  "kronoloji_adi": "Bâlis",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0256-01-01",
+    "devlet": "roma-imp",
+    "madde": "I. Şâpûr Roma topraklarına saldırdı; Barbalissus'ta Roma ordusunu yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0256-01-01",
+    "devlet": "sasani",
+    "madde": "I. Şâpûr Roma topraklarına saldırdı; Barbalissus'ta Roma ordusunu yendi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Sis (Kozan)",
+  "kronoloji_adi": "Sis",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "kilikya-ermeni",
+    "f": "1199-01-06",
+    "t": "1375-04-14",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "rupeniler",
+    "f": "1092-01-01",
+    "t": "1199-01-06",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1219-01-01",
+    "devlet": "kilikya-ermeni",
+    "madde": "I. Hethum dönemi başladı (1219-1270); Hetumî hânedanı Rubenîlerin yerini aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Mezopotamya",
+  "kronoloji_adi": "Mezopotamya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0116-01-01",
+    "devlet": "part",
+    "madde": "Diaspora İsyanı: Kirenaika'dan Suriye ve Mısır'a yayılan Yahudi ayaklanması Trai",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0116-01-01",
+    "devlet": "roma-imp",
+    "madde": "Diaspora İsyanı: Kirenaika'dan Suriye ve Mısır'a yayılan Yahudi ayaklanması Trai",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0164-01-01",
+    "devlet": "part",
+    "madde": "Roma Partları Suriye'den çıkardı; Avidius Cassius Mezopotamya'ya yürüdü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0164-01-01",
+    "devlet": "roma-imp",
+    "madde": "Roma Partları Suriye'den çıkardı; Avidius Cassius Mezopotamya'ya yürüdü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0199-01-01",
+    "devlet": "part",
+    "madde": "Severus Osrhoene ve Mezopotamya eyaletlerini kurarak Part sınırını güvenceye ald",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0199-01-01",
+    "devlet": "roma-imp",
+    "madde": "Severus Osrhoene ve Mezopotamya eyaletlerini kurarak Part sınırını güvenceye ald",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0218-01-01",
+    "devlet": "part",
+    "madde": "Roma Part'a elli milyon dinar ödeyerek barış yaptı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0218-01-01",
+    "devlet": "roma-imp",
+    "madde": "Roma Part'a elli milyon dinar ödeyerek barış yaptı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0337-01-01",
+    "devlet": "roma-imp",
+    "madde": "II. Şâpûr Bizans'a sefer düzenledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0337-01-01",
+    "devlet": "sasani",
+    "madde": "II. Şâpûr Bizans'a sefer düzenledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0532-01-01",
+    "devlet": "bizans",
+    "madde": "Enûşirvân Bizans'la barış yaptı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0532-01-01",
+    "devlet": "sasani",
+    "madde": "Enûşirvân Bizans'la barış yaptı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kapadokya",
+  "kronoloji_adi": "Kapadokya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0017-01-01",
+    "devlet": "kapadokya-krallik",
+    "madde": "Son Kapadokya kralı Archelaos öldü; Kapadokya Roma eyaleti oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0017-01-01",
+    "devlet": "roma-imp",
+    "madde": "Son Kapadokya kralı Archelaos öldü; Kapadokya Roma eyaleti oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0806-01-01",
+    "devlet": "abbasi",
+    "madde": "Hârûnürreşîd büyük orduyla Bizans'a girdi: Herakleia, Iconium ve Tyana alındı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0806-01-01",
+    "devlet": "bizans",
+    "madde": "Hârûnürreşîd büyük orduyla Bizans'a girdi: Herakleia, Iconium ve Tyana alındı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kilikya",
+  "kronoloji_adi": "Kilikya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0117-01-01",
+    "devlet": "roma-imp",
+    "madde": "Traianus Kilikya'da öldü (Ağustos 117); Part seferi fethedilen toprakların terki",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0965-01-07",
+    "devlet": "bizans",
+    "madde": "Nikephoros Phokas Misis ve Tarsus'u aldı: Çukurova Bizans'a geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0965-01-07",
+    "devlet": "hamdani-halep",
+    "madde": "Nikephoros Phokas Misis ve Tarsus'u aldı: Çukurova Bizans'a geçti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Meyyâfârikīn",
+  "kronoloji_adi": "Meyyâfârikīn",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "eyyubi-meyyafarikin",
+    "f": "1185-01-01",
+    "t": "1260-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "mervani",
+    "f": "0983-01-01",
+    "t": "1085-08-30",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0983-06-15",
+    "devlet": "mervani",
+    "madde": "Bâd Meyyâfârikīn'i aldı; Mervânî devletinin temeli atıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0990-03-31",
+    "devlet": "mervani",
+    "madde": "Bâd öldü; yeğeni Ebû Ali Hasan Meyyâfârikīn'i ve Diyarbekir kalelerini aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0997-01-14",
+    "devlet": "mervani",
+    "madde": "Ebû Ali Hasan öldürüldü; kardeşi Mümehhidüddevle Saîd geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1201-01-01",
+    "devlet": "eyyubi",
+    "madde": "Âdil'in büyük sultanlığı kabul edildi; Dımaşk, Mısır ve el-Cezîre oğullarına pay",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1260-01-01",
+    "devlet": "ilhanli",
+    "madde": "Hülâgû Meyyâfârikîn'i aldı; el-Cezîre Eyyûbî kolu sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1260-01-01",
+    "devlet": "ilhanli",
+    "madde": "Yeşmut Meyyâfârikîn'i alıp Eyyûbîlerin bu koluna son verdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Şeyzer",
+  "kronoloji_adi": "Şeyzer",
+  "tur": "kale",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "munkizogullari",
+    "f": "1081-01-01",
+    "t": "1157-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1111-01-01",
+    "devlet": "antakya-prinkipsligi",
+    "madde": "Mevdûd ve Tuğtegin Şeyzer önünde Antakya Haçlılarını yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1111-01-01",
+    "devlet": "boriler",
+    "madde": "Mevdûd ve Tuğtegin Şeyzer önünde Antakya Haçlılarını yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1111-01-01",
+    "devlet": "buyuk-selcuklu",
+    "madde": "Mevdûd ve Tuğtegin Şeyzer önünde Antakya Haçlılarını yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1111-01-01",
+    "devlet": "munkizogullari",
+    "madde": "Mevdûd ve Tuğtegin Şeyzer önünde Antakya Haçlılarını yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1128-01-01",
+    "devlet": "munkizogullari",
+    "madde": "Şeyzer emîri Sultan b. Ali Zengî'nin himayesini kabul etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1138-04-29",
+    "devlet": "bizans",
+    "madde": "Bizans İmparatoru Ioannes Komnenos Şeyzer'i kuşattı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1138-04-29",
+    "devlet": "munkizogullari",
+    "madde": "Bizans İmparatoru Ioannes Komnenos Şeyzer'i kuşattı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kınnesrin",
+  "kronoloji_adi": "Kınnesrin",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0554-01-01",
+    "devlet": "gassani",
+    "madde": "III. Münzir Gassânîler'le savaşırken Kınnesrin'de öldürüldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0554-01-01",
+    "devlet": "lahmi",
+    "madde": "III. Münzir Gassânîler'le savaşırken Kınnesrin'de öldürüldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0945-01-01",
+    "devlet": "hamdani-halep",
+    "madde": "Seyfüddevle Dımaşk'ı aldı, kısa sürede kaybetti: Kuzey Suriye Hamdânîler'de, gün",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0945-01-01",
+    "devlet": "ihsidi",
+    "madde": "Seyfüddevle Dımaşk'ı aldı, kısa sürede kaybetti: Kuzey Suriye Hamdânîler'de, gün",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kadıköy",
+  "kronoloji_adi": "Kadıköy",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0451-01-01",
+    "devlet": "aksum",
+    "madde": "Kalkedon Konsili: Dioskoros aforoz edildi; Kıptî (Mısır) kilisesi Bizans'tan ayr",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0451-01-01",
+    "devlet": "bizans",
+    "madde": "Kalkedon Konsili: Dioskoros aforoz edildi; Kıptî (Mısır) kilisesi Bizans'tan ayr",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0626-01-01",
+    "devlet": "avar",
+    "madde": "Sâsânîler Khalkedon'a (Kadıköy) kadar ilerledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0626-01-01",
+    "devlet": "bizans",
+    "madde": "Sâsânîler Khalkedon'a (Kadıköy) kadar ilerledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0626-01-01",
+    "devlet": "sasani",
+    "madde": "Sâsânîler Khalkedon'a (Kadıköy) kadar ilerledi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Ani",
+  "kronoloji_adi": "Ani",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "zakarid",
+    "f": "1201-01-01",
+    "t": "1360-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "ani-bagratli-kralligi",
+    "f": "0885-06-18",
+    "t": "1045-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "seddadiler-ani",
+    "f": "1064-01-01",
+    "t": "1175-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0885-06-18",
+    "devlet": "abbasi",
+    "madde": "Bagratlı Aşot (I. Aşot) halife ve Bizans imparatorunca Ermenistan kralı tanındı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0885-06-18",
+    "devlet": "ani-bagratli-kralligi",
+    "madde": "Bagratlı Aşot (I. Aşot) halife ve Bizans imparatorunca Ermenistan kralı tanındı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0885-06-18",
+    "devlet": "bizans",
+    "madde": "Bagratlı Aşot (I. Aşot) halife ve Bizans imparatorunca Ermenistan kralı tanındı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1045-01-01",
+    "devlet": "ani-bagratli-kralligi",
+    "madde": "Ani (Ermeni Bagratlı) toprakları Bizans'a ilhak edildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1045-01-01",
+    "devlet": "bizans",
+    "madde": "Ani (Ermeni Bagratlı) toprakları Bizans'a ilhak edildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1126-01-01",
+    "devlet": "ahlatsahlar",
+    "madde": "IV. Fazl Ani'yi Gürcülerden geri aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1126-01-01",
+    "devlet": "gurcistan",
+    "madde": "IV. Fazl Ani'yi Gürcülerden geri aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1126-01-01",
+    "devlet": "irak-selcuklu",
+    "madde": "IV. Fazl Ani'yi Gürcülerden geri aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1126-01-01",
+    "devlet": "saltuklu",
+    "madde": "IV. Fazl Ani'yi Gürcülerden geri aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1126-01-01",
+    "devlet": "seddadiler-ani",
+    "madde": "IV. Fazl Ani'yi Gürcülerden geri aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1154-01-01",
+    "devlet": "ahlatsahlar",
+    "madde": "Saltuklu II. İzzeddin Saltuk Ani'de Gürcülere esir düştü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1154-01-01",
+    "devlet": "artuklu",
+    "madde": "Saltuklu II. İzzeddin Saltuk Ani'de Gürcülere esir düştü",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Amorion (Amorium)",
+  "kronoloji_adi": "Amorion",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0838-08-12",
+    "devlet": "abbasi",
+    "madde": "Amorion (Ammûriye) Abbâsîler'e geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0838-08-12",
+    "devlet": "bizans",
+    "madde": "Amorion (Ammûriye) Abbâsîler'e geçti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Ergani",
+  "kronoloji_adi": "Ergani",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1144-01-01",
+    "devlet": "inalogullari",
+    "madde": "Zengî İnaloğullarından Ergani, Hâlâr, Tulhum ve Çermük'ü aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1144-01-01",
+    "devlet": "zengi-musul",
+    "madde": "Zengî İnaloğullarından Ergani, Hâlâr, Tulhum ve Çermük'ü aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Pozantı",
+  "kronoloji_adi": "Pozantı",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0833-08-09",
+    "devlet": "abbasi",
+    "madde": "Me'mûn Bedendûn'da öldü; kardeşi Mu'tasım Türk kumandanların desteğiyle halife o",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Suriye",
+  "kronoloji_adi": "Suriye",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0001-01-01",
+    "devlet": "part",
+    "madde": "Roma-Part antlaşması: Part Ermenistan üzerindeki iddiadan vazgeçti, Roma V. Volo",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0001-01-01",
+    "devlet": "roma-imp",
+    "madde": "Roma-Part antlaşması: Part Ermenistan üzerindeki iddiadan vazgeçti, Roma V. Volo",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0164-01-01",
+    "devlet": "part",
+    "madde": "Roma Partları Suriye'den çıkardı; Avidius Cassius Mezopotamya'ya yürüdü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0164-01-01",
+    "devlet": "roma-imp",
+    "madde": "Roma Partları Suriye'den çıkardı; Avidius Cassius Mezopotamya'ya yürüdü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0175-01-01",
+    "devlet": "roma-imp",
+    "madde": "Avidius Cassius Marcus Aurelius'a karşı doğuda isyan etti; Temmuzda subayları ta",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0193-01-01",
+    "devlet": "part",
+    "madde": "Hatra kralı Barsemias ve Part kralı V. Vologases Pescennius Niger'i destekledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0193-01-01",
+    "devlet": "roma-imp",
+    "madde": "Hatra kralı Barsemias ve Part kralı V. Vologases Pescennius Niger'i destekledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0569-01-01",
+    "devlet": "gassani",
+    "madde": "II. Hâris b. Cebele öldü; oğlu Münzir geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0613-01-01",
+    "devlet": "bizans",
+    "madde": "Sâsânî Suriye seferi Gassânî hâkimiyetini yıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0613-01-01",
+    "devlet": "gassani",
+    "madde": "Sâsânî Suriye seferi Gassânî hâkimiyetini yıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0613-01-01",
+    "devlet": "sasani",
+    "madde": "Sâsânî Suriye seferi Gassânî hâkimiyetini yıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0628-01-01",
+    "devlet": "bizans",
+    "madde": "Herakleios Suriye'yi geri aldı; Sâsânîler Suriye, Filistin ve Mısır'ı iade etmey",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Ermenistan",
+  "kronoloji_adi": "Ermenistan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0035-01-01",
+    "devlet": "part",
+    "madde": "Ermenistan vârisliği krizi: Roma adayı Tiridates Ktesifon'da Part kralı ilan edi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0035-01-01",
+    "devlet": "roma-imp",
+    "madde": "Ermenistan vârisliği krizi: Roma adayı Tiridates Ktesifon'da Part kralı ilan edi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0053-01-01",
+    "devlet": "part",
+    "madde": "I. Vologases kardeşi Tiridates'i Ermenistan kralı yaptı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0053-01-01",
+    "devlet": "roma-imp",
+    "madde": "I. Vologases kardeşi Tiridates'i Ermenistan kralı yaptı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0114-01-01",
+    "devlet": "arsakuni-ermenistan",
+    "madde": "Traianus Ermenistan'a girdi; Osroes'un atadığı Parthamasiris öldürüldü, Ermenist",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0114-01-01",
+    "devlet": "part",
+    "madde": "Traianus Ermenistan'a girdi; Osroes'un atadığı Parthamasiris öldürüldü, Ermenist",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0114-01-01",
+    "devlet": "roma-imp",
+    "madde": "Traianus Ermenistan'a girdi; Osroes'un atadığı Parthamasiris öldürüldü, Ermenist",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0134-01-01",
+    "devlet": "part",
+    "madde": "Alanlar Part egemenliğindeki Albania, Medya ve Ermenistan'a saldırıp Kappadokia'",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0134-01-01",
+    "devlet": "roma-imp",
+    "madde": "Alanlar Part egemenliğindeki Albania, Medya ve Ermenistan'a saldırıp Kappadokia'",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0161-01-01",
+    "devlet": "part",
+    "madde": "IV. Vologases Antoninus Pius'un ölümünün ardından Ermenistan'a saldırdı; Roma-Pa",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0161-01-01",
+    "devlet": "roma-imp",
+    "madde": "IV. Vologases Antoninus Pius'un ölümünün ardından Ermenistan'a saldırdı; Roma-Pa",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0163-01-01",
+    "devlet": "arsakuni-ermenistan",
+    "madde": "Roma karşı saldırıyla Ermenistan'ı geri aldı; Sohaemus Roma'nın kralı olarak taç",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Pavia",
+  "kronoloji_adi": "Pavia",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "dogu-got",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "karolenj-italya",
+    "f": "0774-01-01",
+    "t": "0962-02-02",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "langobard",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "odoakar",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devredilebilir": true,
+    "dogrulama": "okundu",
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "pavia-komunu",
+    "f": "1100-01-01",
+    "t": "1359-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "visconti-signoria",
+    "f": "1277-01-01",
+    "t": "1395-05-11",
+    "devredilebilir": true,
+    "dogrulama": "okundu",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "karolenj-italya",
+    "f": "0774-01-01",
+    "t": "0962-02-02",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "langobard",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0476-08-23",
+    "devlet": "bati-roma",
+    "madde": "Odoacer askerlerince kral ilan edildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0476-08-23",
+    "devlet": "odoakar",
+    "madde": "Odoacer askerlerince kral ilan edildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0774-01-01",
+    "devlet": "frank",
+    "madde": "Karl (Charlemagne) Lombard kralı oldu; Lombard Krallığı sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0774-01-01",
+    "devlet": "karolenj-italya",
+    "madde": "Karl (Charlemagne) Lombard kralı oldu; Lombard Krallığı sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0774-01-01",
+    "devlet": "langobard",
+    "madde": "Karl (Charlemagne) Lombard kralı oldu; Lombard Krallığı sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0817-01-01",
+    "devlet": "karolenj-italya",
+    "madde": "Pius Louis Bernard'ın yerine Lothar'ı İtalya kralı yaptı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0844-01-01",
+    "devlet": "karolenj-italya",
+    "madde": "II. Louis yalnız İtalya'nın kral-imparatoru olarak tahta çıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0888-01-01",
+    "devlet": "karolenj-italya",
+    "madde": "I. Berengar Pavia'da İtalya kralı seçildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0926-01-01",
+    "devlet": "karolenj-italya",
+    "madde": "Arles'lı Hugh İtalya kralı oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0951-01-01",
+    "devlet": "karolenj-italya",
+    "madde": "Otto I İtalya'ya girip Lombardlar kralı unvanını aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Taormina",
+  "kronoloji_adi": "Taormina",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "sicilya-emirligi-aglebi-kalbi",
+    "f": "0827-06-01",
+    "t": "1091-01-01",
+    "devredilebilir": true,
+    "dogrulama": "okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0902-01-01",
+    "devlet": "aglebi",
+    "madde": "Taormina'nın alınmasıyla Sicilya'nın fethi tamamlandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0962-02-09",
+    "devlet": "sicilya-emirligi",
+    "madde": "Ahmed b. Hasan Taormina Kalesi'ni 7 aylık kuşatmayla aldı, adını Muizziye koydu",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Cirencester",
+  "kronoloji_adi": "Cirencester",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0628-01-01",
+    "devlet": "mercia",
+    "madde": "Penda Cirencester'da Hwicce'yi yenip topraklarını kattı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Lusitania",
+  "kronoloji_adi": "Lusitania",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0447-01-01",
+    "devlet": "suev",
+    "madde": "Kral Rechila döneminde Suebler Lusitania ve Baetica'ya yayıldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Baetica",
+  "kronoloji_adi": "Baetica",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0447-01-01",
+    "devlet": "suev",
+    "madde": "Kral Rechila döneminde Suebler Lusitania ve Baetica'ya yayıldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Agri Decumates",
+  "kronoloji_adi": "Agri Decumates",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0260-01-01",
+    "devlet": "alamanlar",
+    "madde": "Alamanlar Agri Decumates bölgesini işgal etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0260-01-01",
+    "devlet": "roma-imp",
+    "madde": "Alamanlar Agri Decumates bölgesini işgal etti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Oderzo",
+  "kronoloji_adi": "Oderzo",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0641-01-01",
+    "devlet": "langobard",
+    "madde": "Bizans'ın Oderzo kenti Lombardlar'a geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0641-01-01",
+    "devlet": "ravenna-eksarhligi",
+    "madde": "Bizans'ın Oderzo kenti Lombardlar'a geçti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Mazara del Vallo",
+  "kronoloji_adi": "Mazara del Vallo",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0827-04-02",
+    "devlet": "aglebi",
+    "madde": "Ağlebî donanması Mazara'yı aldı: Sicilya fethi başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0827-04-02",
+    "devlet": "sicilya-emirligi",
+    "madde": "Ağlebî donanması Mazara'yı aldı: Sicilya fethi başladı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Sason",
+  "kronoloji_adi": "Sason",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1174-08-11",
+    "devlet": "ahlatsahlar",
+    "madde": "Ahlatşah II. Sökmen Sasun kalelerini üç yıllık kuşatmadan sonra aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Carcassonne",
+  "kronoloji_adi": "Carcassonne",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1112-01-01",
+    "devlet": "barselona-kontlugu",
+    "madde": "III. Ramon Berenguer, Provence varisi Dolça ile evlendi; Provence hakları Barsel",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Meaux",
+  "kronoloji_adi": "Meaux",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1229-01-01",
+    "devlet": "fransa",
+    "madde": "Paris (Meaux) Antlaşması: Albigens seferi biter, Toulouse mirası Capet'lere bağl",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1229-01-01",
+    "devlet": "toulouse",
+    "madde": "Paris (Meaux) Antlaşması: Albigens seferi biter, Toulouse mirası Capet'lere bağl",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kırım",
+  "kronoloji_adi": "Kırım",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1221-01-01",
+    "devlet": "kipcak",
+    "madde": "Kıpçak-Rus kuvvetleri Selçuklu Suğdak'ını geri alamadı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1221-01-01",
+    "devlet": "selcuklu",
+    "madde": "Kıpçak-Rus kuvvetleri Selçuklu Suğdak'ını geri alamadı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Soissons",
+  "kronoloji_adi": "Soissons",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "neustria",
+    "f": "0511-01-01",
+    "t": "0751-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "soissons-devleti",
+    "f": "0461-01-01",
+    "t": "0486-01-01",
+    "devredilebilir": true,
+    "dogrulama": "okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0751-01-01",
+    "devlet": "frank",
+    "madde": "Pippin III papalık onayıyla son Merovenj kralı Childeric'i tahttan indirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1201-09-10",
+    "devlet": "montferrat-markizligi",
+    "madde": "Bonifacio Soissons'ta IV. Haçlı Seferi'nin komutasını resmen kabul etti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Falkirk",
+  "kronoloji_adi": "Falkirk",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Senlis",
+  "kronoloji_adi": "Senlis",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0862-01-01",
+    "devlet": "bati-francia",
+    "madde": "I. Baudouin, Charles le Chauve'ün kızı Judith ile kaçıp evlendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0862-01-01",
+    "devlet": "flandre",
+    "madde": "I. Baudouin, Charles le Chauve'ün kızı Judith ile kaçıp evlendi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Auxerre",
+  "kronoloji_adi": "Auxerre",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0862-01-01",
+    "devlet": "bati-francia",
+    "madde": "I. Baudouin, Charles le Chauve'ün kızı Judith ile kaçıp evlendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0862-01-01",
+    "devlet": "flandre",
+    "madde": "I. Baudouin, Charles le Chauve'ün kızı Judith ile kaçıp evlendi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Laon",
+  "kronoloji_adi": "Laon",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "bati-francia",
+    "f": "0843-01-01",
+    "t": "0987-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0898-01-01",
+    "devlet": "bati-francia",
+    "madde": "Basit Charles (III) batı Frank tahtına çıktı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Almuñécar",
+  "kronoloji_adi": "Almuñécar",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0755-08-14",
+    "devlet": "endulus-emevi",
+    "madde": "Abdurrahman b. Muâviye Münekkeb'e (Almuñécar) çıktı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Cerami",
+  "kronoloji_adi": "Cerami",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1063-01-01",
+    "devlet": "apulya-dukaligi",
+    "madde": "Cerami Savaşı: Roger Sicilya müslümanlarını yener",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1063-01-01",
+    "devlet": "sicilya-emirligi",
+    "madde": "Cerami Savaşı: Roger Sicilya müslümanlarını yener",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Cassel",
+  "kronoloji_adi": "Cassel",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Solin",
+  "kronoloji_adi": "Solin",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1075-01-01",
+    "devlet": "hirvatistan-kralligi",
+    "madde": "Papa elçisi Solin'de Zvonimir'i Hırvatistan kralı olarak taçlandırdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1075-01-01",
+    "devlet": "papalik",
+    "madde": "Papa elçisi Solin'de Zvonimir'i Hırvatistan kralı olarak taçlandırdı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Uclés",
+  "kronoloji_adi": "Uclés",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1108-01-01",
+    "devlet": "kastilya",
+    "madde": "Uclés (Uklîş) Savaşı: Murâbıtlar Kastilya ordusunu yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1108-01-01",
+    "devlet": "murabitlar",
+    "madde": "Uclés (Uklîş) Savaşı: Murâbıtlar Kastilya ordusunu yendi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Enns",
+  "kronoloji_adi": "Enns",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1186-01-01",
+    "devlet": "avusturya-dukaligi",
+    "madde": "Georgenberg Paktı: Steiermark'ın Babenberg'lere mirası kararlaştırıldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Béziers",
+  "kronoloji_adi": "Béziers",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1209-07-22",
+    "devlet": "papalik",
+    "madde": "Albigens Haçlı Seferi: Béziers alınır ve halkı katledilir",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1209-07-22",
+    "devlet": "toulouse",
+    "madde": "Albigens Haçlı Seferi: Béziers alınır ve halkı katledilir",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Millau",
+  "kronoloji_adi": "Millau",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1249-09-27",
+    "devlet": "fransa",
+    "madde": "VII. Raymond ölür; Toulouse damadı Alphonse de Poitiers'ye geçer",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1249-09-27",
+    "devlet": "toulouse",
+    "madde": "VII. Raymond ölür; Toulouse damadı Alphonse de Poitiers'ye geçer",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Apulia",
+  "kronoloji_adi": "Apulia",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1250-12-13",
+    "devlet": "almanya",
+    "madde": "II. Friedrich Castel Fiorentino'da öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1250-12-13",
+    "devlet": "sicilya-kralligi",
+    "madde": "II. Friedrich Castel Fiorentino'da öldü",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Asti",
+  "kronoloji_adi": "Asti",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "asti-komunu",
+    "f": "1095-01-01",
+    "t": "1387-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "torino-markizligi",
+    "f": "0940-01-01",
+    "t": "1091-12-19",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1260-03-24",
+    "devlet": "montferrat-markizligi",
+    "madde": "VII. Guglielmo Asti ile Anjou'lu Charles'a karşı ittifak yaptı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1260-03-24",
+    "devlet": "provence-kontlugu",
+    "madde": "VII. Guglielmo Asti ile Anjou'lu Charles'a karşı ittifak yaptı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Pannonia",
+  "kronoloji_adi": "Pannonia",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "avar",
+    "f": "0567-01-01",
+    "t": "0822-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "hun-avrupa",
+    "f": "0370-01-01",
+    "t": "0455-01-01",
+    "devredilebilir": true,
+    "dogrulama": "okundu",
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "avar",
+    "f": "0567-01-01",
+    "t": "0822-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0536-01-01",
+    "devlet": "gepid",
+    "madde": "Gepid-Lombard savaşları başladı (536 - yaklaşık 567)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0536-01-01",
+    "devlet": "langobard",
+    "madde": "Gepid-Lombard savaşları başladı (536 - yaklaşık 567)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0567-01-01",
+    "devlet": "avar",
+    "madde": "Lombardlar ve Avarlar Gepidler'i ezdi; Kral Cunimund öldürüldü, Gepid Krallığı s",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0567-01-01",
+    "devlet": "gepid",
+    "madde": "Lombardlar ve Avarlar Gepidler'i ezdi; Kral Cunimund öldürüldü, Gepid Krallığı s",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0567-01-01",
+    "devlet": "langobard",
+    "madde": "Lombardlar ve Avarlar Gepidler'i ezdi; Kral Cunimund öldürüldü, Gepid Krallığı s",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0568-01-01",
+    "devlet": "avar",
+    "madde": "Longobardlar İtalya'ya çekilir; Macaristan toprakları Avarlara kalır",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0796-01-01",
+    "devlet": "avar",
+    "madde": "Şarlman Avar imparatorluğunu yıktı; Moravyalılara bir kısmını verdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0796-01-01",
+    "devlet": "frank",
+    "madde": "Şarlman Avar imparatorluğunu yıktı; Moravyalılara bir kısmını verdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0907-01-01",
+    "devlet": "dogu-francia",
+    "madde": "Macarlar Alman ordusunu yenip Pannonia'yı işgal etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0907-01-01",
+    "devlet": "macar-prensligi",
+    "madde": "Macarlar Alman ordusunu yenip Pannonia'yı işgal etti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Gallaecia",
+  "kronoloji_adi": "Gallaecia",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0409-01-01",
+    "devlet": "suev",
+    "madde": "Suebler Pireneler'i aşıp İspanya'ya girdi; kuzeybatıda (Gallaecia) yerleşti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0448-01-01",
+    "devlet": "suev",
+    "madde": "Kral Rechiar Hıristiyan olarak tahta çıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0456-01-01",
+    "devlet": "suev",
+    "madde": "Maldras Suev kralı oldu (456-460); rakip krallar dönemi başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0585-01-01",
+    "devlet": "suev",
+    "madde": "Suev Krallığı Vizigot devletine katıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0585-01-01",
+    "devlet": "vizigot",
+    "madde": "Suev Krallığı Vizigot devletine katıldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Dacia",
+  "kronoloji_adi": "Dacia",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0536-01-01",
+    "devlet": "gepid",
+    "madde": "Gepid-Lombard savaşları başladı (536 - yaklaşık 567)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0536-01-01",
+    "devlet": "langobard",
+    "madde": "Gepid-Lombard savaşları başladı (536 - yaklaşık 567)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0567-01-01",
+    "devlet": "avar",
+    "madde": "Lombardlar ve Avarlar Gepidler'i ezdi; Kral Cunimund öldürüldü, Gepid Krallığı s",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0567-01-01",
+    "devlet": "gepid",
+    "madde": "Lombardlar ve Avarlar Gepidler'i ezdi; Kral Cunimund öldürüldü, Gepid Krallığı s",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0567-01-01",
+    "devlet": "langobard",
+    "madde": "Lombardlar ve Avarlar Gepidler'i ezdi; Kral Cunimund öldürüldü, Gepid Krallığı s",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Britannia",
+  "kronoloji_adi": "Britannia",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0306-07-25",
+    "devlet": "roma-imp",
+    "madde": "Konstantin'in Britannia'daki askerlerce imparator ilan edilmesi (306)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Sicilya",
+  "kronoloji_adi": "Sicilya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0535-01-01",
+    "devlet": "bizans",
+    "madde": "Justinianos Ostrogotlar'a savaş açtı; İtalya'nın geri alınması başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0535-01-01",
+    "devlet": "dogu-got",
+    "madde": "Justinianos Ostrogotlar'a savaş açtı; İtalya'nın geri alınması başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0826-01-01",
+    "devlet": "aglebi",
+    "madde": "Bizans donanma komutanı Euphemios Sicilya valisine isyan edip Ağlebîler'den yard",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0909-03-18",
+    "devlet": "aglebi",
+    "madde": "Fâtımîler Ağlebîler'i ortadan kaldırdı; Sicilya Fâtımî yönetimine geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1038-01-01",
+    "devlet": "sicilya-emirligi",
+    "madde": "Kelbî emiri Ahmed Zîrî kuvvetlerince öldürülür; kardeşi Hasan başa geçer",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1053-01-01",
+    "devlet": "sicilya-emirligi",
+    "madde": "Kelbî yönetimi yıkılır, Sicilya mahallî emirliklere bölünür",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1194-01-01",
+    "devlet": "almanya",
+    "madde": "VI. Heinrich Sicilya Krallığını ele geçirir: Hohenstaufen dönemi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1194-01-01",
+    "devlet": "sicilya-kralligi",
+    "madde": "VI. Heinrich Sicilya Krallığını ele geçirir: Hohenstaufen dönemi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1943-07-10",
+    "devlet": "abd",
+    "madde": "Müttefikler Sicilya'ya çıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1943-07-10",
+    "devlet": "ingiltere",
+    "madde": "Müttefikler Sicilya'ya çıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1943-07-10",
+    "devlet": "italya",
+    "madde": "Müttefikler Sicilya'ya çıktı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "İfrîkıye",
+  "kronoloji_adi": "İfrîkıye",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0910-01-15",
+    "devlet": "abbasi",
+    "madde": "Ubeydullah el-Mehdî Rakkāde'de halife ilân edildi: Fâtımî hilâfeti kuruldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0910-01-15",
+    "devlet": "fatimi",
+    "madde": "Ubeydullah el-Mehdî Rakkāde'de halife ilân edildi: Fâtımî hilâfeti kuruldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0953-03-19",
+    "devlet": "fatimi",
+    "madde": "Muiz-Lidînillâh Fâtımî halifesi oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0969-02-05",
+    "devlet": "fatimi",
+    "madde": "Muiz ordu teftişi yapıp Cevher es-Sıkıllî'yi Mısır seferinin başına atadı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0969-02-05",
+    "devlet": "ihsidi",
+    "madde": "Muiz ordu teftişi yapıp Cevher es-Sıkıllî'yi Mısır seferinin başına atadı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0978-01-01",
+    "devlet": "fatimi",
+    "madde": "Trablus ve Sicilya dışındaki İfrîkıye ve Mağrib valilikleri Bulukkîn'e bırakıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0978-01-01",
+    "devlet": "ziriler",
+    "madde": "Trablus ve Sicilya dışındaki İfrîkıye ve Mağrib valilikleri Bulukkîn'e bırakıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1123-01-01",
+    "devlet": "sicilya-kralligi",
+    "madde": "Sicilya kontu II. Roger'in Mehdiye seferi başarısız olur",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "İtalya",
+  "kronoloji_adi": "İtalya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0535-01-01",
+    "devlet": "bizans",
+    "madde": "Justinianos Ostrogotlar'a savaş açtı; İtalya'nın geri alınması başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0535-01-01",
+    "devlet": "dogu-got",
+    "madde": "Justinianos Ostrogotlar'a savaş açtı; İtalya'nın geri alınması başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0616-01-01",
+    "devlet": "avar",
+    "madde": "Avarlar Longobardlarla birlikte İtalya'ya akınlar yapar",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0875-01-01",
+    "devlet": "karolenj-italya",
+    "madde": "II. Louis erkek varissiz öldü; Karolenj İtalyası dağılmaya başladı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Endülüs",
+  "kronoloji_adi": "Endülüs",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0756-01-01",
+    "devlet": "abbasi",
+    "madde": "Endülüs Abbâsî hilâfetinden fiilen koptu: Abdurrahman b. Muâviye bağımsız davran",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1086-10-23",
+    "devlet": "tekrur-kralligi",
+    "madde": "Tekrûr birlikleri Murâbıt ordusuyla birlikte Zellâka Savaşı'na katıldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Trakya",
+  "kronoloji_adi": "Trakya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0717-01-01",
+    "devlet": "birinci-bulgar",
+    "madde": "Han Tervel Arap İstanbul kuşatmasını kaldırtmak için Bizans'a yardım etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0717-01-01",
+    "devlet": "bizans",
+    "madde": "Han Tervel Arap İstanbul kuşatmasını kaldırtmak için Bizans'a yardım etti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Makedonya",
+  "kronoloji_adi": "Makedonya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1072-01-01",
+    "devlet": "bizans",
+    "madde": "Makedonya ayaklanması: Bodin 'Bulgar çarı Petar' ilan edildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1072-01-01",
+    "devlet": "duklja",
+    "madde": "Makedonya ayaklanması: Bodin 'Bulgar çarı Petar' ilan edildi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Toskana",
+  "kronoloji_adi": "Toskana",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1197-11-11",
+    "devlet": "floransa",
+    "madde": "Lucca ilk Toskana Guelf Birliği'ne katıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1197-11-11",
+    "devlet": "lucca-cumhuriyeti",
+    "madde": "Lucca ilk Toskana Guelf Birliği'ne katıldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Mora",
+  "kronoloji_adi": "Mora",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1264-01-01",
+    "devlet": "ahaya-prinkepsligi",
+    "madde": "Makryplagi Savaşı: Frank-Türk ordusu Bizanslıları yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1264-01-01",
+    "devlet": "bizans",
+    "madde": "Makryplagi Savaşı: Frank-Türk ordusu Bizanslıları yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1383-01-01",
+    "devlet": "mora-despotlugu",
+    "madde": "Theodoros Palaiologos Mora despotu oldu — Arnavut iskânı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1395-01-01",
+    "devlet": "mora-despotlugu",
+    "madde": "Osmanlılar Carlo Tocco'nun davetiyle Mora'ya girdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1825-06-22",
+    "devlet": "misir-kavalali",
+    "madde": "Tripoliçe'nin geri alınması — Mora'nın merkezinin düşüşü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1828-10-05",
+    "devlet": "misir-kavalali",
+    "madde": "Mısır kuvvetlerinin Mora'yı boşaltması",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Saluzzo",
+  "kronoloji_adi": "Saluzzo",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "saluzzo-markizligi",
+    "f": "1142-01-01",
+    "t": "1548-02-23",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1142-01-01",
+    "devlet": "saluzzo-markizligi",
+    "madde": "Bonifacio del Vasto'nun yedi oğlu mirası bölüştü; Manfredo'ya Saluzzo çevresi dü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1176-01-01",
+    "devlet": "saluzzo-markizligi",
+    "madde": "Aile kendini 'Saluzzo markizleri' diye anmaya başladı; ilk unvan sahibi II. Manf",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1215-12-30",
+    "devlet": "saluzzo-markizligi",
+    "madde": "Naip Alasia Saluzzo kalelerini Savoya'ya devretti, markiz onları Savoya'dan fief",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1215-12-30",
+    "devlet": "savoya",
+    "madde": "Naip Alasia Saluzzo kalelerini Savoya'ya devretti, markiz onları Savoya'dan fief",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1244-01-01",
+    "devlet": "saluzzo-markizligi",
+    "madde": "III. Manfredo öldü; I. Tommaso markiz oldu (1244-1296)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Haliç",
+  "kronoloji_adi": "Haliç",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1214-01-01",
+    "devlet": "galicya-volhinya",
+    "madde": "Macar kralı II. Andras ve Leszek Peremışl ile Haliç'i işgal etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1214-01-01",
+    "devlet": "macaristan",
+    "madde": "Macar kralı II. Andras ve Leszek Peremışl ile Haliç'i işgal etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1221-01-01",
+    "devlet": "galicya-volhinya",
+    "madde": "Mstislav Udaloy Macarları Haliç'ten çıkardı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1221-01-01",
+    "devlet": "macaristan",
+    "madde": "Mstislav Udaloy Macarları Haliç'ten çıkardı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1241-01-01",
+    "devlet": "galicya-volhinya",
+    "madde": "Moğollar Haliç'i yerle bir etti; başkent Kholm'a taşındı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1241-01-01",
+    "devlet": "mogol-imparatorlugu",
+    "madde": "Moğollar Haliç'i yerle bir etti; başkent Kholm'a taşındı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Sarmizegetusa",
+  "kronoloji_adi": "Sarmizegetusa",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "dakya",
+    "f": "-0081-01-01",
+    "t": "0106-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0102-01-01",
+    "devlet": "dakya",
+    "madde": "Decebalus Roma işgal garnizonlarını kabul etmeye zorlandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0102-01-01",
+    "devlet": "roma-imp",
+    "madde": "Decebalus Roma işgal garnizonlarını kabul etmeye zorlandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0106-01-01",
+    "devlet": "dakya",
+    "madde": "Trajan Sarmizegetusa'yı ikinci kez aldı; Decebalus intihar etti, Dak Krallığı so",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0106-01-01",
+    "devlet": "roma-imp",
+    "madde": "Trajan Sarmizegetusa'yı ikinci kez aldı; Decebalus intihar etti, Dak Krallığı so",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Melun",
+  "kronoloji_adi": "Melun",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1031-07-20",
+    "devlet": "fransa",
+    "madde": "II. Robert ölür; I. Henri Fransa'nın tek kralı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1108-07-30",
+    "devlet": "fransa",
+    "madde": "I. Philippe ölür; VI. Louis Fransa kralı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Legnano",
+  "kronoloji_adi": "Legnano",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1176-05-29",
+    "devlet": "almanya",
+    "madde": "Legnano Savaşı: Lombard Birliği Barbarossa'yı yener",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1176-05-29",
+    "devlet": "brescia-komunu",
+    "madde": "Legnano Savaşı: Lombard Birliği Barbarossa'yı yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1176-05-29",
+    "devlet": "como-komunu",
+    "madde": "Legnano Savaşı: Lombard Birliği Barbarossa'yı yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1176-05-29",
+    "devlet": "milano-dukaligi",
+    "madde": "Legnano Savaşı: Lombard Birliği Barbarossa'yı yener",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Preslav",
+  "kronoloji_adi": "Preslav",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0893-01-01",
+    "devlet": "birinci-bulgar",
+    "madde": "I. Simeon Bulgar hükümdarı oldu (893-927)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0925-01-01",
+    "devlet": "birinci-bulgar",
+    "madde": "Simeon 'Bütün Bulgarların Çarı' unvanını aldı; Bulgar başpiskoposu patrik rütbes",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0925-01-01",
+    "devlet": "bizans",
+    "madde": "Simeon 'Bütün Bulgarların Çarı' unvanını aldı; Bulgar başpiskoposu patrik rütbes",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0927-05-27",
+    "devlet": "birinci-bulgar",
+    "madde": "Simeon öldü; oğlu I. Petar çar oldu (927-969)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0969-01-30",
+    "devlet": "birinci-bulgar",
+    "madde": "I. Petar öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0971-01-01",
+    "devlet": "birinci-bulgar",
+    "madde": "Tzimiskes Preslav'ı alıp Bulgar çarını esir etti; Doğu Bulgaristan Bizans'a geçt",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0971-01-01",
+    "devlet": "bizans",
+    "madde": "Tzimiskes Preslav'ı alıp Bulgar çarını esir etti; Doğu Bulgaristan Bizans'a geçt",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Verdun",
+  "kronoloji_adi": "Verdun",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0843-01-01",
+    "devlet": "bati-francia",
+    "madde": "Verdun Antlaşması: Kel Charles batı Frank krallığını aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0843-01-01",
+    "devlet": "dogu-francia",
+    "madde": "Verdun Antlaşması: Alman Louis doğu krallığını aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0843-01-01",
+    "devlet": "frank",
+    "madde": "Verdun Antlaşması: Alman Louis doğu krallığını aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0843-01-01",
+    "devlet": "frank",
+    "madde": "Verdun Antlaşması: Kel Charles batı Frank krallığını aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0843-08-01",
+    "devlet": "bati-francia",
+    "madde": "Verdun Antlaşması: Karolenj İmparatorluğu üç oğul arasında paylaşıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0843-08-01",
+    "devlet": "dogu-francia",
+    "madde": "Verdun Antlaşması: Karolenj İmparatorluğu üç oğul arasında paylaşıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0843-08-01",
+    "devlet": "frank",
+    "madde": "Verdun Antlaşması: Karolenj İmparatorluğu üç oğul arasında paylaşıldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kartaca",
+  "kronoloji_adi": "Kartaca",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "bizans-afrika-eksarhligi",
+    "f": "0591-01-01",
+    "t": "0698-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "tire",
+    "f": "-1199-01-01",
+    "t": "-0331-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "kartaca",
+    "f": "-0813-01-01",
+    "t": "-0145-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0439-10-19",
+    "devlet": "bati-roma",
+    "madde": "Gaiseric Kartaca'yı ele geçirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0439-10-19",
+    "devlet": "vandal",
+    "madde": "Gaiseric Kartaca'yı ele geçirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0533-01-01",
+    "devlet": "bizans",
+    "madde": "Belisarius Vandal Krallığı'na karşı Afrika'ya sefer; krallık birkaç ayda yıkıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0533-01-01",
+    "devlet": "vandal",
+    "madde": "Belisarius Vandal Krallığı'na karşı Afrika'ya sefer; krallık birkaç ayda yıkıldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Dumbarton",
+  "kronoloji_adi": "Dumbarton",
+  "tur": "kale",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "strathclyde",
+    "f": "0450-01-01",
+    "t": "1018-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0756-01-01",
+    "devlet": "northumbria",
+    "madde": "Pikt-Angl ortak seferi Strathclyde'ı Northumbria'ya boyun eğdirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0756-01-01",
+    "devlet": "piktler",
+    "madde": "Pikt-Angl ortak seferi Strathclyde'ı Northumbria'ya boyun eğdirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0756-01-01",
+    "devlet": "strathclyde",
+    "madde": "Pikt-Angl ortak seferi Strathclyde'ı Northumbria'ya boyun eğdirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0870-01-01",
+    "devlet": "norvec-kralligi",
+    "madde": "Vikingler Dumbarton'u (Alt Clut) yıktı; krallık zayıfladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0870-01-01",
+    "devlet": "strathclyde",
+    "madde": "Vikingler Dumbarton'u (Alt Clut) yıktı; krallık zayıfladı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Barbastro",
+  "kronoloji_adi": "Barbastro",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1064-01-01",
+    "devlet": "aragon",
+    "madde": "Aragon öncülüğünde Haçlı ordusu Barbastro'yu aldı; Coimbra da düştü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1064-01-01",
+    "devlet": "endulus-tavaif",
+    "madde": "Aragon öncülüğünde Haçlı ordusu Barbastro'yu aldı; Coimbra da düştü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1064-01-01",
+    "devlet": "kastilya",
+    "madde": "Aragon öncülüğünde Haçlı ordusu Barbastro'yu aldı; Coimbra da düştü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1064-01-01",
+    "devlet": "papalik",
+    "madde": "Aragon öncülüğünde Haçlı ordusu Barbastro'yu aldı; Coimbra da düştü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1137-01-01",
+    "devlet": "aragon",
+    "madde": "Barbastro'da Peronella ile Ramon Berenguer IV nişanlandı; Aragon hükümranlığı Ba",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1137-01-01",
+    "devlet": "barselona-kontlugu",
+    "madde": "Barbastro'da Peronella ile Ramon Berenguer IV nişanlandı; Aragon hükümranlığı Ba",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Canterbury",
+  "kronoloji_adi": "Canterbury",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "kent-kralligi",
+    "f": "0455-01-01",
+    "t": "0825-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0597-01-01",
+    "devlet": "kent-kralligi",
+    "madde": "Augustinus'un misyonu Kent'e geldi; Canterbury ilk başpiskoposluk merkezi oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1189-01-01",
+    "devlet": "ingiltere",
+    "madde": "Canterbury Feragatnamesi: İskoçya Falaise'deki bağımlılıktan kurtulur",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1189-01-01",
+    "devlet": "iskocya",
+    "madde": "Canterbury Feragatnamesi: İskoçya Falaise'deki bağımlılıktan kurtulur",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Simancas",
+  "kronoloji_adi": "Simancas",
+  "tur": "kale",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0939-08-01",
+    "devlet": "endulus-emevi",
+    "madde": "Simancas: II. Ramiro III. Abdurrahman'ı yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0939-08-01",
+    "devlet": "endulus-emevi",
+    "madde": "İbn Vâsûl Simancas'a Endülüs saflarında katıldı; Mâlikî mezhebine geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0939-08-01",
+    "devlet": "leon-kralligi",
+    "madde": "Simancas: II. Ramiro III. Abdurrahman'ı yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0939-08-01",
+    "devlet": "midrari",
+    "madde": "İbn Vâsûl Simancas'a Endülüs saflarında katıldı; Mâlikî mezhebine geçti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Gnezno (Gniezno)",
+  "kronoloji_adi": "Gnezno",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "buyuk-polonya-dukaligi",
+    "f": "1138-01-01",
+    "t": "1314-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "polan-gniezno",
+    "f": "0850-01-01",
+    "t": "0966-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1000-01-01",
+    "devlet": "polonya-erken",
+    "madde": "Gnezno başpiskoposluğu kuruldu — Polonya kendi kilise eyaletine kavuştu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1025-01-01",
+    "devlet": "polonya-erken",
+    "madde": "I. Bolesław Chrobry kral olarak taç giydi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Boulogne",
+  "kronoloji_adi": "Boulogne",
+  "tur": "liman",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "britanya-imparatorlugu-carausius",
+    "f": "0286-01-01",
+    "t": "0296-01-01",
+    "devredilebilir": true,
+    "dogrulama": "okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0293-01-01",
+    "devlet": "britanya-imp",
+    "madde": "Constantius Chlorus Boulogne donanma üssünü aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0293-01-01",
+    "devlet": "roma-imp",
+    "madde": "Constantius Chlorus Boulogne donanma üssünü aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Silchester",
+  "kronoloji_adi": "Silchester",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0296-01-01",
+    "devlet": "britanya-imp",
+    "madde": "Constantius Britanya'ya çıktı; Allectus Silchester yakınında öldürüldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0296-01-01",
+    "devlet": "roma-imp",
+    "madde": "Constantius Britanya'ya çıktı; Allectus Silchester yakınında öldürüldü",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Selsey Bill",
+  "kronoloji_adi": "Selsey Bill",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0477-01-01",
+    "devlet": "sussex-kralligi",
+    "madde": "Aelle Selsey Bill yakınına çıkıp Britonları yendi; Güney Saksonların geleneksel ",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Rochester",
+  "kronoloji_adi": "Rochester",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0676-01-01",
+    "devlet": "kent-kralligi",
+    "madde": "Mercia kralı Aethelred Kent'i yağmaladı, Rochester'ı aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0676-01-01",
+    "devlet": "mercia",
+    "madde": "Mercia kralı Aethelred Kent'i yağmaladı, Rochester'ı aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Forfar",
+  "kronoloji_adi": "Forfar",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Bensington (Benson)",
+  "kronoloji_adi": "Bensington",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0779-01-01",
+    "devlet": "mercia",
+    "madde": "Offa Cynewulf'u yenip Bensington'ı aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0779-01-01",
+    "devlet": "wessex",
+    "madde": "Offa Cynewulf'u yenip Bensington'ı aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Repton",
+  "kronoloji_adi": "Repton",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0874-01-01",
+    "devlet": "danimarka-erken",
+    "madde": "Burgred Repton'a ilerleyen Danimarkalılarca Mercia'dan sürüldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0874-01-01",
+    "devlet": "mercia",
+    "madde": "Burgred Repton'a ilerleyen Danimarkalılarca Mercia'dan sürüldü",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Saint-Maurice d'Agaune",
+  "kronoloji_adi": "Saint-Maurice d'Agaune",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0888-01-01",
+    "devlet": "arles-kralligi",
+    "madde": "Rodolphe (Welf) Agaune'da Burgonya kralı seçildi (Transjurane Burgonya)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Tamworth",
+  "kronoloji_adi": "Tamworth",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "mercia",
+    "f": "0527-01-01",
+    "t": "0918-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0918-06-12",
+    "devlet": "wessex",
+    "madde": "Aethelflaed öldü; Edward Mercia'yı Wessex'e kattı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Tolbiacum (Zülpich)",
+  "kronoloji_adi": "Tolbiacum",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0496-01-01",
+    "devlet": "alamanlar",
+    "madde": "Clovis Alamanları fethedip Frank topraklarına kattı (Tolbiacum)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0496-01-01",
+    "devlet": "frank",
+    "madde": "Clovis Alamanları fethedip Frank topraklarına kattı (Tolbiacum)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Gainsborough",
+  "kronoloji_adi": "Gainsborough",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1013-01-01",
+    "devlet": "ingiltere",
+    "madde": "Danimarka kralı Sven Çatalsakal İngiltere'yi fetheder, kral kabul edilir",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Bautzen",
+  "kronoloji_adi": "Bautzen",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1018-01-01",
+    "devlet": "almanya",
+    "madde": "Bautzen Barışı: Lusatia ve Meissen sınır bölgeleri Polonya'ya bırakıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1018-01-01",
+    "devlet": "polonya-erken",
+    "madde": "Bautzen Barışı: Lusatia ve Meissen sınır bölgeleri Polonya'ya bırakıldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Vienne",
+  "kronoloji_adi": "Vienne",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "arles-kralligi",
+    "f": "0933-01-01",
+    "t": "1032-09-06",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "asagi-burgundia-provence",
+    "f": "0879-10-15",
+    "t": "0933-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "arles-kralligi",
+    "f": "0933-01-01",
+    "t": "1032-09-06",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1032-09-06",
+    "devlet": "almanya",
+    "madde": "III. Rudolf ölür; Burgonya (Arles) Krallığı II. Konrad'a, Kutsal Roma'ya geçer",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1032-09-06",
+    "devlet": "arles-kralligi",
+    "madde": "III. Rudolf ölür; Burgonya (Arles) Krallığı II. Konrad'a, Kutsal Roma'ya geçer",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Trogir",
+  "kronoloji_adi": "Trogir",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "venedik-dalmacya",
+    "f": "1000-01-01",
+    "t": "1358-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1105-01-01",
+    "devlet": "macaristan",
+    "madde": "Zadar ve Dalmaçya şehirleri Koloman'ın hâkimiyetini tanıdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1105-01-01",
+    "devlet": "venedik",
+    "madde": "Zadar ve Dalmaçya şehirleri Koloman'ın hâkimiyetini tanıdı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Tinchebrai (Tinchebray)",
+  "kronoloji_adi": "Tinchebrai",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1106-09-28",
+    "devlet": "ingiltere",
+    "madde": "Tinchebrai Muharebesi: İngiltere kralı I. Henry Normandiya'yı alır",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1106-09-28",
+    "devlet": "normandiya",
+    "madde": "Tinchebrai Muharebesi: İngiltere kralı I. Henry Normandiya'yı alır",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Châlons",
+  "kronoloji_adi": "Châlons",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0274-01-01",
+    "devlet": "galya-imp",
+    "madde": "Châlons: Aurelianus Tetricus'u yendi, Galya İmparatorluğu sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0274-01-01",
+    "devlet": "roma-imp",
+    "madde": "Châlons: Aurelianus Tetricus'u yendi, Galya İmparatorluğu sona erdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Doncaster",
+  "kronoloji_adi": "Doncaster",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Hexham",
+  "kronoloji_adi": "Hexham",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0634-01-01",
+    "devlet": "northumbria",
+    "madde": "Oswald Cadwallon'u Hexham yakınında yenip öldürdü; Lindisfarne manastırı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Oswestry",
+  "kronoloji_adi": "Oswestry",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Leeds",
+  "kronoloji_adi": "Leeds",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Whitby",
+  "kronoloji_adi": "Whitby",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0663-01-01",
+    "devlet": "northumbria",
+    "madde": "Whitby Sinodu: Oswiu Roma usulünü seçti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Dunkeld",
+  "kronoloji_adi": "Dunkeld",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0843-01-01",
+    "devlet": "dal-riata",
+    "madde": "Kenneth mac Alpin Piktlerin de kralı oldu: Pikt ve Dál Riata tahtı birleşti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0843-01-01",
+    "devlet": "piktler",
+    "madde": "Kenneth mac Alpin Piktlerin de kralı oldu: Pikt ve Dál Riata tahtı birleşti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Vendôme",
+  "kronoloji_adi": "Vendôme",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0851-01-01",
+    "devlet": "bretanya",
+    "madde": "Nominoë Vendôme'da öldü; oğlu Erispoë yerine geçti (851-857)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Edington",
+  "kronoloji_adi": "Edington",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0878-05-06",
+    "devlet": "danimarka-erken",
+    "madde": "Edington Savaşı: Alfred Guthrum'u yendi, İngiltere Wessex ve Danelaw'a bölündü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0878-05-06",
+    "devlet": "dogu-anglia",
+    "madde": "Edington Savaşı: Alfred Guthrum'u yendi, İngiltere Wessex ve Danelaw'a bölündü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0878-05-06",
+    "devlet": "mercia",
+    "madde": "Edington Savaşı: Alfred Guthrum'u yendi, İngiltere Wessex ve Danelaw'a bölündü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0878-05-06",
+    "devlet": "wessex",
+    "madde": "Edington Savaşı: Alfred Guthrum'u yendi, İngiltere Wessex ve Danelaw'a bölündü",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Talavera",
+  "kronoloji_adi": "Talavera",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0913-01-01",
+    "devlet": "endulus-emevi",
+    "madde": "Ordoño Évora/Talavera'yı yağmaladı; Müslümanlar'a karşı Leon seferi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0913-01-01",
+    "devlet": "leon-kralligi",
+    "madde": "Ordoño Évora/Talavera'yı yağmaladı; Müslümanlar'a karşı Leon seferi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Monemvasia",
+  "kronoloji_adi": "Monemvasia",
+  "tur": "kale",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1263-01-01",
+    "devlet": "ahaya-prinkepsligi",
+    "madde": "VIII. Mihail Mora'ya 6000 Selçuklu paralı askeri getirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1263-01-01",
+    "devlet": "bizans",
+    "madde": "VIII. Mihail Mora'ya 6000 Selçuklu paralı askeri getirdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Jaca",
+  "kronoloji_adi": "Jaca",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "aragon-kontlugu",
+    "f": "0809-01-01",
+    "t": "1035-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1134-01-01",
+    "devlet": "aragon",
+    "madde": "I. Alfonso'nun ölümü: Navarra Aragon'dan ayrıldı, II. Ramiro Aragon kralı seçild",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1134-01-01",
+    "devlet": "navarra",
+    "madde": "I. Alfonso'nun ölümü: Navarra Aragon'dan ayrıldı, II. Ramiro Aragon kralı seçild",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Bulgaristan",
+  "kronoloji_adi": "Bulgaristan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0811-07-26",
+    "devlet": "birinci-bulgar",
+    "madde": "Krum Bizans ordusunu ezdi, İmparator I. Nikephoros öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0811-07-26",
+    "devlet": "bizans",
+    "madde": "Krum Bizans ordusunu ezdi, İmparator I. Nikephoros öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1241-01-01",
+    "devlet": "bulgar-carligi",
+    "madde": "Bulgaristan Tatar saldırısına uğradı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1241-01-01",
+    "devlet": "mogol-imparatorlugu",
+    "madde": "Bulgaristan Tatar saldırısına uğradı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1277-01-01",
+    "devlet": "bulgar-carligi",
+    "madde": "İvaylo Ayaklanması başladı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Dalmaçya",
+  "kronoloji_adi": "Dalmaçya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0480-01-01",
+    "devlet": "odoakar",
+    "madde": "Odoacer Dalmaçya'yı işgal edip iki yılda fethetti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0914-01-01",
+    "devlet": "hirvatistan-kralligi",
+    "madde": "Tomislav 914'te 'knez' olarak anılıyor (yazılı kaynaktaki tek kesin veri)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1000-01-01",
+    "devlet": "venedik",
+    "madde": "Venedik Dükü II. Pietro Orseolo'nun Dalmaçya seferi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1074-01-01",
+    "devlet": "hirvatistan-kralligi",
+    "madde": "Norman kontu Amiko Hırvatistan'a saldırıp IV. Petar Krešimir'i esir aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Normandiya",
+  "kronoloji_adi": "Normandiya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0942-01-01",
+    "devlet": "bati-francia",
+    "madde": "Richard I Normandiya dükü oldu (942-996); IV. Louis'in hırslarını boşa çıkardı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0942-01-01",
+    "devlet": "normandiya",
+    "madde": "Richard I Normandiya dükü oldu (942-996); IV. Louis'in hırslarını boşa çıkardı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0996-01-01",
+    "devlet": "fransa",
+    "madde": "II. Richard Normandiya dükü oldu (996-1027); Kapet ittifakı sürdü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0996-01-01",
+    "devlet": "normandiya",
+    "madde": "II. Richard Normandiya dükü oldu (996-1027); Kapet ittifakı sürdü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1106-09-28",
+    "devlet": "ingiltere",
+    "madde": "Tinchebrai Muharebesi: İngiltere kralı I. Henry Normandiya'yı alır",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1106-09-28",
+    "devlet": "normandiya",
+    "madde": "Tinchebrai Muharebesi: İngiltere kralı I. Henry Normandiya'yı alır",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1144-01-01",
+    "devlet": "ingiltere",
+    "madde": "Anjou kontu Geoffroi Plantagenet Normandiya'yı fetheder",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1144-01-01",
+    "devlet": "normandiya",
+    "madde": "Anjou kontu Geoffroi Plantagenet Normandiya'yı fetheder",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1944-06-06",
+    "devlet": "abd",
+    "madde": "Normandiya çıkarması: Fransa'nın kurtuluşu başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1944-06-06",
+    "devlet": "almanya",
+    "madde": "Normandiya çıkarması: Fransa'nın kurtuluşu başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1944-06-06",
+    "devlet": "fransa-cumhuriyet",
+    "madde": "Normandiya çıkarması: Fransa'nın kurtuluşu başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1944-06-06",
+    "devlet": "ingiltere",
+    "madde": "Normandiya çıkarması: Fransa'nın kurtuluşu başladı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Bretanya",
+  "kronoloji_adi": "Bretanya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0857-01-01",
+    "devlet": "bretanya",
+    "madde": "Salomon Bretanya'da iktidara geldi (857-874)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0874-06-25",
+    "devlet": "bretanya",
+    "madde": "Salomon'un trajik ölümü; Bretanya'da karışıklık ve Norman istilası",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1166-01-01",
+    "devlet": "bretanya",
+    "madde": "Bretanya dükü IV. Conan düklüğü II. Henry'ye (oğlu Geoffroi adına) bırakmak zoru",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1166-01-01",
+    "devlet": "ingiltere",
+    "madde": "Bretanya dükü IV. Conan düklüğü II. Henry'ye (oğlu Geoffroi adına) bırakmak zoru",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1171-01-01",
+    "devlet": "bretanya",
+    "madde": "Geoffroi Plantagenet Bretanya dükü olur; düklük Angevin 'imparatorluğuna' katılı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1171-01-01",
+    "devlet": "ingiltere",
+    "madde": "Geoffroi Plantagenet Bretanya dükü olur; düklük Angevin 'imparatorluğuna' katılı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1213-01-01",
+    "devlet": "bretanya",
+    "madde": "Pierre Mauclerc Bretanya'da Capet dükleri soyunu başlatır",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1213-01-01",
+    "devlet": "fransa",
+    "madde": "Pierre Mauclerc Bretanya'da Capet dükleri soyunu başlatır",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kafkasya",
+  "kronoloji_adi": "Kafkasya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0134-01-01",
+    "devlet": "part",
+    "madde": "Alanlar Part egemenliğindeki Albania, Medya ve Ermenistan'a saldırıp Kappadokia'",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0134-01-01",
+    "devlet": "roma-imp",
+    "madde": "Alanlar Part egemenliğindeki Albania, Medya ve Ermenistan'a saldırıp Kappadokia'",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0558-01-01",
+    "devlet": "avar",
+    "madde": "Avarlar Bizans'a elçi gönderip yerleşecek toprak ister",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0561-01-01",
+    "devlet": "bizans",
+    "madde": "Bizans-Sâsânî barışı (Lazika savaşı sonrası); Gassânî ve Lahmîler de bağlandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0561-01-01",
+    "devlet": "gassani",
+    "madde": "Bizans-Sâsânî barışı (Lazika savaşı sonrası); Gassânî ve Lahmîler de bağlandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0561-01-01",
+    "devlet": "lahmi",
+    "madde": "Bizans-Sâsânî barışı (Lazika savaşı sonrası); Gassânî ve Lahmîler de bağlandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0561-01-01",
+    "devlet": "sasani",
+    "madde": "Bizans-Sâsânî barışı (Lazika savaşı sonrası); Gassânî ve Lahmîler de bağlandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0624-01-01",
+    "devlet": "bizans",
+    "madde": "Herakleios Hristiyan Kafkas kabileleriyle ordusunu takviye etti (Sâsânî seferi)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0624-01-01",
+    "devlet": "sasani",
+    "madde": "Herakleios Hristiyan Kafkas kabileleriyle ordusunu takviye etti (Sâsânî seferi)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0626-01-01",
+    "devlet": "bizans",
+    "madde": "Herakleios Hazarlar’dan 40.000 kişilik yardım aldı (Avar-Sâsânî İstanbul kuşatma",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0626-01-01",
+    "devlet": "hazar-kaganligi",
+    "madde": "Herakleios Hazarlar’dan 40.000 kişilik yardım aldı (Avar-Sâsânî İstanbul kuşatma",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0626-01-01",
+    "devlet": "sasani",
+    "madde": "Herakleios Hazarlar’dan 40.000 kişilik yardım aldı (Avar-Sâsânî İstanbul kuşatma",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Hırvatistan",
+  "kronoloji_adi": "Hırvatistan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0914-01-01",
+    "devlet": "hirvatistan-kralligi",
+    "madde": "Tomislav 914'te 'knez' olarak anılıyor (yazılı kaynaktaki tek kesin veri)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0925-01-01",
+    "devlet": "hirvatistan-kralligi",
+    "madde": "Tomislav ilk Hırvat kralı: Split sinodunda 'Hırvatlar Kralı' diye anıldı (925)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0927-01-01",
+    "devlet": "birinci-bulgar",
+    "madde": "Hırvatlar Bulgarlar'a karşı büyük zafer kazandı (927)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0927-01-01",
+    "devlet": "hirvatistan-kralligi",
+    "madde": "Hırvatlar Bulgarlar'a karşı büyük zafer kazandı (927)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0928-01-01",
+    "devlet": "hirvatistan-kralligi",
+    "madde": "Tomislav'ın saltanatı sona erdi (yaklaşık 910-928)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Karpat havzası",
+  "kronoloji_adi": "Karpat havzası",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0680-01-01",
+    "devlet": "avar",
+    "madde": "Balkanlar'da Bulgar devletinin kurulması Avarlara karşı isyanı tetikledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0892-01-01",
+    "devlet": "dogu-francia",
+    "madde": "Arnulf Macarları Svatopluk'a karşı yardıma çağırdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0892-01-01",
+    "devlet": "macar-prensligi",
+    "madde": "Arnulf Macarları Svatopluk'a karşı yardıma çağırdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0895-01-01",
+    "devlet": "macar-prensligi",
+    "madde": "Macarlar Árpád önderliğinde Karpatları aşıp Karpat havzasına yerleşti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0904-01-01",
+    "devlet": "macar-prensligi",
+    "madde": "Son kende öldü; Árpád iki makamı birleştirip dük/prens oldu",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Macaristan",
+  "kronoloji_adi": "Macaristan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0568-01-01",
+    "devlet": "avar",
+    "madde": "Longobardlar İtalya'ya çekilir; Macaristan toprakları Avarlara kalır",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0974-01-01",
+    "devlet": "macar-prensligi",
+    "madde": "Prens Géza ve ailesi Batı kilisesine kabul edildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1091-01-01",
+    "devlet": "kipcak",
+    "madde": "Kıpçaklar Macaristan'a, ertesi yıl Lehistan'a girdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1091-01-01",
+    "devlet": "macaristan",
+    "madde": "Kıpçaklar Macaristan'a, ertesi yıl Lehistan'a girdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Britanya",
+  "kronoloji_adi": "Britanya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0286-01-01",
+    "devlet": "britanya-imp",
+    "madde": "Carausius Maximianus'un idam emrine karşı isyan edip imparator ilan etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0286-01-01",
+    "devlet": "roma-imp",
+    "madde": "Carausius Maximianus'un idam emrine karşı isyan edip imparator ilan etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0293-01-01",
+    "devlet": "britanya-imp",
+    "madde": "Carausius maliye bakanı Allectus tarafından öldürüldü; Allectus imparator oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0367-01-01",
+    "devlet": "piktler",
+    "madde": "Pikt Savaşı: Kont Theodosius Britanya'ya gönderildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0367-01-01",
+    "devlet": "roma-imp",
+    "madde": "Pikt Savaşı: Kont Theodosius Britanya'ya gönderildi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Norveç",
+  "kronoloji_adi": "Norveç",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0934-01-01",
+    "devlet": "norvec-kralligi",
+    "madde": "Håkon den gode İngiltere'den dönüp Eirik Blodøks'u tahttan etti (c. 934)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1028-01-01",
+    "devlet": "danimarka",
+    "madde": "Knut Olav Haraldsson'u Norveç'ten kovdu, Norveç'e hâkim oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1028-01-01",
+    "devlet": "norvec-kralligi",
+    "madde": "Knut Olav Haraldsson'u Norveç'ten kovdu, Norveç'e hâkim oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1130-01-01",
+    "devlet": "norvec-kralligi",
+    "madde": "Sigurd Jorsalfare öldü — Norveç iç savaşlar dönemi (1130-1240) başladı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Balkanlar",
+  "kronoloji_adi": "Balkanlar",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0447-01-01",
+    "devlet": "hun-avrupa",
+    "madde": "Attila'nın Balkan seferi: Theodosios ağır tazminat ve yıllık vergiyle barış yapa",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0468-01-01",
+    "devlet": "hun-avrupa",
+    "madde": "Attila'nın oğlu Dengizik Bizans'a yenilir ve İstanbul'da idam edilir",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0630-01-01",
+    "devlet": "avar",
+    "madde": "Bulgarlar Avar hâkimiyetine isyan eder; Slav ve Alp ayaklanmaları Avarları zayıf",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0680-01-01",
+    "devlet": "avar",
+    "madde": "Balkanlar'da Bulgar devletinin kurulması Avarlara karşı isyanı tetikledi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Danimarka",
+  "kronoloji_adi": "Danimarka",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0810-01-01",
+    "devlet": "danimarka-erken",
+    "madde": "Kral Gudfred hirdmanlarından biri tarafından öldürüldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0987-01-01",
+    "devlet": "danimarka",
+    "madde": "Harald Blåtand öldü (987 dolayı); oğlu Svend Tveskæg kral oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1018-01-01",
+    "devlet": "danimarka",
+    "madde": "Büyük Knut Danimarka kralı oldu — Kuzey Denizi imparatorluğu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1047-01-01",
+    "devlet": "danimarka",
+    "madde": "Svend Estridsen Danimarka kralı oldu (Estridsen hanedanı)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "İspanya",
+  "kronoloji_adi": "İspanya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0711-01-01",
+    "devlet": "emevi",
+    "madde": "Târık b. Ziyâd Endülüs'e (İspanya) geçti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Gürcistan",
+  "kronoloji_adi": "Gürcistan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0989-01-01",
+    "devlet": "orta-gurcistan-bagrati",
+    "madde": "Şeddâdî Fazl Gürcü topraklarına yürüdü, yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0989-01-01",
+    "devlet": "seddadiler-gence",
+    "madde": "Şeddâdî Fazl Gürcü topraklarına yürüdü, yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1118-01-01",
+    "devlet": "gurcistan",
+    "madde": "Gürcü kralı Kıpçaklardan 40.000 kişilik atlı ordu kurdu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1118-01-01",
+    "devlet": "kipcak",
+    "madde": "Gürcü kralı Kıpçaklardan 40.000 kişilik atlı ordu kurdu",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Litvanya",
+  "kronoloji_adi": "Litvanya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1251-01-01",
+    "devlet": "litvanya-buyuk-dukalik",
+    "madde": "Mindaugas vaftiz oldu — papalık taç giymesini onayladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1263-01-01",
+    "devlet": "litvanya-buyuk-dukalik",
+    "madde": "Mindaugas ve oğulları suikastle öldürüldü — Litvanya'da taht kavgası",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Almanya",
+  "kronoloji_adi": "Almanya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0924-01-01",
+    "devlet": "dogu-francia",
+    "madde": "I. Henry Macarlara haraç ödeyerek dokuz yıllık ateşkes aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0924-01-01",
+    "devlet": "macar-prensligi",
+    "madde": "I. Henry Macarlara haraç ödeyerek dokuz yıllık ateşkes aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Hollanda",
+  "kronoloji_adi": "Hollanda",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1256-01-01",
+    "devlet": "hollanda-kontlugu",
+    "madde": "V. Floris reşit olmayarak kont oldu; amcası Floris de Voogd vasi oldu",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Dazaifu",
+  "kronoloji_adi": "Dazaifu",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0901-01-01",
+    "devlet": "heian-japonya",
+    "madde": "Sugawara no Michizane, Fujiwara no Tokihira'nın hasmane girişimiyle Kyushu'ya sü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0903-03-26",
+    "devlet": "heian-japonya",
+    "madde": "Sugawara no Michizane Dazaifu'da öldü (sonradan Tenjin olarak tanrılaştırıldı)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1268-01-01",
+    "devlet": "kamakura",
+    "madde": "Kubilay'ın ilk mektubu Japonya'ya ulaştı — Hōjō Tokimune naip oldu",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Moğolistan",
+  "kronoloji_adi": "Moğolistan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0048-01-01",
+    "devlet": "dogu-han",
+    "madde": "Hun (Xiongnu) devleti Kuzey ve Güney olarak ikiye bölündü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0048-01-01",
+    "devlet": "hunnu-xiongnu",
+    "madde": "Hun (Xiongnu) devleti Kuzey ve Güney olarak ikiye bölündü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0093-01-01",
+    "devlet": "dogu-han",
+    "madde": "Kuzey Hun devleti Çin'in kışkırttığı Xianbei ve Dingling saldırılarıyla çöktü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0093-01-01",
+    "devlet": "hunnu-xiongnu",
+    "madde": "Kuzey Hun devleti Çin'in kışkırttığı Xianbei ve Dingling saldırılarıyla çöktü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0552-01-01",
+    "devlet": "gokturk-1",
+    "madde": "Bumın Rouran (Juan-Juan) kağanlığını yıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0552-01-01",
+    "devlet": "gokturk-1",
+    "madde": "Bumın İl Kağan unvanıyla bağımsız Göktürk (Kök-Türk) devletini kurdu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0552-01-01",
+    "devlet": "rouran",
+    "madde": "Bumın Rouran (Juan-Juan) kağanlığını yıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0552-01-01",
+    "devlet": "rouran",
+    "madde": "Bumın İl Kağan unvanıyla bağımsız Göktürk (Kök-Türk) devletini kurdu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0582-01-01",
+    "devlet": "gokturk-1",
+    "madde": "Soğdca Bugut yazıtı dikildi (Göktürk hükümdarlarını anan 582 tarihli yazıt)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0627-01-01",
+    "devlet": "xueyantuo-kaganligi",
+    "madde": "Sir-Tarduş (Xueyantuo) siyasî birliği bağımsızlığını ilan etti (627-646 arası ba",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0646-01-01",
+    "devlet": "tang",
+    "madde": "Sir-Tarduş (Xueyantuo) kağanlığı sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0646-01-01",
+    "devlet": "xueyantuo-kaganligi",
+    "madde": "Sir-Tarduş (Xueyantuo) kağanlığı sona erdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Tayland",
+  "kronoloji_adi": "Tayland",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0900-01-01",
+    "devlet": "angkor-kmer",
+    "madde": "Khmer krallığı bugünkü Burma, Laos ve Tayland'ın geniş alanlarını kapsıyor",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Japonya",
+  "kronoloji_adi": "Japonya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0669-01-01",
+    "devlet": "yamato",
+    "madde": "Nakatomi Kamatari'ye Fujiwara soyadı verildi; Fujiwara klanı doğdu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0669-11-14",
+    "devlet": "yamato",
+    "madde": "Fujiwara (Nakatomi) Kamatari öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0753-01-01",
+    "devlet": "nara-japonya",
+    "madde": "Çinli keşiş Ganjin altıncı denemede Nara'ya ulaştı; Ritsu mezhebini kurdu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0781-01-01",
+    "devlet": "nara-japonya",
+    "madde": "Kammu imparator oldu (781-806); sonra Nagaoka'ya (784) ve Heian'a (794) taşıdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0804-01-01",
+    "devlet": "heian-japonya",
+    "madde": "Saichō Çin'e öğrenmeye gönderildi; Tendai mezhebini getirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0806-01-01",
+    "devlet": "heian-japonya",
+    "madde": "Kūkai Çin'den döndü; Shingon öğretisini yaymak için imparatorluk izni aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0816-01-01",
+    "devlet": "heian-japonya",
+    "madde": "Kūkai Kōya Dağı'nda manastır inşasına başladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0939-01-01",
+    "devlet": "heian-japonya",
+    "madde": "Taira no Masakado Kantō'yu ele geçirip kendini 'Yeni İmparator' ilan etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0940-03-25",
+    "devlet": "heian-japonya",
+    "madde": "Taira no Masakado isyanı bastırıldı; Masakado öldü (Tengyō no ran)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kamboçya",
+  "kronoloji_adi": "Kamboçya",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0710-01-01",
+    "devlet": "chenla",
+    "madde": "Prasat Ak Yom: ilk tipik Khmer tapınak-dağı yapılıyor",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0900-01-01",
+    "devlet": "angkor-kmer",
+    "madde": "Khmer krallığı bugünkü Burma, Laos ve Tayland'ın geniş alanlarını kapsıyor",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kore yarımadası",
+  "kronoloji_adi": "Kore yarımadası",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0676-01-01",
+    "devlet": "tang",
+    "madde": "Tang Kore’den Güney Mançurya’ya çekildi; Silla yükseldi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Sumatra",
+  "kronoloji_adi": "Sumatra",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0684-01-01",
+    "devlet": "srivijaya",
+    "madde": "Talang Tuwo yazıtı: Srivijaya kralının park vakfı ve bodhisattva duası",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Vietnam",
+  "kronoloji_adi": "Vietnam",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Kançipuram (Kanchipuram)",
+  "kronoloji_adi": "Kançipuram",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "pallava-ref",
+    "f": "0275-01-01",
+    "t": "0897-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "pallava",
+    "f": "0350-01-01",
+    "t": "0897-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0350-01-01",
+    "devlet": "gupta",
+    "madde": "Samudragupta, Pallava kralı Vişnugopa'yı yener ve tahtına iade eder (4. yy ortas",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0350-01-01",
+    "devlet": "pallava",
+    "madde": "Samudragupta, Pallava kralı Vişnugopa'yı yener ve tahtına iade eder (4. yy ortas",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0436-01-01",
+    "devlet": "pallava",
+    "madde": "Pallava kralı Simhavarman'ın saltanatı başlar (Lokavibhaga'ya göre 436)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0670-01-01",
+    "devlet": "badami-calukya",
+    "madde": "I. Vikramaditya Pallava başkenti Kançipuram'ı alır (yak. 670)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0670-01-01",
+    "devlet": "pallava",
+    "madde": "I. Vikramaditya Pallava başkenti Kançipuram'ı alır (yak. 670)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0742-01-01",
+    "devlet": "badami-calukya",
+    "madde": "II. Vikramaditya Kançipuram'ı yeniden alır, şehri korur (742)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0742-01-01",
+    "devlet": "pallava",
+    "madde": "II. Vikramaditya Kançipuram'ı yeniden alır, şehri korur (742)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0948-01-01",
+    "devlet": "cola",
+    "madde": "III. Krişna Kançi'yi ve Tamil ovalarının büyük bölümünü işgal eder (948-966/967)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0948-01-01",
+    "devlet": "rastrakuta",
+    "madde": "III. Krişna Kançi'yi ve Tamil ovalarının büyük bölümünü işgal eder (948-966/967)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Hindistan",
+  "kronoloji_adi": "Hindistan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0629-01-01",
+    "devlet": "tang",
+    "madde": "Xuanzang Hindistan’a gitti (645’te döndü)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Beşbalık",
+  "kronoloji_adi": "Beşbalık",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "basmil",
+    "f": "0742-01-01",
+    "t": "0760-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "koco-uygur",
+    "f": "0911-01-01",
+    "t": "1209-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0840-01-01",
+    "devlet": "koco-uygur",
+    "madde": "Uygur boyları dağılır: bir kısmı Beşbalık, Turfan, Hoço ve Kâşgar'a yerleşir",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0840-01-01",
+    "devlet": "koco-uygur",
+    "madde": "Uygur boylarından bir kısmı Turfan-Beşbalık'ta Mengli'yi kağan seçip yeni Uygur ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0840-01-01",
+    "devlet": "uygur-kaganligi",
+    "madde": "Uygur boyları dağılır: bir kısmı Beşbalık, Turfan, Hoço ve Kâşgar'a yerleşir",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0840-01-01",
+    "devlet": "uygur-kaganligi",
+    "madde": "Uygur boylarından bir kısmı Turfan-Beşbalık'ta Mengli'yi kağan seçip yeni Uygur ",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Polonnaruva (Polonnaruwa antik şehri)",
+  "kronoloji_adi": "Polonnaruva",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1070-01-01",
+    "devlet": "cola",
+    "madde": "I. Vijayabahu Seylan'ı Çola işgalinden kurtardı, başkenti Polonnaruva'ya taşıdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1070-01-01",
+    "devlet": "seylan-sinhala",
+    "madde": "I. Vijayabahu Seylan'ı Çola işgalinden kurtardı, başkenti Polonnaruva'ya taşıdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1153-01-01",
+    "devlet": "seylan-sinhala",
+    "madde": "I. Parakramabahu Polonnaruva tahtına çıktı; Sinhala krallığı en parlak dönemine ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1186-01-01",
+    "devlet": "seylan-sinhala",
+    "madde": "Seylan tahtı Kalinga hanedanına geçti; Nissankamalla Polonnaruva kralı oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1214-01-01",
+    "devlet": "seylan-sinhala",
+    "madde": "Kalingalı Magha paralı askerlerle Seylan'ı istilâ edip bütün adayı ele geçirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1255-01-01",
+    "devlet": "seylan-sinhala",
+    "madde": "Kalingalı Magha'nın Polonnaruva'daki yönetimi sona erdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Deybül (Debal)",
+  "kronoloji_adi": "Deybül",
+  "tur": "liman",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "arap-sind",
+    "f": "0711-01-01",
+    "t": "0854-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "cac-sind",
+    "f": "0632-01-01",
+    "t": "0712-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0712-01-01",
+    "devlet": "emevi",
+    "madde": "Muhammed b. Kāsım Deybül'ü alarak Sind fethini başlattı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0712-01-01",
+    "devlet": "emevi",
+    "madde": "Muhammed b. Kāsım üç ay süren kuşatmanın ardından Deybül'ü alır (93/712)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Mahoba",
+  "kronoloji_adi": "Mahoba",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "candela-ref",
+    "f": "0831-01-01",
+    "t": "1315-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1165-01-01",
+    "devlet": "candela",
+    "madde": "Paramardi Çandela tahtına çıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1182-01-01",
+    "devlet": "cahamana",
+    "madde": "III. Pritvirac Çandela ülkesini istilâ edip Mahoba'yı yağmaladı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1182-01-01",
+    "devlet": "candela",
+    "madde": "III. Pritvirac Çandela ülkesini istilâ edip Mahoba'yı yağmaladı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Badami",
+  "kronoloji_adi": "Badami",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "badami-ref",
+    "f": "0543-01-01",
+    "t": "0753-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": false
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "badami-calukya",
+    "f": "0543-01-01",
+    "t": "0757-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0610-01-01",
+    "devlet": "badami-calukya",
+    "madde": "II. Pulakeşin Badami Çalukya tahtında (yak. 610-642); Gujarat ve Malwa'nın bir k",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0757-01-01",
+    "devlet": "badami-calukya",
+    "madde": "Badami Çalukya kralı II. Kirtivarman'ın yerini Raştrakuta alır (757)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0757-01-01",
+    "devlet": "rastrakuta",
+    "madde": "Badami Çalukya kralı II. Kirtivarman'ın yerini Raştrakuta alır (757)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Kalyani (Basavakalyan)",
+  "kronoloji_adi": "Kalyani",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "kalyani-kalacuri",
+    "f": "1156-01-01",
+    "t": "1184-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0975-01-01",
+    "devlet": "bati-calukya",
+    "madde": "Rastrakuta hanedanı son bulur; Taila I Çalukya mirası alır, ikinci (Batı/Kalyani",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0975-01-01",
+    "devlet": "rastrakuta",
+    "madde": "Rastrakuta hanedanı son bulur; Taila I Çalukya mirası alır, ikinci (Batı/Kalyani",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1156-01-01",
+    "devlet": "bati-calukya",
+    "madde": "Kalaçuri Biccala Batı Çalukya tahtını gasp etti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Gaochang",
+  "kronoloji_adi": "Gaochang",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "gaochang",
+    "f": "0501-01-01",
+    "t": "0640-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "gaochang",
+    "f": "0501-01-01",
+    "t": "0640-01-01",
+    "devredilebilir": false,
+    "dogrulama": "taslak",
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0640-01-01",
+    "devlet": "gaochang",
+    "madde": "Tang orduları Gaochang (Turfan) krallığını yıktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0640-01-01",
+    "devlet": "tang",
+    "madde": "Tang orduları Gaochang (Turfan) krallığını yıktı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Tokmok",
+  "kronoloji_adi": "Tokmok",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0748-01-01",
+    "devlet": "tang",
+    "madde": "Çin komutanı Kao Hsien-chih Tokmok'u alarak Batı Türkistan'a ilerledi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0748-01-01",
+    "devlet": "turges",
+    "madde": "Çin komutanı Kao Hsien-chih Tokmok'u alarak Batı Türkistan'a ilerledi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Tibet",
+  "kronoloji_adi": "Tibet",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_hint.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0629-01-01",
+    "devlet": "tibet-imparatorlugu",
+    "madde": "Songtsen Gampo Tibet kralı olarak taç giydi (629); yazı ve Lhasa merkezli krallı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0629-01-01",
+    "devlet": "tubo-tibet-imparatorlugu",
+    "madde": "Songtsen Gampo Tibet kralı olarak taç giydi (629); yazı ve Lhasa merkezli krallı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0650-01-01",
+    "devlet": "tibet-imparatorlugu",
+    "madde": "Songtsen Gampo öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0650-01-01",
+    "devlet": "tubo-tibet-imparatorlugu",
+    "madde": "Songtsen Gampo öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0747-01-01",
+    "devlet": "tibet-imparatorlugu",
+    "madde": "Padmasambhava Kral Trisong Detsen tarafından Tibet'e davet edildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0747-01-01",
+    "devlet": "tubo-tibet-imparatorlugu",
+    "madde": "Padmasambhava Kral Trisong Detsen tarafından Tibet'e davet edildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0749-01-01",
+    "devlet": "tibet-imparatorlugu",
+    "madde": "Samye manastırının inşası tamamlandı (Padmasambhava'ya göre)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0749-01-01",
+    "devlet": "tubo-tibet-imparatorlugu",
+    "madde": "Samye manastırının inşası tamamlandı (Padmasambhava'ya göre)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0761-01-01",
+    "devlet": "tibet-imparatorlugu",
+    "madde": "Trisong Detsen Budizm yasağını kaldırdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0761-01-01",
+    "devlet": "tubo-tibet-imparatorlugu",
+    "madde": "Trisong Detsen Budizm yasağını kaldırdı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0779-01-01",
+    "devlet": "tibet-imparatorlugu",
+    "madde": "Trisong Detsen Samye (Bsam-yas) tapınağını kurdu (yaklaşık 779)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0779-01-01",
+    "devlet": "tubo-tibet-imparatorlugu",
+    "madde": "Trisong Detsen Samye (Bsam-yas) tapınağını kurdu (yaklaşık 779)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Bactria",
+  "kronoloji_adi": "Bactria",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0127-01-01",
+    "devlet": "kusan",
+    "madde": "Kuşan hükümdarı I. Kanişka tahta çıktı (Kanişka Çağı başlangıcı)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0226-01-01",
+    "devlet": "kusan",
+    "madde": "Sâsânî I. Ardeşir Kuşan topraklarına saldırdı; batı eyaletleri Sâsânîler'e geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0226-01-01",
+    "devlet": "sasani",
+    "madde": "Sâsânî I. Ardeşir Kuşan topraklarına saldırdı; batı eyaletleri Sâsânîler'e geçti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Tirmiz",
+  "kronoloji_adi": "Tirmiz",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1072-01-01",
+    "devlet": "bati-karahanli",
+    "madde": "II. Nasr Alparslan'ın ölümü üzerine Tirmiz ve Belh'i aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1072-01-01",
+    "devlet": "buyuk-selcuklu",
+    "madde": "II. Nasr Alparslan'ın ölümü üzerine Tirmiz ve Belh'i aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Soğd",
+  "kronoloji_adi": "Soğd",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0558-01-01",
+    "devlet": "gokturk-1",
+    "madde": "Soğd bölgesi Göktürk hâkimiyetine girdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0701-01-01",
+    "devlet": "dogu-gokturk-2",
+    "madde": "Kapgan'ın Türk ordusu Demirkapı'ya ulaştı; Göktürkler Maveraünnehir işlerine kar",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Cürcân",
+  "kronoloji_adi": "Cürcân",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0871-01-01",
+    "devlet": "taberistan-zeydi",
+    "madde": "Hasan b. Zeyd Cürcân'ı aldı ve Tâhirî Horasan valisinin ordusunu yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0871-01-01",
+    "devlet": "tahiri-horasan",
+    "madde": "Hasan b. Zeyd Cürcân'ı aldı ve Tâhirî Horasan valisinin ordusunu yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0928-02-25",
+    "devlet": "samani",
+    "madde": "Merdâvîc b. Ziyâr bağımsızlığını ilân edip Cürcân merkezli Ziyârî hânedanını kur",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0928-02-25",
+    "devlet": "ziyari",
+    "madde": "Merdâvîc b. Ziyâr bağımsızlığını ilân edip Cürcân merkezli Ziyârî hânedanını kur",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0967-12-07",
+    "devlet": "samani",
+    "madde": "Ziyârî Veşmgîr bir av sırasında öldü; oğulları Kâbûs ve Bihistûn arasında hâkimi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0967-12-07",
+    "devlet": "ziyari",
+    "madde": "Ziyârî Veşmgîr bir av sırasında öldü; oğulları Kâbûs ve Bihistûn arasında hâkimi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0981-01-01",
+    "devlet": "buveyhi",
+    "madde": "Adudüddevle Ziyârîler'in elindeki Taberistan ve Cürcân'ı Büveyhî topraklarına ka",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0981-01-01",
+    "devlet": "buveyhi",
+    "madde": "Büveyhî Adudüddevle Taberistan ve Cürcân'ı topraklarına kattı; sınır Hazar'a ula",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0981-01-01",
+    "devlet": "ziyari",
+    "madde": "Adudüddevle Ziyârîler'in elindeki Taberistan ve Cürcân'ı Büveyhî topraklarına ka",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0981-01-01",
+    "devlet": "ziyari",
+    "madde": "Büveyhî Adudüddevle Taberistan ve Cürcân'ı topraklarına kattı; sınır Hazar'a ula",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0998-01-01",
+    "devlet": "buveyhi",
+    "madde": "Kâbûs b. Veşmgîr sürgünden dönüp Cürcân'da yeniden Ziyârî tahtına oturdu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0998-01-01",
+    "devlet": "ziyari",
+    "madde": "Kâbûs b. Veşmgîr sürgünden dönüp Cürcân'da yeniden Ziyârî tahtına oturdu",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Deylem",
+  "kronoloji_adi": "Deylem",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0758-05-14",
+    "devlet": "abbasi",
+    "madde": "Abbâsî komutanları Ebü'l-Hâsib ve Ömer b. Alâ dağlık Deylem'i istilâ etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0758-05-14",
+    "devlet": "badusbani",
+    "madde": "Abbâsî komutanları Ebü'l-Hâsib ve Ömer b. Alâ dağlık Deylem'i istilâ etti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Azerbaycan",
+  "kronoloji_adi": "Azerbaycan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0226-01-01",
+    "devlet": "atropatene",
+    "madde": "Atropatene (Azerbaycan) Ardeşîr'e az dirençle boyun eğdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0226-01-01",
+    "devlet": "sasani",
+    "madde": "Atropatene (Azerbaycan) Ardeşîr'e az dirençle boyun eğdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0717-01-01",
+    "devlet": "bizans",
+    "madde": "Hazarlar İstanbul kuşatması sırasında Bizans’ın isteğiyle Kafkaslar’ı aşıp Azerb",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0717-01-01",
+    "devlet": "emevi",
+    "madde": "Hazarlar İstanbul kuşatması sırasında Bizans’ın isteğiyle Kafkaslar’ı aşıp Azerb",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0717-01-01",
+    "devlet": "hazar-kaganligi",
+    "madde": "Hazarlar İstanbul kuşatması sırasında Bizans’ın isteğiyle Kafkaslar’ı aşıp Azerb",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0758-05-14",
+    "devlet": "abbasi",
+    "madde": "Mansûr Revvâd aşiretini Basra'dan alıp Azerbaycan'a yerleştirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0799-01-01",
+    "devlet": "hazar-kaganligi",
+    "madde": "Hazarlar İslâm topraklarına yeni bir akın düzenler",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0816-01-01",
+    "devlet": "abbasi",
+    "madde": "Bâbek el-Hürremî Azerbaycan'da isyan etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0816-01-01",
+    "devlet": "babek-hurremi",
+    "madde": "Bâbek el-Hürremî Azerbaycan'da isyan etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0820-01-01",
+    "devlet": "abbasi",
+    "madde": "Me'mûn, Bâbek'le mücadele için Yahyâ b. Muâz'ı Azerbaycan valisi yaptı; sonraki ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0835-06-03",
+    "devlet": "abbasi",
+    "madde": "Mu'tasım, Afşin'i Cibâl ve Azerbaycan valisi olarak Bâbek'in üzerine gönderdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0838-01-01",
+    "devlet": "abbasi",
+    "madde": "Sehl b. Simbat Bâbek el-Hürremî’yi yakalatıp Halife Mu‘tasım’a teslim etti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Tohâristân",
+  "kronoloji_adi": "Tohâristân",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0457-01-01",
+    "devlet": "eftalit",
+    "madde": "Eftalit hanı Kün-han, Fîrûz'u Sâsânî tahtına çıkarır",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0457-01-01",
+    "devlet": "eftalit",
+    "madde": "Eftalitler Kidarit hâkimiyetine karşı ayaklandı; Kün-han Fîrûz'u Sâsânî tahtına ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0457-01-01",
+    "devlet": "kidarit",
+    "madde": "Eftalitler Kidarit hâkimiyetine karşı ayaklandı; Kün-han Fîrûz'u Sâsânî tahtına ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0457-01-01",
+    "devlet": "sasani",
+    "madde": "Eftalitler Kidarit hâkimiyetine karşı ayaklandı; Kün-han Fîrûz'u Sâsânî tahtına ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0467-01-01",
+    "devlet": "eftalit",
+    "madde": "Kidaritler başkentleri Balkh'tan sürüldü; Tohâristan Eftalitler'e geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0467-01-01",
+    "devlet": "kidarit",
+    "madde": "Kidaritler başkentleri Balkh'tan sürüldü; Tohâristan Eftalitler'e geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0467-01-01",
+    "devlet": "sasani",
+    "madde": "Kidaritler başkentleri Balkh'tan sürüldü; Tohâristan Eftalitler'e geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0661-01-01",
+    "devlet": "tang",
+    "madde": "Tohâristan'da 25 yerel hükümet kurularak Tang idaresi kuruldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0706-01-01",
+    "devlet": "emevi",
+    "madde": "Kuteybe Tohâristan Türk hükümdarı Nîzek Tarhan ile barış yaptı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0709-11-09",
+    "devlet": "emevi",
+    "madde": "Nîzek Tarhan Haccâc'ın emriyle öldürüldü; Tohâristan isyanı bastırıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0710-01-01",
+    "devlet": "emevi",
+    "madde": "Eftalit prensi Tarhan Nîzek Belh'te isyanda yenilip Kuteybe'nin emriyle öldürüld",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0729-01-01",
+    "devlet": "tang",
+    "madde": "Çin imparatoru Tohâristan yabgusu Kutluk'a 'Eftalit kralı ve Tohâristan yabgusu'",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Semender",
+  "kronoloji_adi": "Semender",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0968-01-01",
+    "devlet": "hazar-kaganligi",
+    "madde": "Rus seferleri Hazar şehri Semender'i yıktı (968'den sonra)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0968-01-01",
+    "devlet": "kiev-rusu",
+    "madde": "Rus seferleri Hazar şehri Semender'i yıktı (968'den sonra)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Büst",
+  "kronoloji_adi": "Büst",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0977-01-01",
+    "devlet": "gazneli",
+    "madde": "Sebük Tegin Büst'i alıp Togan Tegin'i yendi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Fergana",
+  "kronoloji_adi": "Fergana",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0285-01-01",
+    "devlet": "bati-jin",
+    "madde": "Jin sarayı Fergana hükümdarına kral unvanı vermek üzere elçi gönderdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0705-01-02",
+    "devlet": "emevi",
+    "madde": "Sâlih b. Müslim Kâşân ve Fergana'yı fethetti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0715-01-01",
+    "devlet": "emevi",
+    "madde": "Kuteybe b. Müslim isyan ettiği ordusu tarafından öldürüldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0715-01-01",
+    "devlet": "emevi",
+    "madde": "Kuteybe son seferinde Kâşgar'a yürüdü, Çin sınırına dayandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0715-08-07",
+    "devlet": "emevi",
+    "madde": "Kuteybe b. Müslim Halife Süleyman'a isyanında kendi askerlerince öldürüldü",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Pakistan",
+  "kronoloji_adi": "Pakistan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Rey",
+  "kronoloji_adi": "Rey",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0427-01-01",
+    "devlet": "sasani",
+    "madde": "V. Behram Akhunlar'ı Rey'de yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0916-07-05",
+    "devlet": "sacogullari",
+    "madde": "Yûsuf b. Ebü’s-Sâc Sâmânî idaresindeki Rey’e girdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0916-07-05",
+    "devlet": "samani",
+    "madde": "Yûsuf b. Ebü’s-Sâc Sâmânî idaresindeki Rey’e girdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0926-03-19",
+    "devlet": "samani",
+    "madde": "II. Nasr Rey'i yeniden ele geçirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0940-12-24",
+    "devlet": "samani",
+    "madde": "Rey'de Ebû Ali Ahmed b. Muhtâc Ziyârî Veşmgîr ve Mâkân'ın ordusunu bozdu; Mâkân ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0940-12-24",
+    "devlet": "ziyari",
+    "madde": "Rey'de Ebû Ali Ahmed b. Muhtâc Ziyârî Veşmgîr ve Mâkân'ın ordusunu bozdu; Mâkân ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0943-01-01",
+    "devlet": "buveyhi",
+    "madde": "Rüknüddevle Hasan Rey'i alıp Cibâl'in tümüne hâkim oldu: Büveyhî Rey-Cibâl kolu ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0943-01-01",
+    "devlet": "ziyari",
+    "madde": "Rüknüddevle Hasan Rey'i alıp Cibâl'in tümüne hâkim oldu: Büveyhî Rey-Cibâl kolu ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0976-01-01",
+    "devlet": "buveyhi",
+    "madde": "Rüknüddevle Hasan öldü; Büveyhî emîri Adudüddevle hânedanın başına geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1029-01-01",
+    "devlet": "buveyhi",
+    "madde": "Gazneli Mahmud Rey'i aldı; Büveyhîler'in Cibâl kolu sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1029-01-01",
+    "devlet": "gazneli",
+    "madde": "Gazneli Mahmud Rey'i aldı; Büveyhîler'in Cibâl kolu sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1029-01-01",
+    "devlet": "kakuyi",
+    "madde": "Gazneli Mahmud Rey'i aldı, Büveyhî Cibâl koluna son verdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Elam",
+  "kronoloji_adi": "Elam",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Bostra (Buşrá ash Shām)",
+  "kronoloji_adi": "Bostra",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0106-01-01",
+    "devlet": "nabatiye",
+    "madde": "Roma Nabatî Krallığı'nı ilhak etti: Arabia Petraea eyaleti kuruldu, başkent Bost",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0106-01-01",
+    "devlet": "roma-imp",
+    "madde": "Roma Nabatî Krallığı'nı ilhak etti: Arabia Petraea eyaleti kuruldu, başkent Bost",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Media",
+  "kronoloji_adi": "Media",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Elymais",
+  "kronoloji_adi": "Elymais",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0222-01-01",
+    "devlet": "elymais",
+    "madde": "Ardeşîr Elymais'i fethetti (yaklaşık 221); Karakene'nin son hükümdarı Bandû öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0222-01-01",
+    "devlet": "karakene",
+    "madde": "Ardeşîr Elymais'i fethetti (yaklaşık 221); Karakene'nin son hükümdarı Bandû öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0222-01-01",
+    "devlet": "part",
+    "madde": "Ardeşîr Elymais'i fethetti (yaklaşık 221); Karakene'nin son hükümdarı Bandû öldü",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Havran",
+  "kronoloji_adi": "Havran",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0329-01-01",
+    "devlet": "lahmi",
+    "madde": "Nemâre kitabesi: İmruülkays 'bütün Arapların kralı' olarak Sâsânî ve Roma tarafı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0329-01-01",
+    "devlet": "roma-imp",
+    "madde": "Nemâre kitabesi: İmruülkays 'bütün Arapların kralı' olarak Sâsânî ve Roma tarafı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0329-01-01",
+    "devlet": "sasani",
+    "madde": "Nemâre kitabesi: İmruülkays 'bütün Arapların kralı' olarak Sâsânî ve Roma tarafı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Akrabâ (‘Aqrabā)",
+  "kronoloji_adi": "Akrabâ",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0633-01-01",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Yemâme Savaşı: Hâlid b. Velîd Müseylimetülkezzâb'ı yendi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Alamut",
+  "kronoloji_adi": "Alamut",
+  "tur": "kale",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1091-01-01",
+    "devlet": "alamut-nizari",
+    "madde": "Melikşah'ın Alamut kuşatması sonuçsuz kaldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1091-01-01",
+    "devlet": "buyuk-selcuklu",
+    "madde": "Melikşah'ın Alamut kuşatması sonuçsuz kaldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1094-01-01",
+    "devlet": "alamut-nizari",
+    "madde": "Nizârî-Müsta'lî ayrılığı: Hasan Sabbâh Fâtımîlerle ilişkiyi kesti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1117-07-13",
+    "devlet": "alamut-nizari",
+    "madde": "Sultan Muhammed Tapar'ın büyük Alamut kuşatması",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1117-07-13",
+    "devlet": "buyuk-selcuklu",
+    "madde": "Sultan Muhammed Tapar'ın büyük Alamut kuşatması",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1157-01-01",
+    "devlet": "alamut-nizari",
+    "madde": "Şah Gazi Rüstem Alamut'u tahrip etti, Cürcân ve Kūmis'i aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1157-01-01",
+    "devlet": "bavendi",
+    "madde": "Şah Gazi Rüstem Alamut'u tahrip etti, Cürcân ve Kūmis'i aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1164-08-08",
+    "devlet": "alamut-nizari",
+    "madde": "Hasan Alâ Zikrihisselâm 'kıyamet'i ilân etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1198-01-01",
+    "devlet": "alamut-nizari",
+    "madde": "Harizmşah Tekiş'in Alamut kuşatması başarısız oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1198-01-01",
+    "devlet": "harizmsah",
+    "madde": "Harizmşah Tekiş'in Alamut kuşatması başarısız oldu",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Filistin",
+  "kronoloji_adi": "Filistin",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0628-01-01",
+    "devlet": "bizans",
+    "madde": "Herakleios Suriye'yi geri aldı; Sâsânîler Suriye, Filistin ve Mısır'ı iade etmey",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0628-01-01",
+    "devlet": "sasani",
+    "madde": "Herakleios Suriye'yi geri aldı; Sâsânîler Suriye, Filistin ve Mısır'ı iade etmey",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0634-07-30",
+    "devlet": "bizans",
+    "madde": "Ecnâdeyn Savaşı: Müslümanlar Theodoros'un Bizans ordusunu yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0634-07-30",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Ecnâdeyn Savaşı: Müslümanlar Theodoros'un Bizans ordusunu yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0878-01-01",
+    "devlet": "abbasi",
+    "madde": "Ahmed b. Tolun Suriye'ye yürüdü: Fırat'ın batısındaki vilâyetler Tolunoğulları'n",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0878-01-01",
+    "devlet": "tolunogullari",
+    "madde": "Ahmed b. Tolun Suriye'ye yürüdü: Fırat'ın batısındaki vilâyetler Tolunoğulları'n",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1105-08-27",
+    "devlet": "boriler",
+    "madde": "Remle yöresinde Fâtımî-Dımaşk ordusu ile Kudüs Haçlıları çarpıştı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1105-08-27",
+    "devlet": "kudus-kralligi",
+    "madde": "Remle yöresinde Fâtımî-Dımaşk ordusu ile Kudüs Haçlıları çarpıştı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Fars",
+  "kronoloji_adi": "Fars",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0695-01-12",
+    "devlet": "emevi",
+    "madde": "Mühelleb Ezrakî Hâricîleri'ni Kâzerûn yakınında yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0888-06-21",
+    "devlet": "abbasi",
+    "madde": "Muvaffak, Kirman, Fars ve Horasan'ı 10 milyon dirhem karşılığında Amr b. Leys'e ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0888-06-21",
+    "devlet": "saffari",
+    "madde": "Muvaffak, Kirman, Fars ve Horasan'ı 10 milyon dirhem karşılığında Amr b. Leys'e ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1012-01-01",
+    "devlet": "buveyhi",
+    "madde": "Bahâüddevle'nin ölümüyle Büveyhî birliği parçalandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1169-01-01",
+    "devlet": "salgurlu",
+    "madde": "Zengî Fars'ı Afşar Şümle'den geri aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Cibâl",
+  "kronoloji_adi": "Cibâl",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0835-06-03",
+    "devlet": "abbasi",
+    "madde": "Mu'tasım, Afşin'i Cibâl ve Azerbaycan valisi olarak Bâbek'in üzerine gönderdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0897-02-08",
+    "devlet": "abbasi",
+    "madde": "Ebû Leylâ Hâris'in ölümüyle Dülefî toprakları Abbâsî valilerine geçti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0897-02-08",
+    "devlet": "dulefi",
+    "madde": "Ebû Leylâ Hâris'in ölümüyle Dülefî toprakları Abbâsî valilerine geçti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Hûzistan",
+  "kronoloji_adi": "Hûzistan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1195-01-01",
+    "devlet": "abbasi",
+    "madde": "Irak Selçukluları'nın çöküşünden sonra halife Hûzistan'ı ve bazı İran eyaletleri",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Hadramut",
+  "kronoloji_adi": "Hadramut",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0757-01-01",
+    "devlet": "abbasi",
+    "madde": "Mansûr Hadramut'a Ma‘n b. Zâide komutasında ordu gönderdi; İbâzî ve Hâricî harek",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1967-11-30",
+    "devlet": "guney-yemen",
+    "madde": "Kuayti Sultanligi kaldirildi, Hadramut Guney Yemen'e katildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1967-11-30",
+    "devlet": "kuayti-sultanligi",
+    "madde": "Kuayti Sultanligi kaldirildi, Hadramut Guney Yemen'e katildi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Necran",
+  "kronoloji_adi": "Necran",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0523-01-01",
+    "devlet": "himyar",
+    "madde": "Zû Nüvâs Necran Hıristiyanlarına toplu baskı yaptı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0523-01-01",
+    "devlet": "himyar",
+    "madde": "Zûnüvâs Necran'ı ele geçirip hristiyanlara karşı katliam yaptı (Necran şehidleri",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0631-01-01",
+    "devlet": "medine-devleti",
+    "madde": "Necran Hıristiyanları Medine'ye heyet gönderip Hz. Muhammed'le antlaşma yaptı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Zafâr",
+  "kronoloji_adi": "Zafâr",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "himyar",
+    "f": "-0109-01-01",
+    "t": "0525-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0522-01-01",
+    "devlet": "himyar",
+    "madde": "Zûnüvâs Himyer tahtına geçti; Yemen'deki Habeş hâkimiyetine karşı Yahudi kralın ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1279-01-01",
+    "devlet": "resuli",
+    "madde": "Resûlîler Zafâr'ı aldı (ertesi yıl Şibâm ve Hadramut)",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Dînever",
+  "kronoloji_adi": "Dînever",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1132-01-01",
+    "devlet": "bavendi",
+    "madde": "Dînever Savaşı'na Bâvendî kuvvetleri de katıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1132-01-01",
+    "devlet": "buyuk-selcuklu",
+    "madde": "Dînever Savaşı'na Bâvendî kuvvetleri de katıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1132-01-01",
+    "devlet": "irak-selcuklu",
+    "madde": "Dînever Savaşı'na Bâvendî kuvvetleri de katıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1132-05-25",
+    "devlet": "buyuk-selcuklu",
+    "madde": "Dînever Savaşı: Sencer yeğenlerini yendi, Tuğrul'u tahta çıkardı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1132-05-25",
+    "devlet": "irak-selcuklu",
+    "madde": "Dînever Savaşı: Sencer yeğenlerini yendi, Tuğrul'u tahta çıkardı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Hulvân (Hulwan)",
+  "kronoloji_adi": "Hulvân",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "1010-01-01",
+    "devlet": "annazi",
+    "madde": "Ebü'l-Feth öldü; Ebü'ş-Şevk Fâris Annâzî başına geçti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Hîre",
+  "kronoloji_adi": "Hîre",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "lahmi",
+    "f": "0268-01-01",
+    "t": "0602-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0268-01-01",
+    "devlet": "lahmi",
+    "madde": "Cezîme el-Ebraş Zebbâ'ca öldürüldü; Amr b. Adî ilk Lahmî hükümdarı oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0268-01-01",
+    "devlet": "palmira",
+    "madde": "Cezîme el-Ebraş Zebbâ'ca öldürüldü; Amr b. Adî ilk Lahmî hükümdarı oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0288-01-01",
+    "devlet": "lahmi",
+    "madde": "İmruülkays b. Amr Lahmî tahtına geçti (288-328)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0288-01-01",
+    "devlet": "sasani",
+    "madde": "İmruülkays b. Amr Lahmî tahtına geçti (288-328)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0525-01-01",
+    "devlet": "kinde",
+    "madde": "Hâris b. Amr Bekir ve Tağlib desteğiyle Hîre'yi ele geçirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0525-01-01",
+    "devlet": "lahmi",
+    "madde": "Hâris b. Amr Bekir ve Tağlib desteğiyle Hîre'yi ele geçirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0528-01-01",
+    "devlet": "kinde",
+    "madde": "Kinde, III. Münzir'e yenildi; devlet dörde bölündü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0528-01-01",
+    "devlet": "lahmi",
+    "madde": "Kinde, III. Münzir'e yenildi; devlet dörde bölündü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0580-01-01",
+    "devlet": "lahmi",
+    "madde": "III. Nu'mân b. Münzir Lahmî tahtına çıktı (son Lahmî hükümdarı)",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0594-01-01",
+    "devlet": "lahmi",
+    "madde": "Nu'mân b. Münzir ailesiyle Nestûrî Hıristiyanlığı'nı kabul etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0602-01-01",
+    "devlet": "lahmi",
+    "madde": "Lahmî Kralı III. Nu'mân Medâin'de öldürüldü; Hîre Krallığı sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0602-01-01",
+    "devlet": "sasani",
+    "madde": "Lahmî Kralı III. Nu'mân Medâin'de öldürüldü; Hîre Krallığı sona erdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Remle (Ramla)",
+  "kronoloji_adi": "Remle",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "cerrahi",
+    "f": "0979-01-01",
+    "t": "1071-01-01",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0524-01-01",
+    "devlet": "bizans",
+    "madde": "Remle antlaşması: III. Münzir Bizans esirlerini serbest bıraktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0524-01-01",
+    "devlet": "lahmi",
+    "madde": "Remle antlaşması: III. Münzir Bizans esirlerini serbest bıraktı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0940-09-10",
+    "devlet": "abbasi",
+    "madde": "Lücûn savaşı ve Remle sınırlı İbn Râik-İhşîd antlaşması: Mısır İhşîdîler'e, Suri",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0940-09-10",
+    "devlet": "ihsidi",
+    "madde": "Lücûn savaşı ve Remle sınırlı İbn Râik-İhşîd antlaşması: Mısır İhşîdîler'e, Suri",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0971-01-01",
+    "devlet": "fatimi",
+    "madde": "Hasan el-A'sam önderliğindeki Karmatîler Dımaşk ve Remle'yi yeniden aldı, Kahire",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0971-01-01",
+    "devlet": "karmati",
+    "madde": "Hasan el-A'sam önderliğindeki Karmatîler Dımaşk ve Remle'yi yeniden aldı, Kahire",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0979-07-29",
+    "devlet": "hamdani-musul",
+    "madde": "Ebû Tağlib Gazanfer Remle'de yenilip öldü: Hamdânîler'in Cezîre ve Musul'daki hâ",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Petra",
+  "kronoloji_adi": "Petra",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "nabatiye",
+    "f": "-0167-01-01",
+    "t": "0106-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0106-01-01",
+    "devlet": "nabatiye",
+    "madde": "Roma Nabatî Krallığı'nı ilhak etti: Arabia Petraea eyaleti kuruldu, başkent Bost",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0106-01-01",
+    "devlet": "roma-imp",
+    "madde": "Roma Nabatî Krallığı'nı ilhak etti: Arabia Petraea eyaleti kuruldu, başkent Bost",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0529-01-01",
+    "devlet": "bizans",
+    "madde": "II. Hâris b. Cebele'ye Bizans'ta 'büyük emîr' (phylarkhos) unvanı verildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0529-01-01",
+    "devlet": "gassani",
+    "madde": "II. Hâris b. Cebele'ye Bizans'ta 'büyük emîr' (phylarkhos) unvanı verildi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Fihl (Pella)",
+  "kronoloji_adi": "Fihl",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "devletler.js",
+    "devlet": "antigonid-makedonya",
+    "f": "-0275-01-01",
+    "t": "-0167-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   },
+   {
+    "kaynak": "devletler.js",
+    "devlet": "makedonya-krallik",
+    "f": "-0699-01-01",
+    "t": "-0167-01-01",
+    "devredilebilir": null,
+    "dogrulama": null,
+    "devletler_jsde": true
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "0635-01-23",
+    "devlet": "bizans",
+    "madde": "Fihl Savaşı: Müslümanlar Bizans kuvvetlerine ağır kayıp verdirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0635-01-23",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Fihl Savaşı: Müslümanlar Bizans kuvvetlerine ağır kayıp verdirdi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Celûlâ (Jalula)",
+  "kronoloji_adi": "Celûlâ",
+  "tur": "kasaba",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0637-01-02",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Celûlâ Savaşı: Sâsânî ordusu bir kez daha yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0637-01-02",
+    "devlet": "sasani",
+    "madde": "Celûlâ Savaşı: Sâsânî ordusu bir kez daha yenildi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Ebher (Abhar)",
+  "kronoloji_adi": "Ebher",
+  "tur": "sehir",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Banyas",
+  "kronoloji_adi": "Banyas",
+  "tur": "kale",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [
+   {
+    "kaynak": "DEVLET-LISTESI",
+    "devlet": "hospitaller-margat",
+    "f": "1186-01-01",
+    "t": "1285-05-23",
+    "devredilebilir": true,
+    "dogrulama": "kismen-okundu",
+    "devletler_jsde": false
+   }
+  ],
+  "madde_taraflari": [
+   {
+    "t": "1133-01-01",
+    "devlet": "boriler",
+    "madde": "Şemsülmülûk İsmâil Banyas ve Hama'yı geri aldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1133-01-01",
+    "devlet": "zengi-musul",
+    "madde": "Şemsülmülûk İsmâil Banyas ve Hama'yı geri aldı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Bisütun (Bisotun)",
+  "kronoloji_adi": "Bisütun",
+  "tur": "harabe",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Masada",
+  "kronoloji_adi": "Masada",
+  "tur": "kale",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0073-01-01",
+    "devlet": "roma-imp",
+    "madde": "Masada düştü: Flavius Silva kuşatması sonunda son Yahudi direnişi bitti",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Yemen",
+  "kronoloji_adi": "Yemen",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0525-01-01",
+    "devlet": "aksum",
+    "madde": "Aksum Kralı Kaleb'in ordusu Yemen'e çıktı; Zûnüvâs Zâtülaber'de yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0525-01-01",
+    "devlet": "aksum",
+    "madde": "Habeş Kralı Kaleb Himyer'i yendi; Himyerî Devleti sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0525-01-01",
+    "devlet": "aksum",
+    "madde": "Himyer Krallığı sona erdi; Yemen Aksum'a bağlandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0525-01-01",
+    "devlet": "bizans",
+    "madde": "Aksum Kralı Kaleb'in ordusu Yemen'e çıktı; Zûnüvâs Zâtülaber'de yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0525-01-01",
+    "devlet": "himyar",
+    "madde": "Aksum Kralı Kaleb'in ordusu Yemen'e çıktı; Zûnüvâs Zâtülaber'de yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0525-01-01",
+    "devlet": "himyar",
+    "madde": "Habeş Kralı Kaleb Himyer'i yendi; Himyerî Devleti sona erdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0525-01-01",
+    "devlet": "himyar",
+    "madde": "Himyer Krallığı sona erdi; Yemen Aksum'a bağlandı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0537-01-01",
+    "devlet": "aksum",
+    "madde": "Ebrehe, Eryât'ı öldürüp Yemen'de yönetimi ele geçirdi; Necâşî valiliğini onaylad",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0570-01-01",
+    "devlet": "aksum",
+    "madde": "Ebrehe öldü; Fil Vak'ası'nın Mekke seferi başarısız kaldı; yerine oğlu Yeksûm ge",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0570-01-01",
+    "devlet": "sasani",
+    "madde": "Sâsânî komutanı Vehriz San'a'yı aldı; Güney Arabistan Sâsânî hâkimiyetine girdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0631-01-02",
+    "devlet": "medine-devleti",
+    "madde": "Hz. Ali Yemen'e gönderildi; Benî Mezhic Müslüman oldu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0818-01-01",
+    "devlet": "abbasi",
+    "madde": "Muhammed b. Abdullah b. Ziyâd Tihâme'ye vali olarak gönderildi: Ziyâdîler başlad",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Irak",
+  "kronoloji_adi": "Irak",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0636-01-01",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Kâdisiye Savaşı: Müslümanlar Sâsânî ordusunu yendi, Rüstem öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0636-01-01",
+    "devlet": "sasani",
+    "madde": "Kâdisiye Savaşı: Müslümanlar Sâsânî ordusunu yendi, Rüstem öldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0637-01-02",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Celûlâ Savaşı: Sâsânî ordusu bir kez daha yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0637-01-02",
+    "devlet": "sasani",
+    "madde": "Celûlâ Savaşı: Sâsânî ordusu bir kez daha yenildi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0691-01-01",
+    "devlet": "emevi",
+    "madde": "Abdülmelik Irak'ı aldı; Zübeyrî yönetimindeki Mus‘ab b. Zübeyr öldürüldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0691-01-01",
+    "devlet": "zubeyri",
+    "madde": "Abdülmelik Irak'ı aldı; Zübeyrî yönetimindeki Mus‘ab b. Zübeyr öldürüldü",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0700-01-01",
+    "devlet": "emevi",
+    "madde": "İbnü'l-Eş‘as Haccâc'a ve Abdülmelik'e karşı isyan etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0715-01-01",
+    "devlet": "emevi",
+    "madde": "Muhammed b. Kāsım Irak'a zincirle gönderilir ve öldürülür (96/715); Kannevc sefe",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0750-01-25",
+    "devlet": "abbasi",
+    "madde": "Zâb Savaşı: Abbâsîler II. Mervân'ı yendi, Emevî ordusu dağıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0750-01-25",
+    "devlet": "emevi",
+    "madde": "Zâb Savaşı: Abbâsîler II. Mervân'ı yendi, Emevî ordusu dağıldı",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0992-03-09",
+    "devlet": "karmati",
+    "madde": "Ukaylî Asfar Karmatîler'i kesin yenilgiye uğrattı: Karmatîler Irak'ta söz sahibi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0992-03-09",
+    "devlet": "ukayli",
+    "madde": "Ukaylî Asfar Karmatîler'i kesin yenilgiye uğrattı: Karmatîler Irak'ta söz sahibi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Tihâme",
+  "kronoloji_adi": "Tihâme",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0818-01-01",
+    "devlet": "abbasi",
+    "madde": "Muhammed b. Abdullah b. Ziyâd Tihâme'ye vali olarak gönderildi: Ziyâdîler başlad",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0818-01-01",
+    "devlet": "ziyadi",
+    "madde": "Muhammed b. Abdullah b. Ziyâd Tihâme'ye vali olarak gönderildi: Ziyâdîler başlad",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0820-01-01",
+    "devlet": "ziyadi",
+    "madde": "İbn Ziyâd dairevî planlı Zebîd şehrini kurdu",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0914-01-01",
+    "devlet": "karmati",
+    "madde": "Karmatîler Zebîd'i tahrip etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0914-01-01",
+    "devlet": "ziyadi",
+    "madde": "Karmatîler Zebîd'i tahrip etti",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1058-01-01",
+    "devlet": "necahi",
+    "madde": "Zerâib Savaşı: Suleyhî, Necâh'ı ve müttefiklerini yendi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "1058-01-01",
+    "devlet": "suleyhi",
+    "madde": "Zerâib Savaşı: Suleyhî, Necâh'ı ve müttefiklerini yendi",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Ürdün",
+  "kronoloji_adi": "Ürdün",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0629-01-01",
+    "devlet": "bizans",
+    "madde": "Mûte Savaşı: Müslüman ordusu Bizans ve Gassânî ordusuyla ilk büyük çarpışmaya gi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0629-01-01",
+    "devlet": "gassani",
+    "madde": "Mûte Savaşı: Müslüman ordusu Bizans ve Gassânî ordusuyla ilk büyük çarpışmaya gi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0629-01-01",
+    "devlet": "medine-devleti",
+    "madde": "Mûte Savaşı: Müslüman ordusu Bizans ve Gassânî ordusuyla ilk büyük çarpışmaya gi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0635-01-23",
+    "devlet": "bizans",
+    "madde": "Fihl Savaşı: Müslümanlar Bizans kuvvetlerine ağır kayıp verdirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0635-01-23",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Fihl Savaşı: Müslümanlar Bizans kuvvetlerine ağır kayıp verdirdi",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0659-01-01",
+    "devlet": "hulefa-yi-rasidin",
+    "madde": "Ezruh toplantısı: Hakemler Ali ve Muâviye'nin azlini önerdi, Amr b. Âs Muâviye'y",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "İran",
+  "kronoloji_adi": "İran",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0457-01-01",
+    "devlet": "eftalit",
+    "madde": "Eftalit hanı Kün-han, Fîrûz'u Sâsânî tahtına çıkarır",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0457-01-01",
+    "devlet": "eftalit",
+    "madde": "Eftalitler Kidarit hâkimiyetine karşı ayaklandı; Kün-han Fîrûz'u Sâsânî tahtına ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0457-01-01",
+    "devlet": "kidarit",
+    "madde": "Eftalitler Kidarit hâkimiyetine karşı ayaklandı; Kün-han Fîrûz'u Sâsânî tahtına ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0457-01-01",
+    "devlet": "sasani",
+    "madde": "Eftalitler Kidarit hâkimiyetine karşı ayaklandı; Kün-han Fîrûz'u Sâsânî tahtına ",
+    "devletler_jsde": true
+   },
+   {
+    "t": "0601-01-01",
+    "devlet": "sasani",
+    "madde": "II. Hüsrev iç savaştan galip çıkıp İran'da birliği yeniden sağladı",
+    "devletler_jsde": true
+   }
+  ]
+ },
+ {
+  "ad": "Lübnan",
+  "kronoloji_adi": "Lübnan",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": []
+ },
+ {
+  "ad": "Hicaz",
+  "kronoloji_adi": "Hicaz",
+  "tur": "bolge",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js",
+  "baskent_eslesmesi": [],
+  "madde_taraflari": [
+   {
+    "t": "0762-01-01",
+    "devlet": "abbasi",
+    "madde": "Muhammed en-Nefsüzzekiyye Mansûr'a karşı ayaklandı ve idam edildi; kardeşi İbrâh",
+    "devletler_jsde": true
+   }
+  ]
+ }
+]

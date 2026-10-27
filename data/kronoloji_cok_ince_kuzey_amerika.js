@@ -50,7 +50,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   taraflar:["inuit","dene"], etiket:["konu-askeri","konu-kesif"] },
 
 // ── DENE (8.040) · KRİ (2.383) ──
-{ t:"1870-07-15", k:"idari",tur:"idari", b:"Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi",
+{ odak_yer:["York Factory","Fort Garry (Kızıl Irmak Kolonisi)","Norway House","Fort Edmonton"], t:"1870-07-15", k:"idari",tur:"idari", b:"Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi",
   gun:"15 Temmuz 1870 (The Canadian Encyclopedia)",
   yer:"Rupert's Land", odak_kimlik:["kri","dene"],
   d:"Hudson's Bay Company, 19 Kasım 1869'da imzaladığı devir senediyle bölgedeki haklarını İngiliz tacına bıraktı; taç da toprakları Kanada'ya verdi. Kızıl Irmak direnişi yüzünden gecikmeli olarak 15 Temmuz 1870'te yürürlüğe giren devirle Kri ve Dene yurtlarının büyük kısmı, halklara danışılmadan Kanada'nın idaresine geçti. Sonraki Numaralı Antlaşmalar (1871-1921) bu devrin sonucudur.",
@@ -82,7 +82,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   taraflar:["sosoni"], etiket:["konu-askeri"] },
 
 // ── CREEK (1.286 · künye içi 4: 1813 · 1814 · 1814 · 1832) ──
-{ t:"1790-01-01", k:"antlasma",tur:"antlasma", b:"New York Antlaşması — McGillivray Creek'in ulusal önderi olarak ABD ile antlaştı",
+{ odak_yer:["New Amsterdam (New York)"], t:"1790-01-01", k:"antlasma",tur:"antlasma", b:"New York Antlaşması — McGillivray Creek'in ulusal önderi olarak ABD ile antlaştı",
   gun:"1790 (kaynak yıl verir)",
   ic_not_t:"New Georgia Encyclopedia gün vermez.",
   yer:"New York", kisiler:"Alexander McGillivray", odak_kimlik:"creek-konfederasyonu",
@@ -90,7 +90,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   kaynak:"New Georgia Encyclopedia (Georgia Humanities / Univ. of Georgia Press), 'Creek Indians': \"The first treaty, the Treaty of New York, solidified Alexander McGillivray's position as a national leader of the Muscogee\"",
   taraflar:["creek-konfederasyonu"], etiket:["konu-diplomasi","konu-toprak"] },
 
-{ t:"1825-01-01", k:"antlasma",tur:"antlasma", b:"Indian Springs Antlaşması — McIntosh Georgia'daki bütün Creek topraklarını devretti, meclis onu idama mahkûm etti",
+{ odak_yer:["Ocmulgee","Coweta (Creek/Mvskoke Konfederasyonu — Aşağı Kasabalar merkezi)"], t:"1825-01-01", k:"antlasma",tur:"antlasma", b:"Indian Springs Antlaşması — McIntosh Georgia'daki bütün Creek topraklarını devretti, meclis onu idama mahkûm etti",
   gun:"1825 (kaynak yıl verir)",
   ic_not_t:"New Georgia Encyclopedia gün vermez; McIntosh'un ölüm günü de yazmaz.",
   yer:"Indian Springs (Georgia)", kisiler:"William McIntosh", odak_kimlik:"creek-konfederasyonu",

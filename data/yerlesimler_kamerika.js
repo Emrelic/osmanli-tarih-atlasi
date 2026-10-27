@@ -1325,7 +1325,7 @@ window.YERLESIMLER_KAMERIKA = [
   // HAYALET-KUNYE-1008-K · `creek-konfederasyonu` künyesi 1701-01-01'de başlıyor (kesinlik yuzyil); 1281→1701-01-01 dilimi → `__BOSLUK__`.
   //   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
   { ad:"Etowah", tur:"sehir", lat:34.122, lon:-84.809, g:0,
-    s:[{f:"1281-01-01",t:"1550-01-01",d:"etowah"},{f:"1550-01-01",t:"1701-01-01",d:"__BOSLUK__"},{f:"1701-01-01",t:"1733-06-09",d:"creek-konfederasyonu"},{f:"1733-06-09",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"2000-12-31",d:"abd"}],
+    s:[{f:"1100-01-01",t:"1281-01-01",d:"etowah",kesinlik:"yuzyil",kaynak:"Lewis Larson, «Etowah Mounds», New Georgia Encyclopedia, 2002 (son düzenleme 13 Ekim 2021), georgiaencyclopedia.org/articles/history-archaeology/etowah-mounds/ (sayfa okundu): \"The town was settled by the twelfth century; many archaeologists date the settlement at least two centuries earlier.\" | f=1100: atlas künyesi etowah f; kaynak daha erken tarih (≥2 yüzyıl öncesi) anar — çelişki beyanı, erken ucu YAZILMADI (daha ince kesinlik kaynakta yok). · DOGU-500-1281"},{f:"1281-01-01",t:"1550-01-01",d:"etowah"},{f:"1550-01-01",t:"1701-01-01",d:"__BOSLUK__"},{f:"1701-01-01",t:"1733-06-09",d:"creek-konfederasyonu"},{f:"1733-06-09",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"2000-12-31",d:"abd"}],
     kaynak:"bulunamadı", not:"14. yy'da hâlâ iskânlı büyük höyük merkezi · dayanak: HNAI c.14 Southeast (Smithsonian)" },
   { ad:"Los Ángeles (El Pueblo)", tur:"sehir", lat:34.053, lon:-118.243, g:0,
     kur:"1781-09-04",
@@ -1339,7 +1339,7 @@ window.YERLESIMLER_KAMERIKA = [
     s:[{f:"1281-01-01",t:"1873-01-01",d:"meskalero-apaci"},{f:"1873-01-01",t:"2000-12-31",d:"abd"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.10 Southwest (Smithsonian)" },
   { ad:"Moundville", tur:"sehir", lat:32.998, lon:-87.63, g:0,
-    s:[{f:"1281-01-01",t:"1450-01-01",d:"moundville"},{f:"1450-01-01",t:"1699-04-08",d:"choctaw"},{f:"1699-04-08",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"2000-12-31",d:"abd"}],
+    s:[{f:"1120-01-01",t:"1281-01-01",d:"moundville",kesinlik:"onyil",kaynak:"«Moundville», Alabama Legacy Moments, Alabama Public Television, Haziran 2017 (alabamalegacy.org/moundville; sayfa okundu): \"Founded around 1120, Moundville was located on the banks of the Black Warrior River 14 miles south of present day Tuscaloosa.\" | f=1120: atlas künyesi moundville f (kaynak 'around 1120'). · DOGU-500-1281"},{f:"1281-01-01",t:"1450-01-01",d:"moundville"},{f:"1450-01-01",t:"1699-04-08",d:"choctaw"},{f:"1699-04-08",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"2000-12-31",d:"abd"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.14 Southeast (Smithsonian)" },
   // HAYALET-KUNYE-1008-K · `creek-konfederasyonu` künyesi 1701-01-01'de başlıyor (kesinlik yuzyil); 1281→1701-01-01 dilimi → `__BOSLUK__`.
   //   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.

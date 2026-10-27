@@ -1,0 +1,40 @@
+[
+ {
+  "id": "arap-sind",
+  "ad": "Arap Sind Valiliği (Emevî–Abbâsî)",
+  "tur": "emirlik",
+  "bolge": "guney-asya",
+  "f": "0711-01-01",
+  "t": "0854-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mansura / Brahmanabad",
+  "etkin_bolge": "Sind",
+  "sehirler": [
+   "Mansura",
+   "Debal"
+  ],
+  "ozet": "İbn Kâsım ile fetih; Habbarî bağımsızlığına kadar.",
+  "oncul": [
+   "cac-sind"
+  ],
+  "ardil": [
+   "habbari"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, «Sind» maddesi, https://islamansiklopedisi.org.tr/sind (bu oturumda okundu)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Arabs in India: Sindh» bölümü"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Fiilen otonom valilik; tur_yeni: vilayet/valilik. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  },
+  "elenme_gerekce": "Halifelik (Emevî-Abbâsî) valiliği; bağımsız siyasî birim değil. TDV: Sind fethi 92 (711)–93 (712); Mansûre merkezi; Abbâsî Vali Ömer b. Abdülazîz el-Hebbârî Mütevekkil'in öldürülmesinden (247/861) sonra bağımsızlığını ilân etti → bağımsız Sind devleti 'habbari' kaydıdır. Majumdar IV: Me'mun (813-833) devrinde Bashar isyanı ve Musa'nın oğlunu ardıl yapmasıyla valiler 'pratikte bağımsız' oldular; Saffârîler 872-903; sonra Mansûra ve Multan iki ayrı devlet. Eyalet dönemi Abbâsî/Emevî halifeliği künyelerinin (başka bölge ajanı) kapsamındadır."
+ }
+]

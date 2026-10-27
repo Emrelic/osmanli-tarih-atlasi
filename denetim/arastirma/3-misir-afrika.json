@@ -1,0 +1,961 @@
+{
+ "bolge": "Misir, Nubya, Sahra, Sahra-alti Afrika",
+ "tarih_olcum": "21 Ekim 2026 (3. dalga)",
+ "dalga": 3,
+ "kayitlar": [
+  {
+   "id": "hierakonpolis-hk11c-iskan",
+   "ad": "Hierakonpolis HK11C (Naqada IC-IIB iskan)",
+   "ad_yerel": "Nekhen / Kom el-Ahmar",
+   "tur": "sehir",
+   "lat": 25.0977,
+   "lon": 32.7797,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 786037 Nekhen/Hierakonpolis",
+     "lat": 25.097743,
+     "lon": 32.779728
+    },
+    {
+     "kaynak": "Wikidata Q278988 Nekhen",
+     "lat": 25.097222,
+     "lon": 32.779444
+    },
+    {
+     "kaynak": "IntChron/Egyptian C14 DB (Friedman 2011 kaydi, saha merkezi)",
+     "lat": 25.0929,
+     "lon": 32.7753
+    }
+   ],
+   "konum_not": "Uc tanik 0.6 km icinde; esas alinan Pleiades (bagimsiz gazetteer). Alt-lokalite HK11C ayri koordinatsiz (kazi raporu okunmadi).",
+   "kur": {
+    "bas_mo": 3731,
+    "son_mo": 3550,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Dee vd. 2013 (Naqada IB/IC gecisi, model, Naqada alanlari: Naqada, Ballas, Abydos U, Naga ed-Der, Hierakonpolis); HK11'in Naqada IC-IIB atamasi: Friedman 2002 Cracow raporu (onceki dalgada okundu)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+    "alinti": "Naqada IB/IC 3690 3605 (68%) 3731 3550 (95%) [Tablo 1 satiri]",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 3562,
+    "son_mo": 3367,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Dee vd. 2013, Tablo 1: Naqada IIB/IIC gecisi (HK11 cop birikimi Naqada IIC'ye uzanir)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+    "alinti": "IIB/IIC 3498 3413 (68%) 3562 3367 (95%)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "HK11C Naqada IC-IIB boyunca surekli iskan goren Predinastik yerlesim; mutlak sinirlar Naqada fazlari uzerinden modellenmis gecis araliklaridir, HK11C'nin kendi modeli degildir.",
+   "sahip_kultur": "Naqada I-II (Amratien-Gerzien)",
+   "ic_not": "UYARI: kur/bit HK11C'ye ozgu bir Bayes modeli DEGIL; Dee 2013 modelinde Hierakonpolis dortluden biridir ama faz sinirlari butun sahalar icin ortaktir; HK11C'nin IC-IIB atamasi gorece kronolojidir (Friedman). Yardimci veri (IntChron, VERI TABANI KALIBRASYONU, ham degil, ortalama +- sigma, 95.4 DEGIL): HK11 Lokalite 11c/11a komur/odun serisi: WIS-1151 -3517+-87 (Mound A Level 14), WIS-1152 -3695+-83 (Level 6), WIS-1153 -3576+-92, WIS-1168 -3486+-97, W-4353 -3480+-110, UW-104 -3488+-113, UW-105 -3485+-114; WIS-1181 odun -3278+-142 (sapma). Yani kaba MO ~3700-3350. Bunlar 1970-80 ham odun/komur dizisidir (eski-odun etkisi olasi) - sinir olarak kullanma. Burleigh 1983 kabuk (BM-1127A/B) HK33 'boyali mezar', ham 5000+-90 BP.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+    "https://intchron.org/ref/friedman2011epc"
+   ]
+  },
+  {
+   "id": "hierakonpolis-hk6-elit-nekropol",
+   "ad": "Hierakonpolis HK6 (Predinastik elit nekropol, Mezar 16 kompleksi)",
+   "ad_yerel": "Hierakonpolis Lokalite 6",
+   "tur": "nekropol",
+   "lat": 25.0977,
+   "lon": 32.7797,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 786037 Nekhen/Hierakonpolis (saha geneli)",
+     "lat": 25.097743,
+     "lon": 32.779728
+    },
+    {
+     "kaynak": "IntChron kayit koordinati Locality 6 (32.78E 25.10N)",
+     "lat": 25.1,
+     "lon": 32.78
+    }
+   ],
+   "konum_not": "HK6 saha geneli koordinatiyla verildi; nekropolun kendi koordinati bu oturumda bulunamadi (Hierakonpolis site ~2 km vadi icinde).",
+   "kur": {
+    "bas_mo": 3717,
+    "son_mo": 3616,
+    "guven": "belirsiz (ortalama; 68.2 degil, ham ortalama +- sigma)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "IntChron Egyptian C14 DB, Friedman/van Neer/Linseele 2011 (Origins III) kaydi: Mezar 16 kompleksi T19 Beta-142094 (bitki, 4850+-60 BP) -> t=-3620+-78; Beta-252910 (kemik, 4850+-40 BP) -> t=-3616+-55; Beta-216824 (odun, Mezar 26, 4930+-50) -> -3717+-63. VERI TABANI KALIBRASYONU (ortalama+-sigma), yayinin kendi tablosu okunmadi",
+    "url": "https://intchron.org/ref/friedman2011epc",
+    "alinti": "t=-3616 sigma 55 (Beta-252910 bone, Locality 6 Tomb 16 Complex T33)",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "HK6 Naqada IC-IIB'ye ait elit Predinastik mezarlik; Mezar 16 kompleksi ortalamalari MO ~3720-3615 civarinda toplanir.",
+   "sahip_kultur": "Naqada I-II",
+   "ic_not": "Bit blogu yok: nekropolun terk/son tarihi kaynakta okunamadi. Mezar 16 kompleksindeki Beta-142096 odun (4400+-60 BP -> -3076+-123) ve WIS-1180 odun (Superstructure over Tomb 1, -2938+-142) onceki-seriden ayrilir (sapma/geç mudahale veya yeniden kullanilan odun olasi). Dee 2013 modelinde HK ornekleri Naqada IC-IIB sinirlarina girdi olarak kullanildi (Dee metni: 'The remaining three sites were Cemetery U at Abydos, Naga ed-Der and Hierakonpolis') ancak site-bazli aralik tabloda yoktur.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://intchron.org/ref/friedman2011epc",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/"
+   ]
+  },
+  {
+   "id": "naqada-gecisleri-dee2013",
+   "ad": "Naqada fazlari: Badari sonu, IB/IC, IIB/IIC, IID/IIIA, Aha",
+   "ad_yerel": "Naqada I-III gecisleri",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kultur kaydi, koordinat gerekmez.",
+   "kur": {
+    "bas_mo": 3896,
+    "son_mo": 3616,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Dee vd. 2013, Tablo 1: Badari sonu = Naqada baslangici (Naqada suresi 'Badari sonundan Aha tahta cikisina' alinir)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+    "alinti": "Badarian ... end 3800 3667 (68%) 3896 3616 (95%)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 3218,
+    "son_mo": 3035,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Dee vd. 2013, Tablo 1: Aha (Birinci Hanedan kurulusu) tahta cikisi",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+    "alinti": "Aha (foundation of state) 3111 3045 (68%) 3218 3035 (95%)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Naqada kulturunun mutlak cercevesi: Naqada I basi (Badari sonu) 3896-3616, IB/IC 3731-3550, IIB/IIC 3562-3367, IID/IIIA 3377-3238, Aha 3218-3035 (hepsi 95%).",
+   "sahip_kultur": "Naqada I-III",
+   "ic_not": "Naqada IA/IB'nin kendi basi ayri modellenmedi: Dee tablosu Naqada'yi 'Badari sonu'ndan' baslatir (Naqada I basi icin baska kaynak yok - bulunamadi). Tum sinirlar 95% hpd; 68% araliklari: Badari sonu 3800-3667, IB/IC 3690-3605, IIB/IIC 3498-3413, IID/IIIA 3352-3297, Aha 3111-3045. Onceki dalgadaki 'naqada-baslangic-dee2013' kaydiyla ayni kaynak; burada ek geçisler eklendi.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/"
+   ]
+  },
+  {
+   "id": "merimde-benisalame-kn-serisi",
+   "ad": "Merimde Beni Salama (Kolonil KN serisi, baglamlara gore)",
+   "ad_yerel": "Merimde-Benislame",
+   "tur": "sehir",
+   "lat": 30.319,
+   "lon": 30.842,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q111948182",
+     "lat": 30.316,
+     "lon": 30.85
+    },
+    {
+     "kaynak": "IntChron/Egyptian C14 DB site record (Eiwanger 1992 kaydi)",
+     "lat": 30.3219,
+     "lon": 30.8333
+    }
+   ],
+   "konum_not": "Iki tanik ~1.9 km; esas alinan ortalama; kazi raporundaki yerel kordinat okunamadi.",
+   "kur": {
+    "bas_mo": 4761,
+    "son_mo": 4637,
+    "guven": "belirsiz (ortalama+-sigma)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "IntChron kaydi (Eiwanger 1992 AV 47 verisi; Koln lab): KN-3275 5830+-60 BP, baglam I.1 -> t=-4682+-78; KN-3276 5790+-60, I.2 -> -4637+-74; KN-3277 5890+-60 kömür I.3 -> -4761+-77. VERI TABANI KALIBRASYONU, Eiwanger'in kendi tablosu OKUNMADI",
+    "url": "https://intchron.org/ref/eiwanger1992mbf",
+    "alinti": "KN-3277 EDB_718 5890 60 charcoal ... I.3 ; t -4760.6 sigma 77.253",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "bit": {
+    "bas_mo": 4427,
+    "son_mo": 4103,
+    "guven": "belirsiz (ortalama+-sigma)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "IntChron kaydi: KN-3278 5590+-60 BP baglam V.1 -> t=-4427+-59; KN-3279 5760+-60 V.2 -> -4608+-74; U-10A/B tohum 5430+-120 / 5550+-100 -> -4248/-4399; WSU-1846 tohum 5260+-90 -> -4103+-112",
+    "url": "https://intchron.org/ref/eiwanger1992mbf",
+    "alinti": "KN-3278 ... V.1 ; t -4426.92 sigma 58.5345",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "k": "gelisme",
+   "d": "Nil Deltasi'nin bilinen en eski buyuk Neolitik yerlesimi; KN kömür serisi baglam I'den V'ye ~MO 4760 -> ~4100 aralik verir.",
+   "sahip_kultur": "Merimde kulturu (Neolitik Delta)",
+   "ic_not": "FAZ I-V ATAMASI DOGRULANMADI: veri tabanindaki 'I.1/I.2/I.3' ve 'V.1/V.2' Eiwanger'in 1992 tablolarindaki baglam etiketidir, faz numarasi oldugu kanitlanamadi; V baglamlarinin KN-3279 (-4608) I baglamlariyla cakisir. Uc degerler (U-31 bone 3630 BP, U-32 4560 BP) kemik/ham seri sapmasidir, kullanilmadi. Kaynak iki uclu degil; bit tek-deger/aralik bileşimidir. Alt-yapi: Rowland vd. 2016 (Quaternary Int. 410) Merimde yeni 14C'si KUTUPHANE GEREKLI.",
+   "kaynak_dili": "de/en",
+   "okunan_sayfa": [
+    "https://intchron.org/ref/eiwanger1992mbf"
+   ]
+  },
+  {
+   "id": "uan-afuda-gx20750",
+   "ad": "Uan Afuda magarasi (Tadrart Akakus) - GX-20750 kalibre tarih",
+   "ad_yerel": "Uan Afuda",
+   "tur": "sehir",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Koordinat bu oturumda iki bagimsiz tanikla bulunamadi (Wikidata'da Uan Afuda yalnizca 'nehir/vadi' kaydi; OSM yok).",
+   "kur": {
+    "bas_mo": 9650,
+    "son_mo": 8800,
+    "guven": "95.4 (2-sigma, XRONOS IntCal20)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "XRONOS GX-20750 (Geochron Lab, IntCal20): 9765+-105 BP, kalibre 2-sigma cal BP 11600-11581, 11475-11444, 11403-10750. MO = calBP-1950 (bu oturumda)",
+    "url": "https://xronos.ch/c14s/65706",
+    "alinti": "Calibrated age (2sigma, cal BP) 11600-11581 11475-11444 11403-10750",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Uan Afuda Erken Holosen tabakasindan tek 14C: kalibre MO ~9650-8800 (en genis dis sinir); magara fazi baslangici/bitisi icin iki uclu kaynak bulunamadi.",
+   "sahip_kultur": "Akakus (Epipaleolitik/Erken Akakus) - di Lernia 1999 terminolojisi",
+   "ic_not": "Bu YERLESIM SURESI DEGIL, TEK OLCUMUN oluş-zamani belirsizligidir. Baglam/ornek (Unit, malzeme) veri tabaninda 'NA'. Parçalar: 11403-10750 cal BP kolu en buyuk olasilik kolu; MO 9453-8800. di Lernia 1999 monografisi (Arid Zone Archaeology Monographs 1) tam metin okunamadi. Rotunno & Crema 2025 (Nat. Commun. 16, PMC12494898) Uan Afuda'yi Orta Sahra'da ~10,200 cal BP civari seramikli tabakalar arasinda sayar ve kaynak olarak di Lernia 1999'u gosterir (secil 'Takarkori ile birlikte' cumlesi; ayri sayisal Uan Afuda araligi yok).",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://xronos.ch/c14s/65706",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12494898/"
+   ]
+  },
+  {
+   "id": "kerma-ancien",
+   "ad": "Erken Kerma (Kerma Ancien)",
+   "ad_yerel": "Kerma Ancien",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kultur/donem kaydi; Kerma kenti icin sehir_kontrol'e bak.",
+   "kur": {
+    "bas_mo": 2450,
+    "son_mo": null,
+    "guven": "belirsiz (yuvarlak 'circa' degerler)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Early Kerma (circa 2450-2050 B.C.)",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "bit": {
+    "bas_mo": 2050,
+    "son_mo": null,
+    "guven": "belirsiz (yuvarlak 'circa' degerler)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Early Kerma (circa 2450-2050 B.C.)",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "k": "gelisme",
+   "d": "Erken Kerma (Kerma Ancien) seramik kronolojisinde donem 2450-2050 MO (kerma.ch).",
+   "sahip_kultur": "Kerma Krallıgi",
+   "ic_not": "KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://kerma.ch/en/history/"
+   ]
+  },
+  {
+   "id": "kerma-moyen",
+   "ad": "Orta Kerma (Kerma Moyen)",
+   "ad_yerel": "Kerma Moyen",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kultur/donem kaydi; Kerma kenti icin sehir_kontrol'e bak.",
+   "kur": {
+    "bas_mo": 2050,
+    "son_mo": null,
+    "guven": "belirsiz (yuvarlak 'circa' degerler)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Middle Kerma (circa 2050-1750 B.C.)",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "bit": {
+    "bas_mo": 1750,
+    "son_mo": null,
+    "guven": "belirsiz (yuvarlak 'circa' degerler)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Middle Kerma (circa 2050-1750 B.C.)",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "k": "gelisme",
+   "d": "Orta Kerma (Kerma Moyen) seramik kronolojisinde donem 2050-1750 MO (kerma.ch).",
+   "sahip_kultur": "Kerma Krallıgi",
+   "ic_not": "KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://kerma.ch/en/history/"
+   ]
+  },
+  {
+   "id": "kerma-classique",
+   "ad": "Klasik Kerma (Kerma Classique)",
+   "ad_yerel": "Kerma Classique",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kultur/donem kaydi; Kerma kenti icin sehir_kontrol'e bak.",
+   "kur": {
+    "bas_mo": 1750,
+    "son_mo": null,
+    "guven": "belirsiz (yuvarlak 'circa' degerler)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Classic Kerma (circa 1750-1480 B.C.)",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "bit": {
+    "bas_mo": 1480,
+    "son_mo": null,
+    "guven": "belirsiz (yuvarlak 'circa' degerler)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Classic Kerma (circa 1750-1480 B.C.)",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "k": "gelisme",
+   "d": "Klasik Kerma (Kerma Classique) seramik kronolojisinde donem 1750-1480 MO (kerma.ch).",
+   "sahip_kultur": "Kerma Krallıgi",
+   "ic_not": "KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://kerma.ch/en/history/"
+   ]
+  },
+  {
+   "id": "kerma-recent-final",
+   "ad": "Son Kerma (Kerma Recent/Final)",
+   "ad_yerel": "Kerma Recent/Final",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kultur/donem kaydi; Kerma kenti icin sehir_kontrol'e bak.",
+   "kur": {
+    "bas_mo": 1480,
+    "son_mo": null,
+    "guven": "belirsiz (yuvarlak 'circa' degerler)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Final Kerma ... circa 1480-1450 B.C.",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "bit": {
+    "bas_mo": 1450,
+    "son_mo": null,
+    "guven": "belirsiz (yuvarlak 'circa' degerler)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Final Kerma ... circa 1480-1450 B.C.",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "k": "gelisme",
+   "d": "Son Kerma (Kerma Recent/Final) seramik kronolojisinde donem 1480-1450 MO (kerma.ch).",
+   "sahip_kultur": "Kerma Krallıgi",
+   "ic_not": "KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://kerma.ch/en/history/"
+   ]
+  },
+  {
+   "id": "kerma-misir-isgali-1480",
+   "ad": "Nubya'nin Yeni Krallik Misir'i tarafindan fethi / Misir isgali (Kerma sonrasi)",
+   "ad_yerel": "Egyptian Occupation of Kush",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge kaydi.",
+   "kur": {
+    "bas_mo": 1480,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Egyptian Occupation, 1480-1080 B.C. 'Conquest of Nubia by the Egyptian pharaohs of the New Kingdom.'",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "bit": {
+    "bas_mo": 1080,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Egyptian Occupation, 1480-1080 B.C.",
+    "kaynak_sinifi": "akademik-ikincil (kazi misyonu kurum sitesi)"
+   },
+   "k": "fetih",
+   "d": "Kerma krallıgi Yeni Krallik firavunlarinca fethedildi; kerma.ch fethi I. Thutmosis'e (1496-1483) atfeder, Misir etkisinin III. Kataraktin guneyinde ancak III. Thutmosis'te (1479-1424) hissedildigini belirtir.",
+   "sahip_kultur": "Yeni Krallik Misir'i",
+   "ic_not": "Sayfa kendi iclerinde tutarsiz: Final Kerma 1480-1450 ile Misir isgalinin 1480 baslangici cakisir; I. Thutmosis 1496-1483 isgal basindan once biter. Bronk Ramsey 2010 (95% hpd): III. Thutmosis tahta cikisi 1498-1474 (Shaw/Hornung okullari 1479/1479). Yeni Krallik SONU/Ucuncu Ara Donem basi icin okunmus kaynak yok: Bronk Ramsey 2010 yalnizca XX. Hanedan'in kral cikislarini verir (Ramses XI cikisi 95%: 1116-1090) - dinastinin bitisi DEGIL.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://kerma.ch/en/history/",
+    "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf"
+   ]
+  },
+  {
+   "id": "ounjougou-ilk-seramik",
+   "ad": "Ounjougou (Ravin de la Mouche) - Afrika'nin en eski seramigi",
+   "ad_yerel": "Ounjougou, Mali",
+   "tur": "sehir",
+   "lat": 14.6333,
+   "lon": -3.2333,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1243595 Ounjougou",
+     "lat": 14.6333,
+     "lon": -3.2333
+    },
+    {
+     "kaynak": "Rotunno & Crema 2025 Nat Commun (Ounjougou Ravin de la Mouche 3.23 W, 14.63 N)",
+     "lat": 14.63,
+     "lon": -3.23
+    }
+   ],
+   "konum_not": "Iki tanik ayni degerler; bagimsizlik zayif (biri akademik makale - Huysecom'dan turetilmis olabilir).",
+   "kur": {
+    "bas_mo": 9250,
+    "son_mo": null,
+    "guven": "belirsiz (alt sinir/terminus; tek deger)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Huysecom E vd. 2009. The emergence of pottery in Africa during the tenth millennium cal BC: new evidence from Ounjougou (Mali). Antiquity 83(322):905-917 - baslik; 'before 9400 cal BC' ifadesi ARAMA/depo OZETINDEN alindi, makale SAYFASI ACILAMADI (Cambridge 500); Rotunno & Crema 2025 (PMC12494898) metninde: 'pottery as early as 11,200 cal BP' [24]",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12494898/",
+    "alinti": "pottery as early as 11,200 cal BP",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "HA1 biriminde kucuk bifasyal ok uclu litik endustriyle iliskili ilk seramik parcalari; ustteki HA2 tortusu terminus ante quem verir: 9758+-70 BP (ETH-28746) ve 9510+-70 BP (ETH-31279).",
+   "sahip_kultur": "Erken Holosen Bati Sahra/Sahel (adli kultur yok)",
+   "ic_not": "IKI DEGER: Antiquity 2009 ozeti 'before 9400 cal BC' (= >11350 cal BP, ozet arama sonucundan, sayfa okunmadi); Rotunno-Crema 2025 'as early as 11,200 cal BP' = MO 9250 (calBP-1950, bu oturumda). Fark ~150 yil; tek seçim: alt sinir olarak 9400 (Huysecom orijinali) tercih edilirse tam metin sart. Ham HA2 tarihleri (9758+-70 / 9510+-70 BP) HAM, kalibre degil -> sinir olarak yazilmadi.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12494898/"
+   ]
+  },
+  {
+   "id": "nok-kulturu-1500-1",
+   "ad": "Nok Kulturu (Orta Nijerya)",
+   "ad_yerel": "Nok culture",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kultur kaydi.",
+   "kur": {
+    "bas_mo": 1500,
+    "son_mo": null,
+    "guven": "belirsiz (yuvarlak kalibre sinir)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Höhn A, Champion L, Neumann K, Franke G, Breunig P. 2022. A question of rite - pearl millet consumption at Nok culture sites, Nigeria (second/first millennium BC). Veg Hist Archaeobot, Giris (Breunig & Rupp 2016; Franke 2016a atfi). doi:10.1007/s00334-022-00902-0 (CC-BY)",
+    "url": "https://link.springer.com/content/pdf/10.1007/s00334-022-00902-0.pdf",
+    "alinti": "the Nok culture of central Nigeria (1500-1 cal bc; Breunig and Rupp 2016; Franke 2016a)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 1,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Ayni makale (ozet ve giris): 'dated 1500-1 cal bc'; 'ceramic styles continuity between 1500 cal bc and the turn of the common era (Franke 2016b)'",
+    "url": "https://link.springer.com/content/pdf/10.1007/s00334-022-00902-0.pdf",
+    "alinti": "dated 1500-1 cal bc ... terracotta sculptures ... only made during a limited period after 900 cal bc",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Nok kulturu 1500-1 cal BC; terrakotta heykeller yalnizca 900 cal BC sonrasina ait.",
+   "sahip_kultur": "Nok",
+   "ic_not": "Birincil kaynak Franke 2016 (J African Archaeol 14(3):257-289) ve Frankfurt tezi (Potsherds in Time, docId 42210) bot korumasiyla okunamadi -> kutuphane/yerel erisim gerekli. Faz sinirlari (3 faz, 7 seramik grubu) sayisal okunamadi; yalnizca butun kultur ucu ve '900 cal BC' terrakotta esigi. Aynı makale ayni donemde Gajiganna 1800-800, Kintampo 2100-1400, Tichitt ~2000 cal BC verir.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://link.springer.com/content/pdf/10.1007/s00334-022-00902-0.pdf"
+   ]
+  },
+  {
+   "id": "dhar-tichitt-walata-holl2009",
+   "ad": "Dhar Tichitt-Walata Neolitik tarim-cobanlik sistemi",
+   "ad_yerel": "Dhar Tichitt / Dhar Walata / Dhar Nema",
+   "tur": "bolge",
+   "lat": 18.4542,
+   "lon": -9.4634,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim 'Dhar Tichitt' (Tagant)",
+     "lat": 18.454151,
+     "lon": -9.463366
+    }
+   ],
+   "konum_not": "TEK tanik (OSM); ikinci tanik bulunamadi; bolge uzun bir falez hatti - nokta temsilidir.",
+   "kur": {
+    "bas_mo": 2200,
+    "son_mo": 300,
+    "guven": "belirsiz",
+    "aralik_turu": "yerlesim-suresi",
+    "kaynak": "Holl AFC. 2009. Coping with uncertainty: Neolithic life in the Dhar Tichitt-Walata, Mauritania (ca. 4000-2300 BP). C. R. Geoscience 341(8-9):703-712, doi:10.1016/j.crte.2009.04.005 (acik erisim, Academie des sciences)",
+    "url": "https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2009.04.005/",
+    "alinti": "The Neolithic occupation of the Dhars lasted from ca. 2200 BC to 4/300 BC.",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 400,
+    "son_mo": 300,
+    "guven": "belirsiz ('4/300' belirsiz yazim)",
+    "aralik_turu": "yerlesim-suresi",
+    "kaynak": "Holl 2009 ayni makale: 'An intense arid spell in the middle of the first millennium BC triggered the collapse of the whole Neolithic agropastoral system'",
+    "url": "https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2009.04.005/",
+    "alinti": "Neolithic occupation of the Dhars lasted from ca. 2200 BC to 4/300 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Mobil cobanlar ~MO 2200'de Dhar Tichitt-Walata-Nema'ya yerlesir, bulrush millet yetistirir; MO 4./3. yy'da kurak donem sistemi cokertir.",
+   "sahip_kultur": "Tichitt Gelenegi (Neolitik)",
+   "ic_not": "KALIBRE MI HAM MI: makale baslik/ozette 'ca. 4000-2300 BP' (≈ 2050-350 MO ham-cal karisimi) ve metinde 'ca. 2200 BC to 4/300 BC' / 'Fig. 7: ca. 2000 to 400 BC (Holl 2004)' yazar; metin kalibrasyonu BEYAN ETMEZ (Fig. 5-6 14C tablolari gorsel, okunamadi). 4000 BP kalibre ≈ MO 2500-2300 olurdu, 2200 BC ile ucu uyusmuyor -> iç tutarlilik belirsiz. Höhn vd. 2022 (Veg Hist Archaeobot) Tichitt icin 'around 2000 cal bc' yazar. bit.bas_mo=400,son_mo=300 yazimi '4/300 BC' belirsizligini yansitir.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2009.04.005/",
+    "https://link.springer.com/content/pdf/10.1007/s00334-022-00902-0.pdf"
+   ]
+  },
+  {
+   "id": "misir-kral-tahta-cikislari-bronkramsey2010",
+   "ad": "Misir kral tahta cikis tarihleri (14C + Bayes) - Eski/Orta/Yeni Krallik",
+   "ad_yerel": "Modelled accession dates",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kronoloji tablosu.",
+   "kur": {
+    "bas_mo": 1570,
+    "son_mo": 1544,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Bronk Ramsey C, Dee MW, Rowland JM, Higham TFG, Harris SA, Brock F, Quiles A, Wild EM, Marcus ES, Shortland AJ. 2010. Radiocarbon-based chronology for dynastic Egypt. Science 328(5985):1554-1557, Tablo 1 (kral tahta cikis tarihleri, Shaw 2000 hanedan sirasi/saltanat sureleri uzerine OxCal modeli). doi:10.1126/science.1189395",
+    "url": "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf",
+    "alinti": "Ahmose ... 1566 1552 [68%] 1570 1544 [95%]",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 1116,
+    "son_mo": 1090,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Bronk Ramsey C, Dee MW, Rowland JM, Higham TFG, Harris SA, Brock F, Quiles A, Wild EM, Marcus ES, Shortland AJ. 2010. Radiocarbon-based chronology for dynastic Egypt. Science 328(5985):1554-1557, Tablo 1 (kral tahta cikis tarihleri, Shaw 2000 hanedan sirasi/saltanat sureleri uzerine OxCal modeli). doi:10.1126/science.1189395",
+    "url": "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf",
+    "alinti": "Rameses XI ... 1110 1100 [68%] 1116 1090 [95%]",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Bronk Ramsey 2010: ~2650-1100 MO araligi. Yeni Krallik basi (Ahmose cikisi) 95% 1570-1544; Shaw 2000'de 1550. Ramses XI cikisi 95% 1116-1090.",
+   "sahip_kultur": "Eski / Orta / Yeni Krallik",
+   "ic_not": "KRONOLOJI OKULU: model Shaw (2000) 'consensus' hanedan dizisi ve saltanat sureleri uzerine kurulu; Hornung-Krauss-Warburton (2006) sutunu karsilastirmadadir. TUM DEGERLER 'accession (ilk saltanat yili)' olup donem SONU degildir; sadece DOKUNULAN kral için 14C verisi vardir (tabloda 'No.14C dates' sutunu): Djoser 7, Sneferu 2, Mentuhotep II 9, Amenemhat I 4, Senusret II 2, Senusret III 10, Amenemhat III 10, Ahmose 0, Thutmose III 24, Hatshepsut 25, Amenhotep IV 17, Tutankhamun 7, Rameses II 2, Rameses IX 2; 14C'siz kralin tarihi saltanat-suresi priorundan gelir. 95% hpd: Djoser 2691-2625; Sneferu 2649-2558; Khufu 2629-2528; Mentuhotep II 2064-2019 (Orta Krallik basi, ek kaynak: Erdil 2025 Tablo 4 onceki dalgada 2065-2037); Amenemhat I 1998-1952; Senusret III 1889-1836; Amenemhat III 1851-1798; Ahmose 1570-1544; Amenhotep I 1545-1519; Thutmose III 1498-1474; Hatshepsut 1492-1468; Amenhotep III 1408-1386; Amenhotep IV (Akhenaten) 1370-1348; Tutankhamun 1353-1331; Horemheb 1341-1318; Rameses I 1313-1290; Rameses II 1297-1273; Sethnakht 1204-1179; Rameses III 1202-1176; Rameses IX 1143-1117; Rameses XI 1116-1090. Tablonun 'Shaw' ve 'Hornung' sutunlari (konsensus tarihleri): Ahmose 1550/1539, Ramses II 1279/1279, Ramses XI 1099/1106 (sutun sirasi PDF metin cikarimindan; hizalama yaklasik). Yeni Krallik SONU / Ucuncu Ara Donem basi / Ikinci Ara Donem basi bu kaynakta YOK -> bosluk.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf"
+   ]
+  },
+  {
+   "id": "hiksos-avaris-sonu-ahmose-fethi",
+   "ad": "Hiksoslarin Avaris'ten atilisi (Ahmose'nin Avaris fethi)",
+   "ad_yerel": "Hyksos / 15. Hanedan - Avaris",
+   "tur": "sehir",
+   "lat": 30.7863,
+   "lon": 31.8229,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 727080 Avaris/Ramesses",
+     "lat": 30.7863139,
+     "lon": 31.82289267
+    },
+    {
+     "kaynak": "Wikidata Q309282 Avaris",
+     "lat": 30.786228,
+     "lon": 31.82253
+    },
+    {
+     "kaynak": "Wikidata Q3517370 Tell el-Dab'a",
+     "lat": 30.7833,
+     "lon": 31.8333
+    }
+   ],
+   "konum_not": "Uc tanik 1 km icinde; Pleiades esas.",
+   "kur": null,
+   "bit": {
+    "bas_mo": 1532,
+    "son_mo": null,
+    "guven": "yok (tarihsel kronoloji; Shaw sutunu)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Bruins HJ, van der Plicht J. 2025. The Minoan Thera eruption predates Pharaoh Ahmose. PLoS ONE (PMC12422448), Tablo (Ahmose II - tarihsel kronolojiler): 'Conquest Avaris, ca year 18: ca 1532 (Shaw 2000), ca 1521 (Hornung vd. 2006), ca 1506 (Krauss & Warburton)'; Bietak M. 2023, Avaris/Tell el-Dab'a, Osterreichs archaologische Forschung in Agypten nach 1945 (Abb. 23/84: 'DATUM LINE ... AHMOSE ~1530 BC', Almanca)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/",
+    "alinti": "Conquest Avaris, ca year 18 ... ca 1532 ... ca 1530 ... ca 1521 ... ca 1506",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "fetih",
+   "d": "Ahmose'nin Avaris'i almasi Hiksos 15. Hanedan'in sonunu isaretler; Tell el-Dab'a'da bu 'sehrin buyuk olcude terk edilmesi' ile gorulur (Bietak 2023: tahrip/yanginlar yok, olasi teslimiyet).",
+   "sahip_kultur": "Hiksos (15. Hanedan)",
+   "ic_not": "BIRBIRINE UYMAYAN OKULLAR: Shaw ca 1532; Schneider ca 1530; Hornung vd. ca 1521; Krauss & Warburton ca 1506 (Bruins 2025 tablosu: sutun hizalamasi metin cikarimidir, Wente 1552, Breasted 1562). Bietak 2023 'Hyksos sonu ca. 1530 BC' (Abb.). BASLANGIC (15. Hanedan kurulusu / Hiksos'un Avaris'te gucu alisi) kaynakli bulunamadi: Bietak 2024 (Chronos, Aegis 26, 57-81, 'The Timespan of Hyksos Rule', stratigrafik 105-112 yil, arama ozetinden - OKUNMADI) -> kutuphane_gerekli. Kutschera vd. 2012 (Radiocarbon 54) 14C'si ~120 yil daha yaşli Tell el-Dab'a tarihleri verir (arama ozeti); grafik, sayisal tablo okunamadi.",
+   "kaynak_dili": "en/de",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/",
+    "https://ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Egypt-Libya/NileDelta/Avaris-Bietak2023.pdf"
+   ]
+  },
+  {
+   "id": "iskenderiye-kurulus-332-331",
+   "ad": "Iskenderiye'nin kurulusu",
+   "ad_yerel": "Alexandreia / Alexandria",
+   "tur": "sehir",
+   "lat": 31.2014,
+   "lon": 29.9098,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 727070 Alexandria",
+     "lat": 31.201435,
+     "lon": 29.909773
+    },
+    {
+     "kaynak": "Wikidata Q87 Alexandria",
+     "lat": 31.1975,
+     "lon": 29.8925
+    },
+    {
+     "kaynak": "OSM Nominatim 'Alexandria Egypt'",
+     "lat": 31.1991806,
+     "lon": 29.8951716
+    }
+   ],
+   "konum_not": "Uc tanik 1.5 km icinde; Pleiades esas.",
+   "kur": {
+    "bas_mo": 332,
+    "son_mo": 331,
+    "guven": "yok (gelenek, iki yil secenegi)",
+    "aralik_turu": "yazili",
+    "kaynak": "Pleiades 727070 Alexandria (aciklama alani)",
+    "url": "https://pleiades.stoa.org/places/727070",
+    "alinti": "The ancient port city in Egypt's Nile Delta, founded by Alexander the Great in 332/331 BCE.",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Iskender Rhakotis yerlesimi yanina kenti kurar; gelenek 331 (nisan), bazi kaynaklar 332.",
+   "sahip_kultur": "Makedon/Ptolemaios",
+   "ic_not": "Brif 'MO 331 gelenegi' dedi; Pleiades 332/331 verir. Kuruluşun gunu icin birincil Arrian 3.1.5 / Plutarkhos okunmadi. Sehrin ilk sahibi Iskender (Makedon) -> MO 323 sonrasi Ptolemaios; baslangic MO 305/304 (kral unvani) icin okunmus kaynak yok (Caneva 2019 Aegyptus 99 Cloudflare 403) -> kutuphane_gerekli.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://pleiades.stoa.org/places/727070/json"
+   ]
+  },
+  {
+   "id": "roma-misiri-30mo",
+   "ad": "Roma Misiri'nin basi - Octavian Iskenderiye'yi alir",
+   "ad_yerel": "Aegyptus",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge kaydi.",
+   "kur": {
+    "bas_mo": 30,
+    "son_mo": null,
+    "guven": "yok",
+    "aralik_turu": "yazili",
+    "kaynak": "Bowman AK. 'Egypt' in Cambridge Ancient History X (The Augustan Empire 43 BC-AD 69), 2. baski, Cambridge UP 1996 (cevrimici 28 Mart 2008) - sayfa numarasi okunamadi",
+    "url": "https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168",
+    "alinti": "In August of 30 B.C. ... Octavian had pursued Cleopatra and Mark Antony to Egypt",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "fetih",
+   "d": "30 MO Agustos: Octavian Iskenderiye'yi alir; resmi 'kratesis' 1 Thoth = 29 Agustos 30 MO'dan hesaplanir (18 gunluk Antonius cocuklari 'saltanati' ile kapatilarak).",
+   "sahip_kultur": "Roma (Octavian, sonra Augustus)",
+   "ic_not": "Alinti: 'settled on the first day of the new Egyptian year (1 Thoth = 29 August)' (CAH X, Bowman). Iskenderiye'nin alinma gunu (1 Agustos) bu sayfada degil; yalnizca 'Agustos 30 MO' okundu.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168"
+   ]
+  }
+ ],
+ "sehir_kontrol": [
+  {
+   "sehir": "Memphis",
+   "lat": 29.8447,
+   "lon": 31.2509,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q5715",
+     "lat": 29.844667,
+     "lon": 31.250917
+    },
+    {
+     "kaynak": "OSM Nominatim (Mit Rahina, Giza)",
+     "lat": 29.8544582,
+     "lon": 31.2615188
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Eski Krallik Misir'i (Djoser tahta cikisi 95%: 2691-2625 MO; baskent olarak Memphis KAYNAKTA OKUNMADI)",
+     "bas_mo": 2658,
+     "son_mo": null,
+     "gecis_kaynagi": "Bronk Ramsey vd. 2010 Science 328:1554, Tablo 1 (Djoser 68%: 2676-2643; 95%: 2691-2625); Memphis'in baskent oldugu bu kaynakta yok - DONEM YAZILMADI, yalniz hanedan referansi",
+     "kronoloji_okulu": "Shaw 2000 (OxCal modeli)"
+    }
+   ],
+   "bosluk_notu": "Memphis'in siyasi sahibi (Eski Krallik baskenti, Hiksos, Kush, Asur, Ahamenis, Ptolemaios, Roma) donem donem kaynakli okunmadi: Hornung-Krauss-Warburton 2006 (Brill HdO 83), Shaw 2000 (OHAE), Kitchen 1996, Jansen-Winkeln (TIP bolumu) kutuphane gerekli. Dönem satiri BOSLUK: bas_mo=2658 ortasi YAZILMAMALI (aralik 2691-2625)."
+  },
+  {
+   "sehir": "Thebes/Waset",
+   "lat": 25.7206,
+   "lon": 32.6103,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q101583 Thebes",
+     "lat": 25.720556,
+     "lon": 32.610278
+    },
+    {
+     "kaynak": "Pleiades 786017 Diospolis Magna/Thebai (temsili nokta)",
+     "lat": 25.664781,
+     "lon": 32.631884
+    }
+   ],
+   "donemler": [],
+   "bosluk_notu": "Iki tanik ~6.5 km ayrisir; Wikidata (Luksor-Karnak cekirdegi) esas alindi, cunku Pleiades temsili nokta merkez disi. Waset'in siyasi sahibi (Orta Krallik baskenti Mentuhotep II 2064-2019 cikisi disinda, Yeni Krallik baskenti vb.) kaynakli okunmadi."
+  },
+  {
+   "sehir": "Avaris (Tell el-Dab'a)",
+   "lat": 30.7863,
+   "lon": 31.8229,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 727080",
+     "lat": 30.7863139,
+     "lon": 31.82289267
+    },
+    {
+     "kaynak": "Wikidata Q309282",
+     "lat": 30.786228,
+     "lon": 31.82253
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Hiksos 15. Hanedan (Avaris)",
+     "bas_mo": null,
+     "son_mo": 1532,
+     "gecis_kaynagi": "Ahmose'nin Avaris fethi ca 1532 (Shaw) / ca 1530 (Schneider ve Bietak 2023 Abb.) / ca 1521 (Hornung) / ca 1506 (Krauss-Warburton): Bruins & van der Plicht 2025 PLoS ONE PMC12422448 Tablo + Bietak 2023",
+     "kronoloji_okulu": "Orta (Shaw), alternatifler: Alçak (K&W 1506)"
+    }
+   ],
+   "bosluk_notu": "Baslangic (Hiksos hakimiyeti, Avaris'te 14. Hanedan 'Nehesy' krallıgi) kaynakli bulunamadi: Bietak 2024 Chronos Aegis 26 s.57-81 ve Bietak 1996 'Avaris: Capital of the Hyksos' kutuphane gerekli. Pi-Ramesses (Qantir) ayri kent."
+  },
+  {
+   "sehir": "Napata",
+   "lat": 18.5333,
+   "lon": 31.8167,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q743282 Napata",
+     "lat": 18.53333,
+     "lon": 31.81667
+    },
+    {
+     "kaynak": "Pleiades 579500116 Temple of Amun at Jebel Barkal",
+     "lat": 18.5353,
+     "lon": 31.8308
+    }
+   ],
+   "donemler": [],
+   "bosluk_notu": "Pleiades 805634 'Napata' temsili noktasi 5.3 km ayri (18.5660, 31.8537). Esas: Jebel Barkal tapinagi. Pleiades aciklamasi: 'Nubian city-state founded in the fifteenth century BC' (kaynak degeri yok). XXV. Hanedan/Piye (TLA 744-714, Broekman 2017 uzun kronoloji; kisa: 740) bot korumali sayfa nedeniyle ACILMADI; Kush'un Misir'i fethi tarihi icin okunmus kaynak yok. Onceki dalga: Peeters 2026 'onem suresi 1070 MO - 350 MS'."
+  },
+  {
+   "sehir": "Meroe",
+   "lat": 16.9351,
+   "lon": 33.7508,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q5780",
+     "lat": 16.935139,
+     "lon": 33.75075
+    },
+    {
+     "kaynak": "OSM Nominatim Meroe",
+     "lat": 16.9380862,
+     "lon": 33.7480636
+    }
+   ],
+   "donemler": [],
+   "bosluk_notu": "Meroe'nin Kush baskenti olarak kurulus/baskent oluş tarihi icin bu oturumda okunmus kaynak yok (Zibelius-Chen, Hornung 2006 bolumu kutuphane gerekli; Pleiades 'Kush (kingdom)' 827790769 aciklamasi okunmadi)."
+  },
+  {
+   "sehir": "Kerma",
+   "lat": 19.6008,
+   "lon": 30.4097,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1107569 Kerma",
+     "lat": 19.600802,
+     "lon": 30.409731
+    },
+    {
+     "kaynak": "OSM Nominatim Kerma",
+     "lat": 19.593098,
+     "lon": 30.4091017
+    },
+    {
+     "kaynak": "Pleiades 938346135 Doukki Gel",
+     "lat": 19.608813,
+     "lon": 30.412511
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Kerma Krallıgi - Erken Kerma",
+     "bas_mo": 2450,
+     "son_mo": 2050,
+     "gecis_kaynagi": "kerma.ch/en/history 'Early Kerma (circa 2450-2050 B.C.)'",
+     "kronoloji_okulu": "Kerma misyonu seramik kronolojisi (Honegger 2550 baslangici alternatif, sayfa okunmadi)"
+    },
+    {
+     "sahip": "Kerma Krallıgi - Orta Kerma",
+     "bas_mo": 2050,
+     "son_mo": 1750,
+     "gecis_kaynagi": "kerma.ch 'Middle Kerma (circa 2050-1750 B.C.)'",
+     "kronoloji_okulu": "ayni"
+    },
+    {
+     "sahip": "Kerma Krallıgi - Klasik Kerma",
+     "bas_mo": 1750,
+     "son_mo": 1480,
+     "gecis_kaynagi": "kerma.ch 'Classic Kerma (circa 1750-1480 B.C.)'",
+     "kronoloji_okulu": "ayni"
+    },
+    {
+     "sahip": "Son Kerma (gecis)",
+     "bas_mo": 1480,
+     "son_mo": 1450,
+     "gecis_kaynagi": "kerma.ch 'Final Kerma ... circa 1480-1450 B.C.'",
+     "kronoloji_okulu": "ayni"
+    },
+    {
+     "sahip": "Yeni Krallik Misir'i (Nubya isgali)",
+     "bas_mo": 1480,
+     "son_mo": 1080,
+     "gecis_kaynagi": "kerma.ch 'Egyptian Occupation 1480-1080 B.C.', I. Thutmosis fetih atfi 1496-1483",
+     "kronoloji_okulu": "kerma.ch tablosu (Misir tarihleri uyumsuz: Final Kerma ile cakisir)"
+    }
+   ],
+   "bosluk_notu": "Dönemler 'circa' degerlerdir; Kerma kentinin Misirlilarca fethi gunu/olayi bu oturumda birincil kaynakla okunmadi. Pleiades Doukki Gel: 'ancient city founded by Egyptian pharaohs ca. 1450 BCE, succeeds the earlier site of Kerma' (aciklama alani)."
+  },
+  {
+   "sehir": "Iskenderiye",
+   "lat": 31.2014,
+   "lon": 29.9098,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 727070",
+     "lat": 31.201435,
+     "lon": 29.909773
+    },
+    {
+     "kaynak": "OSM Nominatim",
+     "lat": 31.1991806,
+     "lon": 29.8951716
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Roma (Octavian)",
+     "bas_mo": 30,
+     "son_mo": null,
+     "gecis_kaynagi": "Bowman, CAH X: Agustos 30 MO'da alinma; resmi baslangic 1 Thoth = 29 Agustos 30 MO",
+     "kronoloji_okulu": "yok (yazili tarih)"
+    }
+   ],
+   "bosluk_notu": "Kurulus 332/331 MO (Pleiades aciklamasi). MO 305/304 Ptolemaios kral unvani ve MO 323 sonrasi Ptolemaios hakimiyeti (Soter) icin acilmis kaynak yok - Caneva 2019 (Aegyptus 99) 403 Cloudflare. Ptolemaios hanedani MO 305/304 yalniz arama ozeti (Caneva, numisview) -> yazilmadi."
+  }
+ ],
+ "kutuphane_gerekli": [
+  {
+   "eser": "Franke G. 2016. A chronology of the Central Nigerian Nok Culture - 1500 BC to the beginning of the Common Era. Journal of African Archaeology 14(3):257-289",
+   "doi/url": "Brill; Frankfurt UB docId 42210 (Potsherds in Time, Anubis botkorumali)",
+   "neden_gerekli": "Nok 3 faz ve 7 seramik grubu sayisal kalibre aralik tablosu; Breunig & Rupp 2016 'Nok' bolumu"
+  },
+  {
+   "eser": "Huysecom E vd. 2009. The emergence of pottery in Africa during the tenth millennium cal BC: new evidence from Ounjougou (Mali). Antiquity 83(322):905-917",
+   "doi/url": "10.1017/S0003598X00099245",
+   "neden_gerekli": "HA1 tabakasinin 'before 9400 cal BC' sinirinin tam metni; kalibre OxCal tablosu"
+  },
+  {
+   "eser": "Holl AFC 2009 (tablolar) + Holl 2004 'Saharan Rock Art' / MacDonald 2013 Dhar Nema Bou Khzama 14C tablosu; Fig. 5-6 sayisal",
+   "doi/url": "10.1016/j.crte.2009.04.005 (gorseller)",
+   "neden_gerekli": "Dhar Tichitt 14C tablosunun kalibre mi ham mi oldugu, ucun MO 400 mi 300 mu oldugu"
+  },
+  {
+   "eser": "di Lernia S. 1999. The Uan Afuda Cave: Hunter-Gatherer Societies of Central Sahara. Arid Zone Archaeology Monographs 1. Firenze: All'Insegna del Giglio",
+   "doi/url": "books.ub.uni-heidelberg.de (Anubis)",
+   "neden_gerekli": "Unit 1-2 kalibre 14C listesi; GX-20750 baglami"
+  },
+  {
+   "eser": "Eiwanger J. 1992. Merimde-Benislame III: Die Funde der juengeren Merimdekultur. AV 47. Mainz: Zabern; Rowland J ve diger 2016. The Neolithic within the context of northern Egypt: New results and perspectives from Merimde Beni Salama. Quaternary International (cilt 410)",
+   "doi/url": "10.1016/j.quaint.2016.02.014 (OA yok - Unpaywall)",
+   "neden_gerekli": "Faz I-V mutlak tarihleri (DAI Kairo)"
+  },
+  {
+   "eser": "Bonnet C (ed.) 1990/2000/2014 Kerma raporlari; Honegger M 2005 Genava 53; Bonnet-Valbelle",
+   "doi/url": "kerma.ch Publications_PDF; libra.unine.ch (taramali PDF)",
+   "neden_gerekli": "Kerma Ancien/Moyen/Classique/Recent kalibre 14C tabloları; 2450 mi 2550 mi"
+  },
+  {
+   "eser": "Shaw I (ed.) 2000. The Oxford History of Ancient Egypt; Hornung E, Krauss R, Warburton DA (eds.) 2006. Ancient Egyptian Chronology (HdO 83) - Jansen-Winkeln (TIP), Zibelius-Chen (Nubian kingdoms)",
+   "doi/url": "Brill; sadece Harvard Giza arsiv pp.144-158 alıntısı acik",
+   "neden_gerekli": "Yeni Krallik sonu, Ucuncu Ara Donem, XXV. Hanedan, Piye, Ptolemaios basi 305/304, Ahamenis Misiri 525, Geç Donem sınırlari"
+  },
+  {
+   "eser": "Bietak M. 2024. The Timespan of Hyksos Rule (15th Dynasty). In Driessen J, Fantuzzi T (eds) Chronos. Aegis 26. Louvain, 57-81; Kutschera W ve diger 2012. Radiocarbon 54(3-4):407-422",
+   "doi/url": "Radiocarbon: journals.uair.arizona.edu/radiocarbon/article/download/16187/16084 (HTML dondu)",
+   "neden_gerekli": "Hiksos hakimiyetinin baslangici (Avaris), Tell el-Dab'a faz sinirlarının sayısal tablosu"
+  },
+  {
+   "eser": "Caneva S. 2019. Aegyptus 99 (Ptolemaios I kral unvani 305/4); Broekman G. 2017. Suggesting a New Chronology for the Kushite Twenty-Fifth Dynasty. In A True Scribe of Abydos (OLA 265), 39-52",
+   "doi/url": "research.unipd.it (Cloudflare 403); TLA (bot korumasi)",
+   "neden_gerekli": "Ptolemaios baslangici 305/304; Piye 744-714 mu 740 mi"
+  },
+  {
+   "eser": "McIntosh RJ, McIntosh SK 1981. The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-jeno. J. African History 22:1-22; McIntosh 1995 Excavations at Jenne-jeno monograf Appendix I",
+   "doi/url": "10.1017/S0021853700018983",
+   "neden_gerekli": "Jenne-jeno Faz I kalibre 14C tablosu"
+  },
+  {
+   "eser": "Friedman R, van Neer W, Linseele V 2011. The elite Predynastic cemetery at Hierakonpolis: 2009-10 update. In Origins III, Peeters, 157-191",
+   "doi/url": "Peeters",
+   "neden_gerekli": "HK6 kalibre OxCal tablosu (IntChron yalnizca ortalama veriyor)"
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Naqada I'in (IA/IB) kendi basi ve HK6'nin son/terk tarihi — Dee 2013 Naqada'yi Badari sonundan baslatir; HK6 icin yayin tablosu okunmadi.",
+  "bulunamadı: Yeni Krallik SONU (XX. Hanedan sonu) ve Ucuncu Ara Donem basi, Gec Donem (XXVI) basi, XXV. Hanedan Kush basi (Piye ~744), Ahamenis Misiri (525/404/343) — Bronk Ramsey 2010 Tablo 1'de yok; Shaw/Hornung/Jansen-Winkeln kitaplari ve TLA/Broekman acilamadi (denenen: thesaurus-linguae-aegyptiae.de bot dogrulamasi; ancient-egypt websites kullanilmadi).",
+  "bulunamadı: Ptolemaios basi MO 305/304 acik kaynak — Caneva 2019 Cloudflare 403; numisview/pharaoh.se kullanilmadi.",
+  "bulunamadı: Hiksos/15. Hanedan baslangici (Avaris) — Bietak 2024 okunmadi; Bietak 2023 yalniz sonu 1530 (grafik).",
+  "bulunamadı: Napata/Meroe/Kerma kentleri icin siyasi sahip donemlerinin ve Kush'un Misir fethi (Piye) kaynakli tarihleri; Meroe baskent oluş tarihi.",
+  "bulunamadı: Jenne-jeno kalibre 14C (yalnizca ikincil 250 MO/200 MO yuvarlak degerler; McIntosh 1981 acilamadi).",
+  "bulunamadı: Taruga (Nok ile iliskili demir) ve Lake Turkana'da Jarigole/Kalokol kalibre aralıkları (denenmedi — oncelik dusuk, kaynak ulasilabilirlik belirsiz).",
+  "bulunamadı: Uan Afuda magarasi icin baglama bagli ikinci ve ucuncu tarih, ve iki bagimsiz koordinat tanigi.",
+  "bulunamadı: Memphis ve Thebes icin 2 bagimsiz akademik koordinat (kazı raporu); Wikidata/OSM/Pleiades kullanildi.",
+  "UYARI: Uan Afuda, Ounjougou, Merimde, HK6/HK11C degerlerinde 'veri tabani kalibrasyonu' (XRONOS/IntChron: ortalama±sigma) ile 'yayinin kendi kalibre tablosu' ayri tutuldu."
+ ]
+}

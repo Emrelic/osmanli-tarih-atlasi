@@ -1,0 +1,575 @@
+{
+ "sinif": "ikinci_tanik",
+ "adlar": [
+  {
+   "ad": "Ermenistan",
+   "madde_sayisi": 19,
+   "yil_araligi": [
+    35,
+    998
+   ],
+   "ornek_maddeler": [
+    "0035-01-01 Ermenistan vârisliği krizi: Roma adayı Tiridates Ktesifon'da Part kral",
+    "0053-01-01 I. Vologases kardeşi Tiridates'i Ermenistan kralı yaptı",
+    "0114-01-01 Traianus Ermenistan'a girdi; Osroes'un atadığı Parthamasiris öldürüldü"
+   ],
+   "tek_tanik_koord": {
+    "lat": 4.53656,
+    "lon": -75.67263,
+    "kaynak": "GeoNames 3689560 Armenia"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Horasan",
+   "madde_sayisi": 12,
+   "yil_araligi": [
+    226,
+    1205
+   ],
+   "ornek_maddeler": [
+    "0226-01-01 Sâsânî I. Ardeşir Kuşan topraklarına saldırdı; batı eyaletleri Sâsânîl",
+    "0747-06-15 Ebû Müslim Horasan'da siyah bayrağı açtı: Abbâsî ihtilâli başladı",
+    "0748-01-15 Nasr b. Seyyâr Merv'i terk etti; Horasan Abbâsî ihtilâlcilerinin eline"
+   ],
+   "tek_tanik_koord": {
+    "lat": 40.03885,
+    "lon": 42.16366,
+    "kaynak": "GeoNames 745527 Horasan"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Kannauj",
+   "madde_sayisi": 8,
+   "yil_araligi": [
+    770,
+    1170
+   ],
+   "ornek_maddeler": [
+    "0770-01-01 Dharmapala Pala tahtında (yak. 770-810); krallığı genişletir, bir süre",
+    "0816-01-01 II. Nagabhata Kannauj'u Çakrayudha'dan alır ve yeni başkent yapar (yak",
+    "0836-01-01 Mihira Bhoja Pratihara tahtına çıkar (yak. 836)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 27.05524,
+    "lon": 79.9188,
+    "kaynak": "GeoNames 1268011 Kannauj"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Ktesifon",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    10,
+    637
+   ],
+   "ornek_maddeler": [
+    "0010-01-01 II. Artabanos Ktesifon'da Part kralı olarak taç giydi",
+    "0035-01-01 Ermenistan vârisliği krizi: Roma adayı Tiridates Ktesifon'da Part kral",
+    "0116-01-01 Traianus Babil, Seleukeia ve Ktesifon'u aldı, Basra Körfezi'ne ulaştı;"
+   ],
+   "tek_tanik_koord": {
+    "lat": 33.094703,
+    "lon": 44.5812226667,
+    "kaynak": "Pleiades 893976"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Ctesiphon, Seleucia Ctesiphon, Taq Kisra; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Hîre",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    268,
+    602
+   ],
+   "ornek_maddeler": [
+    "0268-01-01 Cezîme el-Ebraş Zebbâ'ca öldürüldü; Amr b. Adî ilk Lahmî hükümdarı old",
+    "0288-01-01 İmruülkays b. Amr Lahmî tahtına geçti (288-328)",
+    "0525-01-01 Hâris b. Amr Bekir ve Tağlib desteğiyle Hîre'yi ele geçirdi"
+   ],
+   "tek_tanik_koord": {
+    "lat": 31.883324,
+    "lon": 44.449851,
+    "kaynak": "Pleiades 912800"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Meyyâfârikīn",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    983,
+    1260
+   ],
+   "ornek_maddeler": [
+    "0983-06-15 Bâd Meyyâfârikīn'i aldı; Mervânî devletinin temeli atıldı",
+    "0990-03-31 Bâd öldü; yeğeni Ebû Ali Hasan Meyyâfârikīn'i ve Diyarbekir kalelerini",
+    "0997-01-14 Ebû Ali Hasan öldürüldü; kardeşi Mümehhidüddevle Saîd geçti"
+   ],
+   "tek_tanik_koord": {
+    "lat": 38.1427855,
+    "lon": 41.003257,
+    "kaynak": "Pleiades 874573"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Meißen",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    1089,
+    1263
+   ],
+   "ornek_maddeler": [
+    "1089-01-01 Wettin soyundan Heinrich I. von Eilenburg Meißen Markgraflığı ile bele",
+    "1123-01-01 Dük Lothar von Süpplingenburg Meißen Markgraflığı'nı Wettin'den Konrad",
+    "1156-01-01 Konrad tahttan çekildi; Otto der Reiche Meißen Markgrafı oldu"
+   ],
+   "tek_tanik_koord": {
+    "lat": 51.16158,
+    "lon": 13.4737,
+    "kaynak": "GeoNames 2872155 Meissen"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Kerec",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    825,
+    897
+   ],
+   "ornek_maddeler": [
+    "0825-04-24 Ebû Dülef el-İclî Kerec merkezli Dülefî emirliğinin başına geçti",
+    "0839-11-12 Dülefî emîri Abdülazîz b. Ebû Dülef başa geçti",
+    "0873-10-27 Dülef b. Abdülazîz Dülefî emîri oldu"
+   ],
+   "tek_tanik_koord": {
+    "lat": 35.83266,
+    "lon": 50.99155,
+    "kaynak": "GeoNames 128747 Karaj"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Alamut",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    1091,
+    1198
+   ],
+   "ornek_maddeler": [
+    "1091-01-01 Melikşah'ın Alamut kuşatması sonuçsuz kaldı",
+    "1094-01-01 Nizârî-Müsta'lî ayrılığı: Hasan Sabbâh Fâtımîlerle ilişkiyi kesti",
+    "1117-07-13 Sultan Muhammed Tapar'ın büyük Alamut kuşatması"
+   ],
+   "tek_tanik_koord": {
+    "lat": 37.8085,
+    "lon": 28.29227,
+    "kaynak": "GeoNames 324221 Alamut"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Fergana",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    285,
+    715
+   ],
+   "ornek_maddeler": [
+    "0285-01-01 Jin sarayı Fergana hükümdarına kral unvanı vermek üzere elçi gönderdi",
+    "0705-01-02 Sâlih b. Müslim Kâşân ve Fergana'yı fethetti",
+    "0715-01-01 Kuteybe'nin son seferi: Kâşgar yönünde Çin sınırına ilerleyiş"
+   ],
+   "tek_tanik_koord": {
+    "lat": 40.38421,
+    "lon": 71.78432,
+    "kaynak": "GeoNames 1514019 Fergana"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Hebei",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    621,
+    1005
+   ],
+   "ornek_maddeler": [
+    "0621-01-01 Li Shimin Dou Jiande’yi yenip yakaladı; Wang Shichong teslim oldu",
+    "0623-01-01 Liu Heita yenildi; Hebei isyanı bastırıldı",
+    "0696-01-01 Kitanlar Çin valisine isyan edip Hebei’nin bir kısmını bastı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 39.15954,
+    "lon": 117.20338,
+    "kaynak": "GeoNames 8411565 Wanghailou"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Bâbülebvâb",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    642,
+    869
+   ],
+   "ornek_maddeler": [
+    "0652-01-01 Selmân b. Rebîa Derbend'i aşıp Hazar başşehri Belencer'e kadar ilerled",
+    "0714-01-01 Mesleme b. Abdülmelik Derbend geçidini aldı",
+    "0642-11-30 Bâbülebvâb (Derbend) harekâtı: Sürâka b. Amr komutasındaki İslâm ordus"
+   ],
+   "tek_tanik_koord": {
+    "lat": 42.05778135,
+    "lon": 48.2967024,
+    "kaynak": "Pleiades 863911"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Polonnaruva",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    1070,
+    1255
+   ],
+   "ornek_maddeler": [
+    "1070-01-01 I. Vijayabahu Seylan'ı Çola işgalinden kurtardı, başkenti Polonnaruva'",
+    "1153-01-01 I. Parakramabahu Polonnaruva tahtına çıktı; Sinhala krallığı en parlak",
+    "1186-01-01 Seylan tahtı Kalinga hanedanına geçti; Nissankamalla Polonnaruva kralı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 7.93965,
+    "lon": 81.00274,
+    "kaynak": "GeoNames 1229901 Polonnaruwa"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Tancavur",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    850,
+    1070
+   ],
+   "ornek_maddeler": [
+    "0850-01-01 Vijayalaya (yak. 850-870) Pallava topraklarını işgale başlar; Çola yük",
+    "0907-01-01 I. Parantaka Çola tahtında (907-yak. 955); Madurai'nin yıkıcısı",
+    "0985-01-01 I. Rajaraja Çola tahtında (985-1014)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 10.78523,
+    "lon": 79.13909,
+    "kaynak": "GeoNames 1254649 Thanjavur"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Preslav",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    893,
+    971
+   ],
+   "ornek_maddeler": [
+    "0893-01-01 I. Simeon Bulgar hükümdarı oldu (893-927)",
+    "0925-01-01 Simeon 'Bütün Bulgarların Çarı' unvanını aldı; Bulgar başpiskoposu pat",
+    "0927-05-27 Simeon öldü; oğlu I. Petar çar oldu (927-969)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 43.16667,
+    "lon": 26.81667,
+    "kaynak": "GeoNames 727987 Veliki Preslav"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Berdesîr",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1079,
+    1209
+   ],
+   "ornek_maddeler": [
+    "1079-01-01 Melikşah'ın Kirman seferi; Sultan Şah itaat etti",
+    "1142-01-01 Muhammed Şah babası I. Arslanşah'ı hapsederek tahta geçti",
+    "1204-01-01 Salgurlu Sa'd Kirman'da hâkimiyet kurdu ve İsfahan'ı aldı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 30.273015,
+    "lon": 57.068581,
+    "kaynak": "Pleiades 29802"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Remle",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    524,
+    979
+   ],
+   "ornek_maddeler": [
+    "0524-01-01 Remle antlaşması: III. Münzir Bizans esirlerini serbest bıraktı",
+    "0940-09-10 Lücûn savaşı ve Remle sınırlı İbn Râik-İhşîd antlaşması: Mısır İhşîdîl",
+    "0971-01-01 Hasan el-A'sam önderliğindeki Karmatîler Dımaşk ve Remle'yi yeniden al"
+   ],
+   "tek_tanik_koord": {
+    "lat": 32.934001,
+    "lon": 35.366497,
+    "kaynak": "Pleiades 678356"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Saluzzo",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1142,
+    1244
+   ],
+   "ornek_maddeler": [
+    "1142-01-01 Bonifacio del Vasto'nun yedi oğlu mirası bölüştü; Manfredo'ya Saluzzo ",
+    "1176-01-01 Aile kendini 'Saluzzo markizleri' diye anmaya başladı; ilk unvan sahib",
+    "1215-12-30 Naip Alasia Saluzzo kalelerini Savoya'ya devretti, markiz onları Savoy"
+   ],
+   "tek_tanik_koord": {
+    "lat": 44.64671,
+    "lon": 7.49309,
+    "kaynak": "GeoNames 3168609 Saluzzo"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Thüringen",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1247,
+    1264
+   ],
+   "ornek_maddeler": [
+    "1247-02-16 Landgraf Heinrich Raspe çocuksuz öldü: Ludowinger hanedanı Thüringen'd",
+    "1249-01-01 Thüringen ileri gelenleri Heinrich der Erlauchte'yi Landgraf olarak on",
+    "1263-01-01 Heinrich der Erlauchte topraklarını oğulları arasında paylaştırdı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 47.2,
+    "lon": 9.76667,
+    "kaynak": "GeoNames 2763658 Thüringen"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Çin",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    -6999,
+    758
+   ],
+   "ornek_maddeler": [
+    "0638-01-01 Khmer devletlerinden ve Dvaravati'den Çin'e elçilikler",
+    "0758-01-01 Uygur kağanı Moyen-çor isyan içindeki Tang'a yardım etti",
+    "-6999-01-01 Jiahu (Henan): yerleşim başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 42.06582,
+    "lon": -94.86693,
+    "kaynak": "GeoNames 4850478 Carroll"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Fars",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    695,
+    1169
+   ],
+   "ornek_maddeler": [
+    "0695-01-12 Mühelleb Ezrakî Hâricîleri'ni Kâzerûn yakınında yendi",
+    "0888-06-21 Muvaffak, Kirman, Fars ve Horasan'ı 10 milyon dirhem karşılığında Amr ",
+    "1169-01-01 Zengî Fars'ı Afşar Şümle'den geri aldı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 56.77276,
+    "lon": 9.33925,
+    "kaynak": "GeoNames 2622310 Farsø"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Arrân",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    685,
+    838
+   ],
+   "ornek_maddeler": [
+    "0685-01-01 II. Iustinianos ile Abdülmelik b. Mervân İrmîniye ve Arrân haracını pa",
+    "0705-01-01 Arrân prensi I. Varaz Trdat öldü (Emevî, Hazar ve Bizans’a haraç ödeye",
+    "0822-05-27 Son Mihranî prensi Varaz Trdat öldürüldü; Ermeni vali Sehl b. Simbat b"
+   ],
+   "tek_tanik_koord": {
+    "lat": 55.58145,
+    "lon": -5.21233,
+    "kaynak": "GeoNames 8299836 Isle of Arran"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Haliç",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1214,
+    1241
+   ],
+   "ornek_maddeler": [
+    "1214-01-01 Macar kralı II. Andras ve Leszek Peremışl ile Haliç'i işgal etti",
+    "1221-01-01 Mstislav Udaloy Macarları Haliç'ten çıkardı",
+    "1241-01-01 Moğollar Haliç'i yerle bir etti; başkent Kholm'a taşındı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 49.12374,
+    "lon": 24.72748,
+    "kaynak": "GeoNames 709034 Halych"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Nehrevân",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    658,
+    1060
+   ],
+   "ornek_maddeler": [
+    "0658-03-30 Hâricîler Abdullah b. Vehb er-Râsibî'yi emîr seçti",
+    "0658-07-17 Nehrevân Savaşı: Hz. Ali Hâricîleri Nehrevân'da bozguna uğrattı",
+    "1060-01-01 Tuğrul Bey Besâsîrî işgalini sona erdirdi; Halife Kāim-Biemrillâh maka"
+   ],
+   "tek_tanik_koord": {
+    "lat": 33.431926,
+    "lon": 44.583522,
+    "kaynak": "Pleiades 894138"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Nahrawan, Nahrawan Canal; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Yucatán",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1050,
+    1275
+   ],
+   "ornek_maddeler": [
+    "1050-01-01 Chichén Itzá'nın çöküşü: Yucatán'ın en büyük siyasî merkezi 1000–1100 ",
+    "1100-01-01 Mayapan siyasî başkenti en geç 1100'den itibaren Yucatán'ı yönetmeye b",
+    "1275-01-01 Mayapan'ın nüfus ve şehirleşme doruğu (1200–1350)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 32.60464,
+    "lon": -115.09332,
+    "kaynak": "GeoNames 4011403 Ejido Yucatán"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Silla",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    356,
+    540
+   ],
+   "ornek_maddeler": [
+    "0356-01-01 Silla Kralı Naemul tahta çıktı; Kim hanedanının kalıtsal krallığı kuru",
+    "0514-01-01 Silla Kralı Beopheung tahta çıktı (514-540); Gaya'nın doğu yarısı bu d",
+    "0540-01-01 Silla Kralı Jinheung tahta çıktı (540-576); Hwarang askerî birliği kur"
+   ],
+   "tek_tanik_koord": {
+    "lat": 37.5,
+    "lon": 42.5,
+    "kaynak": "Pleiades 583407059"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Tang",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    720,
+    843
+   ],
+   "ornek_maddeler": [
+    "0720-01-01 Tang, nüfusun büyük çaplı yeniden sayımına başladı",
+    "0780-01-01 Dezong yeni vergi sistemini (iki vergi) ilan etti",
+    "0843-01-01 Wuzong Budizm’i bastırdı (843–845)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 38.74669,
+    "lon": 114.98009,
+    "kaynak": "GeoNames 1797196 Renhou"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Dazaifu",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    901,
+    1268
+   ],
+   "ornek_maddeler": [
+    "0901-01-01 Sugawara no Michizane, Fujiwara no Tokihira'nın hasmane girişimiyle Ky",
+    "0903-03-26 Sugawara no Michizane Dazaifu'da öldü (sonradan Tenjin olarak tanrılaş",
+    "1268-01-01 Kubilay'ın ilk mektubu Japonya'ya ulaştı — Hōjō Tokimune naip oldu"
+   ],
+   "tek_tanik_koord": {
+    "lat": 33.51278,
+    "lon": 130.52389,
+    "kaynak": "GeoNames 7422816 Dazaifu"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Necran",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    523,
+    631
+   ],
+   "ornek_maddeler": [
+    "0523-01-01 Zû Nüvâs Necran Hıristiyanlarına toplu baskı yaptı",
+    "0523-01-01 Zûnüvâs Necran'ı ele geçirip hristiyanlara karşı katliam yaptı (Necran",
+    "0631-01-01 Necran Hıristiyanları Medine'ye heyet gönderip Hz. Muhammed'le antlaşm"
+   ],
+   "tek_tanik_koord": {
+    "lat": 17.49326,
+    "lon": 44.12766,
+    "kaynak": "GeoNames 103630 Najrān"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Derbent",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1002,
+    1043
+   ],
+   "ornek_maddeler": [
+    "1002-01-01 Derbend emîri Leşkerî b. Meymûn öldü; emirlik Mansûr b. Meymûn'a geçti",
+    "1034-01-01 Derbend emîri Mansûr b. Meymûn öldü; yerine Abdülmelik b. Mansûr geçti",
+    "1043-01-01 Abdülmelik b. Mansûr öldü; son Hâşimî emîri Mansûr b. Abdülmelik başa "
+   ],
+   "tek_tanik_koord": {
+    "lat": 38.2216,
+    "lon": 66.9068,
+    "kaynak": "Pleiades 962627"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 2 kayıt. "
+  }
+ ]
+}

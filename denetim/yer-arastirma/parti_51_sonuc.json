@@ -1,0 +1,780 @@
+{
+ "parti": 51,
+ "yontem": "Natural Earth bolge temsilci",
+ "sonuclar": [
+  {
+   "ad": "Mısır",
+   "durum": "bolge_temsilci",
+   "lat": 26.493,
+   "lon": 29.86,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Egypt",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Egypt",
+     "lat": 26.493,
+     "lon": 29.86
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Mısır bölgesi kaynakta. Nokta = Natural Earth 'Egypt' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Azerbaycan",
+   "durum": "bolge_temsilci",
+   "lat": 40.346,
+   "lon": 47.66,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Azerbaijan",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Azerbaijan",
+     "lat": 40.346,
+     "lon": 47.66
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Azerbaycan bölgesi kaynakta. Nokta = Natural Earth 'Azerbaijan' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Suriye",
+   "durum": "bolge_temsilci",
+   "lat": 35.023,
+   "lon": 38.505,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Syria",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Syria",
+     "lat": 35.023,
+     "lon": 38.505
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Suriye bölgesi kaynakta. Nokta = Natural Earth 'Syria' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Yemen",
+   "durum": "bolge_temsilci",
+   "lat": 15.935,
+   "lon": 47.542,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Yemen",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Yemen",
+     "lat": 15.935,
+     "lon": 47.542
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Yemen bölgesi kaynakta. Nokta = Natural Earth 'Yemen' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Ermenistan",
+   "durum": "bolge_temsilci",
+   "lat": 40.289,
+   "lon": 44.932,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Armenia",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Armenia",
+     "lat": 40.289,
+     "lon": 44.932
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Ermenistan bölgesi kaynakta. Nokta = Natural Earth 'Armenia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Moğolistan",
+   "durum": "bolge_temsilci",
+   "lat": 46.826,
+   "lon": 103.056,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Mongolia",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Mongolia",
+     "lat": 46.826,
+     "lon": 103.056
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Moğolistan bölgesi kaynakta. Nokta = Natural Earth 'Mongolia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Irak",
+   "durum": "bolge_temsilci",
+   "lat": 33.04,
+   "lon": 43.745,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Iraq",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Iraq",
+     "lat": 33.04,
+     "lon": 43.745
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Irak bölgesi kaynakta. Nokta = Natural Earth 'Iraq' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Fergana",
+   "durum": "bolge_temsilci",
+   "lat": 40.644,
+   "lon": 71.643,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Fergana Valley",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "Fergana Valley",
+     "lat": 40.644,
+     "lon": 71.643
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Fergana bölgesi kaynakta. Nokta = Natural Earth 'Fergana Valley' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Tayland",
+   "durum": "bolge_temsilci",
+   "lat": 15.137,
+   "lon": 101.009,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Thailand",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Thailand",
+     "lat": 15.137,
+     "lon": 101.009
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Tayland bölgesi kaynakta. Nokta = Natural Earth 'Thailand' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Mezopotamya",
+   "durum": "bolge_temsilci",
+   "lat": 34.54,
+   "lon": 42.759,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Mesopotamia",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "Mesopotamia",
+     "lat": 34.54,
+     "lon": 42.759
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Mezopotamya bölgesi kaynakta. Nokta = Natural Earth 'Mesopotamia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Tibet",
+   "durum": "bolge_temsilci",
+   "lat": 33.375,
+   "lon": 90.304,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "PLATEAU OF TIBET",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "PLATEAU OF TIBET",
+     "lat": 33.375,
+     "lon": 90.304
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Tibet bölgesi kaynakta. Nokta = Natural Earth 'PLATEAU OF TIBET' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Japonya",
+   "durum": "bolge_temsilci",
+   "lat": 36.651,
+   "lon": 137.972,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Japan",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Japan",
+     "lat": 36.651,
+     "lon": 137.972
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Japonya bölgesi kaynakta. Nokta = Natural Earth 'Japan' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Bulgaristan",
+   "durum": "bolge_temsilci",
+   "lat": 42.769,
+   "lon": 25.218,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Bulgaria",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Bulgaria",
+     "lat": 42.769,
+     "lon": 25.218
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Bulgaristan bölgesi kaynakta. Nokta = Natural Earth 'Bulgaria' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Dalmaçya",
+   "durum": "bolge_temsilci",
+   "lat": 43.799,
+   "lon": 16.285,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Dalmatia",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "Dalmatia",
+     "lat": 43.799,
+     "lon": 16.285
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Dalmaçya bölgesi kaynakta. Nokta = Natural Earth 'Dalmatia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Sicilya",
+   "durum": "bolge_temsilci",
+   "lat": 37.591,
+   "lon": 14.156,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Sicilia",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "Sicilia",
+     "lat": 37.591,
+     "lon": 14.156
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Sicilya bölgesi kaynakta. Nokta = Natural Earth 'Sicilia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Normandiya",
+   "durum": "bolge_temsilci",
+   "lat": 49.158,
+   "lon": -0.122,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Normandie",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "Normandie",
+     "lat": 49.158,
+     "lon": -0.122
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Normandiya bölgesi kaynakta. Nokta = Natural Earth 'Normandie' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Tihâme",
+   "durum": "bolge_temsilci",
+   "lat": 18.384,
+   "lon": 41.746,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Tihāmah",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "Tihāmah",
+     "lat": 18.384,
+     "lon": 41.746
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Tihâme bölgesi kaynakta. Nokta = Natural Earth 'Tihāmah' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Bretanya",
+   "durum": "bolge_temsilci",
+   "lat": 48.031,
+   "lon": -2.597,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Bretagne",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "Bretagne",
+     "lat": 48.031,
+     "lon": -2.597
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Bretanya bölgesi kaynakta. Nokta = Natural Earth 'Bretagne' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Kafkasya",
+   "durum": "bolge_temsilci",
+   "lat": 43.014,
+   "lon": 43.753,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "CAUCASUS MTS.",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "CAUCASUS MTS.",
+     "lat": 43.014,
+     "lon": 43.753
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Kafkasya bölgesi kaynakta. Nokta = Natural Earth 'CAUCASUS MTS.' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Hırvatistan",
+   "durum": "bolge_temsilci",
+   "lat": 45.156,
+   "lon": 16.419,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Croatia",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Croatia",
+     "lat": 45.156,
+     "lon": 16.419
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Hırvatistan bölgesi kaynakta. Nokta = Natural Earth 'Croatia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Karpat havzası",
+   "durum": "bolge_temsilci",
+   "lat": 47.45,
+   "lon": 22.98,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "CARPATHIAN MOUNTAINS",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "CARPATHIAN MOUNTAINS",
+     "lat": 47.45,
+     "lon": 22.98
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Karpat havzası bölgesi kaynakta. Nokta = Natural Earth 'CARPATHIAN MOUNTAINS' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Libya",
+   "durum": "bolge_temsilci",
+   "lat": 27.03,
+   "lon": 18.01,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Libya",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Libya",
+     "lat": 27.03,
+     "lon": 18.01
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Libya bölgesi kaynakta. Nokta = Natural Earth 'Libya' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Macaristan",
+   "durum": "bolge_temsilci",
+   "lat": 47.163,
+   "lon": 19.397,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Hungary",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Hungary",
+     "lat": 47.163,
+     "lon": 19.397
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Macaristan bölgesi kaynakta. Nokta = Natural Earth 'Hungary' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Britanya",
+   "durum": "bolge_temsilci",
+   "lat": 53.93,
+   "lon": -2.49,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "GREAT BRITAIN",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "GREAT BRITAIN",
+     "lat": 53.93,
+     "lon": -2.49
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Britanya bölgesi kaynakta. Nokta = Natural Earth 'GREAT BRITAIN' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Norveç",
+   "durum": "bolge_temsilci",
+   "lat": 64.239,
+   "lon": 14.022,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Norway",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Norway",
+     "lat": 64.239,
+     "lon": 14.022
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Norveç bölgesi kaynakta. Nokta = Natural Earth 'Norway' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Ürdün",
+   "durum": "bolge_temsilci",
+   "lat": 31.246,
+   "lon": 36.771,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Jordan",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Jordan",
+     "lat": 31.246,
+     "lon": 36.771
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Ürdün bölgesi kaynakta. Nokta = Natural Earth 'Jordan' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Balkanlar",
+   "durum": "bolge_temsilci",
+   "lat": 42.356,
+   "lon": 22.004,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "BALKAN PEN.",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "BALKAN PEN.",
+     "lat": 42.356,
+     "lon": 22.004
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Balkanlar bölgesi kaynakta. Nokta = Natural Earth 'BALKAN PEN.' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Kamboçya",
+   "durum": "bolge_temsilci",
+   "lat": 12.718,
+   "lon": 104.905,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Cambodia",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Cambodia",
+     "lat": 12.718,
+     "lon": 104.905
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Kamboçya bölgesi kaynakta. Nokta = Natural Earth 'Cambodia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Danimarka",
+   "durum": "bolge_temsilci",
+   "lat": 56.227,
+   "lon": 9.375,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Denmark",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Denmark",
+     "lat": 56.227,
+     "lon": 9.375
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Danimarka bölgesi kaynakta. Nokta = Natural Earth 'Denmark' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "İtalya",
+   "durum": "bolge_temsilci",
+   "lat": 43.523,
+   "lon": 12.155,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Italy",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Italy",
+     "lat": 43.523,
+     "lon": 12.155
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, İtalya bölgesi kaynakta. Nokta = Natural Earth 'Italy' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "İran",
+   "durum": "bolge_temsilci",
+   "lat": 32.577,
+   "lon": 54.276,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Iran",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Iran",
+     "lat": 32.577,
+     "lon": 54.276
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, İran bölgesi kaynakta. Nokta = Natural Earth 'Iran' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Kore yarımadası",
+   "durum": "bolge_temsilci",
+   "lat": 37.962,
+   "lon": 127.153,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "KOREA",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "KOREA",
+     "lat": 37.962,
+     "lon": 127.153
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Kore yarımadası bölgesi kaynakta. Nokta = Natural Earth 'KOREA' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "İspanya",
+   "durum": "bolge_temsilci",
+   "lat": 40.39,
+   "lon": -3.563,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Spain",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Spain",
+     "lat": 40.39,
+     "lon": -3.563
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, İspanya bölgesi kaynakta. Nokta = Natural Earth 'Spain' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Lübnan",
+   "durum": "bolge_temsilci",
+   "lat": 33.92,
+   "lon": 35.88,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Lebanon",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Lebanon",
+     "lat": 33.92,
+     "lon": 35.88
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Lübnan bölgesi kaynakta. Nokta = Natural Earth 'Lebanon' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Gürcistan",
+   "durum": "bolge_temsilci",
+   "lat": 42.169,
+   "lon": 43.508,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Georgia",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Georgia",
+     "lat": 42.169,
+     "lon": 43.508
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Gürcistan bölgesi kaynakta. Nokta = Natural Earth 'Georgia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Litvanya",
+   "durum": "bolge_temsilci",
+   "lat": 55.327,
+   "lon": 23.894,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Lithuania",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Lithuania",
+     "lat": 55.327,
+     "lon": 23.894
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Litvanya bölgesi kaynakta. Nokta = Natural Earth 'Lithuania' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Hindistan",
+   "durum": "bolge_temsilci",
+   "lat": 22.854,
+   "lon": 77.796,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "INDIA",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "INDIA",
+     "lat": 22.854,
+     "lon": 77.796
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Hindistan bölgesi kaynakta. Nokta = Natural Earth 'INDIA' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Sumatra",
+   "durum": "bolge_temsilci",
+   "lat": -0.447,
+   "lon": 101.514,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "SUMATRA",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "SUMATRA",
+     "lat": -0.447,
+     "lon": 101.514
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Sumatra bölgesi kaynakta. Nokta = Natural Earth 'SUMATRA' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Almanya",
+   "durum": "bolge_temsilci",
+   "lat": 51.087,
+   "lon": 10.371,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Germany",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Germany",
+     "lat": 51.087,
+     "lon": 10.371
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Almanya bölgesi kaynakta. Nokta = Natural Earth 'Germany' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Hicaz",
+   "durum": "bolge_temsilci",
+   "lat": 25.999,
+   "lon": 37.745,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "HEJAZ MTS.",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson)",
+     "url_veya_atif": "HEJAZ MTS.",
+     "lat": 25.999,
+     "lon": 37.745
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Hicaz bölgesi kaynakta. Nokta = Natural Earth 'HEJAZ MTS.' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Hollanda",
+   "durum": "bolge_temsilci",
+   "lat": 52.282,
+   "lon": 5.639,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Netherlands",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Netherlands",
+     "lat": 52.282,
+     "lon": 5.639
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Hollanda bölgesi kaynakta. Nokta = Natural Earth 'Netherlands' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  },
+  {
+   "ad": "Vietnam",
+   "durum": "bolge_temsilci",
+   "lat": 16.658,
+   "lon": 106.301,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Vietnam",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Vietnam",
+     "lat": 16.658,
+     "lon": 106.301
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Vietnam bölgesi kaynakta. Nokta = Natural Earth 'Vietnam' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir) — merkez çokgenin dışına düşüyor, gözden geçir."
+  },
+  {
+   "ad": "Pakistan",
+   "durum": "bolge_temsilci",
+   "lat": 29.949,
+   "lon": 69.341,
+   "tur": "bolge",
+   "konum_kesinligi": "bolge",
+   "ulke_modern": "Pakistan",
+   "tanik": [
+    {
+     "kaynak": "Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson)",
+     "url_veya_atif": "Pakistan",
+     "lat": 29.949,
+     "lon": 69.341
+    }
+   ],
+   "not": "BÖLGE TEMSİLCİSİ: yer bilinmiyor, Pakistan bölgesi kaynakta. Nokta = Natural Earth 'Pakistan' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir)."
+  }
+ ]
+}

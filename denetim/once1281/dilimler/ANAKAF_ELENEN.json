@@ -1,0 +1,35 @@
+[
+ {
+  "id": "hamidogullari",
+  "ad": "Hamidoğulları",
+  "tur": "beylik",
+  "bolge": "anadolu",
+  "f": "1280-01-01",
+  "t": "1391-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Eğirdir",
+  "etkin_bolge": "Göller yöresi",
+  "sehirler": [
+   "Eğirdir",
+   "Isparta"
+  ],
+  "ozet": "Selçuklu uç beyi Dündar Bey.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Hamîdoğulları\" maddesi (islamansiklopedisi.org.tr/hamidogullari), bu oturumda okundu."
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Çekirdeğe yakın.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "elen_gerekce": "1281 sonrası başlıyor, kapsam dışı. TDV Hamîdoğulları (okundu): Hamîd Bey 1240'ta Isparta-Burdur yöresini aldı, 1291 Moğol karşıtı isyan, ~1297'de bağımsızlık (Uluborlu), Dündar Bey Eğirdir'e taşıdı (1326 öldü), Murad I'e kasaba satışı 1381-82, Bayezid I ~1390-91. 1280 sınırında polity yok. Atlas çekirdeğine aday: f 1297 (yıl), t 1391."
+ }
+]

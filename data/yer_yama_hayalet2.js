@@ -2500,7 +2500,7 @@ window.YER_YAMA_HAYALET2 = [
   "yerlesim": "Semendire",
   "mevcut": {
    "d": "sirbistan",
-   "f": "1444-08-01",
+   "f": "1444-08-15",
    "t": "1459-06-20"
   },
   "ekranda_bugun": "Sırbistan Krallığı (Nemanjić Hanedanı)",
@@ -2509,7 +2509,7 @@ window.YER_YAMA_HAYALET2 = [
   "oneri": [
    {
     "d": "sirp-despotlugu",
-    "f": "1444-08-01",
+    "f": "1444-08-15",
     "t": "1459-06-20",
     "renk": "YOK"
    }
@@ -2521,7 +2521,7 @@ window.YER_YAMA_HAYALET2 = [
   "yerlesim": "Kragujevac",
   "mevcut": {
    "d": "sirbistan",
-   "f": "1444-08-01",
+   "f": "1444-08-15",
    "t": "1459-06-20"
   },
   "ekranda_bugun": "Sırbistan Krallığı (Nemanjić Hanedanı)",
@@ -2530,7 +2530,7 @@ window.YER_YAMA_HAYALET2 = [
   "oneri": [
    {
     "d": "sirp-despotlugu",
-    "f": "1444-08-01",
+    "f": "1444-08-15",
     "t": "1459-06-20",
     "renk": "YOK"
    }
@@ -2542,7 +2542,7 @@ window.YER_YAMA_HAYALET2 = [
   "yerlesim": "Çaçak",
   "mevcut": {
    "d": "sirbistan",
-   "f": "1444-08-01",
+   "f": "1444-08-15",
    "t": "1459-06-20"
   },
   "ekranda_bugun": "Sırbistan Krallığı (Nemanjić Hanedanı)",
@@ -2551,7 +2551,7 @@ window.YER_YAMA_HAYALET2 = [
   "oneri": [
    {
     "d": "sirp-despotlugu",
-    "f": "1444-08-01",
+    "f": "1444-08-15",
     "t": "1459-06-20",
     "renk": "YOK"
    }
@@ -2563,7 +2563,7 @@ window.YER_YAMA_HAYALET2 = [
   "yerlesim": "Yagodina (Jagodina)",
   "mevcut": {
    "d": "sirbistan",
-   "f": "1444-08-01",
+   "f": "1444-08-15",
    "t": "1459-06-20"
   },
   "ekranda_bugun": "Sırbistan Krallığı (Nemanjić Hanedanı)",
@@ -2572,7 +2572,7 @@ window.YER_YAMA_HAYALET2 = [
   "oneri": [
    {
     "d": "sirp-despotlugu",
-    "f": "1444-08-01",
+    "f": "1444-08-15",
     "t": "1459-06-20",
     "renk": "YOK"
    }
@@ -2584,7 +2584,7 @@ window.YER_YAMA_HAYALET2 = [
   "yerlesim": "Alacahisar (Kruševac)",
   "mevcut": {
    "d": "sirbistan",
-   "f": "1444-08-01",
+   "f": "1444-08-15",
    "t": "1454-01-01"
   },
   "ekranda_bugun": "Sırbistan Krallığı (Nemanjić Hanedanı)",
@@ -2593,7 +2593,7 @@ window.YER_YAMA_HAYALET2 = [
   "oneri": [
    {
     "d": "sirp-despotlugu",
-    "f": "1444-08-01",
+    "f": "1444-08-15",
     "t": "1454-01-01",
     "renk": "YOK"
    }

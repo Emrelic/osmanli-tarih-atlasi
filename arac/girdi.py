@@ -43,6 +43,7 @@ import json
 import math
 import os
 import re
+import gun as _gun     # C3: tarih KIYASI gün sayacıyla (dizgi MÖ'de ters)
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
@@ -684,7 +685,7 @@ def kd_oku(y):
 def kd_gun(y, gun):
     """O GÜN geçerli (k, m) — yoksa (0, None). Zaman boyutunun tek kapısı."""
     for p in kd_oku(y):
-        if p.get("f", "") <= gun < p.get("t", "9999"):
+        if _gun.gun(p.get("f") or "-99999") <= _gun.gun(gun) < _gun.gun(p.get("t") or "99999"):
             return p.get("k") or 0, p.get("m")
     return 0, None
 
@@ -736,7 +737,7 @@ GECIT_DOSYASI = "gecitler.js"
 #   4.094 sınır işareti birden "sessiz toprak kaybı" olur (Değişmez 2s).
 # ⚠️ Tarihler DİZGİ karşılaştırılır: yıl 4 hane olmalı (1000 güvenli; <1000
 #   için sıfır doldurma, MÖ için motor yaması — ONCE1281-MOTOR-UFUK-1004 §1.2).
-UFUK = ("1000-01-01", "2000-12-31")
+UFUK = ("-11999-01-01", "2000-12-31")   # MÖ 12000 (astronomik -11999) .. MS 2000
 VERI_UFKU = ("1281-01-01", "2000-12-31")
 # 🔴 UFUK DAMGASI (ZAMAN-GENİŞ-1008, koordinatör hükmü) — TEK TANIM, buradan okunur.
 #   UFUK ve VERI_UFKU'nun uç günleri (bugün 1000-01-01 · 1281-01-01 ·
@@ -757,9 +758,9 @@ def ufuk_devirleri():
     UFUK'un KENDİSİNİN dışı (ör. 0900) hiçbir devire düşmez — kampanya
     bitse de çözülmez, kovaya girerse kalıcı istisna olur."""
     d = []
-    if UFUK[0] < VERI_UFKU[0]:
+    if _gun.gun(UFUK[0]) < _gun.gun(VERI_UFKU[0]):
         d.append(("geri", UFUK[0], VERI_UFKU[0]))
-    if VERI_UFKU[1] < UFUK[1]:
+    if _gun.gun(VERI_UFKU[1]) < _gun.gun(UFUK[1]):
         d.append(("ileri", VERI_UFKU[1], UFUK[1]))
     return d
 
@@ -778,13 +779,13 @@ def oku_goller(sessiz=False):
     for g in _cevir(js, m.group(1)):
         gec = g.get("gecerli") or {}
         gf, gt = gec.get("f", UFUK[0]), gec.get("t", UFUK[1])
-        if gf >= UFUK[1] or gt <= UFUK[0]:          # ÖRTÜŞME YOK ⇒ alınmaz
+        if _gun.gun(gf) >= _gun.gun(UFUK[1]) or _gun.gun(gt) <= _gun.gun(UFUK[0]):          # ÖRTÜŞME YOK ⇒ alınmaz
             print(f"  UYARI göl: '{g.get('ad')}' {gf}→{gt} UFUK {UFUK[0]}→{UFUK[1]} "
                   f"ile HİÇ örtüşmüyor — ATLANDI")
             continue
-        if gf > UFUK[0] or gt < UFUK[1]:            # KISMİ — statik uygulanır, adıyla
-            _dis = [x for x in ((UFUK[0], gf) if gf > UFUK[0] else None,
-                                (gt, UFUK[1]) if gt < UFUK[1] else None) if x]
+        if _gun.gun(gf) > _gun.gun(UFUK[0]) or _gun.gun(gt) < _gun.gun(UFUK[1]):            # KISMİ — statik uygulanır, adıyla
+            _dis = [x for x in ((UFUK[0], gf) if _gun.gun(gf) > _gun.gun(UFUK[0]) else None,
+                                (gt, UFUK[1]) if _gun.gun(gt) < _gun.gun(UFUK[1]) else None) if x]
             if not sessiz:
                 print(f"  ⓘ göl KISMİ: '{g.get('ad')}' {gf}→{gt}; motor statik — "
                       f"şu dilimlerde de UYGULANDI: "

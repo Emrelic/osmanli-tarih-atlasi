@@ -1,0 +1,110 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index 6c6795ae..159223cd 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -511,7 +511,12 @@ def _sk_pad(s):
+ # o noktanın payını alan/veren KOMŞU yabancı devletlerin dönemini de böler.
+ # Kapalıyken (varsayılan) yeni hiçbir satır çalışmaz ⇒ çıktı BİT BİT aynı.
+ KOMSU_KUR_BOL = os.environ.get("MOTOR_KOMSU_KUR_BOL") == "1"
+-SINIR_KISIT = os.environ.get("MOTOR_SINIR_KISIT") == "1"
++# 🆕 MOTOR-YAKA-KILIDI-1017 (Emre notu #7, Zimnicea × Ziştovi 1284): örtü aşamasında bir
++# nokta bir yüzü ancak KENDİ ham hücresi o yüzün kayda değer bir sahibiyse "kendi yüzü"
++# sayar (ayrıntı: örtü boru hattı, `_yaka_suz`). Kapalıyken ⇒ çıktı BİT BİT aynı.
++YAKA_KILIDI = os.environ.get("MOTOR_YAKA_KILIDI") == "1"
++YAKA_ORAN = 0.25          # ham hücre payı, yüzün en büyük ham payına oranla bu eşiğin altındaysa düşer
++SINIR_KISIT =os.environ.get("MOTOR_SINIR_KISIT") == "1"
+ SINIR_KISIT_KM = float(os.environ.get("MOTOR_SINIR_KISIT_KM", "80") or "80")
+ SINIR_KISIT_DEGME_KM = 1.0          # = denetle.py D8_DEGME (hatta değme bandı)
+ SINIR_KISIT_DEGME_KM2 = 2.0         # parça hatta en az ~2 km boyunca değmeli (nokta teması SAYILMAZ)
+@@ -3676,12 +3681,67 @@ def _yuzler_kur(hatlar):
+     return [f for f in polygonize(unary_union(hatlar)) if not f.is_empty]
+ 
+ _yuzler = _yuzler_kur(_puruzsuz)
++# ═══ 🆕 MOTOR-YAKA-KILIDI-1017 — NOKTA, YASLAMANIN ÖTE YAKASINA DÜŞTÜYSE ═══════
++# KUSUR (Emre notu #7, ölçüldü 17 Ekim 2026, KOŞU 27 gövdesi + bu dosyanın dilimi):
++#   1284'te Tuna'nın GÜNEYİNDE ~700 km² Macar (Zimnicea) üçgeni. Izgara DOĞRUYDU —
++#   motorun kendi `_kv_dijkstra`sı aynı veriyle Zimnicea'ya güney yakada 0 hücre,
++#   Ziştovi'ye 55 hücre veriyor. Üçgen BU aşamada doğuyor:
++#   ① Zimnicea noktası (GeoNames 43.654K 25.365D) Natural Earth Tuna çizgisinin
++#      ~0,1 km GÜNEYİNDE (NE 10m çizgisi kıyıdan km mertebesinde sapar).
++#   ② Zimnicea|Ziştovi ham hücre kenarı Tuna'ya YASLANINCA nokta Ziştovi'nin güney
++#      yüzüne düşüyor ⇒ yüz "iki noktalı" ⇒ aşağıdaki mini-Voronoi yüzü iki nokta
++#      arasında DÜZ ORTA DİKMEYLE bölüyor ⇒ Zimnicea'ya güney yakada üçgen.
++#   Kanıt: yayındaki üçgenin köşesi (25.815, 43.44) Ziştovi 42,5 · Tırnova 42,7 ·
++#   Zimnicea 43,4 km — düz Voronoi'nin üçlü köşesi.
++# ÇARE: nokta yüzü ancak KENDİ HAM HÜCRESİ (ızgaranın kararı) o yüzün kayda değer
++#   sahibiyse "kendi yüzü" sayar: payı = alan(PETEK[i] ∩ yüz) / alan(yüz); yüzle
++#   örtüşen bütün ham hücrelerin EN BÜYÜK payının YAKA_ORAN katından küçükse nokta
++#   o yüz için DÜŞER. Kalan yoksa yüz YETİM olur ve aşağıdaki ham-örtüşme kuralıyla
++#   (yetim yüz → en çok örtüşen ham hücre) sahibini bulur — ızgaranın cevabı.
++#   Düşen noktanın kendi yakasındaki yüzleri nokta içermediği için yetimdir ve
++#   aynı kuralla ONA döner.
++# 📌 Bedeli, beyanlı: düşen nokta haritada komşu rengin ~0,1 km içinde görünebilir
++#    (nokta zaten yaslanan hattın üstünde). Bunu "toprak doğru, nokta hatta" diye
++#    kabul ediyoruz; tersi 700 km² yanlış toprak.
++# Bayrak: MOTOR_YAKA_KILIDI=1. Kapalıyken `_yaka_suz` girdisini aynen döndürür.
++_YAKA_DUSEN = []                       # (yerleşim adı, yüz km², nokta payı, en büyük pay)
++_YAKA_AGAC = STRtree(PETEK) if YAKA_KILIDI else None
++def _yaka_suz(f, ic):
++    """Yüzün içindeki noktalardan, ham hücresi yüzün kayda değer sahibi olanları döndürür."""
++    if not YAKA_KILIDI or not ic:
++        return ic
++    fa = f.area
++    if fa <= 0:
++        return ic
++    def _pay(i):
++        try:
++            return PETEK[i].intersection(f).area / fa
++        except Exception:
++            return None
++    en = 0.0
++    for k in _YAKA_AGAC.query(f):
++        p = _pay(int(k))
++        if p is None:
++            return ic                  # ölçülemedi ⇒ eski davranış (sessiz değil: sayılmaz da)
++        en = max(en, p)
++    kal = []
++    for i in ic:
++        p = _pay(i)
++        if p is None:
++            return ic
++        if p >= YAKA_ORAN * en:
++            kal.append(i)
++        else:
++            # km² burada elle: `alan_km2` bu aşamadan SONRA tanımlanıyor
++            _km2 = fa * 111.32 ** 2 * math.cos(math.radians(f.centroid.y))
++            _YAKA_DUSEN.append((YERLER[i]["ad"], round(_km2, 1), round(p, 4), round(en, 4)))
++    return kal
+ # Çok noktalı yüzler (yaslama bir kenarı noktaların üzerinden geçirmiş): yüzün
+ # içine mini-Voronoi bölme çizgileri eklenir ve HER ŞEY birlikte yeniden
+ # polygonize edilir — böylece bölme kenarları da ortak düğümlemeden geçer.
+ _ek_hat = []
+ for f in _yuzler:
+-    ic = [int(i) for i in _nokta_agaci.query(f, predicate="contains_properly")]
++    ic = _yaka_suz(f, [int(i) for i in _nokta_agaci.query(f, predicate="contains_properly")])
+     if len(ic) > 1:
+         alt = voronoi_diagram(MultiPoint([noktalar[i] for i in ic]), envelope=f)
+         _ek_hat += _cizgiler(unary_union([c.boundary for c in alt.geoms]).intersection(f))
+@@ -3691,8 +3751,9 @@ print(f"  {len(_yuzler)} yüz ({len(_ek_hat)} mini-Voronoi bölme çizgisi)")
+ 
+ _kume = [[] for _ in YERLER]                     # hücre başına yüz listesi
+ _yetim = []
++_YAKA_DUSEN.clear()                              # yalnız SON atamanın düşenleri raporlanır
+ for f in _yuzler:
+-    ic = [int(i) for i in _nokta_agaci.query(f, predicate="contains_properly")]
++    ic = _yaka_suz(f, [int(i) for i in _nokta_agaci.query(f, predicate="contains_properly")])
+     if not ic:
+         _yetim.append(f)
+     else:
+@@ -3700,6 +3761,11 @@ for f in _yuzler:
+             print(f"  UYARI örtü: yüz {len(ic)} nokta içeriyor, en yakını seçildi")
+             ic = [min(ic, key=lambda i: f.centroid.distance(noktalar[i]))]
+         _kume[ic[0]].append(f)
++if YAKA_KILIDI:
++    print(f"  🔒 YAKA KİLİDİ (MOTOR_YAKA_KILIDI=1): {len(_YAKA_DUSEN)} nokta, yaslamanın öte "
++          f"yakasındaki yüzden düştü (yüz ham-örtüşmeyle sahibini bulur) · eşik {YAKA_ORAN}")
++    for _yd in sorted(_YAKA_DUSEN, key=lambda r: -r[1])[:15]:
++        print(f"      {_yd[0]:<36} yüz {_yd[1]:>9,.1f} km² · ham payı {_yd[2]:.3f} / en büyük {_yd[3]:.3f}")
+ # Nokta içermeyen yüzler: en uzun ortak kenarı paylaştığı sahipli yüzün
+ # hücresine katılır (birkaç tur: yetim zinciri olabilir); komşusuz kalan
+ # en yakın noktaya verilir.

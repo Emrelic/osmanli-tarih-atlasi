@@ -41,7 +41,7 @@ window.EKOKUMA_EDEBIYAT = [
     metin:"Kanûnî Sultan Süleyman'ın 1566 Eylülünde Sigetvar seferi dönüşünde ölüm haberi İstanbul'a ulaştığında Bâkî, sultana duyduğu bağlılığı ve onun yüce şahsiyetini dile getiren mersiyesini yazdı. Osmanlı edebiyatının en tanınmış mersiyelerinden sayılır; mersiyenin son kısmı, birkaç hafta sonra tahta çıkacak II. Selim'e bir bakıma zemin hazırlar.",
     alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
-    kesinlik:"kesin", olay:["1566-09-01","1566-09-07"],
+    kesinlik:"kesin", olay:["1566-09-07","1566-09-08"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Bâkî\" (Mehmed Çavuşoğlu, 1991) — https://islamansiklopedisi.org.tr/baki--sair" },
 
   { id:"baki-selim-culusiyesi", tur:"edebiyat",
@@ -51,7 +51,7 @@ window.EKOKUMA_EDEBIYAT = [
       hayat:"933'te (1526-27) İstanbul'da fakir bir ailenin çocuğu olarak doğdu; babası Fâtih Camii müezzini Mehmed Efendi'ydi. Gençliğinde bir zanaat çıraklığıyla (saraçlık ya da serrâclık) hayata atıldı, medrese eğitimiyle yükseldi. 1008'de (1600) öldü.",
       onem:"TDV'nin tarifiyle \"klasik Osmanlı şiirine söyleyiş gücü kazandıran\" büyük dîvân şairi; çağdaşlarınca \"Sultânü'ş-şuarâ\" (şairler sultanı) diye anıldı." },
     metin:"Kanûnî mersiyesinin hemen ardından, II. Selim tahta çıktığında (15 Rebîülevvel 974 / 30 Eylül 1566) Bâkî yeni padişaha bir cülûsiye sundu. Umduğu câizeyi bulamadığı gibi o sıralarda Murad Paşa müderrisliğinden de azledildi; ancak 1569'da uzun bir mâzullük döneminden çıkabildi.",
-    alinti:{ metin:"bulunamadı — bkz. \"baki-kanuni-mersiyesi\" kaydı", kaynak:null },
+    alinti:{ metin:"\"Bi-hamdillâh şeref buldu yine mülk-i Süleymânî / Cülûs etti saâdet tahtına İskender-i sânî\" — cülûsiyenin matla' beyti, TDV \"Cülûs\" maddesinin aktardığı biçimiyle (kasidenin kalanı bulunamadı)", kaynak:"TDV: culus" },
     gorsel:null, gorsel_kaynak:"bulunamadı — bkz. \"baki-kanuni-mersiyesi\" kaydı",
     kesinlik:"kesin", olay:["1566-09-24","1566-09-30"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Bâkî\" (Mehmed Çavuşoğlu, 1991) — https://islamansiklopedisi.org.tr/baki--sair" },
@@ -75,7 +75,7 @@ window.EKOKUMA_EDEBIYAT = [
       hayat:"Doğum tarihi ve yeri kesin bilinmiyor; kaynaklar Bağdat civarında doğduğunu yazar ama yer konusunda birleşmez. Babasının adı Süleyman'dı. 963'te (1556) öldü.",
       onem:"TDV'nin tarifiyle \"klasik Türk edebiyatının en büyük şairlerinden\"; Türkçe, Arapça ve Farsça divan yazabilecek kadar üç dile hâkimdi." },
     metin:"Leylâ vü Mecnûn, Fuzûlî tarafından 1535'te, Kanûnî'nin Bağdat seferine katılan İstanbullu şairlerin isteği üzerine yazılıp tamamlandı. Arap yarımadasının eski bir aşk efsanesini işleyen eser, klasik Türk edebiyatının en güzel mesnevilerinden sayılır.",
-    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
+    alinti:{ metin:"Çölde buluşan Leylâ'nın Mecnûn'a sözü: \"Ger ben ben isem nesin sen ey yâr / V'er sen sen isen neyim men-i zâr\" — TDV'nin Leylâ vü Mecnûn maddesinin aktardığı beyit", kaynak:"TDV: leyla-vu-mecnun" },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
     kesinlik:"kesin", olay:["1535-01-01|Leylâ"],  // PAKET-A2 13 Eyl: 1535-01-01'de Tigre ve Çitor maddeleri de vardı
     kaynak:"TDV İslâm Ansiklopedisi, \"Fuzûlî\" (Abdülkadir Karahan, 1996) — https://islamansiklopedisi.org.tr/fuzuli" },
@@ -127,4 +127,17 @@ window.EKOKUMA_EDEBIYAT = [
     kaynak:"TDV İslâm Ansiklopedisi: \"Bedreddin Simâvî\" (Bilal Dindar, 1992) — https://islamansiklopedisi.org.tr/bedreddin-simavi · \"Molla Lutfî\" (Orhan Şaik Gökyay – Şükrü Özen, 2020) — https://islamansiklopedisi.org.tr/molla-lutfi · \"Molla Kābız\" (İlyas Üzüm, 2020) — https://islamansiklopedisi.org.tr/molla-kabiz · \"İsmâil Ma'şûkī\" (2001, gözden geçirme 2024) — https://islamansiklopedisi.org.tr/ismail-masuki · \"Hamza Bâlî\" (Nihat Azamat, 1997) — https://islamansiklopedisi.org.tr/hamza-bali · \"Figānî\" (Abdülkadir Karahan, 1996) — https://islamansiklopedisi.org.tr/figani · \"Nef'î\" (Metin Akkuş, 2006) — https://islamansiklopedisi.org.tr/nefi",
     ic_not:"Taslak (ek okuma alt ajanı, 2026-10-14). Bütün olgular yukarıdaki yedi TDV maddesinden WebFetch ile okundu. TARİH SAPMALARI (görev metnindeki aday yıllarla TDV ayrışıyor): Figānî görevde 1529 → TDV 938/1532 (\"büyük bir ihtimalle 1532 baharı\", gün yok). Maşûkī görevde 1529 → TDV 945 sonu/946 başı (1539), Atâî ve Melâmî kaynakları 935/1529; Akdağ 20 Zilhicce 945 (9 Mayıs 1539) sicil kaydını anar. Hamza Bâlî: Atâî 969, Münîrî 980; TDV arşiv fermanlarına göre 22 Nisan–25 Ağustos 1573 aralığı; yer Lâ'lîzâde'ye göre Süleymaniye Deveoğlu Çeşmesi önü, Atâî'ye göre Tahtakale. Bedreddin: TDV 823/1420, gün yok, emri veren padişahın adı idam cümlesinde geçmiyor (önceki kısımda kuvvet gönderen Çelebi Sultan Mehmed). Nef'î: TDV gün vermiyor, 1044 Şâban = Ocak 1635. Figānî maddesi idamı kimin emrettiğini söylemiyor (yalnız İstanbul subaşısının Tahtakale'de yakaladığı); metinde emir veren yazılmadı. Molla Lutfî maddesi fetvayı vereni ve son emri vereni adlandırmıyor; heyet: Hatibzâde Muhyiddin, Molla İzârî, Molla Arap, Efdalzâde Hamîdüddin, Molla Ehaveyn. OLAY BAĞLARI: kronolojide yalnız iki madde bulundu — olaylar.js \"Şeyh Bedreddin isyanı\" (t:1416-05-01; idam değil isyan maddesi) ve olaylar_ek14.js \"Nef'î'nin hicivleri yüzünden idam edilmesi\" (t:1635-01-01). Lutfî (1495-01-23), Kābız (1527-11-04), Maşûkī (1539), Hamza Bâlî (1573), Figānî (1532) ve Bedreddin'in idamı (1420) için olaylar*.js'te madde YOK — eklenirse olay: listesine bağlanmalı. ŞEMA: dosyadaki edebiyat kartlarının eser/sanatci alanları tek eser-tek sanatçı içindir; bu genel kartta kullanılmadı (render dalı kisa/metin ile çalışmıyorsa app.js'e bakılmalı). alinti: fetva cümlesi TDV maddesinden aynen (16. yy fetva metni, kamu malı, tek cümle). Görsel taraması yapılmadı. Görevde aday olan Hallâc-ı Mansûr Osmanlı olmadığı için dışarıda bırakıldı."
   }
+
+  ,{ id:"kinalizade-ahlak-i-alai", tur:"edebiyat",
+    baslik:"Kınalızâde Ali Çelebi ve Ahlâk-ı Alâî",
+    eser:{ ad:"Ahlâk-ı Alâî", tur:"ahlâk kitabı (Türkçe)" },
+    sanatci:{ ad:"Kınalızâde Ali Efendi (Ali Çelebi)",
+      hayat:"916'da (1510) Isparta'da doğdu; İstanbul'da Kara Sâlih ve Çivizâde Muhyiddin Mehmed Efendi'den ders aldı. 950'de (1543) Edirne Hüsâmiye Medresesi müderrisliğiyle başladığı kariyerinde Şam, Kahire, Halep, Bursa, Edirne ve İstanbul kadılıklarında bulundu; Muharrem 979'da Anadolu kazaskeri oldu. II. Selim'in maiyetinde Edirne'de hastalanıp 6 Ramazan 979'da (22 Ocak 1572) öldü.",
+      onem:"Türkçe yazılmış en tanınmış Osmanlı ahlâk kitabının müellifi; eseri medreselerde uzun süre okutuldu." },
+    metin:"Kınalızâde, Ahlâk-ı Alâî'yi 1564'te Şam kadısıyken yazdı ve Şam beylerbeyi Semiz Ali Paşa'ya sundu; adındaki \"Alâî\" kelimesi de bu ithafa işaret eder. Kitap bir giriş ve üç kitaptan oluşur: ferdî ahlâk (mizaç, erdem ve kötü huylar, söz âdâbı), aile ahlâkı (Türk-İslâm ailesi, evin reisinin görevleri, çocuk terbiyesi) ve siyaset ahlâkı (devlet yönetimi, hükümdarın nitelikleri, adaletin merkezî yeri). TDV'ye göre eser eski Fars kaynaklarının çevirisi ya da derlemesi değildir; nakle dayalı, felsefî ve tasavvufî ahlâk anlayışlarından yararlanır. Medreselerde ders kitabı olarak okundu, sonraki Türkçe ahlâk kitaplarına kaynaklık etti; İstanbul kütüphanelerinde yetmişten fazla nüshası vardır.",
+    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden alıntı yapılmadı", kaynak:null },
+    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
+    kesinlik:"kesin", olay:["1572-01-22"],
+    kaynak:"TDV İslâm Ansiklopedisi, \"Kınalızâde Ali Efendi\" (Hasan Aksoy, 2022) — https://islamansiklopedisi.org.tr/kinalizade-ali-efendi ; \"Ahlâk-ı Alâî\" (Ahmet Kahraman, 1989) — https://islamansiklopedisi.org.tr/ahlak-i-alai" }
+
 ];

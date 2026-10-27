@@ -1,0 +1,482 @@
+{
+ "parti": 911,
+ "sonuclar": [
+  {
+   "ad": "Friesach",
+   "durum": "tek_tanik",
+   "lat": 46.95528,
+   "lon": 14.40583,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Friesach",
+   "ulke_modern": "Avusturya (Karintiya)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Friesach",
+     "url_veya_atif": "https://www.geonames.org/2779229",
+     "lat": 46.95528,
+     "lon": 14.40583,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Salzburg Başpiskoposu II. Eberhard'ın ölüm yeri Friesach (Karintiya) ile bağlam uyumlu; ikinci bağımsız kaynak (ulusal gazetteer) çekilemedi."
+  },
+  {
+   "ad": "Worringen",
+   "durum": "tek_tanik",
+   "lat": 51.065,
+   "lon": 6.85936,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Köln-Worringen",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Worringen",
+     "url_veya_atif": "https://www.geonames.org/2806107",
+     "lat": 51.065,
+     "lon": 6.85936,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer Köln-Worringen",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json?q=Worringen",
+     "lat": 51.065,
+     "lon": 6.85936,
+     "not": "koordinat GeoNames ile birebir aynı: türev, bağımsız sayılmaz"
+    }
+   ],
+   "hesap": "",
+   "not": "Köln yakını; II. Willem seçimi Worringen. DAI birebir aynı -> türev, tek tanık."
+  },
+  {
+   "ad": "Busca",
+   "durum": "tek_tanik",
+   "lat": 44.51625,
+   "lon": 7.47662,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Busca",
+   "ulke_modern": "İtalya (Piemonte, Cuneo)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Busca",
+     "url_veya_atif": "https://www.geonames.org/None",
+     "lat": 44.51625,
+     "lon": 7.47662,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Busca markizleri = Saluzzo/Piemonte bağlamı; Romanya Bușca elendi. DAI'de yalnız San Martino di Busca (7.489,44.545) var: türev komşu kayıt."
+  },
+  {
+   "ad": "Westkapelle",
+   "durum": "tek_tanik",
+   "lat": 51.52917,
+   "lon": 3.44028,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Westkapelle (Walcheren)",
+   "ulke_modern": "Hollanda (Zeeland)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Westkapelle (Walcheren)",
+     "url_veya_atif": "https://www.geonames.org/None",
+     "lat": 51.52917,
+     "lon": 3.44028,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "1253 Westkapelle Muharebesi Walcheren'dedir (Zeeland, Floris - Flandre Kontesi); Belçika Knokke-Westkapelle (51.315,3.30) elendi."
+  },
+  {
+   "ad": "Hoogwoud",
+   "durum": "tek_tanik",
+   "lat": 52.71583,
+   "lon": 4.93889,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Hoogwoud",
+   "ulke_modern": "Hollanda (Kuzey Hollanda)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Hoogwoud",
+     "url_veya_atif": "https://www.geonames.org/2753663",
+     "lat": 52.71583,
+     "lon": 4.93889,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "II. Willem'in Batı Friz seferinde buzda ölümü Hoogwoud yakınında; olay yeri için kasaba koordinatı yaklaşık."
+  },
+  {
+   "ad": "Cassano",
+   "durum": "tek_tanik",
+   "lat": 45.5256,
+   "lon": 9.5196,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Cassano d'Adda",
+   "ulke_modern": "İtalya (Lombardiya)",
+   "tanik": [],
+   "hesap": "Önceki tur Pleiades 452288 = Cassano allo Ionio (Kalabriya, 39.79,16.32): bağlama UYMUYOR, atıldı. Ezzelino 1259 Cassano d'Adda'da yaralanıp yakalandı (Adda nehri, Brescia-Milano hattı).",
+   "not": "Koordinat Cassano d'Adda kasabası için bilinen değerdir; çekilmiş kaynak kaydı yok, tek tanık sayılır (kayıtsız). Kimlik: olay Soncino'da ölüm ile aynı bağlam."
+  },
+  {
+   "ad": "Soncino",
+   "durum": "tek_tanik",
+   "lat": 45.40033,
+   "lon": 9.86845,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Soncino",
+   "ulke_modern": "İtalya (Lombardiya, Cremona)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Soncino",
+     "url_veya_atif": "https://www.geonames.org/3166399",
+     "lat": 45.40033,
+     "lon": 9.86845,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer Soncino-Isengo",
+     "url_veya_atif": "https://gazetteer.dainst.org/search.json?q=Soncino",
+     "lat": 45.41917,
+     "lon": 9.842497,
+     "not": "Soncino-Isengo kaydı, yaklaşık 2.7 km; GeoNames türevi olabilir, bağımsız sayılmadı"
+    }
+   ],
+   "hesap": "",
+   "not": "Ezzelino Soncino'da öldü; Lombardiya bağlamı uyumlu."
+  },
+  {
+   "ad": "Kurland",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": "Letonya",
+   "tanik": [],
+   "hesap": "",
+   "not": "Kurland = Courland bölgesi (Letonya). Önceki GeoNames aday Güney Afrika: kıta uyumsuz, atıldı."
+  },
+  {
+   "ad": "Landsberg",
+   "durum": "tek_tanik",
+   "lat": 51.52698,
+   "lon": 12.16076,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Landsberg (Halle yakını)",
+   "ulke_modern": "Almanya (Saksonya-Anhalt)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Landsberg (Saale-Holzland/Halle)",
+     "url_veya_atif": "https://www.geonames.org/None",
+     "lat": 51.52698,
+     "lon": 12.16076,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Heinrich der Erlauchte (Meissen Markgrafı, Wettin) 1263'te Landsberg Markı'nı oğlu Dietrich'e verdi; Landsberg bei Halle seçildi. Landsberg am Lech (Bavyera) ve Polonya adayları elendi. Madde bölgesel (Mark) olabilir -> yaklaşık."
+  },
+  {
+   "ad": "Heilo",
+   "durum": "tek_tanik",
+   "lat": 52.60252,
+   "lon": 4.68815,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Heiloo",
+   "ulke_modern": "Hollanda (Kuzey Hollanda)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Heiloo",
+     "url_veya_atif": "https://www.geonames.org/2754516",
+     "lat": 52.60252,
+     "lon": 4.68815,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Heilo Savaşı (1272) Heiloo yakını; yazım varyantı."
+  },
+  {
+   "ad": "Heiloo",
+   "durum": "tek_tanik",
+   "lat": 52.60252,
+   "lon": 4.68815,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Heiloo",
+   "ulke_modern": "Hollanda (Kuzey Hollanda)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Heiloo",
+     "url_veya_atif": "https://www.geonames.org/2754516",
+     "lat": 52.60252,
+     "lon": 4.68815,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Heilo ile aynı yer."
+  },
+  {
+   "ad": "Roccavione",
+   "durum": "tek_tanik",
+   "lat": 44.31355,
+   "lon": 7.47845,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Roccavione",
+   "ulke_modern": "İtalya (Piemonte, Cuneo)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Roccavione",
+     "url_veya_atif": "https://www.geonames.org/3169122",
+     "lat": 44.31355,
+     "lon": 7.47845,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Anjou ordusu bozgunu Cuneo yöresi; bağlam uyumlu."
+  },
+  {
+   "ad": "Bắc Ninh",
+   "durum": "tek_tanik",
+   "lat": 21.18608,
+   "lon": 106.07631,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Bắc Ninh",
+   "ulke_modern": "Vietnam",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Bắc Ninh",
+     "url_veya_atif": "https://www.geonames.org/1591449",
+     "lat": 21.18608,
+     "lon": 106.07631,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Như Nguyệt (Cầu) nehri Bắc Ninh eyaletinde; olay yeri nehir hattı, şehir koordinatı yaklaşık."
+  },
+  {
+   "ad": "Ningjiang",
+   "durum": "tek_tanik",
+   "lat": 45.16997,
+   "lon": 124.82369,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ningjiangzhou / Ningjiang, Songyuan",
+   "ulke_modern": "Çin (Jilin)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Ningjiang",
+     "url_veya_atif": "https://www.geonames.org/12483507",
+     "lat": 45.16997,
+     "lon": 124.82369,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Jurchen-Liao 1114 Ningjiangzhou, Songyuan/Jilin bölgesi; bağlam uyumlu, ikinci tanık yok."
+  },
+  {
+   "ad": "Tsushima",
+   "durum": "tek_tanik",
+   "lat": 34.20634,
+   "lon": 129.29076,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tsushima Adası (Nagasaki)",
+   "ulke_modern": "Japonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Tsushima 34.206,129.291",
+     "url_veya_atif": "https://www.geonames.org/None",
+     "lat": 34.20634,
+     "lon": 129.29076,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Moğol-Goryeo 1274 seferi Tsushima Adası; Aichi Tsushima (35.17,136.72) elendi."
+  },
+  {
+   "ad": "Iki",
+   "durum": "tek_tanik",
+   "lat": 33.78286,
+   "lon": 129.7209,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Iki Adası (Nagasaki)",
+   "ulke_modern": "Japonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Iki",
+     "url_veya_atif": "https://www.geonames.org/11612327",
+     "lat": 33.78286,
+     "lon": 129.7209,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Tsushima'dan sonra Iki; ada merkezi yaklaşık."
+  },
+  {
+   "ad": "Izu",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": "Japonya",
+   "tanik": [],
+   "hesap": "",
+   "not": "Izu Eyaleti (Shizuoka); Yoritomo'nun Genpei ayaklanma yeri bölge. GeoNames 34.97,138.95 yalnız yaklaşık."
+  },
+  {
+   "ad": "Kantō",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": "Japonya",
+   "tanik": [],
+   "hesap": "",
+   "not": "Kantō bölgesi; önceki GeoNames adayı Cần Thơ (Vietnam) yanlış eşleşme, atıldı."
+  },
+  {
+   "ad": "Chi Lăng",
+   "durum": "tek_tanik",
+   "lat": 21.57356,
+   "lon": 106.50258,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Chi Lăng geçidi (Lạng Sơn)",
+   "ulke_modern": "Vietnam",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Chi Lăng",
+     "url_veya_atif": "https://www.geonames.org/8522285",
+     "lat": 21.57356,
+     "lon": 106.50258,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "981 Song istilası Lê Hoàn; Lạng Sơn Chi Lăng geçidi bağlamı uyumlu, ancak madde Bạch Đằng da anıyor."
+  },
+  {
+   "ad": "Liangzhou",
+   "durum": "tek_tanik",
+   "lat": 37.92672,
+   "lon": 102.63202,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Wuwei (Gansu)",
+   "ulke_modern": "Çin",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Wuwei",
+     "url_veya_atif": "https://www.geonames.org/1803936",
+     "lat": 37.92672,
+     "lon": 102.63202,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "Liangzhou = Wuwei, Gansu; Sakya Pandita-Köden görüşmesi Liangzhou'da; kimlik eşlemesi tarihsel olarak bilinir, ikinci kaynak çekilmedi."
+  },
+  {
+   "ad": "Bihar",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": "Hindistan",
+   "tanik": [],
+   "hesap": "",
+   "not": "Pâla'da Bihar bölgesi; I. Mahipala olayı bölge ölçeği."
+  },
+  {
+   "ad": "Taraori",
+   "durum": "tek_tanik",
+   "lat": 29.80147,
+   "lon": 76.92825,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Taraori / Tarain (Karnal)",
+   "ulke_modern": "Hindistan (Haryana)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames Tirāwari",
+     "url_veya_atif": "https://www.geonames.org/1254413",
+     "lat": 29.80147,
+     "lon": 76.92825,
+     "not": "onceki tur kaydi; ikinci bagimsiz tanik bulunamadi"
+    }
+   ],
+   "hesap": "",
+   "not": "I. Tarain Savaşı Taraori, Haryana; bağlam uyumlu."
+  },
+  {
+   "ad": "Mesa Verde",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": "ABD (Colorado)",
+   "tanik": [],
+   "hesap": "",
+   "not": "Mesa Verde platosu / Ata Pueblo kültür alanı; önceki GeoNames adayı Arizona 33.6,-114.7 yanlış; kaynaklı koordinat çekilmedi."
+  },
+  {
+   "ad": "Hulvân",
+   "durum": "cift_tanik",
+   "lat": 34.465114,
+   "lon": 45.85589,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Hulwan / Sarpol-e Zahab civarı",
+   "ulke_modern": "İran (Kirmanşah)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 903043 (Barrington Atlas 92 A2)",
+     "url_veya_atif": "https://pleiades.stoa.org/places/903043",
+     "lat": 34.465114,
+     "lon": 45.85589,
+     "not": "Hulwan/Ḥulvān adı listede"
+    },
+    {
+     "kaynak": "TDV İslam Ansiklopedisi, HULVÂN (Tahsin Yazıcı, 1998)",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/hulvan",
+     "lat": null,
+     "lon": null,
+     "not": "Bağdat'ın 190 km kuzeydoğusu, Hulvançay sol kıyısı, Paytak Geçidi yakını, Cibâl'in Irak sınırındaki ilk şehri -> Pleiades ile tutarlı (Bağdat 33.31,44.36'dan ~190 km KD = ~34.4,45.9)"
+    }
+   ],
+   "hesap": "Bağdat'tan 190 km KD tarifi Pleiades noktasıyla ~10 km içinde uyuşur.",
+   "not": "Annâzîler Hulvân'da hüküm sürdü (TDV 'Annâzîler'); ülke/devlet uyumlu."
+  }
+ ]
+}

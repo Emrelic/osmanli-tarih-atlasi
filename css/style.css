@@ -134,6 +134,11 @@
   display: flex; flex-wrap: wrap; gap: 4px; align-items: center;
   padding: 6px; background: var(--panel-koyu); border-bottom: 1px solid var(--altin);
   font-size: 12px;
+  /* Emre 26 Ekim: "6-7 devletten sonra liste görünmez oluyor". ÖLÇÜLDÜ: havuz
+     sticky ve SINIRSIZ büyüyordu; 220 px'lik listenin içinde 10 çipte 201 px,
+     11'de tamamı ⇒ görünen satır 0. Artık 72 px'te durur, kendi içinde kayar;
+     altta satır alanı HER ZAMAN kalır. */
+  max-height: 72px; overflow-y: auto; overscroll-behavior: contain;
 }
 .dss-cip {
   display: inline-flex; align-items: center; gap: 2px;
@@ -656,6 +661,37 @@ body {
 }
 #kronoloji-serit.gizli { display: none; }
 
+/* ZAMAN-ATLAMA-1021 — seyrek devir bilgi satırı (yan panel, kronoloji başlığının altı) */
+#devir-bilgi {
+  flex: 0 0 auto;
+  padding: 6px 10px;
+  font-size: 12px;
+  line-height: 1.35;
+  color: #5a4a22;
+  background: #f3ead2;
+  border-bottom: 1px solid #d8c9a3;
+}
+#devir-bilgi.gizli { display: none; }
+#devir-bilgi .devir-ust { font-weight: bold; }
+#devir-bilgi .devir-bugun { margin-top: 2px; }
+#devir-bilgi .devir-git {
+  display: block;
+  width: 100%;
+  margin-top: 3px;
+  padding: 3px 6px;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  background: #fffaf0;
+  border: 1px solid #d8c9a3;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#devir-bilgi .devir-git:hover { background: #fdf0cc; }
+
 /* p2/H-0024 — bölge parlama, basılı tutunca çıkan ad etiketi */
 .bolge-parlama-etiket {
   position: absolute;
@@ -788,7 +824,48 @@ body {
   box-shadow: 0 6px 16px rgba(0,0,0,0.3);
 }
 #devlet-secici-panel.gizli { display: none; }
+/* 🔝 ÜST SATIR — Emre (25 Ekim 2026): kronoloji seçici · konu süzgeci · uçuş
+   EN TEPEDE yan yana; hükümdar kartı ve maddeler altında. Seçici ile süzgeç
+   `position: static` ⇒ açılır panelleri bu satıra göre konumlanır ve satırın
+   TAM genişliğini alır (seçici düğmesi dar olsa da liste dar kalmaz).
+   `z-index` açılırların alttaki kartın ve listenin üstüne binmesi için. */
+#yanpanel-ust {
+  position: relative; z-index: 20;
+  display: flex; align-items: center; gap: 5px;
+  padding: 5px 8px;
+  background: var(--panel-koyu);
+  border-bottom: 1px solid #d8c9a3;
+  flex: 0 0 auto;
+}
+#yanpanel-ust #devlet-secici { position: static; margin-top: 0; flex: 1 1 40%; min-width: 0; }
+#yanpanel-ust #devlet-secici-panel { left: 8px; right: 8px; }
+#yanpanel-ust #konu-suzgec { position: static; flex: 0 1 auto; }
+#yanpanel-ust #konu-suzgec .suzgec-govde { left: 8px; right: 8px; }
+
+/* ⚡ UZUN LİSTE HIZI — Emre (25 Ekim 2026): "Tümünü seç" 1771 kronolojide
+   ~17 bin satır çiziyor ve sayfa donuyordu. ÖLÇÜLDÜ (yayın, 1400×900):
+   liste gizliyken çizim 415 ms, görünürken 4212 ms ⇒ maliyet JS değil,
+   17 bin satırın YERLEŞİM hesabı. `content-visibility:auto` ekran dışındaki
+   satırın yerleşimini atlatır: Tümünü seç 3555 → 1065 ms · Seçimi kaldır
+   1063 → 251 ms. `contain-intrinsic-size` ölçülen ortalama satır boyu
+   (40 px; `auto` gerçek boyu çizildikten sonra hatırlar). Şimdiki maddeye
+   kaydırma sınandı: 1453 · 1683 · 1914'e atlamada satır görünür kaldı. */
+#olay-listesi > .olay { content-visibility: auto; contain-intrinsic-size: auto 40px; }
+.devlet-secici-satir { content-visibility: auto; contain-intrinsic-size: auto 24px; }
 #devlet-secici-liste { max-height: 220px; overflow-y: auto; }
+#devlet-secici-ara-satir { display: flex; gap: 4px; margin-bottom: 4px; }
+#devlet-secici-ara {
+  flex: 1; min-width: 0;
+  font-size: 12px; padding: 3px 6px;
+  border: 1px solid #d8c9a3; border-radius: 4px;
+}
+#devlet-secici-tumu {
+  flex: none; font-size: 11px; padding: 2px 6px; cursor: pointer;
+  border: 1px solid var(--altin); border-radius: 4px; background: var(--panel-koyu);
+  color: var(--metin);
+}
+#devlet-secici-tumu:hover { background: #ffe9a8; }
+.dss-bulunamadi { padding: 6px; font-style: italic; opacity: .75; }
 .devlet-secici-satir {
   display: flex; align-items: center; gap: 5px;
   padding: 3px 4px; border-radius: 4px; cursor: pointer;
@@ -3048,6 +3125,8 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 /* 13 Eylül 2026 — 0042/H-0023·24·26: şehir etiketiyle çarpışan işaret artık
    SİLİNMİYOR, küçük simgeye iniyor (app.js savasGuncelle `sv-sade`). */
 .savas-isaret.sv-sade .sv-ad { display: none; }
+/* ETIKET-1016 (not #13): odakta olay varken ötekilerin adı gizli, simge kalır. */
+#harita.sv-odakvar .savas-isaret:not(.sv-odak) .sv-ad { display: none; }
 .savas-isaret.sv-sade .sv-ikon { transform: scale(0.72); opacity: 0.9; }
 /* 🆕 14 Ekim 2026 — KARARLAR-1014 #33 (0064/H-0015): odaktaki olay simgesiyle
    kesişen şehrin adı ve ediniliş simgesi o kare için gizlenir; nokta kalır
@@ -3609,10 +3688,11 @@ body:not(.gelistirici) .yalniz-gelistirici { display: none !important; }
 #gn-sayi { margin-left: 3px; font-size: 11px; color: #39ff14; }
 #gn-arac button.etkin #gn-sayi { color: #111; }
 /* ⏳ bekleyen · ✉ okunmamış sayaçları: sıfırdan büyükse göze batar */
+#gn-sahipsiz { margin-left: 3px; font: 700 11px/14px sans-serif; color: #fff; background: #0074d9; border-radius: 7px; padding: 0 5px; }
 #gn-bekleyen, #gn-okunmamis { margin-left: 3px; font: 700 11px/14px sans-serif; color: #111;
   background: #ff851b; border-radius: 7px; padding: 0 5px; }
 #gn-okunmamis { background: #ff4136; color: #fff; }
-#gn-arac button.gn-sifir #gn-bekleyen, #gn-arac button.gn-sifir #gn-okunmamis { background: transparent; color: #888; font-weight: 400; }
+#gn-arac button.gn-sifir #gn-sahipsiz, #gn-arac button.gn-sifir #gn-bekleyen, #gn-arac button.gn-sifir #gn-okunmamis { background: transparent; color: #888; font-weight: 400; }
 .gn-yeni { font-weight: 600; }
 .gn-yeni-cip { color: #ff4136; }
 .gn-filtre-kaldir { margin: 4px 0; font-size: 11px; }

@@ -1268,7 +1268,7 @@ window.YER_YAMA_HAYALET = [
   "not": "🔴 ONERI YOK — VERI DEVLET'e `seybani` kunyesi istegi. Kunye acilinca RENK de gerekir."
  },
  {
-  "yerlesim": "Budin",
+  "yerlesim": "Aquincum-Óbuda-Pest",
   "mevcut": {
    "d": "macaristan",
    "f": "1918-11-11",

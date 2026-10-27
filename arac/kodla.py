@@ -511,6 +511,9 @@ HEDEFLER = {
         "sha": "window.__PR_SHA", "parca": "donem_parcalar.js",
         "ust": "donemler_ust.js", "on": "donemler_on.js",
         "ne": "Dönem peteklerinin",
+        # KATMAN 1 (25 Ekim 2026): `on` bir ÖNEK dosyasıdır (havuzdan önce
+        # çalışan küreseller), katman 1 DEĞİL — katman 1 bu adla yazılır.
+        "kat1": "donem_parca_on.js",
     },
     # 🔴 ÜÇÜNCÜ HEDEF — ve ilk ikisinden BİR DÜZEY DERİN (29 Eylül 2026).
     # Ölçüldü: petek_govde.js 11,06 MB · en çok 3 ondalık hane (OLCEK=1000
@@ -714,6 +717,115 @@ def on_dilim(dizin, gun="1281-01-01"):
           % (ad, mb, os.path.getsize(os.path.join(dizin, DP_JS)) / 1048576))
     print("  gidiş-dönüş: %s  (%.0f sn)"
           % ("✓ BİREBİR" if ayni else "🔴 FARKLI", time.perf_counter() - t))
+    if not ayni:
+        os.remove(yol)
+        print("  ⇒ dosya SİLİNDİ.")
+        return 1
+    return 0
+
+
+def _acilis_halkalari_donem(dizin, gun="1281-01-01"):
+    """DÖNEM havuzunda `gun` için GEREKEN halka indeksleri — ölçerek.
+
+    `donemler_ust.js` içinde DONEMLER (f/t + o·v·h[].g parça kodları) ve
+    PARCA_HALKA (parça → havuz halka indeksleri) geçerli JSON'dur. `js/app.js`
+    `parcaCoz` ile aynı yolu izler: parça kodu → PARCA_HALKA[p] → havuz[h].
+    Etkinlik: `f <= gun <= t` (ISO dizgeleri sıralanabilir; kapsayıcı üst
+    küme alınır — fazla halka zararsız, eksik halka çizimden düşer).
+    """
+    import json
+    y = os.path.join(dizin, HEDEFLER["donem"]["ust"])
+    with open(y, encoding="utf-8") as f:
+        s = f.read()
+
+    def _dizi(ad):
+        b = s.index("window." + ad + " = ") + len("window." + ad + " = ")
+        o, _ = json.JSONDecoder().raw_decode(s, b)
+        return o
+    donemler = _dizi("DONEMLER")
+    parca_halka = _dizi("PARCA_HALKA")
+    gerek, etkin = set(), 0
+    for d in donemler:
+        if not (d.get("f", "9999") <= gun <= d.get("t", "0000")):
+            continue
+        etkin += 1
+        kodlar = list(d.get("o") or []) + list(d.get("v") or [])
+        for hb in (d.get("h") or []):
+            kodlar += list(hb.get("g") or [])
+        for p in kodlar:
+            if not isinstance(p, int):
+                # Eski biçim (doğrudan koordinat) — katman 1 ona dokunmaz,
+                # ama SESSİZ GEÇİLMEZ: o parça havuzdan gelmiyor demektir.
+                raise ValueError("donemler_ust.js'te sayı olmayan parça kodu: %r" % (p,))
+            if p >= len(parca_halka) or parca_halka[p] is None:
+                raise ValueError("PARCA_HALKA deliği: %d" % p)
+            gerek.update(parca_halka[p])
+    return sorted(gerek), len(donemler), etkin
+
+
+def on_dilim_donem(dizin, gun="1281-01-01"):
+    """KATMAN 1 — DÖNEM havuzunun açılış günü alt kümesi (`donem_parca_on.js`).
+
+    NİÇİN (25 Ekim 2026, ölçüldü): `donem_parcalar.js` 13,4 MB ham ve açılışta
+    ENGELLEYİCİ idi; çözme 372 ms, yani maliyet indirmedir. 1281-01-01 havuzun
+    %0,0'ını (1 halka) ister. Devlet katmanıyla (`on_dilim`) AYNI seyrek biçim:
+    halkalar ÖZGÜN indeksleriyle yazılır, havuz yeniden sıralanMAZ,
+    PARCA_HALKA'ya dokunulmaz. `js/geo_coz.js` `seyrekCoz`u aynen kullanır.
+    🔴 BAYATLIK: alt küme havuzun indekslerine bağlıdır. Dosyaya havuzun
+    `__PR_SHA`sı (`__PR_ON_SHA`) yazılır; `kapi()` ikisini kıyaslar —
+    havuz değişip bu komut koşmazsa YAYIN DURUR.
+    """
+    import base64
+    import time as _t
+    hedef_sec("donem")
+    t = _t.perf_counter()
+    idx, donem, etkin = _acilis_halkalari_donem(dizin, gun)
+    onek, havuz_b, sonek, sha = _oku_c(dizin)
+    if not sha:
+        print("🔴 %s içinde %s YOK — katman 1 havuza bağlanamaz" % (DP_JS, SHA_ADI))
+        return 1
+    havuz = _coz_havuz(havuz_b)
+    alt = [havuz[i] for i in idx]
+
+    out = bytearray()
+    _yaz(out, len(idx))
+    onc = 0
+    for i in idx:                       # artan indeksler → delta varint
+        _yaz(out, i - onc)
+        onc = i
+    govde = bytes(out) + _kodla_havuz(alt)
+
+    ad = HEDEFLER["donem"]["kat1"]
+    yol = os.path.join(dizin, ad)
+    with open(yol, "w", encoding="utf-8", newline="") as f:
+        f.write("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/kodla.py on-dilim-donem\n")
+        f.write("// KATMAN 1: açılış gününün (%s) dönem halkaları — havuzun seyrek alt kümesi.\n" % gun)
+        f.write("// Tam havuz (data/donem_parcalar.js) ilk boyamadan SONRA arka planda iner.\n")
+        f.write("// Biçim: varint N · N delta indeks · sonra normal halka akışı.\n")
+        f.write("window.__PR_ON_GUN=\"%s\";\n" % gun)
+        f.write("window.__PR_ON_SHA=\"%s\";\n" % sha)
+        f.write("window.__PR_ON_B64=\"%s\";\n" % base64.b64encode(govde).decode())
+
+    # 🔴 GİDİŞ-DÖNÜŞ: alt kümedeki her halka tam havuzdakiyle AYNI mı?
+    ib = bytes(out)
+    _n, k = _oku(ib, 0)
+    geri_idx, onc = [], 0
+    for _ in range(_n):
+        d, k = _oku(ib, k)
+        onc += d
+        geri_idx.append(onc)
+    geri = _coz_havuz(govde[k:])
+    ayni = (geri_idx == idx and len(geri) == len(alt)
+            and all(list(map(tuple, a)) == list(map(tuple, b))
+                    for a, b in zip(geri, alt)))
+    kb = os.path.getsize(yol) / 1024.0
+    print("açılış günü %s · dönem %d, etkin %d · halka %d/%d (%.2f%%) · nokta %d"
+          % (gun, donem, etkin, len(idx), len(havuz),
+             100.0 * len(idx) / max(1, len(havuz)), sum(len(h) for h in alt)))
+    print("  %s %.1f KB   (tam havuz %.2f MB)"
+          % (ad, kb, os.path.getsize(os.path.join(dizin, DP_JS)) / 1048576))
+    print("  gidiş-dönüş: %s  (%.0f sn)"
+          % ("✓ BİREBİR" if ayni else "🔴 FARKLI", _t.perf_counter() - t))
     if not ayni:
         os.remove(yol)
         print("  ⇒ dosya SİLİNDİ.")
@@ -953,6 +1065,20 @@ def kapi(dizin, hedef=None):
             s.append("✓  kodlama kapısı: %s + %s → özgün metin, sha256 %s ✓ "
                      "· %d küresel eksiksiz"
                      % (DP_JS, UST_JS, sha[:12], len(bekl)))
+            # ── KATMAN 1 BAYATLIĞI — alt küme havuz indekslerine bağlıdır.
+            # Havuz değişip `on-dilim-donem` koşmazsa açılış günü YANLIŞ
+            # halkalarla boyanırdı (sha sınavı bunu görmez).
+            k1 = HEDEFLER[HEDEF].get("kat1")
+            if k1 and os.path.isfile(os.path.join(dizin, k1)):
+                with open(os.path.join(dizin, k1), encoding="utf-8") as f:
+                    m = re.search(r'window\.__PR_ON_SHA="([0-9a-f]{64})"', f.read())
+                if not m or m.group(1) != sha:
+                    s.append("✗  KODLAMA KAPISI — %s BAYAT: havuz damgası %s, "
+                             "katman 1 damgası %s"
+                             % (k1, sha[:12], m.group(1)[:12] if m else "YOK"))
+                    s.append("     ⇒ py arac/kodla.py on-dilim-donem data  ile yeniden üret.")
+                    return True, s
+                s.append("✓  katman 1: %s havuzla AYNI damga (%s)" % (k1, sha[:12]))
             return False, s
         s.append("✗  KODLAMA KAPISI: kurulan metin damgayla UYUŞMUYOR")
         s.append("     beklenen %s" % sha[:24])
@@ -1062,6 +1188,8 @@ if __name__ == "__main__":
         sys.exit(coz_c(a[1], a[2]))
     if a[0] == "on-dilim" and len(a) in (2, 3):
         sys.exit(on_dilim(a[1], a[2] if len(a) == 3 else "1281-01-01"))
+    if a[0] == "on-dilim-donem" and len(a) in (2, 3):
+        sys.exit(on_dilim_donem(a[1], a[2] if len(a) == 3 else "1281-01-01"))
     if a[0] == "kapi" and len(a) == 2:
         _i, _s = kapi(a[1])
         for _x in _s:

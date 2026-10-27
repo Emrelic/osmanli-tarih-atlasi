@@ -1,0 +1,1134 @@
+{
+ "bolge": "Hint alt kıtası + Çin/Doğu Asya (3. dalga)",
+ "tarih_olcum": "21 Ekim 2026",
+ "kayitlar": [
+  {
+   "id": "dholavira",
+   "ad": "Dholavira",
+   "ad_yerel": "Dholavira (ધોળાવીરા)",
+   "tur": "sehir",
+   "lat": 23.8884,
+   "lon": 70.2133,
+   "konum_tanik": [
+    {
+     "kaynak": "UNESCO WHC 1645 sayfası (Wayback 2023 kopyası): N23 53 18.27 E70 12 47.89",
+     "lat": 23.88841,
+     "lon": 70.2133
+    },
+    {
+     "kaynak": "OSM Nominatim (Dholavira, attraction)",
+     "lat": 23.8889009,
+     "lon": 70.2114507
+    },
+    {
+     "kaynak": "Wikidata Q9468 (P625)",
+     "lat": 23.88611111,
+     "lon": 70.21666667
+    }
+   ],
+   "konum_not": "Üç tanık arası en çok ~0,5 km; esas alınan UNESCO kayıtlı koordinatı (kurumsal, DMS->ondalık bu oturumda hesaplandı). Wikidata ile OSM bağımsız sayılmaz tam.",
+   "kur": {
+    "bas_mo": 3000,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "UNESCO WHC Dossier 1645 Dholavira: A Harappan City, ICOMOS Advisory Body Evaluation (belge 189324, 2021; Hindistan/ASI başvurusuna dayanır), Basic data + Brief description; ayrıca whc.unesco.org/en/list/1645 Criterion (iii) metni",
+    "url": "https://whc.unesco.org/document/189324",
+    "alinti": "The occupation of the site spans 1,500 years beginning in c. 3000 BCE, and is divided into 7 stages.",
+    "kaynak_sinifi": "veri-tabani",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": {
+    "bas_mo": 1500,
+    "son_mo": 1450,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Aynı ICOMOS değerlendirmesi, Aşama VII (Stage VII) tanımı; dönem-toplamı, tek olay kalibre aralığı değil",
+    "url": "https://whc.unesco.org/document/189324",
+    "alinti": "Stage VII (c. 1500-1450 BCE) shows the arrival of a new settler after 300 years of vacancy",
+    "kaynak_sinifi": "veri-tabani",
+    "kaynak_dili": "İngilizce"
+   },
+   "k": "kurulus",
+   "d": "Kachchh (Khadir adası) Harappa kenti; UNESCO/ASI şemasına göre c. MÖ 3000'de başlayan, 7 aşamalı yaklaşık 1.500 yıllık iskân; Aşama VII (MÖ ~1500-1450) kentsel nitelik taşımayan son yerleşim, sonrasında hiç iskân edilmemiş.",
+   "sahip_kultur": "Erken/Olgun/Geç Harappa (UNESCO metninde Aşama I-III 'Dholavira culture')",
+   "ic_not": "AŞAMA TABLOSU (ICOMOS/UNESCO, ASI kaynaklı): I-III 3000-2500 (I: ~3000-2900, II: ~2900-2800, III: ~2800-2500); IV 2500-2100; V 2100-2000 (deprem, kısa terk); VI 1950-1800; VII 1500-1450; boşluklar 2000-1950 ve 1800-1500 MÖ. ÇELİŞKİ 1: Sengupta vd. (JQS, doi:10.1002/jqs.3178, Crossref özeti okundu, TAM METİN kapalı) yedi kültürel aşamadan arkeolojik karbonatların 14C tarihlemesiyle iskânın başlangıcını '~5500 yıl BP (pre-Harappan)', devamını '~3800 yıl BP'ye (Geç Harappa başı)' kadar verir: alıntı 'suggests the beginning of occupation at ~5500 years BP (pre-Harappan), continuation until ~3800 years BP'. Özette kalibre mi ham mı belirtilmemiş; kalibre varsayılırsa BP-1950 ile ~MÖ 3550 ve ~MÖ 1850 (bu oturumda hesap, onaylı değil). Bu, UNESCO c.3000'den ~550 yıl eski bir başlangıçtır ve haritaya yazılmadan tam metinle (Tablo) çözülmelidir. ÇELİŞKİ 2: Bisht'in orijinal ASI tablosu (Aşama I 2650-2550 ... VII 1650-1450) ve 'Aşama I 3500-3200' yeniden tarihlemesi yalnız Vikipedi/arama özeti aktarımıyla görüldü, dayanak yapılmadı. Çift teyit YOK: UNESCO dosyası ile Sengupta özeti uyuşmuyor.",
+   "okunan_sayfa": [
+    "https://web.archive.org/web/2023/https://whc.unesco.org/en/list/1645",
+    "https://web.archive.org/web/2023/https://whc.unesco.org/document/189324",
+    "https://api.crossref.org/works/10.1002/jqs.3178",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q9468.json",
+    "https://nominatim.openstreetmap.org/search?format=json&q=Dholavira"
+   ],
+   "kaynak_dili": "İngilizce",
+   "kur_baslik": "Dholavira iskânı başlar",
+   "bit_baslik": "Dholavira Aşama VII sona erer"
+  },
+  {
+   "id": "lothal",
+   "ad": "Lothal",
+   "ad_yerel": "Lothal (લોથલ)",
+   "tur": "sehir",
+   "lat": 22.5227,
+   "lon": 72.2493,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim (Lothal, archaeological_site)",
+     "lat": 22.522677,
+     "lon": 72.2493077
+    },
+    {
+     "kaynak": "Wikidata Q9443 (P625)",
+     "lat": 22.521388888889,
+     "lon": 72.249444444444
+    }
+   ],
+   "konum_not": "OSM ile Wikidata <0,2 km uyumlu (bağımsız sayılmayabilir). Kanungo vd. 2024 metni Lothal'ı 22 derece 19 dakika K, 72 derece 24 dakika D diye verir; bu ~25 km sapar ve yuvarlak/yanlış görünüyor, esas alınmadı.",
+   "kur": {
+    "bas_mo": 2450,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "S.R. Rao 1962, Further excavations at Lothal, Lalit Kala 11:15 (Kanungo vd. 2024 üzerinden dolaylı alıntı); aynı yerde kalibre 14C ortalamaları 2452-2366 MÖ. Kanungo A.K. vd. 2024, 'Luminescence and radiocarbon chronology of Bhagatrav...', Radiocarbon, doi:10.1017/RDC.2024.119, Tablo 1 (kalibre değerler Possehl 1989'dan olduğu gibi aktarılmış, yeniden hesaplanmamış - dipnot 7)",
+    "url": "https://doi.org/10.1017/RDC.2024.119",
+    "alinti": "Average: 2452, 2427, 2395, 2374 and 2366 BC",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": {
+    "bas_mo": 2000,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Kirk 1975 görüşü, Kanungo vd. 2024'ün aktarımıyla (ikincil); Lothal Geç Harappa (B) 14C zarfı için aşağıda ic_not",
+    "url": "https://doi.org/10.1017/RDC.2024.119",
+    "alinti": "by 2000 BCE, the prosperity of Lothal was waning",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "k": "kurulus",
+   "d": "Gujarat kıyısında Harappa liman/üretim kenti; Rao'ya göre Harappalılar c. MÖ 2450'de buraya geldi; kalibre TF tarihleri Olgun Harappa evresini ~MÖ 2650-2200 arasına, Geç Harappa (B) evresini ~MÖ 2315-1865 arasına koyar.",
+   "sahip_kultur": "Olgun (Sorath) Harappa, sonra Geç Harappa",
+   "ic_not": "Kanungo vd. 2024 Tablo 1 (Possehl 1989'dan, 'kalibre tarihler orijinal yayınlardaki gibi, yeniden hesaplanmadı'): Lothal B TF-19 3759±135 BP = 2315-1865 BC; TF-23 3816±105 BP = 2320-1959 BC (ortalamalar 2275, 2210, 2307 BC). Lothal A TF-22 vd.: 3850-4032 BP = 2340-1980 .. 2655-2185 BC (TF-136 en eski, 2655-2185); TF-135 3507±125 = 1950-1570 BC (aykırı). Tablo düzeni metin çıkarımında bozuk, A/B etiket eşleşmesi kesin değil; bu nedenle kayıt tek bir kalibre uç yerine Rao beyanı + ortalama olarak verildi. Rao'nun sel kuramı sonradan terk edilmiş (Herman 1996). Orijinal ASI Memoir 78 (Rao 1979/1984) OKUNAMADI; kalibre kaynak Possehl 1989 de okunamadı (kutuphane_gerekli). Khadkikar vd. 2004 (Antiquity 78) yalnız paleocoğrafya.",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F20A67111DE6F904BAD72BE922A6E78D/S003382222400119Xa.pdf",
+    "https://nominatim.openstreetmap.org/search?format=json&q=Lothal",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q9443.json"
+   ],
+   "kaynak_dili": "İngilizce",
+   "kur_baslik": "Lothal iskânı başlar",
+   "bit_baslik": "Lothal'in gerilemesi"
+  },
+  {
+   "id": "magadha-haryanka-bimbisara",
+   "ad": "Magadha yükselişi (Bimbisara ve Ajatashatru)",
+   "ad_yerel": "Magadha; Bimbisāra, Ajātaśatru",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bölge/hanedan kaydı; başkent Pataliputra için ayrı kayıt ve sehir_kontrol var.",
+   "kur": {
+    "bas_mo": 543,
+    "son_mo": 491,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Rapson E.J. (ed.) 1922, The Cambridge History of India vol. I (Ancient India), bölüm 'Buddhism and the early Buddhist chronology' içindeki Geiger/Mahavamsa kronoloji tablosu (Bimbisara: ilk sayfa 'accession 543, death 491'); Cambridge, İngilizce, archive.org djvu OCR'dan okundu. ESKİ (1922) kaynaktır, modern yeniden tarihleme için aşağıya bak",
+    "url": "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "alinti": "accession . . . 543 death ... 491 Ajata9atru's accession ... 491 ,, death ... 459",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Cambridge History of India (1922) Sinhala vakayinamelerine dayalı Geiger kronolojisiyle Bimbisara'nın 543-491, Ajatashatru'nun 491-459 MÖ hüküm sürdüğünü verir; Magadha'nın yükselişi Anga'nın fethiyle (Bimbisara, c. MÖ 600) başlar, Kashi-Kosala-Videha üstünlüğü Ajatashatru'ya atfedilir.",
+   "sahip_kultur": null,
+   "ic_not": "Kaynak içi tutarsızlık: aynı eser Anga fethini 'Bimbisara, c. 600 b.c.' (alıntı: 'The expansion began with the conquest of Anga (Monghyr and Bhagalpur in Bengal) by Bimbisara, c. 600 b.c.' - OCR 'Ahga') diye verir, tablo ise iktidar başlangıcını 543'e koyar. Kaynak, Brahman/Budist/Jain üç geleneğin uyuşmadığını ve Puranik reign süreleri (Bimbisara 28/38, Ajatashatru 25/27/28 yıl) metninin bozuk olduğunu belirtir; Geiger tablosunu 'en iyi çalışma hipotezi' sayar. Bu tablo Buda ölümünü 483'e bağlayan UZUN kronolojiye dayanır (aşağıdaki Buda kaydına bak); kısa kronoloji (Bechert) Bimbisara/Ajatashatru'yu ~60-100 yıl geç çeker, kaynağı okunamadı (Heidelberg JIABS Anubis, OpenLearn 403). Modern tek tarih verisi okunmadığından haritaya 'yaklaşık' beyanıyla girebilir.",
+   "okunan_sayfa": [
+    "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt"
+   ],
+   "kaynak_dili": "İngilizce",
+   "kur_baslik": "Bimbisara Magadha tahtına çıkar",
+   "bit_baslik": "Ajatashatru tahta çıkar (Bimbisara'nın sonu)"
+  },
+  {
+   "id": "nanda-hanedani",
+   "ad": "Nanda hanedanı (Magadha)",
+   "ad_yerel": "Nanda; Dhana Nanda",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Pataliputra merkezli; koordinat için pataliputra kaydı.",
+   "kur": {
+    "bas_mo": 326,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Rapson 1922, Cambridge History of India vol. I (Nanda dönemi, 'Dhana-nanda'), İskender'in Hyphasis dönüşü senkronizmi; kuruluş (Mahapadma) tarihi kaynakta YOK (yalnız 'toplam 100 yıl' Puranik süre)",
+    "url": "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "alinti": "was on the throne in 326 b.o., when Alexander the Great was obliged by the unwillingness of his army",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": {
+    "bas_mo": 321,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Aynı eser: Nanda'dan Maurya'ya geçiş 'probably c. 321 b.c.'",
+    "url": "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "alinti": "this suzerainty passed from the Nandas to the Mauryas, probably c. 321 b.c.",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "k": "gelisme",
+   "d": "Dokuz Nanda (Mahapadma ve sekiz oğlu) Magadha'da; sonuncusu (Dhana Nanda) MÖ 326'da tahtta; MÖ ~321'de egemenlik Maurya'ya geçer. Kuruluş tarihi kaynakta verilmiyor.",
+   "sahip_kultur": null,
+   "ic_not": "'bas_mo' bir kuruluş değil, 'MÖ 326'da tahtta olduğu' tanıklık tarihidir; kuruluş için dönem yazılmaz. Jain geleneği Chandragupta'nın iktidarını 313 (312) MÖ'ya koyar (CHI: 'The Jains put the date of Chandragupta's accession in 313 (312) B.C.'), Budist gelenekten 8 yıl geç; yani Nanda sonu için 321 ile 313/312 arasında iki gelenek vardır. Charpentier 1931 (BSOS 6:2, 303-321) ise Aşoka'yı geriden hesaplayıp Chandragupta'yı 327/325-303/301'e çıkarır (hipotez; ana akım dışı). Bhattasali 1932 (JRAS) 322-321'i 'sorgulanan çapa tarih' sayar (önceki dalga). Çift teyit YOK.",
+   "okunan_sayfa": [
+    "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "https://buddhism.lib.ntu.edu.tw/FULLTEXT/JR-ENG/charp.htm"
+   ],
+   "kaynak_dili": "İngilizce",
+   "kur_baslik": "Dhana-Nanda Magadha'da (İskender çağı)",
+   "bit_baslik": "Nanda'dan Maurya'ya geçiş"
+  },
+  {
+   "id": "maurya-imparatorlugu",
+   "ad": "Maurya İmparatorluğu",
+   "ad_yerel": "Maurya (Magadha; başkent Pataliputra)",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Başkent koordinatı pataliputra kaydında.",
+   "kur": {
+    "bas_mo": 321,
+    "son_mo": 297,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Rapson 1922, Cambridge History of India vol. I, giriş özeti ve Maurya hanedanı kronoloji tablosu: 'Chandragupta 321-297 b.c.'",
+    "url": "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "alinti": "Chandragupta (c. 321-297 b.C.) the low-born son of Mura and the founder of the Maurya empire",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": {
+    "bas_mo": 184,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Aynı eser: Puranik 137 yıllık dönem toplamı, hanedan sonu 'c. 184 B.C.', ardından Pushyamitra (Shunga)",
+    "url": "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "alinti": "the Maurya dynasty lasted for 137 years ; that is to say, it is supposed to have come to an end c. 184 B.C.",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "k": "kurulus",
+   "d": "Chandragupta (c. MÖ 321-297), Bindusara (25/27/28 yıl), Aşoka; hanedan Puranik 137 yıl toplamıyla c. MÖ 184'te Brihadratha'nın Pushyamitra tarafından öldürülmesiyle biter (Shunga dönemi).",
+   "sahip_kultur": null,
+   "ic_not": "kur.son_mo = Chandragupta'nın iktidarının sonu (297), hanedanın değil; hanedan sonu 'bit' içinde (184). Bu kaynak 1922 tarihli; modern literatürde (Thapar, Falk) Chandragupta ~321/317 aralığı, Aşoka ~268-232 kullanılıyor ama bu oturumda hakemli modern kaynağın tam metni OKUNAMADI. Aynı 321'e ikinci tanık: Bhattasali 1932 JRAS 64(2) '322-321' (önceki dalgada özet okundu) - ikisi de aynı geleneksel hesaba dayandığı için 'bağımsız çift teyit' sayılmaz. Jain tarihi 313/312, Charpentier hipotezi 325 başlangıç; çelişki beyan edildi. Histos 2015 (Fauconnier, 'Ex Occidente Imperium') açık erişimli PDF indirildi ama rakamlar yazı tipi nedeniyle metinde kayıp (yılların hiçbiri okunamadı), dayanak yapılmadı.",
+   "okunan_sayfa": [
+    "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "https://histos.org/index.php/histos/article/download/288/282"
+   ],
+   "kaynak_dili": "İngilizce",
+   "kur_baslik": "Maurya İmparatorluğu: Chandragupta dönemi başlar",
+   "bit_baslik": "Maurya hanedanı sona erer"
+  },
+  {
+   "id": "asoka-saltanati-fermanlar",
+   "ad": "Aşoka'nın saltanatı ve XIII. Kaya Fermanı senkronizması",
+   "ad_yerel": "Aśoka; Rock Edict XIII",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Koordinat gereksiz; ferman yerleri ayrı kayıt gerektirir.",
+   "kur": {
+    "bas_mo": 274,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Rapson 1922, Cambridge History of India vol. I, Aşoka Kronolojisi tablosu (s. 503 civarı): 'Aşoka 274-237 b.c., katılım en geç 274, taç giyme en geç 270'; OCR metni 'AQoka' diye bozuk",
+    "url": "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "alinti": "Accession 274 b.c. at latest; coronation 270 B.c. at latest; conquest of Kaliiiga 262 b.c. at latest",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": {
+    "bas_mo": 237,
+    "son_mo": 236,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Aynı tablo: 'death 237 or 236 b.c. ?' (soru işaretli)",
+    "url": "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "alinti": "death 237 or 236 b.c. ?",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "k": "gelisme",
+   "d": "Aşoka'nın saltanatı: CHI 1922'ye göre katılım ≤274, taç giyme ≤270, Kalinga fethi ≤262, ölüm 237/236 MÖ. XIII. Kaya Fermanı beş Helenistik kralı (Antiochos, Ptolemaios, Antigonos, Magas, İskender) canlı sayar; CHI Magas'ın 258'de ölümünden dolayı fermanı 'yaklaşık 258-257 MÖ'ya, geçici olarak, yerleştirir.",
+   "sahip_kultur": null,
+   "ic_not": "Senkronizma: CHI ferman XIII'ü '258-7 geçici tarih' ve 14. yıl varsayımıyla taç giymeyi en geç 270'e çeker. ÇELİŞKİ (kaynak 2): Charpentier J. 1931, 'Antiochus, King of the Yavanas', Bulletin of the School of Oriental Studies 6(2):303-321 (buddhism.lib.ntu.edu.tw tam metin okundu) Amtiyoka'yı Antiochos I (281-262/61) sayar ve fermanın yayın tarihi için 'en geç 261/260 MÖ' sınırını verir; alıntı 'Antiochus I (281-262/61 B.C.) and not Antiochus II (262/61-246 B.C.) is the Yavana king Amtiyoka'. Bu varsayımla Aşoka'nın katılımı 278-276'ya düşer (hipotez, 'working hypothesis' denir). Büyük çoğunluk Antiochos II'yi (261-246) kabul eder (Charpentier'in kendi aktardığı literatür). Modern 268/260 değerleri bu oturumda hakemli metinden okunamadı: kutuphane_gerekli (Falk 2006; Thapar 1997).",
+   "okunan_sayfa": [
+    "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "https://buddhism.lib.ntu.edu.tw/FULLTEXT/JR-ENG/charp.htm"
+   ],
+   "kaynak_dili": "İngilizce",
+   "kur_baslik": "Aşoka tahta çıkar",
+   "bit_baslik": "Aşoka ölür"
+  },
+  {
+   "id": "buda-parinirvana-tarihi",
+   "ad": "Buda'nın parinirvana tarihi (kronoloji dayanağı)",
+   "ad_yerel": "Buddha parinirvāṇa",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Olay/tarih kaydı, yer yok (Kushinagar ayrı kayıt gerektirir).",
+   "kur": {
+    "bas_mo": 483,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Rapson 1922, Cambridge History of India vol. I (Geiger/Mahavamsa tablosu: doğum 563, 'Attains nirvana 483')",
+    "url": "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "alinti": "The date 483 B.C. which is adopted in this History must still be regarded as provisional.",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "CHI (1922) Buda'nın ölümünü, Ceylon vakayinamelerindeki 218 yıllık aralığı Aşoka'ya ekleyerek ~MÖ 483'e yerleştirir ve bunu 'geçici' sayar.",
+   "sahip_kultur": null,
+   "ic_not": "Tartışmalı tarih. 'Uzun/düzeltilmiş uzun' kronoloji (486/483) ile 'kısa' kronoloji (~MÖ 400 ve sonrası; Bechert ed. 1991-97 'Die Datierung des historischen Buddha') çatışır; bu oturumda Bechert cildi, Gombrich, Norman, Cousins metinleri OKUNAMADI (JIABS Heidelberg indirmesi Anubis/HTML döndü, OpenLearn 403). Turriff 2009 (Concordia MA tezi, ikincil) Sarao'nun 397 MÖ önerisini aktarır. Maurya/Magadha tarihlerinin bu yüzden iki seçenekli olduğu not edilmeli.",
+   "okunan_sayfa": [
+    "https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt",
+    "https://spectrum.library.concordia.ca/976301/1/MR63297.pdf"
+   ],
+   "kaynak_dili": "İngilizce",
+   "kur_baslik": "Buda'nın parinirvanası (Cambridge History tarihi)"
+  },
+  {
+   "id": "banpo-yerlesimi-3",
+   "ad": "Banpo (Yangshao, Banpo evresi)",
+   "ad_yerel": "半坡遗址",
+   "tur": "kultur",
+   "lat": 34.2744,
+   "lon": 109.0475,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q806929 (P625)",
+     "lat": 34.27444,
+     "lon": 109.0475
+    },
+    {
+     "kaynak": "OSM Nominatim: 半坡博物馆, Baqiao, Xi'an",
+     "lat": 34.27402,
+     "lon": 109.04798
+    }
+   ],
+   "konum_not": "Fark ~0.05 km. Esas Wikidata; OSM müze noktası. Wikidata+OSM bağımsız tanık (Wikipedia değil).",
+   "kur": {
+    "bas_mo": 4800,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930, Tablo 1 (Banpo: 'Estimated dates (cal. BC/AD)' sütunu; doi:10.1371/journal.pone.0240930)",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+    "alinti": "Banpo 20 A Shaanxi Yangshao 4800–4300",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 4300,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Aynı (Tablo 1)",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+    "alinti": "Banpo 20 A Shaanxi Yangshao 4800–4300",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Yangshao kültürünün Banpo evresi köyü; tablodaki 'tahmini tarih' sütunu, izotop örneklerinin geldiği yerleşimin kültürel evresine verilen cal BC aralığıdır.",
+   "sahip_kultur": "Yangshao (Banpo evresi)",
+   "ic_not": "ZAYIF/İKİNCİL. Değer, bir beslenme-izotopu derlemesinin tablosundaki 'tahmini tarih'tir (alt kaynak [42], bu oturumda açılmadı); Banpo'ya özgü kalibre 14C tablosu DEĞİLDİR. Önceki dalganın Frontiers Earth Sci 2021 'erken Yangshao 5000-4200' değeriyle çelişmez ama çift teyit sayılmaz. Aynı derlemede Jiangzhai (Yangshao) 4900-4000. Doğrulama için Banpo kazı raporu 14C tablosu gerekir (kutuphane_gerekli).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/"
+   ],
+   "kur_baslik": "Banpo yerleşimi (Yangshao)"
+  },
+  {
+   "id": "jiangzhai-yerlesimi-3",
+   "ad": "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)",
+   "ad_yerel": "姜寨遗址",
+   "tur": "kultur",
+   "lat": 34.3807,
+   "lon": 109.2079,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1688891 (P625)",
+     "lat": 34.380713,
+     "lon": 109.207851
+    },
+    {
+     "kaynak": "OSM Nominatim: 姜寨遗址 (archaeological_site), Lintong, Xi'an",
+     "lat": 34.3831311,
+     "lon": 109.2074437
+    }
+   ],
+   "konum_not": "Fark ~0.3 km. Esas Wikidata.",
+   "kur": {
+    "bas_mo": 4900,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930, Tablo 1 (Jiangzhai 'Estimated dates (cal. BC/AD)')",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+    "alinti": "Jiangzhai 24 A Shaanxi Yangshao 4900–4000",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 4000,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Aynı (Tablo 1)",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+    "alinti": "Jiangzhai 24 A Shaanxi Yangshao 4900–4000",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Yangshao kültüründe halka hendekli köy; izotop derlemesinde 20 birey örneklenmiş.",
+   "sahip_kultur": "Yangshao (Banpo ve sonrası evreler)",
+   "ic_not": "ZAYIF/İKİNCİL (Banpo ile aynı uyarı): derleme tablosundaki tahmini tarih; Jiangzhai kazı raporunun kalibre 14C tablosu bu oturumda okunamadı. Aynı sütunda PLOS ONE kümesinde Banpo 4800-4300. Gedachuan (Frontiers Plant Sci 2022, PMC9362993) 'Banpo evresi batı Les Platosu'nda ~5600 BP'ye dek sürdü' der - Banpo/Jiangzhai değil, ayrı alan; yazılmadı.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9362993/"
+   ],
+   "kur_baslik": "Jiangzhai yerleşimi (Yangshao)"
+  },
+  {
+   "id": "shang-donemi-sinirlari-3",
+   "ad": "Shang hanedan/dönem sınırları (Erligang-Yinxu çerçevesi)",
+   "ad_yerel": "商",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür/hanedan kaydı.",
+   "kur": {
+    "bas_mo": 1500,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Liu R., Rawson J., Pollard A.M. 2018, Scientific Reports 8:11770 (doi:10.1038/s41598-018-30275-2), Özet: 'the Shang period (ca. 1500–1046 BC)'; ayrıca Erligang (Zhengzhou) ca. 1500-1300, Yinxu II ca. 1200-1046",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6079070/",
+    "alinti": "the Shang period (ca. 1500–1046 BC)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 1046,
+    "son_mo": 1041,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Liu K. vd. 2020, Radiocarbon 63(1):155-175, Tartışma 'The End of Shang' (1046: Li Xueqin 2002 projesi; kehanet kemiği 14C: ~1041 cal BC; Yinxu 4. evre sonu ~1040 cal BC: Qiu 2015)",
+    "kaynak_dili": "en",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/38A7B64D6D538A3A7B96F912BBEE9592/S0033822220000909a.pdf/radiocarbon-dating-of-oracle-bones-of-late-shang-period-in-ancient-china.pdf",
+    "alinti": "The calibration results of OB indicate that the end of the fifth phase of oracle bones is around 1041 cal BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "Shang'ın başlangıcı için iki değer: ~1500 (Sci Rep 2018, Erligang Zhengzhou) ve ~1600 (Dönemlendirme Projesi; önceki dalga, Guangming Daily/Lee 2007). Son: Zhou fethi 1046 (Li 2002) ile 14C ~1041.",
+   "sahip_kultur": "Shang (Erligang, Yinxu)",
+   "ic_not": "ÇELİŞKİ: başlangıç 1600 (proje, önceki dalga kayıtları) vs ~1500 (Sci Rep 2018, Fang 2022 Zhengzhou 1509). Tek seçmedim. Li X.Q. 2002 J. East Asian Archaeol. 4:1-4 (doi:10.1163/156852302322454585) ve Qiu S.H. 2002 Chinese Archaeology 2:6 (doi:10.1515/char.2002.2.1.6) açık değil -> kutuphane_gerekli. Bitiş: 1046 (Li 2002) ile 1041 (Liu K. vd. 2020, %68) arası ~5 yıl - çift teyit değil, farklı yöntemler; ikisi de Liu K. vd.'nin metninden okundu (Li 2002 ikinci elden).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6079070/",
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/38A7B64D6D538A3A7B96F912BBEE9592/S0033822220000909a.pdf/radiocarbon-dating-of-oracle-bones-of-late-shang-period-in-ancient-china.pdf"
+   ],
+   "kur_baslik": "Shang dönemi başlar (14C modeli)",
+   "bit_baslik": "Shang sona erer (Zhou fethi)"
+  },
+  {
+   "id": "hongshan-niuheliang-3",
+   "ad": "Hongshan kültürü / Niuheliang",
+   "ad_yerel": "红山文化 / 牛河梁",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q7041693 (P625)",
+     "lat": 41.334007,
+     "lon": 119.528401
+    },
+    {
+     "kaynak": "OSM Nominatim 'Niuheliang' (yalnız tren istasyonu, site DEĞİL)",
+     "lat": 41.1940677,
+     "lon": 119.3927944
+    }
+   ],
+   "konum_not": "Tanıklar ~19 km ayrışıyor; OSM sonucu istasyon olduğu için site tanığı sayılmadı -> ikinci site tanığı yok, lat/lon null bırakıldı (kültür kaydı).",
+   "kur": {
+    "bas_mo": 4500,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Nelson S., Zhushchikhovskaya I., Li T., Hudson M., Robbeets M. 2020, Evolutionary Human Sciences 2:e5 (doi:10.1017/ehs.2020.4), Şekil 2 alt yazısı: '7, Niuheliang (4500–3000 BCE)'",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427276/",
+    "alinti": "7, Niuheliang (4500–3000 BCE)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 3000,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Aynı",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427276/",
+    "alinti": "7, Niuheliang (4500–3000 BCE)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Batı Liao bölgesinde Neolitik Hongshan kültürü; Niuheliang tören kompleksi.",
+   "sahip_kultur": "Hongshan",
+   "ic_not": "ZAYIF: site/kültür dönem aralığıdır (derleme şekil altyazısı), kalibre 14C tablosu DEĞİL. Başka akademik değer: Jeong (Korece dergi, Barun Academy of History, J. Korean History & Culture 2024, doi:10.55793/jkhc.2024.19.191, özet) Hongshan '4700 BCE - 3000 BCE' - makale Hongshan'ı Kore tarihine bağlayan yorum içerir, yalnız aralık değeri not edilir, dayanak sayılmadı. Hongshan Baiyinchanghan sitesi 4300-3900 (Liu & Reid 2020, Tablo 1). Niuheliang kalibre 14C tablosu (Drennan vd. Antiquity 2017; Zhang vd. J World Prehist 2013) açık erişimde değil -> kutuphane_gerekli.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427276/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7641357/",
+    "https://doi.org/10.55793/jkhc.2024.19.191"
+   ],
+   "kur_baslik": "Hongshan (Niuheliang) dönemi başlar",
+   "bit_baslik": "Niuheliang dönemi sona erer"
+  },
+  {
+   "id": "chulmun-donemi-kore",
+   "ad": "Chulmun dönemi (Kore Neolitiği)",
+   "ad_yerel": "빗살무늬토기시대 / Chulmun",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür kaydı.",
+   "kur": {
+    "bas_mo": 6000,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kim J., Park J. 2020, Evolutionary Human Sciences 2:e13 (doi:10.1017/ehs.2020.13), 'Introduction of millet to Korea' bölümü",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427441/",
+    "alinti": "millet first appeared in the Chulmun Period (6000–1300 BCE)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 1300,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Aynı",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427441/",
+    "alinti": "Chulmun material culture and subsistence economies suddenly disappeared, and the Mumun Period (1300–400 BCE) began",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Kore'de çanak çömlekli avcı-toplayıcı-balıkçı dönem; Chulmun/Mumun geçişi ani ve bölgesel ölçekte.",
+   "sahip_kultur": "Chulmun",
+   "ic_not": "Dönem sınırları geleneksel periyotlandırmadır (kalibre bir olay aralığı değil). Darı Kore'ye: Craig vd. 2025 PNAS 122(30), Bayes %90 HPDI 5772-3490 cal BCE (Orta Neolitik/Chulmun) - varış zamanı, dönem başı değil. Kim J.C. & Bae C.J. 2010 Radiocarbon 52(2-3):483-492 (doi:10.1017/S0033822200045513): Neolitik-Bronz geçişi 'as early as ~2300 BC' başlayıp 800-900 yıl sürdü; tabloda ham (kalibre edilmemiş) BP olduğundan sayılar yazılmadı, yalnız yazarların sonuç cümlesi not. Mumun başı Kim & Park'ta 1300 vs Kim & Bae'de ~2300'e uzanan erken geçiş: KORE İÇİ ÇELİŞKİ - tek seçilmedi.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427441/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12318219/",
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BFF16540DBECC3D12464DFCE6AF07943/S0033822200045513a.pdf/div-class-title-radiocarbon-dates-documenting-the-neolithic-bronze-age-transition-in-korea-div.pdf"
+   ],
+   "kur_baslik": "Chulmun dönemi başlar (Kore)",
+   "bit_baslik": "Chulmun kültürü ortadan kalkar"
+  },
+  {
+   "id": "mumun-baslangic-kalibre-kore",
+   "ad": "Mumun dönemi başlangıcı (pirinç/Bronz Çağı) - kalibre karşılaştırma",
+   "ad_yerel": "무문토기시대",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür kaydı.",
+   "kur": {
+    "bas_mo": 1300,
+    "son_mo": 400,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kim J., Park J. 2020, Evolutionary Human Sciences (doi:10.1017/ehs.2020.13)",
+    "kaynak_dili": "en",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427441/",
+    "alinti": "the Mumun Period (1300–400 BCE) began",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Mumun dönemi; pirinç + darı tarımı, yerleşim düzeninin topyekûn değişimi.",
+   "sahip_kultur": "Mumun",
+   "ic_not": "KALİBRE ALTERNATİF 1: Craig O. vd. 2025, PNAS 122(30):e2504414122 (doi:10.1073/pnas.2504414122, PMC12318219): pirinç Kore'de 'Early Mumun'da %90 HPDI 1677-1161 cal BCE ('although earlier dates have been proposed'). ALTERNATİF 2 (ham BP uyarılı): Kim & Bae 2010 geçiş ~2300 BC. Kim & Park 2020'nin 1300 değeri periyotlandırmadır; Hudson & Robbeets 2020 (önceki dalga) aynı 1300-400'ü verir - çift teyit sayılmaz (aynı gelenek, aynı alan). Korece kaynak (KCI/DBpia/earticle) tam metni bu oturumda alınamadı; bkz. kutuphane_gerekli.",
+   "kaynak_2": "Craig O. vd. 2025 PNAS 122(30) - https://pmc.ncbi.nlm.nih.gov/articles/PMC12318219/ : 'Early Mumun ... (90% HPDI: 1,677–1,161 cal BCE)'",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427441/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12318219/"
+   ],
+   "kur_baslik": "Mumun dönemi başlar (Kore)"
+  },
+  {
+   "id": "zhou-shang-fethi-celiski-1046-1045-1040",
+   "ad": "Zhou'nun Shang'ı fethi (Muye) - tarih çelişkisi",
+   "ad_yerel": "武王伐紂 / 牧野之戰",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Olay kaydı; koordinat yok. Başkent kaydı için sehir_kontrol: Haojing/Fenghao.",
+   "kur": {
+    "bas_mo": 1046,
+    "son_mo": null,
+    "guven": "belirsiz (astronomik/Bambu Yıllıkları yeniden kurgusu; hakemli yayınlarda uzlaşı yok)",
+    "aralik_turu": "yazili-celiskili",
+    "kaynak": "Pankenier D.W. 1992, 'The Bamboo Annals Revisited ... Part 1', BSOAS 55(2):272-297",
+    "kaynak_dili": "en",
+    "url": "https://www.jstor.org/stable/619624 (PDF metin Lehigh: https://www.lehigh.edu/~dwp0/Assets/images/bambooannals1.pdf)",
+    "alinti": "the Zhou 4th month in the year of the Conquest (April 26, 1046 B.C.",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "adaylar": [
+    {
+     "yil_mo": 1046,
+     "kime": "Pankenier 1992 (BSOAS 55:272-297) - fetih yılı 1046; Zhang P. 2023 (Early China 46) bunu Pankenier ve Xia-Shang-Zhou Projesi'ne atfeder (önceki dalga kaydı)",
+     "alinti": "four years after the Bamboo Annals date of 1050 for the Conquest",
+     "url": "https://www.jstor.org/stable/619624 (PDF metin Lehigh: https://www.lehigh.edu/~dwp0/Assets/images/bambooannals1.pdf)"
+    },
+    {
+     "yil_mo": 1045,
+     "kime": "Shaughnessy 1985, 'The Current Bamboo Annals and the Date of the Zhou Conquest of Shang', Early China 11:33-60, doi:10.1017/S0362502800003965 (sayfa 1045'i açıkça belirtir); Nivison 2011 de Shaughnessy'nin değerini böyle aktarır",
+     "alinti": "Shaughnessy's dates: 1042-1006, conquest 1045.",
+     "url": "https://www.cuhk.edu.hk/ics/journal/articles/v53p001.pdf",
+     "ikinci_url": "https://www.cambridge.org/core/journals/early-china/article/current-bamboo-annals-and-the-date-of-the-zhou-conquest-of-shang/5B7D1EF7B2122C32988C57E066445991"
+    },
+    {
+     "yil_mo": 1040,
+     "kime": "Nivison (kendi hesabı; Riddle of the Bamboo Annals 2009 'Epilogue', J. Chinese Studies 53, 2011)",
+     "alinti": "So the conquest date was 1040.",
+     "url": "https://www.cuhk.edu.hk/ics/journal/articles/v53p001.pdf"
+    },
+    {
+     "yil_mo": 1050,
+     "kime": "Bambu Yıllıkları'nın 'Current/Modern Text' metnindeki tarih (Pankenier ve Nivison'a göre sonradan kaydırılmış)",
+     "alinti": "given in the BA as 1050 with Wu Wang reigning five years after that, to 1045",
+     "url": "https://www.cuhk.edu.hk/ics/journal/articles/v53p001.pdf"
+    },
+    {
+     "yil_mo": 1044,
+     "kime": "Zhang P. 2023, Early China 46:131-242, doi:10.1017/eac.2022.5: ilk sefer 1046, Zhou (Di Xin) yenilgisi 1044",
+     "alinti": "led an initial campaign against the Shang in 1046 b.c.e. and defeated Zhòu 紂 in 1044 b.c.e.",
+     "url": "https://www.cambridge.org/core/product/0D661C3365537C0D15AD896F72F9DF70/core-reader"
+    }
+   ],
+   "k": "fetih",
+   "d": "Kral Wu'nun Shang'a karşı zaferi (Muye) ve Zhou hanedanının kuruluşu; hakemli literatürde tarih 1050/1046/1045/1044/1040 arasında çelişkilidir.",
+   "sahip_kultur": "Zhou",
+   "ic_not": "ÇELİŞKİ, ORTALANMADI. (a) Pankenier 1992: fetih yılı 1046 (4. ay yeni ay günü gengzi = 26 Nisan 1046, Yi Zhou shu 'Shi fu' ile). (b) Shaughnessy 1985/1991: 1045. (c) Nivison: 1040 (+ astronomik 'yuexiang' verilerine göre yalnız 1045 veya 1040 mümkün diyor). (d) Zhang P. 2023: sefer 1046, fetih 1044 (aynı Zhang 2023, 1045 ve 1027'yi anmaz). (e) BA geleneksel metin 1050. Atlas XSZ tek değer kullanacaksa 1046 (Pankenier+Proje) seçilip diğerleri ic_not'ta beyan edilmeli. 1027: bu oturumda KAYNAKTA FETİH TARİHİ olarak bulunamadı; Nivison 2011 yalnız BA'daki bir 'sui zai jiayin [1027]' not-etiketini anar (silinmesi gereken sonradan eklenti) - fetih adayı değildir. 1122 (geleneksel) bu oturumda okunan kaynakta yok.",
+   "okunan_sayfa": [
+    "https://www.jstor.org/stable/619624 (PDF metin Lehigh: https://www.lehigh.edu/~dwp0/Assets/images/bambooannals1.pdf)",
+    "https://www.cuhk.edu.hk/ics/journal/articles/v53p001.pdf",
+    "https://www.cambridge.org/core/journals/early-china/article/current-bamboo-annals-and-the-date-of-the-zhou-conquest-of-shang/5B7D1EF7B2122C32988C57E066445991",
+    "https://www.cambridge.org/core/product/0D661C3365537C0D15AD896F72F9DF70/core-reader"
+   ],
+   "kur_baslik": "Zhou Shang'ı yener (1046; kaynaklar 1045/1044/1040/1050 diyor)"
+  },
+  {
+   "id": "chunqiu-baslangici-722",
+   "ad": "Chunqiu (Bahar ve Güz Yıllıkları) kaydının başlangıcı",
+   "ad_yerel": "春秋 / 魯隱公元年",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Olay/kaynak-metin kaydı.",
+   "kur": {
+    "bas_mo": 722,
+    "son_mo": 481,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Ning Dengguo 2023, Guangming Daily 24.07.2023 (722); Eno R., Indiana Univ. History G380 ders metni 4.12 (722-481)",
+    "kaynak_dili": "zh+en",
+    "url": "https://news.gmw.cn/2023-07/24/content_36716000.htm",
+    "alinti": "鲁隐公元年（前722）",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 481,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Eno R. (ders metni, IU)",
+    "kaynak_dili": "en",
+    "url": "https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/3e3491dd-2ce0-458d-90ec-61999c088387/content",
+    "alinti": "from 722 B .C. to 481 B.C.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "ilk_anilis",
+   "d": "Lu devletinin Chunqiu yıllığı Duke Yin'in 1. yılında (722) başlar ve Duke Ai'nin 14. yılında (481) biter; 'Bahar-Güz dönemi' adı bu metne dayanır.",
+   "sahip_kultur": "Zhou (Lu devleti yıllığı)",
+   "ic_not": "722 SİYASİ BİR GEÇİŞ DEĞİL, Chunqiu METNİNİN başlangıcıdır; Doğu Zhou (770) ile 48 yıl fark vardır (Ning 2023: 722'de 'tianxia wudao' safhasına gerçek giriş). Milburn 2016 ve Tong 2025 Bahar-Güz dönemini 771/770'den başlatır (Tong 2025: 'Spring and Autumn period (c. 770-481 BCE)'). Bitiş için 481 dışında 464/476/475/453 aday dönem-sonları kaynaklarda dolaşır (arama özeti, dayanak değil). Hakemli İngilizce dergi makalesi bulunamadı; Eno ders metnidir (zayıf ikincil). Çift teyit: Ning 2023 (zh) + Eno (en) bağımsız iki kaynak ama ikisi de ikincil.",
+   "kaynak_2": "Eno R., IU History G380 4.12 'The Spring and Autumn Annals' (en): 'from 722 B .C. to 481 B.C.' - https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/3e3491dd-2ce0-458d-90ec-61999c088387/content",
+   "okunan_sayfa": [
+    "https://news.gmw.cn/2023-07/24/content_36716000.htm",
+    "https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/3e3491dd-2ce0-458d-90ec-61999c088387/content"
+   ],
+   "kur_baslik": "Chunqiu dönemi başlar",
+   "bit_baslik": "Chunqiu dönemi sona erer"
+  },
+  {
+   "id": "han-kurulusu-202",
+   "ad": "Han hanedanının kuruluşu - Liu Bang'ın imparator ilanı (MÖ 202)",
+   "ad_yerel": "漢高祖 / 劉邦即皇帝位",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Olay kaydı. Ilan yeri Shiji'de 'Si nehrinin kuzeyi' (汜水之陽); Dingtao eşleştirmesi ikincil basında, akademik teyit yok.",
+   "kur": {
+    "bas_mo": 202,
+    "son_mo": null,
+    "guven": "belirsiz (yıl; gün ihtilaflı)",
+    "aralik_turu": "yazili",
+    "kaynak": "Tong C.F. 2025, Early China 48:133-162, doi:10.1017/eac.2025.10032 ('Western Han dynasty (202 BCE-9 CE)')",
+    "kaynak_dili": "en",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88CAA846820D79FE59DE99630ADB3528/S0362502825100321a.pdf/div-class-title-the-emergence-of-logistics-networks-and-financial-administration-during-the-qin-conquest-230-221-bce-div.pdf",
+    "alinti": "the Western Han dynasty (202 BCE-9 CE)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Çu-Han savaşının ardından Liu Bang, Han 5. yılında imparatorluk unvanını aldı; Batı Han dönemi 202'den başlatılır.",
+   "sahip_kultur": "Han",
+   "ic_not": "Birincil: Shiji 8 (Wikisource metni) 'Han 5. yıl' altında: '甲午，乃即皇帝位汜水之陽'; ay etiketi bu oturumda doğrulanmadı. GÜN ÇELİŞKİSİ (yalnız basında): Guangming/Zhonghua Dushubao 2019 (Zhang Yanqian): '公元前202年2月3日，刘邦在定陶称帝'; Baidu Baike/arama özeti 28 Şubat verir (dayanak değil, açılan akademik kaynak değil). Gün için akademik kaynak (Cambridge History of China 1, Loewe; Bielenstein) ulaşılamadı: 202 YIL hassasiyetinde kalır. 'Han 5. yıl = 202' Han yıl sayımının Liu Bang'ın 206 'Han Kralı' yılından başlaması (ZZTJ 高帝元年 = 前206) ile tutarlıdır (benim aritmetiğim).",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88CAA846820D79FE59DE99630ADB3528/S0362502825100321a.pdf/div-class-title-the-emergence-of-logistics-networks-and-financial-administration-during-the-qin-conquest-230-221-bce-div.pdf",
+    "https://zh.wikisource.org/wiki/史記/卷008",
+    "https://epaper.gmw.cn/zhdsb/html/2019-08/07/nw.D110000zhdsb_20190807_1-03.htm",
+    "https://zh.wikisource.org/wiki/資治通鑑/卷009"
+   ],
+   "kur_baslik": "Batı Han hanedanı kurulur"
+  }
+ ],
+ "sehir_kontrol": [
+  {
+   "sehir": "Pataliputra",
+   "lat": 25.6144,
+   "lon": 85.135,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 59978 Palibothra",
+     "lat": 25.614443,
+     "lon": 85.13502
+    },
+    {
+     "kaynak": "Wikidata Q389755",
+     "lat": 25.611,
+     "lon": 85.144
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Nanda hanedanı (Magadha)",
+     "bas_mo": null,
+     "son_mo": 321,
+     "gecis_kaynagi": "Rapson 1922, Cambridge History of India vol. I: Nanda'dan Maurya'ya geçiş 'probably c. 321 b.c.'; kuruluş tarihi kaynakta yok, bas_mo yazılmadı. Url: https://archive.org/download/cambridgehistory01raps/cambridgehistory01raps_djvu.txt. Alıntı: 'this suzerainty passed from the Nandas to the Mauryas, probably c. 321 b.c.'",
+     "kronoloji_okulu": "Geleneksel (Rapson 1922); Jain geleneği 313/312, Charpentier 1931 hipotezi 325/327 (ikisi de ana akım dışı seçenek)"
+    },
+    {
+     "sahip": "Maurya",
+     "bas_mo": 321,
+     "son_mo": 184,
+     "gecis_kaynagi": "Aynı eser: Chandragupta c. 321-297, hanedan Puranik 137 yıl, sonu 'c. 184 B.C.' (Pushyamitra'nın Brihadratha Maurya'yı öldürmesi). Başkentliği: aynı kaynak 'Magadha (S. Bihar), with its capital Pataliputra, at the junction of the Ganges and the Son' der. Url aynı. Alıntı: 'the Maurya dynasty lasted for 137 years ; that is to say, it is supposed to have come to an end c. 184 B.C.'",
+     "kronoloji_okulu": "Geleneksel (Rapson 1922)"
+    },
+    {
+     "sahip": "Shunga (Pushyamitra hanedanı)",
+     "bas_mo": 184,
+     "son_mo": null,
+     "gecis_kaynagi": "Aynı eser: 'the Sunga dynasty, whose founder, Pushyamitra, had slain Brihadratha Maurya and usurped his throne, held sway' ('over a century' süre belirtir; bitiş yılı verilmedi, son_mo yazılmadı). Pataliputra'nın Shunga başkenti olduğu bu sayfada açıkça YAZILMADI; yalnız hanedanın Maurya tahtına geçtiği söylenir (çıkarım, beyanlı).",
+     "kronoloji_okulu": "Geleneksel (Rapson 1922)"
+    }
+   ],
+   "bosluk_notu": "Pataliputra'nın kuruluşu (Udayin/Kalasoka geleneği, Ajatashatru'nun Patali kalesi) için kaynaklı yıl YOK: CHI sadece geleneksel adı verir, MA tezi arkeolojik iskânı 'MÖ 1. binyıl ortası' (NBPW, tahmini ~500) der. Nanda başlangıcı kaynakta verilmediği için dönem açık bırakıldı. Shunga sonrası (Kanva, Kuşan, Gupta) bu oturumda okunmadı, dönem yazılmadı. Aşoka dönemi başkentlik tanıklığı: Pleiades 'reached its cultural peak during the third century BCE under Asoka'. Modern kronoloji okullarına (Thapar, Falk) ve kazı kalibre 14C'sine (Kumrahar/Bulandibagh) erişilemedi."
+  },
+  {
+   "sehir": "Anyang / Yinxu (殷墟)",
+   "lat": 36.1225,
+   "lon": 114.3186,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q464904 (önceki dalga ARASTIRMA-cin.json'dan devralındı; bu oturumda yeniden doğrulanmadı)",
+     "lat": 36.1225,
+     "lon": 114.31861
+    },
+    {
+     "kaynak": "OSM Nominatim 'Yinxu Anyang' (aynı dosyadan devralındı)",
+     "lat": 36.1214,
+     "lon": 114.32
+    }
+   ],
+   "donemler": [
+    {
+     "sahip": "Geç Shang (Yin) - kehanet kemiği evreleri",
+     "bas_mo": null,
+     "son_mo": 1041,
+     "gecis_kaynagi": "SON: Liu K. vd. 2020, Radiocarbon 63(1):155-175 - kehanet kemiği 5. evre sonu ~1041 cal BC; Yinxu 4. evre sonu ~1040 cal BC (Qiu 2015 atfıyla, ikinci el); Zhou fethi 1046 (Li 2002 atfıyla). https://www.cambridge.org/core/services/aop-cambridge-core/content/view/38A7B64D6D538A3A7B96F912BBEE9592/S0033822220000909a.pdf/radiocarbon-dating-of-oracle-bones-of-late-shang-period-in-ancient-china.pdf - 'the terminus of the fourth period of Yinxu is around 1040 cal BC'",
+     "kronoloji_okulu": "Dönemlendirme Projesi (1046) + 14C kehanet kemiği modeli (1041)"
+    },
+    {
+     "sahip": "Wu Ding evresi (Yinxu'daki en erken kanıtlı kral evresi)",
+     "bas_mo": 1254,
+     "son_mo": 1197,
+     "gecis_kaynagi": "Liu K. vd. 2020 Tablo 2: Wu Ding 1254-1197 cal BC (%68, tür: hükümdarlık/örnek evresi, ±~10 yıl). ÇİFT TEYİT: Zhang P.Y. 2002, J. East Asian Archaeology 4:347-357 (beş ay tutulması): Wu Ding 1250-1192 BC (Liu K. vd. makalesinden ikinci el): 'Wu Ding as 1250 BC–1192 BC'. Bu Yinxu'nun KURULUŞ tarihi değildir.",
+     "kronoloji_okulu": "14C (Bayes) ve ay tutulması astronomisi"
+    }
+   ],
+   "bosluk_notu": "Pan Geng taşınması / Yinxu'nun kuruluşu: bu oturumda KAYNAKLI tarih bulunamadı. Açık akademik tam metinde yalnız Liu & Reid 2020 derleme tablosu (Anyang 'Shang 1400-1046', Yinxu 'Shang 1250-1046' tahmini tarih sütunu, PMC7641357) ve Sci Rep 2018 (Yinxu II ca. 1200-1046; PMC6079070) görüldü; bunlar kuruluş tarihi değil. ~1300/1290 değerleri yalnız Vikipedi/halk sitelerinde çıktı - DAYANAK DEĞİL. Qiu S.H. 2015 (14C dating and study on Chinese archaeological chronology, China Social Sciences Press, s.60-65) ve Dönemlendirme Projesi raporu (2000) kütüphane gerektirir. Huanbei Shang kenti (Anyang) için Chinese Archaeology 2004 (doi:10.1515/char.2004.4.1.1) var ama açık değil. Dolayısıyla bas_mo null; dönem başlangıcı YAZILMADI."
+  },
+  {
+   "sehir": "Haojing / Fenghao (鎬京 / 豐鎬)",
+   "lat": 34.2333,
+   "lon": 108.75,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q3818368 (Haojing)",
+     "lat": 34.2333333,
+     "lon": 108.75
+    },
+    {
+     "kaynak": "OSM Nominatim: 'Haojing' metro durağı, Doumen, Chang'an Dist., Xi'an",
+     "lat": 34.2464204,
+     "lon": 108.7542102
+    },
+    {
+     "kaynak": "Wikidata Q275515 (Fenghao, Feng-Hao birlikte)",
+     "lat": 34.21,
+     "lon": 108.72
+    }
+   ],
+   "konum_not": "Wikidata-Haojing ile OSM istasyonu arası 1.51 km; Wikidata-Fenghao ile Haojing arası 3.79 km. Kurum/UNESCO/kazı raporu tanığı alınamadı (Nominatim'de saha adı yok, yalnız istasyon adı; istasyon sitenin adından türer - zayıf bağımsızlık). Esas alınan: Wikidata Haojing (daha az ayrışma). Feng ile Hao ayrı yerlerdir (Fenghao 34.21,108.72 daha çok Feng yanıdır) - ayrım kaynakla doğrulanmadı.",
+   "donemler": [],
+   "bosluk_notu": "Haojing'in Zhou başkenti olarak başlangıç ve bitiş yılları bu oturumda KAYNAKLI bulunamadı: Zhang 2023 (Early China 46) bu oturumda okunan 200 bin karakterlik kısımda Haojing/Hao/Feng'den söz etmez ve yalnız 'King You and Bopan were killed and Zhou was destroyed' der; bir yağma/terk yılı vermez. Fetih tarihi için bkz. kayıt zhou-shang-fethi-celiski. Önceki kayıt 'zhou-kurulusu-fenghao' koordinatı tek tanıktı; bu kayıt ikinci tanık olarak OSM istasyonunu ekler (zayıf)."
+  },
+  {
+   "sehir": "Luoyi / Chengzhou / Wangcheng (洛邑 / 成周 / 王城)",
+   "lat": 34.6677,
+   "lon": 112.4145,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q10565818 (Wangcheng)",
+     "lat": 34.66768,
+     "lon": 112.41452
+    },
+    {
+     "kaynak": "OSM Nominatim: 王城公园 (Wangcheng Park) durağı, Xigong, Luoyang",
+     "lat": 34.6673425,
+     "lon": 112.4204745
+    }
+   ],
+   "konum_not": "İki tanık arası 0.55 km. Q10565818 etiketi 'Chinese city (1021 BCE - 25 CE)' - bu aralık dayanaksız wikidata etiketi, kullanılmadı. Wangcheng (Doğu Zhou kraliyet kenti) ile Chengzhou (Han-Wei Luoyang kuzeydoğusu / Jian-Chan bölgesi) farklı yerler olabilir; ayrım bu oturumda kaynakla doğrulanmadı.",
+   "donemler": [
+    {
+     "sahip": "Zhou (Doğu Zhou başkenti; Ping Kralı'nın taşındığı Chengzhou)",
+     "bas_mo": 770,
+     "son_mo": null,
+     "gecis_kaynagi": "Taşınma: Zhang P. 2023 (Early China 46): 'If King Ping took 772 b.c.e. as yuan, then his third year would be 770 b.c.e.' ve Xinian: 'he moved the capital east, taking up residence in Chengzhou' (https://www.cambridge.org/core/product/0D661C3365537C0D15AD896F72F9DF70/core-reader). Ning 2023 (zh): '平王东迁（前770）' (https://news.gmw.cn/2023-07/24/content_36716000.htm). XINIAN-KRONOLOJİSİ ALTERNATİFİ: Milburn 2016: '(738 b.c.e.)' (https://cambridge.org/core/product/426F77FC5F669A0CB240EB650AD1A3FE/core-reader). Shiji geleneği (zh 770) ikincil aktarımla.",
+     "kronoloji_okulu": "Shiji geleneği 770 / Xinian 738 (çelişki, ortalanmadı)"
+    }
+   ],
+   "bosluk_notu": "Dönem sonu (Zhou'nun Qin'e düşmesi, 256) bu oturumda okunmadı -> yazılmadı. Chengzhou'nun Batı Zhou'da kuruluşu (Duke of Zhou, He zun) Zhang 2023'ün okunan kısmında yok ('The text does not say the Duke of Zhou founded Chengzhou') -> yazılmadı. 'Luoyi' adının 770 öncesi kullanımı ve Chengzhou/Wangcheng ayrımı için kazı raporu (Kaogu/Wenwu) bulunamadı."
+  },
+  {
+   "sehir": "Xianyang (咸陽)",
+   "lat": 34.4139,
+   "lon": 108.8578,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q2360265 (Xianyang, capital of Qin)",
+     "lat": 34.413889,
+     "lon": 108.857778
+    },
+    {
+     "kaynak": "OSM Nominatim: Yaodian Subdistrict (窑店街道), Weicheng, Xianyang",
+     "lat": 34.4083478,
+     "lon": 108.8549765
+    }
+   ],
+   "konum_not": "Tanıklar arası 0.67 km. OSM tanığı bir idari mahalledir (site değil); Yaodian'ın Qin Xianyang saray alanı ile örtüştüğü bu oturumda kaynakla doğrulanmadı. Kurum/kazı raporu tanığı bulunamadı.",
+   "donemler": [
+    {
+     "sahip": "Qin (imparatorluk başkenti)",
+     "bas_mo": 221,
+     "son_mo": null,
+     "gecis_kaynagi": "Tong 2025 (Early China 48): Shiji'ye atıfla 'the 50,000 soldiers garrisoning the imperial capital' ve 'Xianyang 咸陽' - imparatorluk başkentidir; 221 sınırı Qin Empire (221-207 BCE) ifadesinden. Shiji 6: Xiaogong döneminde başkent kuruluşu '其十三年，始都咸陽' (Xiaogong 13. yıl; MÖ yıl çevirisi bu oturumda YAPILMADI, bas_mo olarak yazılmadı) (https://zh.wikisource.org/wiki/史記/卷006).",
+     "kronoloji_okulu": "n/a"
+    }
+   ],
+   "bosluk_notu": "Qin'in 221 öncesi başkent yılı (Xiaogong 13. yıl = MÖ ~350 hesabı) hakemli kaynakla doğrulanmadı. Bitiş: Shiji 7 'Xiang Yu ... 屠咸陽，殺秦降王子嬰，燒秦宮室，火三月不滅' (yıl başlığı yok); Hanzhong yeniden bölüştürmesinden önce, 'Han 1. yıl 4. ay (MÖ 206)' ibaresinden önceki sıra -> son_mo yazılmadı. Kazı raporları (Kaogu/Wenwu) bulunamadı. Han'ın devralması: Xianyang'ın Han'a hiç geçmediği (Gaozu Luoyang->Chang'an) Shiji 8 anlatımından çıkar ama açık yıl yok."
+  },
+  {
+   "sehir": "Chang'an (Han) / Weiyang Sarayı (長安 / 未央宮)",
+   "lat": 34.3083,
+   "lon": 108.8583,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q6501000 (Chang'an, ancient capital)",
+     "lat": 34.30833333,
+     "lon": 108.85833333
+    },
+    {
+     "kaynak": "OSM Nominatim: 西安汉长安城国家大遗址保护特区管理委员会 (Han Chang'an Site Protection Zone management office), Weiyang",
+     "lat": 34.3080762,
+     "lon": 108.8628106
+    },
+    {
+     "kaynak": "Weiyang Palace: Wikidata Q3051521",
+     "lat": 34.30444444,
+     "lon": 108.85722222
+    },
+    {
+     "kaynak": "Weiyang Palace: OSM汉长安城未央宫国家考古遗址公园",
+     "lat": 34.3027757,
+     "lon": 108.85735
+    }
+   ],
+   "konum_not": "Chang'an: Wikidata-OSM arası 0.41 km (OSM tanığı yönetim ofisi). Weiyang: Wikidata-OSM arası 0.19 km (iki tanık uyumlu).",
+   "donemler": [
+    {
+     "sahip": "Han (Gaozu; Batı Han başkenti)",
+     "bas_mo": 200,
+     "son_mo": null,
+     "gecis_kaynagi": "Shiji 8 (Wikisource metni, Han 7. yıl): '長樂宮成，丞相已下徙治長安' (https://zh.wikisource.org/wiki/史記/卷008); Han yıl 1 = MÖ 206 (ZZTJ 高帝元年 前206, https://zh.wikisource.org/wiki/資治通鑑/卷009) olduğundan Han 7. yıl = MÖ 200 (BENİM ARİTMETİĞİM). Ek: Shiji 8'de 'Han 5. yıl' ibaresinde Gaozu'nun Luoyang'da kaldığı ve Liu Jing/Zhang Liang'ın tavsiyesiyle Guanzhong'a geçtiği (高祖都雒陽 ... 入都關中).",
+     "kronoloji_okulu": "n/a (Han yıl sayımı)"
+    }
+   ],
+   "bosluk_notu": "ÇELİŞKİ: (a) Shiji 8: 7. yıl (MÖ 200) 'Changle Sarayı tamam, yönetim Chang'an'a taşındı'; (b) Zhang Yanqian 2019 (Zhonghua Dushubao, gazete denemesi): '汉五年八月，刘邦正式迁都长安' (MÖ 202) - GAZETE, akademik değil; (c) Guangming Daily 2014 (Yang vd.): 'başkent olarak 360 yıl', 'MÖ 202'den MS 8'e kadar iktidar merkezi' - gazete haberi. Bu üçü uyuşmuyor; Shiji (birincil) 200 verir, yalnız o dönem olarak yazıldı. Weiyang Sarayı inşası: Shiji 8 (aynı Wikisource metni): Han 8. yıl '蕭丞相營作未央宮', 9. yıl '未央宮成' -> MÖ 199 / 198 (aritmetik; hakemli kaynakla teyit edilmedi, dönem olarak yazılmadı). KAZI: CASS Arkeoloji Enstitüsü 'Han Chang'an' ekibi 1956'dan beri çalışır ('1956年，中国社科院组建汉长安城考古队进驻遗址开始考古工作', Guangming Daily 17.06.2014); Weiyang 1980-1989 kazı raporu (CASS IA 1996/2010) yalnız arama özeti, kitap açılmadı -> kutuphane_gerekli. Chang'an'ın Xianyang'dan farkı: farklı yerleşim (Xianyang kuzeybatı ~11.74 km (iki Wikidata noktası arası))."
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Dholavira Bisht/ASI Aşama I-VII ASI Memoir/raporunun kendisi (Bisht 1997/2005) ve Sengupta vd. JQS tam metni - denenen: whc.unesco.org Wayback (OKUNDU: UNESCO/ICOMOS tablosu kayıtta), Crossref (özet okundu), Unpaywall ('closed'), OpenAlex (kapalı), Europe PMC (ilgili hakemli 14C tablosu yok). 'Yeniden tarihleme Aşama I 3500-3200' yalnız Vikipedi/arama özeti aktarımı, dayanak yapılmadı.",
+  "bulunamadı: Kalibangan kalibre 14C aralıkları (Lal/Thapar/Lal vd. 2003 ASI Memoir 98) - denenen: Crossref, OpenAlex (OA filtresi), Europe PMC (tam metin 'Kalibangan' + cal BC: ilgili tablo yok), Hintçe WebSearch (kalibre veri yok), Tata Institute Radiocarbon Date List II/III/IV/V (HAM tarihler: TF-605 3810±105 BP vb. 'Harappa culture 1860 BC' kalibre DEĞİL, yazılmadı), Garge 2010 Ancient Asia (ancient-asia-journal.com 404, Wayback 404). Genel 'Kalibangan bracket ca. 2300-1750 B.C.' ham tarihli Tata listesinin sonucu, kalibre değil.",
+  "bulunamadı: Mohenjo-daro kuruluş/terk kalibre tarihi (Jansen/MAP, Possehl 2002) - denenen: Crossref, OpenAlex, Europe PMC, Antiquity 2026 'Inequality declined in the Bronze Age city of Mohenjo-daro' (PDF okundu: yalnız Marshall'ın 3 evreli göreli kronolojisi, mutlak tarih yok), Fransızca WebSearch (yalnız archaeology.org haberi ve Dales 1964-65 ham tarihi 3801±59 BP, kalibre değil), harappa.com (Cloudflare 403). 2700-2600 MÖ haber düzeyinde, hakemli yayın yok.",
+  "bulunamadı: Painted Grey Ware kalibre 14C (Tewari/Singh 2009; Magee 2004 'Mind the Gap') - denenen: Crossref (Magee DOI 10.1080/02666030.2004.9628634 kapalı), Unpaywall, OpenAlex, Europe PMC, Raczek 2022 Georgia J. Sci. 80(1):78 (recalibrasyon çalışması Ahar için; sayfa 'document is currently not available'), Tata listeleri (HAM: Atranjikhera 2890±105 BP = '940 B.C.', Agrawal-Kusumgar 'ca. 1000-400 BC' hepsi kalibre değil). Hastinapur PGW 1100-800 (Lal, stratigrafik, kalibre değil) yazılmadı.",
+  "bulunamadı: Pataliputra kuruluşunun kalibre arkeolojik tarihi (NBPW 14C, Kumrahar/Bulandibagh) - denenen: Concordia MA tezi (yalnız 'MÖ 1. binyıl ortası', ikincil), CHI 1922 (geleneksel Udayin/Kalasoka), Pleiades (Greko-Romen anılış). Patil 1963, Sarao 1990 okunamadı.",
+  "bulunamadı: Aşoka fermanlarının modern hakemli tarih tartışması (Falk, Thapar 'Aśoka and the Decline of the Mauryas') ve Chandragupta 321/322 için modern bağımsız ikinci tanık - denenen: Histos 2015 PDF (rakamlar yazı tipi yüzünden metne çıkmadı), CHI 1922 ve Charpentier 1931 (eski, okundu), OpenAlex, WebSearch. Yalnız 1922/1931 tarihli kaynaklar alındı.",
+  "bulunamadı: Buda ölüm tarihi tartışması (Bechert ed., Gombrich, Norman, Hagens) kendi metinlerinden - denenen: Heidelberg JIABS indirmesi (HTML/Anubis, atlatılmadı), open.edu OpenLearn (403), WebSearch (yalnız ikincil özetler, dayanak sayılmadı). CHI 1922'nin 483 'geçici' tarihi alındı.",
+  "bulunamadı: Anuradhapura kuruluşunun Deraniyagala/Coningham kalibre 14C dizisi - denenen: fulcrum.org BAR cilt I (403), dro.dur.ac.uk Coningham 'Passage to India?' (Cloudflare), OAPEN/UCL Press 'Sri Lanka at the Crossroads' (403/yönlendirme), Oxford ORA tezi (403). Yalnız FU Berlin EGU özeti (zayıf) ve PMC6890616 ikincil atfı okundu.",
+  "bulunamadı: Kot Diji, Amri, Nal, Sothi-Siswal, Ahar-Banas (Balathal) kalibre 14C - denenen: Europe PMC, OpenAlex, WebSearch; Kot Diji 'ca. 5300-4600 BP' Environmental effects... (PMC9273075, ham sınıflama), Ahar Chalcolithic '2025-1270 BC' ve Gilund/Balathal aralıkları yalnız ikincil/popüler sayfa özetleri, Raczek 2020/2022 (tam metin yok). Hiçbiri kayıt yapılacak kalitede değil.",
+  "bulunamadı: Hintçe/Gujarati ana kaynaklar (Puratattva, Man and Environment, Bisht Gujarati raporları) - denenen: Hintçe WebSearch (kalibre veri çıkmadı). Tüm okunan kaynaklar İngilizce.",
+  "bulunamadı: Cishan (磁山) kalibre site tarihi. Okunan: PMC6807676 (Phytolith radiocarbon review, Front Plant Sci 2019) yalnız eşli faytolit/odun kömürü örneklerinin tek tek tarihlerini veriyor (örn. Cishan 7,285±30 BP -> 8,169-8,023 cal BP; 8,725±35 -> 9,798-9,554 cal BP) - yerleşim süresi değil, örnek-düzeyi, alt kaynak Yan 2013 (tez) açılmadı; PMC8214443 (Animal Frontiers 2021) 'Cishan Culture period (8100 to 7600 BP)' diyor ama kalibre olup olmadığı belirtilmiyor -> yazılmadı. Denenen: Europe PMC (Cishan AND cal BP), Crossref, CORE (yalnız 14C veri tabanı satırları), Çince arama (haber/ansiklopedi: 8000+ yıl, 5400-5100 BC kaynağı belirsiz).",
+  "bulunamadı: Banpo/Jiangzhai site-bazlı kalibre 14C tablosu (Banpo 1963 raporu, Jiangzhai 1988 raporu; Radiocarbon/Kaogu 14C listeleri). Yalnız derleme tablosu 'tahmini tarih' (kayıt olarak yazıldı, ZAYIF). Denenen: Europe PMC, Crossref, Çince arama (sohu/zdic/CSSN yalnız göreli evre).",
+  "bulunamadı: Panlongcheng (盘龙城) 14C ve kuruluş/terk tarihi. Denenen: Europe PMC (yalnız PLOS ONE 2022 PMC9394813 'Erligang genişlemesi' bağlamında anıyor, tarih yok), Sci Rep 2018 (Panlongcheng yalnız kurşun izotopu), Crossref (Chinese Archaeology 2006 saray temeli, 2018 Yangjiawan mezarları - De Gruyter, açık değil), Çince arama (zdic 'iç şehir ~MÖ 15. yy', kaynaksız; haberler 'yaklaşık 3500 yıl'). Konum tanıkları hazır (Wikidata Q217684: 30.6944, 114.2656; OSM 盘龙城国家考古遗址公园: 30.6980, 114.2652) ama tarihsiz kayıt açılmadı.",
+  "bulunamadı: Erlitou kalibre aralıkları (Zhang X. vd. 2022, Radiocarbon 64(4):819-832, doi:10.1017/RDC.2021.72) - Crossref özeti okundu (sayı yok); Unpaywall is_oa=false; Cambridge PDF erişim kapalı. Wayback denendi (boş sayfa).",
+  "bulunamadı: Zhengzhou Shang şehri BİRİNCİL 14C (Zhang-Qiu-Cai 2005 Zhongyuan Wenwu 2005(1):34-41; Qiu S.H. 2005) - Çince, açık metin yok. Yalnız Fang vd. 2022 atıf yoluyla ca. 1509-1315 cal BC.",
+  "bulunamadı: Hongshan/Niuheliang kalibre 14C tablosu (Drennan vd. Antiquity 2017 doi:10.15184/aqy.2016.227; Zhang vd. J World Prehist 2013 doi:10.1007/s10963-013-9062-9; Chinese Archaeology 2009 doi:10.1515/char.2009.9.1.74) - Unpaywall is_oa=false. Niuheliang ikinci koordinat tanığı yok (OSM yalnız tren istasyonu).",
+  "bulunamadı: Dönemlendirme Projesi raporu / Li X.Q. 2002 (JEAA 4:1-4 doi:10.1163/156852302322454585), Qiu S.H. 2002 (Chinese Archaeology 2:6, doi:10.1515/char.2002.2.1.6), Xuelian vd. 2007 wiggle-matching (doi:10.1515/char.2007.7.1.183) - Unpaywall is_oa=false. Shang başlangıcının (~1600) birincil dayanağı okunamadı.",
+  "bulunamadı: Pan Geng taşınması / Yinxu kuruluş tarihi için kaynaklı değer (bkz. sehir_kontrol.bosluk_notu).",
+  "bulunamadı: Mumun başlangıcı için Korece hakemli kaynak tam metni (KCI/DBpia/earticle) - bu oturumda yeni deneme yapılmadı (önceki dalga başarısız yöntemleri tekrarlanmadı); yerine Kim & Park 2020, Craig 2025, Kim & Bae 2010 kullanıldı.",
+  "bulunamadı: Dongguk Tonggam birincil metni (Dangun tarihi); yalnız AKS ansiklopedisi dipnotu (özet yoluyla).",
+  "Semantic Scholar API 429 (hız sınırı) verdi, kullanılamadı; CORE v3 kısmen çalıştı (429 aralıklı), sonuçlar boş/alakasız.",
+  "bulunamadi: 1027 MÖ'nun Zhou fethi tarihi olarak kaynağı/savunucusu - okunan Pankenier 1992, Nivison 2011, Zhang 2023, Shaughnessy 1985 sayfasında fetih adayı olarak geçmiyor (Nivison 2011'de yalnız BA'da silinmesi gereken 'sui zai jiayin [1027]' etiketi). Denenen: lehigh.edu PDF'leri, cuhk.edu.hk PDF, cambridge.org sayfaları.",
+  "bulunamadi: Shaughnessy 1991 'Sources of Western Zhou History' (UC Press) metni - açık erişim yok; Nivison 2011 (n.39) yalnız s.276'ya atıf yapar. Shaughnessy 1985 yalnız özet sayfası okundu (1045).",
+  "bulunamadi: Xia-Shang-Zhou Projesi (2000) birincil raporu 1046 - yalnız Zhang 2023 aktarımı (önceki dalga).",
+  "bulunamadi: Han kuruluşu için günün akademik teyidi (Dingtao 3 Şubat/28 Şubat çelişkisi yalnız basında); Cambridge History of China vol.1 (Loewe) ve Bielenstein'a ulaşılamadı. Han yıl 5 ay etiketi ('二月') Wikisource çıktısında doğrulanmadı.",
+  "bulunamadi: Qi'nin düşüşünün AY/GÜN'ü ve 'Huangdi' unvanının ilan günü - Shiji 6 yalnız 26. yıl verir.",
+  "bulunamadi: Maodun'un 209 tarihlemesinin akademik dayanağı (Di Cosmo 2002 Ancient China and Its Enemies; Barfield 1989) - Crossref'te Xiongnu OUP kitabının bölümü (10.1093/oso/9780190083694.003.0003) Unpaywall'da OA değil. Birincil metinler (Shiji 110, Hanshu 94 üst, ZZTJ juan 7) 209 vermez.",
+  "bulunamadi: Haojing/Fenghao'nun Zhou başkenti olarak kuruluş-terk yılları ve kazı raporu (Kaogu/Wenwu) - Zhang 2023'ün okunan kısmında yok.",
+  "bulunamadi: Xianyang (Qin) kazı raporu/tarih (Kaogu/Wenwu) ve başkent oluş yılının MÖ çevirisi; Qin sarayı yakılış yılı birincil metinde yıl başlığıyla verilmiyor.",
+  "bulunamadi: Hakemli İngilizce dergi makalesinde Chunqiu 722 başlangıcı - yalnız Ning 2023 (gazete teorik sayfa, Liaocheng Üniv.) ve Eno ders metni; Warwick ders PDF'i ve Cambridge 'core-prod' bağlantısı açılamadı (301/ENOTFOUND).",
+  "bulunamadi: Xinian (清华简, Zhongxi shuju 2011) birincil metni ve Li Xueqin yorumu - ctext.org denenmedi (önceki dalgada bot engeli; bu dalgada tekrar edilmedi).",
+  "bulunamadi: Wikisource/ctext Shiji metinleri kritik neşir/çeviriyle eşlenmedi (Watson, Nienhauser); bu nedenle Shiji alıntıları 'birincil metin, kaynak-doğrulamasız' sınıfındadır."
+ ],
+ "kutuphane_gerekli": [
+  {
+   "eser": "Bisht, R.S. 1997. Dholavira Excavations: 1990-94. In J.P. Joshi (ed.), Facets of Indian Civilization: Recent Perspectives (Essays B.B. Lal), Aryan Books, New Delhi, pp. 107-120; ayrıca Bisht 2005 (Dholavira ve Banawali), ASI nihai raporları",
+   "doi/url": "yok (kitap bölümü)",
+   "neden_gerekli": "Aşama I-VII'nin birincil tarihleri ve 14C/kalibre dayanağı; UNESCO dosyasındaki 3000-1450 şeması ile Sengupta'nın ~5500 BP çelişkisini çözmek için"
+  },
+  {
+   "eser": "Sengupta T., Deshpande Mukherjee A., Bhushan R. vd. 2019/2020. Did the Harappan settlement of Dholavira (India) collapse during the onset of Meghalayan stage drought? Journal of Quaternary Science (Wiley)",
+   "doi/url": "10.1002/jqs.3178",
+   "neden_gerekli": "Yedi aşamanın karbonat 14C tarihleri (Tablo; kalibre mi, hangi eğri); Unpaywall/OpenAlex 'closed'. Özet: iskân başı ~5500 yıl BP, Geç Harappa başına ~3800 yıl BP"
+  },
+  {
+   "eser": "Rao, S.R. 1979 ve 1984. Lothal: A Harappan Port Town 1955-62, Vol. I-II, Memoirs of the Archaeological Survey of India 78; Possehl, G.L. 1989, Radiometric dates for South Asian archaeology (kalibrasyonun orijinali)",
+   "doi/url": "yok",
+   "neden_gerekli": "Lothal A/B evrelerinin laboratuvar kodlu 14C listesi; Kanungo 2024 Tablo 1'in A/B etiketi ve kalibrasyon eğrisi doğrulaması"
+  },
+  {
+   "eser": "Lal, B.B., Joshi, J.P., Thapar, B.K., Bala, M. 2003. Excavations at Kalibangan: The Early Harappans 1960-1969. Memoirs of the Archaeological Survey of India 98",
+   "doi/url": "yok",
+   "neden_gerekli": "Period I (Sothi-Siswal/Erken Harappa) ve Period II için kalibre 14C tablosu; açık erişimde yok"
+  },
+  {
+   "eser": "Jansen, M. 1993. Mohenjo-Daro: Stadt der Brunnen und Kanäle (Frontinus-Gesellschaft, Suppl. 2) ve Mohenjo-daro Archaeological Project (Kenoyer/Jansen) yayınları; Possehl, G.L. 2002. The Indus Civilization: A Contemporary Perspective",
+   "doi/url": "10.1093/gao/9781884446054.article.t058826 (Possehl, Oxford Art Online)",
+   "neden_gerekli": "Mohenjo-daro'nun kalibre kuruluş (haber: 2700-2600 MÖ) ve terk tarihi; hakemli yayın gerekli"
+  },
+  {
+   "eser": "Magee, P. 2004. Mind the Gap: The chronology of Painted Grey Ware and the prelude to Early Historic urbanism in northern South Asia. South Asian Studies 20:37-44; Tewari R. / Singh R.K. vd. 2009 (PGW radyokarbon kronolojisi)",
+   "doi/url": "10.1080/02666030.2004.9628634",
+   "neden_gerekli": "PGW kalibre tarih aralığı (MÖ ~1200-600 iddiasının hakemli dayanağı); Unpaywall kapalı"
+  },
+  {
+   "eser": "Raczek, T.P. 2020 ve 2022. Something Old, Something New: Refining Chronologies in Northwest India through Radiocarbon. Georgia Journal of Science 78(1):7 ve 80(1):78",
+   "doi/url": "https://digitalcommons.gaacademy.org/gjs/vol80/iss1/78",
+   "neden_gerekli": "Ahar-Banas dahil KB Hindistan kültürlerinin INTCAL20/OxCal yeniden kalibre tarihleri; sayfada 'document currently not available'"
+  },
+  {
+   "eser": "Coningham, R.A.E. 1999. Anuradhapura: The British-Sri Lankan Excavations at Anuradhapura Salgaha Watta 2, Vol. I: The Site (BAR International Series 824, Society for South Asian Studies Monograph 3); Deraniyagala, S.U. 1972, 1986, 1992 (Citadel of Anuradhapura, Ancient Ceylon 2, 6; Prehistory of Sri Lanka)",
+   "doi/url": "https://fulcrum.org/concern/monographs/xd07gv44c (403)",
+   "neden_gerekli": "Anuradhapura Citadel'in kalibre 14C kuruluş dizisi (bölüm 'dating the sequence')"
+  },
+  {
+   "eser": "Falk, H. 2006. Aśokan Sites and Artefacts; Thapar, R. 1997. Aśoka and the Decline of the Mauryas (OUP); Bechert, H. (ed.) 1991-97. Die Datierung des historischen Buddha, Symposien zur Buddhismusforschung IV, 1-3",
+   "doi/url": "yok",
+   "neden_gerekli": "Modern Aşoka (~268-232?) ve Chandragupta tarih önerileri; Buda ölümünün uzun/kısa kronolojisi; bu oturumda yalnız 1922/1931 tarihli kaynaklar okundu"
+  },
+  {
+   "eser": "Patil, D.R. 1963. The Antiquarian Remains in Bihar (Patna: Kashi Prasad Jayaswal Research Institute); Sarao, K.T.S. 1990. Urbanization and Early Buddhism; Erdosy, G. 1988. Urbanisation in Early Historic India (BAR International Series 430)",
+   "doi/url": "yok",
+   "neden_gerekli": "Pataliputra arkeolojik kuruluşu ve NBPW tarih bandı (birincil); Turriff 2009 tezinin dayandığı kaynaklar"
+  },
+  {
+   "eser": "Zhang Xuezheng vd. 2022. 14C Dating of the Erlitou Site. Radiocarbon 64(4):819-832.",
+   "doi/url": "10.1017/RDC.2021.72",
+   "neden_gerekli": "Erlitou I-IV kalibre fazları ve Bayes tabloları (tam metin kapalı)."
+  },
+  {
+   "eser": "Zhang X.L., Qiu S.H., Cai L.Z. 2005. Radiocarbon date of Zhengzhou and Yanshi Shang city. Zhongyuan Wenwu 2005(1):34-41 (Çince).",
+   "doi/url": "Fang vd. 2022 Genes 13:2077 kaynakça [17]",
+   "neden_gerekli": "Zhengzhou Shang şehri 1509-1315 cal BC aralığının birincil tablosu (başlangıç/bitiş)."
+  },
+  {
+   "eser": "Henan Provincial Institute of Cultural Heritage and Archaeology. 2001. Zhengzhou Shang City: Archaeological Excavation Report 1953-1985. Wenwu Press, Beijing.",
+   "doi/url": "kitap",
+   "neden_gerekli": "Zhengzhou sur/saray fazları ve 14C listesi."
+  },
+  {
+   "eser": "Li Xueqin 2002. The Xia-Shang-Zhou Chronology Project: Methodology and Results. Journal of East Asian Archaeology 4(1-4) (Crossref kaydı; sayfa aralığı doğrulanmalı).",
+   "doi/url": "10.1163/156852302322454585",
+   "neden_gerekli": "Shang başlangıcı (~1600), Wu Ding ve 1046 sonuçları - proje metodolojisi."
+  },
+  {
+   "eser": "Qiu Shihua 2002. 14C Chronological Framework of the Xia-Shang-Zhou Chronology Project. Chinese Archaeology 2(1):6.",
+   "doi/url": "10.1515/char.2002.2.1.6",
+   "neden_gerekli": "Proje 14C tabloları (Erlitou, Zhengzhou, Yinxu fazları)."
+  },
+  {
+   "eser": "Qiu Shihua 2015. 14C dating and study on Chinese archaeological chronology. China Social Sciences Press, s.60-65 (Çince).",
+   "doi/url": "kitap",
+   "neden_gerekli": "Yinxu 4 evresi 14C serisi; Yinxu 1. evre (Pan Geng/Huanbei) başlangıç tarihi."
+  },
+  {
+   "eser": "Drennan R.D., Dai X., Peterson C.E. 2017. A place of pilgrimage? Niuheliang and its role in Hongshan society. Antiquity.",
+   "doi/url": "10.15184/aqy.2016.227",
+   "neden_gerekli": "Niuheliang kalibre 14C tabloları ve tören kompleksi evreleri."
+  },
+  {
+   "eser": "Zhang C. ve ark. 2013. The Neolithic Ceremonial Complex at Niuheliang and Wider Hongshan Landscapes in Northeastern China. J. World Prehistory.",
+   "doi/url": "10.1007/s10963-013-9062-9",
+   "neden_gerekli": "Niuheliang tarih sütunu."
+  },
+  {
+   "eser": "Hubei Provincial Institute of Cultural Relics and Archaeology 2001. Panlongcheng: Report of the 1963-1994 Excavations. Cultural Relics Press (Çince).",
+   "doi/url": "kitap",
+   "neden_gerekli": "Panlongcheng evreleri (Erligang II-Yinxu I) ve 14C."
+  },
+  {
+   "eser": "The Shang burials at the Yangjiawan Locality of the Panlongcheng Site in Wuhan. Chinese Archaeology 2018.",
+   "doi/url": "10.1515/char-2018-0008",
+   "neden_gerekli": "Panlongcheng geç evre mezar kronolojisi."
+  },
+  {
+   "eser": "Banpo Museum / Institute of Archaeology CASS. Xi'an Banpo (1963) ve Jiangzhai (1988) kazı raporları; Zhongguo Kexueyuan Kaogu Yanjiusuo 14C listeleri (Radiocarbon/Kaogu).",
+   "doi/url": "kitaplar",
+   "neden_gerekli": "Banpo ve Jiangzhai kalibre 14C."
+  },
+  {
+   "eser": "Yan (2013) tez (Cishan faytolit-odun kömürü eşli tarihleri) ve Cishan kazı raporu (Kaogu Xuebao 1981); CASS 14C laboratuvarı.",
+   "doi/url": "Frontiers Plant Sci 2019 doi:10.3389/fpls.2019.01302 kaynakçası",
+   "neden_gerekli": "Cishan kalibre yerleşim aralığı."
+  },
+  {
+   "eser": "Korece hakemli Mumun başlangıç kalibre tarihi (KCI/DBpia/earticle tam metin; ör. Mumun/Bronz Çağı 14C sentezleri). Kim J.C. & Bae C.J. 2010 (Radiocarbon 52(2-3):483-492) açık ama tablosu ham BP.",
+   "doi/url": "10.1017/S0033822200045513",
+   "neden_gerekli": "Kalibre Mumun başlangıç aralığı için Korece tam metin ve ham BP değerlerinin yayınlanmış kalibrasyonu."
+  },
+  {
+   "eser": "Shaughnessy E.L. 1991, Sources of Western Zhou History: Inscribed Bronze Vessels, Berkeley: Univ. of California Press (esp. s.276 ve 1045 tartışması)",
+   "doi/url": "ISBN 9780520070288",
+   "neden_gerekli": "1045 fetih tarihinin ve Li Wang 853 tartışmasının birincil savunusu"
+  },
+  {
+   "eser": "Pankenier D.W. 1992, 'The Bamboo Annals Revisited ... Part 2', BSOAS 55(3)",
+   "doi/url": "https://www.jstor.org/stable/619624 (Part 1) / Part 2: https://www.cambridge.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/abs/bamboo-annals-revisited-problems-of-method-in-using-the-chronicle-as-a-source-for-the-chronology-of-early-zhou-part-2-the-congruent-mandate-chronology-in-yi-zhou-shu/509691E8B0A1EFA2C9A46B96DF9DEDE4",
+   "neden_gerekli": "1046'nın tam gerekçesi (Part 2); bu oturumda yalnız Part 1 okundu"
+  },
+  {
+   "eser": "Nivison D.S. 2009, The Riddle of the Bamboo Annals (Taipei: Airiti)",
+   "doi/url": "Airiti Press",
+   "neden_gerekli": "1040 hesabının tam metni (Epilogue okundu)"
+  },
+  {
+   "eser": "Xia-Shang-Zhou Chronology Project 夏商周断代工程 2000, 1999-2000 阶段成果报告 (Beijing: Shijie Tushu)",
+   "doi/url": "-",
+   "neden_gerekli": "1046 ve Doğu Zhou 770/771 resmi çıkarımı"
+  },
+  {
+   "eser": "Di Cosmo N. 2002, Ancient China and Its Enemies (Cambridge UP)",
+   "doi/url": "ISBN 9780521770644",
+   "neden_gerekli": "Maodun'un 209 tarihlemesi ve kuruluş anlatısı"
+  },
+  {
+   "eser": "Barfield T.J. 1989, The Perilous Frontier (Blackwell)",
+   "doi/url": "-",
+   "neden_gerekli": "Xiongnu birleşme tarihi 209"
+  },
+  {
+   "eser": "Loewe M. in Twitchett & Loewe (eds.) 1986, The Cambridge History of China vol. 1: The Ch'in and Han Empires 221 BC-AD 220",
+   "doi/url": "Cambridge UP",
+   "neden_gerekli": "Han kuruluşunun 202 tarihi, imparator ilanı günü, başkent seçimi (Luoyang -> Chang'an, 202 vs 200)"
+  },
+  {
+   "eser": "中国社会科学院考古研究所 1996 (rev. ed. 2010), 汉长安城未央宫——1980～1989年考古发掘报告, 中国大百科全书出版社",
+   "doi/url": "-",
+   "neden_gerekli": "Weiyang Sarayı kazı tarihleri ve katman tarihlemesi"
+  },
+  {
+   "eser": "Tseng L. 2014 (ed.), Chang'an 26 BCE, Univ. of Washington Press, bölüm 4 ve 6 (doi:10.1515/9780295806419-010, -012)",
+   "doi/url": "10.1515/9780295806419-010",
+   "neden_gerekli": "Han Chang'an kenti planı ve Weiyang/Changle kuruluş yılları (Unpaywall: OA değil)"
+  },
+  {
+   "eser": "清华大学出土文献研究与保护中心 2011, 清华大学藏战国竹简(贰): 系年, 中西书局",
+   "doi/url": "-",
+   "neden_gerekli": "Xinian 738 / 749-741 kralsızlık anlatısının birincil metni"
+  },
+  {
+   "eser": "Chinese Archaeology reports: 'Excavation Report on the Building Remains of the No. 2 Site of Changle Palace ... Han Chang'an', Chinese Archaeology 6(1):33",
+   "doi/url": "doi:10.1515/char.2006.6.1.33",
+   "neden_gerekli": "Changle Sarayı kazı tarihlemesi (Han 7. yıl 200)"
+  }
+ ]
+}

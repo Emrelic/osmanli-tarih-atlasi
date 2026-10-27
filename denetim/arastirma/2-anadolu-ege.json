@@ -1,0 +1,226 @@
+{
+  "bolge": "Anadolu + Ege + Kıbrıs, MÖ 7000–MÖ 300",
+  "tarih_olcum": "21 Ekim 2026",
+  "not": "Koordinatlar yalnız OSM Nominatim ile tek tanıktan alındı; ikinci bağımsız tanık (Pleiades/GeoNames/kurum) bu oturumda alınamadı — kayda girmeden önce ikinci tanık şart. Troya, Knossos, Kadeş, Urartu, Hacılar, Miken sarayları, Khirokitia bulunamadı listesindedir.",
+  "kayitlar": [
+    {
+      "id": "akrotiri-thera-patlamasi",
+      "ad": "Akrotiri (Thera/Santorini) — Minos patlaması",
+      "ad_yerel": "Ακρωτήρι Θήρας",
+      "tur": "sehir",
+      "lat": null, "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Nominatim sorgusu sonuç vermedi; koordinat bulunamadı, ikinci tanıkla ayrıca alınmalı.",
+      "kur": null,
+      "bit": {
+        "bas_mo": 1627, "son_mo": 1600, "guven": "95.4", "aralik_turu": "kalibre-14C",
+        "kaynak": "Friedrich W.L., Kromer B., Friedrich M., Heinemeier J., Pfeiffer T., Talamo S. 2006, Santorini Eruption Radiocarbon Dated to 1627-1600 B.C., Science 312(5773):548, doi:10.1126/science.1125087 (zeytin dalı wiggle-match, IntCal04)",
+        "kaynak_dili": "İngilizce",
+        "url": "https://doi.org/10.1126/science.1125087",
+        "alinti": "constrain the eruption date to the range 1627‐1600 B.C. with 95.4% probability",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "bit_alt": {
+        "bas_mo": 1608, "son_mo": 1511, "guven": "95 (2σ credible)", "aralik_turu": "kalibre-14C",
+        "kaynak": "Pearson C.L. vd. 2018, Annual radiocarbon record indicates 16th century BCE date for the Thera eruption, Science Advances 4(8):eaar8241, doi:10.1126/sciadv.aar8241, Tablo 1 (zeytin dalı, Model 5, ICCP17 yıllık 14C eğrisi; aynı tablo IntCal13 ile 1627–1596)",
+        "kaynak_dili": "İngilizce",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6093623/",
+        "alinti": "Thera eruption occurred during a plateau in 14C production, making current radiocarbon ranges less precise",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "k": "kayip",
+      "d": "Akrotiri (Minos kültürlü Thera yerleşimi), yanardağ patlamasıyla tefra altında kaldı; patlama zeytin dalı ve Akrotiri tohum topluluğu üzerinden radyokarbonla tarihlendi.",
+      "sahip_kultur": "Cycladic/Minos etkisinde Geç Tunç (LM IA / LC I) — kaynakta 'Minoan eruption'",
+      "ic_not": "İKİ KAYNAK ÇELİŞİR: Friedrich 2006 = 1627–1600 (95.4, IntCal04 + 'her halka yıllık' varsayımı); Pearson 2018 aynı zeytin dalını yeni yıllık 14C eğrisiyle 1608–1511 (Model 5) / 1614–1538 (Model 7 sıralı) verir; yazar bunu 16. yy MÖ'ye çeker ve plato nedeniyle kesin tarih verilemeyeceğini söyler. Tek seçilmedi; gerekçe: Pearson sonrası eğri güncel ama plato belirsizliği kaldırmaz. Pearson'da bristlecone işaret yılları 1597, 1560, 1546, 1544 MÖ. Mısır Yeni Krallık bağlantılı arkeolojik kronoloji (~1500) ile hâlâ uyuşmazlık tartışılıyor (Cherubini vd. 2014 Antiquity 88:1164 olive-branch'i güvenilmez bulur — yalnız özet okundu).",
+      "okunan_sayfa": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC6093623/", "https://api.crossref.org/works/10.1126/science.1125087 (özet)", "https://www.cambridge.org/core/journals/antiquity/article/olivebranch-dating-of-the-santorini-eruption/EC500D8ABE2D71FC8AA616F1230C337A"]
+    },
+    {
+      "id": "gordion-tumulus-mm",
+      "ad": "Gordion — Tümülüs MM (Midas Höyüğü)",
+      "ad_yerel": "Gordion Tumulus MM (Midas Mound)",
+      "tur": "nekropol",
+      "lat": null, "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Nominatim 'Gordion Yassıhöyük' sonuç vermedi; koordinat bulunamadı.",
+      "kur": {
+        "bas_mo": 740, "son_mo": null, "guven": "belirsiz (+4/−7 yıl, kaynak olasılık düzeyi vermiyor)", "aralik_turu": "tek-deger",
+        "kaynak": "Cornell Wiener Laboratory (Kuniholm, Newton, Bannister, Dean), ITRDB turk029 veri notu: MMTRD 1764 = 740 BC +4/−7; wiggle-match dayanağı Manning vd./Kromer vd., Science Aralık 2001",
+        "kaynak_dili": "İngilizce",
+        "url": "https://paleo.ltrr.arizona.edu/treering/measurements/correlation-stats/turk029.txt",
+        "alinti": "Our best estimate for MMTRD 1764 is 740 BC +4/-7 years",
+        "kaynak_sinifi": "veri-tabani"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Gordion'daki en büyük Frig tümülüsü; iç oda kerestesi (ardıç) ağaç halkalarıyla kesim yılı tarihlenir (kabuk yılı mevcut), kesim ≈ tümülüsün yapım yılı.",
+      "sahip_kultur": "Frig (Erken Frig; kaynakta 'Phrygian')",
+      "ic_not": "Eski değer 718 MÖ (1990'lar), 2001'de ~22 yıl yukarı çekildi (740 +4/−7); Penn Müzesi Gordion sayfası/Manning 2003 notu 740 +7/−3, 743–741 yüksek olasılık diyor (yalnız arama özetinden görüldü, sayfa açılamadı — Penn sayfası birincil değil, kayda girmeden Rose ed. 2011 'The New Chronology of Iron Age Gordion' Kuniholm-Newton-Liebhart bölümü, s.79–122 okunmalı). Pearson vd. 2020 PNAS 117:8410 (doi:10.1073/pnas.1917445117) ve Reply 117:18159 Gordion ardıç dizisinin SON halkasını 745 MÖ'ye koyar — bu tüm dizinin bitiş halkasıdır, Tümülüs MM kesim yılı değildir; iki sayı karıştırılmamalı. Manning 2020 itirazı var. Kealhofer-Grave-Voigt 2019 Radiocarbon 61(2):495, doi:10.1017/RDC.2018.152 özeti: Frig başkentinin 9. yy MÖ başında doğuşu, 9. yy sonunda büyük yangın (yalnız yüzyıl hassasiyeti; tam metin kapalı).",
+      "okunan_sayfa": ["https://paleo.ltrr.arizona.edu/treering/measurements/correlation-stats/turk029.txt", "https://pmc.ncbi.nlm.nih.gov/articles/PMC7414178", "https://www.cambridge.org/core/journals/radiocarbon/article/dating-gordion-the-timing-and-tempo-of-late-bronze-and-early-iron-age-political-transformation/34941011AAA0B478844C90EC1F4B9AAE"]
+    },
+    {
+      "id": "hattusa-cokus",
+      "ad": "Hattuşa (Boğazköy) — Hitit İmparatorluğu merkezinin boşalması",
+      "ad_yerel": "Ḫattuša / Boğazköy",
+      "tur": "sehir",
+      "lat": null, "lon": null,
+      "konum_tanik": [{"kaynak": "OSM Nominatim 'Boğazkale Hattusa'", "lat": 40.0222, "lon": 34.6197}],
+      "konum_not": "OSM sonucu bir kafe/yol noktası (Hattuşaş), kazı alanı merkezi değil; kullanılmadı. İkinci tanık yok. Kayda girmeden Pleiades/UNESCO (ID 377) ile alınmalı.",
+      "kur": null,
+      "bit": {
+        "bas_mo": 1198, "son_mo": 1196, "guven": "±3 yıl (kaynak 2σ demiyor)", "aralik_turu": "tek-deger",
+        "kaynak": "Manning S.W., Kocik C., Lorentzen B., Sparks J.P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198–1196 BC, Nature 614:719–724, doi:10.1038/s41586-022-05693-y",
+        "kaynak_dili": "İngilizce",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+        "alinti": "unusually severe continuous dry period from around 1198 to 1196 (±3) bc",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "k": "kayip",
+      "d": "Hitit başkenti Hattuşa merkezî idare tarafından boşaltıldı, sonra yakıldı; Hitit merkezî devleti çöktü. Kuraklık yılları bunun tarihsel bağlamıdır, çöküş tarihi değil.",
+      "sahip_kultur": "Hitit (Hatti)",
+      "ic_not": "Bit alanı DOĞRUDAN çöküş tarihi değil, aynı yayının 'etkili kuraklık' penceresidir; kaynak çöküşü 'around or shortly after 1200 bc' diye yazar ve Şuppiluliuma II'nin saltanatını ~1207 MÖ başlatır (yazılı-tarihsel çerçeve, kaynaklardan 11–23. dipnotlar). Atlas bitiş için ≈1200 (kaynağın ifadesi) kullanmalı, 1198–1196'yı kuraklık olarak etiketlemeli. Schachner 2024 Anatolian Studies / DAI Boğazköy radyokarbon veri seti (repo.dainst.org 'Bronze Age Radiocarbondates from Bogazkoy-Hattusha') ve Schoop-Seeher 2006 bu oturumda açılamadı.",
+      "okunan_sayfa": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/"]
+    },
+    {
+      "id": "zincirli-hattusili-i-yikimi",
+      "ad": "Zincirli (Sam'al) — Hattusili I döneminde yıkım",
+      "ad_yerel": "Zincirli Höyük",
+      "tur": "sehir",
+      "lat": 37.1030, "lon": 36.6785,
+      "konum_tanik": [{"kaynak": "OSM Nominatim 'Zincirli Höyük'", "lat": 37.1029969, "lon": 36.6785322}],
+      "konum_not": "Tek tanık (OSM); ikinci bağımsız tanık alınamadı.",
+      "kur": null,
+      "bit": {
+        "bas_mo": 1637, "son_mo": 1614, "guven": "59.8 (HPD, Model 2b); aynı modelin 95.4 aralığı 1670–1607; en iyi yaklaşım 1632–1610 (~56.2 HPD)", "aralik_turu": "kalibre-14C",
+        "kaynak": "Herrmann V.R., Manning S.W., Morgan K.R., Soldi S., Schloen D. 2023, New evidence for Middle Bronze Age chronology from the Syro-Anatolian frontier, Antiquity 97(393):654–673, doi:10.15184/aqy.2023.30 (18 örnek, Bayes modeli)",
+        "kaynak_dili": "İngilizce",
+        "url": "https://doi.org/10.15184/aqy.2023.30",
+        "alinti": "indicate a date in the later seventeenth century BC",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "k": "kayip",
+      "d": "Zincirli'nin (Faz 4, Kompleks DD) yıkımı, Hitit kralı Hattusili I'in Kuzey Suriye seferleriyle ilişkilendirilir; eski Hitit tarihi için radyokarbon tabanlı mutlak çapa.",
+      "sahip_kultur": "Orta Tunç yerleşimi (Sam'al öncülü); yıkıcı: Hitit (Hattusili I, 'büyük olasılıkla')",
+      "ic_not": "Sayılar sayfa özeti üzerinden okundu (tam metin PDF'i okunamadı); kayda girmeden Tablo/Şekil kontrol edilmeli. Atıf Hattusili I'e 'probably' diyor. Kullanılan 'hMC' geleneksel tarihi: Hattusili I c.1650–1620, Mursili I c.1620–1590 (Babil yağması 1595/1587 hMC/lMC) — bunlar kronoloji okuluna bağlıdır (Orta Kronoloji kullanıldı). Hitit Eski Krallık KURULUŞ tarihi (Labarna/Hattusili I) kaynaklı bulunamadı.",
+      "okunan_sayfa": ["https://www.cambridge.org/core/product/014ABB912CC50181E0F06E074BE071A2/core-reader"]
+    },
+    {
+      "id": "pinarbasi-konya",
+      "ad": "Pınarbaşı (Konya havzası, Karaman)",
+      "ad_yerel": "Pınarbaşı Höyüğü",
+      "tur": "sehir",
+      "lat": null, "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Nominatim sorgusu boş döndü; koordinat bulunamadı.",
+      "kur": {
+        "bas_mo": 9800, "son_mo": 9400, "guven": "belirsiz (kaynak düzeyi vermiyor)", "aralik_turu": "kalibre-14C",
+        "kaynak": "Baird D., Fairbairn A., Jenkins E. vd. 2018, Agricultural origins on the Anatolian plateau, PNAS 115(14):E3077–E3086, doi:10.1073/pnas.1800163115 (Alan D, Bayes analizi, SI Tablo S2)",
+        "kaynak_dili": "İngilizce",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5889673/",
+        "alinti": "started at or just after the Pleistocene/Holocene transition, around 9800–9400 cal BC",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "bit": {
+        "bas_mo": 8200, "son_mo": 7800, "guven": "belirsiz", "aralik_turu": "kalibre-14C",
+        "kaynak": "Baird vd. 2018 PNAS 115(14) (iki alanda iskân 'ending between 8200 and 7800 cal BC'; Bayes analizi ~8000 cal BC)",
+        "kaynak_dili": "İngilizce",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5889673/",
+        "alinti": "occupation appears to have continued through the ninth millennium cal BC, ending between 8200 and 7800 cal BC",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "k": "kurulus",
+      "d": "Konya havzasında Pleistosen/Holosen geçişinde başlayan, 9. binyıl cal BC boyunca süren erken yerleşim höyüğü; tahıl ekimi buraya hiç girmemiş görünür (Boncuklu'dan farklı).",
+      "sahip_kultur": "Epipaleolitik sonrası erken Holosen avcı-toplayıcı topluluğu (kaynakta 'Pınarbaşı ninth millennium cal BC')",
+      "ic_not": "Başlangıç değeri Alan D içindir; Alan A'da 'earlier phases from around 9000 cal BC' ve dizinin başı belirsiz, yani 9800–9400 yerleşimin ilk kanıtlı evresidir. Reading / Antiquity özetleri 9600 cal BC der (arama özeti, tam metin okunmadı).",
+      "okunan_sayfa": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC5889673/"]
+    },
+    {
+      "id": "boncuklu-konya",
+      "ad": "Boncuklu Höyük (Konya havzası, Çumra)",
+      "ad_yerel": "Boncuklu Höyük",
+      "tur": "sehir",
+      "lat": 37.7519, "lon": 32.8649,
+      "konum_tanik": [{"kaynak": "OSM Nominatim 'Boncuklu Höyük'", "lat": 37.7518998, "lon": 32.8648709}],
+      "konum_not": "Tek tanık (OSM); ikinci bağımsız tanık alınamadı. Baird 2018: Boncuklu, Pınarbaşı'nın 31 km KB'sında değil 31 km 'kuzeybatısında' ve Çatalhöyük'ün ~9.5 km'sinde (metin okundu) — OSM ile uyumlu.",
+      "kur": {
+        "bas_mo": 8300, "son_mo": 8100, "guven": "belirsiz", "aralik_turu": "tabaka-donem",
+        "kaynak": "Baird vd. 2018 PNAS 115(14):E3077, doi:10.1073/pnas.1800163115 (Alan H, erken yerleşim evresi, SI Tablo S3)",
+        "kaynak_dili": "İngilizce",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5889673/",
+        "alinti": "early settlement phase of approximately 8300–8100 cal BC and a later phase of approximately 8100–7800 cal BC",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "bit": {
+        "bas_mo": 8100, "son_mo": 7800, "guven": "belirsiz", "aralik_turu": "tabaka-donem",
+        "kaynak": "Baird vd. 2018 (geç evre 8100–7800 cal BC); en geç tipoloji 7600 sonrasına işaret edebilir",
+        "kaynak_dili": "İngilizce",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5889673/",
+        "alinti": "suggest occupation after 7600 cal BC, although we have not yet located reliable in situ",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "k": "gelisme",
+      "d": "Boncuklu'da ekim, 9. binyılın ikinci yarısında yerel avcı-toplayıcılarca benimsendi; topluluk Çatalhöyük Doğu'nun atası olarak yorumlanır (Çatalhöyük East 7100 cal BC'den).",
+      "sahip_kultur": "Orta Anadolu erken Holosen (Aseramik) topluluğu",
+      "ic_not": "Bu iki blok 'tabaka/dönem' türüdür (iki evrenin toplamı 8300–7800), tek olay kalibre aralığı değildir. Wikipedia 8300–7800 BCE, BIAA programı 9300–7600 cal BC der — ikincil/çelişik; Baird 2018 esas alındı. Çatalhöyük Doğu ve Aşıklı bu dalgada tekrarlanmadı. Aşıklı sonrası Orta Anadolu / Canhasan III'ün model tarihi (Fairbairn vd. 2020 Antiquity 94(374):342, doi:10.15184/aqy.2020.13) tam metinde, açılamadı; Baird 2018 yalnız Canhasan III için ~7400–7100 cal BC'yi başka çalışmadan (ref 27) alıntılar.",
+      "okunan_sayfa": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC5889673/", "https://www.cambridge.org/core/journals/antiquity/article/settlement-change-on-the-western-konya-plain-refining-neolithic-and-chalcolithic-chronologies-at-canhasan-turkey/801A1599CB7EE8812A292B956514648E"]
+    },
+    {
+      "id": "pylos-nestor-sarayi",
+      "ad": "Pylos — Nestor Sarayı yıkımı",
+      "ad_yerel": "Ανάκτορο του Νέστορα, Πύλος",
+      "tur": "sehir",
+      "lat": 37.0272, "lon": 21.6949,
+      "konum_tanik": [{"kaynak": "OSM Nominatim 'Palace of Nestor Pylos'", "lat": 37.0272351, "lon": 21.6948724}],
+      "konum_not": "Tek tanık (OSM); ikinci tanık alınamadı.",
+      "kur": null,
+      "bit": {
+        "bas_mo": 1200, "son_mo": 1180, "guven": "belirsiz", "aralik_turu": "yerlesim-suresi",
+        "kaynak": "Finné M., Holmgren K., Shen C.-C., Hu H.-M., Boyd M., Stocker S. 2017, Late Bronze Age climate change and the destruction of the Mycenaean Palace of Nestor at Pylos, PLoS ONE 12(12):e0189447, doi:10.1371/journal.pone.0189447 (~3150–3130 yrs BP, BP = MS 1950 öncesi; 3150−1950=1200, 3130−1950=1180)",
+        "kaynak_dili": "İngilizce",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744937/",
+        "alinti": "destruction of the nearby Mycenaean Palace of Nestor at Pylos at the transition from Late Helladic (LH) IIIB to LH IIIC, ~3150–3130 years before present",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "kayip",
+      "d": "Miken Nestor Sarayı LH IIIB/IIIC geçişinde yıkıldı; yangınla pişen Linear B tabletleri bu son yıkımın içindedir.",
+      "sahip_kultur": "Miken (Geç Helladik IIIB)",
+      "ic_not": "Bu tarih speleotem çalışmasının ARKEOLOJİK bağlamdan aldığı konvansiyonel yıkım tarihidir (kaynak yıkımı kendisi tarihlemiyor, iklimi o tarihe oturtuyor); tek-doğrulukta bağımsız radyokarbon değildir. Çelişki: Godart-Sacconi tabletleri ve yıkımı ~1250 MÖ'ye çeker (Ariadne 2025'te Davis-Stocker ve Judson-Bennet cevap verir, arama özeti) — ikisi de dayanak olarak tam metin okunmadı. Cal BP→MÖ: BP−1950, bu oturumda.",
+      "okunan_sayfa": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC5744937/"]
+    },
+    {
+      "id": "sardes-pers-fethi",
+      "ad": "Sardes — Pers'in ele geçirmesi",
+      "ad_yerel": "Σάρδεις / Sart (Salihli)",
+      "tur": "sehir",
+      "lat": 38.4885, "lon": 28.0401,
+      "konum_tanik": [{"kaynak": "OSM Nominatim 'Sardes Salihli Sart'", "lat": 38.4884501, "lon": 28.0401682}],
+      "konum_not": "Tek tanık (OSM); ikinci tanık alınamadı.",
+      "kur": null,
+      "bit": {
+        "bas_mo": 547, "son_mo": null, "guven": "belirsiz", "aralik_turu": "yazili",
+        "kaynak": "Cahill N. 2010, The Persian Sack of Sardis, in The Lydians and their World (Sardis Expedition sayfası), bölüm 'The Date of the Capture'",
+        "kaynak_dili": "İngilizce",
+        "url": "https://sardisexpedition.org/en/essays/latw-cahill-persian-sack-sardis",
+        "alinti": "the battle should be dated to 547 BC",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "fetih",
+      "d": "Lidya başkenti Sardes, Pers Kyros'a düştü; yıkım tabakasında yanmış surlar, evler ve yıkım seviyesi altında Kroisos zamanı sikkeler bulundu.",
+      "sahip_kultur": "Lidya",
+      "ic_not": "ÇELİŞKİ: Nabonid Vakayinamesi (kırık 'Ly[dia]' okuması) 547'yi destekler; Eusebius'a bağlı klasik tarih 546/5. Script&Class'ta bir makale ('Re-dating the Fall of Sardis', scriptaclassica.org) 544/3–540/39 önerir (yalnız arama özeti okundu, kayda alma). Esas: Cahill 547. Radyokarbon yok. TDV'de 'Lidya'/'Sard' madde başlığı bulunamadı (arama 0 başlık).",
+      "okunan_sayfa": ["https://sardisexpedition.org/en/essays/latw-cahill-persian-sack-sardis"]
+    }
+  ],
+  "bulunamadi": [
+    "bulunamadı: Troya I–IX ve özellikle Troya VI/VIIa mutlak tarihleri — okunabilen hiçbir birincil/akademik tam metin yok. Denenen: Cambridge Radiocarbon Weninger 1995 (yalnız özet, Troya I–V; sayılar yok), BMCR 2017.04.11 Pavúk 2014 incelemesi (BC tarihi yok), Tübingen Weninger 2009 Studia Troica 18 (özet, BC yok), Harvard/Troia III Pavúk 2020 sayfası (403). Pavúk 2020 'The Relative and Absolute Chronology: Troy VI and VII', Studia Troica Monographien 7 s.16–88, Korfmann-Kromer 1993 Studia Troica 3 ve Manning vd. Science 2001 (Science kapalı) tam metni gerekir. Not: Blegen/Nylander/Mountjoy'a dayalı VIIa ~1190–1180 ve VIh ~1300 rakamları yalnız ders notu/popüler arama sonucunda gördüm — kullanılmadı. Troya SAVAŞI yazılı gelenek tarihi kayda alınmadı (talimat gereği).",
+    "bulunamadı: Hitit Eski Krallık kuruluşu (Labarna / Hattusili I başlangıcı) — yalnız Zincirli yıkımı kalibre aralığı (Herrmann 2023) bulundu, 'kuruluş' için kaynak yok. Denenen: Cambridge Antiquity 2023, DAI repo (repo.dainst.org dataset sayfası; içerik okunmadı).",
+    "bulunamadı: Kadeş (1274) ve Şuppiluliuma I saltanat tarihleri — Manning 2023 Nature yalnız 'early 13th century bc' der (PMC9946833); 1274 MÖ'yi veren hakemli kaynak açılamadı. arXiv 1309.2758 (Babil'in düşüşü / Šuppiluliuma I ~1352) bir ön-baskıdır, atıf edilmedi.",
+    "bulunamadı: Urartu kuruluşu (Arame/Sarduri I), Tuşpa ve düşüş tarihleri — TDV'de 'Urartular' için Madde Başlığı yok (arama: Madde Başlıkları 0, Madde İçerikleri 19; yalnız başka maddelerde geçen kısa ifadeler: 'm.ö. 900-600', '(856-610)'), tam sayfa mevcut değil. Zimansky/Piotrovsky/Salvini metinleri erişilemedi; Vikipedi/iraniantours/worldhistory tek dayanak olamaz, kullanılmadı.",
+    "bulunamadı: Knossos Tunç Çağı (Eski Saray MM IB) kalibre tarihi — yalnız Dartmouth ders notu (Manning 1995 çerçevesi, MM IB ~2000/1950–1900/1850) ve Vikipedi görüldü; birincil/hakemli tam metin okunamadı (Macdonald protopalatial yayını, Manning 1995 'A Test of Time').",
+    "bulunamadı: Mikenai, Tiryns ve Linear B tabletlerinin ayrı tarihi (Pylos dışında) ve 'Miken saraylarının MÖ 1200 yıkımı' için yalnız Finné 2017 (arkeolojik bağlamdan alıntı) var; BCH / Yunanca kazı raporu okunmadı. Pylos tabletlerinin Godart-Sacconi 1250 tezi için Ariadne (ejournals.lib.uoc.gr/Ariadne/article/view/1872) açılmadı.",
+    "bulunamadı: Hacılar, Aşıklı sonrası Orta Anadolu — Hacılar için hiçbir kaynak açılamadı; Canhasan III/I: Fairbairn vd. 2020 Antiquity 94(374):342–360 (doi:10.15184/aqy.2020.13) özeti okundu, modelli tarihler Ek Tablo S1–S4'te ve açılamadı. BIAA programının '7500–7000 cal BC' ifadesi program metnidir, atıf edilmedi.",
+    "bulunamadı: Frig başkenti Gordion yerleşiminin kuruluş/yıkım günü — Kealhofer-Grave-Voigt 2019 Radiocarbon 61(2):495 özeti yalnız 'early 9th c.' ve 'late 9th c. yangın' der; DeVries vd. 2003 'Early Phrygian destruction level' tarihi açılamadı; Rose (ed.) 2011 volume (Penn) açılamadı. Tümülüs MM için bkz. kayıt 'gordion-tumulus-mm'.",
+    "bulunamadı: Kıbrıs Khirokitia modellenmiş yerleşim süresi. XRONOS veri tabanı (xronos.ch/sites/5190, 41 kayıttan ilk 20 görüldü) tek-örnek kalibre aralıkları verir: en eski anlamlı örnekler 9121–8429 cal BP (Ly-4307) → MÖ ~7171–6479; en genç örnekler 7561–6796 ve 7429–6740 cal BP (Ly-4306/4309) → MÖ ~5611–4790. Bunlar örnek aralığıdır, yerleşim başı/sonu değildir (Bird vd. 2022 / Weninger 2022 modelleri okunamadı). 'Milattan önce 7000' (Vikipedi) ve 'PPNA' iddiası çelişkili ve ikincil; kullanılmadı.",
+    "bulunamadı: Lidya Sardes Lidya krallığı kuruluşu (Gyges/Mermnad), Sardes Altın Çağı, Sardes radyokarbonu; TDV'de Lidya/Sard madde başlığı yok; Hanfmann Sardis raporu açılmadı. Pers fethi için kayıt var (sardes-pers-fethi).",
+    "bulunamadı: Koordinatlar için ikinci bağımsız tanık hiçbir kayıtta alınamadı (yalnız OSM Nominatim); Gordion, Pınarbaşı, Akrotiri, Hattuşa için OSM sonucu kullanılabilir değildi (boş veya kafe noktası)."
+  ]
+}

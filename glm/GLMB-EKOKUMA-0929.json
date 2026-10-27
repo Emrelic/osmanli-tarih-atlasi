@@ -1,0 +1,934 @@
+{
+ "olcum": "GLM-B ek okuma biçim denetimi",
+ "zaman": "2026-09-29 12:01:01",
+ "evren": {
+  "dosya": 72,
+  "kart": 777,
+  "global": 70,
+  "globalsiz_dosya": [
+   "data/ekokuma_bag_oneri.js",
+   "data/ekokuma_baslik_oneri.js"
+  ],
+  "ayni_globali_tanimlayanlar": {},
+  "node_sorun": []
+ },
+ "alan_envanteri": {
+  "id": 777,
+  "tur": 777,
+  "olay": 777,
+  "kaynak": 777,
+  "kesinlik": 773,
+  "metin": 731,
+  "kisa": 687,
+  "baslik": 351,
+  "ic_not": 288,
+  "bag": 267,
+  "sonuc": 214,
+  "zincir": 200,
+  "sebep": 168,
+  "not": 168,
+  "ad": 138,
+  "gorsel": 84,
+  "gorsel_kaynak": 83,
+  "surec": 78,
+  "hukumler": 76,
+  "tarih_metin": 46,
+  "yer": 46,
+  "taraflar": 46,
+  "oncesi": 46,
+  "akis": 46,
+  "tartisma": 46,
+  "ic_not_kaynak": 45,
+  "t": 42,
+  "kisi": 41,
+  "soru": 41,
+  "ic_not_metin": 13,
+  "ic_not_not": 7,
+  "eser": 7,
+  "sanatci": 7,
+  "alinti": 7,
+  "ozet": 6,
+  "ic_not_tartisma": 5,
+  "ic_not_bag": 4,
+  "satirlar": 3,
+  "ic_not_akis": 2,
+  "diplomatlar": 1
+ },
+ "kesinlik": {
+  "satirlar": [
+   {
+    "deger": "kesin",
+    "adet": 540,
+    "dosyalar": [
+     "data/ekokuma.js",
+     "data/ekokuma_1806.js",
+     "data/ekokuma_akdeniz.js",
+     "data/ekokuma_alemdar.js",
+     "data/ekokuma_antlasma2.js",
+     "data/ekokuma_antlasma3.js",
+     "data/ekokuma_antlasma4.js",
+     "data/ekokuma_antlasma5.js",
+     "data/ekokuma_antlasma6.js",
+     "data/ekokuma_avusturya.js",
+     "data/ekokuma_bolge0073.js",
+     "data/ekokuma_camitarz.js",
+     "data/ekokuma_celali.js",
+     "data/ekokuma_dalga2.js",
+     "data/ekokuma_deniz.js",
+     "data/ekokuma_diplomasi.js",
+     "data/ekokuma_dunya.js",
+     "data/ekokuma_edebiyat.js",
+     "data/ekokuma_ekonomi.js",
+     "data/ekokuma_hanedan.js",
+     "data/ekokuma_ibrahim.js",
+     "data/ekokuma_ihtilal.js",
+     "data/ekokuma_isyan1821.js",
+     "data/ekokuma_kadin.js",
+     "data/ekokuma_karadeniz.js",
+     "data/ekokuma_kasrisirin.js",
+     "data/ekokuma_kirimrus.js",
+     "data/ekokuma_kolemen.js",
+     "data/ekokuma_korfez.js",
+     "data/ekokuma_kurum.js",
+     "data/ekokuma_kurum2.js",
+     "data/ekokuma_lale.js",
+     "data/ekokuma_magazin.js",
+     "data/ekokuma_mimari.js",
+     "data/ekokuma_mimari2.js",
+     "data/ekokuma_p75a.js",
+     "data/ekokuma_p75b.js",
+     "data/ekokuma_p75c.js",
+     "data/ekokuma_p76b.js",
+     "data/ekokuma_p76c.js",
+     "data/ekokuma_p76d.js",
+     "data/ekokuma_p76e.js",
+     "data/ekokuma_p76f.js",
+     "data/ekokuma_p76g.js",
+     "data/ekokuma_p76h.js",
+     "data/ekokuma_p77a.js",
+     "data/ekokuma_p77b.js",
+     "data/ekokuma_p77c.js",
+     "data/ekokuma_p80b.js",
+     "data/ekokuma_padisah.js",
+     "data/ekokuma_rivayet.js",
+     "data/ekokuma_rusiran.js",
+     "data/ekokuma_savas.js",
+     "data/ekokuma_savas3.js",
+     "data/ekokuma_sh104.js",
+     "data/ekokuma_statu.js",
+     "data/ekokuma_tamamla.js",
+     "data/ekokuma_tartisma.js",
+     "data/ekokuma_toplum.js",
+     "data/ekokuma_vecize.js",
+     "data/ekokuma_venedik.js",
+     "data/ekokuma_vezir.js",
+     "data/ekokuma_yenilesme.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma.js",
+     "id": "ahi-birlikleri-ankara"
+    }
+   },
+   {
+    "deger": "tartismali",
+    "adet": 196,
+    "dosyalar": [
+     "data/ekokuma.js",
+     "data/ekokuma_alemdar.js",
+     "data/ekokuma_antlasma2.js",
+     "data/ekokuma_avusturya.js",
+     "data/ekokuma_bakis.js",
+     "data/ekokuma_bolge0073.js",
+     "data/ekokuma_celali.js",
+     "data/ekokuma_dalga2.js",
+     "data/ekokuma_diplomasi.js",
+     "data/ekokuma_dunya.js",
+     "data/ekokuma_edebiyat.js",
+     "data/ekokuma_ekonomi.js",
+     "data/ekokuma_hanedan.js",
+     "data/ekokuma_ibrahim.js",
+     "data/ekokuma_isyan1821.js",
+     "data/ekokuma_kadin.js",
+     "data/ekokuma_karadeniz.js",
+     "data/ekokuma_karsi.js",
+     "data/ekokuma_kasrisirin.js",
+     "data/ekokuma_kirimrus.js",
+     "data/ekokuma_kiyas.js",
+     "data/ekokuma_kolemen.js",
+     "data/ekokuma_korfez.js",
+     "data/ekokuma_lale.js",
+     "data/ekokuma_magazin.js",
+     "data/ekokuma_mimari.js",
+     "data/ekokuma_misir1805.js",
+     "data/ekokuma_p75a.js",
+     "data/ekokuma_p75b.js",
+     "data/ekokuma_p75c.js",
+     "data/ekokuma_p76b.js",
+     "data/ekokuma_p76d.js",
+     "data/ekokuma_p76e.js",
+     "data/ekokuma_p76f.js",
+     "data/ekokuma_p77a.js",
+     "data/ekokuma_p77c.js",
+     "data/ekokuma_padisah.js",
+     "data/ekokuma_rivayet.js",
+     "data/ekokuma_savas.js",
+     "data/ekokuma_savas1770.js",
+     "data/ekokuma_statu.js",
+     "data/ekokuma_tamamla.js",
+     "data/ekokuma_tartisma.js",
+     "data/ekokuma_toplum.js",
+     "data/ekokuma_vezir.js",
+     "data/ekokuma_yeniceri.js",
+     "data/ekokuma_yenilesme.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [
+     "tartışmalı"
+    ],
+    "ornek": {
+     "dosya": "data/ekokuma.js",
+     "id": "yeniceri-ocagi-kurulusu"
+    }
+   },
+   {
+    "deger": "rivayet",
+    "adet": 14,
+    "dosyalar": [
+     "data/ekokuma_celali.js",
+     "data/ekokuma_magazin.js",
+     "data/ekokuma_padisah.js",
+     "data/ekokuma_vecize.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_celali.js",
+     "id": "menkibe-kuyucu-lakabi"
+    }
+   },
+   {
+    "deger": "tartışmalı",
+    "adet": 10,
+    "dosyalar": [
+     "data/ekokuma_p76c.js",
+     "data/ekokuma_p77b.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [
+     "tartismali"
+    ],
+    "ornek": {
+     "dosya": "data/ekokuma_p76c.js",
+     "id": "abdulhamid-31-mart-rolu-tartismasi"
+    }
+   },
+   {
+    "deger": "kaynakli",
+    "adet": 5,
+    "dosyalar": [
+     "data/ekokuma_yeniceri.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_yeniceri.js",
+     "id": "yeniceri-vakai-hayriyye-gun-gun"
+    }
+   },
+   {
+    "deger": "iddia",
+    "adet": 2,
+    "dosyalar": [
+     "data/ekokuma_magazin.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_magazin.js",
+     "id": "fatih-zehir-iddiasi"
+    }
+   },
+   {
+    "deger": "supheli",
+    "adet": 2,
+    "dosyalar": [
+     "data/ekokuma_padisah.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_padisah.js",
+     "id": "supheli-olum-cem-sultan-1495"
+    }
+   },
+   {
+    "deger": "yorum",
+    "adet": 2,
+    "dosyalar": [
+     "data/ekokuma_p77a.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_p77a.js",
+     "id": "p77a-dogu-cephesi-basat-faktor"
+    }
+   },
+   {
+    "deger": "fail_belirsiz",
+    "adet": 1,
+    "dosyalar": [
+     "data/ekokuma_padisah.js"
+    ],
+    "tek_kullanimlik": true,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_padisah.js",
+     "id": "supheli-olum-cem-oguz-han"
+    }
+   },
+   {
+    "deger": "sirevrensel_belirsiz",
+    "adet": 1,
+    "dosyalar": [
+     "data/ekokuma_padisah.js"
+    ],
+    "tek_kullanimlik": true,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_padisah.js",
+     "id": "supheli-olum-orhan-kor-fetret"
+    }
+   }
+  ],
+  "eksik_say": 4,
+  "eksik": [
+   {
+    "dosya": "data/ekokuma_yunan.js",
+    "id": "yunan-1821-sebepler",
+    "global": "EKOKUMA_YUNAN"
+   },
+   {
+    "dosya": "data/ekokuma_yunan.js",
+    "id": "yunan-1821-destekciler",
+    "global": "EKOKUMA_YUNAN"
+   },
+   {
+    "dosya": "data/ekokuma_yunan.js",
+    "id": "filhelenizm-bati-yunan-sevgisi",
+    "global": "EKOKUMA_YUNAN"
+   },
+   {
+    "dosya": "data/ekokuma_yunan.js",
+    "id": "yunan-milli-anlati-1821",
+    "global": "EKOKUMA_YUNAN"
+   }
+  ]
+ },
+ "tur": {
+  "satirlar": [
+   {
+    "deger": "sebep-sonuc",
+    "adet": 211,
+    "dosyalar": [
+     "data/ekokuma.js",
+     "data/ekokuma_1806.js",
+     "data/ekokuma_alemdar.js",
+     "data/ekokuma_antlasma2.js",
+     "data/ekokuma_antlasma3.js",
+     "data/ekokuma_antlasma4.js",
+     "data/ekokuma_antlasma5.js",
+     "data/ekokuma_antlasma6.js",
+     "data/ekokuma_avusturya.js",
+     "data/ekokuma_bolge0073.js",
+     "data/ekokuma_celali.js",
+     "data/ekokuma_dalga2.js",
+     "data/ekokuma_deniz.js",
+     "data/ekokuma_diplomasi.js",
+     "data/ekokuma_ekonomi.js",
+     "data/ekokuma_hanedan.js",
+     "data/ekokuma_isyan1821.js",
+     "data/ekokuma_kasrisirin.js",
+     "data/ekokuma_korfez.js",
+     "data/ekokuma_lale.js",
+     "data/ekokuma_p75b.js",
+     "data/ekokuma_p76b.js",
+     "data/ekokuma_p76d.js",
+     "data/ekokuma_p76e.js",
+     "data/ekokuma_p76h.js",
+     "data/ekokuma_p77a.js",
+     "data/ekokuma_p77b.js",
+     "data/ekokuma_p77c.js",
+     "data/ekokuma_padisah.js",
+     "data/ekokuma_rivayet.js",
+     "data/ekokuma_rusiran.js",
+     "data/ekokuma_sh104.js",
+     "data/ekokuma_tamamla.js",
+     "data/ekokuma_toplum.js",
+     "data/ekokuma_venedik.js",
+     "data/ekokuma_vezir.js",
+     "data/ekokuma_yeniceri.js",
+     "data/ekokuma_yunan.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma.js",
+     "id": "yeniceri-ocagi-kurulusu"
+    }
+   },
+   {
+    "deger": "tartisma",
+    "adet": 203,
+    "dosyalar": [
+     "data/ekokuma_1806.js",
+     "data/ekokuma_akdeniz.js",
+     "data/ekokuma_alemdar.js",
+     "data/ekokuma_antlasma2.js",
+     "data/ekokuma_avusturya.js",
+     "data/ekokuma_bolge0073.js",
+     "data/ekokuma_celali.js",
+     "data/ekokuma_dalga2.js",
+     "data/ekokuma_dunya.js",
+     "data/ekokuma_hanedan.js",
+     "data/ekokuma_ihtilal.js",
+     "data/ekokuma_kadin.js",
+     "data/ekokuma_karadeniz.js",
+     "data/ekokuma_kasrisirin.js",
+     "data/ekokuma_kirimrus.js",
+     "data/ekokuma_kiyas.js",
+     "data/ekokuma_korfez.js",
+     "data/ekokuma_lale.js",
+     "data/ekokuma_mimari.js",
+     "data/ekokuma_p75b.js",
+     "data/ekokuma_p75c.js",
+     "data/ekokuma_p76b.js",
+     "data/ekokuma_p76c.js",
+     "data/ekokuma_p76d.js",
+     "data/ekokuma_p76e.js",
+     "data/ekokuma_p76f.js",
+     "data/ekokuma_p77a.js",
+     "data/ekokuma_p77b.js",
+     "data/ekokuma_p77c.js",
+     "data/ekokuma_padisah.js",
+     "data/ekokuma_rivayet.js",
+     "data/ekokuma_rusiran.js",
+     "data/ekokuma_savas.js",
+     "data/ekokuma_statu.js",
+     "data/ekokuma_tamamla.js",
+     "data/ekokuma_tartisma.js",
+     "data/ekokuma_toplum.js",
+     "data/ekokuma_venedik.js",
+     "data/ekokuma_vezir.js",
+     "data/ekokuma_yeniceri.js",
+     "data/ekokuma_yenilesme.js",
+     "data/ekokuma_yunan.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_1806.js",
+     "id": "1806-rusyanin-amaci-bahane-mi"
+    }
+   },
+   {
+    "deger": "teknik-bilimsel",
+    "adet": 103,
+    "dosyalar": [
+     "data/ekokuma.js",
+     "data/ekokuma_camitarz.js",
+     "data/ekokuma_dunya.js",
+     "data/ekokuma_kurum.js",
+     "data/ekokuma_kurum2.js",
+     "data/ekokuma_lale.js",
+     "data/ekokuma_mimari.js",
+     "data/ekokuma_mimari2.js",
+     "data/ekokuma_p75a.js",
+     "data/ekokuma_p76b.js",
+     "data/ekokuma_p76d.js",
+     "data/ekokuma_p76e.js",
+     "data/ekokuma_p80b.js",
+     "data/ekokuma_rivayet.js",
+     "data/ekokuma_rusiran.js",
+     "data/ekokuma_tamamla.js",
+     "data/ekokuma_yenilesme.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma.js",
+     "id": "hukum-alani-mesafe"
+    }
+   },
+   {
+    "deger": "kimdir",
+    "adet": 61,
+    "dosyalar": [
+     "data/ekokuma_1806.js",
+     "data/ekokuma_alemdar.js",
+     "data/ekokuma_celali.js",
+     "data/ekokuma_dalga2.js",
+     "data/ekokuma_dunya.js",
+     "data/ekokuma_isyan1821.js",
+     "data/ekokuma_kadin.js",
+     "data/ekokuma_kolemen.js",
+     "data/ekokuma_kurum.js",
+     "data/ekokuma_lale.js",
+     "data/ekokuma_p75b.js",
+     "data/ekokuma_p76b.js",
+     "data/ekokuma_p76d.js",
+     "data/ekokuma_p76e.js",
+     "data/ekokuma_p77a.js",
+     "data/ekokuma_p77b.js",
+     "data/ekokuma_padisah.js",
+     "data/ekokuma_rivayet.js",
+     "data/ekokuma_vezir.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_1806.js",
+     "id": "kimdir-dorduncu-mustafa"
+    }
+   },
+   {
+    "deger": "magazin",
+    "adet": 57,
+    "dosyalar": [
+     "data/ekokuma_deniz.js",
+     "data/ekokuma_ibrahim.js",
+     "data/ekokuma_lale.js",
+     "data/ekokuma_magazin.js",
+     "data/ekokuma_padisah.js",
+     "data/ekokuma_rivayet.js",
+     "data/ekokuma_vecize.js",
+     "data/ekokuma_vezir.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_deniz.js",
+     "id": "deniz-ebukir-merak"
+    }
+   },
+   {
+    "deger": "savas-hikayesi",
+    "adet": 51,
+    "dosyalar": [
+     "data/ekokuma_dalga2.js",
+     "data/ekokuma_deniz.js",
+     "data/ekokuma_dunya.js",
+     "data/ekokuma_lale.js",
+     "data/ekokuma_p75b.js",
+     "data/ekokuma_p76b.js",
+     "data/ekokuma_p76e.js",
+     "data/ekokuma_p77b.js",
+     "data/ekokuma_rivayet.js",
+     "data/ekokuma_savas.js",
+     "data/ekokuma_savas1770.js",
+     "data/ekokuma_savas3.js",
+     "data/ekokuma_vezir.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_dalga2.js",
+     "id": "savas-bursa-1326"
+    }
+   },
+   {
+    "deger": "karsi-anlati",
+    "adet": 34,
+    "dosyalar": [
+     "data/ekokuma_bakis.js",
+     "data/ekokuma_isyan1821.js",
+     "data/ekokuma_karsi.js",
+     "data/ekokuma_kolemen.js",
+     "data/ekokuma_misir1805.js",
+     "data/ekokuma_p76c.js",
+     "data/ekokuma_yunan.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_bakis.js",
+     "id": "bakis-sirp"
+    }
+   },
+   {
+    "deger": "antlasma",
+    "adet": 26,
+    "dosyalar": [
+     "data/ekokuma.js",
+     "data/ekokuma_antlasma2.js",
+     "data/ekokuma_antlasma3.js",
+     "data/ekokuma_kasrisirin.js",
+     "data/ekokuma_p76d.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma.js",
+     "id": "antlasma-karlofca-1699"
+    }
+   },
+   {
+    "deger": "dis-yankilar",
+    "adet": 14,
+    "dosyalar": [
+     "data/ekokuma_avusturya.js",
+     "data/ekokuma_ihtilal.js",
+     "data/ekokuma_p76b.js",
+     "data/ekokuma_p76c.js",
+     "data/ekokuma_p76g.js",
+     "data/ekokuma_tartisma.js",
+     "data/ekokuma_yunan.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_avusturya.js",
+     "id": "avusturya-prens-eugen-hafiza"
+    }
+   },
+   {
+    "deger": "edebiyat",
+    "adet": 7,
+    "dosyalar": [
+     "data/ekokuma_edebiyat.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_edebiyat.js",
+     "id": "baki-kanuni-mersiyesi"
+    }
+   },
+   {
+    "deger": "bu-ulke-neden-var",
+    "adet": 4,
+    "dosyalar": [
+     "data/ekokuma_p76b.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_p76b.js",
+     "id": "bunv-romanya-1859"
+    }
+   },
+   {
+    "deger": "kahramanlik",
+    "adet": 2,
+    "dosyalar": [
+     "data/ekokuma_p76c.js",
+     "data/ekokuma_savas.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_p76c.js",
+     "id": "kuzey-ege-adalari-averof-hamidiye"
+    }
+   },
+   {
+    "deger": "menkibeler",
+    "adet": 2,
+    "dosyalar": [
+     "data/ekokuma_celali.js",
+     "data/ekokuma_rivayet.js"
+    ],
+    "tek_kullanimlik": false,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_celali.js",
+     "id": "menkibe-kuyucu-lakabi"
+    }
+   },
+   {
+    "deger": "diplomasi",
+    "adet": 1,
+    "dosyalar": [
+     "data/ekokuma_p76g.js"
+    ],
+    "tek_kullanimlik": true,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_p76g.js",
+     "id": "p76g-bagimsizlik-1908-osmanli-tepkisi"
+    }
+   },
+   {
+    "deger": "sok-haberler",
+    "adet": 1,
+    "dosyalar": [
+     "data/ekokuma_p76c.js"
+    ],
+    "tek_kullanimlik": true,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_p76c.js",
+     "id": "babiali-baskini-1913-enver-yakup-cemil"
+    }
+   }
+  ],
+  "eksik_say": 0,
+  "eksik": []
+ },
+ "tur_capraz": {
+  "kayitli_evren": [
+   "antlasma",
+   "bu-ulke-neden-var",
+   "dis-yankilar",
+   "edebiyat",
+   "kahramanlik",
+   "karsi-anlati",
+   "kimdir",
+   "magazin",
+   "menkibeler",
+   "merak",
+   "savas-hikayesi",
+   "sebep-sonuc",
+   "sok-haberler",
+   "tartisma",
+   "teknik-bilimsel"
+  ],
+  "kayitdisi": {
+   "diplomasi": {
+    "deger": "diplomasi",
+    "adet": 1,
+    "dosyalar": [
+     "data/ekokuma_p76g.js"
+    ],
+    "tek_kullanimlik": true,
+    "birlestirme_adayi": [],
+    "ornek": {
+     "dosya": "data/ekokuma_p76g.js",
+     "id": "p76g-bagimsizlik-1908-osmanli-tepkisi"
+    }
+   }
+  },
+  "kayitli_ama_karti_yok": [
+   "merak"
+  ],
+  "not": "kayitdisi tur = app.js tanımıyor = kart SESSİZCE görünmez (app.js:10731)"
+ },
+ "gorsel_kaynaksiz": [],
+ "zorunlu_eksik": {
+  "id": [],
+  "tur": [],
+  "kesinlik": [
+   {
+    "dosya": "data/ekokuma_yunan.js",
+    "id": "yunan-1821-sebepler"
+   },
+   {
+    "dosya": "data/ekokuma_yunan.js",
+    "id": "yunan-1821-destekciler"
+   },
+   {
+    "dosya": "data/ekokuma_yunan.js",
+    "id": "filhelenizm-bati-yunan-sevgisi"
+   },
+   {
+    "dosya": "data/ekokuma_yunan.js",
+    "id": "yunan-milli-anlati-1821"
+   }
+  ],
+  "kaynak": [],
+  "metin": [
+   {
+    "dosya": "data/ekokuma_dalga2.js",
+    "id": "savas-bursa-1326"
+   },
+   {
+    "dosya": "data/ekokuma_dalga2.js",
+    "id": "savas-trabzon-1461"
+   },
+   {
+    "dosya": "data/ekokuma_dalga2.js",
+    "id": "savas-otlukbeli-1473"
+   },
+   {
+    "dosya": "data/ekokuma_dalga2.js",
+    "id": "savas-rodos-1522"
+   },
+   {
+    "dosya": "data/ekokuma_deniz.js",
+    "id": "deniz-ebukir-1798"
+   },
+   {
+    "dosya": "data/ekokuma_dunya.js",
+    "id": "savas-canakkale-bozgunu-1656"
+   },
+   {
+    "dosya": "data/ekokuma_dunya.js",
+    "id": "savas-viyana-karlofca-1683-1699"
+   },
+   {
+    "dosya": "data/ekokuma_dunya.js",
+    "id": "savas-kirim-savasi-1853-1856"
+   },
+   {
+    "dosya": "data/ekokuma_dunya.js",
+    "id": "savas-93-harbi-1877-1878"
+   },
+   {
+    "dosya": "data/ekokuma_dunya.js",
+    "id": "savas2-atina-1687-parthenon-patlamasi"
+   },
+   {
+    "dosya": "data/ekokuma_p75b.js",
+    "id": "savas-p75b-nizip-1839"
+   },
+   {
+    "dosya": "data/ekokuma_p75b.js",
+    "id": "savas-p75b-sinop-1853"
+   },
+   {
+    "dosya": "data/ekokuma_p75b.js",
+    "id": "savas-p75b-kirim-cepheleri"
+   },
+   {
+    "dosya": "data/ekokuma_p77b.js",
+    "id": "p77b-sarikamis-harekati-1914"
+   },
+   {
+    "dosya": "data/ekokuma_p77b.js",
+    "id": "p77b-birinci-kanal-harekati-1915"
+   },
+   {
+    "dosya": "data/ekokuma_p77b.js",
+    "id": "p77b-kafkas-cephesi-ve-kafkas-islam-ordusu"
+   },
+   {
+    "dosya": "data/ekokuma_p77b.js",
+    "id": "p77b-sakarya-meydan-muharebesi-1921"
+   },
+   {
+    "dosya": "data/ekokuma_rivayet.js",
+    "id": "savas-salankamen-1691"
+   },
+   {
+    "dosya": "data/ekokuma_rivayet.js",
+    "id": "savas-zenta-1697"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-inebahti-1571"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-preveze-1538"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-cerbe-1560"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-mohac-1526"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-caldiran-1514"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-ridaniye-1517"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-mercidabik-1516"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-ankara-1402"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-nigbolu-1396"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-kosova-1389"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-varna-1444"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-kosova-1448"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-otranto-1480-1481"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-budin-1541"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-hacova-1596"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-prut-1711"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-cesme-1770"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-plevne-1877"
+   },
+   {
+    "dosya": "data/ekokuma_savas.js",
+    "id": "savas-kanije-1601"
+   },
+   {
+    "dosya": "data/ekokuma_savas1770.js",
+    "id": "savas-kartal-kagul-1770"
+   },
+   {
+    "dosya": "data/ekokuma_savas3.js",
+    "id": "savas-koyunhisar-bapheus-1302"
+   },
+   {
+    "dosya": "data/ekokuma_savas3.js",
+    "id": "savas-pelekanon-1329"
+   },
+   {
+    "dosya": "data/ekokuma_savas3.js",
+    "id": "savas-cirmen-1371"
+   },
+   {
+    "dosya": "data/ekokuma_savas3.js",
+    "id": "savas-rovine-1395"
+   },
+   {
+    "dosya": "data/ekokuma_savas3.js",
+    "id": "savas-kandiye-girit-1669"
+   },
+   {
+    "dosya": "data/ekokuma_savas3.js",
+    "id": "savas-kamanice-1672"
+   },
+   {
+    "dosya": "data/ekokuma_vezir.js",
+    "id": "savas-hikayesi-parkan-1683"
+   }
+  ]
+ },
+ "mukerrer_id": {
+  "kimdir-kuyucu-murad-pasa": [
+   "data/ekokuma_celali.js",
+   "data/ekokuma_vezir.js"
+  ]
+ }
+}

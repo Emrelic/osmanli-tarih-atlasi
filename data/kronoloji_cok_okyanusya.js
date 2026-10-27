@@ -46,7 +46,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   gun:"18 Eylül 1840 (Te Ara'daki resmî kuruluş günü)",
   ic_not_d:"Bu ve öteki Okyanusya yerleşim kuruluşları için başlıktaki ANA BULGU'ya bak. Kuruluşun hukukî/arazi ayrıntıları (satın alma vb.) bu maddeye BİLEREK alınmadı, kaynaktan sınanmadı." },
 
-{ t:"1863-07-12", b:"Yeni Zelanda ordusu Mangatawhiri'yi geçip Waikato'yu işgal etti", tur:"savas", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Auckland"], t:"1863-07-12", b:"Yeni Zelanda ordusu Mangatawhiri'yi geçip Waikato'yu işgal etti", tur:"savas", onem:4, dunya:1, kapsam:"ic",
   etiket:["savas","isgal","toprak-kazanc","konu-askeri","konu-siyasi","yeni-zelanda"], yer_id:"", taraflar:["yeni-zelanda"],
   d:"Vali George Grey'in emriyle Korgeneral Cameron komutasındaki İngiliz ve koloni birlikleri Temmuz 1863'te Mangatawhiri Deresi'ni geçerek Maori Kīngitanga (Kral Hareketi) toprağı olan Waikato havzasını işgal etti. Sonraki aylarda savaş kuzeyden Waikato boyunca ilerledi, Aralık 1863'te çıkan Yeni Zelanda Yerleşim Yasası ile isyan eden kabilelerin toprakları müsadereye açıldı. Bu savaş, Kuzey Ada'nın iç kesimlerinin Yeni Zelanda hükümetinin denetimine girmesinin başlangıcıdır.",
   kaynak:"James Belich, The New Zealand Wars and the Victorian Interpretation of Racial Conflict (Auckland UP, 1986) · Te Ara, «Waikato War». Sayfa verilmedi (açılmadı).",

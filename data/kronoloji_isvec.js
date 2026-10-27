@@ -103,7 +103,7 @@ window.KRONOLOJI_ISVEC = [
   yer_id:"",
   d:"Kardeşleri Johan ve Karl'ın önderliğindeki soylu ayaklanması, giderek dengesizleşen IV. Erik'i tahttan indirdi. Erik yıllarca hapiste tutuldu ve 1577'de zehirlenerek öldürüldüğü sanılıyor; III. Johan'ın saltanatı İsveç'i Polonya hanedan siyasetine sürükleyecekti.",
   kaynak:"Franklin D. Scott, Sweden: The Nation's History", yer_kon:[59.3293,18.0686] },
-{ t:"1587-01-01", b:"Osmanlı ile ilk resmî temas — Kral Sigismund'un mektubu", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis",
+{ odak_yer:["Stokholm","Krakov","İstanbul"], t:"1587-01-01", b:"Osmanlı ile ilk resmî temas — Kral Sigismund'un mektubu", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis",
   etiket:["diplomasi","konu-diplomasi"],
   yer_id:"",
   d:"İsveç veliahtı ve aynı yıl Polonya kralı seçilen Sigismund (III. Zygmunt Waza), III. Murad'a bir mektup göndererek Osmanlı-İsveç ilişkilerinin ilk resmî belgeli temasını başlattı. Bu, XII. Karl'ın 1709'daki sığınmasından bir buçuk asır önceki, projede TDV kaynağıyla doğrulanmış en erken temastır.",
@@ -177,7 +177,7 @@ window.KRONOLOJI_ISVEC = [
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718", yer_kon:[51.249,12.147] },
 
 // === D) KRALİÇE KRİSTİNA VE MUTLAKİYETE GİDİŞ (1632-1660) ===================
-{ t:"1632-11-06", b:"Axel Oxenstierna naipliği fiilen başladı", tur:"idari", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Stokholm"], t:"1632-11-06", b:"Axel Oxenstierna naipliği fiilen başladı", tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["idari","siyaset","konu-siyasi","konu-idari"],
   yer_id:"",
   d:"Gustav Adolf'un ölümüyle altı yaşındaki Kristina tahta çıkarken, devlet yönetimi güçlü ve tecrübeli şansölye Axel Oxenstierna'nın elinde toplandı. Oxenstierna, Otuz Yıl Savaşları'nın geri kalanında İsveç dış politikasını ve merkezi bürokrasisini bizzat inşa etti.",
@@ -196,7 +196,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["siyaset","taht","konu-siyasi","konu-hanedan"],
   d:"Evlenmeyi reddeden ve giderek Katolikliğe yakınlaşan Kristina, kuzeni Karl Gustav lehine tahttan feragat etti. Feragat töreni, otuz yıl süren Vasa saltanatının bu kolunu kapatan sembolik bir dönüm noktasıdır.",
   kaynak:"Franklin D. Scott, Sweden: The Nation's History", yer_id:"Uppsala" },
-{ t:"1655-01-01", b:"Kristina, Katolikliğe geçip Roma'ya yerleşti", tur:"din", onem:3, dunya:1, kapsam:"ic",
+{ odak_yer:["Roma","Stokholm"], t:"1655-01-01", b:"Kristina, Katolikliğe geçip Roma'ya yerleşti", tur:"din", onem:3, dunya:1, kapsam:"ic",
   etiket:["din","konu-din"],
   yer_id:"",
   d:"Tahttan çekildikten kısa süre sonra Kristina, gizlice Katolikliğe geçtiğini açıkladı ve Roma'ya yerleşerek ömrünün geri kalanını burada geçirdi. Katolik bir eski İsveç kraliçesinin varlığı dönemin Avrupa'sında büyük yankı uyandırdı.",
@@ -246,7 +246,7 @@ window.KRONOLOJI_ISVEC = [
   kaynak:"Franklin D. Scott, Sweden: The Nation's History", yer_kon:[59.3293,18.0686] },
 
 // === F) BÜYÜK KUZEY SAVAŞI VE XII. KARL'IN OSMANLI SIĞINMASI (1700-1721) =====
-{ t:"1700-01-01", b:"Büyük Kuzey Savaşı başladı", tur:"savas", onem:5, dunya:4, kapsam:"dis",
+{ odak_yer:["Narva","Riga","Kopenhag"], t:"1700-01-01", b:"Büyük Kuzey Savaşı başladı", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Danimarka, Rusya ve Saksonya-Polonya, genç ve tecrübesiz sandıkları XII. Karl'a karşı gizli bir ittifakla aynı anda savaş açtı.", ic_not_d:"`dunya:4` değeri data/kronoloji_rusya.js:327 ile birebir alınmıştır; savaş 1721'e dek sürüp İsveç'in büyük güç statüsünü sona erdirecekti.",
@@ -299,7 +299,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["diplomasi","konu-diplomasi"],
   d:"Kalabalık Vakası'ndan sonra Dimetoka'da gözetim altında tutulan XII. Karl'a, uzun görüşmelerin ardından ülkesine dönme izni verildi. İzin, beş yıllık Osmanlı ikametinin resmî olarak kapanışını işaret eder.",
   kaynak:"isvec (TDV, içerik okundu)", yer_id:"Dimetoka" },
-{ t:"1714-10-11", b:"XII. Karl, Osmanlı topraklarından ayrılıp Avrupa'ya döndü", tur:"diger", onem:3, dunya:1, kapsam:"dis",
+{ odak_yer:["Dimetoka","Stralsund"], t:"1714-10-11", b:"XII. Karl, Osmanlı topraklarından ayrılıp Avrupa'ya döndü", tur:"diger", onem:3, dunya:1, kapsam:"dis",
   etiket:["diger"],
   yer_id:"",
   d:"XII. Karl, küçük bir maiyetle at sırtında on beş günde Osmanlı topraklarından Avrupa'daki İsveç topraklarına ulaştı — dönemin Avrupa basınında geniş yankı uyandıran efsanevi bir yolculuk.", ic_not_d:"TDV'nin `isvec` maddesi varış tarihini bu şekilde vermektedir; yolculuğun son durağının kesin coğrafi ayrıntısı bu dosyada ayrıca doğrulanmamıştır.",
@@ -511,7 +511,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["ekonomi","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"On dokuzuncu yüzyıl ortasında değişen deniz ticareti koşullarına uyum sağlamak üzere iki devlet, ticaret ve seyrisefâin ilişkilerini güncelleyen yeni bir antlaşma imzaladı. Antlaşma, Osmanlı-İsveç ilişkilerinin 1587'den beri süren en uzun soluklu diplomatik çizgilerden birinin geç dönem halkasıdır.",
   kaynak:"isvec (TDV, içerik okundu)", yer_id:"İstanbul" },
-{ t:"1901-01-01", b:"İlk Nobel Ödülleri verildi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Stokholm","Oslo"], t:"1901-01-01", b:"İlk Nobel Ödülleri verildi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
   etiket:["bilim","kultur","konu-bilim","konu-kultur"],
   yer_id:"",
   d:"Alfred Nobel'in 1895 vasiyetnamesinde öngörülen fizik, kimya, tıp, edebiyat ve barış ödülleri ilk kez Stockholm ve Oslo'da (barış ödülü) dağıtıldı.", ic_not_d:"`dunya:2` istisnai olarak verildi çünkü ödül, kısa sürede kalıcı ve dünya çapında bir bilim-kültür kurumuna dönüştü — tek bir devletin iç meselesi olmaktan çıktı.",

@@ -1,0 +1,537 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Friesach",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1246,
+    1246
+   ],
+   "ornek_maddeler": [
+    "1246-12-01 II. Eberhard Friesach'ta öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 46.95528,
+      "lon": 14.40583,
+      "kaynak": "GeoNames 2779229 Friesach"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Worringen",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1247,
+    1247
+   ],
+   "ornek_maddeler": [
+    "1247-10-03 II. Willem Worringen'de Alman karşı kralı seçildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 51.065,
+      "lon": 6.85936,
+      "kaynak": "GeoNames 2806107 Worringen"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Busca",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1251,
+    1251
+   ],
+   "ornek_maddeler": [
+    "1251-01-01 Busca markizlerine karşı savaş (1251-1253): Saluzzo, Montferrat, Savoy"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Busca 44.51625,7.47662; Bușca 44.11166,24.80238"
+    }
+   ]
+  },
+  {
+   "ad": "Westkapelle",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1253,
+    1253
+   ],
+   "ornek_maddeler": [
+    "1253-01-01 Westkapelle'de Floris, Flandre Kontesi Margarete'nin ordusunu yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Westkapelle 51.31511,3.3017; Westkapelle 51.52917,3.44028"
+    }
+   ]
+  },
+  {
+   "ad": "Hoogwoud",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1256,
+    1256
+   ],
+   "ornek_maddeler": [
+    "1256-01-28 Kral II. Willem Batı Frizyalılara karşı seferde buzda öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 52.71583,
+      "lon": 4.93889,
+      "kaynak": "GeoNames 2753663 Hoogwoud"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Cassano",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1259,
+    1259
+   ],
+   "ornek_maddeler": [
+    "1259-10-01 Ezzelino Cassano'da yaralanıp yakalandı ve öldü; Brescia üzerindeki hâ"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 39.785357,
+      "lon": 16.318288,
+      "kaynak": "Pleiades 452288"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Soncino",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1259,
+    1259
+   ],
+   "ornek_maddeler": [
+    "1259-10-01 Ezzelino Cassano'da yaralanıp yakalandı ve öldü; Brescia üzerindeki hâ"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 45.40033,
+      "lon": 9.86845,
+      "kaynak": "GeoNames 3166399 Soncino"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Kurland",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1260,
+    1260
+   ],
+   "ornek_maddeler": [
+    "1260-07-13 Durbe Muharebesi: Samogitya güçleri Livonya Tarikatı'nı ve Töton mareş"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -33.94489,
+      "lon": 23.49272,
+      "kaynak": "GeoNames 11203982 Kurland"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Landsberg",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1263,
+    1263
+   ],
+   "ornek_maddeler": [
+    "1263-01-01 Heinrich der Erlauchte topraklarını oğulları arasında paylaştırdı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 5 aday: Landsberg 51.52698,12.16076; Landsberg am Lech 48.04819,10.88282; Górowo Iławeckie 54.28559,20.48886; Gorzów Wielkopolski 52.73371,15.22505"
+    }
+   ]
+  },
+  {
+   "ad": "Heilo",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1272,
+    1272
+   ],
+   "ornek_maddeler": [
+    "1272-08-20 Heilo Savaşı: V. Floris Batı Frizyalılar karşısında yenildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 52.60252,
+      "lon": 4.68815,
+      "kaynak": "GeoNames 2754516 Heiloo"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Heiloo",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1272,
+    1272
+   ],
+   "ornek_maddeler": [
+    "1272-08-20 Heilo Savaşı: V. Floris Batı Frizyalılar karşısında yenildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 52.60252,
+      "lon": 4.68815,
+      "kaynak": "GeoNames 2754516 Heiloo"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Roccavione",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1275,
+    1275
+   ],
+   "ornek_maddeler": [
+    "1275-11-10 Roccavione'de Asti-Montferrat-Saluzzo ittifakı Anjou ordusunu bozdu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 44.31355,
+      "lon": 7.47845,
+      "kaynak": "GeoNames 3169122 Roccavione"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Bắc Ninh",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1077,
+    1077
+   ],
+   "ornek_maddeler": [
+    "1077-01-01 Như Nguyệt Savaşı — Đại Việt, Song istilasını Cầu nehrinde durdurdu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 21.18608,
+      "lon": 106.07631,
+      "kaynak": "GeoNames 1591449 Bắc Ninh"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Ningjiang",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1114,
+    1114
+   ],
+   "ornek_maddeler": [
+    "1114-01-01 Wanyan Aguda'nın Jurchenleri Ningjiang'da Liao ordusunu yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 45.16997,
+      "lon": 124.82369,
+      "kaynak": "GeoNames 12483507 Ningjiang"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Tsushima",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1274,
+    1274
+   ],
+   "ornek_maddeler": [
+    "1274-01-01 Yuan–Goryeo ortak donanmasının ilk Japonya seferi (Bun'ei) başarısız o"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Tsushima 35.16667,136.71667; Tsushima 34.20634,129.29076"
+    }
+   ]
+  },
+  {
+   "ad": "Iki",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1274,
+    1274
+   ],
+   "ornek_maddeler": [
+    "1274-01-01 Yuan–Goryeo ortak donanmasının ilk Japonya seferi (Bun'ei) başarısız o"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.78286,
+      "lon": 129.7209,
+      "kaynak": "GeoNames 11612327 Iki"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Izu",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1180,
+    1180
+   ],
+   "ornek_maddeler": [
+    "1180-01-01 Genpei Savaşı başladı — Minamoto no Yoritomo Taira'ya karşı ayaklandı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 34.97159,
+      "lon": 138.94643,
+      "kaynak": "GeoNames 6822192 Izu"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Kantō",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1180,
+    1180
+   ],
+   "ornek_maddeler": [
+    "1180-01-01 Genpei Savaşı başladı — Minamoto no Yoritomo Taira'ya karşı ayaklandı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 10.03711,
+      "lon": 105.78825,
+      "kaynak": "GeoNames 1586203 Cần Thơ"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Chi Lăng",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    981,
+    981
+   ],
+   "ornek_maddeler": [
+    "0981-01-01 Bạch Đằng — Lê Hoàn, Song istilasını püskürttü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 21.57356,
+      "lon": 106.50258,
+      "kaynak": "GeoNames 8522285 Chi Lăng"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Liangzhou",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1247,
+    1247
+   ],
+   "ornek_maddeler": [
+    "1247-01-01 Sakya Pandita, Moğol prensi Köten'le Liangzhou'da görüştü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 37.92672,
+      "lon": 102.63202,
+      "kaynak": "GeoNames 1803936 Wuwei"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Bihar",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    988,
+    988
+   ],
+   "ornek_maddeler": [
+    "0988-01-01 I. Mahipala tahta çıktı; Pâla gücü yeniden Varanasi'ye kadar uzandı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Bihār Sharīf 25.20084,85.52389; Baihar 22.10133,80.54967; Biharia 47.15,21.91667"
+    }
+   ]
+  },
+  {
+   "ad": "Taraori",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1191,
+    1191
+   ],
+   "ornek_maddeler": [
+    "1191-01-01 Birinci Taraori (Tarain) Savaşı: III. Pritvirac'ın Racput ordusu Gurlu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 29.80147,
+      "lon": 76.92825,
+      "kaynak": "GeoNames 1254413 Tirāwari"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Mesa Verde",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1150,
+    1150
+   ],
+   "ornek_maddeler": [
+    "1150-01-01 Ata Puebloluları mesa düzlüklerinden kanyon duvarlarındaki kaya evleri"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.60586,
+      "lon": -114.73107,
+      "kaynak": "GeoNames 5372433 Mesa Verde"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Hulvân",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1010,
+    1010
+   ],
+   "ornek_maddeler": [
+    "1010-01-01 Ebü'l-Feth öldü; Ebü'ş-Şevk Fâris Annâzî başına geçti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 34.465114,
+      "lon": 45.85589,
+      "kaynak": "Pleiades 903043"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  }
+ ]
+}

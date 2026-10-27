@@ -1,0 +1,492 @@
+{
+ "bolge": "Antik dönemde haritada delik kalan 11 şehir (Xi'an, Çengdu, Luoyang, Zhangye, Dunhuang, Mekke, Urfa, Trier, Köln, Susa, Kutaisi) — MÖ 3000 → MS 500; yalnız metni bu turda ÇEKİLİP OKUNAN geçişler yazıldı",
+ "tarih_olcum": "23 Ekim 2026",
+ "kronoloji_notu": "MS yılları NEGATİF (bas_mo -476 = MS 476), MÖ pozitif. Çin kaynaklarında yıl 'hükümdar yılı'dır (ör. 孝公十二年, 惠文王更元九年, 建武元年); MÖ/MS karşılığı bu oturumda standart kronoloji tablosuyla hesaplandı → 'HESAP' etiketli, kaynağın kendi cümlesi değildir. Hiçbir kaynakta gün (Julian) çevrilmedi; gün alanları null, sexagenary günler gan_zhi olarak not edildi. Metinler: zh.wikisource.org (Shiji, Hanshu, Hou Han shu, Sanguozhi, Jin shu, Wei shu), TDV İslâm Ansiklopedisi (mekke), Latin Library (Tacitus, Eutropius, Ammianus, Caesar, Gregory of Tours), LacusCurtius/Thayer (Dio, Strabo), Gutenberg (Arrian/Chinnock), tertullian.org (Chronicle of Edessa). Wikisource metinleri editör notları içerir; alıntılar ana metindendir. Iranica web.archive.org/web/2024 bağlantıları 404 verdi (Susa-i, Susa-ii slug'ı yanlış/arşivsiz) → Susa Seleukos/Part/Sasani dönemi KAYNAKSIZ. Britannica/Pleiades çekilmedi.",
+ "sehir_kontrol": [
+  {
+   "sehir": "Xi'an (Chang'an)",
+   "atlas_nokta": "data/yerlesimler_asya.js:1752 'Xi'an (Chang'an)' lat 34.3420 lon 108.9400; atlasın ilk s: dönemi 0500-01-01 (__BOSLUK__/kuzey-wei beyanı)",
+   "konum_tanik": ["atlas 34.3420/108.9400", "OSM Nominatim 'Xi'an' (relation 3226004) 34.2610/108.9423 — il merkezi noktası, atlas Han Chang'an harabesine ~8 km daha yakın", "Pleiades/Wikidata bu turda çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "qin-devleti",
+     "bas_mo": 350,
+     "son_mo": null,
+     "gecis_kaynagi": "Shiji 5 (Qin benji), Xiaogong 12. yıl: başkent Xianyang'a taşındı (Xianyang atlas noktasından ~21 km; aynı Wei ovası). Qin'in Guanzhong'daki sahipliği bundan eskidir — o ilk gün kaynakta yok.",
+     "alinti": "十二年，作為咸陽，筑冀闕，秦徙都之。",
+     "kronoloji_okulu": "Xiaogong 12 = MÖ 350 (standart tablo, HESAP)",
+     "yil_durumu": "HESAP (hükümdar yılı → MÖ); bu dönemin başı 'başkent oluş' yılıdır, sahiplik başlangıcı değildir",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "qin-hanedani",
+     "bas_mo": 221,
+     "son_mo": null,
+     "gecis_kaynagi": "Shiji 6, Qin Shi Huang 26. yıl: 'ilk kez bütün ülkeyi birleştirdi' (devlet Qin kimliği değişimi; Chang'an/Xianyang Qin çekirdeğidir)",
+     "alinti": "二十有六年，初并天下",
+     "kronoloji_okulu": "26. yıl = MÖ 221 (HESAP)",
+     "yil_durumu": "HESAP; Qin'in düşüşü (MÖ 206) bu turda okunmadı → son_mo null",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "bati-han",
+     "bas_mo": 202,
+     "son_mo": null,
+     "gecis_kaynagi": "Hanshu 1 (Gaodi ji) 5. yıl: 'o gün arabayla batıya, Chang'an'a başkent geldi'; 7. yıl: Yueyang'dan Chang'an'a başkent taşındı. Han'ın Guanzhong'a hükmü MÖ 206'dan eskidir (Xiang Yu'nun üçe bölmesi) — bu turda okunmadı.",
+     "alinti": "是日，車駕西都長安。 / 自櫟陽徙都長安。",
+     "kronoloji_okulu": "Gaodi 5. yıl = MÖ 202, 7. yıl = MÖ 200 (HESAP)",
+     "yil_durumu": "HESAP; bas_mo 202 'başkent ilanı' (Hanshu 5. yıl başlığı altında), şehrin fiilî inşa/taşınma 7. yıl (MÖ 200)",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "gengshi",
+     "bas_mo": -23,
+     "son_mo": -25,
+     "gecis_kaynagi": "Hou Han shu 11 (Liu Xuan): Chang'an'da Mang'a karşı ayaklanma; 9. ay Gongbin Jiu Mang'ı Jiantai'de öldürdü; Gengshi Luoyang'a gitti, Shentu Jian/Li Song Chang'an'dan ulaklık yolladı, 2. yıl (24) 2. ay Gengshi Luoyang'dan batıya (Chang'an) yürüdü. Son uç: Hou Han shu 1a, Jianwu 1 9. ay Chimei Chang'an'a girdi, Gengshi Gaoling'e kaçtı.",
+     "alinti": "九月，東海人公賔就斬王莽於漸臺 / 九月，赤眉入長安，更始奔高陵。",
+     "kronoloji_okulu": "Dìhuáng 4 / Gengshi 1 = MS 23; Jianwu 1 = MS 25 (HESAP). Künye gengshi f=0023 t=0025 ile uyumlu.",
+     "yil_durumu": "HESAP; ay-düzeyi (9. ay, Çin ayı); Julian gün çevrilmedi",
+     "gun": null,
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "chimei-jianshi",
+     "bas_mo": -25,
+     "son_mo": null,
+     "gecis_kaynagi": "Hou Han shu 1a, Jianwu 1: Chimei Chang'an'a girdi, saray yaktı; aynı ay Deng Yu Chang'an'a girip 11 imparatorun tabletlerini Gao Miao'ya götürdü (kısa süreli Han girişi). Chimei'nin Chang'an'dan çıkışı (künye t=0027) bu turda okunmadı.",
+     "alinti": "是月，赤眉焚西京宮室，發掘園陵，寇掠關中。大司徒鄧禹入長安",
+     "kronoloji_okulu": "Jianwu 1 = MS 25 (HESAP)",
+     "yil_durumu": "HESAP",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "dogu-han",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "Hou Han shu 1b: bir yılın 4. ayında (yıl başlığı bu turda okunmadı; sıra Jianwu 6-8 civarı) İmparator Chang'an'a gelip Han Gaozu tapınağında sunak yaptı; Wu Han Chang'an'a çekildi. Bu yalnız Han kontrolünün VARLIĞINI gösterir — başlangıç günü/yılı (Chimei'nin ayrılışı) kaynakta okunmadı.",
+     "alinti": "夏四月丙子，幸長安，始謁高廟，遂有事十一陵。",
+     "kronoloji_okulu": "Jianwu 6-8 ≈ MS 30-32 (yıl başlığı okunmadı)",
+     "yil_durumu": "başlangıç YOK (null); Han'ın elinde olduğu Jianwu 6-8 civarında kaynaklı",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "han-zhao",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "Jin shu 103 (Liu Yao zaiji): Liu Yao imparatorluğunu ilan edip 'Guangchu' dönem adını koyduktan sonra başkenti Chang'an'a taşıdı (Taixing 1 = MS 318 ilanı; taşınma yılı ayrıca verilmiyor).",
+     "alinti": "徙都長安，起光世殿於前，紫光殿於後。",
+     "kronoloji_okulu": "ilan 318 (Taixing 1); taşınma 318/319 — kitap kaynağı gerekli (Zizhi Tongjian 90-91 okunmadı)",
+     "yil_durumu": "null — yıl kaynakta yok",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "onceki-qin",
+     "bas_mo": -351,
+     "son_mo": null,
+     "gecis_kaynagi": "Jin shu 112 (Fu Jian/Fu Jiàn zaiji): Yonghe 7'de Fu Jian kendini Tianwang ilan edip Chang'an'da saray kurdu (Du Hong'un Chang'an'ı işgali sona erer).",
+     "alinti": "永和七年，僭稱天王、大單于…置百官于長安。",
+     "kronoloji_okulu": "Yonghe 7 = MS 351 (HESAP)",
+     "yil_durumu": "HESAP; fiilî giriş günü kaynakta yok",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "sonraki-qin (Yao Qin; devletler.js'te 'sonraki-qin' ID'si YOK — 'bati-qin-qifu' Batı Qin'dir, karıştırma)",
+     "bas_mo": -386,
+     "son_mo": null,
+     "gecis_kaynagi": "Jin shu 116 (Yao Chang zaiji): Taiyuan 11'de Yao Chang Chang'an'da imparatorluk ilan etti, dönem adı Jianchu, Chang'an'ın adı Chang'an→Changan 'Cháng'ān 常安' yapıldı.",
+     "alinti": "以太元十一年萇僭即皇帝位於長安，大赦，改元曰建初，國號大秦，改長安曰常安。",
+     "kronoloji_okulu": "Taiyuan 11 = MS 386 (HESAP)",
+     "yil_durumu": "HESAP",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "Kaynaklı dönem OLMAYAN aralıklar: MÖ 3000–350 (Zhou Hao/Feng başkenti dahil; Shiji metni yıl vermez, XSZ Projesi 1046 / Shaughnessy 1045 kitap kaynağı), MÖ 221–202 (Qin→Han geçiş yılı MÖ 206 okunmadı), MS 9–23 Xin (Hanshu 99 'Wang Mang zhuan' başlığı 404 verdi), MS 190–318 (Dong Zhuo 190, Cao Wei 220, Batı Jin 265, Han-Zhao 311-316), MS 329–351 (Hou Zhao), MS 394–500 (Yao Qin sonrası: Hu Xia, Batı Wei 535 atlasta var). Atlasta 0500-01-01'den itibaren zaten kuzey-wei beyanı var."
+  },
+  {
+   "sehir": "Çengdu (Chengdu)",
+   "atlas_nokta": "data/yerlesimler_asya.js:1978 lat 30.5720 lon 104.0660; atlas ilk s: dönemi 0907-06-01 (onceki-shu)",
+   "konum_tanik": ["atlas 30.5720/104.0660", "OSM Nominatim 'Chengdu' (relation 2110264) 30.6599/104.0633 (~10 km)", "Pleiades/Wikidata çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "qin-devleti",
+     "bas_mo": 316,
+     "son_mo": null,
+     "gecis_kaynagi": "Shiji 5 (Qin benji), Huiwen 'gengyuan' 9. yıl: Sima Cuo Shu'yu fethetti ve yok etti; Huiwen'den sonra 'Shu hou Hui isyan etti, Sima Cuo Shu'yu yatıştırdı' (Zhaoxiang dönemi).",
+     "alinti": "九年，司馬錯伐蜀，滅之。",
+     "kronoloji_okulu": "Huiwen gengyuan 9 = MÖ 316 (HESAP)",
+     "yil_durumu": "HESAP; Shu'nun fethi şehir Chengdu'yu açıkça adlandırmaz (Shu bölgesi) — Chengdu'nun Shu başkenti olduğu bu turda ayrı kaynakla okunmadı",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "chengjia-gongsun-shu",
+     "bas_mo": null,
+     "son_mo": -36,
+     "gecis_kaynagi": "Hou Han shu 13 (Gongsun Shu): Gengshi döneminde 'Shu Wang' olup Chengdu'yu başkent yaptı; Jianwu 1 (MS 25) 4. ay imparator ilan etti; Jianwu 12'de sonu (Wu Han seferi, Chengdu kuşatması).",
+     "alinti": "於是自立為蜀王，都成都。 / 建武元年四月，遂自立…",
+     "kronoloji_okulu": "Shu Wang ilanı MS 23-24 (Gengshi), imparator MS 25, son MS 36 (Jianwu 12) — HESAP",
+     "yil_durumu": "bas_mo null (Shu Wang yılı metinde sayılı değil, 'Gengshi dönemi'); son HESAP: 十二年 başlığı kısmi okundu (11. ay son gün kaynakta okunmadı)",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "shu-han",
+     "bas_mo": -214,
+     "son_mo": -263,
+     "gecis_kaynagi": "Sanguozhi 32 (Xianzhu zhuan): Liu Bei Chengdu'yu onlarca gün kuşattı, Liu Zhang teslim oldu (Jian'an 19 = 214 başlığı); Zhangwu 1'de (221) imparator oldu. Son: Sanguozhi 28 (Deng Ai): Liu Shan imparatorluk mührünü gönderip teslim oldu, Ai Chengdu'ya girdi, Liu Shan prens ve ileri gelenlerle çıktı.",
+     "alinti": "進圍成都數十日，璋出降。 / 劉禪遣使奉皇帝璽綬，為箋詣艾請降。",
+     "kronoloji_okulu": "Jian'an 19 = MS 214; Zhangwu 1 = 221; Yanxing 1/Jingyao 6 = 263 (HESAP). Künye shu-han f=0221 t=0263; 214-221 arası Chengdu sahibi 'Liu Bei (Yi Eyaleti)' künyesi yok.",
+     "yil_durumu": "HESAP; 214'ün gün/ayı okunmadı",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "cao-wei",
+     "bas_mo": -263,
+     "son_mo": null,
+     "gecis_kaynagi": "Sanguozhi 28: Deng Ai Chengdu'ya girdi, Liu Shan teslim — Chengdu fiilen Wei komutasında (sonra Zhong Hui/Deng Ai olayı). Son uç (Batı Jin 265, 'Sima Yan') okunmadı.",
+     "alinti": "艾至成都，禪率太子諸王及群臣六十餘人",
+     "kronoloji_okulu": "263 (HESAP)",
+     "yil_durumu": "HESAP",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "cheng-han",
+     "bas_mo": null,
+     "son_mo": -347,
+     "gecis_kaynagi": "Jin shu 121 (Li Xiong): Luo Te kapıyı açıp Li Xiong'u içeri aldı, 'Chengdu'yu aldı'; Yongxing 1'de (304) 'Chengdu Wang' ilan etti. Son: Li Shi (Jiaming 2, 3. ay 17. gün) Huan Wen'e teslim mektubu.",
+     "alinti": "遂克成都。 / 偽嘉寧二年三月十七日，略陽李勢叩頭死罪。",
+     "kronoloji_okulu": "alınış 303; Yongxing 1 = 304; Jiaming 2 = MS 347 (HESAP; Çin ayı 3. ay 17. gün Julian'a çevrilmedi)",
+     "yil_durumu": "bas_mo null (Chengdu alınış yılı metinde yok, 303 kitap/ZZTJ okunmadı); son HESAP",
+     "gun": null,
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "Kaynaksız: MÖ 3000–316 (Shu krallığı/Sanxingdui-Jinsha: arkeolojik, devlet adı kaynak okunmadı), MÖ 316–25 (Han Shu Commandery, Hanshu Dili zhi okunmadı), MS 36–214 (Dong Han/Liu Yan-Liu Zhang), MS 265–301 (Batı Jin), MS 347–500 (Jin/Hou Shu Qiao Zong 405-413 / Liu Song / Qi — Jin shu 100 ve Song shu okunmadı)."
+  },
+  {
+   "sehir": "Luoyang",
+   "atlas_nokta": "data/yerlesimler_asya.js:1761 lat 34.6630 lon 112.4340 (Wangcheng/Zhou-Han sahasına ~yakın); atlas ilk s: 0500-01-01 (kuzey-wei beyanı)",
+   "konum_tanik": ["atlas 34.6630/112.4340", "OSM Nominatim 'Luoyang' (relation 3246491) 34.6197/112.4477 (~5 km)", "Pleiades/Wikidata çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "dogu-zhou (Doğu Zhou hanedanı, Luoyang/Wangcheng; atlas ID 'dogu-zhou' künyesi var)",
+     "bas_mo": null,
+     "son_mo": 256,
+     "gecis_kaynagi": "Shiji 4 (Zhou benji): Ping Wang 'Luoyi'ye doğuya taşındı (yıl metinde yok); Zhaoxiang 59'da Batı Zhou beyi Qin'e kaçıp 36 kentini ve 30 000 nüfusunu teslim etti (Wangcheng/Luoyang Batı Zhou topraklarıdır).",
+     "alinti": "平王立，東遷于雒邑 / 西周君犇秦，頓首受罪，盡獻其邑三十六，口三萬。",
+     "kronoloji_okulu": "Ping Wang taşınma MÖ 770 (standart; Shiji'de yıl yok); Zhaoxiang 59 = MÖ 256 (HESAP); Doğu Zhou (Chengzhou) Qin'e MÖ 249",
+     "yil_durumu": "bas_mo null (kaynakta yıl yok); son HESAP (Zhaoxiang 59 = 256)",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "qin-devleti",
+     "bas_mo": 256,
+     "son_mo": null,
+     "gecis_kaynagi": "Shiji 6: 'iki Zhou'yu yok edip Sanchuan komutanlığını kurdu' (Zhuangxiang 1 = MÖ 249'da Doğu Zhou'nun tamamı Qin'e katıldı; 256 Batı Zhou).",
+     "alinti": "東至滎陽，滅二周，置三川郡。",
+     "kronoloji_okulu": "256 (Batı Zhou, Wangcheng) / 249 (Doğu Zhou, Chengzhou) HESAP",
+     "yil_durumu": "HESAP",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "bati-han",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "Hanshu 1: Gaodi MÖ 202'de Luoyang'ın elinde olduğu ima edilir ('başkent Luoyang'ı seçmişsin') — dolaylı; başlangıcı yok.",
+     "alinti": "而都雒陽，不便，不如入關，據秦之固。",
+     "kronoloji_okulu": "—",
+     "yil_durumu": "null — doğrudan teslim/fetih maddesi okunmadı",
+     "dolayli_cikarim": true
+    },
+    {
+     "sahip": "gengshi",
+     "bas_mo": -23,
+     "son_mo": -25,
+     "gecis_kaynagi": "Hou Han shu 11: Gengshi Luoyang'ı aldı ('ay içinde Luoyang alındı'), sonra 'kuzey başkent Luoyang' ilan etti. Son: Hou Han shu 1a Jianwu 1 10. ay Zhu Wei teslim, imparator Luoyang'a girdi.",
+     "alinti": "更始遂北都洛陽 / 辛卯，朱鮪舉城降。冬十月癸丑，車駕入洛陽，幸南宮却非殿",
+     "kronoloji_okulu": "Gengshi 1 (MS 23) 10. ay; Jianwu 1 (MS 25) 10. ay (HESAP)",
+     "yil_durumu": "HESAP; gan_zhi: teslim 辛卯, giriş 癸丑 (Çin ayı 10); Julian gün çevrilmedi",
+     "gun": null,
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "dogu-han",
+     "bas_mo": -25,
+     "son_mo": null,
+     "gecis_kaynagi": "Hou Han shu 1a, Jianwu 1: Guangwu Luoyang'a girdi, Gao Miao ve toprak-tahıl tapınaklarını Luoyang'da kurdu — Doğu Han başkenti. (Künye dogu-han f=0025 baskent Luoyang.)",
+     "alinti": "壬子，起高廟，建社稷於洛陽 / 光武都洛陽",
+     "kronoloji_okulu": "MS 25 (HESAP)",
+     "yil_durumu": "HESAP; son (MS 190 Dong Zhuo yakması, 220 Wei) okunmadı",
+     "gun": null,
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "kuzey-wei",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "Wei shu 7b (Xiaowen): Taihe 17 (MS 493) 10. ay başkent taşıma planı: Jinyong kalesi/Henan şehrinde Luoyang inşası ('Luojing') emredildi. Luoyang'ın fiilî Kuzey Wei eline geçişi (MS 420'ler) okunmadı.",
+     "alinti": "仍定遷都之計。冬十月戊寅朔，幸金墉城。…經始洛京。",
+     "kronoloji_okulu": "Taihe 17 = MS 493 (HESAP); resmî taşınma 494",
+     "yil_durumu": "null başlangıç; yalnız 493-494 başkent oluşu kaynaklı",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "Kaynaksız: MÖ 3000–770 (Xia/Shang Erlitou-Yanshi, Zhou Chengzhou: Shiji 'Luoyi' cümlesi yalnız kuruluş/planlama), MÖ 249–206 (Qin son yılları; Xiang Yu 'Yin/Henan' MÖ 206), Xin 9–23, MS 190–493 (Dong Zhuo, Cao Wei 220/221, Batı Jin 265, Han-Zhao 311, Hou Zhao, Doğu Jin 356 Huan Wen, Önceki Yan/Önceki Qin/Yao Qin/Doğu Wei geçişleri). Atlasın 500-534 'kuzey-wei' beyanı vardır."
+  },
+  {
+   "sehir": "Zhangye (Ganzhou)",
+   "atlas_nokta": "data/yerlesimler_asya.js:2038 lat 38.9260 lon 100.4500 (Ganzhou ilçe merkezi); atlas ilk s: 0894-01-01 (ganzhou-uygur)",
+   "konum_tanik": ["atlas 38.9260/100.4500", "OSM Nominatim 'Zhangye' (relation 165803) 39.1218/99.9249 — vilayet merkezi, atlas ilçe merkezi (Ganzhou) ile ~55 km fark; vilayet geometrisi büyük, ilçe merkezi doğru", "Pleiades/Wikidata çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "xiongnu (Hunye/Kunye Wang, Hexi)",
+     "bas_mo": null,
+     "son_mo": 121,
+     "gecis_kaynagi": "Hanshu 6 (Wudi ji): Kunye Wang Xiutu Wang'ı öldürüp yaklaşık 40 000 kişiyle teslim oldu; toprakları Wuwei ve Jiuquan komutanlıkları yapıldı. Zhangye'ye ÖZEL 'Hunye'nin toprağıydı' kaydı okunmadı.",
+     "alinti": "秋，匈奴昆邪王殺休屠王，并將其眾合四萬餘人來降…以其地為武威、酒泉郡。",
+     "kronoloji_okulu": "Yuanshou 2 = MÖ 121 (HESAP)",
+     "yil_durumu": "HESAP; bas_mo yok",
+     "dolayli_cikarim": true
+    },
+    {
+     "sahip": "bati-han",
+     "bas_mo": 121,
+     "son_mo": null,
+     "gecis_kaynagi": "Hanshu 6: önce Wuwei/Jiuquan komutanlığı (MÖ 121); sonra 'Wuwei ve Jiuquan topraklarından Zhangye ve Dunhuang komutanlıkları ayrıldı' (Yuanding 6 = MÖ 111). Zhangye toprağı Wuwei/Jiuquan toprağı olduğundan MÖ 121'den Han'dır (metinsel çıkarım değil, 'bölündü' ifadesi).",
+     "alinti": "乃分武威、酒泉地置張掖、敦煌郡",
+     "kronoloji_okulu": "Zhangye komutanlığı MÖ 111 (HESAP); sahiplik MÖ 121",
+     "yil_durumu": "HESAP; Han'ın sonu (MS 220) ve arası (Dong Han→Cao Wei→Jin) okunmadı",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "kuzey-liang",
+     "bas_mo": -397,
+     "son_mo": -439,
+     "gecis_kaynagi": "Jin shu 129 (Juqu Mengxun): Duan Ye Jiankang'da Liang Hakimi (Shenxi 1 = 397) olunca Mengxun'u Zhangye valisi yaptı; Longan 5'te (401) Mengxun Zhangye Gong ilan edildi; Yixi 8'de (412) Hexi Wang; Wei shu 4a Taiyan 5 (439) Taiwu Guzang'ı aldı, Muqian teslim.",
+     "alinti": "業以蒙遜為張掖太守 / 隆安五年…推蒙遜為…涼州牧、張掖公 / 丙申，車駕至姑臧",
+     "kronoloji_okulu": "Shenxi 1 = MS 397; Longan 5 = 401; Taiyan 5 = 439 (HESAP). Künye kuzey-liang f=0397 t=0439; başkent Zhangye→Guzang.",
+     "yil_durumu": "HESAP; 439'da Guzang'ın düşüşü kaynaklı, Zhangye'nin ayrı teslim günü okunmadı → son_mo kısmen",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "Kaynaksız: MÖ 3000–121 (Yuezhi/Wusun/Xiongnu: Shiji 123 okunmadı), MS 220–397 (Cao Wei/Jin/Ön Liang/Hou Liang Lü Guang 386-: Jin shu 86, 122 okunamadı), MS 439–500 (Kuzey Wei Zhangye komutanlığı/Gan Eyaleti kuruluşu: Wei shu 106 okunmadı)."
+  },
+  {
+   "sehir": "Dunhuang",
+   "atlas_nokta": "data/yerlesimler_asya.js:2057 lat 40.1420 lon 94.6620; atlas ilk s: bakılmadı (atlas ilk dönemi 1281)",
+   "konum_tanik": ["atlas 40.1420/94.6620", "OSM Nominatim 'Dunhuang' (relation 2707420) 40.1410/94.6638 (0.2 km)", "Pleiades/Wikidata çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "bati-han",
+     "bas_mo": 111,
+     "son_mo": null,
+     "gecis_kaynagi": "Hanshu 6 (Wudi ji): Wuwei/Jiuquan topraklarından Zhangye ve Dunhuang komutanlıkları ayrıldı (Yuanding 6); 'Dunhuang'a çekirgeler geldi' (Taichu 1, Han'ın Dunhuang'daki varlığı).",
+     "alinti": "乃分武威、酒泉地置張掖、敦煌郡",
+     "kronoloji_okulu": "MÖ 111 (HESAP)",
+     "yil_durumu": "HESAP; MÖ 121 (Jiuquan komutanlığı kapsamı) olasılığı: metin Dunhuang'a özel değil",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "kuzey-liang",
+     "bas_mo": -397,
+     "son_mo": -400,
+     "gecis_kaynagi": "Jin shu 129: Duan Ye 397'de (Shenxi 1) Jinchang Wang Dewu ile Dunhuang Meng Min Duan Ye'ye teslim oldu; Meng Min Dunhuang'ı idare etti (Duan Ye'nin Beiliang'ı).",
+     "alinti": "於是王德以晉昌，孟敏以敦煌降業。",
+     "kronoloji_okulu": "Shenxi 1 = MS 397 (HESAP); Lü Guang/Hou Liang'dan geçiş okunmadı",
+     "yil_durumu": "HESAP; son_mo = Li Hao'nun Dunhuang'da kuruluşu (400)",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "Batı Liang (Xiliang, Li Hao); devletler.js'te 'bati-liang' ID'si YOK — 'hou-liang-xi-liang' Hou Liang'ın künyesi olarak kayıtlı, Li Hao ile aynı olup olmadığı AYRICA doğrulanmalı",
+     "bas_mo": -400,
+     "son_mo": -423,
+     "gecis_kaynagi": "Jin shu 87 (Liang Wuzhao wang Li Xuansheng/Hao zhuan): Longan 4'te Jinchang tarafı altı komutanlığı çağırıp Li Hao'yu seçti; 'Li Hao Longan 4'te kuruldu, Song Shaodi Jingping 1'e kadar' (metin sonu 423); Wei shu 99 aynı. Hou Han/ZZTJ bitişi 421 (Mengxun Jiuquan'ı alır) — metinde 'Jiuquan'ı aldı' (Jin shu 129) ama yıl okunmadı.",
+     "alinti": "隆安四年，晉昌太守唐瑤移檄六郡，推玄盛… / 玄盛以安帝隆安四年立，至宋少帝景平元年",
+     "kronoloji_okulu": "Longan 4 = MS 400; son: Jin shu cümlesi 'Jingping 1 (423)', ana akademik anlatı 421 — ÇELİŞKİ, ikisi `ic_not`ta beyan edilmeli",
+     "yil_durumu": "HESAP; son_mo iki okul (421/423)",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "Kaynaksız: MÖ 3000–111 (Yuezhi/Wusun; Shiji 123/Hanshu 61 okunmadı), MS 111-397 arası Han→Wei→Jin→Ön Liang (Zhang Gui 301-) zinciri, MS 421-500 (Kuzey Liang Dunhuang'ı 421, Kuzey Wei 439/442 Juqu Wuhui Dunhuang'a kaçışı, 450'ler Tuyuhun/Rouran, Gaochang; Wei shu 4a/102 okunmadı). Dunhuang'da MS 439 Wei komutanlığı Wei shu 4a 'Yangyi gong Yuan Jie Jiuquan'ı korudu' cümlesi YALNIZ Jiuquan'ı kapsar."
+  },
+  {
+   "sehir": "Mekke",
+   "atlas_nokta": "data/yerlesimler.js:794 lat 21.423 lon 39.826; atlasın ilk s: dönemi 0630-01-11 (medine-devleti)",
+   "konum_tanik": ["atlas 21.423/39.826", "OSM Nominatim 'Mecca' (relation 12429517) 21.4208/39.8269 (0.3 km)", "TDV mekke: Batlamyus 'Macoraba' = Mekke'ye ilişkin tartışma metinde (kuruluş-konum tanığı)"],
+   "donemler": [
+    {
+     "sahip": "mekke-kureys (künye 'mekke-kureys' devletler.js'te var)",
+     "bas_mo": null,
+     "son_mo": -630,
+     "gecis_kaynagi": "TDV 'mekke' (M. S. Küçükaşçı): Cürhümlüler → Huzâa ve Kinâne saldırısı (Amr b. Lühay idaresi) → 'V. yüzyılın ilk yarısında Kusay b. Kilâb Kinâne ve Kudâa yardımıyla Mekke'ye hâkim oldu; yönetim Kureyş'e geçti.' Son: atlas 0630-01-11 (TDV fethin 20 Ramazan 8/11 Ocak 630).",
+     "alinti": "V. yüzyılın ilk yarısında Kusay b. Kilâb Kinâne ile Kudâa kabilesinin yardımıyla Mekke’ye hâkim oldu.",
+     "kronoloji_okulu": "TDV: 400-450 arası (yarım yüzyıl hassasiyeti); tek yıl yok",
+     "yil_durumu": "bas_mo null — yalnız yarım-yüzyıl aralığı (MS 400-450); son atlasın mevcut dönemi (630-01-11 gün kaynaklı, TDV)",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "MS 450'ye dek: Cürhüm (Yemen kökenli, Arim selinden önce/sonra), Huzâa+Kinâne, Amr b. Lühay — TDV YIL VERMEZ (geleneksel rivayet: İbn Sa'd, Ezrakī). Arım seli, Cürhüm→Huzâa geçiş yılı, Macoraba=Mekke akademik tartışması bulunamadı (kitap: Crone 1987 'Meccan Trade'; Hawting). Himyar/Habeş/Sasani üstünlüğü TDV'de yalnız diplomatik-ticarî ilişki olarak geçer, hâkimiyet iddiası YOK → yazılmadı. Mekke'nin MÖ dönemi için kaynak bulunamadı."
+  },
+  {
+   "sehir": "Urfa (Edessa / Orhai / Vodina)",
+   "atlas_nokta": "data/yerlesimler.js:271 'Urfa' (koordinat satırı bu turda ölçülmedi); atlas kd:1281",
+   "konum_tanik": ["OSM Nominatim 'Sanliurfa' (node 26487743) 37.1596/38.7919", "atlas yerlesimler.js:271 satırı (koordinat yeniden ölçülecek)", "Pleiades/Wikidata çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "osrhoene",
+     "bas_mo": 132,
+     "son_mo": null,
+     "gecis_kaynagi": "Chronicle of Edessa (tertullian.org çevirisi, Hallier/Cureton): 'Yunan (Selevkos) takvimi 180. yılında Edessa'da krallar yönetmeye başladı'. Kral Abgar Trajan'la 116'da Edessa'da görüşür (Dio 68.21). Son uç: Dio 78.12 (Caracalla): Osroene kralı Abgar'ı dostça çağırıp tutukladı, 'Osroene kralsız kalınca onu boyunduruk altına aldı.'",
+     "alinti": "In the year 180 kings began to rule in Edessa. / Osroene being thus left without a king, he subdued it.",
+     "kronoloji_okulu": "Selevkos Çağı 180 = MÖ 132/131 (Chronicle çevirmeni 311 yıl farkı veriyor: HESAP). Caracalla'nın tutuklaması: ana akademik 216/213 — Dio 78.12 metninde yıl yok; kitap/Segal 'Edessa the Blessed City' gerekli",
+     "yil_durumu": "bas_mo HESAP; son_mo null (metinde yıl yok)",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "roma-imp",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "Dio 78.12: Caracalla Osroene'yi boyunduruk altına aldı (Roma'nın doğrudan idaresi başlangıcı; yıl metinde yok). Sonraki Roma sahipliği (Valerian 260, Palmyra 270-272, Sasani 609) okunmadı.",
+     "alinti": "Osroene being thus left without a king, he subdued it.",
+     "kronoloji_okulu": "216 (standart anlatı, okunmadı)",
+     "yil_durumu": "null",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "Kaynaksız: MÖ 3000–132 (Asur/Babil/Pers/Selevkos I 303 kuruluşu — Strabo 16.1.27 / Pliny / Appian Syr. 57 okunmadı), 244 Gordianus III Osroene'yi eyalete çevirdi mi (tertullian Chronicle'ın 'Gordian' içeriği bulunamadı), MS 260-500 (Palmyra 'Odaenathus', Roma/Doğu Roma). Chronicle of Edessa 'kuruluşu 180' tarih sistemi (Antiyokhos? Seleucid era 311 BCE) editör notları karışık."
+  },
+  {
+   "sehir": "Trier (Augusta Treverorum)",
+   "atlas_nokta": "data/yerlesimler_avrupa.js:389 lat 49.750 lon 6.637; atlas ilk s: 1000-01-01 (almanya, yüzyıl kesinliği)",
+   "konum_tanik": ["atlas 49.750/6.637", "OSM Nominatim 'Trier' (relation 172679) 49.7596/6.6442 (~1 km)", "Pleiades/Wikidata çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "roma-imp",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "YALNIZ varlık: Ammianus 16.3.3: Julian 356/357 kışı için Trier üzerinden Senonae'ye çekildi (Roma komutası Trier'de hareket ediyor); Gregory of Tours 2.9 (Renatus Profuturus Frigeridus alıntısı): Frank akını haberi Trier'e ulaşınca magister militum Nannenus ve Quintinus Agrippina'da toplandı (388); Trier 'ikinci akında Franklar tarafından yağma ve yakıldı' (yaklaşık 407-413).",
+     "alinti": "Quibus vincendi primitiis laetus per Treveros hiematurus apud Senonas oppidum tunc oportunum abscessit. / Treverorum civitas a Francis direpta incensaque est secunda inruptione.",
+     "kronoloji_okulu": "356/357, 388, ~410 (metinde yok; HESAP kitap gerekli)",
+     "yil_durumu": "null — sahip değişimi değil, tanıklık",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "BULUNAMADI: Treveri kabilesi (Caesar BG 6.2, 6.7: Treveri bağımsız, Indutiomarus/Cingetorix; 53 MÖ Labienus), Roma'nın alışı (Hirtius BG 8.45 sayfası 404), Augusta Treverorum kuruluşu (~MÖ 17), Galya İmparatorluğu 260-274 Trier (Eutropius 9.9 Trier'i anmaz), Konstantinus/Tetrarşi başkenti, Frank egemenliği (Gregory 2.9 'yağma' yalnız); kitap: Wightman 1970 'Roman Trier'."
+  },
+  {
+   "sehir": "Köln (Colonia Claudia Ara Agrippinensium)",
+   "atlas_nokta": "data/yerlesimler.js:1127 lat 50.938 lon 6.960; atlas ilk s: 1000-01-01 (almanya, yüzyıl kesinliği)",
+   "konum_tanik": ["atlas 50.938/6.960", "OSM Nominatim 'Köln' (relation 62578) 50.9384/6.9600 (0.0 km)", "Pleiades/Wikidata çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "roma-imp",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "Tacitus Annales 12.27: Agrippina, doğduğu Ubii kentinde gazi kolonisi kurdurdu, kenta kendi adı verildi (Roma kolonisi; yıl metinde yok). Atlas ilk Roma tanığı budur.",
+     "alinti": "in oppidum Vbiorum, in quo genita erat, veteranos coloniamque deduci impetrat, cui nomen inditum e vocabulo ipsius",
+     "kronoloji_okulu": "MS 50 (standart; Tacitus metni 12.27 yılı vermez)",
+     "yil_durumu": "null — yıl metinde yok; Ubii'nin Agrippa tarafından yerleştirilmesi (MÖ 38/19) metinde yalnız 'avus Agrippa' olarak geçer",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "galya-imp",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "Eutropius 9.9: Postumus Galya'da purpur giydi ve on yıl yönetti; haleflerinden Victorinus 'Agrippinae' (Köln) öldürüldü → Köln Galya imparatorluğunun merkezidir. Tetricus 9.10-9.13. Son: Aurelianus Tetricus'u yendi (9.13).",
+     "alinti": "Postumus in Gallia, obscurissime natus, purpuram sumpsit et per annos decem ita imperavit… Agrippinae occisus est",
+     "kronoloji_okulu": "260-274 (Eutropius metni yıl vermez; standart kronoloji kitap)",
+     "yil_durumu": "null",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "roma-imp",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "Eutropius 9.17: Probus Galya'yı yeniden aldı; 'Agrippinae' Proculus ve Bonosus'un tahta çıkışını bastırdı (Köln Roma otoritesine geçti; yıl yok).",
+     "alinti": "Proculum et Bonosum Agrippinae, certaminibus oppressit.",
+     "kronoloji_okulu": "~280 (metinde yok)",
+     "yil_durumu": "null",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "frank",
+     "bas_mo": -355,
+     "son_mo": -356,
+     "gecis_kaynagi": "Ammianus 15.8.19: Köln 'barbarların inatçı kuşatmasıyla açıldı ve yok edildi' (Book 15, 355 olayları, Silvanus'un Köln'de tahta çıkışı ve ölümü sonrası); Ammianus 16.3.1-2: Julian Caesar Franklardan Köln'ü geri aldı ve Frank krallarıyla barış yaptı.",
+     "alinti": "Coloniam Agrippinam… pertinaci barbarorum obsidione reseratam magnis viribus et deletam. / Iulianus Caesar Coloniam a Francis captum recipit",
+     "kronoloji_okulu": "355 (Ammianus 15.8 Silvanus ile aynı yıl, HESAP); geri alma 356 (HESAP). Künye frank var",
+     "yil_durumu": "HESAP; Ammianus kitap sırasından türetildi, açık yıl yok",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "roma-imp",
+     "bas_mo": -356,
+     "son_mo": null,
+     "gecis_kaynagi": "Ammianus 16.3.2: Julian Köln'e girdi, Frank krallarıyla barış yaptı, şehri 'en müstahkem' olarak teslim aldı.",
+     "alinti": "Igitur Agrippinam ingressus non ante motus est exinde, quam… pacem firmaret… et urbem reciperet munitissimam.",
+     "kronoloji_okulu": "356 (HESAP)",
+     "yil_durumu": "HESAP; son (V. yüzyılda Frank egemenliği ~460) okunmadı",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "BULUNAMADI: Ubii/Agrippa yerleşimi tarihi (Strabo 4.3.4/Tacitus Germ.28), Köln'ün MS 50 yıl kesinliği (Tacitus yıl vermez), Gregory 2.9 Genobaudes/Marcomer/Sunno akını (388) Köln'ü tehdit etti ama ele geçirmedi; V. yüzyıl Frank egemenliği (Gregory 2.40 Sigibert 'Colonia civitas' — yıl yok)."
+  },
+  {
+   "sehir": "Susa (Şuş)  [DİKKAT: görev metnindeki 'Şuşa' atlasta Karabağ kalesi 'Şuşa' (39.76/46.75, 1752+)'dır; antik Susa atlasta 'Susa' (32.18993, 48.25354, yerlesimler_mo_zincir.js:15)]",
+   "atlas_nokta": "data/yerlesimler_mo_zincir.js:15 'Susa' lat 32.18993 lon 48.25354; atlasta MÖ zincir: ur-3 (-2111→-2023), elam-simaski, elam-sukkalmah, elam-orta, elam-yeni, ahamenis (-538→-330); -330'dan sonrası BOŞ",
+   "konum_tanik": ["atlas 32.18993/48.25354", "OSM Nominatim 'Shush' (node 32662667) 32.2004/48.2490 (~1.5 km)", "Pleiades/Wikidata çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "iskender-imparatorlugu",
+     "bas_mo": 331,
+     "son_mo": null,
+     "gecis_kaynagi": "Arrian, Anabasis 3.16 (Chinnock çevirisi, Gutenberg 46976): Gaugamela'dan sonra Babil'den 20 günde Susa'ya vardı; Susalılar şehri Philoxenus'a teslim etti; Aleksandros girip 50 000 talant hazineyi aldı.",
+     "alinti": "the Susians had surrendered their city to him… entering the city he took possession of the money, which amounted to 50,000 talents",
+     "kronoloji_okulu": "Aralık 331 (Gaugamela 1 Ekim 331 + Babil 20 gün; Arrian yıl vermez, HESAP)",
+     "yil_durumu": "HESAP; atlasın 'ahamenis' dönemi -330'da bitiyor (1 yıl fark: 331 vs 330) — düzeltme önerilir",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "BULUNAMADI (Iranica susa-i/ii web.archive 404): Selevkos (Seleucia on the Eulaeus/Susa), Part (Mithridates I ~MÖ 140'lar), Elymais krallığı, Sasani (Shapur II 'Veh-Andiyok-Shapur' MS 4. yy), Kutha Bit; Aleksandros'tan sonra Antigonos/Eumenes. Kitap: Boucharlat/Potts 'The Archaeology of Elam'; Iranica 'SUSA i-iii'."
+  },
+  {
+   "sehir": "Kutaisi (Aia / Kutaia / Kotais)",
+   "atlas_nokta": "data/yerlesimler.js:1186 lat 42.268 lon 42.695; atlas ilk s: 1281 (gurcistan)",
+   "konum_tanik": ["atlas 42.268/42.695", "OSM Nominatim 'Kutaisi' (relation 8742174) 42.2597/42.6634 (~2.5 km)", "Pleiades/Wikidata çekilmedi"],
+   "donemler": [
+    {
+     "sahip": "pontus (Mithridates VI Eupator; devletler.js'te 'pontus' ID'sine bakılmadı)",
+     "bas_mo": null,
+     "son_mo": null,
+     "gecis_kaynagi": "Strabon 11.2.18: Kolkhis 'Mithridates Eupator güçlenince onun eline geçti' (alt-vali Moaphernes). Kolkhis ülkesi için; Kutaisi/Aia'nın adı geçmez, Aia=Kutaisi özdeşleştirmesi (Strabon 11.2.17'de aranan 'Aia' bulunmadı).",
+     "alinti": "when Mithridates Eupator grew powerful, the country fell into his hands",
+     "kronoloji_okulu": "~MÖ 100-65 (Strabon yıl vermez)",
+     "yil_durumu": "null",
+     "dolayli_cikarim": true
+    }
+   ],
+   "bosluk_notu": "BULUNAMADI: Kolkha krallığı (MÖ 8.-4. yy) ve Aia'nın Kutaisi ile özdeşliği (Lordkipanidze 'Kolchis'; Apollonios Rhodios; Ivane Javakhishvili), MÖ 65 Pompeius, Roma müşteri Lazika, MS 4.-6. yy Egrisi/Lazika (Prokopios Wars 8 = MS 550'ler, 500 sonrası), Pontus sonrası Bosporos. Strabon 11.2.17-18 yalnız Kolkhis ülkesini anlatır — Kutaisi sahibi kaynakta YOK."
+  }
+ ],
+ "bulunamadi": [
+  "Xi'an: MÖ 3000-350 (Hao/Feng, Zhou, Qin öncesi), MS 9-23 Xin, MS 190-318, 329-351, 394-500 arası geçişler",
+  "Çengdu: Shu krallığı MÖ 316 öncesi; Han dönemi; Batı Jin; MS 347-500",
+  "Luoyang: MÖ 3000-770, MÖ 249-206, MS 9-23, 190-493 zinciri; bati-han dönemi doğrudan geçiş maddesi (Hanshu 1'deki ifade dolaylı)",
+  "Zhangye: MÖ 121 öncesi Hunye sahipliğinin Zhangye'ye özel tanığı; MS 220-397; 439-500",
+  "Dunhuang: MÖ 111 öncesi; MS 220-397; 421-500",
+  "Mekke: MÖ ve MS 450 öncesi tüm dönemler (TDV yıl vermez)",
+  "Urfa: MÖ 132 öncesi; Roma yıllık geçişi; 244/260/270; Sasani 609",
+  "Trier: Roma fethi, Galya İmparatorluğu, Tetrarşi, Frank geçişi",
+  "Köln: Ubii/Agrippa yerleşimi, Frank V. yy egemenliği, Galya imp. yılları",
+  "Susa: Selevkos/Part/Elymais/Sasani",
+  "Kutaisi/Aia: Kolkha, Lazika/Egrisi, Roma/Bosporos"
+ ],
+ "kutuphane_gerekli": [
+  "Cambridge History of Ancient China (Loewe & Shaughnessy 1999) — Zhou/XSZ 1046/1045 kronolojisi",
+  "Sima Qian Shiji 123 (Dayuan liezhuan) ve Hanshu 61/96 — Yuezhi/Wusun/Dunhuang öncesi",
+  "Zizhi Tongjian 87-91, 93-100, 106-110, 119 — 311-420 Çin geçiş günleri (Han-Zhao, Hou Zhao, Ön Yan/Qin, Hou Qin, Batı Liang 421 vs 423)",
+  "Segal, J. B., Edessa the Blessed City (1970) — Osroene sonu 213/216, 244 eyalet",
+  "Wightman, E. M., Roman Trier and the Treveri (1970); Eck, W., Köln in römischer Zeit (2004) — Trier/Köln kuruluşları",
+  "Encyclopaedia Iranica: SUSA i-iii (doğru slug'lı arşiv) ve ELYMAIS; Potts, The Archaeology of Elam",
+  "Lordkipanidze, O., Archäologie in Georgien / Colchis; Kartlis Tskhovreba — Aia/Kutaisi",
+  "Crone, P., Meccan Trade and the Rise of Islam (1987); Hawting — Mekke öncesi tarih"
+ ]
+}

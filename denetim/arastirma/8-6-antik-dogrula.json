@@ -1,0 +1,1104 @@
+{
+ "sonuclar": [
+  {
+   "id": "pancala",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum I (North India in the Sixth Century B.C., B. C. Law; Pancala: Ahichchhatra/Kampilya) ve Bolum II (Nandas, 'Puranic Mahapadma uprooted' listesi)",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Mahajanapada listesi (Anguttara Nikaya) ve Pancala bolumu"
+   ],
+   "alinti": "Originally a monarchical clan, the Panchalas formed a sangha or republican corporation in the sixth and fifth centuries B.C.",
+   "alinti_2": "uprooted, comprised the following: Aikshvakus, Panchalas, Kasis, Haihayas, Kalihga[=Kalinga, OCR]s, Asmakas, Kurus, Maithilas, Surasenas, and Vitihotras",
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "f: Anguttara Nikaya listesi (Buddha oncesi/cagdasi) bir KURULUS yili vermez; Majumdar II'de Pancala icin kurulus tarihi yok -> f ONERILMEZ (taslak -0999 destekli degil). t: Nanda tarafindan sokulme Puranik (tek hat, 'probably'); Nanda 364-324 MO; tek bir yil yok. Taslak -0344 (=345 MO) kaynakta YOK, orta nokta varsayimi. Pancala Majumdar'a gore 6.-5. yy'da monarsiden sangha'ya donmustu (kesintili/tur degisimi). KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "MO 364-324 araligi (Puranik Mahapadma Nanda'nin kokunu kazidigi hanedanlar listesinde Pancala var); yil verilmemis"
+  },
+  {
+   "id": "kashi",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Mahajanapada bolumu (Kasi, Kosalan monarsisinin parcasi; Kamsa 'Baranasiggaho' fetih)",
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum II (Ajatasatru: 'annexed Kasi'; 18 gana-raja Kasi-Kosala)"
+   ],
+   "alinti": "Kasi, lost its independence before the time of Mahakosala and formed an integral part of the Kosalan monarchy in the sixth century B.C.",
+   "alinti_2": "crushed the great republic of Lichchhavi after sixteen years of struggle, vanquished Kosala and annexed Kasi",
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "Iki uc de yok: f yok. t: Raychaudhuri'ye gore Kasi Buddha'dan ONCE Kosala'ya katildi (taslak -0549 = 550 MO ile ayni donemde ama kaynakta yil yok); Majumdar II ise kalici ilhaki Ajatasatru'ya (493-462) verir. Taslagin 'ardil kosala' iliskisini Raychaudhuri destekler. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "(a) Kosala'ya katilis: yil yok, 'Mahakosala'dan once' (Buddha oncesi); (b) Ajatasatru ilhaki MO 493-462 araligi (Majumdar II)"
+  },
+  {
+   "id": "kosala",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum II 'Rise of Magadhan Imperialism' (Sisunaga: 'Probably both the kingdoms of Vatsa and Kosala were also annexed'; Ajatasatru-Kosala savasi)",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Kosala/Kasi bolumu"
+   ],
+   "alinti": "Probably both the kingdoms of Vatsa and Kosala were also annexed and thus Magadha absorbed almost all the important states in North India",
+   "alinti_2": "Ajatasatru ... vanquished Kosala and annexed Kasi (giris ozeti)",
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "f yok (taslak -0699 destekli degil). t: Magadha'ya katilis 'probably' Sisunaga (c. 430-364) - kesin yil yok; taslak -0449 (450 MO) kaynakta yok. Kosala 6. yy'da Kasi'yi iclemisti (Raychaudhuri). KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "MO 430-364 (Sisunaga ve ardillari; Majumdar 'probably annexed'); Ajatasatru donemi (493-462) savaslari da var"
+  },
+  {
+   "id": "anga",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum II (Bimbisara: Anga seferi, Campa'ya oglu Kunika vali)",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Anga/Bimbisara"
+   ],
+   "alinti": "He was completely successful and enlarged Magadha by conquering and annexing this powerful and prosperous kingdom.",
+   "alinti_2": "Bimbisara (c. 544-493 B.C.) ... by conquest and matrimonial alliances, enlarged his influence and power",
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "f yok. t: ilhak Bimbisara doneminde (544-493 MO), yil verilmez; taslak -0492 (=493 MO) Bimbisara'nin OLUM yili, ilhak yili degil -> kaynaksiz. Taslak ozetindeki 'gelenek MO ~543' Majumdar'da yok. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "Bimbisara'nin saltanati icinde (MO 544-493); tek yil yok"
+  },
+  {
+   "id": "vatsa",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum I (Vatsa: Kausambi, dort buyuk monarsiden biri) ve II (Sisunaga)",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Vatsa/Udayana, Kathasaritsagara aktarimi"
+   ],
+   "alinti": "Probably both the kingdoms of Vatsa and Kosala were also annexed and thus Magadha absorbed almost all the important states in North India",
+   "alinti_2": null,
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "f yok. t: Magadha'ya katilis 'probably' (kesin degil); taslak -0344 (=345 MO) Nanda baslangici civari tahmin, kaynaksiz. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "MO 430-364 (Sisunaga, 'probably'); alternatif anlati: Kausambi once Avanti/Palaka'ya katildi (Kathasaritsagara, Raychaudhuri)"
+  },
+  {
+   "id": "avanti",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum I (Avanti, Chanda Pradyota; 'The last ruler was defeated by Sisunaga') ve II (Sisunaga, s. ~29)"
+   ],
+   "alinti": "But Sisunaga finally destroyed the power of the Pradyotas of Avanti and added it to the growing kingdom of Magadha.",
+   "alinti_2": "The last ruler was defeated by Sisunaga, and Avanti was incorporated with the growing kingdom of Magadha",
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "f yok. t: Sisunaga (430-364 MO) saltanati icinde; kesin yil yok. Taslak -0412 (=413 MO) onyil hassasiyeti kaynaksiz (Sisunaga araligi icinde bir nokta secimi). Puranlar Pradyotalari Magadha'da sayar, Majumdar bunu reddedip Buddhist hatti benimser - tutarsizlik ic_not'ta. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "MO 430-364 (Sisunaga'nin saltanati; Pradyota hanedaninin gucunu yikti)"
+  },
+  {
+   "id": "kamboja",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": null,
+    "t": null
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum I (Kamboja: Rajapura/Hazara, Gandhara ile birlikte)",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Kamboja (Eski Pers yazitlarinda Kambujiya; Asoka XIII. Kaya Fermani)"
+   ],
+   "alinti": "The Kambojas occupied roughly the province round about Rajaori or ancient Rajapura, including the Hazara District",
+   "alinti_2": null,
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "Majumdar II/Raychaudhuri'de ne kurulus ne son tarihi var; Asoka (MO ~257) hala 'ozerk kabile' olarak anar ama bu SON degil. Taslak -0257 son tarih olarak kaynaksiz. Ahameni/Aleksandros yutulusu da 'yutuldu' olarak yil bagli degil. Kabile/bolge adi, polity siniri belirsiz. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": null
+  },
+  {
+   "id": "vajji",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum II (Ajatasatru-Vaisali savasi, Vassakara'nin 3 yillik bolme calismasi, '16 years of struggle')",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Vajji/Licchavi"
+   ],
+   "alinti": "crushed the great republic of Lichchhavi after sixteen years of struggle, vanquished Kosala and annexed Kasi",
+   "alinti_2": null,
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "f yok. t: Ajatasatru (493-462 MO) doneminde fetih; yil yok, taslak -0482 (=483 MO) kaynaksiz (Buda'nin olumune yakin bir varsayim). Vajji = Vrji konfederasyonu, Licchavi ve Videha dahil; Nepal Licchavi'leri ile bagi bilinmez (Majumdar III). KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "Ajatasatru saltanati icinde MO 493-462 (16 yillik savastan sonra Licchavi/Vajji ezildi); tek yil yok"
+  },
+  {
+   "id": "malla",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": null,
+    "t": null
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum II (Cain gelenegi: 9 Mallaki, 9 Lichchhavi, 18 Kasi-Kosala ganarajasi)",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Malla"
+   ],
+   "alinti": "the powerful political confederacy which dominated Eastern India and comprised 36 republican states, viz. 9 Mallaki, 9 Lichchhavi, and 18 gana-rajyas of Kasi and Kosala",
+   "alinti_2": null,
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "Ne f ne t kaynakta var. Taslak -0399 (=400 MO) kaynaksiz. Cumhuriyet/sangha: tek bir 'devlet' mi (Kusinara + Pava ayri gana) belirsiz. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "Ajatasatru'ya karsi Cain metinlerindeki 36 gana-raja konfederasyonunda Mallalar var; ilhak tarihi yok"
+  },
+  {
+   "id": "chedi",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": null,
+    "t": null
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum I (Chedi: Sotthivati/Suktimati, Matsya ile ortak kral Sahaja)",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Chedi/Chetiya"
+   ],
+   "alinti": "King Sahaja ruled over the Chedis and the Matsyas.",
+   "alinti_2": null,
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "Kurulus ve son tarihi yok; taslak -0344 (=345 MO) kaynaksiz. NOT: Kalinga'daki 'Chedi (Maha-Meghavahana)' hanedani ayri (bkz mahameghavahana). KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": null
+  },
+  {
+   "id": "matsya",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": null,
+    "t": null
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum I (Matsya: Viratanagara; 'no political importance of their own during the time of Buddha')",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Matsya (Chedi'ye katilmis)"
+   ],
+   "alinti": "The Matsyas had no political importance of their own during the time of Buddha. King Sahaja ruled over the Chedis and the Matsyas.",
+   "alinti_2": null,
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "Majumdar'a gore Buddha caginda siyasi onemi yok, Chedi'nin parcasi; ayri polity olarak f/t yok. Taslak -0599/-0344 kaynaksiz. KUNYE YAZILAMAZ (muhtemelen Chedi ile birlestirilmeli).",
+   "f_aday": null,
+   "t_aday": null
+  },
+  {
+   "id": "surasena",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum I (Surasena: Mathura, Avantiputra) ve II (Nanda: Surasenas uprooted)",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Surasena (Megasthenes'e kadar sürer, Maurya parcasi)"
+   ],
+   "alinti": "the Siirasena kingdom then became an integral part of the Magadhan empire",
+   "alinti_2": "Surasenas listed among dynasties uprooted by Mahapadma Nanda (Puranic)",
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "f yok. t: iki farkli hat (Puranik Nanda eliyle yikim 364-324; Megasthenes ~300 MO'da Maurya'ya bagli). Taslak -0344 kaynakta yok. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "Puranik Mahapadma Nanda (364-324 MO) kokunu kazidi; Megasthenes (~300 MO) caginda Maurya'nin 'integral part' i"
+  },
+  {
+   "id": "assaka",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Bolum I (Assaka/Asmaka: Potana, Godavari; Buddha cagi kral, Prens Sujata) ve II (Nanda listesi)",
+    "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta 1923 (archive.org: politicalhistory00raycuoft, OCR tam metin; okundu) - Assaka/Asmaka"
+   ],
+   "alinti": "At the time of Buddha the ruler of Assaka was a king whose son was Prince Sujata.",
+   "alinti_2": "Asmakas ... uprooted by Mahapadma Nanda (Puranic list)",
+   "kronoloji_okulu": "Mookerji/Majumdar II kronolojisi (Buddha olumu 486 MO varsayimi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ve ardillari 430-364, Nanda 364-324 MO). Alternatif Sinhala 544/543 (Bimbisara 604) ve Geiger 483 okullari ayni kitapta tartisilir; takvim yillari bu secime baglidir.",
+   "ic_not": "Konum tartismali (Godavari mi, KB Hindistan Assakenoi mi: Raychaudhuri/Majumdar). f yok, t yalniz Puranik aralik. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "Puranik Mahapadma Nanda (364-324 MO) 'Asmakas'i soker'; yil yok"
+  },
+  {
+   "id": "anuradhapura",
+   "onay": "celiskili",
+   "f_mo": 377,
+   "t_mo": -1017,
+   "f_iso": "-0376-01-01",
+   "t_iso": "1017-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": [
+    "W. Geiger (cev.), The Mahavamsa or the Great Chronicle of Ceylon, PTS London 1912, Giris 'Chronology' ve Mah. 10 (archive.org: mahavamsaorgreat00maha; okundu) - Intro 'Chronology' ss. (Pandukabhaya taht-cikis: ara-donem 11. yili = Kalasoka 10. yili = 383 MO; Pandukabhaya 377-307 MO tablosu) ve Mah. 10.74-75 (Pandukabhaya baskenti Anuradha'nin yaninda kurdu)",
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, OCR tam metin; okundu) - 'Ceylon: Political History' (Mahendra V 979-1027; Chola fethi 'in or shortly before A.D. 1017')",
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, OCR tam metin; okundu) - 'The Cholas' (Rajaraja: 'ruined Anuradhapura, made Polonnaruva his capital')"
+   ],
+   "alinti": "the year 11 of the interregnum between Abhaya and Pandukabhaya corresponds to the year 10 of Kalasoka (= 383 B.C.)",
+   "alinti_2": "conquered by the Chola king Rajendra, son and successor of Rajaraja, in or shortly before A.D. 1017",
+   "kronoloji_okulu": "Geiger kronolojisi (Buddha olumu 483 MO, Kalasoka senkronu): Pandukabhaya 377-307 MO. Geleneksel Sinhala 544/543 MO esasi +60 yil kaydirir (Majumdar II ayni Geiger okulunu benimser: Devanampiyatissa 247-207).",
+   "ic_not": "f: 377 MO = Pandukabhaya'nin tahta cikisi (Geiger tablosu OCR'dan: Pandukabhaya 377-307) ve Mahavamsa'ya gore Anuradhapura'yi baskent yapan kral; yani 'Anuradhapura Krallıgi' basligi icin makul ama Vijaya'dan (Tambapanni) ayri bir 'devlet kurulusu' anlatisi gelenege bagli (kronik, ~9. yy MS sonrasi derleme). t: iki aday: Rajaraja I'in kuzey Seylan'i ilhaki (kesin yil Majumdar'da yok) ve Mahendra V'in yakalanmasi 1017; kral Rohana'ya cekildi, Sinhala hanedani surdu (Vikramabahu 1027-39). Polonnaruva baskent oldu. Kesintili: Tamil Elara (145-101 MO) ve diger isgaller. 'Taslak 1017' Mahendra V olayi ile uyumlu ama polity sonu degil, kuzeyin kaybi.",
+   "f_aday": null,
+   "t_aday": "1017 (Mahendra V'in yakalanmasi, 'in or shortly before') vs Rajaraja I (985-1014) doneminde kuzey Seylan'in ilhaki + Anuradhapura'nin yikimi (yil yok)"
+  },
+  {
+   "id": "kalinga-eski",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 261,
+   "f_iso": null,
+   "t_iso": "-0260-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "yil"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Chap. V 'Asoka the Great: Kalinga War' (s. 73) ve 'Chronology' (s. 88); Giris sayfalari"
+   ],
+   "alinti": "the conquest of Kalinga in the eighth year after his coronation",
+   "alinti_2": "Nine years after his accession he rounded off the empire which he inherited from his grandfather by annexing Kalinga",
+   "kronoloji_okulu": "Mookerji: Asoka c. 273-236, tac giyme ~269 MO (accession 273 + 4 yil ara). 8. yil (taç giymeden) = 261; 9. yil (accession'dan) = 264: kitabin kendi ici tutarsizlik.",
+   "ic_not": "t: Asoka'nin Kalinga fethi Majumdar II'ye gore XIII. Kaya Fermani'na dayanan 'taç giymeden 8. yil' (=261 MO), giris bolumu 'accession'dan 9 yil' (=264). f: yok (Kalinga 'Maurya oncesi' icin kurulus yili kaynaksiz; ayrica Majumdar Nanda'nin Kalinga'yi fethettigini Hathigumpha'dan cikarir => Maurya oncesi Kalinga kesintili). Polity adi 'kalinga-eski' ve ardil 'maurya'. KUNYE YAZILAMAZ (f yok).",
+   "f_aday": null,
+   "t_aday": "261 MO (taç giyme 269 MO + 8. yil; Majumdar II Kalinga War bolumu, s. 73); giris ozeti 'accession'dan 9 yil sonra (accession 273) = ~264 MO"
+  },
+  {
+   "id": "paurava",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 317,
+   "f_iso": null,
+   "t_iso": "-0316-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "yil"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Chap. IV 'Chandragupta and the Maurya Empire' (Eudemus, 317 MO) ve 'Foreign Invasions: the Macedonian Invasion'"
+   ],
+   "alinti": "Eudemus, the commander of the garrison in Western Punjab, who had treacherously murdered his colleague, the Indian ruler, probably Porus, left India in that year",
+   "alinti_2": null,
+   "kronoloji_okulu": "Mookerji: Chandragupta 324-300; 317 MO Eudemus (Diodoros/Justin'e dayali).",
+   "ic_not": "t: Majumdar II Porus'un oldurulmesini 'probably' diye kurar; 317 MO Eudemus'un AYRILIS yili, olum yili degil (terminus ante). Paurava'nin f'si yok (Porus 326 MO'da vasal birakildi). KUNYE YAZILAMAZ (f yok).",
+   "f_aday": null,
+   "t_aday": "MO 317 civari (Eudemus'un Hindistan'dan ayrildigi yil; Hint hukumdarini 'probably Porus' hileyle oldurmustu - oldurme yili daha once olabilir)"
+  },
+  {
+   "id": "kuninda",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Chap. XI 'Northern India after the Kushanas' (D. C. Sircar), dipnot 1 (Kuninda sikkeleri, Amoghabhuti), Bolum 'General Review'"
+   ],
+   "alinti": "Amoghabhuti carved out a kingdom on the ruins of the Indo-Greek empire about the end of the first century B.C.",
+   "alinti_2": "It seems that the Kunindas were overcome by the Kulutas some time after Amoghabhuti.",
+   "kronoloji_okulu": "Sircar: sikke paleografisi; Rapson/Cunningham eski tarihleri (Majumdar notu: 'other views refer these coins to somewhat earlier periods').",
+   "ic_not": "Kaynak iki zıt hat sunar; taslak f=0000 (MO 1) 'usually believed'in ucu, t=0300 hic okunmadi (taslak sikke tipolojisi). Her iki uc de siniflandirilamaz. Polity yerine 'kabile/sikke grubu'. KUNYE YAZILAMAZ.",
+   "f_aday": "MO 1. yy sonu (Amoghabhuti 'usually believed'); alternatif MS 2.-3. yy (paleografi, Majumdar'in tercih ettigi okuma)",
+   "t_aday": "Kushana tarafindan yikildigi 'believed'; alternatif: Amoghabhuti'dan bir sure sonra Kuluta'ya yenilis (yil yok)"
+  },
+  {
+   "id": "yaudheya",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yuzyil"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Chap. XI 'Northern India after the Kushanas', 'The Tribal Republics: 3. The Yaudheyas'"
+   ],
+   "alinti": "The earliest Yaudheya coins, which may be attributed to a period about the end of the first century B.C.",
+   "alinti_2": "They were subdued by the Guptas in the next century.",
+   "kronoloji_okulu": "Sircar (Majumdar II ek): sikke paleografisi; Bijaygarh yaziti ~3. yy; Junagarh yaziti MS 150.",
+   "ic_not": "Yaudheya 'cumhuriyet' (gana) kesintisiz bir devlet degil: Saka/Kushana'ya tabi, 2.-3. yy'da guclu, 4. yy'da Gupta muttefiki. Taslak f=-0099, t=0400: f sikke tarihi ile yaklasik uyumlu, t=400 Allahabad yazitindan (350 civari) sonra kaynaksiz. KUNYE YAZILAMAZ (uclar yuzyil hassasiyetli, kesin degil).",
+   "f_aday": "en erken sikkeler MO 1. yy sonu civari (Majumdar II); Panini'de anilir (daha eski); Indo-Grek gerilemesiyle guclendi",
+   "t_aday": "MS 4. yy ortasi: Allahabad yazitinda Gupta'ya tabi muttefik; 'subdued by the Guptas in the next century' (3. yy gucunden sonraki yuzyil); Brihat-samhita'da sonra da anilir"
+  },
+  {
+   "id": "mahameghavahana",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, OCR tam metin; okundu) - Giris (Kharavela 1. yy MO) ve Chap. XIII 'The Chedi (Maha-Meghavahana) Dynasty of Kalinga' (s. 211-216)"
+   ],
+   "alinti": "Some scholars are inclined to assign him to the first half of the second century B.C.",
+   "alinti_2": "the Satavahana contemporary of Kharavela (second half of the first century B.C.)",
+   "kronoloji_okulu": "Majumdar II/Sircar: Kharavela MO 1. yy ikinci yarisi (Satavahana MO 1. yy baslangicina bagli); karsit okul: Bhandarkar/Jayaswal (MO 2. yy ilk yarisi, eski Satavahana).",
+   "ic_not": "Hanedanin baslangici ve sonu icin yil yok; Kharavela ucuncu kral; Hathigumpha yazitinin kendi tarih okumasi tartismali. Taslak f=-0199 yalnizca 'MO 2. yy' okulunun varsayimi. t=null dogru. KUNYE YAZILAMAZ.",
+   "f_aday": "Hanedan kurulus tarihi yok; Kharavela hanedanin 3. krali: MO 1. yy ikinci yarisi (Majumdar II) vs MO 2. yy ilk yarisi (bazi alimlar)",
+   "t_aday": null
+  },
+  {
+   "id": "kalabhra",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, OCR tam metin; okundu) - Chap. XIII 'Dynasties of South India' (R. Sathianathaier), III 'The Kalabhras' (s. 265-267)"
+   ],
+   "alinti": "Their sway was put an end to by Kadungon, who may be assigned conjecturally to c. 590-620",
+   "alinti_2": "the Kalabhras cannot but be regarded as a mysterious people",
+   "kronoloji_okulu": "Sathianathaier (Majumdar III): Kalabhra istilasi 3. yy sonrasi bilinmeyen tarih; Kadungon c. 590-620.",
+   "ic_not": "f: Majumdar III Kalabhra baslangici icin yil vermez ('Mudukudumi'den cok sonra'); taslak 0250 kaynaksiz. t: 'conjecturally c. 590-620' aralik; taslak 0590 aralik basi. Hanedan mi, kabile (Kalavar) mi, 'karanlik cag' mi belirsiz. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "c. 590-620 (Kadungon'un varsayimsal tarihi; Simhavishnu/Pallava ve Pandya Kadungon galibiyeti)"
+  },
+  {
+   "id": "vakataka",
+   "onay": "bulunamadi",
+   "f_mo": -250,
+   "t_mo": null,
+   "f_iso": "0250-01-01",
+   "t_iso": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": null
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, OCR tam metin; okundu) - Chap. XI 'Deccan in the Gupta Age', I The Vakatakas (s. 176-186) ve Chap. I Giris (Vakataka-Gupta ittifaki)"
+   ],
+   "alinti": "a century had already elapsed since the foundation of the Vakataka empire by Vindhyasakti",
+   "alinti_2": "Prithivishena II can hardly be placed after A.D. 528",
+   "kronoloji_okulu": "Majumdar III (Sircar/Altekar okulu): Pravarasena I ~4. yy ilk ceyregi sonu; Prithivishena I 4. yy ucuncu ceyregi => kurulus ~MS 250-275 (turetilmis).",
+   "ic_not": "f: dogrudan yil degil, 'Prithivishena I donemi (4. yy 3. ceyrek) kurulustan 100 yil sonra' cikarimi => MS ~250-275; taslak 250 yuzyil hassasiyetinde uyumlu. t: kaynakta yok (dalli: ana kol Nandivardhana/Nagpur ve Vatsagulma kolu, ikisinin sonu ayri). Mirashi/Miller gibi baska okullar okunmadi. KUNYE YAZILAMAZ (t yok). KISMEN okundu.",
+   "f_aday": null,
+   "t_aday": "Kaynakta bitis yili yok; terminus: Prithivishena II 'hardly placed after A.D. 528'; Harishena 5. yy ikinci yarisinda (Vatsagulma kolu)"
+  },
+  {
+   "id": "kadamba-banavasi",
+   "onay": "duzeltildi",
+   "f_mo": -350,
+   "t_mo": -610,
+   "f_iso": "0350-01-01",
+   "t_iso": "0610-01-01",
+   "f_onay": "duzeltildi",
+   "t_onay": "duzeltildi",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "onyil"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, OCR tam metin; okundu) - Chap. XIII 'Dynasties of South India', VI 'The Kadambas' (s. 270-273): Mayura-sarman 4. yy ortasi; Krishna-varman II c. 540-565; Aja-varman c. 565-606; Bhogi-varman c. 606-610"
+   ],
+   "alinti": "it is more likely that Mayura-sarman flourished about the middle of the fourth century A.D.",
+   "alinti_2": "The Kadamba dynasty came to an end with the death, probably in battle, of Bhogi-varman and of his son.",
+   "kronoloji_okulu": "Sathianathaier/Sircar (Majumdar III): Mayurasarman ~4. yy ortasi (Samudragupta Dakshinapatha seferi sonrasi); Chandravalli paleografi alternatifi 250-350.",
+   "ic_not": "Taslak f=0340 (onyil) yerine kaynak 'yuzyil/4. yy ortasi' (kesin onyil yok) -> duzeltildi 350 yuzyil. Taslak t=0525 YANLIS: 525 civari Kadamba hala ayakta; kaynak hanedan sonunu c. 606-610 (Bhogivarman) verir; Chalukya Kirtivarman I (567-97) donemi tabiiyet (hayalet bagimsizlik). Kadamba kollari: ana (Banavasi) kol Harivarman ~547'de bitti, kucuk kol Krishnavarman II onu devirdi. KUNYE yazilabilir (iki uc de kaynakli, yuzyil/onyil).",
+   "f_aday": "Chandravalli paleografisine gore MS 250-350 araliginda da onerilmis; Majumdar tercihi 4. yy ortasi",
+   "t_aday": "Alternatifler: Kirtivarman I (567-97) 'night of doom' ile Aja-varman'in tabi olusu (~567-606); hanedanin sonu Bhogivarman ~606-610 (Pulakesin II Banavasi kusatmasi)"
+  },
+  {
+   "id": "licchavi-nepal",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, OCR tam metin; okundu) - Chap. 'Northern India after the Gupta Empire' (Nepal bolumu; Manadeva, Narendradeva, Sivadeva, Jayadeva)",
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, OCR tam metin; okundu) - Chap. IV 'Eastern India during the Pala Period', I Nepal (Jayadeva II sonrasi 2 yuzyil karanlik; Newar cagi 879)"
+   ],
+   "alinti": "we may place the foundation of the Lichchhavi kingdom in Nepal in the first or second century A.D.",
+   "alinti_2": "The only known date of Jayadeva, the son and successor of Sivadeva, is 159 (A.D. 737).",
+   "kronoloji_okulu": "Majumdar III: Manadeva yazit tarihi Saka cagi (Samvat 386=464). Alternatifler: Vikrama (MS 329?), Gupta (rededilir), Licchavi cagi 110 MS. Era tartismali.",
+   "ic_not": "Taslak f=0464 yanlis anlam: bu en erken TARIHLI yazit (Manadeva), krallik kurulusu degil (kurulus 1.-2. yy cikarim). t=0750: kaynakta yok; son bilinen tarih 737 (Jayadeva), sonrasi Vamsavali karisikligi. Vaisali Licchavi'leri ile iliski kaynaksiz. KUNYE YAZILAMAZ (f cikarim, t yok).",
+   "f_aday": "MS 1.-2. yy (Majumdar III cikarimi: Manadeva 20. kral); en erken TARIHLI belge Manadeva yazitı Samvat 386 = MS 464 (Saka cagi varsayimi, 460-505 Manadeva donemi)",
+   "t_aday": "Son tarihli kral Jayadeva (yalniz bilinen tarih 159 = MS 737); sonrasi belirsiz; Newar cagi 879'a kadar karanlik"
+  },
+  {
+   "id": "rai-sind",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, OCR tam metin; okundu) - Chap. 'Kabul, Zabul and Sindh' (Chach-nama anlatisi: Sahiras, Sahasi II, Chach)",
+    "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, OCR tam metin; okundu) - kaynakca (Chach-nama)"
+   ],
+   "alinti": "a date after A.D. 640 accords better with the fact that his son occupied the throne in A.D. 708",
+   "alinti_2": "The date it gives for Chach's accession, viz. A.D. 602, is palpably wrong.",
+   "kronoloji_okulu": "Chach-nama (13. yy Farsca ceviri, Arapca kaynaga dayali) 602; Arap kroniği 622; Majumdar: >640.",
+   "ic_not": "f yok (Rai hanedani kurulusu hic verilmez). t: Chach'in tahta cikisi uc farkli tarih; taslak 0640 Majumdar'in 'sonrasi' alt sinirina esit. Chach-nama sonradan (13. yy) derlenmis ceviri; Majumdar 'always reliable degil'. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "Chach'in tahta cikisi: Chach-nama 602 (Majumdar 'palpably wrong'), Arap kroniği 622, Hiuen Tsang'a gore 640'tan SONRA; Brahman Chach hanedaninin kurulusu = Rai hanedanin sonu"
+  },
+  {
+   "id": "van-lang",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": null,
+    "t": null
+   },
+   "kaynak": [
+    "K. W. Taylor, A History of the Vietnamese, Cambridge University Press 2013, Bolum 1 (archive.org kopyasi OCR tam metin; okundu) - Bolum 'The Red River Plain': Hung krallari, An Duong, Zhao To, Ngo Si Lien kronikleri"
+   ],
+   "alinti": "an ancient dynasty named Hung that he purported to have ruled beginning in the third millennium BCE",
+   "alinti_2": "the Hung kings had supposedly ruled",
+   "kronoloji_okulu": "Ngo Si Lien (Dai Viet su ky toan thu, 1479): Hong Bang MO 2879; modern akademik okul: tarihsel kronoloji yok.",
+   "ic_not": "Taylor: Hung krallari efsanevi (Linh Nam Chich Quai, Ngo Si Lien 15. yy yapisi); Me Linh'de 'supposedly' hükmettiler; tarih yok. Taslak -0695..-0256 (Wikipedia/geleneksel) kaynaksiz. TARIHSEL POLITY DEGIL. KUNYE YAZILMAMALI (efsanevi).",
+   "f_aday": null,
+   "t_aday": null
+  },
+  {
+   "id": "au-lac",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": null,
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "K. W. Taylor, A History of the Vietnamese, Cambridge University Press 2013, Bolum 1 (archive.org kopyasi OCR tam metin; okundu) - Bolum 1 ('Qin invasion', An Duong - Zhao To anlatisi, Nan Yue)"
+   ],
+   "alinti": "Sometime during the first quarter of the second century BCE, he extended his authority over the people living in the Red River plain",
+   "alinti_2": "Armed adventurers, apparently fleeing the Qin invasion of southern China, had previously arrived and defeated the local ruler.",
+   "kronoloji_okulu": "Taylor: Qin 221-214 MO guney seferi; Zhao To bagimsiz Nan Yue ~207 MO sonrasi; Au Lac'in yikilisi MO 2. yy ilk ceyregi (kesin yil yok).",
+   "ic_not": "f: An Duong'un gelisi 'Qin isgalinden kacarak' (MO 3. yy sonu) - yil yok; taslak -0256 (257 MO) geleneksel (Dai Viet su ky) tarih, Taylor okumasinda yok. t: ceyrek-yuzyil araligi. Hikaye 6-7 yuzyil sonra derlenmis kitaplarda (Taylor). Kisa omurlu, kismen efsanevi. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": "Zhao To'nun Kirmizi Nehir ovasina egemenligi: 'Sometime during the first quarter of the second century BCE' (Taylor); Han geleneginde MO 179 sik anilir ama bu oturumda okunmadi"
+  },
+  {
+   "id": "pyu-sehir-devletleri",
+   "onay": "celiskili",
+   "f_mo": 200,
+   "t_mo": null,
+   "f_iso": "-0199-01-01",
+   "t_iso": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   },
+   "kaynak": [
+    "UNESCO World Heritage List no. 1444, 'Pyu Ancient Cities' (2014), https://whc.unesco.org/en/list/1444 (web.archive.org/web/2024/https://whc.unesco.org/en/list/1444 uzerinden; okundu)",
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - Bolum 'The Pyu Kingdom of Srikshetra' ve 'Burma: Conquest by Nanchao'",
+    "D. G. E. Hall, A History of South-East Asia, 4. bask., Macmillan, London 1981 (archive.org: a-history-of-south-east-asia-4th-ed, OCR tam metin; okundu) - Bolum 6 'Burma and Arakan'"
+   ],
+   "alinti": "They reflect the Pyu Kingdoms that flourished for over 1,000 years between 200 BC and AD 900.",
+   "alinti_2": "In 832, it abducted three thousand Pyus from the population of the capital Ha-lin",
+   "kronoloji_okulu": "UNESCO/arkeoloji: C-14 MO 190'a dek; Coedes: Nanzhao 832 olayı.",
+   "ic_not": "'Konfederasyon' etiketi kaynaksiz: Pyu, birbirinden ayri sehir devletleri kompleksi (Halin, Beikthano, Sri Ksetra...), birlesik polity degil. f: 'ca. MO 200' UNESCO + C-14 190 MO (yuzyil hassasiyeti). t: 832 sadece Halin'in bosaltilmasi; UNESCO 900'e kadar uzatir (Sri Ksetra surer). Kesintili: farkli sehirlerin farkli donemleri (Beikthano ~MS 1.-5. yy). Polity siniri degil, arkeolojik kultur araligi.",
+   "f_aday": null,
+   "t_aday": "MS 832 (Nanzhao Halin'den 3000 Pyu'yu surdu; 'beginning of the Pyu decline' - Coedes) vs MS 900 (UNESCO: 'between 200 BC and AD 900')"
+  },
+  {
+   "id": "halin",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": -832,
+   "f_iso": null,
+   "t_iso": "0832-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   },
+   "kaynak": [
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - Bolum 'Burma: Conquest by Nanchao (around 760) and the Decline of Prome' (Ha-lin 832)",
+    "UNESCO World Heritage List no. 1444, 'Pyu Ancient Cities' (2014), https://whc.unesco.org/en/list/1444 (web.archive.org/web/2024/https://whc.unesco.org/en/list/1444 uzerinden; okundu)"
+   ],
+   "alinti": "In 832, it abducted three thousand Pyus from the population of the capital Ha-lin",
+   "alinti_2": "Together the three cities provide evidence ... from ca. 2nd century BCE to the 9th century CE",
+   "kronoloji_okulu": "Coedes: Cin kaynaklari (Man shu/Tang shu).",
+   "ic_not": "t=832 olay olarak dogrulandi (Nanzhao'nun Ha-lin deportasyonu, Pyu gerilemesinin basi) ama sehrin/polity'nin sonu degil. f: Halin icin ozel yil yok. KUNYE YAZILAMAZ (f yok).",
+   "f_aday": "Halin'e ozgu kurulus yili bu kaynaklarda yok; UNESCO seri varligin tamami icin 'ca. MO 2. yy'dan'",
+   "t_aday": null
+  },
+  {
+   "id": "sri-ksetra",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": null
+   },
+   "kaynak": [
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - 'The Pyu Kingdom of Srikshetra'",
+    "D. G. E. Hall, A History of South-East Asia, 4. bask., Macmillan, London 1981 (archive.org: a-history-of-south-east-asia-4th-ed, OCR tam metin; okundu) - Bolum 6 (Pyu, Vikrama hanedani, U Aung Thaw)",
+    "UNESCO World Heritage List no. 1444, 'Pyu Ancient Cities' (2014), https://whc.unesco.org/en/list/1444 (web.archive.org/web/2024/https://whc.unesco.org/en/list/1444 uzerinden; okundu)"
+   ],
+   "alinti": "The earliest fragments of inscriptions found there go back to c. 500.",
+   "alinti_2": "show them to have been in existence as early as the first century A.D.",
+   "kronoloji_okulu": "Hall: Pyu mezar urn tarihleri Burma cagi (638) varsayimiyla 673-718; U Aung Thaw: Saka cagi (78) olasiligi.",
+   "ic_not": "Taslak f=0500 (onyil) yazit paleografisine yakin ama 'kurulus' degil; t=0832 Halin olayi, Sri Ksetra'nin sonu degil. Sri Ksetra son hukumdar/yok olus tarihi bu kaynaklarda yok. KUNYE YAZILAMAZ.",
+   "f_aday": "~MS 500 (en erken yazit parcalari, Coedes/Hall); alternatif: C-14 ile MS 1. yy'da var (U Aung Thaw, Hall'da aktarilir)",
+   "t_aday": "Kaynakta yok: Vikrama hanedani Sri Ksetra'da 673-718 (Hall, 'provisional'); 757-763 Nanzhao Yukari Irrawaddy'yi fethetti; 832 Halin"
+  },
+  {
+   "id": "kutai-martapura",
+   "onay": "bulunamadi",
+   "f_mo": -400,
+   "t_mo": null,
+   "f_iso": "0400-01-01",
+   "t_iso": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": null
+   },
+   "kaynak": [
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - Bolum 'The Resumption of Indian Emigration' (yedi yupa yazit, Kutei, Mulavarman ~400)",
+    "D. G. E. Hall, A History of South-East Asia, 4. bask., Macmillan, London 1981 (archive.org: a-history-of-south-east-asia-4th-ed, OCR tam metin; okundu) - Indonesia bolumu"
+   ],
+   "alinti": "the seven inscriptions on pillars found in the sultanate of Kutei seem to date back to around 400",
+   "alinti_2": null,
+   "kronoloji_okulu": "Paleografi (Pallava yazisi) - Vogel/Coedes.",
+   "ic_not": "f=400 en ERKEN TANIKLIK (yazit paleografisi); hanedan kurucusu Asvavarman daha onceye aittir (Mulavarman'in babasi). t yok (Kutai Martapura'nin sonu kaynakta anlatilmaz; 'Kutai Kartanegara 1300 ile fethi' ayri). KUNYE YAZILAMAZ (t yok).",
+   "f_aday": "en erken taniklik: Mulavarman yazitlari 'around 400' (hukumdar Kudungga -> Asvavarman -> Mulavarman)",
+   "t_aday": null
+  },
+  {
+   "id": "tarumanagara",
+   "onay": "celiskili",
+   "f_mo": -450,
+   "t_mo": -669,
+   "f_iso": "0450-01-01",
+   "t_iso": "0669-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yil"
+   },
+   "kaynak": [
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - Bolum 'The Second Indianization' (Purnavarman yazitlari) ve 'Srivijaya' (666-69 elcilik)",
+    "D. G. E. Hall, A History of South-East Asia, 4. bask., Macmillan, London 1981 (archive.org: a-history-of-south-east-asia-4th-ed, OCR tam metin; okundu) - Indonesia (Purnavarman 'c. 450, or perhaps a century later')"
+   ],
+   "alinti": "The script can be dated around 450, a little later than that of Mulavarman in Borneo.",
+   "alinti_2": "which we do not hear spoken of again after its embassy to China in 666-69",
+   "kronoloji_okulu": "Paleografi (Pallava); Cin Xin Tang shu 666-69.",
+   "ic_not": "f: yazit yazisi tarihlemesi (c. 450), kurulus yili degil; hanedan bundan once. t: 669 son anilma (terminus post quem), yikilis degil. Her iki uc de 'en erken/son taniklik'. KUNYE yalniz beyanli yaklasik olarak yazilabilir.",
+   "f_aday": "c. 450 (Coedes) ya da 'belki bir yuzyil sonra' (Hall)",
+   "t_aday": "669 = Cin kaynaklarindaki son anilis (To-lo-ma elciligi 666-69); 686 Bangka yazitindaki Cava seferi Taruma olabilir (Coedes: 'may have been')"
+  },
+  {
+   "id": "langkasuka",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": null
+   },
+   "kaynak": [
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - Bolum 'The First Indian Kingdoms' (Lang-ya-hsiu 'more than 400 years ago'), 'Resumption of Indian Emigration', 'Srivijaya on the Eve of Its Dismemberment', 'The Repercussions of the Mongol Conquests'"
+   ],
+   "alinti": "Lang-ya-hsiu, the founding of which the History of the Liang (502-56) places 'more than 400 years ago.'",
+   "alinti_2": "Marco Polo speaks of the kingdom of Lochac, that is, Langkasuka on the Malay Peninsula.",
+   "kronoloji_okulu": "Cin dinastik tarihleri (Liang shu).",
+   "ic_not": "f=100 (taslak) 'more than 400 years' ifadesiyle uyumlu ama dogrudan yil degil, Cin tarih yazicisinin yaklasik anlatisi. t=1400 kaynaksiz; Langkasuka 13. yy sonlarinda hala anilir, sonrasi Pattani/Ligor ile karisir. KUNYE YAZILAMAZ.",
+   "f_aday": "Liang shu (629): 'kurulusu 400 yildan fazla once' => MS ~1.-2. yy (Coedes); ilk Cin elciligi MS 515 civari (Bhagadatta)",
+   "t_aday": "Kaynakta bitis yok: Cola baskini 1025 (Ilangasogam), Chao Ju-kua ~1225 Srivijaya vasali, Marco Polo ~1290'lar 'Lochac'"
+  },
+  {
+   "id": "pan-pan",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": -635,
+   "f_iso": null,
+   "t_iso": "0635-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   },
+   "kaynak": [
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - Bolum 'The Indian States of the Malay Peninsula in the First Centuries' (Langkasuka'nin kuzeyi: P'an-p'an)"
+   ],
+   "alinti": "P'an-p'an's first embassy to China goes back to the period 424-53 and others followed up to 635.",
+   "alinti_2": null,
+   "kronoloji_okulu": "Cin elcilik kayitlari (Liang shu, Tang shu).",
+   "ic_not": "Her iki uc de elcilik kayitlarinin ilk/son tarihleridir (taniklik araligi), polity sinirlari degil. Taslak f=424 araligin ilk yilina denk, t=649 kaynakta yok (635). Konum: Bandon Korfezi (Majumdar/Coedes). KUNYE yalniz 'tanikliga dayali' beyanla yazilabilir.",
+   "f_aday": "ilk Cin elciligi 424-453 donemi (Coedes, dipnot numarasi OCR'da yapisik: '424-53'); taslak 424",
+   "t_aday": "son elcilik 635 (Coedes: 'others followed up to 635'); taslak 649 (Majumdar/Wikipedia?) bu okumada yok"
+  },
+  {
+   "id": "kantoli",
+   "onay": "celiskili",
+   "f_mo": -455,
+   "t_mo": -563,
+   "f_iso": "0455-01-01",
+   "t_iso": "0563-01-01",
+   "f_onay": "duzeltildi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": [
+    "R. C. Majumdar, Ancient Indian Colonies in the Far East, Vol. II: Suvarnadvipa, Part I Political History, Dacca 1937 (archive.org: aegc-ancient-indian-colonies-in-the-far-east-vol-2-suvarnadvipa..., OCR tam metin; okundu) - Malay Peninsula bolumu (Kan-to-li; Liang ve I. Sung kaynaklari; Groeneveldt/Gerini/Ferrand tartismasi)",
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - 'The Resumption of Indian Emigration' (Kan-t'o-li 454-464, 502, 519)"
+   ],
+   "alinti": "it flourished at least from 455 to 563 A.D.",
+   "alinti_2": "is located by general agreement in Sumatra",
+   "kronoloji_okulu": "Cin kaynaklari; konum: Coedes Sumatra (Jambi), Majumdar/Gerini Malay Yarimadasi - tartismali.",
+   "ic_not": "Taslak f=441 kaynakta yok; en erken tarih 454-465 elciligi. t=563 son taniklik. Konum ihtilafi nedeniyle haritalama riskli. 'Ardil/oncul' iliskisi (Srivijaya) tartismali. KUNYE yalniz taniklik beyaniyla.",
+   "f_aday": "Coedes: 454-464 arasi Sri Varanarendra'nin elciligi; Majumdar: Hia-Wu 454-465; taslak 441 desteklenmiyor",
+   "t_aday": "Majumdar: 'flourished at least from 455 to 563' (son taniklik); sonrasi anilmiyor"
+  },
+  {
+   "id": "trung-vuong",
+   "onay": "celiskili",
+   "f_mo": -40,
+   "t_mo": -42,
+   "f_iso": "0040-01-01",
+   "t_iso": "0042-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": [
+    "K. W. Taylor, A History of the Vietnamese, Cambridge University Press 2013, Bolum 1 (archive.org kopyasi OCR tam metin; okundu) - Bolum 1 (Trung Sisters; Ma Yuan 42-44 CE)"
+   ],
+   "alinti": "when Han settlements and garrisons were overrun in the spring of 40 CE the Trung Sisters then ruled as queens from Me Linh",
+   "alinti_2": "he captured and beheaded the Trung Sisters after a series of battles",
+   "kronoloji_okulu": "Han kronolojisi (Hou Hanshu); Taylor: Ma Yuan 42 CE kuru mevsim baslangici, Trung'un sonu yilin sonunda.",
+   "ic_not": "f=40 (ilkbahar) dogrulandi (gun yok -> -01-01). t: Taylor 42 yili sonu; baska kaynaklarda 43 baslangici olabilir: iki uc yil farkli ihtimal. Kisa omurlu Trung rejimi Me Linh merkezli. KUNYE yazilabilir (t ±1 yil beyanli).",
+   "f_aday": "MS 40 ilkbahar (Taylor: 'spring of 40 CE')",
+   "t_aday": "MS 42 sonu (Taylor: Ma Yuan 42 baslarinda geldi, kis kampanyasinda 'around the end of the year' Trung kardesleri yakaladi/basini kesti; 'reigned for two years'); genel gelenek 43 (Hou Hanshu) bu oturumda okunmadi"
+  },
+  {
+   "id": "kedah-kadaram",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   },
+   "kaynak": [
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - 'The Resumption of Indian Emigration', 'Srivijaya ... Cholas' (Kataha/Kadaram, 1025 baskini)"
+   ],
+   "alinti": "the expedition of Rajendrachola I seems not to have had lasting political consequences",
+   "alinti_2": "The inscription of Bukit Meriam at Kedah, which reproduces two Buddhist verses, dates from the same or a slightly later time.",
+   "kronoloji_okulu": "Coedes: Cola yazitlari (Tanjore 1030-31).",
+   "ic_not": "Taslak 400-1136 kaynaksiz: f arkeolojik/epigrafik gosterge, t=1136 Kedah Annals (Hikayat Merong Mahawangsa) geleneksel tarihi (akademik degil). Cola 1025'te Kadaram'i aldi ama kalici degil. 'Kedah/Kataha/Kadaram' ad birligi de kesin degil. KUNYE YAZILAMAZ.",
+   "f_aday": "Kedah'ta 4.-6. yy Budist yazitlari (Bukit Meriam, Cherok Tekun) = Hint etkisi, polity kurulus tarihi degil",
+   "t_aday": "1025 Cola baskini 'lasting political consequences' yok (Coedes); 1136 Kedah Annals geleneksel (akademik kaynak okunmadi)"
+  },
+  {
+   "id": "dhanyawadi",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": null,
+    "t": null
+   },
+   "kaynak": [
+    "D. G. E. Hall, A History of South-East Asia, 4. bask., Macmillan, London 1981 (archive.org: a-history-of-south-east-asia-4th-ed, OCR tam metin; okundu) - Bolum 6 'Burma and Arakan' (Arakan: Candra hanedani Vesali'de 330-360'tan itibaren 230 yil; Dhanyawadi anilmaz)",
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - Arakan kismi"
+   ],
+   "alinti": "record a Candra dynasty beginning to rule between A.D. 330 and 360 at a capital in the north named Vaisali (Wesali) and lasting for 230 years",
+   "alinti_2": null,
+   "kronoloji_okulu": "Arakan yazitlari (Candra hanedani); Dhanyawadi icin yok.",
+   "ic_not": "Dhanyawadi (Dhannavati) Hall/Coedes'te gecmiyor; epigrafik donem Vesali Candra hanedani. Tarih yok. KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": null
+  },
+  {
+   "id": "tun-sun",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": {
+    "f": null,
+    "t": null
+   },
+   "kaynak": [
+    "G. Coedes, The Indianized States of Southeast Asia, ed. W. F. Vella, cev. S. B. Cowing, East-West Center Press, Honolulu 1968 (archive.org: george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, OCR tam metin; okundu) - Bolum 'Indianization' ve 'The First Indian Kingdoms' (Tun-sun/Tien-sun; Fan Man'in fethettigi krallik)"
+   ],
+   "alinti": "in the kingdom of Tun-sun there are more than a thousand Brahmans of India",
+   "alinti_2": null,
+   "kronoloji_okulu": "Cin kaynaklari (5. yy metni; Fan Man ~3. yy baslarinda).",
+   "ic_not": "Cin kaynaklarinda adi gecer (Fan Shih-man Tien-sun'u fethetti, 3. yy); Brahman yerlesimi 5. yy metni. Ne kurulus ne son tarih; konum Malay Yarimadasi (tahmin). KUNYE YAZILAMAZ.",
+   "f_aday": null,
+   "t_aday": null
+  },
+  {
+   "id": "el-mirador",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": -150,
+   "f_iso": null,
+   "t_iso": "0150-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": null,
+    "t": "yuzyil"
+   },
+   "kaynak": [
+    "T. Inomata et al., 'High-precision radiocarbon dating of political collapse and dynastic origins at the Maya site of Ceibal, Guatemala', PNAS 114(6), 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5307461/ (okundu) - Discussion (El Mirador MS 150-175)",
+    "S. Martin & N. Grube, Chronicle of the Maya Kings and Queens, 2. bas., Thames & Hudson, London 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin; okundu, tablolar bozuk OCR) - Introduction (Preclassic: Nakbe -> El Mirador; 'dramatic decline between AD 150 and 200')"
+   ],
+   "alinti": "the major center of El Mirador and other Maya communities declined around AD 150-175",
+   "alinti_2": "experienced a dramatic decline between AD 150 and 200, and most of their largest cities were abandoned",
+   "kronoloji_okulu": "Arkeolojik (seramik fazlari, C-14): Late/Terminal Preclassic sonu.",
+   "ic_not": "f: kaynaklarda kurulus yok; taslak -0299 (300 MO) kaynaksiz. t=150 'gerileme/terk' (Inomata: 'declined around AD 150-175'), dinastik/devlet sonu degil; El Mirador'un 'devlet' mi sehir-devleti mi oldugu ve 'hanedan' (Kaan) iliskisi bu kaynaklarda kurulmaz. TARTISMALI POLITY. KUNYE YAZILAMAZ (f yok).",
+   "f_aday": null,
+   "t_aday": "MS ~150-175 (Inomata 2017); Martin-Grube: MS 150-200 arasi dramatik gerileme, buyuk sehirler terk"
+  },
+  {
+   "id": "yaxchilan",
+   "onay": "dogrulandi",
+   "f_mo": -359,
+   "t_mo": -808,
+   "f_iso": "0359-01-01",
+   "t_iso": "0808-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": [
+    "S. Martin & N. Grube, Chronicle of the Maya Kings and Queens, 2. bas., Thames & Hudson, London 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin; okundu, tablolar bozuk OCR) - Yaxchilan bolumu (Yopaat Bahlam I -> K'inich Tatbu Skull IV; Lintel 10; Piedras Negras Panel 3)"
+   ],
+   "alinti": "History at Yaxchilan begins with the accession of its founder, Yopaat Bahlam I, perhaps in 359",
+   "alinti_2": "Lintel 10 is the last of Yaxchilan's ... monuments ... commissioned by the city's last king, K'inich Tatbu Skull IV",
+   "kronoloji_okulu": "GMT+2 korelasyonu, Julyen takvim (Martin-Grube); erken donem Mathews'a bagli.",
+   "ic_not": "f 'perhaps' (soru isaretli), Uzun Sayim 8.16.2.9.1 -> 23 Temmuz 359 Julyen (GMT+2; hesapla dogrulandi) ama kaynak 'perhaps' diyor: gun degil yil hassasiyeti kullanin. t=808 SON KAYITLI olay (Lintel 10 / Temple 3), hanedanin fiilen bitisi bu degil; Piedras Negras'a karsi 808 mucadelesi. 'Terminal Classic' cokus. KUNYE yazilabilir (iki uc kaynakli, f 'perhaps', t 'son kayit').",
+   "f_aday": "Yopaat Bahlam I kurucu, 'perhaps in 359' (23 Temmuz 359?, 8.16.2.9.1), Mathews kronolojisi",
+   "t_aday": "Lintel 10 (Temple 3, 808) ve 'Piedras Negras Ruler 7 yakalama' ~808; K'inich Tatbu Skull IV 'city's last king'"
+  },
+  {
+   "id": "piedras-negras-yokib",
+   "onay": "celiskili",
+   "f_mo": -460,
+   "t_mo": -808,
+   "f_iso": "0460-01-01",
+   "t_iso": "0808-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yil"
+   },
+   "kaynak": [
+    "S. Martin & N. Grube, Chronicle of the Maya Kings and Queens, 2. bas., Thames & Hudson, London 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin; okundu, tablolar bozuk OCR) - Piedras Negras bolumu (Early Piedras Negras Kings; Ruler 7 781-808?; Yaxchilan Lintel 10)"
+   ],
+   "alinti": "This decisive clash apparently took place in 808.",
+   "alinti_2": "Ruler A c. 460, Ruler B c. 478, Turtle Tooth 508-510, Ruler C 514-518 (tablo, OCR)",
+   "kronoloji_okulu": "GMT+2, Julyen; erken hükümdarlar geriye hesaplama.",
+   "ic_not": "f: taslak 478 = Ruler B; kaynak kurucu (Ruler A) icin c. 460 verir ama ikisi de geriye hesap; ceagdas kayit 510. 'Tam dizi' 603'te baslar. t=808 Ruler 7'nin yakalanmasi; hanedan sonu icin baska kayit yok. KUNYE yazilabilir yalniz beyanli: f c. 460-478 belirsiz.",
+   "f_aday": "Ruler A c. 460, Ruler B c. 478 (Martin-Grube tablosu, geriye hesap); en erken ceagdas kayit Panel 12 (MS 510/518); Ruler 1 K'inich Yo'nal Ahk I tahta cikisi 14 Kasim 603 (kesin 'tam dizi' baslangici)",
+   "t_aday": "Yaxchilan Lintel 10: Ruler 7 Yaxchilan'in 'baak/esiri'; 'apparently took place in 808'"
+  },
+  {
+   "id": "quirigua",
+   "onay": "dogrulandi",
+   "f_mo": -426,
+   "t_mo": -810,
+   "f_iso": "0426-09-08",
+   "t_iso": "0810-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "gun",
+    "t": "yil"
+   },
+   "kaynak": [
+    "S. Martin & N. Grube, Chronicle of the Maya Kings and Queens, 2. bas., Thames & Hudson, London 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin; okundu, tablolar bozuk OCR) - Quirigua bolumu (Early Quirigua: Tok Casper; Jade Sky; Structure 1B-1 son tarih)"
+   ],
+   "alinti": "begins in 426 with a ... 'coming' to the 'Foundation House'",
+   "alinti_2": "Jade Sky, Quirigua's last known king ... last date at Quirigua, 9.19.0.0.0, falling in June 810",
+   "kronoloji_okulu": "GMT+2 korelasyonu, Julyen takvim.",
+   "ic_not": "f: kurulus tarihi 8. yy'da yazilmis geriye donuk kayit (Copan metni ile paralel); gun duzeyi var ama olay retrospektif ('Our knowledge ... relies on much later accounts'). Uzun Sayim 8.19.10.11.0 -> GMT+2 ile 8 Eylul 426 JULYEN (bu oturumda hesapla dogrulandi; proleptik Gregoryen karsiligi 9 Eylul 426; f_iso Julyen etiketlidir). t: son kayitli Uzun Sayim 9.19.0.0.0 = 24 Haziran 810 Julyen (GMT+2; hesapla dogrulandi); hanedan sonu degil, Jade Sky 'last known king'. KUNYE yazilabilir (f gun, beyanli retrospektif; t son kayit).",
+   "f_aday": "8 Eylul 426 (8.19.10.11.0?) Tok Casper'in 'Foundation House'a gelisi (Julyen, GMT+2)",
+   "t_aday": "Haziran 810 (9.19.0.0.0) Quirigua'nin son tarihi (Structure 1B-1); Jade Sky 'last known king'"
+  },
+  {
+   "id": "naranjo-saal",
+   "onay": "celiskili",
+   "f_mo": -546,
+   "t_mo": -820,
+   "f_iso": "0546-01-01",
+   "t_iso": "0820-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": [
+    "S. Martin & N. Grube, Chronicle of the Maya Kings and Queens, 2. bas., Thames & Hudson, London 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin; okundu, tablolar bozuk OCR) - Naranjo bolumu (Early Period; Aj Wosal 546-615; Waxaklajuun Ubaah K'awiil; Xunantunich 830)"
+   ],
+   "alinti": "The Naranjo dynasty really comes into focus only with the accession of Aj Wosal ... in 546.",
+   "alinti_2": "Naranjo's last known ruler, Waxaklajuun Ubaah K'awiil, took office. His Stela 32, erected in May 820",
+   "kronoloji_okulu": "GMT+2, Julyen.",
+   "ic_not": "f=546 hanedanin 'gorunur' hale geldigi nokta; kurucu degil (Tajal Chaak + mitolojik kurucu). t: 820 son tarihli olay, 830 (Xunantunich/Stela 9) alternatif; 830 'after 830' belirsiz. KUNYE yalniz beyanli yazilabilir.",
+   "f_aday": "546 = Aj Wosal'in tahta cikisi (12 yasinda); ondan once Tajal Chaak (6. yy basi stela)",
+   "t_aday": "Son hukumdar Waxaklajuun Ubaah K'awiil: 814'te tahta, Stela 32 Mayis 820; Stela 9 ve Xunantunich 830'a kadar"
+  }
+ ],
+ "bulunamadi": [
+  "pancala",
+  "kashi",
+  "kosala",
+  "anga",
+  "vatsa",
+  "avanti",
+  "kamboja",
+  "vajji",
+  "malla",
+  "chedi",
+  "matsya",
+  "surasena",
+  "assaka",
+  "kalinga-eski",
+  "paurava",
+  "mahameghavahana",
+  "kalabhra",
+  "vakataka",
+  "rai-sind",
+  "van-lang",
+  "au-lac",
+  "sri-ksetra",
+  "kutai-martapura",
+  "langkasuka",
+  "kedah-kadaram",
+  "dhanyawadi",
+  "tun-sun",
+  "el-mirador"
+ ],
+ "kutuphane_gerekli": [
+  {
+   "id": "mahajanapadalar (pancala,kashi,kosala,anga,vatsa,avanti,vajji,malla,surasena,assaka,chedi,matsya,kamboja)",
+   "eser": "R. C. Majumdar (ed.), Age of Imperial Unity ciltindeki Mookerji kronolojisi; Raychaudhuri; Law 'Historical Geography of Ancient India'; Thapar 'From Lineage to State' (1984); Erdosy",
+   "neden": "Bu kisimlarda kuruluş yili hic yok; Magadha'ya katilis yillari tek bir akademik kaynakta sabit degil. Thapar/Erdosy arkeolojik kronoloji (NBPW 700-300 MO) icin lazim."
+  },
+  {
+   "id": "mahameghavahana",
+   "eser": "D. C. Sircar, Select Inscriptions I (Hathigumpha, 1942/1965); Jayaswal-Banerji EI XX 71 ff; S. Gokhale",
+   "neden": "Hathigumpha okuma ve Kharavela tarihi tartismasi; birincil yazit okumasi bu oturumda yapilamadi."
+  },
+  {
+   "id": "vakataka",
+   "eser": "V. V. Mirashi, Inscriptions of the Vakatakas (CII V, 1963); A. S. Altekar (ed.), Vakataka-Gupta Age (1946); Hans Bakker, The Vakatakas (1997)",
+   "neden": "Dinastinin kurulus (Vindhyasakti) ve son (Harishena) yillari Majumdar III'te kesin degil."
+  },
+  {
+   "id": "licchavi-nepal",
+   "eser": "Sylvain Levi, Le Nepal (1905-08); D. R. Regmi, Ancient Nepal; Theo Riccardi / Gautama Vajracharya (Licchavi yazit cagi)",
+   "neden": "Samvat 386 era tartismasi, t ucu icin Licchavi sonu (Amsuvarman Thakuri, 8.-9. yy)."
+  },
+  {
+   "id": "rai-sind",
+   "eser": "Chach-nama (cev. Mirza Kalichbeg 1900); Wink, Al-Hind I; Y. Friedmann 'Sind' maddesi (EI2)",
+   "neden": "Chach'in tahta cikis tarihi ve Rai hanedani sonu."
+  },
+  {
+   "id": "van-lang/au-lac/trung-vuong",
+   "eser": "Taylor 'Birth of Vietnam' (1983); Hou Hanshu (Ma Yuan); Sima Qian 'Nan Yue lie zhuan' (Zhao Tuo ve Au Lac); Keith Taylor makale Han kronolojisi",
+   "neden": "Au Lac'in yikilis tarihi (179 MO gelenegi) ve Trung kizkardeslerin tam tarihi (42/43) icin birincil Cin metin neşri."
+  },
+  {
+   "id": "pyu/halin/sri-ksetra",
+   "eser": "Aung Myint & Janice Stargardt (Pyu); Stargardt, Satyaganga... ; Pyu Ancient Cities nomination dossier (UNESCO 2014, C-14 tablolari); Luce 'Old Burma - Early Pagan'",
+   "neden": "Halin ve Sri Ksetra'nin ayri ayri kronoloji tablosu (C-14) bu oturumda yalniz ozet seviyesinde."
+  },
+  {
+   "id": "kutai/tarumanagara/langkasuka/pan-pan/kantoli/kedah/tun-sun",
+   "eser": "Pelliot BEFEO 1904 (Fou-nan, Kan-t'o-li); Wheatley, The Golden Khersonese (1961); Wolters; Jacq-Hergoualc'h",
+   "neden": "Cin birincil kayitlarinin (Liang shu, Nan Qi shu) tarihlenmis neşirleri."
+  },
+  {
+   "id": "maya (el-mirador/yaxchilan/piedras-negras/quirigua/naranjo)",
+   "eser": "Mathews (Yaxchilan kronolojisi 1988), Houston-Stuart (Piedras Negras), Sharer-Traxler 'Ancient Maya' 6. bas., Hansen (El Mirador)",
+   "neden": "Martin-Grube OCR tablolari bozuk; kesin Uzun Sayim donusumleri icin Sharer&Traxler / Mesoweb ilgili makaleler. Ayrica Naranjo ve Piedras Negras icin erken donem."
+  }
+ ],
+ "_not": "Batch 6 (hint/Gudoydogu Asya/Amerika) - 'okundu' = archive.org OCR tam metninden ilgili bolumler satir satir okundu; Vikipedi kullanilmadi. 'celiskili' = ya kaynak araligi/tanikligi verir ya da iki hat var; f_aday/t_aday alanlarina bakin.",
+ "_sayim": {
+  "toplam": 43,
+  "dogrulandi": 2,
+  "duzeltildi": 1,
+  "celiskili": 12,
+  "bulunamadi": 28
+ }
+}

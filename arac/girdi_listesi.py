@@ -720,4 +720,33 @@ GIRDI_DOSYALARI = [
     "yerlesimler_a78_okyanusya.js",
     # AVRUPA-SINIR-0077 (27 Eylul 2026) — A-M ardil dilimleri: Maribor, Eisenstadt (M-5219/M-5234)
     "yerlesimler_p77_avrupa.js",
+    # ONCE1281-YERLESIM-AVRUPA2 (18 Ekim 2026) - Como, Meissen, Salzburg, Baden-Baden, Egriboz
+    "yerlesimler_once1281_avrupa.js",
+    # SUMER-1019 (19 Ekim 2026) - Sumer kutusu 21 nokta (NOKTA-SUMER-1010 + B10), MO varlik uclari, s:/d: yok
+    "yerlesimler_mo_sumer.js",
+    "yerlesimler_once1281_yt_amerika.js",
+    "yerlesimler_once1281_yt_ortadogu.js",
+    "yerlesimler_once1281_yt_iran_orta_asya.js",
+    "yerlesimler_once1281_yt_hint.js",
+    "yerlesimler_once1281_yt_dogu_gd_asya.js",
+    "yerlesimler_once1281_yt_dogu3.js",
+    "yerlesimler_odak_yedek_1023.js",
+    "yerlesimler_once1281_yt_avrupa.js",
+    "yerlesimler_once1281_yt_anadolu_kafkas.js",
+    "yerlesimler_once1281_yt_afrika_levant.js",
+    "yerlesimler_once1281_yt_afrika.js",
+    # YER-3-BATI (23 Ekim 2026) - ONEMLI-YOK ikinci tur, dogu/gd-asya disi; s:[] bos veri-yok, bit 1281
+    "yerlesimler_once1281_yt_yer3.js",
+    "yerlesimler_mo_boya_bekleyen.js",
+    "yerlesimler_mo_zincir.js",
+    "yerlesimler_mo_levant_anadolu.js",
+    "yerlesimler_mo_iran_asya.js",
+    "yerlesimler_mo_dogu_asya.js",
+    "yerlesimler_mo_avrupa.js",
+    "yerlesimler_mo_amerika.js",
+    "yerlesimler_mo_afrika.js",
+    # VERI-MS1-1281 (21 Ekim 2026) - 1281 oncesi kaynakli yeni yerlesimler
+    "yerlesimler_ms1_1281_yeni.js",
+    # DOGU-500-1281 (22 Ekim 2026) - doğu yarıküre 500-1281 yeni yerleşimler
+    "yerlesimler_dogu_500_1281.js",
 ]

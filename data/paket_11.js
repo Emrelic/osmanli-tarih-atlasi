@@ -109,7 +109,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Diplomasinin çözemediğini Özbek Han ordusuyla denedi: Kafkasya'nın demir kapısı Derbend'i geçip Emîr Çoban komutasındaki İlhanlı kuvvetlerine yürüdü. Derbend geçidi iki devlet arasındaki tek pratik geçit olduğu için Altın Orda-İlhanlı savaşlarının değişmez sahnesidir.",
   kaynak:"TDV, madde: ozbek-han (1318, Derbend'i geçiş, Emir Çoban)" },
 
-{ t:"1319-01-01", b:"Altın Orda kuvvetleri Trakya'yı yağmaladı — yağma kırk gün sürdü", tur:"savas", onem:3, dunya:2, kapsam:"dis",
+{ odak_yer:["Trakya"], t:"1319-01-01", b:"Altın Orda kuvvetleri Trakya'yı yağmaladı — yağma kırk gün sürdü", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","yagma","konu-askeri"],
   yer_id:"",
   d:"Altın Orda süvarileri Tuna'yı aşıp Bizans'ın Trakya topraklarına girdi ve TDV'nin ifadesiyle 'yağma kırk gün devam etti'. Özbek Han'ın kızkardeşi Bizans imparatoruyla evliydi; akın, hanlığın Balkanlar'daki nüfuzunun askerî yüzüdür.", ic_not_d:"yer_id boş: kaynak tek bir şehir adı vermiyor, bölge adı veriyor.",
@@ -121,7 +121,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Özbek Han 720 (1320) yılında İslâm'ı kabul ederek Muhammed adını aldı; bu tarihten sonraki sikkelerinde 'es-Sultânü'l-a'zam Gıyâseddin Muhammed Özbek Han el-Âdil' ibaresi yer aldı. Bu, bir hükümdarın şahsî tercihinden ibaret değildir: Berke Han'ın kişisel Müslümanlığından farklı olarak bu kez din DEVLETİN dini oldu ve Deşt-i Kıpçak'ın Türkleşmesiyle İslâmlaşması aynı süreç hâline geldi. Saray başta olmak üzere şehirler camiler, medreseler ve tekkelerle donandı. Bugünkü Tatar, Başkurt, Kazak, Nogay ve Kırım Türklerinin Müslüman kimliği bu karara dayanır.",
   kaynak:"TDV, madde: ozbek-han — '720'de (1320)' + sikke ibaresi birebir; TDV, madde: altin-orda-hanligi — 'Özbek Han zamanında ... camiler, medreseler ve tekkelerle süslenmiştir'" },
 
-{ t:"1320-05-16", b:"Tolun-Bige Hatun Mısır'a gönderildi — Memlük ittifakının evlilikle mühürlenmesi", ic_not_b:"eski b: 'Mısır Memlük hânedanından Tolun-Bige Hatun ile evlilik anlaşması' — YÖN TERSTİ. TDV ozbek-han: Özbek Han 'hânedandan Tolun-Bige Hatun'u … Mısır'a GÖNDERDİ'. ⚠️ HANEDAN iddiası YAZILMADI: alıntının başı kesik, hangi hânedan olduğu tam cümle görülmeden kesin değil. ODAK-KAPAT Altın Orda diyor ve bağlam destekliyor, ama ölçülmeyen şey hüküm olmaz. Ölçen: ODAK-KAPAT, tahta M-5728", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
+{ odak_yer:["Mısır"], t:"1320-05-16", b:"Tolun-Bige Hatun Mısır'a gönderildi — Memlük ittifakının evlilikle mühürlenmesi", ic_not_b:"eski b: 'Mısır Memlük hânedanından Tolun-Bige Hatun ile evlilik anlaşması' — YÖN TERSTİ. TDV ozbek-han: Özbek Han 'hânedandan Tolun-Bige Hatun'u … Mısır'a GÖNDERDİ'. ⚠️ HANEDAN iddiası YAZILMADI: alıntının başı kesik, hangi hânedan olduğu tam cümle görülmeden kesin değil. ODAK-KAPAT Altın Orda diyor ve bağlam destekliyor, ama ölçülmeyen şey hüküm olmaz. Ölçen: ODAK-KAPAT, tahta M-5728", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
   etiket:["diplomasi","ittifak","sosyal","konu-diplomasi","konu-hanedan","konu-sosyal"],
   yer_id:"",
   d:"Memlük ittifakı bir evlilikle mühürlendi. Hanedanlar arası evlilik bozkır diplomasisinde bir anlaşma metninden daha bağlayıcıdır; İslâm'ın kabulüyle aynı yıla düşmesi de tesadüf değildir — Altın Orda artık Memlük Mısır'ıyla yalnız siyasî değil dinî bir ortaklık da kuruyordu.",
@@ -175,13 +175,13 @@ window.KRONOLOJI_ALTINORDA = [
   d:"TDV'nin verdiği sayı tek başına dönemi anlatıyor: '1360-1380 yılları arasındaki bu dönemde hükümdarlık makamına on dört han geçtiği halde hiçbiri devleti eski kudretine kavuşturamadı.' Rus kroniklerinin 'Büyük Kargaşa' (velikaya zamyatnya) dediği bu devirde gerçek güç hanlarda değil, onları tahta çıkarıp indiren beylerdeydi — batıda Mamay Mirza, doğuda Ak Orda hanları. Moskova'nın vergi ödemeyi aksatmaya, Litvanya'nın batı topraklarını almaya başlaması bu boşluktandır.",
   kaynak:"TDV, madde: altin-orda-hanligi — '1360-1380 ... on dört han geçtiği halde hiçbiri devleti eski kudretine kavuşturamadı'" },
 
-{ t:"1380-09-08", b:"Kulikovo Muharebesi — Mamay'ın ordusu Moskova Knezi Dmitri Donskoy'a yenildi", tur:"savas", onem:5, dunya:2, kapsam:"dis",
+{ odak_yer:["Moskova"], t:"1380-09-08", b:"Kulikovo Muharebesi — Mamay'ın ordusu Moskova Knezi Dmitri Donskoy'a yenildi", tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"Batı Deşt-i Kıpçak'ın hâkimi Mamay Mirza, Don'a dökülen Nepryadva boyundaki Kulikovo sahasında Moskova Knezi Dmitri'ye yenildi. Askerî sonucu kalıcı olmadı — iki yıl sonra Toktamış Moskova'yı yakıp haracı yeniden dayattı — ama Rus tarihyazımı bu günü Tatar boyunduruğuna direnişin sembolik başlangıcı sayar.", ic_not_d:"🔴 Altın Orda açısından asıl önemi şudur: yenilen han değil bir BEYDİ, ve yenilgisi Toktamış'a kapıyı açtı. yer_id boş: muharebe sahasının atlasta yerleşim kaydı yok (aynı olay `kronoloji_rusya.js`te de yer_id'siz).",
   kaynak:"TDV, madde: toktamis-han — '8 Eylül 1380 tarihinde Kulikovskaya savaşında Ruslar'a yenilerek Kırım'a dönen ... Mamay Mirza'; dunya:2 kronoloji_rusya.js:83'ten OKUNDU" },
 
-{ t:"1380-01-01", b:"Toktamış, Kalka boyunda Mamay'ı yendi — yirmi yıllık kargaşa sona erdi, devlet yeniden birleşti", tur:"savas", onem:5, dunya:3, kapsam:"ic",
+{ odak_yer:["Donets bozkırı"], t:"1380-01-01", b:"Toktamış, Kalka boyunda Mamay'ı yendi — yirmi yıllık kargaşa sona erdi, devlet yeniden birleşti", tur:"savas", onem:5, dunya:3, kapsam:"ic",
   etiket:["askeri","siyaset","ic-savas","konu-askeri","konu-siyasi","konu-isyan"],
   yer_id:"",
   d:"Kulikovo'dan yenik dönen Mamay Mirza'yı, Timur'un desteklediği Toktamış Han, Don'a dökülen Kalka ırmağı boyunda mağlûp etti. TDV bu zaferin sonucunu açıkça yazar: yirmi yıl süren iç mücadelenin ardından Altın Orda yeniden tek elde toplandı. Devletin son gerçek toparlanışıdır; bundan sonraki her birleşme girişimi başarısız olacaktır.", ic_not_d:"⚠️ Kaynak yıl veriyor, GÜN vermiyor — Kulikovo'dan sonrasına düştüğü kesin, tam günü değil.",
@@ -199,7 +199,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Şehir 1383-1386 arasında mevcut surların dışına taşınca ikinci bir sur hattı örüldü. Altın Orda merkezî otoritesinin çözüldüğü yıllarda Kefe'nin BÜYÜMESİ dikkate değerdir: bozkırdaki siyasî kargaşa Karadeniz ticaretini kesmemiş, aksine kolonilerin özerkliğini artırmıştır.",
   kaynak:"TDV, madde: kefe — '1383-1386' dış surlar" },
 
-{ t:"1391-06-01", b:"Kunduzca (Kondurça) Savaşı — Timur, Toktamış'ı ilk kez ağır yenilgiye uğrattı", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:4, kapsam:"dis",
+{ odak_yer:["Donets bozkırı"], t:"1391-06-01", b:"Kunduzca (Kondurça) Savaşı — Timur, Toktamış'ı ilk kez ağır yenilgiye uğrattı", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"Toktamış'ı tahta çıkaran Timur'la arası Azerbaycan meselesi yüzünden açılmıştı. İki ordu Receb 793'te (Haziran 1391) Kunduzca (Kondurça) ırmağı boyunda karşılaştı; Toktamış ağır bir yenilgi aldı. Bu, Altın Orda'nın belini kıran iki seferin birincisidir.", ic_not_d:"⚠️ Kaynak ay veriyor, gün vermiyor — 06-01 ayın başına yazıldı, ölçülmüş gün değildir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok.",
@@ -211,7 +211,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Nisbesini Altın Orda'nın başkenti Saray'dan alan Kıpçak şairi Seyf-i Sarâyî, Sa'dî-i Şîrâzî'nin Gülistan'ını 1 Eylül 1391'de Türkçeye çevirmeyi tamamladı — mensur kısımları nesirle, manzum kısımları şiirle. Bu, Gülistan'ın TÜRKÇEYE İLK ÇEVİRİSİDİR ve Codex Cumanicus'tan sonra Kıpçak Türkçesinin en önemli dil âbidesi sayılır; XIX. yüzyıla kadar Orta Asya Türkleri arasında ders kitabı olarak okundu.", ic_not_d:"📌 Tarihin anlamı yalnız edebî değil: Timur'un Kunduzca'da hanlığın ordusunu dağıttığı yıl, aynı hanlığın yetiştirdiği bir şair Fars klasiğini Türkçeye kazandırıyordu. Bir devletin askerî çöküşüyle kültürel verimi aynı takvime düşebilir.",
   kaynak:"TDV, madde: seyf-i-sarayi — Gülistan Tercümesi 1 Eylül 1391'de tamamlandı, 'Türkçeye ilk Gülistan tercümesi'" },
 
-{ t:"1393-01-01", b:"Toktamış Han, Lehistan-Litvanya Kralı Jagiello'ya yarlık gönderdi — bozkır diplomasisinin belgesi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
+{ odak_yer:["Litvanya"], t:"1393-01-01", b:"Toktamış Han, Lehistan-Litvanya Kralı Jagiello'ya yarlık gönderdi — bozkır diplomasisinin belgesi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis",
   etiket:["diplomasi","idari","hukuk","konu-idari","konu-diplomasi","konu-hukuk"],
   yer_id:"",
   d:"Toktamış Han'ın 1393'te Jagiello'ya gönderdiği yarlık, Altın Orda diplomasisinin günümüze ulaşan somut örneklerindendir. Yarlık, Türk-Moğol devletlerinde hükümdar buyruğudur ve Altın Orda'da iki türü vardı: tâbi ülke hükümdarlarına gönderilen DİPLOMATİK yarlıklar, ve vergiden ve devlet hizmetinden muafiyet tanıyan TARHANLIK yarlıkları. Her yeni han, seleflerinin yarlıklarını ya onaylar ya iptal ederdi — yani yarlık aynı zamanda bir meşruiyet tazeleme aracıydı.", ic_not_d:"🔴 TDV'nin hükmü açıktır: yarlıklar, Altın Orda'nın siyasî, iktisadî, askerî ve idarî yapısını anlamanın başlıca kaynağıdır. ⚠️ Yarlığın GÜNÜ kaynakta yok, yıl başına yazıldı.",
@@ -241,25 +241,25 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Timur, yendiği Toktamış'ın yerine kendi adayı Timur Kutluk'u (1396-1400) han ilân etti. Altın Orda tahtının artık DIŞARIDAN belirlendiği ilk açık andır; hanlık bağımsız bir güç olmaktan çıkıp bir nüfuz alanına dönüşmüştür.",
   kaynak:"TDV, madde: altin-orda-hanligi — 'Timur Kutluk (1396-1400), Timur tarafından Altın Orda hükümdarı ilân edildi'" },
 
-{ t:"1399-01-01", b:"Edigü Mirza, Toktamış ve Litvanya ordusunu yendi — beylerin hanlar üzerindeki hâkimiyeti kesinleşti", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Litvanya"], t:"1399-01-01", b:"Edigü Mirza, Toktamış ve Litvanya ordusunu yendi — beylerin hanlar üzerindeki hâkimiyeti kesinleşti", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","siyaset","ic-savas","konu-askeri","konu-siyasi","konu-isyan"],
   yer_id:"",
   d:"Tahtını geri almak için Litvanya Büyük Dukası Vytautas ile ittifak kuran Toktamış, Mangıt beyi Edigü ve Timur Kutluk'un kuvvetlerine yenildi (Vorskla ırmağı). Yenilgi iki şeyi birden belirledi: Toktamış bir daha tahta dönemedi, ve Litvanya'nın bozkıra yayılma girişimi durdu.", ic_not_d:"🔴 Asıl sonuç kurumsaldır — Cengiz soyundan OLMAYAN Edigü, han olamadığı hâlde devleti fiilen yönetmeye başladı.",
   kaynak:"TDV, madde: toktamis-han — Edigey'in kuvvetlerine 1399'da yenilmesi; TDV, madde: altin-orda-hanligi — 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti'" },
 
-{ t:"1405-01-01", b:"Toktamış Han öldürüldü — devleti son kez birleştiren hanın sonu", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Donets bozkırı"], t:"1405-01-01", b:"Toktamış Han öldürüldü — devleti son kez birleştiren hanın sonu", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","hukumdar","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"1399'daki yenilgiden sonra kaçak yaşayan Toktamış, 1405'te takip edildiği sırada Karaton ırmağı yakınında bir uçuruma düşerek öldü. Altın Orda'yı bir bütün olarak yöneten SON han odur; ondan sonra taht, beylerin elinde bir araç hâline geldi.",
   kaynak:"TDV, madde: toktamis-han — '1405 yılına kadar' kaçak yaşamı ve Karaton yakınındaki ölümü" },
 
-{ t:"1419-01-01", b:"Edigü'nün yirmi yıllık fiilî idaresi sona erdi", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Donets bozkırı"], t:"1419-01-01", b:"Edigü'nün yirmi yıllık fiilî idaresi sona erdi", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","idari","konu-siyasi","konu-idari","konu-hanedan"],
   yer_id:"",
   d:"TDV: 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti.' Cengiz soyundan gelmediği için han unvanı alamayan, ama hanları tayin eden bir beyin yirmi yıl süren idaresi, Altın Orda'da meşruiyetin nasıl aşındığının en açık göstergesidir.",
   kaynak:"TDV, madde: altin-orda-hanligi — 'Edige Mirza ... 1419'a kadar devleti idare etti'" },
 
-{ t:"1420-01-01", b:"Edigü öldü — oğulları Nogay Ordası'nın çekirdeğini kurdu", tur:"bolunme", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Donets bozkırı"], t:"1420-01-01", b:"Edigü öldü — oğulları Nogay Ordası'nın çekirdeğini kurdu", tur:"bolunme", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","bolunme","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"TDV, Nogaylar maddesinde tarihi birebir verir: 'Edige'nin (Edigü/İdigü) 823'te (1420) ölümünden sonra oğulları' Deşt-i Kıpçak'ta çeşitli hanların emirleri olarak siyasete devam etti. Nogay Ordası bu mirastan doğdu — Altın Orda'dan kopan beş yapının kronolojik olarak İLKİDİR ve ötekilerden farkı, bir HANEDANDAN değil bir BEY AİLESİNDEN doğmuş olmasıdır (bkz. [[nogay]]).",
@@ -313,7 +313,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Büyük Orda, ayrılan Kırım'ı silah zoruyla geri almayı denedi ve yarımadayı istilâ etti. Girişim kalıcı olmadı: Kırım artık Osmanlı himayesindeydi ve bozkırdaki bir hanın karşısında yalnız değildi. Bu, Altın Orda mirasının parçalarının artık birbiriyle DIŞ GÜÇLER üzerinden hesaplaştığının işaretidir.",
   kaynak:"data/kronoloji_kirim.js:103 (TDV kirim maddesine dayalı); dunya:2 aynı kayıttan OKUNDU" },
 
-{ t:"1480-11-11", b:"Ugra Nehri karşılaşması — Rus knezliklerinin haraç ödemesi sona erdi", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Donets bozkırı"], t:"1480-11-11", b:"Ugra Nehri karşılaşması — Rus knezliklerinin haraç ödemesi sona erdi", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Ahmed Han'ın kuvvetleriyle III. İvan'ın orduları Ugra ırmağı kıyısında aylarca karşı karşıya durdu; çatışma olmadan Ahmed Han geri çekildi.", ic_not_d:"🔴 Bir muharebe yaşanmadan bir imparatorluk ilişkisi sona erdi: 1237'den beri süren Rus knezliklerinin haraç yükümlülüğü fiilen bitti. Rus tarihyazımı bu günü 'Tatar boyunduruğunun sonu' ve Moskova'nın bağımsız bir güç olarak doğuşu sayar. Altın Orda mirası açısından ise gelir kaynaklarının sonuncusunun da kaybedilmesidir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok (aynı olay `kronoloji_rusya.js`te de yer_id'siz).",
@@ -410,7 +410,7 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Kuzeydeki vilâyetler ortak savunma ve iç işlerde egemenlik esasına dayanan bir birlik kurdu. Bu metin Birleşik Provinsler'in fiilî anayasası oldu ve 1795'e kadar yürürlükte kaldı; TDV bağımsızlığın kazanıldığı tarih olarak 1579'u verir.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda, 1579 yılında İspanya'dan bağımsızlığını kazandıktan hemen sonra deniz aşırı ülkelere açılmak için büyük çaba harcadı\" · Dikkat: GÜN DOĞRULANMADI" },
 
-{ t:"1581-07-26", b:"Feragat Bildirisi — kralın azledilmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", etiket:["anayasa","isyan","darbe-siyasi","konu-isyan","konu-darbe","konu-islahat","konu-hukuk"], yer_id:"",
+{ odak_yer:["Amsterdam"], t:"1581-07-26", b:"Feragat Bildirisi — kralın azledilmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", etiket:["anayasa","isyan","darbe-siyasi","konu-isyan","konu-darbe","konu-islahat","konu-hukuk"], yer_id:"",
   d:"Genel Meclis, II. Felipe'yi hükümdarlıktan azlettiğini ilan etti: bir hükümdar tebaasına karşı yükümlülüklerini çiğnerse tebaanın onu görevden alma hakkı vardır. Bir halkın kralını hukukî gerekçeyle azlettiği bu metin, Avrupa siyasî düşüncesinde bir ilktir.",
   kaynak:"bulunamadı — okunan kaynaklarda GÜN doğrulanmadı · Dikkat: yer_id BOŞ: Lahey (Den Haag) yerleşim listesinde YOK, oysa Genel Meclis'in merkezidir (ölçüldü)" },
 
@@ -459,7 +459,7 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Akdeniz'de İspanyol donanmasına karşı mücadele eden Kaptanıderyâ Kayserili Halil Paşa, Venedik'teki Hollandalı tüccarlar eliyle Hollanda'ya bir mektup gönderdi. Mektupta padişahın serbest ticaret hakkı tanımaya karar verdiği belirtiliyor ve İstanbul'a bir temsilci gönderilmesi isteniyordu; ilişkiyi başlatan davet Osmanlı tarafından geldi.",
   kaynak:"TDV `hollanda` (gövdesi okundu): Halil Paşa'nın 1610'da gönderdiği mektup ve temsilci daveti (Erdbrink'e atıfla) · Dikkat: GÜN DOĞRULANMADI" },
 
-{ t:"1611-09-07", b:"Cornelis Haga'nın İstanbul'a yola çıkması", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
+{ odak_yer:["İstanbul"], t:"1611-09-07", b:"Cornelis Haga'nın İstanbul'a yola çıkması", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
   d:"Genel Meclis, Halil Paşa'nın teklifini görüşüp Cornelis Haga başkanlığında bir heyet göndermeye karar verdi. Haga'nın tâlimatnâmesi iki maddeydi: esirlerin serbest bırakılması ve Hollanda bayrağı altında ticaret hakkı.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"7 Eylül 1611'de yola çıkan Haga\" · Dikkat: yer_id BOŞ: Lahey yok" },
 
@@ -475,7 +475,7 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Venedik, Fransa ve İngiltere elçilerinin bütün engellemelerine rağmen Haga I. Ahmed'den ahidnâme aldı. Fransa ve İngiltere'ye verilenlerle aynı olan bu belge, cumhuriyete İstanbul'da elçilik ve Osmanlı iskelelerinde konsolosluk açma hakkı ile adlî ve ticarî imtiyazlar tanıdı. Hollanda tüccarı artık kendi bayrağı altındaydı.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"I. Ahmed'den bir ahidnâme almayı başardı (6 Temmuz 1612). Fransa ve İngiltere'ye verilenlerle aynı olan bu ahidnâmeyle Felemenk Birleşik Cumhuriyeti'ne İstanbul'da elçilik ve Osmanlı ülkesi dahilindeki iskelelerde konsolosluk açma hakkı verilmiş, bazı adlî ve ticarî imtiyazlar tanınmıştı\" (A. H. de Groot, The Ottoman Empire and the Dutch Republic'e atıfla)" },
 
-{ t:"1613-01-01", b:"Ömer Ağa'nın Hollanda'ya gönderilmesi ve Haga'nın daimî elçi olması", tur:"diplomasi", onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
+{ odak_yer:["Hollanda"], t:"1613-01-01", b:"Ömer Ağa'nın Hollanda'ya gönderilmesi ve Haga'nın daimî elçi olması", tur:"diplomasi", onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
   d:"Osmanlı hükûmeti yeni müttefikini tanımak için Halil Paşa'nın adamlarından Ömer Ağa'yı gönderdi; korsanların elinden kurtarılan esirlerle birlikte gelen elçi büyük merasimle karşılandı, genel meclisi ve şehirleri gezip müsbet intibalarla döndü. Padişahın isteği üzerine Genel Meclis Haga'nın İstanbul'da daimî elçi olarak kalmasına karar verdi.",
   kaynak:"TDV `hollanda` (gövdesi okundu): Ömer Ağa'nın görevi, karşılanışı ve dönüşü (1613); \"Padişahın isteği üzerine Hollanda Genel Meclisi Haga'nın dâimî elçi olarak İstanbul'da kalmasına karar verdi\" · Dikkat: yer_id BOŞ: Lahey yok" },
 
@@ -533,7 +533,7 @@ window.KRONOLOJI_HOLLANDA = [
 
 // III. DENİZ HÂKİMİYETİ, FELAKET YILI VE İNGİLTERE TACI (1650-1700)
 
-{ t:"1652-07-10", b:"Birinci İngiliz-Hollanda Savaşı", tur:"savas", onem:4, dunya:3, kapsam:"dis", etiket:["askeri","ekonomi","konu-askeri","konu-ekonomi"], yer_id:"",
+{ odak_yer:["Hollanda"], t:"1652-07-10", b:"Birinci İngiliz-Hollanda Savaşı", tur:"savas", onem:4, dunya:3, kapsam:"dis", etiket:["askeri","ekonomi","konu-askeri","konu-ekonomi"], yer_id:"",
   gun:"10 Temmuz 1652", ic_not_gun:"10 Temmuz 1652 — takvimi ÖLÇÜLEMEDİ (İngiliz ilânı Jülyen olabilir; kaynak bulunamadı)",
   d:"İngiltere'nin Seyrüsefer Kanunu'yla Hollanda taşımacılığını dışlaması savaşa yol açtı. İki deniz cumhuriyeti, ticaret yollarının denetimi için üç savaştan ilkine girdi.",
   kaynak:"bulunamadı — GÜN DOĞRULANMADI" },
@@ -552,12 +552,12 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Delft'li bez tüccarı Antoni van Leeuwenhoek, kendi yaptığı tek mercekli aletlerle serbest yaşayan mikroorganizmaları, mantar hiflerini, alyuvarları, kılcal dolaşımı, ağız bakterilerini ve spermatozoayı ilk kez belgeledi. Bulgularını Londra'daki Royal Society'ye iki yüzden fazla mektupla bildirdi; mikrobiyoloji Delft'in optik ve zanaat kültüründen doğdu.",
   kaynak:"Huygens Instituut / KNAW, 'Antoni van Leeuwenhoek — The Collected Letters' projesi ve akademik derleme: \"Using single-lens instruments, he documented the first observations of free-living microorganisms, fungal hyphae, red blood cells, capillary flow, oral bacteria, and spermatozoa in more than two hundred letters to the Royal Society of London\" · Dikkat: GÜN ve YIL DOĞRULANMADI (mektuplar 1670'lerden itibaren) · Dikkat: yer_id BOŞ: Delft yok" },
 
-{ t:"1677-02-21", b:"Spinoza'nın ölümü ve Etika'nın yayımlanması", tur:"kultur", onem:4, dunya:4, kapsam:"ic", etiket:["kultur","din","konu-kisiler","konu-din","konu-kultur"], yer_id:"",
+{ odak_yer:["Amsterdam"], t:"1677-02-21", b:"Spinoza'nın ölümü ve Etika'nın yayımlanması", tur:"kultur", onem:4, dunya:4, kapsam:"ic", etiket:["kultur","din","konu-kisiler","konu-din","konu-kultur"], yer_id:"",
   gun:"21 Şubat 1677 Gregoryen",
   d:"Spinoza öldüğü yıl başyapıtı Etika ölümünden sonra basıldı. Cumhuriyetin yayın iklimi Avrupa'nın en hürüydü; yine de Spinoza'nın eserleri yasaklandı — Lodewijk Meyer, Adriaen Koerbagh ve Balthasar Bekker'in yazılarıyla birlikte Avrupa çapında tartışma yarattı.",
   kaynak:"UvA, 'Dutch Culture and Society in European Context': Spinoza'nın sansürlenmesi ve radikal düşünce akımının Altın Çağ'ın son on yıllarında Avrupa'da yarattığı tartışma · Dikkat: GÜN DOĞRULANMADI" },
 
-{ t:"1688-11-05", b:"III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-isyan","konu-hanedan"], yer_id:"",
+{ odak_yer:["Amsterdam"], t:"1688-11-05", b:"III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-isyan","konu-hanedan"], yer_id:"",
   gun:"5 Kasım 1688 JÜLYEN (Torbay çıkarması, İngiliz takvimi) = 15 Kasım 1688 Gregoryen (Hollanda takvimi)",
   d:"Hollanda stadhouder'i William, Genel Meclis'in donattığı bir donanmayla İngiltere'ye çıktı ve tacı aldı. İki deniz gücü aynı hükümdarda birleşti; Fransa'ya karşı ittifak kuruldu, ama uzun vadede deniz ticaretinin ağırlığı Londra'ya kaydı — Hollanda için zafer ve gerileyişin başlangıcı aynı olaydır.",
   kaynak:"bulunamadı — GÜN DOĞRULANMADI" },
@@ -707,7 +707,7 @@ window.KRONOLOJI_ISVEC = [
   yer_id:"",
   d:"Kardeşleri Johan ve Karl'ın önderliğindeki soylu ayaklanması, giderek dengesizleşen IV. Erik'i tahttan indirdi. Erik yıllarca hapiste tutuldu ve 1577'de zehirlenerek öldürüldüğü sanılıyor; III. Johan'ın saltanatı İsveç'i Polonya hanedan siyasetine sürükleyecekti.",
   kaynak:"Franklin D. Scott, Sweden: The Nation's History", yer_kon:[59.3293,18.0686] },
-{ t:"1587-01-01", b:"Osmanlı ile ilk resmî temas — Kral Sigismund'un mektubu", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis",
+{ odak_yer:["Stokholm","Krakov","İstanbul"], t:"1587-01-01", b:"Osmanlı ile ilk resmî temas — Kral Sigismund'un mektubu", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis",
   etiket:["diplomasi","konu-diplomasi"],
   yer_id:"",
   d:"İsveç veliahtı ve aynı yıl Polonya kralı seçilen Sigismund (III. Zygmunt Waza), III. Murad'a bir mektup göndererek Osmanlı-İsveç ilişkilerinin ilk resmî belgeli temasını başlattı. Bu, XII. Karl'ın 1709'daki sığınmasından bir buçuk asır önceki, projede TDV kaynağıyla doğrulanmış en erken temastır.",
@@ -781,7 +781,7 @@ window.KRONOLOJI_ISVEC = [
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718", yer_kon:[51.249,12.147] },
 
 // === D) KRALİÇE KRİSTİNA VE MUTLAKİYETE GİDİŞ (1632-1660) ===================
-{ t:"1632-11-06", b:"Axel Oxenstierna naipliği fiilen başladı", tur:"idari", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Stokholm"], t:"1632-11-06", b:"Axel Oxenstierna naipliği fiilen başladı", tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["idari","siyaset","konu-siyasi","konu-idari"],
   yer_id:"",
   d:"Gustav Adolf'un ölümüyle altı yaşındaki Kristina tahta çıkarken, devlet yönetimi güçlü ve tecrübeli şansölye Axel Oxenstierna'nın elinde toplandı. Oxenstierna, Otuz Yıl Savaşları'nın geri kalanında İsveç dış politikasını ve merkezi bürokrasisini bizzat inşa etti.",
@@ -800,7 +800,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["siyaset","taht","konu-siyasi","konu-hanedan"],
   d:"Evlenmeyi reddeden ve giderek Katolikliğe yakınlaşan Kristina, kuzeni Karl Gustav lehine tahttan feragat etti. Feragat töreni, otuz yıl süren Vasa saltanatının bu kolunu kapatan sembolik bir dönüm noktasıdır.",
   kaynak:"Franklin D. Scott, Sweden: The Nation's History", yer_id:"Uppsala" },
-{ t:"1655-01-01", b:"Kristina, Katolikliğe geçip Roma'ya yerleşti", tur:"din", onem:3, dunya:1, kapsam:"ic",
+{ odak_yer:["Roma","Stokholm"], t:"1655-01-01", b:"Kristina, Katolikliğe geçip Roma'ya yerleşti", tur:"din", onem:3, dunya:1, kapsam:"ic",
   etiket:["din","konu-din"],
   yer_id:"",
   d:"Tahttan çekildikten kısa süre sonra Kristina, gizlice Katolikliğe geçtiğini açıkladı ve Roma'ya yerleşerek ömrünün geri kalanını burada geçirdi. Katolik bir eski İsveç kraliçesinin varlığı dönemin Avrupa'sında büyük yankı uyandırdı.",
@@ -850,7 +850,7 @@ window.KRONOLOJI_ISVEC = [
   kaynak:"Franklin D. Scott, Sweden: The Nation's History", yer_kon:[59.3293,18.0686] },
 
 // === F) BÜYÜK KUZEY SAVAŞI VE XII. KARL'IN OSMANLI SIĞINMASI (1700-1721) =====
-{ t:"1700-01-01", b:"Büyük Kuzey Savaşı başladı", tur:"savas", onem:5, dunya:4, kapsam:"dis",
+{ odak_yer:["Narva","Riga","Kopenhag"], t:"1700-01-01", b:"Büyük Kuzey Savaşı başladı", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Danimarka, Rusya ve Saksonya-Polonya, genç ve tecrübesiz sandıkları XII. Karl'a karşı gizli bir ittifakla aynı anda savaş açtı.", ic_not_d:"`dunya:4` değeri data/kronoloji_rusya.js:327 ile birebir alınmıştır; savaş 1721'e dek sürüp İsveç'in büyük güç statüsünü sona erdirecekti.",
@@ -903,7 +903,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["diplomasi","konu-diplomasi"],
   d:"Kalabalık Vakası'ndan sonra Dimetoka'da gözetim altında tutulan XII. Karl'a, uzun görüşmelerin ardından ülkesine dönme izni verildi. İzin, beş yıllık Osmanlı ikametinin resmî olarak kapanışını işaret eder.",
   kaynak:"isvec (TDV, içerik okundu)", yer_id:"Dimetoka" },
-{ t:"1714-10-11", b:"XII. Karl, Osmanlı topraklarından ayrılıp Avrupa'ya döndü", tur:"diger", onem:3, dunya:1, kapsam:"dis",
+{ odak_yer:["Dimetoka","Stralsund"], t:"1714-10-11", b:"XII. Karl, Osmanlı topraklarından ayrılıp Avrupa'ya döndü", tur:"diger", onem:3, dunya:1, kapsam:"dis",
   etiket:["diger"],
   yer_id:"",
   d:"XII. Karl, küçük bir maiyetle at sırtında on beş günde Osmanlı topraklarından Avrupa'daki İsveç topraklarına ulaştı — dönemin Avrupa basınında geniş yankı uyandıran efsanevi bir yolculuk.", ic_not_d:"TDV'nin `isvec` maddesi varış tarihini bu şekilde vermektedir; yolculuğun son durağının kesin coğrafi ayrıntısı bu dosyada ayrıca doğrulanmamıştır.",
@@ -1115,7 +1115,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["ekonomi","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"On dokuzuncu yüzyıl ortasında değişen deniz ticareti koşullarına uyum sağlamak üzere iki devlet, ticaret ve seyrisefâin ilişkilerini güncelleyen yeni bir antlaşma imzaladı. Antlaşma, Osmanlı-İsveç ilişkilerinin 1587'den beri süren en uzun soluklu diplomatik çizgilerden birinin geç dönem halkasıdır.",
   kaynak:"isvec (TDV, içerik okundu)", yer_id:"İstanbul" },
-{ t:"1901-01-01", b:"İlk Nobel Ödülleri verildi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Stokholm","Oslo"], t:"1901-01-01", b:"İlk Nobel Ödülleri verildi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
   etiket:["bilim","kultur","konu-bilim","konu-kultur"],
   yer_id:"",
   d:"Alfred Nobel'in 1895 vasiyetnamesinde öngörülen fizik, kimya, tıp, edebiyat ve barış ödülleri ilk kez Stockholm ve Oslo'da (barış ödülü) dağıtıldı.", ic_not_d:"`dunya:2` istisnai olarak verildi çünkü ödül, kısa sürede kalıcı ve dünya çapında bir bilim-kültür kurumuna dönüştü — tek bir devletin iç meselesi olmaktan çıktı.",
@@ -1293,7 +1293,7 @@ window.KRONOLOJI_JAPONYA = [
   yer_id:"Kyoto",
   d:"[Azuchi-Momoyama] Kendi generallerinden Akechi Mitsuhide'nin ani baskınında Nobunaga, kaldığı Honnō-ji tapınağını ateşe verip intihar etti; birleşme sürecinin liderliği kısa sürede en yetenekli komutanı Toyotomi Hideyoshi'ye geçecekti.",
   kaynak:"japonya (TDV — devletler.js azuchi-momoyama kaydıyla birebir)" },
-{ taraflar:["azuchi-momoyama"], t:"1588-08-29", b:"Hideyoshi \"Kılıç Avı\" fermanını çıkardı", tur:"reform", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Osaka","Kyoto"], taraflar:["azuchi-momoyama"], t:"1588-08-29", b:"Hideyoshi \"Kılıç Avı\" fermanını çıkardı", tur:"reform", onem:4, dunya:1, kapsam:"ic",
   etiket:["reform","idari","sosyal","konu-idari","konu-islahat","konu-sosyal"],
   yer_id:"", odak_kimlik:["azuchi-momoyama"],
   d:"[Azuchi-Momoyama] Katanagari adıyla bilinen bu ferman, köylülerden ve din adamlarından bütün silahları topladı; savaşçı (samuray) sınıfını üretici sınıflardan kalıcı olarak ayırıp toplumsal hiyerarşiyi katılaştıran bu düzenleme, iki asır sürecek Tokugawa dönemi toplumsal düzeninin temellerinden biri oldu.",
@@ -1325,7 +1325,7 @@ window.KRONOLOJI_JAPONYA = [
   yer_id:"Edo (Tokyo)",
   d:"[Edo Şogunluğu] İmparatordan seii taishōgun unvanını alan Ieyasu, küçük bir balıkçı köyü olan Edo'yu başkent yaparak 265 yıl sürecek Tokugawa düzenini başlattı; aynı yıl Kyoto'da Izumo no Okuni'nin sahnelediği danslar Kabuki tiyatrosunun doğuşu sayılır.",
   kaynak:"japonya (TDV)" },
-{ taraflar:["edo-bakufu"], t:"1614-01-27", b:"Tokugawa şogunluğu Hıristiyanlığı tamamen yasakladı", tur:"din", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Edo (Tokyo)","Kyoto","Nagazaki"], taraflar:["edo-bakufu"], t:"1614-01-27", b:"Tokugawa şogunluğu Hıristiyanlığı tamamen yasakladı", tur:"din", onem:4, dunya:2, kapsam:"ic",
   etiket:["din","reform","zulum","konu-din","konu-islahat"],
   yer_id:"", odak_kimlik:["edo-bakufu"],
   d:"[Edo Şogunluğu] Hıristiyan daimyoların yabancı güçlerle ittifak kurabileceği ve köylü isyanlarını örgütleyebileceği endişesiyle Ieyasu bütün Hıristiyan ibadetini yasakladı, misyonerleri sürgün etti; bu politika 1637-38 Shimabara İsyanı'yla en kanlı biçimine ulaşacaktı.",
@@ -1345,7 +1345,7 @@ window.KRONOLOJI_JAPONYA = [
   yer_id:"",
   d:"[Edo Şogunluğu] Ağır vergiler ve dinî zulümden bunalan, çoğu Hıristiyan Şimabara ve Amakusa köylüleri, genç lider Amakusa Shirō önderliğinde ayaklandı; şogunluk ordusunun kuşatması sonunda yaklaşık 37.000 isyancı katledildi ve bu, Tokugawa döneminin en kanlı iç ayaklanması olarak sakoku politikasının sertleşmesini doğrudan tetikledi.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: George Sansom, A History of Japan, cilt 3", yer_kon:[32.79,130.37] },
-{ taraflar:["edo-bakufu"], t:"1639-07-05", b:"\"Sakoku\" fermanıyla ülke neredeyse tamamen dışa kapatıldı", tur:"reform", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Nagazaki","Edo (Tokyo)"], taraflar:["edo-bakufu"], t:"1639-07-05", b:"\"Sakoku\" fermanıyla ülke neredeyse tamamen dışa kapatıldı", tur:"reform", onem:5, dunya:3, kapsam:"dis",
   etiket:["reform","diplomasi","ekonomi","konu-diplomasi","konu-ekonomi","konu-islahat"],
   yer_id:"", odak_kimlik:["edo-bakufu"],
   d:"[Edo Şogunluğu] Portekizlilerin de kovulmasıyla tamamlanan bu dizi ferman, Japonları yurt dışına çıkmaktan ve yabancıların girmesinden men etti; yalnızca Hollandalı ve Çinli tüccarlara Nagazaki limanında sıkı denetim altında ticaret izni tanındı — 1853'e (bkz. E bölümü) kadar sürecek iki buçuk asırlık kapanma politikasının başlangıcı.",
@@ -1437,7 +1437,7 @@ window.KRONOLOJI_JAPONYA = [
   yer_id:"Kyoto",
   d:"[Meiji dönemi] Genç imparator adına ilan edilen bu kısa bildirge, kararların 'geniş meclisler'de görüşülmesini, eski kötü geleneklerin terk edilmesini ve 'bilginin dünyanın her yanından aranmasını' vaat etti; somut bir anayasa olmasa da Meiji reform programının ilkesel çerçevesini çizen ve 1889 Anayasası'na giden yolu açan sembolik kurucu belge sayılır.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: W. G. Beasley, The Meiji Restoration (1972)" },
-{ taraflar:["meiji-japonya"], t:"1872-08-03", b:"Gakusei (Eğitim Sistemi) fermanıyla zorunlu ilköğretim getirildi", tur:"reform", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Edo (Tokyo)","Kyoto","Osaka"], taraflar:["meiji-japonya"], t:"1872-08-03", b:"Gakusei (Eğitim Sistemi) fermanıyla zorunlu ilköğretim getirildi", tur:"reform", onem:4, dunya:2, kapsam:"ic",
   etiket:["reform","egitim","bilim","konu-bilim","konu-egitim","konu-islahat"],
   yer_id:"", odak_kimlik:["meiji-japonya"],
   d:"[Meiji dönemi] Fransız ve ABD modellerinden esinlenen bu ferman, cinsiyet ve sınıf ayrımı gözetmeksizin bütün çocuklar için ilköğretimi zorunlu kıldı; okuryazarlık oranını bir nesilde dramatik biçimde yükseltip Meiji sanayileşmesinin insan sermayesi temelini attı, ama köylü ailelerin okul harcı yükü zaman zaman yerel isyanlara da yol açtı.",
@@ -1700,7 +1700,7 @@ window.KRONOLOJI_MISIR = [
 
 { taraflar:["misir-kavalali"], t:"1813-05-02", b:"Tâif'in geri alınması — Hicaz seferinin tamamlanışı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"], d:"Medine ve Mekke'nin ardından Tosun Paşa kumandasındaki Mısır ordusu Tâif'i de Vehhâbîlerden geri aldı; on yıl süren Suûd hâkimiyeti sona erdi. Hicaz'ın üç kutsal merkezinin tamamı yeniden Mısır ordusunun denetimine girmişti.", kaynak:"taif (TDV) — data/olaylar_ek4.js:68'de zaten doğrulanmış, Mısır perspektifine uyarlandı", yer_id:"Tâif" },
 
-{ taraflar:["misir-kavalali"], t:"1815-01-20", b:"Bisel Muharebesi — Suûdî kuvvetlerinin bozguna uğraması", tur:"savas", onem:3, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", d:"Bizzat idareyi ele alan Mehmed Ali'nin kuvvetleri meydan savaşında Suûdîleri ağır bir yenilgiye uğrattı; ağır yenilgi alan Suûdîler iç bölgelere çekildi. Mütareke kalıcı olmayacak, iki yıl sonra harekât Necid'in kalbine taşınacaktı.", kaynak:"vehhabilik (TDV) — data/olaylar_ek4.js:76'da zaten doğrulanmış, Mısır perspektifine uyarlandı" },
+{ odak_yer:["Kahire"], taraflar:["misir-kavalali"], t:"1815-01-20", b:"Bisel Muharebesi — Suûdî kuvvetlerinin bozguna uğraması", tur:"savas", onem:3, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", d:"Bizzat idareyi ele alan Mehmed Ali'nin kuvvetleri meydan savaşında Suûdîleri ağır bir yenilgiye uğrattı; ağır yenilgi alan Suûdîler iç bölgelere çekildi. Mütareke kalıcı olmayacak, iki yıl sonra harekât Necid'in kalbine taşınacaktı.", kaynak:"vehhabilik (TDV) — data/olaylar_ek4.js:76'da zaten doğrulanmış, Mısır perspektifine uyarlandı" },
 
 { taraflar:["misir-kavalali"], t:"1818-09-09", b:"Dir'iye'nin düşüşü — İlk Suûdî Devleti'nin sonu", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"], d:"İbrâhim Paşa'nın altı ay süren kuşatmasının ardından Dir'iye teslim oldu ve yıkıldı; Emîr Abdullah b. Suûd İstanbul'da idam edildi. Mısır ordusu Arabistan'ın içlerine bu kadar derine ilk defa ulaşmıştı — Necid garnizonu 1824'e kadar kalacak, sefer Mısır'ın imparatorluk çapındaki askerî prestijinin doruk noktalarından biri olacaktı.", kaynak:"diriye (TDV) — data/olaylar_ek4.js:84'te zaten doğrulanmış, Mısır perspektifine uyarlandı", yer_id:"Dir'iye (Necid)" },
 
@@ -1792,7 +1792,7 @@ window.KRONOLOJI_MISIR = [
 
 { taraflar:["misir-kavalali"], t:"1840-11-27", b:"İskenderiye Konvansiyonu — Mehmed Ali'nin geri adımı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"], yer_id:"İskenderiye", d:"Mehmed Ali Suriye, Adana, Girit ve Hicaz'dan vazgeçmeyi, Osmanlı donanmasını iade etmeyi ve padişahın hâkimiyetini tanımayı kabul etti; karşılığında Mısır'ın irsî valiliği güvenceye alındı. Bu, Mısır'ın on yıl önce Kütahya'da kazandığı bütün toprakları geri vermesi, ama karşılığında en kalıcı kazanımı — kendi hanedanının kesin meşruiyetini — elde etmesiydi.", kaynak:"kavalali-mehmed-ali-pasa (TDV) — data/olaylar_ek4.js:262'de zaten doğrulanmış, Mısır perspektifine uyarlandı" },
 
-{ taraflar:["misir-kavalali"], t:"1841-02-25", b:"Mısır ordusunun Suriye ve Çukurova'yı boşaltması", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"], yer_id:"", d:"Dokuz yıllık işgal sona erdi; İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü. Nil'den Toroslar'a uzanan geniş kuşak yeniden doğrudan Osmanlı idaresine geçti — Mısır, imparatorluk içi imparatorluk hayalinden sonunda vazgeçmiş, ama kendi çekirdek toprağını ve hanedanını kurtarmıştı.", kaynak:"suriye (TDV) — data/olaylar_ek4.js:265'te zaten doğrulanmış, Mısır perspektifine uyarlandı", odak_kimlik:["misir-kavalali"], kapsam_genis:true },
+{ odak_yer:["Şam","Adana","Gazze"], taraflar:["misir-kavalali"], t:"1841-02-25", b:"Mısır ordusunun Suriye ve Çukurova'yı boşaltması", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"], yer_id:"", d:"Dokuz yıllık işgal sona erdi; İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü. Nil'den Toroslar'a uzanan geniş kuşak yeniden doğrudan Osmanlı idaresine geçti — Mısır, imparatorluk içi imparatorluk hayalinden sonunda vazgeçmiş, ama kendi çekirdek toprağını ve hanedanını kurtarmıştı.", kaynak:"suriye (TDV) — data/olaylar_ek4.js:265'te zaten doğrulanmış, Mısır perspektifine uyarlandı", odak_kimlik:["misir-kavalali"], kapsam_genis:true },
 
 { taraflar:["misir-kavalali"], t:"1841-05-24", b:"Ferman: Mısır valiliğinin Kavalalı ailesine irsî bırakılması", tur:"idari", onem:5, dunya:4, kapsam:"dis", etiket:["idari","antlasma","konu-idari","konu-diplomasi"], yer_id:"İstanbul", d:"Padişah fermanı, Mısır valiliğini hanedan içinde babadan oğula geçecek şekilde tanıdı; buna karşılık ordu mevcudu on sekiz bine indirildi, vergi İstanbul'a bağlandı, para basma ve antlaşma yapma yetkisi kaldırıldı. Mısır bir vilayet olarak kaldı ama artık ayrı bir hanedanın ülkesiydi — 1953'e kadar sürecek Kavalalı hanedanının hukuki temeli bu fermanla atıldı. Hicaz ve Haremeyn idaresi Bâbıâli'ye geri döndü.", kaynak:"misir (TDV) — data/olaylar_ek4.js:270'te zaten doğrulanmış, Mısır perspektifine uyarlandı" },
 
@@ -1806,7 +1806,7 @@ window.KRONOLOJI_MISIR = [
 
 { taraflar:["misir-kavalali"], t:"1859-04-25", b:"Süveyş Kanalı kazısının başlaması ve Port Said'in kuruluşu", tur:"ekonomi", onem:5, dunya:4, kapsam:"ic", etiket:["ekonomi","bilim","imar","islahat","konu-bilim","konu-ekonomi","konu-imar","konu-islahat","konu-ulastirma"], d:"Ferdinand de Lesseps'in projesinin kazı çalışmaları 25 Nisan 1859'da başladı; kanal on yıl sonra tamamlanacaktı. Kazının Akdeniz ucunda işçiler için kurulan barakalar Port Said'in çekirdeğini oluşturdu — Mısır, daha önce hiçbir yerleşimin bulunmadığı bir kıyı şeridinde yepyeni bir şehir doğuruyor, aynı zamanda kendi tarihinin en büyük mali yükünü de üstleniyordu.", kaynak:"suveys (TDV) — data/olaylar_7a4170.js:79'da zaten doğrulanmış, Mısır perspektifine uyarlandı", yer_id:"Portsaid" },
 
-{ taraflar:["misir-kavalali"], t:"1861-06-01", b:"Amerikan İç Savaşı'nın Mısır pamuğuna talebi patlatması", gun:"Haziran 1861? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi · TDV `pamuk`, `misir`, `kavalali-mehmed-ali-pasa`, `ibrahim-pasa-kavalali` … ay/gün vermiyor · Dikkat: 1 Haziran yıl ortası için yer tutucu olabilir", tur:"ekonomi", onem:4, dunya:3, kapsam:"dis", etiket:["ekonomi","konu-ekonomi"], yer_id:"", d:"Amerikan İç Savaşı'nın (1861-1865) Güney limanlarını abluka altına alması, dünya tekstil sanayiinin başlıca hammadde kaynağı olan Amerikan pamuğunun piyasadan çekilmesine yol açtı; TDV'nin pamuk maddesi bu savaşın 'Osmanlı pamuk piyasasını canlandırdığını' özellikle vurgular. Mısır, İngiliz ve Fransız tekstil fabrikalarının açık kalan başlıca alternatifi olarak fiyatların kat kat arttığı bir ihracat patlaması yaşadı; bu 'pamuk çılgınlığı' toprak sahiplerini zenginleştirirken, savaş bitip Amerikan pamuğu piyasaya dönünce 1866'dan itibaren gelecek mali çöküşün de tohumlarını attı.", kaynak:"pamuk (TDV) — Osmanlı ölçeğinde doğrulanmış; Mısır'a özgü ayrıntı için standart akademik kaynak (E.R.J. Owen) da kullanıldı", odak_kimlik:["misir-kavalali"], kapsam_genis:true },
+{ odak_yer:["İskenderiye","Kahire"], taraflar:["misir-kavalali"], t:"1861-06-01", b:"Amerikan İç Savaşı'nın Mısır pamuğuna talebi patlatması", gun:"Haziran 1861? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi · TDV `pamuk`, `misir`, `kavalali-mehmed-ali-pasa`, `ibrahim-pasa-kavalali` … ay/gün vermiyor · Dikkat: 1 Haziran yıl ortası için yer tutucu olabilir", tur:"ekonomi", onem:4, dunya:3, kapsam:"dis", etiket:["ekonomi","konu-ekonomi"], yer_id:"", d:"Amerikan İç Savaşı'nın (1861-1865) Güney limanlarını abluka altına alması, dünya tekstil sanayiinin başlıca hammadde kaynağı olan Amerikan pamuğunun piyasadan çekilmesine yol açtı; TDV'nin pamuk maddesi bu savaşın 'Osmanlı pamuk piyasasını canlandırdığını' özellikle vurgular. Mısır, İngiliz ve Fransız tekstil fabrikalarının açık kalan başlıca alternatifi olarak fiyatların kat kat arttığı bir ihracat patlaması yaşadı; bu 'pamuk çılgınlığı' toprak sahiplerini zenginleştirirken, savaş bitip Amerikan pamuğu piyasaya dönünce 1866'dan itibaren gelecek mali çöküşün de tohumlarını attı.", kaynak:"pamuk (TDV) — Osmanlı ölçeğinde doğrulanmış; Mısır'a özgü ayrıntı için standart akademik kaynak (E.R.J. Owen) da kullanıldı", odak_kimlik:["misir-kavalali"], kapsam_genis:true },
 
 { taraflar:["misir-kavalali"], t:"1863-04-03", b:"İsmâiliye'nin kuruluşu — Hidiv İsmail'in Süveyş berzahındaki yatırımı", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", etiket:["ekonomi","idari","konu-idari","konu-ekonomi"], d:"Sultan Abdülaziz'in Mısır ziyaretiyle aynı yıl, Süveyş berzahındaki Timsah gölü kıyısında kanal şirketinin idare merkezi kuruldu. Hidiv İsmâil Paşa'nın bu tepeye kendisine bir köşk yaptırması üzerine yerleşim onun adıyla İsmâiliye diye anıldı — Mısır'ın modernleşme hırsının ve İsmail Paşa'nın kişisel görkem tutkusunun aynı anda somutlaştığı bir şehir.", kaynak:"abdulaziz (TDV) — data/olaylar_7a4170.js:81'de zaten doğrulanmış, Mısır perspektifine uyarlandı", yer_id:"İsmâiliye" },
 
@@ -2253,7 +2253,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi Bahadır Han, Hîve'ye girip bölgenin tamamını hâkimiyeti altına aldı; TDV'nin ifadesiyle hanlığı 'Orta Asya'nın en güçlü devletlerinden biri' hâline getirdiği dönem başladı.",
   kaynak:"TDV, madde: hive-hanligi" },
 
-{ taraflar:["hive"], t:"1648-01-01",
+{ odak_yer:["Hîve","Köhne Ürgenç (Gürgenç)"], taraflar:["hive"], t:"1648-01-01",
   b:"Ebulgazi'nin Türkmen ve Kalmuklara karşı seferleri (1648-1656)",
   tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","hive","konu-askeri"],
@@ -2261,7 +2261,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi Bahadır Han, saltanatı boyunca (1648, 1651, 1653, 1656) Türkmen boylarına karşı ve (1649, 1653, 1656) Kalmuk akınlarına karşı üst üste seferler düzenledi; hanlığın Harzem'deki otoritesini bu askerî üstünlükle pekiştirdi.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ taraflar:["hive"], t:"1655-01-01",
+{ odak_yer:["Hîve","Buhara"], taraflar:["hive"], t:"1655-01-01",
   b:"Ebulgazi'nin Buhara Özbek Hanlığı'na karşı akınları",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","hive","buhara","konu-askeri"],
@@ -2269,7 +2269,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Ebulgazi Bahadır Han, 1655 ve 1662'de komşu Buhara hanlığı topraklarına akınlar düzenledi; iki hanlık arasındaki sınır çatışmaları bu dönemde de sürdü.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ taraflar:["hive"], t:"1659-01-01",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1659-01-01",
   b:"Ebulgazi Bahadır Han'ın Şecere-i Terâkime'yi tamamlaması",
   tur:"diger", onem:3, dunya:1, kapsam:"ic",
   etiket:["edebiyat","kultur","hive","konu-kultur"],
@@ -2277,7 +2277,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Bizzat kalemiyle tarih yazan nadir Orta Asya hükümdarlarından Ebulgazi Bahadır Han, Türkmen boylarının soy kütüğünü ve tarihini anlatan Şecere-i Terâkime adlı eserini tamamladı; Çağatay Türkçesi tarih yazıcılığının en önemli örneklerinden biridir.",
   kaynak:"TDV, madde: ebulgazi-bahadir-han" },
 
-{ taraflar:["hive"], t:"1663-01-01",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1663-01-01",
   b:"Ebulgazi Bahadır Han'ın ölümü",
   tur:"son", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","hive","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -2285,7 +2285,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Tahtı oğluna bırakıp çekildikten kısa süre sonra Ebulgazi Bahadır Han öldü. Genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eser, Cengizli soy kütüğünü anlatan Şecere-i Türk'tür; standart akademik kaynaklara göre eser Ebulgazi'nin ölümü sırasında yarım kalmış, oğlu ve halefi tarafından tamamlanmıştır (yaklaşık 1665).", ic_not_d:"Ölçmedim: Şecere-i Türk TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor",
   kaynak:"TDV, madde: ebulgazi-bahadir-han (ölüm); Şecere-i Türk'ün tamamlanması İÇİN TDV doğrulanamadı, standart akademik kaynağa (Orta Asya tarihyazımı literatürü) dayanılarak yazıldı" },
 
-{ taraflar:["hive"], t:"1825-01-01",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1825-01-01",
   b:"Allahkulı Han döneminde hanlığın parlak çağı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","kultur","hive","konu-idari","konu-hanedan","konu-kultur"],
@@ -2301,7 +2301,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Hîve Hanı Muhammed Emin, Serahs yakınında Teke Türkmenlerine karşı giriştiği seferde ağır bir yenilgiye uğrayıp öldürüldü; bu yenilgi, hanlığın güneydoğu sınırındaki Türkmen boyları üzerindeki nüfuzunun kalıcı biçimde zayıflamasına yol açtı.",
   kaynak:"standart akademik kaynak (TDV 'ozbekler' maddesinde de bu olaya kısaca değiniliyor)" },
 
-{ taraflar:["hive"], t:"1864-01-01",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1864-01-01",
   b:"Seyyid Muhammed Rahim Bahadır Han'ın tahta çıkışı",
   tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","hukumdar","hive","konu-siyasi","konu-hanedan"],
@@ -2309,7 +2309,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Rus istilasının arifesinde tahta çıkan Seyyid Muhammed Rahim Bahadır Han, hanlığın Rus himayesine girişine (1873) ve devamında kırk altı yıl sürecek saltanatına şahitlik etti.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ taraflar:["hive"], t:"1873-08-12",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1873-08-12",
   b:"Hîve Hanlığı Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],
@@ -2325,7 +2325,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Rus istilası sırasında Osmanlı devleti, Müslüman dünyasının önderi sıfatıyla önce Kâbil'e, ardından Buhara ve Hîve'ye elçiler göndererek Rusya'ya karşı bir ittifak kurmaya çalıştı; girişim, Rus askeri üstünlüğü karşısında sonuçsuz kaldı.",
   kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; makalenin tam metni okunmadı, yalnız özeti)" },
 
-{ taraflar:["hive"], t:"1920-02-02",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1920-02-02",
   b:"Son Han Seyyid Abdullah'ın tahttan çekilmesi",
   tur:"son", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","son","hive","konu-siyasi"],
@@ -2550,7 +2550,7 @@ window.KRONOLOJI_TIMURLU = [
 // I. ALTIN ORDA SEFERLERİ VE BATIYA YÖNELİŞ (1391-1401)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1391-06-18", b:"Kunduzca Savaşı — Toktamış'ın ilk yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Semerkant"], t:"1391-06-18", b:"Kunduzca Savaşı — Toktamış'ın ilk yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Timur, kendi eski müttefiki olup sonradan Altın Orda tahtına çıkan Toktamış Han'ın Mâverâünnehir'e yönelik akınlarına son vermek için bozkırın derinliklerine, İdil (Volga) yakınlarındaki Kunduzca'ya kadar üç aylık bir sefer düzenledi ve Toktamış'ın ordusunu ağır bir yenilgiye uğrattı. Toktamış canını zor kurtardı; ama Altın Orda'nın ticaret şehirlerine dokunulmadığı için hanlık kısa sürede toparlanacaktı.",
   kaynak:"TDV `timur`: 1391 (Haziran): Kunduzca'da Toktamış Han'ı yendi — Dikkat: gün TDV'de yok, standart akademik kronolojiyle (18 Haziran 1391) çapraz doğrulandı" },

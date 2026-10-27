@@ -37,12 +37,13 @@ sor("A1 app.js gunIdx('-2999-01-01') → yıl 2149 (KUSUR VAR)", y_app == 2149, 
 sor("A1' yeni gun('-2999-01-01') → yıl −2999", Y["negatif"][0][4] == -2999 and G.yil(G.gun("-2999-01-01")) == -2999)
 sor("A2 Date.UTC 0001-0099: gunIdx her günü kaydırıyor (KUSUR VAR)", Y["d0099"][0] == Y["d0099"][1] > 0,
     "%d / %d gün" % tuple(Y["d0099"]))
-sor("A3 denetle._gun_farki negatifte None (KUSUR VAR)", denetle._gun_farki("-2999-01-01", "1281-01-01") is None)
+sor("A3 denetle._gun_farki negatifte SAYI (C1 sonrası; eskiden None, ihlali sessizce geçirirdi)",
+    isinstance(denetle._gun_farki("-2999-01-01", "1281-01-01"), int))
 _bag = sum(366 if G.artik_mi(y) else 365 for y in range(-2999, 1281))   # bağımsız: yıl uzunlukları toplamı
 sor("A3' yeni: gün farkı sayıyla (= -2999…1280 yıl uzunlukları toplamı)",
     G.gun("1281-01-01") - G.gun("-2999-01-01") == _bag, "%d gün" % _bag)
 a4 = dene(lambda: denetle.gun_no("-2999-01-01"))
-sor("A4 denetle.gun_no negatifte ÇÖKÜYOR (KUSUR VAR)", "hata" in a4, a4.get("hata", ""))
+sor("A4 denetle.gun_no negatifte OKUYOR (gun.py'ye devredildi)", "hata" not in a4, a4.get("hata", ""))
 L = ["-2999-01-01", "-1199-06-15", "-0499-01-01", "0000-01-01", "330-05-11", "1281-01-01"]
 sor("A5 dizgi sırası YANLIŞ (KUSUR VAR, Py ve JS)", sorted(L) != L and Y["dizgi_sira"] == sorted(L),
     " < ".join(sorted(L)))
@@ -154,10 +155,10 @@ for ad, t, m, bek in [("Uruk-kayık", "-3000-01-01", "MÖ 3000", "1 yıl kayık"
 # ---------------------------------------------------------------- F geçici kapı
 print("\nF — GEÇİCİ KAPI: negatif yıl + motor sayaçsız ⇒ ÖLÇÜLEMEDİ")
 gercek = G.motor_sayacli_mi(os.path.join(KOK, "arac", "uret_petek.py"))
-sor("F0 bugünkü uret_petek.py SAYAÇSIZ (işaret yok)", gercek is False)
+print("   bilgi: bugünkü uret_petek.py işareti =", gercek, "(C3 yaması inince True olur)")
 uyd = [("Uruk (uydurma)", "-2999-01-01"), ("İstanbul", "1453-05-29")]
-d, s = G.negatif_yil_kapisi(uyd, gercek)
-sor("F1 uydurma MÖ kayıt + bugünkü motor ⇒ ÖLÇÜLEMEDİ", d == "OLCULEMEDI", s[0] if s else "")
+d, s = G.negatif_yil_kapisi(uyd, False)
+sor("F1 uydurma MÖ kayıt + SAYAÇSIZ motor ⇒ ÖLÇÜLEMEDİ", d == "OLCULEMEDI", s[0] if s else "")
 d, s = G.negatif_yil_kapisi([("İstanbul", "1453-05-29"), ("Bizans", "330-05-11")], gercek)
 sor("F2 negatif yıl yok ⇒ TAMAM (bugünkü veri kapıdan geçer)", d == "TAMAM")
 d, s = G.negatif_yil_kapisi(uyd, True)

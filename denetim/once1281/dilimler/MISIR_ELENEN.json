@@ -1,0 +1,96 @@
+[
+ {
+  "id": "aegyptus-roma-bizans",
+  "ad": "Roma ve Doğu Roma (Bizans) Mısır'ı (Aegyptus)",
+  "tur": "eyalet",
+  "bolge": "misir-sudan",
+  "f": "-0029-08-01",
+  "t": "0641-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "Iskenderiye",
+  "etkin_bolge": "Mısır",
+  "sehirler": [
+   "Iskenderiye",
+   "Fustat"
+  ],
+  "ozet": "Octavianus'un İskenderiye'yi almasıyla Roma eyaleti; 618-629 Sasani işgali; 641 Arap fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Eyalet; kullanıcı Roma/Bizans Mısır'ını sorduğu için eklendi. Sasani işgali ayrı kayıt değil. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Bowman 1986; Oxford Dictionary of Byzantium]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "elenme_gerekce": "Roma/Bizans eyaleti; BRIF2 varsayılan kararı: bağımsız polity olmayan Roma eyaletleri girmez. Atlas çekirdeğinde Roma/Bizans imparatorluğu zaten mevcut."
+ },
+ {
+  "id": "zenc-kiyi",
+  "ad": "Zenc Kıyı Şehirleri (Mogadişu-Kilwa-Sofala öncesi)",
+  "tur": "sehir-devleti",
+  "bolge": "dogu-afrika",
+  "f": "0800-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Doğu Afrika kıyısı",
+  "sehirler": [
+   "Mogadişu",
+   "Kilwa",
+   "Sofala"
+  ],
+  "ozet": "9.-10. yy Arap-Fars kaynaklarında Zenc kıyısı ticaret şehirleri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birlik belirsiz; Zanj isyanı Irak'taki ayrı olay. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Encyclopaedia of Islam Zandj; Chittick 1974]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "elenme_gerekce": "Siyasî birlik değil: Chittick 1965 (özet okundu) 8.-9. yy yerleşimlerinin küçük, başlangıçta pagan köyler olduğunu; Vikipedi Swahili coast sayfası kıyı için \"Zanj imparatorluğu\"nun hiçbir zaman tek hükümdar altında birleşmediğini söyler. Gerçek polity adayları ayrı kayıtlar (mogadisu-erken, sofala, pate, mombasa; kilwa-uzun)."
+ },
+ {
+  "id": "dotawo",
+  "ad": "Dotawo Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "1100-01-01",
+  "t": "1500-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Qasr Ibrim",
+  "etkin_bolge": "Aşağı Nubya",
+  "sehirler": [
+   "Qasr Ibrim",
+   "Faras"
+  ],
+  "ozet": "Makuria'dan ayrılan Aşağı Nubya krallığı; Qasr Ibrim belgelerinde Dotawo anılır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Ayrılma tarihi belirsiz. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Ruffini 2012; Cambridge History of Africa III]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "elenme_gerekce": "1281 öncesi ayrı polity değil: Dotawo, Makuria'nın yerli adıdır (Ruffini 2013; van Gerven Oei 2021 — Vikipedi Dotawo maddesi aracılığıyla okundu; Godlewski 2019 PAM özeti: \"Makuria (Dotawo)\", Georgios 1155'te taç giydi). Ayrı polity olarak yalnız 1365 sonrası Aşağı Nubya kalıntı devleti (Adams 1991; Simmons 2022, 2023: son bilinen hükümdar Kraliçe Gaua ~1520-26) — 1281 sonrasıdır, bu işin dışında. Bilgi makuria kaydının ic_not'una yazıldı. Bu bölümde Vikipedi \"kuruluş geç 14. yy\" der (kaynak çelişkili), Ruffini ilk anılmayı 1180'ler yapar."
+ }
+]

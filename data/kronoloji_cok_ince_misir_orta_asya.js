@@ -56,7 +56,7 @@ window.KRONOLOJI_COK_INCE_MISIR_ORTA_ASYA = [
     taraflar:["funj"], etiket:["konu-siyasi"] },
 
   // ── DÂRFÛR (Keira) ──
-  { t:"1726-01-01", odak_kimlik:["darfur"], k:"siyasi",tur:"siyasi", b:"Ahmed Bekir b. Mûsâ Dârfûr tahtına çıktı — sultanlığın 'ikinci kurucusu'",
+  { odak_yer:["El-Fâşir"], t:"1726-01-01", odak_kimlik:["darfur"], k:"siyasi",tur:"siyasi", b:"Ahmed Bekir b. Mûsâ Dârfûr tahtına çıktı — sultanlığın 'ikinci kurucusu'",
     gun:"(kaynak yıl verir)", yer:"Dârfûr", kisiler:"Ahmed Bekir b. Mûsâ (1726-1746)",
     d:"Süleyman Solonc'un torunu Ahmed Bekir b. Mûsâ tahta geçti; TDV onu Dârfûr Sultanlığı'nın ikinci kurucusu sayar.",
     kaynak:"TDV: darfur (DÂRFÛR, Hamdunallah Mustafa Hasan) — '…Dârfûr Sultanlığı'nın ikinci kurucusu sayılan Ahmed Bekir b. Mûsâ (1726-1746)…'",
@@ -121,7 +121,7 @@ window.KRONOLOJI_COK_INCE_MISIR_ORTA_ASYA = [
     kaynak:"TDV: cagatay-hanligi — '1269'da Talas ovasında toplanan kurultayda … 'yerleşik-göçebe mücadelesi'ne geçici de olsa bir çözüm bulunabildi.'",
     ic_not_t:"TDV yalnız yıl verir.",
     taraflar:["cagatay"], etiket:["konu-siyasi"] },
-  { t:"1282-01-01", odak_kimlik:["cagatay"], k:"siyasi",tur:"siyasi", b:"Tuva Han tahta geçti; Çağatay sülâlesinin Orta Asya hâkimiyeti yeniden kuruldu",
+  { odak_yer:["Semerkant","Buhara","Almalık (Almalığ)"], t:"1282-01-01", odak_kimlik:["cagatay"], k:"siyasi",tur:"siyasi", b:"Tuva Han tahta geçti; Çağatay sülâlesinin Orta Asya hâkimiyeti yeniden kuruldu",
     gun:"(kaynak yıl verir)", yer:"Mâverâünnehir", kisiler:"Tuva (Duva) Han",
     d:"Barak Han'ın oğlu Tuva Han zamanında (1282-1307) Kaydu'ya vasallık dönemi sona ererek Orta Asya'da Çağatay sülâlesinin hâkimiyeti yeniden kuruldu.",
     kaynak:"TDV: cagatay-hanligi — 'Barak Han'ın oğlu Tuva Han zamanında (1282-1307) Orta Asya'da Çağatay sülâlesinin hâkimiyeti yeniden kuruldu.'",

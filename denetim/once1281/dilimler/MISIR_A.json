@@ -1,0 +1,135 @@
+[
+ {
+  "id": "hierakonpolis-krallik",
+  "ad": "Hierakonpolis (Nekhen) Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-3499-01-01",
+  "t": "-3199-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Hierakonpolis",
+  "etkin_bolge": "Yukarı Mısır, Nil vadisi güney",
+  "sehirler": [
+   "Hierakonpolis",
+   "Naqada",
+   "Abydos"
+  ],
+  "ozet": "Naqada IIC-III'te Yukarı Mısır'da elit mezarlı, tapınaklı merkezî şeflik/krallık; Thinis'in öncülü.",
+  "oncul": [
+   "naqada-kultur"
+  ],
+  "ardil": [
+   "abydos-thinis-0-hanedan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Hierakonpolis (en.wikipedia.org/wiki/Hierakonpolis); sayfanın atıfları: Hoffman et al. kazıları, R. Friedman 2006, Kemp 2007 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Krallık mı karmaşık şeflik mi tartışmalı; tarihler Naqada kronolojisinden yaklaşık. Sayfa Nekhen'i MÖ ~3200-3100 \"dinî ve siyasî başkent\", nüfus zirvesi MÖ ~3400 diye verir; krallık mı şeflik mi sorusunu cevaplamaz. Naqada III'te Abydos yükselişiyle Nekhen'in gerilediği söylenir. f/t aracı kaynaktan yaklaşık; akademik doğrulama (Hendrickx/Friedman) yapılmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "naqada-ombos-krallik",
+  "ad": "Naqada (Nubt/Ombos) Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-3499-01-01",
+  "t": "-3299-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Naqada (Nubt)",
+  "etkin_bolge": "Yukarı Mısır",
+  "sehirler": [
+   "Naqada",
+   "Gebelein"
+  ],
+  "ozet": "Naqada IIC-IID civarında Hierakonpolis ve Abydos ile birlikte üç Yukarı Mısır merkezinden biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Naqada (en.wikipedia.org/wiki/Naqada); atıflar: Rice 2003 Egypt's Making s.75 (Ombos'ta büyük mezarlar MÖ ~3500), Redford ed. 2001 Oxford Encyclopedia of Ancient Egypt (şeflikten devlet tarzına geçiş), Oxford History of Ancient Egypt 2003 s.58,62"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Ayrı polity olduğu tartışmalı; f/t kabaca. Sayfa Naqada/Nubt'u hiçbir yerde \"polity/krallık\" diye adlandırmaz; yalnız şeflikten devlet tarzına geçiş ve MÖ ~3500 büyük mezarları söyler. Polity niteliği ve f/t desteklenmedi (kismen).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "abydos-thinis-0-hanedan",
+  "ad": "Abydos/Thinis (0. Hanedan) Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-3299-01-01",
+  "t": "-3099-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Abydos (Thinis)",
+  "etkin_bolge": "Yukarı Mısır, sonra Aşağı Mısır",
+  "sehirler": [
+   "Abydos",
+   "Thinis"
+  ],
+  "ozet": "Naqada IIIA-B'de Abydos U-j mezarı ve 0. Hanedan hükümdarları; birleşmeye giden Thinite krallık.",
+  "oncul": [],
+  "ardil": [
+   "misir-erken-hanedan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Dynasty 0 (en.wikipedia.org/wiki/Dynasty_0); sayfanın atfettiği bilginler: G. Dreyer (Krokodil-Iry-Hor-Ka-Falcon dizisi), T. Wilkinson (kronoloji)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mevcut künye -3099'da başlıyor; öncesi eksik. Sayfa 0. Hanedan'ı Naqada III'e, MÖ ~3300-~3100'e koyar (Narmer'le biter; Hor-Aha 1. Hanedan). Başkentler: Tjenu/Thinis, Nekhen, Nubt. Birleşme öncesi Delta'da Tarkhan/Buto/Helwan gibi ayrı krallıklar olması muhtemel (kaynakta kesin değil). Hanedan tanımı sonradan; \"polity\" yerine proto-hanedan. [taslak f değeri: -3199-01-01]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "misir-erken-hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "ta-seti-a-grubu",
+  "ad": "Ta-Seti / A-Grubu Nubya Krallığı (Qustul)",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-3699-01-01",
+  "t": "-3249-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Qustul / Sayala",
+  "etkin_bolge": "Aşağı Nubya",
+  "sehirler": [
+   "Qustul",
+   "Sayala"
+  ],
+  "ozet": "Aşağı Nubya A-Grubu kültürünün elit mezarlı (Qustul) merkezi şefliği; Mısır birleşmesiyle çöker.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Krallık statüsü tartışmalı. Bu oturumda web okuması denendi: en.wikipedia.org/wiki/Ta-Seti_(state) 404 döndü; akademik kaynağa ulaşılamadı. Taslak kalır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

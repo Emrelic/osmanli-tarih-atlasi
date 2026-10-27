@@ -1,0 +1,1309 @@
+{
+ "sonuclar": [
+  {
+   "id": "etrusk-caere",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   },
+   "kaynak": "(1) The Princeton Encyclopedia of Classical Sites (Stillwell-MacDonald-McAllister, Princeton UP 1976), 'CAERE (Cerveteri)' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=caere [okundu]. (2) Enciclopedia Italiana (1931), 'Cerveteri' (R. Almagià, G. Bendinelli, R. Vighi) — https://www.treccani.it/enciclopedia/cerveteri_(Enciclopedia-Italiana)/ [okundu]. (3) Livius VII.19.6-20.8 (Roberts çev.) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=7:chapter=20 [okundu].",
+   "alinti": "in 293 B.C. (Livy 7.19.6) or 273 B.C. (Dion. Hal. fr. 33 Boissevain), a revolt of the Etruscans deprived Caere of its independence [PECS]",
+   "alinti_2": "Dopo la caduta di Veio anche Cere dovette sottomettersi a Roma perdendo la metà del territorio (351 a. C.). Ebbe allora la cittadinanza senza suffragio [Enc. Ital. 1931]",
+   "kronoloji_okulu": "Varronian (Capitoline) Roma kronolojisi; PECS ve Enc. Ital. aynı olayı farklı yıllara koyuyor",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 353,
+      "olay": "Livius 7.19-20: Caere ile savaş ilanı, barış ve 100 yıllık ateşkes görüşmesi (konsüller C. Sulpicius Peticus IV. ve M. Valerius Publicola II. = 353)",
+      "kaynak": "Liv. 7.19.6, 7.20.8 [okundu]"
+     },
+     {
+      "mo": 351,
+      "olay": "Yarı vatandaşlık (civitas sine suffragio) + topraktan yarı kayıp",
+      "kaynak": "Enc. Ital. 1931 'Cerveteri' [okundu]"
+     },
+     {
+      "mo": 273,
+      "olay": "Etrüsk isyanı sonrası bağımsızlık kaybı, kıyı şeridi kolonileri (Fregenae, Alsium, Pyrgi, Castrum Novum)",
+      "kaynak": "PECS 'Caere' (Dion. Hal. fr. 33 Boiss. atfı) [okundu]; atlas -0272 buna denk"
+     }
+    ]
+   },
+   "ic_not": "t ÇELİŞKİLİ: Enc. Ital. (1931) Roma'ya boyun eğiş + civitas sine suffragio = 351; Livius (7.19-20) = 353 (savaş/barış); PECS ise bağımsızlığın kaybını 273 (Dion. Hal. fr. 33 Boiss. atfıyla) veya '293 (Livy 7.19.6)' olarak veriyor — PECS'in 'Livy 7.19.6 = 293' atfı yanlış görünüyor, 7.19.6 metni konsüller Sulpicius (IV) ve Valerius (II) = 353'tür (Liv. 7.19.6 okundu). Atlas t=-0272 (273 MÖ) yalnız PECS'in ikinci seçeneğine dayanır; 351/353 olayı (civitas sine suffragio) 'polity sonu' sayılırsa t değişir — karar Emre'nin (ortalama alınmadı). f: iki kaynakta da polity kuruluş yılı yok; PECS yalnız Villanova tipi nekropolleri ve MÖ 7. yy ortası mezar mimarisini anlatıyor; atlas f=-0699 (7. yy başı) desteklenmedi/yalanlanmadı → ÖNERİLMEDİ. Treccani 'Cerveteri' maddesi (kısa sözlük) yalnız '12 şehirli konfederasyondan biri' diyor. Not: Caere bir Etrüsk şehir devleti; 353-351 sonrası civitas sine suffragio ile 'özerk municipium', yani tam polity ölümü tartışmalı."
+  },
+  {
+   "id": "etrusk-veii",
+   "onay": "celiskili",
+   "f_mo": 900,
+   "t_mo": 396,
+   "f_iso": "-0899-01-01",
+   "t_iso": "-0395-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   },
+   "kaynak": "(1) PECS (Princeton 1976), 'VEII' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=veii [okundu]. (2) Enciclopedia Italiana (1937), 'Veio' (Pallottino ve ark.) — https://www.treccani.it/enciclopedia/veio_(Enciclopedia-Italiana)/ [okundu]. (3) Livius V.22 (Roberts) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=5:chapter=22 [okundu].",
+   "alinti": "the establishment of a large organized community was the work of Villanovan I settlers ... probably in the 9th c. B.C. [PECS]",
+   "alinti_2": "in 396 B.C. the city was destroyed and its territories annexed [PECS]; ... dal dittatore M. Furio Camillo nel 396 con la distruzione della città [Enc. Ital.]",
+   "kronoloji_okulu": "Varronian (Camillus dictator 396)",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 700,
+      "not": "atlas taslağı; Treccani 'Veio' sözlük maddesi yalnız 'MÖ 8.-6. yy çiçeklenme' der, kuruluş yılı vermez"
+     }
+    ]
+   },
+   "ic_not": "t DOĞRULANDI: PECS ve Enc. Ital. 396 (Camillus, 10 yıllık kuşatma sonu); Livius 5.22 düşüşü anlatır ama mutlak yıl yazmaz (konsüler/Varro kronolojisi). Fasti Triumphales'te MÖ 396 satırı kayıp (Attalus çevirisi, 'lines lost'). Atlas t=-0395 doğru. f ÇELİŞKİLİ/DÜZELTME: PECS 'büyük örgütlü topluluk ... muhtemelen MÖ 9. yy (Villanova I)' der; atlas f=-0699 (MÖ 7. yy) bu kaynakla tutmuyor (7. yy Veii'nin zaten kurulu olduğu dönemdir; Treccani 8.-6. yy 'çiçeklenme'). Yerleşim başlangıcı = polity başlangıcı varsayımı yorumdur; PECS 'organized community' diyor, siyasi birim demiyor. Öneri: f=MÖ 9. yy (yüzyıl hassasiyeti) VEYA polity başlangıcı için kaynak aranmadığı beyanıyla bırakılsın."
+  },
+  {
+   "id": "etrusk-vulci",
+   "onay": "dogrulandi",
+   "f_mo": null,
+   "t_mo": 280,
+   "f_iso": null,
+   "t_iso": "-0279-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   },
+   "kaynak": "(1) PECS (Princeton 1976), 'VULCI' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=vulci [okundu]. (2) Enciclopedia Italiana (1937), 'Vulci' (G. Bendinelli) — https://www.treccani.it/enciclopedia/vulci_(Enciclopedia-Italiana)/ [okundu]. (3) Fasti Triumphales (Degrassi, Fasti Capitolini 1954; İng. çev. attalus.org) — https://www.attalus.org/translate/fasti.html [okundu].",
+   "alinti": "It was subdued by Rome in 280 B.C. In its territory ... the Latin colony of Cosa was founded in 273 B.C. [PECS]",
+   "alinti_2": "Vinta dai Romani nel 280 a. C. insieme con Volsinii ... Vulci peraltro rimase federata fino alla guerra sociale. [Enc. Ital.]",
+   "kronoloji_okulu": "Varronian; Fasti Capitolini konsül yılı 280/79 (Ti. Coruncanius, 'Vulsinienses ve Vulcientes' üzerine, 1 Şubat)",
+   "ic_not": "t DOĞRULANDI (olay: 280 MÖ Roma zaferi, Coruncanius; Fasti'de konsül yılı 280/79, zafer töreni 1 Şubat 279 — gün zafer törenidir, polity sonu değil, bu yüzden yıl hassasiyeti). ÖNEMLİ: Enc. Ital. 'Vulci peraltro rimase federata fino alla guerra sociale' diyor — yani 280'den sonra Vulci federe (socia) olarak 90-89'a dek sürdü; 280 'bağımsızlığın bitişi' değil 'yenilgi + toprak kaybı'dır. Polity sonu tanımı Emre'nin kararı: 280 (yenilgi) vs ~90-89 (vatandaşlık). f: PECS yalnız Villanova çukur mezarları (MÖ 9.-8. yy) ve 7. yy oda mezarlarını verir; polity kuruluş yılı kaynakta yok → ÖNERİLMEDİ (atlas -0699 desteklenmedi)."
+  },
+  {
+   "id": "etrusk-clusium",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   },
+   "kaynak": "(1) PECS (Princeton 1976), 'CLUSIUM (Chiusi)' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=clusium [okundu]. (2) Enciclopedia Italiana (1931), 'Chiusi' — https://www.treccani.it/enciclopedia/chiusi_(Enciclopedia-Italiana)/ [okundu]. (3) Livius X.30 (Roberts) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=10:chapter=30 [okundu].",
+   "alinti": "Clusium appears next, allied with other Etruscan cities against Rome, in the third Samnite war and was finally subdued in 295 ( Livy 10.30 ). [PECS]",
+   "alinti_2": "Sullo scorcio del sec. IV i Chiusini entrarono nell'alleanza romana. Nel 205 a. C. fornirono aiuti di cereali e legname ai Romani [Enc. Ital.]",
+   "kronoloji_okulu": "Varronian (Sentinum yılı 295)",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 295,
+      "olay": "Perusia+Clusium birleşik kuvvetlerinin yenilgisi (Liv. 10.30.1-2, propraetor Cn. Fulvius); PECS 'finally subdued in 295'",
+      "kaynak": "PECS + Livius 10.30 [okundu]"
+     },
+     {
+      "mo": 300,
+      "olay": "'MÖ 4. yy sonu' Roma ittifakına giriş (yaklaşık)",
+      "kaynak": "Enc. Ital. 1931 [okundu]"
+     },
+     {
+      "mo": 205,
+      "olay": "müttefik (socia) olarak Scipio'ya tahıl ve kereste (Liv. 28.45) — hâlâ özerk",
+      "kaynak": "PECS [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t ÇELİŞKİLİ: Atlas -0294 (295 MÖ) PECS'teki 'finally subdued in 295' ile tutuyor, ama Livius 10.30.1-2 yalnız Perusia+Clusium birleşik ordusunun bozguna uğradığını söyler (bağlanma/antlaşma değil); Enc. Ital. ise MÖ 4. yy sonunda ittifaka girişten, PECS 205'te müttefik olarak Scipio'ya yardımdan söz eder → Clusium 295'ten sonra da özerk müttefik. 'Polity sonu' tanımı kaynakta yok; ÖNERİLMEDİ (karar Emre'nin). f: kaynaklar Clusium'u 'Villanova'ların en eski iç yerleşimi' diye anar, polity kuruluş yılı vermez → bulunamadı. Treccani sözlük maddesi (7. yy oda mezarları) f=-0699'u ne doğrular ne yalanlar."
+  },
+  {
+   "id": "etrusk-volaterrae",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   },
+   "kaynak": "(1) PECS (Princeton 1976), 'VOLATERRAE (Volterra)' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=volaterrae [okundu]. (2) Enciclopedia Italiana (1937), 'Volterra' (A. Neppi Modona ve ark.) — https://www.treccani.it/enciclopedia/volterra_(Enciclopedia-Italiana)/ [okundu]. (3) Appianos, İç Savaşlar 1.49 (Loeb, LacusCurtius) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/1*.html [okundu].",
+   "alinti": "Avuta la cittadinanza per effetto della guerra sociale, fu municipio ... dovette quindi subire un assedio di due anni (81-80 a. C.) da parte dei sillani [Enc. Ital.]",
+   "alinti_2": "They sent this decree around among the Etruscans, who gladly accepted the citizenship. [Appian BC 1.49]",
+   "kronoloji_okulu": "Varronian; lex Iulia 90 / lex Plautia-Papiria 89 (Etrüsk şehirlerine vatandaşlık)",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 90,
+      "olay": "Lex Iulia: sadık müttefiklere (Etrüsklere dahil) vatandaşlık; Volaterrae municipium (yaklaşık 90-89)",
+      "kaynak": "Appian BC 1.49; Enc. Ital. [okundu]"
+     },
+     {
+      "mo": 80,
+      "olay": "Sulla taraftarlarının 2 yıllık kuşatmasının sonu (81-80/79); Cicero müdahalesiyle ağır ceza (vatandaşlık kaybı) önlendi/tartışmalı",
+      "kaynak": "Enc. Ital. [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t ÇELİŞKİLİ/DESTEKLENMEDİ: atlas -0087 (88 MÖ) hiçbir okunan kaynakta yok. Enc. Ital.: Sosyal Savaş'ta vatandaşlık (municipium, quattuorviri) → polity yerine Roma municipium'u (≈90-89, Appian BC 1.49'daki senato kararı); sonra 81-80 arası 2 yıllık kuşatma (Sulla). PECS yalnız 'MÖ 3. yy'da Sabatina tribus'una yazılarak kendi örgütünü korudu' diyor (3. yy'da Roma'ya yaklaştı). Hangi olay 'polity sonu' kararı Emre'nin; ortalama alınmadı. Appian'da Volaterrae adı geçmiyor (metin içinde aranıp bulunamadı); kuşatma tanıklığı yalnız Enc. Ital. f: polity kuruluşu kaynakta yok (PECS: Demir Çağı yerleşimi, MÖ 6.-5. yy genişleme) → ÖNERİLMEDİ."
+  },
+  {
+   "id": "etrusk-populonia",
+   "onay": "dogrulandi",
+   "f_mo": null,
+   "t_mo": 300,
+   "f_iso": null,
+   "t_iso": "-0299-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yuzyil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1935), 'Populonia' (L. Banti) — https://www.treccani.it/enciclopedia/populonia_(Enciclopedia-Italiana)/ [okundu]. (2) Treccani Enciclopedia on line, 'Populonia' — https://www.treccani.it/enciclopedia/populonia/ [okundu]. (3) PECS (Princeton 1976), 'POPULONIA' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=populonia [okundu].",
+   "alinti": "All'inizio del sec. III Populonia passa sotto l'influenza diretta di Roma, forse come città federata. [Enc. Ital.]",
+   "alinti_2": "Inhabited from the Bronze Age, it had its major floruit in the orientalizing period (7th c. B.C.). [PECS]",
+   "kronoloji_okulu": "yok (yüzyıl düzeyi anlatı)",
+   "ic_not": "t YÜZYIL DÜZEYİNDE DOĞRULANDI: Enc. Ital. ve Treccani 'MÖ 3. yy başı' Roma etkisi/federe statü (Sosyal Savaş'ta municipium); yıl yok → atlas -0299 (300 MÖ) yalnız yüzyıl sınırı olarak uyumlu, yıl-kesin değil. Enc. Ital.: 205'te Roma'ya demir yardımı (müttefik olarak hâlâ özerk); asıl çöküş Sulla yanlıları kuşatmasıyla başlar. f: kaynaklarda kuruluş yılı yok; Treccani 'kuruluş belirsiz, MÖ 7. yy'da zaten tam çiçeklenme' ve PECS 'Bronz Çağı'ndan yerleşik, orientalizing MÖ 7. yy zirve' → atlas f=-0699 yalnız 'zirve'dir, kuruluş değil; polity f ÖNERİLMEDİ."
+  },
+  {
+   "id": "kyme-cumae",
+   "onay": "duzeltildi",
+   "f_mo": 750,
+   "t_mo": 421,
+   "f_iso": "-0749-01-01",
+   "t_iso": "-0420-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "duzeltildi",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yil"
+   },
+   "kaynak": "(1) PECS (Princeton 1976), 'CUMAE' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=cumae [okundu]. (2) Enciclopedia Italiana (1931), 'Cuma' (A. Maiuri) — https://www.treccani.it/enciclopedia/cuma_(Enciclopedia-Italiana)/ [okundu]. (3) Livius IV.44 (Roberts) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=4:chapter=44 [okundu]. (4) Diodoros XII.76.4 (Loeb, LacusCurtius) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/12D*.html [okundu].",
+   "alinti": "the city was actually founded ca. 750 B.C. by colonists from Chalkis, Eretria, and the island of Pithekusai (Ischia). [PECS]",
+   "alinti_2": "In the same year, Cumae, at that time held by the Greeks, was captured by the Campanians. [Livy 4.44.12, Roberts]",
+   "kronoloji_okulu": "Varronian (Livius 4.44: konsüller N. Fabius Vibulanus-T. Quinctius Capitolinus = 421); Diodoros: arkhon Aristion yılı 421/0",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 438,
+      "olay": "Enc. Ital.'nın atfı 'Diodoro XII,76' ile 438 — ancak Diod. 12.76.4 metni arkhon Aristion (421/0) yılındadır; 438 atıf hatası görünüyor",
+      "kaynak": "Enc. Ital. 1931 'Cuma'; Diod. 12.76 [okundu]"
+     },
+     {
+      "mo": 424,
+      "olay": "Treccani 'Capua': Samnit hâkimiyeti 424 (Capua için)",
+      "kaynak": "Treccani 'Capua'"
+     }
+    ]
+   },
+   "ic_not": "f DOĞRULANDI: PECS 'ca. 750 B.C.'; Enc. Ital. geleneksel 1050 (Eusebios/Velleius) reddedilir, 'MÖ 8. yy içinde' kabul edilir; Treccani 'sekizinci yy sonu' (daha geç) → kaynaklar arası ±25-50 yıl, hassasiyet onyıl/yarım yüzyıl. t DÜZELTİLDİ: Livius 4.44.12 (konsüller 421) ve Diodoros 12.76.4 (arkhon Aristion 421/0; 12.77 Astyphilos 420/19'dan önce) Kyme'nin Kampanyalılarca alınışını 421'e koyar → -0420. Atlas -0419 (420 MÖ) bir yıl geç. Kampanyalıların Capua'yı alışı Livius 4.37'de 423 (konsüller Sempronius Atratinus-Q. Fabius Vibulanus). Not: kayıt Pithekoussai'yi de kapsıyor; Pithekoussai ayrı yerleşim."
+  },
+  {
+   "id": "neapolis-yunan",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": 326,
+   "f_iso": null,
+   "t_iso": "-0325-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1934), 'Napoli — Storia, periodo greco-romano' (F. Nicolini ve ark.) — https://www.treccani.it/enciclopedia/napoli_(Enciclopedia-Italiana)/ [okundu]. (2) Livius VIII.26 (Roberts) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=8:chapter=26 [okundu]. (3) Fasti Triumphales (Degrassi 1954; attalus.org) — https://www.attalus.org/translate/fasti.html [okundu]. (4) Treccani Enciclopedia on line 'Napoli' [özetten, batch dosyasındaki alıntı].",
+   "alinti": "Neapolis became subsequently the chief seat of the Greek population, and the fact of a treaty being made with that city [Livy 8.26.6]",
+   "alinti_2": "i Romani ... la trasse all'alleanza con Roma (326): donde il foedus neapolitanum, ... poté, oltre che autonoma, serbarsi anche ... città greca. [Enc. Ital.]",
+   "kronoloji_okulu": "Varronian (Q. Publilius Philo II., ilk proconsul, 'Samnites ve Palaeopolitani' zaferi, konsül yılı 326/5, 1 Mayıs — Fasti Triumphales)",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 700,
+      "not": "Enc. Ital.: MÖ 7. yy'da Partenope/Palepoli/Neapolis (Kyme kökenli) ayrımı belirsiz"
+     },
+     {
+      "mo": 600,
+      "not": "Enc. Ital. varsayımlarından biri: Napoli MÖ 6. yy'da Kyme Yunanlarınca ex novo kuruldu"
+     },
+     {
+      "mo": 470,
+      "not": "Treccani: Hieron'un 474 zaferinden sonra yeni yerleşim 'Neapolis'; atlas ic_not'u da böyle yazıyor"
+     }
+    ],
+    "t": [
+     {
+      "mo": 90,
+      "olay": "Roma vatandaşlığı (Treccani batch alıntısı: '90 MÖ'de Roma vatandaşlığı')",
+      "kaynak": "Treccani 'Napoli' [özetten]"
+     }
+    ]
+   },
+   "ic_not": "t: 326 DOĞRULANDI ama OLAYIN NİTELİĞİ: Livius 8.26.6 ve Enc. Ital. 326'da Roma ile foedus (aequum) — Neapolis özerk, Yunan dilli/kültlü müttefik kalır ('autonoma ... città greca'); yani 326 bağımsızlık sonu değil, eşit ittifaka girişidir. Polity sonu = bağımsız dış politika kaybı mı (326) yoksa vatandaşlık (90 MÖ) mu kararı Emre'nin. Fasti'de 326/5 Philo zaferi 'Samnites ve Palaeopolitani' üzerine: Palepoli (Livius'ta Palaepolis) o yıl Roma tarafından alındı, Neapolis ayrı bir antlaşmayla ayrıldı (Liv. 8.26.6). f ÇELİŞKİLİ: Enc. Ital. Partenope/Palepoli/Neapolis kökenini MÖ 7. yy'dan 6. yy'a, Treccani 474 sonrasına kadar farklı veriyor, kesin yıl yok → f ÖNERİLMEDİ (atlas -0599 desteksiz). PECS 'Neapolis (Naples)' girdisi anahtar adı bulunamadı (Perseus'ta ayrık)."
+  },
+  {
+   "id": "poseidonia",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": 400,
+   "f_iso": null,
+   "t_iso": "-0399-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "onyil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1935), 'Paestum' (A. Maiuri) — https://www.treccani.it/enciclopedia/paestum_(Enciclopedia-Italiana)/ [okundu]. (2) PECS (Princeton 1976), 'PAESTUM' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=paestum [okundu]. (3) Strabon V.4.13 (Hamilton-Falconer) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=5:chapter=4 [okundu].",
+   "alinti": "anche Poseidonia (verso l'anno 400 a. C.) cadde in potere dei Lucani, che ... ne italicizzarono il nome in quello di Paistos [Enc. Ital., Maiuri]",
+   "alinti_2": "Around 400 B.C. this prosperity was shattered when the Lucanians ... captured the city, renaming it Paiston or Paistos. [PECS]",
+   "kronoloji_okulu": "yok (arkeolojik/yaklaşık)",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 650,
+      "not": "PECS: Protokorinth seramiği şehrin kuruluşunu MÖ 7. yy ortasına tarihlemeye izin verir"
+     },
+     {
+      "mo": 600,
+      "not": "Enc. Ital. (Maiuri): 'L'origine della città va collocata verso il principio del sec. VI a. C.'; Treccani online 'principio del 6° sec.' — atlas -0599 buna denk"
+     }
+    ]
+   },
+   "ic_not": "t DOĞRULANDI (onyıl hassasiyeti): iki kaynak da Lukan fethini 'yaklaşık MÖ 400' verir. Atlas -0399 doğru. Ek: Lukanlar sonrası kısa Yunan dönemi (Molossos Alexandros, 332-326 PECS / 331-330 'yeniden Lukan' Enc. Ital.) ve 273 Latin kolonisi (PECS, Enc. Ital., Livius Per. 14). f ÇELİŞKİLİ: Enc. Ital./Treccani MÖ 6. yy başı, PECS (Protokorinth seramiği) MÖ 7. yy ortası — fark ~50 yıl; Strabon 5.4.13 Sybaris'ten kolonizasyonu söyler, yıl vermez. Atlas -0599 Enc. Ital. ile uyumlu; PECS'le çelişir → ikisi de yazıldı, ortalama alınmadı. Poseidonia ardılı 'lukan-birligi' ile bağlantı: kayıt bir şehir devleti; Lukanlar 400'den sonra Paistos adıyla devraldı."
+  },
+  {
+   "id": "metapontion",
+   "onay": "celiskili",
+   "f_mo": 700,
+   "t_mo": null,
+   "f_iso": "-0699-01-01",
+   "t_iso": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "belirsiz"
+   },
+   "kaynak": "(1) PECS (Princeton 1976), 'METAPONTION (Metaponto)' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=metapontion [okundu]. (2) Livius XXV (Latin; The Latin Library, bölüm no metinde yok, 25.15 olarak atfedilir) — https://www.thelatinlibrary.com/livy/liv.25.shtml [okundu]; Livius XXVII ('Herdoneam ... Metapontum ac Thurios traducta') — https://www.thelatinlibrary.com/livy/liv.27.shtml [okundu]. (3) Treccani Enciclopedia on line, 'Metaponto' [özetten, batch alıntısı].",
+   "alinti": "settled by Achaean Greeks in 773-772 B.C. according to Eusebius, but in the late 8th or 7th c. according to modern scholars. [PECS]",
+   "alinti_2": "itaque Metapontini extemplo metu quo tenebantur liberati ad Hannibalem defecere. [Livy 25 (Metapontum, 212)]",
+   "kronoloji_okulu": "Eusebios geleneksel (773) vs modern arkeolojik (geç 8.-7. yy)",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 212,
+      "olay": "Tarentum'un Hannibal'ce alınmasından sonra Metapontum'un Hannibal'e geçişi (Liv. 25)",
+      "kaynak": "Livius 25 [okundu]"
+     },
+     {
+      "mo": 207,
+      "olay": "'The city was abandoned during the second Punic war in 207 B.C.'",
+      "kaynak": "PECS [okundu]"
+     },
+     {
+      "mo": 210,
+      "olay": "Hannibal Herdonea halkını Metapontum ve Thurii'ye naklediyor (Liv. 27) — Metapontum hâlâ yerleşik",
+      "kaynak": "Livius 27 [okundu]"
+     }
+    ]
+   },
+   "ic_not": "f: PECS 'geç 8. veya 7. yy (modern araştırmacılar); 773-772 Eusebios (geleneksel)'; Treccani: geleneksel 773, arkeoloji ~1 yüzyıl aşağı çeker. Atlas -0699 (MÖ 700) bu aralıkla uyumlu → yüzyıl hassasiyetinde doğrulandı. t ÇELİŞKİLİ/TANIMSIZ: atlas -0211 (212 MÖ) = Hannibal'e geçiş (müttefik değişimi), polity sonu değil; PECS 207'de terkedilmeyi, Treccani 'sonra foederata, municipium'u söyler. Metapontum 207 sonrası da yaşadı (Livius 27'de Hannibal'in 210'da buraya nüfus taşıması). 'Polity sonu' kaynakta tanımlı değil → ÖNERİLMEDİ. Not: Livius 25.15 bölüm numarası The Latin Library metninden doğrulanamadı (yalnız metin okundu)."
+  },
+  {
+   "id": "rhegion",
+   "onay": "celiskili",
+   "f_mo": 720,
+   "t_mo": null,
+   "f_iso": "-0719-01-01",
+   "t_iso": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "belirsiz"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1936), 'Reggio di Calabria — La città antica' (A. Momigliano ve ark.) — https://www.treccani.it/enciclopedia/reggio-di-calabria_(Enciclopedia-Italiana)/ [okundu]. (2) Enciclopedia Italiana, 'Messina' (kuruluş ~724) — https://www.treccani.it/enciclopedia/messina_(Enciclopedia-Italiana)/ [okundu]. (3) PECS (Princeton 1976), 'RHEGION' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=rhegion [okundu]. (4) Polybios I.7 (Shuckburgh) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=1:chapter=7 [okundu]. (5) Diodoros XXII.1 (LacusCurtius) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/22*.html [okundu]. (6) Livius Periochae 12, 15; Fasti Triumphales (attalus.org) [okundu].",
+   "alinti": "continuò la decadenza ... che portò la città nel 282 ... ad accettare un presidio romano (la data secondo Dionisio di Alicarnasso, XX, 4, 2) [Enc. Ital.]",
+   "alinti_2": "furono sloggiati dai Romani solo nel 270. Reggio diventò socia navalis di Roma [Enc. Ital.]",
+   "kronoloji_okulu": "Dionysios Hal. 20.4.2 (282) vs Polybios 1.7 / Diodoros 22.1 (Pyrrhos'un Italia'ya geçişi sırasında, ~280)",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 282,
+      "olay": "Roma garnizonu kabulü (Dion. Hal. 20.4.2; Enc. Ital. bunu 'şüphesiz doğru' bulur)",
+      "kaynak": "Enc. Ital., PECS ('282') [okundu]"
+     },
+     {
+      "mo": 280,
+      "olay": "Polybios 1.7 ve Diodoros 22.1'e göre garnizon Pyrrhos'un geçişi sırasında; Kampanyalı lejyon Decius Vibellius şehri ele geçirir (Liv. Per. 12)",
+      "kaynak": "Polybios 1.7; Diod. 22.1; Livius Per. 12 [okundu]"
+     },
+     {
+      "mo": 270,
+      "olay": "Kampanya askerleri Romalılarca sökülür; şehir 'socia navalis' (Fasti Triumphales: Cn. Cornelius Blasio 'Regini üzerine', konsül yılı 270/69)",
+      "kaynak": "Enc. Ital.; Fasti Triumphales (attalus.org); Liv. Per. 15 [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t ÇELİŞKİLİ: üç olay, üç yıl — 282 (Roma garnizonu, Dion. Hal.), ~280 (Polybios/Diodoros: Pyrrhos geçerken), 270 (Kampanya birliklerinin Roma ile sökülüşü, Rhegion'un socia navalis olarak restorasyonu). Hangisi 'bağımsızlık sonu': garnizon (282/280) mu, Roma kontrolünün restorasyonu (270) mu — Emre karar versin. Atlas şu an -0281 (282). Enc. Ital. f'yi doğrudan vermez (Messina maddesi: Zankle'nin kuruluşundan 'poco dopo' ≈724); PECS 'MÖ 8. yy ortasına doğru' (Diod. 8.23.2); Treccani online '8. yy ikinci yarısı' (batch) → atlas -0719 (720) bu aralıkta; yüzyıl hassasiyeti. Tarih uydurulmadı."
+  },
+  {
+   "id": "zankle-messana",
+   "onay": "dogrulandi",
+   "f_mo": 730,
+   "t_mo": 289,
+   "f_iso": "-0729-01-01",
+   "t_iso": "-0288-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1934), 'Messina' (G. Caraci ve ark.) — https://www.treccani.it/enciclopedia/messina_(Enciclopedia-Italiana)/ [okundu]. (2) PECS (Princeton 1976), 'ZANKLE later Messene (Messina)' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=zankle [okundu]. (3) Polybios I.7.1-3 (Shuckburgh) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=1:chapter=7 [okundu]. (4) Diodoros XXI.18 (LacusCurtius) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/21*.html [okundu]. (5) Thukydides VI.4.5-6 [okundu].",
+   "alinti": "Nel 289 alla morte di Agatocle se ne impadronivano i Mamertini, mercenarî italici già al servizio di Agatocle [Enc. Ital.]",
+   "alinti_2": "Agathocles died, B. C. 289. This done, they seized promiscuously the wives and children of the dispossessed citizens [Polybios 1.7, Shuckburgh çev.]",
+   "kronoloji_okulu": "Agathokles'in ölümü 289 (Polybios/Enc. Ital.); PECS 284 verir (kaynak Diod. 21.18; metin yıl vermez)",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 284,
+      "olay": "PECS: 'After the Mamertine occupation in 284 B.C. ... (Diod. 21:18)' — Diod. 21.18 metninde yıl yok, Agathokles ölümü sonrası askerlerin Messana'ya gelişi anlatılır",
+      "kaynak": "PECS 'Zankle' [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t DOĞRULANDI: Mamertin işgali Agathokles'in ölümünden (289) hemen sonra (Enc. Ital. 289; Polybios 1.7.1-3 'Agathocles died B.C. 289'; Diod. 21.18 aynı olayı sıralar). PECS'in 284'ü tek başına duruyor ve Diodoros metnine yıl atfetmiyor (Diod. 21.18 okundu) → 284 çelişkili tek tanıklık olarak not edildi; atlas -0288 (289) korunur. f: Thukydides 6.4.5 yıl vermez (Kyme korsanları → Khalkis/Euboia yerleşimi); PECS 'MÖ 8. yy ortası'; Enc. Ital. Zankle'yi Rhegion'dan (~724) 'poco prima' kurar → atlas -0729 (730) yaklaşık, hassasiyet yıl değil yüzyıl/çeyrek-yüzyıl. Ayrıca: Zankle→Messene adı 486 (Anaxilas; PECS, Thuc. 6.4.6) aynı polity'nin adı değişimidir; Samoslu/İyonya dönemi arası (Hippokrates'e tabiyet, Enc. Ital.) bağımsızlığı kesmiş olabilir."
+  },
+  {
+   "id": "naxos-sicilya",
+   "onay": "dogrulandi",
+   "f_mo": 734,
+   "t_mo": 403,
+   "f_iso": "-0733-01-01",
+   "t_iso": "-0402-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Thukydides VI.3.1-3 (Jowett) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=6:chapter=3 [okundu]. (2) Enciclopedia Italiana (1936), 'Sicilia — Storia' (kolonizasyon '735-727 circa') ve 'Siracusa' ('data tradizionale del 735') — https://www.treccani.it/enciclopedia/sicilia_(Enciclopedia-Italiana)/ [okundu]. (3) Diodoros XIV.14-15 (arkhon Eucleides 403/2; LacusCurtius) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/14A*.html [okundu]. (4) Enc. Ital. 'Taormina' (Naxos'un son kalıntıları 358) [okundu].",
+   "alinti": "Of the Hellenes, the first to arrive were Chalcidians from Euboea with Thucles, their founder. They founded Naxos [Thuc. 6.3.1]",
+   "alinti_2": "How Dionysius sold into slavery Catanê and Naxos and transplanted the inhabitants of Leontini to Syracuse (chaps. 14‑15) [Diod. 14, özet başlığı]",
+   "kronoloji_okulu": "Thukydides göreli sıra (Naxos → Syracuse ertesi yıl); mutlak yıl Eusebios/Dunbabin geleneği (734/733); Enc. Ital. 735-727 circa",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 736,
+      "not": "Enc. Ital. 'Siracusa': geleneksel tarih Syracuse için 735 → Naxos bir yıl önce 736"
+     }
+    ]
+   },
+   "ic_not": "f DOĞRULANDI (onyıl): Thukydides Naxos'u Sicilya'nın ilk Yunan kolonisi yapar ve Syracuse'u 'ertesi yıl' kurar ama MUTLAK YIL VERMEZ (6.3.1-2, okundu). Mutlak tarih (734/733) ikincil geleneğe dayanır; Enc. Ital. kolonizasyon dalgasını '735-727 circa' koyar ve Syracuse için geleneksel 735 verir (→ Naxos 736). Atlas -0733 (734) bu bantta; yıl hassasiyeti değil onyıl. t DOĞRULANDI: Dionysios'un Naxos'u ve Catane'yi satması Diodoros 14.14-15 (arkhon Eucleides = 403/2); atlas -0402 (403). Eucleides yılı Temmuz 403-Haziran 402 olduğundan 403 veya 402 olabilir; Diod. kronoloji okulu. Naxos'un erken 5. yy'da Hippokrates'e (Enc. Ital. 'Sicilia') tabiyeti bağımsızlığı kesmiş olabilir."
+  },
+  {
+   "id": "katane",
+   "onay": "dogrulandi",
+   "f_mo": 729,
+   "t_mo": 403,
+   "f_iso": "-0728-01-01",
+   "t_iso": "-0402-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yil"
+   },
+   "kaynak": "(1) PECS (Princeton 1976), 'KATANE (Catania)' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=katane [okundu]. (2) Thukydides VI.3.3 — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=6:chapter=3 [okundu]. (3) Enciclopedia Italiana (1931), 'Catania' — https://www.treccani.it/enciclopedia/catania_(Enciclopedia-Italiana)/ [okundu]. (4) Diodoros XIV.14-15 (LacusCurtius) [okundu].",
+   "alinti": "A Greek colony founded by the Chalkidians of Naxos during the second half of the 8th c. B.C. (ca. 729). [PECS]",
+   "alinti_2": "It was occupied by Dionysios in 403 and remained within the sphere of Syracusan politics. [PECS]",
+   "kronoloji_okulu": "Thukydides göreli (Naxos + 5. yıl) → ~729; Diodoros arkhon Eucleides (403/2)",
+   "ic_not": "f DOĞRULANDI: PECS 'ca. 729'; Thukydides 6.3.3: Chalkidler Naxos'tan Syracuse'un kuruluşunun 5. yılında Leontini'yi, ardından Catana'yı kurar (mutlak yıl vermez); Enc. Ital. '8. yy ikinci yarısı'. t DOĞRULANDI: PECS ve Enc. Ital. Dionysios'un işgali 403; Diod. 14.14-15 (Eucleides 403/2). UYARI/SÜREKSİZLİK: PECS'e göre 475'te Hieron şehri boşaltıp 10.000 Doryalı yerleştirerek adını Aitne yaptı, Chalkidler 461'de döndü — yani 475-461 arası Katane polity'si kesintili (Diod. 11.76.3: Ducetius+Syracuse Katane'yi 'what is now Aetna'ya sürdü). Kayıt tek aralık olarak -0728..-0402 veriyor; kesinti beyan edilmeli. Dionysios sonrası Kampanyalı paralı askerlerle iskân (Diod. 14.15.3) → 403 bağımsızlık sonu."
+  },
+  {
+   "id": "gela",
+   "onay": "dogrulandi",
+   "f_mo": 688,
+   "t_mo": 282,
+   "f_iso": "-0687-01-01",
+   "t_iso": "-0281-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yil",
+    "t": "onyil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1932), 'Gela' (V. Epifanio ve ark.) — https://www.treccani.it/enciclopedia/gela_(Enciclopedia-Italiana)/ [okundu]. (2) PECS (Princeton 1976), 'GELA' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=gela [okundu]. (3) Thukydides VI.4.3 — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=6:chapter=4 [okundu]. (4) Diodoros XXII.2 (Phintias) [okundu].",
+   "alinti": "La colonia greca fu fondata, secondo Antioco (Thuc., VI, 4), 45 anni dopo Siracusa, e 108 prima di Agrigento, ossia nel 688-7 [Enc. Ital.]",
+   "alinti_2": "Gela distrutta nel 282-280 non risorse e negli scavi nulla si trovò di posteriore a quell'epoca. [Enc. Ital.]",
+   "kronoloji_okulu": "Thukydides/Antiochos göreli sayım (Syracuse+45); Eusebios geleneği: PECS 689, Enc. Ital. 688-7",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 689,
+      "not": "PECS: 'founded in 689 B.C.'"
+     }
+    ],
+    "t": [
+     {
+      "mo": 285,
+      "not": "PECS: yıkım '285 ile 282 arası belirsiz bir tarihte', Akragas tiranı Phintias; nüfus Phintias (Licata) şehrine"
+     },
+     {
+      "mo": 280,
+      "not": "Enc. Ital.: 'Circa il 282 i Mamertini devastarono Gela ... Phintias nüfusu aldı'; 'distrutta nel 282-280'"
+     }
+    ]
+   },
+   "ic_not": "f DOĞRULANDI (±1 yıl): Thukydides 6.4.3 Gela'yı Syracuse'tan 45 yıl sonra kurar, Enc. Ital. bunu 688-7'ye çevirir, PECS 689; atlas -0687 (688). t: yıkım 285-282 (PECS) / 282-280 (Enc. Ital.) bandında, atlas 282 ikisinin kesişiminde → ONYIL hassasiyetinde doğrulandı; yıl-kesin değil. FAKAT sürekliliği kesen olay: 405 BC'de Himilkon (Kartaca) Gela'yı tamamen yıktı (PECS, Enc. Ital.); şehir uzun süre boş kaldı, Timoleon'ca MÖ 338 sonrası yeniden iskân edildi (PECS) — yani ~405-338 arası polity yok. Ayrıca erken 5. yy'da Gelon Syracuse'a taşındı (483). Kayıt -0687..-0281 tek aralık; kesintiler beyan edilmeli. Yıkım nedeni kaynaklarda çelişkili (PECS: Phintias yıktı; Enc. Ital.: Mamertinler yağmaladı, Phintias nüfusu aldı)."
+  },
+  {
+   "id": "akragas",
+   "onay": "dogrulandi",
+   "f_mo": 580,
+   "t_mo": 210,
+   "f_iso": "-0579-01-01",
+   "t_iso": "-0209-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yil"
+   },
+   "kaynak": "(1) PECS (Princeton 1976), 'AKRAGAS later AGRIGENTUM' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=akragas [okundu]. (2) Enciclopedia Italiana (1929), 'Agrigento' (G. M. Columba, P. Marconi) — https://www.treccani.it/enciclopedia/agrigento_(Enciclopedia-Italiana)/ [okundu]. (3) Thukydides VI.4.4 — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=6:chapter=4 [okundu]. (4) Livius XXVI.40 (Latin; The Latin Library) — https://www.thelatinlibrary.com/livy/liv.26.shtml [okundu].",
+   "alinti": "In 262, 255, and finally in 210 B.C., Akragas was besieged and occupied by the Roman army. From this moment onward the city disappeared as a political entity [PECS]",
+   "alinti_2": "Near one hundred and eight years after the foundation of Gela, the Geloans founded Acragas [Thuc. 6.4.4]",
+   "kronoloji_okulu": "Thukydides/Antiochos göreli (Gela+108 = 580); PECS 582; Enc. Ital. 581 ve 583-580",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 583,
+      "not": "Treccani online 'Agrigento': ufficialmente 583-82; Enc. Ital. 'costruzione ... 583-580'"
+     },
+     {
+      "mo": 582,
+      "not": "PECS 'ca. 582'"
+     },
+     {
+      "mo": 581,
+      "not": "Enc. Ital. 'verso il 581'"
+     }
+    ]
+   },
+   "ic_not": "f DOĞRULANDI (ONYIL): kaynaklar 583/582/581/580 arasında dağılır (Thukydides hesabı 688-108=580 atlas ile aynı; PECS 582; Enc. Ital. 581 ve 583-580). Tek yıl seçilemez; atlas -0579 (580) bu bandın içinde. t DOĞRULANDI: Livius 26.40 (konsül Laevinus, Agrigentum'un alınışı, 210) + PECS 'disappeared as a political entity' + Enc. Ital. 210; atlas -0209. Not: 406/405'te Kartaca yıkımı (atlas ic_not) sonrası 'zayıf yeniden kuruluş' — Timoleon yeni yerleşim (Enc. Ital. 'seconda fondazione') ~340'larda, süreklilik beyanı gerekli."
+  },
+  {
+   "id": "alalia-korsika",
+   "onay": "dogrulandi",
+   "f_mo": 565,
+   "t_mo": 535,
+   "f_iso": "-0564-01-01",
+   "t_iso": "-0534-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "(1) PECS (Princeton 1976), 'ALALIA later ALERIA' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=alalia [okundu]. (2) Herodotos I.165-167 (A. D. Godley çev.) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=1:chapter=166 [okundu].",
+   "alinti": "a group of settlers from Phokaia established themselves on the site about twenty years before the campaigns conducted by the Persian king Cyrus ... about 565-560. [PECS]",
+   "alinti_2": "The battle of Alalia (about 535) was a costly Pyrrhic victory for the Phokaians. [PECS]",
+   "kronoloji_okulu": "yok (Herodotos göreli; mutlak yıl modern çıkarım)",
+   "ic_not": "f DOĞRULANDI (onyıl): PECS 565-560 (Kyros'un Ionia seferlerinden ~20 yıl önce) — atlas -0564 (565) bandın üst ucunda. Herodotos 1.165-166 mutlak yıl vermez; 'beş yıl' Korsika'da yaşanan süre ve 535 civarı (PECS) savaş. t DOĞRULANDI: Alalia deniz savaşı ~535 (PECS 'about 535'); atlas -0534 (535). ÇELİŞKİ (yorum): Herodotos 1.166.3 Phokaialıların savaştan sonra kadın-çocukları alıp Rhegion'a (sonra Elea) gittiğini yazar; PECS ise 'Herodotos'un aksine tüm nüfus ayrılmadı, Etrüskler ve belki Kartacalılar Alalia'ya katıldı, kozmopolit liman oldu, Roma ~259' diyor → 'Yunan Alalia polity'si 535'te biter, ama yerleşim sürer (Etrüsk/Kartaca dönemi). Alalia'nın bağımsız 'devlet' olup olmadığı tartışmalı (sürgün koloni)."
+  },
+  {
+   "id": "alba-longa",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yuzyil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1929), 'Alba Longa' (G. Lugli) — https://www.treccani.it/enciclopedia/alba-longa_(Enciclopedia-Italiana)/ [okundu]. (2) PECS (Princeton 1976), 'ALBA LONGA (Castel Gandolfo)' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=alba-longa [okundu; kuruluş/yıkım yılı vermiyor]. (3) Treccani Enciclopedia on line, 'Alba Longa' [özetten, batch alıntısı].",
+   "alinti": "La distruzione di Alba Longa è posta da Livio e da Dionigi sotto il regno del terzo re di Roma, Tullo Ostilio, cioè verso la prima metà del sec. VII a. C. [Enc. Ital.]",
+   "alinti_2": "L'esistenza di Alba Longa, come città, è fuori di dubbio; essa è provata ... dalla vasta necropoli scoperta sul Monte Cucco [Enc. Ital.]",
+   "kronoloji_okulu": "Varro/Livius kral listesi (Tullus Hostilius ~673-642, Livius 1.21.6 Numa 43 yıl + 1.31.8 Tullus 32 yıl'dan türetilmiş); arkeolojik: nekropol Demir Çağı I sonu",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 650,
+      "olay": "'MÖ 7. yy ilk yarısı' (Enc. Ital.): nekropol malzemesi ile teyitli yıkım; atlas -0639 (640) bu bandın dışında (ikinci yarı)",
+      "kaynak": "Enc. Ital. 'Alba Longa' [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t ÇELİŞKİLİ/DESTEKLENMEDİ (yüzyıl düzeyi): Enc. Ital. yıkımı Livius-Dionysios'a göre Tullus Hostilius dönemine ve 'MÖ 7. yy ilk yarısı'na koyar, nekropol buluntusuyla destekler (700-650). Atlas -0639 (640) ikinci yarıdır; Treccani sözlük yalnız '7. yy'. Mutlak yıl Varro kronolojisinden türetilirse Tullus 673-641 (kral süreleri toplamı, burada metin okunmadı → 'özetten'). f: Alba Longa'nın 12 kral listesi 'dotta ricostruzione' (Enc. Ital.): kuruluş yılı efsane; polity başlangıcı BULUNAMADI (null kalır). Not: Enc. Ital. varlığın tartışılmaz olduğunu söyler (PECS de Castel Gandolfo konumunu 'now believed' ile verir) — 'efsanevi' etiketi yerine 'yarı-tarihsel/nekropol-doğrulu' daha doğru."
+  },
+  {
+   "id": "falisci-falerii",
+   "onay": "dogrulandi",
+   "f_mo": null,
+   "t_mo": 241,
+   "f_iso": null,
+   "t_iso": "-0240-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   },
+   "kaynak": "(1) Polybios I.65 (Shuckburgh) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=1:chapter=65 [okundu]. (2) Livius Periocha 20 (Latin; The Latin Library) — https://www.thelatinlibrary.com/livy/liv.per20.shtml [okundu]. (3) Fasti Triumphales (Degrassi 1954; attalus.org) — https://www.attalus.org/translate/fasti.html [okundu]. (4) PECS (Princeton 1976), 'FALERII VETERES' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=falerii-veteres [okundu]. (5) Enciclopedia Italiana (1932), 'Falisci' (G. Devoto) — https://www.treccani.it/enciclopedia/falisci_(Enciclopedia-Italiana)/ [okundu].",
+   "alinti": "Falisci cum rebellassent, sexto die perdomiti in deditionem uenerunt. [Livius Per. 20]",
+   "alinti_2": "Q. Lutatius C.f. C.n. Cerco, consul, over the Falisci, k.Mart. {1st March}; A. Manlius ... Torquatus, consul, over the Falisci [Fasti Triumphales, konsül yılı 241/0]",
+   "kronoloji_okulu": "Varronian / Fasti Capitolini konsül yılı 241/0 (Cerco & Torquatus); Polybios 1.65 Birinci Pön Savaşı bitimine (241) bağlar",
+   "ic_not": "t DOĞRULANDI (yıl): Polybios 1.65 (savaşın hemen ardından 'Falerii'nin birkaç günlük kuşatmayla alınışı'), Livius Per. 20 ('altıncı günde' teslim), Fasti Triumphales konsül yılı 241/0 (Fasti'deki iki zafer tarihi konsül yılının bitişinde — takvim yılı 240'a düşebilir; bu yüzden gün yazılmadı), PECS ve Enc. Ital. 241. Atlas -0240 (241) doğru. Not: Enc. Ital. ve PECS (Zonaras 8.18) eski Falerii'nin yıkılıp ovaya (Falerii Novi) taşındığını söyler. f: PECS ve Enc. Ital. Faliskleri yalnız mücadeleleriyle (437-6, 402-395, 357, 293, 241) tanıtır; MÖ 395'te Camillus'a düştüğü (Liv. 5.26-27) ama 351'de 40 yıllık ateşkes, 343'te foedus yaptığı yazılıdır (PECS). Polity kuruluş yılı kaynakta yok → ÖNERİLMEDİ. Kayıt 'sehirler' içinde Capena da var (ayrı şehir)."
+  },
+  {
+   "id": "capua-sehri",
+   "onay": "duzeltildi",
+   "f_mo": 598,
+   "t_mo": 211,
+   "f_iso": "-0597-01-01",
+   "t_iso": "-0210-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1930), 'Capua' (G. Coppola, C. Colamonico ve ark.) — https://www.treccani.it/enciclopedia/capua_(Enciclopedia-Italiana)/ [okundu]. (2) PECS (Princeton 1976), 'CAPUA (S. Maria Capua Vetere)' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=capua [okundu]. (3) Livius IV.37 (Roberts) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=4:chapter=37 [okundu]; Livius XXVI (Latin) — https://www.thelatinlibrary.com/livy/liv.26.shtml [okundu]. (4) Treccani Enciclopedia on line 'Capua' [özetten, batch alıntısı].",
+   "alinti": "Come data della fondazione ci è tramandato il 598 a. C., che probabilmente va inteso come data della fondazione della colonia etrusca [Enc. Ital.]",
+   "alinti_2": "Capua si arrese nel 211 senza condizioni. ... come ente politico era finita. [Enc. Ital.]",
+   "kronoloji_okulu": "Varronian (t); f: 598 geleneksel tarih (Enc. Ital.) vs ~800 (Velleius 1.7.2 / Treccani 'intorno all'800') vs Villanova yerleşimi MÖ 9. yy ortası (PECS)",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 800,
+      "not": "Treccani online: 'Fondata probabilmente intorno all'800 a.C.' ve PECS: gelenek Velleius Pat. 1.7.2; arkeolojik Villanova yerleşimi 9. yy ortası"
+     },
+     {
+      "mo": 700,
+      "not": "PECS: 'Capua became an Etruscan city during the 7th c. B.C.'"
+     }
+    ],
+    "t": [
+     {
+      "mo": 423,
+      "olay": "Samnitlerin Volturnus'u (=Capua) almaları, Etrüsk dönemi sonu",
+      "kaynak": "Livius 4.37.1-3 (konsüller Sempronius Atratinus, Q. Fabius Vibulanus) [okundu]"
+     },
+     {
+      "mo": 338,
+      "olay": "Aristokratlarına Roma vatandaşlığı (civitas sine suffragio); Livius 8.14.10",
+      "kaynak": "Livius 8.14 [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t DOĞRULANDI: Enc. Ital., PECS ve Treccani 211'de teslim/yeniden alış; Enc. Ital. 'come ente politico era finita' (pagi, topraklar müsadere). Batch kayıt t=-0210 (211) doğru (draft -0209 yanlıştı). f DÜZELTİLDİ/ÇELİŞKİLİ: Enc. Ital. geleneksel 598 verir (Etrüsk koloni), batch -0598 (599 MÖ) 1 yıl kaymış — 598 MÖ = -0597; ancak Treccani/Velleius ~800 ve PECS Villanova 9. yy + Etrüsk şehri 7. yy diyor → f için dört değer: 800, 700 (7. yy), 598 (geleneksel), Villanova 9. yy. 598 yalnız 'tramandato' bir geleneksel tarihtir; atlas politik olarak 'Etrüsk-Oskan şehir devleti' dediğinden, Etrüsk koloni kuruluşu için tek açık yıl 598 (Enc. Ital.). Samnit fethi: Livius 4.37 → 423; PECS 'MÖ 5. yy ortası', Treccani 424; atlas özeti '424' → 423/424 ± çelişki."
+  },
+  {
+   "id": "liguria-kabileler",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   },
+   "kaynak": "(1) Fasti Triumphales (Degrassi 1954; attalus.org) — https://www.attalus.org/translate/fasti.html [okundu]. (2) Livius Periocha 20, 46 (Latin; The Latin Library) — https://www.thelatinlibrary.com/livy/liv.per20.shtml [okundu]. (3) Enciclopedia Italiana (1934), 'Liguri' (B. Terracini; dilbilimsel madde, siyasi yıl yok) — https://www.treccani.it/enciclopedia/liguri_(Enciclopedia-Italiana)/ [okundu]. (4) Treccani Enciclopedia on line 'Liguri' [özetten, batch alıntısı].",
+   "alinti": "Adversus Liguras tunc primum exercitus promotus est. [Livius Per. 20 (konsül yılı ~236)]",
+   "alinti_2": "C. Claudius [Ap.f. P.n.] Pulcher, consul, over the Istri and Ligurians [Fasti Triumphales 177/6]; Q. Marcius Q.f. Q.n. Rex, proconsul, over the Ligurian Styni, 3 non.Dec. [117]",
+   "kronoloji_okulu": "Fasti Triumphales konsül yılları",
+   "ic_not": "POLITY DEĞİL + t DESTEKLENMEDİ: Ligurlar tek devlet değil, kabile toplulukları (Apuani, Ingauni, Statielli, Eleates, Styni, Salluvii vb.); Fasti Triumphales Ligur zaferlerini 236/5'ten 117'ye (Q. Marcius Rex, Styni), ayrıca 122'de (Sextius Calvinus: Ligurlar, Vocontii, Salluvii) kaydeder — yani 'fetih' tek yıla (atlas -0177, 178 MÖ) bağlanamaz; Fasti'de 177/6 C. Claudius Pulcher 'Istri ve Ligurlar' zaferi vardır ama bu yalnız bir seferdir. Livius Per. 20 ilk Roma ordusunun Ligurya'ya gönderilişini (236) verir. Treccani batch alıntısı (238-235 ilk çatışma, 2. yy fetih) ile uyumlu. f: kaynakta yok (null). Öneri: 'kabile-konfederasyon' yerine kültür/etnik grup olarak ele alınsın veya alt kabile bazlı kayıtlar açılsın (Emre kararı). Ligur alt-kabilelerinin okunmuş tek mutlak tarihleri: ilk Roma seferi 236/5, Fasti zaferleri yukarıda."
+  },
+  {
+   "id": "messapi-birligi",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": 266,
+   "f_iso": null,
+   "t_iso": "-0265-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "duzeltildi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1934), 'Messapî' (F. Ribezzo, A. Momigliano) — https://www.treccani.it/enciclopedia/messapi_(Enciclopedia-Italiana)/ [okundu]. (2) Fasti Triumphales (Degrassi 1954; attalus.org) — https://www.attalus.org/translate/fasti.html [okundu]. (3) Livius Periocha 15 (Latin; The Latin Library) — https://www.thelatinlibrary.com/livy/liv.per15.shtml [okundu]. (4) Herodotos VII.170 (via Enc. Ital., metin doğrudan okunmadı) [özetten].",
+   "alinti": "dopo le due campagne del 267 e del 266, del pari ricordate nei fasti trionfali, anche i Messapi dovettero cedere ed entrare a far parte della confederazione capitanata da Roma [Enc. Ital.]",
+   "alinti_2": "Umbri et Sallentini uicti in deditionem accepti sunt. [Livius Per. 15]",
+   "kronoloji_okulu": "Fasti Triumphales konsül yılları 267/6 (M. Atilius Regulus & L. Julius Libo, 'Sallentini') ve 266/5 (N. Fabius Pictor II. & D. Junius Pera II., 'Sallentini ve Messapii')",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 265,
+      "olay": "Fasti'de Pictor/Pera'nın 'Sallentini ve Messapii' zaferi (konsül yılı 266/5, 1 Şubat) takvim yılı 265'e düşer; atlas -0264 (265) bu zafer yılına denk",
+      "kaynak": "Fasti Triumphales [okundu]"
+     },
+     {
+      "mo": 90,
+      "olay": "Sosyal Savaş'ta isyan (90), 88'de yeniden fetih ve vatandaşlık",
+      "kaynak": "Enc. Ital. [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t DÜZELTİLDİ (olay yılı): Enc. Ital. + Fasti: Messapya/Sallentum iki seferde (267 ve 266) boyun eğdi; atlas -0264 (265) Fasti'deki ikinci zaferin takvim yılıdır (Şubat 265), fethin değil — fetih 266 (Brundisium, D. Junius Pera). Enc. Ital. ayrıca 280'de bir Roma zaferi (Sallentini) ve Messapların Roma konfederasyonuna 'kesin olmayan şartlarla' girişini, 90'da isyan ve 88'de yeniden fetih+vatandaşlık verir. POLITY NİTELİĞİ: Enc. Ital. (Ribezzo) Messap 'birliğinin' siyasi federasyon değil, tek tek şehirler olduğunu ve yalnız 473'te Taranto'ya karşı birleştiklerini yazar (Herodotos 7.170); 'konfederasyon' etiketi destekli değil. f: kaynaklarda Messap polity kuruluş yılı yok (Treccani: 7. yy Iapyg birliğinin parçalanması) → ÖNERİLMEDİ."
+  },
+  {
+   "id": "thourioi",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": 282,
+   "f_iso": null,
+   "t_iso": "-0281-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "duzeltildi",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1937), 'Turî' (G. Giannelli) — https://www.treccani.it/enciclopedia/turi_(Enciclopedia-Italiana)/ [okundu]. (2) PECS (Princeton 1976), 'THURII later COPIA' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=thurii [okundu]. (3) Diodoros XII.9-10 (LacusCurtius) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/12A*.html [okundu]. (4) Livius Periocha 11 (Latin) — https://www.thelatinlibrary.com/livy/liv.per11.shtml [okundu].",
+   "alinti": "chiese e ottenne, nel 282 a. C., di ricevere un presidio romano dentro le sue mura. Da allora la città fu alleata di Roma [Enc. Ital.]",
+   "alinti_2": "The colony was founded in 443 B.C. by the Athenians, together with citizens from the former city of Sybaris. [PECS]",
+   "kronoloji_okulu": "f: Enc. Ital. 446-5 (Diodoros 12.9-10'un Callimachus/446-5 yılı) vs PECS 443 vs Treccani 444",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 446,
+      "not": "Enc. Ital.: 'ricostruzione di Sibari come colonia panellenica ... (446-5 a. C.)'; Diodoros 12.9-10 arkhon Callimachus yılı (446/5) içinde"
+     },
+     {
+      "mo": 444,
+      "not": "Treccani online 'Turi': 444 a.C.; Treccani 'Sibari': 444/3"
+     },
+     {
+      "mo": 443,
+      "not": "PECS: 'founded in 443 B.C.' — atlas -0443'e denk değil, atlas 444 MÖ"
+     }
+    ]
+   },
+   "ic_not": "f ÇELİŞKİLİ: Enc. Ital. 446/5, Treccani 444, PECS 443; Diodoros'un anlatısı (12.9-10) 446/5 yılı başlığı altındadır, ancak yerleşimin sonradan 'Thurium'a taşınması ve Lampon-Xenokritos'un gönderilişi için net yıl vermez. Atlas f=-0443 (444 MÖ) Treccani 'Turi' ile aynı; üç değer ortalamasız yazıldı. t DÜZELTİLDİ (olay yılı): Enc. Ital. Turî'nin Lukanlara karşı 282'de Roma garnizonu istediği/aldığı ve 'o tarihten sonra Roma müttefiki (Pyrrhos ve Hannibal araları hariç)' olduğunu söyler; Livius Per. 11 Roma'nın Turii'ye Lukanlara karşı yardım kararını (282) anar. Atlas -0279 (280) bu kaynakta yok. Not: Turî 282 sonrası da müttefik olarak varlığını sürdürdü (194'te Copia kolonisi); 'bağımsızlık sonu' tanımı Emre'nin."
+  },
+  {
+   "id": "latin-birligi",
+   "onay": "dogrulandi",
+   "f_mo": 493,
+   "t_mo": 338,
+   "f_iso": "-0492-01-01",
+   "t_iso": "-0337-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1934), 'Latini' (G. Cardinali ve ark.) — https://www.treccani.it/enciclopedia/latini_(Enciclopedia-Italiana)/ [okundu]. (2) Livius II.33 (Roberts) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=2:chapter=33 [okundu]; VIII.14 — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=8:chapter=14 [okundu]. (3) Fasti Triumphales (Degrassi 1954; attalus.org) 338/7: Camillus 'Pedani ve Tiburtes', Maenius 'Antiates, Lavinii, Veliterni' [okundu].",
+   "alinti": "il famoso foedus Cassianum ... essendo console Sp. Cassio (si deve alludere al consolato del 493) [Enc. Ital.]",
+   "alinti_2": "The rest of the Latin cities were deprived of the rights of intermarriage, free trade, and common councils with each other. [Livy 8.14.10]",
+   "kronoloji_okulu": "Varronian / Fasti Capitolini (Sp. Cassius, Postumus Cominius 493; L. Furius Camillus, C. Maenius 338)",
+   "ic_not": "f DOĞRULANDI (geleneksel): Livius 2.33.4 konsüller Sp. Cassius ve Postumus Cominius'un yılında Latin kentleriyle antlaşma; Enc. Ital. bunu 493 ve 'şüpheli/kısmen yapay' bir gelenek olarak koyar → BU SÖZLÜ GELENEKTİR, bağımsız kaynakla (Dion. Hal. 6.95, burada okunmadı) teyit yok; Latin Birliği'nin kendisi 493'ten çok önce var (Alba başkanlığı, Regillus savaşı). t DOĞRULANDI: Livius 8.14 (338, konsüller Camillus ve Maenius) + Enc. Ital. 'La lega fu sciolta' + Fasti 338/7. Atlas -0337 (338) doğru. Not: Enc. Ital. M.Ö. 390 Galya istilasında birliğin fiilen çözüldüğünü, ~30 yıl sonra yeniden kurulduğunu söyler (kesinti); 'nomen Latinum' ve Albanus Mons ritüel birliği sürer."
+  },
+  {
+   "id": "samnit-birligi",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": 82,
+   "f_iso": null,
+   "t_iso": "-0081-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1936), 'Sanniti' (G. Devoto) — https://www.treccani.it/enciclopedia/sanniti_(Enciclopedia-Italiana)/ [okundu]. (2) Enciclopedia Italiana, 'Lucani' (G. Devoto; Porta Collina 1 Kasım 82) — https://www.treccani.it/enciclopedia/lucani_(Enciclopedia-Italiana)/ [okundu]. (3) Appianos, İç Savaşlar I.93 (Loeb, LacusCurtius) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/1*.html [okundu]. (4) Fasti Triumphales (attalus.org) [okundu].",
+   "alinti": "Nel 272-268 si compie la sottomissione dei Sanniti attraverso paci separate con gl'Irpini, i Pentri e le città del territorio caudino. [Enc. Ital.]",
+   "alinti_2": "Prisoners, to the number of more than 8,000, were shot down with darts by Sulla because they were mostly Samnites. [Appian BC 1.93]",
+   "kronoloji_okulu": "Varronian; Porta Collina 1 Kasım 82 (Enc. Ital. 'Lucani'); Enc. Ital. 'Sanniti' Praeneste'yi '83' yazıyor (iç tutarsızlık)",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 290,
+      "olay": "Aquilonia/Curius sonrası fiilî bağımsızlık kırılması; Livius Per. 11: 'Pacem petentibus Samnitibus foedus quarto renovatum est'",
+      "kaynak": "Livius Per. 11 [okundu]; Enc. Ital. 'Sanniti' (Sentinum 295, Venusia 291)"
+     },
+     {
+      "mo": 268,
+      "olay": "'Nel 272-268 ... sottomissione dei Sanniti' (ayrı barışlar), Benevento kolonisi 268",
+      "kaynak": "Enc. Ital. 'Sanniti' [okundu]"
+     },
+     {
+      "mo": 88,
+      "olay": "Sosyal Savaş: federal başkent Corfinio'dan Isernia'ya taşınır (88)",
+      "kaynak": "Enc. Ital. 'Sanniti' [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t (82) yalnız 'ulusun sonu' anlamında doğrulandı: Enc. Ital. 'È la fine della nazione sannitica' (Praeneste/Roma önündeki yenilgi, Pontius Telesinus; Enc. Ital. 'Lucani' Porta Collina'yı 1 Kasım 82 olarak verir, 'Sanniti' maddesi 83 yazar — iç tutarsızlık; Appian 1.93 Telesinus'un Porta Collina'da öldürüldüğünü ve 8000'den fazla tutsağın, çoğu Samnit olduğu için, vurulduğunu yazar). Ancak Samnit federasyonu 272-268'de ayrı barışlarla Roma müttefiki olmuş, Sosyal Savaş'ta (90-88) federal başkent Isernia'ya taşınmıştı; yani bağımsız polity sonu 290/272-268 ile ulusal son 82 arasında kalır. Atlas ic_not'u '290'da fiilen kırıldı' diyor — Enc. Ital. 295-290 bunun kısmen doğru olduğunu (Sentinum, Venusia) ama 'paci separate' 272-268'i gösterir. Karar Emre'nin (polity sonu: 290 mı 268 mi 82 mi). f: Enc. Ital. ve Livius 7.19 yalnız Roma ile ilk antlaşmayı verir (354; Liv. 7.19, Diod. 16.45); atlas -0449 (450 MÖ) hiçbir kaynakta yok → ÖNERİLMEDİ. Enc. Ital. 'Sanniti' Samnitleri tek devlet değil 'federazione' (Pentri, Caudini, Irpini, Carecini) olarak betimler; bu kabile-konfederasyonu niteliği destekli."
+  },
+  {
+   "id": "lukan-birligi",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "belirsiz"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1934), 'Lucani' (G. Devoto) — https://www.treccani.it/enciclopedia/lucani_(Enciclopedia-Italiana)/ [okundu]. (2) Fasti Triumphales (Degrassi 1954; attalus.org) — https://www.attalus.org/translate/fasti.html [okundu]. (3) Livius Periocha 11, 14 (Latin) — https://www.thelatinlibrary.com/livy/liv.per14.shtml [okundu]. (4) Treccani Enciclopedia on line 'Lucani' [özetten].",
+   "alinti": "Sul confine dei secoli V e IV i Lucani conquistano Posidonia, Pixunte, Lao, ma non Elea [Enc. Ital.]",
+   "alinti_2": "Nel 273 s'inizia la colonizzazione romana con la colonia di diritto latino a Paestum. ... Furono ascritti compatti alla Tribù Pontina. [Enc. Ital.]",
+   "kronoloji_okulu": "Fasti Triumphales konsül yılları: Lucani zaferleri 282/1, 278/7, 277/6, 276/5, 273/2, 272/1",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 298,
+      "olay": "Lukanların Roma ile (zorunlu) ittifakı (Scipio yazıtı: 'subigit omne Loucanam opsidesque abdoucit')",
+      "kaynak": "Enc. Ital. 'Lucani' [okundu]"
+     },
+     {
+      "mo": 272,
+      "olay": "Fasti'de Lucani üzerine son zafer: konsül yılı 272/1 (Sp. Carvilius II. ve L. Papirius Cursor II. — Tarentini, Lucani, Samnites, Bruttii)",
+      "kaynak": "Fasti Triumphales [okundu]"
+     },
+     {
+      "mo": 273,
+      "olay": "Paestum'da Latin kolonisi (Livius Per. 14)",
+      "kaynak": "Enc. Ital., Liv. Per. 14 [okundu]"
+     },
+     {
+      "mo": 82,
+      "olay": "Sosyal Savaş'ta isyancı müttefik (90), Porta Collina (82); Pontina tribus'una topluca yazılma",
+      "kaynak": "Enc. Ital. [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t ÇELİŞKİLİ/DESTEKLENMEDİ: atlas -0270 (271 MÖ) kaynakta yok. Lukanlar Pyrrhos savaşında (280-275) Roma'ya karşı, sonra 273 Paestum kolonisi, 272/1'de Fasti'nin son Lucani zaferi; Enc. Ital. Lukan federal örgütünü Sosyal Savaş'a (90-82) dek yaşayan 'civitates' olarak betimler. Polity sonu tanımı Emre'nin. f: Enc. Ital. 'ilk söz eden Polyainos (Strat. II.10.2): Turii kuşatması, MÖ 5. yy sonu'; Treccani 'MÖ 5. yy'dan itibaren' (batch). Atlas f=-0429 (430) 5. yy içinde kaldığından yüzyıl düzeyinde uyumlu (YÜZYIL hassasiyeti), ancak tek yıl kaynakta yok → ÖNERİLMEDİ. Enc. Ital.: Lukan kralı/diktatör federal başkan (Strabon 6.253); 'normally no higher power limited independence of single civitates' — gevşek federasyon."
+  },
+  {
+   "id": "bruttii-birligi",
+   "onay": "dogrulandi",
+   "f_mo": 356,
+   "t_mo": 203,
+   "f_iso": "-0355-01-01",
+   "t_iso": "-0202-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Diodoros XVI.15.1-2 (arkhon Elpines = 356/5; LacusCurtius) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/16A*.html [okundu]. (2) Enciclopedia Italiana (1930), 'Bruzî' (S. Ferri) — https://www.treccani.it/enciclopedia/bruzi_(Enciclopedia-Italiana)/ [okundu]. (3) Livius XXX.19 (Latin; konsüller Cn. ve C. Servilius = 203) — https://www.thelatinlibrary.com/livy/liv.30.shtml [okundu].",
+   "alinti": "in Italy there gathered in Lucania a multitude of men from every region ... for the most part run away slaves. [Diod. 16.15.1, arkhon Elpines]",
+   "alinti_2": "Consentia Aufugum Bergae Baesidiae Ocriculum Lymphaeum Argentanum Clampetia multique alii ignobiles populi ... defecere. [Livius 30.19, 203]",
+   "kronoloji_okulu": "Diodoros arkhon yılı 356/5; Livius konsül yılı 203",
+   "ic_not": "f DOĞRULANDI (yıl): Diod. 16.15.1 Brettii devletinin kuruluşunu arkhon Elpines yılına (356/5) koyar; Enc. Ital. 'Ciò avvenne nel 356'. Atlas -0355 (356). t DOĞRULANDI (olay): Livius 30.19 (203) Consentia ve diğer Bruttium topluluklarının Roma'ya geçişi, Hannibal'in Afrika'ya dönüşü (30.19.10-11); Enc. Ital. 'Così finisce la storia propria dei Bruzî' (Hannibal sonrası Bruttiani statüsü, Gellius 10.3.19, Festus). Atlas -0202 (203). Not: Bruzî Fasti'de 282-270 arası zaferlerle anılır (Roma'yla Pyrrhos savaşı çatışması) ve Sila'nın yarısını kaybettiler (Dion. Hal. 20.15, Enc. Ital.) — yani 203'ten önce de kısmi tabiyet vardı; 'federasyon' ve 'Consentia başkent' nitelikleri Enc. Ital. + Livius 30.19 ile uyumlu."
+  },
+  {
+   "id": "umbri-kabile",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1937), 'Umbri' (G. Devoto, F. Ribezzo) — https://www.treccani.it/enciclopedia/umbri_(Enciclopedia-Italiana)/ [okundu]. (2) Fasti Triumphales (attalus.org): Sassinates üzerine D. Junius Pera ve N. Fabius Pictor, konsül yılı 266/5 [okundu]. (3) Livius Periocha 11, 15 [okundu].",
+   "alinti": "L'influenza politica della nazione umbra come entità collettiva è stata dunque nei tempi storici nulla. [Enc. Ital.]",
+   "alinti_2": "Sarsina ... costretta all'alleanza dopo una lotta meritevole di essere ricordata nei Fasti trionfali nel 266 [Enc. Ital.]",
+   "kronoloji_okulu": "Fasti Triumphales konsül yılı 266/5 (Sassinates zaferleri 26 Eylül ve 5 Ekim, takvim yılı 266)",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 310,
+      "olay": "Camerino'nun Roma ile ittifakı",
+      "kaynak": "Enc. Ital. 'Umbri' [okundu]"
+     },
+     {
+      "mo": 295,
+      "olay": "Sentinum; sonrası Foligno, Plestia, Spoleto bölgelerinin işgali",
+      "kaynak": "Enc. Ital. [okundu]"
+     },
+     {
+      "mo": 266,
+      "olay": "Sarsina (Sassina) zaferi, Fasti 266/5",
+      "kaynak": "Fasti; Enc. Ital. [okundu]"
+     },
+     {
+      "mo": 90,
+      "olay": "Sosyal Savaş sonrası vatandaşlık tribus ataması",
+      "kaynak": "Enc. Ital. [okundu]"
+     }
+    ]
+   },
+   "ic_not": "POLITY DEĞİL + t DESTEKLENMEDİ: Enc. Ital. (Devoto) Umbria tarihinin 'Roma ile ilişkileriyle özdeş' olduğunu, Umbri'nin hiçbir zaman toplu bir siyasi varlık olarak etkili olmadığını ('nulla'), ve Romalıların Umbrilere karşı hiç zafer kazanmadığını (Fasti'de 'Umbri' yok; Sassinates var) söyler. Bağımsızlık kaybı şehir şehir dağınık: Camerino 310, Ocriculum 308, Narnia 299, Sentinum sonrası 295, Sarsina 266 (Fasti), Sosyal Savaş sonrası 90-89. Atlas -0264 (265) hiçbir Umbri olayına tam denk değil (Fasti'deki Sarsina zaferi 266). Livius Per. 15 'Umbri et Sallentini uicti in deditionem accepti sunt' diyor (sıra Umbri → Sallentini → Roma 266 civarı). f: kaynak yok. Öneri: kayıt bir devlet değil etnik/şehir kümesi; Emre kararıyla 'polity-değil' işaretlenebilir. Not: PECS 'Sena Gallica' Umbria'dan ayrı (Gallic Senones)."
+  },
+  {
+   "id": "boii-kabile-devleti",
+   "onay": "dogrulandi",
+   "f_mo": null,
+   "t_mo": 191,
+   "f_iso": null,
+   "t_iso": "-0190-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1930), 'Boi' (S. Aurigemma) — https://www.treccani.it/enciclopedia/boi_(Enciclopedia-Italiana)/ [okundu]. (2) Fasti Triumphales (attalus.org): 191/0 P. Cornelius Scipio Nasica 'over the Boian Gauls' [okundu]. (3) Livius V.35 (Roberts) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=5:chapter=35 [okundu]. (4) PECS 'Bononia' / Treccani online 'Boi' [okundu/özetten].",
+   "alinti": "i Boi vennero definitivamente assoggettati nel 191 a. C. da P. Cornelio Scipione Nasica ... e privati di metà del loro territorio [Enc. Ital.]",
+   "alinti_2": "Nome di una delle popolazioni galliche che parteciparono tra il 450 e il 400 a. C. all'invasione dell'Italia settentrionale. [Enc. Ital.]",
+   "kronoloji_okulu": "Fasti Triumphales konsül yılı 191/0 (Nasica, 'Boian Gauls')",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 450,
+      "not": "Enc. Ital.: Galya istilasına katılım 450-400 aralığı (Boii Felsina'yı sonradan aldı)"
+     },
+     {
+      "mo": 500,
+      "not": "Treccani online: '5. yy'da kuzey İtalya'yı işgal etti'"
+     }
+    ]
+   },
+   "ic_not": "t DOĞRULANDI (yıl): Enc. Ital. 191'de kesin boyun eğiş (Nasica), Fasti 191/0 'Boian Gauls'; Livius 36.38-40 (burada metin açılmadı, Latin Library Livius 36 kontrol edilmedi → Enc. Ital. + Fasti yeterli). Atlas -0190 (191). Bononia (Latin kolonisi) 189 (Enc. Ital., PECS Bononia). f: Enc. Ital. işgal penceresi 450-400; atlas -0399 (400) bu pencerenin SON ucunda → yüzyıl düzeyinde uyumlu (5. yy sonu/4. yy başı); Livius 5.35 Boii/Lingones'in Poenine Alpleri'ni aşıp Etrüsk ve Umbri'leri kovduğunu söyler ama yıl yok. Boii Felsina'yı alma yılı kaynakta yok → f_mo ÖNERİLMEDİ. Not: 'Boii ardıl Bohemya'ya göç' ayrı bölge (Enc. Ital.)."
+  },
+  {
+   "id": "senones-kabile-devleti",
+   "onay": "dogrulandi",
+   "f_mo": null,
+   "t_mo": 283,
+   "f_iso": null,
+   "t_iso": "-0282-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Polybios II.17 ve II.19.7-12 (Shuckburgh) — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=2:chapter=19 [okundu]. (2) Enciclopedia Italiana, 'Boi' (Senonlar 284'te, Boii 283 Vadimon; Aurigemma) ve 'Umbri' (Sena kolonisi 283) [okundu]. (3) Livius V.35 (Roberts) [okundu]. (4) Livius Periocha 11-12 [okundu]. (5) PECS 'SENA GALLICA' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=sena-gallica [okundu]. (6) Treccani online 'Senoni' [özetten].",
+   "alinti": "In a pitched battle the army of the Senones were cut to pieces, and the rest of the tribe expelled from the county [Polybios 2.19, Shuckburgh]",
+   "alinti_2": "Senones, the last to come, occupied the country from the Utis to the Aesis. [Livy 5.35.3, Roberts]",
+   "kronoloji_okulu": "Polybios 2.19 (yıl yok; Perseus çevirisinde otomatik çıkarılmış tarih 283); Enc. Ital.: 284 saldırı, 283 yenilgi; Livius Per. 11'de Sena kolonisi Curius dönemi (~290/289) sırasında sayılıyor",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 290,
+      "olay": "Livius Periocha 11: 'Coloniae deductae sunt Castrum Sena Hadria' (Curius Dentatus dönemi, ~290/289) — Sena kolonisinin Polybios'tan farklı sıraya konması",
+      "kaynak": "Livius Per. 11 [okundu]"
+     },
+     {
+      "mo": 295,
+      "olay": "PECS: Sentinum (295) sonrası Sena 'jurisdictional colony'",
+      "kaynak": "PECS 'Sena Gallica' [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t DOĞRULANDI (283), AMA KOLONİ TARİHİ TARTIŞMALI: Polybios 2.19.7-12 Senonlar'ın bozguna uğratılıp ülkeden sürüldüğünü ve Sena'nın kurulduğunu söyler (mutlak yıl metinde yok); Enc. Ital. (Boi, Umbri) 284 saldırı/283 yenilgi ve Sena 283; Treccani online 283. Ancak Livius Per. 11 Sena'yı Curius Dentatus (~290) kolonileri arasında sayar ve PECS Sentinum sonrası (295) der → koloni tarihi 295/290/283 bandında; Senon ülkesinin (ager Gallicus) alınışı 283 ile en iyi desteklenir. f: Livius 5.35.3 Senonların 'en son gelen' Kelt kabilesi olduğunu ve Clusium'a, oradan Roma'ya geldiğini yazar; Enc. Ital. 'Senoni' maddesi Fransa'daki Senonları anlattığından İtalya'daki Senonlar için kullanılamadı; Treccani online 'inizi 4° sec.' [özetten]. Roma'nın Gallia tarafından yağmalanması (390 geleneksel, Polybios 2.18 = 387/6) bu tarihin bir terminus ante quem'idir. Atlas -0399 (400): 4. yy başı yüzyıl düzeyi; yıl kaynak yok → ÖNERİLMEDİ."
+  },
+  {
+   "id": "cenomani-kabile-devleti",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1931), 'Cenomani' (G. Oberziner) — https://www.treccani.it/enciclopedia/cenomani_(Enciclopedia-Italiana)/ [okundu]. (2) Livius XXXI.10, XXXII.30 (Latin; The Latin Library) — https://www.thelatinlibrary.com/livy/liv.32.shtml [okundu]. (3) Livius XXXIII.23 (zafer; bölüm no Latin Library metninden doğrulanamadı) — https://www.thelatinlibrary.com/livy/liv.33.shtml [okundu]. (4) Fasti Triumphales (attalus.org) 197/6 Q. Minucius Rufus 'Gauls and Ligurians' ve 196/5 M. Claudius Marcellus 'Insubrian Gauls' [okundu].",
+   "alinti": "Degno di nota fu l'atteggiamento dei Cenomani, che insieme con i Veneti tennero un contegno autonomo in favore dei Romani contro gl'Insubri [Enc. Ital.]",
+   "alinti_2": "C. Cornelius de Insubribus Cenomanisque in magistratu triumphavit. [Livius 33.23.7?, Latin Library]",
+   "kronoloji_okulu": "Livius: 200 (Cenomanların Placentia saldırısına katılması, 31.10), 197 (konsül C. Cornelius Cethegus; Mincio savaşı, 32.30), zafer 196/195",
+   "alternatifler": {
+    "t": [
+     {
+      "mo": 222,
+      "olay": "Cenomanlar Marcellus'un Insubrlere zaferinden (222) beri Roma yanlısı",
+      "kaynak": "Enc. Ital. [okundu]"
+     },
+     {
+      "mo": 200,
+      "olay": "Insubres+Cenomani+Boii Placentia'yı yağmaladı (Hamilcar)",
+      "kaynak": "Livius 31.10 [okundu]"
+     },
+     {
+      "mo": 197,
+      "olay": "Cenomanlar Mincio savaşında Insubrlere arkadan saldırdığı/ayrıldığı yıl; Cornelius'un zaferi Cenomani üzerine",
+      "kaynak": "Livius 32.30 [okundu]"
+     },
+     {
+      "mo": 118,
+      "olay": "Stoni isyanı (Q. Marcius Rex 118), 16'da Camunni-Triumplini (P. Silius)",
+      "kaynak": "Enc. Ital. [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t ÇELİŞKİLİ/TANIMSIZ: atlas -0196 (197) Livius 32.30 Mincio savaşı yılıdır (konsül Cornelius Cethegus; Cenomanlar 'non ... publico consilio Insubrum defectioni' diyerek Roma ile uzlaşmaya çekilir), fakat Livius 33.23'te zafer 'Insubres ve Cenomani üzerine' (196) kutlanır ve Enc. Ital. Cenomanların 222'den beri Roma yanlısı olduğunu, sonra 'kendiliğinden Roma üstünlüğünü tanıdıklarını' ve sonraki isyanların (118 Stoni, MÖ 16 Camunni/Triumplini) olduğunu söyler. Yani polity sonu tek tarih değil. f: kaynakta kuruluş yılı yok (Enc. Ital.: Cenomanlar Aulerci'nin bir parçası; Polybios 2.17 Insubres'in yanında Po'da). ÖNERİLMEDİ."
+  },
+  {
+   "id": "sikel-birligi-ducetius",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Diodoros XI.76.3, XI.78.5, XI.88.6, XI.90-92; XII.8, XII.29 (Loeb; LacusCurtius) — https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/11D*.html ve .../12A*.html, 12B*.html [okundu]. (2) Enciclopedia Italiana (1932), 'Ducezio' (P. Zancan) — https://www.treccani.it/enciclopedia/ducezio_(Enciclopedia-Italiana)/ [okundu]. (3) Enciclopedia Italiana, 'Siculi' (F. Ribezzo) [okundu].",
+   "alinti": "Ducetius, the leader of the Siceli, gathered all the cities which were of the same race, with the exception of Hybla, into one and a common federation [Diod. 11.88.6]",
+   "alinti_2": "Nel 459 a. C., la conquista di Morganzio gli diede possibilità e occasione di unire in lega, sotto il suo comando, tutte le città sicule [Enc. Ital., Zancan]",
+   "kronoloji_okulu": "Diodoros arkhon yılları (11.88: arkhon Lysicrates ≈ 452/1; 11.91-92: Antidotus ≈ 450/49; 12.29: Myrichides = 440/39; Loeb notu: 452 yılı Diodoros'ta eksik); Enc. Ital. 459 (Morgantina) ve 450 (yenilgi) ve ölüm 440-39",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 459,
+      "olay": "Enc. Ital. (Zancan): Morgantina'nın alınışı birliği mümkün kıldı; Menai'nin kuruluşu Diod. 11.78.5 (arkhon Phrasicleides ≈ 459/8)",
+      "kaynak": "Enc. Ital., Diod. 11.78.5 [okundu]"
+     },
+     {
+      "mo": 452,
+      "olay": "Diod. 11.88.6: tüm Sikel şehirlerini tek federasyonda toplar; 11.90.1 Palike'yi kurar (arkhon Lysicrates)",
+      "kaynak": "Diod. 11.88.6, 11.90.1 [okundu]"
+     },
+     {
+      "mo": 462,
+      "olay": "Diod. 11.76.3: Ducetius Sikellerin lideri olarak Katane'ye saldırır (arkhon Euthippus yılı)",
+      "kaynak": "Diod. 11.76.3 [okundu]"
+     }
+    ],
+    "t": [
+     {
+      "mo": 450,
+      "olay": "Nomae yenilgisi ve Syracuse'a teslim; krallık dağılır (Enc. Ital.: 'il suo regno si dissolse')",
+      "kaynak": "Diod. 11.91-92 (Antidotus); Enc. Ital. [okundu]"
+     },
+     {
+      "mo": 446,
+      "olay": "Kale Akte kuruluşu (Korinth sürgününden dönüş)",
+      "kaynak": "Diod. 12.8; Wikipedia 446 (özetten)"
+     },
+     {
+      "mo": 440,
+      "olay": "Ölüm (hastalık), Diod. 12.29 arkhon Myrichides 440/39 — atlas -0438 (439)'a denk",
+      "kaynak": "Diod. 12.29.1; Enc. Ital. '440-39' [okundu]"
+     }
+    ]
+   },
+   "ic_not": "f ve t ÇELİŞKİLİ — atlas -0457 (458) ve -0438 (439) tutmuyor: Diodoros'a göre Ducetius 462/1'de (11.76.3) Sikel lideri, 459/8'de (11.78.5) Menai'yi kurar, 452/1 civarında (11.88.6, 11.90.1) tüm Sikel şehirlerini federasyona bağlar ve Palike'yi kurar, 450'de Nomae'de yenilip Syracuse'a teslim olur (11.91-92); Enc. Ital. (Zancan) birliği 459'a, yenilgiyi 450'ye, ölümü 440-39'a koyar. 439 (atlas t) Ducetius'un ÖLÜM yılıdır, devletin sonu değil (devlet 450'de dağıldı; 446-440 Kale Akte epilogu). Diodoros arkhon yıllarının MÖ karşılıkları standart arkhon listesinden (burada Loeb'in 'year 452 B.C. is lacking' notu ve metindeki arkhon adları okundu) alındı; mutlak yıl Diodoros'a dayanır ±1-2. Karar Emre'nin: f=459 (Enc. Ital.) / 452 (Diod. 11.88.6) ve t=450 (devlet sonu) / 440 (ölüm)."
+  },
+  {
+   "id": "galya-imparatorlugu",
+   "onay": "celiskili",
+   "f_mo": -260,
+   "t_mo": null,
+   "f_iso": "0260-01-01",
+   "t_iso": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1932), 'Gallieno' (G. M. Bersanetti): 'Notizie ... dalla Gallia alla fine del 260; Postumo ... si era ribellato a Colonia' — https://www.treccani.it/enciclopedia/gallieno_(Enciclopedia-Italiana)/ [okundu]. (2) Enciclopedia Italiana, 'Tetrico' (Bersanetti) ve 'Aureliano' (G. M. Columba) — https://www.treccani.it/enciclopedia/tetrico_(Enciclopedia-Italiana)/ , .../aureliano_(Enciclopedia-Italiana)/ [okundu]. (3) Eutropius, Breviarium IX.9-13 (Latin; The Latin Library) — https://www.thelatinlibrary.com/eutropius/eutropius9.shtml [okundu]. (4) J. F. Drinkwater, The Gallic Empire: Separatism and Continuity in the North-Western Provinces of the Roman Empire A.D. 260-274, Historia Einzelschriften 52, Stuttgart 1987, s. 95-106 [özetten: Wikipedia 'Gallic Empire' dipnotları aracılığıyla; kitap açılamadı].",
+   "alinti": "Postumo, che l'imperatore nell'allontanarsi aveva lasciato a difendere il Reno, si era ribellato a Colonia, uccidendo il figlio di G. Salonino. [Enc. Ital. 'Gallieno']",
+   "alinti_2": "Superavit in Gallia Tetricum apud Catalaunos ipso Tetrico prodente exercitum suum [Eutropius 9.13]",
+   "kronoloji_okulu": "Postumus 260 (Enc. Ital.: 260 sonu; Drinkwater'a göre bazı hesaplarda 259 olasılığı); Châlons: Enc. Ital. 'Tetrico (273?)' ve 'Aureliano' 273; Drinkwater'a göre 274 başı",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 259,
+      "not": "Drinkwater 1987 s.95-106: Postumus'un 259'da yükseldiği takdirde diğer tarihler bir yıl geri çekilir (Wikipedia dipnotundan, özetten)"
+     }
+    ],
+    "t": [
+     {
+      "mo": 273,
+      "olay": "Enc. Ital. 'Aureliano': 273'te Galyalar İmparatorluğa yeniden katıldı; 'Tetrico' maddesi: Catalaunian Fields (273?)",
+      "kaynak": "Enc. Ital. [okundu]"
+     },
+     {
+      "mo": 274,
+      "olay": "Châlons savaşı, Tetricus'un teslimi — modern uzlaşı (Drinkwater 1987; Wikipedia 260–274)",
+      "kaynak": "Drinkwater 1987 [özetten]"
+     }
+    ]
+   },
+   "ic_not": "f DOĞRULANDI (260): Enc. Ital. 'Gallieno' (1932) isyanı 260 sonuna koyar (Salonin'in öldürülmesi, Köln); Eutropius 9.9 Postumus'un 'on yıl' hüküm sürdüğünü yazar (269'da öldürüldüğünden 259/260). Atlas f=260 MS (f_mo MS için eksi işaretle -260; ISO 0260-01-01). t ÇELİŞKİLİ: Enc. Ital. 273 ('circa', soru işaretli), modern uzlaşı 274 başı (Drinkwater, birincil kaynağı Eutropius 9.13/ Hist. Aug. yıl vermez); atlas ic_not'u zaten 273/274 ikilemini beyan ediyor. Birincil metinlerde (Eutropius, okundu) mutlak yıl yok → 274 değeri YALNIZ ikincil (Drinkwater, Wikipedia aracılığıyla) ve açılmadı; Emre kütüphaneden teyit isterse: Drinkwater 1987. NOT: Galya İmparatorluğu Roma'dan bölünen ayrılıkçı 'de facto devlet'; Roma imparatorluğunun aynı toprağıyla çakışır (ayrı Değişmez-3 sorunu)."
+  },
+  {
+   "id": "palmira-imparatorlugu",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": -272,
+   "f_iso": null,
+   "t_iso": "0272-01-01",
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "kaynak": "(1) Enciclopedia Italiana (1935), 'Odenato' ve 'Zenobia' (G. M. Bersanetti) — https://www.treccani.it/enciclopedia/odenato_(Enciclopedia-Italiana)/ , .../zenobia_(Enciclopedia-Italiana)/ [okundu]. (2) Enciclopedia Italiana, 'Palmira' (G. Levi della Vida, R. Bartoccini) ve 'Aureliano' [okundu]. (3) PECS (Princeton 1976), 'PALMYRA (Tadmor)' — https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=palmyra [okundu]. (4) Eutropius IX.13 [okundu]. (5) Treccani online 'Palmira' [özetten].",
+   "alinti": "Palmyra was defeated by Aurelian in 272, sacked, and occupied by a Roman garrison. [PECS]",
+   "alinti_2": "Nel 271, prima del 29 agosto, si veniva alla rottura aperta: Z. ... batté moneta in suo nome e in quello del figlio, che prese i titoli di imperatore romano [Enc. Ital. 'Zenobia']",
+   "kronoloji_okulu": "Odaenathus 258-267 (Enc. Ital.: zaferi 260; dux/corrector ~262; imperator 264; ölümü 266 veya 267); Zenobia/Vaballathus 267-272; açık kopuş 271; Aurelianus 272 Emesa, 273 Palmira ayaklanması",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": -260,
+      "olay": "Odaenathus'un Valerianus bozgunundan sonra Fırat'ta Sapor'u yenmesi (Enc. Ital. 'Odenato'); fiilî hegemonya ama Gallienus'a SADIK 'dux/corrector totius Orientis' (264'te imperator)",
+      "kaynak": "Enc. Ital. [okundu]"
+     },
+     {
+      "mo": -267,
+      "olay": "Odaenathus'un ölümü (266 veya 267), Zenobia/Vaballathus'un tek taraflı politikası",
+      "kaynak": "Enc. Ital. [okundu]"
+     },
+     {
+      "mo": -270,
+      "olay": "Aurelianus ile 270 anlaşması; Mısır ve Anadolu fethi 269-270",
+      "kaynak": "Enc. Ital. 'Zenobia' [okundu]"
+     },
+     {
+      "mo": -271,
+      "olay": "Açık kopuş: kendi parası, Vaballathus 'Imperator Caesar Augustus' (29 Ağustos 271 öncesi)",
+      "kaynak": "Enc. Ital. 'Zenobia' [okundu]"
+     }
+    ],
+    "t": [
+     {
+      "mo": -273,
+      "olay": "Palmira'nın ikinci ayaklanması ve Aurelianus'un yıkımı (Enc. Ital. 'Aureliano': sefer 273'te sürdürüldü, Palmira 'distrutta')",
+      "kaynak": "Enc. Ital. 'Aureliano' [okundu]"
+     }
+    ]
+   },
+   "ic_not": "t DOĞRULANDI (272): PECS 'defeated by Aurelian in 272'; Enc. Ital. 'Zenobia': 272'de Orontes ve Emesa'da yenilgi, Zenobia tutsak; Enc. Ital. 'Aureliano' ikinci Palmira ayaklanmasını ve şehrin yıkımını 273'e koyar (ikinci uç 273 — alternatif). f ÇELİŞKİLİ: 260 (Odaenathus'un zaferi) 'ayrılıkçı imparatorluk' değil, Gallienus adına bölgesel hegemonyadır (Enc. Ital. 'Odenato': 'rispettò sempre lealmente l'autorità di Gallieno'); gerçek kopuş Zenobia dönemi — 270 (Aurelianus ile anlaşma) / 271 (kendi parası, Vaballathus Augustus). Üç aday (260, 267/270, 271); polity tanımına göre Emre seçsin. NOT (işaret): f_mo/t_mo alanlarında MS yıllar negatif yazıldı (görev şartı: MÖ pozitif, MS negatif); ISO'da MS 272 → '0272-01-01'. Bölge: Roma imparatorluğuyla çakışma (Değişmez-3)."
+  },
+  {
+   "id": "proto-elam-susa",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   },
+   "kaynak": "(1) Elizabeth Carter, 'ELAM ii. The archeology of Elam', Encyclopaedia Iranica VIII/3, 1998 (son güncelleme 2011), s. 313-325 — https://iranicaonline.org/articles/elam-ii (web.archive.org/web/2024/…) [okundu]. (2) R. K. Englund, 'ELAM iii. Proto-Elamite', Encyclopaedia Iranica VIII/3, s. 325-330 — https://iranicaonline.org/articles/elam-iii [okundu]. (3) F. Vallat, 'ELAM i. The history of Elam', Encyclopaedia Iranica VIII/3, s. 301-313 — https://iranicaonline.org/articles/elam-i [okundu].",
+   "alinti": "The Proto-Elamite (Susa III/Banesh) period, ca. 3400/3200-2800 B.C.E. The Proto-Elamite period was characterized by a distinctive assemblage of artifacts [Carter, EIr]",
+   "alinti_2": "'Proto-Elamite' is the term for a writing system ... between ca. 3050 and 2900 B.C.E. [Englund, EIr]",
+   "kronoloji_okulu": "Carter: 3400/3200-2800; Englund (yazı sistemi): 3050-2900; Vallat: yazı 'about 2700 B.C.E.'e dek; atlas 3100-2700",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 3400,
+      "not": "Carter: Susa III/Banesh başlangıcı 3400 veya 3200"
+     },
+     {
+      "mo": 3050,
+      "not": "Englund: yazı sisteminin kullanım aralığı 3050-2900"
+     },
+     {
+      "mo": 3200,
+      "not": "Vallat: 'from about 3200 B.C.E. ... proto-Elamite tablets' (Susa'da sayısal sonra proto-Elam tabletleri)"
+     }
+    ],
+    "t": [
+     {
+      "mo": 2800,
+      "not": "Carter: dönem sonu 2800"
+     },
+     {
+      "mo": 2900,
+      "not": "Englund: yazı sisteminin sonu"
+     },
+     {
+      "mo": 2700,
+      "not": "Vallat: proto-Elam yazı 2700'e dek kullanımda"
+     }
+    ]
+   },
+   "ic_not": "POLITY DEĞİL — KÜLTÜR/YAZI ALANI: Carter 'distinctive assemblage of artifacts, glyptic, ceramics' dağılımı (Lorestan'dan Kerman'a) ve Anshan'da şehir duvarı + Tepe Yahya/Sialk karakollarını anlatır, merkezî siyasi birim anlatmaz; Englund 'Proto-Elamite' terimini yazı sistemi olarak tanımlar. Sınırlar kaynaklar arasında 300-350 yıl oynar: 3400/3200 (Carter) – 3200 (Vallat) – 3050 (Englund) başlangıç; 2800 (Carter), 2900 (Englund), 2700 (Vallat) bitiş. Atlas -3099/-2699 (3100/2700) hiçbir kaynakla tam tutmuyor; Vallat'ın 2700'ü yalnız yazının son kullanımıdır. Bütün aralık YÜZYIL hassasiyetinde; tek değer ÖNERİLMEDİ. Karar önerisi: tür 'kultur' (şehir-devleti değil); ardıl 'awan' ayrı kayıt (Vallat/Iranica: 'Elam' adının ilk anılışı Kiş kralı Enmebaragesi'nin, MÖ ~2650, metnindedir)."
+  },
+  {
+   "id": "hierakonpolis-krallik",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   },
+   "kaynak": "(1) S. Dee, D. Wengrow ve ark., 'An absolute chronology for early Egypt using radiocarbon dating and Bayesian statistical modelling', Proceedings of the Royal Society A 469 (2013), 20130395, Tablo 1 — https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/ (doi:10.1098/rspa.2013.0395) [okundu]. (2) Encyclopaedia Britannica, 'Hierakonpolis' (son güncelleme 12 Aralık 2023) — https://web.archive.org/web/2023/https://www.britannica.com/place/Hierakonpolis [okundu]. (3) Hierakonpolis Expedition (Univ. of Oxford/Ashmolean, R. Friedman), 'About Hierakonpolis' — https://www.hierakonpolis-online.org/index.php/about-hierakonpolis [okundu].",
+   "alinti": "Evidence indicates a royal presence at Hierakonpolis, then called Nekhen, which enjoyed its period of greatest importance from about 3400 bce to the beginning of the Old Kingdom [Britannica]",
+   "alinti_2": "already by 3600 BC it was a city of many neighborhoods and quarters. [Hierakonpolis Expedition]",
+   "kronoloji_okulu": "Radyokarbon-Bayes: Dee ve ark. 2013 (Naqada IIB/IIC 3498–3413 BCE %68; IID/IIIA 3352–3297; Aha 3111–3045); Britannica geleneksel",
+   "alternatifler": {
+    "f": [
+     {
+      "mo": 3600,
+      "not": "Hierakonpolis Expedition: MÖ 3600'e kadar 'çok mahalleli şehir'"
+     },
+     {
+      "mo": 3500,
+      "not": "Dee ve ark. 2013: Naqada IIB/IIC geçişi 3498–3413 (%68), 3562–3367 (%95) — atlas f=-3499 bu faz sınırıdır"
+     },
+     {
+      "mo": 3400,
+      "not": "Britannica: 'greatest importance from about 3400 bce'"
+     }
+    ],
+    "t": [
+     {
+      "mo": 3100,
+      "not": "Narmer paleti ~3100 (Expedition); Aha (devletin kuruluşu) 3111–3045 (%68), 3218–3035 (%95) — Dee ve ark. 2013"
+     },
+     {
+      "mo": 2575,
+      "not": "Britannica: önem Eski Krallık'ın başına (≈2575) dek sürer"
+     }
+    ]
+   },
+   "ic_not": "KRALLIK NİTELİĞİ VE F/T KAYNAKTA DESTEKLENMİYOR: (a) Britannica Hierakonpolis'i 'prehistoric royal residence of the kings of Upper Egypt' olarak anar, ancak bir 'krallığın' (polity) sınırı veya yılı vermez; (b) Hierakonpolis Expedition şehir olarak MÖ 3600'ü, Narmer'i ~3100'ü verir; (c) Dee ve ark. 2013 faz sınırlarını (Naqada IIC ≈ 3498–3413) ve Aha'yı (3111–3045) verir, ama Hierakonpolis'e özgü siyasi sınır yok. Atlas f=-3499 (3500) Naqada IIC faz sınırı ile uyumlu AMA bu kültür fazıdır, krallık kuruluşu değildir; t=-3199 (3200) hiçbir kaynakta yok (Britannica'ya göre Nekhen önemini Eski Krallık başına dek sürdürür; Hierakonpolis'in Thinis ile birleşmesi ~Aha ≈ 3111–3045). Öneri: polity (krallık) f/t ÖNERİLMEDİ; kayıt 'merkez/şehir' olarak 3600–2575 ya da tamamen 'Naqada kültürü'ne bağlı bir yerleşim olarak yazılabilir. Yazım kolaylığı: Friedman/Hendrickx/Wengrow ('The Archaeology of Early Egypt', 2006) kütüphane."
+  },
+  {
+   "id": "naqada-ombos-krallik",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   },
+   "kaynak": "(1) S. Dee, D. Wengrow ve ark., Proceedings of the Royal Society A 469 (2013), 20130395, Tablo 1 — https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/ [okundu]. (2) Wikipedia 'Naqada culture' (yalnız aday/aracı; Rice 2003, Oxford Encyclopedia of Ancient Egypt atıfları) — https://en.wikipedia.org/wiki/Naqada_culture [okundu; atıf kitapları açılmadı].",
+   "alinti": "IIB/IIC 3498 3413 3562 3367 ... IID/IIIA 3352 3297 3377 3238 [Dee ve ark. 2013, Tablo 1: %68 ve %95 hpd, BCE]",
+   "alinti_2": "the period over which the country moved from cultural to political unification. [Dee ve ark. 2013, Naqada IID/IIIA'dan Aha'ya]",
+   "kronoloji_okulu": "radyokarbon + Bayes (Dee ve ark. 2013): Naqada IIB/IIC 3498–3413 BCE (%68); IID/IIIA 3352–3297 (%68)",
+   "ic_not": "Atlas f=-3499 (3500) ve t=-3299 (3300) Naqada IIC ve IID/IIIA FAZ SINIRLARI ile ÖRTÜŞÜYOR (Dee ve ark. 2013: IIB/IIC 3498–3413, IID/IIIA 3352–3297 hpd %68) — yani sayılar 'Naqada IIC–IID kültür evresi'ni doğru tarihliyor; ancak bunlar bir SİYASİ BİRİMİN (Nubt/Ombos krallığı) f/t'si değil, kültür-evre sınırlarıdır. Hiçbir okunan kaynak Naqada/Ombos'u 'krallık' (polity) diye adlandırmaz; Dee ve ark. 'cultural to political unification' süreci Naqada IID/IIIA → Aha olarak verir. Tür/polity niteliği DESTEKLENMEDİ → onay 'celiskili'; Emre karar versin: ya tür 'kultur' olur (f/t yukarıdaki faz sınırlarıyla yüzyıl hassasiyetinde doğrulanmış sayılır) ya da kayıt düşer. Rice 2003 ve Oxford Encyclopedia of Ancient Egypt (Redford 2001) doğrudan açılmadı (kütüphane)."
+  }
+ ],
+ "bulunamadi": [],
+ "kutuphane_gerekli": [
+  {
+   "ids": [
+    "galya-imparatorlugu"
+   ],
+   "eser": "J. F. Drinkwater, The Gallic Empire: Separatism and Continuity in the North-Western Provinces of the Roman Empire A.D. 260-274, Historia Einzelschriften 52, Stuttgart: Steiner, 1987 (s. 95-106 kronoloji)",
+   "neden": "Postumus 259/260 ve Châlons 273/274 ikilemi; birincil kaynaklar (Eutropius, Hist. Aug.) mutlak yıl vermiyor; 274 değeri yalnız ikincil (açılamadı)"
+  },
+  {
+   "ids": [
+    "palmira-imparatorlugu"
+   ],
+   "eser": "U. Hartmann, Das palmyrenische Teilreich, Stuttgart 2001; F. Millar, The Roman Near East 31 BC-AD 337, Harvard UP 1993, s. 159-173; D. S. Potter, Prophecy and History in the Crisis of the Roman Empire, Oxford 1990",
+   "neden": "'Imperium' ilanı tarihi (260/267/270/271) ve Palmira'nın 272-273 sonu; Enc. Ital. 1935 eski"
+  },
+  {
+   "ids": [
+    "etrusk-caere",
+    "etrusk-veii",
+    "etrusk-vulci",
+    "etrusk-clusium",
+    "etrusk-volaterrae",
+    "etrusk-populonia",
+    "falisci-falerii",
+    "latin-birligi",
+    "alba-longa"
+   ],
+   "eser": "T. J. Cornell, The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000-264 BC), Routledge 1995; Oxford Classical Dictionary (4. bas., 2012) maddeleri Caere, Veii, Volaterrae, Populonia, Alba Longa, Latin League; G. Bartoloni, Le società dell'Italia primitiva (Carocci 2002) / M. Torelli (ed.), Gli Etruschi, Venezia 2000",
+   "neden": "Etrüsk şehirlerinin polity başlangıç tarihleri (f) ve Roma'ya bağlanma (t) için akademik özet; ayrıca Caere 353/351/273 çelişkisi için Cornell s. 'Caere'"
+  },
+  {
+   "ids": [
+    "kyme-cumae",
+    "neapolis-yunan",
+    "poseidonia",
+    "metapontion",
+    "rhegion",
+    "zankle-messana",
+    "naxos-sicilya",
+    "katane",
+    "gela",
+    "akragas",
+    "thourioi",
+    "alalia-korsika",
+    "sikel-birligi-ducetius"
+   ],
+   "eser": "A. J. Graham, 'Colonies and Colonization' (CAH III.3, 2. bas.); T. J. Dunbabin, The Western Greeks, Oxford 1948 (Naxos 734, Syracuse 733 vs. geleneksel; Gela 688, Akragas 580); E. Lepore / D. Musti (ed.), Magna Grecia; N. Lomas, Rome and the Western Greeks 350 BC-AD 200, Routledge 1993 (Rhegion, Thurii, Neapolis, Metapontum); F. W. Walbank, A Historical Commentary on Polybius I, Oxford 1957 (I.7 Rhegion/Messana)",
+   "neden": "Koloni kuruluş yılları (Eusebios/Thukydides geleneği) ve Roma'ya bağlanma olayları; Brill's New Pauly maddeleri"
+  },
+  {
+   "ids": [
+    "samnit-birligi",
+    "lukan-birligi",
+    "bruttii-birligi",
+    "umbri-kabile",
+    "messapi-birligi",
+    "liguria-kabileler",
+    "boii-kabile-devleti",
+    "senones-kabile-devleti",
+    "cenomani-kabile-devleti"
+   ],
+   "eser": "E. T. Salmon, Samnium and the Samnites, Cambridge UP 1967; Brill's New Pauly maddeleri (Samnites, Lucani, Bruttii, Umbri, Messapii, Ligures, Boii, Senones, Cenomani); P. Bandelli/J. Williams, Beyond the Alps; G. Bradley, Ancient Umbria, Oxford 2000; N. Lomas 1993",
+   "neden": "Kabile birliklerinin polity niteliği ve fetih tarihleri (özellikle Ligur, Umbri, Messap için tek yıl yok)"
+  },
+  {
+   "ids": [
+    "proto-elam-susa"
+   ],
+   "eser": "D. T. Potts, The Archaeology of Elam, Cambridge UP 1999; F. Vallat, 'Les Écritures de l'Iran ancien' (1986); J. L. Dahl, 'The proto-Elamite writing system', in The Elamite World (Routledge 2018, DOI 10.4324/9781315658032-20)",
+   "neden": "Susa III / Banesh mutlak kronolojisi (3400/3200 – 2800/2700); polity mi kültür mü sorusu; Dahl bölümü paywall'lu"
+  },
+  {
+   "ids": [
+    "hierakonpolis-krallik",
+    "naqada-ombos-krallik"
+   ],
+   "eser": "S. Hendrickx, 'Predynastic–Early Dynastic Chronology', in E. Hornung, R. Krauss, D. Warburton (eds), Ancient Egyptian Chronology (Brill HdO 83, 2006), s. 55-93 (DOI 10.1163/9789047404002_008; Brill bot koruması nedeniyle açılamadı); D. Wengrow, The Archaeology of Early Egypt, Cambridge UP 2006; R. Friedman, 'Hierakonpolis' in Egypt at its Origins serileri; K. Bard (ed.), Encyclopedia of the Archaeology of Ancient Egypt (1999); E. Rice, Egypt's Making, Routledge 2003",
+   "neden": "Hierakonpolis/Nekhen/Nubt'un 'krallık' olarak siyasi sınırları (f/t) için doğrudan kaynak; Dee ve ark. 2013 yalnız faz sınırı veriyor"
+  }
+ ]
+}

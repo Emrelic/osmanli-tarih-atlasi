@@ -617,6 +617,16 @@ window.HUKUKI_SINIRLAR = [
   // ve yukarıdaki 10 yanlış boyama DOĞAR. Dolgu gerekiyorsa çare app.js'te
   // N segmentli bölme (Oturum 1), bu dosyada değil.
   id: "ferhad-pasa-1590-sinir-hatti",
+  // 🔴 EMRE KARARI (post-it #98, 18 Ekim 2026): "ya çizgiyi akademik olarak teyit
+  // edip renkleri ona dayayalım ya da çizgiyi kullanmayıp A tipi sınır bırakalım —
+  // ikili sistem olmamalı." TEYİT EDİLEMEDİ: antlaşma çizgi çizmiyor (statüko),
+  // 19 köşenin 17'si orta nokta (`dogrulanmadi:true`), kaynakta adıyla geçen yalnız
+  // Hudâferin ve Areštanāb; köşe 1 Mahmudâbâd'ı Safevî yanına düşürüyor oysa TDV
+  // sirvan Osmanlı diyor ("Şemâhî, Kabala, Bakü, Şâburân, Mahmûdâbâd, Salyan ve
+  // Demirkapı/Derbend Osmanlı kontrolüne girdi"). ⇒ hat ÇİZİLMEZ; sınırı yerleşim
+  // verisi (kaynaklı tanık) çizer. KARARLAR-1014 m.1'deki "hat hukukî, renk tanığı
+  // izler" beyanı bununla kalktı.
+  cizim_kapali: true,
   taraflar: ["osmanli", "safevi"],
   hassasiyet: "yer",
   hassasiyet_notu: "Antlaşma çizgi ÇİZMİYOR (statüko: 'her iki devletin ele geçirdiği yerler kendilerinde kalacaktır'). Bu çizgi kaynakta hükmü verilmiş YERLERİN arasından TÜRETİLDİ. Iranica BOUNDARIES i: sınır bir çizgi değil KUŞAK — hat kuşağın ortası olarak okunmalı.",

@@ -1,0 +1,643 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Danyang",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    624,
+    624
+   ],
+   "ornek_maddeler": [
+    "0624-01-01 Fu Gongtuo isyanı bastırıldı; Tang birliği tamam"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 26.35102,
+      "lon": 119.4803,
+      "kaynak": "GeoNames 1813803 Danyang"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Qinghai",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    670,
+    670
+   ],
+   "ornek_maddeler": [
+    "0670-01-01 Tibet-Çin barışı bozuldu; iki yüzyıllık Qinghai-Xinjiang sınır savaşla"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 35.61893,
+      "lon": 139.7791,
+      "kaynak": "GeoNames 10958444 Aomi"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Lingwu",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    756,
+    756
+   ],
+   "ornek_maddeler": [
+    "0756-01-01 Suzong Tang tahtında (756–762)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.0814,
+      "lon": 106.34444,
+      "kaynak": "GeoNames 1803449 Dongta"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Prambanan",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    850,
+    850
+   ],
+   "ornek_maddeler": [
+    "0850-01-01 Prambanan Hindu tapınak grubu inşa ediliyor (yaklaşık 850-875)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -7.75,
+      "lon": 110.49417,
+      "kaynak": "GeoNames 1630681 Candi Prambanan"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Laiwu",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    884,
+    884
+   ],
+   "ornek_maddeler": [
+    "0884-01-01 Huang Chao Shandong’da öldü; Tang fiilen çöktü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Shantou 23.35489,116.67876; Laiwu 36.19278,117.65694"
+    }
+   ]
+  },
+  {
+   "ad": "Châlons",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    274,
+    274
+   ],
+   "ornek_maddeler": [
+    "0274-01-01 Châlons: Aurelianus Tetricus'u yendi, Galya İmparatorluğu sona erdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Chalon-sur-Saône 46.78112,4.85372; Châlons-en-Champagne 48.95393,4.36724"
+    }
+   ]
+  },
+  {
+   "ad": "Geneva",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    516,
+    516
+   ],
+   "ornek_maddeler": [
+    "0516-01-01 Sigismund Burgund tahtına çıktı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Pleiades adayları yerleşim değil (La Temple de la Madeleine, Geneva:church-2)"
+    }
+   ]
+  },
+  {
+   "ad": "Saint-Maurice",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    523,
+    523
+   ],
+   "ornek_maddeler": [
+    "0523-01-01 Agaune Savaşı: Sigismund Clovis'in oğullarına yenildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 13 aday: Saint-Maurice 46.21826,7.0032; Saint-Maurice-sur-Moselle 47.85889,6.82477; Saint-Maurice-sur-Fessard 47.99231,2.62157; Saint-Maurice-Montcouronne 48.58288,2.12504"
+    }
+   ]
+  },
+  {
+   "ad": "Doncaster",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    616,
+    616
+   ],
+   "ornek_maddeler": [
+    "0616-01-01 River Idle: Raedwald Aethelfrith'i öldürdü; Edwin Northumbria kralı ol"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Doncaster -37.78828,145.12373; Doncaster 53.52285,-1.13116"
+    }
+   ]
+  },
+  {
+   "ad": "Hexham",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    634,
+    634
+   ],
+   "ornek_maddeler": [
+    "0634-01-01 Oswald Cadwallon'u Hexham yakınında yenip öldürdü; Lindisfarne manastı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 54.96986,
+      "lon": -2.104,
+      "kaynak": "GeoNames 2647007 Hexham"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Oswestry",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    642,
+    642
+   ],
+   "ornek_maddeler": [
+    "0642-01-01 Maserfeld: Penda Northumbria kralı Oswald'ı öldürdü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 52.86195,
+      "lon": -3.05497,
+      "kaynak": "GeoNames 2640861 Oswestry"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Leeds",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    655,
+    655
+   ],
+   "ornek_maddeler": [
+    "0655-11-15 Winwaed Savaşı: Penda Oswiu'ya yenilip öldü; Mercia Northumbria'ya tâb"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 4 aday: Leeds 53.79648,-1.54785; Leeds 33.54816,-86.54443; Hoopeston 40.46726,-87.66836; Leeds 44.3034,-70.1195"
+    }
+   ]
+  },
+  {
+   "ad": "Whitby",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    663,
+    663
+   ],
+   "ornek_maddeler": [
+    "0663-01-01 Whitby Sinodu: Oswiu Roma usulünü seçti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Whitby 43.88342,-78.93287; Whitby 54.48774,-0.61498; Whitby -41.10827,174.8902"
+    }
+   ]
+  },
+  {
+   "ad": "Angus",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    685,
+    685
+   ],
+   "ornek_maddeler": [
+    "0685-01-01 Nechtansmere: Piktler Northumbria ordusunu yendi, Kral Ecgfrith öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 44.31681,
+      "lon": -79.88295,
+      "kaynak": "GeoNames 5885280 Angus"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Dunkeld",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    843,
+    843
+   ],
+   "ornek_maddeler": [
+    "0843-01-01 Kenneth mac Alpin Piktlerin de kralı oldu: Pikt ve Dál Riata tahtı bir"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 56.5655,
+      "lon": -3.58559,
+      "kaynak": "GeoNames 2650716 Dunkeld"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Ballon",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    845,
+    845
+   ],
+   "ornek_maddeler": [
+    "0845-01-01 Ballon Savaşı: Nominoë Charles le Chauve'ü yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 48.1755,
+      "lon": 0.23488,
+      "kaynak": "GeoNames 3035211 Ballon"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Surrey",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    851,
+    851
+   ],
+   "ornek_maddeler": [
+    "0851-01-01 Aethelwulf Aclea'da büyük Danimarka ordusunu yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Surrey 49.10635,-122.82509; Omega 31.34102,-83.5935; Surrey 48.2364,-101.13349"
+    }
+   ]
+  },
+  {
+   "ad": "Vendôme",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    851,
+    851
+   ],
+   "ornek_maddeler": [
+    "0851-01-01 Nominoë Vendôme'da öldü; oğlu Erispoë yerine geçti (851-857)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 47.79292,
+      "lon": 1.06556,
+      "kaynak": "GeoNames 2970110 Vendôme"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Edington",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    878,
+    878
+   ],
+   "ornek_maddeler": [
+    "0878-05-06 Edington Savaşı: Alfred Guthrum'u yendi, İngiltere Wessex ve Danelaw'a"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Edington 51.27583,-2.10639; Eddington 40.08456,-74.94489"
+    }
+   ]
+  },
+  {
+   "ad": "Cumbria",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    945,
+    945
+   ],
+   "ornek_maddeler": [
+    "0945-01-01 Wessex Kralı Edmund Strathclyde'ı talan etti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 39.65287,
+      "lon": -78.76252,
+      "kaynak": "GeoNames 4352681 Cumberland"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Fitjar",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    961,
+    961
+   ],
+   "ornek_maddeler": [
+    "0961-01-01 Fitjar Savaşı: Håkon den gode yaralandı ve öldü (c. 961)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 59.91803,
+      "lon": 5.31674,
+      "kaynak": "GeoNames 3157436 Fitjar"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Melhus",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    995,
+    995
+   ],
+   "ornek_maddeler": [
+    "0995-01-02 Håkon jarl öldürüldü (995)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 63.28555,
+      "lon": 10.27806,
+      "kaynak": "GeoNames 3146125 Melhus"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Tingis",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    44,
+    44
+   ],
+   "ornek_maddeler": [
+    "0044-01-01 Claudius Mauretania'yı ilhak edip Tingitana ve Caesariensis diye iki e"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 35.76727,
+      "lon": -5.79975,
+      "kaynak": "GeoNames 2530335 Tangier"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Caesarea",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    44,
+    44
+   ],
+   "ornek_maddeler": [
+    "0044-01-01 Claudius Mauretania'yı ilhak edip Tingitana ve Caesariensis diye iki e"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "4 ayrı Pleiades kümesi: Stratonos Pyrgos/Caesarea 32.502,34.892; Sexi/Saxetanum 36.735,-3.691; Mazaka/Eusebeia/Caesarea 38.726,35.474; Anazarbos/Caesarea/Ioustin(ian)oupolis 37.256,35.898"
+    }
+   ]
+  },
+  {
+   "ad": "Ragusa",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    866,
+    866
+   ],
+   "ornek_maddeler": [
+    "0866-01-01 Dubrovnik 15 aylık Arap kuşatmasını savuşturdu (866/67)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Dubrovnik 42.64125,18.10909; Ragusa 36.92574,14.72443"
+    }
+   ]
+  },
+  {
+   "ad": "Talavera",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    913,
+    913
+   ],
+   "ornek_maddeler": [
+    "0913-01-01 Ordoño Évora/Talavera'yı yağmaladı; Müslümanlar'a karşı Leon seferi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Talavera -13.65306,-73.42917; Talavera 15.5883,120.9192"
+    }
+   ]
+  },
+  {
+   "ad": "Argentoratum",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    357,
+    357
+   ],
+   "ornek_maddeler": [
+    "0357-01-01 Strasbourg Savaşı: Julianus Alaman kralı Chnodomar'ın ordusuna karşı k"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 48.58392,
+      "lon": 7.74553,
+      "kaynak": "GeoNames 2973783 Strasbourg"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Forchheim",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    911,
+    911
+   ],
+   "ornek_maddeler": [
+    "0911-11-10 Forchheim'da Franklar ve Saksonlar Konrad'ı kral seçti; Karolenj haned"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Forchheim 49.71754,11.05877; Forchheim 48.16667,7.7"
+    }
+   ]
+  },
+  {
+   "ad": "Franconia",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    911,
+    911
+   ],
+   "ornek_maddeler": [
+    "0911-11-10 Forchheim'da Franklar ve Saksonlar Konrad'ı kral seçti; Karolenj haned"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.78206,
+      "lon": -77.14637,
+      "kaynak": "GeoNames 4759968 Franconia"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Fritzlar",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    919,
+    919
+   ],
+   "ornek_maddeler": [
+    "0919-05-01 Saksonyalı I. Henry kral seçildi (Sakson hanedanı başladı)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 51.13181,
+      "lon": 9.27557,
+      "kaynak": "GeoNames 2924326 Fritzlar"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  }
+ ]
+}

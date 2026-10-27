@@ -1,0 +1,138 @@
+[
+ {
+  "id": "masaesyli-krallik",
+  "ad": "Masaesyli (Batı Numidya) Krallığı",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "-0399-01-01",
+  "t": "-0202-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Siga",
+  "etkin_bolge": "Batı Numidya (batı Cezayir)",
+  "sehirler": [
+   "Siga"
+  ],
+  "ozet": "Syphax döneminde Kartaca müttefiki Berberî krallık; II. Pön savaşı sonunda topraklar Masinissa'ya geçti.",
+  "oncul": [],
+  "ardil": [
+   "numidia"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Masaesyli — bilgi kutusu IV. yy MÖ - 175 MÖ (Numidya'ya bağlanma), Syphax MÖ ~203-202'de Masinissa'ya yenildi, başkent Siga; atıf: J. Desanges, 'Masaesyli', Encyclopédie berbère 30, 2010, s. 4630-4631; Y. Modéran, Les royaumes d'Afrique du Nord, EFR 2003; J. D. Fage & R. Oliver, Cambridge History of Africa c. 2, 1975, s. 184; Hoyos, Mastering the West, Oxford UP 2015, s. 277 (açılmadı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Taslak değeri f=-0300. IV. yy MÖ (Vikipedi) kuruluş yüzyılı; ilk kral Aylimas(?) 344-310 MÖ (Vikipedi). t=-0202 (MÖ 203, Syphax'ın yenilgisi/esareti; Masinissa Zama MÖ 202'den sonra topraklarını birleştirdi → 'numidia' f=-0201). Vikipedi infobox 175 MÖ'ya uzatır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "'numidia' (-0201/-0045) birleşik ardıl; Masaesyli ayrı künyesi yok."
+  }
+ },
+ {
+  "id": "massyli-krallik",
+  "ad": "Massyli (Doğu Numidya) Krallığı",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "-0399-01-01",
+  "t": "-0201-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Cirta",
+  "etkin_bolge": "Doğu Numidya (Konstantin bölgesi, Cezayir)",
+  "sehirler": [
+   "Cirta"
+  ],
+  "ozet": "Gala/Masinissa'nın krallığı; MÖ 206'dan itibaren Roma tarafında, MÖ 202'de birleşik Numidya.",
+  "oncul": [],
+  "ardil": [
+   "numidia"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Massyli — IV. yy MÖ'da kabilelerden doğan Berberî konfederasyon/krallık, Kartaca himayesi, Gaia (260-207), Oezalces, Masinissa; Zama (202 MÖ) sonrası Numidya; atıf Fage & Oliver, Cambridge History of Africa c. 2, 1975 (açılmadı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Taslak değeri f=-0300, t=-0202. MÖ 202 Zama = -0201 astronomik; f IV. yy MÖ (yüzyıl hassasiyeti). Kralların tam dizisi Vikipedi'de çelişkili; Masinissa'nın MÖ 206'da Roma'ya dönüşü ve MÖ 202 birleşmesi. 'numidia' künyesi Massyli devamıdır (f=-0201): künye f'si Massyli'ye genişleyebilir (var-kisa).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "numidia",
+   "not": "numidia f=-0201 Masinissa birleşimi; Massyli öncesi (IV. yy-202 MÖ) eklenebilir."
+  }
+ },
+ {
+  "id": "kyrenaika-magas",
+  "ad": "Kirenayka Krallığı (Magas)",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "-0275-01-01",
+  "t": "-0249-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kyrene",
+  "etkin_bolge": "Kirenayka (doğu Libya)",
+  "sehirler": [
+   "Kyrene"
+  ],
+  "ozet": "Magas'ın Ptolemaios valiliğinden bağımsız kral ilanı; ölümünde Ptolemaios'a döndü.",
+  "oncul": [
+   "Ptolemaios Mısır"
+  ],
+  "ardil": [
+   "Ptolemaios Mısır"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Magas_of_Cyrene — vali ~MÖ 300, kral 276-250 MÖ, kendini kral ilan tarihi tartışmalı, ölüm 250; atıf: M. Clayman, Berenice II and the Golden Age of Ptolemaic Egypt, Oxford UP 2014, s. 30-36; B. van Oppen de Ruiter, Berenice II Euergetis, Springer 2016, s. 39; L. Kainz 2022 s. 79-91 (açılmadı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Taslak -0276/-0250 astronomik yıl hatalıydı: MÖ 276 = -0275, MÖ 250 = -0249. Kral ilan yılı tartışmalı (~MÖ 276-274). Mevcut 'kyrene' (-0630/-0095) bu dönemi zaten kapsıyor; ayrı künye gerekmez, Magas kralı dönemi künyede alt dönem olarak yazılabilir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kyrene",
+   "not": "'kyrene' künyesi (-0630/-0095) bu dönemi kapsıyor; Ptolemaios'tan kopuş kronoloji maddesi olabilir."
+  }
+ },
+ {
+  "id": "auris-masties",
+  "ad": "Aurès Krallığı (Masties, Iabdas, Dihya)",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "0484-01-01",
+  "t": "0703-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Aurès",
+  "etkin_bolge": "Aurès dağları (Cezayir)",
+  "sehirler": [
+   "Aurès"
+  ],
+  "ozet": "Vandal egemenliği sonrası Masties'in Aurès'te kurduğu bağımsız yönetim; Bizans fethine kadar sürdü.",
+  "oncul": [
+   "Vandal"
+  ],
+  "ardil": [
+   "Bizans Afrika Eksarhlığı"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Kingdom_of_the_Aur%C3%A8s — c. 484-703; Masties c. 484-516, Iabdas c.516-539/548, Dihya (Kâhine) c.668-703; atıf: Y. Modéran, Les Maures et l'Afrique romaine, EFR 2003; Julien & Le Tourneau, Histoire de l'Afrique du Nord 1970; Merrills & Miles, The Vandals, 2009, s. 127-128; Procopius, Vandalic War (açılmadı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Taslak değeri 476-535. Vikipedi Aurès Krallığı'nı c. 484 (Huneric'e isyan)-703 (Dihya'nın ölümü) verir; 540-668 arası Bizans-Mauri dönemi boşluklu (Iabdas 539'da yenildi). TDV 'Kâhine' ile 701 (Hassân'ın zaferi); TDV 'İFREN' Kâhine isyanı 701'de bitti diyor (okundu) → t=703 yerine 701 de olabilir. Süreklilik belirsiz; 539-668 aralığı tek polity sayılamayabilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok; 'vandal' ve 'bizans' komşu."
+  }
+ }
+]

@@ -103,6 +103,19 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
 - Yeni yerleşimden önce mükerrer tara: normalleştirilmiş ad + 3 km.
 - `__BOSLUK__` haritada **delik**tir (boyanmaz). Önce şehir adlı tanık ara; yaklaşıklık
   kullanıcıya görünüyorsa bölge sahibi + beyan. **Beyansız yaklaşıklık, beyanlı boşluktan kötüdür.**
+- **Boşluk doldurma merdiveni** (Emre, 16 Ekim 2026 — her `__BOSLUK__` ve beyanlı boşlukta, sırayla):
+  ① TDV · ② öteki akademik kaynaklar · ③ komşu büyük devletlerin ve yerel devletlerin kaynakları
+  (Venedik, Avusturya/TIB, Sırp, Yunan, Bulgar…) · ④ bulunamazsa *yerleşim o devirde var mıydı?*
+  teyit et — **yoksa** dönemi kırp, toprak komşu peteklere kalır; **varsa** ⑤ bağlı olduğu **abi
+  merkezi** (siyasî/idarî/askerî/iktisadî olarak kaderini paylaştığı büyük şehir) kaynakla bul ve
+  akıbetini onun akıbetine bağla: `kaynak:`a "ABİ MERKEZ: <merkez> — <bağı gösteren kaynak>" +
+  BEYANLI YAKLAŞIKLIK yaz. Abi merkezin kendi zinciri de kaynaklı olmalı (atlas kaydı değil).
+  İlk vaka: Berat 1345-1417 → Avlonya (TDV avlonya).
+- **Sahibi kaynakta bulunamayan ama var olduğu bilinen yer** boş kalmaz: önce o devirde var mıydı
+  sorgula (yoksa toprağı komşu yerleşimlere böl); varsa siyasi-idari-askerî-iktisadî olarak
+  birlikte hareket ettiği büyük merkezi seç ve onun zincirini izle; `kaynak:`a "zincir X'ten
+  devralındı" yaz. Merkezin kendisi `__BOSLUK__` ise o dilimde yer de boşluk kalır. *(Emre,
+  post-it #30, Palu→Harput, 17 Ekim 2026)*
 - Ayrı dosya ≠ ayrı ad alanı: `data/<tur>_<kisaltma>.js` → `window.<TUR>_<KISALTMA>`.
 - Türkçe metinde `sed` ve toplu `replace(…, 1)` kullanma; `"İ".lower()` iki kod noktası verir
   (`denetim/ARAC-NORMAL-0903.py`).
@@ -122,9 +135,29 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
 
 ## Kaynak kuralı
 
-- **İslâm dünyası, Osmanlı ve komşuları: TDV İslâm Ansiklopedisi birincil;** tarih çelişkisinde
-  TDV esastır. Kapsamadığı yerde akademik kaynak, `kaynak:`a açıkça. **Vikipedi tek dayanak
-  olamaz.** Forum, blog, içerik çiftliği, YZ metni, popüler tarih sitesi kullanılmaz.
+- **İslâm dünyası, Osmanlı ve komşuları: TDV İslâm Ansiklopedisi ilk başvuru;** tarih çelişkisinde
+  TDV esastır (çelişki `ic_not`ta iki kaynağıyla beyan edilir). **Vikipedi tek dayanak
+  olamaz.** Forum, blog, içerik çiftliği, YZ metni, popüler tarih sitesi, YouTube kullanılmaz.
+- **Kaynak sırası — TDV'de durma** (Emre, 18 Ekim 2026). TDV yer-kişi ansiklopedisidir, çoğu
+  zaman yalnız yıl verir. TDV maddeyi kapsamıyorsa, **yalnız yıl veriyorsa** ya da tarihin neyi
+  tarihlediği belirsizse sıradaki basamağa geçmek **zorunludur**; bulunan her kaynak `kaynak:`a
+  adıyla (dergi, cilt/sayı, yazar, yıl, sayfa ya da URL) yazılır:
+  ① **TDV İslâm Ansiklopedisi** — `islamansiklopedisi.org.tr/arama/?q=`
+  ② **İSAM** — Osmanlı Araştırmaları / Journal of Ottoman Studies, İSAM makale veritabanı
+  (`ktp.isam.org.tr`), kadı sicilleri neşirleri
+  ③ **Türk Tarih Kurumu (TTK)** — *Belleten*, *Belgeler*, TTK monografileri (`belleten.gov.tr`,
+  `ttk.gov.tr`)
+  ④ **DergiPark / TR Dizin** hakemli tarih dergileri — OTAM (AÜ), Tarih Dergisi (İÜ), Tarih
+  Araştırmaları Dergisi (AÜ DTCF), Tarih İncelemeleri Dergisi (Ege), Türkiyat Mecmuası,
+  Atatürk Araştırma Merkezi Dergisi. Platformda olmak yetmez: hakemli ve TR Dizin'de olmalı.
+  ⑤ **YÖK Ulusal Tez Merkezi** — doktora tezleri; sancak/şehir monografileri gün taşır
+  ⑥ **Tarih Vakfı** (*Toplumsal Tarih*, Yurt Yayınları) ve akademik yayınevi monografileri
+  (yazar akademisyen, dipnotlu) — İş Bankası Kültür, Kitap, İletişim, YKY, üniversite yayınları
+  ⑦ **Komşu ve yabancı akademik kaynak** — TIB (Bizans), Venedik/Avusturya/Sırp/Yunan/Bulgar
+  akademik yayınları, uluslararası hakemli dergiler
+  ⑧ **Birincil belge neşirleri** — Devlet Arşivleri (BOA/BCA katalog), Belgeler, antlaşma
+  metinleri. Ham belgeyi biz okumayız; neşredilmiş ve tarihlenmiş hâlini kullanırız.
+  Aynı gün iki bağımsız akademik kaynakta teyit edilirse `ic_not`a "çift teyit" yazılır.
 - **Atlas referans değildir:** atlasın kendi dönemi, künye günü, koordinatı dayanak olamaz;
   çelişkide atlas düzelir. Komşu kaydın günü yalnız kendi kaynağına dayanıyorsa ve kayda
   "gün komşudan: …" yazılarak alınır; zincirleme devralma yok.

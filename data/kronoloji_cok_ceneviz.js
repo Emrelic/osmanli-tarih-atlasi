@@ -52,7 +52,7 @@ window.KRONOLOJI_COK_CENEVIZ = [
   d:"II. Murad İstanbul'u kuşattığında Peralılar Bizans'ı desteklemedi; sultanın Osmanlı amblemlerini taşıması şartıyla verdiği malzeme ve parayla bir kule yapmayı bile kabul ettiler. Galata Cenevizlileri'nin fiilî tutumu, 1453'e giden yolda Osmanlı'ya karşı savaşmamak üzerine kuruluydu.",
   kaynak:"TDV `ceneviz` (Aldo Gallotta): Peralılar \"sultanın Osmanlı amblemlerini taşıması şartı ile verdiği malzeme ve parayı kullanarak bir kule yapmayı bile kabul etmişlerdi (1424).\"" },
 
-{ t:"1425-01-01", b:"Foça ve Sakız Cenevizlileri Aydınoğlu Cüneyd Bey'in sığındığı İpsili'yi denizden kuşattı", tur:"savas",
+{ odak_yer:["Sakız","Foça"], t:"1425-01-01", b:"Foça ve Sakız Cenevizlileri Aydınoğlu Cüneyd Bey'in sığındığı İpsili'yi denizden kuşattı", tur:"savas",
   onem:2, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"", devlet:"cenova", gun:"1425 (TDV yalnız yıl verir)",
   d:"Sultana baş kaldıran Aydınoğlu Cüneyd Bey'in sığındığı İpsili'yi (Doğanbey), Foça ve Sakız'daki Cenevizliler denizden kuşattı. Foça ve Sakız kolonileri bu olayda sultanın tarafında yer aldı.",
@@ -76,7 +76,7 @@ window.KRONOLOJI_COK_CENEVIZ = [
   d:"Sömürge yönetiminde güçlük çıkan ya da dış tehlike doğan kolonileri Cenova ücret karşılığı Banco di San Giorgio'ya bırakıyordu. Magosa 1447'de, Korsika ve Karadeniz kolonileri ise 1453'te bankaya devredildi. Özel bir kuruluş olan banka bu kolonilerin sorunlarını çözemedi ve koloniler birbiri ardınca yok oldu.",
   kaynak:"TDV `ceneviz` (Aldo Gallotta): \"Famagusta 1447'de, Korsika ve Karadeniz kolonileri 1453'te bankaya devredilmişlerdi.\"" },
 
-{ t:"1613-01-01", b:"1453 tarihli Osmanlı-Ceneviz antlaşması yenilendi (sonraki yenilemeler 1617, 1624, 1652)", tur:"antlasma",
+{ odak_yer:["Cenova"], t:"1613-01-01", b:"1453 tarihli Osmanlı-Ceneviz antlaşması yenilendi (sonraki yenilemeler 1617, 1624, 1652)", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["antlasma","konu-diplomasi","konu-ekonomi"],
   yer_id:"", devlet:"cenova", gun:"1613 (ilk yenileme; sonrakiler 1617, 1624, 1652 — TDV yalnız yıl verir)",
   d:"Cenevizliler'le 1453'te yapılan anlaşma 1613, 1617, 1624 ve 1652'de yenilendi ve Cenova'nın Fransız işgali altına girdiği döneme kadar yürürlükte kaldı. Cumhuriyet deniz gücünü yitirmiş olsa da Osmanlı ticaretinde Cenevizli tüccarların yeri ahidnâme yoluyla korundu.",

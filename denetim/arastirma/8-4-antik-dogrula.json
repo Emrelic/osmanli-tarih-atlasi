@@ -1,0 +1,696 @@
+{
+ "sonuclar": [
+  {
+   "id": "gortyn-polis",
+   "onay": "duzeltildi",
+   "f_mo": 700,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": "yuzyil",
+   "kaynak": [
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu (Gortyn girisi, s.1161-62)",
+    "Cassius Dio 36.1a, 36.17a-19 (Cary/Loeb), penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/36*.html - okundu",
+    "Encyclopaedia Britannica 11. basim 1911, 'Crete', en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Crete - okundu"
+   ],
+   "alinti": "Gortyn is called a polis in a fragment of an Archaic law ... (I.Cret. IV 13e2 (C7l))",
+   "alinti_2": "Dio 36.19.2: 'After this Metellus conquered the entire island.'",
+   "kronoloji_okulu": "Yok; Roma fethi 69-67 (EB1911: 67)",
+   "ic_not": "f: polis ilk taniği MO 7. yy SONU (arkaik yasa parcasi), kesin yil yok -> f_iso null (atlas konvansiyonu -0699 'yuzyil basi' demektir; kaynak 7. yy sonu der). t: Dio 36.18-19 Gortyn'in Metellus karsisindaki durumunu soylemez; 'Roma muttefiki, istila edilmedi' iddiasi Vikipedi'den, bu okumada TEYITSIZ. 67 MO Girit fethi yilidir, Gortyn'e ozgu bagimsizlik sonu degil. t_iso onerilmez. Girit polisleri icin Inventory yalniz Arkaik-Klasik donemi kapsar: polis statusunun ILK TANIKLIGINI verir, kurulus yili vermez. Roma sonu: Dio 36.19.2-3 'Metellus butun adayi fethetti' (yil vermez; 36.1a'da Metellus 69 konsulluguyle sefere cikar); EB1911 'Crete': 'finally subdued by Q. Metellus ... (67 B.C.)'. "
+  },
+  {
+   "id": "knossos-polis",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu (Knosos girisi: ML 42B polis tanigi C5m)",
+    "Encyclopaedia Britannica 11. basim 1911, 'Crete', en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Crete - okundu",
+    "Cassius Dio 36.1a, 36.17a-19 (Cary/Loeb), penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/36*.html - okundu"
+   ],
+   "alinti": "Knosos is called a polis in the political sense in the agreement of Knosos, Tylisos and Argos (ML 42B.31-32 (C5m))",
+   "alinti_2": "EB1911: 'finally subdued by Q. Metellus ... (67 B.C.)'",
+   "kronoloji_okulu": null,
+   "ic_not": "f: Inventory'de kurulus yili yok; en erken siyasi polis tanigi MO 5. yy ortasi. 'c.700' kaynakta yok -> f_iso null. t: Girit-geneli 67 MO; Knossos'a ozgu sonu kaynakta yok. Girit polisleri icin Inventory yalniz Arkaik-Klasik donemi kapsar: polis statusunun ILK TANIKLIGINI verir, kurulus yili vermez. Roma sonu: Dio 36.19.2-3 'Metellus butun adayi fethetti' (yil vermez; 36.1a'da Metellus 69 konsulluguyle sefere cikar); EB1911 'Crete': 'finally subdued by Q. Metellus ... (67 B.C.)'. "
+  },
+  {
+   "id": "lyttos-polis",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu (Lyktos girisi: 'probable polis')",
+    "Polybios 4.53-54 (Paton/Loeb), penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/4*.html - okundu",
+    "Cassius Dio 36.1a, 36.17a-19 (Cary/Loeb), penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/36*.html - okundu"
+   ],
+   "alinti": "Polyb. 4.54: the Cnossians ... burnt, demolished, and in every way they could wrecked the town",
+   "alinti_2": "Inventory: Lyktos Arkaik/Klasik polis ama 'olasi polis' olarak girdi",
+   "kronoloji_okulu": null,
+   "ic_not": "Polybios 4.53-54 (220/219 MO): Lyttos Knossos'ca yikildi, halki Lappa'ya kacti. Roma fethinden ONCE kesinti var; yeniden kurulus tarihi okunmadi. Atlas t=-0066 sureklilik varsayimi destek bulmadi. f kaynakta yok. Kunye yazilamaz (iki parca)."
+  },
+  {
+   "id": "kydonia-polis",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Herodotos 3.59 (Godley), perseus Perseus:text:1999.01.0126 - okundu",
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu",
+    "Polybios 28.14-15 (Thayer) - okundu",
+    "Cassius Dio 36.1a, 36.17a-19 (Cary/Loeb), penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/36*.html - okundu"
+   ],
+   "alinti": "Hdt 3.59: the Samians settled at Cydonia in Crete ... in the sixth year Aeginetans and Cretans came and defeated them",
+   "alinti_2": "Polyb. 28.15.3: the Cydoniats gave up the keys of the gates to Leon [Eumenes' commander] and placed their city entirely in his hands.",
+   "kronoloji_okulu": null,
+   "ic_not": "Herodotos Samos iskanini anlatir (yil yok); 'c.520' Hdt'de yok; Samoslular 5 yil sonra yenildi. Polyb 28.15 (~170 MO): Kydonia Pergamon kralina teslim oldu. 'MO 69 Panares teslimi': Dio 36.19.3 Panares ve Lasthenes'in Pompeius'a teslim edildigini soyler, 69 yili yok. t=-0068 kanitlanmadi -> t_iso onerilmez."
+  },
+  {
+   "id": "polyrrhenia-polis",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu (Polyrhenia: en erken siyasi polis tanigi C3f, Areus'a adak)",
+    "Strabon 10.4.13, perseus - okundu"
+   ],
+   "alinti": "The earliest reference to Polyrhen as a polis in the political sense occurs in the dedication ... to King Areus of Sparta (I.Cret. II.xxiii.12A (C3f))",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Kurulus ve Roma sonu tarihi kaynakta yok. Polyb 4.53.6: 220'de Lyttos'u destekleyen sehirler arasinda (dogrulandi) ama bu f/t degil."
+  },
+  {
+   "id": "eleutherna-polis",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu (Eleutherna: siyasi polis en erken Milet antlasmasi c.259-250)",
+    "Cassius Dio 36.1a, 36.17a-19 (Cary/Loeb), penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/36*.html - okundu"
+   ],
+   "alinti": "Dio 36.18.2: Metellus in addition to many other injuries captured the city of Eleuthera by treachery and extorted money from it",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Dio 36.18.2 Eleutherna'nin Metellus'ca ele gecirildigini dogrular (yil vermez; sefer 68-67). 'MO 9. yy Dor kurulusu' Inventory'de Geometrik yerlesim; f_iso null. Polyb 4.53.1: Eleutherna Rodoslularla savasa girdi (Lyttos Savasi'ni baslatma iddiasi bu okumada desteklenmedi)."
+  },
+  {
+   "id": "praisos-polis",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu (Praisos)",
+    "Strabon 10.4 - okundu, yikim yili yok"
+   ],
+   "alinti": "Inventory (Praisos girisi): Arkaik ve Klasik polis; Eteokretli epigrafik metinler C6",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "MO 140 (veya c.145) Hierapytna yikimi icin Strabon'da yil yok; epigrafik tarih (Inscr. Cret. III) acilamadi -> kutuphane_gerekli. t=-0139 TEYITSIZ. f kaynakta yok."
+  },
+  {
+   "id": "itanos-polis",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu (Itanos: Hdt 4.151.2 urban polis)"
+   ],
+   "alinti": "The earliest reference to Itanos as a polis in the urban sense occurs in Herodotos' narrative of the foundation of Kyrene (Hdt. 4.151.2 (rC7)).",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Siyasi anlamda en erken tanik Helenistik yazitlar (c.266/5-263/2). MO 7./8. yy 'kurulus' kaynakta yok. t yok."
+  },
+  {
+   "id": "phalasarna-polis",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu (Phalasarna: siyasi polis en erken Milet antlasmasi c.259-250)",
+    "Polybios 22.15 (Thayer) - okundu"
+   ],
+   "alinti": "Polyb. 22.15.3: they ordered the Cydoniats ... to leave Phalasarna without taking anything away from it.",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "ONEMLI: Polyb 22.15 (~184-183 MO) Kydonia'nin Phalasarna'yi ALDIGINI degil, Romali komisyonerlerin Kydonia'ya Phalasarna'dan elini cekmesini emrettigini soyler. Atlas t=-0183 bu okumada DESTEKLENMEDI. Phalasarna'nin gercek sonu okunmadi. f kaynakta yok."
+  },
+  {
+   "id": "phaistos-polis",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "yuzyil",
+   "kaynak": [
+    "Strabon 10.4.14, perseus - okundu",
+    "Hansen & Nielsen (eds.), An Inventory of Archaic and Classical Poleis, Oxford UP 2004, Crete ch. (T. Perlman), archive.org/details/inventory_20250915 - okundu (Phaistos: Arkaik yasa C6, sikke C5f)"
+   ],
+   "alinti": "Strabo 10.4.14: Phaestus, was razed by the Gortynians; it was at the distance of 60 stadia from Gortyn",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Strabon yikimi Gortyn'e atfeder, YIL YOK. Inventory: Phaistos Milet antlasmasinda (c.259-250) hala siyasi polis -> yikim bundan SONRA; atlas t=-0199 ile uyumlu olabilir ama kesin yil yok (kutuphane_gerekli). f kaynakta yok."
+  },
+  {
+   "id": "akarnania-birligi",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Schwahn RE IV A (1931) ve Larsen 1968 erisilemedi - okunmadi"
+   ],
+   "alinti": null,
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Akademik/birincil kaynak acilamadi. Wilkes, The Illyrians s.157 (okundu): 234 MO'da Epeiros cumhuriyete donusurken Akarnania'nin bati kismi ayrildi - birlik tarihi degil. Kunye onerilmez."
+  },
+  {
+   "id": "enchelei-krallik",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Wilkes, The Illyrians, Blackwell 1992, s.98-99 (archive.org/details/the-illyrians_202402) - okundu"
+   ],
+   "alinti": "This was the territory of the Enchelei, whose rulers claimed descent from the hero Cadmus.",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Wilkes Enchelei'yi Ohrid Golu cevresinde konumlar, Kadmos efsanesini aktarir; TARIH VERMEZ. 'MO 8-7. yy zirve' Wilkes'te yok (kaynak Hammond 1966 BSA 61 erisilemedi). Efsanevi kaynak; kunye yazilamaz."
+  },
+  {
+   "id": "autariatai",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "duzeltildi",
+   "kesinlik": "yuzyil",
+   "kaynak": [
+    "Wilkes, The Illyrians 1992, s.139-142 - okundu"
+   ],
+   "alinti": "it is around the end of the fourth century that the name of the Autariatae vanishes from the historical record",
+   "alinti_2": "Wilkes: 2,000 [Autariatae] serving in the army of Lysimachus during the winter of 302/1 BC went over to Antigonus",
+   "kronoloji_okulu": null,
+   "ic_not": "Atlas t=-0309 (310) Vikipedi'den; Wilkes tek yil vermez: ad MO 4. yy sonunda kaynaklardan kaybolur; son tanik 302/1. Wilkes 'maddi kanitta ani degisim yok' der. t_iso onerilmez (en fazla yuzyil: MO 4. yy sonu). f yok (null dogru)."
+  },
+  {
+   "id": "nesiotai-koinon",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Reger 1994 Historia 43; Billows 1990; Buraselis 2015 - erisilemedi, okunmadi"
+   ],
+   "alinti": null,
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Akademik kaynak acilamadi. Iki ayri evre (c.314/3-3. yy ortasi; c.200-167 Rodos) tek kayitta birlesik; kunye icin ikiye bolunmeli. -0313..-0166 dogrulanamadi."
+  },
+  {
+   "id": "illyria-ardiaioi",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": 168,
+   "f_iso": null,
+   "t_iso": "-0167-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Wilkes, The Illyrians 1992, s.156-175 (Livy 44.30-32 atfi) - okundu"
+   ],
+   "alinti": "Wilkes: 'The Roman invasion of Macedonia in 168 BC forced the king ...'; Gentius 'placed in custody and sent to Rome'",
+   "alinti_2": "Wilkes: 'The celebration of the praetor's triumph over king Gentius and the Illyrians took place in February 167'",
+   "kronoloji_okulu": null,
+   "ic_not": "t: Gentius'un teslimi 168 MO (-0167), Roma duzenlemesi/zafer 167 -> iki yil beyan; atlas -0167 = MO 168 dogru. f: Wilkes Agron'un Medion saldirisini 232/231, Agron'un olumu/Pinnes'in tahta cikisini c.230 verir; Agron'un tahta cikis yili YOK; atlas f=-0249 (c.250) Wilkes'te yok -> f_iso null."
+  },
+  {
+   "id": "taulantioi",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Wilkes, The Illyrians 1992, s.122-125 - okundu"
+   ],
+   "alinti": "Glaucias of the Taulantii, though defeated by Alexander in 335 BC, survived for more than a generation and was still ruling in 302 BC.",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Kassandros Glaukias'i ~314'te yendi; 312'de Dyrrhachion Glaukias'a iade; 302'de hala hukumde. -0301 'son tanik', bitis degil. 167'de Taulantii Anicius'ca vergiden muaf tutuldu (Wilkes, Livy 45.26) -> polity -0301'de bitmedi. f=-0398 kaynakta yok. Kunye yazilamaz."
+  },
+  {
+   "id": "dardania",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Wilkes, The Illyrians 1992, s.138-139, 209-210 - okundu",
+    "Cassius Dio 51.23.3 (Thayer) - okundu"
+   ],
+   "alinti": "Wilkes: 'Their final submission to the Romans may have occurred when Macedonia was in the charge of Antony (40-31 BC)'",
+   "alinti_2": "Dio 51.23.3: the Bastarnae ... subdued the Triballi ... and the Dardani who inhabit the Triballian country.",
+   "kronoloji_okulu": null,
+   "ic_not": "t IKI DEGER: 40-31 MO (Wilkes, olasi) / 29-28 (Vikipedi Crassus; Dio 51.23'te Dardanlar Bastarnae'ye boyun egmis, Roma ilhaki degil). Moesia'ya katilim Claudius (41-54). Ortalama alinmadi. f: ilk adli kral Longaros ~240/39-229 (Demetrios II); kurulus yili yok. Bardylis'i Dardan sayma Wilkes'te 'olabilir'."
+  },
+  {
+   "id": "kretaion-koinon",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Inventory (Perlman): 'to koinon ton Kretaion (I.Cret. III.iii.4C c.159-138)' - okundu (terim tanigi)",
+    "Mijnsbrugge 1931 / Chaniotis 2015 erisilemedi"
+   ],
+   "alinti": "Inventory: 'TO koinon ton Kretaion (e.g. I.Cret. III.iii.4C (c.159-138))' [koinon terimi]",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Koinon kurulusu kaynakta yok; c.159-138 terimin en erken taniğidir. Polyb 4.53.4-5 'Kretaieis' etnigi. 67 sonrasi koinon Roma eyalet birligi olarak surdu (EB1911 degil, Vikipedi): -0066 'sonu' yanlis olabilir. Kunye onerilmez."
+  },
+  {
+   "id": "bardylis-krallik",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Wilkes, The Illyrians 1992, s.119-121 (Diod. 14.92, 16.2, 16.4 atfi) - okundu"
+   ],
+   "alinti": "Wilkes: 'Nothing stands on the record to locate the centre of his power'; 'may have been centred among the southern Dardanians of Kosovo'",
+   "alinti_2": "Wilkes: 'A later victory by Philip over Cleitus the son of Bardylis apparently reduced the latter to the status of a client'",
+   "kronoloji_okulu": null,
+   "ic_not": "Atlasin baskent/etkin bolge (Lychnidos/Ohrid, Dassaretioi) Wilkes'le CELISIR: merkez bilinmiyor, olasi Kosova Dardanlari. f: Diodoros 14.92 (393/2) Illyrialilarin Makedonya'yi isgali, saltanat baslangici degil. t: Philippos zaferi 358 (-0357 = 358 MO) dogru olay ama Bardylis'in olumu/rejim sonu belirtilmez; Kleitos ve Grabos hanedani 335-356'da surer. Dassaretioi kaydiyla cift kayit riski."
+  },
+  {
+   "id": "illyria-dassaretioi-bardylis",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Wilkes, The Illyrians 1992, s.98 (Polyb 5.108) - okundu"
+   ],
+   "alinti": "Wilkes: 'According to Polybius (5.108), the Dassaretae possessed several towns, though none has yet been definitely located'",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Dassaretai bir halk/bolge; Wilkes'te 'krallik' tarihi yok. Polity-degil/supheli; bardylis-krallik ile mukerrer riski. Kunye onerilmez."
+  },
+  {
+   "id": "delmatai-federasyon",
+   "onay": "duzeltildi",
+   "f_mo": 181,
+   "t_mo": 33,
+   "f_iso": "-0180-01-01",
+   "t_iso": "-0032-01-01",
+   "f_onay": "dogrulandi",
+   "t_onay": "duzeltildi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "Wilkes, The Illyrians 1992, s.195-197 (Appian Illyr. 11, Livy 44.30-2 atfi) - okundu"
+   ],
+   "alinti": "Wilkes: 'they had once been subject to the Illyrian king Pleuratus but had broken away on the accession of Gentius in 181 BC'",
+   "alinti_2": "Wilkes: 'Early in 33 BC Octavian returned to receive their surrender'",
+   "kronoloji_okulu": null,
+   "ic_not": "f=181 MO (-0180) 'ayrilis/ilk kayit' - polity kurulusu degil; tek akademik kaynak. t: 33 MO teslim (-0032) ama Wilkes: 'unlikely to have embraced the whole people'; ad MS 9 Dalmatia savasinda hala var (t alternatifi MS 9). Her iki deger beyan."
+  },
+  {
+   "id": "euboia-koinon",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Vikipedi tek kaynak; akademik/birincil okunmadi"
+   ],
+   "alinti": null,
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Diocletianus 297 ve 294-288 taniklığı dogrulanamadi. Ardisik olmayan evreler tek kayitta; kunye yazilamaz."
+  },
+  {
+   "id": "phanagoria-polis",
+   "onay": "duzeltildi",
+   "f_mo": 545,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "duzeltildi",
+   "t_onay": "celiskili",
+   "kesinlik": "onyil",
+   "kaynak": [
+    "Hansen & Nielsen, Inventory 2004, no.706 Phanagoria (Kuznetsov 1998, Arafat & Morgan atfi) - okundu"
+   ],
+   "alinti": "Phanagoria must have been founded c.545-540, a date confirmed by excavation in the upper city of Ionian pottery",
+   "alinti_2": "Phanagoria was forced to join the Bosporan Kingdom either by Leukon I (389/8-349/8) ... or by Spartokos II (349/8-344/3)",
+   "kronoloji_okulu": null,
+   "ic_not": "f: c.545-540 araligi (Ps.-Skymnos 886; Arrianos oikistes Phanagoras). Atlas -0539 (540) araligin ucu; f_iso tek yil onerilmez. t: IKI ADAY Leukon I (389/8-349/8) / Spartokos II (349/8-344/3); ortalama alinmadi, t_iso null."
+  },
+  {
+   "id": "nymphaion-polis",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": 410,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "duzeltildi",
+   "kesinlik": "onyil",
+   "kaynak": [
+    "Hansen & Nielsen, Inventory 2004, no.704 Nymphaion - okundu"
+   ],
+   "alinti": "Nymphaion was lost c.410-405 (Aeschin. 3.171) and incorporated into the Bosporan Kingdom by Satyros I (433/2-389/8)",
+   "alinti_2": "may have been established by Milesians in the 560s (Kuznetsov), but this is unproven",
+   "kronoloji_okulu": null,
+   "ic_not": "f: 560'lar Miletoslu kurulus 'kanitsiz', metropolis bile belli degil -> f_iso null; atlas -0599 desteklenmiyor. t: Atina'nin kaybi c.410-405 ile Bosporos'a katilim (Satyros I donemi) ayri olaylar; t_iso null."
+  },
+  {
+   "id": "yazigler",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kesinlik": "yuzyil",
+   "kaynak": [
+    "EB1911 'Iazyges', en.wikisource.org - okundu",
+    "Tacitus, Historiae 3.5, thelatinlibrary.com - okundu",
+    "Cassius Dio 71-72, Thayer - okundu"
+   ],
+   "alinti": "EB1911: 'about A.D. 50 occupied the plains east of the Theiss'",
+   "alinti_2": "Tac. Hist. 3.5: principes Sarmatarum Iazugum, penes quos civitatis regimen",
+   "kronoloji_okulu": null,
+   "ic_not": "f IKI DEGER: c.20 MS (Vikipedi, teyitsiz) / c.50 MS Tisza ovasi (EB1911); Ovid doneminde asagi Tuna. Ortalama yok, f_iso null. t: EB1911 'Hun istilalarindan sonra duyulmaz' - yil yok."
+  },
+  {
+   "id": "roksolanlar",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kesinlik": "yuzyil",
+   "kaynak": [
+    "Strabon 7.3.17 (Hamilton-Falconer), perseus - okundu"
+   ],
+   "alinti": "Strabo 7.3.17: the Roxolani fought against the generals of Mithridates Eupator. Their leader was Tasius ... allies of Palacus, the son of Scilurus",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Strabon yil vermez. Atlas f=-0199 ve Vikipedi 'c.100 MO' bu okumada desteklenmedi; t=350 (Hun) kaynagi yok. Iki uc de belirsiz."
+  },
+  {
+   "id": "tartessos",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": 500,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yuzyil",
+   "kaynak": [
+    "PECS s.v. Tartessos (J.M. Blazquez), perseus Perseus:text:1999.04.0006:entry=tartessos - okundu"
+   ],
+   "alinti": "Tartessian culture disappeared in the beginning of the 5th c. B.C.",
+   "alinti_2": "PECS: 'A syllabic writing with Greek vowels was developed ca. 700 B.C.'",
+   "kronoloji_okulu": null,
+   "ic_not": "t: 5. yy basi 'kultur kaybolusu' (yuzyil); -0499 yalniz yuzyil-basi konvansiyonu, kesin yil yok -> t_iso null. f yok (Hdt 1.163 Arganthonios yil yok). Polity mi kultur bolgesi mi: PECS 'kultur' der."
+  },
+  {
+   "id": "gadir",
+   "onay": "duzeltildi",
+   "f_mo": 1100,
+   "t_mo": null,
+   "f_iso": "-1099-01-01",
+   "t_iso": null,
+   "f_onay": "duzeltildi",
+   "t_onay": "celiskili",
+   "kesinlik": "yuzyil",
+   "kaynak": [
+    "PECS s.v. Tartessos (Blazquez) - okundu",
+    "Livius 28.37.10 (thelatinlibrary.com/livy/liv.28.shtml) - okundu"
+   ],
+   "alinti": "PECS: 'beginning in 1100 B.C. when Cadiz was founded by Phoenician traders'",
+   "alinti_2": "Livy 28.37.10: post Magonis ab Oceani ora discessum Gaditani Romanis deduntur.",
+   "kronoloji_okulu": null,
+   "ic_not": "f: MO 1100 YALNIZ gelenek (arkeolojik MO 8. yy ile celiskili; ikisi beyan). t: Livius 28.37.10 Gades'in Mago ayrildiktan sonra Romalilara teslimi (206/205, -0205 olay dogru); ancak sehir Roma ile ittifakli ozerk surdu (Caesar vatandaslik MO 49, EB1911) -> polity sonu degil."
+  },
+  {
+   "id": "emporion",
+   "onay": "duzeltildi",
+   "f_mo": 600,
+   "t_mo": null,
+   "f_iso": "-0599-01-01",
+   "t_iso": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kesinlik": "onyil",
+   "kaynak": [
+    "Inventory 2004, no.2 Emporion (Aquilue et al. 1996) - okundu",
+    "PECS s.v. Emporion, perseus 1999.04.0006:entry=emporion - okundu"
+   ],
+   "alinti": "Inventory: 'Emporion was founded c.600 (Aquilue et al. (1996) 61-62)'",
+   "alinti_2": "PECS: 'in 218 B.C. Cn. Scipio landed the first Roman army in Hispania'",
+   "kronoloji_okulu": null,
+   "ic_not": "f: c.600 (PECS: 'a little after 600'), cift kaynak. t=-0217 (218) YANLIS: 218 Roma cikarmasidir, bagimsizlik sonu degil; PECS Romalilasma 2. yy, para sistemi Roma'ya katilana kadar ayri. Kesin t yok."
+  },
+  {
+   "id": "arverni",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Caesar BG 7.90, 1.31 (Latin, perseus 1999.02.0002) - okundu",
+    "EB1911 'Arverni' (taslak madde) - okundu"
+   ],
+   "alinti": "BG 7.90: Eo legati ab Arvernis missi quae imperaret se facturos pollicentur. Imperat magnum numerum obsidum.",
+   "alinti_2": "BG 7.90: Captivorum circiter viginti milia Aeduis Arvernisque reddit.",
+   "kronoloji_okulu": null,
+   "ic_not": "Alesia sonrasi Caesar 20.000 tutsagi Aedui ve Arverni'ye iade eder; t=-0051 teslim, polity sonu degil. f yok. Kunye onerilmez."
+  },
+  {
+   "id": "aedui",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Caesar BG 1.31, 7.90 - okundu",
+    "EB1911 'Aedui' - okundu"
+   ],
+   "alinti": "EB1911: 'honoured with the title of brothers and kinsmen of the Roman people.'",
+   "alinti_2": "BG 7.90: in Aeduos proficiscitur; civitatem recipit.",
+   "kronoloji_okulu": null,
+   "ic_not": "Aedui Roma muttefiki; Alesia'dan sonra 'civitatem recipit'. t=-0051 polity sonu degil. f: Livius 5.34 efsanevi 6. yy; yil yok."
+  },
+  {
+   "id": "sequani",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Caesar BG 1.31, 7.90 - okundu",
+    "EB1911 'Sequani' - okundu"
+   ],
+   "alinti": "BG 7.90: Titum Labienum ... in Sequanos proficisci iubet",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "Sequani Alesia sonrasi Roma kis garnizonu altinda; 52 MO'ya yakin ama polity yok olusu degil. f yok."
+  },
+  {
+   "id": "belgae",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_iso": null,
+   "t_iso": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kesinlik": "belirsiz",
+   "kaynak": [
+    "Caesar BG 2.1 (Latin) - okundu"
+   ],
+   "alinti": "BG 2.1: Belgas ... conspirare (ozet) [57 MO koalisyonu]",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "57 MO Belgae koalisyonu, 52'de yeniden isyan. Gecici koalisyon, polity degil; kunye onerilmez."
+  },
+  {
+   "id": "allobroges",
+   "onay": "dogrulandi",
+   "f_mo": null,
+   "t_mo": 121,
+   "f_iso": null,
+   "t_iso": "-0120-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "EB1911 'Allobroges' - okundu"
+   ],
+   "alinti": "EB1911: 'attacked and finally defeated (August 8, 121) at the junction of the Rhodanus and Isara by Q. Fabius Maximus'",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "t=121 MO (-0120) tek ansiklopedi; ikinci bagimsiz teyit yok (Livius Per. 61, Strabon okunmadi). Sonra Narbonensis icinde kalinti direnis (63, 61). f yok."
+  },
+  {
+   "id": "salluvii",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": 122,
+   "f_iso": null,
+   "t_iso": "-0121-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "duzeltildi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "EB1911 'Salyes' - okundu"
+   ],
+   "alinti": "EB1911: 'Gaius Sextius Calvinus (123-122), who definitely subdued the Salyes, destroyed their chief town'",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "EB1911 sefer 123-122; -0121 (122) araligin son ucu; tek yil ikinci kaynakla teyitsiz. f yok."
+  },
+  {
+   "id": "keltiber-arevaci",
+   "onay": "dogrulandi",
+   "f_mo": null,
+   "t_mo": 133,
+   "f_iso": null,
+   "t_iso": "-0132-01-01",
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kesinlik": "yil",
+   "kaynak": [
+    "EB1911 'Numantia' - okundu"
+   ],
+   "alinti": "EB1911: 'After 15 months (134-133) he reduced by hunger the 6000-8000 Numantine soldiers'",
+   "alinti_2": null,
+   "kronoloji_okulu": null,
+   "ic_not": "t=133 MO (-0132) Numantia dususu; tek ansiklopedi, ikinci teyit yok (Appian Iber. 97 okunmadi). Arevaci != tum Keltiberler. f yok."
+  }
+ ],
+ "bulunamadi": [
+  "polyrrhenia-polis",
+  "akarnania-birligi",
+  "enchelei-krallik",
+  "nesiotai-koinon",
+  "taulantioi",
+  "kretaion-koinon",
+  "illyria-dassaretioi-bardylis",
+  "euboia-koinon"
+ ],
+ "kutuphane_gerekli": [
+  "Guarducci/Chaniotis Inscriptiones Creticae (Praisos, Phaistos, Lyttos yeniden kurulus yillari)",
+  "Chaniotis, Das antike Kreta 2004; Sanders, Roman Crete 1982; Perlman 1999",
+  "Larsen, Greek Federal States 1968 (Akarnania, Euboia, Nesiotai, Kretaion) - archive.org kisitli",
+  "Reger, Historia 43 (1994); Billows 1990; Buraselis 2015",
+  "Mijnsbrugge, The Cretan Koinon 1931",
+  "Hammond, BSA 61 (1966) (Enchelei, Dassaretii)",
+  "Sulimirski 1963 / Mocsy / Harmatta (Yazigler, Roksolanlar)",
+  "Pliny NH 4.106-109 (Aedui foederati, Arverni liberi) metne ulasilamadi",
+  "Thuk. 1.24 (Taulantii ilk anilis) okunmadi"
+ ]
+}
