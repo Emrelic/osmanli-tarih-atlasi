@@ -36,7 +36,7 @@
 window.EKOKUMA_SH104 = [
 
 { id:"topkapi-sarayi-insasi", tur:"sebep-sonuc",
-  kisa:"Saray tek bina değil, dıştan içe artan bir GİZLİLİK zinciriydi — mimarisi devletin kendi hiyerarşisiydi.",
+  kisa:"Saray tek bina değil, dıştan içe artan bir gizlilik zinciriydi — mimarisi devletin kendi hiyerarşisiydi.",
   sebep:{ b:"İstanbul'un fethinin ardından yeni başşehirde, güvenlik ve simgesel meşruiyet bakımından şehre hâkim, denize açık, eski Bizans yerleşiminden ayrı bir yönetim merkezi kurma ihtiyacı", t:"1453-05-29" },
   sonuc:{ b:"Sarayburnu'ndaki Yeni Saray'ın (bugünkü Topkapı Sarayı) tamamlanarak devlet merkezinin Bâyezîd'deki ilk (Eski) saraydan buraya taşınması", t:"1478-09-01" },
   bag:"TDV'nin Topkapı Sarayı maddesine göre saray 'her yönden şehre hâkim' bir mevkide, Marmara, Üsküdar ve Haliç'i görecek biçimde kuruldu. Bâbıhümâyun kapısı üzerindeki 883 (1478) tarihi tamamlanışı gösterir; inşaata muhtemelen 1465'te başlanmıştı. Beyazıt'taki ilk saraydan ayırt etmek için 'Sarây-ı Cedîd-i Âmire' (Yeni Saray) diye anıldı — 'Topkapı' adı çok daha sonra, kıyıdaki başka bir köşkten ödünç alındı.",

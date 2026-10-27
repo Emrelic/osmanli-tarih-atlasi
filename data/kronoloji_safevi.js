@@ -412,7 +412,7 @@ window.KRONOLOJI_SAFEVI = [
   kaynak:"Encyclopaedia Iranica, madde: AŠRAF ḠALZAY", yer_id:"Isfahan" },
 { odak_yer:["Tebriz"], t:"1729-02-01", b:"Tahmasb II'nin Nadir'in gölgesinde nominal şahlığı", gun:"Şubat 1729? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi (Iranica'ya erişilemedi) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor", tur:"hukumdar", onem:3, dunya:2, kapsam:"ic",
   etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  d:"Şah Sultan Hüseyin'in oğlu Tahmasb, Afgan istilasından Mazenderan'a kaçıp kendini şah ilan etmişti; Nadir onun adına savaşarak Afganları yendiyse de fiilî iktidarı hiçbir zaman Tahmasb'a bırakmadı — Safevî hânedanının artık yalnız SEMBOLİK bir meşruiyet kaynağı olarak kullanıldığı dönem burada başlar.",
+  d:"Şah Sultan Hüseyin'in oğlu Tahmasb, Afgan istilasından Mazenderan'a kaçıp kendini şah ilan etmişti; Nadir onun adına savaşarak Afganları yendiyse de fiilî iktidarı hiçbir zaman Tahmasb'a bırakmadı — Safevî hânedanının artık yalnız sembolik bir meşruiyet kaynağı olarak kullanıldığı dönem burada başlar.",
   kaynak:"Encyclopaedia Iranica, madde: ṬAHMĀSP II", yer_id:"" },
 { odak_yer:["Tebriz"], t:"1732-08-01", b:"Nadir'in Tahmasb II'yi tahttan indirip bebek III. Abbas'ı şah ilan etmesi", gun:"Ağustos 1732? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi (Iranica'ya erişilemedi) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor", tur:"darbe", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","darbe","darbe-askeri","konu-siyasi","konu-darbe"],

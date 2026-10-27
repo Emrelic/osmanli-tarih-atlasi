@@ -526,7 +526,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Metternich, imparatorun kızını Napolyon'la evlendirerek Avusturya'ya nefes aldıracak bir yakınlık kurdu. Hanedan evliliğinin bir devlet aracı olarak kullanılışının en bilinen örneğidir.",
   kaynak:"bulunamadı — gün DOĞRULANMADI" },
 
-{ t:"1811-06-01", b:"ABGB — Genel Medenî Kanun", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1811-06-01", b:"Abgb — Genel Medenî Kanun", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","anayasa","konu-islahat","konu-hukuk"],
   d:"Aydınlanma hukukçuluğunun ürünü olan Genel Medenî Kanun yürürlüğe girdi ve monarşinin Alman-Slav topraklarında ortak bir özel hukuk kurdu. Kanun bugün hâlâ Avusturya hukukunun omurgasıdır.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", yer_id:"Viyana" },

@@ -129,7 +129,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 // ═══════════ II. OSMANLI'NIN DOĞUŞU ve KATALANLAR (1300-1330) ═══════════
-{ odak_yer:["Karabiga"], t:"1302-07-27", b:"KOYUNHİSAR (Bapheus) — Osman Gazi'nin ilk zaferi", tur:"savas",
+{ odak_yer:["Karabiga"], t:"1302-07-27", b:"Koyunhisar (Bapheus) — Osman Gazi'nin ilk zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"Pachymeres'in kaydına göre Yalova yakınında yapılan savaşta Osman Gazi imparatorluk kuvvetlerini yendi. Bu, Osmanlı Beyliği ile Bizans arasındaki ilk meydan savaşıdır ve Bizans'ın Bitinya'daki şehirlerinin birer birer kuşatılmasının önünü açtı.",
@@ -160,7 +160,7 @@ window.KRONOLOJI_BIZANS = [
   d:"II. Andronikos ile torunu III. Andronikos arasındaki taht kavgası yedi yıl sürdü ve imparatorluğun son askerî ve malî kaynaklarını tüketti. Bu yıllar, Osmanlı Beyliği'nin Bitinya şehirlerini rahatça kuşatabildiği yıllardır: Bizans'ın kaybı düşman yüzünden değil, kendi iç savaşı yüzünden hızlandı.",
   kaynak:"Foundation of the Hellenic World, Chronos «Politics in Late Byzantine Period» https://pegasos.fhw.gr/chronos/10/en/p/pb3/pb3c.html — «These began in 1321 and lasted, with a few intervals in between, until 1354.» ; el-kitabi" },
 
-{ t:"1326-04-06", b:"BURSA DÜŞTÜ — Osmanlı'nın ilk başşehri", tur:"toprak-kayip",
+{ t:"1326-04-06", b:"Bursa düştü — Osmanlı'nın ilk başşehri", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Bursa",
   d:"Uzun bir ablukanın ardından Bursa Orhan Gazi tarafından fethedildi ve Osmanlı Beyliği'nin başşehri oldu. Bizans, Anadolu'daki en büyük şehirlerinden birini kaybetti ve karşısındaki beylik ilk kez bir devlet merkezine kavuştu.",
@@ -185,7 +185,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"TDV İslâm Ansiklopedisi, «Orhan» https://islamansiklopedisi.org.tr/orhan — «Savaşın ilk günü (1 Haziran 1329) Orhan Gazi, Bizans ordusunu kendine çekmek için» ; el-kitabi",
   ic_not_t:"eski gün 1329-06-10 yalnız güvensiz kaynakta (el-kitabi). TDV «Orhan» (ham metin 14 Ekim 2026 okundu): savaş 1 Haziran 1329'da başladı, imparatorun yaralandığı asıl çarpışma «savaşın ikinci günü»; TDV'nin yazdığı tek gün alındı. 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014); savaslar.js ve savas_kunye_1.js birlikte düzeltildi." },
 
-{ t:"1331-03-01", b:"İZNİK DÜŞTÜ — sürgün başkenti Osmanlı'ya geçti", tur:"toprak-kayip",
+{ t:"1331-03-01", b:"İznik düştü — sürgün başkenti Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri","konu-demografi"],
   yer_id:"İznik",
   d:"Latin işgali yıllarında imparatorluğun sürgün başkentliğini yapmış olan İznik, Orhan Gazi'nin eline geçti. Bizans için bu yalnız bir şehir değil, hanedanın yeniden doğduğu şehrin kaybıydı.",
@@ -253,13 +253,13 @@ window.KRONOLOJI_BIZANS = [
   d:"Hesykhast öğretisi Ortodoks kilisesinin resmî öğretisi olarak kabul edildi. Bu karar, Ortodoks dünyasının Latin ilahiyatından düşünce olarak da ayrılmasını kesinleştirdi ve 1439 birliğinin niçin tutmadığını açıklayan zeminlerden biridir.",
   kaynak:"A. Papadakis, «Gregory Palamas at the Council of Blachernae, 1351», Greek, Roman, and Byzantine Studies 10/4 (1969) https://grbs.library.duke.edu/index.php/grbs/article/view/10431 — «Gregory Palamas at the Council of Blachernae, 1351» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1351-05-28; güvenilir kaynağın tarihi: 1351; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1352-01-01", b:"ÇİMPE KALESİ — Türkler Rumeli'de ilk kaleyi aldı", tur:"toprak-kayip",
+{ t:"1352-01-01", b:"Çimpe Kalesi — Türkler Rumeli'de ilk kaleyi aldı", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Çimpe",
   d:"İç savaşta verdikleri yardımın karşılığı olarak Türkler Gelibolu yarımadasındaki Çimpe Kalesi'ni aldı. Bu, Osmanlıların Avrupa yakasındaki ilk kalıcı üssüdür; Bizans kendi müttefikini Rumeli'ye kendi eliyle yerleştirmiş oldu.",
   kaynak:"bizans" },
 
-{ t:"1354-03-02", b:"GELİBOLU DEPREMİ — Osmanlılar Rumeli'ye yerleşti", tur:"toprak-kayip",
+{ t:"1354-03-02", b:"Gelibolu depremi — Osmanlılar Rumeli'ye yerleşti", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","konu-askeri","afet","afet-deprem"],
   yer_id:"Gelibolu",
   d:"Depremde surları yıkılan Gelibolu Süleyman Paşa tarafından zaptedildi ve Anadolu'dan getirilen nüfusla iskân edildi. Bizans tarihyazımında bu tarih, Osmanlıların Balkanlar'a geçişinin geri döndürülemez hâle geldiği gündür; imparatorluk artık iki yandan kuşatılmıştı.",
@@ -314,13 +314,13 @@ window.KRONOLOJI_BIZANS = [
   d:"İmparator Batı'dan yardım almak için şahsen Roma'ya gidip mezhep değiştirdi ama halkını ve kilisesini bağlamadı. Ne yardım geldi ne de birlik gerçekleşti; dönüş yolunda Venedik'te borcundan dolayı alıkonuldu.",
   kaynak:"A. A. Vasiliev, History of the Byzantine Empire 324–1453, University of Wisconsin Press 1952, «The conversion to Catholicism of Emperor John V» https://www.ellopos.net/elpenor/vasilief/conversion-john-v.asp?pg=2 — «In October 1369, in Rome, he solemnly read aloud his confession of faith» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1369-10-21; güvenilir kaynağın tarihi: 1369-10; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1371-09-26", b:"ÇİRMEN (Meriç) SAVAŞI — Sırp direnişi imha edildi", tur:"savas",
+{ t:"1371-09-26", b:"Çirmen (Meriç) Savaşı — Sırp direnişi imha edildi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Çirmen",
   d:"Meriç kıyısında baskına uğrayan Sırp ordusu yok edildi ve Makedonya'daki beylikler birer birer Osmanlı'ya tâbi oldu. Bizans için sonuç doğrudandı: Balkanlar'da kendisini koruyabilecek son müttefik kuvvet ortadan kalktı ve iki yıl sonra imparator da tâbiyeti kabul edecekti.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bizans» https://islamansiklopedisi.org.tr/bizans — «Türkler'in Sırplar'a karşı kazandığı yeni ve muazzam bir zafer (26 Eylül 1371)» ; el-kitabi" },
 
-{ t:"1373-01-01", b:"BİZANS OSMANLI'YA TÂBİ OLDU — haraç ve asker yükümlülüğü", tur:"antlasma",
+{ t:"1373-01-01", b:"Bizans Osmanlı'ya tâbi oldu — haraç ve asker yükümlülüğü", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"Dimetoka yakınındaki yenilginin ardından V. İoannis, I. Murad'a tâbi olmayı, haraç ödemeyi ve seferlere asker göndermeyi kabul etti. Roma İmparatorluğu'nun mirasçısı sayılan devlet, artık bir Osmanlı vasalıydı; imparatorlar bundan sonra sultanın seferlerinde onun yanında yer alacaktı.",
@@ -350,7 +350,7 @@ window.KRONOLOJI_BIZANS = [
   d:"İmparatorluğun ikinci şehri dört yıl süren bir ablukaya alındı. Şehri savunan Manuel Palaiologos, sonunda ayrılmak zorunda kaldı.",
   kaynak:"TDV İslâm Ansiklopedisi, «Murad I» https://islamansiklopedisi.org.tr/murad-i — «1383 sonbaharından beri Çandarlı Hayreddin Paşa tarafından kuşatma altında tutulan Selânik» ; el-kitabi" },
 
-{ t:"1387-04-09", b:"SELANİK DÜŞTÜ — imparatorluğun ikinci şehri kaybedildi", tur:"toprak-kayip",
+{ t:"1387-04-09", b:"Selanik düştü — imparatorluğun ikinci şehri kaybedildi", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Selanik",
   d:"Uzun kuşatmanın ardından Selanik Osmanlı idaresine girdi. Bizans'ın elinde başkent, Mora ve birkaç ada dışında neredeyse hiçbir şey kalmamıştı.",
@@ -368,7 +368,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Torun, Osmanlı desteğiyle başkenti ele geçirdi ama beş ay sonra amcası tarafından çıkarıldı. Hanedan içi kavga imparatorluğun son yıllarında bile sürüyordu.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bayezid I» https://islamansiklopedisi.org.tr/bayezid-i — «Bizans İmparatoru VII. Johannes'in tahta çıkışını (1390) destekledi» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1390-04-14; güvenilir kaynağın tarihi: 1390; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1391-01-01", b:"YILDIRIM BAYEZİD İSTANBUL'U ABLUKAYA ALDI", tur:"savas",
+{ t:"1391-01-01", b:"Yıldırım Bayezid İstanbul'u ablukaya aldı", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Sultan Bayezid başkenti aralıklarla on bir yıl sürecek bir ablukaya aldı. Şehir açlıkla boğuşurken imparator Manuel yardım aramak için Avrupa başkentlerini dolaştı; Bizans'ın ayakta kalması artık dışarıdan gelecek bir mucizeye bağlıydı.",
@@ -393,7 +393,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Boğaz'ın Anadolu yakasına yaptırılan hisarla deniz yolu da denetim altına alındı. Şehir hem karadan hem denizden kuşatılmıştı.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bayezid I» https://islamansiklopedisi.org.tr/bayezid-i — «yedi yıldır abluka altında tuttuğu İstanbul'u 1394 ilkbaharında yeniden sıkı bir kuşatma altına aldı» · TDV İslâm Ansiklopedisi, «Anadoluhisarı» https://islamansiklopedisi.org.tr/anadoluhisari — «Nişancı Mehmed Paşa'ya göre ise burası 797'de (1394-95) yapılmıştır» ; el-kitabi" },
 
-{ t:"1396-09-25", b:"NİĞBOLU — son büyük haçlı seferi bozguna uğradı", tur:"savas",
+{ t:"1396-09-25", b:"Niğbolu — son büyük haçlı seferi bozguna uğradı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Niğbolu",
   d:"Bizans'ı kurtarmak için toplanan Avrupa ordusu Tuna kıyısında imha edildi. Batı'nın Bizans'ı askerî olarak kurtarabileceği fikri bu bozgunla birlikte fiilen sona erdi ve başkent yalnız kaldı.",
@@ -411,7 +411,7 @@ window.KRONOLOJI_BIZANS = [
   d:"İmparator Noel'i IV. Henry'nin misafiri olarak Londra'da geçirdi; bir Doğu Roma imparatorunun İngiltere'ye gelişi ilk ve son kez oldu. İngiliz kronikçileri onun ağırbaşlılığını ve halkının hâline duydukları şaşkınlığı kaydettiler, ama toplanan yardım sembolik kaldı.",
   kaynak:"el-kitabi" },
 
-{ t:"1402-07-28", b:"ANKARA SAVAŞI — Bizans'a yarım asır ömür", tur:"savas",
+{ t:"1402-07-28", b:"Ankara Savaşı — Bizans'a yarım asır ömür", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Ankara",
   d:"Timur'un Yıldırım Bayezid'i yenmesiyle Osmanlı Devleti fetret devrine girdi; kuşatma zaten Timur'un yaklaşması üzerine kaldırılmıştı. Bizans tarihyazımı için bu, imparatorluğa hiçbir Bizans zaferinin sağlayamadığı elli yıllık bir ömür kazandıran dışarıdan gelen kurtuluştur.",
@@ -462,7 +462,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"TDV İslâm Ansiklopedisi, «Murad II» https://islamansiklopedisi.org.tr/murad-ii — «Murad Osmanlı tahtına çıktı (23 Cemâziyelâhir 824 / 25 Haziran 1421)» ; TDV «Mehmed I»: «I. Mehmed 23 Cemâziyelâhir 824'te (25 Haziran 1421) Edirne'de vefat ettiğinde Murad Bursa'da tahta çıktı» ; el-kitabi",
   ic_not_t:"eski gün 1421-05-26 TDV'de yok; iki TDV maddesi (ham metin 14 Ekim 2026 okundu) 23 Cemâziyelâhir 824 / 25 Haziran 1421 der (karşılık TDV'nin, çeviri yapılmadı). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014); padisahlar.js I. Mehmed bitişi (1421-05 → 1421-06) birlikte düzeltildi." },
 
-{ t:"1422-06-10", b:"II. MURAD İSTANBUL'U KUŞATTI", tur:"savas",
+{ t:"1422-06-10", b:"II. Murad İstanbul'u kuşattı", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Osmanlı ordusu ilk kez topla desteklenen düzenli bir kuşatma başlattı; Anadolu'da çıkan şehzade isyanı üzerine kuşatma kaldırıldı. Bizans için bu, fetret devrinin kazandırdığı nefes payının bittiğinin haberiydi.",
@@ -512,7 +512,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Birlik görüşmeleri için giden heyetteki Georgios Gemistos Plethon, Floransa'da Platon üzerine verdiği derslerle Medici çevresini derinden etkiledi ve Platon Akademisi'nin kurulmasına yol açtı. Bizans siyasî olarak biterken, taşıdığı Yunan mirası İtalyan Rönesansı'na aktarıldı — imparatorluğun dünya tarihine en kalıcı katkısı bu aktarımdır.",
   kaynak:"el-kitabi" },
 
-{ t:"1439-07-06", b:"FLORANSA BİRLİĞİ ilan edildi", tur:"ittifak",
+{ t:"1439-07-06", b:"Floransa birliği ilan edildi", tur:"ittifak",
   onem:5, dunya:3, kapsam:"dis", etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"Floransa",
   d:"Ortodoks ve Katolik kiliselerinin birleştiği ilan edildi; imza atmayan tek piskopos Efesli Markos oldu. Bizans anlatısında birlik, devleti kurtarmak için inancın satılması olarak algılandı ve halk tarafından reddedildi: \"Latin serpuşu yerine Türk sarığı\" sözü bu yılların ürünüdür.",
@@ -584,7 +584,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Yardım filosunu aramak için gizlice gönderilen brik, Ege'de hiçbir şey bulamadan geri döndü ve haberi imparatora bildirdi. Mürettebat dönmemeyi tartışmış, sonunda \"imparatoru bilgisiz bırakmamak\" için dönmüştü. Bizans anlatısında bu an, şehrin artık kendi başına olduğunun anlaşıldığı andır.",
   kaynak:"el-kitabi" },
 
-{ t:"1453-05-29", b:"İSTANBUL'UN FETHİ — Bizans İmparatorluğu sona erdi", tur:"son",
+{ t:"1453-05-29", b:"İstanbul'un fethi — Bizans İmparatorluğu sona erdi", tur:"son",
   onem:5, dunya:5, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri","konu-siyasi"],
   yer_id:"İstanbul",
   d:"Elli üç günlük kuşatmanın ardından şehir alındı; son imparator XI. Konstantinos surlarda savaşırken öldü ve cesedi kesin olarak teşhis edilemedi. Bin yüz yıllık Doğu Roma İmparatorluğu sona erdi. Bu tarih hem Osmanlı hem Bizans hem de Avrupa tarihyazımında bir çağın kapanışı sayılır — Osmanlı için bir dönüm noktası, Bizans için son, dünya için devletler sisteminin yeniden kurulduğu andır.",

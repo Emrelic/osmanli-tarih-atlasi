@@ -65,7 +65,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0032 · Osmanlı idari yapısı ve değişimi ───────────────────────────────
 { id:"teknik-osmanli-idari-yapi-degisimi", baslik:"Osmanlı idarî yapısı nasıl değişti? Divandan Bâbıâli'ye", tur:"teknik-bilimsel",
   kisa:"Bir devlet üç asır boyunca aynı çatı altında toplandı, sonra o çatı sessizce boşaldı — karar mekanizması aynı sarayın içinde bir avludan ötekine taşındı.",
-  metin:"■ DİVAN-I HÜMAYUN — DEVLETİN TEK MASASI\n"
+  metin:"■ Divan-I Hümayun — devletin tek masası\n"
     +"15. yüzyıl ortasından 17. yüzyıl başına kadar Osmanlı idaresinin en üst karar organı Divan-ı Hümayun'du: sadrazam, üç-yedi kubbealtı veziri, kazaskerler, nişancı ve defterdarlar aynı toplantıda otururdu — şeyhülislamın divanda resmî bir koltuğu yoktu. Divan hem yürütme organı hem de en yüksek mahkemeydi; statüsü ne olursa olsun herkes doğrudan dilekçeyle başvurabilir, görevliler her şikâyeti dinlemek zorundaydı — bu açıklık Batılı gözlemcileri hayrete düşürürdü. Kararlar kesinleşmeden önce padişaha 'arza çıkar', yani bizzat sunulurdu; toplantılar sarayın ikinci avlusunda katı bir törenle yürütülürdü.\n\n"
     +"■ MERKEZİN SESSİZ TAŞINMASI\n"
     +"17. yüzyıldan itibaren fiilî yetki sadrazamın kendi konağındaki 'ikindi divanı'na kaymaya başladı. 18. yüzyılda Divan-ı Hümayun büyük ölçüde törensel bir kabuğa döndü; gerçek idare sadrazamın makamı olan Bâb-ı Âsafî'nin (sonraki adıyla Bâb-ı Âli) elindeydi. II. Mahmud döneminde bu yapı tamamen kaldırılıp Avrupa tipi nezaretler (bakanlıklar) kuruldu.\n\n"
@@ -83,7 +83,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0051 · Narh defterleri ─────────────────────────────────────────────────
 { id:"teknik-narh-defterleri", baslik:"Narh defterleri — fiyatı kim belirlerdi?", tur:"teknik-bilimsel",
   kisa:"Bir loncanın ustası ile kadı aynı masada oturup ekmeğin fiyatına karar verirdi — ve kışın süt fiyatı yazın verdiğinden başka olurdu.",
-  metin:"■ NE İÇİN VARDI\n"
+  metin:"■ Ne için vardı\n"
     +"Narh, temel mal ve hizmetlere üst fiyat sınırı koyan bir devlet uygulamasıydı; amacı halkın (özellikle gıda maddelerinde) makul fiyattan alışverişini güvenceye almaktı.\n\n"
     +"■ KİM BELİRLERDİ\n"
     +"Fiyatı belirleyen makam İstanbul kadısıydı, ama tek başına değil: ilgili esnafın (loncanın) görüşü alınırdı. Et, süt ürünleri, ekmek gibi kalemlerde yeniçeri ağası ya da başka askerî görevliler ve lonca kethüdaları da sürece katılırdı; piyasadaki uygunluğu muhtesib (çarşı denetçisi) izlerdi.\n\n"
@@ -100,7 +100,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0052 · Tahrir defterleri ───────────────────────────────────────────────
 { id:"teknik-tahrir-defterleri", baslik:"Tahrir defterleri — imparatorluk kendini nasıl sayardı?", tur:"teknik-bilimsel",
   kisa:"Bir imparatorluk otuz yılda bir kendini yeniden sayardı — kim öldü, kim büyüdü, hangi tarla kimin elinde: bugün elimizdeki en eski kayıt 1431'den.",
-  metin:"■ AMAÇ\n"
+  metin:"■ Amaç\n"
     +"Tahrir, vergi mükelleflerini ve yükümlülüklerini kaydetmek için yapılan sayımdı; devletin reâyânın nerede yaşadığını, ne işle uğraştığını, mal ve ürün kaynaklarını bilmesini sağlardı.\n\n"
     +"■ YÖNTEM\n"
     +"Sayım heyetleri (emin, kâtip, kadı ve yerel görevlilerden oluşan) eski kayıtları güncel durumla karşılaştırırdı: nüfus değişimini işler, yeni yetişkinleri deftere ekler, ölenleri düşerdi.\n\n"
@@ -117,7 +117,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0055 · Osmanlı eğitim sistemi ─────────────────────────────────────────
 { id:"teknik-osmanli-egitim-sistemi", baslik:"Osmanlı eğitim sistemi — medrese ve basamakları", tur:"teknik-bilimsel",
   kisa:"Bir öğrencinin kaç akçelik hocadan ders aldığı, hangi kitabı okuduğu kadar önemliydi — ve bu merdiven onu ya kadılığa ya müderrisliğe çıkarırdı.",
-  metin:"■ ÜÇ ÖLÇÜT, TEK HİYERARŞİ\n"
+  metin:"■ Üç ölçüt, tek hiyerarşi\n"
     +"Osmanlı medreseleri üç eksende sıralanırdı: okutulan esas kitaba göre (Tecrîd, Miftâh, Telvîh medreseleri…), müderrisin günlük yevmiyesine göre (yirmi ile altmış akçe arası) ve kurumsal statüye göre. 1470'te kurulan Sahn-ı Semân (Sekiz Avlu) ve Tetimme medreseleri zirveyi oluşturuyordu; 18. yüzyıla gelindiğinde basamaklar iyice karmaşıklaşmış, ibtidâ-i hâric'ten dârülhadise uzanan uzun bir merdiven doğmuştu.\n\n"
     +"■ MÜFREDAT\n"
     +"Temel dersler Arapça sarf-nahiv, mantık, kelâm, belâgat, fıkıh, hadis ve tefsirdi; 'Ders-i Nizâmî' standart müfredatı temsil ederdi. Üst düzey medreseler ayrıca tıp, matematik ve astronomi okuturdu. Ders kitapları Arapça olsa da (Teftâzânî, Cürcânî gibi âlimlerin eserleri) fiilî anlatım dili Türkçeydi.\n\n"
@@ -132,7 +132,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0056 · Osmanlı hukuk sistemi ──────────────────────────────────────────
 { id:"teknik-osmanli-hukuk-sistemi", baslik:"Osmanlı hukuk sistemi — kadı, şeriat ve kanun", tur:"teknik-bilimsel",
   kisa:"Bir kadı aynı anda hem şeriatın hem padişahın kanununun adamıydı — ve mahkemesi çarşıyı, yetimin malını, kale bakımını da kapsardı.",
-  metin:"■ İKİ KAYNAK, TEK UYGULAYICI\n"
+  metin:"■ İki kaynak, tek uygulayıcı\n"
     +"Osmanlı hukuku iki katmanlıydı: değişmez kabul edilen şer'î hukuk (şeriat) ve padişahın ihtiyaca göre çıkardığı kanun/kanunnâme (örfî hukuk). Bu ikisini aynı anda uygulayan görevli kadıydı — kaynağın kendi tabiriyle 'şer'î hukuk adamı ama aynı zamanda mülkî erkândan biri'.\n\n"
     +"■ KADININ ATANMASI VE YÜKSELMESİ\n"
     +"Kadı, padişah beratıyla atanır, kazaskerlik defterlerine (rûznâmçe) kaydedilirdi. Adaylar medresede eğitim görür, mülâzemet denen bir bekleme/sınav sürecinden geçer, hiyerarşinin en alt kademesinden başlayıp kıdemle yükselirdi (bkz. ayrı kart: medrese).\n\n"
@@ -147,7 +147,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0075 · İltizam sistemi ─────────────────────────────────────────────────
 { id:"teknik-iltizam-sistemi", baslik:"İltizam sistemi — vergiyi satışa çıkaran devlet", tur:"teknik-bilimsel",
   kisa:"Devlet vergiyi kendi toplamadı, satışa çıkardı — ve bu satış modeli bir asır sonra kendi krizini üretince, devlet aynı işi 'ömür boyu' satmaya başladı.",
-  metin:"■ İLTİZAMIN İŞLEYİŞİ\n"
+  metin:"■ İltizamın işleyişi\n"
     +"Klasik iltizamda bir bölgenin vergi toplama hakkı açık artırmayla (müzayede) satılırdı; süre kısaydı, genelde bir-üç yıllık bir 'tahvil' dönemi (mukātaa) kapsardı. Mültezim (yüklenici) devlete peşin ya da taksitli bir bedel taahhüt eder, karşılığında o bölgenin vergisini toplayıp elinde tutardı.\n\n"
     +"■ NİÇİN KRİZE DÖNÜŞTÜ\n"
     +"17. yüzyıl sonunun uzayan savaşları hazineyi tüketirken toprak kayıpları geliri azalttı. Kısa süreli sözleşmesi olan mültezimler yatırımlarını hızla geri almak için reâyâyı ağır vergilendiriyor, bu da üretim kapasitesini eritiyordu — vergilendirme ile üretim arasında birbirini boğan bir kısır döngü doğmuştu.\n\n"
@@ -162,7 +162,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0085 · Osmanlı'da doğrudan-olmayan yönetim statüleri ──────────────────
 { id:"teknik-osmanli-tabi-statu-listesi", baslik:"Osmanlı'ya tâbi topraklar ve statüleri", tur:"teknik-bilimsel",
   kisa:"Osmanlı toprakları tek renkte boyanmazdı — Eflak'tan Kırım'a, her birinin kendi sözleşmesi, kendi vergisi, kendi hükümdar seçme usulü vardı.",
-  metin:"Aşağıdaki beş bölge, klasik dönemde doğrudan sancak/eyalet idaresi ALTINDA DEĞİL, kendine özgü bir bağ şekliyle Osmanlı'ya bağlıydı — beşi de kaynağa göre, beşi de ayrı ayrı:\n\n"
+  metin:"Aşağıdaki beş bölge, klasik dönemde doğrudan sancak/eyalet idaresi altında değil, kendine özgü bir bağ şekliyle Osmanlı'ya bağlıydı — beşi de kaynağa göre, beşi de ayrı ayrı:\n\n"
     +"■ EFLAK (1373'ten) — TÂBİ VOYVODALIK\n"
     +"Voyvoda Vlaicu 1373'te Osmanlı üstünlüğünü tanıdı; iç işlerde bağımsızlığını korudu. Mircea 1394 Rovine yenilgisinin ardından 1417'de tâbiliği kesinleştirdi. Segedin Antlaşması Eflak'ın hem İstanbul'a haraç ödemesini hem voyvodalarının nominal olarak Macar krallarına bağlı sayılmasını düzenleyen bir uzlaşma getirdi. Yerli voyvoda, bağımsız bir Ortodoks metropolitliği ve toprak sahibi boyarlar aracılığıyla iç yönetimini sürdürdü; karşılığında yıllık haraç ödedi, dış siyasette Osmanlı'ya tâbi oldu ve (başlangıçta) toprağında sürekli Osmanlı garnizonu bulunmadı. Bu düzen 1716'ya kadar sürdü — o tarihte yerli voyvodalar yerine Fenerli Rum yöneticiler atanmaya başlandı (1821'e kadar).\n\n"
     +"■ BOĞDAN (1455'ten) — AYNI MODELİN KUZEY KOLU\n"
@@ -250,7 +250,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0093 · Cezayir'de dayı idaresi ────────────────────────────────────────
 { id:"teknik-cezayir-dayilik", baslik:"Cezayir'de dayılık — İstanbul'un atadığı paşadan ocağın seçtiği daya", tur:"teknik-bilimsel",
   kisa:"İstanbul'un atadığı bir yönetici sonunda göreve hiç gelemez oldu — Cezayir'de asıl gücü kendi seçtikleri dayılar toplamıştı.",
-  metin:"■ OSMANLI HÂKİMİYETİNİN BAŞLANGICI (1516'dan)\n"
+  metin:"■ Osmanlı hâkimiyetinin başlangıcı (1516'dan)\n"
     +"Cezayir halkı İspanyol işgaline karşı yardım istedi; kardeşler Oruç ve Hızır (Barbaros) Reis 1516'da Cezayir'i aldı. Hayreddin Barbaros, Osmanlı padişahının desteğini alıp şehirde onun adına hutbe okutarak bölgeyi resmen Osmanlı idaresine bağladı.\n\n"
     +"■ 'GARP OCAKLARI' — YARI ÖZERK BİR ASKERÎ SİSTEM\n"
     +"Cezayir, Garp Ocakları denen yarı özerk askerî-idarî yapı içinde yönetildi; sistem dört evreden geçti: beylerbeyilik dönemi (1518-1587), paşalar dönemi (1587-1659), ağalar dönemi (1659-1671) ve deyler dönemi (1671-1830).\n\n"
@@ -271,7 +271,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0094 · Osmanlı-Fas ilişkileri ─────────────────────────────────────────
 { id:"teknik-osmanli-fas-iliskileri", baslik:"Osmanlı-Fas ilişkileri", tur:"teknik-bilimsel",
   kisa:"Osmanlı bir Fas şehrini dokuz ay elinde tuttu, sonra hiç geri dönmedi — geri kalan üç asır elçi ve hediye alışverişiyle geçti.",
-  metin:"■ TEK KISA İŞGAL — FAS ŞEHRİ, 1554\n"
+  metin:"■ Tek kısa işgal — Fas şehri, 1554\n"
     +"Osmanlılar Fas'ı (Fez'i) hiçbir zaman kalıcı biçimde ele geçirmedi. Tek somut askerî varlık, komutan Sâlih Paşa yönetimindeki kuvvetlerin 1554'te Fas şehrini alıp yalnız dokuz ay elde tutmasıdır.\n\n"
     +"■ VÂDİÜLMEHÂZİN SAVAŞI (1578) — DESTEK, İLHAK DEĞİL\n"
     +"Sa'dî hükümdarı Mevlây Muhammed Fas'ı birleştirmeye çalışırken Cezayir'den Osmanlı yayılması bir tehdit olarak görülüyordu. Osmanlı destekli Sultan Abdülmelik'in Portekiz Kralı Sebastian'ı yendiği Vâdiülmehâzin (Ksar el-Kebir) Savaşı (1578) tarihe geçse de bu zafer kalıcı bir Osmanlı hâkimiyeti KURMADI — Fas bağımsız bir Sa'dî devleti olarak kaldı.\n\n"

@@ -206,7 +206,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"802 (1400) yılında Timur karşısında tutunamayan Kara Yûsuf, Osmanlı topraklarına sığındı. Yıldırım Bayezid'in Kara Yûsuf'u teslim etmeyi reddetmesi, Timur ile Osmanlı arasındaki gerginliğin ve iki yıl sonraki Ankara Savaşı'nın sebeplerinden biri sayılır — yani Karakoyunlu hükümdarının şahsî kaderi, çağın en büyük savaşının fitillerinden biri olmuştur.",
   kaynak:"karakoyunlular" },
 
-{ t:"1402-07-28", b:"ANKARA SAVAŞI — Kara Yûsuf'un sığındığı Osmanlı devleti çöktü", tur:"savas",
+{ t:"1402-07-28", b:"Ankara Savaşı — Kara Yûsuf'un sığındığı Osmanlı devleti çöktü", tur:"savas",
   onem:4, dunya:4, kapsam:"dis", etiket:["askeri","savas","timur","osmanli","konu-askeri"],
   yer_id:"Ankara",
   d:"Timur'un Yıldırım Bayezid'i Ankara'da yenmesi, Kara Yûsuf'un sığındığı gücü ortadan kaldırdı ve onu yeniden yollara düşürdü. Karakoyunlu açısından bu savaş bir yenilgi ya da zafer değil, Timurlu hâkimiyetinin artık Anadolu'yu da kapsadığının ilânıdır.", ic_not_d:"⚠️ `dunya:4` değeri var olan kronoloji dosyalarından DEVRALINDI, bu oturumda yeniden takdir edilmedi.",
@@ -440,7 +440,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"1 Zilkade 870 (15 Haziran 1466) günü Bağdat kuşatması sona erdi, Pîr Budak idam edildi ve şehrin valiliğine Tuvacı Alpavut Muhammed getirildi. Cihan Şah kendi oğlunu idam ettirerek isyanı bastırdı, ancak ordusu yıpranmış ve Akkoyunlu tehdidiyle yüzleşeceği anda zayıf düşmüştü.",
   kaynak:"karakoyunlular" },
 
-{ odak_yer:["Tebriz"], t:"1467-11-10", b:"BİNGÖL BASKINI — Cihan Şah öldürüldü", tur:"kayip",
+{ odak_yer:["Tebriz"], t:"1467-11-10", b:"Bingöl baskını — Cihan Şah öldürüldü", tur:"kayip",
   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","olum","akkoyunlu","donum-noktasi","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"12 Rebîülâhir 872 (10 Kasım 1467) günü Cihan Şah, Bingöl-Kiğı arasında Uzun Hasan'ın şafak baskınında öldürüldü; altı bin asker, iki oğlu (Muhammedî ve Yûsuf) ve bütün emîrleri esir düştü. Cesedi Tebriz'de kendi yaptırdığı Muzafferiye Medresesi'ne gömüldü. Yirmi dokuz yıllık saltanatın ve fiilen Karakoyunlu Devleti'nin sonudur: hanedan bundan sonra iki yıl daha yaşayacak ama bir daha toparlanamayacaktır.", ic_not_d:"⚠️ Bingöl ve Kiğı'nın atlas verisinde yerleşim kaydı YOKTUR — bir hanedanın bittiği yerin haritada karşılığı bulunmuyor. `dunya:2` var olan kayıttan DEVRALINDI.",

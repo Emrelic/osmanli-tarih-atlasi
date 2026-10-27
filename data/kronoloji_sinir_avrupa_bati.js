@@ -51,7 +51,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Berlin"], t:"1415-01-01", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"",
   b:"İsviçrelilerin Aargau'yu fethi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["konu-siyasi","isvicre","almanya"],
-  d:"İmparatorluktan sürgün edilen Habsburg Dükü IV. Friedrich'in Aargau'daki topraklarını İsviçreliler (Uri hariç) Nisan 1415'te ele geçirdi. Bern iki haftada Aarburg, Aarau, Zofingen, Lenzburg ve Brugg'u aldı; Luzern ve Zürih de birer pay aldı. Tarih YIL düzeyindedir: kaynak ayı veriyor, günü vermiyor.",
+  d:"İmparatorluktan sürgün edilen Habsburg Dükü IV. Friedrich'in Aargau'daki topraklarını İsviçreliler (Uri hariç) Nisan 1415'te ele geçirdi. Bern iki haftada Aarburg, Aarau, Zofingen, Lenzburg ve Brugg'u aldı; Luzern ve Zürih de birer pay aldı. Tarih yıl düzeyindedir: kaynak ayı veriyor, günü vermiyor.",
   kaynak:"Historisches Lexikon der Schweiz 'Aargau'" },
 
 { odak_yer:["Arras"], t:"1482-12-23", devlet:"fransa", devletler:["fransa","almanya"], sinir_id:"",
@@ -81,7 +81,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Bretanya"], t:"1532-01-01", devlet:"fransa", devletler:["fransa","bretanya"], sinir_id:"",
   b:"Bretanya'nın Fransa tacına bağlanması (Birleşme Fermanı)", tur:"bolunme", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["konu-siyasi","fransa","bretanya"],
-  d:"Nantes'ta çıkarılan Birleşme Fermanı Bretanya dükalığını Fransa tacına ebediyen bağladı; Bretanya'nın vergi rızası ve adalet düzeni gibi hakları korundu. Kaynak ayı veriyor (Ağustos 1532), günü vermiyor; tarih YIL düzeyindedir.",
+  d:"Nantes'ta çıkarılan Birleşme Fermanı Bretanya dükalığını Fransa tacına ebediyen bağladı; Bretanya'nın vergi rızası ve adalet düzeni gibi hakları korundu. Kaynak ayı veriyor (Ağustos 1532), günü vermiyor; tarih yıl düzeyindedir.",
   kaynak:"Loire-Atlantique Departman Arşivleri 'Édit d'union 1532' (asıl belge: Archives nationales AE/II/587)" },
 
 { odak_yer:["Bern"], t:"1536-01-22", devlet:"isvicre", devletler:["isvicre","savoya"], sinir_id:"dg5-sa-ch-1",
@@ -374,13 +374,13 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Tarvis","İtalya"], t:"1920-01-01", devlet:"italya", devletler:["italya","avusturya-cumhuriyet"], sinir_id:"d1923-it-at",
   b:"Saint-Germain Antlaşması yürürlüğe girdi — Güney Tirol ve Tarvis İtalya'ya", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","avusturya-cumhuriyet"],
-  d:"10 Eylül 1919'da imzalanan Saint-Germain Antlaşması'nın 27(2). maddesi Avusturya–İtalya sınırını Reschen, Brenner ve Karn Alpleri boyunca çizdi; Güney Tirol ile Tarvis İtalya'ya geçti. Büyükelçiler Konferansı 22 Temmuz 1920'de demarkasyon talimatını verdi, işaretleme 1924'te bitti. Metnin 'yerinde belirlenecek' dediği üç alt kesim (Reschen, Drava geçişi, Thörl) 1923'te henüz kesinleşmemişti. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
+  d:"10 Eylül 1919'da imzalanan Saint-Germain Antlaşması'nın 27(2). maddesi Avusturya–İtalya sınırını Reschen, Brenner ve Karn Alpleri boyunca çizdi; Güney Tirol ile Tarvis İtalya'ya geçti. Büyükelçiler Konferansı 22 Temmuz 1920'de demarkasyon talimatını verdi, işaretleme 1924'te bitti. Metnin 'yerinde belirlenecek' dediği üç alt kesim (Reschen, Drava geçişi, Thörl) 1923'te henüz kesinleşmemişti. Tarih yalnız yıl düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
   kaynak:"IBS No. 58 (Revised) Austria–Italy (md. 27 alıntısı, 1920 talimatı, 1924 demarkasyonu)" },
 
 { odak_yer:["İtalya"], t:"1920-01-01", devlet:"italya", devletler:["italya","isvicre"], sinir_id:"d1923-it-ch-saintgermain",
   b:"Güney Tirol'le birlikte eski Avusturya–İsviçre sınırının bir kesimi İtalya–İsviçre sınırı oldu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","isvicre"],
-  d:"Saint-Germain Antlaşması'yla Güney Tirol'ün İtalya'ya geçmesi, İtalya–İsviçre sınırını Cima Garibaldi'den Piz Lad'a kadar 53,5 km uzattı. Hat eski Avusturya–İsviçre sınırıydı ve değişmeden devralındı. İki ülke bu kesimi 1920-1927 arasında yeniden işaretledi ve çalışmayı 1927-1928 nota teatisiyle kabul etti. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
+  d:"Saint-Germain Antlaşması'yla Güney Tirol'ün İtalya'ya geçmesi, İtalya–İsviçre sınırını Cima Garibaldi'den Piz Lad'a kadar 53,5 km uzattı. Hat eski Avusturya–İsviçre sınırıydı ve değişmeden devralındı. İki ülke bu kesimi 1920-1927 arasında yeniden işaretledi ve çalışmayı 1927-1928 nota teatisiyle kabul etti. Tarih yalnız yıl düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
   kaynak:"IBS No. 12 Italy–Switzerland" },
 
 { odak_yer:["Danimarka","Almanya"], t:"1920-07-05", devlet:"danimarka", devletler:["danimarka","almanya"], sinir_id:"d1923-dk-de",

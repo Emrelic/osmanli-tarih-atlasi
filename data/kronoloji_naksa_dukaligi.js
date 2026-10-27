@@ -100,7 +100,7 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 
 { t:"1669-01-01", b:"Osmanlı sayımında Nakşa'nın Latin ve Ortodoks nüfusu", tur:"sosyal", onem:3, dunya:1, kapsam:"ic", yer_id:"Nakşa",
   etiket:["sosyal","idari","konu-idari","konu-sosyal"],
-  d:"17. yüzyıl sayımına göre kale mahallesinde yaklaşık 172 Latin Katolik hane, varoşta 249 Ortodoks hane vardı ve toplam nüfus altı bin dolayındaydı. Latinler dukalık gittikten sonra bile kale içinde ayrı ve ayrıcalıklı bir topluluk olarak yaşamayı sürdürdüler. Sayı, Latin hâkimiyetinin bir FETİH değil ince bir tabaka olduğunu gösterir.",
+  d:"17. yüzyıl sayımına göre kale mahallesinde yaklaşık 172 Latin Katolik hane, varoşta 249 Ortodoks hane vardı ve toplam nüfus altı bin dolayındaydı. Latinler dukalık gittikten sonra bile kale içinde ayrı ve ayrıcalıklı bir topluluk olarak yaşamayı sürdürdüler. Sayı, Latin hâkimiyetinin bir fetih değil ince bir tabaka olduğunu gösterir.",
   kaynak:"TDV 'naksa' md.: 1669-1670 sayımı, kale mahallesinde ~172 Latin Katolik hane, varoşta 249 Ortodoks hane, toplam ~6000 · Slot, Archipelagus Turbatus · gün bilinmiyor" },
 
 // ── EK PARTİ: toplum · hukuk · iktisat · din · mimarî ──

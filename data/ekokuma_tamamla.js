@@ -67,7 +67,7 @@ window.EKOKUMA_TAMAMLA = [
 
 { id:"teknik-osmanli-spor-gelenekleri", baslik:"Osmanlı'da güreş ve spor gelenekleri", tur:"spor",
   kisa:"Padişahlar pehlivanlara tekke açtı, ödül dağıttı, kimi zaman da yasakladı — güreş Osmanlı'da bir eğlence değil, devlet işiydi.",
-  metin:"■ GÜREŞÇİ TEKKELERİ\n"
+  metin:"■ Güreşçi tekkeleri\n"
     +"Pehlivanlık kurumsal bir yapıydı: bir şeyh liderliğinde 'dervişler' denen güreşçiler tekkelerde örgütlenir, konaklama ve antrenman meydanı bu tekkelerde bulunur, giderleri vakıf gelirinden karşılanırdı. Orhan Bey Bursa'da, I. Murad Edirne'de (Ali Paşa Çarşısı yakınında) ilk tekkeleri açtı; II. Murad Manisa'da, sonra İstanbul'da Unkapanı ve Şebsafâ civarında benzerleri kuruldu.\n\n"
     +"■ PADİŞAHLARIN İLGİSİ — İKİ UÇTA\n"
     +"II. Bayezid ayrıntılı ödül kayıtları bıraktı: 1504'te güreşçi Beşir Ahmed'e 3000 akçe bağışladı. Buna karşılık II. Abdülhamid başlangıçta güreşi yasakladı, ancak 1890'dan sonra Osmanlı güreşçilerinin Avrupa'daki başarılarıyla tutumunu değiştirip yeniden teşvik etti. XIX. yüzyılda Sultan Abdülaziz'in kişisel merakı ayrı bir dönem başlattı.\n\n"
@@ -91,7 +91,7 @@ window.EKOKUMA_TAMAMLA = [
 { id:"tartisma-selim-ii-kibris-sarap-efsanesi", tur:"tartisma",
   ad:"Kıbrıs'ı şarap için mi fethetti? II. Selim ve bir efsanenin sınırları",
   kisa:"Halk arasında 'Sarı Selim, adanın şarabı için Kıbrıs'ı aldırdı' denilir — TDV'nin kendi anlatımında sefer ile içki arasında hiçbir bağ kurulmaz.",
-  metin:"II. Selim'in içkiye düşkünlüğü ile 1571 Kıbrıs seferi arasında bağ kuran popüler bir anlatı vardır. TDV'nin II. Selim maddesi padişahı gerçekten 'zevk ve eğlenceye düşkün, içki meclislerine müdavim' olarak tanımlar — ama Kıbrıs seferini anlatan bölümde bu düşkünlükle bir GEREKÇE bağı kurmaz; sefer tamamen askerî-stratejik çerçevede (Venedik'le gerilim, Doğu Akdeniz güvenliği, hac ve ticaret yollarının denetimi) anlatılır. Yani 'şarap için sefer' iddiası bu kaynakta doğrulanmaz, ama çürütülmez de — TDV konuyu hiç İŞLEMEZ.\n\n"
+  metin:"II. Selim'in içkiye düşkünlüğü ile 1571 Kıbrıs seferi arasında bağ kuran popüler bir anlatı vardır. TDV'nin II. Selim maddesi padişahı gerçekten 'zevk ve eğlenceye düşkün, içki meclislerine müdavim' olarak tanımlar — ama Kıbrıs seferini anlatan bölümde bu düşkünlükle bir gerekçe bağı kurmaz; sefer tamamen askerî-stratejik çerçevede (Venedik'le gerilim, Doğu Akdeniz güvenliği, hac ve ticaret yollarının denetimi) anlatılır. Yani 'şarap için sefer' iddiası bu kaynakta doğrulanmaz, ama çürütülmez de — TDV konuyu hiç işlemez.\n\n"
     +"İslâm hukukunda içki kesin haramdır (Mâide 90-91) ve bu yasak teoride Osmanlı'da da geçerliydi; ama meyhâneler ('hânût', 'hammâre') hiç kapanmadı, ticaretini çoğunlukla gayrimüslim tüccarlar yürüttü, panayır ve konaklama yerlerinde satış sürdü. Hükümdarların tutumu değişkendi: kimi (IV. Murad gibi, bk. 'kahve-kahvehane-yasagi' kartı) sert yasaklarla mücadele etti, kimi (II. Selim gibi) kişisel olarak içkiye düşkündü — resmî yasak hiçbir dönemde içkiyi tamamen ortadan kaldıramadı.\n\n"
     +"TDV'nin kendi kaydında ilginç bir ayrıntı var: Ramazan ayında içkiyi bırakmaya (tövbe) kalkışması baş dönmesiyle sonuçlanmış, bu rahatsızlık ölümüne götüren sürecin bir parçası sayılmıştır.",
   not:"'Sarı Selim' lakabının kaynağı doğrulanamadı — okunan TDV metninde açıkça geçmiyor; kartta iddia edilmedi.",
@@ -104,7 +104,7 @@ window.EKOKUMA_TAMAMLA = [
 
 { id:"teknik-osmanli-kiyafet-statu", baslik:"Osmanlı'da kıyafet ve statü", tur:"kultur-sanat",
   kisa:"Bir sadrazamı sokakta tanımak için konuşmasını duymaya gerek yoktu — kıyafeti zaten söylüyordu.",
-  metin:"■ KIYAFET, BİR KİMLİK KARTIYDI\n"
+  metin:"■ Kıyafet, bir kimlik kartıydı\n"
     +"Osmanlı toplumunda giysi rastgele bir tercih değildi: resmî görevliler, askerî zümreler, din görevlileri ve tarikat mensuplarının her biri kendine has kıyafetiyle tanınırdı. Beyaz renk bir ayrıcalık sayılırdı — sadrazam ve şeyhülislâm gibi en üst rütbeliler beyaz merasim elbisesiyle ayırt edilirdi.\n\n"
     +"■ 1568 FERMÂNI — GAYRİMÜSLİMLERİN KIYAFETİ\n"
     +"Rebîülevvel 976 (1568) tarihli bir fermân gayrimüslimlerin giyimini ayrıntılı biçimde düzenledi: Yahudi ve Hıristiyan erkekler sürmeî/karaca renkte çuha ferace, pamuklu-ipekli kuşak ve sade tülbent giyecek, siyah yassı ayakkabı kullanacaktı; Ermenilere alaca kuşak ve siyah/sürmeî Bursa kutnusu ayrıldı. Kadınlara ferace yasaklanıp fahir/kundura giymeleri şart koşuldu. Başka fermanlar Yahudilere kırmızı, Hıristiyanlara siyah şapka giydirdi.\n\n"
@@ -121,7 +121,7 @@ window.EKOKUMA_TAMAMLA = [
 
 { id:"teknik-tophane-tersane-amire", baslik:"Tophâne-i Âmire ve Tersâne-i Âmire", tur:"teknik-bilimsel",
   kisa:"Bir top dökümhanesi ile bir tersane, Osmanlı'yı XVI. yüzyılda Avrupa'ya karşı üstün kılan iki devlet fabrikasıydı.",
-  metin:"■ TOPHÂNE-İ ÂMİRE — TOP DÖKÜMÜ\n"
+  metin:"■ Tophâne-İ Âmire — top dökümü\n"
     +"İstanbul'un fethinden sonra Galata yakınında faaliyete geçen Tophâne-i Âmire Osmanlı'nın en önemli top döküm merkeziydi (Edirne'de fetihten önce de sabit bir tophane vardı). Kanûnî Sultan Süleyman döneminde (1520-1566) bütün yapılar yıktırılıp daha büyük tesisler kuruldu; XV-XVI. yüzyıllar topçulukta bir 'altın çağ' sayılır — Osmanlı bu alanda Avrupalı rakiplerine üstünlük sağladı. 1719'daki bir yangında binalar yandı, 1733'te tuğladan yeniden inşa edildi. XIX. yüzyılda II. Mahmud döneminde (1808-1839) İngiltere'nin Woolwich Cephanesi örnek alınarak tesisler yenilendi.\n\n"
     +"■ TERSÂNE-İ ÂMİRE — GEMİ İNŞASI\n"
     +"Osmanlı'nın ilk tersanesi 1390'da Gelibolu'da kuruldu; asıl büyük merkez Yavuz Sultan Selim'in 1513-1514'te Galata'da inşa ettirdiği tesistir — belgelerde 'tersane' adı ilk kez 920 (1514) yılında geçer. 1513'te ilk dört göz tamamlandı, 1514 yazına kadar yüz göz bitirildi; Galata'dan Kâğıthane deresine kadar 500 göz planlanmışken 1515'te 160 göz tamamlanabildi. Kürekli, yelkenli, sonradan buharlı gemilerin inşa ve onarımını üstlenen tersane XVI-XVII. yüzyıllarda Akdeniz'de eşi görülmemiş bir kurumdu. 1775'te bünyesinde bir mühendishâne açıldı, 1797-1800 arasında Büyük Havuz tamamlandı, 1827'de ilk buharlı gemi Sür'at hizmete girdi.\n\n"
@@ -138,8 +138,8 @@ window.EKOKUMA_TAMAMLA = [
   kisa:"Bir şehzadenin ya da sultanın doğumu, sünnet veya düğün kadar sık olmasa da, kendi başına bir saray şenliği ve edebî eser konusu olabilirdi.",
   sebep:{ b:"III. Mustafa'nın kızı Hibetullah Sultan'ın dünyaya gelmesi", t:"1759-01-01" },
   sonuc:{ b:"Yedi gün yedi gece süren bir doğum şenliğinin (velâdet-i hümâyun) düzenlenmesi ve şair Haşmet'in bunu 'Vilâdetnâme-i Hibetullah Sultan' adlı bir sûrnâmede anlatması", t:"1759-01-01" },
-  bag:"Sûrnâme türü esas olarak SÜNNET (bk. Şehzade Mehmed'in Sünnet Düğünü kartı) ve düğün şenliklerini anlatır; doğum şenlikleri bu türde daha SEYREK işlenir. TDV'nin verdiği iki örnekten biri budur, öteki 1776'da Hatice Sultan'ın doğumudur (Melek İbrâhim'in 'Vilâdetnâme-i Hadîce Sultan'ı).",
-  metin:"Osmanlı sarayında bir şehzade ya da sultanın doğumu, hanedanın sürekliliğini halka göstermenin bir fırsatıydı ve bazen — sünnet ya da düğün kadar sık olmasa da — kendi başına bir şenlik ve edebî eser konusu oldu. Haşmet'in kaleme aldığı 'Vilâdetnâme-i Hibetullah Sultan', III. Mustafa'nın kızının doğumu üzerine düzenlenen yedi günlük kutlamayı anlatır. Ölüm ve cenaze törenleri ise sûrnâme türünün KAPSAMI DIŞINDADIR — bu tür yalnız sevinç vesilesi olan saray törenlerini (sünnet, düğün, doğum) konu alır; bir padişahın cenaze protokolü tamamen ayrı bir anlatı geleneğine, vakayinamelere aittir.",
+  bag:"Sûrnâme türü esas olarak sünnet (bk. Şehzade Mehmed'in Sünnet Düğünü kartı) ve düğün şenliklerini anlatır; doğum şenlikleri bu türde daha seyrek işlenir. TDV'nin verdiği iki örnekten biri budur, öteki 1776'da Hatice Sultan'ın doğumudur (Melek İbrâhim'in 'Vilâdetnâme-i Hadîce Sultan'ı).",
+  metin:"Osmanlı sarayında bir şehzade ya da sultanın doğumu, hanedanın sürekliliğini halka göstermenin bir fırsatıydı ve bazen — sünnet ya da düğün kadar sık olmasa da — kendi başına bir şenlik ve edebî eser konusu oldu. Haşmet'in kaleme aldığı 'Vilâdetnâme-i Hibetullah Sultan', III. Mustafa'nın kızının doğumu üzerine düzenlenen yedi günlük kutlamayı anlatır. Ölüm ve cenaze törenleri ise sûrnâme türünün kapsamı dışındadır — bu tür yalnız sevinç vesilesi olan saray törenlerini (sünnet, düğün, doğum) konu alır; bir padişahın cenaze protokolü tamamen ayrı bir anlatı geleneğine, vakayinamelere aittir.",
   kesinlik:"kesin",
   zincir:[],
   olay:[],

@@ -35,7 +35,7 @@ window.EKOKUMA_KURUM2 = [
   // UYGULA-KART-0930: soru/baslik/ad yoktu ve EKOBASLIK_ONERI'de satırı yoktu ⇒ satır başlığı BOŞ basılıyordu.
   baslik:"Mühendishâne-i Bahrî-i Hümâyun (1775): Çeşme'den doğan ilk modern okul",
   kisa:"Çeşme'de yanan bir donanmanın külünden bir okul doğdu — ilk müdürü Osmanlı değil, Macar asıllı bir Fransız baronuydu.",
-  metin:"■ NİÇİN KURULDU\n"
+  metin:"■ Niçin kuruldu\n"
     +"1768-1774 Osmanlı-Rus savaşındaki teknik yetersizlikler ve özellikle 1770 Çeşme baskınının donanmayı neredeyse yok etmesi, eğitimli denizci subay ihtiyacını açıkça ortaya koydu. Mühendishâne-i Bahrî-i Hümâyun bu ihtiyaca cevap olarak I. Abdülhamid döneminde, Sadrazam Derviş Mehmed Paşa'nın üçüncü sadâreti sırasında kuruldu.\n\n"
     +"■ İKİ AYRI TARİH — KAYNAK KENDİ İÇİNDE ÇELİŞİYOR\n"
     +"TDV maddesi kuruluşu iki farklı tarihle veriyor ve ikisini de uzlaştırmıyor: Fransız arşiv belgelerine göre açılış 29 Nisan 1775; Osmanlı kaydına göre ise Cemâziyelevvel 1189 (aşağı yukarı Temmuz 1775) — yaklaşık iki aylık bir fark var. Bu kart ikisini de aktarıyor, taraf tutmuyor.\n\n"
@@ -61,8 +61,8 @@ window.EKOKUMA_KURUM2 = [
 
 // ── H-0016 · Osmanlı vergi sistemi ──────────────────────────────────────────
 { id:"teknik-osmanli-vergi-sistemi", baslik:"Osmanlı vergi sistemi — şer'î ve örfî vergiler", tur:"teknik-bilimsel",
-  kisa:"Bir reayanın ne kadar vergi ödeyeceği önce dinine, sonra oturduğu yere bakardı — imparatorluk boyunca TEK bir vergi cetveli hiç olmadı.",
-  metin:"■ İKİ KATEGORİ: ŞER'Î VE ÖRFÎ\n"
+  kisa:"Bir reayanın ne kadar vergi ödeyeceği önce dinine, sonra oturduğu yere bakardı — imparatorluk boyunca tek bir vergi cetveli hiç olmadı.",
+  metin:"■ İki kategori: şer'î ve örfî\n"
     +"Osmanlı vergileri (tekâlîf) iki ana kümede toplanırdı: tekâlîf-i şer'iyye (İslâmî temelli — zekât, öşür, haraç, cizye) ve tekâlîf-i örfiyye (padişahın kanununa dayalı — avârız, ağnam resimleri, çeşitli rüsûm/resimler). TDV'nin tabiriyle tekâlîf, 'nakdî, aynî ve bedenî yükümlülükleri' kapsardı — yani vergi her zaman para olarak alınmazdı.\n\n"
     +"■ KİM TOPLARDI\n"
     +"Vergi tahsilinde muhassıl, mütesellim, cizyedar, bâcbân gibi görevliler çalışırdı. Tanzimat öncesinde toplama işi çoğunlukla iltizam (vergi çiftçiliği) usulüyle özel kişilere ihale edilirdi — devlet doğrudan toplamak yerine tahsil hakkını satardı (bk. ayrı kart: iltizam sistemi). TDV, bu usulün dönemler boyunca 'zulüm ve suistimal' endişesi yarattığını kaydediyor.\n\n"
@@ -92,7 +92,7 @@ window.EKOKUMA_KURUM2 = [
   // UYGULA-KART-0930: soru/baslik/ad yoktu ve EKOBASLIK_ONERI'de satırı yoktu ⇒ satır başlığı BOŞ basılıyordu.
   baslik:"İki mühendishanenin sonraki hayatı: İTÜ, Harbiye ve Deniz Harp Okulu",
   kisa:"İki mühendishaneden biri bugünkü bir üniversitenin, öteki bugünkü bir harp okulunun ilk çekirdeği oldu — ve ikisi de aynı Nizâm-ı Cedîd rüzgârından doğdu.",
-  metin:"■ MÜHENDİSHÂNE-İ BERRÎ-İ HÜMÂYUN (1795) — İTÜ'NÜN VE HARBİYE'NİN ORTAK KÖKÜ\n"
+  metin:"■ Mühendishâne-İ Berrî-İ Hümâyun (1795) — İTÜ'nün ve Harbiye'nin ortak kökü\n"
     +"Deniz mühendishanesinden yirmi yıl sonra, 1210'da (1795) Hasköy'de kara mühendisleri yetiştirmek için kuruldu; TDV'nin kendi ifadesiyle 'Nizâm-ı Cedîd'in en önemli kurumlarından biri'ydi. İlk hocalar tamamen Türk'tü — başlarında Abdurrahman Efendi vardı, yabancı öğretmen YOKTU; 1801'de ihtida etmiş bir İngiliz mühendis (Selim/Bailey adıyla anılan) kadroya katıldı. Müfredat istihkâm, harita/arazi ölçümü (kadastro), topçuluk ve diferansiyel-integral hesaba kadar uzanan ileri matematik, ayrıca Fransızca ve Arapça dersleriydi.\n\n"
     +"■ BERRÎ'NİN ZİKZAKLI YOLU\n"
     +"1806'da Eyüp'e taşındı ve bağlı olduğu askerî birlikten ayrıldı; 1808'de eski Hasköy binasına döndü. 1826-1839 arası ihmal edilen bir dönem yaşadı, II. Mahmud'un ıslahatlarıyla yeniden canlandırıldı. 1883'te ona bağlı olarak Hendese-i Mülkiyye Mektebi (sivil mühendislik okulu) açıldı, 1908'de ayrı bir sivil mühendislik mektebi kuruldu. 1928-1944 arası çeşitli eğitim reformlarından geçti.\n\n"
@@ -134,7 +134,7 @@ window.EKOKUMA_KURUM2 = [
   // UYGULA-KART-0930: soru/baslik/ad yoktu ve EKOBASLIK_ONERI'de satırı yoktu ⇒ satır başlığı BOŞ basılıyordu.
   baslik:"Nizâm-ı Cedîd (1792-1807): sebebi, içeriği, direnişi ve sonu",
   kisa:"Bir ordu savaş meydanında değil, oy birliğiyle ateşkes isteyerek yenildiğini kabul etti — ve o toplantıdan bütün bir reform çağı doğdu.",
-  metin:"■ SEBEP — ŞUMNU'DAKİ OY BİRLİĞİ\n"
+  metin:"■ Sebep — Şumnu'daki oy birliği\n"
     +"1787-1792 Osmanlı-Rus/Avusturya savaşındaki ağır yenilgiler ve Ziştovi (Avusturya ile) Antlaşması, ordunun ve devlet erkânının kurumsal zaafını açıkça ortaya koydu. Ordu ve idare üst kademesi 11 Ağustos 1791'de Şumnu'da toplanıp savaşa devam edilemeyeceğine OY BİRLİĞİYLE karar verdi — III. Selim'i kapsamlı bir ıslahat programına iten doğrudan dönüm noktası budur.\n\n"
     +"■ İÇERİK — SİVİL VE ASKERÎ HER ŞEYİN YENİDEN DÜZENLENMESİ\n"
     +"Nizâm-ı Cedîd (1792-1807) Avrupa disiplininde eğitilmiş yeni bir ordunun kurulmasını, bu ordunun masrafını karşılamak için ayrı bir hazine olan İrâd-ı Cedîd'in açılmasını, Mühendishâne-i Berrî-i Hümâyun'un (1795) kurulup Mühendishâne-i Bahrî-i Hümâyun'un (1775) ıslah edilmesini, mühendishaneye bağlı bir matbaanın (1797) açılmasını, İstanbul ve Anadolu'da yeni kışlalar inşasını ve zahire nezaretinin (tahıl idaresi) suistimali önleyecek biçimde yeniden düzenlenmesini kapsadı. Reform kadrosunun başında Sadrazam Koca Yûsuf Paşa ve Mustafa Reşid gibi bürokratlar vardı; ulema tarafında Tatarcık Abdullah Efendi gibi isimler sürece destek verdi.\n\n"

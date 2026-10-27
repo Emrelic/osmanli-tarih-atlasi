@@ -6009,7 +6009,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   kaynak:"FRUS 1943 v06, belge 15 (Kolombiya Maslahatgüzarı Vargas Nariño'dan, 11 Aralık 1943) https://history.state.gov/historicaldocuments/frus1943v06/d15 (özet) · LoC Country Studies http://countrystudies.us/colombia/20.htm (özet)" },
 
 { t:"1943-11-29",
-  b:"AVNOJ ikinci toplantısı: Tito yönetimi yeni Yugoslavya'nın temelini attı",
+  b:"Avnoj ikinci toplantısı: Tito yönetimi yeni Yugoslavya'nın temelini attı",
   tur:"rejim",
   onem:4,
   dunya:2,
@@ -6424,7 +6424,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   gun:"15 Eylül 1944 (Encyclopedia of Latin American History and Culture)",
   yer:"Serchio vadisi (Pisa kuzeyi)",
   yer_kon:[43.85, 10.45],
-  d:"ABD 5. Ordusu emrinde İtalya'ya gönderilen 25.000 kişilik Brezilya Seferî Kuvveti'nin (FEB) 6. Alay Muharebe Grubu Pisa'nın kuzeyinde Serchio vadisinde cepheye girdi. Brezilya, Avrupa'da savaşan tek Latin Amerika devleti oldu; FEB Mayıs 1945'e dek Gotik Hat'ta savaştı.",
+  d:"ABD 5. Ordusu emrinde İtalya'ya gönderilen 25.000 kişilik Brezilya Seferî Kuvveti'nin (Feb) 6. Alay Muharebe Grubu Pisa'nın kuzeyinde Serchio vadisinde cepheye girdi. Brezilya, Avrupa'da savaşan tek Latin Amerika devleti oldu; Feb Mayıs 1945'e dek Gotik Hat'ta savaştı.",
   kaynak:"Encyclopedia.com — 'Brazilian Expeditionary Force (FEB)' https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/brazilian-expeditionary-force-feb (özet) · Library of Congress Research Guides 'Brazil in World War II' (özet)",
   ic_not_d:"LoC rehberi 'Beginning on July 18, 1944 ... joined the Italian campaign' diyor (ilk kafilenin varışı olabilir); ELAHC 'August 1944' ve cepheye giriş 15 Eylül. Cepheye giriş günü seçildi." },
 
@@ -6822,7 +6822,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   gun:"21 Şubat 1945 (Encyclopedia of Latin American History and Culture)",
   yer:"Monte Castello (Apeninler)",
   yer_kon:[44.17, 10.95],
-  d:"24 Kasım-12 Aralık 1944 arasındaki dört başarısız saldırının ardından Brezilya Seferî Kuvveti beşinci hücumda Apeninler'deki Alman mevzii Monte Castello'yu aldı. FEB'in savaştaki en tanınmış zaferidir.",
+  d:"24 Kasım-12 Aralık 1944 arasındaki dört başarısız saldırının ardından Brezilya Seferî Kuvveti beşinci hücumda Apeninler'deki Alman mevzii Monte Castello'yu aldı. Feb'in savaştaki en tanınmış zaferidir.",
   kaynak:"Encyclopedia.com — 'Brazilian Expeditionary Force (FEB)' https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/brazilian-expeditionary-force-feb (özet)" },
 
 { t:"1945-02-22",
@@ -7189,7 +7189,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   gun:"10 Haziran 1945 (Australian War Memorial)",
   yer:"Brunei Körfezi (Muara)",
   yer_kon:[5.03, 115.07],
-  d:"OBOE 6 harekâtında Avustralya kuvvetleri Brunei Körfezi'nin iki ucuna ve Labuan'a çıkarma yaptı. Dört gün içinde harekâtın ilk hedefleri alındı ve Brunei Japon işgalinden çıktı.",
+  d:"Oboe 6 harekâtında Avustralya kuvvetleri Brunei Körfezi'nin iki ucuna ve Labuan'a çıkarma yaptı. Dört gün içinde harekâtın ilk hedefleri alındı ve Brunei Japon işgalinden çıktı.",
   kaynak:"Australian War Memorial, Ooi Keat Gin, 'Prelude to invasion: covert operations before the re-occupation of Northwest Borneo, 1944-45' https://www.awm.gov.au/articles/journal/j37/borneo : 10 Haziran 1945 çıkarmalarından sonraki dört gün içinde OBOE 6'nın ilk hedeflerine ulaşıldı (özet)",
   ic_not_d:"Brunei kasabasının alınış günü ayrıca ölçülmedi." },
 

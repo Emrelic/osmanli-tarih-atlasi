@@ -419,7 +419,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Yıldırım Bayezid, Eflak seferindeki Rovine baskınının ardından Niğbolu kalesini de ele geçirdi; bazı anonim Bulgar kroniklerine göre fetih 3 Haziran 1395'te gerçekleşti. Bir yıl sonra bu kale, Haçlı ordusunun bozguna uğratıldığı meydan savaşına sahne olacaktır.",
   kaynak:"TDV `nigbolu`: 'Bazı anonim Bulgar kronikleri bu fethin 3 Haziran 1395'te gerçekleştiğini belirtir.'" },
 
-{ t:"1396-09-25", b:"NİĞBOLU — Avrupa'nın son büyük haçlı seferi bozguna uğradı", tur:"savas",
+{ t:"1396-09-25", b:"Niğbolu — Avrupa'nın son büyük haçlı seferi bozguna uğradı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"],
   yer_id:"Niğbolu",
   d:"Macar Kralı Sigismund önderliğindeki uluslararası Haçlı ordusu, Yıldırım Bayezid komutasındaki Osmanlı kuvvetlerine Niğbolu önlerinde ağır bir yenilgiye uğradı; bu zafer Osmanlı'nın Bulgar topraklarındaki hâkimiyetini kalıcılaştırdı.", ic_not_d:"Bu maddedeki dunya değeri kronoloji_bizans.js ile eşleştirildi (dunya:4); kronoloji_macaristan.js AYNI olaya dunya:3 veriyor — iki dosya arasında ÇELİŞKİ var, koordinatöre bildirilir.",
@@ -428,7 +428,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1396-10-01", b:"Vidin'in düşüşü — Bulgar Çarlığı sona erdi", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","son","konu-askeri","konu-siyasi"],
   yer_id:"Vidin",
-  d:"Niğbolu zaferinin ardından Yıldırım Bayezid, İvan Sratsimir'i Bursa'ya götürüp Vidin Prensliği'ni doğrudan imparatorluğa kattı; Bulgar Çarlığı'nın son parçası da böylece ortadan kalktı. Bu tarihten 1878'e (Berlin Antlaşması) kadar 482 yıl boyunca ayrı bir Bulgar devleti YOKTUR.", ic_not_d:"Tarih yerlesimler.js ve devletler.js kayıtlarıyla birebir eşleşiyor.",
+  d:"Niğbolu zaferinin ardından Yıldırım Bayezid, İvan Sratsimir'i Bursa'ya götürüp Vidin Prensliği'ni doğrudan imparatorluğa kattı; Bulgar Çarlığı'nın son parçası da böylece ortadan kalktı. Bu tarihten 1878'e (Berlin Antlaşması) kadar 482 yıl boyunca ayrı bir Bulgar devleti yoktur.", ic_not_d:"Tarih yerlesimler.js ve devletler.js kayıtlarıyla birebir eşleşiyor.",
   kaynak:"TDV `bulgaristan`: '1396'da Vidin'in düşüşüyle Osmanlı hâkimiyeti tamamlandı.' + TDV `vidin`." },
 
 // ═══════════════════════════════════════════════════════════════════
@@ -440,7 +440,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1444-11-10", b:"Varna Savaşı — Haçlı ordusu Bulgaristan topraklarında bozguna uğradı", tur:"savas",
   onem:2, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"],
   yer_id:"Varna",
-  d:"II. Murad, Macar-Leh Kralı Ulászló/Władysław önderliğindeki Haçlı ordusunu Varna önlerinde imha etti; kral savaş meydanında öldürüldü. Bu tarihte Bulgaristan'ın kendi devleti YOKTUR — savaş, Osmanlı'nın Balkanlar'daki Bulgar topraklarını içeren hâkimiyetinin kalıcılığını garanti etti. TDV maddesi bunu doğrudan 'Osmanlıların Bulgaristan'daki geleceğini garanti altına aldı' diye özetliyor.",
+  d:"II. Murad, Macar-Leh Kralı Ulászló/Władysław önderliğindeki Haçlı ordusunu Varna önlerinde imha etti; kral savaş meydanında öldürüldü. Bu tarihte Bulgaristan'ın kendi devleti yoktur — savaş, Osmanlı'nın Balkanlar'daki Bulgar topraklarını içeren hâkimiyetinin kalıcılığını garanti etti. TDV maddesi bunu doğrudan 'Osmanlıların Bulgaristan'daki geleceğini garanti altına aldı' diye özetliyor.",
   kaynak:"TDV `varna`: Osmanlı zaferinin 'Osmanlıların Bulgaristan'daki geleceğini garanti altına aldığı' belirtiliyor." },
 
 { t:"1688-09-01", b:"Chiprovtsi (Kiprovça) İsyanı — Katolik Bulgarların ayaklanması", gun:"Eylül 1688", tur:"isyan",
@@ -583,7 +583,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1908-10-05", b:"Bağımsızlık ilan edildi — Ferdinand 'Çar' unvanını aldı", tur:"kurulus",
   onem:5, dunya:4, kapsam:"dis", etiket:["siyaset","kurulus","konu-siyasi"],
   yer_id:"Tırnova",
-  d:"Ferdinand, Tırnova'daki Kırk Şehitler Kilisesi'nde Bulgaristan'ın Osmanlı'ya olan otuz yıllık tâbiiyetine son verip tam bağımsızlığını ve kendi 'çar' unvanını ilan etti; bu, tâbiiyetten çıkıştı, bir ilhaktan kurtuluş DEĞİLDİ — Prenslik zaten 1878'den beri özerkti.", ic_not_d:"Tarih devletler.js'teki her iki künyenin (prensligi t: / kralligi f:) ortak sınır tarihidir.",
+  d:"Ferdinand, Tırnova'daki Kırk Şehitler Kilisesi'nde Bulgaristan'ın Osmanlı'ya olan otuz yıllık tâbiiyetine son verip tam bağımsızlığını ve kendi 'çar' unvanını ilan etti; bu, tâbiiyetten çıkıştı, bir ilhaktan kurtuluş değildi — Prenslik zaten 1878'den beri özerkti.", ic_not_d:"Tarih devletler.js'teki her iki künyenin (prensligi t: / kralligi f:) ortak sınır tarihidir.",
   kaynak:"TDV `bulgaristan`: 'Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân etti.'" },
 
 { taraflar:["bulgaristan-kralligi"], t:"1912-03-13", b:"Sırp-Bulgar İttifak Antlaşması — Balkan İttifakı'nın çekirdeği kuruldu", tur:"diplomasi",
@@ -772,7 +772,7 @@ window.KRONOLOJI_BALKAN = [
 
 { t:"1463-05-01", b:"Bosna Krallığı'nın yıkılışı — Bobovac, Ključ ve Kral Tomašević'in idamı", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip","hukumdar","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"], yer_id:"Yayça (Jajce)",
-  d:"Fâtih Sultan Mehmed idaresindeki ordu, haracı reddeden Bosna'ya karşı hızlı bir sefer düzenledi; eski kraliyet kalesi Bobovac kısa bir kuşatmadan sonra düştü, kaçan Kral Tomašević Ključ'ta yakalanıp Yayça'da (Jajce) Fâtih'in huzuruna getirildi ve idam edildi. Krallığın yıkılışı ile Bosna'nın TAMAMININ fethi aynı şey değildir: ova zaten on beş yıldır fiilen Osmanlı ucundaydı, buna karşılık kuzeyde Yayça'yı Aralık 1463'te Macar kralı geri aldı ve bölge 1528'e kadar Macar elinde kaldı.",
+  d:"Fâtih Sultan Mehmed idaresindeki ordu, haracı reddeden Bosna'ya karşı hızlı bir sefer düzenledi; eski kraliyet kalesi Bobovac kısa bir kuşatmadan sonra düştü, kaçan Kral Tomašević Ključ'ta yakalanıp Yayça'da (Jajce) Fâtih'in huzuruna getirildi ve idam edildi. Krallığın yıkılışı ile Bosna'nın tamamının fethi aynı şey değildir: ova zaten on beş yıldır fiilen Osmanlı ucundaydı, buna karşılık kuzeyde Yayça'yı Aralık 1463'te Macar kralı geri aldı ve bölge 1528'e kadar Macar elinde kaldı.",
   kaynak:"veri (mevcut data/devletler.js kaydı, t:'1463-05-01'; data/olaylar_ek.js t:'1463-06-01' ile tutarlı) · TDV `bosna-hersek`: ...Fâtih Sultan Mehmed'in ordusunun Bosna'nın fethini tamamladı... · TDV `mehmed-ii`: 'Macar kralı Bosna'nın pâyitahtı Yayça'yı (Jajce) zaptetti (4 Rebîülâhir 868 / 16 Aralık 1463).' Bobovac/Ključ günleri (19-22 Mayıs 1463) yalnızca ikincil kaynaklarda bulundu, akademik birincil doğrulama yapılamadı." },
 
 // ═══════════════════════════════════════════════════════════════════

@@ -162,7 +162,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { odak_yer:["Belgrad"], taraflar:["sirp-despotlugu"], t:"1448-10-17", b:"II. Kosova Savaşı — despotluğun tarafsızlığı", tur:"savas",
   onem:2, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"",
-  d:"Hunyadi János'un Osmanlı'ya karşı düzenlediği haçlı seferi, Sırp Despotluğu topraklarından geçerken Đurađ Branković'in desteğini ALAMADI; despotluk, 1444'te iade edilen topraklarını yeniden tehlikeye atmamak için tarafsız kaldı ve hatta bazı kaynaklara göre Macar ordusunun geçişini engelledi.", ic_not_d:"II. Murad'ın zaferiyle Osmanlı'nın Balkanlar'daki konumu kalıcılaştı. dunya puanı kronoloji_macaristan.js'teki aynı olayla eşleştirildi.",
+  d:"Hunyadi János'un Osmanlı'ya karşı düzenlediği haçlı seferi, Sırp Despotluğu topraklarından geçerken Đurađ Branković'in desteğini alamadı; despotluk, 1444'te iade edilen topraklarını yeniden tehlikeye atmamak için tarafsız kaldı ve hatta bazı kaynaklara göre Macar ordusunun geçişini engelledi.", ic_not_d:"II. Murad'ın zaferiyle Osmanlı'nın Balkanlar'daki konumu kalıcılaştı. dunya puanı kronoloji_macaristan.js'teki aynı olayla eşleştirildi.",
   kaynak:"kronoloji_macaristan.js (1448-10-17, dunya:3) + akademik (Fine) — despotluğun tarafsızlığı için." },
 
 { t:"1459-06-20", b:"Semendire'nin düşüşü — Sırp Despotluğu'nun sonu", tur:"son",

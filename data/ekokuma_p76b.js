@@ -66,7 +66,7 @@ window.EKOKUMA_P76B = [
 
 { id:"bunv-romanya-1859", baslik:"Romanya neden var? Eflak ve Boğdan'ın birleşmesi", tur:"bu-ulke-neden-var",
   kisa:"Romanya, bir savaşla değil bir seçim hilesiyle doğdu: iki ayrı prensliğin meclisleri aynı adamı seçti ve Avrupa bu oldubittiyi geri alamadı.",
-  metin:"■ ÖNCE İKİ AYRI ÜLKE VARDI\n"
+  metin:"■ Önce iki ayrı ülke vardı\n"
     +"Bugünkü Romanya'nın çekirdeği, yüzyıllarca Osmanlı'ya bağlı iki ayrı voyvodalıktı: Eflak (güneyde, Tuna boyunda) ve Boğdan (kuzeydoğuda). İkisi de Osmanlı toprağı sayılıyordu ama doğrudan yönetilmiyordu; kendi voyvodaları, kendi kiliseleri, kendi vergileri vardı ve İstanbul'a yıllık vergi ödüyorlardı. Yani devlet olma alışkanlığı zaten mevcuttu — eksik olan, ikisinin TEK devlet olmasıydı.\n\n"
     +"■ AYIRAN NEYDİ, BİRLEŞTİREN NE OLDU\n"
     +"İki prensliği ayrı tutan şey coğrafya ve büyük devlet dengesiydi. Kırım Savaşı'nı bitiren 1856 Paris Antlaşması iki prensliği Osmanlı'ya bağlı bırakmakla birlikte Rus himayesinden çıkarıp Avrupa'nın ortak garantisi altına aldı. Ortak garanti demek, her birinin ayrı ayrı meclis kurması demekti — ve o meclisler birleşme istedi. Avrupa devletleri birleşmeye sıcak bakmıyordu; iki prensliğin ayrı kalması, hiçbirinin diğerinden fazla kazanmaması anlamına geliyordu.\n\n"
@@ -82,7 +82,7 @@ window.EKOKUMA_P76B = [
 
 { id:"bunv-lubnan-1861", baslik:"Lübnan neden Suriye'den ayrı? 1861 özel statüsü", tur:"bu-ulke-neden-var",
   kisa:"Lübnan'ın sınırını çizen şey dağ değil bir katliamdı: 1860'ın iç savaşından sonra Avrupa'nın dayattığı özel statü, Suriye'den ayrı bir idarî varlık yarattı.",
-  metin:"■ SORUYU DOĞRU SORMAK\n"
+  metin:"■ Soruyu doğru sormak\n"
     +"\"Lübnan neden Suriye'nin parçası değil?\" sorusunun cevabı 20. yüzyılda, Fransız mandasında aranır. Oysa ayrılığın idarî temeli bir yüzyıl önce, Osmanlı döneminde atıldı ve sebebi mezhep coğrafyasıydı.\n\n"
     +"■ DAĞDA İKİ TOPLUM\n"
     +"Cebel-i Lübnan, Mârûnî hıristiyanlarla Dürzîlerin iç içe yaşadığı bir dağ bölgesiydi. Osmanlı burayı doğrudan değil, yerli emîr aileleri üzerinden yönetiyordu. 19. yüzyılda Mısır işgali, ardından Tanzimat düzenlemeleri ve Avrupa devletlerinin cemaatleri himaye yarışı bu dengeyi bozdu: Fransa Mârûnîleri, İngiltere Dürzîleri destekledi.\n\n"
@@ -98,7 +98,7 @@ window.EKOKUMA_P76B = [
 
 { id:"bunv-bulgaristan-1878", baslik:"Bulgaristan neden var? Önce kilise, sonra devlet", tur:"bu-ulke-neden-var",
   kisa:"Bulgaristan'ın kuruluşu iki adımlıdır ve ilk adım kiliseydi: ayrı bir kilise ayrı bir millet tanımı üretti, devlet sekiz yıl sonra geldi.",
-  metin:"■ ÖNCE KİLİSE, SONRA DEVLET\n"
+  metin:"■ Önce kilise, sonra devlet\n"
     +"19. yüzyılda Osmanlı'daki Ortodoks halklar tek bir çatı altında, İstanbul'daki Rum Patrikhânesi'ne bağlıydı. Bu, kilise dili ve üst din adamları Rum demekti. Bulgar aydınlarının ilk talebi bağımsızlık değil KENDİ KİLİSESİydi: kendi dilinde ibadet, kendi piskoposları. 11 Mart 1870'te Bulgar Eksarhlığı kuruldu ve Bulgar kilisesi Fener'den ayrıldı.\n\n"
     +"■ NİÇİN BU KADAR ÖNEMLİ\n"
     +"Osmanlı düzeninde bir cemaatin sınırı, kilisesinin sınırıydı. Ayrı eksarhlık, \"Bulgar\" diye ayrı bir topluluğun RESMEN tanınması ve hangi kazaların Bulgar sayılacağının tartışılması demekti. Yani kilise ayrılığı, ileride çizilecek devlet sınırının ilk taslağını üretti.\n\n"
@@ -114,7 +114,7 @@ window.EKOKUMA_P76B = [
 
 { id:"bunv-sirbistan-karadag-1878", baslik:"Sırbistan ve Karadağ neden iki ayrı devlet?", tur:"bu-ulke-neden-var",
   kisa:"Sırbistan ile Karadağ'ı ayıran şey dil ya da din değil coğrafyadır: biri ovada Osmanlı'nın altında özerkleşti, öteki dağda hiç tam boyun eğmedi — ve ikisi aynı gün bağımsız oldu.",
-  metin:"■ İKİ SIRP DEVLETİ NİÇİN İKİ TANE\n"
+  metin:"■ İki Sırp Devleti niçin iki tane\n"
     +"Sırbistan ve Karadağ aynı dili konuşan, aynı Ortodoks kiliseye bağlı iki topluluktur. Buna rağmen 19. yüzyıla iki ayrı siyasî yapı olarak girdiler. Sebep coğrafyadır: Sırbistan Tuna-Morava ovasında, imparatorluğun ana yolu üzerinde; Karadağ ise ulaşılması zor, tarıma elverişsiz bir karst dağ bloğunda.\n\n"
     +"■ OVADAKİ: PAZARLIKLA ÖZERKLİK\n"
     +"Sırbistan'ın yolu ayaklanma ve müzakere döngüsüyle ilerledi: önce vergi ve yönetim imtiyazları, sonra kendi prensi, sonra kalelerdeki Osmanlı garnizonlarının çekilmesi. Bu son adım 1867'de tamamlandı — Belgrad kalesi teslim edildi ve Osmanlı'nın fiilî varlığı bitti, ama hukuken bağlılık sürdü.\n\n"
@@ -134,7 +134,7 @@ window.EKOKUMA_P76B = [
 
 { id:"banka-klasik-donem-banka-islevi", baslik:"Banka yokken bankanın işini kim yapıyordu?", tur:"teknik-bilimsel",
   kisa:"Banka yokken bankanın işini kim yapıyordu? Cevap tek bir kurum değil, üç ayrı yapı: sarraflar, para vakıfları ve iltizam düzeninin kendisi.",
-  metin:"■ SORU\n"
+  metin:"■ Soru\n"
     +"Klasik Osmanlı düzeninde \"banka\" diye bir kurum yoktu. Ama bankanın yaptığı işler — para saklamak, para transfer etmek, kredi vermek, devleti finanse etmek — yapılmak zorundaydı. Bunları kimin yaptığına bakınca üç ayrı yapı çıkar.\n\n"
     +"■ ① SARRAFLAR\n"
     +"Osmanlı'da farklı isim ve ayarda pek çok yerli ve yabancı para dolaşıyordu; aralarındaki fiyat farkından yararlanarak para alıp satmayı meslek edinen aracılar ortaya çıktı. Sarraflık yalnız kambiyo değildi: para nakli ve muhafazası, gayrimenkul alım satımına aracılık, devlet adamlarının mali işlerini yürütmek, onlara borç vermek, para vakıflarının ve yetim mallarını idare eden birimlerin paralarını işletmek ve 1760'lardan itibaren özellikle savaş yıllarında kısa vadeli borçlarla hazineyi finanse etmek de sarrafın işiydi.\n\n"
@@ -152,7 +152,7 @@ window.EKOKUMA_P76B = [
 
 { id:"banka-ilk-osmanli-bankalari", baslik:"İlk Osmanlı bankaları — kâime krizinden Osmanlı Bankası'na", tur:"teknik-bilimsel",
   kisa:"İlk Osmanlı bankası bir tasarruf kurumu değil, kâğıt paranın değerini tutmak için kurulmuş bir kurtarma aracıydı — ve kurtaramadı.",
-  metin:"■ BAŞLANGIÇ: KĀİME KRİZİ\n"
+  metin:"■ Başlangıç: KĀİME krizi\n"
     +"1840'larda devlet kâğıt para (kāime) çıkarmaya başlamıştı. Kāime hızla değer kaybediyor, her düşüş yeni bir mali kriz üretiyordu. İlk banka girişimleri bu yüzden mevduat toplamak için değil, kāimenin kurunu tutmak için doğdu.\n\n"
     +"■ 1849 — DERSAÂDET BANKASI\n"
     +"Bankacılığın kurumsal başlangıcı olarak Dersaâdet Bankası'nın 1849'daki kuruluşu gösterilir. Bunu başka bankalar izledi ve bu süreçte Galata'nın banker aileleri belirleyici rol üstlendi. Yani ilk bankalar, sarraf sermayesinin şirket kılığına girmiş hâliydi.\n\n"
@@ -178,7 +178,7 @@ window.EKOKUMA_P76B = [
 
 { id:"seyahat-abdulaziz-1867-guzergah", baslik:"Abdülaziz'in Avrupa seyahati (1867) — neden ve nereye?", tur:"sebep-sonuc",
   kisa:"Bir padişah ilk defa savaş için değil ziyaret için ülke dışına çıktı: 21 Haziran 1867'de Sultaniye vapuruyla İstanbul'dan ayrıldı, kırk yedi gün sonra döndü.",
-  metin:"■ NİÇİN GİDİLDİ\n"
+  metin:"■ Niçin gidildi\n"
     +"Davet ikiliydi. Fransa İmparatoru III. Napolyon, Milletlerarası Paris Sanayi Sergisi'nin açılışı vesilesiyle padişahı Fransa'ya çağırdı ve İstanbul'daki elçisi aracılığıyla bu vesileyle genel barışı kuvvetlendirecek fikir alışverişinde bulunulabileceğini de bildirdi. Aynı sırada İngiliz Kraliçesi Victoria da Londra'ya davet edince Abdülaziz iki daveti birden kabul etti. Arka planda Girit, Sırbistan ve Romanya'daki olaylar, yani Fransa ile Rusya'nın desteklediği huzursuzluklar vardı; seyahat bir nezaket ziyareti değil, diplomatik bir hamleydi.\n\n"
     +"■ AYRILIŞ\n"
     +"Padişah 21 Haziran 1867'de İstanbul rıhtımından Sultaniye gemisiyle ayrıldı. Konvoyu, Fransız elçisini taşıyan Forbin korveti ile Fransız donanmasından üç, İngiliz donanmasından iki gemi korudu. Yanında on yaşındaki oğlu Yusuf İzzeddin, yirmi yedi yaşındaki yeğeni Murad ve yirmi beş yaşındaki yeğeni Abdülhamid, Hariciye Nâzırı Fuad Paşa ile Ömer Fâiz Efendi ve üst düzey görevliler bulunuyordu. Yani gelecekteki iki padişah da bu gemideydi.\n\n"
@@ -194,7 +194,7 @@ window.EKOKUMA_P76B = [
 
 { id:"seyahat-abdulaziz-1867-ingiltere", baslik:"Abdülaziz Londra'da (1867) — dokuz günlük İngiltere ziyareti", tur:"sebep-sonuc",
   kisa:"Londra ayağı dokuz gün sürdü: Dover'a çıktı, Buckingham Sarayı'nda kaldı, Spithead'de kendisi için donanma geçit töreni yapıldı ve Dizbağı nişanı verildi.",
-  metin:"■ GİRİŞ: DOVER\n"
+  metin:"■ Giriş: Dover\n"
     +"Padişah 12 Temmuz 1867 sabahı Dover Limanı'na çıktı. İskelede bekleyen arabalar ve tren, heyeti önce Lord Warden Oteli'ne götürdü; aynı gün Londra'ya geçildi. İngiltere ayağı 12-21 Temmuz arasında sürdü.\n\n"
     +"■ LONDRA\n"
     +"Karşılama töreninde kalabalığın alkışları arasında Mall üzerinden Buckingham Sarayı'na gidildi; padişah sarayda ağırlandı. Ertesi sabah, 13 Temmuz'da Kraliçe Victoria'yı ziyaret için Windsor'a gitti. 14 Temmuz Pazar günü Mısır Hidivi İsmâil Paşa padişahı Buckingham Sarayı'nda ziyaret etti. 15 Temmuz Pazartesi günü sarayda bir kabul resmi düzenlendi; Londra şehri adına Guildhall'da ayrı bir tören yapıldı.\n\n"
@@ -210,7 +210,7 @@ window.EKOKUMA_P76B = [
 
 { id:"seyahat-abdulaziz-1867-avrupa-basini", baslik:"Avrupa basınının gözünden Abdülaziz (1867)", tur:"dis-yankilar",
   kisa:"İngiliz basını padişahı beklediğinden farklı buldu — ve bu şaşkınlığın kendisi, Avrupa'nın Türk imgesinin ne kadar çarpık olduğunu gösterir.",
-  metin:"■ BEKLENEN GÖRÜNTÜ\n"
+  metin:"■ Beklenen görüntü\n"
     +"Ziyaret üzerine İngiliz gazeteleri okurlarına Osmanlı Devleti'nin durumunu ve padişahın kim olduğunu anlatmaya çalıştı. Bu yazılar incelendiğinde asıl ilginç olan, anlatılan şey değil anlatanın şaşkınlığıdır: Haçlı seferlerinden beri Avrupa zihninde oluşmuş Müslüman imgesi, karşılarına çıkan sakin ve zararsız hükümdarla hiç örtüşmüyordu.\n\n"
     +"■ ÇARPITMANIN ÖLÇÜSÜ\n"
     +"Bir makalenin dönem gazetelerinden derlediğine göre Türk'ün kılığı, tavrı ve alışkanlıkları o kadar abartılıp çarpıtılmıştı ki Batı zihninde efsanevî bir yaratık çağrışımı uyandırıyordu. Yaygın beklenti şuydu: yay kirişi ve pala onun değişmez oyuncaklarıydı; bir şehri aldığında bütün erkekleri öldürmesi, kadın ve çocukları esir alması kaçınılmazdı. Padişah bu belirsiz korkunun başıydı.\n\n"
@@ -228,7 +228,7 @@ window.EKOKUMA_P76B = [
 
 { id:"seyahat-abdulaziz-1867-onemi", baslik:"Abdülaziz'in seyahati — başarı mı, pahalı bir gösteri mi?", tur:"tartisma",
   kisa:"Seyahat bir başarı mıydı yoksa pahalı bir gösteri mi? İki değerlendirme de aynı yılın içinden çıkarılabilir — ve ikisi de eksiktir.",
-  metin:"■ OLUMLU OKUMA\n"
+  metin:"■ Olumlu okuma\n"
     +"Ziyaretin doğrudan sonuçları vardır. Başvurulan ansiklopedi maddesi, gezinin genel barışın sağlanmasında önemli rol oynadığını ve Avrupa ile ilişkilerin iyi bir duruma girdiğini yazar. Aynı yıl içinde Romanya'da Karol'un prensliği tanındı, Sırbistan kalelerinden Türk ordusunun çekilmesi kabul edildi, Girit'in Yunanistan'a ilhakı reddedildi ve adaya özel bir yönetim getiren nizamnâme çıkarıldı. Yani Balkanlar'daki kriz, toprak kaybı olmadan bir düzenlemeyle kapatıldı.\n\n"
     +"■ SEMBOLİK AĞIRLIK\n"
     +"Abdülaziz, Osmanlı tarihinde yabancı ülkelere seyahate çıkan tek padişah ve hıristiyan dünyasına dost olarak giden ilk halifedir. Bu, kendisinden önceki üç yüzyılın protokol mantığının tersine çevrilmesidir: padişah artık ziyaret edilen değil, ziyaret eden taraftır.\n\n"
@@ -248,7 +248,7 @@ window.EKOKUMA_P76B = [
 
 { id:"kimdir-midhat-pasa-sahsiyet", baslik:"Midhat Paşa kimdir? Taşrada reformcu, merkezde kısa ömürlü sadrazam", tur:"kimdir",
   kisa:"Taşrada dâhi, merkezde felâket: aynı huy — \"olmaz\" dememek — onu hem büyük bir valilik reformcusu hem de kırk dokuz günlük bir sadrazam yaptı.",
-  metin:"■ ŞAHSİYETİN TEK CÜMLESİ\n"
+  metin:"■ Şahsiyetin tek cümlesi\n"
     +"Dönemin bir kaynağı Midhat Paşa'yı şöyle anlatır: fikrince olmaz yoktu, her şey olurdu; giriştiği bütün işlerde ileriyi geriyi düşünmez, özellikle zamanın hükmünü ve çevrenin gereğini hesaba katmaz, her istediğini yapmak ve yaptırmak isterdi. Bu tek cümle hem başarısını hem çöküşünü açıklar.\n\n"
     +"■ AYNI HUYUN İKİ YÜZÜ\n"
     +"Taşrada bu huy bir güçtür: kaynağı kısıtlı bir vilâyette yol, köprü, okul, sanayi mektebi, ziraat sandığı kurmak tam da \"olmaz\" dememeyi gerektirir. Merkezde ise aynı huy zarar verir. Bu yönü hem sarayla hem mesai arkadaşlarıyla uyumlu çalışmasını zorlaştırdı ve genel olarak kendi tavrında ısrarcı, gururlu ve kibirli bir idareci diye nitelenmesine yol açtı. Taşradaki görevlerinde gösterdiği başarıyı nezâretlerde ve sadârette gösterememesinin sebeplerinden biri budur.\n\n"
@@ -264,7 +264,7 @@ window.EKOKUMA_P76B = [
 
 { id:"kimdir-cevdet-pasa-sahsiyet", baslik:"Ahmed Cevdet Paşa kimdir? Mecelle'nin mimarı", tur:"kimdir",
   kisa:"Batı'nın bilimini alıp hukukunu almayan adam: Avrupa kanunlarının tercüme edilerek alınmasına karşı çıktı ve alternatifini kendisi yazdı.",
-  metin:"■ ZİHNİN ŞEKLİ\n"
+  metin:"■ Zihnin şekli\n"
     +"Cevdet Paşa, geleneksel Türk-İslâm Doğu kültürü ile yenilikçi Batı arasında bir senteze varmaya çalışmış bir şahsiyettir. Daha genç bir medrese talebesiyken olağanüstü zekâsı, çalışkanlığı ve isabetli tahlilleriyle hocalarının dikkatini çekmiş, zaman zaman onlarla ilmî meselelerde tartışmaya girmiştir. Tanzimat'ın ilân edildiği yıl İstanbul'a gelmiş, ilim çevrelerinde kısa sürede tanınmıştır.\n\n"
     +"■ TEMEL AYRIM: METOT EVET, TAKLİT HAYIR\n"
     +"Düşüncesinin ekseni şudur: Osmanlı kurumları İslâmî esaslara dayanır; Osmanlı Devleti ile Batı devletleri farklı din ve medeniyetlerden doğmuştur; bu yüzden her yönden Batılılaşma hem yanlış hem imkânsızdır. Buna karşılık Batı'nın pozitif bilimler, teknik ve yönetim alanlarındaki üstünlüğünü kabul etmiş, bu alanlardaki Osmanlı kurumlarının Batı tarzında ıslahını savunmuştur. Yani ayrımı \"Doğu-Batı\" değil, \"metot-muhteva\"dır.\n\n"
@@ -287,7 +287,7 @@ window.EKOKUMA_P76B = [
 
 { id:"abdulaziz-neye-direndi-hal-1876", baslik:"Abdülaziz neden tahttan indirildi? (1876)", tur:"sebep-sonuc",
   kisa:"Hal' fetvası \"mülkü ve milleti tahrip, beytülmâli israf\" dedi; ama padişahı deviren asıl mesele, hükümeti hükümete bırakmayı reddetmesiydi.",
-  metin:"■ ÖNCE NEYE DİRENDİĞİNİ AYIRALIM\n"
+  metin:"■ Önce neye direndiğini ayıralım\n"
     +"Abdülaziz'in direnci bir program karşıtlığı değil, bir yetki meselesiydi. Zeki bir insandı ve memleketin tam bir dikta rejimiyle yönetilemeyeceğini biliyordu; kanun hâkimiyetinin esas kılınması ve hükümet işlerinin hükümet adamlarına bırakılması gerektiğine inanıyordu. Ama aynı anda, hükümdarın düşünce ve kararlarında serbest ve bağımsız olmasının saltanatın gereği olduğu fikrinden de kendini alamıyordu. Yani kurumsallaşmayı kabul ediyor, kendi yetkisinin o kurumlarca sınırlanmasını kabul etmiyordu.\n\n"
     +"■ DENGENİN BOZULDUĞU AN\n"
     +"Saltanatının ilk döneminde bu eğilimi Âlî ve Fuad paşalar mümkün olduğunca dizginledi. İkisinin ölümünden sonra sadârete Mahmud Nedim Paşa'nın gelmesi padişahta büyük değişiklik yaptı ve asıl eğilimi açığa çıktı: ilk yıllarında başlattığı tasarruf tedbirlerini terkedip israfa başladı. Ayrıca devlet işleriyle kafa yormak istemeyen, her güçlüğe devlet adamlarının çare bulması gerektiğine inanan bir yapısı vardı — yetkiyi bırakmayan ama yükü de taşımayan bir hükümdar.\n\n"
@@ -305,7 +305,7 @@ window.EKOKUMA_P76B = [
 
 { id:"abdulaziz-nasil-bilirdiniz", baslik:"Abdülaziz'i nasıl bilirdiniz? Hâmi mi, müsrif mi?", tur:"tartisma",
   kisa:"Millî kültürün hâmisi mi, imparatorluğu batıran müsrif mi? İki yargı da aynı sayfadan çıkar — çünkü ikisi de doğrudur, farklı yıllara bakarlar.",
-  metin:"■ ÖVGÜ TARAFI\n"
+  metin:"■ Övgü tarafı\n"
     +"Tahta çıkışı, kardeşinin son yıllardaki sefahat ve israfından memnun olmayan yenilik taraftarlarınca bile memnuniyetle karşılandı. İlk yıllarında tasarruf tedbirleri başlattı. Türk mûsikisini çok iyi bilir, mükemmel ney ve lavta çalardı; Osmanlı padişahları arasında bestekâr olarak da yerini almıştır. Hicazkâr ve şehnaz makamlarını sevdiği için döneminin birçok şarkı ve marşı bu makamlarda bestelendi; kendisinden bir hicaz sirto ile iki şarkı günümüze ulaştı. Saraydaki Batı tarzı orkestra ve bandoları kaldırıp yerine Türk mûsikisi saz takımı koyması, pek çok bestekâr ve hânendeyi koruması, opera ve tiyatro yerine orta oyunu seyretmesi, millî kültürü ihya edeceği ümitlerini kuvvetlendirmişti. Ayrıca celî sülüste iyi bir hattattı ve boş vakitlerinde resim yapardı.\n\n"
     +"■ DİNDARLIK VE VAKAR\n"
     +"Alafrangalığı dinsizlik sayan, iyi niyetli, dindar, her sabah Kur'an okuyan ve son derece vakar sahibi bir kimse olarak anlatılır. Ara sıra devrin âlimlerini huzurunda münakaşa ettirir, tartışmalara kendisi de katılırdı.\n\n"
@@ -327,7 +327,7 @@ window.EKOKUMA_P76B = [
 
 { id:"tersane-konferansi-dayatma", baslik:"Tersane Konferansı (1876) — büyük devletlerin dayattığı program", tur:"sebep-sonuc",
   kisa:"Büyük devletler masaya hazır bir program getirdi: Bulgaristan ikiye bölünecek, valileri onlar onaylayacak, reformları denetlemek için 5000 Belçikalı asker gelecekti.",
-  metin:"■ KONFERANS NİÇİN TOPLANDI\n"
+  metin:"■ Konferans niçin toplandı\n"
     +"1875'te Hersek ayaklanmasıyla başlayan, bir yıl sonra Bulgar ayaklanması ve Osmanlı-Sırp, Karadağ savaşlarıyla süren Balkan krizini görüşmek için toplandı. Krizin en önemli safhası Bulgar ayaklanmasıydı ve bu mesele konferanstaki dengeleri belirledi: ayaklanmanın bastırılmasına dair haberler İngiltere'de \"Bulgar vahşeti\" propagandasıyla liberaller tarafından siyasî malzeme yapıldı ve Türk karşıtı kampanyalara dönüştü. Bu, Osmanlı'nın toprak bütünlüğünden yana olan İngiliz hükümetini etkisiz bırakırken Rusya'yı harekete geçirdi.\n\n"
     +"■ MASAYA GELİŞ\n"
     +"Osmanlı kuvvetlerinin 29 Ekim 1876'da Morava'da Sırp kuvvetlerini bozguna uğratması üzerine Rusya, sekiz saat içinde cevap istenen bir ültimatomla altı haftalık ya da iki aylık şartsız ateşkes dayattı. Aynı sırada meselenin Osmanlı'nın gıyabında hıristiyan devletler arasında görüşülmesini önerdi. Doğu'daki çıkarlarının tehdit altında olduğunu gören İngiltere 4 Kasım 1876'da meselenin bir konferansta görüşülmesini önerdi ve böylece çözümde önderliği geri aldı. Konferans Kasımpaşa'daki Bahriye Nezâreti binasının üst katında toplandı; ilk oturum 23 Aralık 1876'da yapıldı.\n\n"
@@ -343,7 +343,7 @@ window.EKOKUMA_P76B = [
 
 { id:"tersane-konferansi-sonuc", baslik:"Tersane Konferansı'nın sonu — meclis savaşı seçti", tur:"sebep-sonuc",
   kisa:"180 kişilik bir meclis, teklifleri kabul edip onursuz kalmaktansa savaşı seçti — ve daha ağır şartlarla karşılaşma ihtimalini bile bile seçti.",
-  metin:"■ SON TEKLİF\n"
+  metin:"■ Son teklif\n"
     +"Bâbıâli'nin direnmesi ve konferansın çıkmaza girmesi üzerine yabancı temsilciler tekliflerini hafifletmeyi tartışmaya başladı. Özellikle Midhat Paşa'nın gayriresmî temasları ve iki İngiliz devlet adamının etkisiyle, asgari düzeyde tutulan reformlar daha da hafifletilip 15 Ocak'ta sunuldu: Avrupa jandarması teklifi kaldırılıyor, valilerin tayininde devletlerin onayı yalnız ilk beş yıl için geçerli oluyordu. Ama milletlerarası komisyon duruyordu. Teklife ültimatom gibi bir şart bağlandı: reddedilirse 18 Ocak oturumunda konferans bitecek ve temsilciler ülkelerine dönecekti.\n\n"
     +"■ 18 OCAK — MECLİS-İ UMÛMÎ\n"
     +"Osmanlı tarafı cevabın bütün saltanat erkânının oyu alınarak verilmesi gerektiğini bildirdi. 18 Ocak'ta Midhat Paşa'nın başkanlığında Şûrâ-yı Devlet üyeleri, vükelâ, sivil ve askerî erkân ve gayrimüslim ruhanî reislerden oluşan 180 kişilik bir meclis toplandı. Karar şuydu: haksız ve devlete zarar verecek teklifleri kabul edip haysiyeti zedelenen bir duruma katlanmaktansa savaşı kabul etmek devlet ve milletin şanına daha çok yakışırdı. Meclis bunu yaparken savaşın bir fayda sağlamaması hâlinde daha ağır tekliflerle karşılaşma ve daha çok toprak kaybetme tehlikesini AÇIKÇA göze alarak karar verdi. Yani sonuç bilinmiyor değildi; göze alınıyordu.\n\n"
@@ -364,7 +364,7 @@ window.EKOKUMA_P76B = [
 
 { id:"kimdir-abdulhamid-ii-sahsiyet", baslik:"II. Abdülhamid'in şahsiyeti — çok dinleyen, az konuşan padişah", tur:"kimdir",
   kisa:"Çok dinleyen, az konuşan, bir kere gördüğü yüzü unutmayan bir adam — ve aynı adam, tahttan indirilme korkusunu sabit fikir hâline getirmiş bir vehim sahibi.",
-  metin:"■ DIŞ GÖRÜNÜŞ VE TAVIR\n"
+  metin:"■ Dış görünüş ve tavır\n"
     +"İri burunlu, parlak ve iri gözlüydü; yürürken ve otururken biraz öne meylederdi. Titrek fakat kalın bir sesi vardı; çok dinler, az konuşurdu. Kendisiyle konuşanlara saygı telkin eder, herkese nazik davranır, hoşlanmadığı kimselere bile güler yüz gösterip sevmediğini belli etmezdi. Karşısındakinin duygu ve düşüncelerini sezmekte mahirdi.\n\n"
     +"■ ZİHİN\n"
     +"Fevkalâde bir zekâya ve hâfızaya sahipti; bir kere gördüğü veya sesini işittiği kimseyi asla unutmazdı. İradesi kuvvetli, fikir ve kararlarında bağımsız, tehlike karşısında metanetliydi.\n\n"
@@ -384,7 +384,7 @@ window.EKOKUMA_P76B = [
 
 { id:"abdulhamid-istibdat-tartismasi", baslik:"II. Abdülhamid müstebit miydi?", tur:"tartisma",
   kisa:"\"Müstebit miydi?\" sorusunun cevabı kaynağa göre değişmez — hafiye, sansür ve kapatılan meclis herkesin kabul ettiği olgudur; tartışma sebebi ve karşılığı üzerinedir.",
-  metin:"■ TARTIŞILMAYAN OLGULAR\n"
+  metin:"■ Tartışılmayan olgular\n"
     +"Üç şey üzerinde kaynaklar birleşir. ① 23 Aralık 1876'da ilân edilen anayasa yürürlükteyken, padişah 13 Şubat 1878'de Meclis-i Meb'ûsan'ı süresiz olarak tatil etti; meclis otuz yıl toplanmadı. ② Devlette olup biteni öğrenmek için kuvvetli bir hafiye (jurnal) teşkilâtı kuruldu. ③ Avrupa'da yapılan bölücü yayın faaliyetlerine karşı sıkı bir sansür uygulandı. Bunlar taraf tutmadan kaydedilen olgulardır.\n\n"
     +"■ SAVUNMA TARAFININ GEREKÇESİ\n"
     +"Savunma, bu tedbirleri sebebe bağlar. Padişahın yaşadığı olaylar zaten karakterinde var olan şüpheciliği artırmıştı; büyük devletlerin Osmanlı devlet adamlarını çeşitli yollarla elde ederek politikalarını yürütmeleri onu tedbirli olmaya sevketti. Bâbıâli'ye güvenmediği için devlet idaresini yavaş yavaş kendi sarayında topladı. Kendi değerlendirmesine göre pek çok âvâre memur ve subay kimseyi beğenmiyor, devleti yalnız kendilerinin kurtaracağına inanıyor, bunu ispat için ajanlık ve entrikadan, olmazsa padişaha hakaret ve iftiradan çekinmiyordu. İç politikadaki sertliği dış olayların seyrine göre azalıp çoğaldı: yabancı devletlerin içeride olay çıkarmaları padişahı sıkı bir rejime sevketti, çünkü iç çalkantıları kontrol etmeden dağılmakta olan bir imparatorluğu yönetmek mümkün görünmüyordu.\n\n"
@@ -402,7 +402,7 @@ window.EKOKUMA_P76B = [
 
 { id:"abdulhamid-donemi-toprak-kayiplari", baslik:"II. Abdülhamid döneminde kaybedilen topraklar", tur:"tartisma",
   kisa:"Otuz üç yılda kaybedilen toprağın tek bir km² rakamı yok — ama kaybın nasıl olduğu bellidir: dördü savaşla değil, oldubittiyle gitti.",
-  metin:"■ ÖNCE DÜRÜST BİR UYARI\n"
+  metin:"■ Önce dürüst bir uyarı\n"
     +"Bu dönemde kaybedilen toprağın TOPLAM yüzölçümü için güvenilir bir rakam bulunamadı: başvurulan ansiklopedi maddeleri böyle bir toplam vermiyor, tarandığı kadarıyla akademik kaynaklarda da tek bir kabul görmüş sayı yok. Bu kart o yüzden bir rakam UYDURMAZ; kaybı kalem kalem sayar ve toplamı `bulunamadı` olarak bırakır.\n\n"
     +"■ ① SAVAŞ KAYBI (1878)\n"
     +"Otuz üç yılın en büyük kaybı, tahta çıkışından iki yıl sonra biten savaşla geldi. Berlin Antlaşması'yla Sırbistan ve Karadağ'ın bağımsızlığı kesinleşti (Sırbistan'a Niş ve Pirot verildi), Romanya bağımsız oldu (Besarabya'yı Rusya'ya verip Tulça ve Dobruca'yı aldı), özerk Bulgaristan Prensliği kuruldu, Yunanistan'a toprak verilmesi kararlaştırıldı. Doğu'da Kars, Ardahan ve Batum harp tazminatının bir kısmına karşılık Rusya'ya bırakıldı; Doğubayazıt ve Eleşkirt vadisi Osmanlı'da kaldı. Savaş ayrıca 802.500.000 franklık bir harp tazminatı bıraktı.\n\n"
@@ -420,7 +420,7 @@ window.EKOKUMA_P76B = [
 
 { id:"abdulhamid-donemi-yenilikler", baslik:"II. Abdülhamid dönemi yenilikleri — okul, demiryolu, telgraf", tur:"teknik-bilimsel",
   kisa:"Aynı otuz üç yıl, Osmanlı'nın en yoğun okul, demiryolu ve telgraf yapımı dönemidir — bugün adı bilinen yüksek okulların çoğu bu dönemde açıldı.",
-  metin:"■ MALİYEYİ TOPARLAMA\n"
+  metin:"■ Maliyeyi toparlama\n"
     +"Tahta çıktığında 1854-1874 arasında alınmış dış borçların vadesi dolan yıllık anapara ve faiz ödemeleri devletin normal gelirlerinin yarısını geçiyordu. Dış baskı aracı olan bu yükten kurtulmak öncelikti. 1881 tarihli Muharrem Kararnâmesi ile alacaklı ülkelere belli devlet gelirlerini toplamak üzere Düyûn-ı Umûmiyye'yi kurma imtiyazı tanındı. Sonuç ikili oldu: devlet gelirlerinin yüzde otuzu borç ve faize ayrıldığı hâlde eski borçlar temizlenemedi, ama alınan borçlardan çok daha fazlası ödendi ve borç yükü büyük ölçüde hafifledi. Bedeli ağırdı: yeraltı ve yerüstü kaynaklarının işletme hakları İngiliz, Fransız ve Alman şirket ve bankalarına bırakıldı.\n\n"
     +"■ OKULLAR — DÖNEMİN EN KALICI ESERİ\n"
     +"Kendi gelirleriyle ayakta duramayan medreselerin yeni usullerle eğitim veren okullara dönüştürülmesine hız verildi ve kaliteli uzman-memur yetiştirmek üzere yüksek okullar açıldı. Mekteb-i Mülkiyye, Mekteb-i Hukuk, Sanâyi-i Nefîse Mektebi, Hendese-i Mülkiyye, Dârülmuallimîn-i Âliye, Maliye Mektebi, Ticaret Mektebi, Halkalı Ziraat Mekteb-i Âlîsi, deniz ticareti, orman ve maâdin, lisan, dilsiz ve âmâ mektepleri, Dârülmuallimât ve kız sanayi mektepleri ile fen ve edebiyat fakültelerinden oluşan Dârülfünun bu dönemde açıldı. Bu yüksek okullara öğrenci yetiştirmek için ilk ve orta öğretime de önem verildi: ibtidâî denilen ilk mektepler köylere kadar götürüldü, birçok vilâyette dârülmuallimîn ve hukuk mektebi açıldı.\n\n"
@@ -440,7 +440,7 @@ window.EKOKUMA_P76B = [
 
 { id:"ilk-meclis-mebusan-secim-ve-yapi", baslik:"İlk Meclis-i Meb'ûsan nasıl seçildi? (1877)", tur:"teknik-bilimsel",
   kisa:"İlk Osmanlı meclisinde mebusları halk seçmedi: daha önce halkın seçtiği il ve ilçe meclislerinin üyeleri seçti — ve kontenjan baştan belirlenmişti.",
-  metin:"■ İKİ KANATLI PARLAMENTO\n"
+  metin:"■ İki kanatlı parlamento\n"
     +"23 Aralık 1876'da yürürlüğe giren anayasa, Meclis-i Umûmî adlı bir parlamento öngörüyordu ve bu parlamento iki meclisten oluşuyordu: halkın seçtiği mebuslardan kurulu Meclis-i Meb'ûsan ve padişahın tayin ettiği üyelerden kurulu Meclis-i A'yân. Anayasaya göre meclislerden biri kapalıyken öteki toplanamazdı — yani iki kanat birbirine bağlıydı.\n\n"
     +"■ ANAYASANIN ÖNGÖRDÜĞÜ SEÇİM\n"
     +"Anayasa her 50.000 erkek nüfus için bir mebus seçilmesini; mebusların otuz yaşını doldurmuş, medenî haklarını ve itibarını kaybetmemiş, yabancı devlet imtiyazına sahip olmayan, TÜRKÇE BİLEN Osmanlı uyruklular arasından GİZLİ OYLA belirlenmesini; seçimlerin dört yılda bir yapılmasını ve mebusun seçim bölgesini değil BÜTÜN OSMANLILARI temsil etmesini öngörüyordu.\n\n"
@@ -457,8 +457,8 @@ window.EKOKUMA_P76B = [
   kaynak:"TDV: meclis-i-mebusan (Ali Akyıldız) · kanun-i-esasi (Mehmet Âkif Aydın) · mesrutiyet (Şükrü Hanioğlu)" },
 
 { id:"ilk-meclis-mebusan-yetki-ve-akibet", baslik:"İlk Meclis-i Meb'ûsan'ın yetkisi ve kapatılması", tur:"sebep-sonuc",
-  kisa:"Meclis kanun yapardı ama kanun TEKLİF edemezdi; hükümet ona değil padişaha karşı sorumluydu — ve bir yıl sonra süresiz tatile gönderildi.",
-  metin:"■ MECLİSİN ASIL İŞİ\n"
+  kisa:"Meclis kanun yapardı ama kanun teklif edemezdi; hükümet ona değil padişaha karşı sorumluydu — ve bir yıl sonra süresiz tatile gönderildi.",
+  metin:"■ Meclisin asıl işi\n"
     +"Meclisin esas görevi kanun yapmak ve yıllık bütçe kanununu inceleyip kabul etmekti. Ama kritik bir sınır vardı: yeni kanun teklif etme veya eskilerini değiştirme hakkı HÜKÜMETE aitti; mebusların bu hakkı kullanabilmesi PADİŞAHIN İZNİNE bağlıydı. Yani meclis yasa yapıcı değil, yasa onaylayıcıydı.\n\n"
     +"■ BİR KANUN NASIL ÇIKARDI\n"
     +"Teklif önce Şûrâ-yı Devlet'e havale edilir, işlemler tamamlanınca hükümete ya da mebuslara gönderilirdi. Meclis başkanı ilgili komisyona havale eder, komisyon mazbatasını hazırlar, genel kurulda tasarı iki defa görüşülürdü: birinci görüşmede genel hatlarıyla incelenip maddeleri okunur ve söz almak isteyenler belirlenir, beş gün sonraki ikinci görüşmede maddeler tek tek müzakere edilirdi. Bütçe tasarıları fasıl fasıl tartışılırdı. Kabul edilen tasarı Hey'et-i A'yân'a gider, orada da onaylanınca padişahın tasdikiyle kanunlaşırdı. Reddedilen tasarılar o yıl içinde tekrar gündeme getirilemezdi.\n\n"
@@ -481,7 +481,7 @@ window.EKOKUMA_P76B = [
 
 { id:"harp93-plevne-savunmasi", baslik:"Plevne savunması (1877) — beş ay süren direniş", tur:"savas-hikayesi",
   kisa:"Plevne'de bir kolordu, beş ay boyunca bir imparatorluk ordusunu durdurdu — ve kuşatma kırılınca savaşın tamamı beş haftada çöktü.",
-  metin:"■ ÖNCESİ — ŞEHİR NİÇİN ÖNEMLİYDİ\n"
+  metin:"■ Öncesi — şehir niçin önemliydi\n"
     +"Plevne, Sofya'dan Rusçuk üzerinden Bükreş'e ve Karadeniz limanı Varna'ya giden büyük kara ve demiryolunun üstündedir. Tuna'yı geçen bir ordunun Balkan geçitlerine yönelmesi için bu kavşağı kontrol etmesi gerekir. 1877'de burası boş kalırsa Rus ordusunun yan ve gerisi güvende olacaktı.\n\n"
     +"■ AKIŞ — DÖRT MUHAREBE\n"
     +"24 Nisan 1877'de Rusya savaş ilân ettiğinde Osman Paşa, Vidin'deki Garp Ordusu kuvvetleri kumandanıydı. Aldığı emirle 25.000 kişilik kolordusuyla 7 Temmuz 1877'de Plevne'ye ulaştı. Rusların 8 Temmuz'da başlattığı saldırıya karşı koydu; bu kanlı çatışma, savaşın Rumeli cephesinde Rusların yediği ilk darbe oldu. Takviye alan Rus kuvvetleri 18 Temmuz'da ikinci defa taarruz etti; yirmi altı saat süren savaşta gösterilen direniş ve karşı saldırı sonucu bir defa daha yenildiler. Rumenleri de savaşa katan Ruslar 7-11 Eylül'deki üçüncü Plevne muharebesinde de başarı kazanamadı. Birbiri ardınca başarısız olunca 13 Eylül'de şehri KUŞATMA altına aldılar — yani artık zaptetmeyi değil açlıkla teslim almayı seçtiler.\n\n"
@@ -497,7 +497,7 @@ window.EKOKUMA_P76B = [
 
 { id:"kimdir-gazi-osman-pasa", baslik:"Gazi Osman Paşa kimdir? Plevne'nin kahramanı", tur:"kimdir",
   kisa:"Teslim olan bir kumandana düşman çarı nişan verdi — ve kendi devleti ona, o güne kadar yalnız üç kişiye verilen unvanı verdi.",
-  metin:"■ SAVAŞTAN ÖNCE\n"
+  metin:"■ Savaştan önce\n"
     +"Osman Paşa'nın adı 1877'den önce de biliniyordu: Sırp Prensi Milan'ın 2 Temmuz 1876'da savaş ilân etmesi üzerine, Rus generallerinin kumanda ettiği Sırp ordusunu bozguna uğratan kumandan oydu. 1877 Nisanında Rusya savaş ilân ettiğinde Vidin'de Garp Ordusu kuvvetleri kumandanlığında bulunuyordu.\n\n"
     +"■ UNVAN\n"
     +"Plevne'deki direnişi üzerine kendisine GAZİLİK unvanı verildi. Bu unvan o dönemde yalnız üç kişiye lâyık görülmüştür; yani nadir bir payedir ve savaş meydanında kazanılmıştır.\n\n"
@@ -513,7 +513,7 @@ window.EKOKUMA_P76B = [
 
 { id:"kimdir-gazi-ahmed-muhtar-pasa", baslik:"Gazi Ahmed Muhtar Paşa kimdir? 93 Harbi'nin doğu cephesi", tur:"kimdir",
   kisa:"Doğu cephesinde üst üste dört zafer kazandı, sonra iki yenilgiyle geri çekildi ve Erzurum'un önünde halkla birlikte son bir zafer daha kazandı.",
-  metin:"■ SAVAŞTAN ÖNCE\n"
+  metin:"■ Savaştan önce\n"
     +"Otuz iki yaşında müşir olmuş, Yemen'de vali ve kumandanlık yapmış, Girit valiliğinde ve Erzurum valiliğinde bulunmuş tecrübeli bir askerdi. 8 Şubat 1877'de Dördüncü Ordu müşirliğiyle Anadolu Harp Ordusu başkumandanlığına tayin edildi ve 7 Nisan 1877'de Erzurum'a ulaşarak orduyu düzene koymaya çalıştı.\n\n"
     +"■ AKIŞ — DÖRT ZAFER\n"
     +"24 Nisan 1877 gecesi Rusların sınıra saldırmasıyla savaş doğuda da başladı. Ruslar 17 Mayıs'ta Ardahan'ı aldı. Muhtar Paşa Soğanlı, Eleşkirt ve Erzurum'a ihtiyat yerleştirip ordusunu Köprüköy ve Deveboynu civarında topladı. Rusların Doğubayazıt'ı işgal edip Kars'ı kuşatmaya başlaması üzerine 21 Haziran'da karşı hücuma geçti: Deli Baba'da (Halyas) ve 25-27 Haziran'da Zivin'de Rusları yendi; Rus kuvvetleri Gümrü önlerine kadar çekildi. 25 Ağustos'ta âni bir hücumla Gedikler (Kızıltepe) zaferini kazandı. Takviye alan Rus ordusu 2 Ekim'de 70.000 askerle taarruza geçtiğinde, üç gün süren Yahniler Savaşı'nda 34.000 kişilik kuvvetiyle onları yine yendi — bu muharebe hem istihkâm hem meydan savaşı olarak harp tarihine geçen bir harekât sayılır.\n\n"
@@ -531,7 +531,7 @@ window.EKOKUMA_P76B = [
 
 { id:"harp93-ayastefanos-ne-getirdi", baslik:"Ayastefanos Antlaşması ne getirdi? (1878)", tur:"sebep-sonuc",
   kisa:"Ayastefanos, Rus ordusunun İstanbul'un hemen dışına taşıdığı karargâhta imzalandı ve Ege'ye uzanan bir Bulgaristan kurdu — dört ay yaşadı.",
-  metin:"■ NASIL GELİNDİ\n"
+  metin:"■ Nasıl gelindi\n"
     +"Plevne'nin düşmesi ve doğuda Kars'ın kaybıyla cepheler çöktü. 31 Ocak 1878'de imzalanan Edirne Mütarekesi'ne göre Erzurum Ruslara teslim edilecek, İstanbul Konferansı'nda belirtilen sınırlardan küçük olmamak şartıyla özerk bir Bulgaristan Emâreti kurulacak, Sırbistan, Karadağ ve Romanya'nın istiklâlleri tanınacak, savaş tazminatı ödenecek ve Boğazlarda Ruslara bazı imtiyazlar verilecekti. Barış görüşmeleri, Ruslar karargâhlarını Yeşilköy'e (Ayastefanos) taşıdıktan sonra orada sürdü ve 3 Mart 1878'de antlaşma imzalandı.\n\n"
     +"■ YİRMİ DOKUZ MADDE\n"
     +"Antlaşmaya göre Osmanlı Devleti Romanya, Karadağ ve Sırbistan'ın bağımsızlıklarını kabul edecekti. Bulgaristan Osmanlı'ya bağlı özerk bir prensliğe dönüştürülecek ve sınırları TUNA'DAN EGE DENİZİNE, ARNAVUTLUK'TAN KARADENİZ'E kadar uzanacaktı; prens halk tarafından serbestçe seçilecek, Avrupa devletlerinin tasvibi ve Osmanlı'nın tasdikiyle tayin edilecekti. Girit'te 1868 nizamnâmesi uygulanacaktı. Savaş tazminatı 1.410.000.000 ruble olarak belirlendi; bu tazminatın büyük kısmına karşılık Rumeli'deki bazı yerler ile Kars, Ardahan, Batum ve Doğubayazıt Rusya'ya bırakılacaktı. Rus askerleri Bulgaristan hariç, antlaşmanın imzasından üç ay sonra Rumeli'yi, altı ay sonra Doğu Anadolu'yu boşaltacaktı.\n\n"
@@ -545,7 +545,7 @@ window.EKOKUMA_P76B = [
 
 { id:"harp93-balkan-goc-dalgasi", baslik:"93 Harbi'nin Balkan göç dalgası", tur:"sebep-sonuc",
   kisa:"Savaşın en kalıcı sonucu sınır değil nüfustu: Balkanlar'dan gelen muhacirlerin sayısı İstanbul'da yüz binlerle anılır oldu ve Anadolu'nun yerleşim haritası değişti.",
-  metin:"■ NE OLDU\n"
+  metin:"■ Ne oldu\n"
     +"Savaşın sonunda özellikle Bulgaristan'daki Türk ahali, gerek öldürülmek gerekse göçe zorlanmak suretiyle yüzyıllarca vatan bildikleri topraklardan uzaklaştırıldı. Başvurulan kaynak bu hareketi \"tam bir Türk imhası\" diye niteler ve İstanbul'daki muhacirlerin sayısının yüz binlerle ifade edilir hâle geldiğini yazar.\n\n"
     +"■ ŞEHİR NEYE DÖNÜŞTÜ\n"
     +"Bu, bir başşehrin kaldırabileceğinden fazlasıydı. Barınma, yiyecek ve salgın sorunu, savaşı kaybetmiş ve tazminat ödeyecek bir devletin üstüne bindi. Muhacirler Anadolu'nun çeşitli yerlerinde kurulan yerleşmelere iskân edildi; bu iskân, bugün hâlâ adları \"muhacir köyü\" diye anılan yerleşmelerin kökenidir.\n\n"
@@ -561,7 +561,7 @@ window.EKOKUMA_P76B = [
 
 { id:"harp93-kibris-ve-ingiltereye-yaslanma", baslik:"Kıbrıs'ın İngiltere'ye bırakılması (1878) — Berlin'in bedeli", tur:"sebep-sonuc",
   kisa:"Ayastefanos'tan kurtulmanın bedeli bir ada oldu: Kıbrıs'ın idaresi, Berlin'de alınacak destek karşılığında kongreden bir ay önce İngiltere'ye devredildi.",
-  metin:"■ HESAP\n"
+  metin:"■ Hesap\n"
     +"Ayastefanos Antlaşması Osmanlı için kabul edilemez ağırlıktaydı ve tek kurtuluş yolu, antlaşmayı Avrupa'nın ortak masasına taşıyıp değiştirmekti. Bunu yapabilecek tek devlet, Rusya'nın Akdeniz'e inmesinden en çok rahatsız olan İngiltere'ydi. Ama İngiltere desteğini karşılıksız vermedi.\n\n"
     +"■ GİZLİ ANTLAŞMA\n"
     +"Gizli görüşmeler sonunda, Kıbrıs'ın yönetimini geçici olarak İngiltere'ye bırakan antlaşma 4 Haziran 1878'de imzalandı — Berlin Kongresi'nin toplanmasından dokuz gün önce. Padişah, adada hükümranlık haklarına asla zarar verilmeyeceğine dair İngilizlerden bir belge almak suretiyle antlaşmayı onayladı. 1 Temmuz 1878 tarihli bir ek antlaşmaya, Rusya'nın Doğu Anadolu'da işgal ettiği yerleri iade etmesi hâlinde İngiltere'nin Kıbrıs'tan çekileceği maddesi eklenerek adanın toprak mülkiyetinin Osmanlı'ya ait olduğu tesbit edildi.\n\n"
@@ -581,7 +581,7 @@ window.EKOKUMA_P76B = [
 
 { id:"hasta-adam-tabiri", baslik:"\"Hasta adam\" tabiri — kim, neden söyledi?", tur:"tartisma",
   kisa:"Tabiri bir düşman değil, mirası paylaşmak isteyen bir ortak kullandı: hasta ilân etmek, mirasın vaktinden önce konuşulmasını meşrulaştırıyordu.",
-  metin:"■ OLAY NASIL VUKU BULDU\n"
+  metin:"■ Olay nasıl vuku buldu\n"
     +"İfade, Rus Çarı I. Nikola'nın Ocak 1853'te Osmanlı Devleti için kullandığı bir benzetmedir. Söylendiği yer bir savaş meydanı ya da resmî bir nota değil, Rusya'daki İngiliz elçisiyle yapılan özel görüşmelerdir. Benzetmenin amacı bir teşhis koymak değil, bir TEKLİF açmaktı: hasta ölmeden önce mirasın nasıl paylaşılacağının konuşulması.\n\n"
     +"■ NİÇİN TAM O YIL\n"
     +"Zamanlama tesadüf değildir. Aynı yıl Rusya, Osmanlı toprakları üzerinde tek başına hâkimiyet kurmayı amaçladığını resmen talep etti ve Kırım Savaşı çıktı. Savaş Rusya'nın yenilgisiyle bitince ortaya çıkan şey şuydu: Osmanlı Devleti tek başına direnemiyordu ama Fransa, İngiltere ve Avusturya desteğiyle Rusya karşısında durabiliyordu. Yani \"hasta adam\" teşhisi doğruydu da, tedavi sürüyordu — ve tedaviyi yapanlar aynı zamanda mirasın adaylarıydı.\n\n"
@@ -604,7 +604,7 @@ window.EKOKUMA_P76B = [
 
 { id:"mehdi-hareketi-sudan-1881", baslik:"Sudan'da Mehdî hareketi (1881)", tur:"sebep-sonuc",
   kisa:"Sudan'da bir şeyh mehdîliğini ilân etti ve üzerine gönderilen her orduyu yendi — her zafer, taraftarlarının gözünde iddiasının yeni bir delili oldu.",
-  metin:"■ MEHDÎ FİKRİ NEDİR\n"
+  metin:"■ Mehdî fikri nedir\n"
     +"Mehdî inancı İslâm tarihinde yeni değildir ve pek çok siyasî hareket ondan güç almıştır: Kuzey Afrika'da Muvahhidler Devleti'nin kurucusu 1121'de Mağrib'de çıkması beklenen mehdî olduğunu söyleyerek davetini başlatmış, Hindistan'da 16. yüzyıldan sömürge dönemine kadar birçok mehdîlik iddiası ortaya çıkmıştı. Yani hareketin biçimi tanıdıktı; yeni olan, 19. yüzyıl sonunda Afrika'da bu fikrin SÖMÜRGECİLİĞE KARŞI kullanılmasıdır.\n\n"
     +"■ NEREDE, NİÇİN ÇIKTI\n"
     +"1881'de Sudan'da Muhammed Ahmed el-Mehdî liderliğinde başlayan hareket, bölgedeki Osmanlı-Mısır idaresinin vergi baskısı ve yönetim boşluğu ortamında yayıldı. Muhammed Ahmed önce Kordofan ve Cibâlünnûbe'ye seyahate çıkıp güvendiği kimselere davetini açıkladı, sonra merkez edindiği Ebâ adasına döndü ve mektuplarla şeyhlerin ve âlimlerin kendisine tâbi olmasını istedi.\n\n"
@@ -622,7 +622,7 @@ window.EKOKUMA_P76B = [
 
 { id:"mehdi-devleti-1885-1899", baslik:"Sudan Mehdî Devleti (1885-1899)", tur:"sebep-sonuc",
   kisa:"Kurucusunun ölümünden sonra da on dört yıl ayakta kaldı: Mehdî devleti, İngiliz-Mısır ordularının büyük harekâtına rağmen 1899'a kadar dayandı.",
-  metin:"■ DEVLET NEREDEN NEREYE UZANIYORDU\n"
+  metin:"■ Devlet nereden nereye uzanıyordu\n"
     +"Hartum'un alınmasıyla kurulan yapı, Kızıldeniz'den Dârfûr'a, Dongola'dan Bahrülgazâl'e kadar Mısır Sudanı'nın başlıca vilâyetlerini kapsıyordu. Bu, Nil'in yukarı havzasının tamamına yakınının Kahire ve İstanbul'un elinden çıkması demekti.\n\n"
     +"■ NE KADAR YAŞADI\n"
     +"Kurduğu devlet, İngiliz-Mısır kuvvetlerinin büyük askerî harekâtına rağmen 1899 yılına kadar ayakta kalmayı başardı. Bu, dinî meşruiyetle kurulan bir hareketin kurumsallaşmayı da başardığını gösterir: kurucusunun ölümü devleti çökertmedi.\n\n"
@@ -646,7 +646,7 @@ window.EKOKUMA_P76B = [
 
 { id:"ermeni-orgutleri-kurulus-sirasi", baslik:"Ermeni örgütleri — Armenakan, Hınçak, Taşnak nasıl kuruldu?", tur:"tartisma",
   kisa:"Üç örgüt, üç ayrı şehirde, beş yıl içinde kuruldu: Van, Cenevre, Tiflis — ve üçü de Osmanlı toprağının dışında ya da kenarında doğdu.",
-  metin:"■ SIRAYI DOĞRU KURMAK\n"
+  metin:"■ Sırayı doğru kurmak\n"
     +"Bu örgütler çoğu zaman tek bir yapı gibi anılır; oysa üç ayrı kuruluş, üç ayrı yer ve üç ayrı fikir dünyası söz konusudur.\n\n"
     +"■ ① ARMENAKAN (1885, Van)\n"
     +"İhtilalci faaliyeti amaç edinen ilk Ermeni siyasî partisi Armenakan'dır ve 1885'te Van'da, Mıgırdiç Portakalyan'ın öğrencileri tarafından kurulmuştur. Portakalyan Van'da kendi açtığı okulda öğretmenlik yapmış ve orada ihtilalci bir gençlik yetiştirmişti; tutuklamalar başlayıp Van'da oturması yasaklanınca bazı taraftarlarıyla Marsilya'ya gitti ve 1885'te orada Armenia adlı bir gazete çıkarmaya başladı. Gazetenin çıkarılış amacını Ermeni tüccarlarla çeşitli ülkeler arasındaki ticarî ilişkilerin geliştirilmesi diye açıklamıştı; ancak kısa sürede içeriği değişti ve gazetenin Osmanlı ülkesine girişi 1885 Ağustosunda yasaklandı. Partinin merkezi Van'dı.\n\n"
@@ -668,7 +668,7 @@ window.EKOKUMA_P76B = [
 
 { id:"ermeni-orgutleri-ne-yaptilar", baslik:"Ermeni örgütlerinin yöntemi ve hedefi", tur:"tartisma",
   kisa:"Örgütlerin yöntemi, kalabalık bir ayaklanma değil dikkat çeken eylemdi — hedef Osmanlı yönetimini devirmek değil, Avrupa'yı müdahaleye çağırmaktı.",
-  metin:"■ YÖNTEMİN MANTIĞI\n"
+  metin:"■ Yöntemin mantığı\n"
     +"Bu örgütlerin eylem çizgisi, sayıca çok az oldukları için klasik bir ayaklanma mantığı üzerine kurulamazdı. Programlarını inceleyen literatür, amaçlarına ulaşmak için ihtilal, isyan ve tedhiş yöntemlerini ilke edindiklerini ve bir yandan eylem yaparken bir yandan da Osmanlı ülkesinde yaşayan Ermeni toplumunu toplu ayaklanmalara teşvik etmeye çalıştıklarını belirtir.\n\n"
     +"■ EYLEM ZİNCİRİ\n"
     +"Aynı literatür, 1890'lardaki olayları tek bir zincir hâlinde sayar: Kumkapı gösterisi, Sasun olayları, Bâbıâli gösterisi ve Zeytun ile Van hareketleri. Bu eylemlerin ortak özelliği, askerî bir kazanım değil uluslararası GÖRÜNÜRLÜK hedeflemeleridir: büyük devletlerin dikkatini çekip Berlin Antlaşması'nda yer alan ıslahat hükümlerinin uygulanmasını dayatmalarını sağlamak.\n\n"

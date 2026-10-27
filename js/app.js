@@ -13683,7 +13683,7 @@ function ekKartHtml(k) {
     if (k.kisa) h += '<p class="ek-alt">' + ekEsc(k.kisa) + "</p>";
     (k.bolumler || []).forEach(function (b) {
       h += "<h5>" + ekEsc(b.baslik) + (b.gun ? ' <span class="ek-alt">(' + ekEsc(b.gun) + ")</span>" : "") + "</h5>";
-      if (b.metin) h += "<p>" + ekEsc(b.metin) + "</p>";
+      if (b.metin) h += _maddeliMetniHtmle(b.metin);
       if (b.kaynak) h += '<p class="ek-alt">Kaynak: ' + ekEsc(b.kaynak) + "</p>";
     });
   } else if (k.tur === "savas-hikayesi") {
@@ -13701,8 +13701,10 @@ function ekKartHtml(k) {
     [["oncesi", "Öncesi"], ["akis", "Muharebe"], ["sonuc", "Sonuç ve etkisi"],
      ["tartisma", "Kaynaklar nerede ayrışıyor"]].forEach(function (b) {
       // H-0096: `tartisma` "ayrışma yok" boyacılığı taşıyorsa hiç basılmaz.
+      // POSTIT-107: ①②③ görüşleri/aşamaları tek `<p>` içinde YIĞILIYORDU; başlık
+      // ayrı satır, her daire rakamlı madde ayrı paragraf (`\n\n` de paragraf).
       if (k[b[0]] && (b[0] !== "tartisma" || _tartismaVarMi(k[b[0]])))
-        h += "<p><b>" + b[1] + ":</b> " + ekEsc(k[b[0]]) + "</p>";
+        h += "<p><b>" + b[1] + ":</b></p>" + _maddeliMetniHtmle(k[b[0]]);
     });
   } else if (!k.tur && (k.ozet || k.topraklar)) {
     // 📜 ANTLAŞMA — `ANTLASMALAR` kaydı, `tur` alanı taşımaz.

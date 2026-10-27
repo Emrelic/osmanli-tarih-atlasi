@@ -531,7 +531,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Metternich, imparatorun kızını Napolyon'la evlendirerek Avusturya'ya nefes aldıracak bir yakınlık kurdu. Hanedan evliliğinin bir devlet aracı olarak kullanılışının en bilinen örneğidir.",
   kaynak:"bulunamadı — gün DOĞRULANMADI" },
 
-{ t:"1811-06-01", b:"ABGB — Genel Medenî Kanun", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1811-06-01", b:"Abgb — Genel Medenî Kanun", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","anayasa","konu-islahat","konu-hukuk"],
   d:"Aydınlanma hukukçuluğunun ürünü olan Genel Medenî Kanun yürürlüğe girdi ve monarşinin Alman-Slav topraklarında ortak bir özel hukuk kurdu. Kanun bugün hâlâ Avusturya hukukunun omurgasıdır.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", yer_id:"Viyana" },
@@ -1264,7 +1264,7 @@ window.KRONOLOJI_RUSYA = [
 { t:"1853-10-04", b:"Kırım Savaşı'nda yenildi (1856'ya dek)", tur:"savas", onem:4, dunya:4, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"İstanbul",
-  d:"\"Kutsal Yerler\" anlaşmazlığı bahanesiyle başlayan savaşta Osmanlı'ya (sonra İngiltere ve Fransa'ya) karşı savaşan Rusya, Sivastopol'un uzun kuşatmasının ardından ağır bir yenilgi aldı. Rus tarihyazımında bu yenilgi, ordunun ve devlet aygıtının geriliğini acı biçimde ortaya koyan, doğrudan 1861 Büyük Reformları'na yol açan bir MİLLÎ SARSINTI olarak 1905 ve 1917'ye kadar uzanan bir öz-eleştiri geleneğinin başlangıç noktasıdır.",
+  d:"\"Kutsal Yerler\" anlaşmazlığı bahanesiyle başlayan savaşta Osmanlı'ya (sonra İngiltere ve Fransa'ya) karşı savaşan Rusya, Sivastopol'un uzun kuşatmasının ardından ağır bir yenilgi aldı. Rus tarihyazımında bu yenilgi, ordunun ve devlet aygıtının geriliğini acı biçimde ortaya koyan, doğrudan 1861 Büyük Reformları'na yol açan bir millî sarsıntı olarak 1905 ve 1917'ye kadar uzanan bir öz-eleştiri geleneğinin başlangıç noktasıdır.",
   kaynak:"kirim-savasi (TDV, doğrulanmış — data/olaylar*.js kullanıyor) — devletler.js:297'den taşındı, doğrulandı" },
 { t:"1855-02-18", b:"I. Nikolay öldü, II. Aleksandr tahta çıktı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","taht","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -1282,7 +1282,7 @@ window.KRONOLOJI_RUSYA = [
   etiket:["reform","ekonomi","konu-ekonomi","konu-islahat"],
   yer_id:"",
   kapsam_genis:true,
-  d:"II. Aleksandr'ın fermanıyla 23 milyondan fazla serf kişisel özgürlüğüne kavuştu; toprak sahiplerine \"kurtuluş ödemeleri\" karşılığında toprak tahsis edildi. Rus tarihyazımında bu, 1649 Ulojenie'den beri 212 yıl süren serflik düzeninin sonu ve modern Rusya'nın toplumsal temelinin atıldığı EN ÖNEMLİ tek reform olarak kabul edilir — Kulikovo, 1613 ve 1917 ile aynı kategoride anılır.",
+  d:"II. Aleksandr'ın fermanıyla 23 milyondan fazla serf kişisel özgürlüğüne kavuştu; toprak sahiplerine \"kurtuluş ödemeleri\" karşılığında toprak tahsis edildi. Rus tarihyazımında bu, 1649 Ulojenie'den beri 212 yıl süren serflik düzeninin sonu ve modern Rusya'nın toplumsal temelinin atıldığı en önemli tek reform olarak kabul edilir — Kulikovo, 1613 ve 1917 ile aynı kategoride anılır.",
   kaynak:"Riasanovsky & Steinberg, A History of Russia", yer_id:"St. Petersburg" },
 { t:"1864-01-01", b:"Zemstvo (yerel özyönetim) reformu", tur:"reform", onem:4, dunya:1, kapsam:"ic",
   etiket:["reform","idari","konu-idari","konu-islahat"],
@@ -1406,7 +1406,7 @@ window.KRONOLOJI_RUSYA = [
 { t:"1904-02-08", b:"Rus-Japon Savaşı başladı (1905'e dek)", tur:"savas", onem:4, dunya:4, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"Lüşun (Port Arthur)",
-  d:"Japonya'nın Port Arthur'daki Rus filosuna baskın saldırısıyla başlayan savaş, Rusya'nın Mukden'de kara savaşını ve Tsushima'da (1905) donanmasını kaybetmesiyle sonuçlandı. Rus tarihyazımında bu, Avrupalı olmayan bir gücün elinden alınan tarihte eşi görülmemiş bir askerî yenilgi ve mutlakiyetçi rejimin çürümüşlüğünün kanıtı olarak 1905 Devrimi'ni doğrudan tetikleyen bir MİLLÎ TRAVMA sayılır.",
+  d:"Japonya'nın Port Arthur'daki Rus filosuna baskın saldırısıyla başlayan savaş, Rusya'nın Mukden'de kara savaşını ve Tsushima'da (1905) donanmasını kaybetmesiyle sonuçlandı. Rus tarihyazımında bu, Avrupalı olmayan bir gücün elinden alınan tarihte eşi görülmemiş bir askerî yenilgi ve mutlakiyetçi rejimin çürümüşlüğünün kanıtı olarak 1905 Devrimi'ni doğrudan tetikleyen bir millî travma sayılır.",
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 { t:"1905-01-09", b:"Kanlı Pazar", tur:"isyan", onem:4, dunya:1, kapsam:"ic",
   etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
@@ -1789,7 +1789,7 @@ window.KRONOLOJI_LEHISTAN = [
 
 
 
-{ t:"1569-07-01", b:"LUBLIN BİRLİĞİ — Rzeczpospolita kuruldu", tur:"birlesme",
+{ t:"1569-07-01", b:"Lublın birliği — Rzeczpospolita kuruldu", tur:"birlesme",
   onem:5, dunya:4, kapsam:"ic", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Polonya Krallığı ile Litvanya Büyük Düklüğü tek bir devlet, tek meclis ve ortak seçilmiş kral altında birleşti; Ukrayna toprakları Litvanya'dan Polonya tacına aktarıldı. Polonya anlatısında Lublin, Avrupa'nın en büyük ve en özgün siyasî yapılarından birinin — İki Ulusun Cumhuriyeti'nin — kuruluş belgesidir ve gönüllü birlik olması özellikle vurgulanır.",
@@ -1886,7 +1886,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Boğdan'a giren Polonya ordusu Osmanlı ve Tatar kuvvetleri karşısında dağıldı; çekilme sırasında yaşlı hatman Stanisław Żółkiewski öldürüldü ve başı İstanbul'a gönderildi. Bozgun, ertesi yıl Osmanlı'nın büyük seferini davet etti.",
   kaynak:"el-kitabi", yer_kon:[47.133,27.783] },
 
-{ t:"1621-10-09", b:"HOTİN — Osmanlı seferi durduruldu ve antlaşma imzalandı", tur:"savas",
+{ t:"1621-10-09", b:"Hotin — Osmanlı seferi durduruldu ve antlaşma imzalandı", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","antlasma","konu-askeri","konu-diplomasi"],
   yer_id:"Hotin",
   d:"Chodkiewicz kumandasındaki Leh-Litvanya ordusu, Sahaydaçnıy'ın Ukrayna Kazakları'nın yardımıyla II. Osman'ın ordusunu Hotin önünde bir aydan uzun süre durdurdu; 9 Ekim'de imzalanan antlaşmayla Dinyester nehri sınır sayıldı ve Hotin Boğdan voyvodalarının idaresine bırakıldı. Polonya hafızasında Hotin, Hristiyanlığı savunan \"Avrupa'nın kalkanı\" (antemurale christianitatis) anlatısının en güçlü dayanaklarından biridir.",
@@ -1916,7 +1916,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Kardeşinin ölümü üzerine tahta geçen kral, saltanatı boyunca ayaklanma, işgal ve iç savaşla uğraşacaktı. Dönemi Polonya anlatısında \"tufan\" adıyla anılır.",
   kaynak:"el-kitabi" },
 
-{ t:"1652-03-09", b:"İLK LIBERUM VETO — bir soylu tek başına sejmi dağıttı", tur:"siyaset",
+{ t:"1652-03-09", b:"İlk Liberum veto — bir soylu tek başına sejmi dağıttı", tur:"siyaset",
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   yer_id:"Varşova",
   d:"Milletvekili Władysław Siciński'nin tek itirazıyla meclis çalışmalarını tamamlayamadan dağıldı ve bu ilk kez bir yasama dönemini bütünüyle geçersiz kıldı. Polonya tarihyazımında liberum veto, soylu hürriyetinin devleti felç eden hâle dönüştüğü noktadır: sonraki yüzyılda sejmlerin çoğu bu yolla dağıtıldı ve devlet karar alamaz oldu.",
@@ -1928,7 +1928,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Hmelnitski ve Kazak meclisi Moskova çarına bağlılık yemini etti. Polonya için bu, Ukrayna'nın kaybının ve Rusya'nın Avrupa siyasetine kalıcı biçimde girişinin başlangıcıdır; sonraki üç yüzyılın kuzeydoğu meselesi buradan doğar.",
   kaynak:"ukrayna", yer_kon:[50.0667,31.45] },
 
-{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655", ic_not_gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil)", tur:"isgal",
+{ t:"1655-07-21", b:"Potop — İsveç Tufanı başladı", gun:"21 Temmuz 1655", ic_not_gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil)", tur:"isgal",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"İsveç orduları kuzeyden girdi, Ujście'de Büyük Polonya soyluları teslim oldu ve birkaç ay içinde Varşova ile Krakov dâhil ülkenin neredeyse tamamı işgal edildi. \"Tufan\" (Potop) adı Polonya hafızasında bir felaketin değil, bir milletin yok olma eşiğinden dönüşünün adıdır; Sienkiewicz'in romanıyla ulusal anlatının merkezine yerleşmiştir.",
@@ -1964,7 +1964,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Tahtı bırakırken cumhuriyetin komşuları tarafından paylaşılacağını söylediği konuşma, Polonya hafızasında bir kehanet olarak anılır. Yüz yıl sonra taksimler bu sözü doğrulayacaktı.",
   kaynak:"el-kitabi" },
 
-{ t:"1672-08-27", b:"KAMANİÇE DÜŞTÜ — Podolya Osmanlı'ya geçti", tur:"toprak-kayip",
+{ t:"1672-08-27", b:"Kamaniçe düştü — Podolya Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
   yer_id:"Kamaniçe",
   d:"Dokuz günlük kuşatmanın ardından Avrupa'nın en güçlü kalelerinden sayılan Kamaniçe Osmanlılara teslim oldu (3 Cemâziyelevvel 1083). Polonya anlatısında bu, Hristiyan Avrupa'nın kalkanı olma iddiasının en ağır yarası ve cumhuriyetin savunamaz hâle geldiğinin kanıtıdır.",
@@ -1981,7 +1981,7 @@ window.KRONOLOJI_LEHISTAN = [
 
 // onem:4 — büyük bir zafer ama sınırları değiştirmedi; Polonya anlatısında
 // dönüm noktası olan 1683 Viyana'dır. Aynı sınanabilirlik gerekçesi.
-{ t:"1673-11-11", b:"HOTİN ZAFERİ — Sobieski Osmanlı ordusunu bozguna uğrattı", tur:"savas",
+{ t:"1673-11-11", b:"Hotin zaferi — Sobieski Osmanlı ordusunu bozguna uğrattı", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Hotin",
   d:"Hatman Jan Sobieski kumandasındaki kuvvetler Hotin önlerinde Osmanlı ordusunu yendi. Zafer Bucaş'ın utancını silen an olarak karşılandı ve Sobieski'yi altı ay sonra tahta taşıyan siyasî sermaye oldu.",
@@ -2005,7 +2005,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Osmanlı seferinin hazırlandığı duyulunca Sobieski, İmparator I. Leopold ile karşılıklı yardım antlaşması yaptı. Bu belge altı ay sonra Viyana'ya yürüyüşün hukukî dayanağı oldu.",
   kaynak:"el-kitabi" },
 
-{ t:"1683-09-12", b:"VİYANA — Sobieski'nin Kahlenberg hücumu kuşatmayı kırdı", tur:"savas",
+{ t:"1683-09-12", b:"Viyana — Sobieski'nin Kahlenberg hücumu kuşatmayı kırdı", tur:"savas",
   onem:5, dunya:5, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Viyana",
   d:"Kahlenberg tepelerinden inen birleşik ordunun başında Sobieski, tarihin en büyük süvari hücumlarından birini yönetti ve iki aydır süren kuşatma bir günde dağıldı. Polonya ulusal anlatısında Viyana, \"Avrupa'nın kalkanı\" iddiasının doruğudur ve kralın imparatora yazdığı \"geldik, gördük, Tanrı fethetti\" sözü hafızaya kazınmıştır. Aynı gün Osmanlı tarihyazımında bir felaket olarak anılır — bu fark tesadüf değil, iki milletin kendi anlatısıdır.",
@@ -2023,7 +2023,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Son yerli ve muzaffer kralın ölümüyle taht yeniden açık artırmaya çıktı. Bundan sonraki seçimler komşu devletlerin parasıyla ve ordusuyla belirlenecekti.",
   kaynak:"el-kitabi" },
 
-{ t:"1699-01-26", b:"KARLOFÇA — Podolya, Kamaniçe ve Sağ Yaka Ukrayna geri alındı", tur:"antlasma",
+{ t:"1699-01-26", b:"Karlofça — Podolya, Kamaniçe ve Sağ Yaka Ukrayna geri alındı", tur:"antlasma",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"On bir maddelik antlaşmayla Osmanlı Devleti Podolya'yı boşalttı, Kamaniçe Kalesi'ni tahliye edip yıktırdı ve Ukrayna'daki Kazak hatmanlığını lağvetti (Braslav, Vinnitsa ve Uman'ın bulunduğu Sağ Yaka Ukrayna böylece Lehistan'a kaldı); karşılığında Boğdan'daki Suçeva, Roman, Nemçe, Soroka ve Kampulek kaleleri Osmanlı'ya döndü (24 Receb 1110). Polonya için Karlofça, 1672'de kaybedilenin geri alınmasıdır — ama zaferi kazanan artık cumhuriyet değil, ittifakın büyük ortaklarıydı.",
@@ -2054,7 +2054,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"İsveç'in yenilgisiyle II. August tahta döndü ama bu dönüşü Rus ordusuna borçluydu. Polonya tarihyazımı Rusya'nın fiilî vesayetini bu tarihten başlatır.",
   kaynak:"el-kitabi" },
 
-{ t:"1717-02-01", b:"SESSİZ SEJM — Rus vesayetinin başlangıcı", tur:"siyaset",
+{ t:"1717-02-01", b:"Sessiz Sejm — Rus vesayetinin başlangıcı", tur:"siyaset",
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   yer_id:"Varşova",
   d:"Rus askerlerinin kuşattığı salonda milletvekillerinin söz alması engellendi ve kararlar tartışmasız kabul edildi; ordu yirmi dört bin kişiyle sınırlandırıldı. Polonya anlatısında \"sessiz sejm\", cumhuriyetin egemenliğini fiilen yitirdiği gündür: bir yabancı devlet artık Polonya'nın ordusunun büyüklüğünü belirliyordu.",
@@ -2090,7 +2090,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Bar konfederasyonlarını takip eden Rus kuvvetlerinin sınırı geçmesi savaş sebeplerinden biri oldu. Osmanlı, Polonya'nın bağımsızlığını Rus yayılmasına karşı bir tampon olarak görüyordu.",
   kaynak:"polonya" },
 
-{ t:"1772-08-05", b:"BİRİNCİ TAKSİM — Rusya, Prusya ve Avusturya toprak aldı", tur:"toprak-kayip",
+{ t:"1772-08-05", b:"Birinci taksim — Rusya, Prusya ve Avusturya toprak aldı", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Üç komşu devlet, cumhuriyetin yaklaşık üçte birini ve nüfusunun üçte birini aralarında paylaştı; sejm baskı altında paylaşımı onaylamak zorunda kaldı. Polonya anlatısında birinci taksim, hem bir felaket hem de reform hareketini doğuran sarsıntıdır: kaybın ardından ülke kendini kurtarmak için köklü değişime girişti.",
@@ -2108,7 +2108,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Rusya'nın Osmanlı savaşıyla meşgul olmasından yararlanan meclis, dört yıl boyunca kesintisiz toplanarak devleti yeniden kurmaya girişti. Ordu yüz bine çıkarıldı, şehirlilere haklar verildi.",
   kaynak:"el-kitabi" },
 
-{ t:"1791-05-03", b:"3 MAYIS ANAYASASI — Avrupa'nın ilk yazılı anayasası", tur:"siyaset",
+{ t:"1791-05-03", b:"3 Mayıs anayasası — Avrupa'nın ilk yazılı anayasası", tur:"siyaset",
   onem:5, dunya:4, kapsam:"ic", etiket:["siyaset","islahat","konu-siyasi","konu-islahat"],
   yer_id:"Varşova",
   d:"Liberum veto kaldırıldı, taht irsî hâle getirildi, şehirliler ve köylüler devletin koruması altına alındı. Polonya ulusal anlatısında 3 Mayıs, ülkenin kendi kendini kurtarma iradesinin en yüksek ifadesidir; Avrupa'nın ilk, dünyanın ise Amerika'dan sonraki ikinci yazılı anayasası sayılır ve bugün millî bayramdır.",
@@ -2120,13 +2120,13 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Anayasaya karşı çıkan büyük toprak sahipleri Rus desteğiyle konfederasyon ilan etti ve Rus ordusu ülkeye girdi. \"Targowica\" kelimesi Polonya dilinde ihanetin eş anlamlısı hâline geldi.",
   kaynak:"el-kitabi", yer_kon:[48.35,30.53] },
 
-{ t:"1793-01-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1793-01-12 (II. Paylaşım; Jülyen günü ÇEVİRİYLE: Gregoryen − 11, Jülyen gün veren birincil kaynak okunamadı) = Gregoryen 1793-01-23", b:"İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü", tur:"toprak-kayip",
+{ t:"1793-01-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1793-01-12 (II. Paylaşım; Jülyen günü ÇEVİRİYLE: Gregoryen − 11, Jülyen gün veren birincil kaynak okunamadı) = Gregoryen 1793-01-23", b:"İkinci taksim — Rusya ve Prusya yeniden böldü", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"3 Mayıs Anayasası iptal edildi ve ülkenin büyük bölümü Rusya ile Prusya arasında paylaşıldı; geriye küçük ve savunmasız bir kalıntı kaldı. Grodno'da toplanan sejm paylaşımı süngü altında onayladı.",
   kaynak:"el-kitabi", yer_kon:[53.6778,23.8306] },
 
-{ t:"1794-03-24", b:"KOŚCIUSZKO AYAKLANMASI — Krakov'da ant içildi", tur:"isyan",
+{ t:"1794-03-24", b:"KOŚCIUSZKO ayaklanması — Krakov'da ant içildi", tur:"isyan",
   onem:5, dunya:3, kapsam:"ic", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   yer_id:"Krakov",
   d:"Amerikan Bağımsızlık Savaşı'nın generali Tadeusz Kościuszko, Krakov meydanında millete ant içerek ayaklanmayı başlattı ve ilk kez köylüleri de silah altına çağırdı. Polonya anlatısında bu ayaklanma, devletin son savunması ve modern ulusal hareketin doğduğu andır.",
@@ -2144,7 +2144,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Suvorov'un kuvvetleri Varşova'nın Vistül'ün sağ yakasındaki mahallesini ele geçirirken binlerce sivil öldürüldü; şehir iki gün sonra teslim oldu. Ayaklanma bastırıldı ve devletin son direnci kırıldı.",
   kaynak:"el-kitabi" },
 
-{ t:"1795-10-24", b:"ÜÇÜNCÜ TAKSİM — Polonya devleti haritadan silindi", tur:"son",
+{ t:"1795-10-24", b:"Üçüncü taksim — Polonya devleti haritadan silindi", tur:"son",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma","konu-askeri","konu-siyasi","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Rusya, Prusya ve Avusturya geriye kalan toprakları da paylaştı ve Polonya-Litvanya Cumhuriyeti sona erdi; kral 25 Kasım'da tahttan çekildi. Devlet 123 yıl boyunca haritada yer almayacaktı. Polonya ulusal anlatısının en belirleyici tarihi budur: bundan sonraki her şey — ayaklanmalar, göç, edebiyat — bu kaybın etrafında kurulur. Osmanlı Devleti taksimi resmen tanımadı.",
@@ -2941,7 +2941,7 @@ window.KRONOLOJI_IRAN = [
 // === C) SAFEVÎ KURULUŞU VE YÜKSELİŞİ — ŞAH İSMAİL (1501-1524) ===============
 { t:"1501-07-01", b:"Şah İsmail Tebriz'de tahta çıktı — Safevî Devleti kuruldu", gun:"907 / 1501", ic_not_gun:"907 / 1501 — TDV `safeviler` yalnız yıl veriyor; t = `safevi` künyesinin f günü (kaynak değil; devlet künyesinin başlangıç günü devralındı)", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["kurulus","din","konu-siyasi","konu-hanedan","konu-din"],
-  d:"[Safevî] Erdebil tarikatının genç şeyhi İsmail, Kızılbaş Türkmen boylarının desteğiyle Akkoyunlu artıklarını yenip Tebriz'i ele geçirdi ve kendini şah ilan etti; aynı anda Şiî On İki İmam mezhebini devletin resmî mezhebi ilan etti. İran tarihyazımında bu, ülkenin 900 yıl sonra yeniden BİRLEŞİK ve BAĞIMSIZ bir İran devletine kavuşmasının ve bugüne kadar süren Şiî kimliğinin kuruluş anıdır — Kulikovo/1613 düzeyinde bir dönüm noktası.",
+  d:"[Safevî] Erdebil tarikatının genç şeyhi İsmail, Kızılbaş Türkmen boylarının desteğiyle Akkoyunlu artıklarını yenip Tebriz'i ele geçirdi ve kendini şah ilan etti; aynı anda Şiî On İki İmam mezhebini devletin resmî mezhebi ilan etti. İran tarihyazımında bu, ülkenin 900 yıl sonra yeniden birleşik ve bağımsız bir İran devletine kavuşmasının ve bugüne kadar süren Şiî kimliğinin kuruluş anıdır — Kulikovo/1613 düzeyinde bir dönüm noktası.",
   kaynak:"safeviler (TDV, doğrulanmış — data/olaylar*.js kullanıyor)", yer_id:"Tebriz" },
 { t:"1502-01-01", b:"On İki İmam Şiîliği resmî mezhep ilan edildi", gun:"1502", ic_not_gun:"1502 — yıl hassasiyeti · TDV `safeviler`, `ilhanlilar`, `kacarlar`, `zendler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"din", onem:4, dunya:3, kapsam:"ic",
   etiket:["din","siyaset","konu-siyasi","konu-din"],
@@ -3155,7 +3155,7 @@ window.KRONOLOJI_IRAN = [
   kaynak:"Encyclopaedia Iranica, madde: TOBACCO PROTEST", yer_id:"Tahran" },
 { odak_yer:["Tahran","Şiraz","Tebriz","Isfahan"], t:"1891-12-01", b:"Tütün İsyanı — büyük fetva ve kitlesel boykot", gun:"Aralık 1891? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi (Iranica'ya erişilemedi) · TDV `kacarlar`, `ilhanlilar`, `safeviler`, `zendler` … ay/gün vermiyor", tur:"isyan", onem:5, dunya:3, kapsam:"ic",
   etiket:["isyan","din","konu-isyan","konu-din"],
-  d:"[Kaçar] Büyük müctehid Mirza Hasan Şirazi'nin tütün kullanımını yasaklayan fetvası, sarayın kendi hareminden en yoksul köylere kadar bütün ülkede kitlesel bir boykota dönüştü; şah imtiyazı iptal etmek zorunda kaldı. İran tarihyazımında bu, ulemâ-tüccar-halk ittifakının yabancı ekonomik nüfuza karşı ilk BAŞARILI kitlesel direnişi ve 1906 Meşrutiyet Devrimi'ne giden yolun ilk büyük adımı sayılır — Rusya'daki 1905'in İran'daki 1917 düzeyinde bir öncü provası.",
+  d:"[Kaçar] Büyük müctehid Mirza Hasan Şirazi'nin tütün kullanımını yasaklayan fetvası, sarayın kendi hareminden en yoksul köylere kadar bütün ülkede kitlesel bir boykota dönüştü; şah imtiyazı iptal etmek zorunda kaldı. İran tarihyazımında bu, ulemâ-tüccar-halk ittifakının yabancı ekonomik nüfuza karşı ilk başarılı kitlesel direnişi ve 1906 Meşrutiyet Devrimi'ne giden yolun ilk büyük adımı sayılır — Rusya'daki 1905'in İran'daki 1917 düzeyinde bir öncü provası.",
   kaynak:"Encyclopaedia Iranica, madde: TOBACCO PROTEST", kapsam_genis:true },
 { t:"1896-05-01", b:"Nâsırüddin Şah suikastla öldürüldü", gun:"1 Mayıs 1896? — ay/gün Encyclopaedia Iranica'ya dayanıyor (Iranica'ya erişilemedi) · Dikkat: ÇELİŞKİ: TDV `kacarlar` \"3 Zilkade 1313 / 16 Nisan 1896\" diyor — TDV esas alınır; hüküm bekliyor", tur:"diger", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"],
@@ -3189,7 +3189,7 @@ window.KRONOLOJI_IRAN = [
   kaynak:"Encyclopaedia Iranica, madde: CONSTITUTIONAL REVOLUTION", yer_id:"Tahran" },
 { t:"1911-11-24", b:"Rusya'nın ikinci ültimatomu — Meclis kapatıldı", tur:"kayip", onem:3, dunya:2, kapsam:"dis",
   etiket:["diplomasi","kayip","konu-askeri","konu-diplomasi"],
-  d:"[Kaçar] Amerikalı mali danışman Morgan Shuster'ın reform çabalarından rahatsız olan Rusya, askerî müdahale tehdidiyle Meclis'in kapatılmasını dayattı; Rus birlikleri kuzey İran'ı fiilen işgal etti. Bu, 1907 Antlaşması'nın öngördüğü nüfuz bölgelerinin artık örtülü değil AÇIK biçimde uygulandığı bir dönemeçtir.",
+  d:"[Kaçar] Amerikalı mali danışman Morgan Shuster'ın reform çabalarından rahatsız olan Rusya, askerî müdahale tehdidiyle Meclis'in kapatılmasını dayattı; Rus birlikleri kuzey İran'ı fiilen işgal etti. Bu, 1907 Antlaşması'nın öngördüğü nüfuz bölgelerinin artık örtülü değil açık biçimde uygulandığı bir dönemeçtir.",
   kaynak:"Encyclopaedia Iranica, madde: SHUSTER, W. MORGAN", yer_id:"Tahran" },
 { t:"1914-11-01", b:"I. Dünya Savaşı'nda tarafsızlık ilan edildi (fiilen işgal edildi)", gun:"Kasım 1914? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi (Iranica'ya erişilemedi) · TDV `kacarlar`, `ilhanlilar`, `safeviler`, `zendler` … ay/gün vermiyor", tur:"savas", onem:4, dunya:5, kapsam:"dis",
   etiket:["askeri","diplomasi","konu-askeri","konu-diplomasi"],
@@ -3483,7 +3483,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 // ═══════════ II. OSMANLI'NIN DOĞUŞU ve KATALANLAR (1300-1330) ═══════════
-{ odak_yer:["Karabiga"], t:"1302-07-27", b:"KOYUNHİSAR (Bapheus) — Osman Gazi'nin ilk zaferi", tur:"savas",
+{ odak_yer:["Karabiga"], t:"1302-07-27", b:"Koyunhisar (Bapheus) — Osman Gazi'nin ilk zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"Pachymeres'in kaydına göre Yalova yakınında yapılan savaşta Osman Gazi imparatorluk kuvvetlerini yendi. Bu, Osmanlı Beyliği ile Bizans arasındaki ilk meydan savaşıdır ve Bizans'ın Bitinya'daki şehirlerinin birer birer kuşatılmasının önünü açtı.",
@@ -3514,7 +3514,7 @@ window.KRONOLOJI_BIZANS = [
   d:"II. Andronikos ile torunu III. Andronikos arasındaki taht kavgası yedi yıl sürdü ve imparatorluğun son askerî ve malî kaynaklarını tüketti. Bu yıllar, Osmanlı Beyliği'nin Bitinya şehirlerini rahatça kuşatabildiği yıllardır: Bizans'ın kaybı düşman yüzünden değil, kendi iç savaşı yüzünden hızlandı.",
   kaynak:"Foundation of the Hellenic World, Chronos «Politics in Late Byzantine Period» https://pegasos.fhw.gr/chronos/10/en/p/pb3/pb3c.html — «These began in 1321 and lasted, with a few intervals in between, until 1354.» ; el-kitabi" },
 
-{ t:"1326-04-06", b:"BURSA DÜŞTÜ — Osmanlı'nın ilk başşehri", tur:"toprak-kayip",
+{ t:"1326-04-06", b:"Bursa düştü — Osmanlı'nın ilk başşehri", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Bursa",
   d:"Uzun bir ablukanın ardından Bursa Orhan Gazi tarafından fethedildi ve Osmanlı Beyliği'nin başşehri oldu. Bizans, Anadolu'daki en büyük şehirlerinden birini kaybetti ve karşısındaki beylik ilk kez bir devlet merkezine kavuştu.",
@@ -3539,7 +3539,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"TDV İslâm Ansiklopedisi, «Orhan» https://islamansiklopedisi.org.tr/orhan — «Savaşın ilk günü (1 Haziran 1329) Orhan Gazi, Bizans ordusunu kendine çekmek için» ; el-kitabi",
   ic_not_t:"eski gün 1329-06-10 yalnız güvensiz kaynakta (el-kitabi). TDV «Orhan» (ham metin 14 Ekim 2026 okundu): savaş 1 Haziran 1329'da başladı, imparatorun yaralandığı asıl çarpışma «savaşın ikinci günü»; TDV'nin yazdığı tek gün alındı. 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014); savaslar.js ve savas_kunye_1.js birlikte düzeltildi." },
 
-{ t:"1331-03-01", b:"İZNİK DÜŞTÜ — sürgün başkenti Osmanlı'ya geçti", tur:"toprak-kayip",
+{ t:"1331-03-01", b:"İznik düştü — sürgün başkenti Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri","konu-demografi"],
   yer_id:"İznik",
   d:"Latin işgali yıllarında imparatorluğun sürgün başkentliğini yapmış olan İznik, Orhan Gazi'nin eline geçti. Bizans için bu yalnız bir şehir değil, hanedanın yeniden doğduğu şehrin kaybıydı.",
@@ -3607,13 +3607,13 @@ window.KRONOLOJI_BIZANS = [
   d:"Hesykhast öğretisi Ortodoks kilisesinin resmî öğretisi olarak kabul edildi. Bu karar, Ortodoks dünyasının Latin ilahiyatından düşünce olarak da ayrılmasını kesinleştirdi ve 1439 birliğinin niçin tutmadığını açıklayan zeminlerden biridir.",
   kaynak:"A. Papadakis, «Gregory Palamas at the Council of Blachernae, 1351», Greek, Roman, and Byzantine Studies 10/4 (1969) https://grbs.library.duke.edu/index.php/grbs/article/view/10431 — «Gregory Palamas at the Council of Blachernae, 1351» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1351-05-28; güvenilir kaynağın tarihi: 1351; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1352-01-01", b:"ÇİMPE KALESİ — Türkler Rumeli'de ilk kaleyi aldı", tur:"toprak-kayip",
+{ t:"1352-01-01", b:"Çimpe Kalesi — Türkler Rumeli'de ilk kaleyi aldı", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Çimpe",
   d:"İç savaşta verdikleri yardımın karşılığı olarak Türkler Gelibolu yarımadasındaki Çimpe Kalesi'ni aldı. Bu, Osmanlıların Avrupa yakasındaki ilk kalıcı üssüdür; Bizans kendi müttefikini Rumeli'ye kendi eliyle yerleştirmiş oldu.",
   kaynak:"bizans" },
 
-{ t:"1354-03-02", b:"GELİBOLU DEPREMİ — Osmanlılar Rumeli'ye yerleşti", tur:"toprak-kayip",
+{ t:"1354-03-02", b:"Gelibolu depremi — Osmanlılar Rumeli'ye yerleşti", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","konu-askeri","afet","afet-deprem"],
   yer_id:"Gelibolu",
   d:"Depremde surları yıkılan Gelibolu Süleyman Paşa tarafından zaptedildi ve Anadolu'dan getirilen nüfusla iskân edildi. Bizans tarihyazımında bu tarih, Osmanlıların Balkanlar'a geçişinin geri döndürülemez hâle geldiği gündür; imparatorluk artık iki yandan kuşatılmıştı.",
@@ -3668,13 +3668,13 @@ window.KRONOLOJI_BIZANS = [
   d:"İmparator Batı'dan yardım almak için şahsen Roma'ya gidip mezhep değiştirdi ama halkını ve kilisesini bağlamadı. Ne yardım geldi ne de birlik gerçekleşti; dönüş yolunda Venedik'te borcundan dolayı alıkonuldu.",
   kaynak:"A. A. Vasiliev, History of the Byzantine Empire 324–1453, University of Wisconsin Press 1952, «The conversion to Catholicism of Emperor John V» https://www.ellopos.net/elpenor/vasilief/conversion-john-v.asp?pg=2 — «In October 1369, in Rome, he solemnly read aloud his confession of faith» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1369-10-21; güvenilir kaynağın tarihi: 1369-10; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1371-09-26", b:"ÇİRMEN (Meriç) SAVAŞI — Sırp direnişi imha edildi", tur:"savas",
+{ t:"1371-09-26", b:"Çirmen (Meriç) Savaşı — Sırp direnişi imha edildi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Çirmen",
   d:"Meriç kıyısında baskına uğrayan Sırp ordusu yok edildi ve Makedonya'daki beylikler birer birer Osmanlı'ya tâbi oldu. Bizans için sonuç doğrudandı: Balkanlar'da kendisini koruyabilecek son müttefik kuvvet ortadan kalktı ve iki yıl sonra imparator da tâbiyeti kabul edecekti.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bizans» https://islamansiklopedisi.org.tr/bizans — «Türkler'in Sırplar'a karşı kazandığı yeni ve muazzam bir zafer (26 Eylül 1371)» ; el-kitabi" },
 
-{ t:"1373-01-01", b:"BİZANS OSMANLI'YA TÂBİ OLDU — haraç ve asker yükümlülüğü", tur:"antlasma",
+{ t:"1373-01-01", b:"Bizans Osmanlı'ya tâbi oldu — haraç ve asker yükümlülüğü", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"Dimetoka yakınındaki yenilginin ardından V. İoannis, I. Murad'a tâbi olmayı, haraç ödemeyi ve seferlere asker göndermeyi kabul etti. Roma İmparatorluğu'nun mirasçısı sayılan devlet, artık bir Osmanlı vasalıydı; imparatorlar bundan sonra sultanın seferlerinde onun yanında yer alacaktı.",
@@ -3704,7 +3704,7 @@ window.KRONOLOJI_BIZANS = [
   d:"İmparatorluğun ikinci şehri dört yıl süren bir ablukaya alındı. Şehri savunan Manuel Palaiologos, sonunda ayrılmak zorunda kaldı.",
   kaynak:"TDV İslâm Ansiklopedisi, «Murad I» https://islamansiklopedisi.org.tr/murad-i — «1383 sonbaharından beri Çandarlı Hayreddin Paşa tarafından kuşatma altında tutulan Selânik» ; el-kitabi" },
 
-{ t:"1387-04-09", b:"SELANİK DÜŞTÜ — imparatorluğun ikinci şehri kaybedildi", tur:"toprak-kayip",
+{ t:"1387-04-09", b:"Selanik düştü — imparatorluğun ikinci şehri kaybedildi", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Selanik",
   d:"Uzun kuşatmanın ardından Selanik Osmanlı idaresine girdi. Bizans'ın elinde başkent, Mora ve birkaç ada dışında neredeyse hiçbir şey kalmamıştı.",
@@ -3722,7 +3722,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Torun, Osmanlı desteğiyle başkenti ele geçirdi ama beş ay sonra amcası tarafından çıkarıldı. Hanedan içi kavga imparatorluğun son yıllarında bile sürüyordu.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bayezid I» https://islamansiklopedisi.org.tr/bayezid-i — «Bizans İmparatoru VII. Johannes'in tahta çıkışını (1390) destekledi» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1390-04-14; güvenilir kaynağın tarihi: 1390; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1391-01-01", b:"YILDIRIM BAYEZİD İSTANBUL'U ABLUKAYA ALDI", tur:"savas",
+{ t:"1391-01-01", b:"Yıldırım Bayezid İstanbul'u ablukaya aldı", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Sultan Bayezid başkenti aralıklarla on bir yıl sürecek bir ablukaya aldı. Şehir açlıkla boğuşurken imparator Manuel yardım aramak için Avrupa başkentlerini dolaştı; Bizans'ın ayakta kalması artık dışarıdan gelecek bir mucizeye bağlıydı.",
@@ -3747,7 +3747,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Boğaz'ın Anadolu yakasına yaptırılan hisarla deniz yolu da denetim altına alındı. Şehir hem karadan hem denizden kuşatılmıştı.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bayezid I» https://islamansiklopedisi.org.tr/bayezid-i — «yedi yıldır abluka altında tuttuğu İstanbul'u 1394 ilkbaharında yeniden sıkı bir kuşatma altına aldı» · TDV İslâm Ansiklopedisi, «Anadoluhisarı» https://islamansiklopedisi.org.tr/anadoluhisari — «Nişancı Mehmed Paşa'ya göre ise burası 797'de (1394-95) yapılmıştır» ; el-kitabi" },
 
-{ t:"1396-09-25", b:"NİĞBOLU — son büyük haçlı seferi bozguna uğradı", tur:"savas",
+{ t:"1396-09-25", b:"Niğbolu — son büyük haçlı seferi bozguna uğradı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Niğbolu",
   d:"Bizans'ı kurtarmak için toplanan Avrupa ordusu Tuna kıyısında imha edildi. Batı'nın Bizans'ı askerî olarak kurtarabileceği fikri bu bozgunla birlikte fiilen sona erdi ve başkent yalnız kaldı.",
@@ -3765,7 +3765,7 @@ window.KRONOLOJI_BIZANS = [
   d:"İmparator Noel'i IV. Henry'nin misafiri olarak Londra'da geçirdi; bir Doğu Roma imparatorunun İngiltere'ye gelişi ilk ve son kez oldu. İngiliz kronikçileri onun ağırbaşlılığını ve halkının hâline duydukları şaşkınlığı kaydettiler, ama toplanan yardım sembolik kaldı.",
   kaynak:"el-kitabi" },
 
-{ t:"1402-07-28", b:"ANKARA SAVAŞI — Bizans'a yarım asır ömür", tur:"savas",
+{ t:"1402-07-28", b:"Ankara Savaşı — Bizans'a yarım asır ömür", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Ankara",
   d:"Timur'un Yıldırım Bayezid'i yenmesiyle Osmanlı Devleti fetret devrine girdi; kuşatma zaten Timur'un yaklaşması üzerine kaldırılmıştı. Bizans tarihyazımı için bu, imparatorluğa hiçbir Bizans zaferinin sağlayamadığı elli yıllık bir ömür kazandıran dışarıdan gelen kurtuluştur.",
@@ -3816,7 +3816,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"TDV İslâm Ansiklopedisi, «Murad II» https://islamansiklopedisi.org.tr/murad-ii — «Murad Osmanlı tahtına çıktı (23 Cemâziyelâhir 824 / 25 Haziran 1421)» ; TDV «Mehmed I»: «I. Mehmed 23 Cemâziyelâhir 824'te (25 Haziran 1421) Edirne'de vefat ettiğinde Murad Bursa'da tahta çıktı» ; el-kitabi",
   ic_not_t:"eski gün 1421-05-26 TDV'de yok; iki TDV maddesi (ham metin 14 Ekim 2026 okundu) 23 Cemâziyelâhir 824 / 25 Haziran 1421 der (karşılık TDV'nin, çeviri yapılmadı). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014); padisahlar.js I. Mehmed bitişi (1421-05 → 1421-06) birlikte düzeltildi." },
 
-{ t:"1422-06-10", b:"II. MURAD İSTANBUL'U KUŞATTI", tur:"savas",
+{ t:"1422-06-10", b:"II. Murad İstanbul'u kuşattı", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Osmanlı ordusu ilk kez topla desteklenen düzenli bir kuşatma başlattı; Anadolu'da çıkan şehzade isyanı üzerine kuşatma kaldırıldı. Bizans için bu, fetret devrinin kazandırdığı nefes payının bittiğinin haberiydi.",
@@ -3866,7 +3866,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Birlik görüşmeleri için giden heyetteki Georgios Gemistos Plethon, Floransa'da Platon üzerine verdiği derslerle Medici çevresini derinden etkiledi ve Platon Akademisi'nin kurulmasına yol açtı. Bizans siyasî olarak biterken, taşıdığı Yunan mirası İtalyan Rönesansı'na aktarıldı — imparatorluğun dünya tarihine en kalıcı katkısı bu aktarımdır.",
   kaynak:"el-kitabi" },
 
-{ t:"1439-07-06", b:"FLORANSA BİRLİĞİ ilan edildi", tur:"ittifak",
+{ t:"1439-07-06", b:"Floransa birliği ilan edildi", tur:"ittifak",
   onem:5, dunya:3, kapsam:"dis", etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"Floransa",
   d:"Ortodoks ve Katolik kiliselerinin birleştiği ilan edildi; imza atmayan tek piskopos Efesli Markos oldu. Bizans anlatısında birlik, devleti kurtarmak için inancın satılması olarak algılandı ve halk tarafından reddedildi: \"Latin serpuşu yerine Türk sarığı\" sözü bu yılların ürünüdür.",
@@ -3938,7 +3938,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Yardım filosunu aramak için gizlice gönderilen brik, Ege'de hiçbir şey bulamadan geri döndü ve haberi imparatora bildirdi. Mürettebat dönmemeyi tartışmış, sonunda \"imparatoru bilgisiz bırakmamak\" için dönmüştü. Bizans anlatısında bu an, şehrin artık kendi başına olduğunun anlaşıldığı andır.",
   kaynak:"el-kitabi" },
 
-{ t:"1453-05-29", b:"İSTANBUL'UN FETHİ — Bizans İmparatorluğu sona erdi", tur:"son",
+{ t:"1453-05-29", b:"İstanbul'un fethi — Bizans İmparatorluğu sona erdi", tur:"son",
   onem:5, dunya:5, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri","konu-siyasi"],
   yer_id:"İstanbul",
   d:"Elli üç günlük kuşatmanın ardından şehir alındı; son imparator XI. Konstantinos surlarda savaşırken öldü ve cesedi kesin olarak teşhis edilemedi. Bin yüz yıllık Doğu Roma İmparatorluğu sona erdi. Bu tarih hem Osmanlı hem Bizans hem de Avrupa tarihyazımında bir çağın kapanışı sayılır — Osmanlı için bir dönüm noktası, Bizans için son, dünya için devletler sisteminin yeniden kurulduğu andır.",

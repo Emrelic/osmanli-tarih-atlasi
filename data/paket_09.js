@@ -133,7 +133,7 @@ window.KRONOLOJI_SINIR_KOMSU = [
 { t:"1920-01-01", devlet:"bulgaristan-kralligi", devletler:["bulgaristan-kralligi","yugoslavya"], sinir_id:"d1923-bg-shs",
   b:"Neuilly Antlaşması'nın Bulgaristan–SHS sınırı: Çariçin, Bosilegrad ve Ustrumca SHS'ye", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Ustrumca (Strumica)",
   etiket:["sinir","antlasma","konu-siyasi","bulgaristan-kralligi","yugoslavya"],
-  d:"27 Kasım 1919'da imzalanan Neuilly Antlaşması (md. 27(1), 37, 38) Bulgaristan'ın batı sınırını su bölümü çizgisinden ayırarak Çariçin, Bosilegrad ve Ustrumca bölgelerini SHS'ye bıraktı. Hattı uluslararası bir komisyon 1920–1922'de 1:25.000 ölçekli 29 paftayla işaretledi. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir akademik kaynakta bulunamadı.",
+  d:"27 Kasım 1919'da imzalanan Neuilly Antlaşması (md. 27(1), 37, 38) Bulgaristan'ın batı sınırını su bölümü çizgisinden ayırarak Çariçin, Bosilegrad ve Ustrumca bölgelerini SHS'ye bıraktı. Hattı uluslararası bir komisyon 1920–1922'de 1:25.000 ölçekli 29 paftayla işaretledi. Tarih yalnız yıl düzeyindedir: antlaşmanın yürürlük günü okunabilir bir akademik kaynakta bulunamadı.",
   kaynak:"TDV bulgaristan (Neuilly 27 Kasım 1919) · IBS No. 130 Bulgaria–Yugoslavia (komisyon 1920–22; 'as it is today, was defined by the Treaty') · Neuilly metni md. 27-38 (wwi.lib.byu.edu)" },
 
 { t:"1921-01-01", devlet:"yunanistan", devletler:["yunanistan","bulgaristan-kralligi"], sinir_id:"d1923-gr-bg-dogu",
@@ -165,13 +165,13 @@ window.KRONOLOJI_SINIR_KOMSU = [
 { t:"1880-01-01", devlet:"bulgaristan-prensligi", devletler:["bulgaristan-prensligi","romanya"], sinir_id:"g3-bg-ro-dobruca-p2",
   b:"Silistre yakınında (Arap Tabya) Romanya–Bulgaristan sınırı Bulgaristan lehine düzeltildi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Silistre",
   etiket:["sinir","konu-siyasi","bulgaristan-prensligi","romanya","dobruca"],
-  d:"Berlin Antlaşması'na taraf devletler Ağustos–Eylül 1880'deki nota değişimiyle 1878 senedinin 6. ve 7. maddelerini değiştirdi. Silistre–Karaorman yolu Bulgaristan'da bırakıldı, Arap Tabya tepesi Romanya'da kaldı. Tarih yalnız YIL düzeyindedir; ay metindedir, gün bilinmiyor.",
+  d:"Berlin Antlaşması'na taraf devletler Ağustos–Eylül 1880'deki nota değişimiyle 1878 senedinin 6. ve 7. maddelerini değiştirdi. Silistre–Karaorman yolu Bulgaristan'da bırakıldı, Arap Tabya tepesi Romanya'da kaldı. Tarih yalnız yıl düzeyindedir; ay metindedir, gün bilinmiyor.",
   kaynak:"IBS No. 53 Bulgaria–Romania s.6 (Hertslet IV s.2996: 'altered the original boundary near Silistra in favor of Bulgaria')" },
 
 { t:"1891-01-01", devlet:"kacar", devletler:["kacar","afganistan"], sinir_id:"d1923-ir-af-kuzey",
   b:"MacLean hakem kararı: İran–Afganistan kuzey sınırı 39 direkle işaretlendi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Herat",
   etiket:["sinir","konu-siyasi","kacar","afganistan","hakem-karari"],
-  d:"Herat ile İran arasındaki kuzey sınır anlaşmazlığı 1857 Paris Antlaşması (md. VI) gereği İngiliz hakemliğine götürüldü. General C. S. MacLean 1888–1891 arasında iki tarafın delillerini inceleyip bir uzlaşma hattı çizdi. Hat Rus üçlü noktasından 34°20′ kuzey enlemine kadar Herirud ve 39 direkle işaretlendi. Tarih yalnız YIL düzeyindedir (çalışmanın bittiği yıl).",
+  d:"Herat ile İran arasındaki kuzey sınır anlaşmazlığı 1857 Paris Antlaşması (md. VI) gereği İngiliz hakemliğine götürüldü. General C. S. MacLean 1888–1891 arasında iki tarafın delillerini inceleyip bir uzlaşma hattı çizdi. Hat Rus üçlü noktasından 34°20′ kuzey enlemine kadar Herirud ve 39 direkle işaretlendi. Tarih yalnız yıl düzeyindedir (çalışmanın bittiği yıl).",
   kaynak:"IBS No. 6 Afghanistan–Iran s.2-3 ('Between 1888 and 1891 Major General C.S. MacLean … laid down a compromise boundary')" },
 
 { t:"1905-05-15", devlet:"kacar", devletler:["kacar","afganistan"], sinir_id:"d1923-ir-af-guney",
@@ -258,13 +258,13 @@ window.KRONOLOJI_SINIR_KOMSU = [
 { odak_yer:["Reşt","İran"], t:"1732-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
   b:"Reşt Antlaşması: Rusya Hazar kıyısındaki toprakların bir kısmını İran'a iade etti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","safevi","rusya","nadir-sah"],
-  d:"Nâdir'in Ruslara karşı yürüttüğü mücadele sonunda 1732'de Reşt Antlaşması imzalandı. TDV dagistan maddesine göre bu antlaşmayla Dağıstan'ın güneyi, Derbend ve Bakü İran'a geçti. TDV derbend--dagistan ise Derbend ile Bakü'nün iadesini 1735 Gence Antlaşması'na bağlıyor. Çelişki çözülmedi. Tarih yalnız YIL düzeyindedir.",
+  d:"Nâdir'in Ruslara karşı yürüttüğü mücadele sonunda 1732'de Reşt Antlaşması imzalandı. TDV dagistan maddesine göre bu antlaşmayla Dağıstan'ın güneyi, Derbend ve Bakü İran'a geçti. TDV derbend--dagistan ise Derbend ile Bakü'nün iadesini 1735 Gence Antlaşması'na bağlıyor. Çelişki çözülmedi. Tarih yalnız yıl düzeyindedir.",
   kaynak:"TDV dagistan ('1732’de imzalanan Reşt Antlaşması’yla') · TDV derbend--dagistan (iade 1735 — çelişki)" },
 
 { odak_yer:["Gence"], t:"1735-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
   b:"Gence Antlaşması: Rusya Hazar kıyısından çekildi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","safevi","rusya","nadir-sah"],
-  d:"Osmanlı ve Kırım'ın Dağıstan'daki faaliyetleri ve İran'da merkezî idarenin güçlenmesi Rusya'yı 1735 Gence Antlaşması'na zorladı. TDV derbend--dagistan'a göre Derbend, Bakü ve Hazar kıyısındaki öteki bölgeler İran'a geri verildi. TDV dagistan ise bu antlaşmaya Sulak ile Kura arasındaki bazı toprakları bağlıyor. Tarih yalnız YIL düzeyindedir.",
+  d:"Osmanlı ve Kırım'ın Dağıstan'daki faaliyetleri ve İran'da merkezî idarenin güçlenmesi Rusya'yı 1735 Gence Antlaşması'na zorladı. TDV derbend--dagistan'a göre Derbend, Bakü ve Hazar kıyısındaki öteki bölgeler İran'a geri verildi. TDV dagistan ise bu antlaşmaya Sulak ile Kura arasındaki bazı toprakları bağlıyor. Tarih yalnız yıl düzeyindedir.",
   kaynak:"TDV derbend--dagistan ('1735 Gence Antlaşması’nı imzalamaya zorladı') · TDV dagistan ('1735 tarihli antlaşma ile de Sulak ve Kura')" },
 
 // ── GERİYE SARMA G8–G10 (1606 → 1281) ────────────────────────────────
@@ -305,7 +305,7 @@ window.KRONOLOJI_SINIR_KOMSU = [
   b:"Stefan Duşan Berat, Avlonya ve Kanina'yı Bizans'tan aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Berat",
   etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
   gun:"1345 (yıl; gün yok)",
-  d:"Bizans iç savaşı (1341-1347) sırasında Sırp Kralı Stefan Duşan güney Arnavutluk'a yürüdü ve 1280-81'den beri Bizans elinde olan Berat'ı aldı. Aynı yürüyüşte Avlonya ve Kanina da Sırplar'a geçti. Madde yıl hassasiyetindedir (bir TIB kaydı Avlonya için 1340 der).",
+  d:"Bizans iç savaşı (1341-1347) sırasında Sırp Kralı Stefan Duşan güney Arnavutluk'a yürüdü ve 1280-81'den beri Bizans elinde olan Berat'ı aldı. Aynı yürüyüşte Avlonya ve Kanina da Sırplar'a geçti. Madde yıl hassasiyetindedir (bir tıb kaydı Avlonya için 1340 der).",
   kaynak:"TIB Balkan (ÖAW Bizans Araştırmaları) 'Belogradum/Berat' tib.oeaw.ac.at/balkan/explore/entity/123830: 'In 1280-81 the region and Berat became again part of the Byzantine Empire and lost in 1345 to Stefan IV Dušan.' · TIB Kanina 'In 1345 the Serbian king Stefan Uroš IV Dušan conquered the region' · TDV berat--arnavutluk (sıra: Bizans, Epir, Anjou, yine Bizans, Sırplar, küçük bir Arnavut prensliği; yılsız)" },
 
 
@@ -634,7 +634,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Berlin"], t:"1415-01-01", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"",
   b:"İsviçrelilerin Aargau'yu fethi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["konu-siyasi","isvicre","almanya"],
-  d:"İmparatorluktan sürgün edilen Habsburg Dükü IV. Friedrich'in Aargau'daki topraklarını İsviçreliler (Uri hariç) Nisan 1415'te ele geçirdi. Bern iki haftada Aarburg, Aarau, Zofingen, Lenzburg ve Brugg'u aldı; Luzern ve Zürih de birer pay aldı. Tarih YIL düzeyindedir: kaynak ayı veriyor, günü vermiyor.",
+  d:"İmparatorluktan sürgün edilen Habsburg Dükü IV. Friedrich'in Aargau'daki topraklarını İsviçreliler (Uri hariç) Nisan 1415'te ele geçirdi. Bern iki haftada Aarburg, Aarau, Zofingen, Lenzburg ve Brugg'u aldı; Luzern ve Zürih de birer pay aldı. Tarih yıl düzeyindedir: kaynak ayı veriyor, günü vermiyor.",
   kaynak:"Historisches Lexikon der Schweiz 'Aargau'" },
 
 { odak_yer:["Arras"], t:"1482-12-23", devlet:"fransa", devletler:["fransa","almanya"], sinir_id:"",
@@ -664,7 +664,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Bretanya"], t:"1532-01-01", devlet:"fransa", devletler:["fransa","bretanya"], sinir_id:"",
   b:"Bretanya'nın Fransa tacına bağlanması (Birleşme Fermanı)", tur:"bolunme", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["konu-siyasi","fransa","bretanya"],
-  d:"Nantes'ta çıkarılan Birleşme Fermanı Bretanya dükalığını Fransa tacına ebediyen bağladı; Bretanya'nın vergi rızası ve adalet düzeni gibi hakları korundu. Kaynak ayı veriyor (Ağustos 1532), günü vermiyor; tarih YIL düzeyindedir.",
+  d:"Nantes'ta çıkarılan Birleşme Fermanı Bretanya dükalığını Fransa tacına ebediyen bağladı; Bretanya'nın vergi rızası ve adalet düzeni gibi hakları korundu. Kaynak ayı veriyor (Ağustos 1532), günü vermiyor; tarih yıl düzeyindedir.",
   kaynak:"Loire-Atlantique Departman Arşivleri 'Édit d'union 1532' (asıl belge: Archives nationales AE/II/587)" },
 
 { odak_yer:["Bern"], t:"1536-01-22", devlet:"isvicre", devletler:["isvicre","savoya"], sinir_id:"dg5-sa-ch-1",
@@ -957,13 +957,13 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Tarvis","İtalya"], t:"1920-01-01", devlet:"italya", devletler:["italya","avusturya-cumhuriyet"], sinir_id:"d1923-it-at",
   b:"Saint-Germain Antlaşması yürürlüğe girdi — Güney Tirol ve Tarvis İtalya'ya", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","avusturya-cumhuriyet"],
-  d:"10 Eylül 1919'da imzalanan Saint-Germain Antlaşması'nın 27(2). maddesi Avusturya–İtalya sınırını Reschen, Brenner ve Karn Alpleri boyunca çizdi; Güney Tirol ile Tarvis İtalya'ya geçti. Büyükelçiler Konferansı 22 Temmuz 1920'de demarkasyon talimatını verdi, işaretleme 1924'te bitti. Metnin 'yerinde belirlenecek' dediği üç alt kesim (Reschen, Drava geçişi, Thörl) 1923'te henüz kesinleşmemişti. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
+  d:"10 Eylül 1919'da imzalanan Saint-Germain Antlaşması'nın 27(2). maddesi Avusturya–İtalya sınırını Reschen, Brenner ve Karn Alpleri boyunca çizdi; Güney Tirol ile Tarvis İtalya'ya geçti. Büyükelçiler Konferansı 22 Temmuz 1920'de demarkasyon talimatını verdi, işaretleme 1924'te bitti. Metnin 'yerinde belirlenecek' dediği üç alt kesim (Reschen, Drava geçişi, Thörl) 1923'te henüz kesinleşmemişti. Tarih yalnız yıl düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
   kaynak:"IBS No. 58 (Revised) Austria–Italy (md. 27 alıntısı, 1920 talimatı, 1924 demarkasyonu)" },
 
 { odak_yer:["İtalya"], t:"1920-01-01", devlet:"italya", devletler:["italya","isvicre"], sinir_id:"d1923-it-ch-saintgermain",
   b:"Güney Tirol'le birlikte eski Avusturya–İsviçre sınırının bir kesimi İtalya–İsviçre sınırı oldu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","isvicre"],
-  d:"Saint-Germain Antlaşması'yla Güney Tirol'ün İtalya'ya geçmesi, İtalya–İsviçre sınırını Cima Garibaldi'den Piz Lad'a kadar 53,5 km uzattı. Hat eski Avusturya–İsviçre sınırıydı ve değişmeden devralındı. İki ülke bu kesimi 1920-1927 arasında yeniden işaretledi ve çalışmayı 1927-1928 nota teatisiyle kabul etti. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
+  d:"Saint-Germain Antlaşması'yla Güney Tirol'ün İtalya'ya geçmesi, İtalya–İsviçre sınırını Cima Garibaldi'den Piz Lad'a kadar 53,5 km uzattı. Hat eski Avusturya–İsviçre sınırıydı ve değişmeden devralındı. İki ülke bu kesimi 1920-1927 arasında yeniden işaretledi ve çalışmayı 1927-1928 nota teatisiyle kabul etti. Tarih yalnız yıl düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
   kaynak:"IBS No. 12 Italy–Switzerland" },
 
 { odak_yer:["Danimarka","Almanya"], t:"1920-07-05", devlet:"danimarka", devletler:["danimarka","almanya"], sinir_id:"d1923-dk-de",

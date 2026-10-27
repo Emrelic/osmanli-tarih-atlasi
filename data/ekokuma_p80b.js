@@ -29,8 +29,8 @@ window.EKOKUMA_P80B = [
 
 { id:"p80b-tahrir-defterleri-nasil-okunur", tur:"teknik-bilimsel",
   baslik:"Tahrir defteri: kim yazdı, ne yazdı, tarihçi onu nasıl okur — ve 1431 defteri neden 'en eski'?",
-  kisa:"Tahrir defterleri bir sancağın köy köy, erkek erkek, tarla tarla dökümüdür; klasik Osmanlı'nın en zengin kaynağıdır, ama gerçek vergiyi değil TAHMİNİ vergiyi, bütün nüfusu değil vergi veren erkekleri yazar.",
-  metin:"■ NEDİR\n"
+  kisa:"Tahrir defterleri bir sancağın köy köy, erkek erkek, tarla tarla dökümüdür; klasik Osmanlı'nın en zengin kaynağıdır, ama gerçek vergiyi değil tahmini vergiyi, bütün nüfusu değil vergi veren erkekleri yazar.",
+  metin:"■ Nedir\n"
     +"Tahrir sözlükte yazma, deftere geçirme demektir. Terim olarak Osmanlı maliyesinde vergilerin ve bu vergileri verenlerin adı adına tespiti için yapılan sayımları ve bu sayımların kaydedildiği defterleri ifade eder. Sayım Roma'da, Ortaçağ Avrupası'nda, başka İslâm devletlerinde de bilinir; TDV'ye göre Osmanlı tahririni ayıran, genel çapta yapılması ve ayrıntı ile düzen bakımından kendine has olmasıdır.\n\n"
     +"■ NİÇİN TUTULUR\n"
     +"Osmanlı belgelerinin kendi ifadesiyle amaç, reâyânın nerede oturduğunu ve işinin bütün özelliklerini, mal ve ürünlerinin kaynaklarını, tımar sahiplerinin gelirlerini ve reâyâ ile tımar sahipleri arasındaki anlaşmazlıkları devletin bilmesidir. Bunun yanında kanuna aykırı uygulamaların (bid'at) önlenmesi, avârız salındığında hane sayısının bilinmesi ve vakıfların durumunun ortaya konması da amaçlar arasındadır. Tahrir tımar sistemine doğrudan bağlıydı: yalnız tımar sisteminin uygulandığı (sâlyânesiz) eyalet ve sancaklarda yapıldı; Mısır, Yemen, Bağdat gibi sâlyâneli eyaletlerde ve yerel beylerin yönettiği hükümet sancaklarında yapılmadı. İl yazıcılarına giden emirlerin en sık tekrarladığı cümle, sayılmadık tek kişinin ve tek tanenin kalmamasıydı.\n\n"
