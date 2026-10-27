@@ -239,7 +239,7 @@ window.DEVLETLER = [
 },
 
 { id:"habsburg", ad:"Habsburg Avusturya", tur:"imparatorluk", bolge:"orta-avrupa",
-  f:"1282-01-01", t:"1918-11-12", baskent:"Viyana", harita:"avusturya",
+  f:"1282-12-27", ic_not_f:"AVUSTURYA-MACAR-1027: Augsburg Reichstag 1282-12-27 (atlas kronolojisi kronoloji_sinir_nokta3; habsburger.net: Albrecht+II. Rudolf Avusturya ve Steiermark ile lehenlendirildi; Rudolf II maddesi 27 Aralik, bir Almanca kaynak 17 Aralik der - 1282 yili kesin). Onceki f 1282-01-01 yil basi yuvarlamasiydi.", t:"1918-11-12", baskent:"Viyana", harita:"avusturya",
   ozet:"Mohaç sonrası Macar tacını alan Habsburg hanedanı; üç asır boyunca Osmanlı'nın Orta Avrupa'daki ana rakibi, sonunda Avusturya-Macaristan olarak I. Dünya Savaşı'nda dağıldı.",
   kaynak:"avusturya",
   kronoloji:[

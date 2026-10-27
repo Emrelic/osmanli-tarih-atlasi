@@ -1436,6 +1436,10 @@ BEYAN_EDILEN_BOSLUK = {
     # ⇒ BORÇ: `_sahiplik_uygula.py`ye `bos:`/`neden:` alanları eklenecek.
     #   O yapılana kadar beyan BURADA duruyor — beyanın yeri veri olmalıydı.
     ("Timbuktu", "1430-01-01", "1468-01-01"),
+    # AVUSTURYA-MACAR-1027: Macaristan bölge noktası 796-895 (Avar halkasının düşüşü → Honfoglalás).
+    # Karpat havzasının bu yüzyılı Frank/Bavyera marki, Avar kalıntısı (künye t=822) ve Büyük
+    # Moravya arasında bölünüyor; sahip kaynakla tek kimliğe bağlanamadı (boşluk merdiveni ③).
+    ("Macaristan", "0796-01-01", "0895-01-01"),
     # 🔴 Cizre 1508-1515 — YEREL EMİRLİK, ve künyesi YOK. Beyan, kaynağın
     # kendi cümlesine dayanıyor; boşluk KAZA DEĞİL.
     #
