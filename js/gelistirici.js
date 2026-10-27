@@ -455,6 +455,11 @@
   // kalır, sıradaki bölge çizilir; değilse forma geçilir.
   function bolgeEkle(bolge, devam) {
     G.taslak.push(bolge);
+    if (G.yanit && G.yanit.cizerken) {            // cevaba bölge: forma değil panele dön
+      if (devam) { cizimYaz(null); bildir("✏️ cevap bölgesi " + G.taslak.length + " eklendi · Shift'le sürdür · Enter: cevaba dön"); }
+      else yanitDon(true);
+      return;
+    }
     if (devam) {
       cizimYaz(null);
       bildir("✏️ bölge " + G.taslak.length + " eklendi · Shift'le çizmeyi sürdür · Shift'siz çiz ya da Enter: nota geç");
@@ -493,6 +498,7 @@
   // taslakta bölge birikmişse (Shift'le) not formuna geçilir.
   function kipAyarla(k) {
     var yeni = (G.kip === k) ? null : k;
+    if (!yeni && G.yanit && G.yanit.cizerken) { yanitDon(true); return; }
     kipKur(yeni);
     if (!yeni && G.taslak.length && !formAcik()) formAc({ tur: "harita" });
   }
@@ -565,7 +571,10 @@
     window.addEventListener("keydown", function (e) {
       if (!G.acik) return;
       var harKip = G.kip && G.kip !== "oge";
-      if (e.key === "Escape" && (G.kip || G.cizim)) {
+      if ((e.key === "Escape" || e.key === "Enter") && G.yanit && G.yanit.cizerken && (G.kip || G.cizim)) {
+        e.stopPropagation(); e.preventDefault(); G.cizim = null;
+        yanitDon(e.key === "Enter");              // Enter: çizilenleri tut · Esc: bu turdakileri at
+      } else if (e.key === "Escape" && (G.kip || G.cizim)) {
         e.stopPropagation(); G.cizim = null;
         var formaDon = G.ekleniyor && G.taslak.length;
         kipKur(null);
@@ -760,6 +769,149 @@
   }
   window.addEventListener("resize", function () { pencereYerlestir(); });
 
+  // ---------------------------------------- CEVAP: bölge + görüntü · DÜZENLEME
+  var YANIT_ISARET = "atlas-yanit v1";
+  function yanitTaslagi(n) {
+    if (!G.yanit || G.yanit.no !== n.no) G.yanit = { no: n.no, n: n, metin: "", bolgeler: [], gorsel: null, cizerken: false };
+    G.yanit.n = n;
+    return G.yanit;
+  }
+  // Panel gizlenir, çizim kipi açılır; bölgeler G.taslak'a çizilir (numaralı işaretler aynı), dönünce taslağa alınır.
+  function yanitCiz(n, yt) {
+    yt.cizerken = true;
+    G.taslak = yt.bolgeler.slice();
+    $("gn-panel").style.display = "none";
+    kipKur("kare");
+    cizimYaz(null);
+    bildir("➕ cevap için bölge çiz · Shift: bir bölge daha · Enter/Shift'siz bırak: cevaba dön · Esc: vazgeç");
+  }
+  function yanitDon(kaydet) {
+    var yt = G.yanit; if (!yt || !yt.cizerken) return;
+    yt.cizerken = false;
+    if (kaydet) yt.bolgeler = G.taslak.slice();
+    kipKur(null);
+    G.taslak = []; G.taslakMetin = ""; G.ekleniyor = false;
+    cizimYaz(null);
+    panelAc(yt.n);
+  }
+  // Harita tuvali preserveDrawingBuffer'sız: okuma ancak çizim olayının içinde güvenilir.
+  function ekranAl() {
+    return new Promise(function (ok, hata) {
+      var bitti = false;
+      harita.once("render", function () {
+        try {
+          var c = harita.getCanvas(), w = Math.min(c.width, 1400), h = Math.round(c.height * w / c.width);
+          var t = document.createElement("canvas"); t.width = w; t.height = h;
+          t.getContext("2d").drawImage(c, 0, 0, w, h);
+          bitti = true; ok(t.toDataURL("image/jpeg", 0.85));
+        } catch (e) { bitti = true; hata(e); }
+      });
+      harita.triggerRepaint();
+      setTimeout(function () { if (!bitti) hata(new Error("harita çizilmedi")); }, 3000);
+    });
+  }
+  // Görüntü depoda `postit-gorseller` dalına gider (main'e DEĞİL → yayın tetiklemez).
+  function gorselYukle(dataUrl, no) {
+    var DAL = "postit-gorseller";
+    return gh("/git/ref/heads/" + DAL).catch(function () {
+      return gh("").then(function (d) { return gh("/git/ref/heads/" + d.default_branch); }).then(function (r) {
+        return gh("/git/refs", "POST", { ref: "refs/heads/" + DAL, sha: r.object.sha });
+      });
+    }).then(function () {
+      var yol = "postit/" + no + "-" + Date.now() + ".jpg";
+      return gh("/contents/" + yol, "PUT", { message: "post-it #" + no + " ekran görüntüsü", branch: DAL,
+                                             content: dataUrl.split(",")[1] })
+        .then(function () { return "https://raw.githubusercontent.com/" + DEPO + "/" + DAL + "/" + yol; });
+    });
+  }
+  function yanitGonder(n, metin, yt) {
+    var yukle = yt.gorsel ? gorselYukle(yt.gorsel, n.no) : Promise.resolve(null);
+    return yukle.then(function (url) {
+      var s = [metin];
+      var bl = yt.bolgeler.map(function (b, i) {
+        return Object.assign({ no: i + 1 }, b, { baglam: bolgeBaglami(b.geo) });
+      });
+      if (bl.length) {
+        s.push("", "**Cevaba eklenen bölge (" + bl.length + "):** " + bl.map(function (b) { return b.no + " " + b.sekil; }).join(", "));
+        bl.forEach(function (b) {
+          var bg = b.baglam;
+          if (bg && bg.sahipler) s.push("- Bölge " + b.no + " sahipleri: " + bg.sahipler.map(function (x) { return x.ad; }).join(" · "));
+          if (bg && bg.icindeki_yerlesimler) s.push("  içindeki yerleşimler: " + (bg.icindeki_yerlesimler.map(function (x) { return x.ad; }).join(", ") || "YOK"));
+        });
+      }
+      if (url) s.push("", "![ekran görüntüsü](" + url + ")");
+      if (bl.length || url) {
+        s.push("", "<!-- " + YANIT_ISARET, JSON.stringify({ gun: gunYazi(suanki), zoom: harita.getZoom(),
+               merkez: yuvarla([harita.getCenter().lng, harita.getCenter().lat]), bolgeler: bl })
+               .replace(/--/g, "-\\u002d"), "-->");
+      }
+      return gh("/issues/" + n.no + "/comments", "POST", { body: s.join("\n").trim() });
+    });
+  }
+  // Yorum gövdesi: gizli yapı bloğu atılır, ![](url) görüntü olur.
+  function gizliAyir(govde) {
+    var m = govde.match(/\n*<!--\s*atlas-yanit v1[\s\S]*?-->\s*$/);
+    return m ? { gorunen: govde.slice(0, m.index), gizli: m[0] } : { gorunen: govde, gizli: "" };
+  }
+  function yorumGoster(kap, govde) {
+    kap.textContent = "";
+    var g = gizliAyir(govde).gorunen.replace(/^\s*🤖\s*/, "");
+    var re = /!\[[^\]]*\]\((https:\/\/raw\.githubusercontent\.com\/[^)\s]+)\)/g, son = 0, m;
+    while ((m = re.exec(g))) {
+      if (m.index > son) kap.appendChild(el("div", null, g.slice(son, m.index)));
+      var im = el("img", "gn-yanit-gorsel"); im.src = m[1]; im.style.maxWidth = "100%";
+      kap.appendChild(im); son = re.lastIndex;
+    }
+    if (son < g.length) kap.appendChild(el("div", null, g.slice(son)));
+  }
+  function duzenleKutusu(ilk, kaydet, vazgec, ust) {
+    var kt = el("div");
+    var ta = el("textarea"); ta.rows = 4; ta.value = ilk; ta.style.width = "100%";
+    var d = el("div", "gn-form-dugmeler");
+    var v = el("button", null, "Vazgeç"), k = el("button", "gn-ana", "💾 Kaydet");
+    v.type = k.type = "button";
+    v.onclick = vazgec;
+    k.onclick = function () {
+      var m = ta.value.trim(); if (!m) { ta.focus(); return; }
+      k.disabled = true; k.textContent = "kaydediliyor…";
+      kaydet(m).catch(function (e) { k.disabled = false; k.textContent = "💾 Kaydet"; bildir("Düzenlenemedi: " + e.message, true); });
+    };
+    ta.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) k.click();
+      if (e.key === "Escape") { e.stopPropagation(); vazgec(); }
+    });
+    d.appendChild(v); d.appendChild(k); kt.appendChild(ta); kt.appendChild(d);
+    ust.appendChild(kt); setTimeout(function () { ta.focus(); }, 30);
+    return kt;
+  }
+  function yorumDuzenle(n, c, kap, govde, dugme) {
+    var ay = gizliAyir(c.body || "");
+    govde.style.display = "none"; dugme.style.display = "none";
+    var kt = duzenleKutusu(ay.gorunen, function (m) {
+      return gh("/issues/comments/" + c.id, "PATCH", { body: m + ay.gizli }).then(function (yeni) {
+        c.body = yeni.body; c.updated_at = yeni.updated_at;
+        kt.remove(); govde.style.display = ""; dugme.style.display = "";
+        yorumGoster(govde, c.body);
+        bildir("✅ yorum düzenlendi");
+      });
+    }, function () { kt.remove(); govde.style.display = ""; dugme.style.display = ""; }, kap);
+  }
+  // Notun kendi metni: gövde yeniden yazılır (bağlam bloğu AYNEN korunur), başlık da tazelenir.
+  function notDuzenle(n, kap, metinEl, dugme) {
+    metinEl.style.display = "none"; dugme.style.display = "none";
+    var kt = duzenleKutusu(n.veri.metin || n.baslik, function (m) {
+      var v = Object.assign({}, n.veri); delete v.metin;
+      var ilk = m.split("\n")[0];
+      var baslik = "[" + v.gun + "] " + (ilk.length > 70 ? ilk.slice(0, 68) + "…" : ilk);
+      return gh("/issues/" + n.no, "PATCH", { title: baslik, body: govdeYaz(m, v) }).then(function () {
+        n.veri.metin = m; n.baslik = baslik;
+        kt.remove(); metinEl.style.display = ""; dugme.style.display = "";
+        metinEl.textContent = m; listeCiz();
+        bildir("✅ not düzenlendi");
+      });
+    }, function () { kt.remove(); metinEl.style.display = ""; dugme.style.display = ""; }, kap);
+  }
+
   function panelAc(n) {
     G.panelNo = n.no;
     if (n.yeni) {   // açtı = okudu
@@ -779,7 +931,13 @@
     var oc = oturumCip(n); if (oc) bas.appendChild(oc);
     p.appendChild(bas);
     p.appendChild(el("div", "gn-panel-tarih", n.veri.gun + " · " + (n.veri.gun_yazi || "")));
-    p.appendChild(el("div", "gn-metin gn-emre", n.veri.metin || n.baslik));
+    var ana = el("div", "gn-metin gn-emre");
+    var anaMetin = el("div", null, n.veri.metin || n.baslik);
+    ana.appendChild(anaMetin);
+    var anaDu = el("button", "gn-duzenle", "✎ düzenle"); anaDu.type = "button";
+    anaDu.onclick = function () { notDuzenle(n, ana, anaMetin, anaDu); };
+    ana.appendChild(anaDu);
+    p.appendChild(ana);
     var det = el("details"); det.appendChild(el("summary", null, "bağlam"));
     var bl = [];
     if (n.veri.madde) bl.push("Madde: " + (n.veri.madde.gun || n.veri.madde.t) + " · " + n.veri.madde.b);
@@ -803,24 +961,60 @@
         l.forEach(function (c) {
           var claude = /^\s*(🤖|\*\*Claude)/.test(c.body || "");
           var y = el("div", "gn-metin " + (claude ? "gn-claude" : "gn-emre"));
-          y.appendChild(el("div", "gn-yazan", (claude ? "Claude" : c.user.login) + " · " + c.created_at.slice(0, 16).replace("T", " ")));
-          y.appendChild(el("div", null, (c.body || "").replace(/^\s*🤖\s*/, "")));
+          y.appendChild(el("div", "gn-yazan", (claude ? "Claude" : c.user.login) + " · " + c.created_at.slice(0, 16).replace("T", " ") +
+                           (c.updated_at && c.updated_at !== c.created_at ? " · düzenlendi" : "")));
+          var govde = el("div");
+          y.appendChild(govde);
+          yorumGoster(govde, c.body || "");
+          if (!claude) {
+            var du = el("button", "gn-duzenle", "✎ düzenle"); du.type = "button";
+            du.onclick = function () { yorumDuzenle(n, c, y, govde, du); };
+            y.appendChild(du);
+          }
           yorumlar.appendChild(y);
         });
       }).catch(function (e) { yorumlar.textContent = "yorumlar okunamadı: " + e.message; });
     }
+    var yt = yanitTaslagi(n);
     var ta = el("textarea"); ta.rows = 2; ta.placeholder = "Ek yaz (Claude'a cevap, karar…)";
+    ta.value = yt.metin;
+    ta.addEventListener("input", function () { yt.metin = ta.value; });
     p.appendChild(ta);
+    // Cevaba ekli bölgeler + ekran görüntüsü (yanıt taslağı; gönderilene kadar ✕ ile silinir)
+    var ek = el("div", "gn-yanit-ek");
+    yt.bolgeler.forEach(function (b, i) {
+      var s = el("span", "gn-bolge-satir");
+      s.appendChild(el("span", "gn-bolge-no gn-bolge-no-satir", String(i + 1)));
+      s.appendChild(el("span", null, (SEKIL_IKON[b.sekil] || "") + " " + b.sekil));
+      var sl = el("button", "gn-bolge-sil", "✕"); sl.type = "button";
+      sl.onclick = function () { yt.bolgeler.splice(i, 1); panelAc(n); };
+      s.appendChild(sl); ek.appendChild(s);
+    });
+    if (yt.gorsel) {
+      var im = el("img", "gn-yanit-gorsel"); im.src = yt.gorsel; im.style.maxWidth = "100%";
+      ek.appendChild(im);
+      var gs2 = el("button", "gn-bolge-sil", "✕ görüntüyü sil"); gs2.type = "button";
+      gs2.onclick = function () { yt.gorsel = null; panelAc(n); };
+      ek.appendChild(gs2);
+    }
+    p.appendChild(ek);
     var dg = el("div", "gn-form-dugmeler");
     function dugme(ad, f, cls) { var b = el("button", cls, ad); b.type = "button"; b.onclick = f; dg.appendChild(b); return b; }
+    dugme("▢ Bölge işaretle", function () { yanitCiz(n, yt); }).title =
+      "Cevaba haritadan bölge ekle (Shift: bir bölge daha · Enter: cevaba dön)";
+    dugme("📸 Ekran görüntüsü", function () {
+      ekranAl().then(function (u) { yt.gorsel = u; panelAc(n); })
+        .catch(function (e) { bildir("Görüntü alınamadı: " + e.message, true); });
+    }).title = "Haritanın şu anki görüntüsünü cevaba ekle";
     dugme("💬 Ekle", function () {
-      var m = ta.value.trim(); if (!m) return;
-      gh("/issues/" + n.no + "/comments", "POST", { body: m }).then(function () {
+      var m = ta.value.trim(); if (!m && !yt.bolgeler.length && !yt.gorsel) return;
+      bildir("gönderiliyor…");
+      yanitGonder(n, m, yt).then(function () {
         return gh("/issues/" + n.no + "/labels", "POST", { labels: ["son:emre"] });
       }).then(function () {
         return gh("/issues/" + n.no + "/labels/son%3Aclaude", "DELETE").catch(function () {});
       }).then(function () {
-        n.yorum++; n.son = "emre"; ta.value = ""; panelAc(n); listeCiz();
+        n.yorum++; n.son = "emre"; G.yanit = null; panelAc(n); listeCiz();
       }).catch(function (e) { bildir("Eklenemedi: " + e.message, true); });
     });
     // UHDE: not arşive kadar sahibi oturumda kalır. Oturum silindiyse/takıldıysa Emre buradan

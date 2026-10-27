@@ -3775,6 +3775,10 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
 .gn-postit.gn-postit-cok { width: 16px; height: 16px; font: 700 10px/14px sans-serif; color: #111; text-align: center; }
 .gn-bolge-liste { margin: 4px 0; }
 .gn-bolge-satir { display: flex; align-items: center; gap: 6px; padding: 2px 0; }
+.gn-yanit-ek { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 4px 0; }
+.gn-yanit-gorsel { max-width: 100%; border-radius: 4px; display: block; margin: 4px 0; }
+.gn-duzenle { border: 0; background: none; color: #667; cursor: pointer; font-size: 11px; padding: 0; margin-top: 2px; }
+.gn-duzenle:hover { text-decoration: underline; }
 .gn-bolge-sil { margin-left: auto; border: 0; background: none; color: #a33; cursor: pointer; font-size: 13px; }
 .gn-bolge-ekle { margin-top: 3px; padding: 2px 8px; border-radius: 4px; border: 1px dashed #2bd10f; background: #fff; cursor: pointer; }
 
