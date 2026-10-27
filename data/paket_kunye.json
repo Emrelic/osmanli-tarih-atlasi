@@ -36,13 +36,13 @@
     },
     {
      "yol": "data/olaylar_ek5.js",
-     "sha": "49b7dd8c3a7c6e66",
-     "bayt": 418500
+     "sha": "a61678e54dc11d4d",
+     "bayt": 418621
     },
     {
      "yol": "data/olaylar_ek6.js",
-     "sha": "5f3c62518786f0d5",
-     "bayt": 49117
+     "sha": "d303cac106f8aaba",
+     "bayt": 49145
     },
     {
      "yol": "data/olaylar_ilirya_0072.js",
@@ -55,7 +55,7 @@
      "bayt": 111517
     }
    ],
-   "bayt": 953400
+   "bayt": 953549
   },
   {
    "paket": "data/paket_02.js",
@@ -558,8 +558,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "c02e6068598e7b7f",
-     "bayt": 1642906
+     "sha": "fa21129586b7ed48",
+     "bayt": 1645926
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -613,8 +613,8 @@
     },
     {
      "yol": "data/yerlesimler_ek5.js",
-     "sha": "27f8682b782e1401",
-     "bayt": 8138
+     "sha": "0d2e18423406e448",
+     "bayt": 8054
     },
     {
      "yol": "data/yerlesimler_ek6.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3199886
+   "bayt": 3202822
   },
   {
    "paket": "data/paket_14.js",
@@ -774,11 +774,11 @@
     },
     {
      "yol": "data/yerlesimler_ek29.js",
-     "sha": "e80152bc92bcb8a9",
-     "bayt": 246079
+     "sha": "8766d3afcd2f0ca2",
+     "bayt": 246770
     }
    ],
-   "bayt": 1221066
+   "bayt": 1221757
   },
   {
    "paket": "data/paket_15.js",
@@ -970,8 +970,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler_serhat.js",
-     "sha": "c40a9ea4ece332a3",
-     "bayt": 17572
+     "sha": "968790ad30e2e063",
+     "bayt": 18012
     },
     {
      "yol": "data/yerlesimler_kdmacar.js",
@@ -1014,7 +1014,7 @@
      "bayt": 7098
     }
    ],
-   "bayt": 140955
+   "bayt": 141395
   },
   {
    "paket": "data/paket_21.js",
@@ -1031,8 +1031,8 @@
     },
     {
      "yol": "data/yerlesimler_ok106.js",
-     "sha": "427ecbe622707c17",
-     "bayt": 43371
+     "sha": "cad719e9359df10b",
+     "bayt": 43818
     },
     {
      "yol": "data/yerlesimler_ok109.js",
@@ -1045,7 +1045,7 @@
      "bayt": 9927
     }
    ],
-   "bayt": 108350
+   "bayt": 108797
   },
   {
    "paket": "data/paket_22.js",
