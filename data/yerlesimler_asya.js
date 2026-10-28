@@ -2551,8 +2551,8 @@ window.YERLESIMLER_ASYA = [
 // Penghu deniz savaşı Zheng devletini bitirdi.
 { ad:"Penghu (Pescadores)", tur:"liman", lat:23.5710, lon:119.5790, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
-     {f:"1368-04-01", t:"1622-07-11", d:"ming-hanedani"},
-     {f:"1622-07-11", t:"1624-08-26", d:"hollanda-dogu-hint"},
+     {f:"1368-04-01", t:"1622-01-01", d:"ming-hanedani"},
+     {f:"1622-01-01", t:"1624-08-26", d:"hollanda-dogu-hint", kesinlik:"yil", kaynak:"Hollanda Penghu'yu 1622'de ele geçirdi, Ağustos 1624'te Ming baskısıyla çekildi — [yalnız yıl teyitli; gün teyitsiz]; eski 1622-07-11 günü kaynaksızdı"},
      {f:"1624-08-26", t:"1661-04-30", d:"ming-hanedani"},
      {f:"1661-04-30", t:"1683-07-16", d:"tungning"},
      {f:"1683-07-16", t:"1895-04-17", d:"qing-hanedani"},
@@ -2576,8 +2576,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1683-10-05", t:"1895-04-17", d:"qing-hanedani"},
      {f:"1895-04-17", t:"1895-05-23", d:"meiji-japonya"},
      {f:"1895-05-23", t:"1895-10-21", d:"formosa-cumhuriyeti", kaynak:"zincir Tainan'dan devralındı (Takekoshi 1907)"},
-     {f:"1895-10-21", t:"1923-10-29", d:"meiji-japonya"},
-     {f:"1923-10-29", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1895-10-21", t:"1945-10-25", d:"japon-tayvani"},
      {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
 
 // Taichung (Dadun) — Pazeh/Papora yerli ovası. Qing Changhua ilçesini 1723'te kurdu.
@@ -2587,8 +2586,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1723-01-01", t:"1895-04-17", d:"qing-hanedani", kesinlik:"yil"},
      {f:"1895-04-17", t:"1895-05-23", d:"meiji-japonya"},
      {f:"1895-05-23", t:"1895-10-21", d:"formosa-cumhuriyeti"},
-     {f:"1895-10-21", t:"1923-10-29", d:"meiji-japonya"},
-     {f:"1923-10-29", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1895-10-21", t:"1945-10-25", d:"japon-tayvani"},
      {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
 
 // Hualien (Hualien Limanı) — Amis/Sakizaya/Taroko toprağı. Qing doğuyu 1875 Shen Baozhen
@@ -2598,16 +2596,14 @@ window.YERLESIMLER_ASYA = [
   kasitli_bosluk:true, bos:"devletsiz", neden:"1875 öncesi Qing doğu kıyısını 'huawai' (idare dışı) tuttu; Amis/Sakizaya/Kavalan/Taroko toprağı (Shepherd 1993; Teng 2004). 🟡 BEYANLI.",
   kaynak:"QING 1875: Shen Baozhen'in 'dağı aç, yerliyi iskân et' programı, Pi-lam Dairesi (卑南廳) — [yalnız yıl teyitli; gün teyitsiz]; 1887 Taitung Doğrudan Bağlı Eyaleti ayrı basamak. Japon fiilî denetimi 1895 sonrası yavaş kuruldu; kâğıt üstü devir 1895-04-17 alındı — BEYANLI.",
   s:[{f:"1875-01-01", t:"1895-04-17", d:"qing-hanedani", kesinlik:"yil"},
-     {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"},
-     {f:"1923-10-29", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1895-04-17", t:"1945-10-25", d:"japon-tayvani"},
      {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
 
 { ad:"Taitung (Beinan / Pi-lam)", tur:"sehir", lat:22.7600, lon:121.1400, g:0, k:0, d:[],
   kasitli_bosluk:true, bos:"devletsiz", neden:"1875 öncesi Puyuma (Beinan krallığı)/Amis toprağı; Qing idare dışı (Shepherd 1993; Teng 2004). 🟡 BEYANLI.",
   kaynak:"QING 1875: Pi-lam Dairesi (卑南廳) — [yalnız yıl teyitli; gün teyitsiz]; 1887 Taitung Doğrudan Bağlı Eyaleti ayrı basamak (AÇIK KARAR). Kâğıt üstü devir 1895-04-17 — BEYANLI.",
   s:[{f:"1875-01-01", t:"1895-04-17", d:"qing-hanedani", kesinlik:"yil"},
-     {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"},
-     {f:"1923-10-29", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1895-04-17", t:"1945-10-25", d:"japon-tayvani"},
      {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
 
 // Kinmen (Jincheng) ve Matsu (Nangan) — Çin Cumhuriyeti hiçbir zaman kaybetmedi (1949-10-25
@@ -2621,8 +2617,8 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-01-01", d:"guney-ming"},
-     {f:"1650-01-01", t:"1680-01-01", d:"tungning"},
-     {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1650-01-01", t:"1680-03-01", d:"tungning"},
+     {f:"1680-03-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
 
 { ad:"Matsu (Nangan)", tur:"liman", lat:26.1600, lon:119.9500, g:0, k:3, d:[],
@@ -2630,8 +2626,8 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-01-01", d:"guney-ming"},
-     {f:"1650-01-01", t:"1680-01-01", d:"tungning"},
-     {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1650-01-01", t:"1680-03-01", d:"tungning"},
+     {f:"1680-03-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
 
 // ===== 4d. KURİL, KOMANDOR, OGASAWARA, IWO JIMA (ADALAR-DOGU-ASYA) =====
