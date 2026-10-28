@@ -677,4 +677,17 @@ window.OLAYLAR_EK16 = [
 { t:"1561-06-01", k:"diger", kapsam:"dis", etiket:["toprak-kayip","konu-diplomasi"], b:"Reval (Tallinn) İsveç'in himayesine girdi — Kuzey Estonya İsveç'e geçti", gun:"Haziran 1561 [yalnız yıl-ay teyitli; gün teyitsiz]", yer:"Tallinn (Reval)", yer_id:"Tallinn (Reval)",
   d:"Livonya Konfederasyonu dağılırken Reval şehir meclisi 1561'de İsveç Kralı XIV. Erik'e bağlılık sundu; kuzey Estonya, Büyük Kuzey Savaşı'na (1721) dek İsveç'te kaldı.",
   kaynak:"Livonian War / Siege of Narva (Vikipedi); baltic-way.spbu.ru «Routes of the Livonian War»; historyofwar.org — arama özeti [özet]; elle doğrulama bekler" },
+// ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): Gomel/Kursk işgal-kurtuluş
+{ t:"1941-08-19", k:"diger", kapsam:"dis", etiket:["isgal","toprak-kazanc","konu-askeri"], b:"Gomel Alman Ordusu'nca alındı", gun:"19 Ağustos 1941 (bazı kaynaklar 20 Ağustos)", yer:"Gomel (Homel)", yer_id:"Gomel (Homel)",
+  d:"Wehrmacht'ın Gomel'e saldırısından üç gün sonra Kızıl Ordu şehirden tamamen çekildi; şehir 26 Kasım 1943'e dek işgalde kaldı.",
+  kaynak:"ruwiki «Гомельское гетто»; JewishGen Gomel bülteni — arama özeti [özet]; ±1 gün" },
+{ t:"1943-11-26", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Gomel Kızıl Ordu'ca kurtarıldı", gun:"26 Kasım 1943", yer:"Gomel (Homel)", yer_id:"Gomel (Homel)",
+  d:"Belarus Cephesi Gomel-Rechitsa harekâtında şehri geri aldı; Belarus'un ilk büyük şehir kurtuluşlarından biridir.",
+  kaynak:"Belarus Ulusal Arşivi archives.gov.by (anıt yazısı) — arama özeti [özet]" },
+{ t:"1941-11-03", k:"diger", kapsam:"dis", etiket:["isgal","toprak-kazanc","konu-askeri"], b:"Kursk Alman Ordusu'nca alındı", gun:"2-3 Kasım 1941 gecesi", yer:"Kursk", yer_id:"Kursk",
+  d:"Sovyet komutasının emriyle Kursk boşaltıldı, Alman 2. Ordusu şehre girdi; şehir 8 Şubat 1943'e dek işgalde kaldı.",
+  kaynak:"booksite.ru Kursk kaydı; Kursk Oblastı Rosstat «Курская битва» belgesi — arama özeti [özet]; ±1 gün" },
+{ t:"1943-02-08", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Kursk Kızıl Ordu'ca kurtarıldı", gun:"8 Şubat 1943 (kaynaklarda 7-9 Şubat)", yer:"Kursk", yer_id:"Kursk",
+  d:"Voronej-Kastornoye harekâtının sonunda Kursk geri alındı; aynı yılın temmuzunda şehrin adı Kursk Muharebesi'ne verildi.",
+  kaynak:"booksite.ru Kursk kaydı; Rosstat «Курская битва» — arama özeti [özet]; ±1 gün" },
 ];
