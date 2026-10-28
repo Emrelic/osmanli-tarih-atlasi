@@ -6469,6 +6469,137 @@ window.DEVLETLER = [
 },
 
 // ================================================================================
+// AVUSTRALYA-II (29 Ekim 2026): Avustralya'nın 1901 ÖNCESİ kolonileri. Bu kimliklerin hepsi
+// önceden `ingiltere` olarak yazılıydı; koloni künyeleri yoktu. `harita:"ingiltere"` →
+// boya BOYALAR'da `ingiltere` rengiyle sürer (görünüm değişmez); ayrı renk istenirse
+// denetim/BOYA-OKYANUSYA-1029.tsv'ye bakın. Koloniler 1901'de eyalete dönüştü
+// (Constitution Act 1900, yürürlük 1 Ocak 1901; NAA / aph.gov.au) — atlas sahipliği
+// ulusa (avustralya) geçirdiği için künye penceresi 1901-01-01'de biter.
+// ================================================================================
+
+{ id:"yeni-guney-galler", ad:"Yeni Güney Galler Kolonisi", tur:"somurge", bolge:"okyanusya",
+  f:"1788-01-26", t:"1901-01-01", baskent:"Sydney", harita:"ingiltere",
+  ic_not_f:"26 Ocak 1788: Vali Arthur Phillip yeni koloniyi ilan etti (MoAD «Creating a Nation»). Vali yetki belgesinin okunması ve hukuki ilanın 7 Şubat 1788 olduğu başka kaynaklarda geçer; bu sayfada okunmadı — künye günü MoAD'ın verdiği 26 Ocak'tır.",
+  ic_not_t:"1 Ocak 1901 Federasyon (NAA / aph.gov.au): koloni eyalet oldu; atlas sahipliği 'avustralya'ya geçer.",
+  ozet:"Britanya'nın 1788'de First Fleet ile Sydney Koyu'nda kurduğu, ilk dönemde kıtanın doğusunu (135°D'ye dek) ve Van Diemen's Land'i kapsayan ceza kolonisi; Van Diemen's Land 1825, Batı Avustralya (Albany hariç) 1829, Güney Avustralya 1836, Viktorya 1851, Queensland 1859'da ayrıldı. Kuzey Bölgesi 1863'e dek buna bağlıydı.",
+  kaynak:"Museum of Australian Democracy, «Creating a Nation» zaman çizelgesi (explore.moadoph.gov.au/timelines/creating-a-nation.html) — sayfa AÇILDI: «26 January 1788: ... he proclaims the new colony of New South Wales»; 1825, 1829, 1836, 1859, 1863 satırları aynı sayfada.",
+  kronoloji:[
+    { odak_yer:["Sydney"], t:"1788-01-26", tur:"kurulus", b:"Vali Arthur Phillip Yeni Güney Galler kolonisini ilan etti (First Fleet, Sydney Koyu)", kaynak:"MoAD «Creating a Nation» (explore.moadoph.gov.au/timelines/creating-a-nation.html)" },
+    { odak_yer:["Hobart"], t:"1825-12-03", tur:"toprak-kayip", b:"Van Diemen's Land Yeni Güney Galler'den ayrıldı", kaynak:"MoAD «Creating a Nation»" },
+    { odak_yer:["Brisbane"], t:"1859-06-06", tur:"toprak-kayip", b:"Moreton Bay bölgesi Queensland adıyla ayrıldı", kaynak:"MoAD «Creating a Nation»; Queensland State Archives blogu" }
+  ] },
+
+{ id:"van-diemens-land", ad:"Van Diemen's Land (Tazmanya) Kolonisi", tur:"somurge", bolge:"okyanusya",
+  f:"1825-12-03", t:"1901-01-01", baskent:"Hobart", harita:"ingiltere",
+  ic_not_f:"Ada 1803–04'ten beri Yeni Güney Galler'in bağımlısı olarak yerleşilmişti; ayrı koloni 3 Aralık 1825 (MoAD).",
+  ic_not_t:"1 Ocak 1856'da adı Tasmania oldu (MoAD) — aynı koloni sürdü; 1 Ocak 1901 Federasyon.",
+  ozet:"Tazmanya adasının, Yeni Güney Galler'den 1825'te ayrılan ayrı İngiliz kolonisi; 1856'da Tasmania adını aldı, 1901'de federasyonla eyalet oldu.",
+  kaynak:"Museum of Australian Democracy, «Creating a Nation» zaman çizelgesi (explore.moadoph.gov.au/timelines/creating-a-nation.html) — sayfa AÇILDI: «3 December 1825: An Order-in-Council separates Van Diemen's Land from New South Wales»; «1 January 1856: Van Diemen's Land is renamed Tasmania».",
+  kronoloji:[
+    { odak_yer:["Hobart"], t:"1825-12-03", tur:"kurulus", b:"Van Diemen's Land ayrı koloni oldu", kaynak:"MoAD «Creating a Nation»" }
+  ] },
+
+{ id:"bati-avustralya", ad:"Batı Avustralya (Swan River) Kolonisi", tur:"somurge", bolge:"okyanusya",
+  f:"1829-06-18", t:"1901-01-01", baskent:"Perth", harita:"ingiltere",
+  ic_not_f:"Swan River Kolonisi 18 Haziran 1829'da Yarbay Stirling'in ilanıyla başladı (MoAD). King George Sound (Albany) karakolu 1826'dan beri Yeni Güney Galler'e bağlıydı ve ancak 7 Mart 1831'de Swan River Kolonisi'nin parçası ilan edildi (WA Heritage Council inHerit kaydı).",
+  ic_not_t:"1 Ocak 1901 Federasyon: koloni Batı Avustralya eyaleti oldu.",
+  ozet:"Kıtanın batı üçte birini (129°D'nin batısı) kapsayan, 1829'da Swan Nehri ağzında ilan edilen İngiliz kolonisi; 1832'de Batı Avustralya adını aldığı kaynaklarda geçer (bu oturumda doğrulanmadı), 1901'de eyalet oldu.",
+  kaynak:"Museum of Australian Democracy, «Creating a Nation» zaman çizelgesi — sayfa AÇILDI: «18 June 1829: ... Swan River Colony is proclaimed by Lieutenant-Governor James Stirling»; Heritage Council of WA, inHerit kaydı (inherit.dplh.wa.gov.au) — sayfa AÇILDI: «on 7 March 1831 it was proclaimed as part of the Swan River Colony» (Albany).",
+  kronoloji:[
+    { odak_yer:["Perth"], t:"1829-06-18", tur:"kurulus", b:"Swan River Kolonisi Stirling tarafından ilan edildi", kaynak:"MoAD «Creating a Nation»" },
+    { odak_yer:["Albany (Batı Avustralya)"], t:"1831-03-07", tur:"toprak-kazanc", b:"King George Sound (Albany) Yeni Güney Galler'den Swan River Kolonisi'ne geçti", kaynak:"Heritage Council of Western Australia, inHerit (inherit.dplh.wa.gov.au)" }
+  ] },
+
+{ id:"guney-avustralya", ad:"Güney Avustralya Kolonisi", tur:"somurge", bolge:"okyanusya",
+  f:"1836-12-28", t:"1901-01-01", baskent:"Adelaide", harita:"ingiltere",
+  ic_not_f:"28 Aralık 1836: Vali Hindmarsh'ın Glenelg'de bildiriyi okuması (Founding Documents / MoAD). Hukuki kuruluş 23 Şubat 1836 tarihli Letters Patent'tir (MoAD «Creating a Nation»); künye günü kolonideki ilan günüdür (Adelaide'in kuruluş günüyle aynı).",
+  ic_not_t:"1 Ocak 1901 Federasyon: koloni eyalet oldu. Kuzey Bölgesi 1863'ten 1911'e dek Güney Avustralya'ya bağlıydı: ayrı künye 'kuzey-bolgesi-sa'.",
+  ozet:"Parlamento yasasıyla (South Australia Act 1834) kurulan tek İngiliz kolonisi; 1836'da ilan edildi, 1861'de batıya 129°D'ye dek genişledi, 1863'te Kuzey Bölgesi'ni üstlendi, 1901'de eyalet oldu.",
+  kaynak:"Museum of Australian Democracy, «Creating a Nation» — sayfa AÇILDI: «23 February 1836: Letters Patent proclaim South Australia, the only colony to be authorised by an Act of parliament»; Founding Documents (foundingdocs.gov.au/picturealbum-aid-6.html) — sayfa AÇILDI (28 Aralık 1836 Glenelg bildirisi).",
+  kronoloji:[
+    { odak_yer:["Adelaide"], t:"1836-12-28", tur:"kurulus", b:"Güney Avustralya Kolonisi Glenelg'de ilan edildi", kaynak:"Founding Documents / MoAD" }
+  ] },
+
+{ id:"viktorya-kolonisi", ad:"Viktorya Kolonisi", tur:"somurge", bolge:"okyanusya",
+  f:"1851-07-01", t:"1901-01-01", baskent:"Melbourne", harita:"ingiltere",
+  ic_not_f:"Port Phillip Bölgesi'nin Yeni Güney Galler'den ayrılış günü 1 Temmuz 1851 (Founding Documents: «Separation took effect on 1 July 1851»). MoAD zaman çizelgesi aynı olayı Australian Colonies Government Act 1850 yılıyla anar.",
+  ic_not_t:"1 Ocak 1901 Federasyon: koloni eyalet oldu.",
+  ozet:"Port Phillip Bölgesi'nin 1851'de Yeni Güney Galler'den ayrılmasıyla kurulan, altın keşifleriyle hızla büyüyen İngiliz kolonisi;",
+  kaynak:"Founding Documents (Museum of Australian Democracy), «Australian Constitutions Act 1850 (UK)» (foundingdocs.gov.au/item-did-76.html) — sayfa AÇILDI: «Separation took effect on 1 July 1851».",
+  kronoloji:[
+    { odak_yer:["Melbourne"], t:"1851-07-01", tur:"kurulus", b:"Viktorya Kolonisi Yeni Güney Galler'den ayrıldı", kaynak:"Founding Documents (foundingdocs.gov.au/item-did-76.html)" }
+  ] },
+
+{ id:"queensland", ad:"Queensland Kolonisi", tur:"somurge", bolge:"okyanusya",
+  f:"1859-06-06", t:"1901-01-01", baskent:"Brisbane", harita:"ingiltere",
+  ic_not_f:"6 Haziran 1859 Letters Patent'in imza günü (Queensland Günü); kolonide ilan 10 Aralık 1859 (Queensland State Archives).",
+  ic_not_t:"1 Ocak 1901 Federasyon: koloni eyalet oldu.",
+  ozet:"Moreton Bay bölgesinin 1859'da Yeni Güney Galler'den ayrılmasıyla kurulan koloni; 141°D'ye dek, sonradan Körfez bölgesini katarak 138°D'ye dek uzandı (genişleme günü bu oturumda doğrulanmadı).",
+  kaynak:"Queensland State Archives blogu, «Why do we celebrate Queensland Day on 6 June?» (blogs.archives.qld.gov.au/2020/06/05/why-do-we-celebrate-queensland-day-on-6-june/) — sayfa AÇILDI; MoAD «Creating a Nation»: «6 June 1859: The Moreton Bay district is proclaimed the colony of Queensland».",
+  kronoloji:[
+    { odak_yer:["Brisbane"], t:"1859-06-06", tur:"kurulus", b:"Queensland ayrı koloni oldu", kaynak:"Queensland State Archives; MoAD" }
+  ] },
+
+{ id:"kuzey-bolgesi-sa", ad:"Kuzey Bölgesi (Güney Avustralya'ya bağlı, 1863–1911)", tur:"eyalet", bolge:"okyanusya",
+  f:"1863-07-06", t:"1911-01-01", baskent:"Palmerston (Darwin)", harita:"ingiltere",
+  ic_not_f:"6 Temmuz 1863: Kuzey Bölgesi'nin idaresi Yeni Güney Galler'den Güney Avustralya'ya geçti (MoAD «Creating a Nation»). ABS yıllıkları aynı olayı yalnız '1863' ve 'Royal Letters Patent' olarak verir.",
+  ic_not_t:"1 Ocak 1911: bölge Commonwealth'e devredildi (ABS Year Book: 'passed to the Commonwealth on 1 January 1911'). 1901–1911 arasında hukuken hâlâ Güney Avustralya eyaletinin parçasıydı.",
+  ozet:"Kıtanın kuzey kesiminin (26°G'nin kuzeyi, 129–138°D arası) 1863'te Güney Avustralya'ya bağlanan, 1911'de federal yönetime geçen kısmı; Darwin (Palmerston) 1869'da kuruldu.",
+  kaynak:"Museum of Australian Democracy, «Creating a Nation» — sayfa AÇILDI: «6 July 1863: Northern Territory administration transfers from New South Wales to South Australia»; Australian Bureau of Statistics, Year Book Australia (1973, bölüm 28; ausstats.abs.gov.au) — arama özetinde okundu: bölge 1 Ocak 1911'de Commonwealth'e geçti.",
+  kronoloji:[
+    { odak_yer:["Darwin (Palmerston)"], t:"1863-07-06", tur:"toprak-kazanc", b:"Kuzey Bölgesi Yeni Güney Galler'den Güney Avustralya'ya bağlandı", kaynak:"MoAD «Creating a Nation»" },
+    { odak_yer:["Darwin (Palmerston)"], t:"1911-01-01", tur:"toprak-kayip", b:"Kuzey Bölgesi Güney Avustralya'dan Commonwealth'e devredildi", kaynak:"ABS Year Book Australia" }
+  ] },
+
+// ================================================================================
+// AVUSTRALYA-II / OKYANUSYA (29 Ekim 2026): Samoa Krallığı (1889-1900) · Birleşik Kabileler
+// Konfederasyonu (Yeni Zelanda 1835-1840) · Yeni Hebridler Kondominyumu (1906-1980) · Vanuatu.
+// Dördü de `arac/renkler.py` BOYALAR'da yok ⇒ `boya_gerekli:true`; ihtiyaç listesi
+// denetim/BOYA-OKYANUSYA-1029.tsv.
+// ================================================================================
+
+{ id:"samoa-kralligi", ad:"Samoa Krallığı (Berlin Senedi, üçlü gözetim)", tur:"krallik", bolge:"okyanusya",
+  f:"1889-01-01", t:"1900-04-17", baskent:"Mulinu'u (Apia)", boya_gerekli:true,
+  ic_not_f:"Berlin Senedi'nin (Almanya-ABD-Britanya) imza GÜNÜ bu oturumda kaynak sayfasından okunamadı (Te Papa yalnız '1889' der); yıl hassasiyeti: YYYY-01-01 yalnız yıl işaretidir.",
+  ic_not_t:"Pencere ucu iki olayın en geçidir: Almanya Batı Samoa'da bayrak çekti 1900-03-01 (Apia zinciri), ABD Tutuila/Aunu'u devir senedi 1900-04-17 (Pago Pago zinciri). Hükümdarlık makamının kaldırılış günü kaynaklarda verilmiyor (Te Papa: 1898'de Laupepa öldükten sonra ortak komisyon 'makamı kaldırdı', tarihsiz).",
+  ozet:"1889 Berlin Senedi ile bağımsızlığı ve tarafsızlığı Almanya, ABD ve Britanya'nın ortak gözetimine bağlanan, Malietoa Laupepa'nın kral tanındığı Samoa; 2 Aralık 1899 Üçlü Sözleşme ile bölünüp Almanya'ya (Upolu, Savaiʻi) ve ABD'ye (Tutuila, Manuʻa) dağıldı.",
+  kaynak:"Te Papa Tongarewa, «German-Pacific relations: the precolonial period» (tepapa.govt.nz/german-pacific-relations-the-precolonial-period) — sayfa AÇILDI: Malietoa Laupepa «recognised as king by the Treaty of Berlin Act in 1889»; Berlin Senedi bağımsızlık ve tarafsızlığı güvence altına aldı; 1899 Üçlü Anlaşma Samoa'yı doğu-batı böldü, kral makamı Laupepa'nın 1898 ölümünden sonra kaldırıldı. Üçlü Sözleşme günü: ABD antlaşmalar derlemesi (tile.loc.gov, lltreaties-ustbv001) — arama özetinde 2 Aralık 1899.",
+  kronoloji:[
+    { odak_yer:["Apia"], t:"1889-01-01", tur:"antlasma", b:"Berlin Senedi: Samoa'nın bağımsızlığı ve tarafsızlığı üç devletin gözetiminde güvenceye alındı; Malietoa Laupepa kral tanındı (yalnız yıl)", kaynak:"Te Papa Tongarewa, German-Pacific relations: the precolonial period" },
+    { odak_yer:["Apia"], t:"1899-12-02", tur:"antlasma", b:"Üçlü Sözleşme: Almanya Upolu ve Savaiʻi'yi, ABD Tutuila ve Manuʻa'yı aldı, Britanya Samoa'dan çekildi", kaynak:"Te Papa; ABD antlaşmalar derlemesi (tile.loc.gov lltreaties-ustbv001)" },
+    { odak_yer:["Apia"], t:"1900-03-01", tur:"son", b:"Almanya Mulinu'u Yarımadası'nda bayrak çekti; Batı Samoa Alman Samoası oldu (krallık Batı Samoa'da sona erdi)", kaynak:"Te Papa Tongarewa (collections.tepapa.govt.nz/topic/10134): «hoisting of the imperial German flag at Mulinu'u Peninsula on the island of Upolu in Samoa on March 1, 1900»" }
+  ] },
+
+{ id:"yeni-zelanda-birlesik-kabileler", ad:"Yeni Zelanda Birleşik Kabileler Konfederasyonu (Te Whakaminenga)", tur:"federasyon", bolge:"okyanusya",
+  f:"1835-10-28", t:"1840-02-06", baskent:"Waitangi (Bay of Islands)", boya_gerekli:true,
+  ic_not_f:"28 Ekim 1835: He Whakaputanga (Bağımsızlık Bildirisi) Waitangi'de 34 Kuzey Maori rangatira tarafından imzalandı (DigitalNZ / Archives New Zealand kaydı IA9-1).",
+  ic_not_t:"6 Şubat 1840 Waitangi Antlaşması (egemenlik İngiliz Tacı'na devredildi). Konfederasyonun denetlediği alan KUZEY Adası'nın kuzeyiyle sınırlıdır; imzacılar çoğunlukla Northland'lıdır (Archives NZ), sınırları kaynakla çizilemedi.",
+  ozet:"1835'te Bay of Islands'ta toplanan Kuzey Maori rangatira'nın 'Yeni Zelanda Birleşik Kabileleri' adıyla egemenliğin kolektif olarak onlarda olduğunu ilan ettiği, İngiliz Tacı'nın 1836'da kabul ettiği konfederasyon; 1840 Waitangi Antlaşması ile İngiliz egemenliğine geçildi.",
+  kaynak:"DigitalNZ kaydı 32375930 (digitalnz.org/records/32375930; Archives New Zealand IA9-1) — sayfa AÇILDI: «signed 28 October 1835 ... 34 Māori rangatira at Waitangi, Bay of Islands ... Declaration of Independence of the United Tribes of New Zealand»; Archives New Zealand, «The Declaration of Independence of New Zealand» ve NZHistory (arama özetinde okundu; sayfalar tam açılamadı): Tacın May 1836'da tanıması, Te Whakaminenga adı.",
+  kronoloji:[
+    { odak_yer:["Waitangi (Bay of Islands)"], t:"1835-10-28", tur:"kurulus", b:"He Whakaputanga: Kuzey Maori rangatira Yeni Zelanda Birleşik Kabileleri'nin bağımsızlığını ilan etti", kaynak:"DigitalNZ 32375930 / Archives New Zealand IA9-1" }
+  ] },
+
+{ id:"yeni-hebridler-kondominyumu", ad:"Yeni Hebridler Anglo-Fransız Kondominyumu", tur:"devlet", bolge:"okyanusya",
+  f:"1906-10-20", t:"1980-07-30", baskent:"Port Vila", boya_gerekli:true,
+  ic_not_f:"Britanya-Fransa Sözleşmesi'nin imza günü 20 Ekim 1906 (UK Parlamentosu antlaşma kaydı; arama özetinde okundu, kayıt sayfası 500 verdi — gün yalnız bu özetten). ANU/Woodward ve gov.vu yalnız '1906' der. 1887-1906 arası Anglo-Fransız Ortak Deniz Komisyonu dönemi bu künyeye ALINMADI.",
+  ic_not_t:"30 Temmuz 1980 Vanuatu bağımsızlığı (Office of the Historian: «gained its independence on July 30, 1980»).",
+  ozet:"Britanya ve Fransa'nın 1906 Sözleşmesi ile adaları ortak egemenlik altında yönettiği, eğitim, hukuk ve idarenin ikiye bölündüğü kondominyum; 1914 protokolü onu pekiştirdi, 30 Temmuz 1980'de Vanuatu Cumhuriyeti oldu.",
+  kaynak:"ANU Press, A. Woodward, «A Political Memoir of the Anglo-French Condominium of the New Hebrides» (press.anu.edu.au) ve gov.vu «About Vanuatu» — arama özetinde okundu (1906 sözleşmesi, 1914 protokolü); UK Parliament Treaties kaydı (api.parliament.uk/uk-treaties/treaties/8196) — arama özetinde 20 Ekim 1906; Office of the Historian, Vanuatu (history.state.gov/countries/vanuatu) — sayfa AÇILDI.",
+  kronoloji:[
+    { odak_yer:["Port Vila"], t:"1906-10-20", tur:"kurulus", b:"Britanya-Fransa Sözleşmesi ile Yeni Hebridler ortak egemenlik (kondominyum) altına girdi", kaynak:"UK Parliament Treaties kaydı (arama özeti); ANU Press (Woodward)" },
+    { odak_yer:["Port Vila"], t:"1980-07-30", tur:"son", b:"Kondominyum sona erdi, Vanuatu bağımsız oldu", kaynak:"Office of the Historian, Vanuatu (history.state.gov/countries/vanuatu)" }
+  ] },
+
+{ id:"vanuatu", ad:"Vanuatu Cumhuriyeti", tur:"cumhuriyet", bolge:"okyanusya",
+  f:"1980-07-30", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet bugün de mevcut", baskent:"Port Vila", boya_gerekli:true,
+  ozet:"Yeni Hebridler kondominyumunun 30 Temmuz 1980'de sona ermesiyle kurulan Pasifik cumhuriyeti. (t: pencere ucu.)",
+  kaynak:"Office of the Historian, Vanuatu (history.state.gov/countries/vanuatu) — sayfa AÇILDI: «gained its independence on July 30, 1980».",
+  kronoloji:[
+    { odak_yer:["Port Vila"], t:"1980-07-30", tur:"kurulus", b:"Vanuatu bağımsızlığını kazandı", kaynak:"Office of the Historian, Vanuatu" }
+  ] },
+
+// ================================================================================
 // EK: Batı Avrupa/İberya/İtalya'nın 15 eksik kimliği — girdi Oturum 12'nin
 // oturumlar/OTURUM-12-KIMLIK.md ölçümünden geldi ("Oturum 3'e de girdi" diye
 // işaretlenmişti): `arac/renkler.py`'de tanımsız, `data/yerlesimler_avrupa.js`
@@ -18707,7 +18838,7 @@ window.DEVLETLER = [
     { t:"1400-01-01", tur:"kurulus", b:"Moriori atalarının Rēkohu'ya (Chatham Adaları) varışı; güncel araştırma 1400'leri verir (gün/yıl-içi bilinmiyor).", kaynak:"Te Ara 'Moriori' https://www.teara.govt.nz/en/moriori" },
     { t:"1791-01-01", tur:"kesif", b:"HMS Chatham'dan William Broughton adaları Avrupa adına keşfetti ve King George III adına sahiplendi (Kasım sonu; gün verilmedi).", kaynak:"Te Ara 'Moriori' https://www.teara.govt.nz/en/moriori ; https://www.teara.govt.nz/en/moriori/4" }
   ] },
-{ id:"rarotonga", ad:"Rarotonga ve Cook Adaları Şeflikleri/Krallığı", tur:"seflikler", bolge:"okyanusya", f:"1250-01-01", t:"1888-01-01", baskent:"Avarua", ozet:"Sözlü gelenekte Tangi'ia (Tahiti) ve Karika (Samoa) ile ~1250 yerleşimi (CIA Factbook ~900'ü tahmin eder); Makea Takau 1888'de Britanya himayesi istedi (turistik kaynak 26 Ekim 1888 verir, doğrulanamadı). Beş ariki yapısı, tek devlet değil. Zayıf kaynak.", kaynak:"Vikipedi 'Kingdom of Rarotonga', 'History of the Cook Islands'; CIA World Factbook 'Cook Islands' (Te Ara sayfası çekilemedi)", kronoloji:[
+{ id:"rarotonga", ad:"Rarotonga ve Cook Adaları Şeflikleri/Krallığı", tur:"seflikler", bolge:"okyanusya", f:"1250-01-01", t:"1888-01-01", baskent:"Avarua", ozet:"Sözlü gelenekte Tangi'ia (Tahiti) ve Karika (Samoa) ile ~1250 yerleşimi (CIA Factbook ~900'ü tahmin eder); Makea Takau 1888'de Britanya himayesi istedi (güney adalar 1888'de İngiliz himayesine girdi — Britannica «Cook Islands»; Te Ara, Pacific Islands and New Zealand ve PacLII Cook Islands legal history arama özetlerinde yalnız yıl; GÜN hiçbir kurumsal kaynakta bulunamadı, Vikipedi/turistik kaynaktaki Ekim 1888 günleri doğrulanamadı; t:1888-01-01 yıl işaretidir). Beş ariki yapısı, tek devlet değil. Zayıf kaynak.", kaynak:"Vikipedi 'Kingdom of Rarotonga', 'History of the Cook Islands'; CIA World Factbook 'Cook Islands' (Te Ara sayfası çekilemedi)", kronoloji:[
     { odak_yer:["Avarua"], t:"1773-09-23", tur:"siyaset", b:"Cook ikinci seferinde Manuae'yi (Hervey Adası) gördü ama karaya çıkmadı; güney Cook grubunun Avrupalılarca ilk kayda geçişidir.", kaynak:"https://cookislands.org.uk/MANUAE-Cook-Islands-deserted.html ; https://archivesearch.lib.cam.ac.uk/repositories/2/archival_objects/164736" },
     { odak_yer:["Avarua"], t:"1789-04-11", tur:"siyaset", b:"William Bligh, Bounty'de Aitutaki'yi gördü ve adada ariki ile temas kurdu (bazı kaynaklar 12 Nisan verir).", kaynak:"https://cookislands.org.uk/Aitutaki-discovered.html" },
     { odak_yer:["Avarua"], t:"1814-01-01", tur:"siyaset", b:"Philip Goodenough ve William Wentworth'un Cumberland şunerinin Rarotonga'ya çıkışı, adadaki ilk kayıtlı Avrupalı karaya çıkışıdır; sandal ağacı arayışı ada halkıyla çatışmaya döndü (gün kaynaklarda verilmiyor).", kaynak:"https://cookislandsnews.com/?p=257285 ; https://en.wikipedia.org/wiki/Rarotonga" },
