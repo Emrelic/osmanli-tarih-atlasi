@@ -697,4 +697,11 @@ window.OLAYLAR_EK16 = [
 { t:"1304-01-01", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Mozhaysk Smolensk Knezliği'nden alınarak Moskova'ya katıldı", gun:"1304 [yalnız yıl teyitli; gün teyitsiz]", yer:"Mojaysk", yer_id:"Mojaysk",
   d:"Moskova Knezliği Moskova nehrinin yukarı havzasındaki Mozhaysk'i Smolensk'ten alarak batı sınırını Litvanya'ya yaklaştırdı.",
   kaynak:"UW Waugh «Chronology of the Early History of Moscow» (faculty.washington.edu/dwaugh/hstam443/m-chron.html); Vikipedi «Daniel of Moscow» — arama özeti [özet]; yıl düzeyi, elle doğrulama bekler" },
+// ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): 1944 Baltık kurtuluş günleri (Rēzekne, Kaunas)
+{ t:"1944-07-27", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Rēzekne Kızıl Ordu'ca alındı — Letonya'nın doğusu kurtuldu", gun:"27 Temmuz 1944", yer:"Rēzekne (Rositten)", yer_id:"Rēzekne (Rositten)",
+  d:"2. Baltık Cephesi Rēzekne'yi aldı; Letonya'nın Latgale bölgesi Alman idaresinden çıktı.",
+  kaynak:"Letonya Ulusal Arşivi (nra.lv) sunumu — arama özeti [özet]; elle doğrulama bekler" },
+{ t:"1944-08-01", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Kaunas Kızıl Ordu'ca alındı — Litvanya'nın geçici başkenti Alman idaresinden çıktı", gun:"1 Ağustos 1944 (çarpışma 31 Temmuz-1 Ağustos)", yer:"Kaunas", yer_id:"Kaunas",
+  d:"3. Belarus Cephesi Kaunas'ı aldı; Stalin'in 1 Ağustos günlük emri alınışı duyurdu. Şehir 1919-1939 Litvanya'nın geçici başkentiydi.",
+  kaynak:"Kaunas offensive (Vikipedi); Lituanistika Kaunas offensive makalesi (ceeol) — arama özeti [özet]; gün ±1" },
 ];
