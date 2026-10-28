@@ -5557,11 +5557,32 @@ window.DEVLETLER = [
     { odak_yer:["Pekin"], t:"1644-04-25", tur:"son", b:"Li Zicheng'in köylü ordusu Pekin'i aldı, son imparator intihar etti (Güney Ming 1662'ye dek direndi)" }
   ]
 },
-{ id:"qing-hanedani", ad:"Qing Hanedanı (Mançu)", tur:"hanedanlik", bolge:"dogu-asya",
-  f:"1636-05-15", t:"1912-02-12", baskent:"Mukden (Şenyang) → Pekin", harita:"qing-hanedani",
-  ozet:"Mançu Nurhaci'nin oğlu Hong Taiji'nin kurduğu, Ming'in yıkılışından yararlanıp Çin'e hâkim olan son imparatorluk hanedanı; Afyon Savaşları ve Batı baskısıyla zayıflayıp 1911 Devrimi'yle sona erdi.",
-  kaynak:"cin--ulke",
+{ id:"xi-liang-li-gao", ad:"Batı Liang (Li Gao, 西涼)", tur:"krallik", bolge:"dogu-asya",
+  f:"0400-01-01", t:"0421-01-01", kesinlik:"yil", baskent:"Dunhuang → Jiuquan → Dunhuang",
+  boya_gerekli:true,
+  ozet:"Dunhuang valisi Li Gao'nun 400'de Liang Dükü ilan edilmesiyle kurulan Hexi devleti; 405'te başkent Jiuquan'a taşındı, 420'de Juqu Mengxun Li Xun'u yendi ve Dunhuang 421'de düştü. Atlasta Dunhuang/Zhangye'de 400-423 arası boş kalan dilimin polity'sidir. [DENETIM-CIN-MOGOL 1028 — ÇELİŞKİ: Jin shu 87 sonu «景平元年滅» = 423, Zizhi tongjian 421 (永初二年); ZZTJ esas alındı, gün yok. NOT: eski `hou-liang-xi-liang` kaydı (555-587) Xiao Liang'dır, bu devlet DEĞİL.]",
+  kaynak:"Fang Xuanling vd., Jin shu juan 87 «Liang wu zhao wang Li Gao» (zh.wikisource.org/wiki/晉書/卷087, Çince, okundu): «隆安四年，晉昌太守唐瑤移檄六郡，推玄盛為大都督、大將軍、涼公» · Sima Guang, Zizhi tongjian juan 119 (zh.wikisource.org/wiki/資治通鑑/卷119, Çince, okundu): Li Xun 永初元年 Liaoquan'da öldürüldü, 永初二年三月 Dunhuang teslim; gün bulunamadı",
   kronoloji:[
+    { odak_yer:["Dunhuang"], t:"0400-01-01", tur:"kurulus", b:"Li Gao Dunhuang'da Liang Dükü ilan edildi (yıl hassasiyeti)", kaynak:"Jin shu juan 87 (zh.wikisource.org/wiki/晉書/卷087, Çince)" },
+    { odak_yer:["Dunhuang"], t:"0421-01-01", tur:"son", b:"Dunhuang'un düşüşüyle Batı Liang sona erdi (Zizhi tongjian 421; Jin shu 87 423 verir — çelişki ic_not'ta; yıl)", kaynak:"Zizhi tongjian juan 119 (zh.wikisource.org/wiki/資治通鑑/卷119, Çince)" }
+  ]
+},
+{ id:"hou-liang-lu-guang", ad:"Sonraki Liang (Lü Guang, 後涼)", tur:"krallik", bolge:"dogu-asya",
+  f:"0386-01-01", t:"0403-01-01", kesinlik:"yil", baskent:"Guzang (Wuwei)",
+  boya_gerekli:true,
+  ozet:"Di kökenli Lü Guang'ın Önceki Qin çöküşünde Liangzhou'yu alıp (386, Zizhi tongjian 106: 12. ay, Liangzhou Valisi/Jiuquan Dükü), 389'da Üç Nehir Kralı, 396'da Gök Kral ilan ettiği Hexi devleti; Lü Long 403'te Sonraki Qin'e teslim oldu. [DENETIM-CIN-MOGOL 1028 — ÇELİŞKİ: bitiş Jin shu 122 «元興三年滅» = 404, tarihçilik 403; f için 386 (vali) / 389 (kral) ayrımı; yıl hassasiyeti.]",
+  kaynak:"Fang Xuanling vd., Jin shu juan 122 «Lü Guang zaiji» (zh.wikisource.org/wiki/晉書/卷122, Çince, okundu): «以孝武太元十四年僭即三河王位» · Sima Guang, Zizhi tongjian juan 106 (zh.wikisource.org/wiki/資治通鑑/卷106, Çince, okundu): «十二月，呂光自稱…涼州牧、酒泉公»",
+  kronoloji:[
+    { odak_yer:["Zhangye (Ganzhou)"], t:"0386-01-01", tur:"kurulus", b:"Lü Guang Liangzhou'da kendini vali/Jiuquan Dükü ilan etti (386'nın 12. ayı, gün yok; yıl)", kaynak:"Zizhi tongjian juan 106 (Çince)" },
+    { odak_yer:["Zhangye (Ganzhou)"], t:"0403-01-01", tur:"son", b:"Lü Long Sonraki Qin'e teslim oldu, Sonraki Liang sona erdi (403/404 çelişkisi ic_not'ta; yıl)", kaynak:"Jin shu juan 122 (Çince)" }
+  ]
+},
+{ id:"qing-hanedani", ad:"Qing Hanedanı (Mançu)", tur:"hanedanlik", bolge:"dogu-asya",
+  f:"1616-01-01", t:"1912-02-12", kesinlik:{ f:"yil", t:"gun" }, baskent:"Hetu Ala → Mukden (Şenyang) → Pekin", harita:"qing-hanedani",
+  ozet:"Mançu Nurhaci'nin 1616'da kurduğu Sonraki Jin (Hou Jin) devletinin, oğlu Hong Taiji'nin 15 Mayıs 1636'da Qing adını almasıyla sürdüğü, Ming'in yıkılışından yararlanıp Çin'e hâkim olan son imparatorluk hanedanı; Afyon Savaşları ve Batı baskısıyla zayıflayıp 1911 Devrimi'yle sona erdi. [DENETIM-CIN-MOGOL 1028: künye aşımı sınıfı «aynı polity sürüyor ⇒ künyeyi GENİŞLET»; Mukden/Liaoyang/Lüşun 1621-1636 dilimleri Sonraki Jin dönemidir; f=1616 yıl hassasiyeti, gün doğrulanamadı.]",
+  kaynak:"cin--ulke · The Cambridge History of China, cilt 9 (Cambridge UP): Nurhaci 1616'da han ilan etti, devlet adı Jin (Hou Jin); 1636'da Qing",
+  kronoloji:[
+    { odak_yer:["Mukden"], t:"1616-01-01", tur:"kurulus", b:"Nurhaci Sonraki Jin (Hou Jin) devletini kurdu — Qing'in öncülü, aynı polity (gün teyitsiz, yıl)", kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP)" },
     { odak_yer:["Mukden"], t:"1636-05-15", tur:"kurulus", b:"Hong Taiji, hanedan adını \"Qing\" olarak ilan etti" },
     { odak_yer:["Pekin"], t:"1644-06-06", tur:"toprak-kazanc", b:"Pekin'i alarak Çin'e hâkim oldu" },
     { odak_yer:["Mukden"], t:"1839-01-01", tur:"savas", b:"Birinci Afyon Savaşı başladı, Batı'ya kapılar zorla açıldı" },
