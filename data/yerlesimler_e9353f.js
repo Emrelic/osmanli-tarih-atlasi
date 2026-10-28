@@ -207,10 +207,9 @@ window.YERLESIMLER_E9353F = [
 // ⚠️ 1712-1898 arası sahipsiz: Bambara da Toucouleur da künyesiz.
 { ad:"Segu (Ségou)", tur:"sehir", lat:13.432, lon:-6.216, g:0, k:1,
   kur:"1712-01-01",
-  s:[{f:"1898-01-01", t:"1960-06-20", d:"fransa-cumhuriyet", kaynak:"mali"},{f:"1960-06-20",t:"1960-09-22",d:"mali-federasyonu",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-09-22",t:"2000-12-31",d:"mali",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1712-01-01", t:"1861-03-10", d:"bambara", kaynak:"TDV el-hac-omer: «1861 başlarında bir başka Bambara Krallığı olan Segu’ya girilerek Segu’nun animist krallığı ortadan kaldırıldı» (bambara künyesi t 1861-03-10); başlangıç kur 1712 = Bambara Krallığı kuruluşu (şehrin değil) — 2. tur 29 Ekim 2026, boşluk merdiveni ①"},{f:"1861-03-10", t:"1893-01-01", d:"tekrur", kaynak:"TDV el-hac-omer (Segu 1861 başı el-Hâc Ömer) · tekrur künyesi: devlet 1893-94’te Fransızlarca işgal edildi (YIL); Cenne/Timbuktu zinciriyle aynı uç"},{f:"1893-01-01", t:"1960-06-20", d:"fransa-cumhuriyet", kaynak:"tekrur künyesi t=1893 (TDV el-hac-omer). ÇELİŞKİ: TDV mali «Segu ve Sikasso (1898)» der — eski kayıt 1898 idi; devletin sonu 1893-94 olduğundan 1893 alındı, 1898 tartışmalı kalır"},{f:"1960-06-20",t:"1960-09-22",d:"mali-federasyonu",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-09-22",t:"2000-12-31",d:"mali",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
-  bos:"veri-yok",
-  neden:"kunye-yok — 1712-1898 arasi sahipsiz. Kaynak KONUSUYOR ve iki ayri devlet adiyla saydiyor: Bambara Kralligi (TDV el-hac-omer: '1861 baslarinda bir baska Bambara Kralligi olan Segu'ya girilerek Segu'nun animist kralligi ortadan kaldirildi') ve Toucouleur/Tekrur (el-Hac Omer, 1852 cihad, olumu 1864-02-14, devleti 1893-94'te Fransizlarca isgal). IKISININ DE devletler.js'te kunyesi YOK. Ayrica kur:1712 sehrin degil Bambara Kralliginin kurulusudur; sehrin 1281'de var olup olmadigi OLCULEMEDI." },
+  neden:"2. tur (29 Ekim 2026): bambara (1650-1861-03-10) ve tekrur (1852-1893) künyeleri indi, 1712-1893 DOLDU. [eski not: kunye-yok — 1712-1898 arasi sahipsiz. Kaynak KONUSUYOR ve iki ayri devlet adiyla saydiyor: Bambara Kralligi (TDV el-hac-omer: '1861 baslarinda bir baska Bambara Kralligi olan Segu'ya girilerek Segu'nun animist kralligi ortadan kaldirildi') ve Toucouleur/Tekrur (el-Hac Omer, 1852 cihad, olumu 1864-02-14, devleti 1893-94'te Fransizlarca isgal). IKISININ DE devletler.js'te kunyesi YOK. Ayrica kur:1712 sehrin degil Bambara Kralliginin kurulusudur; sehrin 1281'de var olup olmadigi OLCULEMEDI.]" },
 
 // ═════════════════ HAUSA ŞEHİR DEVLETLERİ — 1281 KAPANIYOR ═════════════════
 // 🟢 Bu üç nokta bu dosyanın EN TEMİZ kısmı, çünkü hausa-sehir-devletleri
@@ -550,9 +549,9 @@ window.YERLESIMLER_E9353F = [
 //      geçmiyorum. Karar koordinatörde; künye benim dosyam değil.
 // ⚠️ Nokta Mengo/Kampala kuşağına kondu; Kabaka'nın başşehri sık taşındığı
 //   için bu bir ÖZDEŞLEŞTİRMEDİR — Buganda'nın çekirdek bölgesidir.
-{ ad:"Mengo (Buganda)",isg:[{f:"1900-01-01",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:0.348, lon:32.583, g:0, k:1,
+{ ad:"Mengo (Buganda)", tur:"sehir", lat:0.348, lon:32.583, g:0, k:1,
   kur:"1300-01-01",
-  s:[{f:"1300-01-01",t:"1923-10-29",d:"buganda",kaynak:"uganda"},{f:"1923-10-29",t:"1962-10-09",d:"ingiliz-uganda-himayesi",kaynak:"Britannica Uganda; 1900 Buganda Agreement; Uganda bagimsizligi 9 Ekim 1962"},{f:"1962-10-09",t:"2000-12-31",d:"uganda",kaynak:"Britannica Uganda; Library of Congress Country Studies Uganda"}],
+  s:[{f:"1300-01-01",t:"1900-01-01",d:"buganda",kesinlik:{t:"yil"},kaynak:"TDV uganda: «1900 yılında İngilizler’le yapılan antlaşmayla Buganda toprakları resmen sömürgeleştirildi» (yıl; gün yok). Önceki 1923-10-29 bitişi pencere işaretiydi — 2. tur 29 Ekim 2026; eski isg: 1900-1923 İngiliz kaydı artık s: içinde"},{f:"1900-01-01",t:"1962-10-09",d:"ingiliz-uganda-himayesi",kesinlik:{f:"yil"},kaynak:"TDV uganda (1900 antlaşması; 9 Ekim 1962 bağımsızlık). Künye f 1894-06-18 (nüfuz alanı) — resmî himaye/sömürgeleştirme 1900"},{f:"1962-10-09",t:"2000-12-31",d:"uganda",kaynak:"Britannica Uganda; Library of Congress Country Studies Uganda"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — sahipsiz araligi YOK, bu bayrak bir KUNYE CELISKISINI isaretliyor: TDV uganda maddesi Buganda'nin ilk krali Kato Kimera'nin XIII. yuzyil BASINDA tahta ciktigini soyluyor, yani 1281'de kralik VARDI; ama buganda kunyesi f:1300-01-01. §3.5 geregi kunyeye uydum (kur:1300), boylece TDV'nin 1281'i kapsayan ifadesi veriye INMEDI. Kunye duzeltilirse kur: 1281 oncesine cekilmeli. Ingiliz donemi KAYNAKLI: 1900 antlasmasi." },
@@ -627,9 +626,9 @@ window.YERLESIMLER_E9353F = [
 // 📌 Nokta yine de yazıldı çünkü 1281'de orası boş değildi ve noktasızlık
 //   §2 gereği bölgeyi uzaktaki bir komşuya emdirir.
 { ad:"Mapungubwe", tur:"sehir", lat:-22.194, lon:29.389, g:0, k:3,
-  s:[], d:[], v:[],
-  bos:"veri-yok",
-  neden:"veri-yok — arandi, YOK. TDV zimbabve maddesinin govdesi okundu ve Mapungubwe'yi HIC anmiyor (Nyanga ve Gokomere yerlesimlerini sayiyor, bunu saymiyor); baska bir TDV maddesi de bulunamadi. Devletsiz OLDUGU soylenmiyor, hic soz edilmiyor. 'Aramadim' DEGIL, 'aradim ve yok' - bu bir SONUCTUR. UYARI: PENCERE DISINDA (lat -22,194)." },
+  kur:"0900-01-01", bit:"1300-01-01",
+  s:[{f:"0900-01-01", t:"1300-01-01", d:"mapungubwe", kesinlik:"yuzyil", kaynak:"UNESCO Dünya Mirası «Mapungubwe Cultural Landscape» (whc.unesco.org/en/list/1099), mapungubwe künyesi kaynağı: krallık MS 900-1300; 14. yy’da terk. TDV’de madde yok. 2. tur 29 Ekim 2026 — boşluk merdiveni ②. Pencere gün değil yüzyıl hassasiyetindedir; 1300 sonrası nokta kalkar (bit), toprak komşu peteklere kalır — Venda (Dzata 1700) ile bağ KANITLANMADI"}], d:[], v:[],
+  neden:"[eski not] veri-yok — arandi, YOK. TDV zimbabve maddesinin govdesi okundu ve Mapungubwe'yi HIC anmiyor (Nyanga ve Gokomere yerlesimlerini sayiyor, bunu saymiyor); baska bir TDV maddesi de bulunamadi. Devletsiz OLDUGU soylenmiyor, hic soz edilmiyor. 'Aramadim' DEGIL, 'aradim ve yok' - bu bir SONUCTUR. UYARI: PENCERE DISINDA (lat -22,194)." },
 
 // ULUNDİ (Zululand) — bölgenin künyesi OLAN tek kimliği.
 // zulu-kralligi künyesi: f:1816-01-01 · t:1879-07-04 (RENK YOK).
@@ -663,16 +662,16 @@ window.YERLESIMLER_E9353F = [
 //   yazmak yalan olurdu.
 { ad:"Transvaal (Bur cumhuriyeti)", tur:"bolge", lat:-25.746, lon:28.188, g:0, k:0,
   kur:"1830-01-01",
-  s:[{f:"1830-01-01", t:"1902-01-01", d:"transvaal", kaynak:"guney-afrika-cumhuriyeti"},
-     {f:"1902-01-01", t:"1910-05-31", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1830-01-01", t:"1902-05-31", d:"transvaal", kaynak:"guney-afrika-cumhuriyeti"},
+     {f:"1902-05-31", t:"1910-05-31", d:"ingiltere", kaynak:"Vereeniging Barış Antlaşması 31 Mayıs 1902 (SAHO sahistory.org.za/node/59798: «by 31 May 1902 the peace agreement was official»; künye transvaal/oranj t = 1902-05-31); eski 1902-01-01 yıl işaretiydi — 2. tur 29 Ekim 2026"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — transvaal kunyesi devletler.js'te YOK (koordinator M-0218'de yazacagini soyledi). Sahipsiz araligi yok. kur:1830 Buyuk Goc'un baslangicidir, CUMHURIYETIN kurulus yili DEGIL - TDV cumhuriyetlerin kurulus yillarini vermiyor. tur:bolge cunku Pretoria'nin kurulus yili da yok. UYARI: PENCERE DISINDA (lat -25,746)." },
 
 { ad:"Oranj (Bur cumhuriyeti)", tur:"bolge", lat:-29.120, lon:26.214, g:0, k:0,
   kur:"1830-01-01",
-  s:[{f:"1830-01-01", t:"1902-01-01", d:"oranj",     kaynak:"guney-afrika-cumhuriyeti"},
-     {f:"1902-01-01", t:"1910-05-31", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1830-01-01", t:"1902-05-31", d:"oranj",     kaynak:"guney-afrika-cumhuriyeti"},
+     {f:"1902-05-31", t:"1910-05-31", d:"ingiltere", kaynak:"Vereeniging Barış Antlaşması 31 Mayıs 1902 (SAHO sahistory.org.za/node/59798: «by 31 May 1902 the peace agreement was official»; künye transvaal/oranj t = 1902-05-31); eski 1902-01-01 yıl işaretiydi — 2. tur 29 Ekim 2026"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — oranj kunyesi devletler.js'te YOK. Transvaal kaydiyla ayni gerekce: kur:1830 Buyuk Goc'un yili ve tur alani bolge, cunku Bloemfontein'in kurulus yili TDV'de yok. UYARI: PENCERE DISINDA (lat -29,120)." },

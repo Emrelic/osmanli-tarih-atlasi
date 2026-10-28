@@ -5949,7 +5949,7 @@ window.DEVLETLER = [
 { id:"mali-imparatorlugu", ad:"Mali İmparatorluğu", tur:"imparatorluk", bolge:"bati-afrika",
   f:"1235-01-01", t:"1670-01-01", baskent:"Niani",
   ozet:"Sundiata Keita'nın Gana İmparatorluğu'nun mirasını devralarak kurduğu, Mansa Musa'nın efsanevi hac yolculuğuyla tanınan Batı Afrika İslâm imparatorluğu; Songhay ve komşu baskılarıyla kademeli çözüldü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"f: TDV İslâm Ansiklopedisi «Mali» (https://islamansiklopedisi.org.tr/mali), 2. turda okundu: «1235 yılında Susu Kralı Sumaoro Kante’ye karşı Suncata Keita’nın yaptığı … Kirina savaşı Mali İmparatorluğu’nun asıl kuruluş tarihi olarak kabul edilmektedir» · Mense Mûsâ 1312-1337. ⚠️ t=1670: TDV Mali maddesinde YOK; TDV aksine «Tevârikler’in 1430’da Tinbüktü, Velâte, Aravuan ve Gao’yu ele geçirmesi üzerine ortadan kalktı» der. 1670 (Niani/Kangaba çekirdeğinin sonu) akademik gelenektir, bu turda doğrulanamadı — kuzey şehirleri için pencere 1430/1464’te biter (Valata 1430, Gao 1464), Mande çekirdeği (Niani) 1670 BEYANLI.",
   kronoloji:[
     { odak_yer:["Niani"], t:"1235-01-01", tur:"kurulus", b:"Sundiata Keita, Kirina Savaşı'nda zafer kazanıp imparatorluğu kurdu" },
     { odak_yer:["Kahire","Mekke"], t:"1324-01-01", tur:"antlasma", b:"Mansa Musa, Kahire ve Mekke'ye görkemli hac yolculuğuna çıktı" },
@@ -6143,7 +6143,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"buganda", ad:"Buganda Krallığı", tur:"krallik", bolge:"dogu-afrika",
-  f:"1300-01-01", t:"1923-10-29", baskent:"Mengo (Kampala)",
+  f:"1300-01-01", t:"1966-05-24", ic_not_t:"1923-10-29 pencere işaretiydi. TDV uganda: «24 Mayıs 1966’da II. Mutesa sürgüne gönderildiğinde lağvedilen Buganda Krallığı 1993’te tekrar konuldu» — krallık İngiliz himayesi altında da sürdü (sınıf ②, künye GENİŞLETİLDİ); Mengo’nun egemenlik zinciri 1900’de biter (2. tur 29 Ekim 2026).", baskent:"Mengo (Kampala)",
   ozet:"Victoria Gölü kıyısında kurulan, İngiliz himayesi altında da kurumlarını koruyarak varlığını sürdüren Doğu Afrika krallığı (1923 sonrasında da sürdü). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
