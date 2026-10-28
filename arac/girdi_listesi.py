@@ -752,4 +752,6 @@ GIRDI_DOSYALARI = [
     # ADALAR-ATLANTIK-KUZEY (28 Ekim 2026) - noktasız Atlantik adaları: Norse Grönland, Kanarya,
     # Madeira, Azorlar, Yeşil Burun, São Tomé, Bioko, St Helena, Ascension, Tristan, Falkland, Bermuda, Jan Mayen
     "yerlesimler_ek_atlantik_adalar.js",
+    # HINT-OKYANUSU (28 Ekim 2026) - noktasız Hint Okyanusu adaları
+    "yerlesimler_hint_adalar.js",
 ]
