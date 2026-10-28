@@ -337,13 +337,13 @@ window.YERLESIMLER_DOGU_500_1281 = [
   "s": [
    {
     "f": "0538-01-01",
-    "t": "0660-08-01",
+    "t": "0660-08-29",
     "d": "baekje",
     "kesinlik": "yil",
     "kaynak": "SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «十六年，春，移都於泗沘，國號南扶餘。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
    },
    {
-    "f": "0660-08-01",
+    "f": "0660-08-29",
     "t": "0671-01-01",
     "d": "tang",
     "kesinlik": "ay",
@@ -351,13 +351,20 @@ window.YERLESIMLER_DOGU_500_1281 = [
    },
    {
     "f": "0671-01-01",
-    "t": "0936-09-01",
+    "t": "0900-01-01",
     "d": "silla",
     "kesinlik": "yil",
     "kaynak": "SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷07 (zh.wikisource.org/wiki/三國史記/卷07, okundu): «置所夫里州，以阿飡眞王爲都督。» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «扶餘郡，本百濟所夫里郡，唐將蘇定方與庾信平之，文武王十二年置摠管» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
    },
    {
-    "f": "0936-09-01",
+    "f": "0900-01-01",
+    "t": "0936-09-26",
+    "d": "hubaekje",
+    "kesinlik": "yil",
+    "kaynak": "BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Jeonju/Wansan — zincir Jeonju'dan devralındı): Sabi (Buyeo) 900-936 arasında Hubaekje topraklarındadır — Goryeosa 卷五十七 Jeolla-do «悉據舊地» (Gyeon Hwon eski Baekje topraklarının tamamını tuttu) ve Samguk sagi 卷50 Gyeon Hwon bölümü; 934'te Ungjin'in kuzeyinin Goryeo'ya geçişi (Samguk sagi 卷50) Sabi'nin güneyde kaldığını gösterir (zh.wikisource, okundu). Yer-özgü Sabi kaydı yoktur. Önceki dilim (Silla 900-936) künye aşımıydı, KORE-JAPONYA gece turunda düzeltildi."
+   },
+   {
+    "f": "0936-09-26",
     "t": "1392-08-05",
     "d": "goryeo",
     "kesinlik": "yil",
