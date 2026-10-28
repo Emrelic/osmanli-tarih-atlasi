@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+"""NAPOLYON-ITALYA-1028: data/olaylar_napolyon_italya_1028.js üretir (bir kerelik)."""
+import json, sys
+
+sys.stdout.reconfigure(encoding="utf-8")
+
+E = "EB1911 'Italy' (Wikisource) · "
+M = [
+    ("1796-05-15", "gun", "Napolyon Milano'ya girdi: Avusturya yönetimi sona erdi", "isgal", "Milano",
+     "Bonaparte, İtalya seferinin ilk zaferlerinin ardından 15 Mayıs 1796'da Milano'ya girdi; Lombardiya Avusturya'nın elinden çıktı.",
+     "Encyclopaedia Britannica 'Napoleon I' ve EB1911 'Italy' (standart; bu oturumda sayfa metni OKUNMADI); gün atlasın kronoloji_italya.js:586 maddesiyle aynı, orada 'gün YAKLAŞIK' etiketli — ikinci kaynak aranıyor"),
+    ("1796-06-23", "gun", "Bologna Mütarekesi: Bologna ve Ferrara Fransız eline geçti", "toprak-kayip", "Bolonya",
+     "Papa VI. Pius Bologna'da mütareke imzaladı; Bologna ve Ferrara legasyonları Fransız denetimine girdi, ağır tazminat ödendi.",
+     "Wikipedia 'Armistice of Bologna' (arama özeti: 23 Haziran 1796; ikincil, TEK dayanak sayılmaz — ikinci kaynak aranıyor)"),
+    ("1796-12-27", "gun", "Cispadan Cumhuriyeti ilan edildi (Modena, Reggio, Bologna, Ferrara)", "kurulus", "Modena",
+     "Reggio kongresinde Modena, Reggio, Bologna ve Ferrara birleşip Cispadan Cumhuriyeti'ni ilan etti; Este dükalığı fiilen sona erdi.",
+     "storiaememoriadibologna.it/node/54358 (arama özeti: 27 Aralık 1796); Wikipedia 'Cispadane Republic' (kuruluş tarihleri kaynaklarda 1796 içinde değişiyor — beyan); ikinci kaynak aranıyor"),
+    ("1797-02-02", "gun", "Wurmser Mantova'yı teslim etti", "toprak-kayip", "Mantova",
+     "Aylarca süren kuşatmanın sonunda Avusturya komutanı Wurmser 2 Şubat 1797'de Mantova'yı Fransızlara teslim etti.",
+     "Britannica 'Siege of Mantua' britannica.com/print/article/363038 (arama özeti); worldhistory.org 'Surrender of Mantua, 2 February 1797'"),
+    ("1797-02-19", "gun", "Tolentino Antlaşması: Papa Bologna, Ferrara ve Romagna'yı Fransa'ya bıraktı", "antlasma", "Ravenna",
+     "VI. Pius Tolentino'da Fransa ile barış yaptı; Bologna, Ferrara ve Romagna (Ravenna, Rimini) Fransız güdümündeki Cispadan Cumhuriyeti'ne geçti.",
+     "historyofwar.org/articles/peace_tolentino.html ; Wikipedia 'Treaty of Tolentino' (arama özeti: 19 Şubat 1797; bir kaynak 17 Şubat der — beyan)"),
+    ("1797-05-12", "gun", "Venedik Cumhuriyeti sona erdi: Büyük Konsey kendini feshetti", "son", "Venedik",
+     "Napolyon'un baskısıyla Büyük Konsey 12 Mayıs 1797'de kendini feshetti, Doge Manin istifa etti; Fransız işgali başladı, Veneto'nun sonraki kaderi Campo Formio'da belirlendi.",
+     "künye venedik (devletler.js, son 1797-05-12; kronoloji_venedik.js) ; TDV venedik: «1797’de Napolyon tarafından işgaline kadar 1000 yıldan fazla bir süre varlığını korudu»"),
+    ("1797-07-09", "gun", "Cisalpin Cumhuriyeti Milano'da törenle kuruldu: Lombardiya, Mantova, Bergamo, Brescia ve Cispadan toprakları birleşti", "kurulus", "Milano",
+     "Napolyon'un fethettiği Lombardiya, Mantova, Bergamo, Brescia, Cispadan Cumhuriyeti (Modena, Reggio, Bologna, Ferrara) ve Romagna tek devlette birleşti.",
+     E + "«began its organized life on the 9th of July 1797, with a brilliant festival at Milan» ; HLS 'Cisalpine' (hls-dhs-dss.ch/fr/articles/008920: kuruluş 29 Haziran 1797 diye de geçer — beyan)"),
+    ("1798-02-15", "gun", "Roma Cumhuriyeti ilan edildi: Papalık yönetimi kesintiye uğradı", "isgal", "Roma",
+     "Berthier'in Roma'yı işgali altında Kapitol'da Roma Cumhuriyeti ilan edildi; Papa VI. Pius sürgüne gönderildi.",
+     "Britannica 'Pius VI' (15 Şubat 1798) ; künye roma-cumhuriyeti-1798 (devletler.js)"),
+    ("1798-12-09", "ay", "Piyemonte Fransız idaresine alındı; Carlo Emanuele IV Sardinya'ya çekildi", "isgal", "Torino",
+     "Savoy hanedanı Aralık 1798'de anakara Piyemonte'yi bırakıp Sardinya adasına çekildi, Torino Fransız denetimine girdi (resmî ilhak 11 Eylül 1802).",
+     "Aralık 1798 (unitesi.unito.it tezi: Savoy yönetiminin sonu 8 Aralık 1798; museotorino.it kronolojisi) ; atlas kronoloji_italya.js:823 '1798-12-09' (gün YAKLAŞIK, bir kaynak 8 Aralık der) — ay-yıl teyitli, gün teyitsiz"),
+    ("1799-04-27", "gun", "Cassano'dan sonra Avusturya-Rus ordusu Cisalpin Cumhuriyeti'ni çökertti", "toprak-kayip", "Milano",
+     "Cassano Muharebesi'nin ardından Avusturya-Rus kuvvetleri Lombardiya'ya girdi; Cisalpin Cumhuriyeti çöktü.",
+     "künye italya-napolyon kronolojisi: HLS 'Cisalpine' hls-dhs-dss.ch/fr/articles/008920 ; Wikipedia 'Cisalpine Republic' (ikincil)"),
+    ("1799-09-30", "gun", "Napoli birlikleri Roma'ya girdi: Roma Cumhuriyeti sona erdi, Papalık yönetimi döndü", "son", "Roma",
+     "Napoli kuvvetleri Roma'yı işgal etti, Roma Cumhuriyeti sona erdi; papalık yönetiminin fiilî dönüşü 1800 Temmuz'da VII. Pius'un girişiyle tamamlandı.",
+     "künye roma-cumhuriyeti-1798 (devletler.js; 30 Eylül 1799 Vikipedi, ikincil) — gün teyidi aranıyor"),
+    ("1800-06-04", "gun", "Marengo sonrası Napolyon Cisalpin Cumhuriyeti'ni yeniden kurdu", "kurulus", "Milano",
+     "Marengo zaferinin ardından Napolyon Milano'ya döndü ve Cisalpin Cumhuriyeti'ni yeniden kurdu (bilgi kutusu 2 Haziran).",
+     "künye italya-napolyon kronolojisi: HLS 'Cisalpine' hls-dhs-dss.ch/fr/articles/008920 ; Wikipedia 'Cisalpine Republic' (2 Haziran / 4 Haziran farkı kaynaklarda — beyan)"),
+    ("1802-10-09", "gun", "Parma Dükü I. Ferdinando öldü: dükalık Fransız idaresine geçti", "toprak-kayip", "Parma",
+     "Aranjuez Antlaşması'yla (1801) dükalığı Fransa'ya devreden Ferdinando 9 Ekim 1802'de öldü; Parma ve Piacenza Fransız idaresine girdi (resmî ilhak 1808).",
+     "Wikipedia 'Ferdinand I, Duke of Parma' (ikincil); Britannica 'Parma' britannica.com/print/article/444343 (1808 ilhak); künye parma (devletler.js, Aranjuez 1801-03-21)"),
+    ("1805-06-04", "gun", "Napolyon Ligurya'nın ilhakını kabul etti: Cenova Fransız İmparatorluğu'na katıldı", "toprak-kayip", "Cenova",
+     "Ligurya Senatosu 25 Mayıs 1805'te ilhakı onayladı; Napolyon 4 Haziran 1805'te kabul etti, Ligurya Cumhuriyeti sona erdi.",
+     "künye ligurya-cumhuriyeti (devletler.js): archontology.org/nations/italy/ligurian_republic/01_polity.php ; Britannica 'Ligurian Republic' britannica.com/print/article/340886"),
+    ("1805-12-26", "gun", "Pressburg Antlaşması: Veneto, Istria ve Dalmaçya İtalya Krallığı'na geçti", "toprak-kazanc", "Venedik",
+     "Avusturya, eski Venedik topraklarını (Veneto, Friuli, Istria, Dalmaçya) Napolyon'un İtalya Krallığı'na bıraktı.",
+     "Britannica 'Peace of Pressburg' britannica.com/print/article/475353 ; künye italya-napolyon (devletler.js)"),
+    ("1807-12-10", "gun", "Etrurya Krallığı sona erdi: Toskana Fransız işgaline girdi", "toprak-kayip", "Floransa",
+     "Napolyon Etrurya Krallığı'nı feshetti; naip kraliçe Floransa'dan ayrıldı, Toskana 1808'de Arno, Ombrone ve Méditerranée departmanları olarak Fransa'ya katıldı.",
+     "Wikipedia 'Kingdom of Etruria' (infobox: 10 Aralık 1807) ve 'Arno (department)' (arama özeti; ikincil — ikinci kaynak aranıyor)"),
+    ("1809-05-17", "gun", "Napolyon Papalık topraklarını Fransız İmparatorluğu'na kattı", "toprak-kayip", "Roma",
+     "Roma ve Papalık Devleti'nin kalan toprakları (Umbria dahil) Fransa'ya ilhak edildi; VII. Pius tutuklandı.",
+     "künye papalik (devletler.js, 1809-05-17) ; kronoloji_fransa.js:697 ; Britannica 'Pius VII'"),
+    ("1814-04-11", "gun", "Fontainebleau: Parma ve Piacenza Marie-Louise'e verildi", "hukumdar", "Parma",
+     "Napolyon'un feragatiyle Parma, Piacenza ve Guastalla eşi Marie-Louise'e verildi (fiilî yönetime geçişi 1816).",
+     "Wikipedia 'Duke of Parma' (reign başlangıcı 11 Nisan 1814; ikincil) ; Britannica 'Parma' britannica.com/print/article/444343"),
+    ("1814-04-16", "gun", "Eugène Mantova'da mütareke imzaladı: İtalya Krallığı çöktü, Avusturya Milano'yu aldı", "son", "Milano",
+     "Schiarino-Rizzino mütarekesiyle Napolyon'un İtalya Krallığı fiilen sona erdi; Lombardiya ve Veneto Avusturya denetimine girdi (resmî devir Viyana Nihaî Senedi, 9 Haziran 1815).",
+     E + "«On the 16th of April 1814» Eugène Mantova'da mütareke imzaladı"),
+    ("1814-05-20", "gun", "Vittorio Emanuele I Torino'ya döndü: Savoy hanedanı restore edildi", "kurulus", "Torino",
+     "Piyemonte'nin Fransız yönetimi sona erdi; VII. Vittorio Emanuele Sardinya'dan Torino'ya dönüp 1770 anayasasını yeniden yürürlüğe koydu.",
+     "Wikipedia 'Victor Emmanuel I' (arama özeti: 20 Mayıs 1814; ikincil — ikinci kaynak aranıyor) ; atlas kronoloji_italya.js:828"),
+    ("1814-05-24", "gun", "VII. Pius Roma'ya döndü: Papalık yönetimi yeniden kuruldu", "kurulus", "Roma",
+     "Beş yıllık esaretten sonra Papa VII. Pius 24 Mayıs 1814'te Roma'ya zaferle girdi; Papalık Devleti restore edildi (Legasyonlar 1815'te iade edildi).",
+     "Britannica 'Pius VII' britannica.com/biography/Pius-VII ; encyclopedia.com 'Pius VII' (arama özeti: 24 Mayıs 1814)"),
+    ("1814-07-14", "gun", "IV. Francesco Modena Dükü olarak yönetime geçti: Este-Habsburg dükalığı restore edildi", "kurulus", "Modena",
+     "Napolyon'un İtalya Krallığı dağılınca Modena ve Reggio Dükalığı Habsburg-Este hanedanına (IV. Francesco) iade edildi.",
+     "Wikipedia 'Francis IV, Duke of Modena' (reign başlangıcı 14 Temmuz 1814; ikincil) ; unofficialroyalty.com/francesco-iv-duke-of-modena-and-reggio — ikinci kaynak aranıyor"),
+    ("1814-09-01", "ay", "Toskana Büyük Dükü III. Ferdinando restore edildi", "kurulus", "Floransa",
+     "Napolyon dönemi bitince Habsburg-Lorraine hanedanından III. Ferdinando Toskana'da yönetimi yeniden aldı (Eylül 1814).",
+     "atlas kronoloji_italya.js:740 '1814-09-01' (gün YAKLAŞIK, kaynak 'bulunamadı') — ay-yıl teyitli, gün teyitsiz; Wikipedia 'Grand Duchy of Tuscany' (ikincil)"),
+]
+
+out = ["// -*- coding: utf-8 -*-",
+       "// =====================================================================",
+       "// OLAYLAR_NAPOLYON_ITALYA_1028 — NAPOLYON-ITALYA-1028 (28 Ekim 2026): Napolyon dönemi (1796-1815) kuzey/orta İtalya şehir",
+       "// zincirlerindeki sahip değişimlerinin Değişmez 2 maddeleri. Kaynaklar yerleşim s: dönemlerindeki kaynak: ile AYNI; atlas referans DEĞİL.",
+       "// ⚠️ Wikipedia / arama özeti kaynakları ikincildir, tek dayanak sayılmaz; 'ikinci kaynak aranıyor' diyenler akademik teyit bekler.",
+       "// =====================================================================",
+       "window.OLAYLAR_NAPOLYON_ITALYA_1028 = ["]
+for t, ks, b, tur, yer, d, kay in M:
+    e = {"t": t, "kesinlik": ks, "b": b, "tur": tur, "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": yer,
+         "etiket": [tur, "konu-siyasi", "napolyon-italya"], "d": d, "kaynak": kay}
+    out.append("  " + json.dumps(e, ensure_ascii=False) + ",")
+out.append("];")
+open("data/olaylar_napolyon_italya_1028.js", "w", encoding="utf-8", newline="\n").write("\n".join(out) + "\n")
+print(len(M), "madde")
