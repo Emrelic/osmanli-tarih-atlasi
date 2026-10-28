@@ -111,7 +111,7 @@ window.YERLESIMLER_H2_RUSYA = [
   s:[{f:"1281-01-01", t:"1348-01-01", d:"novgorod"},
      {f:"1348-01-01", t:"1510-01-13", d:"pskov"},
      {f:"1510-01-13", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1941-07-09",d:"sovyet-rusya"},{f:"1941-07-09",t:"1944-07-23",d:"almanya",kesinlik:{f:"gun",t:"gun"},kaynak:"KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): Wehrmacht askerî idaresi (sivil devlet yok; haritada işgalci devlet 'almanya' ile boyanır — BEYANLI YAKLAŞIKLIK). Pskov 9 Temmuz 1941'de Almanlarca alındı, 23 Temmuz 1944'te Kızıl Ordu'ca geri alındı (Pskov şehir kronolojisi / prlib.ru, memorialmuseums.org — arama özeti [özet])."},{f:"1944-07-23",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Staraya Russa", tur:"sehir", lat:57.990, lon:31.362, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
