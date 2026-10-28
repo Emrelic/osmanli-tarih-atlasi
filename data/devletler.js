@@ -8499,9 +8499,10 @@ window.DEVLETLER = [
   ]
 },
 { id:"cherokee", ad:"Cherokee Ulusu", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1791-07-02", baskent:"—",
-  ozet:"Güneydoğu Kuzey Amerika'nın Appalaş kuşağında, kendi meclisi ve yönetimiyle işleyen siyasî yapı. Künyenin bitişi, 1791 Holston Antlaşması'yla ABD himayesinin tanınmasıdır.",
-  kaynak:"Standart akademik — kesin kuruluş tarihi yok (Büyük Göller'den güneydoğuya göç, zaman içinde), atlas ufku 1281'e hizalandı. Bitiş: Holston Antlaşması (nokta verisinde zaten bu tarih kullanılıyor).",
+  f:"1281-01-01", t:"1907-11-16", baskent:"—",
+  ic_not_t:"t 1791-07-02 → 1907-11-16 (29 Ekim 2026, AMERIKALAR; CLAUDE.md §3.5 sınıf 2: aynı polity sürüyor → künyeyi GENİŞLET). 1791 Holston yalnız ABD himayesinin tanınmasıdır, ulusun sonu değil. Curtis Yasası (1898) kabile hükûmetlerini 1906'da feshetmeyi öngördü, 1906 Five Tribes Act hükûmeti sınırlı özerklikle sürdürdü (OHS CH014). Gün 1907-11-16 eyalet günüdür, hükûmetin sonu değildir (Cherokee hükûmeti ondan sonra da sürdü) — pencere ucu. s: zinciri (Kituwa 1791→ABD) DEĞİŞMEDİ: ana vatan toprağı gerçekten ABD'ye geçti.",
+  ozet:"Güneydoğu Kuzey Amerika'nın Appalaş kuşağında, kendi meclisi ve yönetimiyle işleyen siyasî yapı; 1838-39 sürgününden sonra Oklahoma'da (Hint Bölgesi) sürdü. Künyenin bitişi, Oklahoma'nın eyalet oluşudur (1907); 1791 Holston Antlaşması yalnız ABD himayesinin tanınmasıdır.",
+  kaynak:"Standart akademik — kesin kuruluş tarihi yok, atlas ufku 1281'e hizalandı. Bitiş: Oklahoma Historical Society, Encyclopedia of Oklahoma History and Culture, 'Cherokee (tribe)' (okhistory.org/publications/enc/entry?entry=CH014): 1906 Five Tribes Act 'Instead of eliminating tribal powers, Congress extended both tribe and tribal government'; Oklahoma eyalet oluşu 1907-11-16 (archives.gov/legislative/features/oklahoma).",
   kronoloji:[
     { odak_yer:["Kituwa (Çeroki ana kasabası)"], t:"1777-07-20", tur:"antlasma", b:"Holston Irmagi'ndaki Long Island'da imzalanan antlasmayla Overhill Cherokee'leri Mavi Sirt Daglari'nin dogusundaki topraklarini terk etti.", kaynak:"Encyclopaedia Britannica, 'Treaty of Long Island of Holston (American Revolution) [1777]'" },
     { odak_yer:["Kituwa (Çeroki ana kasabası)"], t:"1785-11-28", tur:"antlasma", b:"Hopewell Antlasmasi, Cherokee'lerin Fransiz Broad ve Holston nehirleri boyunca uzanan genis toprak parcalarini ABD'ye birakmasini sagladi.", kaynak:"Treaty with the Cherokee, 1785 (Kappler's Indian Affairs: Laws and Treaties, Oklahoma State University resmi antlasma arsivi)" },
@@ -8510,9 +8511,10 @@ window.DEVLETLER = [
   ]
 },
 { id:"choctaw", ad:"Choctaw Konfederasyonu", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1830-09-27", baskent:"—",
-  ozet:"Bugünkü Mississippi çevresinde yerleşik tarımcı siyasî yapı. Künyenin bitişi, 1830 Dancing Rabbit Creek Antlaşması'yla toprakların devri ve sürgünün başlamasıdır.",
-  kaynak:"Standart akademik — üç halkın (Doğu/Batı/Altı Kasaba) federasyonu, kesin kuruluş tarihi yok. Bitiş: Dancing Rabbit Creek Antlaşması (taninan, tarihî bir antlaşma; nokta verisinde zaten bu tarih).",
+  f:"1281-01-01", t:"1907-11-16", baskent:"—",
+  ic_not_t:"t 1830-09-27 → 1907-11-16 (29 Ekim 2026, AMERIKALAR; §3.5 sınıf 2): Dancing Rabbit Creek toprak devri ve sürgündür, polity'nin sonu değil; Choctaw hükûmeti Oklahoma'da sürdü (OHS CH047: kömür/asfalt arazileri satılmadığı için eyalet oluşundan sonra da Choctaw hükûmeti varlığını korudu; 26 Nisan 1906 yasası kabile hükûmetlerinin sınırlı özerklikle sürmesini sağladı). Bitiş = eyalet günü 1907-11-16 (pencere ucu). s: zinciri (Moundville 1830→ABD) DEĞİŞMEDİ.",
+  ozet:"Bugünkü Mississippi çevresinde yerleşik tarımcı siyasî yapı; 1830 Dancing Rabbit Creek Antlaşması'yla toprakların devri ve sürgünün ardından Oklahoma'da sürdü. Künyenin bitişi Oklahoma'nın eyalet oluşudur (1907).",
+  kaynak:"Standart akademik — üç halkın (Doğu/Batı/Altı Kasaba) federasyonu, kesin kuruluş tarihi yok. Bitiş: OHS Encyclopedia of Oklahoma History and Culture, 'Choctaw (tribe)' (okhistory.org/publications/enc/entry?entry=CH047) + Five Tribes Act hükmü (CH014) + Oklahoma eyalet oluşu 1907-11-16 (archives.gov/legislative/features/oklahoma).",
   kronoloji:[
     { odak_yer:["Moundville"], t:"1786-01-03", tur:"antlasma", b:"Hopewell Antlaşması: Choctaw, ABD'nin korumasına karşılık 69.120 dönüm toprağı devretti.", kaynak:"Choctaw Nation, history: https://www.choctaw.org/?p=88 ; Treaties Explorer: https://digitreaties.org/treaties/historictribe/Choctaw" },
     { odak_yer:["Moundville"], t:"1801-12-17", tur:"antlasma", b:"Mississippi kıyısındaki Fort Adams'ta Choctaw-ABD antlaşması imzalandı.", kaynak:"Treaties Explorer: https://digitreaties.org/treaties/historictribe/Choctaw" },
@@ -8529,9 +8531,10 @@ window.DEVLETLER = [
 },
 // HAYALET-KUNYE-1008-K · f 1281 → 1701: Britannica 'Creek' «During the 18th century a Muscogee confederacy was organized» (Z3; UMIT'te 403). Künyenin kendi kaynağı «kesin tarih yok».
 { id:"creek-konfederasyonu", ad:"Creek (Mvskoke) Konfederasyonu", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1701-01-01", t:"1832-03-24", kesinlik:{f:"yuzyil"}, baskent:"—",
-  ozet:"Alt ve Yukarı Creek kasabalarının ortak meclisle yürüttüğü konfederasyon. Künyenin bitişi 1832 Cusseta Antlaşması'dır.",
-  kaynak:"Standart akademik — savunma ittifakı olarak kuruldu, kesin tarih yok. Bitiş: Cusseta Antlaşması (nokta verisinde zaten bu tarih).",
+  f:"1701-01-01", t:"1907-11-16", kesinlik:{f:"yuzyil"}, baskent:"—",
+  ic_not_t:"t 1832-03-24 → 1907-11-16 (29 Ekim 2026, AMERIKALAR; §3.5 sınıf 2): Cusseta Antlaşması Georgia/Alabama topraklarının devridir; Muscogee (Creek) Nation Oklahoma'da sürdü. Dayanak: 26 Nisan 1906 yasası beş kabile hükûmetinin sınırlı özerklikle sürmesini sağladı (OHS Gateway, American Indian Archives Collection özeti; CH014 Five Tribes Act). 🟡 Creek'e özgü ayrı bir sayfa okunmadı — beş kabileye genel hüküm devralındı. Bitiş = eyalet günü 1907-11-16 (pencere ucu). s: zinciri (Coweta 1832→ABD) DEĞİŞMEDİ.",
+  ozet:"Alt ve Yukarı Creek kasabalarının ortak meclisle yürüttüğü konfederasyon; 1832 Cusseta Antlaşması'yla Güneydoğu topraklarını devretti, Oklahoma'da Muscogee (Creek) Nation olarak sürdü. Künyenin bitişi Oklahoma'nın eyalet oluşudur (1907).",
+  kaynak:"Standart akademik — savunma ittifakı olarak kuruldu, kesin tarih yok. Bitiş: OHS Encyclopedia of Oklahoma History and Culture (Five Tribes Act, CH014) + Oklahoma eyalet oluşu 1907-11-16 (archives.gov/legislative/features/oklahoma).",
   kronoloji:[
     { odak_yer:["Coweta (Creek/Mvskoke Konfederasyonu — Aşağı Kasabalar merkezi)"], t:"1832-03-24", tur:"antlasma", b:"Cusseta Antlaşması imzalandı, Creek Konfederasyonu topraklarını ABD'ye devretti", kaynak:"🟡 GÜN künyenin `t:` alanından DEVRALINDI, künye kaynak GÖSTERMİYOR. TARAFIMDAN DOĞRULANMADI." },
     { odak_yer:["Coweta (Creek/Mvskoke Konfederasyonu — Aşağı Kasabalar merkezi)"], t:"1813-08-30", tur:"savas", b:"Red Stick (militan) Creek fraksiyonu, Fort Mims'e saldırıp neredeyse herkesi öldürdü; Creek İç Savaşı ABD'yi doğrudan çatışmaya çekti", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Creek War') doğrulandı." },

@@ -551,19 +551,19 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: And valiliğinin başkenti — k:1
 
 { ad:"Potosí", tur:"sehir", lat:-19.5836, lon:-65.7531, g:2, k:2, kur:"1545-04-01",
-  s:[{f:"1545-04-01",t:"1825-08-06",d:"ispanyol-peru"},
+  s:[{f:"1545-04-01",t:"1824-12-09",d:"ispanyol-peru"},{f:"1824-12-09",t:"1825-08-06",d:"ispanya",kaynak:"Charcas/Yukarı Peru: Ayacucho (1824-12-09) Peru Genel Valiliği'ni bitirdi (künye t); Olañeta'nın kralcı kuvvetleri Yukarı Peru'da 1825-04-01 Tumusla'ya dek direndi, Bolivya 1825-08-06'da doğdu (Library of Congress Country Profile: Bolivia, tile.loc.gov/storage-services/master/frd/copr/Bolivia.pdf; Redalyc 407539686004 ve SciELO Bolivia v4n3a06). Aynı bölgenin öteki şehirleri bu veride zaten `ispanya` ile 1825-08-06'ya taşınıyor (yerlesimler_a78_amerika.js); 1825-04-01 sonrası kısa geçiş (Sucre yönetimi) ayrıca modellenmedi."},
      {f:"1825-08-06",t:"2000-12-31",d:"bolivya-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984), P.J. Bakewell böl.
 // k gerekçesi: Cerro Rico gümüş madeni, kolonyal dönemin en büyük şehirlerinden — k:2
 
 { ad:"La Paz", tur:"sehir", lat:-16.5000, lon:-68.1500, g:2, k:2, kur:"1548-10-20",
-  s:[{f:"1548-10-20",t:"1825-08-06",d:"ispanyol-peru"},
+  s:[{f:"1548-10-20",t:"1824-12-09",d:"ispanyol-peru"},{f:"1824-12-09",t:"1825-08-06",d:"ispanya",kaynak:"Charcas/Yukarı Peru: Ayacucho (1824-12-09) Peru Genel Valiliği'ni bitirdi (künye t); Olañeta'nın kralcı kuvvetleri Yukarı Peru'da 1825-04-01 Tumusla'ya dek direndi, Bolivya 1825-08-06'da doğdu (Library of Congress Country Profile: Bolivia, tile.loc.gov/storage-services/master/frd/copr/Bolivia.pdf; Redalyc 407539686004 ve SciELO Bolivia v4n3a06). Aynı bölgenin öteki şehirleri bu veride zaten `ispanya` ile 1825-08-06'ya taşınıyor (yerlesimler_a78_amerika.js); 1825-04-01 sonrası kısa geçiş (Sucre yönetimi) ayrıca modellenmedi."},
      {f:"1825-08-06",t:"2000-12-31",d:"bolivya-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984).
 // k gerekçesi: bölgesel idari merkez — k:2
 
 { ad:"Sucre (La Plata / Chuquisaca)", tur:"sehir", lat:-19.0333, lon:-65.2627, g:1, k:2, kur:"1538-11-30",
-  s:[{f:"1538-11-30",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1825-08-06",d:"ispanyol-peru"},
+  s:[{f:"1538-11-30",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},{f:"1824-12-09",t:"1825-08-06",d:"ispanya",kaynak:"Charcas/Yukarı Peru: Ayacucho (1824-12-09) Peru Genel Valiliği'ni bitirdi (künye t); Olañeta'nın kralcı kuvvetleri Yukarı Peru'da 1825-04-01 Tumusla'ya dek direndi, Bolivya 1825-08-06'da doğdu (Library of Congress Country Profile: Bolivia, tile.loc.gov/storage-services/master/frd/copr/Bolivia.pdf; Redalyc 407539686004 ve SciELO Bolivia v4n3a06). Aynı bölgenin öteki şehirleri bu veride zaten `ispanya` ile 1825-08-06'ya taşınıyor (yerlesimler_a78_amerika.js); 1825-04-01 sonrası kısa geçiş (Sucre yönetimi) ayrıca modellenmedi."},
      {f:"1825-08-06",t:"2000-12-31",d:"bolivya-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984) — Charcas Audiencia'sı (1559'dan).
 // k gerekçesi: Charcas Kraliyet Audiencia'sının merkezi — k:2
@@ -1278,4 +1278,14 @@ window.YERLESIMLER_AMERIKA = [
 //         Arjantin'e katılmadan) bağımsızlığını ilan etti.
 // k gerekçesi: Paraguay'ın idari başkenti — k:1
 
+// AMERIKALAR 29 Ekim 2026 — eksik nokta (KRONO-AMERIKA-G-0929-YERLESIM-ONERI.md). Mükerrer taraması: normalleştirilmiş ad 0 eşleşme (tüm yerlesimler*.js), 3 km içinde komşu yok.
+{ ad:"Antofagasta", tur:"liman", lat:-23.646, lon:-70.392, g:1, k:3, kur:"1868-01-01",
+  s:[{f:"1868-01-01",t:"1879-02-14",d:"bolivya-cumhuriyeti"},
+     {f:"1879-02-14",t:"2000-12-31",d:"sili-cumhuriyeti"}],
+  kaynak:"Memoria Chilena, «Antofagasta (1845-2006)» (memoriachilena.gob.cl/602/w3-article-3296.html; sayfa okunmadı, arama özeti): kent kökenleri belirsiz; Biblioteca Nacional Digital belgesi resmî kuruluşu 22 Ekim 1868 verir — gün tartışmalı olduğundan YALNIZ YIL (1868) yazıldı. 14 Şubat 1879: Şili kuvvetleri (Cnl. Emilio Sotomayor) Bolivya'nın Antofagasta limanını direnişsiz işgal etti (Memoria Chilena, «El impacto de la guerra del Pacífico (1879-1929)», w3-article-100610.html). Zincir fiilî idaredir; Bolivya hukuken 1904 Barış ve Dostluk Antlaşması'na dek vazgeçmedi — o hukuk ayrımı modellenmedi.",
+  not:"koordinat yaklaşık kent merkezi (Plaza Colón ~ -23.650,-70.397) kıyıdan ~0.6 km içeri çekildi; kara maskesi denetimi (denetle.py) koordinatörde." },
+{ ad:"San Miguel de Tucumán", tur:"sehir", lat:-26.8083, lon:-65.2176, g:1, k:3, kur:"1565-05-31",
+  s:[{f:"1565-05-31",t:"1810-05-25",d:"ispanya"},
+     {f:"1810-05-25",t:"2000-12-31",d:"arjantin-cumhuriyeti"}],
+  kaynak:"Argentina Ministerio de Cultura, «Fundación de la ciudad de San Miguel de Tucumán y traslado de Ibatín a La Toma» (cultura.gob.ar/fundacion-de-la-ciudad-de-san-miguel-de-tucuman-y-traslado-de-ibatin-a-15473/): kent 31 Mayıs 1565'te bugünkü yerin birkaç km güneybatısında (Ibatín) kuruldu, 1685'te bugünkü yere taşındı. Nokta BUGÜNKÜ yerleşkedir (1685 sonrası); 1565-1685 arası Ibatín ayrı yerdir, modellenmedi. 9 Temmuz 1816 Bağımsızlık Kongresi (argentina.gob.ar/capital-humano/cultura/monumentos/museo-casa-historica-de-la-independencia). Zincir komşu Córdoba (Arjantin) ile aynı kural: 1810-05-25 Mayıs Devrimi'yle `arjantin-cumhuriyeti` (kendi kaynağı: Córdoba kaydı), 1816 bağımsızlık ilanı kronolojide ayrıca durur." },
 ];
