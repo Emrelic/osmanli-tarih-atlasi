@@ -1520,8 +1520,8 @@
     },
     {
      "yol": "data/kronoloji_cok_lehistan.js",
-     "sha": "19e0db4cf94064ca",
-     "bayt": 41146
+     "sha": "78da5e52d9dd8b92",
+     "bayt": 44785
     },
     {
      "yol": "data/kronoloji_cok_libya.js",
@@ -1629,7 +1629,7 @@
      "bayt": 13985
     }
    ],
-   "bayt": 956284
+   "bayt": 959923
   }
  ]
 }
