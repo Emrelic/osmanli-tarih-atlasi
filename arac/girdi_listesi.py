@@ -626,6 +626,7 @@ GIRDI_DOSYALARI = [
     # Üçü de `_baglama_onsinav.py`dan KIRMIZI 0 ile geçti (ad çakışması ·
     # 3 km · alan sınavı). Yayın kapısı dördünü de "ADI YANILTAN DOSYA"
     # diye uyarıyordu: adları `yerlesimler_` ama `girdi.py` okumuyordu.
+    "yerlesimler_ek_karayip_adalar.js",  # 5 nokta · Küba+Hispaniola (adalar-karayipler)
     "yerlesimler_amerika3.js",        # 25 nokta · Kuzey Meksika · Kaliforniya
                                       # misyonları (AMERIKA-0902)
                                       # ⚠️ 2s'e etkisi ÖLÇÜLDÜ: +15 (70→85,
