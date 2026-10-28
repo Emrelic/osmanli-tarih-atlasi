@@ -749,4 +749,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ms1_1281_yeni.js",
     # DOGU-500-1281 (22 Ekim 2026) - doğu yarıküre 500-1281 yeni yerleşimler
     "yerlesimler_dogu_500_1281.js",
+    # HINT-OKYANUSU (28 Ekim 2026) - noktasız Hint Okyanusu adaları
+    "yerlesimler_hint_adalar.js",
 ]
