@@ -16522,7 +16522,7 @@ window.DEVLETLER = [
     { odak_yer:["Peel"], t:"1265-11-24", tur:"hukumdar", b:"Man kralı Magnus Olafsson ölür; Man'ın İskoçya'ya devri hazırlanır.", kaynak:"Chronicle of Mann; Britannica, 'Isle of Man'" },
     { odak_yer:["Peel"], t:"1266-07-02", tur:"antlasma", b:"Perth Antlaşması: Hebridler ve Man Adası Norveç'ten İskoçya'ya 4000 mark karşılığı geçer.", kaynak:"https://www.hebrideanconnections.com/historical-events/109852" }
   ] },
-{ id:"orkney-kontlugu", ad:"Orkney Kontluğu", tur:"kontluk", bolge:"kuzey-avrupa", f:"1000-01-01", t:"1468-01-01", baskent:"Kirkwall", ozet:"Norveç kralının egemenliğini tanıyan Orkney kontları; 1468'de rehin olarak İskoçya'ya geçti (kesin ilhak 1472 Parlamento kararı). (f pencere)", kaynak:"Britannica 'Norway/History of Norway' (Orkney kontları 1468'e dek Norveç egemenliğini tanıdı); PSAS makalesi (İskoç Eski Eserler Cemiyeti)", kronoloji:[
+{ id:"orkney-kontlugu", ad:"Orkney Kontluğu", tur:"kontluk", bolge:"kuzey-avrupa", f:"1000-01-01", t:"1472-02-20", ic_not_t:"1468 Orkney, 1469 Shetland rehin sözleşmesidir; hukukî ilhak İskoç Parlamentosu kararıyla 20 Şubat 1472 (Shetland Museum & Archives, B. Smith 2022 + The Orcadian). Künye 1468 (rehin) idi; sahip değişimi 1472 olduğundan t genişletildi. Eski özet: kesin ilhak 1472.", baskent:"Kirkwall", ozet:"Norveç kralının egemenliğini tanıyan Orkney kontları; 1468'de rehin olarak İskoçya'ya geçti (kesin ilhak 1472 Parlamento kararı). (f pencere)", kaynak:"Britannica 'Norway/History of Norway' (Orkney kontları 1468'e dek Norveç egemenliğini tanıdı); PSAS makalesi (İskoç Eski Eserler Cemiyeti)", kronoloji:[
     { odak_yer:["Kirkwall"], t:"1263-01-01", tur:"savas", b:"Largs Muharebesi'nde IV. Hakon İskoçlara yenildi.", kaynak:"Earldom of Orkney / Imsen, Orkney (ssns.org.uk) 2003" },
     { odak_yer:["Kirkwall"], t:"1266-01-01", tur:"antlasma", b:"Perth Antlaşması: Norveç Hebridler ve Man'ı bıraktı, İskoçya Orkney ve Shetland'ın Norveç'te kalmasını kabul etti.", kaynak:"Imsen, Orkney (ssns.org.uk/wp-content/uploads/2019/08/05_Imsen_Orkney_2003_pp_65-80.pdf)" },
     { odak_yer:["Kirkwall"], t:"1379-01-01", tur:"hukumdar", b:"Henry Sinclair Orkney Kontu oldu; Sinclair hanedanı dönemi başladı.", kaynak:"Imsen, Orkney (2003)" },
@@ -28684,5 +28684,24 @@ window.DEVLETLER = [
   kronoloji:[
     { odak_yer:["Dînever"], t:"0959-01-01", tur:"kurulus", b:"Hasanveyhîler emirliği başladı (TDV Kürtler dönem ibaresi 959; yalnız yıl teyitli)", kaynak:"TDV İslâm Ansiklopedisi, KÜRTLER, https://islamansiklopedisi.org.tr/kurtler" },
     { odak_yer:["Hemedan"], t:"1015-01-01", tur:"son", b:"Hasanveyhîler emirliği sona erdi (TDV Kürtler dönem ibaresi 1015; Bedr b. Hasanveyh 1014'te öldürülmüştü; yalnız yıl teyitli)", kaynak:"TDV İslâm Ansiklopedisi, KÜRTLER, https://islamansiklopedisi.org.tr/kurtler ; TDV, ANNÂZÎLER, https://islamansiklopedisi.org.tr/annaziler" }
+  ] }
+
+,{ id:"guanche-politileri", ad:"Kanarya Adaları yerli politileri (Guanche menceyatları ve guanartemelikleri)", tur:"devlet", bolge:"kuzey-afrika",
+  f:"1000-01-01", t:"1496-01-01", baskent:"Gáldar / Taoro",
+  boya_gerekli:true,
+  ozet:"Kanarya Adaları'nın Kastilya fethinden önceki yerli toplulukları: Tenerife'de menceyatlar (Anaga, Tegueste, Tacoronte, Taoro, Icod, Daute, Güímar, Abona, Adeje), Gran Canaria'da Gáldar ve Telde guanartemelikleri, La Palma'da Benahoare cantón'ları, Lanzarote'de Guadarfía, Fuerteventura'da Maxorata ve Jandía. Adalar birbirinden bağımsızdır; atlasta ortak renk kimliğidir, TEK devlet DEĞİLDİR.",
+  kaynak:"Gobierno de Canarias / Cabildo de Gran Canaria (patrimoniohistorico.grancanaria.com): «En Gáldar residieron todos los reyes o guanartemes (...) hasta la Conquista (1483)» ; RAE TDHLE 'mencey' (Berthelot 1839 'dokuz oğul' anlatısı; Bonnet 1956 mit sayar) ; Álvarez Delgado ve ULPGC mdc PDF'leri (gövde 403, özet).",
+  ic_not_f:"f:1000-01-01 UFUK İŞARETİDİR, kuruluş değildir: yerli politilerin kuruluş/bölünme tarihleri kaynakta YOK (Tenerife'nin dokuz menceyatosu ve Gáldar+Telde bölünmesi tarihsiz; dokuzlu bölünme Bonnet 1956'dan beri mit sayılır). Yıl uydurulmadı.",
+  ic_not_t:"t:1496-01-01 Tenerife fethinin (en geç) yılıdır; adalar farklı yıllarda düştü: Lanzarote 1402, Fuerteventura 1404-1405, Gran Canaria 29 Nisan 1483 (gelenek; 1484 alternatifi), La Palma 3 Mayıs 1493 (gelenek), Tenerife 1496 (25 Temmuz belediye metni / 29 Eylül özeti, çelişkili). Her nokta kendi ada ucunu s: ile taşır.",
+  kronoloji:[
+    { odak_yer:["San Cristóbal de La Laguna (Tenerife)"], t:"1496-01-01", tur:"son", b:"Tenerife'nin fethiyle Kanarya Adaları'nın yerli politilerinin sonuncusu (Tenerife menceyatları) Kastilya/İspanya'ya geçti (yalnız yıl teyitli; gün teyitsiz)", kaynak:"Los Realejos Ayuntamiento tarihçe PDF: «se dio por concluida la fase bélica de la conquista de Tenerife el 25 de julio de 1496» (belediye, akademik değil); RAH DB~e Alonso Fernández de Lugo: Tenerife valiliği 1496 sonu." }
+  ] }
+,{ id:"sao-tome-ve-principe", ad:"São Tomé ve Príncipe Cumhuriyeti", tur:"devlet", bolge:"orta-afrika",
+  f:"1975-07-12", baskent:"São Tomé",
+  boya_gerekli:true,
+  ozet:"Gine Körfezi'ndeki iki ada; Portekiz'den 12 Temmuz 1975'te bağımsız oldu.",
+  kaynak:"Store norske leksikon (snl.no), 'São Tomé og Príncipe' (Norveççe): «São Tomé og Príncipe ble uavhengig 12. juli 1975.» (tek kaynak; çift teyit bekler)",
+  kronoloji:[
+    { odak_yer:["São Tomé"], t:"1975-07-12", tur:"kurulus", b:"São Tomé ve Príncipe Portekiz'den bağımsızlığını kazandı", kaynak:"Store norske leksikon (snl.no), 'São Tomé og Príncipe': «ble uavhengig 12. juli 1975»" }
   ] }
 ];
