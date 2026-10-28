@@ -1153,7 +1153,8 @@ window.DEVLETLER = [
     { t:"1305-04-30", tur:"savas", b:"Roger de Flor öldürüldü; Katalanlar Bizans'a döndü, Trakya ve Makedonya'yı yağmaladı (\"Katalan İntikamı\")" },
     { t:"1311-03-15", tur:"kurulus", b:"Halmyros (Kifisos) Savaşı'nda Atina Dukası Brienneli Gautier'yi öldürüp dukalığı ele geçirdi" },
     { t:"1312-01-01", tur:"siyaset", b:"Katalanlar Sicilya Kralı III. Frederick'in egemenliğini tanıdı; Frederick oğlu Manfred'i Atina Dükü atadı, fiilî yönetim vekilharç (vicar-general) ve mareşalin elinde kaldı.", kaynak:"https://www.worldhistory.org/Duchy_of_Athens/ ; Setton, Catalan Domination of Athens 1311-1380 (1975) (yıl)" },
-    { t:"1388-05-02", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü" }
+    { t:"1318-01-01", tur:"toprak-kazanc", b:"İzdin (Zitouni/Lamia) Atina Katalan Dukalığı'na katıldı (yıl hassasiyeti)", odak_yer:["İzdin (Lamia)"], kaynak:"TDV izdin: «1318'den 1388'e kadar Atina Katalan Dukalığı'na ait olan şehir» (yıl; gün yok)" },
+    { t:"1388-05-02", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü", ic_not_t:"ÇELİŞKİ (iki kaynağıyla): TDV atina «1311'den 1387'ye kadar Katalanlar'ın hâkimiyeti altında kaldı» (Nerio 1387'de aldı) · TDV izdin «1318'den 1388'e» · Foundation of the Hellenic World «Athens - Rule of the Florentines - General»: Katalanlar 1388'de Acciaiuoli ailesine devretti. 1388-05-02 günü bu turda hiçbir kaynakta bulunamadı (yıl: 1387 TDV atina / 1388 TDV izdin+FHW); TDV esas ilkesine göre Atina için 1387 de mümkün. Neopatras kolunun 1390'a dek sürdüğü görüşü yalnız ikincil (World History Encyclopedia) — TEYİTSİZ." }
   ]
 },
 { id:"naksa-dukaligi", ad:"Naxos (Nakşa) Dukalığı", tur:"dukalik", bolge:"balkanlar",
@@ -1561,7 +1562,7 @@ window.DEVLETLER = [
     { odak_yer:["Girit"], t:"1910-05-09", tur:"siyaset", b:"Girit meclisi Yunan kralı adına açıldı; 30 Mayıs 1910'da Müslüman mebuslar meclisten dışlandı.", kaynak:"TDV İslâm Ansiklopedisi, GİRİT maddesi, https://islamansiklopedisi.org.tr/girit" },
     { odak_yer:["Girit"], t:"1910-10-29", tur:"siyaset", b:"Büyük güçler Girit üzerindeki Osmanlı egemenliğini yeniden teyit etti.", kaynak:"TDV İslâm Ansiklopedisi, GİRİT maddesi, https://islamansiklopedisi.org.tr/girit" },
     { odak_yer:["Girit"], t:"1912-10-10", tur:"birlesme", b:"Yunanistan Girit'teki iki meclisin birleştirilmesini onayladı; 26 Ekim 1912'de Dragumis idareyi devraldı.", kaynak:"TDV İslâm Ansiklopedisi, GİRİT maddesi, https://islamansiklopedisi.org.tr/girit" },
-    { odak_yer:["Londra"], t:"1913-05-30", tur:"son", b:"Londra Antlaşması ile Yunanistan'a resmen katıldı" }
+    { odak_yer:["Londra"], t:"1913-05-30", tur:"son", b:"Londra Antlaşması ile Yunanistan'a resmen katıldı", kaynak:"TDV girit: «Londra (30 Mayıs 1913) ve Bükreş (10 Ağustos 1913) muahedeleriyle Girit adası Osmanlı Devleti'nin elinden çıkmış oldu»", ic_not_b:"Hukukî devir günü bu madde ve yerleşim zincirleridir. Atina Antlaşması 14 Kasım 1913 (Osmanlı feragatinin ikili teyidi) ve Yunan bayrağının Hanya'da çekilmesi 14 Aralık 1913 (1 Aralık Jülyen) ayrı maddelerdir (kron-balkan, 29 Eki 2026)." }
   ]
 },
 { id:"fransiz-misir-seferi", ad:"Napolyon'un Mısır Seferi", tur:"gecici-isgal", bolge:"misir-sudan",

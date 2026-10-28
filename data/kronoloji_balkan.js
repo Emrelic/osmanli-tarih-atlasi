@@ -1005,7 +1005,7 @@ window.KRONOLOJI_BALKAN = [
   d:"İkinci Balkan Savaşı'nı sona erdiren antlaşmayla Yunanistan'ın Yanya, Selanik, Serez ve Kavala dahil Güney Epir ve Makedonya'nın büyük bölümündeki kazanımları kesinleşti. Yunanistan toprak ve nüfus bakımından iki katına yakın büyüdü.",
   kaynak:"TDV `yunanistan`: '30 Mayıs 1913 Londra ve 10 Ağustos 1913 Bükreş antlaşmaları ile Yunanistan'ın kazanımları tanındı. Yunanistan toprak ve nüfus bakımından iki katına yakın büyüdü.'" },
 
-{ taraflar:["yunanistan"], t:"1913-11-14", b:"Atina Antlaşması — Girit'in resmî ilhakı", tur:"antlasma",
+{ taraflar:["yunanistan"], t:"1913-11-14", b:"Atina Antlaşması — Yunanistan'la barış; Selanik ve Yanya'nın devri, Girit'ten feragatin teyidi", ic_not_b:"eski b: «Atina Antlaşması — Girit'in resmî ilhakı». TEK MODEL: Girit'in hukukî devri 30 Mayıs 1913 Londra (zincirler ve girit-devleti t bu günde; TDV girit: «Londra (30 Mayıs 1913) ve Bükreş (10 Ağustos 1913) muahedeleriyle Girit adası Osmanlı Devleti'nin elinden çıkmış oldu»). 14 Kasım 1913 Atina Antlaşması Osmanlı-Yunan ikili barışıdır, Girit hakkından feragati teyit eder (Yunan kaynaklarında Sultan'ın feragati 1 Kasım 1913 Jülyen = 14 Kasım Gregoryen). Fiilî birleşme 14 Aralık 1913 (1 Aralık Jülyen) bayrak töreni — ayrı madde.", tur:"antlasma",
   onem:5, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"Atina",
   d:"Osmanlı Devleti ile Yunanistan arasında imzalanan antlaşma, Balkan Savaşı'nda kaybedilen Selanik, Yanya ve Güney Makedonya'nın Yunanistan'a geçişini resmen tanıdı ve Girit üzerindeki Osmanlı haklarından tamamen vazgeçildi.",
   kaynak:"data/olaylar_ek5.js:405 ile birebir aynı olay, 1913-11-14 tarihiyle zaten doğrulanmış." },
