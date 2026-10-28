@@ -1103,8 +1103,8 @@
     },
     {
      "yol": "data/yerlesimler_p0037.js",
-     "sha": "15d6344e20f4f886",
-     "bayt": 21991
+     "sha": "a96264a9c88ebf91",
+     "bayt": 23582
     },
     {
      "yol": "data/yerlesimler_anadolu_0914.js",
@@ -1147,7 +1147,7 @@
      "bayt": 209227
     }
    ],
-   "bayt": 391487
+   "bayt": 393078
   },
   {
    "paket": "data/paket_24.js",
