@@ -10,6 +10,12 @@
 // (kayıt adı `odak_yer`de) karşılığıdır — maddeyi okuyan haritada tam o değişimi görür.
 // =====================================================================
 window.KRONOLOJI_SINIR_ISKANDINAVYA = [
+{ odak_yer:["Visby"], t:"1361-07-27", devlet:"danimarka", devletler:["danimarka","isvec-birlik-oncesi"],
+  b:"Valdemar IV Atterdag Visby önünde İsveçli Gotlandlıları yendi — Gotland Danimarka'ya geçti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Visby",
+  etiket:["sinir","savas","toprak-kazanc","konu-askeri","danimarka","isvec"],
+  d:"Danimarka kralı IV. Valdemar Gotland'a çıktı (22 Temmuz 1361) ve 27 Temmuz 1361'de Visby surları önünde adalı köylü ordusunu yendi; Visby teslim oldu, Gotland Danimarka tacına geçti ve 1645'e dek (Brömsebro) Danimarka'da kaldı.",
+  ic_not_d:"Gün: Lex «Visbygravene» 27 Temmuz 1361'i verir; ada Valdemar öncesi İsveç Magnus Eriksson'un nüfuzundaydı. Önceki zincir Visby'yi 1361-07-27'den Danimarka gösteriyordu, kronolojide madde yoktu.",
+  kaynak:"Lex (Den Store Danske), «Visbygravene» https://lex.dk/Visbygravene — 27. juli 1361 (22 Temmuz çıkarma)." },
 { odak_yer:["Kiel","Flensburg"], t:"1460-03-05", devlet:"schleswig-holstein", devletler:["schleswig-holstein","danimarka"],
   b:"Ribebrevet — I. Christian Schleswig dükü ve Holstein kontu seçildi; dukalıklar Danimarka tacına şahsî birlikle bağlandı", tur:"birlesme", onem:3, dunya:2, kapsam:"dis", yer_id:"Kiel",
   etiket:["sinir","birlesme","konu-siyasi","schleswig-holstein","danimarka"],
