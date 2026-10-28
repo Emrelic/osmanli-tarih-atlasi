@@ -3045,7 +3045,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["askeri","kayip","konu-askeri"],
   d:"[Safevî] Mahmud Hotakî önderliğindeki az sayıdaki Afgan kuvveti, sayıca çok üstün ama çürümüş Safevî ordusunu İsfahan yakınlarında Gülnâbâd'da bozguna uğrattı; bu yenilgi başkentin altı aylık kuşatmasının ve Safevî devletinin fiilî sonunun doğrudan kapısını açtı.",
   kaynak:"Encyclopaedia Iranica, madde: MAḤMUD ḠALZAY", yer_id:"Isfahan" },
-{ t:"1722-10-23", b:"İsfahan düştü — Safevî Devleti fiilen sona erdi", tur:"son", onem:5, dunya:4, kapsam:"ic",
+{ t:"1722-11-10", b:"İsfahan düştü — Safevî Devleti fiilen sona erdi", tur:"son", ic_not_gun:"TDV safeviler 10 Kasım 1722 (safevi künyesiyle aynı gün). ÇELİŞKİ: Iranica (arama özeti, tam metin 403) teslimi 21 Ekim, Mahmud Hotakî girişini 25 Ekim, Şah Hüseyin tahttan inişini 23 Ekim 1722 verir (eski atlas değeri 1722-10-23). TDV esas; gün tam metinle yeniden teyit edilmeli.", onem:5, dunya:4, kapsam:"ic",
   etiket:["askeri","kayip","konu-askeri","konu-siyasi"],
   d:"[Safevî] Altı aylık açlık kuşatmasının ardından Şah Sultan Hüseyin tacını Afgan lideri Mahmud'a teslim etti; 221 yıllık Safevî hânedanı fiilen sona erdi (nominal hânedan üyeleri 1736'ya kadar çeşitli yerlerde varlığını sürdürdü). İran tarihyazımında bu, ülke tarihinin en travmatik çöküşlerinden biri — bir asır süren Osmanlı-Rus-Afgan işgalleri döneminin başlangıcı ve dünya sisteminde de bölgesel güç dengesini kalıcı olarak sarsan bir devlet çöküşüdür.",
   kaynak:"Encyclopaedia Iranica, madde: ṢAFAVID DYNASTY", yer_id:"Isfahan" },
@@ -3081,7 +3081,7 @@ window.KRONOLOJI_IRAN = [
   kaynak:"Encyclopaedia Iranica, madde: KARIM KHAN ZAND", kapsam_genis:true },
 
 // === H) ZEND HÂNEDANI (1750-1796) ============================================
-{ t:"1765-01-01", b:"Şîraz başkent yapıldı — Zend \"altın çağı\"", gun:"1765", ic_not_gun:"1765 — yıl hassasiyeti · TDV `zendler`, `ilhanlilar`, `safeviler`, `kacarlar` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:3, dunya:1, kapsam:"ic",
+{ t:"1765-01-01", b:"Şîraz başkent yapıldı — Zend \"altın çağı\"", gun:"1765", ic_not_gun:"1765 (ÇELİŞKİ beyanı: TDV zendler 1180 h. / 1766-67; Iranica arama özeti 2 Safer 1179 = 21 Temmuz 1765; atlas 1765 tutar) — yıl hassasiyeti · TDV `zendler`, `ilhanlilar`, `safeviler`, `kacarlar` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","kultur","konu-idari","konu-kultur"],
   d:"[Zend] Kerim Han, başkentini doğduğu şehir Şîraz'a taşıyıp Vekîl Camii, Vekîl Çarşısı gibi eserlerle imar etti; 1750-1779 arası nispeten istikrarlı ve barışçıl Zend dönemi, Safevî çöküşü ve Kaçar iç savaşları arasında kısa bir refah aralığı sayılır.",
   kaynak:"Encyclopaedia Iranica, madde: KARIM KHAN ZAND", yer_id:"Şiraz" },
@@ -3287,7 +3287,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["siyaset","konu-siyasi"],
   d:"[Afşar] Nadir Şah, kendisine suikast girişiminden şüphelendiği veliaht oğlu Rıza Kulı Mirza'yı kör ettirdi; bu olay Nadir'in son yıllarındaki artan zulüm ve paranoyanın dönüm noktası, hânedanın ardıl krizinin de doğrudan sebebi sayılır.",
   kaynak:"Encyclopaedia Iranica, madde: NADIR SHAH AFSHAR", yer_id:"Derbend" },
-{ t:"1775-04-16", b:"Zend, Basra'yı kuşattı ve ele geçirdi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
+{ t:"1776-04-16", b:"Zend, Basra'yı kuşattı ve ele geçirdi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   d:"[Zend] Kerim Han'ın kardeşi Sadık Han komutasındaki Zend ordusu, Osmanlı'ya ait Basra'yı uzun bir kuşatmanın ardından ele geçirdi; şehir dört yıl (1779'a kadar) Zend idaresinde kaldı — Nadir Şah sonrası İran'ın hâlâ bölgesel bir askerî güç olduğunu gösteren nadir örneklerden biri.",
   kaynak:"Encyclopaedia Iranica, madde: KARIM KHAN ZAND", yer_id:"Basra" },
