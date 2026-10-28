@@ -1713,7 +1713,7 @@ window.DEVLETLER = [
 { id:"ispanya", ad:"İspanya (Kastilya-Aragon)", tur:"krallik", bolge:"iberya",
   f:"1479-01-19", ic_not_f:"gün 14 Ekim 2026 Emre kararıyla DBE (RAH) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479» ve Gran Enciclopèdia Catalana'ya göre düzeltildi (eski: 1479-01-20, yalnız Vikipedi)", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Madrid", harita:"ispanya",
   ozet:"Kastilya-Aragon birliğiyle doğan krallık; Akdeniz'de Osmanlı'nın 16. yüzyıldaki ana deniz rakibi. (1945 ufkundan sonra da sürdü — t: pencere ucu. 1936-1939 iç savaşında milliyetçi bölge ayrı künyede: [[ispanya-milliyetci]].)",
-  kaynak:"ispanya",
+  kaynak:"TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya): «Kastilyalı Izabella ile Aragonlu II. Ferdinand arasındaki evlilik (1469)»; «Granada’nın ele geçirilerek ‘reconquista’nın tamamlandığı» (1492); «Portekiz Krallığı’nı da ilhak etmiş olarak (1580)» ... «1580’den beri sürdürdüğü birlikteliğine son verdi (1640)»; «İspanya Veraset Savaşı’nı başlattı (1701)»; V. Felipe'nin kralığı Utrecht'te tanındı (1713). Künye başlangıcı 1479-01-19: DBE (RAH) «Juan II de Aragón y de Navarra» «Barcelona, 19.I.1479», GEC aynı. · IBER-KRON-1028",
   kronoloji:[
     { t:"1479-01-19", tur:"birlesme", b:"Kastilya ile Aragon tacları birleşti", kaynak:"DBE (Real Academia de la Historia), 'Juan II de Aragón y de Navarra': «Barcelona, 19.I.1479» (https://dbe.rah.es/biografias/10845/juan-ii-de-aragon-y-de-navarra); Gran Enciclopèdia Catalana aynı — gün 14 Ekim 2026 Emre kararıyla düzeltildi (eski: 1479-01-20)" },
     { t:"1492-01-02", tur:"toprak-kazanc", b:"Gırnata'nın düşüşüyle Reconquista tamamlandı" },
@@ -6550,7 +6550,7 @@ window.DEVLETLER = [
 { id:"kastilya", ad:"Kastilya Tacı", tur:"krallik", bolge:"iberya",
   f:"1035-01-01", t:"1479-01-19", ic_not_t:"t: gün 14 Ekim 2026 Emre kararıyla DBE (RAH) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479» ve Gran Enciclopèdia Catalana'ya göre düzeltildi (eski: 1479-01-20, yalnız Vikipedi).", ic_not_f:"GEC kendi içinde iki yıl verir: 'Ferran I de Castella' maddesi 'Mort el seu pare, prengué el títol de rei de Castella' (babası III. Sancho 1035'te öldü) ve 'Portugal' maddesi saltanatı (1035-1065) verir; 'regne de Castella' maddesi ise 'Regne constituït sobre la base del comtat de Castella després de l’entronització de Ferran I (1037-65)' der. 1035 = kral unvanı, 1037 = León'un ilhakıyla fiilî krallık/taç giyme. Öneri 1035 (unvan); gün kaynakta yok → 01-01. 1035 öncesi Kastilya KONTLUĞU (León'a, 1029-35 Navarra'ya bağlı) bu künyeye dahil değildir.", baskent:"Toledo → Valladolid", harita:"kastilya",
   ozet:"III. Fernando'nun León ile birleştirdiği, Reconquista'nın öncüsü olan İber krallığı; Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu (bkz. [[ispanya]]).",
-  kaynak:"kastilya--ispanya",
+  kaynak:"TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya): «Navarra Krallığı’nın ikiye ayrılması ile Aragon ve Kastilya krallıkları meydana geldi (1035)»; Gran Enciclopèdia Catalana, «regne de Lleó»: «Amb Ferran III s’uniren definitivament els regnes de Lleó i Castella (1230)» (yıl; gün için bkz. León künyesi). · IBER-KRON-1028",
   kronoloji:[
     { odak_yer:["Toledo"], t:"1230-09-24", tur:"birlesme", b:"III. Fernando, Kastilya ve León taçlarını kalıcı olarak birleştirdi" },
     { odak_yer:["Toledo"], t:"1340-10-30", tur:"savas", b:"Río Salado Savaşı'nda Merînî-Gırnata ittifakını yendi" },
@@ -6562,7 +6562,7 @@ window.DEVLETLER = [
 { id:"aragon", ad:"Aragon Tacı", tur:"krallik", bolge:"iberya",
   f:"1035-01-01", t:"1479-01-19", ic_not_t:"t: gün 14 Ekim 2026 Emre kararıyla DBE (RAH) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479» ve Gran Enciclopèdia Catalana'ya göre düzeltildi (eski: 1479-01-20, yalnız Vikipedi).", ic_not_f:"Kaynak yalnız yıl verir; gün bilinmiyor → 1035-01-01. 1035-1045 arası Sobrarbe ve Ribagorza ayrı (kardeşi Gonzalo) idi, 1045'te Aragon'a katıldı (aynı GEC maddesi).", baskent:"Zaragoza → Barselona", harita:"aragon",
   ozet:"Aragon Krallığı ile Barselona Kontluğu'nun birleşmesinden doğan, Akdeniz'de (Sicilya, Napoli, Sardinya) geniş bir deniz imparatorluğu kuran taç; Katolik Kralların evliliğiyle Kastilya ile birleşti (bkz. [[ispanya]]).",
-  kaynak:"aragon",
+  kaynak:"TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya): «Navarra Krallığı’nın ikiye ayrılması ile Aragon ve Kastilya krallıkları meydana geldi (1035)»; «Aragon önce Katalonya ile birleşti (1164)». Katalan Taçlarıyla birleşme: Gran Enciclopèdia Catalana, «corona catalanoaragonesa». · IBER-KRON-1028",
   kronoloji:[
     { odak_yer:["Barselona"], t:"1164-01-01", tur:"birlesme", b:"II. Alfonso, Aragon Krallığı ile Barselona Kontluğu'nu birleştirdi" },
     { odak_yer:["Zaragoza"], t:"1282-01-01", tur:"toprak-kazanc", b:"Sicilya Akşamı sonrası Sicilya'yı ele geçirdi" },
