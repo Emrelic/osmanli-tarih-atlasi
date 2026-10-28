@@ -654,4 +654,17 @@ window.OLAYLAR_EK16 = [
 { t:"1404-01-01", k:"diger", kapsam:"dis", etiket:["toprak-kayip","konu-askeri"], b:"Vytautas Smolensk'i aldı — Smolensk Knezliği Litvanya'ya katıldı", gun:"1404 [yalnız yıl]", yer:"Smolensk", yer_id:"Smolensk",
   d:"Vytautas Smolensk'i ele geçirdi; şehir 1514'te Moskova'ya geçene dek Litvanya Büyük Dükalığı'nda kaldı.",
   kaynak:"devletler.js künyesi; yıl düzeyi — gün kaynakta yok [yalnız yıl teyitli; gün teyitsiz]; RBS/Britannica elle doğrulama bekler" },
+// ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): Belarus doğusu işgal/kurtuluş
+{ t:"1941-07-11", k:"diger", kapsam:"dis", etiket:["isgal","toprak-kazanc","konu-askeri"], b:"Vitebsk Alman Ordusu'nca alındı", gun:"≤11 Temmuz 1941 [gün teyitsiz]", yer:"Vitebsk", yer_id:"Vitebsk",
+  d:"Merkez Ordular Grubu Vitebsk'i Barbarossa'nın ilk haftalarında aldı; şehir Haziran 1944'e dek Alman askerî idaresinde kaldı, nüfusunun büyük kısmı yok oldu.",
+  kaynak:"JewishGen Belarus bülteni (Vitebsk) — arama özeti [özet]; gün teyit bekler" },
+{ t:"1944-06-26", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Vitebsk Kızıl Ordu'ca kurtarıldı — Bagration Harekâtı", gun:"26 Haziran 1944 [gün teyitsiz — aramada doğrulanamadı]", yer:"Vitebsk", yer_id:"Vitebsk",
+  d:"1. Baltık ve 3. Belarus Cepheleri Vitebsk'i kuşatıp aldı; Bagration Harekâtı'nın ilk büyük şehir kurtuluşuydu.",
+  kaynak:"Bagration Harekâtı literatürü (Vitebsk-Orsha); aramada doğrulanamadı — gün teyit bekler" },
+{ t:"1941-07-26", k:"diger", kapsam:"dis", etiket:["isgal","toprak-kazanc","konu-askeri"], b:"Mogilev Alman Ordusu'nca alındı", gun:"26 Temmuz 1941 (kaynaklar 24-27 Temmuz verir)", yer:"Mogilev (Mahilyow)", yer_id:"Mogilev (Mahilyow)",
+  d:"Mogilev 23 gün süren savunmanın ardından Wehrmacht'ın eline geçti; şehir 28 Haziran 1944'e dek işgalde kaldı.",
+  kaynak:"Vikipedi «Mogilev» (26 Temmuz); Yad Vashem arşiv açıklaması M.41.GAMog (24-25 Temmuz); JewishGen (27 Temmuz) — arama özeti [özet]; gün teyitsiz" },
+{ t:"1944-06-28", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Mogilev Kızıl Ordu'ca kurtarıldı — Bagration Harekâtı", gun:"28 Haziran 1944", yer:"Mogilev (Mahilyow)", yer_id:"Mogilev (Mahilyow)",
+  d:"2. Belarus Cephesi Mogilev'i aldı ve Dnepr hattını aştı.",
+  kaynak:"Yad Vashem arşiv açıklaması M.41.GAMog; Vikipedi «Mogilev» — arama özeti [özet]" },
 ];
