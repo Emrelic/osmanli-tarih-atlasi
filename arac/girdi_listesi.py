@@ -626,6 +626,7 @@ GIRDI_DOSYALARI = [
     # Üçü de `_baglama_onsinav.py`dan KIRMIZI 0 ile geçti (ad çakışması ·
     # 3 km · alan sınavı). Yayın kapısı dördünü de "ADI YANILTAN DOSYA"
     # diye uyarıyordu: adları `yerlesimler_` ama `girdi.py` okumuyordu.
+    "yerlesimler_ek_karayip_adalar.js",  # 5 nokta · Küba+Hispaniola (adalar-karayipler)
     "yerlesimler_amerika3.js",        # 25 nokta · Kuzey Meksika · Kaliforniya
                                       # misyonları (AMERIKA-0902)
                                       # ⚠️ 2s'e etkisi ÖLÇÜLDÜ: +15 (70→85,
@@ -749,4 +750,11 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ms1_1281_yeni.js",
     # DOGU-500-1281 (22 Ekim 2026) - doğu yarıküre 500-1281 yeni yerleşimler
     "yerlesimler_dogu_500_1281.js",
+    # ADALAR-ATLANTIK-KUZEY (28 Ekim 2026) - noktasız Atlantik adaları: Norse Grönland, Kanarya,
+    # Madeira, Azorlar, Yeşil Burun, São Tomé, Bioko, St Helena, Ascension, Tristan, Falkland, Bermuda, Jan Mayen
+    "yerlesimler_ek_atlantik_adalar.js",
+    # HINT-OKYANUSU (28 Ekim 2026) - noktasız Hint Okyanusu adaları
+    "yerlesimler_hint_adalar.js",
+    # ADALAR-PASIFIK (28-29 Ekim 2026) - Koror (Palau), Port Vila (beyanli bosluk)
+    "yerlesimler_ek_pasifik_adalar.js",
 ]

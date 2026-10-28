@@ -1300,7 +1300,7 @@ window.KRONOLOJI_INGILTERE = [
   d:"Osmanlı Devleti'nin Almanya yanında savaşa girmesi üzerine Britanya, 1878'den beri idaresinde bulunan Kıbrıs'ı resmen ilhak etti ve Osmanlı'ya savaş ilan etti; Mısır'daki nominal Osmanlı bağı ise henüz sona ermemişti. Bu iki adım, Britanya-Osmanlı ilişkisinin üç yüz yıllık ticaret ve diplomasi eksenli tarihini doğrudan bir savaşa dönüştürdü.",
   kaynak:"ingiltere (TDV)" },
 
-{ t:"1914-11-06", b:"Britanya Hint Seferi Kuvveti Basra'ya çıktı", tur:"savas",
+{ t:"1914-11-06", b:"Britanya Hint Seferi Kuvveti Şattülarab ağzında Fâv'a çıktı (Basra 22 Kasım'da işgal edildi)", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","birlesik-krallik","konu-askeri"],
   yer_id:"Basra",
   d:"Petrol sahalarını ve Basra Körfezi'ni güvence altına almak amacıyla gönderilen Britanya Hint Seferi Kuvveti, Basra'ya çıkarak Mezopotamya Cephesi'ni açtı. Cephe, sonraki üç yılda Bağdat'ın alınmasına kadar uzanacak uzun bir kampanyaya dönüşecekti.",

@@ -337,13 +337,13 @@ window.YERLESIMLER_DOGU_500_1281 = [
   "s": [
    {
     "f": "0538-01-01",
-    "t": "0660-08-01",
+    "t": "0660-08-29",
     "d": "baekje",
     "kesinlik": "yil",
     "kaynak": "SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «十六年，春，移都於泗沘，國號南扶餘。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
    },
    {
-    "f": "0660-08-01",
+    "f": "0660-08-29",
     "t": "0671-01-01",
     "d": "tang",
     "kesinlik": "ay",
@@ -351,13 +351,20 @@ window.YERLESIMLER_DOGU_500_1281 = [
    },
    {
     "f": "0671-01-01",
-    "t": "0936-09-01",
+    "t": "0900-01-01",
     "d": "silla",
     "kesinlik": "yil",
     "kaynak": "SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷07 (zh.wikisource.org/wiki/三國史記/卷07, okundu): «置所夫里州，以阿飡眞王爲都督。» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «扶餘郡，本百濟所夫里郡，唐將蘇定方與庾信平之，文武王十二年置摠管» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
    },
    {
-    "f": "0936-09-01",
+    "f": "0900-01-01",
+    "t": "0936-09-26",
+    "d": "hubaekje",
+    "kesinlik": "yil",
+    "kaynak": "BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Jeonju/Wansan — zincir Jeonju'dan devralındı): Sabi (Buyeo) 900-936 arasında Hubaekje topraklarındadır — Goryeosa 卷五十七 Jeolla-do «悉據舊地» (Gyeon Hwon eski Baekje topraklarının tamamını tuttu) ve Samguk sagi 卷50 Gyeon Hwon bölümü; 934'te Ungjin'in kuzeyinin Goryeo'ya geçişi (Samguk sagi 卷50) Sabi'nin güneyde kaldığını gösterir (zh.wikisource, okundu). Yer-özgü Sabi kaydı yoktur. Önceki dilim (Silla 900-936) künye aşımıydı, KORE-JAPONYA gece turunda düzeltildi."
+   },
+   {
+    "f": "0936-09-26",
     "t": "1392-08-05",
     "d": "goryeo",
     "kesinlik": "yil",
@@ -649,14 +656,14 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0610-01-01",
     "t": "0757-01-01",
-    "d": "__BOSLUK__",
+    "d": "badami-calukya",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip badami-calukya (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"badami-calukya\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, III: The Classical Age (Bharatiya Vidya Bhavan, Bombay; archive.org classicalage03bhar; açıldı, okundu): «Bhogi-varman (c. 606-610), son of Aja-varman, tried to re-establish the independence of his dynasty, but was overpowered by Pulakesin II, who besieged Banavasi, an event mentioned in his Aihole inscription. The Kadamba dynasty came to an end with the death, probably in battle, of Bhogi-varman and of his son.»; «In the south Pulakesin II besieged and reduced Vanavasi, the capital of the Kadambas»"
    },
    {
     "f": "0757-01-01",
     "t": "0975-01-01",
-    "d": "__BOSLUK__",
+    "d": "rastrakuta",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip rastrakuta (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"rastrakuta\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, IV: The Age of Imperial Kanauj (Bhavan, Bombay 1955; archive.org ageofimperialkan04bhar; açıldı, okundu): «The period of Rashtrakuta ascendancy in the Deccan from about A.D. 753 to 975»; «Dantidurga had defeated Kirtivarman, but had not extinguished his power. The Chalukya emperor retired to Karnatak»; «Krishna bestowed upon him the governorship of Banavasi 12000» | BEYANLI YAKLAŞIKLIK: Banavasi’nin (Karnataka) fiilî geçişi Dantidurga (c. 753) sonrası Krishna I döneminde; yıl onyıl hassasiyetinde."
    },
@@ -780,7 +787,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1070-01-01",
     "t": "1235-01-01",
-    "d": "__BOSLUK__",
+    "d": "polonnaruwa",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip polonnaruwa (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"polonnaruwa\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon»: \"from the Chola yoke about A.D. 1070\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon»: \"The Polonnaruva period of Ceylonese history ends with Magha\" | f=1070 \"about\"; t=c.1235 Magha'nın sonu (ONYIL)."
    },
@@ -816,7 +823,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1160-01-01",
     "t": "1181-01-01",
-    "d": "__BOSLUK__",
+    "d": "kalyani-kalacuri",
     "kesinlik": "yil",
     "kaynak": "BOŞLUK BEYANI: sahip kalyani-kalacuri (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"kalyani-kalacuri\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Later Chalukyas and Kalachuris of Kalyana»: \"ascended the throne of the Deccan in A D. 1156 and occupied Kalyana before A.D. 1160\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Later Chalukyas and Kalachuris of Kalyana»: \"in A.D. 1181-82 Somesvara IV was on the throne of Kalyana\""
    },
@@ -966,7 +973,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0801-01-01",
     "t": "0942-01-01",
-    "d": "__BOSLUK__",
+    "d": "chapa-vardhamana",
     "kesinlik": "yuzyil",
     "kaynak": "BOŞLUK BEYANI: sahip chapa-vardhamana (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"chapa-vardhamana\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Minor Dynasties of Gujarat and Kathiawar: The Chapas»: \"who ruled in the first quarter of the ninth cen\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Minor Dynasties of Gujarat and Kathiawar: The Chapas»: \"was ruling in A.D. 914 as a vassal of the Pratlhara Mahipala I\" | f=801: \"9. yy ilk çeyreği\" (YÜZYIL); Vardhamana'nın (Wadhwan) 783'te anıldığı da Majumdar IV'te: \"Jayavaraha ... ruling in A.D. 783 in the territories of the Sauryas to the west of Vardha\" (783-801 arası sahip yazılmadı)."
    },
@@ -1083,7 +1090,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1243-01-01",
     "t": "1299-01-01",
-    "d": "__BOSLUK__",
+    "d": "vaghela",
     "kesinlik": "yil",
     "kaynak": "BOŞLUK BEYANI: sahip vaghela (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"vaghela\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «The Chaulukyas of Gujarat»: \"testimony of the Jain literature, according to which Virama never occupied the throne and his brother Visala became king in A.D. 1243\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «The Chaulukyas of Gujarat»: \"wrested the whole of Gujarat from Karna\" | BEYANLI YAKLAŞIKLIK: Dholka'ya özgü devir tanığı yok; Vaghela hanedanının kuruluş ve son yılları alındı (1243 Cain geleneği; 1299 V, 1298 ikinci yarı VI)."
    },
@@ -1165,9 +1172,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1153-07-07",
     "t": "1558-01-01",
-    "d": "__BOSLUK__",
+    "d": "maldivler-sultanligi",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip maldivler-sultanligi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"maldivler-sultanligi\" geri yazılır) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"12 Rebîülâhir 548 (7 Temmuz 1153) tarihinde müslüman olmuş ve Muhammed el-Âdil (Siri Bavanaditta Maha Radun) adını almıştır\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 965-981 (1558-1573) yılları arasında Portekiz işgali altında kaldı\" | BEYANLI YAKLAŞIKLIK: TDV adalar için söyler, Malé'ye özgü değil; 1752-53 Malabarlı saldırısı Malé sarayını yıktı ama Maldivliler Fransız yardımıyla geri attı (TDV)."
+    "kaynak": "SAHİP maldivler-sultanligi (BOYALAR'a girdi; boşluk kapatıldı, HINT-OKYANUSU 28 Ekim 2026) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"12 Rebîülâhir 548 (7 Temmuz 1153) tarihinde müslüman olmuş ve Muhammed el-Âdil (Siri Bavanaditta Maha Radun) adını almıştır\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 965-981 (1558-1573) yılları arasında Portekiz işgali altında kaldı\" | BEYANLI YAKLAŞIKLIK: TDV adalar için söyler, Malé'ye özgü değil; 1752-53 Malabarlı saldırısı Malé sarayını yıktı ama Maldivliler Fransız yardımıyla geri attı (TDV)."
    },
    {
     "f": "1558-01-01",
@@ -1179,9 +1186,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1573-05-03",
     "t": "1968-11-11",
-    "d": "__BOSLUK__",
+    "d": "maldivler-sultanligi",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip maldivler-sultanligi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"maldivler-sultanligi\" geri yazılır) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"981’de (1573) Portekizliler adalardan çıkarıldı ve Muhammed Takurufânu sultan ilân edildi\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 1887’de İngiltere’nin himayesini resmen kabul etti\" | t=1968-11-11: atlas `maldivler-sultanligi` künye t'si (TDV: 1968 referandumla cumhuriyet yeniden ilân edildi, ay-gün yok). BEYANLI YAKLAŞIKLIK: 1887-1965 İngiliz himayesi, 1953-54 kısa cumhuriyet, 1965 bağımsızlık TDV'de anılır; tek `maldivler-sultanligi` kimliğiyle sürdürüldü (künye 'İngiliz himayesi 1887-1965')."
+    "kaynak": "SAHİP maldivler-sultanligi (BOYALAR'a girdi; boşluk kapatıldı, HINT-OKYANUSU 28 Ekim 2026) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"981’de (1573) Portekizliler adalardan çıkarıldı ve Muhammed Takurufânu sultan ilân edildi\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 1887’de İngiltere’nin himayesini resmen kabul etti\" | t=1968-11-11: atlas `maldivler-sultanligi` künye t'si (TDV: 1968 referandumla cumhuriyet yeniden ilân edildi, ay-gün yok). BEYANLI YAKLAŞIKLIK: 1887-1965 İngiliz himayesi, 1953-54 kısa cumhuriyet, 1965 bağımsızlık TDV'de anılır; tek `maldivler-sultanligi` kimliğiyle sürdürüldü (künye 'İngiliz himayesi 1887-1965')."
    },
    {
     "f": "1968-11-11",
@@ -1330,9 +1337,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1574-09-12",
     "t": "1881-05-12",
-    "d": "__BOSLUK__",
+    "d": "tunus-ocagi",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip tunus-ocagi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-ocagi\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «Koca Sinan Paşa ve Kaptanıderyâ Kılıç Ali Paşa kumandasındaki donanma altı günlük bir muhasaranın ardından 12 Eylül 1574’te Tunus’u geri aldı»; TDV İslâm Ansiklopedisi «Hafsîler», https://islamansiklopedisi.org.tr/hafsiler: «Hafsîler’in son temsilcisi Mevlây Muhammed İstanbul’a götürüldü ve Tunus’a Osmanlı Devleti’ne bağlı bir eyalet statüsü verildi (1574)» | ABİ MERKEZ: Tunus ‖ ic not: ÇELİŞKİ: atlas künyesi tunus-ocagi f=1574-09-13 ↔ TDV «Tunus» 12 Eylül 1574 (1 gün); TDV esas. TDV aynı maddede Halkulvâdî’nin alınışını 6 Cemâziyelevvel 982 (24 Ağustos 1574) verir."
+    "kaynak": "[DENETIM-MAGRIB 28 Ekim 2026: sahip künyesi BOYALAR'a eklendi ⇒ eski BOŞLUK BEYANI 'tunus-ocagi' geri yazıldı] BOŞLUK BEYANI: sahip tunus-ocagi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-ocagi\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «Koca Sinan Paşa ve Kaptanıderyâ Kılıç Ali Paşa kumandasındaki donanma altı günlük bir muhasaranın ardından 12 Eylül 1574’te Tunus’u geri aldı»; TDV İslâm Ansiklopedisi «Hafsîler», https://islamansiklopedisi.org.tr/hafsiler: «Hafsîler’in son temsilcisi Mevlây Muhammed İstanbul’a götürüldü ve Tunus’a Osmanlı Devleti’ne bağlı bir eyalet statüsü verildi (1574)» | ABİ MERKEZ: Tunus ‖ ic not: ÇELİŞKİ: atlas künyesi tunus-ocagi f=1574-09-13 ↔ TDV «Tunus» 12 Eylül 1574 (1 gün); TDV esas. TDV aynı maddede Halkulvâdî’nin alınışını 6 Cemâziyelevvel 982 (24 Ağustos 1574) verir."
    },
    {
     "f": "1881-05-12",
@@ -1343,17 +1350,17 @@ window.YERLESIMLER_DOGU_500_1281 = [
    },
    {
     "f": "1956-03-20",
-    "t": "1957-07-27",
-    "d": "__BOSLUK__",
+    "t": "1957-07-25",
+    "d": "tunus-krallik",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip tunus-krallik (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-krallik\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «20 Mart 1956’da Tunus bağımsızlığına kavuşurken Hüseynî ailesinden Emîn Bey on dokuzuncu bey sıfatıyla … 27 Temmuz 1957 tarihine kadar Tunus kralı oldu»"
+    "kaynak": "[DENETIM-MAGRIB 28 Ekim 2026: sahip künyesi BOYALAR'a eklendi ⇒ eski BOŞLUK BEYANI 'tunus-krallik' geri yazıldı · TDV Tunus 27 Temmuz 1957 der, künye tunus-krallik t=1957-07-25 (kapitalis/Kurucu Meclis); künye ömrü aşılmasın diye dönem t 1957-07-25'e çekildi, çelişki Emre'ye sorulur] BOŞLUK BEYANI: sahip tunus-krallik (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-krallik\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «20 Mart 1956’da Tunus bağımsızlığına kavuşurken Hüseynî ailesinden Emîn Bey on dokuzuncu bey sıfatıyla … 27 Temmuz 1957 tarihine kadar Tunus kralı oldu»"
    },
    {
-    "f": "1957-07-27",
+    "f": "1957-07-25",
     "t": "2000-12-31",
-    "d": "__BOSLUK__",
+    "d": "tunus",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip tunus (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «27 Temmuz 1957 tarihine kadar Tunus kralı oldu. Bu tarihte Tunus Cumhuriyeti ilân edildi; Hüseynî ailesinin saltanatı sona erip … Habîb Burgiba ilk devlet başkanı olarak bütün yetkileri eline aldı» ‖ ic not: ÇELİŞKİ: ham dosyada 25 Temmuz 1957 (kaynaksız, açılmamıştı) ↔ TDV 27 Temmuz 1957; TDV esas."
+    "kaynak": "[DENETIM-MAGRIB 28 Ekim 2026: sahip künyesi BOYALAR'a eklendi ⇒ eski BOŞLUK BEYANI 'tunus' geri yazıldı · TDV 27 Temmuz 1957 ↔ künye tunus f=1957-07-25; dönem f 1957-07-25'e çekildi (künye ile bitişik), çelişki Emre'ye sorulur] BOŞLUK BEYANI: sahip tunus (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «27 Temmuz 1957 tarihine kadar Tunus kralı oldu. Bu tarihte Tunus Cumhuriyeti ilân edildi; Hüseynî ailesinin saltanatı sona erip … Habîb Burgiba ilk devlet başkanı olarak bütün yetkileri eline aldı» ‖ ic not: ÇELİŞKİ: ham dosyada 25 Temmuz 1957 (kaynaksız, açılmamıştı) ↔ TDV 27 Temmuz 1957; TDV esas."
    }
   ],
   "not": "Yeni kayıt: Kartaca atlasta yoktu (yer_ara ad + 3 km: 0 eşleşme; en yakın Halkulvâdî 4.2 km). Zincir 0500-01-01 UFUK işaretiyle başlar (kur yazılmadı: kuruluş kaynaklı doğrulanmadı). 0698 sonrası zincir kuyruk işçisine bırakıldı.",

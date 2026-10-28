@@ -232,7 +232,7 @@ window.YER_YAMA_CIN = [
  },
  {
   "dosya": "kronoloji_cin.js",
-  "t": "1689-09-07",
+  "t": "1689-09-06",
   "b": "Nerçinsk Antlaşması — Rusya ile sınır çizildi",
   "yer_id": "Nerçinsk",
   "kaynak": "yerleşim havuzunda ad eşleşmesiyle doğrulandı (arac/girdi.py)"

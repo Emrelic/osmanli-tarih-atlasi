@@ -1828,7 +1828,7 @@ window.OLAYLAR_EK12 = [
 { t:"1537-01-01", k:"vassal", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi"],
   b:"Barbaros'un Ege adaları seferi — Nakşa Dükalığı Osmanlı kontrolüne girdi",
   gun:"944-945 (1537-1538)", ic_not_gun:"Kaynak yalnız hicrî yıl aralığı veriyor; tarih alanı YIL düzeyindedir (§4), ay-gün yok.",
-  yer:"Nakşa (Naxos), Paros ve çevre adalar", yer_id:"Nakşa", kisiler:"Barbaros Hayreddin Paşa",
+  yer:"Nakşa (Naxos), Paros, Değirmenlik (Milos), Kimolos, Sire (Syros), Nio (İos), Santorini ve çevre adalar", yer_id:"Nakşa", kisiler:"Barbaros Hayreddin Paşa",
   d:"1207'den beri Venedik vesâyetinde Latin dükleri tarafından yönetilen Nakşa Dükalığı, Barbaros Hayreddin Paşa'nın adalar seferiyle Osmanlı kontrolü altına girdi. Adanın statüsüne dokunulmadı; dükalık Osmanlı'ya tâbi olarak sürdü ve 1540 Osmanlı-Venedik antlaşmasıyla hâkimiyet hakkı resmen Osmanlılar'a devredildi.",
   kaynak:"TDV naksa AYNEN: 'Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa'nın adalar seferiyle Osmanlı kontrolü altına girdi.' · '1540'taki Osmanlı-Venedik antlaşmasıyla hâkimiyet hakkı resmen Osmanlılar'a devredildi.' · 'Ancak adanın statüsüne dokunulmadı ve düklük Yasef Nasi'ye verildi (974/1566).'" },
 

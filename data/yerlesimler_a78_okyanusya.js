@@ -23,12 +23,12 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Merauke", tur:"liman", lat:-8.4932, lon:140.4018, g:1, k:1,
   kur:"1902-02-12",
   kaynak:"J. Kroesen raporu 'Merauke, den 25sten Februari 1902', yeniden basım: A. Overweel, Irian Jaya Source Materials No. 13 (Leiden, 1995), papuaerfgoed.org/sites/default/files/collectie/files/2004-10/Overweel_1995_Topics_13.pdf — gemi 11 Şubat'ta Merauke nehri ağzına demirledi, \"waarbinnen het schip tegen den middag van den volgenden dag … geloodst werd\" (ertesi gün öğlene doğru kurulacak yere çekildi); kışlalara 13'ünde girildi. ⚠️ 12 Şubat kuruluş seferinin YERE VARDIĞI gündür; rapor ayrı bir resmî kuruluş günü vermiyor.",
-  s:[{f:"1902-02-12",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
+  s:[{f:"1902-02-12",t:"1942-03-09",d:"hollanda-dogu-hint"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 { ad:"Fakfak", tur:"liman", lat:-2.9261, lon:132.2961, g:1, k:1,
   kur:"1898-12-01",
   kaynak:"J. Kroesen raporu 'Fakfak, 9 Januari 1899', Overweel 1995 (Irian Jaya Source Materials No. 13): \"Inmiddels werd door den Resident het Bestuur dezer Afdeeling op den 1sten December te Fakfak geïnstalleerd en de Nederlandsche vlag geheschen.\" (1898) — resmî idare kuruluş günü.",
-  s:[{f:"1898-12-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
+  s:[{f:"1898-12-01",t:"1942-03-09",d:"hollanda-dogu-hint"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // --------------------------------------------------------------------
 // YENİ GİNE — Papua (İngiliz Yeni Ginesi → Avustralya 1906-09-01)
@@ -158,13 +158,13 @@ window.YERLESIMLER_A78_OKYANUSYA = [
   kasitli_bosluk:true, bos:"kabile",
   neden:"1795 birleşmesi öncesi: moku/aliʻi sistemi — emsal ve kaynak atlasın 'Hawaii Adaları (Birleşme Öncesi)' kaydı (yerlesimler_ek30.js).",
   kaynak:"Britannica 'Kamehameha I': \"by 1795 had brought all the islands but Kauai and Niihau under his control\" (künye `hawaii-kralligi` f:1795-01-01). ABD: US Office of the Historian (history.state.gov): \"formal U.S. annexation of Hawaii on August 12, 1898\" — atlasın Honolulu kırılmasıyla aynı gün. ⚠️ KÜNYE BOŞLUĞU: 1893-01-17 Geçici Hükümet ve 1894-07-04 Hawaii Cumhuriyeti için atlasta kimlik yok (Hawaii Devlet Arşivi); `hawaii-kralligi` 1893-1898'i de kaplıyor — künye işi, bu kayıt künyeyi izler.",
-  s:[{f:"1795-01-01",t:"1898-08-12",d:"hawaii-kralligi"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
+  s:[{f:"1795-01-01",t:"1893-01-17",d:"hawaii-kralligi"},{f:"1893-01-17",t:"1898-08-12",d:"hawaii-cumhuriyeti",kaynak:"Public Law 103-150 (Apology Resolution), 107 Stat. 1510, govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf (17 Ocak 1893 Geçici Hükümet; 4 Temmuz 1894 Hawaii Cumhuriyeti; 7 Temmuz 1898 Newlands kararı); ABD Dışişleri Tarihçi Ofisi history.state.gov/countries/hawaii (12 Ağustos 1898 resmî ilhak)"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
 
 { ad:"Lahaina", tur:"liman", lat:20.8739, lon:-156.6777, g:1, k:1,
   kasitli_bosluk:true, bos:"kabile",
   neden:"1795 birleşmesi öncesi: moku/aliʻi sistemi — emsal ve kaynak atlasın 'Hawaii Adaları (Birleşme Öncesi)' kaydı (yerlesimler_ek30.js).",
   kaynak:"Britannica 'Kamehameha I': \"by 1795 had brought all the islands but Kauai and Niihau under his control\" (Maui dahil). ABD: US Office of the Historian: \"formal U.S. annexation of Hawaii on August 12, 1898\". ⚠️ 1893-1898 künye boşluğu Hilo kaydında yazılı.",
-  s:[{f:"1795-01-01",t:"1898-08-12",d:"hawaii-kralligi"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
+  s:[{f:"1795-01-01",t:"1893-01-17",d:"hawaii-kralligi"},{f:"1893-01-17",t:"1898-08-12",d:"hawaii-cumhuriyeti",kaynak:"Public Law 103-150 (Apology Resolution), 107 Stat. 1510, govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf (17 Ocak 1893 Geçici Hükümet; 4 Temmuz 1894 Hawaii Cumhuriyeti; 7 Temmuz 1898 Newlands kararı); ABD Dışişleri Tarihçi Ofisi history.state.gov/countries/hawaii (12 Ağustos 1898 resmî ilhak)"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
 
 // --------------------------------------------------------------------
 // YENİ ZELANDA — emsal Auckland (yerlesimler_ek30.js): s yeni-zelanda kur'dan
