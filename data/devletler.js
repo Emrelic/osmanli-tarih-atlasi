@@ -1893,7 +1893,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"hicaz-kralligi", ad:"Hicaz Krallığı (Şerif Hüseyin)", tur:"krallik", bolge:"arabistan",
-  f:"1916-06-10", t:"1925-12-31", ic_not_t:"ÜST SINIR, gün değil: BRIT Hussein-ibn-Ali 'Ali succeeded his father in 1924 as second king of the Hejaz, but he abdicated the following year' — yalnız YIL (1925); t yılın son günü seçildi ki künye gerçek bitişten ÖNCE kesilmesin (hayalet riski). TDV hicaz 1925-26'yı içermiyor", baskent:"Mekke", harita:"hicaz",
+  f:"1916-06-10", ic_not_f:"ÇELİŞKİ (beyan): 10 Haziran 1916 isyanın ilk günü (standart literatür, ikinci bağımsız akademik kaynak aranacak); TDV 'serif-huseyin': isyan Haziran 1916, bildiri 27 Haziran, Cidde 16 Haziran düştü. Haritadaki Cidde 1916-06-16 ile TDV uyumlu. Tarih değiştirilmedi.", t:"1925-12-31", ic_not_t:"ÜST SINIR, gün değil: BRIT Hussein-ibn-Ali 'Ali succeeded his father in 1924 as second king of the Hejaz, but he abdicated the following year' — yalnız YIL (1925); t yılın son günü seçildi ki künye gerçek bitişten ÖNCE kesilmesin (hayalet riski). TDV hicaz 1925-26'yı içermiyor", baskent:"Mekke", harita:"hicaz",
   ozet:"Şerîf Hüseyin 10 Haziran 1916'da isyanı başlattı ve Hicaz'da fiilî hâkimiyet o gün el değiştirdi; \"Hicaz Kralı\" unvanı Kasım 1916'da ilân edildi. Künye fiilî hâkimiyeti ölçer, unvanı değil. 1925'te (site ufkunun dışında) Suûdîlerce yıkıldı. (1925'te II. kral Ali'nin tahttan çekilmesiyle sona erdi — BRIT; toprağı [[suud-ucuncu]]ya geçti.)",
   kaynak:"serif-huseyin",
   kronoloji:[
@@ -2768,12 +2768,13 @@ window.DEVLETLER = [
 },
 
 { id:"nebhani", ad:"Nebhânîler (Uman)", tur:"devlet", bolge:"arabistan",
-  f:"1281-01-01", t:"1515-04-01", baskent:"Bahlâ", harita:"nebhani",
+  f:"1281-01-01", t:"1624-01-01", ic_not_t:"t: 1515-04-01 → 1624-01-01 (aynı polity sürüyor → künye GENİŞLETİLDİ). Portekiz 1507-1515'te SAHİL şehirlerini aldı (TDV uman); iç Umman Nebhânî meliklerindeydi ve Ya'rubî Nâsır b. Mürşid 1624'te devraldı (nebhani-umman künyesi, Brill/EI). Sahil yerleşimlerinin portekiz dönemleri kendi kayıtlarında. TDV uman 1230-1507 için Salgurlu der, iç Umman 1515-1624'ü vermez.", baskent:"Bahlâ", harita:"nebhani",
   ozet:"Portekiz işgalinden önce Uman'da ve körfezin güney kıyısında (Cülfâr, Şârika) hüküm süren hânedan. ⚠️ Atlastaki 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır; Cülfâr limanının Hürmüz Krallığı'na tâbiiyeti literatürde geçer ama TDV'de ayrı madde bulunmadığı için henüz ayrılmamıştır. (kaynak: TDV, madde: uman) 🔴 10 Ağustos 2026 — KARAR: (a) TARİHE DOKUNMA (koordinatörle mutabık). Çelişki KARAR VERİLEBİLİR hâle getirildi, üç unsur: ① bizim aralık 1281-1515 (veride 21 nokta) ② TDV `uman` maddesi 1230'dan (627 AH, Benî Kayser'in yıkılışı) Portekiz işgaline kadar 'SALGURLULAR' yönetti diyor ③ Brill/standart akademik kaynak Nebhânî hâkimiyetini ~1154-1624 olarak veriyor — bu bizim aralığımızla UYUMLU, TDV'nin 'Salgurlu' iddiasıyla değil. ⇒ AÇIK SORU (künye ancak bu ayrılınca değiştirilir): TDV'deki 'Salgurlular' standart Fars hânedanı mı (1148-1282, Şîraz — aynı adı taşıyan AYRI ve İYİ BİLİNEN bir hânedan) yoksa Uman'a özgü yerel bir kol/nominal metbûluk mu? Ayrılmadan 21 nokta taşınmaz — bir hayaleti kapatıp daha büyüğünü açma riski var (bkz. celayirli/toga-timur emsali).",
   kaynak:"uman",
   kronoloji:[
     { odak_yer:["Bahlâ"], t:"1507-01-01", tur:"isgal", b:"Portekizliler Uman sahil şehirlerini ele geçirmeye başladı; Memlük Sultanı Kansu Gavri'nin gönderdiği donanma bu ilerleyişi durduramadı", ic_not_b:"eski b: Portekizliler Uman sahil şehirlerini ele geçirmeye başladı; Memlük Sultanı Kansu Gavri'nin gönderdiği donanma bu ilerleyişi durduramadı (TDV uman maddesi)", kaynak:"TDV: uman — «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»" },
-    { odak_yer:["Bahlâ"], t:"1515-04-01", tur:"son", b:"Portekiz, 1507'den itibaren aldığı Uman sahilinde hâkimiyeti tamamladı" }
+    { odak_yer:["Bahlâ"], t:"1515-04-01", tur:"toprak-kayip", b:"Portekiz, 1507'den itibaren aldığı Uman sahilinde hâkimiyeti tamamladı (iç Umman Nebhânîlerde kaldı)" },
+    { odak_yer:["Nizva"], t:"1624-01-01", tur:"son", b:"Ya'rubî imam Nâsır b. Mürşid iç Umman'da iktidarı aldı; Nebhânî melikleri dönemi sona erdi", kaynak:"TDV uman (Nâsır b. Mürşid) · nebhani-umman künyesi" }
   ]
 },
 
