@@ -627,6 +627,7 @@ window.YERLESIMLER_E9353F = [
 //   §2 gereği bölgeyi uzaktaki bir komşuya emdirir.
 { ad:"Mapungubwe", tur:"sehir", lat:-22.194, lon:29.389, g:0, k:3,
   kur:"0900-01-01", bit:"1300-01-01",
+  kaynak:"UNESCO Dünya Mirası «Mapungubwe Cultural Landscape» (whc.unesco.org/en/list/1099): krallık MS 900-1300 (yüzyıl hassasiyeti); TDV zimbabve maddesi Mapungubwe'yi anmıyor.",
   s:[{f:"0900-01-01", t:"1300-01-01", d:"mapungubwe", kesinlik:"yuzyil", kaynak:"UNESCO Dünya Mirası «Mapungubwe Cultural Landscape» (whc.unesco.org/en/list/1099), mapungubwe künyesi kaynağı: krallık MS 900-1300; 14. yy’da terk. TDV’de madde yok. 2. tur 29 Ekim 2026 — boşluk merdiveni ②. Pencere gün değil yüzyıl hassasiyetindedir; 1300 sonrası nokta kalkar (bit), toprak komşu peteklere kalır — Venda (Dzata 1700) ile bağ KANITLANMADI"}], d:[], v:[],
   neden:"[eski not] veri-yok — arandi, YOK. TDV zimbabve maddesinin govdesi okundu ve Mapungubwe'yi HIC anmiyor (Nyanga ve Gokomere yerlesimlerini sayiyor, bunu saymiyor); baska bir TDV maddesi de bulunamadi. Devletsiz OLDUGU soylenmiyor, hic soz edilmiyor. 'Aramadim' DEGIL, 'aradim ve yok' - bu bir SONUCTUR. UYARI: PENCERE DISINDA (lat -22,194)." },
 
