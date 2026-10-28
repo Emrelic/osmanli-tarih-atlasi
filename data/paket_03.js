@@ -265,10 +265,11 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Candaroğulları maddesine göre beylik, İlhanlı Hükümdarı Geyhatu'nun Eflani ve çevresini kendisine iktâ olarak verdiği Şemseddin Yaman Candar tarafından XIV. yüzyıl başında Kastamonu-Sinop çevresinde kuruldu; kaynakların yetersizliği yüzünden kuruluşun tam tarihi bilinmemektedir. Candar'ın halefi Süleyman Bey, Çobanoğulları Beyliği'nin yerini alan bir hükümdar olarak anılır — yani Kastamonu ve Çankırı çevresi Çobanoğulları'ndan, Bartın-Safranbolu-Eflani hattı ise İlhanlı doğrudan idaresinden Candaroğulları'na geçmiştir.", ic_not_d:"⚠️ Gün/ay bilinmiyor; 1309-01-01 yıl beyanıdır.",
   kaynak:"candarogullari", duygu:["👑"] },
 
+{ t:"1315-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"], b:"İstanköy'ün (Kos) Saint Jean şövalyelerince alınması", gun:"1315", ic_not_gun:"1315 (TDV yalnız yılı veriyor; gün bilinmiyor)", yer:"İstanköy (Kos)", yer_id:"İstanköy", kisiler:"", d:"TDV'nin İstanköy maddesine göre Saint Jean şövalyeleri Rodos'a yerleştikten sonra İstanköy'ü de alarak (1315) yeni kaleler yaptı. Ada böylece 1523'e kadar süren şövalye hâkimiyetine girdi; 1310'daki Rodos şehri düşüşünden sonra Kos'un hangi yönetimde olduğu TDV'de ayrıntılandırılmamıştır.", kaynak:"istankoy", duygu:["🏰"] },
 { t:"1310-08-15", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyelerince fethi",
   gun:"15 Ağustos 1310",
-  yer:"Rodos, İstanköy, Sömbeki (Simi), Lindos, Herke (Halki), Kelemez (Kalimnos), İleryoz (Leros), İlyaki (Tilos), İncirli (Nisiros)",
+  yer:"Rodos, Sömbeki (Simi), Lindos, Herke (Halki), Kelemez (Kalimnos), İleryoz (Leros), İlyaki (Tilos), İncirli (Nisiros)",
   yer_id:"Rodos", kisiler:"Foulques de Villaret",
   d:"TDV'nin Rodos maddesi adanın 1309'da St. Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçtiğini kaydeder; standart Hospitalier tarihi (bk. J. Riley-Smith, The Knights Hospitaller) kuşatmanın 1306 yazında başladığını, Bizans takviyeleriyle uzun süre direnen Rodos şehrinin ise Grand Master Foulques de Villaret'nin kuvvetlerince ancak 15 Ağustos 1310'da düştüğünü ayrıntılandırır. Ada bu tarihten 1522'de Osmanlı fethine kadar şövalyelerin merkezi olacak, çevresindeki Oniki Ada da aynı süreçte Bizans'tan Hospitalier hâkimiyetine geçmiştir.", ic_not_d:"⚠️ TDV yıl (1309) verir; günü akademik kaynağa dayanır.",
   kaynak:"rodos", duygu:["⚔️","🏰"] },
