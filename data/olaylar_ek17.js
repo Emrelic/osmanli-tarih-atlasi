@@ -227,6 +227,22 @@ window.OLAYLAR_EK17 = [
   d:"Semendire'nin Ağustos 1738'de geri alınmasıyla Semendire ile Osmanlı ana gövdesi arasında kalan Morava vadisi de Osmanlı idaresine döndü: Yagodina, Kragujevac ve Çaçak bu tarihten itibaren Osmanlı sayılır. Kaynaklar bu üç yerin dönüşünü ayrıca günleyip anmaz; harita Semendire'nin günüyle çalışır. Belgrad Antlaşması (1739-09-18) bu durumu tescil etti.",
   kaynak:"semendire", duygu:["🎉"] },
 
+{ t:"1800-03-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+  b:"Yedi Ada Cumhuriyeti kuruldu — Rus-Osmanlı himayesinde İyon adaları",
+  gun:"21 Mart 1800",
+  yer:"Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), İthaki, Çuha Adası (Kythira), Paksos", yer_id:"Korfu",
+  kisiler:"III. Selim, I. Pavel",
+  d:"1799'da Rus-Osmanlı müşterek donanması Fransızları İyon adalarından çıkarmış (Korfu kalesi 5 Mart 1799'da düştü); 21 Mart 1800 tarihli on iki maddelik sözleşmeyle adalar, iç işlerinde özerk, dış işlerde Osmanlı'ya bağlı Cezâyir-i Seb'a-i Müctemia Cumhuru (Yedi Ada Cumhuriyeti) olarak kuruldu. 1799-03-05 ile bu gün arası müşterek işgal dönemidir.", ic_not_d:"TDV korfu kuruluşu 'Korfu Antlaşması, 3 Nisan 1800' diye anar; TDV yedi-ada-cumhuriyeti 21 Mart 1800 (on iki maddelik sözleşme). Konuyu kapsayan madde yedi-ada olduğundan 21 Mart esas; çelişki iki kaynağıyla beyan edilir.",
+  kaynak:"yedi-ada-cumhuriyeti", duygu:["🏴"] },
+
+{ t:"1807-07-07", k:"antlasma", etiket:["antlasma","toprak-kayip","konu-diplomasi"],
+  b:"Tilsit — Yedi Ada Cumhuriyeti'nin üzerindeki Rus hakları Fransa'ya devredildi",
+  gun:"7 Temmuz 1807 (TDV: 9 Temmuz 1807)",
+  yer:"Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), İthaki, Çuha Adası (Kythira), Paksos", yer_id:"Korfu",
+  kisiler:"Napolyon Bonapart, I. Aleksandr",
+  d:"Tilsit'te Rusya ile Fransa arasında varılan anlaşmayla Rusya, Yedi Ada üzerindeki haklarını Fransa'ya bıraktı; Fransız birlikleri 1807 yazında adalara yerleşti ve Yedi Ada Cumhuriyeti ortadan kalktı.", ic_not_d:"Gün çelişkisi: atlas künyesi (septinsular t) 7 Temmuz; TDV yedi-ada-cumhuriyeti '9 Temmuz 1807 tarihinde Rusya ile Fransa arasında Tilsitt Antlaşması imzalandığında' der. Dönem ucu künye ucuyla eş (07-07) bırakıldı; ③ D3'te TDV'ye çekme önerilir. Fiilî Fransız inişi 1807 Ağustos (ikincil kaynak; okunmadı).",
+  kaynak:"yedi-ada-cumhuriyeti", duygu:["⚔️","😔"] },
+
 { t:"1815-11-05", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
   gun:"5 Kasım 1815",
