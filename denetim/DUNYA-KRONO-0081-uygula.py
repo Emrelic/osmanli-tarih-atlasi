@@ -124,13 +124,7 @@ print("H-0006 · Oran")
 degistir("data/olaylar_ek16.js", ORAN_ESKI_GUN, ORAN_YENI_GUN, "gun")
 araya("data/olaylar_ek16.js", ORAN_ESKI_D_BAS, ORAN_ESKI_D_SON, ORAN_YENI_D, "d")
 degistir("data/olaylar_ek16.js", ORAN_ESKI_K, ORAN_YENI_K, "kaynak")
-print("H-0007 · Hint Okyanusu kartı")
-if os.path.exists(os.path.join(KOK, KART_HEDEF)):
-    print(f"  ✗ {KART_HEDEF} ZATEN VAR — üstüne yazılmaz"); hata += 1
-else:
-    print(f"  ✓ {KART_HEDEF} yok, oluşturulacak")
-    degisim[KART_HEDEF] = oku(KART_KAYNAK)
-degistir("js/app.js", YUKLEYICI_CAPA, YUKLEYICI_CAPA + YUKLEYICI_SATIR, "yükleyici satırı")
+# H-0007: kart data/ekokuma_dunya.js:592 olarak ZATEN CANLI (12 Eki 2026 ölçümü) — uygulayıcı kolu kaldırıldı
 
 print()
 if hata:

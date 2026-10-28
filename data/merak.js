@@ -203,7 +203,7 @@ window.MERAK = [
     { tez:"Sınırlı hedefe göre BAŞARILIYDI",
       dayanak:"Portekiz Kızıldeniz'e yerleşemedi: 1513 Aden ve 1517 Cidde teşebbüsleri püskürtüldü. Ölçüt 'Hindistan'a hâkim olmak' ise rekabet kaybedilmiş, 'Kızıldeniz'i kapatmak' ise kazanılmıştır." }
   ],
-  baglanti:["1516-08-02","1517-04-18","1538-06-13","1546-01-01","1559-01-01|Bahreyn"],
+  baglanti:["1516-08-02","1517-04-18","1538-06-13","1545-12-26|Basra","1559-01-01|Bahreyn"],
   kesinlik:"tartismali",
   kaynak:"TDV: HİNT DENİZİ SEFERLERİ · Ertuğrul Önalp (OTAM) · Diogo do Couto, Da Ásia" },
 
@@ -220,7 +220,7 @@ window.MERAK = [
     { tez:"\"Hep başarısız\" ölçütü de tartışmalı",
       dayanak:"1444 baskısı savaş meydanında değil MASADA sonuç vermişti: Edirne-Segedin Antlaşması (12 Haziran 1444) ve ardından Semendire'nin fiilen Sırbistan'a iadesi (Ağustos 1444) Haçlı tarafının kazancıydı. TDV bu metnin \"gerçek anlamda bir barış mı yoksa geçici bir ateşkes mi olduğu\"nun tartışmalı olduğunu, Kardinal Cesarini ve Bizans imparatorunun devreye girmesiyle hükümsüz kaldığını yazar. ⇒ Sorun her zaman kazanamamak değil, kazanılanı korumamaktı." }
   ],
-  baglanti:["1396-09-25","1444-06-12","1444-08-01|Semendire","1444-11-10"],
+  baglanti:["1396-09-25","1444-06-12","1444-08-15|Semendire","1444-11-10"],
   kesinlik:"tartismali",
   kaynak:"TDV: HAÇLILAR · NİĞBOLU SAVAŞI · VARNA MUHAREBESİ" },
 
@@ -235,7 +235,7 @@ window.MERAK = [
     { tez:"Zincir fikrinin kendi sicili zayıf — ve Osmanlı'nın cevabı zincir değil TOP oldu",
       dayanak:"Zincir ancak İKİ UCU DA tutuluyorsa engeldir: Haliç zincirinin bir ucu Sirkeci'de Kentenarios burcuna, öteki ucu Karaköy'de Kastellion hisarına bağlıydı — ve 1203'te Batılı şövalyeler Kastellion'u ele geçirerek zinciri açmışlardı. 1453'te de zincir kırılmadı, 21 Nisan gecesi gemilerin Galata sırtlarından indirilmesiyle \"fonksiyonunu kaybetti\". Osmanlı aynı işi kalelere yerleştirdiği toplarla çözdü. Osmanlı'nın boğazlara zincir germeyi düşünüp düşünmediğine dair bir kayıt bilinmiyor; bu görüş bir belgeye değil, zincirin geçmişteki sicilinden çıkan bir yoruma dayanır.", ic_not_dayanak:"eski: ⚠️ … bir kayıt taranan TDV maddelerinde BULUNAMADI; bu görüş bir kayıt değil, zincirin ölçülmüş siciline dayanan bir çıkarımdır." }
   ],
-  baglanti:["1354-03-02","1366-08-01","1376-09-01","1395-08-01","1452-01-01|Kilitbahir","1452-08-31","1453-04-06","1453-04-22","1453-05-29"],
+  baglanti:["1354-03-02","1366-08-01","1376-09-01","1395-08-01","1463-01-01|Kilitbahir","1452-08-31","1453-04-06","1453-04-22","1453-05-29"],
   kesinlik:"tartismali",
   kaynak:"TDV: ÇANAKKALE · KİLİTBAHİR KALESİ · GELİBOLU · ANADOLUHİSARI · RUMELİHİSARI · HALİÇ · İSTANBUL" },
 
@@ -278,7 +278,7 @@ window.MERAK = [
     { tez:"Ama tek tip bir \"bağlanma\" yok — Mûsâ'nınki esaretti",
       dayanak:"Mûsâ Çelebi Ankara'da babasıyla birlikte esir düştü. Yıldırım Bayezid'in ölümünden sonra Timur onu serbest bıraktı, Bursa ve çevresinin emirliğini verdi, babasının naaşını Akşehir'den Bursa'ya götürmesini istedi ve ardından Germiyanoğlu Yâkub Bey'in yanına gönderdi. Aynı Timur birine belge, birine emirlik, birine de gözetim verdi. Zaten savaş öncesi 13 Mart 1402'de Bayezid'den istedikleri arasında da \"şehzadelerden birinin kendi yanına gönderilip bağımlılık alâmeti olarak vereceği külâh ve kemerin kabul edilmesi\" vardı — yani rehin şehzâde fikri savaştan önce de masadaydı." },
     { tez:"Ölçüt sorunu: bunu Ankara Savaşı maddesi HİÇ anlatmıyor",
-      dayanak:"TDV'nin Ankara Savaşı maddesi sonucu iki cümleyle özetler — \"bütün Anadolu Timur'a mensub emîrler tarafından istilâ edildi\" ve \"Anadolu'da uzun mücadeleler sonunda kurulmuş olan Türk birliği bozulmuş\" — şehzâdelerin tâbiiyetinden, yarlıgdan ya da Mûsâ'nın durumundan söz etmez. Bu bilgi ancak şehzâdelerin kendi biyografilerinde bulunuyor. ⇒ Soru tek bir kaynağa sorulduğunda cevapsız kalıyor; dört biyografi yan yana konduğunda ise ortaya bir zorlamadan çok bir MEŞRUİYET PAZARI çıkıyor." }
+      dayanak:"TDV'nin Ankara Savaşı maddesi sonucu iki cümleyle özetler — \"bütün Anadolu Timur’a mensup emîrler tarafından istilâ edildi\" ve \"Anadolu'da uzun mücadeleler sonunda kurulmuş olan Türk birliği bozulmuş\" — şehzâdelerin tâbiiyetinden, yarlıgdan ya da Mûsâ'nın durumundan söz etmez. Bu bilgi ancak şehzâdelerin kendi biyografilerinde bulunuyor. ⇒ Soru tek bir kaynağa sorulduğunda cevapsız kalıyor; dört biyografi yan yana konduğunda ise ortaya bir zorlamadan çok bir MEŞRUİYET PAZARI çıkıyor." }
   ],
   baglanti:["1402-03-13","1402-07-28","1402-08-01|Şehzade","1402-08-20","1402-12-14","1402-12-20","1403-03-09"],
   kesinlik:"tartismali",

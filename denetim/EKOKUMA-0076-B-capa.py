@@ -20,7 +20,7 @@ import os
 import re
 import sys
 
-KOK = r"C:\atlas\data"
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 
 def norm(s):

@@ -86,7 +86,7 @@ window.YERLESIMLER_EK31 = [
      {f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},
      {f:"1598-08-20",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+     {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[], v:[] },
 
 // KIZIL-TURA — TDV'nin saydığı ikinci şehir.
@@ -101,7 +101,7 @@ window.YERLESIMLER_EK31 = [
      {f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},
      {f:"1598-08-20",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+     {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[], v:[] },
 
 // ═════════ 1281 KESİTİ — YAKUTİSTAN ve KAMÇATKA ═════════

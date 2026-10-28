@@ -1,16 +1,25 @@
 {
- "bekci_yasak": false,
+ "bekci_yasak": true,
  "kod": "KOSU",
- "ilan": "2026-09-30 15:28",
+ "ilan": "2026-10-10 00:59",
  "ilan_eden": "YILDIRIM BAYEZIT",
- "olcum": "",
- "gerekce": "Petek koşusu sürüyor; makine koşuya ayrıldı.",
+ "olcum": "KOSU 22 kosuyor: taban e54e60df, baslangic 00:57:28, ufuk 1000-1945, tuz fcfc307db9e8, 2 isci.",
+ "gerekce": "GUNCELLEME. Taban 7 Ekim 01:31 ilani (Emre haftalik limit %94 - token). Yasak AYNEN duruyor, KALDIRILMADI. Bu cagrinin sebebi: ZAMAN-PAKET-v2 uret_petek.py ve girdi.py'yi degistirdi, commitli KOSU-KAPI.json ESKI motoru gosteriyordu (HAVVA olctu). Damga tazelendi; motor onu okumuyor ama IZ yanlis kalmasin. Muaf listesi 5'ten 8'e: dort makine koordinatoru da eklendi.",
  "muaf": [
+  "HARITA-DIL-OLCUM-1009",
+  "D8-ONCE-OLCUM-1009",
+  "DENETIM-OLU-ETIKET-1009",
+  "HAVVA",
   "YILDIRIM BAYEZIT",
-  "GEMINI",
-  "AGY",
-  "GLM"
+  "LAB",
+  "KASA",
+  "UMIT"
  ],
- "kaldirildi": "2026-09-30 18:33",
- "kaldirma_gerekce": "Kosu bitti (4sa10dk, denetle temiz); makine gelistirmeye acildi. Kaldirma 18:33 yapilmis ama commitlenmemisti — UMIT bayat yasagi cekip bekci kuramadi (cikis 3, dogru davranis)."
+ "kapi": {
+  "durum": "GECTI",
+  "kok": "C:\\atlas",
+  "ozet": [
+   "MOD: KAPSAYICI — `_ONB_SONUC` yok (③3 inmemiş). Bugünkü tuz İŞLETİM dışı her MOTOR_*'ı alır ⇒ 30 ad tuzda. Kapı ÖTMEZ."
+  ]
+ }
 }

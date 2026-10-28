@@ -1,0 +1,302 @@
+{
+ "bolge": "İtalya, Balkanlar, Yunan dünyası, Orta/Batı Avrupa (MÖ 3000-MS 1)",
+ "tarih_olcum": "21 Ekim 2026",
+ "kayitlar": [
+  {
+   "id": "xaghra-brochtorff-circle",
+   "ad": "Xağra Brochtorff Çemberi (Gozo, Malta)",
+   "ad_yerel": "Brochtorff Circle, Ix-Xagħra",
+   "tur": "nekropol",
+   "lat": 36.0464,
+   "lon": 14.2647,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q844037 (Brochtorff Circle)",
+     "lat": 36.04639,
+     "lon": 14.26472
+    },
+    {
+     "kaynak": "OSM Nominatim: Tempji tal-Ġgantija, Ix-Xagħra",
+     "lat": 36.04723,
+     "lon": 14.26906
+    }
+   ],
+   "konum_not": "Fark ~0.4 km (OSM noktası Ġgantija tapınağı; Brochtorff Çemberi ~400 m yakınında). Esas: Wikidata Q844037 (doğrudan Brochtorff). Ulusal kurum (Heritage Malta) tanığı bu oturumda açılmadı.",
+   "kur": {
+    "bas_mo": 3640,
+    "son_mo": 3385,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Malone, Cutajar, McLaughlin, Mercieca-Spiteri, Pace, Power, Stoddart, Sultana vd. 2019, Island questions: the chronology of the Brochtorff Circle at Xagħra, Gozo, and its significance for the Neolithic sequence on Malta, Archaeol Anthropol Sci 11(8):4251-4306, doi 10.1007/s12520-019-00790-y (okunan: kabul edilmiş yazar el yazması, 'Fig. 9: start rock-cut tomb')",
+    "url": "https://storre.stir.ac.uk/retrieve/f8eac64b-24af-41f7-ba04-5f279a360d02/AASC-D-18-00192_R1%20Xaghra%20v25%20resubmitted%2013%20Nov%202018.pdf",
+    "alinti": "burial in the rock-cut tomb would have begun in 3640-3500 cal BC (73% probability) or 3465-3385 cal BC (22% probability)",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": {
+    "bas_mo": 2490,
+    "son_mo": 2350,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Aynı makale, 'Fig. 18: end 1241' (son gömüler; özet: last burials probably 24th century cal BC)",
+    "url": "aynı",
+    "alinti": "continued until 2490-2350 cal BC (95% probability), probably until 2475-2405 cal BC (68% probability)",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "İngilizce"
+   },
+   "k": "ilk_anilis",
+   "d": "Gozo'daki Xağra'da Ġgantija döneminde küçük kayaya oyulmuş mezarla başlayan, sonra Tarxien malzemeli toplu gömü ve altar benzeri taş düzenlemelerle anıtsallaşan mağara/mezar kompleksi.",
+   "sahip_kultur": "Ġgantija evresi (Malta Neolitiği) sonra Tarxien evresi",
+   "ic_not": "MÖ 3640-3385 'kayaya oyulmuş mezarda gömü BAŞLANGICI'nın oluş-zamanı belirsizliğidir (kalibre tek olay: %95 = 3640-3500 veya 3465-3385); Ġgantija TAPINAĞININ inşa tarihi DEĞİLDİR. Mezar 3355-3115'e kadar kullanılmış (95%, Fig. 9 end); sonra yüzyıllar boşluk, 30. yy MÖ'de Tarxien ile yeniden gömü. 'bit' son gömüdür, yerleşimin sonu değil. Tapınak dönemi için McLaughlin, Parkinson, Reimer, Malone 'Dating Maltese prehistory' (Temple Places) önerilir ama içeriği okunamadı. Okunan metin yayımlanmış sürüm değil el yazması: şekil numaraları yayınla eşleşmeyebilir.",
+   "okunan_sayfa": [
+    "https://storre.stir.ac.uk/retrieve/f8eac64b-24af-41f7-ba04-5f279a360d02/AASC-D-18-00192_R1%20Xaghra%20v25%20resubmitted%2013%20Nov%202018.pdf"
+   ],
+   "kur_baslik": "kayaya oyulmuş mezarda gömüler başlar",
+   "bit_baslik": "son gömüler"
+  },
+  {
+   "id": "los-millares",
+   "ad": "Los Millares",
+   "ad_yerel": "Los Millares (Santa Fe de Mondújar, Almería)",
+   "tur": "sehir",
+   "lat": 36.9626,
+   "lon": -2.5216,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1579766",
+     "lat": 36.96261,
+     "lon": -2.52164
+    },
+    {
+     "kaynak": "OSM Nominatim: Yacimiento Los Millares",
+     "lat": 36.96504,
+     "lon": -2.52255
+    }
+   ],
+   "konum_not": "Fark ~0.3 km; esas Wikidata. Ulusal kurum (Junta de Andalucía) açılmadı.",
+   "kur": {
+    "bas_mo": 3345,
+    "son_mo": 2935,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Aranda Jiménez, Díaz-Zorita Bonilla, Hamilton, Milesi, Sánchez Romero 2020, The radiocarbon chronology and temporality of the megalithic cemetery of Los Millares (Almería, Spain), Archaeol Anthropol Sci 12(5):104, doi 10.1007/s12520-020-01057-7; Bayes modeli Fig. 6 (yerleşim ve 'forts'). Nekropol başlangıcı ayrı: 3330-3100 (%95, Fig. 7)",
+    "url": "https://digibug.ugr.es/bitstream/handle/10481/88940/Arandaetal2020.pdf?sequence=1",
+    "alinti": "Los Millares (settlement and forts) started in 3345-2935 cal BC (95% probability), probably between 3155 and 2975 cal BC (68% probability)",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": {
+    "bas_mo": 2380,
+    "son_mo": 1955,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Aynı makale, Fig. 6 (yerleşim sonu)",
+    "url": "aynı",
+    "alinti": "ended in 2380-1955 cal BC (95% probability), possibly around 2305-2115 cal BC (68% probability)",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "İngilizce"
+   },
+   "k": "kurulus",
+   "d": "Güneydoğu İberya'da Bakır Çağı surlu yerleşim ve megalitik nekropol; sur çemberleri 3. bin başında, 'forts' ca. MÖ 2500'den sonra, terk ca. MÖ 2200 civarı.",
+   "sahip_kultur": "Bakır Çağı (Chalcolithic) megalitik topluluk, Los Millares kültürü",
+   "ic_not": "Mezar etkinliği yerleşimden 55-235 yıl önce başlar (nekropol modeli 3390-3105 %95 [Model 1 Fig.3] ve 3330-3100 [Fig.7]; özet: 3219-3124 %68). Gömü etkinliği sonu 2430-2180 (%95). Bu tarihler Bayes olay tahminidir, 'kuruluş yılı' değil. Makale terkin 'ca. 2200 cal BC öncesi' olduğunu söyler.",
+   "okunan_sayfa": [
+    "https://digibug.ugr.es/bitstream/handle/10481/88940/Arandaetal2020.pdf?sequence=1 (curl + pdftotext)"
+   ],
+   "kur_baslik": "yerleşim ve kaleler başlar",
+   "bit_baslik": "yerleşim sona erer"
+  },
+  {
+   "id": "el-argar",
+   "ad": "El Argar (Argar kültürü, Antas)",
+   "ad_yerel": "El Argar, Antas (Almería)",
+   "tur": "kultur",
+   "lat": 37.2479,
+   "lon": -1.9132,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim: Zona arqueológica de El Argar y La Gerundia, Antas",
+     "lat": 37.24793,
+     "lon": -1.91319
+    },
+    {
+     "kaynak": "OSM Nominatim: Yacimiento arqueológico El Argar, El Cabecico",
+     "lat": 37.25304,
+     "lon": -1.91728
+    }
+   ],
+   "konum_not": "İki OSM nesnesi 0.6 km; İKİSİ AYNI VERİ TABANI -> bağımsız ikinci tanık YOK (geçici koordinat).",
+   "kur": {
+    "bas_mo": 2200,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Villalba-Mouco, Oliart, Rihuete-Herrada vd. 2022, Kinship practices in the early state El Argar society from Bronze Age Iberia, Sci Rep 12:22415, doi 10.1038/s41598-022-25975-9 (giriş; atıf 19)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9794729/",
+    "alinti": "El Argar developed over three phases from ca. 2200 to 1550 cal BCE",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": {
+    "bas_mo": 1550,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Aynı makale",
+    "url": "aynı",
+    "alinti": "El Argar developed over three phases from ca. 2200 to 1550 cal BCE",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   },
+   "k": "kurulus",
+   "d": "Güneydoğu İberya'da üç evreli, tepe yerleşimli, erken devlet düzeyinde Tunç Çağı toplumu; zirvesinde ~35.000 km2.",
+   "sahip_kultur": "El Argar kültürü (Argaric)",
+   "ic_not": "Evre 2 ≈ 2000-1750, Evre 3 ≈ 1750-1550 cal BCE (La Almoloya yerel stratigrafisi, aynı makale). 'ca.' yuvarlak donem-toplamıdır. Birincil kronoloji (Lull vd., Castro vd.) AÇILMADI. Bu tarih kültürün başlangıcıdır, El Argar höyüğünün kuruluşu değildir.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9794729/ (Europe PMC fullTextXML)"
+   ],
+   "kur_baslik": "kültür başlar (yaklaşık)",
+   "bit_baslik": "kültür sona erer (yaklaşık)"
+  },
+  {
+   "id": "szederkeny-kukorica-dulo",
+   "ad": "Szederkény-Kukorica-dűlő (Vinča/LBK sınır yerleşimi)",
+   "ad_yerel": "Szederkény-Kukorica-dűlő, Baranya",
+   "tur": "sehir",
+   "lat": 45.9995,
+   "lon": 18.4536,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim: Szederkény (köy merkezi)",
+     "lat": 45.99946,
+     "lon": 18.45358
+    },
+    {
+     "kaynak": "Wikidata Q938390 (Szederkény köyü)",
+     "lat": 46.0,
+     "lon": 18.45
+    }
+   ],
+   "konum_not": "İki tanık da KÖY merkezi; kazı alanının tam koordinatı doğrulanmadı (köyün yakını). 'köy yaklaşık' olarak al.",
+   "kur": {
+    "bas_mo": 5360,
+    "son_mo": 5305,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Jakucs, Bánffy, Oross, Voicsek, Bronk Ramsey, Dunbar, Kromer, Bayliss, Hofmann, Marshall, Whittle 2016, Between the Vinča and Linearbandkeramik Worlds, J World Prehist 29(3):267-336, doi 10.1007/s10963-016-9096-x; Model 1",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5040754",
+    "alinti": "Model 1 suggests that the Neolithic settlement began in 5360-5305 cal BC (95% probability",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": {
+    "bas_mo": 5210,
+    "son_mo": 5165,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Aynı makale, Model 1",
+    "url": "aynı",
+    "alinti": "The settlement ended in 5210-5165 cal BC (95% probability",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "İngilizce"
+   },
+   "k": "kurulus",
+   "d": "Güneybatı Macaristan'da Vinča ve LBK etkileşiminde uzun evli yerleşim; LBK dağılımından birkaç kuşak sonra.",
+   "sahip_kultur": "Vinča-Ražište-Linearbandkeramik karışık, Formatif/Erken LBK Transdanubia",
+   "ic_not": "Bu SİTENİN tarihi. Formatif LBK Transdanubia için ayrı kayıt: lbk-formatif-transdanubia. Makale okuması ilk 100.000 karakterle sınırlı (sonrası okunmadı). Almanca/Çek/Polonya LBK'nın kendi Bayes yayınları bulunamadı.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5040754 (WebFetch, ilk 100k karakter)"
+   ],
+   "kur_baslik": "Neolitik yerleşim başlar",
+   "bit_baslik": "Neolitik yerleşim sona erer"
+  },
+  {
+   "id": "lbk-formatif-transdanubia",
+   "ad": "Formatif Linearbandkeramik (Transdanubia)",
+   "ad_yerel": "Formative LBK, Transdanubien",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür kaydı.",
+   "kur": {
+    "bas_mo": 5500,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Jakucs vd. 2016, J World Prehist 29(3), doi 10.1007/s10963-016-9096-x (özet)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5040754",
+    "alinti": "suggests their emergence in the Formative LBK of Transdanubia c. 5500 cal BC",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Orta Avrupa'nın ilk çiftçi toplulukları, uzun evler, çizgili çanak çömlek; 54. yy ortasında hızlı yayılma ('diaspora').",
+   "sahip_kultur": "Linearbandkeramik (LBK)",
+   "ic_not": "Tek değer 'c. 5500', model sınırı değil; aynı makale 'rapid dispersal in the middle of the 54th century cal BC' der. Batı yayılımının 5500 mü yoksa 5350-5300'den sonra mı olduğu tartışmalı (Tübingen NEST sayfası arama özeti; sayfa AÇILMADI).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5040754"
+   ],
+   "kur_baslik": "Transdanubia'da Formatif LBK ortaya çıkar"
+  },
+  {
+   "id": "erken-trypillia",
+   "ad": "Erken Trypillia (Cucuteni-Trypillia, A1-2 evresi)",
+   "ad_yerel": "Trypillia A1-2 / Precucuteni II",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür kaydı.",
+   "kur": {
+    "bas_mo": 4753,
+    "son_mo": 4545,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Kiosak, Bodean, Kotova, Szidat, Tinner 2024, The chronology of the Early Trypillian expansion, Radiocarbon 66(4):650-663, doi 10.1017/RDC.2024.88; Model 5, Trypillia A1-2",
+    "url": "https://www.cambridge.org/core/product/44CD5BDFD7BFCB76D6937BDEA66A14F4/core-reader",
+    "alinti": "the expansion of Early Trypillia into Moldovan and Ukrainian forest-steppe took place during 47-45th centuries BCE",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "İngilizce"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Romanya-Moldova-Ukrayna'da ilk Kalkolitik toplumlar; sonra dev (>100 ha) yerleşimler.",
+   "sahip_kultur": "Cucuteni-Trypillia (Precucuteni II / Trypillia A1-2)",
+   "ic_not": "UYARI: Kiosak vd. 'Model 5 aralıkları tarih seçiminin yapaylığıdır, dikkatle ele alınmalı' der. A1-2: 4753-4545, A3: 4592-4381, B1: 4389-4218 (2σ, aynı makale). Tüm kültür 'ca. 4800-3000 BCE' (Fuchs 2024, donem-toplamı). Bir başka özet 5050-2950 BCE anıyor (arama özeti; yazar belirsiz, AÇILMADI). Müller vd. 2025 (Sidestone, doi 10.59641/kao351dm): özet 'mega-yerleşimler 4100-3600 BCE' (arama özeti), tam metin AÇILAMADI. Rusça/Ukraynaca birincil yayınlar okunamadı.",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/product/44CD5BDFD7BFCB76D6937BDEA66A14F4/core-reader (ilk 100k karakter)",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11633957/"
+   ],
+   "kur_baslik": "Erken Trypillia genişlemesi (A1-2) başlar",
+   "bit_kunye": {
+    "bas_mo": 3000,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Fuchs, Hofmann, Shatilo, Schlütz, Storch, Chabanyuk, Kirleis, Müller 2024, Life and death in Trypillia times, PLOS ONE 19(12):e0289769, doi 10.1371/journal.pone.0289769 (giriş)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11633957/",
+    "alinti": "Cucuteni-Trypillia societies (CTS) are the earliest Chalcolithic phenomenon in parts of modern-day Romania, Moldova, and Ukraine ca. 4800-3000 BCE",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "İngilizce"
+   }
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Tarquinia / Cerveteri (Caere) / Populonia kuruluş-gelişme tarihi - denenen: Potts & Smith 2021 (PMC8546786: yalnız anılma, tarih yok; Populonia Poggio del Telegrafo kulübesi tarihsiz), WebSearch (worldhistory/EBSCO özeti 'Tarquinia 9. yy Villanova; 8. yy ikinci yarı kent çekirdeği' popüler kaynak, ALINMADI)",
+  "bulunamadı: Studi Etruschi / Bartoloni / Torelli birincil metinleri - denenen: BMCR 2006.08.10 (ikinci el), iris.unina.it (açılmadı)",
+  "bulunamadı: Palatino kulübeleri / Forum nekropolü MÖ 10.-8. yy kazı-radyokarbon (Carandini 'La nascita di Roma', Brock/Terrenato) - denenen: Europe PMC (Alessandri 2026 yalnız periyodizasyon), WebSearch (colosseo.it, Wikipedia, popüler)",
+  "bulunamadı: geleneksel 753/509 için akademik sayfa (Cornell 1995) - denenen: WebSearch (yalnız Wikipedia/popüler)",
+  "bulunamadı: Sicilya kolonileri arkeolojik (seramik/14C) kuruluş tarihleri (Naxos, Megara Hyblaia, Gela) - denenen: Amara 2022 (arama özeti, açılmadı), Morris 1996 (Nijboer kaynakçasında atıf, açılmadı)",
+  "bulunamadı: Atina/Korinth/Sparta Geometrik mutlak tarihleri; Olimpiyat MÖ 776 geleneği - denenen: Europe PMC sorguları sonuçsuz, WebSearch yapılmadı (zaman)",
+  "bulunamadı: Roma Latial I/IIA kalibre 14C seri (Nijboer & van der Plicht 2008) - denenen: Radon-B arama özeti (tek ham örnek 'Roma Quadrato 2820±50 BP' KALİBRE EDİLMEMİŞ, YAZILMADI)",
+  "bulunamadı: Hallstatt/La Tène sınırı ve La Tène ca. 450 için Eggers/Reinecke akademik sayfa - denenen: WebSearch (yalnız Wikipedia, Antiquity 1928 özeti); Heuneburg Tübingen sayfası (404), Heidelberg Archäologisches Korrespondenzblatt (Anubis engeli)",
+  "bulunamadı: Keltler ilk anılış; İberya Tartessos kronolojisi - denenen: Europe PMC (alakasız), arama yapılmadı",
+  "bulunamadı: Nuragik Sardinya (Su Nuraxi, ilk nuraghe) kalibre 14C - denenen: WebSearch (UNESCO 6557 sayfası 403; CORDIS/unica özetleri: 'XVII-VI yy BC', 'Sa Conca e sa Cresia 1750-1450 BCE' - açılmadı, YAZILMADI)",
+  "bulunamadı: Malta Ġgantija / Ħaġar Qim TAPINAK inşa tarihi - denenen: Malone 2019 (yalnız Xağra), McLaughlin vd. 'Dating Maltese prehistory' (içindekiler özeti, açılmadı)",
+  "bulunamadı: Çek/Polonya LBK başlangıcı ve Almanca LBK Bayes yayınları - denenen: yalnız Jakucs 2016 (Macaristan); Tübingen NEST sayfası açılmadı",
+  "bulunamadı: Cucuteni-Trypillia Rusça/Ukraynaca birincil, Müller vd. 2025 Sidestone bölümü - denenen: kubg.edu.ua PDF (404), sidestone.com (yalnız kitap özeti)",
+  "bulunamadı: Wessex Tunç Çağı - aranmadı (zaman); Balkanlar (Vinča-Belo Brdo, Lepenski Vir) önceki dalgada var"
+ ]
+}

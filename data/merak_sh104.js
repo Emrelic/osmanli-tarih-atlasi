@@ -58,7 +58,7 @@ window.MERAK_SH104 = [
     { tez:"Bayezid'in genel dış politika tercihi",
       dayanak:"Aynı TDV maddesi II. Bayezid'i 'memleketi mâmur, halkı refah içinde görmek isteyen' ve 'mecbur olmadıkça savaştan uzak kalmaya dikkat etmiş' bir hükümdar olarak tanımlar; Cem meselesi onu 'çok dikkatli ve barışçı bir siyaset' izlemeye sürükledi. Babasının aksine ihtiyatlı bu çizgi, İtalya'da yeni bir cepheyi büyütmek yerine var olanı tasfiye etmeyi seçti." }
   ],
-  baglanti:["1480-08-11","1481-05","1481-09-10"],
+  baglanti:["1480-08-11","1481-05-03","1481-09-10"],
   kesinlik:"tartismali",
   kaynak:"TDV: GEDİK AHMED PAŞA · BAYEZİD II" }
 

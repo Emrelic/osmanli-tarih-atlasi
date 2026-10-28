@@ -30,7 +30,7 @@ window.KRONOLOJI_SINIR_KOMSU = [
 { t:"1920-01-01", devlet:"bulgaristan-kralligi", devletler:["bulgaristan-kralligi","yugoslavya"], sinir_id:"d1923-bg-shs",
   b:"Neuilly Antlaşması'nın Bulgaristan–SHS sınırı: Çariçin, Bosilegrad ve Ustrumca SHS'ye", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Ustrumca (Strumica)",
   etiket:["sinir","antlasma","konu-siyasi","bulgaristan-kralligi","yugoslavya"],
-  d:"27 Kasım 1919'da imzalanan Neuilly Antlaşması (md. 27(1), 37, 38) Bulgaristan'ın batı sınırını su bölümü çizgisinden ayırarak Çariçin, Bosilegrad ve Ustrumca bölgelerini SHS'ye bıraktı. Hattı uluslararası bir komisyon 1920–1922'de 1:25.000 ölçekli 29 paftayla işaretledi. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir akademik kaynakta bulunamadı.",
+  d:"27 Kasım 1919'da imzalanan Neuilly Antlaşması (md. 27(1), 37, 38) Bulgaristan'ın batı sınırını su bölümü çizgisinden ayırarak Çariçin, Bosilegrad ve Ustrumca bölgelerini SHS'ye bıraktı. Hattı uluslararası bir komisyon 1920–1922'de 1:25.000 ölçekli 29 paftayla işaretledi. Tarih yalnız yıl düzeyindedir: antlaşmanın yürürlük günü okunabilir bir akademik kaynakta bulunamadı.",
   kaynak:"TDV bulgaristan (Neuilly 27 Kasım 1919) · IBS No. 130 Bulgaria–Yugoslavia (komisyon 1920–22; 'as it is today, was defined by the Treaty') · Neuilly metni md. 27-38 (wwi.lib.byu.edu)" },
 
 { t:"1921-01-01", devlet:"yunanistan", devletler:["yunanistan","bulgaristan-kralligi"], sinir_id:"d1923-gr-bg-dogu",
@@ -45,10 +45,10 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"Faysal 23 Ağustos 1921'de İngiliz desteğiyle Irak tahtına çıktı. İran ile sınır, 1913 İstanbul Protokolü ve 1914 komisyonunun direklerle işaretlediği Osmanlı-İran hattı olarak kaldı. İran bu hattın geçerliliğine sonradan (1934–35) itiraz etti. Şattülarap kesimi 1937 ve 1975'te değişti.",
   kaynak:"TDV irak--ulke ve faysal-i (23 Ağustos 1921) · IBS No. 164 Iran–Iraq (1914 işaretlemesi; 1934–35 itirazı; 1937 ve 1975 değişiklikleri)" },
 
-{ t:"1923-03-07", devlet:"filistin-mandasi", devletler:["filistin-mandasi","suriye-lubnan-mandasi"], sinir_id:"d1923-fi-lb",
+{ odak_yer:["Filistin","Suriye","Lübnan"], t:"1923-03-07", devlet:"filistin-mandasi", devletler:["filistin-mandasi","suriye-lubnan-mandasi"], sinir_id:"d1923-fi-lb",
   b:"Paulet–Newcombe sınır raporu imzalandı — Filistin ile Suriye-Lübnan arasındaki hat", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","filistin-mandasi","suriye-lubnan-mandasi"],
-  d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı. Hattın yerleşim kaydı yok: sınır boyunda (Nakura–Hasbani) atlasta nokta bulunamadı.",
+  d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı.", ic_not_d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı. Hattın yerleşim kaydı yok: sınır boyunda (Nakura–Hasbani) atlasta nokta bulunamadı.",
   kaynak:"IBS No. 75 Israel–Lebanon (Cmd. 1910; 22 LNTS 364; 'erected in 1922 by a mixed Anglo-French commission') · PalQuest 'Palestine-Lebanon border'" },
 
 // ── GERİYE SARMA G3 (1878-07-13 → 1914-07-28) ─────────────────────────
@@ -62,13 +62,13 @@ window.KRONOLOJI_SINIR_KOMSU = [
 { t:"1880-01-01", devlet:"bulgaristan-prensligi", devletler:["bulgaristan-prensligi","romanya"], sinir_id:"g3-bg-ro-dobruca-p2",
   b:"Silistre yakınında (Arap Tabya) Romanya–Bulgaristan sınırı Bulgaristan lehine düzeltildi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Silistre",
   etiket:["sinir","konu-siyasi","bulgaristan-prensligi","romanya","dobruca"],
-  d:"Berlin Antlaşması'na taraf devletler Ağustos–Eylül 1880'deki nota değişimiyle 1878 senedinin 6. ve 7. maddelerini değiştirdi. Silistre–Karaorman yolu Bulgaristan'da bırakıldı, Arap Tabya tepesi Romanya'da kaldı. Tarih yalnız YIL düzeyindedir; ay metindedir, gün bilinmiyor.",
+  d:"Berlin Antlaşması'na taraf devletler Ağustos–Eylül 1880'deki nota değişimiyle 1878 senedinin 6. ve 7. maddelerini değiştirdi. Silistre–Karaorman yolu Bulgaristan'da bırakıldı, Arap Tabya tepesi Romanya'da kaldı. Tarih yalnız yıl düzeyindedir; ay metindedir, gün bilinmiyor.",
   kaynak:"IBS No. 53 Bulgaria–Romania s.6 (Hertslet IV s.2996: 'altered the original boundary near Silistra in favor of Bulgaria')" },
 
 { t:"1891-01-01", devlet:"kacar", devletler:["kacar","afganistan"], sinir_id:"d1923-ir-af-kuzey",
   b:"MacLean hakem kararı: İran–Afganistan kuzey sınırı 39 direkle işaretlendi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Herat",
   etiket:["sinir","konu-siyasi","kacar","afganistan","hakem-karari"],
-  d:"Herat ile İran arasındaki kuzey sınır anlaşmazlığı 1857 Paris Antlaşması (md. VI) gereği İngiliz hakemliğine götürüldü. General C. S. MacLean 1888–1891 arasında iki tarafın delillerini inceleyip bir uzlaşma hattı çizdi. Hat Rus üçlü noktasından 34°20′ kuzey enlemine kadar Herirud ve 39 direkle işaretlendi. Tarih yalnız YIL düzeyindedir (çalışmanın bittiği yıl).",
+  d:"Herat ile İran arasındaki kuzey sınır anlaşmazlığı 1857 Paris Antlaşması (md. VI) gereği İngiliz hakemliğine götürüldü. General C. S. MacLean 1888–1891 arasında iki tarafın delillerini inceleyip bir uzlaşma hattı çizdi. Hat Rus üçlü noktasından 34°20′ kuzey enlemine kadar Herirud ve 39 direkle işaretlendi. Tarih yalnız yıl düzeyindedir (çalışmanın bittiği yıl).",
   kaynak:"IBS No. 6 Afghanistan–Iran s.2-3 ('Between 1888 and 1891 Major General C.S. MacLean … laid down a compromise boundary')" },
 
 { t:"1905-05-15", devlet:"kacar", devletler:["kacar","afganistan"], sinir_id:"d1923-ir-af-guney",
@@ -84,10 +84,10 @@ window.KRONOLOJI_SINIR_KOMSU = [
   kaynak:"TDV bulgaristan ('Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân ettikten sonra') · IBS No. 53" },
 
 { t:"1913-08-10", devlet:"romanya-kralligi", devletler:["romanya-kralligi","bulgaristan-kralligi"], sinir_id:"g3-bg-ro-dobruca-p4",
-  b:"Bükreş Antlaşması: Güney Dobruca Romanya'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Bükreş",
+  b:"Bükreş Antlaşması: Güney Dobruca Romanya'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Hacıoğlupazarcığı (Dobrich)",
   etiket:["sinir","antlasma","konu-siyasi","romanya-kralligi","bulgaristan-kralligi","ikinci-balkan-savasi"],
-  d:"İkinci Balkan Savaşı'nı bitiren Bükreş Antlaşması (md. II ve ek protokol) Romanya–Bulgaristan sınırını Tuna'da Turtukaya'nın yukarısından Karadeniz'de Ekrene'nin güneyine taşıdı. Güney Dobruca Romanya'ya geçti. Berlin'den beri süren Silistre–Mangalya hattı bu günde sona erdi. Yeni hattın koordinatı elde olmadığı için haritada çizgi olarak gösterilmez.",
-  kaynak:"IBS No. 53 Bulgaria–Romania s.7 (Bükreş 10 Ağustos 1913; onay teatisi IBS'e göre 25 Ağustos) · Bükreş Antlaşması metni md. II ('begin at the Danube above Turtukaia')" },
+  d:"İkinci Balkan Savaşı'nı bitiren Bükreş Antlaşması (md. II ve ek protokol) Romanya–Bulgaristan sınırını Tuna'da Turtukaya'nın yukarısından Karadeniz'de Ekrene'nin güneyine taşıdı. Güney Dobruca Romanya'ya geçti; Dobriç (Hacıoğlupazarcığı), Balçık ve Silistre Romanya'ya bırakıldı. Berlin'den beri süren Silistre–Mangalya hattı bu günde sona erdi. Yeni hattın koordinatı elde olmadığı için haritada çizgi olarak gösterilmez.",
+  kaynak:"IBS No. 53 Bulgaria–Romania s.7 (Bükreş 10 Ağustos 1913; onay teatisi IBS'e göre 25 Ağustos) · Bükreş Antlaşması metni md. II ('begin at the Danube above Turtukaia') · TDV hacioglupazarcigi (Machiel Kiel): 'II. Balkan Savaşı’nın ardından mağlûp Bulgaristan, Güney Dobruca’yı terketmek zorunda kaldı, Dobriç, Balçık ve Silistre Romanya’ya bırakıldı' · gün: TDV bulgaristan ('10 Ağustos 1913’te Bükreş Barış Antlaşması’nı imzalayarak Güney Dobruca’yı Romanya’ya bıraktığı')" },
 
 { t:"1913-08-10", devlet:"yunanistan", devletler:["yunanistan","sirbistan-kralligi"], sinir_id:"g1-gr-srb",
   b:"Bükreş Antlaşması: Yunanistan–Sırbistan sınırı doğdu", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Selanik",
@@ -112,25 +112,25 @@ window.KRONOLOJI_SINIR_KOMSU = [
 // kutuları; hukukî değişiklik yine de madde alır. Rus tarihleri IBS'te tek yazıldığında
 // Jülyen olabilir (D110) — metinde belirtildi.
 
-{ t:"1813-10-24", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g5-rus-ir-DEGISTI-gulistan",
+{ odak_yer:["Kafkasya"], t:"1813-10-24", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g5-rus-ir-DEGISTI-gulistan",
   b:"Gülistan Antlaşması: Kafkasya'daki hanlıklar Rusya'ya bırakıldı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
   d:"1804–1813 Rus-İran savaşının sonunda imzalanan Gülistan Antlaşması (md. II) ile İran Gence, Şeki, Şirvan, Bakü, Karabağ, Derbend, Kuba ve Talış hanlıklarını Rusya'ya bıraktı (TDV azerbaycan ve feth-ali-sah birlikte). Revan ve Nahçıvan hanlıkları İran'da kaldı. İmza günü 24 Ekim 1813'tür: Encyclopaedia Iranica 29 Şevval 1228 / 24 Ekim 1813 veriyor ve IBS 25'in 12 Ekim'ini (Hurewitz) ayrıca anıyor — 12 Ekim Jülyen karşılığıdır (onay 15 Eylül 1814, Tiflis). TDV feth-ali-sah 24 Kasım 1813 diyor; bu fark çözülmedi. Hattın koordinatı elde yok.",
   kaynak:"Encyclopaedia Iranica 'GOLESTĀN TREATY' (E. L. Daniel): 'concluded on 29 Šawwāl 1228/24 October 1813 (12 October according to Hurewitz, I, p. 197; 21 October in Pakravan, p. 156)' · IBS No. 25 Iran–U.S.S.R. s.4, 11 (BFSP 5:1109) · TDV feth-ali-sah ('24 Kasım 1813') · TDV azerbaycan ve iran (1813)" },
 
-{ t:"1828-02-22", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-aras-talis",
+{ odak_yer:["Nahçıvan","Revan"], t:"1828-02-22", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-aras-talis",
   b:"Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
   d:"1826–1828 savaşını bitiren Türkmençay Antlaşması (md. IV) ile Revan ve Nahçıvan hanlıkları Rusya'ya geçti. Aras nehri Hazar'ın batısında iki devletin sınırı oldu. Rusya'ya Abbasabad karşısında Aras'ın sağ kıyısında bir köprübaşı bırakıldı; burası 1893'e kadar Rusya'da kaldı. TDV ve IBS 10 Şubat 1828 veriyor; bu Rus (Jülyen) takvimidir, 19. yüzyılda +12 gün ile Gregoryen 22 Şubat 1828 eder. Bugünkü hat 1954–1970 değişiklikleri yüzünden 1828 hattını göstermez.",
   kaynak:"TDV feth-ali-sah ('Türkmençay Antlaşması imzalandı (10 Şubat 1828)') · TDV revan · IBS No. 25 s.4, 11 (BFSP 15:669)" },
 
-{ t:"1869-12-13", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-atrek",
+{ odak_yer:["İran"], t:"1869-12-13", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-atrek",
   b:"Rus-İran anlaşması: aşağı Atrek nehri Hazar doğusunda sınır sayıldı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
   d:"Rusya'nın Hazar ötesindeki ilerleyişi İran sınırına dayanınca 13 Aralık 1869 tarihli anlaşma aşağı Atrek'i, Hazar kıyısından doğuya yaklaşık 30 millik bir kesimde, iki devletin sınırı olarak tanıdı. Tarih IBS'te tek yazılmıştır, Jülyen olabilir.",
   kaynak:"IBS No. 25 s.4, 12 ('recognizing the Atrek River as the boundary, December 13, 1869')" },
 
-{ t:"1881-12-21", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-hazar-serahs",
+{ odak_yer:["İran"], t:"1881-12-21", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-hazar-serahs",
   b:"Ahal-Horasan Sözleşmesi: Rus-İran sınırı Babadurmaz'a kadar çizildi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
   d:"9/21 Aralık 1881 sözleşmesinin I. maddesi Hazar doğusundaki sınırı Atrek'ten Aşkabat'ın doğusundaki Babadurmaz'a kadar çizdi ve 1869 Atrek hattını teyit etti. Ardından gelen protokoller küçük toprak değişiklikleri ve daha ayrıntılı tahdit getirdi.",
@@ -146,22 +146,22 @@ window.KRONOLOJI_SINIR_KOMSU = [
 // İki TDV maddesi çelişiyor (yıl 1723/1724; Derbend-Bakü'nün iadesi Reşt 1732 / Gence 1735).
 // Taraf seçilmedi, çelişki metinde.
 
-{ t:"1723-09-23", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1723",
+{ odak_yer:["Derbend","Bakü"], t:"1723-09-23", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1723",
   b:"Petersburg Antlaşması: Derbend, Bakü ve Hazar'ın güney kıyıları Rusya'ya bırakıldı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","safevi","rusya"],
   d:"İran'daki karışıklıktan yararlanan I. Petro Ağustos 1722'de Derbend'i işgal etti. 12 Eylül 1723'te Petersburg'da imzalanan antlaşma ile Derbend, Bakü ve Hazar'ın güney kıyılarının büyük bölümü Rusya'ya bırakıldı. TDV'nin dagistan maddesi bu antlaşmayı 1724'e koyuyor. Gün: TDV derbend--dagistan '12 Eylül 1723' veriyor; bu Rus (Jülyen) takvimidir, 18. yüzyılda +11 gün ile Gregoryen 23 Eylül 1723 eder. Hattın koordinatı yok.",
   kaynak:"TDV derbend--dagistan ('12 Eylül 1723’te Petersburg’da imzalanan antlaşma') · TDV baku ('1723’te I. Petro tarafından Rus topraklarına katıldı') · TDV dagistan (1724 — çelişki)" },
 
-{ t:"1732-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
+{ odak_yer:["Reşt","İran"], t:"1732-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
   b:"Reşt Antlaşması: Rusya Hazar kıyısındaki toprakların bir kısmını İran'a iade etti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","safevi","rusya","nadir-sah"],
-  d:"Nâdir'in Ruslara karşı yürüttüğü mücadele sonunda 1732'de Reşt Antlaşması imzalandı. TDV dagistan maddesine göre bu antlaşmayla Dağıstan'ın güneyi, Derbend ve Bakü İran'a geçti. TDV derbend--dagistan ise Derbend ile Bakü'nün iadesini 1735 Gence Antlaşması'na bağlıyor. Çelişki çözülmedi. Tarih yalnız YIL düzeyindedir.",
+  d:"Nâdir'in Ruslara karşı yürüttüğü mücadele sonunda 1732'de Reşt Antlaşması imzalandı. TDV dagistan maddesine göre bu antlaşmayla Dağıstan'ın güneyi, Derbend ve Bakü İran'a geçti. TDV derbend--dagistan ise Derbend ile Bakü'nün iadesini 1735 Gence Antlaşması'na bağlıyor. Çelişki çözülmedi. Tarih yalnız yıl düzeyindedir.",
   kaynak:"TDV dagistan ('1732’de imzalanan Reşt Antlaşması’yla') · TDV derbend--dagistan (iade 1735 — çelişki)" },
 
-{ t:"1735-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
+{ odak_yer:["Gence"], t:"1735-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
   b:"Gence Antlaşması: Rusya Hazar kıyısından çekildi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","safevi","rusya","nadir-sah"],
-  d:"Osmanlı ve Kırım'ın Dağıstan'daki faaliyetleri ve İran'da merkezî idarenin güçlenmesi Rusya'yı 1735 Gence Antlaşması'na zorladı. TDV derbend--dagistan'a göre Derbend, Bakü ve Hazar kıyısındaki öteki bölgeler İran'a geri verildi. TDV dagistan ise bu antlaşmaya Sulak ile Kura arasındaki bazı toprakları bağlıyor. Tarih yalnız YIL düzeyindedir.",
+  d:"Osmanlı ve Kırım'ın Dağıstan'daki faaliyetleri ve İran'da merkezî idarenin güçlenmesi Rusya'yı 1735 Gence Antlaşması'na zorladı. TDV derbend--dagistan'a göre Derbend, Bakü ve Hazar kıyısındaki öteki bölgeler İran'a geri verildi. TDV dagistan ise bu antlaşmaya Sulak ile Kura arasındaki bazı toprakları bağlıyor. Tarih yalnız yıl düzeyindedir.",
   kaynak:"TDV derbend--dagistan ('1735 Gence Antlaşması’nı imzalamaya zorladı') · TDV dagistan ('1735 tarihli antlaşma ile de Sulak ve Kura')" },
 
 // ── GERİYE SARMA G8–G10 (1606 → 1281) ────────────────────────────────
@@ -174,5 +174,57 @@ window.KRONOLOJI_SINIR_KOMSU = [
   etiket:["sinir","savas","konu-askeri","sirbistan-nemanjic","bulgar-carligi"],
   d:"28 Temmuz 1330'da Köstendil (Velbujd) yakınında Bulgar Çarı Mihail ile Sırp Kralı Stefan Deçanski karşılaştı. Mihail tahtını ve hayatını kaybetti. TDV'ye göre bu tarihten Osmanlı dönemine kadar şehir ve çevresi Sırp hâkimiyetinde kalmış olmalıdır. Kaynak ihtiyatlı konuşuyor; bir antlaşma ya da çizgi yok, harita burada A/B'de kalır.",
   kaynak:"TDV kostendil ('28 Temmuz 1330’da Bulgar Çarı Michael’in Sırp Kralı Stefan Deçanski ile çarpışarak'; 'Sırp hâkimiyetinde kalmış olmalıdır')" },
+
+// ── POSTIT-2 (16 Eki 2026): Vardar Makedonyası 1281'de Bizans'taydı; Sırp geçişleri ─────
+{ t:"1282-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Sırp Kralı II. Milutin Üsküp'ü Bizans'tan aldı ve devletinin merkezi yaptı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Üsküp",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1282 (yıl; gün yok)",
+  d:"Bizans idaresindeki Üsküp, II. Milutin'in saltanatının başında (1282) Sırplar'ın eline geçti ve Sırp devletinin merkezi oldu. TDV'ye göre şehirde 110 yıl sürecek Sırp hâkimiyeti böyle başladı (Osmanlı fethi 1392). Gün bilinmiyor; madde yıl hassasiyetindedir.",
+  kaynak:"TDV uskup ('Sırp Kralı II. Milutin (1282-1321) Üsküp şehrini ele geçirerek devletinin merkezi yaptı. Böylece Üsküp’te 110 yıl devam edecek Sırp hâkimiyeti başladı')" },
+
+{ t:"1330-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Velbujd'un ardından İştip ve Köprülü (Veles) Bizans'tan Sırp Krallığı'na geçti", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"İştip (Štip)",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1330 (yıl; gün yok — Velbujd 28 Temmuz 1330'dan sonra olabilir)",
+  d:"Stefan Deçanski 1330'da Bizans'ın elindeki İştip'i ve Köprülü'yü (Veles) Sırp devletine kattı. TDV iki şehir için de yalnız yılı verir, olayı Velbujd Savaşı'nın ardına koyar. Madde yıl hassasiyetindedir; 1 Ocak tarihi birkaç ay erken olabilir.",
+  kaynak:"TDV istip ('1330’da Sırp Kralı Stefan Deçanski burasını Sırp Devleti’ne katıncaya kadar Bizans’ın elinde kaldı') · TDV koprulu ('1330 yılındaki Velbuzd Savaşı’nın ardından … Veles’i Bizanslar’dan alarak Sırp Devleti’ne kattıkları')" },
+
+{ t:"1334-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Stefan Duşan Ohri ve Ustrumca'yı Bizans'tan aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Ohri",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1334 (yıl; gün yok)",
+  d:"Sırp Kralı Stefan Duşan 1334'te Bizans elindeki Makedonya şehirlerine yürüdü. Ohri'yi ele geçirdi, Ustrumca'da da egemenlik kurdu. Madde yıl hassasiyetindedir.",
+  kaynak:"TDV ohri ('1334’te Sırp Kralı Stefan Duşan tarafından ele geçirildi') · TDV ustrumca ('1334’te Sırp Kralı Stefan Duşan diğer Makedonya şehirleri gibi burada da egemenlik kurdu')" },
+
+// ── POSTIT-3 (16 Eki 2026): Berat 1281-1345 Bizans'ta; 1345'te Duşan ───────────────────
+{ t:"1345-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Stefan Duşan Berat, Avlonya ve Kanina'yı Bizans'tan aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Berat",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1345 (yıl; gün yok)",
+  d:"Bizans iç savaşı (1341-1347) sırasında Sırp Kralı Stefan Duşan güney Arnavutluk'a yürüdü ve 1280-81'den beri Bizans elinde olan Berat'ı aldı. Aynı yürüyüşte Avlonya ve Kanina da Sırplar'a geçti. Madde yıl hassasiyetindedir (bir tıb kaydı Avlonya için 1340 der).",
+  kaynak:"TIB Balkan (ÖAW Bizans Araştırmaları) 'Belogradum/Berat' tib.oeaw.ac.at/balkan/explore/entity/123830: 'In 1280-81 the region and Berat became again part of the Byzantine Empire and lost in 1345 to Stefan IV Dušan.' · TIB Kanina 'In 1345 the Serbian king Stefan Uroš IV Dušan conquered the region' · TDV berat--arnavutluk (sıra: Bizans, Epir, Anjou, yine Bizans, Sırplar, küçük bir Arnavut prensliği; yılsız)" },
+
+
+{ t:"1284-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Sırp Kralı Milutin Debre, Kırçova ve Porečie bölgelerini ele geçirdi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Debre (Dibra)",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1284 (yıl; gün yok; kaynaklar 1282-1284 arasında ayrışır)",
+  d:"Milutin 1282/83'te Bizans'a karşı Üsküp, Polog ve Ovče Polje'yi aldıktan sonra 1284'te Debre, Kırçova (Kičevo) ve Porečie bölgelerini de Sırp 'vatanına' kattı. TDV Debre maddesi 1283 der; bir başka kaynak 1282. Madde yıl hassasiyetindedir.",
+  kaynak:"Popović & Zervan, 'The Fatherland of the Serbian Kings Milutin and Dečanski', Studia Slavica et Balcanica Petropolitana 2022/1, DOI 10.21638/spbu19.2022.102 ('conquered the regions of Debar, Kičevo and Porečie in 1284') · TDV debre ('1283’te Sırp Kralı Milutin Debre’yi ele geçirdi')" },
+
+{ t:"1334-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Sırplar Prilep'i aldı; Pelagonia'da Manastır da Sırp idaresine geçti (geçiş yılı yaklaşık)", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Manastır",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1334 (yıl; gün yok; Manastır için yaklaşık)",
+  d:"Duşan 1334 seferinde Bizans'ın Prilep'ini aldı ve güneyde bugünkü Bitola'ya (Manastır) giden yol açıldı. Manastır'ın Sırp'a geçtiği yıl kaynaklarda doğrulanamadı; 14. yüzyıl ilk yarısında Duşan fetihlerinden sonra Sırbistan'a katıldığı bilinir. 1334 yaklaşık değerdir.",
+  kaynak:"Austrian Academy of Sciences, TIB, 'Interpretation of the Border between the Serbian Kingdom and the Byzantine Empire in the period from 1321 to 1334' (Prilep 1334) · TDV manastir--makedonya (Osmanlı fethi 1382-85)" },
+
+{ t:"1378-01-01", kesinlik:"yil", devlet:"zeta", devletler:["zeta","sirbistan-nemanjic"], sinir_id:null,
+  b:"Avlonya, Kanina, Berat ve Hımara İşkodralı Balşa beylerinin eline geçti", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Avlonya",
+  etiket:["sinir","toprak-kazanc","konu-askeri","zeta","sirbistan-nemanjic"],
+  gun:"1378 (alt sınır; kaynak '1378'den sonra' der, gün yok)",
+  d:"Sırp hâkimiyetindeki Avlonya ve çevresi 1378'den sonra İşkodralı Balşa beylerine geçti. Berat ve Hımara'nın bu yıllardaki akıbeti kendi kaynağında tarihlenemedi; atlas onları bağlı oldukları merkez Avlonya'ya bağladı (1417'de üçü birlikte Osmanlı'ya geçti). Berat'ın bir süre yerel bir Arnavut prensliğinin (Muzaka) elinde olduğu biliniyor, ama yılı kaynakla bulunamadı. Madde yıl hassasiyetindedir.",
+  kaynak:"TDV avlonya (M. Kiel: 'Ardından Bizans ve Sırplar'ın, 1378'den sonra da İskenderiyeli Balşa beylerinin eline geçti'; '1417'de Osmanlılar ülkenin iç kesimindeki Berat şehri ve Kanina Kalesi ile birlikte') · TDV berat--arnavutluk (Sırplar, sonra 'küçük bir Arnavut prensliği', yılsız)" },
 
 ];

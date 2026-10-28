@@ -1,0 +1,59 @@
+diff --git a/data/kronoloji_anadolu.js b/data/kronoloji_anadolu.js
+index 78422dba..6a93018e 100644
+--- a/data/kronoloji_anadolu.js
++++ b/data/kronoloji_anadolu.js
+@@ -386,12 +386,14 @@ window.KRONOLOJI_ANADOLU = [
+   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
+   yer_id:"",
+   d:"1474 seferiyle Osmanlı, Karamanoğulları'nın hâlâ direniş gösterdiği dağlık ve kıyı bölgelerini de tam denetim altına aldı.",
++  odak_yer:["Ermenek","Silifke"],   // KCP-1006-B: TDV gedik-ahmed-pasa — 1474 sonrası "Ermenek, Manyan ve Silifke hisarlarını tekrar alarak"; TDV silifke aynı seferi anlatır. Manyan atlasta yok
+   kaynak:"karamanogullari", kapsam_genis:true },
+ 
+ { taraflar:["karaman"], t:"1483-01-01", b:"Kasım Bey öldü; İç İl'de Turgutoğlu Mahmud bey seçildi", tur:"hukumdar",
+   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
+   yer_id:"",
+   d:"Kasım Bey'in ölümünün ardından Karamanlı ileri gelenleri İç İl bölgesinde Turgutoğlu Mahmud'u bey olarak seçti; beyliğin son kalıntısı bu şekilde bir süre daha sürdü.",
++  odak_yer:["Silifke"],   // KCP-1006-B: TDV silifke — Kasım Bey'e "Silifke merkez olmak üzere" topraklar iktâ edildi; "Bir yıl sonra Kasım Bey'in ölümüyle Silifke ve çevresi kesin biçimde Osmanlı idaresine girmiş oldu"
+   kaynak:"karamanogullari", kapsam_genis:true },
+ 
+ { t:"1487-01-01", b:"Mahmud Bey Halep'e kaçtı; Karamanoğulları tarihe karıştı", tur:"son",
+@@ -1607,6 +1609,7 @@ window.KRONOLOJI_ANADOLU = [
+ 
+ { taraflar:["aydin"], t:"1419-01-01", b:"Cüneyd Bey'in Düzmece Mustafa isyanına katılması", tur:"isyan",
+   onem:3, dunya:2, kapsam:"ic", etiket:["Düzmece Mustafa", "isyan", "Selanik", "konu-isyan"],
++  odak_yer:["Niğbolu"],   // KCP-1006-B: TDV cuneyd-bey — 1414-15'ten beri "Niğbolu sancak beyliğine tayin" edilmişti, 1419'da oradayken Düzmece Mustafa hadisesine karıştı; Aydın beyliği o gün haritada YOK (atlas doğru)
+   yer_id:"", kapsam_genis:true,
+   d:"Cüneyd Bey, Osmanlı tahtına iddia eden Düzmece Mustafa'nın isyanına destek verdi; isyan bastırılınca Selanik'e kaçtı. Ardından yakalanarak İstanbul'da bir manastıra hapsedildi.",
+   kaynak:"cuneyd-bey" },
+@@ -1660,6 +1663,7 @@ window.KRONOLOJI_ANADOLU = [
+   onem:2, dunya:1, kapsam:"ic", etiket:["gümüş", "dram", "darphane", "konu-ekonomi"],
+   yer_id:"",
+   d:"Sis ve Tarsus'taki kraliyet darphaneleri, krallığın simgesi hâline gelen gümüş 'dram' (tram) sikkelerini bastı; Doğu-Batı ticaretinden gelen zenginlik dönemin zengin ikonografili sikkelerine yansıdı. II. Levon döneminde ekonomik sıkıntı sikkelerin küçülüp hafiflemesine yol açtı.",
++  odak_yer:["Tarsus"],   // KCP-1006-B: maddenin KENDİ metnindeki yer; Sis AD_KONUM'da yok
+   kaynak:"Bedoukian, Coinage of Cilician Armenia (American Numismatic Society, 1962); ikincil özetten derlendi", kapsam_genis:true },
+ 
+ { taraflar:["kilikya-ermeni"], t:"1243-01-01", b:"Moğol kumandanı Baycu ile ön anlaşma", tur:"ittifak",
+diff --git a/data/kronoloji_arabistan.js b/data/kronoloji_arabistan.js
+index 4fca10bc..7527a437 100644
+--- a/data/kronoloji_arabistan.js
++++ b/data/kronoloji_arabistan.js
+@@ -220,6 +220,7 @@ window.KRONOLOJI_ARABISTAN = [
+   onem:3, dunya:1, kapsam:"ic", etiket:["isyan","konu-isyan"],
+   yer_id:"",
+   d:"Vilâyet idaresine karşı yaygın bir Zeydî ayaklanması patlak verdi; imamet hattı, doğrudan Osmanlı idaresi altında bile direniş kapasitesini korumaya devam ediyordu.",
++  odak_yer:["Sana"],   // KCP-1006-B: TDV yemen — Ahmed Feyzi Paşa "San‘a’ya giderek isyancıları dağıttı"; imamlığın o gün toprağı yok, isyan Osmanlı toprağında
+   kaynak:"TDV `yemen`: 'Ancak bölgede görev yapan Osmanlı memurlarının yetersiz kalması ve idarî işlerde âdil davranılmaması yüzünden 1889’da Yemen’i kendi imamlarının yönetmesini isteyen Zeydîler isyan etti.'", kapsam_genis:true },
+ 
+ { taraflar:["yemen-zeydi"], t:"1895-01-01", b:"Hüseyin Hilmi Paşa isyanı bastırdı", tur:"savas",
+diff --git a/data/kronoloji_dogu_afrika.js b/data/kronoloji_dogu_afrika.js
+index cff08985..35d7c379 100644
+--- a/data/kronoloji_dogu_afrika.js
++++ b/data/kronoloji_dogu_afrika.js
+@@ -136,6 +136,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
+ { taraflar:["evfat"], t:"1372-01-01", b:"Nevaya Krestos Memlük kervanlarına Habeş sınırını kapattı", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+   etiket:["ticaret","diplomasi","konu-diplomasi","konu-ekonomi"],
+   d:"1372-1382 arasında hüküm süren Habeş kralı Nevaya Krestos, Mısır kafilelerinin Etiyopya sınırından içeri girmesini yasakladı. Kızıldeniz ticaretinin iç Afrika ayağını kesen bu karar, Memlük-Habeş ilişkilerinin uzun gerilim döneminin başlangıcıdır.",
++  odak_kimlik:["habesistan"],   // KCP-1006-B: maddenin kendi kaynağı (TDV etiyopya) olayın öznesini Habeş kralı yapar; Evfât'ın atlasta hiç yerleşimi yok
+   kaynak:"TDV `etiyopya`: \"1372-1382 yıllarında hüküm süren Nevaya Krestos Mısır kafilelerini Etiyopya sınırlarından içeri sokmamıştır\" · dunya puanı kronoloji_memluk.js 1372-01-01 kaydından devralındı", kapsam_genis:true },
+ 
+ { taraflar:["evfat"], t:"1376-01-01", b:"Evfât'ta taht kavgası ve II. Hakkuddin'in bağımsızlık iddiası", tur:"isyan", onem:4, dunya:1, kapsam:"ic", yer_id:"",

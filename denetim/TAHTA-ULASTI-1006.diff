@@ -1,0 +1,494 @@
+diff --git a/arac/tahta.py b/arac/tahta.py
+index 5cb205ca..8a3238f3 100644
+--- a/arac/tahta.py
++++ b/arac/tahta.py
+@@ -471,6 +471,59 @@ def _tazele():
+     print("   ⇒ Mesaj yine de YAZILIYOR; push başarısız olursa tahta YEREL kalır.")
+ 
+ 
++def _ulasti_mi(yol, _kod):
++    """Tahta dosyalarını taşıyan commit PUSH HEDEFİNDE mi? — UZAĞI ölçer.
++
++    Dönüş: ("ULASTI" | "ULASMADI" | "OLCULEMEDI", ayrıntı)
++      ① tahta dosyaları çalışma ağacında kirliyse ⇒ commit HİÇ OLMADI ⇒ ULASMADI
++      ② temizse içerik, onlara dokunan SON commit'tedir (kim commitlemiş olursa
++         olsun — paylaşılan index'te başka oturum taşımış olabilir)
++      ③ push hedefi dalın upstream'idir (`branch.<dal>.remote/.merge`), `origin/main`
++         DEĞİL: makine dalına push eden depoda main'e bakmak yanlış alarm verir
++      ④ upstream tazelenir (`fetch`); `merge-base --is-ancestor` hükmü verir.
++         fetch düşerse yerel kopya yalnız OLUMLU yönde kullanılır (orada varsa
++         uzakta da vardı); olumsuzsa ÖLÇÜLEMEDİ — bayat kopyayla "yok" denmez.
++    Hiçbir yol ULAŞTI'ya VARSAYIMLA düşmez."""
++    def g(*a):
++        return subprocess.run(["git", "-C", KOK] + list(a), timeout=90, **_kod)
++    try:
++        d = g("status", "--porcelain", "--", *yol)
++        if d.returncode != 0:
++            return "OLCULEMEDI", "git status kod=%d" % d.returncode
++        if (d.stdout or "").strip():
++            return "ULASMADI", "tahta dosyaları COMMIT EDİLMEDİ (çalışma ağacı kirli)"
++        c = g("log", "-1", "--format=%H", "HEAD", "--", yol[0])
++        benim = (c.stdout or "").strip()
++        if c.returncode != 0 or not benim:
++            return "OLCULEMEDI", "tahtayı taşıyan commit bulunamadı"
++        b = g("symbolic-ref", "-q", "--short", "HEAD")
++        dal = (b.stdout or "").strip()
++        if b.returncode != 0 or not dal:
++            return "OLCULEMEDI", "HEAD bir dalda değil (detached) — push hedefi yok"
++        uzak = (g("config", "branch.%s.remote" % dal).stdout or "").strip()
++        hedef = (g("config", "branch.%s.merge" % dal).stdout or "").strip()
++        if not uzak or not hedef:
++            return "OLCULEMEDI", "'%s' dalının upstream'i yok — push hedefi bilinmiyor" % dal
++        f = g("fetch", "-q", uzak, hedef)
++        u = g("rev-parse", "--verify", "-q", "%s@{u}" % dal)
++        uc = (u.stdout or "").strip()
++        if u.returncode != 0 or not uc:
++            return "OLCULEMEDI", "upstream ref'i çözülemedi (%s %s)" % (uzak, hedef)
++        a = g("merge-base", "--is-ancestor", benim, uc)
++        kisa = "%s %s @ %s" % (uzak, hedef.replace("refs/heads/", ""), uc[:8])
++        if a.returncode == 0:
++            return "ULASTI", "commit %s uzakta: %s" % (benim[:8], kisa)
++        if a.returncode == 1:
++            if f.returncode != 0:
++                return "OLCULEMEDI", ("fetch düştü, yerel kopyada commit %s yok"
++                                      " (bayat olabilir): %s" % (benim[:8], kisa))
++            return "ULASMADI", "commit %s UZAKTA YOK: %s" % (benim[:8], kisa)
++        return "OLCULEMEDI", "merge-base kod=%d" % a.returncode
++    except Exception as e:
++        return "OLCULEMEDI", "%s: %s" % (type(e).__name__, e)
++
++
++
+ def _git(kayit, baslik, govde):
+     ileti = os.path.join(KOK, ".tahta_ileti")
+     io.open(ileti, "w", encoding="utf-8", newline="\n").write(
+@@ -531,138 +584,68 @@ def _git(kayit, baslik, govde):
+                 print("   ⇒ Mesaj tahta.json'da VAR. TEKRAR YAZMA;"
+                       " birkaç saniye sonra `py arac/tahta.py oku` yeter —"
+                       " başka bir oturumun push'u onu taşır.")
+-        subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
++        # 🔴 `pull --rebase` ÇIKIŞI OKUNUR (W50, 6 Ekim 2026). Eskiden bu satır
++        # sonucuna bakmıyordu: çakışırsa rebase YARIM kalıyor, depo kilitleniyordu.
++        # Ölçüldü: `C:\atlas` 6 Ekim 01:28'den beri `pick 11e3dd92 TAHTA M-5755`
++        # rebase'inin ortasındaydı (çakışan `TAHTA.md`+`tahta.json`) ve sonraki
++        # bütün yazımlar `_git_yarim()` kapısına çarpıyordu.
++        # ⇒ Yalnız KENDİ açtığımız rebase'i geri alırız: pull'dan ÖNCE depo
++        #   temizdiyse, sonradan doğan yarım işlem bizimdir. (`yaz()` kapısı
++        #   yalnız `yaz`ı korur; `oku`/`teyit`/`kapat` buraya kapısız gelir.)
++        _once = _git_yarim()
++        _pr = subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
++        if _pr.returncode != 0 and not _once and _git_yarim():
++            subprocess.run(["git", "-C", KOK, "rebase", "--abort"], **_kod)
++            print("⚠️ `pull --rebase` ÇAKIŞTI, kendi rebase'im geri alındı"
++                  " — commit yerelde duruyor, push büyük olasılıkla düşecek.")
+         p = subprocess.run(["git", "-C", KOK, "push"], **_kod)
++        # 🔴🔴 DÖRDÜNCÜ DÜZELTME — "ULAŞMIŞ" ÜÇ KEZ YALAN SÖYLEDİ (W50, 6 Ekim).
++        #   Push DÜŞTÜĞÜNDE araç `git log HEAD`e bakıp *"COMMIT EDİLDİ — mesaj
++        #   ULAŞMIŞ"* diyordu. Bu YEREL bir ölçümdü: "aynı depodan başka bir
++        #   oturumun push'u onu taşır" varsayımına dayanıyordu. Makine dallı
++        #   topolojide (HAVVA/UMIT/KASA ayrı depolar) o "başka push" çoğu zaman
++        #   YOKTUR ⇒ mesaj yerelde kaldı, araç "TEKRAR YAZMA" dedi, HAVVA üç kez
++        #   elle push etti. İYİMSER yalan — bu aletin var olma sebebinin tersi.
++        #   Başarı dalı da `origin/main`e bakıyordu: makine dalına push eden
++        #   depoda bu YANLIŞ ALARMDI; ölçülemeyince de `_var=True` (iyimser).
++        #   Ve M-numarası araması `TEYIT`/`KAPANIS` commit'lerini ayırt
++        #   edemiyordu (aynı numara ilk mesajdan zaten uzaktaydı).
++        # ⇒ Tek soru, iki dalda da AYNI ve UZAKTA sorulur: *"tahta dosyalarını
++        #   taşıyan commit, PUSH HEDEFİNİN (upstream) geçmişinde mi?"* Push'un
++        #   çıkış kodu yalnız bilgidir; hükmü ölçüm verir. Ölçülemezse
++        #   ÖLÇÜLEMEDİ yazılır — ULAŞTI SAYILMAZ.
++        # 📌 Önceki üç düzeltmenin dersi aynıydı ("soru yanlıştı"); bu kez de
++        #   öyle: "commit oldu mu" ≠ "uzakta mı".
++        _hal, _ayr = _ulasti_mi(yol, _kod)
+         if p.returncode == 0:
+-            # 🔴🔴 "push kod=0" TESLİM DEMEK DEĞİL — 16 Ağustos'ta ÖLÇÜLDÜ.
+-            # VAKA (`VERI-ZAMAN` bildirdi): commit bir EDİTÖR açtı ve
+-            # tamamlanmadı; mesaj yerelde kaldı. Ama `git push` ÖNCEKİ
+-            # commit'leri gönderdiği için kod=0 döndü ve araç
+-            #     "push ✓ — mesaj artık HERKESTE"
+-            # yazdı. **Mesaj hiçbir yere gitmedi ve araç BAŞARI bildirdi.**
+-            #
+-            # 📌 Bu, `send_message`ın öldürücü yönünün ta kendisi:
+-            # İYİMSER yalan kaybı GİZLER. Kötümser yalanı (yanlış alarm)
+-            # bu sabah düzelttim ve **tehlikeli yönü açık bıraktım** —
+-            # yani düzeltilecek iki yönden yanlış olanını seçmişim.
+-            #
+-            # ⇒ Artık kod'a değil KAYDA bakıyor: mesaj numarası uzaktaki
+-            # dalda GERÇEKTEN var mı?
+-            _m = re.search(r"M-\d{4}", baslik or "")
+-            _no = _m.group(0) if _m else ""
+-            # 🔴 İLK YAZIMIM `origin/main`e BAKIYORDU ve YANLIŞ ALARM
+-            # üretti — iki oturum ölçüp bildirdi (M-0347). Sebep:
+-            # `git log origin/main` **yereldeki uzak-dal kopyasını** okur
+-            # ve o kopya `fetch` yapılmadan BAYATTIR. Push başarılı olsa
+-            # bile yerel kopya güncellenmemiş olabiliyor.
+-            #
+-            # ⇒ YANLIŞ ŞEYİ ÖLÇMÜŞÜM. Doğrusu şu: kaybın gerçek sebebi
+-            # "push gitmedi" DEĞİL, **"commit hiç olmadı"**dı (editör
+-            # açıldı ve tamamlanmadı). Push zaten kod=0 verdi.
+-            # ⇒ O hâlde COMMIT'i sınamak yeterli ve KESİN: mesaj yerel
+-            #   HEAD geçmişinde varsa ve push kod=0 döndüyse, TESLİM
+-            #   EDİLMİŞTİR. `fetch` gerekmez, bayat kopya sorunu yoktur.
+-            # 📌 Ders: bir yanılmayı düzeltirken ÖLÇÜLECEK ŞEYİ de
+-            #   yeniden seç. Ben eski soruyu (uzakta var mı) koruyup
+-            #   yalnız yönünü değiştirdim; asıl kusur SORUDAYDI.
+-            # 🔴 ÜÇÜNCÜ DÜZELTME — VE YİNE SORU YANLIŞTI (16 Ağustos 2026).
+-            #   Test *"HEAD geçmişinde numaramı taşıyan bir COMMIT var mı"*
+-            #   diye soruyordu. Ama tahta paylaşılan bir dosya: mesajı
+-            #   BAŞKA BİR OTURUMUN PUSH'U taşımış olabilir — o zaman
+-            #   benim numaramla bir commit BAŞLIĞI hiç doğmaz, mesaj ise
+-            #   uzakta VARDIR. Ölçüldü (M-0588): araç *"MESAJ UZAKTA YOK"*
+-            #   dedi, `git show origin/main:oturumlar/tahta.json` mesajı
+-            #   GÖSTERDİ. Yanlış alarm, ve alarmın bedeli güven.
+-            # 📌 Aynı dersin ÜÇÜNCÜ turu: önce yön yanlıştı (origin/main),
+-            #   sonra bir dal düzeltilip öteki unutuldu, şimdi de SORUNUN
+-            #   KENDİSİ. Doğru soru tek: *"mesaj uzaktaki DOSYADA var mı?"*
+-            #   — kimin commit'iyle gittiği ALAKASIZ.
+-            _var = True                       # numara yoksa eski davranış
+-            if _no:
+-                def _uzakta(ref):
+-                    try:
+-                        g = subprocess.run(
+-                            ["git", "-C", KOK, "show",
+-                             "%s:oturumlar/tahta.json" % ref],
+-                            timeout=60, **_kod)
+-                        return ('"%s"' % _no) in (g.stdout or "")
+-                    except Exception:
+-                        return None
+-                _var = _uzakta("origin/main")
+-                if _var is False:
+-                    # origin/main YEREL bir kopyadır ve başkasının push'u
+-                    # onu bayatlatmış olabilir. Alarm çalmadan ÖNCE bir
+-                    # kez tazele — yanlış alarm, alarmsızlıktan ucuz
+-                    # değildir: ikisi de kanala olan güveni bozar.
+-                    try:
+-                        subprocess.run(["git", "-C", KOK, "fetch", "-q",
+-                                        "origin", "main"],
+-                                       timeout=90, **_kod)
+-                    except Exception:
+-                        pass
+-                    _var = _uzakta("FETCH_HEAD")
+-                if _var is None:
+-                    _var = True               # ölçemedik ⇒ alarm ÇALMAZ
+-            if _var:
+-                print("push  : ✓ — mesaj artık HERKESTE")
+-            else:
+-                print("push  : 🔴 kod=0 AMA MESAJ UZAKTA YOK — %s" % _no)
+-                print("   ⚠️ commit tamamlanmamış olabilir (editör açıldıysa"
+-                      " ya da hook kestiyse). MESAJ SENDE KALDI.")
+-                print("   ⇒ `git status` bak, commit'i tamamla, TEKRAR YAZMA"
+-                      " — mesaj tahta.json'da ZATEN var, yalnız gitmedi.")
++            if _hal == "ULASTI":
++                print("push  : ✓ — mesaj artık HERKESTE (%s)" % _ayr)
++            elif _hal == "ULASMADI":
++                print("push  : 🔴 kod=0 AMA MESAJ UZAKTA YOK — %s" % _ayr)
++                print("   ⚠️ MESAJ SENDE KALDI. TEKRAR YAZMA — mesaj tahta.json'da"
++                      " ZATEN var, yalnız gitmedi. `git status` + `git push`.")
+                 print("   Bunu KULLANICIYA da söyle — arıza ÜÇ YERE (§7.1).")
++            else:
++                print("push  : ⚠️ kod=0 ama ULAŞTIĞI ÖLÇÜLEMEDİ — %s" % _ayr)
++                print("   ULAŞTI SAYMA: `git log @{u}..` ile bak.")
+         else:
+-            # 🔴 Bu aletin bütün varlık sebebi: "gönderdim sandım" hatası.
+-            # AMA 16 Ağustos 2026'da TERSİ ölçüldü: push `cannot lock ref`
+-            # ile düştü, araç "ULAŞMADI" dedi, ve mesaj ASLINDA GİT'TEYDİ —
+-            # eşzamanlı başka bir push onu taşımıştı. İki oturum uyarıya
+-            # uyup mesajı TEKRAR yazdı: M-0242 = M-0243, birebir 3374
+-            # karakter. Zarar mükerrer mesaj, ama sebebi TAHMİNDİ.
+-            #
+-            # ⇒ Artık TAHMİN ETMİYOR, ÖLÇÜYOR: uzaktaki dalda mesaj
+-            # numarası gerçekten var mı diye bakıyor.
+-            # 📌 `send_message` İYİMSER yanılıyordu ("gönderdim", göndermedi)
+-            # ve kaybı GİZLİYORDU. Bu araç KÖTÜMSER yanılıyordu ("ulaşmadı",
+-            # ulaşmıştı) ve fazladan İŞ yaptırıyordu. İkincisi güvenli ama
+-            # bedava değil — bir kanal yanılacaksa **teslim ettiğini inkâr
+-            # etsin, etmediğini iddia etmesin**; en iyisi ise YANILMAMAK.
+-            # ⚠️ `no` bu fonksiyonun kapsamında YOK (çağıranda yerel) —
+-            # ilk yazımımda doğrudan `no` yazdım ve NameError verecekti.
+-            # Mesaj numarası commit BAŞLIĞINDA duruyor, oradan alınıyor.
+-            _m = re.search(r"M-\d{4}", baslik or "")
+-            _no = _m.group(0) if _m else ""
+-            # 🔴 BU DAL DA `origin/main`E BAKIYORDU — ve yanlış negatif
+-            # verdi (M-0454). Başarı yolunu HEAD'e çevirdim ama BU YOLU
+-            # ÖYLE BIRAKTIM: yarım düzeltme.
+-            # 📌 `origin/main` yereldeki uzak-dal KOPYASIDIR ve `fetch`
+-            # yapılmadan bayattır. Eşzamanlı bir push ref'i oynatınca
+-            # bizim push'umuz düşer ama COMMIT durur ve bir sonraki
+-            # push onu taşır.
+-            # ⇒ Doğru soru ikisinde de AYNI: **commit oldu mu?**
+-            #   Olduysa mesaj güvende — gitmesi zaman meselesi.
+-            #   Olmadıysa mesaj SENDE kaldı ve elle kurtarılmalı.
+-            _ulasti = False
+-            if _no:
+-                try:
+-                    _g = subprocess.run(
+-                        ["git", "-C", KOK, "log", "HEAD", "--oneline",
+-                         "-40"], timeout=60, **_kod)
+-                    _ulasti = _no in (_g.stdout or "")
+-                except Exception:
+-                    pass
+             print("push  : 🔴 kod=%d" % p.returncode)
+             print("   " + (p.stderr or "").strip()[:200])
+-            if _ulasti:
+-                print("   🟢 AMA ÖLÇÜLDÜ: %s COMMIT EDİLDİ — mesaj "
+-                      "ULAŞMIŞ." % _no)
+-                print("      Başka bir oturumun push'u onu taşımış. "
+-                      "TEKRAR YAZMA — mükerrer olur.")
+-            else:
+-                print("   ⚠️ ÖLÇÜLDÜ: %s COMMIT EDİLMEDİ — MESAJ HENÜZ "
+-                      "KİMSEYE ULAŞMADI." % _no)
++            if _hal == "ULASTI":
++                print("   🟢 AMA ÖLÇÜLDÜ: mesajı taşıyan commit UZAKTA — ULAŞMIŞ"
++                      " (%s)." % _ayr)
++                print("      Başka bir push onu taşımış. TEKRAR YAZMA —"
++                      " mükerrer olur.")
++            elif _hal == "ULASMADI":
++                print("   🔴 ÖLÇÜLDÜ: %s — MESAJ KİMSEYE ULAŞMADI." % _ayr)
++                print("      TEKRAR YAZMA (tahta.json'da var); depoyu düzeltip"
++                      " elle `git push`.")
+                 print("      Bunu KULLANICIYA da söyle — arıza ÜÇ YERE "
+                       "bildirilir (§7.1).")
++            else:
++                print("   ⚠️ ULAŞIP ULAŞMADIĞI ÖLÇÜLEMEDİ — %s." % _ayr)
++                print("      ULAŞTI SAYMA: `git log @{u}..` ile bak, gerekiyorsa"
++                      " elle `git push`. KULLANICIYA söyle.")
+     except Exception as e:
+         # 🔴 SESSİZ GEÇİLMEZ. Önceki hâlde bir istisna `finally`ye düşüyor,
+         # temizlik yapılıyor ve akış "push ✓" basmış gibi sürüyordu. Artık
+diff --git a/denetim/ARAC-TAHTA-ULASTI-SINAV-1006.py b/denetim/ARAC-TAHTA-ULASTI-SINAV-1006.py
+new file mode 100644
+index 00000000..1b3f75eb
+--- /dev/null
++++ b/denetim/ARAC-TAHTA-ULASTI-SINAV-1006.py
+@@ -0,0 +1,231 @@
++# -*- coding: utf-8 -*-
++"""TAHTA ULASTI SINAVI — `_git()`in teslim hukmu UZAGI mi olcuyor? (W50, 6 Ekim 2026)
++
++Kusur (KALEM C): push DUSTUGUNDE arac `git log HEAD`e bakip "COMMIT EDILDI —
++mesaj ULASMIS" diyordu; HAVVA uc kez mesaji elle push etmek zorunda kaldi.
++Sinav GERCEK git fiksturuyle iki yonde koşar: yerel bir BARE uzak + klonlar.
++
++SENARYOLAR (hepsi gecici dizinde kurulur, sonunda silinir):
++  S1 push basarili (upstream=main)                       → ULASTI
++  S2 push pre-receive hook'la REDDEDILDI                  → ULASMADI
++  S3 push reddedildi AMA commit baska bir push'la gitmis  → ULASTI
++  S4 push basarili, upstream = makine dali (main DEGIL)   → ULASTI
++  S5 TEYIT commit'i reddedildi (M-numarasi uzakta eskiden var) → ULASMADI
++  S6 pull --rebase CAKISIR                               → ULASMADI + depo YARIM KALMAZ
++  S7 detached HEAD (push hedefi yok)                      → ULASTI DEMEZ
++"Dogru" her senaryoda ARACTAN BAGIMSIZ olculur: bare depoda mesaji tasiyan
++icerik gercekten var mi (`git --git-dir <bare> log --all`).
++
++KULLANIM:
++    py denetim/ARAC-TAHTA-ULASTI-SINAV-1006.py [--tahta <tahta.py>]
++  --tahta  sinanacak tahta.py (varsayilan: bu agacin arac/tahta.py'si). BOZUK YON:
++           eski surumu verince sinav OTMELI (S2 · S4 · S5 · S6 · S7).
++CIKIS: 0 temiz · 1 kusur · 2 olculemedi (fikstur kurulamadi)
++"""
++import contextlib
++import importlib.util
++import io
++import json
++import os
++import shutil
++import subprocess
++import sys
++import tempfile
++
++sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++
++
++def _arg(ad):
++    if ad in sys.argv:
++        i = sys.argv.index(ad)
++        if i + 1 < len(sys.argv):
++            return sys.argv[i + 1]
++    return None
++
++
++TAHTA = _arg("--tahta") or os.path.join(KOK, "arac", "tahta.py")
++spec = importlib.util.spec_from_file_location("tahta_sinanan", TAHTA)
++T = importlib.util.module_from_spec(spec)
++sys.path.insert(0, os.path.join(KOK, "arac"))
++spec.loader.exec_module(T)
++
++for k, v in (("GIT_AUTHOR_NAME", "sinav"), ("GIT_AUTHOR_EMAIL", "sinav@yerel"),
++             ("GIT_COMMITTER_NAME", "sinav"), ("GIT_COMMITTER_EMAIL", "sinav@yerel")):
++    os.environ[k] = v
++
++HATA, OLCULEMEDI = 0, 0
++
++
++def git(*a, cwd=None, ok=True):
++    r = subprocess.run(["git"] + list(a), cwd=cwd, capture_output=True, text=True,
++                       encoding="utf-8", errors="replace")
++    if ok and r.returncode != 0:
++        raise RuntimeError("git %s → %d: %s" % (" ".join(a), r.returncode, r.stderr.strip()))
++    return r
++
++
++def bare_kur(kok):
++    R = os.path.join(kok, "uzak.git")
++    git("init", "-q", "--bare", "-b", "main", R)
++    git("config", "core.hooksPath", os.path.join(R, "hooks").replace("\\", "/"), cwd=R)
++    return R
++
++
++def ret_hook(R, ac):
++    h = os.path.join(R, "hooks", "pre-receive")
++    if ac:
++        os.makedirs(os.path.dirname(h), exist_ok=True)
++        io.open(h, "w", newline="\n").write("#!/bin/sh\necho 'SINAV: push REDDEDILDI' >&2\nexit 1\n")
++    elif os.path.exists(h):
++        os.remove(h)
++
++
++def tahta_yaz(A, kayit):
++    os.makedirs(os.path.join(A, "oturumlar"), exist_ok=True)
++    io.open(os.path.join(A, "oturumlar", "tahta.json"), "w", encoding="utf-8",
++            newline="\n").write(json.dumps(kayit, ensure_ascii=False, indent=1) + "\n")
++    io.open(os.path.join(A, "oturumlar", "TAHTA.md"), "w", encoding="utf-8",
++            newline="\n").write("".join("%s %s\n" % (m["no"], m["mesaj"]) for m in kayit))
++
++
++def klon_kur(kok, R, ad, dal="main", ilk=False):
++    A = os.path.join(kok, ad)
++    if ilk:
++        git("init", "-q", "-b", "main", A)
++        git("remote", "add", "origin", R, cwd=A)
++        tahta_yaz(A, [])
++        git("add", "--", "oturumlar", cwd=A)
++        git("commit", "-q", "-m", "kurulus", cwd=A)
++        git("push", "-q", "-u", "origin", "main", cwd=A)
++    else:
++        git("clone", "-q", R, A)
++    if dal != "main":
++        git("checkout", "-q", "-b", dal, cwd=A)
++        git("push", "-q", "-u", "origin", dal, cwd=A)
++    return A
++
++
++def uzakta_mi(R, isaret):
++    """Dogru: bare depoda `isaret` metnini tasiyan tahta.json herhangi bir dalda var mi."""
++    r = git("--git-dir", R, "log", "--all", "-p", "--format=", "--",
++            "oturumlar/tahta.json", ok=False)
++    return isaret in (r.stdout or "")
++
++
++def gonder(A, baslik):
++    T.KOK = A
++    out = io.StringIO()
++    with contextlib.redirect_stdout(out):
++        T._git(None, baslik, "govde")
++    return out.getvalue()
++
++
++def hukum(cikti):
++    if "ÖLÇÜLEMEDİ" in cikti:
++        return "OLCULEMEDI"
++    if "ULAŞMADI" in cikti or "UZAKTA YOK" in cikti:
++        return "ULASMADI"
++    if "ULAŞMIŞ" in cikti or "HERKESTE" in cikti:
++        return "ULASTI"
++    return "?"
++
++
++def sonuc(ad, cikti, dogru, kabul, ek=""):
++    global HATA
++    h = hukum(cikti)
++    ok = h in kabul
++    if not ok:
++        HATA += 1
++    print(("  OK   " if ok else "  HATA ") + "%s | dogru(uzakta)=%s · arac=%s · beklenen=%s%s"
++          % (ad, "VAR" if dogru else "YOK", h, "/".join(kabul), (" · " + ek) if ek else ""))
++    if not ok:
++        for s in cikti.strip().splitlines()[:8]:
++            print("         > " + s)
++
++
++def main():
++    global OLCULEMEDI
++    print("TAHTA ULASTI SINAVI — sinanan: %s" % TAHTA)
++    kok = tempfile.mkdtemp(prefix="tahta_ulasti_")
++    try:
++        # ---- fikstur 1: main dali ----
++        R = bare_kur(kok)
++        A = klon_kur(kok, R, "A", ilk=True)
++        kayit = [{"no": "M-0001", "mesaj": "S1-ilk"}]
++        tahta_yaz(A, kayit)
++        c = gonder(A, "TAHTA M-0001 — X -> Y")
++        sonuc("S1 push basarili", c, uzakta_mi(R, "S1-ilk"), ("ULASTI",))
++
++        ret_hook(R, True)
++        kayit.append({"no": "M-0002", "mesaj": "S2-ret"})
++        tahta_yaz(A, kayit)
++        c = gonder(A, "TAHTA M-0002 — X -> Y")
++        sonuc("S2 push REDDEDILDI", c, uzakta_mi(R, "S2-ret"), ("ULASMADI",))
++
++        # S3: baska bir oturum ayni depodan push etti (hook o an kapali), sonra
++        # baska bir oturumun ilgisiz commit'i yerelde; bizim push'umuz duser.
++        ret_hook(R, False)
++        git("push", "-q", cwd=A)
++        ret_hook(R, True)
++        io.open(os.path.join(A, "ilgisiz.txt"), "w").write("x\n")
++        git("add", "--", "ilgisiz.txt", cwd=A)
++        git("commit", "-q", "-m", "ilgisiz", cwd=A)
++        c = gonder(A, "TAHTA M-0002 — X -> Y")
++        sonuc("S3 ret ama baska push tasimis", c, uzakta_mi(R, "S2-ret"), ("ULASTI",))
++
++        kayit[1]["teyit"] = "S5-teyit"
++        tahta_yaz(A, kayit)
++        c = gonder(A, "TAHTA M-0002 TEYIT — X")
++        sonuc("S5 TEYIT reddedildi", c, uzakta_mi(R, "S5-teyit"), ("ULASMADI",))
++        ret_hook(R, False)
++
++        # ---- fikstur 2: makine dali ----
++        R2 = bare_kur(os.path.join(kok, "f2"))
++        klon_kur(os.path.join(kok, "f2"), R2, "A", ilk=True)
++        B = klon_kur(os.path.join(kok, "f2"), R2, "B", dal="makine/sinav")
++        tahta_yaz(B, [{"no": "M-0001", "mesaj": "S4-makine"}])
++        c = gonder(B, "TAHTA M-0001 — X -> Y")
++        sonuc("S4 makine dalina push", c, uzakta_mi(R2, "S4-makine"), ("ULASTI",))
++
++        # ---- fikstur 3: pull --rebase cakismasi ----
++        k3 = os.path.join(kok, "f3")
++        R3 = bare_kur(k3)
++        A3 = klon_kur(k3, R3, "A", ilk=True)
++        B3 = klon_kur(k3, R3, "B")
++        tahta_yaz(B3, [{"no": "M-0001", "mesaj": "S6-oteki-makine"}])
++        git("commit", "-q", "-am", "B", cwd=B3)
++        git("push", "-q", cwd=B3)
++        tahta_yaz(A3, [{"no": "M-0001", "mesaj": "S6-bizim"}])
++        c = gonder(A3, "TAHTA M-0001 — X -> Y")
++        T.KOK = A3
++        yarim = T._git_yarim()
++        sonuc("S6 pull --rebase cakisti", c, uzakta_mi(R3, "S6-bizim"), ("ULASMADI",),
++              "depo yarim: %s" % (yarim or "HAYIR"))
++        if yarim:
++            global HATA
++            HATA += 1
++            print("  HATA S6 depo REBASE ORTASINDA BIRAKILDI: %s" % yarim)
++            git("rebase", "--abort", cwd=A3, ok=False)
++
++        # ---- fikstur 4: detached HEAD ----
++        k4 = os.path.join(kok, "f4")
++        R4 = bare_kur(k4)
++        A4 = klon_kur(k4, R4, "A", ilk=True)
++        git("checkout", "-q", "--detach", cwd=A4)
++        tahta_yaz(A4, [{"no": "M-0001", "mesaj": "S7-detached"}])
++        c = gonder(A4, "TAHTA M-0001 — X -> Y")
++        sonuc("S7 detached HEAD", c, uzakta_mi(R4, "S7-detached"), ("ULASMADI", "OLCULEMEDI"))
++    except Exception as e:
++        OLCULEMEDI += 1
++        print("  OLCULEMEDI fikstur: %s: %s" % (type(e).__name__, e))
++    finally:
++        shutil.rmtree(kok, ignore_errors=True)
++    print("SONUC: %s · hata %d · olculemedi %d"
++          % ("temiz" if not (HATA or OLCULEMEDI) else ("KUSUR" if HATA else "OLCULEMEDI"),
++             HATA, OLCULEMEDI))
++    return 1 if HATA else (2 if OLCULEMEDI else 0)
++
++
++if __name__ == "__main__":
++    sys.exit(main())

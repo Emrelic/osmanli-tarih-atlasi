@@ -1,0 +1,22 @@
+{
+  "ANT-2": {
+    "ant-harita-1013-23-kayit": {"hukum": "cozuldu", "not": "origin/ant-harita-1013 dalının data/antlasma_haritalari.js + KUTU-HUKUM-ANT-HARITA-1013.json farkı güncel main'e uygulandı (paket/index üretilmiş dosyaları ALINMADI, yeniden üretildi). 23 yeni kayıt node ile yüklendi; 5 kayıt TDV gövdesiyle sınandı (küçük-kaynarca Kılburun/Yenikale/Kerç, kasrişirin Bağdat-Basra-Şehrizor/Revan, zitvatorok Eğri-Kanije-Estergon/Vác, amasya Basra-Bağdat-Şehrizor, belgrad Semendire/Banat). Eşleşme: 5 kayıtta antlasma_ad kronoloji ikizlerini de yakalıyordu (Küçük Kaynarca/Kozluca, Ziştovi ve Yaş onay maddeleri, Atina/Bozcaada), antlasma_ad daraltıldı; Berlin 1878 üç maddeye eşleşir (üçü de Berlin).", "delil": "data/antlasma_haritalari.js; denetim/KUTU-HUKUM-ANT-HARITA-1013.json"},
+    "belgrad-1739-kaynak-notu": {"hukum": "olculecek", "not": "belgrad-1739 kaydındaki TDV belgrad-antlasmalari slug'ı 302 (arama sayfası); alıntı '(Banat hariç) ... Belgrad'ı geri vermiştir' arama sayfası kesitinde okundu, tam madde gövdesinde değil. Koordinatlar ve hüküm doğru, kaynak künyesi zayıf.", "delil": "data/antlasma_haritalari.js id belgrad-1739"},
+    "1608-01-01|İmam Kāsım": {"hukum": "cozuldu", "not": "kart antlasma8-yemen-kasim-1608 (TDV yemen)", "delil": "data/ekokuma_antlasma8.js"},
+    "1619-01-01|Zeydîler": {"hukum": "cozuldu", "not": "kart antlasma8-yemen-mehmed-pasa-1619 (TDV yemen)", "delil": "data/ekokuma_antlasma8.js"},
+    "1626-01-01|İmam Müeyyed": {"hukum": "cozuldu", "not": "kart antlasma8-yemen-barisin-bozulmasi-1626 (TDV yemen)", "delil": "data/ekokuma_antlasma8.js"},
+    "1630-08-01|İmam Müeyyed": {"hukum": "cozuldu", "not": "kart antlasma8-yemen-kansu-1630 (TDV yemen, Muharrem 1040)", "delil": "data/ekokuma_antlasma8.js"},
+    "1448-10-04|Dagno": {"hukum": "cozuldu", "not": "kart antlasma8-dagno-1448 (TDV iskender-bey)", "delil": "data/ekokuma_antlasma8.js"},
+    "1451-03-26|Gaeta": {"hukum": "cozuldu", "not": "kart antlasma8-gaeta-1451 (TDV iskender-bey)", "delil": "data/ekokuma_antlasma8.js"},
+    "1373-01-01|Vlaicu": {"hukum": "cozuldu", "not": "kart antlasma8-vlaicu-murad-1373 (TDV eflak); şartlar TDV'de yok", "delil": "data/ekokuma_antlasma8.js"},
+    "1881-05-12|Bardo": {"hukum": "cozuldu", "not": "kart antlasma8-bardo-1881 (TDV tunus)", "delil": "data/ekokuma_antlasma8.js"},
+    "1877-04-24|93 Harbi": {"hukum": "cozuldu", "not": "kart antlasma8-93-harbi-1877 (TDV doksanuc-harbi)", "delil": "data/ekokuma_antlasma8.js"},
+    "1588-01-01|Simon": {"hukum": "cozuldu", "not": "kart antlasma8-ferhad-simon-1588 (TDV gurcistan)", "delil": "data/ekokuma_antlasma8.js"},
+    "1735-03-21|Gence Antlaşması + 1735-01-01|Gence Antlaşması": {"hukum": "cozuldu", "not": "kart antlasma8-gence-1735 (TDV iran, yalnız yıl); 21 Mart günü TDV'de doğrulanmadı", "delil": "data/ekokuma_antlasma8.js"},
+    "1783-07-24|Georgievsk": {"hukum": "cozuldu", "not": "kart antlasma8-georgievsk-1783 (TDV gurcistan, yalnız yıl)", "delil": "data/ekokuma_antlasma8.js"},
+    "1886-01-01|Tunus-Trablusgarp kıyı kesimi": {"hukum": "cozulemedi", "not": "bulunamadı — TDV tunus ve libya gövdelerinde 1886/1892/1910 sınır düzenlemeleri ve Ras Ecdir-Gadames çizgisi yok (libya yalnız Fransa'nın Gât/Gadâmis'e göz koyduğunu söyler)", "delil": "scratchpad tdv_tunus.txt, tdv_libya.txt (GET 13 Ekim 2026)"},
+    "1892-01-01|İkinci Fransız-Osmanlı düzenlemesi": {"hukum": "cozulemedi", "not": "bulunamadı — aynı", "delil": "aynı"},
+    "1910-05-19|Trablus Sözleşmesi": {"hukum": "cozulemedi", "not": "bulunamadı — aynı", "delil": "aynı"},
+    "kuyruk-kalan-75": {"hukum": "cozulemedi", "not": "Gülistan, Türkmençay, Petersburg, Reşt, Brest-Litovsk, Batum, Selanik Mütarekesi, Villa Giusti, Kalas, Sofya, İstanbul Protokolü, Campo Formio, Nystad, Prag, Vestfalya vb. müstakil TDV slug'ları 302 (arama sayfası); TDV arama sayfası JS ile yüklendiğinden aday üretemedi. Kuyrukta bırakıldı.", "delil": "py _fetch.py slug listesi, 13 Ekim 2026"}
+  }
+}

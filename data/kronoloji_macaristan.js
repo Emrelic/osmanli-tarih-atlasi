@@ -119,7 +119,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1301-01-14", devlet:"macaristan", b:"III. András'ın ölümü ve Árpád hanedanının sona ermesi", tur:"son", onem:5, dunya:2, kapsam:"ic",
   etiket:["hanedan","son","konu-siyasi","konu-kisiler","konu-hanedan"],
-  yer_id:"Budin",
+  yer_id:"Aquincum-Óbuda-Pest",
   d:"András'ın erkek varisi olmadan ölümüyle 895'ten beri süren Árpád soyu tükendi. Taç için Anjoulu Károly Róbert, Bohemyalı Wenceslas ve Bavyeralı Otto arasında altı yıl sürecek bir veraset kavgası başladı.",
   kaynak:"akademik: Engel (2001), s. 111-124 — hanedanın sonu ve veraset krizi" },
 
@@ -127,7 +127,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hanedan","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"",
   d:"Rákos mecliste soyluların çoğunluğu Anjoulu Károly Róbert'i tanıdı; taç giyme töreni asıl kutsal taçla ancak 1310'da tamamlanabildi çünkü taç bir süre rakip beylerin elindeydi. Anjou hanedanı merkezî otoriteyi yeniden kurmaya girişti.",
-  kaynak:"akademik: Engel (2001), s. 124-131", yer_id:"Peşte" },
+  kaynak:"akademik: Engel (2001), s. 124-131 · daha önce künyede 1308-06-15 yazılıydı, kaynaksızdı; D2c'de bu maddenin gününe çekilmişti; mükerrer olarak kaldırıldı", yer_id:"Peşte" },
 
 { t:"1312-06-15", devlet:"macaristan", b:"Rozgony Muharebesi — Csák Máté'nin gücünün kırılması", tur:"savas", onem:4, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -147,7 +147,7 @@ window.KRONOLOJI_MACARISTAN = [
   d:"Károly Róbert'in ölümüyle on altı yaşındaki oğlu Lajos, babasının kurduğu güçlü malî ve idarî temeller üzerinde tahta çıktı. Kırk yıllık saltanatı Macaristan'ı Balkanlar'dan Baltık'a uzanan bir güç hâline getirecekti.",
   kaynak:"akademik: Engel (2001), s. 158-160" },
 
-{ t:"1351-12-11", devlet:"macaristan", b:"I. Lajos'un büyük yasası — soylu ayrıcalıklarının genelleştirilmesi ve 'aviticitas'", tur:"kanun", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Peşte"], t:"1351-12-11", devlet:"macaristan", b:"I. Lajos'un büyük yasası — soylu ayrıcalıklarının genelleştirilmesi ve 'aviticitas'", tur:"kanun", onem:4, dunya:1, kapsam:"ic",
   etiket:["kanun","idari","konu-idari","konu-hukuk"],
   yer_id:"", kapsam_genis:true,
   d:"1222 Altın Bulla'yı teyit eden yasa, bütün soyluları hukuken eşitledi ve soylu topraklarının aile dışına satılmasını yasaklayan 'aviticitas' ilkesini getirdi; ayrıca köylülerin toprak sahibine ödediği ondalık oranını (kilenc) sabitledi. Bu düzenleme Macar soylu anayasacılığının temel taşlarından biri olarak yüzyıllarca yürürlükte kaldı.",
@@ -187,7 +187,7 @@ window.KRONOLOJI_MACARISTAN = [
   d:"Zsigmond'un çağrısıyla toplanan Avrupa haçlı ordusu, Yıldırım Bayezid karşısında Niğbolu'da ağır bir yenilgiye uğradı; Zsigmond kendisi güçlükle kaçabildi. Bozgun, Osmanlı'nın Tuna sınırındaki ilerleyişini artık hiçbir koalisyonun tek seferde durduramayacağını gösterdi ve Macaristan'ı sürekli bir sınır savaşı devletine dönüştürdü.",
   kaynak:"TDV `nigbolu`: Niğbolu Savaşı'nın Haçlı ordusunun bozgunuyla sonuçlandığı ve Zsigmond'un canını güçlükle kurtardığı anlatılır", yer_id:"Niğbolu" },
 
-{ t:"1404-04-06", devlet:"macaristan", b:"Placetum regium — kraliyet onayı olmadan papalık fermanlarının yürürlüğe girmemesi", tur:"kanun", onem:2, dunya:1, kapsam:"ic",
+{ odak_yer:["Peşte"], t:"1404-04-06", devlet:"macaristan", b:"Placetum regium — kraliyet onayı olmadan papalık fermanlarının yürürlüğe girmemesi", tur:"kanun", onem:2, dunya:1, kapsam:"ic",
   etiket:["kanun","din","idari","konu-idari","konu-din","konu-hukuk"],
   yer_id:"", kapsam_genis:true,
   d:"Zsigmond, papalık bulalarının ve atamalarının Macaristan'da geçerli olabilmesi için önce kraliyet onayından geçmesini şart koştu; bu, kilise üzerinde kraliyet denetimini pekiştiren erken bir 'placetum' örneğiydi.",
@@ -197,7 +197,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["kultur","kurum","konu-siyasi","konu-burokrasi","konu-kultur"],
   yer_id:"",
   d:"Zsigmond, kraliyete sadık soyluları ve müttefik hükümdarları bir araya getiren şövalye nişanını kurdu; Eflak Voyvodası II. Vlad de üyeleri arasındaydı ve oğlu III. Vlad'a (Kazıklı Voyvoda) 'Dracula' lakabını miras bırakacaktı. Nişan, Zsigmond'un Orta Avrupa'daki hanedanlar arası ittifak ağının bir aracıydı.",
-  kaynak:"akademik: Engel (2001), s. 233", yer_id:"Budin" },
+  kaynak:"akademik: Engel (2001), s. 233", yer_id:"Aquincum-Óbuda-Pest" },
 
 { t:"1410-09-20", devlet:"macaristan", b:"Zsigmond'un Kutsal Roma Kralı seçilmesi", tur:"hukumdar", onem:3, dunya:2, kapsam:"dis",
   etiket:["hukumdar","diplomasi","konu-diplomasi","konu-hanedan"],
@@ -237,7 +237,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["askeri","idari","konu-askeri","konu-idari"],
   yer_id:"",
   d:"Alt tabakadan bir soylu ailesinden gelen Hunyadi János, askerî yeteneği sayesinde Erdel voyvodası ve güney serhaddin başkumandanı oldu; bundan sonraki on yedi yıl Macaristan'ın Osmanlı karşısındaki savunmasının fiilî yürütücüsü olacaktı.",
-  kaynak:"akademik: Engel (2001), s. 279-283 — TDV'de Hunyadi için müstakil madde yok, anlatısı `kosova`, `izladi`, `varna` maddelerine dağılmış", yer_id:"Budin" },
+  kaynak:"akademik: Engel (2001), s. 279-283 — TDV'de Hunyadi için müstakil madde yok, anlatısı `kosova`, `izladi`, `varna` maddelerine dağılmış", yer_id:"Aquincum-Óbuda-Pest" },
 
 { t:"1443-01-01", devlet:"macaristan", b:"Uzun Sefer'in (Long Campaign) başlaması", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","konu-askeri"],
@@ -279,7 +279,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hukumdar","darbe","darbe-siyasi","konu-kisiler","konu-darbe","konu-hanedan"],
   yer_id:"",
   d:"Genç Kral V. László, kendisine karşı gördüğü Hunyadi ailesinin gücünü kırmak için büyük oğul László Hunyadi'yi tuzağa düşürüp idam ettirdi; küçük kardeş Mátyás da tutuklandı. Bu şiddet, bir yıl sonra Mátyás'ın kral seçilmesinin zeminini hazırlayan halk desteğini doğurdu.",
-  kaynak:"akademik: Engel (2001), s. 298-300", yer_id:"Budin" },
+  kaynak:"akademik: Engel (2001), s. 298-300", yer_id:"Aquincum-Óbuda-Pest" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. MÁTYÁS CORVİNUS'UN ALTIN ÇAĞI (1458-1490)
@@ -287,7 +287,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1458-01-24", devlet:"macaristan", b:"Hunyadi Mátyás'ın (Mátyás Corvinus) kral seçilmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"ic",
   etiket:["hukumdar","hanedan","konu-siyasi","konu-hanedan"],
-  yer_id:"Budin",
+  yer_id:"Aquincum-Óbuda-Pest",
   d:"Buda'yı çevreleyen buzlu Tuna üzerinde toplanan soylu ve halk kitlesi, on beş yaşındaki Mátyás'ı kral ilan etti; bu, yabancı bir hanedan yerine 'yerli' bir soylu ailenin tahta çıktığı istisnaî bir andı. Otuz iki yıllık saltanatı Macaristan'ı Orta Avrupa'nın en güçlü devletlerinden birine dönüştürecekti.",
   kaynak:"akademik: Engel (2001), s. 301-303" },
 
@@ -307,9 +307,9 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["mali","reform","konu-ekonomi","konu-islahat"],
   yer_id:"", kapsam_genis:true,
   d:"Mátyás, dağınık ve düzensiz feodal vergileri tek bir hane vergisi (kapuadó) altında topladı; reform kraliyet hazinesinin gelirini önemli ölçüde artırdı ve daimi bir ücretli ordunun (Fekete Ordu) finansmanını mümkün kıldı. Soylu muafiyetleri korunduğu için yük esas olarak köylülüğe bindi.",
-  kaynak:"akademik: Engel (2001), s. 308-311", yer_id:"Budin" },
+  kaynak:"akademik: Engel (2001), s. 308-311", yer_id:"Aquincum-Óbuda-Pest" },
 
-{ t:"1471-01-01", devlet:"macaristan", b:"Fekete Ordu'nun (Fekete Sereg) daimi ücretli ordu olarak kurumsallaşması", tur:"kurulus", onem:4, dunya:2, kapsam:"ic",
+{ odak_yer:["Peşte","Viyana"], t:"1471-01-01", devlet:"macaristan", b:"Fekete Ordu'nun (Fekete Sereg) daimi ücretli ordu olarak kurumsallaşması", tur:"kurulus", onem:4, dunya:2, kapsam:"ic",
   etiket:["askeri","reform","konu-askeri","konu-siyasi","konu-islahat"],
   yer_id:"", kapsam_genis:true,
   d:"Çoğu Çek ve Alman paralı askerden oluşan Fekete Ordu, Mátyás'ın vergi reformuyla finanse edilen Avrupa'nın ilk büyük daimi ücretli ordularından biri hâline geldi; disiplinli yapısı Mátyás'a Avusturya ve Bohemya'ya karşı seferler açma gücü verdi.",
@@ -317,13 +317,13 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1473-06-05", devlet:"macaristan", b:"Macaristan'ın ilk matbaası — Hess András'ın Buda'da 'Chronica Hungarorum'u basması", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
   etiket:["bilim","kultur","imar","islahat","konu-bilim","konu-kultur","konu-imar","konu-islahat"],
-  yer_id:"Budin",
+  yer_id:"Aquincum-Óbuda-Pest",
   d:"Gutenberg'in ilk baskısından yalnızca on sekiz yıl sonra, Budin'de kurulan matbaadan çıkan 'Chronica Hungarorum' (Macar Vekayinâmesi), Macaristan'ı Avrupa'nın erken matbaacı ülkeleri arasına soktu. Matbaa Mátyás'ın ölümünden sonra kısa sürede etkinliğini yitirdi.",
   kaynak:"akademik: Kontler (2002), s. 106" },
 
 { t:"1476-12-15", devlet:"macaristan", b:"Mátyás'ın Nápoli Prensesi Beatrice ile evlenmesi ve saraya İtalyan Rönesansı'nın girişi", tur:"evlilik", onem:3, dunya:2, kapsam:"dis",
   etiket:["kultur","evlilik","diplomasi","konu-diplomasi","konu-hanedan","konu-kultur","konu-imar"],
-  yer_id:"Budin",
+  yer_id:"Aquincum-Óbuda-Pest",
   d:"Beatrice'in beraberinde getirdiği İtalyan sanatçı, mimar ve bilgin çevresi, Budin sarayını Alpler'in kuzeyindeki ilk büyük Rönesans merkezlerinden birine dönüştürdü; saray mimarîsi, bahçeler ve kütüphane bu evlilikten sonra hızla genişledi.",
   kaynak:"akademik: Engel (2001), s. 320-322" },
 
@@ -335,7 +335,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1489-01-01", devlet:"macaristan", b:"Bibliotheca Corviniana'nın Avrupa'nın önde gelen Rönesans kütüphanelerinden biri hâline gelmesi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
   etiket:["kultur","bilim","konu-bilim","konu-kultur"],
-  yer_id:"Budin",
+  yer_id:"Aquincum-Óbuda-Pest",
   d:"Mátyás'ın İtalyan ve Bizanslı hattat-nakkaşlar istihdam ederek büyüttüğü kütüphane, ölümüne dek yaklaşık 2000-2500 elyazması cilde ulaştı; Floransa Medici kütüphanesiyle boy ölçüşen koleksiyon, Mátyás'ın ölümünden sonra dağıldı ve bugün UNESCO Dünya Belleği listesindedir.",
   kaynak:"akademik: Kontler (2002), s. 106-107" },
 
@@ -405,7 +405,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hukumdar","bolunme","hanedan","konu-siyasi","konu-hanedan"],
   yer_id:"İstolni Belgrad",
   d:"II. Lajos'un kız kardeşiyle evli olan Habsburglu Ferdinand, Batı ve Kuzey Macaristan'ın büyük kısmının desteğiyle kral ilan edildi; on üç yıl sürecek bir iç savaşta iki kral (Szapolyai ve Ferdinand) ülke üzerinde birbiriyle çatıştı, her ikisi de zaman zaman Osmanlı'dan destek aradı.",
-  kaynak:"akademik: Engel (2001), s. 362-364 · gün: Magyar Katolikus Lexikon, 'pozsonyi királyválasztó országgyűlés' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1526. nov. 30.-dec. 17.: Habsburg Ferdinánd … magyar királlyá … választó gyűlés\" · 🔴 DÜZELTME: önceki gün 1527-01-01 idi; aynı sözlük o günü Hırvat soylularının Cetin'de Ferdinand'ı seçtiği gün olarak veriyor (\"A horvátok Czetinben 1527. I. 1: választották kir-lyá Ferdinándot\") — iki seçim karışmıştı; Cetin seçimi ayrı madde: kronoloji_cok_macaristan.js" },
+  kaynak:"akademik: Engel (2001), s. 362-364 · gün: Magyar Katolikus Lexikon, 'pozsonyi királyválasztó országgyűlés' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1526. nov. 30.-dec. 17.: Habsburg Ferdinánd … magyar királlyá … választó gyűlés\" · Düzeltme: önceki gün 1527-01-01 idi; aynı sözlük o günü Hırvat soylularının Cetin'de Ferdinand'ı seçtiği gün olarak veriyor (\"A horvátok Czetinben 1527. I. 1: választották kir-lyá Ferdinándot\") — iki seçim karışmıştı; Cetin seçimi ayrı madde: kronoloji_cok_macaristan.js" },
 
 { t:"1538-02-24", devletler:["macaristan-habsburg","dogu-macar-kralligi"], b:"Nagyvárad Antlaşması — Zápolya-Ferdinand paylaşımı", tur:"antlasma", onem:4, dunya:2, kapsam:"ic",
   etiket:["antlasma","bolunme","konu-siyasi","konu-diplomasi"],
@@ -421,7 +421,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1541-08-29", devlet:"macaristan-habsburg", b:"Budin'in Osmanlı tarafından fethi — ülkenin üçe bölünmesi", tur:"bolunme", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak-kayip","bolunme","konu-askeri","konu-siyasi"],
-  yer_id:"Budin",
+  yer_id:"Aquincum-Óbuda-Pest",
   d:"Kanuni Sultan Süleyman, Budin'i kuşatma bahanesiyle ele geçirip doğrudan Osmanlı eyaleti hâline getirdi; ülke bundan böyle üç ayrı siyasî varlığa bölündü — merkezde Osmanlı Budin Eyaleti, batı ve kuzeyde Habsburg'a bağlı Kraliyet Macaristanı, doğuda Osmanlı vasalı Erdel Prensliği. Bu bölünme 1699'a kadar 158 yıl sürecekti ve Macar tarihinde en derin travmalardan biri sayılır.",
   kaynak:"TDV `budin`: Budin'in 1541'de Osmanlı eyaleti hâline getirildiği, Macaristan'ın bu tarihten sonra üç kesime ayrıldığı anlatılır" },
 
@@ -435,7 +435,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["askeri","kusatma","olum","konu-askeri","konu-kisiler","konu-hukuk"],
   yer_id:"",
   d:"Zrínyi Miklós komutasındaki küçük garnizon, aylar süren kuşatmaya direndikten sonra son bir çıkışla neredeyse tamamen yok oldu; kale düşmeden hemen önce Kanuni Sultan Süleyman ordugâhında yaşlılıktan öldü, ölümü savaş bitene dek gizli tutuldu. Zrínyi'nin direnişi Macar-Hırvat millî hafızasında Eğri'ninkine benzer bir kahramanlık efsanesine dönüştü.",
-  kaynak:"TDV `suleyman-i` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"20-21 Safer 974 (6-7 Eylül 1566) gecesi hayata gözlerini yumdu\" · TDV `sigetvar`: kuşatmanın 5 Ağustos 1566'da başladığını ve 5 Eylül'de açılan lağımı anlatır, düşüş günü vermez · 🔴 DÜZELTME: önceki gün 1566-09-08 TDV sigetvar'a dayandırılmıştı ama o maddede 8 Eylül YOK; çekirdek olaylar.js 1566-09-07 ile hizalandı", yer_id:"Zigetvar" },
+  kaynak:"TDV `suleyman-i` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"20-21 Safer 974 (6-7 Eylül 1566) gecesi hayata gözlerini yumdu\" · TDV `sigetvar`: kuşatmanın 5 Ağustos 1566'da başladığını ve 5 Eylül'de açılan lağımı anlatır, düşüş günü vermez · Düzeltme: önceki gün 1566-09-08 TDV sigetvar'a dayandırılmıştı ama o maddede 8 Eylül YOK; çekirdek olaylar.js 1566-09-07 ile hizalandı", yer_id:"Zigetvar" },
 
 { t:"1571-08-16", devlet:"erdel", b:"Torda Edikti — Erdel'de din özgürlüğünün yasalaşması", tur:"kanun", onem:4, dunya:1, kapsam:"ic",
   etiket:["din","kanun","konu-din","konu-hukuk"],
@@ -503,7 +503,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1657-01-01", devlet:"erdel", b:"II. Rákóczi György'nin talihsiz Lehistan seferi", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","kriz","konu-askeri","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Varşova"],
   d:"Osmanlı'nın açık izni olmadan İsveç ile birlikte Lehistan'a giren Rákóczi'nin ordusu Tatar kuvvetlerince imha edildi; felaket, Osmanlı'nın Erdel üzerindeki denetimini sertleştirmesine ve prensliğin bir daha toparlanamayacağı bir çöküş sürecine yol açtı.",
   kaynak:"akademik: Kontler (2002), s. 160-161", kapsam_genis:true },
 
@@ -521,7 +521,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1678-09-13", devlet:"macaristan-habsburg", b:"Thököly İmre'nin Kuruc hareketinin başına geçmesi", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic",
   etiket:["isyan","hukumdar","konu-isyan","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Kassa (Košice)","Eperjes (Prešov)"],
   d:"Wesselényi Tertibi sonrası Habsburg baskısından kaçan Protestan soylu ve askerlerden oluşan Kuruc hareketi, genç Thököly İmre'nin liderliğinde birleşti; Thököly, Osmanlı desteğiyle Kuzey-Doğu Macaristan'ın büyük kısmını ele geçirecekti.",
   kaynak:"TDV `tokoli-imre`: Thököly'nin Kuruc hareketinin lideri olarak Osmanlı desteğiyle Kuzey Macaristan'da hâkimiyet kurduğu anlatılır", kapsam_genis:true },
 
@@ -529,17 +529,17 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["vassal","kurulus","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"Kassa (Košice)",
   d:"Budin Beylerbeyi İbrahim Paşa, Fülek önünde Thököly'ye beylik alâmetlerini verdi; IV. Mehmed'in beratı da alınmıştı. Böylece Osmanlı, Kassa merkezli Kuzey-Doğu Macaristan'da haraçgüzar bir 'Orta Macar' krallığı tanımış oldu; Kassa, Eperjes ve Tokaj bu kısa ömürlü vasal yapının merkezleriydi. Yapı 1683 Viyana bozgunundan sonra hızla çözüldü.",
-  kaynak:"TDV `tokoli-imre` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"Budin Beylerbeyi İbrâhim Paşa 16 Eylül'de Fülek Kalesi önünde İmre Tököli'ye prenslik alâmetlerini verdi; IV. Mehmed'den de berat alınmıştı\" · aynı madde: \"1682 Nisanından itibaren Eğri beylerbeyinin Tököli'den Orta Macaristan'ın seçilmiş kralı diye bahsetmesi\" · akademik: Kontler (2002), s. 165-166 · 🔴 DÜZELTME: önceki gün 1682-08-01 idi; kaynakta o gün bulunamadı" },
+  kaynak:"TDV `tokoli-imre` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"Budin Beylerbeyi İbrâhim Paşa 16 Eylül'de Fülek Kalesi önünde İmre Tököli'ye prenslik alâmetlerini verdi; IV. Mehmed'den de berat alınmıştı\" · aynı madde: \"1682 Nisanından itibaren Eğri beylerbeyinin Tököli'den Orta Macaristan'ın seçilmiş kralı diye bahsetmesi\" · akademik: Kontler (2002), s. 165-166 · Düzeltme: önceki gün 1682-08-01 idi; kaynakta o gün bulunamadı" },
 
 { t:"1685-10-15", devlet:"orta-macar-kralligi", gun:"15 Ekim 1685 (Varad'da tutuklanma)", b:"Thököly'nin Varad'da tutuklanması ve Orta Macar Krallığı'nın çöküşü", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"ic",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"Kassa (Košice)",
   d:"Serdar Melek İbrahim Paşa'nın emriyle Varad Beylerbeyi Ahmed Paşa, yardıma gelen Thököly'yi yakalattı. Habsburg karşı taarruzu aynı sonbaharda Kassa'yı da aldı; Thököly 2 Ocak 1686'da Belgrad'da serbest bırakıldığında Orta Macar Krallığı ortadan kalkmıştı. Kuruc geleneği sonraki kuşakta II. Rákóczi Ferenc'e miras kaldı.",
-  kaynak:"TDV `tokoli-imre` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"15 Ekim 1685'te Serdar Melek İbrâhim Paşa'nın emriyle Varad Beylerbeyi Ahmed Paşa kendisine yardım için gelen İmre Tököli'yi yakalattı\" · \"2 Ocak 1686'da Belgrad'da serbest bırakıldığında Orta Macar Krallığı artık ortadan kalkmıştı\" · akademik: Kontler (2002), s. 166 · 🔴 DÜZELTME: başlık 15 Ekim'i Kassa'nın kaybına bağlıyordu; TDV o günü tutuklanmaya veriyor, Kassa'nın teslim günü bulunamadı" },
+  kaynak:"TDV `tokoli-imre` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"15 Ekim 1685'te Serdar Melek İbrâhim Paşa'nın emriyle Varad Beylerbeyi Ahmed Paşa kendisine yardım için gelen İmre Tököli'yi yakalattı\" · \"2 Ocak 1686'da Belgrad'da serbest bırakıldığında Orta Macar Krallığı artık ortadan kalkmıştı\" · akademik: Kontler (2002), s. 166 · Düzeltme: başlık 15 Ekim'i Kassa'nın kaybına bağlıyordu; TDV o günü tutuklanmaya veriyor, Kassa'nın teslim günü bulunamadı" },
 
 { t:"1686-09-02", devlet:"macaristan-habsburg", b:"Budin'in Habsburglar tarafından geri alınması", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
-  yer_id:"Budin",
+  yer_id:"Aquincum-Óbuda-Pest",
   d:"Kutsal İttifak ordusu, 145 yıllık Osmanlı hâkimiyetindeki Budin'i geri aldı; Macar millî hafızasında bu, 'ülkenin Osmanlı boyunduruğundan kurtuluşunun' başlangıcı olarak anılır, ancak kurtuluş yeni bir Habsburg merkezîleşmesiyle sonuçlanacaktı.",
   kaynak:"TDV `budin`: Budin'in 1686'da Kutsal İttifak ordusunca geri alındığı anlatılır" },
 
@@ -599,7 +599,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["antlasma","isyan","konu-diplomasi","konu-isyan"],
   yer_id:"",
   d:"Rákóczi'nin yokluğunda general Károlyi Sándor'un imzaladığı barış, Kuruc askerlerine genel af ve Macar anayasal ayrıcalıklarının (soylu vergi muafiyeti, Diyet'in yasama hakkı) tanınmasını sağladı; buna karşılık Habsburg hanedanının kalıtsal egemenliği kesinleşti. Barış, Habsburg-Macar ilişkilerini bir asır boyunca nispeten istikrarlı bir uzlaşmaya oturttu.",
-  kaynak:"Magyar Nemzeti Levéltár, 'A szatmári béke' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1711. április 29-én Nagykárolyban írta alá Károlyi Sándor és Pálffy János\" · \"a ratifikálásra pedig május 26-án Bécsben került sor\" · akademik: Kontler (2002), s. 172-173 · 🔴 DÜZELTME: önceki gün 30 Nisan idi (Kontler'e dayandırılmış, sayfa bu oturumda okunmadı); kronoloji_habsburg.js aynı olayı 29 Kasım'da tutuyordu — ikisi de ulusal arşivin gününe hizalandı", yer_id:"Szatmár (Satu Mare)" },
+  kaynak:"Magyar Nemzeti Levéltár, 'A szatmári béke' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1711. április 29-én Nagykárolyban írta alá Károlyi Sándor és Pálffy János\" · \"a ratifikálásra pedig május 26-án Bécsben került sor\" · akademik: Kontler (2002), s. 172-173 · Düzeltme: önceki gün 30 Nisan idi (Kontler'e dayandırılmış, sayfa okunmadı); kronoloji_habsburg.js aynı olayı 29 Kasım'da tutuyordu — ikisi de ulusal arşivin gününe hizalandı", yer_id:"Szatmár (Satu Mare)" },
 
 { t:"1711-02-21", devlet:"macaristan-habsburg", b:"Rákóczi'nin sürgüne gitmesi", tur:"son", onem:4, dunya:1, kapsam:"ic",
   etiket:["hukumdar","son","konu-siyasi","konu-hanedan","konu-demografi"],
@@ -609,7 +609,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1720-01-01", devlet:"macaristan-habsburg", b:"Bácska ve Bánát'a Alman (Schwaben) göçmenlerin iskânının başlaması", tur:"diger", onem:3, dunya:1, kapsam:"ic",
   etiket:["sosyal","goc","ekonomi","konu-ekonomi","konu-sosyal","konu-demografi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Temeşvar","Varadin (Petrovaradin)"], kapsam_genis:true,
   d:"Uzun savaşlarla nüfusu boşalan Güney Macaristan'a, Habsburg idaresi Katolik Alman köylülerini iskân etmeye başladı; bu 'Büyük Schwaben Göçü' bir asra yayılarak bölgenin etnik ve tarımsal yapısını kalıcı biçimde değiştirdi.",
   kaynak:"akademik: Evans (2006), s. 178-180" },
 
@@ -631,7 +631,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1738-01-01", devlet:"macaristan-habsburg", b:"Büyük veba salgınının Güney Macaristan'ı vurması", tur:"diger", onem:2, dunya:1, kapsam:"ic",
   etiket:["salgin","sosyal","konu-sosyal","afet","afet-salgin"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Temeşvar","Varadin (Petrovaradin)"], kapsam_genis:true,
   d:"Osmanlı-Habsburg sınır bölgesinden yayılan veba, yeni iskân edilen Bánát ve Bácska nüfusunu ağır biçimde vurdu; salgın, sınır boyunca kurulan sıhhî kordon (Militärgrenze) uygulamalarının sıkılaştırılmasına yol açtı.",
   kaynak:"akademik: Evans (2006), s. 180-181" },
 
@@ -663,7 +663,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["darbe","siyaset","isyan","konu-siyasi","konu-kisiler","konu-isyan","konu-darbe"],
   yer_id:"",
   d:"Fransız Devrimi'nden etkilenen küçük bir cumhuriyetçi-radikal çevrenin komplosu keşfedilince, önderleri Budin yakınlarında idam edildi; bastırma, izleyen otuz yılda Habsburg sansürünün sertleşmesine yol açtı ve Macar milliyetçi hareketinin daha ihtiyatlı, kültürel bir çizgide (dil reformu) yeniden doğmasına neden oldu.",
-  kaynak:"akademik: Kontler (2002), s. 198-199", yer_kon:[47.5026,19.0263], yer_id:"Budin" },
+  kaynak:"akademik: Kontler (2002), s. 198-199", yer_kon:[47.5026,19.0263], yer_id:"Aquincum-Óbuda-Pest" },
 
 { t:"1811-01-01", devlet:"macaristan-habsburg", b:"Kazinczy Ferenc'in 'nyelvújítás' (dil yenileme) hareketinin doruğa çıkması", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
   etiket:["kultur","edebiyat","konu-kultur"],
@@ -689,7 +689,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1831-08-01", devlet:"macaristan-habsburg", b:"Doğu Slovakya kolera isyanı", tur:"isyan", onem:2, dunya:1, kapsam:"ic",
   etiket:["salgin","isyan","sosyal","konu-isyan","konu-sosyal","afet","afet-salgin"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Kassa (Košice)","Eperjes (Prešov)"],
   d:"Kolera salgını sırasında köylüler arasında yayılan 'kuyuların zehirlendiği' söylentisi, Kuzey-Doğu Macaristan'da toprak beylerine yönelik kanlı bir ayaklanmaya dönüştü; olay, köylü hoşnutsuzluğunun serflik meselesini yeniden gündeme getirmesinde etkili oldu.",
   kaynak:"akademik: Kontler (2002), s. 216", kapsam_genis:true },
 
@@ -765,13 +765,13 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1850-01-01", devlet:"macaristan-habsburg", b:"Bach döneminin merkezîleştirici idaresinin kurulması", tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["idari","kriz","konu-siyasi","konu-idari"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Aquincum-Óbuda-Pest","Viyana"], kapsam_genis:true,
   d:"İçişleri Bakanı Alexander Bach'ın adını taşıyan sistem, Macaristan'ı ayrı bir siyasî varlık olarak tanımayıp doğrudan Viyana'dan yönetilen bir eyalete indirgedi; Alman memurlar ve jandarma ile yürütülen bu idare, Macar toplumunda 'pasif direniş' (Deák Ferenc'in siyasetiyle özdeşleşen) tepkisini doğurdu.",
   kaynak:"akademik: Kontler (2002), s. 233-235" },
 
 { t:"1854-03-02", devlet:"macaristan-habsburg", b:"Urbéri kárpótlás — serflik tazminatının yasal çerçevesinin tamamlanması", tur:"reform", onem:3, dunya:1, kapsam:"ic",
   etiket:["mali","reform","konu-ekonomi","konu-islahat"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Aquincum-Óbuda-Pest"], kapsam_genis:true,
   d:"1848 Nisan Yasaları'yla ilke olarak kaldırılan serfliğin toprak beylerine devlet tarafından ödenecek tazminatının usulleri, Bach döneminde tamamlandı; düzenleme köylü mülkiyetini hukuken kesinleştirse de büyük toprak sahiplerini malî olarak kayırdı.",
   kaynak:"akademik: Evans (2006), s. 280-281" },
 
@@ -807,7 +807,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1867-06-08", devlet:"macaristan-habsburg", b:"I. Ferenc József'in Budin'de Macar kralı olarak taç giymesi", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-hanedan"],
-  yer_id:"Budin",
+  yer_id:"Aquincum-Óbuda-Pest",
   d:"Ausgleich'ın onaylanmasının ardından imparator, geleneksel Macar taç töreniyle bu kez Budin'de Macar kralı ilan edildi; törenin ihtişamı, uzlaşmanın Macar kamuoyunda kazandığı meşruiyeti simgeliyordu.",
   kaynak:"akademik: Kontler (2002), s. 241" },
 
@@ -865,7 +865,7 @@ window.KRONOLOJI_MACARISTAN = [
 
 { t:"1878-01-01", devlet:"macaristan-habsburg", b:"Avusturya-Macaristan Gümrük ve Ticaret Birliği'nin on yıllık yenilenmesi", tur:"ekonomi", onem:2, dunya:1, kapsam:"ic",
   etiket:["ekonomi","antlasma","konu-diplomasi","konu-ekonomi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_yer:["Viyana","Aquincum-Óbuda-Pest"], kapsam_genis:true,
   d:"Ausgleich'ın ekonomik ayağı olan ortak gümrük birliği, on yılda bir yeniden müzakere edilerek yenilendi; Macar tarım ürünlerinin Avusturya sanayi pazarına serbest girişi, Macaristan'ın 'imparatorluğun tahıl ambarı' konumunu pekiştirdi.",
   kaynak:"akademik: Kontler (2002), s. 253-254" },
 

@@ -1,0 +1,22 @@
+diff --git a/data/olaylar_ok109.js b/data/olaylar_ok109.js
+index ef357ba4..efc126d0 100644
+--- a/data/olaylar_ok109.js
++++ b/data/olaylar_ok109.js
+@@ -116,6 +116,17 @@ window.OLAYLAR_OK109 = [
+     kaynak: "macaristan"
+   },
+ 
++  {
++    t: "1918-11-01", k: "fetih", etiket: ["siyaset", "toprak-kazanc", "konu-askeri", "konu-siyasi"],
++    kapsam:"dis", onem:2, b: "Rudolf Maister Maribor'u ele geçirdi — Aşağı Steiermark'ın komutasını Sloven Ulusal Konseyi adına aldı", yer_id:"Maribor (Marburg)",
++    gun: "1 Kasım 1918",
++    yer: "Maribor (Marburg)",
++    kisiler: "Rudolf Maister",
++    d: "Avusturya-Macaristan dağılırken Maribor'daki Sloven subay Rudolf Maister, Sloven Ulusal Konseyi'nin (Narodni svet) yetkisiyle 1 Kasım 1918'de 15 subay ve 87 askerle Maribor'u ele geçirdi ve bütün Aşağı Steiermark'ın komutanı oldu; Maribor Ulusal Konseyi onu general ilân etti. 9 Kasım'da asker topladı, 23 Kasım sabahı Alman Schutzwehr birliğini silâhsızlandırarak şehri kesin olarak elde tuttu. Haritada Maribor bu süreçle Avusturya'dan Sırp-Hırvat-Sloven devletine geçer.",
++    ic_not_d: "2SK-TOPLU-SINIF-1006 (6 Ekim 2026): Maribor'un 1918-11-11 kırılması bu madde yazılana dek yalnız TARAF koluyla (Avusturya Cumhuriyeti'nin ilânı) kapanıyordu. ⚠️ Kaynak Ptuj'u ANMIYOR — Ptuj bu maddeye bilerek yazılmadı (D208); verideki 1918-11-11 günü de kaynağın değil atlasındır (D207), bu madde o günü TARİHLEMEZ.",
++    kaynak: "Slovenska biografija (SAZU · ZRC SAZU), 'Maister, Rudolf' (slovenska-biografija.si/oseba/sbi340526/), birebir: 'Tako se je 1. nov. 1918 s pooblastilom Nar. sveta s 15 častniki in 87 vojaki polastil Maribora in postal komandant vse spodnje Štajerske; mariborski Nar. svet ga je imenoval za generala' · 'je 9. nov. 1918 mobiliziral in zbral toliko vojaštva, da je v zgodnjih urah 23. nov. razorožil Schutzwehr' — TDV kapsamı dışı taneciklik (§4)."
++  },
++
+   {
+     t: "1918-11-03", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
+     kapsam:"dis", b: "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti", yer_id:"Padova", kapsam_genis:true,

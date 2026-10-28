@@ -1,0 +1,37 @@
+{
+  "parti-emrelic-0054": {
+    "H-0006": {
+      "hukum": "cozuldu",
+      "not": "Kutsal İttifak savaşlarında Erdel/Eflak/Boğdan/Kırım'ın tutumu için tartışma kartı yazıldı (tartisma-kutsal-ittifak-tabi-devletler-1683-1699). Önceki YZ taslağı TDV erdel/tokoli-imre/eflak/bogdan/kirim gövdelerinden yeniden doğrulandı; 'Zenta'dan sonra İzmit' hatası düzeltildi (TDV: İzmit nakli Karlofça sonrası 1701), Tököli/Moravya cümlesi TDV'ye uyduruldu, Zernyest (1690-08-21, KRONOLOJI_COK_ROMANYA) bağı eklendi. Kaçanik 1688 için kronolojide madde yok, bağ kurulmadı.",
+      "delil": "data/ekokuma_tabi.js (EKOKUMA_TABI) · js/app.js _EKOKUMA_DOSYA_ADLARI 'ekokuma_tabi' · tarayıcıda bağ sınavı: 6 olay + Zernyest bağlı (13 Ekim 2026)"
+    }
+  },
+  "parti-emrelic-0066": {
+    "H-0009": {
+      "hukum": "cozuldu",
+      "not": "Küçük Kaynarca skandal mıydı sorusu iki yönlü tartışma kartı (tartisma-kucuk-kaynarca-skandal-mi). Her cümle TDV kucuk-kaynarca-antlasmasi gövdesinden yeniden doğrulandı; 1853 cümlesi TDV'nin ifadesine (himaye iddiası çıkış sebepleri arasında) çekildi. TDV'de 'skandal' sözcüğü geçmiyor; kart bunu açıkça söyler.",
+      "delil": "data/ekokuma_tabi.js · olay 1774-07-21|Kaynarca bağı tarayıcıda doğrulandı"
+    }
+  },
+  "parti-emrelic-0065": {
+    "H-0016": {
+      "hukum": "senin-kararin",
+      "not": "Savaş künyesi pilotu (data/savas_kunye_1.js, 20 muharebe, TDV kaynaklı) bugüne dek HİÇBİR yerde okunmuyordu; js/app.js'e 'savas-kunye' ek okuma türü + ekKartHtml dalı eklendi ve 20 künyenin 20'si de kronoloji maddesine savas_t ile bağlanıyor (Mohaç'ta tarayıcıda görüldü). Kalan ~185 muharebe (savaslar.js 205 kayıt) için künye yazımı ayrı, muharebe başına TDV okuması gerektiren iş: öncelik sırasını Emre/koordinatör belirlesin.",
+      "delil": "js/app.js EKOKUMA_TUR['savas-kunye'] + ekKartHtml savas-kunye dalı · data/savas_kunye_1.js"
+    }
+  },
+  "parti-emrelic-0080": {
+    "H-0027": {
+      "hukum": "cozuldu",
+      "not": "İstanbul fethi kitapçığı: yeni ek okuma türü 'kitapcik' (js/app.js) + data/ekokuma_fetihkitapcik.js (window.EKOKUMA_FETIHKITAPCIK; ad iki alt çizgili OLMADI çünkü _ekHavuz regex'i yalnız tek alt çizgiyi toplar). 18 bölüm TDV istanbul + mehmed-ii + baltaoglu-suleyman-bey gövdelerinden yeniden doğrulandı; 'Çanakkale Boğazı girişinde' düzeltmesi yapıldı. Tarayıcıda 1453-05-29 maddesinde KİTAPÇIK satırı açılıyor, 18 başlık çiziliyor. ÇELİŞKİLER (düzeltilmedi, raporlandı): (a) atlas data/olaylar.js 1453-05-29 'd:' alanı '53 gün' yazıyor, TDV mehmed-ii 'elli dört gün' (6 Nisan - 29 Mayıs); (b) denetim/FETIH-1453-0081.md'deki 'mumlu gece doğrulanamadı' notu TDV istanbul maddesiyle çelişir: TDV '28 Mayıs'ı 29 Mayıs'a bağlayan gece şenlikler yapan ve etrafı mum donanmasıyla aydınlatan Osmanlı ordusu, gece yarısına doğru ışıkları söndürdü' yazıyor.",
+      "delil": "data/ekokuma_fetihkitapcik.js · js/app.js kitapcik türü ve dalı · TDV istanbul (Feridun Emecen, İstanbul'un Fethi kesiti)"
+    }
+  },
+  "ANT-KART-antlasma-kartlari": {
+    "grup": {
+      "hukum": "cozuldu",
+      "not": "Osmanlı/TBMM-taraflı antlaşma maddelerinden hüküm/önem kartı olmayan 44 madde kapatıldı: 24'ü mevcut kartın olay: dizisine bağ eklenerek (Gelibolu 1403, Bizans 1424, Edirne-Segedin 1444, Memlük 1491, Ceneviz 1352/1387, Venedik 1540, Habsburg 1547, Serav 1618, Baltalimanı 1849, İstanbul 1700, Yaş 1792, Yergöğü 1790, Ziştovi 1791, Küçük Kaynarca 1774, Amasya 1554 mütareke), 20'si yeni 15 kartla (data/ekokuma_antlasma7.js: Galata 1453, Edirne 1568, Zuravno 1676, Bahçesaray 1681, İstanbul 1784, Erzurum 1823, Sykes-Picot 1916, Saint-Jean 1917, İsveç 1737/1740/1789/1840-1862, Prusya 1761, İskender Bey 1460-1463, Hollanda 1680). Kalan 88 madde denetim/ANTLASMA-KUYRUK-1013.json'da; çoğu TDV'de müstakil madde ölü/hüküm bulunamadı ya da Osmanlı taraf değil.",
+      "delil": "data/ekokuma_antlasma7.js · denetim/ANTLASMA-KUYRUK-1013.json · tarayıcıda tüm yeni/eklenen olay bağları bağlanıyor (kötü bağ 0)"
+    }
+  }
+}

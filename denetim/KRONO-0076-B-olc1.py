@@ -7,7 +7,7 @@ Bulunanın dosyasını + başlık metnini bas. `bulunamadı` BİR SONUÇTUR.
 import io, os, re, sys, glob
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-KOK = r"C:\atlas\data"
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 # (madde, aranacak tarih dizgileri, konu anahtar kelimeleri)
 SORULAR = [

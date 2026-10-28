@@ -1,0 +1,2376 @@
+{
+ "aciklama": "MO pozitif, MS negatif; *_iso astronomik. onay: dogrulandi|duzeltildi|celiskili|bulunamadi; f_onay/t_onay alan bazli. f_mo/t_mo null ise f_degerler/t_degerler okunur.",
+ "kayit_sayisi": 78,
+ "sonuclar": [
+  {
+   "id": "kolkhis-krallik",
+   "onay": "celiskili",
+   "f_mo": null,
+   "f_degerler": [
+    {
+     "mo": "IV. yy (401-301)",
+     "kaynak": "TDV, Gürcüler (okundu)"
+    },
+    {
+     "mo": "VI. yy (601-501)",
+     "kaynak": "Cornell 2001 Small Nations and Great Powers, Vikipedi 'Colchis' aracılığıyla (özetten); aynı sayfa: MÖ ~VI. yy ortası 'Kolkhis' sikkelerinin Ahameniş satraplığı üretimi olduğu yeniden değerlendirmesi"
+    }
+   ],
+   "t_mo": 65,
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "TDV İslâm Ansiklopedisi, 'Gürcüler' — https://islamansiklopedisi.org.tr/gurculer (okundu; Kolhis ve İberya MÖ IV. yy'da kuruldu, Kolhis I. yy'da Roma hâkimiyetine girdi)",
+    "Encyclopaedia Iranica, 'Albania' (madde yazarı sayfada okunmadı) —https://www.iranicaonline.org/articles/albania-iranian-aran-arm/ (okundu, Wayback): MÖ 65'te Pompeius Kolkhis'i fethettikten sonra Albania'ya girdi",
+    "Vikipedi 'Colchis' (yalnız aracı): Cornell 2001; Braund 1994 Georgia in Antiquity (Clarendon) — Braund'un kendisi okunamadı"
+   ],
+   "alinti": "milâttan önce IV. yüzyılda Kura vadisinde İberya ve Karadeniz kıyılarında Kolhis devletlerini kurdular (TDV)",
+   "alinti_2": "the Roman general Pompey, who had just subjugated Armenia and Iberia and had conquered Colchis (Iranica)",
+   "kronoloji_okulu": "Karşılıklı çelişen: TDV (IV. yy kuruluş) ↔ Cornell/sikke geleneği (VI. yy); sikkelerin satraplık ürünü olduğu itirazı var",
+   "ic_not": "f İKİ DEĞER, ortalama alınmadı: TDV MÖ IV. yy (okundu) ↔ Cornell 2001 MÖ VI. yy (Vikipedi aracılığıyla, kitap okunamadı). Atlas f=-0598 (MÖ 599) yalnız VI. yy tarafını izliyor; TDV esas kuralı (CLAUDE.md) gereği bu çelişki açık kalmalı. t=MÖ 65: Iranica Pompeius'un Kolkhis'i fethini MÖ 65'e koyar (atlas -0064 = MÖ 65 uyumlu). Pompeius sonrası Aristarkhos dynast MÖ 63-47 (Vikipedi) — krallık sürekliliği ayrı soru. TDV 'I. yüzyılda Roma hâkimiyeti' yalnız yüzyıl veriyor.",
+   "f_iso": null,
+   "t_iso": "-0064-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "lazika",
+   "onay": "celiskili",
+   "f_mo": null,
+   "f_degerler": [
+    {
+     "mo": "MS ~1. yy (kabile birliklerinin birleşmesi)",
+     "kaynak": "Gürcü Ansiklopedisi, 'Egrisi' (okundu)"
+    },
+    {
+     "mo": "MS III-IV. yy (krallık)",
+     "kaynak": "TDV, Lazlar (okundu)"
+    },
+    {
+     "mo": "MS 131 (bağımsızlık)",
+     "kaynak": "Vikipedi 'Lazica' (özetten, aracı)"
+    }
+   ],
+   "t_mo": -701,
+   "f_onay": "celiskili",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "TDV İslâm Ansiklopedisi, 'Lazlar' — https://islamansiklopedisi.org.tr/lazlar (okundu, curl): III-IV. yy'larda eski Kolhis topraklarında Lazika/Egrisi krallığı; 562'de Sâsânîler çekilir; VIII. yy ilk yarısında Abhaz ilhakı",
+    "Georgian Encyclopedia, 'The Kingdom of Egrisi' — https://georgianencyclopedia.ge/ka/form_eng/781 (okundu, WebFetch özeti): MS I. yy'da Kolkhis çözülünce oluştu; VII. yy sonunda Bizans eyaleti, VIII. yy sonunda son kralların otoritesi çöktü"
+   ],
+   "alinti": "By the end of the 7th century, Egrisi became a Byzantine province (Gürcü Ansiklopedisi)",
+   "kronoloji_okulu": "Gürcü ulusal tarihyazımı (I. yy) ↔ TDV/Bizans kaynak geleneği (III-IV. yy)",
+   "ic_not": "f ÜÇ DEĞER: MS ~1. yy (Gürcü Ansiklopedisi), III-IV. yy (TDV), 131 (Vikipedi). Atlas f=201 TDV'nin 'III. yy' alt sınırı. t: Gürcü Ansiklopedisi VII. yy sonu Bizans eyaleti, VIII. yy sonu çöküş; TDV VIII. yy ilk yarısı Abhaz ilhakı → atlas t=701 (VIII. yy başı) iki kaynakla yüzyıl düzeyinde uyumlu. Lazik Savaşı 541-562 ayrı olay (krallığın son değil).",
+   "f_iso": null,
+   "t_iso": "0701-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   }
+  },
+  {
+   "id": "iberya-kartli",
+   "onay": "dogrulandi",
+   "f_mo": 302,
+   "t_mo": -580,
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Kartli' — https://www.iranicaonline.org/articles/kartli/ (okundu, Wayback): bağımsız Gürcü devleti İskender fetihlerinden sonra oluştu; ilk kral Pharnavaz Pers yönetim sistemini örnek aldı",
+    "Encyclopaedia Iranica, 'Georgia ii. History of Iranian-Georgian relations', Vol. X/4, 464-470 — https://www.iranicaonline.org/articles/georgia-ii-history/ (okundu, Wayback): MS 580'de Hormizd IV Bakur'un ölümünden sonra krallığı kaldırdı",
+    "TDV, 'Gürcüler' (okundu): İberya MÖ IV. yy'da kuruldu"
+   ],
+   "alinti": "In 580 Hormozd IV (579-90) abolished the monarchy after the death of King Bakur (Iranica, Georgia ii)",
+   "kronoloji_okulu": "Geleneksel Gürcü Kronikleri (Pharnavaz) + Iranica; MÖ 302 değeri Vikipedi infobox (alternatifler 299, 284)",
+   "ic_not": "t=580 Iranica'da açıkça okundu. f: Iranica yıl vermez ('İskender fetihlerinden sonra'); TDV IV. yy; MÖ 302 değeri yalnız Vikipedi infobox'ında (alternatif 299/284) — bu yüzden kesinlik 'onyil' değil 'yuzyil' (MÖ IV. yy sonu-III. yy başı). Atlas -0301 = MÖ 302 yıl hassasiyeti kaynakla desteklenmez; yüzyıl hassasiyetine indirilmeli. Hanedan geçişleri (Pharnavazid→Artaxiad→Arsakid→Khosroid) bu kayıtta tek polity.",
+   "f_iso": "-0301-01-01",
+   "t_iso": "0580-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "kafkas-arnavutlugu",
+   "onay": "celiskili",
+   "f_mo": null,
+   "f_degerler": [
+    {
+     "mo": "65 (Pompeius karşısında Kral Oroezes; birleşik Albania'nın ilk tarihli kaydı)",
+     "kaynak": "Iranica, 'Albania' (okundu)"
+    },
+    {
+     "mo": "MÖ II. yy sonu (önemli siyasî aktör)",
+     "kaynak": "Vikipedi 'Caucasian Albania' (özetten, aracı)"
+    }
+   ],
+   "t_mo": null,
+   "t_degerler": [
+    {
+     "mo": "MS ~510 (Arsakid hanedanının sonu, Vachagan III)",
+     "kaynak": "Vikipedi 'Arsacid dynasty of Caucasian Albania' (özetten, aracı)"
+    },
+    {
+     "mo": "MS 640'lar (Arap fethi, Pʿartaw)",
+     "kaynak": "Iranica, 'Albania' (okundu)"
+    },
+    {
+     "mo": "MS 822-823 (Mihrânî yönetiminin sonu)",
+     "kaynak": "TDV 'Arrân' (önceki oturum okuması; bu oturumda yeniden açılmadı)"
+    }
+   ],
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Albania' — https://www.iranicaonline.org/articles/albania-iranian-aran-arm/ (okundu, Wayback): MÖ 65 Pompeius–Oroezes; Balaş (484-88) Vačagan'la krallığı yeniden kurar; yüzyıllar boyu Sasani vasalı; VII. yy ortasında Araplar Aran'ı alır",
+    "TDV 'Arrân' (dolaylı, önceki oturum)"
+   ],
+   "alinti": "In 65 B.C. the Roman general Pompey ... clashed with the forces of Oroezes, king of Albania (Iranica)",
+   "kronoloji_okulu": "Iranica: krallık vasıflı Sasani vasallığı; Arsakid hanedan kronolojisi (Gadjiev) Vikipedi'den",
+   "ic_not": "Atlas f=-0298 (MÖ 299) HİÇBİR okunan kaynakla desteklenmiyor (önceki ic_not zaten 'desteklenmedi' diyor). Iranica'da krallığın kuruluş yılı yok; en erken tarihli kral Oroezes MÖ 65. t=705 de desteklenmiyor: Iranica Arap fethini VII. yy ortasına (Osman dönemi) koyar; Arsakid kralları ~510'da biter (Vikipedi); Mihrânîler TDV'ye göre 822-823. Polity tanımı (Arsakid krallık mı, Arrân bölgesi mi) netleşmeden t tek değere bağlanamaz.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yuzyil"
+   }
+  },
+  {
+   "id": "byblos",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 333,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Livius.org 'Byblos' — https://www.livius.org/articles/place/byblos/ (okundu, WebFetch özeti): 333 BCE'de İskender'in güçleri Byblos'u aldı; MÖ 1479 sonrası Mısır vasalı krallık; Bronz Çağı sonunda kısmî bağımsızlık",
+    "World History Encyclopedia 'Byblos' — https://www.worldhistory.org/Byblos/ (okundu özet; popüler-ansiklopedik): MÖ 332 İskender fethi, ~MÖ 3000 ticaret limanı",
+    "Britannica 'Byblos' — https://www.britannica.com/place/Byblos (okundu, Wayback): Neolitikten iskân, MÖ IV. bin yerleşim; krallık başlangıcı yok"
+   ],
+   "alinti": "333 BCE: Alexander the Great's forces take Byblos (Livius özeti)",
+   "kronoloji_okulu": "Orta Doğu standart kronolojisi; bağımsız krallık başlangıcı için okul yok",
+   "ic_not": "f=-2999 (MÖ 3000) kentin ticaret/iskân geçmişi, BAĞIMSIZ KRALLIK değil; okunan hiçbir kaynak krallık başlangıcı vermiyor (Livius: MÖ 1479 sonrası Mısır vasal krallığı). t: Livius 333, atlas MÖ 332 → ±1 yıl, İskender'in Fenike seferi 333 sonu/332 başı. Elayi & Elayi 2014 (Eisenbrauns) gerekli. Atlas f için polity-başlangıcı yerine 'ilk belgeli kral' ya da künyeyi kırpma önerisi.",
+   "f_iso": null,
+   "t_iso": "-0332-01-01",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "tire",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 332,
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Tyre' — https://www.britannica.com/place/Tyre (okundu, Wayback): Hiram MÖ 969-936; Babil kuşatması 585-573; Pers egemenliği 538-332; İskender yedi aylık kuşatmadan sonra aldı",
+    "Livius.org 'Tyre' — https://www.livius.org/articles/place/tyre/ (okundu, WebFetch özeti): Amarna mektupları, Hiram X. yy, Asur haracı"
+   ],
+   "alinti": "Between 538 and 332 it was ruled by the Achaemenian kings of Persia (Britannica)",
+   "kronoloji_okulu": "Hiram I: MÖ 969-936 (Britannica, Josephus/Menandros geleneği)",
+   "ic_not": "t=MÖ 332 (İskender, Britannica) doğrulandı. f=-1199 (MÖ 1200) Fenike dönemi çerçevesi; Tire krallığının başlangıcı kaynaklarda yok. Britannica'da ilk tarihli kral Hiram I (969-936), Amarna'da (XIV. yy) Tire Mısır'a tabi. f için bağımsız krallık yerine 'Hiram I ~MÖ 970' önerilebilir ama bu 'ilk tarihli kral' olur, kuruluş değil. Babil kuşatması 585-573 krallığı sona erdirmedi.",
+   "f_iso": null,
+   "t_iso": "-0331-01-01",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "sidon",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 333,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Britannica 'Sidon' — https://www.britannica.com/place/Sidon (okundu, Wayback): MÖ III. bin kuruluş; Eşmunazar, Tennes; Asur-Babil-Pers-İskender sırası",
+    "Livius.org 'Sidon' — https://www.livius.org/articles/place/sidon/ (okundu, WebFetch özeti): Esarhaddon MÖ 677/676 fethi; sayfa İskender'e inmiyor",
+    "Vikipedi 'Sidon' (yalnız aracı): İskender işgali MÖ 333"
+   ],
+   "alinti": "Sidonian kings are no longer mentioned (Livius özeti, Esarhaddon sonrası Asur kaynakları için)",
+   "kronoloji_okulu": "Pers dönemi kral listesi (Eşmunazar II MÖ V. yy, Tennes MÖ ~351)",
+   "ic_not": "Sidon'un kral hanedanı Asur'dan sonra da Pers döneminde sürer (Britannica: Eşmunazar ve Tennes). İskender Sidon'u MÖ 333 sonbaharında aldı (Vikipedi); atlas MÖ 332 → ±1 yıl. f=MÖ 1200 için hiçbir okunan kaynakta krallık başlangıcı yok. Esarhaddon MÖ 677 Sidon'u yıktı/yeniden kurdu — kesinti olarak ele alınacak mı kararı Emre'de.",
+   "f_iso": null,
+   "t_iso": "-0332-01-01",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "arvad",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 259,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Arwad' (yalnız aracı): İskender'e Gerostratus teslim (MÖ 332); MÖ 259 Antiochus II ile geleneksel krallığın sonu ve özgür şehir; MÖ 34-35 bağımsızlık kaybı; dipnot: Lipiński 2004 Itineraria Phoenicia; Sommer 2008 Die Phönizier — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Arvad 'yeni sivil çağı' MÖ 259 (sikke çağı)",
+   "ic_not": "Okunabilir akademik kaynak bulunamadı (Britannica/Livius Arvad sayfası yok/açılmadı). Vikipedi değerleri: kral Gerostratus MÖ 332'de İskender'e teslim, geleneksel krallık MÖ 259'da sona erdi (sikke çağı), özgür şehir MÖ 34-35'e kadar. Atlas t=-0258 (MÖ 259) bu Vikipedi değeriyle aynı; akademik teyit yok. Lipiński 2004 / Sommer 2008 / Arwad sikke kataloğu gerekli.",
+   "f_iso": null,
+   "t_iso": "-0258-01-01",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "amurru",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 1200,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Amurru kingdom' (yalnız aracı): Abdi-Aşirta/Aziru XIV. yy; ~MÖ 1200 sonu (infobox, kaynaksız); atıf: Singer 1991 Iraq 53:69-74; Singer 1999 Handbook of Ugaritic Studies; Bryce 2005 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Amarna çağı (Aziru ~MÖ 1350-1315), Hitit vasallığı",
+   "ic_not": "Atlas f=-1349 (MÖ 1350) 'ilk belgeli hükümdar Abdi-Aşirta XIV. yy' (Amarna); Vikipedi bunu 'c. 2000' kuruluşa çeker (coğrafî terim, reddedilmiş). Singer 1991 Iraq 53 (JSTOR) ve Singer 1999 gerekli. Bu oturumda akademik kaynağa erişilemedi → f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": "-1199-01-01",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "onyil"
+   }
+  },
+  {
+   "id": "mukis-alalah",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": 1330,
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Eva von Dassow, 'Alalaḫ between Mittani and Ḫatti', Asia Anteriore Antica 2 (2020): 193-226, doi:10.13128/asiana-779 — https://riviste.fupress.net/index.php/asiana/article/download/779/731 (okundu, PDF tam metin): Level IV saray/kale yıkımı ~MÖ 1400; Suppiluliuma'nın Mukiş fethi MÖ 1330'larda; Level IV son Hitit fethiyle biter; Woolley'in 1370 tarihi yanlış, olay 'neredeyse dört on yıl sonra'; kentte yerleşim XIII. yy'da azalıp bitti",
+    "Britannica 'Alalakh' (okundu): İdrimi 30 yıl hüküm sürdü, ~MÖ 1450'de öldü"
+   ],
+   "alinti": "Suppiluliuma's initial conquest of Mukis, thus sometime in the 1330s (von Dassow 2020)",
+   "kronoloji_okulu": "Orta kronoloji; von Dassow 2020 (Yener kazıları) Woolley'in tarihlerini revize eder",
+   "ic_not": "t: atlas -1339 (MÖ 1340) → kaynakta Suppiluliuma'nın Mukiş fethi 'MÖ 1330'lar' (onyil düzeyi 1339-1330 aralığı); mevcut -1339 aralığın başı, kabul edilebilir ama 'sonrası 1330'lar' daha doğru. Ayrıca Itur-Addu/Addu-nirari(Nuhaşşe)/Agi-Tessob koalisyonu Suppiluliuma'nın ilk fethinden sonra (1330'lar). f=MÖ 1500 (15. yy): von Dassow Alala'nın 15. yy'da Mukiş dışı toprakları da kapsadığını söyler; İdrimi ~MÖ 1490-1450 (Britannica ~1450 ölüm); Mukiş-polity başlangıcı için kaynak yok. Atlas f yalnız yüzyıl.",
+   "f_iso": null,
+   "t_iso": "-1329-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "onyil"
+   }
+  },
+  {
+   "id": "nuhasse",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "von Dassow 2020, Asia Anteriore Antica 2:193-226 (okundu, PDF): Nuhaşşe kralı Addu-nirari Mukiş kralı Itur-Addu ile Suppiluliuma'ya karşı koalisyonda (MÖ 1330'lar)",
+    "Vikipedi 'Nuhašše' (yalnız aracı): Hitit vasalı Tette Mursili II zamanında (~MÖ 1322); atıf Bryce 2005, Astour 2002, Rainey 2015 — okunamadı"
+   ],
+   "alinti": "Itr-Addu, Addu-nirari, and Agi-Tessob were all kings of their respective realms and combined to oppose atti (von Dassow, özet)",
+   "kronoloji_okulu": "Orta kronoloji; Suppiluliuma I fethi ~1330'lar",
+   "ic_not": "Nuhaşşe'nin siyasî başlangıcı kaynakta yok (Hurri 'Serbest Bırakma Şarkısı' ~MÖ 2000 bölge adı). Atlas t=-1339 yalnız 'bağımsız evre' (Suppiluliuma öncesi); von Dassow Addu-nirari'nin 1330'larda hâlâ kral olduğunu gösteriyor, yani atlas t ile ~10 yıl çakışma/ucu. Nuhaşşe Hitit vasalı olarak sürdü (Tette). f/t önerilmiyor: bulunamadı.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "katna",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 1340,
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Vikipedi 'Qatna' (yalnız aracı): saray ~MÖ 1340'ta Tuşratta ile yakıldı, Suppiluliuma yağması 1340 sonrası/1334 öncesi; atıf Pfälzner 2007-2014; Morandi Bonacossi; Richter 2002; Bryce 2014; Astour 2002 — okunamadı",
+    "Pfälzner, Die Welt der Lebenden (2004) Heidelberg PDF — Anubis bot engeli nedeniyle açılamadı; arama özetinde 'yaklaşık MÖ 1340 yıkım' ifadesi (özetten)"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Orta kronoloji; Hitit-Mitanni savaşları ~1340",
+   "ic_not": "t≈MÖ 1340 iki bağımsız özet (Pfälzner özet; Vikipedi) 'yaklaşık' diyor; kesin yıl yok. f=-1799 (MÖ 1800) ilk bilinen kral Amut-piel I MÖ XIX. yy sonu — polity başlangıcı olarak okunamadı. Pfälzner/Morandi Bonacossi yayınlarının tam metni gerekli.",
+   "f_iso": null,
+   "t_iso": "-1339-01-01",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "onyil"
+   }
+  },
+  {
+   "id": "hana-terqa",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_degerler": [
+    {
+     "mo": "1735-1725 (Yadikh-Abu; Samsu-iluna 28. yılı = 1723, Orta kronoloji); önceki 2 kral daha eski",
+     "kaynak": "Buccellati 1988 BASOR 270:43-61 (okundu)"
+    }
+   ],
+   "t_degerler": [
+    {
+     "mo": "~1525 (varsayımsal; 25 yıl/kral ile)",
+     "kaynak": "Buccellati 1988 (okundu)"
+    },
+    {
+     "mo": "XV. yy: Mitanni vasalı (Sinia, Qiš-Addu ~1450), Hana kralları Orta Babil döneminde",
+     "kaynak": "Podany 2014 JNES 73:49-71 (Vikipedi aracılığıyla, özetten)"
+    }
+   ],
+   "f_onay": "duzeltildi",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Giorgio Buccellati, 'The Kingdom and Period of Khana', BASOR 270 (1988): 43-61 — https://terqa.org/EL-TQ/Buccellati_1988_Kingdom_and_Period_of_Khana_Part_2.pdf (okundu, PDF Part 2): Yadikh-Abu Samsu-iluna 28. yılında rakip, Orta kronolojiyle MÖ 1723; kral tablosu Yadikh-Abu 1735/1725, Kastiliyasu 1700, Sunuhru-Ammu 1675...",
+    "Vikipedi 'Terqa' / 'Kingdom of Ḫana' (aracı): Podany 2014 'Hana and the Low Chronology' JNES 73(1):49-71 — okunamadı"
+   ],
+   "alinti": "The Khana king Yadikh-Abu appears as an adversary of Samsu-iluna in Samsu-iluna's 28th year (Buccellati 1988)",
+   "kronoloji_okulu": "Orta kronoloji (Buccellati) ↔ Düşük/Orta Babil Hana (Podany 2014)",
+   "ic_not": "KRONOLOJİ OKULU ÇELİŞKİSİ: Buccellati (Orta kron.): Hana krallığı MÖ ~1735-1725'ten (ilk iki kral Yapah-Sumu-?, Isi-sumu-Abu daha eski) ~MÖ 1525'e kadar hipotetik; Podany 2014: 'Hana kralları' önemli bölümü Orta Babil dönemi (XV. yy), Mitanni vasalı. Atlas f=-1759 (MÖ 1760) Mari düşüşü sonrası varsayımı — Buccellati'de kral listesi ~1735'ten başlar; MÖ 1760 değil. t=-1449 (MÖ 1450) = Mitanni vasallığı çağı. İkisi ortalanmadı.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yuzyil"
+   }
+  },
+  {
+   "id": "nagar",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Tell Brak' (yalnız aracı): Nagar krallığı ~MÖ 2600'den, ~2300'de yıkıldı, Akad egemenliği, sonra bağımsız Hurri şehir devleti; atıf Oates & Oates 2001; Matthews & Eidem 1993; Eidem-Finkel-Bonechi 2001 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Orta kronoloji; Ninova 5 (2600-2300)",
+   "ic_not": "Vikipedi'de Nagar ~2600-2300, sonra Akad; ancak Ebla arşivi ve Brak kazı raporlarına (Oates & Oates 2001) erişilemedi. Atlas aralığı (-2599..-2299) Vikipedi'nin bire bir aynısı; akademik teyit yok. Nagar'ın Hurri evresi (Talpuş-atili) ayrı polity mi karar gerekli.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "birlesik-israil",
+   "onay": "celiskili",
+   "f_mo": null,
+   "f_degerler": [
+    {
+     "mo": "~1021 (Saul'un saltanatı 1021-1000)",
+     "kaynak": "Britannica 'Saul' (okundu, Wayback)"
+    },
+    {
+     "mo": "~1047 (infobox)",
+     "kaynak": "Vikipedi 'United Monarchy' (özetten, aracı)"
+    }
+   ],
+   "t_mo": 930,
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Saul' — https://www.britannica.com/biography/Saul-king-of-Israel (okundu, Wayback): 'first king of Israel (c. 1021–1000 bce)'",
+    "Vikipedi 'United Monarchy' (yalnız aracı): c. MÖ 1047-930; Finkelstein/Mazar kronoloji tartışması — okunamadı"
+   ],
+   "alinti": "Saul ... was the first king of Israel (c. 1021–1000 bce) (Britannica)",
+   "kronoloji_okulu": "Yüksek/geleneksel (Mazar, Dever) ↔ Düşük kronoloji (Finkelstein) ↔ minimalist; tarihselliği tartışmalı",
+   "ic_not": "f: Britannica Saul c. 1021 başlatıyor; atlas -1046 (MÖ 1047) Vikipedi infobox'ına denk — ikisi ayrı ve ortalanmadı. t=MÖ 930 bölünme: Britannica'da Süleyman/bölünme sayfası okunamadı; bu yüzden t_onay bulunamadı. Bu kayıt Kutsal Kitap kronolojisine dayanır; Tel Dan stel (MÖ IX. yy) dışında çağdaş yazıt yok. Polity olarak varlığı tartışmalı → atlas beyanı gerekir.",
+   "f_iso": null,
+   "t_iso": "-0929-01-01",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   }
+  },
+  {
+   "id": "hamat",
+   "onay": "dogrulandi",
+   "f_mo": 1000,
+   "t_mo": 720,
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Aramaean' — https://www.britannica.com/topic/Aramaean (okundu, Wayback): 'the destruction of Hamath by Sargon II of Assyria in 720 marked the end of the Aramaean kingdoms of the west'",
+    "Encyclopaedia Britannica 'Hama (Syria)' — https://www.britannica.com/place/Hama-Syria (okundu, Wayback): 'becoming the kingdom of Hamath under the Aramaeans in the 11th century bce'"
+   ],
+   "alinti": "the destruction of Hamath by Sargon II of Assyria in 720 marked the end of the Aramaean kingdoms of the west (Britannica)",
+   "kronoloji_okulu": "Neo-Assyrian eponim kronolojisi (MÖ 720 sağlam)",
+   "ic_not": "t=MÖ 720 Britannica'da açık; Karkar savaşı MÖ 853'te Hamat kralı Irhuleni koalisyonda (Britannica 'Shalmaneser III'). f: Britannica 'MÖ XI. yy' → atlas -0999 (MÖ 1000) yüzyıl düzeyinde uyumlu, kesin başlangıç yok (yeni Hitit/Aramî geçişi). Hamat-Luhuti Zakkur yazıtı bilgisi akademik kaynak (Hawkins RlA 4) okunamadı.",
+   "f_iso": "-0999-01-01",
+   "t_iso": "-0719-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "arpad",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 740,
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Aramaean' — https://www.britannica.com/topic/Aramaean (okundu, Wayback): 'Tiglath-pileser III of Assyria captured Arpad, the centre of Aramaean resistance in northern Syria, in 740 bc'",
+    "Vikipedi 'Bit Agusi' (yalnız aracı): Gusi tarafından MÖ IX. yy başı"
+   ],
+   "alinti": "Tiglath-pileser III of Assyria captured Arpad, the centre of Aramaean resistance in northern Syria, in 740 bc (Britannica)",
+   "kronoloji_okulu": "Neo-Assyrian eponim kronolojisi",
+   "ic_not": "t=MÖ 740 Britannica ile doğrulandı (atlas -0739 = MÖ 740). Sonraki Arpad isyanı MÖ 720 ayrı. f (MÖ IX. yy başı, Gusi) için akademik kaynak okunamadı.",
+   "f_iso": null,
+   "t_iso": "-0739-01-01",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "bit-adini",
+   "onay": "celiskili",
+   "f_mo": 1000,
+   "t_mo": null,
+   "t_degerler": [
+    {
+     "mo": "856/855 (Til Barsip'in alınışı, Ahuni sürgünü)",
+     "kaynak": "Vikipedi 'Bit Adini' (özetten); Asur yıllıkları geleneği"
+    },
+    {
+     "mo": "838 (Fırat ortası kabile alanının ilhakı)",
+     "kaynak": "Britannica 'Aramaean' (okundu)"
+    }
+   ],
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Aramaean' — https://www.britannica.com/topic/Aramaean (okundu, Wayback): 'By the end of the 11th century bc, the Aramaeans had formed the state of Bit-Adini'; 'in 838 Shalmaneser was able to annex the area held by the tribes on the middle Euphrates'",
+    "Britannica 'Shalmaneser III' — https://www.britannica.com/biography/Shalmaneser-III (okundu, Wayback): 853 Karkar; ilhak yılı verilmiyor",
+    "Vikipedi 'Bit Adini' (aracı): 856-5 BC"
+   ],
+   "alinti": "By the end of the 11th century bc, the Aramaeans had formed the state of Bit-Adini (Britannica)",
+   "kronoloji_okulu": "Neo-Assyrian eponim kronolojisi",
+   "ic_not": "f: Britannica 'MÖ XI. yy sonu' → atlas -0999 (MÖ 1000) uyumlu. t İKİ DEĞER: Britannica 838 (orta Fırat kabilelerinin ilhakı) ↔ Vikipedi/Asur yıllıkları 856/855 (Til Barsip). Britannica bunu Bit-Adini devletine özel yazmıyor; 838 muhtemelen daha geç bir ilhak aşamasına işaret eder. Ahuni'nin Karkar'da (853) anılması Vikipedi'nin iç çelişkisi. Ortalama alınmadı; Younger 2016 / Bryce 2012 gerekli.",
+   "f_iso": "-0999-01-01",
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "patina-unqi",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": 738,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Pattin' (yalnız aracı): MÖ 870 öncesi-738; atıf Weeden 2013 BICS; Dinçol vd. 2015 Anatolian Studies; Bryce 2012 s.130-133 — okunamadı",
+    "Britannica 'Aramaean' (okundu): Unqi/Patina anılmıyor"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Neo-Assyrian eponim kronolojisi; Tiglat-pileser III MÖ 738 fethi",
+   "ic_not": "Akademik teyit bulunamadı. Tiglath-pileser III MÖ 738'de Unqi'yi eyalet yaptı (Vikipedi); Britannica bunu ayrıca vermiyor. Dinçol vd. 2015 (Aleppo/Taita) ve Weeden 2013 okunmalı.",
+   "f_iso": null,
+   "t_iso": "-0737-01-01",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "aram-soba",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Aramaean' — https://www.britannica.com/topic/Aramaean (okundu, Wayback): 'About 1030 bc a coalition of the southern Aramaeans, led by Hadadezer, king of Zobah ... was defeated by King David'",
+    "Vikipedi 'Aram-Zobah' (yalnız aracı): Lipiński 2000 The Arameans; Na'aman 2022 — okunamadı"
+   ],
+   "alinti": "a coalition of the southern Aramaeans, led by Hadadezer, king of Zobah ... was defeated by King David (Britannica)",
+   "kronoloji_okulu": "Kitabî kronoloji (Davud çağı); harici yazıt: Mari 'Şibat' anılışı ayrı",
+   "ic_not": "Soba yalnız Kitab-ı Mukaddes ve Britannica'nın onu izleyen anlatımına dayanıyor (Britannica ~MÖ 1030 Hadadezer; Saul c.1021-1000 olduğuna göre Britannica'nın tarihi de iç tutarsız). Bağımsız yazıt tarihi yok; f/t önerilmiyor. Atlas -1049..-0949 'Davud çağı' tahmini.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "ammon",
+   "onay": "celiskili",
+   "f_mo": null,
+   "f_degerler": [
+    {
+     "mo": "XIII. yy (krallık kuruluşu)",
+     "kaynak": "Britannica 'Ammonite' (okundu)"
+    },
+    {
+     "mo": "~XI. yy",
+     "kaynak": "Vikipedi 'Ammon' infobox (özetten)"
+    }
+   ],
+   "t_mo": null,
+   "t_degerler": [
+    {
+     "mo": "~582 (Babil eyaleti)",
+     "kaynak": "Encyclopedia.com 'Ammon, Ammonites' (önceki oturum okuması)"
+    },
+    {
+     "mo": "332 (İskender)",
+     "kaynak": "Vikipedi infobox (özetten)"
+    }
+   ],
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Ammonite' — https://www.britannica.com/topic/Ammonite (okundu, Wayback): 'established a kingdom north of Moab in the 13th century bc'; MÖ 2. yy Judas Maccabeus'a yenildi",
+    "Vikipedi 'Ammon' (aracı): Hübner 1992; Tyson 2014 — okunamadı"
+   ],
+   "alinti": "the Ammonites established a kingdom north of Moab in the 13th century bc (Britannica)",
+   "kronoloji_okulu": "Britannica XIII. yy (eski) ↔ XI. yy (Demir Çağı arkeolojisi, Vikipedi)",
+   "ic_not": "f İKİ DEĞER: Britannica XIII. yy; Vikipedi XI. yy; atlas -1099 (MÖ 1100) ikincisi. t: ~MÖ 582 Babil (Encyclopedia.com) ↔ 332 İskender (Vikipedi). Britannica sonu vermiyor (MÖ II. yy Maccabeus savaşları krallık sonrası). Ortalanmadı. Tyson 2014 The Ammonites ve Hübner 1992 gerekli.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "onyil"
+   }
+  },
+  {
+   "id": "moab",
+   "onay": "dogrulandi",
+   "f_mo": 1300,
+   "t_mo": 582,
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Moabite' — https://www.britannica.com/topic/Moabite (okundu, Wayback): 'Moabites’ culture is dated by scholars from about the late 14th century bc to 582 bc, when, according to ... Josephus ... conquered by the Babylonians'"
+   ],
+   "alinti": "from about the late 14th century bc to 582 bc, when, according to Josephus, they were conquered by the Babylonians (Britannica)",
+   "kronoloji_okulu": "Josephus (Ant. X.181-182) geleneği; Mesa steli MÖ IX. yy",
+   "ic_not": "t=MÖ 582 Britannica (Josephus'a dayanarak) → atlas -0581 = MÖ 582 BİREBİR. f: Britannica 'geç XIV. yy', Vikipedi/atlas XIII. yy (-1299) → ±birkaç on yıl, yüzyıl düzeyinde uyumlu. Not: t Babil fethi tarihi Josephus'a dayanır; başka akademik doğrulama (Dearman 1989; MacDonald 2020) okunamadı. Vikipedi infobox'ı 'c. 400' alternatifini de verir.",
+   "f_iso": "-1299-01-01",
+   "t_iso": "-0581-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "edom",
+   "onay": "bulunamadi",
+   "f_mo": 1300,
+   "t_mo": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Edom' — https://www.britannica.com/place/Edom (okundu, Wayback): 'The Edomites probably occupied the area about the 13th century bce'",
+    "Vikipedi 'Edom' (yalnız aracı): infobox c. MÖ 553; Levy vd. 2019 PLOS ONE 14(9); Levin 2015 — okunamadı"
+   ],
+   "alinti": "The Edomites probably occupied the area about the 13th century bce (Britannica)",
+   "kronoloji_okulu": "Britannica: Edom Nabatiler tarafından fethedildi (tarih yok); Vikipedi: Nabonid ~553",
+   "ic_not": "f: Britannica 'MÖ XIII. yy' → atlas -1299 (MÖ 1300) yüzyıl düzeyinde doğrulandı (yerleşim, krallık değil — Britannica 'probably occupied'). t=MÖ 553 (Nabonid, Vikipedi infobox) Britannica'da yok; Levy vd. 2019 (Edom'un erken tarihi) açılamadı. t önerilmiyor.",
+   "f_iso": "-1299-01-01",
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "kedar",
+   "onay": "bulunamadi",
+   "f_mo": 738,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopedia.com 'Kedar' (önceki oturum okuması): ilk anılış MÖ 738 (Tiglat-pileser III haracı)",
+    "TDV 'Arap' maddesi içinde Kedar anıldığı görüldü (bu oturum, arama özeti); Kedar maddesi TDV'de yok"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Neo-Assyrian yıllıkları (738 haraç listesi); Geşem Kâsesi (MÖ V. yy)",
+   "ic_not": "Atlas f=-0737 (MÖ 738) 'ilk belgeli anılış'tır, kuruluş değil (önceki ic_not zaten bunu söylüyor). Kedar bir konfederasyon, tek devlet olmayabilir. Akademik kaynak (Retsö 2003; Eph'al 1982 The Ancient Arabs; Hoyland 2001) okunamadı → f/t önerilmiyor. TDV 'Arap'ta yalnız Asur 'Kidri' adı geçiyor, tarih yok.",
+   "f_iso": "-0737-01-01",
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yil",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "lihyan",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Lihyan' (yalnız aracı): infobox MÖ V. yy-MÖ I. yy?; atıf Rohmer & Charloux 2015 Proc. Seminar for Arabian Studies 45; Macdonald 2019 EI3 'Liḥyān'; Farès-Drappeau 2005; Hoyland 2002 — okunamadı",
+    "TDV'de Lihyân maddesi yok (arama sonucu boş)"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Başlangıç: geleneksel MÖ IV. yy ↔ Rohmer-Charloux MÖ geç VI.-orta III. yy aralığı; son: MÖ II. yy (Winnett) ↔ MÖ I. yy",
+   "ic_not": "Vikipedi alıntısı (önceki ic_not): terminus post quem MÖ 552 (Nabonid), 199 yıllık 12 kral listesi. Erişilebilir akademik metin yok; Rohmer & Charloux 2015 (Archaeopress, açık erişim olabilir) ve Macdonald EI3 maddesi gerekli (kutuphane_gerekli).",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "magan",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Elam i. The history of Elam' — https://www.iranicaonline.org/articles/elam-i/ (okundu, Wayback): Maništusu (MÖ 2269-55) Arap kıyısındaki 32 şehir ittifakını bastırdı (Magan adı geçmiyor)",
+    "Vikipedi 'Magan (civilization)' (yalnız aracı): Hamblin 2006; Hansman 2009 BSOAS — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Akad seferleri (Naram-Sin ~MÖ 2254-2218); Orta kronoloji",
+   "ic_not": "Magan 'polity mi bölge adı mı' belirsiz (önceki oturum notu doğru): Mezopotamya kaynakları çoğul 'yerel efendiler' (Manium) anıyor. Siyasî birim kanıtı yok; f/t önerilmiyor. Umm an-Nar kültürüyle örtüşür.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "awsan",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Awsan' (yalnız aracı): infobox c. MÖ 800-700; Robin 2015 'Before Ḥimyar' OUP; Nebes 2023 OHANE V; Kitchen ~685-680; Korotayev ~500 — okunamadı",
+    "TDV 'Sebe' (okundu, curl): Sebe devletinin kuruluşu belirsiz, X. yy öncesi/VIII. yy yazıtları; Evsan anılmıyor"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Uzun/kısa Güney Arabistan kronolojisi (Kitchen uzun; Korotayev/Robin kısa)",
+   "ic_not": "Atlas t=-0679 (Kitchen ~MÖ 680) ↔ Korotayev ~MÖ 500: iki okul farkı (önceki ic_not'ta zaten). Akademik kaynak okunamadı; f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "gerrha",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Gerrha' (yalnız aracı): krallık c. MÖ 650 (kaynaksız), c. MS 300 Sasani; Potts 1990 The Arabian Gulf in Antiquity; Potts 1984 — okunamadı",
+    "TDV'de Cerhâ maddesi yok (arama sonucu boş)"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Konum tartışmalı (Hajar/Thaj/Bahreyn); Potts 1984 Thaj tezi",
+   "ic_not": "Gerrha'nın ne olduğu (şehir, ticaret ağı, krallık) ve konumu tartışmalı; krallık varlığı akademik kaynakta okunamadı. f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "fenike-ozerk-sehirleri",
+   "onay": "bulunamadi",
+   "f_mo": 259,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Arwad' (yalnız aracı): MÖ 259 Antiochus II ile özgür şehir; MÖ 34-35 bağımsızlık kaybı",
+    "Britannica 'Tyre' / 'Sidon' (okundu): MÖ 126 / MÖ 111 özerklik tarihlerini vermiyor"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Şehir sikke çağları (Tire 126/5, Sayda 111/0, Arvad 259) — Hellenistik sikke kronolojisi",
+   "ic_not": "Tek kayıtta üç ayrı polity (Arvad, Tire, Sayda) birleşik; ic_not'ta bile 'üç ayrı polity yazmak daha doğru' deniyor. Hiçbir okunan akademik kaynak MÖ 126/111/259 sikke çağlarını doğrulamadı. t=-0062 (Pompeius MÖ 63-62) da okunamadı. Hellenistik Fenike sikke çağları için Millar 1993 The Roman Near East ve Sidon/Tyre sikke katalogları (RPC, Babelon) gerekli.",
+   "f_iso": "-0258-01-01",
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yil",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "iturya",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Itureans' (yalnız aracı): MÖ 104/103 Aristobulos I Itureia'nın bir kısmını aldı; MS 49 Suriye eyaleti; atıf Myers 2010 The Ituraeans and the Roman Near East (CUP); Schaller 1979; Wright 2013 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Josephus + sikke (Myers 2010)",
+   "ic_not": "Atlas t=0049; Vikipedi MS 49 Suriye eyaletine katılım diyor, MS 92'ye (Agrippa II, Chalcis) kadar Chalcis krallığı alternatif. f=-0099 Hasmoni fetihlerinden önce Itureia'nın siyasî birliği kaynaksız. Myers 2010 gerekli.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "emesa",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Britannica 'Homs' — https://www.britannica.com/place/Homs (okundu, Wayback): 'Emesa was ruled by a line of priest-kings throughout the Roman Empire'; tarih verilmiyor",
+    "Vikipedi 'Emesene dynasty' (yalnız aracı): Sampsiceramus I MÖ 64-48 ... Sohaemus 54-73, Alexion 73-78"
+   ],
+   "alinti": "Emesa was ruled by a line of priest-kings throughout the Roman Empire (Britannica)",
+   "kronoloji_okulu": "Cassius Dio/Josephus/Strabon + sikke",
+   "ic_not": "Britannica yalnız rahip-kral hattını anar. f=-0063 (Sampsiceramus I, Pompeius sonrası) ve t=0078/MS 72-78/en geç 161 / hanedan Uranius Antoninus MS 254'e kadar — hepsi Vikipedi. Akademik kaynak (Sullivan 1977 ANRW; Kropp 2013 Client Kings) okunamadı.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "abilene",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Abilene (biblical)' (yalnız aracı); Josephus Ant. XVIII-XX, Luka 3:1 — atlas ic_not'ta zaten 'ikincil kaynak özetleri'"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Josephus; Luka 3:1 tetrark Lysanias MS ~28-29",
+   "ic_not": "Başlangıç hiçbir kaynakta tarihli değil (Lysanias'ın Luka 3:1'deki varlığı ~MS 28). t: Agrippa II'ye MS ~53 (Josephus Ant. XX.138). Okunan akademik kaynak yok. f önerilmiyor; polity ayrı olmayıp Chalcis/Itureia parçası olabilir.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "bar-kohba",
+   "onay": "dogrulandi",
+   "f_mo": -132,
+   "t_mo": -135,
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Bar Kokhba Revolt' — https://www.britannica.com/event/Bar-Kokhba-Revolt (okundu, Wayback): 'Date: 132 - 135'; 'in 132 ce, the misrule of Tinnius Rufus ... roused the Jews'"
+   ],
+   "alinti": "Bar Kokhba Revolt, (132–135 ce), Jewish rebellion against Roman rule in Judaea (Britannica)",
+   "kronoloji_okulu": "Cassius Dio 69.12-14 + Eusebios; Betar'ın düşüşü Av'ın 9'u geleneği (gün için Talmud)",
+   "ic_not": "Yıllar Britannica ile doğrulandı. Gün kaynakta yok (Vikipedi: Betar ay/gün yok). Kudüs'ün isyancı elinde olup olmadığı tartışması (IAA) ayrı konu; devletin varlığı Britannica'da değil 'isyan' olarak anılır — polity niteliği (nasi, sikkeler) Eck 1999 / Mor 2016 / Eshel 2006'ya dayanır, okunamadı.",
+   "f_iso": "0132-01-01",
+   "t_iso": "0135-01-01",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "tenuh",
+   "onay": "dogrulandi",
+   "f_mo": -200,
+   "t_mo": -630,
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "TDV İslâm Ansiklopedisi, 'Tenûh' — https://islamansiklopedisi.org.tr/tenuh (okundu, curl): hilf (ittifak); Cezîme el-Ebraş, Hîre/Enbâr; 'III-VII. (IX-XIII.) yüzyıllar arasında'; Lahmîler maddesi: Cezîme ~240'ta faal, 268'de Zenobia öldürdü"
+   ],
+   "alinti": "Tenûhîler, III-VII. (IX-XIII.) yüzyıllar arasında komşu Bizans ve Sâsânî imparatorlukları ile ... yakın ilişki içinde oldu (TDV)",
+   "kronoloji_okulu": "Arap kabile tarihyazımı (Taberî, İbn Hişâm); Shahid (Byzantium and the Arabs)",
+   "ic_not": "TDV 'III-VII. yy' (parantezdeki 'IX-XIII.' ifadesi TDV'de büyük olasılıkla sonraki Lübnan Buhtürîleri dönemi; çift sistem belirsiz) → atlas 200-630 yüzyıl düzeyinde uyumlu. DİKKAT: bu kayıt 'tanuhiler' (f=0196, t=0500) ile AYNI polity (Tanûh/Tanukh); mükerrer. TDV 'ittifak', krallık değil. Cezîme ~MS 240-268 (TDV Lahmîler).",
+   "f_iso": "0200-01-01",
+   "t_iso": "0630-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   }
+  },
+  {
+   "id": "salihid",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_degerler": [
+    {
+     "mo": "IV. yy (Shahid, Vikipedi aracılığıyla; zirve 395-518)",
+     "kaynak": "Vikipedi 'Salihids' (özetten)"
+    },
+    {
+     "mo": "~200'den önce Suriye'de Selîh (Dacâim) hâkimiyeti; Gassânîler (kuruluş ~200) sonra yendi",
+     "kaynak": "TDV 'Gassânîler' (okundu, curl)"
+    }
+   ],
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "TDV İslâm Ansiklopedisi, 'Gassânîler' — https://islamansiklopedisi.org.tr/gassaniler (okundu, curl; Ahmet Ağırakça): 'Gassânîler Suriye’de bir süre Kudâa kabilesinin Dacâim koluna mensup Selîh kabilesinin hâkimiyeti altına girdiler. Fakat daha sonra onları mağlûp ederek ... Yaklaşık 200 yıllarında Gassânî Devleti’ni kuran Cefne'",
+    "Vikipedi 'Salihids' (aracı): Shahid 1989, 1995; 4.-6. yy, 502 Gassânî baskını — okunamadı"
+   ],
+   "alinti": "Gassânîler ... Selîh kabilesinin hâkimiyeti altına girdiler. Fakat daha sonra onları mağlûp ederek (TDV)",
+   "kronoloji_okulu": "TDV 1996 (Gassânî ~200 kuruluş) ↔ Shahid revizyonu (Salîhîler IV-V. yy, Gassânîler V-VI. yy)",
+   "ic_not": "TDV Gassânî devletini ~MS 200'e koyar ve Selîh'i ondan ÖNCEKİ hâkim olarak anar; Shahid'e dayanan Vikipedi ise Salîhîleri IV-VI. yy'a koyar ve Gassânîleri onların ardılı yapar. İKİ KRONOLOJİ OKULU; atlas 380-502 ikinci okulu izliyor. Ortalanmadı. Shahid 1989 Byzantium and the Arabs: Fifth Century gerekli.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "mekke-kureys",
+   "onay": "dogrulandi",
+   "f_mo": -450,
+   "t_mo": -630,
+   "t_gun": "0630-01-11",
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "TDV İslâm Ansiklopedisi, 'Mekke' — https://islamansiklopedisi.org.tr/mekke (okundu, curl): 'V. yüzyılın ilk yarısında Kusay b. Kilâb Kinâne ile Kudâa kabilesinin yardımıyla Mekke’ye hâkim' ; fetih '20 Ramazan 8’de (11 Ocak 630)'",
+    "TDV, 'Kusay b. Kilâb' — https://islamansiklopedisi.org.tr/kusay-b-kilab (okundu, curl): 'ö. 480 civarı'"
+   ],
+   "alinti": "fethin 20 Ramazan 8’de (11 Ocak 630) gerçekleştiği genel olarak kabul edilmektedir (TDV, Mekke)",
+   "kronoloji_okulu": "Siyer geleneği (Vâkıdî, İbn Sa‘d, Halîfe b. Hayyât); TDV 'genel kabul' ifadesi",
+   "ic_not": "t: TDV Mekke maddesi fethi 20 Ramazan 8 = 11 Ocak 630 verir ('farklı rivayetler' var, genel kabul bu). Atlas -0630 yıl düzeyi; gün 0630-01-11 eklenebilir. f: TDV Mekke 'V. yy ilk yarısı' Kusay hâkimiyeti, TDV Kusay maddesi ö. ~480 → atlas 450 yüzyıl düzeyinde uyumlu. Önceki oturum 'okunmadı' demişti; bu oturum okundu.",
+   "f_iso": "0450-01-01",
+   "t_iso": "0630-01-11",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "gun"
+   }
+  },
+  {
+   "id": "tryphon-devleti",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Diodotus Tryphon' (yalnız aracı): saltanat MÖ 142-138; Chrubasik 2016 Kings and Usurpers in the Seleukid Empire (OUP); Grainger 1997 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Seleukos çağı sikke kronolojisi (Houghton 1992)",
+   "ic_not": "Atlas -0141..-0137 (MÖ 142-138) Vikipedi saltanat yıllarıyla aynı; akademik kaynak okunamadı. Ayrı polity mi hanedan içi rakip kral mı sorusu da açık.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "adab",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Adab (city)' (yalnız aracı): ED III yerel hükümdarlar; Rimuş yıl adı 'Adab yıkıldı'; Jacobsen 1939 SKL; Frayne 2008 RIME 1; Marchetti vd. 2019 QADIS — okunamadı",
+    "Sümer Kral Listesi (ETCSL) sitesine bu oturumdan erişilemedi (bağlantı reddedildi)"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Orta kronoloji (ED III ~2600-2334; Sargon 2334)",
+   "ic_not": "Akademik kaynak okunamadı. Atlas aralığı 'ED III–Akad başlangıcı' çerçevesi; Adab'ın siyasî bağımsızlığı kesintisiz değil (Mesilim/Kiş, Umma). f/t önerilmiyor. Frayne 2008 RIME 1 + Jacobsen 1939 gerekli.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "aksak",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Akshak' (yalnız aracı): SKL'de Akşak hanedanı ~2459-2360; Zuzu tarihsel; Jacobsen 1939; Frayne 1992 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Sümer Kral Listesi toplamları (Orta kronolojiyle uyumsuz olabilir)",
+   "ic_not": "Tarihsellik yalnız Zuzu için; tarihler SKL toplamlarından türetilmiş (önceki ic_not zaten söylüyor). Konum belirsiz. f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "surupak",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Britannica 'Shuruppak' — https://www.britannica.com/place/Shuruppak (açıldı; polity tarihi içermiyor)",
+    "Vikipedi 'Shuruppak' (yalnız aracı): ED IIIa'da Kiş'ten Uruk'a; Akad'da patesi; Jacobsen; Martin 1975-88 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Orta kronoloji",
+   "ic_not": "Şuruppak bağımsız şehir devleti olarak kaynakta dar (SKL: kingship Şuruppak'a geçer). Atlas polity niteliği zayıf. f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "eridu-sehir-devleti",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Britannica 'Eridu' — https://www.britannica.com/place/Eridu (okundu, Wayback): 'probably founded between 5000 and 4000 bce and extant until about 600 bce' (şehir iskânı)",
+    "Vikipedi 'Eridu' (yalnız aracı): Entemena 'Eridu kralı'; Safar 1981; Green 1978 JCS 30 — okunamadı"
+   ],
+   "alinti": "It was probably founded between 5000 and 4000 bce and extant until about 600 bce (Britannica)",
+   "kronoloji_okulu": "Mitik Alulim/Alalgar (SKL) ↔ arkeolojik Ubaid iskânı",
+   "ic_not": "Eridu kutsal merkez ve şehir olarak MÖ 5000-600 iskânlı (Britannica); bağımsız şehir devleti tarihi kaynaklarda yok. Atlas -2899 (MÖ 2900) / -2333 aralığı destek görmedi. f/t önerilmiyor; ELENEN adayı.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "hamazi",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Hamazi' (yalnız aracı): infobox MÖ 2530-2010; Zizi; Ur-Adad; Frayne 2008 RIME 1 s.441-444; Michalowski 2011; Steinkeller 1998 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Orta kronoloji",
+   "ic_not": "Konumu bilinmiyor; kesintisiz bağımsızlık yok (Akad/Ur III eyaleti). Akademik kaynak okunamadı; f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "kazallu",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Kazallu' (yalnız aracı): Ur III'te ensi; kısa şehir devleti; Sumu-abum yıl 13; de Boer 2018 JCS 70; Yuhong 1998 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Orta kronoloji; yıl adı kronolojisi",
+   "ic_not": "Yıl adlarına göre bağımsızlık ~Ur III sonu–Sumu-abum yıl 13 (~1881?) gibi görünüyor (Vikipedi): atlas t=-1849 geç kalabilir. Akademik kaynak (Yuhong 1998; de Boer 2018) okunamadı; f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "kisurra",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Vikipedi 'Kisurra' (yalnız aracı): Itur-Šamaš ~1923-1896; Rim-Sin I yıl 20 ele geçirme; Sommerfeld 1983 ZA 73; Charpin 2002; Frayne 1990 RIME 4 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Orta kronoloji (Rim-Sin 1822-1763)",
+   "ic_not": "Kisurra çoğu zaman Uruk/Isin/Larsa'ya bağlı; ayrı polity niteliği tartışmalı. Akademik kaynak okunamadı; f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "lullubi",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_degerler": [
+    {
+     "mo": "ED coğrafî liste (Abu Salabikh) 'Lulubuna' = III. bin; ilk tarihli hükümdar Satuni, Naram-Sin çağdaşı (2254-2218)",
+     "kaynak": "Iranica 'Lulubi' (okundu)"
+    },
+    {
+     "mo": "~2400 (Immashkush, Vikipedi)",
+     "kaynak": "Vikipedi 'Lullubi' (özetten, aracı)"
+    }
+   ],
+   "t_degerler": [
+    {
+     "mo": "Zamua beyleri 880'de Asur'a karşı (Lullubum ülkesi = Zamua); Nebukadnezar I iddiası; sürekli bir devlet izi yok",
+     "kaynak": "Iranica 'Lulubi' (okundu)"
+    }
+   ],
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Lulubi' — https://www.iranicaonline.org/articles/lulubi/ (okundu, Wayback): 'The Lullubian ruler Satuni was a contemporary of Naram-Sin (2254-2218 BCE)'; Anubanini kabartması 'Ur III sonu/Eski Babil başı'; 'a region with a low political integration'; Zamua = Lullubum (MÖ 880'de Asur yazıtı)"
+   ],
+   "alinti": "The Lullubian ruler Satuni was a contemporary of Naram-Sin (2254-2218 BCE) from Akkad (Iranica)",
+   "kronoloji_okulu": "Orta kronoloji; Anubanini'nin tarihi (Akad ↔ Ur III sonu) kendi içinde tartışmalı",
+   "ic_not": "Süreklilik YOK: Iranica 'Zamua ... düşük siyasî bütünleşme bölgesi' ve 'hiçbir tarihleme siyasî ittifakı göstermez' diyor. Atlas f=-2399 (Immashkush ~2400) Vikipedi; Iranica'da en erken tarihli Lullubi hükümdar Satuni (~2254-2218). Anubanini Iranica'da Ur III sonu/Eski Babil başı (~2000) — Vikipedi'nin ~2350'si ile ÇELİŞİR (iki dating). t=-0668 (Esarhaddon 669) Iranica'da yok; Zamua beyleri MÖ 880. Tek polity değil, çok parçalı kabile alanı.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "simurrum",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Iranica 'Lulubi' (okundu): Simurrum kralı Kanishba, Gutium kralı Erridu-pizir'e karşı Lullubi'yi ayaklandırdı (tarih verilmiyor)",
+    "Vikipedi 'Simurrum' (yalnız aracı): Sargon/Naram-Sin/Ur III kaynakları; Iddi(n)-Sin ~MÖ 2000; Frayne 1990 RIME 4; Shaffer 2003 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Orta kronoloji",
+   "ic_not": "Konum tartışmalı (Diyala/Alt Zap/Küçük Zap). Atlas f yalnız ilk anılma (Sargon çağı); bağımsız krallık Iddi-Sin ~2000. Akademik kaynak okunamadı; f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "anshan",
+   "onay": "celiskili",
+   "f_mo": 2300,
+   "t_mo": 550,
+   "f_onay": "dogrulandi",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Elam i. The history of Elam' — https://www.iranicaonline.org/articles/elam-i/ (okundu, Wayback): Anshan Elam konfederasyonunun bileşen krallığı; 'Geography of Sargon of Akkad' (ca. 2300 BCE); Orta Elam 'Anşan ve Susa kralları' 1500-1100; Tal-e Malyan = Anshan",
+    "Encyclopaedia Iranica, 'Čišpiš' — https://www.iranicaonline.org/articles/cispis-opers/ (okundu, Wayback): Čišpiš (ca. 675-640) Anshan/Anzan ve Fars'ı fetheder; 'Iran ii. Iranian history (1)' (okundu): Kyros Astyages'i 550/49'da yener"
+   ],
+   "alinti": "Tal-e Malyan (Mālīān) in Fārs has been identified as the ancient center of the component kingdom of Anshan (Iranica)",
+   "kronoloji_okulu": "Orta kronoloji; Akad dönemi coğrafyası ~2300",
+   "ic_not": "f: Iranica Anşan'ı Elam konfederasyonunda geç III. bin (Sargon ~2300) bileşen krallık olarak gösterir → atlas -2299 yüzyıl düzeyinde uyumlu ('ilk belgeli', kuruluş değil). t: atlas -0549 (MÖ 550) Pers krallığına dönüşüm; Iranica Teispes'ten (675-640) itibaren Anşan Pers krallığıdır, yani Anşan ile teispid-pers ÖRTÜŞÜR (önceki oturum notu doğru) ve Elam bileşeni olarak Anşan'ın siyasî sürekliliği (Elam'a vasal, Orta Elam, Yeni Elam) boşluklu. Ayrı kayıt gerekçesi zayıf.",
+   "f_iso": "-2299-01-01",
+   "t_iso": "-0549-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "marhasi",
+   "onay": "bulunamadi",
+   "f_mo": 2300,
+   "t_mo": null,
+   "f_onay": "dogrulandi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Elam i. The history of Elam' (okundu, Wayback): 'The primary purpose of these Akkadian expeditions was the economic exploitation of Elamite territory, including Marahaši (Baluchistan)'; Maništusu (2269-55) Basra körfezini geçti",
+    "Vikipedi 'Marhashi' (yalnız aracı): Sargon/Rimuş/Naram-Sin/Şulgi; Hammurabi yıl 30; Steinkeller 1982 ZA 72, 2014; Potts 2004 — okunamadı"
+   ],
+   "alinti": "the Akkadian expeditions ... economic exploitation of Elamite territory, including Marahaši (Iranica)",
+   "kronoloji_okulu": "Orta kronoloji (Sargon ~2334/2300)",
+   "ic_not": "f: Iranica Marhaşi'yi Akad seferleri bağlamında (ca. 2300) anar → ilk anılma doğrulandı (atlas -2333 yüzyıl düzeyinde). Ancak bu bir polity kuruluşu değil, ilk belgelenme. Konum (Belucistan / Jiroft) tartışmalı; t=-1762 (Hammurabi yıl 30) Iranica'da yok.",
+   "f_iso": "-2299-01-01",
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "bit-yakin",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "f_degerler": [
+    {
+     "mo": "Keldani ilk anılış: Aşurnasirpal II (884/883-859) yıllıkları",
+     "kaynak": "Britannica 'Chaldea' (okundu)"
+    },
+    {
+     "mo": "850 Salmanasar III'ün Keldani akını",
+     "kaynak": "Britannica 'Chaldea' (okundu)"
+    },
+    {
+     "mo": "852 (Vikipedi/atlas)",
+     "kaynak": "Vikipedi 'Chaldea' (özetten)"
+    }
+   ],
+   "kaynak": [
+    "Encyclopaedia Britannica 'Chaldea' — https://www.britannica.com/place/Chaldea (okundu, Wayback): 'first mentioned in the annals of ... Ashurnasirpal II (reigned 884/883–859 bce)'; 'In 850 Shalmaneser III ... raided Chaldea'; Marduk-apla-iddina II (Bit-Yakin) Babil tahtında 721-710; Bit-Yakin MÖ 710'dan sonra Asur denetimine girdi",
+    "Encyclopaedia Iranica, 'Chaldeans' — https://www.iranicaonline.org/articles/chaldeans-kaldu-west-semitic-tribes/ (okundu, Wayback): 'attested in Assyrian texts from the early 9th century B.C.'"
+   ],
+   "alinti": "Chaldea is first mentioned in the annals of the Assyrian king Ashurnasirpal II (reigned 884/883–859 bce) (Britannica)",
+   "kronoloji_okulu": "Neo-Assyrian yıllıkları (Aşurnasirpal II, Salmanasar III)",
+   "ic_not": "Atlas f=-0851 (MÖ 852) Salmanasar III'e dayalı 'ilk anılma' — Britannica/Iranica Keldanileri daha erken (884-859) anar; kabile devleti kuruluş tarihi değil. t=-0599 (MÖ 600) kaynakta yok: Britannica Bit-Yakin'in MÖ 710'dan sonra Asur denetiminde kaldığını, Nabopolassar'ın MÖ 625'te Yeni Babil'i kurduğunu söyler. Beş Keldani kabilesi (Bit-Yakin, Bit-Amukani, Bit-Dakkuri...) ayrı polity sayılamaz.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "bit-amukani",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Britannica 'Chaldea' ve Iranica 'Chaldeans' (okundu, bkz. bit-yakin): Keldaniler 9. yy başından Asur metinlerinde; kabile bazlı ayrım yok",
+    "Vikipedi 'Chaldea' (yalnız aracı): Bit-Amukani Mushallim-Marduk; Şalmaneser III 852; Beaulieu 2018; Brinkman 1977 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Neo-Assyrian yıllıkları",
+   "ic_not": "bit-yakin ile aynı ic_not: f yalnız 'ilk anılma'; t kaynakta yok. Bit-Amukani'nin bitişi okunan hiçbir akademik kaynakta yer almıyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "ellipi",
+   "onay": "duzeltildi",
+   "f_mo": 720,
+   "t_mo": null,
+   "f_onay": "duzeltildi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Ḫarḫar' — https://www.iranicaonline.org/articles/harhar/ (okundu, Wayback): Sargon II (721-705) başında Ḫarḫar Ellipi hükümdarı Dalta ile antlaşma yaptı; 716'da Asur eyaleti oldu; Sennacherib Ellipi'nin kuzeyini eyalete kattı",
+    "Encyclopaedia Iranica, 'Elam i' (okundu): MÖ 691 Halule savaşında Ellipi birlikleri; 'Cimmerians' (okundu): 674-72 Ellipi muhtemelen Kimmer saldırısına açık"
+   ],
+   "alinti": "made a treaty with Dalta, the ruler of Ellipi, a land to the south of Ḫarḫar in the area of Piš-e Kuh (Iranica)",
+   "kronoloji_okulu": "Neo-Assyrian yıllıkları (Sargon II 721-705)",
+   "ic_not": "f: Iranica'da en erken tarihli Ellipi kralı Dalta, Sargon II'nin ilk yıllarında (~MÖ 720-716); atlas -0713 (714 haraç) biraz geç. Bu 'ilk tarihli an', kuruluş değil. Ellipi MÖ 691'de hâlâ var (Halule); Kimmer saldırılarında (674-72) anılıyor. t=-0639 atlas tahmini; kaynakta bitiş yok.",
+   "f_iso": "-0719-01-01",
+   "t_iso": null,
+   "kesinlik": {
+    "f": "onyil",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "parsua",
+   "onay": "duzeltildi",
+   "f_mo": 834,
+   "t_mo": 744,
+   "f_onay": "duzeltildi",
+   "t_onay": "duzeltildi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Media' — https://www.iranicaonline.org/articles/media/ (okundu, Wayback): Salmanasar III Parsua'nın 27 'kralından' hediye aldı; 744'te Asur Bit-Hamban ve Parsua eyaletlerini kurdu",
+    "Encyclopaedia Iranica, 'Assyria i' — https://www.iranicaonline.org/articles/assyria-i/ (okundu, Wayback): Parsua 9.-7. yy Asur metinlerinde, Sanandaj bölgesi; 'not politically unified', 828'de 27 kral haraç"
+   ],
+   "alinti": "the Assyrians created in 744 BCE ... two more provinces called Bit Ḫamban and Parsua (Iranica, Media)",
+   "kronoloji_okulu": "Neo-Assyrian yıllıkları",
+   "ic_not": "Parsua tek devlet değil: Iranica 'siyasî olarak birleşik değil, 27-28 bağımsız hükümdar' ve MÖ 744'te Asur eyaleti. Atlas t=-0599 (MÖ 600) → Iranica'ya göre Parsua eyalet 744'te sona erer (bir kısım direnç olabilir); Parsumaš (Elam sınırı, farklı ülke) ayrı. f=MÖ 834-828 (haraç kayıtları) en erken tarihli kayıt; atlas -0859 (MÖ 860) Vikipedi 'MÖ ~860'. Kayıt çoklu 'kral'lar için tek polity yazıyor — sorunlu.",
+   "f_iso": "-0833-01-01",
+   "t_iso": "-0743-01-01",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "musasir",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Britannica 'Urartu' — https://www.britannica.com/place/Urartu (okundu, Wayback): Ardini/Muṣaṣir Tiglat-pileser I (~MÖ 1100) tarafından fethedildi, sonra Urartu nüfuz alanına girdi; Haldi tapınağı",
+    "Vikipedi 'Musasir' (yalnız aracı): Sargon II 714 kabartması; Radner 2012; Roaf 2017 — okunamadı"
+   ],
+   "alinti": "Ardini, or Muṣaṣir, once conquered by Tiglath-pileser I of Assyria about 1100, now became part of the Urartian sphere of influence (Britannica)",
+   "kronoloji_okulu": "Neo-Assyrian yıllıkları (Sargon II 8. sefer 714)",
+   "ic_not": "Britannica Musasir'i ~MÖ 1100'de Asur fethi, sonra Urartu nüfuz alanında gösterir; bağımsız krallık f/t kaynakta yok. Sargon II'nin 714 Musasir yağması Britannica 'Urartu' içinde okunan kısımda açık değil. f/t önerilmiyor (Urartu'ya bağlı tapınak-şehir).",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "teispid-pers",
+   "onay": "dogrulandi",
+   "f_mo": 675,
+   "t_mo": 550,
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Čišpiš' (Teispes) — https://www.iranicaonline.org/articles/cispis-opers/ (okundu, Wayback): 'Čišpiš (ca. 675-640 b.c.e.), was the son of Achaemenes'; Anşan/Fars'ı fethetti",
+    "Encyclopaedia Iranica, 'Iran ii. Iranian history (1) Pre-Islamic times' — https://www.iranicaonline.org/articles/iran-ii1-pre-islamic-times/ (okundu, Wayback): Kyros Astyages'i yendi '550/49 B.C.E'",
+    "Encyclopaedia Iranica, 'Cyrus ii. Cyrus I' (okundu): Kyros I (~640-600); Cyrus II Babil Silindiri'nde 'Anşan kralı'"
+   ],
+   "alinti": "Čišpiš (ca. 675-640 b.c.e.), was the son of Achaemenes (Iranica, Čišpiš)",
+   "kronoloji_okulu": "Schmitt (Čišpiš maddesi) kuşak-hesabı; Herodotos/Behistun soy zinciri tartışmalı (Ahamenid–Teispid ayrımı)",
+   "ic_not": "f: Iranica Čišpiš'in saltanatını 'ca. 675-640' verir → atlas -0674 BİREBİR (bir yıllık önceki tahmin, kesinlik 'onyil' kabul). Anşan'ın bu aşamada Elam vasalı küçük krallıktan Pers krallığına dönüşmesi 'tahminî'. t: Kyros'un Med'i yenmesi 550/49 → atlas -0549 (MÖ 550) uyumlu. Soy zinciri (Behistun'daki Haxāmaniš ile) hâlâ tartışmalı; Cyrus Silindiri Kyros I'in ve Teispes'in 'Anşan kralı' olduğunu söyler. anshan kaydıyla örtüşme için bkz. anshan.",
+   "f_iso": "-0674-01-01",
+   "t_iso": "-0549-01-01",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "bit-dakkuri",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Britannica 'Chaldea' ve Iranica 'Chaldeans' (okundu, bkz. bit-yakin): kabile bazında Bit-Dakkuri anılmıyor"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Neo-Assyrian yıllıkları",
+   "ic_not": "Bit-Dakkuri'nin kendine ait toprağı/tarihi okunan akademik kaynaklarda yok; kabile devleti niteliği tartışmalı (önceki ic_not ELENEN diyor). f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "persis",
+   "onay": "dogrulandi",
+   "f_mo": null,
+   "t_mo": -224,
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "f_degerler": [
+    {
+     "mo": "MÖ II. yy (Frataraka Seleukos temsilcisi olarak III. yy sonu/II. yy başı, bağımsızlık ~MÖ 150 ortası; Darayan I II. yy sonu)",
+     "kaynak": "Iranica 'Frataraka', 'Persis, Kings of' (okundu)"
+    }
+   ],
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Persis, Kings of' (J. Wiesehöfer) — https://www.iranicaonline.org/articles/persis-kings-of/ (okundu, Wayback): 'the Persian dynasts who between the 2nd century BCE and 3rd century CE ruled as Parthian representatives in Persis'; Persis kaynakları 'about 140 BCE and 224 CE'; Darayan I MÖ II. yy sonu",
+    "Encyclopaedia Iranica, 'Frataraka' — https://www.iranicaonline.org/articles/frataraka/ (okundu, Wayback): Frataraka'lar Seleukos temsilcisi olarak başladı, bağımsızlık MÖ II. yy ortası"
+   ],
+   "alinti": "the Persian dynasts who between the 2nd century BCE and 3rd century CE ruled as Parthian representatives in Persis (Iranica)",
+   "kronoloji_okulu": "Sikke temelli kronoloji (Wiesehöfer 'Persis, Kings of'; Alram, Sellwood)",
+   "ic_not": "t=224 (Ardaşir) Iranica 'ca. 140 BCE–224 CE' kapsamıyla uyumlu. f: Iranica 'MÖ II. yy' → atlas -0131 (MÖ 132) yüzyıl düzeyinde uyumlu; ancak Fratarakalar bağımsızlık iddiası olmadan Seleukos temsilcisi olarak III. yy sonundan itibaren var (atlas önceki taslak -0299 yanlış sayılmış; Iranica 'bağımsız Selevkos karşıtı hükümdarlar' görüşünün çürütüldüğünü söyler). Part vasalı 'krallar' — bağımsızlık kanıtı yok.",
+   "f_iso": null,
+   "t_iso": "0224-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "hatra",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "f_degerler": [
+    {
+     "mo": "MS I. yy (yerel hanedan; Iranica)",
+     "kaynak": "Iranica 'Hatra' (okundu)"
+    }
+   ],
+   "t_mo": -241,
+   "f_onay": "duzeltildi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Hatra' (R. Schmitt; Vol. XII/1, 58-61) — https://www.iranicaonline.org/articles/hatra/ (okundu, Wayback): 'Hatra seems to have been the seat of a local dynasty since the 1st century C.E.'; 'There is no reliable evidence concerning Hatra from pre-Parthian times'; 'conquered in 240-41'",
+    "Britannica 'Hatra' — https://www.britannica.com/place/Hatra (okundu, Wayback): kent MÖ III/II. yy'da kuruldu; ~240'ta Şapur I tarafından yıkıldı"
+   ],
+   "alinti": "Hatra seems to have been the seat of a local dynasty since the 1st century C.E. (Iranica)",
+   "kronoloji_okulu": "Cologne Mani Codex (240-41 fetih); Hatra yazıtları",
+   "ic_not": "t=241 Iranica 'conquered in 240-41' → atlas MS 241 uyumlu (240-41 ayrımı). f=0155 'en erken tarihli kral' idi ve kuruluş değil; Iranica: yerel hanedan MS 1. yy'dan beri; Britannica: kent MÖ III/II. yy'da kurulmuş ama krallık bağımsızlığı yok. Atlas -0149 taslağı yanlış sayılmıştı; doğrusu MS I. yy (yüzyıl hassasiyeti, ≈ 1-100). 'Bağımsız küçük krallık' Part'a tabi.",
+   "f_iso": null,
+   "t_iso": "0241-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "osrhoene",
+   "onay": "duzeltildi",
+   "f_mo": 132,
+   "t_mo": -242,
+   "f_onay": "dogrulandi",
+   "t_onay": "duzeltildi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Abgar' (J. B. Segal; Vol. I/2, 210-213) — https://www.iranicaonline.org/articles/abgar/ (okundu, Wayback): kral listesi 'the early names and dates should be regarded with caution': Aryu 132-127 B.C. ... Abgar X Frahad 240-42",
+    "Encyclopaedia Iranica, 'Edessa' (okundu): Seleukos gücü II. yy sonunda çökünce küçük krallık"
+   ],
+   "alinti": "Aryu, 132-127 B.C.; ... Maʿnu IX, son of Abgar, 214-40; Abgar X Frahad, son of Maʿnu, 240-42 (Iranica, Abgar)",
+   "kronoloji_okulu": "Segal 1982 (Edessa Abgarid kral listesi; erken tarihler 'dikkatle')",
+   "ic_not": "f=MÖ 132 Segal ile BİREBİR (kral listesinin ilk girdisi; 'dikkatle'). t: Segal'ın listesi 242'de biter (Abgar X); atlas MS 244 (Vikipedi: Gordianus III 238-244). Roma 212-214'te Abgar IX'u devirdi; Maʿnu IX (214-40) ve Abgar X bu dönemde tâbi/kalıntı hükümdar. 242 mi 244 mü: Segal 242; ikinci kaynak okunamadı.",
+   "f_iso": "-0131-01-01",
+   "t_iso": "0242-01-01",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "adiabene",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": -116,
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Adiabene' — https://www.iranicaonline.org/articles/adiabene/ (okundu, Wayback): Seleukos satraplığı olarak yaratıldı; Arsakidler satrapın kral unvanı almasına izin verdi; Trajan MS 114: Mebarsapes yenildi, ülke 'Assyria' adıyla eyalet oldu (115-116)",
+    "Encyclopaedia Iranica, 'Arsacids ii' — https://www.iranicaonline.org/articles/arsacids-ii/ (okundu, Wayback): Mithridates II Adiabene, Gordyene, Osrhoene'yi vasal devlet yaptı (113 civarı)"
+   ],
+   "alinti": "the satrap of Adiabene was usually permitted to call himself king (Iranica)",
+   "kronoloji_okulu": "Iranica: Seleukos yaratımı satraplık → Arsakid vasal krallık; Marciak 2017 (sikke) MÖ 164",
+   "ic_not": "t: Trajan'ın MS 114-116 işgali Adiabene krallığına son vermedi — Part sonra geri aldı (Iranica); atlas 116 'Meharaspes/Trajan' ancak Vikipedi krallığın ~379'a kadar sürdüğünü yazıyor. f: Iranica krallık kuruluş yılı vermez; Marciak 2017 (MÖ 164) okunamadı. f/t tek değere bağlanamaz.",
+   "f_iso": null,
+   "t_iso": "0116-01-01",
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "gordyene",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Arsacids ii' (okundu): Gordyene Mithridates II tarafından vasal yapıldı (113 civarı)",
+    "Vikipedi 'Gordyene' (yalnız aracı): Ksenophon MÖ 401; bağımsız krallık ~165/164-95; Zarbienus MÖ 70; Marciak 2017; Hewsen 2001 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Marciak (Brill 2017) ↔ Hewsen 2001: durum için 'bilimsel tartışma'",
+   "ic_not": "Iranica 'Gordyene' maddesi Wayback'te yok; arama özeti: Part fethi Mithradates I (145-141) ya da II (daha olası), MÖ I. yy sonu Adiabene denetimi MS 115'e kadar. Atlas -0164..-0069 Marciak/Wikipedia'dır; okunan akademik kaynakla teyit yok.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "tanuhiler",
+   "onay": "duzeltildi",
+   "f_mo": -200,
+   "t_mo": -630,
+   "f_onay": "dogrulandi",
+   "t_onay": "duzeltildi",
+   "kaynak": [
+    "TDV İslâm Ansiklopedisi, 'Tenûh' — https://islamansiklopedisi.org.tr/tenuh (okundu, curl): 'Tenûhîler, III-VII. (IX-XIII.) yüzyıllar arasında komşu Bizans ve Sâsânî imparatorlukları ile ... yakın ilişki içinde oldu'",
+    "TDV 'Lahmîler' (okundu): Cezîme ~240 civarı faal, 268'de Tedmür Kraliçesi Zeyneb tarafından öldürüldü"
+   ],
+   "alinti": "Tenûhîler, III-VII. (IX-XIII.) yüzyıllar arasında komşu Bizans ve Sâsânî imparatorlukları ile ... yakın ilişki içinde oldu (TDV)",
+   "kronoloji_okulu": "Arap tarihyazımı (Taberî); Shahid 1985/2000",
+   "ic_not": "MÜKERRER: bu kayıt 'tenuh' (f=0200,t=0630) ile aynı Tanûh konfederasyonudur. TDV 'III-VII. yy' verir → t=500 desteklenmiyor; t VII. yy (Arap fethi) ile aynı. f=196 (Vikipedi şablon) ↔ TDV III. yy: yüzyıl düzeyinde uyumlu. Öneri: tenuh ile birleştir ve tek kayıtta yüzyıl hassasiyeti.",
+   "f_iso": "0200-01-01",
+   "t_iso": "0630-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   }
+  },
+  {
+   "id": "sakastan-indo-part",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_degerler": [
+    {
+     "mo": "MS 20 (Gondophares'in tahta çıkışı; Takht-i Bahi yazıtı yıl 26 = Vikrama 103 = MS 46)",
+     "kaynak": "Iranica 'Gondophares' (okundu)"
+    },
+    {
+     "mo": "MS 19 (Kushan dynastic history)",
+     "kaynak": "Iranica arama özeti (özetten)"
+    },
+    {
+     "mo": "MÖ I. yy ikinci yarısı (Senior'un alternatifi)",
+     "kaynak": "Iranica 'Indo-Scythian dynasty' arama özeti (özetten)"
+    }
+   ],
+   "t_degerler": [
+    {
+     "mo": "~MS 50: Kushanlar kuzey Arakosya'da Hint-Part gücünü bitirir; Pacores II. yy başında Seistan'da son kral",
+     "kaynak": "Iranica 'Indo-Parthian dynasty' (okundu)"
+    },
+    {
+     "mo": "MS 224/5-230 Sasani fethi",
+     "kaynak": "Vikipedi 'Indo-Parthian Kingdom' (özetten)"
+    }
+   ],
+   "f_onay": "duzeltildi",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Encyclopaedia Iranica, 'Gondophares' — https://www.iranicaonline.org/articles/gondophares/ (okundu, Wayback): 'Indo-Parthian king (20-46 C.E.)'; Takht-i Bahi yazıtı yıl 26, Vikrama 103 = MS 46, tahta çıkış MS 20",
+    "Encyclopaedia Iranica, 'Indo-Parthian dynasty' (Bopearachchi) — https://www.iranicaonline.org/articles/indo-parthian-dynasty-1/ (okundu, Wayback): 'by ca. 50 C.E. the Kushans put an end to the Indo-Parthian power in northern Arachosia'; Pacores Soter Megas ile çağdaş, II. yy başı"
+   ],
+   "alinti": "Gondophares ... Indo-Parthian king (20-46 C.E.) in Drangiana, Arachosia, and especially in the Punjab (Iranica)",
+   "kronoloji_okulu": "Vikrama çağı dönüşümü (MÖ 57) → 46; Senior alternatifi (MÖ I. yy)",
+   "ic_not": "f: atlas MS 19 → Iranica Gondophares için 20 (accession); Senior'un alternatifi (MÖ I. yy ikinci yarısı) ayrıca var. t: Iranica Hint-Part gücünün Punjab'da ~50-60'ta bittiğini, Seistan'da Pacores'in II. yy başında olduğunu söyler; atlas 226 (Sasani fethi) Vikipedi/Rezakhani. Çekirdek bölge Sakastan (iran) ve Taxila arası — polity sınırı belirsiz.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yil",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "kerma-erken",
+   "onay": "duzeltildi",
+   "f_mo": 2450,
+   "t_mo": 1750,
+   "f_onay": "duzeltildi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Kerma arkeoloji misyonu (Ch. Bonnet, Cenevre Üniv.), 'History' — https://kerma.ch/en/history/ (okundu, curl): 'Early Kerma (circa 2450-2050 B.C.), Middle Kerma (circa 2050-1750 B.C.) and Classic Kerma (circa 1750-1480 B.C.)'; Mısır işgali 1480-1080"
+   ],
+   "alinti": "Early Kerma (circa 2450-2050 B.C.), Middle Kerma (circa 2050-1750 B.C.) and Classic Kerma (circa 1750-1480 B.C.) (kerma.ch)",
+   "kronoloji_okulu": "Bonnet/Cenevre misyonu (seramik + stratigrafi); Mısır kaynaklı bağıl tarih",
+   "ic_not": "Atlas Erken+Orta Kerma = f -2499 (MÖ 2500), t -1749 (MÖ 1750). Bonnet misyonu Erken Kerma'yı MÖ 2450'de başlatıyor (atlas 50 yıl erken, yüzyıl düzeyinde kabul edilebilir) ve Orta Kerma'yı 1750'de bitiriyor → t BİREBİR. Klasik Kerma 1750-1480 atlasın dışında. 'Erken Kerma'nın krallık oluşu' sayfada tartışılmıyor (kentin kuruluşu 2450 civarı).",
+   "f_iso": "-2449-01-01",
+   "t_iso": "-1749-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   }
+  },
+  {
+   "id": "punt",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Arama özetleri (World History Encyclopedia, PBS NOVA): Punt ticareti Khufu (4. hanedan) dönemine uzanır, Palermo Taşı 5. hanedanda sefer anar; Hatşepsut seferi MÖ 15. yy; konum Somali/Eritre tartışmalı (özetten)",
+    "Vikipedi 'Land of Punt' (yalnız aracı): Kitchen 1971; Meeks 2003 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Mısır kaynaklı anılma tarihi (Sahure/Palermo Taşı MÖ ~25. yy)",
+   "ic_not": "Punt siyasî birim mi coğrafî ad mı belirsiz; f yalnızca Mısır kaynaklarında ilk anılma tarihidir (kuruluş değil), t yok. Önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "dmt",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Arama özetleri (Cambridge Core makalesi; Bard vd. 2014 Betä Giyorgis Bayes radyokarbon analizi): Proto-Aksum polity'si MÖ IV. yy'da kuzey Tigray'da; Yeha tapınağı MÖ VII. yy (özetten; makale tam metni açılamadı)",
+    "Vikipedi 'Dʿmt' (yalnız aracı): Aksum radyokarbonlarıyla MÖ 800/700-400; Phillipson 2009; Munro-Hay 1991; Fattovich 1990 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Radyokarbon (Bard 2014) ↔ epigrafik Saba teması (MÖ 1. bin başı)",
+   "ic_not": "Atlas -0799..-0399 Vikipedi infobox/radyokarbon aralığıyla örtüşüyor; ancak akademik kaynak (Phillipson 2012; Bard vd. 2014) tam okunamadı. f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "misir-14-hanedan",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_degerler": [
+    {
+     "mo": "1805 (Ryholt 1997 — atlas ic_not; kitap okunamadı)",
+     "kaynak": "atlas ic_not"
+    },
+    {
+     "mo": "1759 (14. hanedan başı)",
+     "kaynak": "Britannica 'Ancient Egypt' içindekiler (okundu)"
+    },
+    {
+     "mo": "1725 (infobox) / 1705 (tablo, Beckerath?)",
+     "kaynak": "Vikipedi (özetten)"
+    }
+   ],
+   "t_degerler": [
+    {
+     "mo": "1530 (Britannica)",
+     "kaynak": "Britannica 'Ancient Egypt' içindekiler"
+    },
+    {
+     "mo": "1650 (Vikipedi/Ryholt)",
+     "kaynak": "Vikipedi (özetten)"
+    }
+   ],
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Ancient Egypt' — https://www.britannica.com/place/ancient-Egypt (yalnız içindekiler tablosu okundu, Wayback): 14. hanedan c.1759-c.1530; 15.-17. c.1630-c.1530/1540; Üçüncü Ara Dönem c.1076-723",
+    "UCL Digital Egypt, 'Second Intermediate Period' — https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html (okundu, Wayback 2024): 14. hanedan = 13. hanedanın geç döneminde Doğu Delta'nın merkezden kopan kral grubu, tarih verilmiyor; Ara Dönem ~1700-1550; 'no general agreement ... about the length'"
+   ],
+   "alinti": "the area along the eastern fringes of the Eastern Delta broke away from central control; the little known rulers ... form the 14th Dynasty (UCL Digital Egypt)",
+   "kronoloji_okulu": "Ryholt 1997 (bağımsız Doğu Delta krallığı, uzun) ↔ Bietak/Ben-Tor (15. hanedan vasalı) ↔ Baines/Britannica",
+   "ic_not": "Üç ayrı kronoloji okulu: Britannica c.1759-1530; Ryholt (atlas) c.1805-1650; Vikipedi infobox c.1725-1650. UCL Digital Egypt hanedana tarih vermez. Ortalanmadı; bağımsız polity olup olmadığı da tartışmalı (Ben-Tor: 15. hanedan vasalı).",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   }
+  },
+  {
+   "id": "abydos-hanedani",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "UCL Digital Egypt, 'Second Intermediate Period' — https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html (okundu, Wayback 2024): Abydos hanedanı anılmıyor",
+    "Vikipedi 'Abydos Dynasty' (yalnız aracı): Ryholt 1997, Wegner 2015, Marée 2010, Ilin-Tomich 2014 — okunamadı"
+   ],
+   "alinti": "",
+   "kronoloji_okulu": "Ryholt 1997 (hipotez); Marée/Ilin-Tomich karşıt",
+   "ic_not": "Hipotetik polity (varlığı tartışmalı); okunan hiçbir akademik kaynak tarih vermiyor. Önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "misir-16-hanedan",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_degerler": [
+    {
+     "mo": "1630 (15.-17. hanedan bloku)",
+     "kaynak": "Britannica 'Ancient Egypt' içindekiler (okundu)"
+    },
+    {
+     "mo": "1649/1660 (Ryholt/Vikipedi)",
+     "kaynak": "Vikipedi (özetten)"
+    }
+   ],
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Ancient Egypt' — https://www.britannica.com/place/ancient-Egypt (yalnız içindekiler tablosu okundu, Wayback): 14. hanedan c.1759-c.1530; 15.-17. c.1630-c.1530/1540; Üçüncü Ara Dönem c.1076-723",
+    "UCL Digital Egypt, 'Second Intermediate Period' — https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html (okundu, Wayback 2024): 'Contemporary with the Hyksos there are Egyptian kings at Thebes' (16.-17. hanedan ayrımı yok)"
+   ],
+   "alinti": "Contemporary with the Hyksos there are Egyptian kings at Thebes, ruling the southern part of Upper Egypt (UCL Digital Egypt)",
+   "kronoloji_okulu": "Ryholt (bağımsız Tebai) ↔ von Beckerath/Helck (Hiksos vasalı)",
+   "ic_not": "Britannica 15.-17. hanedanları tek blok (1630-1530/1540) olarak işler; UCL Tebai kral grubunu ayırmaz. 16. hanedanın ayrı polity olup olmadığı bile tartışmalı (atlas tebai-17-hanedan ile örtüşme). f/t önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   }
+  },
+  {
+   "id": "tebai-amon-rahip-devleti",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_degerler": [
+    {
+     "mo": "1069 (3. Ara Dönem başı, UCL)",
+     "kaynak": "UCL Digital Egypt (okundu)"
+    },
+    {
+     "mo": "1076 (Britannica TIP başı)",
+     "kaynak": "Britannica 'Ancient Egypt' içindekiler (okundu)"
+    }
+   ],
+   "f_onay": "celiskili",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "UCL Digital Egypt for Universities, 'Egypt in the Third Intermediate Period (1069-664 BC)' — https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html (okundu, Wayback 2024): 'another branch of the family at Thebes took the title high priest of Amun, and ruled almost independently in Upper Egypt' (21. hanedan sırasında)",
+    "Encyclopaedia Britannica 'Ancient Egypt' — https://www.britannica.com/place/ancient-Egypt (yalnız içindekiler tablosu okundu, Wayback): 14. hanedan c.1759-c.1530; 15.-17. c.1630-c.1530/1540; Üçüncü Ara Dönem c.1076-723"
+   ],
+   "alinti": "another branch of the family at Thebes took the title high priest of Amun, and ruled almost independently in Upper Egypt (UCL)",
+   "kronoloji_okulu": "Kitchen 1986 (1069) ↔ Britannica/Baines (c.1076)",
+   "ic_not": "Atlas f=-1076 (MÖ 1077) Vikipedi 'Ramses XI ölümü' tarihi; UCL 3. Ara Dönemi 1069'da başlatır, Britannica c.1076. Rahip devletinin 945 sonrası durumu okunan kaynaklarda yok → t önerilmiyor. 21. hanedan ile aynı aile; ayrı polity niteliği tartışmalı.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yil",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "misir-21-hanedan",
+   "onay": "dogrulandi",
+   "f_mo": 1069,
+   "t_mo": 945,
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "UCL Digital Egypt for Universities, 'Egypt in the Third Intermediate Period (1069-664 BC)' — https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html (okundu, Wayback 2024): 'Around 945 BC ... Sheshonq I ... marking the beginning of the 22nd Dynasty'; sayfa başlığı '(1069-664 BC)'; 21. hanedan Tanis'ten tüm Mısır'ı nominal yönetti"
+   ],
+   "alinti": "The Third Intermediate Period covers the centuries between the New Kingdom (about 1550-1069 BC) and the Late Period (UCL)",
+   "kronoloji_okulu": "Kitchen 1986 kronolojisi (UCL referansı Kitchen 1986)",
+   "ic_not": "f=1069 UCL ile BİREBİR (atlas -1068 = MÖ 1069); t=945 (22. hanedanın başlangıcı) UCL ile BİREBİR (atlas -0944). Britannica TIP'yi c.1076'dan başlatıyor (Baines okulu) — okul farkı beyan edildi, değiştirilmedi.",
+   "f_iso": "-1068-01-01",
+   "t_iso": "-0944-01-01",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   }
+  },
+  {
+   "id": "misir-22-hanedan",
+   "onay": "duzeltildi",
+   "f_mo": 945,
+   "t_mo": null,
+   "f_onay": "duzeltildi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "UCL Digital Egypt for Universities, 'Egypt in the Third Intermediate Period (1069-664 BC)' — https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html (okundu, Wayback 2024): 'Around 945 BC another military man of Libyan origin, from Bubastis, established direct control over the entire country as king Sheshonq I, marking the beginning of the 22nd Dynasty'; 'From the middle of the Dynasty the country gradually fell apart'"
+   ],
+   "alinti": "Around 945 BC ... king Sheshonq I, marking the beginning of the 22nd Dynasty (UCL)",
+   "kronoloji_okulu": "Kitchen 1986 (~945); alternatif ~943 Vikipedi metni",
+   "ic_not": "f: UCL ~MÖ 945 (atlas -0942 = MÖ 943 Vikipedi metin alternatifi). t: UCL bitiş vermiyor, 'ülke çözüldü' diyor; Britannica TIP c.723'te biter; atlas -0714 (715) kaynaksız. t önerilmiyor.",
+   "f_iso": "-0944-01-01",
+   "t_iso": null,
+   "kesinlik": {
+    "f": "onyil",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "misir-23-hanedan",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "UCL Digital Egypt for Universities, 'Egypt in the Third Intermediate Period (1069-664 BC)' — https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html (okundu, Wayback 2024): 'The \"23rd Dynasty\" is used by different Egyptologists to refer to different groups of kings, and expresses the phenomenon of disintegration of the state'"
+   ],
+   "alinti": "The '23rd Dynasty' is used by different Egyptologists to refer to different groups of kings (UCL Digital Egypt)",
+   "kronoloji_okulu": "Kitchen 1986 (Leontopolis/Tebai) ↔ başka Mısırbilimci grupları",
+   "ic_not": "UCL kayıt tanımının kendisinin tutarsız olduğunu söylüyor (tek bir polity yok). Tarihler (MÖ ~837-735) okunan hiçbir kaynakta yok. Önerilmiyor; polity tanımı Emre'de.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "misir-24-hanedan",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "t_degerler": [
+    {
+     "mo": "~725 (25. hanedan istilası başlar, 24. hanedan hakimiyet kuramaz)",
+     "kaynak": "UCL Digital Egypt (okundu)"
+    },
+    {
+     "mo": "723 (3. Ara Dönem sonu)",
+     "kaynak": "Britannica 'Ancient Egypt' içindekiler (okundu)"
+    },
+    {
+     "mo": "~720 (Vikipedi)",
+     "kaynak": "Vikipedi (özetten)"
+    }
+   ],
+   "f_onay": "bulunamadi",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "UCL Digital Egypt for Universities, 'Egypt in the Third Intermediate Period (1069-664 BC)' — https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html (okundu, Wayback 2024): 'The 24th Dynasty was the line of rulers at Sais in the western Delta ... From about 725 BC the kings of Napata invaded Egypt, preventing the rise of the 24th Dynasty to domination'",
+    "Encyclopaedia Britannica 'Ancient Egypt' — https://www.britannica.com/place/ancient-Egypt (yalnız içindekiler tablosu okundu, Wayback): 14. hanedan c.1759-c.1530; 15.-17. c.1630-c.1530/1540; Üçüncü Ara Dönem c.1076-723"
+   ],
+   "alinti": "From about 725 BC the kings of Napata invaded Egypt, preventing the rise of the 24th Dynasty to domination (UCL)",
+   "kronoloji_okulu": "Kitchen 1986 ↔ Britannica 723; 25. hanedanın 'kesin süre ve niteliği tartışmalı' (UCL)",
+   "ic_not": "UCL 25. hanedan istilasını ~MÖ 725'e koyar (atlas 24. hanedan t=-0719 yani MÖ 720). UCL ayrıca 'the exact duration and nature of their rule is still disputed' der. f=-0731 (Piye seferi ~732) okunan kaynakta yok. Ortalanmadı.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "aksum-uzun",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Nubia' — https://www.britannica.com/place/Nubia (okundu, Wayback): Aksum kralı Ezana'nın seferi Meroe'yi MS 320-350 arasında yıktı (Aksum'un o tarihte var olduğu doğrulanır; kuruluş/son yok)",
+    "Arama özetleri (Munro-Hay, Derat: çöküş ~960, para basımı VII.-VIII. yy'da kesilir) — kitaplar okunamadı",
+    "Vikipedi 'Kingdom of Aksum' (yalnız aracı)"
+   ],
+   "alinti": "Meroe itself was destroyed between 320 and 350 by an expedition that was dispatched by Aeizanes, king of Aksum (Britannica, Nubia)",
+   "kronoloji_okulu": "Munro-Hay 1991 (~940) ↔ Derat 2018 (~960, geç kronoloji)",
+   "ic_not": "f=0100 ve t=0960 için okunan bağımsız akademik kaynak yok. t ikili: ~940 (eski taslak, Munro-Hay geleneği) ↔ ~960 (Derat, Gudit); para basımı kesilmesi VII.-VIII. yy. Önerilmiyor.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "onyil"
+   }
+  },
+  {
+   "id": "meroe-krallik",
+   "onay": "dogrulandi",
+   "f_mo": 591,
+   "t_mo": -349,
+   "f_onay": "dogrulandi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Nubia' — https://www.britannica.com/place/Nubia (okundu, Wayback): 'Napata, about 592. The Kushite capital was then transferred to Meroe'; 'Meroe itself was destroyed between 320 and 350 by an expedition ... Aksum'"
+   ],
+   "alinti": "Meroe itself was destroyed between 320 and 350 by an expedition that was dispatched by Aeizanes, king of Aksum (Britannica)",
+   "kronoloji_okulu": "Britannica (Reisner/Török dolaylı); Meroitik kronoloji Török 1997 okunamadı",
+   "ic_not": "f: Britannica Napata'nın yağmasını ~MÖ 592'ye ve başkentin Meroe'ye taşınmasını ardından koyar → atlas -0590 (MÖ 591) ±1 yıl uyumlu. t: Britannica Meroe'nin yıkımını MS 320-350 → atlas 349 üst sınırı; 'yuzyil' yerine 'onyil' aralığı (320-350). Kush krallığı ile Meroe devamlılığı: atlas kush-krallik zaten kapsıyor.",
+   "f_iso": "-0590-01-01",
+   "t_iso": "0349-01-01",
+   "kesinlik": {
+    "f": "yil",
+    "t": "onyil"
+   }
+  },
+  {
+   "id": "tebai-ayaklanma-krallik",
+   "onay": "duzeltildi",
+   "f_mo": null,
+   "t_mo": 186,
+   "t_gun": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "dogrulandi",
+   "kaynak": [
+    "Second Philae Decree (OGIS 'Hellenistic Inscriptions' no. 260; çev. L. Török, W. Müller) — https://www.attalus.org/docs/other/inscr_260.html (okundu, curl): 'Date: 186 B.C.' ; ayaklanma 'finally crushed in 186 B.C.' ; Ankhwennefer (Chaonnophris) esir alınıp öldürüldü; kararname '9th day of the Egyptian month Mesore, [in year 19]'",
+    "Arama özeti (OUP bölümü, Veïsse 2022): ayaklanma MÖ 206-186; Horwennefer MÖ 205'te Teb'de taç giydi (özetten; bölüm okunamadı)"
+   ],
+   "alinti": "a long rebellion in Upper Egypt, which was finally crushed in 186 B.C. by the general of Ptolemy, Comanos (Attalus çevirisi, Philae Kararnamesi)",
+   "kronoloji_okulu": "Philae Kararnamesi (yıl 19, 9 Mesore) — Ptolemaios V yıl sayımı",
+   "ic_not": "t=MÖ 186 birincil metin çevirisiyle doğrulandı (atlas -0185 = MÖ 186). Atlasın günü -0185-08-27: 'yıl 19, 9 Mesore' KARARNAME tarihidir (isyanın bittiğini ilan eden belge), Mesore→Gregoryen dönüşümü kaynakta yok; yani gün savaşın değil kararnamenin günü olabilir ve dönüşüm bu oturumda doğrulanmadı. f=-0204 (MÖ 205 Horwennefer) özetten; Thebes'in 191'de Ptolemaioslarca geri alındığı ayrı bir olay. Atlas künyesi Haronnophris+Chaonnophris'i tek polity yapıyor.",
+   "f_iso": null,
+   "t_iso": "-0185-01-01",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   }
+  },
+  {
+   "id": "blemmyes",
+   "onay": "bulunamadi",
+   "f_mo": null,
+   "t_mo": null,
+   "f_onay": "bulunamadi",
+   "t_onay": "bulunamadi",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Nubia' — https://www.britannica.com/place/Nubia (okundu, Wayback): 'By the 3rd century ce the Blemmyes of the eastern, or Arabian, desert (Beja) had destroyed the Meroitic culture in Lower Nubia'; Silko (Nobatae) onları yener (Britannica MS ~540'a koyar)",
+    "Welsby 2002 BMCR yorumu (BMCR 2003.01.16 — https://bmcr.brynmawr.edu/2003/2003.01.16/, okundu): 'loose nature of the tribal confederacies of the Blemmyes'"
+   ],
+   "alinti": "the loose nature of the tribal confederacies of the Blemmyes, who controlled the eastern deserts (BMCR, Welsby 2002 yorumu)",
+   "kronoloji_okulu": "Török (FHN III): tek merkezî Blemmye krallığı şüpheli; Britannica Silko ~540 ↔ Welsby/Vikipedi Silko ~450",
+   "ic_not": "Blemmyes 'krallık' olarak okunan akademik kaynakta güvenilir değil (BMCR: gevşek kabile konfederasyonu). Atlas f=0400 'üst sınır' (Vikipedi 'geç IV. yy'a kadar'), t yok. f/t önerilmiyor; polity niteliği Emre'de.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "belirsiz",
+    "t": "belirsiz"
+   }
+  },
+  {
+   "id": "nobatia",
+   "onay": "celiskili",
+   "f_mo": null,
+   "t_mo": null,
+   "f_degerler": [
+    {
+     "mo": "MS ~400 (Obłuski 2014, Vikipedi aracılığıyla; Silko ~450)",
+     "kaynak": "Vikipedi 'Nobatia' (özetten)"
+    },
+    {
+     "mo": "MS ~540 Hristiyanlaşma, hemen sonra Kral Silko",
+     "kaynak": "Britannica 'Nubia' (okundu)"
+    }
+   ],
+   "t_degerler": [
+    {
+     "mo": "6. yy sonu (Makurra ile birleşme)",
+     "kaynak": "Britannica 'Nubia' (okundu)"
+    },
+    {
+     "mo": "en geç 8. yy (Merkurios yazıtı; birleşme çoğunlukla 652 öncesi varsayımı)",
+     "kaynak": "BMCR 2003.01.16 (Welsby 2002 yorumu, okundu)"
+    }
+   ],
+   "f_onay": "celiskili",
+   "t_onay": "celiskili",
+   "kaynak": [
+    "Encyclopaedia Britannica 'Nubia' — https://www.britannica.com/place/Nubia (okundu, Wayback): 'In approximately 540 the Nobatae were converted to Christianity, and shortly thereafter their king Silko defeated the Blemmyes'; 'amalgamated later in the 6th century with Maqurrah (Makurra) into the single kingdom of Dunqulah'",
+    "BMCR 2003.01.16 — https://bmcr.brynmawr.edu/2003/2003.01.16/ (okundu): 'Medieval Nubia basically consisted of three kingdoms: Makuria, Alwa and Nobadia, the last becoming a part of Makuria not later than the eight century'"
+   ],
+   "alinti": "Nobadia, the last becoming a part of Makuria not later than the eight century (BMCR, Welsby 2002 yorumu)",
+   "kronoloji_okulu": "Britannica (6. yy birleşme) ↔ Welsby 2002 (7. yy, en geç 8. yy) ↔ Obłuski 2014",
+   "ic_not": "İKİ OKUL: Britannica Silko'yu ~540'a ve Makurra ile birleşmeyi 6. yy sonuna koyar; Welsby/Obłuski/Vikipedi Silko ~450, birleşme 7. yy (atlas t=652 'en geç' alınmıştı) ve en geç 8. yy. 690'da iki devletin hâlâ ayrı olduğu BMCR özetinde değil Vikipedi'de. Atlas f=400/t=652 okunan kaynaklarla yüzyıl düzeyinde de örtüşmüyor (Britannica bambaşka). Ortalanmadı; Welsby 2002 s.83-88 ve Obłuski 2014 gerekli.",
+   "f_iso": null,
+   "t_iso": null,
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   }
+  }
+ ],
+ "bulunamadi": [
+  {
+   "id": "byblos",
+   "neden": "f=-2999 (MÖ 3000) kentin ticaret/iskân geçmişi, BAĞIMSIZ KRALLIK değil; okunan hiçbir kaynak krallık başlangıcı vermiyor (Livius: MÖ 1479 sonrası Mısır vasal krallığı). t: Livius 333, atlas MÖ 332 → ±"
+  },
+  {
+   "id": "tire",
+   "neden": "t=MÖ 332 (İskender, Britannica) doğrulandı. f=-1199 (MÖ 1200) Fenike dönemi çerçevesi; Tire krallığının başlangıcı kaynaklarda yok. Britannica'da ilk tarihli kral Hiram I (969-936), Amarna'da (XIV. yy"
+  },
+  {
+   "id": "sidon",
+   "neden": "Sidon'un kral hanedanı Asur'dan sonra da Pers döneminde sürer (Britannica: Eşmunazar ve Tennes). İskender Sidon'u MÖ 333 sonbaharında aldı (Vikipedi); atlas MÖ 332 → ±1 yıl. f=MÖ 1200 için hiçbir okun"
+  },
+  {
+   "id": "arvad",
+   "neden": "Okunabilir akademik kaynak bulunamadı (Britannica/Livius Arvad sayfası yok/açılmadı). Vikipedi değerleri: kral Gerostratus MÖ 332'de İskender'e teslim, geleneksel krallık MÖ 259'da sona erdi (sikke ça"
+  },
+  {
+   "id": "amurru",
+   "neden": "Atlas f=-1349 (MÖ 1350) 'ilk belgeli hükümdar Abdi-Aşirta XIV. yy' (Amarna); Vikipedi bunu 'c. 2000' kuruluşa çeker (coğrafî terim, reddedilmiş). Singer 1991 Iraq 53 (JSTOR) ve Singer 1999 gerekli. Bu"
+  },
+  {
+   "id": "nuhasse",
+   "neden": "Nuhaşşe'nin siyasî başlangıcı kaynakta yok (Hurri 'Serbest Bırakma Şarkısı' ~MÖ 2000 bölge adı). Atlas t=-1339 yalnız 'bağımsız evre' (Suppiluliuma öncesi); von Dassow Addu-nirari'nin 1330'larda hâlâ "
+  },
+  {
+   "id": "katna",
+   "neden": "t≈MÖ 1340 iki bağımsız özet (Pfälzner özet; Vikipedi) 'yaklaşık' diyor; kesin yıl yok. f=-1799 (MÖ 1800) ilk bilinen kral Amut-piel I MÖ XIX. yy sonu — polity başlangıcı olarak okunamadı. Pfälzner/Mor"
+  },
+  {
+   "id": "nagar",
+   "neden": "Vikipedi'de Nagar ~2600-2300, sonra Akad; ancak Ebla arşivi ve Brak kazı raporlarına (Oates & Oates 2001) erişilemedi. Atlas aralığı (-2599..-2299) Vikipedi'nin bire bir aynısı; akademik teyit yok. Na"
+  },
+  {
+   "id": "arpad",
+   "neden": "t=MÖ 740 Britannica ile doğrulandı (atlas -0739 = MÖ 740). Sonraki Arpad isyanı MÖ 720 ayrı. f (MÖ IX. yy başı, Gusi) için akademik kaynak okunamadı."
+  },
+  {
+   "id": "patina-unqi",
+   "neden": "Akademik teyit bulunamadı. Tiglath-pileser III MÖ 738'de Unqi'yi eyalet yaptı (Vikipedi); Britannica bunu ayrıca vermiyor. Dinçol vd. 2015 (Aleppo/Taita) ve Weeden 2013 okunmalı."
+  },
+  {
+   "id": "aram-soba",
+   "neden": "Soba yalnız Kitab-ı Mukaddes ve Britannica'nın onu izleyen anlatımına dayanıyor (Britannica ~MÖ 1030 Hadadezer; Saul c.1021-1000 olduğuna göre Britannica'nın tarihi de iç tutarsız). Bağımsız yazıt tar"
+  },
+  {
+   "id": "edom",
+   "neden": "f: Britannica 'MÖ XIII. yy' → atlas -1299 (MÖ 1300) yüzyıl düzeyinde doğrulandı (yerleşim, krallık değil — Britannica 'probably occupied'). t=MÖ 553 (Nabonid, Vikipedi infobox) Britannica'da yok; Levy"
+  },
+  {
+   "id": "kedar",
+   "neden": "Atlas f=-0737 (MÖ 738) 'ilk belgeli anılış'tır, kuruluş değil (önceki ic_not zaten bunu söylüyor). Kedar bir konfederasyon, tek devlet olmayabilir. Akademik kaynak (Retsö 2003; Eph'al 1982 The Ancient"
+  },
+  {
+   "id": "lihyan",
+   "neden": "Vikipedi alıntısı (önceki ic_not): terminus post quem MÖ 552 (Nabonid), 199 yıllık 12 kral listesi. Erişilebilir akademik metin yok; Rohmer & Charloux 2015 (Archaeopress, açık erişim olabilir) ve Macd"
+  },
+  {
+   "id": "magan",
+   "neden": "Magan 'polity mi bölge adı mı' belirsiz (önceki oturum notu doğru): Mezopotamya kaynakları çoğul 'yerel efendiler' (Manium) anıyor. Siyasî birim kanıtı yok; f/t önerilmiyor. Umm an-Nar kültürüyle örtü"
+  },
+  {
+   "id": "awsan",
+   "neden": "Atlas t=-0679 (Kitchen ~MÖ 680) ↔ Korotayev ~MÖ 500: iki okul farkı (önceki ic_not'ta zaten). Akademik kaynak okunamadı; f/t önerilmiyor."
+  },
+  {
+   "id": "gerrha",
+   "neden": "Gerrha'nın ne olduğu (şehir, ticaret ağı, krallık) ve konumu tartışmalı; krallık varlığı akademik kaynakta okunamadı. f/t önerilmiyor."
+  },
+  {
+   "id": "fenike-ozerk-sehirleri",
+   "neden": "Tek kayıtta üç ayrı polity (Arvad, Tire, Sayda) birleşik; ic_not'ta bile 'üç ayrı polity yazmak daha doğru' deniyor. Hiçbir okunan akademik kaynak MÖ 126/111/259 sikke çağlarını doğrulamadı. t=-0062 ("
+  },
+  {
+   "id": "iturya",
+   "neden": "Atlas t=0049; Vikipedi MS 49 Suriye eyaletine katılım diyor, MS 92'ye (Agrippa II, Chalcis) kadar Chalcis krallığı alternatif. f=-0099 Hasmoni fetihlerinden önce Itureia'nın siyasî birliği kaynaksız. "
+  },
+  {
+   "id": "emesa",
+   "neden": "Britannica yalnız rahip-kral hattını anar. f=-0063 (Sampsiceramus I, Pompeius sonrası) ve t=0078/MS 72-78/en geç 161 / hanedan Uranius Antoninus MS 254'e kadar — hepsi Vikipedi. Akademik kaynak (Sulli"
+  },
+  {
+   "id": "abilene",
+   "neden": "Başlangıç hiçbir kaynakta tarihli değil (Lysanias'ın Luka 3:1'deki varlığı ~MS 28). t: Agrippa II'ye MS ~53 (Josephus Ant. XX.138). Okunan akademik kaynak yok. f önerilmiyor; polity ayrı olmayıp Chalc"
+  },
+  {
+   "id": "tryphon-devleti",
+   "neden": "Atlas -0141..-0137 (MÖ 142-138) Vikipedi saltanat yıllarıyla aynı; akademik kaynak okunamadı. Ayrı polity mi hanedan içi rakip kral mı sorusu da açık."
+  },
+  {
+   "id": "adab",
+   "neden": "Akademik kaynak okunamadı. Atlas aralığı 'ED III–Akad başlangıcı' çerçevesi; Adab'ın siyasî bağımsızlığı kesintisiz değil (Mesilim/Kiş, Umma). f/t önerilmiyor. Frayne 2008 RIME 1 + Jacobsen 1939 gerek"
+  },
+  {
+   "id": "aksak",
+   "neden": "Tarihsellik yalnız Zuzu için; tarihler SKL toplamlarından türetilmiş (önceki ic_not zaten söylüyor). Konum belirsiz. f/t önerilmiyor."
+  },
+  {
+   "id": "surupak",
+   "neden": "Şuruppak bağımsız şehir devleti olarak kaynakta dar (SKL: kingship Şuruppak'a geçer). Atlas polity niteliği zayıf. f/t önerilmiyor."
+  },
+  {
+   "id": "eridu-sehir-devleti",
+   "neden": "Eridu kutsal merkez ve şehir olarak MÖ 5000-600 iskânlı (Britannica); bağımsız şehir devleti tarihi kaynaklarda yok. Atlas -2899 (MÖ 2900) / -2333 aralığı destek görmedi. f/t önerilmiyor; ELENEN adayı"
+  },
+  {
+   "id": "hamazi",
+   "neden": "Konumu bilinmiyor; kesintisiz bağımsızlık yok (Akad/Ur III eyaleti). Akademik kaynak okunamadı; f/t önerilmiyor."
+  },
+  {
+   "id": "kazallu",
+   "neden": "Yıl adlarına göre bağımsızlık ~Ur III sonu–Sumu-abum yıl 13 (~1881?) gibi görünüyor (Vikipedi): atlas t=-1849 geç kalabilir. Akademik kaynak (Yuhong 1998; de Boer 2018) okunamadı; f/t önerilmiyor."
+  },
+  {
+   "id": "kisurra",
+   "neden": "Kisurra çoğu zaman Uruk/Isin/Larsa'ya bağlı; ayrı polity niteliği tartışmalı. Akademik kaynak okunamadı; f/t önerilmiyor."
+  },
+  {
+   "id": "simurrum",
+   "neden": "Konum tartışmalı (Diyala/Alt Zap/Küçük Zap). Atlas f yalnız ilk anılma (Sargon çağı); bağımsız krallık Iddi-Sin ~2000. Akademik kaynak okunamadı; f/t önerilmiyor."
+  },
+  {
+   "id": "marhasi",
+   "neden": "f: Iranica Marhaşi'yi Akad seferleri bağlamında (ca. 2300) anar → ilk anılma doğrulandı (atlas -2333 yüzyıl düzeyinde). Ancak bu bir polity kuruluşu değil, ilk belgelenme. Konum (Belucistan / Jiroft) "
+  },
+  {
+   "id": "bit-yakin",
+   "neden": "Atlas f=-0851 (MÖ 852) Salmanasar III'e dayalı 'ilk anılma' — Britannica/Iranica Keldanileri daha erken (884-859) anar; kabile devleti kuruluş tarihi değil. t=-0599 (MÖ 600) kaynakta yok: Britannica B"
+  },
+  {
+   "id": "bit-amukani",
+   "neden": "bit-yakin ile aynı ic_not: f yalnız 'ilk anılma'; t kaynakta yok. Bit-Amukani'nin bitişi okunan hiçbir akademik kaynakta yer almıyor."
+  },
+  {
+   "id": "musasir",
+   "neden": "Britannica Musasir'i ~MÖ 1100'de Asur fethi, sonra Urartu nüfuz alanında gösterir; bağımsız krallık f/t kaynakta yok. Sargon II'nin 714 Musasir yağması Britannica 'Urartu' içinde okunan kısımda açık d"
+  },
+  {
+   "id": "bit-dakkuri",
+   "neden": "Bit-Dakkuri'nin kendine ait toprağı/tarihi okunan akademik kaynaklarda yok; kabile devleti niteliği tartışmalı (önceki ic_not ELENEN diyor). f/t önerilmiyor."
+  },
+  {
+   "id": "adiabene",
+   "neden": "t: Trajan'ın MS 114-116 işgali Adiabene krallığına son vermedi — Part sonra geri aldı (Iranica); atlas 116 'Meharaspes/Trajan' ancak Vikipedi krallığın ~379'a kadar sürdüğünü yazıyor. f: Iranica krall"
+  },
+  {
+   "id": "gordyene",
+   "neden": "Iranica 'Gordyene' maddesi Wayback'te yok; arama özeti: Part fethi Mithradates I (145-141) ya da II (daha olası), MÖ I. yy sonu Adiabene denetimi MS 115'e kadar. Atlas -0164..-0069 Marciak/Wikipedia'd"
+  },
+  {
+   "id": "punt",
+   "neden": "Punt siyasî birim mi coğrafî ad mı belirsiz; f yalnızca Mısır kaynaklarında ilk anılma tarihidir (kuruluş değil), t yok. Önerilmiyor."
+  },
+  {
+   "id": "dmt",
+   "neden": "Atlas -0799..-0399 Vikipedi infobox/radyokarbon aralığıyla örtüşüyor; ancak akademik kaynak (Phillipson 2012; Bard vd. 2014) tam okunamadı. f/t önerilmiyor."
+  },
+  {
+   "id": "abydos-hanedani",
+   "neden": "Hipotetik polity (varlığı tartışmalı); okunan hiçbir akademik kaynak tarih vermiyor. Önerilmiyor."
+  },
+  {
+   "id": "misir-23-hanedan",
+   "neden": "UCL kayıt tanımının kendisinin tutarsız olduğunu söylüyor (tek bir polity yok). Tarihler (MÖ ~837-735) okunan hiçbir kaynakta yok. Önerilmiyor; polity tanımı Emre'de."
+  },
+  {
+   "id": "aksum-uzun",
+   "neden": "f=0100 ve t=0960 için okunan bağımsız akademik kaynak yok. t ikili: ~940 (eski taslak, Munro-Hay geleneği) ↔ ~960 (Derat, Gudit); para basımı kesilmesi VII.-VIII. yy. Önerilmiyor."
+  },
+  {
+   "id": "blemmyes",
+   "neden": "Blemmyes 'krallık' olarak okunan akademik kaynakta güvenilir değil (BMCR: gevşek kabile konfederasyonu). Atlas f=0400 'üst sınır' (Vikipedi 'geç IV. yy'a kadar'), t yok. f/t önerilmiyor; polity niteli"
+  }
+ ],
+ "kutuphane_gerekli": [
+  {
+   "id": "kolkhis-krallik",
+   "gerekli_eser": [
+    "Vikipedi 'Colchis' (yalnız aracı): Cornell 2001; Braund 1994 Georgia in Antiquity (Clarendon) — Braund'un kendisi okunamadı"
+   ]
+  },
+  {
+   "id": "lazika",
+   "gerekli_eser": []
+  },
+  {
+   "id": "kafkas-arnavutlugu",
+   "gerekli_eser": []
+  },
+  {
+   "id": "byblos",
+   "gerekli_eser": []
+  },
+  {
+   "id": "tire",
+   "gerekli_eser": []
+  },
+  {
+   "id": "sidon",
+   "gerekli_eser": []
+  },
+  {
+   "id": "arvad",
+   "gerekli_eser": [
+    "Vikipedi 'Arwad' (yalnız aracı): İskender'e Gerostratus teslim (MÖ 332); MÖ 259 Antiochus II ile geleneksel krallığın sonu ve özgür şehir; MÖ 34-35 bağımsızlık kaybı; dipnot: Lipiński 2004 Itineraria Phoenicia; Sommer 2008 Die Phönizier — okunamadı"
+   ]
+  },
+  {
+   "id": "amurru",
+   "gerekli_eser": [
+    "Vikipedi 'Amurru kingdom' (yalnız aracı): Abdi-Aşirta/Aziru XIV. yy; ~MÖ 1200 sonu (infobox, kaynaksız); atıf: Singer 1991 Iraq 53:69-74; Singer 1999 Handbook of Ugaritic Studies; Bryce 2005 — okunamadı"
+   ]
+  },
+  {
+   "id": "nuhasse",
+   "gerekli_eser": [
+    "Vikipedi 'Nuhašše' (yalnız aracı): Hitit vasalı Tette Mursili II zamanında (~MÖ 1322); atıf Bryce 2005, Astour 2002, Rainey 2015 — okunamadı"
+   ]
+  },
+  {
+   "id": "katna",
+   "gerekli_eser": [
+    "Vikipedi 'Qatna' (yalnız aracı): saray ~MÖ 1340'ta Tuşratta ile yakıldı, Suppiluliuma yağması 1340 sonrası/1334 öncesi; atıf Pfälzner 2007-2014; Morandi Bonacossi; Richter 2002; Bryce 2014; Astour 2002 — okunamadı",
+    "Pfälzner, Die Welt der Lebenden (2004) Heidelberg PDF — Anubis bot engeli nedeniyle açılamadı; arama özetinde 'yaklaşık MÖ 1340 yıkım' ifadesi (özetten)"
+   ]
+  },
+  {
+   "id": "hana-terqa",
+   "gerekli_eser": [
+    "Vikipedi 'Terqa' / 'Kingdom of Ḫana' (aracı): Podany 2014 'Hana and the Low Chronology' JNES 73(1):49-71 — okunamadı"
+   ]
+  },
+  {
+   "id": "nagar",
+   "gerekli_eser": [
+    "Vikipedi 'Tell Brak' (yalnız aracı): Nagar krallığı ~MÖ 2600'den, ~2300'de yıkıldı, Akad egemenliği, sonra bağımsız Hurri şehir devleti; atıf Oates & Oates 2001; Matthews & Eidem 1993; Eidem-Finkel-Bonechi 2001 — okunamadı"
+   ]
+  },
+  {
+   "id": "birlesik-israil",
+   "gerekli_eser": [
+    "Vikipedi 'United Monarchy' (yalnız aracı): c. MÖ 1047-930; Finkelstein/Mazar kronoloji tartışması — okunamadı"
+   ]
+  },
+  {
+   "id": "arpad",
+   "gerekli_eser": []
+  },
+  {
+   "id": "bit-adini",
+   "gerekli_eser": []
+  },
+  {
+   "id": "patina-unqi",
+   "gerekli_eser": [
+    "Vikipedi 'Pattin' (yalnız aracı): MÖ 870 öncesi-738; atıf Weeden 2013 BICS; Dinçol vd. 2015 Anatolian Studies; Bryce 2012 s.130-133 — okunamadı"
+   ]
+  },
+  {
+   "id": "aram-soba",
+   "gerekli_eser": [
+    "Vikipedi 'Aram-Zobah' (yalnız aracı): Lipiński 2000 The Arameans; Na'aman 2022 — okunamadı"
+   ]
+  },
+  {
+   "id": "ammon",
+   "gerekli_eser": [
+    "Vikipedi 'Ammon' (aracı): Hübner 1992; Tyson 2014 — okunamadı"
+   ]
+  },
+  {
+   "id": "edom",
+   "gerekli_eser": [
+    "Vikipedi 'Edom' (yalnız aracı): infobox c. MÖ 553; Levy vd. 2019 PLOS ONE 14(9); Levin 2015 — okunamadı"
+   ]
+  },
+  {
+   "id": "kedar",
+   "gerekli_eser": []
+  },
+  {
+   "id": "lihyan",
+   "gerekli_eser": [
+    "Vikipedi 'Lihyan' (yalnız aracı): infobox MÖ V. yy-MÖ I. yy?; atıf Rohmer & Charloux 2015 Proc. Seminar for Arabian Studies 45; Macdonald 2019 EI3 'Liḥyān'; Farès-Drappeau 2005; Hoyland 2002 — okunamadı"
+   ]
+  },
+  {
+   "id": "magan",
+   "gerekli_eser": [
+    "Vikipedi 'Magan (civilization)' (yalnız aracı): Hamblin 2006; Hansman 2009 BSOAS — okunamadı"
+   ]
+  },
+  {
+   "id": "awsan",
+   "gerekli_eser": [
+    "Vikipedi 'Awsan' (yalnız aracı): infobox c. MÖ 800-700; Robin 2015 'Before Ḥimyar' OUP; Nebes 2023 OHANE V; Kitchen ~685-680; Korotayev ~500 — okunamadı"
+   ]
+  },
+  {
+   "id": "gerrha",
+   "gerekli_eser": [
+    "Vikipedi 'Gerrha' (yalnız aracı): krallık c. MÖ 650 (kaynaksız), c. MS 300 Sasani; Potts 1990 The Arabian Gulf in Antiquity; Potts 1984 — okunamadı"
+   ]
+  },
+  {
+   "id": "fenike-ozerk-sehirleri",
+   "gerekli_eser": []
+  },
+  {
+   "id": "iturya",
+   "gerekli_eser": [
+    "Vikipedi 'Itureans' (yalnız aracı): MÖ 104/103 Aristobulos I Itureia'nın bir kısmını aldı; MS 49 Suriye eyaleti; atıf Myers 2010 The Ituraeans and the Roman Near East (CUP); Schaller 1979; Wright 2013 — okunamadı"
+   ]
+  },
+  {
+   "id": "emesa",
+   "gerekli_eser": []
+  },
+  {
+   "id": "abilene",
+   "gerekli_eser": []
+  },
+  {
+   "id": "salihid",
+   "gerekli_eser": [
+    "Vikipedi 'Salihids' (aracı): Shahid 1989, 1995; 4.-6. yy, 502 Gassânî baskını — okunamadı"
+   ]
+  },
+  {
+   "id": "tryphon-devleti",
+   "gerekli_eser": [
+    "Vikipedi 'Diodotus Tryphon' (yalnız aracı): saltanat MÖ 142-138; Chrubasik 2016 Kings and Usurpers in the Seleukid Empire (OUP); Grainger 1997 — okunamadı"
+   ]
+  },
+  {
+   "id": "adab",
+   "gerekli_eser": [
+    "Vikipedi 'Adab (city)' (yalnız aracı): ED III yerel hükümdarlar; Rimuş yıl adı 'Adab yıkıldı'; Jacobsen 1939 SKL; Frayne 2008 RIME 1; Marchetti vd. 2019 QADIS — okunamadı"
+   ]
+  },
+  {
+   "id": "aksak",
+   "gerekli_eser": [
+    "Vikipedi 'Akshak' (yalnız aracı): SKL'de Akşak hanedanı ~2459-2360; Zuzu tarihsel; Jacobsen 1939; Frayne 1992 — okunamadı"
+   ]
+  },
+  {
+   "id": "surupak",
+   "gerekli_eser": [
+    "Vikipedi 'Shuruppak' (yalnız aracı): ED IIIa'da Kiş'ten Uruk'a; Akad'da patesi; Jacobsen; Martin 1975-88 — okunamadı"
+   ]
+  },
+  {
+   "id": "eridu-sehir-devleti",
+   "gerekli_eser": [
+    "Vikipedi 'Eridu' (yalnız aracı): Entemena 'Eridu kralı'; Safar 1981; Green 1978 JCS 30 — okunamadı"
+   ]
+  },
+  {
+   "id": "hamazi",
+   "gerekli_eser": [
+    "Vikipedi 'Hamazi' (yalnız aracı): infobox MÖ 2530-2010; Zizi; Ur-Adad; Frayne 2008 RIME 1 s.441-444; Michalowski 2011; Steinkeller 1998 — okunamadı"
+   ]
+  },
+  {
+   "id": "kazallu",
+   "gerekli_eser": [
+    "Vikipedi 'Kazallu' (yalnız aracı): Ur III'te ensi; kısa şehir devleti; Sumu-abum yıl 13; de Boer 2018 JCS 70; Yuhong 1998 — okunamadı"
+   ]
+  },
+  {
+   "id": "kisurra",
+   "gerekli_eser": [
+    "Vikipedi 'Kisurra' (yalnız aracı): Itur-Šamaš ~1923-1896; Rim-Sin I yıl 20 ele geçirme; Sommerfeld 1983 ZA 73; Charpin 2002; Frayne 1990 RIME 4 — okunamadı"
+   ]
+  },
+  {
+   "id": "lullubi",
+   "gerekli_eser": []
+  },
+  {
+   "id": "simurrum",
+   "gerekli_eser": [
+    "Vikipedi 'Simurrum' (yalnız aracı): Sargon/Naram-Sin/Ur III kaynakları; Iddi(n)-Sin ~MÖ 2000; Frayne 1990 RIME 4; Shaffer 2003 — okunamadı"
+   ]
+  },
+  {
+   "id": "anshan",
+   "gerekli_eser": []
+  },
+  {
+   "id": "marhasi",
+   "gerekli_eser": [
+    "Vikipedi 'Marhashi' (yalnız aracı): Sargon/Rimuş/Naram-Sin/Şulgi; Hammurabi yıl 30; Steinkeller 1982 ZA 72, 2014; Potts 2004 — okunamadı"
+   ]
+  },
+  {
+   "id": "bit-yakin",
+   "gerekli_eser": []
+  },
+  {
+   "id": "bit-amukani",
+   "gerekli_eser": [
+    "Vikipedi 'Chaldea' (yalnız aracı): Bit-Amukani Mushallim-Marduk; Şalmaneser III 852; Beaulieu 2018; Brinkman 1977 — okunamadı"
+   ]
+  },
+  {
+   "id": "musasir",
+   "gerekli_eser": [
+    "Vikipedi 'Musasir' (yalnız aracı): Sargon II 714 kabartması; Radner 2012; Roaf 2017 — okunamadı"
+   ]
+  },
+  {
+   "id": "bit-dakkuri",
+   "gerekli_eser": []
+  },
+  {
+   "id": "adiabene",
+   "gerekli_eser": []
+  },
+  {
+   "id": "gordyene",
+   "gerekli_eser": [
+    "Vikipedi 'Gordyene' (yalnız aracı): Ksenophon MÖ 401; bağımsız krallık ~165/164-95; Zarbienus MÖ 70; Marciak 2017; Hewsen 2001 — okunamadı"
+   ]
+  },
+  {
+   "id": "sakastan-indo-part",
+   "gerekli_eser": []
+  },
+  {
+   "id": "punt",
+   "gerekli_eser": [
+    "Vikipedi 'Land of Punt' (yalnız aracı): Kitchen 1971; Meeks 2003 — okunamadı"
+   ]
+  },
+  {
+   "id": "dmt",
+   "gerekli_eser": [
+    "Arama özetleri (Cambridge Core makalesi; Bard vd. 2014 Betä Giyorgis Bayes radyokarbon analizi): Proto-Aksum polity'si MÖ IV. yy'da kuzey Tigray'da; Yeha tapınağı MÖ VII. yy (özetten; makale tam metni açılamadı)",
+    "Vikipedi 'Dʿmt' (yalnız aracı): Aksum radyokarbonlarıyla MÖ 800/700-400; Phillipson 2009; Munro-Hay 1991; Fattovich 1990 — okunamadı"
+   ]
+  },
+  {
+   "id": "misir-14-hanedan",
+   "gerekli_eser": []
+  },
+  {
+   "id": "abydos-hanedani",
+   "gerekli_eser": [
+    "Vikipedi 'Abydos Dynasty' (yalnız aracı): Ryholt 1997, Wegner 2015, Marée 2010, Ilin-Tomich 2014 — okunamadı"
+   ]
+  },
+  {
+   "id": "misir-16-hanedan",
+   "gerekli_eser": []
+  },
+  {
+   "id": "tebai-amon-rahip-devleti",
+   "gerekli_eser": []
+  },
+  {
+   "id": "misir-23-hanedan",
+   "gerekli_eser": []
+  },
+  {
+   "id": "misir-24-hanedan",
+   "gerekli_eser": []
+  },
+  {
+   "id": "aksum-uzun",
+   "gerekli_eser": [
+    "Arama özetleri (Munro-Hay, Derat: çöküş ~960, para basımı VII.-VIII. yy'da kesilir) — kitaplar okunamadı"
+   ]
+  },
+  {
+   "id": "blemmyes",
+   "gerekli_eser": []
+  },
+  {
+   "id": "nobatia",
+   "gerekli_eser": []
+  }
+ ]
+}

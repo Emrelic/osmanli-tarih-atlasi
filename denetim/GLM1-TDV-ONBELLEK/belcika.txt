@@ -1,0 +1,2575 @@
+﻿         
+
+
+
+
+<!DOCTYPE html>
+<html lang="tr" class="no-js">
+	<head>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(66550639, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/66550639" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160819951-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-160819951-1');
+		</script>
+        		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Kuzey Avrupa’da bir ülke."><meta property="og:url" content="/belcika"><meta property="og:site_name" content="TDV İslâm Ansiklopedisi"><meta property="og:title" content="BELÇİKA - TDV İslâm Ansiklopedisi"><meta property="og:type" content="website"><meta property="og:description" content="Kuzey Avrupa’da bir ülke."><meta property="og:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@TDV_ISAM"><meta property="twitter:title" content="BELÇİKA - TDV İslâm Ansiklopedisi"><meta property="twitter:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:description" content="Kuzey Avrupa’da bir ülke.">		<title>BELÇİKA - TDV İslâm Ansiklopedisi</title>
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.core.css?ver=22">
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.design.css?ver=26" />
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/all.min.css" />
+		<link rel="shortcut icon" type="image/png" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-favico-v3.ico"/>
+		<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.min.213.js"></script>
+		<script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/modal.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/ResizeSensor.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/theia-sticky-sidebar.min.js"></script>
+				
+	</head>
+
+<body>
+
+<style>
+
+
+
+#topnewst{
+	position: fixed;
+	top: 0;
+    background: #FF8951;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #fff;
+	height:45px;
+	line-height:45px;
+	z-index: 1199;
+	font-weight:bold;
+	letter-spacing:0.02rem;
+}
+#topnewst a{color:#fff; text-decoration:underline !important;}
+
+#volume-list {display:none; }
+
+#letter-lisst { position: absolute; margin-top:-2px; z-index:-10; background:#fff; padding-top:10px; border:2px solid #ccc}
+
+#letter-list a { text-align:center; text-decoration:none; float:right}
+.azcontainer{width:100px;}
+.minict_wrapper ul li:hover{background:#ededed;}
+
+.menu-top-left{text-align:left !important;}
+#searc-complete-result{list-style:none; margin:0px; padding:0px;}
+
+#searc-complete-result li{
+	float:none;
+	line-height:19px;
+	margin:0px !important;
+	padding: 13px 2px !important;
+	border-bottom: 1px solid #efe9e9;
+	border-top:none;
+}
+#searc-complete-result a{text-decoration:none;}
+#searc-complete-result li .sr-title{color:#0093B0; font-weight:bold}
+#searc-complete-result li .sr-desc{color:#666;}
+#searc-complete-result li:hover{background:#f1f4f4;}
+#auto-suggest-loading{height:45px;}
+#auto-suggest-loading1{height:45px;}
+#searchBox1{width: 90%;}
+.logged_user{border-top:2px solid #ddd;}
+
+/* header buyutme */
+
+.header_logo img{height:58px !important;}
+
+
+.hover-menu ul li:hover{background:rgb(236, 230, 230, 0.60);}
+#albhabet_button:hover{color:#666 !important;}
+#cilt_button:hover{color:#666 !important;}
+.hover-menu ul li{text-align:left !important;}
+#auto-suggest-box{width:490px; top:50px !important; border:none; background-color:#f4f1f1; left:0px !important}
+#searc-complete-result{margin-top:14px; line-height:19px;}
+
+#searc-complete-result > a:first-child li{border-top: 2px solid #bdb7b7 !important; padding-top: 25px !important; padding-left:2px !important; padding-right:2px !important;}
+#searc-complete-result a.selected li{background:#e6e6e6 !important;}
+
+body{margin-top:60px;}
+
+#searchBox::-ms-clear {
+    display: none;
+}
+
+.hover-menu ul a li{color:#666;}
+.hover-menu ul a:hover li{color:#000;}
+
+#searc-complete-result{margin:3px 12px 0 12px !important;}
+#searc-complete-result > a:first-child li{padding: 13px 2px !important; border-top:2px solid #ddd !important}
+.sr-title{font-size:0.98rem !important;}
+.sr-desc{font-size:0.95rem !important;}
+.sr-old{color: #9d9d9d; font-size:0.75rem !important;}
+#auto-suggest-box{min-height:125px !important; border: 2px solid rgb(93, 182, 213); border-top:none; background:#fff; border-radius:3px}
+#searc-complete-result > div.no-res{ padding:20px 0px 50px 5px; color:#666}
+
+#searc-complete-result .at-line{position:relative; padding-left:5px;}
+#searc-complete-result .at-line .author-photo{height:35px; border-radius:2px}
+#searc-complete-result .at-line .icon-user{font-size: 31px; color: #ddd; padding-right: 4px;}
+#searc-complete-result .at-line .author-title{position: absolute; top: -3px; padding-left: 10px; color: #0093B0; font-weight: bold;}
+#searc-complete-result .at-line .author-field{position: absolute; top: 15px; padding-left: 10px; font-size:15px; color:#999}
+
+#searc-complete-result .author-photo{height:30px;}
+
+.as-tabs div.as-m.act, .as-tabs div.as-y.act{}
+.as-tabs div.as.psv{cursor:pointer;}
+.as-tabs div.as img.ic{height:20px;}
+.as-tabs div.as.psv img.ic{opacity:0.4}
+.as-tabs div.as.psv img.ic:hover{opacity:1}
+.as-tabs div.as.psv img.up{display:none}
+.as-tabs div.as span{ color:#666; font-size:15px;}
+
+div.mr{text-align:left; padding: 10px 15px 10px 0px; }
+.deep{ height:17px; opacity:0.7; }
+.deep:hover{opacity:0.9;}
+.count{color:#999;}
+/*div.mr a{color:#06839c; font-size:0.93rem;}
+div.mr a:hover{text-decoration:underline !important;}
+div.mr .sall{color: #06839c !important; text-decoration: underline !important;}
+.metinshow{color: #06839c !important}
+.srchp:hover{color:#0e6779 !important;}*/
+
+/* new alert */
+/*#header_container{top:45px !important;}
+.body_container{margin-top:45px !important;}*/
+
+.alert-warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #856404;
+    background-color: #fff3cd;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.alert-content {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.alert-close {
+    flex: 0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.alert-close:hover {
+    color: #c69500;
+}
+</style>
+
+<!-- <div id="topnewst">Arama yenilendi: <a href="/duyuru/arama-kilavuzu">Arama kılavuzunu okumak için tıklayınız.</a></div> -->
+
+<div id="header_container" style="position:fixed; top:0px !important;">
+    
+    <div class="centered" id="menu">
+	
+		<div class="static_position pure-g" >
+			<div class="pure-u-13-24 hdr-left">
+        		<div class="header_left">
+            		<ul class="dia-navul">
+           				<li class="header_menu hover-menu-button" style="margin-right:8px; line-height:0px; margin-top:18px; margin-left:-7px ">
+							<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/blue-dot-menu-masaustu.png" />
+							<div class="hover-menu" style="left:10px; right:none; top: 47px;">
+								<div style="position:relative">
+								<img class="menu-top-arrow" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png?ver=2" style="position:absolute; top:-9px; left:5px" />
+								<ul>
+									<a href="/genel_kisaltmalar"><li class="hover_menu_first">Genel Kısaltmalar</li></a>
+									<a href="/transkripsiyon_isaretleri"><li>Transkripsiyon İşaretleri</li></a>
+									<a href="/duyuru/arama-kilavuzu"><li>Arama Kılavuzu</li></a>
+									<a href="/duyurular"><li>Duyurular</li></a>
+									<a href="/hakkinda/"><li style="border-bottom:none;">TDV İslâm Ansiklopedisi Hakkında</li></a>
+								</ul>
+								</div>
+							</div>
+						</li>
+						<li class="header_logo" style="border-right:none; position:relative">
+							<a href="/" id="logo-part"> 
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-yatay-logo.svg" style="height:28px; width:318px;" />
+							</a>
+							<div id="header-article" style="display:none">
+							</div>
+						</li>						
+            		</ul>
+        		</div>
+    		</div>
+    		<div class="pure-u-11-24 hdr-right">
+        		<div class="header_right">
+             		<ul class="dia-navul right">
+						<li class="header_search" style="padding:0px; margin-right:-2px;">
+
+							<span class="icon-search tipsoo tbottom tipso_style" style="background: #0093c1 !important; color: #fff !important;position:absolute;right:9px;top:16px;" id="icon-search-submit" data-width="175" data-tipso="Madde başlıklarında ara."></span>
+							<span class="icon-search tipso tbottom tipso_style" style="background:transparent;color: #DF6F49 !important;position:absolute;right: 50px;top:17px;font-size: 1.1rem; " id="icon-search-submit-txt" data-width="175" data-tipso="Madde içeriklerinde ara."></span>
+							<img class="open-keyboard" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/input-keyboard.png" />
+
+							<input id="searchBox" class="searchBox" style="width:490px; line-height:normal; height:45px; padding-right:55px;" type="text"
+							value='' placeholder="TDV İslâm Ansiklopedisi'nde ara..." autocomplete="off"/>
+							<div id="auto-suggest-box">
+								<input autocomplete="off" id="auto-suggest-state" style="display:none" />
+								<img src='https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif' id="auto-suggest-loading" />
+								<div id="auto-suggest-content"></div>
+							</div>
+							<style>
+							.open-keyboard{position: absolute;
+							right: 90px;
+							top: 27px;
+							opacity: 0.3; cursor:pointer}
+							.open-keyboard:hover{opacity:0.8}
+							.dia-keyboard {display:none; background:#fff; border:1px solid #ddd; padding:20px 15px 15px 15px; position:absolute; top:10px; left:-490px; width:485px; line-height:0px; border-radius:3px;}
+							.dia-keyboard ul{list-style:none; margin:0px; padding:0px; clear:both}
+							.dia-keyboard ul li{float:left; width:30px; height:27px; text-align:center;
+							    border: 1px solid rgba(0,0,0,0.1);
+								background-color: #f5f5f5;
+								border-radius:2px;
+								margin:2px; line-height:27px; cursor:pointer; font-size:15px;}
+							.dia-keyboard ul li:hover{background:#ddd;}
+							.dia-keyboard .shift{width:45px; font-size:13px; font-weight:bold}
+							.dia-keyboard .close-keyboard{position: absolute;right: 10px; top: 10px; font-weight: bold; color: #666; cursor: pointer;}
+							</style>
+							<div class="dia-keyboard">
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/keyboard-arrow.png" style="line-height:0px;position:absolute; right:-5px;" />
+								<span class="close-keyboard">x</span>
+								<ul>
+									<li hb=""" hk=""">"</li>
+									<li hb="1" hk="1">1</li>
+									<li hb="2" hk="2">2</li>
+									<li hb="3" hk="3">3</li>
+									<li hb="4" hk="4">4</li>
+									<li hb="5" hk="5">5</li>
+									<li hb="6" hk="6">6</li>
+									<li hb="7" hk="7">7</li>
+									<li hb="8" hk="8">8</li>
+									<li hb="9" hk="9">9</li>
+									<li hb="0" hk="0">0</li>
+									<li hb="*" hk="*">*</li>
+									<li hb="-" hk="-">-</li>									
+								</ul>							
+								<ul style="margin-left:10px;">
+									<li hb="Q" hk="q">q</li>
+									<li hb="W" hk="w">w</li>
+									<li hb="E" hk="e">e</li>
+									<li hb="R" hk="r">r</li>
+									<li hb="T" hk="t">t</li>
+									<li hb="Y" hk="y">y</li>
+									<li hb="U" hk="u">u</li>
+									<li hb="I" hk="ı">ı</li>
+									<li hb="O" hk="o">o</li>
+									<li hb="P" hk="p">p</li>
+									<li hb="Ğ" hk="ğ">ğ</li>
+									<li hb="Ü" hk="ü">ü</li>
+									<li hb="," hk=",">,</li>									
+								</ul>
+								<ul style="margin-left:25px">
+									<li hb="A" hk="a">a</li>
+									<li hb="S" hk="s">s</li>
+									<li hb="D" hk="d">d</li>
+									<li hb="F" hk="f">f</li>
+									<li hb="G" hk="g">g</li>
+									<li hb="H" hk="h">h</li>
+									<li hb="J" hk="j">j</li>
+									<li hb="K" hk="k">k</li>
+									<li hb="L" hk="l">l</li>
+									<li hb="Ş" hk="ş">ş</li>
+									<li hb="İ" hk="i">i</li>
+																	
+								</ul>
+								<ul>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>
+									<li hb="Z" hk="z">z</li>
+									<li hb="X" hk="x">x</li>
+									<li hb="C" hk="c">c</li>
+									<li hb="V" hk="v">v</li>
+									<li hb="B" hk="b">b</li>
+									<li hb="N" hk="n">n</li>
+									<li hb="M" hk="m">m</li>
+									<li hb="Ö" hk="ö">ö</li>
+									<li hb="Ç" hk="ç">ç</li>
+									<li hb="." hk=".">.</li>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>																		
+								</ul>
+								<ul style="margin-left:65px;">
+										
+									<li hb="Boşluk" hk="Boşluk" class="space noletter" style="width:280px;">Boşluk</li>
+									<li hb="Sil" hk="Sil" class="delete back noletter" style="width:50px">Sil</li>
+								</ul>									
+							</div>
+						</li>			
+	    			</ul>
+        	</div>
+    	</div>	
+  	</div>
+
+	</div>
+	</div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        // Focus search box when page load
+        $('#searchBox').focus();
+    });
+</script>
+
+<div id="scrollTop" title="Sayfanın başına dön." style="z-index:100000">
+	<span class="icon-chevron-up"></span>
+</div>
+
+<style>
+#newsbar_open{display:block ;} /* only this page */
+.m-body{font-size:19px; line-height:28px; text-align:justify;}
+body{color:#494d55 !important}
+
+.inAtr{font-size:16px; color:#999 !important}
+
+@media screen {
+    #print-part-temp { display: none;}
+	.hdrprint{background:#ededed;}
+}
+@media print {
+	#print-part-temp { display: block; padding:30px;}
+	.hdrprint{background:#ededed; padding:5px; margin-bottom:20px; fonst-size:7px;  border-bottom:1px solid #ddd; }
+	.dosyaindir{display:none}
+	 body{margin: 0mm 0mm 1mm 0mm; }
+}
+
+.copy-link{cursor:pointer}
+.copy-link:hover{opacity:0.5 !important;}
+
+#div_bilgi{padding-top:6px;}
+.atif-btn{cursor:pointer;}
+.atif-kutusu{cursor: default !important;}
+.article-pd{font-size:14px; color:#999; line-height:20px; margin-top:5px;}
+
+.fotorama__caption{text-align:center !important;}
+.fotorama__caption__wrap{background-color: rgba(255,255,255,.9) !important;  }
+.fotorama__caption__wrap b{color:#E16327}
+.article-part{margin-bottom:60px;}
+.sterm{background:#E3FF91;}
+
+.m-content p{margin-top:0px; margin-bottom:17px;}
+.m-content bibl p{margin-top:0px; margin-bottom:5px; line-height:22px; padding-left: 1.5em;
+    text-indent:-1.5em; font-size:17px;}
+
+
+
+		.article-part-header{background:#f4f1f1;  border-radius:1px; position:relative; margin-bottom:20px;}
+		.article-part-header.kor-part{background-color:#f1f4f4 !important; }
+		.article-part-header .yazim-arrow{position:absolute; bottom:-10px; left:20px; z-index:1}
+		.part-author{padding-left:15px; line-height:55px}
+		.part-title{display:none}
+		.part-title a{color:#666}
+		.part-authors{}
+		.part-authors span{color:#888}
+		.part-authors a{color:#0093b0}
+		.part-info{padding-right:15px;text-align:right; padding-top:16px}
+		/* .atif-btn{position:absolute; cursor:pointer; color:#0093B0; font-size:26px; right:2px; top:-31px} */
+		.atif-btn.psv{}
+		/*
+		.atif-btn.top{position:absolute; top:5px; right:0px;}
+		.atif-btn.top .atif-kutusu{border-top:1px solid #ddd;}
+		.atif-btn.top .ak-list{height:280px; overflow-y:auto; overflow-x:hidden;}
+		*/
+		.atif-kutusu{text-align:left; right:-0px;  background:#F7F7F7;  display:none; border: 1px solid #e4e4e4;padding:10px 20px 20px 20px; z-index:5; font-size:0.85rem; color:#777; margin-top:-1px;}
+		.ak-title{border-bottom:1px solid #ddd; font-size:1.05rem !important; line-height:23px !important; padding-bottom: 5px; font-weight:bold;}
+		.ak-muellif{line-height:18px; padding-top:9px;}
+		.ak-site{line-height:18px; padding-top:9px;}
+		.ak-yayinci{line-height:18px; padding-top:9px;}
+		.ak-ilkyayin{line-height:18px; padding-top:9px;}
+		.ak-adres{line-height:18px; padding-top:9px;}
+		.ak-copy{border-top:1px solid #ddd; padding-top:10px; margin-top:10px;}
+		.ak-copy span{background:#f9f9f9; color:#666; padding:4px 15px 4px 15px; border:1px solid #ddd; border-radius:2px; cursor:pointer}
+		.ak-copy span:hover{background:#f1f1f1;}
+		.ak-copytext{display:none; line-height:17px; padding-top:20px; padding-bottom:10px}
+		.msg-btn{ cursor:pointer; font-size:28px; color: #967A7A; position: absolute; right: 34px; top: -32px;}
+		.msg-btn a{color: #967A7A}
+		.print-btn{float:right; cursor:pointer; font-size:20px; color: #967A7A; padding-top:1px;}
+
+
+.article-part-nav-info{position:absolute; background:#E98A5C; top:-33px; left:0px; list-style-type:none; margin:0px; padding:0px; color:#fff; border-radius:2px;}
+.article-nav-prev{cursor:pointer; padding:2px 4px 0px 5px; height:18px; float:left; line-height:0px; border-right:none}
+.article-nav-prev span, .article-nav-next span{font-size:11px;}
+.article-nav-prev.kor{border-right:1px solid #ddd;}
+.article-nav-next{cursor:pointer; padding:2px 4px 0px 4px; height:18px; float:left; line-height:0px;}
+.article-nav-next.kor{border-left:1px solid #ddd;}
+.article-nav-passive{cursor:default;}
+.article-nav-passive img{opacity:0.3; cursor:default;}
+.article-nav-prev.kor span, .article-nav-next.kor span{color:#afa1a1;}
+.article-nav-numbers{padding:0.15rem 12px 0 12px; line-height:25px; float:left; border-right:1px solid #F3BFA7; border-left:1px solid #F3BFA7; font-size:13px; font-weight:bold; letter-spacing: 3px;}
+
+.article-nav-open-info{cursor:pointer; padding:0 9px; height:21px; line-height:22px; float:left; border:none; font-size:13px; font-weight:bold;}
+.article-nav-info-li{float:left; height:21px; background:rgb(181, 164, 164); font-size:13px; line-height:21px; height:21px; padding:0 10px; display:none; border-top-right-radius: 2px; border-bottom-right-radius: 2px;}
+.tipso_style{border-bottom:none !important;}
+
+.bibpos{position:absolute; color:#fff; font-size:1px;}
+.m-body span.eser{font-style:italic; text-justify: none; }
+.m-body span.kisaltma{text-justify: none;}
+
+.m-body bibl span.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+.m-body bibl span.eser.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+
+.m-body bibl{
+margin-top: -17px !important;
+    display: block;
+}
+
+.pop-title{font-weight:bold;}
+
+.article-left-bar{padding-bottom:0px !important; box-shadow:none !important; background:none !important; max-width: 68px;z-index: 1;}
+
+.rndleftbtn:hover{opacity:1 !important}
+
+.encokokunan{
+	background: #e4e8e8;
+    width: 100px;
+    /* padding: 2px 5px; */
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: -25px;
+    font-size: 0.80rem;
+    padding: 2px 0px 3px 0px;
+    font-weight: bold;
+    color: #888;
+    /* margin-top: 10px; */
+}
+.encokokunan:hover{background:#dbdede; color:#666}
+.captcha-container > img { height: 38px; position: absolute }
+.captcha-container > .form-group { margin-left: 90px; }
+.error-box{background: #ff8585; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+.success-box{background: #26b151; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.grecaptcha-badge.show {
+    visibility: visible !important;
+    z-index: 10000;
+}
+
+.swal2-container {
+    z-index: 10000;
+}
+
+.swal2-html-container {
+    font-size: 1rem;
+}
+</style>
+
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.print.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.lazyload.min.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+<link rel="stylesheet" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/vendor.fotorama.css">
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.fotorama.js"></script>
+
+
+
+<br />
+<div class="centered body_container body_pad_article" style="position:relative">
+
+	<div class="print-meta visible-on-print" style="display: none;">
+		Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+		<a title="BELÇİKA" href="https://islamansiklopedisi.org.tr/belcika?utm_source=pdf">https://islamansiklopedisi.org.tr/belcika</a>
+	</div>
+
+	<div class="article_header_container" style="margin-bottom:25px; position:relative;">
+	<!-- mesele -->
+	<!-- article left bar -->
+		<div class="article-left-bar">
+				<div class="pure-g bar-line"  style="    background: #fff;
+		padding-top: 5px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell bleft"><span class="icon-align-left"></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span class="icon-align-justify"></span></div>
+				</div>
+				<div class="pure-g bar-line"  style="background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell fup"><span id="txtup" class="icon-font up" style=""></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="txtdown" class="icon-font down"></span></div>
+				</div>
+				<div class="pure-g bar-line-nav"  style="background: #fff; padding-bottom: 5px; border-bottom-left-radius: 4px;border-bottom-right-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+
+					<div class="pure-u-1-2 bar-cell bleft"><span id="pagecolorSepia" ></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="pagecolorWhite"></span></div>
+				</div>
+
+				<div class="pure-g bar-line-nav rndleftbtn tipso tright tipso_style" data-tipso="<i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde görmek için tıklayınız." data-width="200" style="border-bottom: none; border-radius:4px; margin-top:10px; background:#2FB556; opacity:0.85; border: 1px #5abb76 solid; text-align: center; padding: 7px 0 2px 0px; cursor:pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" style="height:20px" /></div>
+				</div>
+
+				<div class="pure-g" style="display:none">
+					<div class="pure-u-1-2 bar-cell bleft">
+						<a href="belazuri" class="tipso tright" data-width="200" data-tipso="Önceki madde: BELÂZÜRÎ">
+							<span class="icon-chevron-circle-left"></span>
+						</a>
+					</div>
+					<div class="pure-u-1-2 bar-cell bright">
+						<a href="beldar" class="tipso tright" data-tipso="Sonraki madde: BELDAR">
+							<span class="icon-chevron-circle-right"></span>
+						</a>
+					</div>
+				</div>
+		</div>
+	<!-- article left bar end -->
+
+		<style>
+		.listen{width:15px; opacity:0.5; cursor:pointer}
+		.listen:hover{opacity:1;}
+		</style>
+
+		
+		
+		<div class="article_title"><h1>BELÇİKA</h1></div>
+
+		
+		<div class="article_info"><h2>
+			<div style="padding-top:6px;"><span style="color:#e16328">Kuzey Avrupa’da bir ülke.</div>			</h2>
+		</div>
+	</div>
+
+
+<div id="article-main-content" class="pure-g " style="">
+    <div class="pure-u-1 pure-u-md-15-24 sticky-content">
+
+		<div class="bibl-popup" style="display:none; position:absolute; padding:22px 24px 18px 18px; max-width:290px; background:#FEFEC6; z-index:1;     box-shadow: 0 3px 10px rgba(0,0,0,.3);">
+			<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/bibl-popup-arrow.png" style="position: absolute;top: -10px;" />
+			<span class="icon-close close-bibl-poup" style="position: absolute;top: 8px; right: 10px; font-size: 20px;cursor: pointer; color:#555"></span>
+			<div class="bibl-cnt"></div>
+		</div>
+
+		
+
+		<div class="m-body" id="m-body" style="font-size:; line-height:">
+
+			<!-- Madde Planı -->
+			<style>
+			body.sepya{background-color:rgb(241, 233, 215) !important}
+			.art-plan{margin-bottom:30px;border:1px solid #ededed; border-radius:3px;}
+			.art-plan.sepya{border: 1px solid #c5bead !important;}
+			.article-plan-buttons{border-bottom:1px solid #ededed; overflow:hidden}
+			.article-plan-buttons.sepya{border:none; border-bottom: 1px solid #c5bead !important;}
+			.article-plan-buttons .passive:hover{border-bottom:3px solid #ededed; color:#333; cursor:pointer}
+			.article-plan-buttons .passive{color:#999; border-bottom:none; font-weight:normal}
+			.article-plan-buttons .active{color:#666; border-bottom:3px solid #ddd; font-weight:bold}
+			.btn-plan, .btn-preview{padding-bottom:5px !important; padding-top:5px !important}
+			.plan-content, .preview-content{ clear:both;  font-size:15px; border-radius:3px;}
+			.preview-span{background: #ededed;padding: 2px 8px; margin-right:10px; font-size: 12px; letter-spacing: 1px;border-radius: 3px;}
+			.preview-ul{list-style:none; padding:0px; margin:0px; height: 189px; overflow-y: auto; padding-right:15px;}
+			.preview-ul li{padding-bottom:30px; line-height:22px; cursor:pointer; color:#777; width:100%;}
+			.preview-ul li:hover{color:#888;}
+			.ind2{padding-left:15px;}
+			.ind3{padding-left:30px;}
+			.ind4{padding-left:45px;}
+			.ind5{padding-left:60px;}
+			.ind6{padding-left:75px;}
+			</style>
+
+			
+				<div id="artplan" class="art-plan">
+					<div class="article-plan-buttons">
+					    							<div class="btn-preview active" style="font-size:15px; text-align:center;float:left; margin-left:20px; padding:0 20px; width:195px">
+								Bölümler İçin Önizleme
+							</div>
+                        													<div class="btn-plan passive" style="font-size:15px; text-align:center;float:left; margin-left:20px; padding:0 20px">
+								Madde Planı
+							</div>
+											</div>
+										<div class="preview-content" style="line-height:27px; padding:15px 5px 10px 20px; ">
+						<div class="top-prev-container top-prev-container-p" style=" width: 100%;  z-index:100;padding-bottom:5px;">
+								<div class="preview-content">
+								<ul class="preview-ul">
+								<li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >1/3</span><span><span>Müellif: </span><b style="color:#888">SUNA DOĞANER</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Meşrutî monarşiyle yönetilen Belçika’nın resmî adı Belçika Krallığı’dır (Royaume de Belgique, Koninkrijk België). Kral devletin başı ve ordunun başkum...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#2-ulkede-islamiyet"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >2/3</span><span><span>Müellif: </span><b style="color:#888">ALİ RIZA TEMEL</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">III. ÜLKEDE İSLÂMİYET II. Dünya Savaşı’nı takip eden günlerde Belçika’daki müslümanların sayısı birkaç yüzü geçmiyordu. 1960’tan ve özellikle birçok İ...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#3-belcikada-islami-arastirmalar"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >3/3</span><span><span>Müellif: </span><b style="color:#888">DAVUT DURSUN</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">IV. BELÇİKA’DA İSLÂMÎ ARAŞTIRMALAR Belçika’da İslâmiyat ve şarkiyat çalışmaları Avrupa’nın büyük ülkelerine göre daha geç başlamış, aynı zamanda da sı...</div></li>								</ul>
+							</div>
+						</div>
+					</div>
+				    										<div class="plan-content" style="line-height:27px; display:none; padding:0px 5px 10px 20px; max-height: 190px;
+    overflow-y: auto; margin-right: 5px;
+    margin-top: 15px; margin-bottom:15px">
+						<div class="ind1">I. FİZİKÎ ve BEŞERÎ COĞRAFYA</div>
+<div class="ind1">II. TARİH</div>
+<div class="ind1">III. ÜLKEDE İSLÂMİYET</div>
+<div class="ind1">IV. BELÇİKA’DA İSLÂMÎ ARAŞTIRMALAR</div>					</div>
+				    				</div>
+
+
+			
+			<!-- Madde Metni -->
+			<style>
+			.hdrprt1{border:1px solid #e4e4e4; border-radius:3px; margin-bottom:0px; position:relative}
+			.hdrprt1.sepya{border: 1px solid #c5bead;}
+			.hdrprt1arrows{border-bottom:1px solid #e4e4e4; overflow:hidden;background: #f4f1f1;}
+			.hdrprt1arrows.sepya{border-bottom: 1px solid #c5bead;background: #e4ddcc;}
+			.partnumbers{float:left;  height:37px; font-size:0.90rem; letter-spacing: 3px; border-left:1px solid #ddd; border-right:1px solid #ddd; padding-left:12px; padding-right:12px; color:#007993; padding-top:5px;}
+			.partnumbers.sepya{border-left:1px solid #c5bead; border-right:1px solid #c5bead;}
+			.partdownarrow{float:left;  height:37px; padding-top:4px; padding-left:12px; padding-right:12px;border-right:1px solid #ddd;}
+			.partdownarrow.sepya{border-right:1px solid #c5bead;}
+			.partprint{border-left:1px solid #e4e4e4; float:right;;height:37px; line-height:42px; padding-left: 14px; padding-right: 14px; cursor:pointer}
+			.partprint.sepya{border-left:1px solid #c5bead}
+			.partemail{border-left:1px solid #e4e4e4; float:right; line-height: 37px; padding: 1px 14px; cursor:pointer}
+			.partemail.sepya{border-left:1px solid #c5bead;}
+			.partatif{border-top-right-radius: 2px; float:right; border-left: 1px solid #e4e4e4; padding: 1px 14px; line-height: 37px;}
+			.partatif.sepya{border-left: 1px solid #c5bead;}
+			</style>
+			<!-- Madde Metni -->
+			                <div class="article-parts">
+                                            <!--<div class="visible-on-print">
+                            <img src=""
+                                 title=""  alt="" />
+                            <div class="right-info" style="text-align:center;"></div>
+                        </div>-->
+                    
+                    							<div class="article-part" id="_1" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									3 bölümden oluşan maddenin 1. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="BELÇİKA" href="https://islamansiklopedisi.org.tr/belcika?utm_source=pdf#1">https://islamansiklopedisi.org.tr/belcika#1</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev article-nav-passive " data-jurl="#" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="3 bölümden oluşan maddenin 1. bölümü">
+													1/3												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#2-ulkede-islamiyet" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="3-belcikada-islami-arastirmalar">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="BELÇİKA//1" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/suna-doganer"><b>SUNA DOĞANER</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">BELÇİKA</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>SUNA DOĞANER</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">1992</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/belcika#1</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext1">
+														SUNA DOĞANER, "BELÇİKA", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belcika#1 (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p>Meşrutî monarşiyle yönetilen Belçika’nın resmî adı Belçika Krallığı’dır (Royaume de Belgique, Koninkrijk België). Kral devletin başı ve ordunun başkumandanı ise de yürütme gücü hükümetin elinde olup kralın sembolik bir konumu vardır. Yasama organı olan parlamento 212 üyeli temsilciler meclisiyle 184 üyeli senatodan oluşmuştur. 1831 yılından beri yürürlükte olan anayasada 1970, 1980 ve 1988 yıllarında yapılan değişikliklerle ülkenin Flaman (13.512 km<sup>2</sup>, 5.722.344 nüfus), Valon (16.844 km<sup>2</sup>, 3.234.767 nüfus) ve Brüksel (162 km<sup>2</sup>, 970.501 nüfus) bölgelerinden oluşan bir federal yapıya dönüştürülmesi amaçlanmıştır. Bu bölgelerin kendilerine özgü yürütme ve yasama organlarıyla bayrakları ve sembolleri bulunmaktadır. Bununla beraber Belçika henüz tam bir federasyon haline gelmiş olmayıp bölgelerle topluluklar arasında bazı konularda anlaşma sağlanamamıştır. Hollanda ve Lüksemburg’la birlikte oluşturulan <b>Benelüx</b> ekonomik birliği içerisinde yer alan Belçika, Avrupa Topluluğu ve NATO üyesidir.<br><b>I. FİZİKÎ ve BEŞERÎ COĞRAFYA</b><br>Kuzey ve kuzeydoğuda Hollanda, doğuda Almanya, Lüksemburg, güney ve güneybatıda Fransa ile komşu olup kuzeyde Kuzey deniziyle 65.5 kilometrelik bir kıyıya sahiptir. Yüzölçümü 30.518 km<sup>2</sup> olan Belçika’nın yüzey şekilleri birbirinden farklı üç coğrafî bölgeye ayrılır. Kuzey-kuzeybatıda yer alan alçak Belçika, Kuzey denizinin sığ kıyılarında bir kumul şeridiyle başlar ve 8-16 km. kadar içeriye sokulur. Kıyı gerisinde, deniz seviyesinden alçak olduğu için deniz sularından setlerle korunan polder adlı denizden kazanılmış topraklar yer alır. Bu bölümde bulunan ovalardan kuzeydekine Flandre, Anvers şehriyle Meuse ırmağı arasında kalana da Campine adı verilir. Kuzeydeki alçak ovalarla güneyde vadilerin daha derin yardığı yaylalar arasında yer alan Orta Belçika’nın ortalama yüksekliği 60-180 m. arasındadır. Hafif dalgalı ova görünüşünde olan bu bölgede tepelik alanlar yoktur. Sambre ve Meuse nehirlerinin güneyinde arazi yükselir ve zemin daha dalgalı bir görünüş alır. Vadiler de bu kesimde daha derine gömülmüştür. En yüksek yeri Botrange tepesi (694 m.) olan bu kesim üçüncü bölge Ardenler’i (Ardenne) teşkil eder. </p><p> Belçika’da Batı Avrupa okyanus ikliminin değişik bir tipi hüküm sürer. Yaz ve kış mevsimleri daha belirgin olup en sıcak aylarla en soğuk aylar arasındaki fark fazladır. Kıyıdan olan uzaklığa ve yüksekliğe göre iklimde bazı değişiklikler görülür. İç kesimlerde yaz sıcaklıkları daha yüksek, Ardenler’de kışlar daha soğuktur. Yıllık ortalama sıcaklık 10 °C civarında, ortalama yağış ise 740-1000 mm. arasında değişir. </p><p> Belçika’nın en önemli akarsuyu, batıdan gelerek kuzeye doğru dönen ve Kuzey denizine dökülen Escaut ırmağıdır. Denize döküldüğü yerde haliç oluşturur ve burada Anvers Limanı yer alır. Diğer önemli bir ırmağı Fransa’dan gelerek Ardenler bölgesinde güney-kuzey doğrultusunda akan ve doğuya dönerek Hollanda ile sınır oluşturan Meuse’dir. </p><p> Belçika bitki örtüsünde kıyı gerisi orman yetişmesine uygun olmayıp tarla ve çayırlar halindedir. Ormanlar Ardenler bölgesinde yapraklarını döken ağaçlardan oluşur. </p><p> Ülkenin ekonomisi ticaret ve sanayie dayanır. Büyük sanayi kömür yataklarının işletilmesiyle başlamıştır. Kuzeyde Campine ovasında Sambre ve Meuse nehirleri vadileri boyunca Avrupa’nın en eski kömür havzalarından birisi yer alır. Kömür yataklarının işletmeye açılması bu kesimde Belçika’nın en faal sanayi merkezlerinin kurulmasına yol açmıştır. Günümüzde yıllık kömür istihsali gittikçe düşmekte, yalnız Campine’deki en verimli kömür yatakları işletilmektedir. Sanayiin başlıca özelliği çeşitliliktir. Önemli sanayi dalları çelik, metalürji, dokuma, plastik, cam, seramik, çimento ve kimyasal madde üretimi üzerinedir. Ülkede sanayi için gerekli ham madde olarak kömür dışında doğal kaynak yoktur. Ardenler’de uzun yıllardan beri işletilmekte olan demir madeni de artık tükenmiştir. Bu yüzden ülkede sanayi ithal malı ham maddelere bağımlı kalmaktadır. Sanayi Sambre-Meuse ve Campine kömür alanları ile Brüksel-Anvers ekseni boyunda ve Gand (Gent) çevresinde yoğunlaşmıştır. Liège demir çelik ve metalürji sanayiinin merkezidir. Anvers ve yakınındaki kanalların çevresi petrol arıtma, kimya ve gıda sanayii tesislerinin yoğunlaştığı bir alandır. Üretim mallarının % 40’ı ihraç edilirken (çeşitli makine, kimyasal madde) dış ülkelerden de yakıt ve ham madde alınır. </p><p> Tarım modern makinelerle yapılmakta ve yüksek verim elde edilmektedir. En verimli tarım alanları kıyı gerisinde uzanan Flandre bölgesindedir. Başlıca tarım ürünleri buğday, arpa, patates ve şeker pancarıdır. Dikili alanlarda sebze bahçeleri yer alır. Seralarda meyvecilik yapılmaktadır. Tarım alanlarının üçte birinden fazlası hayvancılığa ayrılmıştır. Çayır ve meralarda modern hayvancılık faaliyetleri sürdürülür. Hayvancılıkta büyükbaş hayvanlardan sığır, domuz, küçükbaş hayvanlardan da koyun beslenir ve ayrıca kümes hayvancılığı yapılır. Hayvansal ürünlerden süt ve et önemlidir. </p><p> Ülkenin nüfusu 9.927.612’dir (1989) ve km<sup>2</sup>’ye 323 kişi düşer. Yoğunluk yer yer değişmekle beraber bu rakam hiçbir yerde ellinin altına inmez. 1957’den beri 9 milyon civarında seyreden ülke nüfusunun artış oranı giderek gerilemektedir. En az nüfuslu saha güneydoğudaki Ardenler dağlık bölgesidir. Nüfus özellikle sanayi yörelerinde yoğundur ve % 40’ını çalışan kesim oluşturur. Çalışan nüfusun çoğunluğu sanayi ve ulaşım sektöründedir. Başşehir Brüksel Orta Belçika bölgesinde yer alır. Banliyöleriyle birlikte nüfusu 1 milyona yaklaşan (1989’da 970.501) Brüksel’de aynı zamanda Avrupa toplulukları ve NATO’nun genel merkezleri de bulunur. Diğer önemli şehirleri Anvers (473.082), Gand (230.822), Charleroi (208.021), Liège (199.020), Bruges (117.653), Schaerbeek (104.855), Namur (103.131), Mons (91.650), Anderlecht (89.650) ve Louvain’dir (85.947). </p><p> Ülkenin güney yarısında Fransızca’nın bir lehçesi olan Valonca, kuzey yarısında da Felemenkçe’ye (Hollanda dili) çok yakın bir dil olan Flamanca konuşulur. İki dili ayıran sınır, Brüksel şehrinin biraz güneyinden doğu-batı doğrultusunda bir çizgi olarak geçer. Güneydoğuda ise nüfusun % 1’i Almanca konuşur. Valonca ve Flamanca’nın her biri konuşulduğu bölgede, ayrıca her ikisi Brüksel bölgesinde resmî dildir. </p><p> Belçika’da halkın büyük çoğunluğu Katolik olmakla beraber Protestan, Mûsevî ve müslüman azınlıklar da vardır. İslâmiyet’in resmen bir din olarak tanınmış olduğu ülkede 300.000 civarında müslüman yaşamaktadır (aş.bk.). </p><p> Ülke dünyanın en yoğun ulaşım ağlarından birine sahiptir. Karayolları ve demiryolları son derece gelişmiştir. Ulaşımda deniz ve akarsu kanallarından da faydalanılır. Anvers gerek Belçika’nın gerekse Batı Avrupa’nın en işlek limanlarından biridir. Gand Belçika’nın ikinci büyük liman şehridir; Gent-Terneuzen Kanalı limanı Escaut ırmağı ile birleştirir. Hava ulaşımında Brüksel milletlerarası havaalanından büyük ölçüde faydalanılır. Ayrıca Anvers, Liège, Charleroi ve Ostende’de de daha küçük havaalanları vardır.<br><b>II. TARİH</b><br>Günümüzdeki Belçika toprakları milâttan önce 57’de Sezar tarafından Roma İmparatorluğu’na katılmadan önce Kelt ve Cermen asıllı toplulukların elinde bulunuyordu. Ülke Roma hâkimiyetine geçince bu imparatorluğun üç Galya’sından biri olan Belçika Galyası’nın bir kısmını teşkil etti. Belçika Galyası Kuzey denizinden Cenevre gölüne, bir taraftan da Ren nehrinden Paris havzasına kadar uzanıyordu ve merkezi Reims şehri idi. Milâttan sonra V. yüzyıl başlarında sona eren Roma hâkimiyetinin ardından Franklar’ın istilâsına uğrayan ülke, en parlak dönemlerinden birini Karolenj sülâlesi zamanında yaşadı. Fakat bu sülâlenin çökmesi ve arkasından gelen Norman akınları ülkede karışıklıklar dönemini başlattı. X ve XI. yüzyıllara doğru mahallî idareler karışıklıklardan ve merkezî idare yokluğundan faydalanarak geniş muhtariyet sağladılar ve böylece çeşitli prenslikler, dukalıklar ve kontluklar oluştu. Mahallî idarelerin bağımsızlığı, XIV. yüzyıl sonlarında Bourgogne Dukası Philippe’in bu topraklardan bir kısmını bir evlenme sonucu ele geçirmesine kadar sürdü. </p><p> XV. yüzyılın başlarında Belçika ve Hollanda’nın birçok toprağı Bourgogne Dukalığı’na dahil oldu. Bourgogne hâkimiyeti sırasında ülke ekonomi ve sanat alanında da yüksek bir seviyeye erişti; ancak daha sonra Avusturya’nın Habsburg hânedanına ait topraklara katıldı. İmparator V. Karl döneminde, bu imparator ülkeyi o sırada İspanya kralı olan oğlu II. Felipe’ye bıraktı. II. Felipe koyu bir Protestan düşmanı olduğundan kuzey illerinde büyük bir ayaklanma başladı (1576). Çok uzun süren savaşlardan sonra 1648’de Hollanda Cumhuriyeti kuruldu ve günümüzdeki Belçika topraklarının büyük bir kısmı bu cumhuriyetle birleşti; yalnız güney bölgesi İspanya hâkimiyetinde kaldı. 1713’teki Utrecht Antlaşması’yla Avusturya’ya geçen Belçika, Fransa devrim savaşları sırasında da Campoformio Antlaşması’yla Fransa’ya katıldı. Aslında bu antlaşmadan iki yıl önce Fransa 1795’te Liège bölgesi de dahil olmak üzere bütün Belçika’yı topraklarına katmıştı. Avusturya 1797’deki Campoformio Antlaşması’yla bu durumu resmen tanımış oldu. 1815 Viyana Kongresi’nde alınan kararlardan birisiyle ülke yeniden Hollanda ile birleşti. </p><p> 1830 Ağustosunda Belçikalılar Hollandalılar’a karşı ayaklandılar. Hollanda’nın başında bulunan I. William ayaklanmayı bastırmak için çok gayret sarfettiyse de başarılı olamadı. Bunun üzerine geçici bir hükümet kuruldu ve bu hükümet Belçika’nın bağımsızlığını ilân etti. 1830 Aralığında toplanan Londra Konferansı da yeni Belçika Devleti’ni tanıdı. Fakat Hollanda Kralı I. William Londra Konferansı’nın bu kararını ve dolayısıyla da Belçika’nın bağımsızlığını tanımadı. Ancak Belçika üzerine gönderdiği ordu başarı sağlayamayınca 1839 Londra Antlaşması’yla bağımsız Belçika’yı tanımak zorunda kaldı. Bu antlaşmayla aynı zamanda Belçika’nın tarafsızlığı da garanti altına alınmış oluyordu. Fakat Almanlar I. Dünya Savaşı’nda Fransa’ya girmek için bu tarafsızlığı dikkate almadan Belçika topraklarından geçtiler ve kısa bir süre sonra da bu ülkeyi işgal ettiler. Savaş sonunda imzalanan Versailles Antlaşması’yla Belçika tekrar istiklâline kavuştu ve daha da kârlı çıkarak Almanya’dan Malmedy ve çevresini aldı. </p><p> II. Dünya Savaşı’nda Almanlar bir kere daha Belçika’yı işgal ettiler. 1940 Mayısındaki bu işgalden sonra Belçika Kralı III. Leopold Almanlar’a boyun eğerek ülkesinden ayrıldı. Savaş sırasında Belçika’da Alman kuvvetlerine karşı bir millî direniş hareketi başladı. Bu hareketin de katkısıyla savaşın sonuna doğru Belçika Alman işgalinden kurtuldu (1944). Kurtuluştan sonra bir süre ülkeyi sosyalist ve hıristiyan sosyalist partiler yönetti. 1940’taki işgalde memleketini terketmiş bulunan Kral III. Leopold 1950’de geri döndü. Fakat daha önce ülkesini terketmiş olmasından dolayı halk kendisine fazla sempati göstermedi; o da 17 Temmuz 1951’de tahtını oğlu Baudouin’e bıraktı. Halen onun krallığı devam etmektedir.</p> <bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> Jonathan E. Helmreich, “Belgium”, <span class="kisaltma" data-ad="eam"><i>EAm.</i></span>, III, 481-495.</p><p> Sami Öngör, <span class="eser">Devletler ve Ülkeler Ansiklopedisi</span>, Ankara 1967, s. 20-22.</p><p> Ma. Bu. v.dğr., “Belgium”, <span class="kisaltma" data-ad="ebr"><i>EBr.</i></span>, III, 420-436.</p><p> L. G. v.dğr., “Belgique”, <span class="kisaltma" data-ad="eun"><i>EUn.</i></span>, III, 81-135.</p><p> <span class="eser">Encyclopédie géographique</span>, Milan 1980, s. 316-322.</p><p> D.-M. Frémy, <span class="eser">Quid. Edition Belge</span>, Paris 1990, s. 4-47, 896-902.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/5/C05015687.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 393-395 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('BELÇİKA', 'belcika', '1', 'C05015687.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/5/C05015687.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_2-ulkede-islamiyet" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									3 bölümden oluşan maddenin 2. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="BELÇİKA" href="https://islamansiklopedisi.org.tr/belcika?utm_source=pdf#2-ulkede-islamiyet">https://islamansiklopedisi.org.tr/belcika#2-ulkede-islamiyet</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#1" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="3 bölümden oluşan maddenin 2. bölümü">
+													2/3												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#3-belcikada-islami-arastirmalar" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="3-belcikada-islami-arastirmalar">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="BELÇİKA//2-ulkede-islamiyet" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/ali-riza-temel"><b>ALİ RIZA TEMEL</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">BELÇİKA</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>ALİ RIZA TEMEL</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">1992</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/belcika#2-ulkede-islamiyet</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext2">
+														ALİ RIZA TEMEL, "BELÇİKA", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belcika#2-ulkede-islamiyet (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>III. ÜLKEDE İSLÂMİYET</b><br>II. Dünya Savaşı’nı takip eden günlerde Belçika’daki müslümanların sayısı birkaç yüzü geçmiyordu. 1960’tan ve özellikle birçok İslâm ülkesinin bağımsızlığını kazanmasından sonra Belçika ile İslâm âlemi arasında siyasî ve ekonomik bağlar gelişmeye başladı. 1960’lı yılların başından itibaren talep üzerine bilhassa Fas ve Türkiye’den işçi akını hızlandı. Komünizmin baskısından kaçan 3000’den fazla Arnavut asıllı Yugoslav müslüman da Belçika’daki ilk müslüman azınlığın arasına katıldı. 1989 yılı itibariyle sayıları 299.000’e ulaşan müslümanlar arasında ilk sırayı Faslılar (160.000), ikinci sırayı Türkler (85.000) almaktadır; Pakistanlılar, Tunuslular ve Cezayirliler de diğer kalabalık grupları oluşturmaktadır. Belçika asıllı müslümanların sayısı ise 3000 civarında olup bunun yarıdan fazlasını erkekler oluşturmakta, ayrıca müslüman oldukları halde çeşitli sebepler yüzünden inançlarını gizleyenlerin de çok sayıda olduğu tahmin edilmektedir. </p><p> Belçika’ya müslüman işçi göçünün başladığı yıllarda din hizmetleri hem düzensiz hem de yetersizdi. Başlangıçta her yönden yabancı oldukları bir toplum içinde büyük zorluklarla karşılaşan müslümanlar zamanla dinî ihtiyaçlarını karşılamak üzere ferdî planda ve gruplar halinde çalışmalara giriştiler. Öncelikle cuma, teravih ve bayram namazlarını kılabilecekleri geçici yerler kiralamaya, daha sonra da ibadetlerini devamlı yapabilecekleri, çocuklarına din eğitim ve öğretimi verebilecekleri camiler açmaya başladılar. Belçika’da açılan camilerin sayısı 1991 yılında 300’e yaklaşmış bulunmaktadır. Bunların yetmiş beşini Türkler, kalanını diğer müslüman cemaatler açmıştır. Türkler’e ait camilerden elli yedisi Türkiye Cumhuriyeti Belçika Büyükelçiliği Din Hizmetleri Müşavirliği ile irtibatlı olarak faaliyetlerini sürdürmektedir ve binaların mülkiyetleri de Türkiye Diyanet Vakfı veya Belçika Türk İslâm Diyanet Vakfı’na aittir. Özellikle Türkler arasında büyük merkezî camiler yaptırma temayülü artmış olup halen Türk cemaatin yoğun olduğu şehirlerden Beringen’de 3500 m<sup>2</sup>’lik bir arsa üzerinde 600 m<sup>2</sup> alana oturacak kubbeli ve çift minareli bir caminin yapımı devam etmektedir. </p><p> Belçika’da müslümanların dinî faaliyetlerini organize eden belli başlı kuruluşlar şunlardır: </p><p> <b>1. Belçika İslâm Kültür Merkezi</b> (Centre Islamique et Culturel de Belgique, el-Merkezü’l-İslâmî ve’s-sekāfî bi-Belcîkâ). Belçika hükümeti tarafından ülkedeki bütün müslümanları temsil yetkisi verilen bu merkezin kuruluş tarihi 1960’lı yılların başlarına rastlamaktadır. O tarihlerde özellikle Brüksel’de bulunan müslümanlar birbirleriyle irtibatlarının, teravih, cuma ve bayram namazları gibi toplu ibadetlerini yerine getirme imkânlarının sağlanması amacıyla bu adla bir kuruluş oluşturmuşlardı. İslâm ülkeleri büyükelçileri 1963 yılında bir araya gelerek kendi aralarında seçimle belirledikleri ve Suudi Arabistan, Türkiye, Fas, Pakistan ve Senegal büyükelçilerinden oluşan bir yürütme kurulu seçmişlerdir. Ayrıca merkezin giderlerinin İslâm ülkeleri tarafından karşılanmasını ve faaliyetlerini yürütmek üzere de bir binanın kiralanmasını kararlaştırmışlardır. İslâm Kültür Merkezi faaliyetlerini daha çok Suudi Arabistan’ın malî desteğiyle kiralanan bir binada yürütürken Suudi Arabistan Kralı Faysal’ın 1967 yılında ülkeye yaptığı resmî ziyaret sırasında Belçika Kralı Baudouin, Ellinci Yıl Parkı’nda bulunan ve Doğu Eserleri Müzesi olarak kullanılan büyük bir binayı merkeze hibe etmiş ve zamanla Kral Faysal ve Veliaht Prens Fehd’in malî yardımları ile modern ve geniş kapsamlı bir hizmet ünitesine dönüştürülen bina, 1978 yılında Belçika ve Suudi Arabistan krallarının iştirak ettikleri bir merasimle resmen hizmete açılmıştır. Dört kattan oluşan binanın en üst katı kadınlar kısmıyla birlikte 2000 kişilik bir camidir. Teravih, cuma ve bayram namazları burada, vakit namazları ise giriş katındaki mescidde kılınır. Giriş katı ile orta katın bir kısmında sınıflar vardır. Ayrıca giriş katında merkez idaresi, orta katta dil laboratuvarı, kütüphane ve konferans salonu, bodrum katında ise küçük çapta bir matbaa ile bir radyo istasyonu bulunmaktadır. Bu binada 1989-1990 öğretim yılında tamamen Fas uyruklu öğrencilerin devam ettiği bir de dinî ağırlıklı ilkokul açılmıştır. </p><p> Kuruluşundan beri bütün masrafları Râbıtatü’l-âlemi’l-İslâmî (Dünya İslâm birliği) tarafından karşılandığı için merkezin yönetiminde daima Suudi Arabistan etkili olmuştur ve bugün de yönetim, maaşı aynı kuruluş tarafından ödenen bir müdürün uhdesinde bulunmaktadır. Belçika hükümeti 1968 yılında aldığı bir kararla bu merkezi, ülkedeki müslümanların tamamının temsilcisi kabul etmiş ve parlamento da 24 Ağustos 1974 tarihli kararıyla İslâmiyet’i resmî din olarak tanımıştır. Batı ülkeleri içinde ilk defa Belçika’da alınan bu karar gereğince 1975-1976 öğretim yılından itibaren bütün okullardaki müslüman çocuklardan isteyenlere haftada iki saat İslâm dini dersi verilmeye başlanmış, hükümetin bu uygulaması parlamento tarafından da 8 Şubat 1978 tarihli kararla onaylanmıştır. Buna göre okullarda görev almak veya görev yerlerini değiştirmek isteyen din bilgisi öğretmenlerinin teklifleri önceleri İslâm Kültür Merkezi tarafından yapılmakta ve Eğitim Bakanlığı’nca da onaylanmaktaydı. İslâm Kültür Merkezi bu uygulamalar sonucunda önemli bir etkinlik kazanmış, resmî makamlar nezdinde görülen çeşitli işler bu merkezden alınan belgelere göre yapılmaya başlamıştır. Ancak tayinlerle ilgili olarak ortaya çıkan bazı problemler üzerine Belçika hükümeti din bilgisi öğretmenlerini tayin yetkisini 3 Temmuz 1990 tarihinde İslâm Kültür Merkezi’nden alarak Âkıllar Konseyi’ne vermiştir. </p><p> Belçika okullarında 1989-1990 öğretim yılında 587 din bilgisi öğretmeni görev yapmış olup bunların 179’u Türk uyrukludur. </p><p> <b>2. Âkıllar Konseyi</b> (Conseil Provisoire des Sages pour l’Organisation du Culte Islamique en Belgique). İslâm Kültür Merkezi yukarıda sözü edilen faaliyetleri sebebiyle Belçika’daki bütün müslümanların temsilcisi gibi görülmüş, ancak yetkileri hukukî mesnetten çok siyasî kararlara dayandığından hiçbir zaman resmen tanınmış olan yahudi ve hıristiyan cemaatlerinin statüsünü elde edememiştir. Halen hükümet, müslümanların da yahudi ve hıristiyanlar gibi cemaat statüsünde tanınmalarını sağlamak amacıyla yeni bir organizasyona girmiş bulunmaktadır. </p><p> Göçmen işçilerin problemlerini belirlemek amacıyla 1989 yılı başında doğrudan devlet başkanlığına bağlı bir Kraliyet Komisyonu kurulmuştur. Bu heyet bir yıl içinde göçmen işçilerin bütün sorunlarını ihtiva eden hacimli bir rapor hazırlamış ve bu raporda İslâm Kültür Merkezi’nin devreden çıkarılarak müslümanları temsil yetkisinin gerçek statüsüne kavuşturulması tavsiye edilmiştir. Kraliyet Komisyonu tarafından kurulması önerilen Belçika müslümanları yüksek konseyinin üyelerinin seçimiyle ilgili esasların tesbiti konusunda bir sonuca varılamaması üzerine hükümetin aldığı bir kararla Adalet bakanı 3 Temmuz 1990 tarihinde beş Türk ve on bir Arap uyruklu müslümanı yazılı olarak davet edip kendilerine “Âkıllar Konseyi” adı altında, müslümanların diğer din mensupları statüsünde temsillerini sağlamak amacıyla hükümete rapor hazırlamakla yetkili olduklarını tebliğ etmiştir. Ayrıca din bilgisi öğretmenlerinin tayin teklif yetkisi de İslâm Kültür Merkezi’nden alınarak bu konseye verilmiştir. Konsey ilk raporunu 1991 yılı Şubat ayı içinde sunmuş ve rapor hükümetçe kabul edilmiştir. Bu raporun ayrıntılarına inen ve müslümanları temsil edecek yüksek konseyin teşekkül şeklini belirleyen ikinci raporun hazırlanması halen sürmektedir. İkinci rapor hükümetçe kabul edilip yüksek konsey oluştuğunda Belçika’daki müslüman cemaat de yahudi ve hıristiyan cemaatlerin faydalandığı haklara sahip olacaktır. </p><p> <b>3. Belçika Türk İslâm Diyanet Vakfı</b> (Fondation Religieuse Islamique Turque en Belgique). Belçika’daki Türkler’e yönelik dinî hizmetler, 1978’de Türkiye Cumhuriyeti Brüksel Büyükelçiliği bünyesinde açılan Din Hizmetleri Müşavirliği eliyle verilmeye başlamıştır. Bu hizmetlerin daha etkili hale getirilebilmesi amacıyla 3 Mayıs 1982 tarihinde Belçika mevzuatına uygun ve milletlerarası hüviyette Belçika Türk İslâm Diyanet Vakfı kurulmuştur. Bu vakfın gayesi tüzüğünün ikinci maddesinde özetle, “Belçika’da yaşayan Türk toplumunu İslâm dini konusunda eğitmek, müslümanların ibadetlerini yapmalarında yardımcı olmak, camiler inşa etmek, açmak veya tahsis etmek, İslâm ilimleriyle ilgili araştırmalar yapmak, camilerde görevlendirilecek kişilere gerekli formasyonu vermek, gelirlerini dinî, kültürel ve sosyal hizmetlere hasretmek” şeklinde belirtilmiştir. </p><p> Belçika’daki Türkler’in dinî faaliyetleri, bir araya gelerek cami açmak amacıyla dernek kurmalarıyla başlamıştır. Halen ülkede seksen civarında bu tür dernek mevcuttur ve bunların hemen tamamına yakını cami yapmak için aldıkları binaların tapularını Türkiye Diyanet Vakfı’na veya Belçika Türk İslâm Diyanet Vakfı’na vermişlerdir. Belçika’daki Türkler’e götürülen bütün dinî hizmetler, Din İşleri Müşavirliği ve vakfın iş birliğiyle yürütülmektedir. Cami olarak kullanılan binaların ihtiyaç ve giderleri söz konusu derneklerce karşılanmaktadır. Belçika’da Türkler tarafından açılan camilerin elli yedi tanesi vakıfla tam bir iş birliği içerisinde bulunmakta ve bu camilerin otuz yedisinde maaşları Türk hükümetince ödenen imam-hatipler görev yapmaktadır. Geri kalanında ise dinî hizmetler, maaşları mahallî idareler tarafından verilen Türk din bilgisi öğretmenlerince yürütülmektedir. </p><p> Belçika’da biri Liège’de, diğeri Charleroi’da olmak üzere iki müslüman mezarlığı bulunmakta, ancak özellikle Türkler ölen yakınlarını kendi ülkelerine göndermek istemektedirler. Bu sebeple vakıf tarafından bir cenaze fonu oluşturulmuştur ve bu fona üye olanlardan isteyenlerin cenazeleri Türkiye’ye gönderilmektedir. Yıl boyunca masraflar vakıfça yapılmakta, bütün harcamaların toplamı üye sayısına bölünerek üye başına düşen miktar ertesi yılın birinci ayında üyelerden tahsil edilmektedir. Bu fonun aile olarak 9000 üyesi bulunmakta ve verdiği hizmetlerden yaklaşık 50.000 kişi faydalanmaktadır. </p><p> <b>Kültür ve Yayın Faaliyetleri.</b> Vakıf yılda bir defa, Belçika okullarında din bilgisi derslerine katılan Türk öğrenciler arasında Kur’ân-ı Kerîm okuma ve bilgi yarışmaları düzenlemekte, dereceye giren on öğrenciyi on beş günlüğüne Türkiye’ye göndermektedir. İslâm Kültür Merkezi’nde de her yıl ramazan ayında çeşitli dallarda Kur’ân-ı Kerîm okuma yarışmaları düzenlenerek dereceye girenlere Kadir gecesinde çeşitli hediyeler verilmekte, ayrıca Mekke’de yapılan yıllık dünya Kur’ân-ı Kerîm okuma yarışmaları için ön elemeler yapılmaktadır. </p><p> Belçika’da müslümanlar tarafından çıkarılan İslâmî muhtevalı bir gazete veya dergi henüz yoktur. Çeşitli defalar haftalık veya aylık dergi çıkarma girişiminde bulunulmuşsa da devamlılığı sağlanamamıştır. Bununla beraber İslâm Kültür Merkezi Matbaası’nda İslâmiyet’i tanıtıcı broşürler, namaz vakit cetvelleri, ramazan imsakiyeleri, cep kitapları, Türkçe, Fransızca, Arapça ve Felemenkçe olarak yardımcı ders kitapları basılmaktadır. </p><p> İslâm Kültür Merkezi Kütüphanesi yaklaşık 5000 cilt kitaba sahip bulunmaktadır ve hafta boyunca okuyucuların hizmetindedir. Kitap okumayı özendirici en dikkate değer faaliyet, Belçika Türk İslâm Diyanet Vakfı’nca her yıl değişik bölgelerde tertiplenerek konferans ve seminerlerle desteklenen kitap fuarlarıdır. Bu fuarlarda çeşitli kitaplarla sesli ve görüntülü yayınlar sergilenip satılmaktadır. </p><p> Henüz Belçika televizyonundan istifade edilememekle birlikte gerek İslâm Kültür Merkezi Radyosu’ndan, gerekse Brüksel içinde ve dışında faaliyette bulunan bazı özel radyolardan Türkçe ve Arapça olarak dinî yayınlar yapılmakta, ramazan ayında sayıları artan bu yayınlar ilgiyle takip edilmektedir.</p> <bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> M. Ali Kettani, <span class="eser">Muslim Minorities in the World Today</span>, London 1986, s. 44.</p><p> Albert Bastenier, “Islam in Belgium: Contradictions and Perspectires”, <span class="eser">The New Islamic Presence in Western Europe</span> (ed. T. Gerholm – Y. G. Lithman), London 1988, s. 133-143.</p><p> Nasreddin en-Neşâşîbî, “el-Merkezü’l-İslâmî fî Brüksel”, <span class="eser">Fayṣal</span>, XVIII, Riyad 1978, s. 91-97.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/5/C05015688.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 395-397 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('BELÇİKA', 'belcika', '2-ulkede-islamiyet', 'C05015688.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/5/C05015688.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_3-belcikada-islami-arastirmalar" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									3 bölümden oluşan maddenin 3. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="BELÇİKA" href="https://islamansiklopedisi.org.tr/belcika?utm_source=pdf#3-belcikada-islami-arastirmalar">https://islamansiklopedisi.org.tr/belcika#3-belcikada-islami-arastirmalar</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#2-ulkede-islamiyet" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="3 bölümden oluşan maddenin 3. bölümü">
+													3/3												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next article-nav-passive " data-jurl="#" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="3-belcikada-islami-arastirmalar">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="BELÇİKA//3-belcikada-islami-arastirmalar" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/davut-dursun"><b>DAVUT DURSUN</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">BELÇİKA</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>DAVUT DURSUN</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">1992</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/belcika#3-belcikada-islami-arastirmalar</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext3">
+														DAVUT DURSUN, "BELÇİKA", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belcika#3-belcikada-islami-arastirmalar (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>IV. BELÇİKA’DA İSLÂMÎ ARAŞTIRMALAR</b><br>Belçika’da İslâmiyat ve şarkiyat çalışmaları Avrupa’nın büyük ülkelerine göre daha geç başlamış, aynı zamanda da sınırlı kalmıştır. Bu alanlarda ancak XIX. yüzyılın ikinci yarısından itibaren bazı önemli eserlerin verilmeye başlandığı görülmektedir. Lüttich Üniversitesi’nde Arap dili ve edebiyatı okutan V. Chauvin (ö. 1913), daha önce yayımlanmış olan Schnurrer’in <span class="eser">Bibliotheca Arabica</span> (Halae 1811) ve Zenker’in <span class="eser">Bibliotheca Orientalis</span> (I-II, Leipzig 1846-1861) adlı çalışmalarını geliştirerek 1810-1885 yılları arasında Batı’da çıkmış Araplar’la ve Arapça ile ilgili eserlerin bibliyografyasını hazırlamıştır (<span class="eser">Bibliographie des ouvrages arabes ou relatifs aux Arabes publiés dans l’Europe chrétienne de 1810-1885</span>, I-XII, Liége 1892-1922). Belçika’nın ve Batı’nın yetiştirdiği büyük tarihçilerden H. Pirenne (ö. 1935), ekonomi ve ticaret tarihiyle ilgili eserlerin yanı sıra Hz. Muhammed ve Şarlman üzerine de bir kitap yazmış (<span class="eser">Mahomat et Charlemagne</span>, Bruxelles 1936; <span class="eser">Hz. Muhammed ve Charlemagne</span> [trc. M. Ali Kılıçbay], Ankara 1984), Belçika’da yetişen çağdaş şarkiyatçılardan biri olan P. C. G. Ryckmans da (ö. 1969) özellikle Arap dünyasının İslâm öncesi tarihi ve kitâbeleriyle ilgilenip Kudüs’te ve Ortadoğu’nun bazı bölgelerinde araştırmalar yapmıştır. <span class="eser">Le Muséon</span> dergisinin editörlüğünü de yürütmüş ve çalışmalarının birçoğunu bu dergide yayımlamış olan Ryckmans’ın İslâmiyet öncesi Araplar’ın dinlerine dair de <span class="eser">Les Religions arabes préislamiques</span> adlı (1947) bir eseri vardır. İlk defa 1929 yılında Institut des Hautes Etudes de Belgique’te Arapça dersleri vermeye başlayan Armand Abel (ö. 1973) Mısır ve İslâm sanatları üzerine olan çalışmalarıyla tanınmıştır. Kahire Üniversitesi’nde de öğretim üyeliği yapan Abel’in İslâm sanatları, Kur’an, müslüman-hıristiyan diyalogu gibi değişik konularda çok sayıda makalesi yayımlanmış bulunmaktadır. Centre Pour l’Etude des Problèmes du Monde Musulman Contemporain’in yöneticiliğini de yapan Abel aynı zamanda <span class="eser">Encyclopédie de l’Islam</span>’ın yazı kurulu üyesiydi; başlıca çalışmaları arasında <span class="eser">Le Coran</span> (Lausanne 1951) ve editörlüğünü yaptığı <span class="eser">Le Monde arabe et musulman</span> (Bruxelles 1968) zikredilebilir. 1882 yılından bu yana Louvain Katolik Üniversitesi tarafından çıkarılmakta olan <span class="eser">Le Muséon</span>, 1924 yılından beri Brüksel Üniversitesi tarafından çıkarılmakta olan <span class="eser">Byzantion</span> ve 1957’den itibaren Centre Pour I’Etude des Problèmes du Monde Musulman Contemporain tarafından çıkarılmakta olan <span class="eser">Correspondance d’Orient</span>, İslâmiyat ve şarkiyat çalışmalarının yayımlandığı önemli dergilerin başında gelmektedir. </p><p> Halen Belçika’da Louvain Katolik Üniversitesi’ne bağlı Institut Orientaliste, yine aynı üniversiteye bağlı Institut Supérieur d’Archéologie et d’Histoire de l’Art ve Brüksel Üniversitesi’ne bağlı Centre Pour I’Etude des Problèmes du Monde Musulman Contemporain gibi kuruluşlarla Gent Üniversitesi Faculté de Letters et de Filosophie Départment des Etudes Islamiques’te de Ortadoğu ve İslâm toplumlarıyla ilgili inceleme ve araştırmalar yapılmaktadır. Ayrıca Brüksel, Liège, Gent ve Louvain üniversitelerinin ilgili bölümlerinde Türk, Arap ve Fars dilleri öğretilmekte, özellikle Ortadoğu üzerine çeşitli araştırmalar gerçekleştirilmektedir. Brüksel’deki Académie Royale des Sciences des Lettres et des Beaux Arts de Belgique’te kütüphanesinde çok sayıda Doğu kaynaklı eser bulunmaktadır. Louvain Katolik Üniversitesi Institut Orientaliste de önemli bir uzmanlık kütüphanesine sahip olup şarkiyat ve İslâmiyat’la ilgili araştırmacılara hizmet vermektedir. Ayrıca diğer üniversitelerin ve çeşitli merkezlerin kütüphanelerinde de İslâmiyet’le ve müslüman toplumlarla ilgili eserler bulunmaktadır. Ülkede ayrıca İslâm ve müslüman toplumlarla ilgili çok sayıda araştırma merkezi faaliyet göstermekte, bu merkezler özellikle İslâmiyet’in ve müslümanların Belçika’da tanıtılmasında önemli rol oynamaktadırlar. Bunların başlıcaları şunlardır: Brüksel’de Centre d’Etudes et de Documentation sur le Proche-Orient, Centre Islamique et Culturel de Belgique, Centre de Sociologie de l’Islam, Mons’ta Centre d’Etudes et de Recherches Arabo-Islamiques, Louvain’de Centre d’Etudes et de Recherches sur le Monde Arabe Contemporain.</p> <bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> Necîb el-Akīkī, <span class="eser">el-Müsteşriḳūn</span>, Kahire 1965, III, 1026-1032.</p><p> İsmail Soysal – Mihin Eren, <span class="eser">Türk İncelemeleri Yapan Kuruluşlar</span>, Ankara 1977, s. 102-103.</p><p><span class="kisaltma" data-ad="bedevi-mevsuatul-mustesrikin">Bedevî, <i>Mevsûʿatü’l-müsteşriḳīn</i></span>, s. 209-211, 262.</p><p> J. Coppens, “In Memoriam Mgr. Gonzague Ryckmans”, <span class="eser">Bibliotheca Orientalis</span>, XXVI/5-6, Leiden 1969.</p><p> E. Janssens, “Armand Abel: 1903-1973”, <span class="eser">Correspondance d’Orient</span>, sy. 19-20, Paris 1971-72, s. 3-6.</p><p> A. Destrée, “Armand Abel”, <span class="eser">Boletín de la Asociación Española de Orientalistas</span>, IX, Madrid 1973, s. 6-7.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/5/C05015689.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 397 numaralı sayfada yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('BELÇİKA', 'belcika', '3-belcikada-islami-arastirmalar', 'C05015689.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/5/C05015689.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+									</div>
+					</div>
+    </div>
+
+	<div class="pure-u-1 pure-u-md-9-24 sticky-sidebar" style="padding-left:50px;">
+		
+        
+		<!-- dosya link -->
+		<style>
+			.ltfolcont{text-align:center; border: 1px dashed #e5774280; border-radius: 3px; padding: 13px 20px; font-size:0.9rem; margin-bottom: 30px; overflow: hidden; line-height:1.25rem;color:#777;}
+			.ltfolcont span a{font-weight:bold; font-size:1.2rem; color:#e57742; line-height:1.2rem}
+			.ltfolcont span a:hover{text-decoration:underline !important;}
+			.ltfol:hover > div.ltfolcont{background:#f9f1f1;}
+		</style>
+		
+
+
+				<div class="madde_suggested_container">
+			<div class="madde_suggested" id="#faketop">
+                <h2 class="visible-on-print">İlişkili Maddeler</h2>
+                <ul class="related-subjects">
+					<a href="/avrupa" target="_blank"><li><div style=""><div class="rs-adi">AVRUPA</div><div class="rs-tanitim">Okyanusya’dan sonra dünyanın ikinci küçük kıtası.</div></div></li></a><a href="/pirenne-henri" target="_blank"><li><div style=""><div class="rs-adi">PIRENNE, Henri</div><div class="rs-tanitim">Belçikalı şarkiyatçı.</div></div></li></a><a href="/lammens-henri" target="_blank"><li><div style=""><div class="rs-adi">LAMMENS, Henri</div><div class="rs-tanitim">Belçikalı şarkiyatçı.</div></div></li></a><a href="/chauvin-victor" target="_blank"><li><div style=""><div class="rs-adi">CHAUVIN, Victor</div><div class="rs-tanitim">Bibliyografya alanındaki çalışmalarıyla tanınan Belçikalı şarkiyatçı.</div></div></li></a><a href="/byzantion" target="_blank"><li><div style=""><div class="rs-adi">BYZANTION</div><div class="rs-tanitim">Belçika’da yayımlanan Bizans araştırmaları dergisi.</div></div></li></a><a href="/hollanda" target="_blank"><li><div style=""><div class="rs-adi">HOLLANDA</div><div class="rs-tanitim">Kuzey Avrupa’da ülke.</div></div></li></a><a href="/kongo-demokratik-cumhuriyeti" target="_blank"><li><div style=""><div class="rs-adi">KONGO DEMOKRATİK CUMHURİYETİ</div><div class="rs-tanitim">Orta Afrika’da ülke.</div></div></li></a>				</ul>
+									<div id="show-ralist" style="padding-top:15px;"><a style="color:#0093c1" href="/belcika/iliskili-maddeler" target="_blank">Bütün ilişkili maddeler &#187;</a></div>
+							</div>
+		</div>
+		
+
+
+        <div class="rg-container">
+            <h2 class="visible-on-print">Görseller</h2>
+            <div>
+                                        <div class="right-gallery" id="rg1">
+                            <a img-order="0" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/belcika-1.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Harita/belcika-1.jpg"
+                                title="Belçika"  alt="Belçika" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Belçika</div>
+                        </div>
+                                            <div class="right-gallery" id="rg2">
+                            <a img-order="1" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/belcika-2.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/belcika-2.jpg"
+                                title="Brüksel İslâm Merkezi Camii – Belçika"  alt="Brüksel İslâm Merkezi Camii – Belçika" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Brüksel İslâm Merkezi Camii – Belçika</div>
+                        </div>
+                                </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div id="print-part-temp"></div>
+<div id="print-part-temp-top"></div>
+
+<div class="modal" id="issue-modal">
+    <div class="modal-body">
+        <div class="modal-box">
+            <div class="close-button">
+                <span class="icon-close"></span>
+            </div>
+            <div class="modal-top">
+                <span>TDV İslâm Ansiklopedisi Madde Bildirim Formu</span>
+            </div>
+            <div class="modal-container">
+                <div style="width:540px; margin:0 auto;">
+                    <div style="color:#777; font-size:17px; padding-bottom:10px; font-weight:bold;"></div>
+                    <div class="error-box" style="display: none;"></div>
+                    <div class="success-box" style="display: none;"></div>
+
+                    <div style="font-size:17px; color:#ef2f2f; padding: 0 0 15px 0; text-align:left; line-height:21px;">
+                        Bu form aracılığıyla, sadece <strong id="issue-modal-madde">OSMANLILAR//8-mali-yapi</strong> maddesi ile alakalı mesajların iletilmesi rica olunur. TDV İslâm Ansiklopedisi'nin elektronik sürümü hakkındaki diğer hususların ise <a href="/iletisim-formu">İletişim Formu</a> aracılığıyla iletilmesi rica olunur.
+                    </div>
+
+                    <form id="modal-issue-form" method="post">
+                        <div>
+                            <input name="bildirim-madde-adi" placeholder="Madde adı" value="" style="visibility:hidden; display:none;">
+                            <input type="text" id="ref-url" name="ref-url" style="visibility:hidden; display:none;" value="https://islamansiklopedisi.org.tr/belcika">
+                            <input type="text" id="issue-g-token" name="g-token" hidden/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bildirim-bildirim">Bildiriminiz <span style="color: red">*</span></label>
+                            <textarea class="form-control" name="bildirim-bildirim" style="max-height: 25vh; min-height: 100px;" placeholder="Ayrıntılı olarak bildiriminizi giriniz." id="bildirim-bildirim" required></textarea>
+                        </div>
+
+                        <div style="font-weight:bold; font-size:15px; color:#666; padding:5px 0 10px 0;">İletişim bilgileriniz</div>
+                        <div class="form-group">
+                            <label for="bildirim-ad-soyad">Adınız ve Soyadınız <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="bildirim-ad-soyad" placeholder="Örn: Ahmet Sönmezgül" id="bildirim-ad-soyad" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-eposta">E-Posta <span style="color: red">*</span></label>
+                            <input type="email" class="form-control" name="bildirim-eposta" placeholder="isim@ornek.com" id="bildirim-eposta" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-telefon">Telefon Numarası</label>
+                            <input type="tel" class="form-control" name="bildirim-telefon" placeholder="05XXXXXXXX" id="bildirim-telefon" value="">
+                        </div>
+
+                        <p style="font-size: 12px;">Değişiklikleriniz taslak olarak tarayıcınıza kayıt edilir. Kapatıp daha sonra devam edebilirsiniz.</p>
+                        <div style="text-align: center">
+                            <input id="modal-issue-submit" type="submit" class="tdv-btn tdv-btn-primary" style="min-width: 200px" value="Gönder" />
+                        </div>
+                    </form>
+                    <div class="modal-loading">
+                        <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="fotorama" class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-auto="false" style="display:none">
+		
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/belcika-1.jpg" data-caption="<b>BELÇİKA (1/2)</b> Belçika <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/belcika-1.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Harita/belcika-1.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/belcika-2.jpg" data-caption="<b>BELÇİKA (2/2)</b> Brüksel İslâm Merkezi Camii – Belçika <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/belcika-2.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/belcika-2.jpg">
+			</a>
+		</div>
+
+<div id="header-article-html" style="display:none">
+	<div id="header-article-html-code">
+		<style>
+		.ults{margin:0px; padding:0px; list-style:none;}
+		.ults li{float:left;}
+		.icon-list-ul{cursor:pointer;}
+		.icon-list-ul:hover{color:#777 !important;}
+		</style>
+		<ul class="ults">
+			<li>
+				<a href="/">
+					<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/logo_2.svg" style="height:39px !important;">
+				</a>
+			</li>
+						<li style="    padding: 24px 7px 0 15px; position:relative; line-height:0px;" class="list-ll">
+				<span class="icon-list-ul topmenurev" style="color:#999; font-size:17px"></span>
+				<div class="top-prev-container bsk" style=" display:none; left:-85px; position: absolute; width: 580px; background: #fff; border: 1px solid #ddd; box-shadow: 0 1px 2px rgba(0,0,0,0.2); top:65px; padding-bottom:5px;">
+						<div class="preview-content">
+						<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png" style="position:absolute; top:-8px; left:100px; width:15px; height:8px !important;" />
+						<ul class="preview-ul" style="padding: 10px 12px 10px 14px; font-size:15px; height:220px; ">
+						<li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >1/3</span><span><span>Müellif: </span><b style="color:#888">SUNA DOĞANER</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Meşrutî monarşiyle yönetilen Belçika’nın resmî adı Belçika Krallığı’dır (Royaume de Belgique, Koninkrijk België). Kral devletin başı ve ordunun başkum...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#2-ulkede-islamiyet"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >2/3</span><span><span>Müellif: </span><b style="color:#888">ALİ RIZA TEMEL</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">III. ÜLKEDE İSLÂMİYET II. Dünya Savaşı’nı takip eden günlerde Belçika’daki müslümanların sayısı birkaç yüzü geçmiyordu. 1960’tan ve özellikle birçok İ...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#3-belcikada-islami-arastirmalar"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >3/3</span><span><span>Müellif: </span><b style="color:#888">DAVUT DURSUN</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">IV. BELÇİKA’DA İSLÂMÎ ARAŞTIRMALAR Belçika’da İslâmiyat ve şarkiyat çalışmaları Avrupa’nın büyük ülkelerine göre daha geç başlamış, aynı zamanda da sı...</div></li>						</ul>
+					</div>
+				</div>
+			</li>
+			
+			<li style="padding-left:0px"><span style="font-weight:bold; color:#888; font-size:18px;">BELÇİKA</span></li>
+		</ul>
+	</div>
+</div>
+
+<div id="copyright-text" class="centered" style="margin: 0px auto;
+    padding: 30px 20px 0px 20px;
+    color: #888;
+    font-size: 14px; line-height:23px;">
+	<b>Her hakkı mahfuzdur.</b> <i>TDV İslâm Ansiklopedisi’</i>nin her türlü telif hakkı TDV İslâm Araştırmaları Merkezi’ne ait olup 5846 sayılı Kanun hükümlerine tâbidir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarındaki yazıların bütün olarak elektronik ya da matbu bir ortamda yayımlanması yasaktır; ancak kaynak gösterilmesi (<i>TDV İslâm Ansiklopedisi</i> internet sitesinde yer aldığının ifade edilmesi) ve doğrudan aktif bağlantı verilmesi şartıyla yazılardan kısa bölümler iktibas edilebilir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarında yer alan resim, fotoğraf, grafik, çizim, cetvel vs. her türlü görüntü malzemesinin başka bir ortamda yayımlanması kesinlikle yasaktır.
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/sweetalert.min.js"></script>
+
+<style>
+#fcilt div{padding:3px 5px 3px 5px;}
+.flink{line-height:25px;}
+.flink:hover{text-decoration:underline !important;}
+.footer-box-alert:hover{text-decoration:underline;}
+.footer-container {
+    margin-top: auto;
+    padding-top: 40px;
+}
+
+.footer-content {
+    background: #484848;
+    padding-bottom: 50px;
+}
+
+.footer-top-border {
+    background: #e2e2e2;
+    color: #666;
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    color: color: #777;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-top-border a div{color:color:#777;}	
+.motto-link:hover span{text-decoration:underline}
+.footer-bottom-link a:hover{text-decoration:underline !important; color:#333}
+.footer-logo-container img{opacity:0.9}
+.footer-logo-container img:hover{opacity:1}
+.footer-copy{opacity:0.9}
+.footer-copy:hover{opacity:1}
+
+.bbtns a > div{padding:11px 20px 11px 20px ; font-size:0.93rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;position:relative; opacity:0.9}
+.bbtns a > div:hover{opacity:1}
+.randombtn{font-size:0.95rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;
+background:#2FB556; color: #FFF; border:1px solid #f4a76b70; padding:10px 20px; text-align:center; 
+text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;opacity:0.85;
+position:relative
+}
+.randombtn img{position:absolute; height:24px; margin-top:-2px;}
+.randombtn span{margin-left:40px;}
+.randombtn:hover{opacity:1}
+.btnarr{position:absolute; top:0; right:0; bottom:0; background:rgba(29, 48, 55, 0.6); border-top-right-radius: 3px;border-bottom-right-radius: 3px;padding: 7px 12px 10px 12px;font-size: 1.2rem;color: #fff !important;	}
+.btnar{background: #4CAFD2;color: #fff;text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;}
+
+.as-tabs{overflow:hidden; border-bottom: 1px solid #fbcbb2; border-top: 1px solid #fbcbb2; padding-left:15px; padding-right:15px; }
+.as-tabs div.as span{font-size:1rem;}
+.as-tabs div.as{padding: 9px 10px; float:left; text-align:center}
+.as-tabs div.as.act{border-bottom: 2px solid #D97A4A;}
+.as-tabs .as .txt{color:#676767; font-weight:bold; font-size:0.97rem}
+.as-tabs .as.act .txt{}
+.as-tabs .as .txt span{color:#676767;}
+.as-tabs .as.act .txt span{color:#D97A4A}
+.as-tabs .as.psv{cursor:pointer;}
+.as-tabs span.txtcount{font-size:0.75rem !important;}
+
+div.mr{}
+
+	
+</style>
+
+<div class="footer-container">
+	<div class="footer-content">
+        <div class="footer-top-border" style="border-top:2px solid #dedddd; background-color:#f8f8f8; padding-top:30px;">
+
+            <div class="centered" style="font-size:1.2rem;  color:#666; position:relative; text-align:center; background:#f7f7f7; padding:20px 0px; border-radius:3px; border:1px dashed #ddd;">
+                Otuz üç yıllık birikim, yeni yüz: TDV İslâm Ansiklopedisi İnternet sitesi test yayınında.
+                <a href="/hakkinda.php" style="color:#bd6338" class="motto-link">
+                    <span style="color:#0093b0"> Daha fazla bilgi</span>
+                </a>
+            </div>
+
+            <div class="centered bbtns" style=" padding:25px 20px 5px 20px">
+                <div class="pure-g">
+                    <div class="pure-u-1-3"><a href="/dosyalar"><div class="btnar">DOSYALAR<div class="btnarr">»</div></div></a></div>
+                    <div class="pure-u-1-3"><a href="/sergi-arsivi"><div  class="btnar">SERGİ ARŞİVİ<div class="btnarr">»</div></div></a></div>
+                    <!--				<div class="pure-u-1-4"><a href="/gecen-ayin-ilk-20-si"><div  class="btnar">GEÇEN AYIN İLK 20'Sİ<div class="btnarr">»</div></div></a></div>-->
+                    <div class="pure-u-1-3"><div class="randombtn"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" /><span>RASTGELE</span></div></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="centered" style="margin-top: 50px;">
+            <div class="centered_container footer-logo-container" style="text-align:center;">
+                <a href="http://www.diyanet.gov.tr" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/diyanet-isleri-baskanligi-logo.png?t=1" style="border:none; height:140px;" />
+                </a>
+
+                <a href="http://www.isam.org.tr/" class="flink" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/isam-logo.png" style="border:none; height:140px; margin: 0 80px;" />
+                </a>
+
+                <a href="http://tdv.org/" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tdv-logo.png" style="border:none; height:140px;" />
+                </a>
+            </div>
+            <div class="centered_container footer-bottom-link" style="text-align:center; padding-top:40px; color:#fff">
+                <b>Her hakkı mahfuzdur.</b> 2016-2026 TDV İslâm Araştırmaları Merkezi  <span>|</span>
+                <a href="/kullanim_sartlari.php" class="footer-copy" style="color:#fff">Kullanım Şartları</a> <span>|</span>
+                <a href="/iletisim-formu" class="footer-copy" style="color:#fff">İletişim Formu</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- random madde -->
+<style>
+.rnd-left-img{text-align:center; padding-top:10px;}
+.rnd-left-img img{max-width:450px; max-height:300px; border-radius: 4px;}
+.rnd-title{font-size: 1.5rem;font-weight: bold; color: #777; text-align:center}
+.rnd-tanitim{color: #e16328; padding-top:2px; text-align:center; padding-left:20px; padding-right:20px;}
+.boxcontainer{overflow: hidden; margin: 20px; border: 1px dashed #c5c5c5; padding: 15px; border-radius: 5px; min-height:190px;}
+.rnd-goto {padding-top:15px;}
+.rnd-goto a{color:#897898;}
+.lightboxrernd{    width: 280px;
+    background: #977898;
+    padding: 7px 25px 8px 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 200px;
+    opacity: 0.9;
+	cursor:pointer;
+}
+.randombtn{cursor:pointer;}
+.rnd-author{padding-top:10px; font-size:0.9rem; color:#777}
+.rnd-author span{font-weight: bold; color: #999;}
+.rnd-kunye{color: #777; font-size: 0.95rem; text-align:center}
+.random-modal {
+    background-color: #0000004f;
+    text-align: center;
+    z-index: 10000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+}
+.random-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    max-width: 660px;
+    max-height: 90%;
+    width: 660px;
+    margin: 0 auto;
+    text-align:left;
+    border:1px solid #ccc;
+    border-top:none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow:0 0 5px #ccc;
+    -moz-box-shadow:0 0 5px #ccc;
+    -webkit-box-shadow:0 0 5px #ccc;
+    z-index:1000001;
+    padding-bottom: 20px;
+}
+.icon-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #888;
+    cursor: pointer;
+}
+.random-modal-box {
+    overflow: hidden;
+    margin: 20px;
+    border: 1px dashed #c5c5c5;
+    padding: 15px;
+    border-radius: 5px;
+}
+.random-modal-random {
+    font-size: 0.95rem;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #2FB556;
+    color: #FFF;
+    border: 1px solid #f4a76b70;
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: 1px 0 0 #407588;
+    letter-spacing: 0.04rem;
+    opacity: 0.85;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+}
+.random-modal-random:hover {
+    opacity: .95;
+}
+.random-modal-random:active {
+    opacity: 1;
+}
+.random-modal-random img {
+    position: absolute;
+    height: 24px;
+    margin-top: -2px;
+}
+.random-modal-random span {
+    margin-left: 40px;
+}
+.random-modal-bottom {
+    text-align: center;
+}
+.random-modal-box:hover {
+    background-color: #f6f6f6;
+}
+.random-modal-box:active {
+    background-color: #ebebeb;
+}
+</style>
+
+<div class="random-modal">
+    <div class="random-modal-container">
+        <span class="icon-close"></span>
+        <div style="text-align:center;padding: 22px 25px 15px 25px; border-bottom: 1px solid #ddd; user-select: none;"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_popup_baslik.png"  /></div>
+        <div style="padding: 15px 25px; color:#777; background: #e6e5e5;text-align: center; user-select: none;"><i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde okumak ister misiniz?</div>
+        <div class="lightboxrndarticle"></div>
+        <div class="random-modal-bottom">
+            <div class="random-modal-random">
+                <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png">
+                <span>BAŞKA BİR MADDE GÖSTER</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- random madde -->
+
+
+
+
+
+
+<style>
+.newsalertwrapper{position:fixed; left:0; right:0; bottom:0; top:0; background:rgba(0, 0, 0, 0.55); z-index:10000; display:none; }
+.newsalertbox{
+	position:relative;
+	margin: 100px auto;
+    width: 600px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 70px 40px 70px 40px;
+    text-align: center;}
+	
+.newsalertbox .hd1{
+	font-weight: bold;
+    font-size: 1.45rem;
+    color: #267893;
+    padding-bottom: 30px;
+}
+.newsalertbox .hd2{
+	font-size: 1.15rem;
+    color: #666;
+	padding-bottom:20px;	
+}
+.newsalertbox .hd3{
+	text-decoration: underline !important;
+    font-size: 1.15rem;
+	color:#0093b0;
+}
+.newsalertbox .hd3 .linkto{color:#0093b0; cursor:pointer;}
+
+.newsalertbox .hd4{padding-top: 30px;
+    font-size: 1.05rem;
+    color: #777;
+	}	
+.alertclose{
+	position:absolute;
+	right:20px;
+	top:18px;
+	font-size: 1.7rem;
+    color: #666;
+	cursor:pointer;
+}	
+</style>
+
+<!-- ntf203.htm notificaiton html-->	
+	
+
+		
+<script>
+
+	
+$('body').on("mousedown touchend", function(e){ 
+    var resultbox = $("#auto-suggest-box");
+    var inputbox = $("#searchBox");
+	var keyboard = $(".dia-keyboard");
+	
+    if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && 
+		!inputbox.is(e.target) && 
+		!keyboard.is(e.target)  && keyboard.has(e.target).length === 0 ){
+    	resultbox .hide();
+		/*
+			$('#searchBox').css("background-color", "#f4f1f1");
+			$('#searchBox').css("border", "none"); 
+	*/
+		}
+
+    var container = $(".hover-menu");
+    var button = $(".hover-menu-button");
+    if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+    	container.hide();
+		//$('.hover-menu-button').css("background","#F7F4F4");
+		}		
+});
+
+
+$(document).ready(function() {
+    $('.randombtn, .random-modal-random, .rndleftbtn').click(function(event){
+        $('.random-modal').show();
+        changeRndArticle();
+
+        jQuery("body").bind("scroll touchmove mousewheel DOMMouseScroll",function(e){
+            e.preventDefault();
+            return false;
+        });
+
+    });
+
+    $('.lightboxrernd').click(function(event){
+		changeRndArticle();
+	});	
+	
+	$('.random-modal .icon-close').click(function(event){
+		$('.random-modal').hide();
+		jQuery("body").unbind('scroll touchmove mousewheel DOMMouseScroll');
+
+	});
+	
+	function changeRndArticle(){
+		$.ajax({
+			url: "/ajax_search_auto.php?c=g&mdl=rnd&q=rnd", 
+				cache : false,
+				success: function(result){ 
+					if(result.trim() == "")
+					{
+						alert("not");
+					}else{
+						$('.lightboxrndarticle').html(result);
+					}
+				}
+			});
+	}
+	
+	/*
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".lightboxcontent");
+		var inputbox = $(".lightboxcontent .icon-close");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+				$('.lightboxbg').hide();
+				$('.lightboxcontent').hide();
+				$('body').css("overflow","visible");
+		}
+	});
+	*/
+	/* random madde */
+
+	
+	
+	
+		/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});	
+	
+	
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 500 ) {
+			$("#scrollTop").show();
+		}
+		else{
+			$("#scrollTop").hide();
+		}
+	});
+	
+	$('#scrollTop').click(function(){
+		$("html, body").animate({ 
+			scrollTop: "0px"
+		}); 
+		
+		
+		var url_string = location.href;
+		var clean_url = url_string.split('#', 1);
+
+		
+		history.pushState({}, document.title, clean_url );
+	});	
+
+/* search autocomplete events */
+var is_search_page = 0;
+var sr_type = 'aa';
+
+if(is_search_page == 0)
+{
+		
+var delay = (function(){
+  var timer = 0;
+  return function(callback, ms){
+    clearTimeout (timer);
+    timer = setTimeout(callback, ms);
+  };
+})();
+
+// pass url search type parameter to autosuggest box
+var strt = 'm';
+if(strt == "y")
+	sr_type = "y";
+else if(strt == "m")
+	sr_type = "aa";
+else if(strt == "b")
+	sr_type = "b";
+else if(strt == "t")
+    sr_type = "t";
+else
+	sr_type = "aa";
+
+
+$('#searchBox').keyup(function(e) {	
+    // ignor arrow actions..
+	
+	var keycode = (e.keyCode || e.which);
+    if(keycode == 37 || keycode == 38 || keycode == 39 || keycode == 40) {
+        return;
+    }
+	
+	getType(1000);
+});
+
+// bind copy past
+$('#searchBox').bind('paste', null, function(e) {
+	getType(1000);
+});
+
+// mouse out and in open results
+$('#searchBox').click(function(e) {	
+	var typed = $.trim($('#searchBox').val());	
+	if(typed.length > 1){
+		if(!$('#auto-suggest-box').is(":visible")){
+			if($('#auto-suggest-content').html() != ""){			
+				$('#auto-suggest-box').show();
+			}
+			else{
+				getType(0);
+			}				
+		}
+	}
+		
+});
+
+
+function getType(times)
+{
+    delay(function(){
+		var typed = $.trim($('#searchBox').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box").hide();	
+			$("#auto-suggest-loading").hide();
+			
+		}
+    }, times );
+}
+
+function autocomplete(typed)
+{
+	$("#auto-suggest-content").html('');
+	$("#auto-suggest-box").show();
+	$("#auto-suggest-loading").show();
+
+	urlcd = encodeURI("/ajax_search_auto.php?sp=" + sr_type + "&=ac&q=" + typed);
+	$.ajax({
+		url: urlcd,
+		success: function(result) {
+                        gtag('config', 'UA-160819951-1', {
+                'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                'page_path': '/arama/?q=' + typed + '&p=autocomplete-' + sr_type,
+            });
+            gtag('event', 'view_search_results', {
+                'search_term': typed,
+                'q_p': sr_type
+            });
+            			if(result.trim() == "")
+			{
+				$("#auto-suggest-box").hide();	
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html('Sonuç bulunmadı.');
+
+                                gtag('config', 'UA-160819951-1', {
+                    'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                    'page_path': '/arama/?q=' + typed + '&p=autocomplete-no-result-' + sr_type,
+                });
+                gtag('event', 'view_search_results', {
+                    'search_term': typed,
+                    'q_p': 'autocomplete-no-result-' + sr_type
+                });
+                			}else{   		
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html(result);
+				// getTxtNumbers(typed);
+				
+				// break span
+				if ($("#auto-suggest-box").width() < 400 ) 
+				{
+						$("#auto-suggest-box span.txt span").css("display","block");
+						$("#auto-suggest-box span.txt span.txtcount").css("display","inline");	
+				}
+				
+				// $(".header_search").find(".srchp").attr( "href", encodeURI( $(".header_search").find(".srchp").attr("href") ) );
+				$(".header_search").find(".as-t a").attr( "href", encodeURI( $(".header_search").find(".as-t a").attr("href") ) );
+				
+
+			
+			}
+		}
+	});
+	
+	
+}
+
+function getTxtNumbers(typed){
+	$.ajax({
+		url: "/ajax_search_auto.php?mdl=txtdelay&q=" + typed, 
+		cache : false,
+		success: function(result){ 
+			if(parseInt(result) > 0){
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').parent().parent().removeClass('n0').addClass('n' + result.trim());
+				$('.txtcount').removeClass('txtcount');			
+			}
+			else{
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').removeClass('txtcount');	
+			}			
+		}
+	});
+}
+
+$("#auto-suggest-content").on("click", ".as-m.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'aa';
+	strt = 'm';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-y.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'y';
+	strt = 'y';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-b.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'b';
+	strt = 'b';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-t.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+    $(this).parent().removeClass("psv").addClass("act");
+    sr_type = 't';
+    strt = 't';
+    getType(10);
+});
+}
+
+
+
+/* top menu hover */
+$('.hover-menu-button').click(function(){
+	$(this).parent().find(".hover-menu").toggle();
+	//$(this).css("background","#ECE6E6");
+});
+
+
+
+
+
+
+
+/* search boxes silinecek 
+$('.searchBoxyazar').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/muellif-arama/' + search;}
+});
+
+$('.searchBoxBibl').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/bibliyografya_kisaltmalari/' + search;}
+});
+*/
+
+
+$('.searchBox').keypress(function(e){
+	if(e.which == 13){
+		if($('#searc-complete-result a.selected').length == 0){
+			var search = encodeURI($(this).val());
+			window.location = '/arama/?q=' + search + '&p=' + strt;
+		}else{
+			var target = $('#searc-complete-result a.selected').attr('href');
+			window.location = target;
+		}
+	}
+});
+
+$('#icon-search-submit').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?q=' + search;
+});
+
+$('#icon-search-submit-txt').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?p=t&q=' + search;
+});
+
+$("#searchBox").keydown(function(e) {
+	
+  var searchbox = $(this);
+  switch (e.which) {
+    case 40:
+      e.preventDefault(); // prevent moving the cursor     
+	  if($('#searc-complete-result .alist a.selected').length == 0){
+		$('#searc-complete-result .alist a:first').addClass('selected');
+	  }else{
+		$('#searc-complete-result .alist a:not(:last-child).selected').removeClass('selected').next().addClass('selected');
+	  }
+      break;
+    case 38:
+      e.preventDefault(); // prevent moving the cursor
+	  if($('#searc-complete-result a:first.selected').length == 1){
+		$('#searc-complete-result .selected').removeClass('selected');
+	  }
+      $('#searc-complete-result a:not(:first-child).selected').removeClass('selected').prev().addClass('selected');
+      break;
+  }
+});
+
+
+		var isCapital = false;
+		
+		$('.dia-keyboard').click(function(event){
+			jQuery('#searchBox').focus();
+		});
+		
+		$('.close-keyboard').click(function(event){
+			$('.dia-keyboard').hide();
+			$('.open-keyboard').css("opacity","0.3");
+		});	
+
+		$('.open-keyboard').click(function(event){
+			if( $('.dia-keyboard').is(':visible') ){
+				$('.dia-keyboard').hide();
+				$('.open-keyboard').css("opacity","0.3");
+			}
+			else{
+				$('.dia-keyboard').show();
+				$('.open-keyboard').css("opacity","0.8");
+			}
+		});	
+		
+			
+		function addCurrentLetter(letter)
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var character = letter; 
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart) + character + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart+1, $("#searchBox")[0].selectionEnd = selStart+1;				
+		}
+
+		function deleteCurrentLetter()
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart-1) + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart-1, $("#searchBox")[0].selectionEnd = selStart-1;				
+		}		
+		
+		$('.shift').click(function(event){
+			
+			$('.dia-keyboard ul li').each(function(){
+				if(isCapital){
+					$(this).text($(this).attr("hk"));
+				}
+				else{
+					$(this).text($(this).attr("hb"));
+				}
+			});
+						
+			if(isCapital){
+				isCapital = false;
+			}else{
+				isCapital = true;
+			}
+		});
+		
+		$('.dia-keyboard ul li:not(.noletter)').click(function(event){
+			addCurrentLetter($(this).text());
+			$('#searchBox').keyup();
+		});
+		
+		$('.dia-keyboard ul li.space').click(function(event){
+			addCurrentLetter(' ');
+			$('#searchBox').keyup();
+		});
+		$('.dia-keyboard ul li.delete').click(function(event){
+			if($("#searchBox").val().length > 0){
+				deleteCurrentLetter();
+				$('#searchBox').keyup();
+			}
+		});	
+		
+		
+		
+
+
+
+/* volume close-open events */
+$('#albhabet_button').click(function(){
+	$('.cz').hide(); $('.az').toggle();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#cilt_button').click(function(){
+	$('.az').hide(); $('.cz').toggle();
+	$('#albhabet_button').removeClass('arrow-selected');
+	$('#cilt_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_az').click(function(){
+	$('.az').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_cz').click(function(){
+	$('.cz').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+function letter_volumes_setter()
+{
+	if( $('.az').is(":visible")){
+		set_public_cookie("lt=1&vl=0");
+	}else if($('.cz').is(":visible")){
+		set_public_cookie("lt=0&vl=1");
+	}else{
+		set_public_cookie("lt=0&vl=0");
+	}
+}
+
+
+/* newsbar */
+
+if(!$('#newsbar_container').is(":visible")){
+	$('#newsbar_open').show();
+} 
+
+$('#newsbar_close').click(function(){
+	$('#newsbar_container').hide();
+	$('#newsbar_open').show();
+	set_public_cookie("nb=0");
+		
+});
+
+$('#newsbar_open').click(function(){
+	$('#newsbar_container').show();
+	$('#newsbar_open').hide();
+	set_public_cookie("nb=1");
+});
+
+});
+
+
+function set_public_cookie(parameter){
+	$.ajax({
+	url: "/cookie_setter.php?" + parameter,
+	cache : false,
+	success: function(result){ 
+	}
+	});
+}
+	
+	
+</script>
+	
+	
+</body>
+</html>
+<script>
+
+var fotoramaLoaded = 0;
+
+/* article image loading */
+$(function() {
+    $("img.lazy").lazyload();
+});
+
+/* article info selected text */
+function SelectText(element) {
+    var doc = document
+        , text = doc.getElementById(element)
+        , range, selection
+    ;
+    if (doc.body.createTextRange) {
+        range = document.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) {
+        selection = window.getSelection();
+        range = document.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}
+
+function url_redirect(options){
+    var $form = $("<form />");
+	$form.attr("action",options.url);
+	$form.attr("method",options.method);
+
+	for (var data in options.data)
+		$form.append('<input type="hidden" name="'+data+'" value="'+options.data[data]+'" />');
+
+	$("body").append($form);
+	$form.submit();
+}
+
+function requestCaptcha() {
+    grecaptcha.execute('6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS', {action: 'submit'})
+        .then(function (token) {
+            $('#issue-g-token').val(token);
+        });
+}
+
+function lockModal(lock = true) {
+    let notification = $('textarea[name=bildirim-bildirim]');
+    let name = $('input[name=bildirim-ad-soyad]');
+    let email = $('input[name=bildirim-eposta]');
+    let phone = $('input[name=bildirim-telefon]');
+    let code = $('input[name=bildirim-kodu]');
+    let submitBtn = $('#modal-issue-submit');
+    let loader = $('.modal-loading');
+
+    if (lock) {
+        notification.prop('disabled', true);
+        name.prop('disabled', true);
+        email.prop('disabled', true);
+        phone.prop('disabled', true);
+        code.prop('disabled', true);
+        submitBtn.hide();
+        loader.show();
+    } else {
+        notification.prop('disabled', false);
+        name.prop('disabled', false);
+        email.prop('disabled', false);
+        phone.prop('disabled', false);
+        code.prop('disabled', false);
+        submitBtn.show();
+        loader.hide();
+    }
+}
+
+function resizeFotorama(fotorama) {
+    let activeFrame = fotorama.activeFrame.$stageFrame;
+    let activeImage = activeFrame.find('img.fotorama__img');
+    let activeCaption = activeFrame.find('div.fotorama__caption');
+    let hesap = activeFrame.height() - activeCaption.height();
+    let cssTag = $('#fotorama_max');
+    if (cssTag.length > 0)
+        cssTag.remove()
+    activeImage.parent().append('<style id="fotorama_max">.fotorama_max { max-height: '+ hesap +'px !important; }</style>')
+    activeImage.addClass('fotorama_max');
+}
+
+function pdfStat(articleName, articleSlug, partName, fileName) {
+    const data = {
+        'event_category': 'pdf',
+        'event_label': `${articleName} - ${articleSlug} - ${fileName}`,
+        'file_name': fileName,
+        'file_extension': 'pdf',
+        'link_text': `${articleName} - #${partName}`,
+    };
+
+    gtag('event', 'download', data);
+}
+
+$(document).ready(function() {
+    // Sayfa yüklendiğinde küçük ekranlar için navbar madde adını hazırla.
+    $("#header-article-html-code").appendTo($("#header-article"));
+
+	/* right -left click */
+	$(document).keydown(function(event) {
+		if (event.ctrlKey || event.metaKey) {
+		    switch (event.keyCode) {
+		        // left
+		        case 37:
+                    window.location.href = '/belazuri';
+                    break;
+                //right
+                case 39:
+                    window.location.href = '/beldar';
+                    break;
+                default:
+                    return;
+            }
+        }
+	});
+
+    let issueModal = $('#issue-modal').modal();
+    let feedbackBtn = $('.feedback-btn');
+    let issue = '';
+
+	/* show arrb */
+	$('bibl .kisaltma').click(function(event) {
+	    let popup = $('.bibl-popup');
+	    let sidebar = $(".theiaStickySidebar");
+
+        let target = $(this);
+        let slug = false;
+        let bibkey = $(this).html();
+        if (target.data('ad')) {
+            bibkey = target.data('ad');
+            slug = true;
+        }
+
+        let offsets = $(this).offset();
+        let position = $(this).position();
+        let sidebarTopOffset = sidebar.offset().top
+        let topoffs = offsets.top - sidebarTopOffset + 40;
+        let leftoffs = (position.left - 26) + ($(this).width() / 2);
+
+        let isUseSafeArea = (sidebar.width() - position.left < 120);
+        popup.find('img').css('right', 'unset');
+        if (isUseSafeArea) {
+            popup.find('img').css('right', 24);
+        }
+
+        let q = bibkey.replace('[', '(').replace(']', ')');
+        $.ajax({
+            url: "/ajax_search_auto.php?c=g&mdl=bpop&q=" + q + '&slug=' + slug,
+			cache : false,
+			success: function(result){
+				if(result.trim() !== "") {
+                    $('.bibl-cnt').html(result);
+
+                    if (isUseSafeArea) {
+                        leftoffs = leftoffs - popup.width() + 14;
+                    }
+
+					popup.css("top", topoffs + "px");
+                    popup.css("left", leftoffs + "px");
+                    popup.show();
+
+				}
+			}
+		});
+	});
+
+	$( window ).resize(function() {
+		$('.kisaltma').each(function( index ) {
+			if($(this).find('.bibpos').length > 0)
+			{
+
+			}
+		});
+	});
+
+	/* close bibl poup */
+	$('.close-bibl-poup').click(function(event){
+		$(this).parent().hide();
+		$('.kisaltma').find('.bibpos').remove();
+	});
+
+	issueModal.on('modal:show', function () {
+        $('.grecaptcha-badge').addClass('show');
+    });
+
+    issueModal.on('modal:hide', function () {
+        $('.grecaptcha-badge').removeClass('show');
+    });
+
+	/* feedback post */
+	feedbackBtn.click(function() {
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+        let issueModalMadde = $('#issue-modal-madde');
+        errorBox.hide();
+        successBox.hide();
+        issue = $(this).data('issue');
+        if (issue) {
+            let cookie = localStorage.getItem('bildirim_' + issue);
+            let form = $('#modal-issue-form');
+            issueModalMadde.text(issue);
+            form[0].reset();
+            form.find('input[name="bildirim-madde-adi"]').val(issue);
+            if (cookie !== null) {
+                let json = JSON.parse(cookie);
+                $.each(json, function (index, elem) {
+                    if (elem.name !== 'bildirim-kodu' && elem.name !== 'bildirim-madde-adi') {
+                        form.find('[name="' + elem.name + '"]').val(elem.value);
+                    }
+                });
+            }
+            requestCaptcha();
+            issueModal.show();
+        }
+	});
+
+
+	var article_div = $('.body_pad_article');
+	var article_div_bottom_pos = article_div.position().top + article_div.outerHeight(true);
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > article_div_bottom_pos - 300 ) {
+			$(".article-left-bar").css("position", "absolute");
+		}
+		else{
+			$(".article-left-bar").css("position", "fixed");
+		}
+	});
+
+	$('.show-former').click(function(event){
+		$(".country-former").toggle();
+
+		if($(".country-former").is(":visible")){
+			$(this).parent().find('.icon-chevron-down').removeClass('icon-chevron-down').addClass('icon-chevron-up');
+		}else{
+			$(this).parent().find('.icon-chevron-up').removeClass('icon-chevron-up').addClass('icon-chevron-down');
+		}
+
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+	});
+
+	$('.show-source').click(function(event){
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+		$(".country-source").toggle();
+	});
+
+	$('.icon-list-ul').click(function(event){
+		$(".top-prev-container").show();
+		$(this).css("color","#777");
+		$(".preview-title").show();
+		$(".article_title h1").css("color","#fff");
+	});
+	$('.icon-list-up').click(function(event){
+		$(".top-prev-container-p").show();
+		$(this).css("color","#777");
+	});
+
+	$(document).mouseup(function (e)
+	{
+		// preview hover
+		var container = $(".top-prev-container.bsk");
+		var button = $(".list-ll");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+				$(".preview-title").hide();
+				$(".article_title h1").css("color","inherit");
+			}
+			/*
+		var container = $(".top-prev-container-p");
+		var button = $(".icon-list-ul-p");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+			}
+            */
+	});
+
+
+	$('.btn-preview').click(function(event){
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-plan').removeClass("active").addClass("passive");
+		$('.plan-content').hide();
+		$('.preview-content').show();
+	});
+
+	$('.btn-plan').click(function(event){
+
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-preview').removeClass("active").addClass("passive");
+		$('.plan-content').show();
+		$('.preview-content').hide();
+
+	});
+
+
+	/* prevent img click href */
+	$('.lazy').click(function(event){
+		event.preventDefault();
+	});
+
+
+
+	/* open image slider fotorama */
+	$('.lazy').click(function(){
+
+		if(fotoramaLoaded == 0){
+			$('.fotorama img').each(function(){
+				var imgurl = $(this).attr("srcs");
+				$(this).attr("src", imgurl);
+				fotoramaLoaded = 1;
+			});
+		}
+
+		$('#fotorama').show();
+		var $fotoramaDiv = $('#fotorama').fotorama();
+		var fotorama = $fotoramaDiv.data('fotorama');
+
+		fotorama.requestFullScreen();
+		var order = $(this).parent().attr("img-order");
+		fotorama.show(order);
+	});
+	$('.fotorama').on('fotorama:fullscreenexit', function (e, fotorama, extra) {
+		$('#fotorama').hide();
+	});
+
+	$('.fotorama').on('fotorama:show fotorama:load fotorama:fullscreenenter', function (e, fotorama) {
+	    resizeFotorama(fotorama);
+    });
+
+    $(window).on('resize', function () {
+        let fotorama = $('.fotorama').data('fotorama');
+        if (fotorama) {
+            setTimeout(function () {
+                resizeFotorama(fotorama);
+            }, 100);
+        }
+    });
+
+	/* article part info fade / soru işareti kaldırıldı
+	$('.article-nav-open-info').click(function(){
+		var totals = $(this).parent().find('.article-nav-numbers').html().split("/")[1];
+		var currents = $(this).parent().find('.article-nav-numbers').html().split("/")[0];
+		$('.article-nav-info-li').html('<b>' + totals + '</b> bölümden oluşan maddenin <b>' +  currents + '</b>. bölümü:');
+		$(this).parent().find(".article-nav-info-li").fadeIn("slow");
+		$(this).hide();
+	});
+	 */
+
+
+	/* part info */
+	$('.ak-copy').click(function(){
+		if($(this).find('span').text() == 'Kopyalama metni'){
+			$(this).parent().find('.ak-list').hide();
+			$(this).parent().find('.ak-copytext').show();
+			SelectText($(this).parent().find('.ak-copytext').attr("id"));
+			$(this).find('span').text('<< Geri');
+		}else{
+			$(this).parent().find('.ak-list').show();
+			$(this).parent().find('.ak-copytext').hide();
+			$(this).find('span').text('Kopyalama metni');
+		}
+	});
+
+
+
+
+	/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});
+
+
+
+
+	$('#authors_show').click(function(){$(".authors_popup").toggle();});
+
+	$(document).mouseup(function (e)
+	{
+		var container = $(".authors_popup");
+		var button = $("#authors_show");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+			container.hide();}
+	});
+
+	// default
+
+	if ($("#auto-suggest-box").width() == 376 )
+	{
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+	}
+
+	$(window).scroll(function() {
+		var poss = "";
+		var firstPart = $('.article-parts').position().top;
+
+		if ($(this).scrollTop() > 60) {
+			$("#logo-part").hide();
+			$("#logo-beta").hide();
+			$("#header-article").show();
+			$("#searchBox").css("width","380px");
+			$("#auto-suggest-box").css("width","380px");
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+			$("#header-article-html-code").appendTo($("#header-article"));
+        }
+		else{
+			$("#logo-part").show();
+			$("#logo-beta").show();
+			$("#header-article").hide();
+			$("#searchBox").css("width","490px");
+			$("#auto-suggest-box").css("width","490px");
+			$("#auto-suggest-box span.txt span").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+		}
+	});
+
+	$('.clicktop').click(function(e){
+		$("html, body").animate({
+			scrollTop: "0px"
+		});
+		window.location.hash=""	;
+	});
+
+	$('.article-nav-next, .article-nav-prev, .preview-jump').not('.article-nav-passive').click(function(){
+		window.location = $(this).attr('data-jurl');
+		var jl = '#_' + window.location.href.split("#").pop();
+		$('html, body').animate({ scrollTop: ( $(jl).offset().top - 120) }, 900);
+		$(".top-prev-container.bsk").hide();
+	});
+
+    issueModal.on('change', function () {
+        let form = $('#modal-issue-form');
+        let bildirimText = form.find('textarea[name="bildirim-bildirim"]');
+        if (issue && bildirimText.val().length > 0) {
+            let excludes = ['g-token'];
+            let cookie = 'bildirim_' + issue;
+            let formData = form.serializeArray();
+            $.each(formData, function (index, item) {
+                if (item && excludes.indexOf(item.name) > -1)
+                    formData.splice(index, 1);
+            });
+            localStorage.setItem(cookie, JSON.stringify(formData));
+        }
+    });
+
+    $('#modal-issue-form').submit(function (e) {
+        e.preventDefault();
+        let form = $('#modal-issue-form');
+        let data = form.serializeArray();
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+
+        errorBox.hide();
+        errorBox.empty();
+        successBox.hide();
+        successBox.empty();
+        lockModal();
+
+        data.push({
+            name: 'article-id',
+            value: 3135        });
+        $.post('/bildirim.php', data).done(function (data) {
+            issueModal.hide();
+            Swal.fire({
+                html: data.message,
+                icon: 'success',
+                showConfirmButton: false,
+                showCloseButton: true
+            });
+
+            form[0].reset();
+            localStorage.removeItem('bildirim_' + issue);
+            lockModal(false)
+            requestCaptcha();
+        }).fail(function (data) {
+            let response = data.responseJSON;
+            if (response.errors) {
+                errorBox.empty();
+                errorBox.html(response.errors.join('<br>'));
+                errorBox.slideDown('fast');
+            }
+            $('input[name=bildirim-kodu]').val('');
+            requestCaptcha();
+            lockModal(false);
+        });
+    });
+
+	if(window.location.href.indexOf('#') > -1){
+		var dashvalue = window.location.href.split("#").pop();
+		try{
+		var jt = '#_' + window.location.href.split("#").pop();
+		if ($(window).scrollTop() <= 0)
+		    $('html, body').animate({ scrollTop: ( $(jt).offset().top - 160) }, 900);
+		}catch(err){}
+	}
+
+	/* article toolbar functioms */
+	$('#pagecolorSepia').click(function(){
+		$("body").css("background", "#fff");
+		$(".body_container").css("background" , "#F5EEDE");
+		$(".m-body, .m-title, .title_info").css("color", "#614D1D");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#F5EEDE");
+		$("#article_toolbar").css("border-color","#E4D0A3");
+		$("#artplan").addClass("sepya");
+		$(".article-plan-buttons").addClass("sepya");
+		$(".hdrprt1").addClass("sepya");
+		$(".hdrprt1arrows").addClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").addClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down-sepya.png")
+		$(".article-left-bar").css("background","#f5eede");
+	});
+
+	$('#pagecolorWhite').click(function(){
+		$(".body_container").css("background" , "#fff");
+		$("body").css("background", "#f1f4f4");
+		$(".m-body, .m-title, .title_info").css("color", "#333");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#f4f1f1");
+		$("#article_toolbar").css("border-color","#ededed");
+		$("#artplan").removeClass("sepya");
+		$(".article-plan-buttons").removeClass("sepya");
+		$(".hdrprt1").removeClass("sepya");
+		$(".hdrprt1arrows").removeClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").removeClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png");
+		$(".article-left-bar").css("background","#fff");
+	});
+	$('#txtdown').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) + 1;
+		var nlh = parseInt(lh) + 2;
+		if(fs <= '23'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		// set_public_cookie('reader', nfs + 'px,' + nlh + 'px')
+	});
+	$('#txtup').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) - 1;
+		var nlh = parseInt(lh) - 2;
+		if(fs >= '17'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		//set_public_cookie('reader', nfs + 'px,' + nlh + 'px');
+	});
+	$('.icon-align-left').click(function(){
+		$('.m-content').css({"text-align" : "left"});
+		set_public_cookie("aa=left");
+	});
+	$('.icon-align-justify').click(function(){
+		$('.m-content').css({"text-align" : "justify"});
+		set_public_cookie("aa=justify");
+	});
+	/* article toolbar functioms */
+
+
+	$('#printbody').click(function(){
+		$('#m-body').print({
+		globalStyles: true,
+		mediaPrint: false,
+		stylesheet: null,
+		noPrintSelector: ".no-print",
+		iframe: true,
+		append: null,
+		prepend: null,
+		manuallyCopyFormValues: true,
+		deferred: $.Deferred(),
+		timeout: 750,
+		title: null,
+		doctype: '<!doctype html>'
+	   	});
+	});
+
+	$('.printPart').click(function() {
+        const printButton = $(this);
+        const printPart = $('<div class="article-parts"></div>');
+
+        const articlePart = printButton.closest('.article-part');
+        printPart.append(articlePart.clone());
+
+        let pdfPartUrl = '';
+                pdfPartUrl = 'https://islamansiklopedisi.org.tr/belcika#' + articlePart.attr('id').substring(1);
+        
+        const pdfLink = $('<a></a>')
+            .attr('href', pdfPartUrl)
+            .text(pdfPartUrl.replace('https://', ' '));
+
+        const header = $('<div style="border-bottom: 1px solid #ddd; margin-bottom: 30px; padding-bottom: 10px;"></div>');
+                const partText = articlePart.find('.partnumbers').data('tipso') + 'dür. ';
+        header.append(partText);
+        
+        header.append('Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için: ');
+        header.append(pdfLink);
+
+        const bodyContainer = $('<div class="centered body_container body_pad_article" style="margin-top: 15px;"></div>');
+        bodyContainer.append(header);
+
+        const articleTitle = $('.article_header_container');
+        bodyContainer.append(articleTitle.clone())
+
+		const mBody = $('<div class="m-body"></div>');
+        mBody.append(printPart);
+        bodyContainer.append(mBody);
+
+        const body = $('<body></body>');
+        body.append(bodyContainer);
+
+		body.print({
+            globalStyles: true,
+            mediaPrint: true,
+            stylesheet: null,
+            noPrintSelector: ".no-print",
+            iframe: true,
+            append: null,
+            prepend: null,
+            manuallyCopyFormValues: true,
+            deferred: $.Deferred(),
+            timeout: 750,
+            title: null,
+            doctype: '<!doctype html>'
+	   	});
+	});
+
+
+/* search autocomplete events */
+	var delay = (function(){
+	  var timer = 0;
+	  return function(callback, ms){
+		clearTimeout (timer);
+		timer = setTimeout(callback, ms);
+	  };
+	})();
+	$('#searchBox1').keyup(function() {
+		delay(function(){
+		var typed = $.trim($('#searchBox1').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box1").hide();
+			$("#auto-suggest-loading1").hide();
+
+		}
+		}, 1000 );
+	});
+
+	function autocomplete(typed)
+	{
+		$("#auto-suggest-content1").html('');
+		$("#auto-suggest-box1").show();
+		$("#auto-suggest-loading1").show();
+
+		$.ajax({
+			url: "/ajax_search_auto.php?q=" + typed,
+			cache : false,
+			success: function(result){
+				if(result.trim() == "")
+				{
+					$("#auto-suggest-box1").hide();
+					$("#auto-suggest-loading1").hide();
+				}else{
+					$("#auto-suggest-loading1").hide();
+					$("#auto-suggest-content1").html(result);
+				}
+			}
+		});
+	}
+
+	/* atif */
+	$('.atif-btn').click(function(){
+		$(this).parent().parent().parent().parent().find('.atif-kutusu').slideToggle();
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".atif-kutusu");
+		var inputbox = $(".atif-btn");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+			resultbox.hide();
+			$('.ak-list').show();
+			$('.ak-copytext').hide();
+			$('.ak-copy span').text('Kopyalama metni');
+		}
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $("#auto-suggest-box1");
+		var inputbox = $("#searchBox1");
+		if (!resultbox .is(e.target)  && resultbox .has(e.target).length === 0 && !inputbox .is(e.target)){
+			resultbox.hide();}
+	});
+
+    jQuery('.sticky-content, .sticky-sidebar').theiaStickySidebar({
+        additionalMarginTop: 30
+    });
+
+});
+
+</script>
+
+

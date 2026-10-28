@@ -1,0 +1,556 @@
+{
+ "parti": 109,
+ "sonuclar": [
+  {
+   "ad": "Belencer / İdil (Atil)",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "",
+   "ulke_modern": "",
+   "tanik": [],
+   "not": "Iki ayri Hazar yeri: Belencer (Dagistan/Kuzey Kafkasya, konumu tartismali) ve Itil/Atil (Volga deltasi, Samosdelka vb. adaylar; konum kesin degil). Guvenilir koordinat kaynagi bulunamadi; iDAI Itil kaydi (2068841) koordinatsiz."
+  },
+  {
+   "ad": "Ordu-Balık / Ötüken",
+   "durum": "tek_tanik",
+   "lat": 47.431,
+   "lon": 102.659,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Karabalgasun (Khar Balgas)",
+   "ulke_modern": "Moğolistan",
+   "tanik": [
+    {
+     "kaynak": "Wikipedia/Wikidata Q2475401",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Ordu-Baliq",
+     "lat": 47.431111,
+     "lon": 102.659444,
+     "not": ""
+    },
+    {
+     "kaynak": "Sygic POI (bagimsiz degil)",
+     "url_veya_atif": "https://travel.sygic.com/en/poi/ordu-baliq-poi:6248418",
+     "lat": 47.4151,
+     "lon": 102.6333,
+     "not": "1-2 km fark"
+    }
+   ],
+   "not": "Ordu-Balik = Karabalgasun (Orhun, Hotont sum, Arhangay). Otuken bir bolge (Hangay/Orhun havzasi), nokta degil; koordinat Ordu-Balik icin."
+  },
+  {
+   "ad": "Talas",
+   "durum": "tek_tanik",
+   "lat": 42.883,
+   "lon": 71.367,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Taraz",
+   "ulke_modern": "Kazakistan",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q486545 Taraz",
+     "lat": 42.8833,
+     "lon": 71.3667,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "Bozkir baglaminda (Talas 751, Karluk/Karahanli) Taraz (Kazakistan). Ayni ad Kirgizistan'daki modern Talas sehri (42.52,72.23) icin de gecerli; baglam ayrimi kaynakla dogrulanmadi."
+  },
+  {
+   "ad": "Tokmak (Suyab) / Talas / Kara-ordu",
+   "durum": "cift_tanik",
+   "lat": 42.805,
+   "lon": 75.2,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ak-Beshim (Suyab), Tokmok yakini",
+   "ulke_modern": "Kırgızistan",
+   "tanik": [
+    {
+     "kaynak": "UNESCO Tentative List 5518 (Upper Chui Valley medieval sites)",
+     "url_veya_atif": "https://whc.unesco.org/en/tentativelists/5518",
+     "lat": null,
+     "lon": null,
+     "not": "Ak Beshim UTM 43T verildi; Tokmok yakini Chu vadisi"
+    },
+    {
+     "kaynak": "Times of Central Asia / 24.kg (tarif)",
+     "url_veya_atif": "https://24.kg/english/337877__Kyrgyzstan_and_China_to_jointly_protect_ruins_of_ancient_Ak-Beshim_settlement",
+     "lat": 42.805,
+     "lon": 75.2,
+     "not": "Tokmok'un 6-8 km GB'si; Wikipedia 42.8052,75.1999 ile uyumlu"
+    }
+   ],
+   "not": "Suyab = Ak-Beshim. Bilesik adin 'Talas' ve 'Kara-ordu' parcalari ayri yerlere gidebilir (Talas = Taraz yukarida); yalniz Tokmak/Suyab degerlendirildi. UNESCO koordinati UTM, tam donusum yapilmadi: bagimsizlik zayif-orta, cift_tanik sinirda."
+  },
+  {
+   "ad": "Sarkel",
+   "durum": "tek_tanik",
+   "lat": 47.705,
+   "lon": 42.273,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tsimlyanskoye gorodishche (Belaya Vezha), Tsimlyansk Baraj Golu altinda",
+   "ulke_modern": "Rusya",
+   "tanik": [
+    {
+     "kaynak": "Wikipedia/Wikidata Q1068190",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Sarkel",
+     "lat": 47.705,
+     "lon": 42.273,
+     "not": ""
+    },
+    {
+     "kaynak": "proza.ru (ikincil)",
+     "url_veya_atif": "https://proza.ru/2020/12/19/101",
+     "lat": null,
+     "lon": null,
+     "not": "sol kiyi, baraj golu altinda"
+    }
+   ],
+   "not": "Artamonov kazilari sol kiyi; sular altinda, 2020 dalis tespitleri tam teyitli degil. Karamzin'in Kachalinskaya onerisi eski."
+  },
+  {
+   "ad": "Ordu-Balık (Karabalgasun)",
+   "durum": "tek_tanik",
+   "lat": 47.431,
+   "lon": 102.659,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Karabalgasun (Khar Balgas)",
+   "ulke_modern": "Moğolistan",
+   "tanik": [
+    {
+     "kaynak": "Wikipedia/Wikidata Q2475401",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Ordu-Baliq",
+     "lat": 47.431111,
+     "lon": 102.659444,
+     "not": ""
+    },
+    {
+     "kaynak": "mongolia-trips (tarif)",
+     "url_veya_atif": "https://www.mongolia-trips.com/guide-mongolie/destination/khar-balgas",
+     "lat": null,
+     "lon": null,
+     "not": "Karakorum'un 17-27 km K-KB'si; UNESCO Orhun Vadisi alani icinde"
+    }
+   ],
+   "not": "Orhun kiyisi, Hotont sum. Akademik/UNESCO koordinati cekilemedi."
+  },
+  {
+   "ad": "Güney Rus bozkırı (Don-Dinyeper)",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "",
+   "ulke_modern": "",
+   "tanik": [],
+   "not": "Nokta degil genis bolge; yerlesim koordinati yok."
+  },
+  {
+   "ad": "Onon ırmağı kıyısı (kurultay yeri)",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "",
+   "ulke_modern": "",
+   "tanik": [],
+   "not": "Belirli nokta yok (Onon boyu; Hodoe Aral/Burkan Kaldun tartismali); kaynakla tek nokta dogrulanamadi."
+  },
+  {
+   "ad": "Pliska / Varbitsa geçidi",
+   "durum": "tek_tanik",
+   "lat": 43.362,
+   "lon": 27.125,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Pliska harabeleri (Kaspican, Sumen)",
+   "ulke_modern": "Bulgaristan",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q318889 Pliska",
+     "lat": 43.362015,
+     "lon": 27.125411,
+     "not": "ipucu; bagimsiz tanik degil"
+    },
+    {
+     "kaynak": "Wikipedia Pliska",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Pliska",
+     "lat": 43.387,
+     "lon": 27.132,
+     "not": "harabe koy merkezinin ~2 km'sinde; Sumen'in ~28 km KD'su"
+    }
+   ],
+   "not": "Yalniz Pliska degerlendirildi. Varbitsa gecidi (811, Verigava/Stara Planina) cozulemedi."
+  },
+  {
+   "ad": "Pliska",
+   "durum": "tek_tanik",
+   "lat": 43.362,
+   "lon": 27.125,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Pliska",
+   "ulke_modern": "Bulgaristan",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q318889",
+     "lat": 43.362015,
+     "lon": 27.125411,
+     "not": "ipucu; bagimsiz tanik degil"
+    },
+    {
+     "kaynak": "visitbulgaria (tarif)",
+     "url_veya_atif": "https://visitbulgaria.com/the-pliska-national-historical-and-architectural-reserve/",
+     "lat": null,
+     "lon": null,
+     "not": "harabeler koyun yaklasik 2 km yakininda"
+    }
+   ],
+   "not": "Akademik kazi raporu bulunamadi; ikinci tanik zayif."
+  },
+  {
+   "ad": "Anchialos (Pomorie, Aheloy)",
+   "durum": "tek_tanik",
+   "lat": 42.557,
+   "lon": 27.641,
+   "tur": "liman",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Pomorie (Aheloy ayri yer, ~10 km kuzeyde)",
+   "ulke_modern": "Bulgaristan",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q407372 Pomorie",
+     "lat": 42.556907,
+     "lon": 27.640546,
+     "not": "ipucu; bagimsiz tanik degil"
+    },
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q2597663 Aheloy",
+     "lat": 42.645702,
+     "lon": 27.649498,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "ONCEKI KAYIT HATALI: Pleiades 531019 (39.876,20.012) Arnavutluk'ta, Bulgaristan Anchialos'una ait degil. Anchialos = Pomorie. Aheloy yakin ama ayri yer (917 Aheloy savasi)."
+  },
+  {
+   "ad": "Levunion (Leburnion) dağı, Trakya",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "",
+   "ulke_modern": "",
+   "tanik": [],
+   "not": "1091 Levunion muharebesi Meric/Enez cevresi; tepenin tam yeri kaynaklarda tartismali. Koordinat bulunamadi."
+  },
+  {
+   "ad": "Žiča",
+   "durum": "tek_tanik",
+   "lat": 43.696,
+   "lon": 20.646,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Žiča manastiri, Kraljevo",
+   "ulke_modern": "Sırbistan",
+   "tanik": [
+    {
+     "kaynak": "Wikipedia infobox",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/%C5%BDi%C4%8Da",
+     "lat": 43.6963,
+     "lon": 20.6457,
+     "not": ""
+    },
+    {
+     "kaynak": "Wikivoyage Kraljevo",
+     "url_veya_atif": "https://en.wikivoyage.org/wiki/Kraljevo",
+     "lat": 43.6953,
+     "lon": 20.646,
+     "not": "Kraljevo merkezinin 3 km GB'si"
+    }
+   ],
+   "not": "Manastir (dini yapi). Sirp resmi/akademik kaynak cekilemedi."
+  },
+  {
+   "ad": "Galata (Pera)",
+   "durum": "tek_tanik",
+   "lat": 41.0256,
+   "lon": 28.9742,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Galata/Karakoy, Beyoglu, Istanbul",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q91274 Galata Kulesi",
+     "lat": 41.025632,
+     "lon": 28.974153,
+     "not": "ipucu; bagimsiz tanik degil"
+    },
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q501817 Galata mahallesi",
+     "lat": 41.022778,
+     "lon": 28.973611,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "Altin Boynuz kuzeyi; ayni kaynak ailesi."
+  },
+  {
+   "ad": "Viterbo",
+   "durum": "tek_tanik",
+   "lat": 42.4186,
+   "lon": 12.1042,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Viterbo",
+   "ulke_modern": "İtalya",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q13395",
+     "lat": 42.418611,
+     "lon": 12.104167,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "Italyan resmi kaynak cekilemedi."
+  },
+  {
+   "ad": "Cannae (Canne), Apulya",
+   "durum": "tek_tanik",
+   "lat": 41.2964,
+   "lon": 16.1517,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Canne della Battaglia (Barletta)",
+   "ulke_modern": "İtalya",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q568611",
+     "lat": 41.296389,
+     "lon": 16.151667,
+     "not": "ipucu; bagimsiz tanik degil"
+    },
+    {
+     "kaynak": "Italya Kultur Bakanligi Puglia muzeleri",
+     "url_veya_atif": "https://museipuglia.cultura.gov.it/musei-puglia/museo-e-parco-archeologico-canne-della-battaglia",
+     "lat": null,
+     "lon": null,
+     "not": "Ofanto vadisini goren tepede; Barletta ile Canosa arasinda (tarif, koordinatsiz)"
+    }
+   ],
+   "not": "Ikinci tanik yalniz konum tarifi; cift_tanik sayilmadi. Savas meydani Ofanto boyunda ~15 km icinde."
+  },
+  {
+   "ad": "Assandun",
+   "durum": "tek_tanik",
+   "lat": 51.6028,
+   "lon": 0.6948,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ashingdon, Essex (alternatif: Ashdon)",
+   "ulke_modern": "İngiltere",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q1704268",
+     "lat": 51.6028,
+     "lon": 0.6948,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "Yer tartismali (Ashingdon / Ashdon); Essex adayi alinmistir."
+  },
+  {
+   "ad": "Bouvines",
+   "durum": "tek_tanik",
+   "lat": 50.5789,
+   "lon": 3.1864,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Bouvines",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q1079414",
+     "lat": 50.578889,
+     "lon": 3.186389,
+     "not": "ipucu; bagimsiz tanik degil"
+    },
+    {
+     "kaynak": "Wikipedia Battle of Bouvines",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Battle_of_Bouvines",
+     "lat": 50.58,
+     "lon": 3.225,
+     "not": "muharebe konumu koyun ~3 km D'su"
+    }
+   ],
+   "not": "Fransiz miras kaydi (Merimee) cekilemedi; <=15 km icinde tutarli."
+  },
+  {
+   "ad": "Brunanburh",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "",
+   "ulke_modern": "",
+   "tanik": [],
+   "not": "Konum cok tartismali (Bromborough, Burnley/Lancashire, Brinsworth, Dumfries vb.); Wikidata tek aday Burnley (53.796,-2.257). Uydurma yok."
+  },
+  {
+   "ad": "Edington",
+   "durum": "tek_tanik",
+   "lat": 51.277,
+   "lon": -2.106,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Edington, Wiltshire (Ethandun adayi)",
+   "ulke_modern": "İngiltere",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q1018659",
+     "lat": 51.277,
+     "lon": -2.106,
+     "not": "ipucu; bagimsiz tanik degil"
+    },
+    {
+     "kaynak": "Wiltshire Council community history",
+     "url_veya_atif": "https://apps.wiltshire.gov.uk/communityhistory/Question/Details/25",
+     "lat": null,
+     "lon": null,
+     "not": "cogu uzman Wiltshire Edington'i kabul ediyor (tarif)"
+    }
+   ],
+   "not": "Muharebe alani kazi ile dogrulanmadi; Bratton Camp alternatif."
+  },
+  {
+   "ad": "Meerssen",
+   "durum": "tek_tanik",
+   "lat": 50.8858,
+   "lon": 5.7508,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Meerssen",
+   "ulke_modern": "Hollanda",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q2452442",
+     "lat": 50.8858,
+     "lon": 5.7508,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "Tek kaynak ailesi."
+  },
+  {
+   "ad": "Noyon",
+   "durum": "tek_tanik",
+   "lat": 49.5811,
+   "lon": 2.9989,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Noyon, Oise",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q49831",
+     "lat": 49.581111,
+     "lon": 2.998889,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "iDAI Noyon kaydi (2081700) koordinatsiz."
+  },
+  {
+   "ad": "Pevensey",
+   "durum": "tek_tanik",
+   "lat": 50.8197,
+   "lon": 0.3366,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Pevensey Castle, East Sussex",
+   "ulke_modern": "İngiltere",
+   "tanik": [
+    {
+     "kaynak": "Historic England list entry 1013379",
+     "url_veya_atif": "https://www.historicengland.org.uk/listing/the-list/list-entry/1013379",
+     "lat": 50.8197,
+     "lon": 0.3366,
+     "not": "NGR TQ 64441 04786 (cevrim yaklasik, tarafimdan)"
+    },
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q734453 Pevensey",
+     "lat": 50.820556,
+     "lon": 0.338056,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "HE resmi kaydi guclu; ikinci tanik Wikidata bagimsiz sayilmaz."
+  },
+  {
+   "ad": "Prüm",
+   "durum": "tek_tanik",
+   "lat": 50.2081,
+   "lon": 6.4244,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Prüm (Eifel), Salvator manastiri",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q253696",
+     "lat": 50.208056,
+     "lon": 6.424444,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "Abbey kentin ortasinda (eifel.info tarif); resmi/akademik koordinat cekilemedi."
+  },
+  {
+   "ad": "Ribemont",
+   "durum": "tek_tanik",
+   "lat": 49.96,
+   "lon": 2.5656,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ribemont-sur-Ancre, Somme (alternatif: Ribemont, Aisne)",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "Wikidata",
+     "url_veya_atif": "Q626976",
+     "lat": 49.96,
+     "lon": 2.565556,
+     "not": "ipucu; bagimsiz tanik degil"
+    }
+   ],
+   "not": "Ad belirsiz: 880 Ribemont antlasmasi icin baglam (Aisne'deki Ribemont) dogrulanmadi; iDAI sadece Ribemont-sur-Ancre kaydi verdi."
+  }
+ ]
+}

@@ -1,0 +1,304 @@
+diff --git a/denetim/ACILIS-ANIM-0929-sinav-kur.py b/denetim/ACILIS-ANIM-0929-sinav-kur.py
+index 1d24c171..bc775105 100644
+--- a/denetim/ACILIS-ANIM-0929-sinav-kur.py
++++ b/denetim/ACILIS-ANIM-0929-sinav-kur.py
+@@ -5,9 +5,9 @@
+ #     http://localhost:8765/denetim/ACILIS-ANIM-0929-sinav.html  (teklif edilen satırın aynısı)
+ # Varyantlar maliyeti AYIRMAK içindir (window.ACILIS_AYAR, data/acilis_siluet.js okur).
+ # Kopyalar commit EDİLMEZ (index.html'in 1750 satırlık ikizleri); bu betik edilir.
+-import sys, re, json
++import os, sys, re, json
+ sys.stdout.reconfigure(encoding="utf-8")
+-KOK = "C:/atlas/"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__))).replace("\\", "/") + "/"
+ VARYANT = {
+     "": None,                                             # teklif edilen hâl
+     "betik": {"ogesiz": 1, "durgunKure": 1},              # yalnız betik + durgun küre
+diff --git a/denetim/ARAC-BEKCI-SINAV-YARIYAZIM-0911.py b/denetim/ARAC-BEKCI-SINAV-YARIYAZIM-0911.py
+index ae8b6ba9..a8421f91 100644
+--- a/denetim/ARAC-BEKCI-SINAV-YARIYAZIM-0911.py
++++ b/denetim/ARAC-BEKCI-SINAV-YARIYAZIM-0911.py
+@@ -12,7 +12,7 @@
+ # BEKLENEN: en az bir "hala yaziliyor" satiri, SONRA bitis.
+ import io, os, subprocess, sys, time
+ 
+-ATLAS = u"C:\\atlas"
++ATLAS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ SCRATCH = os.environ.get("BEKCI_SINAV_DIZIN") or __import__("tempfile").gettempdir()
+ TETIK = os.path.join(SCRATCH, "sahte_tetik2.js")
+ # 🔴 SAHTE MOTOR betigi DENETIM'de durur (bir ALETTIR), ama urettigi TETIK
+diff --git a/denetim/ARAC-FAZ2-SINAV-0906.py b/denetim/ARAC-FAZ2-SINAV-0906.py
+index 1b20db95..776a57a4 100644
+--- a/denetim/ARAC-FAZ2-SINAV-0906.py
++++ b/denetim/ARAC-FAZ2-SINAV-0906.py
+@@ -16,7 +16,7 @@ import json
+ import os
+ import sys
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-HIMAYE-SINAV-0914.py b/denetim/ARAC-HIMAYE-SINAV-0914.py
+index 622084d2..d4ee4b53 100644
+--- a/denetim/ARAC-HIMAYE-SINAV-0914.py
++++ b/denetim/ARAC-HIMAYE-SINAV-0914.py
+@@ -3,7 +3,7 @@
+ fonksiyonları AST ile dosyanın KENDİSİNDEN çekip sentetik girdiyle koşar."""
+ import ast, io, json, os, sys, random
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ from shapely.geometry import Polygon, MultiPolygon, box, Point
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-LEGO-ayikla-sinav.py b/denetim/ARAC-LEGO-ayikla-sinav.py
+index 15368a59..79f0f1f1 100644
+--- a/denetim/ARAC-LEGO-ayikla-sinav.py
++++ b/denetim/ARAC-LEGO-ayikla-sinav.py
+@@ -24,7 +24,8 @@ import shapely
+ from shapely.geometry import box
+ from shapely.ops import unary_union
+ 
+-DEN = r"C:\atlas\denetim"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++DEN = os.path.join(KOK, "denetim")
+ 
+ 
+ def modul(ad, dosya):
+@@ -60,8 +61,8 @@ def main():
+     sp = importlib.util.spec_from_file_location("etki", os.path.join(DEN, "ARAC-LEGO-etki.py"))
+     et = importlib.util.module_from_spec(sp)
+     exec(compile(open(sp.origin, encoding="utf-8").read().replace("\nmain()\n", "\n"), sp.origin, "exec"), et.__dict__)
+-    Y, B = et.yukle(r"C:/atlas-kosu15")
+-    REF = puan_fonk(r"C:\atlas\arac\uret_petek.py")
++    Y, B = et.yukle(os.path.join(os.path.dirname(KOK), "atlas-kosu15"))
++    REF = puan_fonk(os.path.join(KOK, "arac", "uret_petek.py"))
+     YAM = puan_fonk(yamali)
+     ortak = dict(YERLER=Y, _kvx0=-180, _kvy0=-60, _kvnx=int(round(360 / 0.05)), _kvny=int(round(145 / 0.05)))
+     for ns in (REF, YAM):
+diff --git a/denetim/ARAC-SERHAT-IZGARA-SINAV-0907.py b/denetim/ARAC-SERHAT-IZGARA-SINAV-0907.py
+index d75bac19..b71a65e4 100644
+--- a/denetim/ARAC-SERHAT-IZGARA-SINAV-0907.py
++++ b/denetim/ARAC-SERHAT-IZGARA-SINAV-0907.py
+@@ -19,10 +19,10 @@ komsulari bul, IZGARANIN dondurdugu kumeyle karsilastir.
+    IZGARA KUMESI ⊇ KABA KUVVET KUMESI  olmali (ust kume: fazlasi zararsiz,
+    EKSIGI kenar dusurur).
+ """
+-import sys, io, math
++import sys, io, math, os
+ from collections import defaultdict
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, KOK + r"\arac")
+ import girdi
+ 
+@@ -99,7 +99,7 @@ for i in range(n):
+             kacan.append((ad, la, lo, P[j][0], P[j][1], P[j][2],
+                           hav(la, lo, P[j][1], P[j][2])))
+ 
+-f = io.open("denetim/SERHAT-IZGARA-SINAV-0907.md", "w", encoding="utf-8")
++f = io.open(os.path.join(KOK, "denetim", "SERHAT-IZGARA-SINAV-0907.md"), "w", encoding="utf-8")
+ W = f.write
+ W("# IZGARA SINAVI — `ARAC-SERHAT-CIFT-0907.py`\n\n")
+ W("> C13 ③/④'ün kapanmamış ayağı: aracın **formülü** ayrı sınandı ve\n")
+diff --git a/denetim/ARAC-SERHAT-SINAV-0907.py b/denetim/ARAC-SERHAT-SINAV-0907.py
+index a6787ce0..90b9c057 100644
+--- a/denetim/ARAC-SERHAT-SINAV-0907.py
++++ b/denetim/ARAC-SERHAT-SINAV-0907.py
+@@ -12,7 +12,7 @@
+ """
+ import sys, io, math, subprocess, json, os
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, KOK + r"\denetim")
+ 
+ # ARAC'in geometri cekirdegini ITHAL ET — taklit ETME (§11)
+diff --git a/denetim/ARAC-TASIMA-ON-SINAV-0905.py b/denetim/ARAC-TASIMA-ON-SINAV-0905.py
+index 09773930..3bc490cb 100644
+--- a/denetim/ARAC-TASIMA-ON-SINAV-0905.py
++++ b/denetim/ARAC-TASIMA-ON-SINAV-0905.py
+@@ -12,7 +12,7 @@ olcer ve UC RISKI onceden sinar:
+ SALT OKUR. Cikti ASCII.
+ """
+ import io, os, re, sys, unicodedata, collections
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ DEN = os.path.join(KOK, "denetim")
+ VER = os.path.join(KOK, "data")
+ 
+diff --git a/denetim/ARAC-TUZ-SINAV-0924.py b/denetim/ARAC-TUZ-SINAV-0924.py
+index 1e078481..9810118a 100644
+--- a/denetim/ARAC-TUZ-SINAV-0924.py
++++ b/denetim/ARAC-TUZ-SINAV-0924.py
+@@ -3,16 +3,17 @@
+ #                  ② girdi.py'nin KODUNU degistir -> tuz DEGISMELI
+ import io, sys, hashlib, shutil, os
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-sys.path.insert(0, r"C:\atlas\arac")
++ARAC = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac")
++sys.path.insert(0, ARAC)
+ 
+-GP = r"C:\atlas\arac\girdi.py"
+-LP = r"C:\atlas\arac\girdi_listesi.py"
++GP = os.path.join(ARAC, "girdi.py")
++LP = os.path.join(ARAC, "girdi_listesi.py")
+ 
+ def tuz():
+     """motor_izi()'nin uc dosya sha256'si = tuzun kod ekseni."""
+     iz = {}
+     for ad in ("uret_petek.py", "renkler.py", "girdi.py"):
+-        y = os.path.join(r"C:\atlas\arac", ad)
++        y = os.path.join(ARAC, ad)
+         iz[ad] = hashlib.sha256(io.open(y, "rb").read()).hexdigest()
+     return hashlib.sha256(repr(sorted(iz.items())).encode()).hexdigest()[:16]
+ 
+diff --git a/denetim/ARAC-YAMA-SINAV-1001.py b/denetim/ARAC-YAMA-SINAV-1001.py
+index 274b6946..25235060 100644
+--- a/denetim/ARAC-YAMA-SINAV-1001.py
++++ b/denetim/ARAC-YAMA-SINAV-1001.py
+@@ -40,7 +40,7 @@ import sys
+ import tempfile
+ 
+ sys.stdout.reconfigure(encoding="utf-8")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ os.chdir(KOK)
+ DIZIN = "denetim"
+ BOZUK_IMLER = ("corrupt patch", "No valid patches", "unrecognized input")
+diff --git a/denetim/ARAC-YERLESIM-UYGULA-0930-SINAV.py b/denetim/ARAC-YERLESIM-UYGULA-0930-SINAV.py
+index db53507d..3dc1116d 100644
+--- a/denetim/ARAC-YERLESIM-UYGULA-0930-SINAV.py
++++ b/denetim/ARAC-YERLESIM-UYGULA-0930-SINAV.py
+@@ -26,7 +26,7 @@ import sys
+ import tempfile
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ YOL = os.path.join(KOK, "denetim", "ARAC-YERLESIM-UYGULA-0930.py")
+ 
+ # ── aleti ICE AL ama ANA GOVDESINI KOSTURMA ─────────────────────────────
+diff --git a/denetim/ARAC-YUK-KAPI-SINAV-0925.py b/denetim/ARAC-YUK-KAPI-SINAV-0925.py
+index cb29a5ae..b6cec8b8 100644
+--- a/denetim/ARAC-YUK-KAPI-SINAV-0925.py
++++ b/denetim/ARAC-YUK-KAPI-SINAV-0925.py
+@@ -1,6 +1,6 @@
+ # -*- coding: utf-8 -*-
+ """YUK-BOLME-0925 — `geo_dilimle.py --sina` KAPISININ kendi sinavi (C13: iki yonde).
+-Dilimli bir KOPYA uzerinde (varsayilan C:/atlas-yuk-bolme) sirayla:
++Dilimli bir KOPYA uzerinde (varsayilan: depo kokunun KARDESI atlas-yuk-bolme) sirayla:
+   T0 temiz cikti            -> kapi 0 dönmeli
+   T1 _web DONEMLER'de 1 tarih degisti (catal)      -> 1 (S3)
+   T2 bir dilimde 1 koordinat degisti, boy ayni     -> 1 (S2)
+@@ -9,7 +9,7 @@ Her bozma sonrasi dosya geri yazilir; en sonda T0 yeniden kosar.
+ Kullanim: py denetim/ARAC-YUK-KAPI-SINAV-0925.py [kok]"""
+ import os, re, shutil, subprocess, sys
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-KOK = sys.argv[1] if len(sys.argv) > 1 else "C:/atlas-yuk-bolme"
++KOK = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "atlas-yuk-bolme")
+ ARAC = os.path.join(KOK, "arac", "geo_dilimle.py")
+ 
+ 
+diff --git a/denetim/EKOKUMA-0076-A-SINA.py b/denetim/EKOKUMA-0076-A-SINA.py
+index e5bb2e1f..28216efb 100644
+--- a/denetim/EKOKUMA-0076-A-SINA.py
++++ b/denetim/EKOKUMA-0076-A-SINA.py
+@@ -18,7 +18,7 @@ import io, os, re, sys, glob
+ 
+ sys.stdout.reconfigure(encoding="utf-8")
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ KART = os.path.join(KOK, "denetim", "EKOKUMA-0076-A-YAMA-ekokuma_p76b.js")
+ 
+ ham = io.open(KART, encoding="utf-8").read()
+diff --git a/denetim/EKOKUMA-0076-B-sina.py b/denetim/EKOKUMA-0076-B-sina.py
+index 51b6bc10..b0f12e9c 100644
+--- a/denetim/EKOKUMA-0076-B-sina.py
++++ b/denetim/EKOKUMA-0076-B-sina.py
+@@ -27,8 +27,10 @@ _spec = importlib.util.spec_from_file_location(
+ capa = importlib.util.module_from_spec(_spec)
+ _spec.loader.exec_module(capa)
+ 
+-YAMA = r"C:\atlas\denetim\EKOKUMA-0076-B-YAMA-ekokuma_p76c.js"
+-DATA = r"C:\atlas\data"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++YAMA = os.path.join(KOK, "denetim", "EKOKUMA-0076-B-YAMA-ekokuma_p76c.js")
++DATA = os.path.join(KOK, "data")
++capa.KOK = DATA  # capa.py kendi KOK'unu mutlak tasiyor; okumayi BU agaca bagla
+ 
+ TURLER = {"sebep-sonuc", "magazin", "merak", "antlasma", "tartisma",
+           "teknik-bilimsel", "kimdir", "dis-yankilar", "kahramanlik",
+diff --git a/denetim/EKOKUMA-0077-B-sina.py b/denetim/EKOKUMA-0077-B-sina.py
+index d315b7c7..6e1ccb24 100644
+--- a/denetim/EKOKUMA-0077-B-sina.py
++++ b/denetim/EKOKUMA-0077-B-sina.py
+@@ -35,14 +35,16 @@ _spec = importlib.util.spec_from_file_location("capa", os.path.join(K, "EKOKUMA-
+ capa = importlib.util.module_from_spec(_spec)
+ _spec.loader.exec_module(capa)
+ 
+-HEDEF = r"C:\atlas\data\ekokuma_p77b.js"
+-DATA = r"C:\atlas\data"
++KOK = os.path.dirname(K)
++HEDEF = os.path.join(KOK, "data", "ekokuma_p77b.js")
++DATA = os.path.join(KOK, "data")
++capa.KOK = DATA  # capa.py kendi KOK'unu mutlak tasiyor; okumayi BU agaca bagla
+ BEKLENEN = 15
+ DEGISKEN = "window.EKOKUMA_P77B"
+ # 28 Eylül 2026 — paket 0080 kartı için: --p80b (tek kart, EKOKUMA_P80B).
+ # Ters yön bozulmaları p77b kartlarına göre yazılı; --p80b ile yalnız düz yön.
+ if "--p80b" in sys.argv:
+-    HEDEF, BEKLENEN, DEGISKEN = r"C:\atlas\data\ekokuma_p80b.js", 1, "window.EKOKUMA_P80B"
++    HEDEF, BEKLENEN, DEGISKEN = os.path.join(DATA, "ekokuma_p80b.js"), 1, "window.EKOKUMA_P80B"
+ 
+ TURLER = {"sebep-sonuc", "magazin", "merak", "antlasma", "tartisma",
+           "teknik-bilimsel", "kimdir", "dis-yankilar", "kahramanlik",
+diff --git a/denetim/KRONO-0076-C-sinav.py b/denetim/KRONO-0076-C-sinav.py
+index 16ec60e5..c276cf18 100644
+--- a/denetim/KRONO-0076-C-sinav.py
++++ b/denetim/KRONO-0076-C-sinav.py
+@@ -5,7 +5,7 @@ POZITIF KONTROL once atesleniyor (M-5024 ①: normallestiricinin kor olmadigi
+ KANITLANMADAN "0 bulundu" raporlanmaz). Salt okur."""
+ import io, os, re, sys, unicodedata
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ DATA = os.path.join(KOK, "data")
+ KART = os.path.join(KOK, "denetim", "KRONO-0076-C-YAMA-ekokuma_p76f.js")
+ 
+diff --git a/denetim/SINIR-CIZGI-0076-SINA.py b/denetim/SINIR-CIZGI-0076-SINA.py
+index dd33f916..90bdbecd 100644
+--- a/denetim/SINIR-CIZGI-0076-SINA.py
++++ b/denetim/SINIR-CIZGI-0076-SINA.py
+@@ -1,6 +1,6 @@
+ # -*- coding: utf-8 -*-
+ """Uretilen dosyalarin sinavi: JSON gecerli mi, hukum sozlukte mi, kac madde."""
+-import json, io, sys, collections, subprocess
++import json, io, os, sys, collections, subprocess
+ sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+ 
+ SOZLUK = {"cozuldu", "once-cozuldu", "zaten-dogru", "sirada", "kosu-bekliyor",
+@@ -10,7 +10,9 @@ BENIM = """H-0002 H-0004 H-0037 H-0041 H-0042 H-0054 H-0059 H-0066 H-0076 H-0078
+ H-0080 H-0097 H-0099 H-0116 H-0118 H-0120 H-0123 H-0126 H-0137 H-0144 H-0149
+ H-0155 H-0156""".split()
+ 
+-d = json.load(io.open(r'C:\atlas\denetim\SINIR-CIZGI-0076-CEVAP.json', encoding='utf-8'))
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++
++d = json.load(io.open(os.path.join(KOK, 'denetim', 'SINIR-CIZGI-0076-CEVAP.json'), encoding='utf-8'))
+ m = d['maddeler']
+ print('CEVAP.json gecerli · madde sayisi:', len(m), '(beklenen 23)')
+ print('hukum dagilimi:', dict(collections.Counter(v['hukum'] for v in m.values())))
+@@ -29,7 +31,7 @@ for yol in ['denetim/SINIR-CIZGI-0076-YAMA-hukuki_sinirlar.js',
+             'denetim/SINIR-CIZGI-0076-YAMA-olaylar.js',
+             'denetim/SINIR-CIZGI-0076-YAMA-app_js.js',
+             'denetim/SINIR-CIZGI-0076-YAMA-ekokuma_p76h.js']:
+-    r = subprocess.run(['node', '--check', r'C:\atlas' + '\\' + yol.replace('/', '\\')],
++    r = subprocess.run(['node', '--check', os.path.join(KOK, *yol.split('/'))],
+                        capture_output=True, text=True)
+     print(('  OK   ' if r.returncode == 0 else '  HATA ') + yol +
+           ('' if r.returncode == 0 else ' :: ' + r.stderr.strip()[:200]))

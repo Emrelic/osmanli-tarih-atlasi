@@ -107,6 +107,12 @@ window.OLAYLAR_EK9 = [
   d:"Darfur genel valisi Slatin Paşa, 1882'den beri Rizeykāt kabilesinin Mehdîci ayaklanmasıyla uğraşıyordu; askerlerinin yenilgileri onun hıristiyan oluşuna yüklediğini düşünerek 1883'te açıkça müslüman oldu ve Abdülkādir adını aldı. Hicks Paşa'nın ordusunun kasım 1883'te Kordofan'da yok edilmesinden sonra direnişin anlamı kalmadı ve 23 Aralık 1883'te Emîr Madibbo'ya teslim oldu. Darfur'daki küçük Mısır karakolları da kısa sürede aynı yolu izledi; on yıllık Türk-Mısır idaresi bitti.",
   kaynak:"darfur", duygu:["😔"], yer_id:"Darfur" },
 
+{ t:"1884-01-15", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
+  b:"Fâşir garnizonunun Mehdîcilere teslimi",
+  gun:"15 Ocak 1884", yer:"El-Fâşir", kisiler:"Rudolf Slatin Paşa, Emîr Zogal",
+  d:"Slatin'in 23 Aralık 1883'teki teslimiyetinden sonra da Fâşir kalesindeki Mısır garnizonu direndi. Yedi günlük kuşatmada kuyuları kaybeden garnizon 15 Ocak 1884'te teslim oldu; silahlar bırakılıp kale Mehdîcilere geçti.",
+  kaynak:"Slatin, Fire and Sword in the Sudan (London 1896; Gutenberg #41035) Bölüm IX: 'after a seven days' siege the garrison was obliged to submit, on the 15th of January'", ic_not_d:"Yıl metinde örtük: aynı bölümde Gretli'nin gelişi '20th of December, 1883'. KUTU-VERI-1015 B 0076/H-0065", duygu:["😔"], yer_id:"El-Fâşir" },
+
 // ---------------------------------------------------------------------------
 // C) TABARKA — iki yüz yıllık Ceneviz devrinin sonu
 // ---------------------------------------------------------------------------
@@ -140,11 +146,11 @@ window.OLAYLAR_EK9 = [
 // E) TOKAR — Doğu Sudan'ın sekiz yıllık Mehdî devri
 // ---------------------------------------------------------------------------
 
-{ t:"1884-01-01", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
-  b:"Doğu Sudan'ın Mehdî kuvvetlerine geçişi — Tokar'ın kaybı",
-  gun:"1884", yer:"Tokar, Sinkat, Sevâkin ardalanı", kisiler:"Osman Digna, Muhammed Ahmed el-Mehdî",
-  d:"Mehdî'nin doğu Sudan'daki halifesi Osman Digna, 1883 sonbaharından itibaren Bece kabilelerini ayaklandırarak Sevâkin'in ardalanını ele geçirdi; Sinkat ve Tokar garnizonları kuşatıldı ve 1884 başında bölge tamamen Mehdî idaresine girdi. Sevâkin limanı İngiliz-Mısır elinde kaldığı için kıyı ile içerisi sekiz yıl boyunca ayrı iki idare altında durdu. Tokar 1891 Şubatında geri alındı.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
-  kaynak:"sudan", duygu:["😔"], yer_id:"Tokar" },
+// DENETIM-K27-1016: buradaki 1884-01-01 "Doğu Sudan'ın Mehdî kuvvetlerine geçişi — Tokar'ın kaybı" maddesi SİLİNDİ:
+//   aynı olayın GÜNLÜ maddeleri KARAR-UYG-1015 ile olaylar_ek16.js'e yazıldı (Sinkat 1884-02-08 · Sevâkin 1884-02-09 ·
+//   Tokar 1884-02-20 — Royle / Wingate) ve Tokar kaydı artık 1884-02-20'de kırılıyor; yıl maddesi mükerrer kalmıştı
+//   (mükerrer denetimi: 'Tokar'ın Mehdî kuvvetlerine teslimi' ile başlık çifti). Gövdesindeki 1891 geri alışı
+//   olaylar_ek16 1891-02-19 (Tokar) ve 1891-03-03 (Sinkat) maddelerinde.
 
 // ---------------------------------------------------------------------------
 // F) KESELA — Taka bölgesinin fethi
@@ -210,7 +216,7 @@ window.OLAYLAR_EK9 = [
 { t:"1832-11-22", k:"fetih", etiket:["isyan","konu-askeri","konu-isyan"],
   b:"Emîr Abdülkādir'in devletinin kuruluşu — batı Cezayir'de direnişin merkezîleşmesi",
   gun:"22 Kasım 1832", yer:"Muaskar, Tagdempt, batı ve orta Cezayir", kisiler:"Abdülkādir el-Cezâirî, Muhyiddin el-Hasenî",
-  d:"Cezayir'in düşüşünden sonra dağılan direniş, Kādirî şeyhi Muhyiddin'in oğlu genç Abdülkādir etrafında toplandı; 22 Kasım 1832'de Muaskar yakınlarında kabile reisleri ona 'emîrü'l-mü'minîn' sıfatıyla biat etti. Kurduğu yapı bir kabile ittifakı değil düzenli bir devletti: darphanesi, barut imalâthanesi, vergi düzeni ve Tagdempt'te bir başkenti vardı. Fransa 1837 Tâfnâ Antlaşması'yla hâkimiyetini resmen tanıdı. Abdülkādir Osmanlı'ya değil Fas sultanı Abdurrahman'ın metbûiyetine sığındı; yani bu topraklar 1832'den sonra Osmanlı tâbiiyeti DEĞİLDİR. 23 Aralık 1847'de teslim oldu ve Osmanlı Devleti de aynı yıl Cezayir üzerindeki haklarının sona erdiğini ilân etti.",
+  d:"Cezayir'in düşüşünden sonra dağılan direniş, Kādirî şeyhi Muhyiddin'in oğlu genç Abdülkādir etrafında toplandı; 22 Kasım 1832'de Muaskar yakınlarında kabile reisleri ona 'emîrü'l-mü'minîn' sıfatıyla biat etti. Kurduğu yapı bir kabile ittifakı değil düzenli bir devletti: darphanesi, barut imalâthanesi, vergi düzeni ve Tagdempt'te bir başkenti vardı. Fransa 1837 Tâfnâ Antlaşması'yla hâkimiyetini resmen tanıdı. Abdülkādir Osmanlı'ya değil Fas sultanı Abdurrahman'ın metbûiyetine sığındı; yani bu topraklar 1832'den sonra Osmanlı tâbiiyeti değildir. 23 Aralık 1847'de teslim oldu ve Osmanlı Devleti de aynı yıl Cezayir üzerindeki haklarının sona erdiğini ilân etti.",
   kaynak:"abdulkadir-el-cezairi", duygu:["🎉"], yer_id:"Muaskar" },
 
 // ---------------------------------------------------------------------------

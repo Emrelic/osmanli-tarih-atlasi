@@ -7,7 +7,8 @@ import json
 import copy
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-sys.path.insert(0, r"C:\atlas\arac")
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
 import girdi  # noqa: E402
 
 Y = girdi.yukle(sessiz=True)
@@ -117,7 +118,7 @@ ekle(y, "isg", copy.deepcopy(CEY.get("isg")), dayanak_q)
 json.dump({"uretici": "denetim/NOKTA-ORTADOGU-0077-yama.py", "uygulanmadi": True,
            "sayilar": {"A_misir": 5, "B1_sudan_1899": B1, "B2_sudan_kiyi": B2, "C_katar": 1, "D_qattinah": 1},
            "oneriler": oneriler},
-          open(r"C:\atlas\denetim\NOKTA-ORTADOGU-0077-YAMA.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "NOKTA-ORTADOGU-0077-YAMA.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print("öneri", len(oneriler), "· A 5 · B1", B1, "· B2", B2, "· C 1 · D 1")
 for o in oneriler:
     if o["alan"] == "s" and o["dosya"] and "B" in (o["not"] or "")[:2]:

@@ -1,0 +1,70 @@
+diff --git a/VERI-YAPISI.md b/VERI-YAPISI.md
+index 70e8e7ed..8658fa94 100644
+--- a/VERI-YAPISI.md
++++ b/VERI-YAPISI.md
+@@ -131,6 +131,7 @@ Haritanın **tek elle yazılan kaynağı**. Bütün geometri buradan üretilir.
+ | `v` | Tâbi / dolaylı idare / işgal dönemleri. `k:` alanı serbest metin etiket |
+ | `isg` | **İşgal dönemleri** — sahiplik DEĞİŞTİRMEZ, üstüne biner. `d:` işgal eden, `kaynak:` zorunlu. 238 kayıtta kullanımda; ölçütü aşağıda |
+ | `kur` | Kuruluş tarihi. Öncesinde yerleşim yoktur |
++| `zincir_kaynagi` | Opsiyonel KOPYA BEYANI — zincir (ya da bir penceresi) hangi kayıttan alındı. Şema aşağıda (`zincir_kaynagi:`) |
+ | `y` | Kazanım biçimi: `kusatma` \| `savas` \| `antlasma` \| `vassal` \| `ilhak` \| `miras` |
+ 
+ ### 🔴 `isg:` mi `s:`/`d:` mi — TAHRİR ÖLÇÜTÜ (Emre, 24 Eylül 2026)
+@@ -288,6 +289,57 @@ türetimi) ⇒ yerleşimde `kaynak_zayif` oldu. ⚠️ `data/hukuki_sinirlar.js`
+ köşe kayıtlarındaki `dogrulanmadi: true|false` AYRI ve daha eski bir alandır:
+ *"köşe kaynakta adıyla geçmiyor, orta noktadan türetildi"* demektir ve KALIR.
+ 
++### 🆕 `zincir_kaynagi:` — makine-okunur KOPYA BEYANI *(UMIT-W9-ZINCIR-1006, 6 Ekim 2026)*
++
++```js
++zincir_kaynagi:{yer:"Revan", pencere:["1281-01-01","1534-01-01"], tur:"pencere"}
++zincir_kaynagi:[{yer:"Nusaybin",         pencere:["1281-01-01","1918-10-30"], tur:"birlesim"},
++                {yer:"Malikiye (Derik)", pencere:["1918-10-30","1923-10-29"], tur:"birlesim"}]
++```
++
++**OPSİYONEL — yalnız zincirini (ya da bir penceresini) BAŞKA BİR KAYITTAN
++KOPYALAMIŞ kayıtta bulunur.** Değer tek NESNE ya da NESNE LİSTESİ (birden çok
++kaynak: her parça kendi kaynağı ve penceresi).
++
++| Alan | Anlamı |
++|---|---|
++| `yer` | Kaynak kaydın `ad:`ı — TAM eşleşme (parantezli ad dahil). Kendisi olamaz |
++| `pencere` | `["f","t"]`, `YYYY-MM-DD`, `f < t`, yarı-açık `[f, t)` — dönem alanlarıyla aynı aralık |
++| `tur` | `birebir` (bütün zincir tek kaynaktan) · `birlesim` (zincir birden çok kaynaktan, T gününde bölünmüş — liste biçimi) · `pencere` (zincirin YALNIZ bir kısmı kopya) |
++
++**Ne demek:** "bu kaydın `[f,t)` penceresindeki de jure sahibi (`v:` → `d:` →
++`s:` sırasıyla) VE `isg:` örtüsü, `yer` kaydınınkiyle AYNIDIR, çünkü oradan
++alındı." Bir ÖLÇÜM değil bir DEVRALMA beyanıdır — dayanağı `yer` kaydının
++`kaynak:`ıdır (`CLAUDE.md §4` komşu günü kuralı; zincirleme devralma yasak).
++
++**Niçin var:** kopya beyanı serbest metindeydi ("ankraj Revan — zincirin birebir
++aynısı"). Kaynak sonradan düzeltildi, kopya donmuş kaldı — UMIT-W6-DALGA4-1006
++82 kopyanın 12'sini bayat ölçtü (Revan 30 Eylül'de düzeltildi; Gümrü ve
++Eçmiyadzin sahte `sovyet-rusya 1917-1920` penceresini taşımaya devam etti) ve
++hiçbir denetim bunu SORAMIYORDU.
++
++**Kim okur:** `denetle.py` "bayat kopya" ek denetimi
++(`zincir_kaynagi_denetimi`) — kopya ile kaynak pencerede ayrıldıysa adıyla
++basar, sayı ÖZET satırına girer. Bozuk beyan (kaynak yok · tanımsız `tur` ·
++ters/eksik pencere · kendine kopya · boş liste) İHLALDİR. Motor OKUMAZ.
++Üretici `ARAC-TR1923-YAZ` kendi kayıtlarına bu alanı yazar.
++
++**Kurallar:**
++- Gün devri (yalnız bir kırılma günü kopyalandıysa) pencere o kırılmanın İKİ
++  YANINI kapsar (Çehrin 1362: `["1281-01-01","1569-07-01"]`) — yalnız
++  sonrasını kapsarsa kaynak günü ÖNE kaydığında denetim göremez.
++- Beyan HEM sahibi HEM `isg:` örtüsünü kapsar. Yalnız de jure kuyruk kopyalanıp
++  işgal örtüsü kaydın KENDİSİNİNse (Lublin 1915-18: Avusturya bölgesi, Varşova
++  Alman) beyan YAZILMAZ — yazılırsa kalıcı sahte "bayat" üretir.
++- Kopya bilerek kaynaktan AYRILDIYSA beyan SİLİNİR; denetim susturulmaz.
++- Kaynağın adı yoksa ("Darfur kümesi", "külliyat deseni") beyan YAZILMAZ —
++  `yer` uydurulmaz.
++- ⚠️ Denetim TEK ATLAMA sorar: kaynak kendisi de bayat bir kopyaysa (zincirleme)
++  kopya temiz görünür, bayat basılan ara halkadır. Zincirleme ayrıca bilgi
++  satırında sayılır.
++- ⚠️ `arac/girdi.py` `BILINEN_ALANLAR`'a ekleme motor yamaları kuyruğundadır
++  (motor tuzu); inene dek her yükleme `UYARI alan: 'zincir_kaynagi' …` basar.
++
+ ### 🔜 `kesinlik` — tarih hassasiyeti (zaman ekseni genişlerken şart)
+ Bugün gün bilinmediğinde `YYYY-01-01` yazılıyor. Bu doğru bir yazım ama **kullanıcı
+ 1 Ocak gördüğünde gerçekten 1 Ocak sanıyor.** Zaman ekseni geriye açıldıkça çoğu

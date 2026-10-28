@@ -5876,7 +5876,7 @@ window.ETIKET_YAMA = {
     "1714-10-11|XII. Karl, Osmanlı topraklarından ayrılıp Avrupa'ya döndü",
     "1896-05-30|Hodınka faciası",
     "1722-07-01|İsfahan kuşatması sırasında büyük açlık",
-    "1919-05|Mustafa Kemal Samsun'da — Millî Mücadele",
+    "1919-05-19|Mustafa Kemal Samsun'da — Millî Mücadele",
     "1526-09-01|Mohaç sonrası Budin'in teslimi — Macar tahtına iki kral",
     "1395-08-01|Anadolu Hisarı'nın yapımı",
     "1423-09-14|Selanik'in Venedik'e devri",
@@ -6600,7 +6600,7 @@ window.ETIKET_YAMA = {
    },
    {
     "dosya": "kronoloji_ingiltere.js",
-    "t": "1348-06-01",
+    "t": "1348-01-01",
     "b": "Kara Ölüm İngiltere'ye ulaştı",
     "etiket_oneri": [
      "afet-salgin"
@@ -6608,7 +6608,7 @@ window.ETIKET_YAMA = {
    },
    {
     "dosya": "kronoloji_ingiltere.js",
-    "t": "1665-06-01",
+    "t": "1665-01-01",
     "b": "Büyük Londra Vebası",
     "etiket_oneri": [
      "afet-salgin"

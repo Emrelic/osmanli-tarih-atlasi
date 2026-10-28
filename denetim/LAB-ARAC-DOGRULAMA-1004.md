@@ -63,6 +63,45 @@ saymıyor) — hüküm koordinatörde.
 📌 Uyarı satırı: `alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıt
 (yerlesimler_ek29.js: Deyrülkamer)`.
 
+### 3.1 Yeniden koşu — numpy/shapely/pyproj kuruldu (koordinatör onayı, 4 Ekim)
+
+`numpy 2.5.3 · shapely 2.1.2 · pyproj 3.8.0` · `main` = `fb11565f` (koordinatörün
+`olculemedi("konum denetimi", …)` onarımı bu commit'te HENÜZ YOK — `pull --ff-only`
+"Already up to date") · `denetle.py` çıkış **2**, süre 93 sn:
+```
+Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında (beklenen 0)
+               (SINIRDA bilgi: 8 nokta ham gölün içinde, sadeleştirilmişin dışında)
+Değişmez 8  !  ÖLÇÜLEMEDİ — FileNotFoundError: 'C:\atlas\data\devletler_harita.js'
+```
+⇒ Konum denetimi artık ÖLÇÜLDÜ ve temiz. Değişmez 8'in engeli değişti: bağımlılık değil
+**eksik dosya** — `data/devletler_harita.js` `.gitignore:28`de, depoda izlenmiyor
+(`git ls-files` boş; son izlenen commit `f312269b` "169 MB depoya sığmıyordu"). Motor
+çıktısını ölçen Değişmez 8 yalnız koşu yapılmış ortamda (HAVVA) ölçülebilir; taze klonda
+**yapısal olarak ölçülemez**.
+
+### 3.2 Üçüncü koşu — dosyalar üretildi, Değişmez 8 ÖLÇÜLDÜ (4 Ekim)
+
+🔴 **§3.1'deki "yapısal olarak ölçülemez" hükmüm YANLIŞTI** (koordinatör düzeltti):
+dosya izlenmiyor ama **üretilebilir**. "Üretilmemiş" ≠ "ölçülemez"; ölçülemeyeni yapısal
+ilan etmek onu kalıcı kör noktaya çevirir.
+```
+py arac/kodla.py coz-c data data/devletler_harita.js          ✓ 172.61 MB, 30 sn
+py arac/kodla.py coz-c data data/donemler.js donem            ✓  57.43 MB, 10 sn
+(ikisi de .gitignore'da — commit'lenmedi, `git status` temiz)
+```
+`main` = `0e22a060` (konum onarımı `54474636` dahil) · `denetle.py` **çıkış 0**, `SONUÇ: temiz`:
+```
+Değişmez 8a ✓  şehir peteği D hattını aşıyor: 1517 birim (tavan 1517) — 725 (hat, gün) ölçüldü
+Değişmez 8b ✓  Osmanlı bölgesi yabancı gövdede: 82 (bölge, gün) (tavan 82)
+            i  C/YOK hattı taşması 906 · ölçülemeyen (hat, gün) 175 · süre 54+6 sn
+            i  YENİ KAPSAM: defterde olmayan 2 hatta 4 birim — tavana KATILMADI
+Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında (beklenen 0)
+```
+📌 Değişmez 8'in kendi içinde **175 (hat, gün) ölçülemeyen** var ve bilgi satırında duruyor
+— ölçülemeyen sayacına girmiyor. Bunun bilinçli bir ayrım mı (kova) yoksa `konum`un ikizi
+mi olduğu **ölçülmedi**; hüküm koordinatörde. YENİ KAPSAM 4 birim `--d8-defter-yaz` bekliyor
+(defter yazımı LAB'ın işi değil).
+
 ## 4. Bulunamayan
 
 - UMIT ortamındaki çıkış kodları ve `denetle.py` sonucu: beyanda yok → karşılaştırma
@@ -74,3 +113,10 @@ saymıyor) — hüküm koordinatörde.
 LAB'ın denetleyici rolü için Değişmez 8 ve konum denetimi şart: `py -m pip install numpy
 shapely` (ve araç gerektiriyorsa `pyproj`) — kurulum kararı koordinatörde/Emre'de; kurulunca
 `denetle.py` yeniden koşar ve yalnız o iki satır eklenir.
+
+### 3.3 🔴 Ortam düzeltmesi — §3.2'deki koşu
+§3.2'nin `denetle.py` koşusu 12:36'da `main 0e22a060`te arka planda başladı; 12:38:43'te
+çalışma ağacı `lab-odak-1003`e geçirildi ⇒ koşu dal değişimi sırasında sürüyor olabilirdi
+(karışık ortam şüphesi). **Temiz yeniden koşu** (13:04:30–13:06:58, `HEAD=0e22a060` önce ve
+sonra): çıkış **0** · 8a **1517** (tavan 1517) · 725 (hat, gün) · 8b **82** (tavan 82) · konum ✓ 0 ·
+`SONUÇ: temiz` ⇒ §3.2'nin sayıları **aynı**.

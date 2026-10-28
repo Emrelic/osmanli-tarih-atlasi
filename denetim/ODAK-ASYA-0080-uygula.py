@@ -46,7 +46,64 @@ import tempfile
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-import odak_olc  # noqa: E402  — _oku · sinifla · yer_havuzu: ÖLÇÜMÜN KENDİSİ
+import odak_olc  # noqa: E402  — olc(): app.js'in KENDİ sınıflaması (arac/odak_cozum.js)
+
+# 🔴 W36b (6 Ekim 2026): `odak_olc.yer_havuzu` · `_oku` · `sinifla` `26741c10` ile (27 Eyl)
+#   KALDIRILDI — çözüm Python'dan `arac/odak_cozum.js`e taşındı. Betik o günden beri
+#   satır 401'de AttributeError ile çöküyordu (hiçbir şey yazmadan — sessiz silme YOK).
+#   Onarım, sınayıcı ODAK-ASYA-0080-sina.js'in W36 çaresiyle uyumlu:
+#     · havuz `girdi.yukle()`den kurulur (eski `yer_havuzu`nun BİREBİR tanımı);
+#       kurulamaz ya da BOŞ çıkarsa ÇIKIŞ 2 — hiçbir dosyaya dokunulmaz.
+#     · `_oku` yerelde (eski tanımın aynısı: veri JS ise JS yorumlayıcısı okur).
+#     · "eski tutmuyor" süzgeci: madde ODAK ALANI TAŞIMIYORSA uygundur. Eski
+#       `sinifla(o) in (BEYANLI, ODAKSIZ)` + `ODAK` alanları boş şartının bugünkü
+#       karşılığı budur (fark yalnız `odak_kutu_kaynak`tı; o da artık sayılıyor).
+#     · ÖNGÖRÜ app.js'in gerçek sınıflamasından (`odak_olc.olc`) okunur; eski
+#       "odak_olc ≠ app.js" satırı düştü — o fark, kaldırılan Python kuralının
+#       kusuruydu ve artık yok.
+
+
+def _oku(yol):
+    """node ile ayrıştır (eski `odak_olc._oku`nun aynısı)."""
+    betik = (
+        "global.window={};"
+        "eval(require('fs').readFileSync(process.argv[1],'utf8'));"
+        "const k=Object.keys(global.window)[0];"
+        "process.stdout.write(JSON.stringify({ad:k,kayit:global.window[k]||[]}));"
+    )
+    r = subprocess.run(["node", "-e", betik, yol],
+                       capture_output=True, text=True, encoding="utf-8")
+    if r.returncode != 0:
+        return None, (r.stderr or "").strip()[:200]
+    return json.loads(r.stdout), None
+
+
+def yer_havuzu():
+    """Eski `odak_olc.yer_havuzu`nun tanımı — `girdi.yukle()` evreni + " (" öncesi.
+    Kurulamaz ya da BOŞ ise None (çağıran ÇIKIŞ 2 verir, ATLAMAZ)."""
+    try:
+        import girdi
+        havuz = set()
+        for y in girdi.yukle(sessiz=True):
+            ad = y.get("ad")
+            if not ad:
+                continue
+            havuz.add(ad)
+            havuz.add(ad.split(" (")[0])        # app.js'in tek esnekliği
+    except Exception as e:                      # noqa: BLE001
+        print("🔴 yerleşim havuzu kurulamadı: %s" % str(e)[:200])
+        return None
+    return havuz or None
+
+
+ODAK_ALANI = ("yer_kon", "yer_id", "odak_kutu_kaynak", "odak_yer", "odak_kimlik")
+
+
+def eski_sinif(o):
+    """ODAK ALANI TAŞIMAYAN madde için sınıf (BEYANLI/ODAKSIZ); taşıyorsa None."""
+    if any(o.get(a) not in (None, "", []) for a in ODAK_ALANI):
+        return None
+    return "BEYANLI" if o.get("kapsam_genis") is True else "ODAKSIZ"
 
 UYGULA = "--uygula" in sys.argv
 KONSUZ = "--konsuz" in sys.argv
@@ -398,14 +455,27 @@ def duzenle(parca, alan, kg_kaldir):
 
 
 def main():
-    havuz = odak_olc.yer_havuzu()
+    havuz = yer_havuzu()
+    if not havuz:
+        print("🔴 ÖLÇÜLEMEDİ — yerleşim havuzu yok; HİÇBİR ŞEY UYGULANMAZ.")
+        return 2
+    # ÖNGÖRÜNÜN "şimdi"si app.js'in KENDİ çözücüsünden, 8 dosya için TEK seferde ve
+    # HİÇBİR DOSYA YAZILMADAN ÖNCE — ölçüm yarıda arızalanıp yarım yazım bırakmasın.
+    olcum = {}
+    for dosya in DOSYALAR:
+        o_ = odak_olc.olc(tek=dosya)
+        od = (o_.get("dosyalar") or [{}])[0] if not o_.get("hata") else {}
+        if o_.get("hata") or od.get("hata") or "sinif" not in od:
+            print("🔴 ÖLÇÜLEMEDİ — %s öngörüsü okunamadı: %s · HİÇBİR ŞEY UYGULANMAZ."
+                  % (dosya, o_.get("hata") or od.get("hata") or "sınıf yok"))
+            return 2
+        olcum[dosya] = od["sinif"]
     secili = [k for k in KARARLAR if GRUP is None or k["sinif"] in GRUP]
     sonuc, _ = sina(secili)
     say = dict(degisen=0, zaten=0, kayit_yok=0, eski_tutmuyor=0, sart_yok=0)
     sinif_say = {}
     toplam_kg = 0
-    onc_olc = {"ODAKSIZ": 0, "BEYANLI": 0}
-    son_olc = {"ODAKSIZ": 0, "BEYANLI": 0}
+    onc_app = {"ODAKSIZ": 0, "BEYANLI": 0}
     son_app = {"ODAKSIZ": 0, "BEYANLI": 0}
     ki = 0
     kim_sonuc = sonuc["kimlik"]
@@ -421,7 +491,7 @@ def main():
     print("=" * 100)
     for dosya in DOSYALAR:
         yol = os.path.join(KOK, "data", dosya)
-        d, hata = odak_olc._oku(yol)
+        d, hata = _oku(yol)
         if hata:
             print("🔴 %s ayrıştırılamadı: %s — dosya ATLANMADI, iş durdu" % (dosya, hata))
             return 2
@@ -456,9 +526,8 @@ def main():
                 say["zaten"] += 1
                 print("  = ZATEN BÖYLE  %s#%d %s" % (dosya, i, et))
                 continue
-            sn, _ = odak_olc.sinifla(o, havuz)
-            if sn not in ("BEYANLI", "ODAKSIZ") or any(o.get(a) for a in ODAK[1:]) \
-                    or o.get("yer_id") not in ("", None):
+            sn = eski_sinif(o)
+            if sn is None:
                 say["eski_tutmuyor"] += 1
                 print("  ✗ ESKİ TUTMUYOR (%s)  %s#%d %s" % (sn, dosya, i, et))
                 continue
@@ -508,7 +577,7 @@ def main():
                                          newline="") as f:
             f.write(yeni)
             gecici = f.name
-        d2, hata2 = odak_olc._oku(gecici)
+        d2, hata2 = _oku(gecici)
         os.unlink(gecici)
         if hata2 or len(d2["kayit"]) != len(beklenen):
             print("🔴 %s düzenlenmiş metin ayrışmadı: %s — YAZILMADI" % (dosya, hata2))
@@ -518,16 +587,24 @@ def main():
             print("🔴 %s düzenleme sonrası %d madde beklenenden farklı (ilk #%d) — YAZILMADI"
                   % (dosya, len(fark), fark[0]))
             continue
-        for i, o in enumerate(kayit):
-            s0, _ = odak_olc.sinifla(o, havuz)
-            s1, _ = odak_olc.sinifla(d2["kayit"][i], havuz)
-            o2 = d2["kayit"][i]
-            s2 = s1
-            if s1 in ("BEYANLI", "ODAKSIZ") and o2.get("odak_kimlik") and kim_n.get(i, 0) >= 2:
-                s2 = "KUTULU"
-            for tablo, s in ((onc_olc, s0), (son_olc, s1), (son_app, s2)):
-                if s in tablo:
-                    tablo[s] += 1
+        # ÖNGÖRÜ — şimdiki sınıflar app.js'in KENDİ çözücüsünden; sonrası, yalnız
+        # düzenlenen maddelerin geçişiyle (her biri yukarıda app.js kuralıyla sınandı)
+        sn_simdi = {k: olcum[dosya].get(k, 0) for k in onc_app}
+        sn_sonra = dict(sn_simdi)
+        for i, (alan, kg) in duzen.items():
+            once = "BEYANLI" if kayit[i].get("kapsam_genis") is True else "ODAKSIZ"
+            if alan.get("yer_kon") or alan.get("yer_id"):
+                sonra = "KONUMLU"
+            elif alan.get("odak_yer") or alan.get("odak_kimlik"):
+                sonra = "KUTULU"
+            else:
+                sonra = "ODAKSIZ" if kg else once
+            sn_sonra[once] -= 1
+            if sonra in sn_sonra:
+                sn_sonra[sonra] += 1
+        for k in onc_app:
+            onc_app[k] += sn_simdi[k]
+            son_app[k] += sn_sonra[k]
         if UYGULA and duzen:
             io.open(os.path.join(KOK, "data", dosya), "w", encoding="utf-8", newline="").write(yeni)
             print("  💾 %s yazıldı (%d madde)" % (dosya, len(duzen)))
@@ -537,10 +614,9 @@ def main():
     print("SINIF  " + " · ".join("%s %d" % (s, n) for s, n in sorted(sinif_say.items()))
           + "   (kapsam_genis kaldırılan %d)" % toplam_kg)
     print("ÖNGÖRÜ (8 dosya, bu düzenlemeyle)")
-    print("  şimdi            ODAKSIZ %4d · BEYANLI %4d" % (onc_olc["ODAKSIZ"], onc_olc["BEYANLI"]))
-    print("  sonra odak_olc   ODAKSIZ %4d · BEYANLI %4d   ← bugünkü `sinifla` (tek kimlikli odak_kimlik'i saymaz)"
-          % (son_olc["ODAKSIZ"], son_olc["BEYANLI"]))
-    print("  sonra app.js     ODAKSIZ %4d · BEYANLI %4d   ← kameranın GERÇEKTEN yaptığı"
+    print("  şimdi  app.js    ODAKSIZ %4d · BEYANLI %4d   ← odak_olc.olc (arac/odak_cozum.js)"
+          % (onc_app["ODAKSIZ"], onc_app["BEYANLI"]))
+    print("  sonra  app.js    ODAKSIZ %4d · BEYANLI %4d   ← kameranın GERÇEKTEN yapacağı"
           % (son_app["ODAKSIZ"], son_app["BEYANLI"]))
     if not UYGULA:
         print("KURU KOŞU — hiçbir dosya yazılmadı. Yazmak için --uygula.")

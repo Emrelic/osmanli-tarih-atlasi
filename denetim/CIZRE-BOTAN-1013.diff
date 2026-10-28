@@ -1,0 +1,29 @@
+diff --git a/arac/renkler.py b/arac/renkler.py
+index 81b6d09af..5a7d944af 100644
+--- a/arac/renkler.py
++++ b/arac/renkler.py
+@@ -2031,6 +2031,7 @@ BOYALAR = {
+     # OSMANLI (38 nokta-dönem), fransa (31), ispanya (1); metbûu Fas da sınırdaş.
+     # Bindirilmiş ΔE — fransa 19,8 · fas 20,5 · ispanya 23,3 · Osmanlı tonları 26-33.
+     "abdulkadir": ("Emîr Abdülkādir Devleti", "#26a69a"),
++    "cizre-botan": ("Cizre-Botan Emirliği", "#b5651d"),   # 13 Ekim 2026 ESKI 0043/H-0015 — rengi renk_olc ölçecek (diff, tuz dosyası)
+     # atinadukaligi  #81a86f → #0c3fcc  (toplu tur)
+     "atinadukaligi": ("Atina Dukalığı", "#0c3fcc"),
+ 
+diff --git a/data/yerlesimler_ok107.js b/data/yerlesimler_ok107.js
+index 80e267088..7d29dc9d1 100644
+--- a/data/yerlesimler_ok107.js
++++ b/data/yerlesimler_ok107.js
+@@ -52,10 +52,10 @@ window.YERLESIMLER_OK107 = [
+   //   pencerelerine oturtuldu; ara halkalar (celayirli · karakoyunlu)
+   //   TDV'de Cizre için ADIYLA geçmiyor, bölgesel (Bitlis · Mardin
+   //   kayıtlarının aynı halkaları). Bu bir HİZALAMADIR, kaynak değil.
+-  s:[{f:"1261-01-01",t:"1353-01-01",d:"ilhanli",kaynak:"f 1281-01-01'den geri çekildi — TDV cizre: 'Böylece Eyyûbîler ile Bedreddin Lü’lü’ün nüfuzu altına giren şehir 660’ta (1261-62) Moğol istilâsına uğradı.' · 'istilâya uğradı' — İlhanlı sahipliğinin başlangıcı olarak okundu (mevcut 1281 verisi ilhanli). Öncesi (1085 Selçuklu · 1108 · 1158 Musul atabegi · 1251 Eyyûbî+Lü'lü') künye kimliği/bitişikliği tutmadığı için YAZILMADI · ZAMAN-Z6-1008"},{f:"1353-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
++  s:[{f:"1261-01-01",t:"1353-01-01",d:"ilhanli",kaynak:"f 1281-01-01'den geri çekildi — TDV cizre: 'Böylece Eyyûbîler ile Bedreddin Lü’lü’ün nüfuzu altına giren şehir 660’ta (1261-62) Moğol istilâsına uğradı.' · 'istilâya uğradı' — İlhanlı sahipliğinin başlangıcı olarak okundu (mevcut 1281 verisi ilhanli). Öncesi (1085 Selçuklu · 1108 · 1158 Musul atabegi · 1251 Eyyûbî+Lü'lü') künye kimliği/bitişikliği tutmadığı için YAZILMADI · ZAMAN-Z6-1008"},{f:"1353-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1508-01-01",t:"1515-09-19",d:"cizre-botan",kesinlik:"yil",kaynak:"TDV cizre: '1508\'de Cizre\'yi Akkoyunlular\'dan alan Emîr II. Şeref, şehirdeki mahallî yönetimi yeniden tesis etti'; Şah İsmâil idaresi kısa sürdü (günü yok); Yavuz Selim 1515\'te Cizre\'yi aldı, Ali Bey bağlılık arz etti — bitiş = Osmanlı d: günü 1515-09-19 · KUNYE: cizre-botan (devletler.js:13220) · ESKI 0043/H-0015 öneri A, Emre kararı 13 Ekim 2026 · RENK: BOYALAR'da cizre-botan YOK ⇒ arac/renkler.py diff'i ile birlikte iner"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1515-09-19",t:"1920-04-23"}],
+   v:[], kaynak:"cizre",
+-  bos:"veri-yok",
++  
+   neden:"kunye-yok — 1508-01-01 / 1515-09-19 arasi (7,7 yil) BILEREK bos. TDV cizre maddesi bu araligi ACIKCA anlatiyor: Emir II. Seref 1508'de sehri Akkoyunlulardan aliyor ve MAHALLI YONETIMI yeniden kuruyor, arada kisa bir Sah Ismail idaresi var ama TDV gununu VERMIYOR. Yani kaynak KONUSUYOR, devletler.js'te Cizre/Bohtan emirligi kunyesi YOK. Kunye yazilirsa bu bosluk kapanir — KUNYE ONERISI raporda."
+ },
+ 

@@ -1,0 +1,73 @@
+{
+  "_aciklama": "ALINTI-264-1006 elle okuma hükümleri. Anahtar = UMIT-W30-ALINTI-DUZELT-1006.tsv LISTEDE sırası (ARAC-ALINTI-264-1006.py 'no'). Varsayılan hüküm A (✗ birebir yok, anlam doğru); burada yalnız A DIŞINDAKİLER ve notlu A'lar yazılı. Sınıflar: V=✓ birebir (tırnak kalır) · VY=✓ birebir ama TDV'de değil, yanındaki TDV-DIŞI kaynakta (tırnak kalır, atıf konumu kaymış) · A=✗ birebir yok, anlam doğru (tırnak kalkar) · D=✗ birebir yok, anlam desteksiz (tırnak kalkar + bulgu) · T=tırnak değil (W30 ayrıştırma artığı, değişiklik yok) · M=mükerrer (başka iş işlemiş/işliyor) · O=ölçülemedi",
+  "M": {
+    "74": "UMIT-W49c-P3-3b-gorunen-alan-kardes-kaynak-1006b.diff (UYGULANMADI) tırnağı işliyor",
+    "131": "KRONO-SAHTE-ALINTI-1006.diff — bugünkü ağaçta (origin/makine/umit b2d4c2ff) alıntı yok",
+    "201": "KRONO-MUKERRER-SIL-1006(b).diff — bugünkü ağaçta alıntı yok",
+    "208": "KRONO-SAHTE-ALINTI-1006.diff — bugünkü ağaçta alıntı yok",
+    "227": "KRONO-MUKERRER-SIL-1006(b).diff — bugünkü ağaçta alıntı yok",
+    "228": "KRONO-TARIH-1006.diff — bugünkü ağaçta alıntı yok"
+  },
+  "V": {
+    "12": "balkan-savasi madde ÖZETİ (div.article_info) birebir",
+    "13": "baltalimani-muahedesi madde ÖZETİ birebir",
+    "15": "begteginliler madde ÖZETİ birebir",
+    "21": "bosna-eyaleti madde ÖZETİ birebir",
+    "85": "kilitbahir-kalesi madde ÖZETİ birebir — W30'un 'Kilitbahir çelişki adayı' notu bu yüzden boşa düşer",
+    "121": "millet gövdesinde birebir (W30 benzerliği cümle bütününe göre ölçtüğü için kaçırdı)",
+    "200": "tahiriler--yemen madde ÖZETİ birebir",
+    "241": "veday madde ÖZETİ birebir"
+  },
+  "VY": {
+    "29": "Hrvatska enciklopedija 'asenovci' (GET 200, 6 Ekim) birebir; veride alıntı TDV bulgaristan URL'sinin ARDINA yazılmış",
+    "124": "Gran Enciclopèdia Catalana 'batalla-de-las-navas-de-tolosa' (GET 200) birebir; alıntı TDV muvahhidler URL'sinin ardında",
+    "240": "Gran Enciclopèdia Catalana 'portugal-0' (GET 200) birebir; alıntı TDV usbune URL'sinin ardında"
+  },
+  "D": {
+    "3": "agakapisi: 'tekrar tekrar vuran büyük şehir yangınlarından biri' nitelemesi gövdede yok (gövde yalnız binanın birçok defa yandığını ve tek tek yangınları sayar)",
+    "16": "berlin-antlasmasi: ilk parça birebir, '... Tuna ile Balkanlar arasında Sofya, Niğbolu, Ziştovi …' parçası gövdede YOK (Ziştovi 0 isabet)",
+    "26": "bulgaristan: 1396 / Vidin'in düşüşü gövdede yok (1396 rakamı gövdede hiç geçmiyor)",
+    "31": "burkina-faso: gövde 'modern Yatenga'nın tarihi Naaba Kango (1757-1787) ile başlar' der; 'otoriteyi merkezîleştirdi' yok",
+    "32": "cad: 'Vara' gövdede 0 isabet; Abeşe yalnız Ebîşe olarak, 'başlıca merkez' nitelemesi yok",
+    "34": "cad: Mao, Ati, Am Timan gövdede 0 isabet",
+    "88": "kirim: veride 'birkaç kez sefer düzenledi ifadesi' diye TDV'ye atfedilmiş; 'birkaç kez/defa sefer' gövdede 0 isabet",
+    "95": "madagaskar: Betsileo yalnız etnik grup listesinde; 'güney yaylaları' yok",
+    "109": "meriniler: gövde 666/1268'de MERÎNÎLER'in Abdülvâdîler'i bozguna uğrattığını yazar; alıntı tersini (Merînîler yenildi) söylüyor",
+    "113": "meriniler: Ebû İnân Tilimsân'a 752/1351'de girdi; alıntıdaki 759/1358 gövdede bu olayı tarihlemiyor (759/1358 ölüm yılı)",
+    "118": "meriniler: 723/1323 gövdede yok; gövde Attârîn medresesini tarih vermeden anar",
+    "122": "moriskolar: gövde I. Ahmed'in Avrupa hükümdarlarına MEKTUP gönderdiğini yazar; 'himaye fermanları gönderdi' yok",
+    "135": "napoli: '(1481'de geri alındı)' — 1481 gövdede yok",
+    "143": "piri-reis: gövde Aden'in alınışını 14 Muharrem 956 (12 Şubat 1549) diye verir; alıntıdaki '12 Rebîülevvel 956' gövdeyle ÇELİŞİR (miladî gün aynı, hicrî ay farklı)",
+    "191": "senegal: Sine-Sâloum Serer topraklarında; 'doğu bölgesi' gövdede yok",
+    "193": "seydi-ali-reis: 25 Ağustos ve 34 gemi var; 'her iki taraf altı gemi kaybetti' yok (gövdede 'kalan altı gemiyle' Osmanlı'nın KALAN gemisidir)",
+    "196": "sirvansahlar: Şâbüran, Kabala, Salyan gövdede 0 isabet",
+    "203": "tilimsan: 'beş saray' yok; gövde Abdülvâdîler'in şehirde saraylar yaptırdığını genel olarak yazar",
+    "209": "timur: 1401 gövdede yok (Suriye şehirlerinin alınışı yılsız)",
+    "230": "uman: 1624 uman gövdesinde yok (yarubiler maddesinde 1034/1624 alternatif tarih olarak var — kardeş madde)",
+    "231": "uman: '1650, 26 Ocak' uman gövdesinde yok"
+  },
+  "T": {
+    "19": "bogdan: '28 Ocak 1595 Prag' atlasın başka bir pakete yaptığı göndermedir, TDV alıntısı değil",
+    "49": "erzincan: 'gün komşudan: Erzincan · TDV erzincan' atlasın kendi D207 formülü, alıntı değil",
+    "75": "hotin: W30 kesme işaretinden ayrıştırdı (çıkarılma'yı … ('1711'den) — tırnak değil",
+    "87": "kirim: 1783'ü … 'yaz — kesme işaretlerinden ayrıştırılmış atlas notu",
+    "89": "kopru: 'ordu ve ağırlık geçer' atlasın kendi kademe tanımı (kayıt bunu açıkça söylüyor)"
+  },
+  "A_not": {
+    "1": "gövde '(Şubat 1648; TSMA, nr. E. 7112)' — alıntı ', nr.' düşürmüş",
+    "17": "veride tırnağın İÇİNDE '(özet)' yazıyor — yazıcı özet olduğunu biliyordu",
+    "18": "tırnak içinde '(özet)'", "39": "tırnak içinde '(özet)'", "46": "tırnak içinde '(özet)'",
+    "47": "tırnak içinde '(özet)'", "48": "tırnak içinde '(özet)'", "264": "tırnak içinde '(özet)'",
+    "22": "iki gövde cümlesi arasındaki 'Yeni teşkilât …' cümlesi işaretsiz atılmış",
+    "35": "celayirliler ÖZETİ, ASCII'ye çevrilmiş + başlık eklenmiş — birebir değil",
+    "77": "ilhanlilar ÖZETİ, ASCII'ye çevrilmiş + başlık eklenmiş — birebir değil",
+    "94": "atıf TDV libya; metin aslında AMMÂROĞULLARI başlığı + ammarogullari--trablusgarp ÖZETİ (GET 200; 'ammarogullari' slug'ı 302) — kaynak işareti DÜZELTİLMELİ",
+    "153": "atıf TDV prusya; 'Zollverein' prusya gövdesinde 0 isabet, almanya gövdesinde VAR — kaynak işareti almanya olmalı",
+    "189": "dört '…' parçası doğru sırada gövdede, ama son iki cümle arasındaki Golubac cümleleri işaretsiz atılmış",
+    "101": "İngilizce ÇEVİRİ tırnakta (Türkçe gövdenin çevirisi)",
+    "125": "İngilizce çeviri", "126": "İngilizce çeviri", "127": "İngilizce çeviri", "128": "İngilizce çeviri",
+    "129": "İngilizce çeviri", "130": "İngilizce çeviri", "132": "İngilizce çeviri", "133": "İngilizce çeviri",
+    "134": "İngilizce çeviri", "155": "İngilizce çeviri", "237": "İngilizce çeviri", "238": "İngilizce çeviri",
+    "37": "gövde 'ertesi yıl' der; alıntıdaki 1510 türetilmiş sayı (D213: türetilen sayı alıntıya yazılmaz)"
+  }
+}

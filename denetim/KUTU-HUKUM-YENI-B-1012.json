@@ -1,0 +1,303 @@
+{
+ "parti-emrelic-0075": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "Mora→Girit tahliye oku canlı, `tur:\"tahliye\"` deseni ayrıştırılmış.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/seferler_sefer_ok_0075.js:4 p0075-misir-mora-girit-tahliye-1828 · b82744b6 · paket_26'da"
+  },
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "Fes kartı yazıldı (kalpak/ulemâ tepkisi TDV'de bulunamadı — kartta yazılı).",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75c.js:28 fes-resmi-serpus-1829-ve-oncesi · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0003": {
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: İsviçre 1830 D kaydı yok, renk E/C hatlarına oturmuyor (%10 iki yan doğru). D-RENK-0073 kararına bağlı — seçenekler CEVAP.json'da.",
+   "delil": ""
+  },
+  "H-0004": {
+   "hukum": "senin-kararin",
+   "not": "H-0003 ile aynı sınıf ve aynı karar (Hollanda %15).",
+   "delil": ""
+  },
+  "H-0005": {
+   "hukum": "senin-kararin",
+   "not": "Gun kismi UYGULANDI (madde artik 17 Ekim 1830, ic_not_t'de Emre 30 Eyl karari + TDV sirbistan). Kalan: Belgrad/Semendire d: Osmanli ->1867, 12 nahiye merkezi veride yok; SIRP-NOKTA-0930.md: 12 noktanin 7'sinin sahiplik zinciri bulunamadi, 4'u sartli kayit, model karari (nokta kale mi sehir mi) Emre'de. ONERI: yalniz TDV'li 1830 grubu (Pasarofca, Valjevo, Cuprija, Rudnik) + Belgrad icin 'kale/sehir' karari; 1833/1862 gruplari kaynak bulunana dek yazilmasin.",
+   "delil": "data/olaylar_ek.js:78 gun:'17 Ekim 1830' ic_not_t (okundu 12 Eki) · denetim/SIRP-NOKTA-0930.md"
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "İlk nüfus sayımı kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75a.js:52 teknik-ilk-nufus-sayimi-1830-31 · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0007": {
+   "hukum": "cozuldu",
+   "not": "Basilan metinde 'Emre' taramasi (node, olaylar*/kronoloji*/ekokuma*/paket_* alanlari, ic_not haric): 1 gercek kalinti vardi ekokuma_p76i.js 'Asagida Emre'nin saydigi ihtimaller' -> 'Asagida one surulen ihtimaller' duzeltildi; yerlesimler_h2_afrika.js Mesra er-Rek kasitli_bosluk.neden icinde '(Emre 0036/H-0001, G1)' -> '(0036/H-0001, G1)'. Kalan eslesmeler yorum satiri / ic_not / yazar adi (Emre Karakaya, kaynak). Acik kalan: 122 'gelistirici sesi' bulgusu (EKOKUMA-TOPLUM-0075.md B) bu maddenin kapsami disinda, Emre karari (b siki).",
+   "delil": "commit (bu is) data/ekokuma_p76i.js, data/yerlesimler_h2_afrika.js · tarama yb_emre.js"
+  },
+  "H-0008": {
+   "hukum": "cozuldu",
+   "not": "Takvîm-i Vekāyi kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75a.js:73 teknik-takvim-i-vekayi-resmi-gazete · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0009": {
+   "hukum": "cozuldu",
+   "not": "Gazetecilik kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75a.js:92 teknik-gazetecilik-dogusu-ilk-osmanli-gazeteleri · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0010": {
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: `statu:\"asi\"` veride 0. Karar: renk tonu + Mısır eyaletinin bölünmesi.",
+   "delil": ""
+  },
+  "H-0011": {
+   "hukum": "olculecek",
+   "not": "Önerilen `baskasinin_petegini_cikar` motora HİÇ girmedi (uret_petek.py'de 0). Aynı sınıfın çaresi GOVDE-CAKISMA-0079 ('ekleme komşu toprağını kesmez') koşu 16'da indi (uret_petek.py:6572, 76351781) ve koşu 18 yayında (2ddede3d). Görselin günü (1832-03-01 Annaba) koşu 18 gövdesinde ÖLÇÜLMEDİ — alet (GOVDE-CAKISMA-0079-olc.py) donemler.js'in 29 Eylül kodlamasından ÖNCE yazıldı, okuyup okuyamadığı sınanmadı (D240). | 12 Eki: GOVDE-CAKISMA-0079 koşu 16'da; yayin simdi KOSU 23 (r12206). Gorsel gunu koşu 23 govdesinde olculmedi.",
+   "delil": ""
+  },
+  "H-0012": {
+   "hukum": "cozuldu",
+   "not": "İbrahim Paşa seferine kademe (1831-10-31 … 1832-07-29) yazıldı; ok maddeden maddeye uzar.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/savaslar.js:1024 kademe · js/sefer_ok.js:21 seferHat/kademe · 2027e0b2 · b82744b6"
+  },
+  "H-0013": {
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: Maraş v:misir-kavalali 1832-07-29→1841-02-25 (TDV '1833, on dokuz aya yakın'). Karar ② (UYGULAMA belgesi).",
+   "delil": ""
+  },
+  "H-0014": {
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: Urfa v:misir-kavalali 1832-08-15→1841-02-25. Karar ①.",
+   "delil": ""
+  },
+  "H-0015": {
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: Mersin/Silifke/Ulukışla'da Mısır penceresi yok. Karar ④.",
+   "delil": ""
+  },
+  "H-0016": {
+   "hukum": "cozuldu",
+   "not": "Feshâne ve ilk fabrikalar kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75a.js:116 teknik-osmanli-ilk-fabrikalar-atolyeler · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0017": {
+   "hukum": "cozuldu",
+   "not": "İbrail ve Yergöğü artık v:eflak 1829-09-14→1859-01-24 ve v:romanya →1878-07-13 (ikinci kusur da kapandı); haritaya koşu 18 ile indi.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/yerlesimler.js:462 İbrail · :2312 Yergöğü (Giurgiu) · 17cd2f98 · yayın 2ddede3d"
+  },
+  "H-0018": {
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: lubnan-emirligi tabi tek parça (1516-10-01→1842-01-01 ust:osmanli, devletler.js:7718). Karar ⑥.",
+   "delil": ""
+  },
+  "H-0019": {
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: Han Yûnus d: Osmanlı 1516→1917, Mısır penceresi yok. Karar ④.",
+   "delil": ""
+  },
+  "H-0020": {
+   "hukum": "cozuldu",
+   "not": "Redif maddesine odak_yer İstanbul yazılmış.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/olaylar_ek7.js:156 odak_yer:[\"İstanbul\"]"
+  },
+  "H-0021": {
+   "hukum": "senin-kararin",
+   "not": "Karar ⑧-⑨ açık (odak kuralı B'ye genişlesin mi · 13 atlas-dışı yer). Bugün yeniden ölçülmedi.",
+   "delil": ""
+  },
+  "H-0022": {
+   "hukum": "senin-kararin",
+   "not": "Koşu 18 geçti, veri değişmedi — bugün ölçüldü: sirbistan s:29 · v:0 · sirbistan-prensligi s:10 · v:5 (tâbi yapılar hâlâ ayrı gövde). H-0005'le aynı kökten; o uygulamaya eklenmeli.",
+   "delil": ""
+  },
+  "H-0023": {
+   "hukum": "senin-kararin",
+   "not": "Silistre tahliye oku canli (p0075-rus-silistre-tahliye-1836, data/seferler_sefer_ok_0075.js ve paket_26.js). Sematik ok kalsin mi? Emre onayi. ONERI: kalsin, kesinlik alani sematik oldugunu soyluyor.",
+   "delil": "data/seferler_sefer_ok_0075.js:14 p0075-rus-silistre-tahliye-1836 · b82744b6"
+  },
+  "H-0024": {
+   "hukum": "olculecek",
+   "not": "'Kodu yazalım' yüzü: çakışma önleyici GOVDE-CAKISMA-0079 motorda (uret_petek.py:6572, koşu 16 · 76351781; koşu 18 yayında). Görselin günü (1837-10-13 Konstantin) canlı gövdede ÖLÇÜLMEDİ — H-0011 ile aynı alet sorunu. | 12 Eki: aynisi, KOSU 23 sonrasi olcum bekliyor.",
+   "delil": ""
+  },
+  "H-0025": {
+   "hukum": "senin-kararin",
+   "not": "Kütahya kapsamı cevaplandı; Halep günü TDV 15 Tem 1832 ↔ atlas 25 Haz — Mısır seferi karar paketiyle birlikte.",
+   "delil": ""
+  },
+  "H-0026": {
+   "hukum": "cozuldu",
+   "not": "Soçi/Tuapse + Çerkes sürgünü kartları.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75b.js:183 sebep-sonuc-p75b-soci-tuapse-1838 · data/ekokuma_p75b.js:196 tartisma-p75b-cerkes-surgunu-1864 · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0027": {
+   "hukum": "cozuldu",
+   "not": "Klasik kurumlar + Maliye Nezâreti iki kart (TDV iç çelişkisi `tartismali`).",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75a.js:133 teknik-klasik-burokrasi-nisanci-kalem-defterhane · data/ekokuma_p75a.js:150 teknik-divandan-nezaretlere-maliye-nezareti · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0028": {
+   "hukum": "cozuldu",
+   "not": "Meclis-i Vâlâ kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75a.js:169 teknik-meclis-i-vala-yi-ahkam-i-adliyye · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0029": {
+   "hukum": "senin-kararin",
+   "not": "Renk degisikligi motor dosyasi arac/renkler.py'de; 12 Eki: son motor commiti yalniz 02f33728 (ZAMAN-PAKET-v2). Dokunulmadi (motor dondurma). ONERI: H-0010 kararıyla birlikte bir sonraki tam insa yamasina.",
+   "delil": ""
+  },
+  "H-0030": {
+   "hukum": "cozuldu",
+   "not": "Balta Limanı kartı. ⚠️ Ayrı açık kalem: eski balta-limani kartındaki '%5 (artı %2)' çifte sayım şüphesi.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75c.js:40 balta-limani-getirdikleri-goturdukleri-1838 · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0031": {
+   "hukum": "cozuldu",
+   "not": "Nizip kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75b.js:54 savas-p75b-nizip-1839 · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0032": {
+   "hukum": "cozuldu",
+   "not": "Donanmanın teslimi + donanma felaketleri kartları.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75b.js:74 sebep-sonuc-p75b-donanma-iskenderiye-1839 · data/ekokuma_p75b.js:171 tartisma-p75b-donanma-yakilmaya-musait-mi · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0033": {
+   "hukum": "cozuldu",
+   "not": "Deniz okları `rota:` ile denizden: savaslar.js'te 19 rota kaydı, 0075 dosyasında Mora→Girit rotası.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/savaslar.js (rota ×19) · data/seferler_sefer_ok_0075.js:39 · js/sefer_ok.js:21 · 2027e0b2 · b82744b6"
+  },
+  "H-0034": {
+   "hukum": "cozuldu",
+   "not": "Ahmed Fevzi Paşa kimdir + Hüsrev tartışması.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75b.js:87 kimdir-p75b-ahmed-fevzi-pasa · data/ekokuma_p75b.js:97 tartisma-p75b-husrev-donanma-rusya-vehmi · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0035": {
+   "hukum": "cozuldu",
+   "not": "Tanzimat kartı ('gâvur' anekdotu TDV'de bulunamadı — kartta yazılı).",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75c.js:52 tanzimat-fermani-maddeleri-ve-etkileri-1839 · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0036": {
+   "hukum": "cozuldu",
+   "not": "Kâime kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75a.js:186 teknik-kaime-kagit-para · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0037": {
+   "hukum": "cozuldu",
+   "not": "Suriye-Çukurova tahliye oku canlı; maddeye odak_yer (Halep·Gazze·Adana) yazılmış — 'yer_id yok, ok tetiklenmez' notu artık geçerli değil (tarayıcıda sınanmadı).",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/seferler_sefer_ok_0075.js:23 · data/olaylar_ek4.js:276 odak_yer · b82744b6"
+  },
+  "H-0038": {
+   "hukum": "cozuldu",
+   "not": "Boğazlar Sözleşmesi kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75c.js:64 bogazlar-kapali-mi-acik-mi-1841 · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0039": {
+   "hukum": "cozuldu",
+   "not": "Erzurum-Şattülarap kutusunun opak dolgusu kapatıldı. ⚠️ Altındaki Osmanlı×Kaçar gövde çakışması ayrı (H-0024 sınıfı).",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/hukuki_sinirlar.js:215 dolgu:false (ii-erzurum-sattularap-1847) · c43bc80a"
+  },
+  "H-0040": {
+   "hukum": "cozuldu",
+   "not": "Yemen kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75c.js:76 yemen-elden-cikis-geri-donus-ve-birinci-dunya-savasi · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0041": {
+   "hukum": "cozuldu",
+   "not": "1848 İhtilalleri kartı (ikincil özet işaretli).",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75c.js:88 avrupa-1848-ihtilalleri-osmanli-nerede-durdu · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0042": {
+   "hukum": "cozuldu",
+   "not": "Harfûş ailesi kartı. ⚠️ Ayrı kalem: olaylar_ek2'nin 1850 'hâkimiyetin sonu' ifadesi TDV ile uyuşmuyor.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75c.js:100 harfus-ailesi-balebek-yerel-hakimiyet · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0043": {
+   "hukum": "cozuldu",
+   "not": "Boğaz ulaşımı · Galata Köprüsü · Tünel üç kart. Galata/Tünel için kronoloji maddesi kararı (⑩) ayrı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75a.js:209 · data/ekokuma_p75a.js:224 · data/ekokuma_p75a.js:242 · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0044": {
+   "hukum": "cozuldu",
+   "not": "Kırım ittifak/şehir/borç + Nightingale kartları.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75b.js:129 tartisma-p75b-kirim-ittifak-kultur-borc · data/ekokuma_p75b.js:141 kimdir-p75b-florence-nightingale · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0045": {
+   "hukum": "cozuldu",
+   "not": "Kırım cepheleri kartı (yarımada muharebeleri 'bulunamadı' yazılı).",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75b.js:151 savas-p75b-kirim-cepheleri · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0046": {
+   "hukum": "cozuldu",
+   "not": "Sinop + 'donanma dört kez' kartları; tek sebep tezi kurulmadı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75b.js:109 savas-p75b-sinop-1853 · data/ekokuma_p75b.js:171 · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0047": {
+   "hukum": "cozuldu",
+   "not": "Dış borç kartı.",
+   "delil": "12 Eki 2026 origin/main (HEAD f60bda61) taramasi; delil dosyada yeniden bulundu: data/ekokuma_p75a.js:259 teknik-klasik-donemde-dis-borc-var-miydi · canlı + app.js yükleyicisi (js/app.js:11163-11165) + bağ çözülüyor (ilgi aleti bugün: p75 öksüz bağ 0, 30/30 kart bağlı) · kart commit 874c8a31"
+  },
+  "H-0048": {
+   "hukum": "senin-kararin",
+   "not": "Değişmedi: devletler.js'te sisam künyesi YOK (0 eşleşme). Karar ⑦ (künye + v:kid · bitiş günü 13 Mart ↔ TDV 11 Kasım 1912).",
+   "delil": ""
+  }
+ },
+ "parti-emrelic-0085": {
+  "H-0003": {
+   "hukum": "senin-kararin",
+   "not": "Veri dogru (Igdir/Beri Timurlu boyali), sivri disler motor 'surtunmeli yuruyus' izgara artigi; renk okunurlugu renkler.py. Motor yamasi yazilmadi: git log arac/uret_petek.py son tek commit 02f33728 (ZAMAN-PAKET-v2). Motor dosyalarina dokunulmadi. ONERI: C3 yamasi + Timurlu rengini koyulastirma bir sonraki tam insaya tek seferde.",
+   "delil": "git log -- arac/uret_petek.py (12 Eki) · denetim/DOGU-ANADOLU-0085.md"
+  },
+  "H-0008": {
+   "hukum": "senin-kararin",
+   "not": "7/10 gun yumusak kip duzeltmesi HAZIRDIR ama main'de DEGIL: origin/makine/havva-h0008 e0b51b88 (js/app.js +108/-19, merge-base testi: main'in atasi degil). Koordinator kodu af7d4e99'u 'KOSU 21 ciktisi olculunce secilecek' diye bd1b9716 ile geri almisti. Bu oturumda cherry-pick izni verilmedi. ONERI: KOSU 23 yayinda oldugundan e0b51b88 cherry-pick + tarayicida 7/10 gun yumusak kip gorsel kontrolu; Afrika 5->7 gun %2 sorusu acik (sebep bulunamadi).",
+   "delil": "git show --stat e0b51b88 · git merge-base --is-ancestor => NOTINMAIN"
+  },
+  "H-0011": {
+   "hukum": "senin-kararin",
+   "not": "Tokat-Sivas arasi nokta yok; motor yamasi (C3) yazilmadi (uret_petek.py'ye son commit 02f33728). ONERI: tam insa yamasina dahil + kaynakli nokta.",
+   "delil": "git log -- arac/uret_petek.py"
+  },
+  "H-0012": {
+   "hukum": "senin-kararin",
+   "not": "Nigbolu toprak 40 km kuzeye tasiyor (nokta yok Slatina'ya dek); care Turnu noktasi (TDV nigbolu Halovnik/Turnu) + motor. Ikisi de yapilmadi. ONERI: Turnu noktasi icin TDV gövdesi okunup yazilsin, motor yamasi tam insada.",
+   "delil": "git log -- arac/uret_petek.py · CEVAP.json 0085 H-0012"
+  },
+  "H-0023": {
+   "hukum": "olculecek",
+   "not": "Cevabin 'cizilmis kirpma' varsayimi eskidi: js/app.js antlasmaFarkiHesapla 02f33728 (10 Eki) ile KIRILMAYA bagli pencere + _baskasininKirilmasi aldi. Ama 1460 Izvornik (olaylar_ek8.js:38) ve Amasra (olaylar_ek5.js:88) ayni t:1460-01-01 ve ikisi de yil duzeyli; yeni mantigin bu iki madde icin gercekten dogru sahneyi verip vermedigi tarayicida olculmedi. Veri capraz degil (Izvornik d 1460-01-01).",
+   "delil": "git log -S _baskasininKirilmasi => 02f33728 · Y: Izvornik s bosna->1460-01-01"
+  },
+  "H-0028": {
+   "hukum": "zaten-dogru",
+   "not": "Gorsel okundu: etiket 'LUR-I KUCUK (HURSIDILER)'. Atlas: lur-i-kucek Luristan/Nihavend/Burucird s: 1353-> (Luristan 1508'e). TDV luristan (WebFetch 12 Eki): atabeglik Safevilere kadar varligini korudu, kunye 1184-1597, Akkoyunlu fethi anilmiyor => enklav varsayimi veriyle uyumlu. Acik kalem: Luristan noktasi 1508'de bitiyor, kunye 1597; 1508 sonrasi sahip ve dayanak ayri olculecek.",
+   "delil": "data/devletler.js:568 lur-i-kucek · girdi.yukle Y taramasi · TDV luristan"
+  }
+ },
+ "parti-emrelic-0086": {
+  "H-0004": {
+   "hukum": "senin-kararin",
+   "not": "Gorsel: Herat-Belh-Gazne arasi (Hazaracat), Timurlu cevresi. OLCUM: kutu 33.2-36.2K/62.5-68D icinde 0 yerlesim noktasi (4300 nokta, 12 Eki). Yani 'noktasi olmayan bolge' sorusu: nokta yok, bolge petek emilimine/bos birakiliyor; 'devlet yok' iddiasi degil veri boslugu. ONERI: kaynakli 1-2 nokta (Gur/Bamiyan TDV) ya da __BOSLUK__ beyani; Emre karari.",
+   "delil": "yb_b.py kutu taramasi (girdi.yukle, 4300 nokta)"
+  },
+  "H-0005": {
+   "hukum": "senin-kararin",
+   "not": "Gorsel: Belucistan/Mekran (Multan Langah ve Sind komsu). OLCUM: kutu 25-30K/61-67.5D icinde 1 nokta (Has 28.22/61.22, timurlu 1393-1452). 1450'de kutuda sahipli nokta 1, gerisi bos. ONERI: H-0004 ile ayni: kaynakli nokta ya da BOSLUK beyani.",
+   "delil": "yb_b.py kutu taramasi"
+  },
+  "H-0006": {
+   "hukum": "senin-kararin",
+   "not": "Gorsel: Tibet platosu, Ming/Delhi/Ladakh/Kesmir komsu. OLCUM: 29-36K/78-95D icinde 2 nokta (Lhasa, Sigatse, tibet 1354-1642); platonun gerisi nokta yok => petek emilimi/bos. ONERI: kasitli bosluk beyani + guvenilir kaynakli 2-3 Tibet noktasi; Emre karari.",
+   "delil": "yb_b.py kutu taramasi"
+  },
+  "H-0013": {
+   "hukum": "senin-kararin",
+   "not": "1507 sonrasi Timurlu gorunen tek yer Kandehar, Argunlularin elinde (TDV kandehar); Argunlu kunyesi yok (TDV argunlular slug olu). Care kunye+renk (renkler.py BOYALAR motor dosyasi, donuk)+akademik kaynak. ONERI: kaynak aranip kunye yazilsin, renk tam insa yamasinda.",
+   "delil": "CEVAP.json 0086 H-0013 · motor dondurma kurali"
+  },
+  "H-0014": {
+   "hukum": "senin-kararin",
+   "not": "Gorsel: Sistan/Helmand cevresi, siniri cizili, ici bos. OLCUM: 30-32.5K/61-64.5D icinde 1 nokta (Zerenc Sistan, timurlu 1381-1507-05-24); 1507 sonrasi sahip yok => sinirli bos bolge = sahipsiz/kasitli bosluk. ONERI: 1507 sonrasi Zerenc icin kaynakli sahip (TDV sistan) ya da BOSLUK beyani.",
+   "delil": "yb_b.py kutu taramasi (Zerenc s listesi)"
+  }
+ }
+}

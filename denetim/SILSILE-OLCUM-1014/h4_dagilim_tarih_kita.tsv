@@ -1,0 +1,177 @@
+tarih	kita	olcu	kara_hucre	n=0	n=1	n=2	n=3-4	n=5-9	n=10+	ortalama	medyan
+1000	Africa	boyayan	2489	2488	0	1	0	0	0	0.0	0
+1000	Africa	sahnede	2489	2090	298	69	25	7	0	0.23	0
+1000	Asia	boyayan	2678	2675	3	0	0	0	0	0.0	0.0
+1000	Asia	sahnede	2678	2024	494	96	42	18	4	0.38	0.0
+1000	Europe	boyayan	1986	1975	10	1	0	0	0	0.01	0.0
+1000	Europe	sahnede	1986	1481	335	89	62	16	3	0.42	0.0
+1000	North America	boyayan	2142	2142	0	0	0	0	0	0	0.0
+1000	North America	sahnede	2142	2005	132	4	0	1	0	0.07	0.0
+1000	Oceania	boyayan	739	739	0	0	0	0	0	0	0
+1000	Oceania	sahnede	739	696	43	0	0	0	0	0.06	0
+1000	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1000	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1000	South America	boyayan	1484	1484	0	0	0	0	0	0	0.0
+1000	South America	sahnede	1484	1424	60	0	0	0	0	0.04	0.0
+1000	DÜNYA	boyayan	11519	11504	13	2	0	0	0	0.0	0
+1000	DÜNYA	sahnede	11519	9721	1362	258	129	42	7	0.23	0
+1100	Africa	boyayan	2489	2488	0	1	0	0	0	0.0	0
+1100	Africa	sahnede	2489	2090	298	69	25	7	0	0.23	0
+1100	Asia	boyayan	2678	2666	10	2	0	0	0	0.01	0.0
+1100	Asia	sahnede	2678	2022	496	96	42	18	4	0.38	0.0
+1100	Europe	boyayan	1986	1972	10	4	0	0	0	0.01	0.0
+1100	Europe	sahnede	1986	1480	334	89	64	16	3	0.43	0.0
+1100	North America	boyayan	2142	2142	0	0	0	0	0	0	0.0
+1100	North America	sahnede	2142	2005	132	4	0	1	0	0.07	0.0
+1100	Oceania	boyayan	739	739	0	0	0	0	0	0	0
+1100	Oceania	sahnede	739	696	43	0	0	0	0	0.06	0
+1100	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1100	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1100	South America	boyayan	1484	1484	0	0	0	0	0	0	0.0
+1100	South America	sahnede	1484	1424	60	0	0	0	0	0.04	0.0
+1100	DÜNYA	boyayan	11519	11492	20	7	0	0	0	0.0	0
+1100	DÜNYA	sahnede	11519	9718	1363	258	131	42	7	0.23	0
+1200	Africa	boyayan	2489	2487	1	1	0	0	0	0.0	0
+1200	Africa	sahnede	2489	2090	298	69	25	7	0	0.23	0
+1200	Asia	boyayan	2678	2654	22	2	0	0	0	0.01	0.0
+1200	Asia	sahnede	2678	2022	496	96	42	18	4	0.38	0.0
+1200	Europe	boyayan	1986	1970	12	4	0	0	0	0.01	0.0
+1200	Europe	sahnede	1986	1479	335	88	65	16	3	0.43	0.0
+1200	North America	boyayan	2142	2142	0	0	0	0	0	0	0.0
+1200	North America	sahnede	2142	2005	132	4	0	1	0	0.07	0.0
+1200	Oceania	boyayan	739	739	0	0	0	0	0	0	0
+1200	Oceania	sahnede	739	696	43	0	0	0	0	0.06	0
+1200	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1200	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1200	South America	boyayan	1484	1484	0	0	0	0	0	0	0.0
+1200	South America	sahnede	1484	1424	60	0	0	0	0	0.04	0.0
+1200	DÜNYA	boyayan	11519	11477	35	7	0	0	0	0.0	0
+1200	DÜNYA	sahnede	11519	9717	1364	257	132	42	7	0.23	0
+1300	Africa	boyayan	2489	2169	234	54	25	7	0	0.19	0
+1300	Africa	sahnede	2489	2087	301	69	25	7	0	0.23	0
+1300	Asia	boyayan	2678	2079	448	87	42	18	4	0.35	0.0
+1300	Asia	sahnede	2678	2021	496	97	42	18	4	0.38	0.0
+1300	Europe	boyayan	1986	1513	301	89	64	16	3	0.41	0.0
+1300	Europe	sahnede	1986	1479	332	90	66	16	3	0.43	0.0
+1300	North America	boyayan	2142	2026	113	2	0	1	0	0.06	0.0
+1300	North America	sahnede	2142	2004	133	4	0	1	0	0.07	0.0
+1300	Oceania	boyayan	739	739	0	0	0	0	0	0	0
+1300	Oceania	sahnede	739	694	45	0	0	0	0	0.06	0
+1300	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1300	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1300	South America	boyayan	1484	1471	13	0	0	0	0	0.01	0.0
+1300	South America	sahnede	1484	1422	62	0	0	0	0	0.04	0.0
+1300	DÜNYA	boyayan	11519	9998	1109	232	131	42	7	0.2	0
+1300	DÜNYA	sahnede	11519	9708	1369	260	133	42	7	0.23	0
+1400	Africa	boyayan	2489	2160	241	56	25	7	0	0.19	0
+1400	Africa	sahnede	2489	2079	308	70	25	7	0	0.23	0
+1400	Asia	boyayan	2678	2067	449	99	41	18	4	0.36	0.0
+1400	Asia	sahnede	2678	2016	493	106	41	18	4	0.38	0.0
+1400	Europe	boyayan	1986	1511	297	92	66	17	3	0.42	0.0
+1400	Europe	sahnede	1986	1478	330	92	66	17	3	0.43	0.0
+1400	North America	boyayan	2142	2027	110	3	1	1	0	0.06	0.0
+1400	North America	sahnede	2142	2005	130	5	1	1	0	0.07	0.0
+1400	Oceania	boyayan	739	739	0	0	0	0	0	0	0
+1400	Oceania	sahnede	739	694	45	0	0	0	0	0.06	0
+1400	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1400	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1400	South America	boyayan	1484	1471	13	0	0	0	0	0.01	0.0
+1400	South America	sahnede	1484	1422	62	0	0	0	0	0.04	0.0
+1400	DÜNYA	boyayan	11519	9976	1110	250	133	43	7	0.21	0
+1400	DÜNYA	sahnede	11519	9695	1368	273	133	43	7	0.24	0
+1500	Africa	boyayan	2489	2143	258	55	26	7	0	0.2	0
+1500	Africa	sahnede	2489	2066	321	69	26	7	0	0.24	0
+1500	Asia	boyayan	2678	2056	455	104	41	17	5	0.37	0.0
+1500	Asia	sahnede	2678	2005	500	110	41	17	5	0.39	0.0
+1500	Europe	boyayan	1986	1513	294	92	67	17	3	0.42	0.0
+1500	Europe	sahnede	1986	1475	332	92	67	17	3	0.44	0.0
+1500	North America	boyayan	2142	2020	117	3	1	1	0	0.06	0.0
+1500	North America	sahnede	2142	2002	134	4	1	1	0	0.07	0.0
+1500	Oceania	boyayan	739	739	0	0	0	0	0	0	0
+1500	Oceania	sahnede	739	694	45	0	0	0	0	0.06	0
+1500	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1500	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1500	South America	boyayan	1484	1465	19	0	0	0	0	0.01	0.0
+1500	South America	sahnede	1484	1419	65	0	0	0	0	0.04	0.0
+1500	DÜNYA	boyayan	11519	9937	1143	254	135	42	8	0.21	0
+1500	DÜNYA	sahnede	11519	9662	1397	275	135	42	8	0.24	0
+1600	Africa	boyayan	2489	2108	288	60	26	7	0	0.22	0
+1600	Africa	sahnede	2489	2036	349	71	26	7	0	0.25	0
+1600	Asia	boyayan	2678	2046	457	108	45	17	5	0.38	0.0
+1600	Asia	sahnede	2678	1997	501	113	45	17	5	0.4	0.0
+1600	Europe	boyayan	1986	1496	301	99	70	17	3	0.44	0.0
+1600	Europe	sahnede	1986	1462	335	99	70	17	3	0.45	0.0
+1600	North America	boyayan	2142	1991	144	5	1	1	0	0.08	0.0
+1600	North America	sahnede	2142	1976	158	6	1	1	0	0.08	0.0
+1600	Oceania	boyayan	739	739	0	0	0	0	0	0	0
+1600	Oceania	sahnede	739	694	45	0	0	0	0	0.06	0
+1600	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1600	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1600	South America	boyayan	1484	1418	65	1	0	0	0	0.05	0.0
+1600	South America	sahnede	1484	1372	111	1	0	0	0	0.08	0.0
+1600	DÜNYA	boyayan	11519	9799	1255	273	142	42	8	0.23	0
+1600	DÜNYA	sahnede	11519	9538	1499	290	142	42	8	0.25	0
+1700	Africa	boyayan	2489	2043	344	68	27	7	0	0.25	0
+1700	Africa	sahnede	2489	1967	408	80	27	7	0	0.28	0
+1700	Asia	boyayan	2678	2023	473	111	49	17	5	0.39	0.0
+1700	Asia	sahnede	2678	1977	514	115	50	17	5	0.41	0.0
+1700	Europe	boyayan	1986	1417	370	107	72	17	3	0.48	0.0
+1700	Europe	sahnede	1986	1398	389	107	72	17	3	0.49	0.0
+1700	North America	boyayan	2142	1942	187	11	1	1	0	0.1	0.0
+1700	North America	sahnede	2142	1930	197	13	1	1	0	0.11	0.0
+1700	Oceania	boyayan	739	739	0	0	0	0	0	0	0
+1700	Oceania	sahnede	739	694	45	0	0	0	0	0.06	0
+1700	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1700	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1700	South America	boyayan	1484	1385	94	5	0	0	0	0.07	0.0
+1700	South America	sahnede	1484	1339	140	5	0	0	0	0.1	0.0
+1700	DÜNYA	boyayan	11519	9550	1468	302	149	42	8	0.25	0
+1700	DÜNYA	sahnede	11519	9306	1693	320	150	42	8	0.28	0
+1800	Africa	boyayan	2489	2020	366	69	27	7	0	0.26	0
+1800	Africa	sahnede	2489	1943	432	80	27	7	0	0.29	0
+1800	Asia	boyayan	2678	1987	507	114	48	17	5	0.4	0.0
+1800	Asia	sahnede	2678	1952	536	118	50	17	5	0.42	0.0
+1800	Europe	boyayan	1986	1388	393	111	72	19	3	0.5	0.0
+1800	Europe	sahnede	1986	1370	410	112	72	19	3	0.51	0.0
+1800	North America	boyayan	2142	1854	268	18	1	1	0	0.15	0.0
+1800	North America	sahnede	2142	1846	274	20	1	1	0	0.15	0.0
+1800	Oceania	boyayan	739	739	0	0	0	0	0	0	0
+1800	Oceania	sahnede	739	694	45	0	0	0	0	0.06	0
+1800	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1800	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1800	South America	boyayan	1484	1322	152	10	0	0	0	0.12	0.0
+1800	South America	sahnede	1484	1286	188	10	0	0	0	0.14	0.0
+1800	DÜNYA	boyayan	11519	9311	1686	322	148	44	8	0.28	0
+1800	DÜNYA	sahnede	11519	9092	1885	340	150	44	8	0.3	0
+1900	Africa	boyayan	2489	1838	519	97	27	8	0	0.34	0
+1900	Africa	sahnede	2489	1801	551	102	27	8	0	0.36	0
+1900	Asia	boyayan	2678	1954	529	118	55	17	5	0.42	0.0
+1900	Asia	sahnede	2678	1933	550	118	55	17	5	0.43	0.0
+1900	Europe	boyayan	1986	1371	407	112	74	19	3	0.51	0.0
+1900	Europe	sahnede	1986	1360	417	113	74	19	3	0.52	0.0
+1900	North America	boyayan	2142	1705	407	28	1	1	0	0.22	0.0
+1900	North America	sahnede	2142	1698	412	29	2	1	0	0.23	0.0
+1900	Oceania	boyayan	739	636	98	5	0	0	0	0.15	0
+1900	Oceania	sahnede	739	593	140	5	1	0	0	0.21	0
+1900	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+1900	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+1900	South America	boyayan	1484	1206	266	12	0	0	0	0.2	0.0
+1900	South America	sahnede	1484	1186	285	13	0	0	0	0.21	0.0
+1900	DÜNYA	boyayan	11519	8711	2226	372	157	45	8	0.34	0
+1900	DÜNYA	sahnede	11519	8572	2355	380	159	45	8	0.35	0
+2000	Africa	boyayan	2489	1827	535	97	23	7	0	0.34	0
+2000	Africa	sahnede	2489	1769	568	114	30	8	0	0.38	0
+2000	Asia	boyayan	2678	1946	536	114	60	17	5	0.43	0.0
+2000	Asia	sahnede	2678	1923	553	119	61	17	5	0.44	0.0
+2000	Europe	boyayan	1986	1366	411	113	76	17	3	0.51	0.0
+2000	Europe	sahnede	1986	1353	416	115	75	24	3	0.54	0.0
+2000	North America	boyayan	2142	1696	416	28	1	1	0	0.23	0.0
+2000	North America	sahnede	2142	1689	420	29	3	1	0	0.23	0.0
+2000	Oceania	boyayan	739	627	107	5	0	0	0	0.16	0
+2000	Oceania	sahnede	739	585	147	6	1	0	0	0.22	0
+2000	Seven seas (open ocean)	boyayan	1	1	0	0	0	0	0	0	0
+2000	Seven seas (open ocean)	sahnede	1	1	0	0	0	0	0	0	0
+2000	South America	boyayan	1484	1174	297	13	0	0	0	0.22	0.0
+2000	South America	sahnede	1484	1156	312	16	0	0	0	0.23	0.0
+2000	DÜNYA	boyayan	11519	8637	2302	370	160	42	8	0.34	0
+2000	DÜNYA	sahnede	11519	8476	2416	399	170	50	8	0.36	0

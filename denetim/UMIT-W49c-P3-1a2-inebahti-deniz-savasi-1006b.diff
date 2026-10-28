@@ -1,0 +1,48 @@
+diff --git a/data/ekokuma_vecize.js b/data/ekokuma_vecize.js
+index 325c4e16..b43bae00 100644
+--- a/data/ekokuma_vecize.js
++++ b/data/ekokuma_vecize.js
+@@ -41,7 +41,7 @@ window.EKOKUMA_VECIZE = [
+   metin:"1571'de aynı yılın içinde iki büyük olay yaşandı: Ağustos'ta Kıbrıs'ın fethi tamamlandı, Ekim'de ise Osmanlı donanması İnebahtı'da (Lepanto) ağır bir yenilgiye uğradı. Anlatıya göre, İnebahtı sonrası kendisini ziyarete gelen bir Venedik temsilcisine Sadrazam Sokullu Mehmed Paşa şöyle demiş: 'Biz Kıbrıs'ı alarak sizin kolunuzu kestik, siz İnebahtı'da bizi yenerek bizim sakalımızı tıraş ettiniz — ama kesilen kol bir daha çıkmaz, tıraş edilen sakal daha gür çıkar.'\n\nSöz, savaşın gerçek bilançosunu özetliyordu: Osmanlı donanması bir kışta yeniden inşa edilip 1572'de Akdeniz'e açılırken, Venedik'in Kıbrıs'ı geri alması hiçbir zaman mümkün olmadı — Venedik 1573'te İstanbul'la ayrı barış yapıp Kıbrıs'ın Osmanlı'da kaldığını resmen kabul etmek zorunda kaldı.",
+   kesinlik:"rivayet",
+   kaynak:"rivayet — çağdaş/akademik birincil kaynağı bulunamadı",
+-  ic_not:"🔴 Paket metni bu sözü 1569-70 Astarhan/Don-Volga kanal projesiyle ilişkilendiriyordu — bu bağlam YANLIŞ, araştırmayla düzeltildi: TDV'nin sokullu-mehmed-pasa maddesinde Astarhan seferi yalnız 'başarısız oldu' diye geçiyor, sakal/kol metaforu orada YOK. Gerçek bağlam İnebahtı-Kıbrıs (1571-73). Sözün kendisi TDV'nin okunan hiçbir maddesinde (sokullu-mehmed-pasa, inebahti-savasi, kibris) geçmiyor; yalnız popüler tarih yazımında (Türkçe ve İngilizce) dolaşan, birincil kaynağa (dönem kroniği, Venedik baylo raporu) bağlanamayan bir anekdot. Bu yüzden 'rivayet' diye damgalandı, TDV kaynak gösterilmedi." },
++  ic_not:"🔴 Paket metni bu sözü 1569-70 Astarhan/Don-Volga kanal projesiyle ilişkilendiriyordu — bu bağlam YANLIŞ, araştırmayla düzeltildi: TDV'nin sokullu-mehmed-pasa maddesinde Astarhan seferi yalnız 'başarısız oldu' diye geçiyor, sakal/kol metaforu orada YOK. Gerçek bağlam İnebahtı-Kıbrıs (1571-73). Sözün kendisi TDV'nin okunan hiçbir maddesinde (sokullu-mehmed-pasa, inebahti-deniz-savasi, kibris — eski `inebahti-savasi` slug'ı ölüydü/302, yani o madde aslında OKUNMAMIŞTI; canlı karşılık UMIT-W49 6 Ekim 2026 okundu, söz orada da YOK) geçmiyor; yalnız popüler tarih yazımında (Türkçe ve İngilizce) dolaşan, birincil kaynağa (dönem kroniği, Venedik baylo raporu) bağlanamayan bir anekdot. Bu yüzden 'rivayet' diye damgalandı, TDV kaynak gösterilmedi." },
+ 
+ // ── Koca Ragıp Paşa'nın "tırnakları sökük aslan" benzetmesi ────────────────
+ { id:"vecize-ragip-pasa-aslan-benzetmesi", tur:"magazin", kisi:["mustafa3"],
+diff --git a/data/kronoloji_ispanya.js b/data/kronoloji_ispanya.js
+index cad52b40..13234729 100644
+--- a/data/kronoloji_ispanya.js
++++ b/data/kronoloji_ispanya.js
+@@ -32,7 +32,7 @@
+ //
+ // ── KAYNAK (§4) — DÜRÜSTLÜK BEYANI ────────────────────────────────────
+ // TDV — bu oturumda GÖVDESİ OKUNDU (canlı, doğrulandı):
+-//   `endulus` · `moriskolar` · `inebahti-savasi` · `cezayir` ·
++//   `endulus` · `moriskolar` · `inebahti-deniz-savasi` · `cezayir` ·
+ //   `barbaros-hayreddin-pasa`
+ // TDV — ÖLÇÜLDÜ VE ÖLÜ/ZAYIF ÇIKTI: `malta-kusatmasi` (arama listesi
+ //   döndürdü, madde gövdesi yok) ⇒ Malta 1565 maddeleri standart akademik
+@@ -343,7 +343,7 @@ window.KRONOLOJI_ISPANYA = [
+ { t:"1571-10-07", b:"İnebahtı Deniz Savaşı — Kutsal İttifak donanmasının zaferi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"İnebahtı",
+   etiket:["askeri","kusatma","konu-askeri"],
+   d:"İspanya, Venedik ve Papalık'ın oluşturduğu Kutsal İttifak donanması, Don Juan de Austria komutasında Osmanlı filosunu İnebahtı'da imha etti; İspanyol gemileri filonun en büyük tek unsuruydu. TDV'nin kaydına göre savaş 7 Ekim 1571'de İnebahtı körfezinde gerçekleşti; zafer sembolik önemine rağmen Kıbrıs'ı geri kazandırmadı ve Osmanlı donanması bir yıl içinde yeniden inşa edildi.",
+-  kaynak:"TDV `inebahti-savasi`: \"1571 yılının 7 Ekim günü İnebahtı körfezinde... Osmanlı donanması ile müttefik Hıristiyan filoları arasında gerçekleşen deniz savaşı\" (gövdesi OKUNDU) · `data/kronoloji_venedik.js` ile BİREBİR hizalı (t ve dunya aynı)" },
++  kaynak:"TDV `inebahti-deniz-savasi` (eski slug `inebahti-savasi` ölü, HTTP 302; canlı karşılık başlık aramasıyla bulundu — UMIT-W49 6 Ekim 2026): 1571 yılının 7 Ekim günü İnebahtı körfezinde Osmanlı donanması ile müttefik Hıristiyan filoları arasında gerçekleşen deniz savaşı — ⚠️ TIRNAK KALDIRILDI (koordinatör hükmü: tırnak = iddia, yalnız TDV gövdesinden birebir): bu ifade canlı gövdede BİREBİR YOK. Gövdenin tarih cümlesi: 'İki donanma 17 Cemâziyelevvel 979’da (7 Ekim 1571) İnebahtı körfezinde karşı karşıya geldi'. Eski 'gövdesi OKUNDU' ibaresi ölü slug için geçersizdi, kaldırıldı · `data/kronoloji_venedik.js` ile BİREBİR hizalı (t ve dunya aynı)" },
+ 
+ { t:"1573-10-10", b:"İspanya Tunus'u yeniden ele geçirdi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Tunus",
+   etiket:["askeri","toprak-kazanc","konu-askeri"],
+diff --git a/data/kronoloji_rodos_sovalyeleri.js b/data/kronoloji_rodos_sovalyeleri.js
+index 1ff14c1d..61ad4d48 100644
+--- a/data/kronoloji_rodos_sovalyeleri.js
++++ b/data/kronoloji_rodos_sovalyeleri.js
+@@ -333,7 +333,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
+ { t:"1571-10-07", b:"İnebahtı Deniz Savaşı'na Kutsal İttifak donanmasında katılım", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"İnebahtı",
+   etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"],
+   d:"Tarikat, sağ kanatta yer alan üç kadırgasıyla Kutsal İttifak donanmasına katıldı ve tarikat kadırgası ağır kayıp verdi. Sayıca küçük olan katkı, tarikatın Katolik dünyasının ortak savunmasındaki sembolik yerini pekiştirdi. Zafer Akdeniz'de Osmanlı ilerleyişinin durduğu an olarak anıldı.",
+-  kaynak:"TDV 'inebahti-savasi' md. · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
++  kaynak:"TDV 'inebahti-deniz-savasi' md. (eski slug 'inebahti-savasi' ölü/302 — UMIT-W49 6 Ekim 2026) · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
+ 
+ { t:"1573-01-01", b:"Saint John Ortak Katedrali'nin inşasına başlanması", tur:"mimari", onem:4, dunya:2, kapsam:"ic", yer_id:"Malta",
+   etiket:["mimari","din","kultur","imar","konu-din","konu-kultur","konu-imar"],

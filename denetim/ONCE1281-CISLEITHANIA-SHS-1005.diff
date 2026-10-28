@@ -1,0 +1,24 @@
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 33a049f1..04411f62 100644
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -1464,10 +1464,18 @@ def _2s_kunye_adlari():
+     return _2S_KUNYE
+ 
+ 
++# 🆕 Taraf TAKMA ADI (ONCE1281-CISLEITHANIA-1005): künye adından türeyen aday
++#   maddelerin kullandığı kısaltmayı kaçırıyor. Ölçülen vaka: Rapallo maddesi
++#   "İtalya ile SHS Krallığı arasında" diyor, `yugoslavya`nın adayları yalnız
++#   "sirp-hirvat-sloven …" ⇒ 8 ada birimi açık kaldı. Liste DAR tutulur: her
++#   satır bir ölçülmüş kaçırma olmalı (gevşek kol çürüdü — blok başı).
++_2S_TAKMA = {"yugoslavya": ["shs"]}
++
++
+ def _2s_taraf_adaylari(sid):
+     ix = _2s_kunye_adlari()
+     if sid in ix:
+-        return ix[sid]
++        return ix[sid] + [a for a in _2S_TAKMA.get(sid, []) if a not in ix[sid]]
+     n = _2s_norm((sid or "").replace("-", " "))
+     return [n] if len(n) >= 3 else []
+ 

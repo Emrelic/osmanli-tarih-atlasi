@@ -1,0 +1,43 @@
+diff --git a/data/yerlesimler_ek29.js b/data/yerlesimler_ek29.js
+index 05f3b8d3..c149a921 100644
+--- a/data/yerlesimler_ek29.js
++++ b/data/yerlesimler_ek29.js
+@@ -253,12 +253,17 @@ window.YERLESIMLER_EK29 = [
+ //   Bosanski Novi  1556-01-01 KAYNAKLI (aynı kaynak: "captured Kostajnica
+ //               and Novi in 1556") — gün yok, YYYY-01-01
+ //   Jasenovac  1538-01-01 KOMŞU EMSALİ (Dubica'dan, ~13 km) — KENDİ
+-//               kaynağı bulunamadı, `dogrulanmadi:true` ruhunda
++//               kaynağı BULUNAMADI (kaynak YOKLUĞU = `bulunamadı`; bir alan
++//               değildi, `kaynak_zayif` DEĞİL — o "var ama zayıf" demektir)
+ //   Bosanski Brod  1538-01-01 KOMŞU EMSALİ (Dubica'dan, en yakın kaynaklı
+ //               nokta) — KENDİ kaynağı bulunamadı
++//   🆕 5 Ekim 2026 (UMIT-W18): ikisi de HE (enciklopedija.hr) ile
++//      1536-01-01'e çekildi, komşu emsali KALKTI — güncel dayanak
++//      kayıtların kendi `kaynak:` alanında; yukarıdaki iki satır TARİHÇE.
+ //   ⚠️ Koordinatlar `denetim/HAZIRLIK-BOSNA-NOKTA-0911.json`den — genel
+-//   coğrafi bilgi, GPS/harita ile birebir doğrulanmadı (`dogrulanmadi:true`
+-//   damgası orijinal kayıtta duruyor).
++//   coğrafi bilgi, GPS/harita ile birebir doğrulanmadı. Bu bir KOORDİNAT
++//   notudur: hazırlık dosyasında `koordinat_durumu: "… DOĞRULANMADI"`
++//   metni olarak durur (bir alan değil); `kaynak_zayif` ile İLGİSİZDİR.
+ 
+ { ad:"Kostayniçe (Kostajnica)", tur:"kale", lat:45.232, lon:16.539, g:0, k:3,
+   neden:"1281-1556 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
+@@ -568,7 +573,7 @@ window.YERLESIMLER_EK29 = [
+ // zaferinden sonra Sûr şehri de Osmanlı ülkesine katıldı").
+ 
+ { ad:"Deyrülkamer (Dayr al-Kamer)", tur:"kasaba", lat:33.6989, lon:35.5619, g:0, k:3,
+-  dogrulanmadi:true,
++  kaynak_zayif:true,
+   neden:"'Ma'noğulları/Şihaboğulları'nın BAŞKENTİYDİ' iddiası yalnız Wikipedia'da var, TDV/Britannica'da DOĞRULANAMADI (hazırlık dosyası ②). Nokta ve v: bağı, künyenin kendi f/t penceresi ile TAM örtüştüğü ve TDV'nin doğruladığı 'Şûf bölgesi nüfuzu' gerekçesiyle sağlam; yalnız 'başkent' sıfatı doğrulanmamış kaldı.",
+   s:[{f:"1281-01-01",t:"1516-10-01",d:"memluk"},
+      {f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},
+@@ -576,7 +581,7 @@ window.YERLESIMLER_EK29 = [
+   v:[{f:"1516-10-01",t:"1842-01-01",statu:"özerk",kid:"lubnan-emirligi"},
+      {f:"1861-06-09",t:"1915-07-11",statu:"özerk",kid:"cebel-i-lubnan-mutasarrifligi"}],
+   d:[{f:"1842-01-01",t:"1861-06-09"},{f:"1915-07-11",t:"1918-10-08"}],
+-  kaynak:"TDV `lubnan` (Ma'noğulları 1585-1635 nüfuz genişlemesi, Şihaboğulları ~1697 Şûf'ta başlangıç) — 'başkent' iddiası dogrulanmadi:true, bkz. üstteki not." },
++  kaynak:"TDV `lubnan` (Ma'noğulları 1585-1635 nüfuz genişlemesi, Şihaboğulları ~1697 Şûf'ta başlangıç) — 'başkent' iddiası kaynak_zayif:true, bkz. üstteki not." },
+ 
+ // 🔴 KENDİ HATAMIN DÜZELTMESİ (ilk denetle.py koşusu yakaladı, CLAUDE.md
+ // §3.5 "hayalet devlet" sınıfı): memluk s: dönemi ORİJİNAL YAZIMDA

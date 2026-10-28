@@ -1,0 +1,690 @@
+{
+ "olcum": "GLM-C ek okuma kapsama envanteri",
+ "zaman": "2026-09-29 13:57:07",
+ "betikler": [
+  "glm/glmc_kapsama.py",
+  "glm/_glmc_yukle.js",
+  "glm/_glmb_yukle.js"
+ ],
+ "evren_U1_yapisal": {
+  "olaylar": {
+   "dosya": 74,
+   "madde": 1736,
+   "t_li": 1736,
+   "t_siz": 0,
+   "derin_t": 1736
+  },
+  "kronoloji": {
+   "dosya": 54,
+   "madde": 5429,
+   "t_li": 5429,
+   "t_siz": 0,
+   "derin_t": 5429
+  }
+ },
+ "evren_U1_koordinator_regex_t_dizgisi": {
+  "olaylar": {
+   "naif": 1709,
+   "capali": 1699
+  },
+  "kronoloji": {
+   "naif": 5220,
+   "capali": 4957
+  }
+ },
+ "evren_U2_yukleme_zinciri": {
+  "madde": 7165,
+  "kova": {
+   "olaylar": 1736,
+   "kronoloji": 5429
+  },
+  "etiket": 59
+ },
+ "U1_U2_fark": {
+  "sadece_U1": {},
+  "sadece_U2": {}
+ },
+ "node_sorunlar": [
+  {
+   "evren": "U2",
+   "dosya": "js/geo_coz.js?v=r10531",
+   "hata": "TypeError: Cannot read properties of undefined (reading 'createElement')"
+  },
+  {
+   "evren": "U2",
+   "dosya": "js/app.js?v=r10531",
+   "hata": "ReferenceError: document is not defined"
+  },
+  {
+   "evren": "U2",
+   "dosya": "js/d_katman.js?v=r10531",
+   "hata": "ReferenceError: document is not defined"
+  },
+  {
+   "evren": "U2",
+   "dosya": "js/sefer_ok.js?v=r10531",
+   "hata": "ReferenceError: ANIM is not defined"
+  }
+ ],
+ "kart": {
+  "dosya": 72,
+  "kart": 777,
+  "alan_envanteri": {
+   "id": 777,
+   "tur": 777,
+   "olay": 777,
+   "kaynak": 777,
+   "kesinlik": 773,
+   "metin": 731,
+   "kisa": 687,
+   "baslik": 351,
+   "ic_not": 288,
+   "bag": 267,
+   "sonuc": 214,
+   "zincir": 200,
+   "sebep": 168,
+   "not": 168,
+   "ad": 138,
+   "gorsel": 84,
+   "gorsel_kaynak": 83,
+   "surec": 78,
+   "hukumler": 76,
+   "tarih_metin": 46
+  }
+ },
+ "bag": {
+  "olay_tarihi_ham_kumesi": 540,
+  "olay_tarihi_gun_kumesi": 539,
+  "olay_onbeksiz_kume": 751,
+  "olay_tam_dizgi_kume": 954,
+  "baska_alanlar": {
+   "t_alani": 42,
+   "bag": 267,
+   "zincir": 55,
+   "olay": 777,
+   "olay_boru_siz": 518
+  },
+  "madde_id_alani": 0,
+  "zincir_madde_eslesme": 0,
+  "zincir_deger_sayisi": 64
+ },
+ "kapsama": {
+  "madde_toplam": 7165,
+  "kartli_madde": 1180,
+  "kartsiz_madde": 5985,
+  "ham_dizgi_eslesen_madde": 1177,
+  "oran_yuzde": 16.5,
+  "kova_kartsiz": {
+   "kronoloji": 4772,
+   "olaylar": 1213
+  },
+  "yuzyil_kartsiz": {
+   "14.yy": 778,
+   "15.yy": 809,
+   "16.yy": 1051,
+   "17.yy": 600,
+   "18.yy": 689,
+   "19.yy": 1117,
+   "20.yy": 591,
+   "13.yy": 282,
+   "11.yy": 14,
+   "12.yy": 51,
+   "9.yy": 1,
+   "10.yy": 1,
+   "7.yy": 1
+  },
+  "yuzyil_toplam": {
+   "14.yy": 824,
+   "15.yy": 942,
+   "16.yy": 1241,
+   "17.yy": 761,
+   "18.yy": 874,
+   "19.yy": 1388,
+   "20.yy": 782,
+   "13.yy": 285,
+   "11.yy": 14,
+   "12.yy": 51,
+   "9.yy": 1,
+   "10.yy": 1,
+   "7.yy": 1
+  },
+  "dosya_kartsiz": {
+   "data/kronoloji_akkoyunlu.js": 72,
+   "data/kronoloji_almanya.js": 125,
+   "data/kronoloji_altinorda.js": 41,
+   "data/kronoloji_anadolu.js": 269,
+   "data/kronoloji_arabistan.js": 43,
+   "data/kronoloji_atina_dukaligi.js": 23,
+   "data/kronoloji_balkan.js": 131,
+   "data/kronoloji_bizans.js": 82,
+   "data/kronoloji_cin.js": 128,
+   "data/kronoloji_cok_1dunya_A.js": 86,
+   "data/kronoloji_cok_1dunya_B.js": 71,
+   "data/kronoloji_dogu_afrika.js": 197,
+   "data/kronoloji_fransa.js": 157,
+   "data/kronoloji_guney_asya.js": 135,
+   "data/kronoloji_gurcistan.js": 36,
+   "data/kronoloji_habsburg.js": 86,
+   "data/kronoloji_hindistan.js": 119,
+   "data/kronoloji_hollanda.js": 37,
+   "data/kronoloji_ingiltere.js": 236,
+   "data/kronoloji_iran.js": 87,
+   "data/kronoloji_iran_ardillari.js": 149,
+   "data/kronoloji_ispanya.js": 149,
+   "data/kronoloji_isvec.js": 95,
+   "data/kronoloji_italya.js": 179,
+   "data/kronoloji_italya_sehir.js": 174,
+   "data/kronoloji_japonya.js": 69,
+   "data/kronoloji_karakoyunlu.js": 66,
+   "data/kronoloji_katalan.js": 9,
+   "data/kronoloji_kirim.js": 68,
+   "data/kronoloji_kuzeyafrika.js": 66,
+   "data/kronoloji_lehistan.js": 117,
+   "data/kronoloji_macaristan.js": 117,
+   "data/kronoloji_memluk.js": 148,
+   "data/kronoloji_misir.js": 79,
+   "data/kronoloji_naksa_dukaligi.js": 21,
+   "data/kronoloji_orta_asya.js": 187,
+   "data/kronoloji_ozbek.js": 66,
+   "data/kronoloji_portekiz.js": 79,
+   "data/kronoloji_rodos_sovalyeleri.js": 87,
+   "data/kronoloji_rusya.js": 149,
+   "data/kronoloji_safevi.js": 72,
+   "data/kronoloji_sinir_afrika.js": 15,
+   "data/kronoloji_sinir_amerika.js": 21,
+   "data/kronoloji_sinir_asya.js": 90,
+   "data/kronoloji_sinir_avrupa_bati.js": 57,
+   "data/kronoloji_sinir_avrupa_orta.js": 71,
+   "data/kronoloji_sinir_guney_g8.js": 72,
+   "data/kronoloji_sinir_komsu.js": 14,
+   "data/kronoloji_sinir_okyanusya.js": 4,
+   "data/kronoloji_sinir_ortadogu.js": 9,
+   "data/kronoloji_sinir_turkiye.js": 4,
+   "data/kronoloji_sirbistan.js": 20,
+   "data/kronoloji_timurlu.js": 22,
+   "data/kronoloji_venedik.js": 66,
+   "data/olaylar.js": 28,
+   "data/olaylar_0073_iran_yanya.js": 5,
+   "data/olaylar_2s_0918.js": 19,
+   "data/olaylar_2s_0919.js": 69,
+   "data/olaylar_2s_0920.js": 11,
+   "data/olaylar_7a4170.js": 4,
+   "data/olaylar_amerika_0920.js": 24,
+   "data/olaylar_cukurova_0907.js": 6,
+   "data/olaylar_ek.js": 76,
+   "data/olaylar_ek10.js": 20,
+   "data/olaylar_ek11.js": 14,
+   "data/olaylar_ek12.js": 11,
+   "data/olaylar_ek13.js": 20,
+   "data/olaylar_ek14.js": 53,
+   "data/olaylar_ek15.js": 14,
+   "data/olaylar_ek16.js": 45,
+   "data/olaylar_ek17.js": 13,
+   "data/olaylar_ek18.js": 1,
+   "data/olaylar_ek2.js": 36,
+   "data/olaylar_ek20.js": 15,
+   "data/olaylar_ek21.js": 4,
+   "data/olaylar_ek22.js": 1,
+   "data/olaylar_ek3.js": 23,
+   "data/olaylar_ek4.js": 38,
+   "data/olaylar_ek5.js": 270,
+   "data/olaylar_ek6.js": 42,
+   "data/olaylar_ek7.js": 74,
+   "data/olaylar_ek8.js": 28,
+   "data/olaylar_ek9.js": 21,
+   "data/olaylar_ilirya_0072.js": 4,
+   "data/olaylar_kamerika.js": 11,
+   "data/olaylar_kronoeksik_0921.js": 4,
+   "data/olaylar_misir1801.js": 1,
+   "data/olaylar_ok104.js": 1,
+   "data/olaylar_ok106.js": 3,
+   "data/olaylar_ok107.js": 2,
+   "data/olaylar_ok109.js": 4,
+   "data/olaylar_ortadogu_0919.js": 3,
+   "data/olaylar_p0036.js": 2,
+   "data/olaylar_p0037.js": 1,
+   "data/olaylar_p0043a.js": 1,
+   "data/olaylar_p0043b.js": 1,
+   "data/olaylar_p0043kirim.js": 3,
+   "data/olaylar_p0044.js": 2,
+   "data/olaylar_p0047.js": 1,
+   "data/olaylar_p0048.js": 1,
+   "data/olaylar_p0049.js": 12,
+   "data/olaylar_p0050.js": 6,
+   "data/olaylar_p0051.js": 2,
+   "data/olaylar_p0053.js": 3,
+   "data/olaylar_p0055.js": 6,
+   "data/olaylar_p0056.js": 9,
+   "data/olaylar_p0057.js": 27,
+   "data/olaylar_p0057b.js": 3,
+   "data/olaylar_p0058.js": 5,
+   "data/olaylar_p0059.js": 1,
+   "data/olaylar_p0060.js": 4,
+   "data/olaylar_p0063.js": 12,
+   "data/olaylar_p0065.js": 3,
+   "data/olaylar_p0068.js": 4,
+   "data/olaylar_p0068b.js": 34,
+   "data/olaylar_p0069.js": 8,
+   "data/olaylar_p0917dunya.js": 2,
+   "data/olaylar_p0917kosu13.js": 25,
+   "data/olaylar_p0917taraf.js": 5,
+   "data/olaylar_senusi_0919.js": 5,
+   "data/olaylar_serhat.js": 3,
+   "data/olaylar_sessiz_borc_0919.js": 4
+  },
+  "dosya_toplam": {
+   "data/kronoloji_akkoyunlu.js": 77,
+   "data/kronoloji_almanya.js": 132,
+   "data/kronoloji_altinorda.js": 44,
+   "data/kronoloji_anadolu.js": 281,
+   "data/kronoloji_arabistan.js": 60,
+   "data/kronoloji_atina_dukaligi.js": 25,
+   "data/kronoloji_balkan.js": 177,
+   "data/kronoloji_bizans.js": 97,
+   "data/kronoloji_cin.js": 136,
+   "data/kronoloji_cok_1dunya_A.js": 97,
+   "data/kronoloji_cok_1dunya_B.js": 90,
+   "data/kronoloji_dogu_afrika.js": 218,
+   "data/kronoloji_fransa.js": 184,
+   "data/kronoloji_guney_asya.js": 153,
+   "data/kronoloji_gurcistan.js": 45,
+   "data/kronoloji_habsburg.js": 117,
+   "data/kronoloji_hindistan.js": 131,
+   "data/kronoloji_hollanda.js": 42,
+   "data/kronoloji_ingiltere.js": 270,
+   "data/kronoloji_iran.js": 107,
+   "data/kronoloji_iran_ardillari.js": 155,
+   "data/kronoloji_ispanya.js": 158,
+   "data/kronoloji_isvec.js": 101,
+   "data/kronoloji_italya.js": 192,
+   "data/kronoloji_italya_sehir.js": 186,
+   "data/kronoloji_japonya.js": 71,
+   "data/kronoloji_karakoyunlu.js": 70,
+   "data/kronoloji_katalan.js": 9,
+   "data/kronoloji_kirim.js": 91,
+   "data/kronoloji_kuzeyafrika.js": 83,
+   "data/kronoloji_lehistan.js": 140,
+   "data/kronoloji_macaristan.js": 127,
+   "data/kronoloji_memluk.js": 155,
+   "data/kronoloji_misir.js": 120,
+   "data/kronoloji_naksa_dukaligi.js": 25,
+   "data/kronoloji_orta_asya.js": 205,
+   "data/kronoloji_ozbek.js": 73,
+   "data/kronoloji_portekiz.js": 86,
+   "data/kronoloji_rodos_sovalyeleri.js": 96,
+   "data/kronoloji_rusya.js": 173,
+   "data/kronoloji_safevi.js": 81,
+   "data/kronoloji_sinir_afrika.js": 16,
+   "data/kronoloji_sinir_amerika.js": 21,
+   "data/kronoloji_sinir_asya.js": 95,
+   "data/kronoloji_sinir_avrupa_bati.js": 60,
+   "data/kronoloji_sinir_avrupa_orta.js": 77,
+   "data/kronoloji_sinir_guney_g8.js": 81,
+   "data/kronoloji_sinir_komsu.js": 23,
+   "data/kronoloji_sinir_okyanusya.js": 6,
+   "data/kronoloji_sinir_ortadogu.js": 12,
+   "data/kronoloji_sinir_turkiye.js": 13,
+   "data/kronoloji_sirbistan.js": 35,
+   "data/kronoloji_timurlu.js": 24,
+   "data/kronoloji_venedik.js": 86,
+   "data/olaylar.js": 81,
+   "data/olaylar_0073_iran_yanya.js": 5,
+   "data/olaylar_2s_0918.js": 20,
+   "data/olaylar_2s_0919.js": 71,
+   "data/olaylar_2s_0920.js": 16,
+   "data/olaylar_7a4170.js": 4,
+   "data/olaylar_amerika_0920.js": 24,
+   "data/olaylar_cukurova_0907.js": 6,
+   "data/olaylar_ebukir_0919.js": 2,
+   "data/olaylar_ek.js": 106,
+   "data/olaylar_ek10.js": 26,
+   "data/olaylar_ek11.js": 14,
+   "data/olaylar_ek12.js": 11,
+   "data/olaylar_ek13.js": 21,
+   "data/olaylar_ek14.js": 94,
+   "data/olaylar_ek15.js": 16,
+   "data/olaylar_ek16.js": 58,
+   "data/olaylar_ek17.js": 26,
+   "data/olaylar_ek18.js": 1,
+   "data/olaylar_ek19.js": 1,
+   "data/olaylar_ek2.js": 65,
+   "data/olaylar_ek20.js": 17,
+   "data/olaylar_ek21.js": 4,
+   "data/olaylar_ek22.js": 1,
+   "data/olaylar_ek3.js": 31,
+   "data/olaylar_ek4.js": 62,
+   "data/olaylar_ek5.js": 419,
+   "data/olaylar_ek6.js": 55,
+   "data/olaylar_ek7.js": 129,
+   "data/olaylar_ek8.js": 35,
+   "data/olaylar_ek9.js": 31,
+   "data/olaylar_ilirya_0072.js": 4,
+   "data/olaylar_kamerika.js": 11,
+   "data/olaylar_kronoeksik_0921.js": 4,
+   "data/olaylar_misir1801.js": 2,
+   "data/olaylar_ok104.js": 1,
+   "data/olaylar_ok106.js": 7,
+   "data/olaylar_ok107.js": 2,
+   "data/olaylar_ok109.js": 11,
+   "data/olaylar_ortadogu_0919.js": 3,
+   "data/olaylar_p0036.js": 3,
+   "data/olaylar_p0037.js": 1,
+   "data/olaylar_p0043a.js": 1,
+   "data/olaylar_p0043b.js": 1,
+   "data/olaylar_p0043kirim.js": 3,
+   "data/olaylar_p0044.js": 5,
+   "data/olaylar_p0047.js": 1,
+   "data/olaylar_p0048.js": 2,
+   "data/olaylar_p0049.js": 15,
+   "data/olaylar_p0050.js": 6,
+   "data/olaylar_p0051.js": 4,
+   "data/olaylar_p0052.js": 1,
+   "data/olaylar_p0053.js": 3,
+   "data/olaylar_p0055.js": 7,
+   "data/olaylar_p0056.js": 11,
+   "data/olaylar_p0057.js": 28,
+   "data/olaylar_p0057b.js": 7,
+   "data/olaylar_p0058.js": 6,
+   "data/olaylar_p0059.js": 1,
+   "data/olaylar_p0060.js": 5,
+   "data/olaylar_p0063.js": 12,
+   "data/olaylar_p0065.js": 3,
+   "data/olaylar_p0067.js": 1,
+   "data/olaylar_p0068.js": 6,
+   "data/olaylar_p0068b.js": 37,
+   "data/olaylar_p0069.js": 9,
+   "data/olaylar_p0917dunya.js": 11,
+   "data/olaylar_p0917kosu13.js": 29,
+   "data/olaylar_p0917taraf.js": 7,
+   "data/olaylar_senusi_0919.js": 5,
+   "data/olaylar_serhat.js": 3,
+   "data/olaylar_sessiz_borc_0919.js": 5
+  }
+ },
+ "yogunluk": {
+  "dagilim_1_6plus": {
+   "1": 699,
+   "2": 225,
+   "3": 103,
+   "4": 44,
+   "5": 35,
+   "6": 74
+  },
+  "en_cok_kartli_12": [
+   {
+    "t": "1821-03-25",
+    "b": "Mora İsyanı başladı",
+    "dosya": "data/kronoloji_balkan.js",
+    "kart": 13
+   },
+   {
+    "t": "1821-03-25",
+    "b": "Yunan İsyanı başladı",
+    "dosya": "data/olaylar.js",
+    "kart": 13
+   },
+   {
+    "t": "1699-01-26",
+    "b": "Karlofça Antlaşması — Macaristan'ın Habsburg'a geçişi",
+    "dosya": "data/kronoloji_habsburg.js",
+    "kart": 12
+   },
+   {
+    "t": "1699-01-26",
+    "b": "Karlofça Antlaşması — Lord Paget ara buluculuk yaptı",
+    "dosya": "data/kronoloji_ingiltere.js",
+    "kart": 12
+   },
+   {
+    "t": "1699-01-26",
+    "b": "KARLOFÇA — Podolya ve Kamaniçe geri alındı",
+    "dosya": "data/kronoloji_lehistan.js",
+    "kart": 12
+   },
+   {
+    "t": "1699-01-26",
+    "b": "Karlofça Antlaşması — Macaristan'ın Habsburg tacında bütünleşmesi",
+    "dosya": "data/kronoloji_macaristan.js",
+    "kart": 12
+   },
+   {
+    "t": "1699-01-26",
+    "b": "Karlofça Antlaşması — Mora'nın Venedik'e bırakılması",
+    "dosya": "data/kronoloji_venedik.js",
+    "kart": 12
+   },
+   {
+    "t": "1699-01-26",
+    "b": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+    "dosya": "data/olaylar.js",
+    "kart": 12
+   },
+   {
+    "t": "1774-07-21",
+    "b": "Küçük Kaynarca Antlaşması imzalandı — Kırım Hanlığı Osmanlı'dan siyaseten bağımsız ilan edildi",
+    "dosya": "data/kronoloji_kirim.js",
+    "kart": 11
+   },
+   {
+    "t": "1774-07-21",
+    "b": "Küçük Kaynarca — Kırım bağımsız, Karadeniz'de donanma hakkı kazanıldı ⭐",
+    "dosya": "data/kronoloji_rusya.js",
+    "kart": 11
+   },
+   {
+    "t": "1826-06-15",
+    "b": "Osmanlı, Yeniçeri Ocağı'nı kaldırdı — Rusya için stratejik fırsat",
+    "dosya": "data/kronoloji_rusya.js",
+    "kart": 11
+   },
+   {
+    "t": "1774-07-21",
+    "b": "Küçük Kaynarca Antlaşması",
+    "dosya": "data/olaylar.js",
+    "kart": 11
+   }
+  ]
+ },
+ "app_gercegi": {
+  "liste_uzunlugu": 75,
+  "node_sorun": [],
+  "havuz": {
+   "ekokuma_kart": 777,
+   "merak_kart": 792,
+   "antlasma_kayit": 67,
+   "gorsel_kayit": 30,
+   "ekobag_oneri": 13
+  },
+  "tur_sayisi": 15,
+  "satirli_madde": 1156,
+  "oran_yuzde": 16.1,
+  "tur_bazinda_madde": {
+   "sebep-sonuc": 541,
+   "tartisma": 453,
+   "savas-hikayesi": 197,
+   "teknik-bilimsel": 163,
+   "antlasma": 134,
+   "kimdir": 133,
+   "merak": 109,
+   "karsi-anlati": 101,
+   "dis-yankilar": 70,
+   "magazin": 60,
+   "bu-ulke-neden-var": 18,
+   "edebiyat": 14,
+   "menkibeler": 4,
+   "kahramanlik": 3,
+   "sok-haberler": 1
+  },
+  "bagsiz_kart": {
+   "sayi": 14,
+   "neden": {
+    "bag_yok": 11,
+    "madde_yok": 2,
+    "gun_var_ayirt_etmedi": 1
+   },
+   "sinif": {
+    "bag_yok": [
+     {
+      "tur": "sebep-sonuc",
+      "id": "sebep-sonuc-hibetullah-sultan-dogum-senligi",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "sebep-sonuc",
+      "id": "ebru-sanati-ipek-yolundan-istanbula",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "tartisma",
+      "id": "supheli-olum-orhan-kor-fetret",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "tartisma",
+      "id": "supheli-olum-cem-oguz-han",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "tartisma",
+      "id": "supheli-olum-mehmed-iv-girisim",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "teknik-bilimsel",
+      "id": "camitarz-bes-donem",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "teknik-bilimsel",
+      "id": "teknik-osmanli-tarihciligi-kaynaklari",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "teknik-bilimsel",
+      "id": "teknik-osmanli-kiyafet-statu",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "teknik-bilimsel",
+      "id": "teknik-tophane-tersane-amire",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "kimdir",
+      "id": "kimdir-padisah-lakaplari",
+      "gunler": [],
+      "neden": "bag_yok"
+     },
+     {
+      "tur": "kimdir",
+      "id": "kimdir-padisah-sanat-zanaat",
+      "gunler": [],
+      "neden": "bag_yok"
+     }
+    ],
+    "gun_var_ayirt_etmedi": [
+     {
+      "tur": "teknik-bilimsel",
+      "id": "teknik-muhendishane-ardil-okullar",
+      "gunler": [
+       "1795-01-01",
+       "1883-01-01"
+      ],
+      "neden": "gun_var_ayirt_etmedi"
+     }
+    ],
+    "kesinlik_kaymasi": [],
+    "madde_yok": [
+     {
+      "tur": "antlasma",
+      "id": null,
+      "gunler": [
+       "1830-08-30"
+      ],
+      "neden": "madde_yok"
+     },
+     {
+      "tur": "teknik-bilimsel",
+      "id": "dunya7-istanbul-sel-zemheri-bogazin-donmasi",
+      "gunler": [
+       "1621-01-24"
+      ],
+      "neden": "madde_yok"
+     }
+    ]
+   }
+  },
+  "gorselli_madde": 67,
+  "en_cok_satirli": [
+   [
+    "1699-01-26",
+    "KARLOFÇA — Podolya ve Kamaniçe geri alındı",
+    6,
+    15
+   ],
+   [
+    "1699-01-26",
+    "Karlofça Antlaşması — ilk büyük toprak kaybı",
+    6,
+    15
+   ],
+   [
+    "1774-07-21",
+    "Küçük Kaynarca Antlaşması",
+    5,
+    15
+   ],
+   [
+    "1774-07-21",
+    "Küçük Kaynarca Antlaşması imzalandı — Kırım Hanlığ",
+    5,
+    15
+   ],
+   [
+    "1774-07-21",
+    "Küçük Kaynarca — Kırım bağımsız, Karadeniz'de dona",
+    5,
+    15
+   ],
+   [
+    "1878-07-13",
+    "Berlin Antlaşması — San Stefano kazanımları gerile",
+    5,
+    14
+   ],
+   [
+    "1878-07-13",
+    "Berlin Antlaşması — Bulgaristan Prensliği resmen k",
+    5,
+    14
+   ],
+   [
+    "1878-07-13",
+    "Berlin Antlaşması — bağımsızlık kesinleşti, Niş ve",
+    5,
+    14
+   ],
+   [
+    "1878-07-13",
+    "Berlin Antlaşması",
+    5,
+    14
+   ],
+   [
+    "1878-07-13",
+    "Berlin Antlaşması: Bosna-Hersek A-M işgaline, Sırb",
+    5,
+    14
+   ]
+  ]
+ }
+}

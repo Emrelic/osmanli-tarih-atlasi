@@ -1,0 +1,428 @@
+{
+ "Ur (Tell al-Muqayyar)": [
+  {
+   "f": "-2323-01-01",
+   "t": "-2299-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): sahip kaynakta \"Lugalzagesi krallığı (Uruk-Umma)\" ama künyesi yok → boşluk (kimsenin değil DEĞİL; künye açılınca doldurulur). Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://w"
+  },
+  {
+   "f": "-2299-01-01",
+   "t": "-2153-01-01",
+   "d": "akad",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye akad (Akad Imparatorlugu) · Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_"
+  },
+  {
+   "f": "-2153-01-01",
+   "t": "-2109-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Akad İmparatorluğu\" sahibini -2109-01-01'a dek veriyor ama künye t=-2153-01-01 → künye sonrası boşluk"
+  },
+  {
+   "f": "-2109-01-01",
+   "t": "-2003-01-01",
+   "d": "ur-3",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye ur-3 (Ur III (Ucuncu Ur Hanedani)) · Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»"
+  },
+  {
+   "f": "-2003-01-01",
+   "t": "-1762-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Ur III Devleti (başkent Ur)\" sahibini -2002-01-01'a dek veriyor ama künye t=-2003-01-01 → künye sonrası boşluk || BEYAN (VERI-MO-ARKEO): iki kaynaklı dönem arasında sahip kaynakta yok (-2002-01-01 … -1762-01-01) → boşluk, bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak sessiz)"
+  },
+  {
+   "f": "-1762-01-01",
+   "t": "-1594-01-01",
+   "d": "babil-eski",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye babil-eski (Eski Babil (Amorit) Krallığı) · Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»"
+  },
+  {
+   "f": "-1594-01-01",
+   "t": "-1464-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Babil I Hanedanı (Hammurabi, Samsu-iluna)\" sahibini -1464-01-01'a dek veriyor ama künye t=-1594-01-01 → künye sonrası boşluk"
+  },
+  {
+   "f": "-1464-01-01",
+   "t": "-1154-01-01",
+   "d": "kassit-babil",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye kassit-babil (Kassit Babil Krallığı) · Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»"
+  },
+  {
+   "f": "-1154-01-01",
+   "t": "-0625-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Kassit Babilonyası\" sahibini -1149-01-01'a dek veriyor ama künye t=-1154-01-01 → künye sonrası boşluk || BEYAN (VERI-MO-ARKEO): iki kaynaklı dönem arasında sahip kaynakta yok (-1149-01-01 … -0625-01-01) → boşluk, bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak sessiz)"
+  },
+  {
+   "f": "-0625-01-01",
+   "t": "-0538-01-01",
+   "d": "yeni-babil",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye yeni-babil (Yeni Babil (Keldani) Imparatorlugu) · Nabopolassar Babil tahtına oturur (26 Arahsamna = 23 Kasım 626) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, giriş + ABC 2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «Nabû-apla-usur sat upon the throne in Babylon»"
+  },
+  {
+   "f": "-0538-01-01",
+   "t": "-0329-01-01",
+   "d": "ahamenis",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye ahamenis (Ahamenis (Pers) Imparatorlugu) · Kyros Babil'e girer (Arahsamna 3; Gutium valisi Ugbaru ordusu Tašritu 16'da savaşsız girmişti) = Yeni Babil'in sonu 539 | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.15-18 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the third day of the month Arahsamna, Cyrus entered Babylon.»"
+  }
+ ],
+ "Uruk (Warka)": [
+  {
+   "f": "-2323-01-01",
+   "t": "-2153-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): sahip kaynakta \"Lugalzagesi krallığı (SKL Uruk III)\" ama künyesi yok → boşluk (kimsenin değil DEĞİL; künye açılınca doldurulur). Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://w || BEYAN (VERI-MO-ARKEO): iki kaynaklı dönem arasında sahip kaynakta yok (-2299-01-01 … -2180-01-01) → boşluk, bos:'veri-yok' (kimsenin değil DEĞİL"
+  },
+  {
+   "f": "-2153-01-01",
+   "t": "-2111-01-01",
+   "d": "gutium",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye gutium (Gutium (Gutiler) Hakimiyeti) · Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the"
+  },
+  {
+   "f": "-2111-01-01",
+   "t": "-2109-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Uruk IV hanedanı (bağımsız) / Gutium çağı / Uruk V (Utuhengal)\" sahibini -2109-01-01'a dek veriyor ama künye t=-2111-01-01 → künye sonrası boşluk"
+  },
+  {
+   "f": "-2109-01-01",
+   "t": "-2003-01-01",
+   "d": "ur-3",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye ur-3 (Ur III (Ucuncu Ur Hanedani)) · Uruk V (Utuhengal, 7 yıl) Uruk IV'ü doğrudan izler; Gutium dönemi Utuhengal'in Tirigan'ı yenmesi (ca. MC 2110) ve Urnamma'nın tahta çıkışıyla (MC 2110) biter | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 113 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It"
+  },
+  {
+   "f": "-2003-01-01",
+   "t": "-1801-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Ur III Devleti\" sahibini -1801-01-01'a dek veriyor ama künye t=-2003-01-01 → künye sonrası boşluk"
+  },
+  {
+   "f": "-1801-01-01",
+   "t": "-1762-01-01",
+   "d": "larsa",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye larsa (Larsa Krallığı) · Rim-Sin I yıl 21 (MC 1802): Uruk yıkılır ve Larsa'ya katılır | Kaynak: CDLI Wiki, Year names of Rim-Sin I (Larsa), yıl 21 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin | «(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil»"
+  },
+  {
+   "f": "-1762-01-01",
+   "t": "-1739-01-01",
+   "d": "babil-eski",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye babil-eski (Eski Babil (Amorit) Krallığı) · Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»"
+  },
+  {
+   "f": "-1739-01-01",
+   "t": "-1464-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): iki kaynaklı dönem arasında sahip kaynakta yok (-1739-01-01 … -1464-01-01) → boşluk, bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak sessiz)"
+  },
+  {
+   "f": "-1464-01-01",
+   "t": "-1154-01-01",
+   "d": "kassit-babil",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye kassit-babil (Kassit Babil Krallığı) · Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»"
+  },
+  {
+   "f": "-1154-01-01",
+   "t": "-0625-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Kassit Babilonyası\" sahibini -1149-01-01'a dek veriyor ama künye t=-1154-01-01 → künye sonrası boşluk || BEYAN (VERI-MO-ARKEO): iki kaynaklı dönem arasında sahip kaynakta yok (-1149-01-01 … -0625-01-01) → boşluk, bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak sessiz)"
+  },
+  {
+   "f": "-0625-01-01",
+   "t": "-0538-01-01",
+   "d": "yeni-babil",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye yeni-babil (Yeni Babil (Keldani) Imparatorlugu) · Nabopolassar Babil tahtına oturur (26 Arahsamna = 23 Kasım 626) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, giriş + ABC 2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «Nabû-apla-usur sat upon the throne in Babylon»"
+  },
+  {
+   "f": "-0538-01-01",
+   "t": "-0330-01-01",
+   "d": "ahamenis",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye ahamenis (Ahamenis (Pers) Imparatorlugu) · Kyros Babil'e girer (Arahsamna 3; Gutium valisi Ugbaru ordusu Tašritu 16'da savaşsız girmişti) = Yeni Babil'in sonu 539 | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.15-18 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the third day of the month Arahsamna, Cyrus entered Babylon.»"
+  },
+  {
+   "f": "-0330-01-01",
+   "t": "-0322-06-10",
+   "d": "iskender-imparatorlugu",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye iskender-imparatorlugu (Buyuk Iskender Imparatorlugu) · İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»"
+  },
+  {
+   "f": "-0322-06-10",
+   "t": "-0310-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Makedon (İskender) ve Diadokh dönemi\" sahibini -0310-01-01'a dek veriyor ama künye t=-0322-06-10 → künye sonrası boşluk"
+  },
+  {
+   "f": "-0310-01-01",
+   "t": "-0140-01-01",
+   "d": "selevkos",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye selevkos (Selevkos Imparatorlugu) · Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»"
+  },
+  {
+   "f": "-0140-01-01",
+   "t": "0224-04-28",
+   "d": "part",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye part (Part (Arsakid) Imparatorlugu) · Mithradates I Temmuz 141'de Seleukeia'yı, Ekim 141'de Uruk'a ulaşır | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»"
+  }
+ ],
+ "Eridu (Abu Shahrain)": [
+  {
+   "f": "-2323-01-01",
+   "t": "-2299-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): sahip kaynakta \"Lugalzagesi krallığı (Uruk-Umma)\" ama künyesi yok → boşluk (kimsenin değil DEĞİL; künye açılınca doldurulur). Lugalzagesi'nin unvanları Eridu'nun da onu tanıdığını gösterir (Eresh, Eridu, Kesh) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 88 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sall"
+  }
+ ],
+ "Girsu (Tell Telloh)": [
+  {
+   "f": "-2474-01-01",
+   "t": "-2349-01-01",
+   "d": "sumer-lagas-1",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye sumer-lagas-1 (Lagas I. Hanedan (sehir devleti)) · Urnanshe (Lagaş I) Presargonik dönemin başlangıcıdır; Urnanshe yıl 1 -> Lugalzagesi yıl 25 arası ~175 yıl (alt tahmin); Tablo 39: ca. 2475-2300±30 (MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 67, 84; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arc"
+  },
+  {
+   "f": "-2349-01-01",
+   "t": "-2143-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Lagaş I (Girsu-Lagaş şehir-devleti; Urnanshe ile başlar)\" sahibini -2317-01-01'a dek veriyor ama künye t=-2349-01-01 → künye sonrası boşluk || BEYAN (VERI-MO-ARKEO): sahip kaynakta \"Lugalzagesi krallığı (Lagaş fethi; Girsu'da \\\"Girsu kralı\\\" Urukagina yıl 10'a dek)\" ama künyesi yok → boşluk (kimsenin değil DEĞİL; künye açılınca doldurulur). Lugalzagesi, Urukagina yıl 7/8'de Lagaş'ı fetheder; Urukagina \"Girsu kralı\" olarak yıl 10'a dek sürer | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC)"
+  },
+  {
+   "f": "-2143-01-01",
+   "t": "-2111-01-01",
+   "d": "lagas-2",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye lagas-2 (Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)) · Girsu/Lagaş'ın Akad'dan bağımsızlaşması: Puzurmama ilk bağımsız hükümdar; \"karışıklık dönemi\" (Şarkalişarri sonrası, MC 2181-2177) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It is possible to date the be"
+  }
+ ],
+ "Umma (Tell Jokha)": [
+  {
+   "f": "-2323-01-01",
+   "t": "-2299-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): sahip kaynakta \"Lugalzagesi krallığı (Uruk-Umma)\" ama künyesi yok → boşluk (kimsenin değil DEĞİL; künye açılınca doldurulur). Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://w"
+  },
+  {
+   "f": "-2299-01-01",
+   "t": "-2153-01-01",
+   "d": "akad",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye akad (Akad Imparatorlugu) · Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_"
+  },
+  {
+   "f": "-2153-01-01",
+   "t": "-2109-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Akad İmparatorluğu\" sahibini -2109-01-01'a dek veriyor ama künye t=-2153-01-01 → künye sonrası boşluk"
+  },
+  {
+   "f": "-2109-01-01",
+   "t": "-2021-01-01",
+   "d": "ur-3",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye ur-3 (Ur III (Ucuncu Ur Hanedani)) · Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»"
+  }
+ ],
+ "Kiş (Tell Uhaimir)": [
+  {
+   "f": "-2323-01-01",
+   "t": "-2153-01-01",
+   "d": "akad",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye akad (Akad Imparatorlugu) · Sargon'un kuzey Babilonya'yı güneyden önce denetlemiş olabileceği (Kiş, Sargon'un \"Kiş kralı\" unvanı) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Northern Babylonia and the Diyala region may have been unde"
+  }
+ ],
+ "Nippur (Nuffar)": [
+  {
+   "f": "-2299-01-01",
+   "t": "-2153-01-01",
+   "d": "akad",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye akad (Akad Imparatorlugu) · Nippur'da Enşakuşana, Lugalzagesi ve Sargon bir kuşak içinde hükmeder (prosopografi) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 104 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «at Nippur Enshakushana, Lugalzagesi and Sargon ruled within one generation»"
+  },
+  {
+   "f": "-2153-01-01",
+   "t": "-2109-01-01",
+   "d": "__BOSLUK__",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Akad İmparatorluğu\" sahibini -2109-01-01'a dek veriyor ama künye t=-2153-01-01 → künye sonrası boşluk"
+  },
+  {
+   "f": "-2109-01-01",
+   "t": "-2018-01-01",
+   "d": "ur-3",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye ur-3 (Ur III (Ucuncu Ur Hanedani)) · Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»"
+  }
+ ],
+ "Sippar (Tell Abu Habbah)": [
+  {
+   "f": "-0625-01-01",
+   "t": "-0538-01-01",
+   "d": "yeni-babil",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye yeni-babil (Yeni Babil (Keldani) Imparatorlugu) · Nabopolassar Babil tahtına oturur (26 Arahsamna = 23 Kasım 626) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, giriş + ABC 2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «Nabû-apla-usur sat upon the throne in Babylon»"
+  },
+  {
+   "f": "-0538-01-01",
+   "t": "-0329-01-01",
+   "d": "ahamenis",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "onyil"
+   },
+   "kaynak": "künye ahamenis (Ahamenis (Pers) Imparatorlugu) · Sippar, Kyros'un ordusuna savaşsız teslim olur (Nabonidus yıl 17, Tašritu 14; Julian karşılığı doğrulanmadı) | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the fourteenth day Sippar was captured without a battle.»"
+  }
+ ]
+}

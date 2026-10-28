@@ -1,0 +1,45 @@
+[
+ {
+  "anahtar": "parti-emrelic-0080/H-0019",
+  "hukum": "cozuldu",
+  "not": "SINIFLANMAMIŞ ADAY 0, KURAL-ŞÜPHESİ 0. 302 adayın son sınıfı (denetim/ENKLAV-SINIF-1015.json): a 82 · b 20 · c 200. Kuralın 'b' (şüphe) dediği 61 adayın hepsi tek tek değerlendirildi: 9'u a oldu (gerçek kopuk parça: Maratha'nın Cinci/Tancûr'u, Ecmîr, Doab; Cûnâgadh; Tukulör Dinguiraye'si; Tabora; Natchez; Kazalinsk; İlorin), 40'ı c oldu (nokta seyrekliği), 12'si b'de kaldı (Konya bunlardan biriydi, düzeltildi).B'DE KALAN 20: 4'ü DÜZELTİLDİ: Oslo 1281-1537 Norveç (SNL); Ege adaları 1453 sonrası (Limni ve Bozbaba 1453-1479 haraçgüzar, İmroz 1453-55 Gattilusio, Bozcaada 1453-55 beyanlı boşluk; TDV limni, imroz, bozcaada); Konya ve Ilgın 1308-1366 (ilhanli, sonra 1328 karaman, sonra 1350 eretna; TDV karamanogullari, eretnaogullari); Ulukışla (Niğde ile eşlendi). 16'sı kaynakla elenmeyi BEKLİYOR, gerekçeleri yazılı: Masavva 'memluk' (senin kararın) · Livonya 'almanya' (model seçimi) · Mankup/İnkirman 'bizans' · Kısmâyû ve Ceel Vaak 1914 'somali' (aslında İngiliz Jubaland'ı) · Omoa/Trujillo 1850 'meksika' (aslında Honduras) · Kızılarvat 1774 'afsar' · Asîrgarh/Burhânpûr 1774 'babur' · Asîrgarh 1281 'delhi' · Gayâ/Patna 1400 'delhi' (aslında Cavnpur) · Çampâner 1453 'delhi' · İran 'ilhanli' 1350 (2 grup) · Bhuc 1526 koridorundaki 'babur' Gucerat noktaları · Havana ve Camagüey (Küba). Önceki turlardan (hepsi main): enklav beyanları (Cezayir, Libya, Hollanda, Mora, İyon, Dalmaçya, Kotor, Habeş, Azak, Korsika, Sardinya, Gaskonya, Doğu Prusya, Milano, Dijon, Amasra) ve düzeltmeler (İnebahtı, Dalmaçya adaları, Preveze ve Vonitsa, Paksos, Korsika 1794-96, İşkodra). 7e tavanı 1898. SENİN KARARIN: İşkodra 1393-1396 Osmanlı dönemi (yazılırsa 7e 1906 olur, önerim yazıp tavanı yükseltmek) · Masavva 1281-1517.",
+  "tuz_onerisi": "arac/renkler.py BOYALAR: \"anglo-korsika-krallik\": (\"Anglo-Korsika Krallığı\", <ingiltere tonundan ayrık bir renk>) — eklenince Ayacyo ve Bastia 1794-06-15/1796-10-01 dönemi d:'anglo-korsika-krallik' yapılabilir",
+  "commit": "5c2c116d2, d57fbdc90, 45798537a, dd3ae6f5f, e223e6521, 8202c2f86, e3c8a6196 (hepsi main)",
+  "kaynak": "https://islamansiklopedisi.org.tr/cezayir · /trablusgarp · /belcika · /mora · /korfu · /ayamavra · /cuka-adasi · /venedik · /masavva · /korsika · /sardinya · /fransa · /ceneviz · /inebahti · /dalmacya · /iskodra · /karlofca · /pasarofca-antlasmasi · /polonya · /almanya · /azak · https://www.enciklopedija.hr/clanak/zadarski-mir · /brac · /hvar · /korcula · /krk · /cres · /pag · /rab · /vis · /kotor · https://snl.no/Kalmarunionen · denetim/ENKLAV-SINIF-1015.json · /limni · /imroz · /bozcaada · /karamanogullari · /eretnaogullari · /nigde"
+ },
+ {
+  "anahtar": "parti-emrelic-0073/H-0017",
+  "hukum": "cozuldu",
+  "not": "Öksüz ek okuma bağı 17'den 4'e indi. Kalan 4 bağ bilerek tutulan Jülyen/Gregoryen sigorta çifti (Derbend 1722, Gence 1735). G5'in aleti kronoloji dosyalarını tek alt çizgili adla arıyordu, app.js ise çok alt çizgili adları da okuyor. Bu yüzden 'bekliyor' denen Erzurum 1823 ve Romanya 1881 maddeleri aslında vardı. Bağlar taşındı: Osman Gazi vefatı 1324-01-01 (TDV osman-i 724/1324), Kilitbahir 1463, Sırbistan fermanı ANTLASMALAR kaydı 17 Ekim 1830'a (TDV sirbistan), Musa Çelebi kuşatması 1411, Edirne 1568-02-17. Zararsız 4 mükerrer bağ silindi.",
+  "commit": "5c2c116d2 KUTU-H7-1015: savas bes asama + oksuz baglar + enklav 2. parti (main)",
+  "kaynak": "https://islamansiklopedisi.org.tr/osman-i · https://islamansiklopedisi.org.tr/sirbistan · https://islamansiklopedisi.org.tr/orhan"
+ },
+ {
+  "anahtar": "parti-emrelic-0045/H-0007",
+  "hukum": "cozulemedi",
+  "not": "Kartsız kalan 4 savaş maddesinin hiçbiri için okunabilir kaynak bulunamadı, kart yazılmadı. Mudanya 1321: TDV'de Mudanya şehir maddesi yok; bursa, orhan ve osman-i maddeleri Mudanya'yı anmıyor. Bu yüzden iki Mudanya maddesi (1321 ablukası ve alınışı) silinmedi, kaynak alanı 'bulunamadı: …' olarak işaretlendi. Sitede ⚫ 'Kaynak bulunamadı' damgası çıkar. Centla 1519: dayanağı Hassig 1994 basılı kitap, çevrimiçi okunamadı; Britannica 403 verdi. Lippa 1596: TDV'de ayrıntı yok; Bánlaky çevrimiçi metnine ulaşılamadı. Salyan 1724: Kurukin 2010 ve Özdamirova 2024 okunamadı.",
+  "commit": "45798537a (Mudanya kaynaksız işareti, main)",
+  "kaynak": "https://islamansiklopedisi.org.tr/bursa · https://islamansiklopedisi.org.tr/orhan · https://islamansiklopedisi.org.tr/osman-i"
+ },
+ {
+  "anahtar": "parti-emrelic-0068/H-0006",
+  "hukum": "cozuldu",
+  "not": "Avusturya (9) ve İran (8) savaşları beş aşamaya göre ölçüldü. Eksik halkalar TDV'ye dayalı 17 maddeyle tamamlandı (data/olaylar_h7_asama.js). Avusturya: 1529-05-10 Viyana seferine çıkış · 1562 barışı · 1566 Zigetvar seferine çıkış · 1568-02-17 Edirne Antlaşması. 1578-90 İran savaşı: 1578-01-02 sefer kararı (Tahmasb'ın 1576'daki ölümüyle). 1603-12 İran savaşı (istediğin): 1603-10-21 maddesi savaşın başlangıcı olarak açıldı; eklenenler 1604 Cigalazâde seferi, 1605 Sûfiyân bozgunu, 1610 Kuyucu'nun Tebriz seferi. 1615-18: 1615-04-23 savaşın başlaması, 1616 Revan kuşatması, 1618-09-10 Serav bozgunu. 1623-39: 1625-11-13 Hâfız Ahmed'in ve 1630-10-06 Hüsrev Paşa'nın Bağdat kuşatmaları. 1730-36: 1733 Topal Osman'ın Dücum zaferi. 1743-46: başlangıç, 1744 Kars kuşatması, 1745 Kağaverd bozgunu. Düzeltilen 4 madde: kronoloji_iran'daki 'yeniden alevlendi' maddesi Serav antlaşması gününe yazılmıştı, 1615'e alındı. kronoloji_safevi Serav Antlaşması 10 Eylül'den 26 Eylül'e alındı. kronoloji_habsburg Edirne 1568 güne alındı. Serav maddesine gün yazıldı. Kalan küçük not: 1663-64 ve 1716-18 savaşlarının '①' (savaşa giden süreç) halkası ayrı madde değil, başlangıç maddesinin içinde anlatılıyor; bunu talimatın izin veriyor.",
+  "commit": "5c2c116d2 + 45798537a (main)",
+  "kaynak": "https://islamansiklopedisi.org.tr/ahmed-i · /mehmed-pasa-damad · /dilaver-pasa · /kuyucu-murad-pasa · /cigalazade-sinan-pasa · /topal-osman-pasa--sadrazam · /nadir-sah--iran · /suleyman-i · /selim-ii · /murad-iii · /lala-mustafa-pasa · /hafiz-ahmed-pasa · /husrev-pasa"
+ },
+ {
+  "anahtar": "YAN/odak-tavan-adlandirma",
+  "hukum": "cozuldu",
+  "not": "İlk push, denetle_yayin'de iki SEKME gerilemesiyle reddedildi. Sebep: tarihini değiştirdiğim iki kronoloji maddesinin odak kimliği (gün|başlık) değişmişti. denetim/ODAK-TAVAN.json'daki 3 satır yeni kimliğe adlandırıldı, sayı değişmedi. Ayrıca G5'in EKO-ILGI aleti kopyasındaki OLAYLAR deseni düzeltildi; yanlış öksüz raporu veriyordu.",
+  "commit": "d57fbdc90 (main)",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "YAN/7e-tavan",
+  "hukum": "cozuldu",
+  "not": "Değişmez 7e eksklav tavanı (BEKLENEN_EKSKLAV) 1904'ten 1898'e indirildi: eksklav_olc 687 günde 1898 kopuk parça ölçtü. Preveze ve Vonitsa'nın 1699-1718 Osmanlı dönemi ile İnebahtı'nın 1700 iadesinin toplam etkisi. Gün gün döküm yapılmadı. Mekanizma 'yalnız iyileşince iner' (KARARLAR-1014 #49).",
+  "commit": "45798537a (main)",
+  "kaynak": ""
+ }
+]

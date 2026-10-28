@@ -1,0 +1,666 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Ras",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1196,
+    1276
+   ],
+   "ornek_maddeler": [
+    "1196-01-01 Stefan Nemanja tahttan çekilip keşiş oldu; oğlu Stefan büyük župan",
+    "1276-01-01 Dragutin, babası I. Stefan Uroš'u tahttan indirdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Rās 26.30577,74.19525; Rasht 37.27611,49.58862; Ross 39.31228,-84.6505"
+    }
+   ]
+  },
+  {
+   "ad": "Montferrat",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1191,
+    1253
+   ],
+   "ornek_maddeler": [
+    "1191-01-01 V. Guglielmo öldü; oğlu Bonifacio Montferrat markizi oldu",
+    "1253-06-12 Bonifacio II'nin vasiyeti VII. Guglielmo'yu varis atadı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Montferrat 45.48481,5.5902; Montferrat 43.61196,6.48093"
+    }
+   ]
+  },
+  {
+   "ad": "Gur",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1010,
+    1066
+   ],
+   "ornek_maddeler": [
+    "1010-01-01 Mahmud'un Gur seferi: Muhammed b. Sûrî esir alındı",
+    "1066-01-01 Gazneli İbrâhim Emîr Muhammed'i Gur'un başına getirdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 28.8528648953,
+      "lon": 52.5326816606,
+      "kaynak": "Pleiades 922617"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Necid",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    480,
+    632
+   ],
+   "ornek_maddeler": [
+    "0480-01-01 Kinde Devleti Necid'de Hucr b. Amr tarafından Himyerîler'e tâbi olarak",
+    "0632-09-19 Ridde Savaşları: Hâlid b. Velîd Tuleyha'ya karşı yürüdü (Büzâha)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "63",
+     "durum": "tek_kaynak",
+     "koord": {
+      "lat": 25.0,
+      "lon": 45.5
+     },
+     "not": ""
+    }
+   ]
+  },
+  {
+   "ad": "Kayravan",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    800,
+    800
+   ],
+   "ornek_maddeler": [
+    "0800-01-01 İbrahim b. el-Ağleb Ifrîkıye'de Ağlebî emirliğini kurdu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 35.6781,
+      "lon": 10.09633,
+      "kaynak": "GeoNames 2473449 Kairouan"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Fes",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    808,
+    808
+   ],
+   "ornek_maddeler": [
+    "0808-01-01 II. İdrîs Fas şehrini başkent olarak kurdu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 34.03313,
+      "lon": -5.00028,
+      "kaynak": "GeoNames 2548885 Fes"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Daxing",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    581,
+    581
+   ],
+   "ornek_maddeler": [
+    "0581-03-04 Yang Jian tahtta divan kurdu; Sui Hanedanı resmen kuruldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 4 aday: Daxing 22.96916,102.40611; Daxing 39.74025,116.32693; Daxing 27.26369,100.86387; Daxing 29.55605,106.16002"
+    }
+   ]
+  },
+  {
+   "ad": "Laos",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    900,
+    900
+   ],
+   "ornek_maddeler": [
+    "0900-01-01 Khmer krallığı bugünkü Burma, Laos ve Tayland'ın geniş alanlarını kaps"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 39.7667004238,
+      "lon": 15.829829572,
+      "kaynak": "Pleiades 452361"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Boulogne",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    293,
+    293
+   ],
+   "ornek_maddeler": [
+    "0293-01-01 Constantius Chlorus Boulogne donanma üssünü aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Boulogne-sur-Mer 50.72485,1.61373; Boulogne-sur-Gesse 43.28825,0.64797; Boulogne-Billancourt 48.83545,2.24128"
+    }
+   ]
+  },
+  {
+   "ad": "Silchester",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    296,
+    296
+   ],
+   "ornek_maddeler": [
+    "0296-01-01 Constantius Britanya'ya çıktı; Allectus Silchester yakınında öldürüldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 51.3572048631,
+      "lon": -1.08239136468,
+      "kaynak": "Pleiades 79368"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Calleva Atrebatum, Silchester; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Selsey Bill",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    477,
+    477
+   ],
+   "ornek_maddeler": [
+    "0477-01-01 Aelle Selsey Bill yakınına çıkıp Britonları yendi; Güney Saksonların g"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 50.73501,
+      "lon": -0.78979,
+      "kaynak": "GeoNames 2638219 Selsey"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Selsey; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Rochester",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    676,
+    676
+   ],
+   "ornek_maddeler": [
+    "0676-01-01 Mercia kralı Aethelred Kent'i yağmaladı, Rochester'ı aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "2 ayrı Pleiades kümesi: Bremenium 55.281,-2.265; Durobrivae 51.390,0.503"
+    }
+   ]
+  },
+  {
+   "ad": "Forfar",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    685,
+    685
+   ],
+   "ornek_maddeler": [
+    "0685-05-20 Nechtanesmere: Ecgfrith Piktlere yenilip öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 56.64382,
+      "lon": -2.89001,
+      "kaynak": "GeoNames 2649207 Forfar"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Bensington",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    779,
+    779
+   ],
+   "ornek_maddeler": [
+    "0779-01-01 Offa Cynewulf'u yenip Bensington'ı aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 5 aday: Benson 51.62073,-1.10979; Benson 35.38211,-78.54862; Benson 45.315,-95.6025; Benson 31.96786,-110.29452 [ALIAS eşlemesi: Benson; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Repton",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    874,
+    874
+   ],
+   "ornek_maddeler": [
+    "0874-01-01 Burgred Repton'a ilerleyen Danimarkalılarca Mercia'dan sürüldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 52.83983,
+      "lon": -1.55061,
+      "kaynak": "GeoNames 2639489 Repton"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Saint-Maurice d'Agaune",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    888,
+    888
+   ],
+   "ornek_maddeler": [
+    "0888-01-01 Rodolphe (Welf) Agaune'da Burgonya kralı seçildi (Transjurane Burgonya"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 13 aday: Saint-Maurice 46.21826,7.0032; Saint-Maurice-sur-Moselle 47.85889,6.82477; Saint-Maurice-sur-Fessard 47.99231,2.62157; Saint-Maurice-Montcouronne 48.58288,2.12504 [ALIAS eşlemesi: Saint-Maurice, Agaunum, Agaune; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Tamworth",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    918,
+    918
+   ],
+   "ornek_maddeler": [
+    "0918-06-12 Aethelflaed öldü; Edward Mercia'yı Wessex'e kattı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Tamworth -31.09048,150.92905; Tamworth 52.63399,-1.69587; Tamworth 43.8598,-71.26313"
+    }
+   ]
+  },
+  {
+   "ad": "Semender",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    968,
+    968
+   ],
+   "ornek_maddeler": [
+    "0968-01-01 Rus seferleri Hazar şehri Semender'i yıktı (968'den sonra)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.98556,
+      "lon": 47.40393,
+      "kaynak": "GeoNames 12750458 Semender"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Cerme",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    666,
+    666
+   ],
+   "ornek_maddeler": [
+    "0666-03-13 Ukbe b. Nâfi Fizan'ı (Garamant ülkesini) fethetti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -7.7772,
+      "lon": 114.0487,
+      "kaynak": "GeoNames 1647169 Cermee"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Tâfîlâlt",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    757,
+    757
+   ],
+   "ornek_maddeler": [
+    "0757-05-25 Ebü'l-Kâsım b. Semkû Sicilmâse şehrinin temelini attı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.28318,
+      "lon": -4.26565,
+      "kaynak": "GeoNames 2538027 Reçani"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Sijilmasa, Tafilalt, Rissani; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Zâb",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    929,
+    929
+   ],
+   "ornek_maddeler": [
+    "0929-02-14 Muhammed b. Hazer Zâb bölgesinin tamamına hâkim oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.06629,
+      "lon": 1.12602,
+      "kaynak": "GeoNames 2502924 Boukadir"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Germania",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    213,
+    213
+   ],
+   "ornek_maddeler": [
+    "0213-01-01 Alamanlar Roma saldırısı vesilesiyle ilk kez anılır"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.289175,
+      "lon": 23.264178,
+      "kaynak": "Pleiades 481844"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Tolbiacum",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    496,
+    496
+   ],
+   "ornek_maddeler": [
+    "0496-01-01 Clovis Alamanları fethedip Frank topraklarına kattı (Tolbiacum)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 50.6912725,
+      "lon": 6.647617,
+      "kaynak": "Pleiades 109382"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Zülpich",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    496,
+    496
+   ],
+   "ornek_maddeler": [
+    "0496-01-01 Clovis Alamanları fethedip Frank topraklarına kattı (Tolbiacum)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 50.69447,
+      "lon": 6.65414,
+      "kaynak": "GeoNames 2803723 Zülpich"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Elbe",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    870,
+    870
+   ],
+   "ornek_maddeler": [
+    "0870-01-01 Alman Louis'in topraklarının Almanya'nın ortaçağ sınırına ulaşması"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 52.08333,
+      "lon": 10.28333,
+      "kaynak": "GeoNames 3208598 Elbe"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Yesrib",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    622,
+    622
+   ],
+   "ornek_maddeler": [
+    "0622-09-24 Hicret: Hz. Muhammed Yesrib'e (Medine) girdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 24.46547,
+      "lon": 39.6162643,
+      "kaynak": "Pleiades 814688"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Destgird",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    628,
+    628
+   ],
+   "ornek_maddeler": [
+    "0628-01-01 Herakleios Destgird'e girdi (Ocak 628)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.897044,
+      "lon": 44.652757,
+      "kaynak": "Pleiades 894188"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Dastagird, Dastgerd; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Yedisu",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    635,
+    635
+   ],
+   "ornek_maddeler": [
+    "0635-01-01 Batı Göktürk topraklarında boylar kendi aralarında örgütlenip Türgişle"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 39.43277,
+      "lon": 40.53368,
+      "kaynak": "GeoNames 297286 Yedisu"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Fihl",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    635,
+    635
+   ],
+   "ornek_maddeler": [
+    "0635-01-23 Fihl Savaşı: Müslümanlar Bizans kuvvetlerine ağır kayıp verdirdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 32.4495013404,
+      "lon": 35.6149158139,
+      "kaynak": "Pleiades 678326"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Tabaqat Fahl, Pella of the Decapolis; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Kâdisiye",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    636,
+    636
+   ],
+   "ornek_maddeler": [
+    "0636-01-01 Kâdisiye Savaşı: Müslümanlar Sâsânî ordusunu yendi, Rüstem öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.583332,
+      "lon": 44.5,
+      "kaynak": "Pleiades 912923"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  }
+ ]
+}

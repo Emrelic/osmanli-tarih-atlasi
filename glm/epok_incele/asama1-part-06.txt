@@ -1,0 +1,305 @@
+##0301 Küngrat [İran-Kafkas] · SAHIP=altinorda (Altın Orda (Deşt-i Kıpçak Hanlığı)) · kungrat · yer=1
+  Y[1200] Cengiz Han’ın liderliğindeki Moğol istilâsı genişlediği sırada aynı çatı altında yaşayan Kungrat kabileleri Cengiz Han’ın baskısı altında kaldılar ve başka kabilelerle birleşerek 1200 yılında Alguybulak denen mevkide Cengiz Han ve On Han’a karşı savaş hazırlı…
+  Y[1201] 1201’de Kungrat kabilesi tekrar Cengiz’e karşı birlik oluşturdu.
+  E[None] Cengiz Han’ın himayesine giren Kungratlar XIII.
+  E[1763] 1763’te Hârizm Hanı Timur-Gazi Han’ın öldürülmesinden sonra Mangıt, Kıpçak ve Kungrat boyları arasında saltanat kavgası başladı ve Mangıt boyu hâkimiyetini Kungratlar’a bırakmak zorunda kaldı.
+
+##0302 Merv (Mari) [İran-Kafkas] · SAHIP=ilhanli (İlhanlı Devleti) · merv · yer=1
+  Y[1221] Oğuzlar’ın ardından önce Hârizmşah Alâeddin Tekiş’e isyan eden kardeşi Sultan Şah’ın ve daha sonra kısa bir süre için Gurlular’ın ve tekrar Hârizmşahlar’ın hâkimiyetine giren Merv, Moğol istilâsı sırasında Cengiz Han’ın oğlu Tuluy tarafından yağma ve tahrip e…
+  Y[1220] yüzyıllar yerleşmesini çeviren kale 1095’te Arslan Argun, 1153’te Oğuzlar tarafında tahrip edilmiş, fakat 1220-1221’deki Moğol istilâsına kadar her defasında yeniden onarılarak kullanılmıştır.
+  E[1063] Alparslan’ın Selçuklu tahtına geçmesiyle birlikte (455/1063) şehir Horasan’ın idaresiyle görevlendirilen Selçuklu şehzadelerinin merkezi haline geldi.
+  E[1119] Tapar’ın vefatından sonra gelişen olaylarda Sencer’in Selçuklu tahtına müdahalesi ve Sâve savaşıyla (513/1119) hâkimiyeti ele geçirmesinin ardından Büyük Selçuklu İmparatorluğu’nun başşehri oldu.
+  E[1141] Sultan Sencer’in Karahıtaylar karşısında uğradığı Katvân felâketinin (536/1141) ardından yaklaşık bir yıl uzak kaldığı Merv bu sırada Hârizmşah Atsız’ın hâkimiyetine girdi.
+  E[1118] Selçuklu devrinde tamamen bir Türk şehri karakteri kazanan Merv başşehir olduğu dönemde (1118-1157) mimarlıkta da büyük gelişme göstermiştir.
+
+##0303 Divriği [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · divrigi · yer=1
+  Y[1276] İlhanlı Hükümdarı Abaka Han 1276-1277’de Memlük Sultanı I.
+  Y[1300] Alâeddin Keykubad Malatya kuşatmasından bir sonuç elde edemeyip Divriği’ye gelince burası disiplinsiz askerler tarafından yağmalandı (1300-1301).
+  Y[1228] Divriği’nin önemli eseri olan Divriği Ulucamii ve Dârüşşifâsı, 1228’de Şehinşah’ın torunu Ahmed Şah ve eşi Âdil Melike Turhan tarafından bir külliye olarak yaptırılmıştır.
+  E[395] Kapadokya’nın Roma İmparatorluğu’na bağlanmasından ve 395’te imparatorluğun ikiye ayrılmasından sonra Doğu Roma (Bizans) toprakları içinde kaldı.
+  E[1066] 1066 yılında Büyük Selçuklu Emîri Gümüştegin’in Murad ve Dicle havzalarına yaptığı akınlar sırasında yıkılan Divriği Kalesi’nin surları yeniden müstahkem hale getirildi.
+  E[1391] Kadı Burhâneddin ile Amasya Emîri Hacı Şadgeldi Paşa arasındaki mücadelelerden faydalanan Memlükler tarafından zaptedildi (1391).
+  E[1398] Sultan Berkuk’un ölümünden sonra yerine küçük yaştaki oğlu Ferec’in geçmesiyle Memlük Devleti’nin idarî işleri bozulunca Yıldırım Bayezid 1398’de Sivas, Malatya, Besni (Behisni), Darende ve Divriği’yi iki ay muhasaradan sonra Osmanlı topraklarına kattı.
+
+##0304 Arapkir [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · arapkir · yer=1
+  E[1515] yüzyıl başında Timûrîler tarafından zaptedilen Arapkir, Yavuz Sultan Selim zamanında Osmanlı idaresine alındı (1515).
+  E[1525] Osmanlı idaresine geçtikten sonra Kanûnî Sultan Süleyman döneminde 932’de (1525) yapılan ilk tahririne göre Arapkir’de iki mahalle, yaklaşık 900 kadar müslüman ve yine 900 civarında Ermeni nüfus bulunmaktaydı.
+  E[1527] 934 (1527) yılında yapılan diğer bir tahrirde Arapkir’in merkezinde yaklaşık 800 müslüman ve 600 Ermeni nüfus vardı.
+  E[1935] 1935’te nüfusu 6810 olarak tesbit edilmiş, ancak Malatya, Elazığ ile yol bağlantıları, Cumhuriyet’in ilk dönemlerinde Sivas-Erzurum, Sivas-Malatya demiryollarının yakınından geçmesi gibi sebeplerle kısmî bir gelişme içerisine girmiştir.
+
+##0305 Hısn-ı Mansûr (Adıyaman) [Anadolu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · adiyaman · yer=1
+  E[1066] yüzyılda yeniden Bizanslılar’a geçti ve Türkler’ce ilk defa 1066’da Selçuklu kumandanı Gümüştegin tarafından alındı.
+  E[1515] 67), Yavuz Sultan Selim tarafından 1515’te Diyarbekir’in fethi sırasında kesin olarak Osmanlı topraklarına katıldı.
+  E[1519] Osmanlı idarî teşkilâtında Besni’nin bir nahiyesi iken 1519’dan itibaren Gerger, Kâhta ve Besni ile birlikte Maraş eyaletine bağlı sancaklar arasında yer aldı.
+  E[1066] Türkmen beylerinden Hanoğlu Hârûn et-Türkmânî’nin, emrindeki Türkmenler’le Kuzey Suriye hâkimiyeti için Bizans’a karşı yaptığı mücadelelerden sonra, asıl tesirli baskılar 1066’da Bekçioğlu Emîr Afşin kumandasında gerçekleştirildi.
+
+##0306 Behisni (Besni) [Anadolu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · besni · yer=1
+  Y[1218] 1218’de Halep-Suriye üzerine yürüyen ve başarısızlığa uğrayarak geri çekilen Anadolu Selçuklu Sultanı İzzeddin Keykâvus tarafından kuşatıldı, fakat alınamadı.
+  Y[1260] 1260’ta Hülâgû’nun Suriye seferi sırasında Moğollar tarafından zaptedildi.
+  Y[1261] Moğollar’ın yöreden ayrılmasından hemen sonra Besni Ermeniler’in saldırılarına uğradı, Memlükler’den herhangi bir yardım gelmeyince kale 1261’de Ermeni kralına teslim oldu.
+  Y[1266] Memlük Sultanı Baybars 1266’da Kilikya’ya inerek Sîs Kralı Hethum’un oğlu Leyfon’u esir aldı.
+  Y[1268] Ancak Sultan Baybars, emîrlerinden Sungur’un ricasıyla sadece Besni’nin Ermeniler’in elinde kalmasına razı oldu (1268).
+  Y[1293] Besni ve yöresi 1293’te tekrar Memlükler’in eline geçti ve Halep valiliğine bağlı nâibliklerden birini teşkil etti.
+  E[670] Başta Besni olmak üzere Güneydoğu Anadolu bölgesindeki bazı yöreler 670’te Emevî orduları tarafından zaptedildi.
+  E[949] 949’da Bizanslılar tarafından Hamdânî Emîri Seyfüddevle’den alındı ve bir asır kadar Bizanslılar’ın elinde kaldı.
+  E[1084] 1084’te Anadolu Selçuklu Devleti’nin kurucusu Kutalmışoğlu Süleyman Şah’ın kumandanlarından Buldacı tarafından fethedildi.
+  E[1097] 1097’de Haçlılar Maraş’ı zaptettikten sonra Besni ve Keysûn Kogh Vasil (Hırsız Vasil) adında bir Ermeni’nin hâkimiyeti altına girdi ve 1116’da da Urfa Kontu II.
+
+##0307 Podgorica [Balkan] · SAHIP=sirbistan (?sirbistan) · podgorica · yer=1
+  Y[1216] Burası Ribnica ve Morača nehirlerinin birbirine karıştığı yerde, küçük ve açık bir yerleşme yeri olarak ilk defa Ribnica adıyla 1216’da zikredilir.
+  E[1457] Şehir, 861’de (1457) Osmanlı topraklarına katıldı.
+  E[1474] 879-883 (1474-1478) yılları arasında Fâtih Sultan Mehmed, Ribnica ve Morača nehirlerinin birbirine kavuştuğu, dik sarp kayalıklar tarafından korunmuş olan bölgeye bir kale ve cami inşa ettirdi.
+  E[1775] 1189’da (1775) İşkodra Paşası Buşatlı Mehmed Paşa, Morača nehri üzerinde bir taş köprü ve Duračka Camii olarak bilinen bir cami inşa ettirdi (her ikisi de II.
+  E[1997] Osmanagiç Camii 1997-1998 yıllarında restore edildi.
+
+##0308 Böğürdelen (Šabac) [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · bogurdelen · yer=1
+  E[1471] Fâtih Sultan Mehmed zamanında Osmanlılar’ın eline geçen bu önemli mevkide 1471’de ahşap ve topraktan bir hisar yapıldı.
+  E[1492] 1492’de gerçekleştirilen başarısız bir Osmanlı muhasarasından sonra, Kanûnî’nin birinci Macaristan seferi sırasında, bölgeye gönderilen Rumeli Beylerbeyi Ahmed Paşa’nın kuvvetleri tarafından şiddetli bir kuşatma neticesinde fethedildi (7 Temmuz 1521).
+  E[1695] Şehir 1688 ve 1695’te kısa süreli olarak elden çıkmasına rağmen 200 yıla yakın süren ilk Osmanlı dönemi sırasında önce Rumeli, 1580’den itibaren Bosna eyaleti içinde yer aldı.
+  E[1788] 1739-1788 arasında Osmanlı Devleti’ne bağlı olan Böğürdelen, 24 Nisan 1788’de yeniden Avusturyalılar’ın hâkimiyetine girdiyse de Ziştovi Antlaşması gereğince 1791’de tekrar Osmanlılar’a geri verildi.
+
+##0309 Aksaray [Anadolu] · SAHIP=selcuklu (Anadolu (Türkiye) Selçuklu Devleti) · aksaray · yer=1
+  E[1155] İzzeddin Kılıcarslan’ın (1155-1192) yaptırdığı saraya nisbetle Aksaray adını aldı; bu isim Bizans kaynaklarında Táxara (Tò ’Ak Sará) şeklinde geçmektedir.
+  E[1397] Yıldırım Bayezid zamanında Osmanlı topraklarına katıldı (1397).
+  E[1402] Yıldırım Bayezid’in 1402’de Ankara Savaşı’nda Timur’a mağlûp olmasından sonra tekrar Karamanoğulları hâkimiyetine geçen şehir, Fâtih Sultan Mehmed’in 1468’de bu beyliğe son vermesinden sonra kesin olarak Osmanlı Devleti idaresine girdi.
+
+##0310 Travnik [Balkan] · SAHIP=bosna (?bosna) · travnik · yer=1
+  Y[1244] 1244’te Lašva bölgesi (Župa) Macar Kralı II.
+  E[1699] 1699-1851 yılları arasında Bosna vezirlerinin ikamet ettiği yer olup bu dönemde pek çok cami, okul, hamam, tekke ve diğer binalarla donatılmıştır.
+  E[1463] Travnik adı ilk defa 1463’te Fâtih Sultan Mehmed’in Bosna seferiyle ilgili olarak zikredilir.
+  E[1480] 1480’de Saraybosna’ya karşı Vuk Grgurević’in yıkıcı Macar saldırısı neticesinde Travnik Kalesi’ne bir garnizon yerleştirildi ve II.
+  E[1485] Bu yerleşim birimine ilk defa 890 (1485) tarihli Bosna İcmal Defteri ’nde rastlanır.
+
+##0311 İzvornik (Zvornik) [Balkan] · SAHIP=bosna (?bosna) · izvornik · yer=1
+  E[1991] Kasabanın merkez olduğu idarî bölgedeki altmış yedi yerleşim biriminde savaş öncesinde (1991) 81.295 kişi yaşamakta olup nüfusun yaklaşık % 60’ını Boşnak, % 38’ini Sırplar teşkil etmekteydi.
+  E[1991] Günümüzde Bosna-Hersek’in Sırp bölgesinde (Republika Srpska) kalan kasaba merkezinin nüfusu ise 1991’de 14.584 iken savaş yüzünden müslümanlar ve Hırvatlar burasını tamamen terketmişlerdir.
+  E[1415] 1415-1432 yılları arasında Dubrovnikliler’in nüfuzu altına giren İzvornik’te bu dönemden itibaren gümüş ticareti yaygınlaşmış ve bu ticaret Osmanlı döneminde de devam etmiştir.
+  E[1460] Osmanlılar burayı 1460’ta fethettiler, idarî ve askerî açıdan iyi konumda bulunduğundan bir kaza merkezi yaptılar.
+
+##0312 Foça (Foča) [Balkan] · SAHIP=bosna (?bosna) · foca · yer=1
+  E[1465] Buranın Osmanlı idaresine geçişi 1465’te gerçekleşmiştir.
+  E[1550] Bunlardan en dikkate değer olanı, 957’de (1550) Bosna madenleri nâzırı Hasan Nâzır Ağa tarafından yaptırılan Alaca Cami’dir.
+  E[1749] Çok değerli diğer bazı dinî yapıların yanı sıra, Foçalı olup Bosna sancak beyi Hekimoğlu Ali Paşa’nın kethüdâlığından yetişerek 1749’da kapıcıbaşılık, 1752’de Bosna beylerbeyiliği yapan ve bölgede çıkan isyanı bastırdıktan sonra 1760’ta Yanya’ya gönderilen, a…
+  E[1988] Osmanlı dönemi boyunca önemli edebî ve dinî eserler de yazılmıştır (1988’e kadar gelen, kullanıma açık olan elli yedi yazma eser mevcuttu).
+
+##0313 Livno (İhlevne) [Balkan] · SAHIP=bosna (?bosna) · livno · yer=1
+  E[952] 952’de Bizans İmparatoru Konstantinos Porfirogennetos tarafından Hırvat Krallığı’nın bir bölgesi şeklinde De Administrando imperio ’da zikredilmiştir.
+  E[1326] 1326’da Stjepan (Stefan) Kotromanić idaresindeki Bosna Devleti’ne ilhak edilinceye kadar Hırvatistan’ın bir parçası olarak kaldı.
+  E[1400] 1400’de Bosna Kralı Ostoje burayı voyvoda H.
+  E[1448] 1448-1454 yılları arasında Livno, Hersek Düklüğü’nün kurucusu olan ve Bosna Kralı Stjepan Tomašević ile daima bir çatışma içinde bulunan Stjepan Vukčić-Kosača’nın elindeydi.
+
+##0314 Yergöğü (Giurgiu) [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · yergogu · yer=1
+  E[1394] Giurgiu meskûn bir yer olarak ilk defa 1394’te Codex Latinus Parisinus ’ta geçer.
+  E[1417] Bu kale son araştırmalara göre 1417’de değil 1420’de Osmanlılar’ca ele geçirildi.
+  E[1449] Ancak 853’te (1449) burası tekrar Osmanlı kontrolü altına girdi ve XVI.
+  E[1545] Bazı kaynaklara göre ise burada kesin Osmanlı idaresi 952’de (1545) tesis edildi.
+
+##0315 Dubrovnik [Balkan] · SAHIP=venedik (Venedik Cumhuriyeti) · dubrovnik · yer=1
+  Y[1282] 1282’de düzenlenen anayasa ile aristokrat bir cumhuriyet oluşturuldu ve buna Saint Blaise unvanı verildi.
+  E[1365] <p>1365’ten itibaren Osmanlı Devleti’nin himayesinde bulunan ve 1806’ya kadar aynı adı taşıyan küçük bir Slav cumhuriyetinin merkezi durumunda olan şehir, VIII.
+  E[867] Sicilya’ya hâkim olan Ağlebîler’e ait bir filo 867’de burasını kuşattı ve Dubrovnik on beş ay süren bu kuşatmadan Bizans donanmasının yardımı sayesinde kurtulabildi.
+  E[998] yüzyıl sonlarında da Venedik’e bağlandı (998).
+  E[1358] 1204 paylaşmasında Venedik Bizans’ın Balkanlar’daki topraklarını ele geçirince Dubrovnik üzerindeki hâkimiyeti daha da artarak 1358’e kadar sürdü.
+
+##0316 Akmescid [Kırım-Karadeniz] · SAHIP=altinorda (Altın Orda (Deşt-i Kıpçak Hanlığı)) · akmescid · yer=1
+  E[1850] 1850 yıllarında burada yaşayan bir İngiliz leydisi hâtıratında, hâkim sınıfı Tatar Türkleri’nin oluşturduğunu, bunların şehrin en güzel yerlerinde oturduklarını, nüfusun 13.000 civarında olduğunu ve halk arasında yahudiler, Rumlar ve Ermeniler’in de bulunduğu…
+  E[1797] Simon Pallas, tarihî Akmescid’de, diğer Kırım şehirlerinde olduğu gibi birbirine paralel dar sokakların ve çatıları kiremitle örtülü alçak evlerin bulunduğunu, güzel bahçeler içerisinde garnizona çevrilen bir caminin ve 1797’de Rumlar tarafından inşa edilen b…
+  E[1982] Aralarında Simferopol Üniversitesi de bulunmak üzere üç büyük yüksek öğretim kurumuna sahip olan 319.000 (1982) nüfuslu Simferopol, bölgenin ilim ve sanat merkezi olma hüviyetini devam ettirmekte, ayrıca troleybüs hattı ile bağlandığı Güney Kırım sahillerinin…
+
+##0317 Karasubazar [Kırım-Karadeniz] · SAHIP=altinorda (Altın Orda (Deşt-i Kıpçak Hanlığı)) · karasubazar · yer=1
+
+##0318 Tedmür (Palmyra) [Ortadoğu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · tedmur · yer=1
+  Y[1303] 702 (1303) yılında Tedmür yakınlarında Memlükler’le İlhanlılar arasında yapılan savaş Memlükler’in galibiyetiyle sonuçlandı.
+  E[325] Şehri, Bizans İmparatorluğu’nun kurucusu Büyük Konstantinos’un 325 yılında topladığı İznik Konsili’nde Piskopos Marinus, 451 yılındaki Khalkedon (Kadıköy) Konsili’nde Piskopos Ioannes temsil etti.
+
+##0319 İskeçe [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · iskece · yer=1
+  Y[1204] Haçlı Seferi’nden (1204) sonra buranın önemi artmaya başladı.
+  Y[1206] 1206’da Bulgar Çarı Kaloyan’ın, hemen yakınındaki Mosinipolis (Misine Hisar) ve Perithéôrion (Boru Kale) adlı kaleleri tahrip etmesiyle Xanthi bu iki eski kasabanın yerini aldı.
+  Y[1282] Andronikos (1282-1328) burayı başpiskoposluk makamı haline getirdi.
+  E[1373] 1373-1912 yılları arasında kaldığı Osmanlı hâkimiyeti altında özellikle XVIII ve XIX.
+  E[1342] Eserde, 1342-1343 yıllarında Aydınoğlu Umur Bey ile müttefiki İmparator Ioannes Kantakuzenos arasındaki münasebetlerden söz edilirken kasabanın adı “Eksya” şeklinde geçer ve buranın büyük bir şehir olduğu belirtilir.
+  E[1345] Kasaba bir müddet Bulgar eşkıyası Momçila’nın mekânı olduysa da 1345’te Umur Bey onun hükümranlığına son verdi.
+  E[1366] 1366’da ve daha sonraki yıllarda İskeçe ve civarı Ugleşa prensliğinin sınırları dahilinde Sırplar’ın elinde bulunuyordu.
+
+##0320 Trebinye [Balkan] · SAHIP=bosna (?bosna) · trebinye · yer=1
+  E[1699] Trebinye bir şehir halinde Karlofça Antlaşması’ndan sonra 1699 yılında Osmanlılar tarafından kurulmuştur; Slav hâkimiyetindeki Ortaçağ süresince önemli bir sınır istihkâmı durumundaydı.
+  E[1353] Tvrtko’nun idaresi zamanında (1353-1391) bölge Bosna’ya dahil edildi.
+  E[1466] 1466’da Trebinye hemen hemen bütün Hersek bölgesiyle birlikte Osmanlılar tarafından ele geçirildi.
+  E[1468] 873 (1468-69) tarihli Bosna’nın en eski Osmanlı Tahrir Defteri ’nde burası Trabina adıyla bir nahiye merkezi şeklinde geçer.
+
+##0321 Koniçe (Konjic) [Balkan] · SAHIP=bosna (?bosna) · konice · yer=1
+  E[1463] Bosna’nın 867’den (1463) itibaren Osmanlı idaresi altına girdiği sırada küçük bir köy durumundaydı.
+  E[1992] Koniçe, 1992-1995’teki Bosna iç savaşı sırasında Mostar kadar olmasa da hayli zarar görmüş, 2001’de hasara uğrayan yerler restore edilmiştir.
+
+##0322 Sebte (Ceuta) [Kuzey Afrika] · SAHIP=merini (Merînî ve Vattâsî Fas Krallığı) · sebte · yer=1
+  Y[1232] Sebte, Muvahhidler’in yıkılışının ardından 1232’den itibaren kısa bir süre Endülüs’ün büyük bölümünü hâkimiyeti altına alan Muhammed b.
+  Y[1234] Sebte’yi başarıyla yöneten Yâneştî şehri Ceneviz saldırılarına karşı savundu (632/1234-35).
+  Y[1242] Şehrin valisi İbn Halâs el-Belensî’nin Ebû Zekeriyyâ Yahyâ’ya itaatini bildirmesiyle Sebte bu defa Hafsîler’in nüfuz alanına girdi (640/1242-43).
+  Y[1273] Bu sırada Mağrib’in liman ve tersane şehirleri Tanca ile Sebte’yi almaya karar veren Merînî Sultanı Ebû Yûsuf Ya‘kūb, 672’de (1273-74) Sebte’yi ele geçirdi.
+  Y[1306] 705’te (1306) Nasrîler’in eline geçen Sebte geri alındı (709/1309) ve Mûsâ b.
+  E[1384] Ebû İnân’ın, şehri hâmisi Gırnata Nasrî sultanının egemenliğine vermesine kadar (786/1384) Merînîler’in elinde kaldı.
+  E[1419] Merînî Sultanı Ebû Saîd’in Sebte’yi geri alma teşebbüsü sonuç vermedi (1419).
+  E[1578] Sa‘dîler döneminde, tahtını bırakıp kendisine sığınmak zorunda kalan ve yardımı karşılığında Mağrib sahillerini ona devredeceğini açıklayan Muhammed el-Mütevekkil’e destek bahanesiyle Mağrib’e geçen Portekiz Kralı Sebastian, Vâdilmehâzin savaşında Sa‘dîler ka…
+
+##0323 Safi (Asfi) [Kuzey Afrika] · SAHIP=merini (Merînî ve Vattâsî Fas Krallığı) · safi · yer=0
+
+##0324 Benhâ (Kalyûbiye) [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · benha · yer=1
+
+##0325 Ebûkîr [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · ebukir · yer=1
+  E[1799] Öte yandan Köse Mustafa Paşa kumandasındaki Osmanlı kuvvetleri, 25 Temmuz 1799’da, Akkâ’dan mağlûp olarak dönen Napolyon tarafından burada yenilgiye uğratıldı ve Ebûkīr Kalesi Fransızlar’ın eline geçti.
+  E[1801] Osmanlı Devleti’ne yardım etmek ve Mısır’daki Fransız işgaline son vermek üzere gelen Amiral Abercromby idaresindeki İngiliz ordusu, 8 Mart 1801’de buradan karaya çıktıktan sonra 21 Mart’ta Fransız kumandanı Menou’yu mağlûp etti.
+
+##0326 Feyyûm [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · feyyum · yer=1
+  E[1173] Eyyûbîler Şiîler’in merkezi olan bu bölgede Sünnîliği yaymak gayesiyle medreseler açtılar; Selâhaddîn-i Eyyûbî 1173’te burada el-Hankāhu’s-Sâlihiyye’yi yaptırdı.
+  E[1517] Nitekim Feyyûm kâşifi Cânim es-Seyfî 1517’de Osmanlı ordusuna katılarak Mısır’ın Türkler tarafından fethinde rol oynamış, 1522’de ise Garbiye kâşifi İnal ile birlikte isyana kalkıştığı için bertaraf edilmiştir.
+  E[1524] Mısır kanunnâmesinin tanziminden (1524) sonra bütün ülkede Osmanlı idaresi hissedilir hale geldi ve diğer vilâyetler gibi Feyyûm da otorite altına alındı; ancak daha sonra burası XVII ve XVIII.
+  E[1806] İşgalci kuvvetlerin çekilmesinden (1806) sonra Memlük beylerinden Yâsin Bey tarafından ele geçirilen Feyyûm’u Kavalalı Mehmed Ali Paşa büyük bir mücadele ile geri aldı (1810).
+
+##0327 Kına [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · kina · yer=1
+  E[1980] Anadolu’da 1980’li yıllara kadar Alanya ve Silifke’de meraklıları tarafından az miktarda yetiştirildiği bilinmektedir.
+
+##0328 Tûr (Sînâ) [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · sina · yer=1
+
+##0329 Benzert (Bizerte) [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · benzert · yer=1
+  E[1534] Benzert Osmanlılar devrinde ilk defa Barbaros Hayreddin Paşa tarafından fethedilmiş (1534), bir ara İspanyollar’ın eline geçmişse de 1557’de Kaptanıderyâ Piyâle Paşa tarafından tekrar Osmanlı hâkimiyetine dahil edilmiştir.
+  E[1785] Bu sebeple zaman zaman Malta şövalyelerinin, Fransızlar’ın ve Venedikliler’in saldırılarına mâruz kaldı; 1785’te Venedikliler tarafından tamamen tahrip edildi.
+  E[1768] Fransızlar’ın Benzert ile ilgili emelleri, özellikle 1768 yılında Tunus Beyi Ali Bey zamanında kendilerine sahillerde mercan avlama ve ticaret merkezi açma izninin verilmesiyle ortaya çıktı.
+
+##0330 Halkulvâdî [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · halkulvadi · yer=1
+  E[1534] Ancak Hızır Reis’in Osmanlı deniz kuvvetlerinin kumandanı oluşunun ardından 1534’te Tunus’la birlikte burası da Osmanlı hâkimiyeti altına alındı ve yeniden tahkim edildi.
+  E[1571] 1571 yılında İnebahtı’da yakılmasından sonra yenilenen ve Akdeniz’de tekrar faaliyet göstermeye başlayan Osmanlı donanması, 1574’te Koca Sinan Paşa’nın serdarlığında ve Kılıç Ali Paşa’nın kaptanıderyâlığında Calabria ve Messina taraflarını vurduktan sonra 22 …
+
+##0331 Kef [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · firaset · yer=1
+
+##0332 Sûse [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · suse · yer=1
+  E[439] 439’da Vandallar’ın ele geçirdiği şehir 535’te Bizanslılar tarafından geri alındı ve Iustiniapolis olarak adlandırıldı.
+  E[821] İbrâhim, 206’da (821) kalenin güneybatı kulesine şehri sahilden gelecek saldırılara karşı korumak üzere Kasrü’r-ribât adıyla anılan bir ribât inşa ettirdi.
+  E[943] Sûse halkı, 332’de (943-44) Fâtımî yönetimine isyan eden Hâricî Ebû Yezîd en-Nükkârî’ye karşı bir hareket başlattı ve yenilmesinde rol oynadı.
+  E[946] Endülüs Emevî donanması 335 (946-47) yılında Afrika sahillerine hücum edip Sûse bölgesini tahrip etti.
+
+##0333 Kafsa [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · kafsa · yer=1
+  Y[1205] 586’da (1190) Kafsa’yı Abdülkerîm er-Rakrâkī adlı bir âsi ele geçirdi; isyan bir yıl sonra bastırıldıysa da karışıklıklar 601 (1205) yılına kadar sürdü.
+  Y[1282] Araplar’dan destek alarak isyan eden, Kafsa’nın içinde bulunduğu bütün Güney Tunus’u ele geçiren ve halife ilân edilen İbn Ebû Umâre (681/1282), I.
+  E[534] 534’te Kafsa’yı işgal eden Bizans İmparatoru I.
+  E[897] Ya‘kūbî şehrin 284 (897) yılındaki durumunu tasvir ederken taşyapı surla tahkim edilmiş, içinde zengin su kaynakları bulunan, yolları taş döşemeli, çevresindeki çok sayıda binalarla mâmur ve meyveleri bol bir şehir diye tanıtır ( el-Büldân , s.
+  E[909] 296’da (909) Fâtımîler’in eline geçen Kafsa’da ilk yıllarda şiddetli mezhep çatışmaları yaşandı; Mâlikî fakihleriyle devletin desteklediği Şiî fakihleri arasında mücadele baş gösterdi.
+  E[1187] Selâhaddîn-i Eyyûbî tarafından gönderilen Şerefeddin Karakuş ve Zeyneddin Boz-aba’nın emrindeki Oğuzlar’dan oluşan bir askerî birliğin de katıldığı ordusuyla Kafsa yöresindeki Umre’de Muvahhidler’i bozguna uğrattı (583/1187); Kafsa dahil İfrîkıye’nin (Tunus) …
+
+##0334 Zâviye [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · tekke · yer=0
+  Y[1256] Azerbaycan’da Selçuklu Atabegleri devrinin sonunda, Bakü-Şamahı yolunda Alibayramlı mevkiinde Pirsagat nehri kıyısında 1256’da Mimar Şeyhzâde Habîbullah b.
+  Y[1304] İran’ın Netanz şehrinde İlhanlı dönemine ait cami-hankah-kümbet manzumesi (1304-1325) dönemin ileri gelen sûfîlerinden Şeyh Abdüssamed İsfahânî için tesis edilmiştir.
+  Y[1306] Baybars Çaşnigîr Hankahı’dır (1306).
+  Y[1288] Ebû Şems Hankahı (1288), Şeyh Meknûn Zâviyesi, Hoca Sümbül Baba Zâviyesi ve Halef Gazi Hankahı birbirine yakın tarihlerde ve yerlerde inşa edilmiştir.
+  Y[1213] Az sayıda örneği barındıran dördüncü gruptaki ribât/kervansaray yapılarıyla ilişkili tekkelere Maraş Ashâb-ı Kehf Ribâtı ile (1213-1214) Konya-Doğanhisar yolu üzerinde Aladağlar arasında Kalburcu (Güney) köyündeki Elikesik Han ve Zâviyesi iki farklı örnek ola…
+  Y[1300] Meselâ devletin henüz Türkmen Beyliği kimliğini koruduğu erken döneme (1300-1453) ait bazı tekkelerle, siyasal ve sosyoekonomik şartların güçlendirdiği fütüvvet kurumuyla bağlantılı tabhâneli/zâviyeli camiler arasında belirgin bir yakınlık gözlenir.
+  E[1826] Osmanlı döneminde bu uygulamanın en çarpıcı örneği, 1826’da yeniçeriliğin kaldırılmasıyla birlikte yasaklanan Bektaşîliğe ait tekkelere yapılan şeyh tayinlerinde görülmektedir.
+  E[1331] Osman Gazi’nin bir tekke şeyhi olan Edebâli ile alâkası, Orhan Gazi tarafından 1331’de İznik’te açılan ilk medresenin başına Fuṣûṣ şârihi Dâvûd-i Kayserî’nin getirilmesi, Yıldırım Bayezid’in Emîr Sultan, Fâtih Sultan Mehmed’in Akşemseddin’le ilişkileri, kurul…
+  E[1812] 1812’de tekke vakıflarını denetim altına alan Osmanlı Devleti, 1866’da şeyhülislâmlığa bağlı biçimde oluşturduğu Meclis-i Meşâyih’i tekkelerin yönetiminden sorumlu tutmuştur.
+  E[1919] Mustafa Kemal Paşa, Millî Mücadele için 1919’da faaliyete başladığı zaman Anadolu’nun muhtelif şehirlerinde bulunan tekke şeyhlerine mektuplar yazmıştır; bunlardan üçü Nutuk ’un III.
+
+##0335 Hums (Lebde) [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · hums · yer=0
+
+##0336 Tenes [Kuzey Afrika] · SAHIP=zeyyani (Zeyyânîler (Tilimsan)) · tenes · yer=1
+  Y[1289] 688’de (1289) Abdülvâdîler’in (Zeyyânîler) egemenliğine girdi.
+  E[815] 815 yılında İdrîsîler’in hâkimiyetine geçen Tenes önce İdrîsîler’le Fâtımîler arasındaki mücadeleye sahne oldu.
+  E[1517] Tenes şehri 1517’de Oruç Reis tarafından Osmanlı Devleti hâkimiyetine alındı.
+
+##0337 Mesîle [Kuzey Afrika] · SAHIP=zeyyani (Zeyyânîler (Tilimsan)) · mesile · yer=1
+  E[335] 335 yılı Receb ayında (Şubat 947) Mesîle’yi kuşatan Ebû Yezîd, Fâtımî Halifesi Mansûr-Billâh tarafından bölgeden uzaklaştırıldı; daha sonra yaralı olarak ele geçirildi ve beş gün sonra öldü (Muharrem 336 / Ağustos 947).
+
+##0338 Akīk [Arabistan-Hint] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · akik · yer=0
+
+##0339 Cimma (Jiren) [Arabistan-Hint] · SAHIP=kaffa (?kaffa) · cimma · yer=1
+
+##0340 Klis [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · klis · yer=1
+  E[1580] 1580’de Bosna vilâyeti tesis edildiğinde Klis sancağı ikiye ayrıldı ve kuzeybatısı Kırka adıyla Bosna vilâyetine bağlandı.
+  E[1645] Aynı durum 1645’te Venedikliler’in desteğiyle yeniden yaşandı.
+  E[1718] 1699 ve 1718’deki kısmî toprak kayıplarına rağmen Klis 1826’ya kadar Osmanlı sancağı olarak varlığını devam ettirdi.
+
+##0341 Bihaç (Bihać) [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · bihac · yer=1
+  Y[1260] Béla’nın 1260 yılına ait bir belgesinde Topuska (Hırvatistan) Sistersiyen tarikatının mülkü olarak geçer.
+  Y[1271] 1271’de şehir halkıyla başrahip arasında yapılan anlaşmada da benzer şekilde yer alır.
+  Y[1262] 1262’de krala bağlı şehir (royal free city) statüsünü kazanan Bihaç iyice tahkim edildi, surlarla çevrildi.
+  E[2012] 61.564 (2012) olan nüfusunun çoğunluğunu müslüman Boşnaklar oluşturur.
+  E[527] İmparator Iustinianos (527-565) burayı zaptedince Bizans İmparatorluğu bölgeye sahip oldu.
+  E[910] Tomislav (910-929) düklükleri birleştirdi ve Bihaç, Macar-Hırvat birliğinin kuruluşuna kadar (1102) Hırvat Krallığı’nın önemli bir merkezi oldu.
+  E[1382] Lajos’un ölümüne (1382) kadar Hırvatistan’a bağlıydı, daha sonra Bosna idaresine geçti.
+
+##0342 Málaga [Kuzey Afrika] · SAHIP=granada (Gırnata (Nasrî) Emirliği) · maleka · yer=1
+  Y[1238] 635’te (1238) Benî Ahmer Emirliği’nin (Nasrîler) hâkimiyetine geçen Mâleka yaklaşık 250 yıl bu hânedanlığın elinde kalmış, 750’deki (1349) veba salgını yüzünden şehrin nüfusu azalmıştır.
+  Y[1232] Arié, L’Espagne musulmane au temps des Naṣrides (1232-1492) , Paris 1973.
+  Y[1239] de Coca Castañer, “Málaga, del Islam al cristianismo (1239-1570)”, a.e.
+
+##0343 Cebelitarık (Gibraltar) [Kuzey Afrika] · SAHIP=granada (Gırnata (Nasrî) Emirliği) · cebelitarik · yer=1
+  Y[1309] Nitekim 709 (1309) yılında Alonso Pérez de Guzmán el-Bueno Kastilya Kralı IV.
+  E[1159] Bunun üzerine Yûsuf, Gırnata’da bulunan kardeşi Osman’ın da yardımıyla çok sayıda usta ve işçi toplayarak 554-555’te (1159-1160), içinde büyük bir cami, saray, resmî binalar, kışla, güzel bahçeler ve su dağıtım şebekesinin bulunması planlanan şehrin inşasını …
+  E[1333] Bunun üzerine Endülüs’e geçen bir Merînî ordusu 733’te (1333) Cebelitârık’ı geri aldı.
+  E[1355] 756’da (1355) Merînî Valisi Süleyman b.
+  E[1492] Nitekim bundan sonra Mağrib’den gerekli yardımın sağlanamaması sebebiyle elde kalan Endülüs şehirleri teker teker kaybedildi ve nihayet 897’de (1492) Endülüs’te İslâm hâkimiyeti tamamen sona erdi.
+
+##0344 Lagos (Algarve) [Kuzey Afrika] · SAHIP=portekiz (Portekiz Krallığı) · nijerya · yer=1
+  E[1510] Nijerya’nın kuzeydoğusuna hükümran olan Kânim-Bornu Sultanlığı, Trablusgarp 1510 yılında İspanyollar tarafından alınmadan önce Akdeniz sahillerindeki müslüman emirliklerle yakın ilişkiler içindeydi.
+  E[1551] 1551’de Osmanlı Devleti bugünkü Libya topraklarını İspanyollar’dan kurtarınca Kânim-Bornu Sultanlığı ile Osmanlı Devleti arasında doğrudan temas kuruldu.
+  E[1571] Osmanlı Devleti 1571 yılında Kânim-Bornu sınırları içinde yer alan Fizan bölgesini Trablusgarp eyaleti sınırlarına katınca Osmanlı-Bornu ilişkilerinde bir kriz dönemi yaşandı.
+  E[1804] Fûdî (Osman dan Fodio), 1804’te başlattığı cihad hareketiyle on yıl içinde bütün Hevsâ şehir devletlerini ele geçirdi ve 1812’de Sokota halifeliğinin kuruluşunu ilân etti.
+
+##0345 Delhi [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · delhi · yer=1
+  Y[1303] Her biri belli bir müslüman hânedan tarafından kurulan bu şehirler kuruluş sırasıyla Lâlkot (1192), Sîrî (1303), Tuğlukabâd (1320 [?]), Cihanpenâh (1340), Fîrûzâbâd (1354), Purânâ Kıl‘a (1542) ve Şahcihanâbâd (1638) olup halen isimleri Delhi’nin başlıca semtl…
+  Y[1229] Daha sonra da hem fethin hem de muhtemelen meşhur Çiştî şeyhi Kutbüddin Bahtiyâr Kâkî’nin anısına dünyanın en büyük minaresi olan ünlü Kutub Minâr inşa edildi (1229).
+  Y[1289] 1289’da Muizzüddin Keykubad’ın, ikametgâhını Okhla yakınlarında inşa ettirdiği Kilohrî Sarayı’na taşımasına kadar Delhi sultanları burada oturmuşlardır.
+  E[1526] Lûdîler’in hükümet merkezini Agra’ya taşımaları üzerine Delhi büyük ölçüde önemini kaybetti; ancak Bâbürlü hâkimiyeti kurulunca şehir tekrar değer kazandı (1526).
+  E[1540] Fakat Şîr Şah’ın (1540-1545) iktidarı ele geçirmesiyle Delhi’deki imar faaliyetleri kesildi ve yerine geçen oğlu Selim (1545-1554) Cumna nehrinin kıyısında Selîmgarh’ı kurdu.
+  E[1550] Hümâyun 1550 yılında iktidarı geri aldıysa da Delhi ne onun, ne de ondan sonra gelen ve merkez olarak Fetihpûr Sikri ile Agra’yı tercih eden Ekber Şah ve Cihangir Şah dönemlerinde eski şanlı günlerine ulaşabildi.
+  E[1639] On bir yıl Agra’da ikamet ettikten sonra Delhi’ye geçen Şah Cihan, orada Şahcihanâbâd adıyla yeni bir yerleşme merkezi ve bir kale kurarak (1639) ünlü Cami-Mescid’i (Delhi Cuma Camii) yaptırmıştır.
+
+##0346 Mîrat (Meerut) [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · ayna · yer=1
+
+##0347 Koil (Aligarh) [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · aligarh · yer=1
+  E[1886] Hint müslümanlarının en eski eğitim kurumlarından biri olan Muslim Educational Conference, ülkede müslümanları eğitim ve siyasî bakımdan aydınlatmak için Seyyid Ahmed Han tarafından 1886’da burada kurulmuştur.
+
+##0348 Kanpûr [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · kanpur · yer=1
+
+##0349 Leknev (Lucknow) [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · leknev · yer=1
+  E[1394] 1394-1478 yılları arasında Şarkî Sultanlığı’nın hâkimiyetinde kalan şehir daha sonra Delhi Sultanlığı’nın, Hümâyun Şah zamanında da Bâbürlüler’in eline geçti ve Ekber Şah tarafından Ayodha eyaletine bağlandı.
+
+##0350 Benâres (Vârânasî) [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · benares · yer=1
+  E[1193] Benâres 1193’te Gūrî Hükümdarı Muizzüddin Muhammed b.
+  E[1556] Bâbürlüler’in en büyük hükümdarı olan Ekber Şah zamanında (1556-1605) mimari açıdan zenginleştirilirken buraya bir de rasathâne inşa edildi.
+
+##0351 Ilâhâbâd (Allahabad) [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · allahabad · yer=1
+
+##0352 Ecmîr (Ajmer) [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · ecmir · yer=1
+  Y[1206] Önceleri yöneticiliğe sultana bağlı kalmak şartıyla son racanın oğlu getirildiyse de bu Hindu hânedanın sık sık isyana kalkışması yüzünden Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak kumandan Seyyid Hüseyin’e…
+  E[1192] Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.
+  E[1398] 1398’de Delhi Sultanlığı’nı zayıflatan Timur’un saldırısından sonra şehre Racpûtlar, 1455-1531 yılları arasında Mâlvâ Sultanlığı ve bu tarihten 1556’da Ekber’in fethine kadar yine Racpûtlar hâkim oldular.
+  E[1455] yüzyılda Delhi Sultanı İltutmış’ın inşa ettirdiği büyük bir camiden geriye kalan giriş kapısı, 1455 yılında Mâlvâ Sultanı Mahmud Halacî’nin Muînüddin Hasan el-Çiştî’nin kabri üzerinde yaptırdığı ve daha sonra Ekber, Şah Cihan ve diğer Bâbürlü hükümdarlarının …
+
+##0353 Sûrat [Arabistan-Hint] · SAHIP=racput (Racput Devletleri (Mevar, Mârvâr, A…) · hariciler · yer=1
+  E[656] Osman’ın 35 (656) yılında şehid edilmesinden önceki zamanlara kadar götürülmesi daha isabetli olur.
+  E[681] Âmir ve Ebû Füdeyk 62-72 (681-691) yılları arasında Yemâme, Hadramut, Yemen ve Tâif’i zaptettiler.
+  E[748] Yahyâ el-Kindî ve Ebû Hamza eş-Şârî’nin Hadramut ve Yemen’de gelişen, Mekke ve Medine’ye de sıçrayan isyanları da 130’da (748) Emevî ordusu tarafından bastırıldı.
+
+##0354 Diu [Arabistan-Hint] · SAHIP=racput (Racput Devletleri (Mevar, Mârvâr, A…) · diu · yer=1
+  Y[1298] Diû, Hindu hânedanlarından Cudasâmalar’ın elinde iken 698’de (1298-99) Sultan Alâeddin Halacî tarafından alınarak müslüman hâkimiyeti altına sokuldu.
+  E[1349] Ancak Delhi sultanları bu hâkimiyetlerini uzun süre koruyamadılar; tekrar Hindular’ın eline geçen şehri 1349’da Sultan Muhammed b.
+  E[1531] 1531’de Osmanlılar’ın Yemen valisi Mustafa b.
+  E[1962] 14 Mart 1962’de bu üç şehir resmen Goa-Dâmân-Diû adı altında, doğrudan Yeni Delhi’deki merkezî hükümete bağlı bir idarî bölge olarak Hindistan Devleti’ne ilhak edildi.
+
+##0355 Patna (Azîmâbâd) [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · patna · yer=1
+  E[1541] Delhi Sultanlığı zamanında Afgan Şîr Şah Sûr, 1541’de burayı Bihâr eyaletinin merkezi haline getirerek idarî binalar yaptırdı ve bir kale ile tahkim etti; ayrıca güneydoğuda Kalküta’ya, kuzeybatıda Peşâver’e uzanan yollar yaptırdı.
+  E[1739] Nâdir Şah’ın Delhi’yi zaptetmesinin (1739) ardından pek çok tanınmış İranlı ilim adamı, edip, şair ve sanatkâr Patna’ya yerleşti.
+  E[1773] Mîr Eşref Camii de (1773-1774) tarihî camiler arasında yer alır.
+
+##0356 Dakka (Dhaka) [Arabistan-Hint] · SAHIP=delhi-sultanligi (Delhi Sultanlığı) · dakka · yer=1
+
+##0357 Devagiri (Devletâbâd) [Arabistan-Hint] · SAHIP=yadava (Yadava Hanedanı (Devagiri)) · devletabad · yer=1
+  Y[1296] Delhi Sultanı Celâleddin Fîrûz Şah Halacî’nin yeğeni veliaht Alâeddin Halacî, Deogiri Kalesi’ni bir süre kuşattıktan sonra ele geçirdi (695/1296).
+  Y[1307] Ramçandra’nın Eliçpûr gelirlerini düzenli bir şekilde göndermemesi üzerine Melik Nâib ona karşı bir sefer düzenledi ve Ramçandra teslim alınarak Delhi’ye gönderildi (706/1307).
+
+##0358 Bîcâpur (Bijapur) [Arabistan-Hint] · SAHIP=yadava (Yadava Hanedanı (Devagiri)) · bicapur · yer=1
+  Y[1294] 1190 yılından itibaren bir asır süreyle Yadava Krallığı’nın yönetimi altında kalan bölge, 1294’te Alâeddin Halacî tarafından Delhi sultanı olan amcası Celâleddin Halacî adına fethedildi.
+
+##0359 Golkonda [Arabistan-Hint] · SAHIP=kakatiya (Kakatiya Hanedanı (Warangal)) · gulkunde · yer=1
+
+##0360 Nâsik [Arabistan-Hint] · SAHIP=yadava (Yadava Hanedanı (Devagiri)) · abid · yer=0
+

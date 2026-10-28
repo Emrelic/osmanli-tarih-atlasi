@@ -1,0 +1,31 @@
+# ARAC-LEGO-zincir.py çıktısı — UMIT-W10-LEGO-1006c · 2026-10-05 22:08
+# ağaç C:\atlas-w10 · origin/main ae2e6bbd · arac/uret_petek.py sha256 8b6aaea5920cd66a (çalışma kopyası, CRLF olabilir) · blob 668f1a28
+# komut: py denetim/ARAC-LEGO-zincir.py --kok C:\atlas-w10 --gecmis
+KÖK C:\atlas-w10 · dosya arac/uret_petek.py
+① geo zinciri: 32 işlev · okunan modül düzeyi ad 116 · kökler 5/5
+   okunan adlar: B23_ACIK, B2_ENKLAV_KM, B2_KAVIS, B2_TEMAS, B3_KAPAMA_DER, B3_SADELIK, KARA, KUSATMA_ESIK, KV_ADIM, LineString, MOTOR_YURUYUS, MultiPoint, MultiPolygon, PETEK_D, PUAN_ESIK, PUAN_HALKA, PUAN_KAPALI, Polygon, R_DUNYA, SERBEST_TOL, STRtree, YERLER, YURUYUS_16, YURUYUS_SADE, _Aff, _B1_SAYAC, _B23_SAYAC, _B3_KALAN_IHLAL, _CEP_ONBELLEK, _DEVIR_EZBER, _EPOK_PAY_TOL, _IC_ONBELLEK, _KARA_HAZIR, _KB_AGAC, _KB_IX, _KB_MUAF, _KB_NOKTA, _KIYI_TAMPON, _KUS_AGAC, _KUS_IX, _KUS_KARAR, _KUS_ONBELLEK, _KVDY, _KVNEHIR, _KV_YON, _KV_YS, _ONB, _ONB_BOS, _ONB_GEO, _ONB_GOVDE_TUZ, _ONB_KB, _ONB_KIM, _ONB_KUS_TUZ, _ONB_OZ, _PUAN_ONBELLEK, _SAYAC, _SERBEST_ONBELLEK, _TUM_AGAC, _VARLIK_DEVIR, _VARLIK_ONBELLEK, _VARLIK_PAY, _YR_BUTCE, _YR_SAHIP, _YR_SAHIP_SIRA, _b2_enklav_birlestir, _b3_koridor_kirp, _bant_baskasinin_topragini_kesiyor_mu, _canli_komsular, _cep, _ham_km2, _heapq, _hlo, _ic_kara, _km_derece, _kusatilmis, _kv_ara_kara, _kvkara, _kvnx, _kvny, _kvsurt, _kvtohum, _kvuzak, _kvx0, _kvy0, _ndi, _np, _np2, _olu_bilesenler, _onb_oz, _puan_bolgesi, _rfe, _sahipli, _yasakli_mi, _yr_epok_onar, _yr_etiket_poligon, _yr_yerel_dijkstra, alan_km2, box, delikleri_doldur, devir_kumesi, gosterim_duzelt, kapat, make_valid, math, nearest_points, noktalar, petek_epok, poligonal, polygonize, sayac, shape, shapely, temiz, time, unary_union, voronoi_diagram
+   işlevler: _b2_enklav_birlestir, _b3_koridor_kirp, _bant_baskasinin_topragini_kesiyor_mu, _canli_komsular, _cep, _ham_km2, _ic_kara, _km_derece, _kusatilmis, _kv_ara_kara, _olu_bilesenler, _onb_oz, _onb_ozet, _onb_parca_anahtar, _osm_govde_hesap, _puan_bolgesi, _sahipli, _yabanci_govde_hesap, _yasakli_mi, _yr_epok_onar, _yr_etiket_poligon, _yr_yerel_dijkstra, alan_km2, bos_bolge, delikleri_doldur, devir_kumesi, gosterim_duzelt, kapat, petek_epok, poligonal, sayac, temiz
+② yasak ad evreni (3): BOYALAR@269, _HARITA_ALT, girdi@271
+③ dinamik erişim: petek_epok:5278 getattr() (statik taramanın göremediği yer — elle bakılır)
+✓ TEMİZ: geo zinciri renkler/girdi'den ithal hiçbir adı ve _HARITA_ALT'ı okumuyor
+④ 27b76088 09-20 13:09 değişen ü.d. ad 310 · GEO ZİNCİRİNE DEĞEN 23: KARA, _DEVIR_EZBER, _KIYI_TAMPON, _KUS_KARAR, _ONB, _ONB_BOS, _ONB_GOVDE_TUZ, _ONB_KB, _ONB_KIM, _ONB_KUS_TUZ, _ONB_OZ, _TUM_AGAC …
+④ 5c374722 09-20 23:15 değişen ü.d. ad  12 · GEO ZİNCİRİNE DEĞEN 0: 
+④ c0bd752c 09-21 02:10 değişen ü.d. ad  98 · GEO ZİNCİRİNE DEĞEN 7: PETEK_D, _Aff, _YR_BUTCE, _YR_SAHIP, _ndi, _rfe, _yr_epok_onar
+④ 31c4b983 09-21 02:37 değişen ü.d. ad  48 · GEO ZİNCİRİNE DEĞEN 0: 
+④ 8f5aa574 09-21 03:17 değişen ü.d. ad 153 · GEO ZİNCİRİNE DEĞEN 0: 
+④ 7d66e312 09-21 14:03 değişen ü.d. ad  83 · GEO ZİNCİRİNE DEĞEN 6: B2_ENKLAV_KM, _Aff, _YR_BUTCE, _YR_SAHIP, _ndi, _rfe
+④ d30358b3 09-21 15:58 değişen ü.d. ad  80 · GEO ZİNCİRİNE DEĞEN 5: _Aff, _YR_BUTCE, _YR_SAHIP, _ndi, _rfe
+④ 76351781 09-27 23:32 değişen ü.d. ad 157 · GEO ZİNCİRİNE DEĞEN 6: _ONB_GEO, _ONB_GOVDE_TUZ, _SERBEST_ONBELLEK, _np2, _onb_parca_anahtar, _puan_bolgesi
+④ 55dfa2b5 09-30 13:38 değişen ü.d. ad  45 · GEO ZİNCİRİNE DEĞEN 1: _heapq
+# çıkış kodu: 0
+
+# komut: py denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py --kok C:\atlas-w10
+✓ K1: yeni çıkış 1 (beklenen 1) · YASAK `BOYALAR` basıldı: evet · ESKİ betik gördü mü: hayır (kör) (beklenen hayır)
+✓ K2: yeni çıkış 1 (beklenen 1) · YASAK `girdi` basıldı: evet · ESKİ betik gördü mü: hayır (kör) (beklenen hayır)
+✓ K3: yeni çıkış 1 (beklenen 1) · YASAK `_HARITA_ALT` basıldı: evet · ESKİ betik gördü mü: EVET (listeler, ötmez) (beklenen EVET)
+✓ T1: yeni çıkış 0 (beklenen 0)
+✓ E1: yeni çıkış 2 (beklenen 2)
+✓ T2: bugünkü motor (C:\atlas-w10) çıkış 0 (beklenen 0)
+
+✓ SINAV GEÇTİ — 6 vaka
+# çıkış kodu: 0

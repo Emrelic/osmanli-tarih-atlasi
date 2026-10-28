@@ -1,12 +1,13 @@
 // -*- coding: utf-8 -*-
 // SEFERLER_P0037 — PAKET-0037 oturumu (Fable), 2 Eylül 2026 · p0037/H-0006
 //
-// 🔴 BU DOSYA index.html'e BAĞLI DEĞİLDİR ve app.js yalnız `window.SEFERLER`i okur (app.js:2675).
-//    Aşağıdaki kayıt, data/savaslar.js:743'teki "Abdülaziz'in Avrupa seyahati (1867)" kaydının
-//    YERİNE GEÇECEK tam hâlidir (aynı ad · aynı tur · aynı f/t; yalnız `yol` dizisi genişledi).
-//    Uygulama koordinatörün (savaslar.js onun): kaydı savaslar.js'te değiştir YA DA app.js:2675'te
-//    `(window.SEFERLER || []).concat(window.SEFERLER_P0037 || [])` ile bağla ve eski kaydı düşür.
-//    İki yol da olur; ikisi birden OLMAZ (mükerrer ok).
+// 🔴 6 Ekim 2026, UMIT-W4-ELLEVERI-1006 — KAYIT data/savaslar.js'e TAŞINDI, bu dizi BOŞ.
+//    Eski not "ikisi birden OLMAZ" diyordu; olan tam oydu: dosya index.html'e bağlandı
+//    (SEFERLER_* toplayıcısı), savaslar.js'teki 5 noktalı eski kayıt da kaldı ⇒ mükerrer ok.
+//    app.js `_mukerrerMi` İLK çizileni (savaslar.js) tuttuğu için bu dosyanın kaynaklı
+//    27 noktalı rotası ELENİYORDU. Şimdi rota + `kaynak` alanı savaslar.js kaydında.
+//    Dosya SİLİNMEDİ: index.html ve paket künyesi onu yüklüyor; boş dizi toplayıcıda 0/0 sayılır.
+//    Aşağıdaki kaynak ve gün gün güzergâh notu BELGE olarak duruyor.
 //
 // EMRE'NİN İSTEĞİ (H-0006): "önce deniz yolu ile nereye çıktı, sonra nereden nereye kara ile gitti,
 // nerede konakladı; adım adım. Ama İstanbul'dan Londra'ya uçmuş gibi olmasın."
@@ -45,36 +46,4 @@
 //
 // Koordinatlar [lon, lat] (savaslar.js `yol` deseni), coğrafî bilgi.
 
-window.SEFERLER_P0037 = [
-{ ad:"Abdülaziz'in Avrupa seyahati (1867)", tur:"seyahat", sonuc:"belirsiz",
-  f:"1867-06-21", t:"1867-08-07",
-  yol:[
-    [28.98,41.01],   // İstanbul — 21 Haz, Sultâniye vapuru (deniz)
-    [26.41,40.15],   // Çanakkale Boğazı (deniz)
-    [22.48,36.40],   // Mora açıkları — 24 Haz (deniz)
-    [15.55,38.19],   // Messina — 25 Haz (deniz)
-    [14.25,40.84],   // Napoli — 28 Haz (deniz)
-    [5.93,43.12],    // Toulon — 29 Haz, KARAYA ÇIKIŞ
-    [5.37,43.30],    // Marsilya (tren)
-    [4.84,45.76],    // Lyon (tren)
-    [2.35,48.86],    // Paris, Lyon Garı — 30 Haz–10 Tem
-    [1.61,50.73],    // Boulogne — 10 Tem (tren), Manş'a biniş
-    [1.31,51.13],    // Dover — 11 Tem (gemi)
-    [-0.13,51.51],   // Londra — 12–23 Tem (tren)
-    [1.31,51.13],    // Dover — 23 Tem (tren)
-    [1.86,50.95],    // Calais — Manş geçişi (VARSAYIM: liman kaynaklarda yazmıyor)
-    [4.35,50.85],    // Brüksel — 24 Tem (tren)
-    [7.59,50.36],    // Koblenz — 24/25 Tem (tren, Ren vadisi), I. Wilhelm
-    [11.08,49.45],   // Nürnberg — 26 Tem (tren)
-    [13.46,48.57],   // Passau — 26/27 Tem (tren)
-    [16.37,48.21],   // Viyana — 27/28–31 Tem
-    [19.04,47.50],   // Peşte — 31 Tem (Tuna vapuru), Budin'de konaklama
-    [19.84,45.25],   // Novi Sad (Tuna)
-    [20.46,44.82],   // Belgrad (Tuna)
-    [22.40,44.72],   // Orşova / Demirkapı (Tuna)
-    [22.87,43.99],   // Vidin — 3 Ağu akşamı (Tuna)
-    [25.97,43.86],   // Rusçuk — 4 Ağu (Tuna)
-    [27.91,43.21],   // Varna — 6 Ağu (Rusçuk-Varna demiryolu)
-    [28.98,41.01]    // İstanbul — 7 Ağu (gemi)
-  ] }
-];
+window.SEFERLER_P0037 = [];

@@ -42,7 +42,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1310-08-15", d: "bizans" },
       { f: "1310-08-15", t: "1522-12-21", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-04", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -57,7 +57,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1310-08-15", d: "bizans" },
       { f: "1310-08-15", t: "1523-01-05", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-21", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -72,7 +72,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1310-08-15", d: "bizans" },
       { f: "1310-08-15", t: "1523-01-05", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -87,7 +87,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1453-05-29", d: "bizans" },
       { f: "1453-05-29", t: "1522-12-21", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -102,7 +102,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1310-08-15", d: "bizans" },
       { f: "1310-08-15", t: "1523-01-05", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -117,7 +117,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1310-08-15", d: "bizans" },
       { f: "1310-08-15", t: "1522-12-21", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -132,7 +132,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1310-08-15", d: "bizans" },
       { f: "1310-08-15", t: "1522-12-21", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -147,7 +147,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1310-08-15", d: "bizans" },
       { f: "1310-08-15", t: "1522-12-21", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -161,7 +161,7 @@ window.YER_YAMA_ONIKIADA = [
     ],
     s: [
       { f: "1281-01-01", t: "1537-10-01", d: "venedik" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -176,7 +176,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1310-08-15", d: "bizans" },
       { f: "1310-08-15", t: "1522-12-21", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -191,7 +191,7 @@ window.YER_YAMA_ONIKIADA = [
     s: [
       { f: "1281-01-01", t: "1310-08-15", d: "bizans" },
       { f: "1310-08-15", t: "1522-12-21", d: "sovalye" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-04", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -205,7 +205,7 @@ window.YER_YAMA_ONIKIADA = [
     ],
     s: [
       { f: "1281-01-01", t: "1537-10-01", d: "venedik" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"
@@ -219,7 +219,7 @@ window.YER_YAMA_ONIKIADA = [
     ],
     s: [
       { f: "1281-01-01", t: "1537-10-01", d: "venedik" },
-      { f: "1923-07-24", t: "1923-10-29", d: "italya" }
+      { f: "1923-07-24", t: "1923-10-29", d: "italya" },{f:"1923-10-29",t:"1947-09-15",d:"oniki-ada-italyan",kaynak:"Lozan Antlasmasi 1923 md.15; Paris Baris Antlasmasi 1947"},{f:"1947-09-15",t:"1973-06-01",d:"yunanistan",kaynak:"Paris Baris Antlasmasi 1947 md.14; Britannica: Dodecanese"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica: Greece"}
     ],
     isg: [ { f: "1912-05-12", t: "1923-07-24", d: "italya" } ],
     kaynak: "oniki-ada"

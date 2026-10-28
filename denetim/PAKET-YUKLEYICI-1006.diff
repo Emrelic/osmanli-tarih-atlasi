@@ -1,0 +1,543 @@
+diff --git a/denetim/ARAC-1DUNYA-A-SINA-0917.js b/denetim/ARAC-1DUNYA-A-SINA-0917.js
+index dd3c1e17..09d438a3 100644
+--- a/denetim/ARAC-1DUNYA-A-SINA-0917.js
++++ b/denetim/ARAC-1DUNYA-A-SINA-0917.js
+@@ -14,8 +14,15 @@
+ const fs = require('fs');
+ global.window = {}; global.document = {};
+ const html = fs.readFileSync('index.html', 'utf8');
+-const src = [...html.matchAll(/<script src="(data\/[^"?]+)/g)].map(m => m[1]);
+-const HEDEF = 'data/kronoloji_cok_1dunya_A.js';
++// W32 (6 Ekim): HEDEF artık data/paket_09.js'in İÇİNDE. Paketi yüklemek HEDEF'i de
++// yüklüyordu ⇒ aşağıdaki `continue` dışlaması BOŞA düşüyor, HEDEF iki kez okunuyor ve
++// sınav kendi maddelerini "MÜKERRER ŞÜPHESİ" diye işaretliyordu (4 sahte şüphe, çıkış 1).
++// Paketler açılır; dışlama yine dosya düzeyinde çalışır.
++const IK = require("./INDEX-KAYNAK-1006.js");
++const src = IK.kaynaklar(html, /<script src="(data\/[^"?]+)/);
++if (!src.includes(HEDEF_DOSYA())) { console.log("⚫ ÖLÇÜLEMEDİ — HEDEF index.html'in açık listesinde yok"); process.exit(2); }
++const HEDEF = HEDEF_DOSYA();
++function HEDEF_DOSYA() { return 'data/kronoloji_cok_1dunya_A.js'; }
+ for (const f of src) {
+   if (f === HEDEF) continue;
+   try { eval(fs.readFileSync(f, 'utf8')); } catch (e) { console.error('YUKLEME HATASI', f, e.message); }
+diff --git a/denetim/ARAC-A1-TOPRAK-0913.js b/denetim/ARAC-A1-TOPRAK-0913.js
+index 75b62c84..a5e98df4 100644
+--- a/denetim/ARAC-A1-TOPRAK-0913.js
++++ b/denetim/ARAC-A1-TOPRAK-0913.js
+@@ -7,7 +7,8 @@ const fs = require("fs"), vm = require("vm"), path = require("path");
+ const KOK = path.join(__dirname, "..");
+ const S = require(path.join(KOK, "js/suzgec.js"));
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-const dosyalar = [...html.matchAll(/<script src="(data\/[^"?]+)/g)].map(m => m[1])
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++const dosyalar = IK.kaynaklar(html, /<script src="(data\/[^"?]+)/)
+   .filter(f => /olaylar|donemler/.test(f));
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ for (const f of dosyalar) {
+diff --git a/denetim/ARAC-ANTLASMA-AYIRT-0074.js b/denetim/ARAC-ANTLASMA-AYIRT-0074.js
+index fc6fdc4d..45d37891 100644
+--- a/denetim/ARAC-ANTLASMA-AYIRT-0074.js
++++ b/denetim/ARAC-ANTLASMA-AYIRT-0074.js
+@@ -13,12 +13,14 @@ const jArg = process.argv.indexOf("--json"); const JSONYOL = jArg >= 0 ? process
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+   .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [], ANT = W.ANTLASMALAR || [];
++IK.yerlesimKapisi(Y);
+ const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
+ const idxStr = i => { const d = new Date(i * 864e5); return String(d.getUTCFullYear()).padStart(4, "0") + "-" + String(d.getUTCMonth() + 1).padStart(2, "0") + "-" + String(d.getUTCDate()).padStart(2, "0"); };
+ const olaylar = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(W[k]))
+diff --git a/denetim/ARAC-ANTLASMA-KADEME-0074.js b/denetim/ARAC-ANTLASMA-KADEME-0074.js
+index d5e3fa6d..29297ee5 100644
+--- a/denetim/ARAC-ANTLASMA-KADEME-0074.js
++++ b/denetim/ARAC-ANTLASMA-KADEME-0074.js
+@@ -15,12 +15,14 @@ const JSONYOL = jArg >= 0 ? process.argv[jArg + 1] : null;
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-const srcler = [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]);
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++const srcler = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/);
+ srcler.filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [];
++IK.yerlesimKapisi(Y);
+ 
+ const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
+ const idxStr = i => { const d = new Date(i * 864e5); return String(d.getUTCFullYear()).padStart(4, "0") + "-" + String(d.getUTCMonth() + 1).padStart(2, "0") + "-" + String(d.getUTCDate()).padStart(2, "0"); };
+diff --git a/denetim/ARAC-ANTLASMA-KAPSAM-0074.js b/denetim/ARAC-ANTLASMA-KAPSAM-0074.js
+index f2622b1e..244c8952 100644
+--- a/denetim/ARAC-ANTLASMA-KAPSAM-0074.js
++++ b/denetim/ARAC-ANTLASMA-KAPSAM-0074.js
+@@ -12,13 +12,15 @@ const SG = require(path.join(KOK, "js", "suzgec.js"));
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+   .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+ yukle("data/petek_govde.js");
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [], ANT = W.ANTLASMALAR || [], PET = W.PETEKLER || [];
++IK.yerlesimKapisi(Y);
+ const G = W.PETEK_GOVDE || [], PARCA = W.PETEK_GOVDE_PARCA || [];
+ const petAd = {}; PET.forEach((p, i) => { if (p && p.a) petAd[p.a] = i; });
+ const yuk = ix => { const j = petAd[ix]; return (j === undefined || !G[j]) ? 0 : G[j].reduce((a, k) => a + JSON.stringify(PARCA[k]).length, 0); };
+diff --git a/denetim/ARAC-ANTLASMA-MALIYET-0074.js b/denetim/ARAC-ANTLASMA-MALIYET-0074.js
+index ee087406..8bf08eb2 100644
+--- a/denetim/ARAC-ANTLASMA-MALIYET-0074.js
++++ b/denetim/ARAC-ANTLASMA-MALIYET-0074.js
+@@ -10,12 +10,14 @@ const SG = require(path.join(KOK, "js", "suzgec.js"));
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+   .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [], ANT = W.ANTLASMALAR || [], PET = W.PETEKLER || [];
++IK.yerlesimKapisi(Y);
+ const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
+ const idxStr = i => { const d = new Date(i * 864e5); return String(d.getUTCFullYear()).padStart(4, "0") + "-" + String(d.getUTCMonth() + 1).padStart(2, "0") + "-" + String(d.getUTCDate()).padStart(2, "0"); };
+ const olaylar = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(W[k]))
+diff --git a/denetim/ARAC-ANTLASMA-ZINCIR-0074.js b/denetim/ARAC-ANTLASMA-ZINCIR-0074.js
+index fb826ae1..a4da64fe 100644
+--- a/denetim/ARAC-ANTLASMA-ZINCIR-0074.js
++++ b/denetim/ARAC-ANTLASMA-ZINCIR-0074.js
+@@ -13,12 +13,14 @@ const jArg = process.argv.indexOf("--json"); const JSONYOL = jArg >= 0 ? process
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+   .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [], ANT = W.ANTLASMALAR || [];
++IK.yerlesimKapisi(Y);
+ const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
+ const idxStr = i => { const d = new Date(i * 864e5); return String(d.getUTCFullYear()).padStart(4, "0") + "-" + String(d.getUTCMonth() + 1).padStart(2, "0") + "-" + String(d.getUTCDate()).padStart(2, "0"); };
+ const olaylar = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(W[k]))
+diff --git a/denetim/ARAC-EKOKUMA-0077-C-OLAY.js b/denetim/ARAC-EKOKUMA-0077-C-OLAY.js
+index e02fe694..70589b61 100644
+--- a/denetim/ARAC-EKOKUMA-0077-C-OLAY.js
++++ b/denetim/ARAC-EKOKUMA-0077-C-OLAY.js
+@@ -5,7 +5,8 @@
+ const fs = require("fs"), vm = require("vm"), path = require("path");
+ const kok = path.resolve(__dirname, "..");
+ const html = fs.readFileSync(path.join(kok, "index.html"), "utf8");
+-const dosyalar = [...html.matchAll(/src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/g)].map(m => m[1]);
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++const dosyalar = IK.kaynaklar(html, /src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/);
+ const win = {}; const ctx = vm.createContext({ window: win, console });
+ for (const d of dosyalar) vm.runInContext(fs.readFileSync(path.join(kok, d), "utf8"), ctx);
+ vm.runInContext(fs.readFileSync(path.join(kok, "data/ekokuma_p77c.js"), "utf8"), ctx);
+diff --git a/denetim/ARAC-ELE-GECIRME-0070.js b/denetim/ARAC-ELE-GECIRME-0070.js
+index 20fe3379..ab9c1e46 100644
+--- a/denetim/ARAC-ELE-GECIRME-0070.js
++++ b/denetim/ARAC-ELE-GECIRME-0070.js
+@@ -27,13 +27,15 @@ const yukle = rel => {
+   return true;
+ };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-const dosyalar = [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++const dosyalar = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+   .filter(s => /olaylar|yerlesimler|devletler\.js|savaslar\.js/.test(s));
+ dosyalar.forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER;
++IK.yerlesimKapisi(Y);
+ const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
+ const olaylar = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9]+)?$/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), []).filter(o => o.kapsam !== "konu")
+diff --git a/denetim/ARAC-HALKA-ADARA-0913.js b/denetim/ARAC-HALKA-ADARA-0913.js
+index 85747350..b2e8387b 100644
+--- a/denetim/ARAC-HALKA-ADARA-0913.js
++++ b/denetim/ARAC-HALKA-ADARA-0913.js
+@@ -9,7 +9,8 @@
+ const fs = require("fs"), path = require("path");
+ const KOK = path.join(__dirname, "..");
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-const dosyalar = [...html.matchAll(/src="(data\/yerlesimler[^"?]*\.js)/g)].map(m => m[1]);
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++const dosyalar = IK.kaynaklar(html, /src="(data\/yerlesimler[^"?]*\.js)/);
+ global.window = {};
+ for (const f of dosyalar) {
+   try { eval(fs.readFileSync(path.join(KOK, f), "utf8")); }
+@@ -17,6 +18,7 @@ for (const f of dosyalar) {
+ }
+ const Y = Object.keys(window).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(window[k]))
+   .reduce((a, k) => a.concat(window[k]), (window.YERLESIMLER || []).slice());
++IK.yerlesimKapisi(Y);
+ const norm = s => String(s).replace(/[İIı]/g, "i").replace(/[Şş]/g, "s").replace(/[Ğğ]/g, "g")
+   .replace(/[Üüûù]/g, "u").replace(/[Öö]/g, "o").replace(/[Çç]/g, "c").replace(/[Ââ]/g, "a")
+   .replace(/[Îî]/g, "i").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+diff --git a/denetim/ARAC-HALKA-KRONOLOJI-YUKLE-0913.js b/denetim/ARAC-HALKA-KRONOLOJI-YUKLE-0913.js
+index 6e3caf7c..099df988 100644
+--- a/denetim/ARAC-HALKA-KRONOLOJI-YUKLE-0913.js
++++ b/denetim/ARAC-HALKA-KRONOLOJI-YUKLE-0913.js
+@@ -10,7 +10,8 @@ const oku = f => fs.readFileSync(path.join(KOK, f), "utf8");
+ 
+ function kronolojiDosyalari() {
+   const html = oku("index.html");
+-  return [...html.matchAll(/src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/g)].map(m => m[1]);
++  const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++  return IK.kaynaklar(html, /src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/);
+ }
+ function maddeler() {
+   const dosyalar = kronolojiDosyalari(), hepsi = [];
+diff --git a/denetim/ARAC-HLA-OKU-0913.py b/denetim/ARAC-HLA-OKU-0913.py
+index e154afb5..92f059e6 100644
+--- a/denetim/ARAC-HLA-OKU-0913.py
++++ b/denetim/ARAC-HLA-OKU-0913.py
+@@ -23,7 +23,8 @@ for(const [f,r] of Y){const ana=r.ad.split(' (')[0];
+   if(yerler.some(y=>ana===y||r.ad.startsWith(y+' ')))console.log(f,JSON.stringify({ad:r.ad,lat:r.lat,lon:r.lon,s:r.s,d:r.d,v:r.v,isg:r.isg,kur:r.kur}));}
+ // kronoloji
+ const html=fs.readFileSync(path.join(KOK,'index.html'),'utf8');
+-const kf=[...html.matchAll(/src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/g)].map(m=>m[1]);
++const IK=require(path.join(KOK,'denetim','INDEX-KAYNAK-1006.js')); // W32: paket_NN.js acilir + SESSIZ SIFIR
++const kf=IK.kaynaklar(html,/src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/);
+ console.log('=== KRONOLOJI ===');
+ for(const f of kf){global.window={};try{eval(fs.readFileSync(path.join(KOK,f),'utf8'));}catch(e){continue;}
+   for(const k of Object.keys(window)){const v=window[k];if(!Array.isArray(v))continue;
+diff --git a/denetim/ARAC-ISY-OLCUM-0913.js b/denetim/ARAC-ISY-OLCUM-0913.js
+index e9f732ec..f03db9a9 100644
+--- a/denetim/ARAC-ISY-OLCUM-0913.js
++++ b/denetim/ARAC-ISY-OLCUM-0913.js
+@@ -13,13 +13,15 @@ const SG = require(path.join(KOK, "js", "suzgec.js"));
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) { console.log("YOK:", rel); return false; } vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-const bagli = [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]);
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++const bagli = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/);
+ console.log("index.html'de data/isyan_tarama.js bağlı:", bagli.indexOf("data/isyan_tarama.js") >= 0);
+ bagli.filter(s => /olaylar|yerlesimler|devletler\.js|donemler\.js|isyan_tarama/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER, PET = W.PETEKLER || [], IT = W.ISYAN_TARAMA;
++IK.yerlesimKapisi(Y);
+ const KIX = {}; (W.DEVLETLER || []).forEach(k => { if (k && k.id) KIX[k.id] = k; });
+ const petAd = {}; PET.forEach((p, i) => { if (p && p.a) petAd[p.a] = i; });
+ console.log("YERLESIMLER", Y.length, "· PETEKLER", PET.length, "· künye", Object.keys(KIX).length);
+diff --git a/denetim/ARAC-ISY-SONDA-0913.js b/denetim/ARAC-ISY-SONDA-0913.js
+index 4dd7a053..3a039603 100644
+--- a/denetim/ARAC-ISY-SONDA-0913.js
++++ b/denetim/ARAC-ISY-SONDA-0913.js
+@@ -8,11 +8,13 @@ const KOK = path.join(__dirname, "..");
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]).filter(s => /yerlesimler/.test(s)).forEach(yukle);
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/).filter(s => /yerlesimler/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER;
++IK.yerlesimKapisi(Y);
+ console.log("YERLESIMLER", Y.length);
+ const kids = {};
+ Y.forEach(y => {
+diff --git a/denetim/ARAC-SOHUM-ANIM-0071.js b/denetim/ARAC-SOHUM-ANIM-0071.js
+index 2caddf97..f6b1314d 100644
+--- a/denetim/ARAC-SOHUM-ANIM-0071.js
++++ b/denetim/ARAC-SOHUM-ANIM-0071.js
+@@ -22,13 +22,15 @@ const yukle = rel => {
+   return true;
+ };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-const dosyalar = [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++const dosyalar = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+   .filter(s => /olaylar|yerlesimler|devletler\.js|savaslar\.js/.test(s));
+ dosyalar.forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER;
++IK.yerlesimKapisi(Y);
+ const IX = SG.sinirIndeksi(Y);
+ const olaylar = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9]+)?$/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), []);
+diff --git a/denetim/ARAC-UI2-FARK-0913.js b/denetim/ARAC-UI2-FARK-0913.js
+index 6760e5e2..ed1cad88 100644
+--- a/denetim/ARAC-UI2-FARK-0913.js
++++ b/denetim/ARAC-UI2-FARK-0913.js
+@@ -12,13 +12,15 @@ const LISTE = process.argv.indexOf("--liste") >= 0;
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+   .filter(s => /olaylar|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+ ["kaynakli_halka_ferhatpasa", "kaynakli_halka_tekil", "kaynakli_halka_kronoloji", "kaynakli_halka_fetih"].forEach(a => yukle("data/" + a + ".js"));
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER, PET = W.PETEKLER || [], KUNYE = W.DEVLETLER || [];
++IK.yerlesimKapisi(Y);
+ const KIX = {}; KUNYE.forEach(k => { if (k && k.id) KIX[k.id] = k; });
+ const petAd = {}; PET.forEach((p, i) => { if (p && p.a) (petAd[p.a] = petAd[p.a] || []).push(i); });
+ console.log("YERLESIMLER", Y.length, "· PETEKLER", PET.length, "· künye", KUNYE.length);
+diff --git a/denetim/ARAC-UI2-OLCUM-0913.js b/denetim/ARAC-UI2-OLCUM-0913.js
+index 4bb29cf2..704489d8 100644
+--- a/denetim/ARAC-UI2-OLCUM-0913.js
++++ b/denetim/ARAC-UI2-OLCUM-0913.js
+@@ -19,7 +19,8 @@ function yukle(rel) {
+   return true;
+ }
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-const srcler = [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]);
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++const srcler = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/);
+ const secili = srcler.filter(s => /olaylar|savaslar|yerlesimler|donemler\.js/.test(s));
+ let t0 = Date.now();
+ secili.forEach(yukle);
+@@ -98,6 +99,7 @@ if (W.DONEMLER && W.PETEKLER) {
+ 
+ // ③ yerleşim v: anahtarları
+ const Y = W.YERLESIMLER || [];
++IK.yerlesimKapisi(Y);
+ const vAnahtar = {}, vk = {};
+ Y.forEach(y => (y.v || []).forEach(p => { Object.keys(p).forEach(k => { vAnahtar[k] = (vAnahtar[k] || 0) + 1; }); if (p.k) vk[p.k] = (vk[p.k] || 0) + 1; }));
+ console.log("\n③ YERLESIMLER", Y.length, "· v: alan anahtarları", JSON.stringify(vAnahtar));
+diff --git a/denetim/ARAC-UI3-OLCUM-0914.js b/denetim/ARAC-UI3-OLCUM-0914.js
+index 748adde5..f5e4f385 100644
+--- a/denetim/ARAC-UI3-OLCUM-0914.js
++++ b/denetim/ARAC-UI3-OLCUM-0914.js
+@@ -14,12 +14,14 @@ const GUNARG = ARG.indexOf("--gun") >= 0 ? ARG[ARG.indexOf("--gun") + 1] : null;
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+   .filter(s => /olaylar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [];
++IK.yerlesimKapisi(Y);
+ const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
+ const olaylar = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9]+)?$/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), []).filter(o => o.kapsam !== "konu")
+diff --git a/denetim/INDEX-KAYNAK-1006.js b/denetim/INDEX-KAYNAK-1006.js
+new file mode 100644
+index 00000000..9dde1f68
+--- /dev/null
++++ b/denetim/INDEX-KAYNAK-1006.js
+@@ -0,0 +1,75 @@
++// INDEX-KAYNAK-1006 — index.html'in veri <script src> listesi, PAKETLER AÇILMIŞ olarak.
++//
++// NİÇİN (UMIT-W32, 6 Ekim 2026): index.html veriyi artık `data/paket_NN.js`ten
++// yüklüyor (arac/paketle.py, 279 src → 70). `src="(data\/yerlesimler…` gibi AD
++// süzgeciyle yükleyen 20 denetim betiği paketlerin içini görmüyordu: bugün 4299
++// yerine 10 yerleşimle, 10026 yerine 1829 kronoloji öğesiyle koşuyorlardı — ve
++// hiçbiri ötmüyordu. Ölçüm: denetim/UMIT-W32-PAKET-YUKLEYICI-1006.md.
++//
++// KULLANIM — betiğin KENDİ regex'i aynen verilir, anlamı değişmez:
++//   const IK = require("./INDEX-KAYNAK-1006.js");
++//   IK.kaynaklar(html, /src="(data\/yerlesimler[^"?]*\.js)/)   // → ["data/yerlesimler.js", …]
++// Paket, ADINDAN değil İÇERİĞİNDEN tanınır (`/* ==== data/X.js ==== */` işaretleri),
++// sıra index.html'deki sıradır (paketle.py sırayı korur).
++//
++// SESSİZ SIFIR KAPISI — ölçülemeyen evren "temiz" değil ÇIKIŞ 2'dir:
++//   · işaretsiz paket (paket_NN adı var, içinde kaynak işareti yok)
++//   · diskte olmayan src
++//   · süzgeçten SIFIR dosya geçti
++//   · yerlesimKapisi(Y): yüklenen yerleşim motor evreninin (girdi.py) %90'ından az
++"use strict";
++const fs = require("fs"), path = require("path");
++const KOK = path.join(__dirname, "..");
++const ISARET = /^\/\* ==== (data\/[^ ]+\.js) ==== \*\//gm;
++
++function olculemedi(neden) {
++  console.log("⚫ ÖLÇÜLEMEDİ — " + neden + " (INDEX-KAYNAK-1006)");
++  process.exit(2);
++}
++
++function acikListe(html, kok) {
++  kok = kok || KOK;
++  const ham = [...html.matchAll(/<script\b[^>]*\bsrc="(data\/[^"?]+\.js)/g)].map(m => m[1]);
++  const out = [];
++  for (const s of ham) {
++    const p = path.join(kok, s);
++    if (!fs.existsSync(p)) olculemedi("index.html'deki src diskte yok: " + s);
++    const ic = [...fs.readFileSync(p, "utf8").matchAll(ISARET)].map(m => m[1]);
++    if (!ic.length && /(^|\/)paket_\d+\.js$/.test(s)) olculemedi("paket açılamadı (işaret yok): " + s);
++    if (!ic.length) { out.push(s); continue; }
++    for (const k of ic) {
++      if (!fs.existsSync(path.join(kok, k))) olculemedi(s + " içindeki kaynak diskte yok: " + k);
++      out.push(k);
++    }
++  }
++  return out;
++}
++
++// `rx` betiğin index.html'e uyguladığı regex'tir (g bayrağı önemsiz). Her açık
++// kaynak, index.html'de TEK BAŞINA bağlı olsaydı yazılacak etiketle sınanır.
++function kaynaklar(html, rx, kok) {
++  const r = new RegExp(rx.source, rx.flags.replace("g", ""));
++  const sec = acikListe(html, kok).filter(s => r.test('<script src="' + s + '?v=r0"></script>'));
++  if (!sec.length) olculemedi("süzgeçten sıfır dosya geçti: " + rx);
++  return sec;
++}
++
++let _motor = null;
++function motorYerlesim(kok) {
++  if (_motor !== null) return _motor;
++  const p = require("child_process").spawnSync("py", ["-c",
++    "import sys;sys.path.insert(0,'arac');import girdi;print(len(girdi.yukle(sessiz=True)))"],
++    { cwd: kok || KOK, encoding: "utf8", env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) });
++  const n = parseInt(String(p.stdout || "").trim().split(/\r?\n/).pop(), 10);
++  if (!(n > 0)) olculemedi("girdi.py okunamadı: " + String(p.stderr || p.error || "").slice(0, 200));
++  return (_motor = n);
++}
++
++function yerlesimKapisi(Y, kok) {
++  const m = motorYerlesim(kok);
++  if (!Y || Y.length < 0.9 * m)
++    olculemedi("yüklenen yerleşim " + (Y ? Y.length : 0) + " · motor evreni " + m);
++  return Y;
++}
++
++module.exports = { kaynaklar, acikListe, yerlesimKapisi, motorYerlesim };
+diff --git a/denetim/INDEX-KAYNAK-SINAV-1006.js b/denetim/INDEX-KAYNAK-SINAV-1006.js
+new file mode 100644
+index 00000000..9db51cd0
+--- /dev/null
++++ b/denetim/INDEX-KAYNAK-SINAV-1006.js
+@@ -0,0 +1,73 @@
++// INDEX-KAYNAK-SINAV-1006 — INDEX-KAYNAK-1006.js'in iki yönlü sınavı (salt okuma).
++//   node denetim/INDEX-KAYNAK-SINAV-1006.js        çıkış 0 geçti · 1 kaldı
++// POZİTİF gerçek index.html'de, YAPAY + NEGATİF geçici bir kökte koşar
++// (ÖLÇÜLEMEDİ dalı process.exit(2) yaptığı için her negatif ayrı süreçtir).
++"use strict";
++const fs = require("fs"), path = require("path"), os = require("os");
++const cp = require("child_process");
++const IK = require("./INDEX-KAYNAK-1006.js");
++const KOK = path.join(__dirname, "..");
++const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
++let gecti = 0, kaldi = 0;
++const sina = (ad, sart, detay) => {
++  if (sart) { gecti++; console.log("  ✓ " + ad); }
++  else { kaldi++; console.log("  ✗ " + ad + (detay ? "  — " + detay : "")); }
++};
++
++console.log("① POZİTİF — gerçek index.html");
++const ham = [...html.matchAll(/<script\b[^>]*\bsrc="(data\/[^"?]+\.js)/g)].map(m => m[1]);
++const paket = ham.filter(s => /(^|\/)paket_\d+\.js$/.test(s));
++const acik = IK.acikListe(html);
++const isaret = paket.reduce((n, s) =>
++  n + [...fs.readFileSync(path.join(KOK, s), "utf8").matchAll(/^\/\* ==== data\/[^ ]+\.js ==== \*\//gm)].length, 0);
++console.log("  index " + ham.length + " src (" + paket.length + " paket) · açık " + acik.length);
++sina("açık = paketsiz src + paket işaretleri (" + (ham.length - paket.length) + " + " + isaret + ")",
++  acik.length === ham.length - paket.length + isaret, "açık " + acik.length);
++sina("açık listede paket kalmadı", !acik.some(s => /paket_\d+\.js$/.test(s)));
++sina("paket dışı src'ler aynen ve aynı sırada", JSON.stringify(ham.filter(s => !paket.includes(s))) ===
++  JSON.stringify(acik.filter(s => ham.includes(s))));
++const yer = IK.kaynaklar(html, /src="(data\/yerlesimler[^"?]*\.js)/);
++const ctx = {}; ctx.window = ctx; require("vm").createContext(ctx);
++yer.forEach(f => require("vm").runInContext(fs.readFileSync(path.join(KOK, f), "utf8"), ctx));
++const Y = Object.keys(ctx).filter(k => /^YERLESIMLER(_|$)/.test(k) && Array.isArray(ctx[k]))
++  .reduce((n, k) => n + ctx[k].length, 0);
++const motor = IK.motorYerlesim();
++sina("yerleşim süzgeci motor evrenini görüyor (" + Y + " = girdi.py " + motor + ")", Y === motor);
++
++console.log("\n② YAPAY — geçici kök: paket_1 = {a.js, yerlesimler_x.js} + çıplak olaylar_y.js");
++const T = fs.mkdtempSync(path.join(os.tmpdir(), "ik1006-"));
++fs.mkdirSync(path.join(T, "data"));
++const yaz = (r, s) => fs.writeFileSync(path.join(T, r), s);
++yaz("data/a.js", "window.A=[1];\n");
++yaz("data/yerlesimler_x.js", "window.YERLESIMLER_X=[{ad:'x'}];\n");
++yaz("data/olaylar_y.js", "window.OLAYLAR_Y=[];\n");
++yaz("data/paket_1.js", "/* ==== data/a.js ==== */\nwindow.A=[1];\n/* ==== data/yerlesimler_x.js ==== */\nwindow.YERLESIMLER_X=[{ad:'x'}];\n");
++yaz("data/paket_2.js", "window.ISARETSIZ=1;\n");
++const H = (...s) => s.map(x => '<script src="' + x + '?v=r1"></script>').join("\n");
++yaz("index.html", H("data/paket_1.js", "data/olaylar_y.js"));
++const h1 = fs.readFileSync(path.join(T, "index.html"), "utf8");
++sina("+ yerleşim süzgeci paketin İÇİNDEKİ dosyayı buluyor",
++  JSON.stringify(IK.kaynaklar(h1, /src="(data\/yerlesimler[^"?]*\.js)/, T)) === '["data/yerlesimler_x.js"]');
++sina("+ çıplak src paketle yan yana çalışıyor (olaylar)",
++  JSON.stringify(IK.kaynaklar(h1, /src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/, T)) === '["data/olaylar_y.js"]');
++sina("+ `<script src=…\"><\\/script>` biçimli dar regex de tutuyor",
++  IK.kaynaklar(h1, /<script src="(data\/[^"?]+)(\?[^"]*)?"><\/script>/, T).length === 3);
++
++console.log("\n③ NEGATİF — her biri ÇIKIŞ 2 (ÖLÇÜLEMEDİ) vermeli, 'temiz' değil");
++const kos = js => cp.spawnSync(process.execPath, ["-e", js], { cwd: KOK, encoding: "utf8" });
++const IKY = JSON.stringify(path.join(__dirname, "INDEX-KAYNAK-1006.js"));
++const TY = JSON.stringify(T);
++const neg = (ad, govde) => {
++  const r = kos("const IK=require(" + IKY + "),fs=require('fs'),path=require('path');" + govde);
++  sina(ad + " → çıkış 2", r.status === 2, "çıkış " + r.status + " " + (r.stdout + r.stderr).slice(0, 120));
++};
++yaz("index2.html", H("data/paket_2.js"));
++neg("− işaretsiz paket", "IK.acikListe(fs.readFileSync(path.join(" + TY + ",'index2.html'),'utf8')," + TY + ")");
++yaz("index3.html", H("data/yok.js"));
++neg("− diskte olmayan src", "IK.acikListe(fs.readFileSync(path.join(" + TY + ",'index3.html'),'utf8')," + TY + ")");
++neg("− süzgeçten sıfır dosya", "IK.kaynaklar(fs.readFileSync(path.join(" + TY + ",'index.html'),'utf8'),/src=\"(data\\/kronoloji_zzz)/," + TY + ")");
++neg("− yerleşim kapısı (10 kayıt, motor " + motor + ")", "IK.yerlesimKapisi(new Array(10).fill({}))");
++fs.rmSync(T, { recursive: true, force: true });
++
++console.log("\nSONUÇ: " + gecti + " geçti · " + kaldi + " kaldı");
++process.exit(kaldi ? 1 : 0);
+diff --git a/denetim/ODAK-ASYA-0080-ara.js b/denetim/ODAK-ASYA-0080-ara.js
+index fdfbf3ed..931d30b0 100644
+--- a/denetim/ODAK-ASYA-0080-ara.js
++++ b/denetim/ODAK-ASYA-0080-ara.js
+@@ -10,9 +10,11 @@ const SG = require(path.join(KOK, "js", "suzgec.js"));
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]).filter(s => /yerlesimler|devletler\.js/.test(s)).forEach(yukle);
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/).filter(s => /yerlesimler|devletler\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ const Y = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k])).reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
++IK.yerlesimKapisi(Y);
+ const KIX = {}; (W.DEVLETLER || []).forEach(k => { if (k && k.id) KIX[k.id] = k; });
+ const gs = process.argv[2];
+ for (const a of process.argv.slice(3)) {
+diff --git a/denetim/ODAK-ASYA-0080-dok.js b/denetim/ODAK-ASYA-0080-dok.js
+index 058b0fcc..44698bba 100644
+--- a/denetim/ODAK-ASYA-0080-dok.js
++++ b/denetim/ODAK-ASYA-0080-dok.js
+@@ -11,12 +11,14 @@ const SG = require(path.join(KOK, "js", "suzgec.js"));
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) { console.log("YOK:", rel); return false; } vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-const bagli = [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]);
++const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
++const bagli = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/);
+ bagli.filter(s => /yerlesimler|devletler\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const Y = W.YERLESIMLER;
++IK.yerlesimKapisi(Y);
+ const KIX = {}; (W.DEVLETLER || []).forEach(k => { if (k && k.id) KIX[k.id] = k; });
+ const havuz = new Set(); Y.forEach(y => { if (y.ad) { havuz.add(y.ad); havuz.add(y.ad.split(" (")[0]); } });
+ 

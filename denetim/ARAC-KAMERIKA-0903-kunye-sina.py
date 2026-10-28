@@ -37,6 +37,17 @@ print("künye: %d (%s)" % (len(K), " + ".join(str(len(json.load(
 GUN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 UFUK_F, UFUK_T = "1281-01-01", "1923-10-29"
 hata = []
+CIKIS = 0   # CLAUDE.md §3: 0 temiz · 1 ihlal · 2 ölçülemedi
+SEBEP = ""
+# ÖNCÜL (v2 ⓑ): reçete devletler.js'e ZATEN işlenmişse (aynı id + aynı ad)
+# "bu reçete yazılabilir mi" sorusu bayattır — o reçete ölçülmez, AYRICA sayılır.
+# Gerileme sezicisi: id silinirse reçete yeniden gerçek ölçüme girer.
+# Aynı id + FARKLI ad = gerçek çakışma, ölçüme girer (⑥ öter).
+MEVCUT_AD = dict(re.findall(r'id\s*:\s*"([^"]+)"\s*,\s*ad\s*:\s*"([^"]*)"', s))
+ISLENMIS = [k.get("id") for k in K if MEVCUT_AD.get(k.get("id")) == k.get("ad")]
+OLCULECEK = [k for k in K if k.get("id") not in ISLENMIS]
+print("zaten işlenmiş (id+ad devletler.js'te): %d · gerçek ölçüme giren: %d"
+      % (len(ISLENMIS), len(OLCULECEK)))
 
 
 def bak(kosul, kim, mesaj):
@@ -45,7 +56,7 @@ def bak(kosul, kim, mesaj):
 
 
 gorulen = set()
-for k in K:
+for k in OLCULECEK:
     i = k.get("id", "?")
     # ① dört haneli yıl (M-2396)
     for alan in ("f", "t"):
@@ -91,11 +102,20 @@ for k in K:
 
 print("\n--- ① geçme yolu: gerçek reçete ---")
 if hata:
+    CIKIS = 1
     print("🔴 %d HATA" % len(hata))
     for h in hata:
         print("   " + h)
+elif not OLCULECEK:
+    CIKIS = 2
+    SEBEP = ("ÖLÇÜLEMEDİ: %d reçetenin tamamı (%d/%d) zaten devletler.js'te — soru bayat"
+             " (teslim-öncesi araç)" % (len(K), len(ISLENMIS), len(K)))
+    print("⚪ " + SEBEP)
 else:
-    print("🟢 TEMİZ — 0 hata")
+    print("🟢 TEMİZ — %d reçete ölçüldü, 0 hata" % len(OLCULECEK))
+if ISLENMIS and OLCULECEK:
+    print("⚪ ayrıca %d reçete zaten işlenmiş (ölçülmedi): %s"
+          % (len(ISLENMIS), ", ".join(ISLENMIS)))
 
 print("\n--- ② ateşleme yolu: her dal ZORLA sınanır (C13) ---")
 sahte = [
@@ -150,4 +170,10 @@ for kayit, ad in sahte:
                 date(int(v[:4]), int(v[5:7]), int(v[8:10]))
             except ValueError:
                 hata.append("takvim")
+    if not hata:
+        CIKIS = 1   # ateşleme dalı ötmedi = sınav kendini doğrulayamadı
     print("   %-24s → %s" % (ad, "🟢 ÖTTÜ" if hata else "🔴 ÖTMEDİ"))
+print("\nSONUÇ:", {0: "temiz", 1: "İHLAL", 2: SEBEP}[CIKIS] +
+      (" · ayrıca %d reçete zaten işlenmiş (ölçülmedi)" % len(ISLENMIS)
+       if ISLENMIS and OLCULECEK else ""))
+sys.exit(CIKIS)

@@ -119,6 +119,32 @@ function _ahBolgeleriUret(kayit) {
     // kayıt YOKSA, örn. Pasarofça). `sinir_id` yolunun AYNI özellikleriyle (renk/etiket/kayit_id)
     // üretir, yalnız `kayit_id` burada `null` (hukuki_sinirlar'da bir karşılığı yok — tıklanınca
     // popup yalnız kendi `ad`/`kaynak`ını gösterir, C kaydına referans vermez).
+    // 🆕 SIRADA-A-1012 (0066/H-0005, Emre 13 Ekim) — `bolge.zarf:true`: noktalar'ın DIŞ ZARFI
+    // (dışbükey kabuk) dolgu olarak da çizilir. Zarf sınır DEĞİL, KAYNAKTA ADIYLA o devlete
+    // geçtiği yazılı yerleşimlerin kapladığı çekirdek alandır (muhafazakâr: gerçek pay daha
+    // geniş olabilir); kaba kutudan farkı, sonraki paylaşmaların (1793/1795) topraklarını
+    // KAPSAMAMASIDIR.
+    if (bolge.zarf && Array.isArray(bolge.noktalar)) {
+      var _zp = bolge.noktalar.filter(function (n) { return n.lat != null && n.lon != null; })
+        .map(function (n) { return [n.lon, n.lat]; }).sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; });
+      var _cz = function (o, a, b) { return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]); };
+      var _alt = [], _ust = [];
+      _zp.forEach(function (p) {
+        while (_alt.length >= 2 && _cz(_alt[_alt.length - 2], _alt[_alt.length - 1], p) <= 0) _alt.pop();
+        _alt.push(p);
+      });
+      _zp.slice().reverse().forEach(function (p) {
+        while (_ust.length >= 2 && _cz(_ust[_ust.length - 2], _ust[_ust.length - 1], p) <= 0) _ust.pop();
+        _ust.push(p);
+      });
+      var _halka = _alt.slice(0, -1).concat(_ust.slice(0, -1));
+      if (_halka.length >= 3) {
+        _halka.push(_halka[0]);
+        var _zpoly = { type: "Polygon", coordinates: [_halka] };
+        dolguFeat.push({ type: "Feature", properties: { renk: renk, kayit_id: null, etiket: bolge.etiket }, geometry: _zpoly });
+        if (!etiketAnkraj) etiketAnkraj = _ahPoligonCentroid(_zpoly);
+      }
+    }
     if (Array.isArray(bolge.noktalar)) {
       bolge.noktalar.forEach(function (n) {
         if (n.lat == null || n.lon == null) { console.warn("ANTLAŞMA HARİTASI: '" + (n.ad || "?") + "' koordinatsız — atlandı."); return; }
@@ -165,10 +191,80 @@ function _ahTemizle() {
   });
   _ahAktifId = null;
 }
+// 🆕 KUTU-G3-1014 (0054/H-0020, Emre: "alınan verilen bölgelerin boyanması
+// TARANMASI ve üstlerine etiketler") — TARAMA. Her taraf rengi için çalışma
+// anında 12×12'lik bir karo üretilir: köşegen şerit taraf renginde, arası
+// SAYDAM; böylece altta zayıf düz dolgu + üstte taralı desen okunur ("burası
+// bu antlaşmayla el değiştirdi") ve alttaki harita kaybolmaz. app.js'in
+// devirDesenleriKur() karosuyla aynı teknik (dış dosya yok, fill-pattern).
+// Desen adı renge bağlıdır: aynı renk iki kayıtta bir kez üretilir.
+function _ahDesenAdi(renk) {
+  return "ah-tarama-" + String(renk || "#8e0b22").replace(/[^0-9a-zA-Z]/g, "");
+}
+function _ahDesenKur(renk) {
+  var ad = _ahDesenAdi(renk);
+  if (harita.hasImage && harita.hasImage(ad)) return ad;
+  var h = String(renk || "#8e0b22").replace("#", "");
+  if (h.length === 3) h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2];
+  var n = parseInt(h, 16);
+  if (isNaN(n)) n = 0x8e0b22;
+  var c = [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+  var K = 12, veri = new Uint8Array(K * K * 4);
+  for (var y = 0; y < K; y++) {
+    for (var x = 0; x < K; x++) {
+      var i = (y * K + x) * 4;
+      if (((x + y) % K) < 4) {           // şerit: karonun 1/3'ü
+        veri[i] = c[0]; veri[i + 1] = c[1]; veri[i + 2] = c[2]; veri[i + 3] = 235;
+      }                                   // değilse 0,0,0,0 — saydam
+    }
+  }
+  harita.addImage(ad, { width: K, height: K, data: veri });
+  return ad;
+}
+// 🆕 POSTIT-120 (Emre, 19 Ekim 2026): *"bırakılan bölgeler savaş öncesi durum ile
+// savaş sonrası durumun farklarını göstermeli."* Elle yazılmış kayıt Karlofça'da
+// 1 şerit poligon + 11 nokta + üst üste 5 etiket çiziyordu (ölçüldü) — Macaristan,
+// Mora, Podolya alanı hiç boyanmıyordu. Şimdi antlaşma kutusunun ZATEN hesapladığı
+// kademe kümesinden (app.js `_farkKutusuCiz` → ANT_FARK.fs) savaş başında Osmanlı/
+// tâbi olup antlaşma günü başkasına geçen peteklerin GERÇEK sınırları boyanır,
+// yeni sahibe göre gruplanıp her gruba tek etiket konur. Küme yoksa eski yol.
+function _ahOsm(k) { return !!k && !!window.SUZGEC && SUZGEC.osmTarafi(k); }
+function _ahPetektenUret() {
+  var fs = (typeof ANT_FARK !== "undefined" && ANT_FARK.fs) || [];
+  var dolgu = [], grup = {};
+  fs.forEach(function (ft) {
+    var p = ft.properties || {};
+    if (!p.k1 || !p.k3 || !_ahOsm(p.k1) || _ahOsm(p.k3)) return;
+    dolgu.push({ type: "Feature", properties: { renk: p.antSonrasi, kayit_id: null, ad: p.ad,
+                 etiket: "Bırakılan → " + _sahipAdi(p.k3) }, geometry: ft.geometry });
+    var g = grup[p.k3] || (grup[p.k3] = { renk: p.antSonrasi, n: 0, sx: 0, sy: 0, x0: 180, y0: 90, x1: -180, y1: -90 });
+    ft.geometry.coordinates.forEach(function (poly) {
+      (poly[0] || []).forEach(function (c) {
+        g.n++; g.sx += c[0]; g.sy += c[1];
+        g.x0 = Math.min(g.x0, c[0]); g.x1 = Math.max(g.x1, c[0]); g.y0 = Math.min(g.y0, c[1]); g.y1 = Math.max(g.y1, c[1]);
+      });
+    });
+  });
+  var etiket = [], kutu = [180, 90, -180, -90];
+  Object.keys(grup).forEach(function (k) {
+    var g = grup[k];
+    if (!g.n) return;
+    etiket.push({ type: "Feature", properties: { etiket: "Bırakılan → " + _sahipAdi(k), renk: g.renk },
+                  geometry: { type: "Point", coordinates: [g.sx / g.n, g.sy / g.n] } });
+    kutu = [Math.min(kutu[0], g.x0), Math.min(kutu[1], g.y0), Math.max(kutu[2], g.x1), Math.max(kutu[3], g.y1)];
+  });
+  return { dolgu: dolgu, nokta: [], etiket: etiket, kutu: (kutu[2] >= kutu[0]) ? kutu : null };
+}
 function _ahGoster(kayit) {
   if (!_ahHazirMi() || !harita.getSource("antlasma-harita-dolgu")) return;
   if (_ahAktifId === kayit.id) return;
-  var f = _ahBolgeleriUret(kayit);
+  var f = _ahPetektenUret();
+  if (!f.dolgu.length) f = _ahBolgeleriUret(kayit);
+  else if (f.kutu) harita.fitBounds([[f.kutu[0], f.kutu[1]], [f.kutu[2], f.kutu[3]]], { padding: 40, duration: 900, maxZoom: 6, essential: true });
+  f.dolgu.forEach(function (ft) {
+    try { ft.properties.desen = _ahDesenKur(ft.properties.renk); }
+    catch (e) { console.warn("ANTLAŞMA HARİTASI: tarama deseni kurulamadı", e); }
+  });
   harita.getSource("antlasma-harita-dolgu").setData({ type: "FeatureCollection", features: f.dolgu });
   harita.getSource("antlasma-harita-nokta").setData({ type: "FeatureCollection", features: f.nokta });
   harita.getSource("antlasma-harita-etiket").setData({ type: "FeatureCollection", features: f.etiket });
@@ -182,7 +278,18 @@ function _ahKatmaniKur() {
     harita.addSource("antlasma-harita-dolgu", { type: "geojson", data: bosVeri() });
     harita.addLayer({
       id: "antlasma-harita-dolgu", type: "fill", source: "antlasma-harita-dolgu",
-      paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.55, "fill-outline-color": "#1a1a1a" }
+      paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.22 }
+    });
+    // KUTU-G3-1014 (0054/H-0020): düz dolgunun ÜSTÜNDE taralı desen + taraf renginde kontur.
+    // Aynı kaynağı okur; temizleme/gösterme ayrıca bir şey gerektirmez.
+    harita.addLayer({
+      id: "antlasma-harita-tarama", type: "fill", source: "antlasma-harita-dolgu",
+      filter: ["has", "desen"],
+      paint: { "fill-pattern": ["get", "desen"], "fill-opacity": 0.9 }
+    });
+    harita.addLayer({
+      id: "antlasma-harita-kontur", type: "line", source: "antlasma-harita-dolgu",
+      paint: { "line-color": ["get", "renk"], "line-width": 2.2, "line-opacity": 0.95 }
     });
     harita.addSource("antlasma-harita-nokta", { type: "geojson", data: bosVeri() });
     harita.addLayer({

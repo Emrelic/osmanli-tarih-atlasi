@@ -1,0 +1,1447 @@
+[
+ {
+  "anahtar": "parti-emrelic-0052/H-0035",
+  "sinif": "BAYAT",
+  "ozet": "Yemen hâkimiyeti ve Hürmüz Boğazı ek okumaları",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:41 dunya-yemende-osmanli-hakimiyeti · data/ekokuma_dunya.js:49 dunya-hurmuz-bogazi-onemi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0036",
+  "sinif": "BAYAT",
+  "ozet": "İpek Yolu ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:61 dunya-ipek-yolu-tarihi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0037",
+  "sinif": "BAYAT",
+  "ozet": "Coğrafi keşifler ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:72 dunya-cografi-kesifler. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0038",
+  "sinif": "BAYAT",
+  "ozet": "İcat ve buluşlar ek okumaları",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:84 dunya-icatlar-erken-donem · data/ekokuma_dunya.js:91 dunya-icatlar-sinai-donem. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0039",
+  "sinif": "VERI",
+  "ozet": "Nef'î maddesindeki geliştirici notu kaldırılsın + Osmanlı'da idam edilen şair/sanatçı/bilim/din adamları genel ek okuması ve kişi kartları",
+  "kanit": "Geliştirici notu kısmı ÇÖZÜLDÜ: js/app.js:12078-12093 eşleşme yoksa '🗺 haritadaki karşılığı' kutusu basılmıyor, teşhis console.debug'a gidiyor. Genel kart kısmı AÇIK: ekokuma*.js'te 'idam' içeren kimlikler yalnız nefi-idami (ekokuma_edebiyat.js:107), tartisma-idam-edilen-devlet-adamlari (ekokuma_vezir.js:64, yalnız sadrazam/şeyhülislam), tartisma-candarli-halil-pasa-idami, tartisma-otranto-1480-idamlar, magazin-merzifonlu-idam-budin-beylerbeyi; şair/sanatçı/âlim genel kartı yok.",
+  "dosyalar": [
+   "data/ekokuma_edebiyat.js"
+  ],
+  "oneri": "ekokuma_edebiyat.js'e TDV kaynaklı genel kart (ör. 'Kalemi yüzünden ölenler: Osmanlı'da idam edilen şair, âlim ve sûfîler' — Nef'î, Figânî, Molla Lutfî, Oğlan Şeyh İsmâil Maşûkî, Hamzavî lideri Hamza Bâlî vb., her ad TDV'den teyitle) + gerekiyorsa kişi kartları; Nef'î 1635 maddesine bağ.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0040",
+  "sinif": "BAYAT",
+  "ozet": "İran topraklarının elde tutulamaması tartışması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:102 dunya-iran-topraklari-tartisma. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0041",
+  "sinif": "BAYAT",
+  "ozet": "Kuzey Karadeniz halkları / Kazak adı karışıklığı",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:116 dunya-kuzey-karadeniz-halklari-kazak-karisikligi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0042",
+  "sinif": "BAYAT",
+  "ozet": "Hezarfen Ahmed Çelebi uçuşu kaynak tartışması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_rivayet.js:50 tartisma-hezarfen-ahmed-celebi-tarihlendirme · data/olaylar_ek7.js:76 (1638 dolayı, rivayet). Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_rivayet.js",
+   "data/olaylar_ek7.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0043",
+  "sinif": "TEKRAR",
+  "ozet": "Bağdat 1638 geri alınışında Erbil adacığı ve koyu/açık kırmızı ikiliği",
+  "kanit": "Ölçüm (girdi.yukle): Erbil d 1534-12-04→1623-11-28 + 1638-12-24→1918; safevi 1623-11-28→1638-12-24. Musul d 1625-01-01'den itibaren Osmanlı ⇒ Erbil 1625-1638 arası Safevî adacığı SÜRÜYOR (data/yerlesimler*). Bu, 0052/H-0021 ile aynı kusur (denetim/KUTU-HUKUM-ESKI-1012.json: senin-kararin, kaynak bulunamadı; seçenek B — 12-24 hizası — uygulanmış). Renk ikiliği kolu ESKI2-1012'de H-0019 ile çözüldü.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "0052/H-0021 kararıyla birlikte: Erbil'in 1623-1638 sahibi akademik kaynakla aranmalı; bulunamazsa Musul/Kerkük'e hizalanması Emre'nin kararı.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": "parti-emrelic-0052/H-0021"
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0044",
+  "sinif": "BAYAT",
+  "ozet": "Kemankeş 1638 maddesinde son okuyucuya görünen 'haritadaki karşılığı / bağlanamadı' geliştirici notu kaldırılsın",
+  "kanit": "js/app.js:12078-12093: eşleşme yoksa kutu basılmıyor, metin yalnız console.debug'a gidiyor (H-0047 çaresi, bütün maddeler için ortak).",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0045",
+  "sinif": "BAYAT",
+  "ozet": "Şüpheli ölümler kartındaki ①-⑬ maddeler ayrı satırlarda gösterilsin",
+  "kanit": "İçerik 13 ayrı karta bölünmüş (data/ekokuma_padisah.js:92 supheli-olum-osman-dundar-1299 … :165 supheli-olum-abdulaziz-1876, :189 olum-kosem-sultan-1651); ayrıca ①-⑳ işaretli metin js/app.js:12691 _maddeliMetniHtmle ile ayrı paragraflara bölünüyor.",
+  "dosyalar": [
+   "data/ekokuma_padisah.js",
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0046",
+  "sinif": "BAYAT",
+  "ozet": "Kasr-ı Şirin içindeki Kemankeş kartı zayıf + kart başlıkları içeriğe göre (hükümler / nasıl yapıldı)",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:84 kimdir-kemankes-mustafa-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json. Hükümler/hikâye ayrımı data/ekokuma_tamamla.js:24-38 başlık notunda doğrulanmış.",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0047",
+  "sinif": "BAYAT",
+  "ozet": "'Bu maddenin haritadaki karşılığı … bağlanamadı' geliştirici notları son okuyucudan kaldırılsın",
+  "kanit": "js/app.js:12078-12093 (yorum H-0047): r.secilen boşsa kutu basılmıyor, teşhis console.debug.",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0048",
+  "sinif": "ARAYUZ",
+  "ozet": "Padişah kartlarında aile/evlilik içerikli 'Magazin' kartları 'Aile künyesi' başlığı altında verilsin",
+  "kanit": "Bugün hâlâ magazin: data/ekokuma_ibrahim.js:100 ibrahim-telli-haseki-nikahi, :111 ibrahim-hasekiler-pasmaklik-eyaletler, :144 ibrahim-cocuk-yastaki-kizlar-damat-vezirler, data/ekokuma_padisah.js:56 magazin-nurbanu-safiye-murad-iii (tur:\"magazin\"). js/app.js:12486 tür sözlüğünde 'aile-kunyesi' yok (grep 0). Önceki hüküm senin-kararin idi ama Emre'nin metni kararı veriyor (aile künyesi adı).",
+  "dosyalar": [
+   "js/app.js",
+   "data/ekokuma_ibrahim.js",
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "app.js:11105/12486/12645/12938'deki tür tablolarına 'aile-kunyesi' (👪 Aile künyesi) ekle; 4 kartın tur'unu aile-kunyesi yap; diğer padişah magazin kartlarını içerik (anne/baba/eş/çocuk) ölçütüyle tara.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0049",
+  "sinif": "BAYAT",
+  "ozet": "Padişah lakapları ve sanat/zanaat ek okumaları",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_padisah.js:247 kimdir-padisah-lakaplari · data/ekokuma_padisah.js:257 kimdir-padisah-sanat-zanaat. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0050",
+  "sinif": "BAYAT",
+  "ozet": "İbrahim'in cülus rivayetleri",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_padisah.js:198 tartisma-ibrahim-culus-rivayeti · data/ekokuma_ibrahim.js:45 ibrahim-culus-iki-kez-bakti-1640. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_ibrahim.js",
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0051",
+  "sinif": "BAYAT",
+  "ozet": "Narh defterleri ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:84 teknik-narh-defterleri. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0052",
+  "sinif": "BAYAT",
+  "ozet": "Tahrir defterleri ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:101 teknik-tahrir-defterleri. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0053",
+  "sinif": "BAYAT",
+  "ozet": "Mehter ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:99 mehter-yeniceriyle-birlikte-lagvi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0054",
+  "sinif": "BAYAT",
+  "ozet": "Topçuluk/gemicilik/matbaa/dokuma/zanaat ek okumaları",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:112 muteferrika-matbaasi-kurulusu · data/ekokuma_tamamla.js:122 teknik-tophane-tersane-amire · data/ekokuma_toplum.js:189 feshane-osmanli-sanayilesme-girisimi · data/ekokuma_toplum.js:205 lonca-esnaf-teskilati. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_tamamla.js",
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0055",
+  "sinif": "BAYAT",
+  "ozet": "Osmanlı eğitim sistemi ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:118 teknik-osmanli-egitim-sistemi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0056",
+  "sinif": "BAYAT",
+  "ozet": "Osmanlı hukuk sistemi ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:133 teknik-osmanli-hukuk-sistemi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0057",
+  "sinif": "BAYAT",
+  "ozet": "I. İbrahim skandalları (Cinci Hoca, samur, Hezarpâre, Varvar)",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_padisah.js:209 tartisma-ibrahim-skandal-figurleri · data/ekokuma_ibrahim.js:56 ibrahim-cinci-hoca-nefes-ve-dam-1642. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_ibrahim.js",
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0058",
+  "sinif": "BAYAT",
+  "ozet": "'Deli' anılan padişahlar ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_padisah.js:47 tartisma-deli-padisahlar-karsilastirma. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0059",
+  "sinif": "BAYAT",
+  "ozet": "Kemankeş Mustafa Paşa zenginleştirme",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:84 kimdir-kemankes-mustafa-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0060",
+  "sinif": "BAYAT",
+  "ozet": "Gedik Ahmed Paşa ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:94 kimdir-gedik-ahmed-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0061",
+  "sinif": "BAYAT",
+  "ozet": "Sokullu Mehmed Paşa ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:104 kimdir-sokullu-mehmed-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0062",
+  "sinif": "BAYAT",
+  "ozet": "Pargalı İbrahim Paşa ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:114 kimdir-pargali-ibrahim-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0063",
+  "sinif": "BAYAT",
+  "ozet": "Rüstem Paşa ve Koca Râgıb Paşa ek okumaları",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:124 kimdir-rustem-pasa · data/ekokuma_vezir.js:134 kimdir-koca-ragib-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0064",
+  "sinif": "BAYAT",
+  "ozet": "Çandarlı'nın idamı tartışması (ad düzeltmesi: Halil Paşa)",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:144 tartisma-candarli-halil-pasa-idami. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0065",
+  "sinif": "BAYAT",
+  "ozet": "Nevşehirli Damad İbrahim Paşa ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:154 kimdir-nevsehirli-damad-ibrahim-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0066",
+  "sinif": "BAYAT",
+  "ozet": "Kuyucu Murad Paşa ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:165 kimdir-kuyucu-murad-pasa · data/ekokuma_celali.js:64 kimdir-kuyucu-murad-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json. ⚠️ Aynı id iki dosyada (ekokuma_vezir.js:165 ve ekokuma_celali.js:64) — mükerrer kimlik, hangisinin kazandığı yükleme sırasına bağlı; ayrı temizlik işi.",
+  "dosyalar": [
+   "data/ekokuma_celali.js",
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0067",
+  "sinif": "BAYAT",
+  "ozet": "Köprülüler ek okumaları",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:175 kimdir-koprulu-mehmed-pasa · data/ekokuma_vezir.js:185 kimdir-koprulu-fazil-ahmed-pasa · data/ekokuma_vezir.js:195 kimdir-merzifonlu-kara-mustafa-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0068",
+  "sinif": "BAYAT",
+  "ozet": "Mustafa Reşid, Âli ve Midhat Paşa ek okumaları",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:205 kimdir-mustafa-resid-pasa · data/ekokuma_vezir.js:215 kimdir-ali-pasa-mehmed-emin · data/ekokuma_vezir.js:225 kimdir-midhat-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0069",
+  "sinif": "BAYAT",
+  "ozet": "Azak kalesindeki üçgen görüntü kusuru",
+  "kanit": "denetim/KUTU-HUKUM-ESKI2-1012.json (taban f60bda61, KOSU 23 gövdesi, 13 Eki): 1642-02-26 Azak — üçgen kalmadı (çizim), sivri köşe 0; don-kazak∩OSMANLI 44,6 + ∩OSM-TABI 36,8 km² küçük binme. TEKRAR-OLCULECEK-0930.md:58 koşu 18'de de 'düz kenarlı kama yok'.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0070",
+  "sinif": "BAYAT",
+  "ozet": "Girit seferi ek okuması (neden uzun sürdü, önemi)",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:128 dunya-girit-seferinin-bedeli. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0071",
+  "sinif": "BAYAT",
+  "ozet": "Samur vakası ek okuması ('Tarihimizde ilginç olaylar')",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_ibrahim.js:89 ibrahim-samur-meraki-falci-hikayesi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_ibrahim.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0072",
+  "sinif": "BAYAT",
+  "ozet": "Cihannümâ ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_rivayet.js:71 teknik-cihannuma-katib-celebi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_rivayet.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0073",
+  "sinif": "BAYAT",
+  "ozet": "İpşir Mustafa Paşa 'deyyûs-ı ekber' ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:235 magazin-ipsir-mustafa-pasa-deyyus. Önceki kapanış: denetim/KAPAT-0052-0930.json. Lakabın sebebi kaynakta bulunamadı, kartta açık.",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0074",
+  "sinif": "BAYAT",
+  "ozet": "IV. Mehmed'in cülusta ağlaması ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_padisah.js:77 tartisma-mehmed-iv-culus-aglamasi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0075",
+  "sinif": "BAYAT",
+  "ozet": "İltizam sistemi + diğer devletlerle kıyas",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:148 teknik-iltizam-sistemi · data/ekokuma_padisah.js:321 tartisma-malikane-avrupa-kiyaslama. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_kurum.js",
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0076",
+  "sinif": "BAYAT",
+  "ozet": "Çınar Vak'ası ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_rivayet.js:96 sebep-sonuc-cinar-vakasi-1656. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_rivayet.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0077",
+  "sinif": "BAYAT",
+  "ozet": "Bozcaada-Limni-Semadirek kaybı maddesinde Limni'nin haritada elden çıkmaması",
+  "kanit": "girdi.yukle() (bu ağaç): Limni d 1479-01-25→1656-07-13, s venedik 1656-07-13→1657-11-15, d 1657-11-15→; Semadirek aynı uçlar (data/yerlesimler.js).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0078",
+  "sinif": "BAYAT",
+  "ozet": "1656 Çanakkale bozgunu ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:141 savas-canakkale-bozgunu-1656. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0079",
+  "sinif": "BAYAT",
+  "ozet": "Donanmanın talihsiz olayları, başarıları ve Avrupa kıyası",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:163 dunya-donanmanin-talihsiz-anlari · data/ekokuma_dunya.js:171 dunya-donanmanin-buyuk-zaferleri · data/ekokuma_dunya.js:179 dunya-donanma-avrupa-kiyaslama. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0080",
+  "sinif": "BAYAT",
+  "ozet": "En başarılı sadrazamlar ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_vezir.js:245 tartisma-en-basarili-sadrazamlar. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0081",
+  "sinif": "BAYAT",
+  "ozet": "Limni geri alınınca boyanmıyor; Semadirek Venedik'te mi kalıyor",
+  "kanit": "girdi.yukle(): Limni ve Semadirek ikisi de d 1657-11-15→1923-07-24 (Venedik 1656-07-13→1657-11-15). Semadirek'in kendi geri alış günü kaynakta bulunamadı (KAPAT-0052-0930), Limni ile aynı güne bağlı.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "Semadirek 1656'da Venedik'e geçti, 1657-11-15'te Limni ile birlikte Osmanlı'ya dönmüş gösteriliyor; Semadirek'e özgü gün kaynakta bulunamadı.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0082",
+  "sinif": "BAYAT",
+  "ozet": "Keşfü'z-zunûn ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_rivayet.js:79 teknik-kesfuzzunun-katib-celebi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_rivayet.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0083",
+  "sinif": "BAYAT",
+  "ozet": "Yanova maddesindeki 'harita onu tâbi renkte gösteriyordu' ifadesi kaldırılsın",
+  "kanit": "data/olaylar_ek5.js:247 d: metni artık 'Erdel zaten Osmanlı'ya tâbi bir prenslikti; Yanova'nın alınması…' — 'harita' ifadesi yok (grep 'harita onu' 0). Commit 6ad83d709 (KUTU eski dönem tasnifi, okur metni düzeltmeleri).",
+  "dosyalar": [
+   "data/olaylar_ek5.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0084",
+  "sinif": "BAYAT",
+  "ozet": "Tâbi devletlerin içi Osmanlı kırmızısı, kenarı tâbi renkli kalın iç şerit",
+  "kanit": "js/app.js:2562 vassal-serit-dis (line) + :2566 vassal-dolgu (fill) katmanları; tâbi tonu tek kaynaktan (app.js:703-708, #b2384a).",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0085",
+  "sinif": "BAYAT",
+  "ozet": "Doğrudan yönetilmeyen toprakların statü listesi",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:163 teknik-osmanli-tabi-statu-listesi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0086",
+  "sinif": "BAYAT",
+  "ozet": "Eflak-Boğdan-Erdel hakları ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:183 teknik-eflak-bogdan-erdel-haklari. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0087",
+  "sinif": "BAYAT",
+  "ozet": "Menzil/mesafe ek okumasına başlık ve bölümlü düzen",
+  "kanit": "data/ekokuma.js:155-160 hukum-alani-mesafe kartına baslik:'Bir başkent ne kadar uzağa hükmedebilir? Menzil, konak ve sefer mevsimi' eklendi; metin '■ ARA BAŞLIK\\n' + paragraf bölümleriyle yazılı. Commit 52222fa3c.",
+  "dosyalar": [
+   "data/ekokuma.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0088",
+  "sinif": "BAYAT",
+  "ozet": "Osmanlı ve Avrupa savaş stili/teknolojisi karşılaştırması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:191 dunya-savas-stili-karsilastirma. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0089",
+  "sinif": "BAYAT",
+  "ozet": "Vasvar hükümleri her madde ayrı satırda",
+  "kanit": "js/app.js:12691 function _maddeliMetniHtmle — ①-⑳ işaretli metni ayrı paragraflara böler.",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0090",
+  "sinif": "BAYAT",
+  "ozet": "Girit seferinin bedeli (insan/para)",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_dunya.js:128 dunya-girit-seferinin-bedeli. Önceki kapanış: denetim/KAPAT-0052-0930.json. İnsan ve mali kayıp sayısı TDV'de bulunamadı, kartta beyanlı.",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0091",
+  "sinif": "BAYAT",
+  "ozet": "Osmanlı tarihçiliğinin kaynakları + tarihçi kartları",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:201 teknik-osmanli-tarihciligi-kaynaklari · data/ekokuma_kurum.js:216 kimdir-nesri · data/ekokuma_kurum.js:226 kimdir-naima · data/ekokuma_kurum.js:236 kimdir-ahmed-cevdet-pasa. Önceki kapanış: denetim/KAPAT-0052-0930.json. Vecihî kartı yok (TDV slug 302, bulunamadı).",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0092",
+  "sinif": "BAYAT",
+  "ozet": "Katar ve Bahreyn o tarihte Safevî miydi + Katar çevresindeki cetvel çizgisi/üst üste binme",
+  "kanit": "denetim/KUTU-HUKUM-ESKI2-1012.json (KOSU 23 gövdesi, 13 Eki): 1650-01-01 Katar kutusu örtüşme 0, boşluk 110/30.462 km², cetvel çizgisi yok; 1602/1670 Katar'da safevi 0, safevi yalnız Bahreyn.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "Katar Safevî değildi (harita da öyle gösteriyor); Bahreyn 1602'de İran'a bağlı kuvvetlerce Portekiz'den alındı (TDV bahreyn) — Safevî bağlılığı bu ölçüde teyitli.",
+  "kaynak": "https://islamansiklopedisi.org.tr/bahreyn",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0093",
+  "sinif": "BAYAT",
+  "ozet": "Cezayir dayılığı + Tunus/Libya/Mısır/Doğu Afrika bağı",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:251 teknik-cezayir-dayilik · data/ekokuma_rivayet.js:302 teknik-dogu-afrika-eyaletleri-idari-yapi · data/ekokuma_rivayet.js:290 sebep-sonuc-tunus-huseyniler-1705 · data/ekokuma_rivayet.js:320 sebep-sonuc-trablusgarp-karamanlilar-1711. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_kurum.js",
+   "data/ekokuma_rivayet.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0094",
+  "sinif": "BAYAT",
+  "ozet": "Osmanlı-Fas ilişkileri ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_kurum.js:272 teknik-osmanli-fas-iliskileri. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0095",
+  "sinif": "BAYAT",
+  "ozet": "Podolya fethi sonrası Meciboj/Bar bölgelerinin kuzeye uzaması, Uman/Çehrin enklavı, Yazlofça-Meciboj-Bar Osmanlı mı",
+  "kanit": "Yeni noktalar girdide: data/yerlesimler_ukrayna_0916.js:18-22 (Vinnitsa, Braslav, Kostantinov, Jitomir, Berdiçev); Bar koordinatı düzeltildi (data/yerlesimler.js:1432, 27.674). Yazlofça/Meciboj/Kamaniçe d 1672-08-27→1699-01-26; Uman d 1674-01-01→1699 (enklav kapandı). Kalan Çehrin kolu → H-0123.",
+  "dosyalar": [
+   "data/yerlesimler_ukrayna_0916.js",
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "Kamaniçe, Bar, Meciboj ve Yazlofça Podolya (Kamaniçe) eyaletinin sancak merkezleri olarak Osmanlı idaresine geçti; Bar/Meciboj peteklerinin uzaması yeni noktalarla kısaldı.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0096",
+  "sinif": "BAYAT",
+  "ozet": "'TDV'ye göre kaynakların ayrıştığı nokta kaydedilmiyor' boş etiketi okura gösterilmesin",
+  "kanit": "js/app.js:12719 function _tartismaVarMi — ayrışma yok etiketi süzülüyor.",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0097",
+  "sinif": "BAYAT",
+  "ozet": "Sınır şeritlerinde örtüşme/üst üste binme (5 görsel)",
+  "kanit": "denetim/KUTU-HUKUM-ESKI2-1012.json (KOSU 23, 13 Eki): 1672-10-18 beş kutu örtüşme 0..24,1 km², boşluk %0..0,1. TEKRAR-OLCULECEK-0930.md: binme 1.139 → 29 km².",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0098",
+  "sinif": "ARASTIRMA",
+  "ozet": "Colmar çevresinde bölgenin kime ait olduğu belli değil (1672)",
+  "kanit": "girdi.yukle(): Colmar s almanya 1281→1648-10-24, fransa 1648-10-24→1792. Görselde (1672) Colmar peteği fransa #c0d028 ile almanya #78d028 (arac/renkler.py:856/617) yarı saydam üst üste zeytin rengi veriyor — renk yakınlığı borcu da sürüyor.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "arac/renkler.py"
+  ],
+  "oneri": "Colmar'ın 1648 Vestfalya ile değil Fransız işgali (1673) / Nijmegen (1679) ile Fransa'ya geçtiği akademik kaynakla teyit edilip s: ucu düzeltilmeli (+ kronoloji maddesi); fransa/almanya ton ayrımı ayrı renk işi.",
+  "cevap": "Kesin değil: Colmar Dekapol özgür imparatorluk şehriydi; 1648 Vestfalya Fransa'ya Alsas'taki imparatorluk haklarını belirsiz biçimde verdi, şehir 1673'te XIV. Louis'nin işgaline uğradı, 1679 Nijmegen/1697 Rijswijk ile Fransız egemenliği kesinleşti. Kaynakla teyit gerekir.",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0099",
+  "sinif": "VERI",
+  "ozet": "Liège, Tournai, Edinburg çevresinde sınırların örtüşmemesi/binmesi",
+  "kanit": "Geometri kolu BAYAT: TEKRAR-OLCULECEK-0930.md:63 koşu 18'de binme 971 → 0. AÇIK veri kolu: girdi.yukle() Edinburg s ingiltere 1281-01-01→2000-12-31 tek dönem; oysa Glasgow ve Perth (İskoçya) iskocya 1281→1707-05-01 ⇒ Edinburg İskoçya içinde İngiltere adacığı.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Edinburg s: iskocya 1281-01-01→1707-05-01, ingiltere 1707-05-01→2000-12-31 (Glasgow/Perth ile aynı uç; 1707 Birlik maddesi zaten kırılmayı karşılıyor mu denetle ile kontrol).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0100",
+  "sinif": "KOSU",
+  "ozet": "Boş alanlar B görünümünde düzelecek mi, B görünümünün durumu ne",
+  "kanit": "arac/uret_petek.py:8171-8199 B dolgu motoru yazılı ama VARSAYILAN KAPALI (MOTOR_B_DOLGU=1); data/dolgu.js YOK (ls). index.html:1861-1865: Emre'nin 21 Eylül hükmü B'yi üç onarıma indirdi (enklav boşluğu doldurma · eksklav birleştirme · yerleşimsiz koridor kapatma) — çöl/orman/denize doldurma B'nin işi değil. denetim/KUTU-HUKUM-ESKI2-1012.json: kosu-bekliyor.",
+  "dosyalar": [
+   "arac/uret_petek.py",
+   "arac/dolgu.py"
+  ],
+  "oneri": "HAVVA koşusunda MOTOR_B_DOLGU=1 ile dolgu.js üretimi (önce yeni B tanımına uyum ölçülmeli); çöl/orman boşlukları B ile kapanmayacak.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0101",
+  "sinif": "TEKRAR",
+  "ozet": "Boşluk, enklav ve sahipsiz toprakların B görünümünde düzelmesi",
+  "kanit": "= H-0100 (B dolgusu kapalı, dolgu.js yok).",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": "parti-emrelic-0052/H-0100"
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0102",
+  "sinif": "BAYAT",
+  "ozet": "İnce uzun saçma görünümün sebebi (Kazak bozkırı)",
+  "kanit": "denetim/KUTU-HUKUM-ESKI2-1012.json (KOSU 23): 1672-08-27 Kazak bozkırı sivri köşe 0, ince parça 475/224.464 km² (%0,2), örtüşme 0.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0103",
+  "sinif": "VERI",
+  "ozet": "Renk yayılımı Aral Gölü kıyılarına oturmuyor",
+  "kanit": "girdi.yukle() 43-47.5K × 57.5-62.5D kutusunda yalnız 4 nokta (Küngrat, 'Aral kuzeyi' 47.2/61.5, Emba, Kazalinsk); kıyıda nokta yok (Aralsk, Muynak yok). Önceki teşhis (KAPAT-0052-0930, GEOMETRI ⑧): çare motor değil kıyı noktası. Görsel 16 Eylül (yürüyüş motoru öncesi), KOSU 23 gövdesinde bu kutu ölçülmedi.",
+  "dosyalar": [
+   "data/yerlesimler_ortaasya3.js"
+  ],
+  "oneri": "Önce KOSU 23 gövdesinde Aral kıyı boşluğunu ölç; sürüyorsa kaynaklı kıyı noktaları (Muynak, Aralsk — kuruluş tarihleriyle) ekle; noktasız kalacaksa Emre'nin 'boşluk olsun' kararı bu bölgeye teyit edilsin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0104",
+  "sinif": "TEKRAR",
+  "ozet": "B tipi haritalama ile boşluk/sahipsiz toprakların bölüşülmesi ne aşamada",
+  "kanit": "= H-0100.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": "parti-emrelic-0052/H-0100"
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0105",
+  "sinif": "BAYAT",
+  "ozet": "Çamdo çevresi 200 km daire — 5 günlük sürtünmeli yürüyüş uygulanmıyor mu",
+  "kanit": "denetim/TEKRAR-OLCULECEK-0930.md:77-84: koşu 18 MOTOR_YURUYUS=1 ile koştu; Çamdo peteği 20.623 km² (sürtünmeli öngörü 20.815, düz daire 112.932). Bayrak üretimde zorunlu (KOSU-YAYIN.md:40), yürüyüş motoru arac/uret_petek.py:1133-1175.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0106",
+  "sinif": "BAYAT",
+  "ozet": "Gauhati ve Sibsagar çevresine 5 günlük sürtünmeli yürüyüş uygulanıyor mu",
+  "kanit": "TEKRAR-OLCULECEK-0930.md:80-84 koşu 18: Gauhâtî 46.612 km² (öngörü 48.195, daire 90.088), Sibsâgar 49.465 (50.585, 92.689). ESKI2-1012: 1700-01-01 ikisi de ahom gövdesinde.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0107",
+  "sinif": "BAYAT",
+  "ozet": "Üst üste binme ve küçük boşluklar (Şan/Toungoo/Chiang Mai)",
+  "kanit": "ESKI2-1012 (KOSU 23): 1672-08-27 Chiang Mai kutusu örtüşme 0, boşluk 185/116.975 km² (%0,2). Koşu 18: binme 10.932 → 0.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0108",
+  "sinif": "VERI",
+  "ozet": "Hainan adasında renk kıyıya oturmuyor",
+  "kanit": "girdi.yukle() 18-20.2K × 108.5-111.2D kutusunda TEK nokta: Qiongzhou (Haikou). Ada güneyi petek tavanı dışında kalıyor.",
+  "dosyalar": [
+   "data/yerlesimler_asya.js"
+  ],
+  "oneri": "Kaynaklı ek noktalar: Danzhou (Danxian), Yazhou (Sanya), Wanzhou (Wanning) — Ming/Qing idari merkezleri; s: yuan→ming→guney-ming→qing Qiongzhou ile aynı uçlarla. Mükerrer taraması (ad + 3 km) önce.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0109",
+  "sinif": "BAYAT",
+  "ozet": "İnce uzun bozuk görüntüler (Vietnam/Qing sınırı)",
+  "kanit": "ESKI2-1012 (KOSU 23): 1672-08-27 Vietnam kutusu örtüşme 0, boşluk 47 km², ince parça %1,8, sivri köşe 0, çizim temiz.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0110",
+  "sinif": "BAYAT",
+  "ozet": "Üst üste binme ve örtüşmeme (Hong Kong/Makao)",
+  "kanit": "ESKI2-1012 (KOSU 23): 1672-08-27 örtüşme portekiz∩qing 2,5 km², boşluk %2; Makao payı yok, Hong Kong (kur 1841-01-26) noktası 1672'de yok, bölge qing.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0111",
+  "sinif": "ARASTIRMA",
+  "ozet": "Bu alanda (Amur/Mançurya) başka yerleşim yok mu, bu kadar tenha mı",
+  "kanit": "KAPAT-0052-0930 H-0111 zaten-dogru: kaynaklı yeni nokta bulunamadı; 14 noktanın 5'i sonradan kurulmuş, 3'ü beyanlı boşluk.",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "Evet, tenhalık gerçek: 17. yy Amur/Mançurya'da kaynaklı kalıcı yerleşim çok az; mevcut boşluk Emre'nin 'boşluk olsun' kararıyla uyumlu.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0112",
+  "sinif": "MOTOR",
+  "ozet": "B görünümünde enklav birleştirme Sibirya beneklerini birleştirecek mi",
+  "kanit": "TEKRAR-OLCULECEK-0930.md (sırada): B2 zincirleme yok — arac/uret_petek.py:3113 _b2_enklav_birlestir yalnız ana kütleye bağlıyor, tavan B2_ENKLAV_KM 250 km; zincir kodu grep 0. ESKI2-1012: 1672 rusya 67 parça.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "B2'ye zincirleme birleştirme (benek→benek→ana kütle) yaması; tuz değişir, tam inşa koşusu.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0113",
+  "sinif": "VERI",
+  "ozet": "Sulawesi adasını bölüşecek kadar yerleşim yok mu",
+  "kanit": "grep: Palopo, Bau-Bau/Baubau, Buton, Luwu data/yerlesimler*.js ve devletler.js'te 0; künye luwu/buton yok, renkler.py'de yok. Görsel (1672): ada ortası/güneydoğusu boş, yalnız Bone-Wajo ve Makassar.",
+  "dosyalar": [
+   "data/devletler.js",
+   "arac/renkler.py",
+   "data/yerlesimler_asya.js"
+  ],
+  "oneri": "Önce luwu (Luwu Krallığı, merkez Palopo) ve buton (Buton Sultanlığı, merkez Bau-Bau/Wolio) künyeleri + BOYALAR rengi, sonra kaynaklı noktalar. renkler.py tuz dosyası ⇒ HAVVA koşusu gerekir.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0114",
+  "sinif": "ARAYUZ",
+  "ozet": "1672'de Pavlodar/Barnaul/Semipalatinsk 'devletsiz şehir idaresi' halkası gösteriyor; yeşil renk kimin",
+  "kanit": "data/bos_alanlar.js:77,80,127,133,144,156 bu şehirler devletsiz-yerlesim cinsi, neden '1635 öncesi … 🔴 1720 TDV'ye basmıyor' — şehirler 1709-1736 kuruluşlu (yerlesimler_ek18.js:97-99). js/app.js:3221 'ZAMAN BOYUTU YOK': halka her tarihte çiziliyor ⇒ 1672'de henüz kurulmamış şehirler 'devletsiz' halkayla görünüyor. Ayrıca popup'a giden neden metninde geliştirici notu ('🔴 … TDV'ye basmıyor') okura sızıyor.",
+  "dosyalar": [
+   "js/app.js",
+   "data/bos_alanlar.js"
+  ],
+  "oneri": "bos_alanlar kayıtlarına zaman penceresi (f/t) ekle ve app.js boslukKur halka/benek çizimini tarihe bağla (tarihAyarla'da görünürlük); neden metinlerinden 🔴 geliştirici notlarını ic_not'a taşı. Yeşil, o tarihte bölgeyi tutan devletin (muhtemelen Cungar/Kazak) rengidir — tıklanan halka devleti değil yerleşimi anlatıyor.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0115",
+  "sinif": "BAYAT",
+  "ozet": "Padişah şenlikleri, düğünler, doğum ve cenaze törenleri",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:125 sehzade-mehmed-sunnet-dugunu-1582 · data/ekokuma_tamamla.js:137 sebep-sonuc-hibetullah-sultan-dogum-senligi · data/ekokuma_ibrahim.js:100 ibrahim-telli-haseki-nikahi. Önceki kapanış: denetim/KAPAT-0052-0930.json. Ayrı bir cenaze töreni kartı kimliği yok (id grep 0); cenaze yalnız başka kartlarda anılıyor (ekokuma_hanedan/rivayet/tamamla) — istenirse küçük ek iş.",
+  "dosyalar": [
+   "data/ekokuma_ibrahim.js",
+   "data/ekokuma_tamamla.js",
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0116",
+  "sinif": "BAYAT",
+  "ozet": "Hanedanda evlilik/cariyelik ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:138 hanedan-evlilik-cariyelik-nikahi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0117",
+  "sinif": "BAYAT",
+  "ozet": "Harem teşkilatı ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:150 darussaade-agasi-harem-hiyerarsisi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0118",
+  "sinif": "BAYAT",
+  "ozet": "Osmanlı'da kölelik ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:163 kolelik-pencik-kanunundan-kalkisa. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0119",
+  "sinif": "BAYAT",
+  "ozet": "Osmanlı'da ticaret ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:176 osmanli-ingiliz-ticaret-mekanizmasi-1580. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0120",
+  "sinif": "BAYAT",
+  "ozet": "Osmanlı'da sanayi ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:189 feshane-osmanli-sanayilesme-girisimi. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0121",
+  "sinif": "BAYAT",
+  "ozet": "Esnaf ve zanaatkârlar ek okuması",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:205 lonca-esnaf-teskilati. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0122",
+  "sinif": "BAYAT",
+  "ozet": "Merzifonlu portresi madde kadrajına sığmıyor",
+  "kanit": "css/style.css:1928-1936 .ob-madde-gorsel-kart img { object-fit: contain } — kırpma yok.",
+  "dosyalar": [
+   "css/style.css"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0123",
+  "sinif": "VERI",
+  "ozet": "Çehrin düştüğünde Uman Lehistan adacığı ve Çehrin'in önceki durumu doğru mu",
+  "kanit": "Uman kolu ÇÖZÜLDÜ: girdi.yukle() Uman d 1674-01-01→1699-01-26 (görseldeki 1678 adacığı artık yok). Çehrin kolu AÇIK: Çehrin (Çigirin) s lehistan 1569-07-01→1678-08-21 kesintisiz, sonra d 1678-08-21→1699. Doroşenko'nun Osmanlı himayesindeki başkenti olduğu dönem (1669-1676) ve 1676-09-19 Rus/Samoyloviç teslimi yazılmamış. Künye kazak-hetmanligi (devletler.js:16923, 1648-1764) mevcut.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/olaylar_ek5.js"
+  ],
+  "oneri": "Çehrin: ~1669 (Doroşenko'nun Osmanlı tâbiliği; TDV kaynaklı gün) → 1676-09-19 v:[OSMANLI] ya da kazak-hetmanligi tâbi; 1676-09-19→1678-08-21 rusya; her iki kırılmaya kronoloji maddesi (Değişmez 2).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0124",
+  "sinif": "BAYAT",
+  "ozet": "Kafkasya'ya kuzeye uzanan üçgen ve ucundaki boşluk (Vladikavkaz?)",
+  "kanit": "ESKI2-1012 (KOSU 23): 1679-01-01 kama/üçgen kalmadı; güney boşluğu Vladikavkaz kasıtlı boşluğu (kur 1784). Ölçülen borç (bos:'hata' cinsi) de ödendi: data/bos_alanlar.js:167 Vladikavkaz artık cins:'kabile', neden 'Oset vadileri, TDV vladikafkas, osetler'.",
+  "dosyalar": [
+   "data/bos_alanlar.js"
+  ],
+  "oneri": "",
+  "cevap": "Tiflis/Kaheti petekleri Kafkas sırtını aşmıyor; Vladikavkaz şehri 1784'te kuruldu, öncesi Oset kabile alanı olarak beyanlı.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0125",
+  "sinif": "ARASTIRMA",
+  "ozet": "Kabartay (Nalçik) şehri ve beyliği bu tarihte var mıydı",
+  "kanit": "girdi.yukle(): 'Kabartay (Nalçik)' tur:bolge noktası s kabartay 1427-01-01→1774-07-21; künye kabartay (devletler.js) ve rengi var. Nokta adı yer_id olarak başka dosyalarda kullanılıyor (kronoloji_cok_ince_misir_orta_asya.js:221, kademe_4ff22b.js:124).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Ad netleştirme isteğe bağlı: 'Kabartay (Nalçik yöresi)' gibi bölge belirteci; değişirse bütün yer_id başvuruları birlikte güncellenmeli.",
+  "cevap": "Kabartay beylikleri (Kabardey prenslikleri) 15-18. yy'da vardı ve Kırım/Osmanlı nüfuzu ile Rus baskısı arasındaydı; Nalçik ise bir şehir olarak 1818 Rus kalesiyle başlar — parantezdeki ad modern konum belirtecidir, o tarihte şehir yoktu.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0126",
+  "sinif": "TEKRAR",
+  "ozet": "Anapa-Soçi-Kuban-Stavropol bozkırı bu tarihte Kırım'a mı Osmanlı'ya mı bağlıydı",
+  "kanit": "= 0052/H-0002 (denetim/KUTU-HUKUM-ESKI2-1012.json: senin-kararin — Yedisan/Kuban Nogay bozkırı tabi:kirim TDV kaynaklı; Anapa/Soçi/Tuapse/Maykop/Stavropol 'Emre kararı D (13 Eyl 2026)' gevşek himaye). Kısmi cevap kartları: tartisma-karadeniz-cerkezler, tartisma-karadeniz-kirim-tatar-nogay.",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": "parti-emrelic-0052/H-0002"
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0127",
+  "sinif": "BAYAT",
+  "ozet": "Hat, ebru, çini ek okumaları",
+  "kanit": "Kart(lar) güncel ağaçta var (id grep, origin/main dc015cb6e (worktree kutu-cozum)): data/ekokuma_toplum.js:218 hat-sanati-sheyh-hamdullah-hafiz-osman · data/ekokuma_toplum.js:229 ebru-sanati-ipek-yolundan-istanbula · data/ekokuma_toplum.js:240 iznik-cinicilik-cokusu. Önceki kapanış: denetim/KAPAT-0052-0930.json",
+  "dosyalar": [
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0128",
+  "sinif": "BAYAT",
+  "ozet": "Padişah resmine tıklanınca resim albümü açılsın",
+  "kanit": "js/app.js:7498 function portreAlbumuAc — albüm açılıyor; bugün padişah başına çoğunlukla tek görsel (içerik eksikliği ayrı).",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0129",
+  "sinif": "BAYAT",
+  "ozet": "Sağ tıkla iki nokta arası mesafe ölçer",
+  "kanit": "js/app.js:3561 function _olcumMesafeYazi — sağ tık mesafe ölçer canlı.",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0053/H-0002",
+  "sinif": "ARASTIRMA",
+  "ozet": "Tököli'nin Orta Macar Krallığı döneminde Szatmár (Satu Mare) neden Habsburg adacığı; Erdel/Osmanlı/Orta Macar'a dahil miydi",
+  "kanit": "girdi.yukle(): Szatmár (Satu Mare) s macaristan-habsburg 1526-12-17→1918-11-11 kesintisiz, v:[] boş; Tokaj/Kassa/Eperjes/Fülek v 1682-09-16→1685-10-15, Munkács →1688-01-17. KAPAT-ORTA-0930: TDV satmar slug 302, kaynak bulunamadı.",
+  "dosyalar": [
+   "data/yerlesimler_ek_macaristan.js"
+  ],
+  "oneri": "Szatmár'ın 1682-1685 sahibi akademik kaynakla (Benda/Varkonyi, Hungarian history) aranmalı; Tököli'nin eline geçtiyse v: [OSMANLI tâbi Orta Macar] 1682-09-16→1685-10-15 + madde; Habsburg garnizonunda kaldıysa beyanla bırakılmalı.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0053/H-0003",
+  "sinif": "BAYAT",
+  "ozet": "II. Viyana kuşatmasına giden süreci anlatan kronoloji maddesi + kapsamlı ek okumalar",
+  "kanit": "Kronoloji maddesi yazıldı: data/olaylar_ek3.js:26 t:1683-01-01 kesinlik:yil 'Viyana seferi kararı — Vasvár barışı yenilenmedi, hedef Yanıkkale'den Viyana'ya çevrildi' (Murad Giray ve Budin valisi itirazı dahil; commit 52222fa3c). Ek okuma kısmı KAPAT-ORTA-0930'da tamam (data/ekokuma_vezir.js:270 sebep-sonuc-2viyana-karar-sureci + 4 kart).",
+  "dosyalar": [
+   "data/olaylar_ek3.js",
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "İsteğe bağlı: meşveret ve yürüyüş günleri (Silâhdar/Kreutel) okunursa maddeye gün yazılsın.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0053/H-0014",
+  "sinif": "VERI",
+  "ozet": "Bir cümlelik kişi kartları bir iki paragrafa genişletilsin",
+  "kanit": "node ile data/kisiler.js ölçüldü (bu ağaç): 288 kayıt, 'not' alanı tek cümle olan 158, <150 karakter 164 (KAPAT-ORTA-0930'da 227/221 idi — ilerleme var, iş sürüyor).",
+  "dosyalar": [
+   "data/kisiler.js"
+  ],
+  "oneri": "Kalan ~158 tek cümlelik kartı görünürlük sırasıyla (en çok anılan kronoloji maddeleri önce) TDV kaynaklı 1-2 paragrafa genişlet.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0053/H-0015",
+  "sinif": "BAYAT",
+  "ozet": "Anabolu 1686 maddesinde İsmail Paşa yerine Şah İsmail kartı çıkıyor",
+  "kanit": "js/app.js:11179-11187 kisiKartSatirlari'na ZAMAN KORUMASI eklendi (0053/H-0015): bulanık eşleşmede kişinin f/t'si ±3 yıl (PADISAH_SONRA_GUN, app.js:11025) dışındaysa kart düşer — Şah İsmail 1487-1524, madde 1686 ⇒ elenir. Commit dc6176ca3.",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0054/H-0001",
+  "sinif": "BAYAT",
+  "ozet": "Tokaj, Kassa, Fülek, Ungvar, Eperjes ne zaman/nasıl elden çıktı — kronolojide madde yok",
+  "kanit": "data/olaylar_ek3.js:39 t:1685-10-15 'Tököli'nin Varad'da tutuklanması — Orta Macar Krallığı dağıldı, Yukarı Macaristan kaleleri teslim oldu' (yer: Kassa, Eperjes, Tokaj, Ungvár; Munkács hariç) — commit 52222fa3c. Yerleşim uçları (Tokaj/Kassa/Eperjes/Fülek v →1685-10-15, Munkács →1688-01-17) maddeyle aynı gün.",
+  "dosyalar": [
+   "data/olaylar_ek3.js",
+   "data/yerlesimler_ek_macaristan.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0054/H-0006",
+  "sinif": "BAYAT",
+  "ozet": "Kutsal İttifak savaşlarında Erdel, Eflak, Boğdan ve Kırım ne yapıyordu",
+  "kanit": "data/ekokuma_tabi.js:12 tartisma-kutsal-ittifak-tabi-devletler-1683-1699 ('Erdel, Eflak, Boğdan ve Kırım Kutsal İttifak savaşlarında kimin yanındaydı?'), js/app.js:12340 yükleyicide; commit 3087daf53.",
+  "dosyalar": [
+   "data/ekokuma_tabi.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0054/H-0007",
+  "sinif": "BAYAT",
+  "ozet": "Kutsal İttifak sırasında Venedik ve Osmanlı donanmaları kıyası; Sakız 1694 kaybında donanma neden karşı çıkamadı",
+  "kanit": "data/ekokuma_dunya.js:390-393 dunya3-osmanli-venedik-deniz-savaslari kartı 1694-09-21|Sakız ve 1695-02-22|Sakız maddelerine bağlandı, 1684-99 paragrafı düzeltildi (UYGULA-KART-0930; commit 52222fa3c).",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ }
+]

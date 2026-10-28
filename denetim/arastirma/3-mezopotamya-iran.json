@@ -1,0 +1,2523 @@
+{
+ "bolge": "Mezopotamya, Elam/İran, Levant şehirleri - şehir-kontrol zincirleri MÖ 3000 - MS 1 (3. dalga)",
+ "tarih_olcum": "21 Ekim 2026",
+ "kronoloji_notu": "Tüm MÖ sayıları MÖ takvim yılıdır (atlas kuralı MÖ N = astronomik -(N-1) uygulanmamıştır; çeviriyi atlas tarafı yapar). Mezopotamya 3.-2. bin yıl: ARCANE III Orta Kronoloji (MC, Hammurabi 1792-1750); yazarlar MC II (rMC8, 8 yıl aşağı) sütununu \"daha makul\" bulur, ilgili yerlerde ic_not'ta verildi. Kassit/Deniz Ülkesi: Zadok (Iranica) Boese 1982 / Brinkman 1986 kronolojisi. Susa Vallat (Iranica, 2008) KISA kronoloji. Neo-Asur/Neo-Babil/Ahameniş/Hellenistik: kronik yılları (mutlak). Bir geçişin kaynağı yoksa DÖNEM YAZILMADI; bas_mo/son_mo null ve gecis_kaynagi \"KAYNAKLANMADI\" etiketlidir. \"dolayli_cikarim: true\" kaynağın geçişi açıkça yazmadığı ama çıkarsandığı dönemleri, \"TÜRETME\" bu oturumda hesaplanan yılları işaretler.",
+ "okunan_oncekiler": "denetim/arastirma/mezopotamya.json ve d2-iran-orta-asya.json okundu; Akad/Ur III/Eski Babil/Yeni Babil/539 ve Susa/Elam/Med/Ahameniş kayıtlarıyla çelişki yok, TEKRAR edilmedi (bu dosya şehir-kontrol zinciri ve kayıp parçalar). Çelişkiler \"celiskiler\" alanında.",
+ "kayitlar": [
+  {
+   "id": "persepolis-teras-kurulus",
+   "ad": "Persepolis terası (Pārsa kalesi) kuruluşu",
+   "ad_yerel": "Pārsa / Takht-e Jamshid",
+   "tur": "sehir",
+   "lat": 29.9352,
+   "lon": 52.89043,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 922695",
+     "lat": 29.9351972978,
+     "lon": 52.8904279399
+    },
+    {
+     "kaynak": "Wikidata Q129072 P625",
+     "lat": 29.935,
+     "lon": 52.89
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.05 km; esas alınan: Pleiades 922695.",
+   "kur": {
+    "bas_mo": 518,
+    "son_mo": null,
+    "guven": "ca. (\"In about 518 BCE\")",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Shahbazi, A. Sh., \"Persepolis\", Encyclopaedia Iranica (2009)",
+    "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/persepolis",
+    "alinti": "In about 518 BCE, Darius the Great (r. 522-486 BCE) chose a promontory of the",
+    "kaynak_sinifi": "ansiklopedi",
+    "kaynak_dili": "Ingilizce"
+   },
+   "bit": {
+    "bas_mo": 330,
+    "son_mo": null,
+    "guven": "tek yıl",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Shahbazi, A. Sh., \"Persepolis\", Encyclopaedia Iranica (2009)",
+    "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/persepolis",
+    "alinti": "maintained until 330 BCE, when they were looted and burnt by Alexander of Macedon",
+    "kaynak_sinifi": "ansiklopedi",
+    "kaynak_dili": "Ingilizce"
+   },
+   "k": "kurulus",
+   "d": "Darius I, Pārsa şehrinin kalesi olarak Kraliyet Tepesi yamacında ~125.000 m² teras hazırlatır; teras Darius, Kserkses ve Artakserkses I ile gelişir, 330'da İskender yakar.",
+   "sahip_kultur": "Ahameniş",
+   "ic_not": "2. dalga \"bulunamadı\": terasın kuruluşu (MÖ ~518-515). BULUNAN: Iranica (Shahbazi) \"ca. 518\"; \"515\" ucu için kaynak bulunamadı. Darius'un terasın kuruluşunu belirten çivi yazılı yazıtı (DPd, DPe) tarih içermez - Iranica da kesin yıl vermez. İkinci tanık yalnızca \"Persepolis, founded by Darius himself\" (Vallat, Iranica Elam i) yıl vermez. Çift teyit YOK.",
+   "okunan_sayfa": [
+    "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/persepolis",
+    "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/elam-i"
+   ]
+  },
+  {
+   "id": "pasargad-kurulus-insaat",
+   "ad": "Pasargad (Kyros II) kuruluş/inşaat dönemi",
+   "ad_yerel": "Pāsārgād",
+   "tur": "sehir",
+   "lat": 30.19522,
+   "lon": 53.17432,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 922693",
+     "lat": 30.1952191647,
+     "lon": 53.1743200402
+    },
+    {
+     "kaynak": "Wikidata Q230025 P625",
+     "lat": 30.2,
+     "lon": 53.179444444444
+    },
+    {
+     "kaynak": "OSM Nominatim",
+     "lat": 30.2016523,
+     "lon": 53.1786632
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.83 km; esas alınan: Pleiades 922693.",
+   "kur": {
+    "bas_mo": 546,
+    "son_mo": 530,
+    "guven": "arkeolojik \"secure grounds\"",
+    "aralik_turu": "insaat-donemi",
+    "kaynak": "Stronach, D. & Gopnik, H., \"Pasargadae\", Encyclopaedia Iranica (2009, rev. 2017)",
+    "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/pasargadae",
+    "alinti": "most major construction at the site took place between 546 and 530 BCE",
+    "kaynak_sinifi": "ansiklopedi",
+    "kaynak_dili": "Ingilizce"
+   },
+   "bit": {
+    "bas_mo": 330,
+    "son_mo": null,
+    "guven": "başı (\"early in 330 BCE\")",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Stronach, D. & Gopnik, H., \"Pasargadae\", Encyclopaedia Iranica (2009, rev. 2017)",
+    "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/pasargadae",
+    "alinti": "surrendered to Alexander, in an intact state (Arr. 3.18.10), early in 330 BCE",
+    "kaynak_sinifi": "ansiklopedi",
+    "kaynak_dili": "Ingilizce"
+   },
+   "k": "kurulus",
+   "d": "Strabon'a göre Kyros, Astyages'i yendiği yerde şehir kurar ve saray yaptırır; arkeolojik olarak büyük inşaat 546-530 arası.",
+   "sahip_kultur": "Ahameniş",
+   "ic_not": "2. dalga \"bulunamadı\": kuruluş yılı tek rakam olarak YOK; Iranica Kyros saltanatını 559-530 verir. Strabon (xv.3.8) şehri 550/549 zaferinden sonra kurulmuş olarak anlatır (Ekbatana'nın alınışı Nabonidus yıl 6 = 550/549, ABC 7). Kyros'un \"Pers kralı\" oluş yılı (559) için bağımsız ikinci kaynak hala BULUNAMADI.",
+   "okunan_sayfa": [
+    "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/pasargadae",
+    "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/"
+   ]
+  },
+  {
+   "id": "altyn-depe-namazga-kircho",
+   "ad": "Altyn-Depe (Namazga III-V ufku) mezar kompleksleri kronolojisi",
+   "ad_yerel": "Altyn-Depe / Altyndepe (Kopet Dağ)",
+   "tur": "kultur",
+   "lat": 36.85775,
+   "lon": 60.43242,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 842000735",
+     "lat": 36.8577480842,
+     "lon": 60.4324205556
+    },
+    {
+     "kaynak": "Wikidata Q2559322 P625",
+     "lat": 36.85792,
+     "lon": 60.43238
+    },
+    {
+     "kaynak": "OSM Nominatim \"Altyn Depe Turkmenistan\"",
+     "lat": 36.8575122,
+     "lon": 60.4324451
+    }
+   ],
+   "konum_not": "Üç tanık arası <0,1 km; Pleiades esas.",
+   "kur": {
+    "bas_mo": 2900,
+    "son_mo": 2800,
+    "guven": "kalibre, ±yüzyıl-yarısı (Kircho kendi yuvarlak aralığını verir)",
+    "aralik_turu": "kalibre-14C+stratigrafi",
+    "kaynak": "Kircho, L. B. 2005, Hronologiya epohi pozdnego eneolita - srednei bronzy Srednei Azii (pogrebeniya Altyn-depe), Trudy IIMK RAN t. XVI, SPb: Nestor-Istoriya (Ingilizce \"Conclusion\", s. 516-519) s. 516-519",
+    "url": "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf",
+    "alinti": "The period of the end of the Late Eneolithic is dated by radiocarbon (cf. Appendix 2) to 2900–2800 B. C.",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "Rusca/Ingilizce"
+   },
+   "bit": {
+    "bas_mo": 2100,
+    "son_mo": null,
+    "guven": "geç NMZ V sonu: \"end of the 3rd and the beginning of the 2nd millennium B. C.\" (sayısal aralık verilmez)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kircho, L. B. 2005, Hronologiya epohi pozdnego eneolita - srednei bronzy Srednei Azii (pogrebeniya Altyn-depe), Trudy IIMK RAN t. XVI, SPb: Nestor-Istoriya (Ingilizce \"Conclusion\", s. 516-519)",
+    "url": "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf",
+    "alinti": "may be dated in general to the end of the 3rd and the beginning of the 2nd millennium B",
+    "kaynak_sinifi": "birincil-yayin",
+    "kaynak_dili": "Rusca/Ingilizce"
+   },
+   "k": "gelisme",
+   "alt_donemler": [
+    {
+     "donem": "Geç Eneolitik sonu (geç NMZ III; Altyn 10-9)",
+     "bas_mo": 2900,
+     "son_mo": 2800,
+     "aralik_turu": "kalibre-14C+stratigrafi (mezar kompleksleri)",
+     "kaynak": "Kircho, L. B. 2005, Hronologiya epohi pozdnego eneolita - srednei bronzy Srednei Azii (pogrebeniya Altyn-depe), Trudy IIMK RAN t. XVI, SPb: Nestor-Istoriya (Ingilizce \"Conclusion\", s. 516-519), Sonuç (Conclusion) s. 516-519",
+     "url": "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf",
+     "alinti": "The period of the end of the Late Eneolithic is dated by radiocarbon (cf. Appendix 2) to 2900–2800 B. C.",
+     "kaynak_sinifi": "birincil-yayin",
+     "kaynak_dili": "Rusca monografi, Ingilizce sonuc"
+    },
+    {
+     "donem": "Erken Tunç başlangıcı (erken NMZ IV; Altyn 8-7)",
+     "bas_mo": 2800,
+     "son_mo": 2700,
+     "aralik_turu": "kalibre-14C+stratigrafi (mezar kompleksleri)",
+     "kaynak": "Kircho, L. B. 2005, Hronologiya epohi pozdnego eneolita - srednei bronzy Srednei Azii (pogrebeniya Altyn-depe), Trudy IIMK RAN t. XVI, SPb: Nestor-Istoriya (Ingilizce \"Conclusion\", s. 516-519), Sonuç (Conclusion) s. 516-519",
+     "url": "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf",
+     "alinti": "In general, the beginning of the Early Bronze Age is dated to 2800–2700 B. C.",
+     "kaynak_sinifi": "birincil-yayin",
+     "kaynak_dili": "Rusca monografi, Ingilizce sonuc"
+    },
+    {
+     "donem": "Erken Tunç ortası (orta NMZ IV; Altyn 6-5)",
+     "bas_mo": 2600,
+     "son_mo": 2500,
+     "aralik_turu": "kalibre-14C+stratigrafi (mezar kompleksleri)",
+     "kaynak": "Kircho, L. B. 2005, Hronologiya epohi pozdnego eneolita - srednei bronzy Srednei Azii (pogrebeniya Altyn-depe), Trudy IIMK RAN t. XVI, SPb: Nestor-Istoriya (Ingilizce \"Conclusion\", s. 516-519), Sonuç (Conclusion) s. 516-519",
+     "url": "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf",
+     "alinti": "The radiocarbon dates for the middle stage of the Early Bronze Age are within the range of 2600–2500 B. C.",
+     "kaynak_sinifi": "birincil-yayin",
+     "kaynak_dili": "Rusca monografi, Ingilizce sonuc"
+    },
+    {
+     "donem": "Erken Tunç sonu (geç NMZ IV; Altyn 4B-4A)",
+     "bas_mo": 2500,
+     "son_mo": 2400,
+     "aralik_turu": "kalibre-14C+stratigrafi (mezar kompleksleri)",
+     "kaynak": "Kircho, L. B. 2005, Hronologiya epohi pozdnego eneolita - srednei bronzy Srednei Azii (pogrebeniya Altyn-depe), Trudy IIMK RAN t. XVI, SPb: Nestor-Istoriya (Ingilizce \"Conclusion\", s. 516-519), Sonuç (Conclusion) s. 516-519",
+     "url": "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf",
+     "alinti": "nevertheless the stratigraphic positions of the respective layers allow us to date the period of Altyn 4 to c. 2500–2400 B. C.",
+     "kaynak_sinifi": "birincil-yayin",
+     "kaynak_dili": "Rusca monografi, Ingilizce sonuc"
+    },
+    {
+     "donem": "Orta Tunç başı (erken NMZ V; Altyn 3)",
+     "bas_mo": 2300,
+     "son_mo": null,
+     "aralik_turu": "kalibre-14C+stratigrafi (mezar kompleksleri)",
+     "kaynak": "Kircho, L. B. 2005, Hronologiya epohi pozdnego eneolita - srednei bronzy Srednei Azii (pogrebeniya Altyn-depe), Trudy IIMK RAN t. XVI, SPb: Nestor-Istoriya (Ingilizce \"Conclusion\", s. 516-519), Sonuç (Conclusion) s. 516-519",
+     "url": "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf",
+     "alinti": "may be dated to the period around 2300 B. C.",
+     "kaynak_sinifi": "birincil-yayin",
+     "kaynak_dili": "Rusca monografi, Ingilizce sonuc"
+    },
+    {
+     "donem": "Orta Tunç ortası (orta NMZ V; Altyn 2-1)",
+     "bas_mo": 2200,
+     "son_mo": 2100,
+     "aralik_turu": "kalibre-14C+stratigrafi (mezar kompleksleri)",
+     "kaynak": "Kircho, L. B. 2005, Hronologiya epohi pozdnego eneolita - srednei bronzy Srednei Azii (pogrebeniya Altyn-depe), Trudy IIMK RAN t. XVI, SPb: Nestor-Istoriya (Ingilizce \"Conclusion\", s. 516-519), Sonuç (Conclusion) s. 516-519",
+     "url": "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf",
+     "alinti": "The tentative dates of the period are within 2200–2100 B. C.",
+     "kaynak_sinifi": "birincil-yayin",
+     "kaynak_dili": "Rusca monografi, Ingilizce sonuc"
+    }
+   ],
+   "d": "Altyn-Depe'nin mezarlıklarında kalibre 14C ve stratigrafiyle ayrılan evreler: Geç Eneolitik sonu 2900-2800 -> Orta Tunç ortası ~2200-2100; son evre 3.-2. bin geçişi.",
+   "sahip_kultur": "Namazga III-V (Namazga-Depe ufku; Kopet Dağ)",
+   "ic_not": "2. dalga \"bulunamadı\": Namazga/Altyn-Depe kalibre kronolojisi. BULUNAN: Kircho 2005 İngilizce Sonuç bölümünde dipnot \"The dates presented here are calibrated\" (s. 517). Yalnız Altyn-Depe MEZARLIK kompleksleri; yerleşme tabakaları ve Namazga-Depe tabakalarının kendi mutlak tarihi YOK. Orta Tunç başı için Kircho \"radiocarbon dates ... agree poorly with each other\" der: 2300 yalnız stratigrafik tahmin. Appendix 2 14C tablosu (Rusça) bu oturumda okunmadı; Popov'un 14C incelemesi (Tab. 4) ve Doluchanov-Shchetenko-Tosi 1985 BULUNAMADI. Kircho PDF'inin Rusça metni kodlama bozuk (cp1251/cp1252), yalnız İngilizce bölümler okundu.",
+   "okunan_sayfa": [
+    "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf"
+   ]
+  },
+  {
+   "id": "gonur-depe-bmac",
+   "ad": "Gonur Depe / Baktria-Margiana Arkeolojik Kompleksi (BMAC), Murgab",
+   "ad_yerel": "Gonur-depe",
+   "tur": "kultur",
+   "lat": 38.2133,
+   "lon": 62.0375,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q3110595 P625 (önceki dalga)",
+     "lat": 38.2133,
+     "lon": 62.0375
+    },
+    {
+     "kaynak": "OSM Gonur Tepe (önceki dalga)",
+     "lat": 38.212,
+     "lon": 62.0369
+    }
+   ],
+   "konum_not": "Önceki dalga tanıkları; ~0,15 km fark.",
+   "kur": {
+    "bas_mo": 2250,
+    "son_mo": 1700,
+    "guven": "ca. (yeniden değerlendirme); tek BMAC dönem 1",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Arciero, R. 2024, Irrigating the desert (doktora tezi, Leiden Univ.), Bolum 1/2; Lyonnet & Dubova 2021a Ek 1 aktariyor - bu tezin Lyonnet & Dubova 2021a (Ek 1) aktarımı",
+    "url": "https://scholarlypublications.universiteitleiden.nl/download/1887/4171706/2",
+    "alinti": "period 1 between ca. 2250–1700 BCE, and period 2 between ca. 1700–1500 BCE",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "Ingilizce"
+   },
+   "bit": {
+    "bas_mo": 1700,
+    "son_mo": 1500,
+    "guven": "ca. (dönem 2)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Arciero, R. 2024, Irrigating the desert (doktora tezi, Leiden Univ.), Bolum 1/2; Lyonnet & Dubova 2021a Ek 1 aktariyor",
+    "url": "https://scholarlypublications.universiteitleiden.nl/download/1887/4171706/2",
+    "alinti": "period 1 between ca. 2250–1700 BCE, and period 2 between ca. 1700–1500 BCE",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kaynak_dili": "Ingilizce"
+   },
+   "k": "gelisme",
+   "d": "Murgab BMAC merkezi; yeniden değerlendirilmiş kalibre 14C: dönem 1 ca. 2250-1700, dönem 2 ca. 1700-1500; Gonur North'ta daha erken tarihler.",
+   "sahip_kultur": "BMAC (Oxus uygarlığı)",
+   "ic_not": "ÇELİŞKİ/UYARI: Aynı tez Gonur North için daha erken 14C tarihleri sayar: yedi tarih 2500-2400, beş numune 2300'lerde (Lyonnet & Dubova 2021b:32). Tez kendi çalışması için Gubaev vd. 1998 kronolojisini seçer. \"Stratigrafik dizi ile 14C ilişkisi Gonur'da iyi tanımlı değil\" (tez). Bu birincil yayından DEĞİL, ikincil aktarımdır; ham tablo (Lyonnet & Dubova 2021a Ek 1) kütüphanede gerekli. Kalibrasyon eğrisi ve yöntem okunamadı.",
+   "okunan_sayfa": [
+    "https://scholarlypublications.universiteitleiden.nl/download/1887/4171706/2"
+   ]
+  }
+ ],
+ "sehir_kontrol": [
+  {
+   "sehir": "Ur",
+   "ad_yerel": "Urim / Tell al-Muqayyar",
+   "lat": 30.96132,
+   "lon": 46.10542,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 912985",
+     "lat": 30.96131794655308,
+     "lon": 46.10541981168791
+    },
+    {
+     "kaynak": "OSM Nominatim \"Ziggurat of Ur\"",
+     "lat": 30.9627827,
+     "lon": 46.1031371
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.27 km; esas alınan: Pleiades 912985. Önceki dalga (mezopotamya.json) ile aynı iki tanık; yeniden hesaplandı.",
+   "donemler": [
+    {
+     "sahip": "Lugalzagesi krallığı (Uruk-Umma)",
+     "bas_mo": 2324,
+     "son_mo": 2300,
+     "bas_hassasiyet": "ca., ±30 (saltanat başlangıcı; Ur'un krallığa katıldığı yıl saltanat içinde belirsiz)",
+     "son_hassasiyet": "ca., ±30",
+     "gecis_kaynagi": "Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «the Sumerian cult centres Uruk, Larsa, Ur, and Nippur»",
+     "alinti": "the Sumerian cult centres Uruk, Larsa, Ur, and Nippur",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»"
+    },
+    {
+     "sahip": "Akad İmparatorluğu",
+     "bas_mo": 2300,
+     "son_mo": null,
+     "bas_hassasiyet": "ca., ±30 (MC II: ca. 2292)",
+     "gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»",
+     "alinti": "he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "ic_not": "Ur'da Akad denetimi sonu için kaynak sessiz. ARCANE metni Urutu'yu \"büyük olasılıkla Ur ensi'si\" olarak anar (Naramsuen/Şarkalişarri dönemi, s. 118); bölgesel ölçüt: Güney Babilonya Şarkalişarri sonrası (2181) Akad'dan kopar. Ur için kesin bitiş YAZILMADI."
+    },
+    {
+     "sahip": "Ur III Devleti (başkent Ur)",
+     "bas_mo": 2110,
+     "son_mo": 2003,
+     "bas_hassasiyet": "Urnamma yıl 1; Ur, Urnamma'nın \"Ur kralı\" unvanıyla ilk dönem merkezidir",
+     "son_hassasiyet": "İbbi-Suen son yılı; son 16 yılda yalnız Ur çevresini denetler (s. 131-133)",
+     "gecis_kaynagi": "Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»",
+     "alinti": "Urnamma 18 years MC 2110-2093",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Ur, Şimaşki kralı Kindattu komutasındaki Elam ordusunca yıkılır (MC 2003); Ur III biter | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131-133 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «before the city was devastated by an army from Elam, led by Kindattu of Shimashki (MC 2003)»",
+     "ic_not": "MC II (rMC8): hepsi 8 yıl aşağı (Urnamma yıl 1 = 2102; Ur yıkımı 1995). Livius.org Ur sayfası Urnamma'yı 2112-2095 verir (iki yıl farklı MC varyantı)."
+    },
+    {
+     "sahip": "İsin I Hanedanı (Ur krallığının mirasçısı)",
+     "bas_mo": 2003,
+     "son_mo": null,
+     "bas_hassasiyet": "Işbi-Erra İsin kralı = MC 2019; Ur yıkımı 2003 sonrası fiilî denetim ARCANE Bölüm I'de açık yazılmaz",
+     "gecis_kaynagi": "Işbi-Erra, Ur'dan bağımsızlığını ilan edip İsin kralı olur (MC 2019) ve Ur krallığının mirasçısı sayılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Ishbierra of Isin claimed independence from Ur and declared himself king of Isin (MC 2019)»",
+     "alinti": "Ishbierra of Isin claimed independence from Ur and declared himself king of Isin (MC 2019)",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "düşük",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "dolayli_cikarim": true,
+     "ic_not": "Işbi-Erra \"Ur krallığının mirasçısı\" olarak anılır; Ur şehrinin 2003 sonrası fiilî sahibi bu dalgada KAYNAKLANMADI (Charpin 2004 / Van de Mieroop 1992 kütüphanede gerekli). Kayıt kuramsal ilişkiyi gösterir."
+    },
+    {
+     "sahip": "Larsa Krallığı (Gungunum ve ardılları)",
+     "bas_mo": 1923,
+     "son_mo": 1763,
+     "bas_hassasiyet": "EN GEÇ (yıl-adı kanıtı; Gungunum MC 1932 yıl 1 ise yıl 10 = 1923)",
+     "son_hassasiyet": "Hammurabi yıl 30 = MC 1763",
+     "gecis_kaynagi": "Larsa kralı Gungunum yıl 10 (MC 1932 yıl 1 ise 1923): yıl adları Ur'daki Nanna tapınağına armağan getirir -> Ur'un Larsa egemenliğine girişi için en geç tarih (yıl adı kanıtı; fetih olayı açıkça yazılmaz) | Kaynak: CDLI Wiki, Year names of Gungunum (Larsa), yıl 10 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_gungunum | «(Gungunum) brought into the temple of Nanna two great emblems as a present / offering and a sedan-chair»",
+     "alinti": "(Gungunum) brought into the temple of Nanna two great emblems as a present / offering and a sedan-chair",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "düşük",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»",
+     "dolayli_cikarim": true,
+     "ic_not": "Gungunum yıl 10-20 yıl adları Ur'da Nanna tapınağı ve Ur kapısıyla ilgilidir (yıl 20: \"the magnificent gate of Ur was built\"). Fetih olayı CDLI listesinde açık yazılmaz. ARC Tablo 38 Gungunum 1932-1907 (26 yıl), CDLI 28 yıl adı sayar."
+    },
+    {
+     "sahip": "Babil I Hanedanı (Hammurabi, Samsu-iluna)",
+     "bas_mo": 1763,
+     "son_mo": null,
+     "bas_hassasiyet": "Hammurabi yıl 30",
+     "gecis_kaynagi": "Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»",
+     "alinti": "Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Samsu-iluna yıl 11 (MC 1739): Ur ve Uruk surları yıkılır (11a); Ur büyük sur inşa, Larsa yıkılır (11b) | Kaynak: CDLI Wiki, Samsu-iluna year names (Babil I), yıl 11a/11b | https://web.archive.org/web/2022/https://cdli.ox.ac.uk/wiki/samsuiluna | «destroyed the city walls of Ur and Uruk»",
+     "ic_not": "Samsu-iluna yıl 10-11 (MC 1740-1739) güney isyanı: Ur ve Uruk surları yıkılır (11a); Ur'un büyük suru inşa, Larsa yıkılır (11b). Hangi tarafın Ur'u tuttuğu ve Babil I'in Ur'daki bitişi KAYNAKLANMADI."
+    },
+    {
+     "sahip": "Deniz Ülkesi (I. hanedan; Uruk, Ur, Larsa)",
+     "bas_mo": null,
+     "son_mo": 1465,
+     "bas_hassasiyet": "MÖ 16. yy (yıl yok)",
+     "son_hassasiyet": "ca. 1465 (Brinkman 1972; Edens 1994, Zadok aktarımı)",
+     "gecis_kaynagi": "MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
+     "alinti": "Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa",
+     "kronoloji_okulu": "Boese 1982 / Brinkman 1986",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»"
+    },
+    {
+     "sahip": "Kassit Babilonyası",
+     "bas_mo": 1465,
+     "son_mo": 1150,
+     "bas_hassasiyet": "ca.",
+     "son_hassasiyet": "Elam akınları",
+     "gecis_kaynagi": "Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»",
+     "alinti": "was incorporated into Babylonia in ca. 1465 BCE",
+     "kronoloji_okulu": "Boese 1982 / Brinkman 1986",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Elam akınları Kassit hanedanını sona erdirir (1150) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Elam’s raids caused the demise of the Kassite dynasty in 1150 BCE»"
+    },
+    {
+     "sahip": "Yeni Babil Devleti",
+     "bas_mo": 626,
+     "son_mo": 539,
+     "bas_hassasiyet": "bölgesel (Babil tahtı); Ur'un Nabopolassar'a geçiş yılı ayrıca kaynaklanmadı",
+     "gecis_kaynagi": "Nabopolassar Babil tahtına oturur (26 Arahsamna = 23 Kasım 626) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, giriş + ABC 2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «Nabû-apla-usur sat upon the throne in Babylon»",
+     "alinti": "Nabû-apla-usur sat upon the throne in Babylon",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Kyros Babil'e girer (Arahsamna 3; Gutium valisi Ugbaru ordusu Tašritu 16'da savaşsız girmişti) = Yeni Babil'in sonu 539 | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.15-18 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the third day of the month Arahsamna, Cyrus entered Babylon.»",
+     "ic_not": "Livius Ur: son Babil kralı Nabonidus Nanna tapınağını yeniler (Nabonidus Silindiri, Ur). Ur'un 626'da hemen Babil'e geçtiği kaynaklanmadı."
+    },
+    {
+     "sahip": "Ahameniş İmparatorluğu",
+     "bas_mo": 539,
+     "son_mo": null,
+     "bas_hassasiyet": "bölgesel",
+     "gecis_kaynagi": "Kyros Babil'e girer (Arahsamna 3; Gutium valisi Ugbaru ordusu Tašritu 16'da savaşsız girmişti) = Yeni Babil'in sonu 539 | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.15-18 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the third day of the month Arahsamna, Cyrus entered Babylon.»",
+     "alinti": "On the third day of the month Arahsamna, Cyrus entered Babylon.",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "ic_not": "Livius Ur: 484'te Ur, Uruk ve Kutha Kserkses'i destekler; şehir MÖ 5. yy'da terk edilir, tapınak kullanımda kalır."
+    }
+   ],
+   "bosluk_notu": "Ur'un ED şehir-devleti dönemi (Ur I hanedanı), Akad sonu - Ur III arası (2181-2110), İsin/Larsa arası (2003-1923), Babil I'in Ur'daki bitişi (1739 sonrası - 16. yy), 1150-626 arası (İsin II, Deniz Ülkesi II, Bazi, Elam, Asur) KAYNAKLANMADI: sessiz boşluk. Kaynak yoksa dönem YAZILMADI.",
+   "veri_noktalari": [
+    {
+     "mo": 680,
+     "olay": "Esarhaddon yıl 1: Deniz Ülkesi valisi Ur'un önünde ordugah kurar ama şehri alamaz (Ur o sırada Asur yanlısı yönetimde)",
+     "kaynak": "Esarhaddon yıl 1 (680/679): Deniz Ülkesi valisi Nabû-zer-kitti-lišir Ur'un önünde ordugah kurar ama şehri alamaz -> Ur Asur-yanlısı yönetimde | Kaynak: Grayson 1975, ABC 14 (Esarhaddon Chronicle); Livius.org ceviri-tasiyicisi, satır 1-2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-14-esarhaddon-chronicle/ | «set up camp before Ur but did not take the city»"
+    },
+    {
+     "mo": 484,
+     "olay": "Ur, Uruk ve Kutha Kserkses'i Bêl-šimânni ve Šamaš-eriba'ya karşı destekler; şehir 5. yy'da terk",
+     "kaynak": "Livius.org Ur sayfası | https://www.livius.org/articles/place/ur/ | «but the city was abandoned in the fifth century BCE»"
+    }
+   ]
+  },
+  {
+   "sehir": "Uruk",
+   "ad_yerel": "Unug / Warka",
+   "lat": 31.32338,
+   "lon": 45.63905,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 912986",
+     "lat": 31.3233750109,
+     "lon": 45.6390521574
+    },
+    {
+     "kaynak": "Wikidata Q168518 P625",
+     "lat": 31.3259,
+     "lon": 45.6374
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.32 km; esas alınan: Pleiades 912986.",
+   "donemler": [
+    {
+     "sahip": "Uruk (Enşakuşana) şehir-devleti, Nippur dahil",
+     "bas_mo": null,
+     "son_mo": 2324,
+     "son_hassasiyet": "ca., ±30 - Lugalzagesi Uruk kralı olur",
+     "gecis_kaynagi": "KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+     "kronoloji_okulu": "",
+     "guven": "düşük",
+     "son_gecis_kaynagi": "Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «the Sumerian cult centres Uruk, Larsa, Ur, and Nippur»",
+     "ic_not": "Urukagina yıl 4-6'da \"Uruk'un adamı\" (Enşakuşana) Girsu'yu üç kez kuşatır (ARC s. 85); Zabalam arazi metinlerinde Adab, Nippur, Uruk aynı devlettedir (s. 86-87). Başlangıç KAYNAKLANMADI."
+    },
+    {
+     "sahip": "Lugalzagesi krallığı (SKL Uruk III)",
+     "bas_mo": 2324,
+     "son_mo": 2300,
+     "bas_hassasiyet": "ca., ±30",
+     "son_hassasiyet": "ca., ±30",
+     "gecis_kaynagi": "Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «the Sumerian cult centres Uruk, Larsa, Ur, and Nippur»",
+     "alinti": "the Sumerian cult centres Uruk, Larsa, Ur, and Nippur",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»"
+    },
+    {
+     "sahip": "Akad İmparatorluğu",
+     "bas_mo": 2300,
+     "son_mo": 2181,
+     "bas_hassasiyet": "ca., ±30 (MC II: ca. 2292)",
+     "son_hassasiyet": "\"Şarkalişarri'nin geç yılları ya da biraz sonrası\": Şarkalişarri MC 2205-2181±30 -> bitiş ≤2181 civarı; kaynak kesin yıl vermez",
+     "gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»",
+     "alinti": "he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»",
+     "dolayli_cikarim": true
+    },
+    {
+     "sahip": "Uruk IV hanedanı (bağımsız) / Gutium çağı / Uruk V (Utuhengal)",
+     "bas_mo": 2181,
+     "son_mo": 2110,
+     "bas_hassasiyet": "ca. (Akad'dan kopuş), ±30",
+     "son_hassasiyet": "ca. MC 2110",
+     "gecis_kaynagi": "Uruk, Akad devletinden ayrılır: Şarkalişarri'nin (MC 2205-2181) geç yıllarında ya da biraz sonra | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 117 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later»",
+     "alinti": "Uruk left the state of Akkad before Girsu, i.e. probably in the late years of Sharkalisharri, or slightly later",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Uruk V (Utuhengal, 7 yıl) Uruk IV'ü doğrudan izler; Gutium dönemi Utuhengal'in Tirigan'ı yenmesi (ca. MC 2110) ve Urnamma'nın tahta çıkışıyla (MC 2110) biter | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 113 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Its end is determined by the victory of Utuhengal of Uruk over Tirigan (around MC 2110) and Urnamma's accession to the throne (MC 2110)»",
+     "ic_not": "SKL: Uruk IV 26-43 yıl (Urnigar, Urgigir, Kuda, Puzurili, Urutu); Uruk V yalnız Utuhengal 7 yıl. Uruk'ta Gutium egemenliği izi yok (s. 117-118)."
+    },
+    {
+     "sahip": "Ur III Devleti",
+     "bas_mo": 2110,
+     "son_mo": null,
+     "bas_hassasiyet": "MC 2110",
+     "gecis_kaynagi": "Uruk V (Utuhengal, 7 yıl) Uruk IV'ü doğrudan izler; Gutium dönemi Utuhengal'in Tirigan'ı yenmesi (ca. MC 2110) ve Urnamma'nın tahta çıkışıyla (MC 2110) biter | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 113 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Its end is determined by the victory of Utuhengal of Uruk over Tirigan (around MC 2110) and Urnamma's accession to the throne (MC 2110)»",
+     "alinti": "Its end is determined by the victory of Utuhengal of Uruk over Tirigan (around MC 2110) and Urnamma's accession to the throne (MC 2110)",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "ic_not": "Livius CM 48 (Uruk'ta 251 MÖ'de yazılmış kopya): \"The divine Šulgi, son of a daughter of king Utu-hegal of Uruk\" - Uruk-Ur III hanedan bağı. Uruk'un Ur III'ten ayrılış yılı KAYNAKLANMADI (ARC İbbi-Suen listesinde Uruk anılmaz)."
+    },
+    {
+     "sahip": "Uruk Krallığı (Irdanene) - Larsa'ya karşı bağımsız",
+     "bas_mo": null,
+     "son_mo": 1802,
+     "son_hassasiyet": "Rim-Sin I yıl 21 = MC 1802 (Tablo 38: Rimsin yıl 1 = 1822)",
+     "gecis_kaynagi": "KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+     "kronoloji_okulu": "",
+     "guven": "orta",
+     "son_gecis_kaynagi": "Rim-Sin I yıl 21 (MC 1802): Uruk yıkılır ve Larsa'ya katılır | Kaynak: CDLI Wiki, Year names of Rim-Sin I (Larsa), yıl 21 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin | «(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil»",
+     "ic_not": "Rim-Sin I yıl 14 (MC 1809): \"Irdanene the king of Uruk\" ordusu yenilir (CDLI). Bağımsız Uruk'un başlangıcı KAYNAKLANMADI."
+    },
+    {
+     "sahip": "Larsa Krallığı (Rim-Sin I)",
+     "bas_mo": 1802,
+     "son_mo": 1763,
+     "bas_hassasiyet": "MC; yıl-adı numarası CDLI sırası, 13a/13b ayrımı ±1",
+     "son_hassasiyet": "Hammurabi yıl 30",
+     "gecis_kaynagi": "Rim-Sin I yıl 21 (MC 1802): Uruk yıkılır ve Larsa'ya katılır | Kaynak: CDLI Wiki, Year names of Rim-Sin I (Larsa), yıl 21 | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin | «(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil»",
+     "alinti": "(Rîm-Sîn) destroyed Uruk with the help of the strong weapon entrusted to him by Enlil",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»"
+    },
+    {
+     "sahip": "Babil I Hanedanı (Hammurabi)",
+     "bas_mo": 1763,
+     "son_mo": 1740,
+     "bas_hassasiyet": "MC",
+     "son_hassasiyet": "Samsu-iluna yıl 10: Uruk orduları karşı tarafta yenilir (isyan)",
+     "gecis_kaynagi": "Hammurabi yıl 30 (MC 1763): Larsa kralı Rim-Sin yenilir; Larsa devleti biter (ARC Tablo 38: Rimsin 1822-1763) | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign»",
+     "alinti": "Rim-Sin of Larsa was defeated in the 30th year of Hammurapi's reign",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Samsu-iluna yıl 10 (MC 1740): İdamaraz, Emutbal, Uruk ve İsin orduları yenilir -> güneyde isyan | Kaynak: CDLI Wiki, Samsu-iluna year names (Babil I), yıl 10 | https://web.archive.org/web/2022/https://cdli.ox.ac.uk/wiki/samsuiluna | «smote with weapons the troops of Idamaras, Emutbal, Uruk and Isin»"
+    },
+    {
+     "sahip": "Güney isyanı (Larsa-İsin-Emutbal-Uruk koalisyonu)",
+     "bas_mo": 1740,
+     "son_mo": null,
+     "bas_hassasiyet": "MC",
+     "gecis_kaynagi": "Samsu-iluna yıl 10 (MC 1740): İdamaraz, Emutbal, Uruk ve İsin orduları yenilir -> güneyde isyan | Kaynak: CDLI Wiki, Samsu-iluna year names (Babil I), yıl 10 | https://web.archive.org/web/2022/https://cdli.ox.ac.uk/wiki/samsuiluna | «smote with weapons the troops of Idamaras, Emutbal, Uruk and Isin»",
+     "alinti": "smote with weapons the troops of Idamaras, Emutbal, Uruk and Isin",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "düşük",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "ic_not": "Yıl 11 (1739): Ur ve Uruk surları yıkılır. Ardından Uruk'un statüsü KAYNAKLANMADI; Collège de France Charpin ders özeti (Rim-Anum, Uruk bağımsızlığı) arama listesinde görüldü ama okunamadı."
+    },
+    {
+     "sahip": "Deniz Ülkesi (I. hanedan)",
+     "bas_mo": null,
+     "son_mo": 1465,
+     "bas_hassasiyet": "MÖ 16. yy",
+     "son_hassasiyet": "ca. 1465",
+     "gecis_kaynagi": "MÖ 16. yy: Babilonya ikiye bölünür - kuzeyde Kassitler, güneyde Uruk, Ur ve Larsa'yı içeren Deniz Ülkesi | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa»",
+     "alinti": "Babylonia was divided into two kingdoms, that of the Kassites in the north and the Sealand in the south, including Uruk, Ur, and Larsa",
+     "kronoloji_okulu": "Boese 1982 / Brinkman 1986",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»"
+    },
+    {
+     "sahip": "Kassit Babilonyası",
+     "bas_mo": 1465,
+     "son_mo": 1150,
+     "bas_hassasiyet": "ca.",
+     "son_hassasiyet": "Elam akınları",
+     "gecis_kaynagi": "Deniz Ülkesi Babilonya'ya katılır (ca. 1465; Brinkman 1972, Edens 1994) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «was incorporated into Babylonia in ca. 1465 BCE»",
+     "alinti": "was incorporated into Babylonia in ca. 1465 BCE",
+     "kronoloji_okulu": "Boese 1982 / Brinkman 1986",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Elam akınları Kassit hanedanını sona erdirir (1150) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Elam’s raids caused the demise of the Kassite dynasty in 1150 BCE»"
+    },
+    {
+     "sahip": "Yeni Babil Devleti",
+     "bas_mo": 626,
+     "son_mo": 539,
+     "bas_hassasiyet": "bölgesel; Uruk'a özel geçiş kaynaklanmadı",
+     "gecis_kaynagi": "Nabopolassar Babil tahtına oturur (26 Arahsamna = 23 Kasım 626) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, giriş + ABC 2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «Nabû-apla-usur sat upon the throne in Babylon»",
+     "alinti": "Nabû-apla-usur sat upon the throne in Babylon",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Kyros Babil'e girer (Arahsamna 3; Gutium valisi Ugbaru ordusu Tašritu 16'da savaşsız girmişti) = Yeni Babil'in sonu 539 | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.15-18 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the third day of the month Arahsamna, Cyrus entered Babylon.»"
+    },
+    {
+     "sahip": "Ahameniş İmparatorluğu",
+     "bas_mo": 539,
+     "son_mo": 331,
+     "bas_hassasiyet": "bölgesel",
+     "gecis_kaynagi": "Kyros Babil'e girer (Arahsamna 3; Gutium valisi Ugbaru ordusu Tašritu 16'da savaşsız girmişti) = Yeni Babil'in sonu 539 | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.15-18 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the third day of the month Arahsamna, Cyrus entered Babylon.»",
+     "alinti": "On the third day of the month Arahsamna, Cyrus entered Babylon.",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»"
+    },
+    {
+     "sahip": "Makedon (İskender) ve Diadokh dönemi",
+     "bas_mo": 331,
+     "son_mo": 311,
+     "bas_hassasiyet": "bölgesel",
+     "gecis_kaynagi": "İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
+     "alinti": "In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon",
+     "kronoloji_okulu": "mutlak",
+     "guven": "düşük",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»",
+     "ic_not": "Uruk'a özel kaynak yok; 323-311 arasında Babilonya'nın hangi Diadokh'ta olduğu BCHP 3'te karışık."
+    },
+    {
+     "sahip": "Seleukos İmparatorluğu",
+     "bas_mo": 311,
+     "son_mo": 141,
+     "bas_hassasiyet": "bölgesel (Babil, Mayıs 311)",
+     "son_hassasiyet": "Uruk'a Ekim 141",
+     "gecis_kaynagi": "Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»",
+     "alinti": "Seleucus had recovered Babylon in May 311",
+     "kronoloji_okulu": "mutlak (van der Spek notu)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Mithradates I Temmuz 141'de Seleukeia'yı, Ekim 141'de Uruk'a ulaşır | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»",
+     "ic_not": "Uruk'ta Seleukos egemenliğinin doğrudan belgesi: CM 48 Uruk kopyası \"sixty-first year, Antiochus II, king of all lands\" = 15 Ağustos 251 (Livius notu)."
+    },
+    {
+     "sahip": "Part İmparatorluğu",
+     "bas_mo": 141,
+     "son_mo": null,
+     "bas_hassasiyet": "Mithradates I Ekim 141'de Uruk'a ulaşır",
+     "gecis_kaynagi": "Mithradates I Temmuz 141'de Seleukeia'yı, Ekim 141'de Uruk'a ulaşır | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.»",
+     "alinti": "In July 141, he captured Seleucia and in October he reached Uruk in southern Babylonia.",
+     "kronoloji_okulu": "mutlak",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)"
+    }
+   ],
+   "bosluk_notu": "Uruk ED şehir-devletinin başlangıcı, Ur III'ten ayrılış, 1463-1740 arası, Seleukos/Part arası kesin geçiş günü, Uruk'un Ahameniş/İskender geçişi KAYNAKLANMADI. Kaynak yoksa dönem YAZILMADI."
+  },
+  {
+   "sehir": "Eridu",
+   "ad_yerel": "Eridug / Tell Abu Shahrain",
+   "lat": 30.81999,
+   "lon": 45.99564,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 912845",
+     "lat": 30.8199905513,
+     "lon": 45.9956430119
+    },
+    {
+     "kaynak": "Wikidata Q210065 P625",
+     "lat": 30.82604,
+     "lon": 45.99463
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.68 km; esas alınan: Pleiades 912845.",
+   "donemler": [
+    {
+     "sahip": "Lugalzagesi krallığı (Uruk-Umma)",
+     "bas_mo": 2324,
+     "son_mo": 2300,
+     "bas_hassasiyet": "ca., ±30; Eridu'nun krallığa katılma yılı saltanat içinde belirsiz",
+     "gecis_kaynagi": "Lugalzagesi'nin unvanları Eridu'nun da onu tanıdığını gösterir (Eresh, Eridu, Kesh) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 88 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he was recognized by Eresh, Eridu and Kesh»",
+     "alinti": "he was recognized by Eresh, Eridu and Kesh",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»"
+    },
+    {
+     "sahip": "Ur III Devleti",
+     "bas_mo": 2110,
+     "son_mo": null,
+     "bas_hassasiyet": "MC 2110 (Ur III başlangıcı; Eridu'nun katılma yılı kaynaklanmadı)",
+     "gecis_kaynagi": "Ur III imparatorluğu haritasında (Map 14) Eridu Ur III sınırları içindedir (harita etiketi; metin açık cümle vermez) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), Map 14, s. 132 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Map 14: Ur III empire»",
+     "alinti": "Map 14: Ur III empire",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "düşük",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "dolayli_cikarim": true,
+     "ic_not": "Metinde Eridu için açık cümle yok; yalnız harita etiketi."
+    }
+   ],
+   "bosluk_notu": "Eridu için ARCANE Bölüm I yalnız Lugalzagesi unvanı ve Ur III haritası verir. Akad, Gutium, İsin-Larsa, Kassit ve sonrası KAYNAKLANMADI; şehrin terk tarihi de kaynaklanmadı (önceki dalga: atlas bit \"MS 499\" kaynaksız). Kaynak yoksa dönem YAZILMADI."
+  },
+  {
+   "sehir": "Girsu (Lagaş devletinin merkezi)",
+   "ad_yerel": "Girsu / Tello",
+   "lat": 31.56039,
+   "lon": 46.17764,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 912855",
+     "lat": 31.56038611603111,
+     "lon": 46.17763528107655
+    },
+    {
+     "kaynak": "Wikidata Q853946 P625",
+     "lat": 31.56526,
+     "lon": 46.18964
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 1.26 km; esas alınan: Pleiades 912855. Lagaş şehrinin kendisi (al-Hiba) ayrı bir yerdir; bkz. Lagaş kaydı. Atlas dosyasındaki Girsu noktası Pleiades esaslı.",
+   "donemler": [
+    {
+     "sahip": "Lagaş I (Girsu-Lagaş şehir-devleti; Urnanshe ile başlar)",
+     "bas_mo": 2475,
+     "son_mo": 2318,
+     "bas_hassasiyet": "ca., ±20-30: Urnanshe yıl 1 ≈ Presargonik başlangıç; mutlak yıl jenerasyon sayımına dayanır (\"may be wrong for ca. ±20 years\", s. 136)",
+     "son_hassasiyet": "TÜRETME: Urukagina ca. 2324-2315±30 (10 yıl) ve Lugalzagesi yenilgisi Urukagina yıl 7/8 -> ≈2318/2317; bu oturumda hesaplandı",
+     "gecis_kaynagi": "Urnanshe (Lagaş I) Presargonik dönemin başlangıcıdır; Urnanshe yıl 1 -> Lugalzagesi yıl 25 arası ~175 yıl (alt tahmin); Tablo 39: ca. 2475-2300±30 (MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 67, 84; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «The reign of Urnanshe marks the beginning of the Presargonic period»",
+     "alinti": "The reign of Urnanshe marks the beginning of the Presargonic period",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "düşük",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Lugalzagesi, Urukagina yıl 7/8'de Lagaş'ı fetheder; Urukagina \"Girsu kralı\" olarak yıl 10'a dek sürer | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 85-86, 88 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urukagina was defeated by Lugalzagesi»",
+     "ic_not": "Tablo 39 s. 136 alıntısı: \"Presargonic period Lagash I // Umma ca. 175 years ca. 2475-2300±30\"."
+    },
+    {
+     "sahip": "Lugalzagesi krallığı (Lagaş fethi; Girsu'da \"Girsu kralı\" Urukagina yıl 10'a dek)",
+     "bas_mo": 2318,
+     "son_mo": 2300,
+     "bas_hassasiyet": "TÜRETME (yukarı)",
+     "son_hassasiyet": "ca., ±30",
+     "gecis_kaynagi": "Lugalzagesi, Urukagina yıl 7/8'de Lagaş'ı fetheder; Urukagina \"Girsu kralı\" olarak yıl 10'a dek sürer | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 85-86, 88 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urukagina was defeated by Lugalzagesi»",
+     "alinti": "Urukagina was defeated by Lugalzagesi",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "düşük",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»"
+    },
+    {
+     "sahip": "Akad İmparatorluğu",
+     "bas_mo": 2300,
+     "son_mo": 2181,
+     "bas_hassasiyet": "ca., ±30",
+     "son_hassasiyet": "Şarkalişarri sonrası \"karışıklık dönemi\" (MC 2181-2177)",
+     "son_aralik_mo": [
+      2181,
+      2177
+     ],
+     "gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»",
+     "alinti": "he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Girsu/Lagaş'ın Akad'dan bağımsızlaşması: Puzurmama ilk bağımsız hükümdar; \"karışıklık dönemi\" (Şarkalişarri sonrası, MC 2181-2177) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It is possible to date the beginning of independence to the period of confusion»",
+     "dolayli_cikarim": true,
+     "ic_not": "Lugalushumgal Şarkalişarri'nin Girsu valisi, Puzurmama ilk bağımsız hükümdardır (s. 119)."
+    },
+    {
+     "sahip": "Lagaş II hanedanı (bağımsız: Puzurmama, Ur-Ningirsu, Gudea...)",
+     "bas_mo": 2181,
+     "son_mo": null,
+     "bas_hassasiyet": "ca., ±30",
+     "son_aralik_mo": [
+      2110,
+      2093
+     ],
+     "gecis_kaynagi": "Girsu/Lagaş'ın Akad'dan bağımsızlaşması: Puzurmama ilk bağımsız hükümdar; \"karışıklık dönemi\" (Şarkalişarri sonrası, MC 2181-2177) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «It is possible to date the beginning of independence to the period of confusion»",
+     "alinti": "It is possible to date the beginning of independence to the period of confusion",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Lagaş II'nin son hükümdarları (Urabba, Urmama, Namhani) Urnamma'nın ikinci yarısı ve Şulgi'nin ilk yıllarına denk gelir -> Girsu Ur III denetimine girer | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 120 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «closely related to Urnamma and may, thus, belong to the latter half of his reign»",
+     "ic_not": "Gudea: Tablo 39 \"ca. 20 years? ca. 2130-2110? (MC)\"; Gudea'nın Urnamma'dan önce olduğu ARCANE'ın tercihi. Lagaş II toplamı ≥35 yıl, jenerasyon sayımı ~80 yıl (s. 120-122)."
+    },
+    {
+     "sahip": "Ur III Devleti",
+     "bas_mo": null,
+     "son_mo": 2022,
+     "bas_hassasiyet": "Namhani Urnamma'nın lütfuyla vali (Urnamma Kanunu); tam yıl kaynaklanmadı",
+     "son_hassasiyet": "İbbi-Suen yıl 4-5 = MC 2023-22",
+     "bas_aralik_mo": [
+      2110,
+      2093
+     ],
+     "son_aralik_mo": [
+      2023,
+      2022
+     ],
+     "gecis_kaynagi": "Lagaş II'nin son hükümdarları (Urabba, Urmama, Namhani) Urnamma'nın ikinci yarısı ve Şulgi'nin ilk yıllarına denk gelir -> Girsu Ur III denetimine girer | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 120 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «closely related to Urnamma and may, thus, belong to the latter half of his reign»",
+     "alinti": "closely related to Urnamma and may, thus, belong to the latter half of his reign",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Ur III çözülmesi: İbbi-Suen yıl 4-5 (MC 2023-22) Umma ve Girsu, yıl 6 (MC 2019) Nippur ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen years 4 and 5 (MC 2023-22) Umma and Girsu, and in Ibbisuen 6, Nippur (MC 2019)»"
+    }
+   ],
+   "bosluk_notu": "Girsu: Ur III sonrası (2022 -) Girsu'nun kimin elinde olduğu, Eski Babil ve sonrası KAYNAKLANMADI. Presargonik dönem başlangıcı şehir-özel verilmedi (Marchesi bölümü kitapta Kısım II'de; PDF yalnız Kısım I). Kaynak yoksa dönem YAZILMADI.",
+   "not_lagas_sehri": "Lagaş şehrinin (al-Hiba) koordinatı ayrı: Pleiades 959120263 (31.4193, 46.4097), Wikidata Q207330 (31.4114, 46.4072); zincir Girsu ile aynı devlettir (ED Lagaş devleti iki merkezli)."
+  },
+  {
+   "sehir": "Umma",
+   "ad_yerel": "Umma / Tell Jokha",
+   "lat": 31.66796,
+   "lon": 45.88679,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 44626252",
+     "lat": 31.6679552584,
+     "lon": 45.8867859118
+    },
+    {
+     "kaynak": "Wikidata Q740952 P625",
+     "lat": 31.6674,
+     "lon": 45.8877
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.11 km; esas alınan: Pleiades 44626252.",
+   "donemler": [
+    {
+     "sahip": "Umma şehir-devleti (Presargonik; Lugalzagesi'nin şehri)",
+     "bas_mo": null,
+     "son_mo": 2324,
+     "bas_hassasiyet": "Umma devletinin başlangıcı kaynaklanmadı (Presargonik dönem ca. 2475'te başlar, ama bu Lagaş I'e göre tanımlıdır)",
+     "son_hassasiyet": "ca., ±30: Lugalzagesi saltanat başı",
+     "gecis_kaynagi": "KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "düşük",
+     "son_gecis_kaynagi": "Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «the Sumerian cult centres Uruk, Larsa, Ur, and Nippur»",
+     "ic_not": "Lugalzagesi \"Umma ensi'si olarak başlar\" (ARC s. 86)."
+    },
+    {
+     "sahip": "Lugalzagesi krallığı (Uruk-Umma)",
+     "bas_mo": 2324,
+     "son_mo": 2300,
+     "bas_hassasiyet": "ca., ±30",
+     "son_hassasiyet": "ca., ±30",
+     "gecis_kaynagi": "Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «the Sumerian cult centres Uruk, Larsa, Ur, and Nippur»",
+     "alinti": "the Sumerian cult centres Uruk, Larsa, Ur, and Nippur",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»"
+    },
+    {
+     "sahip": "Akad İmparatorluğu",
+     "bas_mo": 2300,
+     "son_mo": null,
+     "bas_hassasiyet": "ca., ±30",
+     "son_hassasiyet": "\"karışıklık dönemi ya da Dudu'nun kendi zamanı\" (MC 2181-2157)",
+     "son_aralik_mo": [
+      2181,
+      2157
+     ],
+     "gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»",
+     "alinti": "he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Akad dönemi sonrası Umma Gutium egemenliğinde şehir-devlet; bağımsızlık \"karışıklık dönemi\" ya da Dudu'nun kendi zamanı (MC 2181-2157) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 118-119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «after its Akkadian period Umma was a city state under the dominion of the Dynasty of Gutium»"
+    },
+    {
+     "sahip": "Gutium egemenliğinde Umma şehir-devleti (Nammahni, Lugalanatum)",
+     "bas_mo": null,
+     "son_mo": 2111,
+     "bas_hassasiyet": "Akad bitişiyle birlikte; Dudu 36 yıllık bağımsızlık ~Dudu+Şudurul",
+     "son_hassasiyet": "Gutium dönemi sonu ca. MC 2111 (Tablo 39: 2180±30-2111)",
+     "bas_aralik_mo": [
+      2181,
+      2157
+     ],
+     "gecis_kaynagi": "Umma, Akad dönemi sonrası şehir-devlet; Nammahni ve Lugalanatum Gutium kralını üstün efendi tanır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 118-119 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Both Nammahni and Lugalanatum recognized the king of Gutium as overlord»",
+     "alinti": "Both Nammahni and Lugalanatum recognized the king of Gutium as overlord",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "bkz. sonraki dönemin gecis_kaynagi"
+    },
+    {
+     "sahip": "Ur III Devleti",
+     "bas_mo": 2110,
+     "son_mo": 2022,
+     "bas_hassasiyet": "MC 2110 (Umma'nın Ur III'e geçiş yılı kaynaklanmadı; Lugalanatum Amar-Suen yıl 1 yağ listesinde anılır)",
+     "son_hassasiyet": "İbbi-Suen yıl 4-5 = MC 2023-22",
+     "son_aralik_mo": [
+      2023,
+      2022
+     ],
+     "gecis_kaynagi": "Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»",
+     "alinti": "Urnamma 18 years MC 2110-2093",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "düşük",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Ur III çözülmesi: İbbi-Suen yıl 4-5 (MC 2023-22) Umma ve Girsu, yıl 6 (MC 2019) Nippur ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen years 4 and 5 (MC 2023-22) Umma and Girsu, and in Ibbisuen 6, Nippur (MC 2019)»"
+    }
+   ],
+   "bosluk_notu": "Umma: Ur III sonrası (2022 -) ve Eski Babil dönemi KAYNAKLANMADI. Presargonik başlangıç şehre özel değil. Kaynak yoksa dönem YAZILMADI."
+  },
+  {
+   "sehir": "Kiş",
+   "ad_yerel": "Kiš / Tell Uhaymir",
+   "lat": 32.54609,
+   "lon": 44.59316,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 894028",
+     "lat": 32.5460878,
+     "lon": 44.5931639333
+    },
+    {
+     "kaynak": "Wikidata Q132272 P625",
+     "lat": 32.54028,
+     "lon": 44.60472
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 1.26 km; esas alınan: Pleiades 894028.",
+   "donemler": [
+    {
+     "sahip": "Akad İmparatorluğu (Kuzey Babilonya/Kiş çevresi)",
+     "bas_mo": 2324,
+     "son_mo": null,
+     "bas_hassasiyet": "ca., ±30; EN ERKEN: Kuzey Babilonya Güney'den önce Sargon'a geçmiş olabilir",
+     "gecis_kaynagi": "Sargon'un kuzey Babilonya'yı güneyden önce denetlemiş olabileceği (Kiş, Sargon'un \"Kiş kralı\" unvanı) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Northern Babylonia and the Diyala region may have been under Sargon's rule decennia before the South, Elam or Mari»",
+     "alinti": "Northern Babylonia and the Diyala region may have been under Sargon's rule decennia before the South, Elam or Mari",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "düşük",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "ic_not": "Sargon'un ana unvanı \"Kiş kralı\"dır (s. 97); Ebla Kiş kralına armağan listeler. Kiş'in Akad dönemi sonundaki durumu KAYNAKLANMADI (Akad dinastisinin kendi sonu Şudurul yıl 15 = MC 2142, Tablo 39; ama Puzur-İnşuşinak Akad topraklarını da denetlemiş olabilir, s. 123-124) -> bitiş YAZILMADI."
+    },
+    {
+     "sahip": "Babil I Hanedanı",
+     "bas_mo": null,
+     "son_mo": null,
+     "bas_hassasiyet": "EN GEÇ Samsu-iluna yıl 24 = MC 1726 (yıl-adı kanıtı)",
+     "gecis_kaynagi": "Samsu-iluna yıl 24 (MC 1726): Kiş'in büyük surunun inşası -> Kiş Babil I denetiminde | Kaynak: CDLI Wiki, Samsu-iluna year names (Babil I), yıl 24b | https://web.archive.org/web/2022/https://cdli.ox.ac.uk/wiki/samsuiluna | «Year the great city wall of Kisz»",
+     "alinti": "Year the great city wall of Kisz",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)"
+    }
+   ],
+   "bosluk_notu": "Kiş'in ED hegemonyası (Kiş I-IV hanedanları), Ur III dönemi, İsin-Larsa, Kassit sonrası KAYNAKLANMADI. Kiş için kullanılabilir tek şehir-özel sayısal kanıt: Samsu-iluna yıl 24 sur yazıtı."
+  },
+  {
+   "sehir": "Nippur",
+   "ad_yerel": "Nibru / Nuffar",
+   "lat": 32.12676,
+   "lon": 45.23056,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 912910",
+     "lat": 32.1267626333,
+     "lon": 45.2305635333
+    },
+    {
+     "kaynak": "Wikidata Q188395 P625",
+     "lat": 32.126111111111,
+     "lon": 45.230833333333
+    },
+    {
+     "kaynak": "OSM Nominatim \"Nippur\"",
+     "lat": 32.1261439,
+     "lon": 45.2308576
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.08 km; esas alınan: Pleiades 912910.",
+   "donemler": [
+    {
+     "sahip": "Enşakuşana / Lugalzagesi krallığı (Uruk-Umma)",
+     "bas_mo": null,
+     "son_mo": 2300,
+     "bas_hassasiyet": "bilinmiyor",
+     "son_hassasiyet": "ca., ±30",
+     "gecis_kaynagi": "Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «the Sumerian cult centres Uruk, Larsa, Ur, and Nippur»",
+     "alinti": "the Sumerian cult centres Uruk, Larsa, Ur, and Nippur",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Sargon, Lugalzagesi'yi yener; Akad hakimiyeti Babilonya'nın güneyinde başlar (Tablo 39: \"Sargonic period beginning in Babylonia\" ca. 2300, MC; MC II ca. 2292) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «he defeated Lugalzagesi of Uruk and thus became the only king of Sumer and Akkad»",
+     "ic_not": "Zabalam arazi metinleri (Lugalzagesi yıl 7): Nippur ensi'si Lugalzagesi devletinde alıcıdır (s. 86-87). Lugalzagesi Nippur vazo yazıtı."
+    },
+    {
+     "sahip": "Akad İmparatorluğu",
+     "bas_mo": 2300,
+     "son_mo": null,
+     "bas_hassasiyet": "ca., ±30",
+     "gecis_kaynagi": "Nippur'da Enşakuşana, Lugalzagesi ve Sargon bir kuşak içinde hükmeder (prosopografi) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 104 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «at Nippur Enshakushana, Lugalzagesi and Sargon ruled within one generation»",
+     "alinti": "at Nippur Enshakushana, Lugalzagesi and Sargon ruled within one generation",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "ic_not": "Akad sonrası Nippur'un durumu (Gutium/Uruk V) KAYNAKLANMADI."
+    },
+    {
+     "sahip": "Ur III Devleti",
+     "bas_mo": 2110,
+     "son_mo": 2019,
+     "bas_hassasiyet": "MC 2110 (Nippur'un katılma yılı kaynaklanmadı; Urnamma \"Sümer ve Akad kralı\" olarak Nippur'da inşa yapar)",
+     "son_hassasiyet": "İbbi-Suen yıl 6 = MC 2019",
+     "gecis_kaynagi": "Urnamma yıl 1 = MC 2110; Ur III devleti | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Urnamma 18 years MC 2110-2093»",
+     "alinti": "Urnamma 18 years MC 2110-2093",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Ur III çözülmesi: İbbi-Suen yıl 4-5 (MC 2023-22) Umma ve Girsu, yıl 6 (MC 2019) Nippur ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen years 4 and 5 (MC 2023-22) Umma and Girsu, and in Ibbisuen 6, Nippur (MC 2019)»"
+    },
+    {
+     "sahip": "Kassit Babilonyası",
+     "bas_mo": null,
+     "son_mo": 1150,
+     "bas_hassasiyet": "EN GEÇ ca. 1360 (arşiv başlangıcı); Kassit Nippur'un başlangıç yılı kaynaklanmadı",
+     "son_hassasiyet": "Elam akınları",
+     "gecis_kaynagi": "Nippur'da Kassit vali sarayının idari arşivi ca. 1360-1220 -> Nippur Kassit Babilonyası'ndadır | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «covers the period from ca. 1360 to 1220 BCE»",
+     "alinti": "covers the period from ca. 1360 to 1220 BCE",
+     "kronoloji_okulu": "Boese 1982 / Brinkman 1986",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Elam akınları Kassit hanedanını sona erdirir (1150) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Elam’s raids caused the demise of the Kassite dynasty in 1150 BCE»",
+     "ic_not": "Tukulti-Ninurta I'in (Asur) Babilonya fethi (1227-1220 civarı) Nippur'u da kapsamış olabilir; kaynak Nippur için özel yazmaz."
+    }
+   ],
+   "bosluk_notu": "Nippur: 2019-1360 arasında (İsin I, Larsa, Babil I, Deniz Ülkesi) ve 1150 sonrası KAYNAKLANMADI. Kaynak yoksa dönem YAZILMADI."
+  },
+  {
+   "sehir": "Babil",
+   "ad_yerel": "Babilim / Babylon",
+   "lat": 32.5373,
+   "lon": 44.42498,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 893951",
+     "lat": 32.53729695,
+     "lon": 44.42497815
+    },
+    {
+     "kaynak": "Wikidata Q5684 P625",
+     "lat": 32.5425,
+     "lon": 44.42111111
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.68 km; esas alınan: Pleiades 893951. OSM \"Outer Wall\" sonucu iç kent değil (önceki dalga notu); Pleiades esas.",
+   "donemler": [
+    {
+     "sahip": "Babil I Hanedanı (Amorit)",
+     "bas_mo": 1894,
+     "son_mo": 1595,
+     "bas_hassasiyet": "Sumu-abum \"1894-1881\" ARC Tablo 38'de TIRNAK İÇİNDE (yazarlar belirsiz sayıyor); Babil'in daha önceki statüsü kaynaklanmadı",
+     "son_hassasiyet": "Samsuditana yıl 31 = MC 1595/1597 (Hitit baskını ile ilişkilendirilir: Livius/Iranica; bu dalgada birincil okunmadı)",
+     "gecis_kaynagi": "Babil I Hanedanı'nın ilk kralı Sumu-abum (ARC Tablo 38'de TIRNAK İÇİNDE \"1894-1881\", yani yazarlarca belirsiz; MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 133 Tablo 38 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Sumuabum \"1894-1881\"»",
+     "alinti": "Sumuabum \"1894-1881\"",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Babil I Hanedanı Samsuditana yıl 31'de biter (MC 1595/1597) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 5-6; Tablo 39 s. 136 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Samsuditana 1625-1595»",
+     "ic_not": "Tablo 38 (MC): Hammurapi 1792-1750, Samsu-iluna 1749-1712, Samsuditana 1625-1595. Alçak/Kısa kronoloji (Gasche vd. 1998): Babil'in düşüşü ca. 1499 (Iranica Kassites aktarımı) - 96 yıllık fark."
+    },
+    {
+     "sahip": "Kassit hanedanı (kuzey Babilonya; Babil)",
+     "bas_mo": null,
+     "son_mo": 1220,
+     "bas_hassasiyet": "MÖ 16.-15. yy; ilk Babilonya hükümdarı Kassit Burnaburiaş I",
+     "son_hassasiyet": "Tukulti-Ninurta I (Asur) 1220",
+     "gecis_kaynagi": "Hammurabi hanedanı sonrası Babil'de Kassit idaresi: ilk Babilonya hükümdarı Kassit Burnaburiaş I (Agum-kakrime olasılığı dışlanmaz) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «The first Kassite dynast who ruled Babylonia was Burnaburiaš I»",
+     "alinti": "The first Kassite dynast who ruled Babylonia was Burnaburiaš I",
+     "kronoloji_okulu": "Boese 1982 / Brinkman 1986",
+     "guven": "düşük",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Tukulti-Ninurta I (Asur) Kaştiliaş IV'ü (1227-20) tutsak eder; 1220'de bir yıl Babil kralı gibi davranır; kukla yöneticiler bir on yıl Babilonya'yı denetler | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «After acting as king of Babylon for a year (1220 BCE), Tukulti-Ninurta I appointed a succession of puppet rulers»",
+     "ic_not": "Babil'in 1595-yaklaşık 1500 arası sahibi KAYNAKLANMADI (Iranica: 16.-15. yy belgesiz). Zadok: 14. yy'da Kassitler bütün Babilonya'yı denetler (KASSIT14 geçişi)."
+    },
+    {
+     "sahip": "Asur (Tukulti-Ninurta I) ve kukla yöneticiler",
+     "bas_mo": 1220,
+     "son_mo": 1210,
+     "bas_hassasiyet": "1220 (Kaştiliaş IV 1227-20 tutsak)",
+     "son_hassasiyet": "\"bir on yıl\" sonra Kassitler Elam baskısı ve Babil isyanıyla yeniden denetim kurar - tam yıl yazılmadı",
+     "son_aralik_mo": [
+      1215,
+      1205
+     ],
+     "gecis_kaynagi": "Tukulti-Ninurta I (Asur) Kaştiliaş IV'ü (1227-20) tutsak eder; 1220'de bir yıl Babil kralı gibi davranır; kukla yöneticiler bir on yıl Babilonya'yı denetler | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «After acting as king of Babylon for a year (1220 BCE), Tukulti-Ninurta I appointed a succession of puppet rulers»",
+     "alinti": "After acting as king of Babylon for a year (1220 BCE), Tukulti-Ninurta I appointed a succession of puppet rulers",
+     "kronoloji_okulu": "Boese 1982 / Brinkman 1986",
+     "guven": "düşük",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "bkz. sonraki dönemin gecis_kaynagi"
+    },
+    {
+     "sahip": "Kassit Babilonyası (yeniden)",
+     "bas_mo": null,
+     "son_mo": 1150,
+     "son_hassasiyet": "Elam akınları",
+     "gecis_kaynagi": "KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+     "kronoloji_okulu": "Boese 1982 / Brinkman 1986",
+     "guven": "düşük",
+     "son_gecis_kaynagi": "Elam akınları Kassit hanedanını sona erdirir (1150) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «Elam’s raids caused the demise of the Kassite dynasty in 1150 BCE»",
+     "ic_not": "Yeniden denetim başlangıç yılı kaynaklanmadı (yukarıdaki \"bir on yıl\")."
+    },
+    {
+     "sahip": "Kassit sonrası hanedanlar (İsin II, Deniz Ülkesi II, Bazi)",
+     "bas_mo": 1150,
+     "son_mo": 985,
+     "bas_hassasiyet": "ca.",
+     "son_hassasiyet": "ca.",
+     "gecis_kaynagi": "Kassit sonrası üç hanedan: İsin II, Deniz Ülkesi II, Bazi (ca. 1150-985) | Kaynak: Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites | «three post-Kassite dynasties (ca. 1150-985 BCE), viz., the second dynasty of Isin, the second dynasty of the Sealand, and the Bazi dynasty»",
+     "alinti": "three post-Kassite dynasties (ca. 1150-985 BCE), viz., the second dynasty of Isin, the second dynasty of the Sealand, and the Bazi dynasty",
+     "kronoloji_okulu": "Boese 1982 / Brinkman 1986",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "bkz. sonraki dönemin gecis_kaynagi",
+     "ic_not": "Susa II (Vallat): Şutruk-Nahhunte/Kutir-Nahhunte Kassit hanedanını bitirir; Hutelutuş-İnşuşinak I. Nebukadnezar'ca (1125-1104) saldırıya uğrar (Vallat: 1125-1104)."
+    },
+    {
+     "sahip": "Yeni Asur egemenliği (kesintili; Sargon II, Sennacherib, Esarhaddon, Aššurbanipal)",
+     "bas_mo": 710,
+     "son_mo": 627,
+     "bas_hassasiyet": "Marduk-apla-iddina yıl 12 = 710/709",
+     "son_hassasiyet": "Nabopolassar öncesi: Kandalanu 647-627 Asur gölgesinde; 626 bağımsızlık",
+     "gecis_kaynagi": "Sargon II Babil tahtına oturur (Marduk-apla-iddina yıl 12 = 710/709) | Kaynak: Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 1 (Nabu-nasir > Esarhaddon); Livius.org ceviri-tasiyicisi, sütun ii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/ | «Sargon ascended the throne in Babylon.»",
+     "alinti": "Sargon ascended the throne in Babylon.",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Nabopolassar Babil tahtına oturur (26 Arahsamna = 23 Kasım 626) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, giriş + ABC 2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «Nabû-apla-usur sat upon the throne in Babylon»",
+     "ic_not": "İÇ KESİNTİLER: Mušezib-Marduk 692-689 bağımsız Babil; Sennacherib Babil'i 1 Kislîmu 689/688'de alır (ABC 1b iii.22: \"On the first day of the month Kislîmu the city of Babylon was captured.\"); Aššur-nadin-šumi 699'da Babil tahtında (Vallat, Susa II). 705-703 arası Marduk-apla-iddina II dönemi ve 668-648 Šamaš-šuma-ukin (Babil kralı, Asur'a bağlı) ayrı ayrı kaynaklanmadı."
+    },
+    {
+     "sahip": "Yeni Babil Devleti",
+     "bas_mo": 626,
+     "son_mo": 539,
+     "bas_hassasiyet": "26 Arahsamna = 23 Kasım 626",
+     "son_hassasiyet": "3 Arahsamna (Julian karşılığı doğrulanmadı; Livius/Achaemenica 29 Ekim 539 yazar)",
+     "gecis_kaynagi": "Nabopolassar Babil tahtına oturur (26 Arahsamna = 23 Kasım 626) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, giriş + ABC 2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «Nabû-apla-usur sat upon the throne in Babylon»",
+     "alinti": "Nabû-apla-usur sat upon the throne in Babylon",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "yüksek",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Kyros Babil'e girer (Arahsamna 3; Gutium valisi Ugbaru ordusu Tašritu 16'da savaşsız girmişti) = Yeni Babil'in sonu 539 | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.15-18 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the third day of the month Arahsamna, Cyrus entered Babylon.»"
+    },
+    {
+     "sahip": "Ahameniş İmparatorluğu",
+     "bas_mo": 539,
+     "son_mo": 331,
+     "son_hassasiyet": "İskender Babil'i alır (Livius özeti; Arrianos 3.16 okunmadı)",
+     "gecis_kaynagi": "Kyros Babil'e girer (Arahsamna 3; Gutium valisi Ugbaru ordusu Tašritu 16'da savaşsız girmişti) = Yeni Babil'in sonu 539 | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.15-18 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the third day of the month Arahsamna, Cyrus entered Babylon.»",
+     "alinti": "On the third day of the month Arahsamna, Cyrus entered Babylon.",
+     "kronoloji_okulu": "mutlak",
+     "guven": "yüksek",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»"
+    },
+    {
+     "sahip": "Makedon (İskender) ve Diadokh dönemi",
+     "bas_mo": 331,
+     "son_mo": 311,
+     "gecis_kaynagi": "İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
+     "alinti": "In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon",
+     "kronoloji_okulu": "mutlak",
+     "guven": "düşük",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»",
+     "ic_not": "323 Haziran: Philippos Arrhidaios tahtı (CM 4); 316/5: Antigonos hamlesi (BCHP 3); kesin sahiplik yılları kaynaklanmadı."
+    },
+    {
+     "sahip": "Seleukos İmparatorluğu",
+     "bas_mo": 311,
+     "son_mo": 141,
+     "bas_hassasiyet": "Mayıs 311",
+     "son_hassasiyet": "13 Nisan-10 Haziran 141",
+     "gecis_kaynagi": "Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»",
+     "alinti": "Seleucus had recovered Babylon in May 311",
+     "kronoloji_okulu": "mutlak",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Mithradates I Babilonya'yı fetheder (Babil yılı SEB 171 ilk iki ay: 13 Nisan-10 Haziran 141); Temmuz 141'de Seleukeia, Ekim 141'de Uruk | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171, dipnot van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «between 13 April and 10 June 141 BCE, Mithradates conquered Babylonia.»"
+    },
+    {
+     "sahip": "Part İmparatorluğu",
+     "bas_mo": 141,
+     "son_mo": null,
+     "bas_hassasiyet": "13 Nisan-10 Haziran 141",
+     "gecis_kaynagi": "Mithradates I Babilonya'yı fetheder (Babil yılı SEB 171 ilk iki ay: 13 Nisan-10 Haziran 141); Temmuz 141'de Seleukeia, Ekim 141'de Uruk | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171, dipnot van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «between 13 April and 10 June 141 BCE, Mithradates conquered Babylonia.»",
+     "alinti": "between 13 April and 10 June 141 BCE, Mithradates conquered Babylonia.",
+     "kronoloji_okulu": "mutlak",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)"
+    }
+   ],
+   "bosluk_notu": "Babil: Akad, Gutium, Ur III dönemlerinde Babil'in siyasî sahibi KAYNAKLANMADI (ARCANE Bölüm I Babil'i anmaz); 985-710 arası (Elam/Kaldu/Aramî dönemleri, ABC 24, Chronicle P) KAYNAKLANMADI; 1595-1500 arası KAYNAKLANMADI. Kaynak yoksa dönem YAZILMADI."
+  },
+  {
+   "sehir": "Sippar",
+   "ad_yerel": "Sippar / Tell Abu Habbah",
+   "lat": 33.05974,
+   "lon": 44.25424,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 894089",
+     "lat": 33.0597376942,
+     "lon": 44.2542432865
+    },
+    {
+     "kaynak": "Wikidata Q619707 P625",
+     "lat": 33.058829,
+     "lon": 44.252153
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.22 km; esas alınan: Pleiades 894089. Pleiades'te ayrı bir 'Sippar-Amnanum' kaydı (392373882: 33.0992, 44.2992) ~6 km kuzeyde bulunur; kullanılmadı, 'Sippar' kaydı esas.",
+   "donemler": [
+    {
+     "sahip": "Babil I Hanedanı",
+     "bas_mo": null,
+     "son_mo": null,
+     "bas_hassasiyet": "EN GEÇ Samsu-iluna yıl 1 = MC 1749 (yıl-adı kanıtı)",
+     "gecis_kaynagi": "Samsu-iluna'nın tahta çıkış yılı adı Sippar için toprak (sur) yığmayı anar -> Sippar Babil I denetiminde (MC 1749) | Kaynak: CDLI Wiki, Samsu-iluna year names (Babil I), yıl 1a | https://web.archive.org/web/2022/https://cdli.ox.ac.uk/wiki/samsuiluna | «Year (the earth for) Sippar and year Samsu-iluna (became) king»",
+     "alinti": "Year (the earth for) Sippar and year Samsu-iluna (became) king",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)"
+    },
+    {
+     "sahip": "Yeni Babil Devleti",
+     "bas_mo": 626,
+     "son_mo": 539,
+     "bas_hassasiyet": "bölgesel",
+     "son_hassasiyet": "Tašritu 14 (Julian karşılığı doğrulanmadı)",
+     "gecis_kaynagi": "Nabopolassar Babil tahtına oturur (26 Arahsamna = 23 Kasım 626) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, giriş + ABC 2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «Nabû-apla-usur sat upon the throne in Babylon»",
+     "alinti": "Nabû-apla-usur sat upon the throne in Babylon",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Sippar, Kyros'un ordusuna savaşsız teslim olur (Nabonidus yıl 17, Tašritu 14; Julian karşılığı doğrulanmadı) | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the fourteenth day Sippar was captured without a battle.»"
+    },
+    {
+     "sahip": "Ahameniş İmparatorluğu",
+     "bas_mo": 539,
+     "son_mo": null,
+     "gecis_kaynagi": "Sippar, Kyros'un ordusuna savaşsız teslim olur (Nabonidus yıl 17, Tašritu 14; Julian karşılığı doğrulanmadı) | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun iii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «On the fourteenth day Sippar was captured without a battle.»",
+     "alinti": "On the fourteenth day Sippar was captured without a battle.",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "yüksek",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)"
+    }
+   ],
+   "bosluk_notu": "Sippar: ED/Akad/Ur III dönemleri, Babil I'in Sippar'ı alış yılı, Kassit, Seleukos ve Part geçişleri KAYNAKLANMADI. ABC 7: Sippar 14. gün (Livius ABC 7) / Livius Opis sayfası \"15. gün [12 Ekim]\" - iki Livius sayfası çelişir; Grayson okuyuşu 14. gün, Julian gün çevirisi doğrulanmadı."
+  },
+  {
+   "sehir": "Opis",
+   "ad_yerel": "Upî / Upija",
+   "lat": 33.1844,
+   "lon": 44.7015,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 894056",
+     "lat": 33.1844,
+     "lon": 44.7015
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.00 km; esas alınan: Pleiades 894056. İkinci bağımsız tanık BULUNAMADI: Livius \"kesin konum belirlenmedi, aday Tulul al-Mugaili\" der; Wikidata/OSM kaydı yok. Konum yaklaşık.",
+   "donemler": [
+    {
+     "sahip": "Yeni Babil Devleti",
+     "bas_mo": 626,
+     "son_mo": 539,
+     "bas_hassasiyet": "bölgesel",
+     "son_hassasiyet": "Opis savaşı Tašritu 539",
+     "gecis_kaynagi": "Nabopolassar Babil tahtına oturur (26 Arahsamna = 23 Kasım 626) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, giriş + ABC 2 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «Nabû-apla-usur sat upon the throne in Babylon»",
+     "alinti": "Nabû-apla-usur sat upon the throne in Babylon",
+     "kronoloji_okulu": "mutlak",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Opis savaşı: Kyros Babil ordusunu Opis'te yener (Tašritu 539) | Kaynak: Lendering, J., Livius.org: Opis | https://www.livius.org/articles/place/opis/ | «when Cyrus attacked the army of Babylonia in Opis on the Tigris, the inhabitants of Babylonia revolted»",
+     "ic_not": "Livius Opis: 14. yy'da Babilonya'nın idarî bölge başkenti; Nabukadnezar'ın Med'e karşı duvarı Opis'te biter."
+    },
+    {
+     "sahip": "Ahameniş İmparatorluğu",
+     "bas_mo": 539,
+     "son_mo": 331,
+     "son_hassasiyet": "bölgesel (İskender 331)",
+     "gecis_kaynagi": "Opis savaşı: Kyros Babil ordusunu Opis'te yener (Tašritu 539) | Kaynak: Lendering, J., Livius.org: Opis | https://www.livius.org/articles/place/opis/ | «when Cyrus attacked the army of Babylonia in Opis on the Tigris, the inhabitants of Babylonia revolted»",
+     "alinti": "when Cyrus attacked the army of Babylonia in Opis on the Tigris, the inhabitants of Babylonia revolted",
+     "kronoloji_okulu": "mutlak",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "bkz. sonraki dönemin gecis_kaynagi"
+    }
+   ],
+   "bosluk_notu": "Opis: Seleukos I Seleukeia'yı karşı yakaya kurunca Opis banliyö kalır (Livius Opis); kuruluş yılı kaynaklanmadı. Opis'in Part dönemi kaynaklanmadı. Konum tek tanıklı."
+  },
+  {
+   "sehir": "Seleukeia (Dicle üzerinde)",
+   "ad_yerel": "Seleuceia ad Tigrim / Tell Umar",
+   "lat": 33.0979,
+   "lon": 44.52377,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 894084",
+     "lat": 33.097898,
+     "lon": 44.523773
+    },
+    {
+     "kaynak": "Wikidata Q1136681 P625",
+     "lat": 33.1,
+     "lon": 44.52
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.42 km; esas alınan: Pleiades 894084.",
+   "donemler": [
+    {
+     "sahip": "Seleukos İmparatorluğu (başkent)",
+     "bas_mo": null,
+     "son_mo": 141,
+     "bas_hassasiyet": "KURULUŞ aralığı (tarih kayıtlı değil)",
+     "son_hassasiyet": "141 (Temmuz)",
+     "bas_aralik_mo": [
+      309,
+      301
+     ],
+     "gecis_kaynagi": "Seleukeia kuruluşu: tarih kayıtlı değil; Babil Savaşı (311-309) sonrası, 301 öncesi | Kaynak: Lendering, J., Livius.org: Seleucia on the Tigris | https://www.livius.org/articles/place/seleucia-on-the-tigris/ | «The date of the founding is not recorded, but must be after the Babylonian War (311-309) and before 301»",
+     "alinti": "The date of the founding is not recorded, but must be after the Babylonian War (311-309) and before 301",
+     "kronoloji_okulu": "mutlak",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Seleukeia Part kralı Mithradates I tarafından fethedilir (141) | Kaynak: Lendering, J., Livius.org: Seleucia on the Tigris | https://www.livius.org/articles/place/seleucia-on-the-tigris/ | «The city was conquered in 141 BCE by the Parthian king Mithradates I the Great»"
+    },
+    {
+     "sahip": "Part İmparatorluğu",
+     "bas_mo": 141,
+     "son_mo": null,
+     "bas_hassasiyet": "Temmuz 141 (Livius Bagayasha)",
+     "gecis_kaynagi": "Seleukeia Part kralı Mithradates I tarafından fethedilir (141) | Kaynak: Lendering, J., Livius.org: Seleucia on the Tigris | https://www.livius.org/articles/place/seleucia-on-the-tigris/ | «The city was conquered in 141 BCE by the Parthian king Mithradates I the Great»",
+     "alinti": "The city was conquered in 141 BCE by the Parthian king Mithradates I the Great",
+     "kronoloji_okulu": "mutlak",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)"
+    }
+   ],
+   "bosluk_notu": "Seleukeia: MS 116/165/198 Roma seferleri bu dalganın MS 1 sınırı dışındadır (Iranica Ctesiphon: Trajan 116, Avidius Cassius Aralık 165, Septimius Severus 198). Livius Seleucia: şehrin kuruluşundan sonraki ilk 150 yılı için başka sahip yok."
+  },
+  {
+   "sehir": "Ktesiphon",
+   "ad_yerel": "Ctesiphon / Tisfun",
+   "lat": 33.0947,
+   "lon": 44.58122,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 893976",
+     "lat": 33.094703,
+     "lon": 44.5812226667
+    },
+    {
+     "kaynak": "Wikidata Q192541 P625",
+     "lat": 33.09361,
+     "lon": 44.58083
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.13 km; esas alınan: Pleiades 893976.",
+   "donemler": [
+    {
+     "sahip": "Part İmparatorluğu",
+     "bas_mo": 141,
+     "son_mo": null,
+     "bas_hassasiyet": "EN ERKEN 141 (Part ordugahı olarak kuruluş; kesin yıl yok - Strabon)",
+     "gecis_kaynagi": "Ktesiphon, Part ordularının ordugahı olarak kurulur (Strabon 16.1.16, Kröger aktarımı); Part kralları kışlık rezidansı olarak kullanır | Kaynak: Kroeger, J., \"Ctesiphon\", Encyclopaedia Iranica VI/4, 1993 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ctesiphon | «the city was founded as a camp for the Parthian armies»",
+     "alinti": "the city was founded as a camp for the Parthian armies",
+     "kronoloji_okulu": "klasik anlatı",
+     "guven": "düşük",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "ic_not": "Iranica: \"until the fall of the Arsacid dynasty in 224 c.e. it was the winter residence of the Arsacid kings\". Part fethi (141) Seleukeia ile birlikte; Ktesiphon'un kurulduğu tarih ayrıca kaynaklanmadı."
+    }
+   ],
+   "bosluk_notu": "Ktesiphon: Part öncesi yerleşim kaynaklanmadı. MS 224-637 Sasani dönemi kapsam dışı."
+  },
+  {
+   "sehir": "Dura-Europos",
+   "ad_yerel": "Dura-Europos",
+   "lat": 34.74788,
+   "lon": 40.72985,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 893990",
+     "lat": 34.7478848156,
+     "lon": 40.7298542823
+    },
+    {
+     "kaynak": "Wikidata Q464266 P625",
+     "lat": 34.747,
+     "lon": 40.73
+    },
+    {
+     "kaynak": "OSM Nominatim",
+     "lat": 34.747701,
+     "lon": 40.7304619
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.10 km; esas alınan: Pleiades 893990.",
+   "donemler": [
+    {
+     "sahip": "Seleukos İmparatorluğu",
+     "bas_mo": 303,
+     "son_mo": 113,
+     "bas_hassasiyet": "kuruluş = 303 (Nikanor)",
+     "son_hassasiyet": "ca. 113 (Part fethi)",
+     "gecis_kaynagi": "Dura-Europos, Seleukos I'in generali Nikanor tarafından 303'te kurulur | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi), Leriche özeti | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «founded in 303 B.C.E. by Nicanor, a general of Seleucus I»",
+     "alinti": "founded in 303 B.C.E. by Nicanor, a general of Seleucus I",
+     "kronoloji_okulu": "mutlak",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»",
+     "ic_not": "Livius (taşıyıcı): \"Founded in about 303 BCE by Macedonian settlers\"; \"In the 140s taken over by the Parthians\" - Livius ve Iranica 113 vs 140'lar arasında çelişir; Iranica esas alındı. Tam Part fethi yılı tartışmalı."
+    },
+    {
+     "sahip": "Part İmparatorluğu",
+     "bas_mo": 113,
+     "son_mo": null,
+     "bas_hassasiyet": "ca.",
+     "gecis_kaynagi": "Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»",
+     "alinti": "Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.",
+     "kronoloji_okulu": "mutlak",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)"
+    }
+   ],
+   "bosluk_notu": "Dura-Europos: Roma MS 115-117 (Trajan), MS 165 (Avidius Cassius), Sasani 256 MS 1 sınırı dışındadır. Part fethinin tarihi (113 mi 140'lar mı) çelişkili, birincil kaynak okunmadı."
+  },
+  {
+   "sehir": "Aşşur",
+   "ad_yerel": "Aššur / Qal'at Širqat",
+   "lat": 35.45557,
+   "lon": 43.2613,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 893945",
+     "lat": 35.4555731618,
+     "lon": 43.2613012876
+    },
+    {
+     "kaynak": "Wikidata Q200200 P625",
+     "lat": 35.456666666667,
+     "lon": 43.2625
+    },
+    {
+     "kaynak": "OSM Nominatim (önceki dalga)",
+     "lat": 35.4548366,
+     "lon": 43.2607784
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.26 km; esas alınan: Pleiades 893945.",
+   "donemler": [
+    {
+     "sahip": "Ur III eyaleti (vali Zarriqum)",
+     "bas_mo": null,
+     "son_mo": 2024,
+     "bas_hassasiyet": "Başlangıç kaynaklanmadı; Zarriqum Şulgi 47 - Amar-Suen 5 arası belgeli ≈ MC 2046-2040",
+     "son_hassasiyet": "OLASI (hedge): \"may have become independent ... after Ibbisuen 3\"",
+     "son_aralik_mo": [
+      2024,
+      2020
+     ],
+     "gecis_kaynagi": "Aşşur Ur imparatorluğunun en kuzey eyalet merkezi; vali Zarriqum Şulgi 47 - Amar-Suen 5 arası belgeli (yaklaşık MC 2046-2040) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 31-32 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Assur was the northernmost provincial capital of the empire of Ur»",
+     "alinti": "Assur was the northernmost provincial capital of the empire of Ur",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Aşşur, İbbi-Suen yıl 3'ten (MC 2024) sonra bağımsızlaşmış olabilir | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 32 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Assur may have become independent, along with other distant provinces like Eshnuna or Susa, after the year Ibbisuen 3 (= MC 2024)»",
+     "ic_not": "ARC s. 31: AKL'nin ilk hükümdarları \"who declared independence from Akkadian and Ur III rule\" -> Akad ve Ur III hakimiyeti dolaylı kanıt; Akad dönemi tarihlenmedi, dönem YAZILMADI."
+    },
+    {
+     "sahip": "Bağımsız Aşşur şehir-devleti (Puzur-Aşşur I hanedanı, Eski Asur)",
+     "bas_mo": 2024,
+     "son_mo": 1808,
+     "bas_hassasiyet": "OLASI en erken",
+     "son_hassasiyet": "Šamši-Adad I = 1808 (Tablo 38, REL: Erishum II 1835/15-1809)",
+     "gecis_kaynagi": "Aşşur, İbbi-Suen yıl 3'ten (MC 2024) sonra bağımsızlaşmış olabilir | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 32 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Assur may have become independent, along with other distant provinces like Eshnuna or Susa, after the year Ibbisuen 3 (= MC 2024)»",
+     "alinti": "Assur may have become independent, along with other distant provinces like Eshnuna or Susa, after the year Ibbisuen 3 (= MC 2024)",
+     "kronoloji_okulu": "MC (Barjamovic vd. 2012 REL)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Šamši-Adad I Aşşur'un yöneticisi (ARC Tablo 38, Barjamovic vd. 2012 uyarlaması): MC 1808-1776 | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 133 Tablo 38 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Shamshiadad I 1808-1776»",
+     "ic_not": "ARC: Erishum I MC 1972-1933 (Kültepe Eponim Listesi); \"REL 255 yıl MC 1972-1718\"."
+    },
+    {
+     "sahip": "Šamši-Adad I'in krallığı",
+     "bas_mo": 1808,
+     "son_mo": 1776,
+     "bas_hassasiyet": "MC (ARC Tablo 38)",
+     "son_hassasiyet": "MC 1776 (Išme-Dagan I 1775-?)",
+     "gecis_kaynagi": "Šamši-Adad I Aşşur'un yöneticisi (ARC Tablo 38, Barjamovic vd. 2012 uyarlaması): MC 1808-1776 | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 133 Tablo 38 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Shamshiadad I 1808-1776»",
+     "alinti": "Shamshiadad I 1808-1776",
+     "kronoloji_okulu": "MC (Barjamovic vd. 2012)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "bkz. sonraki dönemin gecis_kaynagi",
+     "ic_not": "ÇELİŞKİ: Livius Aşşur sayfası Šamši-Adad I'i r.1813-1781? verir; ARCANE 1808-1776 (5 yıl fark). ARCANE esas alındı."
+    },
+    {
+     "sahip": "Mitanni'ye tabi Asur",
+     "bas_mo": null,
+     "son_mo": null,
+     "bas_hassasiyet": "1595 sonrası (Livius özeti)",
+     "son_hassasiyet": "Aššur-uballit I (ca. 1364-1328) öncesi",
+     "gecis_kaynagi": "Hitit saldırısı ve Babil'in çöküşünden (genelde 1595) sonra Asur Mitanni'ye tabi olur (Livius özeti; birincil/akademik kaynak okunmadı) | Kaynak: Lendering, J., Livius.org: Assur | https://www.livius.org/articles/place/assur/ | «Assyria became a vassal of the kingdom of Mitanni»",
+     "alinti": "Assyria became a vassal of the kingdom of Mitanni",
+     "kronoloji_okulu": "yaklaşık",
+     "guven": "düşük",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "ic_not": "Yalnız Livius özeti: birincil/akademik kaynak (Radner, Roaf) kütüphanede."
+    },
+    {
+     "sahip": "Orta/Yeni Asur Devleti",
+     "bas_mo": null,
+     "son_mo": 614,
+     "bas_hassasiyet": "ca. 1364 (Livius özeti; başlangıç YAZILMADI: sayısal kaynak yok)",
+     "son_hassasiyet": "Nabopolassar yıl 12 = 614/613, Abu ayı",
+     "gecis_kaynagi": "Aşşur-uballit I (ca. 1364-1328) ve Šuppiluliuma Mitanni'ye saldırır; Asur bağımsızlığını yeniden kazanır (Livius özeti) | Kaynak: Lendering, J., Livius.org: Assur | https://www.livius.org/articles/place/assur/ | «Assyria regained its independence»",
+     "alinti": "Assyria regained its independence",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "orta",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "Medler Aşşur'u alıp yıkar (Nabopolassar yıl 12 = 614/613, Abu ayı) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, Y12 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «They did battle against the city and destroyed it.»"
+    }
+   ],
+   "bosluk_notu": "Aşşur: 614 sonrası (Med, Yeni Babil, Ahameniş, Part dönemi) KAYNAKLANMADI. 2181-2142 Akad dönemi ve 1776-1595 aralığı KAYNAKLANMADI. Orta Asur kuruluşu ve Yeni Asur genişleme tarihleri (Radner) KAYNAKLANMADI."
+  },
+  {
+   "sehir": "Ninova",
+   "ad_yerel": "Ninua / Kuyunjik",
+   "lat": 36.36076,
+   "lon": 43.15994,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 874621",
+     "lat": 36.3607615238,
+     "lon": 43.1599368897
+    },
+    {
+     "kaynak": "Wikidata Q5680 P625",
+     "lat": 36.366667,
+     "lon": 43.15
+    },
+    {
+     "kaynak": "OSM Nominatim (önceki dalga)",
+     "lat": 36.3564339,
+     "lon": 43.1621647
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 1.58 km; esas alınan: Pleiades 874621. Önceki dalga OSM'yi esas almıştı; üç tanık arası en çok ~1,1 km; Pleiades kent merkezi esas.",
+   "donemler": [
+    {
+     "sahip": "Yeni Asur Devleti",
+     "bas_mo": null,
+     "son_mo": 612,
+     "son_hassasiyet": "Nabopolassar yıl 14 = 612/611; kuşatma Simanu-Abu (Haziran-Ağustos)",
+     "gecis_kaynagi": "KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "yüksek",
+     "son_gecis_kaynagi": "Babil-Med ittifakı Ninova'yı üç aylık kuşatmadan sonra alır (Nabopolassar yıl 14 = 612/611, Simanu-Abu) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, Y14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «turned the city into a ruin heap»",
+     "ic_not": "Başlangıç KAYNAKLANMADI. Sennacherib 704 başkent (Met Museum Heilbrunn denemesi, Seymour 2017; WebFetch 429 verdi, yalnız arama özeti görüldü - doğrulanmadı)."
+    }
+   ],
+   "bosluk_notu": "Ninova: 612 sonrası Yeni Babil (kral Ninova'da: ABC 3 Y14 \"brought the people of Rusapu to the king of Akkad at Nineveh\") ve Med paylaşımı KAYNAKLANMADI. Eski Asur/Orta Asur dönemleri KAYNAKLANMADI.",
+   "veri_noktalari": [
+    {
+     "mo": 612,
+     "olay": "Ninova düştükten sonra Babil kralı Ninova'da bulunur",
+     "kaynak": "Ninova'nın düşüşünden sonra Babil kralı Ninova'da bulunur (Rusapu halkı ona Ninova'da getirilir) | Kaynak: Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi, Y14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | «they brought the people of Rusapu to the king of Akkad at Nineveh»"
+    }
+   ]
+  },
+  {
+   "sehir": "Kalhu (Nimrud)",
+   "ad_yerel": "Kalhu / Nimrud",
+   "lat": 36.09998,
+   "lon": 43.33154,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 894019",
+     "lat": 36.09997517,
+     "lon": 43.33153527
+    },
+    {
+     "kaynak": "Wikidata Q237614 P625",
+     "lat": 36.098055555556,
+     "lon": 43.328888888889
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.32 km; esas alınan: Pleiades 894019.",
+   "donemler": [],
+   "bosluk_notu": "Kalhu (Nimrud): bu oturumda sayısal sahip zinciri KAYNAKLANMADI. Kalhu'nun Asur başkenti oluşu (Aššurnasirpal II, ortaya çıkış tarihi 879 iddiası Annals'a dayanır) ve 612 civarı düşüşü okunabilir bir kaynakta bulunamadı (ABC 3 Kalhu'yu anmaz). Met Museum Heilbrunn denemesi arama özetinde Aššurnasirpal II saltanatını 883-859 verdi; sayfa açılamadı."
+  },
+  {
+   "sehir": "Dur-Şarrukin (Khorsabad)",
+   "ad_yerel": "Dur-Šarruken / Khorsabad",
+   "lat": 36.50662,
+   "lon": 43.23141,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 874458",
+     "lat": 36.50661765,
+     "lon": 43.23141415
+    },
+    {
+     "kaynak": "Wikidata Q253208 P625",
+     "lat": 36.50953,
+     "lon": 43.22931
+    },
+    {
+     "kaynak": "OSM Nominatim \"Khorsabad Iraq\"",
+     "lat": 36.5029045,
+     "lon": 43.2348417
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.89 km; esas alınan: Pleiades 874458.",
+   "donemler": [],
+   "bosluk_notu": "Dur-Şarrukin: Sargon II (721-705) kuruluşu ve terki Met Museum arama özetinde geçti (sayfa WebFetch 429 verdi); Loud & Altman 1938 OIP 40 (isac.uchicago.edu) indirilemedi (Wayback kopyası 5 MB’ta kesik). Kuruluş/terk yılları KAYNAKLANMADI."
+  },
+  {
+   "sehir": "Mari",
+   "ad_yerel": "Mari / Tell Hariri",
+   "lat": 34.54944,
+   "lon": 40.89,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 682549108 (Ishtar Temple at Mari - bina düzeyi)",
+     "lat": 34.5512604762,
+     "lon": 40.8859407231
+    },
+    {
+     "kaynak": "Wikidata Q244762 P625",
+     "lat": 34.54944,
+     "lon": 40.89
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.42 km; esas alınan: Wikidata Q244762 P625. Pleiades'te Mari yer kaydı bu oturumda bulunamadı (yalnız Ištar Tapınağı özelliği); esas Wikidata, Pleiades özelliği doğrulayıcı.",
+   "donemler": [
+    {
+     "sahip": "Mari (Ville II) şehir-devleti, ED",
+     "bas_mo": null,
+     "son_mo": 2295,
+     "son_hassasiyet": "ca. 2295±30 (MC); Tablo 39; Sargon yıl 25-37 arası",
+     "son_aralik_mo": [
+      2325,
+      2265
+     ],
+     "gecis_kaynagi": "KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "son_gecis_kaynagi": "Mari (Ville II) Sargon tarafından yıkılır (Tablo 39: ca. 2295±30 MC; yıkım Sargon'un son yılından 3-15 yıl önce) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 100-104; Tablo 39 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «Sargon who destroyed Mari»",
+     "ic_not": "Yıkım Ebla yıkımından ~15-20 yıl sonra (metin 20 yıl seçtiğini söyler, Tablo 39 farkı 15 gösterir - ARCANE iç tutarsızlığı). Başlangıç KAYNAKLANMADI."
+    },
+    {
+     "sahip": "Babil I Hanedanı (Hammurabi)",
+     "bas_mo": 1761,
+     "son_mo": null,
+     "bas_hassasiyet": "Hammurabi yıl 32 = MC 1761 (EJ ikincil; kesin \"fetih/yıkım\" ayrımı yok)",
+     "gecis_kaynagi": "Hammurabi yıl 32 (MC 1761): Mari yenilir | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Mari, in the 32nd»",
+     "alinti": "Mari, in the 32nd",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)"
+    }
+   ],
+   "bosluk_notu": "Mari: Akad döneminde şakkanakku (general) hanedanı Akad'a bağlı mıydı (ARC s. 131: \"directly responsible to the king\") ve Ur III/Eski Asur/Šamši-Adad/Zimri-Lim dönemi sahip geçişleri KAYNAKLANMADI (Charpin & Ziegler 2003 kütüphanede)."
+  },
+  {
+   "sehir": "Halep (Halab / Beroia)",
+   "ad_yerel": "Ḥalab / Beroia",
+   "lat": 36.19941,
+   "lon": 37.1629,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 658409",
+     "lat": 36.1994053457,
+     "lon": 37.1628957376
+    },
+    {
+     "kaynak": "Wikidata Q41183 P625",
+     "lat": 36.2,
+     "lon": 37.16
+    },
+    {
+     "kaynak": "OSM Nominatim \"Aleppo Citadel\"",
+     "lat": 36.1995189,
+     "lon": 37.1629192
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.27 km; esas alınan: Pleiades 658409.",
+   "donemler": [],
+   "bosluk_notu": "Halep (Halab/Yamhad): bu oturumda akademik kaynakla okunabilen sayısal sahip zinciri BULUNAMADI. Yalnız Vikipedi türevi sayfalar (Yamhad ca. 1810-1600/1524, Mursili I Halep 1600) görüldü -> tek dayanak olamaz, YAZILMADI. Iranica Kassites (\"Agum ... received envoys of the king of Halaba\") dolaylıdır. kutuphane_gerekli: Klengel, Bryce, Yener 2013, Charpin."
+  },
+  {
+   "sehir": "Ebla",
+   "ad_yerel": "Ebla / Tell Mardikh",
+   "lat": 35.79806,
+   "lon": 36.79861,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 586301784 (Palace G at Ebla - bina düzeyi)",
+     "lat": 35.7979437687,
+     "lon": 36.7980108106
+    },
+    {
+     "kaynak": "Wikidata Q5743 P625",
+     "lat": 35.798056,
+     "lon": 36.798611
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.06 km; esas alınan: Wikidata Q5743 P625.",
+   "donemler": [
+    {
+     "sahip": "Ebla krallığı (EB IVA, Saray G dönemi)",
+     "bas_mo": null,
+     "son_mo": 2310,
+     "son_hassasiyet": "ca. 2310±30 (MC); Pepi I mühürlü kapak: ca. 2350 sonrası-ca. 2300",
+     "son_aralik_mo": [
+      2340,
+      2280
+     ],
+     "gecis_kaynagi": "KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "son_gecis_kaynagi": "Ebla Saray G'nin yıkımı: Pepi I mühürlü kapak buluntusuna göre ca. 2350 sonrası, ca. 2300'e doğru giderek daha olası (Tablo 39: ca. 2310±30 MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 96-99; Tablo 39 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «the destruction of Ebla's Royal Palace G could have taken place at any date after around 2350 BC»",
+     "ic_not": "Yıkıcı ARCANE Bölüm I'de adlandırılmaz. Başlangıç KAYNAKLANMADI. Ebla'nın Kiş kralı Sargon'a armağan göndermesi yıkımdan önceki 3-4 yıl (s. 97)."
+    }
+   ],
+   "bosluk_notu": "Ebla: Yıkım sonrası (Mardikh IIIA/IIIB, Eski Babil dönemi) sahip zinciri KAYNAKLANMADI. Archi bölümü (kronoloji) ARCANE Kısım II'dedir, PDF yalnız Kısım I içeriyor."
+  },
+  {
+   "sehir": "Susa",
+   "ad_yerel": "Šušan / Šuš",
+   "lat": 32.18993,
+   "lon": 48.25354,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 912936",
+     "lat": 32.1899344716,
+     "lon": 48.2535370543
+    },
+    {
+     "kaynak": "Wikidata Q4168823 (modern Shush kenti) P625",
+     "lat": 32.19417,
+     "lon": 48.24361
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 1.05 km; esas alınan: Pleiades 912936. Wikidata Shush kaydı modern kent merkezi; antik Susa höyükleri Pleiades noktasındadır.",
+   "donemler": [
+    {
+     "sahip": "Akad İmparatorluğu",
+     "bas_mo": null,
+     "son_mo": null,
+     "bas_hassasiyet": "Naramsuen döneminden itibaren Susa valileri (MC 2261-2206); Maništušu döneminde Elam/Pashime valileri (ARC s. 122)",
+     "son_hassasiyet": "Şarkalişarri'nin geç dönemi (MC 2205-2181)",
+     "bas_aralik_mo": [
+      2261,
+      2206
+     ],
+     "son_aralik_mo": [
+      2205,
+      2181
+     ],
+     "gecis_kaynagi": "Susa'da Akad egemenliği: Naramsuen/Şarkalişarri dönemi Klasik Sargonik arşivle belgeli (Susa'da Akadlı valiler) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 122-123 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «dating from the time of Naramsuen/Sharkalisharri that came from official organizations, including a military garrison»",
+     "alinti": "dating from the time of Naramsuen/Sharkalisharri that came from official organizations, including a military garrison",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Şarkalişarri'nin gücü azalırken Susa'da Epirmubi bağımsızlaşır (\"Elam şakkanakkumu\", üst efendi anılmaz) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 123 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «At Susa, this probably happened during the career of Epirmubi»"
+    },
+    {
+     "sahip": "Elam/Awan (Epirmubi; Puzur-İnşuşinak)",
+     "bas_mo": null,
+     "son_mo": null,
+     "bas_hassasiyet": "Şarkalişarri geç dönemi",
+     "son_hassasiyet": "Urnamma'nın saltanatının ilk yarısı",
+     "bas_aralik_mo": [
+      2205,
+      2181
+     ],
+     "son_aralik_mo": [
+      2110,
+      2102
+     ],
+     "gecis_kaynagi": "Şarkalişarri'nin gücü azalırken Susa'da Epirmubi bağımsızlaşır (\"Elam şakkanakkumu\", üst efendi anılmaz) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 123 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «At Susa, this probably happened during the career of Epirmubi»",
+     "alinti": "At Susa, this probably happened during the career of Epirmubi",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Urnamma \"Ur kralı\" unvanıyla (saltanatının ilk yarısı) Susa'yı yıkıp yağmalar; Awan hanedanının sonu olabilir | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 124-125 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «The destruction of Susa might have marked the end of the Dynasty of Awan and the beginning of the Dynasty of Shimashki in Elam»",
+     "ic_not": "Puzur-İnşuşinak'ın mutlak yeri ARCANE'ın açık bıraktığı sorun: Lagaş II ile çağdaş olabilir; Kısa kronoloji (Vallat) Awan hanedanı ca. 2400-2015."
+    },
+    {
+     "sahip": "Ur III eyaleti",
+     "bas_mo": null,
+     "son_mo": 2024,
+     "bas_hassasiyet": "Urnamma'nın saltanatının ilk yarısı",
+     "son_hassasiyet": "İbbi-Suen yıl 3 = MC 2024",
+     "bas_aralik_mo": [
+      2110,
+      2102
+     ],
+     "gecis_kaynagi": "Urnamma \"Ur kralı\" unvanıyla (saltanatının ilk yarısı) Susa'yı yıkıp yağmalar; Awan hanedanının sonu olabilir | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 124-125 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «The destruction of Susa might have marked the end of the Dynasty of Awan and the beginning of the Dynasty of Shimashki in Elam»",
+     "alinti": "The destruction of Susa might have marked the end of the Dynasty of Awan and the beginning of the Dynasty of Shimashki in Elam",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»"
+    },
+    {
+     "sahip": "Elam (Şimaşki, sukkalmah, Kidinuid, Igihalkid-Şutrukid, Yeni Elam)",
+     "bas_mo": 2024,
+     "son_mo": 539,
+     "bas_hassasiyet": "MC 2024: Susa Ur III'ten ayrılır; \"Elam hakimiyetine\" geçiş yılı Iranica'da Kısa kronolojiyle verilir (Ibbi-Sin Elam'da tutsak 1911) - 92 yıl FARKLI okul",
+     "son_hassasiyet": "Ahameniş fethi, \"perhaps by Cyrus in 539\"",
+     "gecis_kaynagi": "Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
+     "alinti": "in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa",
+     "kronoloji_okulu": "Orta (MC)",
+     "guven": "orta",
+     "kaynak_sinifi": "akademik-ikincil",
+     "son_gecis_kaynagi": "Susiana'nın (Elam'ın) Ahamenişler tarafından fethi, belki 539'da Kyros'la | Kaynak: Vallat, F., \"Elam i. The history of Elam\", Encyclopaedia Iranica VIII/3, 1998, s. 301-313 (rev. 2016), s. 301-313 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/elam-i | «the conquest of Susiana, thus of Elam, by the Achaemenids, perhaps by Cyrus in 539»",
+     "ic_not": "KRONOLOJİ ÇELİŞKİSİ: ARCANE (MC) Ur yıkımı 2003, Vallat Elam i (1998) \"brought an end to the empire of Ur in 2004\" (önceki dalga alıntısı), Vallat Susa II (2008, Kısa kronoloji) Ibbi-Sin 1911'de tutsak. Assurbanipal Susa yağması: Susa II 647, Elam i 646 (1 yıl fark); yağma sahip değiştirmedi. Vallat Susa II: \"Cyrus the Great's seizure of power in 539 BCE\"."
+    },
+    {
+     "sahip": "Ahameniş İmparatorluğu",
+     "bas_mo": 539,
+     "son_mo": 331,
+     "bas_hassasiyet": "Iranica: \"perhaps\"",
+     "son_hassasiyet": "İskender'e teslim (klasik anlatıya göre 331 sonu; tarih bu oturumda kaynaklanmadı)",
+     "gecis_kaynagi": "Susiana'nın (Elam'ın) Ahamenişler tarafından fethi, belki 539'da Kyros'la | Kaynak: Vallat, F., \"Elam i. The history of Elam\", Encyclopaedia Iranica VIII/3, 1998, s. 301-313 (rev. 2016), s. 301-313 | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/elam-i | «the conquest of Susiana, thus of Elam, by the Achaemenids, perhaps by Cyrus in 539»",
+     "alinti": "the conquest of Susiana, thus of Elam, by the Achaemenids, perhaps by Cyrus in 539",
+     "kronoloji_okulu": "mutlak",
+     "guven": "düşük",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Susa İskender'e teslim olur; İskender 50.000 talent gümüş bulur (Quintus Curtius 5.10; tarih bu oturumda kaynaklanmadı, klasik anlatıya göre 331 sonu) | Kaynak: Boucharlat, R., \"Susa iii. The Achaemenid period\", Encyclopaedia Iranica (2009, rev. 2015) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/susa-iii-the-achaemenid-period | «at the surrender of the city Alexander found there 50,000 talents of silver»"
+    }
+   ],
+   "bosluk_notu": "Susa I-IV tabaka sınırları (2. dalga bulunamadı listesi): Iranica \"Susa i Prehistoric\" ve DAFI/Le Brun bu oturumda da ULAŞILAMADI (slug arşivlenmemiş / Cloudflare 403). Susa 331-141 (Seleukos: \"Seleucia on the Eulaeus\", Livius) sayısal geçişler KAYNAKLANMADI.",
+   "veri_noktalari": [
+    {
+     "mo": 4000,
+     "olay": "Susa'nın kuruluşu ca. 4000 (Vallat, Elam i)",
+     "kaynak": "Vallat Elam i | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/elam-i | «from its foundation ca. 4000 B.C.E., alternated between subjection to Mesopotamian and Elamite power»"
+    },
+    {
+     "mo": 646,
+     "olay": "Aššurbanipal Susa'yı yağmalar (Elam i: 646; Susa II: 647) - sahip değişimi değil",
+     "kaynak": "Vallat Elam i / Susa II (Iranica) - bkz. ic_not"
+    }
+   ]
+  },
+  {
+   "sehir": "Anşan",
+   "ad_yerel": "Anšan / Tal-e Malyan",
+   "lat": 30.00322,
+   "lon": 52.41036,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 922729 (Tal-i Malyan)",
+     "lat": 30.0032156667,
+     "lon": 52.4103596667
+    },
+    {
+     "kaynak": "Wikidata Q569107 P625",
+     "lat": 30.01167,
+     "lon": 52.40778
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.97 km; esas alınan: Pleiades 922729 (Tal-i Malyan). Anşan = Tal-e Malyan eşleşmesi Iranica'ya göre (Hansman; Lambert; Reiner).",
+   "donemler": [
+    {
+     "sahip": "Pers (Ahameniş atası) yönetimi - Anşan kralları",
+     "bas_mo": null,
+     "son_mo": null,
+     "bas_hassasiyet": "Neo-Elam III (585-539) içinde; Vallat başlangıç yılı vermez",
+     "gecis_kaynagi": "Neo-Elam III döneminde (585-539) \"Anşan şehri üzerinde ilk Ahamenişler\" hükmeder | Kaynak: Vallat, F., \"Elam i. The history of Elam\", Encyclopaedia Iranica VIII/3, 1998, s. 301-313 (rev. 2016) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/elam-i | «and the first Achaemenids over the city of Anshan»",
+     "alinti": "and the first Achaemenids over the city of Anshan",
+     "kronoloji_okulu": "Vallat (Iranica)",
+     "guven": "düşük",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)",
+     "ic_not": "ABC 7 ii.1: Astyages \"Cyrus, king of Anšan\"a karşı yürür (550/549) -> 550'de Anşan Pers/Kyros krallığıdır."
+    }
+   ],
+   "bosluk_notu": "Anşan: Elam (Awan, Şimaşki, sukkalmah, Igihalkid) içindeki yeri sayısal geçişle KAYNAKLANMADI. Veri noktaları: Maništušu Anşan'ı fetheder (ARC s. 122, MC 2284-2262 arası), Ur III ile evlilik ittifakı (Şulgi yıl 30), Gungunum yıl 5 \"Anšan was destroyed\" (CDLI, MC ~1928) - bunlar fetih/akın, kalıcı sahip değişimi değil.",
+   "veri_noktalari": [
+    {
+     "mo": 1928,
+     "olay": "Gungunum yıl 5: \"Anšan was destroyed\" (MC 1932 yıl 1 -> yıl 5)",
+     "kaynak": "CDLI Gungunum yıl adları | https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_gungunum | «Anšan was destroyed»"
+    },
+    {
+     "mo": 550,
+     "olay": "Nabonidus yıl 6: Kyros \"Anşan kralı\"",
+     "kaynak": "Nabonidus yıl 6 (550/549): Astyages \"Anşan kralı\" Kyros'a karşı yürür; Kyros Ekbatana'yı alır | Kaynak: Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi, sütun ii.1-4 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/ | «marched against Cyrus, king of Anšan, for conquest»"
+    }
+   ]
+  },
+  {
+   "sehir": "Pasargad",
+   "ad_yerel": "Pāsārgād",
+   "lat": 30.19522,
+   "lon": 53.17432,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 922693",
+     "lat": 30.1952191647,
+     "lon": 53.1743200402
+    },
+    {
+     "kaynak": "Wikidata Q230025 P625",
+     "lat": 30.2,
+     "lon": 53.179444444444
+    },
+    {
+     "kaynak": "OSM Nominatim",
+     "lat": 30.2016523,
+     "lon": 53.1786632
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.83 km; esas alınan: Pleiades 922693.",
+   "donemler": [
+    {
+     "sahip": "Ahameniş İmparatorluğu (Kyros II)",
+     "bas_mo": 546,
+     "son_mo": 330,
+     "bas_hassasiyet": "İNŞAAT BAŞLANGICI aralığı 546-530; Strabon 550 zaferi sonrası kuruluş der (550/549 = Ekbatana alınışı)",
+     "son_hassasiyet": "330 başı İskender'e teslim",
+     "gecis_kaynagi": "Arkeolojiye göre büyük inşaat 546-530 arası | Kaynak: Stronach, D. & Gopnik, H., \"Pasargadae\", Encyclopaedia Iranica (2009, rev. 2017) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/pasargadae | «most major construction at the site took place between 546 and 530 BCE»",
+     "alinti": "most major construction at the site took place between 546 and 530 BCE",
+     "kronoloji_okulu": "arkeoloji+klasik anlatı",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Pasargad hazinesi 330 başında İskender'e bozulmadan teslim edilir (Arrianos 3.18.10) | Kaynak: Stronach, D. & Gopnik, H., \"Pasargadae\", Encyclopaedia Iranica (2009, rev. 2017) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/pasargadae | «surrendered to Alexander, in an intact state (Arr. 3.18.10), early in 330 BCE»",
+     "ic_not": "Kuruluş tarihi Iranica'da tek yıl olarak verilmez; \"Kyros saltanatı 559-530\". 2. dalga bulunamadı listesindeki \"Pasargad kuruluş yılı\" soruna karşılık: 546-530 (inşaat), 550'den sonra (Strabon)."
+    },
+    {
+     "sahip": "Makedon/Seleukos denetimi",
+     "bas_mo": 330,
+     "son_mo": 280,
+     "son_hassasiyet": "Seleukos I'in ölümünü (Iranica: 280) izleyen ayaklanma; Seleukos I MÖ 281'de ölür - Iranica sayısı 280",
+     "gecis_kaynagi": "Pasargad hazinesi 330 başında İskender'e bozulmadan teslim edilir (Arrianos 3.18.10) | Kaynak: Stronach, D. & Gopnik, H., \"Pasargadae\", Encyclopaedia Iranica (2009, rev. 2017) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/pasargadae | «surrendered to Alexander, in an intact state (Arr. 3.18.10), early in 330 BCE»",
+     "alinti": "surrendered to Alexander, in an intact state (Arr. 3.18.10), early in 330 BCE",
+     "kronoloji_okulu": "sikke buluntuları",
+     "guven": "düşük",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Seleukos I'in ölümünü (280) izleyen yerel ayaklanmaya dek Yunan denetiminde kaldığı sanılır (sikke definesi) | Kaynak: Stronach, D. & Gopnik, H., \"Pasargadae\", Encyclopaedia Iranica (2009, rev. 2017) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/pasargadae | «remained under Greek control down to the moment of a local uprising that followed the death of Seleucus I in 280 BC»"
+    }
+   ],
+   "bosluk_notu": "Pasargad: 280 sonrası yerel yönetim ve Part dönemi KAYNAKLANMADI. Çatışma: Iranica \"Seleucus I ... in 280 BC\" (Ekbatana maddesi Seleukos I 305-281 verir)."
+  },
+  {
+   "sehir": "Persepolis",
+   "ad_yerel": "Pārsa / Takht-e Jamshid",
+   "lat": 29.9352,
+   "lon": 52.89043,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 922695",
+     "lat": 29.9351972978,
+     "lon": 52.8904279399
+    },
+    {
+     "kaynak": "Wikidata Q129072 P625",
+     "lat": 29.935,
+     "lon": 52.89
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.05 km; esas alınan: Pleiades 922695.",
+   "donemler": [
+    {
+     "sahip": "Ahameniş İmparatorluğu (Darius I kalesi)",
+     "bas_mo": 518,
+     "son_mo": 330,
+     "bas_hassasiyet": "ca. 518 (Iranica \"In about 518 BCE\"); Pārsa şehri geç 6. yy'da kurulmuş, anıtsal yapılar başlamıştı",
+     "son_hassasiyet": "330, İskender'ce yağma ve yangın",
+     "gecis_kaynagi": "Darius I Pārsa şehrinin kalesi olarak \"Kraliyet Tepesi\" yamacını seçer ve Persepolis terasını başlatır (ca. 518) | Kaynak: Shahbazi, A. Sh., \"Persepolis\", Encyclopaedia Iranica (2009) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/persepolis | «In about 518 BCE, Darius the Great (r. 522-486 BCE) chose a promontory of the»",
+     "alinti": "In about 518 BCE, Darius the Great (r. 522-486 BCE) chose a promontory of the",
+     "kronoloji_okulu": "mutlak (yaklaşık)",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Persepolis İskender'ce yağmalanıp yakılır (330) | Kaynak: Shahbazi, A. Sh., \"Persepolis\", Encyclopaedia Iranica (2009) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/persepolis | «maintained until 330 BCE, when they were looted and burnt by Alexander of Macedon»",
+     "ic_not": "2. dalga bulunamadı listesindeki \"Persepolis terasının kuruluşu (MÖ ~518-515)\": Iranica (Shahbazi) \"ca. 518\" yazar; 515 aralığı bulunamadı. İkinci tanık: Vallat Iranica Elam i \"Persepolis, founded by Darius himself\" (kuruluşu Darius'a atfeder, yıl yok). Persepolis Fortification Archive'in en eski tarihli belgesi 509 (önceki dalga notu; bu oturumda yeniden doğrulanmadı)."
+    }
+   ],
+   "bosluk_notu": "Persepolis: 330 sonrası (Makedon, Seleukos, Pers Fratarakā) KAYNAKLANMADI. Pārsa şehrinin Ahameniş öncesi sahibi (Anşan/Elam?) KAYNAKLANMADI.",
+   "veri_noktalari": [
+    {
+     "mo": 520,
+     "olay": "Geç 6. yy: Persler Marvdasht ovasında Pārsa şehrini kurmuş, Pers kralları anıtsal yapılar başlatmıştı",
+     "kaynak": "Geç MÖ 6. yy: Persler Marvdasht ovasında Pārsa şehrini kurmuş, Pers kralları anıtsal yapılara başlamıştır | Kaynak: Shahbazi, A. Sh., \"Persepolis\", Encyclopaedia Iranica (2009) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/persepolis | «By the late 6th century BCE, the Persian settlers had founded their own city»"
+    }
+   ]
+  },
+  {
+   "sehir": "Ekbatana",
+   "ad_yerel": "Hagmatāna / Hamadan (Tepe Hegmataneh)",
+   "lat": 34.80556,
+   "lon": 48.51641,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 903021",
+     "lat": 34.80555515,
+     "lon": 48.51640575
+    },
+    {
+     "kaynak": "Wikidata Q696193 P625",
+     "lat": 34.8065,
+     "lon": 48.516247
+    },
+    {
+     "kaynak": "OSM Nominatim \"Tepe Hegmataneh\"",
+     "lat": 34.8038334,
+     "lon": 48.5182706
+    }
+   ],
+   "konum_not": "Tanıklar arası en büyük fark 0.35 km; esas alınan: Pleiades 903021.",
+   "donemler": [
+    {
+     "sahip": "Med Devleti (Herodotos geleneği)",
+     "bas_mo": 700,
+     "son_mo": 550,
+     "bas_hassasiyet": "\"geç 8. yy\" (Herodotos 1.98); Iranica daha eski iskân için kanıt yok der; ÇELİŞKİ: Grantovskiy (Rusça, Iranica aracılığıyla, önceki dalga) Deiokes 672/671",
+     "son_hassasiyet": "Nabonidus yıl 6 = 550/549",
+     "gecis_kaynagi": "Herodotos geleneği: Ekbatana Med başkenti olarak 8. yy sonlarında Deiokes'çe seçilir (Iranica: daha eski iskân için tarihsel/arkeolojik kanıt yok) | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «Ecbatana was chosen as the Median capital in the late 8th century B.C.E. by Deioces»",
+     "alinti": "Ecbatana was chosen as the Median capital in the late 8th century B.C.E. by Deioces",
+     "kronoloji_okulu": "Herodotos geleneği / Grantovskiy",
+     "guven": "düşük",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Nabonidus yıl 6 (550/549): Kyros II Astyages'i yener, Ekbatana'yı alır, hazinesini Anşan'a götürür | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «records that Cyrus II defeated Astyages, captured Ecbatana, and removed its treasury to Anshan»",
+     "ic_not": "Med başkentinin arkeolojik kanıtı tartışmalı; Iranica: Mosalla Part dönemi, Tell Hagmatana höyüğü Med kalesi adayı."
+    },
+    {
+     "sahip": "Ahameniş İmparatorluğu (yazlık başkent, hazine)",
+     "bas_mo": 550,
+     "son_mo": 328,
+     "bas_hassasiyet": "550/549",
+     "son_hassasiyet": "EN GEÇ 328 (Atropates ataması); İskender'in Ekbatana'ya girişi 330 klasik anlatı - bu oturumda kaynaklanmadı",
+     "gecis_kaynagi": "Nabonidus yıl 6 (550/549): Kyros II Astyages'i yener, Ekbatana'yı alır, hazinesini Anşan'a götürür | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «records that Cyrus II defeated Astyages, captured Ecbatana, and removed its treasury to Anshan»",
+     "alinti": "records that Cyrus II defeated Astyages, captured Ecbatana, and removed its treasury to Anshan",
+     "kronoloji_okulu": "mutlak (kronik yılı)",
+     "guven": "orta",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "İskender 328'de Medya satrapı Oxydates'i Atropates ile değiştirir -> Makedon denetimi en geç 328 | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «In 328 B.C.E., Alexander replaced Oxydates with Atropates as satrap of Media»"
+    },
+    {
+     "sahip": "Makedon/Diadokh dönemi (Peithon; Antigonos 316'da kışlar)",
+     "bas_mo": 328,
+     "son_mo": null,
+     "bas_hassasiyet": "EN GEÇ",
+     "son_hassasiyet": "Seleukos I saltanatı içinde",
+     "son_aralik_mo": [
+      305,
+      281
+     ],
+     "gecis_kaynagi": "İskender 328'de Medya satrapı Oxydates'i Atropates ile değiştirir -> Makedon denetimi en geç 328 | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «In 328 B.C.E., Alexander replaced Oxydates with Atropates as satrap of Media»",
+     "alinti": "In 328 B.C.E., Alexander replaced Oxydates with Atropates as satrap of Media",
+     "kronoloji_okulu": "klasik anlatı",
+     "guven": "düşük",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»"
+    },
+    {
+     "sahip": "Seleukos İmparatorluğu",
+     "bas_mo": null,
+     "son_mo": 148,
+     "bas_hassasiyet": "Seleukos I saltanatı içinde",
+     "son_hassasiyet": "Mithradates I Medya'yı fetheder (Justinus 41.6.7, Livius aktarımı)",
+     "bas_aralik_mo": [
+      305,
+      281
+     ],
+     "gecis_kaynagi": "Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»",
+     "alinti": "The city later fell to Seleucus I Nicator (305-281 B.C.E.)",
+     "kronoloji_okulu": "klasik anlatı",
+     "guven": "düşük",
+     "kaynak_sinifi": "ansiklopedi",
+     "son_gecis_kaynagi": "Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»",
+     "ic_not": "Antiochus IV Epiphanes (175-164) şehri Epiphaneia olarak yeniden adlandırır (Iranica)."
+    },
+    {
+     "sahip": "Part İmparatorluğu",
+     "bas_mo": 148,
+     "son_mo": null,
+     "bas_hassasiyet": "Medya'nın fethi; Ekbatana'ya özel tarih kaynaklanmadı",
+     "gecis_kaynagi": "Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»",
+     "alinti": "Mithradates conquered Media in 148 BCE and appointed Bacasis as governor",
+     "kronoloji_okulu": "mutlak",
+     "guven": "düşük",
+     "kaynak_sinifi": "veri-tabani",
+     "son_gecis_kaynagi": "KAYNAKLANMADI (bitiş için kaynak yok / zincir açık)"
+    }
+   ],
+   "bosluk_notu": "Ekbatana: Med öncesi dönem ve İskender'in Ekbatana'yı alış yılı KAYNAKLANMADI; Part fethinin Ekbatana'ya özel tarihi KAYNAKLANMADI."
+  }
+ ],
+ "celiskiler": [
+  {
+   "konu": "Urnamma yıl 1",
+   "iddialar": [
+    "ARCANE III Tablo 39: MC 2110 (MC II: 2102)",
+    "Livius.org Ur sayfası: r. 2112-2095 \"Middle Chronology\"; Livius CM 48 dipnotu 2113-2095"
+   ],
+   "karar": "ARCANE esas; Livius taşıyıcıdır, 2-3 yıl farklı MC varyantı kullanıyor."
+  },
+  {
+   "konu": "Ur III sonu / Ur yıkımı",
+   "iddialar": [
+    "ARCANE (MC): 2003, MC II: 1995",
+    "Vallat Iranica Elam i (1998, önceki dalga alıntısı): 2004",
+    "Vallat Iranica Susa ii (2008, KISA kronoloji, Gasche vd. 1998): Ibbi-Sin Elam'da tutsak 1911"
+   ],
+   "karar": "Orta kronoloji (ARCANE) esas; Kısa kronoloji değerleri ayrıca etiketlendi, ortası ALINMADI."
+  },
+  {
+   "konu": "Hammurabi saltanatı",
+   "iddialar": [
+    "ARCANE/EJ (MC): 1792-1750",
+    "Vallat Susa ii (Kısa kronoloji): 1696-1654"
+   ],
+   "karar": "Orta kronoloji; fark ~96 yıl."
+  },
+  {
+   "konu": "Babil I sonu",
+   "iddialar": [
+    "ARCANE MC: 1595/1597 (MC II 1587/89)",
+    "Gasche vd. 1998 (Iranica Kassites aktarımı): ca. 1499"
+   ],
+   "karar": "MC esas."
+  },
+  {
+   "konu": "Aššurbanipal'ın Susa yağması",
+   "iddialar": [
+    "Vallat Iranica Susa ii: 647",
+    "Vallat Iranica Elam i: 646"
+   ],
+   "karar": "İkisi de aynı yazarın iki maddesi; 646/647 beyan edildi, sahip değiştirmediği için geçiş yazılmadı."
+  },
+  {
+   "konu": "Sippar'ın düşüş günü (539)",
+   "iddialar": [
+    "Livius ABC 7 çevirisi: Tašritu 14",
+    "Livius Opis sayfası: \"15. gün [12 Ekim]\""
+   ],
+   "karar": "Aynı site iki farklı gün verir; Grayson okuyuşu 14. gün. Julian karşılığı doğrulanmadı, yıl hassasiyeti (539) önerilir."
+  },
+  {
+   "konu": "Šamši-Adad I",
+   "iddialar": [
+    "ARCANE Tablo 38: 1808-1776 (Barjamovic vd. 2012)",
+    "Livius Aşşur: r.1813-1781?"
+   ],
+   "karar": "ARCANE esas."
+  },
+  {
+   "konu": "Rim-Sin I İsin'i alışı",
+   "iddialar": [
+    "CDLI yıl adları: yıl 29/30 -> MC 1794-1793",
+    "ARCANE Tablo 38: Damiqilişu son yılı 1794"
+   ],
+   "karar": "1 yıl fark; yıl 30 hesabı 1793."
+  },
+  {
+   "konu": "Ebla-Mari yıkımları arası süre",
+   "iddialar": [
+    "ARCANE Tablo 39: 2310 / 2295 (fark 15)",
+    "ARCANE metin: 15-20 yıl, \"20 yıl seçildi\""
+   ],
+   "karar": "ARCANE iç tutarsızlığı; ikisi de beyan."
+  },
+  {
+   "konu": "Dura-Europos Part fethi",
+   "iddialar": [
+    "Iranica (Leriche): ca. 113",
+    "Livius: \"140'larda Part eline geçti\""
+   ],
+   "karar": "Iranica esas, Livius taşıyıcı."
+  },
+  {
+   "konu": "Seleukos I'in ölümü",
+   "iddialar": [
+    "Iranica Pasargadae: 280",
+    "Iranica Ecbatana: Seleukos I 305-281"
+   ],
+   "karar": "Aynı ansiklopedide iki yıl; her ikisi beyan."
+  },
+  {
+   "konu": "Med devletinin başlangıcı / Ekbatana",
+   "iddialar": [
+    "Herodotos geleneği (Iranica Ecbatana; Medvedskaya-Dandamayev): Deiokes ~700, \"geç 8. yy\"",
+    "Grantovskiy 1998 (Rusça, Iranica aracılığıyla; önceki dalga): ca. 672/671"
+   ],
+   "karar": "İkisi de yazıldı; Iranica Ecbatana daha eski iskân için kanıt olmadığını belirtir."
+  },
+  {
+   "konu": "Gungunum saltanat uzunluğu",
+   "iddialar": [
+    "ARCANE Tablo 38: 1932-1907 (26 yıl)",
+    "CDLI: 28 yıl adı listelenir"
+   ],
+   "karar": "ARCANE esas; \"yıl sonrası\" adları ihtimali."
+  }
+ ],
+ "bulunamadi": [
+  "Susa I-IV tabaka sınırları (MÖ yıl): Iranica \"Susa i. Prehistoric periods\" (Wayback ve doğrudan 403/arşivsiz), Le Brun DAFI/MDP ciltleri ve Matthews vd. 2025 tam metni bu oturumda yeniden denendi; yalnızca Vallat Iranica Elam i \"ca. 4000 kuruluş / ca. 3200 proto-Elam tabletleri / proto-Elam yazısı ca. 2700'e dek\" bulundu. DENENEN: iranicaonline.org (Cloudflare 403), web.archive.org/…/susa-i-prehistoric-periods, /susa-i, WebSearch (Wikipedia aynaları dışında kaynak çıkmadı; italyanca BTA PDF \"Susa IVB ca. 2350-2150\" tek kaynaksız).",
+  "Pasargad için kuruluşun tek yılı ve Kyros'un \"Pers kralı\" olduğu yılın (559) bağımsız ikinci kaynağı (Briant 1996, Iranica \"Cyrus ii\"): slug arşivlenmemiş (Wayback 404).",
+  "Persepolis terasının 515 ucu / kuruluşun yazılı kanıtı: Iranica yalnız \"ca. 518\" verir.",
+  "Namazga-Depe tabakalarının (Namazga III-V) kendi kalibre kronolojisi; Doluchanov-Shchetenko-Tosi 1985 ve Popov 14C incelemesi (Kircho 2005 Tab. 4, Ek 2): okunamadı. Yalnız Altyn-Depe mezar kompleksleri için Kircho İngilizce sonucu alındı.",
+  "Gonur Depe için BİRİNCİL kalibre tablo (Lyonnet & Dubova 2021a Ek 1; Dubova/Sarianidi Rusça yayınları): açık erişimli metin bulunamadı. Arciero 2024 tezi (Leiden) ikincil aktarım olarak kullanıldı.",
+  "Ur, Uruk, Eridu, Girsu, Umma, Kiş, Nippur için ED I-IIIb şehir-özel kuruluş/bağımsızlık tarihleri: Marchesi (ARCANE Kısım II, s. 139-156) PDF'te yok (indirilen dosya yalnız Kısım I + kaynakça).",
+  "Mari ve Ebla'nın Akad sonrası sahip zinciri; Halep/Yamhad'ın tüm zinciri (akademik kaynak okunamadı; Vikipedi türevleri kullanılmadı).",
+  "Kalhu (Nimrud) ve Dur-Şarrukin'in kuruluş/düşüş yılları: Met Museum denemeleri WebFetch'te 429, OIP 40 (Khorsabad II) PDF'i isac.uchicago.edu'dan Anubis/HTML verdi; Wayback kopyası 5 MB'ta kesik.",
+  "İskender'in Babil (331), Susa (331/330), Ekbatana (330) alışlarının günü ve birincil kaynağı: Arrianos/Curtius/Astronomik Günlük -330 okunmadı; yalnız Livius özeti ve Iranica atıfları.",
+  "Hammurabi yıl adları tam listesi: CDLI Wiki \"year_names_hammurabi\" Wayback kopyası boş; yıl 30/32 yalnız Encyclopaedia Judaica (Gale) özetinden.",
+  "Seleukeia'nın kuruluş yılı (kesin) ve Opis'in ikinci konum tanığı; Ktesiphon'un kuruluş yılı.",
+  "Cyrus Cylinder, Nabonidus Chronicle Julian gün çevirileri (Parker-Dubberstein/Iranica \"Babylonian Chronicles\"): Iranica 403, doğrulanmadı.",
+  "Çoklu dil yönergesi: bu dalgada ORİJİNAL Fransızca (Briant, DAFI/MDP), Almanca (RlA), Rusça (Dyakonov, Sarianidi), Farsça kaynak okunamadı; tek istisna Kircho 2005'in İngilizce sonucu. Okunanlar İngilizce akademik ikincil metinlerdir."
+ ],
+ "kutuphane_gerekli": [
+  {
+   "eser": "Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (ISBN 978-2-503-53494-7) - Kısım II: Marchesi (Erken Hanedan şehir hükümdarları tabloları), Archi (Ebla kronolojisi), De Graef (Susa MC 2110-1980), Pomponio (Adab), Schrakamp (coğrafya), Sommerfeld, Steinkeller (Gutium)",
+   "url": "http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+   "neden_gerekli": "indirilen PDF yalnız Kısım I; şehir-özel ED dönem tarihleri, Ebla/Susa/Adab kronolojisi Kısım II'de"
+  },
+  {
+   "eser": "Charpin, D. 2004, \"Histoire politique du Proche-Orient amorrite (2002-1595)\", Mesopotamien: Die altbabylonische Zeit, OBO 160/4, Fribourg",
+   "url": "",
+   "neden_gerekli": "İsin-Larsa-Babil geçişlerinin (Ur, Uruk, Nippur, Kiş, Sippar) şehir bazlı yıl-adı çözümü; Ur'un Larsa'ya geçiş yılı (Gungunum 10 yıl-adı kanıtı fetih mi?)"
+  },
+  {
+   "eser": "Horsnell, M. J. A. 1999, The Year-Names of the First Dynasty of Babylon, McMaster Univ. Press",
+   "url": "",
+   "neden_gerekli": "Hammurabi yıl 30/32 tam yıl adı metinleri (CDLI Wiki sayfası boş)"
+  },
+  {
+   "eser": "Van de Mieroop, M. 1992, Society and Enterprise in Old Babylonian Ur; ve Collège de France, D. Charpin ders özetleri \"The city of Ur in Paleo-Babylonian times\" / \"Mesopotamia under Hammu-rabi's successors: the great revolt\"",
+   "url": "https://www.college-de-france.fr/en/agenda/lecture/the-city-of-ur-in-paleo-babylonian-times/babylonian-domination-and-its-end",
+   "neden_gerekli": "Babil I'in Ur ve Uruk'taki sonu, Rim-Anum'un Uruk'ta bağımsızlığı (arama listesinde görüldü, sayfa açılmadı)"
+  },
+  {
+   "eser": "Brinkman, J. A. 1976-80 \"Kassiten\" RlA 5; 1968 A Political History of Post-Kassite Babylonia; Boese 1982 UF 14; Gasche vd. 1998 Dating the Fall of Babylon (Akkadica Suppl. 4)",
+   "url": "",
+   "neden_gerekli": "Kassit başlangıç/Deniz Ülkesi sonu (ca. 1465), Babil I sonrası boşluk, Kısa kronoloji değerleri - Zadok (Iranica) aktarımının birincil dayanağı"
+  },
+  {
+   "eser": "Le Brun, A. 1978 \"Suse, Chantier Acropole 1\", Paléorient 4; Le Brun 2020 Suse: sondage stratigraphique de l'Acropole I, couches 21 à 18 (CNRS)",
+   "url": "https://www.mshmondes.cnrs.fr/?p=3030",
+   "neden_gerekli": "Susa I-II tabaka sınırları ve 14C tarihleri"
+  },
+  {
+   "eser": "Lyonnet, B. & Dubova, N. A. 2021, The World of the Oxus Civilization (Routledge) - Ek 1 (BMAC 14C değerlendirmesi); Lyonnet & Dubova 2021b s. 32",
+   "url": "",
+   "neden_gerekli": "Gonur BMAC kalibre 14C tablosunun birincil hali; Arciero 2024 tezindeki aktarımın doğrulanması"
+  },
+  {
+   "eser": "Doluchanov, P. M., Shchetenko, A. Ya., Tosi, M. 1985 \"Seriya radiouglerodnykh datirovok naslayeniy epokhi bronzy na Namazga-depe\" (Namazga-Depe Tunç Çağı 14C serisi); Popov, S. in Kircho 2005 Tab. 4 / Ek 2 (Rusça)",
+   "url": "https://keibi.uni-tuebingen.de/Record/KEI00061161",
+   "neden_gerekli": "Namazga-Depe ve Altyn-Depe için ham 14C ve kalibrasyon tabloları"
+  },
+  {
+   "eser": "Loud, G. & Altman, C. B. 1938, Khorsabad II: The Citadel and the Town, OIP 40 (Chicago)",
+   "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip40.pdf",
+   "neden_gerekli": "Dur-Şarrukin kuruluş/terk tarihleri (indirme Anubis ile engelli, Wayback kopyası kesik)"
+  },
+  {
+   "eser": "Arrianos, Anabasis 3.16 (Babil), 3.16.6-7 (Susa), 3.19 (Ekbatana); Curtius Rufus 5.2, 5.10; Sachs & Hunger 1988 Astronomical Diaries vol. I (-330)",
+   "url": "",
+   "neden_gerekli": "İskender'in şehirleri alış tarihleri (Livius özetinden öteye)"
+  },
+  {
+   "eser": "Sachs, A. J. & Hunger, H. 1996 Astronomical Diaries and Related Texts from Babylonia vol. III (-140); van der Spek, R. J. 1997/8 (Livius dipnotu \"van der Spek 1997/8: 171\")",
+   "url": "",
+   "neden_gerekli": "Part Babilonya fethi (141) için birincil günlük; Livius yalnız aktarıyor"
+  },
+  {
+   "eser": "Klengel, H. 1992 Syria 3000 to 300 BC; Bryce, T. 2005 The Kingdom of the Hittites; Yener, K. A. 2013 (Alalakh); Charpin & Ziegler 2003 Mari et le Proche-Orient à l'époque amorrite; Margueron 2004 Mari: métropole de l'Euphrate",
+   "url": "",
+   "neden_gerekli": "Halep/Yamhad, Ebla sonrası, Mari ve Šamši-Adad / Zimri-Lim sahip zincirleri"
+  },
+  {
+   "eser": "Barjamovic, G., Hertel, T., Larsen, M. T. 2012, Ups and Downs at Kanesh, Leiden (REL); Radner, K. Assyrian Empire kronolojisi",
+   "url": "",
+   "neden_gerekli": "Orta Asur başlangıcı, Mitanni tabiliği, Kalhu başkentliği (879) ve Yeni Asur tarihleri"
+  },
+  {
+   "eser": "Stolper, M. W. 1984 Texts from Tall-i Malyan I; Carter & Stolper 1984 Elam; Potts 1999/2016 The Archaeology of Elam",
+   "url": "",
+   "neden_gerekli": "Anşan sahip zinciri (Elam, Pers) ve Susa I-IV"
+  },
+  {
+   "eser": "Invernizzi, A. Seleucia on the Tigris (kazı raporları); Hopkins 1972 Seleucia; Leriche, P. ve Mission franco-syrienne Doura-Europos (Syria 1986-1992)",
+   "url": "",
+   "neden_gerekli": "Seleukeia ve Dura-Europos için kuruluş/Part fethi tarihlerinin birincil kaynakları"
+  }
+ ],
+ "kaynak_katalogu": {
+  "ARC": {
+   "atif": "Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC)",
+   "url": "http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+   "sinif": "akademik-ikincil",
+   "dil": "Ingilizce"
+  },
+  "ABC1b": {
+   "atif": "Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 1 (Nabu-nasir > Esarhaddon); Livius.org ceviri-tasiyicisi",
+   "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce (Akadca cevirisi)"
+  },
+  "ABC3": {
+   "atif": "Grayson 1975, ABC 3 (Fall of Nineveh Chronicle); Livius.org ceviri-tasiyicisi",
+   "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce (Akadca cevirisi)"
+  },
+  "ABC7": {
+   "atif": "Grayson 1975, ABC 7 (Nabonidus Chronicle); Livius.org ceviri-tasiyicisi",
+   "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce (Akadca cevirisi)"
+  },
+  "ABC14": {
+   "atif": "Grayson 1975, ABC 14 (Esarhaddon Chronicle); Livius.org ceviri-tasiyicisi",
+   "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-14-esarhaddon-chronicle/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce (Akadca cevirisi)"
+  },
+  "BCHP3": {
+   "atif": "Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari",
+   "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce (Akadca cevirisi)"
+  },
+  "CM4": {
+   "atif": "Babylonian King List of the Hellenistic Period (BM 35603), van der Spek okumasi; Livius.org",
+   "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/babylonian-king-list-of-the-hellenistic-period/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce"
+  },
+  "CM48": {
+   "atif": "CM 48 (Kings of Ur), Uruk 251 MO kopyasi; Glassner 2004 numaralandirmasi; Livius.org",
+   "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/cm-48-kings-of-ur/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce"
+  },
+  "LIV_BAG": {
+   "atif": "Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171",
+   "url": "https://livius.org/articles/person/bagayasha",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce"
+  },
+  "LIV_SEL": {
+   "atif": "Lendering, J., Livius.org: Seleucia on the Tigris",
+   "url": "https://www.livius.org/articles/place/seleucia-on-the-tigris/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce"
+  },
+  "LIV_OPIS": {
+   "atif": "Lendering, J., Livius.org: Opis",
+   "url": "https://www.livius.org/articles/place/opis/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce"
+  },
+  "LIV_UR": {
+   "atif": "Lendering, J., Livius.org: Ur",
+   "url": "https://www.livius.org/articles/place/ur/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce"
+  },
+  "LIV_BAB": {
+   "atif": "Lendering, J., Livius.org: Babylon",
+   "url": "https://www.livius.org/articles/place/babylon/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce"
+  },
+  "LIV_ASSUR": {
+   "atif": "Lendering, J., Livius.org: Assur",
+   "url": "https://www.livius.org/articles/place/assur/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce"
+  },
+  "LIV_DURA": {
+   "atif": "Lendering, J., Livius.org: Dura Europos",
+   "url": "https://www.livius.org/articles/place/dura-europos/",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce"
+  },
+  "IR_ELAM1": {
+   "atif": "Vallat, F., \"Elam i. The history of Elam\", Encyclopaedia Iranica VIII/3, 1998, s. 301-313 (rev. 2016)",
+   "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/elam-i",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "IR_SUSA2": {
+   "atif": "Vallat, F., \"Susa ii. History during the Elamite period\", Encyclopaedia Iranica (2008, rev. 2018) - KISA kronoloji (Gasche vd. 1998)",
+   "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/susa-ii-history-during-the-elamite-period",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "IR_SUSA3": {
+   "atif": "Boucharlat, R., \"Susa iii. The Achaemenid period\", Encyclopaedia Iranica (2009, rev. 2015)",
+   "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/susa-iii-the-achaemenid-period",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "IR_KASS": {
+   "atif": "Zadok, R., \"Kassites\", Encyclopaedia Iranica XVI/2, 2013, s. 113-118 (rev. 2015); kronoloji Boese 1982 / Brinkman 1986",
+   "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/kassites",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "IR_PERS": {
+   "atif": "Shahbazi, A. Sh., \"Persepolis\", Encyclopaedia Iranica (2009)",
+   "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/persepolis",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "IR_PASA": {
+   "atif": "Stronach, D. & Gopnik, H., \"Pasargadae\", Encyclopaedia Iranica (2009, rev. 2017)",
+   "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/pasargadae",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "IR_ECB": {
+   "atif": "Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011)",
+   "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "IR_CTES": {
+   "atif": "Kroeger, J., \"Ctesiphon\", Encyclopaedia Iranica VI/4, 1993 (rev. 2011)",
+   "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ctesiphon",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "IR_DURA": {
+   "atif": "Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi)",
+   "url": "https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "CDLI_GUNG": {
+   "atif": "CDLI Wiki, Year names of Gungunum (Larsa)",
+   "url": "https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_gungunum",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce/Sumerce"
+  },
+  "CDLI_RIM": {
+   "atif": "CDLI Wiki, Year names of Rim-Sin I (Larsa)",
+   "url": "https://web.archive.org/web/2024/https://cdli.ox.ac.uk/wiki/year_names_rim-sin",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce/Sumerce"
+  },
+  "CDLI_SAM": {
+   "atif": "CDLI Wiki, Samsu-iluna year names (Babil I)",
+   "url": "https://web.archive.org/web/2022/https://cdli.ox.ac.uk/wiki/samsuiluna",
+   "sinif": "veri-tabani",
+   "dil": "Ingilizce/Sumerce"
+  },
+  "EJ_HAM": {
+   "atif": "\"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden",
+   "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi",
+   "sinif": "ansiklopedi",
+   "dil": "Ingilizce"
+  },
+  "KIRCHO": {
+   "atif": "Kircho, L. B. 2005, Hronologiya epohi pozdnego eneolita - srednei bronzy Srednei Azii (pogrebeniya Altyn-depe), Trudy IIMK RAN t. XVI, SPb: Nestor-Istoriya (Ingilizce \"Conclusion\", s. 516-519)",
+   "url": "https://www.old.archeo.ru/izdaniya-1/vagnejshije-izdanija/pdf/Kircho_2005.pdf",
+   "sinif": "birincil-yayin",
+   "dil": "Rusca monografi, Ingilizce sonuc bolumu"
+  },
+  "ARCIERO": {
+   "atif": "Arciero, R. 2024, Irrigating the desert (doktora tezi, Leiden Univ.), Bolum 1/2; Lyonnet & Dubova 2021a Ek 1 aktariyor",
+   "url": "https://scholarlypublications.universiteitleiden.nl/download/1887/4171706/2",
+   "sinif": "akademik-ikincil",
+   "dil": "Ingilizce"
+  }
+ }
+}

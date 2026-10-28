@@ -27,13 +27,15 @@ const yukle = rel => {
   return true;
 };
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
-const dosyalar = [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+const dosyalar = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
   .filter(s => /olaylar|yerlesimler|devletler\.js|savaslar\.js/.test(s));
 dosyalar.forEach(yukle);
 const W = ctx;
 W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
 const Y = W.YERLESIMLER;
+IK.yerlesimKapisi(Y);
 const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
 const olaylar = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9]+)?$/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), []).filter(o => o.kapsam !== "konu")

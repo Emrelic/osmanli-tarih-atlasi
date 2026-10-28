@@ -93,11 +93,22 @@ def kur():
               "konsol penceresi acik kalir." % pythonw)
         pythonw = sys.executable
 
+    # 🆕 5 Ekim 2026 — Emre: "bilgisayarlar açıldığında Claude'ların açılarak tepside
+    #   yer almasını sağlayalım". Ölçüldü: Claude Desktop'ın NE Startup'ta NE registry
+    #   Run'da açılış kaydı YOKTU; açıcı geliyor, Claude gelmiyordu.
+    #   `--acilista-claude` dinleyici ayağa kalktıktan SONRA Claude'u bir kez açar.
+    #   Açılamazsa dinleyici YİNE ayakta kalır (yoksa tek hata bütün uzaktan erişimi
+    #   öldürür — yumurta-tavuk).
+    #   `--claude-yok` ile kapatılabilir (ör. koşucu makinede pencere istenmiyorsa).
+    claude_da = "--claude-yok" not in sys.argv
+    _bayrak = ' "--acilista-claude"' if claude_da else ""
     satirlar = [
         "@echo off",
         "rem Atlas ACICI — agdan 'Claude'u ac' emrini karsilar.",
         "rem Uretildi: arac/acici_kur.py --kur   ·   Kaldirmak: --kaldir",
-        'start "" "%s" "%s"' % (pythonw, ACICI),
+        "rem Acilista Claude: %s  (--claude-yok ile kapatilir)"
+        % ("ACILIR" if claude_da else "ACILMAZ"),
+        'start "" "%s" "%s"%s' % (pythonw, ACICI, _bayrak),
         "",
     ]
     with io.open(CMD_YOLU, "w", encoding="utf-8", newline="\r\n") as f:

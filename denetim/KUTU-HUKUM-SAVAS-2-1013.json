@@ -1,0 +1,74 @@
+{
+  "SAVAS-2": {
+    "1-yeni-25-kunye": {
+      "hukum": "cozuldu",
+      "not": "data/savas_kunye_2.js: 25 yeni muharebe künyesi (Belgrad 1521, Rodos 1522, Sigetvar 1566, Lefkoşa 1570, Magosa 1571, Tunus 1574, Çıldır 1578, Eğri 1596, Haçova 1596, Kanije 1600, Kanije savunması 1601, Bağdat 1638, Sen Gotar 1664, II. Mohaç 1687, Salankamen 1691, Azak 1696, Ulaş 1696, Lugoş 1695, Varadin 1716, Navarin 1827, Sinop 1853, Trablusgarp 1911, Sarıkamış 1914, Çanakkale 18 Mart 1915, Kût 1916). Komutan ve kuvvet yalnız TDV gövdesinde okunan ad/rakam; yoksa 'bilinmiyor' ya da 'bulunamadı (...)'. 54 künyenin 54'ü tarayıcıda kronoloji maddesinde kutu olarak açıldı. 'Mezőkeresztes' TDV'de ayrı madde değil, Haçova'nın kendisi (tek künye). Zitvatorok antlaşmadır, savaş değil (atlandı). Salankamen/Sisak/II. Mohaç/Çıldır/Lugoş için TDV'de ayrı madde yok (slug'lar ölü); komutan maddelerinden okundu. Sisak 1593 için TDV gövdesi bulunamadı, künye yazılmadı.",
+      "delil": "data/savas_kunye_2.js; js/app.js SAVAS_KUNYE_1+2 birleştirme; tarayıcı doğrulaması 13 Ekim 2026 (olaylar 1831 madde, 54/54 kutu görünür)"
+    },
+    "2a-preveze": {
+      "hukum": "cozuldu",
+      "not": "TDV preveze-deniz-muharebesi (DİA 34) tam metni okundu: ittifak donanması 140 kalyon (80+10+1+49) + 168 kadırga (70+36+10+52) + 55.000 asker; Osmanlı 122 kadırga + 20.000 asker; müttefik kaybı kalyon türü 128 gemi. TDV barbaros-hayreddin-pasa ise '208 veya 246 gemi', 36 tekne ele geçirildi + 2175 esir. İKİSİ BAĞDAŞMAZ; ayrıntılı kaynaklı konu maddesi esas alındı (ANT-KART'ın 140+168'i konu maddesiyle AYNI, hatalı değil), çelişki künyede 'celiski' alanı olarak okura gösterilir, kayıp rakamları ikisi de yazıldı. Ek bulgu: kanat düzeni iki maddede ayrışıyor (Turgut Reis sağ/Salih Reis sol ↔ Salih sağ/Seydi Ali sol), notlara yazıldı. Ek düzeltme: künye kronolojide 1538-09 maddesine bağlanmıyordu (savas_t 1538-09-28 madde yok); savas_t_ek:['1538-09'] ile görünür oldu.",
+      "delil": "data/savas_kunye_1.js kunye-preveze-1538; TDV preveze-deniz-muharebesi · barbaros-hayreddin-pasa (13 Ekim 2026 çekim)"
+    },
+    "2b-inebahti": {
+      "hukum": "cozuldu",
+      "not": "TDV inebahti-deniz-savasi (DİA 22) tam metni: Osmanlı ~230 gemi/25.000, müttefik 243/37.000; Osmanlı kaybı 190 gemi batmış ya da ele geçirilmiş, 20.000 ölü, 3000 esir; müttefik 8000 ölü, 21.000 yaralı, 15 kadırga battı. TDV inebahti (yer maddesi) '200-250 gemi kaybedildi' diyor — yer maddesinin üst sınırı filonun tamamını (230) aşıyor ve konu maddesi Uluç Ali'nin 30 gemiyi kurtardığını yazıyor (230-30≈200). Konu maddesindeki 190 esas alındı, 200-250 aralığı künyede 'celiski' alanı olarak okura gösterilir (ANT-KART'ın ~190'ı doğru).",
+      "delil": "data/savas_kunye_1.js kunye-inebahti-1571; TDV inebahti-deniz-savasi · inebahti"
+    },
+    "2c-ii-viyana-500000": {
+      "hukum": "cozuldu",
+      "not": "TDV merzifonlu-kara-mustafa-pasa: 500.000 (350.000 muharip + 150.000 geri hizmet) 'nakledilir ... bunun abartılı olduğu söylenebilir'. Künyede rakam 'NAKLEDİLİR' kipiyle, 'TDV abartılı bulur, güvenilir alt sınır verilmez' notuyla yazıldı; ganimet ümidiyle gelen esnaf notu eklendi.",
+      "delil": "data/savas_kunye_1.js kunye-ii-viyana-1683"
+    },
+    "2d-plevne": {
+      "hukum": "zaten-dogru",
+      "not": "Plevne künyesi savaşın başlangıç gününe (1877-04-24) bağlı, rakamlar Temmuz-Aralık'a ait; 'uyari' alanı ve tarih_metin bunu zaten açıkça yazıyor. Değiştirilmedi.",
+      "delil": "data/savas_kunye_1.js kunye-plevne-1877"
+    },
+    "3a-mercidabik-ridaniye": {
+      "hukum": "cozuldu",
+      "not": "savaslar.js'te aksansız 'Mercidabık' ve 'Ridaniye' kopyaları silindi (aynı gün, aynı savaş); aksansız kopyadaki tek ek bilgi seri:'memluk' aksanlı kayda taşındı. Künye aksanlı ada bağlı kaldı.",
+      "delil": "data/savaslar.js (Mercidâbık/Ridâniye satırları)"
+    },
+    "3b-ii-viyana": {
+      "hukum": "cozuldu",
+      "not": "savaslar.js'te 1683-07-14 'II. Viyana kuşatması' ve 1683-09-12 'II. Viyana Kuşatması' (adlar yalnız k/K ile ayrılıyordu) tek kayıtta birleşti: t:1683-07-14, bitis:1683-09-12, taraf [osmanli,habsburg,lehistan], galip habsburg. Künye kronolojide her iki güne bağlı (yeni savas_t_ek alanı, js/app.js okur).",
+      "delil": "data/savaslar.js II. Viyana satırı; data/savas_kunye_1.js kunye-ii-viyana-1683; js/app.js savas-kunye"
+    },
+    "3c-istanbul-1453": {
+      "hukum": "cozuldu",
+      "not": "savaslar.js'te 1453-04-06 ve 1453-05-29 iki 'İstanbul kuşatması' kaydı tek kayıtta birleşti (t:1453-04-06, bitis:1453-05-29, galip osmanli). Künye fetih gününe (savas_t) ve kuşatma başına (savas_t_ek) bağlı.",
+      "delil": "data/savaslar.js İstanbul satırı; data/savas_kunye_1.js kunye-istanbul-1453"
+    },
+    "3d-cesme": {
+      "hukum": "cozuldu",
+      "not": "'Çeşme baskını' mükerrer kaydı silindi; künye 'Çeşme (deniz)'e bağlı kaldı.",
+      "delil": "data/savaslar.js; data/savas_kunye_1.js kunye-cesme-1770"
+    },
+    "3e-navarin": {
+      "hukum": "cozuldu",
+      "not": "Görevde sayılmayan ek çift: 'Navarin baskını' mükerrer kaydı (aynı gün 'Navarin (deniz)') silindi; yeni Navarin künyesi kalan kayda bağlı.",
+      "delil": "data/savaslar.js; data/savas_kunye_2.js kunye-navarin-1827"
+    },
+    "4-pilot-kunye-bag-onarimi": {
+      "hukum": "cozuldu",
+      "not": "Ölçüm bulgusu: pilot 29 künyenin 5'i kronolojide görünmüyordu (savas_t gününde olaylar listesinde madde yok; maddeler ay hassasiyetli ya da farklı günde): Çaldıran (1514-08), Preveze (1538-09), I. Viyana (1529-09), Pelekanon (1329-06-01), Hotin (1621-10-09). savas_t_ek ile bağlandı; 54/54 künye tarayıcıda görünür. Pilot Kamaniçe künyesi savaslar.js'te karşılığı olmayan savas_ad taşıyor (pilot uyarısı zaten beyanlı), değiştirilmedi.",
+      "delil": "data/savas_kunye_1.js savas_t_ek alanları; tarayıcı doğrulaması"
+    },
+    "5-celiski-beyani": {
+      "hukum": "cozuldu",
+      "not": "js/app.js künye kutusuna okura gösterilen 'celiski' alanı eklendi (uyari iç not olarak kalır). Beyan edilen çelişkiler: Preveze, İnebahtı, Rovine (1394/1395), Rodos (sefer çıkış günü), Tunus (12 Eylül/24 Ağustos), Bağdat (kuşatma başı), Azak (6 Ağustos ↔ 19 Temmuz), Sinop (1854 başı ↔ 30 Kasım 1853), Trablusgarp (29 Eylül ↔ 1 Eylül), Sarıkamış (90.000 yanlış).",
+      "delil": "js/app.js savas-kunye dalı; data/savas_kunye_1.js · savas_kunye_2.js celiski alanları"
+    },
+    "6-kanije-savaslar-js-tarih": {
+      "hukum": "senin-kararin",
+      "not": "savaslar.js 'Kanije kuşatması' t:1600-10-22; TDV kanije ve kronoloji 20 Ekim 1600. İki günlük fark savaslar.js tarafında (künye bunu beyan etti, düzeltmedi). Marker günü değişimi Değişmez 2'ye dokunmaz ama harita görünümünü etkiler; koordinatör kararı.",
+      "delil": "data/savaslar.js Kanije kuşatması satırı; TDV kanije"
+    },
+    "7-diger-mukerrer-savaslar-js": {
+      "hukum": "olculecek",
+      "not": "Birleştirme sonrası SAVASLAR dizisinde ölçülen kalan aynı-gün çiftler (görev listesinde yoktu, DOKUNULMADI): 1416-05-29 'Gelibolu (deniz)'/'Gelibolu deniz savaşı'; 1538-09-28 'Preveze (deniz)'/'Preveze'; 1571-10-07 'İnebahtı (deniz)'/'İnebahtı (Lepanto)' (künyeler ikinci bloktaki adlara bağlı). 1416-05-01 Şeyh Bedreddin/Börklüce ve 1594-11-01 Eflak/Boğdan çiftleri farklı olaylardır, mükerrer değil. Önerim: aynı yöntemle üç çifti de birleştirmek.",
+      "delil": "data/savaslar.js ilk blok (satır ~214-224) ve ikinci blok (satır ~420-437)"
+    }
+  }
+}

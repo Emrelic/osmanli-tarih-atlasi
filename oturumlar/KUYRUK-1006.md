@@ -1,0 +1,1188 @@
+# UYGULAMA KUYRUĞU — 1006 · koşu sonrası inecek yamalar, SIRALI
+
+🔴 **NİÇİN BU DOSYA VAR:** 6 Ekim gecesi bu kuyruk saatlerce **yalnız mesajlarda** yaşadı.
+Bu, bütün gece eleştirdiğim kırılganlığın aynısıydı (*"kural yazılı olmayan kural değil,
+UNUTULAN kuraldır"* — `§9.1`). Oturum kapanırsa kuyruk kaybolurdu.
+**Sahibi:** YILDIRIM BAYEZIT (koordinatör). Uygulayan da odur; işçiler yalnız diff üretir.
+
+---
+
+## 0. 🔴 UYGULAMADAN ÖNCE — her seferinde
+```
+① git fetch + makine dallarını main'e BİRLEŞTİR  (projeksiyon ve makine/tahta-web HARİÇ)
+② KOŞU bitmiş mi? Bitmemişse data/ ve arac/ DONUK — hiçbir şey inmez (§7)
+③ her zincir için `git apply --check` SIRALI yapılır; tek tek temiz olmak YETMEZ (D264)
+④ her diff kendi ağacında sınanır — bir ağaçta temiz, ötekinde kirli olabilir (D264)
+```
+🔴 **TAVAN KURALI (`§3.4`):** her tavan **yazıldığı anda ölçülür** ve **kendi diff'iyle
+AYNI commit'te** iner. Aşağıdaki sayılar 6 Ekim gecesinin ölçümüdür — **yazarken yeniden
+ölçülecek**, çünkü bir sayı bir günde 5 kayıt oynadı.
+
+---
+
+## 1. VERİ VE ARAÇ ZİNCİRLERİ — koşu sonrası, bu sırayla
+Her satır bir zincir; zincir İÇİNDE sıra değiştirilemez (ölçüldü, sıra bozulunca reddediyor).
+
+| # | zincir | not |
+|---|---|---|
+| 1 | `EDIGU-1006` → `KISI-KAYNAK-01` → `02` → `03` | 🔴 sonra **`py arac/paketle.py yenile`** ŞART |
+| 2 | `ELLE-VERI-DUZELT-1006` → `OSMAN1-YIL-1006` → `OSMAN-ORHAN-DEVIR-1006b` | `OSMAN1` sona alınırsa RED |
+| 3 | `VERI-YAPISI-SAYI-1006b` | eski `1006`nın YERİNE geçer |
+| 4 | `DURUM-TABLOSU-SAYIM-1006b` → `SAGLAM` → `SAGLAM-1006b` → `1006c` → `DURUM-TABLOSU-KISI-KAYNAK-1006` | `--yaz` EN SONDA, bir kez |
+| 5 | `OLAYLAR-SONEK-1006` (O7) | + `surum_damgala.py` |
+| 6 | `D7-ISG` → `ZINCIR-KAYNAGI-KAPI` → `KAYNAKSIZLIK-ISG` → `MUKERRER-OLCUT-1006b` | hepsi `denetle.py` |
+| 7 | `ZINCIR-1006c` → `CRES-NOT` → `POLONYA-ISG` → `POLONYA-BITIS` → `MGGP-NOT` → `KRAKOV-DEVIR` | `CRES-NOT`ta "dogrulanmadi" → **`kaynak_zayif`** |
+| 8 | `ODAK-SEKME` → `METIN` → `1006b` → `1006c` → `1006d` | 🔴 `ODAK-TAVAN.json` **AYNI commit**, `--tavan-yaz` **YASAK** |
+| 9 | `KIMLIK-BEKCI-1006` → `1006b` → `1006c` | `D266`; iner inmez 3 hayalet alarm susar |
+| 10 | `MOTOR-ENV-KAPI` → `KAYNAK-DURUM-ENV-KAPI` → `ATLAMA-DAMGA` → `SINAMA` | 🔴 kısıt: aşağıda §3 |
+| 11 | `KRONO-EZILDI-1006b` + `KAPI-0929` ölçütü | ikisi tek teslim (W26) |
+| 12 | `ARPACAY-AD-1006` | Emre izin verdi; alan `not:`e döndü |
+| 13 | `VIKIPEDI-KAYNAK-ZAYIF-1006` · `kaynak_zayif` paketi · `BOS-YERID-*` | `dogrulanmadi` ADI DEĞİŞTİ |
+| 14 | `JASENOVAC/BROD` | 🔴 D2 maddesi **AYNI diff'te** + `paketle.py yenile` |
+| 15 | `TR1923-ELEK` + `ZINCIR-KAYNAGI-VERI-1006c` | 🔴 betik `data/`ya **koordinatör kararı olmadan koşturulmaz** |
+| 16 | `LEGO-ZINCIR-1006` + çıktı `.txt` | kanıt diskte kalacak |
+| 17 | `YERID-IMZA-1006` (37 imza yeri) | 🔴 tavan: aşağıda |
+| 18 | `ARAYUZ-MADDE-0930-kapi-dom-sozlesmesi-**1006**.diff` | sıra bağımsız; 🔴 kapsam beyanı ŞART (§3 ⑦) |
+
+⚠️ **Eski `ARAYUZ-MADDE-0930-kapi-dom-sozlesmesi.diff` KUYRUKTAN ÇIKARILDI** — yerine
+`-1006` girdi. Eskinin uymama sebebi anlamsal değildi: `6dbc954c`te `bayat` →
+`bayat_durdurucu` adlandırması son `if` koşulunun bağlamını kaydırmıştı (hunk 1-2 uyuyordu).
+🟢 Ve kalem **BAYAT DEĞİL**: kusur bugün de duruyor (`git log -S dom_sozlesmesi` → 0 commit,
+yani yama hiç inmemiş; `denetle_yayin`de `getElementById` → 0 eşleşme). Kapının kusuru
+**yakalayabildiği** gerçek tarihçeyle gösterildi: `2ddede3d` ve `9a956026` 2'şer uyumsuz,
+`17cd2f98` 0.
+
+⚠️ `POLONYA-DUZELT-1006` **KUYRUKTA DEĞİL** — `isg:` kararı yüzünden bütünüyle çıkarıldı;
+`isg:` olarak yeniden üretilecek.
+
+---
+
+## 2. 🔴 TAVANLAR — hepsi BENİM, her biri KENDİ diff'iyle AYNI commit'te
+```
+BEKLENEN_MUKERRER           113 → 95      (zincir 6, MUKERRER-OLCUT)
+BEKLENEN_OLU_ISTISNA          — → 0       (zincir 6, aynı diff)
+BEKLENEN_2S_YALNIZ_TARAF   1665 → 1648    (zincir 17, YERID-IMZA)
+BEKLENEN_BAYAT_KOPYA          — → 7       (zincir 6, ZINCIR-KAYNAGI-KAPI)
+ODAK-TAVAN.json   odaksiz 325 · beyanli_yabanci 355 · sekme_okunmayan 1103
+                  · bilinen_kusur []
+                  🔴 sekme_sessiz: 53 YAZILMAYACAK — uygulamadan SONRA ÖLÇÜLECEK
+kişi katmanı      kaynaksız 0 · beyan 29  🔴 SAYI DEĞİL LİSTE (§3.4 ⑤)
+kaynaksızlık      hicbiri 1968 → ~1930 · donem_ici 333 → ~371 · kayıt-kaynaksız 2301 aynı
+                  🔴 "~" işareti kasıtlı: YAZDIĞIM ANDA yeniden ölçülecek
+                  (ölçüm bir günde 5 kayıt oynadı; geçiş dosyası KAYNAK-TAVAN-S1-GECIS-1006.json)
+```
+
+---
+
+## 3. 🔴 KISITLAR — ihlali geri alınması pahalı
+```
+① `py arac/paketle.py yenile` ŞART (zincir 1 ve 14 sonrası)
+   SEBEP: site `kisiler.js`i DEĞİL `data/paket_12.js`i yüklüyor (index.html:1277-1309).
+   Koşturulmazsa değişiklikler YAYINDA GÖRÜNMEZ ve `paketle.py sina` ✗ BAYAT verir.
+② `--tavan-yaz` KULLANILMAZ (odak): evreni genişletip 3306 kalemi affediyor (ölçüldü).
+③ `ARAC-TR1923-YAZ-0914.py` `data/`ya koordinatör kararı OLMADAN koşturulmaz.
+④ `kapi` alt emri, B yaması (`URETIM_IZI.kapi`) inene kadar YAYINA ADAY ağaçta KULLANILMAZ.
+   `KAPI_ALANI_ZORUNLU=True` B ile AYNI yamada iner.
+⑤ `origin/projeksiyon` BİRLEŞTİRİLMEZ — `uret_petek.py`ye dokunuyor (MOTOR TUZU) ve kendi
+   commit'i "görsel sınav YOK" diyor.
+⑨ 🔴 `KRONO-MUKERRER-SIL` (D3) **BEKLİYOR**: silmesi üç KAYNAKSIZ günü götürüyor
+   (`kirim 1571-05-24` · `macaristan 1308-06-15` · `isveç 1714-02-01`) ve birincisi
+   *"dokunulmaz 9"* listemdeydi. ⇒ İkizin günü **kaynaklı mı, silinenden FARKLI mı**
+   ölçülmeden uygulanmaz. Fark çıkarsa o **silme değil TARİH DEĞİŞİKLİĞİdir** ve
+   `KRONO-TARIH` diff'ine taşınır, beyanlı.
+   📌 Ve silinen kaynaksız değer **nota geçer**: birisi onu bir sebeple yazdı, akademik
+   tur için bir İZDİR. İz silinirse arama sıfırdan başlar.
+⑩ `KRONO-TARIH` (D2) ile `KRONO-TARIH-1006b` (D2b) **AYNI SATIRA** dokunuyor ⇒
+   `--check` **sırayla tek tek**, tek çağrıda DEĞİL.
+⑧ `KRONO-TARIH` diff'i **autocrlf DÖNÜŞÜMÜ YAPILMADAN** uygulanacak. 65 CR satırı taşıyor
+   ve bu **meşru**: hepsi `data/devletler.js`te, o dosya index'te `-text` (karışık satır
+   sonu, main'de de böyle). ⇒ `CR 0` beklentisi burada YANLIŞ ölçüt (`D264`).
+⑦ DOM sözleşmesi kapısı (zincir 18) çıktısında **KAPSAMINI BEYAN EDECEK**:
+   *"yalnız `getElementById` sorulur · `querySelector` ve DİNAMİK id ÖLÇÜLMEZ."*
+   SEBEP: kısmî körlük beyan edilmezse "0 uyumsuz" tam bir güvence sanılır. Bugün 9 js /
+   11 beklenti ölçülüyor; `querySelector` yolu **hiç sorulmuyor** (W29 beyan etti).
+⑥ `origin/makine/tahta-web` BİRLEŞTİRİLMEZ — kesme Emre'nin üç kalemine bağlı.
+   🔴 Ve kesme günü **K3 ölçülmeden seçilmez**: makineler arası ulaşılabilirlik (EMRELIC
+   LAN adresi · güvenlik duvarı · her makinenin `ag.json`u) ÖLÇÜLMEDİ.
+```
+
+---
+
+## 4. B KUYRUĞU — MOTOR TUZU, ancak TAM İNŞA koşusunda
+Tuz: `uret_petek.py` · `renkler.py` · `girdi.py` · `motor_onbellek.py`. Biri değişirse
+**bütün genel önbellek** ölür (`govde` geo tuzunda, o korunur).
+```
+MOTOR-BANT-TAM-1005.diff            5/7/10 bant kusuru (uret_petek)
+su koridoru KIRPMASI                COL'un 30 km zarfına kırp; çıktı BİREBİR aynı kalmalı
+                                    🔴 A kuyruğunun ÖN ŞARTI (aşağıda)
+alt-aşama log satırı                Çöl tavanı içinde ara satır yok, teşhis edilemiyor
+MOTOR_* sınıflandırması ③2          ③3 (AST kapısı) OLMADAN ALINMAZ — eksik geçersizleşme
+                                    SESSİZCE yanlıştır
+DOLGU_ONBELLEK · DOLGU_CIKTI
+  · KILIT_KAPALI → İŞLETİM          ölçüldü: bir kilit bayrağı geo önbelleğini öldürüyor
+URETIM_IZI.kapi + KAPI_ALANI_ZORUNLU  AYNI yamada (§3 ④)
+```
+### 🔴 A KUYRUĞU — tek başına İNMEZ
+```
+CGK boyası (renkler.py)              cenub-i-garbi-kafkas — boyasız künye HARİTA DELİĞİ
+BILINEN_ALANLAR eki (girdi.py)       kaynak_zayif + zincir_kaynagi
+```
+⇒ **Bunlar su koridoru KIRPMASIYLA AYNI koşuda iner.** Sebebi ölçüldü: `k1` genel tuzdadır
+(`:4285`), yani bu iki yama `k1`i öldürür — ve `k1`in fiyatı 6 Ekim'de ölçüldü: **47 dakika
++ bellek duvarı** (süreç başına 14,7 GB, commit 65,8/67,0 GB). Kırpma inerse o yeniden kurma
+ucuz ve güvenli olur.
+
+### 🔴 BİR SONRAKİ KOŞUNUN BAYRAKLARI
+```
+MOTOR_YURUYUS=1 · MOTOR_YURUYUS_SAAT=40 · MOTOR_UFUK_BANT=40,56,80 · MOTOR_COL_UFUK_SAAT=56
+   ⇒ BİREBİR AYNI KALACAK. Biri değişirse govde DAHİL her katman ölür (iki tuzda da var).
+MOTOR_SUREC_ISCI=2   (4 DEĞİL — bellek işçi sayısıyla DOĞRUSAL, çünkü her işçi
+                      :542-:6908 arasını KENDİSİ yeniden hesaplıyor)
+MOTOR_PARALEL_ISCI   şimdilik DOKUNULMAZ. GEOS segfault'u yineler ise 1'e inilir —
+                     ama İKİ bayrak AYNI koşuda değiştirilmez, yoksa hangisi işe yaradı
+                     ÖLÇÜLEMEZ. (İkisi de tuzda DEĞİL, serbest.)
+```
+
+---
+
+## 5. ÖLÇÜM BEKLEYENLER — hüküm bunlara bağlı
+```
+GLM          2.682 TDV gövdesinden kaçı KESİK (GLM-GOREV-1006.md)
+             ⇒ bu olmadan D218'in %81'i YENİDEN ÖLÇÜLMEZ
+W27          256 sınavın envanteri (GECTI/OTTU/HATA/ZAMAN-AŞIMI/ATLANDI;
+             OTTU → gerileme adayı ↔ bayat sabit adayı)
+W28          25 tarih çelişkisi + 3 ayrı olay (kaynak işi)
+W29          ARAYUZ-MADDE-0930 bayat mı — kusur bugün VAR MI (önce bu)
+HAVVA        KOŞU 20 bitişi: süre · 8a/8b/8k · 8k ÜYELİK karşılaştırması · bellek.tsv
+```
+
+---
+
+## 6. EMRE'NİN KARARLARI — `SABAH-1004`te, kuyruk onlara bağlı
+Kafkasya zincir boşluğu (yanlış kimlik / delik / `__BOSLUK__`) · I. DH işgal katmanı ·
+Akyaka'ya yeni nokta · varsayılan dış eşik (87 madde) · 321 kronoloji maddesinin ataması ·
+atanamayan 13 için yeni künye · 2.084 eşlenmeyen madde · 256 sınav için toplu koşucu ·
+kişi katmanının kapıya bağlanması · künyesiz geçiş idareleri (Naiplik · PKL · Aras-Türk) ·
+`C:\atlas-umit\.git` sahipliği (yönetici) · UMIT'teki 15 push edilmemiş commit.
+
+
+---
+
+## 7. 🔴 GECE 1006 (01:30-03:00) İNEN HÜKÜMLER — yukarıdaki bölümlere ZEYİL
+Bu bölüm yeni bir kuyruk değil, §0-§6'ya yapılan EKLERİN tek yerde toplanmasıdır. Her
+madde hangi bölümü değiştirdiğini söyler. Sebebi §0'ın kendi gerekçesi: hüküm yalnız
+mesajda yaşarsa oturum kapanınca kaybolur.
+
+### §0'A EK — D264 ŞARTI KARŞILANDI, kuyruk bu yönden açık
+`SINAV ALTYAPISI` paketinin 10 diff'i **İKİ YÖNDE** sınandı ve ikisinde de temiz:
+```
+indeks (LF)            git apply --check --cached   10/10 çıkış 0
+çalışma ağacı (CRLF)   git apply (--cached DEĞİL)   10/10 çıkış 0 · 60 dosya değişti
+```
+Ölçüm UMIT'te, `origin/main` 95c1f3f4'ten atılabilir bir worktree'de yapıldı; worktree
+kaldırıldı. **Kapsam beyanı ve kapanışı:** sınav yalnız `core.autocrlf=true` ağacında
+koştu — ve `EMRELIC`in ayarı da ÖLÇÜLDÜ, **`true`** ⇒ kapsam, yamayı UYGULAYACAK makineyi
+içeriyor. ⇒ Bu paket tek paket olarak inebilir.
+📌 D264'ün kendisi hâlâ geçerli: `--check` ile `--check --cached` AYRI SORULARDIR. Burada
+kapanan şey kural değil, BU PAKET için ikisinin de sorulmuş olmasıdır.
+
+### §2'YE EK — 🔴 7 TAVANIN HİÇBİRİ GEÇERSİZ DEĞİL (ölçüldü, kesişim 0)
+W32 ölçtü ki paketlemeden bu yana **20 betik 4299 yerine 10 yerleşim**, **4 betik 1768
+yerine 25 madde** görüyordu. Tavanların o betiklerden gelip gelmediğini sordum; cevap:
+```
+BEKLENEN_MUKERRER 95 · OLU_ISTISNA 0 · BAYAT_KOPYA 7 · 2S_YALNIZ_TARAF 1648
+                                   üretici arac/denetle.py        · evren girdi.yukle() 4299
+ODAK-TAVAN.json (odaksiz · beyanli · sekme_*)
+                                   üretici odak_olc.py + odak_cozum.js
+                                   · evren odak_olc.py:100-107 canli_dosyalar()
+kişi kaynaksız 0 · beyan 29        üretici durum_tablosu kisi_kaynak_say · evren kisiler.js
+kaynaksızlık (hicbiri/donem_ici/kayıt)
+                                   üretici denetle.kaynaksizlik_olc(girdi.yukle()) · 4299
+20 BETİKLE KESİŞİM                 0        ⇒ GEÇERSİZ TAVAN YOK
+ek kontrol                         odak_olc ve odak_cozum'da "paket_" / "index.html" grep 0
+```
+⚠️ **BU PARAGRAF ÇÜRÜDÜ — W32 ÖLÇTÜ (6 Ekim), aşağıdaki iddia ÇOK GENİŞTİ:**
+~~*"o 20 betiğin ürettiği RAPOR SAYILARI paketlemeden bu yana 10 yerleşimlik evrene aittir;
+o raporlara dayanan her HÜKÜM geçersizdir."*~~
+🔴 **ÖLÇÜM:** 20 betiğin **20'si** ve dayanak raporları **13-28 Eylül**'de koştu; paketleme
+**29 Eylül** (`af0c78c6`) ⇒ hepsi **TAM EVRENDE** koşmuş ⇒ **RAPORLAR GEÇERLİ.**
+`OLCULECEK-0930` da kendi kusurunu yakalayıp düzeltilmiş kopyayla ölçmüş ⇒ geçerli.
+**KİRLENEN YALNIZ ÜÇ KOVA** (W27 envanteri): `ANTLASMA-KADEME-SINAV` · `ODAK-ASYA-sina` ·
+`HALKA-SINA`. Düzeltme koordinatörde.
+📌 **Dersi:** bir kusurun VARLIĞINI ölçmek, onun KAPSAMINI ölçmek değildir. Yükleyici
+kusuru gerçekti (20 betik, 4299→10); ama "o zamandan beri her rapor çürük" cümlesi
+TARİHİ hiç sormadan yazıldı — ve tarih sorulunca iddia düştü. Kapsam, kusurdan ayrı
+ölçülür.
+🔴 **VE ODAK KAPISINDA İKİNCİ BİR AYRIŞMA ÖLÇÜLDÜ:** `odak_olc.canli_dosyalar()`
+**KAYNAK** dosyaları okuyor (`os.listdir(data)`), tarayıcı ise **PAKETİ** yüklüyor. Paket
+bayatlarsa odak kapısı tarayıcının HİÇ GÖRMEDİĞİ bir evreni ölçer. Bugün `paketle sina`
+TAZE dediği için risk yok — ve §3(1) (`paketle.py yenile` ŞART) bu yüzden de kritiktir,
+yalnız `paket_12.js` yüzünden değil.
+
+### §1'E EK — paket sırası (zincir İÇİNDE sıra değiştirilemez)
+```
+SINAV ALTYAPISI (10 diff, tek paket)
+   MUTLAK-YOL · YANETKI 1006/b · HATA-ONARIM 1006/b · BAYAT-SABIT · PAKET-YUKLEYICI
+   · TOPLU-SINAV 1006/b · KUNYE-SINA-CIKIS
+KRONO zinciri   SAHTE-ALINTI → TARIH → 1006b → 1006c → MUKERRER-SIL-1006b
+                → 1006d → HANYA-BOL
+                🔴 SIRA DÜZELTMESİ (W28, 6 Ekim): 1006d ve HANYA-BOL SONA eklendi ve
+                MUKERRER-SIL-1006b'den SONRA gelmek ZORUNDA. Sebep ölçülü: 1006d Halep
+                maddesinin `t:` satırını değiştiriyor (`timurlu:85`), MUKERRER-SIL-1006b
+                ise AYNI maddenin `kaynak:` satırına iz yazıyor (`:88`). 1006d önce
+                inerse SIL-1006b UYGULANAMAZ. Yedi diff geçici indekste bu sırayla temiz
+                (W28 sınadı). ⚠️ Uygulamadan sonra `paketle.py yenile` ŞART (§3(1)).
+                🔴 eski KRONO-MUKERRER-SIL-1006 GEÇERSİZ (W28)
+app.js zinciri  224 odak diff'i → KRONOLOJI-COK → APP-KISI-BAŞLIK → KIRIM-A
+                🔴 üçü de app.js; sıra bozulursa birbirinin üstüne yazar
+veri            OK107 (ölü ilk s: — kaybeden diff'te YAZILI) → Brod 1536-01-01 →
+                Dubiça→Brod 1718 (AYRI diff) — 🔴 DÜZELTME (W45, 6 Ekim): ihlal edilen
+                D207 maddesi "zincirleme devralma" DEĞİL, **① şartı: komşunun günü KENDİ
+                kaynağına dayanmıyor** (Dubiça'nın 1718-07-21'i Pasarofça maddesinden
+                geliyor, kaynaksız). Koordinatörün ilk hükmü maddeyi yanlış adlandırdı;
+                ikisi de D207 ihlali ama ÇARELERİ AYRI: zincirleme için zinciri kesmek
+                yeterdi, ① için KAYNAK BULMAK gerekiyor. W45 önce TDV Pasarofça'ya bakıyor;
+                bulunmazsa yıl hassasiyetine (`1718-01-01`) düşer.
+BAYAT-SABIT-SAGLAM → PAKET-YUKLEYICI → OK107   (W32'nin ölçtüğü sıra)
+```
+
+### §3'E EK — DÖRT YENİ KISIT
+**(11) DÜŞÜRME / FALL-THROUGH SESSİZ OLMAZ — yakaladığını SAYAR ve ADIYLA BASAR.**
+Üç yerde aynı şart: W37-B (`derinKronolojiBindir` eşleşmeyeni ÇOK'a düşürüyor) · Kırım-A
+(`devletiYay` dönem bulamazsa `odak_kimlik`e düşüyor) · W42 ("tanınmayan türü de göster").
+Gerekçe: düşürme, eşlemenin İYİ bir sebeple mi (çok devletli dosya) KÖTÜ bir sebeple mi
+(adda yazım hatası) başarısız olduğunu AYIRT ETMEZ. Basmazsa sessiz bir KAYBI sessiz bir
+ONARIMLA değişmiş oluruz ve bir sonraki yazım hatası hiç görünmez. (D225'in aynı ailesi.)
+
+**(12) 🔴 `denetim/ARAC-TUZ-SINAV-0924` KOŞU SÜRERKEN KOŞTURULMAZ.**
+Betik `arac/girdi.py` ve `arac/girdi_listesi.py`yi (İKİSİ DE MOTOR TUZU) metin kipinde
+okuyup `newline=""` ile geri yazıyor ⇒ CRLF→LF, **içerik aynı, sha DEĞİŞİYOR, `git diff`
+GÖSTERMİYOR.** Tuz değişirse bütün önbellek anahtarları değişir VE `uret_petek.py` koşuyu
+her aşamada sınayıp REDDEDER (8 Ağustos: 83 dk koşup en sonda red) ⇒ zarar koşunun
+SONUNDA görünür.
+Koşu 20 için ölçüldü ve TEMİZ: beş tuz dosyasında CRLF == LF (`uret_petek` 8305/8305 ·
+`renkler` 3823/3823 · `girdi` 872/872 · `motor_onbellek` 174/174 · `girdi_listesi`
+720/720), son değişiklik 17:40:22 < koşu 21:20:57.
+⚠️ Çare (`rb`/`wb` ile yedekle-geri yükle, W35) **koşu bitene kadar İNMEZ** — çarenin
+kendisi de tuza dokunuyor (§9.1(3)). W35 yalnız diff üretir, hiçbir ağaca uygulamaz.
+📌 Sınıfı: tuzu ÖLÇEN sınavın kendisi tuzu BOZUYORDU. W27 bu betiği tuz kovasında
+atlamıştı.
+
+**(13) 🔴 BEYANLI BORÇ, ancak ONU ÖLÇEBİLEN BİR ŞEY VARSA BEYANLIDIR.**
+Kapı göremiyorsa "beyanlı borç" dediğimiz şey, üstüne etiket yapıştırılmış SESSİZ borçtur:
+kimse çağıramaz, kapanışı görünmez, ve bir sonraki tavan yazımında "zaten öyleydi" diye
+tavana girer. Uygulandığı yer: KRONOLOJI-COK'un 224 BEYANLI→yabancı maddesi, odak kapısı
+DOSYA BAZLI ölçtüğü için görünmüyordu ⇒ COK tek başına inmiyor, odak işiyle AYNI PAKETTE.
+
+**(14) YAKLAŞIK KOORDİNAT, YAKLAŞIK OLDUĞU BELLİ OLACAK ŞEKİLDE YAZILIR — yoksa YAZILMAZ.**
+ODAK-ASYA'nın 10 AK kararı YAKLAŞIK `yer_kon` yazıyor. İşaretleyen bir alan varsa
+(`yaklasik:true` vb.) 189'un tamamı iner; YOKSA o 10 hariç tutulur ve işaretleme alanı
+eklenene kadar bekler. Çıplak yaklaşık koordinat SAHTE KESİNLİKTİR (D210) ve bir sonraki
+okuyucu onu kaynaklı sanar.
+
+### §5'E EK — BU GECE AÇILAN DÖRT KALEM (hepsi ÖLÇÜM, yazma yok)
+```
+ZINCIR-GOC-1006          kosu_yayin.py → kos_ve_yayinla.py geçişinde DÜŞEN adımlar.
+                         Ölçüldü: ⑥b (kronoloji şeması) düşmüş; ⑥c (arayüz) şüpheli.
+                         Çıktı: eski adım · yeni zincirde var/yok · düştüğü commit.
+                         📌 Kapı YANLIŞ CEVAP vermiyor; HİÇ SORU SORMUYOR — daha sessiz.
+SESSIZ-SIFIR-1006        üretilmiş çıktı/girdi yokken SAYI BASAN sınıf. Bilinen dördü:
+                         ODAK-ASYA (Tebriz n=0) · ANTLASMA-KADEME (10 yerleşim) ·
+                         ANTLASMA-KAPSAM (×NaN) · UI2-FARK (PETEKLER 0).
+                         + ALT SORU: 20 betiğin hangi raporu hangi kararın dayanağı oldu?
+                         Ölçüt adayı: W32'nin dört tetiği (paket işaretsiz · src yok ·
+                         süzgeç sıfır · <%90 girdi) — dördüncüsü "AZ okudum"u yakalıyor.
+ODAK-KAPI-KORLUK-1006    kapı DOSYA BAZLI ölçüyor ⇒ maddeleri DOSYALAR ARASI taşıyan
+                         değişikliği göremiyor + canli_dosyalar() KAYNAK okuyor, tarayıcı
+                         PAKET yüklüyor. İki yönde göster, madde-kimliği ölçütünü ÖNER.
+KESINTISIZ-SAHIPLIK-1006 atlasın KESİNTİSİZ gösterdiği dönemde kaynak KESİNTİ diyor mu?
+                         Dubiça 1687-1701 Avusturya (HE) ~14 yıl · Dimetoka 1913-15
+                         Osmanlı olabilir (TDV meriç, 1915 Sofya) ~2 yıl · Yunan'a geçiş
+                         atlas 1920-05-27 / TDV 1922. §3.5'in ZAMAN ekseni; 4c/4d sormuyor.
+                         🔴 Dimetoka ve Ferecik METİN düzeltmeleri BU İŞ BİTENE KADAR
+                         BEKLER — kaynaksız ucu düzeltmek kaydı kaynaklıymış gibi gösterir
+                         ve hatayı DÜZELTMEYE KARŞI KORUR.
+```
+
+### KOŞU 20 — ölçülmüş durum (02:00)
+```
+başlangıç 2026-10-05 21:20:57 · taban fc380975 · yama yok · yayın yok
+govde     2 sa 50 dk · sıra 89/608 · ana süreç 6.697 MB · boş 14.118 MB · önbellek ~720 MB
+işçi 1 ve 2  paylarını bitirip NORMAL çıktı
+işçi 3       23:07'de GEOS segfault (0xc0000005) — BELLEK DEĞİL, kütüphane arızası
+             ⇒ ana süreç işçi 3'ün kalan ~132 devletini TEK BAŞINA, SIRAYLA hesaplıyor
+🔴 BİTİŞ TAHMİNİ ÖLÇÜLMEDİ: "04:00" bir yorumdur. 2sa50dk'da 89/608 düz oranı ~16 saat
+   verir; ikisi arasında 8 KAT fark var. Üç sayı istendi: ① sayaç neyi sayıyor (global mi
+   ana süreç mi) ② SON 30 DAKİKADAKİ devlet sayısı (düz oran değil GÜNCEL oran)
+   ③ işçi 3'ün bitirdikleri önbellekte duruyor mu (yoksa 3 saatlik iş iki kez yapılıyor).
+   Karar: kalan < ~3 sa → BEKLE · > ~6 sa VE önbellek DURUYOR → yeniden başlatma tartışılır
+   (`MOTOR_DEVAM` tuzda DEĞİL, `_ONB_ISLETIM`de) · > ~6 sa VE önbellek YOK → mecburen bekle.
+⚠️ Koşucu kendi başına durdurmaz/başlatmaz/bayrak değiştirmez; bir koşuda iki bayrak
+   birden değiştirilmez.
+```
+
+
+---
+
+## 8. 🔴 KOŞU 20 BİTTİ — ÖLÇÜLMÜŞ SONUÇ ve BİR SONRAKİ KOŞUNUN BAYRAĞI
+`2026-10-05 21:20:57 → 10-06 05:35:34` = **8 sa 14 dk 37 sn** · taban `fc380975` · yama yok
+· stderr 0 bayt · *"Doğrulama: tüm yerleşimlerin peteği geçerli ✓"* · önbellek 835 MB.
+
+### Aşama süreleri
+```
+Çöl tavanı              47 dk 02 sn
+Yabancı gövdeler      3 sa 32 dk 33 sn   (işçi 3 GEOS segfault 0xc0000005, 23:07)
+Dönemler (delta)      2 sa 28 dk
+Uzak coğrafya seyreltme + osm + sb      (05:06:57'den sonra)
+Ⓑ ufuk bantları         21 dk 58 sn      (ufuk_bantlari.js 264 MB)
+çıktı yazımı                   4 sn
+çapraz sayaç: yabancı gövde 4273 çağrı / 11 sa 07 dk (iplik toplamı) · varlık devri
+2 sa 56 dk · serbest kenar 1 sa 14 dk · Osmanlı gövde 1 sa 12 dk
+```
+
+### 🔴 BELLEK — koşu DUVARA 0,9 GB KALA geçti, ve yalnız PAGEFILE BÜYÜDÜĞÜ İÇİN sağ kaldı
+`denetim/HAVVA-KOSU20-BELLEK.tsv` (512 kayıt, 22:08:57 → 05:35:03) ölçümü:
+```
+TEPE TOPLAM BELLEK   60.261 MB  (4 süreç)   22:32:23  · Çöl tavanı
+TEPE TEK SÜREÇ       16.440 MB              05:08:32  · Uzak coğrafya seyreltme
+EN AZ BOŞ RAM             2 MB              22:22:54  · Çöl tavanı
+TEPE COMMIT        67,1 / 68,0 GB  (%99)    22:27:24  · Çöl tavanı
+```
+🔴 **COMMIT TOPLAMI SABİT DEĞİL — koşu sırasında BÜYÜDÜ:**
+`46,9 → 53,9 → 65,0 → 66,3 → 66,7 → 67,0 → 68,0 GB` (+21 GB). ⇒ Koşu 22:27'de
+**%99**'a dayandı ve ölmedi ÇÜNKÜ Windows pagefile'ı büyüttü. Disk dolu olsaydı ya da
+pagefile sabitlenmiş olsaydı koşu **1 saatte** ölürdü.
+**Süreç sayısına göre tepe toplam:**
+```
+4 süreç  60.261 MB  (süreç başı 15.065)  ← Çöl tavanı · DUVAR BURADA
+3 süreç  14.147 MB  (süreç başı  4.715)
+2 süreç  10.989 MB  (süreç başı  5.494)
+1 süreç  16.440 MB                        ← seyreltme; süreç sayısıyla ilgisi YOK
+```
+
+### 🔴 BİR SONRAKİ KOŞUNUN BAYRAĞI — artık TAHMİN DEĞİL, ÖLÇÜM
+```
+MOTOR_SUREC_ISCI=2        ✅ ÖLÇÜMLE DOĞRULANDI. Çöl tavanında 2 süreç ≈ 30 GB
+                             (4 süreç 60 GB idi) ⇒ rahat pay. =4 TEKRARLANAMAZ:
+                             sağ kalması pagefile'ın +21 GB büyümesine bağlıydı.
+MOTOR_PARALEL_ISCI        DOKUNULMAZ (varsayılan 4). İki bayrak AYNI koşuda değişmez.
+öteki bayraklar           BİREBİR AYNI: MOTOR_YURUYUS=1 · MOTOR_YURUYUS_SAAT=40 ·
+                          MOTOR_UFUK_BANT=40,56,80 · MOTOR_COL_UFUK_SAAT=56
+```
+📌 Tek süreç tepesi (16,4 GB) işçi sayısından BAĞIMSIZ — `Uzak coğrafya seyreltme`
+aşamasının kendi maliyeti. `=2` onu düşürmez; düşüren tek şey o aşamanın kendi yamasıdır.
+
+### 🔴 EŞİK DERSİ — bu gece ÜÇ KEZ aynı aile
+Koşuyu izlemek için üç eşik yazdım, **ÜÇÜ DE YANLIŞ KALİBREYDİ** ve üçünde de aynı kusur:
+*sayıyı kaynağından koparıp başka bir evrene taşımak.*
+```
+① "osm+sb < 45 dk"        → var OLMAYAN bir aşamaya verildi (koşu hâlâ Dönemler'deydi)
+② "ana süreç > 15.000 MB" → DÖRT süreçli duvardan alınan SÜREÇ BAŞINA sayı, TEK sürece
+                             uygulandı. Öttüğünde boş RAM 6,6 GB ve commit %36'ydı.
+③ "commit > 50 / 66 GB"   → PAYDA SABİT SANILDI. Gerçek payda 46,9'dan 68,0'a BÜYÜDÜ;
+                             46,9 toplamda "50 GB" ERİŞİLEMEZ bir eşiktir.
+```
+⇒ **KURAL: hareketli paydaya karşı MUTLAK eşik, eşik değildir.** Doğrusu YÜZDEdir:
+`commit > %85` · `boş RAM < toplam fiziğin %10'u`. Ve bir eşik yazılırken **hangi
+evrende ölçüldüğü** eşikle AYNI satıra yazılır (kaç süreç · hangi aşama · payda ne).
+
+### Denetim sonucu — çıkış 2, TEK sebep D8
+```
+D1 309/309 ✓ · 1c 4 · 1b 0 · D2 623 kırılma 0 açık ✓ · 2s 187 açık (tavan 189) ·
+2i 1 · 2t 13 · D4 0 hayalet · 4c 127 · 4d 324 · 4s 5 · D5 0 · 5a-muaf 1 ·
+konum 0 ✓ · dönem sağlığı 0 · kaynaksız s: 1930 (tavan 1968) · mükerrer 112 (≤113) ·
+🧊 D7 734 sorgusuz enklav (beklenen 731, +3) · D2sk 🧊 1665/1665
+🔴 ÇIKIŞ 2 · OLCULEMEDI_KOVA: "Değişmez 8 — GÖVDE UYUŞMUYOR: devletler_harita.js
+   yereldeki koşudan, site ise KODLANMIŞ sürümü yüklüyor (yerel ea4fef043e5a ↔
+   site 0ef2d3e23c4e). Değişmez 8 YAYINDA OLMAYAN bir haritayı ölçerdi; soru SORULMADI."
+```
+⇒ Çare `py arac/kodla.py kodla` (169 MB → 10 MB KAYIPSIZ), sonra `denetle.py` TEKRAR.
+**Yayın kararı D8'in cevabına BAĞLI** — ölçülemeyen soru temiz değildir (`§3`).
+
+### 🔴 İKİ GERİLEME — kimlik istendi, sayı yetmez
+```
+1 renksiz künye HARİTADA kullanılıyor   §1.5 bu satırda ✓ 0 diyor ⇒ YENİ HARİTA DELİĞİ
+D7 +3 enklav                            YENİ KAPSAM mı GERÇEK BORÇ mu — çareleri ters
+'dogrulanmadi' BILINEN_ALANLAR'da yok   yerlesimler_ek29.js: Deyrülkamer. O alanı
+                                        hiçbir kod OKUMUYOR (ölçüldü) ve veride göründü.
+```
+
+### 🔴 KOŞU ÇIKTISI git'e GİREMEZ — mimarî, kusur değil
+`.gitignore` TAM YOL olarak dışlıyor: `data/donemler.js` · `data/devletler_harita.js` ·
+`data/petek_govde.js` · `data/ufuk_bantlari.js`. ⇒ Siteye ulaşan tek yol KODLANMIŞ sürüm
+(`devlet_harita_ust.js` · `devlet_parcalar.js` · `petek_govde_parca.js` …).
+⚠️ **Dolayısıyla 8 sa 14 dk'lık işin TEK NÜSHASI `C:\atlas-kosu` worktree'sinde.**
+Kodlanmış sürüm commitlenene kadar o worktree SİLİNMEZ/TEMİZLENMEZ.
+📌 `6831b5da`in commitlediği 4 dosyadan yalnız `denetim/HAVVA-KOSU20-BELLEK.tsv` main'e
+alındı. `data/bolgeler.js` · `data/devirler.js` · `veri-kaynak/motor_kara.geojson`
+**BEKLETİLİYOR**: kodlanmış geometri kardeşleri gelmeden alınırsa main yeni bölge/devir
+ile ESKİ kodlanmış geometriyi birlikte taşır — yarım, tutarsız bir durum. Geometri ailesi
+TEK SETTE iner.
+
+
+---
+
+## 9. 🔴 İKİ HÜKÜM — mesajda kalmasın diye (6 Ekim sabahı)
+
+### 9.1 VEKİL ÖLÇÜTÜ: **KUTU İÇERİR mi** — mesafe eşiği DEĞİL
+`D257` 122 vekil `odak_yer`i bilerek sildi ama **vekil tanımına bir ölçüt vermedi**, ve
+bir mesafe eşiği de vermiyor. W36 bunu uyarı olarak yazdı (*"Singosari ile Malang çok
+yakın olabilir, ölçülmedi"*). Ölçüt şudur ve mesafeye İHTİYAÇ DUYMUYOR:
+```
+🟢 KUTU, yerin kendisini İÇİNE ALIYORSA   → VEKİL DEĞİL
+   Kamera doğru yeri gösterir ve ortada "başka şehir" ADI yoktur.
+   200 km genişliğinde ama yeri içeren bir kutu DOĞRUDUR.
+🔴 NOKTA, BAŞKA BİR ŞEHRİN adına konmuşsa → VEKİL, mesafesi NE OLURSA OLSUN
+   5 km ötedeki başka bir şehre konmuş nokta da vekildir.
+```
+**Uygulandığı vaka:** `Singosari→Malang` 10,5 km, aynı Kab. Malang, odak KUTULU ⇒ kutu
+Singosari'yi içine alıyor ⇒ **vekil değil, İNİYOR.** Gerekçe yakınlık değil İÇERME.
+🔴 **Ve ölçüt değiştiği için BEŞİ DE yeniden sorulur:** kalan 4 (`Pekan Tua` ·
+`Mey-Tuble` · `Anandpur→Lahor` 207,8 km · `Kondurcha→Samara` 50,5-87,6 km) KUTU mu NOKTA
+mı, ve kutuysa yeri İÇERİYOR mu? Kutu+içeriyorsa iner; nokta ise odak YAZILMAZ.
+📌 `Anandpur→Lahor`un 207,8 km olması tek başına hüküm vermez: NOKTA ise vekildir, KUTU
+ise içerip içermediğine bakılır.
+📌 `Pekan Tua` ve `Mey-Tuble`ın mesafesi ÖLÇÜLEMEDİ ve UYDURULMADI (W36) — yeni ölçütle
+mesafeye hiç gerek kalmayabilir.
+
+### 9.2 `MOTOR_UFUK_BANT` → B KUYRUĞUNA, çünkü **BAYRAK TUZDA**
+W48 ölçtü ki `ufuk_bantlari.js` **yetim DEĞİL:** ham dosya (gitignore) → `kodla.py yay …
+bant` → takipli `ufuk_bant_parcalar.js` 45,8 MB + `ufuk_bantlari_ust.js` 5,7 MB →
+`app.js:671/692-803` tembel `<script>` → `index.html:156-161` Ufuk 5/7/10 seçicisi.
+⚠️ **Koordinatörün öncülü YANLIŞTI** ("264 MB'ı kimse okumuyor"). Kaynağı: HAVVA
+*"index.html HAM `ufuk_bantlari`yi yüklemiyor"* dedi — DOĞRU; koordinatör ondan "kimse
+okumuyor" çıkardı ve **kodlama adımını atladı.** Aynı mimariyi (`ham gitignore → kodlanmış
+takipli`) `devletler_harita.js` için AYNI GECE ölçmüş, deseni ikinci kez tanımamış.
+📌 Doğru ve DAHA DAR ifade: **KOŞU 20'nin bantları kodlanmadı** ⇒ o koşunun 21 dk 58 sn'lik
+bant işi hiçbir yere ulaşmadı. Yayındaki bant hâlâ **KOŞU 19** (`3a34f8b0`).
+
+**W48'in önerisi** (veri koşusunda `MOTOR_UFUK_BANT` VERİLMEZ + `kodla bant` atlanır; tam
+inşada verilir) doğru yönde **ama ÖNKOŞULU VAR ve ölçüldü:**
+```
+uret_petek.py:571  _ONB_ISLETIM = { … }   ← tuzdan HARİÇ tutulan MOTOR_* listesi
+uret_petek.py:582  tuz = listede OLMAYAN her MOTOR_* değişkenini İÇERİR
+MOTOR_UFUK_BANT    _ONB_ISLETIM'de YOK (grep: yalnız :2151-2154, kullanım yeri)
+⇒ 🔴 BAYRAK TUZDA. Verilip verilmemesi TUZU DEĞİŞTİRİR.
+```
+⇒ Öneri uygulanırsa **veri koşuları ile tam inşalar AYRI TUZA sahip olur** ve birbirlerinin
+önbelleğini HİÇ kullanamaz — kazanılan 22 dakikadan pahalı olabilir.
+**Önkoşul:** `MOTOR_UFUK_BANT`ın `_ONB_ISLETIM`e taşınması, yani *"bu bayrak geometriyi
+etkilemiyor"*un ÖLÇÜLMESİ (`:2151` bloğu yalnız bant mı üretiyor, `govde`/`osm`/`sb`ye
+dokunuyor mu?). Taşıma `uret_petek.py`yi değiştirir ⇒ **bir kerelik tam inşa**, sonra
+kalıcı kazanç.
+🔴 **ŞİMDİ HİÇBİR ŞEY YAPILMIYOR:** veri koşularında bayrak ŞU ANKİ gibi verilmeye devam
+eder. Kalem `§4 B KUYRUĞU`nun üyesidir (motor tuzu, yalnız tam inşada).
+Yan kalemler: `KOSU-DEVIR-CEVRIMI.md:152/194` notu · `app.js:897` bayat yorumu.
+
+---
+
+## 10. 🔴 6 EKİM ÖĞLE (13:00-13:45) — DOKUZ DAĞITIM, YEDİ HÜKÜM, İKİ KENDİ HATAM
+
+### 10.1 Dokuz hazır kıta doldu — ve bir YAPISAL çare indi
+`M-5866…M-5874` · kıta `1231…1239` · hepsi push'lı. 1230 zaten `SAHIPLIK-OLCULEMEDI-1006`de.
+**Boş kıta kalmadı.** Dağıtılan kalemler UMIT'in *doğruladığı* açık kalem listesinden:
+Gence 1386 kaynağı · 5 gün-hassasiyetli tek-eksik kova · Ren sol yakası (Köln/Aachen/Trier
+1794-1814) · W30'un 264 tırnağı · komşu-kesinti 47'den rastgele 10 · 5 B-SINIR-YAKA ·
+Temeşvar/Brassó/Prekmurje · W37'nin 55 "çözülmedi" · W51'in ucuz okuma turu.
+
+🔴 **ÜÇ MÜKERRER ATAMANIN YAPISAL ÇARESİ — iki satır, ikisi de görev metninde:**
+```
+① MÜKERRER KAPISI GÖREVİN İLK ADIMIDIR. İşçi denetim/'i KENDİ kalemiyle tarar;
+   zaten ölçülmüşse DURUR ve bildirir. Kontrolü, kalemin BAĞLAMINA SAHİP OLAN yapar.
+② GÖREV METNİ TANIM DOSYASINI ADIYLA VERİR, kalemin TARİFİNİ VERMEZ.
+   Yazdığım cümle: "ben kalemin adını biliyorum, rapor tarifini biliyor."
+```
+**Niçin ②:** üç mükerrer atamanın ÜÇÜNDE de kalemi **ezberden** tarif etmiştim. Ezberden
+tarif, kalemi tarif etmez — kalemin bendeki **hatırasını** tarif eder, ve o hatıra bayattır.
+
+### 10.2 🔴 KENDİ HATAM — kuralı yazdıktan 20 dakika sonra ihlal ettim
+`ls denetim/ | grep "W37"` → **0** → *"rapor EMRELIC'te yok"* hükmü → UMIT'i gereksiz
+push'a yönlendirdim. Gerçek: raporlar **W numarasıyla değil KONUYLA** adlandırılıyor
+(`KRONOLOJI-COK-PAKET-1006.md` · `DEVLETLER-SLUG-IZ-1006.md`); W numarası dosyanın
+**İÇİNDE**. Üç dosya da çalışma ağacımda ve `origin/main`de **baştan beri VARDI**.
+⇒ **Ad üzerinden ölçmek de bir VEKİL ÖLÇÜMDÜR** ve adlandırma kuralı bilinmeden yapılmaz.
+Çare iki adım: ① iki üç dosyanın adına bak, kuralı gör ② ad tutmazsa **İÇERİĞİ** tara.
+📌 Ve bu, `oturumlar/OLCUM-KITA-SARTLARI.md §9`un birebir kendisiydi — **o dosyayı
+commitledikten 20 dakika sonra**. Kural yazılı olmayan kural değil, UNUTULAN kuraldır
+(`§9.1`in cümlesi, üçüncü kez doğrulandı). Vaka §9'a eklendi.
+📌 **Ters yönü de yazıldı:** bir adın `denetim/` altında GEÇMESİ kalemin KAPANDIĞINI da
+söylemez — kalemi AÇAN rapor da o adı anar. Bu yüzden `1006` öğlen attığım ad grep'i
+(`Gence → 83 dosya`) hiçbir şeye karar veremezdi, ve ben de ona karar verdirmedim.
+"Mükerrer mi" sorusu ada değil **HÜKME** bakar.
+
+### 10.3 🔴 YENİ TAVAN KURALI — "evren büyürken tavan düşerse"
+Z8 (ODAK-SEKME) evreni **9.984 → 12.576** maddeye çıkarırken tavanları **düşürüyor**
+(`odaksiz 401→374` · `beyanli_yabanci 426→312`). `§3.4(3)` *"iyileşince tavan iner"* der —
+**ama buradaki düşüş bir DÜZELTMEDEN değil EVREN DEĞİŞİMİNDEN geliyor.**
+```
+🔴 EVREN DEĞİŞİRKEN İNEN TAVAN, GEÇİŞ DOSYASI OLMADAN İNMEZ.
+   "27 azaldı" yetmez; 27'nin ADI gerekir: hangi kimlik hangi kovadan hangisine geçti.
+   Aksi hâlde eski tavan ile yeni tavan arasındaki ilişki ÖLÇÜLMEMİŞ olur,
+   ve ölçülmemiş bir düşüş SESSİZ BORÇtur.
+```
+Bu `§3.4(0)`ın ("tavan yazıldığı anda ölçülür, fark ADIYLA karşılaştırılır") evren yüzü.
+Z8'in dört şartı: ① geçiş dosyası adıyla ② yeni tavanlar (`sekme_okunmayan 1408` ·
+`sekme_sessiz 53`) commit anında ölçülür + 1408'in tek cümlelik tanımı ③ hepsi + kod tek
+commit ④ `bilinen_kusur []` (Ogaden) kapanışı GÖSTERİLİR, beyan edilmez.
+
+### 10.4 SIRA KARARI — W39d YERİNDE KALIR (hüküm (a))
+Ölçüm: `ebf1874d` (W39d **diff**) MAIN'DE · `c47120d8` (W39d **uygulanmış**) main'de DEĞİL ·
+`origin/makine/umit` main'den 4 commit önde ⇒ revert teknik olarak **mümkündü**.
+🔴 **Ama W39d, Z8'in RAKİBİ değil ÖNŞARTI:** W39d tavanı SAYIdan **KİMLİK LİSTESİne**
+çevirdi. Sayısal tavanla 9.984→12.576 geçişinde **her rakam oynar** ve *"evren büyüdü"* ile
+*"yeni kusur doğdu"* **ayırt edilemez**. Kimlik listesiyle fark ADIYLA okunur.
+⇒ Gerekçe "revert gereksiz iş" değil (o doğru ama zayıf); gerekçe **denetlenebilirlik**.
+
+### 10.5 SAAR — TAM İNŞA İLE (bölünerek)
+`§1.5`in *"Renksiz künye — HARİTA DELİĞİ"* satırı bugün zaten **🔴 1** (`itilaf-emaneti`/Lvov).
+Saarbrücken noktası veri koşusunda inerse 2 olur — ve çaresi (`renkler.py`) **motor
+tuzunda** (`§9.1②`), yani yalnız tam inşada iner. **Deliği açan ve kapatan AYNI koşuda.**
+```
+ŞİMDİ inebilir : devletler.js itilaf-emaneti kaynağına md.99/100 · saar künyesi md.49
+                 (W54b DEVLETLER partisi, P3-2 BİTTİKTEN SONRA, KENDİ partisinde)
+TAM İNŞADA     : Saarbrücken NOKTASI + RENK-TAMINSA yaması, birlikte
+```
+⚠️ Koşan zincire yeni diff katılmaz — `apply-check`i bozan tam bu.
+⚠️ MEMEL'in yerleşim kolu **bende**, ama DEVLETLER kolu indikten SONRA uygularım: ters
+sırada künyesi olmayan bir kimliğe yerleşim bağlamış olurum.
+📌 **Yeni kalem:** `boya_gerekli:true` beyanı bu kovayı **düşürmüyor**
+(`durum_tablosu.py:663` beyanı yalnız *sessiz* kovaya uyguluyor) ⇒ ya kapsatılır, ya niçin
+kapsamadığı yazılır. Beyan mekanizması VAR ama bu kovayı KAPSAMIYOR.
+
+### 10.6 🆕 🔴 TDV ARAMA KAÇIRMASI SABİT DEĞİL, KAYIYOR (GLM1 ölçtü)
+```
+Eylül'de arama sonucu dönen 137 slug  →  71'i bugün HİÇBİR sorguda dönmüyor
+                                          ve 71'in hepsi CANLI (GET 200, gövdeli)
+bugün dönen yeni aday 29 · aday SAYISI değişen 19 (has 12→8, esferayin 6→1, nisabur 3→5…)
+```
+⇒ 🔴 **"Eylül'de arandı, bulunamadı" BUGÜN İÇİN GEÇERLİ DEĞİLDİR.** Bir yokluk hükmü bir
+TARİHE bağlıdır; eski bir `bulunamadı`yı yeniden aramak **mükerrer değildir**.
+Şartnamedeki `42/50 (~%16 kaçırma)` rakamı **çürütülmedi, SERTLEŞTİ**: oran bilinmiyorsa da,
+bilinen oran bayatlamışsa da sonuç aynı — **yokluk kanıtı yok.** `OLCUM-KITA-SARTLARI.md §7`
+güncellendi (dokuz işçi o dosyayı şu anda okuyor).
+
+### 10.7 GLM1 — hipotezim çürüdü, talimat yine kazandı
+*"475 BOŞ kovası homojen değil, ölçtüğümüz kümelerle daralt"* dedim. Ölçüm: **beş kümede de
+kesişim SIFIR** — BOŞ evreni ötekilerden **ayrık**. Mekanizmam çürük.
+Ama talimat yine kazandı: **35 kalem düştü** (30 ölü-kaydı + 5 mükerrer-dolu → **414**) ve
+asıl bulgu çıktı: **414 slug hakkında bugüne dek HİÇ ölçüm yok** (Eylül hasadı 0 bayt yazıp
+geçmiş, hiçbir aramada aday olarak da dönmemişler). *"Daraltmanın tabanı burası."*
+📌 **Yanlış hipotezi ölçüp çürüten tur, doğrulayan turdan değerlidir.**
+414 GET onaylandı, üç koşulla: ① sonuç dağılımı DÖRT AYRI kovada sayılır
+(`gövde · 302 · 000 · boilerplate`) — çünkü `000` TAŞIMA ARIZASIdır ve boilerplate
+*"çekilemedi"*dir; karışırsa **414 yanlış ölüm** imal ederiz ② inen gövdenin YANINDA HTTP
+durumu durur ve yalnız `denetim/GLM1-*` altına yazılır — **paylaşılan TDV önbelleğine
+YAZILMAZ**, çünkü oradan okuyan bir sonraki işçi metni *"TDV gövdesi"* sayar ve doğrulama
+adımı atlanır. **Durum kodu yanında duran gövde VERİdir; durumsuz gövde İDDİAdır.**
+③ yazma sınırı aynı.
+
+### 10.8 Küçük hükümler
+- **INDIR-1001 emekliliği:** SİLİNMEDİ. Tüketici ölçüldü (çağıran kod **0**), başına
+  mezar taşı: `EMEKLİ — tarih · sebep · yerine geçen c47120d8 · tüketici 0 · KOŞTURMA`.
+  Silmek niçin yanlış: dosya gidince **niçin var olduğu** da gider.
+- **`yer_yama.js` c/e (tibhane · aynalıkavak):** sınıflandırma doğru, ikisi **BENDE** ama
+  **UYGULANMADI** — diff doğrulanamayan tırnağı tutup *"ALINTI DOĞRULANMADI"* ekliyor,
+  kural **KALDIRILIR** diyor. W49 yeniden üretince alınır. *"Bende ve bekliyor" ≠ "düştü".*
+- **Sarkık stash:** üçünün de index yarısı **0 dosya**. İkisi hesapta (su seviyesi ·
+  SABAH KF-1, ikisi de indi); **yalnız `30678e7f`** (bugün 10:16) hesapta değil ⇒ **yalnız
+  onun** WIP yarısı aranacak. `fsck`ı 255'e kadar koşturma. Bulunamazsa *"bulunamadı"*
+  yazılır, *"iş yoktu"* YAZILMAZ.
+- **Agadez (10. madde):** tarihi atlasın **kendi künyesinden** devralınmış ⇒ `§4` ihlali,
+  `D207`nin tam tarifi. Akademik kaynak ayrı kalem.
+- **W30'un "14 ölü slug"unun en az 4'ü SLUG DEĞİL** (W49b ölçtü): atlas künye kimliği ya da
+  `gecitler.js` TÜR değeri. Bir raporun **çerçevesini** çürüten ölçüm — içeriğini değil.
+  ⇒ Kalemin **SINIFINI** doğrula, sonra ölç.
+- **1006c (`79b1ad02`) ONAYLANDI:** sıra tam uygulandı — önce YER kapatma denendi,
+  Piłsudski kaynağı Częstochowa ve Łódź'u 1918 bağlamında **anmadı**, gövdeye eklenmedi,
+  tavan SON ÇARE olarak +2 (2245→2247) ve `denetle.py`de **adıyla** gerekçeli, sabitle
+  **aynı commit**. **Kaynağın hükmü verdiği tavan artışı** — meşru olanın tanımı budur.
+
+---
+
+## 11. 🔴 6 EKİM ÖĞLEDEN SONRA (13:20-14:30) — İNEN İŞ ve ÜÇ YENİ KALEM
+
+### 11.1 İnenler
+```
+f1f39489  UMIT birleştirme: P3-1 (W39d kimlik listeleri) · P3-2 (6 kaynak düzeltmesi) ·
+          1006c (tavan 2247) · W54b DEVLETLER · acik_kovada sıfırlama  — 75 dosya, silinme 0
+63c78baa  MEMEL 1920-01-10 itilaf-emaneti — yerleşim + madde + BILINEN_AYRI TEK commit
+e6032bf8  damga r11817  ·  cabe4e62  §1.5 üretildi
+```
+Kapı (son hâl): çıkış **2** · Değişmez 1 4299/309 · 2 623/0 · 2s **186** (tavan 189) ·
+2sk 2247/tavan 2247 · 2i 171/1 · 2t 13/13 · mükerrer 95/95 · ölü istisna 0/51 · konum 0.
+**Ölçülemeyen tek soru:** Değişmez 8 — `devletler_harita.js` sha uyuşmazlığı, KOŞU 20'nin
+beyanlı hâli (`SABAH-1004 ⑳`, Emre'nin kararını bekliyor).
+
+### 11.2 🆕 🔴 YENİ KURAL ÖNERİSİ — ötün tavan NEYİN aştığını ADIYLA basmalı
+Memel maddesi inince kapı çıkış **1** verdi: `mükerrer madde: 96 (beklenen ≤95)`. Ama
+basılan liste 96'nın yalnız **20'sini** gösteriyordu ⇒ **yeni çift GÖRÜNMÜYORDU** ve bir tur
+tahminle harcandı.
+```
+🔴 §3.4(0) tavan DEĞİŞİRKEN geçiş dosyası istiyor.
+   AYNI MANTIK tavan AŞILIRKEN de geçerli: aşan kalemi göstermeyen bir tavan,
+   okuyanı TAHMİNE zorlar — ve tahmin, ölçümün yerine geçmeye çalışır.
+   Çare ucuz: ① çiftlerin TAMAMINI bas · ② `--mukerrer-dok` bayrağı ·
+   ③ "önceki ölçümde olmayan çiftler" kovasını AYRI bas (en iyisi bu).
+```
+✅ **İNDİ — `5874ef27` (UMIT, aynı gün, dakikalar içinde).** `MUKERRER-LISTE-ASIMDA-TAM`:
+tavan aşılınca **TAM liste**; aşılmadıysa ilk 20 + *"… N çift daha GİZLİ (tavan aşılınca
+hepsi basılır; şimdi `--ayrinti`)"*. 🔴 **SESSİZ KIRPMA KALKTI** — asıl kusur kırpmanın
+kendisi değil, kırpıldığını SÖYLEMEMESİYDİ. İki yönlü sınav GERÇEK veride koştu
+(`e6032bf8` üstünde, Danzig/Memel istisnası dâhil): tavan 95/ölçüm 95 → 20 çift + "75 gizli",
+çıkış 2 · tavan geçici 94 → ✗ ve **95 çiftin 95'i basıldı**, çıkış 1.
+📌 **③ hâlâ açık ve daha güçlü:** bugünkü çare aşan çifti GÖSTERİYOR ama *"hangisi YENİ"*
+sorusunu okuyana bırakıyor. Tam çare mükerrer tavanını **sayıdan KİMLİK LİSTESİNE**
+çevirmek — W39d'nin odakta yaptığının aynısı. Ayrı kalem (UMIT önerdi).
+Çözüm yolu doğru bulundu: çift `BILINEN_AYRI`ya **ADIYLA** yazıldı (Danzig↔Memel), sayı
+95'e döndü, ölü istisna 0/**51**. 🔴 **Başlık DEĞİŞTİRİLMEDİ** — listenin kendi kuralı:
+*ölçütü atlatmak için başlığı yeniden yazmak maddeyi mükerrer olmaktan çıkarmaz, yalnız
+SAYACI kör eder.* Ve hipotez **varsayılmadı**: aday yazıldı, aletin KENDİ iki yönlü sınavı
+(ölü istisna sayacı) onu doğruladı. Yanlış olsaydı sayaç 1 olur ve kapı yine öterdi.
+
+### 11.3 🆕 SAARBRÜCKEN'İ TUTMAK, MADDESİNİ DE TUTMAYI ZORUNLU KILIYOR
+UMIT'in diff'i Memel ile Saarbrücken'i birlikte taşıyordu; `git apply --exclude` ile ayrıldı.
+Noktanın gerekçesi biliniyordu (boyasız kimlik ⇒ `§1.5` harita deliği 1→2, çaresi
+`renkler.py` = motor tuzu ⇒ yalnız tam inşa). **Yeni olan:** Saar MADDESİ de alınamaz,
+çünkü `yer_id:"Saarbrücken"` noktası olmadan **KIRIK ATIF**tır ve odak kapısının yenisine
+**0 toleransı** var.
+⇒ **Bir noktayı ertelemek, ona atıf yapan maddeyi de ertelemeyi zorunlu kılar.** İkisi tek
+partide iner. (Satır 73'teki 1920-12-17 Saar maddesi zaten vardı — kronoloji katmanında
+boya borcu yok, dokunulmadı.)
+
+### 11.4 🔴 ÜÇ YENİ KALEM — açık, sahibi yazılı
+```
+① TAVAN-TEL-1006 → LAB (gönderildi)
+   24 `BEKLENEN_*` sabitinin kaçı gerçekten ÇIKIŞ KODUNA bağlı?
+   Tetikleyen ölçüm: `YIL-TEMSİLÎ BORÇ tavanı aşıldı (165 > 151)` satırı BASILIYOR ama
+   hükmü DEĞİŞTİRMİYOR (`denetle.py:628`de sabit TANIMLI). Yani tavan VAR, AŞILMIŞ,
+   bloke ETMİYOR. Üç kova: 🔴 BAĞLI · 🟡 YARI BAĞLI · ⚪ DEKORATİF.
+   Yöntem İKİ TANE ve ikisi de şart: statik (`ast`, akış izle) + DİNAMİK (sabiti bir
+   eksilt, ÇIKIŞ KODU değişiyor mu). Dinamik olmadan "çalışıyor" denemez.
+   ⚠️ İki LAB oturumu var; görev ikisine de gitti (adres hatam). Önce başlayan sahiptir,
+   tahtaya yazacak.
+② MUKERRER TAVANI → KİMLİK LİSTESİ (UMIT önerdi, §11.2 ③ — sayı değil liste)
+   Bugün inen çare aşan çifti gösteriyor; "hangisi YENİ" sorusu açık kalıyor.
+   🔴 2S_YIL_BORC = 151'i BEN yazmışım: `4113f793` M-ALANI-0920 (UMIT ölçtü,
+   `git log -S` ile). Yani §11.4①'in tetikleyicisi kendi tavanım. UMIT o sabitin
+   ihlal bayrağına bakıp bakmadığını ÖLÇMEDİ ve ölçmüyor — LAB'da.
+③ GLM1 — 893 ÖLÜ SLUGUN BÖLÜNMESİ, birleştirmeden ÖNCE
+   GLM1 ölçtü: 411 ölünün 13'ü `--` içeriyor, 4'ünün `--`suz İKİZİ AYNI evrende.
+   HÜKÜM: bu, Eylül hasatçısının **slug VARYANTI ÜRETTİĞİNİN** ve başarısızlıkları VERİ
+   gibi kaydettiğinin imzasıdır. ⇒ 893 evreninin bir kısmı TDV hakkında bir ölçüm DEĞİL,
+   BİZİM TAHMİNLERİMİZ hakkında bir kayıt. Birleştirmeye girerse kendi uydurduğumuz slug
+   *"TDV'de bu madde yok"* diye kütüğe geçer — borç değil **İMAL EDİLMİŞ BORÇ**.
+   Bölme ölçütü `--` DEĞİL, **VERİDE GEÇİYOR MU**: (a) veriden gelen = gerçek borç ·
+   (b) üretilmiş = borç değil · (c) ayırt edilemedi. 411'e kapsayıcı-aday araması
+   BEKLETİLDİ: (b) kovasında var olmayan bir maddenin yerine geçecek madde aranır.
+```
+
+### 11.5 Kapanan kalemler
+- **Sarkık stash:** `30678e7f`in WIP yarısı **151411bc** bulundu (UMIT, hedefli tarama).
+  İçerik W46c'nin ÖNERİSİ (7 yerleşim ucu), **TEK NÜSHA İŞ DEĞİL** — öneri raporlarda
+  tarif edilmiş. `denetim/UMIT-W46c-YERLESIM-STASH-1006.diff` olarak commitlenecek
+  (gc sigortası) **iki şartla:** ① başına *"kaynaklar KAYIT DÜZEYİNDE YOK, olduğu gibi
+  uygulanmaz"* satırı ② adında STASH geçecek ki kimse teslim edilmiş yama sanmasın.
+  📌 Kural MEKANİZMAYLA doğrulandı: stash'i yapan W46c kendi worktree'sindeydi,
+  `refs/stash` ORTAK olduğu için W52/W56 onu kendi listelerinde gördü.
+- **INDIR-1001:** tüketici ölçüldü (0), mezar taşı kondu, SİLİNMEDİ.
+- **Kişi kaynağı 266 → 0:** GERÇEK İŞ, sayaç artefaktı DEĞİL (ayrıldı: 4 commit 277
+  `kaynak` satırı; 257+2+29 = 288 = toplam kayıt). Ayırma zorunluydu çünkü aynı gün hem
+  veri hem sayaç değişmişti.
+
+### 11.6 🔴 BUGÜNÜN HATA AİLESİ — aynı sınıf ÜÇ KEZ, üçü de bende
+```
+① tırnaklı anahtar deseni   <->  veri tırnaksız anahtar kullanıyor
+② dosya ADINDA W numarası   <->  raporlar KONUYLA adlandırılmış, numara İÇİNDE
+③ ad ve kaynak aynı satırda <->  kayıt ÇOK SATIRLI
+```
+Üçünün ortak yüzü: **sıfır ya da küçük bir sayı geldi ve İNANDIRICIYDI.** Yanlış pozitif
+kendini ele verir; yanlış NEGATİF vermez — bu aile o yüzden daha tehlikeli.
+📌 Ve ③'ün sonucu TERS yöndeydi: yanlış ölçümüm beni *"borç ödenmemiş"* demeye götürüyordu.
+Yani aynı hata sınıfı bir kez borcu GİZLER, bir kez de ÖDENMİŞ borcu ödenmemiş gösterir.
+**Çare:** saymadan önce iki üç kaydı GÖZLE OKU, biçimi gör, sonra say. Ve bir sayı
+hipotezini DOĞRULUYORSA bir kez daha bak.
+
+---
+
+## 12. 🆕 `YER-ARAMA-KUTUSU-1006` — Emre'nin doğrudan isteği, UMIT'te
+
+**Emre, 6 Ekim 2026 (iki mesaj):** haritada o anki tarihte bir metin kutusu olsun; yer adı
+yazılıp seçilince **odak oraya gitsin**. Kutunun kaynağı **o gün AKTİF olan** yerler olsun —
+*"bir şehir o yılda henüz kayıtlarda ve haritada yok ise listede GELMESİN"*. Yazarken
+**aşağı açılan liste** gelsin. Kapsam: **şehir · ülke · bölge · kale** türü yer adları.
+
+### Niçin UMIT (koordinatör değil)
+`js/app.js` · `index.html` · `css/style.css` → `TOPOLOJI.md`de UMIT (yazıcı/kod makinesi) ·
+`§7.1` koordinatörün bağlamını uygulama işiyle doldurmasını yasaklıyor · UMIT'in koşan
+zincirleri (P3 · Z8 · W32b) `arac/` + `denetim/` + kronoloji verisinde ⇒ **`app.js` çakışması
+YOK, paralel inebilir** (`UI2-YAMA-APP` zaten dokunulmayanlar listesinde).
+
+### Dağıtmadan ÖNCE ölçtüğüm üç şey — ikisi mükerrer işi önledi
+```
+① DİZİN PENCERESİNDE ZATEN ARAMA VAR: app.js:9177 dizinDoldur(sekme) ·
+   app.js:9382 arama input dinleyicisi · index.html:581 <input type="search" id="kr-ara"> ·
+   index.html:1003 #dizin-sekmeler  ⇒ "sıfırdan ikinci arama yazma" şartı buradan doğdu
+② `tur:` alanı Emre'nin sınıflarını ZATEN taşıyor (tek satır deseniyle):
+   sehir 2532 · kale 729 · liman 601 · bolge 232 · kasaba 69 · koy 15 · vaha 1 ·
+   konfederasyon 1 = ~4180. Oysa yerleşim 4299 ⇒ ~119'u desene girmiyor.
+   ⚠️ Bu sayı VEKİL (tek satır grep) — kesin sayı üreticiden alınacak, fark ÖLÇÜLECEK.
+③ "Ülke" yerleşim DEĞİL: data/devletler.js künyesi (896), f:/t: penceresi var.
+```
+
+### Bağlayıcı şartlar (tasarım kararı — uygulama UMIT'in)
+```
+(A) 🔴 TEK DİZİN ÜRETİCİSİ. Kutunun evreni, haritanın noktayı ÇİZMEYE karar verdiği
+    yüklemenin AYNISINDAN gelir. DOSYA ADIYLA SÜZME YASAK — D267'nin tam konusu.
+(B) 🔴 ÖLÇÜT "SENE" DEĞİL O GÜNKÜ GÜN. Emre "sene" dedi, atlas GÜN hassasiyetinde;
+    Aralık'ta fethedilen şehir Ocak'ta çıkarsa isteğin KENDİSİ ihlal olur.
+    Ve "aktif" için kutu kendi kuralını yazmaz: HARİTANIN yüklemini çağırır.
+(C) Türkçe normalleştirme (D215) + 🔴 parantezli ikinci ad: ad:"Klaipėda (Memel)" —
+    "Memel" yazan BULMALI.
+(D) Mükerrer ad AYIRT EDİLMELİ: satır `ad · tur · O GÜNÜN SAHİBİ` göstersin
+    (sahip boyama için zaten hesaplı, yeniden hesaplanmaz).
+(E) 🔴 ODAK: mevcut mekanizma ÇAĞRILIR, yeni flyTo YAZILMAZ. Sebep: denetle_yayin.py'nin
+    odak kapısı odak çözümüne bağlı ve kırık atıfa 0 toleranslı ⇒ paralel yol KAPISIZ olur.
+(F) Mevcut aramayla ilişkiyi UMIT ölçer ve önerir; bağlayıcı olan tek şey (A).
+(G) Aktif küme GÜN DEĞİŞİMİNDE BİR KEZ hesaplanır. Hatanın yaşadığı yer tuş vuruşu değil,
+    gün değişiminde ÖNBELLEĞİ GEÇERSİZ KILMAK.
+(H) 🔴 İKİ YÖNLÜ SINAV ZORUNLU (§11): gün D−1 → GÖRÜNMEMELİ · gün D+1 → GÖRÜNMELİ.
+    Sahibi değişen yer uygun DEĞİL (hep aktif); VARLIĞA GİREN/ÇIKAN bir yer seçilip
+    adı yazılacak.
+(I) KAPSAM DIŞI ama BEYANLA: eşanlam sözlüğü (D215 ayrı iş) · yazım hatası toleransı ·
+    bolgeler.js üretilmiş poligonları (tur:"bolge" 232 niyeti karşılıyorsa gerek yok — ÖLÇ).
+(J) ÖNGÖRÜ ÖNCE: 1453-05-29'da kaç kalem · 1920-01-10'da kaç · NİÇİN (mekanizma).
+```
+KAPI: `node --check js/app.js` · `py arac/denetle_arayuz.py` TEMİZ dönmeli ·
+`py arac/denetle.py` çıkış kodu DEĞİŞMEMELİ (bugün 2, tek sebep Değişmez 8).
+BİÇİM: arayüz işi, Emre GÖRECEK ⇒ **diff değil, dalına UYGULA**; merge + damga + yayın bende.
+TESLİM: `denetim/UMIT-YER-ARAMA-KUTUSU-1006.md`, (A)–(J)'nin her birine bir satır.
+
+---
+
+## 13. 🔴 6 EKİM AKŞAMI — KOŞU 21 ve "+25 BİR TAVAN MESELESİ DEĞİL"
+
+### 13.1 KOŞU 21 — `32c5f22e`, on bir yama, Emre'nin kararıyla
+Emre (6 Ekim, UMIT ve HAVVA oturumları): *"H-0020 bant bozukluğunu HAVVA bugün düzeltsin;
+koşu gerekiyorsa koşuyla bugün; koşu 19:00'dan ÖNCE BAŞLATILMAYACAK"* + **yayın YOK**.
+⇒ `Z-0029`un beklediği karar BU. `§9.1②`nin "biriken yamalar TEK SEFERDE girer"ının zamanı.
+```
+18efae1e  MOTOR-BANT-TAM-1005          bantlar İÇ İÇE (halka çıkarması kalktı)
+413867a5  sekiz tuz yaması             V-KID (çökme sigortası) · 0083-B KATMAN-BINME ·
+                                       BOZUK-KIYI (58→22) · BILINEN-ALAN · 93 boya ·
+                                       W54b RENK-TAMINSA (§1.5 HARİTA DELİĞİ 1→0) ·
+                                       DOBROTIC · epok-yorum
+32c5f22e  M1+M2 (1600'ün mühürlü teşhisi)
+PARMAK İZİ: uret_petek 108ec62bd5ec200d · renkler 25be10fa0ea0dbd5 ·
+            girdi 31edf55caf42ac93 · motor_onbellek b9f36f427dc285ce
+ATLANDI: ONCE1281-CISLEITHANIA-RENK-1005 — W54b ile `itilaf-emaneti`de ÇATIŞIYOR
+         (#9e9e9e ↔ #b0863a); ikisi uygulanırsa sözlükte mükerrer anahtar, SESSİZCE
+         son kazanan kalır. Doğrulama: `grep -c '"itilaf-emaneti"'` = 1.
+ARAYÜZ: üç app.js yolunun HİÇBİRİ main'de DEĞİL. Yayın kapalı, ve doğru arayüz
+        koşunun ÜRETECEĞİ bant sözleşmesine bağlı — henüz ölçülmedi.
+        `af7d4e99` revert EDİLMEDİ, yerinde bekliyor.
+```
+🔴 **HAVVA HİÇBİR YAMA UYGULAMIYOR** — `fetch` → `32c5f22e` → koş. Tek aktör uyguladığı
+için sıra riski bir kez çözüldü, ve HAVVA'nın 5 Ekim'deki izin engeli hiç devreye girmedi.
+Bu, "izin aklaması" sorusunu da ortadan kaldırdı: dört tuz dosyası `§7`de koordinatörün.
+
+### 13.2 Yedi önlem — ve ikisi bugüne kadar HİÇ yapılmamıştı
+```
+① MOTOR_SUREC_ISCI=2      HAVVA ölçtü: ISCI=4 → 60,3 GB commit, boş RAM 2 MB
+② kaynak_durum kapat KOSU öteki bekçiler kurulmaz (çıkış 3), CPU/RAM koşuya kalır
+③ boşta claude oturumları ölçüldü: 44 süreç / 5.689 MB — en büyük arka plan tüketicisi
+④ 🔴 BOŞ DİSK             HİÇ ÖLÇÜLMEMİŞTİ. HAVVA ölçtü: 329 GB boş (C: 465/136).
+                          Koşu ~265 MB yazıyor ⇒ pay BİN KAT. Soru kalıcı kapandı.
+⑤ tuz dondu              8 Ağustos: 83 dakika koşup EN SONDA reddedildi
+⑥ C:\atlas-kosu'ya dokunulmaz — KOŞU 20 çıktısı, karşılaştırmanın ÖNCE tabanı
+⑦ restart sonrası ② yeniden ilan
+```
+📌 **SLACK HÜKMÜ (yeni, ve genelleşir):** HAVVA'nın KOŞU 20 ölçüm betiği koşuyla ~3 GB
+paylaşacaktı. Durdurdum, gerekçe **slack hesabı**: betiğin girdisi DEĞİŞMEYEN bir çıktı ve
+sonucu ancak sabah kullanılacak ⇒ **8 saat slack**; koşunun penceresi Emre'nin kararı ve
+~8 saat sürüyor ⇒ **sıfır slack**. Slack'i OLAN sürecin belleğini, slack'i OLMAYANA vermek
+doğrudur. Ve hükmü ölçüme bağladım (fiziksel RAM'in %80'i): HAVVA ölçtü — **23,7 GB**, tepe
+tek başına ~30 GB ⇒ şart İMKÂNSIZ, betik durdu. **Ölçülmüş bir istisna meşru, ölçülmemiş
+bir rahatlık değil.**
+🟢 Ve HAVVA durdurmayı KAZANCA çevirdi: kontrol noktalı sürüm (`bant_olc2.py`) her aşamayı
+diske yazıyor ⇒ koşudan sonra 28 dakikalık kurulum tekrarlanmayacak.
+
+### 13.3 🔴 BUGÜNÜN EN DEĞERLİ ÇERÇEVE DEĞİŞİKLİĞİ — "+25" bir tavan meselesi DEĞİL
+UMIT bir **biriktirme** fark etti: Lugos +2 · Tebriz +1 · Mâzenderan +4 · DEGISMEZ2 +14 ·
+TRAKYA H0015 +4 = **+25** bekleyen 2sk tavan hareketi. Tek tek bakan hiçbir kalem görmezdi.
+Ve LAB'ın ölçümü tuzağı tamamlıyor: **`BEKLENEN_2S_YALNIZ_TARAF` DEKORATİF** ⇒ diff'leri
+tavan oynatmadan indirirsek kapı **ÖTMEZ** ve +25'in tamamı sessiz borç olur; oynatırsak kör
+bir sayıyı güzelleştiririz.
+
+**SONRA LUGOS ÖLÇÜMÜ GELDİ VE İKİ SEÇENEĞİMİN İKİSİNİ DE AŞTI.** Ben (B) *"yeri maddeye
+ekle"* ve *"tavan +2 yaz"* sunmuştum. Ölçüm (B)'yi reddetti — Trianon maddesi (`olaylar_ok109.js:151`)
+`ERDEL` diyor, Banat/Krassó-Szörény **ANILMIYOR** ⇒ yer eklemek tesadüfî kapanma imalatı.
+Birim ölçümü `denetle`nin KENDİ işlevleriyle: Lugos `1918-11-11` YER **0**/TARAF 7 ·
+`1920-06-04` YER **0**/TARAF 1.
+🟢 **Ama raporun YAN KALEMİ asıl çareydi ve ben onu seçeneklere koymamıştım:**
+> *"Banat'ın Trianon devrini ADIYLA anan kaynaklı madde yazılırsa Lugos+Temeşvar+Yanova
+> `1920-06-04` birimleri YER'den kapanır, **tavan DÜŞER**."*
+⇒ **EKSİK MADDEYİ YAZ.** Fark tek cümlede: (B) var olan bir maddeye **ait olmayan** bir yer
+eklerdi; bu ise **ait olduğu maddeyi var ediyor**. İlki tavanı sahte düşürür, ikincisi
+GERÇEKTEN düşürür. `§3.4(3)`ün "kapatan iş"i tam budur — tavan aritmetiği değil, MADDE.
+
+### 13.4 ⇒ 1609'un görevi YENİDEN YAZILDI
+```
+YANLIŞ SORU : "+25'in kaçı gerçekten yalnız-TARAF sınıfı?"   (tavan yazdırır)
+DOĞRU SORU  : her yalnız-TARAF birimi için HANGİ MADDE EKSİK?
+① EKSİK MADDE VAR → yazılır, tavan DÜŞER    (Lugos/Temeşvar/Yanova: Banat devri)
+② madde var, yer o maddenin KONUSU DEĞİL   → tavan hakkı
+③ ÖLÇÜLEMEDİ                                → öyle yazılır
+```
+🔴 **VE SEBEBİ PROJENİN VAR OLMA SEBEBİ:** `CLAUDE.md §1` — *"Amaç kronoloji ile haritanın
+birbirini DOĞRULAMASI; bir madde okunduğunda haritada TAM O DEĞİŞİM görünmeli."*
+**Yalnız-TARAF kapanışı, o doğrulamanın YARIM hâlidir**: değişim var, hangi yerde olduğu
+yazılmamış. ⇒ **+25 bir borç sayısı değil, EKSİK MADDE SAYACI.** Bir tavanı oynatmak o
+sayacı susturur; madde yazmak onu **öder**.
+
+### 13.5 SIRA — üçü de şart, ve 2sk tavanları DONDU
+```
+1. 1609 tek sınıf ölçümü (yeni çerçeveyle) — koşu sağlıklı başladıktan SONRA
+2. BEKLENEN_2S_YALNIZ_TARAF BAĞLANIR (LAB dekoratif olduğunu ölçtü)
+3. ANCAK ONDAN SONRA tavan + diff AYNI commit'lerde (§3.4(2))
+ŞİMDİ İNEBİLİR: her kalemin 2sk'ya DOKUNMAYAN kolları (günler, `isg`, kaynak satırları,
+                çelişki notları, `kaynaksız s:` iyileştirmeleri)
+```
+
+### 13.6 Öteki hükümler
+- **Şema `alinti:` → `ozet:` (a)** — ölçülmüş tüketici listesi (292 satır/44 dosya) KIRILAN
+  tek tüketici gösterdi (`ARAC-ISY-OLCUM-0913.js:46`), o AYNI commit'te. Gerekçe bugünün
+  tırnak hükmünün şema yüzü: `alinti` ADINI taşıyan alan özet tutuyorsa iddia ŞEMA
+  DÜZEYİNDE yapılıyor, ve *"şerh tırnağı kurtarmaz; araç tırnağı SAYAR."*
+  🔴 Repo DIŞI tüketici (W30 `evren.py`) commit mesajına ADIYLA yazılacak.
+- **TEBRIZ KOORD-40** — D7 `733` düz kalıyor (37'lik varyant üç yeni ada üretiyordu).
+- **MÂZENDERAN E, C REDDEDİLDİ** — C `timurlu`yu 1413'e kadar yazıp **deliği kapatmak için
+  sahiplik uyduruyordu**. `__BOSLUK__` bu projenin beyan mekanizması: kaynak `1405-07`
+  sahibini söylemiyorsa atlas da söylemez.
+- **ALINTI-264: 21 "desteksiz" DURDU.** Sebep bir ARAÇ KÖRLÜĞÜ: `ARAC-TDV-CIKARICI-1006.tam()`
+  madde ÖZETİNİ (`div.article_info`) gövdeye katmıyor ⇒ **7 birebir tırnak "YOK" sayılmış.**
+  🔴 Benim *"doğrulanamayan tırnak KALDIRILIR"* kuralımın ÖNKOŞULU çökmüş: gövde eksikse
+  kural DOĞRU alıntıyı yok etmeye başlar. 221 "anlam doğru" indi (metin kalıyor, yalnız
+  tırnak kalkıyor ⇒ kesinlik kaybı, doğruluk kaybı değil); **21 "desteksiz" bekliyor**,
+  çünkü "uydurma" bir kayıt hakkında verilebilecek en ağır hükümdür ve EKSİK gövdeyle
+  verilmez. 1608: çıkarıcı düzeltmesi + **5.888 tırnağın YENİDEN ölçümü** (oran taşınmaz).
+
+---
+
+## 14. 🔴 6 EKİM 19:00+ — KOŞU 21 SÜRERKEN: ROTUS indi · Hanak elendi · İKİ YENİ KALEM
+
+KOŞU 21 **19:02:31**'de başladı (HAVVA, temel `99d3eacc`, parmak izi 4/4 TUTTU,
+boş disk 328 GB, boş RAM 16,1/23,7 GB, `kaynak_durum kapat --kod KOSU` çıkış 0).
+Yayın YOK. Bu bölüm koşu sürerken yapılanı ve koşudan SONRAYA kalanı ayırıyor.
+
+### 14.1 İNEN — `fa046560` ROTUS iskeleti (koşuyu etkilemiyor, ÖLÇÜLDÜ)
+`data/rotus.js` (`window.ROTUS = []` + §1.2 tam şema yorumu) + `index.html:1993`
+yükleme satırı, **TEK commit** (R0: biri olmadan öteki ilk kaydı sessizce görünmez
+kılar, D225 ailesi).
+🔴 **Beklediğim `ROTUS-ISKELET-1006-KOORD.diff` HİÇ ÜRETİLMEMİŞTİ** ve bunu varsaymak
+yerine ölçtüm: `3e158190`in kendi mesajı *"kod YOK"* diyor, ve ROTUS adını taşıyan
+dosya bütün dallarda arandı — yalnız iki TASARIM belgesi çıktı. İskeleti belgenin
+kendi önerisine göre (`P84-ROTUS-TASARIM-1006b §7①`) koordinatör yazdı.
+⇒ **Ders adayı: "bende bekleyen diff" listesi, diff'in VAR OLDUĞUNU ölçmeden tutulmaz.**
+Bir kalem günlerce "uygulanacak" diye bekledi, oysa uygulanacak şey yoktu.
+
+**Koşu sürerken `data/`ya dokunmanın gerekçesi — muafiyet İDDİA EDİLMEDİ, ÖLÇÜLDÜ:**
+| ölçüm | sonuç |
+|---|---|
+| `girdi.GIRDI_DOSYALARI` içinde 'rotus' | **HİÇBİRİ** (93 dosya; `girdi.py` glob DEĞİL izin listesi) |
+| `C:/atlas-kosu21/data/rotus.js` | **YOK** — koşu ağacı `99d3eacc`'de, dosyayı görmüyor |
+| motor tuzu (4 dosya) | dördü de **TUTTU** |
+⚠️ **Aynı muafiyet `yer_yama` taşımasına VERİLMEDİ:** o 103 dosya izin listesinin
+İÇİNDE ve büyük bir yeniden düzenleme ⇒ koşudan SONRA. Fark kolaylık değil ÖLÇÜM:
+biri motorun okuduğu kümede, öteki değil.
+
+### 14.2 KAPANAN — Hanak, D8a'nın +1'i (`denetim/HANAK-D8A-1006.md`)
+Saarbrücken hipotezim çürütüldükten sonra üç mekanizma da ELENDİ: Hanak kaydı
+`e634fdad~1` ↔ HEAD **BİREBİR AYNI** · `yer_yama*.js`te Hanak **YOK** · hattın dosyası
+`d_sinirlar.js`e bugün **SIFIR commit** · Hanak'a 60 km içinde bugün dokunulan nokta
+**SIFIR** (evren ADIYLA: bugünün 9 yerleşim dosyasında `lat`+`lon` taşıyan **79**
+eklenen/silinen satır — küme boş DEĞİLDİ, 79 aday vardı).
+🔴 **Ama Değişmez 8 EMRELIC'te ÖLÇÜLEMEDİ** ⇒ *"+1 bugünden gelmiyor"* ÖLÇÜLDÜ,
+*"+1 bayat gövde eseri"* **HİPOTEZ**. İkisi aynı cümleye konmadı.
+KOŞU 21 sınavı HAVVA'ya verildi (M-5876): rapora tek satır `8a Hanak: KAYBOLDU / KALDI`.
+
+### 14.3 🆕 KALEM A — kaynaksız `s:` tavanı 18 PUAN GEVŞEK (koşu sonrası)
+Ölçüm **1912**, tavan **1930** ⇒ §3.4(3) indirmeyi emrediyor ve bırakılırsa aradaki
+18 puan **sessiz borç** olur. İNDİRİLMEDİ, sebebi §3.4(0): *"tavan yazıldığı anda
+ölçülür"*. Dokuz makine 19:00 dondurmasına commit ediyordu; şimdi yazılacak sabit
+dakikalar içinde bayatlardı — ve kaynaksızlık sayılarının **bir günde 5 kayıt**
+oynadığı zaten ölçülmüştü (§3.4(0) vakası).
+⇒ **Dondurma oturunca: yeniden ölç, farkı ADIYLA karşılaştır, indir.**
+`kayıt-kaynaksız 2301` tavanla TAM hizada, o oynamıyor.
+
+### 14.4 🆕 KALEM B — TAHTA NUMARASI MAKİNELER ARASI ÇAKIŞTI (M-5875 iki kez)
+**Ölçülen vaka:** HAVVA `M-5875`i yazıp origin'e push etti (`a6fd37ab`); ben de aynı
+dakikada `M-5875` ürettim (`792c277a`) ve push'um **non-fast-forward REDDEDİLDİ**.
+`tahta.py` bunu doğru teşhis etti ve kendisi söyledi: *"commit 792c277a UZAKTA YOK —
+MESAJ KİMSEYE ULAŞMADI. TEKRAR YAZMA."*
+🟢 **Sistem BU VAKADA kazandı, ve niçin kazandığı önemli:** numarayı yerel sayaç
+dağıtıyor, ama `git push` SERİLEŞTİRİYOR ⇒ origin'de iki farklı M-5875 olamaz.
+Çakışmayı yakalayan kapı tahta değil **git**.
+🔴 **KALAN RİSK, ve dar ama gerçek:** `tahta_bekci.py` **YEREL** `tahta.json`u okur.
+Push'u reddedilmiş bir makinede yerel M-5875 ile origin'in M-5875'i **AYRI
+MESAJLARDIR** ve "numarasıyla atıf" disiplini tam orada kırılır. Bir oturum
+*"M-5875'te dediğim gibi"* yazarsa, karşı taraf BAŞKA bir mesajı okur.
+**Çare ÖNERİSİ (hüküm Emre'de / ayrı kalem):** numara `<MAKİNE>-M-####` biçiminde
+makine önekli üretilsin; ya da `tahta.py` push reddedilince yerel kaydı da GERİ ALSIN
+(şu an bırakıyor ve "tekrar yazma" diyor — kayıt yerelde ÖLÜ olarak kalıyor).
+⚠️ Bu bir ihlal değil **BEYAN**: bugün hiçbir şey kaybolmadı, kaybolabilirdi.
+
+**Çözüm biçimi (uygulandı):** kendi tahta commit'im geri alındı (`reset --soft` +
+yalnız iki tahta dosyasına `restore`, başkasının iki `M` dosyası KORUNDU),
+`origin/main` merge edildi, push geçti, mesaj **M-5876** olarak yeniden yazıldı.
+17,5 MB'lık `tahta.json` çatışması böylece hiç oluşmadı.
+**Teslim kanıtı (§7.1 ⑤b) — geri okundu:** M-5876 · 2565 karakter · son cümle
+("Sorun yoksa YAZMA.") ve altı işaret (HÜKÜM ①, HÜKÜM ②, KAYBOLDU / KALDI,
+yer_yama, 1912, berabis) **hepsi VAR** ⇒ kesilme YOK. Satır sonları boşluğa
+çevrilmiş (21 `\n` → 0), içerik kaybı değil.
+⚠️ Ve geri okuma betiğim ilk denemede **0 kayıt** buldu, çünkü alanı `id` sandım —
+gerçek ad `no`, gönderen `kimden`. **D267 aynen tekrarlandı:** desen veriye uymazsa
+araç sessizce "yok" der. Boş sonucu "mesaj gitmemiş" diye okumadım, yapıyı ölçtüm.
+
+### 14.5 BEKLETİLEN — `HAVVA-UFUK-RENK-1006.diff` (js/app.js)
+Hükmüm HAVVA'ya yazıldı: **koşu bitene kadar BEKLE.** app.js motor tuzunda DEĞİL,
+teknik olarak inebilirdi; inmiyor çünkü 40 dakikalık geometri inşasının ortasında
+arayüz renk mantığı oynarsa koşu sonunda *"renk doğru mu"* sorusu İKİ değişkenle
+sorulur ve ayrılamaz. Koşu bitince İLK sırada.
+
+### 14.6 KOŞU 20 TABANI (HAVVA ölçtü, rapora girecek)
+çizilen yabancı gövde ↔ 5-7 bandı: 3806 kayıtta **360 kopuk (%9,5)**, 17 tamamen
+kopuk, boşluk medyan 53 km (Q1 31 · Q3 77 · maks 238) · çizilen r ~185-200 km ↔
+`PETEK_D` r ~220-230 km · kopukların **%98**'inde `PETEK_D` − çizilen farkı var.
+🟢 **OSMANLI'DA 0 KOPUK** (5-7'de 563, 7-10'da 449 kayıt) ⇒ 1600'ün PUAN KAPISI
+ayrımını destekliyor. Sahra'da **berabis** ve **tuareg-adag** TAMAMEN kopuk
+(boşluk ~62 km) — ayrı kalem, rapora ADIYLA girsin.
+③=④ aynı küme (523 boş); ölçülen 400'de komşu gövde 266 · deniz 49 · serbest kara 85.
+⚠️ *"5-7 var, 7-10 yok"* **1205 kayıt SINIFLANMADI** — bu bir eksiklik değil BEYAN,
+öyle yazılacak.
+
+### 14.7 🔴 §14.1'İN DERS ADAYI YANLIŞTI — ve doğrusu daha keskin
+
+§14.1'de *"ROTUS iskelet diff'i HİÇ ÜRETİLMEMİŞTİ"* yazdım ve ondan şu dersi çıkardım:
+*"bende bekleyen diff listesi, diff'in VAR OLDUĞUNU ölçmeden tutulmaz."*
+**İkisi de yanlıştı.** Diff ÜRETİLMİŞTİ (`b747b6a1`, `denetim/ROTUS-ISKELET-1006-KOORD.diff`).
+
+**Niçin yanlış ölçtüm:** bütün dalları taradım — ama taramayı **`git fetch`TEN ÖNCE**
+yaptım. O anda `origin/makine/umit` elimde `d851ee04`tü; fetch'ten sonra `b747b6a1`
+oldu ve diff onun içindeydi. Yani komut doğruydu, **referans bayattı.**
+
+🔴 **DOĞRU DERS (ders adayı, `D268` sırası):**
+> `git log --all` ve dal taraması **ELDEKİ referansları** tarar. `fetch`ten ÖNCE
+> yapılan "hiçbir dalda yok" ölçümü **YOKLUK KANITI DEĞİLDİR** — ve en sinsi
+> yanı, komutun kendisi kusursuz görünür: hata çıktıda değil ZAMANDA.
+
+**Ölçülen bedel:** aynı iskelet iki kez yazıldı (benim 46 satır, kıtanın 39 satır) ve
+`index.html`e **iki yükleme satırı** girdi. ⚠️ Ve **git çatışma GÖRMEDİ** çünkü satırlar
+ayrı bölgelerdeydi: *sessiz mükerrer*. Çatışmasız merge "sorun yok" demek değildir.
+Düzeltildi: kıtanın sürümü kaldı (şeması `js/rotus.js` + `arac/rotus_coz.js` +
+Değişmez R ile uyumlu; benimki boya kimliği kurallarını ve `sonuc` sözlüğünü bilmiyordu).
+
+### 14.8 🆕 KITA KİMLİK DEFTERİ — `local_…` KALICI, `[ref]` DEĞİL
+
+Bugün dondurma duyurusunu `UMIT [c209ba]`ya yazdım; o oturum haklı olarak *"ROTUS'u,
+P21/P22'yi ben yazmadım"* dedi. **Ad, kimlik değildir** ve `defter.py cakisma` tam bu
+yüzden var — ona bakmadan adla yazdım.
+UMIT İRTİBAT'ın verdiği kalıcı kimlikler (`[ref]` oturum yeniden açılınca DEĞİŞİR,
+`local_…` değişmez):
+
+| iş | kıta adı | KALICI kimlik |
+|---|---|---|
+| P21 KELIME-CAKISMA-YER-1006c | `KELIME-CAKISMA-YER-1006` | `local_5ae59356-9a54-4b11-8bbf-770f23725f49` |
+| P22 TEK-EKSIK-BUHARA-1006b | `TEK-EKSIK-KOVA-1006` | `local_9aa7f959-a3c6-47f9-97da-accbc2bc7ef7` |
+| ROTUS mekanizma + iskelet | `P84-ROTUS-TASARIM-1006` | `local_85c1ea5b-64ff-4a82-8b27-98f771577f00` |
+| uygulayan/commitleyen | `UMIT İRTİBAT` | `[4a70c3]` (alt koordinatör) |
+
+🔴 **UMIT kıtalarında BEKÇİ YOK ve bu BİLİNÇLİ** (`GOREV-ORTAK §1.4`): tahta makineler
+arası taşımadığı için görev/teslim `SendMessage` ile, alt koordinatör üzerinden gider.
+⇒ Koşu sonrası rötuş yamaları ya `UMIT İRTİBAT`a ya doğrudan
+`local_85c1ea5b-64ff-4a82-8b27-98f771577f00`a yazılır. **Tahtaya yazmak o kıtayı
+UYANDIRMAZ.**
+⚠️ Ve `[c209ba]`, irtibatın defterinde `[0f4e0e]` görünüyordu — iki makine aynı oturumu
+farklı ref ile görüyor. ⇒ **`[ref]` makineye özeldir, `local_…` evrenseldir.**
+
+### 14.9 LAB BİRLEŞTİRMESİ — tahta çatışmasının doğru çaresi
+
+`git merge origin/makine/lab` `oturumlar/TAHTA.md` + `tahta.json`da ÇATIŞTI.
+🔴 Ve ben bunu ilk anda GÖRMEDİM: komut arka plana düştü, ben çıktının yalnız `tail`ine
+baktım, `CONFLICT` satırı BAŞTAYDI. Kapı çatışmış ağaçta koştu (verisi etkilenmedi ama
+hüküm o anda eksik dayanaklıydı).
+⇒ **Arka plan çıktısında `tail` yetmez: hüküm sonda, ARIZA başta olabilir.**
+
+Çare: merge İPTAL. Sonra ölçtüm — LAB'in `denetim/LAB-TAVAN-TEL-1006.md`si main'dekiyle
+**BİREBİR AYNI** ⇒ LAB'in main'e girecek işi YOK, yalnız iki tahta mesajı (M-5715/M-5716)
+var. 17,5 MB'lık `tahta.json`u elle birleştirmek yerine dalda bırakıldı ve içerikleri
+**dalından okundu** (M-5716: LAB yeni denetim görevi istiyor ⇒ kaynaksızlık geçiş dosyası
+görevi verildi). Bilgi kaybı YOK.
+⚠️ `git diff --name-only HEAD origin/makine/lab` bu soruya CEVAP VERMEZ: LAB main'den
+1012 commit geride olduğu için main'in SAHİP OLDUĞU her şeyi listeler (54 KB çıktı).
+Doğru soru `git diff <dalın dosyası> <HEAD'in dosyası>` — tek dosya, tek cevap.
+
+### 14.10 🔴 LAB TESLİMİ — tavan 18 puan HAK EDİLMİŞ, ama DAYANAĞIN 16'sı D208 SINIFI
+
+`denetim/LAB-KAYNAK-GECIS-1006.{md,tsv}` (18 satır + başlık). Yöntem: `58527beb..2fe8ada7`
+arasında `data/` ya da `girdi.py`ye dokunan 53 commit + ebeveynleri + merge'lerin iki
+ebeveyni ve merge-base'i = **93 gövde**, her biri **kendi `girdi.py`siyle** ölçüldü.
+Ölçüt `denetle.py kaynaksizlik_olc` ile birebir; `2fe8ada7`de H 1912 · D 389 = 2301
+(benim ölçümümle aynı).
+
+**GEÇİŞ: 18 ÇIKAN · 0 GİREN · hepsi `hiçbiri → dönem-içi`.** Silinen/adı değişen 0, yeni
+üye 0. ⇒ Tavan **DOĞUŞTA HİZALIYDI** (üye üye küme eşitliğiyle sınandı) ve 18 puan aynı
+gün tavan yazıldıktan SONRA kazanıldı ⇒ §3.4(3) indirmeyi gerçekten emrediyor.
+
+🔴 **LAB BENİ İKİ YERDE DÜZELTTİ:**
+1. *"`kayıt-kaynaksız 2301` tavanla TAM hizada, o oynamıyor"* demiştim (§14.3). Yanlış
+   okuma: 4 Ekim'den beri **57 kayıt** H→D geçmiş, kayıt düzeyinde kaynak alan (→T)
+   **SIFIR**. O taraf hizalı değil, **DOKUNULMAMIŞ**. ⇒ **Hareketsiz bir sayı da her
+   öngörüyü doğrular** — "boş küme her öngörüyü doğrular" ailesinin yeni yüzü.
+2. 18 geçişin **17'si bir MERGE'ün KENDİ değişikliği** (`e634fdad`; iki ebeveynde de yok,
+   elle uygulanan TEBRIZ-1388 KOORD-40). *"Dosya başına `git log` bu 17'yi hiçbir tekil
+   commit'te bulamaz."* ⇒ Bugün Hanak'ı tam bu yüzden `-S"Hanak"` ile arayıp **boş**
+   bulmuştum (§14.2). İki kalem aynı kör noktadan doğmuş.
+
+🔴 **ASIL BULGU — tavandan ağır:** 18'in **16'sı** (Astara · Berde · Erdebil … Şerur,
+Azerbaycan/KB İran/Nahçıvan) TEK bir bölge cümlesine dayanıyor ve TSV'nin
+`kaynak_sinifi` kolonu bunu adıyla yazıyor: **`BOLGE-CUMLESI(D208)`**. Verinin kendi
+metninde *"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208)"* duruyor. 9-14 dönemden yalnız
+1'i kaynaklı (karakoyunlu 1408). Gerçek şehir tanıklığı yalnız **Tebriz (1/9)** ve
+**Memel (2/5)**. ⇒ Kapı *"kaynak var"* diyor, dayanak ise **D208'in birebir yasakladığı
+sınıf**: sayı iyileşirken dayanak zayıflamış olabilir.
+
+**HÜKÜMLERİM (verildi):**
+```
+① İNDİRME ONAYLANDI, KOŞU SONRASI   arac/denetle.py KOŞU 21 sürerken DONUK — koşu
+   çıktısını onunla ölçeceğim, ortada değişirse "çıktı temiz mi" iki değişkenli olur.
+   İnecek: hiçbiri 1930→1912 · dönem-içi 371→389 (birleşim 2301).
+   §3.4(2) gereği commit mesajı 63c78baa0 + e634fdad4 sha'larını ve TSV'yi ADIYLA anacak
+   — 17'si merge içinde olduğu için başka türlü İZLENEMEZ (LAB'in şartı, aynen alındı).
+② ÖLÇÜT KARARI (b)                  D208 bölge cümlesi "dönem-içi" SAYILMAYA DEVAM,
+   + hüküm satırına BİLGİ: "D'nin X'i yalnız bölge cümlesiyle".
+   Saymamak (tavan 1928) İKİNCİ BİR TANIM doğurur — ve bugün o kusuru bir kez yaşadık:
+   `birebir()` iki yerde iki tanımla duruyordu, tek tanıma indirildi. Aynı gün ikinci
+   çift tanım açılmaz. Ayrıca indirmek o 16 kaynağı KORUMAYA alır (silinirse kapı öter).
+③ DEVAM GÖREVİ  LAB-D208-BOLGE-1006  16 kaydı adıyla sınıflandır (şehir tanıklığı var mı
+   · bölge cümlesinden mi türetildi · hangi kaynak/cümle) · bu sınıf D kovasının tamamında
+   ne kadar yaygın (evren ADIYLA; ölçülemeyen "ölçülemedi") · `zincir_kaynagi` kapısı
+   bunları kopya sayıyor mu. YALNIZ ÖLÇÜM, veri yazma YOK. Bekçisi AÇIK kalsın.
+④ KASA'YA SEVK EDİLECEK (koşu sonrası)  16 şehre bölge cümlesinin tarihsel olarak DOĞRU
+   kopyalandığı sınaması KAYNAK işidir, denetleyicinin değil.
+```
+📌 Yan bulgu (LAB): `1ed681b24`'te defter 1968 ama ölçüm 1969 — tavan **kendi gövdesinde
+ölçülmeden** yazılmış. Bugün zararsız (merge kapattı) ama §3.4(0)'ın birebir vakası.
+📌 Kuyruğa: `--kaynak-tavan-indir` bayrağının JSON'u **LF** yazıyor, depo **CRLF** —
+bayrak inerken düzeltilecek.
+
+---
+
+## 15. 🔴 7 EKİM GECESİ — GLM1 teslimi: "%58 çürüyüş" TDV'yi suçlamıyor
+
+### 15.1 Sayılar DOĞRU, cümle YANLIŞ YÖNÜ gösteriyor
+GLM1 (atlas-b0 üzerinden) 1005 koşusunu teslim etti: 35 kova → `GLM1-TDV-ONBELLEK` 1001
+dosya + 2.230 satırlık indeks. Tekil 2.230'un sınıflaması: **TAM 825 · STUB 112 (%5,0,
+mühür %2-6 ✓) · ŞÜPHELİ 1.293 (%58, mühür ≤%2 ✗ BÜYÜK ÇÜRÜYÜŞ)**.
+
+🔴 **Ama "%58 ŞÜPHELİ" bir TDV ölçüsü DEĞİL, KOPYA HAVUZU ölçüsüdür** — bileşimi bunu
+kendisi söylüyor:
+```
+ARAMA- 385   arama sayfası çekimi — hiçbir zaman madde gövdesi DEĞİLDİ (sınıflandırma artefaktı)
+DIS-     4   TDV-DIŞI URL (genocide-museum.am, britannica.com) — TDV ölçüsüne hiç girmemeliydi
+gerçek-TDV-slug 904   TEK gerçek kalem
+```
+Ve GLM1'in **kendi ②'nci ölçümü** bunu doğruluyor: **152/153 adres CANLI (%99,3)**.
+⇒ **Maddeler erişilebilir; çürüyen TDV değil bizim kopya havuzumuz.** `1006F`in başındaki
+"ASIL SONUÇ" cümlesinin düzeltilmesi istendi: çürüyen öngörü *"kopyaların kaçı
+kullanılabilir"*dı, *"TDV'nin kaçı boş"* değil. İkisini aynı cümlede anmak bir sonraki
+oturuma **"TDV %58 boş"** diye okunur.
+
+### 15.2 🔴 VE İLK ŞÜPHEM BENİM EVREN HATAMDI — ölçüm beni yakaladı
+`GLM1-TDV-ONBELLEK/`i ölçtüm: **1001 dosya · medyan 19.165 B · <2 KB olan SIFIR**. Bir an
+GLM1'in *"medyan 150 B · 1.354 kopya <2 KB"* raporuyla çeliştiğini sandım.
+Kaynak kovalarını ölçünce çelişki kalktı:
+```
+denetim/*-tdv-onbellek  →  35 kova · 2803 kopya · <2 KB olan 1366 (%48,7) · medyan 2672 B · en küçük 0
+```
+GLM1'in sayısı **bu** evrende tutarlı. ⇒ Aynı gecenin beşinci evren hatası, bu kez
+**hüküm yazılmadan önce** yakalandı: yanlış bir suçlama diske inmedi (`D268` ailesi).
+📌 Ek ölçüm: konsolide önbellekteki 1001 gövdenin **hepsi sağlam** (anlamlı kelime <60
+olan **0**, boilerplate-ağırlıklı **0**). En küçük dosya (2.133 B, `kul.txt`) boilerplate
+cümlesiyle BAŞLIYOR ama ardından gerçek gövde var ⇒ konsolidasyon işini yapmış.
+
+### 15.3 SIRADAKİ TEK KALEM — 904, ikinci çıkarıcıyla ve ÖRNEKLE
+*"904 slug, bütün kopyaları boş/boilerplate"* ifadesi §4'ün **tuzak ④** (*boilerplate
+gövde: çekilemedi ≠ yok*) ve **tuzak ⑦** (*çıkarıcının "okuyamadım"ı belge hakkında bir
+şey söylemez*) tarifine birebir uyuyor. "Bütün kopyaları boş" = **"her denemem başarısız
+oldu"**; belge hakkında hüküm değil.
+Verilen görev: **904'ten rastgele 30** slug (tohum yazılı) · HTTP durumu + İKİNCİ bir
+çıkarıcıyla gövde + anlamlı kelime · kovalar: GERÇEK GÖVDE VAR (çıkarıcı kusuru) /
+302 / gerçekten boş / ölçülemedi. Öngörü ÖNCE yazılacak (sayı + mekanizma ayrı).
+🔴 **30, 904 değil** — ve sebebi GLM1'in kendi arıza beyanı: şemasız URL hatası yüzünden
+TDV'ye **153 ek istek** gitti; 904'ü tam çekmek 904 istek daha demek.
+📌 Değeri: oran %70 çıkarsa kalem *"çıkarıcı kusuru, ~630 gövde kurtarılabilir"* olur ve
+bu, kaynaksızlık borcumuz için doğrudan cephane (kaynaksız `s:` 1912 · D kovasının %65'i
+şehre özgü değil · halkada duran 28 şehir tanıklığı).
+⚠️ 30'luk örnek bir **oran tahmini**dir, hüküm değil; oran slug ADIYLA genellenmez
+(%36 isabetli vekil ölçüm dersi).
+
+### 15.4 GLM1'in DOĞRU yaptıkları — adıyla
+🟢 **`piza`:** 302 ölçüldü, `Location` okundu, veri yerinde (`devletler.js:7644` +
+`paket_05.js:7663`) zaten BEYANLI, `q=piza` 0 aday ⇒ **"bulunamadı" yazıldı, "TDV'de yok"
+YAZILMADI.** Kural ⑨ birebir uygulanmış.
+🟢 **Alet arızasını kendi beyan etti** (153×301, ölçüm üretmedi, https ile yeniden koşuldu).
+🟢 Şartname 34 kova diyordu, 35 buldu — ben de 35 ölçtüm; **şartname bayat, ölçüm doğru.**
+⚠️ Açık: `denetim/GLM1-*` dosyalarının çoğu çalışma ağacımda İZLENMİYOR. §7 gereği GLM1
+kendi adıyla commitleyecek; `GLM1-TDV-ONBELLEK/` 1001 dosya olduğu için dizin pathspec'i
+zorunlu — o tek istisnayı commit mesajında ADIYLA beyan etmesi ve `git show --name-only`
+sayısını yazması istendi.
+
+### 15.5 🔴 904 KAPANDI — ve çürüyen hipotez BENİMDİ (evren aktarması)
+
+GLM1'in sınavı (`GLM1-904-IKINCI-CIKARICI-1006`, commit `a4093f81`, push `a4093f81`):
+904 evreninden tohum **20261007** ile 30 slug, **seçim ölçümden ÖNCE mühürlendi**.
+İkinci çıkarıcı (tam Chrome UA + tr-TR + `--compressed`, `-L` kapalı, ≥1 sn aralık):
+**30/30 = 302 `arama/<slug>` yönlendirmesi · 0 gövde · 0 ölçülemedi.**
+Alet doğrulaması: `misir` 200/31.572 kel · `tebriz` 200/3.511 · `piza` (bilinen ölü) 302.
+**Üçüncü bağımsız çıkarıcı** (webReader, JS-render) 3 slug teyidi — üçü de arama sayfasına
+düştü: `kusadasi`→1 madde (ÖKÜZ MEHMED PAŞA KÜLLİYESİ) · `bistam`→7 (BÂYEZÎD-i BİSTÂMÎ
+vb.) · `tugrulsah`→0.
+
+**Kendi kontrolüm** (tek çıkarıcıya güvenmemek için): `kusadasi` → HTTP **302** →
+`arama/kusadasi` · `misir` → **200**. Ölçüm tutuyor.
+⇒ **ÇIKARICI KUSURU YOK. Slug'lar gerçekten ölü.** `904` gövde kurtarma defteri **KAPANIR**;
+sınıfı *"yanlış slug — konu TDV'de BAŞKA ADLA var"* olarak taşınır (1006G eşleme
+disiplininin aynı ailesi). GLM1'in önerisi aynen onaylandı.
+
+#### 🔴 Çürüyen hipotez BENİMDİ, ve mekanizmayı GLM1 buldu
+Ben *"904'ün çoğu çıkarıcı kusurudur, ~630 gövde kurtarılabilir"* dedim. **Ölçüm %0**
+(%95 binom aralığı 0-11). Çürüyüşün kökü GLM1'in cümlesinde:
+> *"153 atıf İNSAN-ELİ evreniydi, 904 HASATÇININ DENEME-SLUG evreni."*
+**Ben `152/153 canlı` ölçümünü alıp 904'e taşıdım ve iki evreni aynı saydım.** Üstelik aynı
+mesajda GLM1'e *"oranı slug ADIYLA genellemezsin"* diye uyarı yazmışım.
+⇒ **Bir uyarıyı YAZMAK, onu UYGULAMAK değildir.** (`D268` ailesi; bu gecenin altıncı evren
+hatası, ve tek fark: bu kez hüküm diske inmişti — §15.1'de yazılıydı.)
+
+🟢 **Ama hükmün kendisi AYAKTA, gerekçesi DEĞİŞTİ** (`öngörü = SAYI + MEKANİZMA`):
+*"%58 bir TDV-boşluk ölçüsü değildir"* doğru çıktı — ama sebebi *"maddeler erişilebilir"*
+değil, **"904'ü TDV değil bizim HASATÇIMIZ üretti"**. Yeni hâli daha güçlü:
+`havuzun %58'i = arama sayfası çekimleri + TDV-dışı URL + hasatçının uydurduğu slug'lar`.
+
+#### Verilen iki ölçüm — sırayla, ilki BEDAVA
+```
+(A) ÖRTÜŞME  yerel, TDV isteği YOK, "yapılmalı mı"yı belirler
+    904 slug'ın kaçı BİZİM VERİMİZDE bir yerleşim/kişi/devlete karşılık geliyor ve o
+    kayıt ŞU AN kaynaksız? · normalleştirme ARAC-NORMAL-0903.py (İ/ı tuzağı) ·
+    kovalar: VAR+kaynaksız / VAR+kaynaklı / verimizde YOK (hasatçı uydurması)
+    🔴 Niçin ilk: "verimizde YOK" çıkanları eşlemek HİÇBİR borcu kapatmaz.
+(B) VERİM    (A) anlamlıysa, MÜHÜRLÜ 30 üzerinde (yeni örnek ALMA)
+    aramanın kaçı makul kapsayıcı aday veriyor? GLM1'in n=3 teyidi 2/3 — ama 3 oran değil.
+    ⚠️ (A) "VAR+kaynaksız" payını %20'nin altında gösterirse (B) HİÇ koşulmaz, 904 emekli.
+```
+
+#### GLM1'in doğru yaptıkları
+🟢 Tohumu ve seçimi **ölçümden önce mühürledi**; öngörü muhasebesini sayı/mekanizma diye
+**ayrı** tuttu. 🟢 **Üçüncü bağımsız çıkarıcı** — tuzak ⑦'nin birebir uygulaması; tek
+çıkarıcıyla "ölü" denseydi bu hüküm kurulamazdı. 🟢 Dizin istisnalarını commit mesajında
+ADIYLA beyan etti; ölçtüm: **1018 dosya, `data/` veya `arac/` satırı SIFIR** ⇒ KOŞU 21
+dondurması korundu.

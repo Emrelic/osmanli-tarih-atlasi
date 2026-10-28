@@ -1,0 +1,29 @@
+{
+  "ANT-HARITA": {
+    "edirne-segedin-1444": {"hukum": "cozuldu", "not": "Niş (TDV nis alıntısı), Semendire/Alacahisar TEMSİLÎ; Macar tarafı kaynaksız, eklenmedi", "delil": "data/antlasma_haritalari.js id edirne-segedin-1444"},
+    "istanbul-iskodra-1479": {"hukum": "cozuldu", "not": "İşkodra + Limni; Sisam/Bozbaba teyitsiz, noktalanmadı", "delil": "data/antlasma_haritalari.js id istanbul-iskodra-1479"},
+    "amasya-1555": {"hukum": "cozuldu", "not": "TDV amasya-antlasmasi 7 yer, zarf", "delil": "data/antlasma_haritalari.js id amasya-1555"},
+    "ferhad-pasa-1590": {"hukum": "cozuldu", "not": "Tebriz/Karabağ/Şirvan/Gürcistan; üçü TEMSİLÎ; TDV slug ölü, dayanak kronoloji maddesi", "delil": "data/antlasma_haritalari.js id ferhad-pasa-1590"},
+    "zitvatorok-1606": {"hukum": "cozuldu", "not": "Eğri/Kanije/Estergon Osmanlı, Vác Habsburg (TDV)", "delil": "data/antlasma_haritalari.js id zitvatorok-1606"},
+    "nasuh-pasa-1612": {"hukum": "cozuldu", "not": "1590 kazanımları Safevîlere geri; temsilî noktalar", "delil": "data/antlasma_haritalari.js id nasuh-pasa-1612"},
+    "kasr-i-sirin-1639": {"hukum": "cozuldu", "not": "Bağdat/Basra/Şehrizor Osmanlı, Revan Safevî (TDV)", "delil": "data/antlasma_haritalari.js id kasr-i-sirin-1639"},
+    "vasvar-1664": {"hukum": "cozuldu", "not": "Uyvar+Varad; Erdel kaynaksız", "delil": "data/antlasma_haritalari.js id vasvar-1664"},
+    "bucas-1672": {"hukum": "cozuldu", "not": "Kamaniçe + Bar (Podolya temsilî)", "delil": "data/antlasma_haritalari.js id bucas-1672"},
+    "prut-1711": {"hukum": "cozuldu", "not": "Azak iade, Taygan yıkım", "delil": "data/antlasma_haritalari.js id prut-1711"},
+    "belgrad-1739": {"hukum": "cozuldu", "not": "Belgrad+Semendire Osmanlı, Banat (Temeşvar temsilî) Habsburg", "delil": "data/antlasma_haritalari.js id belgrad-1739"},
+    "nis-1739": {"hukum": "cozuldu", "not": "Azak tarafsız; tek nokta", "delil": "data/antlasma_haritalari.js id nis-1739"},
+    "kucuk-kaynarca-1774": {"hukum": "cozuldu", "not": "Kerç/Yenikale Rusya, Kırım Hanlığı Bahçesaray; Kılburun koordinatsız", "delil": "data/antlasma_haritalari.js id kucuk-kaynarca-1774"},
+    "zistovi-1791": {"hukum": "cozuldu", "not": "Belgrad+Bükreş iade, Hotin emaneten; Hırsova/Unna koordinatsız", "delil": "data/antlasma_haritalari.js id zistovi-1791"},
+    "yas-1792": {"hukum": "cozuldu", "not": "Özi Rusya; Turla sağ yakası temsilî noktalar", "delil": "data/antlasma_haritalari.js id yas-1792"},
+    "bukres-1812": {"hukum": "cozuldu", "not": "Akkirman/Kili/Hotin/Bender; İsmail koordinatsız; TDV slug ölü", "delil": "data/antlasma_haritalari.js id bukres-1812"},
+    "edirne-1829": {"hukum": "cozuldu", "not": "İbrail/Anapa/Ahıska; zarf kaba", "delil": "data/antlasma_haritalari.js id edirne-1829"},
+    "kutahya-1833": {"hukum": "cozuldu", "not": "5 vilayet merkezi Mısır Valisine; egemenlik devri değil", "delil": "data/antlasma_haritalari.js id kutahya-1833"},
+    "paris-1856": {"hukum": "cozuldu", "not": "Kili/Kahul Boğdan, Kars iade; Bolgrad/İsmail çelişkili, noktalanmadı", "delil": "data/antlasma_haritalari.js id paris-1856"},
+    "ayastefanos-1878": {"hukum": "cozuldu", "not": "Kars/Ardahan/Batum/Doğubayazıt; Büyük Bulgaristan çizilmedi (şehir adı yok, vektör yok)", "delil": "data/antlasma_haritalari.js id ayastefanos-1878"},
+    "berlin-1878": {"hukum": "cozuldu", "not": "Rusya, Sırbistan, Bulgaristan Prensliği, Şarkî Rumeli, Kıbrıs, Bosna", "delil": "data/antlasma_haritalari.js id berlin-1878"},
+    "istanbul-bulgaristan-1913": {"hukum": "cozuldu", "not": "Kavala çelişkisi (Bükreş 1913 Yunanistan'a verdi): kronoloji maddesi düzeltilmeli, noktalanmadı", "delil": "data/antlasma_haritalari.js id istanbul-bulgaristan-1913; data/olaylar_ek5.js:442"},
+    "atina-1913": {"hukum": "cozuldu", "not": "Selanik/Yanya/Girit zarfı kaba", "delil": "data/antlasma_haritalari.js id atina-1913"},
+    "hunkar-iskelesi-1833": {"hukum": "senin-kararin", "not": "toprak devri yok, kayıt yazılmadı", "delil": "data/olaylar_ek4.js:221"},
+    "mondros-kars-lozan": {"hukum": "olculecek", "not": "kaynak/zaman yetmedi; sonraki tur", "delil": "yok"}
+  }
+}

@@ -13,7 +13,8 @@ Ayrıca bildirilen dört pencerede kaç sivri parça var, onu sayar.
 """
 import sys
 
-sys.path.insert(0, r'C:\atlas\denetim')
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from importlib import import_module
 
 olc = import_module('HARITA-0076-olc') if False else None  # tire yüzünden import edilemez
@@ -23,7 +24,7 @@ import json
 import math
 
 sys.stdout.reconfigure(encoding='utf-8')
-KOK = r'C:\atlas'
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def havuz_oku(yol, ad):

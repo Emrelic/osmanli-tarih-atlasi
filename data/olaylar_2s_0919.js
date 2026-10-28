@@ -23,6 +23,12 @@
 
 window.OLAYLAR_2S_0919 = [
 
+// ── 1328 ─────────────────────────────────────────────────────────────
+{ t:"1328-01-01", kesinlik:"yil", b:"Livonya Tarikatı Klaipėda (Memel) topraklarını Töton Tarikatı'nın Prusya koluna devretti", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Klaipėda (Memel)",
+  etiket:["toprak-kazanc","konu-siyasi"],
+  d:"Livonya Tarikatı, Neman ağzındaki Klaipėda (Memel) kalesi ve çevresindeki topraklarını Töton Tarikatı'nın Prusya koluna bıraktı; Kurland piskoposu da kendi payını 1392'de aynı kola devretti. Klaipėda 1411 Toruń ve 1422 Melno barışlarıyla Tarikat'ta kaldı, 1525'te Prusya Dükalığı'na geçti.",
+  kaynak:"Visuotinė lietuvių enciklopedija — 'Klaipėdos istorija' (https://www.vle.lt/straipsnis/klaipedos-istorija/) — AYNEN: \"1328 Livonijos ordinas, 1392 Kuršo vyskupas perleido savo Klaipėdos valdas Vokiečių ordino Prūsijos šakai.\" · hassasiyet: YIL (gün kaynakta yok) · KUTU-VERI-1015 (0025/H-0004)" },
+
 // ── 1329 ─────────────────────────────────────────────────────────────
 { t:"1329-01-01", b:"Umur Bey İzmir'in liman kalesini Cenevizlilerden aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"İzmir",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -58,6 +64,12 @@ window.OLAYLAR_2S_0919 = [
   etiket:["siyasi","toprak-kayip","konu-siyasi"],
   d:"Denizli çevresinde hüküm süren İnançoğulları Beyliği muhtemelen 1368'de Germiyanoğullarının hâkimiyetini tanıdı.",
   kaynak:"TDV `inancogullari` — AYNEN: \"İnançoğulları muhtemelen 1368'de Germiyanoğulları'nın hâkimiyetini tanımıştır.\" · hassasiyet: YIL, kaynağın kendisi 'muhtemelen' der · olay ilhak değil tâbiyet" },
+
+// ── 1371-11 (NOT2-1016, Emre notu #29) ────────────────────────────────
+{ t:"1371-11-01", kesinlik:"ay", b:"Selanik despotu Manuel, Serez ve Drama bölgesini Bizans idaresine aldı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Serez",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Çirmen'de (26 Eylül 1371) Kral Vukaşin ve Serez despotu Uglyeşa'nın ölmesiyle Serez bölgesindeki Sırp idaresi sona erdi. Selanik'te hüküm süren Bizans prensi II. Manuel Palaiologos, Kasım 1371'de Serez'i ve Drama'nın da içinde bulunduğu bölgeyi Bizans idaresine aldı. Bölge Eylül 1383'te Osmanlılar'a geçti.",
+  kaynak:"TDV `drama` (F. Emecen) — AYNEN: \"Drama’nın da içinde bulunduğu Serez bölgesi, Bizans’ın Selânik valisi Manuel’in hâkimiyeti altına girdi (Kasım 1371)\" · TDV `serez` — AYNEN: \"1371’de Selânik’te hüküm süren II. Manuel Palaeologos tarafından tekrar Bizans idaresine alındı\" · hassasiyet: AY (gün kaynakta yok; 01 ay işaretidir)" },
 
 // ── 1379 (iki ayrı küme, iki ayrı olay) ─────────────────────────────
 { t:"1379-01-01", b:"Tâceddin Bey Eretna ordusunu Niksar'da bozdu, bağımsız hareket etti", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"Niksar",
@@ -112,7 +124,7 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"TDV `bagirmi` — AYNEN: \"Birni Besi liderliğinde (1522-1536) Çad gölünün 200 km. doğusunda kalan Masinya'da güçlü bir devlet kurdu.\" · Britannica, 'Kingdom of Bagirmi' — AYNEN: \"The Bagirmi dynasty appears to have been established in 1522.\" · hassasiyet: YIL (geleneksel tarih)" },
 
 // ── 1535-11 ──────────────────────────────────────────────────────────
-{ t:"1535-11-01", b:"Son Sforza dükü öldü, Milano V. Karl'a geçti", tur:"siyaset", onem:3, dunya:4, kapsam:"dis", yer_id:"Milano",
+{ t:"1535-11-01", b:"Son Sforza dükü öldü, Milano V. Karl'a geçti",yer:"Como", tur:"siyaset", onem:3, dunya:4, kapsam:"dis", yer_id:"Milano",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Milano dükü II. Francesco Sforza 1-2 Kasım 1535 gecesi çocuksuz öldü. Dükalık İmparator V. Karl'a geçti ve bir İspanyol valisiyle yönetilmeye başlandı.",
   kaynak:"G. Benzoni, 'FRANCESCO II Sforza', Dizionario Biografico degli Italiani, Treccani, https://www.treccani.it/enciclopedia/francesco-ii-sforza-duca-di-milano_(Dizionario-Biografico)/ — AYNEN: \"nella notte tra il 1° e il 2 nov. 1535\" · Britannica, 'Duchy of Milan' — AYNEN: \"When Francesco II Sforza died childless in 1535, Milan devolved to Charles V\" · hassasiyet: GÜN (1/2 Kasım gecesi)" },
@@ -142,7 +154,7 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"Muzeum Historii Polski, 'Rozejm w Jamie Zapolskim', https://muzhp.pl/kalendarium/rozejm-w-jamie-zapolskim — AYNEN: \"15 stycznia 1582 r.\" / \"Moskwa zrzekła się pretensji do Inflant oraz oddała Rzeczypospolitej ziemię połocką z niektórymi zamkami.\" · Britannica, 'Tartu' — AYNEN: \"held in turn by Poles (1582–1600, 1603–25)\" · hassasiyet: GÜN (veri 01-01, 14 gün fark)" },
 
 // ── 1589-07-02 ───────────────────────────────────────────────────────
-{ t:"1589-07-02", b:"Tsaritsyn kalesi ilk kez belgede anıldı", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Tsaritsyn",
+{ t:"1589-07-02", etiket:["sehir-kronolojisi"], b:"Tsaritsyn kalesi ilk kez belgede anıldı", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Tsaritsyn",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Çar Fyodor İvanoviç'in 2 Temmuz 1589 tarihli fermanı, Volga'nın güney sınırını korumak için kurulan Tsaritsyn kalesini anar; bu tarih şehrin kuruluş günü kabul edilir.",
   kaynak:"Volgograd Bölge Tarih Müzesi (ВОКМ), https://vokm134.ru/muzej-onlajn/osnovanie-goroda-caricyna.html — AYNEN: \"грамота царя Федора Иоанновича от 2 июля 1589 г.\" · hassasiyet: GÜN (Jülyen; Miladî 12 Temmuz) — veriyle birebir" },
@@ -151,7 +163,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1590-07-12", b:"Saratov kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Saratov",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Saratov, Volga yolunu ve devletin doğu sınırlarını göçebe akınlarına karşı korumak için Prens Zasekin tarafından kale-karakol olarak kuruldu.",
-  kaynak:"Энциклопедия «Немцы России», 'Саратов', https://enc.rusdeutsch.ru/articles/77 — AYNEN: \"Город Саратов был основан 12 июля 1590 г. князем О. Засекиным как крепость-форпост для охраны Волжского пути и восточных границ государства от набегов кочевников.\" · hassasiyet: GÜN (Miladî) · NOT: veri Tsaritsyn'i Jülyen, Saratov'u Miladî günle yazmış — takvim ekseni koordinatöre" },
+  kaynak:"Энциклопедия «Немцы России», 'Саратов', https://enc.rusdeutsch.ru/articles/77 — AYNEN: \"Город Саратов был основан 12 июля 1590 г. князем О. Засекиным как крепость-форпост для охраны Волжского пути и восточных границ государства от набегов кочевников.\" · hassasiyet: GÜN (Miladî) · NOT: veri Tsaritsyn'i Jülyen, Saratov'u Miladî günle yazmış — takvim ekseni belirsiz" },
 
 // ── 1593 ─────────────────────────────────────────────────────────────
 { t:"1593-01-01", b:"Pelım kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Pelım ostrogu",
@@ -217,6 +229,18 @@ window.OLAYLAR_2S_0919 = [
   d:"Omsk, Tobol ile İrtiş arasındaki İşim tahkimat hattının doğu ucunda bir kale olarak kuruldu; 1804'te şehir oldu.",
   kaynak:"Britannica, 'Omsk', https://www.britannica.com/place/Omsk-Russia — AYNEN: \"Omsk, founded in 1716 as a stronghold at the eastern end of the Ishim fortified line between the Tobol and the Irtysh\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma)" },
 
+// ── 1717 ─────────────────────────────────────────────────────────────
+{ t:"1717-11-30", b:"Cungarlar Lhasa'yı bastı — Lajang Han öldürüldü, Tibet Cungar işgaline girdi", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Tsering Döndup komutasındaki Cungar ordusu, Hoşut hükümdarı Lajang Han'ın savunduğu Lhasa'ya gece yarısından sonra her yönden saldırdı; içeriden destek bulan Cungarlar şehri ele geçirip yağmaladı, Potala'yı da talan ettiler. Lajang Han kaçarken öldürüldü; Cungarlar sTag-rtse-pa başında bir kukla Tibet hükûmeti kurdu.",
+  kaynak:"L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Brill 1972), bölüm 'Dsungar occupation and Tibetan risings' — AYNEN: \"after midnight on the 30th of November 1717 the Dsungars attacked Lhasa on all sides\" · archive.org tam metin · hassasiyet: GÜN · KUTU-VERI-1015 (0086/H-0006)" },
+
+// ── 1720 ─────────────────────────────────────────────────────────────
+{ t:"1720-09-24", b:"Qing ordusu Lhasa'ya girdi — Cungar işgali sona erdi, Qing himayesi başladı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Kangxi'nin Tibet'e gönderdiği iki ordudan Galbi komutasındaki Sichuan kolu zorlu bir yürüyüşle Lhasa'ya ulaştı ve şehri direnişsiz aldı; Cungarlar bütün kuvvetlerini kuzeyden gelen Kokonor ordusuna karşı Dam'da toplamıştı. Cungarların Tibet'ten çekilmesiyle Qing, Lhasa'da kalıcı bir himaye düzeni kurdu.",
+  kaynak:"L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Brill 1972), s. 68 — AYNEN: \"Galbi's forces reached Lhasa, which they occupied on 23/VIII = September 24th. They had met with no opposition\" · archive.org tam metin · hassasiyet: GÜN · KUTU-VERI-1015 (0086/H-0006)" },
+
 // ── 1721 ─────────────────────────────────────────────────────────────
 { t:"1721-01-01", b:"Aguayo seferi Los Adaes presidyosunu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Los Adaes",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -269,7 +293,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1818-01-01", b:"Beaufort (Beaufort West) kasabası kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Beaufort West",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"İngiliz Ümit Burnu Kolonisi'nde, Karoo'daki Hooyvlakte çiftliği üzerinde Beaufort kasabası kuruldu.",
-  kaynak:"South African History Online (SAHO), 'Beaufort West', https://sahistory.org.za/place/beaufort-west-cape-town — AYNEN: \"A Town 573 km from Cape Town, established in 1818 on the Farm: ''Hooyvlakte''.\" · hassasiyet: YIL · SAHO kâr amacı gütmeyen eğitim/arşiv kurumu (akademik yayın değil; koordinatör kabulü)" },
+  kaynak:"South African History Online (SAHO), 'Beaufort West', https://sahistory.org.za/place/beaufort-west-cape-town — AYNEN: \"A Town 573 km from Cape Town, established in 1818 on the Farm: ''Hooyvlakte''.\" · hassasiyet: YIL · SAHO kâr amacı gütmeyen eğitim/arşiv kurumu (akademik yayın değil)" },
 
 // ── 1826 ─────────────────────────────────────────────────────────────
 { t:"1826-01-01", b:"Belh Buhara emîrinin işgaline uğradı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Belh",
@@ -293,19 +317,20 @@ window.OLAYLAR_2S_0919 = [
 { t:"1852-01-01", b:"Kıyı tüccarları Kazeh'e (Tabora) yerleşti", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Tabora (Kazeh)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Bir yerel hükümdarla çatışmanın ardından Doğu Afrika kıyısından gelen tüccarlar güneye göç etti; Unyanyembe reisi Fundikira onlara merkezi Itetemia yakınında yerleşme yeri verdi. Bu yerleşim Tabora kervan merkezinin çekirdeği oldu.",
-  kaynak:"K. Pallaver, 'A triangle: Spatial processes of urbanization and political power in 19th-century Tabora, Tanzania', Afriques 11 (2020), https://journals.openedition.org/afriques/2871 — AYNEN: \"In 1852, however, after a conflict with a local ruler, the coastal traders moved to the south where the mtemi Fundikira offered them a place to settle close to the capital of his chiefdom, Itetemia.\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma) · NOT (D204): aynı makaleye göre Zengibar valisi ancak 1860'ların başında atandı — verideki `umman-zengibar` sahipliği 1852 için desteklenmiyor" },
+  kaynak:"K. Pallaver, 'A triangle: Spatial processes of urbanization and political power in 19th-century Tabora, Tanzania', Afriques 11 (2020), https://journals.openedition.org/afriques/2871 — AYNEN: \"In 1852, however, after a conflict with a local ruler, the coastal traders moved to the south where the mtemi Fundikira offered them a place to settle close to the capital of his chiefdom, Itetemia.\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma) · NOT: aynı makaleye göre Zengibar valisi ancak 1860'ların başında atandı — verideki `umman-zengibar` sahipliği 1852 için desteklenmiyor" },
 
 // ── 1880-06 ──────────────────────────────────────────────────────────
 { t:"1880-06-13", b:"Brazza Franceville'i kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Fransvil (Franceville)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Pierre Savorgnan de Brazza, Mpassa ırmağına bakan kayalık bir çıkıntı üzerinde Fransa adına Franceville karakolunu kurdu.",
-  kaynak:"R. Pourtier, 'De Franceville à Masuku, ontogenèse d'une ville centenaire', Bulletin de l'Association de géographes français 57/473 (1980), https://www.persee.fr/doc/bagf_0004-5322_1980_num_57_473_5203 — AYNEN: \"C'était le 13 juin 1880, sur un éperon rocheux dominant la rivière Mpassa.\" · hassasiyet: GÜN · veri kırılması 19 Eyl'de 06-01'den 06-13'e çekildi (M-4591)" },
+  kaynak:"R. Pourtier, 'De Franceville à Masuku, ontogenèse d'une ville centenaire', Bulletin de l'Association de géographes français 57/473 (1980), https://www.persee.fr/doc/bagf_0004-5322_1980_num_57_473_5203 — AYNEN: \"C'était le 13 juin 1880, sur un éperon rocheux dominant la rivière Mpassa.\" · hassasiyet: GÜN · veri kırılması 19 Eyl'de 06-01'den 06-13'e çekildi" },
 
 // ── 1888 ─────────────────────────────────────────────────────────────
-{ t:"1888-01-01", b:"Hadramut sahili (Mükellâ) İngiliz himayesine girdi", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Mukalla",
+{ t:"1888-05-01", b:"Hadramut sahili (Mükellâ) İngiliz himayesine girdi", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Mukalla",
+  ic_not_gun:"KUTU-H4-1015: yıl yer tutucusu 1888-01-01'di; gün Aitchison, A Collection of Treaties c. XI No. LXXI (himaye antlaşması metni): 1 Mayıs 1888'de Şihr'de imzalandı. TDV hadramut yalnız yılı verir. Mukalla yerleşiminin ingiltere dönemi başlangıcı da aynı güne çekildi.",
   etiket:["antlasma","toprak-kazanc","konu-siyasi"],
   d:"Şihr ve Mükellâ dahil Hadramut sahiline hâkim olan Yâfiîler (Kuaytîler) ile İngiltere arasında himaye antlaşması imzalandı; İngilizler sahildeki Yâfiî yönetiminin dış ilişkilerini tamamen üstlendi.",
-  kaynak:"TDV `hadramut` — AYNEN: \"İngilizler, 1888’de imzaladıkları himaye antlaşmasıyla da sahilde hâkim olan Yâfiîler’in dış ilişkilerini tamamen üzerlerine aldılar.\" · hassasiyet: YIL · NOT: himaye (tâbi) ilişkisi; veride doğrudan `ingiltere`" },
+  kaynak:"TDV `hadramut` — AYNEN: \"İngilizler, 1888’de imzaladıkları himaye antlaşmasıyla da sahilde hâkim olan Yâfiîler’in dış ilişkilerini tamamen üzerlerine aldılar.\" · Aitchison c. XI No. LXXI (gün: 1 Mayıs 1888) · hassasiyet: GÜN · NOT: himaye (tâbi) ilişkisi; veride doğrudan `ingiltere`" },
 
 // ── 1890 ─────────────────────────────────────────────────────────────
 { t:"1890-01-01", b:"Fransızlar Colof'un tamamına hâkim oldu", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Linguère (Colof)",
@@ -436,10 +461,71 @@ window.OLAYLAR_2S_0919 = [
   d:"Adamava, İngiltere'ye bağlı Kuzey Nijerya ile Almanya'ya bağlı Kamerun arasında paylaşıldı; Adama'nın dördüncü oğlu Bobbo Ahmedü İngiliz bölgesinde Yola emîri oldu.",
   kaynak:"TDV `adamava` — AYNEN: \"1901’de Adamava, İngiltere’ye bağlı Kuzey Nijerya ile Almanya’ya bağlı Kamerun arasında paylaşılmış ve Adama’nın dördüncü oğlu Bobbo Ahmedü (Bobo Amadu), İngiliz bölgesinde Yola emîri olmuştur.\" · hassasiyet: YIL" },
 
+// ── 1905 ─────────────────────────────────────────────────────────────
+{ t:"1905-01-01", kesinlik:"yil", b:"Orenburg-Taşkent demiryolunda Aral Denizi istasyonu açıldı — Aralsk yerleşimi kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Aralsk (Aral)",
+  etiket:["konu-ekonomi","konu-siyasi"],
+  d:"Rus İmparatorluğu'nun Orenburg ile Taşkent'i bağlayan demiryolu Aral Denizi'nin kuzeydoğu ucundan geçerken kıyıda 'Aralskoye More' istasyonu açıldı; istasyonun yanında bir balıkçı yerleşimi doğdu. Yerleşim 1938'de şehir statüsü alarak Aralsk adını aldı.",
+  kaynak:"Büyük Sovyet Ansiklopedisi (3. baskı) 'Аральск' (https://dic.academic.ru/dic.nsf/bse/64755/) — AYNEN: \"Основан в 1905 в связи со строительством железной дороги Оренбург — Ташкент; город — с 1938.\" · Toponimik sözlük 'Аральск' (https://dic.academic.ru/dic.nsf/enc_geo/566/): 'Возник как пос. при ст. Аральское Море (открыта в 1905 г.)' · hassasiyet: YIL · KUTU-VERI-1015 (0052/H-0103)" },
+
 // ── Vaday 2 Haziran 1909 ─────────────────────────────────────────────
-{ t:"1909-06-02", b:"Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Abeşe (Abéché)",
+{ t:"1909-06-02", b:"Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu",yer:"Biltine, Fada (Ennedi), Iriba, Ounianga, Vara (Wara)", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Abeşe (Abéché)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Doğuya ilerlemesini sürdüren Fransızlar Vedây'ın başşehri Abeşe'yi (Ebîşe) ele geçirerek Vedây Sultanlığı'na son verdi; son sultan başşehrini kurtaramadan çekildi.",
   kaynak:"TDV `veday` (başlık: 1635-1909) — AYNEN: \"Doğuya ilerlemeyi sürdüren Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler.\" · hassasiyet: GÜN" },
+
+// KUTU-VERI-1015 — Kandehar 1383 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #7): Eski Kandehar s: kert → timurlu kırılması
+{ t:"1383-01-01", b:"Timur Kandehar'ı Kertler'den aldı ve torunu Pîr Muhammed'e verdi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["timurlu","kert"],
+  d:"1281'den beri İlhanlıların vasalı Herat Kertlerinin elinde bulunan Kandehar, Timur'un Horasan seferleri sırasında zaptedildi ve torunu Pîr Muhammed'e verildi; şehir bundan sonra Timurlu valilerince yönetildi.",
+  kaynak:"TDV `kandehar` (A. Özcan) — AYNEN: \"680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti\" · \"785’te (1383) Timur tarafından zaptedilerek torunu Pîr Muhammed’e verilen şehir\" · hassasiyet: YIL" },
+// KARAR-UYG-1015 (G4) — Songhay: Dia (Zâgha) 1494 · Agadez 1515 tâbiliği · Bilma 1759
+{ t:"1494-01-01", kesinlik:"yil", b:"Askiya Muhammed Zâgha'yı (Dia) aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_kon:[14.3487, -4.9619],
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["songhay-imparatorlugu"],
+  d:"Songhay tahtına çıkan Askiya Muhammed, H. 899 yılının sonunda kardeşi Kurmina-Fâri Amar Komzâgho aracılığıyla Nijer iç deltasının batısındaki Zâgha (Dia) şehrini ele geçirdi.",
+  kaynak:"es-Sa'dî, Tarikh es-Soudan, trc. O. Houdas (Paris 1900) s.118-119 — AYNEN: \"A la fin de l'année 899 (1494), Askia-Mohammed s'empara de Zâgha par l'intermédiaire de son frère le Kourmina-Fâri Amar-Komzâgho\" · hassasiyet: YIL" },
+
+{ t:"1515-01-01", kesinlik:"yil", b:"Agadez Songhay'a bağlandı", tur:"vassal", onem:2, dunya:1, kapsam:"dis", yer_id:"Agadez",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["songhay-imparatorlugu","agadez-sultanligi"],
+  d:"Âir bölgesinin merkezi Agadez, Songhay Sultanı Askiya Muhammed tarafından Gao'ya bağlandı; şehir Songhay'ın 1591'de Tondibi'de yıkılışına kadar bu tâbiliği taşıdı.",
+  kaynak:"TDV `nijer` (A. Kavas) — AYNEN: \"1515 yılında Songay Sultanı Askiya Muhammed tarafından Gao’ya bağlanan şehir\" · hassasiyet: YIL" },
+
+{ t:"1759-01-01", kesinlik:"yil", b:"Agadez Tuaregleri Bilma tuzluğunu Kanem-Bornu'dan aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_id:"Bilma",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["agadez-sultanligi","kanem-bornu"],
+  d:"XVIII. yüzyılda çöküş yaşayan Kanem-Bornu, 1759'da Agadez Tuaregleri Bilma tuzluğunu elinden alınca Sahra'daki birçok yerleşim yerini kaybetti.",
+  kaynak:"TDV `kanim` (A. Kavas) — AYNEN: \"1759’da Agâdes Tevârikleri, Bîlmâ tuzluğunu Kânim-Bornu’nun elinden alınca Sahrâ’daki birçok yerleşim mahallini kaybettiler\" · hassasiyet: YIL" },
+
+// KARAR-UYG-1015 (Emre #13) — Güney Afrika: 37 nokta ingiltere → guney-afrika-birligi 1910-05-31
+{ t:"1910-05-31", b:"Güney Afrika Birliği kuruldu", tur:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Kap (Cape Town)",
+  etiket:["siyasi","kurulus","konu-siyasi"], taraflar:["guney-afrika-birligi","ingiltere"],
+  d:"1909 tarihli South Africa Act uyarınca Kap, Natal, Transvaal ve Oranj Nehri kolonileri 31 Mayıs 1910'da Britanya İmparatorluğu'na bağlı Güney Afrika Birliği adıyla birleşti; yürütme merkezi Pretoria, yasama merkezi Cape Town oldu.",
+  kaynak:"Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909) — AYNEN: \"the thirty-first day of May, one thousand nine hundred and ten\" · South Africa Act 1909 md. 18, 23 · TDV `guney-afrika-cumhuriyeti`: \"1910 yılında … Güney Afrika Birliği Devleti'ni kurdular\" · hassasiyet: GÜN" },
+
+// KARAR-UYG-1015 — Soyo (Kongo ağzının güney yakası) Portekiz 1885-02-14
+{ t:"1885-02-14", b:"Kongo Hür Devleti ile Portekiz sınır sözleşmesi — Kongo ağzının güney yakası Portekiz'e", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Soyo",
+  etiket:["antlasma","diplomasi","konu-diplomasi"], taraflar:["portekiz-angola","kongo-serbest-devleti"],
+  d:"Berlin Konferansı sürerken imzalanan sözleşmeyle Kongo Hür Devleti ile Portekiz arasındaki sınır, Kongo (Zaire) ırmağının ağzından Uango-Uango çayına kadar ırmağın kendisi olarak çizildi; Soyo'nun bulunduğu güney yaka Portekiz'de, Kabinda ise ırmağın kuzeyinde Portekiz'e kaldı.",
+  kaynak:"Hertslet, The Map of Africa by Treaty, 2. bs. c.1 No.58 (14 Şubat 1885) s.232 — AYNEN: \"The course of the Congo (Zaire) from its mouth to its junction with the little River Uango-Uango\" · hassasiyet: GÜN" },
+
+// KARAR-UYG-1015 (G3) — Eski Kandehar: babur → safevi 1556 (eski 1537 kırılması kaldırıldı)
+{ t:"1556-01-01", kesinlik:"yil", b:"Hümâyun'un ölümünden sonra Safevîler Kandehar'ı Bâbürlülerden aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["safevi","babur-imparatorlugu"],
+  d:"Hümâyun'un 1556'da Delhi'de ölümünden sonra Şah Tahmasb, Kandehar ve Zemindâver'deki Bâbürlü valileri arasındaki çekişmeden yararlandı; Zemindâver valisinin davetiyle gelen bir Safevî birliği Kandehar'a girdi ve Tahmasb amcazadesi Sultan Hüseyin Mirza'yı şehre vali atadı. Şehir 1595'e kadar Safevî elinde kaldı.",
+  kaynak:"EIr KANDAHAR iv. From the Mongol Invasion through the Safavid Era (R. Matthee & H. Mashita, 2010) — AYNEN: \"When Homāyun died in Delhi in 1556, the Safavid Shah Ṭahmāsb took advantage of conflict among the Mughal governors of Kandahar and Zamindāvar\" · hassasiyet: YIL (alt sınır; zaptın kendi yılı metinde yok)" },
+
+// NOT-DUZELT-1016 (Emre notu #2) — 1281'de Vardar Makedonyası Bizans'taydı; Sırp geçişleri
+// TDV'nin verdiği yıllarla (Üsküp 1282 · Debre 1283 · İştip+Köprülü 1330 · Ohri/Ustrumca/Manastır 1334)
+
+
+
+
+// NOT-DUZELT-1016 (Emre notu #3) — Berat 1281-1343 Bizans; Sırp fethi 1343 dolayı (Nicol)
+{ t:"1343-01-01", kesinlik:"yil", b:"Berat Bizans'tan Sırp eline geçti — Stefan Duşan'ın Arnavutluk fethi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Berat", yer:"Berat, Arnavutluk",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["sirbistan-nemanjic","bizans"],
+  d:"1281'de Anjou kuşatmasını kıran ve o tarihten beri Bizans'ın Adriyatik'teki son eyaletinin merkezi olan Berat kalesi, Bizans iç savaşı sürerken Stefan Duşan'ın Arnavutluk'a ilerleyişinde Sırp eline geçti. Kroya'nın Mayıs ya da Haziran 1343'te teslim olmasının ardından Berat, Kanina ve Avlonya iki yıl içinde Sırpların oldu; eyaletin başına Duşan'ın kayınbiraderi John Komnenos Asen getirildi.",
+  kaynak:"D. M. Nicol, The Despotate of Epiros 1267-1479 (Cambridge 1984), s. 127 — AYNEN: \"Berat, Kanina and Valona were all in Serbian hands within two years. Berat may have fallen by 1343. Valona fell between July and September of 1345.\" · aynı sayfa: \"The Byzantine province of Berat, Valona, Kanina and Spinaritsa, which had come into being in the years after 1281, was now held by a Slav governor.\" · TDV berat--arnavutluk: Bizans … 'tekrar Bizanslılar’ın, Sırplar’ın' (yıl yok) · hassasiyet: YIL, OLASI ('may have fallen by 1343')" },
+
+// NOT-DUZELT-1016 (Emre notu #4 yan bulgu) — Arnavutluk kıyısındaki Anjou kaleleri (Draç, Avlonya, Kanina, Hımara)
+// 1282-03-30 maddesi DENETIM-K27-1016'da olaylar_ek5.js'teki 'Sicilya Akşamı' maddesine BİRLEŞTİRİLDİ (aynı olay;
+// yer alanı ve Nicol/Kiesewetter kaynağı oraya taşındı).
 
 ];

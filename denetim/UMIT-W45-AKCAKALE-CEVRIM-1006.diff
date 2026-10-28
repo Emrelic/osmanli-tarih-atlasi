@@ -1,0 +1,25 @@
+diff --git a/denetim/ARAC-DEVRALMA-DONGU-1004.py b/denetim/ARAC-DEVRALMA-DONGU-1004.py
+index b91aeaf4..87f5d3b6 100644
+--- a/denetim/ARAC-DEVRALMA-DONGU-1004.py
++++ b/denetim/ARAC-DEVRALMA-DONGU-1004.py
+@@ -67,6 +67,11 @@ DISLA = [
+     (r"kulliyat|olaylar_|kronoloji_|maddesi(?:nin|nden)? gun", "OLAY günü (külliyat maddesi)"),
+     (r"veriden devral", "MEVCUT VERİ (kaydın kendi eski günü)"),
+     (r"sinir katmani|\bkd:", "SINIR KATMANI / kd:"),
++    # W45 (6 Ekim): "⚠️ Jadlā' bu kayıttan GÜN devraldı" — KAYNAK kayda düşülen
++    # GERİ ATIF notu. Devralan X'tir, sahibi kaynaktır; X→sahibi kenarı X'in
++    # kendi tümcesinden zaten yazılır. Okunursa sahibi→X diye TERS kenar doğar
++    # ve sahte karşılıklı çift (Akçakale ⇄ Jadlā') üretir.
++    (r"bu kayittan (?:\w+ ){0,2}devral", "TERS YÖN («X bu kayıttan devraldı» — sahibi KAYNAK)"),
+ ]
+ # Zayıf tetikler ancak tümcede bir tarih/zincir sözcüğü varsa devralmadır
+ ZAYIF = {r"birebir", r"ile ayni", r"ayni gun", r"hizal\w*", r"komsu\w*", r"ortak gun", r"kardes\w*"}
+@@ -220,7 +225,7 @@ def tumce_coz(ham, sahibi, dizin, desen):
+                 break
+     sinyal = KOMSU_SINYAL.search(t) or ad_kayit
+     for d, neden in DISLA:
+-        if re.search(d, t) and (not sinyal or neden.startswith(("OLUMSUZ", "KADEME"))):
++        if re.search(d, t) and (not sinyal or neden.startswith(("OLUMSUZ", "KADEME", "TERS YÖN"))):
+             return dict(tetik=None, guc=None, hedefler=set(), kendine=False, belirsiz=[],
+                         dislandi=neden)
+     tetik = None

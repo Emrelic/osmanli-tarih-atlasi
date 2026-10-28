@@ -1,0 +1,504 @@
+{
+ "bolge": "Hint alt kıtası, Sri Lanka, Nepal, Güneydoğu Asya (MÖ 8000-MÖ 200) - 2. dalga",
+ "tarih_olcum": "21 Ekim 2026",
+ "kayitlar": [
+  {
+   "id": "dholavira",
+   "ad": "Dholavira",
+   "ad_yerel": "Dholavira (Kutch, Gujarat)",
+   "tur": "sehir",
+   "lat": 23.8861,
+   "lon": 70.2167,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q9468 P625",
+     "lat": 23.8861,
+     "lon": 70.2167
+    },
+    {
+     "kaynak": "OSM Nominatim 'Dholavira' (nokta)",
+     "lat": 23.8889,
+     "lon": 70.2115
+    },
+    {
+     "kaynak": "OSM Nominatim 'Dholavira' (köy)",
+     "lat": 23.875,
+     "lon": 70.218
+    }
+   ],
+   "konum_not": "Üç değer arası en çok ~1.5 km; Wikidata (anıt) esas alındı. Wikidata+OSM tam bağımsız sayılmaz; ulusal kurum (ASI) / UNESCO koordinatı alınamadı (whc.unesco.org 403 verdi).",
+   "kur": {
+    "bas_mo": 3550,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Sengupta T. vd. 2020 (çevrimiçi 26 Aralık 2019), 'Did the Harappan settlement of Dholavira (India) collapse during the onset of Meghalayan stage drought?', Journal of Quaternary Science 35: 382-395, doi:10.1002/jqs.3178 (yalnız Crossref özeti okundu)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://doi.org/10.1002/jqs.3178",
+    "alinti": "suggests the beginning of occupation at ~5500 years BP (pre-Harappan), and continuation until ~3800 years BP",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 1850,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Aynı makale (özet)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://doi.org/10.1002/jqs.3178",
+    "alinti": "continuation until ~3800 years BP (early part of the Late Harappan period)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kurulus",
+   "d": "Kutch Rann kenarında Hint tarafının en büyük kazılmış Harappa yerleşimi; Sengupta vd.'ne göre arkeolojik karbonatların radyokarbon tarihlemesi ~5500 yıl BP'de (Harappa öncesi) iskânı, ~3800 yıl BP'ye (Geç Harappa başı) sürekliliği gösterir.",
+   "sahip_kultur": "Harappa öncesi (Dholaviran) -> Erken/Olgun/Geç Harappa (Bisht'in 7 evresi)",
+   "ic_not": "UYARI 1: özet 'years BP' diyor; kalibre mi ham mı belirtmiyor (tam metin okunamadı, Wiley erişimsiz). bas_mo/son_mo = BP-1950 ile hesaplandı (bu oturumda) ve 'belirsiz' işaretlendi; teyit edilmeden kayda geçmemeli. UYARI 2 (çelişki, iki kaynak): Sengupta özeti terk/çöküşü '~4300-4100 yıl BP' (Meghalayan kuraklığı başı, yaklaşık MÖ 2350-2150) yapar; Bisht'in evre tablosunda (Possehl 2004, The Indus Civilization: A Contemporary Perspective, s.67 üzerinden; ikincil) Evre V ile VI arası terk 1900-1850, Evre VII sonu 1450 MÖ'dür. Evre tarihleri Bisht'ten doğrudan okunamadı (Wikipedia aracılığıyla Possehl'e atıf). Wikipedia yalnız yönlendirme; dayanak değil. Brifteki 'Dholavira UNESCO dossier PDF' bulunamadı (403).",
+   "okunan_sayfa": [
+    "https://api.crossref.org/works/10.1002/jqs.3178 (özet)",
+    "https://en.wikipedia.org/wiki/Dholavira (yalnız atıf zinciri için)"
+   ]
+  },
+  {
+   "id": "ban-chiang",
+   "ad": "Ban Chiang",
+   "ad_yerel": "Ban Chiang (Udon Thani, Tayland)",
+   "tur": "nekropol",
+   "lat": 17.4082,
+   "lon": 103.2434,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim 'Ban Chiang archaeological site'",
+     "lat": 17.4082,
+     "lon": 103.2434
+    },
+    {
+     "kaynak": "OSM Nominatim Ban Chiang Ulusal Müzesi",
+     "lat": 17.4078,
+     "lon": 103.2358
+    },
+    {
+     "kaynak": "Wikidata Q584125 P625",
+     "lat": 17.5486,
+     "lon": 103.3583
+    }
+   ],
+   "konum_not": "Wikidata koordinatı OSM'den ~20 km uzak (tanıklar >3 km ayrışıyor); OSM site nesnesi + müze (iki OSM nesnesi, aralarında ~0.8 km, köy içinde) esas alındı, Wikidata genel/yaklaşık nokta sayıldı. Bağımsız ulusal-kurum tanığı alınamadı.",
+   "kur": {
+    "bas_mo": 1545,
+    "son_mo": 1475,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Ban Chiang bölümü, 1974 kazısı; en erken Neolitik gömü, kemik kolajeni)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.lib.washington.edu/index.php/JIPA/article/view/15411",
+    "alinti": "directly dated on the basis of bone collagen to 1545-1475 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 401,
+    "son_mo": 231,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Aynı makale: Erken Demir Çağı gömülerinden biri (iki olasılık: 401-353 MÖ %65 veya 292-231 MÖ %30)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.lib.washington.edu/index.php/JIPA/article/view/15411",
+    "alinti": "dates to 401-353 BC (65% probability) or 292-231 BC (30% probability)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "KD Tayland'da Neolitik çeltikçi yerleşim/mezarlığı; Higham kısa kronolojisine göre MÖ 16. yy'da çeltik çiftçileri, ~MÖ 1000'de Tunç Çağı geçişi, MÖ 1. binyılın ikinci yarısında Demir Çağı.",
+   "sahip_kultur": "Ban Chiang kültür geleneği (Higham: 2 Neolitik, 2 Tunç, 2 Demir evresi)",
+   "ic_not": "KRONOLOJİ ÇELİŞKİSİ (iki kaynak): (a) KISA kronoloji: Higham, Higham & Douka 2015 (PLoS ONE, PMC4575132) ve Higham vd. 2019 (JIPA): Tunç geçişi ~MÖ 1000 (bölgesel Bayes modeli %68.2: 1200-1000 MÖ, %95.4: 1570-900 MÖ), iskân MÖ 16. yy. (b) UZUN kronoloji: White 2018 (Ban Chiang metal raporu; Higham 2019'un alıntısıyla): ilk bakır-alaşım 2000-1800 MÖ. Higham grubu White'ınkini 7 elle seçilmiş ezilmiş çömlek (sherd) tarihine dayandırarak reddeder. Burada kısa kronoloji esas alındı çünkü kemik kolajeni, kömür, çeltik ve kabuk tarihleri tutarlı; ama tartışma hakemli literatürde SÜRÜYOR (White & Hamilton 2019 cildi okunmadı). Uç tarihlerin güven düzeyi kaynakta belirtilmiyor ('belirsiz'). Sayfa numarası bölümden (tahmini s.50-51); makale 43-67.",
+   "okunan_sayfa": [
+    "https://journals.lib.washington.edu/index.php/JIPA/article/view/15411",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4575132/"
+   ]
+  },
+  {
+   "id": "khok-phanom-di",
+   "ad": "Khok Phanom Di",
+   "ad_yerel": "Khok Phanom Di (Chonburi, Tayland)",
+   "tur": "nekropol",
+   "lat": 13.58,
+   "lon": 101.14,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1740652 P625 (yalnız bu; 2 ondalık)",
+     "lat": 13.58,
+     "lon": 101.14
+    }
+   ],
+   "konum_not": "YETERSİZ: yalnız tek tanık (Wikidata, 0.01 derece hassasiyet); OSM Nominatim eşleşme vermedi. Higham 2019 'Bang Pakong nehri ağzı, Orta Tayland' der. Kayda geçmeden önce ikinci tanık gerekir.",
+   "kur": {
+    "bas_mo": 2000,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Sonuç bölümü)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.lib.washington.edu/index.php/JIPA/article/view/15411",
+    "alinti": "Khok Phanom Di, the classic Neolithic site of coastal Central Thailand, was first settled in about 2000 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 1500,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "yerlesim-suresi",
+    "kaynak": "Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Sonuç bölümü)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://journals.lib.washington.edu/index.php/JIPA/article/view/15411",
+    "alinti": "Khok Phanom Di was occupied between 2000-1500 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "Bang Pakong haliç ağzında, yedi mezar evreli (~20 kuşak) Neolitik yerleşim ve mezarlık; Tunç yok, kabuk-boncuk ticaret merkezi.",
+   "sahip_kultur": "Khok Phanom Di Neolitiği (yerel adlandırma)",
+   "ic_not": "Fochesato vd. 2021 (PNAS, PMC8617413, Tablo 1) aynı yeri 'Neolitik 2000-1600 MÖ' (53 gömü) verir: bitiş 1500 (Higham 2019) ile 1600 (Fochesato, aynı grup) farklı. Higham & Higham 2022 (JIPA 46: 17-30, 'Khok Phanom Di: new radiocarbon dates and their implications') yeni insan kemiği/kabuk/kömür tarihleriyle 'daha erken iskan' bildirir; YAYININ KENDİSİ OKUNAMADI (yalnız özet), yeni sayı bulunamadı. Bu nedenle kur=2000 eski/eşik değer olarak ele alınmalı, 2022 makalesi okununca güncellenmeli. Orijinal: Higham & Thosarat 2004 (Excavation of Khok Phanom Di VII) okunmadı.",
+   "okunan_sayfa": [
+    "https://journals.lib.washington.edu/index.php/JIPA/article/view/15411",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8617413/"
+   ]
+  },
+  {
+   "id": "ban-non-wat",
+   "ad": "Ban Non Wat",
+   "ad_yerel": "Ban Non Wat (Nakhon Ratchasima, Tayland)",
+   "tur": "nekropol",
+   "lat": 15.2744,
+   "lon": 102.2689,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q806037 P625 (köy)",
+     "lat": 15.2744,
+     "lon": 102.2689
+    },
+    {
+     "kaynak": "Higham vd. 2015 PLoS ONE: Ban Lum Khao 102 20 35 E 15 14 56 N (komşu site, yaklaşık 15 km)",
+     "lat": 15.2489,
+     "lon": 102.3431
+    }
+   ],
+   "konum_not": "Tam site koordinatı alınamadı (Nominatim eşleşme vermedi). Wikidata köy noktası esas alındı; makaledeki komşu site koordinatı (Ban Lum Khao) yalnızca bölgenin doğrulanmasında kullanıldı. İkinci bağımsız tanık YETERSİZ.",
+   "kur": {
+    "bas_mo": 1800,
+    "son_mo": 1250,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Fochesato M., Higham C., Bogaard A., Castillo C., Bowles S. 2021, 'Changing social inequality from first farmers to early states in Southeast Asia', PNAS 118(48): e2113598118, doi:10.1073/pnas.2113598118, Tablo 1 (Neolitik 1 evresi)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8617413/",
+    "alinti": "Neolithic 1 represents the initial settlement by incoming rice farmers in the 18th century BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 420,
+    "son_mo": 100,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Fochesato M., Higham C., Bogaard A., Castillo C., Bowles S. 2021, 'Changing social inequality from first farmers to early states in Southeast Asia', PNAS 118(48): e2113598118, doi:10.1073/pnas.2113598118 (Demir Çağı 1 evresi; sekans Demir Çağı 4 / MS 500'de biter)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8617413/",
+    "alinti": "IA 1, 420 to 100 BC; IA 2, 200 BC to AD 200",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Hendekli, Güneydoğu Asya'nın Neolitik'ten Demir Çağı sonuna en uzun kesintisiz dizisi; 75 radyokarbon tarihi (kabuk, kömür, çeltik, kemik) ile ~700 gömü. Tunç Çağı: BA1 1050-1000, BA2 1000-900, BA3 900-800, BA4 800-700, BA5 700-420 MÖ; Neolitik 2 1250-1050.",
+   "sahip_kultur": "Ban Non Wat Neolitik 1-2, Tunç 1-5, Demir 1-4 evreleri (Higham & Kijngam 2009-2012)",
+   "ic_not": "Evre tarihleri 'dönem toplamı' (Bayes modelli evre aralıkları), tek olay aralığı DEĞİL; bit bloğu ilk Demir evresinin sonudur, yerleşimin sonu değil. Tunç Çağı başlangıcı için bölgesel model: 1200-1000 MÖ (%68.2), 1570-900 MÖ (%95.4) (Higham vd. 2015, Fig 8; 5 site birlikte). 2019 JIPA'da ocak kömürleri: 1124-921, 1121-894, 1111-929, 1056-905 MÖ (güven belirtilmemiş); Neolitik 1 gömüsü kabuk tarihi 1501-1406 MÖ. Ban Non Wat'ın ilk avcı-toplayıcı gömüleri ~MÖ 1750. Higham & Higham 2009 (Antiquity 83: 125-144) özet dışında okunamadı.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8617413/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4575132/",
+    "https://journals.lib.washington.edu/index.php/JIPA/article/view/15411"
+   ]
+  },
+  {
+   "id": "non-nok-tha",
+   "ad": "Non Nok Tha",
+   "ad_yerel": "Non Nok Tha (Khon Kaen, Tayland)",
+   "tur": "nekropol",
+   "lat": 16.7372,
+   "lon": 102.2555,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1996138 P625",
+     "lat": 16.7372,
+     "lon": 102.2555
+    }
+   ],
+   "konum_not": "YETERSİZ: tek tanık. OSM Nominatim 'Non Nok Tha' Yasothon'daki alakasız yerleri verdi (yaklaşık 170 km uzak), reddedildi.",
+   "kur": {
+    "bas_mo": 1000,
+    "son_mo": 500,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Fochesato M., Higham C., Bogaard A., Castillo C., Bowles S. 2021, 'Changing social inequality from first farmers to early states in Southeast Asia', PNAS 118(48): e2113598118, doi:10.1073/pnas.2113598118, Tablo 1 (Non Nok Tha Tunç Çağı)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8617413/",
+    "alinti": "Non Nok Tha BA 1000-500 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Bayard'ın 1960'larda kazdığı KD Tayland Tunç Çağı mezarlığı; Higham vd. 2015 yeniden tarihlemesinde Tunç mezarları MÖ 9. yy'dan (MP 3: 840-800 MÖ) MÖ 8-6. yy'a uzanır.",
+   "sahip_kultur": "Non Nok Tha Tunç Çağı mezarlığı",
+   "ic_not": "Uzun kronoloji (Solheim; Gorman & Charoenwongsa) bu site için çok daha erken tarih iddia etmişti; Higham vd. 2015 (PLoS ONE) bunu 'hatalı tarihler' diyerek reddeder (aynı kısa/uzun kronoloji tartışması, bkz. Ban Chiang). Ayrı bit bloğu verilmedi: Fochesato evre aralığı 1000-500 MÖ iki ucuyla kur içinde.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8617413/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4575132/"
+   ]
+  },
+  {
+   "id": "man-bac",
+   "ad": "Man Bac",
+   "ad_yerel": "Man Bac (Ninh Binh, Vietnam)",
+   "tur": "nekropol",
+   "lat": 20.1,
+   "lon": 106.0,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q55624307 P625 (yuvarlak, 0.1 derece hassasiyet)",
+     "lat": 20.1,
+     "lon": 106.0
+    }
+   ],
+   "konum_not": "YETERSİZ: tek tanık ve yuvarlak koordinat (yaklaşık 10 km belirsizlik). OSM Nominatim eşleşmedi. Bu kayıt koordinat olarak kullanılmamalı; kültür/dönem kaydı olarak kullanılabilir.",
+   "kur": {
+    "bas_mo": 1956,
+    "son_mo": 1573,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Vlok M. vd. 2021, 'Forager and farmer evolutionary adaptations to malaria evidenced by 7000 years of thalassemia in Southeast Asia', Scientific Reports 11, doi:10.1038/s41598-021-83978-4 (PMC7952380; makale 'cal BP' aralığını Man Bac iskan aralığı olarak verir)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7952380/",
+    "alinti": "The Man Bac site dating to 3,906-3,523 cal BP was occupied during the agricultural transition of Southeast Asia",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Kuzey Vietnam'da yerli avcı-toplayıcı ile göçmen çeltikçi çiftçilerin birlikte yaşadığı tarım geçişi nekropolü/yerleşimi.",
+   "sahip_kultur": "Man Bac (Neolitik geçiş)",
+   "ic_not": "cal BP->MÖ: BP-1950, bu oturumda (3906->1956, 3523->1573). Higham vd. 2019 (JIPA) Man Bac için 'ilk Neolitik yaklaşık MÖ 1900-1500' der (Vlok vd. 2019'a atıfla; Vlok 2019 doğrudan okunamadı): aynı ekip, bağımsız çift teyit sayılmaz. Vlok 2021 aralığı birincil radyokarbon yayını değil, atıf; Man Bac'ın birincil 14C yayını bulunamadı.",
+   "kaynak_2": "Higham C., Higham T., Douka K. 2019, JIPA 43: 43-67 (Sonuç bölümü: initial Neolithic at Man Bac around 1900-1500 BC, Vlok et al. 2019) https://journals.lib.washington.edu/index.php/JIPA/article/view/15411",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7952380/",
+    "https://journals.lib.washington.edu/index.php/JIPA/article/view/15411"
+   ]
+  },
+  {
+   "id": "sanganakallu-kupgal",
+   "ad": "Sanganakallu-Kupgal",
+   "ad_yerel": "Sanganakallu-Kupgal (Ballari, Karnataka)",
+   "tur": "sehir",
+   "lat": 15.1847,
+   "lon": 76.9703,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q7417832 P625 (Sanganakallu köyü)",
+     "lat": 15.1847,
+     "lon": 76.9703
+    },
+    {
+     "kaynak": "OSM Nominatim 'Sanganakallu'",
+     "lat": 15.1739,
+     "lon": 76.9672
+    }
+   ],
+   "konum_not": "Fark ~1.3 km; Wikidata esas. Wikidata+OSM tam bağımsız değil; ulusal kurum tanığı alınamadı. Kupgal'ın ayrı koordinatı bulunamadı (Wikidata Q93274454 koordinatsız).",
+   "kur": {
+    "bas_mo": 1400,
+    "son_mo": 1200,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Roberts P. vd. 2016, 'Local diversity in settlement, demography and subsistence across the southern Indian Neolithic-Iron Age transition: site growth and abandonment at Sanganakallu-Kupgal', Archaeological and Anthropological Sciences 8(3): 575-599, doi:10.1007/s12520-015-0240-9 (yalnız özet okundu)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://link.springer.com/article/10.1007/s12520-015-0240-9",
+    "alinti": "hilltop village expansion during the Late Neolithic and 'Megalithic' transition period (ca. 1400-1200 cal. BC)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 1200,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Aynı makale (özet): apparent abandonment ca. 1200 cal. BC",
+    "kaynak_dili": "İngilizce",
+    "url": "https://link.springer.com/article/10.1007/s12520-015-0240-9",
+    "alinti": "prior to apparent abandonment ca. 1200 cal. BC",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kayip",
+   "d": "Tungabhadra havzasında granit tepe üstü Geç Neolitik köyleri; MÖ 1400-1200 arası büyüme, ~MÖ 1200'de tepe yerleşimlerinin neredeyse tümüyle terki (Demir yok denecek kadar az).",
+   "sahip_kultur": "Güney Hint Neolitiği -> 'Megalitik' geçiş",
+   "ic_not": "kur aralığı bir EVRE (tepe köyü genişlemesi) aralığıdır, yerleşimin kuruluş tarihi DEĞİL: Sanganakallu-Kupgal'da Neolitik iskan daha erkendir (bkz. 'guney-hint-neolitigi' kaydı). Güney Hint kronolojisinde bölgesel süreklilik (Tungabhadra-Krishna) Demir Çağı'na ~MÖ 1200'de devam eder, 'terk' yalnız bu tepe kompleksi içindir. Makalenin tam metni/tabloları (bireysel kalibre aralıklar) okunamadı.",
+   "okunan_sayfa": [
+    "https://link.springer.com/article/10.1007/s12520-015-0240-9"
+   ]
+  },
+  {
+   "id": "guney-hint-neolitigi",
+   "ad": "Güney Hint Neolitiği (Ashmound geleneği, Deccan)",
+   "ad_yerel": "Southern Neolithic / Ashmound Tradition (Karnataka-Andhra)",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür kaydı; koordinat zorunlu değil.",
+   "kur": {
+    "bas_mo": 3000,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Fuller D.Q., Boivin N., Korisettar R., 'Dating the Neolithic of South India: new radiometric evidence for key economic, social and ritual transformations' (yazar el yazması, UCL; hakemli basılı sürümü bu oturumda doğrulanmadı), 'Revised chronology' bölümü",
+    "kaynak_dili": "İngilizce",
+    "url": "https://www.homepages.ucl.ac.uk/~tcrndfu/articles/Fuller%20et%20al%20Ashmound%20AMS.pdf",
+    "alinti": "Kodekal, where one of the earliest layers produced charcoal dating to ca. 3000 BC",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Deccan'ın güneyinde sığır gübresi kül tepeleriyle (ashmound) belirginleşen hayvancı Neolitik; Kodekal Tabaka 4 (kül tepesinden önce) 'erken 3. binyıl'.",
+   "sahip_kultur": "Güney Neolitiği / Ashmound geleneği",
+   "ic_not": "ÖNEMLİ: ~3000 MÖ değeri Kodekal'ın kül tepesinden ÖNCEKİ iskan tabakasındandır (Katman 4, Paddayya 1973); kül tepesi (Ashmound geleneğinin başı) tarihsizdir. Aynı makale: Watgal IIA iskanı 'perhaps 2900/2800 BC'de başlamış, Watgal IIA->IIB geçişi ~2200 MÖ (Bayes); Utnur Faz I/II sınırı 2600-2500 cal BC, II/III 2400-2300, dizi sonu ~2200 MÖ. Bunlar yazarların Bayes modelleri, tek olay aralığı verilmedi. Makalenin Table 9'u (gözden geçirilmiş çerçeve) görüntü olduğu için okunamadı, bit bulunamadı. de Souza vd. 2022 (PLoS ONE) veri tabanı ham BP verdiği için kullanılmadı.",
+   "okunan_sayfa": [
+    "https://www.homepages.ucl.ac.uk/~tcrndfu/articles/Fuller%20et%20al%20Ashmound%20AMS.pdf (pdftotext ile)",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9273075/"
+   ]
+  },
+  {
+   "id": "harappa-mezarlik-r37",
+   "ad": "Harappa R-37 Mezarlığı",
+   "ad_yerel": "Harappa Cemetery R-37 (Punjab, Pakistan)",
+   "tur": "nekropol",
+   "lat": 30.6333,
+   "lon": 72.8667,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q185562 P625 (Harappa)",
+     "lat": 30.6333,
+     "lon": 72.8667
+    },
+    {
+     "kaynak": "OSM Nominatim 'Harappa'",
+     "lat": 30.6331,
+     "lon": 72.8702
+    }
+   ],
+   "konum_not": "Fark ~0.3 km (Harappa şehri; R-37 mezarlığı höyüğün güneyinde, tam konum alınamadı); Wikidata esas.",
+   "kur": {
+    "bas_mo": 2550,
+    "son_mo": 2030,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Valentine B. vd. 2015, 'Evidence for Patterns of Selective Urban Migration in the Greater Indus Valley (2600-1900 BC)', PLoS ONE 10(4): e0123103, doi:10.1371/journal.pone.0123103; tarihler J.M. Kenoyer'den kişisel iletişim",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4414352/",
+    "alinti": "radiocarbon dates from charcoal associated with early and late burials at Harappa (2550-2030 cal BC)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Harappa'da Olgun Harappa gömü alanı; erken ve geç gömüler kömür 14C'ye göre MÖ 2550-2030; Farmana mezarlığı seramikle ~2600-2000 MÖ.",
+   "sahip_kultur": "Olgun Harappa (Indus uygarlığı)",
+   "ic_not": "ZAYIF: tarih makalede personal communication (Kenoyer) olarak aktarılıyor; HARP saha raporu (Meadow/Kenoyer) ve tek tek 14C laboratuvar sayıları bulunamadı. Bu aralık mezarlık KULLANIM süresidir (yerleşim süresi değil). Farmana için seramikle ca. 2600-2000 BC (aynı makale).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4414352/"
+   ]
+  },
+  {
+   "id": "mehrgarh-donem-I-yeniden-tarihleme",
+   "ad": "Mehrgarh Dönem I (aseramik Neolitik mezarlık) - yeniden tarihleme",
+   "ad_yerel": "Mehrgarh Period I (Neolithic cemetery)",
+   "tur": "nekropol",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Mehrgarh önceki dalgada yazılmış; koordinat tekrarlanmadı.",
+   "kur": {
+    "bas_mo": 5223,
+    "son_mo": 4914,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Mutin B., Zazzo A., Bondioli L., Coppa A., vd. 2025, 'New radiocarbon dates of human tooth enamel reveal a late appearance of farming life in the Indus Valley', Scientific Reports 15, doi:10.1038/s41598-025-92621-5",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12000376/",
+    "alinti": "started at the end of the 6th millennium BCE or the beginning of the 5th millennium BCE (5223 - 4914 cal. BCE)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 4769,
+    "son_mo": 4679,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Aynı makale (Bayes modeli v1.1; 23 dişin minesi)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12000376/",
+    "alinti": "ended during the first third of the 5th millennium BCE (4769 - 4679 cal. BCE)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "23 Neolitik gömünün diş minesi tarihlerinin Bayes modeli: mezarlık MÖ ~5223-4914'te başlar, 186-531 yıl sürer.",
+   "sahip_kultur": "Mehrgarh Dönem I (aseramik Neolitik)",
+   "ic_not": "ÖNCEKİ DALGAYLA ÇELİŞME RİSKİ: Jarrige'in geleneksel kronolojisi Dönem I'i ~MÖ 8000'de başlatır (Mutin vd. özetinde 'previously proposed ... around 8000 BCE'). Bu yeni yayın 'Dönem I 5250-4650 cal BCE' diyor ve Jarrige hipotezini bağdaşmaz buluyor. Önceki dalganın Mehrgarh kaydı hangi tarihi aldıysa kontrol edilmeli; çelişki iki kaynağıyla beyan edilmeli (Jarrige; Mutin 2025). Bu kayıt YALNIZ MEZARLIK aşaması içindir. Fransızca Jarrige raporları (Paléorient vb.) bu oturumda açılamadı.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12000376/"
+   ]
+  },
+  {
+   "id": "anuradhapura-brahmi",
+   "ad": "Anuradhapura - en erken tarihli Brahmi yazısı",
+   "ad_yerel": "Anuradhapura Salgaha Watta 2 (Citadel) - Brahmi sherds",
+   "tur": "sehir",
+   "lat": 8.335,
+   "lon": 80.4108,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q5724 P625",
+     "lat": 8.335,
+     "lon": 80.4108
+    },
+    {
+     "kaynak": "OSM Nominatim 'Anuradhapura Sri Lanka'",
+     "lat": 8.335,
+     "lon": 80.4106
+    }
+   ],
+   "konum_not": "Fark <0.1 km (Wikidata+OSM bağımsız sayılmaz). Kazı alanı (ASW2) kentin içinde; ayrıca koordinat verilmedi.",
+   "kur": {
+    "bas_mo": 400,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Coningham R.A.E., Allchin F.R., Batt C.M., Lucy D. 1996, 'Passage to India? Anuradhapura and the Early Use of the Brahmi Script', Cambridge Archaeological Journal 6(1): 73-97, doi:10.1017/S0959774300001608 (yalnız özet okundu)",
+    "kaynak_dili": "İngilizce",
+    "url": "https://doi.org/10.1017/S0959774300001608",
+    "alinti": "dates of the beginning of the fourth century BC, now represent its earliest dated examples",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Anuradhapura kazısında bulunan Brahmi yazılı çanak parçaları, Hint alt kıtasında yazının en erken tarihli örnekleridir (4. yüzyıl başı MÖ).",
+   "sahip_kultur": "Erken Tarihî Sri Lanka (Anuradhapura Citadel dizisi)",
+   "ic_not": "'Başlangıç 4. yy MÖ' yani yaklaşık MÖ 400; kalibre aralığı özette yok (tam metin erişimsiz). Deraniyagala (1990), 'Radiocarbon dating of early Brahmi script in Sri Lanka: 600-500 BC' başlığıyla (yalnız Coningham 1996 kaynakçasındaki başlıktan görüldü, kendisi okunamadı) bu tarihe karşı çıkar: ÇELİŞKİ: Coningham ~MÖ 400, Deraniyagala MÖ 600-500. Çözüm yok. bas_mo=400 yalnız 'MÖ 4. yy başı'ndan türetilmiş yaklaşık değerdir.",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/abs/passage-to-india-anuradhapura-and-the-early-use-of-the-brahmi-script/DAAA2514FB08E1DDE3FAFF2171AB097B"
+   ]
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Dholavira Bisht/ASI UNESCO nomination dossier'ı (Harappan Evre I-VII tarihleri birincil kaynaktan) - denenen: whc.unesco.org/en/list/1645 (403); Evre tarihleri yalnız Wikipedia üzerinden Possehl 2004 s.67'ye atıf olarak görüldü (ikincil, dayanak değil). Sengupta vd. 2020 tam metni (Wiley) erişimsiz.",
+  "bulunamadı: Lothal (S.R. Rao raporları, kalibre) - denenen: Crossref/Europe PMC aramaları; Khadkikar vd. 2004 (Antiquity 78: 896-903) yalnız paleocoğrafya özeti verir, tarih yok.",
+  "bulunamadı: Kalibangan kalibre tarihleri - denenen: Europe PMC, Crossref (yalnız Demján 2020 genel yöntem makalesi çıktı).",
+  "bulunamadı: Mohenjo-daro kalibre kuruluş/bitiş tarihi ve Jansen/MAP yayını - denenen: Crossref, WebSearch. Yalnız haber düzeyi: DGAA Sindh 2025-26 kazısı, beş yeni 14C tarihi, surun en alt seviyesi Erken Harappa/Kot Diji sonu ~MÖ 2700-2600, sur en az MÖ 2200'e dek bakılmış (archaeology.org haberi, 6 Nisan 2026; IFLScience'a atıfla; AKADEMİK YAYIN YOK). Terk tarihi (1900/1800-1700) yalnız popüler özetlerde. Kenoyer: harappa.com 403 verdi, açılamadı.",
+  "bulunamadı: Painted Grey Ware kalibre MÖ 1200-600 - denenen: Europe PMC, Crossref, WebSearch; yalnız eski kalibre edilmemiş Tata listeleri (Agrawal & Kusumgar; Lal & Sarna) ve Magee 2004 (South Asian Studies 20: 37-44, 'Mind the Gap'; özeti yok). Hastinapur PGW MÖ 1100-800 (Lal, stratigrafik karşılaştırma, kalibre değil).",
+  "bulunamadı: Mahajanapada/Magadha (Bimbisara/Ajatashatru) ve Pataliputra arkeoloji tarihleri - denenen: Crossref bibliyografik aramalar; kalibre veri çıkmadı. Buddha ölüm tarihi (uzun ~MÖ 483/486, kısa ~404/400): Bechert (ed.) 'Die Datierung des historischen Buddha' (Symposien zur Buddhismusforschung IV.1-3) kaynakçada doğrulandı (Norman 1993, Buddhist Studies Review 10(2): 237-244; de Jong 1999, IIJ 42(3): 280-282 kitap tanıtımları); içerik okunamadı. Heidelberg JIABS makalesi bot koruması (Anubis) nedeniyle okunamadı, atlatılmadı. Hagens 2009 (Mouseion 53: 29-55) Buddha'yı MÖ 5. yy yapan başka bir öneri.",
+  "bulunamadı: Maurya kuruluşu MÖ 322 (iki bağımsız akademik kaynak) ve Aşoka fermanları MÖ 260 - denenen: Crossref aramaları; yalnız popüler/derleme sonuçlar.",
+  "bulunamadı: Anuradhapura kuruluş tarihi (Deraniyagala radyokarbon, kalibre) - FU Berlin 'Tanks in the dryzone' sayfası: ilk Erken Demir iskanı 900-800 BCE'de 10 hektara kadar, 700-600 BCE'de en az 50 ha; taş aletler ~5850 cal BP; ATIFSIZ, laboratuvar yok: DAYANAK SAYILMADI. Deraniyagala 1990/1997/1998 ve Coningham 1999 Vol I (BAR/Fulcrum, abonelik) açılamadı. Yalnız Brahmi (4. yy MÖ) kaydı yapıldı.",
+  "bulunamadı: Lumbini Maya Devi tapınağı en erken ahşap yapı kalibre/OSL tarihleri - denenen: Coningham vd. 2013 Antiquity 87(338): 1104-1123, doi:10.1017/S0003598X00049899 (özet okundu: Asoka'nın MÖ 3. yy yeniden inşasından önceki ahşap yapı; sayısal aralık yok; basın 'MÖ 6. yy' diyor ama basın dayanak sayılmadı). Tam metin erişimsiz.",
+  "bulunamadı: Neolitik Deccan Sanganakallu bireysel kalibre aralıkları (Roberts 2016 tabloları), Fuller vd. basılı sürüm ve Table 9 - özet düzeyinde kaldı.",
+  "bulunamadı: Kot Diji, Amri, Nal, Sothi-Siswal, Ahar-Banas (Balathal) kalibre 14C - denenen: Europe PMC, Crossref. Petrie & Lynam 2019 (J Field Archaeol, PMC7665820) yalnız geleneksel dönem sınırlarını (Mughal 1997 atfıyla Erken Harappa ~3100/3000-2500, Olgun 2500-2000/1900) verir; site-bazlı tarih yok.",
+  "bulunamadı: Khok Phanom Di 2022 (Higham & Higham, JIPA 46: 17-30) yeni tarih sayıları - PDF açılamadı. Dong Son: Oliveira vd. 2019 (Antiquity 93, doi:10.15184/aqy.2018.177) bulundu ama okunmadı; Dong Son kaydı YOK. Ayrıca Ban Chiang/Man Bac/Khok Phanom Di/Non Nok Tha için ulusal kurum (Fine Arts Dept/UNESCO) koordinat tanığı bulunamadı.",
+  "bulunamadı: Hintçe/Urduca/Fransızca kaynaklar (Jarrige, Mehrgarh raporları; Paléorient, Puratattva, Man and Environment) - bu oturumda tam metin erişimi sağlanamadı; kaynak_dili yalnız İngilizce. Fransızca Mehrgarh literatürü okunmadan Mutin 2025'in sonucu tek taraflı kalmış olabilir.",
+  "bulunamadı: Ban Chiang için Higham vd. 2015 tam Bayes sayıları site bazında (şekil içinde) - yalnız bölgesel Tunç başlangıç aralığı çıkarıldı."
+ ]
+}

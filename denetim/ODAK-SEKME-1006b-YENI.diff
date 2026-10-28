@@ -1,0 +1,354 @@
+diff --git a/arac/odak_cozum.js b/arac/odak_cozum.js
+index 612556b6..b670b98c 100644
+--- a/arac/odak_cozum.js
++++ b/arac/odak_cozum.js
+@@ -177,16 +177,22 @@ const KESIMLER = [
+   ["function olayKonumu(o)", "// 🔴 `yakinlikKm`"],
+   ["function maddeOdakKutusu(o)", "function haritayiOlayaGotur("],
+   ["var KRONOLOJI_ID_OZEL", "(function odakKur()"],          // derinKronolojiBindir + cokTarafliKronolojiEkle
++  ["var BASLANGIC = gunIdx(", "// ═══"],                    // atlas penceresi (tarihAyarla kıstırır)
++  ["function aktifAralik(", "\n}", "\n}\n"],                // devletiYay'in dönem sınavı (CRLF'e dayanıklı)
+ ];
+ const KUNYE_ONCE = new Set();
+ (W.DEVLETLER || []).forEach(function (d) { (d && d.kronoloji || []).forEach(function (m) { KUNYE_ONCE.add(m); }); });
+-for (const [bas, son] of KESIMLER) {
+-  try { geval(kes(bas, son)); } catch (e) { olculemedi("app.js parçası koşmadı (" + bas + "): " + e.message); }
++for (const [bas, son, ek] of KESIMLER) {
++  try { geval(kes(bas, son) + (ek || "")); } catch (e) { olculemedi("app.js parçası koşmadı (" + bas + "): " + e.message); }
+ }
+-["gunIdx", "_khGunStr", "_cDevletIx", "adKonumBul", "olayKonumu", "maddeOdakKutusu"].forEach(function (f) {
++["gunIdx", "_khGunStr", "_cDevletIx", "adKonumBul", "olayKonumu", "maddeOdakKutusu",
++ "aktifAralik"].forEach(function (f) {
+   if (typeof W[f] !== "function") olculemedi("app.js'ten kesilen `" + f + "` işlev değil");
+ });
+ if (!Array.isArray(W.AD_KONUM)) olculemedi("app.js'ten kesilen AD_KONUM dizi değil");
++if (typeof W.BASLANGIC !== "number" || typeof W.BITIS !== "number" || !(W.BASLANGIC < W.BITIS)) {
++  olculemedi("app.js'ten kesilen BASLANGIC/BITIS sayı değil");
++}
+ 
+ // `olaylar` listesinin anahtar deseni app.js:7034'ten METİNLE okunur
+ const _olRe = APP.match(/var olaylar = Object\.keys\(window\)\s*\.filter\(function \(k\) \{ return (\/\^OLAYLAR[^\n]*?\/)\.test\(k\)/);
+@@ -334,6 +340,18 @@ function siniflandir(o) {
+ //       yönde yanlış kirli verir.
+ //    `DEVLET_HARITA` tarayıcı evreninde YOKSA → SEKME_OLCULEMEDI (temiz DEĞİL).
+ //    `d` = maddenin İLK künyesi (tekil sayım).
++//
++// 🆕 SEKME_SESSIZ'in NEDENİ (UMIT-W13 1006b · W57'de A ile birleşti) —
++//    `devletiYay`ın iki `return false`u birebir: `DEVLET_HARITA`da o id YOK
++//    (`harita_kaydi_yok`) · o gün (`tarihAyarla` 1281–1923'e KISTIRIR)
++//    etkin `dnm` YOK (`sahnede_degil`). Dönem sınavı app.js'in kesilmiş
++//    `aktifAralik`i; `fi`/`ti` app.js'teki gibi `gunIdx(p.f/p.t)`.
++//    🔴 Kıstırma şarttır: 1281 öncesi bir madde app.js'te 1281'in gövdesine
++//       bakar — kıstırmasız sınav onu yanlış sınıfa koyar (W57 ölçtü, 6 Ekim:
++//       kıstırmasız GOVDE 228 · gövdesiz 84; kıstırmalı GOVDE 247 · gövdesiz 65).
++//    ⚠️ Üçüncü `return false` (gövde geometrisi BOŞ) burada SORULMAZ —
++//       `parcaCoz` tam havuzu ister (gövde var sayılır ⇒ yanlış temiz yönü,
++//       bilinçli ve yazılı).
+ function odakYazili(o) {
+   return !!(o.odak_yer || o.odak_kimlik || o.odak_kutu_kaynak);
+ }
+@@ -343,18 +361,23 @@ function yerKonYazili(o) {
+ const DH_IX = {};
+ (W.DEVLET_HARITA || []).forEach(function (s) { if (s && s.id && !DH_IX[s.id]) DH_IX[s.id] = s; });
+ const DH_VAR = Object.keys(DH_IX).length > 0;
+-function govdeVar(id, t) {
++function devletiYaySessiz(id, t) {
+   const s = DH_IX[id];
+-  if (!s) return false;
+-  const g = W.gunIdx(t);
+-  return (s.dnm || []).some(function (p) { return W.gunIdx(p.f) <= g && g < W.gunIdx(p.t); });
++  if (!s) return "harita_kaydi_yok";
++  const su = Math.max(W.BASLANGIC, Math.min(W.BITIS, W.gunIdx(t)));
++  for (let k = 0; k < (s.dnm || []).length; k++) {
++    const p = s.dnm[k];
++    if (W.aktifAralik(W.gunIdx(p.f), W.gunIdx(p.t), su)) return null;
++  }
++  return "sahnede_degil";
+ }
+ function govdeSonucu(m, d) {
+-  if (!DH_VAR) return "SEKME_OLCULEMEDI";
+-  if (govdeVar(d.harita || d.id, m.t)) return "SEKME_GOVDE";
++  if (!DH_VAR) return { dal: "SEKME_OLCULEMEDI" };
++  const neden = devletiYaySessiz(d.harita || d.id, m.t);
++  if (!neden) return { dal: "SEKME_GOVDE" };
+   let k = null;
+   try { k = maddeOdakKutusu({ t: m.t, gi: W.gunIdx(m.t), odak_kimlik: [d.id] }); } catch (e) { k = null; }
+-  return (k && k.kutu) ? "SEKME_TABI_KUTU" : "SEKME_SESSIZ";
++  return { dal: (k && k.kutu) ? "SEKME_TABI_KUTU" : "SEKME_SESSIZ", neden: neden };
+ }
+ function sekmeDali(m, d) {
+   const hedef = m.yer_id ? olayKonumu(m) : null;
+@@ -367,10 +390,10 @@ function sekmeDali(m, d) {
+   let k = null;
+   try { k = maddeOdakKutusu(m); } catch (e) { k = null; }
+   if (k && k.kutu) return { dal: "SEKME_KUTU" };
+-  const g = d ? govdeSonucu(m, d) : "SEKME_GOVDE";
+-  if (odakYazili(m)) return { dal: "SEKME_OKUNMAYAN", alt: "govde_odak_kurulmadi", govde: g };
+-  if (yerKonYazili(m)) return { dal: "SEKME_OKUNMAYAN", alt: "govde_yer_kon", govde: g };
+-  return { dal: g };
++  const g = d ? govdeSonucu(m, d) : { dal: "SEKME_GOVDE" };
++  if (odakYazili(m)) return { dal: "SEKME_OKUNMAYAN", alt: "govde_odak_kurulmadi", govde: g.dal };
++  if (yerKonYazili(m)) return { dal: "SEKME_OKUNMAYAN", alt: "govde_yer_kon", govde: g.dal };
++  return g;
+ }
+ 
+ // ---- ④ EVREN — tarayıcının açabildiği maddeler ----------------------------
+@@ -430,6 +453,7 @@ function dosyaKaydi(ad) {
+ }
+ const sekmeAlt = {};
+ const okunmayanGovde = {};    // OKUNMAYAN gövde maddelerinin gövde sonucu (W57)
++const sessizNeden = {};
+ let noktaOdakKimlik = 0;
+ tumu.forEach(function (r) {
+   const m = r[0], d = dosyaKaydi(r[1]), yol = r[2];
+@@ -451,7 +475,9 @@ tumu.forEach(function (r) {
+     const sd = sekmeDali(m, kunyeIx[sekmeKunye.get(m)]);
+     d.sekme[sd.dal]++;
+     if (sd.dal === "SEKME_SESSIZ") {
+-      d.sessiz.push({ t: m.t, b: String(m.b || "").slice(0, 80), kunye: sekmeKunye.get(m) });
++      sessizNeden[sd.neden] = (sessizNeden[sd.neden] || 0) + 1;
++      d.sessiz.push({ t: m.t, b: String(m.b || "").slice(0, 80), neden: sd.neden,
++                      kunye: sekmeKunye.get(m) });
+     }
+     if (sd.govde) okunmayanGovde[sd.govde] = (okunmayanGovde[sd.govde] || 0) + 1;
+     if (sd.alt) {
+@@ -477,6 +503,7 @@ const cikti = {
+   acilamaz_degisken: acilamazDegisken,
+   sekme_alt: sekmeAlt, sekme_nokta_odak_kimlik: noktaOdakKimlik,
+   sekme_okunmayan_govde: okunmayanGovde, devlet_harita_var: DH_VAR,
++  sekme_sessiz_neden: sessizNeden,
+   bagla_log: LOG.filter(function (l) { return /eşlenemedi|EZİLDİ|künyesi olmayan/.test(l); })
+                 .map(function (l) { return l.slice(0, 400); }),
+   dosyalar: Object.keys(dosyaIx).sort().map(function (k) { return dosyaIx[k]; }),
+diff --git a/arac/odak_olc.py b/arac/odak_olc.py
+index 3ec8de57..a3fcec4b 100644
+--- a/arac/odak_olc.py
++++ b/arac/odak_olc.py
+@@ -57,6 +57,8 @@ d.id)` çağrılır:
+     kamera yine yerinde: ODAKSIZ ile aynı kusur sınıfıdır.
+     Örnek: `iran` künyesi 1555–1600 (`KRONOLOJI_IRAN` Pehlevi künyesine
+     bağlı; Safevî topraklarını `safevi` çizer — W13 1006c §2).
++    🆕 1006b: bu son kova `SEKME_SESSIZ` dalıdır ve tavanı vardır
++    (`sekme_sessiz`); sayı buradan değil koşudan okunur.
+ ⇒ `→yabancı` iş YÜKÜDÜR: odak yazılmalı. Ama kusur "Osmanlı'ya uçmak"
+ değil, "kaba ölçek ya da kıpırdamayan kamera"dır.
+ 
+@@ -104,6 +106,10 @@ KULLANIM
+     py arac/odak_olc.py --dosya <ad>    tek dosya
+     py arac/odak_olc.py --json <yol>    makine okunur döküm
+     py arac/odak_olc.py --tavan-yaz     bugünkü sayıyı TAVAN olarak dondur
++                                        🔴 YALNIZ İLK KURULUM: `evren`i BÜTÜN
++                                        dosyalara genişletir ⇒ YENİ KAPSAM'ı
++                                        AFFEDER (`tavan_notu_1001`). Var olan
++                                        tavan ELLE indirilir (koordinatör).
+ """
+ import io
+ import json
+@@ -119,6 +125,11 @@ TAVAN_YOL = os.path.join(KOK, "denetim", "ODAK-TAVAN.json")
+ SEKME_DALLARI = ("SEKME_NOKTA", "SEKME_KIPIRDAMAZ", "SEKME_OKUNMAYAN",
+                  "SEKME_KUTU", "SEKME_GOVDE", "SEKME_TABI_KUTU", "SEKME_SESSIZ",
+                  "SEKME_OLCULEMEDI")
++# Donmuş sekme sayıları: (dal, tavan alanı, tarif). Yalnız GERİLEME öter.
++SEKME_TAVANLARI = (
++    ("SEKME_OKUNMAYAN", "sekme_okunmayan", "odak yazılmış, devlet sekmesinde etkisiz"),
++    ("SEKME_SESSIZ", "sekme_sessiz", "gövde yok, tâbi kutusu yok: kamera kıpırdamaz (panel notu var)"),
++)
+ COZUCU = os.path.join(KOK, "arac", "odak_cozum.js")
+ 
+ 
+@@ -286,8 +297,8 @@ def kapi_olcumu():
+         sat.append("✓  yeni çözülmeyen odak atfı: 0%s"
+                    % ("  (beyanlı bilinen borç: %d)" % len(beyanli) if beyanli else ""))
+     if kapanan:
+-        sat.append("✓  beyanlı borç KAPANDI: %d — tavandan düşürülmeli "
+-                   "(`--tavan-yaz`)" % len(kapanan))
++        sat.append("✓  beyanlı borç KAPANDI: %d — `bilinen_kusur`dan ELLE düşürülmeli "
++                   "(`--tavan-yaz` DEĞİL: evreni genişletir)" % len(kapanan))
+ 
+     # ② tavan — yalnız GERİLEME bloke eder
+     if tv is None:
+@@ -339,7 +350,8 @@ def kapi_olcumu():
+                            % (ad[:44], od, md, 100.0 * od / md if md else 0))
+             if len(yeni_kapsam) > 8:
+                 sat.append("     … %d dosya daha" % (len(yeni_kapsam) - 8))
+-            sat.append("     ⇒ İNCELE, odak yaz, sonra `--tavan-yaz` ile evrene al.")
++            sat.append("     ⇒ İNCELE, odak yaz. Evrene alma koordinatör kararı — "
++                       "`--tavan-yaz` DEĞİL (hepsini affeder).")
+ 
+         for ad, simdi, etiket in (("odaksiz", T["ODAKSIZ"] - yk_od, "ODAKSIZ"),
+                                   ("beyanli_yabanci", beyan_yab, "BEYANLI→yabancı")):
+@@ -352,13 +364,17 @@ def kapi_olcumu():
+                 sat.append("✗  %s GERİLEDİ: %d > tavan %d (+%d)"
+                            % (etiket, simdi, t, simdi - t))
+             elif simdi < t:
+-                sat.append("✓  %s %d (tavan %d — %d İYİLEŞME, tavan indirilmeli: "
+-                           "`--tavan-yaz`)" % (etiket, simdi, t, t - simdi))
++                sat.append("✓  %s %d (tavan %d — %d İYİLEŞME, tavan ELLE indirilmeli)"
++                           % (etiket, simdi, t, t - simdi))
+             else:
+                 sat.append("✓  %s %d (tavan %d)" % (etiket, simdi, t))
+-        # ─── ② b) SEKME_OKUNMAYAN — odak YAZILMIŞ ama devlet sekmesinde ETKİSİZ ─
+-        # (UMIT-W13-ODAK-SEKME-1006). `siniflandir` bunları KONUMLU/KUTULU sayar,
+-        # oysa `maddeAc` onları okumaz. Aynı desen: yalnız GERİLEME öter.
++        # ─── ② b) DEVLET SEKMESİ tavanları (UMIT-W13-ODAK-SEKME-1006 · 1006b)
++        #   SEKME_OKUNMAYAN — `siniflandir` bunları KONUMLU/KUTULU sayar, oysa
++        #     `maddeAc` onları okumaz.
++        #   SEKME_SESSIZ — gövde dalında `devletiYay` boş döner VE KIRIM-ODAK-A
++        #     tâbi/kimlik kutusu da kurulamaz: kamera kıpırdamaz (A'dan beri
++        #     panele not yazılır; ODAKSIZ ile aynı kusur sınıfı).
++        # Aynı desen: yalnız GERİLEME öter.
+         # ⚠️ Tavanda alan YOKSA ötmez, YÜKSEK SESLE basar: yeni sayının
+         #    dondurulması koordinatör kararıdır (D) — alet onu kendisi yazmaz
+         #    ve yazılana kadar yayını bloke etmez.
+@@ -369,19 +385,21 @@ def kapi_olcumu():
+             ihlal = True
+             sat.append("✗  SEKME gövde dalı ÖLÇÜLEMEDİ: %d madde — DEVLET_HARITA "
+                        "tarayıcı evreninde yok" % sol)
+-        so = sekme_ozet(D)["SEKME_OKUNMAYAN"]
+-        t = tv.get("sekme_okunmayan")
+-        if t is None:
+-            sat.append("ⓘ  SEKME_OKUNMAYAN %d — tavanda YOK (dondurulmadı; karar "
+-                       "koordinatörde). Odak yazılmış, devlet sekmesinde etkisiz." % so)
+-        elif so > t:
+-            ihlal = True
+-            sat.append("✗  SEKME_OKUNMAYAN GERİLEDİ: %d > tavan %d (+%d)" % (so, t, so - t))
+-        elif so < t:
+-            sat.append("✓  SEKME_OKUNMAYAN %d (tavan %d — %d İYİLEŞME, tavan indirilmeli)"
+-                       % (so, t, t - so))
+-        else:
+-            sat.append("✓  SEKME_OKUNMAYAN %d (tavan %d)" % (so, t))
++        SO = sekme_ozet(D)
++        for dal, alan, tarif in SEKME_TAVANLARI:
++            so = SO[dal]
++            t = tv.get(alan)
++            if t is None:
++                sat.append("ⓘ  %s %d — tavanda YOK (dondurulmadı; karar koordinatörde). "
++                           "%s." % (dal, so, tarif[0].upper() + tarif[1:]))
++            elif so > t:
++                ihlal = True
++                sat.append("✗  %s GERİLEDİ: %d > tavan %d (+%d)" % (dal, so, t, so - t))
++            elif so < t:
++                sat.append("✓  %s %d (tavan %d — %d İYİLEŞME, tavan indirilmeli)"
++                           % (dal, so, t, t - so))
++            else:
++                sat.append("✓  %s %d (tavan %d)" % (dal, so, t))
+     return {"ihlal": ihlal, "satirlar": sat}
+ 
+ 
+@@ -487,6 +505,8 @@ def main():
+         if og:
+             print("   OKUNMAYAN gövde maddelerinin gövde sonucu (OKUNMAYAN'da sayılır):",
+                   dict(sorted(og.items())))
++        if D.get("sekme_sessiz_neden"):
++            print("   SESSİZ ayrımı:", dict(sorted(D["sekme_sessiz_neden"].items())))
+         if D.get("sekme_nokta_odak_kimlik"):
+             print("   ⓘ NOKTA dalında odak_kimlik yazılı %d madde — ham `m` (gi yok) ile"
+                   " sorulur" % D["sekme_nokta_odak_kimlik"])
+@@ -518,6 +538,7 @@ def main():
+             return 2
+         tv = {"odaksiz": T["ODAKSIZ"], "beyanli_yabanci": beyan_yab,
+               "sekme_okunmayan": sekme_ozet(D)["SEKME_OKUNMAYAN"],
++              "sekme_sessiz": sekme_ozet(D)["SEKME_SESSIZ"],
+               "konumlu": T["KONUMLU"], "kutulu": T["KUTULU"],
+               "beyanli_toplam": T["BEYANLI"], "madde": sum(T.values()),
+               "bilinen_kusur": [{"dosya": x["dosya"], "t": x["t"],
+@@ -534,7 +555,8 @@ def main():
+               "evren": sorted(d["dosya"] for d in D["dosyalar"]),
+               "not": ("Tavan bir ONAY degil bir DONDURMADIR (Degismez 2s/8 ile ayni "
+                       "desen). Yalniz GERILEME yayin kapisini bloke eder; iyilesme "
+-                      "olunca tavan --tavan-yaz ile INDIRILIR. bilinen_kusur bir "
++                      "olunca tavan ELLE INDIRILIR (--tavan-yaz evreni genisletir). "
++                      "bilinen_kusur bir "
+                       "SAYI degil LISTEdir: beyanli borc kapanirken yenisi sessizce "
+                       "yerine gecemez, kimlik eslesmezse oter. `evren` tavanin "
+                       "olculdugu DOSYA KUMESIDIR: dişindaki dosyalarin odaksizi "
+@@ -552,7 +574,7 @@ def main():
+             {"toplam": T, "beyanli_yabanci": beyan_yab, "sekme": sekme_ozet(D),
+              "kusur": kusur, "dosyalar": D["dosyalar"],
+              "evren": dict((k, D.get(k)) for k in (
+-                 "evren_sayi", "acilamaz_degisken", "sekme_alt", "yerlesim",
++                 "evren_sayi", "acilamaz_degisken", "sekme_alt", "sekme_sessiz_neden", "yerlesim",
+                  "ad_konum", "havuz_fark_eski_sehir", "disk_tarayicida_yok",
+                  "app_sonrasi_kronoloji", "yuk_uyari"))},
+             ensure_ascii=False, indent=1))
+diff --git a/denetim/ARAC-ODAK-SEKME-SINAV-1006.py b/denetim/ARAC-ODAK-SEKME-SINAV-1006.py
+index d18b41f6..fe983540 100644
+--- a/denetim/ARAC-ODAK-SEKME-SINAV-1006.py
++++ b/denetim/ARAC-ODAK-SEKME-SINAV-1006.py
+@@ -30,6 +30,18 @@ raporundan: Kırım 12 → TABI_KUTU, kalan 1 = 1792 künye bitişi sonrası):
+     A1 ötmemeli kırım 1476-07-01 Eminek Mirza (gövde yok, tâbi yerleşim var) → SEKME_TABI_KUTU
+     A2 ötmeli   kırım 1792-01-01 Yaş sonrası (künye bitti, tâbi yerleşim yok) → SEKME_SESSIZ
+ 
++## 🆕 1006b — SEKME_SESSIZ (gövde dalında `devletiYay` boş döner). ÖNGÖRÜ, koddan ÖNCE:
++    53 = 52 sahnede değil + 1 harita kaydı yok · GÖVDE 355 → 302 · öteki dallar aynı.
++    S1 ötmeli   iran 1555-01-01 "halı" (`harita:` o gün çizilmiyor)          → SESSIZ · sahnede_degil
++    S2 ötmeli   evfat 1350-01-01 Ömerî'nin yedi emirliği (dogu_afrika)       → SESSIZ · harita_kaydi_yok
++                (W57: W13'ün poni 1405 vakası veride DÜZELDİ — `odak_yer:["Brunei"]`,
++                 kapsam_genis yok ⇒ artık OKUNMAYAN; aynı nedenin bugünkü örneği alındı)
++    S3 ötmeli   sentetik akkoyunlu 1800-01-01 kapsam_genis, odak yok        → SESSIZ
++    S4 ötmemeli aynı sentetik 1470-01-01 (Akkoyunlu sahnede)                → GOVDE
++    S5 ötmeli   tavan sekme_sessiz = bugünkü; S3 eklenir                    → kapı ✗ "SEKME_SESSIZ GERİLEDİ"
++    S6 ötmemeli aynı tavan, veri dokunulmamış                               → SESSIZ satırında ✗ YOK
++    N5b         SESSIZ = sessiz nedenleri toplamı
++
+ ## NE YAPMAZ
+ Veriyi kalıcı değiştirmez: `data/kronoloji_akkoyunlu.js`e yazar, `git checkout --`
+ ile geri alır; `ODAK-TAVAN.json`u geri yazar. `data/` kirliyse ÇALIŞMAZ.
+@@ -164,7 +176,32 @@ def main():
+         hukum("N5 OKUNMAYAN = alt kırılımlar toplamı",
+               S["SEKME_OKUNMAYAN"] == sum(D["sekme_alt"].values()),
+               "%d = %s" % (S["SEKME_OKUNMAYAN"], D["sekme_alt"]))
++        hukum("N5b SESSIZ = sessiz nedenleri toplamı",
++              S["SEKME_SESSIZ"] == sum((D.get("sekme_sessiz_neden") or {}).values()),
++              "%d = %s" % (S["SEKME_SESSIZ"], D.get("sekme_sessiz_neden")))
+         bugun = S["SEKME_OKUNMAYAN"]
++        bugun_sessiz = S["SEKME_SESSIZ"]
++
++        # ---- 1006b: SEKME_SESSIZ
++        print("\n①b SESSİZ DURUŞ (S1–S4)")
++        rc, Ds = node(sor=[{"t": "1555-01-01", "b": "halı ve ipek"},
++                           {"t": "1350-01-01", "b": "kaydettiği yedi müslüman emirlik"}])
++        x = tek(Ds["soru"][0]) if not Ds.get("hata") else None
++        hukum("S1 iran 1555 halı → SESSIZ/sahnede_degil",
++              bool(x) and x["sekme"] == {"dal": "SEKME_SESSIZ", "neden": "sahnede_degil"},
++              json.dumps(x and x["sekme"], ensure_ascii=False))
++        x = tek(Ds["soru"][1], "kronoloji_dogu_afrika.js") if not Ds.get("hata") else None
++        hukum("S2 evfat 1350 → SESSIZ/harita_kaydi_yok",
++              bool(x) and x["sekme"] == {"dal": "SEKME_SESSIZ", "neden": "harita_kaydi_yok"},
++              json.dumps(x and x["sekme"], ensure_ascii=False))
++        for gun, bekle, ad in (("1800-01-01", "SEKME_SESSIZ", "S3 sentetik akkoyunlu 1800 → SESSIZ"),
++                               ("1470-01-01", "SEKME_GOVDE", "S4 sentetik akkoyunlu 1470 → GOVDE (ötmemeli)")):
++            kurbana_ekle('{ t:"%s", b:"SINAV-W13 sessiz %s", kapsam_genis:true },' % (gun, gun))
++            rc, Dx = node(sor=[{"t": gun, "b": "SINAV-W13 sessiz"}])
++            geri_al()
++            x = tek(Dx["soru"][0]) if not Dx.get("hata") else None
++            hukum(ad, bool(x) and (x["sekme"] or {}).get("dal") == bekle,
++                  json.dumps(x and x["sekme"], ensure_ascii=False))
+ 
+         # ---- Ö3: gi kusuru
+         print("\n② Ö3 — sentetik `odak_kimlik` (ham `m` ile çözülemez)")
+@@ -199,6 +236,24 @@ def main():
+               r["ihlal"] and any("SEKME_OKUNMAYAN GERİLEDİ" in l for l in sek), " | ".join(sek))
+         io.open(TAVAN, "w", encoding="utf-8", newline="\n").write(ilk_tavan)
+ 
++        # ---- S5 / S6: SEKME_SESSIZ tavanı
++        print("\n③b S5 / S6 — SEKME_SESSIZ tavanı (geçici, bugünkü değer %d)" % bugun_sessiz)
++        tv = json.loads(ilk_tavan)
++        tv["sekme_sessiz"] = bugun_sessiz
++        io.open(TAVAN, "w", encoding="utf-8", newline="\n").write(
++            json.dumps(tv, ensure_ascii=False, indent=1) + "\n")
++        r = OO.kapi_olcumu()
++        sek = [l for l in r["satirlar"] if "SEKME_SESSIZ" in l]
++        hukum("S6 dokunulmamış veri → SESSIZ satırında ✗ yok",
++              bool(sek) and not any(l.strip().startswith("✗") for l in sek), " | ".join(sek))
++        kurbana_ekle('{ t:"1800-01-01", b:"SINAV-W13 sessiz gerileme", kapsam_genis:true },')
++        r = OO.kapi_olcumu()
++        geri_al()
++        sek = [l for l in r["satirlar"] if "SEKME_SESSIZ" in l]
++        hukum("S5 sessiz madde eklendi → kapı ✗ GERİLEDİ",
++              r["ihlal"] and any("SEKME_SESSIZ GERİLEDİ" in l for l in sek), " | ".join(sek))
++        io.open(TAVAN, "w", encoding="utf-8", newline="\n").write(ilk_tavan)
++
+         # ---- Ö5 / Ö6: ölçülemedi
+         print("\n④ Ö5 / Ö6 — ÖLÇÜLEMEDİ asla temiz değil")
+         app = io.open(os.path.join(KOK, "js", "app.js"), encoding="utf-8").read()

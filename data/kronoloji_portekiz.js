@@ -68,10 +68,10 @@ window.KRONOLOJI_PORTEKIZ = [
 // I. RECONQUISTA SONRASI VE AVİZ HANEDANI (1281-1415)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1281-01-01", b:"XIII. yüzyıl sonunda Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", ic_not_b:"eski b: Atlasın açılışında Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Lizbon","Porto","Faro"], t:"1281-01-01", b:"XIII. yüzyıl sonunda Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", ic_not_b:"eski b: Atlasın açılışında Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Atlas penceresi açıldığında Portekiz Krallığı 1139'dan beri bağımsız, sınırları 1249'da Algarve'nin fethiyle bugünkü hâline kavuşmuş bir Burgonya hanedanı krallığıdır — Avrupa'nın Reconquista'yı en erken tamamlayan devletidir. Bu erken bitiş, Kastilya ve Aragon henüz Endülüs'le uğraşırken Portekiz'i Atlantik'e yönelmeye hazırlayan yapısal bir avantaj olarak okunur.",
-  kaynak:"TDV `portekiz`: \"1095'te bağımsız devlet kurulması başladı\" · standart akademik kronoloji (Algarve fethi 1249)" },
+  kaynak:"TDV `portekiz`: 1095'te bağımsız devlet kurulması başladı · standart akademik kronoloji (Algarve fethi 1249)" },
 
 { t:"1290-03-01", b:"Coimbra (Lizbon) Üniversitesi kuruldu", tur:"bilim", onem:3, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["bilim","konu-bilim","konu-egitim"],
@@ -83,7 +83,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"I. Fernando'nun vârissiz ölümüyle Portekiz tahtı Kastilya kralına kalma tehlikesiyle karşılaştı; Lizbon halkı ve esnafı, Aviz Şövalyeleri büyük üstadı João'yu (gayrimeşru bir kraliyet oğlu) hükümdar naibi ilan etti. İki yıl sürecek bir bağımsızlık savaşının fitili burada ateşlendi.",
   kaynak:"standart akademik kronoloji (Britannica, 'Battle of Aljubarrota'); TDV `portekiz` bu iki yılı 'bağımsız devlet' sürekliliği içinde anar" },
 
-{ t:"1385-08-14", b:"Aljubarrota Savaşı — Aviz hanedanı ve bağımsızlık kesinleşti", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1385-08-14", b:"Aljubarrota Savaşı — Aviz hanedanı ve bağımsızlık kesinleşti", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","hanedan","toprak-kazanc","konu-askeri","konu-hanedan"],
   d:"João'nun (I. João) komutasındaki Portekiz ordusu, İngiliz okçularının da desteğiyle, sayıca çok daha kalabalık bir Kastilya ordusunu Aljubarrota'da ağır bir yenilgiye uğrattı. Zafer Aviz hanedanının tahtını kesinleştirdi ve Portekiz'in iki asır sürecek bağımsızlığını güvenceye aldı; İngiltere ile ittifak (1386 Windsor Antlaşması) bu zaferin doğrudan mirasıdır.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama: Britannica 'Battle of Aljubarrota' (14 Ağustos 1385)" },
@@ -91,18 +91,18 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1415-08-21", b:"Ceuta'nın fethi — sömürge çağının açılışı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Sebte (Ceuta)",
   etiket:["askeri","toprak-kazanc","din","konu-askeri","konu-din"],
   d:"I. João komutasındaki bir Portekiz donanması, Cebelitarık Boğazı'nın Afrika yakasındaki Ceuta'yı Merînî hâkimiyetinden aldı. Bu, bir Avrupa devletinin Afrika kıtasında kurduğu ilk kalıcı üstü ve Portekiz'in yüzyıllar sürecek denizaşırı genişlemesinin başlangıç noktasıdır; seferde genç şehzade Henrique de yer aldı.",
-  kaynak:"TDV `portekiz`: \"1415: Ceuta fethi sömürge dönemini açtı\"" },
+  kaynak:"TDV `portekiz`: 1415: Ceuta fethi sömürge dönemini açtı" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. KEŞİFLER ÇAĞI — AFRİKA KIYISI VE OKYANUS YOLU (1419-1497)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1419-01-01", b:"Denizci Henrique, Sagres'te bir keşif kadrosu kurdu", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Lagos (Algarve)"], t:"1419-01-01", b:"Denizci Henrique, Sagres'te bir keşif kadrosu kurdu", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["bilim","teknoloji","konu-bilim"],
   d:"Ceuta seferinden dönen Şehzade Henrique, Sagres burnunda kartograflar, denizciler, gökbilimciler ve gemi ustalarından oluşan bir ekip topladı; ekip hem Hıristiyan hem yahudi uzmanları ve Arap kaynaklarını kullandı.", ic_not_d:"⚠️ Modern araştırma, burada efsanevi anlamda bir 'denizcilik okulu' bulunduğu iddiasına şüpheyle yaklaşır — kesin olan, kraliyet destekli sistemli bir keşif teşebbüsünün burada örgütlendiğidir.",
   kaynak:"World History Encyclopedia, 'Prince Henry the Navigator' — akademik tarih ansiklopedisi; makale açıkça 'efsanenin aksine burada resmî bir denizcilik okulu yoktu' notunu düşer" },
 
-{ t:"1434-01-01", b:"Gil Eannes, Bojador Burnu'nu aştı", tur:"bilim", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1434-01-01", b:"Gil Eannes, Bojador Burnu'nu aştı", tur:"bilim", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["bilim","toprak-kazanc","konu-askeri","konu-bilim"],
   d:"O güne dek hiçbir Avrupalı gemicinin geçip geri dönemediği söylenen Bojador Burnu'nu (bugünkü Batı Sahra kıyısı), Henrique'in gönderdiği kaptan Gil Eannes aştı. Efsanevi engelin kırılması, Portekiz kıyı keşiflerinin güneye doğru sistemli biçimde hızlanmasını başlattı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (World History Encyclopedia, 'Prince Henry the Navigator')" },
@@ -112,7 +112,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Genç V. Afonso adına ülkeyi on iki yıl yöneten naip Dük Pedro (Henrique'nin ağabeyi), sarayın kendisine karşı kurduğu ittifakla Alfarrobeira'da yenilip öldürüldü. İç çekişme, keşif seferlerinin finansmanını bir süreliğine sekteye uğratsa da Henrique bizzat savaşta kardeşine karşı krala destek vererek konumunu korudu.",
   kaynak:"Infopédia (Porto Editora), 'Batalha de Alfarrobeira': 20 Mayıs 1449 · A. H. de Oliveira Marques, History of Portugal I (1972)" },
 
-{ t:"1460-11-13", b:"Denizci Henrique'in ölümü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1460-11-13", b:"Denizci Henrique'in ölümü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Kırk yılı aşkın bir süre Afrika kıyısı keşiflerini kişisel servetiyle finanse eden Şehzade Henrique öldüğünde Portekiz gemileri Sierra Leone kıyılarına kadar ulaşmıştı. Onun kurduğu model — kraliyet tekeli altında sistemli, kayıt tutulan keşif — halefleri tarafından aynen sürdürüldü.",
   kaynak:"P. Russell, Prince Henry 'the Navigator': A Life (Yale UP, 2000) · Encyclopaedia of Portuguese Expansion (FCSH-UNL), 'Prince Dom Henrique (1394-1460)': Sagres, 13 Kasım 1460" },
@@ -176,7 +176,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"I. Manuel, Vasco da Gama'nın Hindistan seferinin getirdiği zenginlikle Lizbon'da Jerónimos Manastırı'nın inşasını başlattı; yapı, denizcilik motifleriyle (halat, mercan, deniz canavarları) süslü Manuelino mimarisinin en olgun örneğidir. Manastır aynı zamanda Vasco da Gama'nın mezarını da barındıracaktı.",
   kaynak:"Mosteiro dos Jerónimos e Torre de Belém (resmî kurum, mosteirojeronimos.torrebelem.gov.pt): temel atma \"6 de Janeiro de 1501 ou 1502\"" },
 
-{ t:"1502-01-01", b:"Cartaz sistemi kuruldu — Hint Okyanusu ticareti izne bağlandı", tur:"reform", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Goa","Koçin (Kochi)","Kalikut (Kozhikode)"], t:"1502-01-01", b:"Cartaz sistemi kuruldu — Hint Okyanusu ticareti izne bağlandı", tur:"reform", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ekonomi","reform","konu-ekonomi","konu-islahat"],
   d:"Vasco da Gama'nın ikinci seferinde başlattığı cartaz sistemi, Hint Okyanusu'nda seyreden her Asyalı ticaret gemisinin Portekiz limanlarından geçiş izni almasını zorunlu kıldı; izinsiz yakalanan gemiler mallarına el konularak batırıldı. Bu, Portekiz'in gücünü toprak fethiyle değil deniz üzerindeki zorla-tekel ile kurduğu bir stratejinin resmî aracıydı ve on sekizinci yüzyıla dek yürürlükte kaldı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Cartaz sisteminin 1502'de Vasco da Gama'nın ikinci seferiyle başlatılması — çoklu akademik özet kaynak)" },
@@ -199,19 +199,19 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1509-02-03", b:"Diu Deniz Savaşı — Hint Okyanusu'nda Portekiz üstünlüğü kesinleşti", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Diu",
   etiket:["askeri","toprak-kazanc","ticaret","konu-askeri","konu-ekonomi"],
   d:"Vali Francisco de Almeida, oğlunun Chaul'daki ölümünün intikamını almak için Memlük-Gücerat-Kalikut birleşik donanmasını Diu açıklarında kesin bir yenilgiye uğrattı. Zafer, Kızıldeniz-Akdeniz baharat güzergâhının Memlük tekelini kalıcı olarak kırdı ve Portekiz'e bir asır sürecek Hint Okyanusu deniz üstünlüğünü kazandırdı.",
-  kaynak:"Cameron Winter (2024), 'Giving the Devil His Diu…', SAGE Journals (hakemli akademik makale) — `data/kronoloji_memluk.js:326` ile `t:` ve `dunya:` birebir hizalı. ⚠️ `data/kronoloji_hindistan.js:513` aynı olaya `dunya:3` vermiş, ÇELİŞKİ koordinatöre bildirildi" },
+  kaynak:"Cameron Winter (2024), 'Giving the Devil His Diu…', SAGE Journals (hakemli akademik makale) — `data/kronoloji_memluk.js:326` ile `t:` ve `dunya:` birebir hizalı. Dikkat: `data/kronoloji_hindistan.js:513` aynı olaya `dunya:3` vermiş, ÇELİŞKİ var" },
 
 { t:"1510-11-25", b:"Goa'nın fethi — Estado da Índia'nın başkenti", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Goa",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Afonso de Albuquerque, Bicapur Sultanlığı'ndan Goa'yı ele geçirdi; şehir kısa sürede Portekiz'in Asya'daki bütün topraklarının (Estado da Índia) başkenti ve dört buçuk asır sürecek bir sömürge merkezi oldu. Goa'nın limanı ve tersanesi, Hint Okyanusu filolarının ana üssüne dönüştü.",
-  kaynak:"TDV `portekiz`: \"1510: Goa ele geçirildi\"" },
+  kaynak:"TDV `portekiz`: \"Goa (1510), Malay/Malezya (1511), Hürmüz, Diû (1515) ve Seylan (1517) gibi önemli ticaret merkezleri ve dolayısıyla büyük gelir getiren baharat ticareti ele geçirildi.\"" },
 
 { t:"1511-08-10", b:"Malaka'nın fethi — baharat yolunun boğazı ele geçirildi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Malaka",
   etiket:["askeri","toprak-kazanc","ticaret","konu-askeri","konu-ekonomi"],
   d:"Albuquerque, Malaka Boğazı'nı denetleyen zengin liman şehri Malaka'yı Malaka Sultanlığı'ndan aldı. Boğaz, Hint Okyanusu ile Güneydoğu Asya baharat adaları arasındaki tek deniz geçidiydi; onun ele geçirilmesi Portekiz'e baharat ticaretinin kaynağına doğrudan erişim sağladı.",
   kaynak:"TDV `portekiz`: \"1511: Malezya zaptedildi\" (Malaka Sultanlığı kastediliyor)" },
 
-{ t:"1512-01-01", b:"Ordenações Manuelinas — birleşik hukuk kodu yürürlüğe girdi", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Lizbon"], t:"1512-01-01", b:"Ordenações Manuelinas — birleşik hukuk kodu yürürlüğe girdi", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","konu-islahat","konu-hukuk"],
   d:"I. Manuel, Portekiz'in dağınık örfî hukukunu ve kraliyet fermanlarını beş kitap hâlinde tek bir kodda topladı (Ordenações Manuelinas). Kod, matbaanın yaygınlaşmasından yararlanarak krallığın her yerinde aynı hukukun uygulanmasını sağlayan ilk basılı Portekiz hukuk derlemesiydi.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, TDV bu taneciği kapsamıyor, dayanak: standart akademik kaynak" },
@@ -224,33 +224,33 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1515-04-01", b:"Hürmüz'ün ikinci kez alınması — Basra Körfezi'nin kilidi", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Hürmüz Adası",
   etiket:["askeri","toprak-kazanc","ticaret","konu-askeri","konu-ekonomi"],
   d:"Albuquerque, 1507'de kuşatıp çekildiği Hürmüz Adası'nı yedi yıl sonra kalıcı olarak ele geçirdi; adanın hükümdarını Portekiz'e bağımlı bir vassal hâline getirdi. Basra Körfezi'nin ağzını denetleyen bu üs, Portekiz'in Hint Okyanusu ticaret ağının batı ucundaki en değerli halkasıydı.",
-  kaynak:"standart akademik kronoloji, çapraz doğrulama; TDV `hurmuz--iran`: \"Portekizliler ikinci muhasaradan sonra adayı ele geçirip sultanı kendilerine bağladılar\"" },
+  kaynak:"standart akademik kronoloji, çapraz doğrulama; TDV `hurmuz--iran`: Portekizliler ikinci muhasaradan sonra adayı ele geçirip sultanı kendilerine bağladılar" },
 
 { t:"1517-01-01", gun:"1517 baharı — TDV: Selman Reis 18 Nisan 1517 tarihli raporunda Portekiz donanmasının Cidde'yi kuşattığını bildirir; muharebe günü verilmez", b:"Selman Reis, Portekiz filosunu Cidde önünde geri püskürttü", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Cidde",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Memlük hizmetindeki denizci Selman Reis, Kızıldeniz'e girmeye çalışan bir Portekiz filosunu Cidde önünde durdurdu; bu, Portekiz'in Kızıldeniz'in kuzeyine kalıcı olarak giremeyeceğinin ilk açık göstergesiydi. Osmanlı'nın 1517'de Mısır'ı fethetmesiyle bu savunma hattı bir yıl içinde Osmanlı denetimine geçecekti.",
-  kaynak:"TDV `portekiz`: \"1517: Selman Reis Portekizlileri Cidde'de geri püskürtmüştü\" · TDV `selman-reis`: \"26 Rebîülevvel 923 (18 Nisan 1517)\" raporu" },
+  kaynak:"TDV `portekiz`: 1517: Selman Reis Portekizlileri Cidde'de geri püskürtmüştü · TDV `selman-reis`: \"26 Rebîülevvel 923 (18 Nisan 1517)\" raporu" },
 
 { t:"1517-01-01", b:"Seylan'a ulaşıldı — tarçın adası", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"", odak_yer:"Kolombo",
   etiket:["ticaret","toprak-kazanc","konu-askeri","konu-ekonomi"],
   d:"Portekiz gemileri Seylan adasına ulaşıp Kotte Krallığı ile ticaret ayrıcalıkları içeren bir anlaşma yaptı; tarçın tekelini denetlemek için kısa süre sonra Colombo'da bir kale inşa edildi. Ada, Portekiz'in Hint Okyanusu ağının en doğu ucundaki kalıcı üssü oldu.",
-  kaynak:"TDV `portekiz`: \"1517: Seylan ele geçirildi\" — ⚠️ yerleşim kaydı yok, `yer_id` boş bırakıldı" },
+  kaynak:"TDV `portekiz`: \"Goa (1510), Malay/Malezya (1511), Hürmüz, Diû (1515) ve Seylan (1517) gibi önemli ticaret merkezleri ve dolayısıyla büyük gelir getiren baharat ticareti ele geçirildi.\" — Dikkat: yerleşim kaydı yok, `yer_id` boş bırakıldı" },
 
 { t:"1521-12-13", gun:"13 Aralık 1521 I. Manuel'in ölümü; III. João'nun aklamasyonu 19 Aralık", b:"I. Manuel öldü, III. João tahta çıktı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Hint Okyanusu imparatorluğunun kurucusu I. Manuel öldü; oğlu III. João, otuz altı yıl sürecek saltanatında imparatorluğu Brezilya'ya (donatary kaptanlıklar), Japonya'ya (Cizvit misyonları) ve Fas'a (Sa'dî mücadelesi) doğru genişletecek, aynı zamanda Portekiz Engizisyonu'nu kuracaktı.",
   kaynak:"Encyclopaedia of Portuguese Expansion (FCSH-UNL), 'Dom Manuel I (1469-1521)' ve 'Dom João III (1502/1521-1557)'" },
 
-{ t:"1525-01-01", b:"Selman Reis'in raporu — Kızıldeniz savunma planı", tur:"reform", onem:2, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Cidde","Süveyş"], t:"1525-01-01", b:"Selman Reis'in raporu — Kızıldeniz savunma planı", tur:"reform", onem:2, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri","konu-islahat"],
   d:"Artık Osmanlı hizmetinde olan Selman Reis, Kızıldeniz'i Portekiz baskısına karşı savunmak için ayrıntılı bir donanma ve tahkimat raporu sundu; rapor, sonraki on yılda inşa edilecek Süveyş tersanesi ve Habeş seferlerinin zeminini oluşturdu. Portekiz açısından bu, rakip cephenin artık sistemli bir devlet politikasına dönüştüğü anlamına geliyordu.",
-  kaynak:"TDV `portekiz`: \"1525: Selman Reis raporuyla konuya ışık tuttu\"" },
+  kaynak:"TDV `portekiz`: \"1525 tarihli raporuyla konuya ışık tutan ve bu tür yardımların sevkini yürütmüş olan Selman Reis, Osmanlılar’ı daha etkin bir siyasete teşvik etmekteydi.\"" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. OSMANLI-PORTEKİZ MÜCADELESİ VE ALTIN ÇAĞIN SONU (1534-1581)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1534-01-01", b:"Brezilya on beş kaptanlığa bölündü", tur:"idari", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1534-01-01", b:"Brezilya on beş kaptanlığa bölündü", tur:"idari", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["idari","toprak-kazanc","konu-askeri","konu-idari"],
   d:"III. João, Brezilya kıyısını Tordesillas hattına kadar uzanan on beş şerit hâlinde bölüp on iki soyluya kalıtsal 'donatary kaptanlıklar' olarak dağıttı; her kaptan kendi masrafıyla toprağı savunmak, iskân etmek ve şeker değirmenleri kurmakla yükümlüydü. Sistem on beş yıl içinde büyük ölçüde başarısız olup çoğu kaptanlık tacına geri döndü, ama bugünkü Brezilya eyalet sınırlarının ilk taslağını çizdi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (donatary kaptanlık sisteminin 1534'te kuruluşu — çoklu akademik özet kaynak)" },
@@ -265,7 +265,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Lizbon ve Coimbra arasında yüzyıllardır gidip gelen üniversite, III. João döneminde kalıcı olarak Coimbra'ya nakledildi ve eski kraliyet sarayına yerleşti. Bu tarihten sonra Coimbra, Portekiz'in tek üniversite şehri olarak dört asır boyunca ülkenin bütün hukukçu, din adamı ve idarecilerini yetiştirecekti.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (University of Coimbra'nın 1537'de kalıcı nakli)" },
 
-{ t:"1537-01-01", b:"Pedro Nunes'un rota risalesi — loxodrome'un keşfi", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Coimbra"], t:"1537-01-01", b:"Pedro Nunes'un rota risalesi — loxodrome'un keşfi", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["bilim","teknoloji","konu-bilim","konu-kesif"],
   d:"Coimbra'da matematik okutan Pedro Nunes, 'Tratado em defensam da carta de marear' adlı risalesinde bir geminin sabit pusula rotasında seyrettiğinde aslında büyük daire değil sarmal bir yol (loxodrome) izlediğini matematiksel olarak ilk kanıtlayan kişi oldu. Nunes aynı zamanda 1529'da kraliyet baş kozmografı atanmış, deniz haritacılığının resmî denetleyicisi olmuştu — Portekiz'in keşif seferlerini ayakta tutan bilimsel altyapının en önemli ismidir.",
   kaynak:"MacTutor History of Mathematics (St Andrews Üniversitesi, akademik proje), 'Pedro Nunes' — risalenin 1537 yayın tarihi ve baş kozmograf ataması teyitli" },
@@ -273,19 +273,19 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1538-08-04", b:"Hadım Süleyman Paşa'nın Aden-Diu seferi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Diu",
   etiket:["askeri","toprak-kayip","kusatma","konu-askeri"],
   d:"Osmanlı Hindistan seferi kapsamında Hadım Süleyman Paşa, Yemen'de Aden'i alıp oradan Hint Okyanusu'na açıldı; Gücerat Sultanlığı'nın çağrısıyla Diu'daki Portekiz kalesini kuşattı. Kuşatma başarısızlıkla sonuçlanıp Osmanlı donanması geri çekildiyse de sefer, Portekiz'e Hint Okyanusu'nun artık tartışmasız bir tekel olmadığını gösterdi.",
-  kaynak:"TDV `portekiz`: \"1538: Hadım Süleyman Paşa Aden'i ele geçirdi, Diû kuşatıldı\" — mevcut `data/devletler.js` kaydıyla tarih birebir korundu" },
+  kaynak:"TDV `portekiz`: \"1538’de Hadım Süleyman Paşa, Kızıldeniz’de hazırlanan donanmayla Hindistan üzerine giderken Aden ele geçirildi ve Portekizliler’in elindeki Diû kuşatıldı.\" — mevcut `data/devletler.js` kaydıyla tarih birebir korundu" },
 
 { t:"1541-01-01", b:"Portekiz'in Kızıldeniz saldırısı Osmanlı tarafından püskürtüldü", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"Süveyş",
   etiket:["askeri","konu-askeri"],
   d:"Portekiz, Diu kuşatmasının intikamını almak için Kızıldeniz'in kuzeyine, Süveyş tersanesine yönelik bir baskın denedi; Osmanlı garnizonu saldırıyı geri püskürttü. Bu başarısızlık, Portekiz'in Kızıldeniz'in kuzey yarısına asla kalıcı olarak giremeyeceğini bir kez daha doğruladı.",
-  kaynak:"TDV `portekiz`: \"1541: Portekiz saldırısı Osmanlılar tarafından geri püskürtüldü\"" },
+  kaynak:"TDV `portekiz`: \"Bu arada 1541’de Süveyş’i ve buradaki Osmanlı filosunu hedef alan Portekiz saldırısı Osmanlılar’ca geri püskürtüldü.\"" },
 
 { t:"1541-04-10", b:"Cristóvão da Gama, Habeşistan'a yardım kuvveti çıkardı", tur:"askeri", onem:4, dunya:2, kapsam:"dis", yer_id:"Mozambik Adası",
   etiket:["askeri","din","ittifak","konu-askeri","konu-diplomasi","konu-din"],
   d:"Vasco da Gama'nın oğlu Cristóvão da Gama, Osmanlı destekli Adal Sultanlığı hükümdarı Ahmed Gran'ın istilası altındaki Hıristiyan Habeş Krallığı'na dört yüz tüfekli askerle yardıma gitti. Sefer, Portekiz-Osmanlı rekabetinin Kızıldeniz'in dışına, Doğu Afrika'nın içlerine kadar taştığı ender doğrudan çarpışma alanlarından biridir.",
-  kaynak:"TDV `habes-eyaleti` (Ahmed el-Mücâhid'in Habeş seferleri bağlamı); standart akademik kronoloji ile çapraz doğrulama — ⚠️ Cristóvão da Gama'nın 1542'de esir düşüp idam edilişi TDV'de doğrudan geçmiyor" },
+  kaynak:"TDV `habes-eyaleti` (Ahmed el-Mücâhid'in Habeş seferleri bağlamı); standart akademik kronoloji ile çapraz doğrulama — Dikkat: Cristóvão da Gama'nın 1542'de esir düşüp idam edilişi TDV'de doğrudan geçmiyor" },
 
-{ t:"1543-02-21", b:"Ahmed Gran'ın ölümü — Habeşistan'da Osmanlı-Portekiz vekâlet savaşı sona erdi", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1543-02-21", b:"Ahmed Gran'ın ölümü — Habeşistan'da Osmanlı-Portekiz vekâlet savaşı sona erdi", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","din","konu-askeri","konu-kisiler","konu-din"],
   d:"Osmanlı Yemen valiliğinden silah yardımı alan Adal hükümdarı Ahmed Gran, Cristóvão da Gama'yı önce yenip idam ettirmişti; ama Portekiz destekli Habeş kuvvetleri ertesi yıl onu savaşta öldürdü. Ölümü, bölgedeki müslüman ilerleyişini durdurdu ve Osmanlı'yı 1550'lerden itibaren Habeşistan'a doğrudan bir eyalet (Habeş Eyaleti) kurarak müdahale etmeye yöneltti.",
   kaynak:"TDV `habes-eyaleti`: \"Ahmed el-Mücâhid'in 1543'teki savaşta öldürülmesi\"" },
@@ -308,7 +308,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1552-01-01", gun:"1552 sonbaharı — TDV: Mayıs 1552'de Süveyş'ten hareket, 10 Ekim 1552'den sonra Hürmüz üzerine yürüdü; kuşatma günü verilmez", b:"Pîrî Reis'in Hürmüz kuşatması — Portekiz kaleyi savundu", tur:"kusatma", onem:3, dunya:2, kapsam:"dis", yer_id:"Hürmüz Adası",
   etiket:["askeri","konu-askeri"],
   d:"Pîrî Reis, otuz gemilik bir filoyla Hürmüz Adası'nı kuşattı; yolda Maskat'ı bir haftalık kuşatmayla ele geçirip 128 Portekizli esir aldı. Ancak Hürmüz'ün kendisinde Portekiz donanmasının üstünlüğünden çekinerek kuşatmayı kaldırdı — kale bir asır daha Portekiz elinde kaldı.",
-  kaynak:"TDV `piri-reis`: \"959'da (1552) Hürmüz'ü zaptetmek için Süveyş'ten otuz parça gemiyle yola çıktı… Maskat bir haftalık kuşatmadan sonra ele geçirildi, 128 esir alındı\" · Ağustos 1552 dayanaksızdı; TDV \"21 Şevval 959 (10 Ekim 1552)\" sonrası Hürmüz — gün bilinmediğinden yıl yazıldı" },
+  kaynak:"TDV `piri-reis`: 959'da (1552) Hürmüz'ü zaptetmek için Süveyş'ten otuz parça gemiyle yola çıktı… Maskat bir haftalık kuşatmadan sonra ele geçirildi, 128 esir alındı · Ağustos 1552 dayanaksızdı; TDV \"21 Şevval 959 (10 Ekim 1552)\" sonrası Hürmüz — gün bilinmediğinden yıl yazıldı" },
 
 { t:"1554-08-25", b:"Seydi Ali Reis'in Umman açıklarında yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Maskat",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -328,14 +328,14 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1578-08-04", b:"Vâdisseyl (Alcácer Quibir) Savaşı — Kral Sebastião öldü, hanedan çöktü", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"", odak_yer:"Kasrülkebîr",
   etiket:["askeri","hanedan","toprak-kayip","konu-askeri","konu-kisiler","konu-hanedan"],
   d:"Genç Kral Sebastião, Fas'a bir haçlı seferi düzenleyip tahttan indirilmiş Sa'dî sultanı Muhammed el-Mütevekkil'i geri getirmeye kalkıştı; Osmanlı destekli Sultan Abdülmelik'in ordusu Portekiz ordusunu Vâdisseyl'de imha etti. Sebastião savaş alanında öldü, vâris bırakmadı ve Abdülmelik de aynı gün öldü — üç kral bir günde kaybedildiği için savaş 'Üç Kral Savaşı' olarak da anılır.",
-  kaynak:"TDV `portekiz`: \"1578 (4 Ağustos): Vâdisseyl Savaşında Portekiz ordusu yenildi, Kral Sebastian öldürüldü\" · TDV `sadiler`: \"Sultan Abdülmelik çarpışma sırasında öldü (4 Ağustos 1578)\" — ⚠️ TDV'de savaşın müstakil maddesi yok, iki kaynaktan birleştirildi" },
+  kaynak:"TDV `portekiz`: 1578 (4 Ağustos): Vâdisseyl Savaşında Portekiz ordusu yenildi, Kral Sebastian öldürüldü · TDV `sadiler`: Sultan Abdülmelik çarpışma sırasında öldü (4 Ağustos 1578) — Dikkat: TDV'de savaşın müstakil maddesi yok, iki kaynaktan birleştirildi" },
 
 { t:"1580-08-25", b:"Alcântara Savaşı — İspanya birliğinin askerî kesinleşmesi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Lizbon",
   etiket:["askeri","hanedan","konu-askeri","konu-hanedan"],
   d:"Sebastião'nun vârissiz ölümünden sonra Portekiz tahtına en güçlü aday olan İspanya Kralı II. Felipe'nin ordusu, rakip aday Dom António'yu Alcântara'da (Lizbon yakınında) kesin bir yenilgiye uğrattı. Zafer, Felipe'nin Portekiz tahtını fiilen ele geçirmesini sağladı; sekiz ay sonra Tomar Cortes'i bunu resmen onaylayacaktı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Battle of Alcântara, 25 Ağustos 1580)" },
 
-{ t:"1581-04-16", b:"Tomar Cortes'i — II. Felipe Portekiz kralı ilan edildi, İberya Birliği başladı", tur:"birlesme", onem:5, dunya:3, kapsam:"ic", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1581-04-16", b:"Tomar Cortes'i — II. Felipe Portekiz kralı ilan edildi, İberya Birliği başladı", tur:"birlesme", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["hanedan","anayasa","konu-siyasi","konu-hanedan","konu-islahat","konu-hukuk"],
   d:"Portekiz kortesleri Tomar'da toplanıp İspanya Kralı II. Felipe'yi I. Felipe unvanıyla Portekiz kralı tanıdı; Felipe karşılığında Portekiz'in kendi hukukunu, parasını, dilini ve denizaşırı imparatorluğunu ayrı tutacağına yemin etti. Altmış yıl sürecek İberya Birliği (1581-1640) böyle başladı — Portekiz bağımsız bir taç olarak değil, kişisel birlik hâlinde varlığını sürdürdü.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Cortes of Tomar, 16 Nisan 1581)" },
@@ -359,7 +359,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Hollanda Doğu Hindistan Şirketi, yerel müttefiki Johor Sultanlığı ile birlikte beş aylık bir kuşatmanın ardından Malaka'yı Portekiz'den aldı; vali Sousa teslim olduktan iki gün sonra öldü. Kayıp, 1511'den beri Portekiz'in elinde olan Malaka Boğazı tekelini sona erdirdi ve Hollanda'nın Güneydoğu Asya ticaretinde Portekiz'in yerini almasının en büyük sembolik dönüm noktasıydı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Siege of Malacca 1640-1641, teslimin 14 Ocak 1641'de gerçekleşmesi — akademik özet kaynaklar)" },
 
-{ t:"1662-05-21", b:"Catherine of Braganza'nın İngiltere kralıyla evliliği — Tanca ve Bombay çeyiz olarak verildi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1662-05-21", b:"Catherine of Braganza'nın İngiltere kralıyla evliliği — Tanca ve Bombay çeyiz olarak verildi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"IV. João'nun kızı Catherine, İngiltere Kralı II. Charles ile evlenerek İngiliz-Portekiz ittifakını güvenceye aldı; çeyiz olarak nakit paranın yanında Tanca ve Bombay limanları İngiltere'ye devredildi (Bombay'ın fiilî teslimi 1665'i buldu). Bu evlilik antlaşması, hâlâ İspanya ile savaş hâlindeki Portekiz'in bağımsızlığını uluslararası güvenceye kavuşturan kilit diplomatik hamlelerden biriydi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (1661 İngiliz-Portekiz evlilik antlaşması, evliliğin 21 Mayıs 1662'de gerçekleşmesi, Bombay'ın 1665'te devri)" },
@@ -448,7 +448,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"İngiltere'nin arabuluculuğuyla VI. João, oğlu I. Pedro'nun imparator unvanını ve Brezilya'nın bağımsızlığını resmen tanıdı; karşılığında Portekiz'e ağır bir tazminat ve ticarî ayrıcalıklar sağlandı. Antlaşma, üç asırlık Portekiz-Brezilya bağını hukuken sona erdirdi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Treaty of Rio de Janeiro, 1825)" },
 
-{ t:"1826-04-29", b:"Anayasal Karta ilan edildi", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Lizbon"], t:"1826-04-29", b:"Anayasal Karta ilan edildi", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","reform","konu-islahat","konu-hukuk"],
   d:"Brezilya'dan Portekiz kralı IV. Pedro sıfatıyla hareket eden I. Pedro, Portekiz'e krala geniş yetkiler (dördüncü bir 'ılımlaştırıcı güç' dahil) tanıyan ama iki meclisli bir Kortes de öngören bir anayasal karta bahşetti. Karta, 1822 anayasasından daha az liberaldi ama 1910'a kadar (iki kısa kesintiyle) Portekiz'in temel yasası olarak yürürlükte kalacaktı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Constitutional Charter of 1826, 29 Nisan 1826)" },
@@ -472,17 +472,17 @@ window.KRONOLOJI_PORTEKIZ = [
 // VII. LİBERAL MONARŞİ, SÖMÜRGE AFRİKA VE CUMHURİYET (1836-1923)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1836-12-10", b:"Sá da Bandeira kararnamesi — köle ticareti yasaklandı", tur:"reform", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Luanda","Mozambik Adası"], t:"1836-12-10", b:"Sá da Bandeira kararnamesi — köle ticareti yasaklandı", tur:"reform", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["reform","sosyal","konu-ekonomi","konu-islahat","konu-sosyal"],
   d:"İçişleri bakanı Sá da Bandeira, Ekvator'un güneyindeki bütün Portekiz sömürgelerinde (başta Angola ve Mozambik) Atlantik köle ticaretini resmen yasaklayan bir kararname çıkardı. Yasak, uygulamada kaçak ticareti tamamen durduramadıysa da Portekiz'in Brezilya'ya köle ihraç eden en büyük Avrupa gücü kimliğinden çekilme sürecinin ilk resmî adımıydı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Sá da Bandeira kararnamesi, 10 Aralık 1836)" },
 
-{ t:"1869-02-25", b:"Kölelik bütün Portekiz topraklarında kaldırıldı", tur:"reform", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Luanda","Mozambik Adası","Goa"], t:"1869-02-25", b:"Kölelik bütün Portekiz topraklarında kaldırıldı", tur:"reform", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["reform","sosyal","konu-islahat","konu-sosyal"],
   d:"Kral I. Luís, 1858'den beri sürdürülen kademeli özgürleştirme sürecini tamamlayan bir kararnameyle köleliği Portekiz Krallığı'nın bütün topraklarında (Angola, Mozambik, Goa dahil) hukuken sona erdirdi. Bu, Portekiz'i Avrupa'nın büyük sömürge güçleri arasında köleliği tamamen kaldıran devletlerden biri yaptı — ama zorunlu çalıştırma pratikleri (contrato işçiliği) yirminci yüzyıla dek sürecekti.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (25 Şubat 1869 kölelik kaldırma kararnamesi, Sá da Bandeira'nın girişimiyle)" },
 
-{ t:"1886-02-20", b:"'Pembe Harita' — Angola-Mozambik kıtasal iddiası ilan edildi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1886-02-20", b:"'Pembe Harita' — Angola-Mozambik kıtasal iddiası ilan edildi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Portekiz, Angola ile Mozambik'i birbirine bağlayan Orta Afrika'nın büyük bir kısmını (bugünkü Zambiya, Zimbabve ve Malavi'nin parçaları) kendi nüfuz alanı ilan eden 'Pembe Harita'yı Fransa ve Almanya ile yaptığı antlaşmalarla resmîleştirdi. İddia, İngiltere'nin Kahire-Kap Şehri hattı hedefiyle doğrudan çatışıyordu ve dört yıl içinde bir krize dönüşecekti.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Pink Map / Mapa Cor-de-Rosa, 1886-1888 antlaşmaları)" },
@@ -500,7 +500,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1910-10-05", b:"Cumhuriyet ilan edildi — monarşi sona erdi", tur:"birlesme", onem:5, dunya:3, kapsam:"ic", yer_id:"Lizbon",
   etiket:["isyan","anayasa","konu-siyasi","konu-isyan","konu-islahat","konu-hukuk"],
   d:"Cumhuriyetçi subaylar ve sivillerin Lizbon'da başlattığı iki günlük bir ayaklanmanın ardından Portekiz Cumhuriyeti ilan edildi; Kral II. Manuel İngiltere'ye kaçtı ve yedi asırlık Portekiz monarşisi sona erdi. Bu, Portekiz'in kendi tarihinde ilk cumhuriyet deneyimiydi ve on altı yıl sürecek istikrarsız Birinci Cumhuriyet dönemini açtı.",
-  kaynak:"TDV `portekiz`: \"1910 (Ekim): Cumhuriyet ilân edildi, Kral II. Emanuel İngiltere'ye kaçtı\"" },
+  kaynak:"TDV `portekiz`: 1910 (Ekim): Cumhuriyet ilân edildi, Kral II. Emanuel İngiltere'ye kaçtı" },
 
 { t:"1911-04-20", gun:"20 Nisan 1911 kararname; Diário do Governo'da 21 Nisan", b:"Kilise-devlet ayrılığı yasası — laik cumhuriyet reformları", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["reform","din","konu-din","konu-islahat"],
@@ -512,14 +512,14 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"İngiltere'nin talebiyle Lizbon limanındaki otuz altı Alman ve Avusturya-Macaristan gemisine el konulması üzerine Almanya, Portekiz'e resmen savaş ilan etti; Portekiz karşılık verip müttefiklere katıldı. Angola ve Mozambik sınırlarında Almanlarla çatışmalar 1914'ten beri sürüyordu; savaş ilanı bunu resmî bir cepheye dönüştürdü.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Almanya'nın Portekiz'e savaş ilanı, 9 Mart 1916)" },
 
-{ t:"1917-02-01", b:"Portekiz Seferi Kolordusu Batı Cephesi'ne gönderildi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lizbon"], t:"1917-02-01", b:"Portekiz Seferi Kolordusu Batı Cephesi'ne gönderildi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Portekiz, müttefiklere olan bağlılığını somutlaştırmak için elli bin kişilik bir seferi kolorduyu Fransa'daki Batı Cephesi'ne gönderdi; birlik ertesi yıl Lys Muharebesi'nde ağır kayıplar verecekti. Bu, Portekiz ordusunun kıta Avrupası'nda büyük ölçekli bir savaşa doğrudan katıldığı ilk ve tek modern deneyimdi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Portuguese Expeditionary Corps, Şubat 1917 sevkiyatı)" },
 
-{ t:"1923-01-01", gun:"yıl özeti — olay değil; 29 Ekim 1923 atlas penceresinin sınır işaretidir, Portekiz'de o gün bir olay yoktur", b:"1923'te Portekiz — istikrarsız Birinci Cumhuriyet", ic_not_b:"eski b: Atlas penceresinin kapanışında Portekiz — istikrarsız Birinci Cumhuriyet", tur:"diger", onem:2, dunya:1, kapsam:"ic", yer_id:"Lizbon",
+{ t:"1923-01-01", gun:"yıl özeti", ic_not_gun:"yıl özeti — olay değil; 29 Ekim 1923 atlas penceresinin sınır işaretidir, Portekiz'de o gün bir olay yoktur", b:"1923'te Portekiz — istikrarsız Birinci Cumhuriyet", ic_not_b:"eski b: Atlas penceresinin kapanışında Portekiz — istikrarsız Birinci Cumhuriyet", tur:"diger", onem:2, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["anayasa","konu-islahat","konu-hukuk"],
   d:"Atlas penceresi kapandığında Portekiz, on üç yılda kırktan fazla hükümet değişikliği yaşamış istikrarsız bir cumhuriyettir; ekonomik kriz ve siyasî kutuplaşma üç yıl sonra (1926) bir askerî darbeyle sonuçlanacak, bu da nihayetinde Salazar'ın otuz altı yıllık Estado Novo rejimine yol açacaktır.",
-  kaynak:"TDV `portekiz`: \"1926 (Mayıs): Askerî darbe, General Gomes da Costa iktidarı ele geçirdi\" — bu madde atlas penceresinin kapanışında durumu özetler, olayın kendisi pencere dışındadır" }
+  kaynak:"TDV `portekiz`: \"Devam eden siyasî istikrarsızlık ve toplumsal kargaşa nihayet İspanya’da olduğu gibi askerî bir darbeyle son buldu ve General Gomes da Costa idareyi ele geçirdi (Mayıs 1926).\" — bu madde atlas penceresinin kapanışında durumu özetler, olayın kendisi pencere dışındadır" }
 
 ];

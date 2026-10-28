@@ -1,0 +1,783 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Afyonkarahisar",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    838,
+    1277
+   ],
+   "ornek_maddeler": [
+    "0838-08-12 Amorion (Ammûriye) Abbâsîler'e geçti",
+    "1277-01-01 İnançoğlu Ali Bey'in bağımsızlık girişimi yakalanıp sürgünle bitti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "03",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.75667,
+      "lon": 30.54333,
+      "kaynak": "iDAI.gazetteer (Afyon)"
+     },
+     "not": "Madde Amorion (Hisarköy 39.02073,31.29225, iDAI) ve İnançoğlu ile ilgili olabilir; ad doğru yere bağlanmalı."
+    },
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.75667,
+      "lon": 30.54333,
+      "kaynak": "GeoNames 325303 Afyonkarahisar"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 38.75667,
+      "lon": 30.54333
+     },
+     "not": "Modern şehir koordinatı doğru. Ancak maddeler Amorion (Hisarköy, DAI 39.02N 31.29E) ve İnançoğlu ile ilgili; Afyonkarahisar adı o tarihte (838/1277) yerel yer adı olarak anılan yer olup olmadığı ayrıca bakılmalı (Amorion Afyon şehrinden ~60 km kuzeybatı)."
+    }
+   ]
+  },
+  {
+   "ad": "Kaliningrad",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1255,
+    1255
+   ],
+   "ornek_maddeler": [
+    "1255-01-01 Königsberg kuruldu (II. Ottokar'ın Prusya haçlı seferi)",
+    "1255-01-01 Königsberg (Karaliaučius) ahşap kalesi kuruldu; ad Bohemya Kralı II. O"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "03",
+     "durum": "bulunamadi",
+     "koord": null,
+     "not": "iDAI aramasında Kaliningrad şehri çıkmadı (yalnız oblast köyleri). Kronolojideki 54.71,20.51 atlas kaydıdır, tanık sayılmaz."
+    },
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Korolev 55.91417,37.82556; Kaliningrad 54.70639,20.51102"
+    }
+   ]
+  },
+  {
+   "ad": "Kâlincar",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1023,
+    1182
+   ],
+   "ornek_maddeler": [
+    "1023-01-01 Çandelalar Kâlincar kalesini kaybetti",
+    "1182-01-01 III. Pritvirac Çandela ülkesini istilâ edip Mahoba'yı yağmaladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "03",
+     "durum": "bulunamadi",
+     "koord": null,
+     "not": "iDAI sonuçsuz; GeoNames/akademik kaynak bakılmadı."
+    }
+   ]
+  },
+  {
+   "ad": "Lorraine",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    870,
+    925
+   ],
+   "ornek_maddeler": [
+    "0870-01-01 Alman Louis'in topraklarının Almanya'nın ortaçağ sınırına ulaşması",
+    "0925-01-01 I. Henry Lotharingia'yı yeniden Alman egemenliğine kattı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 45.68338,
+      "lon": -73.78249,
+      "kaynak": "GeoNames 6060407 Lorraine"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "celiski",
+     "koord": null,
+     "not": "Maddelerdeki Lotharingia/Lorraine bölgesidir (Doğu Fransa). GeoNames koordinatı Kanada'da, yanlış. Bölge adı; nokta konumu verilmez."
+    }
+   ]
+  },
+  {
+   "ad": "İdil",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    732,
+    1236
+   ],
+   "ornek_maddeler": [
+    "0732-01-01 Mervân b. Muhammed Derbend’i aşıp Belencer’e girdi; Hazarlarla İslâm ş",
+    "1236-01-01 Batu Han İdil Bulgar ülkesini yakıp yıktı; Bulgar şehri yağmalandı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 37.33481,
+      "lon": 41.88944,
+      "kaynak": "GeoNames 311704 İdil"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "celiski",
+     "koord": null,
+     "not": "Maddelerde İdil Volga nehri/İdil Bulgar ülkesidir (Hazar, Bulgar). GeoNames koordinatı Şırnak İdil ilçesi, yanlış. Nehir/bölge adı; nokta verilmez."
+    }
+   ]
+  },
+  {
+   "ad": "Kūmis",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    873,
+    1157
+   ],
+   "ornek_maddeler": [
+    "0873-01-01 Hasan b. Zeyd Elburz'u aşıp Kūmis'i işgal etti",
+    "1157-01-01 Şah Gazi Rüstem Alamut'u tahrip etti, Cürcân ve Kūmis'i aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.166666,
+      "lon": 54.349998,
+      "kaynak": "Pleiades 942260"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Vengi",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    624,
+    1070
+   ],
+   "ornek_maddeler": [
+    "0624-01-01 II. Pulakeşin Vengi'yi Vişnukundinlerden alır, kardeşi Kubja Vişnuvard",
+    "1070-01-01 I. Kulottunga Çola ve Doğu Çalukya taçlarını birleştirdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 47.49654,
+      "lon": 8.95325,
+      "kaynak": "GeoNames 2658051 Wängi"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "celiski",
+     "koord": null,
+     "not": "Vengi, Andhra'da Godavari-Krishna arasındaki Doğu Çalukya ülkesi (Pedda Vegi, Eluru yakını); bölge adı. Doğru yer için kaynakta koordinat teyit edilemedi."
+    }
+   ]
+  },
+  {
+   "ad": "Burma",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    832,
+    900
+   ],
+   "ornek_maddeler": [
+    "0832-01-01 Nanzhao Myanmar'ın derinliklerine sefer yaptı",
+    "0900-01-01 Khmer krallığı bugünkü Burma, Laos ve Tayland'ın geniş alanlarını kaps"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 32.2193,
+      "lon": 35.78507,
+      "kaynak": "GeoNames 249849 Burmā"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Hoa Lu",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    968,
+    1005
+   ],
+   "ornek_maddeler": [
+    "0968-01-01 Dinh Bo Linh 11 beyi yenip imparator ilan ediyor; ülke Dai Co Viet",
+    "1005-01-01 Lê Hoàn öldü — veraset kavgasından Lê Long Đĩnh galip çıktı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 20.25809,
+      "lon": 105.97965,
+      "kaynak": "GeoNames 1571968 Hoa Lư"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 20.25809,
+      "lon": 105.97965
+     },
+     "not": "Ninh Binh'te yer doğru; sayısal koordinatlı bağımsız ikinci kaynak bulunamadı (arama koordinat vermedi)."
+    }
+   ]
+  },
+  {
+   "ad": "Dumbarton",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    756,
+    870
+   ],
+   "ornek_maddeler": [
+    "0756-01-01 Pikt-Angl ortak seferi Strathclyde'ı Northumbria'ya boyun eğdirdi",
+    "0870-01-01 Vikingler Dumbarton'u (Alt Clut) yıktı; krallık zayıfladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Dumbarton 55.94433,-4.57061; Dumbarton 37.60376,-77.49137"
+    }
+   ]
+  },
+  {
+   "ad": "Petra",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    106,
+    529
+   ],
+   "ornek_maddeler": [
+    "0106-01-01 Roma Nabatî Krallığı'nı ilhak etti: Arabia Petraea eyaleti kuruldu, ba",
+    "0529-01-01 II. Hâris b. Cebele'ye Bizans'ta 'büyük emîr' (phylarkhos) unvanı veri"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "3 ayrı Pleiades kümesi: Petra/Fundus Petrensis 36.521,4.625; Petra 30.345,35.383; Petra 39.327,26.176"
+    }
+   ]
+  },
+  {
+   "ad": "Talas",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    893,
+    893
+   ],
+   "ornek_maddeler": [
+    "0893-03-23 İsmâil b. Ahmed Talas'ta Karluklar'a karşı sefer düzenledi; Üsrûşene S",
+    "0893-03-23 Sâmânî emîri İsmâil b. Ahmed Talas'ı alıp esir aldı; Karahanlılar başş"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 5 aday: Talas 42.52256,72.2417; Talas 42.35473,72.65678; Taraz 42.89799,71.37334; Talas 38.6908,35.5538"
+    }
+   ]
+  },
+  {
+   "ad": "Barbastro",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1064,
+    1137
+   ],
+   "ornek_maddeler": [
+    "1064-01-01 Aragon öncülüğünde Haçlı ordusu Barbastro'yu aldı; Coimbra da düştü",
+    "1137-01-01 Barbastro'da Peronella ile Ramon Berenguer IV nişanlandı; Aragon hüküm"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.03565,
+      "lon": 0.12686,
+      "kaynak": "GeoNames 3128795 Barbastro"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 42.03565,
+      "lon": 0.12686
+     },
+     "not": "DAI'de kayıt bulunamadı; ikinci kaynak aranmadı/teyit edilemedi."
+    }
+   ]
+  },
+  {
+   "ad": "Zhongxing",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1209,
+    1227
+   ],
+   "ornek_maddeler": [
+    "1209-01-01 Moğollar Batı Xia başkentini kuşattı — Xia, Cengiz Han'a tâbi oldu",
+    "1227-01-01 Moğollar Batı Xia'yı yıktı — Tangut başkenti teslim oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Zhongxing 33.70389,118.67917; Zhongxing 22.57674,113.93861; Zhongxing New Village 23.95908,120.68516"
+    }
+   ]
+  },
+  {
+   "ad": "Mahoba",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1165,
+    1182
+   ],
+   "ornek_maddeler": [
+    "1165-01-01 Paramardi Çandela tahtına çıktı",
+    "1182-01-01 III. Pritvirac Çandela ülkesini istilâ edip Mahoba'yı yağmaladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 25.2905,
+      "lon": 79.87533,
+      "kaynak": "GeoNames 1264359 Mahobā"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 25.2905,
+      "lon": 79.87533
+     },
+     "not": "Sayısal koordinatlı bağımsız ikinci kaynak bulunamadı (Madan Sagar ASI korumalı Çandela gölü Mahoba'da, koordinatsız)."
+    }
+   ]
+  },
+  {
+   "ad": "Sui",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    583,
+    604
+   ],
+   "ornek_maddeler": [
+    "0583-01-01 Kaihuang Kanunu ve idari tüzük derlendi",
+    "0604-01-01 Wendi öldü; Yangdi Sui tahtına çıktı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Suizhou 31.71111,113.36306; Sui Xian Chengguanzhen 34.44797,115.04439; Sokhumi 43.00697,40.9893"
+    }
+   ]
+  },
+  {
+   "ad": "Badami",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    610,
+    757
+   ],
+   "ornek_maddeler": [
+    "0610-01-01 II. Pulakeşin Badami Çalukya tahtında (yak. 610-642); Gujarat ve Malwa",
+    "0757-01-01 Badami Çalukya kralı II. Kirtivarman'ın yerini Raştrakuta alır (757)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 15.91495,
+      "lon": 75.67683,
+      "kaynak": "GeoNames 1278017 Bādāmi"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 15.91495,
+      "lon": 75.67683
+     },
+     "not": "Sayısal koordinatlı bağımsız ikinci kaynak bulunamadı (UNESCO geçici liste kaydı Aihole-Badami-Pattadakal, koordinat alınamadı)."
+    }
+   ]
+  },
+  {
+   "ad": "Yanmen",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    615,
+    615
+   ],
+   "ornek_maddeler": [
+    "0615-01-01 Yangdi Yanmen’de Türkler tarafından kuşatıldı",
+    "0615-01-01 Doğu Göktürk kağanı Shih-pi Çin imparatorunu Yen-men Kalesi'nde kuşatt"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 27.855,
+      "lon": 109.74028,
+      "kaynak": "GeoNames 1787131 Yanmen"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "celiski",
+     "koord": null,
+     "not": "Maddelerdeki Yanmen (Yen-men) Şanşi'de Yanmen komutanlığı/Yanmen Geçidi (Tay-xian/Dai bölgesi, kuzey Şanşi, ~39N 112-113E); GeoNames Guizhou kaydı yanlış. Kesin koordinat için kaynak teyidi yapılmadı."
+    }
+   ]
+  },
+  {
+   "ad": "Jiangdu",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    616,
+    618
+   ],
+   "ornek_maddeler": [
+    "0616-01-01 Yangdi güney başkenti Jiangdu’ya çekildi; kuzey asi rejimlere bölündü",
+    "0618-01-01 Yangdi Jiangdu’da maiyeti tarafından öldürüldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Yangzhou 32.39722,119.43583; Yangzhou 33.22192,107.54267 [ALIAS eşlemesi: Yangzhou, Jiangdu; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Yamato",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    669,
+    669
+   ],
+   "ornek_maddeler": [
+    "0669-01-01 Nakatomi Kamatari'ye Fujiwara soyadı verildi; Fujiwara klanı doğdu",
+    "0669-11-14 Fujiwara (Nakatomi) Kamatari öldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Yamatohama 28.36077,129.39413; Yamada 32.69678,130.96469; Yamato 35.47276,139.45101"
+    }
+   ]
+  },
+  {
+   "ad": "Atlah",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    751,
+    751
+   ],
+   "ornek_maddeler": [
+    "0751-07-01 Talas Savaşı: Araplar ve Karluklar Çin ordusunu yener",
+    "0751-07-01 Talas Savaşı: Abbâsî-Karluk kuvvetleri Tang ordusunu Talas kıyısında y"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 5 aday: Talas 42.52256,72.2417; Talas 42.35473,72.65678; Taraz 42.89799,71.37334; Talas 38.6908,35.5538 [ALIAS eşlemesi: Talas, Taraz, Atlakh; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Kalyani",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    975,
+    1156
+   ],
+   "ornek_maddeler": [
+    "0975-01-01 Rastrakuta hanedanı son bulur; Taila I Çalukya mirası alır, ikinci (Ba",
+    "1156-01-01 Kalaçuri Biccala Batı Çalukya tahtını gasp etti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Kalyani 22.9757,88.4337; Basavakalyan 17.87445,76.94972"
+    }
+   ]
+  },
+  {
+   "ad": "Agaune",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    516,
+    523
+   ],
+   "ornek_maddeler": [
+    "0516-01-01 Sigismund Burgund tahtına çıktı",
+    "0523-01-01 Agaune Savaşı: Sigismund Clovis'in oğullarına yenildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 13 aday: Saint-Maurice 46.21826,7.0032; Saint-Maurice-sur-Moselle 47.85889,6.82477; Saint-Maurice-sur-Fessard 47.99231,2.62157; Saint-Maurice-Montcouronne 48.58288,2.12504 [ALIAS eşlemesi: Saint-Maurice, Agaunum; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Canterbury",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    597,
+    1189
+   ],
+   "ornek_maddeler": [
+    "0597-01-01 Augustinus'un misyonu Kent'e geldi; Canterbury ilk başpiskoposluk merk",
+    "1189-01-01 Canterbury Feragatnamesi: İskoçya Falaise'deki bağımlılıktan kurtulur"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 5 aday: Canterbury -33.91192,151.11862; Canterbury -37.8247,145.08476; Canterbury 51.27904,1.07992; Canterbury 43.33702,-71.56535"
+    }
+   ]
+  },
+  {
+   "ad": "Pliska",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    864,
+    889
+   ],
+   "ornek_maddeler": [
+    "0864-01-01 Han Boris Hıristiyanlığı kabul etti",
+    "0889-01-01 Boris tahttan çekildi; ağabey Vladimir kısa süre tahta çıktı (889-893)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 43.36667,
+      "lon": 27.11667,
+      "kaynak": "GeoNames 728199 Pliska"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 43.36667,
+      "lon": 27.11667
+     },
+     "not": "DAI'de kayıt var (2066850) ama koordinatsız; ikinci koordinat bulunamadı."
+    }
+   ]
+  },
+  {
+   "ad": "Simancas",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    939,
+    939
+   ],
+   "ornek_maddeler": [
+    "0939-08-01 Simancas: II. Ramiro III. Abdurrahman'ı yendi",
+    "0939-08-01 İbn Vâsûl Simancas'a Endülüs saflarında katıldı; Mâlikî mezhebine geçt"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Simancas 41.59072,-4.82796; Simancas 40.43533,-3.6251"
+    }
+   ]
+  },
+  {
+   "ad": "Meşan",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    116,
+    150
+   ],
+   "ornek_maddeler": [
+    "0116-01-01 Traianus Dicle'den inerken Karakene (Meşan) hükümdarı Attambelos geçic",
+    "0150-01-01 III. Vologases, Meşan'da Pacoros'un oğlu isyancı Mithridates'i yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 6.99865,
+      "lon": 35.58879,
+      "kaynak": "GeoNames 330534 Mīzan Teferī"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "celiski",
+     "koord": null,
+     "not": "Meşan (Mesene/Karakene, Charax Spasinou), Basra-Şattülarap çevresi güney Irak; bölge/krallık adı. DAI'de yalnız Maysan idari birimi (31.84N 47.14E) çıktı, şehir noktası teyit edilmedi."
+    }
+   ]
+  },
+  {
+   "ad": "Palmira",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    130,
+    273
+   ],
+   "ornek_maddeler": [
+    "0130-01-01 İmparator Hadrianus Tedmür'ü (Palmira) ziyaret etti",
+    "0273-01-01 Palmira'nın ikinci isyanı bastırıldı; şehir Aurelianus'un emriyle tahr"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 13 aday: Palmira 3.53479,-76.29774; Palmira 22.24217,-80.39164; Palmira -2.08155,-78.73106; Oppido Lucano 40.76174,15.98818"
+    }
+   ]
+  },
+  {
+   "ad": "Mansûriye",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    947,
+    953
+   ],
+   "ornek_maddeler": [
+    "0947-08-13 Fâtımîler Ebû Yezîd en-Nükkârî isyanını bastırdı; Mansûriye (Sabra) ba",
+    "0953-03-19 Muiz-Lidînillâh Fâtımî halifesi oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 41.16966,
+      "lon": 30.22714,
+      "kaynak": "GeoNames 743558 Kefken"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "celiski",
+     "koord": {
+      "lat": 35.658056,
+      "lon": 10.113889
+     },
+     "not": "Maddeler Fâtımî Mansûriye'si (Sabra) içindir: Tunus. Tek bağımsız tanık DAI, ikinci tanık bulunamadı; TDV Mansûriye başlığı yok."
+    }
+   ]
+  },
+  {
+   "ad": "Gnezno",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1000,
+    1025
+   ],
+   "ornek_maddeler": [
+    "1000-01-01 Gnezno başpiskoposluğu kuruldu — Polonya kendi kilise eyaletine kavuşt",
+    "1025-01-01 I. Bolesław Chrobry kral olarak taç giydi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 52.53481,
+      "lon": 17.58259,
+      "kaynak": "GeoNames 3099112 Gniezno"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    },
+    {
+     "parti": "72",
+     "durum": "ikinci_tanik_yok",
+     "koord": {
+      "lat": 52.53481,
+      "lon": 17.58259
+     },
+     "not": "DAI'de Gniezno kaydı (2056871) koordinatsız; ikinci koordinat bulunamadı."
+    }
+   ]
+  }
+ ]
+}

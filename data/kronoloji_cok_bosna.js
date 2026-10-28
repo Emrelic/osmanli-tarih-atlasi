@@ -208,7 +208,7 @@ window.KRONOLOJI_COK_BOSNA = [
   onem:3, dunya:1, kapsam:"ic", etiket:["idari","reform","konu-idari"],
   yer_id:"Saraybosna", devlet:"bosna-eyaleti", gun:"Mayıs 1865 düzenleme, 1866 vilâyet adı (TDV)",
   d:"Vali Topal Osman Paşa döneminde (1861-1869) Vilâyet Nizamnâmesi'ne göre yeni bir idarî düzen kuruldu; Bosna 1866'da Saraybosna, İzvornik, Banaluka, Bihke, Travnik, Hersek ve Yenipazar sancaklarından oluşan bir vilâyete dönüştü. Aynı yıllarda vilâyet matbaası kuruldu, okullar açıldı ve düzenli salnâme yayımlanmaya başlandı.",
-  kaynak:"TDV `bosna-eyaleti`: 'Mayıs 1865'te ise vezir Topal Osman Paşa'nın valiliği sırasında yeni bir idarî düzenleme düşünüldü. 1866'da vilâyet olarak adlandırılan Bosna … yedi sancağa ayrılmıştı.'" },
+  kaynak:"TDV `bosna-eyaleti`: Mayıs 1865'te ise vezir Topal Osman Paşa'nın valiliği sırasında yeni bir idarî düzenleme düşünüldü. 1866'da vilâyet olarak adlandırılan Bosna … yedi sancağa ayrılmıştı." },
 
 
 { t:"1872-01-01", b:"Bosna'nın ilk demiryolu: Banaluka–Novi hattı", tur:"ekonomi",

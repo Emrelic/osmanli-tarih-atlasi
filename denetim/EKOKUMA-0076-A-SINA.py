@@ -18,7 +18,7 @@ import io, os, re, sys, glob
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KART = os.path.join(KOK, "denetim", "EKOKUMA-0076-A-YAMA-ekokuma_p76b.js")
 
 ham = io.open(KART, encoding="utf-8").read()

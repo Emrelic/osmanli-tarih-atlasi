@@ -66,23 +66,23 @@
 window.YERLESIMLER_EK_FERHADPASA = [
 
 // ───────── Van'ın GÜNEYDOĞUSU · Hakkâri ocaklığının merkezi ─────────
-{ ad:"Çölemerik (Hakkâri)", tur:"sehir", lat:37.5744, lon:43.7408, g:0, k:3, m:"Van",
+{ ad:"Çölemerik (Hakkâri)", kur:"1349-01-01", kesinlik:"onyil", neden:"SEHIR-TARIHCE-OSM-1014 · Emre kararı 14 Ekim 2026 (Şırnak kalıbı): kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — haritada görünme için ALT SINIR; yerleşim daha önce var olmuş olabilir, kaynak bunu dışlamıyor. İlk tanık: 1349'dan önce (el-Ömerî, ö. 749/1349) — TDV HAKKÂRİ (M. Tuncel): İbn Fazlullah el-Ömerî, et-Taʿrîf s. 38; ölüm yılı TDV İBN FAZLULLAH el-ÖMERÎ (A. el-Alevî). Kesinlik onyil. Öncesindeki dönemler (atlasın 1281 başlangıcı) kırpıldı. Tarihçe: data/sehir_tarihce_osm.js 'hakkari'.",  tur:"sehir", lat:37.5744, lon:43.7408, g:0, k:3, m:"Van",
   // kaynak: hakkari — Van eyaletine bağlı OCAKLIK sancak; zincir Van
   // kaydıyla birebir aynı (aynı fetih, aynı eyalet).
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1349-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu",kaynak:"1351 DOLAYLI (bölgesel çıkarım, Çölemerik'e adıyla bağlı geçiş günü YOK): TDV hakkari — yöre İlhanlılar'dan sonra Karakoyunlular'ın ve Celâyirliler'in idaresine girdi, sonra Karakoyunlular'ın eline geçti; Timur gelince Çölemerik'te oturan yerel beyler Timur'a bağlılık bildirdi (tarih vermez) · TDV karakoyunlular — 1351 Bayram Hoca, merkez Van-Erciş · 1386'da Celâyirli kaydı bulunamadı · Emre kararı (a), POSTIT #31"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 // ───────── Van'ın DOĞUSU · Mahmudi sancağının kale merkezi ─────────
 { ad:"Hoşap (Mahmudi)", tur:"kale", lat:38.2222, lon:43.7439, g:0, k:3, m:"Van",
   // kaynak: van — "Mahmudi" TDV'nin Van eyaleti birim listesinde ADIYLA
   // geçiyor. Hoşap Kalesi o sancağın merkezidir.
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 // ───────── Van'ın KUZEYDOĞUSU · Erciş ile Çaldıran arasındaki boşluk ─────────
 { ad:"Bargiri (Muradiye)", tur:"kale", lat:38.9931, lon:43.7669, g:0, k:3, m:"Van",
   // kaynak: van — "Bargiri" TDV'nin Van eyaleti birim listesinde geçiyor.
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 // ───────── HATTIN EN DOĞUSU · Kotur geçidi ─────────
@@ -92,7 +92,8 @@ window.YERLESIMLER_EK_FERHADPASA = [
 //    Kotur Kalesi'ni tam o antlaşma çerçevesinde anıyor. 1639 SONRASI
 //    için ayrı bir Osmanlı dayanağı BULUNAMADI — o yüzden uzatılmadı.
 { ad:"Kotur", tur:"kale", lat:38.4750, lon:44.3958, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1639-05-17",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}],
+  neden:"BEYAN — KARAR3-1016 (Emre #17, 16 Ekim 2026): 1724-1730/35 Osmanlı penceresi AÇILMADI. Kotur'u bu yıllar için ADIYLA anan kaynak BULUNAMADI: 1728 tahririnde Hoy livasının 9 nahiyesinde Kotur yok (Özgüdenli 2013, BOA TD 895, 901-912, 1066); Şahbaz 2024'te Kotur yalnız akarsu adı ('Kotur Çayı'); TDV urmiye, hoy, ahmed-pasa, van, maku'da yok. Komşu Hoy (1724-) ve Mâku (1724-1735) Osmanlı olduğundan haritada bu nokta Safevî ADACIĞI gibi görünebilir — bilinen, BEYANLI boşluk; bölgeden kaleye hüküm taşınmadı (D208). AYRI KALEM (yazılmadı): Curzon, Persia and the Persian Question I (1892) s.569-570 — 1849'da Türkler Kotur kalesini alıp İran garnizonunu çıkardı, 'over thirty years' kaldı, 1880 protokolünden 'some time later' teslim; bitiş YILI kaynakta yok ⇒ pencere açılmadı · KAYNAK-1015/G2 · KUTU-1016 0082/H-0010",
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1639-05-17",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1925-10-31",d:"kacar"},{f:"1925-10-31",t:"2000-12-31",d:"iran",kaynak:"Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"}],
   d:[{f:"1548-08-24",t:"1639-05-17"}], v:[] },
 
 ];

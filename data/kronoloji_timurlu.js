@@ -63,29 +63,29 @@ window.KRONOLOJI_TIMURLU = [
 // I. ALTIN ORDA SEFERLERİ VE BATIYA YÖNELİŞ (1391-1401)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1391-06-18", b:"Kunduzca Savaşı — Toktamış'ın ilk yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Semerkant"], t:"1391-06-18", b:"Kunduzca Savaşı — Toktamış'ın ilk yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Timur, kendi eski müttefiki olup sonradan Altın Orda tahtına çıkan Toktamış Han'ın Mâverâünnehir'e yönelik akınlarına son vermek için bozkırın derinliklerine, İdil (Volga) yakınlarındaki Kunduzca'ya kadar üç aylık bir sefer düzenledi ve Toktamış'ın ordusunu ağır bir yenilgiye uğrattı. Toktamış canını zor kurtardı; ama Altın Orda'nın ticaret şehirlerine dokunulmadığı için hanlık kısa sürede toparlanacaktı.",
-  kaynak:"TDV `timur`: \"1391 (Haziran): Kunduzca'da Toktamış Han'ı yendi\" — ⚠️ gün TDV'de yok, standart akademik kronolojiyle (18 Haziran 1391) çapraz doğrulandı" },
+  kaynak:"TDV `timur`: 1391 (Haziran): Kunduzca'da Toktamış Han'ı yendi — Dikkat: gün TDV'de yok, standart akademik kronolojiyle (18 Haziran 1391) çapraz doğrulandı" },
 
-{ t:"1395-04-15", b:"Terek Savaşı — Altın Orda'nın ekonomik belkemiği kırıldı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+{ t:"1395-04-15", b:"Terek Savaşı — Altın Orda'nın ekonomik belkemiği kırıldı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", odak_yer:["Terek deltası (Kızlar)", "Vladikavkaz"],
   etiket:["askeri","toprak-kayip","ticaret","konu-askeri","konu-ekonomi"],
   d:"Toktamış'ın dört yıl önceki yenilgiden toparlanıp yeniden saldırıya geçmesi üzerine Timur, Terek Nehri kıyısında bu kez kesin bir zafer kazandı; ordusunu Altın Orda'nın başkenti Saray'a kadar sürüp şehri ve İpek Yolu'nun kuzey kolundaki büyük ticaret merkezlerini (Azak, Saray, Astarhan) yakıp yıktı. Bu darbe Altın Orda'nın bir daha asla eski gücüne kavuşamamasına yol açtı ve dolaylı olarak Moskova Knezliği'nin bir asır içinde bağımsızlaşmasının önünü açan uzun çürümeyi başlattı.",
-  kaynak:"TDV `timur`: \"1395 (15 Nisan): Terek'te [Toktamış'ı] kesin olarak yendi\"" },
+  kaynak:"TDV `timur`: 1395 (15 Nisan): Terek'te [Toktamış'ı] kesin olarak yendi" },
 
-{ t:"1398-01-01", b:"Hindistan seferine çıkış kararı", tur:"askeri", onem:3, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ t:"1398-01-01", b:"Hindistan seferine çıkış kararı", tur:"askeri", onem:3, dunya:2, kapsam:"dis", yer_id:"", odak_yer:["Kâbil", "Multan", "Delhi"],
   etiket:["askeri","konu-askeri"],
   d:"Timur, Delhi Sultanlığı'nın 'kâfirlere karşı fazla yumuşak' davrandığı gerekçesiyle Hindistan'a bir sefer düzenlemeye karar verdi; ordusu aynı yıl içinde Hindukuş'u aşıp Pencap'a indi.", ic_not_d:"Seferin Delhi'ye varışı ve şehrin yağmalanması `data/kronoloji_hindistan.js:155`te (1398-12-17, dunya:3) anlatılıyor — burada mükerrer yazılmadı.",
-  kaynak:"TDV `timur`: \"1398-1399 (Mart-Nisan – Nisan): Delhi Sultanı Mahmud Şah'a karşı sefer\"" },
+  kaynak:"TDV `timur`: 1398-1399 (Mart-Nisan – Nisan): Delhi Sultanı Mahmud Şah'a karşı sefer" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. YEDİ YILLIK SEFER — SURİYE VE ANADOLU (1400-1404)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1400-10-01", b:"Halep'in düşüşü — Memlük ordusu bozguna uğradı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Halep",
+{ t:"1400-10-30", b:"Halep'in düşüşü — Memlük ordusu bozguna uğradı", gun:"30 Ekim 1400 — meydan savaşı ve şehre giriş (Cengiz 2020); Halep Kalesi daha sonra düştü, günü verilmiyor · eski t 1400-10-01 ay başı yer tutucuydu", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Halep",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Hindistan seferinden dönen Timur, 'Yedi Yıllık Sefer' adı verilen batı harekâtı kapsamında Suriye'ye girip Halep önünde Memlük ordusunu yendi; şehir üç gün yağmalandı ve kafataslarından kuleler yapıldı. Halep'in düşüşü, Kahire'deki Memlük sarayında paniğe yol açan ilk büyük darbeydi.",
-  kaynak:"TDV `timur`: \"1400-1401: Halep, Hama, Humus ve Şam dahil Suriye şehirlerinin fethi\"" },
+  kaynak:"TDV `timur`: \"Suriye’de Halep, Hama, Humus ve Dımaşk gibi şehirleri aldı.\" (cümle TARİHSİZ) · TDV `timurlular`: \"Timur, 1399-1400 döneminde Memlükler’i ve ardından Osmanlılar’ı yendi\" · gün: bulunamadı — TDV gün vermiyor. Önceki tırnaklı \"1400-1401: …\" cümlesi TDV gövdesinde YOK, kaldırıldı · daha önce künyede 1400-01-01 \"Halep ve Şam'ı ele geçirdi\" yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı · gün: Ercan Cengiz, \"Timur’un Suriye Seferi\", Kafkas Üniversitesi SBE Dergisi 26 (2020), DOI 10.9775/kausbed.2020.034: \"Memluk kuvvetleri 30 Ekim’de şehrin dışına çıkarak Timur’un ordusuna doğru saldırıya geçtiler\" … \"Timur’un ordusu Halep’e girerek şehri yağmaladı\" — cümleler meydan savaşını ve şehre girişi tarihliyor" },
 
 { t:"1401-01-25", b:"Şam'ın teslimi ve İbn Haldûn ile görüşme", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"Şam",
   etiket:["diplomasi","din","kultur","konu-diplomasi","konu-din","konu-kultur"],
@@ -100,31 +100,31 @@ window.KRONOLOJI_TIMURLU = [
 { t:"1402-07-28", b:"Ankara Savaşı — Osmanlı'yı Fetret'e sürükledi", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"Ankara",
   etiket:["askeri","toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Timur'un ordusu, Çubuk Ovası'nda Osmanlı Sultanı Yıldırım Bayezid'in ordusunu ağır bir yenilgiye uğrattı; Bayezid esir düşüp birkaç ay sonra esarette öldü. Timur, Anadolu beyliklerini yeniden dirilterek genç Osmanlı Devleti'ni on bir yıl sürecek bir taht kavgasına (Fetret Devri) sürükledi — bu kriz dolaylı olarak Bizans'ın ömrünü elli yıl uzattı, çünkü Osmanlı'nın İstanbul'u kuşatma gücü bir nesil geriye gitti.",
-  kaynak:"TDV `timur`: \"1402 (28 Temmuz): Ankara'da Osmanlı Sultanı Yıldırım Bayezid'e karşı zafer\" — `data/olaylar.js:30` (Osmanlı tarafı, eski şema) ile aynı gün; `dunya:5` koordinatörün kendi hükmüdür" },
+  kaynak:"TDV `timur`: 1402 (28 Temmuz): Ankara'da Osmanlı Sultanı Yıldırım Bayezid'e karşı zafer — `data/olaylar.js:30` (Osmanlı tarafı, eski şema) ile aynı gün; `dunya:5` bilinçli bir seçimdir" },
 
 { t:"1402-12-01", b:"İzmir'in fethi — Anadolu'daki son Haçlı kalesi düştü", tur:"toprak-kazanc", onem:3, dunya:3, kapsam:"dis", yer_id:"İzmir",
   etiket:["askeri","toprak-kazanc","din","konu-askeri","konu-din"],
   d:"Ankara zaferinin ardından Anadolu'yu bir uçtan bir uca geçen Timur, Rodos Şövalyeleri'nin (Aziz Yuhanna Tarikatı) elinde kalan İzmir Kalesi'ni kısa bir kuşatmayla aldı; bu, iki asırdır Anadolu kıyısında tutunan son Haçlı üssünün düşüşüydü. Fetih, Osmanlı'nın kendisinin bile henüz alamadığı bir kaleyi Timur'un ele geçirmesi bakımından simgesel bir üstünlük gösterisiydi.",
-  kaynak:"TDV `timur`: \"1402-1403: Bursa'nın alınması, İzmir'i ziyaret\" — ⚠️ TDV 'ziyaret' diyor, fetih ayrıntısı standart akademik kaynaktan tamamlandı, gün DOĞRULANMADI" },
+  kaynak:"TDV `timur`: 1402-1403: Bursa'nın alınması, İzmir'i ziyaret — Dikkat: TDV 'ziyaret' diyor, fetih ayrıntısı standart akademik kaynaktan tamamlandı, gün DOĞRULANMADI" },
 
 { t:"1404-11-27", b:"Çin seferine çıkış", tur:"askeri", onem:3, dunya:2, kapsam:"dis", yer_id:"Semerkant",
   etiket:["askeri","konu-askeri"],
   d:"Semerkant'a döndükten dört ay sonra Timur, Ming Hanedanı'na karşı büyük bir sefer için ordusunu topladı; yetmiş yaşına yaklaşan hükümdar, imparatorluğunun en büyük askerî girişimini kışın ortasında başlattı.", ic_not_d:"Sefer, iki ay sonra Otrar'da hastalanıp ölmesiyle hiç gerçekleşmeyecekti — `kronoloji_iran.js:82`de (1405-02-18, dunya:2) anlatılan ölüm burada mükerrer yazılmadı.",
-  kaynak:"TDV `timur`: \"1404 (27 Kasım): Çin seferi için yola çıktı\"" },
+  kaynak:"TDV `timur`: 1404 (27 Kasım): Çin seferi için yola çıktı" },
 
 // ══════════════════════════════════════════════════════════════════
 // III. TAHT MÜCADELESİ VE ŞAHRUH'UN BİRLİĞİ (1405-1409)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1405-04-01", b:"Timur sonrası taht mücadelesi başladı", tur:"kriz", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1405-04-01", b:"Timur sonrası taht mücadelesi başladı", tur:"kriz", onem:4, dunya:2, kapsam:"ic", yer_id:"", odak_yer:["Semerkant", "Herat"],
   etiket:["hanedan","kriz","konu-siyasi","konu-hanedan"],
   d:"Timur'un ölümü imparatorluğu tek bir mirasçıya bırakmadı: torunu Halil Sultan Semerkant'ta tahta çıkarken oğlu Şahruh Herat'tan hak iddia etti, öteki oğullar ve torunlar da kendi bölgelerinde bağımsız hareket etmeye başladı.", ic_not_d:"Dört yıl sürecek bu iç savaş, `kronoloji_iran.js`in 1405 ve 1409 tarihli maddeleri arasındaki boşluğu dolduruyor.",
   kaynak:"TDV `timurlular` — hanedanın taht mücadelesi genel hatlarıyla anlatılıyor, gün DOĞRULANMADI, dayanak: standart akademik kronoloji" },
 
-{ t:"1409-05-01", b:"Şahruh, Semerkant'ı alıp hanedan birliğini yeniden kurdu", tur:"birlesme", onem:4, dunya:2, kapsam:"ic", yer_id:"Semerkant",
+{ t:"1409-05-13", b:"Şahruh, Semerkant'ı alıp hanedan birliğini yeniden kurdu", gun:"27 Zilhicce 811 / 13 Mayıs 1409 (TDV `sahruh`) · eski t 1409-05-01 ay başı yer tutucuydu, kaynağı yoktu", tur:"birlesme", onem:4, dunya:2, kapsam:"ic", yer_id:"Semerkant",
   etiket:["hanedan","siyaset","konu-siyasi","konu-hanedan"],
   d:"Dört yıllık iç savaşın ardından Şahruh, yeğeni Halil Sultan'ı Semerkant'tan çıkarıp imparatorluğun büyük kısmını yeniden tek elde topladı; ancak başkenti Semerkant'ta değil kendi merkezi Herat'ta tuttu, Semerkant'ın yönetimini oğlu Uluğ Bey'e bıraktı. Bu ikili başkent düzeni (Herat'ta siyaset, Semerkant'ta bilim) Timurlu 'altın çağı'nın kurumsal iskeletini oluşturdu.",
-  kaynak:"TDV `timurlular`: Şahruh'un 1409'da hanedan birliğini sağladığı ve Semerkant'ın yönetimini Uluğ Bey'e bıraktığı — gün DOĞRULANMADI, dayanak: standart akademik kronoloji" },
+  kaynak:"TDV `sahruh`: \"27 Zilhicce 811 (13 Mayıs 1409) tarihinde hiçbir mukavemetle karşılaşmadan Semerkant’a giren Şâhruh, altı ay sonra şehirden ayrılırken buranın ve Mâverâünnehir’in idaresini oğlu Uluğ Bey’e ve onun atabegi Şah Melik’e bıraktı.\" · TDV `timurlular`: \"1409’da hâkimiyeti ele geçiren Timur’un küçük oğlu Şâhruh\" · daha önce künyede 1409-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. ULUĞ BEY VE SEMERKANT'IN BİLİM ÇAĞI (1417-1449)
@@ -143,23 +143,23 @@ window.KRONOLOJI_TIMURLU = [
 { t:"1437-01-01", b:"Zîc-i Uluğ Bey tamamlandı — teleskop öncesi en hassas yıldız katalogu", tur:"bilim", onem:5, dunya:3, kapsam:"ic", yer_id:"Semerkant", kapsam_genis:true,
   etiket:["bilim","konu-bilim"],
   d:"Rasathanedeki gözlemlerin ürünü olan Zîc-i Uluğ Bey, 992 yıldızın konumunu ve hareketini o güne kadarki en hassas ölçümlerle kaydetti; eser hem İslâm dünyasında hem Avrupa'da teleskobun icadına (1608) kadar başvuru kaynağı olarak kullanıldı. Uluğ Bey ayrıca sinüs ve tanjant tablolarını geliştirerek trigonometriye kalıcı katkılar yaptı.",
-  kaynak:"TDV `ulug-bey`: \"Zîc-i Uluğ Bey... İslâm dünyasında ve Avrupa'da kaynak eser olarak tanındı\" — kesin tamamlanma günü DOĞRULANMADI" },
+  kaynak:"TDV `ulug-bey`: Zîc-i Uluğ Bey... İslâm dünyasında ve Avrupa'da kaynak eser olarak tanındı — kesin tamamlanma günü DOĞRULANMADI" },
 
 { t:"1447-01-01", b:"Uluğ Bey tahta çıktı — bilgin-hükümdar Timurlu'nun başına geçti", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic", yer_id:"Herat",
   etiket:["hanedan","konu-hanedan"],
   d:"Babası Şahruh'un ölümüyle Uluğ Bey resmen Timurlu tahtına çıktı; ama kırk yılını gökbilime ve matematik araştırmalarına adamış bir hükümdar olarak siyasî ve askerî yeteneği babasınınkinin gerisindeydi. Saltanatı iki yıl bile sürmeyecekti.", ic_not_d:"(kronoloji_iran.js:90, 1447-03-13, dunya:1) -- ic-capa referansi, cumle icinden cikarildi.",
-  kaynak:"TDV `ulug-bey`: \"1447-1449 arası hükümdarlık yaptı\"" },
+  kaynak:"TDV `timurlular`: \"Şâhruh, 1446’da kendisine karşı ayaklanan torunu Sultan Muhammed üzerine gittiği sırada Rey yakınında öldü (12 Mart 1447). … Yerine oğlu Uluğ Bey geçti (1447-1449).\" · hükümdar listesi: \"Uluğ Bey 850 (1447)\" (künyedeki mükerrer maddeden taşındı; birebirliği sınandı; önceki tırnaklı `ulug-bey` özetlemesi TDV gövdesinde birebir YOKTU, kaldırıldı) · daha önce künyede 1449-01-01 yazılıydı, kaynaksız, YILI yanlıştı; D2'de 1447'ye düzeltilmişti; mükerrer olarak kaldırıldı" },
 
 { t:"1449-10-25", b:"Uluğ Bey, öz oğlu tarafından öldürüldü", tur:"kriz", onem:5, dunya:2, kapsam:"ic", yer_id:"Semerkant",
   etiket:["hanedan","kriz","din","taht-kavgasi","konu-siyasi","konu-kisiler","konu-hanedan","konu-din"],
   d:"Oğlu Abdüllatif'in isyanıyla Semerkant yakınında yenilen Uluğ Bey, tahttan indirildi ve dinî sapkınlık suçlamasıyla (rasathane çalışmalarının bazı din adamlarınca 'İslâm'a aykırı' görülmesi) idam edildi — kaybettikten yalnız birkaç hafta sonra. Bilim tarihinin en verimli hükümdarlarından birinin bu trajik sonu, Timurlu birliğinin de fiilen sonu oldu; imparatorluk artık kalıcı olarak parçalı kalacaktı.",
-  kaynak:"TDV `ulug-bey`: \"Oğlu Abdüllatif ile giriştiği mücadelede Semerkant yakınında yenilip 1449'da (25 Ekim) idam edildi\"" },
+  kaynak:"TDV `ulug-bey`: \"Devletşah Uluğ Bey’in ölüm tarihini 8 Ramazan 853 (25 Ekim 1449) şeklinde gösteriyorsa da … mezar taşında 10 Ramazan yazılıdır.\" · BEYAN: kullanılan gün 1449-10-25 (Devletşah) · kullanılmayan kaynaklı gün 10 Ramazan 853 ≈ 27 Ekim 1449 (mezar taşı) · neden: TDV iki tanığı da aktarıyor, seçmiyor (§4 ⑥) · önceki tırnaklı cümle (\"…1449'da (25 Ekim) idam edildi\") TDV gövdesinde birebir YOK, gerçek cümleyle değiştirildi" },
 
 // ══════════════════════════════════════════════════════════════════
 // V. HERAT'IN SON ALTIN ÇAĞI — HÜSEYİN BAYKARA DÖNEMİ (1469-1507)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1469-04-01", b:"Ebû Said Mirza, Akkoyunlu Uzun Hasan'a yenilip öldürüldü", tur:"kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1469-04-01", b:"Ebû Said Mirza, Akkoyunlu Uzun Hasan'a yenilip öldürüldü", tur:"kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"", odak_yer:["Tebriz", "Erdebil"],
   etiket:["askeri","toprak-kayip","konu-askeri","konu-kisiler"],
   d:"On bir yıl önce Timurlu topraklarını yeniden birleştiren Ebû Said Mirza, Azerbaycan'a doğru giriştiği bir seferde Akkoyunlu hükümdarı Uzun Hasan'ın ordusuna yenilip esir düştü ve öldürüldü. Yenilgi, Timurlu topraklarının batı ucunu (İran, Azerbaycan) kalıcı olarak Akkoyunlu'ya bıraktı; imparatorluk artık yalnız Horasan ve Mâverâünnehir'e sıkışmıştı.", ic_not_d:"(kronoloji_iran.js:398, 1458, dunya:1) -- ic-capa referansi, cumle icinden cikarildi.",
   kaynak:"TDV `timurlular` ve `iran` maddelerinde Ebû Said'in 1469'da Uzun Hasan'a yenilip öldürüldüğü teyitli; gün DOĞRULANMADI" },
@@ -177,17 +177,17 @@ window.KRONOLOJI_TIMURLU = [
 { t:"1491-01-01", b:"Ali Şîr Nevâî, ilk Türkçe şairler tezkiresini yazdı", tur:"kultur", onem:4, dunya:2, kapsam:"ic", yer_id:"Herat",
   etiket:["kultur","konu-sanat","konu-kultur"],
   d:"Devlet adamı ve şair Ali Şîr Nevâî, Çağatay Türkçesiyle yazılmış ilk şairler tezkiresi olan Mecâlisü'n-Nefâis'i tamamladı; eser, kendisinden önceki ve çağdaşı Türk şairlerini tanıtarak Çağatay Türkçesinin Farsça karşısında bağımsız bir edebî dil olarak kabul görmesine öncülük etti. Nevâî'nin bütün eserleri, Osmanlı şairlerince de üstat sayılıp on beşinci yüzyıldan itibaren nazire yazılan bir kaynağa dönüştü.",
-  kaynak:"TDV `ali-sir-nevai`: \"Mecâlisü'n-nefâis (1491-92)... ilk Türk şairler tezkiresi\"" },
+  kaynak:"TDV `ali-sir-nevai`: \"2. Mecâlisü’n-nefâis . 897’de (1491-92) kaleme alınan eser, Türk dilinde yazılan ilk şuarâ tezkiresi olması bakımından önemlidir.\"" },
 
 { t:"1492-01-01", b:"Molla Câmî'nin ölümü", tur:"olum", onem:3, dunya:2, kapsam:"ic", yer_id:"Herat",
   etiket:["din","kultur","konu-kisiler","konu-din","konu-kultur"],
   d:"Timurlu Herat'ının en etkili sûfî şairi ve düşünürü Molla Câmî, yakın dostu Ali Şîr Nevâî'yi derin bir kedere boğarak öldü; onun Farsça mesnevileri ve tasavvufî yorumları hem İran hem Osmanlı edebiyatını asırlarca etkileyecekti. Ölümü, Herat'ın kültürel altın çağının ilk büyük kaybı olarak anılır.",
-  kaynak:"TDV `ali-sir-nevai`: \"1492: dostu Câmî öldü\"" },
+  kaynak:"TDV `ali-sir-nevai`: \"Birkaç yıl sonra yakın dostu mutasavvıf-şair Câmî’nin ölümü de (898/1492) onu derinden etkileyen bir başka hadise oldu.\"" },
 
 { t:"1501-01-03", b:"Ali Şîr Nevâî'nin ölümü", tur:"olum", onem:4, dunya:2, kapsam:"ic", yer_id:"Herat",
   etiket:["kultur","hanedan","konu-kisiler","konu-hanedan","konu-kultur"],
   d:"Otuz iki yıl Hüseyin Baykara'nın hizmetinde bulunan, yedi Türkçe ve bir Farsça divan, altı mesnevi ve sayısız düzyazı eser bırakan Ali Şîr Nevâî öldü. Onun Çağatay Türkçesini bir edebiyat dili hâline getirme başarısı, hanedan siyasî olarak çöktükten sonra bile Orta Asya Türk edebiyatının temel referansı olarak kaldı.",
-  kaynak:"TDV `ali-sir-nevai`: \"3 Ocak 1501'de öldü\"" },
+  kaynak:"TDV `ali-sir-nevai`: 3 Ocak 1501'de öldü" },
 
 { t:"1506-05-04", b:"Hüseyin Baykara'nın ölümü — Herat'ın son büyük hükümdarı gitti", tur:"olum", onem:4, dunya:2, kapsam:"ic", yer_id:"Herat",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
@@ -197,6 +197,6 @@ window.KRONOLOJI_TIMURLU = [
 { t:"1507-05-01", b:"Şeybânî Han, Herat'ı aldı — Timurlu Devleti sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Herat",
   etiket:["askeri","toprak-kayip","hanedan","konu-askeri","konu-siyasi","konu-hanedan"],
   d:"Özbek hükümdarı Şeybânî Han, Hüseyin Baykara'nın birbiriyle çekişen oğullarının direnişini kırıp Herat'ı ele geçirdi; Timurlu hanedanının Mâverâünnehir-Horasan kolu böylece resmen sona erdi. Hanedanın soyu yalnız Bâbür'ün Hindistan'da kurduğu Bâbürlü İmparatorluğu'nda devam edecekti— bir devlet Orta Asya'da ölüp Hindistan'da yeniden doğdu.", ic_not_d:"(1526, `kronoloji_hindistan.js:177`, dunya:4)",
-  kaynak:"TDV `timurlular`: \"Özbekler Mayıs 1507'de Herat'ı ele geçirdi, Timurlu hâkimiyeti sona erdi\" — ⚠️ gün TDV'de yok, ay standart akademik kronolojiyle teyitli" }
+  kaynak:"TDV `timurlular`: Özbekler Mayıs 1507'de Herat'ı ele geçirdi, Timurlu hâkimiyeti sona erdi — Dikkat: gün TDV'de yok, ay standart akademik kronolojiyle teyitli" }
 
 ];

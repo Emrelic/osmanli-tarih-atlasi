@@ -1,0 +1,37 @@
+[
+ {
+  "anahtar": "parti-emrelic-0076/H-0151",
+  "hukum": "kosu-bekliyor",
+  "not": "Balkan Savaşı'nın ilk 12 haftası artık şehir şehir: 13 yeni kronoloji maddesi (Kırcaali 20 Eki, Yenipazar 23, Kırklareli 24, Üsküp 26, Köprülü 28, İştip ve Karaferye 29, Vodina 31 Eki, Yenice 2 Kas, Prizren 3, Ustrumca 5, Selanik 8, Gümülcine 21, Debre 28 Kasım) ve haritada 8 gün düzeltmesi + 2 yeni işgal (Gümülcine, Kırcaali); Priştine maddesi 2 Ekim'den 22 Ekim'e alındı (TDV'nin günü savaş ilânından önceydi). Ustrumca'yı ilk alan Bulgarlarmış (Özkan) ve 1913-1919 Bulgaristan'da kalmış (TDV) — ikisi de düzeltildi. Kalan: 8 şehrin günü yok (Lüleburgaz, Serez, Drama, Kavala, Dedeağaç, Dimetoka, Kesriye, Görice) — yazılmadı; Florina'yı kimin aldığı kaynaklarda çelişkili; Kumanova, Kalkandelen, Pirlepe, Yakova 1900'de kaza (kat. 4) — nokta açılmadı; İpek ve Taşlıca şehir tarihçesi programına bırakıldı.",
+  "commit": "db844f232 KUTU-H6-1015: Balkan 1912 adım adım, Karadeniz kuzeyi 2. parti, 1913 protokol günü (main)",
+  "kaynak": "https://dergipark.org.tr/tr/download/article-file/353908"
+ },
+ {
+  "anahtar": "parti-emrelic-0082/H-0070",
+  "hukum": "sirada",
+  "not": "Karadeniz kuzeyi 2. ve 3. parti: Bender, Akkirman, Özi, Kili (1790) ve İsmail (1809) Rus günleri kaynağın eski takvimine döndü; Yenikale 1703-05-17 (hicrî 1115), Bahçesaray 1503'te kuruldu (TDV), Taman 1479'da alındı (TDV mehmed-ii); Herson, Mariupol, Yekaterinoslav, Novoçerkask, Akyar (Sivastopol) ve Berdyansk kuruluş maddeleriyle eklendi (ESBE). Kırım kıyısı ve Bucak'tan 16 nokta daha zincir olarak gözden geçirildi; Anapa'nın 1475 başlangıcı senin 13 Ekim kararın, dokunulmadı. YAPILMADI: Azak'ı 12 Aralık 1739'a çekmek (eksklav tavanı 1904→1907, onayın gerekir); Novorossiysk/Soğucak (1722 Osmanlı kalesi kopuk parça olur, eksklav tavanını büyütür); Nikolayev, Stavropol, Melitopol (ESBE'de kuruluş yılı okunamadı); 1736, 1737 (Karasubazar) ve 1776-77 Rus işgalleri, Kili 1770 (gün yok). Kalan: ~46 nokta derin denetlenmedi.",
+  "commit": "db844f232 KUTU-H6-1015: Balkan 1912 adım adım, Karadeniz kuzeyi 2. parti, 1913 protokol günü · 199391f80 KUTU-H6-1015: Akyar ve Berdyansk noktaları + Kili/İsmail eski takvim",
+  "kaynak": "https://islamansiklopedisi.org.tr/bahcesaray"
+ },
+ {
+  "anahtar": "parti-emrelic-0039/H-0002",
+  "hukum": "sirada",
+  "not": "Protokolün '4 Kasım' ile '17 Kasım' günleri aynı gün (eski/yeni takvim) — hattın notundaki 'çelişki' kaldırıldı. Hat boyundaki 20 atlas yerleşiminin 1913 sahipliği protokol metniyle karşılaştırıldı, hepsi doğru. Önerinle hazırlanan Mendelî, Bedre ve Nefthâne noktaları push kapısında Değişmez 8a'yı 1505'ten 1511'e çıkardı: İran yakasında karşı nokta olmadığı için petekleri 1913 ve 1923 Irak-İran hattını aşıyor. Geri çektim, main'de değiller. Protokol Mendelî'nin güneyinde ad vermiyor (o kesimi komisyona bırakmış), yani karşı noktalar (Mehran, Sumar, Naft-i Şah) için 1914 komisyon tutanakları ya da başka kaynak gerekir. Kalan: 1914 tutanakları, protokolde konumlanamayan 8 ad, ve İran yakası eş noktalar.",
+  "commit": "db844f232 KUTU-H6-1015: Balkan 1912 adım adım, Karadeniz kuzeyi 2. parti, 1913 protokol günü",
+  "kaynak": "https://www.parstimes.com/history/iran_iraq_1913.html"
+ },
+ {
+  "anahtar": "YAN/ustrumca-1913-1919",
+  "hukum": "kosu-bekliyor",
+  "not": "Ustrumca 1913-1918 Sırbistan yazılıydı; TDV ustrumca '1913'ten 1919 yılına kadar Bulgaristan Devleti'ne katıldı' diyor. Bulgaristan'a çevrildi, SHS'ye geçiş atlasın Neuilly maddesinin yılına (1920) hizalandı.",
+  "commit": "db844f232 KUTU-H6-1015: Balkan 1912 adım adım, Karadeniz kuzeyi 2. parti, 1913 protokol günü (main)",
+  "kaynak": "https://islamansiklopedisi.org.tr/ustrumca"
+ },
+ {
+  "anahtar": "YAN/savaslar-julyen-kalan",
+  "hukum": "kosu-bekliyor",
+  "not": "Rus savaşı seferleri ve PAKET-RUS maddeleri kaynağın eski takvim gününe döndü (karar #28): seferler 1711, 1739, 1769 ×2, 1770 (başlangıç), 1806; maddeler 1739 Stavuçani, 1769 Dinyester, 1769 Hotin, 1788 Dinyester, 1806 Dinyester ve Bükreş, 1810 Silistre, 1811 Rusçuk, 1828 Prut, 1829 Silistre, 1853 Prut, 1790 Kili, 1809 İsmail; bağlı işgal kayıtları (Eflak/Boğdan'da 1806'da 15, 1828'de 16 kayıt; Hotin, Yaş, Silistre, Rusçuk), sefer okları, ek okuma ve künye bağları birlikte. Dokunulmadı (TDV günü ya da ay): 1696 Azak, 1770 Kartal, 1789 Fokşani/Rimnik, 1790 İsmail, 1810 Niğbolu, 1877.",
+  "commit": "d993afba0 KUTU-H6-1015: Rus savaşı seferleri kaynağın eski takvim gününe · 21e818409 KUTU-H6-1015: Rus savaşları eski takvim katmanının kalanı (1788-1853)",
+  "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Турецкие_войны_России"
+ }
+]

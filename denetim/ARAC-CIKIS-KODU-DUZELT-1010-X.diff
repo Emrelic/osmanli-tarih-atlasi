@@ -1,0 +1,123 @@
+diff --git a/denetim/A-OKYANUSYA-0078-sina.py b/denetim/A-OKYANUSYA-0078-sina.py
+index 5fa6819b..b9289abf 100644
+--- a/denetim/A-OKYANUSYA-0078-sina.py
++++ b/denetim/A-OKYANUSYA-0078-sina.py
+@@ -67,11 +67,17 @@ if __name__ == "__main__":
+     bozuk = [dict(ad="Sydney", lat=-33.87, lon=151.21, kaynak="x", s=[{"f":"1950-01-01","t":"1923-10-29","d":"yok-boyle"}]),
+              dict(ad="__sina__", lat=-10.6, lon=150.68, s=[{"f":"1850-01-01","t":"1923-10-29","d":"avustralya"}])]
+     h = kontrol(bozuk)
+-    print(f"POZİTİF KONTROL: {len(h)} hata bekleniyor ≥5 →", "ATEŞLEDİ" if len(h) >= 5 else "ATEŞLEMEDİ!")
++    ATESLEDI = len(h) >= 5
++    print(f"POZİTİF KONTROL: {len(h)} hata bekleniyor ≥5 →", "ATEŞLEDİ" if ATESLEDI else "ATEŞLEMEDİ!")
+     for x in h: print("   ", x)
+-    h = kontrol(Yeni)
++    h_gercek = h = kontrol(Yeni)
+     print(f"\nGERÇEK: {len(h)} hata")
+     for x in h: print("   ", x)
++    sahipsiz = 0
+     for y in Yeni:
+         s = [p["d"] for kat in ("s","d","v") for p in y.get(kat) or [] if p["f"] <= "1923-09-01" < p["t"]]
++        sahipsiz += not s
+         print(f"  {y['ad']:<45} 1923-09-01 → {s[0] if s else 'SAHİPSİZ'}")
++    # ÇIKIŞ KODU (CLAUDE.md §3): ateşlemeyen alet ölçemez (2) · hata/sahipsiz ihlal (1) · temiz 0
++    if not ATESLEDI: sys.exit(2)
++    sys.exit(1 if (h_gercek or sahipsiz) else 0)
+diff --git a/denetim/ARAC-KAMERIKA-0903-kunye-sina.py b/denetim/ARAC-KAMERIKA-0903-kunye-sina.py
+index 6c3c3095..f25e20a7 100644
+--- a/denetim/ARAC-KAMERIKA-0903-kunye-sina.py
++++ b/denetim/ARAC-KAMERIKA-0903-kunye-sina.py
+@@ -37,6 +37,7 @@ print("künye: %d (%s)" % (len(K), " + ".join(str(len(json.load(
+ GUN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+ UFUK_F, UFUK_T = "1281-01-01", "1923-10-29"
+ hata = []
++CIKIS = 0   # CLAUDE.md §3: 0 temiz · 1 ihlal
+ 
+ 
+ def bak(kosul, kim, mesaj):
+@@ -91,6 +92,7 @@ for k in K:
+ 
+ print("\n--- ① geçme yolu: gerçek reçete ---")
+ if hata:
++    CIKIS = 1
+     print("🔴 %d HATA" % len(hata))
+     for h in hata:
+         print("   " + h)
+@@ -150,4 +152,7 @@ for kayit, ad in sahte:
+                 date(int(v[:4]), int(v[5:7]), int(v[8:10]))
+             except ValueError:
+                 hata.append("takvim")
++    if not hata:
++        CIKIS = 1   # ateşleme dalı ötmedi = sınav kendini doğrulayamadı
+     print("   %-24s → %s" % (ad, "🟢 ÖTTÜ" if hata else "🔴 ÖTMEDİ"))
++sys.exit(CIKIS)
+diff --git a/denetim/ARAC-KIMLIK-SINA-0903.py b/denetim/ARAC-KIMLIK-SINA-0903.py
+index 015642be..c3a240db 100644
+--- a/denetim/ARAC-KIMLIK-SINA-0903.py
++++ b/denetim/ARAC-KIMLIK-SINA-0903.py
+@@ -64,6 +64,10 @@ def kimlikler(obj, cikti):
+             kimlikler(e, cikti)
+ 
+ TOPLAM = {}
++IHLAL = []        # cikis 1: bulgu
++OLCULEMEDI = []   # cikis 2: olculemedi
++if not sys.argv[1:]:
++    OLCULEMEDI.append("girdi JSON verilmedi")
+ for yol in sys.argv[1:]:
+     veri = json.load(io.open(yol, encoding="utf-8"))
+     bulgu = []
+@@ -71,6 +75,7 @@ for yol in sys.argv[1:]:
+     ad = os.path.basename(yol)
+     if not bulgu:
+         print("%-42s  🔴 HIC `d:` YOK — zincir tasimayan liste" % ad)
++        IHLAL.append("%s: hic d: yok" % ad)
+         continue
+     kume = {}
+     for kid, f, t in bulgu:
+@@ -100,6 +105,8 @@ def bas(baslik, liste, isaret):
+         print("     %-34s %3d donem  %s" % (kid, d["donem"], ", ".join(sorted(d["dosya"]))))
+     print()
+ 
++IHLAL += ["kunye yok: %s" % k for k in yok_kunye]
++IHLAL += ["renk yok: %s" % k for k in yok_renk]
+ bas("KUNYE YOK        (§3.5 hayalet — yazilamaz)", yok_kunye, "🔴")
+ bas("RENK YOK         (§8 boyanmaz — bosluk kapanmis GORUNUR)", yok_renk, "🔴")
+ print("🟢 KUNYE + RENK TAM : %d" % len(tamam))
+@@ -132,6 +139,7 @@ for kid in tamam:
+     kf, kt = gun(k.get("f")), gun(k.get("t"))
+     if kf is None or kt is None:
+         tasan.append((kid, "?", "?", "kunye f/t EKSIK ya da AYRISTIRILAMADI — olculemedi"))
++        OLCULEMEDI.append("%s: kunye f/t olculemedi" % kid)
+         continue
+     for f, t, ad in TOPLAM[kid]["araliklar"]:
+         gf, gt = gun(f), gun(t)
+@@ -139,11 +147,21 @@ for kid in tamam:
+             continue
+         if gf < kf:
+             tasan.append((kid, f, t, "donem kunyeden ONCE basliyor (kunye f=%s)" % k.get("f")))
++            IHLAL.append("hayalet: %s %s" % (kid, f))
+         if gt > kt:
+             tasan.append((kid, f, t, "donem kunyeden SONRA bitiyor (kunye t=%s)" % k.get("t")))
++            IHLAL.append("hayalet: %s %s" % (kid, t))
+ if tasan:
+     print("🔴 HAYALET RISKI : %d" % len(tasan))
+     for kid, f, t, nic in tasan:
+         print("     %-30s %s → %s   %s" % (kid, f, t, nic))
+ else:
+     print("🟢 hicbir donem kunye omrunun disina tasmiyor")
++
++# ---- CIKIS KODU (CLAUDE.md §3: 0 temiz · 1 ihlal · 2 olculemedi) --------
++# Otomasyon cumleyi degil cikis kodunu okur; ihlal olculemeyenden once gelir.
++if IHLAL:
++    print("SONUC: IHLAL %d" % len(IHLAL)); sys.exit(1)
++if OLCULEMEDI:
++    print("SONUC: OLCULEMEDI %s" % "; ".join(OLCULEMEDI)); sys.exit(2)
++print("SONUC: temiz"); sys.exit(0)
+diff --git a/denetim/NOKTA-KAFKAS-0077-sina.py b/denetim/NOKTA-KAFKAS-0077-sina.py
+index d640d05d..3b717a77 100644
+--- a/denetim/NOKTA-KAFKAS-0077-sina.py
++++ b/denetim/NOKTA-KAFKAS-0077-sina.py
+@@ -76,3 +76,4 @@ k = sina(benim, hepsi)
+ print("kusur:", len(k))
+ for s in k:
+     print("  ", s)
++sys.exit(1 if k else 0)   # çıkış kodu: 0 temiz · 1 kusur (CLAUDE.md §3)

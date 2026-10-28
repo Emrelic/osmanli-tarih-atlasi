@@ -68,8 +68,8 @@ Koordinatör bu bölgenin bir kısmını zaten işledi. **Yeniden yapma, oku:**
 ```
 denetim/OLCUM-1923-BULGARISTAN-SURIYE-0906.md   bulgu
 denetim/HUKUM-MANDA-KIMLIK-0906.md              hüküm (③ ÇÜRÜDÜ, damgalı)
-denetim/yer_yama_manda_0906.js                  58 nokta · SINAVDAN GEÇTİ
-denetim/ARAC-MANDA-SINAV-0906.js                sınavı
+data/yer_yama_manda_0906.js                     58 nokta · SINAVDAN GEÇTİ (W36: 415d18ac ile denetim/ → data/ taşındı)
+denetim/ARAC-MANDA-SINAV-0906.js                sınavı · ⚪ EMEKLİ SINAV, EMSAL OLARAK KORUNUYOR (W36, 6 Eki 2026: yama uygulandı, canlı veriden kaydı — koşturma, kalıp olarak oku)
 denetim/KRONOLOJI-MANDA-0906.json               3 çekirdek maddesi
 denetim/OLCUM-MANDA-RENK-CAKISMA-0906.md        🔴 RENK KAPISI — oku
 denetim/OLCUM-ATIL-KUNYE-0906.md                hazır künye listesi
@@ -129,7 +129,7 @@ Aşağıdaki özet yalnız bir **hatırlatmadır**, yöntemin yerine geçmez:
             yama 6 dönemin 5'ini SİLİYORDU — Fetret zinciri.)
 ⑦ SINAV     `d:+v:+s:` BİRLİKTE: zincir kesintisiz mi · künye penceresi
             tutuyor mu · beklenen sayı çıktı mı. C13: GEÇME + ATEŞLEME.
-            Emsal: `denetim/ARAC-MANDA-SINAV-0906.js`
+            Emsal: `denetim/ARAC-MANDA-SINAV-0906.js` (⚪ emekli sınav, emsal olarak korunuyor — W36)
 ```
 ### 🔴 SEKİZİNCİ KAPI — RENK. Atlanamaz.
 Yeni bir kimlik sahneye çıkınca **yeni renk çiftleri doğar ve bugün

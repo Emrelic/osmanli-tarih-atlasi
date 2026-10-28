@@ -1,0 +1,31 @@
+{
+  "_kalem": "HAYALET-KUNYE-1008 — UYGULANMADI. İki künye önerisi; ikisi de RENK ister (renkler.py = motor tuzu) ⇒ ancak TAM İNŞA koşusunda iner. O güne dek Mandu ve Asâyita verisi DOKUNULMADAN kalır (kısaltmak delik açar, D206).",
+  "oneriler": [
+    {
+      "id": "dhar",
+      "ad": "Dhar Devleti (Punvar hânedanı)",
+      "tur": "devlet",
+      "bolge": "guney-asya",
+      "f": "1742-01-01",
+      "t": "1945-09-02",
+      "baskent": "Dhar",
+      "kaynak": "EB1911 c.8 s.157 'Dhar' (Wikisource tarama metni, BİREBİR): «In 1742 Anand Rao received Dhar as a fief from Baji Rao, the peshwa» · «By a treaty of 1819 Dhar passed under British protection» · «The state includes the ruins of Mandu, or Mandogarh». EB1911 c.17 s.583 'Mandu': «a ruined city in the Dhar state of Central India». TDV: `malva` gövdesinde Dhar/1818 YOK; `maratha` 302.",
+      "not": "f YIL hassasiyeti (kaynak yıl veriyor). t PENCERE UCU, ölçüm değil (D210): devletin 1923 sonrası sürdüğü EB1911'den (1901 nüfusu, 1898 halef) çıkıyor, bitiş günü ÖLÇÜLMEDİ. ⚠️ EB1911: «confiscated for rebellion in 1857, but in 1860 was restored» — pencere İÇİNDE kesinti, beyan. Emsal: `indor` (Holkar, f 1732-07-29) ve `gvalyar` — Maratha üye devletleri kendi künyeleriyle.",
+      "veri_onerisi": "Mandu (Mândû): {f:'1732-01-01',t:'1742-01-01',d:'maratha'} + {f:'1742-01-01',t:'1923-10-29',d:'dhar'}",
+      "boya_gerekli": true
+    },
+    {
+      "id": "avsa",
+      "ad": "Avsa (Aussa) İmamlığı / Sultanlığı",
+      "tur": "sultanlik",
+      "bolge": "dogu-afrika",
+      "f": "1647-01-01",
+      "t": "bulunamadı",
+      "baskent": "Asâyita (Avsa)",
+      "kaynak": "TDV `harar` (Ahmet Kavas), BİREBİR: «devletin merkezinin Harar’dan Denkalî çölündeki Aussa’ya taşınmasıyla burası sadece bir şehir devletine dönüştü. 1647’de Ali b. Dâvûd Aussa imamı olunca … Harar tekrar bağımsız bir emirlik haline geldi ve 1887 yılında Habeşler tarafından işgal edilinceye kadar varlığını sürdürdü.» ⇒ `adal` künyesinin 1887 ucu HARAR koluna aittir; Aussa kolu 1647'de ayrılmıştır.",
+      "not": "⚠️ TDV KENDİYLE ÇELİŞİYOR: `etiyopya` «merkezi Denkalî çölündeki Aussa’ya nakledilen Harar Sultanlığı da Galla göçebeleri tarafından yıkıldı (1577)» der; `harar` ise Aussa imamlığını 1647'de hâlâ yaşar gösterir. Taraf SEÇİLMEDİ; f 1647 `harar`ın ayrılma cümlesinden. 🔴 t BULUNAMADI: TDV `avsa`/`afar`/`afarlar`/`adal`/`adel`/`denakil`/`danakil` hepsi 302; Aussa'nın 1923'te kimin elinde olduğu (özerk sultanlık / Habeş metbuluğu / İtalyan anlaşmaları) KAYNAKLA ÖLÇÜLMEDİ — akademik kaynak aranmalı. Bu çözülmeden künye YAZILMAMALI.",
+      "veri_onerisi": "Asâyita (Avsa): {f:'1281-01-01',t:'1647-01-01',d:'adal'} + {f:'1647-01-01',t:'1923-10-29',d:'avsa'} — t bulunana dek BEKLER",
+      "boya_gerekli": true
+    }
+  ]
+}

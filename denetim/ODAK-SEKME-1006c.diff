@@ -1,0 +1,243 @@
+diff --git a/arac/odak_cozum.js b/arac/odak_cozum.js
+index bcf34d1b..5aa3c7c6 100644
+--- a/arac/odak_cozum.js
++++ b/arac/odak_cozum.js
+@@ -48,7 +48,8 @@
+ //
+ // GİRDİ  argv[2] = JSON: { kok, etiket_kaynak: {"data/x.js": ["data/a.js",…]},
+ //                          disk: ["kronoloji_….js", …],
+-//                          sor?: [{t, b}], app_js? }   (son ikisi yalnız sınav)
++//                          sor?: [{t, b}], app_js?,      (yalnız sınav)
++//                          yay_dogrula? }                  (pahalı doğrulama, varsayılan KAPALI)
+ // ÇIKTI  stdout'a tek JSON.
+ 
+ const fs = require("fs");
+@@ -328,9 +329,12 @@ function siniflandir(o) {
+ //    `return`ü birebir: `DEVLET_HARITA`da o id YOK · o gün (`tarihAyarla`
+ //    1281–1923'e kıstırır) etkin `dnm` YOK. Dönem sınavı app.js'in kesilmiş
+ //    `aktifAralik`i; `fi`/`ti` app.js:443'teki gibi `gunIdx(p.f/p.t)`.
+-//    ⚠️ Ölçülemeyen üçüncü `return` (gövde geometrisi BOŞ) — `parcaCoz`
+-//       gerektirir; burada SORULMAZ (gövde var sayılır ⇒ yanlış temiz yönü,
+-//       bilinçli ve yazılı).
++//    ⚠️ Üçüncü `return` (gövde geometrisi BOŞ) burada SORULMAZ — `parcaCoz`
++//       tam havuzu ister. ÖLÇÜLDÜ (1006c, 6 Ekim 2026): gerçek `geo_coz` +
++//       `parcaCoz` + `devletiYay` ile 372 gövde-yolu maddesinin 372'sinde bu
++//       taklit gerçekle UYUŞTU (313 kutu · 59 boş), üçüncü `return` 0. Ama
++//       bedeli: bellek tepesi 345 → 1438 MB, +4 sn. Kapıya KONMADI;
++//       `G.yay_dogrula` (aşağıda) bu taklidi gerçekle karşılaştırır.
+ //    `d` = maddenin İLK künyesi (tekil sayım); çok taraflı madde başka
+ //    sekmeden açılınca sonucu farklı olabilir.
+ function odakYazili(o) {
+@@ -482,6 +486,54 @@ const cikti = {
+ };
+ tumu.forEach(function (r) { cikti.evren_sayi[r[2]]++; });
+ 
++// 🆕 1006c — `G.yay_dogrula`: `sekmeDali`nın gövde taklidini app.js'in GERÇEK
++// `devletiYay`ıyla karşılaştırır (gerçek `geo_coz` tam havuzu çözer, gerçek
++// `parcaCoz` gövdeyi kurar, `harita.fitBounds` çağrılıp çağrılmadığı sayılır).
++// Varsayılan KAPALI: +1,1 GB bellek, +4 sn (ölçüldü). `--yay-dogrula` ve
++// `denetim/ARAC-ODAK-SEKME-SINAV-1006.py` S7 çağırır. Uyuşmazlık = taklit yanlış.
++if (G.yay_dogrula) {
++  const _yuk = [];
++  const _taze = { head: { appendChild: function (s) {
++    try { geval(oku(path.join(KOK, "data", "devlet_parcalar.js"))); }
++    catch (e) { olculemedi("data/devlet_parcalar.js koşmadı: " + e.message); }
++    if (s.onload) s.onload();
++  } }, createElement: function () { return {}; }, querySelector: _bos, getElementById: _bos };
++  global.document = _taze;
++  const _ael = global.addEventListener; delete global.addEventListener;   // geo_coz tam havuzu HEMEN istesin
++  console.log = function () {};
++  console.error = function () { _yuk.push([].join.call(arguments, " ")); };
++  W.DEVLET_PARCALAR = undefined;                                   // katman 1 değil, TAM havuz
++  try { geval(oku(path.join(KOK, "js", "geo_coz.js"))); } catch (e) { olculemedi("js/geo_coz.js koşmadı: " + e.message); }
++  console.log = _log; console.error = _err;
++  if (_ael) global.addEventListener = _ael;
++  if (!W.DEVLET_PARCALAR || !W.DEVLET_PARCALAR.length || W.__DP_TAM_HATA && !/__govdeYenile/.test(W.__DP_TAM_HATA)) {
++    olculemedi("tam gövde havuzu çözülmedi: " + (W.__DP_TAM_HATA || "boş"));
++  }
++  geval(kes("function parcaCoz(", "var PARCALAR = window.PARCALAR"));
++  geval(kes("var devletler2 = (window.DEVLET_HARITA", "window.__govdeYenile"));
++  geval(kes("function devletiYay(id)", "\n}") + "\n}\n");
++  let _fit = null;
++  global.harita = { fitBounds: function (b) { _fit = b; } };
++  const yd = { halka: W.DEVLET_PARCALAR.length, capraz: {}, ucuncu_return: [], uyusmazlik: [] };
++  tumu.forEach(function (r) {
++    const m = r[0]; if (r[2] !== "SEKME") return;
++    const d = kunyeIx[sekmeKunye.get(m)];
++    const sd = sekmeDali(m, d);
++    if (!(sd.dal === "SEKME_GOVDE" || sd.dal === "SEKME_SESSIZ" ||
++          (sd.dal === "SEKME_OKUNMAYAN" && /^govde_/.test(sd.alt)))) return;
++    const taklit = devletiYaySessiz(d.harita || d.id, m.t);        // null = gövde var
++    _fit = null;
++    geval("suanki = " + Math.max(W.BASLANGIC, Math.min(W.BITIS, W.gunIdx(m.t))) + ";");
++    try { W.devletiYay(d.harita || d.id); } catch (e) { olculemedi("devletiYay patladı: " + e.message); }
++    const k = (taklit ? "taklit_sessiz" : "taklit_govde") + "|gercek_" + (_fit ? "kutu" : "bos");
++    yd.capraz[k] = (yd.capraz[k] || 0) + 1;
++    const iz = d.id + " " + m.t + " " + String(m.b || "").slice(0, 50);
++    if (!taklit && !_fit) yd.ucuncu_return.push(iz);            // geometri boş — taklit YANLIŞ TEMİZ
++    if (taklit && _fit) yd.uyusmazlik.push(iz);                 // taklit YANLIŞ KİRLİ
++  });
++  cikti.yay_dogrulama = yd;
++}
++
+ // Sınav kancası: `G.sor = [{t, b}]` ⇒ `t` eşit + `b` içeren HER madde için
+ // yol · sınıf · sekme dalı · kusur (`denetim/ARAC-ODAK-SEKME-SINAV-1006.py`).
+ if (Array.isArray(G.sor)) {
+diff --git a/arac/odak_olc.py b/arac/odak_olc.py
+index bef00ca3..a8a68e7e 100644
+--- a/arac/odak_olc.py
++++ b/arac/odak_olc.py
+@@ -99,6 +99,8 @@ KULLANIM
+     py arac/odak_olc.py --kusur         yalnız ÇÖZÜLMEYEN odakları bas
+     py arac/odak_olc.py --dosya <ad>    tek dosya
+     py arac/odak_olc.py --json <yol>    makine okunur döküm
++    py arac/odak_olc.py --yay-dogrula   gövde taklidini GERÇEK devletiYay ile
++                                        karşılaştır (+1,1 GB bellek, +4 sn)
+     py arac/odak_olc.py --tavan-yaz     bugünkü sayıyı TAVAN olarak dondur
+                                         🔴 YALNIZ İLK KURULUM: `evren`i BÜTÜN
+                                         dosyalara genişletir ⇒ YENİ KAPSAM'ı
+@@ -164,7 +166,7 @@ def etiket_kaynak():
+     return harita
+ 
+ 
+-def olc(tek=None):
++def olc(tek=None, yay_dogrula=False):
+     """node çözücüsünü TEK süreçte koştur → döküm sözlüğü.
+ 
+     Evren HER ZAMAN bütün tarayıcıdır (bağlama bütün betiklere bağlı); `tek`
+@@ -184,7 +186,8 @@ def olc(tek=None):
+     try:
+         io.open(yol, "w", encoding="utf-8").write(json.dumps(
+             {"kok": KOK.replace("\\", "/"), "etiket_kaynak": ek,
+-             "disk": disk_dosyalari()}, ensure_ascii=False))
++             "disk": disk_dosyalari(), "yay_dogrula": bool(yay_dogrula)},
++            ensure_ascii=False))
+         r = subprocess.run(["node", COZUCU, yol], capture_output=True,
+                            text=True, encoding="utf-8", errors="replace")
+     finally:
+@@ -405,7 +408,7 @@ def main():
+     yalniz_kusur = "--kusur" in sys.argv
+     tek = _arg("--dosya")
+ 
+-    D = olc(tek)
++    D = olc(tek, yay_dogrula="--yay-dogrula" in sys.argv)
+     if D.get("hata"):
+         print("🔴 ÖLÇÜLEMEDİ:", D["hata"])
+         print("   ⚠️ ÖLÇÜLEMEDİ ≠ TEMİZ. Kapı bunu İHLAL sayar.")
+@@ -550,6 +553,16 @@ def main():
+         print("✓ TAVAN YAZILDI: %s" % os.path.relpath(TAVAN_YOL, KOK))
+         print("  odaksiz %d · beyanli_yabanci %d" % (T["ODAKSIZ"], beyan_yab))
+ 
++    yd = D.get("yay_dogrulama")
++    if yd:
++        print()
++        print("GÖVDE TAKLİDİ ↔ GERÇEK `devletiYay` (%d halka): %s"
++              % (yd["halka"], dict(sorted(yd["capraz"].items()))))
++        print("   geometri boş (taklit YANLIŞ TEMİZ): %d · taklit YANLIŞ KİRLİ: %d"
++              % (len(yd["ucuncu_return"]), len(yd["uyusmazlik"])))
++        for x in (yd["ucuncu_return"] + yd["uyusmazlik"])[:20]:
++            print("      %s" % x)
++
+     jy = _arg("--json")
+     if jy:
+         io.open(jy, "w", encoding="utf-8").write(json.dumps(
+diff --git a/denetim/ARAC-ODAK-SEKME-SINAV-1006.py b/denetim/ARAC-ODAK-SEKME-SINAV-1006.py
+index 26e48697..50100f24 100644
+--- a/denetim/ARAC-ODAK-SEKME-SINAV-1006.py
++++ b/denetim/ARAC-ODAK-SEKME-SINAV-1006.py
+@@ -35,6 +35,12 @@ donmuş sayıya girmeli, yoksa `gi` kusuru tavanda görünmez.
+     S6 ötmemeli aynı tavan, veri dokunulmamış                               → SESSIZ satırında ✗ YOK
+     N5b         SESSIZ = sessiz nedenleri toplamı
+ 
++## 🆕 1006c — gövde taklidi ↔ GERÇEK `devletiYay` (`yay_dogrula`). ÖNGÖRÜ, ölçümden ÖNCE:
++    S7a ötmemeli  gerçek veri: geometri boş 0 · uyuşmazlık 0 · çapraz toplamı = gövde yolu
++    S7b ötmeli    `devlet_harita_ust.js`te akkoyunlu'nun 1470'i kapsayan dönemi `"g":[]`
++                  yapılır + sentetik akkoyunlu 1470 kapsam_genis maddesi ⇒ taklit "gövde var"
++                  der, gerçek `devletiYay` boş döner ⇒ `ucuncu_return`te SINAV-W13 görünür
++
+ ## NE YAPMAZ
+ Veriyi kalıcı değiştirmez: `data/kronoloji_akkoyunlu.js`e yazar, `git checkout --`
+ ile geri alır; `ODAK-TAVAN.json`u geri yazar. `data/` kirliyse ÇALIŞMAZ.
+@@ -68,7 +74,7 @@ def hukum(ad, ok, ayrinti=""):
+         kaldi += 1
+ 
+ 
+-def node(ek=None, sor=None, app_js=None):
++def node(ek=None, sor=None, app_js=None, yay=False):
+     g = {"kok": KOK.replace("\\", "/"),
+          "etiket_kaynak": ek if ek is not None else OO.etiket_kaynak(),
+          "disk": OO.disk_dosyalari()}
+@@ -76,6 +82,8 @@ def node(ek=None, sor=None, app_js=None):
+         g["sor"] = sor
+     if app_js:
+         g["app_js"] = app_js
++    if yay:
++        g["yay_dogrula"] = True
+     fd, yol = tempfile.mkstemp(suffix=".json")
+     os.close(fd)
+     try:
+@@ -109,9 +117,30 @@ def kurbana_ekle(satir):
+         ham.replace(KURBAN_BAS, KURBAN_BAS + "\n" + satir, 1))
+ 
+ 
++GOVDE_DOSYA = "devlet_harita_ust.js"
++
++
+ def geri_al():
+-    subprocess.run(["git", "checkout", "--", "data/" + KURBAN], cwd=KOK,
+-                   capture_output=True, text=True)
++    for f in (KURBAN, GOVDE_DOSYA):
++        subprocess.run(["git", "checkout", "--", "data/" + f], cwd=KOK,
++                       capture_output=True, text=True)
++
++
++def govde_bosalt(kimlik, gun):
++    """`DEVLET_HARITA`da `kimlik`in `gun`ü kapsayan dönemini `"g":[]` yapar."""
++    import re
++    y = os.path.join(KOK, "data", GOVDE_DOSYA)
++    ham = io.open(y, encoding="utf-8", newline="").read()
++    i = ham.find('"id":"%s"' % kimlik)
++    assert i >= 0 and ham.count('"id":"%s"' % kimlik) == 1, "kimlik tek değil"
++    j = ham.find('"id":', i + 5)
++    seg = ham[i:j]
++    for mm in re.finditer(r'\{"f":"([^"]+)","t":"([^"]+)","g":\[[^\]]*\]', seg):
++        if mm.group(1) <= gun < mm.group(2):
++            yeni = seg[:mm.start()] + '{"f":"%s","t":"%s","g":[]' % (mm.group(1), mm.group(2)) + seg[mm.end():]
++            io.open(y, "w", encoding="utf-8", newline="").write(ham[:i] + yeni + ham[j:])
++            return mm.group(1) + "→" + mm.group(2)
++    raise AssertionError("dönem bulunamadı")
+ 
+ 
+ def main():
+@@ -237,6 +266,31 @@ def main():
+               r["ihlal"] and any("SEKME_SESSIZ GERİLEDİ" in l for l in sek), " | ".join(sek))
+         io.open(TAVAN, "w", encoding="utf-8", newline="\n").write(ilk_tavan)
+ 
++        # ---- S7: gövde taklidi ↔ gerçek devletiYay (1006c)
++        print("\n③c S7 — gövde taklidi ↔ GERÇEK `devletiYay` (pahalı: tam havuz)")
++        rc, Dy = node(yay=True)
++        yd = Dy.get("yay_dogrulama") or {}
++        cap = yd.get("capraz") or {}
++        S_ = OO.sekme_ozet(Dy) if not Dy.get("hata") else {}
++        govde_yolu = (S_.get("SEKME_GOVDE", 0) + S_.get("SEKME_SESSIZ", 0)
++                      + sum(v for k, v in (Dy.get("sekme_alt") or {}).items() if k.startswith("govde_")))
++        hukum("S7a gerçek veri: geometri boş 0 · uyuşmazlık 0 · toplam = gövde yolu",
++              bool(yd) and not yd["ucuncu_return"] and not yd["uyusmazlik"]
++              and sum(cap.values()) == govde_yolu,
++              "%s · gövde yolu %d · %s" % (cap, govde_yolu, Dy.get("hata") or ""))
++        donem = govde_bosalt("akkoyunlu", "1470-01-01")
++        kurbana_ekle('{ t:"1470-01-01", b:"SINAV-W13 bos geometri", kapsam_genis:true },')
++        rc, Dy2 = node(yay=True, sor=[{"t": "1470-01-01", "b": "SINAV-W13 bos geometri"}])
++        geri_al()
++        yd2 = Dy2.get("yay_dogrulama") or {}
++        hukum("S7b akkoyunlu %s g:[] → geometri boş YAKALANDI" % donem,
++              any("SINAV-W13 bos geometri" in x for x in yd2.get("ucuncu_return") or []),
++              "ucuncu_return=%s %s" % ((yd2.get("ucuncu_return") or [])[:3], Dy2.get("hata") or ""))
++        x = tek(Dy2["soru"][0]) if not Dy2.get("hata") else None
++        hukum("S7b' aynı madde taklitte GOVDE (kapının bilinçli kör noktası, belgeli)",
++              bool(x) and (x["sekme"] or {}).get("dal") == "SEKME_GOVDE",
++              json.dumps(x and x["sekme"], ensure_ascii=False))
++
+         # ---- Ö5 / Ö6: ölçülemedi
+         print("\n④ Ö5 / Ö6 — ÖLÇÜLEMEDİ asla temiz değil")
+         app = io.open(os.path.join(KOK, "js", "app.js"), encoding="utf-8").read()

@@ -87,9 +87,9 @@ window.EKOKUMA_MAGAZIN = [
   "kisi": [
     "mehmed2"
   ],
-  "t": "1481-05",
+  "t": "1481-05-03",
   "olay": [
-    "1481-05"
+    "1481-05-03"
   ],
   "soru": "Fatih zehirlenerek mi öldü?",
   "baslik": "Fâtih'in ölümü: nikris mi, zehir mi?",
@@ -351,9 +351,9 @@ window.EKOKUMA_MAGAZIN = [
   "kisi": [
     "mehmed3"
   ],
-  "t": "1603-12-22",
+  "t": "1603-12-20",
   "olay": [
-    "1603-12-22"
+    "1603-12-20|vefatı"
   ],
   "soru": "Bir fal kâğıdı şehzadenin sonunu mu getirdi?",
   "baslik": "Falcının kâğıdı: Şehzade Mahmud'un sonu",

@@ -413,13 +413,13 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Halk ayaklanması Fransız garnizonunu şehirden attı ve cumhuriyet yeniden ilan edildi. Fransa'nın İtalya'daki ilk büyük ayağı böyle kaybedildi. Aynı yıl Cenova, Karadeniz'deki son büyük kalelerinden Amasra'yı Osmanlı'ya kaptıracaktı.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1461-08-15",
+{ t:"1459-06-20",
   b:"Amasra kolonisinin Osmanlı'ya düşmesi",
   tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["osmanli","koloni","toprak-kayip","konu-askeri","konu-siyasi"],
   yer_id:"Amasra",
-  d:"Fâtih'in Trabzon seferi sırasında donanma Amasra'yı teslim aldı; şehir savaşmadan verildi. Karadeniz'in güney kıyısındaki Ceneviz varlığı böylece bitti. Kefe artık ana karadan tamamen kopmuş, yalnız denizden beslenen bir adaya dönüşmüştü.",
-  kaynak:"TDV 'ceneviz'; TDV 'karadeniz'" },
+  d:"Fâtih'in Semendire seferinden sonra aynı yıl Karadeniz'e yönelen kuvvetleri Amasra'yı teslim aldı; şehir savaşmadan verildi. Karadeniz'in güney kıyısındaki Ceneviz varlığı böylece bitti. Kefe artık ana karadan tamamen kopmuş, yalnız denizden beslenen bir adaya dönüşmüştü.",
+  kaynak:"TDV 'mehmed-ii' (863/1459); TDV 'osmanlilar'; TDV 'ceneviz' ve 'karadeniz'", ic_not_t:"KUTU-H1-1015: eski t 1461-08-15 (TDV ceneviz 'Amasra ve Trabzon 1461’de' + Trabzon günü) idi; TDV mehmed-ii ve osmanlilar 1459 der — atlas haritası ve çekirdek madde 1459'a alındı, bu madde onlarla eşlendi. TDV iç çelişkisi beyanlı." },
 
 { taraflar:["cenova"], t:"1462-09-15",
   b:"Midilli'nin kaybedilmesi — Gattilusio beyliğinin sonu",
@@ -641,7 +641,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"İç savaşı bitiren uzlaşma, 'albergo' sistemini kaldırdı ve bütün soyluları tek bir Altın Kitap'a (Liber Nobilitatis) kaydetti; her yıl yeni aileler alınabilecekti. Doge iki yıllık kaldı, Büyük ve Küçük Konsey yetkileri netleşti. Bu anayasa 1797'ye kadar hiç değişmeden yürürlükte kaldı — Cenova tarihinin en uzun ömürlü kurumsal düzenidir.",
   kaynak:"Bitossi, Il governo dei magnifici; Kirk, Genoa and the Sea" },
 
-{ taraflar:["cenova"], t:"1579-01-01",
+{ odak_yer:["Piacenza"], taraflar:["cenova"], t:"1579-01-01",
   b:"Piacenza panayırlarının kurulması — Avrupa kredi piyasasının merkezi",
   tur:"ekonomi", onem:5, dunya:4, kapsam:"dis",
   etiket:["finans","ticaret","kurulus","konu-siyasi","konu-ekonomi"],

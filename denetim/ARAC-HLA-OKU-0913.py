@@ -23,7 +23,8 @@ for(const [f,r] of Y){const ana=r.ad.split(' (')[0];
   if(yerler.some(y=>ana===y||r.ad.startsWith(y+' ')))console.log(f,JSON.stringify({ad:r.ad,lat:r.lat,lon:r.lon,s:r.s,d:r.d,v:r.v,isg:r.isg,kur:r.kur}));}
 // kronoloji
 const html=fs.readFileSync(path.join(KOK,'index.html'),'utf8');
-const kf=[...html.matchAll(/src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/g)].map(m=>m[1]);
+const IK=require(path.join(KOK,'denetim','INDEX-KAYNAK-1006.js')); // W32: paket_NN.js acilir + SESSIZ SIFIR
+const kf=IK.kaynaklar(html,/src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/);
 console.log('=== KRONOLOJI ===');
 for(const f of kf){global.window={};try{eval(fs.readFileSync(path.join(KOK,f),'utf8'));}catch(e){continue;}
   for(const k of Object.keys(window)){const v=window[k];if(!Array.isArray(v))continue;

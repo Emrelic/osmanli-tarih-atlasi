@@ -111,9 +111,9 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["evfat"], t:"1300-01-02", b:"Evfât'ın kervan yolları üzerindeki tekeli ve altı tâbi sultanlık", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"Zeyla",
   etiket:["ticaret","idari","konu-idari","konu-ekonomi"],
   d:"Evfât, Habeşistan yaylasını Zeyla' limanına bağlayan kervan yollarını denetliyor, bölgenin kara ve deniz ticaretine hâkim oluyordu. Emirliğin nüfuzu altında Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî ve Dâre adlı altı müslüman sultanlık daha vardı.",
-  kaynak:"TDV `evfat`: \"Zeyla‘ limanına giden ticaret yollarını elinde tutuyor ... Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî, Dâre\"" },
+  kaynak:"TDV `evfat`: Zeyla‘ limanına giden ticaret yollarını elinde tutuyor ... Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî, Dâre" },
 
-{ taraflar:["evfat"], t:"1328-01-01", b:"Evfât sultanı Habeş kralına yenildi ve esir düştü", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Zeyla","Ankober"], taraflar:["evfat"], t:"1328-01-01", b:"Evfât sultanı Habeş kralına yenildi ve esir düştü", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"728 (1328) yılında yapılan şiddetli bir meydan savaşında Evfât sultanı mağlûp oldu ve Habeş kralının eline esir düştü. Bu yenilgi, emirliğin bağımsız bir güç olmaktan çıkıp Habeş krallığına tâbi hâle gelişinin başlangıcıdır.",
   kaynak:"TDV `evfat`: \"728 (1328) yılında yapılan şiddetli savaşta Evfât sultanı mağlûp oldu ve esir düştü\"" },
@@ -128,12 +128,12 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Zeyla' kaybedilince Evfât emirleri 1332-1338 yılları arasında Mısır'daki Memlük Sultanı Muhammed b. Kalavun'a heyetler göndererek yardım istediler. Habeş krallığına karşı İslâm dünyasından destek arayışının ilk kaydedilmiş örneğidir; Kızıldeniz'in iki yakasını birbirine bağlayan bu siyaset yüzyıllarca sürecektir.",
   kaynak:"TDV `evfat`: \"Evfât emirleri, 1332-1338 yıllarında Mısır'daki Memlük Sultanı Muhammed b. Kalavun'dan yardım istediler\"" },
 
-{ taraflar:["evfat"], t:"1350-01-01", b:"Ömerî'nin kaydettiği yedi müslüman emirlik ve aralarındaki bölünme", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"",
+{ odak_yer:["Zeyla","Harar","Ankober"], taraflar:["evfat"], t:"1350-01-01", b:"Ömerî'nin kaydettiği yedi müslüman emirlik ve aralarındaki bölünme", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["idari","din","konu-idari","konu-din"],
   d:"İbn Fazlullah el-Ömerî (ö. 1361), Etiyopya'nın doğu ve güneydoğusunda Evfât, Davâro, Bâlî, Hadbe, Şerhâ, Arâbabnî ve Dârâ adlı yedi müslüman emirlik bulunduğunu, meliklerinin Etiyopya kralı tarafından tayin edildiğini ve farklı mezheplere sahip bu emirliklerin birbiriyle çekiştiğini yazar. Bölünme, Habeş üstünlüğünün asıl sebebidir.",
   kaynak:"TDV `etiyopya`: \"melikleri Etiyopya kralı tarafından tayin edilen Evfât, Davâro, Bâlî, Hadbe, Şerhâ, Arâbabnî, Dârâ adında yedi emirlik vardı\"", kapsam_genis:true },
 
-{ taraflar:["evfat"], t:"1372-01-01", b:"Nevaya Krestos Memlük kervanlarına Habeş sınırını kapattı", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Aksum","Lalibela"], taraflar:["evfat"], t:"1372-01-01", b:"Nevaya Krestos Memlük kervanlarına Habeş sınırını kapattı", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ticaret","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"1372-1382 arasında hüküm süren Habeş kralı Nevaya Krestos, Mısır kafilelerinin Etiyopya sınırından içeri girmesini yasakladı. Kızıldeniz ticaretinin iç Afrika ayağını kesen bu karar, Memlük-Habeş ilişkilerinin uzun gerilim döneminin başlangıcıdır.",
   kaynak:"TDV `etiyopya`: \"1372-1382 yıllarında hüküm süren Nevaya Krestos Mısır kafilelerini Etiyopya sınırlarından içeri sokmamıştır\" · dunya puanı kronoloji_memluk.js 1372-01-01 kaydından devralındı", kapsam_genis:true },
@@ -161,7 +161,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1415-01-01", b:"II. Sa'deddin Zeyla' adasında öldürüldü — Evfât Emirliği sona erdi", tur:"yikilis", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["hanedan","toprak-kayip","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Zeyla' adasına sığınan son Evfât sultanı Sa'deddin orada kıstırılıp öldürüldü ve emirlik dağıldı. Veleşma hânedanının hayatta kalan üyeleri doğuya çekilerek Adal Sultanlığı'nı kuracak; İfat'ın davası bir asır sonra Ahmed el-Mücâhid'in cihadıyla yeniden dirilecektir.",
-  kaynak:"TDV `evfat`: \"Sâdeddin Zeyla‘ adasına sığındıysa da orada kıstırılıp öldürüldü (1415)\" · TDV `evfat`: \"Adal Emirliği Evfât'ın yerini aldı\"" },
+  kaynak:"TDV `evfat`: \"Sâdeddin Zeyla‘ adasına sığındıysa da orada kıstırılıp öldürüldü (1415)\" · TDV `evfat`: Adal Emirliği Evfât'ın yerini aldı" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. ADAL SULTANLIĞI ve HARAR EMİRLİĞİ — 1415-1887
@@ -171,7 +171,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1415-01-02", b:"Adal Sultanlığı Evfât'ın yerini aldı", tur:"kurulus", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","kurulus","konu-siyasi","konu-hanedan"],
   d:"Evfât'ın yıkılışının ardından Veleşma hânedanı doğuya, Adal bölgesine çekilerek yeni bir sultanlık kurdu. Merkez önce Zeyla' civarındaydı; devlet İfat'ın Habeş krallığıyla hesabını bir asır sonra kapatacaktır.",
-  kaynak:"TDV `evfat`: \"Adal Emirliği Evfât'ın yerini aldı\" · TDV `harar`: \"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)\"", yer_id:"Zeyla" },
+  kaynak:"TDV `evfat`: Adal Emirliği Evfât'ın yerini aldı · TDV `harar`: \"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)\"", yer_id:"Zeyla" },
 
 { taraflar:["adal"], t:"1480-01-01", b:"Emîr Mahfûz'un Adal genişlemesini başlatması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["askeri","toprak","konu-askeri"],
@@ -188,7 +188,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Sultan Ebû Bekir b. Muhammed b. Ezhereddin, 926 (1520) yılında sultanlığın merkezini deniz kıyısındaki Zeyla'dan iç bölgedeki Harar'a taşıdı ve Denkalî ile Somali halklarının desteğini sağladı. Başkentin sahilden yaylanın eşiğine kayması, Adal'ı Portekiz donanmasının menzilinden çıkardığı gibi cihad için gereken insan gücünü de yanına aldı.",
   kaynak:"TDV `harar`: \"Ezhereddin tarafından 926'da (1520) Harar'a taşınması ve Denkalî, Somali halklarının desteğini sağlamasından sonradır\" · TDV `etiyopya`: \"1521'de Adel Sultanı Ebû Bekir\"" },
 
-{ taraflar:["adal"], t:"1506-01-01", b:"Ahmed el-Mücâhid'in (Ahmed Gran) doğumu", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Zeyla"], taraflar:["adal"], t:"1506-01-01", b:"Ahmed el-Mücâhid'in (Ahmed Gran) doğumu", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Habeş kaynaklarında Gran (solak) lakabıyla anılan Ahmed b. İbrâhim el-Gāzî'nin Abad Emirliği'nin Hubat bölgesinde 1506'da doğduğu rivayet edilir. Doğu Afrika tarihinin en geniş İslâm fetih hareketini o yönetecektir.",
   kaynak:"TDV `ahmed-el-mucahid`: \"Abad Emirliği'nin Hubat bölgesinde 1506'da doğduğu rivayet edilmektedir\"" },
@@ -203,30 +203,30 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Ahmed el-Mücâhid, Lebna Dengel'in seferber ettiği kalabalık Habeş ordusunu Şimbra Kure'de yenilgiye uğrattı. Bu zafer yaylayı Adal kuvvetlerine açtı ve ertesi yıl başlayacak eyalet eyalet fethin kapısını araladı.", ic_not_d:"Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"bulunamadı — TDV `ahmed-el-mucahid` ve `etiyopya` maddeleri bu savaşın adını ve gününü VERMİYOR; gün `data/devletler.js` `habesistan`/`adal` künyelerinden devralındı, TDV yalnız 1527'den itibaren cihadın sürdüğünü söylüyor", yer_kon:[8.75,38.98] },
 
-{ taraflar:["adal"], t:"1530-01-01", b:"Fatagar ve Evfât bölgelerinin fethi", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Ankober","Harar"], taraflar:["adal"], t:"1530-01-01", b:"Fatagar ve Evfât bölgelerinin fethi", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Ahmed el-Mücâhid 1530'da Fatagar ve Evfât bölgelerini ele geçirdi. Bir asır önce yıkılan İfat Emirliği'nin toprakları böylece müslüman idaresine döndü; fetih artık akın değil kalıcı ilhak niteliği kazandı.",
-  kaynak:"TDV `ahmed-el-mucahid`: \"1530'da Fatagar ve Evfât bölgelerini ... ele geçirdi\"", kapsam_genis:true },
+  kaynak:"TDV `ahmed-el-mucahid`: \"1530'da Fatagar ve Evfât bölgelerini ... ele geçirdi\"", odak_kimlik:["adal"], kapsam_genis:true },
 
-{ taraflar:["adal"], t:"1531-01-01", b:"Davâro ve Şüve eyaletlerinin fethi", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Ankober","Addis"], taraflar:["adal"], t:"1531-01-01", b:"Davâro ve Şüve eyaletlerinin fethi", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","konu-askeri","konu-idari"],
   d:"Ahmed el-Mücâhid 1531'de Davâro ve Şüve (Shoa) eyaletlerini aldı. Bu iki eyalet Habeş krallığının güney kanadını oluşturuyordu; kaybı, kralın başkentini savunmasız bıraktı.",
-  kaynak:"TDV `ahmed-el-mucahid`: \"1531'de Davâro ve Şüve (Shoa) eyaletlerini\"", kapsam_genis:true },
+  kaynak:"TDV `ahmed-el-mucahid`: \"1531'de Davâro ve Şüve (Shoa) eyaletlerini\"", odak_kimlik:["adal"], kapsam_genis:true },
 
 { taraflar:["adal"], t:"1531-01-02", b:"Başkent Aksum'un ele geçirilmesi", tur:"toprak", onem:5, dunya:3, kapsam:"dis", yer_id:"Aksum",
   etiket:["askeri","toprak","din","konu-askeri","konu-din"],
   d:"Habeşistan'ın kadîm başkenti ve krallığın dinî merkezi Aksum, Adal kuvvetlerince alındı; ardından Tigre, Madra, Gojam ve Nûbe toprakları ele geçirilerek Sevarî ile Semin'de hâkimiyet kuruldu. Süleymanî hânedanının meşruiyetini dayandırdığı şehrin düşüşü, savaşın sembolik dönüm noktasıdır.",
   kaynak:"TDV `etiyopya`: \"1531'de başşehir Aksum'un ele geçirilmesinden sonra da Tigre, Madra, Gojam ve Nûbe toprakları alındı; ardından Sevarî ve Semin'de hâkimiyet kuruldu\"" },
 
-{ taraflar:["adal"], t:"1532-01-01", b:"Amhare ve Lasta'nın fethi", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Lalibela","Debre Tabor"], taraflar:["adal"], t:"1532-01-01", b:"Amhare ve Lasta'nın fethi", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Ahmed el-Mücâhid 1532'de Amhare ve Lasta bölgelerini aldı. Krallığın çekirdek Amhara toprakları da elden çıkınca Lebna Dengel dağlara sığınmak zorunda kaldı.",
-  kaynak:"TDV `ahmed-el-mucahid`: \"bir yıl sonra Amhare ve Lasta'yı\"", kapsam_genis:true },
+  kaynak:"TDV `ahmed-el-mucahid`: \"bir yıl sonra Amhare ve Lasta'yı\"", odak_kimlik:["adal"], kapsam_genis:true },
 
-{ taraflar:["adal"], t:"1535-01-01", b:"Tigre topraklarının fethi ve Lebna Dengel'in Portekiz'den yardım istemesi", tur:"toprak", onem:5, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Aksum","Arkîko"], taraflar:["adal"], t:"1535-01-01", b:"Tigre topraklarının fethi ve Lebna Dengel'in Portekiz'den yardım istemesi", tur:"toprak", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","diplomasi","konu-askeri","konu-diplomasi"],
   d:"1535'te Tigre topraklarının da alınmasıyla İslâm, Etiyopya'da siyasî bakımdan en geniş yayılımına ulaştı. Topraklarının büyük kısmını ve başkentini kaybederek içerilere çekilen Lebna Dengel, Portekiz kralından yardım istedi; savaş böylece bölgesel olmaktan çıkıp Osmanlı-Portekiz çekişmesinin bir cephesi hâline geldi.",
-  kaynak:"TDV `ahmed-el-mucahid`: \"1535'te de Tigre topraklarını ele geçirdi\" · TDV `etiyopya`: \"içerilere çekilen Lebna Dengel Portekiz kralından yardım istedi (1535)\"", kapsam_genis:true },
+  kaynak:"TDV `ahmed-el-mucahid`: \"1535'te de Tigre topraklarını ele geçirdi\" · TDV `etiyopya`: \"içerilere çekilen Lebna Dengel Portekiz kralından yardım istedi (1535)\"", odak_kimlik:["adal"], kapsam_genis:true },
 
 { taraflar:["adal"], t:"1528-01-01", b:"Portekiz donanması Zeyla' ve Berberâ'yı yağmaladı", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["askeri","ticaret","konu-askeri","konu-ekonomi"],
@@ -243,7 +243,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Portekiz desteğiyle güçlenen Habeşliler karşısında İmam Ahmed Osmanlılardan asker ve teçhizat istedi ve isteğinin kabulüyle bir ittifak kuruldu. Yemen Beylerbeyi Mustafa Paşa kumandasında gönderilen kuvvet Portekizlilere ağır bir yenilgi tattırdı; Osmanlı Devleti bölgeyle böylece ilgilenmeye başladı.",
   kaynak:"TDV `berbera`: \"1542'de Yemen Beylerbeyi Mustafa Paşa kumandasında bir ordunun İmam Ahmed'in yardımına gönderilmesiyle Portekizliler ağır bir yenilgiye uğratıldılar ve böylece Osmanlı Devleti bu bölge ile ilgilenmeye başlamış oldu\"" },
 
-{ taraflar:["adal"], t:"1542-08-28", b:"Ahmed el-Mücâhid, Habeş-Portekiz ordusunu bozguna uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
+{ odak_yer:["Zeyla"], taraflar:["adal"], t:"1542-08-28", b:"Ahmed el-Mücâhid, Habeş-Portekiz ordusunu bozguna uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Osmanlıdan aldığı top ve tüfekçi desteğiyle Ahmed el-Mücâhid, 28 Ağustos 1542'de Habeş krallık ordusunu ve yanındaki Portekiz kuvvetlerini büyük bir bozguna uğrattı. Cristóvão da Gama'nın kuvveti dağıtıldı; bu, cihadın son büyük zaferidir.",
   kaynak:"TDV `ahmed-el-mucahid`: \"28 Ağustos 1542'de Habeş krallık ordusu ile Portekiz kuvvetlerini büyük bir bozguna uğrattı\"" },
@@ -266,7 +266,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1551-01-01", b:"Emîr Nûr'un Harar surlarını yaptırması", tur:"mimari", onem:4, dunya:1, kapsam:"ic", yer_id:"Harar",
   etiket:["mimari","sehircilik","imar","konu-imar"],
   d:"Sâhibü'l-fethi's-sânî unvanını taşıyan Emîr Nûr b. Mücâhid, Habeş baskınlarına karşı şehri koruyacak Harar surlarını (Cegol) yeniden inşa ettirdi. Bugün de ayakta olan bu sur, Doğu Afrika'daki en tanınmış İslâm şehir tahkimatıdır.",
-  kaynak:"TDV `harar`: \"Nûr b. el-Mücâhid (Sâhibü'l-fethi's-sânî) zamanında şehrin surları yeniden yapıldı\" — TDV surların yapım YILINI vermiyor, tarih Emîr Nûr'un 1550 baskınından sonraki ilk yıla konuldu, GÜN UYDURULMADI" },
+  kaynak:"TDV `harar`: Nûr b. el-Mücâhid (Sâhibü'l-fethi's-sânî) zamanında şehrin surları yeniden yapıldı — TDV surların yapım YILINI vermiyor, tarih Emîr Nûr'un 1550 baskınından sonraki ilk yıla konuldu, GÜN UYDURULMADI" },
 
 { taraflar:["adal"], t:"1554-01-01", b:"Emîr Nûr'un yeniden cihad ilânı ve kaybedilen yerlerin geri alınması", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"Harar",
   etiket:["askeri","toprak","din","konu-askeri","konu-din"],
@@ -359,10 +359,10 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Nevaya Krestos'un ardından tahta çıkan kardeşi David (1382-1411) döneminde, Memlük Hükümdarı el-Melikü'z-Zâhir Berkuk'un saltanatıyla (1390-1399) Mısır-Habeş ilişkileri düzeldi. Kapalı kervan yolları yeniden işlemeye başladı.",
   kaynak:"TDV `etiyopya`: \"tahta çıkan kardeşi David ile (1382-1411) Memlük Hükümdarı el-Melikü'z-Zâhir Berkuk'un zamanında (1390-1399) Mısır-Habeş ilişkilerinin iyi olduğu anlaşılmaktadır\"", yer_id:"Aksum" },
 
-{ taraflar:["habesistan"], t:"1434-01-01", b:"Zar'a Ya'kūb dönemi — krallığın en geniş sınırları", tur:"toprak", onem:5, dunya:2, kapsam:"ic", yer_id:"",
+{ odak_yer:["Debre Berhan","Aksum"], taraflar:["habesistan"], t:"1434-01-01", b:"Zar'a Ya'kūb dönemi — krallığın en geniş sınırları", tur:"toprak", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["toprak","hanedan","din","konu-askeri","konu-hanedan","konu-din"],
   d:"Etiyopya Krallığı en geniş topraklara Zar'a Ya'kūb (1434-1468) zamanında sahip oldu. Kilise düzenini merkezîleştiren, dinî edebiyatı besleyen ve komşu müslüman emirlikleri vergiye bağlayan bu saltanat, hıristiyan krallığın klasik çağıdır.",
-  kaynak:"TDV `etiyopya`: \"Etiyopya Krallığı en geniş topraklara Zar'a Ya'kūb (1434-1468) zamanında sahip olmuştur\"", kapsam_genis:true },
+  kaynak:"TDV `etiyopya`: \"Etiyopya Krallığı en geniş topraklara Zar'a Ya'kūb (1434-1468) zamanında sahip olmuştur\"", odak_kimlik:["habesistan"], kapsam_genis:true },
 
 { taraflar:["habesistan"], t:"1438-01-01", b:"Zar'a Ya'kūb'dan Memlük Sultanı Barsbay'a dostane mektup", tur:"diplomasi", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","konu-diplomasi"],
@@ -419,10 +419,10 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Özdemir Paşa 2 Cemâziyelâhir 964 (2 Nisan 1557) tarihinde Masavva'ı Osmanlı topraklarına kattı; ardından önemli bir liman olan Arkiko da ele geçirildi. Yaklaşık dört asır sürecek bu hâkimiyet, Habeş meliklerinin Avrupalılardan silâh ve insan yardımı almasını, Katolik ve Cizvit papazlarının ülkeye girmesini engelledi.", ic_not_d:"(⚠️ TDV `harar` maddesi bu tarihi 12 Nisan 1557 verir; hicrî karşılığını veren `masavva` maddesi esas alındı.)",
   kaynak:"TDV `masavva`: \"2 Cemâziyelâhir 964'te (2 Nisan 1557) Özdemir Paşa tarafından Osmanlı topraklarına katıldı\" · TDV `habes-eyaleti`: \"2 Nisan 1557'de Masavva‘ şehri alındıktan sonra yine önemli bir liman olan Arkiko (Harkiko) ele geçirildi\"" },
 
-{ taraflar:["habesistan"], t:"1558-01-01", b:"Osmanlı ordusunun Tigre bölgesine hâkim olması", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Arkîko","Asmara","Aksum"], taraflar:["habesistan"], t:"1558-01-01", b:"Osmanlı ordusunun Tigre bölgesine hâkim olması", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Osmanlı ordusu 1558'de Tigre bölgesine hâkim oldu. Kıyı şeridinden yaylanın kuzey eşiğine çıkan bu ilerleme, eyaletin en derin kara nüfuzudur.",
-  kaynak:"TDV `habes-eyaleti`: \"Osmanlı ordusu 1558'de bölgeye hâkim oldu\"", kapsam_genis:true },
+  kaynak:"TDV `habes-eyaleti`: \"Osmanlı ordusu 1558'de bölgeye hâkim oldu\"", odak_kimlik:["habesistan"], kapsam_genis:true },
 
 { taraflar:["habesistan"], t:"1559-01-01", b:"Debârvâ'nın alınması ve müstahkem üsse dönüştürülmesi", tur:"toprak", onem:4, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","mimari","konu-askeri","konu-imar"],
@@ -484,7 +484,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Habeş eyaleti en geniş sınırlarına 1560-1578 arasında ulaştı; 1578'de yapılan savaşlar bu ülkede daha fazla yayılma imkânı bulunmadığını gösterdi. Aynı yıl Osmanlı-yerli kuvvetlerle çıkan çatışmalarda Habeşler galip geldiyse de Masavva Türklerin elinde kalmaya devam etti.",
   kaynak:"TDV `habes-eyaleti`: \"Habeş eyaleti en geniş sınırlarına 1560-1578 yılları arasında ulaştı ... 1578'de ulaşılan sınırın âzami sınırlar olduğunu gösterdi\" · TDV `masavva`: \"986 (1578) yılında ... Habeşler galip geldilerse de Masavva‘ Türkler'in elinde kalmaya devam etti\"" },
 
-{ taraflar:["habesistan"], t:"1579-01-01", b:"Addi Karro Muharebesi — Osmanlı yenilgisi ve toprak kaybı", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Gondar"], taraflar:["habesistan"], t:"1579-01-01", b:"Addi Karro Muharebesi — Osmanlı yenilgisi ve toprak kaybı", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Tigre toprakları üzerinde Addi Karro denilen yerde yapılan meydan savaşında Osmanlı kuvvetleri yenildi ve Beylerbeyi Ahmed Paşa öldürüldü; eyalet topraklarının bir kısmı Habeşistan Krallığı'nın eline geçti. Osmanlı'nın Habeş yaylasındaki ilerlemesi burada kalıcı olarak durdu.", ic_not_d:"Addi Karro atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `habes-eyaleti`: \"meydan savaşı, Tigre toprakları üzerinde Addi Karro denilen yerde yapıldı (1579)\" · \"1579'da Osmanlılar'ın yenilgisiyle sonuçlanan Addi Karro Savaşı'nın ardından eyalet topraklarının bir kısmı Habeşistan Krallığı'nın eline geçti\"" },
@@ -624,10 +624,10 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Tewodros'un ölümünden sonra ortaya çıkan feodal beyler kendi bölgelerinde hâkimiyet kurarken, Tigre beyi askerî başarıları sayesinde 1872'de İngilizlerin de desteğiyle IV. Yohannes adıyla imparator oldu. Merkezî hıristiyan otorite yeniden kuruldu.",
   kaynak:"TDV `etiyopya`: \"Tigre beyi askerî başarılarından dolayı 1872'de İngilizler'in de desteğiyle IV. ...\"", yer_id:"Aksum" },
 
-{ taraflar:["habesistan"], t:"1872-01-02", b:"Hidiv İsmâil Paşa'nın Mavi Nil kaynaklarını ilhak teşebbüsünün başarısızlığı", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Gondar","Bahır Dar","Hartum"], taraflar:["habesistan"], t:"1872-01-02", b:"Hidiv İsmâil Paşa'nın Mavi Nil kaynaklarını ilhak teşebbüsünün başarısızlığı", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","ekonomi","konu-askeri","konu-ekonomi"],
   d:"1872'de Hidiv İsmâil Paşa, İngilizlerin de teşvikiyle Mavi Nil'in kaynak yerlerini Mısır'a ilhak etmek istedi, fakat başarısızlığa uğradı. Nil sularının denetimi meselesi Mısır-Etiyopya ilişkilerinin değişmez ekseni olarak kaldı.",
-  kaynak:"TDV `etiyopya`: \"1872'de Hidiv İsmâil Paşa İngilizler'in de teşvikiyle Mavi Nil'in kaynak yerlerini Mısır'a ilhak etmek istedi, fakat başarısızlığa uğradı\"", kapsam_genis:true },
+  kaynak:"TDV `etiyopya`: \"1872'de Hidiv İsmâil Paşa İngilizler'in de teşvikiyle Mavi Nil'in kaynak yerlerini Mısır'a ilhak etmek istedi, fakat başarısızlığa uğradı\"", odak_kimlik:["habesistan"], kapsam_genis:true },
 
 { taraflar:["habesistan"], t:"1873-01-01", b:"Masavva'ın Doğu Sudan vilâyetine bağlanması", tur:"idari", onem:2, dunya:1, kapsam:"dis", yer_id:"Masavva",
   etiket:["idari","konu-idari"],
@@ -910,7 +910,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1698-12-13", b:"Fort Jesus'un düşüşü — Portekiz çağının sonu, Svahili kıyısının Umman nüfuzuna girmesi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Mombasa",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Umman Sultanı Seyf b. Sultân'ın saldırısıyla Mombasa'daki Fort Jesus düştü ve şehir devletlerinden Mozambik hariç tamamı ele geçirildi; Makdişu da Ummanlılara geçti. İki asırlık Portekiz hâkimiyeti sona erdi ve kıyı Umman nüfuzuna girdi — Svahili şehir devletlerinin müstakil siyasî varlığı da bu tarihte kapanır.",
-  kaynak:"TDV `kilve`: \"Sultan, 1698'de yaptığı saldırı ile şehir devletlerinden Mozambik hariç tamamını ele geçirdi\" · TDV `makdisu`: \"1698 yılında Uman Sultanı Seyf b. Sultân Mombasa'yı alınca Makdişu da Umanlılara geçti\" · gün data/devletler.js `svahili-sehirleri` künyesinden devralındı" },
+  kaynak:"TDV `kilve`: \"Sultan, 1698'de yaptığı saldırı ile şehir devletlerinden Mozambik hariç tamamını ele geçirdi\" · TDV `makdisu`: \"1698 yılında Uman Sultanı Seyf b. Sultân, Mombasa’yı Portekizliler’den alınca Makdişu ve diğer Somali sahil şehirleri de Umanlılar’ın eline geçti.\" · gün data/devletler.js `svahili-sehirleri` künyesinden devralındı" },
 
 // ══════════════════════════════════════════════════════════════════
 // V. MAKDİŞU SULTANLIĞI (1281-1500) ve SOMALİ SULTANLIKLARI (1500-1923)
@@ -921,7 +921,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1281-01-01", b:"Makdişu'nun Ebû Bekir b. Fahreddin hânedanı altında ticaret merkezi olması", tur:"ekonomi", onem:5, dunya:2, kapsam:"ic", yer_id:"Mogadişu",
   etiket:["ticaret","hanedan","din","konu-hanedan","konu-ekonomi","konu-din"],
   d:"VII/XIII. yüzyılda Ebû Bekir b. Fahreddin, Makdişu'da bir sultanlık kurdu ve şehir refah seviyesi yüksek bir ticaret merkezi hâline geldi. Mescid-i Cum'a'nın 636 (1238), Erbaa Rükûn Camii'nin 667 (1268) ve Fahreddin Camii'nin 27 Şâban 667 (1 Mayıs 1269) tarihli kitâbeleri şehrin bu dönemdeki imar faaliyetini belgeler.",
-  kaynak:"TDV `somali`: \"VII/XIII. yüzyıl: Ebû Bekir b. Fahreddin Makdişu'da sultanlık kurdu\" · TDV `makdisu`: \"Mescid-i Cum'a ve diğer iki büyük caminin 636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbeleri\"" },
+  kaynak:"TDV `somali`: VII/XIII. yüzyıl: Ebû Bekir b. Fahreddin Makdişu'da sultanlık kurdu · TDV `makdisu`: \"Mescid-i Cum'a ve diğer iki büyük caminin 636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbeleri\"" },
 
 { taraflar:["makdisu-sultanligi"], t:"1329-01-01", b:"İbn Battûta'nın Somali kıyısı tasviri — Berber halkı, deve ve balıkçılık", tur:"kultur", onem:3, dunya:1, kapsam:"ic", yer_id:"Zeyla",
   etiket:["kultur","ticaret","sosyal","konu-ekonomi","konu-kultur","konu-sosyal"],
@@ -961,7 +961,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["somali"], t:"1823-01-01", b:"Makdişu'nun ismen Seyyid Saîd b. Sultân'a bağlanması", tur:"idari", onem:3, dunya:1, kapsam:"dis", yer_id:"Mogadişu",
   etiket:["idari","konu-idari"],
   d:"1823 yılında Makdişu ismen Umman Sultanı Seyyid Saîd b. Sultân'a bağlandı, fakat yerli reisler yönetimi fiilen sürdürdüler. Bu ikili yapı — nominal Umman hâkimiyeti, fiilî yerel idare — yüzyıl boyunca Somali kıyısının kuralı oldu.",
-  kaynak:"TDV `makdisu`: \"1823 yılında Makdişu ismen Uman Sultanı Seyyid Saîd b. ... bağlanmış fakat yerli reisler yönetim devam ettirmiştir\"" },
+  kaynak:"TDV `makdisu`: \"1823 yılında Makdişu ismen Uman Sultanı Seyyid Saîd b. Sultân’a bağlandıysa da buranın idaresi yine Somali yerli reislerinin elinde kaldı.\"" },
 
 { taraflar:["somali"], t:"1828-01-01", b:"Umman Sultanlığı'nın ikiye bölünmesi ve güney Somali limanlarının Zengibar'a tâbi olması", tur:"idari", onem:4, dunya:2, kapsam:"dis", yer_id:"Merka",
   etiket:["idari","ticaret","konu-idari","konu-ekonomi"],
@@ -1198,7 +1198,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["buganda"], t:"1890-01-02", b:"Almanya-İngiltere antlaşması ile Doğu Afrika'nın paylaşılması", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Zanzibar (Zengibar)",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler. Helgoland-Zengibar Antlaşması olarak bilinen bu düzenleme, Uganda'yı İngiliz, Tanganyika'yı Alman nüfuz bölgesine bıraktı ve Zengibar'ı İngiliz himayesine soktu.",
-  kaynak:"TDV `uganda`: \"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler\" · TDV `zengibar`: \"1890: Helgoland-Zanzibar Antlaşması İngiliz himayesini kurar\"" },
+  kaynak:"TDV `uganda`: \"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler\" · TDV `zengibar`: 1890: Helgoland-Zanzibar Antlaşması İngiliz himayesini kurar" },
 
 { taraflar:["buganda"], t:"1892-01-01", b:"Buganda'da Katolik-Protestan iç savaşı ve İngiliz sömürgeciliğinin başlaması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Mengo (Buganda)",
   etiket:["din","askeri","isyan","konu-askeri","konu-isyan","konu-din"],

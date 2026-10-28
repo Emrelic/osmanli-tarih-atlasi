@@ -1,0 +1,33 @@
+[
+ {
+  "id": "abe-mutsu",
+  "ad": "Abe Klanı Mutsu Yönetimi (Oku no Rokugun)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "1051-01-01",
+  "t": "1062-01-01",
+  "baskent": "Koromo-gawa (Koromo-gawa no saku)",
+  "ozet": "Abe klanının Mutsu'nun kuzeyindeki altı ilçede (Oku no Rokugun) saray adına «tutsak-başı» olarak özerk yönettiği; Zenkunen savaşıyla Minamoto no Yoriyoshi'ye yenilip 1062'de sona eren bölgesel hanedan.",
+  "kaynak": "Kotobank (kotobank.jp/word/前九年の役-88132; okundu): ブリタニカ国際大百科事典「当時陸奥6郡を支配し勢力のあった安倍頼良 (頼時)」 · 世界大百科事典（改訂新版）「奥六郡（伊沢，江刺，和賀，稗貫，斯波，岩手の6郡）の司であったが」 · 山川 日本史小辞典「平安中期の1051～62年(永承6～康平5)奥羽でおきた安倍氏の反乱」 · 世界大百科事典（改訂新版）「9月7日ついに貞任を厨川柵に破った」",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "boya_gerekli": true,
+  "ic_not": "f=1051 (Eishō 6): kaynaklar Zenkunen savaşının başlangıcını 1051 (Yoriyoshi'nin Mutsu valiliği) ve 1056 (Tenki 4) diye ikiye ayırır; 1051 «klasik» okumadır (girdi f ile uyumlu). Abe'nin özerk yönetimi 1051'den daha eskidir (Yoriyoshi'den önce Yoritoki zamanında Oku no Rokugun'un sahibi); künye yalnız savaşın hukukî çerçevesini kapsar: devlet ömrü ölçütü (adı + belirli toprağı + 11 yıl) sağlanır. t=1062: Kuriyagawa 9/7 (Sekai Daihyakka) – 9/17 (öteki ansiklopediler) çelişkisi ay-güneş takviminde çevrilemediği için yıl hassasiyeti. BİRİNCİL KAYNAK YOK: Mutsu waki, Konjaku monogatari, Azuma Kagami (Kōhei öncesi yok) Wikisource'ta bulunamadı (ja/zh arandı: 陸奥話記 YOK); kaynak yalnız Japon akademik ansiklopedileridir (Heibonsha, Yamakawa, Britannica Japonya; Kotobank aracılığıyla okundu). Hiraizumi'nin Koromo-gawa ile aynı yer olup olmadığı bu oturumda sınanmadı; yerleşim yazılmadı.",
+  "kronoloji": [
+   {
+    "t": "1051-01-01",
+    "tur": "kurulus",
+    "b": "Abe Klanı Mutsu Yönetimi (Oku no Rokugun) çatışma dönemi başladı",
+    "kaynak": "Kotobank (kotobank.jp/word/前九年の役-88132; okundu): 世界大百科事典（改訂新版）「古くは源頼義が陸奥守になった1051年（永承6）から62年までの12年間を乱の期間と見て」"
+   },
+   {
+    "t": "1062-01-01",
+    "tur": "son",
+    "b": "Abe Klanı Mutsu Yönetimi (Oku no Rokugun) sona erdi",
+    "kaynak": "Kotobank (kotobank.jp/word/前九年の役-88132; okundu): 世界大百科事典（改訂新版）「9月7日ついに貞任を厨川柵に破った」 · ブリタニカ国際大百科事典「康平5 (62) 年ようやく貞任を倒してこの乱を鎮定した」"
+   }
+  ]
+ }
+]

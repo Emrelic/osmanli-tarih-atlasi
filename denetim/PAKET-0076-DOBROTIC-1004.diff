@@ -1,0 +1,37 @@
+diff --git a/arac/renkler.py b/arac/renkler.py
+index 09c753da..c53b7e43 100644
+--- a/arac/renkler.py
++++ b/arac/renkler.py
+@@ -3108,6 +3108,11 @@ BOYALAR = {
+     # `py arac/renk_olc.py --oner` önerisi (denetim/oneri-20260919-090639.txt).
+     "avusturya-cumhuriyet":    ("Avusturya Cumhuriyeti (I. Cumhuriyet)", "#d2d224"),
+     "mora-despotlugu":         ("Mora Despotluğu",                    "#e41ec0"),
++    # PAKET-0076-DOBROTIC-1004 (5 Eki 2026) — `py arac/renk_olc.py --oner dobruca-despotlugu`
++    #   (denetim/oneri-20261005-123325.txt). ⚠️ "komşusu ölçülemeyen kimlik": henüz hiçbir s: dönemi
++    #   kullanmadığı için öneri yalnız altlığa dayanıyor ⇒ Balçık/Varna dönemleri yazılınca --dogrula ŞART
++    #   (komşu eflak #4db34d · bulgaristan #2d6c0c).
++    "dobruca-despotlugu":      ("Dobruca Prensliği (Dobrotiç Devleti)", "#5ad224"),
+     "hersek":                  ("Hersek (Kosača Dukalığı)",           "#24c6d8"),
+     "prusya-dukaligi":         ("Prusya Dükalığı",                    "#ba24d2"),
+     # ================================================================
+diff --git a/data/devletler.js b/data/devletler.js
+index 92d10d7e..38f5d60f 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -969,6 +969,16 @@ window.DEVLETLER = [
+     { t:"1711-04-29", tur:"son", b:"Szatmár Antlaşması ile kesin olarak Habsburg'a bağlandı", kaynak:"Magyar Nemzeti Levéltár 'A szatmári béke': '1711. április 29-én Nagykárolyban írta alá' (KRONO-ORTA-AVRUPA-0929 A1)" }
+   ]
+ },
++{ id:"dobruca-despotlugu", ad:"Dobruca Prensliği (Dobrotiç Devleti)", tur:"prenslik", bolge:"balkanlar",
++  f:"1359-01-01", t:"1389-01-01", baskent:"Karvuna (Balçık) → Varna",
++  ozet:"Balik ve kardeşi Dobrotiç'in Karadeniz kıyısında kurduğu hıristiyan Türk (Gagauz) prensliği; adını Dobruca'ya veren devlet. Varna 1369'dan başşehri; oğlu Ivanko zamanında Osmanlı'ya geçti. 🔴 f = TDV'deki İLK TARİHLİ TANIKLIK (1359, Dobrotiç'in Kuzey Dobruca'yı işgali), KURULUŞ DEĞİL — Balik dönemi daha eskidir, yılı TDV'de yok. ⚠️ t: TDV balcik 'Temmuz 1389'dan sonra' ↔ TDV varna 'Varna … 795'te (1393) Osmanlı hâkimiyetine alındı' — iki madde de M. Kiel'in, TDV KENDİYLE ÇELİŞİYOR; 1389 Dobruca'nın genel geçişi, 1393 Varna kalesi olarak okunabilir (fark gizlenmedi).",
++  kaynak:"TDV dobruca (K. Karpat): 'Balik'in Dobrotiç adındaki kardeşi … 1359'da Kuzey Dobruca'yı işgal ederek' · 'Burada ilk müstakil devleti kuran Dobrotiç bölgeye kendi adını vermiş' · 'Dobrotiç'in oğlu Ivanko' · TDV varna (M. Kiel): '1369'dan itibaren Varna hıristiyan Türkler'e ait Dobruca Prensliği'nin bir parçası haline geldi ve bu küçük devletin başşehri yapıldı' · TDV balcik (M. Kiel): Karvuna 'Despotu Balik'in (Balika) ikametgâhı idi' · 'Balçık bütün Dobruca ile birlikte Temmuz 1389'dan sonra Osmanlılar'ın idaresi altına girdi' · TDV kostence (B. Murgescu): 'XIV. yüzyılda şehir önce Dobrotici Devleti'ne ait' · PAKET-0076-DOBROTIC-1004",
++  kronoloji:[
++    { t:"1359-01-01", tur:"kurulus", b:"Dobrotiç Kuzey Dobruca'yı işgal etti — TDV'deki ilk tarihli tanıklık (kuruluş yılı değil)", kaynak:"TDV dobruca" },
++    { t:"1369-01-01", tur:"toprak-kazanc", b:"Varna prensliğe katıldı ve başşehir yapıldı", kaynak:"TDV varna" },
++    { t:"1389-01-01", tur:"son", b:"Dobruca Osmanlı idaresine girdi (TDV balcik 'Temmuz 1389'dan sonra'; TDV varna Varna için 1393 — çelişki)", kaynak:"TDV balcik · varna" }
++  ]
++},
+ { id:"mora-despotlugu", ad:"Mora Despotluğu", tur:"prenslik", bolge:"balkanlar",
+   f:"1349-01-01", t:"1460-05-31", baskent:"Mystras",
+   ozet:"Bizans'ın son eyaleti (hanedan ömrü, Palaiologos kolu); 1349'da İmparator Kantakuzenos'un oğluna ayırdığı bölgeden doğdu, 1460'ta Despot Dimitrios'un teslimiyle Osmanlı'ya katıldı.",

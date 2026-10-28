@@ -109,7 +109,7 @@ window.YERLESIMLER_OK109 = [
       //   `irak-kralligi` `f:` ile AYNI GÜN. Bu dönem mükerrer anahtar
       //   yüzünden sekiz gün boyunca motora hiç girmedi (bkz. yukarıdaki
       //   not). Bölgenin 31 kardeş kaydı aynı günü taşıyor (`D084`).
-      { f: "1921-08-23", t: "1923-10-29", d: "irak-kralligi" }
+      { f: "1921-08-23", t: "1958-07-14", d: "irak-kralligi" },{f:"1958-07-14",t:"2000-12-31",d:"irak-cumhuriyeti",kaynak:"Library of Congress Iraq Country Study"}
     ],
     v: [],
     kaynak: "TDV `musul--irak` (HTTP 200, gövde okundu): \"1892-1910 yılları arasında Musul vilâyeti Musul, Kerkük ve Süleymaniye sancaklarından oluşmaktaydı. Musul sancağının kazaları Akra, Zibar, Dıhok, Zaho, Sincar ve İmâdiye'dir.\" — kaza merkezi olduğu ve 1923'te var olduğu buradan. Devir günü aynı maddeden: \"İngilizler … 8 (veya 10) Kasım 1918'de Musul'a girdi.\" KOORDİNAT: GeoNames allCountries (CC BY 4.0, 31 Ağu 2026), kayıt 99611, 37.09214/43.48769, PPLA2 — tahmin DEĞİL, rehberden. ⚠️ Müstakil TDV maddesi YOK: `imadiye` · `amadiye` · `imadiyye` · `amediye` sluglarının dördü de 302 (ÖLÜ); kapsayıcı madde kullanıldı (`CLAUDE.md §4`: dar slug tutmazsa kapsayıcı maddeyi dene). 🔴 SON DÖNEMİN GÜNÜ AYRI DAYANAK: Faysal'ın Irak kralı ilân edilmesi, 23 Ağustos 1921; künye `irak-kralligi` `f:` ile aynı gün, ve künyenin kendi `kaynak` alanı TDV `irak--ulke` gövdesinin ÇEKİLEMEDİĞİNİ beyan ediyor ⇒ dayanak akademik. Bu cümle mükerrer bir `kaynak:` alanında duruyordu ve JS onu düşürüyordu (10 Eylül 2026'da buraya taşındı).",
@@ -164,7 +164,7 @@ window.YERLESIMLER_OK109 = [
   // ═══════════════════════════════════════════════════════════════════════
 
   {
-    ad: "Şırnak",s:[{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],d:[{f:"1891-01-01",t:"1920-04-23"}],
+    ad: "Şırnak",s:[{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],d:[{f:"1891-01-01",t:"1920-04-23"}],
     tur: "sehir",
     lat: 37.5139, lon: 42.4543,
     g: 0, k: 4, m: "Bitlis",

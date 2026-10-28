@@ -200,6 +200,13 @@ KRONO = [
 ]
 EKLE = ("data/olaylar_ek5.js", KOCHISAR_ESKI_B, [MADDE_HARPUT, MADDE_MARDIN])
 
+# 12 Eki 2026 (SIRADA-C): Kars/Sarıkamış/Şiraz/Kirman/Yezd/Hemedan/Zencan/Kirmanşah/Arpaçay/Digor/Iğdır/Beri/
+# Küçükperveli/Nusaybin/Yezd-krono başka hatlarca ZATEN düzeltilmişti (canlı veride ölçüldü) — yalnız kalanlar:
+_KALAN = ('{ ad:"Halepçe",', '{ ad:"Diyarbakır",', '{ ad:"Harput (Elazığ)",', '{ ad:"Urfa",',
+          '{"ad":"Norapat",', '{"ad":"Kliçatak (Suser)",')
+KAYIT = [k for k in KAYIT if k[1] in _KALAN]
+KRONO = [k for k in KRONO if k[0] == "data/olaylar_ek5.js"]
+
 
 def blok(satirlar, isaret):
     i = [n for n, s in enumerate(satirlar) if s.lstrip().startswith(isaret)]

@@ -40,7 +40,7 @@ import sys
 import tempfile
 
 sys.stdout.reconfigure(encoding="utf-8")
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(KOK)
 DIZIN = "denetim"
 BOZUK_IMLER = ("corrupt patch", "No valid patches", "unrecognized input")

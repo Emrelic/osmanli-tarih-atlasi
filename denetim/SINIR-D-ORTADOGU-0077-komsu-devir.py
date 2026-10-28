@@ -1,3 +1,4 @@
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yoluna YAZAR, bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\2b76af78-4cc3-4c79-923c-4dd8852804bd\scratchpad\yeni_kayitlar.json
 # SINIR-D-ORTADOGU-0077 — devralınacak manda hatlarının C kayıtları (taslak üretici)
 import json, math, sys
 sys.stdout.reconfigure(encoding="utf-8")
@@ -9,7 +10,8 @@ def km(h):
         t += math.hypot((x1 - x0) * kx, (y1 - y0) * 110.57)
     return round(t, 1)
 
-NE = json.load(open(r"C:\atlas\veri-kaynak\d_bugunku_sinirlar.geojson", encoding="utf-8"))
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+NE = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "veri-kaynak", "d_bugunku_sinirlar.geojson"), encoding="utf-8"))
 def ne(cift):
     return [f for f in NE["features"] if f["properties"]["cift"] == cift][0]["geometry"]["coordinates"]
 

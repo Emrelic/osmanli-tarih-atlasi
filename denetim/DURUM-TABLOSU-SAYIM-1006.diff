@@ -1,0 +1,306 @@
+diff --git a/arac/durum_tablosu.py b/arac/durum_tablosu.py
+index 112d9fe0..83524110 100644
+--- a/arac/durum_tablosu.py
++++ b/arac/durum_tablosu.py
+@@ -402,20 +402,51 @@ def _sina():
+     return 0 if (gecti == t and all(_t)) else 1
+ 
+ 
++def kronoloji_say(dosyalar=None):
++    """`arac/kronoloji_say.js` → sözlük; ölçülemezse {"hata": [...]}."""
++    if dosyalar is None:
++        dosyalar = sorted(glob.glob("data/olaylar*.js"))
++    if not dosyalar:
++        return {"hata": ["data/olaylar*.js: dosya yok"]}
++    try:
++        c = subprocess.run(["node", os.path.join(KOK, "arac", "kronoloji_say.js")]
++                           + dosyalar, capture_output=True, timeout=300)
++    except (OSError, subprocess.SubprocessError) as e:
++        return {"hata": ["node koşturulamadı: %s" % e]}
++    if c.returncode != 0:
++        return {"hata": ["node çıkış %d: %s" % (c.returncode,
++                         c.stderr.decode("utf-8", "replace")[:200])]}
++    try:
++        r = json.loads(c.stdout.decode("utf-8"))
++    except ValueError:
++        return {"hata": ["node çıktısı ayrıştırılamadı (kesik?): %r"
++                         % c.stdout[-80:]]}
++    if "hata" not in r and r.get("dosya") != len(dosyalar):
++        return {"hata": ["dosya sayısı tutmuyor: verilen %d · sayılan %s"
++                         % (len(dosyalar), r.get("dosya"))]}
++    return r
++
++
++def kronoloji_satiri(k):
++    """§1.5 Kronoloji hücresi — ölçülemezse sayı DEĞİL, sebep yazılır."""
++    if "hata" in k:
++        return ("🔴 **ÖLÇÜLEMEDİ** — madde · duygu · `yer_id` · `vefat_id` "
++                "sayılamadı (%s)" % "; ".join(k["hata"])[:300])
++    return ("**%d** madde · %d duygu etiketli · %d `yer_id` · %d `vefat_id`"
++            % (k["madde"], k["duygu"], k["yer_id"], k["vefat_id"]))
++
++
+ def olc():
+     o = {}
+     Y = girdi.yukle(sessiz=True)
+     o["yerlesim"] = len(Y)
+     o["girdi_dosya"] = len(girdi.GIRDI_DOSYALARI)
+ 
+-    o["madde"] = sum(len(re.findall(r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', _oku(f)))
+-                     for f in sorted(glob.glob("data/olaylar*.js")))
+-    o["duygu"] = sum(len(re.findall(r"duygu:\[", _oku(f)))
+-                     for f in glob.glob("data/olaylar*.js"))
+-    o["yer_id"] = sum(len(re.findall(r"yer_id:", _oku(f)))
+-                      for f in glob.glob("data/olaylar*.js"))
+-    o["vefat_id"] = sum(len(re.findall(r"vefat_id:", _oku(f)))
+-                        for f in glob.glob("data/olaylar*.js"))
++    # 🔴 5 Ekim 2026 — dört sayı REGEX'ten NODE'a taşındı; regex İKİ YÖNLÜ
++    #    yanlıştı (yorum/blok yorum/iç içe adım FAZLA · `{` ayrı satır/JSON
++    #    anahtarı/boşluk EKSİK). Gerekçe ve evren `arac/kronoloji_say.js`te.
++    #    Ölçülemezse dördü de ÖLÇÜLEMEDİ olur — eski regex'e GERİ DÜŞÜLMEZ.
++    o["kronoloji"] = kronoloji_say()
+ 
+     d = _oku("data/devletler.js")
+     o["devlet"] = len(re.findall(r'\{\s*id:\s*"', d))
+@@ -568,8 +599,7 @@ def tablo(o):
+     s.append("|---|---|")
+     s.append("| Yerleşim (motorun okuduğu) | **%d** nokta, %d girdi dosyası |"
+              % (o["yerlesim"], o["girdi_dosya"]))
+-    s.append("| Kronoloji | **%d** madde · %d duygu etiketli · %d `yer_id` · %d `vefat_id` |"
+-             % (o["madde"], o["duygu"], o["yer_id"], o["vefat_id"]))
++    s.append("| Kronoloji | %s |" % kronoloji_satiri(o["kronoloji"]))
+     s.append("| Değişmez 1 — sahipsizlik | %s |" % o["d1"])
+     s.append("| Değişmez 1b — iç boşluk | %s |" % o["d1b"])
+     s.append("| Değişmez 2 — Osmanlı senkronu | %s |" % o["d2"])
+diff --git a/arac/kronoloji_say.js b/arac/kronoloji_say.js
+new file mode 100644
+index 00000000..6770c11f
+--- /dev/null
++++ b/arac/kronoloji_say.js
+@@ -0,0 +1,79 @@
++// kronoloji_say.js — §1.5 "Kronoloji" satırının sayıları: madde · duygu ·
++// yer_id · vefat_id. `arac/durum_tablosu.py` çağırır, stdout'a tek JSON.
++//
++// 🔴 NİÇİN JS (5 Ekim 2026, UMIT-W7-DALGA3-1006): bu dört sayı 2 Ekim'e
++// kadar REGEX'le metinden sayılıyordu ve dördü de yanlıştı — İKİ YÖNLÜ:
++//   FAZLA  yorum satırı (ek17:39 · ek5:340 · ok106:43/76/79) · blok yorumla
++//          kapatılmış ÇÜRÜDÜ maddeleri (sh110 · sk105) · iç içe
++//          `alt_kronoloji` adımları (olaylar.js, 29)
++//   EKSİK  `{` ayrı satırda (ek8) · JSON biçimli anahtar `"t":` (kamerika) ·
++//          boşluklu `duygu: [` (ek21 · ek22)
++//   Ölçüldü: madde 1774 (gerçek 1768) · duygu 1398 (1418) · yer_id 1641
++//   (1629 dolu) · vefat_id 28 (27). Net fark küçük göründüğü için yıllarca
++//   fark edilmedi: TOPLAM DOĞRU GÖRÜNÜR, BİLEŞENLER YANLIŞTIR.
++// ⇒ Burada dosyalar TARAYICI GİBİ yüklenir (`eval`, app.js'in okuduğu
++//   `window.*` dizileri) ve NESNE ALANI sayılır — biçim, yorum ve boşluk
++//   sayımı etkileyemez.
++//
++// EVREN (`denetle.py:olaylari_yukle` ile aynı — Değişmez 2 çekirdeği):
++//   dosya   argv[2..] — Python `glob("data/olaylar*.js")` verir
++//   dizi    `window.OLAYLAR\w*` (denetle.py:1114 deseni); başka dizi
++//           tanımlayan dosya SAYILIR ama raporda `diger_dizi`de görünür
++//   madde   bu dizilerin ÜST DÜZEY nesneleri
++//   🔴 `alt_kronoloji` adımları MADDE DEĞİLDİR — genel koordinatör hükmü:
++//      "ekranın ayrı madde olarak gösterdiği kadarıyla sayılır". Ölçüldü:
++//      app.js olay listesini üst düzey dizilerden kurar (`app.js:7035`
++//      `.reduce(concat)`); `alt_kronoloji` yalnız `derinAdimlari()`
++//      (`app.js:15361`) ile ana maddenin "🔎 Olayın içine gir · N adım"
++//      penceresinde ADIM olarak görünür. Ayrı sayı olarak raporlanır.
++//   duygu    `duygu` alanı DİZİ olan madde
++//   yer_id   `yer_id` alanı DOLU olan madde (`yer_id:""` bir bağ değil,
++//            "konum yok" beyanıdır — 4 madde; `yer_id_bos` ayrı raporlanır)
++//   vefat_id `vefat_id` alanı dolu olan madde
++//
++// 🔴 ÖLÇÜLEMEDİ asla eski sayıya düşmez: bir dosya yüklenemezse ya da hiç
++//    `OLAYLAR*` dizisi tanımlamazsa `hata` döner ve Python dört sayıyı da
++//    ÖLÇÜLEMEDİ yazar. (Bir dosyanın sessizce 0 sayılması, O7'nin — iki
++//    parçalı sonekin listeden sessizce düşmesinin — aynı sınıfıdır.)
++"use strict";
++const fs = require("fs");
++
++const dosyalar = process.argv.slice(2);
++const r = { dosya: dosyalar.length, madde: 0, duygu: 0, yer_id: 0, yer_id_bos: 0,
++            vefat_id: 0, alt_adim: 0, dosya_basi: {}, diger_dizi: [] };
++const hatalar = [];
++
++for (const yol of dosyalar) {
++  const ad = yol.replace(/\\/g, "/").split("/").pop();
++  const W = {};
++  try {
++    new Function("window", fs.readFileSync(yol, "utf8"))(W);
++  } catch (e) {
++    hatalar.push(ad + ": yüklenemedi — " + String(e && e.message || e).slice(0, 120));
++    continue;
++  }
++  const d = { madde: 0, duygu: 0, yer_id: 0, vefat_id: 0, alt_adim: 0 };
++  let olayDizisi = 0;
++  for (const k of Object.keys(W)) {
++    if (!Array.isArray(W[k])) continue;
++    if (!/^OLAYLAR\w*$/.test(k)) { r.diger_dizi.push(ad + ":" + k); continue; }
++    olayDizisi++;
++    for (const o of W[k]) {
++      if (!o || typeof o !== "object") continue;
++      d.madde++;
++      if (Array.isArray(o.duygu)) d.duygu++;
++      if (o.yer_id) d.yer_id++;
++      else if ("yer_id" in o) r.yer_id_bos++;
++      if (o.vefat_id) d.vefat_id++;
++      if (Array.isArray(o.alt_kronoloji)) d.alt_adim += o.alt_kronoloji.length;
++    }
++  }
++  if (!olayDizisi) {
++    hatalar.push(ad + ": OLAYLAR* dizisi tanımlamıyor");
++    continue;
++  }
++  r.dosya_basi[ad] = d;
++  for (const a in d) r[a] += d[a];
++}
++
++process.stdout.write(JSON.stringify(hatalar.length ? { hata: hatalar } : r));
+diff --git a/denetim/ARAC-KRONO-SAY-SINAV-1006.py b/denetim/ARAC-KRONO-SAY-SINAV-1006.py
+new file mode 100644
+index 00000000..b6bc3fab
+--- /dev/null
++++ b/denetim/ARAC-KRONO-SAY-SINAV-1006.py
+@@ -0,0 +1,141 @@
++# ARAC-KRONO-SAY-SINAV-1006 — `arac/kronoloji_say.js` + `durum_tablosu.kronoloji_say`
++# İKİ YÖNLÜ sınavı (UMIT-W7-DALGA3-1006).
++#
++#   YÖN 1  yeni sayaç her vakayı DOĞRU sayar
++#   YÖN 2  eski regex aynı vakalarda YANLIŞ sayar (sınav kusuru gerçekten görür)
++#   YÖN 3  ölçülemeyen durum ÖLÇÜLEMEDİ olur, asla bir sayı olmaz
++#
++# Vakalar: dalga 2 üyelik tablosu (denetim/UMIT-W7-DURUM-1006.md §4) — GERÇEK
++# dosyalar — artı her kusur sınıfının sentetik eşi.
++# Koşum: py denetim/ARAC-KRONO-SAY-SINAV-1006.py   (çıkış 0 = hepsi geçti)
++import io, os, re, sys, json, tempfile, subprocess
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++sys.path.insert(0, os.path.join(KOK, "arac"))
++_eski = sys.stdout
++import durum_tablosu as D          # modül düzeyinde stdout'u sarar, chdir(KOK)
++out = sys.stdout
++
++gecti = toplam = 0
++
++
++def sina(ad, kosul, ayrinti=""):
++    global gecti, toplam
++    toplam += 1
++    gecti += bool(kosul)
++    out.write("%s %s%s\n" % ("✓" if kosul else "✗", ad,
++                             ("  — " + ayrinti) if (ayrinti and not kosul) else ""))
++
++
++ESKI = {  # 2 Ekim'e kadarki regex'ler, BİREBİR
++    "madde": r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', "duygu": r"duygu:\[",
++    "yer_id": r"yer_id:", "vefat_id": r"vefat_id:"}
++
++
++def eski_say(yol, alan):
++    return len(re.findall(ESKI[alan], D._oku(yol)))
++
++
++# ── YÖN 1 + 2: gerçek dosyalar, dalga 2 üyeliği ──────────────────────────
++# (dosya, alan, doğru, kusur sınıfı)
++GERCEK = [
++    ("olaylar.js",            "madde",    81, "29 iç içe alt_kronoloji adımı FAZLA"),
++    ("olaylar.js",            "yer_id",   73, "29 iç içe alt_kronoloji adımı FAZLA"),
++    ("olaylar_ek17.js",       "vefat_id",  1, "yorum satırı :39 FAZLA"),
++    ("olaylar_ek5.js",        "yer_id",  389, "yorum satırı :340 FAZLA"),
++    ("olaylar_ok106.js",      "madde",     7, "yorum satırı :43 FAZLA"),
++    ("olaylar_ok106.js",      "yer_id",    7, "yorum satırları :76/:79 FAZLA"),
++    ("olaylar_sh110.js",      "madde",     0, "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
++    ("olaylar_sh110.js",      "duygu",     0, "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
++    ("olaylar_sk105.js",      "madde",     0, "blok yorumlu madde FAZLA"),
++    ("olaylar_ek8.js",        "madde",    35, "`{` ayrı satırda — EKSİK"),
++    ("olaylar_ek8.js",        "duygu",     8, "ayrı satır biçimi — EKSİK"),
++    ("olaylar_ek8.js",        "yer_id",   16, "ayrı satır biçimi — EKSİK"),
++    ("olaylar_kamerika.js",   "madde",    11, "JSON anahtarı \"t\": — EKSİK"),
++    ("olaylar_kamerika.js",   "duygu",    11, "JSON anahtarı — EKSİK"),
++    ("olaylar_kamerika.js",   "yer_id",   11, "JSON anahtarı — EKSİK"),
++    ("olaylar_ek21.js",       "duygu",     4, "`duygu: [` boşluklu — EKSİK"),
++    ("olaylar_ek22.js",       "duygu",     1, "`duygu: [` boşluklu — EKSİK"),
++    ("olaylar_p0917taraf.js", "yer_id",   None, "3 × yer_id:\"\" — bağ DEĞİL"),
++    ("olaylar_p0063.js",      "yer_id",   None, "1 × yer_id:\"\" — bağ DEĞİL"),
++]
++yollar = [os.path.join("data", g[0]) for g in GERCEK]
++R = D.kronoloji_say(sorted(set(yollar)))
++sina("gerçek vakalar ölçülebildi", "hata" not in R, str(R.get("hata")))
++if "hata" not in R:
++    for dosya, alan, dogru, sinif in GERCEK:
++        yeni = R["dosya_basi"][dosya][alan]
++        eski = eski_say(os.path.join("data", dosya), alan)
++        if dogru is None:          # boş yer_id: doğru = eski regex − boş sayısı
++            bos = len(re.findall(r'yer_id\s*:\s*""', D._oku(os.path.join("data", dosya))))
++            dogru = eski - bos
++        sina("YÖN1 %s %s = %d" % (dosya, alan, dogru), yeni == dogru,
++             "yeni %d" % yeni)
++        sina("YÖN2 eski regex %s %s ≠ %d (%s)" % (dosya, alan, dogru, sinif),
++             eski != dogru, "eski %d — sınav kusuru GÖRMÜYOR" % eski)
++
++# ── YÖN 1 + 2: sentetik eşler ─────────────────────────────────────────────
++SENTETIK = {
++    "olaylar_s1.js": ('window.OLAYLAR_S1 = [\n'
++                      '// { t:"1500-01-01", duygu:["x"], yer_id:"A", vefat_id:"v" },\n'
++                      '/* { t:"1501-01-01", yer_id:"B" } */\n'
++                      '{ t:"1502-01-01", d:"bkz yer_id: ve vefat_id:", '
++                      'k:"https://a.b//c", yer_id:"", duygu: ["😔"],\n'
++                      '  alt_kronoloji:[{ t:"1502-02-02", b:"a", yer_id:"C", kaynak:"k" }] },\n'
++                      '{\n  t: "1503-01-01",\n  yer_id: "D", vefat_id: "w"\n},\n'
++                      '{ "t": "1504-01-01", "duygu": [], "yer_id": "E" }\n];\n'),
++}
++BEKLENEN = {"madde": 3, "duygu": 2, "yer_id": 2, "vefat_id": 1, "alt_adim": 1}
++with tempfile.TemporaryDirectory() as td:
++    ps = []
++    for ad, metin in SENTETIK.items():
++        p = os.path.join(td, ad)
++        io.open(p, "w", encoding="utf-8", newline="\n").write(metin)
++        ps.append(p)
++    S = D.kronoloji_say(ps)
++    sina("sentetik ölçülebildi", "hata" not in S, str(S.get("hata")))
++    for alan, b in BEKLENEN.items():
++        sina("YÖN1 sentetik %s = %d" % (alan, b), S.get(alan) == b,
++             "yeni %s" % S.get(alan))
++        if alan in ESKI:
++            sina("YÖN2 eski regex sentetik %s ≠ %d" % (alan, b),
++                 eski_say(ps[0], alan) != b, "eski %d" % eski_say(ps[0], alan))
++
++    # ── YÖN 3: ölçülemeyen durum ─────────────────────────────────────────
++    bozuk = os.path.join(td, "olaylar_bozuk.js")
++    io.open(bozuk, "w", encoding="utf-8").write('window.OLAYLAR_B = [ { t:"1500" ,, ];')
++    yabanci = os.path.join(td, "olaylar_yabanci.js")
++    io.open(yabanci, "w", encoding="utf-8").write('window.BASKA = [ { t:"1500-01-01" } ];')
++    for ad, ds in [("sözdizimi bozuk dosya", ps + [bozuk]),
++                   ("OLAYLAR* dizisi olmayan dosya", ps + [yabanci]),
++                   ("olmayan dosya", ps + [os.path.join(td, "olaylar_yok.js")]),
++                   ("boş dosya listesi", [])]:
++        H = D.kronoloji_say(ds)
++        satir = D.kronoloji_satiri(H)
++        sina("YÖN3 %s → ÖLÇÜLEMEDİ" % ad,
++             "hata" in H and "ÖLÇÜLEMEDİ" in satir and not re.search(r"\*\*\d", satir),
++             satir[:120])
++
++# kesik / bozuk node çıktısı ve node yokluğu — subprocess taklidi
++class _C:
++    def __init__(s, rc, so, se=b""):
++        s.returncode, s.stdout, s.stderr = rc, so, se
++_gercek_run = D.subprocess.run
++for ad, sahte in [
++        ("kesik JSON çıktısı", lambda *a, **k: _C(0, b'{"dosya": 75, "madde": 17')),
++        ("node sıfırdan farklı çıkış", lambda *a, **k: _C(1, b"", b"SyntaxError")),
++        ("eksik dosya sayımı", lambda *a, **k: _C(0, json.dumps(
++            {"dosya": 1, "madde": 5, "duygu": 0, "yer_id": 0, "vefat_id": 0}).encode())),
++        ("node bulunamadı", lambda *a, **k: (_ for _ in ()).throw(FileNotFoundError("node")))]:
++    D.subprocess.run = sahte
++    try:
++        H = D.kronoloji_say(["data/olaylar.js", "data/olaylar_ek2.js"])
++    finally:
++        D.subprocess.run = _gercek_run
++    satir = D.kronoloji_satiri(H)
++    sina("YÖN3 %s → ÖLÇÜLEMEDİ" % ad,
++         "hata" in H and "ÖLÇÜLEMEDİ" in satir and not re.search(r"\*\*\d", satir),
++         satir[:120])
++
++out.write("SINAV %d/%d\n" % (gecti, toplam))
++raise SystemExit(0 if gecti == toplam else 1)

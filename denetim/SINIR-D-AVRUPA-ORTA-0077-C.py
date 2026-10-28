@@ -16,7 +16,8 @@ import io, json, sys
 from math import radians, sin, cos, asin, sqrt
 from shapely.geometry import shape, Point
 
-KOK = "C:/atlas/"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "")
 DOSYA = KOK + "data/d_sinirlar_avrupa_orta.js"
 BUGUN = json.load(io.open(KOK + "veri-kaynak/d_bugunku_sinirlar.geojson", encoding="utf-8"))
 ULKE = json.load(io.open(KOK + "veri-kaynak/ne_10m_admin_0_countries.geojson", encoding="utf-8"))

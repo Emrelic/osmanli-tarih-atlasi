@@ -1,0 +1,285 @@
+﻿  UYARI abha: dikiş beyanlı borç __BOSLUK__ → yemen (atlas) (1281-01-01): Atlas 1281-01-01 'yemen' (yemen-zeydi, Zeydî İmamlığı) der. TDV EBHÂ ise bölgeni
+  UYARI abu-dhabi.sahip[0]: künye bekliyor 'ebuzabi-seyhligi'
+  UYARI acre-akko.sahip[20]: künye bekliyor 'atsiz-beyligi'
+  UYARI adana.sahip[7]: 'antakya-prinkipsligi' 1097-10-08'de, künye 1098-06-03'de başlıyor (hayalet)
+  UYARI aden.sahip[3]: 'medine-devleti' 0632-06-08'ye kadar, künye 0632-01-01'de bitiyor (hayalet)
+  UYARI aden.sahip[9]: künye bekliyor 'maniler-aden'
+  UYARI aden.sahip[10]: 'zureyi' 1175-07-22'ye kadar, künye 1175-01-01'de bitiyor (hayalet)
+  UYARI al-karak.sahip[12]: künye bekliyor 'eyyubi-kerek'
+  UYARI aleppo.sahip[29]: künye bekliyor 'luluogullari-halep'
+  UYARI aleppo.sahip[37]: künye bekliyor 'halep-huteyti'
+  UYARI aleppo.sahip[40]: 'suriye-selcuklu' 1117-05-05'ye kadar, künye 1117-01-01'de bitiyor (hayalet)
+  UYARI alexandria.sahip[1]: 'ptolemai' -0322-06-10'de, künye -0304-01-01'de başlıyor (hayalet)
+  UYARI alexandria.sahip[1]: 'ptolemai' -0029-08-01'ye kadar, künye -0029-01-01'de bitiyor (hayalet)
+  UYARI alexandria.sahip[14]: künye bekliyor 'rabazli-iskenderiye'
+  UYARI alexandroupoli: atlas noktası 1281-01-01'da başlıyor, şehir 1869-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI algiers.sahip[3]: 'ziriler' 0960-01-01'de, künye 0972-01-01'de başlıyor (hayalet)
+  UYARI algiers: dikiş beyanlı borç __BOSLUK__ → zeyyani (atlas) (1281-01-01): Atlas 1281-01-01'de 'zeyyani' ile başlıyor; parti 03 bu sahiplik için tanık bula
+  UYARI amarah: atlas noktası 1281-01-01'da başlıyor, şehir 1700-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI amasya: dikiş beyanlı borç __BOSLUK__ → ilhanli (atlas) (1281-01-01): Atlas 1281-01-01'i 'ilhanli' ile açıyor. Kaynak: TDV AMASYA Kösedağ (1243) sonra
+  UYARI ankara.sahip[9]: 'selcuklu' 1073-01-01'de, künye 1075-01-01'de başlıyor (hayalet)
+  UYARI annaba.sahip[5]: 'vandal' 0431-01-01'de, künye 0435-01-01'de başlıyor (hayalet)
+  UYARI annaba.sahip[13]: 'hammadiler' 1153-03-29'ye kadar, künye 1152-01-01'de bitiyor (hayalet)
+  UYARI antalya.sahip[7]: künye bekliyor 'aldobrandini-antalya'
+  UYARI asyut.sahip[12]: 'ptolemai' -0322-06-10'de, künye -0304-01-01'de başlıyor (hayalet)
+  UYARI asyut.sahip[12]: 'ptolemai' -0029-08-01'ye kadar, künye -0029-01-01'de bitiyor (hayalet)
+  UYARI balikesir: atlas noktası 1281-01-01'da başlıyor, şehir 1333-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI banha.sahip[8]: 'ptolemai' -0322-06-10'de, künye -0304-01-01'de başlıyor (hayalet)
+  UYARI banha.sahip[8]: 'ptolemai' -0029-08-01'ye kadar, künye -0029-01-01'de bitiyor (hayalet)
+  UYARI banja-luka: atlas noktası 1281-01-01'da başlıyor, şehir 1494-02-06 — atlas başlangıcı düzeltilmeli
+  UYARI basra: atlas noktası 1281-01-01'da başlıyor, şehir 1495-09-20 — atlas başlangıcı düzeltilmeli
+  UYARI batna: atlas noktası 1281-01-01'da başlıyor, şehir 1844-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI beirut.sahip[0]: 'fenike-sehirleri' -1300-01-01'de, künye -1199-01-01'de başlıyor (hayalet)
+  UYARI beirut.sahip[14]: 'ihsidi' 0969-10-01'ye kadar, künye 0969-07-06'de bitiyor (hayalet)
+  UYARI bejaia.sahip[6]: 'hammadiler' 1152-04-08'ye kadar, künye 1152-01-01'de bitiyor (hayalet)
+  UYARI bejaia: dikiş beyanlı borç hafsi → zeyyani (atlas) (1281-01-01): Atlas Bicâye'yi 1281-01-01'de 'zeyyani' ile başlatıyor. TDV HAFSÎLER'e göre Bicâ
+  UYARI beni-suef: atlas noktası 1281-01-01'da başlıyor, şehir 1500-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI bilecik: atlas noktası 1281-01-01'da başlıyor, şehir 1284-03-20 — atlas başlangıcı düzeltilmeli
+  UYARI bitola.sahip[1]: künye bekliyor 'makedon-merisleri'
+  UYARI bitola: dikiş beyanlı borç bizans → sirbistan (atlas) (1281-01-01): Atlas dikişi (tarihî olay değil): atlasın 1281 'Sırbistan' kaydı TDV'deki Bizans
+  UYARI bolu: dikiş beyanlı borç selcuklu → bizans (atlas) (1281-01-01): Atlas Bolu'yu 1281-01-01'de 'bizans' ile başlatıyor. TDV BOLU'ya göre şehir tahm
+  UYARI burdur: atlas noktası 1281-01-01'da başlıyor, şehir 1299-09-28 — atlas başlangıcı düzeltilmeli
+  UYARI burgas.sahip[3]: 'osmanli' için kunye_yok gereksiz (atlas d: alanı)
+  UYARI canakkale: atlas noktası 1281-01-01'da başlıyor, şehir 1463-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI chania.sahip[0]: künye bekliyor 'kydonia-polis'
+  UYARI chania.sahip[4]: künye bekliyor 'girit-emirligi'
+  UYARI chios.sahip[0]: künye bekliyor 'sakiz-polis'
+  UYARI chios.sahip[2]: künye bekliyor 'sakiz-polis'
+  UYARI chios.sahip[4]: künye bekliyor 'sakiz-polis'
+  UYARI chios.sahip[7]: künye bekliyor 'sakiz-polis'
+  UYARI chios.sahip[9]: künye bekliyor 'sakiz-polis'
+  UYARI chios: dikiş beyanlı borç bizans → ceneviz (atlas) (1281-01-01): Atlas Sakız'ı 1281-01-01'de 'ceneviz' ile başlatıyor. TDV SAKIZ ADASI'na göre 12
+  UYARI chlef: dikiş beyanlı borç __BOSLUK__ → zeyyani (atlas) (1281-01-01): Atlas Şelif'i 1281-01-01'de 'zeyyani' ile başlatıyor. 1281'de El-Esnâm'da bir şe
+  UYARI constantine.sahip[0]: 'numidia' -0202-01-01'de, künye -0201-01-01'de başlıyor (hayalet)
+  UYARI constantine.sahip[11]: 'hammadiler' 1153-03-29'ye kadar, künye 1152-01-01'de bitiyor (hayalet)
+  UYARI constantine: dikiş beyanlı borç hafsi → zeyyani (atlas) (1281-01-01): atlas dikişi (olay değil): atlas 1281'i Zeyyânî sahipliğiyle açıyor; kaynağa gör
+  UYARI corum: atlas noktası 1281-01-01'da başlıyor, şehir 1352-03-01 — atlas başlangıcı düzeltilmeli
+  UYARI damanhur.sahip[4]: 'hulefa-yi-rasidin' 0661-05-07'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI damascus.sahip[17]: 'hulefa-yi-rasidin' 0661-05-07'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI damascus.sahip[26]: künye bekliyor 'aftegin-dimask'
+  UYARI damascus.sahip[28]: künye bekliyor 'atsiz-beyligi'
+  UYARI damascus.sahip[33]: 'eyyubi-halep' 1260-03-01'ye kadar, künye 1260-01-01'de bitiyor (hayalet)
+  UYARI damietta.sahip[3]: 'hulefa-yi-rasidin' 0661-05-07'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI damietta: dikiş beyanlı borç fransa → memluk (atlas) (1250-01-01): atlas dikişi (olay değil): atlas 1250-01-01'i Memlük sahipliğiyle açıyor; şehir 
+  UYARI debar: dikiş beyanlı borç __BOSLUK__ → sirbistan (atlas) (1281-01-01): Atlas Debre'yi 1281-01-01'de 'sirbistan' ile başlatıyor. TDV DEBRE'ye göre Sırp 
+  UYARI deir-ez-zor: atlas noktası 1281-01-01'da başlıyor, şehir 1836-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI denizli.sahip[1]: 'inancogullari' 1259-01-01'de, künye 1261-01-01'de başlıyor (hayalet)
+  UYARI denizli: dikiş beyanlı borç selcuklu → inancogullari (atlas) (1281-01-01): Atlas Denizli'yi 1281-01-01'de 'inancogullari' ile başlatıyor. TDV'ye göre Ali B
+  UYARI diyarbakir.sahip[0]: künye bekliyor 'bit-zamani'
+  UYARI diyarbakir.sahip[10]: künye bekliyor 'seyhogullari'
+  UYARI diyarbakir.sahip[13]: 'hamdani-halep' 0935-01-01'de, künye 0944-10-29'de başlıyor (hayalet)
+  UYARI diyarbakir.sahip[20]: 'inalogullari' 1095-01-11'de, künye 1098-01-01'de başlıyor (hayalet)
+  UYARI drama: atlas noktası 1281-01-01'da başlıyor, şehir 1345-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI dubai.sahip[0]: künye bekliyor 'ebuzabi-seyhligi'
+  UYARI dubai.sahip[1]: künye bekliyor 'dubai-seyhligi'
+  UYARI durres.sahip[0]: künye bekliyor 'epidamnos-polis'
+  UYARI ed-damer: atlas noktası 1281-01-01'da başlıyor, şehir 1776-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI edirne.sahip[0]: künye bekliyor 'bessi'
+  UYARI edirne.sahip[5]: künye bekliyor 'branas-edirne'
+  UYARI el-fasher: atlas noktası 1281-01-01'da başlıyor, şehir 1792-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI el-obeid: atlas noktası 1281-01-01'da başlıyor, şehir 1800-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI faiyum.sahip[4]: 'ptolemai' -0322-06-10'de, künye -0304-01-01'de başlıyor (hayalet)
+  UYARI faiyum.sahip[4]: 'ptolemai' -0029-08-01'ye kadar, künye -0029-01-01'de bitiyor (hayalet)
+  UYARI fayzabad: atlas noktası 1680-01-01'da başlıyor, şehir 1680-01-23 — atlas başlangıcı düzeltilmeli
+  UYARI fes.sahip[10]: künye bekliyor 'benu-ifren-fas'
+  UYARI girga: atlas noktası 1281-01-01'da başlıyor, şehir 1396-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI giza.sahip[1]: 'emevi' 0658-06-09'de, künye 0661-01-01'de başlıyor (hayalet)
+  UYARI gjirokaster: atlas noktası 1281-01-01'da başlıyor, şehir 1336-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI guelma.sahip[2]: 'vandal' 0429-01-01'de, künye 0435-01-01'de başlıyor (hayalet)
+  UYARI guelma: dikiş beyanlı borç __BOSLUK__ → zeyyani (atlas) (1281-01-01): Atlas noktası 1281-01-01'de 'zeyyani' ile başlıyor; Kalme/Guelma için 1281'de ne
+  UYARI ha-il: atlas noktası 1779-01-01'da başlıyor, şehir 1779-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI hakkari: atlas noktası 1281-01-01'da başlıyor, şehir 1349-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI heraklion.sahip[2]: künye bekliyor 'girit-emirligi'
+  UYARI herat.sahip[2]: 'hulefa-yi-rasidin' 0661-05-07'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI herat.sahip[11]: 'buyuk-selcuklu' 1157-02-13'ye kadar, künye 1157-01-01'de bitiyor (hayalet)
+  UYARI herat.sahip[12]: künye bekliyor 'oguzlar-horasan'
+  UYARI herat.sahip[13]: künye bekliyor 'ayaba-nisabur'
+  UYARI hodeidah: atlas noktası 1281-01-01'da başlıyor, şehir 1490-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI hofuf.sahip[0]: 'karmati' 1076-08-05'ye kadar, künye 1076-01-01'de bitiyor (hayalet)
+  UYARI hofuf: dikiş beyanlı borç __BOSLUK__ → usfuri (atlas) (1281-01-01): Atlas noktası 1281-01-01'de 'usfuri' ile başlıyor; Usfûrîlerin Ahsâ'ya hâkim olu
+  UYARI ioannina: dikiş beyanlı borç epir-despotlugu → bizans (atlas) (1281-01-01): Atlas dikişi: atlas 1281'de Bizans gösteriyor; TDV'ye göre şehir 1318'e kadar Ep
+  UYARI isparta: atlas noktası 1204-01-01'da başlıyor, şehir 1204-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI istanbul.sahip[1]: künye bekliyor 'byzantion-polis'
+  UYARI istanbul.sahip[4]: künye bekliyor 'byzantion-polis'
+  UYARI istanbul.sahip[6]: künye bekliyor 'byzantion-polis'
+  UYARI istanbul.sahip[8]: künye bekliyor 'byzantion-polis'
+  UYARI izmir.sahip[1]: künye bekliyor 'smyrna-polis'
+  UYARI izmir.sahip[5]: 'caka-beyligi' 1097-01-01'ye kadar, künye 1095-01-01'de bitiyor (hayalet)
+  UYARI jeddah.sahip[0]: 'hulefa-yi-rasidin' 0661-07-29'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI jeddah: dikiş beyanlı borç mekke-serifligi → memluk (atlas) (1281-01-01): Atlas Cidde'yi 1281-01-01'de 'memluk' ile başlatıyor; TDV MEKKE/CİDDE'ye göre Ci
+  UYARI jerusalem.sahip[0]: künye bekliyor 'urusalim-kent-devleti'
+  UYARI jerusalem.sahip[3]: 'yeni-babil' -0537-01-01'ye kadar, künye -0538-10-12'de bitiyor (hayalet)
+  UYARI jerusalem.sahip[14]: künye bekliyor 'kudus-isyan-hukumeti'
+  UYARI jerusalem.sahip[20]: 'emevi' 0660-05-17'de, künye 0661-01-01'de başlıyor (hayalet)
+  UYARI jerusalem.sahip[26]: künye bekliyor 'atsiz-filistin'
+  UYARI jerusalem.sahip[35]: 'eyyubi-halep' 1260-09-03'ye kadar, künye 1260-01-01'de bitiyor (hayalet)
+  UYARI kabul.sahip[0]: künye bekliyor 'turksahiler'
+  UYARI kabul.sahip[1]: 'hindu-sahiler' 0850-01-01'de, künye 0870-01-01'de başlıyor (hayalet)
+  UYARI kahramanmaras.sahip[10]: 'hulefa-yi-rasidin' 0661-07-29'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI kahramanmaras.sahip[20]: 'filaretos-devleti' 1090-01-01'ye kadar, künye 1085-01-12'de bitiyor (hayalet)
+  UYARI kahramanmaras: dikiş beyanlı borç kilikya-ermeni → memluk (atlas) (1281-01-01): Atlas Maraş'ı 1281-01-01'de 'memluk' ile başlatıyor; TDV KAHRAMANMARAŞ'a göre şe
+  UYARI kandahar: atlas noktası 1281-01-01'da başlıyor, şehir 1773-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI karbala.sahip[0]: 'hulefa-yi-rasidin' 0661-07-29'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI kassala: atlas noktası 1840-01-01'da başlıyor, şehir 1844-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kerman.sahip[8]: künye bekliyor 'ilyasi'
+  UYARI kerman.sahip[10]: 'kirman-selcuklu' 1187-09-01'ye kadar, künye 1187-01-01'de bitiyor (hayalet)
+  UYARI kerman.sahip[11]: künye bekliyor 'kirman-oguzlari'
+  UYARI kerman: dikiş beyanlı borç kutlughanli → ilhanli (atlas) (1281-01-01): Atlas dikişi (olay değil): atlas 1281'i İlhanlı ile açıyor; doğrudan sahip Kutlu
+  UYARI khartoum: atlas noktası 1281-01-01'da başlıyor, şehir 1700-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI khoms: atlas noktası 1281-01-01'da başlıyor, şehir 1893-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI khorramabad: atlas noktası 1281-01-01'da başlıyor, şehir 1340-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kirklareli: dikiş beyanlı borç __BOSLUK__ → bizans (atlas) (1281-01-01): Atlas 1281-01-01'i 'bizans' ile açıyor. Kaynak: 1204 sonrası Saranta Ekklesiai'n
+  UYARI kirkuk.sahip[8]: 'sasani' 0224-01-01'de, künye 0226-01-01'de başlıyor (hayalet)
+  UYARI kirkuk.sahip[9]: 'hulefa-yi-rasidin' 0661-07-29'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI kirsehir: atlas noktası 1173-01-01'da başlıyor, şehir 1173-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI komotini: atlas noktası 1281-01-01'da başlıyor, şehir 1331-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI konya.sahip[8]: 'selcuklu' 1073-01-01'de, künye 1075-01-01'de başlıyor (hayalet)
+  UYARI korce: atlas noktası 1281-01-01'da başlıyor, şehir 1402-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI kuwait-city: dikiş beyanlı borç osmanli → benihalid (atlas) (1716-01-01): Atlas dikişi (olay değil): atlas 1716'yı Benî Hâlid ile açıyor; TDV KÜVEYT bu ta
+  UYARI kyrenia.sahip[0]: 'ptolemai' -0311-01-01'de, künye -0304-01-01'de başlıyor (hayalet)
+  UYARI kyrenia.sahip[1]: künye bekliyor 'antigonos-krallik'
+  UYARI kyrenia.sahip[8]: künye bekliyor 'kibris-isaakios'
+  UYARI kyustendil: dikiş beyanlı borç __BOSLUK__ → bulgaristan (atlas) (1281-01-01): Atlas dikişi (olay değil): atlas 1281'i 'bulgaristan' (bulgar-carligi) ile açıyo
+  UYARI laghouat: atlas noktası 1281-01-01'da başlıyor, şehir 1382-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI lahij.sahip[1]: künye bekliyor 'beni-man'
+  UYARI lahij.sahip[6]: 'tahiri' 1454-01-01'de, künye 1454-07-01'de başlıyor (hayalet)
+  UYARI lar: atlas noktası 1281-01-01'da başlıyor, şehir 1340-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI larnaca.sahip[0]: künye bekliyor 'kition-kralligi'
+  UYARI larnaca.sahip[1]: 'ptolemai' -0312-01-01'de, künye -0304-01-01'de başlıyor (hayalet)
+  UYARI larnaca.sahip[2]: künye bekliyor 'antigonos-demetrios'
+  UYARI larnaca.sahip[5]: 'ptolemai' -0029-08-01'ye kadar, künye -0029-01-01'de bitiyor (hayalet)
+  UYARI larnaca.sahip[9]: künye bekliyor 'kibris-isaakios'
+  UYARI latakia.sahip[16]: 'antakya-prinkipsligi' 1287-02-16'ye kadar, künye 1268-05-18'de bitiyor (hayalet)
+  UYARI limassol.sahip[1]: künye bekliyor 'kibris-isaakios'
+  UYARI malatya: atlas noktası 1281-01-01'da başlıyor, şehir 1838-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI mardin.sahip[5]: 'hamdani-musul' 0885-06-18'de, künye 0905-01-01'de başlıyor (hayalet)
+  UYARI mardin: dikiş beyanlı borç __BOSLUK__ → buyuk-selcuklu (atlas) (1085-01-01): Atlas 1085-01-01'i 'buyuk-selcuklu' ile açıyor. Kaynak: TDV MARDİN 'Büyük Selçuk
+  UYARI mascara.sahip[3]: 'zeyyani' 1235-01-01'de, künye 1236-01-01'de başlıyor (hayalet)
+  UYARI mashhad.sahip[1]: 'tahiri-horasan' 0873-08-01'ye kadar, künye 0873-01-01'de bitiyor (hayalet)
+  UYARI mazar-i-sharif.sahip[6]: 'cagatay' 1370-04-09'ye kadar, künye 1370-01-01'de bitiyor (hayalet)
+  UYARI mazar-i-sharif.sahip[11]: 'afgan-durrani' 1826-01-01'ye kadar, künye 1823-01-01'de bitiyor (hayalet)
+  UYARI mecca.sahip[1]: künye bekliyor 'kureys-mekke'
+  UYARI mecca.sahip[2]: 'medine-devleti' 0632-06-08'ye kadar, künye 0632-01-01'de bitiyor (hayalet)
+  UYARI mecca.sahip[3]: 'hulefa-yi-rasidin' 0661-07-29'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI mecca: dikiş beyanlı borç mekke-serifligi → memluk (atlas) (1281-01-01): Atlas Mekke'yi 1281-01-01'de 'memluk' ile başlatıyor; TDV MEKKE'ye göre şehri do
+  UYARI medea.sahip[2]: 'hammadiler' 1152-04-08'ye kadar, künye 1152-01-01'de bitiyor (hayalet)
+  UYARI medea: dikiş beyanlı borç __BOSLUK__ → zeyyani (atlas) (1281-01-01): Atlas Médéa'yı 1281-01-01'de 'zeyyani' ile başlatıyor; 1152 sonrası için Médéa'y
+  UYARI medina.sahip[1]: künye bekliyor 'yesrib-evs-hazrec'
+  UYARI medina.sahip[2]: 'medine-devleti' 0632-06-08'ye kadar, künye 0632-01-01'de bitiyor (hayalet)
+  UYARI medina.sahip[3]: 'hulefa-yi-rasidin' 0661-07-29'ye kadar, künye 0661-01-01'de bitiyor (hayalet)
+  UYARI medina: dikiş beyanlı borç medine-emirligi → memluk (atlas) (1281-01-01): Atlas Medine'yi 1281-01-01'de 'memluk' ile başlatıyor; TDV MEDİNE şehri 358/969'
+  UYARI merowe.sahip[0]: künye bekliyor 'sayikiyye'
+  UYARI miliana.sahip[3]: 'ziriler' 0960-01-01'de, künye 0972-01-01'de başlıyor (hayalet)
+  UYARI miliana.sahip[10]: künye bekliyor 'magrave-benimindil'
+  UYARI miliana: dikiş beyanlı borç magrave-benimindil → zeyyani (atlas) (1281-01-01): Atlas Miliana'yı 1281-01-01'de 'zeyyani' ile başlatıyor; TDV MAĞRÂVE'ye göre 676
+  UYARI mostar: atlas noktası 1281-01-01'da başlıyor, şehir 1452-04-03 — atlas başlangıcı düzeltilmeli
+  UYARI mosul.sahip[11]: 'ukayli' 1096-11-01'ye kadar, künye 1096-01-01'de bitiyor (hayalet)
+  UYARI mosul.sahip[14]: 'zengi-musul' 1233-12-05'ye kadar, künye 1233-01-01'de bitiyor (hayalet)
+  UYARI mosul.sahip[15]: 'lului' 1262-01-01'ye kadar, künye 1259-07-26'de bitiyor (hayalet)
+  UYARI mugla.sahip[6]: 'mentese' 1261-01-01'de, künye 1280-01-01'de başlıyor (hayalet)
+  UYARI mukalla.sahip[0]: künye bekliyor 'yafii-mukalla'
+  UYARI murzuk: atlas noktası 1281-01-01'da başlıyor, şehir 1400-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI mus.sahip[0]: künye bekliyor 'taron-bagratuni'
+  UYARI muscat: dikiş beyanlı borç salgurlu → nebhani (atlas) (1281-01-01): Atlas dikişi: atlas Maskat'ı Nebhânîlerle başlatıyor; TDV UMAN'a göre bu tarihte
+  UYARI myrina.sahip[4]: künye bekliyor 'atina-polis'
+  UYARI myrina.sahip[7]: künye bekliyor 'navigaioso-limni'
+  UYARI mytilene.sahip[0]: künye bekliyor 'midilli-polis'
+  UYARI mytilene.sahip[2]: künye bekliyor 'midilli-polis'
+  UYARI mytilene.sahip[4]: künye bekliyor 'midilli-polis'
+  UYARI mytilene.sahip[7]: künye bekliyor 'midilli-polis'
+  UYARI mytilene.sahip[10]: künye bekliyor 'midilli-polis'
+  UYARI mytilene: dikiş beyanlı borç bizans → ceneviz (atlas) (1281-01-01): Atlas Midilli'yi 1281-01-01'de 'ceneviz' ile başlatıyor; TDV MİDİLLİ Gattilusio 
+  UYARI nablus.sahip[16]: 'emevi' 0660-05-17'de, künye 0661-01-01'de başlıyor (hayalet)
+  UYARI nablus.sahip[22]: künye bekliyor 'atsiz-filistin'
+  UYARI nasiriyah: atlas noktası 1869-01-01'da başlıyor, şehir 1872-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI neapoli-lasithi.sahip[0]: künye bekliyor 'dreros-polis'
+  UYARI neapoli-lasithi.sahip[4]: künye bekliyor 'girit-emirligi'
+  UYARI nicosia.sahip[0]: künye bekliyor 'ledra-kralligi'
+  UYARI nicosia.sahip[8]: künye bekliyor 'kibris-isaakios-komnenos'
+  UYARI oran.sahip[4]: 'zeyyani' 1235-01-01'de, künye 1236-01-01'de başlıyor (hayalet)
+  UYARI paphos.sahip[2]: künye bekliyor 'kibris-isaakios-komnenos'
+  UYARI pazardzhik: atlas noktası 1281-01-01'da başlıyor, şehir 1472-06-08 — atlas başlangıcı düzeltilmeli
+  UYARI pljevlja.sahip[0]: 'hersek' 1430-01-01'de, künye 1435-01-01'de başlıyor (hayalet)
+  UYARI plovdiv: dikiş beyanlı borç __BOSLUK__ → bulgaristan (atlas) (1281-01-01): Atlas Filibe'yi 1281-01-01'de 'bulgaristan' ile başlatıyor; TDV FİLİBE 1205 sonr
+  UYARI port-said: atlas noktası 1859-04-25'da başlıyor, şehir 1859-04-25 — atlas başlangıcı düzeltilmeli
+  UYARI preveza: atlas noktası 1281-01-01'da başlıyor, şehir 1292-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI pristina: atlas noktası 1281-01-01'da başlıyor, şehir 1342-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI quseir: atlas noktası 1281-01-01'da başlıyor, şehir 1571-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI rasht: atlas noktası 1281-01-01'da başlıyor, şehir 1340-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI rethymno.sahip[0]: künye bekliyor 'rhithymna-polis'
+  UYARI rethymno.sahip[4]: künye bekliyor 'girit-emirligi'
+  UYARI rodos-rhodes.sahip[0]: künye bekliyor 'rodos-polis'
+  UYARI rodos-rhodes.sahip[2]: künye bekliyor 'rodos-polis'
+  UYARI rodos-rhodes.sahip[4]: künye bekliyor 'rodos-polis'
+  UYARI rodos-rhodes.sahip[7]: künye bekliyor 'gabalas-rodos'
+  UYARI samos-vathy: atlas noktası 1281-01-01'da başlıyor, şehir 1678-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI samsun: dikiş beyanlı borç selcuklu → ilhanli (atlas) (1281-01-01): Atlas 1281-01-01'i 'ilhanli' ile açıyor. Kaynak: TDV SAMSUN 590/1194'ten Selçukl
+  UYARI sanaa.sahip[7]: 'yufiri' 0847-08-17'de, künye 0861-01-01'de başlıyor (hayalet)
+  UYARI sanaa.sahip[7]: 'yufiri' 0997-01-14'ye kadar, künye 0963-01-01'de bitiyor (hayalet)
+  UYARI sanaa.sahip[10]: 'hamdani-yemen' 1174-08-02'ye kadar, künye 1174-01-01'de bitiyor (hayalet)
+  UYARI sanaa: dikiş beyanlı borç resuli → yemen (atlas) (1281-01-01): Atlas San‘a'yı 1281-01-01'de 'yemen' (Yemen Zeydî İmamlığı harita anahtarı) ile 
+  UYARI sanandaj: atlas noktası 1636-01-01'da başlıyor, şehir 1636-05-26 — atlas başlangıcı düzeltilmeli
+  UYARI sanliurfa.sahip[1]: künye bekliyor 'osroene'
+  UYARI sanliurfa.sahip[16]: künye bekliyor 'toros-urfa'
+  UYARI sanliurfa: dikiş beyanlı borç __BOSLUK__ → memluk (atlas) (1281-01-01): Atlas Urfa'yı 1281-01-01'de 'memluk' ile açıyor. TDV ŞANLIURFA Moğol hâkimiyetin
+  UYARI sarajevo: atlas noktası 1281-01-01'da başlıyor, şehir 1462-02-01 — atlas başlangıcı düzeltilmeli
+  UYARI sari.sahip[2]: künye bekliyor 'taberistan-zeydi-2'
+  UYARI sari: dikiş beyanlı borç __BOSLUK__ → ilhanli (atlas) (1281-01-01): Atlas Sârî'yi 1281-01-01'de 'ilhanli' ile başlatıyor. TDV BÂVENDÎLER'e göre 'Alâ
+  UYARI sebinkarahisar: dikiş beyanlı borç __BOSLUK__ → ilhanli (atlas) (1281-01-01): Atlas 1281-01-01'i 'ilhanli' ile açıyor. TDV ŞEBİNKARAHİSAR Selçuklu'dan doğruda
+  UYARI serres.sahip[1]: künye bekliyor 'makedon-merisleri'
+  UYARI serres.sahip[5]: 'selanik-kralligi' 1204-01-01'de, künye 1205-01-01'de başlıyor (hayalet)
+  UYARI setif: dikiş beyanlı borç __BOSLUK__ → zeyyani (atlas) (1281-01-01): atlas dikişi (olay değil): atlas Setif noktasını 1281-01-01'de 'zeyyani' ile açı
+  UYARI sharjah: atlas noktası 1281-01-01'da başlıyor, şehir 1820-02-04 — atlas başlangıcı düzeltilmeli
+  UYARI shibin-el-kom: atlas noktası 1281-01-01'da başlıyor, şehir 1897-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI shiraz.sahip[6]: künye bekliyor 'sebankare'
+  UYARI shkoder.sahip[0]: künye bekliyor 'ilirya-kralligi'
+  UYARI shkoder: dikiş beyanlı borç sirbistan-nemanjic → venedik (atlas) (1281-01-01): Atlas İşkodra'yı 1281-01-01'de 'venedik' ile başlatıyor. TDV İŞKODRA'ya göre Ven
+  UYARI shushtar: dikiş beyanlı borç __BOSLUK__ → ilhanli (atlas) (1281-01-01): Atlas Şüşter'i 1281'de 'ilhanli' ile açıyor; kaynak zinciri 1194–1281'i boşluk b
+  UYARI sidi-bel-abbes: atlas noktası 1281-01-01'da başlıyor, şehir 1843-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI siirt: dikiş beyanlı borç __BOSLUK__ → ilhanli (atlas) (1281-01-01): Atlas 1281-01-01'i 'ilhanli' ile açıyor. TDV SİİRT 'İlhanlılar’ın ... hâkimiyeti
+  UYARI silifke: dikiş beyanlı borç __BOSLUK__ → karaman (atlas) (1281-01-01): Atlas 1281-01-01'i 'karaman' ile açıyor. TDV SİLİFKE Karaman idaresini 'muhtemel
+  UYARI singa: atlas noktası 1281-01-01'da başlıyor, şehir 1886-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI sinop.sahip[0]: künye bekliyor 'sinope-polis'
+  UYARI sinop: dikiş beyanlı borç trabzon-rum → selcuklu (atlas) (1214-01-01): Atlas Sinop'u 1214-01-01'de 'selcuklu' ile açıyor; TDV SİNOP Selçuklu fethini 26
+  UYARI sivas.sahip[2]: 'vaspurakan-kralligi' 1071-09-29'ye kadar, künye 1021-01-01'de bitiyor (hayalet)
+  UYARI skikda: dikiş beyanlı borç __BOSLUK__ → zeyyani (atlas) (1281-01-01): Atlas 1281-01-01'i 'zeyyani' ile açıyor. EB1911'e göre şehir orta çağda iskândan
+  UYARI skopje: dikiş beyanlı borç bizans → sirbistan (atlas) (1281-01-01): Atlas Üsküp'ü 1281'de 'sirbistan' (sirbistan-nemanjic) ile açıyor; TDV ÜSKÜP şeh
+  UYARI sliven: dikiş beyanlı borç __BOSLUK__ → bulgar-carligi (atlas) (1281-01-01): Atlas İslimye'yi 1281'de 'bulgaristan' (bulgar-carligi) ile açıyor; kaynak zinci
+  UYARI sofia: dikiş beyanlı borç __BOSLUK__ → bulgaristan (atlas) (1281-01-01): Atlas Sofya'yı 1281'de 'bulgaristan' (bulgar-carligi) ile açıyor; kaynak zinciri
+  UYARI stara-zagora: dikiş beyanlı borç __BOSLUK__ → bulgaristan (atlas) (1281-01-01): Atlas Eski Zağra'yı 1281'de 'bulgaristan' (bulgar-carligi) ile açıyor; kaynak zi
+  UYARI suakin.sahip[0]: künye bekliyor 'sevakin-beca'
+  UYARI suakin: dikiş beyanlı borç sevakin-beca → memluk (atlas) (1281-01-01): Atlas Sevâkin'i 1281'de 'memluk' ile açıyor; tanıklar şehri yerel Beca/Arap yöne
+  UYARI sulaymaniyah: atlas noktası 1233-01-01'da başlıyor, şehir 1784-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI tabriz.sahip[4]: 'sacogullari' 0929-09-09'ye kadar, künye 0929-01-01'de bitiyor (hayalet)
+  UYARI tabriz.sahip[6]: 'revvadi' 0956-04-15'de, künye 0979-01-01'de başlıyor (hayalet)
+  UYARI tabriz.sahip[6]: 'revvadi' 1071-08-26'ye kadar, künye 1071-01-01'de bitiyor (hayalet)
+  UYARI tabriz.sahip[10]: 'ildenizli' 1225-07-25'ye kadar, künye 1225-01-01'de bitiyor (hayalet)
+  UYARI taiz: dikiş beyanlı borç resuli → yemen (atlas) (1281-01-01): atlas dikişi (olay değil): atlas Taiz'i 1281-01-01'de 'yemen' (yemen-zeydi harit
+  UYARI thessaloniki.sahip[1]: künye bekliyor 'makedon-merisleri'
+  UYARI thessaloniki.sahip[8]: 'selanik-imparatorlugu' 1246-12-01'ye kadar, künye 1246-01-01'de bitiyor (hayalet)
+  UYARI tizi-ouzou: atlas noktası 1281-01-01'da başlıyor, şehir 1640-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI tlemcen.sahip[5]: künye bekliyor 'tilimsan-sufri-emirligi'
+  UYARI tlemcen.sahip[8]: künye bekliyor 'ifren-tahert-ifkan'
+  UYARI tlemcen.sahip[12]: 'zeyyani' 1235-01-01'de, künye 1236-01-01'de başlıyor (hayalet)
+  UYARI trabzon.sahip[0]: künye bekliyor 'trapezus-polis'
+  UYARI trabzon.sahip[4]: künye bekliyor 'pontus-polemon'
+  UYARI travnik: atlas noktası 1281-01-01'da başlıyor, şehir 1463-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI tripoli-2.sahip[0]: 'trablus-kontlugu' 1102-01-01'de, künye 1109-07-12'de başlıyor (hayalet)
+  UYARI tunis.sahip[5]: künye bekliyor 'kartaca-paraliasker-isyani'
+  UYARI tunis.sahip[12]: 'vandal' 0535-01-01'ye kadar, künye 0534-01-01'de bitiyor (hayalet)
+  UYARI tunis: dikiş beyanlı borç muvahhidler → hafsi (atlas) (1229-01-01): Atlas Tunus'u 1229-01-01'de 'hafsi' ile başlatıyor (künye f'si). TDV HAFSÎLER/MU
+  UYARI tuzla: atlas noktası 1281-01-01'da başlıyor, şehir 1460-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI umm-al-quwain.sahip[0]: künye bekliyor 'ummulkayveyn-seyhligi'
+  UYARI van: atlas noktası 1232-01-01'da başlıyor, şehir 1918-04-02 — atlas başlangıcı düzeltilmeli
+  UYARI varna.sahip[0]: künye bekliyor 'odessos-polis'
+  UYARI varna.sahip[1]: 'lizimakhos' -0312-01-01'de, künye -0305-01-01'de başlıyor (hayalet)
+  UYARI varna.sahip[2]: künye bekliyor 'odessos-polis'
+  UYARI vidin.sahip[6]: künye bekliyor 'rostislav-macva'
+  UYARI vidin.sahip[8]: künye bekliyor 'jakov-svetoslav-vidin'
+  UYARI vidin: dikiş beyanlı borç __BOSLUK__ → bulgaristan (atlas) (1281-01-01): Atlas 1281-01-01 'bulgaristan' (bulgar-carligi) der. TDV VİDİN 1272 sonrası için
+  UYARI wadi-halfa: atlas noktası 1281-01-01'da başlıyor, şehir 1813-03-06 — atlas başlangıcı düzeltilmeli
+  UYARI yafran: atlas noktası 1281-01-01'da başlıyor, şehir 1390-01-01 — atlas başlangıcı düzeltilmeli
+  UYARI zagazig.sahip[4]: 'ptolemai' -0322-06-10'de, künye -0304-01-01'de başlıyor (hayalet)
+  UYARI zagazig.sahip[4]: 'ptolemai' -0029-08-01'ye kadar, künye -0029-01-01'de bitiyor (hayalet)
+241 şehir · 1592 sahiplik dönemi · 2356 olay · ihlal 0 · uyarı 283
+yazıldı → data/sehir_tarihce_osm.js

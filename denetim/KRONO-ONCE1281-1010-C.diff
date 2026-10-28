@@ -1,0 +1,54 @@
+diff --git a/data/olaylar_once1281_c.js b/data/olaylar_once1281_c.js
+new file mode 100644
+index 00000000..c9cbe4b4
+--- /dev/null
++++ b/data/olaylar_once1281_c.js
+@@ -0,0 +1,48 @@
++// =====================================================================
++// OLAYLAR_ONCE1281_C — Değişmez 2s borcu, 1281 ÖNCESİ, C kolu
++// KRONO-ONCE1281-1010-C oturumu (UMIT) · 10 Ekim 2026 · görevlendiren UMIT İRTİBAT
++// (koordinatör onaylı) · şartname oturumlar/KAMPANYA-SUMER-2000.md
++// =====================================================================
++// NİÇİN VAR: ZAMAN paketi + Z6 inince ufuk 1000'e açıldı (e54e60df) ve
++// 1281 öncesinin `s:` kırılmaları Değişmez 2s'ye girdi. Bu tarihlerin
++// maddeleri `kronoloji_cok_once1281_*` / `kronoloji_iran_ardillari`
++// dosyalarında VAR ama o dosyalar KUYRUK — Değişmez 2 evreninde değil.
++// Bu dosya 4 açık birimi D2 evreninden kapatır (YOL 1):
++//   1258-02-10 Bağdat · 1260-09-03 Ba'lebek/Halep/Rakka ·
++//   1261-07-25 İznik→Bizans (9 yerleşim) · 1268-05-18 Antakya
++// Tam rapor: denetim/KRONO-ONCE1281-1010-C.md
++//
++// Kaynak: TDV İslâm Ansiklopedisi; her alıntı 10 Ekim 2026'da sayfadan
++// (HTTP 200) geri okundu, AYNEN. Vikipedi hiçbir maddede dayanak DEĞİL.
++// Atlas kaydı (yerleşim günü, künye günü) dayanak DEĞİL (D207).
++// ⚠️ index.html'e / paketlere BAĞLANMADI — bağlamak koordinatörde
++//    (denetle.py `olaylar*.js` globuyla okur; ekrana düşmesi için bağ şart).
++// ═════════════════════════════════════════════════════════════════════
++
++window.OLAYLAR_ONCE1281_C = [
++
++{ t:"1258-02-10", b:"Halife Müsta'sım Moğollara teslim oldu; Bağdat İlhanlı Hülâgû'nun eline geçti", tur:"fetih", onem:5, dunya:5, kapsam:"dis", yer_id:"Bağdat", yer:"Bağdat",
++  gun:"4 Safer 656 / 10 Şubat 1258",
++  etiket:["toprak-kazanc","konu-askeri"],
++  d:"22 Ocak 1258'den beri Moğol kuşatması altında olan Bağdat'ta son Abbâsî halifesi Müsta'sım-Billâh kayıtsız şartsız teslim oldu; halk kılıçtan geçirildi. Kuruluşundan beri hilâfet merkezi olan şehir Hülâgû'nun kurduğu İlhanlı hâkimiyetine girdi ve Abbâsî Devleti yıkıldı.",
++  kaynak:"TDV `bagdat` — AYNEN: \"İki yıl sonra 10 Şubat 1258’de Moğollar Bağdat’a saldırdılar; Halife Müsta‘sım kayıtsız şartsız teslim oldu ve halk kılıçtan geçirildi.\" · TDV `mustasim-billah` — AYNEN: \"… Müsta‘sım-Billâh 4 Safer 656 (10 Şubat 1258) tarihinde üç oğluyla beraber teslim oldu.\" · hassasiyet: GÜN" },
++
++{ t:"1260-09-03", b:"Aynicâlût Savaşı: Memlük ordusu Moğolları bozdu, Suriye Memlük hâkimiyetine geçti", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"Halep", yer:"Aynicâlût (Filistin)",
++  gun:"25 Ramazan 658 / 3 Eylül 1260",
++  etiket:["savas","toprak-kazanc","konu-askeri"],
++  d:"Memlük Sultanı Kutuz, Nablus ile Beysân arasındaki Aynicâlût'ta Ketboğa kumandasındaki Moğol ordusunu bozguna uğrattı. Bu zaferle Halep, Ba'lebek ve Rakka başta olmak üzere Suriye'nin büyük kısmı Memlüklerin eline geçti. Kaynaklar şehirlerin geçişini savaşın ardından verir, geçişe ayrı bir gün vermez.",
++  kaynak:"TDV `memlukler` — AYNEN: \"Burada Moğollar’a karşı, tarihin akışını değiştiren savaşlardan sayılan Aynicâlût Savaşı’nı kazandı (25 Ramazan 658 / 3 Eylül 1260) ve Suriye’nin büyük kısmı Memlükler’in eline geçti.\" · TDV `halep` — AYNEN: \"Aynicâlût Savaşı’nda mağlûp olan Moğollar Halep’i Memlükler’e bıraktılar (1260).\" · TDV `balebek` — AYNEN: \"… 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.\" · TDV `rakka` — AYNEN: \"Aynicâlût Savaşı’nın (658/1260) ardından Memlükler’in hâkimiyetine geçen Rakka …\" · hassasiyet: savaş GÜN; şehirlerin geçişi YIL (\"ardından\")" },
++
++{ t:"1261-07-25", b:"İznik birlikleri İstanbul'u Latinlerden geri aldı; Bizans İmparatorluğu yeniden İstanbul merkezli oldu", tur:"fetih", onem:5, dunya:4, kapsam:"dis", yer_id:"İstanbul", yer:"İstanbul",
++  gun:"25 Temmuz 1261",
++  etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
++  d:"Pelagonia zaferinden (1259) sonra VIII. Mikhail Palaiologos'un İznik Devleti İstanbul'u geri alma teşebbüsünü gerçekleştirdi: İznik birlikleri şehre girerek Latin hâkimiyetine son verdi. Laskaris hanedanı döneminde İznik'te sürdürülen Bizans devleti İstanbul'u yeniden başşehir yaptı; İznik'e bağlı topraklar bu tarihten itibaren yeniden İstanbul merkezli Bizans İmparatorluğu'nun parçasıdır.",
++  kaynak:"TDV `bizans` — AYNEN: \"Uzun yıllardan beri siyasî ve askerî yönden planlanan bu teşebbüs şaşırtıcı bir kolaylıkla gerçekleşti ve İznik birlikleri 25 Temmuz 1261’de İstanbul’a girerek Latin Devleti’nin hâkimiyetine son verdiler. İstanbul Bizans İmparatorluğu’nun yeniden başşehri olurken …\" · TDV `iznik` — AYNEN: \"İznik böylece, 1261 yılında İstanbul’un geri alınışına kadar devam eden Laskaris hânedanı döneminde Bizans’ın devlet ve kilise merkezi oldu …\" · hassasiyet: GÜN" },
++
++{ t:"1268-05-18", b:"Memlük Sultanı Baybars Antakya'yı aldı; Antakya Prinkepsliği sona erdi", tur:"fetih", onem:4, dunya:3, kapsam:"dis", yer_id:"Antakya", yer:"Antakya",
++  gun:"18 Mayıs 1268",
++  etiket:["toprak-kazanc","konu-askeri"],
++  d:"Kuzey Suriye'deki Hıristiyan hâkimiyetine son veren Memlük Sultanı Baybars, Nisan başında hücuma geçtiği Antakya'yı kısa bir kuşatmadan sonra genel hücumla aldı. Haçlıların prenslik hâline getirdiği ve birçok Haçlı sülâlesinin yönettiği şehir Memlüklere geçti.",
++  kaynak:"TDV `antakya` — AYNEN: \"Haçlılar Antakya’yı bir prenslik haline getirerek Rober Guiscard’ın oğlu Bohemund’a vermişlerdi. 1268’e kadar buraya birçok Haçlı sülâlesi hükmetti. Bu son tarihte, Kuzey Suriye’deki hıristiyan hâkimiyetine son veren Memlük Sultanı Baybars Antakya’yı kuşatma altına aldı. 18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi …\" · TDV `baybars-i` — AYNEN: \"Nihayet 1268 Nisan ayı başlarında Antakya’ya hücum etti, kısa bir kuşatmadan sonra şehri zaptetti.\" · hassasiyet: GÜN (antakya); baybars-i yalnız başlangıç ayını verir, çelişki değil" },
++
++];

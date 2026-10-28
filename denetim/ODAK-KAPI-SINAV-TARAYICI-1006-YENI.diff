@@ -1,0 +1,41 @@
+diff --git a/denetim/ODAK-KAPI-SINAV.py b/denetim/ODAK-KAPI-SINAV.py
+index cebb68f1..6fd8d6ae 100644
+--- a/denetim/ODAK-KAPI-SINAV.py
++++ b/denetim/ODAK-KAPI-SINAV.py
+@@ -23,6 +23,15 @@ yanılgısı; çökse yarım tavan kalırdı). Şimdi `odak_olc`un `KOK`u ve
+ `data/olaylar*` · `js/suzgec.js`) ve tavan oraya KOPYALANIR; bozma yalnız
+ kopyada olur. Kopya eksikse çözücü düşer → ⓿ taban ötmüş görünür (kapalıya
+ düşer, sessiz geçmez). Yerleşim havuzu `girdi.yukle` ile canlıdan OKUNUR.
++🆕 W57 (6 Ekim 2026): ODAK-SEKME-1006 ile çözücünün evreni TARAYICIdır —
++`index.html` + `js/app.js` (metinle kesim) + index'in yüklediği BÜTÜN
++`data/` betikleri (paket künyesi `data/paket_kunye.json` dâhil). Eski
++kopya kümesiyle çözücü `index.html`i bulamaz ve ⓿ taban ÖLÇEMEDİ verir;
++①②③ ise ÖLÇEMEDİ'yi ihlal sayıp BOŞUNA "geçer" (ölçüldü: 3/2, ③ sahte).
++⇒ `index.html` ve `js/` kopyalanır; kalan `data/` dosyaları GEÇİCİ köke
++SABİT BAĞ (hardlink, olmazsa kopya) ile konur. Yazılan iki dosya — kurban
++ve tavan — yukarıdaki listede GERÇEK kopyadır; bağla konan hiçbir dosyaya
++yazılmaz.
+ Koşmadan önce `git status --short data/` TEMİZ olmalı — kirli `data/`yı
+ kopyalayıp ölçmek, başkasının yarım işini ölçmektir; betik REDDEDER.
+ 
+@@ -90,6 +99,20 @@ def gecici_kok():
+     shutil.copy2(os.path.join(KOK, "js", "suzgec.js"),
+                  os.path.join(gk, "js", "suzgec.js"))
+     shutil.copy2(TAVAN_CANLI, os.path.join(gk, "denetim", "ODAK-TAVAN.json"))
++    # Tarayıcı evreni (W57): index.html + js/ kopya; kalan data/ SABİT BAĞ.
++    shutil.copy2(os.path.join(KOK, "index.html"), os.path.join(gk, "index.html"))
++    for f in os.listdir(os.path.join(KOK, "js")):
++        y = os.path.join(KOK, "js", f)
++        if os.path.isfile(y) and not os.path.exists(os.path.join(gk, "js", f)):
++            shutil.copy2(y, os.path.join(gk, "js", f))
++    for f in os.listdir(d):
++        y, h = os.path.join(d, f), os.path.join(gk, "data", f)
++        if not os.path.isfile(y) or os.path.exists(h):
++            continue                      # kurban/tavan ailesi zaten GERÇEK kopya
++        try:
++            os.link(y, h)
++        except OSError:
++            shutil.copy2(y, h)
+     return gk
+ 
+ 

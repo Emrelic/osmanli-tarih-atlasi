@@ -1,0 +1,48 @@
+diff --git a/data/yerlesimler_kamerika.js b/data/yerlesimler_kamerika.js
+index a6448ad9..cda853f5 100644
+--- a/data/yerlesimler_kamerika.js
++++ b/data/yerlesimler_kamerika.js
+@@ -114,7 +114,9 @@ window.YERLESIMLER_KAMERIKA = [
+     s:[{f:"1281-01-01",t:"1867-10-18",d:"inuit"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
+     kaynak:"bulunamadı", not:"İç bölge (kara) İnyupiakları — Brooks Sıradağları · dayanak: Gubser, The Nunamiut Eskimos (Yale UP)" },
+   { ad:"Vashrąįį K'ǫǫ (Arctic Village)", tur:"sehir", lat:68.128, lon:-145.535, g:0,
+-    s:[{f:"1281-01-01",t:"1899-06-21",d:"dene"},{f:"1899-06-21",t:"1923-10-29",d:"abd"}],
++    s:[{f:"1281-01-01",t:"1867-10-18",d:"dene"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
++    // ONCE1281-ALASKA4-1004 · dene→abd 1899-06-21 YERİNE 1867-10-18: 1899-06-21 `dene` künyesinin t'si (Kanada Antlaşma 8) — günü olaydan değil KÜNYEDEN devralmıştı (D207). Nokta 141°B'nin batısında = Alaska; ABD'ye 1867-10-18'de geçti (history.state.gov: "formally transferred to the United States on October 18, 1867").
++    //   BEYAN: 1867-10-18 kırılması Değişmez 2s'de KAPSAM DIŞI kovasında geçiyor — madde (kronoloji_sinir_amerika.js) Alaska'yı anıyor, bu yerleşimi ADIYLA anmıyor. `dene` künyesi 1281-01-01'de KENETLİ.
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Kugluktuk (Coppermine)", tur:"sehir", lat:67.8018, lon:-115.1003, g:0,
+     s:[{f:"1281-01-01",t:"1880-09-01",d:"inuit"},{f:"1880-09-01",t:"1923-10-29",d:"kanada"}],
+@@ -270,7 +272,9 @@ window.YERLESIMLER_KAMERIKA = [
+     //   ③ BEYAN: `dene` künyesinin f'si 1281-01-01 — künye de UFUK tabanına KENETLİ. Emsal: Vashrąįį K'ǫǫ (Arctic Village) dene → abd.
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Nabesna / Northway (Yukarı Tanana)", tur:"sehir", lat:62.961, lon:-141.94, g:0,
+-    s:[{f:"1281-01-01",t:"1899-06-21",d:"dene"},{f:"1899-06-21",t:"1923-10-29",d:"abd"}],
++    s:[{f:"1281-01-01",t:"1867-10-18",d:"dene"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
++    // ONCE1281-ALASKA4-1004 · dene→abd 1899-06-21 YERİNE 1867-10-18: 1899-06-21 `dene` künyesinin t'si (Kanada Antlaşma 8) — günü olaydan değil KÜNYEDEN devralmıştı (D207). Nokta 141°B'nin batısında = Alaska; ABD'ye 1867-10-18'de geçti (history.state.gov: "formally transferred to the United States on October 18, 1867").
++    //   BEYAN: 1867-10-18 kırılması Değişmez 2s'de KAPSAM DIŞI kovasında geçiyor — madde (kronoloji_sinir_amerika.js) Alaska'yı anıyor, bu yerleşimi ADIYLA anmıyor. `dene` künyesi 1281-01-01'de KENETLİ.
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Kimmirut (Lake Harbour)", tur:"liman", lat:62.849, lon:-69.873, g:0,
+     s:[{f:"1281-01-01",t:"1880-09-01",d:"inuit"},{f:"1880-09-01",t:"1923-10-29",d:"kanada"}],
+@@ -288,7 +292,9 @@ window.YERLESIMLER_KAMERIKA = [
+     s:[{f:"1833-01-01",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+     kaynak:"bulunamadı", not:"konum: denetle.py'nin KENDİ reçetesi kendi testini GEÇMEDİ ⇒ denetçinin maskesi içe aktarılıp geçerli koordinat ARANDI (62.7170,-109.1670 → 62.7270,-109.1570) · dayanak: Historical Atlas of Canada" },
+   { ad:"Batzulnetas (Ahtna)", tur:"sehir", lat:62.55, lon:-143.6, g:0,
+-    s:[{f:"1281-01-01",t:"1899-06-21",d:"dene"},{f:"1899-06-21",t:"1923-10-29",d:"abd"}],
++    s:[{f:"1281-01-01",t:"1867-10-18",d:"dene"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
++    // ONCE1281-ALASKA4-1004 · dene→abd 1899-06-21 YERİNE 1867-10-18: 1899-06-21 `dene` künyesinin t'si (Kanada Antlaşma 8) — günü olaydan değil KÜNYEDEN devralmıştı (D207). Nokta 141°B'nin batısında = Alaska; ABD'ye 1867-10-18'de geçti (history.state.gov: "formally transferred to the United States on October 18, 1867").
++    //   BEYAN: 1867-10-18 kırılması Değişmez 2s'de KAPSAM DIŞI kovasında geçiyor — madde (kronoloji_sinir_amerika.js) Alaska'yı anıyor, bu yerleşimi ADIYLA anmıyor. `dene` künyesi 1281-01-01'de KENETLİ.
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Łutsël K'é (Snowdrift, Büyük Köle Gölü doğusu)", tur:"sehir", lat:62.3896, lon:-110.7375, g:0,
+     s:[{f:"1281-01-01",t:"1899-06-21",d:"dene"},{f:"1899-06-21",t:"1923-10-29",d:"kanada"}],
+@@ -367,7 +373,9 @@ window.YERLESIMLER_KAMERIKA = [
+     s:[{f:"1281-01-01",t:"1880-09-01",d:"inuit"},{f:"1880-09-01",t:"1923-10-29",d:"kanada"}],
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.5 Arctic (Smithsonian)" },
+   { ad:"Iliamna / Nondalton (Dena'ina)", tur:"sehir", lat:59.98, lon:-154.85, g:0,
+-    s:[{f:"1281-01-01",t:"1899-06-21",d:"dene"},{f:"1899-06-21",t:"1923-10-29",d:"abd"}],
++    s:[{f:"1281-01-01",t:"1867-10-18",d:"dene"},{f:"1867-10-18",t:"1923-10-29",d:"abd"}],
++    // ONCE1281-ALASKA4-1004 · dene→abd 1899-06-21 YERİNE 1867-10-18: 1899-06-21 `dene` künyesinin t'si (Kanada Antlaşma 8) — günü olaydan değil KÜNYEDEN devralmıştı (D207). Nokta 141°B'nin batısında = Alaska; ABD'ye 1867-10-18'de geçti (history.state.gov: "formally transferred to the United States on October 18, 1867").
++    //   BEYAN: 1867-10-18 kırılması Değişmez 2s'de KAPSAM DIŞI kovasında geçiyor — madde (kronoloji_sinir_amerika.js) Alaska'yı anıyor, bu yerleşimi ADIYLA anmıyor. `dene` künyesi 1281-01-01'de KENETLİ.
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Fort Halkett (Liard)", tur:"kale", lat:59.88, lon:-126.3, g:0,
+     kur:"1829-01-01",

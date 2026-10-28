@@ -8,7 +8,7 @@ kapi  = d_katman.js _dYaslaAdim yon kapisinin ornek-sayili taklidi (20 km'ye kad
 kullanim: py serit.py [aday.js ...] [hat-id-parcasi ...]"""
 import sys, os, io, re, math, contextlib, glob
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-sys.path.insert(0, r"C:\atlas\arac")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
 with contextlib.redirect_stdout(io.StringIO()):
     import girdi
     Y = girdi.yukle()
@@ -59,7 +59,7 @@ def en_yakin(la, lo):
     return best
 
 kayitlar = []
-for f in glob.glob(r"C:\atlas\data\d_sinirlar*.js"):
+for f in glob.glob(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "d_sinirlar*.js")):
     js = io.open(f, encoding="utf-8").read()
     for m in re.finditer(r"window\.(D_SINIRLAR\w*)\s*=", js):
         with contextlib.redirect_stdout(io.StringIO()):

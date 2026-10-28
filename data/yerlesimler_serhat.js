@@ -79,7 +79,7 @@
 //
 // DEĞİŞMEZ 2 — SIFIR YENİ KIRILMA GÜNÜ. Kullanılan sekiz günün
 // sekizinin de çekirdekte **+0 gün** maddesi var, tek tek ölçüldü:
-//   1412-01-01 ✓ · 1428-01-01 ✓ · 1443-01-01 ✓ · 1444-08-01 ✓
+//   1412-01-01 ✓ · 1428-01-01 ✓ · 1443-01-01 ✓ · 1444-08-15 ✓
 //   1454-01-01 ✓ · 1456-01-01 ✓ · 1689-09-24 ✓ · 1690-09-09 ✓
 //   1878-07-13 ✓
 //   (1689-09-24 ve 1690-09-09 zaten `olaylar_ek3.js`te:
@@ -129,7 +129,7 @@ window.YERLESIMLER_SERHAT = [
 //    İADE EDİLDİ… 860'ta da (1456) Curac Brankoviç'in ölümünün ardından
 //    kati olarak Osmanlı hâkimiyetine girdi."*
 //    ⇒ ENKLAVIN SEBEBİ ŞEHİRKÖY DEĞİL, NİŞ. Atlas Segedin iadesini
-//      Alacahisar ve Semendire için modelliyor (ikisi de `1444-08-01`),
+//      Alacahisar ve Semendire için modelliyor (ikisi de `1444-08-15`),
 //      Niş için MODELLEMİYOR. Kayıt `data/yerlesimler.js`te (Oturum 0).
 //
 // ⚠️ Şehirköy'ü Osmanlı'ya çekmek DOĞRU VERİYİ BOZAR ve enklavı da
@@ -137,9 +137,10 @@ window.YERLESIMLER_SERHAT = [
 //    `§3.5.1`: *tek uçtan bakan düzeltme, hatayı taşır — silmez.*
 // 📌 1456 dönüşünün kronoloji maddesi yazıldı: `data/olaylar_p0043a.js`
 // ═════════════════════════════════════════════════════════════════════
-{ ad:"Şehirköy (Pirot)", kd:[{f:"1281-01-01",t:"1386-01-01",k:0,m:null},{f:"1386-01-01",t:"1923-10-29",k:3,m:"Sofya"}],not:"H-0017 · 1386-1413 penceresi veride HIC yoktu: Sehirkoy, Osmanli Sofya'si (1385-09-01) ile Osmanli Nis'i (1386-01-01) ARASINDA olmasina ragmen 1428'e kadar Sirp gorunuyordu. Emre'nin 'Nis'in yaninda kalmis Sirbistan topragi' dedigi parca budur. IKI olay BILEREK modellenmedi, ikisinde de TDV GUN vermiyor: (1) 1389 Vojinovic'in kaleyi geri almasi ve Sirplarin yakip terk etmesi, (2) 1412'de Stefan Lazarevic'in zapti. Devir gunu olarak TDV'nin 'resmen iade etti' dedigi 1413-07-05 (Musa Celebi'nin olumu) secildi — o gun kulliyatta VAR, 1412-01-01 ise YOKTU ve uygulayici onu haklı olarak reddetti.  ||  P04-BALKAN 14 Eylul 2026 (0042/H-0034 · H-0042): 1402-1413 d: Osmanli blogu Fetret'te sehzade bolgesinin ORTASINDA koyu kirmizi ada ciziyordu. DUZELTME: (a) d: 1402-07-28'de biter; 1402-1412 Emir Suleyman / Musa Celebi donemleri SARTLI KOMSU GUNU ile yazildi — gunler TDV musa-celebi'nin kendi gunleri (1410-02-13 Yanbolu · 1410-06-15 Kosmidion · 1411-02-17), Sehirkoy icin kaynakta Fetret gunu yok, ayni surec, ayni gunleri tasiyan en yakin kayit Nis 59 km. (b) sirp-despotlugu 1412-01-01'de baslar: TDV sehirkoy '1412'de Sirp Despotu Stefan Lazarevic tarafindan alindi' — YIL; maddesi data/olaylar_p0055.js. 1413-07-05 'resmen iade' ayni elde kalan kalenin hukuki teyidi, ayri donem degil. H-0042 enklavinin geri kalani Nis kaydinda (yerlesimler.js, kilitli): TDV nis 1413'te Nis'i Stefan'a verildi diyor — oneri denetim/YAMA-TRAKYA-0914.json.",kaynak:"sehirkoy", tur:"kasaba", lat:43.1531, lon:22.5861, g:0, k:3, m:"Sofya",
-  s:[{f:"1281-01-01",t:"1386-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1412-01-01",d:"musa-celebi"},{f:"1412-01-01",t:"1428-01-01",d:"sirp-despotlugu"},{f:"1443-01-01",t:"1456-01-01",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  d:[{f:"1386-01-01",t:"1402-07-28"},{f:"1428-01-01",t:"1443-01-01"},{f:"1456-01-01",t:"1689-09-24"},{f:"1690-09-09",t:"1878-07-13"}],
+{ ad:"Şehirköy (Pirot)", kd:[{f:"1281-01-01",t:"1386-01-01",k:0,m:null},{f:"1386-01-01",t:"1923-10-29",k:3,m:"Sofya"}],not:"H-0017 · 1386-1413 penceresi veride HIC yoktu: Sehirkoy, Osmanli Sofya'si (1385-09-01) ile Osmanli Nis'i (1386-01-01) ARASINDA olmasina ragmen 1428'e kadar Sirp gorunuyordu. Emre'nin 'Nis'in yaninda kalmis Sirbistan topragi' dedigi parca budur. IKI olay BILEREK modellenmedi, ikisinde de TDV GUN vermiyor: (1) 1389 Vojinovic'in kaleyi geri almasi ve Sirplarin yakip terk etmesi, (2) 1412'de Stefan Lazarevic'in zapti. Devir gunu olarak TDV'nin 'resmen iade etti' dedigi 1413-07-05 (Musa Celebi'nin olumu) secildi — o gun kulliyatta VAR, 1412-01-01 ise YOKTU ve uygulayici onu haklı olarak reddetti.  ||  P04-BALKAN 14 Eylul 2026 (0042/H-0034 · H-0042): 1402-1413 d: Osmanli blogu Fetret'te sehzade bolgesinin ORTASINDA koyu kirmizi ada ciziyordu. DUZELTME: (a) d: 1402-07-28'de biter; 1402-1412 Emir Suleyman / Musa Celebi donemleri SARTLI KOMSU GUNU ile yazildi — gunler TDV musa-celebi'nin kendi gunleri (1410-02-13 Yanbolu · 1410-06-15 Kosmidion · 1411-02-17), Sehirkoy icin kaynakta Fetret gunu yok, ayni surec, ayni gunleri tasiyan en yakin kayit Nis 59 km. (b) sirp-despotlugu 1412-01-01'de baslar: TDV sehirkoy '1412'de Sirp Despotu Stefan Lazarevic tarafindan alindi' — YIL; maddesi data/olaylar_p0055.js. 1413-07-05 'resmen iade' ayni elde kalan kalenin hukuki teyidi, ayri donem degil. H-0042 enklavinin geri kalani Nis kaydinda (yerlesimler.js, kilitli): TDV nis 1413'te Nis'i Stefan'a verildi diyor — oneri denetim/YAMA-TRAKYA-0914.json. · POST-IT #117: bitiş 09-09 yer tutucusu → 09-27 (ay hassasiyeti).",kaynak:"sehirkoy", tur:"kasaba", lat:43.1531, lon:22.5861, g:0, k:3, m:"Sofya",
+  s:[{f:"1281-01-01",t:"1386-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1412-01-01",d:"musa-celebi"},{f:"1412-01-01",t:"1428-01-01",d:"sirp-despotlugu"},{f:"1444-08-15",t:"1456-01-01",d:"sirp-despotlugu",kaynak:"TDV sehirkoy: «Segedin Antlaşması'nın (1444) ardından II. Murad tarafından tekrar Sırplar'a verildi» · gün komşudan: Niş/Kruševac/Semendire 1444-08-15 iadesi (olaylar 1444-08-15 maddesi) · Emre kararı 13 Ekim 2026 (Pirot s: başlangıcı 1443-01-01 → 1444-08-15; Şehirköy enklavı kalkar)"},{f:"1689-09-24",t:"1690-09-27",d:"avusturya",kaynak:"f: TDV sehirkoy '1689'da şehir müttefik hıristiyan kuvvetlerince zaptedildi' (Röder: Piccolomini ~2 Ekim 1689 garnizon bıraktı) — gün Niş'ten komşu · t: TDV sehirkoy 'ertesi yılın eylülünde' üç günlük çarpışma — AY (gün yok), Niş günüyle hizalı",kesinlik:{f:"ay",t:"ay"}},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-04-27",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-04-27",t:"2000-12-31",d:"yugoslavya-federal-cumhuriyeti",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
+  d:[{f:"1386-01-01",t:"1402-07-28"},{f:"1428-01-01",t:"1444-08-15"},{f:"1456-01-01",t:"1689-09-24"},{f:"1690-09-27",t:"1878-07-13",kaynak:"TDV sehirkoy (Eylül 1690, gün yok) — gün komşudan Niş"}],
+  isg:[{f:"1443-01-01",t:"1444-08-15",d:"macaristan",kesinlik:"yil",kaynak:"TDV sehirkoy: «1443'te Kral Vladislav ve Sırp Despotu Curac Brankoviç liderliğindeki Haçlı ordusu Şehirköy'ü zaptetti» — YIL (gün yok; sefer fiilen Ekim/Kasım 1443'te başladı, YYYY-01-01 damgası) · bitiş: Segedin'in ardından 1444-08-15 iade (TDV sehirkoy)"}],
   v:[] },
 
 // ───────── BATI MORAVA · Niş'in kuzeybatısı ─────────
@@ -151,10 +152,10 @@ window.YERLESIMLER_SERHAT = [
 //    karşı veriye konmuş bir sınır taşıdır (`§3.5.1` iki uç kuralı).
 { ad:"Alacahisar (Kruševac)", tur:"sehir", lat:43.5800, lon:21.3270, g:0, k:3, m:"Belgrad",
   s:[{f:"1281-01-01",t:"1428-01-01",d:"sirbistan"},
-     {f:"1444-08-01",t:"1454-01-01",d:"sirp-despotlugu"},
-     {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"}, {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  d:[{f:"1428-01-01",t:"1444-08-01"},
-     {f:"1454-01-01",t:"1878-07-13"}],
+     {f:"1444-08-15",t:"1458-01-01",d:"sirp-despotlugu",kaynak:"TDV alacahisar: 'Alacahisar yöresinde kesin olarak Osmanlı hâkimiyeti sağlandı' (1458, YIL) · 1453 sonu/1454 başı timar kayıtları (Atatürk Kitaplığı M.C. O.117/5) yalnız köy tanıklığıdır, 1454'te Osmanlı kuvvetleri Alacahisar civarında bozuldu, 1455'te Alacahisar sınır olarak Brankoviç'e bırakıldı — 1454 başlangıcı EMRE KARARIYLA (14 Ekim 2026, KARARLAR-1014 m.5, 0085/H-0018) 1458'e çekildi"},
+     {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"}, {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-04-27",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-04-27",t:"2000-12-31",d:"yugoslavya-federal-cumhuriyeti",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
+  d:[{f:"1428-01-01",t:"1444-08-15"},
+     {f:"1458-01-01",t:"1878-07-13"}],
   v:[] },
 
 // ─────────────────────────────────────────────────────────────────────
@@ -189,9 +190,9 @@ window.YERLESIMLER_SERHAT = [
 // 🟢 3 km mükerrer taraması yapıldı: en yakın nokta 19,1 km (Silivri).
 //   `CLAUDE.md §11` "yakın mükerrer yerleşim" tuzağı — temiz.
 { ad:"Çatalca", tur:"kasaba", lat:41.1436, lon:28.4611, g:0, k:4, m:"İstanbul",
-  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1453-05-29",t:"1920-04-23"}],
-  v:[],
+  v:[{f:"1372-01-01",t:"1402-07-28",k:"Bizans İmparatorluğu (haraçgüzâr)",statu:"haraçgüzâr",himaye:true,kid:"bizans",kesinlik:{f:"yil",t:"gun"},kaynak:"TDV murad-i: V. Ioannes Çirmen'den sonra 'I. Murad'ın haraçgüzârı olmayı kabul etti (1372 kışı)' — YIL · TDV bizans: 1371'den sonra vasal devlet; 1391 Bayezid ablukasıyla daha fazla vergi · KUTU-B-1014 (Emre kararı: Bizans'ın Osmanlı vasallığı açık tonla) · t: TDV bizans — Süleyman Çelebi antlaşmasıyla (Gelibolu, Şubat 1403) 'Türkler'e ödemekte olduğu yıllık haraçtan da kurtuldu' — AY · NOT #45 (Emre, 17 Ekim 2026): Ankara Savaşı (1402-07-28) ile Osmanlı merkezî devleti dağıldı, haraç alacak devlet kalmadı; tâbilik fiilen o gün biter. Resmî haraç kaldırma (Gelibolu, 1403-02) kronolojide kalır."},{f:"1424-02-22",t:"1453-05-29",k:"Bizans İmparatorluğu (haraçgüzâr)",statu:"haraçgüzâr",himaye:true,kid:"bizans",kaynak:"TDV murad-ii: 21 Rebîülevvel 827 / 22 Şubat 1424 antlaşmasıyla Bizans yıllık 300.000 akçe haraç ödemeyi kabul etti · t: İstanbul'un fethi · KUTU-B-1014"}],
   kaynak:"bulunamadı — TDV'de `catalca` · `catalca--istanbul` · `metrai` üçü de ÖLÜ (HTTP 302, 2026-08-29 ölçüldü). Gün 19,1 km'deki Silivri'den alındı (aynı bizans→1453-05-29→Osmanlı deseni İstanbul ve Boğaziçi kayıtlarında da var); TUTARLILIK seçimi, kaynak günü değil." },
 
 ];

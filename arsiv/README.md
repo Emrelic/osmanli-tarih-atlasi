@@ -14,6 +14,12 @@ var** (ölçüldü, 2026-07-30). Yani merge tamamlanmış, dosya artık yalnız 
 Oturum 11'in çıktısı. **16 noktanın 16'sı `data/yerlesimler.js` içinde zaten
 var.** Aynı durum.
 
+## `ESKI-PRENSIPLER-1012.md` — CLAUDE.md'nin eski tam metni
+
+Koordinatör / işçi / hazır kıta / tahta / bekçi döneminin bütün kuralları (12 Ekim 2026
+öncesi, 52 KB). **Yürürlükte değil**; "eskiden ne vardı" diye bakmak ya da bir kurala geri
+dönmek için durur.
+
 ## Neden silinmedi de taşındı
 
 İkisinin de başında oturumların kaynak notları, `kur:`/`bit:` gerekçeleri ve

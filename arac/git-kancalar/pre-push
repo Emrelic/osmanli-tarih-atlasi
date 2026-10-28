@@ -1,0 +1,11 @@
+#!/bin/sh
+# pre-push kancası — asıl iş arac/git-kancalar/pre_push.py'de (çatışma işareti taraması).
+# Kurulum: py arac/kanca_kur.py   ·   Atlamak (bilerek): git push --no-verify
+d=$(dirname "$0")
+for p in py python3 python; do
+  if command -v "$p" >/dev/null 2>&1; then
+    exec "$p" "$d/pre_push.py" "$@"
+  fi
+done
+echo "pre-push: Python bulunamadı — ÇATIŞMA İŞARETİ TARAMASI YAPILAMADI (ölçülemedi ≠ temiz)" >&2
+exit 0

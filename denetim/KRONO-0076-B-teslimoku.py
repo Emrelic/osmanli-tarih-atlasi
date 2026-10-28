@@ -3,8 +3,9 @@
 import io, json, sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-gonderilen = open(r"C:\atlas\denetim\KRONO-0076-B-teslim.txt", encoding="utf-8").read()
-d = json.load(open(r"C:\atlas\oturumlar\tahta.json", encoding="utf-8"))
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+gonderilen = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "KRONO-0076-B-teslim.txt"), encoding="utf-8").read()
+d = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "oturumlar", "tahta.json"), encoding="utf-8"))
 ms = d["mesajlar"] if isinstance(d, dict) and "mesajlar" in d else d
 hedef = next((m for m in ms if str(m.get("no")).lstrip("M-") == "5043"), None)
 if hedef is None:

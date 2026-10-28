@@ -1,0 +1,484 @@
+{
+ "sinif": "ortacag",
+ "adlar": [
+  {
+   "ad": "Dmanisi (Dmanisi emirliği)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: tiflis-emirligi / gurcistan"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Şemkûr (Şamkir)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: seddadiler-gence"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Beylekân",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: seddadiler-gence"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Nekûr (Nekor)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: nekor-emirligi"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Tâmesnâ",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: berqavata"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Umman (Uman/Sohar kıyısı)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: karmati"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": {
+    "lat": 25.522222,
+    "lon": 55.626111,
+    "kaynak": "Pleiades 932474"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Dakûkâ",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: annazi"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Bergavata yurdu",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: berqavata"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Tabarhinda (Bhatinda)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: gurlu"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Kerâyit yurdu (Ong Han ülkesi)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: kerayit"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Ranthambhor",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: delhi-sultanligi"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Bhilsa (Bilsan)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: delhi-sultanligi"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Sind (Moğol akını)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: delhi-sultanligi"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Cened",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: resuli"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Chanzhou (Puyang, Henan; Chanyuan)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: song/liao"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Diaoyu Kalesi (Diaoyushan, Hechuan, Chongqing)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: mogol-imparatorlugu/song"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Weizhou (Daming, Hebei)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: sonraki-tang-5hanedan"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Heyang / Mengzhou",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: sonraki-jin-5hanedan"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Zhongshan (Dingzhou), Hejian (Hebei)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: song/jin"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Guazhou / Zhenjiang (Jingkou) / Pingjiang",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: song"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Dinghai (Ningbo yakını)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: song"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Yamen (Yashan), Guangdong",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: song"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Caizhou (Runan, Henan)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: jin-hanedani"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Huining (Shangjing, Heilongjiang) / Linhuang (Liao Shangjing)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: jin-hanedani/liao-hanedani"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Xiaguan / Taihe (Dali yakını), Yangjümie (Yangzhumeicheng)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ORTACAG yer-eksik listesi; ilgili devlet: nanzhao"
+   ],
+   "modern_ad": "",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  }
+ ]
+}

@@ -46,7 +46,13 @@ import denetle
 # İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında buffer'ı KAPATIR
 # ve araç "ValueError: I/O operation on closed file" ile ölür. Ölçüm betiğinde
 # bir kez yaşandı; burada da yaşanacaktı.
-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
+# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
+# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
+# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
+# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
+if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
+        and hasattr(sys.stdout, "buffer")):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 KOK = girdi.KOK
@@ -289,7 +295,7 @@ def d_isgal_ortusu(Y, ol):
             # D-4: örtünün başı ve sonu haritada GÖRÜNÜR değişimdir — tarama
             # belirir ve kaybolur. Değişmez 2'nin örtü boyutu; aynı ±30 pencere.
             for g, ne in ((f, "işgal başlangıcı"), (t, "işgal sonu")):
-                if g <= "1281-01-01" or g >= "1923-10-29":
+                if denetle.kirilma_disi(g):   # ZAMAN-Z1-1008: ufuk denetle.py'den
                     continue
                 if not any(abs(o["g"] - _gun(g)) <= PENCERE_GUN for o in ol):
                     maddesiz.append((g, ne, y["ad"], isgalci))

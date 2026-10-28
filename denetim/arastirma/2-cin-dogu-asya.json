@@ -1,0 +1,626 @@
+{
+  "bolge": "Çin, Kore, Japonya, Moğolistan — MÖ 8000–MÖ 200 (2. dalga, çok dilli: zh / ja / en / ko)",
+  "tarih_olcum": "21 Ekim 2026",
+  "yontem_notu": "PMC, Radiocarbon/PNAS/Sci Adv tam metinleri, Kobayashi 2007 (Rekihaku PDF), Sakamoto 2007 (J-STAGE PDF) ve Brosseder-Miller 2011 (MPG PDF) ham metin olarak bu oturumda okundu ve sayılar oradan alındı. Çince haber/akademik-gazete sayfaları (CSSN, Guangming Daily, Xinhua, People's Daily) WebFetch ile okundu; WebFetch küçük bir modelle özetlediği için alıntılar sayfadan okunmuş sayılır ama birebir sınanmadı. Wikipedia/Wikidata tarih için kullanılmadı; Wikidata yalnız koordinat tanığıdır. Kalibre edilmemiş (ham) 14C değerleri kayıt dışı bırakıldı.",
+  "kayitlar": [
+    {
+      "id": "erlitou-2-liton-arkeolojik",
+      "ad": "Erlitou (Erlitou kültürü, Yanshi)",
+      "ad_yerel": "二里头遗址 / 二里头文化",
+      "tur": "sehir",
+      "lat": 34.6925,
+      "lon": 112.69,
+      "konum_tanik": [
+        {"kaynak": "Wikidata Q2692927 (P625)", "lat": 34.6925, "lon": 112.69},
+        {"kaynak": "OSM Nominatim: 二里头夏都遗址博物馆, Yanshi (alan müzesi)", "lat": 34.6832642, "lon": 112.6886654}
+      ],
+      "konum_not": "Tanıklar arası ~1.0 km (müze noktası sitenin güneyinde). Wikidata noktası site merkezi olarak esas alındı; OSM yalnız müze girişi olduğu için ikinci tanık olarak zayıf. Pleiades Çin için kapsam dışı.",
+      "kur": {
+        "bas_mo": 1750, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "tabaka-donem",
+        "kaynak": "Chen Minzhen (陈民镇), 「『二里头商都说』的再检视」, Huaxia Kaogu 2020(2); CSSN yeniden yayını. Fazlar, Qiu Shihua / Cai Lianzhen / Zhang Xuelian vd.'nin 2005 sonrası seri-uydurma (series-fitting) 14C verisine atıfla verilir.",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552724.shtml",
+        "alinti": "二里头文化一期的年代为公元前1750～前1680年",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": {
+        "bas_mo": 1520, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "tabaka-donem",
+        "kaynak": "Aynı makale (Chen Minzhen 2020) — IV. faz sonu",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552724.shtml",
+        "alinti": "四期为公元前1560～前1520年",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "kurulus",
+      "d": "Henan'ın Yanshi ilçesinde Erlitou kültürünün tip yerleşimi; I–IV fazlı geniş bir merkez. Fazların seri-uydurma 14C tarihleri: I 1750–1680, II 1680–1610, III 1610–1560, IV 1560–1520 MÖ.",
+      "sahip_kultur": "Erlitou kültürü (二里头文化)",
+      "ic_not": "ÇELİŞKİ (üç kaynak, ortası alınmadı). (a) Xia-Shang-Zhou Dönemlendirme Projesi (2000) tüm Erlitou kültürü için 1880–1521 MÖ yayımladı (aynı makale, Chen Minzhen 2020). (b) 2005 sonrası seri-uydurma: I. faz 1750'den erken değil, IV. faz sonu 1520 (Qiu Shihua vd.; yukarıdaki kur/bit). (c) Lee, Crawford, Liu, Chen 2007, PNAS 104(3):1087, doi 10.1073/pnas.0609763104: Erlitou 'ca. 1900–1500 B.C.' (genel dönem değeri; PMC1764861 metninde okundu). Esas alınan (b): sonraki, kısa-ömürlü örnek + wiggle-match yöntemi; gerekçe Zhang Xuelian vd. 2022 Radiocarbon 64(4):819–832, doi 10.1017/RDC.2021.72 özetinde de wiggle-matching ile alan tarihinin netleştiği belirtiliyor (bu oturumda yalnız özet okunabildi, faz sayıları tam metinden doğrulanamadı). Chen Minzhen ayrıca bu verilere göre III. fazın (~1610'dan) 1600 MÖ Shang başlangıcına göre Shang'a düştüğünü tartışır. Takvim: kaynaklar kalibre MÖ yıl veriyor.",
+      "kaynak_2": "Lee G.-A. vd. 2007, PNAS 104(3):1087–1092 (en) — https://pmc.ncbi.nlm.nih.gov/articles/PMC1764861/ : 'Erlitou ... ca. 1900–1500 B.C.'",
+      "okunan_sayfa": [
+        "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552724.shtml",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1764861/",
+        "https://www.cambridge.org/core/journals/radiocarbon/article/14c-dating-of-the-erlitou-site/475359D750D8F9AE70E5126CF4744A4C (yalnız özet)",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q2692927.json"
+      ]
+    },
+    {
+      "id": "xia-yazili-gelenek-2070-1600",
+      "ad": "Xia hanedanı (yazılı gelenek / Dönemlendirme Projesi kronolojisi — arkeolojik tarih DEĞİL)",
+      "ad_yerel": "夏 (夏商周断代工程年表)",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Koordinat zorunlu değil (hanedan, arkeolojik alanla özdeşliği tartışmalı).",
+      "kur": {
+        "bas_mo": 2070, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Han Han (韩寒), 「探索中国上古时期的年表——《夏商周断代工程报告》发布」, Guangming Daily, 24 Ağustos 2022, s.9; 2000 Xia-Shang-Zhou yıllık tablosu (Xia: yazılı gelenek + dönemlendirme).",
+        "kaynak_dili": "zh",
+        "url": "https://epaper.gmw.cn/gmrb/html/2022-08/24/nw.D110000gmrb_20220824_1-09.htm",
+        "alinti": "夏为公元前2070年至公元前1600年",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": {
+        "bas_mo": 1600, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Aynı (Xia–Shang sınırı ~1600)",
+        "kaynak_dili": "zh",
+        "url": "https://epaper.gmw.cn/gmrb/html/2022-08/24/nw.D110000gmrb_20220824_1-09.htm",
+        "alinti": "夏为公元前2070年至公元前1600年",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "ilk_anilis",
+      "d": "Geleneksel dönemlendirmede Xia ~2070–1600 MÖ (471 yıl). Bu tarih Shiji/Zhushu Jinian benzeri yazılı geleneğin ve proje hesabının ürünüdür; çağdaş yazılı belge yoktur.",
+      "sahip_kultur": null,
+      "ic_not": "YAZILI GELENEK ≠ ARKEOLOJİ (ayrı yazıldı). Arkeolojik tarafta Xia'yı doğrudan tarihleyen yazıt yoktur. Erlitou I'in 14C tarihi 1750 MÖ'den eski değildir (bkz. erlitou kaydı); CASS'tan Dong Xiaolei (CSSN 16.08.2024) bunu şöyle özetler: 'Erlitou I'in 14C tarihlerinin en erkeni ancak MÖ 18. yy başında; Xia başlangıcı ile arada belirgin boşluk'. Chen Minzhen'e göre Erlitou kültürü 200 küsur yıl sürer ve 471 yıllık Xia'yı dolduramaz. Lee vd. 2007 (PNAS) Xia'yı 'ca. 2100–1600 B.C.' diye yazar (gelenek). Bu iki değer birbirinden bağımsız doğrulama DEĞİLDİR; ikisi de proje kronolojisine dayanır. Projenin kendisi yöntem olarak yazılı kral yıllarını referans çerçeve almış olduğundan eleştirilir (Nanjing Üniv. Zhou Xiaolu, 2014 konferansı; 1046 MÖ vb. sonuçlar yurtiçi/yurtdışı eleştirmişti).",
+      "kaynak_2": "Dong Xiaolei (董霄雷), 「寻夏：新砦遗址探索早期夏文化」, CSSN/ Chinese Social Sciences Today, 16.08.2024 — https://www.cssn.cn/skgz/bwyc/202408/t20240816_5772307.shtml : 「二里头文化一期的碳十四测年数据最早者只在公元前18世纪初」",
+      "okunan_sayfa": [
+        "https://epaper.gmw.cn/gmrb/html/2022-08/24/nw.D110000gmrb_20220824_1-09.htm",
+        "https://www.cssn.cn/skgz/bwyc/202408/t20240816_5772307.shtml",
+        "https://www.nju.edu.cn/info/3321/267641.htm",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1764861/"
+      ]
+    },
+    {
+      "id": "zhengzhou-shangcheng",
+      "ad": "Zhengzhou Shang şehri (Erligang)",
+      "ad_yerel": "郑州商城遗址",
+      "tur": "sehir",
+      "lat": 34.7453,
+      "lon": 113.683,
+      "konum_tanik": [
+        {"kaynak": "Wikidata Q203132 (P625)", "lat": 34.74527778, "lon": 113.68305556},
+        {"kaynak": "OSM Nominatim: 郑州商城遗址, Guancheng", "lat": 34.7522809, "lon": 113.6839652}
+      ],
+      "konum_not": "Fark ~0.8 km; Wikidata (surun merkezi) esas alındı, OSM alan etiketi (kuzey-doğu köşe yakını).",
+      "kur": {
+        "bas_mo": 1600, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "tek-deger",
+        "kaynak": "Xinhua, 「文明探源｜郑州商城遗址：求索夏商文明七十年」, 1 Aralık 2025",
+        "kaynak_dili": "zh",
+        "url": "https://www.news.cn/politics/20251201/3f8af3294ad84cf7988bca8b7f339d92/c.html",
+        "alinti": "据相关测定，其始建年代为公元前1600年左右",
+        "kaynak_sinifi": "ansiklopedi"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Erligang kültürünün büyük surlu merkezi (Erken Shang, 'Bo' ya da 'Ao' tartışması). Sur inşası ~MÖ 1600 civarı.",
+      "sahip_kultur": "Erligang kültürü (二里岗文化) / Erken Shang",
+      "ic_not": "ZAYIF TEK TANIK; sayı bir devlet haber ajansı özetinden (14C tablosu yok). Dönem değeri: Erligang (Erken Shang) 1600–1300 MÖ (Lee vd. 2007 PNAS). Chen Minzhen 2020 (CSSN) projenin Shang başlangıcını ~1600 MÖ koyduğunu ve yeni Erlitou verilerine göre Erlitou III–IV'ün Shang'a düşebileceğini yazar; Zhengzhou şehrinin başlangıcı ise Erligang alt faz I mi, Nanguanwai mı sorusu tartışmalıdır (arama özetinde; ana makale okunamadı). Bu oturumda 'doğu surundaki kömür örneği 3570±135 BP ≈ 1620 MÖ' değeri yalnız Vikipedi'de görüldü, kullanılmadı.",
+      "kaynak_2": "Lee G.-A. vd. 2007, PNAS 104(3):1087 (en): 'Early Shang (Erligang; 1600–1300 B.C.)'",
+      "okunan_sayfa": [
+        "https://www.news.cn/politics/20251201/3f8af3294ad84cf7988bca8b7f339d92/c.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1764861/",
+        "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552724.shtml"
+      ]
+    },
+    {
+      "id": "taosi",
+      "ad": "Taosi (Longshan sonu, Xiangfen)",
+      "ad_yerel": "陶寺遗址",
+      "tur": "sehir",
+      "lat": 35.8929,
+      "lon": 111.4901,
+      "konum_tanik": [
+        {"kaynak": "Wikidata Q217859 (P625)", "lat": 35.89286111, "lon": 111.49005556},
+        {"kaynak": "OSM Nominatim: 陶寺村, Taosi Köyü, Xiangfen", "lat": 35.8980037, "lon": 111.4974136}
+      ],
+      "konum_not": "Fark ~0.9 km; Wikidata (site merkezi) esas alındı.",
+      "kur": {
+        "bas_mo": 2300, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Shao Jing (邵晶), 「石峁遗址与陶寺遗址的比较研究」, Kaogu 2020(5); CSSN özeti, 24.07.2020",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552726.shtml",
+        "alinti": "遗址绝对年代为公元前2300年至公元前1900年",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": {
+        "bas_mo": 1900, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Aynı (Shao Jing 2020)",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552726.shtml",
+        "alinti": "遗址绝对年代为公元前2300年至公元前1900年",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "kurulus",
+      "d": "Shanxi güneyinde surlu erken merkez: erken (küçük) şehir, orta (büyük şehir + dış sur, gözlemevi), geç dönem terk. Dönem toplamı 2300–1900 MÖ.",
+      "sahip_kultur": "Taosi kültürü (陶寺文化), Longshan sonu",
+      "ic_not": "Kaynak 14C tablosu vermez, 'sistematik tarih verisi'ne atıf yapar; faz sınırları (erken/orta/geç) sayfada yok. ÇİFT TEYİT sayılmadı: Gao Jiangtao (高江涛, CASS), Guangming Daily/CSSN 10.03.2025: Taosi 'distance to present ≈ 4300–3900 yıl' (BP−1950 ile ≈ 2350–1950 MÖ; çeviri bu oturumda; kalibre durumu belirtilmemiş) — https://cssn.cn/kgxc/kgxc_kgdz/202503/t20250310_5856614.shtml. Medya düzeyi faz değerleri (erken 4300–4100, orta 4100–4000, geç 4000–3900 BP; Thepaper.cn/He Nu) kayda alınmadı. Taosi erken evresinin Shimao A segmentinden hafif eski olduğu belirtilir (Shao Jing).",
+      "kaynak_2": "Gao Jiangtao, CSSN 10.03.2025 (zh): 「距今约4300至3900年间」 — bağımsız 14C tablosu değil.",
+      "okunan_sayfa": [
+        "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552726.shtml",
+        "https://cssn.cn/kgxc/kgxc_kgdz/202503/t20250310_5856614.shtml",
+        "https://m.thepaper.cn/newsDetail_forward_14291021"
+      ]
+    },
+    {
+      "id": "shimao",
+      "ad": "Shimao (Shenmu, Shaanxi)",
+      "ad_yerel": "石峁遗址",
+      "tur": "sehir",
+      "lat": 38.5657,
+      "lon": 110.3254,
+      "konum_tanik": [
+        {"kaynak": "OSM Nominatim: 石峁遗址, Gaojiabu, Shenmu", "lat": 38.5656657, "lon": 110.3253563},
+        {"kaynak": "Wikidata Q24036336 (P625)", "lat": 38.561539, "lon": 110.307439}
+      ],
+      "konum_not": "Fark ~1.6 km. OSM 'site' etiketi birebir (石峁遗址) olduğu için esas alındı; Wikidata noktası yaklaşık merkez. İkisi de bağımsız resmî kurum değil (Çin Kültürel Miras İdaresi sayfası ECONNREFUSED).",
+      "kur": {
+        "bas_mo": 2300, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "yerlesim-suresi",
+        "kaynak": "Sun Zhouyong (孙周勇), Shao Jing, Di Nan, 「石峁遗址的考古发现与研究综述」, Zhongyuan Wenwu 2020(1); CSSN yeniden yayını",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552637.shtml",
+        "alinti": "石峁城址初建于公元前2300年前后",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": {
+        "bas_mo": 1800, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "yerlesim-suresi",
+        "kaynak": "Aynı makale",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552637.shtml",
+        "alinti": "废弃于公元前1800年前后",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "kurulus",
+      "d": "Çin'in bilinen en büyük Longshan-sonu/Erlitou-başı taş surlu şehri (≥4 km²). Huangchengtai doğu koruma duvarındaki kereste 14C'siyle yapım ve kullanım 2200–1900 MÖ; tepe üstü büyük yapı F2 çürük ahşabı 1900–1800 MÖ.",
+      "sahip_kultur": "Shimao kültürü (石峁文化)",
+      "ic_not": "Aynı ekip, aynı veri: Xinhua 02.01.2019 (kazı ekibi) 'başlangıç 2300'den geç değil, terk ~1800' diyor (zh, https://www.xinhuanet.com/politics/2019-01/02/c_1123936756.htm) — bağımsız teyit sayılmadı. Alt kayıtlar (aynı makale): Huangchengtai doğu koruma duvarı kerestesi 14C: 2200–1900 MÖ; tepe F2 çürük ahşap: 1900–1800 MÖ; 'büyük platformun yapımı Shimao ortasından, ~2000 MÖ'den geç değil' (tabakalanma çıkarımı, 14C değil). Terk sonrası yılan desenli ördek/lì tipi buluntular ~1700–1600 MÖ. Shao Jing (Kaogu 2020(5)): üç segment A–C 'kabaca 2300–1800 MÖ'.",
+      "kaynak_2": null,
+      "okunan_sayfa": [
+        "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552637.shtml",
+        "https://www.xinhuanet.com/politics/2019-01/02/c_1123936756.htm",
+        "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552726.shtml"
+      ]
+    },
+    {
+      "id": "longshan-sonu-orta-ova",
+      "ad": "Geç Longshan dönemi (Orta Ovalar)",
+      "ad_yerel": "龙山文化晚期 / 河南龙山文化",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Kültür kaydı, koordinat zorunlu değil.",
+      "kur": {
+        "bas_mo": 2300, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Deng Z., Fuller D.Q., Chu X., Cao Y., Jiang Y., Wang L., Lu H. vd. 2020, Vegetation History and Archaeobotany, doi 10.1007/s00334-019-00732-7 (PMC6942569): Xiazhai alanı ve Orta Ovalar için dönem çerçevesi, kalibre 'bc'",
+        "kaynak_dili": "en",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6942569/",
+        "alinti": "late Longshan period (ca. 2300–1800 bc)",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": {
+        "bas_mo": 1800, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Aynı",
+        "kaynak_dili": "en",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6942569/",
+        "alinti": "late Longshan period (ca. 2300–1800 bc)",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "gelisme",
+      "d": "Geç Longshan: Taosi, Shimao, Wangchenggang gibi surlu merkezlerin dönemi; buğday ve darı-pirinç-soya karışık tarım sistemi (wugu) bu dönemde kuruluyor sayılır.",
+      "sahip_kultur": "Longshan kültürü (龙山文化), geç evre",
+      "ic_not": "Dönem etiketidir (14C sonucu değil). Deng vd. aynı makalede 5 buğday tanesini doğrudan AMS'ledi: Geç Longshan bağlamındaki taneler MÖ 790–540 aralığında çıktı → sızma (intrusive) sonucu; dönem tarihi bundan etkilenmez. Shijiahe ~2500–2300 bc, Yangshao ~4300–3000 bc (aynı makalede; önceki dalgada ayrıca yazılmıştı).",
+      "kaynak_2": null,
+      "okunan_sayfa": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC6942569/"]
+    },
+    {
+      "id": "xinzhai-xinmi",
+      "ad": "Xinzhai (Xinmi) — Xinzhai evresi şehri",
+      "ad_yerel": "新砦遗址 / 新砦期",
+      "tur": "sehir",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Bu oturumda koordinat tanığı çalıştırılmadı (Xinmi, Henan).",
+      "kur": {
+        "bas_mo": 1850, "son_mo": 1750, "guven": "belirsiz",
+        "aralik_turu": "tabaka-donem",
+        "kaynak": "Zhao Chunqing (赵春青, CASS Arkeoloji Enstitüsü), 'Zhengzhou Forum' bildirisi, 12 Mayıs 2023; Guangming Online haberi 13.05.2023",
+        "kaynak_dili": "zh",
+        "url": "https://difang.gmw.cn/ha/2023-05/13/content_36558662.htm",
+        "alinti": "公元前1850至1750年间的“新砦期”城址",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": null,
+      "k": "gelisme",
+      "d": "Xinzhai alanında MÖ ~2000 civarı geç Longshan sur ve hendek, 1850–1750 MÖ 'Xinzhai evresi' şehri ve dev ritüel yapısı bulunmuştur; erken Xia başkenti olduğu öne sürülür (Zhao).",
+      "sahip_kultur": "Xinzhai evresi (新砦期) — Henan Longshan ile Erlitou arası geçiş",
+      "ic_not": "ZAYIF: konferans bildirisinin haber özeti, 14C tablosu yok. Erlitou I'in MÖ 1750'den eski olmadığı (Chen Minzhen 2020) ile sınır uçta örtüşür; Erlitou I ile Xinzhai evresi arasında bitişikliği ya da çakışmayı 14C seri-uydurmasıyla (Dong 2024: Xinzhai + Erlitou verisi birlikte uydurulmuş) tartışılır. Arama özetinde 'Henan Longshan sonu 2090–2030, Xinzhai I 1870–1785' (kaynak sayfası okunamadı) ve 'MÖ 2000–1900' (eski ölçüm) görüldü — kayda alınmadı.",
+      "kaynak_2": null,
+      "okunan_sayfa": [
+        "https://difang.gmw.cn/ha/2023-05/13/content_36558662.htm",
+        "https://www.cssn.cn/skgz/bwyc/202408/t20240816_5772307.shtml"
+      ]
+    },
+    {
+      "id": "sanxingdui-medeniyet",
+      "ad": "Sanxingdui (Guanghan, Sichuan) medeniyeti",
+      "ad_yerel": "三星堆遗址 / 三星堆文明",
+      "tur": "sehir",
+      "lat": 30.9937,
+      "lon": 104.1998,
+      "konum_tanik": [
+        {"kaynak": "Wikidata Q929072 (P625)", "lat": 30.993719, "lon": 104.199826},
+        {"kaynak": "OSM Nominatim: 三星堆遗址, Guanghan", "lat": 30.9937458, "lon": 104.1998542}
+      ],
+      "konum_not": "İki tanık birbirinin kopyası olabilir (0.0 km fark); bağımsız resmî kurum koordinatı bulunamadı.",
+      "kur": {
+        "bas_mo": 1600, "son_mo": 1500, "guven": "belirsiz",
+        "aralik_turu": "yerlesim-suresi",
+        "kaynak": "Zhu Naicheng (朱乃诚, CASS), 「从年代学看三星堆文明」, Chinese Social Sciences Today, 23 Şubat 2022 (CSSN 03.08.2022)",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/skgz/bwyc/202208/t20220803_5466614.shtml",
+        "alinti": "可以推定三星堆文明的形成年代大致在公元前1600—前1500年之间",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": {
+        "bas_mo": 1050, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "tek-deger",
+        "kaynak": "Aynı makale (Zhu Naicheng 2022)",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/skgz/bwyc/202208/t20220803_5466614.shtml",
+        "alinti": "三星堆文明的结束年代大致在商末周初，距今3000年前后",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "kurulus",
+      "d": "Sichuan havzasında bronz, altın, yeşim, tunç maskeler üreten ve Shang'dan bağımsız bir uygarlık. Zhu'ya göre medeniyet 2. evrede (II. dönem; büyük şehir suru) şekillenir ve Shang sonu / Zhou başında (~1050) biter.",
+      "sahip_kultur": "Sanxingdui kültürü (三星堆文化)",
+      "ic_not": "Zhu'nun 'oluşum' tarihi Erlitou/Qijia buluntularıyla çapraz tarihlemeye dayanır (14C ham sayısı değil); I. evre (Neolitik, Baodun benzeri) için 'üst sınır ~4800 BP' iddiası Xu Hong'un tarihçesine göre ayrı kültürlere ait olduğundan 4800 BP 'erken olanı seçerek' verilmiştir, kalibre veriler 4600–4500 BP'ye yakındır (arama özetinde, PDF okunamadı → bulunamadı listesinde).",
+      "kaynak_2": null,
+      "okunan_sayfa": [
+        "https://www.cssn.cn/skgz/bwyc/202208/t20220803_5466614.shtml",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q929072.json"
+      ]
+    },
+    {
+      "id": "sanxingdui-kurban-cukurlari",
+      "ad": "Sanxingdui kurban çukurları (K3, K4, K6, K8) — gömülme olayı",
+      "ad_yerel": "三星堆祭祀坑 (三、四、六、八号坑)",
+      "tur": "bolge",
+      "lat": 30.9937,
+      "lon": 104.1998,
+      "konum_tanik": [
+        {"kaynak": "Wikidata Q929072 (alan)", "lat": 30.993719, "lon": 104.199826},
+        {"kaynak": "OSM Nominatim: 三星堆遗址", "lat": 30.9937458, "lon": 104.1998542}
+      ],
+      "konum_not": "Sanxingdui alan koordinatı kullanıldı (çukurlar alanın içinde).",
+      "kur": {
+        "bas_mo": 1201, "son_mo": 1012, "guven": "95.4",
+        "aralik_turu": "kalibre-14C",
+        "kaynak": "Ran Honglin (冉宏林) vd., Sichuan Eyalet Kültür Mirası ve Arkeoloji Enstitüsü + Pekin Üniversitesi, 2025 Sanxingdui Forumu; CSSN 9 Ekim 2025",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/skgz/bwyc/202510/t20251009_5918153.shtml",
+        "alinti": "埋藏年代有95.4%的概率处于公元前1201年至公元前1012年",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": null,
+      "k": "gelisme",
+      "d": "3, 4, 6, 8 numaralı çukurlar (yeni açılanlar) %95.4 olasılıkla MÖ 1201–1012 arasında gömülmüş; Shang sonu. Birbirine eklenebilen parçalar 1,2,3,4,7,8. çukurların aynı zamanda gömüldüğünü gösteriyor.",
+      "sahip_kultur": "Sanxingdui kültürü (III–IV. evre)",
+      "ic_not": "ÇİFT ANLAMLI TEYİT YOK: Pekin Üniv. Fizik Okulu Ağır İyon Fiziği Enstitüsü AMS'iyle 6 çukurdan 73 kömür örneği (haber 25.03.2021): K4 'en olası' 1199–1017 MÖ (https://sklnpt.pku.edu.cn/info/1120/2167.htm) — aynı veri tabanı, bağımsız değil. Zhu Naicheng 2022: K4 için 6 14C örneği Bayes kalibrasyonu → %68.3 olasılıkla 3072–3003 BP (≈1122–1053 MÖ; BP−1950 çevirisi aracın hesabı); tüm çukur gömülmesi 'MÖ ~1300–1046' (Shang sonu). Kaynaklarda örnek sayısı çelişiyor (73 / 14; Sixth Tone ~200) → belirsiz. K1 ve diğer eski çukurlar ayrı olabilir.",
+      "kaynak_2": "Pekin Üniv. Fizik Okulu, 25.03.2021 (zh) — 'K4 ... 公元前1199年至公元前1017年' ; Zhu Naicheng 2022 (zh).",
+      "okunan_sayfa": [
+        "https://www.cssn.cn/skgz/bwyc/202510/t20251009_5918153.shtml",
+        "https://sklnpt.pku.edu.cn/info/1120/2167.htm",
+        "https://www.cssn.cn/skgz/bwyc/202208/t20220803_5466614.shtml"
+      ]
+    },
+    {
+      "id": "dadiwan",
+      "ad": "Dadiwan (Qin'an, Gansu)",
+      "ad_yerel": "大地湾遗址",
+      "tur": "sehir",
+      "lat": 35.0124,
+      "lon": 105.9045,
+      "konum_tanik": [
+        {"kaynak": "Wikidata Q10934386 (P625)", "lat": 35.01239, "lon": 105.90445},
+        {"kaynak": "OSM Nominatim: 大地湾遗址, Qin'an", "lat": 35.0129597, "lon": 105.9040282}
+      ],
+      "konum_not": "Fark ~0.1 km; Wikidata esas.",
+      "kur": {
+        "bas_mo": 5850, "son_mo": 5350, "guven": "belirsiz",
+        "aralik_turu": "tabaka-donem",
+        "kaynak": "Xiong J. vd. 2025, Cell Genomics, doi 10.1016/j.xgen.2025.100976 (PMC12791001): Dadiwan Faz I (Pre-Yangshao) 7,800–7,300 cal BP",
+        "kaynak_dili": "en",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12791001/",
+        "alinti": "Phase I (7,800–7,300 cal BP, pre-Yangshao)",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": {
+        "bas_mo": 2950, "son_mo": 2850, "guven": "belirsiz",
+        "aralik_turu": "tabaka-donem",
+        "kaynak": "Aynı: Faz V (Changshan kültürü) 4,900–4,800 cal BP",
+        "kaynak_dili": "en",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12791001/",
+        "alinti": "Phase V (4,900-4,800 cal BP, Changshan culture)",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "kurulus",
+      "d": "Batı Les Platosu'nda en eski kuru-tarım (darı) yerleşimi; Dadiwan I (erken Neolitik, Laoguantai tipi) → Yangshao evreleri → Changshan. İlk darı faaliyeti ~MÖ 5800–5300.",
+      "sahip_kultur": "Dadiwan I / Laoguantai (大地湾一期), Yangshao",
+      "ic_not": "cal BP→MÖ: BP−1950, bu oturumda. ÇİFT TEYİT (bağımsızlık belirsiz): Leipe C. vd. 2019, Science Advances 5:eaax6225 (PMC6760930): Dadiwan 'occupation phase 1 (5800 to 5300 BCE)' (en). Her iki kaynak da aynı Dadiwan kazı raporlarına dayanıyor olabilir. Eski Çince değer (Dili Xuebao / Acta Geographica Sinica 1985): Dadiwan I 7800–7355 BP — kalibre edilmemiş ham tarih, KAYIT DIŞI. Leipe'nin notu: Dadiwan I'deki 8 darı tanesi tek bir çukurdan, daha genç tabakadan karışma ihtimali yüksek (tarih tartışmalı).",
+      "kaynak_2": "Leipe C. vd. 2019, Sci. Adv. 5:eaax6225 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6760930/ : 'occupation phase 1 (5800 to 5300 BCE)'",
+      "okunan_sayfa": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12791001/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6760930/",
+        "https://www.geog.com.cn/EN/abstract/article/0375-5444/20410 (yalnız arama özeti)"
+      ]
+    },
+    {
+      "id": "odai-yamamoto-1",
+      "ad": "Ōdai Yamamoto I (Aomori) — Japonya'nın en eski çanak-çömlek yerleşimlerinden",
+      "ad_yerel": "大平山元I遺跡",
+      "tur": "sehir",
+      "lat": 41.0673,
+      "lon": 140.555,
+      "konum_tanik": [
+        {"kaynak": "Wikidata Q7077228 (P625)", "lat": 41.067288888889, "lon": 140.55497222222},
+        {"kaynak": "OSM Nominatim: 大平山元I遺跡, Sotogahama", "lat": 41.0654753, "lon": 140.5521693}
+      ],
+      "konum_not": "Fark ~0.3 km; Wikidata esas. Japon Kültür İşleri Dairesi (online.bunka.go.jp) sayfası koordinat vermedi/okunmadı.",
+      "kur": {
+        "bas_mo": 14050, "son_mo": 13550, "guven": "belirsiz",
+        "aralik_turu": "kalibre-14C",
+        "kaynak": "Kobayashi Kenichi (小林謙一) 2007, 「縄紋時代前半期の実年代」, Bull. Nat. Mus. Japanese History 137:89–133, doi 10.15024/00001497; Nakamura & Tsuji 1999 verisinin IntCal04 ile yeniden kalibrasyonu",
+        "kaynak_dili": "ja",
+        "url": "https://rekihaku.repo.nii.ac.jp/record/1514/files/kenkyuhokoku_137_07.pdf",
+        "alinti": "土器の発明の実年代がおおよそ16，000～15，500年のあいだ",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "bit": null,
+      "k": "ilk_anilis",
+      "d": "Soto-ga-hama'da, taş aletlerle birlikte bezemesiz çanak-çömlek parçaları (46 parça); Japon takımadaları ve Doğu Asya'nın en erken pişmiş kil kapları arasında. Parçalardaki is/kömür kalıntısı AMS ile tarihlendi.",
+      "sahip_kultur": "Jōmon Sōsōki (縄紋草創期, Incipient Jōmon); Chōjakubo tipi bezemesiz kaplar",
+      "ic_not": "bas/son = 16000–15500 yıl önce (cal BP; BP−1950, bu oturumda). ÖRNEK DÜZEYİ (Kobayashi 2007, IntCal04, %95.4, MÖ): F5-017 (13780±170 14C BP) 15015–13910 cal BC; E4-036 (13030±170) 14095–12955 cal BC; E4-048 (12680±140) 13355–12310 cal BC (%95.3). Kobayashi: tek kap kırığından 5 örnek 13780–12680 14C BP; kuru-karbon içeriği %5–8 gibi çok düşük olduğundan en eski ölçümün en az kirli olduğu söylenemez; ortalama değer E4-036'yı esas aldı; 12450 14C BP'den eski kalibrasyon ağaç halkası dışı → belirsiz; ortanca ~15500 yıl önce, tarihsel olarak 15700'e kadar olabilir. Arama özetinde (okunmadı): yayımlanan ilk kalibre değer ~16520 cal BP (Nakamura & Tsuji 1999; Nakamura vd. 2001) — daha eski, bu kaydın kullandığı değer değil; Kobayashi bunu 'yeniden değerlendirmeye ihtiyaç var' diye tartışır. Çelişki: ilk yayın (~16.5 bin cal BP) ↔ Kobayashi (16–15.5 bin cal BP); ikisi de verilmiştir, Kobayashi esas alındı (daha sonra, örnek-bazlı IntCal04).",
+      "kaynak_2": "Nakamura T., Tsuji S. 1999 (ja), 「大平山元I遺跡出土の土器破片表面に付着した微量炭化物の加速器14C年代」 — ilk veri; Kobayashi 2007 PDF'inde atıf ve tablo olarak okundu, orijinali okunmadı.",
+      "okunan_sayfa": [
+        "https://rekihaku.repo.nii.ac.jp/record/1514/files/kenkyuhokoku_137_07.pdf",
+        "https://rekihaku.repo.nii.ac.jp/records/1514",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q7077228.json"
+      ]
+    },
+    {
+      "id": "jomon-sosoki-baslangic",
+      "ad": "Jōmon başlangıcı: Sōsōki (Incipient) dönemi",
+      "ad_yerel": "縄紋時代草創期",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Kültür kaydı.",
+      "kur": {
+        "bas_mo": 13750, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Kobayashi 2007, Bull. Nat. Mus. Japanese History 137:89–133, özet",
+        "kaynak_dili": "ja",
+        "url": "https://rekihaku.repo.nii.ac.jp/record/1514/files/kenkyuhokoku_137_07.pdf",
+        "alinti": "縄紋時代草創期はおおよそ15，700年前からおおよそ11，600年前まで",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "bit": {
+        "bas_mo": 9650, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Aynı",
+        "kaynak_dili": "ja",
+        "url": "https://rekihaku.repo.nii.ac.jp/record/1514/files/kenkyuhokoku_137_07.pdf",
+        "alinti": "おおよそ15，700年前からおおよそ11，600年前まで",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "k": "kurulus",
+      "d": "Jōmon (Japon takımadaları) kültürünün başlangıç evresi: çanak-çömlek, geçici yerleşik avcı-toplayıcılık. Başlangıç, ilk çıkıntılı-çizgili (Ryūsenmon) kaplarla ~15500 yıl önceye yerleştirilir.",
+      "sahip_kultur": "Jōmon (縄紋) — Sōsōki",
+      "ic_not": "cal BP→MÖ: 15700−1950 = 13750; 11600−1950 = 9650 (bu oturumda). Yazar: erken ucu 12450 14C BP'den eski olduğundan kalibrasyon belirsiz; Okinawa hariç ana adalarda ~1500 yıl süren bir dizi. Başlangıç sınırı çanak-çömlek-merkezli tanımdır (Ryūsenmon = 15500 civarı; Ōdai Yamamoto 16000–15500).",
+      "kaynak_2": null,
+      "okunan_sayfa": ["https://rekihaku.repo.nii.ac.jp/record/1514/files/kenkyuhokoku_137_07.pdf"]
+    },
+    {
+      "id": "yayoi-baslangic-kuzey-kyushu",
+      "ad": "Yayoi başlangıcı / pirinç tarımının Kuzey Kyushu'ya gelişi",
+      "ad_yerel": "弥生時代の開始 / 北部九州",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Kültür kaydı; çekirdek bölge Kuzey Kyushu (Fukuoka-Saga) — koordinat zorunlu değil.",
+      "kur": {
+        "bas_mo": 1176, "son_mo": 845, "guven": "90 (HPDI)",
+        "aralik_turu": "kalibre-14C",
+        "kaynak": "Crema E.R., Stevens C.J., Shoda S. 2022, Science Advances 8:eadc9171, doi 10.1126/sciadv.adc9171 (PMC9491708) — doğrudan tarihli pirinç/darı tanelerinden Bayes: Kuzey Kyushu'da (Alan I) pirinç tarımının varışı, kısıtsız model",
+        "kaynak_dili": "en",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9491708/",
+        "alinti": "estimated arrival date of rice farming in northern Kyushu (Area I) is between 1176 and 845 BC (90% HPDI",
+        "kaynak_sinifi": "birincil-yayin"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Kore'den gelen sulu-pirinç/darı paketinin (kanallı tarla, yeni çanak-çömlek) Kuzey Kyushu kıyılarında başlaması; Jōmon sonu → Yayoi (Early/Initial Yayoi) geçişi. Doğrudan tarihli en eski kömürleşmiş pirinç: Ukikunden Midden (Kuzey Kyushu).",
+      "sahip_kultur": "Yayoi (弥生) / Son Jōmon–İlk Yayoi (Tottaimon çanak-çömlek bölgesi)",
+      "ic_not": "ÇELİŞKİ (iki ayrı ölçek; ortası alınmadı). (1) GELENEKSEL/TİPOLOJİK kronoloji: Yayoi başlangıcı MÖ 3.–4. yy (Han aynalarının ~MÖ 1. yy başı ve Xin dönemi Huoquan sikkeleri (MS 14–40) sabit noktaları ile, her çanak-çömlek tipine süre varsayılarak geriye ekstrapolasyon) — Sakamoto Minoru (NMJH) 2007, J. Vac. Soc. Jpn. 50(7):494 (ja): 「弥生時代の開始年代は…紀元前3～4世紀に外挿される」. (2) AMS 14C (Rekihaku/NMJH, Harunari-Fujio-Sakamoto-Imamura, 2003 JAA bildirisi): Kyushu'da Yayoi erken fazı 2800 14C BP ≈ 'ほぼ紀元前10世紀' (Sakamoto 2007). 2003 duyurusu başlangıcı 500 yıl geriye çekti (Shoda S. 2010, Radiocarbon 52(2):421–427, doi 10.1017/S0033822200045471). (3) Bayes pirinç analizi: 1176–845 MÖ (Crema 2022; yukarıdaki kur). Craig vd. 2025, PNAS 122(30):e2504414122 (PMC12318219): Kuzey Kyushu'da pirinç varışı '90% HPDI 1,251–872 cal BC' ve 'Yayoi, MÖ 1. binyılın başında' — Kuzey Kyushu pirincinin varışı 'Yayoi başlangıcı'ndan farklı bir olay olabilir (tarla = Yayoi'nin tanımı; doğrudan tarihlenmesi zor; Craig vd. s.2). MÖ 8.–5. yy arasında kalibrasyon platosu (~2500 14C BP) varlığı batı Japonya içi zamanlamayı kısıtlar (Crema 2022). Crema 2022 ve Craig 2025 aynı Bayes ailesinden: 'çift teyit' bağımsız sayılmaz. Harunari-Fujio birincil makalelerine (Nishimoto 2009, Yūzankaku; Fujio 2021, Quaternary 4:3) erişilemedi.",
+      "kaynak_2": "Sakamoto M. 2007, J. Vac. Soc. Jpn. 50(7):494–497 (ja), https://www.jstage.jst.go.jp/article/jvsj/50/7/50_7_494/_pdf ; Craig O.E. vd. 2025 PNAS (en)",
+      "okunan_sayfa": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9491708/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12318219/",
+        "https://www.jstage.jst.go.jp/article/jvsj/50/7/50_7_494/_pdf",
+        "https://www.cambridge.org/core/journals/radiocarbon/article/radiocarbon-and-archaeology-in-japan-and-korea-what-has-changed-because-of-the-yayoi-dating-controversy/957FA42A4A7A4F3E8E3DA575246B8367 (özet)"
+      ]
+    },
+    {
+      "id": "mumun-kore-tunc-cagi",
+      "ad": "Mumun dönemi (Kore Bronz Çağı)",
+      "ad_yerel": "무문토기시대 / 청동기시대",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Kültür kaydı.",
+      "kur": {
+        "bas_mo": 1300, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Hudson M.J., Robbeets M. 2020, Evolutionary Human Sciences, doi 10.1017/ehs.2020.49 (PMC10427439) — Mumun kültürü için dönem değeri",
+        "kaynak_dili": "en",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427439/",
+        "alinti": "Bronze Age Mumun culture (1300–400 BC",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": {
+        "bas_mo": 400, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Aynı",
+        "kaynak_dili": "en",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427439/",
+        "alinti": "Bronze Age Mumun culture (1300–400 BC",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "kurulus",
+      "d": "Kore yarımadasında pirinç ve darı tarımı, megalitik/dolmen mezar, bronz üretiminin başlangıcı; Erken–Orta–Geç Mumun alt dönemleri (Songguk-ri tipi Orta Mumun).",
+      "sahip_kultur": "Mumun (무문) kültürü",
+      "ic_not": "ZAYIF: Kore dilinde akademik kaynak bulunamadı; değer dilbilim odaklı bir makalenin arkeolojik özetinde. Bağımsız ikinci ve üçüncü tanık (kısmi): Craig vd. 2025 PNAS (PMC12318219): pirinç Kore'de 'Early Mumun'da 90% HPDI 1,677–1,161 cal BCE; darı Orta Neolitik (Chulmun) 5,772–3,490 cal BCE, ve 'earlier dates have been proposed'. Lee G.-A. vd. 2007 PNAS: Kore'deki 'Early Bronze Age (Mumun)' evcil soya yerleşimleri 1400–1000 cal BC. Mumun'un başlangıcının MÖ 1500, 1300 veya 1000 olduğu tartışmalıdır (Kim & Park 2020: Mumun başı ~1300 MÖ). Ham veri seti yine de kalibrasyon platosundan etkilenir (bkz. Kore yayını: KCI/DBpia ‘한국고고학에 있어 방사성탄소연대 활용의 문제점…’, özet okundu).",
+      "kaynak_2": "Craig vd. 2025 PNAS; Lee vd. 2007 PNAS",
+      "okunan_sayfa": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427439/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12318219/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1764861/"
+      ]
+    },
+    {
+      "id": "xiongnu-imparatorlugu",
+      "ad": "Xiongnu (Hunnu) imparatorluğu",
+      "ad_yerel": "匈奴 (Хүннү)",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Bozkır imparatorluğu; tek merkez yok (başlıca bölge Moğolistan + İç Moğolistan).",
+      "kur": {
+        "bas_mo": 209, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Brosseder U., Miller B.K. 2011, Giriş, Xiongnu Archaeology (Bonn Contributions to Asian Archaeology 5), s.~19, Max Planck SHH PDF",
+        "kaynak_dili": "en",
+        "url": "https://www.shh.mpg.de/1166471/brosseder_and_miller_2011_xiongnu_archaeology_bcaa5.pdf",
+        "alinti": "a formal imperial polity of the Xiongnu that dominated the Inner Asian steppes from 209 BC to 91 AD",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": {
+        "bas_mo": null, "son_mo": null, "yil_ms": 91, "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Aynı. Bitiş MÖ değil MS 91 (negatif MÖ yazılmadı; 'yil_ms' alanı).",
+        "kaynak_dili": "en",
+        "url": "https://www.shh.mpg.de/1166471/brosseder_and_miller_2011_xiongnu_archaeology_bcaa5.pdf",
+        "alinti": "from 209 BC to 91 AD",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "k": "kurulus",
+      "d": "Modun (Maodun) Şanyü'nün 209 MÖ'de yükselişiyle kurulan, Orta Asya bozkırlarının ilk bozkır imparatorluğu; Han ile uzun rekabet; MS 91'de Kuzey Xiongnu'nun yenilgisiyle formel imparatorluk sona erer.",
+      "sahip_kultur": "Xiongnu (匈奴) — yazılı Han kaynakları (Shiji ch.110, Hanshu)",
+      "ic_not": "YAZILI TARİH (Han kaynakları), arkeolojik 14C değil. Yazarlar tarihlemenin 'Xiongnu'nun tanımına bağlı' olduğunu söyler. Moğolistan 2011'de 209 MÖ kuruluşunun 2220. yılını kutladı (aynı giriş). Gnecchi-Ruscone vd. 2025, PNAS 122(9):e2418485122 (en, PMC11892651): imparatorluğun 'en parlak dönemi ca. 200 MÖ–100 MS' — dönem tanımı farklı (zirve). Shiji/Hanshu birincil metnine ctext sitesinden ulaşılamadı (bot engeli).",
+      "kaynak_2": "Gnecchi-Ruscone G.A. vd. 2025, PNAS (en): 'ca. 200 BCE to 100 CE'",
+      "okunan_sayfa": [
+        "https://www.shh.mpg.de/1166471/brosseder_and_miller_2011_xiongnu_archaeology_bcaa5.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11892651/"
+      ]
+    },
+    {
+      "id": "dogu-zhou-770",
+      "ad": "Doğu Zhou'nun başlangıcı (Ping Kralı'nın doğuya taşınması)",
+      "ad_yerel": "东周 / 平王东迁",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Olay kaydı (Haojing → Luoyi/Wangcheng); koordinat zorunlu değil.",
+      "kur": {
+        "bas_mo": 770, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Xu Zhaofeng (徐昭峰), Guangming Daily, 9 Şubat 2012, s.11 (Teori·Tarih)",
+        "kaynak_dili": "zh",
+        "url": "https://epaper.gmw.cn/gmrb/html/2012-02/09/nw.D110000gmrb_20120209_3-11.htm",
+        "alinti": "公元前770年，周平王“辟戎寇”，东迁洛邑，定都王城",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Western Zhou'nun çöküşü ve Ping Kralı'nın Luoyi'ye (Wangcheng) taşınmasıyla geleneksel olarak Doğu Zhou / Bahar-Güz dönemi başlar.",
+      "sahip_kultur": null,
+      "ic_not": "YAZILI GELENEK (Shiji): 770 MÖ geleneksel başlangıç; Shiji 'Liuguo nianbiao' 770'den başlar diye aktarılır (Jingzhou Üniv. Kütüphanesi, 15.05.2024 — ikincil aktarım, Shiji metni okunmadı). ÇELİŞKİ: Xia-Shang-Zhou Projesi Western Zhou'nun sonunu 771 MÖ koyar (Han Han, Guangming Daily 24.08.2022: 'Batı Zhou ... 1046–771'); 1 yıl fark yazılı/gelenek ile proje kronolojisi arasında kayıtlı. Kesin tarihli yazılı kronolojinin başı 841 MÖ (Gonghe 1. yıl; Shiji 'Shi'er zhuhou nianbiao') ve öncesi proje hesabıdır. Xinian (Tsinghua) el yazması farklı bir iki kral sırası önerir (yalnız arama özetinde, okunmadı).",
+      "kaynak_2": "Han Han, Guangming Daily 24.08.2022 (zh): Batı Zhou sonu 771 MÖ; ve 'Chuguoli' derlemesi (Jingzhou Üniv. Kütüphanesi 2024) 770.",
+      "okunan_sayfa": [
+        "https://epaper.gmw.cn/gmrb/html/2012-02/09/nw.D110000gmrb_20120209_3-11.htm",
+        "https://epaper.gmw.cn/gmrb/html/2022-08/24/nw.D110000gmrb_20220824_1-09.htm",
+        "https://www.jzun.edu.cn/tsg_tsk/contents/540/108.html"
+      ]
+    },
+    {
+      "id": "qin-birlesme-221",
+      "ad": "Qin'in Çin'i birleştirmesi (Qin Shi Huangdi)",
+      "ad_yerel": "秦统一六国 / 皇帝称号",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Olay/devlet kaydı; başkent Xianyang (koordinat bu oturumda çalıştırılmadı).",
+      "kur": {
+        "bas_mo": 221, "son_mo": null, "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Liu Rui (刘瑞, CASS Arkeoloji Enstitüsü), 「秦五大夫翳刻石纪年与时代」, Chinese Social Sciences Today, 19 Eylül 2025",
+        "kaynak_dili": "zh",
+        "url": "https://www.cssn.cn/skgz/bwyc/202509/t20250919_5916301.shtml",
+        "alinti": "秦王嬴政在二十六年（前221年）完成统一六国大业",
+        "kaynak_sinifi": "akademik-ikincil"
+      },
+      "bit": null,
+      "k": "fetih",
+      "d": "Qin Kralı Ying Zheng, Qi'nin fethiyle 26. yıl (221 MÖ) altı devleti birleştirdi ve 'Huangdi' (İmparator) unvanını ilan etti.",
+      "sahip_kultur": null,
+      "ic_not": "YAZILI GELENEK: Shiji 'Qin Shihuang benji' ('初并天下') anlatısından türer; Liu Rui makalesinin başlığı Wudafu Yi taş kitabesinin 'not earlier than 221' sınırını tartışır. Qin'in 230–221 arası fetih sırası ve 'Baiyue seferi' ayrıdır (arama özetinde). Shiji birincil metnine ctext.org'dan bot engeli yüzünden ulaşılamadı; Bai Qi–Wang Jian biyografisindeki 'Qin Shihuang 26. yıl' ifadesi yalnız arama özetinde görüldü. Başka bağımsız kaynakla kısıtlı.",
+      "kaynak_2": null,
+      "okunan_sayfa": ["https://www.cssn.cn/skgz/bwyc/202509/t20250919_5916301.shtml"]
+    }
+  ],
+  "bulunamadi": [
+    "bulunamadı: Erlitou I–IV faz sayılarının Zhang vd. 2022 (Radiocarbon 64(4):819–832, doi 10.1017/RDC.2021.72) tam metninden doğrulanması — denenen: cambridge.org core sayfası (yalnız özet, tam metin 'Temporarily unavailable'). Faz değerleri Chen Minzhen 2020 (Huaxia Kaogu) üzerinden dolaylı alındı.",
+    "bulunamadı: Erlitou/Xia'nın ARKEOLOJİK (14C) olarak bağımsız Xia tarihi — Xia için çağdaş yazıt ve doğrudan tarih yok; kaydedilen yalnız proje kronolojisi + Erlitou 14C (ayrı yazıldı).",
+    "bulunamadı: Zhengzhou Shang şehri için Bayes/seri-uydurma 14C sayıları (başlangıç, bitiş). Denenen: cssn.cn arama, Xinhua 2025-12-01, ncha.gov.cn (ECONNREFUSED), zh.wikipedia (kullanılmadı). Vikipedi'de gördüğüm '3570±135 BP, ~1620 MÖ' ve 'Qiu Shihua 2005: 1509–1465 MÖ' ikincil, doğrulanmadı.",
+    "bulunamadı: Panlongcheng (盘龙城) 14C tarihleri. Yalnız Xinhua 29.04.2025: Yangjiawan taş yapısı 'Orta Shang, MÖ 1300–1200' ve kentin 'yaklaşık 300 yıl' sürdüğü; zdic sözlüğü iç şehir ~MÖ 15. yy (dayanağı yok). Denenen: news.cn, hbww.org.cn Jianghan Kaogu (içindekiler açılmadı), zhihu (403).",
+    "bulunamadı: Taosi faz bazlı (erken/orta/geç) kalibre 14C sınırları — yalnız dönem toplamı (2300–1900 MÖ) ve haber düzeyi faz değerleri. Denenen: sciencedirect S2352226717300247 (403), cssn, gmw. Kaogu'daki 14C tablosuna erişilemedi.",
+    "bulunamadı: Shimao Huangchengtai/Outer city için orijinal Kaogu rapor 14C tabloları (laboratuvar kodu, 2σ aralık). Denenen: cssn ve Xinhua özetleri.",
+    "bulunamadı: Xinzhai (新砦期) için okunabilir 14C yayını; yalnız konferans özeti (Zhao Chunqing 2023). 'Henan Longshan sonu 2090–2030 / Xinzhai evresi I 1870–1785 MÖ' arama özetinde göründü, kaynak sayfası okunamadı.",
+    "bulunamadı: Banpo ve Jiangzhai (半坡, 姜寨) alan-bazlı KALİBRE 14C. Denenen: cssn Zhu Naicheng 2023 (yalnız 'yaklaşık 6000 yıl önce' ve göreli faz sırası), PMC aramaları. Frontiers Earth Sci 2021 (Li vd.) Yangshao evre değerleri: erken 5000–4200, orta 4200–3500, geç 3500–3000 MÖ — site-bazlı değil, kayda alınmadı. Gedachuan (Batı Les Platosu) Banpo evresi 5970–5570 cal BP ayrı alan, Banpo değildir.",
+    "bulunamadı: Cishan (磁山) kalibre 14C. Çince haber/özet: CASS 14C laboratuvarı 'MS 7335±105 BP + ağaç halkası düzeltmesi → 8000 yıl önce' (kalibre aralığı verilmemiş, ham değer); haber 2009: 'jade parçası 10300 yıl' (sorunlu, yayımlanmamış). Ham 14C yazılmaz kuralı gereği kayıt dışı.",
+    "bulunamadı: Hongshan / Niuheliang kalibre 14C tablosu. People's Daily (Guo Ming & Jia Xiaobing, 3 Ağustos 2024): 'MS 5800–5200 BP ... Niuheliang, Antik Devletler Çağı'nın I. aşaması' (dönem sınıflaması, tarihleme değil, 14C yok). Wang R. vd. 2025 Mol Biol Evol (PMC12204185): Zhengjiagou geç Hongshan 5285–4978 ve 5279–4871 cal BP (iki örnek, site-bazlı), Hongshan 'MÖ 4. binyıl'. Koordinat için Wikidata Q7041693 (41.334, 119.528) var ama OSM yalnız Niuheliang istasyonunu (41.194, 119.393; ~19 km uzakta) verdi → ikinci tanık yok. Kayıt açılmadı.",
+    "bulunamadı: Sanxingdui I. evre (Neolitik) üst sınırı: Xu Hong'un tarihçe makalesi (kaogu.cssn.cn PDF W020220210535954073300.pdf) — arama özeti '4800 BP erken-seçimli, kalibre veri 4600–4500 BP' diyor; PDF açılmadı. Çukur-bazlı K3/K6/K8 aralıkları (K8 1117–1015, K4 1126–1016) yalnız arama özetinde.",
+    "bulunamadı: Korece akademik kaynaktan Mumun başlangıç tarihi (KCI/DBpia/earticle arama sonuçları yalnız özet; Hwang Jae-hun 2014 vb. makale gövdeleri açılamadı).",
+    "bulunamadı: Harunari–Fujio'nun birincil Yayoi AMS yayını (Nishimoto ed. 2009 Yūzankaku; Fujio 2021 Quaternary 4:3; JAA 69. genel kurul 2003 özeti) — yalnız Sakamoto 2007 (NMJH ekibi içinden) ve Shoda 2010 özeti okundu; Archaeology Magazine (2008) özeti kullanılmadı.",
+    "bulunamadı: Shiji birincil metni (Zhou benji, Qin Shihuang benji, Xiongnu liezhuan) — ctext.org bot engeli, 'Checking your connection' sayfası; Wikisource denenmedi.",
+    "bulunamadı: Jomon başlangıcı için Ōdai Yamamoto'nun orijinal Nakamura & Tsuji 1999 raporu ve Radiocarbon dergisi sayfaları (journals.uair.arizona.edu → redirect). Kobayashi 2007 içindeki yeniden-hesap tablosu esas alındı."
+  ]
+}

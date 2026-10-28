@@ -1,0 +1,346 @@
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 24418f99..1dfd2566 100644
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -5520,6 +5520,160 @@ def kaynak_tavan_indir(Y, yol=None):
+     return True
+ 
+ 
++# ---------------- `zincir_kaynagi:` — BAYAT KOPYA kapısı ----------------
++# 🔴 NİÇİN VAR (UMIT-W6-DALGA4-1006 ölçtü, 5 Ekim 2026): 82 kayıt zincirini
++#   başka bir kayıttan KOPYALAMIŞ (54 elle + 28 ARAC-TR1923-YAZ üretimi) ve
++#   beyan serbest metindeydi ("ankraj Revan — zincirin birebir aynısı").
++#   Kaynak sonradan düzeltildi, kopya donmuş kaldı: 12/82 bayat. Revan 30
++#   Eylül'de düzeltildi; Gümrü · Eçmiyadzin sahte `sovyet-rusya 1917-1920`
++#   penceresini HÂLÂ taşıyordu ve hiçbir denetim SORMUYORDU — sorulamazdı,
++#   çünkü "kimden kopya" bilgisi makine-okunur değildi.
++# ⇒ Alan:  zincir_kaynagi: {yer:"<kaynak kaydın adı>", pencere:["f","t"],
++#                           tur:"birebir"|"birlesim"|"pencere"}
++#   ya da birleşimde AYNI biçimde nesneler LİSTESİ (her parça kendi kaynağı).
++#   Pencere `[f, t)` — dönem alanlarıyla aynı yarı-açık aralık.
++# 🔴 SORU: kopyanın o penceredeki zinciri, kaynağın BUGÜNKÜ zinciriyle hâlâ
++#   aynı mı? Karşılaştırılan iki şey: ① de jure sahip, `v:` → `d:` → `s:`
++#   sırasıyla (VERI-YAPISI: ters sıra "sessizce yanlış"tır; A/B yazım
++#   biçimleri aynı sahibi verir, alan alan kıyas onları SAHTE ayrı sayardı)
++#   ② o günkü `isg:` örtüsünün kimlik kümesi.
++# ⚠️ Kapı "kopya YANLIŞ" demez, "kopya ile kaynak AYRILDI" der: hangisinin
++#   düzeleceği kaynak sorusudur (W6 vakası Lublin: kaynağa eşitlemek de yanlış
++#   olabilir). Bilerek ayrılan kopya beyanını SİLER, kapıyı susturmaz.
++# 📌 Alan YOKSA kapının sorusu yoktur: eski davranış birebir, tek bilgi satırı.
++# 📌 D265 (hesaplandı ama basılmadı): sayı ÖZET satırında da basılır.
++BEKLENEN_BAYAT_KOPYA = None   # None = TAVAN YAZILMADI ⇒ yalnız bilgi. Koordinatör yazar.
++ZK_TURLER = ("birebir", "birlesim", "pencere")
++
++
++def _zk_durum(y, gun):
++    """Kaydın o günkü (de jure sahip, isg kümesi) çifti."""
++    def ic(p):
++        return (p.get("f") or "0000") <= gun < (p.get("t") or "9999")
++    taban = None
++    for p in y.get("v") or []:
++        if ic(p):
++            taban = "tabi:" + (p.get("kid") or "OSMANLI")
++            break
++    if taban is None and any(ic(p) for p in y.get("d") or []):
++        taban = "OSMANLI"
++    if taban is None:
++        for p in y.get("s") or []:
++            if ic(p):
++                taban = p.get("d")
++                break
++    isg = frozenset(p.get("d") for p in y.get("isg") or [] if ic(p))
++    return taban, isg
++
++
++def _zk_yaz(d):
++    taban, isg = d
++    return (taban or "—") + ("" if not isg else " +isg:" + ",".join(sorted(isg)))
++
++
++def zincir_kopya_karsilastir(kopya, kaynak, f, t):
++    """[f, t) içinde iki kaydın ayrıldığı dilimler: [(bas, son, kopya_d, kaynak_d)]."""
++    kes = {f}
++    for y in (kopya, kaynak):
++        for kat in ("s", "d", "v", "isg"):
++            for p in y.get(kat) or []:
++                for u in (p.get("f"), p.get("t")):
++                    if u and f < u < t:
++                        kes.add(u)
++    kes = sorted(kes) + [t]
++    farklar = []
++    for bas, son in zip(kes, kes[1:]):
++        a, b = _zk_durum(kopya, bas), _zk_durum(kaynak, bas)
++        if a == b:
++            continue
++        if farklar and farklar[-1][1] == bas and farklar[-1][2:] == (a, b):
++            farklar[-1] = (farklar[-1][0], son, a, b)
++        else:
++            farklar.append((bas, son, a, b))
++    return farklar
++
++
++def zincir_kaynagi_denetimi(Y):
++    """Dönüş: {beyanli, parca, bayat:[(ad, yer, f, t, tur, farklar)],
++    bozuk:[(ad, sebep)], zincirleme:[(ad, yer)]}."""
++    ix = {y["ad"]: y for y in Y}
++    R = {"beyanli": 0, "parca": 0, "bayat": [], "bozuk": [], "zincirleme": []}
++    for y in Y:
++        zk = y.get("zincir_kaynagi")
++        if zk is None:
++            continue
++        R["beyanli"] += 1
++        parcalar = zk if isinstance(zk, list) else [zk]
++        if not parcalar:
++            R["bozuk"].append((y["ad"], "boş liste"))
++            continue
++        for p in parcalar:
++            R["parca"] += 1
++            if not isinstance(p, dict):
++                R["bozuk"].append((y["ad"], f"parça nesne değil: {p!r}"[:80]))
++                continue
++            yer, pen, tur = p.get("yer"), p.get("pencere"), p.get("tur")
++            if tur not in ZK_TURLER:
++                R["bozuk"].append((y["ad"], f"tur {tur!r} — {'|'.join(ZK_TURLER)} olmalı"))
++                continue
++            if not (isinstance(pen, list) and len(pen) == 2
++                    and all(isinstance(u, str) and len(u) == 10 for u in pen)
++                    and pen[0] < pen[1]):
++                R["bozuk"].append((y["ad"], f"pencere {pen!r} — [\"YYYY-MM-DD\",\"YYYY-MM-DD\"], f < t"))
++                continue
++            if yer == y["ad"] or yer not in ix:
++                R["bozuk"].append((y["ad"], f"kaynak kayıt {yer!r} YOK (ad TAM eşleşmeli)"))
++                continue
++            if ix[yer].get("zincir_kaynagi") is not None:
++                R["zincirleme"].append((y["ad"], yer))
++            farklar = zincir_kopya_karsilastir(y, ix[yer], pen[0], pen[1])
++            if farklar:
++                R["bayat"].append((y["ad"], yer, pen[0], pen[1], tur, farklar))
++    return R
++
++
++def zincir_kaynagi_rapor(R, ayrinti=False):
++    """main() için: basar, ihlal varsa True döner. R["ozet"]e ÖZET satırını koyar."""
++    nb, nz, nbz = len(R["bayat"]), len(R["zincirleme"]), len(R["bozuk"])
++    if not R["beyanli"]:
++        print("Ek denetim  i  zincir_kaynagi: 0 kayıt beyanlı — bayat kopya sorusu "
++              "SORULACAK beyan yok (serbest metin kopyaları bu kapıya GÖRÜNMEZ)")
++        R["ozet"] = None
++        return False
++    ihlal = bool(nbz)
++    if BEKLENEN_BAYAT_KOPYA is None:
++        durum, tavan = ("✗" if nbz else "i"), "TAVAN YAZILMADI — yalnız bilgi"
++    else:
++        ihlal = ihlal or nb > BEKLENEN_BAYAT_KOPYA
++        durum = "✗" if ihlal else "✓"
++        tavan = f"tavan {BEKLENEN_BAYAT_KOPYA}"
++    print(f"Ek denetim  {durum}  zincir_kaynagi: {R['beyanli']} kayıt / {R['parca']} parça "
++          f"beyanlı · {nb} BAYAT KOPYA ({tavan}) · {nbz} bozuk beyan · {nz} zincirleme")
++    if BEKLENEN_BAYAT_KOPYA is not None and nb < BEKLENEN_BAYAT_KOPYA:
++        print(f"            ⚠️ TAVAN GEVŞEK — BEKLENEN_BAYAT_KOPYA = {nb} yapılmalı.")
++    for ad, sebep in R["bozuk"]:
++        print(f"    ✗ BOZUK BEYAN  {ad}: {sebep}")
++    for ad, yer, f, t, tur, farklar in R["bayat"]:
++        gun = sum((date.fromisoformat(s) - date.fromisoformat(b)).days
++                  for b, s, _, _ in farklar)
++        yalniz_isg = all(a[0] == k[0] for _, _, a, k in farklar)
++        print(f"    BAYAT KOPYA  {ad} ← {yer}  [{f}, {t}) {tur} · {len(farklar)} dilim, {gun} gün ayrı"
++              + (" · YALNIZ isg: örtüsü" if yalniz_isg else ""))
++        for b, s, a, k in (farklar if ayrinti else farklar[:3]):
++            print(f"        {b} → {s}  kopya {_zk_yaz(a)}  ≠  kaynak {_zk_yaz(k)}")
++        if not ayrinti and len(farklar) > 3:
++            print(f"        … {len(farklar) - 3} dilim daha (--ayrinti)")
++    if nz:
++        print(f"            i zincirleme (kaynak da kopya, §4): "
++              + " · ".join(f"{a} ← {k}" for a, k in R["zincirleme"]))
++    if nb:
++        print("    → kopya ile kaynak AYRILDI. Hangisi düzelir KAYNAK sorusudur; bilerek "
++              "ayrılan kopya beyanını SİLER.")
++    R["ozet"] = (f"ÖZET · bayat kopya: {nb} ({tavan}) · bozuk beyan: {nbz} · "
++                 f"beyanlı kayıt: {R['beyanli']}")
++    return ihlal
++
++
+ def main():
+     ap = argparse.ArgumentParser(description="Üç değişmezi tek komutta denetler.")
+     ap.add_argument("--ayrinti", action="store_true", help="her ihlali tek tek listele")
+@@ -6278,6 +6432,11 @@ def main():
+             for t, ad, ot, b, fark in sorted(dusen, key=lambda r: -abs(r[4])):
+                 print(f"              {t}  {ad:30s} ↔ {ot:10s} {fark:+4d}g  {b}")
+ 
++    # Ek denetim — `zincir_kaynagi:` BAYAT KOPYA (kopya beyanı kaynağından ayrıldı mı)
++    ZK = zincir_kaynagi_denetimi(Y)
++    if zincir_kaynagi_rapor(ZK, ayrinti=args.ayrinti):
++        ihlal = True
++
+     # Değişmez 8 — şehir bölgesi ülke sınırını aşamaz (motor ÇIKTISINI ölçer)
+     if degismez8_rapor(Y, ayrinti=args.ayrinti, defter_yaz=args.d8_defter_yaz,
+                        kor_defter_yaz=args.d8_kor_defter_yaz, kor_defter=args.d8_kor_defter):
+@@ -6328,6 +6487,8 @@ def main():
+                   " sınandı. Maske dışındaki nokta HİÇ toprak sahibi olamaz.")
+ 
+     print()
++    if ZK.get("ozet"):
++        print(ZK["ozet"])
+     # 🔴 UC HAL, UC KOD (4 Ekim 2026) — "olculemedi" artik temiz SAYILMAZ.
+     #    Once IHLAL, sonra OLCULEMEDI: gercek bir ihlal varsa hukum odur,
+     #    ama eksik olcum YINE DE basilir (ikisi birbirini gizlemez).
+diff --git a/denetim/ARAC-ZINCIR-SINAV-1006.py b/denetim/ARAC-ZINCIR-SINAV-1006.py
+new file mode 100644
+index 00000000..a5557855
+--- /dev/null
++++ b/denetim/ARAC-ZINCIR-SINAV-1006.py
+@@ -0,0 +1,154 @@
++# -*- coding: utf-8 -*-
++"""ARAC-ZINCIR-SINAV-1006 — `zincir_kaynagi:` bayat kopya kapısının sınavı (UMIT-W9-ZINCIR-1006).
++
++Üç kol, İKİ YÖNDE (CLAUDE.md §11: "yeni denetim iki yönde sınanmadan çalışıyor sayılmaz"):
++  ① BAYAT kopya kurulunca ÖTER   (taban farkı · yalnız isg farkı · v:kid farkı · bozuk beyan)
++  ② GÜNCEL kopyada ÖTMEZ         (A/B yazım biçimi farkı sahibi değiştirmez ⇒ sahte bayat yok)
++  ③ alan YOKSA eski davranış     (beyan 0 · ihlal yok · ÖZET satırı yok · tek bilgi satırı)
++  ④ gerçek veri                  (bilgi: kaç beyan, kaç bayat — adlarıyla)
++
++Koşu:  py denetim/ARAC-ZINCIR-SINAV-1006.py        (depo kökünden)
++Çıkış: 0 bütün kollar tuttu · 1 en az bir kol çürüdü
++"""
++import contextlib
++import copy
++import io
++import os
++import sys
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++sys.path.insert(0, os.path.join(KOK, "arac"))
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8")
++import denetle  # noqa: E402
++
++KAYNAK = {"ad": "Kaynak", "s": [{"f": "1281-01-01", "t": "1400-01-01", "d": "bizans"},
++                                {"f": "1500-01-01", "t": "1923-10-29", "d": "safevi"}],
++          "d": [{"f": "1400-01-01", "t": "1500-01-01"}],
++          "v": [], "isg": [{"f": "1600-01-01", "t": "1610-01-01", "d": "rusya"}]}
++ZK = {"yer": "Kaynak", "pencere": ["1281-01-01", "1923-10-29"], "tur": "birebir"}
++SONUC = []
++
++
++def kol(ad, kosul):
++    SONUC.append((ad, bool(kosul)))
++    print(("  ✓ " if kosul else "  ✗ ") + ad)
++
++
++def kopya(**degis):
++    y = copy.deepcopy(KAYNAK)
++    y["ad"] = "Kopya"
++    y["zincir_kaynagi"] = copy.deepcopy(ZK)
++    y.update(degis)
++    return y
++
++
++def kos(Y):
++    R = denetle.zincir_kaynagi_denetimi(Y)
++    tampon = io.StringIO()
++    with contextlib.redirect_stdout(tampon):
++        ihlal = denetle.zincir_kaynagi_rapor(R)
++    return R, ihlal, tampon.getvalue()
++
++
++print("① BAYAT kopya ÖTER")
++y = kopya(s=[{"f": "1281-01-01", "t": "1400-01-01", "d": "bizans"},
++             {"f": "1500-01-01", "t": "1923-10-29", "d": "kacar"}])
++R, _, cikti = kos([KAYNAK, y])
++kol("taban farkı (safevi ↔ kacar) bayat sayılır", len(R["bayat"]) == 1)
++kol("adıyla basılır", "BAYAT KOPYA  Kopya ← Kaynak" in cikti)
++kol("ÖZET satırı sayıyı taşır (D265)", (R.get("ozet") or "").startswith("ÖZET · bayat kopya: 1"))
++R, _, cikti = kos([KAYNAK, kopya(isg=[])])
++kol("yalnız isg: farkı bayat sayılır ve etiketlenir",
++    len(R["bayat"]) == 1 and "YALNIZ isg:" in cikti)
++k2 = copy.deepcopy(KAYNAK)
++k2["v"] = [{"f": "1450-01-01", "t": "1460-01-01"}]
++y = kopya(v=[{"f": "1450-01-01", "t": "1460-01-01", "kid": "eflak"}])
++R, _, _ = kos([k2, y])
++kol("v:kid farkı (tâbi kimliği) bayat sayılır", len(R["bayat"]) == 1)
++y = kopya()
++y["zincir_kaynagi"] = {"yer": "Pencere", "pencere": ["1700-01-01", "1800-01-01"], "tur": "pencere"}
++z = copy.deepcopy(KAYNAK)
++z["ad"] = "Pencere"
++z["s"] = [{"f": "1281-01-01", "t": "1923-10-29", "d": "safevi"}]
++z["d"] = []
++z["isg"] = []
++R, _, _ = kos([KAYNAK, z, y])
++kol("pencere DIŞI fark sayılmaz, İÇİ sayılır (1700-1800 aynı ⇒ 0)", len(R["bayat"]) == 0)
++y["zincir_kaynagi"]["pencere"] = ["1450-01-01", "1800-01-01"]
++R, _, _ = kos([KAYNAK, z, y])
++kol("pencere farka uzanınca sayılır (1450-1500 OSMANLI ↔ safevi)", len(R["bayat"]) == 1)
++for bozuk, ne in ((dict(ZK, yer="YokBöyleKayıt"), "kaynak kayıt yok"),
++                  (dict(ZK, tur="kopya"), "tanımsız tur"),
++                  (dict(ZK, pencere=["1923-10-29", "1281-01-01"]), "ters pencere"),
++                  (dict(ZK, pencere=["1281"]), "eksik pencere"),
++                  (dict(ZK, yer="Kopya"), "kendine kopya"),
++                  ([], "boş liste")):
++    y = kopya(zincir_kaynagi=bozuk)
++    R, ihlal, _ = kos([KAYNAK, y])
++    kol(f"bozuk beyan ihlaldir — {ne}", len(R["bozuk"]) == 1 and ihlal)
++eski = denetle.BEKLENEN_BAYAT_KOPYA
++try:
++    denetle.BEKLENEN_BAYAT_KOPYA = 0
++    y = kopya(s=[{"f": "1281-01-01", "t": "1923-10-29", "d": "kacar"}])
++    R, ihlal, _ = kos([KAYNAK, y])
++    kol("tavan yazılınca tavanı AŞAN bayat ihlaldir", ihlal)
++    denetle.BEKLENEN_BAYAT_KOPYA = 1
++    R, ihlal, _ = kos([KAYNAK, y])
++    kol("tavan İÇİNDEKİ bayat ihlal değildir", not ihlal)
++finally:
++    denetle.BEKLENEN_BAYAT_KOPYA = eski
++y = kopya()
++w = kopya()
++w["ad"] = "Kopyanın kopyası"
++w["zincir_kaynagi"] = dict(ZK, yer="Kopya")
++R, _, _ = kos([KAYNAK, y, w])
++kol("zincirleme (kaynak da kopya) ayrı sayılır", R["zincirleme"] == [("Kopyanın kopyası", "Kopya")])
++
++print("② GÜNCEL kopya ÖTMEZ")
++R, ihlal, _ = kos([KAYNAK, kopya()])
++kol("birebir aynı zincir ⇒ 0 bayat, ihlal yok", not R["bayat"] and not ihlal)
++# B biçimi: d: SÜREKLİ, v: içine yuvalanır · A biçimi: d: kesilir, araya v: girer
++A = {"ad": "Kaynak", "s": [], "isg": [],
++     "d": [{"f": "1281-01-01", "t": "1500-01-01"}, {"f": "1600-01-01", "t": "1923-10-29"}],
++     "v": [{"f": "1500-01-01", "t": "1600-01-01", "kid": "eflak"}]}
++Bk = {"ad": "Kopya", "s": [], "isg": [], "zincir_kaynagi": dict(ZK),
++      "d": [{"f": "1281-01-01", "t": "1923-10-29"}],
++      "v": [{"f": "1500-01-01", "t": "1600-01-01", "kid": "eflak"}]}
++R, _, _ = kos([A, Bk])
++kol("A/B yazım biçimi (v: kazanır) sahte bayat ÜRETMEZ", not R["bayat"])
++y = kopya()
++y["s"] = [{"f": "1281-01-01", "t": "1350-01-01", "d": "bizans"},
++          {"f": "1350-01-01", "t": "1400-01-01", "d": "bizans"},
++          {"f": "1500-01-01", "t": "1923-10-29", "d": "safevi"}]
++R, _, _ = kos([KAYNAK, y])
++kol("aynı sahibin bölünmüş dönemi sahte bayat ÜRETMEZ", not R["bayat"])
++y = kopya(zincir_kaynagi=[dict(ZK, pencere=["1281-01-01", "1500-01-01"], tur="pencere"),
++                          dict(ZK, pencere=["1500-01-01", "1923-10-29"], tur="pencere")])
++R, _, _ = kos([KAYNAK, y])
++kol("liste biçimi (iki parça) okunur, 0 bayat", R["parca"] == 2 and not R["bayat"])
++
++print("③ alan YOKSA eski davranış")
++y = copy.deepcopy(KAYNAK)
++y["ad"] = "Beyansız"
++y["s"] = [{"f": "1281-01-01", "t": "1923-10-29", "d": "kacar"}]   # kaynaktan FARKLI ama beyansız
++R, ihlal, cikti = kos([KAYNAK, y])
++kol("beyansız farklı kayıt kapıya GÖRÜNMEZ", R["beyanli"] == 0 and not R["bayat"])
++kol("ihlal yok · ÖZET satırı yok", not ihlal and R.get("ozet") is None)
++kol("tek bilgi satırı basılır", cikti.count("\n") == 1 and "0 kayıt beyanlı" in cikti)
++
++print("④ gerçek veri (bilgi — tavan ÖNERİSİ buradan)")
++import girdi  # noqa: E402
++with contextlib.redirect_stdout(io.StringIO()):
++    Y = girdi.yukle(sessiz=True)
++R = denetle.zincir_kaynagi_denetimi(Y)
++print(f"  beyanlı kayıt {R['beyanli']} · parça {R['parca']} · BAYAT {len(R['bayat'])} · "
++      f"bozuk {len(R['bozuk'])} · zincirleme {len(R['zincirleme'])}")
++for ad, yer, f, t, tur, fk in R["bayat"]:
++    print(f"    {ad} ← {yer} [{f}, {t}) {tur} · {len(fk)} dilim")
++for ad, sebep in R["bozuk"]:
++    print(f"    BOZUK {ad}: {sebep}")
++
++cur = [a for a, ok in SONUC if not ok]
++print(f"\nSINAV: {len(SONUC) - len(cur)}/{len(SONUC)} kol tuttu" + (" — ÇÜRÜYEN: " + " · ".join(cur) if cur else ""))
++sys.exit(1 if cur else 0)

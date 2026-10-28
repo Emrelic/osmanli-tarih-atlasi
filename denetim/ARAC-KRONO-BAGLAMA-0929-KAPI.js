@@ -47,6 +47,26 @@ if (kesit.indexOf("derinKronolojiBindir") < 0 || kesit.indexOf("cokTarafliKronol
   process.exit(0);
 }
 
+// ---- TEMSİL YÜKLEMİ — app.js'ten KESİLİR, burada tanımlanmaz (1006b) ---------
+// Ekrandan düşen künye maddesi iki ayrı hâldir: dosyada TEMSİL EDİLİYORSA
+// meşru düşüştür (basılır, ihlal değil); edilmiyorsa KAYIPTIR (ihlal). Yüklem
+// (`kronoGun` + `kronoTemsilEdiliyor`) `app.js`teki TEK tanımdan kesilir.
+// `G.yuklem` (ops.) yüklemin okunacağı dosya — yalnız sınav içindir: yamasız
+// app.js'in davranışını yamalı app.js'in yüklemiyle sınıflamak için.
+// Yüklem bulunamazsa ÖLÇÜLEMEDİ (sessiz "hepsi kayıp" ya da "hepsi temsil" YOK).
+const yuklemAd = G.yuklem || G.app;
+const yKaynak = fs.readFileSync(path.resolve(G.kok, yuklemAd), "utf8");
+const y0 = yKaynak.indexOf("function kronoGun("), y1 = yKaynak.indexOf("(function derinKronolojiBindir()");
+const yT = yKaynak.indexOf("function kronoTemsilEdiliyor(");
+if (y0 < 0 || y1 <= y0 || yT < y0 || yT > y1) {
+  process.stdout.write(JSON.stringify({ hata: "temsil yüklemi (kronoGun + kronoTemsilEdiliyor) " +
+    yuklemAd + " içinde bulunamadı" }));
+  process.exit(0);
+}
+const yCtx = vm.createContext({});
+vm.runInContext(yKaynak.slice(y0, y1), yCtx, { filename: yuklemAd + "#temsil-yuklemi" });
+const temsilEdiliyor = yCtx.kronoTemsilEdiliyor;
+
 // ---- koşudan ÖNCE fotoğraf ------------------------------------------------
 const D = ctx.DEVLETLER || [];
 const once = {};                                   // id -> özgün künye dizisi
@@ -59,31 +79,60 @@ vm.runInContext(kesit, ctx, { filename: G.app + "#kronoloji-kesiti" });
 
 // ---- DAVRANIŞTAN oku -----------------------------------------------------
 const kisa = m => ({ t: m.t, b: m.b });
-const bagli = [], eslenmeyen = [], ezilen = [];
+// 🆕 ODAK-KAPI-KIMLIK-1006 ④ — hüküm DOSYA değil MADDE başına, NESNE KİMLİĞİYLE.
+//    Eski sezgi dosyanın İLK maddesine (`dizi[0]`) bakıyordu: W37 çok-taraflı
+//    yönlendirmesinden sonra 8 dosyanın ilk maddesi taraflı olmadığı için
+//    "8 dosya · 1.142 madde ERİŞİLEMEZ" diyordu, oysa 917'si İNİYORDU (gerçek
+//    erişilemeyen 225); ilk maddesi taraflı 7 dosyayı da "bağlı 942" sayıyordu,
+//    oysa 763'ü iniyordu. İki yönde yanlış. Ölçüm: `denetim/ODAK-KAPI-KORLUK-1006.md` §4.
+//    Üç kova: BAĞLI (tek-künye bindiricisi bağladı) · YÖNLENDİRİLDİ k/n (app.js
+//    `KRONOLOJI_COK_YOLU`na düştü, k madde çok-taraflı ekleyiciyle indi) ·
+//    EŞLENMEYEN (0 madde indi). Hangi dosyanın yönlendirildiğini app.js'in
+//    KENDİ listesi söyler (kesitte `var`, bağlamda okunur) — tahmin edilmez.
+//    ⚠️ BAĞLI ≠ "künyenin dizisi === dosya": EZİLDİ zincirinden beri bindirici
+//       künye dizisini birleştirip YENİ dizi kurar (ölçüldü: o ölçütle 41
+//       dosyadan yalnız 2'si "bağlı" çıktı).
+const inenSet = new Set();
+D.forEach(d => { if (d && Array.isArray(d.kronoloji)) d.kronoloji.forEach(m => inenSet.add(m)); });
+const yonListesi = Array.isArray(ctx.KRONOLOJI_COK_YOLU) ? ctx.KRONOLOJI_COK_YOLU : null;
+const yonSet = new Set(yonListesi || []);
+const bagli = [], yonlendirilen = [], eslenmeyen = [], ezilen = [];
 tekAnahtar.forEach(k => {
   const dizi = ctx[k];
   const alan = D.filter(d => d && d.kronoloji === dizi);
-  // cok-tarafli ekleyici künyenin dizisini .slice() ile kopyalayabilir; kopyada
-  // dosyanın İLK maddesi nesne olarak aynıdır ⇒ ikinci işaret.
-  const alan2 = alan.length ? alan : D.filter(d => d && Array.isArray(d.kronoloji) &&
-    dizi.length && d.kronoloji.indexOf(dizi[0]) >= 0 && d.kronoloji !== once[d.id]);
-  if (!alan2.length) {
-    eslenmeyen.push({ anahtar: k, madde: dizi.length });
+  const inmeyen = dizi.filter(m => !inenSet.has(m));
+  const inen = dizi.length - inmeyen.length;
+  if (inen === 0) {
+    eslenmeyen.push({ anahtar: k, madde: dizi.length, inen: 0, yonlendi: yonSet.has(k) });
     return;
   }
+  if (yonSet.has(k)) {
+    yonlendirilen.push({ anahtar: k, madde: dizi.length, inen: inen,
+                         inmeyen: inmeyen.length, inmeyen_madde: inmeyen.map(kisa) });
+    return;
+  }
+  // EZİLEN sorusu için künye kümesi ESKİ işaretle kalır (davranış değişmedi):
+  // bindirici künyenin dizisini yeniden kurabilir; dosyanın İLK maddesi nesne
+  // olarak aynıdır ⇒ ikinci işaret.
+  const alan2 = alan.length ? alan : D.filter(d => d && Array.isArray(d.kronoloji) &&
+    dizi.length && d.kronoloji.indexOf(dizi[0]) >= 0 && d.kronoloji !== once[d.id]);
+  if (!alan2.length)
+    bagli.push({ anahtar: k, id: null, madde: dizi.length, inen: inen, inmeyen: inmeyen.length });
   alan2.forEach(d => {
-    bagli.push({ anahtar: k, id: d.id, madde: dizi.length });
+    bagli.push({ anahtar: k, id: d.id, madde: dizi.length, inen: inen, inmeyen: inmeyen.length });
     const eski = once[d.id];
     if (eski && eski.length && eski !== dizi) {
       // künyenin özgün maddelerinden koşudan sonra EKRANDA OLMAYANLAR (nesne kimliğiyle);
-      // bunlardan aynı `t`de bir dosya maddesi kalanlar "yerine geçen", kalmayanlar KAYIP
+      // dosyada temsil edilenler MEŞRU DÜŞÜŞ, edilmeyenler KAYIP (1006b)
       const son = d.kronoloji || [];
-      const kayip = eski.filter(m => son.indexOf(m) < 0);
-      const karsiliksiz = kayip.filter(m => !son.some(o => o.t === m.t));
-      if (kayip.length)
+      const dusen = eski.filter(m => son.indexOf(m) < 0);
+      const temsil = dusen.filter(m => temsilEdiliyor(m, dizi));
+      const kayip = dusen.filter(m => temsil.indexOf(m) < 0);
+      if (dusen.length)
         ezilen.push({ anahtar: k, id: d.id, kunye_madde: eski.length, dosya_madde: dizi.length,
-                      kayip: kayip.length, karsiliksiz: karsiliksiz.length,
-                      kunye: eski.map(kisa), dosya: dizi.map(kisa), karsiliksiz_madde: karsiliksiz.map(kisa) });
+                      dusen: dusen.length, kayip: kayip.length, temsil: temsil.length,
+                      kunye: eski.map(kisa), dosya: dizi.map(kisa),
+                      kayip_madde: kayip.map(kisa), temsil_madde: temsil.map(kisa) });
     }
   });
 });
@@ -91,6 +140,7 @@ tekAnahtar.forEach(k => {
 process.stdout.write(JSON.stringify({
   dosya_sayisi: G.dosyalar.length, yukleme_hatasi: yuklemeHatasi,
   kunye: D.length, tek_anahtar: tekAnahtar.length, cok_anahtar: cokAnahtar.length,
-  bagli, eslenmeyen, ezilen,
+  bagli, yonlendirilen, eslenmeyen, ezilen, yuklem: G.yuklem || null,
+  yon_listesi: yonListesi ? yonListesi.length : null,
   app_konsol: loglar.filter(l => /KRONOLOJ|kronoloji/.test(l[1])),
 }));

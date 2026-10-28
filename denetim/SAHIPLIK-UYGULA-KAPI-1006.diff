@@ -1,0 +1,241 @@
+diff --git a/arac/_bayat_yama_kapi.py b/arac/_bayat_yama_kapi.py
+new file mode 100644
+index 00000000..6368f19a
+--- /dev/null
++++ b/arac/_bayat_yama_kapi.py
+@@ -0,0 +1,151 @@
++# -*- coding: utf-8 -*-
++"""BAYAT YAMA KAPISI — `_sahiplik_uygula.py`nin yazmadan önceki ŞART kapısı.
++
++═══ NİÇİN VAR ═══
++6 Ekim 2026 ölçümü (`denetim/YALAN-DAMGA-YERYAMA-1006.md`): araç `data/yer_yama*.js`i
++GLOB ile okuyor ve glob, çoktan İNMİŞ yamaları da görüyor. Kuru koşu 177 kayıt
++değiştirecekti; **174'ünde** yamanın yazacağı dizi O KAYDIN geçmişinde zaten bir kez
++vardı ve sonradan değiştirilmişti ⇒ `--yaz` o sonraki düzeltmeleri SESSİZCE geri
++alacaktı (63'ü kaynaklı dönem siliyordu, 93'ü `kid:`li tâbi dönemi).
++
++═══ SORU ═══
++Her değişim için, yamanın yazacağı her `d/s/v/isg` dizisi:
++    O KAYDIN satır geçmişinde (`git log -L i,j:dosya`) bir sürümde VAR mıydı?
++        evet + bugün yok  ⇒ BAYAT: yama bir kez inmiş, kayıt sonra düzeltilmiş.
++        hayır             ⇒ TAZE: yazılabilir.
++Ölçülemeyen her durum (git yok · depo değil · dosya kirli · aralık HEAD'de yok ·
++git hata verdi) bir `KapiOlcemedi` istisnasıdır — çağıran KOŞMAZ.
++`ölçülemedi ≠ temiz` (CLAUDE.md §11).
++"""
++import os
++import re
++import subprocess
++from concurrent.futures import ThreadPoolExecutor
++
++ALANLAR = ("d", "s", "v", "isg")
++
++
++class KapiOlcemedi(Exception):
++    """Kapı soruyu SORAMADI — araç koşmamalı."""
++
++
++def dilim(metin, alan):
++    """Kayıt metnindeki ÜST SEVİYE `<alan>:[ … ]` dizisi (tırnak/kaçış farkında); yoksa None."""
++    rx = re.compile(r'(?<![\w"])%s:\s*\[' % alan)
++    # dizge içindeki eşleşmeleri atla
++    for m in rx.finditer(metin):
++        q = esc = False
++        for k in range(m.start()):
++            c = metin[k]
++            if esc:
++                esc = False
++            elif c == "\\":
++                esc = True
++            elif c == '"':
++                q = not q
++        if q:
++            continue
++        i, der, q, esc = m.end() - 1, 0, False, False
++        for k in range(i, len(metin)):
++            c = metin[k]
++            if esc:
++                esc = False
++                continue
++            if c == "\\":
++                esc = True
++                continue
++            if c == '"':
++                q = not q
++                continue
++            if q:
++                continue
++            if c == "[":
++                der += 1
++            elif c == "]":
++                der -= 1
++                if der == 0:
++                    return metin[i:k + 1]
++        return None
++    return None
++
++
++def norm(s):
++    """Biçim farkını sil: boşluk ve tırnaklı anahtar (`"f":` ↔ `f:`)."""
++    s = re.sub(r'"([A-Za-z_]\w*)"\s*:', r"\1:", s)
++    return re.sub(r"\s+", "", s)
++
++
++def _git(kok, *arg):
++    try:
++        p = subprocess.run(["git"] + list(arg), cwd=kok, capture_output=True)
++    except OSError as e:
++        raise KapiOlcemedi("git çalıştırılamadı: %s" % e)
++    return p
++
++
++def hazirlik(kok):
++    """Kapının soruyu sorabilir olduğunu sına; soramıyorsa KapiOlcemedi."""
++    p = _git(kok, "rev-parse", "--is-inside-work-tree")
++    if p.returncode != 0 or p.stdout.decode().strip() != "true":
++        raise KapiOlcemedi("git deposu değil: %s" % kok)
++
++
++def _kirli_mi(kok, dosya_yol):
++    p = _git(kok, "diff", "--quiet", "HEAD", "--", dosya_yol)
++    if p.returncode not in (0, 1):
++        raise KapiOlcemedi("git diff hata: %s" % p.stderr.decode("utf-8", "replace")[:200])
++    return p.returncode == 1
++
++
++def _gecmis(kok, dosya_yol, i, j):
++    """Aralığın satır geçmişi: [(kısa_hash, gün, '+' satırlarının birleşimi)]."""
++    p = _git(kok, "log", "-L", "%d,%d:%s" % (i, j, dosya_yol), "--format=@@C %h %cs")
++    if p.returncode != 0:
++        raise KapiOlcemedi("git log -L %d,%d:%s → %s" % (
++            i, j, dosya_yol, p.stderr.decode("utf-8", "replace").strip()[:200]))
++    surum, cur = [], None
++    for ln in p.stdout.decode("utf-8", "replace").splitlines():
++        if ln.startswith("@@C "):
++            parca = ln[4:].split(" ")
++            cur = [parca[0], parca[1] if len(parca) > 1 else "", []]
++            surum.append(cur)
++        elif cur is not None and ln.startswith("+") and not ln.startswith("+++"):
++            cur[2].append(ln[1:])
++    if not surum:
++        raise KapiOlcemedi("git log -L %d,%d:%s hiç sürüm döndürmedi" % (i, j, dosya_yol))
++    return [(h, g, norm("".join(p))) for h, g, p in surum]
++
++
++def bayat_mi(kok, dosya_yol, i, j, eski, yeni):
++    """Tek değişim için: [(alan, [(hash, gün), …])] — boşsa TAZE."""
++    gec = None
++    out = []
++    for alan in ALANLAR:
++        y, e = dilim(yeni, alan), dilim(eski, alan)
++        if not y or (e is not None and norm(y) == norm(e)):
++            continue
++        if gec is None:
++            gec = _gecmis(kok, dosya_yol, i, j)
++        ny = norm(y)
++        isabet = [(h, g) for h, g, metin in gec if ny in metin]
++        if isabet:
++            out.append((alan, isabet))
++    return out
++
++
++def tara(kok, degisimler, is_parcacigi=6):
++    """degisimler: [{"ad", "dosya_yol" (köke göre), "i", "j" (1 tabanlı), "eski", "yeni"}]
++    Dönüş: [(ad, dosya_yol, i, [(alan, [(hash, gün)])])] — yalnız BAYAT olanlar.
++    Ölçülemeyen tek bir kayıt bile KapiOlcemedi fırlatır (kısmi temiz yok)."""
++    hazirlik(kok)
++    kirli = sorted({d["dosya_yol"] for d in degisimler if _kirli_mi(kok, d["dosya_yol"])})
++    if kirli:
++        raise KapiOlcemedi("hedef dosya COMMİTLENMEMİŞ değişiklik taşıyor, satır geçmişi "
++                           "güvenilir değil: %s" % ", ".join(kirli))
++
++    def bir(d):
++        return d, bayat_mi(kok, d["dosya_yol"], d["i"], d["j"], d["eski"], d["yeni"])
++
++    with ThreadPoolExecutor(is_parcacigi) as ex:
++        sonuc = list(ex.map(bir, degisimler))
++    return [(d["ad"], d["dosya_yol"], d["i"], b) for d, b in sonuc if b]
+diff --git a/arac/_sahiplik_uygula.py b/arac/_sahiplik_uygula.py
+index 4ef6f358..d5788809 100644
+--- a/arac/_sahiplik_uygula.py
++++ b/arac/_sahiplik_uygula.py
+@@ -2,6 +2,10 @@
+ # 🔴 BU ARACI --yaz İLE KOŞTURMA — glob'daki İNMİŞ yamalar 174 kaydı GERİ ALIR (63'ü kaynaklı dönem
+ #    siler, 93'ü kid'li tâbi dönemi siler; ölçüldü 6 Ekim 2026, denetim/YALAN-DAMGA-YERYAMA-1006.md).
+ #    Geri alma kapısı inene ve inmiş yamalar glob dışına taşınana kadar (koordinatör hükmü) koşturulmaz.
++# 🟢 GERİ ALMA KAPISI İNDİ (SAHIPLIK-UYGULA-KAPI-1006): `arac/_bayat_yama_kapi.py` ŞARTTIR —
++#    yoksa / soramazsa araç ÇIKIŞ 3 ile durur; bayat yama bulursa HİÇBİR ŞEY YAZMADAN ÇIKIŞ 2.
++#    Taşıma (inmiş yamaların glob dışına alınması) koordinatörün ayrı işidir; o inene kadar
++#    kapı bugünkü korpusta bayat kayıtları adıyla durdurur.
+ """SAHİPLİK YAMASI UYGULAYICI — yer_yama*.js  ->  yerlesimler*.js
+ 
+     py arac/_sahiplik_uygula.py           KURU KOŞU (hiçbir şey yazmaz)
+@@ -158,6 +162,16 @@ def maddesi_var(gun, tolerans=30):
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ import girdi  # noqa: E402
+ 
++# 🔴 GERİ ALMA KAPISI — ŞART (koordinatör hükmü, 6 Ekim 2026). Modül yoksa araç KOŞMAZ:
++#   kapısız bir uygulayıcı, glob'daki inmiş yamalarla sonraki düzeltmeleri SESSİZCE geri alır
++#   (ölçüldü: 177 değişimin 174'ü — `denetim/YALAN-DAMGA-YERYAMA-1006.md`).
++try:
++    import _bayat_yama_kapi as KAPI  # noqa: E402
++except Exception as _e:  # noqa: BLE001
++    print("🔴 GERİ ALMA KAPISI YÜKLENEMEDİ (%s: %s) — araç KOŞMAZ (çıkış 3)."
++          % (type(_e).__name__, _e))
++    raise SystemExit(3)
++
+ DOSYALAR = list(girdi.GIRDI_DOSYALARI)
+ AD_RX = re.compile(r'\bad:\s*"((?:[^"\\]|\\.)*)"')
+ 
+@@ -756,6 +770,7 @@ atlanan = []
+ degisiklik = collections.defaultdict(int)
+ inen = []
+ duzenleme = []        # (dosya, i, j, yeni_satirlar) — TERSTEN uygulanır
++kapi_aday = []        # geri alma kapısına gidecek her değişim (yazmadan ÖNCE sorulur)
+ 
+ for ad, liste in sorted(gruplu.items()):
+     x = liste[0]
+@@ -932,6 +947,8 @@ for ad, liste in sorted(gruplu.items()):
+     #   sonundan başına doğru (TERSTEN) uygulanır; böylece henüz
+     #   uygulanmamış aralıkların indeksleri geçerli kalır.
+     duzenleme.append((dosya, i, j, yeni_satir.split("\n")))
++    kapi_aday.append({"ad": ad, "dosya_yol": "data/" + dosya, "i": i + 1, "j": j + 1,
++                      "eski": satir, "yeni": yeni_satir})
+     ist["uygulandi"] += 1
+     degisiklik[dosya] += 1
+     inen.append((ad, dosya, "+".join(dokunulan), zayif,
+@@ -966,6 +983,34 @@ if atlanan:
+     for ad, sebep in atlanan:
+         print("  %-28s %s" % (ad[:28], sebep))
+ 
++# ─────────────────────────────────────────── ⑧ GERİ ALMA KAPISI (ŞART)
++# Kuru koşuda da sorulur: "177 iner" demek, 174'ü geri almaysa YALAN bir rapordur.
++print()
++print("GERİ ALMA KAPISI: %d değişim, her biri kendi satır geçmişine (git log -L) soruluyor…"
++      % len(kapi_aday))
++try:
++    bayat = KAPI.tara(KOK, kapi_aday)
++except KAPI.KapiOlcemedi as _e:
++    print("🔴 KAPI ÖLÇEMEDİ — %s" % _e)
++    print("   ölçülemedi ≠ temiz ⇒ araç KOŞMAZ, hiçbir dosya yazılmadı (çıkış 3).")
++    raise SystemExit(3)
++except Exception as _e:  # noqa: BLE001
++    print("🔴 KAPI ÇALIŞMADI — %s: %s ⇒ araç KOŞMAZ, hiçbir dosya yazılmadı (çıkış 3)."
++          % (type(_e).__name__, _e))
++    raise SystemExit(3)
++if bayat:
++    print("🔴 BAYAT YAMA: %d kayıt — yamanın yazacağı dizi O KAYDIN geçmişinde VARDI ve bugün"
++          " YOK ⇒ yama bir kez inmiş, kayıt sonra düzeltilmiş; yazmak o düzeltmeyi GERİ ALIR."
++          % len(bayat))
++    for ad, yol, satir_no, alanlar in sorted(bayat):
++        print("  %-28s %s:%d  %s" % (ad[:28], yol, satir_no, " · ".join(
++            "%s (geçmişte: %s)" % (a, ", ".join("%s %s" % hg for hg in isabet[:3]))
++            for a, isabet in alanlar)))
++    print("   ⇒ HİÇBİR DOSYA YAZILMADI (çıkış 2). Çare: inmiş yamayı glob dışına al "
++          "(`data/yer_yama_arsiv/`), ya da kaydın bugünkü hâlini yamaya işle.")
++    raise SystemExit(2)
++print("  ✓ bayat yama yok — %d değişim TAZE." % len(kapi_aday))
++
+ if YAZ:
+     # 🔴 TERSTEN — dosya SONUNDAN başına doğru. Bir kaydın satır sayısı
+     #   değişirse (çok satırlı kayıt tek satıra inebilir) ondan SONRAKİ

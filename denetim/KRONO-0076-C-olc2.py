@@ -3,7 +3,7 @@
 (c) AY hassasiyetli t: sayimi (CLAUDE.md §8 ihlali). Salt okur."""
 import io, os, re
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 
 def kayitlar(metin):

@@ -11,7 +11,7 @@ Geometri: data/petek_govde.js (koşu 10 PETEK_D tabanı, ada göre eşlenir) ·
 KARA: motorun kendi satırları (ARAC-P13B-KARA-0914.py)."""
 import ast, io, json, os, sys, time, importlib.util, math
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 from shapely.geometry import Polygon, MultiPolygon
 from shapely.ops import unary_union

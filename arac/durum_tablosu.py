@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""CLAUDE.md §1.5 "Bugün nerede duruyoruz" tablosunu ÜRETİR.
+"""DURUM-TABLOSU.md'deki "Bugün nerede duruyoruz" tablosunu ÜRETİR (12 Ekim 2026'ya
+kadar CLAUDE.md §1.5'teydi).
 
 🔴 NİÇİN VAR — elle tutulan durum tablosu İKİ KEZ bayatladı ve iki kez yanılttı:
    1 Ağustos  NOKTA EKLEME oturumu tabloyu ölçüm tabanı olarak kullanmayı REDDETTİ
@@ -10,7 +11,7 @@
   durum satırı, yazıldığı andan itibaren çürümeye başlar.
 
     py arac/durum_tablosu.py            # tabloyu ekrana bas
-    py arac/durum_tablosu.py --yaz      # CLAUDE.md §1.5'i YERİNDE güncelle
+    py arac/durum_tablosu.py --yaz      # DURUM-TABLOSU.md'yi YERİNDE güncelle
 
 ⚠️ `--yaz` yalnız §1.5'in TABLO satırlarını değiştirir; altındaki ders metnine
    ve başlığa dokunmaz.
@@ -26,6 +27,67 @@ import girdi
 
 def _oku(y):
     return io.open(y, encoding="utf-8", newline="").read()
+
+
+# ══════════════════════════════════════════════════════════════════════════
+# KİŞİ KAYNAĞI — dört AYRIK kova (6 Ekim 2026, UMIT-W7-DALGA11; koordinatör
+# KISI-SAYIM hükmü). Tanım W16'nınkiyle (`denetim/ARAC-KISI-ORNEKLEM-1006.py`
+# `kova()`) BİREBİR; o dosya `denetim/`de ve adı tireli olduğu için buradan
+# import EDİLMEZ — iki tanımın gerçek veride ve W16'nın 9 örneğinde ÜYE ÜYE
+# aynı sonucu verdiği `denetim/ARAC-KISI-KAYNAK-SINAV-1006.py` ile sınanır.
+#   tdv        `kaynak` "TDV:" ile BAŞLIYOR
+#   beyan      `kaynak` "bulunamadı" ile BAŞLIYOR (küçük harfe çevrilerek)
+#   baska      dolu, ikisiyle de başlamıyor (§4: TDV'nin kapsamadığı yerde
+#              akademik kaynak meşru)
+#   kaynaksiz  alan yok ya da boşluktan arınınca boş
+# 🔴 Ölçüt BAŞLANGIÇ'tır, İÇERİK DEĞİL: "TDV: kemal-reis (… TDV'de
+#    bulunamadı …)" bir TDV kaynağıdır. 🔴 Beyan kaynak DEĞİLDİR — "kaynak
+#    dolu" diye toplanırsa beyanlı borç kapanmış görünür (D265); toplam basılmaz.
+KISI_BEYAN = "bulunamadı"
+
+
+def kisi_kova(k):
+    s = str(k.get("kaynak") or "").strip()
+    if not s:
+        return "kaynaksiz"
+    if s.lower().startswith(KISI_BEYAN):
+        return "beyan"
+    return "tdv" if s.startswith("TDV:") else "baska"
+
+
+def kisi_kaynak_say(yol="data/kisiler.js"):
+    """kisiler.js'i TARAYICI GİBİ yükler → dört kova; ölçülemezse {"hata"}."""
+    js = ("const fs=require('fs');const W={};"
+          "new Function('window',fs.readFileSync(process.argv[1],'utf8'))(W);"
+          "if(!Array.isArray(W.KISILER))throw new Error('window.KISILER dizi değil');"
+          "process.stdout.write(JSON.stringify(W.KISILER))")
+    try:
+        c = subprocess.run(["node", "-e", js, yol], capture_output=True, timeout=120)
+    except (OSError, subprocess.SubprocessError) as e:
+        return {"hata": "node koşturulamadı: %s" % e}
+    if c.returncode != 0:
+        return {"hata": "node çıkış %d: %s" % (c.returncode,
+                                               c.stderr.decode("utf-8", "replace")[-160:])}
+    try:
+        K = json.loads(c.stdout.decode("utf-8"))
+    except ValueError:
+        return {"hata": "node çıktısı ayrıştırılamadı (kesik?)"}
+    r = {"tdv": 0, "baska": 0, "beyan": 0, "kaynaksiz": 0}
+    try:
+        for k in K:
+            r[kisi_kova(k)] += 1
+    except Exception as e:                       # ölçülemedi ≠ 0
+        return {"hata": "%s: %s" % (type(e).__name__, str(e)[:120])}
+    r["toplam"] = len(K)
+    return r
+
+
+def kisi_kaynak_satiri(kk):
+    """§1.5 'Kişi kaynağı' hücresi — ölçülemezse sayı DEĞİL, sebep."""
+    if "hata" in kk:
+        return "🔴 **ÖLÇÜLEMEDİ** — kişi kaynağı sayılamadı (%s)" % kk["hata"]
+    return ("TDV %d · başka %d · bulunamadı BEYANI %d · kaynaksız %d"
+            % (kk["tdv"], kk["baska"], kk["beyan"], kk["kaynaksiz"]))
 
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -52,7 +114,7 @@ def _oku(y):
 KASITLI_BOSLUK = {"__BOSLUK__"}
 
 
-def kimlik_evreni():
+def kimlik_evreni(Y=None):
     """(kul, diz) — kullanım sayacı ve dizin kümesi. `denetle.py` KOŞMAZ.
 
     🔴 NİÇİN AYRI FONKSİYON — 2 Eylül 2026, yayın kapısı bağlanırken.
@@ -65,20 +127,37 @@ def kimlik_evreni():
       genişledi (`s:` → `s:`+`isg:`); kopya kalsaydı kapı ESKİ kapsamla
       ölçmeye devam ederdi ve kimse fark etmezdi.
     ⇒ Tek otorite burası. `olc()` de kapı da BURAYI çağırır.
-    """
+
+    🔴 14 EKİM 2026 — REGEX BIRAKILDI, `girdi.yukle()` okunuyor (RENK-DELIK-1014).
+      Eski sayaç `\\bs:` · `\\bisg:` · `\\bd:\\s*"…"` arıyordu; JSON biçimli girdi
+      (`"s": [{"d": "andorra"}]`) ona GÖRÜNMÜYORDU. Ölçüldü: 4 dosya JSON
+      (nokta2 · halef_1946 · sinir_guney · sinir_kuzey) ⇒ sayaç 0 delik derken
+      `yukle()` 114 delik buldu; yayın kapısı da aynı körlüğü taşıyordu ve
+      `renksiz_sessiz` o kimlikleri "hiç kullanılmıyor" diye gösteriyordu.
+      Ayrıca `\\[(.*?)\\]` metindeki `]`de diziyi erken kesiyordu (celayirli
+      regex 79 · gerçek 86). Ayrıştırılmış veri ikisinden de bağımsız ve daha
+      hızlı (ölçüldü: regex 0,97 sn · `yukle()` 0,65 sn).
+    `Y` verilirse yeniden yüklenmez (`olc()` zaten yüklemiş)."""
     d = _oku("data/devletler.js")
     diz = (set(re.findall(r'\bid:\s*"([^"]+)"', d))
            | set(re.findall(r'\bharita:\s*"([^"]+)"', d)))
-    yer = [f for f in girdi.GIRDI_DOSYALARI if f.startswith("yerlesimler")]
+    if Y is None:
+        Y = girdi.yukle(sessiz=True)
+    return kimlik_sayaci(Y), diz
+
+
+def kimlik_sayaci(Y):
+    """{kimlik: dönem} — `s:`/`isg:` dönemlerinin `d` alanı, `yerlesimler*`
+    kaynaklı kayıtlardan. 🔴 SAF FONKSİYON — C13 sahte evrenle çağırabilsin."""
     kul = collections.Counter()
-    for f in yer:
-        t = _oku(os.path.join("data", f))
-        t = "\n".join(l for l in t.split("\n") if not l.lstrip().startswith("//"))
-        for kat in (r"\bs:", r"\bisg:"):
-            for sm in re.finditer(kat + r"\s*\[(.*?)\]\s*[,}]", t, re.S):
-                for m in re.finditer(r'\bd:\s*"([^"]+)"', sm.group(1)):
-                    kul[m.group(1)] += 1
-    return kul, diz
+    for y in Y:
+        if not str(y.get("_kaynak", "yerlesimler")).startswith("yerlesimler"):
+            continue
+        for kat in ("s", "isg"):
+            for p in (y.get(kat) or []):
+                if isinstance(p, dict) and p.get("d"):
+                    kul[p["d"]] += 1
+    return kul
 
 
 # 🔴 KATMAN EVRENİ — 20 Eylül 2026 (SAYAC-EVREN-0920 · ölçüm: KUNYE-BORC-0920 B.0).
@@ -266,6 +345,29 @@ def renksiz_kovalari(boyalar, kunye_ids, harita_map, kul, kul_v=None):
     return delik, sessiz, tabi
 
 
+def harita_delikleri(Y=None):
+    """{kimlik: pencere} — `renksiz_kovalari()`nın `delik` kovası. `denetle.py` KOŞMAZ.
+
+    🔴 14 EKİM 2026 (SAYAC-BICIM-1014 devamı) — yayın kapısı bunu çağırır.
+      Kapı yalnız `bosluk_kovalari()`yı (DİZİNSİZ kimlik) soruyordu; RENKSİZ
+      kimliği (`BOYALAR`da yok → boyanmaz → harita deliği) HİÇ sormuyordu.
+      114 deliğin künyesi vardı, yani dizinsiz değildi: sayaç JSON'u görseydi
+      bile kapı 0 derdi. `§11`: *denetim var ≠ o soruyu soruyor.*
+    `olc()` ile aynı parçalar (`kimlik_sayaci` · `v_kid_sayaci` ·
+    `oku_devletler` · `renksiz_kovalari`) — hüküm tek yerde kalır.
+    `Y` verilirse yeniden yüklenmez."""
+    import contextlib
+    with contextlib.redirect_stdout(io.StringIO()):
+        import renkler
+    if Y is None:
+        Y = girdi.yukle(sessiz=True)
+    kul = kimlik_sayaci(Y)
+    kn = {k["id"]: (k.get("harita") or "") for k in girdi.oku_devletler()}
+    delik, _, _ = renksiz_kovalari(set(renkler.BOYALAR), set(kn), kn, kul,
+                                   v_kid_sayaci(Y))
+    return {k: kul[k] for k in delik}
+
+
 def v_kid_sayaci(Y):
     """{kimlik: dönem} — `v:[{kid:…}]` kullanımı. `girdi.yukle()` çıktısından
     (ayrıştırılmış veri; regex değil — `kaynak:` metnindeki `]` diziyi
@@ -396,10 +498,105 @@ def _sina():
     #    Desenle (`__.*__`) süzseydim bu yazım hatası "kasıtlı" diye
     #    etiketlenip GÖRÜNMEZ olurdu; tanınan KÜME kullanmanın sebebi bu.
     bdal("8 TIPO (__BOSLK__ -> KIRMIZI kalir)", {"__BOSLK__": 1}, set(), 1, 0)
+
+    print("C13 SINAMASI — kimlik_sayaci()")
+    # ⑨ s+isg sayılır; d/v DÖNEMİ sayılmaz (`d:` {f,t,y}, `v:` kid ayrı sayaç);
+    #    yerlesimler dışı kaynak sayılmaz. Gelen kayıt dosya biçiminden (JS/JSON)
+    #    bağımsızdır — biçim körlüğü bu yüzden yukle()'den sonra imkânsız.
+    _k = kimlik_sayaci([
+        {"_kaynak": "yerlesimler_x.js", "s": [{"d": "a"}, {"d": "b"}],
+         "isg": [{"d": "a"}], "d": [{"y": "z"}], "v": [{"kid": "c"}]},
+        {"_kaynak": "yer_yama_x.js", "s": [{"d": "yabanci"}]},
+    ])
+    t += 1
+    ok = dict(_k) == {"a": 2, "b": 1}
+    gecti += 1 if ok else 0
+    print("  %s %-42s %s" % ("OK " if ok else "!!!", "9 SAYAC (s+isg, yalniz yerlesimler)",
+                              dict(_k)))
     print("SINAMA: %d/%d dal beklendigi gibi" % (gecti, t))
     # 🔴 19 Eylül 2026: `renksiz_kovalari` dalları (`_t`) bu toplama hiç
     #   girmiyordu — hepsi 🔴 olsa da çıkış kodu 0 dönüyordu. Artık girer.
     return 0 if (gecti == t and all(_t)) else 1
+
+
+def kronoloji_say(dosyalar=None):
+    """`arac/kronoloji_say.js` → sözlük; ölçülemezse {"hata": [...]}."""
+    if dosyalar is None:
+        dosyalar = sorted(glob.glob("data/olaylar*.js"))
+    if not dosyalar:
+        return {"hata": ["data/olaylar*.js: dosya yok"]}
+    try:
+        c = subprocess.run(["node", os.path.join(KOK, "arac", "kronoloji_say.js")]
+                           + dosyalar, capture_output=True, timeout=300)
+    except (OSError, subprocess.SubprocessError) as e:
+        return {"hata": ["node koşturulamadı: %s" % e]}
+    if c.returncode != 0:
+        return {"hata": ["node çıkış %d: %s" % (c.returncode,
+                         c.stderr.decode("utf-8", "replace")[:200])]}
+    try:
+        r = json.loads(c.stdout.decode("utf-8"))
+    except ValueError:
+        return {"hata": ["node çıktısı ayrıştırılamadı (kesik?): %r"
+                         % c.stdout[-80:]]}
+    if "hata" not in r and r.get("dosya") != len(dosyalar):
+        return {"hata": ["dosya sayısı tutmuyor: verilen %d · sayılan %s"
+                         % (len(dosyalar), r.get("dosya"))]}
+    eksik = [a for a in ("madde", "duygu", "yer_id", "yer_id_bos", "vefat_id")
+             if not isinstance(r.get(a), int)]
+    if "hata" not in r and eksik:
+        return {"hata": ["node çıktısında alan yok: %s" % ", ".join(eksik)]}
+    return r
+
+
+def kronoloji_satiri(k):
+    """§1.5 Kronoloji hücresi — ölçülemezse sayı DEĞİL, sebep yazılır.
+
+    `boş yer_id: N` — 5 Ekim 2026, genel koordinatör hükmü: `yer_id` evreni
+    DOLU alan (1629) kabul edildi, ŞARTIYLA ki anahtarı olup değeri boş
+    (`yer_id:""`) maddeler tabloda ADIYLA görünsün; aradaki fark sessizce
+    yutulmasın. N `kronoloji_say.js`in `yer_id_bos`undan gelir, sabit DEĞİL.
+    """
+    if "hata" in k:
+        return ("🔴 **ÖLÇÜLEMEDİ** — madde · duygu · `yer_id` · `vefat_id` "
+                "sayılamadı (%s)" % "; ".join(k["hata"])[:300])
+    return ("**%d** madde · %d duygu etiketli · %d `yer_id` (boş yer_id: %d)"
+            " · %d `vefat_id`"
+            % (k["madde"], k["duygu"], k["yer_id"], k["yer_id_bos"],
+               k["vefat_id"]))
+
+
+def kaynak_zayif_say(Y):
+    """`kaynak_zayif` işaretli yerleşim kaydı sayısı — {"n","adlar"} ya da {"hata"}.
+
+    🔴 5 Ekim 2026 (UMIT-W7-DALGA5/6-1006, genel koordinatör hükmü): alan
+    Deyrülkamer'e (ek29) `dogrulanmadi:true` adıyla kasıtlı beyan olarak
+    yazılmıştı ama ONU OKUYAN KOD YOKTU (D265 ailesi). Ölçülünce o ad ÜÇ
+    ayrı anlam taşıyordu (kaynak yokluğu · GPS doğrulaması · sınır köşesi
+    türetimi) ⇒ yerleşimde ad `kaynak_zayif` oldu; `hukuki_sinirlar.js`in
+    daha eski `dogrulanmadi`sı (köşe türetimi) KALDI. Tanım VERI-YAPISI.md:
+    kaynak VAR ama dayanılamıyor (zayıf/çelişkili) — `bulunamadı` DEĞİL.
+    Kayıt düzeyi ya da herhangi bir `s/d/v/isg` döneminde doğruysa kayıt
+    sayılır. Satır HER ZAMAN basılır (alan yoksa 0); ölçülemezse 0 DEĞİL,
+    ÖLÇÜLEMEDİ.
+    """
+    try:
+        n, adlar = 0, []
+        for y in Y:
+            donemler = [p for kat in ("s", "d", "v", "isg")
+                        for p in (y.get(kat) or []) if isinstance(p, dict)]
+            if y.get("kaynak_zayif") or any(p.get("kaynak_zayif") for p in donemler):
+                n += 1
+                adlar.append("%s:%s" % (y.get("_kaynak", "?"), y.get("ad", "?")))
+        return {"n": n, "adlar": adlar}
+    except Exception as e:                       # ölçülemedi ≠ 0
+        return {"hata": "%s: %s" % (type(e).__name__, str(e)[:120])}
+
+
+def kaynak_zayif_eki(kz):
+    """Yerleşim hücresinin eki — HER ZAMAN basılır; ölçülemezse sayı DEĞİL."""
+    if "hata" in kz:
+        return " · kaynak_zayif işaretli kayıt: 🔴 ÖLÇÜLEMEDİ (%s)" % kz["hata"]
+    return " · kaynak_zayif işaretli kayıt: %d" % kz["n"]
 
 
 def olc():
@@ -407,15 +604,13 @@ def olc():
     Y = girdi.yukle(sessiz=True)
     o["yerlesim"] = len(Y)
     o["girdi_dosya"] = len(girdi.GIRDI_DOSYALARI)
+    o["kaynak_zayif"] = kaynak_zayif_say(Y)
 
-    o["madde"] = sum(len(re.findall(r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', _oku(f)))
-                     for f in sorted(glob.glob("data/olaylar*.js")))
-    o["duygu"] = sum(len(re.findall(r"duygu:\[", _oku(f)))
-                     for f in glob.glob("data/olaylar*.js"))
-    o["yer_id"] = sum(len(re.findall(r"yer_id:", _oku(f)))
-                      for f in glob.glob("data/olaylar*.js"))
-    o["vefat_id"] = sum(len(re.findall(r"vefat_id:", _oku(f)))
-                        for f in glob.glob("data/olaylar*.js"))
+    # 🔴 5 Ekim 2026 — dört sayı REGEX'ten NODE'a taşındı; regex İKİ YÖNLÜ
+    #    yanlıştı (yorum/blok yorum/iç içe adım FAZLA · `{` ayrı satır/JSON
+    #    anahtarı/boşluk EKSİK). Gerekçe ve evren `arac/kronoloji_say.js`te.
+    #    Ölçülemezse dördü de ÖLÇÜLEMEDİ olur — eski regex'e GERİ DÜŞÜLMEZ.
+    o["kronoloji"] = kronoloji_say()
 
     d = _oku("data/devletler.js")
     o["devlet"] = len(re.findall(r'\{\s*id:\s*"', d))
@@ -446,7 +641,7 @@ def olc():
     # 🔴 Evren kurulumu `kimlik_evreni()`ye TAŞINDI — yayın kapısı da onu
     #   çağırıyor. İkisi aynı yerden okuyor, yani kapsam bir daha genişlerse
     #   ikisi BİRLİKTE genişler. (Gerekçe: fonksiyonun kendi başlığında.)
-    kul, _diz2 = kimlik_evreni()
+    kul, _diz2 = kimlik_evreni(Y)
     assert _diz2 == diz, "kimlik_evreni() ile olc() AYRIŞTI — dizin kümesi farklı"
     eksik, kasitli = bosluk_kovalari(kul, diz)
     o["kimlik_eksik"] = len(eksik)
@@ -530,6 +725,7 @@ def olc():
     o["padisah"] = len(re.findall(r'\{\s*id:\s*"', _oku("data/padisahlar.js")))
     o["portre"] = len(glob.glob("assets/portreler/*.jpg"))
     o["kart"] = len(re.findall(r"\bovgu:", _oku("data/padisahlar.js") + _oku("data/kisiler.js")))
+    o["kisi_kaynak"] = kisi_kaynak_say()
 
     m = re.search(r"^BOLGE\s*=.*$", _oku("arac/uret_petek.py"), re.M)
     o["bolge"] = m.group(0).split("=", 1)[1].strip() if m else "?"
@@ -552,7 +748,7 @@ def olc():
         o[ad] = (" ".join(mm.groups())).strip() if mm else "ölçülemedi"
 
     try:
-        o["surum"] = re.search(r"\?v=(r\d+)", _oku("index.html")).group(1)
+        o["surum"] = re.search(r'window\.SURUM\s*=\s*"(r\d+)"', _oku("index.html")).group(1)
     except Exception:
         o["surum"] = "?"
     try:
@@ -566,10 +762,9 @@ def tablo(o):
     s = []
     s.append("| Katman | Ölçülen durum |")
     s.append("|---|---|")
-    s.append("| Yerleşim (motorun okuduğu) | **%d** nokta, %d girdi dosyası |"
-             % (o["yerlesim"], o["girdi_dosya"]))
-    s.append("| Kronoloji | **%d** madde · %d duygu etiketli · %d `yer_id` · %d `vefat_id` |"
-             % (o["madde"], o["duygu"], o["yer_id"], o["vefat_id"]))
+    s.append("| Yerleşim (motorun okuduğu) | **%d** nokta, %d girdi dosyası%s |"
+             % (o["yerlesim"], o["girdi_dosya"], kaynak_zayif_eki(o["kaynak_zayif"])))
+    s.append("| Kronoloji | %s |" % kronoloji_satiri(o["kronoloji"]))
     s.append("| Değişmez 1 — sahipsizlik | %s |" % o["d1"])
     s.append("| Değişmez 1b — iç boşluk | %s |" % o["d1b"])
     s.append("| Değişmez 2 — Osmanlı senkronu | %s |" % o["d2"])
@@ -635,6 +830,7 @@ def tablo(o):
                 kd["sinir"], kd["kronoloji"], kd["savas"], kd["kisi"]))
     s.append("| Padişah · kartvizit | %d kayıt · %d portre · **%d** kartvizit dolu |"
              % (o["padisah"], o["portre"], o["kart"]))
+    s.append("| Kişi kaynağı | %s |" % kisi_kaynak_satiri(o["kisi_kaynak"]))
     s.append("| Harita penceresi | `%s` |" % o["bolge"])
     s.append("| Yayın | **%s** · `%s` |" % (o["surum"], o["commit"]))
     return "\n".join(s)
@@ -657,8 +853,13 @@ if __name__ == "__main__":
     if o["renksiz_gercek"]:
         print("🟡 GERÇEK SESSİZ BORÇ (künye var, hiçbir katmanda yok): %s"
               % ", ".join(o["renksiz_gercek"]))
+    if o["kaynak_zayif"].get("adlar"):
+        print("🟡 KAYNAK_ZAYIF İŞARETLİ (kaynak var ama dayanılamıyor, beyanlı): %s"
+              % ", ".join(o["kaynak_zayif"]["adlar"]))
     if "--yaz" in sys.argv:
-        y = "CLAUDE.md"
+        # 12 Ekim 2026: tablo CLAUDE.md'den DURUM-TABLOSU.md'ye taşındı (her oturumun
+        # açılış bedelinden çıksın diye). Başlık deseni aynı kaldı.
+        y = "DURUM-TABLOSU.md"
         h = _oku(y)
         nl = "\r\n" if "\r\n" in h else "\n"
         # §1.5 basligindan sonraki ILK tabloyu degistir
@@ -667,4 +868,4 @@ if __name__ == "__main__":
             raise SystemExit("!! §1.5 tablosu bulunamadi — elle bakilmali")
         yeni = m.group(1) + t.replace("\n", nl) + nl
         io.open(y, "w", encoding="utf-8", newline="").write(h[:m.start()] + yeni + h[m.end():])
-        print("\nCLAUDE.md §1.5 guncellendi.")
+        print("\nDURUM-TABLOSU.md guncellendi.")

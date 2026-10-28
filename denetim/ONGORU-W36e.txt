@@ -1,0 +1,10 @@
+ONGORU W36e — `--kova-atla AK-YAKLASIK` (Singhasari VEKIL-BITISIK kovasinda, odak YAZILIR) — OLCUMDEN ONCE
+Temel: origin/main ce885ec2 + ODAK-ASYA-SUZME-1006.diff + W36e degisikligi. Veri: 8 dosya 481b0482 ile ayni.
+Turetme (W36d kuru kosusunun olculmus satirlarindan):
+  varsayilan degisen 186, bunun 10'u AK; AK'nin hicbirinde kapsam_genis yok (bugun ODAKSIZ)
+  Singhasari W36d'de DEGISEN idi (BEYANLI->ODAKSIZ); simdi odak yazilinca yine DEGISEN (BEYANLI->KUTULU)
+ONGORU:
+  degisen       176   (186 - 10 AK)
+  BEYANLI sonra   0   (AK'de kg yok; kalan 137 kg'nin hepsi kalkar)
+  ODAKSIZ sonra  18   (9 + 10 AK ODAKSIZ kalir - 1 Singhasari KUTULU olur)
+  simdi          ODAKSIZ 55 · BEYANLI 137 (degismez)

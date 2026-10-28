@@ -57,6 +57,19 @@ Kullanım:
                                                        # (süzülen sayı AYRICA basılır)
     py arac/tahta.py bekleyen --gecikmis               # vadesi GEÇMİŞ olanlar
     py arac/tahta.py kapat M-0007 --kim "RENK 3"       # iş bitti, ipliği kapat
+
+`yaz` ÇIKIŞ KODLARI (W50b, 6 Ekim 2026 — otomasyon cümleyi değil KODU okur):
+    0  ULAŞTI      mesajı taşıyan commit push hedefinde (upstream) ÖLÇÜLDÜ
+    1  ULAŞMADI    mesaj tahta.json'da var ama uzakta YOK — TEKRAR YAZMA, elle push
+    2  YAZILMADI (yarım git işlemi · eksik/yanlış argüman · --yanit yok)
+       ya da ÖLÇÜLEMEDİ (detached · upstream yok · fetch düştü) — ULAŞTI SAYMA
+    (3  YEREL tahta.json yazılamadı — `_kaydet`; değişmedi)
+    4  SUNUCU ÇATIŞMASI (yalnız sunucu yolunda, HTTP 503 kod 4) — yerele DÜŞÜLMEDİ
+
+SUNUCU YOLU (TAHTA-ISTEMCI-1010): `oturumlar/ag.json` `jeton` + `tahta_sunucu`
+taşıyorsa yaz/oku/teyit/tamam/kapat (ve okuma komutları) tahta SUNUCUSUNA gider;
+sunucuda "ULAŞTI" = sunucu kaydına yazıldı (0). ag.json YOKSA araç BİREBİR eskisidir.
+Ulaşılamazsa git yoluna ADIYLA düşer; ayrıntı `_sunucu_ayar` başlığında.
 """
 import datetime
 import io
@@ -97,6 +110,37 @@ def _yukle():
         print("🔴 tahta.json OKUNAMADI: %s" % e)
         print("   Mesajlar kaybolmuş OLABİLİR. Devam etme, KULLANICIYA söyle.")
         sys.exit(2)
+
+
+_OKU_KAYNAK = {"mod": "yerel"}     # main() --kaynak origin ile çevirir (yalnız SALT-OKUR komutlar)
+
+
+def _yukle_oku():
+    """SALT-OKUR komutların okuyucusu (oku · bekleyen · teyitsiz · kimler).
+
+    🔴 TAHTA-ORIGIN-OKU-1006: bekçi artık origin ∪ yerel okuyor; uyanan oturum
+    `oku` ile YEREL ağaca bakarsa bekçinin gördüğü mesajı BULAMAZ. `--kaynak
+    origin` aynı okuyucuyu (`tahta_kaynak.Okuyucu`) kullanır ve kaynağı ADIYLA
+    basar. Varsayılan DEĞİŞMEDİ (yerel) — yazma yolu (`yaz`→push, `teyit`,
+    `kapat`) hiç değişmedi; o karar koordinatörün.
+    """
+    if _OKU_KAYNAK.get("mod") == "sunucu":
+        return _sunucu_kayit()
+    if _OKU_KAYNAK.get("mod") != "origin":
+        return _yukle()
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import tahta_kaynak
+    ok = tahta_kaynak.Okuyucu(VERI, ref=tahta_kaynak.ref_adi("_tahta_oku"),
+                              bildir=lambda s: print(s))
+    kayit = ok.oku()
+    d = ok.durum
+    if d.get("kaynak") == "origin":
+        print("kaynak: ORIGIN (%s, fetch %s ms) ∪ yerel — yalnız yerelde olan: %s"
+              % (d.get("uzak"), d.get("fetch_ms"), d.get("yerel_ek")))
+    else:
+        print("🔴 kaynak: YEREL — %s" % (d.get("kaynak_not") or "sebep yok"))
+    _OKU_KAYNAK["durum"] = d
+    return kayit
 
 
 class _Kilit(object):
@@ -336,22 +380,152 @@ def _git_yarim():
     ⇒ Gerçek rebase'in İŞARETİ `head-name`/`onto`dur (UMIT'inkinde ikisi de
       vardı). Kapı artık onlara bakıyor; yalnız `autostash` taşıyan bayat bir
       kalıntı rebase SAYILMAZ.
+
+    🔴 İKİ KÖR NOKTA (W36, 6 Ekim 2026 — koordinatör kararı) — `git_durum()`:
+    ① WORKTREE: `KOK/.git` bir worktree'de DİZİN DEĞİL DOSYADIR (`gitdir: …`).
+       Eski kapı oraya baktığı için worktree'de HİÇBİR yarım işlemi görmüyor,
+       rebase ortasında da yazıyordu (tam M-5717 sınıfı). Git dizini artık
+       git'e SORULUR (`rev-parse --absolute-git-dir`).
+    ② KABUK: rebase dizini var ama sürmüyor — SESSİZ geçilmez, ADIYLA basılır.
+       Yazımı ENGELLEMEZ (24 Eylül kabuğu 9 gün bütün yazımları reddederdi) ve
+       `_tazele()` ona `rebase --abort` UYGULAMAZ (kabuğa abort, içindeki
+       autostash'i çalışma ağacına geri basabilir — karar Emre'nindir).
+    Dönüş sözleşmesi DEĞİŞMEDİ: SÜRÜYOR ⇒ sebep dizgisi · KABUK/YOK ⇒ None.
     """
-    g = os.path.join(KOK, ".git")
-    # Gerçek bir rebase bu imza dosyalarını taşır; bayat kalıntı taşımaz.
-    for ad in ("rebase-merge", "rebase-apply"):
+    d = git_durum()
+    if d["hal"] == "KABUK":
+        _kabuk_bildir(d)
+        return None
+    return d["sebep"] if d["hal"] == "SURUYOR" else None
+
+
+# Gerçek rebase İMZALARI. Koordinatör ölçütü `git-rebase-todo`/`orig-head`;
+# `head-name`/`onto` eski kapının imzalarıdır ve KORUNDU (güvenli yöne genişletme:
+# bunlardan biri varsa SÜRÜYOR sayılır, kabuk değil).
+_REBASE_IMZA = {
+    "rebase-merge": ("git-rebase-todo", "orig-head", "head-name", "onto"),
+    "rebase-apply": ("next", "last", "orig-head", "head-name"),
+}
+_kabuk_basildi = set()
+
+
+def _git_dizini(kok=None):
+    """Gerçek git dizini — worktree'de `.git` DOSYADIR, git'e sorulur.
+    Bulunamazsa None (çağıran bunu TEMİZ SAYMAZ)."""
+    kok = kok or KOK
+    try:
+        r = subprocess.run(["git", "-C", kok, "rev-parse", "--absolute-git-dir"],
+                           capture_output=True, text=True, encoding="utf-8",
+                           errors="replace")
+        if r.returncode == 0 and r.stdout.strip():
+            return os.path.normpath(r.stdout.strip())
+    except Exception:                                       # noqa: BLE001
+        pass
+    g = os.path.join(kok, ".git")
+    if os.path.isdir(g):
+        return g
+    if os.path.isfile(g):                                   # git yoksa: `gitdir:` satırı
+        try:
+            s = io.open(g, encoding="utf-8").read().strip()
+            if s.startswith("gitdir:"):
+                y = s[len("gitdir:"):].strip()
+                y = y if os.path.isabs(y) else os.path.join(kok, y)
+                if os.path.isdir(y):
+                    return os.path.normpath(y)
+        except OSError:
+            pass
+    return None
+
+
+def git_durum(kok=None):
+    """Deponun yarım-işlem hâli: SURUYOR · KABUK · YOK — salt OKUR, hiçbir şey yazmaz.
+
+    Dönüş: {"hal", "sebep", "git_dizini", "ayrinti"}
+      SURUYOR  rebase imzası / MERGE_HEAD / CHERRY_PICK_HEAD var  ⇒ yazım REDDEDİLİR
+      KABUK    rebase dizini var, İMZASI YOK (ör. yalnız `autostash`) ⇒ ADIYLA basılır
+      YOK      ikisi de yok
+    Git dizini bulunamazsa SURUYOR döner (ölçülemedi ≠ temiz — kapı kapalıya düşer)."""
+    g = _git_dizini(kok)
+    if g is None:
+        return {"hal": "SURUYOR", "git_dizini": None, "ayrinti": [],
+                "sebep": "git dizini ÖLÇÜLEMEDİ (%s) — temiz sayılmadı" % (kok or KOK)}
+    kabuk = []
+    for ad, imzalar in _REBASE_IMZA.items():
         d = os.path.join(g, ad)
         if not os.path.isdir(d):
             continue
-        if any(os.path.exists(os.path.join(d, im))
-               for im in ("head-name", "onto", "orig-head", "next")):
-            return "rebase ortasında (%s)" % ad
-        # dizin var ama imza yok ⇒ BAYAT KALINTI, engel değil
+        var = [im for im in imzalar if os.path.exists(os.path.join(d, im))]
+        if var:
+            return {"hal": "SURUYOR", "git_dizini": g, "ayrinti": var,
+                    "sebep": "rebase ortasında (%s)" % ad}
+        try:
+            icerik = sorted(os.listdir(d))
+        except OSError:
+            icerik = ["?"]
+        kabuk.append((ad, icerik))
     for ad, sebep in (("MERGE_HEAD", "yarım bir merge var"),
                       ("CHERRY_PICK_HEAD", "yarım bir cherry-pick var")):
         if os.path.exists(os.path.join(g, ad)):
-            return sebep
-    return None
+            return {"hal": "SURUYOR", "git_dizini": g, "ayrinti": [ad], "sebep": sebep}
+    if kabuk:
+        return {"hal": "KABUK", "git_dizini": g, "ayrinti": kabuk,
+                "sebep": "KABUK: " + " · ".join(
+                    "%s (içinde: %s)" % (ad, ", ".join(ic) or "BOŞ") for ad, ic in kabuk)}
+    return {"hal": "YOK", "git_dizini": g, "ayrinti": [], "sebep": None}
+
+
+def _kabuk_bildir(d):
+    """KABUK SESSİZ geçilmez — süreç başına bir kez, ADIYLA."""
+    anahtar = (d["git_dizini"], d["sebep"])
+    if anahtar in _kabuk_basildi:
+        return
+    _kabuk_basildi.add(anahtar)
+    print("⚠️ %s — rebase SÜRMÜYOR, yazım engellenmedi. Git dizini: %s"
+          % (d["sebep"], d["git_dizini"]))
+    print("   Kabuk SİLİNMEDİ: içindeki autostash bir çalışmayı taşıyabilir; "
+          "silme kararı Emre'nindir.")
+
+
+def _cek(_kod):
+    """Uzaktan tazele — çalışma ağacı KİRLİYKEN de (TAHTA-TEMIZ-AGAC-1010).
+
+    🔴 VAKA (10 Ekim 2026, f0b6fd50): `pull --rebase` izlenen HERHANGİ bir
+    dosyada unstaged değişiklik görünce REDDEDER ("cannot pull with rebase:
+    You have unstaged changes"). Bir oturumun `defter.py` ile kirli bıraktığı
+    `oturumlar/defter.json`, uzak ilerlediği an BÜTÜN oturumların tahtasını
+    susturdu: numara bayat, push reddedildi, ve depo ayrışık kaldığı için
+    sonraki HER yazım da düştü. Haberleşme aracı başkasının yarım dosyasına
+    bağlı olmamalı.
+    ⇒ Ağaç TEMİZSE eski yol AYNEN (`pull --rebase`). KİRLİYSE `fetch` + git'in
+      kirliliğe TOLERANSLI iki işlemi: geride → `merge --ff-only`; ayrışık →
+      `merge --no-edit` (çakışırsa KENDİ merge'ümüzü `--abort` ile geri alırız).
+      İkisi de kirli dosyaya dokunmaz; dokunmak zorunda kalacaksa HİÇBİR ŞEY
+      yapmadan reddeder. ⚠️ `--autostash` BİLEREK yok: başkasının dosyasını
+      geçici olarak geri alır (arada yazılan kaybolur) ve çakışırsa ortak
+      `refs/stash`e düşer (24 Eylül kabuğu tam bu sınıftı).
+    Dönüş `CompletedProcess` (returncode · stdout · stderr)."""
+    def g(*a):
+        return subprocess.run(["git", "-C", KOK] + list(a), **_kod)
+    s = g("status", "--porcelain", "--untracked-files=no")
+    if s.returncode != 0 or not (s.stdout or "").strip():
+        return g("pull", "--rebase")
+    print("⚪ çalışma ağacı KİRLİ (%d izlenen dosya, tahta dışı olabilir) — "
+          "rebase yerine fetch + merge." % len(s.stdout.strip().splitlines()))
+    r = g("fetch", "-q")
+    if r.returncode == 0:
+        r = g("rev-parse", "--verify", "-q", "@{u}")
+    if r.returncode != 0:
+        return r
+    if g("merge-base", "--is-ancestor", "@{u}", "HEAD").returncode == 0:
+        return r                                   # uzak zaten içimizde
+    if g("merge-base", "--is-ancestor", "HEAD", "@{u}").returncode == 0:
+        return g("merge", "--ff-only", "-q", "@{u}")
+    r = g("merge", "--no-edit", "-q", "@{u}")
+    if r.returncode != 0 and os.path.exists(
+            os.path.join(_git_dizini() or "", "MERGE_HEAD")):
+        g("merge", "--abort")
+        print("⚠️ merge ÇAKIŞTI, kendi merge'üm geri alındı.")
+    return r
 
 
 def _tazele():
@@ -368,7 +542,7 @@ def _tazele():
     _kod = {"capture_output": True, "text": True,
             "encoding": "utf-8", "errors": "replace"}
     try:
-        r = subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
+        r = _cek(_kod)
     except Exception as e:
         print("⚠️ tazeleme KOŞMADI (%s) — numara bayat olabilir." % type(e).__name__)
         return
@@ -383,8 +557,64 @@ def _tazele():
     print("   ⇒ Mesaj yine de YAZILIYOR; push başarısız olursa tahta YEREL kalır.")
 
 
+def _ulasti_mi(yol, _kod):
+    """Tahta dosyalarını taşıyan commit PUSH HEDEFİNDE mi? — UZAĞI ölçer.
+
+    Dönüş: ("ULASTI" | "ULASMADI" | "OLCULEMEDI", ayrıntı)
+      ① tahta dosyaları çalışma ağacında kirliyse ⇒ commit HİÇ OLMADI ⇒ ULASMADI
+      ② temizse içerik, onlara dokunan SON commit'tedir (kim commitlemiş olursa
+         olsun — paylaşılan index'te başka oturum taşımış olabilir)
+      ③ push hedefi dalın upstream'idir (`branch.<dal>.remote/.merge`), `origin/main`
+         DEĞİL: makine dalına push eden depoda main'e bakmak yanlış alarm verir
+      ④ upstream tazelenir (`fetch`); `merge-base --is-ancestor` hükmü verir.
+         fetch düşerse yerel kopya yalnız OLUMLU yönde kullanılır (orada varsa
+         uzakta da vardı); olumsuzsa ÖLÇÜLEMEDİ — bayat kopyayla "yok" denmez.
+    Hiçbir yol ULAŞTI'ya VARSAYIMLA düşmez."""
+    def g(*a):
+        return subprocess.run(["git", "-C", KOK] + list(a), timeout=90, **_kod)
+    try:
+        d = g("status", "--porcelain", "--", *yol)
+        if d.returncode != 0:
+            return "OLCULEMEDI", "git status kod=%d" % d.returncode
+        if (d.stdout or "").strip():
+            return "ULASMADI", "tahta dosyaları COMMIT EDİLMEDİ (çalışma ağacı kirli)"
+        c = g("log", "-1", "--format=%H", "HEAD", "--", yol[0])
+        benim = (c.stdout or "").strip()
+        if c.returncode != 0 or not benim:
+            return "OLCULEMEDI", "tahtayı taşıyan commit bulunamadı"
+        b = g("symbolic-ref", "-q", "--short", "HEAD")
+        dal = (b.stdout or "").strip()
+        if b.returncode != 0 or not dal:
+            return "OLCULEMEDI", "HEAD bir dalda değil (detached) — push hedefi yok"
+        uzak = (g("config", "branch.%s.remote" % dal).stdout or "").strip()
+        hedef = (g("config", "branch.%s.merge" % dal).stdout or "").strip()
+        if not uzak or not hedef:
+            return "OLCULEMEDI", "'%s' dalının upstream'i yok — push hedefi bilinmiyor" % dal
+        f = g("fetch", "-q", uzak, hedef)
+        u = g("rev-parse", "--verify", "-q", "%s@{u}" % dal)
+        uc = (u.stdout or "").strip()
+        if u.returncode != 0 or not uc:
+            return "OLCULEMEDI", "upstream ref'i çözülemedi (%s %s)" % (uzak, hedef)
+        a = g("merge-base", "--is-ancestor", benim, uc)
+        kisa = "%s %s @ %s" % (uzak, hedef.replace("refs/heads/", ""), uc[:8])
+        if a.returncode == 0:
+            return "ULASTI", "commit %s uzakta: %s" % (benim[:8], kisa)
+        if a.returncode == 1:
+            if f.returncode != 0:
+                return "OLCULEMEDI", ("fetch düştü, yerel kopyada commit %s yok"
+                                      " (bayat olabilir): %s" % (benim[:8], kisa))
+            return "ULASMADI", "commit %s UZAKTA YOK: %s" % (benim[:8], kisa)
+        return "OLCULEMEDI", "merge-base kod=%d" % a.returncode
+    except Exception as e:
+        return "OLCULEMEDI", "%s: %s" % (type(e).__name__, e)
+
+
+
 def _git(kayit, baslik, govde):
+    """Commit + pull + push; UZAKTA ölçülen hükmü DÖNDÜRÜR:
+    "ULASTI" · "ULASMADI" · "OLCULEMEDI" (`yaz` bunu çıkış koduna çevirir)."""
     ileti = os.path.join(KOK, ".tahta_ileti")
+    _hal = "OLCULEMEDI"
     io.open(ileti, "w", encoding="utf-8", newline="\n").write(
         "%s\n\n%s\n" % (baslik, govde))
     # 🔴 encoding="utf-8", errors="replace" — YAPI DENETİM 3 BULDU (M-0031).
@@ -443,138 +673,68 @@ def _git(kayit, baslik, govde):
                 print("   ⇒ Mesaj tahta.json'da VAR. TEKRAR YAZMA;"
                       " birkaç saniye sonra `py arac/tahta.py oku` yeter —"
                       " başka bir oturumun push'u onu taşır.")
-        subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
+        # 🔴 `pull --rebase` ÇIKIŞI OKUNUR (W50, 6 Ekim 2026). Eskiden bu satır
+        # sonucuna bakmıyordu: çakışırsa rebase YARIM kalıyor, depo kilitleniyordu.
+        # Ölçüldü: `C:\atlas` 6 Ekim 01:28'den beri `pick 11e3dd92 TAHTA M-5755`
+        # rebase'inin ortasındaydı (çakışan `TAHTA.md`+`tahta.json`) ve sonraki
+        # bütün yazımlar `_git_yarim()` kapısına çarpıyordu.
+        # ⇒ Yalnız KENDİ açtığımız rebase'i geri alırız: pull'dan ÖNCE depo
+        #   temizdiyse, sonradan doğan yarım işlem bizimdir. (`yaz()` kapısı
+        #   yalnız `yaz`ı korur; `oku`/`teyit`/`kapat` buraya kapısız gelir.)
+        _once = _git_yarim()
+        _pr = _cek(_kod)
+        if _pr.returncode != 0 and not _once and _git_yarim():
+            subprocess.run(["git", "-C", KOK, "rebase", "--abort"], **_kod)
+            print("⚠️ `pull --rebase` ÇAKIŞTI, kendi rebase'im geri alındı"
+                  " — commit yerelde duruyor, push büyük olasılıkla düşecek.")
         p = subprocess.run(["git", "-C", KOK, "push"], **_kod)
+        # 🔴🔴 DÖRDÜNCÜ DÜZELTME — "ULAŞMIŞ" ÜÇ KEZ YALAN SÖYLEDİ (W50, 6 Ekim).
+        #   Push DÜŞTÜĞÜNDE araç `git log HEAD`e bakıp *"COMMIT EDİLDİ — mesaj
+        #   ULAŞMIŞ"* diyordu. Bu YEREL bir ölçümdü: "aynı depodan başka bir
+        #   oturumun push'u onu taşır" varsayımına dayanıyordu. Makine dallı
+        #   topolojide (HAVVA/UMIT/KASA ayrı depolar) o "başka push" çoğu zaman
+        #   YOKTUR ⇒ mesaj yerelde kaldı, araç "TEKRAR YAZMA" dedi, HAVVA üç kez
+        #   elle push etti. İYİMSER yalan — bu aletin var olma sebebinin tersi.
+        #   Başarı dalı da `origin/main`e bakıyordu: makine dalına push eden
+        #   depoda bu YANLIŞ ALARMDI; ölçülemeyince de `_var=True` (iyimser).
+        #   Ve M-numarası araması `TEYIT`/`KAPANIS` commit'lerini ayırt
+        #   edemiyordu (aynı numara ilk mesajdan zaten uzaktaydı).
+        # ⇒ Tek soru, iki dalda da AYNI ve UZAKTA sorulur: *"tahta dosyalarını
+        #   taşıyan commit, PUSH HEDEFİNİN (upstream) geçmişinde mi?"* Push'un
+        #   çıkış kodu yalnız bilgidir; hükmü ölçüm verir. Ölçülemezse
+        #   ÖLÇÜLEMEDİ yazılır — ULAŞTI SAYILMAZ.
+        # 📌 Önceki üç düzeltmenin dersi aynıydı ("soru yanlıştı"); bu kez de
+        #   öyle: "commit oldu mu" ≠ "uzakta mı".
+        _hal, _ayr = _ulasti_mi(yol, _kod)
         if p.returncode == 0:
-            # 🔴🔴 "push kod=0" TESLİM DEMEK DEĞİL — 16 Ağustos'ta ÖLÇÜLDÜ.
-            # VAKA (`VERI-ZAMAN` bildirdi): commit bir EDİTÖR açtı ve
-            # tamamlanmadı; mesaj yerelde kaldı. Ama `git push` ÖNCEKİ
-            # commit'leri gönderdiği için kod=0 döndü ve araç
-            #     "push ✓ — mesaj artık HERKESTE"
-            # yazdı. **Mesaj hiçbir yere gitmedi ve araç BAŞARI bildirdi.**
-            #
-            # 📌 Bu, `send_message`ın öldürücü yönünün ta kendisi:
-            # İYİMSER yalan kaybı GİZLER. Kötümser yalanı (yanlış alarm)
-            # bu sabah düzelttim ve **tehlikeli yönü açık bıraktım** —
-            # yani düzeltilecek iki yönden yanlış olanını seçmişim.
-            #
-            # ⇒ Artık kod'a değil KAYDA bakıyor: mesaj numarası uzaktaki
-            # dalda GERÇEKTEN var mı?
-            _m = re.search(r"M-\d{4}", baslik or "")
-            _no = _m.group(0) if _m else ""
-            # 🔴 İLK YAZIMIM `origin/main`e BAKIYORDU ve YANLIŞ ALARM
-            # üretti — iki oturum ölçüp bildirdi (M-0347). Sebep:
-            # `git log origin/main` **yereldeki uzak-dal kopyasını** okur
-            # ve o kopya `fetch` yapılmadan BAYATTIR. Push başarılı olsa
-            # bile yerel kopya güncellenmemiş olabiliyor.
-            #
-            # ⇒ YANLIŞ ŞEYİ ÖLÇMÜŞÜM. Doğrusu şu: kaybın gerçek sebebi
-            # "push gitmedi" DEĞİL, **"commit hiç olmadı"**dı (editör
-            # açıldı ve tamamlanmadı). Push zaten kod=0 verdi.
-            # ⇒ O hâlde COMMIT'i sınamak yeterli ve KESİN: mesaj yerel
-            #   HEAD geçmişinde varsa ve push kod=0 döndüyse, TESLİM
-            #   EDİLMİŞTİR. `fetch` gerekmez, bayat kopya sorunu yoktur.
-            # 📌 Ders: bir yanılmayı düzeltirken ÖLÇÜLECEK ŞEYİ de
-            #   yeniden seç. Ben eski soruyu (uzakta var mı) koruyup
-            #   yalnız yönünü değiştirdim; asıl kusur SORUDAYDI.
-            # 🔴 ÜÇÜNCÜ DÜZELTME — VE YİNE SORU YANLIŞTI (16 Ağustos 2026).
-            #   Test *"HEAD geçmişinde numaramı taşıyan bir COMMIT var mı"*
-            #   diye soruyordu. Ama tahta paylaşılan bir dosya: mesajı
-            #   BAŞKA BİR OTURUMUN PUSH'U taşımış olabilir — o zaman
-            #   benim numaramla bir commit BAŞLIĞI hiç doğmaz, mesaj ise
-            #   uzakta VARDIR. Ölçüldü (M-0588): araç *"MESAJ UZAKTA YOK"*
-            #   dedi, `git show origin/main:oturumlar/tahta.json` mesajı
-            #   GÖSTERDİ. Yanlış alarm, ve alarmın bedeli güven.
-            # 📌 Aynı dersin ÜÇÜNCÜ turu: önce yön yanlıştı (origin/main),
-            #   sonra bir dal düzeltilip öteki unutuldu, şimdi de SORUNUN
-            #   KENDİSİ. Doğru soru tek: *"mesaj uzaktaki DOSYADA var mı?"*
-            #   — kimin commit'iyle gittiği ALAKASIZ.
-            _var = True                       # numara yoksa eski davranış
-            if _no:
-                def _uzakta(ref):
-                    try:
-                        g = subprocess.run(
-                            ["git", "-C", KOK, "show",
-                             "%s:oturumlar/tahta.json" % ref],
-                            timeout=60, **_kod)
-                        return ('"%s"' % _no) in (g.stdout or "")
-                    except Exception:
-                        return None
-                _var = _uzakta("origin/main")
-                if _var is False:
-                    # origin/main YEREL bir kopyadır ve başkasının push'u
-                    # onu bayatlatmış olabilir. Alarm çalmadan ÖNCE bir
-                    # kez tazele — yanlış alarm, alarmsızlıktan ucuz
-                    # değildir: ikisi de kanala olan güveni bozar.
-                    try:
-                        subprocess.run(["git", "-C", KOK, "fetch", "-q",
-                                        "origin", "main"],
-                                       timeout=90, **_kod)
-                    except Exception:
-                        pass
-                    _var = _uzakta("FETCH_HEAD")
-                if _var is None:
-                    _var = True               # ölçemedik ⇒ alarm ÇALMAZ
-            if _var:
-                print("push  : ✓ — mesaj artık HERKESTE")
-            else:
-                print("push  : 🔴 kod=0 AMA MESAJ UZAKTA YOK — %s" % _no)
-                print("   ⚠️ commit tamamlanmamış olabilir (editör açıldıysa"
-                      " ya da hook kestiyse). MESAJ SENDE KALDI.")
-                print("   ⇒ `git status` bak, commit'i tamamla, TEKRAR YAZMA"
-                      " — mesaj tahta.json'da ZATEN var, yalnız gitmedi.")
+            if _hal == "ULASTI":
+                print("push  : ✓ — mesaj artık HERKESTE (%s)" % _ayr)
+            elif _hal == "ULASMADI":
+                print("push  : 🔴 kod=0 AMA MESAJ UZAKTA YOK — %s" % _ayr)
+                print("   ⚠️ MESAJ SENDE KALDI. TEKRAR YAZMA — mesaj tahta.json'da"
+                      " ZATEN var, yalnız gitmedi. `git status` + `git push`.")
                 print("   Bunu KULLANICIYA da söyle — arıza ÜÇ YERE (§7.1).")
+            else:
+                print("push  : ⚠️ kod=0 ama ULAŞTIĞI ÖLÇÜLEMEDİ — %s" % _ayr)
+                print("   ULAŞTI SAYMA: `git log @{u}..` ile bak.")
         else:
-            # 🔴 Bu aletin bütün varlık sebebi: "gönderdim sandım" hatası.
-            # AMA 16 Ağustos 2026'da TERSİ ölçüldü: push `cannot lock ref`
-            # ile düştü, araç "ULAŞMADI" dedi, ve mesaj ASLINDA GİT'TEYDİ —
-            # eşzamanlı başka bir push onu taşımıştı. İki oturum uyarıya
-            # uyup mesajı TEKRAR yazdı: M-0242 = M-0243, birebir 3374
-            # karakter. Zarar mükerrer mesaj, ama sebebi TAHMİNDİ.
-            #
-            # ⇒ Artık TAHMİN ETMİYOR, ÖLÇÜYOR: uzaktaki dalda mesaj
-            # numarası gerçekten var mı diye bakıyor.
-            # 📌 `send_message` İYİMSER yanılıyordu ("gönderdim", göndermedi)
-            # ve kaybı GİZLİYORDU. Bu araç KÖTÜMSER yanılıyordu ("ulaşmadı",
-            # ulaşmıştı) ve fazladan İŞ yaptırıyordu. İkincisi güvenli ama
-            # bedava değil — bir kanal yanılacaksa **teslim ettiğini inkâr
-            # etsin, etmediğini iddia etmesin**; en iyisi ise YANILMAMAK.
-            # ⚠️ `no` bu fonksiyonun kapsamında YOK (çağıranda yerel) —
-            # ilk yazımımda doğrudan `no` yazdım ve NameError verecekti.
-            # Mesaj numarası commit BAŞLIĞINDA duruyor, oradan alınıyor.
-            _m = re.search(r"M-\d{4}", baslik or "")
-            _no = _m.group(0) if _m else ""
-            # 🔴 BU DAL DA `origin/main`E BAKIYORDU — ve yanlış negatif
-            # verdi (M-0454). Başarı yolunu HEAD'e çevirdim ama BU YOLU
-            # ÖYLE BIRAKTIM: yarım düzeltme.
-            # 📌 `origin/main` yereldeki uzak-dal KOPYASIDIR ve `fetch`
-            # yapılmadan bayattır. Eşzamanlı bir push ref'i oynatınca
-            # bizim push'umuz düşer ama COMMIT durur ve bir sonraki
-            # push onu taşır.
-            # ⇒ Doğru soru ikisinde de AYNI: **commit oldu mu?**
-            #   Olduysa mesaj güvende — gitmesi zaman meselesi.
-            #   Olmadıysa mesaj SENDE kaldı ve elle kurtarılmalı.
-            _ulasti = False
-            if _no:
-                try:
-                    _g = subprocess.run(
-                        ["git", "-C", KOK, "log", "HEAD", "--oneline",
-                         "-40"], timeout=60, **_kod)
-                    _ulasti = _no in (_g.stdout or "")
-                except Exception:
-                    pass
             print("push  : 🔴 kod=%d" % p.returncode)
             print("   " + (p.stderr or "").strip()[:200])
-            if _ulasti:
-                print("   🟢 AMA ÖLÇÜLDÜ: %s COMMIT EDİLDİ — mesaj "
-                      "ULAŞMIŞ." % _no)
-                print("      Başka bir oturumun push'u onu taşımış. "
-                      "TEKRAR YAZMA — mükerrer olur.")
-            else:
-                print("   ⚠️ ÖLÇÜLDÜ: %s COMMIT EDİLMEDİ — MESAJ HENÜZ "
-                      "KİMSEYE ULAŞMADI." % _no)
+            if _hal == "ULASTI":
+                print("   🟢 AMA ÖLÇÜLDÜ: mesajı taşıyan commit UZAKTA — ULAŞMIŞ"
+                      " (%s)." % _ayr)
+                print("      Başka bir push onu taşımış. TEKRAR YAZMA —"
+                      " mükerrer olur.")
+            elif _hal == "ULASMADI":
+                print("   🔴 ÖLÇÜLDÜ: %s — MESAJ KİMSEYE ULAŞMADI." % _ayr)
+                print("      TEKRAR YAZMA (tahta.json'da var); depoyu düzeltip"
+                      " elle `git push`.")
                 print("      Bunu KULLANICIYA da söyle — arıza ÜÇ YERE "
                       "bildirilir (§7.1).")
+            else:
+                print("   ⚠️ ULAŞIP ULAŞMADIĞI ÖLÇÜLEMEDİ — %s." % _ayr)
+                print("      ULAŞTI SAYMA: `git log @{u}..` ile bak, gerekiyorsa"
+                      " elle `git push`. KULLANICIYA söyle.")
     except Exception as e:
         # 🔴 SESSİZ GEÇİLMEZ. Önceki hâlde bir istisna `finally`ye düşüyor,
         # temizlik yapılıyor ve akış "push ✓" basmış gibi sürüyordu. Artık
@@ -585,9 +745,14 @@ def _git(kayit, baslik, govde):
         print("      git commit -m \"TAHTA\" -- oturumlar/tahta.json oturumlar/TAHTA.md")
         print("      git pull --rebase && git push")
         print("   Ve bunu KULLANICIYA da söyle — arıza ÜÇ YERE bildirilir.")
+        # İstisna NEREDE olduysa olsun (commit'ten önce mi, push'tan sonra mı)
+        # hüküm tahminle verilmez: ölçülür. `_ulasti_mi` kendisi istisna atmaz.
+        _hal, _ayr = _ulasti_mi(["oturumlar/tahta.json", "oturumlar/TAHTA.md"], _kod)
+        print("   ölçüm: %s — %s" % (_hal, _ayr))
     finally:
         if os.path.exists(ileti):
             os.remove(ileti)
+    return _hal
 
 
 def _sade_ad(s):
@@ -638,7 +803,7 @@ def _takma_adlar(kayit, kim, kimlik=None):
 
 def kimler(a):
     """Tahtadan türetilmiş OTURUM DEFTERİ — kim, hangi kimlikle, ne zaman."""
-    kayit = _yukle()
+    kayit = _yukle_oku()
     defter = {}
     for m in kayit:
         ad = m["kimden"]
@@ -933,6 +1098,10 @@ def yaz(a):
         #    saatlerce fark edilmedi ve BÜTÜN denetim/üretim hattı durdu.
         "aciliyet": (_t(a.get("aciliyet")) or "NORMAL").upper(),  # DURDURUCU·ACIL·NORMAL·DUSUK
     }
+    # Sunucu yolundan DÜŞEN mesaj kimliğini taşır — sunucu dönünce AYNI kimlikle
+    # kuyruktan gider ve `ey_yaz` onu ikinci kez yazmaz (TAHTA-ISTEMCI-1010).
+    if _t(a.get("yerel_kimlik")):
+        m["yerel_kimlik"] = _t(a["yerel_kimlik"])
     # 🔴🔴 KRİTİK BÖLGE — KİLİT ALTINDA. Yukarıdaki `kayit`/`no` artık BAYAT
     # olabilir: mesaj hazırlanırken başka bir oturum yazmış olabilir. O yüzden
     # burada TAZE okunuyor ve numara YENİDEN hesaplanıyor.
@@ -956,13 +1125,23 @@ def yaz(a):
         no, m["kimden"], m["kime"],
         ("  (cevap BEKLENİYOR%s)" % (", vade " + m["vade"] if m["vade"] else ""))
         if m["cevap"] == "BEKLIYOR" else ""))
-    _git(kayit, "TAHTA %s — %s -> %s" % (no, m["kimden"], m["kime"]), m["mesaj"])
-    return 0
+    # 🔴 ÇIKIŞ KODU TESLİMİ SÖYLER, YAZIMI DEĞİL (W50b, 6 Ekim 2026 — koordinatör
+    # onayı). Eskiden burası koşulsuz `return 0`dı: push düşse de araç 0 dönüyor,
+    # yalnız metin basıyordu ⇒ çıkış kodunu okuyan otomasyon (`duyur.py:89`)
+    # ulaşmayan mesajı ulaşmış sayıyordu. `"yazıldı"` satırı DEĞİŞMEDİ: o,
+    # mesajın YEREL tahta.json'a girdiğini söyler ve `duyur.py` onu da okur.
+    _hal = _git(kayit, "TAHTA %s — %s -> %s" % (no, m["kimden"], m["kime"]), m["mesaj"])
+    return {"ULASTI": 0, "ULASMADI": 1}.get(_hal, 2)
 
 
 def oku(a):
-    kayit = _yukle()
-    if not kayit:
+    kayit = _yukle_oku()
+    # Sunucu `kim` ile SÜZÜLMÜŞ liste döndüyse (takma adlar sunucuda çözüldü)
+    # toplam ve adlar sunucunun cevabından gelir — alt kümede yeniden süzmek
+    # takma ad bağını (kimin YAZDIĞI mesajlar) göremez.
+    suz = _OKU_KAYNAK.get("suzgec")
+    toplam = suz["toplam"] if suz else len(kayit)
+    if not toplam:
         print("tahta BOŞ — henüz kimse yazmadı.")
         return 0
     kim = (a.get("kim") or "").strip()
@@ -971,9 +1150,12 @@ def oku(a):
         # Eskiden `m["kime"] == kim.upper()` diye bakılıyordu ve bir oturum
         # iki adla göründüğünde mesaj YANLIŞ KUTUDA kalıyordu (ölçüldü:
         # 6,5 saat). Artık UUID üzerinden bağlanan her ad aynı kutuya düşer.
-        adlar = _takma_adlar(kayit, kim, a.get("kimlik"))
-        secili = [m for m in kayit
-                  if _sade_ad(m["kime"]) in adlar or m["kime"] == "HERKES"]
+        if suz:
+            adlar, secili = set(suz["adlar"]), kayit
+        else:
+            adlar = _takma_adlar(kayit, kim, a.get("kimlik"))
+            secili = [m for m in kayit
+                      if _sade_ad(m["kime"]) in adlar or m["kime"] == "HERKES"]
         baslik = "SANA GELENLER (%s) + HERKES" % kim
         if len(adlar) > 1:
             print("ℹ️ takma adların: %s" % " · ".join(sorted(adlar)))
@@ -992,7 +1174,7 @@ def oku(a):
         baslik += " · YALNIZ YENİ (%d/%d)" % (len(secili), _once)
 
     print("=" * 76)
-    print("%s — %d mesaj (tahtada toplam %d)" % (baslik, len(secili), len(kayit)))
+    print("%s — %d mesaj (tahtada toplam %d)" % (baslik, len(secili), toplam))
     print("=" * 76)
     for m in secili:
         bayrak = ""
@@ -1036,7 +1218,15 @@ def oku(a):
         print()
 
     # 🟢 OKUNDU OTOMATİK — elle işaretlenen kutu işaretlenmez.
-    if kim:
+    # ⚠️ `--kaynak origin`de YAZILMAZ: kayıt origin görüntüsüdür; onu yerel
+    #   dosyaya `_kaydet` etmek bir YAZMA yolu değişikliği olurdu (yerel
+    #   commit'lenmemiş kayıtları ezebilir). Okundu damgası yerel `oku` işidir.
+    if kim and _OKU_KAYNAK.get("mod") == "origin":
+        print("(--kaynak origin: 'okundu' damgası YAZILMADI — salt okuma)")
+    elif kim and _OKU_KAYNAK.get("mod") == "sunucu":
+        _sunucu_isaretle(kim, [m["no"] for m in secili
+                               if kim not in (m.get("okuyan") or {})])
+    elif kim:
         yeni = 0
         for m in secili:
             if kim not in (m.get("okuyan") or {}):
@@ -1067,7 +1257,7 @@ def bekleyen(a):
       yarın "hiç sorulmamış" gibi yeniden keşfedilir. Çare SÜZMEK, **ve
       süzülenin sayısını BASMAK**: gizlenen şey de görünsün.
     """
-    kayit = _yukle()
+    kayit = _yukle_oku()
     acik = [m for m in kayit if m["hal"] == "ACIK" and m["cevap"] == "BEKLIYOR"]
     simdi = _simdi()
     if a.get("gecikmis"):
@@ -1149,7 +1339,7 @@ def tamam(a):
 
 def teyitsiz(a):
     """🔴 KANAL ÖLÇÜMÜ — teyit dönmemiş mesajlar. Sessizliğin SAYISI."""
-    kayit = _yukle()
+    kayit = _yukle_oku()
     kim = (a.get("kim") or "").strip().upper()
     hedef = [m for m in kayit if m["hal"] != "KAPANDI"]
     if kim:
@@ -1200,14 +1390,300 @@ def kapat(a):
     return 0
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 SUNUCU İSTEMCİSİ (TAHTA-ISTEMCI-1010)
+#   `oturumlar/ag.json` `jeton` + `tahta_sunucu` taşıyorsa komut satırı tahta
+#   SUNUCUSUNA gider (numarayı sunucu verir — `tahta_sunucu.py` başlığı):
+#     yaz → POST /tahta/yaz · oku/bekleyen/teyitsiz/kimler → GET /tahta/oku
+#     okundu → POST /tahta/isaretle · teyit/tamam/kapat → POST /tahta/islem
+#   ⚠️ YALNIZ `main` yönlendirir: `tahta_sunucu.py` bu modülü içe aktarıp
+#     `yaz(a)`yı DOĞRUDAN çağırır; yönlendirme `yaz`ın içinde olsaydı sunucu
+#     KILIT altında kendine istek atardı (kilitlenme).
+#   ag.json YOKSA tek satır basılmaz, tek istek atılmaz — araç BİREBİR eskisi.
+#   Var ama eksikse / sunucu ulaşılamazsa / zaman aşımı ⇒ bugünkü git yoluna
+#   düşülür, SESSİZ DEĞİL: "sunucu … , yerele düştüm" sebebiyle basılır.
+#   401 ⇒ "JETON YANLIŞ" diye bağırılır VE yerele düşülür: jetonu düzeltmek
+#     insan işidir, o arada mesaj KAYBOLMAMALI (kuyruğa da girer).
+#   400 (sunucu reddetti: HERKES kapısı, --yanit yok) ⇒ düşülmez, kod döner.
+#   503 kod 4 (sunucu çatışması) ⇒ düşülmez, 4 döner (sunucu sözleşmesi).
+#   MÜKERRER KORUMASI: her yazım bir `yerel_kimlik` taşır — İLK denemede de
+#   (zaman aşımında sunucu yazmış olabilir). Düşüşte yerel yazılan mesaj aynı
+#   kimlikle `tahta_kuyruk.json`a (gitignore) girer; sunucu dönünce bir sonraki
+#   sunucu komutu kuyruğu ÖNCE boşaltır, `ey_yaz` aynı kimliği ikinci kez
+#   yazmaz. Kuyruk kaydı yalnız sunucu 200 dediğinde silinir.
+# ═══════════════════════════════════════════════════════════════════════════
+AG = os.path.join(DIZIN, "ag.json")
+KUYRUK = os.path.join(DIZIN, "tahta_kuyruk.json")
+SUNUCU_SN = 10                     # bağlantı + cevap zaman aşımı (sn)
+
+
+class _SunucuYok(Exception):
+    """Sunucuya ULAŞILAMADI (bağlantı · zaman aşımı) — sebep metni taşır."""
+
+
+def _sunucu_ayar():
+    """None ⇒ ag.json YOK (sessiz, eski yol) · {} ⇒ var ama kullanılamaz (basılır)."""
+    if not os.path.exists(AG):
+        return None
+    try:
+        with io.open(AG, encoding="utf-8") as f:
+            a = json.load(f)
+    except (ValueError, OSError) as e:
+        print("⚪ sunucu yok (ag.json okunamadı: %s), yerele düştüm" % type(e).__name__)
+        return {}
+    if not (isinstance(a, dict) and a.get("jeton") and a.get("tahta_sunucu")):
+        print("⚪ sunucu yok (ag.json'da `jeton`/`tahta_sunucu` eksik), yerele düştüm")
+        return {}
+    return a
+
+
+def _istek(ayar, yontem, yol, sorgu=None, govde=None):
+    """(HTTP kodu, gövde sözlüğü) döner; ulaşılamazsa `_SunucuYok` atar.
+    🔴 Jeton YALNIZ başlığa girer — hiçbir çıktıya, sebep metnine basılmaz.
+    Vekil (proxy) BİLEREK kapalı: jeton özel ağ dışına çıkmaz."""
+    import gzip
+    import platform
+    import urllib.error
+    import urllib.parse
+    import urllib.request
+    adres = str(ayar["tahta_sunucu"])
+    url = "http://%s%s" % (adres if ":" in adres else adres + ":8788", yol)
+    if sorgu:
+        url += "?" + urllib.parse.urlencode(sorgu)
+    veri = None if govde is None else json.dumps(govde, ensure_ascii=False).encode("utf-8")
+    r = urllib.request.Request(url, data=veri, method=yontem, headers={
+        "X-Atlas-Jeton": ayar["jeton"],
+        # beyandır, doğrulanmaz — sunucunun makine defterine düşer (ag_ayarla ile aynı)
+        "X-Atlas-Makine": platform.node() or "bilinmeyen",
+        "Accept-Encoding": "gzip", "Content-Type": "application/json"})
+    acici = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+
+    def coz(c):
+        ham = c.read()
+        if (c.headers.get("Content-Encoding") or "") == "gzip":
+            ham = gzip.decompress(ham)
+        try:
+            d = json.loads(ham.decode("utf-8"))
+            return d if isinstance(d, dict) else {}
+        except ValueError:
+            return {}
+    try:
+        with acici.open(r, timeout=SUNUCU_SN) as c:
+            return c.status, coz(c)
+    except urllib.error.HTTPError as e:
+        return e.code, coz(e)
+    except Exception as e:                                  # noqa: BLE001
+        raise _SunucuYok("ulaşılamadı (%s: %s)"
+                         % (type(e).__name__, getattr(e, "reason", None) or e))
+
+
+def _jeton_bagir(ayar):
+    j = str(ayar.get("jeton") or "")
+    print("🔴 JETON YANLIŞ (HTTP 401) — sunucu %s CEVAP VERDİ ama jetonu reddetti."
+          % ayar.get("tahta_sunucu"))
+    print("   ag.json `jeton`: %d karakter · …%s — ağ TAMAM, sorun jetonda."
+          % (len(j), j[-4:]))
+    print("   ⇒ py arac/ag_ayarla.py --sina   (KULLANICIYA söyle)")
+
+
+def _kuyruk_oku():
+    if not os.path.exists(KUYRUK):
+        return []
+    try:
+        with io.open(KUYRUK, encoding="utf-8") as f:
+            k = json.load(f)
+        return k if isinstance(k, list) else []
+    except (OSError, ValueError) as e:
+        print("⚠️ düşüş kuyruğu OKUNAMADI (%s) — dokunmadım: %s" % (e, KUYRUK))
+        return None
+
+
+def _kuyruk_yaz(k):
+    gec = KUYRUK + ".yeni.%d" % os.getpid()
+    with io.open(gec, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(k, f, ensure_ascii=False, indent=1)
+    os.replace(gec, KUYRUK)
+
+
+def _kuyruk_bosalt(ayar):
+    """Düşüşte yerel yazılmış mesajları AYNI `yerel_kimlik` ile sunucuya taşır.
+    Dönüş: None (sunucu cevap veriyor) ya da düşüş sebebi (metin)."""
+    if not os.path.exists(KUYRUK):
+        return None
+    with _Kilit(KUYRUK):
+        kuyruk = _kuyruk_oku()
+        if not kuyruk:
+            return None
+        kalan, sebep = [], None
+        for g in kuyruk:
+            if sebep is not None:
+                kalan.append(g)
+                continue
+            try:
+                kod, c = _istek(ayar, "POST", "/tahta/yaz", govde=g["govde"])
+            except _SunucuYok as e:
+                sebep = str(e)
+                kalan.append(g)
+                continue
+            if kod == 200 and c.get("tamam"):
+                print("↻ kuyruk: yerel %s → sunucu %s%s (yerel_kimlik %s)"
+                      % (g.get("yerel_no") or "?", c.get("no"),
+                         " — ZATEN vardı, ikinci kez YAZILMADI" if c.get("mukerrer")
+                         else "", g["govde"]["yerel_kimlik"]))
+            elif kod == 400:
+                # Yeniden denemek hep aynı reddi alır (ör. --yanit yerel numara).
+                print("🔴 kuyruk: yerel %s sunucuca REDDEDİLDİ (%s) — kuyruktan "
+                      "çıkarıldı, YEREL tahtada duruyor."
+                      % (g.get("yerel_no") or "?", c.get("sebep") or c.get("cikti")))
+            else:
+                if kod == 401:
+                    _jeton_bagir(ayar)
+                sebep = "jeton yanlış" if kod == 401 else "HTTP %s (%s)" % (
+                    kod, c.get("sebep") or "?")
+                kalan.append(g)
+        _kuyruk_yaz(kalan)
+        if kalan:
+            print("⚠️ kuyrukta %d düşüş mesajı BEKLİYOR — sunucu dönünce gider." % len(kalan))
+        return sebep
+
+
+def _sunucu_yaz(a, ayar):
+    import platform
+    import uuid
+    yk = "%s-%s" % (re.sub(r"\W", "", platform.node())[:16] or "makine", uuid.uuid4().hex[:12])
+    govde = dict(a, yerel_kimlik=yk)
+    kod, c = None, {}
+    sebep = _kuyruk_bosalt(ayar)
+    if sebep is None:
+        try:
+            kod, c = _istek(ayar, "POST", "/tahta/yaz", govde=govde)
+        except _SunucuYok as e:
+            sebep = str(e)
+    if kod == 200 and c.get("tamam"):
+        for s in c.get("cikti") or []:
+            print(s)
+        if c.get("mukerrer"):
+            print("ℹ️ aynı yerel_kimlik sunucuda ZATEN vardı — ikinci kez yazılmadı.")
+        print("sunucu: ✓ %s SUNUCU KAYDINDA (%s) — ULAŞTI" % (c.get("no"), ayar["tahta_sunucu"]))
+        return 0
+    if kod == 400 or (kod == 503 and c.get("kod") == 4):
+        for s in c.get("cikti") or []:
+            print(s)
+        print("sunucu: 🔴 REDDETTİ (HTTP %d) %s" % (kod, c.get("sebep") or ""))
+        if kod == 503:
+            print("   yerele DÜŞMÜYORUM — düşmek bölünmeyi derinleştirir (tahta_sunucu.py, kod 4).")
+        return c.get("kod") if isinstance(c.get("kod"), int) and c.get("kod") else 2
+    if kod == 401:
+        _jeton_bagir(ayar)
+        sebep = "jeton yanlış"
+    elif kod is not None:
+        sebep = "HTTP %d (%s)" % (kod, c.get("sebep") or "?")
+    print("⚠️ sunucu %s, yerele düştüm — mesaj GİT yoluyla yazılıyor ve kuyruğa giriyor." % sebep)
+    kod_y = yaz(dict(a, yerel_kimlik=yk))
+    yerel = next((m for m in _yukle() if m.get("yerel_kimlik") == yk), None)
+    if yerel is not None:
+        with _Kilit(KUYRUK):
+            k = _kuyruk_oku()
+            if k is not None:
+                k.append({"yerel_kimlik": yk, "yerel_no": yerel["no"],
+                          "zaman": _simdi(), "govde": govde})
+                _kuyruk_yaz(k)
+                print("↻ kuyrukta (%s): sunucu dönünce AYNI kimlikle gider, "
+                      "mükerrer YAZILMAZ." % yk)
+    return kod_y
+
+
+def _sunucu_kayit():
+    """`_yukle_oku`nun sunucu kolu: GET /tahta/oku; olmazsa YEREL (adıyla)."""
+    ayar = _OKU_KAYNAK["ayar"]
+    sorgu = _OKU_KAYNAK.get("sorgu") or {"hepsi": "1"}
+    sebep = _kuyruk_bosalt(ayar)
+    if sebep is None:
+        try:
+            kod, c = _istek(ayar, "GET", "/tahta/oku", sorgu=sorgu)
+        except _SunucuYok as e:
+            kod, c, sebep = None, {}, str(e)
+        if kod == 200 and isinstance(c.get("mesajlar"), list):
+            print("kaynak: SUNUCU (%s) — %d mesaj geldi, tahtada toplam %s"
+                  % (ayar["tahta_sunucu"], len(c["mesajlar"]), c.get("toplam")))
+            if not sorgu.get("hepsi"):
+                _OKU_KAYNAK["suzgec"] = {"toplam": int(c.get("toplam") or 0),
+                                         "adlar": c.get("adlar") or []}
+            return c["mesajlar"]
+        if kod == 401:
+            _jeton_bagir(ayar)
+            sebep = "jeton yanlış"
+        elif kod is not None:
+            sebep = "HTTP %d (%s)" % (kod, c.get("sebep") or "?")
+    print("⚠️ sunucu %s, yerele düştüm — YEREL tahta.json okunuyor (bayat olabilir)." % sebep)
+    _OKU_KAYNAK["mod"] = "yerel"          # okundu damgası da eski (yerel) yoldan
+    return _yukle()
+
+
+def _sunucu_isaretle(kim, nolar):
+    if not nolar:
+        return
+    try:
+        kod, c = _istek(_OKU_KAYNAK["ayar"], "POST", "/tahta/isaretle",
+                        govde={"kim": kim, "nolar": nolar})
+    except _SunucuYok as e:
+        kod, c = None, {"sebep": str(e)}
+    if kod == 200:
+        print("→ %s mesaj '%s tarafından OKUNDU' diye işaretlendi (sunucuda)."
+              % (c.get("yeni"), kim))
+    else:
+        print("⚠️ 'okundu' damgası sunucuya YAZILAMADI (%s) — mesajları okudun, "
+              "damga eksik." % ("HTTP %s" % kod if kod else c.get("sebep")))
+
+
+def _sunucu_islem(k, a, ayar):
+    kod, c = None, {}
+    sebep = _kuyruk_bosalt(ayar)
+    if sebep is None:
+        try:
+            kod, c = _istek(ayar, "POST", "/tahta/islem", govde={
+                "eylem": k, "no": a.get("no") or "", "kim": a.get("kim") or "",
+                "soz": a.get("soz") or "", "kimlik": a.get("kimlik") or ""})
+        except _SunucuYok as e:
+            sebep = str(e)
+    if kod in (200, 400) and isinstance(c.get("kod"), int) or (
+            kod == 503 and c.get("kod") == 4):
+        for s in c.get("cikti") or []:
+            print(s)
+        print("sunucu: %s (%s, HTTP %d)" % ("✓" if kod == 200 else "🔴", k, kod))
+        return c["kod"]
+    if kod == 401:
+        _jeton_bagir(ayar)
+        sebep = "jeton yanlış"
+    elif kod is not None:
+        sebep = "HTTP %d (%s)" % (kod, c.get("sebep") or "?")
+    print("⚠️ sunucu %s, yerele düştüm — %s YEREL tahtaya yazılıyor (kuyruğa ALINMAZ)."
+          % (sebep, k))
+    return {"teyit": teyit, "tamam": tamam, "kapat": kapat}[k](a)
+
+
 def main(argv):
     if not argv:
-        return oku({"hepsi": True})
+        argv = ["oku", "--hepsi"]          # = oku({"hepsi": True}), sunucu yoluyla
 
     def al(ad):
         return argv[argv.index(ad) + 1] if (ad in argv and argv.index(ad) + 1 < len(argv)) else None
 
     k = argv[0]
+    _OKU_KAYNAK.clear()                   # her çağrıda sıfırla — süreç içi tekrar kullanımda sızmasın
+    _OKU_KAYNAK["mod"] = "yerel"
+    if al("--kaynak"):
+        if al("--kaynak") not in ("origin", "yerel") or k not in ("oku", "bekleyen", "teyitsiz", "kimler"):
+            print("--kaynak yalnız oku/bekleyen/teyitsiz/kimler ile, 'origin' ya da 'yerel'")
+            return 2
+        _OKU_KAYNAK["mod"] = al("--kaynak")
+    elif k in ("oku", "bekleyen", "teyitsiz", "kimler"):
+        # açık `--kaynak` yoksa ve ag.json sunucu veriyorsa okuma SUNUCUDAN
+        _ayar = _sunucu_ayar()
+        if _ayar:
+            _OKU_KAYNAK.update(mod="sunucu", ayar=_ayar)
+            if k == "oku" and al("--kim") and "--hepsi" not in argv:
+                _OKU_KAYNAK["sorgu"] = {"kim": al("--kim"), "kimlik": al("--kimlik") or ""}
     ortak = {"kim": al("--kim"), "hepsi": "--hepsi" in argv,
              "acik": "--acik" in argv, "gecikmis": "--gecikmis" in argv,
              "gun": al("--gun"),
@@ -1253,11 +1729,13 @@ def main(argv):
             print("          [--aciliyet ACIL --dayanak '<niçin durdurucu>']   (HERKES için ŞART)")
             print("          [--yanit M-0007]")
             return 2
-        return yaz({"kim": al("--kim"), "kime": al("--kime"), "mesaj": al("--mesaj"),
-                    "cevap_bekle": "--cevap-bekle" in argv,
-                    "vade": al("--vade"), "yanit": al("--yanit"),
-                    "kimlik": al("--kimlik"), "cins": al("--cins"),
-                    "dayanak": al("--dayanak"), "aciliyet": al("--aciliyet")})
+        _a = {"kim": al("--kim"), "kime": al("--kime"), "mesaj": al("--mesaj"),
+              "cevap_bekle": "--cevap-bekle" in argv,
+              "vade": al("--vade"), "yanit": al("--yanit"),
+              "kimlik": al("--kimlik"), "cins": al("--cins"),
+              "dayanak": al("--dayanak"), "aciliyet": al("--aciliyet")}
+        _ayar = _sunucu_ayar()
+        return _sunucu_yaz(_a, _ayar) if _ayar else yaz(_a)
     if k == "oku":
         return oku(ortak)
     if k == "kimler":
@@ -1273,6 +1751,9 @@ def main(argv):
         if not ortak["no"]:
             print("kullanim: tahta.py %s M-0007 --kim <AD> [--soz \"...\"]" % k)
             return 2
+        _ayar = _sunucu_ayar()
+        if _ayar:
+            return _sunucu_islem(k, ortak, _ayar)
         return {"teyit": teyit, "tamam": tamam, "kapat": kapat}[k](ortak)
     print(__doc__)
     return 2

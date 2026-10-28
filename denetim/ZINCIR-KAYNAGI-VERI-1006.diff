@@ -1,0 +1,319 @@
+diff --git a/data/yerlesimler_a78_avrupa.js b/data/yerlesimler_a78_avrupa.js
+index 5fc4aac5..c4dd300f 100644
+--- a/data/yerlesimler_a78_avrupa.js
++++ b/data/yerlesimler_a78_avrupa.js
+@@ -58,7 +58,7 @@ window.YERLESIMLER_A78_AVRUPA = [
+ { ad:"Freistadt", tur:"sehir", lat:48.511, lon:14.504, g:2, k:0,
+   s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-12",d:"avusturya"},{f:"1918-11-12",t:"1923-10-29",d:"avusturya-cumhuriyet"}],
+   kaynak:"Yukarı Avusturya (Mühlviertel); Saint-Germain 1919-09-10 ile Avusturya'da kaldı. Zincir Viyana emsali, künye penceresine göre (avusturya 1526-08-29'da başlar; öncesi Kutsal Roma = almanya, Prag emsali). BİLİNEN EKSİK: 1620-1628 Bavyera rehni (bavyera BOYALAR'da yok)." },
+-{ ad:"Linz", tur:"sehir", lat:48.306, lon:14.286, g:1, k:0,
++{ ad:"Linz", zincir_kaynagi:{yer:"Freistadt", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:48.306, lon:14.286, g:1, k:0,
+   s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-12",d:"avusturya"},{f:"1918-11-12",t:"1923-10-29",d:"avusturya-cumhuriyet"}],
+   kaynak:"Yukarı Avusturya merkezi. Freistadt ile aynı zincir ve aynı bilinen eksik (1620-1628 Bavyera rehni)." },
+ { ad:"Gmünd (Aşağı Avusturya)", tur:"sehir", lat:48.767, lon:14.983, g:2, k:0,
+@@ -67,7 +67,7 @@ window.YERLESIMLER_A78_AVRUPA = [
+ { ad:"České Budějovice (Budweis)", tur:"sehir", lat:48.975, lon:14.474, g:1, k:0,
+   s:[{"f":"1281-01-01","t":"1526-10-22","d":"almanya"},{"f":"1526-10-22","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"cekoslovakya"}],
+   kaynak:"Güney Bohemya; zincir Prag EMSALİ (Bohemya Tacı, aynı birim) — 1918-11-11 günü emsalden (cekoslovakya künyesi 1918-10-28). Saint-Germain 1919-09-10 ile Çekoslovakya'nın." },
+-{ ad:"Třeboň (Wittingau)", tur:"sehir", lat:49.004, lon:14.771, g:2, k:0,
++{ ad:"Třeboň (Wittingau)", zincir_kaynagi:{yer:"České Budějovice (Budweis)", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:49.004, lon:14.771, g:2, k:0,
+   s:[{"f":"1281-01-01","t":"1526-10-22","d":"almanya"},{"f":"1526-10-22","t":"1918-11-11","d":"avusturya"},{"f":"1918-11-11","t":"1923-10-29","d":"cekoslovakya"}],
+   kaynak:"Güney Bohemya; České Budějovice ile aynı zincir (Prag emsali)." },
+ 
+@@ -89,7 +89,7 @@ window.YERLESIMLER_A78_AVRUPA = [
+ { ad:"Bregenz", tur:"sehir", lat:47.503, lon:9.747, g:1, k:0,
+   s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1805-12-26",d:"avusturya"},{f:"1805-12-26",t:"1814-06-03",d:"almanya"},{f:"1814-06-03",t:"1918-11-12",d:"avusturya"},{f:"1918-11-12",t:"1923-10-29",d:"avusturya-cumhuriyet"}],
+   kaynak:"Vorarlberg. 1805-12-26 Pressburg: 'Tirol ve Vorarlberg Bavyera'ya' (atlas kronolojisi; Bavyera atlasta almanya ile boyanır — Münih emsali). 1814-06-03 Paris (Avusturya–Bavyera) antlaşmasıyla iade — atlas maddesi yalnız Tirol'ü anıyor, Vorarlberg aynı antlaşmadadır. 1526 öncesi Kutsal Roma (almanya). Saint-Germain 1919-09-10: Avusturya'da kaldı (1919 İsviçre'ye katılma oylaması sonuçsuz)." },
+-{ ad:"Feldkirch", tur:"sehir", lat:47.238, lon:9.598, g:2, k:0,
++{ ad:"Feldkirch", zincir_kaynagi:{yer:"Bregenz", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:47.238, lon:9.598, g:2, k:0,
+   s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1805-12-26",d:"avusturya"},{f:"1805-12-26",t:"1814-06-03",d:"almanya"},{f:"1814-06-03",t:"1918-11-12",d:"avusturya"},{f:"1918-11-12",t:"1923-10-29",d:"avusturya-cumhuriyet"}],
+   kaynak:"Vorarlberg; Bregenz ile aynı zincir (Pressburg 1805 / Paris 1814)." },
+ 
+@@ -102,7 +102,7 @@ window.YERLESIMLER_A78_AVRUPA = [
+ { ad:"Landeck", tur:"sehir", lat:47.140, lon:10.567, g:2, k:0,
+   s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1805-12-26",d:"avusturya"},{f:"1805-12-26",t:"1814-06-03",d:"almanya"},{f:"1814-06-03",t:"1918-11-12",d:"avusturya"},{f:"1918-11-12",t:"1923-10-29",d:"avusturya-cumhuriyet"}],
+   kaynak:"Kuzey Tirol. 1805-12-26 Pressburg: 'Tirol ve Vorarlberg Bavyera'ya'; 1814-06-03 Paris: 'Tirol Avusturya'ya döndü' (ikisi de atlas kronolojisinde, Tirol'ü ADIYLA anar). Bavyera atlasta almanya ile boyanır (Münih emsali). 1526 öncesi Kutsal Roma. Saint-Germain 1919-09-10: Kuzey Tirol Avusturya'da." },
+-{ ad:"Innsbruck", tur:"sehir", lat:47.269, lon:11.393, g:1, k:0,
++{ ad:"Innsbruck", zincir_kaynagi:{yer:"Landeck", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:47.269, lon:11.393, g:1, k:0,
+   s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1805-12-26",d:"avusturya"},{f:"1805-12-26",t:"1814-06-03",d:"almanya"},{f:"1814-06-03",t:"1918-11-12",d:"avusturya"},{f:"1918-11-12",t:"1923-10-29",d:"avusturya-cumhuriyet"}],
+   kaynak:"Tirol merkezi; Landeck ile aynı zincir ve aynı kronoloji maddeleri (Pressburg 1805-12-26, Paris 1814-06-03)." },
+ { ad:"Lienz", tur:"sehir", lat:46.829, lon:12.769, g:2, k:0,
+@@ -133,7 +133,7 @@ window.YERLESIMLER_A78_AVRUPA = [
+ { ad:"Thonon", tur:"sehir", lat:46.371, lon:6.480, g:2, k:0,
+   s:[{f:"1281-01-01",t:"1720-08-02",d:"savoya"},{f:"1720-08-02",t:"1860-06-14",d:"sardinya"},{f:"1860-06-14",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+   kaynak:"Chablais (Savoya). Zincir Chambéry emsali, künye penceresine göre; 1860 Torino Antlaşması. BİLİNEN EKSİK: 1536-1567 Bern işgali (Lozan Antlaşması 1564, iade 1567) ve 1792-1815 Fransız ilhakı yazılmadı." },
+-{ ad:"Annemasse", tur:"sehir", lat:46.193, lon:6.234, g:2, k:0,
++{ ad:"Annemasse", zincir_kaynagi:{yer:"Thonon", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:46.193, lon:6.234, g:2, k:0,
+   s:[{f:"1281-01-01",t:"1720-08-02",d:"savoya"},{f:"1720-08-02",t:"1860-06-14",d:"sardinya"},{f:"1860-06-14",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+   kaynak:"Genevois (Savoya); Thonon ile aynı zincir ve aynı bilinen eksikler (Bern 1536-1567, Fransa 1792-1815)." },
+ 
+@@ -141,18 +141,18 @@ window.YERLESIMLER_A78_AVRUPA = [
+ { ad:"Arlon", tur:"sehir", lat:49.683, lon:5.817, g:1, k:0,
+   s:[{f:"1281-01-01",t:"1443-11-21",d:"almanya"},{f:"1443-11-21",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}],
+   kaynak:"Lüksemburg Dükalığı: zincir Lüksemburg kaydının EMSALİ 1830'a dek. 1830-10-04 Belçika idaresi (Lüksemburg vilâyeti, şehir hariç, Belçika ihtilaline katıldı; Namur emsali ve atlas maddesi 1830-10-04); 1839-04-19 Londra Antlaşması Valon kesimini Belçika'da bıraktı. BİLİNEN EKSİK: 1684-1697 Fransız dönemi." },
+-{ ad:"Bastogne", tur:"sehir", lat:50.000, lon:5.717, g:2, k:0,
++{ ad:"Bastogne", zincir_kaynagi:{yer:"Arlon", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:50.000, lon:5.717, g:2, k:0,
+   s:[{f:"1281-01-01",t:"1443-11-21",d:"almanya"},{f:"1443-11-21",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}],
+   kaynak:"Arlon ile aynı zincir (Lüksemburg Dükalığı → 1830/1839 Belçika)." },
+-{ ad:"Neufchâteau (Belçika)", tur:"sehir", lat:49.841, lon:5.435, g:2, k:0,
++{ ad:"Neufchâteau (Belçika)", zincir_kaynagi:{yer:"Arlon", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:49.841, lon:5.435, g:2, k:0,
+   s:[{f:"1281-01-01",t:"1443-11-21",d:"almanya"},{f:"1443-11-21",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}],
+   kaynak:"Arlon ile aynı zincir (Lüksemburg Dükalığı → 1830/1839 Belçika)." },
+-{ ad:"Virton", tur:"sehir", lat:49.568, lon:5.533, g:2, k:0,
++{ ad:"Virton", zincir_kaynagi:{yer:"Arlon", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:49.568, lon:5.533, g:2, k:0,
+   s:[{f:"1281-01-01",t:"1443-11-21",d:"almanya"},{f:"1443-11-21",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}],
+   kaynak:"Arlon ile aynı zincir (Lüksemburg Dükalığı → 1830/1839 Belçika)." },
+ // Karşı ağırlıklar — Belçika noktaları tek başına Lüksemburg'un kuzeyine (Oesling)
+ // ve Eupen-Malmedy'ye taşıyordu (serit ölçümü: lu-de iki-taraf %100 → %71).
+-{ ad:"Wiltz", tur:"sehir", lat:49.966, lon:5.933, g:2, k:0,
++{ ad:"Wiltz", zincir_kaynagi:{yer:"Lüksemburg", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:49.966, lon:5.933, g:2, k:0,
+   s:[{f:"1281-01-01",t:"1443-11-21",d:"almanya"},{f:"1443-11-21",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1890-11-23",d:"hollanda"},{f:"1890-11-23",t:"1923-10-29",d:"luksemburg"}],
+   kaynak:"Lüksemburg'un kuzeyi (Oesling); 1839 Londra'da Büyük Dükalıkta kaldı. Zincir Lüksemburg kaydının BİREBİR EMSALİ (aynı birim). Arlon ile aynı bilinen eksik (1684-1697 Fransız dönemi)." },
+ { ad:"St. Vith (Sankt Vith)", tur:"sehir", lat:50.283, lon:6.127, g:2, k:0,
+diff --git a/data/yerlesimler_afrika.js b/data/yerlesimler_afrika.js
+index e2b9668f..23b9a154 100644
+--- a/data/yerlesimler_afrika.js
++++ b/data/yerlesimler_afrika.js
+@@ -989,7 +989,7 @@ window.YERLESIMLER_AFRIKA = [
+   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
+ 
+-{ ad:"Nyala",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — \"Merkezi Fâşir şehridir\"; kasaba taneciğinde TDV susuyor (TANECİKLİK boşluğu), s:/v: dizisi El-Fâşir'le birebir",m:"El-Fâşir", tur:"sehir", lat:12.048, lon:24.882, g:0, k:4,
++{ ad:"Nyala", zincir_kaynagi:{yer:"El-Fâşir", pencere:["1281-01-01","1923-10-29"], tur:"birebir"},neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — \"Merkezi Fâşir şehridir\"; kasaba taneciğinde TDV susuyor (TANECİKLİK boşluğu), s:/v: dizisi El-Fâşir'le birebir",m:"El-Fâşir", tur:"sehir", lat:12.048, lon:24.882, g:0, k:4,
+   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
+ 
+diff --git a/data/yerlesimler_anadolu_0914.js b/data/yerlesimler_anadolu_0914.js
+index ff277553..4a2809b3 100644
+--- a/data/yerlesimler_anadolu_0914.js
++++ b/data/yerlesimler_anadolu_0914.js
+@@ -90,7 +90,7 @@ window.YERLESIMLER_ANADOLU_0914 = [
+      {f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1522-01-01",t:"1920-04-23",y:"ilhak",kesinlik:{f:"yil"},kaynak:"TDV dulkadirogullari (200, gövde okundu): 'Ferhad Paşa İran'a sefer bahanesiyle onu Tokat'a davet etti ve Artukova'da çocuklarıyla birlikte katlettirdi (1522). Ali Bey'in öldürülmesinden sonra Dulkadırlı ülkesi Osmanlı topraklarına katılarak Maraş merkez olmak üzere bir eyalet haline getirildi.' 1515-06-13 Turnadağ sonrası İLHAK DEĞİL TÂBİYETTİR: 'Alâüddevle Bey'den sonra Dulkadıroğulları Beyliği'nin başına Yavuz Sultan Selim tarafından Şehsuvaroğlu Ali Bey getirildi.' ⚠️ ÇELİŞKİ: TDV dulkadir-eyaleti aynı olaya 1521 der ve beylerbeyiliğin hangi tarihte teşkil edildiğinin 'kesin olarak bilinmediğini' yazar ⇒ GÜN YOK, yıl hassasiyeti (D210). — TARIH-SUPHE-0920"}], v:[{f:"1515-06-13",t:"1522-01-01",k:"Osmanlı'ya tâbi Dulkadır beyliği — Şehsuvaroğlu Ali Bey (TDV dulkadirogullari)"}] },
+ 
+-{ ad:"Reşadiye (İskefsir)", tur:"kale", lat:40.3919, lon:37.3375, g:0, k:4,
++{ ad:"Reşadiye (İskefsir)", zincir_kaynagi:{yer:"Ordu (Bayramlı)", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"kale", lat:40.3919, lon:37.3375, g:0, k:4,
+   neden:"0030/H-0004 · Ordu peteğinin sivri ucunun batı-iç ayağı: Niksar (40 km) ile Mesudiye (38 km) arasında. Emre kutusunda en büyük boşluk 51,1 → 38,0 km.",
+   not:"ZİNCİR KOMŞUDAN (§4 şartlı) — Ordu (Bayramlı) kaydından, Mesudiye/Gölköy ile AYNI dayanak: İskefsir TDV'de Milas ve Habsamana ile AYNI cümlede, aynı süreçte (Hacıemîroğulları fethi) geçiyor. Gün komşudan: Ordu (Bayramlı) · TDV ordu--sehir. ⚠️ Ordu'nun günleri kısmen kaynaksız: '1350 yıllarında' (yıl) · '800 (1398) baharında' (06-01 ay kodu) · '1427'de ilhak' (06-01 ay kodu) — yeni kırılma üretmemek için DEVRALINDI. 🔴 1281-1350 trabzon-rum bir ÇIKARIMDIR (kale fetih sırasında Rum savunmasındaydı; hangi yıldan beri, bilinmiyor). ⚠️ İskefsir Niksar'a (eretna/taceddin) 40 km — iç kesimde Rum hâkimiyetinin Canik beylikleriyle sınırı ÖLÇÜLMEDİ.",
+   kaynak:"TDV `ordu--sehir` (200, gövde okundu): 'İskefsir (Reşadiye), Milas (Mesudiye), Habsamana (Gölköy), Bolaman, Vona ve Öksün gibi kalelerde fetih sırasında savunmada kalan' · 'Hacıemîroğulları Beyliği 1427'de Osmanlılar tarafından ilhak edildi' · '859 (1455) … vilâyet-i Canik-i Bayramlu maa İskefsir ve Milas' · '954'te (1547) … İskefsir, Bayramlu ve Bazarsuyu kazalarına'. Koordinat GeoNames 740490 (Reşadiye ilçe merkezi; tarihî kale yeri ÖLÇÜLMEDİ).",
+diff --git a/data/yerlesimler_ek13.js b/data/yerlesimler_ek13.js
+index 01ec5d28..0e0710d8 100644
+--- a/data/yerlesimler_ek13.js
++++ b/data/yerlesimler_ek13.js
+@@ -175,7 +175,7 @@ window.YERLESIMLER_EK13 = [
+ // Önce 1689 öncesini kasıtlı boşluk yazmıştım; ölçüm gösterdi ki Albazin
+ // 1651-1689 arası RUS ve 240 km ötede — boşluk yazmak Amur'un solunda
+ // 38 yıllık delik açıyordu. Aynı voyvodalık, aynı zincir.
+-{ ad:"Blagoveşçensk", tur:"sehir", lat:50.2800, lon:127.5350, g:0, k:0, d:[],
++{ ad:"Blagoveşçensk", zincir_kaynagi:{yer:"Albazin", pencere:["1651-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:50.2800, lon:127.5350, g:0, k:0, d:[],
+   kasitli_bosluk:true,bos:"devletsiz", neden:"1651 öncesi Daur toprağı, devletsiz. Zincir Albazin'den birebir: aynı Amur voyvodalığı, aynı üç gün. 🔴 TDV'ye basmıyor. 🟡 kur:1856-06-02 (Blagoveşçensk şehir idaresi) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1651 rusya — Albazin/Amur voyvodalığı, belgeli Kazak seferi; 1689 qing — Nerçinsk Antlaşması) gerçek tarihî olaylara dayanıyor, kaynaksız DEĞİL.",
+   s:[{f:"1651-01-01",t:"1689-09-06",d:"rusya"},{f:"1689-09-06",t:"1858-05-28",d:"qing-hanedani"},{f:"1858-05-28",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+ 
+diff --git a/data/yerlesimler_ek25.js b/data/yerlesimler_ek25.js
+index 8d94720e..616c7bab 100644
+--- a/data/yerlesimler_ek25.js
++++ b/data/yerlesimler_ek25.js
+@@ -43,7 +43,7 @@ window.YERLESIMLER_EK25 = [
+   s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk",kaynak:"bulunamadı — Akçakale için MÜSTAKİL kaynak YOK (TDV'de müstakil madde yok, 302). Dönem a71d6c86 (11 Ağu 2026, koordinatör) ile GOOGLE HARİTALAR GÖRSELİNDEN yazıldı; dosya başlığı 'TEK TEK DOĞRULANMADI' diyor ve görsel akademik kaynak DEĞİLDİR (§4 kırmızı çizgi). Bölge hükmü: TDV `harran` Aynicâlût (1260) sonrası 'daha çok Memlükler, kısa aralıklarla İlhanlılar' der ama YIL VERMEZ; Iranica `harran` Memlük dönüşünü '8./14. yy başı' verir ⇒ İKİ KAYNAK ÇELİŞİR, §4 gereği TDV esas. 1281-01-01 bir ÖLÇÜM DEĞİL, UFUK penceresinin başlangıç işaretidir (D210). ⚠️ Jadlā' bu kayıttan GÜN devraldı; §4'ün birinci şartı (komşunun günü kendi kaynağına dayanacak) BURADAN DÜŞER — bkz. denetim/HUKUM-DEVRALMA-1004.md"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
+ 
+-{ ad:"Ceylanpınar", kd:[{f:"1281-01-01",t:"1516-08-24",k:0,m:null},{f:"1516-08-24",t:"1923-10-29",k:3,m:"Diyarbakır"}],isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],neden:"Nusaybin ile aynı desen; Osmanlı günü (1516-08-24, Mercidâbık) DEĞİŞMEDİ.",kaynak:"ankraj Mardin (75 km) — külliyattaki zincir", tur:"kasaba", lat:36.845, lon:40.043, g:0, k:3, m:"Diyarbakır",
++{ ad:"Ceylanpınar", zincir_kaynagi:{yer:"Mardin", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, kd:[{f:"1281-01-01",t:"1516-08-24",k:0,m:null},{f:"1516-08-24",t:"1923-10-29",k:3,m:"Diyarbakır"}],isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],neden:"Nusaybin ile aynı desen; Osmanlı günü (1516-08-24, Mercidâbık) DEĞİŞMEDİ.",kaynak:"ankraj Mardin (75 km) — külliyattaki zincir", tur:"kasaba", lat:36.845, lon:40.043, g:0, k:3, m:"Diyarbakır",
+   s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1516-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
+ 
+diff --git a/data/yerlesimler_ek26.js b/data/yerlesimler_ek26.js
+index 263b0225..492ee0e2 100644
+--- a/data/yerlesimler_ek26.js
++++ b/data/yerlesimler_ek26.js
+@@ -49,11 +49,11 @@ window.YERLESIMLER_EK26 = [
+   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1406-10-21",t:"1469-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-01-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1534-01-01",t:"1878-03-03"}], v:[] },
+ 
+-{ ad:"Digor",neden:"akkoyunlu 1281'de açılıyordu; bölge ankrajına hizalandı.",kaynak:"ankraj Revan — aynı zincir", tur:"kasaba", lat:40.375, lon:43.410, g:0, k:3, m:"Erzurum",
++{ ad:"Digor", zincir_kaynagi:{yer:"Revan", pencere:["1281-01-01","1534-01-01"], tur:"pencere"},neden:"akkoyunlu 1281'de açılıyordu; bölge ankrajına hizalandı.",kaynak:"ankraj Revan — aynı zincir", tur:"kasaba", lat:40.375, lon:43.410, g:0, k:3, m:"Erzurum",
+   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1406-10-21",t:"1469-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-01-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1534-01-01",t:"1878-03-03"}], v:[] },
+ 
+-{ ad:"Iğdır",neden:"CEVAP.json notunun adıyla andığı vaka: \"Iğdır tek blok 1281->1534\". Zincir açıldı; 253 yıllık tek parça akkoyunlu 32 yıla indi.",kaynak:"ankraj Revan (46 km) — aynı zincir", tur:"kasaba", lat:39.920, lon:44.045, g:0, k:3, m:"Erzurum",
++{ ad:"Iğdır", zincir_kaynagi:{yer:"Revan", pencere:["1281-01-01","1534-01-01"], tur:"pencere"},neden:"CEVAP.json notunun adıyla andığı vaka: \"Iğdır tek blok 1281->1534\". Zincir açıldı; 253 yıllık tek parça akkoyunlu 32 yıla indi.",kaynak:"ankraj Revan (46 km) — aynı zincir", tur:"kasaba", lat:39.920, lon:44.045, g:0, k:3, m:"Erzurum",
+   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1406-10-21",t:"1469-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-01-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1534-01-01",t:"1878-03-03"}], v:[] },
+ 
+@@ -84,11 +84,11 @@ window.YERLESIMLER_EK26 = [
+ // tarihi. Bölge deseni izlendi (komşu kayıtla aynı gün) — uydurma gün
+ // yazılmadı, `Değişmez 2` açık kırılma üretmesin diye.
+ // Ermenistan yakası
+-{ ad:"Gümrü (Aleksandropol)",kaynak:"ankraj Revan (86 km) — aynı zincir", tur:"sehir", lat:40.789, lon:43.847, g:0, k:3, m:"Erzurum",
++{ ad:"Gümrü (Aleksandropol)", zincir_kaynagi:{yer:"Revan", pencere:["1281-01-01","1923-10-29"], tur:"birebir"},kaynak:"ankraj Revan (86 km) — aynı zincir", tur:"sehir", lat:40.789, lon:43.847, g:0, k:3, m:"Erzurum",
+   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1406-10-21",t:"1469-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+   d:[{f:"1583-09-13",t:"1604-06-08",kaynak:"örtülü — Emre 13 Eylül (karar 11) ve 17 Eylül kararı · dayanak: Revan · BOA A.DVNSMHM.d 51-322 (13 Eylül 1583, Adlığ 2026) / TDV revan (991 Ramazanı başları = Eylül 1583 ortaları; 1013/1604) · batıda Kars kesintisiz Osmanlı · ⚠️ Şüregel 1590 Revan tahririnde (BOA TD 633) YOK — 1583-1604 sahibi için kaynak bulunamadı"},{f:"1724-10-03",t:"1735-10-03",kaynak:"örtülü — Emre 17 Eylül karari · dayanak: Revan · Bilgili 2016 (Ermeni Araştırmaları 53) (3 Ekim 1724) / TDV nadir-sah--iran (3 Ekim 1735) · batıda Kars kesintisiz Osmanlı · Alandağlı 2024 (Arpaçay doğusu Revan eyaleti)"}], v:[] },
+ 
+-{ ad:"Eçmiyadzin",kaynak:"ankraj Revan (19 km) — Revan zinciri: köy Karbi nahiyesinde (Köse 2024 Türkiyat Mecmuası 34/1: 'Revan kazâsına tâbi Karbi nâhiyesinde', 1725 arzuhali); Karbi nahiyesi Kasım 1590 Osmanlı tahririnde (BOA TD 633, Bilgili 2016) ve 1727 TD 901'de", tur:"sehir", lat:40.162, lon:44.293, g:0, k:3, m:"Erzurum",
++{ ad:"Eçmiyadzin", zincir_kaynagi:{yer:"Revan", pencere:["1281-01-01","1923-10-29"], tur:"birebir"},kaynak:"ankraj Revan (19 km) — Revan zinciri: köy Karbi nahiyesinde (Köse 2024 Türkiyat Mecmuası 34/1: 'Revan kazâsına tâbi Karbi nâhiyesinde', 1725 arzuhali); Karbi nahiyesi Kasım 1590 Osmanlı tahririnde (BOA TD 633, Bilgili 2016) ve 1727 TD 901'de", tur:"sehir", lat:40.162, lon:44.293, g:0, k:3, m:"Erzurum",
+   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1406-10-21",t:"1469-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+   d:[{f:"1583-09-13",t:"1604-06-08",kaynak:"gün komşudan: Revan (13 Eylül 1583 emir günü, Adlığ 2026 · TDV revan; 1604-06-08 Revan'ın kaybı) · Karbi nahiyesi TD 633 (Kasım 1590)"},{f:"1724-10-03",t:"1735-10-03",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.107 (TD 901 Karpi nahiyesi) · gün komşudan: Revan"}], v:[] },
+ 
+@@ -131,7 +131,7 @@ window.YERLESIMLER_EK26 = [
+   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
+ 
+-{ ad:"Özalp (Saray)",neden:"akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-24'te başlamaya devam ediyor.",kaynak:"ankraj Van (55 km) — külliyattaki zincir; 1548-08-24 Van'ın kendi Osmanlı günü", tur:"kasaba", lat:38.658, lon:43.998, g:0, k:3, m:"Van",
++{ ad:"Özalp (Saray)", zincir_kaynagi:{yer:"Van", pencere:["1281-01-01","1923-10-29"], tur:"birebir"},neden:"akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-24'te başlamaya devam ediyor.",kaynak:"ankraj Van (55 km) — külliyattaki zincir; 1548-08-24 Van'ın kendi Osmanlı günü", tur:"kasaba", lat:38.658, lon:43.998, g:0, k:3, m:"Van",
+   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
+ 
+@@ -139,7 +139,7 @@ window.YERLESIMLER_EK26 = [
+   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
+ 
+-{ ad:"Yüksekova (Gever)",neden:"Özalp ile aynı desen.",kaynak:"ankraj Çölemerik/Hakkâri (48 km) — külliyattaki zincir", tur:"kasaba", lat:37.573, lon:44.290, g:0, k:3, m:"Van",
++{ ad:"Yüksekova (Gever)", zincir_kaynagi:{yer:"Çölemerik (Hakkâri)", pencere:["1281-01-01","1923-10-29"], tur:"birebir"},neden:"Özalp ile aynı desen.",kaynak:"ankraj Çölemerik/Hakkâri (48 km) — külliyattaki zincir", tur:"kasaba", lat:37.573, lon:44.290, g:0, k:3, m:"Van",
+   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
+ 
+diff --git a/data/yerlesimler_kdmacar.js b/data/yerlesimler_kdmacar.js
+index b805d562..2eb9b5af 100644
+--- a/data/yerlesimler_kdmacar.js
++++ b/data/yerlesimler_kdmacar.js
+@@ -111,7 +111,7 @@ window.YERLESIMLER_KDMACAR = [
+ //    yokluğunda onun toprağı Varad (58 km, OSMANLI) · Tokaj (67 km,
+ //    TÂBİ) · Szatmár (97 km, avusturya) arasında paylaşılıyordu ve
+ //    Szatmár'ın peteğini şişiriyordu.
+-{ ad:"Debrecen", tur:"sehir", lat:47.5316, lon:21.6273, g:0, k:3, m:"Varad (Oradea)",
++{ ad:"Debrecen", zincir_kaynagi:{yer:"Varad (Oradea)", pencere:["1526-09-01","1660-08-27"], tur:"pencere"}, tur:"sehir", lat:47.5316, lon:21.6273, g:0, k:3, m:"Varad (Oradea)",
+   // kaynak: varad — "Varad merkezli yeni eyaletin Varad dışında beş
+   // sancağı vardı: Salanta/Salonta, DEBRECEN, Halmaş, Sengevi, Yapışmaz."
+   // Fetih ve kayıp günleri Varad kaydından BİREBİR alındı (aynı eyalet,
+diff --git a/data/yerlesimler_ok101.js b/data/yerlesimler_ok101.js
+index a5e364b8..8fc30f56 100644
+--- a/data/yerlesimler_ok101.js
++++ b/data/yerlesimler_ok101.js
+@@ -100,7 +100,7 @@ window.YERLESIMLER_OK101 = [
+   neden:"H-0054 — görselin batı kıyısı (Tebük ile Yenbu arası ~450 km kıyı şeridi) tamamen noktasızdı; el-Vech bu kolun tek büyük limanı. Dönem zinciri Tebük'ten (ÇIKARIM)."},
+ 
+ // ── Medine'nin kuzey vahası ─────────────────────────────────────────────
+-{ ad:"Hayber", tur:"sehir", lat:25.6981, lon:39.2920, g:0, k:4, m:"Medine",
++{ ad:"Hayber", zincir_kaynagi:{yer:"Medine", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:25.6981, lon:39.2920, g:0, k:4, m:"Medine",
+   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
+      {f:"1805-06-01",t:"1812-12-03",d:"suud"},
+      {f:"1919-01-10",t:"1923-10-29",d:"hicaz"}],
+diff --git a/data/yerlesimler_ok107.js b/data/yerlesimler_ok107.js
+index 72ec7c96..893124b6 100644
+--- a/data/yerlesimler_ok107.js
++++ b/data/yerlesimler_ok107.js
+@@ -119,7 +119,7 @@ window.YERLESIMLER_OK107 = [
+   //   kalesinin teslimi) tutuldu ve sınırı BURAYA yazıldı.
+ },
+ 
+-{ ad:"Midyat", tur:"kasaba", lat:37.418, lon:41.372, k:4, m:"Mardin",
++{ ad:"Midyat", zincir_kaynagi:{yer:"Mardin", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"kasaba", lat:37.418, lon:41.372, k:4, m:"Mardin",
+   // 🔴 TDV `midyat` ve `midyat--sehir` sluglarının İKİSİ DE 302 = ÖLÜ.
+   // Aradım, yok. Tur Abdin'in merkezi ve Osmanlı'da Mardin sancağının
+   // nahiye/kaza merkezi. Dönem günleri MARDİN'in kendi kaydından alındı
+@@ -168,7 +168,7 @@ window.YERLESIMLER_OK107 = [
+ //     kurtardı. `ok101`in `el-Ulâ` kaydı bu gerekçeyi TAŞIMIYOR
+ //     (kaynağı UNESCO hac yolu listesi) — sahibi isterse ekleyebilir.
+ 
+-{ ad:"Bedir", tur:"kasaba", lat:23.780, lon:38.790, k:4, m:null,
++{ ad:"Bedir", zincir_kaynagi:{yer:"Yenbu", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"kasaba", lat:23.780, lon:38.790, k:4, m:null,
+   // TDV `bedir` (200, gövde 11.394 kr, OKUNDU) — madde BEDİR GAZVESİ'ni
+   // anlatıyor; yerleşimin Osmanlı dönemine dair tek kelime yok. `§4`in
+   // "TANECİK boşluğu" hâli: TDV bölgeyi görüyor ama bu tanecikte susuyor.
+@@ -182,7 +182,7 @@ window.YERLESIMLER_OK107 = [
+   kaynak:"bulunamadı — TDV `bedir` maddesi Bedir Gazvesi'ni anlatıyor, yerleşimin Osmanlı dönemini KAPSAMIYOR (§4 tanecik boşluğu). Dönem günleri Yenbu kaydından (82 km) bölgesel hizalama ile alındı."
+ },
+ 
+-{ ad:"Râbiğ", tur:"liman", lat:22.799, lon:39.035, k:4, m:null,
++{ ad:"Râbiğ", zincir_kaynagi:{yer:"Cidde", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"liman", lat:22.799, lon:39.035, k:4, m:null,
+   // 🔴 `rabig` ve `rabig--sehir` slugları 302 = ÖLÜ. Aradım, yok.
+   // Mekke-Medine sahil yolunun mîkat durağı ve limanı.
+   // günler CİDDE'den (140,5 km, aynı sahil kolu) alındı.
+@@ -202,7 +202,7 @@ window.YERLESIMLER_OK107 = [
+ //   yok oluş GÜNÜ vermiyor. `bit:`siz yazmak 1923'e kadar boyanan bir
+ //   harabe üretirdi (`§3.5` hayalet sınıfı).
+ 
+-{ ad:"Taraz (Evliya-Ata)", tur:"sehir", lat:42.900, lon:71.367, k:3, m:null,
++{ ad:"Taraz (Evliya-Ata)", zincir_kaynagi:{yer:"Çimkent", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:42.900, lon:71.367, k:3, m:null,
+   // 🔴 `taraz` · `talas` · `evliya-ata` sluglarının ÜÇÜ DE 302. TDV
+   // `turkistan` genel maddesi de kasabayı anmıyor (aradım, "Sayram ile
+   // Buğda" yalnız GÖL adı olarak geçiyor). ⇒ tanecik boşluğu, beyan edildi.
+@@ -222,7 +222,7 @@ window.YERLESIMLER_OK107 = [
+   d:[], v:[],
+   kaynak:"bulunamadı — TDV'de `taraz`/`talas`/`evliya-ata` maddesi YOK (üç slug da 302 ölçüldü); `turkistan` genel maddesi de kasabayı kapsamıyor (§4 tanecik boşluğu). Dönem günleri Çimkent kaydından (159 km) bölgesel hizalama ile alındı.", s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}]},
+ 
+-{ ad:"Sayram (İsficâb)", tur:"kasaba", lat:42.303, lon:69.786, k:4, m:null,
++{ ad:"Sayram (İsficâb)", zincir_kaynagi:{yer:"Çimkent", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"kasaba", lat:42.303, lon:69.786, k:4, m:null,
+   // 🔴 `sayram` · `sayram--sehir` · `isficab` sluglarının ÜÇÜ DE 302.
+   // Çimkent'e 15,7 km — 3 km kuralını GEÇİYOR ama yakın; ayrı kayıt olmasının
+   // sebebi İsficâb'ın ayrı ve daha eski bir yerleşim olması. Dönem günleri
+diff --git a/data/yerlesimler_p0043libya.js b/data/yerlesimler_p0043libya.js
+index dbc40a78..01b2f01d 100644
+--- a/data/yerlesimler_p0043libya.js
++++ b/data/yerlesimler_p0043libya.js
+@@ -80,7 +80,7 @@
+ 
+ window.YERLESIMLER_P0043LIBYA = [
+ 
+-  { ad:"Sîva (Siwa)",
++  { ad:"Sîva (Siwa)", zincir_kaynagi:{yer:"Dâhile", pencere:["1281-01-01","1923-10-29"], tur:"birebir"},
+     tur:"bolge", lat:29.203, lon:25.519, g:0, k:4, m:"Kahire",
+     kaynak:"TDV `misir` (kapsayıcı madde, 200, gövde okundu) — VARLIK ve COĞRAFYA kaynaklı: \"vahalar (Sîva, Bahriyye, Feyyûm, Ferâfre, Dâhle ve Hârce)\" ve \"En kalabalık vaha Batı çölündeki Libya sınırında bulunan Sîva vahasıdır.\" 🔴 TARİH KAYNAKLI DEĞİL: TDV Sîva için dönem vermiyor. Zincir, aynı sınıftaki DÖRT kardeş vahadan (Dâhile · Hârice · Ferâfire · Bahriye) BİREBİR DEVRALINDI (D084) — seçilmedi, devralındı ve bu açıkça yazıldı. Dar sluglar ölçüldü ve ÖLÜ: sive · siva · siwa · vahat · amonyum · sive--misir (302).",
+     neden:"Batı Çölü'nün en kalabalık vahası ve TDV'nin saydığı altı vahadan atlasta bulunmayan TEK vaha (beşi zaten var). En yakın mevcut nokta Cağbûb 114,3 km ⇒ 3 km sınavı geçti, gerçek boşluk. ⚠️ Sîva altı vahanın en özerkiydi; Mısır'ın fiilî denetimi 1820 Kavalalı seferiyle kuruldu, yani `v:1805-07-03` fiilî denetimden ~15 yıl önce başlıyor — AMA bu dört kardeşte de böyle, atlasın konvansiyonu. Sîva'ya özel tarih YAZILMADI çünkü TDV'de dayanağı yok.",
+diff --git a/data/yerlesimler_serhat.js b/data/yerlesimler_serhat.js
+index 874f2758..f04ab376 100644
+--- a/data/yerlesimler_serhat.js
++++ b/data/yerlesimler_serhat.js
+@@ -137,7 +137,7 @@ window.YERLESIMLER_SERHAT = [
+ //    `§3.5.1`: *tek uçtan bakan düzeltme, hatayı taşır — silmez.*
+ // 📌 1456 dönüşünün kronoloji maddesi yazıldı: `data/olaylar_p0043a.js`
+ // ═════════════════════════════════════════════════════════════════════
+-{ ad:"Şehirköy (Pirot)", kd:[{f:"1281-01-01",t:"1386-01-01",k:0,m:null},{f:"1386-01-01",t:"1923-10-29",k:3,m:"Sofya"}],not:"H-0017 · 1386-1413 penceresi veride HIC yoktu: Sehirkoy, Osmanli Sofya'si (1385-09-01) ile Osmanli Nis'i (1386-01-01) ARASINDA olmasina ragmen 1428'e kadar Sirp gorunuyordu. Emre'nin 'Nis'in yaninda kalmis Sirbistan topragi' dedigi parca budur. IKI olay BILEREK modellenmedi, ikisinde de TDV GUN vermiyor: (1) 1389 Vojinovic'in kaleyi geri almasi ve Sirplarin yakip terk etmesi, (2) 1412'de Stefan Lazarevic'in zapti. Devir gunu olarak TDV'nin 'resmen iade etti' dedigi 1413-07-05 (Musa Celebi'nin olumu) secildi — o gun kulliyatta VAR, 1412-01-01 ise YOKTU ve uygulayici onu haklı olarak reddetti.  ||  P04-BALKAN 14 Eylul 2026 (0042/H-0034 · H-0042): 1402-1413 d: Osmanli blogu Fetret'te sehzade bolgesinin ORTASINDA koyu kirmizi ada ciziyordu. DUZELTME: (a) d: 1402-07-28'de biter; 1402-1412 Emir Suleyman / Musa Celebi donemleri SARTLI KOMSU GUNU ile yazildi — gunler TDV musa-celebi'nin kendi gunleri (1410-02-13 Yanbolu · 1410-06-15 Kosmidion · 1411-02-17), Sehirkoy icin kaynakta Fetret gunu yok, ayni surec, ayni gunleri tasiyan en yakin kayit Nis 59 km. (b) sirp-despotlugu 1412-01-01'de baslar: TDV sehirkoy '1412'de Sirp Despotu Stefan Lazarevic tarafindan alindi' — YIL; maddesi data/olaylar_p0055.js. 1413-07-05 'resmen iade' ayni elde kalan kalenin hukuki teyidi, ayri donem degil. H-0042 enklavinin geri kalani Nis kaydinda (yerlesimler.js, kilitli): TDV nis 1413'te Nis'i Stefan'a verildi diyor — oneri denetim/YAMA-TRAKYA-0914.json.",kaynak:"sehirkoy", tur:"kasaba", lat:43.1531, lon:22.5861, g:0, k:3, m:"Sofya",
++{ ad:"Şehirköy (Pirot)", zincir_kaynagi:{yer:"Niş", pencere:["1402-07-28","1412-01-01"], tur:"pencere"}, kd:[{f:"1281-01-01",t:"1386-01-01",k:0,m:null},{f:"1386-01-01",t:"1923-10-29",k:3,m:"Sofya"}],not:"H-0017 · 1386-1413 penceresi veride HIC yoktu: Sehirkoy, Osmanli Sofya'si (1385-09-01) ile Osmanli Nis'i (1386-01-01) ARASINDA olmasina ragmen 1428'e kadar Sirp gorunuyordu. Emre'nin 'Nis'in yaninda kalmis Sirbistan topragi' dedigi parca budur. IKI olay BILEREK modellenmedi, ikisinde de TDV GUN vermiyor: (1) 1389 Vojinovic'in kaleyi geri almasi ve Sirplarin yakip terk etmesi, (2) 1412'de Stefan Lazarevic'in zapti. Devir gunu olarak TDV'nin 'resmen iade etti' dedigi 1413-07-05 (Musa Celebi'nin olumu) secildi — o gun kulliyatta VAR, 1412-01-01 ise YOKTU ve uygulayici onu haklı olarak reddetti.  ||  P04-BALKAN 14 Eylul 2026 (0042/H-0034 · H-0042): 1402-1413 d: Osmanli blogu Fetret'te sehzade bolgesinin ORTASINDA koyu kirmizi ada ciziyordu. DUZELTME: (a) d: 1402-07-28'de biter; 1402-1412 Emir Suleyman / Musa Celebi donemleri SARTLI KOMSU GUNU ile yazildi — gunler TDV musa-celebi'nin kendi gunleri (1410-02-13 Yanbolu · 1410-06-15 Kosmidion · 1411-02-17), Sehirkoy icin kaynakta Fetret gunu yok, ayni surec, ayni gunleri tasiyan en yakin kayit Nis 59 km. (b) sirp-despotlugu 1412-01-01'de baslar: TDV sehirkoy '1412'de Sirp Despotu Stefan Lazarevic tarafindan alindi' — YIL; maddesi data/olaylar_p0055.js. 1413-07-05 'resmen iade' ayni elde kalan kalenin hukuki teyidi, ayri donem degil. H-0042 enklavinin geri kalani Nis kaydinda (yerlesimler.js, kilitli): TDV nis 1413'te Nis'i Stefan'a verildi diyor — oneri denetim/YAMA-TRAKYA-0914.json.",kaynak:"sehirkoy", tur:"kasaba", lat:43.1531, lon:22.5861, g:0, k:3, m:"Sofya",
+   s:[{f:"1281-01-01",t:"1386-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1412-01-01",d:"musa-celebi"},{f:"1412-01-01",t:"1428-01-01",d:"sirp-despotlugu"},{f:"1443-01-01",t:"1456-01-01",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+   d:[{f:"1386-01-01",t:"1402-07-28"},{f:"1428-01-01",t:"1443-01-01"},{f:"1456-01-01",t:"1689-09-24"},{f:"1690-09-09",t:"1878-07-13"}],
+   v:[] },
+@@ -188,7 +188,7 @@ window.YERLESIMLER_SERHAT = [
+ //
+ // 🟢 3 km mükerrer taraması yapıldı: en yakın nokta 19,1 km (Silivri).
+ //   `CLAUDE.md §11` "yakın mükerrer yerleşim" tuzağı — temiz.
+-{ ad:"Çatalca", tur:"kasaba", lat:41.1436, lon:28.4611, g:0, k:4, m:"İstanbul",
++{ ad:"Çatalca", zincir_kaynagi:{yer:"Silivri", pencere:["1281-01-01","1920-04-23"], tur:"pencere"}, tur:"kasaba", lat:41.1436, lon:28.4611, g:0, k:4, m:"İstanbul",
+   s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1453-05-29",t:"1920-04-23"}],
+   v:[],
+diff --git a/data/yerlesimler_sibirya2.js b/data/yerlesimler_sibirya2.js
+index b3c4ce7b..d7cfacd0 100644
+--- a/data/yerlesimler_sibirya2.js
++++ b/data/yerlesimler_sibirya2.js
+@@ -73,7 +73,7 @@ window.YERLESIMLER_SIBIRYA2 = [
+ { ad:"Tigil", tur:"kale", lat:57.8000, lon:158.6700, kur:"1747-01-01", s:[{f:"1747-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], kaynak:"ilk yerleşim 1747; Tigil kalesini 1751-52'de Teğmen Holmov inşa etti — Taymır Dolgan-Nenets belediye tarihçesi · bölgesel ansiklopedik kaynaklar (hakemli DEĞİL)" },
+ { ad:"Hantayka zimovyesi", tur:"kale", lat:68.3101, lon:90.8960, kur:"1610-01-01", s:[{f:"1610-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], kaynak:"Hantayka nehri ağzında yasak zimovyesi — Taymır Dolgan-Nenets belediye tarihçesi · bölgesel ansiklopedik kaynaklar (hakemli DEĞİL)  ⚠️ ⚠️ kaynak 'ОКОЛО 1610 г.' (yaklaşık) diyor — yıl KESİN DEĞİL. Aynı yıllarda Dudinka'da da birkaç izba ve ambar yapılmış; Turuhansk zimovyesi 1607." },
+ { ad:"Zeya (Zeyskiy Sklad)", tur:"kale", lat:53.7400, lon:127.2700, kur:"1879-01-01", s:[{f:"1879-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], kaynak:"Yukarı Amur altın şirketinin aktarma noktası «Zeyskiy Sklad»; Zeya sağ kıyısında, Tukuringra eteğinde, Blagoveşçensk'ten 620 verst — Taymır Dolgan-Nenets belediye tarihçesi · bölgesel ansiklopedik kaynaklar (hakemli DEĞİL)  ⚠️ 🔴 ADI DÜZELTİLDİ: bu nokta Zeya AĞZINDAKİ Mançu yerleşimi DEĞİL (Zeya ağzı Blagoveşçensk'tedir, 50,28/127,53). 53,74/127,27 = Zeya ŞEHRİ. ⚠️ Bu düzeltme 4. turda YAPILDI SANILDI; yama anahtarı eşleşmedi ve betik SESSİZCE geçti — M-2466'da yanlış raporlandı, burada telâfi edildi." },
+-{ ad:"Zaural Başkurt toprakları", tur:"bolge", lat:54.0000, lon:62.5000, s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], kaynak:"cyberleninka: «зауральских родов башкир, оказавшихся в сфере непосредственного подчинения правителям Сибирского ханства» — Zaural Başkurt boyları doğrudan Sibir hanlarına tâbiydi. Zincir atlasın `Tümen (Çimgi-Tura)` kaydıyla BİREBİR AYNI (emsal)." },
++{ ad:"Zaural Başkurt toprakları", zincir_kaynagi:{yer:"Tümen (Çimgi-Tura)", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"bolge", lat:54.0000, lon:62.5000, s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], kaynak:"cyberleninka: «зауральских родов башкир, оказавшихся в сфере непосредственного подчинения правителям Сибирского ханства» — Zaural Başkurt boyları doğrudan Sibir hanlarına tâbiydi. Zincir atlasın `Tümen (Çimgi-Tura)` kaydıyla BİREBİR AYNI (emsal)." },
+ { ad:"Başkurt toprakları (İdil-Ural)", tur:"bolge", lat:56.0000, lon:58.5000, s:[{f:"1281-01-01",t:"1502-01-01",d:"altinorda"},{f:"1502-01-01",t:"1555-01-01",d:"nogay"},{f:"1555-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], kaynak:"cyberleninka Başkurt makaleleri — katılma BOY BOY: 1554-55 batı · 1555 Min ve Yurmatı · ≤1556 Burzyan/Kıpsak/Userğan/Tamyan · 1556-57 merkez-doğu · XVI. yy sonu-XVII. yy başı kuzeydoğu. ⚠️ KAYNAĞIN KENDİ DAMGASI: «1557 г., отмечаемый как год присоединения Башкирии к России, — в значительной мере УСЛОВНОСТЬ, вызванная абсолютизацией Никоновской летописи» ⇒ 1557 bir OLAY DEĞİL bir KONVANSİYONDUR. 1555-01-01 seçildi ve bu SEÇİM kayıtlıdır. Tâbiiyet nüansı: Başkurtlar Nogay'a TÂBİ idi, doğrudan idare değil — `v:` yazılamadı çünkü atlas `v:` içindeki `d:`yi okumuyor (MIMARI.md §3.6, model sınırı)." },
+ { ad:"Güney Başkurt bozkırı", tur:"bolge", lat:52.0000, lon:58.0000, s:[{f:"1281-01-01",t:"1502-01-01",d:"altinorda"},{f:"1502-01-01",t:"1555-01-01",d:"nogay"},{f:"1555-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], kaynak:"cyberleninka Başkurt makaleleri — katılma BOY BOY: 1554-55 batı · 1555 Min ve Yurmatı · ≤1556 Burzyan/Kıpsak/Userğan/Tamyan · 1556-57 merkez-doğu · XVI. yy sonu-XVII. yy başı kuzeydoğu. ⚠️ KAYNAĞIN KENDİ DAMGASI: «1557 г., отмечаемый как год присоединения Башкирии к России, — в значительной мере УСЛОВНОСТЬ, вызванная абсолютизацией Никоновской летописи» ⇒ 1557 bir OLAY DEĞİL bir KONVANSİYONDUR. 1555-01-01 seçildi ve bu SEÇİM kayıtlıdır. Tâbiiyet nüansı: Başkurtlar Nogay'a TÂBİ idi, doğrudan idare değil — `v:` yazılamadı çünkü atlas `v:` içindeki `d:`yi okumuyor (MIMARI.md §3.6, model sınırı)." }
+ ];
+diff --git a/data/yerlesimler_sinir_dogu.js b/data/yerlesimler_sinir_dogu.js
+index a43bcf6b..81c3b92f 100644
+--- a/data/yerlesimler_sinir_dogu.js
++++ b/data/yerlesimler_sinir_dogu.js
+@@ -73,7 +73,7 @@ window.YERLESIMLER_SINIR_DOGU = [
+ // Kolun en iyi çifti: ortanca sapmayı TEK BAŞINA 10,69 → 2,98 km'ye indiriyor.
+ // İkisi de sınır hattının hemen yanında (0,4 km ↔ 5,3 km) ve 4,1 km arayla —
+ // yani petek kenarı gerçekten aralarından geçiyor.
+-{ad:"Bacirge (Esendere)", tur:"koy", lat:37.7114, lon:44.6010, g:0, k:4, m:null,
++{ad:"Bacirge (Esendere)", zincir_kaynagi:{yer:"Yüksekova (Gever)", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"koy", lat:37.7114, lon:44.6010, g:0, k:4, m:null,
+  sinir:true,
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1548-08-24",t:"1920-04-23"}],
+@@ -133,7 +133,7 @@ window.YERLESIMLER_SINIR_DOGU = [
+  neden:"PAKET-KRON4 · 1548-1639 tek başına safevi ADACIĞI kaldırıldı: zincir Çaldıran'ın 13 Eylül'de emekli edilen dayanaksız zincirinin kopyasıydı (ARAS-CALDIRAN-0913 §8.2); eşi Şeyh Salû-yi Ulyâ ve Çaldıran 1548-1639 Osmanlı iken bu köy Safevî boyanıyordu. sınır çifti: Şeyh Salû-yi Ulyâ (İran, bu dosyada) ile 8,2 km. Şeyhrumi sınıra 4,2 km, eşi 4,8 km ⇒ SİMETRİ FARKI 0,6 km, yani bisektör gerçek sınıra oturuyor. ÖLÇÜLDÜ: KUZEY-A kesiminin (38,70-39,20 K · 37 örnek ≈ 74 km) ortanca sapmasını 7,29 → 0,73 km'ye, ≤5km oranını %27 → %100'e taşıyor. 132 TR × 422 İR adayın tamamı tarandı, en iyisi bu. BU KOŞUDA ÇİZİLMEZ, bir sonrakine kalır."
+ },
+ 
+-{ad:"Şeyh Salû-yi Ulyâ", tur:"koy", lat:38.9926, lon:44.2001, g:0, k:4, m:null,
++{ad:"Şeyh Salû-yi Ulyâ", zincir_kaynagi:[{yer:"Mâku", pencere:["1281-01-01","1548-08-24"], tur:"pencere"}, {yer:"Kotur", pencere:["1548-08-24","1639-05-17"], tur:"pencere"}], tur:"koy", lat:38.9926, lon:44.2001, g:0, k:4, m:null,
+  sinir:true,
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu"},{f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}],
+  d:[{f:"1548-08-24", t:"1639-05-17"}],

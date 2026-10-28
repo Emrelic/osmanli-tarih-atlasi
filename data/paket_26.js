@@ -49,7 +49,7 @@ window.OLAYLAR_P0037 = [
 // ============================================================================
 window.OLAYLAR_P0057B = [
 
-{ t:"1431-01-01", k:"idari", etiket:["konu-idari","konu-ekonomi"], b:"Bugüne ulaşan en eski tahrir defteri — Arvanid Sancağı Defteri", gun:"835 (1431)", yer:"Arvanid Sancağı (Arnavutluk)", kisiler:"", d:"Vergi mükelleflerini, hanelerini, topraklarını ve ürünlerini kaydeden tahrir sayımlarının günümüze ulaşan en eski örneği 835 (1431) tarihli Arvanid Sancağı Defteri'dir. Sayım heyetleri eski kayıtları yerindeki durumla karşılaştırır, yeni yetişkinleri deftere ekler, ölenleri düşerdi. Defter usulünün XIV. yüzyılda zaten var olduğu anlaşılır; sistem XVI. yüzyıl boyunca çoğu eyalette düzenli olarak yenilendi.", kaynak:"tahrir", ic_not_gun:"TDV yalnız yılı veriyor · YAMA-0057-OLAY-2 (kart teknik-tahrir-defterleri)" },
+{ odak_yer:["Ergiri (Ergirikasrı)","Avlonya","Berat"], t:"1431-01-01", k:"idari", etiket:["konu-idari","konu-ekonomi"], b:"Bugüne ulaşan en eski tahrir defteri — Arvanid Sancağı Defteri", gun:"835 (1431)", yer:"Arvanid Sancağı (Arnavutluk)", kisiler:"", d:"Vergi mükelleflerini, hanelerini, topraklarını ve ürünlerini kaydeden tahrir sayımlarının günümüze ulaşan en eski örneği 835 (1431) tarihli Arvanid Sancağı Defteri'dir. Sayım heyetleri eski kayıtları yerindeki durumla karşılaştırır, yeni yetişkinleri deftere ekler, ölenleri düşerdi. Defter usulünün XIV. yüzyılda zaten var olduğu anlaşılır; sistem XVI. yüzyıl boyunca çoğu eyalette düzenli olarak yenilendi.", kaynak:"tahrir", ic_not_gun:"TDV yalnız yılı veriyor · YAMA-0057-OLAY-2 (kart teknik-tahrir-defterleri)" },
 
 { t:"1520-01-01", k:"kultur", etiket:["kultur","konu-kultur"], b:"Tarihçi Neşrî'nin ölümü", yer_id:"Bursa", gun:"926 (1520) ya da 927 (1521)", yer:"Bursa", kisiler:"Neşrî", d:"II. Bayezid devrinde Bursa'da müderrislik yapan tarihçi Neşrî, TDV'ye göre muhtemelen Kanûnî Sultan Süleyman'ın cülusundan sonra 926 (1520) ya da 927 (1521) yılında öldü. Türkçe yazılmış bir tarih bulunmadığı için kaleme aldığı Kitâb-ı Cihannümâ'nın bugüne yalnız İslâm öncesi Türk tarihi ile Osmanlı tarihi bölümleri ulaştı. TDV onu kaynaklarını karşılaştırıp olayları sebep-sonuç ilişkisiyle açıklamaya çalışan ilk Osmanlı tarihçisi sayar.", kaynak:"nesri", ic_not_gun:"TDV ölüm yılını kesin vermiyor (926/1520 [?]); t en erken yıl · YAMA-0057-OLAY-2 (kart kimdir-nesri)" },
 
@@ -125,7 +125,7 @@ window.OLAYLAR_P0063 = [
 // ---- H-0010: İran'ın Rusları kendi topraklarından çıkarması ----
 { t:"1724-09-11", k:"savas", etiket:["savas","konu-askeri"], b:"Salyan'da Rus taburunun yok edilmesi — Tahmasb'ın birlikleri Kura ağzına girdi", gun:"eski takvim 31 Ağustos → Gregoryen 11 Eylül 1724", yer:"Salyan (Kura ağzı)", kisiler:"Zembulatov", d:"Bakü'nün alınmasından sonra Kura ağzına yerleşen Rus taburunun subayları Salyan naibinin verdiği bir ziyafette öldürüldü; kalan birlik Bakü'ye çekildi ve Salyan'a II. Tahmasb'ın yaklaşık dört bin kişilik birliği girdi. Ruslar bölgeye ancak birkaç yıl sonra, naibi kendileri atayarak dönebildiler. İşgal döneminde Rusların İran içinde silahla geri püskürtüldüğü nadir olaylardan biridir.", kaynak:"Kurukin, Персидский поход Петра Великого (2010) · Özdamirova, Sovremennaya nauçnaya mısl' 2024 (arşiv belgeleri)", ic_not_gun:"Kurukin çevrimiçi aynadan okundu, basılı nüshayla KARŞILAŞTIRILMADI · YAMA-0063-KRONO #1", yer_id:"Salyan" },
 
-{ t:"1734-05-31", k:"diplomasi", etiket:["diplomasi","konu-diplomasi"], b:"Nâdir'in Rus elçisi Golitsın'a tehdidi: Hazar eyaletleri ve Derbend verilmezse Osmanlı ile anlaşacak", gun:"eski takvim 20 Mayıs → Gregoryen 31 Mayıs 1734", yer:"Nâdir'in karargâhı", kisiler:"Nâdir (Tahmasb Kulu Han), Prens S. D. Golitsın", d:"Revan önünde Osmanlı ordusunu yenen Nâdir, Rus yardım teklifini reddetti ve Rusya Hazar kıyısı eyaletleriyle Derbend'i Reşt Antlaşması'nın ötesinde hemen iade etmezse Osmanlı ile ayrı barış yapacağını bildirdi. Petersburg, yeni bir Osmanlı savaşının arifesinde İran'ı karşı tarafa itmemek için geri adım attı.", kaynak:"Salamova, Omskiy nauçnıy vestnik 2007 ('на аудиенции 20 мая … если российское правительство немедленно не возвратит')", ic_not_gun:"makale yılı bağlamdan veriyor, takvimi belirtmiyor — eski takvim varsayıldı, DOĞRULANMADI · YAMA-0063-KRONO #2", yer_id:"" },
+{ odak_yer:["Derbend"], t:"1734-05-31", k:"diplomasi", etiket:["diplomasi","konu-diplomasi"], b:"Nâdir'in Rus elçisi Golitsın'a tehdidi: Hazar eyaletleri ve Derbend verilmezse Osmanlı ile anlaşacak", gun:"eski takvim 20 Mayıs → Gregoryen 31 Mayıs 1734", yer:"Nâdir'in karargâhı", kisiler:"Nâdir (Tahmasb Kulu Han), Prens S. D. Golitsın", d:"Revan önünde Osmanlı ordusunu yenen Nâdir, Rus yardım teklifini reddetti ve Rusya Hazar kıyısı eyaletleriyle Derbend'i Reşt Antlaşması'nın ötesinde hemen iade etmezse Osmanlı ile ayrı barış yapacağını bildirdi. Petersburg, yeni bir Osmanlı savaşının arifesinde İran'ı karşı tarafa itmemek için geri adım attı.", kaynak:"Salamova, Omskiy nauçnıy vestnik 2007 ('на аудиенции 20 мая … если российское правительство немедленно не возвратит')", ic_not_gun:"makale yılı bağlamdan veriyor, takvimi belirtmiyor — eski takvim varsayıldı, DOĞRULANMADI · YAMA-0063-KRONO #2", yer_id:"", ic_not_yer:"yer_id bilerek BOŞ — bulunamadı: audiyans gezici ordugâhta; kaynak (Salamova 2007) yerini vermiyor. Ölçüm: denetim/KRONO-YER-0075.json (K4_YERSIZ_ya_da_GEZICI)" },
 
 { t:"1734-11-09", k:"idari", etiket:["konu-idari","konu-siyasi"], b:"Rus çekilme buyruğu — Bakü, Nizovaya ve Kura'dan Derbend'e kadar bütün mevziler boşaltılacak", gun:"eski takvim 29 Ekim → Gregoryen 9 Kasım 1734", yer:"St. Petersburg", kisiler:"İmparatoriçe Anna, General V. Y. Levaşov", d:"İmparatoriçe Anna'nın buyruğu Rus kuvvetlerinin önce Bakü'den ve Nizovaya kalesinden Derbend'e çekilmesini, Derbend ile kalan eyaletlerin de mevsim elverdiğinde boşaltılmasını emretti. Nâdir'in baskısı antlaşmadan önce sonuç vermişti.", kaynak:"Garunova, Vestnik DGU 2016 ('29 октября 1734 г. последовал новый указ … вывести русские войска из Баку, Низовой')", ic_not_gun:"YAMA-0063-KRONO #3", yer_id:"Bakü" },
 
@@ -150,8 +150,14 @@ window.OLAYLAR_P0063 = [
 
 { t:"1737-10-16", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Niş'in Avusturya'dan geri alınışı", gun:"16 Ekim 1737", yer:"Niş", kisiler:"Köprülüzâde Hâfız Ahmed Paşa, Seckendorf", d:"Rebîülevvel 1150'de (Temmuz 1737) Seckendorf komutasındaki Avusturya ordusunun aldığı Niş, aynı yılın ekiminde Rumeli Beylerbeyi Köprülüzâde Hâfız Ahmed Paşa tarafından geri alındı. Bu, Banaluka'dan sonra Avusturya'nın 1737 harekâtını boşa çıkaran ikinci gelişmeydi.", kaynak:"nis", ic_not_gun:"TDV yalnız ayı veriyor (ekim); gün Hambly 'surrender on October 16, 1737' · YAMA-0063-KRONO-1736 #6", duygu:["🎉"], yer_id:"Niş" },
 
-{ t:"1738-08-17", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Adakale'nin Avusturya'dan alınışı", gun:"17 Ağustos 1738", yer:"Adakale, Tuna", kisiler:"", d:"1738 ilkbaharında sefere çıkan Osmanlı ordusu Mehâdiye'yi alıp Orsova ve Adakale'yi kuşattı, Tuna'yı geçerek Tımışvar'a akınlar yaptı. Adakale 17 Ağustos 1738'de alındı. Ardından Niş'e gelen Yeğen Mehmed Paşa Belgrad'a akınlar düzenledi; bir yıl sonra Hisarcık zaferi ve Belgrad Antlaşması geldi.", kaynak:"mahmud-i--osmanli", ic_not_gun:"atlasta Adakale yerleşim kaydı yok · YAMA-0063-KRONO-1736 #7", duygu:["⚔️"] }
+{ odak_yer:["Orsova (Eski Orsova)"], t:"1738-08-17", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Adakale'nin Avusturya'dan alınışı", gun:"17 Ağustos 1738", yer:"Adakale, Tuna", kisiler:"", d:"1738 ilkbaharında sefere çıkan Osmanlı ordusu Mehâdiye'yi alıp Orsova ve Adakale'yi kuşattı, Tuna'yı geçerek Tımışvar'a akınlar yaptı. Adakale 17 Ağustos 1738'de alındı. Ardından Niş'e gelen Yeğen Mehmed Paşa Belgrad'a akınlar düzenledi; bir yıl sonra Hisarcık zaferi ve Belgrad Antlaşması geldi.", kaynak:"mahmud-i--osmanli", ic_not_gun:"atlasta Adakale yerleşim kaydı yok · YAMA-0063-KRONO-1736 #7", duygu:["⚔️"] },
 
+{ t:"1735-07-09", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Gence'nin Nâdir'e teslimi", gun:"9 Temmuz 1735", yer:"Gence, Karabağ", yer_id:"Gence", kisiler:"Nâdir (Tahmasb Kulı Han)", d:"Arpaçay'da Osmanlı ordusunu yenen Nâdir, birkaç hafta sonra kuvvetli surlar ve üç hendekle çevrili Gence'yi ele geçirdi. Osmanlı'nın 1725'te aldığı şehir yeniden İran'ın oldu; Karabağ 1736 antlaşmasıyla İran'a bırakıldı.", kaynak:"gence (TDV): '18 Haziran 1735’te Arpaçayı Savaşı’nda Osmanlı kuvvetlerini yendikten sonra 9 Temmuz’da Gence’yi ele geçirdi' · karabag (TDV)", ic_not_d:"KARAR-UYG-1015 (KAYNAK-1015/G2 §4, Emre #13): Gence d: ucu 1735-06-19 → 1735-07-09.", duygu:["😔"] },
+{ t:"1735-08-12", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Tiflis'in İran birliklerine geçişi", gun:"12 Ağustos 1735", yer:"Tiflis, Kartli", yer_id:"Tiflis", kisiler:"Nâdir (Tahmasb Kulı Han), Ali Mirza (Aleksandre)", d:"Nâdir'in güçlenmesinin ardından İran birlikleri Tiflis'i yeniden ele geçirdi ve Kartli-Kaheti valiliğine Ali Mirza'yı getirdi. Nâdir buradaki Osmanlı idarî düzenini değiştirdi; Kartli'yi bir İran valisiyle doğrudan yönetti, 1744'te Teimuraz'a verdi.", kaynak:"tiflis (TDV): '12 Ağustos 1735’te Tiflis’i yeniden ele geçiren İran birlikleri, Kartli-Kaheti valiliğine Ali Mirza / Aleksandre’yi getirdi' · Encyclopaedia Iranica 'EREKLE II'", ic_not_d:"KARAR-UYG-1015 (KAYNAK-1015/G2 §4, Emre #13): Tiflis s: 1735-08-12 safevi, 1736-03-08 afsar, 1747-06-20 kartli-kralligi.", duygu:["😔"] },
+{ t:"1736-06-01", ic_not_takvim:"Jülyen 21 Mayıs 1736 (Sytin VE «Перекоп») = Gregoryen 1 Haziran 1736; ESBE «Турецкие войны России» aynı günü Gregoryen '1 июня' verir · EMRE KARARI #10 (KARARLAR-EMRE-1015): atlas günleri Gregoryen", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Or Kapı'nın Münnich'e teslimi — Rus ordusu Kırım'a girdi", gun:"1 Haziran 1736 (Jülyen 21 Mayıs)", yer:"Or Kapı (Perekop), Kırım berzahı", yer_id:"Or Kapı (Ferahkirman)", kisiler:"Mareşal Münnich", d:"Münnich 16 Mayıs'ta (Jülyen) Or Kapı hatlarının önüne vardı ve 20 Mayıs şafağında hatlara hücum etti; baskına uğrayan Tatar ordusu çekildi, Or kalesi ertesi gün teslim oldu. Rus ordusu iki gün sonra yarımadanın içine yürüdü; Or Kapı ağustos sonuna kadar Rus elinde kaldı.", kaynak:"Sytin, Voennaya Entsiklopediya «Перекоп» t.18 s.363-364 ('21-го подписана б. капитуляция') · ESBE «Турецкие войны России»", ic_not_d:"KAYNAK-1015/G1 · KARAR-UYG-1015: Or Kapı isg 1736-06-01→1736-08-27.", duygu:["😔"] },
+{ t:"1736-06-19", ic_not_takvim:"Jülyen 8 Haziran 1736 (Sytin VE «Крымские походы») = Gregoryen 19 Haziran 1736 · EMRE KARARI #10 (KARARLAR-EMRE-1015): atlas günleri Gregoryen", k:"savas", etiket:["savas","konu-askeri"], b:"Kılburun Kalesi'nin Leontiev'e teslimi", gun:"19 Haziran 1736 (Jülyen 8 Haziran)", yer:"Kılburun, Dinyeper ağzı", yer_id:"Kılburun (Kinburn)", kisiler:"Mihail Leontiev, Mareşal Münnich", d:"Münnich Kırım'da ilerlerken ayırdığı Leontiev kolu Dinyeper ağzındaki Kılburun'a yöneldi ve kale teslim oldu. Kaynak Rus kuvvetlerinin kaleden çekildiği günü vermediği için haritada işgal penceresi gösterilmiyor.", kaynak:"Sytin, Voennaya Entsiklopediya «Крымские походы» t.14 s.326-333 ('8 июня кр-сть сдалась')", ic_not_d:"KAYNAK-1015/G1 yan bulgu · KARAR-UYG-1015: KISA BASKIN KURALI — çıkış günü yok ⇒ isg YAZILMADI, yalnız madde. toprak etiketi kasten yok (kırılmasız madde sayılmasın).", duygu:["😔"] },
+{ t:"1736-08-27", ic_not_takvim:"Jülyen 16 Ağustos 1736 (Sytin VE «Перекоп») = Gregoryen 27 Ağustos 1736; ESBE «Турецкие войны России» '28 августа' (1 gün ayrışma, VE esas) · EMRE KARARI #10 (KARARLAR-EMRE-1015): atlas günleri Gregoryen", k:"diger", etiket:["savas","konu-askeri"], b:"Münnich Or Kapı hattını yıkarak Kırım'dan çekildi", gun:"27 Ağustos 1736 (Jülyen 16 Ağustos)", yer:"Or Kapı (Perekop)", yer_id:"Or Kapı (Ferahkirman)", kisiler:"Mareşal Münnich", d:"Kırım içlerinden Or Kapı'ya dönen Münnich beş hafta burada kaldı. Erzak sıkıntısı ve orduda yayılan hastalıklar yüzünden Perekop tahkimat hattını yıktırdıktan sonra Ukrayna'ya çekildi; Ruslar gidince Tatarlar hattı yeniden kurdu.", kaynak:"Sytin, Voennaya Entsiklopediya «Перекоп» t.18 s.363-364 ('16 авг. выступил в Украйну, предвар-но раззорив Перекопскую укрепл. линию')", ic_not_d:"KAYNAK-1015/G1 · KARAR-UYG-1015: Or Kapı isg 1736 bitişinin maddesi.", duygu:["🎉"] },
+{ t:"1737-07-25", ic_not_takvim:"Jülyen 14 Temmuz 1737 (Sytin VE «Крымские походы») = Gregoryen 25 Temmuz 1737 · EMRE KARARI #10 (KARARLAR-EMRE-1015): atlas günleri Gregoryen", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri","afet","afet-yangin"], b:"Lacy'nin öncüsü Karasubazar'ı aldı ve yaktı", gun:"25 Temmuz 1737 (Jülyen 14 Temmuz); ertesi gün geri çekiliş", yer:"Karasubazar, Kırım", yer_id:"Karasubazar", kisiler:"Peter Lacy, Duglas, Kırım hanı", d:"Sivaş'ı geçerek Kırım'a giren Lacy, 12 Temmuz'da (Jülyen) hanın saldırısını püskürttü. İki gün sonra öncüdeki General Duglas Karasubazar önündeki Tatar ordugâhını dağıttı, şehri direnişsiz alıp yaktı. Lacy ertesi gün geri çekilmeye başladı.", kaynak:"Sytin, Voennaya Entsiklopediya «Крымские походы» t.14 s.326-333 ('Дуглас уже без сопр-ления занял Карасу-базар и превратил его в пепел. 15-го Ласси выступил обратно') · ESBE «Карасубазар»", ic_not_d:"KAYNAK-1015/G1 · KARAR-UYG-1015: Karasubazar isg 1737-07-25→1737-07-26 (kaynak giriş ve çıkış gününü veriyor).", duygu:["😔"] },
 ];
 
 ;
@@ -182,35 +188,35 @@ window.OLAYLAR_P0917TARAF = [
 
 { t:"1909-04-19", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
-  gun:"19 Nisan 1909", yer:"İstanbul", yer_id:"İstanbul", kisiler:"",
+  gun:"19 Nisan 1909", yer:"İstanbul", yer_id:"Sofya", kisiler:"",
   d:"Rusya'nın aracılığıyla İstanbul'da imzalanan protokolle Osmanlı Devleti, altı ay önce tek taraflı ilan edilen Bulgaristan bağımsızlığını resmen tanıdı. Böylece Istranca'daki eski Osmanlı-Bulgar sınırı hukuken de iki bağımsız devlet arasındaki hat oldu; bu kesim bugün de Türkiye-Bulgaristan sınırının parçasıdır.",
   kaynak:"Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322 · IBS No. 49 s.9", duygu:["🤝"] },
 
 { t:"1913-11-17", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İstanbul Protokolü — Türk-İran sınırının tahdidi",
-  gun:"17 Kasım 1913", yer:"İstanbul", yer_id:"İstanbul", kisiler:"",
+  gun:"17 Kasım 1913", yer:"İstanbul", yer_id:"Kasr-ı Şîrîn", kisiler:"",
   d:"Osmanlı ve İran temsilcileri, İngiliz ve Rus elçilerinin gözetiminde, 1847 Erzurum Antlaşması'na dayanan Türk-İran sınırının tahdit protokolünü İstanbul'da imzaladı. Karma komisyon ertesi yıl Ekim'e kadar hattı Kotur çevresindeki kısa bir kesim dışında yerinde işaretledi. 1923'te Türkiye-İran sınırı olarak kalan bu hat 1932 ve 1937'de üç kesimde değiştirildi.",
   kaynak:"IBS No. 28 Iran-Turkey (1964) s.5-7 · H. Efe-M. Kızıl, ERZSOSDE X-I (2017) s.77-90", duygu:["🤝"] },
 
 { t:"1915-09-06", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
-  gun:"6 Eylül 1915 (24 Ağustos Jülyen)", yer:"Sofya", yer_id:"Sofya", kisiler:"",
+  gun:"6 Eylül 1915 (24 Ağustos Jülyen)", yer:"Sofya", yer_id:"Dimetoka", kisiler:"",
   d:"Bulgaristan'ın Osmanlı yanında savaşa girmesinden kısa süre önce Sofya'da imzalanan sözleşme, 1913 İstanbul Antlaşması'nın çizdiği Osmanlı-Bulgar sınırını düzeltti. Hattın Doğu Trakya kesimi 1921'de Neuilly komisyonunca yeniden işaretlenip Lozan'da teyit edildi.",
   kaynak:"IBS No. 49 Bulgaria-Turkey (1965) s.10-12 — 'signed at Sofia, August 24 (September 6), 1915'", duygu:["🤝"] },
 
 { t:"1886-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
-  gun:"1886 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", kisiler:"",
+  gun:"1886 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", yer_kon:[33.1485, 11.5676], ic_not_yer:"yer_kon = Ras Ecdir (Ra's Ajdir) kıyı ucu — GeoNames koordinatı. IBS 121 (1972) s.2-3: 1886 hattı 'from the Mediterranean inland for a limited distance'; 1910 sözleşmesi hattı 'shall start at Ras Adjedir [Ra's Ajdir], on the Mediterranean'. 1886 metninin kendisi okunamadı: Ras Ecdir 1886 ucu olarak KAYNAKTA ADIYLA GEÇMEZ, kamera/işaret noktasıdır (sınırın kıyıdaki tek ucu). Yerleşim noktası AÇILMADI (petek değişmesin). KUTU-VERI-1015 B 0076/H-0082", kisiler:"",
   d:"Tunus'un 1881'de Fransız himayesine girmesinden beş yıl sonra Fransa ile Osmanlı Devleti, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz kıyısından başlayarak kısa bir mesafe boyunca belirledi. Kaynak yalnız yılı veriyor; hattın koordinatları bilinmiyor.",
   kaynak:"IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary ... for a limited distance')", duygu:["🤝"] },
 
 { t:"1892-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
-  gun:"1892 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", kisiler:"",
+  gun:"1892 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"Ğadâmis", ic_not_yer:"yer_id = Ğadâmis: IBS 121 (1972) s.2 1892 hattını 'inland as far as Ghudamis' diye tarif eder — iç uç ADIYLA kaynakta. 1892 düzenlemesinin metni/koordinatları BULUNAMADI (IBS yalnız yıl ve uç verir; Martens NRG 3e sér. VII yalnız 1910'u basar) ⇒ 1886-1910 arası için D hattı YAZILMADI; haritadaki D hattı d1910-libya-tunus-osmanli (19 Mayıs 1910). KUTU-VERI-1015 B 0076/H-0087", kisiler:"",
   d:"İkinci bir Fransız-Osmanlı düzenlemesi, Tunus ile Trablusgarp vilayeti arasındaki sınırı öncekinden daha ayrıntılı biçimde ve iç kesimde Gadames'e kadar belirledi. Bugünkü sınırı çizen asıl belge on sekiz yıl sonra imzalanacak Trablus Sözleşmesi'dir.",
   kaynak:"IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy ... as far as Ghudamis')", duygu:["🤝"] },
 
-{ t:"1906-10-01", kesinlik:"ay", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ odak_yer:["Refah","Mısır","Taba"], t:"1906-10-01", kesinlik:"ay", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba hattı tarif edildi",
   gun:"Ekim 1906 (gün kaynakta yok)", yer:"Refah, Sina", yer_id:"", kisiler:"",
   d:"1906 Akabe-Taba bunalımının ardından Osmanlı ve Hidiv komiserleri Refah'ta bir idarî ayırma hattı üzerinde anlaştı; hat Akabe Körfezi'ndeki Ras Taba'dan Refah'taki iki sütunun ortasına uzanıyordu. Karma heyet aynı yılın sonu ile ertesi yıl şubatı arasında hat boyunca doksan bir kâgir sütun dikti. Bu hat bugünkü Mısır-İsrail ve Mısır-Gazze sınırıdır.",
@@ -277,17 +283,18 @@ window.OLAYLAR_P0917KOSU13 = [
 
 { t:"1731-11-15", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Hekimoğlu Ali Paşa'nın Tebriz'i geri alması", gun:"15 Kasım 1731 (15 Cemâziyelevvel 1144)", yer:"Tebriz", yer_id:"Tebriz", kisiler:"Hekimoğlu Ali Paşa", d:"1730'da Safevîlerin eline geçen Tebriz'i Hekimoğlu Ali Paşa 15 Kasım 1731'de yeniden ele geçirdi; aynı harekâtta Urmiye de alınmıştı. Ancak 10 Ocak 1732'de yapılan antlaşmayla Tebriz İran'a bırakıldı.", ic_not_d:"G3-A6C-TEBRIZ · yerleşim d: 1731-11-15→1732-01-08 ile birlikte · bitiş günü G3-A6C-ANTLASMA kararına bağlı", kaynak:"tebriz · mahmud-i--osmanli" },
 
-{ t:"1770-10-09", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Dinyester ağzında Akkirman Kalesi düştü", gun:"9 Ekim 1770 (ESBE: 28 Eylül eski takvim)", yer:"Akkirman, Besarabya", yer_id:"Akkirman", kisiler:"", d:"Bender'in düşmesinden kısa süre sonra Dinyester ağzındaki Akkirman da Rus kuvvetlerinin eline geçti. Kale, Küçük Kaynarca Antlaşması (1774) ile Osmanlılar'a geri verildi.", ic_not_d:"G5-RUS-AKKIRMAN · 1770-09-27 Bender maddesi bu kırılmayı sayaçta kapatıyordu ama Akkirman'ı anmıyordu (D147)", kaynak:"akkirman · ESBE «Турецкие войны России»" },
+{ t:"1770-10-09", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1770-09-28 (Akkirman'ın alınışı; ESBE «Турецкие войны России» 'а 28 был взят Аккерман', eski takvim) = Gregoryen 1770-10-09", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Dinyester ağzında Akkirman Kalesi düştü", gun:"9 Ekim 1770 (Jülyen 28 Eylül)", ic_not_gun:"KUTU-H6-1015: eski 9 Ekim 1770 ESBE'nin 28 Eylül (Jülyen) gününün Gregoryen karşılığıydı; VERI-YAPISI TAKVİM ve KARARLAR-1014 m.28 gereği kaynağın günü yazıldı.", yer:"Akkirman, Besarabya", yer_id:"Akkirman", kisiler:"", d:"Bender'in düşmesinden kısa süre sonra Dinyester ağzındaki Akkirman da Rus kuvvetlerinin eline geçti. Kale, Küçük Kaynarca Antlaşması (1774) ile Osmanlılar'a geri verildi.", ic_not_d:"G5-RUS-AKKIRMAN · 1770-09-27 Bender maddesi bu kırılmayı sayaçta kapatıyordu ama Akkirman'ı anmıyordu (D147)", kaynak:"akkirman · ESBE «Турецкие войны России»" },
+{ t:"1770-09-01", ic_not_takvim:"Jülyen 21 Ağustos 1770 (Sytin, Voennaya Entsiklopediya «Килия») = Gregoryen 1 Eylül 1770 · EMRE KARARI #10 (KARARLAR-EMRE-1015): atlas günleri Gregoryen", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Kili Kalesi'nin Repnin'e teslimi", gun:"1 Eylül 1770 (Rus kaynağında Jülyen 21 Ağustos)", yer:"Kili, Tuna ağzı", yer_id:"Kili", kisiler:"Nikolay Repnin", d:"Kartal bozgunundan sonra Tuna ağzına inen Repnin'in kolu 10 Ağustos'ta (Jülyen) Kili önüne geldi. Gedik bataryalarının ateşi ve on günlük savunmanın ardından muhafızlar silahları ve halk mallarıyla serbestçe çıkmak şartıyla kaleyi teslim etti. Kili, Küçük Kaynarca Antlaşması (1774) ile Osmanlılar'a geri verildi.", kaynak:"Sytin, Voennaya Entsiklopediya «Килия» t.12 ('21 авг. К. б. сдана') · ESBE «Килия» · kucuk-kaynarca-antlasmasi (TDV, md.16)", ic_not_d:"KAYNAK-1015/G1 DEVİR · KARAR-UYG-1015: Kili isg 1770-09-01→1774-07-21 kırılmasının maddesi.", duygu:["😔"] },
 
 { t:"1788-09-01", kesinlik:"ay", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Hotin'in Avusturya-Rus kuvvetlerince zaptı", gun:"Eylül 1788 (TDV; ESBE «Хотин» 1787 diyor)", yer:"Hotin, Boğdan", yer_id:"Hotin", kisiler:"", d:"1787'de başlayan savaşta Avusturya ve Rusya'nın ortak kuvvetleri Hotin'i kuşattı ve kale 1788 Eylülünde bu kuvvetlerce alındı. Ziştovi Antlaşması'na göre Avusturya kaleyi Rus barışının bitimine kadar emaneten elinde tuttu; Hotin 1792 Yaş Antlaşması ile Osmanlılar'a geri verildi.", ic_not_d:"G5-RUS-HOTIN · isg 1788-09-01→1792-01-09 avusturya ile birlikte", kaynak:"hotin · zistovi-antlasmasi" },
 
-{ t:"1789-11-01", kesinlik:"ay", k:"kayip", etiket:["savas","konu-askeri"], b:"Avusturya ordusunun (Coburg) Bükreş'i işgali", gun:"Kasım 1789 başı (eski takvim)", yer:"Bükreş, Eflak", yer_id:"Bükreş", kisiler:"Saxe-Coburg Prensi Josias", d:"Rimnik yenilgisinin ardından Avusturya ordusu Kasım 1789 başında Eflak'ın merkezi Bükreş'i işgal etti. Şehir 4 Ağustos 1791 Ziştovi Antlaşması ile Osmanlı tarafına iade edildi.", ic_not_d:"G5-RUS-1788-89 · Bükreş isg 1789-11-01→1791-08-04 ile birlikte · fiilî tahliye günü bulunamadı (t = antlaşma)", kaynak:"ESBE «Турецкие войны России» · zistovi-antlasmasi" },
+{ t:"1789-11-01", kesinlik:"ay", k:"isgal", etiket:["savas","konu-askeri"], b:"Avusturya ordusunun (Coburg) Bükreş'i işgali", gun:"Kasım 1789 başı (eski takvim)", yer:"Bükreş, Eflak", yer_id:"Bükreş", kisiler:"Saxe-Coburg Prensi Josias", d:"Rimnik yenilgisinin ardından Avusturya ordusu Kasım 1789 başında Eflak'ın merkezi Bükreş'i işgal etti. Şehir 4 Ağustos 1791 Ziştovi Antlaşması ile Osmanlı tarafına iade edildi.", ic_not_d:"G5-RUS-1788-89 · Bükreş isg 1789-11-01→1791-08-04 ile birlikte · fiilî tahliye günü bulunamadı (t = antlaşma)", kaynak:"ESBE «Турецкие войны России» · zistovi-antlasmasi" },
 
-{ t:"1789-11-14", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Bender Kalesi'nin Potemkin'e teslimi", gun:"14 Kasım 1789 (ESBE: 3 Kasım eski takvim)", yer:"Bender, Besarabya", yer_id:"Bender", kisiler:"Potemkin", d:"1787-1792 Osmanlı-Rus savaşında Dinyester üzerindeki Bender Kalesi Potemkin kumandasındaki Rus ordusuna teslim oldu. Kale 1792 Yaş Antlaşması ile Osmanlılar'a geri verildi.", ic_not_d:"G5-RUS-BENDER · TDV'de bender maddesi yok", kaynak:"ESBE «Турецкие войны России» · ESBE «Бендеры»" },
+{ t:"1789-11-14", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1789-11-03 (Bender'in teslimi; ESBE «Турецкие войны России» · ESBE «Бендеры», eski takvim) = Gregoryen 1789-11-14", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Bender Kalesi'nin Potemkin'e teslimi", gun:"14 Kasım 1789 (Jülyen 3 Kasım)", ic_not_gun:"KUTU-H6-1015: eski 14 Kasım 1789 ESBE'nin 3 Kasım (Jülyen) gününün Gregoryen karşılığıydı; VERI-YAPISI TAKVİM ve KARARLAR-1014 m.28 gereği kaynağın günü yazıldı.", yer:"Bender, Besarabya", yer_id:"Bender", kisiler:"Potemkin", d:"1787-1792 Osmanlı-Rus savaşında Dinyester üzerindeki Bender Kalesi Potemkin kumandasındaki Rus ordusuna teslim oldu. Kale 1792 Yaş Antlaşması ile Osmanlılar'a geri verildi.", ic_not_d:"G5-RUS-BENDER · TDV'de bender maddesi yok", kaynak:"ESBE «Турецкие войны России» · ESBE «Бендеры»" },
 
-{ t:"1790-10-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Kili Kalesi'nin Ruslara teslimi", gun:"24 Ekim 1790 (ESBE: 13 Ekim eski takvim)", yer:"Kili, Tuna ağzı", yer_id:"Kili", kisiler:"Gudoviç", d:"1790 seferinde Tuna ağzındaki Kili kalesi 4 Ekim'de (eski takvim) kuşatıldı ve dokuz gün sonra General Gudoviç'e teslim oldu. Kale 1792 Yaş Antlaşması ile Osmanlılar'a geri verildi.", ic_not_d:"G5-RUS-KILI", kaynak:"kili · ESBE «Килия»" },
+{ t:"1790-10-24", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1790-10-13 (Kili'nin teslimi; ESBE «Килия», eski takvim) = Gregoryen 1790-10-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Kili Kalesi'nin Ruslara teslimi", gun:"24 Ekim 1790 (Jülyen 13 Ekim)", ic_not_gun:"KUTU-H6-1015: eski 24 Ekim 1790 ESBE'nin 13 Ekim (Jülyen) gününün Gregoryen karşılığıydı; VERI-YAPISI TAKVİM ve KARARLAR-1014 m.28 gereği kaynağın günü yazıldı.", yer:"Kili, Tuna ağzı", yer_id:"Kili", kisiler:"Gudoviç", d:"1790 seferinde Tuna ağzındaki Kili kalesi 4 Ekim'de (eski takvim) kuşatıldı ve dokuz gün sonra General Gudoviç'e teslim oldu. Kale 1792 Yaş Antlaşması ile Osmanlılar'a geri verildi.", ic_not_d:"G5-RUS-KILI", kaynak:"kili · ESBE «Килия»" },
 
-{ t:"1809-09-26", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"İsmail Kalesi'nin General Zass'a teslimi", gun:"26 Eylül 1809 (ESBE: 14 Eylül eski takvim)", yer:"İsmail, Tuna", yer_id:"İsmail", kisiler:"General Zass", d:"1806-1812 Osmanlı-Rus savaşı sırasında Tuna üzerindeki İsmail kalesi General Zass'a teslim oldu. Kale 1812 Bükreş Antlaşması ile Besarabya'yla birlikte Rusya'ya bırakıldı.", ic_not_d:"G5-RUS-ISMAIL", kaynak:"ESBE «Измаил, город» · ESBE «Турецкие войны России»" },
+{ t:"1809-09-26", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1809-09-14 (İsmail'in teslimi; ESBE «Измаил, город», eski takvim) = Gregoryen 1809-09-26", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"İsmail Kalesi'nin General Zass'a teslimi", gun:"26 Eylül 1809 (Jülyen 14 Eylül)", ic_not_gun:"KUTU-H6-1015: eski 26 Eylül 1809 ESBE'nin 14 Eylül (Jülyen) gününün Gregoryen karşılığıydı; m.28 gereği kaynağın günü yazıldı.", yer:"İsmail, Tuna", yer_id:"İsmail", kisiler:"General Zass", d:"1806-1812 Osmanlı-Rus savaşı sırasında Tuna üzerindeki İsmail kalesi General Zass'a teslim oldu. Kale 1812 Bükreş Antlaşması ile Besarabya'yla birlikte Rusya'ya bırakıldı.", ic_not_d:"G5-RUS-ISMAIL", kaynak:"ESBE «Измаил, город» · ESBE «Турецкие войны России»" },
 
 // ─── 17 Eyl 2026 · DALGA-0064 partisi (1.MURAT M-4357) · YAMA-0064-BALKAN · YAMA-0064-KARADENIZ ───
 
@@ -302,6 +309,8 @@ window.OLAYLAR_P0917KOSU13 = [
 { t:"1788-10-03", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Laudon Una üzerindeki Novi kalesini aldı", gun:"3 Ekim 1788", yer:"Novi (Una kıyısı, Bosna)", yer_id:"Bosna Novi'si (Bosanski Novi)", kisiler:"Mareşal Laudon, kapudan Cerić", d:"Dubica'dan sonra Laudon Una üzerindeki Novi kalesine yürüdü ve 3 Ekim 1788'de kaleyi aldı; kapudan Cerić ile bütün muhafızlar esir düştü. İki kalenin kaybı üzerine Bosna'da genel seferberlik ilan edildi. Novi 1791 Ziştovi Antlaşması'yla geri verildi.", ic_not_d:"YAMA-0064-BALKAN #2 · isg 1788-10-03→1791-08-04 ile birlikte", kaynak:"Korić, Prilozi za orijentalnu filologiju 65 (2016)" },
 
 { t:"1838-01-01", kesinlik:"yil", k:"kayip", etiket:["savas","konu-askeri"], b:"Ruslar Çerkez kıyısında Soçi ve Tuapse limanlarını aldı", gun:"1838 (gün kaynakta yok)", yer:"Soçi, Tuapse (Çerkez kıyısı)", yer_id:"Soçi (Sâşe)", kisiler:"", d:"Edirne Antlaşması'nı tanımayan ve fiilen bağımsız kalan Çerkezlerin kıyısında Ruslar 1838'de Soçi ve Tuapse limanlarını ele geçirdi. Çerkez içerisinin işgali 1861-1864'te tamamlandı.", ic_not_d:"YAMA-0064-KARADENIZ KR-5 · harita karşılığı H-1 kararına bağlı (Çerkez künyesi yok) — o karara kadar kırılmasız madde", kaynak:"cerkezler · abazalar" },
+{ t:"1854-01-01", kesinlik:"yil", k:"kazanc", etiket:["savas","konu-askeri"], b:"Ruslar Kırım Savaşı'nda Tuapse'deki Velyaminovski kalesini boşaltıp havaya uçurdu", gun:"1854 (gün kaynakta yok)", yer:"Tuapse (Çerkez kıyısı)", yer_id:"Tuapse", kisiler:"", d:"Kırım Savaşı'nda İngiliz-Fransız donanmasının Karadeniz'e girmesiyle savunulamaz hale gelen Çerkez kıyısındaki Rus kaleleri boşaltıldı; 1838'de Tuapse'de kurulan Velyaminovski kalesi de terk edilip havaya uçuruldu. Kıyı on yıl kadar yeniden Çerkez kabilelerinin denetiminde kaldı.", kaynak:"ESBE «Туапсе»: 'в 1854 г., был покинут и взорван'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): Tuapse s:rusya → cerkez kırılmasının maddesi. Yıl ⇒ YYYY-01-01." },
+{ t:"1864-02-01", kesinlik:"ay", k:"kayip", etiket:["savas","konu-askeri"], b:"Ruslar Tuapse'deki eski Velyaminovski kalesini yeniden aldı", gun:"Şubat 1864 (gün kaynakta yok)", yer:"Tuapse (Çerkez kıyısı)", yer_id:"Tuapse", kisiler:"", d:"Batı Kafkasya'nın işgalinin son yılında Rus birlikleri Çerkez kıyısına inerek on yıl önce boşaltılan Velyaminovski kalesinin yerini yeniden tuttu. Birkaç ay içinde Çerkez direnişi sona erdi ve kıyı halkı büyük ölçüde Osmanlı topraklarına sürüldü.", kaynak:"ESBE «Туапсе»: 'занял Вельяминовский форт (февраль 1864 г.)'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): Tuapse s:cerkez → rusya kırılmasının maddesi. AY ⇒ ayın 1'i." },
 
 ];
 
@@ -322,18 +331,19 @@ window.OLAYLAR_P0917KOSU13 = [
 // ============================================================================
 window.OLAYLAR_P0917DUNYA = [
 
-{ t:"1915-09-26", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Kûtülamâre'nin İngiliz işgali", gun:"26 Eylül 1915", yer:"Kûtülamâre (Kût el-Amâre), Irak", kisiler:"General Charles Townshend", d:"Bağdat'ı almayı hedefleyen İngiliz General Townshend Dicle boyunca harekete geçti ve yol üzerindeki Kûtülamâre'yi işgal etti. Şehir 29 Nisan 1916'da imzalanan teslim protokolünün ardından yeniden Türk kuvvetlerinin eline geçti.", kaynak:"kutulamare", duygu:["😔"], yer_id:"Kût el-Amâre" },
+{ t:"1915-09-26", k:"isgal", etiket:["toprak-kayip","savas","konu-askeri"], b:"Kûtülamâre'nin İngiliz işgali", gun:"26 Eylül 1915", yer:"Kûtülamâre (Kût el-Amâre), Irak", kisiler:"General Charles Townshend", d:"Bağdat'ı almayı hedefleyen İngiliz General Townshend Dicle boyunca harekete geçti ve yol üzerindeki Kûtülamâre'yi işgal etti. Şehir 29 Nisan 1916'da imzalanan teslim protokolünün ardından yeniden Türk kuvvetlerinin eline geçti.", kaynak:"kutulamare", duygu:["😔"], yer_id:"Kût el-Amâre" },
 
-{ t:"1916-02-16", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Erzurum'un Rus işgaline düşmesi", gun:"16 Şubat 1916", yer:"Erzurum", kisiler:"", d:"Savaşın başından beri Erzurum'u başlıca hedef seçen Rus kuvvetleri şehre girdi; Erzurum üçüncü kez Rus işgaline uğradı. İşgal 12 Mart 1918'e kadar sürdü.", kaynak:"erzurum", duygu:["😔"], yer_id:"Erzurum" },
+{ t:"1916-02-16", k:"isgal", etiket:["toprak-kayip","savas","konu-askeri"], b:"Erzurum'un Rus işgaline düşmesi", gun:"16 Şubat 1916", yer:"Erzurum", kisiler:"", d:"Savaşın başından beri Erzurum'u başlıca hedef seçen Rus kuvvetleri şehre girdi; Erzurum üçüncü kez Rus işgaline uğradı. İşgal 12 Mart 1918'e kadar sürdü.", kaynak:"erzurum", duygu:["😔"], yer_id:"Erzurum" },
 
-{ t:"1916-03-01", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Bitlis'in Rus işgali", gun:"1 Mart 1916", yer:"Bitlis", kisiler:"", d:"Rus kuvvetleri Bitlis'i işgal etti. İşgal 8 Ağustos 1916'ya kadar sürdü.", kaynak:"bitlis", duygu:["😔"], yer_id:"Bitlis" },
+{ t:"1916-03-01", k:"isgal", etiket:["toprak-kayip","savas","konu-askeri"], b:"Bitlis'in Rus işgali", gun:"1 Mart 1916", yer:"Bitlis", kisiler:"", d:"Rus kuvvetleri Bitlis'i işgal etti. İşgal 8 Ağustos 1916'ya kadar sürdü.", kaynak:"bitlis", duygu:["😔"], yer_id:"Bitlis" },
 
-{ t:"1916-04-18", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Trabzon'un Rus işgali", gun:"18 Nisan 1916", yer:"Trabzon", kisiler:"", d:"14 Nisan'da Karadere'deki savunma hattını yaran ve 16 Nisan'da Yomra'ya ulaşan Rus birlikleri, Türk nüfusunun şehri boşaltmasının ardından 18 Nisan'da Trabzon'a girdi. Rus işgali 24 Şubat 1918'e kadar sürdü.", kaynak:"trabzon", duygu:["😔"], yer_id:"Trabzon" },
+{ t:"1916-04-18", k:"isgal", etiket:["toprak-kayip","savas","konu-askeri"], b:"Trabzon'un Rus işgali", gun:"18 Nisan 1916", yer:"Trabzon", kisiler:"", d:"14 Nisan'da Karadere'deki savunma hattını yaran ve 16 Nisan'da Yomra'ya ulaşan Rus birlikleri, Türk nüfusunun şehri boşaltmasının ardından 18 Nisan'da Trabzon'a girdi. Rus işgali 24 Şubat 1918'e kadar sürdü.", kaynak:"trabzon", duygu:["😔"], yer_id:"Trabzon" },
 
-{ t:"1916-07-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Erzincan'ın Rus işgali", gun:"24 Temmuz 1916", yer:"Erzincan", kisiler:"", d:"Rus kuvvetleri 24 Temmuz 1916'da Erzincan'ı işgal etti. Şehir 26 Şubat 1918'de kurtarıldı.", kaynak:"erzincan", duygu:["😔"], yer_id:"Erzincan" },
+{ t:"1916-07-24", k:"isgal", etiket:["toprak-kayip","savas","konu-askeri"], b:"Erzincan'ın Rus işgali", gun:"24 Temmuz 1916", yer:"Erzincan", kisiler:"", d:"Rus kuvvetleri 24 Temmuz 1916'da Erzincan'ı işgal etti. Şehir 26 Şubat 1918'de kurtarıldı.", kaynak:"erzincan", duygu:["😔"], yer_id:"Erzincan" },
 
 { t:"1916-08-08", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Bitlis'in Rus işgalinden kurtarılması", gun:"8 Ağustos 1916", yer:"Bitlis", kisiler:"", d:"1 Mart 1916'da başlayan Rus işgali, Rusların şehirden çekilmesiyle sona erdi.", kaynak:"bitlis", duygu:["🎉"], yer_id:"Bitlis" },
 
+{ t:"1916-11-06", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], kapsam:"dis", b:"Ali Dînâr'ın öldürülmesi — Dârfûr Sultanlığı sona erdi, Darfur İngiliz Sudanı'na bağlandı", gun:"6 Kasım 1916", yer:"Darfur (Cebel Merre yakası)", kisiler:"Ali Dînâr", d:"Birinci Dünya Savaşı'nda Osmanlı Devleti'ne yaklaşan Dârfûr Sultanı Ali Dînâr, başşehri Fâşir'in Mayıs 1916'da düşmesinden sonra Cebel Merre yönüne çekilmişti; Sudan hükümetinin gönderdiği kuvvetler tarafından 6 Kasım 1916'da öldürüldü. Bir süre sonra Dârfûr toprakları bir eyalet hâlinde İngiliz Sudanı'na bağlandı.", kaynak:"TDV darfur: Ali Dînâr 'Sudan hükümetinin gönderdiği kuvvetler tarafından 6 Kasım 1916’da öldürüldü' · 'bir süre sonra da Dârfûr toprakları bir eyalet halinde İngiliz Sudanı’na bağlandı' · Fâşir 23 Mayıs 1916 (London Gazette 30102, Darfur kaydının kaynağı) · kuyruk karşılığı kronoloji_cok_1dunya_B 1916-11-06 · DENETIM-K27-1016", duygu:["😔"], yer_id:"Darfur" },
 { t:"1916-09-17", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Tâif'in Şerif Hüseyin kuvvetlerine geçmesi", gun:"17 Eylül 1916", yer:"Tâif, Hicaz", kisiler:"Şerif Hüseyin", d:"Birinci Dünya Savaşı sırasında Osmanlı yönetimine karşı ayaklanan ve İngilizlerce desteklenen Şerif Hüseyin'in kuvvetleri Tâif'i ele geçirdi. Kuşatma sırasında şehir büyük zarar gördü.", kaynak:"taif", duygu:["😔"], yer_id:"Tâif" },
 
 { t:"1918-02-24", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Trabzon'un Rus işgalinden kurtuluşu", gun:"24 Şubat 1918", yer:"Trabzon", kisiler:"", d:"Ruslar Trabzon'dan çekildi ve yaklaşık iki yıl süren işgal sona erdi.", kaynak:"trabzon", duygu:["🎉"], yer_id:"Trabzon" },
@@ -346,22 +356,27 @@ window.OLAYLAR_P0917DUNYA = [
 
 // ── UYGULA-KRONOLOJI-0930 (0077/H-0025 · H-0028): NOKTA-KAFKAS-0077 taslağından, veriye inen
 // §6-A kaymalarının (yerleşim uygulaması 30 Eylül 2026) maddeleri. Kaynak denetim/NOKTA-KAFKAS-0077.md §2 · §6.
-{ t:"1916-03-08", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Rize'nin Rus işgali: Doğu Karadeniz kıyısının düşüşü", gun:"8 Mart 1916", yer:"Rize, Pazar, Çayeli, Of", kisiler:"", d:"7 Şubat 1916'da Batum'dan Arhavi istikametinde taarruza geçen Rus birlikleri kıyı boyunca batıya ilerleyerek 4 Mart'ta Pazar'ı, 5 Mart'ta Çayeli'yi, 8 Mart'ta Rize'yi, 26 Mart'ta Of'u işgal etti. Trabzon bu ilerleyişin sonunda, 18 Nisan 1916'da karadan alındı.", kaynak:"rize · Çaykıran 2021, Askerî Tarih Araştırmaları Dergisi, doi 10.46953/askeritarih.814421", duygu:["😔"], yer_id:"Rize" },
-{ t:"1916-07-16", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Bayburt ve Gümüşhane'nin Rus işgali", gun:"16 Temmuz 1916", yer:"Bayburt, Gümüşhane, Kelkit", kisiler:"", d:"Kop savunmasının kırılmasıyla Rus birlikleri 16 Temmuz 1916'da Bayburt'u, 19 Temmuz'da Gümüşhane'yi, 22 Temmuz'da Kelkit'i işgal etti; Erzincan bunların ardından, 24 Temmuz'da düştü.", kaynak:"gumushane · M. Sarı, Millî Mücadele Döneminde Bayburt, TÜBA Millî Mücadele'nin Yerel Tarihi c.9 bl.7 · Çaykıran 2021 · Kelkit Kaymakamlığı (kurumsal, 22 Temmuz)", duygu:["😔"], yer_id:"Bayburt" },
+{ t:"1916-03-08", k:"isgal", etiket:["toprak-kayip","savas","konu-askeri"], b:"Rize'nin Rus işgali: Doğu Karadeniz kıyısının düşüşü", gun:"8 Mart 1916", yer:"Rize, Pazar, Çayeli, Of", kisiler:"", d:"7 Şubat 1916'da Batum'dan Arhavi istikametinde taarruza geçen Rus birlikleri kıyı boyunca batıya ilerleyerek 4 Mart'ta Pazar'ı, 5 Mart'ta Çayeli'yi, 8 Mart'ta Rize'yi, 26 Mart'ta Of'u işgal etti. Trabzon bu ilerleyişin sonunda, 18 Nisan 1916'da karadan alındı.", kaynak:"rize · Çaykıran 2021, Askerî Tarih Araştırmaları Dergisi, doi 10.46953/askeritarih.814421", duygu:["😔"], yer_id:"Rize" },
+{ t:"1916-07-16", k:"isgal", etiket:["toprak-kayip","savas","konu-askeri"], b:"Bayburt ve Gümüşhane'nin Rus işgali", gun:"16 Temmuz 1916", yer:"Bayburt, Gümüşhane, Kelkit", kisiler:"", d:"Kop savunmasının kırılmasıyla Rus birlikleri 16 Temmuz 1916'da Bayburt'u, 19 Temmuz'da Gümüşhane'yi, 22 Temmuz'da Kelkit'i işgal etti; Erzincan bunların ardından, 24 Temmuz'da düştü.", kaynak:"gumushane · M. Sarı, Millî Mücadele Döneminde Bayburt, TÜBA Millî Mücadele'nin Yerel Tarihi c.9 bl.7 · Çaykıran 2021 · Kelkit Kaymakamlığı (kurumsal, 22 Temmuz)", duygu:["😔"], yer_id:"Bayburt" },
 { t:"1918-02-19", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Bayburt ve Gümüşhane'nin kurtuluşu", gun:"19 Şubat 1918", yer:"Bayburt, Gümüşhane, Kelkit", kisiler:"", d:"Erzincan Mütarekesi'nin feshiyle başlayan ileri harekâtta Kelkit 17 Şubat'ta, Bayburt 19 Şubat'ta kurtarıldı; Gümüşhane'deki Rus işgali 28 Şubat 1918'de sona erdi.", kaynak:"gumushane · M. Sarı, TÜBA c.9 bl.7 (Bayburt 19 Şubat) · Kelkit Kaymakamlığı (kurumsal, 17 Şubat)", duygu:["🎉"], yer_id:"Bayburt" },
 { t:"1918-03-02", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Rize'nin kurtuluşu: Doğu Karadeniz kıyısının geri alınışı", gun:"2 Mart 1918", yer:"Rize, Çayeli, Hopa", kisiler:"", d:"Rusların çekilmesiyle Türk birlikleri kıyı boyunca doğuya ilerledi: Rize 2 Mart, Çayeli 9 Mart, Hopa 14 Mart 1918'de yeniden Osmanlı idaresine girdi.", kaynak:"KURUMSAL (akademik teyit YOK): Rize Ticaret ve Sanayi Odası · Çayeli Kaymakamlığı · Hopa Kaymakamlığı", duygu:["🎉"], yer_id:"Rize" },
-{ t:"1915-02-23", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Hopa'nın Rus işgali", gun:"23 Şubat 1915", yer:"Hopa", kisiler:"", d:"1878 Berlin Antlaşması'ndan sonra Lazistan sancağında Osmanlı kazası olarak kalan Hopa, Birinci Dünya Savaşı'nda Rus birliklerince işgal edildi; işgal 14 Mart 1918'e kadar sürdü.", kaynak:"KURUMSAL: Hopa Kaymakamlığı · 1878 statüsü: lazlar (TDV) · Z. Yücetürk, Karadeniz Araştırmaları XVII/65 (2020)", duygu:["😔"], yer_id:"Hopa" },
-{ t:"1916-02-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Aşkale'nin Rus işgali", gun:"24 Şubat 1916", yer:"Aşkale", kisiler:"", d:"Erzurum'u 16 Şubat 1916'da alan Rus kuvvetleri batıya ilerleyerek 24 Şubat'ta Aşkale'yi işgal etti. Aşkale 3 Mart 1918'de kurtarıldı.", kaynak:"M. Sarı, TÜBA c.9 bl.7 (24 Şubat) · Aşkale Kaymakamlığı (kurumsal, 3 Mart 1918; işgal için '16 Şubat' der — Erzurum'un günü, akademik esas)", duygu:["😔"], yer_id:"Aşkale" },
+{ t:"1915-02-23", k:"isgal", etiket:["toprak-kayip","savas","konu-askeri"], b:"Hopa'nın Rus işgali", gun:"23 Şubat 1915", yer:"Hopa", kisiler:"", d:"1878 Berlin Antlaşması'ndan sonra Lazistan sancağında Osmanlı kazası olarak kalan Hopa, Birinci Dünya Savaşı'nda Rus birliklerince işgal edildi; işgal 14 Mart 1918'e kadar sürdü.", kaynak:"KURUMSAL: Hopa Kaymakamlığı · 1878 statüsü: lazlar (TDV) · Z. Yücetürk, Karadeniz Araştırmaları XVII/65 (2020)", duygu:["😔"], yer_id:"Hopa" },
+{ t:"1916-02-24", k:"isgal", etiket:["toprak-kayip","savas","konu-askeri"], b:"Aşkale'nin Rus işgali", gun:"24 Şubat 1916", yer:"Aşkale", kisiler:"", d:"Erzurum'u 16 Şubat 1916'da alan Rus kuvvetleri batıya ilerleyerek 24 Şubat'ta Aşkale'yi işgal etti. Aşkale 3 Mart 1918'de kurtarıldı.", kaynak:"M. Sarı, TÜBA c.9 bl.7 (24 Şubat) · Aşkale Kaymakamlığı (kurumsal, 3 Mart 1918; işgal için '16 Şubat' der — Erzurum'un günü, akademik esas)", duygu:["😔"], yer_id:"Aşkale" },
 
 // ── UYGULA-KRONOLOJI-0930 (0077/H-0033): Irak düşüş günleri — TDV necef · TDV kerkuk (gövde okundu, 30 Eylül 2026).
 // Tuz Hurmatu ("1918 Nisanında" — ay) ve Ammâre (yıl) için gün kaynakta YOK → madde yazılmadı.
-{ t:"1917-03-07", k:"kayip", etiket:["toprak-kayip","isgal","konu-askeri"], b:"Necef'in İngiliz işgali", gun:"7 Mart 1917", yer:"Necef", kisiler:"", d:"Osmanlıların son devirlerinde Bağdat vilâyetinin Kerbelâ sancağına bağlı bir kaza merkezi olan Necef, 7 Mart 1917'de İngilizlerce işgal edildi; dört gün sonra Bağdat da düştü. Şehir 1920'de kurulan monarşiyle Irak sınırları içine alındı.", kaynak:"necef", duygu:["😔"], yer_id:"Necef" },
-{ t:"1918-05-07", k:"kayip", etiket:["toprak-kayip","isgal","konu-askeri"], b:"Kerkük'ün İngiliz işgali", gun:"7 Mayıs 1918", yer:"Kerkük, Tuz Hurmatu", kisiler:"", d:"1918 Nisanında Tuz Hurmatu'da bozguna uğrayan Osmanlı birlikleri Kerkük'e çekildi; 7 Mayıs'ta İngilizler Kerkük'ü işgal etti.", kaynak:"kerkuk", duygu:["😔"], yer_id:"Kerkük" },
+// KUTU-E-1014 (0077/H-0033): Tuz Hurmatu için AY hassasiyetli madde eklendi (yerleşim kırılması da 1918-04-01, kesinlik ay).
+{ t:"1918-04-01", kesinlik:"ay", k:"isgal", etiket:["toprak-kayip","isgal","savas","konu-askeri"], b:"Tuz Hurmatu bozgunu — Osmanlı birlikleri Kerkük'e çekildi", gun:"Nisan 1918", yer:"Tuz Hurmatu", kisiler:"", d:"Birinci Dünya Savaşı'nın sonlarına doğru, 1918 Nisanında Tuz Hurmatu'da İngiliz kuvvetlerine yenilen Osmanlı birlikleri Kerkük'e çekildi; kasaba İngiliz işgaline girdi.", kaynak:"kerkuk", duygu:["😔"], yer_id:"Tuz Hurmatu", ic_not_d:"TDV kerkuk birebir: 'I. Dünya Savaşı’nın sonlarına doğru 1918 Nisanında Tuzhurmatu’da bozguna uğrayan Osmanlı birlikleri Kerkük’e çekildi.' Gün kaynakta yok ⇒ ayın 1'i + kesinlik:'ay'. Erbil 1918-10-30 kırılması aynı gün Mondros maddesiyle karşılanır." },
+{ t:"1917-03-07", k:"isgal", etiket:["toprak-kayip","isgal","konu-askeri"], b:"Necef'in İngiliz işgali", gun:"7 Mart 1917", yer:"Necef", kisiler:"", d:"Osmanlıların son devirlerinde Bağdat vilâyetinin Kerbelâ sancağına bağlı bir kaza merkezi olan Necef, 7 Mart 1917'de İngilizlerce işgal edildi; dört gün sonra Bağdat da düştü. Şehir 1920'de kurulan monarşiyle Irak sınırları içine alındı.", kaynak:"necef", duygu:["😔"], yer_id:"Necef" },
+{ t:"1918-05-07", k:"isgal", etiket:["toprak-kayip","isgal","konu-askeri"], b:"Kerkük'ün İngiliz işgali", gun:"7 Mayıs 1918", yer:"Kerkük, Tuz Hurmatu", kisiler:"", d:"1918 Nisanında Tuz Hurmatu'da bozguna uğrayan Osmanlı birlikleri Kerkük'e çekildi; 7 Mayıs'ta İngilizler Kerkük'ü işgal etti.", kaynak:"kerkuk", duygu:["😔"], yer_id:"Kerkük" },
 { t:"1918-05-27", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Kerkük'ün geri alınışı", gun:"27 Mayıs 1918", yer:"Kerkük", kisiler:"", d:"Yirmi gün süren İngiliz işgalinin ardından Kerkük 27 Mayıs 1918'de Osmanlı kuvvetlerince geri alındı. Şehir, 28 Ekim 1918'de başlayan İngiliz hücumları üzerine Osmanlı birliklerinin Altınköprü'ye çekilmesiyle yeniden İngiliz idaresine geçti.", kaynak:"kerkuk", ic_not_d:"TDV kerkuk tahliyenin gününü vermez, yalnız hücumların 28 Ekim 1918'de başladığını söyler; atlas Kerkük'ün İngiliz penceresini 1918-10-30'dan (Mondros) açar.", duygu:["🎉"], yer_id:"Kerkük" },
 
 // ── UYGULA-KRONOLOJI-0930 (0077/H-0075②): Tiflis kırılmasının maddesi — NOKTA-KAFKAS-0077 taslağı ⑩.
 { t:"1921-02-25", k:"savas", etiket:["savas","konu-askeri"], b:"Kızıl Ordu'nun Tiflis'e girişi: Gürcistan Demokratik Cumhuriyeti'nin düşüşü", gun:"25 Şubat 1921", yer:"Tiflis", kisiler:"", d:"26 Mayıs 1918'de bağımsızlığını ilân eden Gürcistan, Şubat 1921'de Sovyet Rusya tarafından işgal edildi; 25 Şubat 1921'de Bolşevikler Tiflis'e girerek Sovyet rejimini kurdu.", kaynak:"gurcistan · acara", duygu:["⚔️"], yer_id:"Tiflis" },
 
+{ t:"1917-12-06", k:"isgal", etiket:["toprak-kayip","isgal","konu-askeri"], b:"Hânekîn İngiliz hattına girdi", gun:"6 Aralık 1917", yer:"Hânekîn, Kızılrubat", kisiler:"General Marshall", d:"Hamrin harekâtının ardından İngiliz III. Kolordusu 6 Aralık 1917'de Hânekîn'den Kızılrubat'a uzanan ileri hatta yerleşti; Hânekîn bundan sonra İngiliz elinde kaldı ve İran yolunun başı oldu.", kaynak:"Moberly, The Campaign in Mesopotamia 1914-1918 Vol. IV (HMSO 1927), archive.org in.ernet.dli.2015.210669: 5 Aralık akşamı emir — 'an advanced line extending from Khaniqin through Qizil Ribat to the Sakaltutan pass' · 15 Ocak 1918 'One brigade group was distributed between Qasr-i-Shirin, Khaniqin and Mirjana'", ic_not_d:"Gün TANIKTIR: Türk tahliyesinin günü kaynakta yok; 6 Aralık en erken İngiliz tutuşu. KUTU-VERI-1015 B 0077/H-0031", duygu:["😔"], yer_id:"Hânekîn" },
+{ t:"1918-04-28", k:"isgal", etiket:["toprak-kayip","isgal","savas","konu-askeri"], b:"Güney Kürdistan harekâtı: C kolu Kifri'ye girdi", gun:"28 Nisan 1918", yer:"Kifri", kisiler:"", d:"Güney Kürdistan harekâtında İngiliz C kolu 28 Nisan 1918 sabahı Kifri'ye karşı koyma olmadan girdi. Mayıs sonunda Kerkük bırakıldığında da Kifri ile Tuz Hurmatu İngiliz ileri karakolları olarak tutuldu.", kaynak:"Moberly, The Campaign in Mesopotamia 1914-1918 Vol. IV (HMSO 1927), archive.org in.ernet.dli.2015.210669: 'Kifri was occupied by Column C early on the 28th April without opposition.'", ic_not_d:"KUTU-VERI-1015 B 0077/H-0031 — eski veri Kifri'yi Bağdat günüyle (1917-03-11) veriyordu.", duygu:["😔"], yer_id:"Kifri" },
+{ t:"1918-07-12", k:"isgal", etiket:["toprak-kayip","isgal","konu-askeri"], b:"Sâmerrâ demiryolunun ucu: Tikrit'e İngiliz müfrezesi yerleşti", gun:"12 Temmuz 1918", yer:"Tikrit", kisiler:"", d:"5 Kasım 1917 Tikrit muharebesinden sonra İngiliz kuvvetleri 10 Kasım'da Sâmerrâ'ya çekilmişti. 12 Temmuz 1918'de I. Kolordu'dan bir müfreze Sâmerrâ demiryolunun uzatılmasını korumak için Tikrit'i işgal etti.", kaynak:"Moberly, The Campaign in Mesopotamia 1914-1918 Vol. IV (HMSO 1927), archive.org in.ernet.dli.2015.210669: 'the occupation of Tikrit on the 12th July by a detachment of the 1st Corps' · Kasım 1917: 'the remainder of the force began its withdrawal to Samarra'", ic_not_d:"KUTU-VERI-1015 B 0077/H-0031 — 6-10 Kasım 1917 geçici girişi veriye yazılmadı.", duygu:["😔"], yer_id:"Tikrit" },
 ];
 
 ;
@@ -399,7 +414,7 @@ window.OLAYLAR_P0917DUNYA = [
 window.OLAYLAR_P0068 = [
 
 // ---------- 1787-92 SAVAŞI — TUNA BOYU ----------
-{ t:"1789-10-13", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Belgrad ve Semendire'nin Avusturya'nın eline geçmesi", gun:"13 Ekim 1789 (Semendire'nin teslim günü; Belgrad'ın günü kaynakta YOK)", yer:"Belgrad ve Semendire (Tuna boyu)", yer_id:"Belgrad", kisiler:"Avusturya kumandanı Loudon (Laudon)", d:"Savaşın üçüncü yılında Avusturya kumandanı Loudon Tuna boyundaki Osmanlı sınır kalelerini aldı. Semendire 13 Ekim 1789'da, garnizonun 300 askerinin silâhlarını bırakarak çekilmesi şartıyla teslim oldu; elli yıldır Osmanlı sınır kalesi olan Belgrad da aynı sonbaharda Avusturya'nın eline geçti. Loudon 1789-1791 arasında Semendire hisarına ve varoşuna hâkim siperler yaptırdı. Her iki şehir de 4 Ağustos 1791'de imzalanan Ziştovi Antlaşması'yla Osmanlı Devleti'ne geri verildi; bu yüzden ikisi de haritada ilhak değil işgal olarak gösterilir. Belgrad'ın teslim GÜNÜ okunan dört TDV maddesinin hiçbirinde geçmiyor (madde yalnız yılı veriyor); buradaki tarih Semendire'nin günüdür ve Belgrad için bir tahmin değil, aynı harekâtın bilinen tek günüdür.", kaynak:"semendire", duygu:["😔"] },
+{ t:"1789-10-13", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Belgrad ve Semendire'nin Avusturya'nın eline geçmesi", gun:"13 Ekim 1789 (Semendire'nin teslim günü; Belgrad'ın günü kaynakta YOK)", yer:"Belgrad ve Semendire (Tuna boyu)", yer_id:"Belgrad", kisiler:"Avusturya kumandanı Loudon (Laudon)", d:"Savaşın üçüncü yılında Avusturya kumandanı Loudon Tuna boyundaki Osmanlı sınır kalelerini aldı. Semendire 13 Ekim 1789'da, garnizonun 300 askerinin silâhlarını bırakarak çekilmesi şartıyla teslim oldu; elli yıldır Osmanlı sınır kalesi olan Belgrad da aynı sonbaharda Avusturya'nın eline geçti. Loudon 1789-1791 arasında Semendire hisarına ve varoşuna hâkim siperler yaptırdı. Her iki şehir de 4 Ağustos 1791'de imzalanan Ziştovi Antlaşması'yla Osmanlı Devleti'ne geri verildi; bu yüzden ikisi de haritada ilhak değil işgal olarak gösterilir. Belgrad'ın teslim günü okunan dört TDV maddesinin hiçbirinde geçmiyor (madde yalnız yılı veriyor); buradaki tarih Semendire'nin günüdür ve Belgrad için bir tahmin değil, aynı harekâtın bilinen tek günüdür.", kaynak:"semendire", duygu:["😔"] },
 
 // ---------- KUZEY KAFKASYA — KABARTAY ----------
 { t:"1427-01-01", kesinlik:"yil", k:"siyaset", etiket:["siyaset","idari","konu-siyasi"], b:"Prens Yinal'in Kabartayları tek yönetimde birleştirmesi", gun:"1427 (Yinal'in hüküm yıllarının başlangıcı — birleşmenin günü kaynakta yok)", yer:"Orta Kafkasya (Terek ve Malka havzaları)", yer_id:"Kabartay (Nalçik)", kisiler:"Prens Yinal", d:"Moğol-Tatar istilâlarından sonra doğuya çekilen Çerkezlerin Kabartay kolunda Prens Yinal (1427-1456) halkın büyük kısmını kendi yönetimi altında birleştirdi; Kabartay, Besleney ve Çemguy prensleri soylarını ona dayandırır. Kabartay beyleri XVIII. yüzyılın sonlarına kadar Çeçen, İnguş, Karaçay-Malkar ve Osetler ile Kafkas dağlarının kuzeyindeki Abazalar üzerinde de nüfuz sahibiydi. Tarih, Yinal'in hüküm yıllarının başlangıcıdır; birleşmenin günü bilinmiyor.", kaynak:"cerkezler", duygu:["🏛"] },
@@ -511,40 +526,40 @@ window.OLAYLAR_P0068B = [
 
 // ---------- ③ SAVAŞ OLAYLARI ----------
 { t:"1788-05-10", k:"savas", etiket:["savas"], b:"Cezayirli Gazi Hasan Paşa'nın donanmayla Karadeniz'e açılması", odak_yer:["Özi"], gun:"10 Mayıs 1788", yer:"Karadeniz", kisiler:"Cezayirli Gazi Hasan Paşa", d:"Kaptanıderyâ Cezayirli Gazi Hasan Paşa 10 Mayıs 1788'de donanmayla Karadeniz'e açıldı. Amaç Özi ve Kılburun hattında baskı kurup Rus donanmasının Karadeniz'in kuzeyindeki üstünlüğünü kırmaktı; bu harekât yaz boyunca süren deniz çarpışmalarının başlangıcı oldu.", kaynak:"yusuf-pasa-koca", duygu:["⚓"] },
-{ t:"1788-01-01", k:"savas", etiket:["savas"], b:"Yılan Adası (Fidonisi) deniz muharebesi", gun:"Ağustos 1788 — TDV gün vermiyor", yer:"Yılan Adası, Karadeniz", kisiler:"Cezayirli Gazi Hasan Paşa", d:"Cezayirli Gazi Hasan Paşa, Ağustos 1788'de yapılan Yılan Adası Muharebesi'nde Rus donanmasını mağlûp etti. Ne var ki bu başarı Karadeniz'in kuzeyindeki kaleleri kurtarmaya yetmedi; aynı yılın sonunda Özi düştü.", ic_not_gun:"TDV cezayirli-gazi-hasan-pasa yalnız 'Ağustos 1788' diyor; gün uydurulmadı, CLAUDE.md §4 gereği t yıl başına konuldu ve hassasiyet gun: alanında yazıldı.", kaynak:"cezayirli-gazi-hasan-pasa", duygu:["⚓"] },
+{ t:"1788-08-01", kesinlik:"ay", k:"savas", etiket:["savas"], b:"Yılan Adası (Fidonisi) deniz muharebesi", gun:"Ağustos 1788 — TDV gün vermiyor", yer:"Yılan Adası, Karadeniz", kisiler:"Cezayirli Gazi Hasan Paşa", d:"Cezayirli Gazi Hasan Paşa, Ağustos 1788'de yapılan Yılan Adası Muharebesi'nde Rus donanmasını mağlûp etti. Ne var ki bu başarı Karadeniz'in kuzeyindeki kaleleri kurtarmaya yetmedi; aynı yılın sonunda Özi düştü.", ic_not_gun:"TDV cezayirli-gazi-hasan-pasa yalnız 'Ağustos 1788' diyor; gün uydurulmadı. KUTU-H1-1015: t yıl başından (1788-01-01, olaydan 7 ay önce) ayın başına alındı, kesinlik:\"ay\" (VERI-YAPISI kesinlik kuralı). Wikipedia'daki 14 Temmuz tek dayanak olamaz; ESBE muharebeyi adıyla anmıyor.", kaynak:"cezayirli-gazi-hasan-pasa", yer_kon:[45.255,30.204], duygu:["⚓"] },
 { t:"1789-05-01", k:"savas", etiket:["savas"], b:"Kalas bozgunu", yer_id:"Kalas (Galatz)", gun:"1 Mayıs 1789", yer:"Kalas (Galaţi), Boğdan", kisiler:"Koca Yûsuf Paşa", d:"Osmanlı kuvvetleri 1 Mayıs 1789'da Kalas'ta yenilgiye uğradı. Bu bozgun, yaz boyunca Fokşani ve Rimnik'te tekrarlanacak yenilgiler dizisinin ilk halkası oldu ve serdâr-ı ekrem Koca Yûsuf Paşa'nın mevkiini sarstı.", kaynak:"yusuf-pasa-koca", duygu:["😔"] },
-{ t:"1789-06-07", k:"sadrazam", etiket:["siyaset"], b:"Koca Yûsuf Paşa'nın sadâretten azli", gun:"7 Haziran 1789", yer:"Ordugâh", kisiler:"Koca Yûsuf Paşa, Kethüdâ (Cenaze) Hasan Paşa, III. Selim", d:"Kalas bozgunu, Koca Yûsuf Paşa'nın 7 Haziran 1789'da sadâretten uzaklaştırılmasının görünür sebebi oldu. Yerine, Avusturya cephesindeki başarılarıyla tanınan Kethüdâ Hasan Paşa tayin edildi. Savaşın kalan üç yılında sadâret dört kez el değiştirecektir.", kaynak:"yusuf-pasa-koca", duygu:["😐"] },
-{ t:"1789-08-01", k:"savas", etiket:["savas"], b:"Fokşani bozgunu", gun:"1 Ağustos 1789", yer:"Fokşani (Focşani), Eflak", kisiler:"Kethüdâ Hasan Paşa", d:"Osmanlı ordusu 1 Ağustos 1789'da Fokşani'de Rus-Avusturya kuvvetleri karşısında ağır bir yenilgi aldı. TDV'nin iki ayrı maddesi bu günü aynı biçimde verir. Bozgun, aynı yılın eylülünde Rimnik'te tekrarlanacak ve Eflak'taki Osmanlı savunması çökecektir.", kaynak:"yusuf-pasa-koca", duygu:["😔"] },
-{ t:"1789-09-22", k:"savas", etiket:["savas"], b:"Rimnik (Boze) bozgunu", gun:"22 Eylül 1789", yer:"Rimnik ve Boza suyu, Eflak", kisiler:"Kethüdâ Hasan Paşa", d:"Osmanlı ordusu 22 Eylül 1789'da Rimnik nehrini geçerken ve ardından Boza suyu kıyısında ağır bir bozguna uğradı. Fokşani'den yedi hafta sonra gelen bu ikinci yenilgi, Eflak cephesini fiilen dağıttı ve ekim-kasım aylarında İsmâil ile Bender'in teslimine yol açtı.", kaynak:"yusuf-pasa-koca", duygu:["😔"] },
-{ t:"1789-10-11", k:"kayip", etiket:["savas","toprak-kaybi"], b:"İsmâil Kalesi'nin teslimi (1789)", yer_id:"İsmail", gun:"11 Ekim 1789", yer:"İsmâil, Tuna ağzı", kisiler:"Kethüdâ Hasan Paşa", d:"Rimnik bozgununun ardından İsmâil Kalesi 11 Ekim 1789'da teslim oldu; bir ay sonra Bender de aynı âkıbete uğradı. Bu teslim, 22 Aralık 1790'daki ünlü İsmâil kuşatması ve katliamından AYRI bir olaydır: kale 1789'da savaşsız teslim edilmiş, sonra yeniden Osmanlı eline geçmiştir.", ic_not_d:"Atlasta 1790-12-22 'İsmâil Kalesi'nin düşüşü ve katliamı' maddesi zaten var; bu madde onun mükerreri DEĞİL, bir yıl önceki teslimdir (TDV yusuf-pasa-koca: '11 Ekim'de İsmâil ve 14 Kasım'da Bender Kalesi'nin teslimi'). Kalenin arada nasıl geri alındığı TDV'de açıklanmıyor — ölçülemedi.", kaynak:"yusuf-pasa-koca", duygu:["😔"] },
+{ odak_yer:["Kalas (Galatz)","İstanbul"], t:"1789-06-07", k:"sadrazam", etiket:["siyaset"], b:"Koca Yûsuf Paşa'nın sadâretten azli", gun:"7 Haziran 1789", yer:"Ordugâh", kisiler:"Koca Yûsuf Paşa, Kethüdâ (Cenaze) Hasan Paşa, III. Selim", d:"Kalas bozgunu, Koca Yûsuf Paşa'nın 7 Haziran 1789'da sadâretten uzaklaştırılmasının görünür sebebi oldu. Yerine, Avusturya cephesindeki başarılarıyla tanınan Kethüdâ Hasan Paşa tayin edildi. Savaşın kalan üç yılında sadâret dört kez el değiştirecektir.", kaynak:"yusuf-pasa-koca", duygu:["😐"] },
+{ odak_yer:["Rimnik-i Sârat (Râmnicu Sărat)","İbrail"], t:"1789-08-01", k:"savas", etiket:["savas"], b:"Fokşani bozgunu", gun:"1 Ağustos 1789", yer:"Fokşani (Focşani), Eflak", kisiler:"Kethüdâ Hasan Paşa", d:"Osmanlı ordusu 1 Ağustos 1789'da Fokşani'de Rus-Avusturya kuvvetleri karşısında ağır bir yenilgi aldı. TDV'nin iki ayrı maddesi bu günü aynı biçimde verir. Bozgun, aynı yılın eylülünde Rimnik'te tekrarlanacak ve Eflak'taki Osmanlı savunması çökecektir.", kaynak:"yusuf-pasa-koca", duygu:["😔"] },
+{ odak_yer:["Rimnik"], t:"1789-09-22", k:"savas", etiket:["savas"], b:"Rimnik (Boze) bozgunu", gun:"22 Eylül 1789", yer:"Rimnik ve Boza suyu, Eflak", kisiler:"Kethüdâ Hasan Paşa", d:"Osmanlı ordusu 22 Eylül 1789'da Rimnik nehrini geçerken ve ardından Boza suyu kıyısında ağır bir bozguna uğradı. Fokşani'den yedi hafta sonra gelen bu ikinci yenilgi, Eflak cephesini fiilen dağıttı ve ekim-kasım aylarında Dinyester hattındaki kalelerin teslimine yol açtı: TDV Koca Yûsuf Paşa maddesi 11 Ekim'de 'İsmâil'in, 14 Kasım'da Bender'in teslimini verir. Ancak İsmâil'in 1789 teslimi TDV ismail maddesinde geçmez (kale 1790'da hâlâ Osmanlı elindedir), ESBE de Rimnik'ten sonra yalnız Hacıbey ile Akkirman'ın alındığını ve Bender'in 3 Kasım'da (Jülyen; = 14 Kasım) teslim olduğunu yazar; TDV akkirman da kalenin 1789'da Ruslarca alındığını kaydeder. 11 Ekim teslimi büyük ihtimalle Akkirman'dır — gün Akkirman için okunan kaynakta doğrulanamadığından haritada ayrıca gösterilmez.", ic_not_ismail:"KARARLAR-1014 m.20 (0082/H-0043 b): ayrı 1789-10-11 maddesi kaldırıldı, teslim burada anılıyor", kaynak:"yusuf-pasa-koca · akkirman (TDV) · ESBE «Турецкие войны России» (1787-1791): 'приказал Гудовичу овладеть укреплениями Гаджи-бей и Аккерман. Когда это было исполнено, то 3 ноября наконец сдались и Бендеры'", duygu:["😔"] },
+// KALDIRILDI 14 Ekim 2026 (EMRE KARARI KARARLAR-1014 m.20, 0082/H-0043 seçenek b): 1789-10-11 "İsmâil Kalesi'nin teslimi" ayrı maddesi — haritada kırılması yok (İsmail isg 1790-12-22'den), TDV ismail 1789 zaptını kaydetmiyor; gün bulunana dek ayrı madde yok, Rimnik maddesinde anılır.
 { t:"1789-12-03", k:"sadrazam", etiket:["siyaset"], b:"Cezayirli Gazi Hasan Paşa'nın sadrazam ve serdâr-ı ekrem tayini", yer_id:"İstanbul", gun:"3 Aralık 1789", yer:"İstanbul", kisiler:"Cezayirli Gazi Hasan Paşa, III. Selim", d:"Eflak'taki bozgunlardan ve kale kayıplarından sonra, donanmanın yaşlı kumandanı Cezayirli Gazi Hasan Paşa 3 Aralık 1789'da sadrazam ve serdâr-ı ekrem tayin edildi. TDV'nin üç ayrı maddesi bu günü aynı biçimde verir. Sadâreti dört aydan kısa sürecektir.", kaynak:"cezayirli-gazi-hasan-pasa", duygu:["😐"] },
 { t:"1790-03-30", k:"siyaset", etiket:["siyaset"], b:"Serdâr-ı ekremin Şumnu ordugâhında vefatı — dört aylık sadâretin sonu", yer_id:"Şumnu", gun:"14 Receb 1204 / 30 Mart 1790", yer:"Şumnu", kisiler:"Cezayirli Gazi Hasan Paşa", d:"Sadrazam ve serdâr-ı ekrem Cezayirli Gazi Hasan Paşa, seksen yaşını geçmiş olarak 30 Mart 1790'da Şumnu'daki ordugâhta vefat etti. Üç ay yirmi sekiz gün süren sadâreti, savaşın en sıkışık kışına denk gelmişti.", kaynak:"cezayirli-gazi-hasan-pasa", duygu:["😔"] },
-{ t:"1790-04-16", k:"kayip", etiket:["savas","toprak-kaybi"], b:"Eski Hırsova'nın düşüşü — kış boyu süren muhasaranın sonu", gun:"16 Nisan 1790", yer:"Eski Hırsova, Tuna", kisiler:"—", d:"Kış boyunca süren zorlu bir muhasaranın ardından Eski Hırsova 16 Nisan 1790'da Avusturya kuvvetlerinin eline geçti. Aynı günlerde Osmanlı tarafının Vidin'den Tuna'yı geçerek Kalafat'a yaptığı çıkarma da püskürtüldü.", kaynak:"zistovi-antlasmasi", duygu:["😔"] },
-{ t:"1790-01-01", k:"savas", etiket:["savas"], b:"Kalafat çıkarması ve püskürtülmesi", gun:"Nisan sonları 1790 — TDV gün vermiyor", yer:"Kalafat, Tuna", kisiler:"—", d:"Nisan 1790 sonlarında Vidin'den hareketle Tuna üzerinden Kalafat'a çıkan Osmanlı kuvvetleri hızla geri püskürtüldü. Bu başarısız çıkarma, Avusturya cephesinde inisiyatifin Osmanlı tarafından çıktığı ve mütareke arayışının başladığı aylara denk gelir.", ic_not_gun:"TDV zistovi-antlasmasi yalnız 'Nisan sonlarında' diyor; gün uydurulmadı.", kaynak:"zistovi-antlasmasi", duygu:["😔"] },
+{ odak_yer:["Hırsova"], t:"1790-04-16", k:"kayip", etiket:["savas","toprak-kaybi"], b:"Eski Hırsova'nın düşüşü — kış boyu süren muhasaranın sonu", gun:"16 Nisan 1790", yer:"Eski Hırsova, Tuna", kisiler:"—", d:"Kış boyunca süren zorlu bir muhasaranın ardından Eski Hırsova 16 Nisan 1790'da Avusturya kuvvetlerinin eline geçti. Aynı günlerde Osmanlı tarafının Vidin'den Tuna'yı geçerek Kalafat'a yaptığı çıkarma da püskürtüldü.", kaynak:"zistovi-antlasmasi", duygu:["😔"] },
+{ odak_yer:["Vidin"], t:"1790-01-01", k:"savas", etiket:["savas"], b:"Kalafat çıkarması ve püskürtülmesi", gun:"Nisan sonları 1790 — TDV gün vermiyor", yer:"Kalafat, Tuna", kisiler:"—", d:"Nisan 1790 sonlarında Vidin'den hareketle Tuna üzerinden Kalafat'a çıkan Osmanlı kuvvetleri hızla geri püskürtüldü. Bu başarısız çıkarma, Avusturya cephesinde inisiyatifin Osmanlı tarafından çıktığı ve mütareke arayışının başladığı aylara denk gelir.", ic_not_gun:"TDV zistovi-antlasmasi yalnız 'Nisan sonlarında' diyor; gün uydurulmadı.", kaynak:"zistovi-antlasmasi", duygu:["😔"] },
 { t:"1790-06-08", k:"savas", etiket:["savas"], b:"Avusturya kuvvetlerinin Yergöğü'ye inişi ve püskürtülmesi", yer_id:"Yergöğü (Giurgiu)", gun:"8 Haziran 1790", yer:"Yergöğü (Giurgiu), Tuna", kisiler:"—", d:"Avusturya kuvvetleri 8 Haziran 1790'da Tuna boyunca Yergöğü'ye kadar indiler, fakat Osmanlı askerleri tarafından geri püskürtüldüler. Üç ay sonra aynı yerde, sadrazamın çadırında Avusturya ile mütareke imzalanacaktır.", kaynak:"yergogu", duygu:["⚔️"] },
 { t:"1789-01-01", k:"kayip", etiket:["savas","toprak-kaybi"], b:"Akkirman'ın Ruslar tarafından ele geçirilmesi", yer_id:"Akkirman", gun:"1789 — TDV yalnız yıl veriyor", yer:"Akkirman", kisiler:"Tayfur Paşa", d:"Akkirman 1789'da Ruslar tarafından kuşatılarak ele geçirildi; TDV'ye göre kale 1770'ten sonra ikinci kez Rus eline geçiyordu. Kaleyi savaşmadan teslim eden Tayfur Paşa, sadrazam Cezayirli Gazi Hasan Paşa tarafından idam ettirildi.", ic_not_gun:"TDV akkirman maddesi yalnız yıl veriyor (1770 ve 1789); gün/ay bulunamadı, uydurulmadı. Bu bir TOPRAK DEĞİŞİMİDİR — harita kırılması yazılacaksa gün ayrıca aranmalı.", kaynak:"akkirman", duygu:["😔"] },
 { t:"1791-01-01", k:"kusatma", etiket:["savas"], b:"Rusların İbrâil kuşatması — kale alınamadı", yer_id:"İbrail", gun:"Haziran 1791 — TDV gün vermiyor", yer:"İbrâil", kisiler:"—", d:"İbrâil Kalesi Haziran 1791'de Ruslar tarafından kuşatıldıysa da alınamadı. Aynı yaz Maçin'de yaşanan bozgunun ardından taraflar mütarekeye oturacak, İbrâil Osmanlı elinde kalacaktır.", ic_not_gun:"TDV ibrail maddesi 'ertesi yılın haziranında' diyor; gün yok, uydurulmadı.", kaynak:"ibrail", duygu:["⚔️"] },
 { t:"1791-02-27", k:"sadrazam", etiket:["siyaset"], b:"Koca Yûsuf Paşa'nın ikinci sadâreti — Şumnu ordugâhında göreve başlaması", yer_id:"Şumnu", gun:"27 Şubat 1791", yer:"Şumnu", kisiler:"Koca Yûsuf Paşa, Şerif Hasan Paşa, III. Selim", d:"Şerif Hasan Paşa'nın idamla sonuçlanan kısa sadâretinin ardından mühür yeniden Koca Yûsuf Paşa'ya verildi; paşa 27 Şubat 1791'de Şumnu'daki ordugâha gidip görevine başladı. Savaşı bitirecek mütareke ve barış görüşmeleri onun ikinci sadâreti sırasında yürütülecektir.", kaynak:"yusuf-pasa-koca", duygu:["😐"] },
-{ t:"1791-07-09", k:"savas", etiket:["savas"], b:"Maçin bozgunu — barışı getiren yenilgi", gun:"8 Zilkade 1205 / 9 Temmuz 1791", yer:"Maçin, Tuna", kisiler:"Koca Yûsuf Paşa", d:"Osmanlı ordusu Maçin'de genel bir bozguna uğradı ve büyük bir perişanlık yaşandı. Avusturya ile mütareke çoktan imzalanmışken gelen bu yenilgi, Rusya ile de masaya oturma kararını kaçınılmaz kıldı: bir ay sonra Kalas'ta mütareke imzalandı.", ic_not_gun:"TDV kendi içinde ÜÇ tarih veriyor: yas-antlasmasi 9 Temmuz 1791 (8 Zilkade 1205), osmanlilar 5 Ağustos, yusuf-pasa-koca 6 Ağustos. Yalnız birincisinde hicrî karşılık var ve 8 Zilkade 1205 gerçekten 9 Temmuz 1791'e denk düşüyor; o alındı. Fark bildirilmiştir (denetim/SAVAS-ANLATI-0918.md §4.4).", kaynak:"yas-antlasmasi", duygu:["😔"] },
+{ odak_yer:["İbrail","Kalas (Galatz)"], t:"1791-07-09", k:"savas", etiket:["savas"], b:"Maçin bozgunu — barışı getiren yenilgi", gun:"8 Zilkade 1205 / 9 Temmuz 1791", yer:"Maçin, Tuna", kisiler:"Koca Yûsuf Paşa", d:"Osmanlı ordusu Maçin'de genel bir bozguna uğradı ve büyük bir perişanlık yaşandı. Avusturya ile mütareke çoktan imzalanmışken gelen bu yenilgi, Rusya ile de masaya oturma kararını kaçınılmaz kıldı: bir ay sonra Kalas'ta mütareke imzalandı.", ic_not_gun:"TDV kendi içinde ÜÇ tarih veriyor: yas-antlasmasi 9 Temmuz 1791 (8 Zilkade 1205), osmanlilar 5 Ağustos, yusuf-pasa-koca 6 Ağustos. Yalnız birincisinde hicrî karşılık var ve 8 Zilkade 1205 gerçekten 9 Temmuz 1791'e denk düşüyor; o alındı. Fark bildirilmiştir (denetim/SAVAS-ANLATI-0918.md §4.4).", kaynak:"yas-antlasmasi", duygu:["😔"] },
 
 // ---------- ④ SAVAŞIN SONU (mütarekeler) ----------
 { t:"1790-09-06", k:"diplomasi", etiket:["diplomasi"], b:"İstanbul meşveret meclisinin mütareke kararı — ön şartlardan vazgeçilmesi", yer_id:"İstanbul", gun:"6 Eylül 1790", yer:"İstanbul", kisiler:"III. Selim", d:"6 Eylül 1790'da İstanbul'da toplanan meşveret meclisi, Avusturya ile görüşmeler için öne sürülen ön şartlardan vazgeçti. Bu karar, on iki gün sonra Yergöğü'de imzalanacak mütarekenin önünü açtı ve savaşın Avusturya cephesinde fiilen sona ermesini sağladı.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
 { t:"1790-09-18", k:"antlasma", etiket:["antlasma","diplomasi"], b:"Yergöğü Mütarekesi — Avusturya cephesinde silahların susması", yer_id:"Yergöğü (Giurgiu)", gun:"9 Muharrem 1205 Pazar / 18 Eylül 1790", yer:"Yergöğü (Giurgiu)", kisiler:"Koca Yûsuf Paşa, Prens Coburg", d:"Osmanlı Devleti ile Avusturya arasındaki mütareke, Yergöğü'deki sadrazam çadırında 18 Eylül 1790 Pazar günü imzalandı. Dokuz ay yürürlükte kalacak olan mütareke, iki buçuk yıl süren Avusturya cephesindeki çarpışmaları durdurdu ve Ziştovi barış konferansının yolunu açtı.", ic_not_gun:"TDV yergogu maddesi 19 Eylül diyor; zistovi-antlasmasi 18 Eylül ve hicrî karşılığıyla birlikte gün adını da veriyor (9 Muharrem 1205 Pazar). Çapalı olan alındı.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
 { t:"1790-09-21", k:"diplomasi", etiket:["diplomasi"], b:"Yergöğü Mütarekesi'nin Coburg tarafından imzalanması ve metinlerin mübadelesi", yer_id:"Yergöğü (Giurgiu)", gun:"21 Eylül 1790", yer:"Yergöğü (Giurgiu)", kisiler:"Prens Coburg", d:"Mütareke metni 21 Eylül 1790'da Avusturya başkumandanı Prens Coburg tarafından da imzalandı ve nüshalar karşılıklı olarak teslim edildi. Böylece mütareke iki taraf için de yürürlüğe girdi.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
-{ t:"1791-06-11", k:"diplomasi", etiket:["diplomasi"], b:"Yergöğü Mütarekesi'nin sona ermesi — barışın aynı yaza sıkışması", gun:"11 Haziran 1791", yer:"Ziştovi", kisiler:"—", d:"Dokuz aylık Yergöğü Mütarekesi 11 Haziran 1791'de sona erdi. Ziştovi'de süren görüşmeler o güne kadar sonuçlanmadığı için barış, mütarekenin bitişiyle yeniden savaş ihtimali arasında sıkıştı; antlaşma ancak 4 Ağustos 1791'de imzalanabildi.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
+{ odak_yer:["Yergöğü"], t:"1791-06-11", k:"diplomasi", etiket:["diplomasi"], b:"Yergöğü Mütarekesi'nin sona ermesi — barışın aynı yaza sıkışması", gun:"11 Haziran 1791", yer:"Ziştovi", kisiler:"—", d:"Dokuz aylık Yergöğü Mütarekesi 11 Haziran 1791'de sona erdi. Ziştovi'de süren görüşmeler o güne kadar sonuçlanmadığı için barış, mütarekenin bitişiyle yeniden savaş ihtimali arasında sıkıştı; antlaşma ancak 4 Ağustos 1791'de imzalanabildi.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
 { t:"1791-08-08", k:"diplomasi", etiket:["diplomasi"], b:"Kalas'ta Vâsıf Efendi ile Prens Repnin arasında mütareke mutabakatı", yer_id:"Kalas (Galatz)", gun:"8 Ağustos 1791", yer:"Kalas (Galaţi)", kisiler:"Ahmed Vâsıf Efendi, Prens Repnin, Koca Yûsuf Paşa", d:"Maçin bozgunundan bir ay sonra, 8 Ağustos 1791'de Kalas'ta Ahmed Vâsıf Efendi ile Rus kumandanı Prens Repnin arasında mütarekenin esasları üzerinde mutabakata varıldı. Üç gün sonra mütareke belgeleri imzalanacaktır.", kaynak:"yusuf-pasa-koca", duygu:["📜"] },
 { t:"1791-08-11", k:"antlasma", etiket:["antlasma","diplomasi"], b:"Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık ateşkes", yer_id:"Kalas (Galatz)", gun:"11 Zilhicce 1205 / 11 Ağustos 1791", yer:"Kalas (Galaţi)", kisiler:"Ahmed Vâsıf Efendi, Prens Repnin", d:"Osmanlı Devleti ile Rusya arasında sekiz aylık mütareke 11 Ağustos 1791'de imzalandı; belgeler 'esas madde ve mütareke' başlığıyla aynı gün onaylandı. Dört yıl süren Rus cephesindeki çarpışmalar böylece durdu ve beş ay sonra Yaş'ta imzalanacak barışın çerçevesi kuruldu.", ic_not_gun:"TDV'nin dört maddesi (yas-antlasmasi, vasif-ahmed-efendi, nizam-i-cedid, osmanlilar) 11 Ağustos'ta birleşiyor; zistovi-antlasmasi bir yerde 12 Ağustos diyor (muhtemelen mübadele günü). Çoğunluk ve hicrî çapa 11 Ağustos.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 
 // ---------- ⑤ BARIŞ SÜRECİ ----------
-{ t:"1790-12-30", k:"diplomasi", etiket:["diplomasi"], b:"Ziştovi barış konferansının açılışı", gun:"23 Rebîülâhir 1205 / 30 Aralık 1790", yer:"Ziştovi (Svishtov)", kisiler:"—", d:"Osmanlı ve Avusturya delegeleri 30 Aralık 1790'da Ziştovi'de ilk defa bir araya gelip yetki belgelerini karşılıklı takdim ettiler. Sekiz ay sürecek ve bir ara tamamen kesilecek olan görüşmeler böylece başladı.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
-{ t:"1791-06-10", k:"diplomasi", etiket:["diplomasi"], b:"Ziştovi görüşmelerinin kesilmesi — Avusturya heyetinin Bükreş'e çekilmesi", gun:"10 Haziran 1791", yer:"Ziştovi, Bükreş", kisiler:"Baron Herbert", d:"Avusturya murahhası Herbert 10 Haziran 1791'de Bükreş'e çekilerek görüşmelerin kesilmesine yol açtı; ertesi gün de mütareke süresi doldu. Bu kopuş beş hafta sürdü ve barış ancak İngiltere ile Prusya'nın araya girmesiyle kurtarıldı.", kaynak:"zistovi-antlasmasi", duygu:["😐"] },
-{ t:"1791-07-18", k:"diplomasi", etiket:["diplomasi"], b:"Barış müzakerelerinin yeniden başlaması — Herbert'in Ziştovi'ye dönüşü", gun:"18 Temmuz 1791", yer:"Ziştovi (Svishtov)", kisiler:"Baron Herbert", d:"Beş haftalık kesintinin ardından Avusturya heyeti 18 Temmuz 1791'de Ziştovi'ye döndü. On yedi gün sonra, 4 Ağustos 1791'de barış antlaşması imzalanacaktır.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
+{ odak_yer:["Ziştovi"], t:"1790-12-30", k:"diplomasi", etiket:["diplomasi"], b:"Ziştovi barış konferansının açılışı", gun:"23 Rebîülâhir 1205 / 30 Aralık 1790", yer:"Ziştovi (Svishtov)", kisiler:"—", d:"Osmanlı ve Avusturya delegeleri 30 Aralık 1790'da Ziştovi'de ilk defa bir araya gelip yetki belgelerini karşılıklı takdim ettiler. Sekiz ay sürecek ve bir ara tamamen kesilecek olan görüşmeler böylece başladı.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
+{ odak_yer:["Ziştovi","Bükreş"], t:"1791-06-10", k:"diplomasi", etiket:["diplomasi"], b:"Ziştovi görüşmelerinin kesilmesi — Avusturya heyetinin Bükreş'e çekilmesi", gun:"10 Haziran 1791", yer:"Ziştovi, Bükreş", kisiler:"Baron Herbert", d:"Avusturya murahhası Herbert 10 Haziran 1791'de Bükreş'e çekilerek görüşmelerin kesilmesine yol açtı; ertesi gün de mütareke süresi doldu. Bu kopuş beş hafta sürdü ve barış ancak İngiltere ile Prusya'nın araya girmesiyle kurtarıldı.", kaynak:"zistovi-antlasmasi", duygu:["😐"] },
+{ odak_yer:["Ziştovi"], t:"1791-07-18", k:"diplomasi", etiket:["diplomasi"], b:"Barış müzakerelerinin yeniden başlaması — Herbert'in Ziştovi'ye dönüşü", gun:"18 Temmuz 1791", yer:"Ziştovi (Svishtov)", kisiler:"Baron Herbert", d:"Beş haftalık kesintinin ardından Avusturya heyeti 18 Temmuz 1791'de Ziştovi'ye döndü. On yedi gün sonra, 4 Ağustos 1791'de barış antlaşması imzalanacaktır.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
 { t:"1791-08-12", k:"diplomasi", etiket:["antlasma","diplomasi"], b:"Ziştovi Antlaşması'nın padişah tarafından onaylanması", yer_id:"İstanbul", gun:"12 Zilhicce 1205 / 12 Ağustos 1791", yer:"İstanbul", kisiler:"III. Selim", d:"4 Ağustos 1791'de imzalanan Ziştovi Antlaşması 12 Ağustos'ta onaylandı. Onay, Rusya ile mütarekenin imzalandığı günün hemen ertesine denk geldi: Osmanlı Devleti aynı hafta içinde iki cephede de çarpışmayı hukuken bitirmiş oldu.", kaynak:"zistovi-antlasmasi", duygu:["📜"] },
-{ t:"1791-08-31", k:"diplomasi", etiket:["antlasma","diplomasi"], b:"Ziştovi tasdiknâmelerinin merasimle mübadelesi", gun:"1 Muharrem 1206 / 31 Ağustos 1791", yer:"Ziştovi (Svishtov)", kisiler:"Koca Yûsuf Paşa", d:"Avusturya ile yapılan barışın tasdiknâmeleri 31 Ağustos 1791'de merasimle mübadele edildi; bunun ardından sadrazam Rus cephesindeki barış görüşmeleri için yola çıktı. Böylece 1788'de açılan Avusturya cephesi bütünüyle kapandı.", ic_not_gun:"TDV zistovi-antlasmasi bir yerde 23 Ağustos diyor; yas-antlasmasi 31 Ağustos'u hicrî karşılığıyla (1 Muharrem 1206) veriyor. Çapalı olan alındı, fark raporda bildirildi.", kaynak:"yas-antlasmasi", duygu:["📜"] },
+{ odak_yer:["Ziştovi"], t:"1791-08-31", k:"diplomasi", etiket:["antlasma","diplomasi"], b:"Ziştovi tasdiknâmelerinin merasimle mübadelesi", gun:"1 Muharrem 1206 / 31 Ağustos 1791", yer:"Ziştovi (Svishtov)", kisiler:"Koca Yûsuf Paşa", d:"Avusturya ile yapılan barışın tasdiknâmeleri 31 Ağustos 1791'de merasimle mübadele edildi; bunun ardından sadrazam Rus cephesindeki barış görüşmeleri için yola çıktı. Böylece 1788'de açılan Avusturya cephesi bütünüyle kapandı.", ic_not_gun:"TDV zistovi-antlasmasi bir yerde 23 Ağustos diyor; yas-antlasmasi 31 Ağustos'u hicrî karşılığıyla (1 Muharrem 1206) veriyor. Çapalı olan alındı, fark raporda bildirildi.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 { t:"1791-10-16", k:"diger", etiket:["diplomasi"], b:"Potemkin'in ölümü — Yaş görüşmelerinin Rus tarafında el değiştirmesi", odak_yer:["Yaş","Kalas","Bender"], ic_not_odak:"önceki odak_yer:[\"Yaş\"] kamerayı şehir kademesine indiriyordu; olay Yaş'tan Nikolaşet'e giderken yolda, anlamı diplomatik. KARADENIZ-0082-CEVAP H-0044 önerisi: Yaş–Kalas–Bender kutusu · UYGULA-OLAYLAR-0930", gun:"16 Ekim 1791", yer:"Boğdan", kisiler:"Potemkin, Bezborodko", d:"Rus murahhası Potemkin, Nikolaşet Manastırı'na giderken yolda 16 Ekim 1791'de öldü. Yerine görüşmeleri Kont Bezborodko yürüttü; barış müzakereleri ancak onun gelişinden sonra, kasım ayında düzenli biçimde başlayabildi.", kaynak:"yas-antlasmasi", duygu:["😐"] },
 { t:"1791-11-10", k:"diplomasi", etiket:["diplomasi"], b:"Yaş'ta Osmanlı-Rus müzakerelerinin başlaması", yer_id:"Yaş", gun:"13 Rebîülevvel 1206 / 10 Kasım 1791", yer:"Yaş (Iaşi)", kisiler:"Ahmed Vâsıf Efendi, Bezborodko", d:"Osmanlı ve Rus heyetleri 10 Kasım 1791'de Yaş'ta ilk oturumu yaptı. İki ay boyunca on altı toplantı yapılacak, tazminat ve sınır meseleleri bu oturumlarda çözülecektir.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 { t:"1792-01-07", k:"diplomasi", etiket:["diplomasi"], b:"Yaş'ta on dördüncü oturum — Rusya'nın tazminat talebinden vazgeçmesi", yer_id:"Yaş", gun:"7 Ocak 1792", yer:"Yaş (Iaşi)", kisiler:"Bezborodko, Ahmed Vâsıf Efendi", d:"7 Ocak 1792'deki on dördüncü görüşmede Rus murahhası Bezborodko tazminat talebinden vazgeçerek barışın akdedildiğini ilân etti. Antlaşma metninin üç gün sonra imzalanması kararlaştırıldı.", ic_not_d:"Aynı oturumda imza günü olarak 9 Ocak kararlaştırıldı, fiilen 10 Ocak'ta imzalandı (TDV yas-antlasmasi). Atlastaki 1792-01-10 maddesi TDV'nin çapalı tarihidir; kuyruktaki KRONOLOJI_RUSYA maddesi 1792-01-09 diyor — düzeltme önerisi raporda.", kaynak:"yas-antlasmasi", duygu:["📜"] },
-{ t:"1792-01-18", k:"diplomasi", etiket:["antlasma","diplomasi"], b:"Yaş Antlaşması'nın sadrazam senediyle onaylanması", yer_id:"Yaş", gun:"23 Cemâziyelevvel 1206 / 18 Ocak 1792", yer:"Yaş (Iaşi)", kisiler:"Koca Yûsuf Paşa", d:"10 Ocak 1792'de imzalanan Yaş Antlaşması, 18 Ocak'ta sadrazamın verdiği senetle onaylandı. Onayı teyidnâme ve tasdiknâme mübadeleleri izleyecek, barış şubat başında hukuken kesinleşecektir.", kaynak:"yas-antlasmasi", duygu:["📜"] },
+{ t:"1792-01-18", k:"diplomasi", etiket:["antlasma","diplomasi"], b:"Yaş Antlaşması'nın sadrazam senediyle onaylanması", yer_id:"Hacıbey (Odessa)", gun:"23 Cemâziyelevvel 1206 / 18 Ocak 1792", yer:"Yaş (Iaşi)", kisiler:"Koca Yûsuf Paşa", d:"10 Ocak 1792'de imzalanan Yaş Antlaşması, 18 Ocak'ta sadrazamın verdiği senetle onaylandı. Onayı teyidnâme ve tasdiknâme mübadeleleri izleyecek, barış şubat başında hukuken kesinleşecektir.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 { t:"1792-01-27", k:"diplomasi", etiket:["antlasma","diplomasi"], b:"Yaş'ta on altıncı oturum — teyidnâmelerin mübadelesi", yer_id:"Yaş", gun:"2 Cemâziyelâhir 1206 / 27 Ocak 1792", yer:"Yaş (Iaşi)", kisiler:"—", d:"27 Ocak 1792'de yapılan on altıncı ve son toplantıda teyidnâmeler karşılıklı olarak mübadele edildi. Konferans böylece kapandı; geriye yalnız hükümdar tasdiknâmelerinin değişimi kaldı.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 { t:"1792-02-10", k:"antlasma", etiket:["antlasma","diplomasi"], b:"Yaş tasdiknâmelerinin mübadelesi — barışın devletler hukukunda kesinleşmesi", yer_id:"Yaş", gun:"16 Cemâziyelâhir 1206 / 10 Şubat 1792", yer:"Yaş (Iaşi)", kisiler:"III. Selim, II. Katerina", d:"Hükümdar tasdiknâmeleri 10 Şubat 1792'de mübadele edildi ve barış devletler hukuku açısından da kesinlik kazandı. Beş yıl süren, iki cepheli savaş böylece resmen kapandı; Kırım'ın kaybı kesinleşti ve Osmanlı Devleti'nin yeni sınırı Turla (Dinyester) oldu.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 
@@ -561,7 +576,8 @@ window.OLAYLAR_P0068B = [
 // denetim/YAMA-SEFER1768-0917.json K-1 · K-2 · K-3 — yerleşim yamaları Y-1/Y-2/Y-3'ün
 // Değişmez 2 maddeleri. Y-3 (Yedisan isg 1770-08-12) bu dosya bağlanmadan İNMEZ.
 //
-// TARİHLER GREGORYEN; Rus kaynaklarının Jülyen günleri +11 ile çevrildi.
+// TARİHLER JÜLYEN (14 Ekim 2026, EMRE KARARI KARARLAR-1014 m.28: VERI-YAPISI TAKVİM kuralına dönüldü;
+// ilk yazımda Rus kaynaklarının Jülyen günleri +11 ile Gregoryen'e çevrilmişti — geri alındı).
 // K-1 ve K-3'ün t: değerleri ALT SINIRDIR (Jülyen ayın ilk gününün Gregoryen karşılığı);
 // kaynak gün vermiyor ve bu, gun: alanında açıkça yazılıdır (CLAUDE.md §4 hassasiyet).
 //
@@ -574,9 +590,9 @@ window.OLAYLAR_P0068B = [
 //   TDV: kirim
 // ============================================================================
 window.OLAYLAR_P0065 = [
-{ t:"1770-08-12", k:"kayip", etiket:["toprak-kayip","konu-askeri"], b:"Yedisan ve Bucak Nogaylarının Rus himayesine geçmesi", gun:"Ağustos 1770 (Rus kaynağında Jülyen takvimiyle; gün bilinmiyor)", yer:"Yedisan ve Bucak bozkırları", yer_id:"Yedisan bozkırı", kisiler:"Pyotr Panin", d:"Bender kuşatması sürerken Rus komutanı Panin, Yedisan ve Bucak Nogay ordalarının ileri gelenleriyle bir antlaşma imzaladı. Nogaylar Osmanlı Devleti'nden ayrıldıklarını ve Rus imparatoriçesinin himayesine girdiklerini bildirdiler. On iki bin kadar Nogay Bucak'tan göç etti; ordalar 1771-1772'de Kuban ırmağının sağ yakasına yerleştirildi. Kırım'ın kuzeyindeki bozkırların Rus tarafına geçmesiyle yarımadaya giden kara yolu açılmış oldu.", kaynak:"Руссев Н. Д., Русин 2012 (\"в августе 1770 г. граф П.И. Панин подписал договор с едисанскими и буджакскими татарами\") · ЭСБЕ «Нагаи» · ЭСБЕ «Панин» · Грибовский В. В. 2016", duygu:["😔"] },
-{ t:"1771-06-26", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Orkapı hattının Ruslara geçmesi", gun:"25-26 Haziran 1771 (Rus kaynaklarında Jülyen takvimiyle 14-15 Haziran)", yer:"Orkapı (Perekop), Kırım berzahı", yer_id:"Or Kapı (Ferahkirman)", kisiler:"Vasiliy Dolgorukov, Aleksandr Prozorovski, Selim Giray III", d:"Dolgorukov komutasındaki Rus ordusu gece baskınıyla Orkapı hattının sol kanadına merdivenlerle tırmandı. Aynı sırada Prozorovski'nin süvarileri Sivaş'ın sığlıklarından geçerek hattın arkasına çıktı ve Kırım-Osmanlı süvarisini dağıttı. Ertesi gün kale garnizonu teslim oldu; Rus ordusu iki gün sonra yarımadanın içine yürüdü.", kaynak:"Военная энциклопедия «Перекоп» (\"15 июня г-зон крепостцы сдался. Устроив в П. магазины, Долгоруков 17-го двинулся в Крым\") · РБС «Долгоруков-Крымский, Василий Михайлович» · kirim", duygu:["😔"] },
-{ t:"1771-06-29", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Arabat Kalesi'nin düşmesi; Kerç, Yenikale ve Taman'ın Rus eline geçmesi", gun:"Arabat: 29 Haziran 1771 (Jülyen 18 Haziran) · Kerç, Yenikale, Taman: Temmuz 1771 (Jülyen; gün bilinmiyor)", yer:"Arabat oku ve Kerç boğazı", yer_id:"Kerç", kisiler:"Fyodor Şçerbatov, Aleksey Senyavin", d:"Şçerbatov komutasındaki Rus kolu, Azak filosunun getirdiği teknelerden kurulan bir köprüyle Geniçesk boğazını geçti ve Arabat oku boyunca yaklaşık yüz verst yürüyerek Arabat Kalesi'ni aldı. Temmuz ayında aynı kol Kerç, Yenikale ve Taman'ı da ele geçirdi. Böylece Kerç boğazının iki yakası da Rus denetimine girdi.", kaynak:"Военная энциклопедия «Арабатская коса» · РБС «Щербатов, Федор Федорович» (\"В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань\") · ЭСБЕ «Керчь»", duygu:["😔"] }
+{ t:"1770-08-12", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1770-08-01 (Yedisan/Bucak Nogaylarının Rus himayesi; Руссев 2012 'в августе 1770 г.', eski takvim, AY: Jülyen ay başı) = Gregoryen 1770-08-12 · ESKİ (m.28): EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.28): Jülyen gün çevrilmeden yazıldı; eski Gregoryen çevirisi 1770-08-12 geri alındı", k:"kayip", etiket:["toprak-kayip","konu-askeri"], b:"Yedisan ve Bucak Nogaylarının Rus himayesine geçmesi", gun:"Ağustos 1770 (Rus kaynağında Jülyen takvimiyle; gün bilinmiyor)", yer:"Yedisan ve Bucak bozkırları", yer_id:"Yedisan bozkırı", kisiler:"Pyotr Panin", d:"Bender kuşatması sürerken Rus komutanı Panin, Yedisan ve Bucak Nogay ordalarının ileri gelenleriyle bir antlaşma imzaladı. Nogaylar Osmanlı Devleti'nden ayrıldıklarını ve Rus imparatoriçesinin himayesine girdiklerini bildirdiler. On iki bin kadar Nogay Bucak'tan göç etti; ordalar 1771-1772'de Kuban ırmağının sağ yakasına yerleştirildi. Kırım'ın kuzeyindeki bozkırların Rus tarafına geçmesiyle yarımadaya giden kara yolu açılmış oldu.", kaynak:"Руссев Н. Д., Русин 2012 (\"в августе 1770 г. граф П.И. Панин подписал договор с едисанскими и буджакскими татарами\") · ЭСБЕ «Нагаи» · ЭСБЕ «Панин» · Грибовский В. В. 2016", duygu:["😔"] },
+{ t:"1771-06-26", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1771-06-15 (Orkapı garnizonunun teslimi; VE «Перекоп» '15 июня', eski takvim) = Gregoryen 1771-06-26 · ESKİ (m.28): EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.28): Jülyen gün çevrilmeden yazıldı; eski Gregoryen çevirisi 1771-06-26 geri alındı", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Orkapı hattının Ruslara geçmesi", gun:"25-26 Haziran 1771 (Jülyen 14-15 Haziran)", yer:"Orkapı (Perekop), Kırım berzahı", yer_id:"Or Kapı (Ferahkirman)", kisiler:"Vasiliy Dolgorukov, Aleksandr Prozorovski, Selim Giray III", d:"Dolgorukov komutasındaki Rus ordusu gece baskınıyla Orkapı hattının sol kanadına merdivenlerle tırmandı. Aynı sırada Prozorovski'nin süvarileri Sivaş'ın sığlıklarından geçerek hattın arkasına çıktı ve Kırım-Osmanlı süvarisini dağıttı. Ertesi gün kale garnizonu teslim oldu; Rus ordusu iki gün sonra yarımadanın içine yürüdü.", kaynak:"Военная энциклопедия «Перекоп» (\"15 июня г-зон крепостцы сдался. Устроив в П. магазины, Долгоруков 17-го двинулся в Крым\") · РБС «Долгоруков-Крымский, Василий Михайлович» · kirim", duygu:["😔"] },
+{ t:"1771-06-29", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1771-06-18 (Arabat'ın alınışı; RBS «Щербатов, Федор Федорович», eski takvim) = Gregoryen 1771-06-29 · ESKİ (m.28): EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.28): Jülyen gün çevrilmeden yazıldı; eski Gregoryen çevirisi 1771-06-29 geri alındı", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Arabat Kalesi'nin düşmesi; Kerç, Yenikale ve Taman'ın Rus eline geçmesi", gun:"Arabat: 29 Haziran 1771 (Jülyen 18 Haziran) · Kerç, Yenikale, Taman: Temmuz 1771 (Jülyen; gün bilinmiyor)", yer:"Arabat oku ve Kerç boğazı", yer_id:"Kerç", kisiler:"Fyodor Şçerbatov, Aleksey Senyavin", d:"Şçerbatov komutasındaki Rus kolu, Azak filosunun getirdiği teknelerden kurulan bir köprüyle Geniçesk boğazını geçti ve Arabat oku boyunca yaklaşık yüz verst yürüyerek Arabat Kalesi'ni aldı. Temmuz ayında aynı kol Kerç, Yenikale ve Taman'ı da ele geçirdi. Böylece Kerç boğazının iki yakası da Rus denetimine girdi.", kaynak:"Военная энциклопедия «Арабатская коса» · РБС «Щербатов, Федор Федорович» (\"В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань\") · ЭСБЕ «Керчь»", duygu:["😔"] }
 ];
 
 ;
@@ -752,12 +768,12 @@ window.OLAYLAR_0073_IRAN_YANYA = [
   kaynak:"iran (TDV) · bagdat (TDV — savaşı doğruluyor, işgali anmıyor) · kerkuk (TDV, bu yıllar hakkında sessiz)",
   duygu:["😔"] },
 
-{ t:"1823-01-01", k:"antlasma", etiket:["antlasma","konu-diplomasi"],
+{ t:"1823-07-28", k:"antlasma", etiket:["antlasma","konu-diplomasi"],
   b:"Erzurum Antlaşması — İran kuvvetlerinin altmış günde çekilmesi",
-  gun:"1823", yer:"Erzurum", yer_id:"Erzurum",
+  gun:"28 Temmuz 1823", yer:"Erzurum", yer_id:"Erzurum",
   kisiler:"II. Mahmud, Feth Ali Şah",
   d:"İki yıl süren savaş, Erzurum'da imzalanan barış antlaşmasıyla sona erdi. Antlaşma uyarınca İran kuvvetleri altmış gün içinde işgal ettikleri topraklardan çekilecekti. Antlaşma yeni bir sınır çizmedi, savaş öncesi durumu geri getirdi; iki devlet arasındaki sınır anlaşmazlıkları 1833-1842'de yeniden çatışmaya dönüşecek ve ancak 1847'de, yine Erzurum'da imzalanan ikinci bir antlaşmayla düzenlenecekti. Doğu cephesinin kapanması, imparatorluğun bütün ağırlığını Yunan isyanına verebilmesinin ön şartıydı.",
-  ic_not_gun:"🔴 GÜN BULUNAMADI. TDV `iran` yalnız \"1823'te Erzurum'da yapılan barış antlaşması\" diyor. Ayrı madde ARANDI: `erzurum-antlasmasi` ve `erzurum-antlasmalari` slug'larının ikisi de HTTP 302 (ölü). Sahte kesinlik yerine yıl bırakıldı (CLAUDE.md §4 · D210). Gün başka bir akademik kaynaktan bulunursa düzeltilmeli.",
+  ic_not_gun:"13 Ekim 2026 DUZELTME-1: gün BULUNDU — TDV erzurum (GET): «28 Temmuz 1823’te imzalanan Erzurum Antlaşması ile savaş son buldu ve İran aldığı yerleri geri verdi». Eski kayıt 1823-01-01 yıl yer tutucusuydu.",
   ic_not_d:"2t ÖLÇÜTÜ AÇISINDAN: madde bilerek `toprak-*` etiketi TAŞIMIYOR. Sebebi denetle.py'nin kendi gerekçesidir — statükoyu teyit eden, toprak devretmeyen barışlar (Kasr-ı Şirin, Vasvar, Amasya) o gün sınır oynatmaz ve ölçüt dışıdır. Bu antlaşma da toprak devretmiyor, işgali geri alıyor.",
   kaynak:"iran (TDV)",
   duygu:["🏛"] },
@@ -768,7 +784,7 @@ window.OLAYLAR_0073_IRAN_YANYA = [
   b:"Tepedelenli Ali Paşa'nın azli ve Yanya kuşatmasının başlaması",
   gun:"Mart 1820", yer:"Yanya (Epir), Tepedelen", yer_id:"Yanya",
   kisiler:"Tepedelenli Ali Paşa, Hurşid Ahmed Paşa, Hâlet Efendi, II. Mahmud",
-  d:"II. Mahmud'un mahallî güçleri tasfiye siyaseti, otuz üç yıldır Yanya'yı yöneten ve Tesalya ile Epir'i fiilen elinde tutan Tepedelenli Ali Paşa'ya ulaştı. Paşa derbendler başbuğluğundan, oğlu Veli de Tırhala paşalığından azledildi; buna uymayacağı beklendiğinden üzerine kuvvet sevkedildi. Bu işle görevlendirilen Hurşid Ahmed Paşa aynı zamanda MORA VALİSİYDİ ve ona Rumeli seraskerliği de verilmişti; bölgedeki bütün mülkî ve askerî yöneticiler Tepedelenli'yi yakalamakla görevlendirildi. Yani Yunan isyanı patladığında Mora'yı yönetmesi gereken kumandan ve emrindeki kuvvetler Yanya Kalesi'ni kuşatıyordu. Ali Paşa 23 Mayıs 1820'de Rumlarla Yanya'da bir toplantı düzenledi, kendi idaresinde bir Rum eyaleti kurmaya tevessül etti ve onlara para ile silâh yardımında bulundu. Karşı tarafta küçümsenecek bir güç yoktu: Ali Paşa'nın 7.000'i dâimî olmak üzere 30-40.000 kişilik bir ordusu ve küçük bir donanması vardı; idaresindeki nüfus 1,5-2 milyon, yıllık geliri 4-5 milyon kuruş tahmin ediliyordu.",
+  d:"II. Mahmud'un mahallî güçleri tasfiye siyaseti, otuz üç yıldır Yanya'yı yöneten ve Tesalya ile Epir'i fiilen elinde tutan Tepedelenli Ali Paşa'ya ulaştı. Paşa derbendler başbuğluğundan, oğlu Veli de Tırhala paşalığından azledildi; buna uymayacağı beklendiğinden üzerine kuvvet sevkedildi. Bu işle görevlendirilen Hurşid Ahmed Paşa aynı zamanda Mora valisiydi ve ona Rumeli seraskerliği de verilmişti; bölgedeki bütün mülkî ve askerî yöneticiler Tepedelenli'yi yakalamakla görevlendirildi. Yani Yunan isyanı patladığında Mora'yı yönetmesi gereken kumandan ve emrindeki kuvvetler Yanya Kalesi'ni kuşatıyordu. Ali Paşa 23 Mayıs 1820'de Rumlarla Yanya'da bir toplantı düzenledi, kendi idaresinde bir Rum eyaleti kurmaya tevessül etti ve onlara para ile silâh yardımında bulundu. Karşı tarafta küçümsenecek bir güç yoktu: Ali Paşa'nın 7.000'i dâimî olmak üzere 30-40.000 kişilik bir ordusu ve küçük bir donanması vardı; idaresindeki nüfus 1,5-2 milyon, yıllık geliri 4-5 milyon kuruş tahmin ediliyordu.",
   ic_not_gun:"TDV `tepedelenli-ali-pasa` azli \"Mart 1820\" diye verir; GÜN kaynakta YOK. `t` ayın birine yazıldı ve hassasiyet `gun` alanında açıkça duruyor (D213: `YYYY-MM-01` biçimi tek başına hassasiyeti söyleyemez, açıklayan alandan okunur).",
   ic_not_d:"⚠️ İKİ TDV MADDESİ FARKLI YIL VERİYOR, ikisi de yazıldı sayılmadı: `hursid-ahmed-pasa` (Cevdet Küçük) Hurşid Paşa'nın Mora valiliğine tayinini 1819'a koyar; `tepedelenli-ali-pasa` (Kemal Beydilli) Ali Paşa'nın azlini Mart 1820'ye. Bunlar AYRI olaylar olabilir (tayin önce, azil sonra) — çelişki olarak İDDİA EDİLMEDİ, madde yalnız azli tarihliyor. Sayılar (7.000/30-40.000/1,5-2 milyon/4-5 milyon kuruş) Beydilli'nin maddesinden, o da Holland'a dayandırıyor. 🟡 Yanya'nın 1815-1830 arasında hiç kırılması yok — ama bu madde toprak değişimi İDDİA ETMİYOR: Yanya bir Osmanlı valisinin isyanıydı, egemenlik el değiştirmedi. `toprak-*` etiketi bu yüzden YOK.",
   kaynak:"tepedelenli-ali-pasa (TDV, Kemal Beydilli) · hursid-ahmed-pasa (TDV, Cevdet Küçük) · yunanistan (TDV, Mehmet Hacısalihoğlu)",
@@ -837,7 +853,7 @@ window.OLAYLAR_KAMERIKA = [
     "b": "Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu",
     "gun": "3 Temmuz 1868",
     "yer": "Fort Bridger, Wyoming",
-    "yer_id": "Fort Bridger",
+    "yer_id": "Fort Washakie (Wind River)",
     "kisiler": "Şef Washakie, ABD Barış Komisyonu",
     "kapsam": "dis",
     "dunya": 2,
@@ -867,7 +883,7 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "🏛"
     ],
-    "kaynak": "amerika (varlık ve sınır) — TDV amerika birebir: '…Kuzey Amerika’daki sömürgelerini, merkezi Meksika’da olan bir genel valilikle yönetimi altına almıştı. Bu genel valiliğin sınırları Meksika, Yucatan yarımadası ve Guatemala bölgelerini kapsıyordu.' · Kuruluş yılı, 17 Nisan günü ve Mendoza için bulunamadı — TDV amerika vermiyor; gün atlasın yeni-ispanya künyesinin f: alanından devralındı (§4 künye günü devralma kuralı), günün kendisi de kaynaksızdır. · Düzeltme (KITA 14, 13 Eylül 2026, 1.MURAT onayıyla): önceki metin 'Kuzey Amerika’nın güneyinden Filipinler’e uzanan bir idarî çerçeve' diyordu — TDV amerika Filipinler’i anmıyor ve 1535 için anakronik; çıkarıldı. Önceki metnin 'TDV bu coğrafyayı kapsamamaktadır' cümlesi de yanlıştı (TDV amerika genel valiliği anlatıyor); iç notlar kullanıcı metninden bu alana taşındı.",
+    "kaynak": "amerika (varlık ve sınır) — TDV amerika birebir: '…Kuzey Amerika’daki sömürgelerini, merkezi Meksika’da olan bir genel valilikle yönetimi altına almıştı. Bu genel valiliğin sınırları Meksika, Yucatan yarımadası ve Guatemala bölgelerini kapsıyordu.' · Kuruluş yılı, 17 Nisan günü ve Mendoza için bulunamadı — TDV amerika vermiyor; gün devlet künyesinin başlangıç gününden devralındı, günün kendisi de kaynaksızdır. · Düzeltme: önceki metin 'Kuzey Amerika’nın güneyinden Filipinler’e uzanan bir idarî çerçeve' diyordu — TDV amerika Filipinler’i anmıyor ve 1535 için anakronik; çıkarıldı. Önceki metnin 'TDV bu coğrafyayı kapsamamaktadır' cümlesi de yanlıştı (TDV amerika genel valiliği anlatıyor); iç notlar kullanıcı metninden bu alana taşındı.",
     "d": "İspanya kralı V. Karl, fethedilen Meksika topraklarını doğrudan kraliyet idaresine bağlayarak Yeni İspanya Genel Valiliği'ni kurdu ve ilk genel valiliğe Antonio de Mendoza'yı atadı. Bu düzenleme, fâtihlerin şahsî tasarrufuna dayanan düzeni sona erdirdi. Merkezi Meksika'da olan genel valiliğin sınırları Meksika, Yucatan yarımadası ve Guatemala bölgelerini kapsıyordu."
   },
 
@@ -905,7 +921,7 @@ window.OLAYLAR_KAMERIKA = [
     "b": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
     "gun": "17 Eylül 1851",
     "yer": "Fort Laramie, Wyoming",
-    "yer_id": "Fort Laramie",
+    "yer_id": "Crow Agency (Apsáalooke)",
     "kisiler": "ABD Kızılderili İşleri Dairesi, Ova halklarının reisleri",
     "kapsam": "dis",
     "dunya": 2,
@@ -1196,6 +1212,9 @@ window.SAVASLAR_OK104 = [
 //   (d) "Pelekanon (Maltepe)" savaslar.js'te t:"1329-06-10", EKOKUMA_SAVAS3
 //       kartı "1 Haziran 1329 ve ertesi gün" diyor (t:"1329-06-01" civarı) —
 //       9 günlük fark, hangisinin kaynağa dayandığı bu oturumda ÖLÇÜLMEDİ.
+//       ✅ ÇÖZÜLDÜ 14 Ekim 2026 (TEYIT-KARAR-1014, Emre kararı): TDV «Orhan» ham
+//       metni «Savaşın ilk günü (1 Haziran 1329)» der; savaslar.js, kronoloji_bizans
+//       ve bu künye 1329-06-01'e çekildi.
 //   (e) "Kandiye kuşatması" savaslar.js'te yalnız t:"1648-05-01" (21 yıllık
 //       kuşatmanın BAŞLANGICI) taşıyor, `bitis:` alanı YOK. Bu künye 1669'daki
 //       teslim sayılarını (garnizon, tabya) taşıdığı için savas_t alanına
@@ -1223,10 +1242,10 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: osman-i (DİA)", bag_ekokuma:"savas-koyunhisar-bapheus-1302" },
 
-{ id:"kunye-pelekanon-1329", savas_ad:"Pelekanon (Maltepe)", savas_t:"1329-06-10", tur:"meydan",
+{ id:"kunye-pelekanon-1329", savas_ad:"Pelekanon (Maltepe)", savas_t:"1329-06-01", tur:"meydan",
   baslik:"Pelekanon Savaşı (1329)",
   tarih_metin:"1 Haziran 1329 ve ertesi gün (Kantakuzenos'un hatıratına göre)",
-  uyari:"savaslar.js kaydı t:1329-06-10 taşıyor; EKOKUMA_SAVAS3 kartı '1 Haziran ve ertesi gün' diyor — 9 günlük fark bu oturumda çözülmedi, bkz. dosya başı ③(d).",
+  uyari:"14 Ekim 2026 (TEYIT-KARAR-1014): eski savaslar.js t:1329-06-10 TDV «Orhan»a göre 1329-06-01'e çekildi (savaşın ilk günü; asıl çarpışma ertesi gün) — bkz. dosya başı ③(d).",
   taraflar:[
     { ad:"Osmanlı Beyliği", devlet_id:"osmanli", komutan:"Orhan Bey · kardeşi Pazarlu", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"yok", tufek:"yok", gemi:"yok", notlar:"İlk gün yalnız 300 kişilik akıncı öncüsü kaynakta sayılı; ordunun toplamı verilmiyor." },
     { ad:"Bizans İmparatorluğu", devlet_id:"bizans", komutan:"III. Andronikos · Grandomestikos Yuannis Kantakuzenos", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"yok", tufek:"yok", gemi:"yok", notlar:"TDV Orhan maddesindeki '2000 askerden ibaretti' parantezinin hangi tarafa ait olduğu metinden kesin çıkmıyor; bu yüzden tarafa yazılmadı (EKOKUMA_SAVAS3'ün kendi tartışma notu)." }
@@ -1247,6 +1266,7 @@ window.SAVAS_KUNYE_1 = [
   baslik:"Rovine (Argeş) Savaşı (17 Mayıs 1395)",
   tarih_metin:"17 Mayıs 1395 (TDV I. Bayezid maddesi) · TDV Eflak maddesi 1394 der",
   uyari:"iki TDV maddesi (bayezid-i · eflak) savaşın yılında ayrılıyor (1395/1394); taraf seçilmedi (EKOKUMA_SAVAS3'ün kendi notu).",
+  celiski:"TDV'nin iki maddesi savaşın yılında ayrışıyor: bayezid-i 17 Mayıs 1395, eflak 1394. Biri seçilmedi.",
   taraflar:[
     { ad:"Osmanlı Devleti", devlet_id:"osmanli", komutan:"Yıldırım Bayezid", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
     { ad:"Eflak Voyvodalığı", devlet_id:"eflak", komutan:"Voyvoda Mircea ('Koca Mircea'; Osmanlı kaynaklarında 'Mirci', 1386-1418)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
@@ -1307,7 +1327,7 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: gedik-ahmed-pasa · TDV: ii-bayezid · TDV: otranto-seferi", bag_ekokuma:"savas-otranto-1480-1481" },
 
-{ id:"kunye-caldiran-1514", savas_ad:"Çaldıran", savas_t:"1514-08-23", tur:"meydan",
+{ id:"kunye-caldiran-1514", savas_ad:"Çaldıran", savas_t:"1514-08-23", savas_t_ek:["1514-08"], tur:"meydan",
   baslik:"Çaldıran Savaşı (23 Ağustos 1514)",
   tarih_metin:"23 Ağustos 1514",
   taraflar:[
@@ -1319,7 +1339,7 @@ window.SAVAS_KUNYE_1 = [
 { id:"kunye-mercidabik-1516", savas_ad:"Mercidâbık", savas_t:"1516-08-24", tur:"meydan",
   baslik:"Mercidâbık Muharebesi (24 Ağustos 1516)",
   tarih_metin:"24 Ağustos 1516, pazar · 25 Receb 922",
-  uyari:"savaslar.js'te aynı t için 'Mercidabık' (aksansız) adıyla ikinci bir kayıt daha var, bkz. dosya başı ③(b).",
+  uyari:"13 Ekim 2026: savaslar.js'teki aksansız 'Mercidabık' mükerrer kaydı silindi (seri:memluk aksanlı kayda taşındı); künye kalan 'Mercidâbık' kaydına bağlı.",
   taraflar:[
     { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Yavuz Sultan Selim · Vezîriâzam Hadım Sinan Paşa · Anadolu beylerbeyi Zeynel Paşa · Rumeli beylerbeyi Yûsuf (Küçük Sinan) Paşa · Şehsuvaroğlu Ali Bey", mevcut_toplam:"80.000 dolayında", piyade:"bilinmiyor", suvari:"bilinmiyor", top:300, tufek:12000, gemi:"yok", notlar:"300 top arabası; 12.000 tüfekli yeniçeri. Bazı kaynaklar 120.000'e varan rakam verir, TDV 80.000 civarını daha olası bulur." },
     { ad:"Memlük ordusu", komutan:"Sultan Kansu Gavri · Şam nâibi Sıbay · Halep nâibi Hayır Bey", mevcut_toplam:"70.000-80.000 dolayında", piyade:"bilinmiyor", suvari:"ağırlıklı (oran bilinmiyor)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"yaklaşık 2000 asker öldürüldü", notlar:"TDV: ateşli silahlarını savaş düzeninin parçası saymayıp etkili kullanmadılar." }
@@ -1329,7 +1349,7 @@ window.SAVAS_KUNYE_1 = [
 { id:"kunye-ridaniye-1517", savas_ad:"Ridâniye", savas_t:"1517-01-22", tur:"meydan",
   baslik:"Ridâniye Savaşı (22 Ocak 1517)",
   tarih_metin:"22 Ocak 1517 · 28 Zilhicce 922",
-  uyari:"savaslar.js'te aynı t için 'Ridaniye' (aksansız) adıyla ikinci bir kayıt daha var, bkz. dosya başı ③(b).",
+  uyari:"13 Ekim 2026: savaslar.js'teki aksansız 'Ridaniye' mükerrer kaydı silindi (seri:memluk aksanlı kayda taşındı); künye kalan 'Ridâniye' kaydına bağlı.",
   taraflar:[
     { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Yavuz Sultan Selim · Vezîriâzam Hadım Sinan Paşa · Mustafa Paşa · Küçük Sinan Paşa · yeniçeri ağası Ayas Ağa", mevcut_toplam:"son yoklamada 20.000", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"Topçu ve tüfekçi ateşinin Memlük sol kanadını dağıttığı yazılır, sayı verilmiyor." },
     { ad:"Memlük ordusu", komutan:"Sultan Tomanbay · Canbirdi Gazâlî", mevcut_toplam:"yaklaşık 20.000", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"yok", gemi:"yok", kayip:"yaklaşık 4000", notlar:"Toplarının bir kısmı kuma gömülmüştü, hattın dışına çıkınca kullanılamadı." }
@@ -1345,12 +1365,13 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: mohac-muharebesi (DİA 30, 2020, s. 232-235)", bag_ekokuma:"savas-mohac-1526" },
 
-{ id:"kunye-preveze-1538", savas_ad:"Preveze", savas_t:"1538-09-28", tur:"deniz",
+{ id:"kunye-preveze-1538", savas_ad:"Preveze", savas_t:"1538-09-28", savas_t_ek:["1538-09"], tur:"deniz",
   baslik:"Preveze Deniz Muharebesi (27-28 Eylül 1538)",
   tarih_metin:"27-28 Eylül 1538 · asıl çarpışma 4 Cemâziyelevvel 945 (28 Eylül)",
+  celiski:"TDV preveze-deniz-muharebesi ile barbaros-hayreddin-pasa maddeleri ittifak donanmasının büyüklüğünde ayrışır: 140 kalyon + 168 kadırga + 55.000 asker (konu maddesi) ↔ '208 veya 246 gemi' (biyografi maddesi). Osmanlı filosunun 122 gemisinde ikisi hemfikir. Ayrıntılı ve kaynaklı konu maddesi esas alındı; öteki rakam kayıtta açıkça duruyor.",
   taraflar:[
-    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Barbaros Hayreddin Paşa · Turgut Reis · Sâlih Reis · Seydi Ali Reis", mevcut_toplam:"yaklaşık 20.000 asker", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:122, notlar:"122 kadırga." },
-    { ad:"Haçlı ittifakı donanması (İspanya · Papalık · Venedik · Portekiz · Malta · Ceneviz)", komutan:"Andrea Doria · Vincenzo Cappello (Venedik) · Marco Grimani (Papalık)", mevcut_toplam:"yaklaşık 55.000 asker", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yaklaşık 140 kalyon + 168 kadırga", kayip:"kaynaklara göre 128 kalyon", notlar:"Gemi/asker sayıları kaynaklara göre değişir (TDV'nin yaklaşık değerleri)." }
+    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Barbaros Hayreddin Paşa · Turgut Reis · Sâlih Reis · Seydi Ali Reis", mevcut_toplam:"yaklaşık 20.000 asker", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:122, kayip:"TDV barbaros-hayreddin-pasa: 'Türk donanmasının kayıpları oldukça azdı' (sayı yok)", notlar:"122 kadırga (iki TDV maddesi de 122 der; 20.000 asker yalnız preveze-deniz-muharebesi maddesinde). Barbaros 40 kadırgalık donanmayla İstanbul'dan çıkmış, sonradan 90 gemilik ek donanma ve Sâlih Reis'in 20 gemilik Mısır filosu katılmıştı. Kanat düzeni iki maddede ayrışır: preveze-deniz-muharebesi: Barbaros merkez, Sâlih Reis sağ kanat, Seydi Ali Reis sol kanat, Turgut Reis gönüllü reislerin filosuyla arkada; barbaros-hayreddin-pasa: sağ kanat Turgut Reis, sol kanat Sâlih Reis." },
+    { ad:"Haçlı ittifakı donanması (İspanya · Papalık · Venedik · Portekiz · Malta · Ceneviz)", komutan:"Andrea Doria · Vincenzo Cappello (Venedik) · Marco Grimani (Papalık)", mevcut_toplam:"yaklaşık 55.000 asker", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yaklaşık 140 kalyon + 168 kadırga (+ pek çok nakliye gemisi) — preveze-deniz-muharebesi maddesi", kayip:"kalyon türü 128 gemi (preveze-deniz-muharebesi). Aynı savaş için barbaros-hayreddin-pasa: 36 tekne ele geçirildi, 2175 esir", notlar:"ÇELİŞKİ (TDV iki maddesi): ittifak donanmasının büyüklüğü preveze-deniz-muharebesi (DİA 34) maddesinde 140 kalyon (80 İspanya-Portekiz, 10 Venedik, 1 Ceneviz, 49 diğer) + 168 kadırga (70 Venedik, 36 papalık, 10 Malta, 52 Ceneviz) ve 55.000 asker; barbaros-hayreddin-pasa maddesinde '208 veya 246 gemi'. İkisi bağdaşmaz. Rakamları bölük bölük döken, kaynak gösteren (Celâlzâde, Kâtib Çelebi, Bradford) konu maddesi esas alındı; 208/246 yalnız biyografi maddesinin özet cümlesidir. Kayıp rakamları da ayrışır (128 kalyon ↔ 36 tekne ele geçirildi + 2175 esir): ikisi yazıldı, biri seçilmedi." }
   ],
   kaynak:"TDV: preveze-deniz-muharebesi (DİA 34, 2007, s. 343-345)", bag_ekokuma:"savas-preveze-1538" },
 
@@ -1366,9 +1387,10 @@ window.SAVAS_KUNYE_1 = [
 { id:"kunye-inebahti-1571", savas_ad:"İnebahtı (Lepanto)", savas_t:"1571-10-07", tur:"deniz",
   baslik:"İnebahtı Deniz Savaşı (7 Ekim 1571)",
   tarih_metin:"7 Ekim 1571 · 17 Cemâziyelevvel 979",
+  celiski:"TDV'nin iki maddesi Osmanlı gemi kaybında ayrışır: inebahti-deniz-savasi 190 gemi (batmış ya da ele geçirilmiş), inebahti (yer maddesi) '200-250 gemi'. Konu maddesindeki 190 esas alındı (aynı madde 230 gemilik filodan 30'unun kurtulduğunu yazar); 200-250 aralığı kayıtta açıkça duruyor.",
   taraflar:[
-    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Müezzinzâde Ali Paşa · donanma serdarı Pertev Paşa · Cezayir beylerbeyi Uluç Ali Paşa", mevcut_toplam:25000, piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:230, kayip:"yaklaşık 20.000 ölü, ~190 gemi battı ya da ele geçti" },
-    { ad:"Kutsal İttifak donanması (Papalık · Venedik · İspanya)", komutan:"Don Juan (İspanya) · Sebastiano Veniero (Venedik) · Marcantonio Colonna (Papalık)", mevcut_toplam:37000, piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:243, notlar:"İki donanmanın gemi/asker sayıları kaynaklarda oldukça farklı verilir; buradaki TDV'nin yaklaşık değerleridir." }
+    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Müezzinzâde Ali Paşa · donanma serdarı Pertev Paşa · Cezayir beylerbeyi Uluç Ali Paşa", mevcut_toplam:25000, piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:230, kayip:"yaklaşık 20.000 ölü, 3000 esir; 190 gemi batmış ya da ele geçirilmiş, gemilerdeki 15.000 forsa serbest kalmış (inebahti-deniz-savasi). Yer maddesi inebahti ise '200-250 gemi kaybedildi' der", notlar:"ÇELİŞKİ (TDV iki maddesi): konu maddesi inebahti-deniz-savasi (DİA 22, 2000) Osmanlı gemi kaybını 190, yer maddesi inebahti 200-250 yazıyor. Konu maddesi esas alındı: aynı madde Osmanlı donanmasını 'yaklaşık 230 gemi' sayar ve Uluç Ali Paşa'nın 30 gemilik filoyu kurtardığını yazar (230 - 30 ≈ 200); 250'ye varan bir kayıp 230 gemilik filodan fazla olurdu. Yer maddesinin aralığı kayıtta duruyor, seçilmedi. Kaptanıderyâ Müezzinzâde Ali Paşa ve on bir sancak beyi öldü; serdar Pertev Paşa'nın gemisi battı, yaralı kurtuldu." },
+    { ad:"Kutsal İttifak donanması (Papalık · Venedik · İspanya)", komutan:"Don Juan (İspanya) · Sebastiano Veniero (Venedik) · Marcantonio Colonna (Papalık)", mevcut_toplam:37000, piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:243, kayip:"8000 ölü, 21.000 yaralı, 15 kadırga battı ve pek çoğu tahrip oldu; Don Juan yaralandı, Cervantes sol kolunu kaybetti (inebahti-deniz-savasi)", notlar:"İki donanmanın gemi/asker sayıları kaynaklarda oldukça farklı verilir (TDV: 'bilgiler oldukça farklıdır'); buradaki 230 gemi/25.000 savaşçı (Osmanlı) ve 243 gemi/37.000 savaşçı (müttefik) TDV'nin yaklaşık değerleridir." }
   ],
   kaynak:"TDV: inebahti-deniz-savasi (DİA 22, 2000, s. 287-289)", bag_ekokuma:"savas-inebahti-1571" },
 
@@ -1392,15 +1414,105 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: kamanice (Dariusz Kolodziejczyk)", bag_ekokuma:"savas-kamanice-1672" },
 
-{ id:"kunye-ii-viyana-1683", savas_ad:"II. Viyana Kuşatması", savas_t:"1683-09-12", tur:"meydan",
+{ id:"kunye-ii-viyana-1683", savas_ad:"II. Viyana kuşatması", savas_t:"1683-09-12", savas_t_ek:["1683-07-14"], tur:"kusatma",
   baslik:"İkinci Viyana Kuşatması ve Kahlenberg Bozgunu (14 Temmuz - 12 Eylül 1683)",
   tarih_metin:"Kuşatma 14 Temmuz 1683'te başladı, karar savaşı 12 Eylül 1683",
-  uyari:"ÖLÇÜLDÜ: savaslar.js'te bu savaş İKİ AYRI kayıtla geçiyor ve adlar yalnız BÜYÜK/KÜÇÜK HARFLE ayrılıyor — t:1683-07-14 ad:'II. Viyana kuşatması' (küçük k, tur:kusatma, yalnız Habsburg tarafı) ve t:1683-09-12 ad:'II. Viyana Kuşatması' (büyük K, tur:meydan, taraf:[osmanli,habsburg,lehistan], galip:habsburg). Bu künye ikincisine (kararı veren muharebe) bağlandı; ad alanındaki büyük/küçük harf farkı kod açısından İKİ FARKLI STRING'dir (bkz. D054/D064 ailesi — büyük/küçük harf duyarlı arama aynı savaşı ayrı ayrı kaydedebilir).",
+  uyari:"13 Ekim 2026 (SAVAS-2): savaslar.js'te bu savaş İKİ AYRI kayıtla geçiyordu (t:1683-07-14 'II. Viyana kuşatması' kuşatma başı ve t:1683-09-12 'II. Viyana Kuşatması' kararı veren muharebe; adlar yalnız k/K harfiyle ayrılıyordu). Tek kayıtta birleştirildi: t:1683-07-14, bitis:1683-09-12, taraf [osmanli,habsburg,lehistan], galip habsburg. Künye kronolojide hem karar gününe (savas_t) hem kuşatmanın başladığı güne (savas_t_ek) bağlı.",
   taraflar:[
-    { ad:"Osmanlı ordusu (kuşatma + Kahlenberg savunması)", devlet_id:"osmanli", komutan:"Sadrazam Merzifonlu Kara Mustafa Paşa", mevcut_toplam:"TDV'nin verdiği rakam 500.000 (350.000 muharip + 150.000 geri hizmet) — TDV bunun ABARTILI olduğunu belirtir, güvenilir bir alt sınır verilmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"19 kolunburna + yaklaşık 120 şâhî darbzen (kuşatma topçusu)", tufek:"bilinmiyor", gemi:"yok", kayip:"geri çekilirken yaklaşık 300 top ve 15.000'e yakın çadır terk edildi", notlar:"Terk edilen 300 top RAKAMI, savaş öncesi kullanılan topçu mevcuduyla AYNI SAYI DEĞİL — TDV ikisini ayrı verir." },
+    { ad:"Osmanlı ordusu (kuşatma + Kahlenberg savunması)", devlet_id:"osmanli", komutan:"Sadrazam Merzifonlu Kara Mustafa Paşa", mevcut_toplam:"500.000 NAKLEDİLİR (350.000 muharip + 150.000 geri hizmet erbabı) — TDV: 'bunun abartılı olduğu söylenebilir'; güvenilir bir alt sınır verilmez, gerçek mevcut bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"19 kolunburna + yaklaşık 120 şâhî darbzen (kuşatma topçusu)", tufek:"bilinmiyor", gemi:"yok", kayip:"geri çekilirken yaklaşık 300 top ve 15.000'e yakın çadır terk edildi", notlar:"500.000 rakamı TDV'de 'nakledilir' kipiyle geçer ve TDV tarafından abartılı bulunur; yardımcı kuvvetler ve ganimet ümidiyle ordunun peşine takılan manav, bakkal gibi esnaf da bu toplamın içindedir (Silâhdar). Terk edilen 300 top RAKAMI, savaş öncesi kullanılan topçu mevcuduyla AYNI SAYI DEĞİL — TDV ikisini ayrı verir. Kuşatma ağır toplar götürülmeden, planlanmadan başlamıştı." },
     { ad:"Kutsal İttifak kurtarma ordusu (Leh · Avusturya · Alman)", komutan:"Leh Kralı Jan (III.) Sobieski · Dük Charles von Lothringen", mevcut_toplam:"Leh kuvveti 100.000; Avusturya/Alman takviyesiyle birlikte 100.000'i aştı", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"Leh ordusunda yaklaşık 200 (irili ufaklı)", tufek:"bilinmiyor", gemi:"yok" }
   ],
-  kaynak:"TDV: merzifonlu-kara-mustafa-pasa", bag_ekokuma:null }
+  kaynak:"TDV: merzifonlu-kara-mustafa-pasa", bag_ekokuma:null },
+
+// ── 14 Ekim 2026 ek parti (SAVAS-KUNYE, 9 muharebe) ────────────────────────
+// ANT-KART'ın 20'sinde olmayan muharebeler. Her rakam TDV metninden tek tek
+// doğrulandı (scratchpad tdvk). Kaynakta olmayan alan "bilinmiyor"/hiç yazılmadı.
+
+{ id:"kunye-istanbul-1453", savas_ad:"İstanbul kuşatması", savas_t:"1453-05-29", savas_t_ek:["1453-04-06"], tur:"kusatma",
+  baslik:"İstanbul'un fethi (kuşatma 6 Nisan - 29 Mayıs 1453)",
+  tarih_metin:"29 Mayıs 1453 (genel saldırı ve fetih)",
+  uyari:"13 Ekim 2026: savaslar.js'teki iki kayıt (t:1453-04-06 ve t:1453-05-29) tek kayıtta birleştirildi (t:1453-04-06, bitis:1453-05-29). Künye kronolojide hem fetih gününe (savas_t) hem kuşatmanın başladığı güne (savas_t_ek) bağlı.",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"II. Mehmed (Fâtih) · Zağanos Paşa (genel saldırı gününü belirleme yetkisi)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" },
+    { ad:"Bizans (savunma)", devlet_id:"bizans", komutan:"İmparator XI. Konstantinos · Giovanni Giustiniani Longo (savunma başkumandanı)", mevcut_toplam:"8-9.000 (tam kadro)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"3.000'i asıl faal kısım olan Latinlerdi." }
+  ],
+  kaynak:"TDV: mehmed-ii", bag_ekokuma:null },
+
+{ id:"kunye-otlukbeli-1473", savas_ad:"Otlukbeli", savas_t:"1473-08-11", tur:"meydan",
+  baslik:"Otlukbeli Savaşı (11 Ağustos 1473)",
+  tarih_metin:"11 Ağustos 1473",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Fâtih Sultan Mehmed (merkez) · Şehzade Bayezid ve Has Murad Paşa (sağ kol) · Şehzade Mustafa ve Anadolu beylerbeyi Koca Dâvud Paşa (sol kol)", mevcut_toplam:"70.000 ile 100.000 arası", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Akkoyunlu ordusu", devlet_id:"akkoyunlu", komutan:"Uzun Hasan (merkez) · Kör Zeynel Mirza (sağ kol) · Uğurlu Mehmed Mirza (sol kol)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:70000, top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"Ordunun ana gücü 70.000 süvari: 40.000'i mızraklı ve zırhlı, 30.000'i diğer silâhlarla donanmıştı." }
+  ],
+  kaynak:"TDV: otlukbeli-savasi", bag_ekokuma:null },
+
+{ id:"kunye-i-viyana-1529", savas_ad:"I. Viyana kuşatması", savas_t:"1529-09-27", savas_t_ek:["1529-09"], tur:"kusatma",
+  baslik:"I. Viyana kuşatması (1529)",
+  tarih_metin:"27 Eylül 1529 (kuşatmanın başlangıcı)",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Kanûnî Sultan Süleyman · Vezîriâzam İbrâhim Paşa (seraskerlik unvanı 28 Mart 1529)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Habsburg savunması", komutan:"bulunamadı — okunan TDV maddesinde adı geçmiyor", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: suleyman-i", bag_ekokuma:null },
+
+{ id:"kunye-malta-1565", savas_ad:"Malta kuşatması", savas_t:"1565-05-18", tur:"kusatma",
+  baslik:"Malta kuşatması (1565)",
+  tarih_metin:"18 Mayıs 1565 (kuşatmanın başlangıcı)",
+  taraflar:[
+    { ad:"Osmanlı kuvvetleri", devlet_id:"osmanli", komutan:"Serdar Mustafa Paşa · kaptanıderyâ Piyâle Paşa · Trablusgarp beylerbeyi Turgut Paşa (23 Haziran 1565'te öldü) · Cezayir beylerbeyi Hasan Paşa", mevcut_toplam:"35.000 civarı kara askeri (yeniçeriler dahil)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yaklaşık 240" },
+    { ad:"Saint Jean (Malta) şövalyeleri", komutan:"Büyük üstat La Valette · yardım kuvveti: Sicilya Valisi Don Garcia", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"6 Eylül'de Sicilya'dan 8.000 kişilik yardım kuvveti adaya çıktı; savunma kuvvetinin sayısı TDV'de yok." }
+  ],
+  kaynak:"TDV: malta", bag_ekokuma:null },
+
+{ id:"kunye-hotin-1621", savas_ad:"Hotin kuşatması", savas_t:"1621-09-02", savas_t_ek:["1621-10-09"], tur:"kusatma",
+  baslik:"Hotin kuşatması (1621)",
+  tarih_metin:"2 Eylül 1621",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sultan II. Osman (hücumlara bizzat katıldı) · Sadrazam Dilâver Paşa (17 Eylül 1621'den)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Leh-Kazak ordusu", komutan:"Jan Karol Chodkiewicz (Leh-Litvanya ordusunun başında) · Petro Konaševyč-Sahajdačnyj (Ukrayna kazakları)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: hotin · TDV: osman-ii", bag_ekokuma:null },
+
+{ id:"kunye-zenta-1697", savas_ad:"Zenta", savas_t:"1697-09-11", tur:"meydan",
+  baslik:"Zenta Muharebesi (11 Eylül 1697)",
+  tarih_metin:"11 Eylül 1697",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sultan II. Mustafa · Vezîriâzam Elmas Mehmed Paşa (çatışmada öldü)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"Avusturya kaynaklarında 30.000 civarı, bazı Osmanlı kaynaklarında 7-8.000; yaklaşık 4.000 esir" },
+    { ad:"Habsburg ordusu", devlet_id:"habsburg", komutan:"Savoyalı Prens Eugène · Prens Vaudemont (süvari) · Kont Rabutin", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: zenta", bag_ekokuma:null },
+
+{ id:"kunye-prut-1711", savas_ad:"Prut", savas_t:"1711-07-21", savas_t_ek:["1711-07-19"], tur:"meydan",
+  // KUTU-H3-1015: kronolojideki "Prut Zaferi" savaş maddesi t:1711-07-19 (gun metni "21 Temmuz 1711") —
+  // künye yalnız 21 Temmuz'daki antlaşma/rivayet maddelerine bağlıydı, savaş maddesinde görünmüyordu.
+  baslik:"Prut Seferi ve Muharebesi (1711)",
+  tarih_metin:"21 Temmuz 1711",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sadrazam ve serdâr-ı ekrem Baltacı Mehmed Paşa", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Rus ordusu", komutan:"Çar I. Petro", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: baltaci-mehmed-pasa", bag_ekokuma:null },
+
+{ id:"kunye-cesme-1770", savas_ad:"Çeşme (deniz)", savas_t:"1770-07-06", tur:"deniz",
+  baslik:"Çeşme Deniz Muharebesi ve baskını (5-7 Temmuz 1770)",
+  tarih_metin:"6 Temmuz 1770 (Çeşme limanında Osmanlı donanmasının yakılması)",
+  uyari:"13 Ekim 2026: savaslar.js'teki mükerrer 'Çeşme baskını' kaydı silindi; künye kalan 'Çeşme (deniz)' kaydına bağlı.",
+  taraflar:[
+    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Hüsâmeddin Paşa · Cezayirli Hasan Bey (Paşa; sağ kanat) · Rodos beyi Câfer Bey", mevcut_toplam:"bilinmiyor", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", kayip:"limanda otuz kadar gemi ateşe verildi; 5.000 civarı asker kaybedildi" },
+    { ad:"Rus donanması", komutan:"Amiral Spiridov · Aleksey Orlov · İngiliz amirali Elphinston", mevcut_toplam:"bilinmiyor", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" }
+  ],
+  kaynak:"TDV: cesme-vakasi", bag_ekokuma:null },
+
+{ id:"kunye-plevne-1877", savas_ad:"93 Harbi (Plevne)", savas_t:"1877-04-24", tur:"kusatma",
+  baslik:"93 Harbi ve Plevne müdafaası (1877)",
+  tarih_metin:"24 Nisan 1877 (savaşın ilanı); Plevne'ye varış 7 Temmuz, çıkış denemesi 10 Aralık 1877",
+  uyari:"savaslar.js kaydı savaşın başlangıç gününü (24 Nisan) taşıyor; aşağıdaki kuvvet rakamları Plevne müdafaasının Temmuz-Aralık anlarına aittir.",
+  taraflar:[
+    { ad:"Osmanlı ordusu (Plevne)", devlet_id:"osmanli", komutan:"Gazi Osman Paşa (Vidin'den gelen kolordu)", mevcut_toplam:"25.000 (7 Temmuz 1877'de Plevne'ye ulaşan kolordu) · 40.000 (10 Aralık 1877'deki çıkışta ordusu)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Rus-Romen ordusu", komutan:"Aleksandr (TDV: 'bizzat kumanda ettiği' ordu) · General Schilder (8 Temmuz 1877 saldırısı)", mevcut_toplam:"125.000'e çıkarıldı", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: plevne · TDV: gazi-osman-pasa · TDV: doksanuc-harbi", bag_ekokuma:null }
 
 ];
 
@@ -1409,12 +1521,13 @@ window.SAVAS_KUNYE_1 = [
 // -*- coding: utf-8 -*-
 // SEFERLER_P0037 — PAKET-0037 oturumu (Fable), 2 Eylül 2026 · p0037/H-0006
 //
-// 🔴 BU DOSYA index.html'e BAĞLI DEĞİLDİR ve app.js yalnız `window.SEFERLER`i okur (app.js:2675).
-//    Aşağıdaki kayıt, data/savaslar.js:743'teki "Abdülaziz'in Avrupa seyahati (1867)" kaydının
-//    YERİNE GEÇECEK tam hâlidir (aynı ad · aynı tur · aynı f/t; yalnız `yol` dizisi genişledi).
-//    Uygulama koordinatörün (savaslar.js onun): kaydı savaslar.js'te değiştir YA DA app.js:2675'te
-//    `(window.SEFERLER || []).concat(window.SEFERLER_P0037 || [])` ile bağla ve eski kaydı düşür.
-//    İki yol da olur; ikisi birden OLMAZ (mükerrer ok).
+// 🔴 6 Ekim 2026, UMIT-W4-ELLEVERI-1006 — KAYIT data/savaslar.js'e TAŞINDI, bu dizi BOŞ.
+//    Eski not "ikisi birden OLMAZ" diyordu; olan tam oydu: dosya index.html'e bağlandı
+//    (SEFERLER_* toplayıcısı), savaslar.js'teki 5 noktalı eski kayıt da kaldı ⇒ mükerrer ok.
+//    app.js `_mukerrerMi` İLK çizileni (savaslar.js) tuttuğu için bu dosyanın kaynaklı
+//    27 noktalı rotası ELENİYORDU. Şimdi rota + `kaynak` alanı savaslar.js kaydında.
+//    Dosya SİLİNMEDİ: index.html ve paket künyesi onu yüklüyor; boş dizi toplayıcıda 0/0 sayılır.
+//    Aşağıdaki kaynak ve gün gün güzergâh notu BELGE olarak duruyor.
 //
 // EMRE'NİN İSTEĞİ (H-0006): "önce deniz yolu ile nereye çıktı, sonra nereden nereye kara ile gitti,
 // nerede konakladı; adım adım. Ama İstanbul'dan Londra'ya uçmuş gibi olmasın."
@@ -1453,39 +1566,7 @@ window.SAVAS_KUNYE_1 = [
 //
 // Koordinatlar [lon, lat] (savaslar.js `yol` deseni), coğrafî bilgi.
 
-window.SEFERLER_P0037 = [
-{ ad:"Abdülaziz'in Avrupa seyahati (1867)", tur:"seyahat", sonuc:"belirsiz",
-  f:"1867-06-21", t:"1867-08-07",
-  yol:[
-    [28.98,41.01],   // İstanbul — 21 Haz, Sultâniye vapuru (deniz)
-    [26.41,40.15],   // Çanakkale Boğazı (deniz)
-    [22.48,36.40],   // Mora açıkları — 24 Haz (deniz)
-    [15.55,38.19],   // Messina — 25 Haz (deniz)
-    [14.25,40.84],   // Napoli — 28 Haz (deniz)
-    [5.93,43.12],    // Toulon — 29 Haz, KARAYA ÇIKIŞ
-    [5.37,43.30],    // Marsilya (tren)
-    [4.84,45.76],    // Lyon (tren)
-    [2.35,48.86],    // Paris, Lyon Garı — 30 Haz–10 Tem
-    [1.61,50.73],    // Boulogne — 10 Tem (tren), Manş'a biniş
-    [1.31,51.13],    // Dover — 11 Tem (gemi)
-    [-0.13,51.51],   // Londra — 12–23 Tem (tren)
-    [1.31,51.13],    // Dover — 23 Tem (tren)
-    [1.86,50.95],    // Calais — Manş geçişi (VARSAYIM: liman kaynaklarda yazmıyor)
-    [4.35,50.85],    // Brüksel — 24 Tem (tren)
-    [7.59,50.36],    // Koblenz — 24/25 Tem (tren, Ren vadisi), I. Wilhelm
-    [11.08,49.45],   // Nürnberg — 26 Tem (tren)
-    [13.46,48.57],   // Passau — 26/27 Tem (tren)
-    [16.37,48.21],   // Viyana — 27/28–31 Tem
-    [19.04,47.50],   // Peşte — 31 Tem (Tuna vapuru), Budin'de konaklama
-    [19.84,45.25],   // Novi Sad (Tuna)
-    [20.46,44.82],   // Belgrad (Tuna)
-    [22.40,44.72],   // Orşova / Demirkapı (Tuna)
-    [22.87,43.99],   // Vidin — 3 Ağu akşamı (Tuna)
-    [25.97,43.86],   // Rusçuk — 4 Ağu (Tuna)
-    [27.91,43.21],   // Varna — 6 Ağu (Rusçuk-Varna demiryolu)
-    [28.98,41.01]    // İstanbul — 7 Ağu (gemi)
-  ] }
-];
+window.SEFERLER_P0037 = [];
 
 ;
 /* ==== data/seferler_p0064.js ==== */
@@ -1615,14 +1696,14 @@ window.SEFERLER_P0064 = [
 //     1769-74 savaşına Rus tarafında katıldıklarını söylüyor; ayrı bir kol ya da güzergâh bulunamadı
 window.SEFERLER_P0065 = [
 { id:"p0065-golitsin-toplanma-1769", ad:"Golitsın ordusunun Kiev'den Podolya'ya yürüyüşü (1769)", tur:"sefer", sonuc:"belirsiz", taraf:"dusman", devlet:"rusya", renk:"#276727",
-  f:"1769-04-01", t:"1769-04-25",
-  tarih_hassasiyet:"f: AY (ESBE-TVR 'В конце марта' Jülyen ⇒ Gregoryen Nisan başı — gün yok) · t: GÜN (Dinyester harekâtının başı, 14 Nisan Jülyen; savaslar.js rus-golitsin-hotin-1769 ile aynı uç)",
+  f:"1769-04-01", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1769-04-14 (Golitsın'ın Dinyester harekâtı başı; Kashirin, Славяноведение 2024/1 · ESBE «Турецкие войны России», eski takvim) = Gregoryen 1769-04-25 · Jülyen 1769-03-21 (Golitsın ordusunun toplanması; ESBE «Турецкие войны России» 'В конце марта', eski takvim, AY sonu: Mart sonu Jülyen = 1-11 Nisan Gregoryen, m.28 öncesi değer 04-01) = Gregoryen 1769-04-01", t:"1769-04-25",
+  tarih_hassasiyet:"f: AY (ESBE-TVR 'В конце марта' Jülyen — Mart, gün yok) · t: GÜN (Dinyester harekâtının başı, 14 Nisan Jülyen; savaslar.js rus-golitsin-hotin-1769 ile aynı uç) · KUTU-H6-1015: f/t Gregoryen karşılıktan (04-01 / 04-25) Jülyen'e döndürüldü (m.28)",
   kaynak:"ESBE-TVR: \"главная, под начальством кн. Голицына (ок. 65 тыс.), собиралась у Киева\" · \"В конце марта войска главной армия стали сосредоточиваться у Старо-Константинова\" · KASH: \"главные силы 1-й армии А. М. Голицына сосредотачивались в лагере у деревень Минковцы и Антоновка в 40 км к северо-востоку от Каменца-Подольского\" · kamanice (TDV): \"Karlofça Antlaşması'ndan sonra Kamaniçe 1793'e kadar Polonya-Litvanya ittifakında kaldı\" — yol baştan sona Lehistan toprağından geçiyor",
   kesinlik:"Kiev toplanma noktası şehir merkezi; Kiev'den çıkış günü bulunamadı",
   yol:[[30.5238,50.45466],[27.20879,49.75616],[27.106,48.853]] },
 { id:"p0065-panin-bender-1770", ad:"Panin ordusunun Yelisavetgrad'dan Yedisan bozkırı üzerinden Bender'e yürüyüşü (1770)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
-  f:"1770-03-01", t:"1770-09-27",
-  tarih_hassasiyet:"f: AY (VE-PAN 'в мрт. 1770 г. выступает' Jülyen; Gregoryen 12 Mart–11 Nisan arası — gün yok) · t: GÜN (Bender'in alınışı, 16 Eylül Jülyen; ESBE-TVR) — ÇELİŞKİ: VE-PAN hücumu 15 Eylül Jülyen veriyor",
+  f:"1770-03-01", t:"1770-09-27", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1770-09-16 (Bender'in alınışı; ESBE «Турецкие войны России» '16 сентября он овладел Бендерами', eski takvim) = Gregoryen 1770-09-27",
+  tarih_hassasiyet:"f: AY (VE-PAN 'в мрт. 1770 г. выступает' Jülyen; Gregoryen 12 Mart–11 Nisan arası — gün yok) · t: GÜN (Bender'in alınışı, 16 Eylül Jülyen; ESBE-TVR; KUTU-H6-1015: t Gregoryen 09-27'den Jülyen'e döndürüldü, m.28) — ÇELİŞKİ: VE-PAN hücumu 15 Eylül Jülyen veriyor",
   kaynak:"VE-PAN: \"Имея в виду дальн. поход армии из Елисаветград. провинции к Бендерам через степи, со множеством опас. переправ\" · \"в мрт. 1770 г. выступает с армией к Бендерам, в мае сосредоточивает ее у Выси\" · \"Только в сер. июля наша армия подошла к Бендерам\" · ESBE-TVR: \"главные силы 2-й армии в начале июня перешли через Буг и расположились на р. Кодыме\" · \"16 сентября он овладел Бендерами\" · ЭСБЕ «Кодыма»: \"Некогда К. вместе с рекой Мокрым Ягорлыком составляли северную границу пустынной Очаковской степи\" · ЭСБЕ «Балта»: Kodıma'nın öbür yakasındaki Balta \"принадлежала Турции\" · kirim (TDV): \"Kırım hanına ait Balta şehri\"",
   kesinlik:"iki uç arası düz hat; kaynak Vıs ve Kodıma ırmaklarını ve Bug geçişini adlandırıyor ama nokta vermiyor. Yelisavetgrad noktası 'Yelisavetgrad ili'nin temsilî noktasıdır (kale şehri)",
   yol:[[32.26618,48.50834],[29.47671,46.83158]] },
@@ -1633,20 +1714,20 @@ window.SEFERLER_P0065 = [
   kesinlik:"Moloçna noktası ırmağın GeoNames noktasıdır (kaynak 'Молочные Воды' diyor, konak yeri adsız); varış Orkapı'nın bir konak berisindedir, ok Orkapı'da biter. sonuc 'zafer' = Kırım/Osmanlı tarafı hattı tuttu, Rus kolu çekildi",
   yol:[[35.30735,46.70167],[33.69283,46.16056]] },
 { id:"p0065-dolgorukov-kirim-1771", ad:"Dolgorukov ordusunun Orkapı'dan Kefe'ye yürüyüşü — Kırım'ın istilâsı (1771)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
-  f:"1771-06-26", t:"1771-07-01",
+  f:"1771-06-26", t:"1771-07-12", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1771-06-15 (Orkapı garnizonunun teslimi; VE «Перекоп» '15 июня', eski takvim) = Gregoryen 1771-06-26 · Jülyen 1771-07-01 (Kerç, Yenikale, Taman; RBS «Щербатов, Федор Федорович» 'В июле', eski takvim, AY: Jülyen ay başı) = Gregoryen 1771-07-12 · ESKİ (m.28): EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.28): Jülyen gün çevrilmeden yazıldı (eski Gregoryen: f 1771-06-26)",
   tarih_hassasiyet:"f: GÜN (Orkapı garnizonunun teslimi, 15 Haziran Jülyen; hat 14 Haziran Jülyen'de alındı, ordu 17 Haziran Jülyen'de Kırım'a yürüdü) · t: AY (TDV mustafa-iii 'Temmuz 1771' — Kefe'nin günü bulunamadı)",
   kaynak:"RBS-DOL: \"25 мая его армия собралась на речке Маячке и 14-го июня овладела укрепленною линиею у Перекопа\" · \"при Кафе решительную победу над 95 тыс. татаро-турецкою армиею и одним этим успехом принудил к сдаче городов: Арабат, Козлов, Еникале, Керчь и Балаклаву\" · VE-PER: \"12 июня она подошла к П.\" · \"15 июня г-зон крепостцы сдался. Устроив в П. магазины, Долгоруков 17-го двинулся в Крым\" · ESBE-TVR: \"в конце июня овладел Перекопом, а вслед за тем русские войска заняли Кафу (Феодосия) и Козлов (Евпатория)\" · kirim (TDV): \"1771'de Prens Dolgorukov idaresinde Kırım yarımadasını istilâ ettiler\" · mustafa-iii (TDV): \"Rus kuvvetlerinin Memleketeyn'i ve Kırım'ı istilâ etmesi (Temmuz 1771)\" — ÇELİŞKİ: ESBE-DOL Orkapı'yı \"4 июля\", Kefe'yi \"29 июля\" veriyor (kullanılmadı)",
   kesinlik:"iki uç arası düz hat; Orkapı-Kefe arasında kaynakta ara durak yok",
   yol:[[33.69283,46.16056],[35.38153,45.03199]] },
 { id:"p0065-scherbatov-arabat-1771", ad:"Şçerbatov kolunun Geniçesk'ten Arabat okuyla Arabat kalesine yürüyüşü (1771)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
-  f:"1771-06-24", t:"1771-06-29",
+  f:"1771-06-24", t:"1771-06-29", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1771-06-13 (Geniçesk boğazının geçilişi; VE «Арабатская коса» '13 июня', eski takvim) = Gregoryen 1771-06-24 · Jülyen 1771-06-18 (Arabat'ın alınışı; RBS «Щербатов, Федор Федорович», eski takvim) = Gregoryen 1771-06-29 · ESKİ (m.28): EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.28): Jülyen gün çevrilmeden yazıldı (eski Gregoryen: f 1771-06-24 · t 1771-06-29)",
   tarih_hassasiyet:"f: GÜN (Geniçesk boğazının köprüyle geçilişi, 13 Haziran Jülyen; VE-ARA) · t: GÜN (Arabat'ın alınışı, 18 Haziran Jülyen; RBS-SCH — VE-ARA varışı 17 Haziran akşamı veriyor)",
   kaynak:"VE-ARA: \"В 1771 г., в турецкую войну, кн. Щербатову было приказано вторгнуться в Крым через А. косу\" · \"13 июня кн. Щербатов переправился через Генический пролив по мосту (50 саж. дл.) из лодок, доставленных флотом, а на другой день направился вдоль косы к креп. А. Пройдя 100 вер. и сделав в последний день (17 июня) переход в 44 вер., он подошел к А. вечером\" · RBS-SCH: \"следуя скорым маршем через Ганишскую косу, внезапно приблизился к крепости и 18 июня занял ее\" · ESBE-TVR: \"отряд кн. Щербатова, наступавший от Геническа по Арабатской косе, и Азовская флотилия, предводимая Сенявиным\"",
   kesinlik:"orta nokta Arabat okunun GeoNames noktası (kaynakta 'вдоль косы'); Arabat kalesi OSM way/266004143",
   yol:[[34.80861,46.16824],[35.00992,45.69587],[35.47869,45.29564]] },
 { id:"p0065-scherbatov-kerc-1771", ad:"Şçerbatov kolunun Arabat'tan Kerç, Yenikale ve Taman'a yürüyüşü (1771)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
-  f:"1771-06-29", t:"1771-07-12",
-  tarih_hassasiyet:"f: BAĞLI UÇ (Arabat'ın alınışı; çıkış günü bulunamadı) · t: ALT SINIR (RBS-SCH 'В июле' Jülyen ⇒ Gregoryen 12 Temmuz–11 Ağustos; gün YOK, ok en erken olası günde biter)",
+  f:"1771-06-29", t:"1771-07-12", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1771-06-18 (Arabat'ın alınışı; RBS «Щербатов, Федор Федорович», eski takvim) = Gregoryen 1771-06-29 · Jülyen 1771-07-01 (Kerç, Yenikale, Taman; RBS «Щербатов, Федор Федорович» 'В июле', eski takvim, AY: Jülyen ay başı) = Gregoryen 1771-07-12 · ESKİ (m.28): EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.28): Jülyen gün çevrilmeden yazıldı (eski Gregoryen: f 1771-06-29 · t 1771-07-12)",
+  tarih_hassasiyet:"f: BAĞLI UÇ (Arabat'ın alınışı; çıkış günü bulunamadı) · t: AY (RBS-SCH 'В июле' Jülyen — Temmuz başı yazıldı; gün YOK, ok en erken olası günde biter)",
   kaynak:"RBS-SCH: \"В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань\" · ЭСБЕ «Керчь»: \"Русские вновь овладели К. в 1771 г.\" · VE «Керчь»: \"В 1771 г. К. завоевали русские и, по Кучук-Кайнарджийск. миру, К. и Еникале перешли во владение России\"",
   kesinlik:"istasyon sırası kaynaktaki sayım sırasıdır (Kerç · Yenikale · Taman); sırayla yürüdüğü AYRICA yazılmıyor. Yenikale→Taman boğaz geçişidir",
   yol:[[35.47869,45.29564],[36.47542,45.35675],[36.6045,45.35099],[36.71609,45.2117]] }
@@ -1850,7 +1931,7 @@ window.SEFERLER_SEFER_OK_0075 = [
   f:"1828-10-01", t:"1828-10-05",
   tarih_hassasiyet:"AY — atlas kronolojisi 'Ekim 1828' (data/olaylar_ek4.js:156, madde günü 1828-10-05); TDV mora: 'sonbaharında' — gün kaynakta YOK",
   kaynak:"TDV ibrahim-pasa-kavalali: \"İbrâhim Paşa'ya Mora'nın tahliyesi için emir gönderdi\" (6 Ağustos 1828'den sonra) · TDV mora: \"1828'in sonbaharında İbrâhim Paşa Mora'dan çekildi\"",
-  kesinlik:"İSTASYON yalnız iki uç: Mora (Modon — atlasın 'Mora çıkarması (1825)' kaydındaki çıkış limanı) ve Girit (Kandiye — Emre'nin tarifi 'moradan dışarı girite doğru'). TDV ne limanı ne varış yerini söylüyor (bulunamadı); ok çekilişin YÖNÜNÜ temsil eder. `rota` kıyıyı dolanan ÇİZİM ara noktalarıdır (Tenaron/Matapan burnunun ve Kithira'nın güneyi), iddia değil.",
+  kesinlik:"İSTASYON yalnız iki uç: Mora (Modon — atlasın 'Mora çıkarması (1825)' kaydındaki çıkış limanı) ve Girit (Kandiye — Mora'dan Girit'e doğru çekiliş). TDV ne limanı ne varış yerini söylüyor (bulunamadı); ok çekilişin YÖNÜNÜ temsil eder. `rota` kıyıyı dolanan ÇİZİM ara noktalarıdır (Tenaron/Matapan burnunun ve Kithira'nın güneyi), iddia değil.",
   yol:[[21.7,36.82],[25.13,35.34]],
   rota:[[21.7,36.82],[22.945,36.045],[25.135,35.415],[25.13,35.34]] },
 
@@ -1860,7 +1941,7 @@ window.SEFERLER_SEFER_OK_0075 = [
   f:"1836-01-01", t:"1836-01-01",
   tarih_hassasiyet:"YIL — TDV silistre yalnız yıl verir ('1836'ya kadar'); gün bulunamadı, §4 gereği 1836-01-01 (atlas kronolojisi de aynı: data/olaylar_p0056.js:150)",
   kaynak:"TDV silistre: \"Ruslar 1836'ya kadar Silistre'yi ellerinde tuttular\" · \"Rus askerlerinin şehri boşaltmasının ardından Vali Selim Paşa\"",
-  kesinlik:"YALNIZ ÇIKIŞ NOKTASI kaynaklı (Silistre). TDV çekilişin nereye yapıldığını, hangi yolla ve hangi günlerde olduğunu söylemiyor (bulunamadı). Ok Tuna'nın karşı yakasına (kuzeye) ~20 km uzanan ŞEMATİK bir yön işaretidir; varış noktası bir İDDİA DEĞİLDİR. Emre H-0023: 'tahliye oku ile boşaltmayı temsil edelim'.",
+  kesinlik:"YALNIZ ÇIKIŞ NOKTASI kaynaklı (Silistre). TDV çekilişin nereye yapıldığını, hangi yolla ve hangi günlerde olduğunu söylemiyor (bulunamadı). Ok Tuna'nın karşı yakasına (kuzeye) ~20 km uzanan ŞEMATİK bir yön işaretidir; varış noktası bir İDDİA DEĞİLDİR. Ok, boşaltmayı temsil eden şematik bir tahliye okudur.",
   yol:[[27.26,44.117],[27.37,44.30]] },
 
 { id:"p0075-misir-suriye-cukurova-tahliye-1841",
@@ -1868,7 +1949,7 @@ window.SEFERLER_SEFER_OK_0075 = [
   tur:"tahliye", sonuc:"belirsiz", devlet:"misir-kavalali",
   f:"1841-02-01", t:"1841-02-25",
   tarih_hassasiyet:"AY — atlas kronolojisi 'Şubat 1841' (data/olaylar_ek4.js:276 ve data/kronoloji_misir.js:215, madde günü 1841-02-25); TDV ibrahim-pasa-kavalali yalnız emri verir (27 Kasım 1840)",
-  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\"",
+  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\" [TDV slug: ibrahim-pasa-kavalali (alıntı doğrulanmadı)]",
   kesinlik:"İSTASYONLAR (Adana, Belen, Halep, Humus, Şam, Gazze, Kahire) 1831-33 işgal güzergâhının ('Suriye harekâtı (1831-32)' + 'Anadolu ilerleyişi (1832-33)' kayıtları) TERSİDİR; dönüş yolunun KENDİ kaynağı yok — TDV yalnız 'geri çekmek üzere emirler verdi' der. Sıra ve uçlar temsilîdir; günler yalnız AY (Şubat 1841).",
   yol:[[35.32,37.0],[36.2,36.52],[37.16,36.2],[36.71,34.73],[36.29,33.51],[34.47,31.5],[31.24,30.05]] }
 
@@ -1884,7 +1965,13 @@ window.SEFERLER_SEFER_OK_0075 = [
 // AD ALANI (§7): data/seferler_p0074.js → window.SEFERLER_P0074. index.html satırı
 // koordinatörün; bağlanmadan CANLI DEĞİLDİR (D099).
 //
-// 🔴 ANAPA İÇİN OK YAZILMADI ve sebebi ölçüldü. Emre'nin maddesi (H-0011)
+// 🟢 15 Ekim 2026 GÜNCELLEME (KARAR-UYG-1015, KAYNAK-1015/G1 0074/H-0011): aşağıdaki "yazılmadı"
+// hükmü TDV'ye göreydi. Güzergâhı veren akademik kaynak bulundu — Lukyanoviç N. A., Описание
+// Турецкой войны 1828 и 1829 годов, Ч.1 (SPb 1844) s.164 (sayfa görüntüsü okundu): Greig'in filosu
+// 21 Nisan'da Sivastopol'dan çıktı, 2 Mayıs'ta Anapa'ya vardı; ertesi gün Taman yarımadasından
+// Perovski'nin kolu geldi. İKİ OK yazıldı (dosyanın sonunda). Teslim günü TDV'nin Gregoryen
+// 24 Haziran 1828'i (Lukyanoviç 12 Haziran J) — DOKUNULMADI.
+// ESKİ HÜKÜM (TDV'ye göre): ANAPA İÇİN OK YAZILMADI ve sebebi ölçüldü. Emre'nin maddesi (H-0011)
 // "24 Haziran 1828 — Anapa'nın Osman Paşa tarafından Ruslara teslimi" idi.
 // TDV `anapa` teslim GÜNÜNÜ veriyor — *"Osman Paşa 24 Haziran 1828'de Ruslar'a
 // teslim oldu."* — ama Rus kuvvetlerinin NEREDEN ve NASIL geldiğini SÖYLEMİYOR.
@@ -1904,11 +1991,31 @@ window.SEFERLER_P0074 = [
 { id:"p0074-dibic-silistre-edirne-1829",
   ad:"General Diebitsch'in Silistre'den Edirne'ye ilerleyişi (1829)",
   tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya",
-  f:"1829-06-30", t:"1829-08-22",
-  tarih_hassasiyet:"f: GÜN — Silistre'nin Dibiç'e teslimi (kronoloji maddesi 1829-06-30; TDV ilerleyişin Silistre'nin alınmasından SONRA başladığını söylüyor, çıkış günü ayrıca verilmiyor) · t: GÜN — Rus kuvvetlerinin Edirne'ye girişi",
+  f:"1829-06-30", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1829-06-18 (Silistre'nin teslimi; ESBE «Турецкие войны России» '18 июня крепость эта сдалась', eski takvim) = Gregoryen 1829-06-30", t:"1829-08-22",
+  tarih_hassasiyet:"f: GÜN — Silistre'nin Dibiç'e teslimi (kronoloji maddesi 1829-06-18 — ESBE 18 Haziran J; KUTU-H6-1015 eski G 1829-06-30'dan döndürdü, m.28; TDV ilerleyişin Silistre'nin alınmasından SONRA başladığını söylüyor, çıkış günü ayrıca verilmiyor) · t: GÜN — Rus kuvvetlerinin Edirne'ye girişi",
   kaynak:"edirne-antlasmasi (TDV): \"Silistre'yi ele geçiren General Diebitch Edirne'ye doğru ilerlemeye başlamış\" · \"Edirne önündeki Rus kuvvetleri herhangi bir mukavemetle karşılaşmadan şehre girmişler (22 Ağustos 1829), Kırklareli ile Lüleburgaz'ı da işgal etmişlerdi\"",
   kesinlik:"İSTASYON yalnız iki uç: Silistre ve Edirne. Kırklareli ile Lüleburgaz kaynakta ADIYLA geçiyor ama SIRASI ve GÜNÜ yok — üstelik Lüleburgaz Edirne'nin doğusunda kalıyor, yani 'yol üstünde' varsaymak güzergâhı UYDURMAK olurdu; ikisi de yola KONMADI. Ara menziller (Şumnu, Aydos, Karnabat) bu cümlelerde geçmiyor.",
-  yol:[[27.26,44.117],[26.556,41.677]] }
+  yol:[[27.26,44.117],[26.556,41.677]] },
+
+{ id:"p0074-greig-sivastopol-anapa-1828",
+  ad:"Greig filosunun Sivastopol'dan Anapa'ya seferi (1828)",
+  tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya",
+  f:"1828-05-03", t:"1828-05-14",
+  tarih_hassasiyet:"f/t GÜN — Lukyanoviç Jülyen 21 Nisan (çıkış) / 2 Mayıs (varış) = Gregoryen 3 Mayıs / 14 Mayıs 1828 (EMRE KARARI #10 (KARARLAR-EMRE-1015): Jülyen gün +12 ile Gregoryen'e çevrildi)",
+  ic_not_takvim:"Jülyen 21 Nisan 1828 (Lukyanoviç) = Gregoryen 3 Mayıs 1828 · Jülyen 2 Mayıs 1828 = Gregoryen 14 Mayıs 1828",
+  kaynak:"Lukyanoviç N. A., Описание Турецкой войны 1828 и 1829 годов, Ч.1 (SPb 1844) s.164: 'эскадра Черноморскаго флота, подъ начальствомъ вице-адмирала Грейга, Апрѣля 21-го, вышла изъ Севастополя. Задержанная противными вѣтрами, она прибыла къ Анапѣ Мая 2-го' · Sytin VE «Анапа»: filo Menşikov'un çıkarma kuvvetiyle gönderildi · KAYNAK-1015/G1 · KARAR-UYG-1015",
+  kesinlik:"deniz rotası düz çizgi: kaynak ara durak vermiyor. Uçlar atlasın kendi noktaları (Akyar (Sivastopol) · Anapa).",
+  yol:[[33.5254,44.6138],[37.316,44.894]] },
+
+{ id:"p0074-perovski-taman-anapa-1828",
+  ad:"Perovski kolunun Taman yarımadasından Anapa'ya yürüyüşü (1828)",
+  tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya",
+  f:"1828-05-15", t:"1828-05-15",
+  tarih_hassasiyet:"t GÜN — Lukyanoviç: filonun varışının ertesi günü (Jülyen 3 Mayıs = Gregoryen 15 Mayıs 1828); ÇIKIŞ günü kaynakta YOK, f = t (EMRE KARARI #10 (KARARLAR-EMRE-1015): Jülyen gün +12 ile Gregoryen'e çevrildi)",
+  ic_not_takvim:"Jülyen 3 Mayıs 1828 (Lukyanoviç) = Gregoryen 15 Mayıs 1828",
+  kaynak:"Lukyanoviç N. A., Описание Турецкой войны 1828 и 1829 годов, Ч.1 (SPb 1844) s.164: 'На другой день пришелъ къ ней съ полуострова Тамана небольшой отрядъ пѣхоты, подъ командою флигель-адъютанта, полковника Перовскаго' (Karadeniz Kazak alayları, Taman garnizon alayı) · KAYNAK-1015/G1 · KARAR-UYG-1015",
+  kesinlik:"Taman noktası 'Taman yarımadası'nın TEMSİLCİSİDİR — kaynak yarımadadaki çıkış yerini vermiyor; düz çizgi.",
+  yol:[[36.7172,45.2029],[37.316,44.894]] }
 
 ];
 
@@ -1918,7 +2025,8 @@ window.SEFERLER_P0074 = [
 // SEFERLER_P0077 — SEFER-OK-0077 oturumu, 27 Eylül 2026 · PAKET-0077
 // Konu: Birinci Dünya Savaşı harekât okları — H-0016 Karadeniz Baskını · H-0018
 // Sarıkamış · H-0019 Birinci Kanal Harekâtı · H-0044 Kafkasya 1918 ilerleyişi.
-// (H-0047 Mondros sonrası: OK YAZILMADI — gerekçesi denetim/SEFER-OK-0077.md.)
+// (H-0047 Mondros sonrası: 27 Eyl'de yazılmamıştı — denetim/SEFER-OK-0077.md; KUTU27-1016'da
+//  kaynağı ADIYLA çıkış veren 4 ok eklendi, dosya sonunda.)
 //
 // OKUYUCU: js/app.js seferKayitlariniTopla() — /^SEFERLER(_[A-Za-z0-9_]+)?$/ deseni.
 // AD ALANI (§7): data/seferler_p0077.js → window.SEFERLER_P0077.
@@ -2075,7 +2183,75 @@ window.SEFERLER_P0077 = [
   tarih_hassasiyet:"f / kademe 1 (Göyçay): GÜN — Göyçay muharebeleri 17-30 Haziran 1918 (Türkmen s. 32) · Ağsu: gün YOK (muharebe adıyla geçiyor) ⇒ kademe verilmedi, ok Şamahı'ya atlarken üzerinden geçer · kademe 3 (Şamahı): GÜN — 21 Temmuz 1918 (Türkmen s. 33) · kademe 4 / t (Bakü): GÜN — 15 Eylül 1918 (TDV azerbaycan; Türkmen)",
   kaynak:"azerbaycan (TDV): \"Nûri Paşa kumandasındaki Kafkasya İslâm Ordusu Ruslar'ın elindeki Bakü'yü ele geçirdi (15 Eylül 1918)\" · Türkmen 2018 (TDA 235), s. 32: \"Gence'den Bakü'ye uzanan yol üzerindeki Gökçay yakınlarında 17 Haziran tarihinden 30 Haziran 1918'e kadar süren muharebelerde\" · s. 33: \"önce ilk istikamet olarak Gökçay-Şamahı-Bakü karayolu, ikinci istikamet olarak Gence-Bakü demiryolu boyunca ilerlemeye devam etmiştir. Aksu'da cereyan eden muharebelerde\" · \"21 Temmuz 1918 tarihinde ordu birlikleri Şamahı'nın denetimini ele almış\"",
   kesinlik:"İSTASYON: Gence → Göyçay → Ağsu → Şamahı → Bakü — kaynağın 'ilk istikamet' dediği KARAYOLU ekseni. İkinci eksen (Gence-Bakü demiryolu, Kürdemir) ve Salyan kolu AYRI OK OLARAK YAZILMADI: istasyon günleri bu makalede verilmiyor. 23 Temmuz'da 'Bakü'nün 70 kilometre kadar yakınına' varış noktası adıyla verilmediği için kademe olmadı.",
-  yol:[[46.360,40.683],[47.741,40.649],[48.394,40.568],[48.641,40.632],[49.867,40.372]] }
+  yol:[[46.360,40.683],[47.741,40.649],[48.394,40.568],[48.641,40.632],[49.867,40.372]] },
+
+// ───────── H-0054 · MUSTAFA KEMAL'İN SAMSUN YOLCULUĞU (16-19 Mayıs 1919) ─────────
+// KUTU-D-1014 (Emre: "Mustafa Kemal'in Samsun yolculuğunu bir sefer oku ile gösterelim,
+// denizden geçen ve Samsun'a inen"). Ek okuma yüzü zaten var (ekokuma_p77b.js
+// p77b-mustafa-kemal-samsun-yolculugu-1919). f: TDV "İzmir'in işgal edildiğinin ertesi
+// günü" — İzmir'in işgali 15 Mayıs 1919 (TDV izmir) ⇒ 16 Mayıs. t: "19 Mayıs 1919
+// sabahı Samsun'a ulaştı" (kronoloji: olaylar.js 1919-05-19 "Mustafa Kemal Samsun'da").
+// Vapurun ara uğrakları kaynakta YOK ⇒ yol yalnız İstanbul · Boğaz ağzı (coğrafî
+// zorunluluk) · Samsun. `rota` ARAC-SEFER-OK-DENIZ-ROTA-0075.py çıktısı (ne_10m_land,
+// kara 394 → 0 km): kıyı açığından çizim hattıdır, seyir iddiası DEĞİL.
+{ id:"p0077-mustafa-kemal-samsun-1919",
+  ad:"Mustafa Kemal'in Bandırma vapuruyla Samsun'a yolculuğu (1919)",
+  tur:"deniz", sonuc:"zafer", taraf:"osmanli", devlet:"osmanli",
+  f:"1919-05-16", t:"1919-05-19",
+  tarih_hassasiyet:"f: GÜN — TDV mustafa-kemal-ataturk 'İzmir'in işgal edildiğinin ertesi günü' + TDV izmir '15 Mayıs 1919'da başlayıp 9 Eylül 1922'ye kadar süren Yunan işgali' ⇒ 16 Mayıs · t: GÜN — '19 Mayıs 1919 sabahı Samsun'a ulaştı'",
+  kaynak:"mustafa-kemal-ataturk (TDV): \"İzmir'in işgal edildiğinin ertesi günü maiyetindeki on yedi subayla birlikte Bandırma vapuruyla İstanbul'dan hareket eden Mustafa Kemal 19 Mayıs 1919 sabahı Samsun'a ulaştı.\" · samsun (TDV): \"Mustafa Kemal Paşa'nın maiyetiyle 19 Mayıs 1919'da Millî Mücadele'yi başlatmak üzere Samsun'a çıkışı\"",
+  kesinlik:"İSTASYON yalnız iki uç (İstanbul, Samsun) + Boğaz ağzı (coğrafî zorunluluk). Ara uğraklar kaynakta yok; rota şematik kıyı açığı hattı.",
+  yol:[[28.980,41.008],[29.15,41.25],[36.331,41.286]],
+  rota:[[28.98,41.008],[29.15,41.25],[33.515,42.075],[35.075,42.135],[36.155,41.685],[36.331,41.286]] },
+
+// ───────── H-0047 · MONDROS SONRASI İTİLAF İŞGAL OKLARI (KUTU27-1016) ─────────
+// SEFER-OK-0077 §3 "çıkış yeri kaynakta yok" diye yazmamıştı. KAYNAK-1015/G5 çıkış
+// cümlelerini buldu; KUTU27-1016 her cümleyi PDF/TDV gövdesinden YENİDEN OKUDU (16 Ekim 2026).
+// Yalnız kaynağın ADIYLA verdiği çıkış yeri çizildi. YAZILMAYANLAR: Birecik→Urfa
+// (Can ch03 s.71 yalnız SIRA veriyor: "sırasıyla 15 Ocak 1919'da Antep'i, 22 Şubat
+// 1919'da Maraş'ı, 27 Şubat 1919'da Birecik" — güzergâh cümlesi değil, Emre kararı
+// bekliyor) · İstanbul/Çanakkale · Batum · Kars · Maraş (çıkış yeri bulunamadı).
+// ⚠️ ÇELİŞKİ (aynı yazar): Can ch03 s.71 Antep'in İngiliz işgalini 15 Ocak 1919'a,
+// Can ch05 s.139/141 ve TDV gaziantep 17 Aralık 1918'e koyuyor — TDV esas alındı.
+// Uçlar atlasın yerleşim noktaları (Halep, Antep, Adana, Urfa, Bağdat, Musul,
+// İskenderun); İskenderun deniz ucu ŞEMATİK (körfezde kıyıdan ~17 km açık, ne_10m_land
+// dışı ölçüldü), Coutelas'ın geldiği yer kaynakta YOK.
+
+{ id:"p0077-ingiliz-halep-antep-1918",
+  ad:"İngiliz birliklerinin Halep'ten Antep'e kaydırılması (1918)",
+  tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"ingiltere",
+  f:"1918-12-17", t:"1918-12-17",
+  tarih_hassasiyet:"f=t: GÜN — Can ch05 '17 Aralık 1918'den itibaren' ve TDV gaziantep '17 Aralık 1918'de İngilizler şehre girdiler'; Halep'ten ayrılış günü kaynakta YOK",
+  kaynak:"Mustafa Can, TÜBA Millî Mücadele'nin Yerel Tarihi 1918-1923 (ISBN 978-625-8352-66-5), ch05 'Antep'in İşgali ve Kurtuluşu' s.141: \"Halep'i işgal eden İngilizler, birliklerini 17 Aralık 1918'den itibaren stratejik açıdan önemli gördükleri Antep'e kaydırdılar.\" · gaziantep (TDV): \"I. Dünya Savaşı'ndan sonra ilk olarak 17 Aralık 1918'de İngilizler şehre girdiler.\"",
+  kesinlik:"İSTASYON yalnız iki uç: Halep (çıkış, kaynakta ADIYLA) → Antep. Ara güzergâh (Kilis?) kaynakta YOK; ok iki uçlu, kavis güzergâh iddiası değil.",
+  yol:[[37.161,36.202],[37.383,37.066]] },
+
+{ id:"p0077-fransiz-adana-urfa-1919",
+  ad:"Adana'daki Fransız birliğinin Urfa'yı İngilizlerden devralması (1919)",
+  tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"fransa-cumhuriyet",
+  f:"1919-10-30", t:"1919-10-30",
+  tarih_hassasiyet:"f=t: GÜN — Can ch03 s.69/74: 'Urfa'daki İngiliz işgali, 30 Ekim 1919'da yerini Fransız işgaline bıraktı'; birliğin Adana'dan ayrılış günü kaynakta YOK",
+  kaynak:"Mustafa Can, TÜBA Millî Mücadele'nin Yerel Tarihi 1918-1923 (ISBN 978-625-8352-66-5), ch03 'Urfa'nın İşgali ve Kurtuluşu' s.76: \"Urfa'ya gelen Fransız askerleri, Adana'daki 156. Fransız Tümeni'nin 412. Alayı'nın 1. Taburu'nu oluşturuyordu.\" · s.74: \"Urfa'daki İngiliz işgali de 30 Ekim 1919'da yerini Fransız işgaline bıraktı.\"",
+  kesinlik:"ÇIKIŞ = birliğin bağlı olduğu tümenin KARARGÂHI (Adana) — kaynak birliğin Adana'dan geldiğini tümen aidiyetiyle söylüyor, yürüyüş güzergâhını vermiyor. İki uçlu ok, kavis güzergâh iddiası değil. ⚠️ Atlasın Urfa isg: fransa penceresi 1919-10-29'da başlıyor (kaynak 30 Ekim) — 1 gün fark, ayrı kalem.",
+  yol:[[35.321,37.000],[38.796,37.159]] },
+
+{ id:"p0077-ingiliz-bagdat-musul-1918",
+  ad:"İngilizlerin Bağdat'tan Musul'a ilerleyip şehri işgali (1918)",
+  tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"ingiltere",
+  f:"1918-11-01", t:"1918-11-08",
+  tarih_hassasiyet:"f: GÜN — Hut ch13 dn.4 'General Marshall'ın emriyle 1 Kasım'da başlayan işgal' (Jaeschke'ye dayanarak) · t: GÜN — '8 Kasım'da tamamlanmıştı'; TDV musul--irak '8 (veya 10) Kasım 1918' — kaynak içi belirsizlik beyanlı, 8 alındı",
+  kaynak:"Davut Hut, TÜBA Millî Mücadele'nin Yerel Tarihi 1918-1923 (ISBN 978-625-8352-71-9), ch13 s.476: \"Basra'dan başlayarak Bağdat ve Musul'a doğru Osmanlı Irak'ını işgale başlamıştı\" · \"8 Kasım 1918'de tamamlanan Musul'un işgali\" · dn.4: \"İngiliz General Marshall'ın emriyle 1 Kasım'da başlayan işgal 8 Kasım'da tamamlanmıştı (Gotthard Jaeschke, Türk Kurtuluş Savaşı Kronolojisi)\" · musul--irak (TDV): \"İngilizler, ateşkes antlaşmasına ve devletler hukuku kurallarına aykırı olarak 8 (veya 10) Kasım 1918'de Musul'a girdi.\"",
+  kesinlik:"İSTASYON: Bağdat → Musul — kaynağın 'Basra'dan başlayarak Bağdat ve Musul'a doğru' eksenidir. Bağdat 1917'den beri İngiliz (TDV musul--irak '11 Mart 1917'de Bağdat İngilizler tarafından işgal edildi'); ok yalnız Kasım 1918 bacağını çizer. Ara mevziler (Şerkat vb.) kaynakta ADIYLA yok ⇒ yazılmadı.",
+  yol:[[44.361,33.340],[43.130,36.340]] },
+
+{ id:"p0077-fransiz-iskenderun-cikarma-1918",
+  ad:"Fransız birliğinin Coutelas gemisinden İskenderun'a çıkışı (1918)",
+  tur:"deniz", sonuc:"yenilgi", taraf:"dusman", devlet:"fransa-cumhuriyet",
+  f:"1918-11-10", t:"1918-11-10",
+  tarih_hassasiyet:"f=t: GÜN — TDV iskenderun '10 Kasım 1918 tarihinde'; asıl kuvvetlerin çıkışı 14 Kasım (ayrı kademe değil)",
+  kaynak:"iskenderun (TDV): \"harbin sonlarında 9 Kasım 1918'de İngilizler tarafından işgal edildi. İtilâf devletleri arasındaki gizli anlaşmaların sonucu olarak 10 Kasım 1918 tarihinde Coutelas adlı Fransız savaş gemisinden karaya çıkan ilk Fransız askerî birliği İskenderun'a girdi. 14 Kasım'da da asıl Fransız kuvvetleri şehre çıkmaya başladı.\"",
+  kesinlik:"ÇIKIŞ = DENİZ (kaynak: gemiden karaya çıkış). Deniz ucu [35.98,36.68] ŞEMATİK çizim noktasıdır (körfez içi, kıyıdan ~17 km); geminin geldiği liman kaynakta YOK. 9 Kasım İngiliz işgalinin çıkış yeri kaynakta YOK ⇒ ok yazılmadı.",
+  yol:[[35.98,36.68],[36.173,36.587]] }
 
 ];
 

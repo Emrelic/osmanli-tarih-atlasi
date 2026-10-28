@@ -306,13 +306,13 @@ window.SEHIRLER = [
   yapilar:"Bayraklı Camii (günümüze ulaşan tek Osmanlı dönemi camisi), kale içindeki idarî ve askerî yapılar, Sûk-ı Sultânî.",
   kaynak:"belgrad" },
 { ad:"Semendire",  tur:"kale",  lat:44.663, lon:20.930,
-  k:[{f:"1439-08-27",t:"1444-08-01",d:1,y:"kusatma"},{f:"1459-06-20",t:"1717-08-18",d:1,y:"kusatma"}],
+  k:[{f:"1439-08-27",t:"1444-08-15",d:1,y:"kusatma"},{f:"1459-06-20",t:"1717-08-18",d:1,y:"kusatma"}],
   koken:"Antik dönemde 'Mons Aureus' denirdi; bugünkü Sırpça adı Smederevo'dur.",
   onem:"Tuna'nın sağ kıyısında, Belgrad'ın doğusunda, ana yol güzergâhında bulunması ekonomik ve askerî açıdan kritik bir nokta yaptı.",
   tarihce:"Sırp Despotu Curac Brankoviç'in elindeyken Osmanlı 1439'da fethetti; sonraki yüzyıllarda Osmanlı, Macar ve Avusturya arasında sık sık el değiştirdi.",
   yapilar:"Despot Đurađ Sarayı, Yahyâpaşazâde Bâlî Bey Türbesi, Kızlar Ağası Hamamı, otuz kuleli kale surları.",
   kaynak:"semendire" },
-{ ad:"Budin",      tur:"sehir", lat:47.498, lon:19.040,
+{ ad:"Aquincum-Óbuda-Pest",      tur:"sehir", lat:47.498, lon:19.040,
   k:[{f:"1541-08-29",t:"1686-09-02",d:2,y:"antlasma"}],
   koken:"Bugünkü Budapeşte'nin Tuna'nın sağ kıyısındaki 'Buda' kesimi için Osmanlı dönemi adı.",
   onem:"Macaristan'ın kuzeyinde, Tuna'nın sağ kıyısında, önemli ticaret yolları üzerinde bir eyalet merkezi ve ileri karakoluydu.",
@@ -348,7 +348,7 @@ window.SEHIRLER = [
   yapilar:"Arslan Paşa Külliyesi (1618, cami-medrese-hamam), Fethiye Camii.",
   kaynak:"yanya" },
 { ad:"Kandiye",    tur:"liman", lat:35.339, lon:25.133,
-  k:[{f:"1669-09-27",t:"1898-12-01",d:1,y:"kusatma"}],
+  k:[{f:"1669-09-27",t:"1898-12-22",d:1,y:"kusatma"}],
   koken:"Arapların kaleye verdiği 'Rabazulhendek'/'Hendek' adından; Rumca/İtalyanca 'Kandaka'/'Kandika' üzerinden Avrupa kaynaklarında 'Candia' oldu.",
   onem:"Girit'in en büyük şehri; Venedik idaresinde Avrupa-Asya-Uzak Doğu ticaretini birleştiren bir liman, şarap-zeytinyağı-peynir-bal ihracatının merkeziydi.",
   tarihce:"Arap hâkimiyeti (827-961), Bizans ve Venedik'ten sonra, yaklaşık yirmi üç yıl süren bir abluka ve kuşatmayla 6 Eylül 1669'da Osmanlı'ya teslim oldu.",
@@ -400,7 +400,7 @@ window.SEHIRLER = [
   yapilar:"Kare planlı iç kale, kale kumandanının sarayı, kütüphane, mektep, camiye çevrilen üç kilise.",
   kaynak:"uyvar" },
 { ad:"Kanije",     tur:"kale",  lat:46.454, lon:16.989,
-  k:[{f:"1600-10-22",t:"1690-04-13",d:1,y:"kusatma"}],
+  k:[{f:"1600-10-22",t:"1690-04-23",d:1,y:"kusatma"}],
   koken:"Ad, bölgeyi 1321'den itibaren yaklaşık 200 yıl yöneten Kanizsai ailesinden gelir; sonra evlilik yoluyla Nádasdy ailesine geçti.",
   onem:"Yakınındaki Zigetvar Kalesi'nin 1566'da Osmanlı'ya düşmesinden sonra önemi arttı; Habsburg'lara karşı önemli bir savunma mevkii oldu.",
   tarihce:"Kanûnî Sultan Süleyman döneminde 1532'de kısa süreliğine ele geçirildi; 40 günlük kuşatma sonrası 1600'de kesin olarak fethedildi; 90 yıl Osmanlı'da kaldıktan sonra 1690'da 60 bin kişilik Habsburg ordusuna teslim oldu.",
@@ -485,7 +485,7 @@ window.SEHIRLER = [
   yapilar:"Yaklaşık 250×125 m dikdörtgen plan, üç büyük kule (Sadrazam, Halil Paşa, Zağanos Paşa kuleleri) ve on üç küçük kule.",
   kaynak:"rumelihisari" },
 { ad:"Hotin",         tur:"kale", lat:48.507, lon:26.494,
-  k:[{f:"1538-01-01",t:"1739-08-19",d:1,y:"antlasma"},{f:"1739-09-18",t:"1769-09-10",d:1,y:"antlasma"},{f:"1774-07-21",t:"1788-01-01",d:1,y:"antlasma"},{f:"1792-01-09",t:"1812-05-28",d:1,y:"antlasma"}],
+  k:[{f:"1538-01-01",t:"1739-08-30",d:1,y:"antlasma"},{f:"1739-09-18",t:"1769-09-10",d:1,y:"antlasma"},{f:"1774-07-21",t:"1788-01-01",d:1,y:"antlasma"},{f:"1792-01-09",t:"1812-05-28",d:1,y:"antlasma"}],
   // ⚠️ Ara dönüş tarihleri (1739 Belgrad, 1774 Küçük Kaynarca, 1792 Yaş
   // antlaşmaları) TDV'nin bu madde metninden değil, standart Osmanlı-Rus
   // savaşları kronolojisinden alındı — TDV yalnız kaybediliş tarihlerini
@@ -497,7 +497,7 @@ window.SEHIRLER = [
   yapilar:"1713 sonrası yeniden inşa edilen kalede İstanbul, Temeşvar ve Bender adlarını taşıyan üç kapı ile bir Su Kapısı, iki hamam, iki cami ve bir çarşı.",
   kaynak:"hotin (TDV — kayıp tarihleri doğrulandı; ara dönüş tarihleri standart Osmanlı-Rus savaşları kronolojisinden)" },
 { ad:"Azak",          tur:"kale", lat:47.114, lon:39.425,
-  k:[{f:"1475-06-01",t:"1637-06-18",d:1,y:"kusatma"},{f:"1642-10-04",t:"1696-07-19",d:1}],
+  k:[{f:"1475-06-01",t:"1637-06-18",d:1,y:"kusatma"},{f:"1642-10-04",t:"1696-08-06",d:1}],
   // 1637-1642 arası Kazakların işgalindeydi (Osmanlı'nın değil); Osmanlı
   // 1642'de geri aldı. 1696'da I. Petro tarafından kesin kaybedildi.
   koken:"Yunanlılar 'Tanais', Türkler önce 'Ten' derdi; 'Azak' adı 1317'den itibaren sikkelerde görülmeye başladı.",

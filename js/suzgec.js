@@ -127,14 +127,28 @@ function grupSayilari(olaylar) {
   return s;
 }
 
-// Veriye girmiş ama tabloda karşılığı olmayan `k:` değerleri.
+// Tanınmadığı için "diger"e DÜŞEN maddeler, düşüren değerle sayılır.
 // 📌 Bugün üç kez "sessizce eksik" vakası yaşandı; bu fonksiyon o sınıfı
 // süzgeç için baştan kapatıyor — bilinmeyen değer DIGER'e düşer ama GÖRÜNÜR.
+// 🔴 9 Ekim 2026 (KRONO-GORUNURLUK-1008) — eski hâli YALNIZ `k:`yi sayıyordu:
+//   ① `tur:`u tanınmayan madde HİÇ sayılmıyordu (ölçüldü: rejim 102 · tabi 21 ·
+//      kurtulus 19 … — `1923_1945`te 131 madde "diğer"deydi, bu fonksiyon 0 diyordu)
+//   ② `k:`si tanınmayan ama `tur:`u tanınan madde (hukumdar 60 · hanedan 77 …)
+//      "bilinmeyen" sayılıyordu — oysa `maddeGrubu` onu `tur:`dan doğru gruba
+//      koyuyor. Sayı, gerçekte "diğer"e düşmeyen maddeleri de içeriyordu.
+//   ⇒ Soru artık `maddeGrubu`nun sorusudur: madde "diger"e TANINMADIĞI için mi
+//     düştü? Anahtar düşüren değeri ve alanını söyler: "k:olay" · "tur:rejim" ·
+//     "(k/tur yok)". `k`/`tur` açıkça "diger" yazılmışsa bilinmeyen DEĞİLDİR.
+// ⚠️ Çağıran YOK (9 Ekim 2026'da `js/*.js`te grep 0) — panele bağlamak app.js işi.
 function bilinmeyenler(olaylar) {
   var ix = grupIndeksi(), yok = {};
   for (var i = 0; i < (olaylar || []).length; i++) {
-    var k = olaylar[i] && olaylar[i].k;
-    if (k && !ix[k]) yok[k] = (yok[k] || 0) + 1;
+    var o = olaylar[i];
+    if (!o) continue;
+    if (o.k && ix[o.k]) continue;                    // k tanındı
+    if (o.tur && TUR_GRUP[o.tur]) continue;          // tur tanındı
+    var a = o.k ? "k:" + o.k : o.tur ? "tur:" + o.tur : "(k/tur yok)";
+    yok[a] = (yok[a] || 0) + 1;
   }
   return yok;
 }
@@ -261,10 +275,23 @@ var TUR_GRUP = {
   deniz: "askeri", "ic-savas": "askeri", isgal: "askeri",
   fetih: "askeri", kayip: "askeri", "toprak-kazanc": "askeri",
   "toprak-kayip": "askeri", toprak: "askeri",
+  // 🆕 9 Ekim 2026 (KRONO-GORUNURLUK-1008): kurtulus 19 madde, hepsi
+  //   `konu-askeri` etiketli (işgalden kurtarma — `isgal`in aynası).
+  kurtulus: "askeri",
 
   siyaset: "siyasi", antlasma: "siyasi", diplomasi: "siyasi",
   ittifak: "siyasi", vassal: "siyasi", tabiiyet: "siyasi", itaat: "siyasi",
   kriz: "siyasi", anayasa: "siyasi", hukuk: "siyasi",
+  // 🆕 9 Ekim 2026 (KRONO-GORUNURLUK-1008) — veride olup bu tabloda olmayan
+  //   değerler ("diğer"e düşüyorlardı; örnekler okunarak bağlandı):
+  //   rejim 102 (hükûmet/rejim değişimi, `konu-siyasi`) · tabi 21 (`tabiiyet`in
+  //   eşanlamı) · bagimsizlik 8 · ateskes 2 · siyasi 3 + 172 (`siyaset`in
+  //   eşanlamı; `k:"siyasi"` taşıyan eski şema dosyaları).
+  //   ⚠️ `ilhak` (5) EKLENMEDİ: maddelerin konu etiketi karışık (diplomasi ·
+  //   askeri · siyasi) — antlaşmayla katılma da zorla ilhak da var. Karar
+  //   koordinatörde; o güne kadar "diğer"de GÖRÜNÜR (`bilinmeyenler`).
+  rejim: "siyasi", tabi: "siyasi", bagimsizlik: "siyasi", ateskes: "siyasi",
+  siyasi: "siyasi",
 
   hukumdar: "hanedan", hanedan: "hanedan", taht: "hanedan",
   sadrazam: "hanedan", darbe: "hanedan", evlilik: "hanedan",
@@ -368,8 +395,23 @@ var KONU_BASLIKLARI = [
   { id: "ulastirma",  ad: "Ulaştırma haberleşme altyapı",          etiket: "konu-ulastirma" },
   { id: "sanayi",     ad: "Sanayi tarım hayvancılık madencilik",   etiket: "konu-sanayi" },
   { id: "kesif",      ad: "Keşif ve icatlar",                      etiket: "konu-kesif" },
-  { id: "magazin",    ad: "Magazin",                               etiket: "konu-magazin" }
+  { id: "magazin",    ad: "Magazin",                               etiket: "konu-magazin" },
+  // Emre (26 Ekim 2026): devlet künyesi veremeyeceğimiz arkeolojik maddeler
+  // (`kaynak_turu:"arkeoloji"`, MÖ) varsayılan listede künyesiz görünüyordu — veride
+  // `etiket:["arkeoloji"]` vardı, süzgeçte başlığı yoktu. Yazılı kaynaklı MÖ maddeler
+  // (`kaynak_turu:"yazili"`) arkeolojik DEĞİLDİR, bu etiketi almaz.
+  { id: "arkeoloji",  ad: "Arkeolojik",                            etiket: "arkeoloji" },
+  // Emre (26 Ekim 2026): yazılı kaynaklı antik maddeler (`kaynak_turu:"yazili"`, 616:
+  // MÖ + MS 1–700) ayrı başlık. Etiket VERİDE değil, burada türetilir (`etiketlerOf`).
+  { id: "antik-cag",  ad: "Antik çağ (yazılı kaynaklı)",           etiket: "antik-cag" }
 ];
+// Maddenin etiketleri: veridekiler + türetilen `antik-cag` (kaynak_turu "yazili").
+function etiketlerOf(o) {
+  var et = (o && o.etiket) || [];
+  if (typeof et === "string") et = [et];
+  if (o && o.kaynak_turu === "yazili" && et.indexOf("antik-cag") < 0) et = et.concat("antik-cag");
+  return et;
+}
 // "Afet" başlığının altı alt türü — üst etiket `afet`, her biri ayrıca seçilebilir.
 var AFET_ALT_TURLER = [
   { id: "afet-deprem",         ad: "Deprem" },
@@ -389,8 +431,7 @@ function baslikEtiketleri() {
 // secim: etiket dizisi ("konu-askeri", "afet-deprem" …). Boş/null → süzmez.
 function baslikGecer(o, secim) {
   if (!secim || !secim.length) return true;
-  var et = (o && o.etiket) || [];
-  if (typeof et === "string") et = [et];
+  var et = etiketlerOf(o);
   for (var i = 0; i < secim.length; i++) if (et.indexOf(secim[i]) >= 0) return true;
   return false;
 }
@@ -400,8 +441,7 @@ function baslikSayilari(olaylar) {
   var s = {}, tum = baslikEtiketleri();
   for (var i = 0; i < tum.length; i++) s[tum[i]] = 0;
   for (var j = 0; j < (olaylar || []).length; j++) {
-    var et = (olaylar[j] && olaylar[j].etiket) || [];
-    if (typeof et === "string") et = [et];
+    var et = etiketlerOf(olaylar[j]);
     for (var k = 0; k < et.length; k++) if (s.hasOwnProperty(et[k])) s[et[k]]++;
   }
   return s;
@@ -571,10 +611,36 @@ function isgalliYerlesimler(Y) {
 // 7 ms medyan) GENİŞ kapsamın 3921'lik taramasına aitti; ORTA kapsamda küme
 // zaten fark listesi ∪ 238 işgalli yerleşimdir, `sahipAnahtari` yalnız o küme
 // için çağrılır (Lozan'da 78 kayıt).
-function kademeKumesi(Y, isgListe, degisim, k1gun, k2gun, k3gun, basGun, sonGun, T) {
+// 🆕 POSTIT-120 (Emre, 19 Ekim 2026, Karlofça): *"2. viyana kuşatması öncesi
+// durum ile anlaşma sonrası durumu göstermeli … bırakılan bölgeler savaş öncesi
+// durum ile savaş sonrası durumun farklarını göstermeli."* ORTA kapsam savaş
+// İÇİNDE `s:` ile el değiştiren toprağı (Budin 1686, Mora 1687…) kaçırıyordu —
+// ölçüldü: Karlofça kümesi 15 yerleşimdi, Macaristan/Mora/Dalmaçya yoktu.
+// ⇒ k1 (savaş başından bir gün önce) ile k3 (antlaşma günü) arasında taraflardan
+// Osmanlı ile antlaşmanın KARŞI tarafı arasındaki BÜTÜN el değiştirmeler: bir ucu
+// Osmanlı/tâbi, öbür ucu taraf künyesi. Ölçüldü (Karlofça): "taraflardan birine
+// dokunan" geniş ölçüt Basra→Safevî, Fransa→Avusturya, Rusya→Çin'i de alıyordu.
+// Ardıl Türk devletleri Osmanlı tarafı sayılır — yoksa Lozan'da 262 Anadolu peteği
+// "Osmanlı → TBMM" diye "bırakılan" görünüyordu (ölçüldü). Künyede yapısal ardıl alanı yok.
+var _SG_OSM_ARDIL = { "s:tbmm-turkiye": true, "s:turkiye-cumhuriyeti": true };
+function _sgOsmTarafi(k) { return k === "osmanli" || k.indexOf("tabi:") === 0 || !!_SG_OSM_ARDIL[k]; }
+function savasBoyuDegisim(Y, k1gun, k3gun, T) {
+  var L = [];
+  if (!k1gun || !k3gun) return L;
+  (Y || []).forEach(function (y, i) {
+    var a = sahipAnahtari(y, k1gun), b = sahipAnahtari(y, k3gun);
+    if (!a || !b || a === b) return;
+    var oa = _sgOsmTarafi(a), ob = _sgOsmTarafi(b);
+    if (oa === ob) return;                                   // iki ucu da Osmanlı ya da ikisi de yabancı
+    if (sahipIlgiliMi(oa ? b : a, T)) L.push(i);
+  });
+  return L;
+}
+function kademeKumesi(Y, isgListe, degisim, k1gun, k2gun, k3gun, basGun, sonGun, T, ekListe) {
   var kume = {}, sira = [];
   function al(i) { if (!kume[i]) { kume[i] = { i: i, fark: false }; sira.push(kume[i]); } return kume[i]; }
   (degisim || []).forEach(function (d) { var r = al(d.i); r.fark = true; r.k2h = d.once; r.k3 = d.sonra; });
+  (ekListe || []).forEach(function (i) { al(i).genis = true; });
   (isgListe || []).forEach(function (i) {
     var y = Y[i], g = isgalAnahtari(y, k2gun), ilgili = !!(g && T[g]);
     if (!ilgili) {
@@ -842,7 +908,7 @@ var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                  sahipKimlikte: sahipKimlikte, aktifVAdi: aktifVAdi,
                  // DALGA-0074 H-0013 — antlaşmanın üç kademesi
                  isgalAnahtari: isgalAnahtari, isgalliYerlesimler: isgalliYerlesimler,
-                 kademeKumesi: kademeKumesi,
+                 kademeKumesi: kademeKumesi, savasBoyuDegisim: savasBoyuDegisim, osmTarafi: _sgOsmTarafi,
                  // PAKET-ISYAN
                  isyanAktif: isyanAktif, isyanSecim: isyanSecim,
                  // PAKET-UI3

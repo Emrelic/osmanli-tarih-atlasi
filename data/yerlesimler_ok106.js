@@ -67,12 +67,12 @@ window.YERLESIMLER_OK106 = [
   // `m:"Kefe"` — Kerç'in bağlı olduğu merkezin aynısı (Kefe sancağı).
   // `k:4` — kale kademesi; komşu kaleler Or Kapı · Balaklava · İnkirman
   //   da k:4. Kerç k:3 (şehir), Yenikale ondan küçük bir istihkâm.
-  { ad:"Yenikale", isg:[{f:"1771-07-12",t:"1774-07-21",d:"rusya",kaynak:"RBS «Щербатов, Федор Федорович» — 'В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань' · ЭСБЕ «Керчь» ('Русские вновь овладели К. в 1771 г.') · VE «Керчь». İŞGAL, ilhak değil: Küçük Kaynarca ile Rusya'ya bırakıldı. ⚠️ GÜN KAYNAKTA YOK — kaynak yalnız 'Temmuz' (Jülyen) diyor ⇒ Gregoryen 12 Temmuz–11 Ağustos; 1771-07-12 bu aralığın İLK günüdür, bir ALT SINIRDIR, olay günü DEĞİLDİR. YAMA-SEFER1768-0917 Y-2 · 1.MURAT M-4500 · UYGULA-4 18 Eyl 2026."}], tur:"kale", lat:45.3521, lon:36.6004, g:0, k:4, m:"Kefe",
-    kur:"1703-01-01",
-    d:[{f:"1703-01-01",t:"1774-07-21"}],
-    s:[{f:"1774-07-21",t:"1917-03-15",d:"rusya"},
+  { ad:"Yenikale", isg:[{f:"1771-07-12",t:"1774-07-21",d:"rusya",kaynak:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1771-07-01 (Kerç, Yenikale, Taman; RBS «Щербатов, Федор Федорович» 'В июле', eski takvim, AY: Jülyen ay başı) = Gregoryen 1771-07-12 · TAKVİM (EMRE KARARI 14 Ekim 2026, KARARLAR-1014 m.28, kutu 0065): VERI-YAPISI TAKVİM kuralına dönüldü, Jülyen gün ÇEVRİLMEDEN yazıldı — kaynak 'Temmuz' (Jülyen) — ay başı, AY hassasiyeti; eski Gregoryen çevirisi 1771-07-12 geri alındı, aşağıdaki çeviri açıklaması ESKİDİR. ESKİ NOT: RBS «Щербатов, Федор Федорович» — 'В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань' · ЭСБЕ «Керчь» ('Русские вновь овладели К. в 1771 г.') · VE «Керчь». İŞGAL, ilhak değil: Küçük Kaynarca ile Rusya'ya bırakıldı. ⚠️ GÜN KAYNAKTA YOK — kaynak yalnız 'Temmuz' (Jülyen) diyor ⇒ Gregoryen 12 Temmuz–11 Ağustos; 1771-07-12 bu aralığın İLK günüdür, bir ALT SINIRDIR, olay günü DEĞİLDİR. YAMA-SEFER1768-0917 Y-2 · 1.MURAT M-4500 · UYGULA-4 18 Eyl 2026."}], tur:"kale", lat:45.3521, lon:36.6004, g:0, k:4, m:"Kefe",
+    kur:"1703-05-17", kesinlik:"yil", neden:"KUTU-H6-1015 (0082/H-0070, K1R4 bulgusu) — HİCRÎ YIL KURALI (CLAUDE.md): TDV kerc '1115’te (1703) Kerç şehrinin 10 km. kuzeydoğusunda Akıntı Burnu mevkiinde Yenikale yapıldı'. Hicrî 1115 = 17 Mayıs 1703 – 5 Mayıs 1704 (tablo takvimi, Gregoryen; 1582 sonrası TDV mîlâdî karşılıkları Gregoryen) ∩ mîlâdî 1703 ⇒ kesişimin ilk günü 1703-05-17. Eski 1703-01-01 hicrî yılın başlamadığı bir güne düşüyordu. Kesinlik YIL (gün kaynakta yok). kur gerçek kuruluştur (TDV 'yapıldı'); öncül/ardıl: Kerç 1475 Osmanlı, çakışma yok.",
+    d:[{f:"1703-05-17",t:"1774-07-21",kesinlik:{f:"yil",t:"gun"}}],
+    s:[{f:"1774-07-21",t:"1783-04-19",d:"rusya",enklav:true,kaynak:"KUTU-G5-1014 (0080/H-0019) enklav beyanı · TDV kirim: Küçük Kaynarca ile Rusya'ya 'Yenikale ve Kerç, Dinyeper ağzında Kılburun Kalesi' bırakıldı; Kırım hanlığı 'serbest ve tam mânasıyla müstakil' — Rus gövdesinden müstakil Kırım toprağıyla ayrılmış eksklav, ilhaka dek (TDV kirim: 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)'; 1783-04-19 = komşu Kefe/Sudak kayıtlarındaki ilhak günü)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"kerc" },
 
   // ── UMAN — TDV'nin GÖREMEDİĞİ yerin AKADEMİK kaynakla kapanması ─────
@@ -119,14 +119,14 @@ window.YERLESIMLER_OK106 = [
   //    ⇒ Uydurmak yerine KAYDETTİM: bu iki pencere açık borçtur.
   { ad:"Uman", tur:"sehir", lat:48.7484, lon:30.2219, g:0, k:3,
     kur:"1616-01-01",
-    s:[{f:"1616-01-01",t:"1674-01-01",d:"lehistan"},
+    s:[{f:"1616-01-01",t:"1674-08-03",d:"lehistan",kesinlik:{f:"yil",t:"ay"}},
        {f:"1699-01-26",t:"1793-01-23",d:"lehistan"},
        {f:"1793-01-23",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     // d: 1674 — TDV `merzifonlu-kara-mustafa-pasa`: "Cemâziyelevvel 1085 (Ağustos 1674) …
     //   Human'ı (Uman) teslim aldı". AY hassasiyeti: §4 gereği YYYY-01-01 (YAMA-0052-UKRAYNA 10).
-    d:[{f:"1674-01-01",t:"1699-01-26",y:"fetih",kaynak:"TDV merzifonlu-kara-mustafa-pasa: Lehistan'a ait kalelerden Human'ı (Uman) teslim aldı — Ağustos 1674, gün yok (§4)"}],
+    d:[{f:"1674-08-03",t:"1699-01-26",y:"fetih",kesinlik:{f:"ay",t:"gun"},kaynak:"TDV merzifonlu-kara-mustafa-pasa: Lehistan'a ait kalelerden Human'ı (Uman) teslim aldı — Ağustos 1674, gün yok · KUTU-P2-1015 (0082/H-0070) — HİCRÎ KURAL (CLAUDE.md): TDV merzifonlu-kara-mustafa-pasa 'Cemâziyelevvel 1085 (Ağustos 1674)'. Cemâziyelevvel 1085 = 3 Ağustos – 31 Ağustos 1674 (tablo takvimi, Gregoryen; ±1 gün) ∩ Ağustos 1674 ⇒ kesişimin ilk günü 1674-08-03. Eski 1674-01-01 fethi yedi ay erkene çekiyordu. Kesinlik AY (gün kaynakta yok). Öncül lehistan ucu aynı güne alındı."}],
     kaynak:"1674-1699: TDV merzifonlu-kara-mustafa-pasa · öteki dönemler: bulunamadı — TDV'de Ukrayna'daki Uman maddesi YOK (`uman` slug'ı Arabistan'daki Umân'ı açıyor, ölçüldü). Dayanak: Internet Encyclopedia of Ukraine (Canadian Institute of Ukrainian Studies, University of Alberta), madde \"Uman\"" },
 
   // ═══════════════════════════════════════════════════════════════════
@@ -168,13 +168,10 @@ window.YERLESIMLER_OK106 = [
   //    KUSUR sayıyorum ve kaydediyorum — Çuguçak vakasının aynısı.
   // ⚠️ 1670 Kazak baskını ve 1695-1700 Rus işgali YAZILMADI: günleri
   //    kaynakta yok ve IEU kalıcı devri 1774'e tarihliyor. Kayıtlı borç.
-  { ad:"Kızıkermen (Gazi Kerman)", v:[{f:"1475-06-06",t:"1526-01-01",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}], neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true).", tur:"kale", lat:46.8400, lon:33.4200, g:0, k:4,
+  { ad:"Kızıkermen (Gazi Kerman)",not:"POST-IT #117: Kızıkermen 1695-1700 Rus dönemi eklendi.", v:[{f:"1475-06-06",t:"1526-01-01",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}], neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true).", tur:"kale", lat:46.8400, lon:33.4200, g:0, k:4,
     kur:"1441-01-01",
-    d:[{f:"1526-01-01",t:"1774-07-21"}],
-    s:[{f:"1441-01-01",t:"1475-06-06",d:"kirim",kesinlik:"yuzyil"},
-       {f:"1774-07-21",t:"1917-03-15",d:"rusya"},
-       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    d:[{f:"1526-01-01",t:"1695-01-01"},{f:"1700-07-14",t:"1774-07-21"}],
+    s:[{f:"1441-01-01",t:"1475-06-06",d:"kirim",kesinlik:"yuzyil"},{f:"1695-01-01",t:"1700-07-14",d:"rusya",kaynak:"f: Ignat'yeva, Studia Slavica et Balcanica Petropolitana 2013/1: 1695'te Şeremetev ile Mazepa aldı (yıl; zapt günü bulunamadı) [yalnız yıl teyitli; gün teyitsiz] · t: TDV karlofca: 1700 İstanbul Antlaşması (14 Temmuz 1700) ile Osmanlı'ya döndü. Kızıkermen için TDV maddesi yok.",kesinlik:{f:"yil",t:"gun"}},{f:"1774-07-21",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV'de müstakil madde YOK (`kizikermen`·`gazikerman`·`gazi-kerman` 302; kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\". ⚠️ BAŞLANGIÇ 1441-01-01 bir ALT SINIRDIR, kuruluş günü DEĞİLDİR: kaynak \"15. yüzyıl ortası\" diyor, 1441 Kırım Hanlığı'nın kuruluşudur ve kalenin Tatar dönemi ondan önce başlayamaz. `kesinlik:\"yuzyil\"` bu belirsizliği taşır. Bu günün külliyatta karşılığı olması bir YAN FAYDADIR, GEREKÇE DEĞİL — tarih o yüzden seçilmedi" },
 
   // ── KREMENÇUK ──────────────────────────────────────────────────────
@@ -190,9 +187,9 @@ window.YERLESIMLER_OK106 = [
   { ad:"Kremençuk", tur:"sehir", lat:49.0700, lon:33.4200, g:0, k:3,
     kur:"1571-01-01",
     s:[{f:"1571-01-01",t:"1654-01-18",d:"lehistan"},
-       {f:"1654-01-18",t:"1917-03-15",d:"rusya"},
+       {f:"1654-01-18",t:"1917-03-15",d:"rusya",kaynak:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1654-01-08 (Pereyaslav Radası; ESBE «Переяславская рада» '8 января 1654 г.', eski takvim) = Gregoryen 1654-01-18 · KUTU-P2-1015 (0082/H-0070): Pereyaslav günü 1654-01-18 (Gregoryen karşılık) → 1654-01-08, kaynağın eski takvim günü (ESBE «Переяславская рада»: '8 января 1654 г.'; KARARLAR-1014 m.28); çekirdek madde olaylar_ek16.js 1654-01-08"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kremenchuk\"" },
 
   // ── LUBNI — atlas ufkundan ESKİ, o yüzden `kur:` YOK ────────────────
@@ -207,7 +204,7 @@ window.YERLESIMLER_OK106 = [
   //    55 km kuzeybatısında, aynı alayda ve aynı siyasî çemberde.
   // 🟢 Yeni gün doğurmaz: iki gün de Poltava'da ZATEN kullanılıyor.
   { ad:"Lubnı", tur:"sehir", lat:50.0200, lon:33.0000, g:0, k:3,
-    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1917-03-15",d:"rusya",kaynak:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1654-01-08 (Pereyaslav Radası; ESBE «Переяславская рада» '8 января 1654 г.', eski takvim) = Gregoryen 1654-01-18 · KUTU-P2-1015 (0082/H-0070): Pereyaslav günü 1654-01-18 (Gregoryen karşılık) → 1654-01-08, kaynağın eski takvim günü (ESBE «Переяславская рада»: '8 января 1654 г.'; KARARLAR-1014 m.28); çekirdek madde olaylar_ek16.js 1654-01-08"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Lubny\"; 1281-1654 zinciri komşu Poltava kaydının kalıbıdır (tutarlılık seçimi, kaynak günü değil)" },
 
   // ── SUMI ───────────────────────────────────────────────────────────
@@ -221,7 +218,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1652-01-01",
     s:[{f:"1652-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Sumy\"" },
 
   // ── ÇUGUYEV ────────────────────────────────────────────────────────
@@ -233,7 +230,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1638-01-01",
     s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Chuhuiv\"" },
 
   // ── İZYUM ──────────────────────────────────────────────────────────
@@ -250,7 +247,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1681-01-01",
     s:[{f:"1681-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Izium\"" },
 
   // ── BAHMUT ─────────────────────────────────────────────────────────
@@ -266,7 +263,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1703-01-01",
     s:[{f:"1703-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Bakhmut\"" },
 
   // ── YELİSAVETGRAD (Aziz Yelizaveta Kalesi) ─────────────────────────
@@ -283,9 +280,70 @@ window.YERLESIMLER_OK106 = [
     kur:"1754-01-01",
     s:[{f:"1754-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kropyvnytskyi\" (`Yelysavethrad` maddesi ona yönlendiriyor)" },
 
+  // ── KUTU-H6-1015 · 0082/H-0070 (Karadeniz kuzeyi derin paketi, K1R4 bulgusu) ─────
+  //  NOVOROSSİYA ŞEHİRLERİ: 1775 sonrası Rus kuruluşları atlasta hiç yoktu; 1783 sonrası
+  //  Rus toprağı yalnız bozkır sözde-noktalarının uçlarıyla boyanıyordu. 1900 kategorisi:
+  //  Herson ve Yekaterinoslav gubernia merkezi (kat. 2), Mariupol uyezd merkezi (kat. 3),
+  //  Novoçerkask Don Ordusu Oblastı merkezi (kat. 2). kur: GERÇEK KURULUŞ (kaynak 'основан' /
+  //  'устроена') — yıl hassasiyeti, gün yok ⇒ YYYY-01-01. Mükerrer taraması: 3 km içinde nokta YOK.
+  //  Sonrası (1917 → 2000) komşu Yelisavetgrad / Azak zincirinin devlet geçişleriyle aynı.
+  { ad:"Herson", tur:"liman", lat:46.6383, lon:32.6158, g:0, k:3,
+    kur:"1778-01-01", kesinlik:"yil", neden:"KUTU-H6-1015: kur GERÇEK KURULUŞ — ESBE «Херсон»: 'В 1737 г. … было заложено укрепление Александр-шанц, вскоре разрушенное; в 1778 г. устроена верфь, наименованная Х.' 1737 tahkimatı kısa ömürlü ve yıkık ⇒ şehir 1778'den. Gün kaynakta yok.",
+    s:[{f:"1778-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Херсон» (1778 tersane-şehir; 1784 Yekaterinoslav valiliği kazası, 1803 gubernia merkezi) — Dinyeper sağ kıyısı Küçük Kaynarca'dan (1774) beri Rus"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Херсон» (ru.wikisource.org/wiki/ЭСБЕ/Херсон) — TDV'de madde yok (arama 'herson': yalnız künye anışları)" },
+  { ad:"Mariupol", tur:"liman", lat:47.0971, lon:37.5434, g:0, k:3,
+    kur:"1779-01-01", kesinlik:"yil", neden:"KUTU-H6-1015: kur GERÇEK KURULUŞ — ESBE «Мариуполь»: 'Настоящий г. основан в 1779 г. греками-выходцами из Крыма' (aynı maddede antik Adamakha varsayımı 'некоторые археологи полагают' — tanık değil). Gün kaynakta yok.",
+    s:[{f:"1779-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Мариуполь» (1779 kuruluş; 1784 Yekaterinoslav valiliği kazası)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Мариуполь» (ru.wikisource.org/wiki/ЭСБЕ/Мариуполь)" },
+  { ad:"Yekaterinoslav (Dnipro)", tur:"sehir", lat:48.4647, lon:35.0462, g:0, k:2,
+    kur:"1783-01-01", kesinlik:"yil", neden:"KUTU-H6-1015: kur bu KONUMDAKİ şehrin kuruluşu — ESBE «Екатеринослав»: 'В 1778 г. Потемкиным был основан уездный город Е., при впадении реки Кильчени в реку Самару … но уже в 1783 г. … Е. был перенесен на настоящее свое место'. 1778 şehri ~25 km kuzeydoğuda, ayrı yer (>3 km kuralı) ⇒ nokta 1783'ten. Aynı yerdeki eski Kodak/Kaydak (1635 Leh kalesi) ve Kazak kışlakları ESBE'de 'разрушение' sonrası — sürekli yerleşim tanığı değil, kur onlardan türetilmedi.",
+    s:[{f:"1783-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Екатеринослав» (1783 bugünkü yerine nakil)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Екатеринослав» (ru.wikisource.org/wiki/ЭСБЕ/Екатеринослав)" },
+  { ad:"Novoçerkask", tur:"sehir", lat:47.4114, lon:40.1042, g:0, k:2,
+    kur:"1805-01-01", kesinlik:"yil", neden:"KUTU-H6-1015: kur GERÇEK KURULUŞ — ESBE «Новочеркасск»: 'Н. основан в 1805 г. на урочище Бирючий Кут. До того времени административным центром донского войска служил' (eski Çerkask, ayrı yer). Gün kaynakta yok.",
+    s:[{f:"1805-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Новочеркасск» (1805; Don Ordusu Oblastı merkezi)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Новочеркасск» (ru.wikisource.org/wiki/ЭСБЕ/Новочеркасск)" },
+  { ad:"Akyar (Sivastopol)", tur:"liman", lat:44.6138, lon:33.5254, g:0, k:3,
+    kur:"1784-01-01", kesinlik:"yil", neden:"KUTU-H6-1015 (0082/H-0070): kur LİMAN-ŞEHRİN KURULUŞU — ESBE «Севастополь»: 'деревенька Ахтиар, местность которой была избрана в 1783 г. русскими для устройства военного порта. Последний был основан в следующем году и назван Севастополем' ⇒ 1784 (yıl). Kırım Tatar köyü Ahtiar daha önce vardı (ESBE 'Во время владычества татар'); köyün tarihli tanığı bulunamadı — kur görünme ALT SINIRIDIR, öncesinde toprak İnkirman (6,5 km) peteğindedir. TDV kirim 'eski Kırım Tatar köyü Akyar’ın üzerine kurulan deniz üssü' (arama özeti). 1900 kat. 2 (şehir valiliği).",
+    s:[{f:"1784-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Севастополь» (1784 liman-şehir; 1804 Karadeniz donanmasının ana limanı) — Kırım 1783'ten Rus"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri · zincir komşu Kefe/Kerç kayıtlarıyla aynı"}],
+    kaynak:"ESBE «Севастополь» (ru.wikisource.org/wiki/ЭСБЕ/Севастополь)" },
+  { ad:"Berdyansk", tur:"liman", lat:46.7558, lon:36.7885, g:0, k:3,
+    kur:"1827-01-01", kesinlik:"yil", neden:"KUTU-H6-1015 (0082/H-0070): kur GERÇEK KURULUŞ — ESBE «Бердянск»: 'Б. возник в 1827 г. стараниями кн. М. С. Воронцова; … в 1835 г. сделан городом, а в 1842 г. назначен уездным'. 1900 kat. 3 (uyezd merkezi). Gün yok.",
+    s:[{f:"1827-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Бердянск» (1827)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Бердянск» (ru.wikisource.org/wiki/ЭСБЕ/Бердянск)" },
+  { ad:"Nikolayev (Mikolayiv)", tur:"liman", lat:46.9750, lon:31.9946, g:0, k:2,
+    kur:"1784-01-01", kesinlik:"yil", neden:"KUTU-P2-1015 (0082/H-0070): kur GERÇEK KURULUŞ (tahkimat) — ESBE «Николаев, город Херсонской губернии»: 'Основан, в виде укрепления, кн. Потемкиным в 1784 г.'; IEU «Mykolaiv»: 'uninhabited until a fort (1784) and a shipbuilding wharf (1788)'. Gün kaynakta yok. Konum: bilinen şehir merkezi (İngul-Güney Bug kavşağı). Mükerrer taraması: 3 km içinde nokta YOK.",
+    s:[{f:"1784-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Николаев, город Херсонской губернии» (1784 tahkimat; 1788 tersane) — Bug'un doğu yakası Küçük Kaynarca'dan (1774) beri Rus"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Николаев, город Херсонской губернии» (ru.wikisource.org/wiki/ЭСБЕ/Николаев,_город_Херсонской_губернии) · IEU «Mykolaiv» (encyclopediaofukraine.com) — TDV'de madde yok" },
+  { ad:"Melitopol", tur:"sehir", lat:46.8489, lon:35.3675, g:0, k:3,
+    kur:"1784-01-01", kesinlik:"yil", neden:"KUTU-P2-1015 (0082/H-0070): kur İLK YERLEŞİM — IEU «Melitopol»: 'A frontier settlement was established at the site in 1784'; 1816'da Novooleksandrivka adını aldı, ESBE «Мелитополь»: 'В 1841 г. … слобода Ново-Александровская была переименована в город М.' (şehir statüsü 1841). Gün kaynakta yok. Konum: bilinen şehir merkezi (Molochna ırmağı). Mükerrer taraması: 3 km içinde nokta YOK.",
+    s:[{f:"1784-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"IEU «Melitopol» (1784 sınır yerleşimi) · ESBE «Мелитополь» (1841 şehir) — Kırım ilhakından (1783) sonra Rus"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"IEU «Melitopol» (encyclopediaofukraine.com) · ESBE «Мелитополь» (ru.wikisource.org/wiki/ЭСБЕ/Мелитополь)" },
+  { ad:"Stavropol (Kafkas)", tur:"sehir", lat:45.0448, lon:41.9691, g:0, k:2,
+    kur:"1777-01-01", kesinlik:"yil", neden:"KUTU-P2-1015 (0082/H-0070): kur GERÇEK KURULUŞ (kale) — ESBE «Ставропольская губерния» (Исторический обзор): 'В 1777 г. сооружено было 10 крепостей, в том числе Ставропольская' (Azak-Mozdok hattı). ESBE «Ставрополь Кавказский» ve МЭСБЕ kuruluş yılı vermiyor. Gün kaynakta yok. 1900 kat. 2 (gubernia merkezi). Konum: bilinen şehir merkezi (Kale tepesi ~0,5 km). Mükerrer taraması: 3 km içinde nokta YOK (Stavropol–Kuma bozkırı bölge noktası ~54 km GD).",
+    s:[{f:"1777-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Ставропольская губерния» (1777 Azak-Mozdok hattı kalesi)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Ставропольская губерния» (ru.wikisource.org/wiki/ЭСБЕ/Ставропольская_губерния) — TDV'de madde yok" },
   // ── OSTROGOJSK — Slobodskaya Ukrayna dalgasının ikinci kasabası ─────
   //  IEU "Ostrohozke": "It was founded by Ukrainian Cossacks and fortified
   //  in 1652." · "In 1662 it became the center of Ostrohozke regiment in
@@ -302,7 +360,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1652-01-01",
     s:[{f:"1652-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Ostrohozke\"" }
 
 ];

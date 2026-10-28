@@ -14,7 +14,14 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 BURA = os.path.dirname(os.path.abspath(__file__))
+# W36 (6 Ekim 2026): `adaylar_tum.json` birlestir.py'nin scratch ciktisiydi ve depoya
+#   HIC girmedi; arguman verilmezse betik her yerde FileNotFoundError ile cokuyordu.
+#   Yoksa KESINLESMIS aday seti okunur (ayni sema: ad/lat/lon, 377 nokta, 12d9d93b).
+#   Soru ayni: her aday kara maskesinin uzerinde mi. Cikis: 0 temiz · 1 >10 km aday var.
 YOL = sys.argv[1] if len(sys.argv) > 1 else os.path.join(BURA, "adaylar_tum.json")
+if len(sys.argv) <= 1 and not os.path.isfile(YOL):
+    YOL = os.path.join(BURA, "ADAY-KAMERIKA-0903.json")
+print("girdi: %s" % os.path.relpath(YOL))
 ADAY = json.load(io.open(YOL, encoding="utf-8"))
 print("aday: %d" % len(ADAY))
 
@@ -50,3 +57,4 @@ for d, ad, la, lo, qy, qx in disarida:
 print("\n🔴 >10 km : koordinat SUPHELI, tek tek bakilir")
 print("🟡 2-10 km: kiyi/ada — maske cozunurlugu olabilir")
 print("⚪ <2 km  : maske kenari, sorun degil")
+sys.exit(1 if any(d > 10 for d, *_ in disarida) else 0)

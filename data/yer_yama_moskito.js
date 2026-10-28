@@ -44,6 +44,6 @@ window.YER_YAMA_MOSKITO = [
 { ad:"Río Tinto (Black River, Moskito kıyısı)",
   s:[{f:"1732-01-01",t:"1786-07-14",d:"ingiltere"},
      {f:"1786-07-14",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"1923-10-29",d:"meksika"}] },
+     {f:"1821-09-27",t:"1923-10-29",d:"meksika"},{f:"1923-10-29",t:"2000-12-31",d:"honduras-cumhuriyeti",kaynak:"Britannica Honduras"}] },
 
 ];

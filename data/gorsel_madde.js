@@ -52,6 +52,25 @@
 
 window.GORSEL_MADDE = [
   {
+    id:            "1654-12-01-katib-celebi-cihannuma-1732-arabistan",
+    tur:           "madde",
+    // 13 Ekim 2026 (OKUR-DILI, Emre onayı): Kâtib Çelebi'nin hayattan çizilmiş
+    // bir portresi YOK (Commons'ta bulunamadı; 19. yy hayalî tasvirleri
+    // alınmadı). Yerine KENDİ ESERİ: Cihannümâ'nın 1732 Müteferrika baskısı.
+    // KUTU-VERI-1015 (0052/H-0028): aynı eser görseli Kâtib Çelebi'nin öteki iki Cihannümâ/vefat maddesine de bağlandı
+    //   (ayırt edicili bağ: _ekBagEslesir "gün|başlıkta geçen söz").
+    olay:          ["1654-12-01", "1648-01-01|Cihannümâ", "1657-10-06|Kâtib Çelebi"],
+    url:           "assets/gorseller/1654-12-01-katib-celebi-cihannuma-1732-arabistan.jpg",
+    baslik:        "Cihannümâ'dan Arabistan haritası (1732 baskısı)",
+    gorsel_alt:    "Kâtib Çelebi'nin Cihannümâ adlı coğrafya eserinin 1732'de İbrahim Müteferrika matbaasında basılan nüshasından Arabistan haritası",
+    eser:          "Kitâb-ı Cihannümâ (İstanbul, 1732), Houghton Library, Harvard, Typ 794.34.475",
+    sanatci:       "Kâtib Çelebi (1609-1657); baskı: İbrahim Müteferrika",
+    yil:           "1732 (eser: 1648-1657)",
+    lisans:        "PD-old-100",
+    gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Houghton_Typ_794.34.475_-_K%C3%A2tip_%C3%87elebi,_Kitab-%C4%B1_cihann%C3%BCma.jpg",
+    kesinlik:      "donem-sonrasi-tasvir"
+  },
+  {
     id:            "1566-09-07-sokullu-mehmed-pasa-portresi",
     tur:           "portre",
     // PAKET-A2 13 Eyl (0027/H-0005 "görsel maddeyle ilgili olsun"): "1566-09-07" ÇIKARILDI.
@@ -256,7 +275,7 @@ window.GORSEL_MADDE = [
     id:      "1451-02-18-mehmed2-albumu",
     tur:     "albüm",
     kisi_id: "mehmed2",
-    olay:    ["1451-02-18", "1481-05"],
+    olay:    ["1451-02-18", "1481-05-03"],
     baslik:  "II. Mehmed (Fâtih) albümü — portre, minyatür, tuğra, cami",
     gorseller: [
       {
@@ -984,6 +1003,65 @@ window.GORSEL_MADDE = [
       "not": "🟡 GÖZLE DOĞRULANMADI — bkz. 'parade' kaydındaki uyarı, aynı şart geçerli."
     }
   ]
+},
+
+// ══ KARAR3-1016 (16 Ekim 2026) · 0032/H-0010 · Emre #18 — II. Mehmed sultanîsi (ANS, Public Domain Mark) ══
+{
+  "id": "1478-06-01-mehmed2-sultani-883h-ans",
+  "tur": "madde",
+  "olay": [
+    "1478-06-01|sultanî"
+  ],
+  "url": "assets/gorseller/1478-06-01-mehmed2-sultani-883h-ans.jpg",
+  "baslik": "II. Mehmed'in sultanî altını — aynı tipin 883 H (1478-79) örneği, Kostantiniyye darbı",
+  "gorsel_alt": "Bir altın sikkenin iki yüzü yan yana: solda dairesel çizgili kenar içinde, yuvarlak ve noktalarla bezenmiş Arapça harflerle sultanın adının ve darp yerinin yazılı olduğu yüz, altta tarih rakamları; sağda noktalı kenar içinde birkaç satır Arapça yazı taşıyan öbür yüz",
+  "eser": "Gold Sultani of Muhammad II 2nd reign, Qustantiniyya, 883 H — American Numismatic Society, 1997.65.4097 (altın, 3,525 g, 20 mm; atıflar: JS.0487-01 · Pere.80 · Album.1306)",
+  "sanatci": "",
+  "ic_not_sanatci": "darphane ustası adı kaynakta yok",
+  "yil": "883 H (= 1478-79; ANS kaydının yazdığı tarih)",
+  "lisans": "Public Domain Mark",
+  "gorsel_kaynak": "https://numismatics.org/collection/1997.65.4097",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (KARAR3-1016, 16 Ekim 2026) — ANS sayfası canlı okundu: 'License: Public Domain Mark (images)' (rel=nmo:hasLicense) · rightsstatements.org NoC-US/1.0 · altbilgi: 'All images of objects produced on or before 1925 are in the Public Domain'. Görsel: ön (…4097.obv.noscale.jpg, 1798×1813) + arka (…4097.rev.noscale.jpg, 1803×1818) yüz 600 px yüksekliğe indirilip yan yana tek JPEG'de birleştirildi (1210×600, 248 KB). ARAC-GORSEL-LISANS-0913b Commons içindir, bu kaynağa UYGULANMADI.",
+  "not": "Emre kararı #18 (KARARLAR-EMRE-1015 üçüncü tur; indirme onayı). Madde 1478'deki İLK basımı anlatıyor; bu sikke 883 H tarihlidir ve 'ilk basım' örneği DEĞİLDİR, aynı tipin bir yıl sonraki örneğidir — 882 H tarihli kamu malı/CC0 görsel bulunamadı (KAYNAK-1015/G5: Smithsonian NU.68.159.6040 CC0 ama görselsiz; Commons adayları CC BY-SA/PD-Art 3B kapsamaz; British Museum/Fitzwilliam CC BY-NC). ⚠️ ANS kaydının tarih aralığı alanı '1444–1445' yazıyor — 883 H ile ve '2nd reign' başlığıyla ÇELİŞİYOR (ANS'in kendi veri kusuru; 883 H = 1478-79). Sikke yazısı bu oturumda OKUNMADI, ANS başlığına dayanıldı. 0032/H-0010."
+},
+
+{
+  "id": "1534-01-01-matrakci-bagdat-beyan-i-menazil",
+  "tur": "madde",
+  "olay": [
+    "1534-01-01"
+  ],
+  "url": "assets/gorseller/1534-01-01-matrakci-bagdat-beyan-i-menazil.jpg",
+  "baslik": "Matrakçı Nasuh'un Beyân-ı Menâzil'de resmettiği Bağdat (vr. 47b-48a)",
+  "gorsel_alt": "Minyatür-harita: Dicle kıyısında surlarla çevrili Bağdat şehri, Matrakçı Nasuh'un Irakeyn seferi menzilnamesinin çift sayfalık resmi",
+  "eser": "Beyân-ı Menâzil-i Sefer-i Irâkeyn-i Sultan Süleymân Han, İstanbul Üniversitesi Kütüphanesi, T. 5964, vr. 47b-48a",
+  "sanatci": "Matrakçı Nasuh",
+  "yil": "944 H / 1537 (Commons künyesi; sefer 1534-36, eser sonrasında tamamlandı)",
+  "lisans": "PD-old",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Baghdad%2C_Folios_47b-48a%2C_Beyan-%C4%B1_Menazil_by_Matrak%C3%A7%C4%B1_Nasuh%2C_944_AH_1537_CE._Istanbul_University_Library%2C_Ms._No._5964.jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913, 18 Ekim 2026) · kategori PD-Art, PD-Art (PD-old-100-expired), PD-old-100-expired · Commons API LicenseShortName 'Public domain'",
+  "not": "Postit #77 (Emre: 'bu kronoloji maddesinde bahsedilen resmi araştırıp bulacaksın'). Madde 1534'te başlayan Irakeyn seferinin güzergâhını anlatıyor; bu yaprak güzergâhın sonundaki Bağdat'tır. Eserin kendisi 1537 tarihlidir (madde tarihi sefer yılı); Tebriz'in Commons kopyaları CC BY-SA olduğu için seçilmedi."
+},
+
+{
+  "id": "1534-01-01-matrakci-istanbul-beyan-i-menazil",
+  "tur": "madde",
+  "olay": [
+    "1534-01-01"
+  ],
+  "url": "assets/gorseller/1534-01-01-matrakci-istanbul-beyan-i-menazil.jpg",
+  "baslik": "Matrakçı Nasuh'un Beyân-ı Menâzil'de resmettiği İstanbul ve Galata (Irakeyn güzergâhının başlangıcı)",
+  "gorsel_alt": "Minyatür-harita: Haliç'in iki yakasında surlarla çevrili İstanbul ve karşısında Galata, Matrakçı Nasuh'un Irakeyn seferi menzilnamesinin İstanbul yaprağı",
+  "eser": "Beyân-ı Menâzil-i Sefer-i Irâkeyn-i Sultan Süleymân Han, İstanbul Üniversitesi Kütüphanesi, T. 5964 (Commons: 'İstanbul ve Galata betimlemesi', kırpılmış sürüm)",
+  "sanatci": "Matrakçı Nasuh",
+  "yil": "1537 (Commons künyesi; sefer 1534-36, eser sonrasında tamamlandı)",
+  "lisans": "PD-old",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Matrak%C3%A7%C4%B1_Nasuh_-_%C4%B0stanbul_(cropped-Galata).jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913b, 18 Ekim 2026) · kategori PD-old · Commons API LicenseShortName 'Public domain'. Tam sayfa sürümü (File:Matrakçı Nasuh - İstanbul.jpg) iki betikte de RED (yalnız CC-PD-Mark + eski 100-yıl kategorisi) olduğu için kullanılmadı.",
+  "not": "Postit #77 (Emre: 'bağdat ile beraber istanbul resmini de ekleyelim'). Irakeyn güzergâhının başlangıcı İstanbul'dur. Eserin kendisi 1537 tarihlidir (madde tarihi sefer yılı)."
 }
 
 ];

@@ -1,0 +1,396 @@
+[
+ {
+  "id": "kartli-erismtavari",
+  "ad": "Kartli Erismtavarlığı (Gürcü Prensliği)",
+  "tur": "prenslik",
+  "bolge": "kafkasya",
+  "f": "0580-01-01",
+  "t": "0888-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tiflis / Mtsketa",
+  "etkin_bolge": "Kartli",
+  "sehirler": [
+   "Tiflis",
+   "Mtsketa"
+  ],
+  "ozet": "Sasani/Bizans sonrası İberya prensleri (Guaram Kuropalat 588).",
+  "oncul": [
+   "iberya-kartli"
+  ],
+  "ardil": [
+   "orta-gurcistan-bagrati"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Erismtavari Araplara bağlı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "abhazya-krallik",
+  "ad": "Abhazya Krallığı",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "0786-01-01",
+  "t": "1008-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kutaisi",
+  "etkin_bolge": "Batı Gürcistan",
+  "sehirler": [
+   "Kutaisi",
+   "Sukhumi"
+  ],
+  "ozet": "II. Leon Bizans'tan bağımsızlığını ilan etti; 1008'de Bagrationi'ye katıldı.",
+  "oncul": [
+   "lazika"
+  ],
+  "ardil": [
+   "gurcistan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Sohum\" maddesi (okundu): Abhaz beyleri VIII. yy'da krallık kurdu; \"Gürcüler\" maddesi: 1008'de III. Bagrat kral unvanını aldı.",
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Kingdom of Abkhazia; atıf: Toumanoff 1956 \"Chronology of the Kings of Abasgia\", Le Muséon; Rapp 2003; Hewitt (ed.) 2013 The Abkhazians."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Abasgia/Apsilia öncül. | f=786 taslak: Wikipedia infobox 778 (Leon II bağımsızlık), 780'ler, Kutaisi 786; Toumanoff Leon II'yi 780'den sayar. t=1008: III. Bagrat 978'de Abhaz tahtında, 1008'de Kartli mirası → Gürcistan Krallığı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kaheti-hereti-prensligi",
+  "ad": "Kaheti–Hereti Korepiskoposluğu / Prensliği",
+  "tur": "prenslik",
+  "bolge": "kafkasya",
+  "f": "0787-01-01",
+  "t": "1010-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kvareli?",
+  "etkin_bolge": "Doğu Gürcistan",
+  "sehirler": [
+   "Telavi"
+  ],
+  "ozet": "Arap egemenliği sonrası doğu Gürcistan prenslikleri.",
+  "oncul": [],
+  "ardil": [
+   "kaheti-hereti-krallik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tao-klarjeti-kuropalat",
+  "ad": "Tao-Klarjeti Kuropalatlığı (Bagratlı)",
+  "tur": "prenslik",
+  "bolge": "kafkasya",
+  "f": "0813-01-01",
+  "t": "1001-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Oltu / Artanuji",
+  "etkin_bolge": "Çoruh havzası",
+  "sehirler": [
+   "Artanuji",
+   "Oltu"
+  ],
+  "ozet": "Aşot Kuropalat Bagratlı hanedanı; David III Kuropalat 1001'de öldü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut orta-gurcistan 888-1008.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "orta-gurcistan-bagrati",
+   "not": "Künye 888'den başlıyor; Tao kolu 813'ten."
+  }
+ },
+ {
+  "id": "mihranid-gardman",
+  "ad": "Mihranidler (Gardman/Arran)",
+  "tur": "hanedanlik",
+  "bolge": "kafkasya",
+  "f": "0630-01-01",
+  "t": "0822-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Gardman",
+  "etkin_bolge": "Arran",
+  "sehirler": [
+   "Gardman"
+  ],
+  "ozet": "Sasani vasalı Mihranid hanedanı.",
+  "oncul": [
+   "kafkas-arnavutlugu"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Arrân\" maddesi (okundu): Mihrânî yönetimi 822-823'te Varaz Trdat'ın öldürülmesiyle sona erdi."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Yaklaşık. | t=822 TDV 822-823 ile uyumlu (ay yok). f=630 desteklenmedi (Wikipedia: 330 ve ~600 diye farklı değerler).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ermeni-ishhan",
+  "ad": "Ermenistan Ishkhanlığı (Arap vasalı Ermeni Prensliği)",
+  "tur": "prenslik",
+  "bolge": "kafkasya",
+  "f": "0653-01-01",
+  "t": "0884-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dvin",
+  "etkin_bolge": "Ermenistan",
+  "sehirler": [
+   "Dvin"
+  ],
+  "ozet": "Teodoros Reştuni anlaşması; Aşot Bagratuni 884'te kral.",
+  "oncul": [
+   "arsakuni-ermenistan"
+  ],
+  "ardil": [
+   "ani-bagratli-kralligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "siunik-krallik",
+  "ad": "Sünik (Syunik) Krallığı",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "0987-01-01",
+  "t": "1170-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kapan",
+  "etkin_bolge": "Zangezur",
+  "sehirler": [
+   "Kapan"
+  ],
+  "ozet": "Smbat I kral ilan etti; Selçuklular ~1170.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Prenslik öncül.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tarsus-emirlik",
+  "ad": "Tarsus Tuğur Emirliği",
+  "tur": "emirlik",
+  "bolge": "anadolu",
+  "f": "0878-01-01",
+  "t": "0965-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tarsus",
+  "etkin_bolge": "Kilikya",
+  "sehirler": [
+   "Tarsus"
+  ],
+  "ozet": "Abbasî sınır emirliği; 965'te Nikephoros Phokas'a düştü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Tarsus\" maddesi (islamansiklopedisi.org.tr/tarsus, okundu): Mu'temid devrinde (870-892) Türk komutan Yâzmân Tarsus'u yönetti; sonra Tolunoğulları, İhşîdîler, Hamdânîler; 354 (965) Nikephoros Phokas Çukurova seferinde Bizans'ın eline geçti.",
+   "Vikipedi yalnız aracı (dayanak değil): List of Abbasid governors of Tarsus; atıf: Bosworth 1992 \"The City of Tarsus and the Arab-Byzantine Frontiers\", Oriens 33, s.268-286; Stern 1960 JAOS 80(3)."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Yaklaşık. | t=965 TDV teyitli (gün: Rashiq en-Nasîmî 16 Ağustos 965 teslim, Wikipedia/Bosworth; TDV gün vermez). f=878: Ahmed b. Tolun'a geçiş 878/9 (Wikipedia); Yazman 882-891. Tarsus bağımsız emirlik mi Abbâsî/Tolunî vali şehri mi: TDV ayrı emirlik dönemi vermez — polity niteliği şüpheli, ana oturum karar versin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "malatya-emirlik",
+  "ad": "Malatya (Melitene) Emirliği",
+  "tur": "emirlik",
+  "bolge": "anadolu",
+  "f": "0835-01-01",
+  "t": "0934-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Malatya",
+  "etkin_bolge": "Yukarı Fırat",
+  "sehirler": [
+   "Malatya"
+  ],
+  "ozet": "Ömer el-Akta'nın Bizans karşıtı sınır emirliği; 934'te Bizans fethi.",
+  "oncul": [],
+  "ardil": [
+   "malatya-ermeni-beyligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Emirate of Melitene; atıf: Whittow 1996 The Making of Byzantium 600-1025; Vryonis 1971. 863 Lalakaon'da Ömer el-Akta ölümü, Mayıs 934 Bizans fethi.",
+   "TDV İslâm Ansiklopedisi, \"Malatya\" maddesi okundu: yalnız 750-757 sınır savaşları, emirlik dönemi YOK."
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yaklaşık. | TDV emirlik tarihini vermedi; t=934 yalnız araç sayfasında; dogrulama taslak kalır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tefrike",
+  "ad": "Tefrike Pavlikan Devleti",
+  "tur": "devlet",
+  "bolge": "anadolu",
+  "f": "0850-01-01",
+  "t": "0872-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Tefrike (Divriği)",
+  "etkin_bolge": "Doğu Anadolu",
+  "sehirler": [
+   "Tefrike"
+  ],
+  "ozet": "Karbeas'ın Pavlikan Devleti; Basileios 872'de yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Divriği\" maddesi (islamansiklopedisi.org.tr/divrigi, okundu): belgeli tarih IX. yy ortasında Pavlikanlarla başlar; lider Karbeas kaleyi yaptırıp şehri merkez edinmiştir.",
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Tephrike; atıf: Clive Foss, \"Tephrike\", Oxford Dictionary of Byzantium, c.3."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Yaklaşık. | taslak f=0843. Karbeas ca.850 kurdu (Wikipedia/ODB). 872 (Basileios I, Hrisokheir yenilgisi) bu oturumda kaynakta teyit edilemedi; taslak t korunuyor. Pavlikan devleti ayrı polity mi, Bizans isyancı bölgesi mi: Emre kararı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sarir",
+  "ad": "Sarir (Avar) Krallığı",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "0500-01-01",
+  "t": "1239-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Humzah",
+  "etkin_bolge": "Dağıstan",
+  "sehirler": [
+   "Humzah"
+  ],
+  "ozet": "Dağıstan Avar krallığı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "ad_yerel": null,
+  "tur": "beylik",
+  "bolge": "kafkasya",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "",
+  "etkin_bolge": "Güney Dağıstan",
+  "sehirler": [],
+  "ozet": "Hudûd el-Âlem (982) ve Minorsky şerhinde anılan Layzan şahlığı ve komşu Dağıstan toprakları.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hudûd el-Âlem, çev. Minorsky 1937 (Gibb Memorial) — yalnız eserin varlığı doğrulandı, Layzan/Lakz sayfası AÇILAMADI."
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hiçbir tarih doğrulanmadı; taslak aday. Lakz, Gümük, Zerihgeran, Tabasaran ayrı kayıt yazılmadı (kaynak yok).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "id": "layzan-dagistan",
+  "ad": "Layzan (Lakz, Gümük, Zerihgeran) Dağıstan Beylikleri"
+ }
+]

@@ -30,14 +30,14 @@ window.OLAYLAR_ORTADOGU_0919 = [
 
 // ── 2. MISIR GARNİZONLARI GÜNEY HİCAZ'DAN ÇEKİLDİ (1816) ──────────────
 { t:"1816-01-01", kesinlik:"yil", b:"Mısır garnizonları güney Hicaz'da Türabe, Bîşe ve Rânye'den çekildi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Türabe",
-  gun:"1816 (Kasım 1815 ile Ağustos 1816 arası; gün bulunamadı)", yer:"Türabe, Bîşe, Rânye",
+  gun:"1816 (Kasım 1815 ile Ağustos 1816 arası)", ic_not_gun:"1816 (Kasım 1815 ile Ağustos 1816 arası; gün bulunamadı)", yer:"Türabe, Bîşe, Rânye",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Tosun Paşa'nın Vehhâbîlerle barışıp Kasım 1815'te Kahire'ye dönmesinden sonraki aylarda güney Hicaz'da karışıklık çıktı; Kavalalı Mehmed Ali Paşa'nın garnizonları Bîşe, Rânye ve Türabe'den geri çekilmek zorunda kaldı. İbrâhim Paşa'nın yeni sefer için Ağustos 1816'da Kahire'den ayrılması bu çekilişin ardından geldi. Türabe'yi Dir'iye'nin düşüşüne (1818) kadar kimin yönettiği kaynakta yazılı değil.",
   kaynak:"Lorimer, Gazetteer I/1 (1915) s.1085 (D4-ORTADOGU '1086' yazmıştı; tam metinde sayfa başlığı 1085): 'the Egyptian garrisons had been obliged to retire from Bishah, Ranyah and Turabah. In August 1816 Ibrahim Pasha … left Cairo' — çekilişin yılı çıkarımla 1816 (Tosun'un 7 Kasım 1815 dönüşü ile Ağustos 1816 arası); kaynak yıl yazmıyor, sıralama veriyor" },
 
 // ── 3. MISIR GARNİZONU HARC'TAN ÇEKİLDİ (13 AĞUSTOS 1819) ─────────────
 { t:"1819-08-13", b:"Mısır garnizonu Harc'taki Süleymiye'den çekilip Menfûha'ya ulaştı — Necid'in güneyi başsız kaldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Dilem (Harc)",
-  gun:"13 Ağustos 1819", yer:"Harc (Süleymiye, Dilem), Menfûha, Eflâc",
+  gun:"13 Ağustos 1819", yer:"Harc (Süleymiye, Dilem), Menfûha, Eflâc, Leylâ, Havta",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Dir'iye'nin yıkılışından sonra İbrâhim Paşa'nın Harc'taki Süleymiye'ye koyduğu Mısır karakolu, Paşa'nın geri çekilme emriyle yola çıkmadan önce Dilem'in dört şeyhini bir ziyafette öldürttü ve bedevîlerce kuşatıldı. Kurtarılan garnizon 13 Ağustos 1819'da Menfûha'ya ulaştı ve Kasîm'e yürüyüş başladı. Necid'in güneyinde merkezî bir otorite kalmadı; Suûd ailesinin girişimleri 1824'e kadar sonuç vermedi.",
   kaynak:"Lorimer, Gazetteer I/1 (1915) s.1091-1092: 'On the 13th of August the Sulaimiyah garrison reached Manfuhah in safety' (dipnot: Dilem şeyhlerinin öldürülmesi) · suudiler (TDV: '1824 yılına kadar bir başarı elde edemediler') · necid (TDV: 1819'da İbrâhim Paşa'nın dönüşünden sonra idarî düzenlemeler zayıfladı)" },

@@ -1,0 +1,47 @@
+diff --git a/js/app.js b/js/app.js
+index d426710d..de45c9e6 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -10124,10 +10124,24 @@ function padisahBul(t) {
+ // kartvizit 1-1 ve kesin bir bağ istiyor). `vefat_id`, önce PADISAHLAR'de
+ // sonra KISILER'de aranır; id alanları zaten benzersiz, tek fonksiyon
+ // iki kaynağı okuyor (oturumlar/ARAYUZ-3-SARTNAME.md §1).
++// 🔴 5 Ekim 2026 (UMIT-W1-APPJS-1006, tasnif P2) — "id alanları zaten benzersiz"
++//    PADISAHLAR için YANLIŞ: iki saltanatlı padişahlar (murad2 · mehmed2 ·
++//    mustafa1) saltanat başına BİR kayıt taşır, ikisi de aynı `id` ile. Eski
++//    döngü İLK eşleşmeyi döndürüyordu ⇒ Fatih'in vefat maddesi "II. Mehmed
++//    (1. saltanatı)" kartını, II. Murad'ınki 1. saltanat kaydını açıyordu.
++//    Kural: aynı id'nin kayıtlarından SON saltanat (`from` en geç) seçilir —
++//    vefat kişinin sonudur, son saltanat da (tahtta ölmediyse bile, I. Mustafa)
++//    hayatının son padişahlık kaydıdır. id'ler YENİDEN ADLANDIRILMADI: öteki
++//    atıflar mükerrerden etkilenmiyor (`padisahBul` saltanat penceresiyle,
++//    portre `id` ile okur).
+ function vefatKisiBul(id) {
+   if (!id) return null;
+-  var i;
+-  for (i = 0; i < window.PADISAHLAR.length; i++) if (window.PADISAHLAR[i].id === id) return window.PADISAHLAR[i];
++  var i, son = null;
++  for (i = 0; i < window.PADISAHLAR.length; i++) {
++    var p = window.PADISAHLAR[i];
++    if (p.id === id && (!son || gunIdx(p.from) > gunIdx(son.from))) son = p;
++  }
++  if (son) return son;
+   for (i = 0; i < (window.KISILER || []).length; i++) if (window.KISILER[i].id === id) return window.KISILER[i];
+   return null;
+ }
+@@ -15069,8 +15083,14 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } —
+         // 🔴 ÖLÇÜM KÖRLÜĞÜ, ayrı kalem: `arac/odak_olc.py` yalnız (b) yolunu
+         //    ölçüyor; bu dalı HİÇ sormuyor. Yani kapı temiz derken bu sınıf
+         //    görünmezdi (`§11`: "denetim var ≠ o soruyu soruyor").
++        // 🔴 5 Ekim 2026 (UMIT-W1-APPJS-1006, tasnif O4 · ODAK-OLC-KOR-NOKTA-1005
++        //    §2) — HAM `m` değil `kopyaMaddesi(d, m)`: devlet maddesinde `gi`
++        //    yok, `odak_kimlik` `_khGunStr(o.gi)` ister ⇒ ham `m` ile o gün
++        //    "0NaN-NaN-NaN" çıkıyor, hiçbir yerleşim aktif sayılmıyordu (129
++        //    gizli vaka). Sarmalayıcı yalnız `gi` ekler; DAL KARARI DEĞİŞMEDİ —
++        //    C dalının (kapsam_genis yok) odak okuması ayrı ürün kararıdır.
+         var _dsOdak = null;
+-        try { _dsOdak = maddeOdakKutusu(m); } catch (eDs) { _dsOdak = null; }
++        try { _dsOdak = maddeOdakKutusu(kopyaMaddesi(d, m)); } catch (eDs) { _dsOdak = null; }
+         if (_dsOdak && _dsOdak.kutu) {
+           // Kamera yolu 12866 ile BİREBİR AYNI (cameraForBounds → flyTo,
+           // düşerse fitBounds). Dördüncü bir yol açmıyoruz.

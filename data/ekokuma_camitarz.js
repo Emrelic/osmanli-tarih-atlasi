@@ -13,7 +13,7 @@
 window.EKOKUMA_CAMITARZ = [
   {
     id: "camitarz-bes-donem",
-    tur: "teknik-bilimsel",
+    tur: "mimari",
     baslik: "Osmanlı Cami Mimarisinde Beş Üslup Dönemi",
     kisa: "Erken Osmanlı'dan 19. yüzyıl ampir-eklektik üsluba, yaklaşık beş asırlık bir mimari yolculuk.",
     metin: "Osmanlı cami mimarisi tek bir üslupta donmadı; yaklaşık beş asır boyunca birbirini izleyen, her biri kendi dönemin zevkini ve teknik birikimini taşıyan aşamalardan geçti.\n\n" +
@@ -23,7 +23,7 @@ window.EKOKUMA_CAMITARZ = [
       "Osmanlı barok (18. yüzyıl ortası) o açılımın cami mimarisindeki karşılığıdır: Nuruosmaniye Camii'nin (temeli 1749) kavisli cepheleri, oval avlusu ve yoğun bezemesi, klasik dönemin sade geometrisinden kesin bir kopuştur; Fatih Camii'nin 1766 depreminden sonra 1767-71'de barok üslupla yeniden inşası aynı geçişin ikinci büyük örneğidir.\n\n" +
       "Ampir/eklektik dönem (19. yüzyıl, özellikle II. Mahmud sonrası) Balyan ailesi mimarlarının elinde Avrupa'nın barok ve empire (ampir) üsluplarını harmanladı — Nusretiye Camii bu dönemin doğrudan örneğidir; aynı üslup sarayda Dolmabahçe'de de görülür.\n\n" +
       "Beş dönem art arda gelse de birbirini tümüyle silmedi: klasik dönem kompozisyon ilkeleri (merkezî kubbe, çift minare) sonraki dönemlerde de korunurken, yalnız cephe bezemesi ve süsleme dili değişti.",
-    not: "Bu kart bir sentezdir; her dönemin somut örnek yapısı ayrı kartlarda anlatılır: klasik dönem için Üç Şerefeli Camii, Şehzade Camii, Süleymaniye, Selimiye; Osmanlı barok için Nuruosmaniye, Fatih Camii; Lâle Devri bağlamı için Sadâbad; erken Osmanlı ve ampir/eklektik için bu dosyadaki Bursa Ulucami ve Nusretiye Camii kartları.",
+    not: "Bu kart bir sentezdir; her dönemin somut örnek yapısı ayrı kartlarda anlatılır: klasik dönem için Üç Şerefeli Camii, Şehzade Camii, Süleymaniye, Selimiye; Osmanlı barok için Nuruosmaniye, Fatih Camii; Lâle Devri bağlamı için Sadâbad; erken Osmanlı ve ampir/eklektik için Bursa Ulucami ve Nusretiye Camii kartları.",
     kesinlik: "kesin",
     // UYGULA-KART-0930 (0064/H-0020): olay:[] ile hiçbir maddede görünmüyordu;
     // soru 1749-01-19 Nuruosmaniye maddesinde (olaylar_ek14.js:52) soruldu.
@@ -32,7 +32,7 @@ window.EKOKUMA_CAMITARZ = [
   },
   {
     id: "camitarz-bursa-ulucami",
-    tur: "teknik-bilimsel",
+    tur: "mimari",
     baslik: "Bursa Ulu Camii — Erken Osmanlı'nın Çok Kubbeli Başyapıtı",
     kisa: "1399-1400'de tamamlanan yirmi kubbeli Ulu Cami, merkezî tek kubbeye henüz ulaşmamış erken Osmanlı mimarisinin anıtsal örneğidir.",
     metin: "Bursa Ulu Camii, I. Bayezid (Yıldırım) döneminde inşa edilip 802 (1399-1400) yılında tamamlandı — minberindeki kitabe bu tarihi taşır. Mimarının kesin kimliği tartışmalıdır; Ali Neccâr ve Hacı İvaz Paşa adları kaynaklarda geçen adaylardandır.\n\n" +
@@ -46,7 +46,7 @@ window.EKOKUMA_CAMITARZ = [
   },
   {
     id: "camitarz-nusretiye-camii",
-    tur: "teknik-bilimsel",
+    tur: "mimari",
     baslik: "Nusretiye Camii — 19. Yüzyıl Ampir-Barok Karışımı Üslup",
     kisa: "Tophane'de 1823-1826 arasında inşa edilen Nusretiye Camii, Avrupa'nın barok ve empire (ampir) üsluplarını harmanlayan bir 19. yüzyıl Osmanlı cami örneğidir.",
     metin: "İstanbul Tophane'de 24 Şubat 1823'teki büyük bir yangının Top Arabacıları Kışlası ile birlikte yok ettiği eski mescidin yerine II. Mahmud'un emriyle yeni bir cami yaptırıldı. İnşaata Haziran 1823'te başlandı, yapı 8 Nisan 1826'da tamamlandı.\n\n" +

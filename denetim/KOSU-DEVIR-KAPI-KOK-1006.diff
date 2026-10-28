@@ -1,0 +1,42 @@
+diff --git a/KOSU-DEVIR-CEVRIMI.md b/KOSU-DEVIR-CEVRIMI.md
+index 0336d461..e2a4ce17 100644
+--- a/KOSU-DEVIR-CEVRIMI.md
++++ b/KOSU-DEVIR-CEVRIMI.md
+@@ -47,7 +47,9 @@ oturum "push reddedildi" aldı ve bir **yarım yayın siteyi kırdı**.
+ ② KAPI       node --check <her dosya>                          ← işçinin kendi sınavı
+ ③ COMMIT     açık pathspec · git show --name-only ile GÖZLE     ← D223
+ ④ DENETİM    EMRELIC: py arac/denetle.py    TEK SEFER           ← koşunun kapısı
+-⑤ KOŞU       UMIT: git pull → worktree → uret_petek.py
++⑤ KOŞU       UMIT: git pull → worktree
++             → kaynak_durum.py kapat --kod KOSU --kapi-kok <worktree>   ← ORTAM KAPISI
++             → uret_petek.py
+              → uret_devirler → kodla yay (×4 HEDEF) → kodla on-dilim → renk_olc
+              → dal push (main'e ASLA)
+ ⑥ YAYIN KAPISI  EMRELIC: denetle_yayin.py (odak · paket · kodlama · yetim)
+@@ -274,6 +276,26 @@ davrandı, yalan söyleyen dosyaydı.**
+ darboğazdan **habersiz** bekçi kurar.
+ ⇒ KALEM: `kaynak_durum.py`nin `kapat`/`ac` adımlarına commit+push eklenecek.
+ 
++### 🔴 KOŞU İLANI = MOTOR ORTAM KAPISI (koordinatör hükmü, 6 Ekim 2026)
++`kapat --kod KOSU` önce `denetim/ARAC-MOTOR-ENV-KAPI-1006.py`yi koşturur: motorun
++okuduğu her `MOTOR_*` sınıflı mı. Öterse (çıkış **4**) ya da koşamazsa (**5**) ilan
++YAZILMAZ ⇒ bekçi yasağı yok ⇒ koşu başlamamalı.
++```
++py arac/kaynak_durum.py kapat --kod KOSU --kapi-kok C:\atlas-kosu --kim <AD>
++```
++- 🔴 **`--kapi-kok` ZORUNLU SAYILIR:** koşu AYRI worktree'de koşar; bayrak yazılmazsa
++  kapı `kaynak_durum.py`nin ağacını ölçer, koşunun `uret_petek.py`sini DEĞİL.
++- Kapı koşamıyorsa tek kaçış: `--kapi-atla "<gerekçe>"`. Gerekçesiz reddedilir; ÖTEN
++  kapıda işlemez.
++- Geçen ya da atlanan her ilan iz bırakır (yazılamazsa çıkış **6**, ilan YOK):
++  `<worktree>/oturumlar/KOSU-KAPI.json` (koşunun kendi ağacında) +
++  `oturumlar/KOSU-KAPI-DEFTERI.jsonl` (ilan makinesinde, eklemeli, motor sha256 izi ile).
++  "Hangi koşu kapıyı atladı?" ⇒ defterde `"kapi":"ATLANDI"` satırının `motor` izi ↔
++  çıktının `URETIM_IZI.motor`u.
++- ⚠️ Bu bölüm `MOTOR-ENV-KAPI-1006` + `KAYNAK-DURUM-ENV-KAPI-1006` +
++  `KAYNAK-DURUM-ATLAMA-DAMGA-1006` diff'leri İNDİKTEN SONRA geçerlidir. Sıra şart: kapı
++  betiği yokken ikinci diff inerse her KOSU ilanı çıkış 5 ile reddedilir.
++
+ ---
+ 
+ ## 5 · DOSYA SAHİPLİĞİ — ve koordinatörün kendi ihlali

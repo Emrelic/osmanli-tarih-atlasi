@@ -1,0 +1,49 @@
+{
+ "DUZELTME-1": {
+  "1-anapa": {
+   "hukum": "cozuldu",
+   "not": "Anapa v:Kırım 1475-1774 kaldırıldı; d: 1475-06-06→1774-07-21 + 1781-01-01→1829-09-14 (Emre kararı). TDV cerkezler: Cenova kolonileri 1475'te Gedik Ahmed, 1479'da Kasım Paşa ile Osmanlı idaresine alındı — Anapa o cümlede adıyla anılmıyor; TDV anapa ise yalnız Kırım himayesinden sonra nüfuz alanı der. Seçim kayıtta beyanlı; başlangıç 1475-06-06 (atlas Kefe günü), 1479 ihtimali açık borç. 1774-1781 kirim s: korunur. Soçi/Tuapse/Maykop tabi:Kırım kalır.",
+   "delil": "data/yerlesimler.js (Anapa kaydı) · TDV cerkezler, anapa"
+  },
+  "2-dumetulcendel": {
+   "hukum": "cozuldu",
+   "not": "s:sammar 1836-1921 kaldırıldı, __BOSLUK__ + kaynak beyanı (Teymâ gibi). TDV dumetulcendel 19. yy hâkimini tek devlet vermiyor.",
+   "delil": "data/yerlesimler_seyrek.js Dûmetülcendel (Cevf) · TDV dumetulcendel"
+  },
+  "3-istanbul-kusatma": {
+   "hukum": "cozuldu",
+   "not": "olaylar.js:41 ve olaylar_ek.js (1453-04-06) 53→54 gün; TDV mehmed-ii «elli dört gün (6 Nisan-29 Mayıs 1453)». Mumlu gece TDV istanbul'da VAR (28/29 Mayıs mum donanması) — denetim/FETIH-1453-0081.md'ye düzeltme notu eklendi (orada 'doğrulanamadı' ifadesi bu kopyada bulunamadı; düzeltme notu yazıldı).",
+   "delil": "data/olaylar.js · data/olaylar_ek.js · denetim/FETIH-1453-0081-tdv-onbellek/istanbul.html"
+  },
+  "4-ic-delta": {
+   "hukum": "cozuldu",
+   "not": "Ebûkîr ve Katye isg: 1798-07-10→1801-05-09, 'gün komşudan: Rahmaniye' (NAPO-2/NAPO-3); Kahire 07-22 penceresi kaldırıldı. Not: veride 'Rahmaniye' adlı AYRI yerleşim kaydı yok; kaynaklı gün Dessûk/Demenhûr kayıtlarında Rahmaniye komşu olarak taşınıyor.",
+   "delil": "data/yerlesimler_afrika.js"
+  },
+  "5a-kavala": {
+   "hukum": "cozuldu",
+   "not": "olaylar_ek5 1913-09-29 metni düzeltildi; TDV kavala: Temmuz 1913 Yunanistan, 10 Ağustos 1913 Bükreş.",
+   "delil": "data/olaylar_ek5.js · TDV kavala"
+  },
+  "5b-konya-1832": {
+   "hukum": "cozulemedi",
+   "not": "1832-11-21 gün TDV'de yok (TDV konya 21 Aralık 1832 işgal; resid-mehmed-pasa: Osmanlı ordusu 20 Kasım'da Konya'da). Gencer 18 Kasım doğrulanamadı. Madde ic_not_gun ile beyanlı bırakıldı.",
+   "delil": "data/olaylar_ek4.js"
+  },
+  "5c-bahcesaray": {
+   "hukum": "cozuldu",
+   "not": "1681-01-11 → 1681-02-13 (TDV mehmed-iv: 13 Şubat 1681). 11 Şubat TDV Kara Mustafa maddesinde şartların onay günü. Bağlı ekokuma kartları güncellendi. KRONOLOJI_KIRIM/COK_UKRAYNA 1681-01-01 maddeleri dokunulmadı.",
+   "delil": "data/olaylar_ek5.js · ekokuma_antlasma7.js · ekokuma_rivayet.js"
+  },
+  "5d-erzurum-1823": {
+   "hukum": "cozuldu",
+   "not": "1823-01-01 → 1823-07-28 (TDV erzurum GET: 28 Temmuz 1823).",
+   "delil": "data/olaylar_0073_iran_yanya.js · ekokuma_antlasma7.js"
+  },
+  "5e-paris-bolgrad": {
+   "hukum": "senin-kararin",
+   "not": "TDV kili/bogdan/moldova Bolgrad'ı Boğdan'a verir; TDV paris-antlasmasi 'Bolgrad üzerinden Jalpuch gölüne uzanan bölge Rusya'ya bırakıldı' der. Atlas Boğdan'ı (3 madde) izliyor; çelişki maddede beyanlı bırakıldı, antlaşma metni gerekir.",
+   "delil": "data/olaylar_ek5.js 1856-03-30"
+  }
+ }
+}

@@ -1,0 +1,1748 @@
+[
+ {
+  "ad": "Minto Inlet (Kangiryuarmiut)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Utqiaġvik (Nuvuk / Barrow)",
+  "kova": "KABA",
+  "oneri_kur": "1000-01-01",
+  "kaynak": "Tackney et al. 2019, \"Molecular analysis of an ancient Thule population at Nuvuk, Point Barrow, Alaska\", American Journal of Physical Anthropology, doi:10.1002/ajpa.23746 (özet Europe PMC üzerinden okundu)",
+  "alinti": "The cemetery at Nuvuk contains human remains representing a nearly one thousand year uninterrupted occupation from early Thule to post-contact Iñupiat. ... We selected 44 individuals from Nuvuk with calibrated dates between 981 AD and 1885 AD",
+  "not": "Tarih Nuvuk (Point Barrow ucu) mezarlığına ait; modern Utqiaġvik kasabası ~13 km GB'de. Nokta adı Nuvuk'u içerdiği için kabul edildi. En eski kalibre mezar 981 AD; temkinli 1000. Arama özetine göre Nuvuk'ta ayrıca MS ~330-390 Ipiutak izi var (Jensen, doğrudan okunmadı).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Ulguniq (Wainwright) / Icy Cape",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. Arama özetine göre \"present village of Wainwright was not established until 1904\" (explorenorth/NOAA profili; NOAA PDF bot engelli, doğrulanmadı).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kanngiqtugaapik (Clyde River)",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1924-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Clyde River\", https://www.thecanadianencyclopedia.ca/en/article/clyde-river",
+  "alinti": "Situated on a shallow gravel ridge and surrounded by high hills, the community was not established until 1924, when the Hudson's Bay Company set up a post.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1924 arasında petek deliği/kayma açar — koordinatör kararı. Tarih HBC karakolu ile çakışıyor; kaynak daha önce yerleşim olmadığını (\"not established until\") söylüyor.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Nuiqsut (Kuukpikmiut, Colville deltası)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "UAF Project Jukebox, Gates of the Arctic portal, \"Nuiqsut\", https://jukebox.uaf.edu/gatesportal7/community/nuiqsut",
+  "alinti": "In conjunction with the 1972 Native Claims Settlement Act, Nuiqsut was resettled in 1973 by 27 families from Barrow who hauled their supplies over by tractor and snowmachine.",
+  "not": "bulunamadı (ilk yerleşim). 1973 YENİDEN iskân tarihidir, ilk yerleşim değil — eski köy daha önce vardı, tarihsiz.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kaktovik (Barter Adası)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. Barter Island için \"11,000 yıl\" iddiası explorenorth (popüler site) — kullanılmadı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Iglulik",
+  "kova": "KABA",
+  "oneri_kur": "-2000-01-01",
+  "kaynak": "Parks Canada, Directory of Federal Heritage Designations, \"Igloolik Island Archaeological Sites National Historic Site of Canada\", https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=329",
+  "alinti": "Archaeological evidence places human activity on the island as early as 2000 BCE, when the Pre-Dorset peoples were attracted to the area due to its excellent fishing and sea mammal hunting.",
+  "not": "Tarih Pre-Dorset; atlasın sahibi \"inuit\" (Thule) — Thule evresinin başlangıç yılı kaynakta YOK (\"Later occupations include both Dorset and Thule\"). Canadian Encyclopedia: \"The modern community dates from 1959\"; RC misyon 1931, HBC 1939. Ada içindeki 9 sitenin kesin konumu nokta ile birebir değil (ada ölçeği).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kittigazuit (Mackenzie İnuitleri)",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1400-01-01",
+  "kaynak": "Parks Canada, DFHD, \"Kittigazuit Archaeological Sites National Historic Site of Canada\" (HSMBC Minutes 1978/2007), https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=331",
+  "alinti": "Archaeological evidence shows that the Kittegaryumiut have occupied Kittigazuit continuously for over 500 years, between 1400 and 1900.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1400 arasında petek deliği/kayma açar — koordinatör kararı. Ayrıca DFHD: \"Dates: 1400 to 1900\". Canadian Encyclopedia (Kitigaaryuit): \"people occupied this area at least 500 years ago\"; Anglikan misyon 1911-~1917, HBC 1912-1933.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Paulatuk / Cape Bathurst",
+  "kova": "KABA",
+  "oneri_kur": "1920-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Paulatuk\", https://www.thecanadianencyclopedia.ca/en/article/paulatuk",
+  "alinti": "The Hamlet of Paulatuk, also known as Paulatuuq, dates back to the early 1920s when several Inuit settled at this site on Darnley Bay.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1920 arasında petek deliği/kayma açar — koordinatör kararı. Nokta \"Paulatuk / Cape Bathurst\" — Cape Bathurst ayrı bir yer (Paulatuk'un ~150 km BKB'si); tarih yalnız Paulatuk için.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Iqaluktuuttiaq (Cambridge Bay)",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1921-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Cambridge Bay\", https://www.thecanadianencyclopedia.ca/en/article/cambridge-bay",
+  "alinti": "Permanent settlement began when the Hudson's Bay Company set up a trading post in 1921.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1921 arasında petek deliği/kayma açar — koordinatör kararı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Bernard Harbour (Bakır İnuit)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Sanirajak (Hall Beach)",
+  "kova": "KABA",
+  "oneri_kur": "1200-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Sanirajak (Hall Beach)\", https://www.thecanadianencyclopedia.ca/en/article/hall-beach",
+  "alinti": "The area of Sanirajak is particularly rich in walrus and whales, and there is archeological evidence of walrus hunting going back to at least the 13th century.",
+  "not": "\"At least the 13th century\" — en erken desteklenen 1200; avlanma kanıtı, yerleşim değil (yine de yer-özgü). Modern topluluk 1955 DEW Line istasyonuyla doğdu: \"The current community arose in response to the opening of a DEW Line site at Sanirajak in 1955.\"",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Uqsuqtuuq (Gjoa Haven)",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1927-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Gjoa Haven\", https://www.thecanadianencyclopedia.ca/en/article/gjoa-haven",
+  "alinti": "Permanent settlement began in 1927 when the Hudson’s Bay Company moved a trading post from nearby Douglas Bay to present-day Gjoa Haven.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1927 arasında petek deliği/kayma açar — koordinatör kararı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kugaaruk (Pelly Bay)",
+  "kova": "KABA",
+  "oneri_kur": "1968-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Kugaaruk\", https://www.thecanadianencyclopedia.ca/en/article/kugaaruk",
+  "alinti": "These houses and the school and medical facilities attracted the Inuit to permanently establish here.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1968 arasında petek deliği/kayma açar — koordinatör kararı. Cümle 1968 havaalanı/prefabrik evler cümlesine bağlı (\"With the completion of an airstrip in 1968...\"); misyoner 1935'te yerleşti.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Tikiġaq (Point Hope)",
+  "kova": "KABA",
+  "oneri_kur": "0300-01-01",
+  "kaynak": "Northern Alaska National Historic Landmark Condition and Vulnerability Assessment Project, Final Report (NPS / PNW CESU P13AC01005), Aug 2016, s.13, http://depts.washington.edu/pnwcesu/reports/P13AC01005_Final_Report_redacted.pdf ; ek: University of Cambridge Museums (Polar Museum), \"Tikiġaq/Point Hope\", https://www.museums.cam.ac.uk/events/tikigaqpoint-hope",
+  "alinti": "Based on research at these and other local sites, two primary periods of occupation are known from Tikigaq; an earlier, Ipiutak, occupation (approximately 1,700–1,000 radiocarbon years before present [BP]) and a later Neo-Inuit1 occupation (1000 BP to contact era).",
+  "not": "Polar Museum: \"...believed to be the longest continuously occupied settlement in North America, with over 2,500 years of recorded history.\" İki kaynak farklı başlangıç veriyor (~MÖ 500 vs ~1700 BP); temkinli değer Ipiutak başı ~MS 300 (kalibre edilmemiş RC yılı — türetilmiş). Inuit (Neo-Inuit) evresi ~1000 BP'den.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Anaktuvuk Geçidi (Nunamiut)",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1949-01-01",
+  "kaynak": "UAF Project Jukebox, \"Anaktuvuk Pass\", https://jukebox.uaf.edu/gatesportal7/community/anaktuvuk-pass ; NPS, \"The Long Walk: The Origins of Anaktuvuk Pass\", https://www.nps.gov/articles/000/the-long-walk-origins-of-anaktuvuk-pass.htm",
+  "alinti": "In 1949, groups settled in the Anaktuvuk Pass area in order to have more regular access to school and the post office.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1949 arasında petek deliği/kayma açar — koordinatör kararı. Nunamiut göçebe kara avcılarıydı; köy 1949 \"Long Walk\" ile kuruldu. Şehir tüzel kişiliği 1959.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Vashrąįį K'ǫǫ (Arctic Village)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kugluktuk (Coppermine)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "The Canadian Encyclopedia, \"Kugluktuk\", https://www.thecanadianencyclopedia.ca/en/article/kugluktuk",
+  "alinti": "The way of life for the Inuit living around this semi-permanent fishing and sealing camp changed in 1916, when a trading post was established at the site.",
+  "not": "bulunamadı (ilk yerleşim). Kaynak 1916 karakolundan ÖNCE yarı-kalıcı kamp olduğunu söylüyor, kamp tarihi yok. Hearne 1771'de nehir ağzına ulaştı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Anaktuvuk batısı — Noatak (Nautaaġmiut)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Old Crow (Vuntut Gwitchin)",
+  "kova": "KABA",
+  "oneri_kur": "1900-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Old Crow\", https://www.thecanadianencyclopedia.ca/en/article/old-crow",
+  "alinti": "This Vuntut Gwitchin ( see Gwich'in ) settlement was established in the early 1900s when some families permanently moved here.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1900 arasında petek deliği/kayma açar — koordinatör kararı. \"Early 1900s\" → en erken 1900. Bölge (Old Crow havzası) çok eski arkeolojiye sahip ama bu YER'in yerleşimi 20. yy.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Qikiqtarjuaq (Broughton Adası)",
+  "kova": "KABA",
+  "oneri_kur": "1956-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Qikiqtarjuaq\", https://www.thecanadianencyclopedia.ca/en/article/qikiqtarjuaq",
+  "alinti": "Up until 1956-57, the settlement site was located at Kivitoo, 64 km north of the present community.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1956 arasında petek deliği/kayma açar — koordinatör kararı. Bugünkü yere taşınma 1956-57; önceki yer Kivitoo (64 km K).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Colville Lake (K'áhbamı̨túé)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kobuk (Kuuvaŋmiit)",
+  "kova": "KABA",
+  "oneri_kur": "1899-01-01",
+  "kaynak": "UAF Project Jukebox, \"Kobuk\", https://jukebox.uaf.edu/gatesportal7/community/kobuk",
+  "alinti": "The community that is now Kobuk was originally called Shungnak and beginning in 1899 was a supply point for mining activities in the Cosmos Hills, a mountain range to the north.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1899 arasında petek deliği/kayma açar — koordinatör kararı. Ardından: \"With the construction of a trading post, school, and Friends mission local people began to settle there.\" Nokta \"Kuuvaŋmiit\" halk çapası olarak kullanılıyor olabilir.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Qikiqtaġruk (Kotzebue)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı (akademik kaynak okunamadı). Kabile/şirket sayfalarının arama özetleri \"at least 600 years\" ve \"oldest excavated site on the Baldwin Peninsula is dated to 1400 AD\" diyor — doğrulanmadı. Doğrulanırsa 1281 SONRASI (~1400) olabilir — öncelikli kontrol.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kugluktuk doğusu — Bathurst Inlet (Kingaunmiut)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Alatna / Allakaket",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Naujaat (Repulse Bay)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "The Canadian Encyclopedia, \"Naujaat\", https://www.thecanadianencyclopedia.ca/en/article/repulse-bay",
+  "alinti": "The Hudson’s Bay Company built its first post in the settlement in 1916 and was joined by rival fur-trading company Révillon frères in 1924.",
+  "not": "bulunamadı. HBC karakolu 1916 (ilk yerleşim değil); Avrupalı ilk ziyaret 1741/1746; RC misyon 1932.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kiŋigin (Wales)",
+  "kova": "KABA",
+  "oneri_kur": "0770-01-01",
+  "kaynak": "Northern Alaska NHL Condition and Vulnerability Assessment, Final Report (2016), Wales NHL bölümü (Harritt 2003:57'ye atıfla), http://depts.washington.edu/pnwcesu/reports/P13AC01005_Final_Report_redacted.pdf",
+  "alinti": "The Hillside Site, (Figure 6), consists of multiple midden deposits . The site is dated to between AD 770 and 1220 and includes both Thule and historic era occupations (Harritt 2003:57).",
+  "not": "Aynı raporda: \"Kurigitavik Mound (TEL-79) ... Radiocarbon dates range from AD 1270 to 1500\" — Kurigitavik modern Wales köyünün içinde. Hillside (TEL-25) Wales NHL içinde. Temkinli seçim istenirse 1270 (Kurigitavik); her ikisi de 1281 öncesi.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Tetlit Gwich'in (Peel havzası)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Wager Körfezi (Ukkusiksalik)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Nuchalawoya (Tanana)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Beverly Gölü (Thelon, Karayer İnuit)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Qamanittuaq (Baker Lake)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "The Canadian Encyclopedia, \"Baker Lake (Qamani'tuaq)\", https://www.thecanadianencyclopedia.ca/en/article/baker-lake",
+  "alinti": "",
+  "not": "bulunamadı. Kaynakta yalnız keşif tarihleri (Christopher 1762). Noktadaki \"1916 HBC karakolu\" ilk yerleşim değil.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kinngait (Cape Dorset)",
+  "kova": "KABA",
+  "oneri_kur": "1000-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Kinngait (Cape Dorset)\", https://www.thecanadianencyclopedia.ca/en/article/cape-dorset",
+  "alinti": "Nearby Mallikjuaq Island Historic Park has evidence of over 1,000 years of occupation of the Thule and Dorset cultures.",
+  "not": "DİKKAT: tarih Kinngait'in hemen yanındaki Mallikjuaq Adası'na ait (\"nearby\"), yerleşimin kendisine değil; ~1000 türetilmiş (2012 yayın − 1000 yıl). Kesin kurala göre KAPSAM_DISI de sayılabilir. Not: noktada \"1913 karakol\".",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Native Point (Sadlermiut, Southampton Adası)",
+  "kova": "KABA",
+  "oneri_kur": "1250-01-01",
+  "kaynak": "Scientific Reports 11 (2021), \"The influence of a lost society, the Sadlermiut, on the environment in the Canadian Arctic\", doi:10.1038/s41598-021-97631-7 (özet OpenAlex üzerinden okundu)",
+  "alinti": "The sediment analyses allowed for pinpointing the first arrival of Sadlermiut culture at Native Point to ~ 1250 CE, followed by a dietary shift likely in response to the onset of cooling in the region ~ 1400 CE.",
+  "not": "Göl tortusu (paleolimnoloji) tarihi, \"~1250 CE\". Sadlermiut 1903'te tükendi (aynı özet). Native Point'te daha eski Dorset (Tunirmiut) izi de bilinir ama burada tarihlenmedi.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Tulít'a Dağ Denesi (Nahanni)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Telida / Denali eteği (Atabask)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Igluligaarjuk (Chesterfield Inlet)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "The Canadian Encyclopedia, \"Chesterfield Inlet\", https://www.thecanadianencyclopedia.ca/en/article/chesterfield-inlet",
+  "alinti": "",
+  "not": "bulunamadı. Kaynak yalnız \"The area was first explored 1761-62\" diyor. 1911 HBC karakolu ilk yerleşim değil.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Nikolai (Yukarı Kuskokwim)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Nabesna / Northway (Yukarı Tanana)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kimmirut (Lake Harbour)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "The Canadian Encyclopedia, \"Kimmirut\", https://www.thecanadianencyclopedia.ca/en/article/kimmirut",
+  "alinti": "The Inuit harvested these mammals for centuries before European whalers arrived in the mid-19th century.",
+  "not": "bulunamadı (\"for centuries\" tarih değil). Anglikan misyon 1900, HBC 1911 sonrası.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Batzulnetas (Ahtna)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. NPS Wrangell-St. Elias kaynakları köyün 1940'larda Mentasta'ya taşındığını söylüyor (arama özeti, doğrulanmadı); kuruluş tarihi yok.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Łutsël K'é (Snowdrift, Büyük Köle Gölü doğusu)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Salluit (Sugluk)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kangiqsujuaq (Wakeham Bay)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Hooper Bay (Naparyarmiut)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Arviat (Eskimo Point)",
+  "kova": "KABA",
+  "oneri_kur": "1920-01-01",
+  "kaynak": "The Canadian Encyclopedia, \"Arviat\", https://www.thecanadianencyclopedia.ca/en/article/arviat",
+  "alinti": "Permanent settlement occurred when a Hudson's Bay Co trading post was built in the early 1920s.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1920 arasında petek deliği/kayma açar — koordinatör kararı. \"Early 1920s\" → en erken 1920.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Ennadai (Ihalmiut, Karayer İnuit)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Puvirnituq",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kangirsuk (Payne Irmağı)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Iliamna / Nondalton (Dena'ina)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Klukwan (Tlingit)",
+  "kova": "KABA",
+  "oneri_kur": "1700-01-01",
+  "kaynak": "Sheldon Museum and Cultural Center (Haines, AK), \"Tlingit History\", https://www.sheldonmuseum.org/vignette/tlingit-history/",
+  "alinti": "Over 300 years ago, a few Tlingit clans from Prince of Wales Island, the Stikine River Valley, the Nass River Valley and Kupreanof Island came north and established villages at Klukwan (the Mother Village), Kalwaltu, Yandestaki and Chilkoot Lake.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–~1700 arasında petek deliği/kayma açar — koordinatör kararı. \"Over 300 years ago\" belirsiz bir alt sınır; gerçek kuruluş daha erken olabilir. Klukwan adı \"ebedî köy\" anlamında; kabilenin sözlü tarihi daha eski — akademik tarih bulunamadı. Bu, KABA'nın en zayıf örneği.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Fort Vermilion güneyi — Peace Point",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Inukjuak (Port Harrison)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. Noktadaki 1909 ticaret karakolu ilk yerleşim değildir.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Katmai (Alaska Yarımadası)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "NPS / npshistory.com, Katmai NP&P Historic Resource Study, Chapter 3, https://npshistory.com/publications/katm/hrs/chap3.htm",
+  "alinti": "During the early 1790s, the Russians established a hunting party and trading post at Katmai which was considered an odinochka by 1794.",
+  "not": "bulunamadı (ilk yerleşim). Rus karakolu 1790'lar ilk yerleşim değil. Köy 1912 Novarupta küllerinden sonra terk edildi (Perryville'e göç).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Telegraph Creek (Tlegohin)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kangiva (Nain iç bölgesi)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Fort Ware (Kwadacha)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Chignik (Alaska Yarımadası)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Pukatawagan",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Fort Severn güneyi — Winisk",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Skidegate (Haida Gwaii)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. Haida Gwaii için \"6000-8000 yıl\" bölge cümlesi yere taşınmadı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Sandy Lake (Kuzeybatı Ontario)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Bella Coola (Nuxalk)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. Bella Coola vadisi için \"~10.000 yıl\" bölge cümlesi (arama özeti) yere taşınmadı; Nuxalk köyleri 1920'lerde Q'umk'uts'ta toplandı. Noktada 1793 Mackenzie, 1869 HBC.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "SG̱ang Gwaay (Ninstints)",
+  "kova": "KABA",
+  "oneri_kur": "0100-01-01",
+  "kaynak": "ICOMOS, Advisory Body Evaluation No. 157 (Anthony Island / SGang Gwaay), 1981, https://whc.unesco.org/archive/advisory_body_evaluation/157.pdf ; ek: UNESCO WHC, https://whc.unesco.org/en/list/157/",
+  "alinti": "The first traces of human occupation date back nearly 2,000 years; the village, which at one time counted 300 inhabitants, was not deserted until shortly after 1880, when about 25 Indians still lived there.",
+  "not": "PDF OCR'ı bozuk (\"!he first traces of hurran occupation\"); alıntı OCR düzeltilmiş hâlidir. \"Nearly 2,000 years\" (1981 itibarıyla) → MS 1. yy; temkinli 100 (türetilmiş). Arama özetinde 1590±160 BP iddiası görüldü ama okunamadı (UNESCO belgesi bot engelli).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Tsilhqot'in (Çilkotin platosu)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Secwépemc (Adams Gölü)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Natashquan",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. Arama özetine göre Nutashkuan rezervi için arazi 1952'de alındı (rezerv tarihi, yerleşim değil; birincil kaynakta doğrulanmadı). Noktadaki \"19. yy HBC karakolu\" ilk yerleşim değil.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Yuquot (Nootka Sound)",
+  "kova": "KABA",
+  "oneri_kur": "-2300-01-01",
+  "kaynak": "Parks Canada, DFHD, \"Yuquot National Historic Site of Canada\", https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=54",
+  "alinti": "Continuously occupied for over 4,300 years, Yuquot village became the capital for all 17 tribes of the Nootka Sound region.",
+  "not": "\"Over 4,300 years\" → ~MÖ 2300 (türetilmiş). İspanyol Santa Cruz de Nuca 1789-1795; Cook 1778.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Obedjiwan (Atikamekw)",
+  "kova": "KABA",
+  "oneri_kur": "1911-01-01",
+  "kaynak": "Conseil des Atikamekw d'Opitciwan, \"L'histoire\", https://www.opitciwan.ca/decouvrir/lhistoire/",
+  "alinti": "Il y subsiste une population permanente depuis le début des années 1911.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1911 arasında petek deliği/kayma açar — koordinatör kararı. Kaynak (kurumsal: band konseyi) cümlesi yazım bozuk (\"début des années 1911\" ≈ 1910'ların başı). Öncesinde nüfus Kikendatch yaz buluşma yerini kullanıyordu; La Loutre/Gouin barajı 1918 eski köyü sular altında bıraktı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kızıl Kızılderili Gölü (Beothuk)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı (akademik/kurumsal tarih okunamadı). Gölde Indian Point NHS (1978) var; NL arkeoloji blogunda (nlarchaeology.wordpress.com — blog, dayanak değil) \"early historic period Beothuk date of 1595±100 AD (I-6562)\" ve tarihsiz prekontakt Beothuk-ata katmanı geçiyor. Nokta göl ölçeğinde.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Devils Lake (Mni Wakan, Dakota)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Listuguj (Restigouche)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "The Canadian Encyclopedia, \"Listuguj\", https://www.thecanadianencyclopedia.ca/en/article/listuguj",
+  "alinti": "The Gaspé Peninsula and present-day northeastern New Brunswick have been inhabited by the Mi'kmaq since time immemorial.",
+  "not": "bulunamadı (bölge cümlesi, yere taşınamaz). St Anne misyonu 1745; 8 Temmuz 1760 Restigouche muharebesi.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Madawaska (Maliseet)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Knife River (Hidatsa köyleri)",
+  "kova": "KABA",
+  "oneri_kur": "1525-01-01",
+  "kaynak": "NPS, Knife River Indian Villages NHS, \"Awatixa Xi'e Village (Lower Hidatsa)\", https://www.nps.gov/places/awatixa-xi-e-village-lower-hidatsa.htm",
+  "alinti": "Awatixa Xi'e Village, also known as Lower Hidatsa Village, was established as early as 1525 and continuously occupied for 250 years until about 1780-1785.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1525 arasında petek deliği/kayma açar — koordinatör kararı. Aynı parkta Big Hidatsa: \"Settled from 1740 until about 1850\" (https://www.nps.gov/articles/big-hidatasa-village-site.htm). Hidatsa sözlü tarihi Awatixa'nın başka yurdu olmadığını söylüyor (tarih değil).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "On-A-Slant (Mandan köyü)",
+  "kova": "KABA",
+  "oneri_kur": "1600-01-01",
+  "kaynak": "State Historical Society of North Dakota (State Museum blog), \"Adventures in Archaeology Collections: On-A-Slant Village\", https://blog.statemuseum.nd.gov/blog/adventures-archaeology-collections-slant-village ; ND Parks & Recreation, Fort Abraham Lincoln SP, https://www.parkrec.nd.gov/fort-abraham-lincoln-state-park",
+  "alinti": "It was lived in for more than two hundred years, until the late 1700s.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1600 arasında petek deliği/kayma açar — koordinatör kararı. ND Parks: \"After prospering on this site for two centuries, a smallpox epidemic hit in 1781...\" → ~1580; temkinli 1600 (türetilmiş). İkincil siteler \"1575 (ağaç halkası)\" diyor — kurumsal kaynakta OKUNAMADI, kullanılmadı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Keweenaw (Ojibwe bakır yatakları)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Lapwai (Nez Perce)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Wayám (Celilo Şelâleleri)",
+  "kova": "KABA",
+  "oneri_kur": "-9000-01-01",
+  "kaynak": "The Oregon Encyclopedia (Oregon Historical Society), \"Celilo Falls\", https://www.oregonencyclopedia.org/articles/celilo_falls/",
+  "alinti": "Archeological records date human occupation of village sites along the falls to at least 11,000 years ago.",
+  "not": "Aynı madde: \"Adjacent to the falls on the river's south shore is Celilo Village, Oregon's oldest continuously occupied site.\" \"At least 11,000 years ago\" → ~MÖ 9000 (türetilmiş). Şelale 10 Mart 1957'de The Dalles barajıyla su altında kaldı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Crow Agency (Apsáalooke)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Norridgewock (Abenaki)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Tukudeka (Koyun Yiyen Şoşoniler, Yellowstone)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Ossossané",
+  "kova": "KABA",
+  "oneri_kur": "1632-01-01",
+  "kaynak": "HistoricPlaces.ca / HSMBC, \"Ossossané Sites National Historic Site of Canada\", https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=19551",
+  "alinti": "The principal village of the Bear Clan of the Hurons from A.D. 1632-1636, it was likely inhabited before 1632, and for perhaps twelve years prior to the smallpox epidemic that swept Huronia in A.D. 1639.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1632 arasında petek deliği/kayma açar — koordinatör kararı. Köy 1636'da terk edildi (ossuary/Ölüler Bayramı). Huron köyleri ~10-20 yılda bir taşınır; \"Ossossané\" adı önceki yerlerde de kullanılmış olabilir — bu NOKTA için en erken kesin yıl 1632, \"muhtemelen biraz önce\".",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Saginaw (Ojibwe)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Camas Ovası (Kuzey Şoşoni)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Fort Klamath / Klamath Bataklığı",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Saukenuk (Sauk)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı (kurumsal kaynak okunamadı). Wikipedia \"The Sauk had arrived by 1750, probably after the Fox Wars\" diyor — kullanılmadı; doğrulanırsa 1281 sonrası kuruluş. Carver 1766 ziyareti.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Pawnee köyleri (Loup Irmağı)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kuzey Payut (Kara Kaya Çölü)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kekionga (Miami)",
+  "kova": "KABA",
+  "oneri_kur": "1700-01-01",
+  "kaynak": "Indiana Historical Bureau / Discover Indiana History, \"Historic Fort Wayne\", https://discoverindianahistory.org/items/show/247",
+  "alinti": "The most notable group that lived in the area was the Miami, who by the early 1700s were already deeply-rooted within the region and had established a capital named Kekionga.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1700 arasında petek deliği/kayma açar — koordinatör kararı. \"By the early 1700s\" — üst sınır; kuruluş yılı yok. Fransız Fort Miami ~1706 civarı (arama özeti, doğrulanmadı). Köy 1790'larda yıkıldı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Ruby Vadisi (Batı Şoşoni)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Chillicothe (Şavni)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "Ross County Historical Society, Pat Medert, \"Chillicothe and Ross County, Ohio\", https://rosscountyhistorical.org/wp-content/uploads/2020/10/CHILLICOTHEANDROSSCOUNTY.pdf",
+  "alinti": "Chillicothe, the county seat, was founded in 1796 by Nathaniel Massie, a Virginian who was a surveyor and land speculator.",
+  "not": "bulunamadı (Şavni yerleşimi için). 1796 Amerikan kasabasının kuruluşu, Şavni köyü değil. \"Old Chillicothe\" (Ohio DNR Great Council SP: \"founded in the 1770s\") BAŞKA yerdedir (Oldtown/Xenia, ~85 km KB) — buraya taşınmadı. Atlas noktası 39.3,-83.0 bugünkü Chillicothe şehri.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Uncompahgre (Ute)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Quivira (Wiçita, Büyük Bükülme)",
+  "kova": "KABA",
+  "oneri_kur": "1500-01-01",
+  "kaynak": "NPS, National Register of Historic Places Inventory — Nomination Form, \"Little River Archeological District (Tobias-Thompson Complex)\", https://npgallery.nps.gov/GetAsset?assetID=d8902c36-186e-4f52-a9ce-14f83bff03a8",
+  "alinti": "Little River Archeological District - (Tobias-Thompson Complex) - Significance The which relate to the Little River Focus of the Great Bend Aspect dating from 1500 to 1700 A.D.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1500 arasında petek deliği/kayma açar — koordinatör kararı. Ayrıca: \"...enabled the Kansas sites to be dated to 1500 to 1700 A.D.\" Coronado 1541. Nokta (38.3,-98.2) Rice County Little River bölgesine ~10-15 km.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Bishop (Owens Vadisi Payutları)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Ponca köyleri (Salt Fork)",
+  "kova": "KABA",
+  "oneri_kur": "1877-01-01",
+  "kaynak": "Oklahoma Historical Society, The Encyclopedia of Oklahoma History and Culture, \"Ponca\", https://www.okhistory.org/publications/enc/entry?entry=PO007",
+  "alinti": "The southern Ponca under principal chief White Eagle settled on a 101,000-acre reservation near the confluence of the Salt Fork and Arkansas rivers in the Cherokee Outlet (present Kay and Noble counties in Oklahoma).",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1877 arasında petek deliği/kayma açar — koordinatör kararı. Aynı madde: \"the federal government removed the Ponca to Indian Territory in 1877.\" Salt Fork'a yerleşme yılı cümlede yok; ikincil kaynaklar 1878 diyor (doğrulanmadı). Ponca'nın 1877 öncesi yurdu Nebraska (Niobrara) — bu nokta o tarihten önce Ponca yeri değil.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Timbisha (Ölüm Vadisi)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Tsegi (Canyon de Chelly)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "NPS, Canyon de Chelly, History & Culture, https://www.nps.gov/cach/learn/historyculture/index.htm",
+  "alinti": "People thrived until the mid-1300’s when the Puebloans left the canyons to seek better farmlands.",
+  "not": "bulunamadı (Navaho yerleşimi için). Atlas sahibi \"navaho\" 1281'den — oysa NPS Puebloluların 1300'lerin ortasına dek kanyonda olduğunu söylüyor; Navaho varışı 1600 sonu/1700 başı (arama özetleri, kurumsal sayfada doğrulanmadı). Hayalet devlet sınıfı (§3.5) adayı.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Occaneechi (Hillsborough)",
+  "kova": "KABA",
+  "oneri_kur": "1690-01-01",
+  "kaynak": "UNC Research Laboratories of Archaeology, Ancient North Carolinians, \"Fredricks\", https://ancientnc.web.unc.edu/indian-heritage/by-time/historic/fredricks/",
+  "alinti": "Sometime before 1700, the Occaneechi migrated south and established a village along the Eno River.",
+  "not": "SONRADAN KURULMA: kaynak bu yerin kalıcı yerleşimini 1281 SONRASINA koyuyor; atlas noktayı 1281'den beri yaşatıyor. Nokta bölge/halk çapası olarak kullanılıyorsa kur: uygulanması 1281–1690 arasında petek deliği/kayma açar — koordinatör kararı. Aynı sayfa: Fredricks sitesi (31OR231) yaklaşık \"1690-1710\" iskân; Lawson 1701 \"Aconechy Town\". Köy ~1710'da terk — atlasın 1676-... sürekliliği de sorgulanmalı. Occaneechi 1676 öncesi Virginia'da (Roanoke).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Kituwa (Çeroki ana kasabası)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı (kurumsal kaynak okunamadı). Arama özetleri platform höyüğünü ~MS 1000'e, siteyi ~10.000 yıla tarihliyor (Wikipedia/turizm). USFS/SRS yayını Steere 2015 \"Revisiting platform mounds and townhouses in the Cherokee heartland\" (https://www.srs.fs.usda.gov/pubs/ja/2015/ja_2015_steere_001.pdf) indirilemedi — doğrulanırsa KABA olur. HMDB tabelası: \"Town was destroyed in 1776 by Rutherford expedition.\"",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Spiro",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "0800-01-01",
+  "kaynak": "Oklahoma Historical Society, \"Spiro Mounds Archaeological Center\", https://www.okhistory.org/sites/spiromounds",
+  "alinti": "Although various groups of people camped on or near the Spiro area over the previous 8,000 years, the location did not become a permanent settlement until AD 800 and was used until about AD 1450.",
+  "not": "Kalıcı yerleşim AD 800; höyük merkezi ~1450'de terk (atlastaki 1450 kırılmasıyla uyumlu).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Halona:wa (Zuni)",
+  "kova": "KABA",
+  "oneri_kur": "0700-01-01",
+  "kaynak": "University of New Mexico, The Tony Hillerman Portal, \"Zuni Pueblo Village, New Mexico\", https://ehillerman.unm.edu/1015",
+  "alinti": "Zuni Pueblo is also known as Halona:wa Idiwan'a, or the Middle Place, and has been continuously occupied since at least 700 CE.",
+  "not": "ZAYIF: UNM sayfası kendi kaynağı olarak Zuni kabilesi/turizm sitelerini gösteriyor. Arkeolojik görüş (SAH Archipedia \"Zuni Pueblo\" — Cloudflare engeli, OKUNAMADI, yalnız arama özeti): Halona:wa South ~1250-1350, Halona:wa North 1300'lerin ortası. Temkinli değer 1250 olabilir; her iki değer de 1281 öncesi.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Fort Mohave (Kolorado geçidi)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Prescott / Yavapai",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Etowah",
+  "kova": "KABA",
+  "oneri_kur": "1100-01-01",
+  "kaynak": "New Georgia Encyclopedia, \"Etowah Mounds\", https://www.georgiaencyclopedia.org/articles/history-archaeology/etowah-mounds/",
+  "alinti": "The town was settled by the twelfth century; many archaeologists date the settlement at least two centuries earlier.",
+  "not": "\"By the twelfth century\" — yüzyıl düzeyi; 1100 seçildi. Kaynak 1200-1250 arası terk evresini vermiyor (arama özetleri veriyor, doğrulanmadı). İskân \"into the seventeenth century\" sürmüş.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Meskalero Apaçi (Pecos vadisi)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Moundville",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1120-01-01",
+  "kaynak": "Encyclopedia of Alabama, \"Moundville Archaeological Park\", https://encyclopediaofalabama.org/article/moundville-archaeological-park/",
+  "alinti": "The Moundville site was founded around 1120 by Native American peoples of the Mississippian period, so named for its origins along the Mississippi River.",
+  "not": "\"Around 1120\".",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Ocmulgee",
+  "kova": "KABA",
+  "oneri_kur": "0900-01-01",
+  "kaynak": "NPS, \"Georgia: Ocmulgee National Monument\", https://www.nps.gov/articles/ocmulgee.htm",
+  "alinti": "From 900 to roughly 1350, the Mississippian peoples were the dominant cultural group.",
+  "not": "Aynı sayfa: \"The Great Temple Mound was built between 900-1100 AD\" ve \"Beginning with the hunters of the Ice Age before 9000 BC and lasting until around 1715 AD, a series of peoples lived in the area\". Atlas noktası Creek (Ocmulgee Old Fields) — Creek evresinin başlangıcı kaynakta yok; 1350-~1690 arası Misisipi sonrası boşluk olabilir (bu kaynakta ölçülmedi).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Mound Key (Kalusa başkenti)",
+  "kova": "KABA",
+  "oneri_kur": "0500-01-01",
+  "kaynak": "Thompson, V.D. et al. 2016, \"From Shell Midden to Midden-Mound: The Geoarchaeology of Mound Key, an Anthropogenic Island in Southwest Florida, USA\", PLOS ONE 11(4): e0154611, https://doi.org/10.1371/journal.pone.0154611",
+  "alinti": "The distribution indicates that site occupation began probably sometime between AD 300 and 500 and began to decline around the latter half of the eighth century (see Fig 8 ).",
+  "not": "Başlangıç AD 300-500 aralığı; temkinli 500. Not: aynı makale 8. yy ikinci yarısında düşüş ve sonra 1000-1400 arası yeniden yoğun kullanım tarihleri veriyor — kesintisizlik iddia edilmiyor.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Tehuantepec",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "Ramón Celis, P.G. 2024, \"Airborne lidar at Guiengola, Oaxaca: Mapping a Late Postclassic Zapotec city\", Ancient Mesoamerica (Cambridge UP), https://www.cambridge.org/core/journals/ancient-mesoamerica/article/airborne-lidar-at-guiengola-oaxaca-mapping-a-late-postclassic-zapotec-city/B1B64017626BFDBA61955A55AD11A5BE",
+  "alinti": "The GAP has produced the first complete map of Guiengola, revealing a city that was experiencing continuous expansion and development for more than a century before Tehuantepec was established as the capital of the Zapotec people in a.d. 1440.",
+  "not": "bulunamadı (ilk yerleşim). 1440 BAŞKENT olma tarihi, yerleşim değil. ÖNEMLİ: aynı makale Zapotek akınlarının ~1350/1370'te başladığını ve Kıstağın o sırada Chontal, Mixe, Zoque, Huave yurdu olduğunu söylüyor — atlasın \"zapotek-krallik 1281'den\" dönemi bu kaynakla ÇELİŞİYOR (Değişmez/hayalet devlet sınıfı, §3.5).",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Jaragua (Taino cacicazgosu)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. Cacicazgo bir bölge siyasi birimidir, yerleşim değil; Hispaniola Taino bölge tarihleri (ör. \"plazalar AD 1000-1200\") yere taşınmadı. Not: atlas noktası 1503'te İspanya ile başlıyor — Taino dönemi hiç yok.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Higüey (Taino cacicazgosu)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. Higüey bölgesinde El Cabo sitesi (Leiden araştırmaları) var ama ~35 km doğuda — taşınmadı. Atlas noktası 1504'te İspanya ile başlıyor.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "Camagüey bölgesi (Taino)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "",
+  "alinti": "",
+  "not": "bulunamadı. Bölge noktası; Küba Taino bölge tarihleri yere taşınmadı. Atlas noktası 1514'te İspanya ile başlıyor.",
+  "tabaka": "amerika"
+ },
+ {
+  "ad": "İllîzî",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica/TDV maddesi yok (TDV arama \"Illizi\" 0). Fort Polignac (Fransız) dönemi kasaba olabilir — kaynaksız.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Cânet (Djanet)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica/TDV maddesi yok (TDV arama \"Djanet\" 0).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "İdeles",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak aranmadı/bulunamadı (küçük Ahaggar köyü).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Abalessa",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "TDV arama 0. Tin Hinan mezarı (arkeolojik, ~4-5. yy) bir ANIT, köyün kuruluşu değil — taşınmadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Bardaî",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Bardaï maddesi yok; yalnız 1965 olayı anılıyor.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Vûr",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Zûâr",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Kidal",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica/TDV maddesi yok (TDV yalnız Hamâliyye maddesinde geçiyor, tarih yok).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Faya-Largeau",
+  "kova": "KABA",
+  "oneri_kur": "1913-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Faya\", https://www.britannica.com/place/Faya",
+  "alinti": "Originally called Faya, the town was renamed Largeau following the capture in 1913 of Borkou by the French army officer Colonel Étienne Largeau; the original name was restored in the 1970s.",
+  "not": "Yalnız EN GEÇ varlık tanığı (1913'te \"Faya\" adıyla mevcut); kuruluş tarihi yok. TDV cad: yalnız 1983 olayı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Menaka",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica/TDV maddesi yok.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Tahoua",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Tahoua maddesi var ama hiçbir tarih yok; TDV nijer yalnız nüfus.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Filingue",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Nguigmi",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı (TDV arama 0).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Tillaberi",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "TDV nijer yalnız pirinç tarımında anar; tarih yok.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Madaoua",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Tera",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Birni-N'Konni",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Konni Hevsâ devleti \"ortaçağ\" (Wikipedia) — devlet düzeyi; Oxford Reference \"Birnin Konni\" girişi giriş istedi (302→login), OKUNAMADI ≠ yok.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Albreda-Cufure",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Fransızların Albreda'ya 1681'de yerleşmesi yalnız gazete/turizm/Wikipedia'da; UNESCO Kunta Kinteh sayfası (whc.unesco.org/en/list/761) Albreda'yı tarihlemiyor. 1681 bir TİCARET KARAKOLU tarihi olurdu (kural 4).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Ati",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Say",
+  "kova": "KABA",
+  "oneri_kur": "1591-01-01",
+  "kaynak": "TDV İslâm Ansiklopedisi, \"NİJER\", https://islamansiklopedisi.org.tr/nijer",
+  "alinti": "1591’de Songay Sultanlığı’nın yıkılmasından sonra bugünkü Nijer’in güneybatısındaki Say şehri giderek önem kazandı.",
+  "not": "Kuruluş değil, VARLIK TANIĞI (1591 sonrası). ⚠ ÇELİŞKİ: Wikipedia Say Emirliği'ni 1825 (Alfa Mohamed Diobo) verir ama \"Say was a small Songhai town prior to...\" der — TDV ile uyumlu; emirlik ≠ kasaba. 1591 öncesi için kaynak yok. KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Vagadugu (Ouagadougou)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica: \"capital of the historic Mossi kingdom of Wagadugu (founded in the 15th century)\" — KRALLIK tarihi, kasabaya taşınmadı (kural 2). TDV vagadugu slug 302 (ölü). TDV burkina-faso: Oubri'nin \"Uagadugu bölgesini\" katması (bölge).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Fada Ngurma (Gurma)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Diaba Lompo/13. yy kuruluş yalnız Wikipedia/popüler — kullanılmadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Tenkodogo",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "TDV burkina-faso: \"Ouédraogo Tehkodego Krallığı’nı kurdu (XII. yüzyıl sonları)\" — KRALLIK tarihi (kural 2), kasaba için değil. ⚠ Önemli: kabul edilirse 1281 öncesi varlık.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Bobo-Diulasso",
+  "kova": "KABA",
+  "oneri_kur": "1401-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Bobo Dioulasso\", https://www.britannica.com/place/Bobo-Dioulasso",
+  "alinti": "Dating (according to tradition) from the 15th century, the city was engaged in continual conflict with Kong to the south, and in the 18th century it was occupied by the Kong prince Famara Wattara, who made it the capital of the surrounding region, Gwiriko.",
+  "not": "Yalnız SÖZLÜ GELENEĞE dayanır (kaynak kendisi \"according to tradition\" diyor). Atlas mossi-vagadugu sahipliği de sorgulanmalı (Gwiriko/Kong). KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Busa (Borgu)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Borgu: \"Bussa chiefdom (founded c. 1730)\" — ŞEFLİK tarihi (kural 2), kasabaya taşınmadı. Eski Bussa 1968 Kainji gölü altında kaldı; New Bussa 1966.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Nikki (Borgu)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica: Nikki Bariba krallığının başkenti — tarih yok. ~1480 Wasangari gelişi yalnız popüler kaynakta.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Cos (Jos)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Jos: \"The town developed rapidly after the British learned, about 1903, of vast tin deposits\" — kuruluş tarihi değil; çevrede Guash/Naraguta yerleşimleri. Muhtemelen sömürge kasabası (1281 varsayımı şüpheli) ama tarih yok.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Yendi (Dagbon)",
+  "kova": "KABA",
+  "oneri_kur": "1701-01-01",
+  "kaynak": "TDV İslâm Ansiklopedisi, \"GANA\", https://islamansiklopedisi.org.tr/gana",
+  "alinti": "Bu tüccarlar, özellikle XVIII. yüzyılda ticaretin genişlemesiyle Gana bölgesine yayılarak Salaga ve Yendi gibi kuzey bölgelerdeki önemli pazarları ve yerleşim merkezlerini kurdular.",
+  "not": "TDV birincil (Müslüman Hevsâ tüccarları). \"özellikle\" kelimesi kesinliği zayıflatır; tüccarların gelişi XV. yy. Britannica Dagomba yalnız krallığı tarihler (14. yy, gelenek) — kasabaya taşınmadı. Dagbon başkentinin Yendi'ye taşınması (~1700) yalnız Wikipedia/popüler kaynakta — kullanılmadı. KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Vukari (Wukari)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Jukun: Kwararafa başkenti ruinleri araştırılmamış; Wukari için tarih yok (yalnız Wikipedia \"17. yy/1820\").",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Lokoca (Lokoja)",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1860-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Lokoja\", https://www.britannica.com/place/Lokoja",
+  "alinti": "British merchants established a trading post at the Benue-Niger confluence in the late 1850s, and in 1860 the Scottish explorer William Balfour Baikie founded Lokoja.",
+  "not": "Kuruluş 1860 (Baikie). Alan 1841'de İdah atasınca İngilizlere bırakılmış; asıl yer Patti dağı. ⚠ Atlas bu noktayı 1281'den itibaren jukun-kvararafa ile var sayıyor — 1860 öncesi ANAKRONİZM.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Nzerekore",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Nzérékoré maddesi tarihsiz.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Makurdi",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1927-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Makurdi\", https://www.britannica.com/place/Makurdi",
+  "alinti": "Founded about 1927 when the railroad from Port Harcourt (279 miles [449 km] south-southwest) was extended to Jos and Kaduna , Makurdi rapidly developed into a transportation and market centre.",
+  "not": "\"about 1927\" — yaklaşık yıl. ⚠ Atlas 1281'den tiv ile var sayıyor — ANAKRONİZM (kasaba demiryoluyla doğdu).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Buake (Bouaké)",
+  "kova": "KABA",
+  "oneri_kur": "1899-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Bouaké\", https://www.britannica.com/place/Bouake",
+  "alinti": "Bouaké was established as a French military post in 1899; it became an autonomous municipality in 1969.",
+  "not": "DİKKAT kural 4: 1899 Fransız askerî karakolu — kasabanın kuruluşu DEĞİL, yalnız EN GEÇ varlık tanığı (Baule yerleşimi daha eski olabilir, tarihli kaynak bulunamadı). Koordinatör KAPSAM_DISI sayabilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Man",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Man maddesi tarihsiz.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Batangafo",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Kaga-Bandoro",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Fort-Crampel 1897 (Émile Gentil) yalnız Wikipedia/popüler — akademik teyit yok; KARAKOL tarihi olurdu (kural 4). ⚠ Muhtemel ANAKRONİZM.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Notse",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Notsé'nin 16. yy arkeolojik kuruluşu Wikipedia'da; Quarcoopome 1993 (African Archaeological Review, doi 10.1007/BF01118144) özetinde tarih YOK; Aguigah 1986 \"Le site de Notsé\" okunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Daloa",
+  "kova": "KABA",
+  "oneri_kur": "1903-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Daloa\", https://www.britannica.com/place/Daloa",
+  "alinti": "Originally founded by two Africans, Gboto (of the Bete tribe) and Dalo (of the Guro), the town became a French military post in 1903.",
+  "not": "Kurucular adlı ama TARİHSİZ; 1903 yalnız en geç varlık (askerî karakol). Kural 4 uyarısı geçerli.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Bria",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Bossangoa",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Lagos (Eko)",
+  "kova": "KABA",
+  "oneri_kur": "1467-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Lagos\", https://www.britannica.com/place/Lagos-Nigeria",
+  "alinti": "By the late 15th century Lagos Island had been settled by Yoruba fishermen and hunters, who called it Oko.",
+  "not": "Kaynak \"en geç 15. yy sonu\" der: iskân ≤ 1500. Benin hâkimiyeti \"late 16th century\"den itibaren (aynı makale) — atlas 1281'den benin-kralligi diyor, bu ayrıca çelişiyor. Portekiz ilk çıkışı 1472. TDV \"lagos\" = bk. NİJERYA (gövde boş, kuruluş tarihi yok). KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Onitsha",
+  "kova": "KABA",
+  "oneri_kur": "1601-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Onitsha\", https://www.britannica.com/place/Onitsha-Nigeria",
+  "alinti": "Founded by adventurers from Benin (nearby, to the west) in the early 17th century, it grew to become the political and trading centre of the small Igbo (Ibo) kingdom of Onitsha.",
+  "not": "Kuruluş 17. yy başı. ⚠ Atlas 1281'den benin-kralligi ile var sayıyor — ANAKRONİZM. KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Buar (Bouar)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Bambari",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Eski Kalabar",
+  "kova": "KABA",
+  "oneri_kur": "1601-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Calabar\", https://www.britannica.com/place/Calabar",
+  "alinti": "Settled in the early 17th century by the Efik branch of the Ibibio people, the town became a centre for trade between Europeans on the coast and Africans farther inland.",
+  "not": "\"Old Calabar\" adı 15. yy Portekizlilerince kıyı halkına verilmiş (kasaba tarihi DEĞİL). KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Sassandra",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Sassandra slug 404. Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Grand Cess (Kru)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Bonny",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Bonny: \"capital of the 15th- to 19th-century kingdom of Bonny\" — KRALLIK dönemi (kural 2); kasabanın kuruluş tarihi değil. Koordinatör isterse KABA 15. yy olarak değerlendirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Marsabit",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Vacir (Wajir)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı (TDV kenya yalnız Müslüman nüfusta anar).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Masindi",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "İmpfondo",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Ouesso",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Hoima (Bunyoro)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "~1899 sömürge idare kasabası yalnız gazetede (Daily Monitor) — akademik değil. ⚠ Muhtemel ANAKRONİZM.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "İsiolo",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Garissa",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Britannica Garissa maddesi tarihsiz.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Kitui",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Pangani",
+  "kova": "KABA",
+  "oneri_kur": "0601-01-01",
+  "kaynak": "Built Heritage (Springer Nature, open access), \"Local community engagement and gazettement approach in managing and conserving Pangani historic town in Tanzania\", 14 Ağu 2024, https://doi.org/10.1186/s43238-024-00148-x",
+  "alinti": "Archaeologists have traced the origins of this town back to the seventh century through evidence from material cultures found in this area.",
+  "not": "Hakemli dergi özetinde; arkeolojik köken 7. yy. Aynı makale TIW/Tana (750-1250), Swahili (1250-1500) çanak çömlek evrelerini anar. Not: makale miras yönetimi üzerine, arkeoloji ikincil aktarım. TDV'de Pangani maddesi yok (arama 0). KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Mpvapva",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Alman bomasi 1890 başı yalnız Wikipedia; kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Morogoro",
+  "kova": "KABA",
+  "oneri_kur": "1834-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Luguru\", https://www.britannica.com/topic/Luguru",
+  "alinti": "The Luguru were periodically raided for slaves by a man named Kisabengo, who founded a fortified village where caravans stopped for supplies and obtained porters; first called Simbamwene, this became the town of Morogoro, which is an important trade centre in modern Tanzania.",
+  "not": "Önceki cümle tarih verir: \"In the mid-19th century an important east-west caravan route was established around the northern edge of the Uluguru Mountains.\" ⇒ kuruluş 19. yy ortası. ⚠ Atlas 1281'den var sayıyor — ANAKRONİZM. KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Kilosa",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kilosa Kasım 1891 (Tom von Prince karakolu) yalnız Wikipedia — akademik teyit yok; kural 4 karakol. ⚠ Muhtemel ANAKRONİZM.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Sumbavanga",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Mbeya",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "1927 kuruluşu yalnız Wikipedia/turizm; JCAS 2012 (doi 10.1080/02589001.2012.724866) Lupa altın akınını anar, Mbeya'yı tarihlemez. ⚠ Muhtemel ANAKRONİZM.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Matamba",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Matamba krallığı başkenti; kasaba tarihi bulunamadı (kural 2).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Lindi",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "11. yy kuruluş yalnız Wikipedia; Britannica Lindi slug 404; TDV arama 5 içerik eşleşmesi, kuruluş tarihi yok.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Mikindani",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "\"9. yy kuruluş / 5. yy iskân\" Wikipedia'da, Pawlowicz 2012 (Azania 47/4, doi 10.1080/0067270X.2012.723510) kaynak gösteriliyor ama tandfonline 403 — OKUNAMADI. İkinci deneme önerilir: KABA adayı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Kasempa",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Mumbva",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Toamasina (Tamatave)",
+  "kova": "KABA",
+  "oneri_kur": "1701-01-01",
+  "kaynak": "The Columbia Encyclopedia, 6th ed., \"Toamasina\", https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/toamasina ; teyit: The Statesman's Yearbook Companion (Palgrave/Springer, 2019), \"Toamasina, Madagascar\", https://link.springer.com/rwe/10.1057/978-1-349-95839-9_1279",
+  "alinti": "The town was founded in the 18th cent. around a European trading post.",
+  "not": "Statesman's Yearbook: \"The city was built around the port which served as a trading post for European merchants in the eighteenth century.\" Britannica Toamasina'da kuruluş tarihi yok. TDV madagaskar yalnız nüfus/1883 işgali. ⚠ 1281'den var sayım ANAKRONİZM. KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Ambohimanga",
+  "kova": "KABA",
+  "oneri_kur": "1501-01-01",
+  "kaynak": "UNESCO World Heritage Centre, \"Royal Hill of Ambohimanga\" (OUV beyanı), https://whc.unesco.org/en/list/950/",
+  "alinti": "Criterion (iv): The traditional design, materials and layout of the Royal Hill of Ambohimanga are representative of the social and political structure of Malagasy society from at least the 16th century.",
+  "not": "Aynı sayfa: \"...illustrating significant periods of human history between the 16th and 19th centuries\" ve \"...for the past 500 years\" (2001 yazımı ⇒ ~1500). Daha geniş \"between the 15th and 19th centuries\" cümlesi Hautes Terres medeniyeti içindir (bölge düzeyi, taşınmadı). KONVANSİYON (KABA öneri): dönemin en dar adlandırılan aralığının başı (yy = X01, \"early\" = X01, \"mid\" = X34, \"late\" = X67); \"by/en geç\" ifadelerinde üst sınır ayrıca yazılır. Koordinatör ölçütü değiştirebilir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Tsiroanomandidy",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Umtali (Mutare)",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1890-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Mutare\", https://www.britannica.com/place/Mutare",
+  "alinti": "It originated as Fort Umtali and was built by prospectors in 1890 near the junction of the Sambi and Umtara rivers.",
+  "not": "Kasaba 1890 Fort Umtali'den doğdu; yeri iki kez taşındı (demiryolu, 1898'e dek). ⚠ Atlas 1281'den manica ile var sayıyor — ANAKRONİZM. Ayrıca mevcut koordinat taşınmış (3.) yerdir.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Ambositra",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı (Britannica slug 404).",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Okahandja",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1750-01-01",
+  "kaynak": "South African History Online, \"Namibian timeline\", https://sahistory.org.za/article/namibian-timeline",
+  "alinti": "1750 Ovaherero leader Mutjise moves to Okahandja.",
+  "not": "Herero önderinin Okahandja'ya yerleşmesi; \"kuruluş\" değil ilk tarihli iskân. Misyon 1850 (aynı kaynak). SAHO ikincil kronoloji — akademik teyit önerilir. Atlas 1281'den herero ile var sayıyor: 1750 öncesi kaynaksız.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Otjimbingve",
+  "kova": "KABA",
+  "oneri_kur": "1846-01-01",
+  "kaynak": "South African History Online, \"Namibian timeline\", https://sahistory.org.za/article/namibian-timeline",
+  "alinti": "1846 Johannes Rath of the RMS establishes a mission station at Otjimbingwe in central Namibia.",
+  "not": "Misyon tarihi (kural 4) — en geç varlık. ⚠ ÇELİŞKİ: başka (Wikipedia) anlatılar misyonu 9 Temmuz 1849, Herero iskânını Ocak 1850 verir. Akademik teyit yok.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "İhosy (Bara)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Rehoboth",
+  "kova": "KABA",
+  "oneri_kur": "1844-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Rehoboth\", https://www.britannica.com/place/Rehoboth-Namibia",
+  "alinti": "Originally a site inhabited by the Nama group of Khoekhoe peoples, it was given the biblical name of Rehoboth in 1844 by a missionary who built a church there as a mission station of the Rhenish (German Lutheran) Missionary Society.",
+  "not": "Nama iskânı TARİHSİZ, 1844 misyon/ad (kural 4: misyon tarihi = en geç varlık). SAHO 1845: \"Willem Swartbooi settles at Rehoboth\". 1864 terk, 1870 Baster yeniden iskânı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Ambovombe (Antandroy)",
+  "kova": "KAPSAM_DISI",
+  "oneri_kur": null,
+  "kaynak": "bulunamadı",
+  "alinti": null,
+  "not": "Kaynak bulunamadı.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Bethanie",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1804-01-01",
+  "kaynak": "South African History Online, \"Namibian timeline\", https://sahistory.org.za/article/namibian-timeline",
+  "alinti": "1804 The Orlam family Boois (Fredericks) settle at Bethanie in southern Namibia.",
+  "not": "Orlam yerleşimi 1804; misyon 1814 (Britannica Bethanie: \"In 1814 Heinrich Schmelen ... established at Bethanie the first mission station in southwestern Africa.\"). SAHO kurumsal eğitim kaynağı (ikincil kronoloji); daha önceki Nama iskânı için tarih yok.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Varmbad (Warmbad)",
+  "kova": "KABA",
+  "oneri_kur": "1779-01-01",
+  "kaynak": "South African History Online, \"Namibian timeline\", https://sahistory.org.za/article/namibian-timeline",
+  "alinti": "In December Klaas Afrikaner is at Warmbad.",
+  "not": "Cümle \"1778-9\" maddesinin içinde ⇒ en geç Aralık 1778/79 adlı yer olarak tanıklık. Misyon: \"1806 October - The Albrecht missionaries settle at Warmbad in southern Namibia and establish a mission station.\" (aynı kaynak). Kuruluş değil tanıklık; SAHO ikincil.",
+  "tabaka": "afrika"
+ },
+ {
+  "ad": "Gcuva (Butterworth)",
+  "kova": "KAYNAKLI",
+  "oneri_kur": "1827-01-01",
+  "kaynak": "Encyclopaedia Britannica (Britannica Editors), \"Butterworth\", https://www.britannica.com/place/Butterworth-South-Africa",
+  "alinti": "One of the oldest white settlements in the Transkei region, it grew from a Wesleyan mission station founded in 1827.",
+  "not": "DİKKAT kural 4: tarih bir misyonun tarihi; ama kaynak kasabanın O MİSYONDAN DOĞDUĞUNU söylüyor (kasabanın kökeni). Atlas noktası \"Gcuva — Gcaleka büyük yeri\" olarak tanımlı; Gcaleka/Hintsa ikametgâhının ayrı ve daha eski tarihi için kaynak BULUNAMADI. Koordinatör KABA'ya indirebilir.",
+  "tabaka": "afrika"
+ }
+]

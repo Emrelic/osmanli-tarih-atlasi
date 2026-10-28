@@ -1,0 +1,288 @@
+{
+ "sinif": "yok",
+ "adlar": [
+  {
+   "ad": "Goguryeo",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    53,
+    413
+   ],
+   "ornek_maddeler": [
+    "0053-01-01 Goguryeo Kralı Taejo tahta çıktı; kalıtsal krallık sistemi oturdu (hük",
+    "0371-01-01 Goguryeo Kralı Sosurim tahta çıktı; merkezîleştirici yasalar çıkardı (",
+    "0372-01-01 Goguryeo'ya Budizm girdi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kançipuram",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    350,
+    948
+   ],
+   "ornek_maddeler": [
+    "0350-01-01 Samudragupta, Pallava kralı Vişnugopa'yı yener ve tahtına iade eder (4",
+    "0436-01-01 Pallava kralı Simhavarman'ın saltanatı başlar (Lokavibhaga'ya göre 436",
+    "0670-01-01 I. Vikramaditya Pallava başkenti Kançipuram'ı alır (yak. 670)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Orta Tuna",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    433,
+    805
+   ],
+   "ornek_maddeler": [
+    "0433-01-01 Hun hükümdarı Rua ölür; Attila ve Bleda başa geçer",
+    "0805-01-01 Han Krum Avar topraklarına ve madenlerine el koydu",
+    "0567-01-01 Avarlar orta Tuna'ya geldi, Germen kavimler geri çekildi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kuzey Vietnam",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    544,
+    979
+   ],
+   "ornek_maddeler": [
+    "0544-01-01 Ly Bon Erken Ly hanedanını (Van Xuan) kuruyor",
+    "0602-01-01 Erken Ly hanedanı sona eriyor (602/603)",
+    "0862-01-01 Nanzhao Tongking'e (Kuzey Vietnam) sefer yaptı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Tancavur",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    850,
+    1070
+   ],
+   "ornek_maddeler": [
+    "0850-01-01 Vijayalaya (yak. 850-870) Pallava topraklarını işgale başlar; Çola yük",
+    "0907-01-01 I. Parantaka Çola tahtında (907-yak. 955); Madurai'nin yıkıcısı",
+    "0985-01-01 I. Rajaraja Çola tahtında (985-1014)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Batı Francia",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    875,
+    987
+   ],
+   "ornek_maddeler": [
+    "0875-01-01 Kel Charles papa tarafından imparator tacı giydi",
+    "0877-01-01 Kel Charles öldü",
+    "0887-01-01 Şişman Charles tahttan indirildi; Robertin Odo (Paris Kontu) kral seçi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Belencer",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    652,
+    732
+   ],
+   "ornek_maddeler": [
+    "0652-08-12 Selmân b. Rebîa komutasındaki ordu Derbend'i geçip Belencer'e ulaştı v",
+    "0732-01-01 Mervân b. Muhammed Derbend'i geçip Belencer'de 40.000 kişilik Hazar ku",
+    "0652-08-12 Selmân b. Rebîa Derbend Geçidi’ni aşıp Hazar başşehri Belencer’e dayan"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Preslav",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    893,
+    971
+   ],
+   "ornek_maddeler": [
+    "0893-01-01 I. Simeon Bulgar hükümdarı oldu (893-927)",
+    "0925-01-01 Simeon 'Bütün Bulgarların Çarı' unvanını aldı; Bulgar başpiskoposu pat",
+    "0927-05-27 Simeon öldü; oğlu I. Petar çar oldu (927-969)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Yukarı Mısır",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    -4376,
+    1172
+   ],
+   "ornek_maddeler": [
+    "0750-01-01 II. Mervân Bûsîr'de öldürüldü; Emevî hâkimiyeti Mısır'da sona erdi",
+    "0750-08-05 II. Mervân Mısır'da Bûsîr'de öldürüldü; Emevî hilâfeti sona erdi",
+    "0831-04-18 Halife Me'mûn ile Beceliler arasında antlaşma (18 Nisan 831)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Negroponte",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    1205,
+    1258
+   ],
+   "ornek_maddeler": [
+    "1205-01-01 Eğriboz üç Veronalı baron (üçlü beylik) arasında bölüştürüldü",
+    "1209-01-01 Ravano dalle Carceri Venedik ile ittifak antlaşması yaptı",
+    "1209-05-20 Ravano dalle Carceri Latin İmparator'u metbu tanıdı"
+   ],
+   "kronolojide_yer_kon": [
+    38.5,
+    24
+   ]
+  },
+  {
+   "ad": "Polonnaruva",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    1070,
+    1255
+   ],
+   "ornek_maddeler": [
+    "1070-01-01 I. Vijayabahu Seylan'ı Çola işgalinden kurtardı, başkenti Polonnaruva'",
+    "1153-01-01 I. Parakramabahu Polonnaruva tahtına çıktı; Sinhala krallığı en parlak",
+    "1186-01-01 Seylan tahtı Kalinga hanedanına geçti; Nissankamalla Polonnaruva kralı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kuzey Kafkasya",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    652,
+    968
+   ],
+   "ornek_maddeler": [
+    "0708-01-01 Mesleme b. Abdülmelik Hazar topraklarında şehir ve kaleler fetheder",
+    "0652-08-12 Selmân b. Rebîa komutasındaki ordu Derbend'i geçip Belencer'e ulaştı v",
+    "0732-01-01 Mervân b. Muhammed Derbend'i geçip Belencer'de 40.000 kişilik Hazar ku"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Orta Java",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    732,
+    850
+   ],
+   "ornek_maddeler": [
+    "0732-01-01 Sanjaya Java'da hüküm sürmeye başlıyor; Mataram krallığı Şiva'ya adanm",
+    "0750-01-01 Sailendra hanedanı Java'da yükselişe geçiyor (yaklaşık 750-850)",
+    "0778-01-01 Borobudur'un inşası başlıyor (yaklaşık 778-850, Sailendra)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Sarakusta",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    778,
+    1118
+   ],
+   "ornek_maddeler": [
+    "0778-01-01 Büyük Karl Zaragoza önünden yenilgiyle çekildi",
+    "1039-01-01 Hûdîler Sarakusta'yı alıp emirliklerini kurdu",
+    "1110-01-01 Sarakusta Murâbıtlara geçti: son büyük tâife de ilhak edildi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Mağrib-i Aksâ",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    997,
+    1217
+   ],
+   "ornek_maddeler": [
+    "0997-01-14 Zîrî b. Atıyye Endülüs Emevî kuvvetlerine yenilip Sahrâ'ya çekildi",
+    "1061-01-01 Ebû Bekir b. Ömer, Fas bölgesinin yönetimini amcazadesi Yûsuf b. Tâşfî",
+    "1139-01-01 Murâbıtlar Muvahhidler'e karşı büyük bir zafer kazandı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Remle",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    524,
+    979
+   ],
+   "ornek_maddeler": [
+    "0524-01-01 Remle antlaşması: III. Münzir Bizans esirlerini serbest bıraktı",
+    "0940-09-10 Lücûn savaşı ve Remle sınırlı İbn Râik-İhşîd antlaşması: Mısır İhşîdîl",
+    "0971-01-01 Hasan el-A'sam önderliğindeki Karmatîler Dımaşk ve Remle'yi yeniden al"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Berdea",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    645,
+    982
+   ],
+   "ornek_maddeler": [
+    "0645-01-01 Selmân b. Rebîa ve Habîb b. Mesleme Arrân’ın başşehri Berdea’yı fethet",
+    "0943-01-01 Ruslar Hazar’dan Kür yoluyla gelip Berdea’yı yağmaladı ve tahrip etti",
+    "0944-01-01 Rus ordusu Arrân'ın merkezi Berdea'yı işgal etti"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kânim",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1068,
+    1210
+   ],
+   "ornek_maddeler": [
+    "1068-01-01 Kânim hükümdarı Hava İslâm'ı kabul etti (Dîvân rivayeti)",
+    "1075-01-01 Benî Dûkū'nun yerine Hummay ile Seyfiyye (Benî Seyf) hânedanı başladı",
+    "1086-01-01 Dûneme b. Hummay Kânim tahtına geçti"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Belensiye",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1094,
+    1238
+   ],
+   "ornek_maddeler": [
+    "1094-01-01 Cid (Rodrigo Díaz de Vivar) Belensiye'yi (Valencia) ele geçirdi",
+    "1102-01-01 Murâbıtlar Belensiye'yi (Valencia) aldı",
+    "1172-01-01 Muvahhidler İbn Merdenîş'in Doğu Endülüs'teki hâkimiyetine son verdi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Mürsiye",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1172,
+    1266
+   ],
+   "ornek_maddeler": [
+    "1172-01-01 Muvahhidler İbn Merdenîş'in Doğu Endülüs'teki hâkimiyetine son verdi",
+    "1228-01-01 İbn Hûd Mürsiye'de Muvahhidlere karşı ayaklanıp emirliğini ilan etti",
+    "1243-04-02 Mürsiye (Murcia) antlaşmayla Kastilya'ya teslim oldu"
+   ],
+   "kronolojide_yer_kon": null
+  }
+ ]
+}

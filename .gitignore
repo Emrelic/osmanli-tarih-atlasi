@@ -1,8 +1,12 @@
 __pycache__/
 *.pyc
-.claude/
+.claude/*
 !.claude/commands/
 !.claude/commands/*.md
+# 12 Ekim 2026: proje kancaları (kabuk_nobetci, kilit_kanca) depoda izlenir ⇒ her
+# makineye ve her worktree'ye gider. .claude/worktrees/ ve settings.local.json YEREL kalır.
+!.claude/settings.json
+!.claude/skills/
 
 # Koşu damgası — her üretimde değişir, TAKİPÇİ yerelde okur
 .uretim-basladi
@@ -153,6 +157,21 @@ denetim/_kaynak_denetim_*.json
 oturumlar/.bekci_son_*
 oturumlar/tahta.json.yeni.*
 
+# 🔴 TAHTA SUNUCUSUNUN CALISMA ZAMANI DOSYALARI (LAB olctu, 10 Ekim 2026).
+# Ikisi de MAKINEYE OZEL durum tasir ve commitlenirse YALAN soyler —
+# `tahta_bekci` damgasinin (yukarida) birebir ayni sinifi:
+#   tahta.json.sunucu  KILIT: hangi surec/makine tahtanin tek yazicisi.
+#                      Baska bir makinede bayat bir kilit "sunucu ayakta"
+#                      yalanini soyler ve ikinci bir yazici dogar ⇒ numara
+#                      cakismasi, yani sunucunun ONLEMEK ICIN kuruldugu kusur.
+#   tahta_sunucu.log   her istegi (kim · ne zaman · hangi IP) kaydeder.
+#                      Depoya girmesi gereksiz ve gurultulu; LAB gunlugu
+#                      zaten repo DISINDA tutuyor (C:\lab-araclar\tahta\).
+# ⚠️ Ikisi de BUGUN takipsiz; bu satirlar GELECEK bir commit'i onluyor.
+# `git add -A` kancayla yasak ama pathspec'li bir commit de onlari yakalar.
+oturumlar/tahta.json.sunucu
+oturumlar/tahta_sunucu.log
+
 # ── denetim/ ara dosyaları ───────────────────────────────────────────
 # `_commit_msg_*` · `_tahta_mesaj_*` · `_govde*` dökümleri: yazılan
 # metin zaten commit mesajında ya da tahtada duruyor, bu kopyalar onun
@@ -178,8 +197,16 @@ denetim/_hayir_kartlari_dump.json
 denetim/_krono0075_ham.json
 denetim/_kunye_oku_hayalet.js
 denetim/_ui_commit_msg.txt
-denetim/BEKCI-*
-denetim/LOG-*
+# 🔴 UZANTIYA BAĞLI, ÖNEKE DEĞİL (6 Ekim 2026): `denetim/BEKCI-*` deseni
+#    KASITLI RAPORLARI da yutuyordu — `denetim/BEKCI-KIMLIK-1006.md` ölçüldü
+#    ve gözardı ediliyordu (W10 bunu yaşadı). Geçici koşu çıktısı (.log/.out/
+#    .err) gözardı edilir, RAPOR (.md/.tsv/.json/.diff/.py) EDİLMEZ.
+denetim/BEKCI-*.log
+denetim/BEKCI-*.out
+denetim/BEKCI-*.err
+denetim/LOG-*.log
+denetim/LOG-*.err
+denetim/LOG-*.out
 denetim/oneri-*.txt
 
 # ── Birleştirme yedekleri ────────────────────────────────────────────
@@ -197,6 +224,20 @@ denetim/_govde/*.txt
 # `glm/_mesaj.txt`: tahtaya yazılmadan önceki taslak. Teslim tahtadadır.
 glm/_mesaj.txt
 data/ufuk_bantlari.js
+
+# ── data/dolgu.js — ÜRETİLİR AMA YAYINA GİRMEMELİ (W55b bulgusu, 6 Ekim 2026) ──
+# `uret_petek.py:7978` Ⓑ bandı aşamasında `data/dolgu.js` YAZIYOR
+# (`:7980` logda "Ⓑ dolgu → data/dolgu.js" basar). Dosya İZLENMİYOR ve bugüne
+# kadar gitignore'da da DEĞİLDİ ⇒ koşu sonrası bir ağaçta toplu ekleme onu
+# YAYINA SOKARDI.
+# 🔴 Ve o dosya YANLIŞTIR: `index.html:1779` (22 Eylül 2026) yükleyici satırını
+# KALDIRDI — "diskte YOK ve hiç üretilmedi; her ziyaretçi her açılışta bir 404
+# ödüyordu ve karşılığında hiçbir şey almıyordu; atlas zaten `window.DOLGU || []`
+# ile A görünümünde çalışıyor". ⇒ Üretilmesi sürüyor, TÜKETİCİSİ YOK.
+# ⚠️ Bu satır bir çare değil SİGORTA: asıl kusur zincirin toplu ekleme yapması
+# (`kos_ve_yayinla.py:350`, §7 yasağı) ve o düzeltme Emre'nin izin kararında.
+# Sigorta, düzeltme gelmeden de riski kesiyor.
+data/dolgu.js
 
 # ── GÖMÜLÜ DEPO — 1 Ekim 2026, ölçülmüş bir vakadan sonra ────────────
 # `ClaudEmre-kutu/` kendi `.git`ini taşıyan AYRI bir depodur. Atlas deposunun
@@ -247,6 +288,8 @@ ClaudEmre-kutu/
 # ACICI ayari — JETON ve eczanenin IC AG adresleri.  Depo HERKESE ACIK
 # (GitHub Pages kaynagi): agy/ ve parti-kasa-* ile ayni sinif.
 /oturumlar/ag.json
+# TAHTA-ISTEMCI-1010: sunucu düşüşünde yerel yazılan mesajların kuyruğu (makineye özel)
+/oturumlar/tahta_kuyruk.json*
 /oturumlar/acici.log
 
 # BEKCI NABIZ DAMGALARI — PAYLASILMAZ (gizlilik degil DOGRULUK).
@@ -272,3 +315,14 @@ ClaudEmre-kutu/
 #    Olcum kaybolmadi, yalniz depodan cikti.
 /oturumlar/GOREV-DURUM-1001.md
 /oturumlar/donanim/
+
+# DOSYA KILIDI — makineye ait CALISMA ZAMANI durumu, git'e GIRMEZ.
+# Nicin: kilit "bu makinede su an kim yaziyor" sorusunu cevaplar; commit'lenirse
+# bir makinenin anlik hali baska makinede GECMIS bir hakikat olarak gorunur
+# ve bayat bir kilit gercek bir isi bloke eder (tahta nabziyla ayni sinif).
+/oturumlar/kilit.json
+/oturumlar/kilit.json.*
+# koordinatör modu işareti (.claude/skills/koordinator-modu) — makineye yerel
+/oturumlar/MOD.json
+/oturumlar/kilit_adlar.json
+/oturumlar/tahta_bayrak.log

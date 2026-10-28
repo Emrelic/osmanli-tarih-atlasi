@@ -16,7 +16,7 @@ window.OLAYLAR_EK17 = [
   k:"kesif", onem:4, dunya:3, kapsam:"ic", etiket:["bilim","kesif","konu-bilim","konu-kesif"],
   gun:"919 (1513)", ic_not_gun:"TDV yıl verir, ay vermez",
   yer:"Gelibolu", yer_id:"Gelibolu", kisiler:"Pîrî Reis", duygu:["🧭"],
-  d:"Pîrî Reis, Gelibolu'da 919 (1513) tarihli dünya haritasını çizdi; TDV İslâm Ansiklopedisi'ne göre haritanın kaynakları arasında 'Doğu ve Batı dünyasından kendisine ulaşan eski haritalarla Kristof Kolomb'un haritası' da vardır — yani Kolomb'un o dönemde kaybolmuş kabul edilen orijinal seyir haritasının izlerini taşıdığı düşünülür. Haritayı 923'te (1517) Kahire'de Yavuz Sultan Selim'e takdim etti. Günümüze yalnız batı/Atlantik kıyılarını (İspanya, Portekiz, Batı Afrika, Güney Amerika'nın doğu kıyısı) gösteren bir PARÇASI ulaşmıştır; bu parça Topkapı Sarayı'nda 1929'da yeniden gün yüzüne çıkarıldı ve UNESCO Dünya Belleği listesindedir.",
+  d:"Pîrî Reis, Gelibolu'da 919 (1513) tarihli dünya haritasını çizdi; TDV İslâm Ansiklopedisi'ne göre haritanın kaynakları arasında 'Doğu ve Batı dünyasından kendisine ulaşan eski haritalarla Kristof Kolomb'un haritası' da vardır — yani Kolomb'un o dönemde kaybolmuş kabul edilen orijinal seyir haritasının izlerini taşıdığı düşünülür. Haritayı 923'te (1517) Kahire'de Yavuz Sultan Selim'e takdim etti. Günümüze yalnız batı/Atlantik kıyılarını (İspanya, Portekiz, Batı Afrika, Güney Amerika'nın doğu kıyısı) gösteren bir parçası ulaşmıştır; bu parça Topkapı Sarayı'nda 1929'da yeniden gün yüzüne çıkarıldı ve UNESCO Dünya Belleği listesindedir.",
   kaynak:"piri-reis + UNESCO Memory of the World (1929 keşif tarihi, TDV bu ayrıntıya değinmiyor)" },
 
 // ---------- I. Ahmed - III. Mehmed dönemi ----------
@@ -43,10 +43,10 @@ window.OLAYLAR_EK17 = [
 // konağı · TDV'nin 'başı açık, üstü perişan' tasviri · Orta Cami · kulak-burun)
 // kalan kaydın `d:` metnine TAŞINDI. Silinen tek şey mükerrer başlıktır.
 
-{ t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü", ic_not_b:"eski b soneki: — kızlarağası rivayeti doğrulanamadı (H-0003)", tur:"kisi",
+{ t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü", tur:"kisi",
   onem:2, dunya:1, kapsam:"ic", etiket:["saray","kisi","konu-kisiler","konu-hanedan"],
-  yer_id:"İstanbul",
-  d:"10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; bu yıllara dair kaynaklarda hiçbir bilgi yoktur. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer. Halk arasında kızlarağasının onu bir odaya kilitlediği anlatılır; ancak bu rivayet kaynaklarca desteklenmez. Kaynaklar yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtir.", ic_not_d:"eski ifadeler (H-0003): «TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder.» · «⚠️ RİVAYET DOĞRULANAMADI: kızlarağasının … hikâye TDV maddesinde yer almıyor; madde yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtiyor.»",
+  yer_id:"İstanbul", vefat_id:"mustafa1",
+  d:"10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; bu yıllara dair kaynaklarda hiçbir bilgi yoktur. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer.", ic_not_d:"eski ifadeler (H-0003): «TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder.» · (POSTIT-102, Emre) Kızlarağası/odaya kilitlenme anlatısı bu ölüm maddesinden çıkarıldı: o olay 1617-1618 ilk hal' dönemine aittir; ilk hal'deki Kızlar Ağası Mustafa Ağa rolü 1618-02-26 maddesinde (Hasanbeyzâde'ye dayanan TDV mustafa-i).",
   kaynak:"mustafa-i" },
 
 // ---------- IV. Murad dönemi ----------
@@ -115,7 +115,7 @@ window.OLAYLAR_EK17 = [
 { t:"1711-07-21", b:"Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti", ic_not_b:"eski b soneki: — TDV'nin kendi uyarısı", tur:"magazin",
   onem:2, dunya:2, kapsam:"ic", etiket:["diplomasi","rivayet","konu-diplomasi","konu-magazin"],
   yer_id:"Yaş",
-  d:"Prut'ta kuşatılan Rus ordusunun kurtuluşunu, I. Katerina'nın Baltacı Mehmed Paşa'ya gönderdiği hediyelere/rüşvete bağlayan popüler anlatı yüzyıllar boyunca tekrarlandı.", ic_not_d:"⚠️ TDV bunu bir TARİHÎ KAYIT değil bir EFSANE olarak tanımlıyor — kendi ifadesiyle: 'Bu konu ve I. Katerina'nın bundaki rolü daha sonraları abartılarak pek çok defa dile getirilmiş ve her seferinde biraz daha gerçeklerden uzaklaşmış olarak tekrarlanmış, nihayet olayın ayrılmaz bir efsanesi haline gelmiştir.' Hediye alışverişi kaynaklarda var, ama 'rüşvetle satıldı' hükmü sonradan büyütülmüş bir rivayettir.",
+  d:"Prut'ta kuşatılan Rus ordusunun kurtuluşunu, I. Katerina'nın Baltacı Mehmed Paşa'ya gönderdiği hediyelere/rüşvete bağlayan popüler anlatı yüzyıllar boyunca tekrarlandı.", ic_not_d:"⚠️ TDV bunu bir TARİHÎ KAYIT değil bir EFSANE olarak tanımlıyor — kendi ifadesiyle: 'Bu konu ve I. Katerina'nın bundaki rolü daha sonraları abartılarak pek çok defa dile getirilmiş ve her seferinde biraz daha gerçeklerden uzaklaşmış olarak tekrarlanmış, nihayet olayın ayrılmaz bir efsanesi haline gelmiştir.' [TDV: prut-antlasmasi] Hediye alışverişi kaynaklarda var, ama 'rüşvetle satıldı' hükmü sonradan büyütülmüş bir rivayettir.",
   kaynak:"prut-antlasmasi" },
 
 { t:"1711-07-21", b:"Prut'ta 'kaçırılan fırsat' tartışması — iki görüş", tur:"tartisma",
@@ -195,13 +195,13 @@ window.OLAYLAR_EK17 = [
   d:"1369 kışını Edirne Sarayı'nda geçiren I. Murad, baharda Bizans'a karşı yeniden harekete geçti ve Istıranca dağlarının eteğindeki Pınarhisar, Kırkkilise ve Vize kalelerini ele geçirdi. Bu fetihler İstanbul'da paniğe yol açtı ve İmparator V. Ioannes yardım aramak için papaya gitmeye karar verdi.", ic_not_d:"Kırklareli ve Vize adıyla kaynaklı (TDV murad-i); Kofçaz, Dereköy, Demirköy, Malko Tırnova şartlı komşu günüyle (Kırklareli). İğneada, Ahtopol, Rezovo için fetih yılı BULUNAMADI — 1361-01-01'de BIRAKILDI (Emre sorusu, UYGULA 16 Eyl); Havsa · Orestiada · Lalapaşa Edirne maddesine (1361-05-05), Mustafapaşa T4 bekliyor. TDV kirklareli ayrıca 1366 ve 1368-69 yıllarını anar.",
   kaynak:"murad-i · kirklareli", duygu:["⚔️","🎌"] },
 
-{ t:"1534-06-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
-  b:"Kars çevresinin bütünleşmesi: Arpaçay, Digor ve Iğdır'ın Osmanlı idaresine girmesi",
-  gun:"1534", ic_not_gun:"TDV doğrudan tarih vermiyor — Kars'ın alınışıyla aynı güne bağlandı",
-  yer:"Arpaçay (Akyaka), Digor, Iğdır", yer_id:"Kars",
+{ t:"1534-06-01", kesinlik:"ay", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+  b:"Kars çevresinin bütünleşmesi: Şüregel, Arpaçay ve Digor'un Osmanlı idaresine girmesi",
+  gun:"Haziran 1534 (ay hassasiyeti; gün kaynakta yok)", ic_not_gun:"DOGU-1533-0087 (koordinatör hükmü): ay TDV irakeyn-seferi'nden — \"Mayıs 1534’te Diyarbekir’e gelerek … Tebriz’e yöneldi\" · \"Üsküdar’dan hareket eden (14 Haziran 1534) padişah da Erzurum’a ulaşmış bulunuyordu\". Kars'ın günü KULLANILMADI (D207). ⚠️ TDV Şüregel'in alınış AYINI ayrıca vermiyor; ay seferin takviminden okunur.",
+  yer:"Arpaçay (Akyaka), Digor, Küçükperveli", yer_id:"Kars",
   kisiler:"Makbul İbrahim Paşa",
-  d:"Irakeyn Seferi'nin öncü kolu Kars'ı aldığında, kalenin hemen kuzey ve doğusundaki Arpaçay, Digor ve Iğdır ovaları da aynı harekâtla Osmanlı denetimine girdi.", ic_not_d:"⚠️ TDV'nin `irakeyn-seferi` ve `kars` maddeleri bu üç yerleşimi ayrı ayrı ANMIYOR; tarih Kars'ın kendi fetih gününe dayanarak ÇIKARIMLA verilmiştir, TDV alıntısı değildir. 🔴 GÖREV TARİFİNDEKİ Gümrü ve Eçmiyadzin BU MADDEYE DAHİL EDİLMEDİ — yerlesimler.js kaydında ikisinin de bu tarihte (hatta hiçbir zaman 1828'e/Rusya'ya kadar) Osmanlı dönemi yok, akkoyunlu→safevi→afşar→zend→kacar zinciri kesintisiz. Bu bir veri çelişkisidir, koordinatöre bekletilmeden bildirildi (M-1368), çözülene kadar yazılmadı.",
-  kaynak:"kars + irakeyn-seferi (yalnız çıkarım, alıntı değil)", duygu:["🎉"] },
+  d:"Irakeyn Seferi sırasında Pasin, Şüregel ve Oltu kaleleri Osmanlılar'ın eline geçti; Kars Kalesi'nin de bu sırada bağlandığı kuvvetle muhtemeldir. Kars'ın kuzey ve doğusundaki Arpaçay ve Digor yöresi aynı harekâtla Osmanlı denetimine girdi.", ic_not_d:"🆕 DOGU-1533-0087 (9 Ekim 2026): IĞDIR ÇIKARILDI — TDV igdir--sehir: Iğdır ve Sürmeli Çukur 1583'te Revan'ın fethiyle kesin Osmanlı oldu, 1736'da Revan eyaletiyle İran'a kaldı, 1828-1917 Rus; 1534'te Osmanlı DEĞİL. Şüregel TDV kars'ta ADIYLA geçer (Küçükperveli Şüregel/Akyaka'ya 7,5 km — W6-DALGA2); Arpaçay (Zaruşad) ve Digor için 1534 hâlâ ÇIKARIMDIR. Kars'ın kendisi TDV'de 'kuvvetle muhtemel'dir. ⚠️ TDV'nin `irakeyn-seferi` ve `kars` maddeleri bu üç yerleşimi ayrı ayrı ANMIYOR; tarih Kars'ın kendi fetih gününe dayanarak ÇIKARIMLA verilmiştir, TDV alıntısı değildir. 🔴 GÖREV TARİFİNDEKİ Gümrü ve Eçmiyadzin BU MADDEYE DAHİL EDİLMEDİ — yerlesimler.js kaydında ikisinin de bu tarihte (hatta hiçbir zaman 1828'e/Rusya'ya kadar) Osmanlı dönemi yok, akkoyunlu→safevi→afşar→zend→kacar zinciri kesintisiz. Bu bir veri çelişkisidir, koordinatöre bekletilmeden bildirildi (M-1368), çözülene kadar yazılmadı.",
+  kaynak:"kars (Şüregel · 940/1534 adıyla; Arpaçay/Digor çıkarım) + irakeyn-seferi (ay) + igdir--sehir (Iğdır'ın çıkarılması)", duygu:["🎉"] },
 
 { t:"1686-08-30", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
@@ -212,11 +212,19 @@ window.OLAYLAR_EK17 = [
   kaynak:"anabolu", duygu:["😔"] },
 
 { t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
-  b:"Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı",
+  b:"Semendire'nin Habsburg (Macaristan Krallığı tacı) elinden geri alınışı — 1737-39 Savaşı",
   gun:"Ağustos 1738", ic_not_gun:"TDV ay verir, gün vermez",
   yer:"Semendire", yer_id:"Semendire",
   kisiler:"I. Mahmud",
-  d:"TDV'nin Semendire maddesine göre 1717'de Pasarofça'yla Avusturya'ya bırakılan kale, 1737'de başlayan Osmanlı-Avusturya Savaşı'nın Tuna-Sava cephesindeki Osmanlı ilerleyişiyle geri alındı; Avusturya kuvvetleri bölgede Ağustos 1738'e kadar tutunabildi, bu tarihten sonra Semendire yeniden Osmanlı idaresine girdi. Bir yıl sonra imzalanan Belgrad Antlaşması (1739-09-18) bu kazancı — Belgrad ve kuzey Sırbistan ile birlikte — tescil edecekti.", ic_not_d:"⚠️ Aynı gün Kırım'da gerçekleşen 'Özi'nin geri alınışı' maddesiyle KARIŞTIRILMASIN — 1000 km uzakta, ayrı cephe, ayrı olay; yalnızca tarih rastlantısal olarak örtüşüyor.",
+  d:"TDV'nin Semendire maddesine göre 1717'de Pasarofça'yla Avusturya'ya bırakılan kale, 1737'de başlayan Osmanlı-Avusturya Savaşı'nın Tuna-Sava cephesindeki Osmanlı ilerleyişiyle geri alındı; Habsburg (Macaristan Krallığı tacı) kuvvetleri bölgede Ağustos 1738'e kadar tutunabildi, bu tarihten sonra Semendire yeniden Osmanlı idaresine girdi. Bir yıl sonra imzalanan Belgrad Antlaşması (1739-09-18) bu kazancı — Belgrad ve kuzey Sırbistan ile birlikte — tescil edecekti.", ic_not_d:"⚠️ Aynı gün Kırım'da gerçekleşen 'Özi'nin geri alınışı' maddesiyle KARIŞTIRILMASIN — 1000 km uzakta, ayrı cephe, ayrı olay; yalnızca tarih rastlantısal olarak örtüşüyor.",
+  kaynak:"semendire", duygu:["🎉"] },
+
+{ t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+  b:"Morava vadisinin Osmanlı idaresine dönüşü — Yagodina, Kragujevac ve Çaçak",
+  gun:"Ağustos 1738", ic_not_gun:"gün komşudan: Semendire (TDV semendire ay verir, gün vermez); bu üç yer için ayrı kaynak kaydı BULUNAMADI — SIRADA-A-1012",
+  yer:"Yagodina, Kragujevac, Çaçak (Morava vadisi)", yer_id:"Kragujevac", odak_yer:["Yagodina (Jagodina)","Kragujevac","Çaçak"],
+  kisiler:"",
+  d:"Semendire'nin Ağustos 1738'de geri alınmasıyla Semendire ile Osmanlı ana gövdesi arasında kalan Morava vadisi de Osmanlı idaresine döndü: Yagodina, Kragujevac ve Çaçak bu tarihten itibaren Osmanlı sayılır. Kaynaklar bu üç yerin dönüşünü ayrıca günleyip anmaz; harita Semendire'nin günüyle çalışır. Belgrad Antlaşması (1739-09-18) bu durumu tescil etti.",
   kaynak:"semendire", duygu:["🎉"] },
 
 { t:"1815-11-05", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
@@ -224,8 +232,8 @@ window.OLAYLAR_EK17 = [
   gun:"5 Kasım 1815",
   yer:"Ayamavra (Lefkada)", yer_id:"Ayamavra (Lefkada)",
   kisiler:"Robert Stewart (Castlereagh), Klemens von Metternich",
-  d:"1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan AYRI bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti.", ic_not_d:"⚠️ TDV bu maddeyi kapsamıyor — Napolyon sonrası İyon Adaları meselesi Osmanlı'nın artık taraf olmadığı bir Avrupa iç düzenlemesidir; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Paris').",
-  kaynak:"bulunamadı — TDV bu dönemi/bölgeyi kapsamıyor, dayanak: Encyclopaedia Britannica 'Treaty of Paris (1815)'", duygu:["🏴"] },
+  d:"1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan ayrı bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti.", ic_not_d:"KUTU-H4-1015: önceki not 'TDV kapsamıyor' diyordu — YANLIŞ. TDV 'Yedi Ada Cumhuriyeti' maddesi 5 Kasım'da Paris'te İngiltere, Avusturya, Prusya ve Rusya arasında imzalanan mukavelenâmeyle adaların İngiltere'ye bırakıldığını ve Osmanlı'nın kongreye katılmadığını yazar (15 Ekim 2026'da GET ile okundu).",
+  kaynak:"yedi-ada-cumhuriyeti", duygu:["🏴"] },
 
 { t:"1688-01-17", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Munkács (Mukacheve) kalesinin üç yıllık kuşatma sonrası Avusturya'ya teslimi",
@@ -233,6 +241,29 @@ window.OLAYLAR_EK17 = [
   yer:"Munkács (Mukacheve)", yer_id:"Munkács (Mukacheve)",
   kisiler:"İlona Zrínyi, General Antonio Caraffa",
   d:"İmparatorluk kuvvetlerince 1685 sonunda kuşatılan Munkács kalesi, Thököly İmre'nin eşi İlona Zrínyi idaresinde üç yıl boyunca direndi; çok sayıda yayımlanmış başvuru eserine göre kale 17 Ocak 1688'de General Antonio Caraffa'ya teslim edildi. Bu, Osmanlı-Habsburg cephesinde Macaristan'daki Osmanlı yanlısı direnişin son büyük kalelerinden birinin düşüşüydü.", ic_not_d:"⚠️ VERİ DÜZELTMESİ: `data/yerlesimler_ek_macaristan.js`'i yazan oturum, Değişmez 2'yi açmamak için BİLEREK bu tarihi Eğri'nin (Eger, ~250 km uzak, ayrı bir kuşatma) düşüş gününe (1687-12-17) eşitlemiş ve bunu kendi yorumunda açıkça 'sadeleştirme, ölçüm değil' diye işaretlemişti — çare olarak da tam bu maddenin yazılmasını önermişti. Bu madde inince koordinatör tarihi 1687-12-17 → 1688-01-17 olarak GERÇEĞİNE çekti (§7, VERİ SAHİPLİK/koordinatör yetkisi); ikisi AYNI turda inmezse Değişmez 2 açılırdı.",
-  kaynak:"bulunamadı — TDV'de Munkács'ın müstakil maddesi yok, 17 Ocak 1688 tarihi çok sayıda yayımlanmış başvuru eserinde (hungarianottomanwars.com, Encyclopedia.com, Wikipedia) tekrarlanıyor ama hakemli akademik kaynakta doğrulanamadı — CLAUDE.md §4 kırmızı çizgisi gereği bu popüler/derleme kaynaklar tek dayanak sayılmadı, eksiklik açıkça yazıldı" },
+  kaynak:"bulunamadı — TDV'de Munkács'ın müstakil maddesi yok, 17 Ocak 1688 tarihi çok sayıda yayımlanmış başvuru eserinde (hungarianottomanwars.com, Encyclopedia.com, Wikipedia) tekrarlanıyor ama hakemli akademik kaynakta doğrulanamadı — kaynak kuralı gereği bu popüler/derleme kaynaklar tek dayanak sayılmadı, eksiklik açıkça yazıldı" },
+
+// ── DOGU-SAFEVI-0086 (9 Ekim 2026): üç kırılmanın maddesi — 0086/H-0002 · H-0007 ──
+{ t:"1485-01-01", kesinlik:"yil", k:"siyaset", etiket:["siyaset","toprak-kayip","konu-siyasi"], kapsam:"dis",
+  b:"Taşkent Moğulistan hanı Yûnus Han'ın idaresine geçti",
+  gun:"890 (1485) — yıl hassasiyeti; ay ve gün kaynakta yok", yer:"Taşkent", yer_id:"Taşkent",
+  kisiler:"Yûnus Han, Mahmud Han", taraflar:["timurlu","mogulistan"],
+  d:"Timurlu şehzadeleri arasındaki taht mücadelesi sırasında Taşkent ve çevresi Doğu Çağatay (Moğulistan) hanı Yûnus Han'ın eline geçti. İki yıl sonra Yûnus Han ölünce yerine oğlu Mahmud Han geçti; şehir 1503'te Şeybânî Han'ın Özbekleri alana kadar Moğul hanlarında kaldı.",
+  kaynak:"TDV taskent: 'Timurlular arasında başlayan taht mücadelesi neticesinde Taşkent ve çevresi Yûnus Han’ın idaresine girdi (890/1485).' · 'Yûnus Han iki yıl sonra vefat edince yerine oğlu Mahmud Han geçti.'" },
+
+{ t:"1504-01-01", kesinlik:"yil", k:"kayip", etiket:["toprak-kayip","konu-siyasi","maveraunnehir"], kapsam:"dis",
+  b:"Bâbür Fergana'yı Özbekler'e bırakıp Kâbil'e gitti",
+  gun:"1504 — yıl hassasiyeti; ay ve gün kaynakta yok", yer:"Fergana (Endican, Oş, Hokand, Hucend)", yer_id:"Andican",
+  kisiler:"Bâbür, Muhammed Şeybânî Han", taraflar:["timurlu","buhara"],
+  d:"Ömer Şeyh Mirza'nın oğlu Timurlu Bâbür, 1494'ten beri hüküm sürdüğü Fergana'yı Muhammed Şeybânî Han'la yaptığı savaşlardan sonra Özbekler'e bıraktı ve Hindukuş'u aşarak Kâbil'e yerleşti.",
+  ic_not_d:"Fergana noktaları bu maddeyle 1504'te Buhara (Şeybânî) kimliğine geçer; 1500-01-01 açılışı Semerkant/Buhara şablonundandı ve kaynaksızdı. ⚠️ kronoloji_cok_orta_asya2.js 1503-06-01 Aksı maddesi 'Fergana … Özbek eline geçti' der (Britannica/EI² web özeti); TDV fergana ve babur 1504 der — TDV esas.",
+  kaynak:"TDV fergana: 'Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.' · TDV babur: 'Fergana hâkimiyeti (1494-1504)'" },
+
+{ t:"1538-10-01", kesinlik:"ay", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"], kapsam:"dis",
+  b:"Şirvanşahlar'ın sonu: Elkas Mirza Şâhruh'u esir aldı, Şirvan Safevî vilâyeti oldu",
+  gun:"Ekim 1538 (945 Cemâziyelevveli) — ay hassasiyeti", yer:"Şamahı, Bakü, Şâbüran, Kabala, Ereş, Mahmudâbâd, Salyan, Kuba — Şirvan", yer_id:"Şamahı",
+  kisiler:"Şah I. Tahmasb, Elkas Mirza, Şirvanşah Şâhruh", taraflar:["sirvansah","safevi"],
+  d:"Şah Tahmasb'ın gönderdiği Elkas Mirza Şirvan'ı yağmalayıp Baykurd Kalesi'ni zaptetti ve on beş yaşındaki Şirvanşah Şâhruh'u esir alarak Tebriz'e götürdü. Bölgede uzun süre hâkimiyetini sürdüren Şirvanşahlar idaresi böylece sona erdi; Şirvan Safevî Devleti'nin bir vilâyeti oldu.",
+  kaynak:"TDV sirvansahlar: 'Safevîler bölgeyi yağma edip 945 Cemâziyelevvelinde (Ekim 1538) Baykurd Kalesi’ni zaptettiler ve şiddetli savaşlardan sonra on beş yaşındaki Şâhruh’u esir alarak Tebriz’e götürdüler.' · TDV sirvan: 'Şah Tahmasb’ın 1538’de Şirvanşahlar’ın hâkimiyetine son vermesinin ardından bölge Safevî Devleti’nin bir vilâyeti haline geldi.'" },
 
 ];

@@ -1,0 +1,22 @@
+diff --git a/data/yerlesimler_kamerika.js b/data/yerlesimler_kamerika.js
+index cda853f5..526296cf 100644
+--- a/data/yerlesimler_kamerika.js
++++ b/data/yerlesimler_kamerika.js
+@@ -795,7 +795,7 @@ window.YERLESIMLER_KAMERIKA = [
+     s:[{f:"1281-01-01",t:"1876-08-23",d:"kri"},{f:"1876-08-23",t:"1923-10-29",d:"kanada"}],
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
+   { ad:"Kızıl Kızılderili Gölü (Beothuk)", tur:"sehir", lat:48.65, lon:-56.85, g:0,
+-    s:[{f:"1281-01-01",t:"1829-06-06",d:"beothuk"},{f:"1829-06-06",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    s:[{f:"1281-01-01",t:"1829-06-06",d:"beothuk"},{f:"1829-06-06",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}],
+     kaynak:"bulunamadı", not:"Beothuk iç kışlakları; halk 1829'da tükendi · dayanak: HNAI c.15 Northeast (Smithsonian)" },
+   { ad:"Fort Colvile", tur:"kale", lat:48.617, lon:-118.1, g:0,
+     kur:"1825-01-01",
+@@ -871,7 +871,7 @@ window.YERLESIMLER_KAMERIKA = [
+     kaynak:"bulunamadı", not:"dayanak: Historical Atlas of Canada" },
+   { ad:"Plaisance (Placentia)", tur:"sehir", lat:47.2491, lon:-53.9605, g:0,
+     kur:"1662-01-01",
+-    s:[{f:"1662-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    s:[{f:"1662-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}],
+     kaynak:"bulunamadı", not:"konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2440,-53.9630 → 47.2491,-53.9605) · konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2491,-53.9605 → 47.2491,-53.9605) · dayanak: Dictionary of Canadian Biography" },
+   { ad:"Duluth (Fond du Lac)", tur:"kale", lat:46.7897, lon:-92.1045, g:0,
+     kur:"1793-01-01",

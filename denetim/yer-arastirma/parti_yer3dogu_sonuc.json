@@ -1,0 +1,228 @@
+{
+ "parti": "yer3dogu",
+ "yontem": "YER-3-DOGU 23 Ekim 2026: denetim/ARAC-YER-DOGU-COZ-1023.py esle (TGN/CHGIS/Pleiades/iDAI/GeoNames, ≥2 bağımsız ≤10 km, ipucu ≤40 km)",
+ "sonuclar": [
+  {
+   "ad": "Linzi",
+   "eski_adlar": [],
+   "esanlam_modern": "Linzicheng",
+   "ulke_modern": "China",
+   "durum": "cift_tanik",
+   "lat": 36.849722,
+   "lon": 118.344722,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "ilk_anilis_tgn": "",
+   "bolge_tsv": "dogu-asya",
+   "onem": 825,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8629583 (Linzicheng)",
+     "lat": 36.849722,
+     "lon": 118.344722
+    },
+    {
+     "kaynak": "CHGIS",
+     "url_veya_atif": "https://chgis.hudci.org/tgaz/placename/hvd_112326 (临淄郡 Linzi Jun, 郡 (jun), -221~-202)",
+     "lat": 36.8096,
+     "lon": 118.28753
+    }
+   ],
+   "not": "ÖNEMLİ BAŞKENT (YER-3-DOGU, 23 Ekim 2026): dogu-asya başkenti (devletler: qi-devleti; TSV yer dizesi 'Yingqiu → Linzi  Shandong'). Tanık kaynaklar: Getty TGN + CHGIS. TGN yer türü: inhabited places; hiyerarşi: Shandong, China, Asia, World. Kuruluş/ilk anılış tarihi: tanık kayıtlarda yok; yazılmadı. CHGIS'te bu ad/eşanlamla en erken idarî kayıt: -221 yılı (en geç tanıklığı; CHGIS kapsamı MÖ 221'de başlar — kuruluş değildir, kur: yazılmadı). MODEL İPUCU: aynı adlı gazetteer kayıtları arasından ipucuna ≤40 km olanlar seçildi (ONEMLI-MODEL-ALIAS-DOGU-1023.json; ipucu tanık değildir, koordinat tanıktan)."
+  },
+  {
+   "ad": "Luoyi",
+   "durum": "atlasta_var",
+   "atlas": "Luoyang",
+   "not": "atlasta aynı ad/eşanlamla var: Luoyang (34.6630, 112.4340)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Xingqing",
+   "durum": "atlasta_var",
+   "atlas": "Yinchuan (Ningxia)",
+   "not": "atlasta aynı ad/eşanlamla var: Yinchuan (Ningxia) (38.4870, 106.2310)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Xinzheng",
+   "eski_adlar": [],
+   "esanlam_modern": "Xinzheng",
+   "ulke_modern": "CN",
+   "durum": "cift_tanik",
+   "lat": 34.456041,
+   "lon": 113.741363,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "ilk_anilis_tgn": "",
+   "bolge_tsv": "dogu-asya",
+   "onem": 173,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8681272 (Xinzheng)",
+     "lat": 34.456041,
+     "lon": 113.741363
+    },
+    {
+     "kaynak": "CHGIS",
+     "url_veya_atif": "https://chgis.hudci.org/tgaz/placename/hvd_82461 (新郑县 Xinzheng Xian, 县 (xian), -230~288)",
+     "lat": 34.39732,
+     "lon": 113.71909
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/1788466 (Xinzheng, CN)",
+     "lat": 34.3966,
+     "lon": 113.74162
+    }
+   ],
+   "not": "ÖNEMLİ BAŞKENT (YER-3-DOGU, 23 Ekim 2026): dogu-asya başkenti (devletler: han-devleti-zhou; TSV yer dizesi 'Xinzheng'). Tanık kaynaklar: Getty TGN + CHGIS + GeoNames. TGN yer türü: third level subdivisions (political entities); hiyerarşi: Henan, China, Asia, World. Kuruluş/ilk anılış tarihi: tanık kayıtlarda yok; yazılmadı. CHGIS'te bu ad/eşanlamla en erken idarî kayıt: -230 yılı (en geç tanıklığı; CHGIS kapsamı MÖ 221'de başlar — kuruluş değildir, kur: yazılmadı). MODEL İPUCU: aynı adlı gazetteer kayıtları arasından ipucuna ≤40 km olanlar seçildi (ONEMLI-MODEL-ALIAS-DOGU-1023.json; ipucu tanık değildir, koordinat tanıktan)."
+  },
+  {
+   "ad": "Xiazhou",
+   "durum": "atlasta_var",
+   "atlas": "Xiazhou (Tongwancheng)",
+   "not": "atlasta aynı ad/eşanlamla var: Xiazhou (Tongwancheng) (37.9990, 108.8490)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Qingtang",
+   "durum": "atlasta_var",
+   "atlas": "Xining",
+   "not": "atlasta aynı ad/eşanlamla var: Xining (36.6170, 101.7780)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Heijo-kyo",
+   "durum": "atlasta_var",
+   "atlas": "Nara",
+   "not": "atlasta aynı ad/eşanlamla var: Nara (34.6850, 135.8050)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Daxing",
+   "durum": "atlasta_var",
+   "atlas": "Xi'an (Chang'an)",
+   "not": "atlasta aynı ad/eşanlamla var: Xi'an (Chang'an) (34.3420, 108.9400)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Jiangling",
+   "durum": "atlasta_var",
+   "atlas": "Jingzhou",
+   "not": "atlasta aynı ad/eşanlamla var: Jingzhou (30.3500, 112.1900)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Longcheng",
+   "eski_adlar": [
+    "Chaoyang"
+   ],
+   "esanlam_modern": "Chaoyang",
+   "ulke_modern": "CN",
+   "durum": "cift_tanik",
+   "lat": 41.653333,
+   "lon": 120.434444,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "ilk_anilis_tgn": "",
+   "bolge_tsv": "dogu-asya",
+   "onem": 33,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8598413 (Longcheng Qu)",
+     "lat": 41.653333,
+     "lon": 120.434444
+    },
+    {
+     "kaynak": "CHGIS",
+     "url_veya_atif": "https://chgis.hudci.org/tgaz/placename/hvd_110206 (柳城郡 Liucheng Jun, 郡 (jun), 607~617)",
+     "lat": 41.58008,
+     "lon": 120.45078
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2038120 (Chaoyang, CN)",
+     "lat": 41.57028,
+     "lon": 120.45861
+    }
+   ],
+   "not": "ÖNEMLİ BAŞKENT (YER-3-DOGU, 23 Ekim 2026): dogu-asya başkenti (devletler: onceki-yan; TSV yer dizesi 'Longcheng → Ye'). Tanık kaynaklar: Getty TGN + CHGIS + GeoNames. TGN yer türü: third level subdivisions (political entities); hiyerarşi: Liaoning, China, Asia, World. Kuruluş/ilk anılış tarihi: tanık kayıtlarda yok; yazılmadı. CHGIS'te bu ad/eşanlamla en erken idarî kayıt: 445 yılı (en geç tanıklığı; CHGIS kapsamı MÖ 221'de başlar — kuruluş değildir, kur: yazılmadı). MODEL İPUCU: aynı adlı gazetteer kayıtları arasından ipucuna ≤40 km olanlar seçildi (ONEMLI-MODEL-ALIAS-DOGU-1023.json; ipucu tanık değildir, koordinat tanıktan)."
+  },
+  {
+   "ad": "Yangjumie",
+   "durum": "atlasta_var",
+   "atlas": "Dali",
+   "not": "atlasta aynı ad/eşanlamla var: Dali (25.6060, 100.2670)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Pingyang",
+   "eski_adlar": [
+    "Linfen"
+   ],
+   "esanlam_modern": "Linfen",
+   "ulke_modern": "CN",
+   "durum": "cift_tanik",
+   "lat": 36.088889,
+   "lon": 111.518889,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "ilk_anilis_tgn": "",
+   "bolge_tsv": "dogu-asya",
+   "onem": 25,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1069846 (Linfen)",
+     "lat": 36.088889,
+     "lon": 111.518889
+    },
+    {
+     "kaynak": "CHGIS",
+     "url_veya_atif": "https://chgis.hudci.org/tgaz/placename/hvd_115675 (平阳府 Pingyang Fu, 府 (fu), 632~1304)",
+     "lat": 36.07804,
+     "lon": 111.51543
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/1803567 (Linfen, CN)",
+     "lat": 36.08889,
+     "lon": 111.51889
+    }
+   ],
+   "not": "ÖNEMLİ BAŞKENT (YER-3-DOGU, 23 Ekim 2026): dogu-asya başkenti (devletler: han-zhao; TSV yer dizesi 'Pingyang → Chang'an'). Tanık kaynaklar: Getty TGN + CHGIS + GeoNames. TGN yer türü: inhabited places; hiyerarşi: Shanxi, China, Asia, World. Kuruluş/ilk anılış tarihi: tanık kayıtlarda yok; yazılmadı. CHGIS'te bu ad/eşanlamla en erken idarî kayıt: -206 yılı (en geç tanıklığı; CHGIS kapsamı MÖ 221'de başlar — kuruluş değildir, kur: yazılmadı). MODEL İPUCU: aynı adlı gazetteer kayıtları arasından ipucuna ≤40 km olanlar seçildi (ONEMLI-MODEL-ALIAS-DOGU-1023.json; ipucu tanık değildir, koordinat tanıktan)."
+  },
+  {
+   "ad": "Zhenzhou",
+   "durum": "atlasta_var",
+   "atlas": "Zhengding",
+   "not": "atlasta aynı ad/eşanlamla var: Zhengding (38.1440, 114.5730)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Shuofang",
+   "durum": "atlasta_var",
+   "atlas": "Xiazhou (Tongwancheng)",
+   "not": "atlasta aynı ad/eşanlamla var: Xiazhou (Tongwancheng) (37.9990, 108.8490)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Youzhou",
+   "durum": "atlasta_var",
+   "atlas": "Pekin (Hanbalık)",
+   "not": "atlasta aynı ad/eşanlamla var: Pekin (Hanbalık) (39.9040, 116.4070)",
+   "bolge_tsv": "dogu-asya"
+  },
+  {
+   "ad": "Dongjing",
+   "durum": "atlasta_var",
+   "atlas": "Liaoyang",
+   "not": "atlasta aynı ad/eşanlamla var: Liaoyang (41.2670, 123.1740)",
+   "bolge_tsv": "dogu-asya"
+  }
+ ]
+}

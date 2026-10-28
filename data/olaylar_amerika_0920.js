@@ -251,7 +251,13 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Kasaba 1574'te yeniden düzenlendi (Sebastián Barba de Padilla); atlas kırılması 1571 kuruluşunda duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1572 · Vilcabamba — İnka devletinin sonu ─────────────────────────
-{ t:"1572-06-24", k:"fetih", onem:5, dunya:5, kapsam:"dis", yer_id:"Vilcabamba (Espíritu Pampa)",
+// 14 Ekim 2026 — KARARLAR-1014 #42 (0088/H-0024, Emre: "bu maddenin Osmanlı
+// kronolojisi ile alakası var mı?"): puan 5/5 → 3/3. Gerekçe dosyanın kendi
+// ölçeği: İnka devletinin yıkılışı 1532-33'tür (Cajamarca, Cuzco); Vilcabamba
+// Manco Inca'nın artçı devletinin sonudur — Lima'nın kuruluşu (3/3) ile aynı
+// kademe. 5/5 ile Osmanlı listesine "dünya olayı" diye giriyordu; dış madde
+// artık Osmanlı listesine yalnız Osmanlı'yla ilgisiyle girer (app.js 🌍 Dünyada).
+{ t:"1572-06-24", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Vilcabamba (Espíritu Pampa)",
   b:"Vilcabamba'nın düşüşü — bağımsız İnka devletinin sonu",
   gun:"24 Haziran 1572", yer:"Vilcabamba (Espíritu Pampa)", kisiler:"Túpac Amaru, Genel Vali Francisco de Toledo, Martín Hurtado de Arbieto",
   etiket:["askeri","toprak-kayip","konu-askeri"],

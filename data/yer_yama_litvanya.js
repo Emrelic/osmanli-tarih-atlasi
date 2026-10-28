@@ -40,7 +40,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1918-02-16", d: "sovyet-rusya" },
-      { f: "1918-02-16", t: "1923-10-29", d: "litvanya" }
+      { f: "1918-02-16", t: "1940-08-06", d: "litvanya" },{f:"1940-08-06",t:"1990-03-11",d:"sovyet-rusya",kaynak:"Britannica 'Lithuania' (SSCB'ye ilhak 1940-08)"},{f:"1990-03-11",t:"2000-12-31",d:"litvanya-cumhuriyeti-yeniden",kaynak:"tsv: litvanya-cumhuriyeti-yeniden f=1990-03-11"}
     ],
     kaynak: "polonya"
   },
@@ -53,7 +53,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1918-02-16", d: "sovyet-rusya" },
-      { f: "1918-02-16", t: "1923-10-29", d: "litvanya" }
+      { f: "1918-02-16", t: "1940-08-06", d: "litvanya" },{f:"1940-08-06",t:"1990-03-11",d:"sovyet-rusya",kaynak:"Britannica 'Lithuania' (SSCB'ye ilhak 1940-08)"},{f:"1990-03-11",t:"2000-12-31",d:"litvanya-cumhuriyeti-yeniden",kaynak:"tsv: litvanya-cumhuriyeti-yeniden f=1990-03-11"}
     ],
     kaynak: "polonya"
   },
@@ -66,7 +66,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1918-02-16", d: "sovyet-rusya" },
-      { f: "1918-02-16", t: "1923-10-29", d: "litvanya" }
+      { f: "1918-02-16", t: "1940-08-06", d: "litvanya" },{f:"1940-08-06",t:"1990-03-11",d:"sovyet-rusya",kaynak:"Britannica 'Lithuania' (SSCB'ye ilhak 1940-08)"},{f:"1990-03-11",t:"2000-12-31",d:"litvanya-cumhuriyeti-yeniden",kaynak:"tsv: litvanya-cumhuriyeti-yeniden f=1990-03-11"}
     ],
     kaynak: "polonya"
   },
@@ -79,7 +79,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1921-03-18", d: "sovyet-rusya" },
-      { f: "1921-03-18", t: "1923-10-29", d: "polonya" }
+      { f: "1921-03-18", t: "1939-09-17", d: "polonya" },{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Belarus' (Bati Belarus Kasim 1939'da katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"belarus",kaynak:"Britannica 'Belarus'"}
     ],
     kaynak: "polonya"
   },
@@ -91,7 +91,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1569-07-01", t: "1793-01-23", d: "lehistan" },
       { f: "1793-01-23", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
-      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+      { f: "1917-11-07", t: "1991-08-25", d: "sovyet-rusya" },{f:"1991-08-25",t:"2000-12-31",d:"belarus",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}
     ],
     kaynak: "polonya"
   },
@@ -103,7 +103,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1569-07-01", t: "1772-08-05", d: "lehistan" },
       { f: "1772-08-05", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
-      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+      { f: "1917-11-07", t: "1991-08-25", d: "sovyet-rusya" },{f:"1991-08-25",t:"2000-12-31",d:"belarus",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}
     ],
     kaynak: "polonya"
   },
@@ -115,7 +115,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1569-07-01", t: "1772-08-05", d: "lehistan" },
       { f: "1772-08-05", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
-      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+      { f: "1917-11-07", t: "1991-08-25", d: "sovyet-rusya" },{f:"1991-08-25",t:"2000-12-31",d:"belarus",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}
     ],
     kaynak: "polonya"
   },
@@ -128,7 +128,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1921-03-18", d: "sovyet-rusya" },
-      { f: "1921-03-18", t: "1923-10-29", d: "polonya" }
+      { f: "1921-03-18", t: "1939-09-17", d: "polonya" },{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Belarus' (Bati Belarus Kasim 1939'da katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"belarus",kaynak:"Britannica 'Belarus'"}
     ],
     kaynak: "polonya"
   },
@@ -141,7 +141,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1921-03-18", d: "sovyet-rusya" },
-      { f: "1921-03-18", t: "1923-10-29", d: "polonya" }
+      { f: "1921-03-18", t: "1939-09-17", d: "polonya" },{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Belarus' (Bati Belarus Kasim 1939'da katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"belarus",kaynak:"Britannica 'Belarus'"}
     ],
     kaynak: "polonya"
   },
@@ -155,7 +155,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1807-07-09", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1918-11-11", d: "sovyet-rusya" },
-      { f: "1918-11-11", t: "1923-10-29", d: "polonya" }
+      { f: "1918-11-11", t: "1939-10-06", d: "polonya" },{f:"1939-10-06",t:"1945-01-17",d:"polonya-genel-hukumeti",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1945-01-17",t:"1989-12-31",d:"polonya-halk",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1989-12-31",t:"2000-12-31",d:"polonya-iii-cumhuriyet",kaynak:"Britannica 'Poland'; LoC Poland Country Study"}
     ],
     kaynak: "polonya"
   },
@@ -168,7 +168,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1921-03-18", d: "sovyet-rusya" },
-      { f: "1921-03-18", t: "1923-10-29", d: "polonya" }
+      { f: "1921-03-18", t: "1939-09-17", d: "polonya" },{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}
     ],
     kaynak: "polonya"
   },
@@ -181,7 +181,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1921-03-18", d: "sovyet-rusya" },
-      { f: "1921-03-18", t: "1923-10-29", d: "polonya" }
+      { f: "1921-03-18", t: "1939-09-17", d: "polonya" },{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}
     ],
     kaynak: "polonya"
   },
@@ -194,7 +194,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1921-03-18", d: "sovyet-rusya" },
-      { f: "1921-03-18", t: "1923-10-29", d: "polonya" }
+      { f: "1921-03-18", t: "1939-09-17", d: "polonya" },{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}
     ],
     kaynak: "polonya"
   },
@@ -207,7 +207,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1569-07-01", t: "1667-02-09", d: "lehistan" },
       { f: "1667-02-09", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
-      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+      { f: "1917-11-07", t: "1991-08-24", d: "sovyet-rusya" },{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}
     ],
     kaynak: "polonya"
   },
@@ -220,7 +220,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1569-07-01", t: "1654-01-08", d: "lehistan" },
       { f: "1654-01-08", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
-      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+      { f: "1917-11-07", t: "1991-08-24", d: "sovyet-rusya" },{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}
     ],
     kaynak: "polonya"
   },
@@ -233,7 +233,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1569-07-01", t: "1654-01-18", d: "lehistan" },
       { f: "1654-01-18", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
-      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+      { f: "1917-11-07", t: "1991-08-24", d: "sovyet-rusya" },{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}
     ],
     kaynak: "polonya"
   },
@@ -246,7 +246,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1569-07-01", t: "1654-01-18", d: "lehistan" },
       { f: "1654-01-18", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
-      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+      { f: "1917-11-07", t: "1991-08-24", d: "sovyet-rusya" },{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}
     ],
     kaynak: "polonya"
   },
@@ -259,7 +259,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1699-01-26", t: "1793-01-23", d: "lehistan" },
       { f: "1793-01-23", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
-      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+      { f: "1917-11-07", t: "1991-08-24", d: "sovyet-rusya" },{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}
     ],
     kaynak: "polonya"
   },
@@ -272,7 +272,7 @@ window.YER_YAMA_LITVANYA = [
       { f: "1795-10-24", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
       { f: "1917-11-07", t: "1921-03-18", d: "sovyet-rusya" },
-      { f: "1921-03-18", t: "1923-10-29", d: "polonya" }
+      { f: "1921-03-18", t: "1939-09-17", d: "polonya" },{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}
     ],
     kaynak: "polonya"
   }

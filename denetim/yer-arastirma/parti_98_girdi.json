@@ -1,0 +1,651 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Riade",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    933,
+    933
+   ],
+   "ornek_maddeler": [
+    "0933-03-15 Riade Savaşı: I. Henry Macarları bozguna uğrattı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 24.68773,
+      "lon": 46.72185,
+      "kaynak": "GeoNames 108410 Riyadh"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Bisütun",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    49,
+    49
+   ],
+   "ornek_maddeler": [
+    "0049-01-01 Gotarzes Kürdistan'da Roma'dan dönen Meherdates'i yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 34.3881,
+      "lon": 47.4318,
+      "kaynak": "Pleiades 903002"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Masada",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    73,
+    73
+   ],
+   "ornek_maddeler": [
+    "0073-01-01 Masada düştü: Flavius Silva kuşatması sonunda son Yahudi direnişi bitt"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.3163633663,
+      "lon": 35.3537135856,
+      "kaynak": "Pleiades 687968"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Selinus",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    117,
+    117
+   ],
+   "ornek_maddeler": [
+    "0117-01-01 Traianus Kilikya'da öldü (Ağustos 117); Part seferi fethedilen toprakl"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 37.5882816559,
+      "lon": 12.8248930865,
+      "kaynak": "Pleiades 462489"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Bethar",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    135,
+    135
+   ],
+   "ornek_maddeler": [
+    "0135-01-01 Bar Kohba İsyanı bastırıldı: Bethar düştü, Kudüs Colonia Aelia Capitol"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.73,
+      "lon": 35.135555,
+      "kaynak": "Pleiades 687851"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Arbela",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    216,
+    216
+   ],
+   "ornek_maddeler": [
+    "0216-01-01 Caracalla II. Artabanos'un kızını istedi, reddedilince Part savaşı çık"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "5 ayrı Pleiades kümesi: ʿĂfulȧ 32.250,35.250; Arbela 32.807,35.505; Arbēla 32.750,35.250; Arbela/Arba-ilu 36.191,44.009; Arbela 32.556,35.849"
+    }
+   ]
+  },
+  {
+   "ad": "Carrhae",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    217,
+    217
+   ],
+   "ornek_maddeler": [
+    "0217-04-08 Caracalla Harran yakınında suikastla öldürüldü; yerine Macrinus geçti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.8635943094,
+      "lon": 39.0307496505,
+      "kaynak": "Pleiades 658427"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Barbalissus",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    256,
+    256
+   ],
+   "ornek_maddeler": [
+    "0256-01-01 I. Şâpûr Roma topraklarına saldırdı; Barbalissus'ta Roma ordusunu yend"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 35.9870271966,
+      "lon": 38.1111142153,
+      "kaynak": "Pleiades 668208"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Vagarşapat",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    314,
+    314
+   ],
+   "ornek_maddeler": [
+    "0314-01-01 Ermenistan Hristiyanlığı resmen kabul etti (Büyük Tiridates ve Aydınla"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 40.16557,
+      "lon": 44.29462,
+      "kaynak": "GeoNames 616062 Vagharshapat"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Chrysopolis",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    324,
+    324
+   ],
+   "ornek_maddeler": [
+    "0324-09-18 Chrysopolis Savaşı: Konstantin Licinius'u yendi; imparatorluğun tek hâ"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Aynı ad birden çok uzak yerde (GeoNames): Besançon 47.24878,6.01815; Üsküdar 41.02274,29.01366"
+    }
+   ]
+  },
+  {
+   "ad": "Ctesiphon",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    449,
+    449
+   ],
+   "ornek_maddeler": [
+    "0449-01-01 II. Yezdicerd Ermenileri Zerdüştlüğe dönmeye zorlayan fermanı çıkardı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.094703,
+      "lon": 44.5812226667,
+      "kaynak": "Pleiades 893976"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Soba",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    580,
+    580
+   ],
+   "ornek_maddeler": [
+    "0580-01-01 Alve (Alodia) Krallığı Hristiyanlığı kabul etti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 34.7376565,
+      "lon": 36.719319,
+      "kaynak": "Pleiades 668261"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Mûte",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    629,
+    629
+   ],
+   "ornek_maddeler": [
+    "0629-01-01 Mûte Savaşı: Müslüman ordusu Bizans ve Gassânî ordusuyla ilk büyük çar"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Moutier 47.27818,7.36951; Moûtiers 45.48459,6.53146"
+    }
+   ]
+  },
+  {
+   "ad": "Arafat",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    632,
+    632
+   ],
+   "ornek_maddeler": [
+    "0632-03-07 Veda Hutbesi: Hz. Muhammed Arafat'ta Vedâ hutbesini okudu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 18.04639,
+      "lon": -15.97194,
+      "kaynak": "GeoNames 9222766 Arafat"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Heliopolis",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    640,
+    640
+   ],
+   "ornek_maddeler": [
+    "0640-01-01 Aynişems (Heliopolis) Savaşı: Amr b. Âs Bizans ordusunu yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Aynı ad birden çok uzak yerde (GeoNames): Heliópolis -10.68333,-38.28611; Héliopolis 36.50361,7.44278; Baalbek 34.00583,36.21806"
+    }
+   ]
+  },
+  {
+   "ad": "Orhon",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    735,
+    735
+   ],
+   "ornek_maddeler": [
+    "0735-09-24 Bilge Kağan yazıtı dikildi (Orhon yazıtları)"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Nart 49.145,105.38833; Mandal 48.63111,103.52917; Orhon 49.8325,106.13639"
+    }
+   ]
+  },
+  {
+   "ad": "Enbâr",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    754,
+    754
+   ],
+   "ornek_maddeler": [
+    "0754-06-09 Ebü'l-Abbas es-Seffâh öldü; kardeşi Mansûr halife oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.378611,
+      "lon": 43.715833,
+      "kaynak": "Pleiades 894043"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Keş",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    778,
+    778
+   ],
+   "ornek_maddeler": [
+    "0778-01-01 Muâz b. Müslim Mukanna‘ taraftarlarını bozguna uğrattı; Siyâm Kalesi k"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "2 ayrı Pleiades kümesi: Tell Abu Salabikh 32.253,45.054; Tell Wilaya 32.313,45.660"
+    }
+   ]
+  },
+  {
+   "ad": "Fah",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    786,
+    786
+   ],
+   "ornek_maddeler": [
+    "0786-01-01 Sâhibüfah Hüseyin b. Ali'nin Medine isyanı bastırıldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 32.37451,
+      "lon": 62.11638,
+      "kaynak": "GeoNames 1142264 Farah"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Pozantı",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    833,
+    833
+   ],
+   "ornek_maddeler": [
+    "0833-08-09 Me'mûn Bedendûn'da öldü; kardeşi Mu'tasım Türk kumandanların desteğiyl"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 37.42778,
+      "lon": 34.87167,
+      "kaynak": "GeoNames 302482 Pozantı"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Bez",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    838,
+    838
+   ],
+   "ornek_maddeler": [
+    "0838-01-04 Bâbek isyanı bastırıldı: Bâbek yakalanıp Sâmerrâ'da idam edildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 50.38256,
+      "lon": 24.00789,
+      "kaynak": "GeoNames 712471 Belz"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Şirak",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    913,
+    913
+   ],
+   "ornek_maddeler": [
+    "0913-01-01 Smbat Yûsuf’a teslim oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Shirak 40.84042,43.91582; Szirák 47.83095,19.53105"
+    }
+   ]
+  },
+  {
+   "ad": "Arîş",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    940,
+    940
+   ],
+   "ornek_maddeler": [
+    "0940-06-24 Muhammed b. Tuğç Arîş'te Muhammed b. Râik'i yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Aynı ad birden çok uzak yerde (GeoNames): Arīsh 31.13159,33.79844; Áris 37.0992,22.00443; Arys 42.43015,68.8087"
+    }
+   ]
+  },
+  {
+   "ad": "Kât",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    995,
+    995
+   ],
+   "ornek_maddeler": [
+    "0995-02-05 Me'mûn b. Muhammed Afrigîler'in son hükümdarı Ebû Abdullah Muhammed b."
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -35.11485,
+      "lon": 173.26366,
+      "kaynak": "GeoNames 6228827 Kaitaia"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Aztlán",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1111,
+    1111
+   ],
+   "ornek_maddeler": [
+    "1111-01-01 Mexica ve öteki Nahua halkların, Aztlan denen (muhtemelen efsanevî) di"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Barrio Aztlán 20.46562,-98.08553; Aztlán 16.76919,-92.92316"
+    }
+   ]
+  },
+  {
+   "ad": "Chapultepec",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1250,
+    1250
+   ],
+   "ornek_maddeler": [
+    "1250-01-01 Culhuacán kralı Mexica'nın Chapultepec'te yerleşmesine izin verdi; Mex"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 19.20216,
+      "lon": -99.56176,
+      "kaynak": "GeoNames 3518280 Chapultepec"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Durrës",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1108,
+    1108
+   ],
+   "ornek_maddeler": [
+    "1108-01-01 Bohemund, Antakya için Bizans imparatoruna vasallık yemini etmek zorun"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 41.32355,
+      "lon": 19.45469,
+      "kaynak": "GeoNames 3185728 Durrës"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Kozan",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1219,
+    1219
+   ],
+   "ornek_maddeler": [
+    "1219-01-01 I. Hethum dönemi başladı (1219-1270); Hetumî hânedanı Rubenîlerin yeri"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Aynı ad birden çok uzak yerde (GeoNames): Larnaca 34.9221,33.62794; Kōzan 34.58333,133.05; Kapsan-ŭp 41.09028,128.29333; Kazan 55.78874,49.12214"
+    }
+   ]
+  },
+  {
+   "ad": "Kemalpaşa",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1254,
+    1254
+   ],
+   "ornek_maddeler": [
+    "1254-11-03 III. İoannis Vatatzis öldü; II. Theodoros Laskaris İznik tahtına geçti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Kemalpaşa 38.42621,27.41731; Kemalpaşa 41.48336,41.5275"
+    }
+   ]
+  },
+  {
+   "ad": "Nymphaion",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1254,
+    1254
+   ],
+   "ornek_maddeler": [
+    "1254-11-03 III. İoannis Vatatzis öldü; II. Theodoros Laskaris İznik tahtına geçti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.4401685,
+      "lon": 23.1401333,
+      "kaynak": "Pleiades 570511"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  }
+ ]
+}

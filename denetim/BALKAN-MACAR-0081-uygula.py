@@ -11,7 +11,8 @@ Gerekçe ve kaynaklar: denetim/BALKAN-MACAR-0081.md
 import io, re, sys
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
-KOK = r"C:\atlas\data" + "\\"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data") + "\\"
 UYGULA = "--uygula" in sys.argv
 DOSYA = {}      # ad -> metin (bellekte)
 HATA = []
@@ -76,7 +77,7 @@ def donem(dosya, ad, f, t, yf=None, yt=None, kaynak=None, ek=None, sonra=None):
         return
     m = oku(dosya)
     parca = m[b[0]:b[1]]
-    rx = r'f:\s*"' + f + r'"\s*,\s*t:\s*"' + t + '"'
+    rx = r'"?f"?\s*:\s*"' + f + r'"\s*,\s*"?t"?\s*:\s*"' + t + '"'  # 12 Eki: tırnaklı anahtar biçimi de
     es = list(re.finditer(rx, parca))
     if len(es) != 1:
         HATA.append(f"{dosya}: {ad} dönemi {f}→{t} {len(es)} kez")
@@ -146,11 +147,11 @@ MACAR_HAB = {  # ad -> Habsburg döneminin t'si
 HIRVAT_HAB = {
     "Zagreb": "1918-11-11", "Varasd (Varaždin)": "1918-11-11", "Sisak": "1809-10-14",
     "Kostayniçe (Kostajnica)": "1556-07-16", "Bosna Dubiçası (Bosanska Dubica)": "1538-01-01",
-    "Bosna Novi'si (Bosanski Novi)": "1556-01-01", "Jasenovaç (Jasenovac)": "1538-01-01",
-    "Bosna Brod'u (Bosanski Brod)": "1538-01-01", "Krupa (Bosanska Krupa)": "1565-01-01",
+    "Bosna Novi'si (Bosanski Novi)": "1557-01-01", "Jasenovaç (Jasenovac)": "1536-01-01",
+    "Bosna Brod'u (Bosanski Brod)": "1536-01-01", "Krupa (Bosanska Krupa)": "1565-01-01",
 }
 import os
-sys.path.insert(0, r"C:\atlas\arac")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
 import girdi  # noqa: E402  yalnız hangi dosyada olduğunu okumak için
 NEREDE = {y["ad"]: y["_kaynak"] for y in girdi.yukle(sessiz=True)}
 
@@ -245,15 +246,7 @@ degistir("devletler.js",
          '  tabi:[{f:"1538-01-01", t:"1635-10-22", ust:"osmanli", kaynak:"BALKAN-MACAR-0081 H-0037: TDV hadramut \'Hadım Süleyman Paşa’nın Hindistan seferi sırasında (1538) Osmanlı Devleti’nin idaresine giren Hadramut Yemen’e bağlı bir sancak olarak teşkilâtlandırıldı. Ancak Hadramut içinde idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi\' · Mayıs 1566 hükmü Sultan Bedr\'i \'Hadramut sancağının hâkimi\' der · t: TDV yemen 22 Ekim 1635 (Hadramut\'a özgü bitiş cümlesi YOK — Seyûn kaydıyla aynı)"}],\n',
          "kesiri tabi")
 
-# ═══ 7 · H-0050 — aynı güne yığılmış üç 1603 maddesi ═══
-degistir("olaylar_ek8.js",
-         '  "t": "1603-01-01",\n  "b": "Deli Hasan Paşa isyanı ve Bosna beylerbeyiliğiyle yatıştırılması",',
-         '  "t": "1603-03-01", "kesinlik": "ay",\n  "b": "Deli Hasan Paşa isyanı ve Bosna beylerbeyiliğiyle yatıştırılması",',
-         "Deli Hasan ay")
-degistir("olaylar_ek14.js",
-         '{ t:"1603-01-01", k:"mimari", etiket:["mimari","imar","konu-kisiler","konu-din","konu-imar"], b:"Yeni Cami inşaatının III. Mehmed\'in ölümü üzerine durması", gun:"1603",',
-         '{ t:"1603-12-20", k:"mimari", etiket:["mimari","imar","konu-kisiler","konu-din","konu-imar"], b:"Yeni Cami inşaatının III. Mehmed\'in ölümü üzerine durması", gun:"III. Mehmed\'in ölümü (16 Receb 1012 / 20 Aralık 1603) ardından", ic_not_gun:"BALKAN-MACAR-0081 H-0050: t yıl koduydu (1603-01-01) ve iki başka 1603 maddesiyle aynı güne yığılıyordu; olay ölüme bağlı, gün TDV mehmed-iii \'16 Receb’de (20 Aralık) vefat etmiştir\'. Durmanın kendi günü bulunamadı — ölüm günü ALT SINIRDIR. ⚠️ atlasın vefat maddesi (olaylar_ek5 1603-12-22) ve padisahlar.js olum TDV ile çelişiyor, ayrıca bildirildi.",',
-         "Yeni Cami gün")
+# 7 · H-0050: Deli Hasan 1603-03-01 (olaylar_ek8.js) ve Yeni Cami 1603-12-22 (olaylar_ek14.js) 12 Eki olcumunde ZATEN canli - kol kaldirildi
 
 # ═══ 8 · Kronoloji — Değişmez 2 için yeni maddeler (olaylar_ek.js, 1526-09-01 maddesinin yanına) ═══
 CAPA = '{ t:"1526-09-01", k:"diger", etiket:["diger"], b:"Mohaç sonrası Budin\'in teslimi'

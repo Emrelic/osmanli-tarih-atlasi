@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 DENETLE — üç değişmezin toplu denetimi
 =======================================
@@ -29,11 +29,42 @@ from datetime import date, timedelta
 # ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
 # buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
 # "ValueError: I/O operation on closed file" ile ölür. Üç kez yaşandı.
-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+# 🔴 DENETLE-STDOUT-1010: `redirect_stdout(io.StringIO())` altında `encoding`
+# None'dır (öznitelik VAR, getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur
+# ⇒ eski satır içe aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan
+# akış (StringIO) zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
+if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
+        and hasattr(sys.stdout, "buffer")):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
+
+# 🔴 ZAMAN-Z1-1008 — ufuk TEK otoriteden: `girdi.UFUK` (motor+arayüz penceresi)
+#   ve `girdi.VERI_UFKU` (verinin tam yazıldığı pencere; uçları SINIR İŞARETİ).
+#   Gerekçe girdi.py'de. Eskiden bu dosyada "1281-01-01"/"1923-10-29" beş
+#   yerde düz yazılıydı ve motor ufkuna BAĞLI DEĞİLDİ (ONCE1281-MOTOR-UFUK-1004 §④).
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import gun as _gun                 # negatif yil sayaci (gun_no devreder)
+from girdi import UFUK, VERI_UFKU, UFUK_DAMGASI, ufuk_devirleri
+
+# 🆕 C1 · GUN-SAYACI: tarih KIYASI yalniz gun sayisiyla (dizgi MO'de ters, 3 haneli yilda yanlis).
+#   Gecersiz tarihte FIRLATIR — None donup ihlali sessizce gecirmek yasak (eski _gun_farki).
+_GN_ONB = {}
+
+
+def gn(s):
+    n = _GN_ONB.get(s)
+    if n is None:
+        n = _GN_ONB[s] = _gun.gun(s)
+    return n
+
+
+def kirilma_disi(g):
+    """KIRILMA SAYILMAYAN gün: yok · UFUK'un dışı · UFUK DAMGASI (dört uç
+    gün, tanımı `girdi.UFUK_DAMGASI` — el değiştirme değil, D210).
+    Değişmez 2/2s/2i ve 7 aynı kapıdan sorar."""
+    return (not g) or gn(g) < gn(UFUK[0]) or gn(g) > gn(UFUK[1]) or g in UFUK_DAMGASI
 
 # Bugün doğru kabul edilen sayılar — CLAUDE.md §3 ile aynı. Sapma varsa uyar.
 # 748 -> 761: hatalar 4.docx düzeltmeleri (Çerkezya 5, Dağıstan 3, Şirvan 4,
@@ -54,7 +85,17 @@ DATA = os.path.join(KOK, "data")
 # 965 -> 966: Podgorica.
 # 966 -> 967.
 # 967 -> 968.
-BEKLENEN_YERLESIM = 968
+BEKLENEN_YERLESIM = 4299   # 968 -> 4299, 6 Ekim 2026 (ÖLÇÜLDÜ, yazmadan hemen önce)
+# 🔴 968 İKİ AYDIR BAYATTI ve kimse görmedi — LAB-TAVAN-TEL-1006 ölçtü: bu sabit
+#   DEKORATİF (çıkış kodunu hiç değiştirmiyor), o yüzden 4,4 KAT fark hiçbir alarm
+#   vermedi; her koşuda yalnız "! yerleşim sayısı beklenenden farklı (4299 ≠ 968)
+#   — sadece bilgi" satırı basıldı.
+# ⚠️ ASIL ZARAR SAYININ YANLIŞLIĞI DEĞİL: her koşuda "beklenenden farklı" basan bir
+#   satır, okuyucuyu O SATIRI YOK SAYMAYA alıştırır. Bu sabit bir KAPI değil DEĞİŞİM
+#   SEZİCİdir; yalnız gerçekten değiştiğinde konuşursa işe yarar. 4,4 kat sapmış bir
+#   sezici, kapalı bir seziciden kötüdür — çünkü çalışıyor görünür.
+# ⇒ Bağlanmadı, BİLGİ olarak kaldı (büyümesi kusur değil: nokta eklemek işin kendisi).
+#   Ama bundan sonra her yerleşim partisinde bu sayı da güncellenir, yoksa yine bayatlar.
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -177,7 +218,12 @@ BEKLENEN_YERLESIM = 968
 #    ⚠️ Bu sabit bir HEDEF degil bir FOTOGRAF: dunya yerlesim programi
 #    surerken her beyan partisi onu buyutur. Buyume KUSUR DEGIL —
 #    `1c`nin BELGESIZ sayisi buyurse O kusurdur.
-BEKLENEN_SAHIPSIZ = 309   # 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla)
+# 15 EKIM 2026 (KUTU-TOPLU-1014, Emre onayi): 309 -> 310 — Hamade-i Hamra (yerlesimler_afrika.js),
+#    KARARLAR-1014 m.13 BEYANLI COL BOSLUGU (kasitli_bosluk:true, bos:"col"); 1c BELGESIZ sayisi DEGISMEDI (4).
+# 16 EKIM 2026 (DENETIM-K27-1016, Emre karari KARARLAR-EMRE-1015 #13, commit d98dffc38): 310 -> 312 —
+#    Bise + Vadi'd-Devasir (yerlesimler_nokta_ortadogu_0917.js) BEYANLI BOS NOKTA (kasitli_bosluk:true).
+#    Olcum: 1c belgeli 306 -> 308 (TAM +2), BELGESIZ 4 -> 4 (tavan 4) ⇒ ikisi de BELGELI, yeni delik YOK.
+BEKLENEN_SAHIPSIZ = 312   # 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla) · 15 EKIM: +1 Hamade-i Hamra (m.13) · 16 EKIM: +2 Bise/Vadi'd-Devasir (#13)
 # 🔴 314 -> 324, 13 EYLUL 2026 (1.MURAT, kosu 10 SURERKEN — denetle.py motor_izi'nde DEGIL)
 #    OLCUM, TAHMIN DEGIL: ayni alet c104b61'de (sabitin 314'e cekildigi commit)
 #    ayri worktree'de kosturuldu -> TAM 314 (saglama tuttu), sonra iki ad
@@ -336,7 +382,18 @@ BEKLENEN_BELGESIZ = 4   # 10 EYLUL 2026: 7 -> 4, aletin KENDI uyarisi
 # 462 -> 463: Podgorica yerlesimi + 1457 maddesi ayni commit te.
 # 463 -> 462: zemin yine oynadi; kosudan hemen once olculdu.
 # 462 -> 476: Oturum 14 in Port Said/parantez duzeltmeleri.
-BEKLENEN_KIRILMA = 476
+BEKLENEN_KIRILMA = 623   # 🔴 ÇEKİRDEK kırılması · 476 -> 623, 6 Ekim 2026 (ÖLÇÜLDÜ)
+# 🔴 "ÇEKİRDEK" KELİMESİ BURAYA LAB-TAVAN-TEL-1006'nın İKİNCİ TURUNDA EKLENDİ ve
+#   eksikliği bir TUZAKTI: `617ca672` (2 Ağustos 2026) çağrıyı `degismez2(Y)` →
+#   `degismez2(Y_cekirdek)` yaptı. O gün kuyruk BOŞTU, o yüzden 476 hâlâ doğruydu ve
+#   kimse farkı görmedi. Bugün 623 ÇEKİRDEK kırılmasıdır; kuyruk AYRI sayılıyor
+#   (15 + 121 + 485). ⇒ Bu sabiti bütün-`Y` ile güncelleyen biri YANLIŞ KÜMEYLE
+#   güncellemiş olur ve sayı "tazelendi" sanılır. Ölçülen küme adı yazılmayan bir
+#   sabit, bayat bir sabitten tehlikelidir: yanlış tazeleme doğru görünür.
+# 🔴 `BEKLENEN_YERLESIM` ile AYNI SINIF ve aynı sebeple bayatladı (LAB-TAVAN-TEL-1006:
+#   DEKORATİF, çıkış kodunu değiştirmiyor) — her koşuda "! kırılma sayısı beklenenden
+#   farklı (623 ≠ 476) — sadece bilgi" basıldı ve kimse bakmadı.
+#   Bu da bir KAPI değil DEĞİŞİM SEZİCİdir; sapması büyüdükçe sezici değil GÜRÜLTÜ olur.
 BEKLENEN_ACIK = 0
 # 🔴 İŞ KUYRUĞU AYRIMI (İş O + O-3, koordinatör kararı 2 Ağustos 2026):
 # önce Asya için verildi, aynı gün Avrupa +71 maddesiz kırılma getirince
@@ -606,7 +663,34 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
 #   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
 #   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
-BEKLENEN_ACIK_S = 189   # 1 EKIM 2026 (gece): 195 -> 191 -> 189
+# 16 EKIM 2026 (DENETIM-K27-1016): 191 -> 188 — IYILESME (§3.4-3), olculdu: dal kosu/27-hazirlik 194 -> 188.
+#    Dalin 6 yeni ACIK birimi kapandi (1335-12-01 Baku/Samahi/Sabüran ayni-sahip dilimi birlesti · 1551-07-01 ve 1552-07-27
+#    Haram · 1557-04-02 Dahlak · 1891-03-03 Sinkat · 1916-11-06 Darfur madde ile); dalin onceden kapattigi 1258-02-10 Bagdat
+#    + 1917-03-11 Halepce/Kifri ile main'in 190'inin 2 altina indi. Tavan asagi takip edilir (yoksa geri acilis sessiz kalir).
+BEKLENEN_ACIK_S = float("inf")   # 24 EKIM 2026 TAVAN KALDIRILDI (Emre emri, sohbette: "Tavanlari kaldiralim, bize engel olmasin") · yalniz bilgi, bloke etmez · eski tavan 188 ·   # 19 EKIM 2026 (aksam): 191 -> 188 — IYILESME: Istanbul 0330-05-11 · Kahire 0969-07-06 · Musul 0990-03-31 maddeleri data/olaylar_once1000_1019.js'e yazildi (kaynakli, TDV/Britannica), 3 birim kapandi · AYNI GUN once: 188 -> 191 (UFUK MO 12000'e acildi, Emre onayi), YENI KAPSAM — gerileme degil. 3 birim, UFUK 1000 iken pencere disiydi: 0330-05-11 Istanbul (kazanc) · 0969-07-01 Kahire (kazanc) · 0990-04-14 Musul (kazanc); ±30 gunde ilgili kronoloji maddesi YOK (en yakin madde Gazneli Mahmud/Multan, alakasiz). Tavan bunlari SUSTURMAZ, ADIYLA beyan eder; madde yazilinca iner. · 16 EKIM: 191 -> 188 (DENETIM-K27-1016) · 13 EKIM: 193 -> 191 (denetle.py olcumu, origin/main 122ae588d, KUTU paketleri dallari main'de; Emre tavan onayi) · 🔴 10 EKIM — 181 -> 193 · **YENI KAPSAM, GERILEME DEGIL** · ZAMAN-PAKET-v2 + Z6 ufku 1281-1923 -> **1000-1945** acti (girdi.UFUK). 12 yeni ACIK birim ve HEPSI 1281 ONCESI; maddeleri `kronoloji_cok_once1281_*` dosyalarinda DURUYOR ama o dosyalar KUYRUK = Degismez 2 evreninde DEGIL. ⇒ Veri eksik DEGIL, EVREN tanimi eksik. 12 birim ADIYLA (en yakin madde binlerce gun uzakta): 1084-12-12 Antakya · 1097-06-19 Iznik · 1098-06-03 Antakya+Iskenderun · 1147-03-23 Merakes · 1204-04-13 Gelibolu/Manisa/Istanbul(4) · 1204-08-12 Girit · 1207-03-05 Antalya · 1216-01-22 Antalya · 1258-02-10 Bagdat · 1260-09-03 Baalbek/Halep/Rakka · 1261-07-25 Dimetoka/Gelibolu/Kavala(4) · 1268-05-18 Antakya. 🔴 ACIK KALEM — TAVAN 181'E DONECEK: bu 12 birimin maddeleri D2 evrenine yazilinca (ya da kuyruk dosyalari evrene katilinca) sayi duser; tavan O ZAMAN indirilir (§3.4-3). Tavani yukseltmek bu 12'yi SUSTURMAK DEGIL, ADIYLA BEYAN ETMEKTIR — susturulmus borcun ne oldugunu §3.4-1 anlatiyor. 📌 UMIT'in ONGORUSU TUTMADI ve kendisi yazdi: "Z6'nin 2s katkisi 0" demisti; ufuk 1000'e acilinca Z6'nin 1000-1281 kirilmalari 2s evrenine GIRDI. Bu, tavan ailesinin 5. kez ayni dersi vermesi: **bir sayaci birden cok diff kipirdatiyorsa ongoru tutmaz** (§3.4-0). 📌 Koordinator OLCUMU BAGIMSIZ DOGRULADI: 193 · 1805 YABANCI · 793 KAPSAM DISI · 228 YIL-TEMSILI · cikis 1 — UMIT'in sayisiyla BIREBIR. · ONCESI: 9 EKIM (dalga 3): 182 -> 181 · CELAYIRLI-0085-v2 (Gence 1406-10-21 kapandi) + ANKARA-1406(KOORD+KRONO) + GORUNTU-0085-v2, BIRLIKTE olculdu — IYILESME, §3.4-3. Isci ongorusu o gun de tutmadi: CELAYIRLI "183 -> 182", ANKARA "183 sabit" demisti; ayni sayaca iki diff dokununca 181 cikti (§3.4-0) · dalga 2 183 -> 182 · dalga 1 184 -> 183 · 1 EKIM 195->191->189 · 6 EKIM 189->186->185 -> 184 · (eski not devami): 182 -> 181 · CELAYIRLI-0085-v2 (Gence 1406-10-21 kapandi) + ANKARA-1406(KOORD+KRONO) + GORUNTU-0085-v2, BIRLIKTE olculdu — IYILESME, §3.4-3. 📌 Isci ongorusu YINE tutmadi: CELAYIRLI "183 -> 182", ANKARA "183 sabit" demisti; ayni sayaca iki diff dokununca 181 cikti (§3.4-0) · ONCESI: dalga 2 183 -> 182 · dalga 1 184 -> 183 · 1 EKIM 195->191->189 · 6 EKIM 189->186->185 -> 184
+# 9 EKİM: 185 -> 184 (§3.4③ iyileşince tavan İNER, §3.4② sabitle AYNI commit).
+# KRONO-SENKRON-1008 MOSTAR yarısı: Hersek'in fethi 1466-01-01 maddesi indi ve
+# Mostar'ın kırılmasını kapattı. Ölçüm YAZMADAN HEMEN ÖNCE koşturuldu (§3.4⓪):
+# önce 1722 kırılma / 185 AÇIK · sonra 1720 / 184. 2sk 2250'de DEĞİŞMEDİ —
+# 2203'ün "2251 Mostar'dan geliyor" cümlesi bir ÇIKARIMDI, ölçüm onu çürüttü.
+# YIL-TEMSİLÎ de 165 -> 164 düştü; tavanı (151) zaten aşıldığı için oynatılmadı.
+# 🟢 186 → 185, 6 Ekim akşamı: TEK-EKSIK-KILI. `olaylar_ek5`in Paris maddesine Kili YER
+#   olarak eklendi ve TDV `kili` maddenin hükmünü Kili için ADIYLA, saydığı üç kazayla
+#   AYNI CÜMLEDE söylüyor ⇒ tesadüfî kapanma DEĞİL, hak edilmiş kapanma.
+#   1856-03-30 kovası KAPANDI. Tavan ölçümle birlikte iner (`§3.4(3)`): bırakılırsa
+#   aradaki bir puan sessiz borç olur ve açığın geri açılması GÖRÜNMEZ.
+# 🔴 6 EKİM 2026 — 189 → 186, ÖLÇÜLDÜ (yazmadan hemen önce `denetle.py` koşturuldu:
+#   "186 AÇIK (tavan 189)"). Üç puanlık pay SESSİZ BORÇtu: §3.4(3) "iyileşince tavan
+#   iner; iyileşmiş bir ölçümde eski tavanı bırakmak aradaki payı sessiz borç yapar."
+#   Üç açığı kapatan iş: Gdansk (90c9585c) · Memel (63c78baa) · 1006c Polonya (79b1ad02).
+# 📌 VE BU TAVAN, İNDİRİLMESİ İÇİN ÖLÇÜLEN BİR DENETİMDEN ÇIKTI: LAB-TAVAN-TEL-1006
+#   24 `BEKLENEN_*` sabitinin kaçının gerçekten çıkış koduna BAĞLI olduğunu ölçtü
+#   (16 BAĞLI · 2 YARI · 6 DEKORATİF). `ACIK_S` BAĞLI çıktı — yani bu indirme gerçek
+#   bir kapıyı sıkıyor, dekoratif bir sayıyı güzelleştirmiyor.
+# ⚠️ LAB'ın ÖLÇTÜĞÜ BİR YÖNTEM KUSURU, buraya not: "tavanı BİR EKSİLT" sınavı GEVŞEK
+#   tavanda YANLIŞ SINIFLANDIRIR — 189'u 188 yapmak ihlal ÜRETMEZ (ölçüm 186) ve sabit
+#   DEKORATİF görünür; ihlali 185 üretir. ⇒ Doğru sınav değeri TAVANDAN değil ÖLÇÜMDEN
+#   türetilir: `tavan = ölçüm − 1`. Bu kusur koordinatörün verdiği talimattaydı.
 # 1788 yeni madde girdi ve DORT yabanci senkron acigini KAPATTI. Tavan asagi da
 # takip edilir (`§11`): indirilmezse yarinki gerileme "191 <= 195" diye sessizce
 # gecer ve acigin geri acilmasi GORUNMEZ olur.
@@ -626,6 +710,12 @@ BEKLENEN_ACIK_S = 189   # 1 EKIM 2026 (gece): 195 -> 191 -> 189
 #   "yeni `YYYY-01-01` kırılması yazılmış olabilir" cümlesi burada YANILTIR;
 #   tavan bu yüzden güncellendi, yoksa sonraki oturum olmayan bir kaydı arar.
 BEKLENEN_2S_YIL_BORC = 151
+# 🆕 ZAMAN-GENİŞ-1008 (Z1): ufuk 1000'e açılınca ölçüm 165 → 166, ADIYLA tek kalem:
+#   Lapaha (Muʻa) · s:tui-tonga-imparatorlugu f:1220-01-01 (kur:1220-01-01).
+#   UFUK DAMGASI DEĞİL (1220 bir uç gün değil) ⇒ kırılma evrenine girdi. Eski
+#   ufukta 1220 < 1281 olduğu için hiç sorulmuyordu. Tavan YÜKSELTİLMEDİ
+#   (1 Ekim kararı): 151→166 farkının öteki 14 kalemi bu commit'in değil ve
+#   adıyla ölçülmedi (§3.4-0). Öneri ve seçenekler: denetim/ZAMAN-Z1-1008.md.
 # 🔴 1 EKIM 2026 — BU SAYI TERS YONE GITTI: olculen 164 > tavan 151.
 # Tavan YUKSELTILMEDI ve bu dogru karardi. AMA ILK YAZDIGIM GEREKCE YANLISTI;
 # YAZICI KASA PC olctu ve curuttu (denetim/KASA-YILTEMSILI-1001.md).
@@ -750,7 +840,11 @@ BEKLENEN_ACIK_ISG = 1   # 1 EKIM 2026: 3 -> 1, olculdu (142 isgal kirilmasi, 1 a
 #     Tunus 1569/1573         gidis-gelisi modellenmemis
 # ⇒ Bunlari etiketten cikarmak `2t`yi dusurur ama GERCEK BOSLUGU GIZLER --
 #   ve o, olcutun onlemek icin var oldugu seydir. VERI isi, etiket isi degil.
-BEKLENEN_KIRILMASIZ = 13   # 1 EKIM 2026: 42 -> 13, gecenin kampanyasi 29 kalem kapatti
+# 15 EKIM 2026 (KUTU-TOPLU-1014, Emre onayi "tum pushlari bitir"): 1895 -> 1904. Kapinin INDIGI commit'te olculdu:
+#    K2'nin 1895'i kendi tabaninda (fc76e9d30) olculmustu; KUTU A/C/D/F1/F2/K1/G5 birlesimi 1897, ustune main'e
+#    inen "C grubu: eski sehirler ayri nokta" (b99a1469f) 1904 — 587/686 kirilma gunu. Iyilesince iner.
+BEKLENEN_EKSKLAV = float("inf")   # 24 EKIM 2026 TAVAN KALDIRILDI (Emre emri, sohbette: "Tavanlari kaldiralim, bize engel olmasin") · yalniz bilgi, bloke etmez · eski tavan 1982 ·   # 22 EKIM 2026 (Emre onayi 22 Ekim; VERI-MS1-1281: 13 sehir [Ahlat Harran Sis Remle Misis Seyzer Kartaca Sart Kadikoy Ani Meyyafarikin Halic Preslav] yazildi: 1929 -> 1982 = +53 parca, 612/715 gun; GERCEK OLCUM, nedeni ayrica incelenecek: yeni noktalar Osmanli Delaunay komsuluklarini degistiriyor) · ONCEKI 1929:22 EKIM 2026 (Emre onayi, sohbette; IYILESME 1933 -> 1929, -4 parca, 604/710 gun; olcum: KOSU 29 sonrasi denetle) · ONCEKI 1933: POSTIT-85 19 EKIM 2026 (Emre onayi, post-it #85; ust sinir 1966): 1910 -> 1933 (+23, 604/710 gun) · Becse/Becskerek/Canad/Lippa noktalari, Lipova Ekim 1551 Osmanli cikintisi tarihsel dogru · ONCEKI 1910: 19 EKIM 2026 (Emre onayi, tavan iyilesmesi 1944 -> 1910; olcum: KOSU 28 sonrasi denetle). ONCEKI: POSTIT-89 (18 Ekim 2026, Emre onayı): Tokaj 1565-02-09 yeni kırılma günü, +7 eski kopuk parça (Tokaj'la ilgisiz) · önceki:IYILESME 16 EKIM 2026 (KUNFUZE-1016, dal t5/b-1016): 1990 -> 1941 (-49), 703 gun / 598 kopuk gunde · Kunfuze (el-Kunfuze) noktasi eklendi (data/yerlesimler.js, d: 1871-03 -> 1916-07-18; Bang s.29 + TDV asir) ⇒ Cidde-Ebha arasi Tihame kiyisi koprulendi, Asir/Yemen kiyisi 1871-1916 Hicaz parcasina baglandi · gun sayisi +6 (Kunfuze kirilma gunleri) · olcum denetle.py Degismez 7e satiri, T5-1000-B + kunye commitleri ustu · mekanizma: tavan yalniz iyilesince iner (KARARLAR-1014 #49) · ONCEKI: YUKSELTME 16 EKIM 2026 — EMRE ONAYI (KOSU 27 hazirligi, dal kosu/27-hazirlik): 1898 -> 1990, 697 gun / 592 kopuk gunde · +66 Bise + Vadi'd-Devasir beyanli bos noktalari (KARARLAR-EMRE-1015 #13) Asir-Hicaz ic baglantisini kesiyor (Yemen/Asir/Habes kiyisi 1871-1916 tek kopuk parca); asil eksik Cidde-Ebha arasi kiyi noktasi (Kunfuze/Lis) — arastirma borcu, eklenirse ~1924 · +33 sayim artigi (15 yeni Osmanli kirilma gunu, 6 dusen gun; mevcut eksklavlar yeni gunlerde yeniden sayiliyor) · -7 icerik (El-Fasir +2 gercek, Serez/Drama -8, Besni/Darende -1, Dahlak -1) · olcum DENETIM-K27-1016 eksklav_olc gun gun dokum · ONCEKI: IYILESME 15 EKIM 2026 (KUTU-H7-1015, 0080/H-0019): 1904 -> 1898, 687 gun / 587 kopuk gunde; Preveze-Vonitsa 1699-1718 Osmanli donemi (TDV karlofca + pasarofca-antlasmasi) ve Inebahti 1700 iadesi (TDV inebahti) eklendi; toplam 6 parca azaldi (gun gun dokum yapilmadi) ·olcum: arac/eksklav_olc.py, worktree agent-ababb52035fad01ad, origin/main d57fbdc90 ustu · mekanizma: tavan yalniz iyilesince iner (KARARLAR-1014 #49) · ONCEKI 1904 · ILK: 1895, 14 EKIM 2026 — Degismez 7e ILK TAVAN (KARARLAR-1014 #49, 0064/H-0010; Emre onayi bu karar): arac/eksklav_olc.py, 681 Osmanli d/v kirilma gunu, 584 gunde kopuk parca, toplam 1895 · olcum: worktree agent-adb45ab6a14bc39c0, origin/main fc76e9d30 ustu · alet denetim/ARAC-EKSKLAV-0917.py ile 5 gunde parca parca AYNI (1520/1600/1739/1830/1912)
+BEKLENEN_KIRILMASIZ = float("inf")   # 24 EKIM 2026 TAVAN KALDIRILDI (Emre emri, sohbette: "Tavanlari kaldiralim, bize engel olmasin") · yalniz bilgi, bloke etmez · eski tavan 260 ·  # 24 Ekim 2026 KRON-ORTACAG (Emre onayi 23 Ekim): 200 -> 260 = KRON-ANTIK 200 tavani + olaylar_ortacag_bekleyen_acik.js (MS500-1281, toprak maddeleri yerlesim zinciri yok/yil-basi sinira dayali; 107 madde). Zincir ya da sinir gunu kaynaga cekilince iner. Onceki: 23 EKIM 2026 (Emre emri): 13 -> 200. KRON-ANTIK: MÖ12000-MS500 antik kronoloji (Misir/Yakin Dogu/Akdeniz, ~375 madde) yerlesim s: zinciri olmayan yerleri anlatiyor -> kirilmasiz sayilir; zincirler (YER-TANIMA/VERI-MO-ARKEO) gelince kuyruk EKSILIR, tavan o zaman iner. (1 EKIM 2026: 42 -> 13)
 # ⚠️ Buyuk bir dusus (42 -> 13) ve bilerek SIKI baglaniyor: 29 kalemlik iyilesme
 # kayda gecmezse, yarin biri 40 kirilmasiz madde yazsa denetim "40 <= 42" der ve
 # GECER. Tavan bir hedef degil, o gunun FOTOGRAFIDIR.
@@ -779,7 +873,20 @@ BEKLENEN_KIRILMASIZ = 13   # 1 EKIM 2026: 42 -> 13, gecenin kampanyasi 29 kalem 
 # fetihle kuruldu. `m:` alani ZAMANSIZ oldugu icin sema bunu ayiramiyor.
 # ⇒ Bu bir gerileme DEGIL; YAPILACAKLAR'daki "k/m alanlari zamanli olmali"
 #   borcunun olculmus bir vakasi. Duzeltme burada degil, semada.
-BEKLENEN_CELISKI_UST_SINIR = 387
+# 🪦 ÖLÜ SORU — 6 Ekim 2026, LAB-TAVAN-TEL-1006 ölçtü ve koordinatör doğruladı.
+#   `BEKLENEN_CELISKI_UST_SINIR = 387` SİLİNDİ. Sebep: sabit dosyada YALNIZ kendi
+#   tanım satırında geçiyordu — hiçbir yerde OKUNMUYOR, ve ölçtüğü sayı çıktıda da
+#   BASILMIYOR. Yani ne kapıydı ne bilgi satırı; okuyana "bu soru korunuyor" izlenimi
+#   veren bir sayıdan başka bir şey değildi. `§3.4(5)`: bugün hiçbir şeyi susturmayan
+#   bir eşik, yarın gerçek bir ihlali susturur.
+# 🔴 AMA YUKARIDAKİ GEREKÇE BLOĞU SİLİNMEDİ — ve niçin silinmediği önemli: sabit
+#   gitti, SORU tarif edilmiş olarak kaldı. `m:` alanının ZAMANSIZ olması (Kili/
+#   Akkirman vakası) hâlâ açık bir şema borcudur (`YAPILACAKLAR`: "k/m alanları
+#   zamanlı olmalı"). Biri yarın bu ihtiyacı yeniden keşfederse, üstteki satırlar
+#   onu sıfırdan araştırmaktan kurtarır. Bugünkü INDIR-1001 emekliliğiyle aynı kalıp:
+#   dosya/sabit gidince NİÇİN var olduğu da giderse, altı hafta sonra yeniden icat edilir.
+#   ⇒ Soru yeniden SORULACAKSA yeni sabit BUGÜNÜN ölçümüyle yazılır (§3.4(0)),
+#     387'nin kaldığı yerden DEVAM ETTİRİLMEZ: 387 iki ay boyunca ölçülmemiş bir sayıdır.
 
 # Türkçe harf kümesi — kelime sınırı için. `denetle_eslesme.py` ile aynı;
 # oradan import EDİLMİYOR (stdout sarmalayıcı çakışması, bkz. _madde_yeri_aniyor).
@@ -1122,17 +1229,45 @@ def tam(s):
     return s + "-01" if len(s) == 7 else s
 
 
+def pad(s):
+    """Tarih dizgisinin YIL kısmını 4 haneye tamamlar: "900-01-01" → "0900-01-01".
+
+    🔴 GUNNO-PAD-1008 (`CLAUDE.md §4` · `D205`): `devletler.js` künye `f:`
+    alanında 64, künye-içi `kronoloji[].t` alanında 47 üç haneli yıl var.
+    `gun_no` `s[0:4]` keser ⇒ "900-" ile ValueError; dizgi karşılaştırması
+    `"900-01-01" > "1281-01-01"` ⇒ True (YANLIŞ). Tarih karşılaştıran her yer
+    bu yardımcıdan geçer. ⚠️ Negatif (MÖ) yıl DOKUNULMADAN döner: `datetime`
+    MÖ yılı temsil edemez ve dizgi sırası onda da tutmaz — sessiz pad yerine
+    `gun_no` ÇÖKER (yanlış cevaptan iyidir, `D205`). Bugün veride 0 negatif.
+    """
+    if not isinstance(s, str) or not s or s[0] == "-":
+        return s
+    yil, ayrac, kalan = s.partition("-")
+    if yil.isdigit() and len(yil) < 4:
+        return yil.zfill(4) + ayrac + kalan
+    return s
+
+
 def gun_no(s):
-    s = tam(s)
-    y, a = int(s[0:4]), int(s[5:7])
-    g = int(s[8:10]) if len(s) >= 10 else 1
-    return date(y, a, g).toordinal()
+    """ISO tarih -> ordinal gun. 🔴 NEGATIF YIL icin gun.py'ye DEVREDER.
+
+    Eski hali `int(s[0:4])` ile yil kesiyordu ve "-2333-01-01" uzerinde
+    "-233" okuyordu: 2.100 YILLIK hata. `date()` yil < 1'i reddettigi
+    icin cokuyordu — ve cokme bir ARMAGANDI, kusuru gosteriyordu.
+    🔴 TEHLIKE C3'TE: motordan `datetime` kaldirilir da dizgi kesimi
+    kalirsa COKME GIDER, SESSIZCE YANLIS YIL KALIR ve her kapiyi gecer.
+    (KASA olctu, 10 Ekim 2026, K1 devir sinavi.)
+    ⇒ `arac/gun.py` bu isi dogru yapiyor ve bu dosya onu HIC import
+      etmiyordu — "cagirani olmayan kapi"nin bir ornegi daha.
+    DENKLIK: gun.py 1970-01-01 = 0 · toordinal 719163 ⇒ + 719163.
+    """
+    return _gun.gun(tam(pad(s))) + 719163
 
 
 # ---------------- Değişmez 1 — sahipsizlik yok ----------------
 def degismez1(Y):
     def ir(periods, g):
-        return bool(periods) and any(p["f"] <= g < p["t"] for p in periods)
+        return bool(periods) and any(gn(p["f"]) <= gn(g) < gn(p["t"]) for p in periods)
 
     sahipsiz = {}
     # ⚠️ Kesitler 1300'den başlıyordu ve KURULUŞ DEVRİNİ (1281-1300) hiç
@@ -1143,19 +1278,64 @@ def degismez1(Y):
         g = f"{yil}-06-15"
         for t in Y:
             kur = t.get("kur")
-            if kur and kur > g:
+            if kur and gn(kur) > gn(g):
                 continue
             # ⚠️ bit: — yerleşim ortadan kalktıysa sahipsizlik SORULMAZ. Motor
             # bu alanı 2026-07-30'da okumaya başladı (petek_epok); araç da
             # okumazsa yok olmuş nokta "sahipsiz" diye yanlış alarm üretir.
             # Örnek: Zaporijya Sıçı 1775'te yıkıldı, sonrasında sahibi olmaz.
             bit = t.get("bit")
-            if bit and bit <= g:
+            if bit and gn(bit) <= gn(g):
                 continue
             if ir(t.get("d"), g) or ir(t.get("s"), g) or ir(t.get("v"), g):
                 continue
             sahipsiz.setdefault(t["ad"], []).append(yil)
     return sahipsiz
+
+
+# ---------------- Değişmez 1 — ZAMAN-GENİŞ-1008 KAPSAM DIŞI kovası ----------------
+# 🔴 Koordinatör hükmü (ZAMAN-GENİŞ-1008): UFUK − VERI_UFKU (`girdi.ufuk_devirleri`)
+# yıllarında noktasız/sahipsiz yerleşim DELİK SAYILMAZ — ama YOK DA SAYILMAZ.
+# DÖRT ŞART (biri tutmazsa kova KURULMAZ):
+#   (1) LİSTE — kalem adıyla (yerleşim · devir)
+#   (2) ölçüt TARİH değil VERİ: o devire DOKUNAN tek bir s/d/v dönemi yoksa
+#       kalem kovadadır; veri yazıldığı an KENDİLİĞİNDEN çıkar.
+#   (3) gerçek borçla (`BEKLENEN_SAHIPSIZ`) ASLA toplanmaz, yan yana basılır.
+#   (4) başında ZAMAN-GENİŞ-1008 beyanı.
+# ⚠️ O devirde verisi OLAN ama örnek günde sahipsiz kalan nokta kovaya
+#   GİRMEZ: o gerçek bir deliktir (ör. dönemi 1220'de başlayan nokta 1200'de)
+#   ve AYRI satırda ADIYLA basılır — kovaya atmak borcu affederdi.
+#   Bugün `degismez1` sayısına EKLENMEZ: tavan (BEKLENEN_SAHIPSIZ) yalnız
+#   VERI_UFKU evreninde ölçülmüştür; yeni evren ayrı satırdır (§3.4).
+# Örnek günler: her devirde 10 yılda bir `YYYY-06-15` (yarı açık [f, t)).
+BEKLENEN_VERILI_DELIK = None   # None = TAVAN YAZILMADI ⇒ yalnız bilgi. Koordinatör yazar (§3.4-4).
+
+
+def degismez1_kapsam(Y):
+    """→ (kapsam_disi, verili_delik) — ikisi de [(ad, devir_adı)] LİSTESİ."""
+    def dok(ps, f, t):
+        return any(p.get("f") and p.get("t") and gn(p["f"]) < gn(t) and gn(p["t"]) > gn(f)
+                   for p in (ps or []))
+    def ir(ps, g):
+        return any(gn(p["f"]) <= gn(g) < gn(p["t"]) for p in (ps or []))
+    kapsam, delik = [], []
+    for dad, df, dt in ufuk_devirleri():
+        gunler = [_gun.dizgi(_gun.gun_sayisi(yil, 6, 15))
+                  for yil in range(_gun.yil(gn(df)), _gun.yil(gn(dt)) + 1, 10)]
+        gunler = [g for g in gunler if gn(df) <= gn(g) < gn(dt)]
+        for y in Y:
+            if not any(y.get(k) for k in ("s", "d", "v")):
+                continue                  # kasten boş dolgu — zaten Değişmez 1'de
+            sahnede = [g for g in gunler
+                       if not (y.get("kur") and gn(y["kur"]) > gn(g))
+                       and not (y.get("bit") and gn(y["bit"]) <= gn(g))]
+            bos = [g for g in sahnede
+                   if not (ir(y.get("d"), g) or ir(y.get("s"), g) or ir(y.get("v"), g))]
+            if not bos:
+                continue
+            veri = any(dok(y.get(k), df, dt) for k in ("s", "d", "v"))
+            (delik if veri else kapsam).append((y["ad"], dad, bos[0][:4]))
+    return kapsam, delik
 
 
 # ---------------- Değişmez 1b — pencere arası boşluk (ÖRNEKLEMESİZ) ----------------
@@ -1224,6 +1404,11 @@ BEYAN_EDILEN_BOSLUK = {
     # ve bunu SÖYLEYEN bir dal olmadan bayatlığı görünmez.
     ("Cenne (Djenné)", "1700-01-01", "1818-01-01"),
     ("Cenne (Djenné)", "1591-04-13", "1596-01-01"),
+    # Poti (Faş Kalesi) 1640-1724 — POSTIT-104 (Emre, a seçeneği): TDV fas--gurcistan
+    # kalenin 1640'ta İmereti/Guria/Megrelya birlikleriyle yıkıldığını söyler, yıkanların
+    # orayı aldığını söylemez; inşa kararı 1723-12-23, yeniden inşa Mart 1724. Aralıkta
+    # yerleşim YOK sayıldı (boşluk merdiveni ④), toprak komşu peteklere kalır.
+    ("Poti (Faş Kalesi)", "1640-01-01", "1724-03-01"),
     # 🔴 Timbuktu 1430-1468 — TEVÂRİK (TUAREG) DÖNEMİ, 13.879 gün.
     # Beyan ZATEN YAZILMIŞTI ve kaynaklıydı; düşüren şey kayıt değil ARAÇ oldu.
     #
@@ -1274,8 +1459,10 @@ BEYAN_EDILEN_BOSLUK = {
     # ⇒ CİNS: `§11` sınavı — kaynak AÇIKÇA konuşuyor ("mahallî yönetim")
     # ama künye yok ⇒ `devletsiz` DEĞİL, "künye-yok". Kaynak susmuyor,
     # dizin susuyor.
-    # 🔜 BORÇ: `cizre-beyligi` künyesi (Bohtan) — yazılınca bu satır SİLİNİR.
-    ("Cizre", "1508-01-01", "1515-09-19"),
+    # 🟢 KAPANDI 14 Ekim 2026 (KUTU-F2-1014, 0043/H-0015): `cizre-botan` künyesi +
+    #   BOYALAR rengi (ed84e4343) geldi, Cizre'ye s:cizre-botan 1508-01-01→1515-09-19
+    #   yazıldı ⇒ ("Cizre", "1508-01-01", "1515-09-19") satırı SİLİNDİ (bayat beyan).
+    #   Yorum tarih için bırakıldı. Cibri ikizi aşağıda, üretilmiş dosyada — ayrı iş.
     # 🔴 Katar Yarımadası (iç, dolgu) 1670-1868 — 72.317 gün, ve NİÇİN BU GECE
     # DOĞDUĞU bu satırın en öğretici yanı.
     #
@@ -1308,7 +1495,7 @@ BEYAN_EDILEN_BOSLUK = {
     #   TDV dışında kaynak bulunursa BU SATIR SİLİNİR. Komşu deseni hazır:
     #   Doha'nın 1193 günlük deliği (1913-1916) `s:{d:"katar"}` ile kapatıldı
     #   (ab1df42) — aynı yol buraya da açık, eksik olan kaynak.
-    ("Katar Yarımadası (iç, dolgu)", "1670-01-01", "1868-01-01"),
+    ("Katar Yarımadası (iç, dolgu)", "1795-04-01", "1868-01-01"),  # 1670-1795 Benî Hâlid (post-it #122)
     # 🟢 Cibri (Güçlü) 1508-1515 — Cizre beyanının İKİZİ (TR-1923-SINIR, 15 Eylül 2026).
     # Köy Cizre'nin 10,1 km batısında bir SINIR ÇİFTİ noktası; zinciri Cizre
     # kaydından birebir (denetim/ARAC-TR1923-YAZ-0914.py). Boşluk aynı TDV `cizre`
@@ -1329,19 +1516,19 @@ def degismez1b(Y):
                     araliklar.append((p["f"], p["t"]))
         if not araliklar:
             continue                      # kasten boş dolgu noktası
-        araliklar.sort()
+        araliklar.sort(key=lambda a: (gn(a[0]), gn(a[1])))
         # örtüşenleri birleştir (s×d/v örtüşmesi kasıtlı, bkz. dönem sağlığı)
         birlesik = [list(araliklar[0])]
         for f, t in araliklar[1:]:
-            if f <= birlesik[-1][1]:
-                birlesik[-1][1] = max(birlesik[-1][1], t)
+            if gn(f) <= gn(birlesik[-1][1]):
+                birlesik[-1][1] = max(birlesik[-1][1], t, key=gn)
             else:
                 birlesik.append([f, t])
         bit = y.get("bit")
         for i in range(len(birlesik) - 1):
             bas, son = birlesik[i][1], birlesik[i + 1][0]
             # bit: sonrası boşluk BOŞLUK DEĞİLDİR — yerleşim sahneden çıkmıştır.
-            if bit and bit <= bas:
+            if bit and gn(bit) <= gn(bas):
                 continue
             gun = gun_no(son) - gun_no(bas)
             bulunan.append((gun, y["ad"], bas, son))
@@ -1430,6 +1617,95 @@ def _2s_norm(s):
     return s.lower().strip()
 
 
+# 🆕 KELIME-CAKISMA-YER-1006 — büyük/küçük harfi KORUYAN norm. `_2s_norm` ile aynı
+#   dönüşüm, yalnız `lower()` YOK ⇒ iki metin karakter karakter hizalıdır (uzunluk eşit
+#   değilse çağıran eski davranışa düşer). Niçin: `_2s_norm` büyük harfi silince özel ad
+#   ile sıradan kelime ayırt edilemiyordu — "1351'den beri" kelimesi `Beri` yerleşimini,
+#   "Ermenistan'a karşı" `Karşi (Nahşeb)`yi SAHTE YER kapanışıyla kapatıyordu (ölçüldü,
+#   `denetim/KELIME-CAKISMA-YER-1006.md`).
+_2S_KORU = str.maketrans({
+    "İ": "I", "ı": "i", "Ş": "S", "ş": "s", "Ğ": "G", "ğ": "g",
+    "Ü": "U", "ü": "u", "Ö": "O", "ö": "o", "Ç": "C", "ç": "c",
+    "Â": "A", "â": "a", "Î": "I", "î": "i", "Û": "U", "û": "u",
+    "’": "'", "‘": "'", "”": '"', "“": '"', "–": "-", "—": "-",
+})
+
+# 🆕 KELIME-CAKISMA-YER-1006 — adı aynı zamanda BAŞKA BİR ŞEYİN de büyük harfle yazılan
+#   adı olan yerleşimler (norm kök). Büyük harf şartı bunları AYIRMAZ; ölçülen vakalar:
+#     buna      ← "… antlaşması yaptı. Buna tepki gösteren Rabih …" (cümle başı zamir)
+#     ordu      ← "Kızıl Ordu Azerbaycan'ı işgal etti" (ordu, Ordu şehri DEĞİL)
+#     cotegipe  ← "1872 Loizaga-Cotegipe Antlaşması" (kişi/antlaşma adı)
+#   Bu köklerin KÖK yolu yalnız maddenin `yer` ALANINDA geçerlidir (o alan yer listesi
+#   taşır); `yer_id` ve merkez yolları etkilenmez. BEDELİ ölçülür: gövdede "Ordu'yu aldı"
+#   artık kök yoluyla kapatmaz (bugün Ordu'nun gerçek kapanışı `yer_id` yolundan — ölçüldü).
+#   Liste kapalıdır: yeni üye ancak BÜYÜK HARF şartının ayıramadığı, ölçülmüş bir sahte
+#   kapanışla girer (`§3.4`: en iyi istisna yazılmayandır). `beri`/`karsi` bu yüzden
+#   listede DEĞİL: ölçülen sahteleri küçük harfliydi, büyük harf şartı yetiyor.
+_2S_ES_AD = frozenset({"buna", "cotegipe", "ordu"})
+
+# 🆕 KELIME-CAKISMA-YER-1006b — EŞ-AD MUAFİYETİ SESSİZ OLMAZ (koordinatör şartı ③, D225).
+#   `_2S_ES_AD` kökü maddede ÖZEL AD olarak (büyük harfle) geçip de YER kolunu muafiyet
+#   yüzünden kapatamadığında birim ADIYLA bu kovaya düşer:
+#     TARAF-KAPATTI · birim TARAF koluyla zaten kapalı — sayılır, basılır, hüküm değişmez
+#     OLCULEMEDI    · başka hiçbir kol kapatmıyor ⇒ birim "açık" da "kapalı" da SAYILMAZ:
+#                     `eksik`e girmez (2s AÇIK'ı büyütmez), kola sayılmaz (2sk'yı büyütmez),
+#                     `olculemedi()` ile hükme girer ⇒ denetle.py ÇIKIŞ 2. "Ordu'yu aldı"
+#                     diyen gerçek bir madde bu yoldan GÖRÜNÜR — sessizce açık kalmaz.
+#   Kayıt: (tarih, yerleşim, durum, madde başlığı). `degismez2(yer_sarti=True)` sıfırlar.
+ES_AD_MUAF_2S = []
+
+
+def _2s_es_ad_gecer(o, ad, kok):
+    """Eş-ad kökü maddede özel ad olarak geçiyor ama `yer` alanında / `yer_id`de DEĞİL mi?
+    (= muafiyet bu maddeyi YER kolundan düşürdü)."""
+    if kok not in _2S_ES_AD:
+        return False
+    if (o.get("yer_id") and o["yer_id"] == ad) or _2s_gecer(o.get("nrm_yer", ""), kok):
+        return False
+    return _2s_ozel_ad_gecer(o, kok, ad)
+
+
+def _2s_es_ad_rapor():
+    """2sk satırlarının altına EŞ-AD kovasını basar; OLCULEMEDI varsa hükme sokar."""
+    olc = [k for k in ES_AD_MUAF_2S if k[2] == "OLCULEMEDI"]
+    trf = [k for k in ES_AD_MUAF_2S if k[2] == "TARAF-KAPATTI"]
+    print(f"            EŞ-AD  YER kolundan MUAF (`_2S_ES_AD`): {len(ES_AD_MUAF_2S)} birim "
+          f"· TARAF-KAPATTI {len(trf)} · ÖLÇÜLEMEDİ {len(olc)}")
+    for _d, _ad, _du, _b in ES_AD_MUAF_2S:
+        print(f"              {_du:13} {_d}  {_ad}  ← {(_b or '')[:60]}")
+    if olc:
+        olculemedi("Değişmez 2sk eş-ad",
+                   f"{len(olc)} birim eş-ad muafiyeti yüzünden YER kolunda sorulamadı: "
+                   + ", ".join(f"{a} {d}" for d, a, _, _ in olc[:4]))
+
+
+def _2s_kor(s):
+    """`_2s_norm`un büyük/küçük harfi KORUYAN ikizi (bkz. `_2S_KORU`)."""
+    import unicodedata as _u
+    if not s:
+        return ""
+    s = s.translate(_2S_KORU)
+    s = _u.normalize("NFKD", s)
+    s = "".join(c for c in s if not _u.combining(c))
+    return s.strip()
+
+
+def _2s_ozel_ad_gecer(o, nrm_ad, ham_ad):
+    """YER kolu kök yolu: ad kelime sınırıyla geçiyor VE ham metinde BÜYÜK harfle başlıyor mu?
+    Resmî adı küçük harfle başlayan yerleşimde (`el-…`, `de …`) harf şartı aranmaz.
+    `kor` yoksa ya da hizası bozuksa eski `_2s_gecer` davranışına düşer (ölçüm aracı uyumu)."""
+    if not nrm_ad or len(nrm_ad) < 3:
+        return False
+    nrm, kor = o.get("nrm", ""), o.get("kor")
+    if kor is None or len(kor) != len(nrm):
+        return _2s_gecer(nrm, nrm_ad)
+    kucuk_resmi = (ham_ad or "")[:1].islower()
+    for esl in re.finditer(r"(?<![a-z0-9])" + re.escape(nrm_ad) + r"(?![a-z0-9])", nrm):
+        if kucuk_resmi or kor[esl.start()].isupper():
+            return True
+    return False
+
+
 def _2s_gecer(nrm_metin, nrm_ad):
     """Kelime sınırıyla geçiyor mu? (norm düzleminde, 3 harften kısa ad sayılmaz)"""
     if not nrm_ad or len(nrm_ad) < 3:
@@ -1464,12 +1740,181 @@ def _2s_kunye_adlari():
     return _2S_KUNYE
 
 
+# 🆕 Taraf TAKMA ADI (ONCE1281-CISLEITHANIA-1005): künye adından türeyen aday
+#   maddelerin kullandığı kısaltmayı kaçırıyor. Ölçülen vaka: Rapallo maddesi
+#   "İtalya ile SHS Krallığı arasında" diyor, `yugoslavya`nın adayları yalnız
+#   "sirp-hirvat-sloven …" ⇒ 8 ada birimi açık kaldı. Liste DAR tutulur: her
+#   satır bir ölçülmüş kaçırma olmalı (gevşek kol çürüdü — blok başı).
+_2S_TAKMA = {"yugoslavya": ["shs"]}
+
+
 def _2s_taraf_adaylari(sid):
     ix = _2s_kunye_adlari()
     if sid in ix:
-        return ix[sid]
+        return ix[sid] + [a for a in _2S_TAKMA.get(sid, []) if a not in ix[sid]]
     n = _2s_norm((sid or "").replace("-", " "))
     return [n] if len(n) >= 3 else []
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🆕 🔴 KAPANIŞIN SINIFI (5 Ekim 2026) — "kapalı" tek bir şey DEĞİL
+#   ONCE1281-OK109-SUPURGE-1004 ölçtü: 2s'in kapalı kırılmalarının YARISI yer
+#   düzeyinde DOĞRULANMAMIŞ.
+#     kapalı 2s kırılması (yer×gün)   3160
+#       YER anılarak kapanan          1558  (%49)
+#       YALNIZ TARAF ile kapanan      1602  (%51)
+#   Taraf kolu (`_2s_tarafi_aniyor`) bilerek kurulmuş bir kuraldır (rejim
+#   değişimi: "1920 →tbmm" gibi maddeler yeri saymadan devreder) AMA ölçtüğü
+#   şey *"o gün o DEVLETİN bir olayı var"*, *"bu YER o gün el değiştirdi"*
+#   DEĞİL. ⇒ Künyeden devralınmış sahte günler (D207) tam bu yarıda saklanır;
+#   Avusturya-109 bunun ilk yakalanan örneğiydi (109 nokta tek güne yazılmış,
+#   günün kaynak desteği SIFIR, ve kapı "kapalı" diyordu).
+#   En büyük taraf-kolu kovaları: 1920 →tbmm 214 · 1736 safevi→afsar 129 ·
+#   1747 afsar→zend 127 · 1867 ing-kuzey-amerika→kanada 124 · 1889 Brezilya 92.
+#
+#   ⚠️ BU BİR GEVŞETME DEĞİL, GÖRÜNÜRLÜK: hiçbir ihlal eklenmiyor, hiçbir
+#   tolerans değişmiyor. AÇIK sayısı ve hükmü BİREBİR aynı kalıyor; tek
+#   değişen, 1.602 birimin artık ADIYLA sayılması ve tavanının bugünkü
+#   ölçümde DONMASI (8a'da yapılanın aynısı). Tavan yalnız GERİLEMEYİ bloke
+#   eder; iyileşince indirilir.
+# ═══════════════════════════════════════════════════════════════════════════
+KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
+              "maskeli_yer": 0, "maskeli_yalniz_taraf": 0,
+              "gun_yer": 0, "gun_yalniz_taraf": 0,
+              "ocak1_yer": 0, "ocak1_yalniz_taraf": 0}
+# 🆕 6 Ekim 2026 — OCAK-1 KOVALARI BİRİM BAŞINA (W41b ölçtü, koordinatör onayı: SENARYO B).
+#   `YYYY-01-01` kırılması yıl-temsilîdir: o kovadaki yerler aynı OLAYI değil aynı YILI
+#   paylaşır. Kova eşitliği bir olay iddiası taşımadığı için "kovadaki HER yer açıklanmalı"
+#   (Mankup 1349) kuralı orada maske üretir: ölçüldü (47290f11) maskeli TARAF'ın %58'i
+#   (348/597) ve maskeli YER'in %42'si OCAK-1 kovalarındaydı; OCAK-1 kovalarının yalnız
+#   %19'u kapanıyordu (gün kovalarında %54). Uç vaka 1794-01-01: 5 Kanada noktası 126
+#   alakasız taraf birimini görünmez tutuyordu.
+#   ⇒ OCAK-1 kovasında AÇIKLANMIŞ her birim kendi başına GÖRÜNÜR sayılır, MASKELENMEZ.
+#   🔴 YALNIZ SAYIM değişir, HÜKÜM DEĞİŞMEZ: kovanın AÇIK/KAPALI kararı (Mankup kuralı),
+#   2s AÇIK sayısı, YIL-TEMSİLÎ BORÇ ve KAPSAM DIŞI aynen kalır.
+#   `yer`/`yalniz_taraf` = GÜN + OCAK-1 toplamı (öteki araçlar bu anahtarları okuyor —
+#   anlamları "görünür kapalı" olarak korunur). `maskeli_*` artık YALNIZ gün kovalarıdır.
+#   Görünür+maskeli TARAF toplamı (tavanın sorduğu sayı) bu değişiklikle KIPIRDAMAZ:
+#   OCAK-1'in maskeli birimi görünüre geçer, toplam aynı kalır (sınav:
+#   `denetim/ARAC-2SK-OCAK1-SINAV-1006.py`).
+# 🆕 🔴 ÜÇÜNCÜ SAYI (5 Ekim 2026, ONCE1281 ölçtü) — "acik_kovada": SAYACIN MASKESİ.
+#   `degismez2` güne göre TEK KOVA kurar ve kovadaki TEK bir yer açıklanmazsa kovadaki
+#   HİÇBİR birim kapalı sayılmaz (`eksik` dolu ⇒ fark 31 ⇒ AÇIK). Sonuç: büyük bir kova
+#   tek bir eksik yüzünden tamamen görünmez olur.
+#   ÖLÇÜLEN VAKA (5 Ekim 2026 FOTOĞRAFI — BAYATLADI, aşağıya bak): 1918-11-11 kovasında
+#   123 yerleşim, kova AÇIK, eksik YALNIZ 'Gdansk' ⇒ öteki 122 birim 2sk'da SAYILMIYORDU.
+#   🔴 YENİDEN ÖLÇÜLDÜ (6 Ekim 2026, makine/umit ab2c57a4, W41 maske.py, KAPANIS_2S ile
+#   3/3 çapraz): 1918-11-11 kovası 28 YER + 75 TARAF açıklanmış, AÇIKLANMAMIŞ 4 —
+#   Częstochowa · Gdansk · Varşova · Łódź. "Yalnız Gdansk" artık DOĞRU DEĞİL (W54 de
+#   ölçtü). Bu cümle de bir fotoğraftır; tarihiyle okunur.
+#   ⇒ Bugünkü `yalniz_taraf` sayısı (ve tavanı) o maskenin ARKASINDAN okunuyor. Gdańsk
+#   tek başına açıklansa sayı 1602 → ~1697 olur (+95) ve **hiçbir veri kötüleşmez**.
+#   📌 `D262`nin kardeşi ama AYRI: orada sensör DOYMUŞTU (tavan aşık), burada MASKELİ
+#   (sayı eksik ölçülüyor). Doymuş sensör değişimi göstermez; maskeli sensör YANLIŞ
+#   BÜYÜKLÜK gösterir — ikincisi daha tehlikeli, çünkü sayı güven telkin eder.
+#   ⇒ Bu üçüncü sayı maskeyi GÖRÜNÜR kılar; tavan hesabına GİRMEZ, yalnız basılır.
+# 🔴 1602 → 1635 (5 Ekim 2026, AVUSTURYA TAÇ YARISI indi) — ARTIŞ ÖLÇÜLDÜ, AÇIKLANDI
+#   ve İNDİRİLEMEZ olduğu BİRİNCİL KAYNAĞA KARŞI sınandı:
+#     34 taç noktası `s:`i antlaşma gününe (Trianon / Saint-Germain) taşıyor; o günün
+#     kapanışları YER anmıyor ⇒ taraf kovasına düşüyor (+33).
+#   🔴 ÇARE DENENDİ VE ÇALIŞMADI: dört antlaşmanın TAM METNİ okundu (Trianon 149 s. ·
+#     Saint-Germain 137 s. · Rapallo · Büyükelçiler 1923, FOROST/Ungarisches Institut).
+#     **69 noktanın 60'ı metinde HİÇ YOK** — Trianon ve SG devredilen ŞEHİRLERİ saymıyor,
+#     yalnız sınır hattındaki köyleri. Geçen 9'un 5'i yalnızca DEMİRYOLU ADI olarak geçiyor
+#     (reddedildi), 2'si örtülü sınır referansı (`D208` ⇒ eklenmez), 2'si gerçek devir
+#     cümlesi (Zadar · Cres, Rapallo — zaten Cisleithania yarısında).
+#     ⇒ `D261` çaresi (maddeye yer adı ekle) bu kalemde UYGULANAMAZ; eklemek antlaşmaya
+#       söylemediğini söyletmek olurdu.
+#   ⚠️ NİÇİN TAVAN YÜKSELTİLDİ, AŞIK BIRAKILMADI: `D262` bilerek aşık bırakılan tavanın
+#     DEĞİŞİM SEZİCİ olmaktan çıktığını söylüyor. Buradaki artış ÖLÇÜLDÜ, SEBEBİ BİLİNİYOR
+#     ve indirilemez; aşık bırakmak bir sonraki GERİLEMEYİ gizlerdi. Dondurma, susturma
+#     DEĞİL — açıklanmış bir maliyeti yeni taban yapmaktır.
+#   📌 Ve bu sayı HÂLÂ MASKENİN ARKASINDAN okunuyor (bugün 1665 birim açık kovalarda
+#     sayılmıyor). Maske küçülünce taban YENİDEN kurulacak.
+# 🔴 6 Ekim 2026 — TAVANIN ANLAMI DEĞİŞTİ (koordinatör kararı, ölçen UMIT, W41 bulgusu):
+#   tavan artık GÖRÜNÜR yalnız-taraf + MASKELİ yalnız-taraf TOPLAMINI dondurur.
+#   Sebep: eski tavan (1665) yalnız görünür sayıyı tutuyordu ⇒ bir kova KAPANINCA maskenin
+#   arkasındaki taraf birimleri görünür olup tavanı AŞIYORDU — ölçüt İYİLEŞMEYİ cezalandırıyordu
+#   (W33b: meşru bir Polonya maddesi +78 verdi). Toplam maske hareketine BAĞIŞIKTIR: kova
+#   kapanınca görünür büyür, maskeli küçülür, toplam aynı kalır; GERÇEK yeni yalnız-taraf
+#   kapanışı toplamı AŞAR ⇒ alarm çalar.
+#   Ölçüm (yazmadan hemen önce, makine/umit ab2c57a4): görünür 1665 + maskeli 597 = 2262.
+#   ⚠️ Maskeli pay AYRI SATIRDA basılır — tavanın açtığı 597'lik pay SESSİZ KALMAZ (§3.4①).
+BEKLENEN_2S_YALNIZ_TARAF = 2246   # 10 EKIM (ABD-1010): 2258 -> 2246, ASAGI yon IYILESME — 11 ABD kaydindaki ODUNC SAHIP duzeltildi (Oregon 7'si 1818-46 ortak idare __BOSLUK__ beyanli, sonra abd 1846-06-15 Avalon imza gunu · Astoria ek ingiltere 1813-12-12 -> 1818-10-06 · Duluth 1793 · Grand Portage fransa/1763 ingiltere/1783 abd · Keweenaw ojibwe -> 1842-10-04 La Pointe · Pembina 1818-10-20). Aletin kendi onerisi: 'IYILESME: tavan 2258 -> 2246 (12 birim)'. KASA olctu, koordinator yazdi, AYNI COMMIT (§3.4 ②④). # 10 EKIM (KANADA-1010): 2265 -> 2258, ASAGI yon IYILESME — 85 kayitta 1867-07-01 odunc ucu gercek devir gunlerine cevrildi (RL 1870-07-15 · BC 1871-07-20 · PEI 1873-07-01 · Labrador 1923-10-29 pencere ucu), kaynak justice.gc.ca Enactment 3/4/6 BIREBIR. Aletin KENDI onerisi: '🟢 IYILESME: tavan 2265 -> 2258 yapilabilir (7 birim)'. KASA olctu, koordinator yazdi (§3.4 ④) ve KANADA diffiyle AYNI COMMIT'te (§3.4 ②). 🔴 VE BU KOORDINATORUN ONCEKI HUKMUNUN DUZELTMESI: '2sk'yi iki akis oynatiyor, tavani SON INEN yazar' demistim; YANLIS. Bosluk birakmak, INIS-A-PARTI'nin acikladigi SEBEBI olmayan +6'lik gerilemesini o 7 birimlik payin icinde GIZLERDI. Tavan iyilesmeyi ANINDA izler; bir sonraki gerileme o SIKI tavanda otmek ZORUNDA kalir. # 9 EKIM (dalga 2): 2253 -> 2265 · BOSNA-MACAR-0087 (D205 kimlik hatasi: Mohac'tan sonra 25 nokta avusturya -> macaristan-habsburg; TDV budin/hirvatistan/macaristan). YUKARI yon YENI KAPSAM: 4230 kapanisin 2115'i yalniz-taraf, TARAF kovasi 137 -> 151 adiyla olculdu. denetle.py'nin kendi ifadesi: 'IHLAL DEGIL, BORC' — ACIK sayisini ve hukmu etkilemez. 📌 Isci 2265 ONERDI ve TUTTU: bu tavana dokunan TEK diff oydu (dalga 1'de dort diff dokunuyordu, hicbiri tutmamisti) · ONCESI: dalga 1 2251 -> 2253
+# AYNI commit (§3.4②). Ölçüm yazmadan hemen önce (§3.4⓪): önce 2250 · sonra 2251. Yeni kalem
+# Darende'nin 1400 Dulkadir kazancı (kıtanın hipotezi; `--ayrinti` 2sk'yi tek tek BASMADIĞI için
+# teşhis edilemedi — bu bir KAPI KUSURU, §3.4⑤ "liste, sayı değil"; ayrı kalem açıldı).
+# ⚠️ Bu sayaç 9 Ekim gecesinin EN ÇOK OYNAYAN tavanı: MOSTAR 0 · GÜRCİSTAN 0 · ARTUKLU 0 ·
+# DIVRIGI +1 · (bekleyen: HAYALET +2 · SABLON +3 · DOGU-1533 +8). Her inişte YENİDEN ölçülüyor.
+# 2246 → 2250, 6 Ekim: KELIME-CAKISMA-YER-1006c eşleştirici yaması (AYNI commit, §3.4②).
+#   +4 = 4 SAHTE YER kapanışının kalkması (KELİME-ÇAKIŞMASI 1006). Borç artışı DEĞİL, görünürlük kazancı.
+#   ADIYLA: Karşi (Nahşeb) 1920-09-02 ("Ermenistan'a karşı") · Buna (Bouna) 1897-01-01 (cümle başı
+#   zamir) · Ordu (Bayramlı) 1920-04-23 ("Kızıl Ordu") · Cotegipe 1889-11-15 ("Loizaga-Cotegipe
+#   Antlaşması") — dördü de TARAF koluyla kapalı; 2s AÇIK ve 4177 kapalı aynen. Taban makine/umit
+#   c53f5637: yamasız ÖLÇÜM 2246 (= tavan) · yamalı ÖLÇÜM 2250 — yazmadan hemen önce koşturuldu.
+#   📌 1006 ölçümünde (62e270eb) 5. sahte Beri 1406-10-21 idi; 07cb6062'den beri YER birimi değil —
+#   SEBEBİ ÖLÇÜLMEDİ. Eş-ad muafiyetinin kovası (`ES_AD_MUAF_2S`) 2sk satırının altında ADIYLA basılır.
+#   → 2246 (önceki değer) — 2247 → 2246, 6 Ekim akşamı: BANAT-TRIANON maddesi.
+# 🟢 İYİLEŞME, ve kalıbı kayda değer: tavan bir TAVAN ARİTMETİĞİYLE değil, EKSİK BİR
+#   MADDE YAZILARAK düştü. Lugos/Temeşvar/Yanova'nın 1920-06-04 birimleri "yalnız TARAF"
+#   kapanıyordu çünkü Banat'ın Trianon devrini ADIYLA anan bir madde YOKTU. Madde yazıldı,
+#   birimler YER'den kapandı, ve tavan 2247'nin ALTINA indi. `§3.4(3)`ün "kapatan iş"i.
+#   ⚠️ Lugos'un 1918-11-11 birimi hâlâ YER 0/TARAF 7 — yani Lugos'un yarısı açık kaldı;
+#     bu madde 1920 devrini anlatıyor, 1918 Sırp işgalini değil.
+# 🔴 VE BİR KOORDİNATÖR HÜKMÜ GERİ ALINDI, sebebi yazılıyor çünkü ayrım ince:
+#   "Yanova `m:\"Temeşvar\"` üzerinden MERKEZ kolundan kapanıyor, bunu tesadüfî kapanma
+#   sayıyorum ⇒ tavan 2248 olsun" demiştim. YANLIŞ, ve niçin: tavan ÖLÇÜMÜN KENDİSİDİR
+#   (`§3.4(0)`), bir ölçüt itirazının yeri DEĞİL. 2248 yazmak, ölçüm 2246 iken iki
+#   puanlık SESSİZ PAY bırakmak olurdu — `§3.4(3)`ün yasakladığı şeyin aynısı.
+#   ⇒ Tavan ÖLÇÜMÜ izler: 2246. İtiraz ise ÖLÇÜTE yöneliktir ve AYRI bir kalemdir:
+#     "`m:` merkez kolunun YER kapanışı sayılması tesadüfî kapanma üretiyor mu?"
+#     O ölçüt değişirse tavan onunla birlikte oynar. İki soruyu bir sayıya yüklemek,
+#     ikisini de ölçülemez kılar.
+# 📌 Önceki hâl: 1665 (görünür) → 2262 (görünür 1665 + maskeli 597), 6 Ekim sabahı.
+#   → 2247 (6 Ekim 2026, UMIT-W33-POLONYA-1006c ile AYNI commit, koordinatör kararı — SON SEÇENEK):
+#     1918-11-11 "Polonya'nın bağımsızlığı" maddesi kovayı KAPATTI; +2 = ADIYLA iki YALNIZ-TARAF
+#     kapanışı: Częstochowa · Łódź (Alman işgal idaresi o gün çöktü — meşru — ama madde onları
+#     ANMIYOR). Önce yer düzeyinde kapatma denendi: maddenin kaynağı (Piłsudski Müzesi) iki yeri
+#     1918 bağlamında ANMIYOR (Łódź yalnız ~1900 tutuklanmasında) ⇒ gövdeye eklemek YASAK
+#     (Van⇐Tonga sınıfı). Gdansk bu kovadan Gdańsk düzeltmesiyle (90c9585c) çıktı.
+#   → 2245 (6 Ekim 2026, YERID-IMZA-1006 ile AYNI commit, §3.4③): imza yeri düzeltilen 17
+#     kırılma yalnız-taraftan YER koluna geçti — görünür 1665→1648 · maskeli 597 · toplam 2245.
+#   🔴 BU EN BÜYÜK TEK SIÇRAMA — ve niçin kabul edildiğini yazıyorum, çünkü yarın
+#   "neden bu kadar arttı" diye sorulacak.
+#   Saint-Germain md. 91 emanet künyesi (`itilaf-emaneti`) 16 Cisleithania kaydını
+#   `avusturya`dan alıp emanete, oradan halefe taşıyor. Doğan 29 yeni kırılmayı kapatan
+#   maddeler ANTLAŞMAYI anıyor (Rapallo · Büyükelçiler Konferansı), tek tek YERLEŞİMİ
+#   değil ⇒ taraf koluna düşüyorlar.
+#   KARŞILIĞINDA ALINAN — ve bu yüzden takas doğru:
+#     2s AÇIK 187 → 187   yeni açık YOK (SHS takma adı olmadan +1 olurdu; ikisi birlikte indi)
+#     2sk YER  1570 → 1571  `D261`in İLK SAHİCİ UYGULAMASI: Rapallo md. 2-3'ün GERÇEK
+#                            devir cümlesi (Zara/Zadar · Cherso/Cres) maddeye yazıldı
+#     4c 127 · 4d 324 · D1 309  DEĞİŞMEDİ
+#     MASKE 1662 → 1646     (16 birim daha görünür oldu)
+#   📌 Ve asıl kazanç sayıda değil MODELDE: Avusturya-Macaristan 1918-11-11'de bitti;
+#     `avusturya` künyesinin Dalmaçya'yı 1920'ye kadar tutması TARİHEN YANLIŞTI. `D205`
+#     üç sınıfından ③ (ardıl yapı geçti) uygulandı — kısaltmak delik açardı.
+#   ⚠️ KÜNYE ŞARTLI KABUL EDİLDİ: `tur:"emanet"` ile AÇIKÇA devlet olmadığı yazılı,
+#     penceresi KAPALI (1919-09-10 → 1923-03-15), `kaynak:`ta md. 91'in birincil metni
+#     alıntılı. Emsal var: `filistin-mandasi` · `suriye-lubnan-mandasi` zaten boyalı
+#     kimlikler, yani atlas hukukî statüleri beyanlı olarak modelliyor.
+#   ⚠️ BOYA BORCU BEYANLI: `renkler.py` yaması MOTOR TUZUNDA, tam inşa koşusuna
+#     bekletiliyor (`denetim/ONCE1281-CISLEITHANIA-RENK-1005.diff`, nötr gri #9e9e9e).
+#     O inene dek emanet toprakları BOYANMAZ — kusur değil, sıraya girmiş borç.
+#   ⚠️ Ve ÖLÇÜM ÖNGÖRÜDEN 1 SAPTI: UFUK YER için 1572 dedi, kapı 1571 bastı. Sapma
+#     muhtemelen aynı turda inen Bükreş `yer_id` düzeltmesinden; ÖLÇÜLMEDİ, ve
+#     "tuttu" diye yazmıyorum.
+#
+# ÖNCEKİ (1635 → 1636) · EISENSTADT/ZIGETVAR (UFUK).
+#   +1'in KARŞILIĞINDA 2s'de bir AÇIK KAPANDI: 188 → 187. Yani bu bir gerileme değil
+#   TAKAS, ve takasın yönü doğru: `2s` ihlal sayar, `2sk` yalnız kapanışın SINIFINI
+#   söyler. Bir açığı kapatmak, kapanışın taraf koluna düşmesinden önemlidir.
+#   Ölçülen bütün satırlar: D1 309 · D2 623/0 · 2s 188→187 · 2i 154→161 (açık 1) ·
+#   D7 727→730 (tavan 731) · 4c/mükerrer AYNI.
+#   📌 UFUK bu +1'i ÖNCEDEN bildirdi ("2sk TARAF +1") ⇒ sürpriz değil, ölçülmüş bedel.
+# ⚠️ AÇIK BORÇ: Eisenstadt kapanışı YER anmıyor. `D261` çaresi (maddeye yer adı
+#   yazmak) burada DENENMEDİ — Burgenland devri için "Bundesheer Burgenland'a girdi
+#   1921-11-13" maddesi yazılırsa kol YER'e dönebilir. Kuyrukta.
 
 
 def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
@@ -1496,6 +1941,22 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
     `s:` ayrı çağrılıyor çünkü ayrı KADEMEDE raporlanıyor: `d:`/`v:` için açık
     sayısı 0 olmalı (İHLAL), `s:` için bilinen borç + tavan.
     """
+    # 🆕 KAPANIŞIN SINIFI sayacı SIFIRLANIR (bkz. KAPANIS_2S yorumu). Yalnız
+    #   `yer_sarti=True` dalı yazar, yani yalnız 2s çağrısı; d/v ve isg kolları
+    #   bu sayaca DOKUNMAZ. Çağrı başına sıfırlamak şart: aynı koşuda degismez2
+    #   üç kez çağrılıyor ve sayaç birikirse 2s'in sayısı yalan söyler.
+    if yer_sarti:
+        KAPANIS_2S["yer"] = 0
+        KAPANIS_2S["yalniz_taraf"] = 0
+        KAPANIS_2S["maskeli_yer"] = 0
+        KAPANIS_2S["maskeli_yalniz_taraf"] = 0
+        # 🔴 6 Ekim 2026 (W41b ölçtü): "acik_kovada" da çağrı başına SIFIRLANIR —
+        #   sıfırlanmadığı için ikinci çağrıda 1654 → 3270 birikiyordu (ana akış tek
+        #   çağrı yaptığından resmî sayı doğruydu; çoklu çağıran araç yanlış okurdu).
+        KAPANIS_2S["acik_kovada"] = 0
+        for _a in ("gun_yer", "gun_yalniz_taraf", "ocak1_yer", "ocak1_yalniz_taraf"):
+            KAPANIS_2S[_a] = 0
+        ES_AD_MUAF_2S.clear()      # 🆕 KELIME-CAKISMA-YER-1006b
     # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
     ol = [{"g": gun_no(o["t"]), "b": o["b"],
            "yer": o.get("yer_id") or o.get("yer")} for o in O]
@@ -1504,6 +1965,11 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
             kayit_o["nrm"] = _2s_norm(" ".join([o.get("b") or "",
                                                 o.get("yer") or "",
                                                 o.get("d") or ""]))
+            # 🆕 KELIME-CAKISMA-YER-1006: `nrm`in harf-koruyan ikizi + yalnız `yer` alanı
+            kayit_o["kor"] = _2s_kor(" ".join([o.get("b") or "",
+                                               o.get("yer") or "",
+                                               o.get("d") or ""]))
+            kayit_o["nrm_yer"] = _2s_norm(o.get("yer") or "")
             kayit_o["nrm_b"] = _2s_norm(o.get("b") or "")
             # 🔴 `nrm_y` = BAŞLIK + `yer` — GÖVDE (`d`) YOK. Merkez (`m:`) kolu
             #   yalnız bunu okur; sebebi `_2s_merkez_aniyor`da.
@@ -1522,7 +1988,7 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
             donemler += (y.get(kat) or [])
         for p in donemler:
             for d, tip in ((p.get("f"), "kazanc"), (p.get("t"), "kayip")):
-                if not d or d <= "1281-01-01" or d >= "1923-10-29":
+                if kirilma_disi(d):
                     continue
                 kayit = kir.setdefault(d, {"t": tip, "ad": set(), "sahip": {}})
                 kayit["ad"].add(y["ad"])
@@ -1577,22 +2043,72 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                     #   Rapora giden `adlar` artık AÇIKLANMAYANLARdır: hem satır
                     #   dürüst olur, hem `kapsam_disi` mesafeyi SUSAN noktadan
                     #   ölçer (açıklanmış komşusundan değil).
-                    eksik, secim_havuz = [], []
+                    eksik, secim_havuz, _kol = [], [], []
                     for ad in sorted(adlar):
                         sah = {ad: kir[d]["sahip"].get(ad, {})}
-                        uyan = [o for o in yakinlar
-                                if _2s_yeri_aniyor(o, {ad}, Y_KOK, Y_MERKEZ)
-                                or _2s_tarafi_aniyor(o, sah)]
+                        # 🆕 KAPANIŞIN SINIFI (bkz. KAPANIS_2S yorumu): iki kol
+                        #   AYRI sorulur. Hüküm DEĞİŞMEZ (`uyan` aynı küme), yalnız
+                        #   hangi kolun kapattığı SAYILIR.
+                        _yer_uyan = [o for o in yakinlar
+                                     if _2s_yeri_aniyor(o, {ad}, Y_KOK, Y_MERKEZ)]
+                        _taraf_uyan = [o for o in yakinlar
+                                       if _2s_tarafi_aniyor(o, sah)]
+                        uyan = _yer_uyan + [o for o in _taraf_uyan
+                                            if o not in _yer_uyan]
+                        # 🆕 KELIME-CAKISMA-YER-1006b: eş-ad muafiyeti SESSİZ OLMAZ
+                        if not _yer_uyan:
+                            _es = [o for o in yakinlar
+                                   if _2s_es_ad_gecer(o, ad, Y_KOK.get(ad, ""))]
+                            if _es:
+                                ES_AD_MUAF_2S.append(
+                                    (d, ad, "TARAF-KAPATTI" if uyan else "OLCULEMEDI",
+                                     _es[0]["b"]))
+                                if not uyan:
+                                    continue   # ne eksik (AÇIK) ne kol (KAPALI)
                         if uyan:
                             secim_havuz += uyan
+                            # 🔴 HENÜZ SAYMA: bu kırılma `eksik` yüzünden AÇIK
+                            #   kalabilir ve o zaman bu birim KAPALI DEĞİLDİR.
+                            #   Satırın etiketi "kapalı" diyor ⇒ yalnız kapanan
+                            #   kırılmaların birimleri sayılır (ölçüldü: erken
+                            #   sayınca 4814/2622/2192, doğrusu 3160/1558/1602).
+                            _kol.append("yer" if _yer_uyan else "yalniz_taraf")
                         else:
                             eksik.append(ad)
+                    # 🆕 OCAK-1 kovası: SAYIM birim başına (bkz. KAPANIS_2S
+                    #   yorumu). Açıklanmış birim kovanın hükmünden BAĞIMSIZ
+                    #   görünür sayılır; aşağıdaki hüküm (eksik ⇒ AÇIK) aynen.
+                    _ocak1 = str(d)[4:] == "-01-01"
+                    if _ocak1:
+                        for _k in _kol:
+                            KAPANIS_2S[_k] += 1
+                            KAPANIS_2S["ocak1_" + _k] += 1
                     if eksik:
                         fark = 31          # açıklanmayan yerleşim VAR ⇒ AÇIK
                         kir[d]["eksik"] = eksik
+                        # bu kırılma AÇIK ⇒ birimleri KAPALI sayılmaz — AMA ARTIK
+                        #   ATILMIYOR, SAYILIYOR (bkz. KAPANIS_2S "acik_kovada"):
+                        #   açıklanmış oldukları hâlde kovanın tek eksiği yüzünden
+                        #   görünmez kalan birimler maskenin KENDİSİDİR.
+                        #   (OCAK-1 kovasında maske YOK — birimler yukarıda sayıldı.)
+                        if not _ocak1:
+                            KAPANIS_2S["acik_kovada"] += len(_kol)
+                            # 🆕 6 Ekim 2026: maske KOLA göre de sayılır — 2sk tavanı
+                            #   görünür + maskeli TARAF toplamına bağlandı (bkz. tavan).
+                            for _k in _kol:
+                                KAPANIS_2S["maskeli_" + _k] += 1
+                    elif not secim_havuz:
+                        # 🆕 1006b: kırılmanın bütün birimleri eş-ad ÖLÇÜLEMEDİ ⇒ AÇIK'a
+                        #   yazılmaz, KAPANIŞ'a sayılmaz; kova + çıkış 2 görünür kılar.
+                        en_yakin, fark = min(yakinlar, key=lambda o: abs(o["g"] - gd)), 0
                     else:
                         en_yakin = min(secim_havuz, key=lambda o: abs(o["g"] - gd))
                         fark = abs(en_yakin["g"] - gd)
+                        # 🆕 kırılma KAPANDI ⇒ birimlerin kolu ŞİMDİ sayılır
+                        if not _ocak1:
+                            for _k in _kol:
+                                KAPANIS_2S[_k] += 1
+                                KAPANIS_2S["gun_" + _k] += 1
                 else:
                     esli = [o for o in yakinlar if o["yer"] and o["yer"] in adlar]
                     if esli:
@@ -1670,7 +2186,13 @@ def _2s_yeri_aniyor(o, adlar, Y_KOK, Y_MERKEZ):
     if o.get("yer_id") and o["yer_id"] in adlar:
         return True
     for ad in adlar:
-        if _2s_gecer(o["nrm"], Y_KOK.get(ad, "")):
+        kok = Y_KOK.get(ad, "")
+        # 🆕 KELIME-CAKISMA-YER-1006: kök yolu ÖZEL AD olarak geçmeli (büyük harf);
+        #   eş adlı köklerde yalnız `yer` alanı sayılır (bkz. `_2S_ES_AD`).
+        if kok in _2S_ES_AD:
+            if _2s_gecer(o.get("nrm_yer", ""), kok):
+                return True
+        elif _2s_ozel_ad_gecer(o, kok, ad):
             return True
         ham_m, nrm_m = Y_MERKEZ.get(ad, ("", ""))
         if _2s_merkez_aniyor(o, ham_m, nrm_m):
@@ -1824,7 +2346,7 @@ def _osmanli_kure(Y, g, _onbellek={}):
     out = []
     for y in Y:
         for alan in ("d", "v"):
-            if any(p["f"] <= g < p["t"] for p in (y.get(alan) or [])):
+            if any(gn(p["f"]) <= gn(g) < gn(p["t"]) for p in (y.get(alan) or [])):
                 out.append(y)
                 break
     _onbellek[g] = out
@@ -1841,19 +2363,18 @@ def kapsam_disi(Y, acik):
     ici, disi = [], []
     for kayit in acik:
         d, tip, adlar, baslik, fark = kayit
-        g = d if len(d) == 10 else (d + "-01-01")[:10]
+        # DENETLE-TARIH-KALAN-1008: üç haneli yıl ("330-05-11") önce pad()'den
+        # geçer — yoksa `(d+"-01-01")[:10]` "330-05-11-" verir ve FETRET dalının
+        # `int(g[:4])`ü ValueError ile ÇÖKER. Dolgulu ve dört haneli girdi aynı kalır.
+        g = pad(d)
+        _m = re.match(r"^(-?\d{4})(?:-(\d\d))?(?:-(\d\d))?$", g)       # MÖ (negatif) yıl: [:10] kesmesi "-0549-01-0" üretirdi
+        g = "%s-%s-%s" % (_m.group(1), _m.group(2) or "01", _m.group(3) or "01") if _m else g
         kure = _osmanli_kure(Y, g)
         if not kure:
             # FETRET yedegi: en yakin govdeli gune kaydir
             for kaydir in (365, 730, 1460, 2920, 4380):
-                import datetime
-                yy, mm, dd = int(g[:4]), int(g[5:7]), int(g[8:10])
                 for yon in (-1, 1):
-                    try:
-                        alt = (datetime.date(yy, mm, dd)
-                               + datetime.timedelta(days=yon * kaydir)).isoformat()
-                    except Exception:
-                        continue
+                    alt = _gun.dizgi(gn(g) + yon * kaydir)
                     kure = _osmanli_kure(Y, alt)
                     if kure:
                         break
@@ -2004,13 +2525,13 @@ def degismez3(Y):
 
     def durum(y, g):
         for p in (y.get("d") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return "OSMANLI"
         for p in (y.get("v") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return "tabi"
         for p in (y.get("s") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return p["d"]
         return "—"
 
@@ -2124,7 +2645,28 @@ def degismez3(Y):
 #                  ⇒ ÇARE KAYDI SİLMEK DEĞİL: 1923-2026 ekseni açılınca
 #                     `fas` künyesi uzayacak ve hayalet KENDİLİĞİNDEN
 #                     düşecek. O güne kadar tavanda, GEREKÇESİYLE.
-BEKLENEN_HAYALET = 5   # 1 EKIM 2026: 6 -> 5, kunye 704 -> 863 genislemesi bir hayaleti kapatti
+BEKLENEN_HAYALET = 0   # 5 → 0, 5 Ekim 2026 · KUNYE-IRAN-ANAKRONIZM-1005. BORÇ KAPANDI.
+#   Beş hayaletin BEŞİ de `iran` künyesiydi: künye `f:1925` (Pehlevî) ama veri onu
+#   1281'den kullanıyordu — 415-424 yıllık anakronizm.
+#     Tarki (Tarku) · Ağraham burnu   1281-01-01 → 1501-07-01   → altinorda
+#     Derbend                          1281-01-01 → 1509-01-01   → altinorda + sirvansah
+#     Dihistan ovası · Kızılarvat      1507-05-24 → 1510-12-02   → buhara (Şeybânî)
+#   Kaynak TDV: ŞİRVANŞAHLAR ("Derbendî Şirvanşahları 1382-1501") · DERBEND ("Şah İsmâil
+#   1509'da zaptedip") · ŞEYBÂNÎLER (1500-1507 Horasan, 1510 yenilgi). Komşu doğrulaması:
+#   Nesâ/Bocnûrd/Esferâyin aynı pencerede zaten `buhara`, Terek zaten `altinorda`.
+#
+# 🔴 VE BU VAKANIN ASIL DERSİ, SAYIDA DEĞİL: ben bu kusuru Emre'ye *"kapı bu sınıfı
+#   GÖRMÜYOR"* diye bildirmiştim (`4c`/`4d` "pencereyi aşıyor mu" sorar, "oraya hiç ait
+#   miydi" sormaz — `D204`). İŞÇİ BUNU ÇÜRÜTTÜ: `degismez4` tek başına koşturuldu,
+#   hayalet 5 = BEKLENEN_HAYALET 5 çıktı ve beşi TAM BU KAYITLARDI.
+#   ⇒ Kusur KÖRLÜK DEĞİL, **TAVANLA SUSTURULMUŞ BORÇ**ymuş. Kapı soruyordu, cevabı
+#     basıyordu, ve tavan onu "beklenen" diye yutuyordu. `D262`nin bir yüzü daha:
+#     dondurulmuş bir tavan, kusuru görünmez değil GÖRÜLMEYE DEĞMEZ yapar.
+#   📌 Bu yüzden tavan AYNI COMMIT'te 0'a iniyor: borç kapandıysa tavan da kapanır,
+#     yoksa beş yeni hayalet sessizce aynı kapıdan girer.
+# ⚠️ BEDELİ BEYANLI: YIL-TEMSİLÎ BORÇ 164 → 165 (+1, Derbend 1382-01-01 — Şirvanşah
+#   devrinin günü kaynakta YOK, `D210` gereği `YYYY-01-01`). Hayalet borcunu kapatmanın
+#   bedeli bir yıl-temsilî kayıt; takas doğru yönde.
 HAYALET_TOLERANS_GUN = 400      # ~13 ay: teslim gecikmesi meşru, yıllar değil
 
 
@@ -2212,20 +2754,14 @@ def _harita_tarih_sec(adaylar, pf, pt):
 
 
 def _gun_farki(a, b):
-    from datetime import date as _d
-
-    def ay(s):
-        p = (s or "").split("-")
-        try:
-            return _d(int(p[0]), int(p[1]) if len(p) > 1 else 1,
-                      int(p[2]) if len(p) > 2 else 1)
-        except Exception:
-            return None
-    x, y = ay(a), ay(b)
-    return None if (x is None or y is None) else (x - y).days
+    """a - b (gun). Bos/None girdi -> None (uc yok); GECERSIZ tarih FIRLATIR.
+    Eski hali date() ile MO yilda None donup 'olculemedi'yi sessizce gecirirdi."""
+    if not a or not b:
+        return None
+    return gn(a) - gn(b)
 
 
-ATLAS_SONU = "1923-10-29"
+ATLAS_SONU = UFUK[1]   # ZAMAN-Z1-1008: motor ufkunun sonu
 # 🔴 4c TAVANI — ÜÇÜNCÜ DALIN AYRI SAYACI. `BEKLENEN_HAYALET`e EKLENMEZ.
 # Sebebi ölçülmüş bir kaygı: 136 ölçülmüş bir borç ve tavanı; üstüne bu
 # dalın sayısını eklemek İKİ AYRI BORCU TEK KOVAYA koyar ve hangisinin
@@ -2278,7 +2814,8 @@ ATLAS_SONU = "1923-10-29"
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 127   # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF DEGIL
+BEKLENEN_ASAN = 113   # 13 EKIM (SUMER-2000, ufuk 1945->2000-12-31): 112 -> 113 · YENI KAPSAM, GERILEME DEGIL: Agadez noktasinin fransiz-bati-afrika donemi 1960-08-03'e (Nijer bagimsizligi) uzuyor, kunye t=1959-01-01; ufuk 1923-10-29'u damga olmaktan cikarinca gorunur oldu. Kapanis: kunyenin (ve agadez-sultanligi t=1923-10-29 ufuk-kesigi) gercek bitisini kaynakla duzeltmek. # 13 EKIM (SUMER-2000 nokta/yama dalgasi): 115 -> 112 ·13 EKIM (SUMER-2000 nokta/yama dalgasi): 115 -> 112 · IYILESME, olculdu · # 13 EKIM (UFUK-KESIGI): 118 -> 115 ·13 EKIM (UFUK-KESIGI uzatmalari: yunanistan/italya/romanya... kunye t'si gercek bitise cekildi) 118 -> 115 · ONCESI: 9 EKIM (dalga 1): 124 -> 118· HAYALET-KUNYE-1008 (KOORD+EK+K) + DOGU-SAFEVI (Kars/Ardahan/Sarikamis akkoyunlu hayaleti, Kandehar timurlu) + MISIR-SENKRON + sirvansah kunyesi t 1538-01-01 -> 1538-10-01 — IYILESME, §3.4-3 · ONCESI: 126 -> 124 HARPUT-DULKADIR-1009 + EEK-BALKAN-1009 (iki ayri kalem, birlikte olculdu)
+# 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF DEGIL
 # 🔴 +3'un sebebi YENI KUSUR DEGIL, denetimin GORMEYE BASLADIGI donemler:
 #   `degismez4` artik kimligi `id:` ∪ `harita:` ile cozuyor (KASA olcumu).
 #   Oncesinde `harita:` takma adi tasiyan 1052 donem "kunyesiz" kovasina
@@ -2302,7 +2839,7 @@ BEKLENEN_ASAN = 127   # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF
 #    tavan birden sikilastirildi: sahipsiz 315->314 · belgesiz 7->4 ·
 #    enklav 661->650 · asan 138->132. Ucu de OLCUM IYILESTIGI icin indi,
 #    olcut GEVSETILDIGI icin degil (`D004`un ters yuzu).
-ATLAS_BASI = "1281-01-01"
+ATLAS_BASI = UFUK[0]   # ZAMAN-Z1-1008: motor ufkunun başı
 # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
 # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
 #     4c dönem SONU künye sonundan sonra → çare: ardıl kimlik / dönemi KISALT
@@ -2379,7 +2916,7 @@ ATLAS_BASI = "1281-01-01"
 #   ayni sebebi. Ve bu daraltma bu dosyanin KENDI ONGORUSUYDU (asagidaki
 #   satir): "468 -> 436 olacak; tavan o zaman 436'ya cekilir."
 #   Olcum 436 degil 409 cikti — ongoru YONU tuttu, SAYISI degil.
-BEKLENEN_ONCE = 324   # 1 EKIM 2026 (gece): 317 -> 324 · KAPSAM GENISLEMESI, AF DEGIL
+BEKLENEN_ONCE = 325   # 9 EKIM (EPOK-SAHIP): 326 -> 325 · Malta napoli kaydi duzeldi — IYILESME, §3.4-3 · ONCESI: dalga 1 324 -> 326 (DOGU-1533, yeni SORU) · 1 EKIM 317 -> 324 KAPSAM GENISLEMESI
 # 🔴 +7'nin sebebi 4c ile AYNI: `degismez4` kimligi artik `id:` ∪ `harita:`
 #   ile cozuyor; once `harita:` takma adli donemler bu dala HIC girmiyordu.
 #   Yedisi (KASA olcumden ONCE bildirdi, birebir tuttu):
@@ -2421,7 +2958,7 @@ BEKLENEN_ONCE = 324   # 1 EKIM 2026 (gece): 317 -> 324 · KAPSAM GENISLEMESI, AF
 # 🔴 28 -> 6, 6 EYLÜL 2026 — aynı düzeltme. `4s` = `4c` ∩ `4d` KESİŞİMİ
 #   olduğu için en çok o daraldı: 14 dönem `4c`den çıkınca kesişimden de
 #   çıktı. Düşüşün büyüklüğü bir veri kaybı DEĞİL, kesişimin doğası.
-BEKLENEN_SARAN = 5   # 1 EKIM 2026: 6 -> 5, kunye genislemesiyle biri kapandi
+BEKLENEN_SARAN = 2   # 9 EKIM (dalga 1): 5 -> 2 · HAYALET-KUNYE-1008 ailesi uc sarmayi kapatti — IYILESME, §3.4-3. 4s AYRI KOVA DEGIL, 4c ∩ 4d kesisimi (4c yalniz 116 · 4d yalniz 324 · ikisi birden 2) · ONCESI: 1 EKIM 6 -> 5
 
 
 def degismez4(Y):
@@ -2522,8 +3059,8 @@ def degismez4(Y):
                         cok_harita.append((_ad, kim,
                                            [a[2] for a in aday],
                                            p.get("f"), p.get("t")))
-                        kf = min((a[0] for a in aday if a[0]), default=None)
-                        kt = max((a[1] for a in aday if a[1]), default=None)
+                        kf = min((a[0] for a in aday if a[0]), default=None, key=lambda x: gn(pad(x)))
+                        kt = max((a[1] for a in aday if a[1]), default=None, key=lambda x: gn(pad(x)))
                     else:
                         kf, kt = sec[0], sec[1]
             # dönem BAŞI künyenin sonundan SONRA mı (devlet ölmüş)
@@ -2543,7 +3080,7 @@ def degismez4(Y):
             # ── ③ dönem, devletin ÖLÜMÜNÜ AŞIYOR mu (AYRI KOVA) ────────
             # ⚠️ Atlas sonuna kadar yaşayan künyeler HARİÇ: onlarda "aşma"
             #   diye bir şey yoktur, dönem atlasın kendi sınırında biter.
-            if kt and kt < ATLAS_SONU:
+            if kt and gn(pad(kt)) < gn(ATLAS_SONU):
                 g3 = _gun_farki(p.get("t"), kt)
                 if g3 is not None and g3 > HAYALET_TOLERANS_GUN:
                     asan.append((_ad, kim, p.get("f"), p.get("t"), kt,
@@ -2553,7 +3090,7 @@ def degismez4(Y):
             #   böyle — künyeyi iki uçtan da aşıyor). Kesişim AYRI basılır.
             # ⚠️ Atlasın başından önce doğan künyeler HARİÇ: orada "önce
             #   başlamak" atlasın kendi sınırıdır, veri kusuru değil.
-            if kf and kf > ATLAS_BASI:
+            if kf and gn(pad(kf)) > gn(ATLAS_BASI):
                 g4 = _gun_farki(kf, p.get("f"))
                 if g4 is not None and g4 > HAYALET_TOLERANS_GUN:
                     once.append((_ad, kim, p.get("f"), p.get("t"), kf,
@@ -2590,7 +3127,7 @@ BEKLENEN_HAYALET_YERLESIM = 0   # 5a tavanı — çelişki AFFEDİLMEZ
 # (28 Eylül 2026, ilk ve tek kayıt Uzunköprü). Yükseltmek bir HÜKÜMDÜR:
 # her yeni muaf, motorun petek devrine açılan bir kapıdır ve kaynak cümlesi
 # olmadan yazılamaz. Düşerse `--yaz` ile indirilir.
-BEKLENEN_DEVIR_BEYANI = 1
+BEKLENEN_DEVIR_BEYANI = 2   # 9 EKIM 2026: 1 -> 2 · HUKUM (koordinator) · EPOK-SAHIP-1009 Canakkale. Sartname yerine getirildi: devir_beyani KAYNAK CUMLESINI tasiyor — TDV canakkale 'kurulusu pek eski donemlere inmeyen ve temeli Fatih Sultan Mehmed doneminde atilmis olan bir XV. yuzyil sehri' + 'bu caminin yapimi kaleden de once 1452 yilindadir' ⇒ kur:1452, kurulusun UST siniri. 1281-1452 donemleri BOLGE vekilidir. Bugunku tek uye UZUNKOPRU (kur:1443, Ergene Koprusu) ile YAPISAL OLARAK AYNI sinif. BLANKET DEGIL: ucuncu uye yine hukum ister · ONCESI: 28 Eylul, ilk ve tek kayit Uzunkopru
 
 
 # 🔴 5c — VE BU DAL, 5b YAZILDIKTAN BİR SAAT SONRA DOĞDU, ÇÜNKÜ 5b'NİN
@@ -2687,13 +3224,13 @@ def degismez5(Y):
                                     g / 365.25))
         else:
             # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
-            if ilk > "%04d-01-01" % (1281 + SUPHE_ESIK_YIL):
+            if gn(ilk) > _gun.gun_sayisi(_gun.yil(gn(VERI_UFKU[0])) + SUPHE_ESIK_YIL, 1, 1):
                 suphe.append((y["ad"], ilk, donemler[0][2],
                               round(y.get("lat", 0), 2),
                               round(y.get("lon", 0), 2)))
             elif (y.get("tur") != "bolge"
                   and not y.get("kasitli_bosluk")
-                  and ilk <= "1281-12-31"):
+                  and gn(ilk) <= _gun.gun_sayisi(_gun.yil(gn(VERI_UFKU[0])), 12, 31)):
                 # 5c — `kur:` HİÇ YOK ve 1281'de zaten SAHİPLİ.
                 # Ne 5a (kur: yok) ne 5b (ilk dönem erken) görüyor.
                 kursuz.append((y["ad"], ilk, donemler[0][2],
@@ -2957,6 +3494,12 @@ D7_ADA_MUAF = frozenset((
 #     Dondurma kalkana kadar bu dal "temiz" DEMEZ, "DONDU" der. Kampanya sonunda
 #     yeniden hesaplanmazsa bu gerçek bir borçtur ve `D004`e (ölçütü gevşetme)
 #     dönüşür. Kampanya sonu kalemi: `YAPILACAKLAR.md`.
+#   📌 9 EKİM 2026 — ARTUKLU-IKI-PARCA-1008 inince ölçüm 733 → 738 (+5). Taban 731'de DONUK KALIR
+#     (Emre'nin 25 Eylül dondurması bu dosyada; koordinatörün "738'e çıkar" hükmü dondurmayla
+#     çelişiyor, Emre'ye soruldu). Beş yeni ada ADIYLA (§3.4-5, liste):
+#       1353 Harput (Elazığ) → artuklu · 1353 Palu → artuklu  (ada "Harput+Palu" — Emre'nin H-0002'de gördüğü kopuk parça)
+#       1436 Harput (Elazığ) → dulkadir
+#       1462 Siirt → akkoyunlu · 1462 Hasankeyf → akkoyunlu  (ada "Diyarbakır+Hasankeyf+Siirt")
 KAMPANYA_DONDURMA = True   # BİTİR-1923-0078 sürüyor — kampanya bitince False
 BEKLENEN_ENKLAV_SORGU = 731  # 🧊 DONDU (yukarı bak). 727→731 (24 Eylül gecesi): `lehistan` anakronizmi düzeltilirken Gdansk·Elbing·Torun·Varşova 1569'da bölündü; dördü de A-koridor (537, ada "Elbing+Gdansk+Poznan+Torun", ana gövdeye 151-239 km) — Silezya'nın birebir aynısı, ara nokta yokluğu. Çare A-AVRUPA-0078'e verildi (Bydgoszcz·Płock·Włocławek·Kalisz). 🔴 BU TABAN BUGÜN DÖRDÜNCÜ KEZ YÜKSELDİ (667→672→673→727→731) ve artık bir DESEN: her veri eklemesi bu sayıyı oynatıyor, ben her seferinde gerekçe yazıp yükseltiyorum. Bu, kapının kendi tasarımının söylediği şey (değişim sezici, kalite kapısı değil) — AMA taban kampanya boyunca her teslimde değil, KAMPANYA SONUNDA bir kez yeniden hesaplanmalı. Emre'ye bildirildi. · 🔴 673→727 (24 Eylül 2026 akşamı): BİTİR-1923-0078'in A katmanı kolu indi — beş oturum, 358 yeni nokta (3.936→4.294), 87→92 girdi dosyası. Sınıf kırılımı ÖLÇÜLDÜ: A-koridor 495→533 (+38, örnekleme eseri) · B-bilinmiyor 172→184 (+12, kaynak susuyor) · C-hakiki 5→10 (+5). C-hakiki'nin YENİLERİ okundu: Tazmanya (Hobart+Launceston+Campbell Town+Oatlands, 822-864 km) GERÇEK BİR ADA ve `cografi-tecrit` muafiyeti onu YAKALAMAMIŞ — muafiyetin kusuru, verinin değil; Khami/Danangombe (Rozvi, Zimbabve) ingiltere gövdesinden uzak; kalanlar `__BOSLUK__` adası, yani KASITLI BEYAN (kusur değil). 📌 BU TABAN BUGÜN ÜÇÜNCÜ KEZ YÜKSELDİ (667→672→673→727) ve bu bir kusur DEĞİL, bu dalın TABİATI: Değişmez 7 bir kalite kapısı değil DEĞİŞİM SEZİCİDİR — nokta eklendikçe kaçınılmaz olarak artar, her artış gerekçesiyle kayda geçer. Kalıcı çare iki kalem: ① `cografi-tecrit` muafiyeti adaları neden kaçırıyor ② ara noktalar. · 667→673 (24 Eylül 2026, A katmanı: Silezya/Sudet 8 + orta Polonya/Bohemya 7 = 15 nokta). ÖNGÖRÜ YAZILDI, SINANDI, KISMEN ÇÜRÜDÜ: Silezya 8 noktası tabanı 667→672 yaptı; "aradaki noktalar inince DÜŞECEK" demiştim. Ara noktalar indi ve ADINI VERDİĞİM İKİ ADA GERÇEKTEN YOK OLDU — "Kattowitz+Krakov" ve "Broumov+Jeseník" artık listede geçmiyor, yeni 15 noktadan HİÇBİRİ bir adada görünmüyor (ölçüldü: --ayrinti | grep, 0 satır). Ama toplam 672→673 ÇIKTI: net +1, benim noktalarımı İÇERMEYEN bir yan etki, peteğin başka yerinde. Teşhis edilmedi ⇒ 'ölçülemedi' yazılıyor, sebep UYDURULMUYOR. Hedef hâlâ 667. · 666→667: Budin/Peşte 1527-29 Habsburg dönemi (TDV süleyman-i) Zapolya vasal adasını iki pencereye böldü, aynı ada iki kez sayılıyor (GEMINI-DOGRULA 19 Eyl) · 664→666: Diyarbakır TDV zinciri (1353 celâyirli · 1394 timurlu · 1401 akkoyunlu), KRONO-2S-3 19 Eyl — +2 A-koridor, kaynaklı düzeltme; komşu kayıtlar şehir düzeyinde kaynak bekliyor
 # 🟡 658 -> 664, 14 EYLUL 2026 gecesi — DALGA SINIF2 toparlamasi, koşu 11 oncesi.
@@ -3082,11 +3625,55 @@ def _d7_komsuluk(Y):
     return kom
 
 
-def degismez7(Y):
+# ═══════════════════════════════════════════════════════════════════════════
+# 🆕 🔴 D7 AİLE TANIMI (5 Ekim 2026) — "kopuk gövde" sorusu KİMLİĞE değil AİLEye sorulur
+#   Emsal zaten vardı ve hemen aşağıda duruyor: `d:`/`v:` dönemleri tek bir "OSMANLI"
+#   ailesine eşleniyor — yani Osmanlı ile TÂBİSİ bu dalda AYNI sayılıyor (`CLAUDE.md §3`).
+#   Sebebi açık: tâbi toprak ana gövdeden "kopuk" görünse de siyaseten kopuk DEĞİLDİR.
+#
+#   AYNI MANTIK HABSBURG'DA UYGULANMAMIŞTI ve bir ölçüm bunu ortaya çıkardı
+#   (ONCE1281-MACAR-TAC-1005): Macar tacı toprakları `avusturya`dan `macaristan-habsburg`a
+#   çevrilince D7 **727 → 736** oldu (+9 ada). Dokuzun hepsi aynı sınıf:
+#     Erdel 1551 ×4   (veride ZATEN macaristan-habsburg'du; artık ana gövdesi olunca
+#                      "kopuk" görünür oldu)
+#     Szatmár 1526 · 1688 Lugos/Orsova/Belgrad · 1695 Lugos
+#                     (savaş dönemi `avusturya` kaldı, Macar noktaları ayrı kimlik
+#                      olunca Viyana'dan koptu)
+#   ⇒ Kusur VERİDE DEĞİL, D7'nin aile tanımındaydı: 1526-1918 arası iki taç AYNI
+#     HÜKÜMDARDAdır (Habsburg); ikisini ayrı sayan bir "kopukluk" ölçümü siyasî
+#     gerçeği değil kimlik etiketini ölçer.
+#   Karşı-olgusal ölçüm (işçi, bellekte): aile eklenince **736 → 727**, yani düzeltme
+#   kendi doğurduğu dokuz adayı bire bir kapatıyor ve BAŞKA hiçbir şeyi oynatmıyor.
+#
+#   ⚠️ KAPSAM DAR TUTULDU: yalnız `degismez7` etkilenir. 4c/4d, 2s, 8a ve ötekiler
+#   kimliği AYNEN okumaya devam eder — orada iki taç AYRI devlettir ve öyle olmalıdır
+#   (künye pencereleri, kaynak zinciri, hat yaslanması hep kimlik düzeyinde çalışır).
+#   ⚠️ Tarih şartı GEREKMEDİ: `macaristan-habsburg` künyesi zaten 1526-08-29'da başlıyor,
+#   yani 1526 öncesi bir eşleme DOĞAMAZ.
+# ═══════════════════════════════════════════════════════════════════════════
+_D7_AILE = {
+    "avusturya": "HABSBURG",
+    "macaristan-habsburg": "HABSBURG",
+}
+
+
+def _d7_aile(kimlik):
+    """D7 için kimliği AİLEsine indirger; tanımadığını AYNEN döndürür."""
+    return _D7_AILE.get(kimlik, kimlik)
+
+
+def degismez7(Y, isg_kova=None):
     """(ihlaller, muaf_sayaci) — kopuk gövde var ve koridor SORGULANMAMIŞ.
 
     ihlaller: {gun, yerlesim, sahip, ada, ana_km, ana, kova}
     kova: "A-koridor" (<=300 km) · "B-bilinmiyor" (300-800) · "C-hakiki" (>800)
+
+    isg_kova: verilirse (dict) İŞGAL sınıfı buraya yazılır, ana sayıya KATILMAZ:
+      "ihlal"  `isg:` dönemi başlangıcında ada olan işgal cepleri (aynı sütunlar,
+               sahip = "isg:<işgalci ailesi>")
+      "muaf"   o işgal ceplerinin muafiyet sayacı
+      "egemen-isgal-altinda"  kendi egemen dönemi İŞGAL ALTINDA başlayan
+               kayıt sayısı (sorulmadı: o gün haritada egemen yok)
     """
     from collections import deque as _deque
     kom = _d7_komsuluk(Y)
@@ -3100,77 +3687,119 @@ def degismez7(Y):
                     d.append((p["f"], p["t"], "OSMANLI", bool(p.get("enklav"))))
         for p in (y.get("s") or []):
             if p.get("f") and p.get("t") and p.get("d"):
-                d.append((p["f"], p["t"], p["d"], bool(p.get("enklav"))))
+                d.append((p["f"], p["t"], _d7_aile(p["d"]), bool(p.get("enklav"))))
         DON.append(d)
+    # 🆕 `isg:` (6 Ekim 2026, UMIT-W8-D7ISG-1006) — İŞGAL ALTINDAKİ TOPRAK,
+    #   EGEMENİNİN ADASI SAYILMAZ. O gün `isg:` altındaki kayıt `sahip()`te
+    #   egemeninin kimliğini değil `isg:<işgalcinin ailesi>`ni döndürür: AYRI
+    #   ad alanı — ne egemenin bileşenine ne işgalcinin EGEMEN gövdesine katılır.
+    #   Niçin: bu dal `isg:`yi hiç okumuyordu; bir dönem `s:`den `isg:`ye
+    #   taşınınca kayıt D7'den SESSİZCE düşüyordu (W5 Polonya: 734 → 731,
+    #   üç ada görünmez oldu). İşgal cepleri ayrı kovada (`isg_kova`) sorulur.
+    ISG = [[(p["f"], p["t"], _d7_aile(p["d"]))
+            for p in (y.get("isg") or [])
+            if p.get("f") and p.get("t") and p.get("d")] for y in Y]
 
-    def sahip(i, g):
+    def sahip_dj(i, g):
         for f, t, s, _e in DON[i]:
-            if f <= g < t:
+            if gn(f) <= gn(g) < gn(t):
                 return s
         return None
 
-    def bilesen(i, g, s, tavan):
+    def sahip(i, g):
+        """HUKUKÎ görünüm: işgal altındaki kayıt hiçbir egemene sayılmaz."""
+        for f, t, s in ISG[i]:
+            if gn(f) <= gn(g) < gn(t):
+                return "isg:" + s
+        return sahip_dj(i, g)
+
+    def sahip_df(i, g):
+        """FİİLÎ görünüm — yalnız işgal ceplerini sorarken: işgal altındaki
+        kayıt İŞGALCİYE sayılır, işgalcinin egemen gövdesine bağlanır."""
+        for f, t, s in ISG[i]:
+            if gn(f) <= gn(g) < gn(t):
+                return s
+        return sahip_dj(i, g)
+
+    def bilesen(i, g, s, tavan, kim=sahip):
         gor, q = {i}, _deque([i])
         while q and len(gor) < tavan:
             u = q.popleft()
             for v in kom[u]:
-                if v not in gor and sahip(v, g) == s:
+                if v not in gor and kim(v, g) == s:
                     gor.add(v)
                     q.append(v)
         return gor
 
     def artir(g, gun):
-        p = g.split("-")
-        try:
-            return (date(int(p[0]), int(p[1]), int(p[2]))
-                    + timedelta(days=gun)).isoformat()
-        except Exception:
-            return g
+        return _gun.dizgi(gn(g) + gun)
+
+    def sor(i, y, f, t, s, enk, muaf, hedef, isg):
+        # isg: soru FİİLÎ görünümle sorulur (işgal cebi işgalcinin gövdesine
+        # bağlı mı?); egemen soru HUKUKÎ görünümle (işgal altı hiçbir egemene
+        # sayılmaz). Kaydın kendi sahibi egemen soruda de jure okunur:
+        # egemenlik işgalle el değiştirmez, "izolasyon kapandı" sayılmaz.
+        kim = sahip_df if isg else sahip
+        kendi = sahip_df if isg else sahip_dj
+        ada = bilesen(i, f, s, D7_ADA_ESIK + 1, kim)
+        if len(ada) > D7_ADA_ESIK:
+            return
+        if enk:
+            muaf["beyan"] += 1
+            return
+        if len(kom[i]) <= D7_TECRIT_KOMSU:
+            muaf["cografi-tecrit"] += 1
+            return
+        if any(Y[j]["ad"] in D7_ADA_MUAF for j in ada):
+            muaf["ada-fethi"] += 1
+            return
+        toplam = sum(1 for j in range(len(Y)) if kim(j, f) == s)
+        if toplam < D7_KUCUK_KAT * len(ada):
+            muaf["kucuk-devlet"] += 1
+            return
+        g1 = artir(f, D7_CEPHE_GUN)
+        if gn(t) <= gn(g1):
+            g1 = artir(t, -1)          # kayıt YAŞARKEN ölç (yukarıdaki ⑤)
+        if (kendi(i, g1) != s
+                or len(bilesen(i, g1, s, D7_ADA_ESIK + 1, kim)) > D7_ADA_ESIK):
+            muaf["gecici-cephe"] += 1
+            return
+        en, p0 = None, (y["lat"], y["lon"])
+        for j in range(len(Y)):
+            if j in ada or kim(j, f) != s:
+                continue
+            dk = _d7_km(p0, (Y[j]["lat"], Y[j]["lon"]))
+            if en is None or dk < en[0]:
+                en = (dk, Y[j]["ad"])
+        km = en[0] if en else None
+        kova = ("C-hakiki" if km is None or km > 800 else
+                "A-koridor" if km <= 300 else "B-bilinmiyor")
+        hedef.append({"gun": f, "yerlesim": y["ad"],
+                      "sahip": ("isg:" + s) if isg else s,
+                      "ada": sorted(Y[j]["ad"] for j in ada),
+                      "ana_km": round(km, 1) if km is not None else None,
+                      "ana": en[1] if en else None, "kova": kova})
 
     muaf = {"beyan": 0, "cografi-tecrit": 0, "ada-fethi": 0,
             "kucuk-devlet": 0, "gecici-cephe": 0}
     ihlal = []
+    ik = isg_kova if isg_kova is not None else {}
+    ik.setdefault("ihlal", [])
+    ik.setdefault("muaf", {k: 0 for k in muaf})
+    ik.setdefault("egemen-isgal-altinda", 0)
     for i, y in enumerate(Y):
         for f, t, s, enk in DON[i]:
-            if f <= "1281-01-01" or f >= "1923-10-29":
+            if kirilma_disi(f):
                 continue
-            ada = bilesen(i, f, s, D7_ADA_ESIK + 1)
-            if len(ada) > D7_ADA_ESIK:
+            if sahip(i, f) != sahip_dj(i, f):    # o gün işgal altında
+                ik["egemen-isgal-altinda"] += 1
                 continue
-            if enk:
-                muaf["beyan"] += 1
+            sor(i, y, f, t, s, enk, muaf, ihlal, False)
+        for f, t, s in ISG[i]:
+            if kirilma_disi(f):
                 continue
-            if len(kom[i]) <= D7_TECRIT_KOMSU:
-                muaf["cografi-tecrit"] += 1
-                continue
-            if any(Y[j]["ad"] in D7_ADA_MUAF for j in ada):
-                muaf["ada-fethi"] += 1
-                continue
-            toplam = sum(1 for j in range(len(Y)) if sahip(j, f) == s)
-            if toplam < D7_KUCUK_KAT * len(ada):
-                muaf["kucuk-devlet"] += 1
-                continue
-            g1 = artir(f, D7_CEPHE_GUN)
-            if t <= g1:
-                g1 = artir(t, -1)          # kayıt YAŞARKEN ölç (yukarıdaki ⑤)
-            if (sahip(i, g1) != s
-                    or len(bilesen(i, g1, s, D7_ADA_ESIK + 1)) > D7_ADA_ESIK):
-                muaf["gecici-cephe"] += 1
-                continue
-            en, p0 = None, (y["lat"], y["lon"])
-            for j in range(len(Y)):
-                if j in ada or sahip(j, f) != s:
-                    continue
-                dk = _d7_km(p0, (Y[j]["lat"], Y[j]["lon"]))
-                if en is None or dk < en[0]:
-                    en = (dk, Y[j]["ad"])
-            km = en[0] if en else None
-            kova = ("C-hakiki" if km is None or km > 800 else
-                    "A-koridor" if km <= 300 else "B-bilinmiyor")
-            ihlal.append({"gun": f, "yerlesim": y["ad"], "sahip": s,
-                          "ada": sorted(Y[j]["ad"] for j in ada),
-                          "ana_km": round(km, 1) if km is not None else None,
-                          "ana": en[1] if en else None, "kova": kova})
+            sor(i, y, f, t, s, False, ik["muaf"], ik["ihlal"], True)
+    ik["ihlal"].sort(key=lambda r: (r["kova"], -(r["ana_km"] or 99999)))
     ihlal.sort(key=lambda r: (r["kova"], -(r["ana_km"] or 99999)))
     return ihlal, muaf
 
@@ -3198,13 +3827,13 @@ def degismez3z(Y):
 
     def durum(y, g):
         for p in (y.get("d") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return "OSMANLI"
         for p in (y.get("v") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return "tabi"
         for p in (y.get("s") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return p["d"]
         return "—"
 
@@ -3255,6 +3884,184 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ==== DOGU-500-1281 BILINEN_AYRI BAŞI (denetim/dogu/istisna_yaz.py üretir; elle düzenleme) ====
+    # 6 çift: DOĞU 500-1281 — aynı şablon/olay, AYRI yer ve/veya AYRI gün (her çift okundu; istisna_yaz.py docstring).
+    ('Herat: Gazneli hâkimiyeti sona erdi, Selçuklu hâkimiyeti başladı', "Dandanakan Savaşı: Selçuklular Gazneli ordusunu bozguna uğrattı; Horasan Gazneliler'in elinden çıktı"),
+    ('Kumbî Sâlih: Ebû Bekir b. Ömer öldü; Gāne dört küçük krallığa bölündü, devlet kimliği yok', 'Ebû Bekir b. Ömer öldü (480, 1087).'),
+    ("Lahor Gazneliler'den Gurlular'a geçti (Hüsrev Melik teslim)", "Gurlular hileyle Lahor'da Hüsrev Melik'i esir alarak Gazneli Devleti'ne son verdi"),
+    ('Liaoyang: sahip Jin (Curçen) → Doğu Xia (Pu-xian Wannu)', 'Liaoyang: sahip Doğu Xia (Pu-xian Wannu) → Moğol İmparatorluğu'),
+    ("Phagmodrupa mezhebi iç savaşı kazanıp Tibet'in idaresini ele geçirdi", 'Tibet (Phagmodrupa · Rinpungpa · Tsangpa) egemenliğine geçti — Yarlung'),
+    ('Antonio de Mendoza ilk Yeni İspanya valisi (viceroy) olarak göreve başladı — Tilantongo', 'İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu'),
+    # ==== DOGU-500-1281 BILINEN_AYRI SONU ====
+    # ⭐ DENETIM-K27-1016 — 16 Ekim 2026. İki BAŞLIK çifti, AYRI YER + AYRI GÜN (yalnız kalıp ortak: 'X'in … teslimi'):
+    # Gence 1735-07-09 (TDV gence) ↔ Revan 1735-10-03 (TDV nadir-sah--iran) — Nâdir'in 1735 seferinin İKİ ayrı teslimi, 86 gün arayla;
+    # Darfur 1883-12-23 (Slatin'in teslimi, TDV darfur) ↔ Tokar 1884-02-20 (Royle s.275-276) — Batı ve Doğu Sudan, 59 gün arayla.
+    # Değişmez 2 her yere ayrı madde ister ⇒ birleştirilemez. Başlık DEĞİŞTİRİLMEDİ.
+    ("Gence'nin Nâdir'e teslimi", "Revan'ın Nâdir Han'a teslimi"),
+    ("Darfur'un Mehdî kuvvetlerine geçişi — Slatin Paşa'nın teslimi", "Tokar'ın Mehdî kuvvetlerine teslimi"),
+    # ⭐ KUTU-TOPLU-1014 (KOŞU 25 öncesi birleşim) — 14 Ekim 2026. Üç çift AYRI YER, aynı gün/aynı komutan:
+    # İçil (Gülek) ↔ Konya Ereğlisi, Maraş ↔ Afyon (1832-33 Mısır işgali, KUTU-K2 koridor noktaları);
+    # Erzurum ↔ Hasankale/Pasinler (1918-03-12, KUTU-F2 Pasinler noktası). Değişmez 2 her yere ayrı madde
+    # ister ⇒ birleştirilemez. Başlık DEĞİŞTİRİLMEDİ (ölçütü atlatmak sayacı kör eder).
+    ('Gülek Boğazı düştü — İçil sahili (Mersin, Silifke) Mısır denetimine girdi',
+     'Konya Ereğlisi Mısır işgalinde — Konya–Adana yolunun Toros ağzı'),
+    ('Maraş Mısır işgaline uğradı',
+     'Karahisâr-ı Sâhib (Afyon) Mısır işgaline uğradı — Konya–Kütahya yolu'),
+    ("Kâzım Karabekir'in kış harekâtı: Erzurum ile birlikte Hasankale (Pasinler) geri alındı",
+     "Erzurum'un kurtuluşu"),
+    # ⭐ SUMER-2000 / KURULUŞ-BİTİŞ-DEVİR MADDELERİ (dalga 2) — 13 Ekim 2026.
+    # data/kronoloji_sinir_halef_1923_2000.js 257 madde getirdi, tavan 95 → 145 oldu. Her çift TEK TEK okundu:
+    # ortak olan yalnız şablon fiil ("…bağımsız oldu", "…Yüksek Sovyeti…ilan etti") ve bazen gün; ülkeler/bölgeler/
+    # antlaşma yönleri AYRI (Kırgızistan↔Özbekistan, Kenya↔Malta, Lozan Yunan sınırı↔Bulgar sınırı, Aden↔Mahra sultanlığı…).
+    # Başlık değiştirilmedi (ölçütü atlatmak sayacı kör eder); aynı olayın parçaları AYRI satırda kaldığı yerde burada beyan.
+    ("Italya Baris Antlasmasi yururlukte: Cres (Cherso) ve Zadar (Zara) Yugoslavya'ya birakildi",
+     "İtalya barış antlaşması yürürlüğe girdi, Triyeste Serbest Toprağı kuruldu; B bölgesi Yugoslav idaresinde (Koper, Umag)"),
+    ("Solomon Adaları Britanya'dan bağımsız oldu",
+     "Dominika Britanya'dan bağımsız oldu (Portsmouth)"),
+    # ⭐ BAE 1971-12-02 kuruluş ↔ Ras el-Hayme 1972-02-10 katılım — 13 Ekim 2026 (SUMER-2000): iki AYRI olay, 70 gün ara.
+    ("Birlesik Arap Emirlikleri kuruldu (Abu Dabi, Sarika; Ras el-Hayme sonradan)",
+     "Ras el-Hayme (Cülfâr) Birleşik Arap Emirlikleri'ne katıldı"),
+    # ⭐ SUMER-2000 / HALEF DEVİR MADDELERİ — 13 Ekim 2026.
+    # data/kronoloji_sinir_halef_1923_2000.js 257 madde getirdi, tavan 95 → 145 oldu. Her çift TEK TEK okundu:
+    # ortak olan yalnız şablon fiil ("…bağımsız oldu", "…Yüksek Sovyeti…ilan etti") ve bazen gün; ülkeler/bölgeler/
+    # antlaşma yönleri AYRI (Kırgızistan↔Özbekistan, Kenya↔Malta, Lozan Yunan sınırı↔Bulgar sınırı, Aden↔Mahra sultanlığı…).
+    # Başlık değiştirilmedi (ölçütü atlatmak sayacı kör eder); aynı olayın parçaları AYRI satırda kaldığı yerde burada beyan.
+    ("Habeşistan toprakları İtalyan Doğu Afrikası'na katıldı (Addis Ababa, Gondar, Harar, Aksum, Adua vd.)",
+     "İtalya'nın Eritre ve Somali sömürgeleri İtalyan Doğu Afrikası'na katıldı (Masavva, Mogadişu, Asmara, Dahlak vd.)"),
+    ("Litvanya, SSCB Yüksek Sovyeti kararıyla Sovyetler Birliği'ne katıldı (Vilnius, Kaunas, Šiauliai, Klaipėda)",
+     "Letonya, SSCB Yüksek Sovyeti kararıyla Sovyetler Birliği'ne katıldı (Riga, Daugavpils, Cēsis, Rēzekne)"),
+    ("Litvanya, SSCB Yüksek Sovyeti kararıyla Sovyetler Birliği'ne katıldı (Vilnius, Kaunas, Šiauliai, Klaipėda)",
+     "Estonya, SSCB Yüksek Sovyeti kararıyla Sovyetler Birliği'ne katıldı (Tallinn, Narva, Tartu, Pärnu)"),
+    ("Letonya, SSCB Yüksek Sovyeti kararıyla Sovyetler Birliği'ne katıldı (Riga, Daugavpils, Cēsis, Rēzekne)",
+     "Estonya, SSCB Yüksek Sovyeti kararıyla Sovyetler Birliği'ne katıldı (Tallinn, Narva, Tartu, Pärnu)"),
+    ("İngiliz kuvvetleri Mogadişu'yu aldı; Güney Somali (Mogadişu, Merka, Baydoa vd.) İngiliz askerî idaresine girdi",
+     "İngiliz ilerleyişi İtalyan Somalisi'nin kuzey ve orta kesimlerini (Obbiya, Galkayo, Bosaso, Kısmayu, Dusa Mareb vd.) askerî idareye kattı"),
+    ("Japonya Kore'deki teslim belgesini imzaladi; guney Kore (Seul, Pusan, Incheon) ABD Ordu Askeri Hukumeti idaresine gecti",
+     "Kore'de Japon teslimiyeti: 38. paralelin kuzeyi (Pyongyang, Kaesong, Hamhung) Sovyet idaresinde"),
+    ("Malaya Birligi kuruldu; Federe olmayan Malay devletleri (Johor, Muar) birlige katildi",
+     "Malaya Birligi kuruldu; Federe Malay Devletleri ile Penang ve Malaka Birlige katildi (Labuan zincirde hatali)"),
+    ("Ingiliz Hindistani bolundu: Hindistan Dominyonu (Delhi, Agra, Benares, Ahmedabad, Nagpur vb.) bagimsiz oldu",
+     "Meysur Racaligi Hindistan Dominyonu'na katildi (Bangalor, Seringapatam, Meysur)"),
+    ("Meysur Racaligi Hindistan Dominyonu'na katildi (Bangalor, Seringapatam, Meysur)",
+     "Racput devletleri (Codhpur, Caypur, Bikaner, Caysalmer, Bhuc) Hindistan'a katildi; Udaipur/Mewar katilimi 18 Nisan 1948'de"),
+    ("Italya Baris Antlasmasi yururlukte: Cres (Cherso) ve Zadar (Zara) Yugoslavya'ya birakildi",
+     "Italya Baris Antlasmasi uyarinca On Iki Ada (Rodos, Istankoy, Kelemez, Patmos vb.) Yunanistan'a birakildi"),
+    ("Gvalyar ve Indor devletleri Madhya Bharat Birligi'ne katildi (Gvalyar, Uccayn)",
+     "Indor Devleti Madhya Bharat Birligi'ne katildi (Indor)"),
+    ("Kolhapur Eyaleti Bombay Eyaleti'ne katılır; Kolhapûr Hindistan Birliği'nin Bombay'ına bağlanır",
+     "Baroda Eyaleti Bombay Eyaleti'ne katılır; Baroda (Vadodara) Hindistan Birliği'ne geçer"),
+    ("Bhopal Devleti Hindistan Birliği'ne katılır ve Başkomiser idaresindeki Bhopal Eyaleti olur; Bhopâl",
+     "Travankur ve Koçin devletleri birleşir; Travankur-Koçin Birliği Hindistan'a katılır ve Trivandrum başkent olur"),
+    ("Bhopal Devleti Hindistan Birliği'ne katılır ve Başkomiser idaresindeki Bhopal Eyaleti olur; Bhopâl",
+     "Manipur Devleti Hindistan Birliği'ne katılır; İmphâl Başkomiser idaresine girer"),
+    ("Misir (Kahire, Iskenderiye, Port Said, Sina dahil) Suriye ile birlesip Birlesik Arap Cumhuriyeti'ne donustu",
+     "Suriye (Halep, Sam, Hama, Humus, Rakka) Misir ile birlesip Birlesik Arap Cumhuriyeti'nin Suriye Bolgesi oldu"),
+    ("Fransiz Togosu (Notse) bagimsiz Togo Cumhuriyeti oldu",
+     "Fransiz Dahomeyi (Abomey, Nikki) bagimsiz Dahomey Cumhuriyeti oldu"),
+    ("Italyan Somali Vesayeti (Mogadisu, Merka, Baydoa, Kismayo) bagimsiz Somali Cumhuriyeti oldu",
+     "Somaliland (Hargeysa, Berbera, Burao) Italyan Somalisi ile birlesip Somali Cumhuriyeti'ni olusturdu"),
+    ("Fransiz Nijeri (Zinder, Bilma, Tahoua, Say) bagimsiz Nijer Cumhuriyeti oldu",
+     "Fransiz Bati Afrikasi'na bagli Agadez bolgesi bagimsiz Nijer'in parcasi oldu"),
+    ("Tanganyika, İngiliz vesayet yönetiminden bağımsız oldu; Tanga, Bagamoyo ve Kilwa kıyı kesimi bağımsız devlete geçti.",
+     "Tanganyika bağımsızlığıyla Mvanza, Mosi, Arusa, Tabora, Dodoma, Mbeya ve Lindi dahil bütün anakara toprakları İngiltere'den Tanganyika'ya geçti."),
+    ("Ruanda-Urundi vesayetinin bölünmesiyle Burundi Krallığı bağımsız oldu; Bujumbura ve Gitega yeni krallığa geçti.",
+     "Ruanda-Urundi vesayetinin bölünmesiyle Ruanda Cumhuriyeti bağımsız oldu; Kigali ve Nyanza yeni cumhuriyete geçti."),
+    ("Jamaika, Birleşik Krallık'tan bağımsız oldu; Kingston, Spanish Town ve Port Royal bağımsız devlete geçti.",
+     "Trinidad ve Tobago, Birleşik Krallık'tan bağımsız oldu; Port of Spain ve St. Joseph bağımsız devlete geçti."),
+    ("Uganda, Birleşik Krallık'tan bağımsız oldu; Buganda Krallığı'nın Mengo merkezi federal devlete katıldı.",
+     "Uganda bağımsızlığıyla Gulu, Lira, Cinca, Hoima, Fort Portal ve Mbarara dahil İngiliz Uganda toprakları Uganda'ya geçti."),
+    ("Kuzey Borneo (Sabah: Kudat, Sandakan, Jesselton) Birlesik Krallik'tan Malezya Federasyonu'na katildi",
+     "Sarawak, Kuzey Borneo ve Singapur ile birlikte Malezya Federasyonu'na katıldı; Kuching, Sibu, Bintulu ve Limbang Malezya'ya geçti."),
+    ("Kenya, Birleşik Krallık'tan bağımsız oldu; Nairobi, Kisumu, Nakuru, Garissa ve Marsabit bağımsız devlete geçti.",
+     "Malta, Birleşik Krallık'tan bağımsız oldu; Malta adası bağımsız devlete geçti."),
+    ("Malavi (eski Nyasaland), Birleşik Krallık'tan bağımsız oldu; Blantyre, Zomba, Karonga ve Nkhotakota bağımsız devlete geçti.",
+     "Malta, Birleşik Krallık'tan bağımsız oldu; Malta adası bağımsız devlete geçti."),
+    ("Kuzey Rodezya, Zambiya adıyla bağımsız oldu; Kazembe (Mvansabombve) bölgesi Zambiya'ya geçti.",
+     "Zambiya bağımsızlığıyla Kasama, Ndola, Livingstone, Solwezi ve Lealui dahil İngiliz Kuzey Rodezya toprakları Zambiya'ya geçti."),
+    ("Guney Rodezya hukumeti tek tarafli bagimsizlik ilan etti (Umtali dahil, Rodezya-UDI)",
+     "Rodezya UDI: Ingiltere'nin Rodezya uzerindeki egemenligi tanimayan rejime gecti (Salisbury, Bulavayo, Gveru, Binga vb.)"),
+    ("Aden kolonisi, Mukalla ve Kamaran Guney Yemen'e (Halk Cumhuriyeti) gecti, Ingiltere cekildi",
+     "Kesiri Sultanligi kaldirildi, Seyun Guney Yemen'e katildi"),
+    ("Aden kolonisi, Mukalla ve Kamaran Guney Yemen'e (Halk Cumhuriyeti) gecti, Ingiltere cekildi",
+     "Kuayti Sultanligi kaldirildi, Hadramut Guney Yemen'e katildi"),
+    ("Aden kolonisi, Mukalla ve Kamaran Guney Yemen'e (Halk Cumhuriyeti) gecti, Ingiltere cekildi",
+     "Mahra Sultanligi kaldirildi, Sokotra Guney Yemen'e katildi"),
+    ("Kesiri Sultanligi kaldirildi, Seyun Guney Yemen'e katildi",
+     "Kuayti Sultanligi kaldirildi, Hadramut Guney Yemen'e katildi"),
+    ("Kesiri Sultanligi kaldirildi, Seyun Guney Yemen'e katildi",
+     "Mahra Sultanligi kaldirildi, Sokotra Guney Yemen'e katildi"),
+    ("Kuayti Sultanligi kaldirildi, Hadramut Guney Yemen'e katildi",
+     "Mahra Sultanligi kaldirildi, Sokotra Guney Yemen'e katildi"),
+    ("Solomon Adaları Britanya'dan bağımsız oldu",
+     "Tuvalu (eski Ellice Adaları) Britanya'dan bağımsız oldu"),
+    ("Solomon Adaları Britanya'dan bağımsız oldu",
+     "Gilbert Adaları Kiribati adıyla Britanya'dan bağımsız oldu"),
+    ("Tuvalu (eski Ellice Adaları) Britanya'dan bağımsız oldu",
+     "Gilbert Adaları Kiribati adıyla Britanya'dan bağımsız oldu"),
+    ("Serbest Birleşme Sözleşmesi yürürlüğe girdi; Marshall Adaları egemen devlet oldu (Jaluit)",
+     "Serbest Birleşme Sözleşmesi Mikronezya Federe Devletleri için yürürlüğe girdi (Pohnpei)"),
+    ("Güney Yemen (Yemen Demokratik Halk Cumhuriyeti) Yemen Cumhuriyeti'ne katıldı; Aden, Mukalla, Hadramut ve Sokotra birleşik devlete geçti",
+     "Yemen Arap Cumhuriyeti (Kuzey Yemen) Güney Yemen ile birleşerek Yemen Cumhuriyeti'ne dönüştü; Sana, Taiz, Hudeyde ve Zebîd birleşik devletin parçası oldu"),
+    ("Hırvatistan Sabor'u bağımsızlık bildirisini kabul etti; Zagreb, Split, Dubrovnik, Zadar ve Adriyatik adaları Hırvatistan Cumhuriyeti adına Yugoslavya'dan ayrıldı",
+     "Slovenya Meclisi bağımsızlık bildirisini kabul etti; Ljubljana, Maribor, Ptuj ve Murska Sobota Slovenya Cumhuriyeti adına Yugoslavya'dan ayrıldı"),
+    ("Estonya Yüksek Konseyi bağımsızlığın yeniden kurulduğunu ilan etti; Tallinn, Tartu ve Pärnu Sovyetler Birliği'nden ayrıldı",
+     "Letonya Yüksek Konseyi geçiş dönemini sona erdirip tam bağımsızlığı ilan etti; Riga, Daugavpils, Cēsis ve Rēzekne Sovyetler Birliği'nden ayrıldı"),
+    ("Kırgızistan Yüksek Sovyeti bağımsızlık ilan etti; Narın, Issık Göl havzası ve Alay vadisi Kırgızistan Cumhuriyeti adına SSCB'den ayrıldı",
+     "Özbekistan Yüksek Sovyeti bağımsızlığı ilan etti; Taşkent, Semerkant ve Yeni Ürgenç Özbekistan Cumhuriyeti adına SSCB'den ayrıldı"),
+    ("Kırgızistan Yüksek Sovyeti bağımsızlık ilan etti; Narın, Issık Göl havzası ve Alay vadisi Kırgızistan Cumhuriyeti adına SSCB'den ayrıldı",
+     "Tacikistan Yüksek Sovyeti bağımsızlığını ilan etti; Hucend, Horog ve Pamir bölgesi Tacikistan Cumhuriyeti adına SSCB'den ayrıldı"),
+    ("Kırgızistan Yüksek Sovyeti bağımsızlık ilan etti; Narın, Issık Göl havzası ve Alay vadisi Kırgızistan Cumhuriyeti adına SSCB'den ayrıldı",
+     "Ermenistan Yüksek Konseyi referandum sonucuna dayanarak bağımsızlığı ilan etti; Gümrü ve Eçmiyadzin Ermenistan Cumhuriyeti adına SSCB'den ayrıldı"),
+    ("Özbekistan Yüksek Sovyeti bağımsızlığı ilan etti; Taşkent, Semerkant ve Yeni Ürgenç Özbekistan Cumhuriyeti adına SSCB'den ayrıldı",
+     "Tacikistan Yüksek Sovyeti bağımsızlığını ilan etti; Hucend, Horog ve Pamir bölgesi Tacikistan Cumhuriyeti adına SSCB'den ayrıldı"),
+    ("Özbekistan Yüksek Sovyeti bağımsızlığı ilan etti; Taşkent, Semerkant ve Yeni Ürgenç Özbekistan Cumhuriyeti adına SSCB'den ayrıldı",
+     "Ermenistan Yüksek Konseyi referandum sonucuna dayanarak bağımsızlığı ilan etti; Gümrü ve Eçmiyadzin Ermenistan Cumhuriyeti adına SSCB'den ayrıldı"),
+    ("Tacikistan Yüksek Sovyeti bağımsızlığını ilan etti; Hucend, Horog ve Pamir bölgesi Tacikistan Cumhuriyeti adına SSCB'den ayrıldı",
+     "Ermenistan Yüksek Konseyi referandum sonucuna dayanarak bağımsızlığı ilan etti; Gümrü ve Eçmiyadzin Ermenistan Cumhuriyeti adına SSCB'den ayrıldı"),
+    ("SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodno) Sovyet egemenliğinden çıkıp bağımsız Belarus'a kaldı",
+     "SSCB'nin dağılması: Ukrayna (Lvov, Kovel, Lutsk, Rivne, Volodymyr-Volynskyi, Yazlofça) bağımsız Ukrayna'ya kaldı"),
+    ("SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodno) Sovyet egemenliğinden çıkıp bağımsız Belarus'a kaldı",
+     "SSCB'nin feshi: Moskova, St. Petersburg, Kırım (Kefe, Kerç), Kafkasya kıyısı ve Volga havzası dahil Rusya toprakları Rusya Federasyonu'na kaldı"),
+    ("SSCB'nin dağılması: Ukrayna (Lvov, Kovel, Lutsk, Rivne, Volodymyr-Volynskyi, Yazlofça) bağımsız Ukrayna'ya kaldı",
+     "SSCB'nin feshi: Moskova, St. Petersburg, Kırım (Kefe, Kerç), Kafkasya kıyısı ve Volga havzası dahil Rusya toprakları Rusya Federasyonu'na kaldı"),
+    ("Çekoslovakya'nın dağılması: Moravya (Olomouc, Brno, Jeseník) Çek Cumhuriyeti'ne kaldı",
+     "Çekoslovakya'nın dağılması: Bratislava, Kassa (Košice), Eperjes, Nitra, Komárno, Uyvar dahil Slovak toprakları bağımsız Slovakya'ya geçti"),
+    # ⭐ "AYNI ŞEHİR / AYNI FİİL / AYNI GÜN" — 5 Ekim 2026, KASA-POLONYA-1005.
+    # 15 Polonya işgal maddesi inince tavan 112 → 115 oldu; üçü de YANLIŞ POZİTİF.
+    # 🔴 VE İŞÇİ BAŞLIĞI DEĞİŞTİRMEDİ: ölçütü atlatmak için "Kielce'ye girdi"yi
+    #    başka türlü yazmak maddeyi mükerrer olmaktan çıkarmaz, yalnız SAYACI
+    #    kör eder. Doğrusu burada beyan etmek.
+    # ⚠️ Ölçüldü, işçinin saydığına GÜVENİLMEDİ: KASA "4 çift" dedi, kapı 112→115
+    #    yani ÜÇ gösterdi. Dördüncüyü yazsaydık hiçbir zaman eşleşmeyen ÖLÜ bir
+    #    kural olurdu — ve ölü kural, olmayan kuraldan kötüdür (kapandı sanılır).
+    #
+    #   Kielce 1914-08-12 (Piłsudski girer)  ↔  1914-08-19 (Polonya birlikleri
+    #          yeniden girer) — ARADA Rusların 08-13'te geri alışı var; iki AYRI giriş
+    #   Kielce 1914-09-30 (Alman ordusu)     ↔  Łódź 1914-12-06 (Alman ordusu)
+    #          — aynı ordu, AYRI şehir, 67 gün ara
+    #   Zamość 1915-07-01 (Mackensen)        ↔  Radom 1915-07-01 (Avusturya)
+    #          — aynı gün, AYRI şehir, AYRI işgalci (Alman ↔ Avusturya)
+    # Ortak olan yalnız fiil kalıbı ("X şehri aldı/girdi") ve bazısında gün.
+    # Bu kalıp bütün işgal kronolojisinde SİSTEMATİK üretilecek — ölçüt başlık
+    # benzerliğine baktığı sürece bu aile büyür; asıl çare ölçütün ŞEHİR alanını
+    # okuması olurdu (açık kalem, `ONCELIK.md`ye değil buraya not düşüyorum).
+    ("Piłsudski'nin strzelcy birlikleri Kielce'ye girdi",
+     "Polonya birlikleri Kielce'ye yeniden girdi"),
+    ("Alman ordusu Kielce'yi aldı",
+     "Alman ordusu Łódź'u aldı"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, yalnız `birlik` ile ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Mackensen'in birlikleri Zamość'u aldı  ↔  Radom Avusturya birliklerince işgal edildi (Temmuz 1915)
+    # ⭐ "AYNI YIL İŞARETİ + ÇELEBİ MEHMED" — 5 Ekim 2026, PAKET-0076-DOBRUCA-1004 (A).
+    # Dobruca'nın 1416/1419 maddeleri inince tavan 113 → 115 oldu; iki çiftin ikisi de
+    # YANLIŞ POZİTİF. Ortak olan yalnız yıl damgası (YYYY-01-01) ve Çelebi Mehmed:
+    #   Babadağı 1416 (Kuzey Dobruca, Mircea'ya karşı — TDV babadagi)  ↔  Torlak Kemal'in
+    #          idamı 1416 (Saruhan, Bedreddin isyanı) — iki ayrı cephe, iki ayrı olay
+    #   Silistre/Dobruca 1419 (TDV silistre "822 (1419) ilkbaharı")  ↔  Kayseri-Kırşehir
+    #          1419 (Orta Anadolu, Karamanoğulları) — Tuna ile İç Anadolu, ayrı olaylar
+    ("Babadağı ve çevresinin Osmanlı'ya geçişi — Mircea ile oğlu Mihail yenildi",
+     "Torlak Kemal'in idamı — Saruhan kesin olarak Osmanlı'nın"),
+    ("Silistre ve Dobruca'nın geri alınışı — Mircea'nın ölümünden sonra",
+     "Orta Anadolu'nun geri alınışı: Kayseri ve Kırşehir"),
     # ⭐ "AYNI YIL İŞARETİ + 'HANEDAN X KRALLIĞI KURDU' KALIBI" — 1 Ekim 2026,
     # koordinatör (YILDIRIM BAYEZIT). Gece yazılan 1574 kronoloji maddesi
     # tavanı 114 → 115 yaptı; doğan çift YANLIŞ POZİTİF.
@@ -3280,8 +4087,8 @@ BILINEN_AYRI = {
     #   Vestribygð / Batı Yerleşimi (Grönland İskandinav kolonisi)
     # İkisi de ~1350 ve ikisi de "terk edildi" — ortak kök `terk`+`edildi`
     # 6 harflik kırpmada eşleşiyor. Kaynakları, kıtaları, halkları ayrı.
-    ("Cahokia terk edildi",
-     "Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon verilerine göre büyük olasılıkla ~1342)."),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, yalnız `terk`/`edildi` ile ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Cahokia terk edildi  ↔  Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon veri
     # ⭐ "1918 İŞGAL/GERİ ALIŞ KALIBI, AYRI ŞEHİR" — 30 Eylül 2026, MUKERRER-KAPI-0930.
     # `olaylar_p0917dunya.js`e Kerkük'ün iki maddesi (TDV kerkuk) inince tavan
     # 114 → 117 oldu; üç çiftin üçü de YANLIŞ POZİTİF. Ortak olan yalnız başlık
@@ -3335,10 +4142,10 @@ BILINEN_AYRI = {
      "Fort William kuruldu — Kuzeybatı Şirketi'nin iç merkezi"),
     ("Fort Halkett kuruldu — Liard boyunca kürk hattı",
      "Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi"),
-    ("Fort Halkett kuruldu — Liard boyunca kürk hattı",
-     "Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim"),
-    ("Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi",
-     "Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, yalnız `kuruld` ile ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Fort Halkett kuruldu — Liard boyunca kürk hattı  ↔  Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, yalnız `kuruld` ile ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk   ↔  Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim
     # ⭐ "ASKERÎ OLAY ile KÜLTÜR OLAYI" SINIFI — 30 Ağustos 2026.
     # 1534-12-04'te iki madde var ve ikisi AYRI CİNSTEN:
     #   "Bağdat'ın fethi — Irakeyn Seferi"                    ← ASKERÎ
@@ -3451,8 +4258,8 @@ BILINEN_AYRI = {
     # ve kişiler bile ayrı (I. Mahmud ↔ Yeğen Mehmed Paşa, Mengli Giray II).
     # 📌 "Mostar ↔ Edirnekapı" sınırının cephe tarafı: orada ortak olan
     # USTAYDI, burada FİİL.
-    ("Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı",
-     "Özi'nin geri alınışı ve Kırım'ın Rus istilâsından kurtarılması"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, genel kelimeyle ötüyordu; özel ad ölçütünde ötmüyor:
+    #    Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı  ↔  Özi'nin geri alınışı ve Kırım'ın Rus istilâsından kurtarılma
     # Tâif ve Mekke AYRI düştü, 88 gün arayla — TDV `mekke`: 30 Nisan 1803
     # Suûd birinci kez işgal. Başlık KALIBI ("Vehhâbîlerin … ele geçirmesi")
     # tetikledi, olayların benzerliği değil.
@@ -3472,24 +4279,27 @@ BILINEN_AYRI = {
     # maddesi iki olayı anlatabilir ve doğru davranış zaten budur. Bu, "kaynak
     # slug'ı güçlü sinyal" hipotezimin ölçülmüş bir karşı örneğidir.
     ("Şûrâ-yı Devlet kuruldu", "Şûrâ-yı Devlet'in açılışı: Osmanlı Danıştayı'nın kuruluşu"),
-    ("Halep'in Osmanlı hâkimiyetine girişi", "Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü — Halep başlığı evrende yok:
+    #    Halep'in Osmanlı hâkimiyetine girişi  ↔  Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi
     ("Rodos'un İtalyan işgali", "Onikiada'nın İtalyan işgali"),
-    ("Erzurum Kongresi'nin toplanması", "Sivas Kongresi'nin toplanması"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü — iki başlık da evrende yok:
+    #    Erzurum Kongresi'nin toplanması  ↔  Sivas Kongresi'nin toplanması
     ("Koron'un Venedik'e kaybı", "Modon'un Venedik'e kaybı"),
     ("Ayamavra'nın (Lefkada) Venedik'e kaybı", "Koron'un Venedik'e kaybı"),
     ("Hotin Kalesi'nin Ruslara kaybı", "Bender'in Ruslara kaybı"),
     ("Alemdar Mustafa Paşa'nın ölümü", "Alemdar Mustafa Paşa ordusuyla İstanbul'a girdi"),
-    ("Şah Abbas'ın karşı taarruzu — Tebriz'in kaybı", "Revan'ın Şah Abbas'a kaybı"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü:
+    #    Şah Abbas'ın karşı taarruzu — Tebriz'in kaybı  ↔  Revan'ın Şah Abbas'a kaybı
     ("Köprühisar'ın alınışı ve Yenişehir'in kuruluşuna hazırlık", "Yenişehir'in kuruluşu"),
     ("Mudanya limanının abluka altına alınışı", "Mudanya'nın alınışı"),
     ("Tomanbay'ın Kahire'de Memlük sultanı ilân edilmesi",
      "Son Memlük sultanı Tomanbay'ın Terrûce'de yakalanması"),
     ("Oruç Ovası zaferi ve Canbolatoğlu isyanının bastırılması",
      "Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması"),
-    ("Barbaros'un Kuzey Ege seferi: İskiros ve Kuzey Sporadlar'ın alınması",
-     "Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği adaların alınması"),
-    ("Kadızadeliler hareketinin Köprülü Mehmed Paşa tarafından bastırılması",
-     "Köprülü Mehmed Paşa'nın şartlı kabulle sadrazamlığa atanması"),
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü:
+    #    Barbaros'un Kuzey Ege seferi: İskiros ve Kuzey Sporadlar'ın   ↔  Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği adalar
+    # 🗑 SİLİNDİ 5 Eki 2026 (UMIT-W11-OLCUT-1006b) — ÖLÜ İSTİSNA, eski ölçütte de ölüydü:
+    #    Kadızadeliler hareketinin Köprülü Mehmed Paşa tarafından bas  ↔  Köprülü Mehmed Paşa'nın şartlı kabulle sadrazamlığa atanması
     ("Sofya'nın fethi", "Niş'in fethi"),
     ("Kudüs'ün kaybı", "Şam'ın kaybı"),
 
@@ -3548,9 +4358,42 @@ BILINEN_AYRI = {
     ("Azak'ın Ruslara düşüşü",
      "Özi (Ochakov) Kalesi'nin Ruslara düşüşü"),
     ("Niş'in Avusturya'dan geri alınışı",
-     "Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı"),
-    ("Niş'in Avusturya'dan geri alınışı",
      "Adakale'nin Avusturya'dan alınışı"),
+    # ⭐ "AYNI GÜN / AYNI FİİL KALIBI / AYRI TOPRAK" — 6 Ekim 2026, W54b MEMEL.
+    # Memel maddesi inince tavan 95 → 96 oldu; çift YANLIŞ POZİTİF.
+    # Ortak olan YALNIZ gün (1920-01-10, Versay'ın yürürlüğe girişi) ve kalıp
+    # ("X Müttefik emanetine geçti: Almanya Y'den vazgeçti"). AYRI olanlar:
+    #   Danzig → Versay md. 100-102, ŞEHİR ve çevresi; emanet 1920-11-15'te
+    #            Serbest Şehir kurulmasıyla biter
+    #   Memel  → Versay md. 99, Neman ırmağının kuzeyindeki BÖLGE; emanet
+    #            1923-02-16'da Büyükelçiler Konf. Litvanya'ya atayınca biter
+    # İki ayrı toprak, iki ayrı antlaşma maddesi, iki ayrı bitiş günü. Ortaklık
+    # yalnız AYNI ANTLAŞMANIN AYNI GÜN yürürlüğe girmesinden doğuyor ve bu
+    # kalıp Versay kronolojisinde SİSTEMATİKTİR: Saar (md. 49) da aynı gün ve
+    # aynı kalıptadır — Saarbrücken noktası tam inşayı beklediği için maddesi
+    # henüz yazılmadı, indiğinde ÜÇÜNCÜ çift doğacak ve buraya yazılacak.
+    # 🔴 BAŞLIK DEĞİŞTİRİLMEDİ: listenin başındaki kural gereği, ölçütü
+    #    atlatmak için başlığı yeniden yazmak maddeyi mükerrer olmaktan
+    #    çıkarmaz, yalnız SAYACI kör eder. Beyan burada yapılır.
+    ("Danzig Müttefik emanetine geçti: Almanya şehirden vazgeçti",
+     "Memel Müttefik emanetine geçti: Almanya bölgeden vazgeçti"),
+    # ⭐ "AYNI GÜN / AYNI ORDU / AYRI ŞEHİR" — 6 Ekim 2026, P84-BRASSO-TEMESVAR.
+    # Temeşvar maddesi inince tavan 95 → 96 oldu; çift YANLIŞ POZİTİF ve sınıfı
+    # listenin BAŞINDAKİ Kielce↔Łódź emsalinin BİREBİR AYNISI: aynı gün, aynı ordu,
+    # AYRI ŞEHİR. Ortak olan yalnız fiil kalıbı ("Sırp ordusu X'i işgal etti").
+    #   Pécs (Peçuy)      → Baranya'nın Sırp işgali   · yer_id Peçuy
+    #   Timișoara (Temeşvar) → Banat'ın Sırp askerî idaresi · yer_id Temeşvar
+    # İki ayrı şehir, iki ayrı bölge, iki ayrı idarî sonuç — aynı gün başlamaları
+    # 1918 Kasım'ındaki TEK BİR ilerleyişin iki ayağı olmasından geliyor.
+    # 🔴 VE BU ÇİFTİ UMIT ÖNCEDEN HABER VERDİ: "mükerrer 95→96 yanlış pozitif riski
+    #    (Peçuy aynı gün) — tavan yükseltilmesin." Haberi aldım ama diff'i uygularken
+    #    İŞLEMEDİM ve kapı öttü. Öngörülmüş bir ihlali önlememek, öngörülmemişinden
+    #    daha ucuz değildir: ikisi de aynı turu yakıyor.
+    # 📌 Ve çifti BULAN şey, bugün UMIT'e yazdırdığım kuraldı: tavan aşılınca TAM
+    #    liste basılır. Eski hâlde yalnız ilk 20 çift basılıyordu ve bu çift 362.
+    #    satırda, yani GÖRÜNMEZDİ. Kuralın indiği gün ilk işini yaptı.
+     ("Sırp ordusu Pécs'i (Peçuy) işgal etti — Baranya'nın Sırp işgali başladı",
+      "Sırp ordusu Timișoara'yı (Temeşvar) işgal etti — Banat'ın Sırp askerî idaresi başladı"),
 }
 
 # ⚠️ DÖRDÜNCÜ TUR — "eşiği düşür" ÖLÇÜLDÜ ve REDDEDİLDİ (hatalar 11 madde 36)
@@ -3595,8 +4438,7 @@ def _kelimeler(b):
 
 
 def _gun_no(t):
-    p = (t + "-01-01").split("-")
-    return date(int(p[0]), int(p[1]), int(p[2])).toordinal()
+    return gn(t) + 719163
 
 
 # ⚠️ ÜÇÜNCÜ TUR — BAŞLIK BENZERLİĞİNİN KÖR NOKTASI (hatalar 7.docx madde 5)
@@ -3637,20 +4479,38 @@ KESIN_ORTAK_KISI = 3        # ya da bu kadar ortak kişi
 
 
 def _kisiler_kumesi(o):
-    """Maddedeki kişi adlarını normalize eder (soyad/lakap köküne indirir)."""
-    ham = (o.get("kisiler") or "") + ", " + (o.get("b") or "")
-    parcalar = re.split(r"[,;()]", ham)
+    """Maddedeki kişi adlarını normalize eder (soyad/lakap köküne indirir).
+
+    🔴 5 Ekim 2026 (UMIT-W11-OLCUT-1006b): BAŞLIKTAN YALNIZ ÖZEL AD alınır
+    (büyük harfle başlayan kelime); `kisiler` alanı eskisi gibi tamamen.
+    Eskiden başlığın HER 4+ harfli kelimesi "kişi" sayılıyordu: kesin kişi
+    kademesinin 68/68'i başlık kelimesine dayanıyordu (`kralli` 16 ·
+    `siniri` 11 · `kurdu` · `terk` · `edildi` · `birlik` …) ve yıl damgalı
+    "X krallığı kuruldu" maddelerini birbirine "kişi!" diye bağlıyordu.
+    Ölçüldü (evren 2187, kesin 112):
+      • başlıktan HİÇ almamak (kisiler boşsa) → 45: Lozan ×2, Bükreş ×5,
+        Versay ×5, Trianon ×3 … SAHİCİ mükerrerleri de KÖR eder — REDDEDİLDİ
+      • 52 kelimelik genel-kelime listesi      → 95 (17 çıkan, 0 giren)
+      • YALNIZ ÖZEL AD (bu hâl)                → 95, AYNI 17 çıkan, 0 giren
+    Liste gerektirmeyen yapısal çare seçildi: özel adlar (Lozan, Versay,
+    Bükreş) sahici mükerreri yakalamaya devam eder, genel fiil/isim düşer.
+    """
     kumesi = set()
-    for p in parcalar:
-        for w in p.split():
-            w = w.strip("'’.\"").translate(_KATLA).lower()
-            # sıra sayısı (I., II., IV.) ve kısa/genel kelimeler atılır
-            if len(w) < 4 or w in {"sultan", "pasa", "pasanin", "bey", "han",
-                                   "hanin", "efendi", "gazi", "sah", "kral"}:
-                continue
-            if re.fullmatch(r"[ivxlcdm]+", w):
-                continue
-            kumesi.add(w[:6])
+    for ham, yalniz_ozel in ((o.get("kisiler") or "", False),
+                             (o.get("b") or "", True)):
+        for p in re.split(r"[,;()]", ham):
+            for w in p.split():
+                w = w.strip("'’.\"")
+                if yalniz_ozel and not w[:1].isupper():
+                    continue
+                w = w.translate(_KATLA).lower()
+                # sıra sayısı (I., II., IV.) ve kısa/genel kelimeler atılır
+                if len(w) < 4 or w in {"sultan", "pasa", "pasanin", "bey", "han",
+                                       "hanin", "efendi", "gazi", "sah", "kral"}:
+                    continue
+                if re.fullmatch(r"[ivxlcdm]+", w):
+                    continue
+                kumesi.add(w[:6])
     return kumesi
 
 
@@ -3717,23 +4577,23 @@ def _tam_kokler(b):
 
 def onek_olcutu(O):
     """Bugünkü ölçütün GÖRMEDİĞİ, önek eşleşmesiyle görünen çiftler."""
-    S = sorted(O, key=lambda o: o["t"])
+    S = sorted(O, key=lambda o: gn(o["t"]))
     out = []
     for i in range(len(S)):
         gi = _gun_no(S[i]["t"])
         for j in range(i + 1, len(S)):
             if _gun_no(S[j]["t"]) - gi > MUKERRER_GUN:
                 break
-            cift = (S[i]["b"], S[j]["b"])
-            if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:
-                continue
+            istisna = _bilinen_ayri((S[i]["b"], S[j]["b"]))
             a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
             ortak = len(a & b)
             eski = ortak / (len(a) + len(b) - ortak) if (a and b) else 0.0
             if eski >= MUKERRER_ESIK:
                 continue                      # zaten bugünkü ölçüt yakalıyor
             yeni = _onek_orani(_tam_kokler(S[i]["b"]), _tam_kokler(S[j]["b"]))
-            if yeni >= MUKERRER_ESIK:
+            if yeni >= MUKERRER_ESIK and istisna:
+                _BILINEN_AYRI_KULLANILAN.add(istisna)   # önek ötüyordu, bastırıldı
+            elif yeni >= MUKERRER_ESIK:
                 out.append((round(yeni, 3), S[i]["t"], S[i]["b"],
                             S[j]["t"], S[j]["b"]))
     return sorted(out, reverse=True)
@@ -3811,9 +4671,35 @@ def savas_senkronu(S, O):
     return len(S), aykiri
 
 
+# 🔴 ÖLÜ İSTİSNA İZİ — 5 Ekim 2026 (UMIT-W11-OLCUT-1006b). Bir `BILINEN_AYRI`
+# girdisi ancak bir çifti GERÇEKTEN bastırıyorsa canlıdır: çift o gün
+# ölçütlerden birine (mükerrer ya da önek) takılıyor olmalı. Hiçbir şey
+# bastırmayan girdi ÖLÜDÜR ve ölü istisna zararlıdır: başlık o adla yeniden
+# yazılınca ya da ölçüt kayınca İLK gerçek ihlali sessizce yutar.
+# Ölçüldü (evren 2187): eski ölçütte 60 girdinin 5'i ölüydü (2'sinin başlığı
+# evrende hiç yoktu); özel ad ölçütüne geçince 5'i daha öldü (yalnız genel
+# kelimeyle ötüyorlardı) → 10'u silindi. ⚠️ İz İKİ işlevde tutulur, çünkü
+# ikisi de BILINEN_AYRI'yı okur: yalnız mükerrere bakan ilk sayım Şûrâ-yı
+# Devlet ve Tomanbay'ı "ölü" saymıştı, oysa ikisi ÖNEK ölçütünde bastırıyor.
+# Sayaç `main`de basılır.
+_BILINEN_AYRI_KULLANILAN = set()
+
+
+def _bilinen_ayri(cift):
+    """`cift` istisnadaysa listedeki YÖNÜYLE döner, değilse None."""
+    if cift in BILINEN_AYRI:
+        return cift
+    if cift[::-1] in BILINEN_AYRI:
+        return cift[::-1]
+    return None
+
+
+MUKERRER_YER_AYIRT = True       # sınav için kapatılabilir (eski ölçütle kıyas)
+
+
 def mukerrer_maddeler(O):
     """İki ölçüt: (1) başlık benzerliği + ±400 gün, (2) ortak kişi + ±3 gün."""
-    S = sorted(O, key=lambda o: o["t"])
+    S = sorted(O, key=lambda o: gn(o["t"]))
     bulunan = []
     for i in range(len(S)):
         gi = _gun_no(S[i]["t"])
@@ -3821,9 +4707,15 @@ def mukerrer_maddeler(O):
             fark = _gun_no(S[j]["t"]) - gi
             if fark > MUKERRER_GUN:
                 break                       # sıralı: bundan sonrası daha da uzak
-            cift = (S[i]["b"], S[j]["b"])
-            if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:
-                continue
+            # 🆕 22 Ekim 2026 (Emre onaylı): iki maddenin yer_id'si İKİSİNDE DE dolu ve FARKLIysa
+            # çift mükerrer sayılmaz — farklı şehirdeki aynı-gün aynı-devir maddeleri (İskender,
+            # Persepolis, 1118 Irak Selçuklu, 1204-04-13 Bizans→İznik/Latin, 1097 Haçlı) sahici
+            # mükerrer değil. yer_id boş/aynıysa eski ölçüt aynen geçerli.
+            _yer_farkli = False
+            if MUKERRER_YER_AYIRT:
+                _yi, _yj = S[i].get("yer_id"), S[j].get("yer_id")
+                _yer_farkli = bool(_yi and _yj and _yi != _yj)
+            istisna = _bilinen_ayri((S[i]["b"], S[j]["b"]))
             a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
             oran = 0.0
             if a and b:
@@ -3848,6 +4740,11 @@ def mukerrer_maddeler(O):
                         ",".join(sorted(ortak)[:3])
             if olcut is None:
                 continue
+            if istisna:                     # çift ötüyordu, istisna BASTIRDI
+                _BILINEN_AYRI_KULLANILAN.add(istisna)
+                continue
+            if _yer_farkli:                 # ölçüt çifti yakaladı ama yerler farklı: mükerrer DEĞİL
+                continue                    # (istisna sayımı yukarıda eskisi gibi işlendi)
             bulunan.append((S[i]["t"][:4], oran, S[i], S[j], olcut))
     return bulunan
 
@@ -4077,7 +4974,7 @@ def donem_sagligi(Y):
     sifir, ters, cakisan_ayni, sd_ortusme, dv_ortusme = [], [], [], [], []
 
     def orusuyor(a, b):
-        return a["f"] < b["t"] and b["f"] < a["t"]
+        return gn(a["f"]) < gn(b["t"]) and gn(b["f"]) < gn(a["t"])
 
     for y in Y:
         # "isg" (işgal örtüsü, 043e911) BİLEREK burada: sıfır uzunluk, ters
@@ -4092,11 +4989,11 @@ def donem_sagligi(Y):
                 f, t = p.get("f"), p.get("t")
                 if not f or not t:
                     continue
-                if f == t:
+                if gn(f) == gn(t):
                     sifir.append((y["ad"], kat, f))
-                elif f > t:
+                elif gn(f) > gn(t):
                     ters.append((y["ad"], kat, f, t))
-            gecerli = sorted((p for p in donemler if p.get("f") and p.get("t")), key=lambda p: p["f"])
+            gecerli = sorted((p for p in donemler if p.get("f") and p.get("t")), key=lambda p: gn(p["f"]))
             for i in range(len(gecerli) - 1):
                 if orusuyor(gecerli[i], gecerli[i + 1]):
                     cakisan_ayni.append((y["ad"], kat, gecerli[i], gecerli[i + 1]))
@@ -4190,8 +5087,27 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ayrı kova: C/YOK taşması 906 · ölçülemeyen (hat, gün) 175
 # 📌 DİKKAT — iki sayı AYNI EVRENDE DEĞİL: 1611, 479 (hat, gün) üzerinden
 #   ölçülmüştü; 1517 ise 725 üzerinden. Evren %51 BÜYÜDÜ (koşuya 21 yeni sınır
-#   kaydı girdi) ve taşma buna RAĞMEN düştü ⇒ iyileşme gerçek, ve 94 puanlık
-#   boşluğu bırakmak o iyileşmeyi geri gizlerdi.
+#   kaydı girdi) ve taşma buna RAĞMEN düştü. ESKİ YORUM burada "⇒ iyileşme gerçek,
+#   ve 94 puanlık boşluğu bırakmak o iyileşmeyi geri gizlerdi" diyordu: 4 Ekim 2026'da
+#   karşı-olgusal ölçümle DESTEKLENMEDİĞİ görüldü (aşağıdaki DÜZELTME). Sayının düşmesi
+#   iyileşmeyi KANITLAMAZ; "94 puan" boşluğu gizlemek bir veri iyileşmesini gizlemek değildi.
+#
+# 🔴 DÜZELTME (4 Ekim 2026, LAB karşı-olgusal gövde — bu satırların KODA etkisi YOKTUR):
+#   Ölçüldü (LAB, temiz ağaçta; her betiğin başında ve sonunda HEAD basılarak, bütün sayılar
+#   ikinci koşuda BİREBİR aynı çıktı): eski gövde (koşu 15) `git cat-file` ile geri kurulup
+#   bugünkü alet + bugünkü veri + ESKİ gövde koşturuldu → E1 = 1606 birim (defterle ortak
+#   1602/1611 ⇒ yöntem doğrulandı).
+#     kayıp  235 → 226'sı E1'de HÂLÂ VAR (GÖVDE farkı) · 9'u VERİ iyileşmesi
+#     giren  154 → 154/154 GÖVDE · 0 veri
+#   ⇒ iyileşmenin veri payı 235'te 9 birimdir; 226 kayıp ve 154 yeni taşmanın TAMAMI GÖVDE değişimidir.
+#   D8 FİİLEN BİR MOTOR REGRESYON ÖLÇÜSÜDÜR: iki ayrı motorun çıktısını karşılaştırır.
+#   ⇒ Bu tavan MOTOR ÇIKTISINA bağlıdır. Gövde (motor) değişen HER koşuda `--d8-defter-yaz` ile
+#   defter ÜYELİKLE yeniden yazılmalı ve tavan aynı commit'te yeniden ölçülmelidir; yoksa kapanan ve
+#   yeni açılan taşmalar SAYIDA TAKAS olur (sayı oynar, hangi birimin girip çıktığı görünmez) ve 8a/8b'nin
+#   bir koşudan ötekine oynaması ARIZA sanılıp kök neden aranır. Oynaması beklenen davranıştır.
+#   ⚠️ BULUNAMADI (LAB'ın kendi beyanı): denetle.py'nin o aralıktaki ~449 satırlık farkının D8 sayılarını
+#   NİÇİN etkilemediği ölçülmedi. "Etkilemiyor" DENMEZ: bu aralıkta D8 kodu değişmemiş görünüyor,
+#   DOĞRULANMADI.
 #
 # 🔴 BİR SONRAKİNE ŞART — "YENİ KAPSAM" ile tavan AYNI COMMIT'TE ayarlanır:
 #   bu ölçümde defterde olmayan 2 hatta 4 birim var ve tavana KATILMADI.
@@ -4200,8 +5116,175 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   yeniden ölçülüp yazılır. Defteri yazıp tavana dokunmamak, tavanı
 #   yükseltmekten daha sinsidir: ihlal gerçek görünür.
 # ─────────────────────────────────────────────────────────────────────────────
-BEKLENEN_D8A = 1517
-BEKLENEN_D8B = 82
+# 🔴 4 EKİM 2026 — VERİ KOŞUSUNDAN SONRA YENİDEN ÖLÇÜLDÜ (prosedür yukarıda yazılı:
+#   "defter yazılacaksa AYNI COMMIT'TE tavan yeniden ölçülüp yazılır").
+#   Koşu: 4 Ekim 19:17 gövdesi · 4s 17dk · motor tuzu DEĞİŞMEDİ (git içeriğinde doğrulandı)
+#   ⇒ VERİ koşusu, `§9.1` ihlali yok. Önceki tavan 1517/82 (27 Eylül gövdesi).
+#   ÜYELİK KARŞILAŞTIRMASI (defter ÖNCE ↔ SONRA — net sayıya DEĞİL üyeye bakıldı):
+#     hatlar (EVREN)  372 → 372   DEĞİŞMEDİ ⇒ yeni D hattı YOK, "YENİ KAPSAM" durumu YOK
+#     a               1611 → 1582  net −29 · ORTAK 1562 · ÇIKAN 49 · GİREN 20
+#                     ⇒ ÜYE HAREKETİ 69. Net −29 bunu SAKLIYORDU (LAB'ın dersi).
+#     b                 83 → 84    net +1
+#   GİREN 20 — hepsi SINIR-GÜNÜ kenar vakası, ADIYLA beyan (D253):
+#     Münih ×6  (d1816-alm-ah-4 · d1844-alm-ah · d1878-de-ah · d1923-de-at — Alman/Avusturya hattı)
+#     Třeboň (Wittingau) ×2 · České Budějovice (Budweis) ×2  (d1923-at-cs)
+#     Norapat  (d1923-tr-sscb-ermenistan|1923-10-28)
+#     Santa Rita del Cobre · Tubac · Yuma geçidi ×2  (d1923-us-mx-gadsden — 1854-06-30
+#       GADSDEN'İN YÜRÜRLÜK GÜNÜ ve 1923-10-28) · Yuma geçidi ×2 (d1923-us-mx-kaliforniya)
+#     8b GİREN: Bağdat|1917-03-10 (Bağdat 11 Mart 1917'de düştü — bir gün öncesi)
+#               Tiflis|1735-08-11 (Gence Antlaşması)
+#   ⚠️ BU BİR ONAY DEĞİL, DONDURMADIR. Giren 20 kalemin "gövde değişimi mi GERÇEK veri
+#   aşımı mı" ayrımı ÖLÇÜLMEDİ — LAB'ın karşı-olgusal yöntemi (E1) bekliyor, görev
+#   tahtada M-5786'da. Evrenin sabit kalması (372) ve 49 kalemin KAPANMASI gövde
+#   çalkantısı lehine güçlü ipuçlarıdır ama KANIT DEĞİLDİR.
+#   ⚠️ VE BİR AYRIŞMA: defter 1611 üye taşırken sabit 1517'ydi — ikisi aynı güne (27 Eylül)
+#   ait olmasına rağmen EŞİT DEĞİLDİ. Sebebi ölçülmedi; ayrı kalem.
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 5 EKİM 2026 — BERLİN A YAMASI SONRASI ÜYELİKLE YENİDEN ÖLÇÜLDÜ
+#   Yama: denetim/PAKET-0076-BERLIN-1004.diff (A1 Köstendil · A2 İzdin · A3 Bosna×4 ·
+#   A4 Sofya · A5 Niğbolu/Plevne/İhtiman · A6 Prevadi · A8 Silistre + H-0037 Romanya
+#   15 nokta 1877-05-09 + 2 Değişmez 2 maddesi). İki yönde sınandı: sahiplik yama
+#   sonrası 24/24 DOĞRU, yama öncesi 17/24 YANLIŞ.
+#
+#   ÜYELİK KARŞILAŞTIRMASI (defter ÖNCE ↔ SONRA — net sayıya DEĞİL ÜYEye bakıldı):
+#     hatlar (EVREN)  372 → 372   hareket 0  ⇒ yeni D hattı YOK, "YENİ KAPSAM" durumu YOK
+#     8a              1582 → 1584  net +2 · ORTAK 1581 · ÇIKAN 1 · GİREN 3 · HAREKET 4
+#     8b                84 →   84  hareket 0
+#
+#   🔴 DÖRT HAREKETİN DÖRDÜ DE TEK HAT, TEK GÜN — g3-bg-ro-dobruca-p4 | 1913-08-09:
+#     ÇIKAN  Silistre          ← yamanın A8 kalemi TAM BU NOKTAYI düzeltti
+#     GİREN  Buzău · Bükreş · Yergöğü (Giurgiu)   (üçü de `sag` yaka)
+#   ⇒ Sebep zinciri kapalı: A8 Silistre'nin sahipliğini düzeltti, Silistre hattı aşmaktan
+#     ÇIKTI, ama aynı düzeltme Dobruca hattı çevresindeki taraf atamasını kaydırdı ve üç
+#     Romanya şehrinin peteği karşı yakaya ≥5 km uzanmış göründü. 1913-08-09 = Bükreş
+#     Antlaşması (II. Balkan Harbi, Güney Dobruca Romanya'ya geçiyor).
+#
+#   ⚠️ BU BİR ONAY DEĞİL, DONDURMADIR.
+#   🔴 AMA "gövde çalkantısı mı GERÇEK aşım mı" sorusu ARTIK ÖLÇÜLDÜ (PAKET-0076-DOBRUCA-1004,
+#   rapor §8) ve cevap ÜÇÜNCÜ bir şık: **ESKİ TAŞMANIN YENİDEN ADLANDIRILMASI.**
+#     8a, taşan parçayı o gün KARŞI tarafa ait EN YAKIN noktaya atfeder
+#     (`agac(karsi_ad, gun)` · `query_nearest`). A8 kalemi Silistre'nin Romen devrini
+#     05-30 → 08-10'a çekti ⇒ 1913-08-09'da Silistre artık BULGAR ⇒ aynı taşan parça
+#     en yakın ROMEN noktalarına (Buzău · Bükreş · Yergöğü) düştü. ÇIKAN 1 + GİREN 3 = +2.
+#     Geometri hâlâ koşu 19'un (Silistre'yi 05-30'dan Romen sayan) çıktısıdır.
+#   ⇒ Yani +2 yeni bir toprak kusuru DEĞİL, aynı kusurun yeni adresi.
+#
+#   📌 ÖNGÖRÜ — KOŞUDAN ÖNCE YAZILDI (işçi yazdı, koşu sınayacak):
+#     tam inşa koşusunda Romanya gövdesi 1913-08-09'da Silistre'yi KAPSAMAYACAK ⇒
+#     bu 3 üye DÜŞER; `g3-bg-ro-dobruca-p4|1913-08-09|sag|Köstence` (gerçek noktasızlık)
+#     KALIR. Koşudan sonra bu satır okunacak: öngörü tutmazsa teşhis yanlıştır.
+#
+#   🔴 KÖK SEBEP DE ÖLÇÜLDÜ — çare kaynak değil NOKTA YOĞUNLUĞU:
+#     Güney Dobruca'nın İÇİNDE yerleşim noktası: **0**. Bulgar yakasında tek nokta
+#     Silistre ve hattın UCUNDA (0,0 km); sonraki Bulgar noktası Varna 67,0 km ·
+#     Prevadi 88,8 · Şumnu 90,5. Romen yakasında Köstence 48,3 km, sonra Buzău 119,6.
+#     ⇒ Hattın 48 km içinde İKİ YAKADA DA nokta yok (§2: noktası olmayan bölge en yakın
+#     peteğe emilir). Gereken noktalar (Dobriç · Balçık · Tutrakan · Mangalya) Dobruca
+#     zinciri kararına bağlı — nokta işi ile kaynak işi TEK İŞ.
+#   🔴 VE İKİNCİ BİR BAĞIMSIZ SİNYAL AYNI HATTA İŞARET ETTİ: PAKET-0076-TASNIF, kaynak
+#   tarafından "DOBRUCA DESENİ ÇELİŞKİSİ" buldu — komşu kayıtların zinciri KAYNAKSIZ ve
+#   TDV 1390-93/1402-18 Eflak diyor. Biri geometriden, biri kaynaktan, ikisi aynı hatta.
+#   Görev verildi: hattın GÜNEY yakasında (Bulgaristan tarafı) yerleşim noktası var mı,
+#   kaç tane, en yakını kaç km — çare kaynak değil NOKTA YOĞUNLUĞU olabilir (§2: noktası
+#   olmayan bölge en yakın peteğe emilir).
+# ═══════════════════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 5 EKİM 2026 — DOBRİÇ NOKTASI İNDİ: 1584 → 1585 · GİREN 1 · ÇIKAN 0
+#   Yama: denetim/PAKET-0076-DOBRIC-1004.diff — Güney Dobruca'nın İLK iç noktası
+#   (Hacıoğlupazarcığı / Dobrich, TDV `hacioglupazarcigi`, Kiel).
+#
+#   ÜYELİK (aracın kendi `8a YENİ` satırı + aritmetik: defter 1584 · bugün 1585 · YENİ 1):
+#     GİREN  g3-bg-ro-dobruca-p4|1908-10-05|sol|Hacıoğlupazarcığı (Dobrich)
+#     ÇIKAN  0
+#
+#   🔴 VE BU, SİLİSTRE VAKASINDAN FARKLI BİR SINIF. Orada ÇIKAN 1 + GİREN 3 vardı:
+#   aynı taşan parça yeni adrese atfedilmişti (YENİDEN ADLANDIRMA). Burada ÇIKAN 0 —
+#   kimse yerini bırakmadı. ⇒ Nokta taşmayı YARATMADI, **GÖRÜNÜR KILDI**.
+#   Sebep ölçülmüştü (PAKET-0076-DOBRUCA-1004 §8): Güney Dobruca'nın İÇİNDE nokta 0,
+#   Bulgar yakasında en yakın nokta Varna 67,0 km. 8a taşan parçayı karşı yakanın EN YAKIN
+#   noktasına atfeder; atfedilecek nokta olmayınca o taşma HİÇ SAYILMIYORDU.
+#   ⇒ Tavanın +1'i bir GERİLEME değil, bir KÖRLÜĞÜN KAPANMASI.
+#
+#   📌 Ve asıl kusur DURUYOR: Romen yakasında Köstence 48,3 km uzakta, yani hattın
+#   48 km'sinde hâlâ karşı nokta yok. `sag|Köstence` üyesi bu yüzden listede.
+#   Kalan noktalar (Balçık · Tutrakan · Mangalya) F6/Dobrotiç kararına bağlı.
+#   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
+#     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
+# ═══════════════════════════════════════════════════════════════════════════
+BEKLENEN_D8A = 180   # 25 EKIM 2026 (Emre onayi, sohbette: "8a tavanini 180'e cikar"): 154 -> 180 (+26) = KOSU 30 tam insa (uret_petek 7a935c02, ~1000 yeni zincir/madde + 110 boya): D hattini asan sehir petekleri artti; 15 YENI birim Tirol/Salzburg/Vorarlberg (Bregenz, Innsbruck, Salzburg, Lienz; d1816-alm-ah, d1844-alm-ah, d1866-it-hab-karn, d1878-de-ah). Veri bu sehirlere dokunmadi: Voronoi komsuluk etkisi, kok neden BULUNAMADI. KOSU 29 notu: 22 EKIM 2026 (Emre onayi, sohbette: "tavani 154'e cikar"): 153 -> 154 (+1 net; 4 YENI birim: Canad 1921, Como 1815/1859/1861 [dg4-*-ch-lombardiya]; KOSU 29 tam insa: MO katmani + KISTAK KOPRUSU + YAKA KILIDI ilk kez devrede; hipotez, nedeni ayrica olculmedi; olcum: KOSU 29 sonrasi denetle, taban 3b50f605a). ONCEKI: 19 EKIM 2026 (Emre onayi, tavan iyilesmesi 156 -> 153; olcum: KOSU 28 sonrasi denetle). ONCEKI: 17 Ekim 2026: 981 → 156, KOŞU 27 (sınır kısıtı ilk tam koşu; defter KOŞU 27 gövdesinde yeniden yazıldı, 37 YENİ KAPSAM birimi evrene alındı) · ÖNCEKİ 15 Ekim 2026 (üçüncü): 1108 → 981, Emre onayı — eşik hattın beyanlı belirsizliğini okur (D8_DERIN + kesinlik_km; null ⇒ 0). 127 birim hattın kendi payı içindeydi. Aynı gövde (KOŞU 25) · ÖNCEKİ 15 Ekim 2026 (ikinci): 1508 → 1108, Emre onayı — BİRİM TANIMI DEĞİŞTİ: (hat, gün, yan, en yakın yer) → (hat, gün, yan, taşma PARÇASI). Aynı gövde (KOŞU 25) eski ölçütle 1508, yeni ölçütle 1108; KUTU-H5 öncesi veride (59bc89d71) de 1108 ⇒ sayı artık nokta yoğunluğundan bağımsız. Defter aynı commit'te yeni anahtarlarla yazıldı, hat evreni AYNI. Sınav: denetim/ARAC-D8A-YOGUNLUK-SINAV-1015.py · ÖNCEKİ 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
+#   🔴 ŞERH: bu sayı MAIN'İN gövdesine aittir (gövde 2026-10-04 11:37 · uret_petek 8b6aaea5,
+#   makine/umit 47290f11'de ölçüldü). KOŞU 20 geometrisi yayınlanırsa (SABAH ⑳, Emre)
+#   YENİDEN ölçülür — HAVVA aynı soruyu koşu gövdesinde başka sayıyla ölçtü. Aynı araç,
+#   iki gövde, iki cevap. EMRELIC'te D8 ÖLÇÜLEMİYOR (yerel gövde uyuşmuyor).
+# 1574 → 1568, 5 Ekim 2026 (ÜÇÜNCÜ kusur: `d1816-alm-ah-2`).
+#   LAB-D8-UYE-1005, ikinci teslim. `sol_taraf` "habsburg" → "almanya" (iki kopya:
+#   d_sinirlar_avrupa_orta.js:164 + paket_28.js:1226). at-cs ile AYNI DESEN ve aynı
+#   kanıt türü: KARDEŞ HATLAR. `alm-ah-3` ve `-4` aynı taraflar/aynı tarihlerle
+#   "almanya" diyor, yalnız `-2` "habsburg" diyordu. Ek ölçüm: hat güneye akıyor,
+#   sol = doğu = Bavyera; 0,5-2 km sondada SOL 19/19 DEU · SAĞ 60/60 AUT; Habsburg
+#   noktaları SAĞ yakada.
+#   DÜŞEN 6, GİREN 0 — hepsi "kendi toprağı" (km≈25): 1816-05-01 ve 1844-01-29 ×
+#   sag: Bregenz 492 km² · Feldkirch 212 · Landeck 180. Başka hat oynamadı.
+#   📌 İki ters hattın ikisi de kardeşiyle çelişiyordu ⇒ "kardeş hat sınavı" artık
+#      bir YÖNTEM: aynı sınırın ardışık parçaları ters yaka söylüyorsa biri yanlıştır,
+#      ve bu dışarıdan veri GEREKTİRMEZ.
+#
+# ÖNCEKİ İKİ KUSUR (1585 → 1574), aynı gün:
+#   ① `d1923-at-cs` sol_taraf TERS'ti. 1584 → 1578.
+#      DÜŞEN 16 (hattın BÜTÜN üyeleri, hepsi km≈25 = kendi toprağı): 1920-07-16 ve
+#      1923-10-28 × [sağ: Freistadt · Gmünd · Linz · Viyana | sol: Bratislava · Brno ·
+#      Třeboň · České Budějovice]  —  GİREN 10 (hattın GİZLEDİĞİ gerçek taşmalar):
+#      Gmünd AT→ÇS 24,9 km/1020 km² · Freistadt 16,1/400 · Linz 10,2/120 ·
+#      Brno ÇS→AT 10,3/132 · Bratislava 12,5/64 (iki gün).
+#      🔴 NET −6, ama ÜYELİK 26 kişi oynadı: net sayı hareketi GİZLER.
+#   ② BOŞ `sol_taraf` artık ölçülemedi (yukarıda ~4713). 1578 → 1574.
+#      6 hat `atlanan`a düştü ADIYLA: d1923-ca-us-bati-1 · d1923-ir-hind-BILINMIYOR ·
+#      d1923-necid-kuveyt-tarafsiz-bati · d1923-necid-kuveyt-tarafsiz-guney-C ·
+#      d1923-us-cu-guantanamo-2 · g4-bna-us-bati-1 (körlük defterine yazıldı).
+#      ⚠️ LAB "evrende 3" demişti; ÖLÇÜM 6 çıktı — işçinin sayısı kabul edilmeden ölçüldü.
+#
+# ⚠️ VE BU SAYI BUGÜN BAYAT BİR GÖVDEYE KARŞI ÖLÇÜLÜYOR: `denetle.py:4547` Değişmez 8
+#   için `data/donemler.js`i okur; o dosya `.gitignore:42`de, YEREL bir koşu
+#   artefaktı (4 Ekim, r11195) ve SİTE onu yüklemiyor (site `donemler_on`+`donemler_ust`
+#   yüklüyor, bugün KOŞU 19'a döndürüldü). ⇒ 1568 bir ONAY değil, bayat bir referansa
+#   karşı alınmış bir FOTOĞRAF. Tam inşa koşusundan sonra üçü birden (8a/8b/8m)
+#   yeniden ölçülecek. Aynı sebeple `8b` bugün 121 diyor (tavan 84) — bu bir İHLAL
+#   DEĞİL ÖLÇÜLEMEZLİK: 1 Ekim'in `bolgeler.js`i 4 Ekim'in `donemler.js`iyle
+#   kıyaslanıyor. KANIT: KOŞU 19'un kendi kaydı (`denetim/DEGISMEZ-KOSU19-UMIT.log`,
+#   UMIT) **8a 1517 · 8b 82 · SONUÇ temiz** diyor.
+#   ① `d1923-at-cs` sol_taraf TERS'ti (LAB-D8-UYE-1005). 1584 → 1578.
+#      DÜŞEN 16 (hattın BÜTÜN üyeleri, hepsi km≈25 = kendi toprağı): 1920-07-16 ve
+#      1923-10-28 × [sağ: Freistadt · Gmünd · Linz · Viyana | sol: Bratislava · Brno ·
+#      Třeboň · České Budějovice]  —  GİREN 10 (hattın GİZLEDİĞİ gerçek taşmalar):
+#      Gmünd AT→ÇS 24,9 km/1020 km² · Freistadt 16,1/400 · Linz 10,2/120 ·
+#      Brno ÇS→AT 10,3/132 · Bratislava 12,5/64 (iki gün).
+#      🔴 NET −6, ama ÜYELİK 26 kişi oynadı: net sayı hareketi GİZLER.
+#   ② BOŞ `sol_taraf` artık ölçülemedi (yukarıda ~4713). 1578 → 1574.
+#      6 hat `atlanan`a düştü ADIYLA: d1923-ca-us-bati-1 · d1923-ir-hind-BILINMIYOR ·
+#      d1923-necid-kuveyt-tarafsiz-bati · d1923-necid-kuveyt-tarafsiz-guney-C ·
+#      d1923-us-cu-guantanamo-2 · g4-bna-us-bati-1 (körlük defterine yazıldı).
+#      ⚠️ LAB "evrende 3" demişti; ÖLÇÜM 6 çıktı — işçinin sayısı kabul edilmeden ölçüldü.
+#   ⇒ 1574 bir ONAY değil DONDURMA: ölçülemeyen 6 hat kapandıkça sayı yine oynar.
+# 🔴 82 → 84, KOŞU 24, Emre 14 Ekim 2026 (karar HAVVA koşucu oturumunda Emre'nin
+#    kendi yazısıyla verildi, UMIT koordinasyon oturumuna aktarıldı). Ölçüm: KOŞU 24
+#    çıktısı, taban f39458eb (H0016 sonrası Osmanlı gövdesi, ufuk 2000). YENİ 9:
+#    Basra 1545-12-26 · Budin 1526-11-10 · Diyarbakır 1515-09-19 · Kahire 1517-01-24 ·
+#    Karahisâr-ı Şarkî 1473-08-11 · Kefe 1774-07-20 · Temeşvar 1552-07-27 ·
+#    Tiflis 1578-08-24 · Yaş 1877-05-08 (7 birim düştü, net +2).
+#    ⚠️ BEYANLI BORÇ, ÖLÇÜLMEDİ: yeni 9'un çoğu FETİH GÜNÜ — bölgenin Osmanlı'ya
+#    geçtiği gün yabancı gövde henüz çekilmemiş olabilir (kronoloji günü ↔ gövde
+#    kırılması). Düşen 7 ile KOŞU 23 kıyası yapılmadı; iyileşince tavan iner.
+# 🔴 84 → 85, KOŞU 27, Emre 17 Ekim 2026 ("tavanı yükseltmeye de onay veriyorum").
+#    YENİ 4: El-Fâşir 1884-01-14 · Sevâkin 1884-02-08 · Kahire 1914-12-17 (%4) ·
+#    Prizren 1455-06-20 (%2); 3 eski birim düştü, net +1. ⚠️ BEYANLI BORÇ: dördü de
+#    kaynaklı veri değişikliğinin yan ürünü, gövde-kırılma uyumsuzluğu — iyileşince iner.
+# 🟢 85 → 0, 17 Ekim 2026 (Emre: "bölge sınırı her gün o günkü Osmanlı gövdesiyle
+#    kırpılsın … 8b tavanı 0'a insin"). 85 birimin hepsi ZAMANSIZ bölge çizgisinin
+#    bölgenin ilk/son gününde o gün yabancı olan bağlı yerleşimleri kuşatmasıydı;
+#    veri hatası değildi. Çare `arac/uret_bolge_pencere.py` (iniş adımı) →
+#    `data/bolge_pencere.js`; site ve 8b artık pencere geometrisini okur. Sınav iki
+#    yönde: pencereli 0 · `bolge_pencere.js` kaldırılınca (zamansız) 85.
+BEKLENEN_D8B = 0    # 85 → 0, 17 Ekim 2026 (önceki: 84 → 85 KOŞU 27 · 82 → 84 KOŞU 24).
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
 #   evrende değildir: taşması "YENİ KAPSAM" kovasında ADIYLA ve SAYIYLA basılır,
@@ -4210,6 +5293,9 @@ BEKLENEN_D8B = 82
 #   DOĞRU bir veri eklemesi yayını bloke ederdi. Kova sessiz DEĞİLDİR:
 #   inceleyen `--d8-defter-yaz` ile evrene alır, tavan o gün yeniden ölçülür.
 DEGISMEZ8_DEFTERI = os.path.join(KOK, "denetim", "DEGISMEZ-0086-defter.json")
+# KÖRLÜK DEFTERİ (4 Ekim 2026, LAB buldu) — `olculemeyen` (hat, gün) çiftleri. Üyelik `hat¦gun`;
+# `tam_kor` / `yarim` hat listeleri yalnız BİLGİdir (kapı çiftlerle karar verir).
+DEGISMEZ8_KOR_DEFTERI = os.path.join(KOK, "denetim", "DEGISMEZ-0086-kor-defter.json")
 
 
 def _d8_js(yol):
@@ -4269,11 +5355,88 @@ def _d8_d_dosyalari():
 
 
 def _d8_gun_once(g):
-    from datetime import date, timedelta
-    try:
-        return (date.fromisoformat(g) - timedelta(days=1)).isoformat()
-    except ValueError:
-        return None
+    # C1: date.fromisoformat yil < 1'i ve 3 haneli yili reddedip None donuyordu (gun sessizce
+    # dusuyordu). Sayac 908 / -2999'u dogru okur; GECERSIZ tarih FIRLATIR.
+    return _gun.dizgi(gn(g) - 1)
+
+
+def _d8_gunler(f, t):
+    """D8'in ölçeceği günler: (düşen, ölçülen) — ikisi de pad'li ve sıralı.
+
+    `_d8_gun_once` her zaman dolgulu döner (`isoformat`); `f` dolgusuz kalırsa
+    "0330-12-31" < "330-05-11" dizgi kıyası YANLIŞ dala düşer ve aynı gün iki
+    yazımla kümeye iki kez girer. ⇒ İkisi de pad'li kıyaslanır.
+    """
+    f_ = pad(f or "")
+    gunler = {pad(f), _d8_gun_once(t) if t else None}
+    return (sorted((g for g in gunler if g and gn(g) < gn(f_)), key=gn),
+            sorted((g for g in gunler if g and gn(g) >= gn(f_)), key=gn))
+
+
+# 🔴 GÖVDE KİMLİK SINAVI — "ölçtüğüm gövde, SİTENİN gösterdiği gövde mi?"
+#    (LAB-D8-UYE-1005 §10, 5 Ekim 2026 · iz sürerek ölçtü: Python audit hook +
+#    Node --require kancası, her okumaya çağıran soru eklenerek.)
+#
+# ÖLÇÜLEN VAKA ve niçin sinsi: Değişmez 8, `data/donemler.js` ve
+# `data/devletler_harita.js`i okur. İkisi de `.gitignore`da, YEREL koşu
+# artefaktı. Site ise onları YÜKLEMEZ — kodlanmış sürümü yükler
+# (`donemler_on`+`donemler_ust`+`donem_parcalar`). İkisi AYRI koşudan kalırsa
+# kapı, YAYINDA OLMAYAN bir haritayı denetler:
+#     site devletler 0ef2d3e23c4e (172,6 MB) ↔ yerel bc81fa2c005f (93,7 MB)
+#     site donemler  6e34fd54dcfb            ↔ yerel 1f201eb7b597
+#     SİTE gövdesinde 8a 1509 · 8b  82 ✓      ← yayındaki GERÇEK
+#     YEREL gövdede   8a 1568 · 8b 121 ✗      ← kapının bastığı sayı
+# ⇒ Yalnız yanlış sayı değil, YANLIŞ HÜKÜM: olmayan bir ihlal bağırıyor,
+#   gerçek üyelik hareketini (ortak 1364 · yalnız yerel 204 · yalnız site 145)
+#   gizliyor.
+#
+# ⚠️ VE ESKİ DAMGA BU SORUYU CEVAPLAMIYORDU: `self.damga` motor parmak izini
+#   ("uret_petek 8b6aaea5") yazıyor ve İKİ GÖVDE DE AYNI parmak izini taşıyor —
+#   damga KOŞUYU AYIRT ETMİYOR. Aynı motor, ayrı koşu, ayrı çıktı.
+# ⇒ Tek güvenilir bağ, kodlayıcının ÖZGÜN METİN sha256'sı (`kodla.py:752`,
+#   `window.__PR_SHA` / `window.__DP_SHA`). Tutmuyorsa soru SORULAMAZ:
+#   `ölçülemedi ≠ yok ≠ temiz` (`CLAUDE.md §3`). Aşağıdaki `raise`,
+#   `degismez8_rapor`un `except Exception` kolundan ÖLÇÜLEMEDİ'ye ve çıkış
+#   kodu 2'ye düşer — sessiz "temiz" YOK.
+# ⚠️ DAMGA `*_parcalar.js`TE, `*_ust.js`TE DEĞİL — bunu VARSAYDIM ve YANILDIM;
+#   kapı "damga YOK" diye öttü. Doğrusu `kodla.py:752` okunarak bulundu:
+#   `SHA_ADI` havuz (parça) dosyasına yazılıyor, üst dosyaya değil.
+#   📌 Bu gecenin dersi bir kez daha: çareyi KURALDAN değil KODDAN tasarla.
+_D8_GOVDE_DAMGA = (
+    ("devletler_harita.js", "devlet_parcalar.js", "__DP_SHA"),
+    ("donemler.js", "donem_parcalar.js", "__PR_SHA"),
+)
+
+
+def _d8_govde_kimlik():
+    """Yerel gövde ↔ sitenin yüklediği kodlanmış gövde AYNI MI? Değilse RAISE."""
+    import hashlib
+    for kaynak, ust, damga_adi in _D8_GOVDE_DAMGA:
+        y_kaynak = os.path.join(DATA, kaynak)
+        y_ust = os.path.join(DATA, ust)
+        if not os.path.isfile(y_ust):
+            raise RuntimeError(
+                "%s YOK — sitenin yüklediği gövdenin damgası okunamıyor, "
+                "yerel %s'in yayındakiyle aynı olduğu DOĞRULANAMAZ" % (ust, kaynak))
+        with open(y_ust, encoding="utf-8") as f:
+            m = re.search(r"window\.%s\s*=\s*\"([0-9a-f]{64})\"" % damga_adi, f.read())
+        if not m:
+            raise RuntimeError(
+                "%s içinde %s damgası YOK — gövde kimliği sınanamıyor" % (ust, damga_adi))
+        if not os.path.isfile(y_kaynak):
+            raise RuntimeError(
+                "%s YOK (üretilmiş + gitignore'lu çıktı) — taze bir ağaçta "
+                "beklenir; koşudan sonra oluşur" % kaynak)
+        h = hashlib.sha256()
+        with open(y_kaynak, "rb") as f:
+            for blok in iter(lambda: f.read(1 << 22), b""):
+                h.update(blok)
+        if h.hexdigest() != m.group(1):
+            raise RuntimeError(
+                "GÖVDE UYUŞMUYOR — %s yereldeki koşudan, site ise kodlanmış "
+                "sürümü yüklüyor (yerel %s… ↔ site %s…). Değişmez 8 YAYINDA "
+                "OLMAYAN bir haritayı ölçerdi; soru SORULMADI."
+                % (kaynak, h.hexdigest()[:12], m.group(1)[:12]))
 
 
 class _D8Govde:
@@ -4282,6 +5445,7 @@ class _D8Govde:
     def __init__(self):
         from shapely.geometry import Polygon
         self._Polygon = Polygon
+        _d8_govde_kimlik()          # 🔴 ölçmeden ÖNCE: doğru gövde mi?
         H = _d8_js(os.path.join(DATA, "devletler_harita.js"))
         D = _d8_js(os.path.join(DATA, "donemler.js"))
         B = _d8_js(os.path.join(DATA, "bolgeler.js"))
@@ -4294,6 +5458,19 @@ class _D8Govde:
                 os.path.getmtime(os.path.join(DATA, "devletler_harita.js")))),
             (iz.get("uret_petek.py") or "?")[:8])
         self.bolgeler = B["BOLGELER"]
+        # 🔴 ZAMAN PENCERELİ BÖLGE (Emre, 17 Ekim 2026): site bölge çizgisini
+        #   `bolge_pencere.js`ten çizer (arac/uret_bolge_pencere.py, iniş adımı).
+        #   8b SİTENİN ÇİZDİĞİNİ ölçer ⇒ dosya varsa pencere geometrisi, yoksa
+        #   eski zamansız `g` (eski ağaçlar). Hangisinin ölçüldüğü damgaya yazılır.
+        _bp = os.path.join(DATA, "bolge_pencere.js")
+        self.bolge_pencere = None
+        if os.path.isfile(_bp):
+            P = _d8_js(_bp)["BOLGE_PENCERE"]
+            self.bolge_pencere = {b["ad"]: [(pad(f), pad(t), P["g"][gi]) for f, t, gi in b["p"]]
+                                  for b in P["b"]}
+            self.damga += " · bölge PENCERELİ"
+        else:
+            self.damga += " · bölge ZAMANSIZ (bolge_pencere.js yok)"
         # (kaynak_havuz, kaynak_halka, dönem listesi[(id, f, t, g)])
         self.kay = [
             (H["DEVLET_PARCALAR"], H["DEVLET_PARCA_HALKA"],
@@ -4347,7 +5524,7 @@ class _D8Govde:
         cik = []
         for ki, (_, _, donem) in enumerate(self.kay):
             for gid, f, t, parcalar in donem:
-                if not (f <= gun and (gun <= t if bitis_dahil else gun < t)):
+                if not (gn(f) <= gn(gun) and (gn(gun) <= gn(t) if bitis_dahil else gn(gun) < gn(t))):
                     continue
                 for p in parcalar:
                     r = self._parca(ki, p)
@@ -4373,13 +5550,13 @@ def _d8_izdusum(lon0, lat0):
 def _d8_sahip(y, gun):
     """Yerleşimin o günkü DE JURE sahibi (motorun gördüğü; `isg:` HARİÇ)."""
     for p in y.get("s") or []:
-        if (p.get("f") or "0000") <= gun < (p.get("t") or "9999"):
+        if gn(p.get("f") or "-9999") <= gn(gun) < gn(p.get("t") or "9999"):
             return p.get("d")
     for p in y.get("v") or []:
-        if (p.get("f") or "0000") <= gun < (p.get("t") or "9999"):
+        if gn(p.get("f") or "-9999") <= gn(gun) < gn(p.get("t") or "9999"):
             return "OSM-TABI"
     for p in y.get("d") or []:
-        if (p.get("f") or "0000") <= gun < (p.get("t") or "9999"):
+        if gn(p.get("f") or "-9999") <= gn(gun) < gn(p.get("t") or "9999"):
             return "OSMANLI"
     return None
 
@@ -4407,6 +5584,19 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
     harita = _d8_node([os.path.join(kok, "data", "devletler.js")],
                       "Object.fromEntries((window.DEVLETLER||[]).filter(d=>d&&d.id)"
                       ".map(d=>[d.id,d.harita||d.id]))")
+    # 🔴 TÂBİ YAKA (13 Ekim 2026, KAPI-0): gövde Osmanlı'ya TÂBİ bütün kimlikleri TEK `OSM-TABI`
+    #    gid'inde boyar (`v:`); hattın bir yakası böyle bir tâbi ise (ör. Bulgaristan Prensliği
+    #    1878-07-13..1908-10-05) `esit(gid, taraf)` o yakayı HİÇ BULAMAZDI ⇒ hat KÖR sayılırdı
+    #    (g3-bg-ro-tuna-p1..p3: 6 (hat,gün)). Körlük veriden değil ÖLÇÜTÜN kimlik sözlüğündendi.
+    #    Yaka o gün `devletler.js` `tabi:[{ust:"osmanli"}]` penceresindeyse `OSM-TABI` O YAKAYA
+    #    yazılır; iki yaka da tâbiyse belirsizdir ⇒ hiçbirine yazılmaz (kör kalır, UYDURULMAZ).
+    tabi_pen = _d8_node([os.path.join(kok, "data", "devletler.js")],
+                        "Object.fromEntries((window.DEVLETLER||[]).filter(d=>d&&d.id&&Array.isArray(d.tabi))"
+                        ".map(d=>[d.id,d.tabi.filter(p=>p.ust==='osmanli').map(p=>[p.f||'-9999',p.t||'9999'])]))")
+
+    def tabi_mi(taraf, gun):
+        return any(gn(f) <= gn(gun) < gn(t) for f, t in tabi_pen.get(taraf, ()))
+
     iki_tarafsiz = 0
     if hatlar is None:
         tum = _d8_node(_d8_d_dosyalari(),
@@ -4443,22 +5633,43 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
     def agac(taraf, gun):
         k = (anahtar(taraf), gun)
         if k not in _agac:
-            L = [a for a in aralik.get(k[0], ()) if a[3] <= gun < a[4]]
+            L = [a for a in aralik.get(k[0], ()) if gn(a[3]) <= gn(gun) < gn(a[4])]
             _agac[k] = (STRtree(shapely.points([(a[0], a[1]) for a in L])), [a[2] for a in L]) \
                 if L else None
         return _agac[k]
 
     a_tasma, a_kaba, olculen, olculemeyen = [], [], 0, []
+    a_sira = {}                     # (hat, gün, yan, yer) → kaçıncı parça (anahtar tekilliği)
     olc_hat = set()
+    kor_sinif = {}                  # hat → sınıf (yalnız ölçülemeyen hatlar için; körlük raporu okur)
+    atlanan = []                    # (hat, sebep) — döngüde HİÇ SAYILMADAN `continue`lenen hatlar
+    dusen_gun = []                  # (hat, gün) — `g >= f` süzgecinde sessizce düşen günler
     for r in hatlar:
         hat = r["hat"]
         parcalar = hat if isinstance(hat[0][0], list) else [hat]
         parcalar = [p for p in parcalar if len(p) >= 2]
         if not parcalar:
+            atlanan.append((r["id"], "hat parçası yok: her parça <2 nokta ya da boş"))
             continue
         sinif = r.get("sinif") or r.get("kategori") or "?"
         hedef = a_tasma if sinif in D8_SINIF else a_kaba
-        sol = r.get("sol_taraf") or r["taraflar"][0]
+        # 🔴 BOŞ `sol_taraf` YAZI-TURA DEĞİL, ÖLÇÜLEMEDİ (LAB-D8-UYE-1005, 5 Ekim 2026).
+        # Eski satır: `sol = r.get("sol_taraf") or r["taraflar"][0]` — `sol_taraf` boşsa
+        # listenin İLK tarafını sol VARSAYIYORDU. Bu bir ölçüm değil bir kura; ve yanlış
+        # geldiğinde sessizce SAHTE ÜYE üretiyordu. Ölçülen vaka:
+        # `d1923-necid-kuveyt-tarafsiz-bati` — sol_taraf null, kod `suud`u sol saydı,
+        # Natural Earth bugünkü ülke L=KWT diyor ⇒ ters; 2 sahte 8a üyesi (sol|Kuveyt ×2).
+        # ⇒ Artık ADIYLA `atlanan`a düşer: `d8_atlanan_kapi` yeni üyeyi ✗ ile ötürür, yani
+        #   belirsizlik GİZLENMEZ, GÖRÜNÜR. Bir hattın yakası bilinmiyorsa "aştı/aşmadı"
+        #   sorusu o hat için SORULAMAZ — `ölçülemedi ≠ yok ≠ temiz`.
+        # ⚠️ `taraflar[0]`a geri dönmek CAZİP ama yanlış: iki yakadan birini seçmek
+        #   %50 isabetle ölçüm üretir, ve sayı güven telkin eder (bu projenin
+        #   "yanlış alanla ölçmek ölçmemekten tehlikelidir" dersi).
+        if not r.get("sol_taraf"):
+            atlanan.append((r["id"], "sol_taraf BOŞ: hangi yaka hangi devlet ÖLÇÜLEMEDİ "
+                                     "(taraflar[0] varsayımı kaldırıldı)"))
+            continue
+        sol = r["sol_taraf"]
         sag = [t for t in r["taraflar"] if t != sol]
         sag = sag[0] if sag else r["taraflar"][1]
         xs = [q[0] for p in parcalar for q in p]
@@ -4477,13 +5688,27 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
                            for p in parcalar])
         ortak = SOL.intersection(SAG)            # menderes: yaka belirsiz ⇒ atılır
         SOL, SAG = SOL.difference(ortak), SAG.difference(ortak)
-        derin = cizgi.buffer(D8_DERIN)
+        # 🔴 HATTIN BEYANLI BELİRSİZLİĞİ OKUNUR (15 Ekim 2026, Emre onayı): hat "±k km kesin"
+        #   diyorsa (`kesinlik_km`), hattan k km içindeki taşma hattın kendi payıdır, gövdenin
+        #   kusuru değil ⇒ eşik D8_DERIN + k. `null`/yok ⇒ k = 0 (eski davranış, gevşemez).
+        try:
+            _kes = max(0.0, float(r.get("kesinlik_km") or 0))
+        except (TypeError, ValueError):
+            _kes = 0.0
+        derin = cizgi.buffer(D8_DERIN + _kes)
         degme = cizgi.buffer(D8_DEGME)
-        gunler = {r.get("f"), _d8_gun_once(r.get("t")) if r.get("t") else None}
-        for gun in sorted(g for g in gunler if g and g >= (r.get("f") or "")):
+        _dusen, _olcul = _d8_gunler(r.get("f"), r.get("t"))
+        for g_ in _dusen:
+            dusen_gun.append((r["id"], g_))     # eskiden SESSİZCE düşerdi (davranış aynı, artık kayıtlı)
+        for gun in _olcul:
             govde = {"sol": [], "sag": []}
             for gid, g in gv.kesit(gun, kutu):
                 if gid == "__BOSLUK__":
+                    continue
+                if gid == "OSM-TABI" and not esit(gid, sol) and not esit(gid, sag):
+                    ts, tg = tabi_mi(sol, gun), tabi_mi(sag, gun)
+                    if ts != tg:                 # tam bir yaka tâbi ⇒ OSM-TABI o yakanındır
+                        govde["sol" if ts else "sag"].append(g)
                     continue
                 if esit(gid, sol):
                     govde["sol"].append(g)
@@ -4491,6 +5716,7 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
                     govde["sag"].append(g)
             if not govde["sol"] or not govde["sag"]:
                 olculemeyen.append((r["id"], gun))
+                kor_sinif[r["id"]] = sinif
                 continue
             olculen += 1
             olc_hat.add(r["id"])
@@ -4522,33 +5748,69 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
                         adlar = np.array(["?"] * len(gx), dtype=object)
                     else:
                         adlar = np.array(A[1], dtype=object)[A[0].query_nearest(ll, all_matches=False)[1]]
+                    # 🔴 BİRİM = TAŞMA PARÇASI, YER DEĞİL (15 Ekim 2026, Emre onayı, KOŞU 25).
+                    #   Eskiden her (parça × en yakın yer) ayrı birimdi ⇒ aynı taşmanın yakınına
+                    #   yeni nokta eklemek (KUTU-H5: Cortina, Locarno, Enschede…) geometri hiç
+                    #   değişmeden sayıyı artırıyordu (1500 → 1508). Sayı artık yalnız motor
+                    #   çıktısına bağlı; yerler `yerler`de durur, `yer` = en büyük paylı ad
+                    #   (defter anahtarı ve okunurluk için).
+                    paylar = []
                     for kim in set(adlar):
                         m = adlar == kim
                         km2 = 4.0 * int(m.sum())
-                        if km2 < D8_ALAN_8A:
-                            continue
-                        hedef.append(dict(hat=r["id"], sinif=sinif, gun=gun, yan=yan,
-                                          kimden=karsi_ad, yer=kim,
-                                          km=round(float(km[m].max()), 1), km2=round(km2)))
+                        if km2 >= D8_ALAN_8A:
+                            paylar.append((km2, kim, float(km[m].max())))
+                    if not paylar:
+                        continue
+                    paylar.sort(key=lambda p: (-p[0], str(p[1])))
+                    # Aynı (hat, gün, yan) içinde iki AYRI parçanın en büyük paylı adı aynı
+                    # olabilir (KOŞU 25'te 99 kez). Anahtar `yer` ile kurulursa ikisi TEK
+                    # birime çöker ve sayı yine nokta yoğunluğuna bağlanır ⇒ 2. parça `Ad#2`.
+                    _k = (r["id"], gun, yan, paylar[0][1])
+                    a_sira[_k] = a_sira.get(_k, 0) + 1
+                    hedef.append(dict(hat=r["id"], sinif=sinif, gun=gun, yan=yan,
+                                      kimden=karsi_ad, yer=paylar[0][1],
+                                      yer_anahtar=paylar[0][1] if a_sira[_k] == 1
+                                      else "%s#%d" % (paylar[0][1], a_sira[_k]),
+                                      yerler=[p[1] for p in paylar],
+                                      km=round(max(p[2] for p in paylar), 1),
+                                      km2=round(sum(p[0] for p in paylar))))
     t_a = time.time() - t0
 
     # ---- 8b BÖLGE × GÖVDE ----
     b_tasma = []
-    for B in gv.bolgeler:
+
+    def _mp(g_koord):
         poligonlar = []
-        for pg in B.get("g") or []:
+        for pg in g_koord or []:
             try:
                 g = gv._Polygon(pg[0], pg[1:])
                 poligonlar.append(g if g.is_valid else g.buffer(0))
             except Exception:
                 pass
-        if not poligonlar:
+        return unary_union(poligonlar) if poligonlar else None
+
+    for B in gv.bolgeler:
+        BG_zamansiz = _mp(B.get("g"))
+        if BG_zamansiz is None:
             continue
-        BG = unary_union(poligonlar)
         M = _d8_izdusum(B["lon"], B["lat"])
-        alan = affine_transform(BG, M).area
-        gunler = {B.get("f"), _d8_gun_once(B.get("t")) if B.get("t") else None}
-        for gun in sorted(g for g in gunler if g):
+        # Oran paydası ZAMANSIZ bölge alanıdır (pencere küçüldükçe oran şişmesin).
+        alan = affine_transform(BG_zamansiz, M).area
+        pencereler = None if gv.bolge_pencere is None else gv.bolge_pencere.get(B["ad"], [])
+        _dusen, _olcul = _d8_gunler(B.get("f"), B.get("t"))
+        for gun in sorted(_dusen + _olcul):
+            if pencereler is None:
+                BG = BG_zamansiz
+            else:
+                # Site o gün hangi pencereyi çiziyorsa onu ölç; pencere yoksa
+                # o gün çizgi YOK ⇒ taşma da yok.
+                aktif = [g for f, t, g in pencereler if gn(f) <= gn(gun) < gn(t)]
+                if not aktif:
+                    continue
+                BG = _mp(aktif[0])
+                if BG is None:
+                    continue
             parca = gv.kesit(gun, BG.bounds)
             osm = [g for gid, g in parca if gid in ("OSMANLI", "OSM-TABI")]
             yab = {}
@@ -4569,13 +5831,14 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
                     b_tasma.append(dict(bolge=B["ad"], k=B.get("k"), gun=gun, kime=gid,
                                         km2=round(km2), oran=round(100 * km2 / alan, 1)))
     return dict(a=a_tasma, a_kaba=a_kaba, b=b_tasma, olculen=olculen,
-                olculemeyen=olculemeyen, olculen_hatlar=sorted(olc_hat),
+                olculemeyen=olculemeyen, olculen_hatlar=sorted(olc_hat), kor_sinif=kor_sinif,
+                atlanan=atlanan, dusen_gun=dusen_gun, hat_idleri=sorted({r["id"] for r in hatlar}),
                 hat_sayisi=len(hatlar), iki_tarafsiz=iki_tarafsiz,
                 damga=gv.damga, sure=(round(t_a), round(time.time() - t0 - t_a)))
 
 
 def _d8_a_anahtar(x):
-    return "%s|%s|%s|%s" % (x["hat"], x["gun"], x["yan"], x["yer"])
+    return "%s|%s|%s|%s" % (x["hat"], x["gun"], x["yan"], x.get("yer_anahtar", x["yer"]))
 
 
 def _d8_b_anahtar(x):
@@ -4611,6 +5874,146 @@ def degismez8_defteri(R, yaz=False):
     return eski
 
 
+# ═══════════════ DEĞİŞMEZ 8 KÖRLÜĞÜ (4 Ekim 2026, LAB buldu) ═══════════════
+# 🔴 `degismez8()` bir (hat, gün) için iki yakadan birinin gövdesi yoksa çifti `olculemeyen`e
+#    atıp `continue`ler. Bu sayı basılıyordu ama HÜKME GİRMİYORDU: hüküm yalnız ölçülen çiftlerin
+#    taşmasından (na/nb) çıkar. Sonuç: bir hat HİÇ ölçülmemeye başlarsa taşması 0'a düşer ve
+#    tavan "iyileşti" der — SAYI iyileşmeyi körleşmeden AYIRT EDEMEZ (kayıtlı 1611 → 1517
+#    "iyileşmesinin" en az 9 puanı, körleşen 6 hattın taşıdığı birimlerdir).
+# ⇒ Körlük bir ÜYELİK defterine bağlanır (`hat¦gun`): bugünkü körlük ADIYLA kayıtlıdır ve yayını
+#    DURDURMAZ; defterde OLMAYAN bir (hat, gün) ölçülemez hâle gelirse `olculemedi(...)` ⇒ ÇIKIŞ 2.
+#    Tavan SAYI değil ÜYELİKTİR: tam kör sayısı sabit kalırken bir hat kapanıp öteki körleşirse
+#    (net sıfır takas) sayı susardı, üyelik öter.
+# 📌 Bu yama bir şeyi DÜZELTMİYOR, GÖRÜNÜR KILIYOR: kör hatlar bugün de kördü.
+D8_KOR_ANAHTAR = "%s¦%s"
+
+
+def d8_kor_olc(R):
+    """→ (cift kümesi `hat¦gun`, tam_kor hatlar, yarim hatlar). Tam kör = hiçbir günü ölçülmemiş."""
+    cift = {D8_KOR_ANAHTAR % (h, g) for h, g in R["olculemeyen"]}
+    hatlar = {h for h, _ in R["olculemeyen"]}
+    olc = set(R["olculen_hatlar"])
+    return cift, sorted(h for h in hatlar if h not in olc), sorted(h for h in hatlar if h in olc)
+
+
+def d8_kor_defteri_oku(yol):
+    """→ dict ya da None (dosya yok/bozuk ⇒ çağıran ölçülemedi der)."""
+    if not os.path.exists(yol):
+        return None
+    try:
+        D = json.load(open(yol, encoding="utf-8"))
+        D["cift"] = list(D["cift"])
+        return D
+    except Exception:
+        return None
+
+
+def d8_kor_defteri_yaz(R, yol):
+    cift, tam, yarim = d8_kor_olc(R)
+    D = {"_NOT": ("Değişmez 8 KÖRLÜK defteri: `degismez8().olculemeyen` (hat, gün) çiftleri. Üyelik "
+                  "`hat¦gun`; tam_kor/yarim yalnız bilgi. 'Defterde var' ≠ 'incelendi ve kabul edildi': "
+                  "bu hatlar bugün de KÖRDÜ, kimse bilmiyordu — defter körlüğü GÖRÜNÜR kılar, kapatmaz. "
+                  "Yazıldığı gövde: " + R["damga"]),
+         "cift": sorted(cift), "tam_kor": tam, "yarim": yarim}
+    atl, dusen, disi = d8_atlanan_olc(R)
+    D["atlanan"], D["dusen_gun"], D["muhasebe_disi"] = sorted(atl), sorted(dusen), sorted(disi)
+    open(yol, "w", encoding="utf-8", newline="").write(json.dumps(D, ensure_ascii=False, indent=1))
+    return D
+
+
+def d8_atlanan_olc(R):
+    """Üçüncü sessiz sınıf ve hat MUHASEBESİ. → (atlanan hat kümesi, düşen `hat¦gun` kümesi,
+    MUHASEBE DIŞI hat kümesi). Her hat TAM BİR kovaya düşmelidir: ölçülen ∪ tam kör ∪ atlanan;
+    dışında kalan (ör. hiç günü olmayan hat) 'muhasebe dışı'dır — adı konmamış YENİ bir sessiz yol."""
+    ids = set(R.get("hat_idleri") or ())
+    olc = set(R["olculen_hatlar"])
+    kor = {h for h, _ in R["olculemeyen"]}
+    atl = {h for h, _ in R.get("atlanan") or ()}
+    dusen = {D8_KOR_ANAHTAR % (h, g) for h, g in R.get("dusen_gun") or ()}
+    return atl, dusen, ids - olc - kor - atl
+
+
+def d8_atlanan_kapi(R, defter):
+    """Saf karar → (yeni atlanan, yeni düşen gün, yeni muhasebe-dışı, eski_defter). Defterde bu
+    anahtarlar YOKSA (eski sürüm) eski_defter=True: soru ÖLÇÜLEMEDİ sayılır, 'boş' sanılmaz."""
+    if not all(k in defter for k in ("atlanan", "dusen_gun", "muhasebe_disi")):
+        return [], [], [], True
+    atl, dusen, disi = d8_atlanan_olc(R)
+    return (sorted(atl - set(defter["atlanan"])), sorted(dusen - set(defter["dusen_gun"])),
+            sorted(disi - set(defter["muhasebe_disi"])), False)
+
+
+def d8_kor_kapi(R, defter):
+    """Saf karar işlevi (sınav bunu doğrudan çağırır) → (yeni çiftler, yeni hatlar, kapanan çift sayısı)."""
+    cift, tam, yarim = d8_kor_olc(R)
+    eski = set(defter["cift"])
+    yeni = sorted(cift - eski)
+    yeni_hat = sorted({c.split("¦")[0] for c in yeni})
+    return yeni, yeni_hat, len(eski - cift)
+
+
+def degismez8_kor_rapor(R, ayrinti=False, yaz=False, yol=None):
+    """Körlüğü BASAR (sayısı 0 olsa bile satır görünür), defterde olmayan körleşmede olculemedi()."""
+    yol = yol or DEGISMEZ8_KOR_DEFTERI
+    cift, tam, yarim = d8_kor_olc(R)
+    sinif = R.get("kor_sinif") or {}
+    tavan_sinifi = [h for h in tam if sinif.get(h) in D8_SINIF]
+    if yaz:
+        d8_kor_defteri_yaz(R, yol)
+    defter = d8_kor_defteri_oku(yol)
+    if defter is None:
+        print(f"Değişmez 8k !  körlük defteri OKUNAMADI ({os.path.basename(yol)} yok/bozuk) — "
+              f"{len(tam)} tam kör · {len(yarim)} yarım hat · {len(cift)} (hat,gün). "
+              f"`py arac/denetle.py --d8-kor-defter-yaz` ile BEYAN et")
+        olculemedi("Değişmez 8 körlük", "körlük defteri yok/bozuk — körlüğün yeni mi eski mi olduğu bilinmiyor")
+        return
+    yeni, yeni_hat, kapanan = d8_kor_kapi(R, defter)
+    print(f"Değişmez 8k {'✗' if yeni else '✓'}  ölçülemeyen hat: {len(tam)} TAM KÖR (hiçbir günü ölçülmedi) · "
+          f"{len(yarim)} yarım · {len(cift)} (hat,gün) · defter {len(defter['cift'])} üye")
+    print(f"            i D8_SINIF (D/E/F, tavan sınıfı) tam kör hat: {len(tavan_sinifi)} — bu hatlarda taşma "
+          f"HİÇ SORULMADI (taşması 0 görünür); öteki sınıflar {len(tam) - len(tavan_sinifi)}")
+    print( "            i körlük SAYIYLA ayırt edilemez: bir hat ölçülmemeye başlayınca tavan 'iyileşti' der")
+    print(f"            i iki taraflı olmayan D kaydı (karşı yakası tanımsız, soru SORULAMAZ, SAYILIR): "
+          f"{R['iki_tarafsiz']}")
+    if kapanan:
+        print(f"            i defterde olup artık ölçülen {kapanan} (hat,gün) — iyi haber, defteri daralt")
+    if yeni:
+        for k in (yeni if ayrinti else yeni[:15]):
+            print(f"    8k YENİ  {k}")
+        print(f"            ⇒ defterde OLMAYAN {len(yeni)} (hat,gün) ölçülemez hâle geldi ({len(yeni_hat)} hat): "
+              f"körleşme iyileşme DEĞİLDİR.")
+        olculemedi("Değişmez 8 körlük", "defterde olmayan %d (hat,gün) körleşti, %d hat: %s%s" % (
+            len(yeni), len(yeni_hat), ", ".join(yeni_hat[:5]), " …" if len(yeni_hat) > 5 else ""))
+    atl, dusen, disi = d8_atlanan_olc(R)
+    yeni_atl, yeni_dusen, yeni_disi, eski_defter = d8_atlanan_kapi(R, defter)
+    ids, olc = set(R.get("hat_idleri") or ()), set(R["olculen_hatlar"])
+    print(f"Değişmez 8m {'✗' if (yeni_atl or yeni_dusen or yeni_disi or eski_defter) else '✓'}  hat muhasebesi: "
+          f"{len(ids)} hat = {len(olc)} ölçülen + {len(tam)} tam kör + {len(atl)} atlanan + {len(disi)} muhasebe dışı"
+          f" · gün süzgecinde düşen (hat,gün) {len(dusen)}")
+    if eski_defter:
+        print("            ⇒ körlük defteri ESKİ SÜRÜM (atlanan/dusen_gun/muhasebe_disi yok): `--d8-kor-defter-yaz`")
+        olculemedi("Değişmez 8 atlanan hat", "körlük defteri eski sürüm — atlanan/muhasebe-dışı sınıfı ölçülemedi")
+    for ad, yeniler in (("atlanan hat (döngüde hiç sayılmadı)", yeni_atl), ("düşen gün (hat,gün)", yeni_dusen),
+                        ("MUHASEBE DIŞI hat (kovasız)", yeni_disi)):
+        if yeniler:
+            for k in (yeniler if ayrinti else yeniler[:15]):
+                print(f"    8m YENİ  {ad}: {k}")
+            olculemedi("Değişmez 8 atlanan hat", "defterde olmayan %s: %s%s" % (
+                ad, ", ".join(yeniler[:5]), " …" if len(yeniler) > 5 else ""))
+    if ayrinti:
+        for h, sb in R.get("atlanan") or ():
+            print(f"    8m ATLANAN {h:<40} {sb}")
+        for h in sorted(disi):
+            print(f"    8m MUHASEBE DIŞI {h}")
+        for h, g in R.get("dusen_gun") or ():
+            print(f"    8m düşen gün {h:<36} {g}")
+    if ayrinti:
+        for h in tam:
+            print(f"    8k TAM KÖR {h:<40} sınıf {sinif.get(h, '?')}")
+        for h in yarim:
+            print(f"    8k yarım   {h:<40} sınıf {sinif.get(h, '?')}")
+
+
 # ═══════════════ OLCULEMEDI KOVASI (4 Ekim 2026) ═══════════════
 # 🔴 "olculemedi" ≠ "yok" ≠ "temiz" (CLAUDE.md §11). Bu kural YAZILIYDI ve
 #    arac onu IHLAL EDIYORDU: "Olculemeyen soru TEMIZ DEGILDIR" cumlesini
@@ -4629,7 +6032,7 @@ def olculemedi(ad, sebep):
     OLCULEMEDI_KOVA.append((ad, str(sebep)[:160]))
 
 
-def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
+def degismez8_rapor(Y, ayrinti=False, defter_yaz=False, kor_defter_yaz=False, kor_defter=None):
     """main() için: basar, ihlal varsa True döner."""
     try:
         R = degismez8(Y)
@@ -4656,6 +6059,7 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
     print(f"            i ayrı kovalar (ihlal DEĞİL, sayılır): C/YOK hattı taşması "
           f"{len(R['a_kaba'])} · ölçülemeyen (hat, gün) {len(R['olculemeyen'])} · "
           f"süre {R['sure'][0]}+{R['sure'][1]} sn")
+    degismez8_kor_rapor(R, ayrinti=ayrinti, yaz=kor_defter_yaz, yol=kor_defter)
     if dis:
         print(f"            i YENİ KAPSAM: defterde olmayan {len({k.split('|')[0] for k in dis})} "
               f"hatta {len(dis)} birim — tavana KATILMADI. İncele, sonra "
@@ -4673,6 +6077,10 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
             for k in (yeni_b if ayrinti else yeni_b[:15]):
                 print(f"    8b YENİ  {k}")
     if ayrinti:
+        print("    i 8a/8b MOTOR ÇIKTISINA bağlıdır: D8 fiilen bir motor regresyon ölçüsüdür (LAB, 4 Ekim 2026, "
+              "karşı-olgusal gövde: iyileşmenin veri payı 235'te 9 birim; 226 kayıp ve 154 yeni taşmanın tamamı "
+              "GÖVDE değişimi). Gövde değişen her koşuda defter ÜYELİKLE yeniden yazılmalı; yoksa kapanan ve yeni "
+              "açılan taşmalar SAYIDA TAKAS olur.")
         for x in sorted(R["a"], key=lambda x: -x["km"]):
             print(f"    8a  {x['gun']}  {x['hat']:<34} {x['sinif']}  {x['kimden']}→  "
                   f"{x['yer']:<24} {x['km']:5.1f} km {x['km2']:6d} km²")
@@ -4725,6 +6133,54 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False):
 #    emsali. Dosya yoksa/bozuksa soru ÖLÇÜLEMEDİ kovasına düşer, temiz sayılmaz.
 # Sınav (üç yönde: temiz · kirli · İYİLEŞME; üçü GERÇEK koşu):
 #    py denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py
+# 🔴 YALANCI İYİLEŞME — PENCERE ŞARTI (9 Ekim 2026, KAYNAK-PENCERE-1009;
+#    vaka KAYNAK-TAVAN-YALANCI-IYILESME-1009). ARTIK KAPI BUNU YAPIYOR; aşağısı
+#    NİÇİN öyle olduğunun tarihçesidir.
+#    VAKA: ZAMAN-Z5 gövdesi eklediği 1923-1945 dönemine kendi `kaynak:` metnini
+#    yazıyordu; eski ölçüt ("herhangi bir `s:` döneminde kaynak var") 418 kaydı
+#    "hiçbiri"nden "dönem-içi"ne taşıdı (1880 → 1462). ZAMAN-Z6'nın 1281 öncesi
+#    dönem kaynakları aynı sınıftan −46 (1880 → 1834). BİRLİKTE −439 (1880 →
+#    1441), −464 DEĞİL: 25 kayıt iki yamada da ufuk dışı kaynak alıyor (KAYNAK-
+#    PENCERE-1009, iki gövde aynı ağaçta GERÇEK `--yaz` ile ölçüldü). O kaynaklar
+#    YALNIZ ufuk DIŞINI tarihler; kaydın 1281-1923 zincirinin borcu KAPANMAMIŞTI.
+#    PENCERELİ ölçüm: Z5 0 · Z6 −39 · birlikte −39 (1880 → 1841). ⚠️ Kalan 39
+#    Z6'nın "f 1281-01-01'den geri çekildi" dönemleridir: dönem pencereye TAŞAR
+#    (ör. İstanbul bizans [1261-07-25, 1453-05-29)) ve şart onu dönem-içi sayar,
+#    ama kaynak metni yalnız 1281 öncesi `f`yi tarihler — pencere bu alt sınıfı
+#    GÖRMEZ (kaynağın HANGİ ucu tarihlediği veride yazılı değil). Adları:
+#    denetim/KAYNAK-PENCERE-1009.md. Düşüş
+#    ölçülen şeyden değil ÖLÇME BİÇİMİNDEN geliyordu ⇒ `--kaynak-tavan-indir`
+#    onu "iyileşme" diye defterden siler, borcu SESSİZLEŞTİRİRDİ (§3.4③ yalancı
+#    iyileşmeye UYGULANMAZ).
+#    ÇARE (kod, yorum değil): `kaynaksizlik_olc` bir kaydı "dönem-içi" saymak için
+#    kaynağı dolu en az bir `s:` döneminin VERİ UFKU ile KESİŞMESİNİ şart koşar.
+#    Kaynağı yalnız ufuk dışı dönemlerde olan kayıt "hiçbiri"nde kalır.
+#    PENCERE = `girdi.VERI_UFKU` (verinin TAM yazıldığı pencere — borç oradadır);
+#    o ad yoksa `girdi.UFUK` (ZAMAN-Z1'den önceki girdi.py'de tek ufuk oydu ve
+#    aynı değeri taşır: 1281-01-01 … 1923-10-29). ⚠️ `UFUK` DEĞİL: ZAMAN-Z1
+#    `UFUK`u motor/arayüz penceresi yapıp 1000-1945'e açar — onunla kesişme
+#    sorulursa şart Z5/Z6 dönemlerini İÇERİ alır ve hiçbir şey çözmez (ölçüldü:
+#    Z5+Z6 ağacında UFUK penceresiyle hiçbiri 1441 = penceresiz ölçümün aynısı).
+#    ⚠️ VERI_UFKU GENİŞLERSE ölçüm evreni genişler: o gün yeni pencereye düşen
+#    dönem kaynakları kayıtları dönem-içi'ne taşır. Bu bir KAPSAM değişimidir,
+#    iyileşme DEĞİL — genişletme commit'i düşüşü adıyla beyan eder ve
+#    `--kaynak-tavan-indir` o commit'te koşturulmaz (§3.4②, D255).
+#    Kayıt düzeyindeki `kaynak:` mantığı DEĞİŞMEDİ (kayıt kaynağı bütün zinciri
+#    tarihler — pencereyle sorgulanmaz). `isg:` kovası DEĞİŞMEDİ (ayrı soru).
+#    UÇLAR: dönem `[f, t)` YARI AÇIKTIR — `girdi.kd_gun` (`f <= gun < t`) ve
+#    `girdi.kd_oku`nun türetilmiş dönemi (`t` = pencerenin kapısı) ile aynı
+#    sözleşme. Pencere de `[P0, P1)`: kesişme ⇔ `f < P1` ve
+#    `t > P0`. ⇒ `t = 1281-01-01` ile biten dönem DIŞARIDA (Z6'nın sınırı),
+#    `f = 1923-10-29` ile başlayan dönem DIŞARIDA (Z5'in sınırı). `f`/`t` yoksa
+#    açık uç (`""` / `"9999"`, `kd_gun` ile aynı) — bugün 14.523 dönemin hepsi
+#    `YYYY-AA-GG` taşıyor (9 Ekim ölçümü), uç kuralı yalnız sigortadır.
+#    ÖLÇÜM: origin/main 9d76de1e (Z6 öncesi) pencere 0 kaydın kovasını değiştirir
+#    (1880 → 1880). origin/main 85288262 (Z6 İNDİ, e54e60df) pencere 7 kaydı
+#    dönem-içi→hiçbiri taşır (1834 → 1841): Kayseri · Kırşehir · Sinop · Sivas ·
+#    Tokat · Van · Çankırı — kaynaklı dönemlerinin HEPSİ `t = 1281-01-01`de biter.
+#    Yedisi de hiçbiri DEFTERİNDE ⇒ kapı ötmez; denetle.py çıkışı iki tabanda da
+#    önce/sonra AYNI (2 — UMIT'te D8 ölçülemedi).
+#    Sınav (iki yön, Z5+Z6 GERÇEK uygulanarak): py denetim/ARAC-KAYNAK-PENCERE-SINAV-1009.py
 KAYNAK_TAVAN_YOL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
                                 "denetim", "KAYNAK-TAVAN.json")
 
@@ -4736,9 +6192,21 @@ def _kaynak_dolu(v):
     return bool(v)
 
 
-def kaynaksizlik_olc(Y):
+# Bu kapı girdi.VERI_UFKU'na dayanır (bugün 1281-1923). O sabiti değiştiren, bu ölçümü de değiştirir.
+def _donem_pencerede(p, ufuk):
+    """`s:` dönemi `[f, t)` ufuk penceresi `[ufuk[0], ufuk[1])` ile kesişiyor mu
+    (KAYNAK_TAVAN_YOL üstündeki PENCERE ŞARTI; uç yoksa açık — `kd_gun` gibi)."""
+    return gn(p.get("f") or "-9999") < gn(ufuk[1]) and gn(p.get("t") or "9999") > gn(ufuk[0])
+
+
+def kaynaksizlik_olc(Y, ufuk=None):
     """`s:` taşıyan kayıtları üç kovaya ayırır. Anahtar `dosya|ad`.
-    Döner: {s_tasiyan, kayit_kaynaksiz, donem_ici, hicbiri} → sıralı liste."""
+    Döner: {s_tasiyan, kayit_kaynaksiz, donem_ici, hicbiri} → sıralı liste.
+    dönem-içi = kaynağı dolu en az bir `s:` dönemi VERI_UFKU ile kesişiyor
+    (PENCERE ŞARTI, 9 Ekim 2026); yalnız ufuk dışı dönem kaynağı → hiçbiri."""
+    if ufuk is None:
+        import girdi
+        ufuk = getattr(girdi, "VERI_UFKU", None) or girdi.UFUK
     K = {"s_tasiyan": [], "kayit_kaynaksiz": [], "donem_ici": [], "hicbiri": []}
     for y in Y:
         if not y.get("s"):
@@ -4748,11 +6216,68 @@ def kaynaksizlik_olc(Y):
         if _kaynak_dolu(y.get("kaynak")):
             continue
         K["kayit_kaynaksiz"].append(a)
-        if any(isinstance(p, dict) and _kaynak_dolu(p.get("kaynak")) for p in y["s"]):
+        if any(isinstance(p, dict) and _kaynak_dolu(p.get("kaynak"))
+               and _donem_pencerede(p, ufuk) for p in y["s"]):
             K["donem_ici"].append(a)
         else:
             K["hicbiri"].append(a)
     return {k: sorted(v) for k, v in K.items()}
+
+
+# 🆕 `isg:` KOVASI (6 Ekim 2026, UMIT-W8-DALGA3-1006) — AYRI sayı, `s:` ile TOPLANMAZ.
+#   NİÇİN: `kaynaksizlik_olc` yalnız `s:` dönemlerini okuyordu. KASA-POLONYA'nın
+#   kaynağı `s:`den `isg:`ye taşınınca hiçbiri 1930 → 1935 oldu ve `isg:`deki
+#   kaynak hiçbir yerde görünmedi (D265'in 7. vakası).
+#   NİÇİN AYRI: `isg:` kaynağı İŞGALİ tarihler, egemenlik zincirini DEĞİL.
+#   Onu `s:` "dönem-içi" saymak (ölçüldü: 1935 → 1930) beş kaydın Rus zincirinin
+#   kaynaksız olduğunu GİZLERDİ. `s:` kovaları aynen kalır; `isg:` kendi
+#   sorusunu sorar: "bu işgal penceresinin dayanağı yazılı mı?"
+#   ÖLÇÜT: dönemde `kaynak:` yok VE kayıt düzeyinde `kaynak:` yok ⇒ kaynaksız.
+#   Kapı: `KAYNAK-TAVAN.json` `isg_defter` (dönem anahtarı listesi) varsa ÜYELİK
+#   ölçütü (yeni üye = gerileme); yoksa yalnız BİLGİ basılır — tavan yazılmadı.
+def kaynaksizlik_isg_olc(Y):
+    """`isg:` dönemleri. Anahtar `dosya|ad|f|d`.
+    Döner: {isg_donem, donem_kaynaksiz, kaynaksiz} → sıralı liste.
+    donem_kaynaksiz: dönemin kendi `kaynak:`'ı yok (BİLGİ) · kaynaksiz: ne
+    dönemde ne kayıtta (ÖLÇÜT)."""
+    K = {"isg_donem": [], "donem_kaynaksiz": [], "kaynaksiz": []}
+    for y in Y:
+        for p in (y.get("isg") or []):
+            if not isinstance(p, dict):
+                continue
+            a = "%s|%s|%s|%s" % (y.get("_kaynak"), y.get("ad"), p.get("f"), p.get("d"))
+            K["isg_donem"].append(a)
+            if _kaynak_dolu(p.get("kaynak")):
+                continue
+            K["donem_kaynaksiz"].append(a)
+            if not _kaynak_dolu(y.get("kaynak")):
+                K["kaynaksiz"].append(a)
+    return {k: sorted(v) for k, v in K.items()}
+
+
+def _kaynak_isg_rapor(Y, T, ayrinti):
+    """`isg:` kovasını basar; gerileme varsa True. `isg:` yoksa ve defter de
+    yoksa HİÇBİR ŞEY basmaz (isg:'siz veride eski çıktı birebir kalsın)."""
+    I = kaynaksizlik_isg_olc(Y)
+    Id = T.get("isg_defter") if T else None
+    if not I["isg_donem"] and Id is None:
+        return False
+    ni, nd, nt = len(I["kaynaksiz"]), len(I["donem_kaynaksiz"]), len(I["isg_donem"])
+    if Id is None:
+        print(f"            i `isg:` kaynaksız dönem: {ni} (dönem+kayıt) · dönemin kendi "
+              f"kaynağı yok {nd} · `isg:` dönemi {nt} — AYRI kova, `s:` ile toplanmaz")
+        print(f"              tavan YOK (`isg_defter` yazılmadı) ⇒ yalnız BİLGİ, kapı ölçmüyor")
+        return False
+    yeni = sorted(set(I["kaynaksiz"]) - set(Id))
+    print(f"            {'✗' if yeni else '✓'} `isg:` kaynaksız dönem: {ni} (tavan {len(Id)}) · "
+          f"dönemin kendi kaynağı yok {nd} · `isg:` dönemi {nt} — AYRI kova")
+    for k in (yeni if ayrinti else yeni[:15]):
+        print(f"    İSG KAYNAKSIZ YENİ  {k}  → `isg:` dönemine `kaynak:` yaz")
+    if yeni:
+        print(f"            🔴 GERİLEME: {len(yeni)} yeni kaynaksız `isg:` dönemi — tavan YÜKSELTİLMEZ.")
+    elif ni < len(Id):
+        print(f"            ⚠️ `isg:` TAVANI GEVŞEK {len(Id)}→{ni} — `--kaynak-tavan-indir`")
+    return bool(yeni)
 
 
 def _kaynak_tavan_oku(yol):
@@ -4774,6 +6299,7 @@ def kaynak_tavan_rapor(Y, ayrinti=False, yol=None):
         print(f"Ek denetim  !  kaynaksız `s:` kaydı: {nh} · dönem-içi kaynaklı {nd} — "
               f"tavan ÖLÇÜLEMEDİ ({type(e).__name__}: {str(e)[:70]})")
         olculemedi("kaynaksızlık tavanı", "%s: %s" % (type(e).__name__, e))
+        _kaynak_isg_rapor(Y, None, ayrinti)
         return False
     yeni_h, yeni_d, th, tk = _kaynak_gerileme(K, T)
     ihlal = bool(yeni_h or yeni_d)
@@ -4781,6 +6307,15 @@ def kaynak_tavan_rapor(Y, ayrinti=False, yol=None):
           f"kayıt-kaynaksız {nk} (tavan {tk}) — BEYAN borcu, yalnız gerileme bloke eder")
     print(f"            i dönem-içi kaynaklı {nd} (BİLGİ — iyileşmeyle iki yönde de "
           f"hareket eder) · {nk} = {nd} + {nh} · `s:` taşıyan {len(K['s_tasiyan'])}")
+    # BEYANLI SINIR (KAYNAK-PENCERE-1009 § v2): tavan dosyasının `_BEYANLI_SINIR`
+    # alanı yalnız BASILIR — kapının hükmüne, defterlere ve sayılara KATILMAZ.
+    # Pencerenin göremediği alt sınıfın (Z6 "f geri çekildi" dönemleri) adıyla
+    # beyanıdır; listenin ölçümle tutarlılığını ARAC-KAYNAK-PENCERE-SINAV-1009 sorar.
+    _bs = T.get("_BEYANLI_SINIR") if isinstance(T, dict) else None
+    if isinstance(_bs, dict) and isinstance(_bs.get("kayitlar"), list):
+        print(f"            i BEYANLI SINIR: {len(_bs['kayitlar'])} kayıt pencerede dönem-içi "
+              f"sayılır ama kaynağı yalnız 1281 öncesini tarihler (`_BEYANLI_SINIR`, "
+              f"çare kaynak_f — ayrı kalem)")
     if ihlal or ayrinti:
         for k in (yeni_h if ayrinti else yeni_h[:15]):
             print(f"    KAYNAKSIZ YENİ  {k}  → kayda `kaynak:` yaz (bulunamadıysa `bulunamadı`)")
@@ -4792,6 +6327,8 @@ def kaynak_tavan_rapor(Y, ayrinti=False, yol=None):
     elif nh < th or nk < tk:
         print(f"            ⚠️ TAVAN GEVŞEK — hiçbiri {th}→{nh} · kayıt-kaynaksız {tk}→{nk} "
               f"(iyileşme) — `py arac/denetle.py --kaynak-tavan-indir`")
+    if _kaynak_isg_rapor(Y, T, ayrinti):
+        ihlal = True
     return ihlal
 
 
@@ -4815,8 +6352,12 @@ def kaynak_tavan_indir(Y, yol=None):
               "İlk tavan elle, gerekçesiyle yazılır.")
         return False
     yeni_h, yeni_d, _, _ = _kaynak_gerileme(K, T)
+    # `isg:` defteri VARSA aynı kurala bağlıdır (yalnız daralır); yoksa dokunulmaz —
+    # ilk `isg_defter` elle, gerekçesiyle yazılır (yükselten bayrak yok, D255).
+    I = kaynaksizlik_isg_olc(Y) if "isg_defter" in T else None
+    yeni_i = sorted(set(I["kaynaksiz"]) - set(T["isg_defter"])) if I else []
     red = []
-    for ad, yeni in (("hiçbiri", yeni_h), ("dönem-yalnız", yeni_d)):
+    for ad, yeni in (("hiçbiri", yeni_h), ("dönem-yalnız", yeni_d), ("isg", yeni_i)):
         if yeni:
             red.append(f"{ad}: defterde olmayan {len(yeni)} YENİ üye ({', '.join(yeni[:5])}) — "
                        "sayı düşmüş olsa bile takas affedilmez, önce onlara kaynak yazılır")
@@ -4826,7 +6367,8 @@ def kaynak_tavan_indir(Y, yol=None):
             print("     • " + r)
         return False
     if set(K["hicbiri"]) == set(T["hicbiri_defter"]) and \
-            set(K["donem_ici"]) == set(T["donem_ici_defter"]):
+            set(K["donem_ici"]) == set(T["donem_ici_defter"]) and \
+            (I is None or set(I["kaynaksiz"]) == set(T["isg_defter"])):
         print("i --kaynak-tavan-indir: defter bugünle aynı, yazılacak bir şey yok.")
         return None
     # Buraya gelindiyse hiçbiri ⊆ eski hiçbiri defteri ve kayıt-kaynaksız ⊆ eski
@@ -4835,6 +6377,8 @@ def kaynak_tavan_indir(Y, yol=None):
     eski = (T["hicbiri"], T["donem_ici"])
     T["hicbiri"], T["donem_ici"] = len(K["hicbiri"]), len(K["donem_ici"])
     T["hicbiri_defter"], T["donem_ici_defter"] = K["hicbiri"], K["donem_ici"]
+    if I is not None:
+        T["isg_defter"] = I["kaynaksiz"]
     T.setdefault("gecmis", []).append({"tarih": date.today().isoformat(),
                                        "hicbiri": [eski[0], T["hicbiri"]],
                                        "donem_ici": [eski[1], T["donem_ici"]]})
@@ -4844,6 +6388,462 @@ def kaynak_tavan_indir(Y, yol=None):
     return True
 
 
+# ---------------- `zincir_kaynagi:` — BAYAT KOPYA kapısı ----------------
+# 🔴 NİÇİN VAR (UMIT-W6-DALGA4-1006 ölçtü, 5 Ekim 2026): 82 kayıt zincirini
+#   başka bir kayıttan KOPYALAMIŞ (54 elle + 28 ARAC-TR1923-YAZ üretimi) ve
+#   beyan serbest metindeydi ("ankraj Revan — zincirin birebir aynısı").
+#   Kaynak sonradan düzeltildi, kopya donmuş kaldı: 12/82 bayat. Revan 30
+#   Eylül'de düzeltildi; Gümrü · Eçmiyadzin sahte `sovyet-rusya 1917-1920`
+#   penceresini HÂLÂ taşıyordu ve hiçbir denetim SORMUYORDU — sorulamazdı,
+#   çünkü "kimden kopya" bilgisi makine-okunur değildi.
+# ⇒ Alan:  zincir_kaynagi: {yer:"<kaynak kaydın adı>", pencere:["f","t"],
+#                           tur:"birebir"|"birlesim"|"pencere"}
+#   ya da birleşimde AYNI biçimde nesneler LİSTESİ (her parça kendi kaynağı).
+#   Pencere `[f, t)` — dönem alanlarıyla aynı yarı-açık aralık.
+# 🔴 SORU: kopyanın o penceredeki zinciri, kaynağın BUGÜNKÜ zinciriyle hâlâ
+#   aynı mı? Karşılaştırılan iki şey: ① de jure sahip, `v:` → `d:` → `s:`
+#   sırasıyla (VERI-YAPISI: ters sıra "sessizce yanlış"tır; A/B yazım
+#   biçimleri aynı sahibi verir, alan alan kıyas onları SAHTE ayrı sayardı)
+#   ② o günkü `isg:` örtüsünün kimlik kümesi.
+# ⚠️ Kapı "kopya YANLIŞ" demez, "kopya ile kaynak AYRILDI" der: hangisinin
+#   düzeleceği kaynak sorusudur (W6 vakası Lublin: kaynağa eşitlemek de yanlış
+#   olabilir). Bilerek ayrılan kopya beyanını SİLER, kapıyı susturmaz.
+# 📌 Alan YOKSA kapının sorusu yoktur: eski davranış birebir, tek bilgi satırı.
+# 📌 D265 (hesaplandı ama basılmadı): sayı ÖZET satırında da basılır.
+BEKLENEN_BAYAT_KOPYA = None   # None = TAVAN YAZILMADI ⇒ yalnız bilgi. Koordinatör yazar.
+ZK_TURLER = ("birebir", "birlesim", "pencere")
+
+
+def _zk_durum(y, gun):
+    """Kaydın o günkü (de jure sahip, isg kümesi) çifti."""
+    def ic(p):
+        return gn(p.get("f") or "-9999") <= gn(gun) < gn(p.get("t") or "9999")
+    taban = None
+    for p in y.get("v") or []:
+        if ic(p):
+            taban = "tabi:" + (p.get("kid") or "OSMANLI")
+            break
+    if taban is None and any(ic(p) for p in y.get("d") or []):
+        taban = "OSMANLI"
+    if taban is None:
+        for p in y.get("s") or []:
+            if ic(p):
+                taban = p.get("d")
+                break
+    isg = frozenset(p.get("d") for p in y.get("isg") or [] if ic(p))
+    return taban, isg
+
+
+def _zk_yaz(d):
+    taban, isg = d
+    return (taban or "—") + ("" if not isg else " +isg:" + ",".join(sorted(isg)))
+
+
+def zincir_kopya_karsilastir(kopya, kaynak, f, t):
+    """[f, t) içinde iki kaydın ayrıldığı dilimler: [(bas, son, kopya_d, kaynak_d)]."""
+    kes = {f}
+    for y in (kopya, kaynak):
+        for kat in ("s", "d", "v", "isg"):
+            for p in y.get(kat) or []:
+                for u in (p.get("f"), p.get("t")):
+                    if u and gn(f) < gn(u) < gn(t):
+                        kes.add(u)
+    kes = sorted(kes, key=gn) + [t]
+    farklar = []
+    for bas, son in zip(kes, kes[1:]):
+        a, b = _zk_durum(kopya, bas), _zk_durum(kaynak, bas)
+        if a == b:
+            continue
+        if farklar and farklar[-1][1] == bas and farklar[-1][2:] == (a, b):
+            farklar[-1] = (farklar[-1][0], son, a, b)
+        else:
+            farklar.append((bas, son, a, b))
+    return farklar
+
+
+def zincir_kaynagi_denetimi(Y):
+    """Dönüş: {beyanli, parca, bayat:[(ad, yer, f, t, tur, farklar)],
+    bozuk:[(ad, sebep)], zincirleme:[(ad, yer)]}."""
+    ix = {y["ad"]: y for y in Y}
+    R = {"beyanli": 0, "parca": 0, "bayat": [], "bozuk": [], "zincirleme": []}
+    for y in Y:
+        zk = y.get("zincir_kaynagi")
+        if zk is None:
+            continue
+        R["beyanli"] += 1
+        parcalar = zk if isinstance(zk, list) else [zk]
+        if not parcalar:
+            R["bozuk"].append((y["ad"], "boş liste"))
+            continue
+        for p in parcalar:
+            R["parca"] += 1
+            if not isinstance(p, dict):
+                R["bozuk"].append((y["ad"], f"parça nesne değil: {p!r}"[:80]))
+                continue
+            yer, pen, tur = p.get("yer"), p.get("pencere"), p.get("tur")
+            if tur not in ZK_TURLER:
+                R["bozuk"].append((y["ad"], f"tur {tur!r} — {'|'.join(ZK_TURLER)} olmalı"))
+                continue
+            if not (isinstance(pen, list) and len(pen) == 2
+                    and all(isinstance(u, str) and len(u) == 10 for u in pen)
+                    and pen[0] < pen[1]):
+                R["bozuk"].append((y["ad"], f"pencere {pen!r} — [\"YYYY-MM-DD\",\"YYYY-MM-DD\"], f < t"))
+                continue
+            if yer == y["ad"] or yer not in ix:
+                R["bozuk"].append((y["ad"], f"kaynak kayıt {yer!r} YOK (ad TAM eşleşmeli)"))
+                continue
+            if ix[yer].get("zincir_kaynagi") is not None:
+                R["zincirleme"].append((y["ad"], yer))
+            farklar = zincir_kopya_karsilastir(y, ix[yer], pen[0], pen[1])
+            if farklar:
+                R["bayat"].append((y["ad"], yer, pen[0], pen[1], tur, farklar))
+    return R
+
+
+def zincir_kaynagi_rapor(R, ayrinti=False):
+    """main() için: basar, ihlal varsa True döner. R["ozet"]e ÖZET satırını koyar."""
+    nb, nz, nbz = len(R["bayat"]), len(R["zincirleme"]), len(R["bozuk"])
+    if not R["beyanli"]:
+        print("Ek denetim  i  zincir_kaynagi: 0 kayıt beyanlı — bayat kopya sorusu "
+              "SORULACAK beyan yok (serbest metin kopyaları bu kapıya GÖRÜNMEZ)")
+        R["ozet"] = None
+        return False
+    ihlal = bool(nbz)
+    if BEKLENEN_BAYAT_KOPYA is None:
+        durum, tavan = ("✗" if nbz else "i"), "TAVAN YAZILMADI — yalnız bilgi"
+    else:
+        ihlal = ihlal or nb > BEKLENEN_BAYAT_KOPYA
+        durum = "✗" if ihlal else "✓"
+        tavan = f"tavan {BEKLENEN_BAYAT_KOPYA}"
+    print(f"Ek denetim  {durum}  zincir_kaynagi: {R['beyanli']} kayıt / {R['parca']} parça "
+          f"beyanlı · {nb} BAYAT KOPYA ({tavan}) · {nbz} bozuk beyan · {nz} zincirleme")
+    if BEKLENEN_BAYAT_KOPYA is not None and nb < BEKLENEN_BAYAT_KOPYA:
+        print(f"            ⚠️ TAVAN GEVŞEK — BEKLENEN_BAYAT_KOPYA = {nb} yapılmalı.")
+    for ad, sebep in R["bozuk"]:
+        print(f"    ✗ BOZUK BEYAN  {ad}: {sebep}")
+    for ad, yer, f, t, tur, farklar in R["bayat"]:
+        gun = sum(gn(s) - gn(b) for b, s, _, _ in farklar)     # pad: DENETLE-TARIH-KALAN-1008
+        yalniz_isg = all(a[0] == k[0] for _, _, a, k in farklar)
+        print(f"    BAYAT KOPYA  {ad} ← {yer}  [{f}, {t}) {tur} · {len(farklar)} dilim, {gun} gün ayrı"
+              + (" · YALNIZ isg: örtüsü" if yalniz_isg else ""))
+        for b, s, a, k in (farklar if ayrinti else farklar[:3]):
+            print(f"        {b} → {s}  kopya {_zk_yaz(a)}  ≠  kaynak {_zk_yaz(k)}")
+        if not ayrinti and len(farklar) > 3:
+            print(f"        … {len(farklar) - 3} dilim daha (--ayrinti)")
+    if nz:
+        print(f"            i zincirleme (kaynak da kopya, §4): "
+              + " · ".join(f"{a} ← {k}" for a, k in R["zincirleme"]))
+    if nb:
+        print("    → kopya ile kaynak AYRILDI. Hangisi düzelir KAYNAK sorusudur; bilerek "
+              "ayrılan kopya beyanını SİLER.")
+    R["ozet"] = (f"ÖZET · bayat kopya: {nb} ({tavan}) · bozuk beyan: {nbz} · "
+                 f"beyanlı kayıt: {R['beyanli']}")
+    return ihlal
+
+
+# ═══ DEĞİŞMEZ R — HARİTA RÖTUŞU (P84-ROTUS, 6 Ekim 2026) ═══════════════════
+# Kavram Emre'nin (0084/H-0019); biçim kararları ve dokuz kontrol sorusu
+# `denetim/P84-ROTUS-TASARIM-1006b.md` (koordinatör onayı). Rötuş GÖRSELDİR ve
+# TARAYICIDA uygulanır (`js/rotus.js`); bu kapı her kaydın HÂLÂ geçerli olup
+# olmadığını HER KOŞUDA sorar — veri ve geometri değiştikçe rötuşun altı da
+# değişir, onay bir kez verilip unutulmaz.
+# `§3.4(5)`: rötuş listesi bir İSTİSNA LİSTESİDİR ⇒ sayı tavanı YOK, her kayıt
+# ADIYLA basılır ve ÖLÜ kayıt (R3) ihlaldir — "en iyi istisna yazılmayandır".
+#   R1 şema · R2 hüküm (yalnız onaylı)            → `js/rotus.js` node'da (kopya YOK)
+#   R3 canlılık   rötuşsuz gövdede `kime` HÂLÂ kopuk mu, poligon ≥2 parçaya değiyor mu
+#   R4 nokta      poligonda [f,t) boyunca `kime` olmayan sahipli yerleşim
+#   R5 ters yön   `kimden` parçası bölünüyor/siliniyor mu · kayıt dışı sahip var mı
+#   R6 kaynak     poligona düşen kaynaklı halka `kimden` lehine mi
+#   R7 pencere    f/t `kime` gövdesinin dönem sınırlarına oturuyor mu
+#   R8 çakışma    pencereleri kesişen iki rötuşun poligonları kesişiyor mu
+#   R9 ölçülemedi node / shapely / gövde yok ⇒ ÇIKIŞ 2 (yalnız ölçülecek kayıt varsa)
+# ⚠️ C (hukukî hat) bu sürümde SORULMUYOR — kontrolde K7 sorar; satırda yazılır.
+# 📌 Boş liste ✓ ve gövde YÜKLENMEZ: rötuş yokken bu kapı hiçbir ağır iş yapmaz.
+ROTUS_DOSYA = os.path.join(DATA, "rotus.js")
+ROTUS_COZ_JS = os.path.join(KOK, "arac", "rotus_coz.js")
+ROTUS_EPS = 0.005        # ≈500 m — çizimin parçaya "değdiği" pay (derece)
+ROTUS_KAYIT_DISI_KM2 = 1.0   # poligonun kayıtta adı geçmeyen gövdeye taşma eşiği
+ROTUS_KIYMIK_KM2 = 0.5       # kesimden kalan bundan küçük parça "bölünme" sayılmaz
+ROTUS_PENCERE_DER = 3.0      # bileşen birleştirme penceresi: poligon kutusu ± bu kadar
+ROTUS_BOYUN_DER = 1e-4       # ≈10 m — R5 kesiminde kıl payı boyunu kopuk say
+
+
+def rotus_kayitlari(dosya=None, coz=None):
+    """`arac/rotus_coz.js` → {dosya_var, kayit_sayisi, kayitlar}. node yoksa
+    ya da betik ÖLÇÜLEMEDİ derse RuntimeError (çağıran ÖLÇÜLEMEDİ basar)."""
+    import subprocess
+    arg = ["node", ROTUS_COZ_JS, dosya or ROTUS_DOSYA]
+    if coz:
+        arg.append(coz)
+    try:
+        c = subprocess.run(arg, capture_output=True, encoding="utf-8", timeout=120)
+    except FileNotFoundError:
+        raise RuntimeError("node yok — rötuş kayıtları okunamadı")
+    try:
+        J = json.loads(c.stdout or "{}")
+    except ValueError:
+        raise RuntimeError("rotus_coz.js çıktısı JSON değil: %s" % (c.stderr or c.stdout)[-160:])
+    if c.returncode != 0 or J.get("hata"):
+        raise RuntimeError(J.get("hata") or (c.stderr or "").strip()[-160:])
+    return J
+
+
+def _rotus_index_yukluyor_mu():
+    """index.html `data/rotus.js`i yüklüyor mu (paket açılarak)."""
+    try:
+        sys.path.insert(0, os.path.join(KOK, "arac"))
+        from paket_coz import index_kaynaklari
+        return any(os.path.basename(y) == "rotus.js" for y in index_kaynaklari(KOK))
+    except Exception:
+        h = open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
+        return bool(re.search(r'src="data/rotus\.js', h))
+
+
+def _rotus_sahip_donemleri(y):
+    """Yerleşim → [(f, t, boya_kimliği)] — d ⇒ OSMANLI, v ⇒ OSM-TABI, s ⇒ boya."""
+    hmap = {}
+    for d in (_DEVLETLER_HAM or []):
+        if d.get("id"):
+            hmap[d["id"]] = d.get("harita") or d["id"]
+    cik = []
+    for p in y.get("d") or []:
+        cik.append((p.get("f") or "0000", p.get("t") or "9999", "OSMANLI"))
+    for p in y.get("v") or []:
+        cik.append((p.get("f") or "0000", p.get("t") or "9999", "OSM-TABI"))
+    for p in y.get("s") or []:
+        if p.get("d"):
+            cik.append((p.get("f") or "0000", p.get("t") or "9999", hmap.get(p["d"], p["d"])))
+    return cik
+
+
+def _rotus_sinir_gunleri(govde, kimlikler, f, t):
+    """`kimlikler` (kime + kimden) gövdelerinin [f,t) içindeki dönem başları
+    (+ f) ⇒ ölçüm günleri; ve bütün dönem başı/sonu kümeleri (R7).
+    ⚠️ Yalnız `kime`nin sınırları YETMEZ — ölçüldü (İbrail): kopukluğu açan
+    `kimden`dir (Boğdan 1359'da belirir), `eflak` dönemi 1330'dan beri sürer.
+    `govde.kay` (_D8Govde) ya da `govde.donemler(kimlik)` okunur."""
+    uclar = []
+    for kimlik in kimlikler:
+        if hasattr(govde, "donemler"):
+            uclar += list(govde.donemler(kimlik))
+        else:
+            for _, _, dn in govde.kay:
+                uclar += [(df, dt) for gid, df, dt, _ in dn if gid == kimlik]
+    gunler = sorted({f} | {df for df, dt in uclar if gn(f) < gn(df) < gn(t)}, key=gn)
+    return gunler, {df for df, _ in uclar}, {dt for _, dt in uclar}
+
+
+def degismez_r(Y, dosya=None, govde_fab=None, halka=None, coz=None, index_kontrol=True):
+    """Döner: {dosya_var, liste:[(id, ad, durum)], ihlal:[(id, kod, ne)],
+    olculemedi:[(ad, sebep)], c_sorulmadi:bool}."""
+    R = {"dosya_var": False, "liste": [], "ihlal": [], "olculemedi": []}
+    J = rotus_kayitlari(dosya, coz)
+    R["dosya_var"] = J.get("dosya_var", False)
+    kayitlar = J.get("kayitlar") or []
+    if index_kontrol:
+        yukler = _rotus_index_yukluyor_mu()
+        if yukler and not R["dosya_var"]:
+            R["ihlal"].append(("—", "R0", "index.html data/rotus.js'i yüklüyor ama dosya YOK (404)"))
+        if kayitlar and not yukler:
+            R["ihlal"].append(("—", "R0", "%d rötuş kaydı var ama index.html data/rotus.js'i "
+                               "YÜKLEMİYOR — kapı onaylar, site uygulamaz" % len(kayitlar)))
+    for k in kayitlar:
+        for s in k.get("sorunlar") or []:
+            R["ihlal"].append((k["id"], s["kod"], s["ne"]))
+    gecerli = [k for k in kayitlar if not k.get("sorunlar")]
+    if not gecerli:
+        R["liste"] = [(k["id"], k.get("ad"), "GEÇERSİZ") for k in kayitlar]
+        return R
+    # ── geometri: yalnız ölçülecek kayıt varsa yüklenir ──
+    try:
+        from shapely.geometry import Polygon, Point
+        from shapely.ops import unary_union
+        govde = govde_fab() if govde_fab else _D8Govde()
+    except Exception as e:
+        R["olculemedi"].append(("Değişmez R geometri", "%s: %s" % (type(e).__name__, e)))
+        R["liste"] = [(k["id"], k.get("ad"), "ÖLÇÜLEMEDİ") for k in kayitlar]
+        return R
+    if _DEVLETLER_HAM is None:
+        _devletler_yukle()
+    if halka is None:
+        try:
+            dosyalar = sorted(glob.glob(os.path.join(DATA, "kaynakli_halka_*.js")))
+            halka = _d8_node(dosyalar, "Object.keys(window).filter(function(k){return "
+                             "/^KAYNAKLI_HALKA/.test(k)}).reduce(function(a,k){return "
+                             "a.concat(window[k]||[])},[])") if dosyalar else []
+        except Exception as e:
+            R["olculemedi"].append(("Değişmez R6 halka", e))
+            halka = None
+    yer_kon = {y["ad"]: (y["lon"], y["lat"]) for y in Y}
+    hmap = {d["id"]: (d.get("harita") or d["id"]) for d in (_DEVLETLER_HAM or []) if d.get("id")}
+    A = lambda g: g.area * 111.32 * 111.32 * 0.75      # kaba km² (orta enlem) — eşik için yeter
+    P_ = {}
+    for k in gecerli:
+        kid, f, t = k["id"], k["f"], k["t"]
+        P = Polygon(k["geo"])
+        if not P.is_valid:
+            P = P.buffer(0)
+        P_[kid] = P
+        Pe = P.buffer(ROTUS_EPS)
+        kutu = Pe.bounds
+        kimden = set(k.get("kimden") or [])
+        ih0 = len(R["ihlal"])
+        ilgili = [k["kime"]] + sorted(kimden)
+        gunler, bas, son = _rotus_sinir_gunleri(govde, ilgili, f, t)
+        # R7 — pencere kime/kimden gövdelerinin dönem sınırlarına oturuyor mu
+        if f not in bas:
+            R["ihlal"].append((kid, "R7", "f %s hiçbir `%s` gövdesinin dönem başı değil"
+                               % (f, "/".join(ilgili))))
+        if t not in son:
+            R["ihlal"].append((kid, "R7", "t %s hiçbir `%s` gövdesinin dönem sonu değil"
+                               % (t, "/".join(ilgili))))
+        # 🔴 PARÇA DEĞİL BİLEŞEN. `_D8Govde.kesit` gövdeyi motorun PARÇALARI
+        #    olarak verir — yan yana duran, kenar paylaşan çokgenler. İlk yazım
+        #    parça sayıyordu ve GERÇEK geometride iki yönde de yanıldı (sınav ④,
+        #    İbrail): Boğdan kamasını ikiye bölen şerit "temiz", bitişik iki
+        #    parçaya değen çizim "canlı" çıkıyordu. ⇒ O günün gövdesi pencere
+        #    içinde BİRLEŞTİRİLİR, bileşen sayılır. Pencere poligon ± ROTUS_PENCERE_DER;
+        #    bir bileşen pencerenin DIŞINDAN dolanıp birleşiyorsa (halka biçimli
+        #    gövde) burada kopuk görünür — bilinen sınır, ölçülmedi.
+        Wk = (kutu[0] - ROTUS_PENCERE_DER, kutu[1] - ROTUS_PENCERE_DER,
+              kutu[2] + ROTUS_PENCERE_DER, kutu[3] + ROTUS_PENCERE_DER)
+        for g in gunler:
+            govdeler = {}
+            for gid, p in govde.kesit(g, Wk):
+                govdeler.setdefault(gid, []).append(p)
+            bil = {}
+
+            def bilesen(gid):
+                if gid not in bil:
+                    u = unary_union(govdeler.get(gid) or [])
+                    bil[gid] = [] if u.is_empty else [c for c in getattr(u, "geoms", [u])
+                                                      if c.geom_type == "Polygon"]
+                return bil[gid]
+            # R3 — canlılık: rötuşsuz gövdede İKİ AYRI BİLEŞENE değmeli
+            n_kime = sum(1 for c in bilesen(k["kime"]) if c.intersects(Pe))
+            if n_kime < 2:
+                R["ihlal"].append((kid, "R3", "%s: poligon `%s`in %d bileşenine değiyor (≥2 gerekir) "
+                                   "— ÖLÜ ya da pencere taşmış" % (g, k["kime"], n_kime)))
+            # R5 — ters yön (kimden bölünüyor/siliniyor mu) + kayıt dışı sahip
+            for gid in govdeler:
+                if gid == k["kime"]:
+                    continue
+                if gid not in kimden:
+                    a = sum(A(c.intersection(P)) for c in bilesen(gid) if c.intersects(P))
+                    if a > ROTUS_KAYIT_DISI_KM2:
+                        R["ihlal"].append((kid, "R5", "%s: poligon kayıtta adı geçmeyen `%s` "
+                                           "gövdesine %.1f km² taşıyor" % (g, gid, a)))
+                    continue
+                for c in bilesen(gid):
+                    if not c.intersects(P):
+                        continue
+                    # 🔴 KIL PAYI BOYUN: ölçüldü (sınav ④) — uçları komşu sınırına TAM
+                    #    değen bir şerit, koordinat yuvarlamasıyla 0,1 m'lik bir boyun
+                    #    bırakıyor ve 510 km²'lik kopuk parça "bağlı" sayılıyordu. Gözle
+                    #    bölünmüş olan topolojik olarak bağlıydı ⇒ kesim ~10 m tolere edilir.
+                    kalan = c.difference(P.buffer(ROTUS_BOYUN_DER))
+                    # sayısal kıymıkları sayma (kenar boyu kesim artığı)
+                    par = [q for q in getattr(kalan, "geoms", [kalan])
+                           if not q.is_empty and A(q) >= ROTUS_KIYMIK_KM2]
+                    if not par:
+                        R["ihlal"].append((kid, "R5", "%s: `%s`in bir bileşeni (%.0f km²) TAMAMEN "
+                                           "siliniyor" % (g, gid, A(c))))
+                    elif len(par) > 1:
+                        kucuk = sorted(par, key=lambda q: -q.area)[1:]
+                        R["ihlal"].append((kid, "R5", "%s: `%s` bileşeni %d'ye bölünüyor — kopan %s km² "
+                                           "(YENİ ENKLAV, D206)" % (g, gid, len(par), ", ".join(
+                                               "%.0f@%.2f/%.2f" % (A(q), q.centroid.x, q.centroid.y)
+                                               for q in kucuk[:3]))))
+        # R4 — poligondaki sahipli yerleşim [f,t) boyunca kime değilse
+        for y in Y:
+            if not P.contains(Point(y["lon"], y["lat"])):
+                continue
+            for df, dt, sahip in _rotus_sahip_donemleri(y):
+                if gn(df) < gn(t) and gn(f) < gn(dt) and sahip != k["kime"]:
+                    R["ihlal"].append((kid, "R4", "poligonda `%s` — %s→%s `%s`in (rötuş sahiplik "
+                                       "DEĞİŞTİREMEZ)" % (y["ad"], max(df, f, key=gn), min(dt, t, key=gn), sahip)))
+                    break
+        # R6 — kaynaklı halka kimden lehine mi
+        for h in (halka or []):
+            kon = yer_kon.get(h.get("yer")) or (
+                (h["yer_kon"][1], h["yer_kon"][0]) if h.get("yer_kon") else None)
+            if not kon or not P.contains(Point(*kon)):
+                continue
+            hf, ht = h.get("f") or h.get("tarih") or "-9999", h.get("t") or h.get("tarih") or "9999"
+            if not (gn(hf) <= gn(t) and gn(f) <= gn(ht)):
+                continue
+            dv = h.get("devlet")
+            boya = ("OSM-TABI" if h.get("tur") == "tabi" else "OSMANLI") if dv == "osmanli" else hmap.get(dv, dv)
+            if boya in kimden:
+                R["ihlal"].append((kid, "R6", "kaynaklı halka `%s` (%s) poligondaki yeri `%s`e veriyor"
+                                   % (h.get("id"), h.get("yer"), boya)))
+        R["liste"].append((kid, k.get("ad"), "CANLI" if len(R["ihlal"]) == ih0 else "İHLAL"))
+    # R8 — çakışma
+    for i, a in enumerate(gecerli):
+        for b in gecerli[i + 1:]:
+            if gn(a["f"]) < gn(b["t"]) and gn(b["f"]) < gn(a["t"]) and P_[a["id"]].intersects(P_[b["id"]]) \
+                    and P_[a["id"]].intersection(P_[b["id"]]).area > 0:
+                R["ihlal"].append((a["id"], "R8", "`%s` ile poligon ve pencere kesişiyor" % b["id"]))
+    for k in kayitlar:
+        if k.get("sorunlar"):
+            R["liste"].append((k["id"], k.get("ad"), "GEÇERSİZ"))
+    return R
+
+
+def degismez_r_rapor(Y, ayrinti=False):
+    """main() için: basar, ihlal varsa True döner. Ölçülemeyen ADIYLA kovaya."""
+    try:
+        R = degismez_r(Y)
+    except Exception as e:
+        print("Değişmez R  !  ÖLÇÜLEMEDİ — %s: %s" % (type(e).__name__, str(e)[:120]))
+        olculemedi("Değişmez R", "%s: %s" % (type(e).__name__, e))
+        return False
+    for ad, sb in R["olculemedi"]:
+        olculemedi(ad, sb)
+    n = len(R["liste"])
+    if not n and not R["ihlal"]:
+        print("Değişmez R  ✓  harita rötuşu: 0 kayıt%s"
+              % ("" if R["dosya_var"] else " (data/rotus.js yok ⇒ site de 0 uygular)"))
+        return False
+    durum = "✗" if R["ihlal"] else ("!" if R["olculemedi"] else "✓")
+    print("Değişmez R  %s  harita rötuşu: %d kayıt · %d ihlal%s · C hukukî hat SORULMADI (kontrolde K7)"
+          % (durum, n, len(R["ihlal"]), " · ÖLÇÜLEMEDİ" if R["olculemedi"] else ""))
+    for kid, ad, d in R["liste"]:
+        print("    %-10s %-8s %s" % (kid, d, (ad or "")[:50]))
+    for kid, kod, ne in (R["ihlal"] if ayrinti else R["ihlal"][:30]):
+        print("    ✗ %-10s %s  %s" % (kid, kod, ne[:150]))
+    return bool(R["ihlal"])
+
+
+def negatif_yil_kapisi_calistir(Y, O):
+    """GUN-SAYACI C1: veride yil <= 0 (MO) var + motor sayacsiz (uret_petek.py `GUN_SAYACI = True`
+    yok) => harita OLCULEMEZ (motor dizgi kiyaslar: ters sirali MO donemi SESSIZ sahipsizlik uretir).
+    Okunamayan tarih de olculemedi'dir. Hukum: OLCULEMEDI_KOVA => cikis 2 (temiz degildir)."""
+    tarihler = []
+    for y in Y:
+        for kat in ("s", "d", "v"):
+            for p in y.get(kat) or []:
+                for a in ("f", "t"):
+                    if p.get(a):
+                        tarihler.append(("%s.%s.%s" % (y["ad"], kat, a), p[a]))
+        for a in ("kur", "bit"):
+            if y.get(a):
+                tarihler.append(("%s.%s" % (y["ad"], a), y[a]))
+    for o in O:
+        if o.get("t"):
+            tarihler.append(("olay %s" % str(o.get("b", ""))[:40], o["t"]))
+    try:
+        sayacli = _gun.motor_sayacli_mi(os.path.join(KOK, "arac", "uret_petek.py"))
+    except OSError as e:
+        olculemedi("negatif yıl kapısı", "uret_petek.py okunamadı: %s" % e)
+        return
+    durum, satir = _gun.negatif_yil_kapisi(tarihler, sayacli)
+    print("Negatif yıl kapısı  %s  %d tarih, motor %s"
+          % ("✓" if durum == "TAMAM" else "!", len(tarihler), "SAYAÇLI" if sayacli else "sayaçsız"))
+    if durum != "TAMAM":
+        olculemedi("negatif yıl kapısı", "%d kalem: %s" % (len(satir), " | ".join(satir[:3])))
+
+
 def main():
     ap = argparse.ArgumentParser(description="Üç değişmezi tek komutta denetler.")
     ap.add_argument("--ayrinti", action="store_true", help="her ihlali tek tek listele")
@@ -4851,6 +6851,10 @@ def main():
                     help="2t defterini bugünkü durumla güncelle (temel yazımı)")
     ap.add_argument("--d8-defter-yaz", action="store_true",
                     help="Değişmez 8 defterini (tavanın hat evreni) bugünkü ölçümle yaz")
+    ap.add_argument("--d8-kor-defter-yaz", action="store_true",
+                    help="Değişmez 8 KÖRLÜK defterini (ölçülemeyen hat¦gun) bugünkü ölçümle yaz")
+    ap.add_argument("--d8-kor-defter", default=None, metavar="YOL",
+                    help="körlük defteri yolu (varsayılan denetim/DEGISMEZ-0086-kor-defter.json; sınav için)")
     ap.add_argument("--kaynak-tavan-indir", action="store_true",
                     help="kaynaksızlık tavanını YALNIZ İNDİRİR (yükseltmez, takası affetmez) ve çıkar")
     args = ap.parse_args()
@@ -4861,6 +6865,7 @@ def main():
         sys.exit(1 if kaynak_tavan_indir(Y) is False else 0)
     O = olaylari_yukle()
     print(f"  {len(Y)} yerleşim, {len(O)} kronoloji maddesi\n")
+    negatif_yil_kapisi_calistir(Y, O)
 
     ihlal = False
 
@@ -4879,6 +6884,27 @@ def main():
     if args.ayrinti and sahipsiz:
         for ad, yillar in sahipsiz.items():
             print(f"    {ad:<28} {', '.join(str(y) for y in yillar)}")
+    # ZAMAN-GENİŞ-1008 — KAPSAM DIŞI kovası: 309'la TOPLANMAZ, yan yana basılır.
+    _kd, _vd = degismez1_kapsam(Y)
+    if ufuk_devirleri():
+        _say = {}
+        for _a, _dv, _y in _kd:
+            _say[_dv] = _say.get(_dv, 0) + 1
+        print(f"            ⓘ ZAMAN-GENİŞ-1008 KAPSAM DIŞI: {len(_kd)} (yerleşim × devir) — "
+              f"o devire hiç s/d/v verisi YOK · "
+              + " · ".join(f"{d} {a}→{b}: {_say.get(d, 0)}" for d, a, b in ufuk_devirleri())
+              + f" · borçla TOPLANMAZ (borç: {n1}) · liste: --ayrinti")
+        _vdurum = ("ⓘ" if BEKLENEN_VERILI_DELIK is None
+                   else ("✓" if len(_vd) <= BEKLENEN_VERILI_DELIK else "✗"))
+        if BEKLENEN_VERILI_DELIK is not None and len(_vd) > BEKLENEN_VERILI_DELIK:
+            ihlal = True
+        print(f"            {_vdurum} ZAMAN-GENİŞ-1008 VERİLİ DEVİR DELİĞİ: {len(_vd)} — o devirde "
+              f"verisi VAR ama örnek günde sahipsiz (GERÇEK borç, kovaya girmez)"
+              + ("" if BEKLENEN_VERILI_DELIK is None else f" (tavan {BEKLENEN_VERILI_DELIK})")
+              + ": " + "; ".join(f"{a} ({d}, ilk boş {y})" for a, d, y in _vd[:12]))
+        if args.ayrinti:
+            for _a, _dv, _y in _kd:
+                print(f"    KAPSAM DIŞI  {_a:<28} {_dv} (ilk boş örnek {_y})")
 
     # ---- Değişmez 1c — sahipsiz VE BELGESİZ (asıl nöbetçi) ----
     # Değişmez 1 "kaç nokta sahipsiz" diye sorar ve cevabın çoğu KASITLIDIR.
@@ -5010,6 +7036,50 @@ def main():
     print( "            i AÇIK = ±30 günde maddesi olan AMA o maddenin kırılan")
     print( "              YERİ ya da TARAFLARI anmadığı kırılma (20 Eylül 2026:")
     print( "              takvim yakınlığı tek başına artık kapatmıyor).")
+    # 🆕 KAPANIŞIN SINIFI (5 Ekim 2026) — bkz. KAPANIS_2S yorumu.
+    _k_yer = KAPANIS_2S["yer"]
+    _k_trf = KAPANIS_2S["yalniz_taraf"]
+    _k_top = _k_yer + _k_trf
+    _k_mtrf = KAPANIS_2S["maskeli_yalniz_taraf"]
+    _k_trf_tum = _k_trf + _k_mtrf      # tavanın sorduğu sayı (6 Ekim 2026)
+    _trf_asim = _k_trf_tum > BEKLENEN_2S_YALNIZ_TARAF
+    print(f"Değişmez 2sk {'🧊' if not _trf_asim else '⚠️'}  kapanışın SINIFI: "
+          f"{_k_top} kapalı = {_k_yer} YER anılarak + {_k_trf} YALNIZ TARAF ile "
+          f"· yalnız-taraf görünür+maskeli {_k_trf_tum} (tavan {BEKLENEN_2S_YALNIZ_TARAF})")
+    # 🆕 6 Ekim 2026 — GÜN / OCAK-1 AYRI SÜTUN (bkz. KAPANIS_2S yorumu): OCAK-1 birim
+    #   başına sayılır, maskelenmez; maske yalnız gün kovalarındadır.
+    print(f"            GÜN    YER {KAPANIS_2S['gun_yer']:5} · TARAF {KAPANIS_2S['gun_yalniz_taraf']:5}"
+          f" · maskeli YER {KAPANIS_2S['maskeli_yer']} · TARAF {_k_mtrf}")
+    print(f"            OCAK-1 YER {KAPANIS_2S['ocak1_yer']:5} · TARAF {KAPANIS_2S['ocak1_yalniz_taraf']:5}"
+          f" · maske YOK (yıl-temsilî kova birim başına sayılır)")
+    _2s_es_ad_rapor()          # 🆕 KELIME-CAKISMA-YER-1006b
+    _k_mask = KAPANIS_2S["acik_kovada"]
+    if _k_mask:
+        print(f"            🔴 MASKE: {_k_mask} birim AÇIKLANMIŞ olduğu hâlde SAYILMIYOR "
+              f"(YER {KAPANIS_2S['maskeli_yer']} · TARAF {_k_mtrf}) —")
+        print(f"               maskeli TARAF: {_k_mtrf}  ← tavanın içinde, SESSİZ DEĞİL")
+        print( "               kovaları TEK bir eksik yüzünden açık kaldı. `degismez2` güne")
+        print( "               göre tek kova kurar; kovadaki bir yer açıklanmazsa kovadaki")
+        print( "               HİÇBİR birim kapalı sayılmaz. Ölçülen vaka (6 Ekim 2026):")
+        print( "               1918-11-11 kovası 28 YER + 75 TARAF açıklanmış, AÇIKLANMAMIŞ 4")
+        print( "               (Częstochowa · Gdansk · Varşova · Łódź).")
+        print(f"               ⇒ Görünür {_k_top} bu maskenin ARKASINDAN okunuyor. Maske")
+        print( "                 kalkarsa görünür sayı BÜYÜR ama veri KÖTÜLEŞMEZ; tavan bu")
+        print( "                 yüzden görünür+maskeli TOPLAMA kuruludur.")
+    print( "            🔴 'YALNIZ TARAF' kapanışı YER DÜZEYİNDE DOĞRULANMAMIŞTIR:")
+    print( "               ölçtüğü şey 'o gün o DEVLETİN bir olayı var', 'bu YER o gün")
+    print( "               el değiştirdi' DEĞİL. Künyeden devralınmış sahte günler")
+    print( "               (D207) tam bu kovada saklanır — Avusturya-109 böyle")
+    print( "               yakalandı (109 nokta tek güne, günün kaynak desteği SIFIR).")
+    print( "            i Bu bir İHLAL DEĞİL, BORÇtur: AÇIK sayısı ve hüküm etkilenmez.")
+    print( "              Tavan yalnız GERİLEMEYİ bloke eder; iyileşince indirilir.")
+    if _trf_asim:
+        print(f"            ⚠️ TAVAN AŞILDI ({_k_trf_tum} > {BEKLENEN_2S_YALNIZ_TARAF}) — "
+              f"yer düzeyinde doğrulanmamış kapanış ARTTI; yeni künye-devralması")
+        print( "               yazılmış olabilir. İhlal değil, ama SINIFI istenir.")
+    elif _k_trf_tum < BEKLENEN_2S_YALNIZ_TARAF:
+        print(f"            🟢 İYİLEŞME: tavan {BEKLENEN_2S_YALNIZ_TARAF} → "
+              f"{_k_trf_tum} yapılabilir ({BEKLENEN_2S_YALNIZ_TARAF - _k_trf_tum} birim).")
     if len(yil_borc_s) > BEKLENEN_2S_YIL_BORC:
         print(f"            ⚠️ YIL-TEMSİLÎ BORÇ tavanı aşıldı "
               f"({len(yil_borc_s)} > {BEKLENEN_2S_YIL_BORC}) — ihlal DEĞİL, "
@@ -5257,7 +7327,9 @@ def main():
             _k3 = {}
             for _a, _k, _f, _t in saran:
                 _k3[_k] = _k3.get(_k, 0) + 1
-            for _k, _n in sorted(_k3.items(), key=lambda x: -x[1])[:8]:
+            # eşitlik kırıcı ad: `saran` bir KÜME, eşit sayılılar yoksa tohuma
+            # göre sıralanıyordu (YIL-DOLGU-1008 · DENETLE-TARIH-KALAN-1008)
+            for _k, _n in sorted(_k3.items(), key=lambda x: (-x[1], x[0]))[:8]:
                 print(f"    {_k:<26} {_n:4d} dönem")
         if kunyesiz:
             kim_say = {}
@@ -5357,7 +7429,8 @@ def main():
                       f"({kim:<14}) {la:7.2f},{lo:8.2f}")
 
     # ── Değişmez 7 — ENKLAV SORGUSU ──────────────────────────────────
-    d7, d7muaf = degismez7(Y)
+    d7isg = {}
+    d7, d7muaf = degismez7(Y, isg_kova=d7isg)
     n7 = len(d7)
     _asim = n7 > BEKLENEN_ENKLAV_SORGU
     if _asim:
@@ -5416,6 +7489,19 @@ def main():
                   f" {_km}  ada: {_ada}")
         if not args.ayrinti and len(_l) > 6:
             print(f"       … {len(_l) - 6} tane daha (--ayrinti)")
+    # `isg:` — İŞGAL SINIFI (6 Ekim 2026). Ana sayıya KATILMAZ, tavanı yok:
+    # bu satır yalnız "işgal kaydı D7'den sessizce düşmesin" diye var.
+    _il = d7isg["ihlal"]
+    print(f"            isg: {len(_il)} işgal cebi (işgalcinin fiilî gövdesinden kopuk; "
+          f"ana sayıya KATILMADI) · {d7isg['egemen-isgal-altinda']} egemen "
+          f"dönemi işgal altında başlıyor (sorulmadı)")
+    print( "                 isg muaf: " + " · ".join(f"{k} {v}" for k, v in d7isg["muaf"].items()))
+    for r in (_il if args.ayrinti else _il[:6]):
+        _km = f"{r['ana_km']:7.0f} km" if r["ana_km"] is not None else "  gövdesiz"
+        print(f"       {r['gun']}  {r['yerlesim'][:22]:<22} → {r['sahip'][:18]:<18}"
+              f" {_km}  ada: {'+'.join(r['ada'])[:46]}")
+    if not args.ayrinti and len(_il) > 6:
+        print(f"       … {len(_il) - 6} tane daha (--ayrinti)")
 
     # Ek denetim — dönem sağlığı (üç değişmezden biri değil, VERI-YAPISI.md kuralı)
     ds = donem_sagligi(Y)
@@ -5473,7 +7559,14 @@ def main():
     # yanlis pozitif `BILINEN_AYRI`ya girdi (Nyiginya/Kintu · Cahokia/Vestribygd)
     # ve sayi 113'e DUSTU. Tavan asagi da takip edilir — yoksa 114'te kalsa
     # yarin dogacak GERCEK bir mukerrer "114 <= 114" diye gecer.
-    BEKLENEN_MUKERRER = 113
+    # 6 EKIM 2026: 113 -> 95. MUKERRER-OLCUT-1006 ile ayni commit'te (3.4-2);
+    # olcut daraldi, 112 -> 95 olculdu (yazmadan hemen once, makine/umit).
+    # 22 EKIM 2026: 95 -> 70 (IYILESME). Olcut duzeltildi: yer_id ikisinde de dolu ve FARKLI cift
+    # artik mukerrer sayilmaz (25 cift dustu; hepsi farkli sehirdeki ayni gun ayni devir maddesi:
+    # Trianon/Bukres/Londra/Lozan/Tartu-Riga siniri vb.; sinav denetim/ARAC-MUKERRER-YER-SINAV-1022.py).
+    # Emre onayiyla bekleyen veri dallari icin GECICI 135 istenmisti; olcut duzelince tavan GERCEK olcume
+    # indi (tavan yalniz iyilesince iner kurali). Yeni veri bunu asarsa yeni sayi gerekceyle yazilir.
+    BEKLENEN_MUKERRER = float("inf")   # 24 EKIM 2026 TAVAN KALDIRILDI (Emre emri, sohbette: "Tavanlari kaldiralim, bize engel olmasin") · yalniz bilgi, bloke etmez · eski tavan 97 ·   # 24 Ekim 2026: 94 -> 97 (+3: sinir gunu ajaninin tasidigi maddeler bekleyen_acik maddeleriyle ayni gunde, farkli olay). 23 Ekim 2026 KRON-ORTACAG (Emre onayi): 81 -> 94 (+13) = bekleyen_acik maddelerinin ayni yerlesimdeki ardisik farkli olaylari (ortak yer + devlet adi); hepsi farkli olay. Onceki: 22 Ekim 2026 VERI-MS1-1281 (MO-MOTOR notu: dalinda 70'i asarsa rebase sonrasi sayi gerekceyle yazilir): 70 -> 81 (+11) = ayni yerlesimin 1-12 ay arayla ardisik devir maddeleri (Pekin 1123 Liao->Jin->Song, Meyyafarikin, Ahlat, Harran, Verdun 1792) + 1923-10-29 Osmanli cikis maddeleri; hepsi farkli olay, tek yerlesimin kisa araliklarla art arda el degistirmesi (ortak yer adi + devlet adi Jaccard>=0.34)
     durum5 = "✓" if len(mk) <= BEKLENEN_MUKERRER else "✗"
     if len(mk) > BEKLENEN_MUKERRER:
         ihlal = True
@@ -5496,10 +7589,18 @@ def main():
     #   bile — ama sıralama gözü yanlış bloğa çekiyordu.
     # ⇒ Çare bir uyarı satırı DEĞİL: İHLALLER ÖNCE, zayıf liste SONRA ve
     #   varsayılan olarak SAYIYLA. Ayrıntı `--ayrinti` ile gelir.
+    # 🔴 6 Ekim 2026 (koordinatör ölçtü): tavan 95 iken kapı "96" dedi ama liste
+    #   yalnız ilk 20'yi basıyordu ⇒ AŞAN çift GÖRÜNMÜYORDU, bir tur tahminle geçti.
+    #   KURAL: tavan ötüyorsa NEYİN aştığı adıyla görünmeli ⇒ aşımda TAM liste;
+    #   kırpılınca da kaç çiftin GİZLENDİĞİ basılır (sessiz kırpma yok).
     if mk:
-        for yil, oran, a, b, olcut in (mk if args.ayrinti else mk[:20]):
+        _tam = args.ayrinti or len(mk) > BEKLENEN_MUKERRER
+        for yil, oran, a, b, olcut in (mk if _tam else mk[:20]):
             print(f"    [{olcut}] {yil}  {a['t']}  {a['b'][:52]}")
             print(f"           {b['t']}  {b['b'][:52]}")
+        if not _tam and len(mk) > 20:
+            print(f"    … {len(mk) - 20} çift daha GİZLİ (tavan aşılınca hepsi basılır; "
+                  f"şimdi görmek için --ayrinti)")
         print("    → gerçekten ayrı olaylarsa denetle.py'deki BILINEN_AYRI kümesine ekle")
     if zayif:
         print(f"            i {len(zayif)} çift ZAYIF ölçütte (aynı kişi + ±3 gün, "
@@ -5521,6 +7622,23 @@ def main():
             print(f"                     {t2:11s} {b2[:44]}")
         if not args.ayrinti and len(onek) > 6:
             print(f"              … {len(onek)-6} çift daha (--ayrinti)")
+
+    # ÖLÜ İSTİSNA SAYACI — 5 Ekim 2026, UMIT-W11-OLCUT-1006b (koordinatör onayı).
+    # Yukarıdaki iki ölçüt koştuktan SONRA okunur: iz ikisinde de tutuluyor.
+    # Bir girdi hiçbir çifti bastırmıyorsa ÖLÜDÜR → SİL. Sayı değil LİSTE
+    # basılır: hangi girdinin öldüğü, kimin sileceğini söyler.
+    BEKLENEN_OLU_ISTISNA = 0
+    olu = sorted(c for c in BILINEN_AYRI if c not in _BILINEN_AYRI_KULLANILAN)
+    durum_olu = "✓" if len(olu) <= BEKLENEN_OLU_ISTISNA else "✗"
+    if len(olu) > BEKLENEN_OLU_ISTISNA:
+        ihlal = True
+    print(f"Ek denetim  {durum_olu}  ölü istisna: {len(olu)} / {len(BILINEN_AYRI)} "
+          f"`BILINEN_AYRI` girdisi hiçbir çifti bastırmıyor "
+          f"(beklenen ≤{BEKLENEN_OLU_ISTISNA})")
+    for a1, b1 in olu:
+        print(f"    ölü: {a1[:50]}  ↔  {b1[:50]}")
+    if olu:
+        print("    → başlık değişti ya da ölçüt kaydı: girdiyi BILINEN_AYRI'dan SİL")
 
     # Ek denetim 7 — SAVAŞ ↔ KRONOLOJİ: haritadaki ⚔ anlatılıyor mu
     try:
@@ -5552,8 +7670,18 @@ def main():
             for t, ad, ot, b, fark in sorted(dusen, key=lambda r: -abs(r[4])):
                 print(f"              {t}  {ad:30s} ↔ {ot:10s} {fark:+4d}g  {b}")
 
+    # Ek denetim — `zincir_kaynagi:` BAYAT KOPYA (kopya beyanı kaynağından ayrıldı mı)
+    ZK = zincir_kaynagi_denetimi(Y)
+    if zincir_kaynagi_rapor(ZK, ayrinti=args.ayrinti):
+        ihlal = True
+
     # Değişmez 8 — şehir bölgesi ülke sınırını aşamaz (motor ÇIKTISINI ölçer)
-    if degismez8_rapor(Y, ayrinti=args.ayrinti, defter_yaz=args.d8_defter_yaz):
+    if degismez8_rapor(Y, ayrinti=args.ayrinti, defter_yaz=args.d8_defter_yaz,
+                       kor_defter_yaz=args.d8_kor_defter_yaz, kor_defter=args.d8_kor_defter):
+        ihlal = True
+
+    # Değişmez R — harita rötuşu (P84-ROTUS): her kayıt hâlâ geçerli mi
+    if degismez_r_rapor(Y, ayrinti=args.ayrinti):
         ihlal = True
 
     _kdsonuc = konum_denetimi(Y)
@@ -5580,8 +7708,16 @@ def main():
                       "   ⛔ KOORDİNATA DOKUNMA")
             print("    → `CLAUDE.md §6`: nokta yoğunluğu sağlanmadan pencere AÇILMAZ."
                   " Bu kayıtlar pencere büyüyünce KENDİLİĞİNDEN canlanır.")
-        durum6 = "✓" if not kd else "✗"
-        if kd:
+        # 🔴 6 Ekim 2026 — LAB-TAVAN-TEL-1006: hüküm LİTERAL 0'a bağlıydı (`if kd:`),
+        #   sabit yalnız METİNDE geçiyordu. Ölçülen kanıt: sabite −1 yazılınca çıktı
+        #   "✓ 0 (beklenen -1)" basıyordu, yani ekranda eşik gibi görünen sayı hükmü
+        #   HİÇ ETKİLEMİYORDU. Artık TEK DOĞRULUK KAYNAĞI sabit.
+        #   ⚠️ Bugün davranış AYNIDIR (`BEKLENEN_MASKE_DISI = 0` ⇒ `len(kd) > 0` ≡
+        #   `if kd:`) — bu bir düzeltme değil, bir BAĞLAMA. Değeri: yarın sabit
+        #   değişirse hüküm onunla birlikte değişir; eskiden değişmezdi.
+        _maske_disi_ihlal = len(kd) > BEKLENEN_MASKE_DISI
+        durum6 = "✗" if _maske_disi_ihlal else "✓"
+        if _maske_disi_ihlal:
             ihlal = True
         print(f"Ek denetim  {durum6}  konum: {len(kd)} nokta kara maskesinin dışında "
               f"(beklenen {BEKLENEN_MASKE_DISI})")
@@ -5600,7 +7736,62 @@ def main():
             print("    → yukarıdaki koordinatı OLDUĞU GİBİ yaz; kara maskesinde"
                   " sınandı. Maske dışındaki nokta HİÇ toprak sahibi olamaz.")
 
+    # ── Değişmez 7e — EKSKLAV ÖLÇÜMÜ (arac/eksklav_olc.py) ────────────
+    # 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #49, kutu 0064/H-0010): eksklav
+    # aleti (denetim/ARAC-EKSKLAV-0917.py) denetle'ye bağlandı, BUGÜNKÜ ÖLÇÜM
+    # TAVAN. Yalnız GERİLEME bloke eder; iyileşince tavan iner. Kural:
+    # dersler/D287-eksklav-karar-agaci.md (A gerçek eksklav · B1-B4 hata).
+    try:
+        import eksklav_olc
+        import girdi as _girdi_e
+        _Ye = _girdi_e.yukle(sessiz=True)
+        _Ge = eksklav_olc.osmanli_kirilma_gunleri(_Ye)
+        _Re = eksklav_olc.olc(_Ye, _Ge)
+        n7e = sum(len(v) for v in _Re.values())
+        durum7e = "✓" if n7e <= BEKLENEN_EKSKLAV else "✗"
+        if n7e > BEKLENEN_EKSKLAV:
+            ihlal = True
+        print(f"\nDeğişmez 7e {durum7e}  {n7e} kopuk Osmanlı parçası · {len(_Re)}/{len(_Ge)} "
+              f"kırılma gününde (tavan {BEKLENEN_EKSKLAV}) — Delaunay ≤400 km")
+        if n7e < BEKLENEN_EKSKLAV:
+            print(f"            🟢 İYİLEŞME: tavan {BEKLENEN_EKSKLAV} -> {n7e} yapılabilir "
+                  f"({BEKLENEN_EKSKLAV - n7e} parça) — aynı commit'te, Emre onayıyla.")
+        if n7e > BEKLENEN_EKSKLAV or args.ayrinti:
+            print( "            i kopuk parça ile ana gövde arasında kimin noktası var? "
+                   "(D287 karar ağacı;")
+            print( "              ayrıntı: py denetim/ARAC-EKSKLAV-0917.py --gun G)")
+            _say = 0
+            for _g in sorted(_Re):
+                for _p in _Re[_g]:
+                    if _say < (10**9 if args.ayrinti else 8):
+                        print(f"    {_g}  {', '.join(_p)[:90]}")
+                    _say += 1
+    except ImportError as e:
+        olculemedi("Değişmez 7e eksklav", "%s (scipy/numpy gerekir)" % e)
+    except Exception as e:
+        olculemedi("Değişmez 7e eksklav", "%s: %s" % (type(e).__name__, e))
+
+    # ── Değişmez 3b — GÖVDE BİNMESİ (arac/denetle_binme.py) ───────────
+    # Post-it #113 (Zaporojye × Rusya 9 080 km²): iki devletin gövdesi aynı toprağa
+    # girince motor hiçbirini kırpmıyor. Bugünkü ÖRNEK ölçüm TAVAN (denetim/BINME-TAVAN.json,
+    # 61 kırılma günü, ~5 dk); yalnız GERİLEME bloke eder. Tam tarama: --tam (~30 dk).
+    try:
+        import denetle_binme
+        _kb, _ozb = denetle_binme.kapi()
+        if _kb == 1:
+            ihlal = True
+        if _kb == 2:
+            olculemedi("Değişmez 3b binme", _ozb)
+        print(f"Değişmez 3b {'✓' if _kb == 0 else ('✗' if _kb == 1 else '!')}  "
+              f"gövde binmesi: {_ozb}")
+    except ImportError as e:
+        olculemedi("Değişmez 3b binme", "%s (shapely gerekir)" % e)
+    except Exception as e:
+        olculemedi("Değişmez 3b binme", "%s: %s" % (type(e).__name__, e))
+
     print()
+    if ZK.get("ozet"):
+        print(ZK["ozet"])
     # 🔴 UC HAL, UC KOD (4 Ekim 2026) — "olculemedi" artik temiz SAYILMAZ.
     #    Once IHLAL, sonra OLCULEMEDI: gercek bir ihlal varsa hukum odur,
     #    ama eksik olcum YINE DE basilir (ikisi birbirini gizlemez).

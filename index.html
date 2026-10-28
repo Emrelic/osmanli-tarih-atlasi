@@ -3,16 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Osmanlı Tarih Atlası (1281–1923)</title>
+<title>Tarih Atlası</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
-<link rel="stylesheet" href="css/style.css?v=r11100">
+<script>window.SURUM="r13218";</script>
+<link rel="stylesheet" href="css/style.css?v=r192840745">
 </head>
 <body>
 <!-- ACILIS-ANIM-0929 — serpilen haritalar perdesi. <body>'nin HEMEN ardından,
      SENKRON: perde öğeleri ilk boyamadan önce kurulmalı (denetim/ACILIS-ANIM-0929.md §3:
      yüklemeyi uzatmıyor, perde ~1,2 sn erken görünüyor). Bağlayan: UFUK-DUGME-0930
      (PAKET-0077A H-0002). Yüklenmezse css/style.css yedek küresi çalışır. -->
-<script src="data/acilis_siluet.js?v=r11100"></script>
+<script src="data/acilis_siluet.js?v=r235949476"></script>
+<!-- 🏷️ KOŞU DAMGASI — app.js'ten ÖNCE yüklenmeli (app.js onu okuyup yazıyor).
+     Dosya birkaç yüz bayt; pakete girmesine gerek yok, ve pakete GİRMEMELİ:
+     paket bir koşuda değişmeyebilir, damga HER koşuda değişir. -->
+<script src="data/kosu_damga.js?v=r146900678"></script>
 <!-- 🔴 PERDE KORUMASI (UFUK-DUGME-0930): perdeyi kaldıran çağrı app.js'te
      (`window.acilisBitir()`, atlas-hazir anında). app.js o çağrıyı taşımayan bir
      sürümse (yarım yayın) perde SONSUZA kadar kalırdı. Bu gözcü aynı işi
@@ -134,12 +139,21 @@
            ALTYAPI, ok bir ANLATI öğesidir; birini kapatmak ötekini kapatmaz. -->
       <label><input type="checkbox" data-katman="harekat" checked> <span>④ Harekât okları</span><em id="kat-sayi-harekat"></em></label>
       <label><input type="checkbox" data-katman="siyasi" checked> <span>⑤ Siyasî yapılar</span><em id="kat-sayi-siyasi"></em></label>
-      <!-- ⑥ Ⓑ DOLGU (B-GORUNUM-0072): A = sürtünmeli yürüyüş haritası
-           (bugünkü yayın), B = A + dolgu. VARSAYILAN KAPALI — B bir SEÇENEK.
-           Verisi üretilmemişse rozet "—" yazar ("katman yok" ile "veri
-           üretilmemiş" ayırt edilebilir kalsın). -->
-      <label><input type="checkbox" data-katman="dolgu"> <span>⑥ Ⓑ Dolgu (B görünümü)</span><em id="kat-sayi-dolgu"></em></label>
-      <!-- ⑥b Ⓑ UFUK — üç şıklı SEGMENT (UFUK-DUGME-0930, 30 Eylül 2026).
+      <!-- ⑤b HARİTA RÖTUŞU (0084/H-0019, P84-ROTUS 6 Ekim 2026). Kutu iki şeyi
+           birlikte yönetir: kesikli rötuş konturu (`rotus-kontur`) VE gövdelere
+           rötuşun uygulanıp uygulanmadığı. Kapalıyken HAM gövde görünür ⇒
+           rötuşlu/rötuşsuz hâl yan yana karşılaştırılır. VARSAYILAN AÇIK
+           (koordinatör kararı). Kayıt sayısı kutunun ipucunda. Düğme: kullanıcı
+           haritaya poligon çizer, `rotus-teklif-<gün>-<saat>.json` iner;
+           dosya parti akışına H-maddesi eki olarak girer, kontrolü (K1-K9)
+           Claude yapar, kaydı koordinatör yazar. -->
+      <label><input type="checkbox" data-katman="rotus" checked> <span>⑤b Rötuşlar</span><em id="kat-sayi-rotus"></em></label>
+      <!-- Rötuş teklifi YALNIZ geliştirici kipinde görünür (Emre 14 Ekim 2026:
+           "o ad geliştirici modunda görünmeli ve kullanıcıya açık olmamalı").
+           Kip: js/gelistirici.js · gizleyen kural css/style.css `.yalniz-gelistirici`. -->
+      <div class="secici-satir yalniz-gelistirici"><button type="button" id="rotus-teklif-dugme"
+        title="Haritaya tıklayarak poligon çiz · çift tık / Enter bitirir · Esc iptal · Backspace son noktayı siler">✏️ Rötuş teklif et</button><em id="rotus-teklif-durum"></em></div>
+      <!-- ⑥ Ⓑ UFUK — üç şıklı SEGMENT (UFUK-DUGME-0930, 30 Eylül 2026).
            Emre: "5 gün 7 gün 10 günlük veri elimizde olsun ve bir switch ile
            görüntüyü değiştirebilmek istiyorum." Açık/kapalıyı KATMAN söyler
            (app.js ufukAcik), düğme kendi hâlini tutmaz; radyolarda data-katman
@@ -149,12 +163,29 @@
               VARSAYILAN disabled — onları yalnız veri kapısı (bVeriKapisi) açar.
               Eski app.js ile bu dosya yan yana gelirse düğme pasif durur, site
               AÇILIR. 30 Eylül'de yarım yayın siteyi açılmaz kılmıştı. -->
-      <div class="secici-satir ufuk-satir"><span>⑥b Ⓑ Ufuk (yürüyüş)</span>
+      <div class="secici-satir ufuk-satir"><span>⑥ Ⓑ Ufuk (yürüyüş)</span>
         <span id="ufuk-segment" class="ufuk-segment" role="radiogroup" aria-label="Yürüyüş ufku">
           <label><input type="radio" name="ufuk-gun" value="5" checked><b>5 gün</b></label>
           <label><input type="radio" name="ufuk-gun" value="7" disabled><b>7</b></label>
           <label><input type="radio" name="ufuk-gun" value="10" disabled><b>10</b></label>
         </span><em id="kat-sayi-ufuk"></em></div>
+      <!-- ⑥b Ⓑ DOLGU (B-GORUNUM-0072): A = sürtünmeli yürüyüş haritası
+           (bugünkü yayın), B = A + dolgu. VARSAYILAN KAPALI — B bir SEÇENEK.
+           Verisi üretilmemişse rozet "—" yazar ("katman yok" ile "veri
+           üretilmemiş" ayırt edilebilir kalsın).
+           🔴 YERİ KASITLI — 11 Ekim 2026, Emre: *"5-7-10 ayarının YANINA B
+              görünümünü de ekleyelim."* Ufuk seçicisinin HEMEN ALTINDA, ama
+              onun `.secici-satir`ının İÇİNDE DEĞİL. Ölçüldü (`app.js:1269`
+              `bVeriKapisi`): `lb2 = sec.closest(".secici-satir")` ve BANT
+              verisi yoksa O SATIRIN TAMAMI `b-pasif` oluyor. Dolgu etiketi
+              o satırın içinde olsaydı, BANT eksikliği DOLGU anahtarını da
+              soluklaştırırdı — oysa ikisi ayrı dosyaya bakar
+              (`ufuk_bantlari_ust.js` ↔ `dolgu.js`). İki BAĞIMSIZ koşul tek
+              GÖRSEL HÂLİ paylaşırdı ve kullanıcı "dolgu yok" sanardı.
+              📌 Bir yerleştirme kararı da bir SÖZLEŞMEDİR: DOM'da yan yana
+                durmak, CSS'te aynı kaderi paylaşmak demektir. ⇒ Görsel olarak
+                yan yana, KADER olarak AYRI. Aynı satıra ÇEKMEYİN. -->
+      <label><input type="checkbox" data-katman="dolgu"> <span>⑥b Ⓑ Dolgu (B görünümü)</span><em id="kat-sayi-dolgu"></em></label>
       <!-- ⑦ RENK ÜSLUBU — görünürlük değil KİP. 4 Eylül 2026, Emre: "şimdiki
            renk tarzı da korunsun ama eski soft renk tarzını da getirelim,
            coğrafya görünsün." İşaretsiz = SERT. Bedeli app.js SIYASI_KIP'te. -->
@@ -195,7 +226,7 @@
          Yuva BURADA, düğmeleri js/d_katman.js dolduruyor (aynı `_dGorunum`
          değişkeni, aynı `_dSinirGuncelle` çağrısı — yeni mekanizma YOK). -->
     <div id="d-gorunum-grup"></div>
-    <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
+    <button id="btn-tamekran" title="Tam ekran (F11)">⛶ Tam ekran</button>
     <!-- 🔴 EMRE, 18 Ağustos 2026: "tüm imparatorluk combobox'ını butonlar
          içine koyabiliriz." p2/H-0010'da üst çubuğa alınmıştı; üst çubuk
          doldu, şimdi butonların içine giriyor. id="bolge" AYNI kaldı —
@@ -218,6 +249,11 @@
     <!-- ARAYUZ-0082 / H-0087 — sürüm damgası üst çubuktan BURAYA indi
          (kendi satırında, sağa yaslı dipnot). Değeri yine js/app.js yazar. -->
     <span id="surum-etiketi" title="Yayın sürümü (git commit sayacı)"></span>
+    <!-- 🏷️ KOŞU DAMGASI (Emre, 5 Ekim 2026) — sürümün YANINDA, ayrı span.
+         Niçin ayrı: yayın numarası (rNNNN) her commit'te artar, koşu numarası
+         yalnız motor koştuğunda. İkisi AYNI şey değil ve karıştırılırsa
+         "harita tazelendi" yanılgısı doğar — 4 Ekim'de tam bu oldu. -->
+    <span id="kosu-etiketi" title="Haritayı üreten motor koşusu"></span>
   </div>
   <div id="ustbar-orta">
     <span id="ustbar-tarih"></span>
@@ -256,7 +292,7 @@
   <!-- 🆕 2 Eylül 2026 — kuyruk ⑤/②, Emre'nin bugünkü kararı: p2/H-0010'da
        kaldırılan "Hakkında" (proje künyesi + BEKLEYENLER tablosu) GERİ
        GELMİYOR — yalnız MİNİMAL bir sürüm damgası. Değer BURADA elle
-       yazılmaz: js/app.js açılışta kendi `<script>` etiketinin `?v=rNNNN`
+       yazılmaz: js/app.js açılışta kendi `<script>` etiketinin `
        değerini okuyup buraya yazıyor (surum_damgala.py her yayında bu
        değeri günceller, bu satıra dokunmaya gerek kalmaz). Tarih EKLENMEDİ
        — hiçbir üretilmiş dosya bir "yapım tarihi" taşımıyor; uydurulan bir
@@ -373,12 +409,46 @@
          yüksekliğini bozmadan `title` ile tam metin de taşır.
          🔴 14 Eylül 2026 — Emre: "git butonunu kaldıralım, silik yazıda
          tarih yaz entere bas yazalım." `#tarihe-git-buton` SİLİNDİ; tek
-         tetik Enter (js/app.js `tariheGitKur`). -->
+         tetik Enter (js/app.js `tariheGitKur`). Bu karar YERİNDE: buton yok,
+         tetik hâlâ Enter.
+         🆕 6 Ekim 2026 — Emre: "tarih textboxunda 'tarihe git' texti
+         olmalı." Yalnız SİLİK YAZI kısaldı ("Tarih yaz, Enter'a bas" →
+         "tarihe git"); Enter talimatı `title`daki örnek listesinde duruyor. -->
+    <!-- `#git-grup` (YER-ARAMA-KUTUSU-1006): tarih kutusu + durumu + yer
+         kutusu TEK BİRİM — footer dar gelip satır kırınca ikisi AYRILMASIN
+         (Emre: yer kutusu tarih kutusunun YANINDA). Kimlikler aynı; JS
+         öğeleri id ile buluyor, ebeveyn değişikliği onlara görünmez. -->
+    <span id="git-grup">
     <input type="text" id="tarihe-git-giris"
-           placeholder="Tarih yaz, Enter'a bas"
+           placeholder="tarihe git"
            title="Örnek: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453 — yazıp Enter'a basın">
     <span id="tarihe-git-durum"></span>
+    <!-- 🆕 YER ARA (YER-ARAMA-KUTUSU-1006) — Emre, 6 Ekim 2026: "sene
+         seçtiğimiz ve ilgili seneye gittiğimiz textboxun yanında olmalı şehir
+         seçme textboxu ve 'şehir yaz ve git' pasif texti içinde olmalı."
+         Zaman çubuğunun O GÜNÜNDE haritada çizili şehir · kale · liman ·
+         bölge · ülke adlarını listeler; seçilince kamera oraya gider, tarih
+         DEĞİŞMEZ. "Git" butonu YOK (14 Eylül emsali): listeden tıklama ya da
+         ↑/↓ + Enter doğrudan odaklar. Liste footer'dan YUKARI açılır.
+         Mantık js/app.js `yerAraKur` · rapor denetim/UMIT-YER-ARAMA-KUTUSU-1006.md. -->
+    <div id="yer-ara" role="search">
+      <input type="search" id="yer-ara-giris" autocomplete="off" spellcheck="false"
+             placeholder="şehir yaz ve git"
+             title="Bu günde haritada olan bir yerin adını yazın: şehir · kale · liman · bölge · ülke. Listeden tıklayın ya da ↑/↓ + Enter ile seçin (Esc kapatır). Henüz haritada olmayan yer listede çıkmaz."
+             aria-label="Bu günde haritada olan yeri ara" aria-controls="yer-ara-liste">
+      <div id="yer-ara-liste" class="gizli" role="listbox"></div>
+    </div>
+    </span><!-- /#git-grup -->
+    <!-- 🆕 ZAMAN-GENİŞ-1008 (Z2) — ÇAĞ BÖLMELİ ÇUBUK. `#zaman` artık gün
+         indeksi değil KONUM taşır (0…ZAMAN_KONUM_MAX; js/app.js `gunKonum`
+         / `konumGun`). Altındaki eksen çağ sınırlarını (1281 · 1923) ve ara
+         yılları gösterir; doğrusal olmayan ölçeğin GÖRÜNÜR olması şart —
+         yoksa kullanıcı çubukta 1000–1281'in neden dar olduğunu bilemez.
+         id AYNI kaldı; sarmal yalnız ekseni çubuğun altına koymak için. -->
+    <span id="zaman-sarmal">
     <input type="range" id="zaman" min="0" max="0" step="1">
+    <span id="zaman-eksen" class="zaman-eksen" aria-hidden="true"></span>
+    </span>
     <!-- 🔴 21 Ağustos — Emre: "alttaki gün ay yıl şeklinde olan göstergeyi
          kaldıralım, üst çubukta zaten bir tarih göstergesi var." `#tarih-
          goster` (eski id) SİLİNDİ; `js/app.js`teki `tarihGoster` değişkeni
@@ -390,6 +460,167 @@
   </div><!-- /#sol-govde -->
 
   <aside id="yanpanel">
+    <!-- 🔝 ÜST SATIR — Emre (25 Ekim 2026): "en tepede öncelikle bakılacak
+         devletin kronolojisi seçilip bundan sonra ilgili devletin padişah
+         kartının görünmesi sağlanmalı … konu süzgeci ve uçuş butonu ayarları
+         yan yana en tepede yer almalı; hükümdar kartı ve kronoloji maddeleri
+         bunun altında açılmalı." Eskiden seçici padişah kartının İÇİNDE,
+         süzgeç ve uçuş kronoloji başlığındaydı — kronoloji kartın alt
+         bölümü gibi okunuyordu. Sıra artık: SEÇ → hükümdar kartı → maddeler.
+         id'ler AYNI kaldı; konu süzgecini js/app.js `suzgecKur` #ucus-grup'un
+         önüne koyar (artık burada). Açılır paneller bu satıra göre konumlanır. -->
+    <div id="yanpanel-ust">
+      <!-- 🔴 21 Ağustos — PAKET 0026/H-0001, Emre: "padişah ismi kronoloji
+           seçme combobox'ı VE ek devlet combobox'ı TEK OLSUN, çoktan
+           seçmeli olsun, tek tek işaretlenebilsin. İLK İŞARETLENEN ODAK
+           DEVLET olacak, ikinci üçüncü seçilenler EK DEVLET kategorisinde."
+           Eskiden İKİ ayrı kontrol vardı (`#odak-devlet` tek seçimli
+           `<select>` + `#ek-devletler-*` checkbox paneli); şimdi TEK panel,
+           rol TIKLAMA SIRASINDAN türüyor (js/app.js `satirTikla`). Satırlar
+           ELLE YAZILMIYOR — Osmanlı sabit ilk satır + kronolojisi olan
+           devletler DİNAMİK (yeni bir kronoloji_*.js otomatik listeye girer). -->
+      <div id="devlet-secici">
+        <button type="button" id="devlet-secici-buton" title="Kronoloji odağını ve ek devletleri seç — ilk tıkladığın ODAK, sonrakiler EK olur">
+          ☪ Osmanlı ▾
+        </button>
+        <div id="devlet-secici-panel" class="gizli">
+          <!-- 🔎 KRONOLOJİ ARAMA — Emre (25 Ekim 2026): "kronoloji bölümünde
+               textbox olsun, yazılan metinler dropdownda listelensin; aranan
+               kronolojiye daha kolay erişmek için. Tüm kronolojileri seçme
+               imkânı da olsun." Kutu listeyi SÜZER (Türkçe harf farkı yok,
+               kelimelerin hepsi geçmeli); Enter ilk eşleşeni ODAK yapar.
+               "Tümünü seç" GÖRÜNEN satırların hepsini EK havuzuna katar —
+               kutu boşsa bütün kronolojiler. Kutu `#devlet-secici-liste`nin
+               DIŞINDA: liste her tıkta yeniden çiziliyor, içinde olsa yazı
+               ve imleç kaybolurdu. -->
+          <div id="devlet-secici-ara-satir">
+            <input type="search" id="devlet-secici-ara" autocomplete="off"
+                   placeholder="🔎 Kronoloji ara (ör. venedik)"
+                   title="Devlet adına göre süzer · Enter: ilk eşleşeni ODAK yap">
+            <button type="button" id="devlet-secici-tumu">☑ Tümünü seç</button>
+          </div>
+          <div id="devlet-secici-liste"></div>
+          <label class="ek-ayar-satir">
+            Ek devletlerde dünya önemi ≥
+            <select id="ek-dunya-esik" title="Yalnız bu değerin ÜSTÜNDEKİ dünya öneminde maddeler eklenir">
+              <option value="1">1 (hepsi)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4" selected>4</option>
+              <option value="5">5 (yalnız dönüm noktaları)</option>
+            </select>
+          </label>
+          <label class="ek-ayar-satir">
+            <input type="checkbox" id="ek-yalniz-dis"> ek devletlerde yalnız dış mesele maddeleri
+          </label>
+          <!-- 🔴🔴 ODAK SÜZGECİ — Emre'nin 10 Eylül 2026 tarifi, ve BİR
+               KURALI KALDIRIYOR. Buranın üstündeki iki ayar YALNIZ EK
+               devletlere işliyordu; kayıtlı kural şuydu: *"ODAK'ın kendi
+               kronolojisi HER ZAMAN TAM gösterilir — süzgeç YOK."*
+               Emre: *"kişi bir devlet seçtiği zaman o devletin
+               kronolojisini ÇALIŞTIRMADAN ÖNCE bu ayarları yapmalı —
+               tüm kronolojik maddeleri istiyor mu, sadece toprak
+               kazancı kaybı maddelerini mi, hükümdar hanedan haberlerini
+               görmek istiyor mu, kendi bölgesindeki devletlerden hangi
+               önemdekileri, dünyayı ilgilendirenleri istiyor mu."*
+               ⇒ Kural düştü: odak da süzülüyor. Varsayılan İÇ=1 (hepsi),
+               yani AÇILIŞTA DAVRANIŞ DEĞİŞMEZ — süzgeç ancak kullanıcı
+               eşiği yükseltince iş görür.
+               🔴 Mantık `js/suzgec.js`te (DOM'suz, node'da sınandı:
+               `denetim/SINAV-ONEM-SUZGEC-0910.js`, 9/9 geçti). Burada
+               yalnız kontroller var. -->
+          <details id="odak-suzgec" class="ek-ayar-grup">
+            <summary>🎚 Bu devletin kronolojisinde ne göreyim?</summary>
+            <label class="ek-ayar-satir">
+              İç olaylar, önem ≥
+              <select id="odak-ic-esik" title="Devletin KENDİ olayları — 5 çok önemli, 1 hiç önemli değil">
+                <option value="1" selected>1 — hepsi</option>
+                <option value="2">2 — önemsizleri ele</option>
+                <option value="3">3 — orta ve üstü</option>
+                <option value="4">4 — önemli</option>
+                <option value="5">5 — yalnız çok önemli</option>
+                <option value="0">kapalı</option>
+              </select>
+            </label>
+            <label class="ek-ayar-satir">
+              Bölgesel dış olaylar ≥
+              <select id="odak-bolge-esik" title="Komşu devletlerin olayları. ⚠️ `bolge` alanı veride henüz yok — bugün `onem` vekil olarak kullanılıyor ve bu panelde BEYAN EDİLİYOR">
+                <option value="1" selected>1 — hepsi</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4 — önemli</option>
+                <option value="5">5 — yalnız dönüm noktaları</option>
+                <option value="0">kapalı</option>
+              </select>
+            </label>
+            <!-- 🔴 BU DAL BİR EŞİK DEĞİL, BİR KURTARMADIR — ve varsayılanı
+                 KAPALI olmak zorunda. Sebebi tarayıcıda ölçüldü: üç dal
+                 arasında VEYA var (bir madde herhangi birinden geçerse
+                 görünür), ve `dünya ≥ 1` açıkken HER madde bu daldan
+                 geçiyordu — yani "İç olaylar ≥ 4" ayarı hiçbir şey
+                 yapmıyordu. Ölçüm: İngiltere 270 madde, ic=4 yapıldı,
+                 sonuç YİNE 270. Ayar EKRANDA vardı, ÖLÜYDÜ.
+                 ⇒ Kapalıyken `ic`/`bölge` eşikleri kendi maddelerini
+                   yönetir; açılınca dünya çapında olaylar eşiği geçemeseler
+                   bile AYRICA gösterilir. -->
+            <label class="ek-ayar-satir">
+              Dünya olaylarını ayrıca göster
+              <select id="odak-dunya-esik" title="KURTARMA dalı: eşiği geçemeyen bir madde, dünya önemi bu değerin üstündeyse yine de görünür. Kapsamdan bağımsızdır.">
+                <option value="0" selected>kapalı</option>
+                <option value="5">dünya önemi 5 — yalnız dönüm noktaları</option>
+                <option value="4">4 — önemli</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 — hepsi (dal etkisiz kalır)</option>
+              </select>
+            </label>
+            <!-- 🔴 D015 — *ölçemediğini eleyen bir süzgeç onu temiz sayar.*
+                 Puansız bir madde "önemsiz" DEĞİL, "ÖLÇÜLMEMİŞ"tir.
+                 Varsayılan AÇIK: kapatılırsa Osmanlı zaman çizgisinin
+                 1253 iç maddesi bir anda kaybolur (ölçüldü). -->
+            <label class="ek-ayar-satir">
+              <input type="checkbox" id="odak-puansiz" checked>
+              puansız maddeleri de göster
+            </label>
+            <label class="ek-ayar-satir" title="Bir şehrin bir belgede ilk kez anıldığını anlatan maddeler (etiket: sehir-kronolojisi). Kronoloji sütunundaki süzgeçle ortak ayar.">
+              <input type="checkbox" id="odak-sehir-kron" checked>
+              şehir kronolojisi (ilk anılış) maddelerini göster
+            </label>
+            <div id="odak-suzgec-konu" class="ek-ayar-satir ek-konu-kutu"></div>
+            <div id="odak-suzgec-ozet" class="ek-ayar-ozet"></div>
+          </details>
+        </div>
+      </div>
+      <span id="ucus-grup">
+        <!-- 🔴🔴 24 Ağustos 2026 — `ucus-ac` ONAY KUTUSU KALDIRILDI, üçüncü
+             seçenek olarak KİP KUTUSUNA katıldı. Emre: *"checkbox
+             kaldırılabilir, ve comboboxda PASİF seçeneği olur … eğer
+             checkbox işaretli değil ise kullanıcı haritayı hangi çerçeveye
+             getirdi ve hangi zoomda bıraktı ise harita o şekilde
+             kalacaktır."*
+
+             NİÇİN GÜVENLİYDİ — değiştirmeden önce ölçüldü: `ucusAcEl`
+             kodun tamamında yedi yerde geçiyordu ve dördü anlamlıydı
+             (bir kapı + üç `essential`). Yani kutu TEK BİR kararı
+             besliyordu: "harita kıpırdasın mı". O karar buraya taşındı.
+
+             ⚠️ Ve bir davranış BİLEREK değişti: `pasif` kipte artık ELLE
+             TIKLAMA da haritayı oynatmıyor. Eskiden `zorla` bayrağı kutuyu
+             atlıyordu ("tıklamak zaten 'beni oraya götür' demektir" — o
+             gerekçe kendi bağlamında doğruydu). Ama Emre'nin tanımı
+             *"harita o şekilde kalacaktır"* diyor; tıklamada kıpırdayan
+             bir harita "o şekilde" kalmış olmaz. ⇒ `pasif` gerçekten
+             pasif, yoksa adı yalan olurdu.
+             📌 Sessiz kalmıyor: pasif kipte tıklanınca panelde SEBEBİ
+             yazılıyor — hiçbir şey yapmamak, kusurdan ayırt edilemez. -->
+        <select id="ucus-kip" title="Sıradaki olaya geçilince harita ne yapsın">
+          <option value="pasif">Pasif</option>
+          <option value="ani">Ani</option>
+          <option value="ucus" selected>Uçuş</option>
+        </select>
+        <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız, kenar payı">⚙</button>
+      </span>
+    </div>
     <section id="padisah-karti">
       <div id="padisah-portre"></div>
       <div id="padisah-bilgi">
@@ -410,108 +641,6 @@
           <div id="padisah-ad">—</div>
         </div>
         <div id="padisah-saltanat"></div>
-        <!-- 🔴 21 Ağustos — PAKET 0026/H-0001, Emre: "padişah ismi kronoloji
-             seçme combobox'ı VE ek devlet combobox'ı TEK OLSUN, çoktan
-             seçmeli olsun, tek tek işaretlenebilsin. İLK İŞARETLENEN ODAK
-             DEVLET olacak, ikinci üçüncü seçilenler EK DEVLET kategorisinde."
-             Eskiden İKİ ayrı kontrol vardı (`#odak-devlet` tek seçimli
-             `<select>` + `#ek-devletler-*` checkbox paneli); şimdi TEK panel,
-             rol TIKLAMA SIRASINDAN türüyor (js/app.js `satirTikla`). Satırlar
-             ELLE YAZILMIYOR — Osmanlı sabit ilk satır + kronolojisi olan
-             devletler DİNAMİK (yeni bir kronoloji_*.js otomatik listeye girer). -->
-        <div id="devlet-secici">
-          <button type="button" id="devlet-secici-buton" title="Kronoloji odağını ve ek devletleri seç — ilk tıkladığın ODAK, sonrakiler EK olur">
-            ☪ Osmanlı ▾
-          </button>
-          <div id="devlet-secici-panel" class="gizli">
-            <div id="devlet-secici-liste"></div>
-            <label class="ek-ayar-satir">
-              Ek devletlerde dünya önemi ≥
-              <select id="ek-dunya-esik" title="Yalnız bu değerin ÜSTÜNDEKİ dünya öneminde maddeler eklenir">
-                <option value="1">1 (hepsi)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4" selected>4</option>
-                <option value="5">5 (yalnız dönüm noktaları)</option>
-              </select>
-            </label>
-            <label class="ek-ayar-satir">
-              <input type="checkbox" id="ek-yalniz-dis"> ek devletlerde yalnız dış mesele maddeleri
-            </label>
-            <!-- 🔴🔴 ODAK SÜZGECİ — Emre'nin 10 Eylül 2026 tarifi, ve BİR
-                 KURALI KALDIRIYOR. Buranın üstündeki iki ayar YALNIZ EK
-                 devletlere işliyordu; kayıtlı kural şuydu: *"ODAK'ın kendi
-                 kronolojisi HER ZAMAN TAM gösterilir — süzgeç YOK."*
-                 Emre: *"kişi bir devlet seçtiği zaman o devletin
-                 kronolojisini ÇALIŞTIRMADAN ÖNCE bu ayarları yapmalı —
-                 tüm kronolojik maddeleri istiyor mu, sadece toprak
-                 kazancı kaybı maddelerini mi, hükümdar hanedan haberlerini
-                 görmek istiyor mu, kendi bölgesindeki devletlerden hangi
-                 önemdekileri, dünyayı ilgilendirenleri istiyor mu."*
-                 ⇒ Kural düştü: odak da süzülüyor. Varsayılan İÇ=1 (hepsi),
-                 yani AÇILIŞTA DAVRANIŞ DEĞİŞMEZ — süzgeç ancak kullanıcı
-                 eşiği yükseltince iş görür.
-                 🔴 Mantık `js/suzgec.js`te (DOM'suz, node'da sınandı:
-                 `denetim/SINAV-ONEM-SUZGEC-0910.js`, 9/9 geçti). Burada
-                 yalnız kontroller var. -->
-            <details id="odak-suzgec" class="ek-ayar-grup">
-              <summary>🎚 Bu devletin kronolojisinde ne göreyim?</summary>
-              <label class="ek-ayar-satir">
-                İç olaylar, önem ≥
-                <select id="odak-ic-esik" title="Devletin KENDİ olayları — 5 çok önemli, 1 hiç önemli değil">
-                  <option value="1" selected>1 — hepsi</option>
-                  <option value="2">2 — önemsizleri ele</option>
-                  <option value="3">3 — orta ve üstü</option>
-                  <option value="4">4 — önemli</option>
-                  <option value="5">5 — yalnız çok önemli</option>
-                  <option value="0">kapalı</option>
-                </select>
-              </label>
-              <label class="ek-ayar-satir">
-                Bölgesel dış olaylar ≥
-                <select id="odak-bolge-esik" title="Komşu devletlerin olayları. ⚠️ `bolge` alanı veride henüz yok — bugün `onem` vekil olarak kullanılıyor ve bu panelde BEYAN EDİLİYOR">
-                  <option value="1" selected>1 — hepsi</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4 — önemli</option>
-                  <option value="5">5 — yalnız dönüm noktaları</option>
-                  <option value="0">kapalı</option>
-                </select>
-              </label>
-              <!-- 🔴 BU DAL BİR EŞİK DEĞİL, BİR KURTARMADIR — ve varsayılanı
-                   KAPALI olmak zorunda. Sebebi tarayıcıda ölçüldü: üç dal
-                   arasında VEYA var (bir madde herhangi birinden geçerse
-                   görünür), ve `dünya ≥ 1` açıkken HER madde bu daldan
-                   geçiyordu — yani "İç olaylar ≥ 4" ayarı hiçbir şey
-                   yapmıyordu. Ölçüm: İngiltere 270 madde, ic=4 yapıldı,
-                   sonuç YİNE 270. Ayar EKRANDA vardı, ÖLÜYDÜ.
-                   ⇒ Kapalıyken `ic`/`bölge` eşikleri kendi maddelerini
-                     yönetir; açılınca dünya çapında olaylar eşiği geçemeseler
-                     bile AYRICA gösterilir. -->
-              <label class="ek-ayar-satir">
-                Dünya olaylarını ayrıca göster
-                <select id="odak-dunya-esik" title="KURTARMA dalı: eşiği geçemeyen bir madde, dünya önemi bu değerin üstündeyse yine de görünür. Kapsamdan bağımsızdır.">
-                  <option value="0" selected>kapalı</option>
-                  <option value="5">dünya önemi 5 — yalnız dönüm noktaları</option>
-                  <option value="4">4 — önemli</option>
-                  <option value="3">3</option>
-                  <option value="2">2</option>
-                  <option value="1">1 — hepsi (dal etkisiz kalır)</option>
-                </select>
-              </label>
-              <!-- 🔴 D015 — *ölçemediğini eleyen bir süzgeç onu temiz sayar.*
-                   Puansız bir madde "önemsiz" DEĞİL, "ÖLÇÜLMEMİŞ"tir.
-                   Varsayılan AÇIK: kapatılırsa Osmanlı zaman çizgisinin
-                   1253 iç maddesi bir anda kaybolur (ölçüldü). -->
-              <label class="ek-ayar-satir">
-                <input type="checkbox" id="odak-puansiz" checked>
-                puansız maddeleri de göster
-              </label>
-              <div id="odak-suzgec-konu" class="ek-ayar-satir ek-konu-kutu"></div>
-              <div id="odak-suzgec-ozet" class="ek-ayar-ozet"></div>
-            </details>
-          </div>
-        </div>
       </div>
     </section>
     <section id="olay-akisi">
@@ -521,42 +650,18 @@
            ("bu ayar olmadan çok yaklaşıyor" — ayar zaten vardı, yerleşim
            kusuruydu). ⚙ düğmesi de BURAYA taşındı (§⑧②: ikinci pencere
            YOK, mevcut #ayarlar-pencere'yi açıyor — btn-ayarlar id'si aynı
-           kaldığı için js/app.js'teki dinleyici DOKUNULMADAN çalışıyor). -->
+           kaldığı için js/app.js'teki dinleyici DOKUNULMADAN çalışıyor).
+           📌 25 Ekim 2026: uçuş grubu ve konu süzgeci `#yanpanel-ust`e taşındı;
+           başlıkta yalnız "📜 Kronoloji" ve sayaç kaldı. -->
       <h2>
         <span id="olay-akisi-baslik">
           <span>📜 Kronoloji</span>
           <span id="olay-sayac"></span>
         </span>
-        <span id="ucus-grup">
-          <!-- 🔴🔴 24 Ağustos 2026 — `ucus-ac` ONAY KUTUSU KALDIRILDI, üçüncü
-               seçenek olarak KİP KUTUSUNA katıldı. Emre: *"checkbox
-               kaldırılabilir, ve comboboxda PASİF seçeneği olur … eğer
-               checkbox işaretli değil ise kullanıcı haritayı hangi çerçeveye
-               getirdi ve hangi zoomda bıraktı ise harita o şekilde
-               kalacaktır."*
-
-               NİÇİN GÜVENLİYDİ — değiştirmeden önce ölçüldü: `ucusAcEl`
-               kodun tamamında yedi yerde geçiyordu ve dördü anlamlıydı
-               (bir kapı + üç `essential`). Yani kutu TEK BİR kararı
-               besliyordu: "harita kıpırdasın mı". O karar buraya taşındı.
-
-               ⚠️ Ve bir davranış BİLEREK değişti: `pasif` kipte artık ELLE
-               TIKLAMA da haritayı oynatmıyor. Eskiden `zorla` bayrağı kutuyu
-               atlıyordu ("tıklamak zaten 'beni oraya götür' demektir" — o
-               gerekçe kendi bağlamında doğruydu). Ama Emre'nin tanımı
-               *"harita o şekilde kalacaktır"* diyor; tıklamada kıpırdayan
-               bir harita "o şekilde" kalmış olmaz. ⇒ `pasif` gerçekten
-               pasif, yoksa adı yalan olurdu.
-               📌 Sessiz kalmıyor: pasif kipte tıklanınca panelde SEBEBİ
-               yazılıyor — hiçbir şey yapmamak, kusurdan ayırt edilemez. -->
-          <select id="ucus-kip" title="Sıradaki olaya geçilince harita ne yapsın">
-            <option value="pasif">Pasif</option>
-            <option value="ani">Ani</option>
-            <option value="ucus" selected>Uçuş</option>
-          </select>
-          <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız, kenar payı">⚙</button>
-        </span>
       </h2>
+      <!-- ZAMAN-ATLAMA-1021 — seyrek devir (veri penceresinden önce) bilgi satırı;
+           js/app.js devirBilgiGuncelle() doldurur, 1281+ gizli. -->
+      <div id="devir-bilgi" class="gizli" role="status"></div>
       <!-- 🔍 ARAMA SATIRI — 30 Eylül 2026, Emre: "kronoloji maddeleri için
            textbox'ta arama … metinlerin ayrı ayrı aranıp iki üç metnin
            hepsinin maddelerde aranması".
@@ -674,11 +779,13 @@
     <h3>⚙ Ayarlar</h3>
     <div id="ayarlar-govde">
     <!-- DUYGU-VE-SEKME-SARTNAME.md §A② — bu katman TDV'ye BASMAZ, yorumdur.
-         Ayardan açılır/kapanır (pazarlık dışı kural); varsayılan AÇIK çünkü
-         kapalıyken kimse varlığını bilmez (şartnamenin kendi önerisi). -->
+         Ayardan açılır/kapanır (pazarlık dışı kural); varsayılan KAPALI
+         (Emre 14 Eki 2026: "varsayılan olarak bu ayar pasif olmalı") —
+         checked ATRIBUTU YOK, kasıtlı. Kronolojideki emojilerin tamamı bu
+         ayara bağlı (başlıklarda emoji yok, ölçüldü). -->
     <div class="ayar-satir ayar-satir-anahtar">
-      <label for="duygu-ac">😊 Duygu emojileri <span class="ayar-ipucu">(okuyanın tepkisi — kaynağın hükmü değil, TDV'ye basmaz)</span></label>
-      <input type="checkbox" id="duygu-ac" checked>
+      <label for="duygu-ac">😊 Kronolojide emojiler <span class="ayar-ipucu">(okuyanın tepkisi — kaynağın hükmü değil, TDV'ye basmaz)</span></label>
+      <input type="checkbox" id="duygu-ac">
     </div>
     <!-- 🔴 8. BOYUT — Emre'nin 29 Ağustos kararı (EMRE-KARARLARI-29AGU.md §②):
          CLAUDE.md §1.6 sekizinci boyutu (siyaset dışı/dünya konuları) KASTEN
@@ -736,14 +843,21 @@
            Ve iki ekseni de sayıyor: "hem kuzey güney hem doğu batı" —
            o yüzden ölçü BÜYÜK OLAN kenardır, ortalama değil. Şili ve
            İsveç kuzey-güney, Rusya doğu-batı uzar; ortalama ikisini de
-           yanlış çerçeveler. -->
+           yanlış çerçeveler.
+           🔴 19 Ekim 2026 — VARSAYILAN "sabit" OLDU. Emre: "sağdan sola 1000 km
+           göstersin ayarımız var ama çalışmıyor … çok yukarıdan bakıyor."
+           Ölçüldü (yayın, 832 px): km→zoom çevirisi BİREBİR (750/1000/3000 km
+           istendi → 750/1000/3000 km göründü); ayarı ezen "korele" varsayılanıydı —
+           orada sürgü yalnız ALT SINIR, Osmanlı kutusu × 1,35 ile 1453 sonrası
+           5.000-7.300 km'ye açılıyordu. Korele seçenek olarak duruyor; seçilince
+           o an uygulanan km yanında yazılır (sessiz ezme bitti). -->
       <div class="ayar-satir">
         <label for="ayar-genislik-kip">Genişlik kipi <span class="ayar-ipucu">(odak devlet büyüyünce görüş de büyüsün mü)</span></label>
         <select id="ayar-genislik-kip">
-          <option value="korele" selected>Devletle birlikte (adaptif)</option>
-          <option value="sabit">Sabit — hep yukarıdaki km</option>
+          <option value="sabit" selected>Sabit — hep yukarıdaki km</option>
+          <option value="korele">Devletle birlikte (sürgü alt sınır olur)</option>
         </select>
-        <span class="ayar-deger"></span>
+        <span id="ayar-genislik-kip-deger" class="ayar-deger"></span>
       </div>
       <!-- 🔴 23 Ağustos, 0029/H-0001 + H-0005 — OTO-ODAKLAMA ZAMAN
            ÇUBUĞUNDAN BURAYA TAŞINDI ve VARSAYILANI KAPANDI.
@@ -827,6 +941,15 @@
         <label for="ayar-imparatorluk-pay">İmparatorluk görünümü payı <span class="ayar-ipucu">(nokta yeri olmayan olayda çevre boşluğu — piksel)</span></label>
         <input type="range" id="ayar-imparatorluk-pay" min="10" max="120" step="5" value="55">
         <span id="ayar-imparatorluk-pay-deger" class="ayar-deger"></span>
+      </div>
+      <!-- 🆕 ODAK-ZOOM-1016 — Emre (16 Ekim 2026): devlet kronolojisinde madde
+           ilerletilirken devletin o günkü toprağı ekranın EN AZ 1/8'ini kaplasın;
+           kaplamıyorsa kamera uzaklaşır (js/odak_zoom.js · app.js `odakZoomKapisi`).
+           Varsayılan AÇIK; tercih `odakZoom` anahtarıyla kalıcı. -->
+      <div class="ayar-satir">
+        <label for="ayar-odak-zoom-ac">Devlet toprağı görünsün <span class="ayar-ipucu">(devlet kronolojisinde toprak ekranın en az 1/8'i olacak kadar uzaklaş)</span></label>
+        <input type="checkbox" id="ayar-odak-zoom-ac" checked>
+        <span class="ayar-deger"></span>
       </div>
     </details>
     <details class="ayar-grup">
@@ -1026,7 +1149,7 @@
        data/olaylar_ek6.js
        data/olaylar_ilirya_0072.js
        data/olaylar_ek7.js -->
-<script src="data/paket_01.js?v=r11100"></script>
+<script src="data/paket_01.js?v=r137192126"></script>
 <!-- 16 Ağustos gece partisi: `Değişmez 5a` (62 hayalet yerleşim) düzeltilince
      dört harita kırılması maddesiz kaldı; bu dosya onları kapatıyor.
      🔴 BAĞLANMASI ŞART: denetim `data/olaylar*.js`i glob ile okuduğu için
@@ -1043,7 +1166,7 @@
        data/olaylar_ek11.js
        data/olaylar_ek12.js
        data/olaylar_ek13.js -->
-<script src="data/paket_02.js?v=r11100"></script>
+<script src="data/paket_02.js?v=r19621571"></script>
 <!-- VERİ KÜLTÜR — konu dengesi (TESPIH KUŞAK 2). Atlasın kronolojisi %68 askerî,
      %6 kültür/bilim/iktisattı; mimarî·sosyoloji·felsefe·spor SIFIRDI. 94 madde.
      ⚠️ Değişmez 2t'yi YEMİYOR (ölçüldü, 61 → 61): kirilmasiz_madde() yalnız
@@ -1057,7 +1180,7 @@
        data/olaylar_ek14.js
        data/olaylar_ek15.js
        data/olaylar_ek16.js -->
-<script src="data/paket_03.js?v=r11100"></script>
+<script src="data/paket_03.js?v=r26424097"></script>
 <!-- ek17: yuvarlak-gün yığınları (10 gün · 107 yerleşim) + Anabolu · Semendire ·
      Munkács · Ayamavra. 🔴 Bu satır UNUTULURSA denetim TEMİZ kalır ama madde
      yayında GÖRÜNMEZ: denetle.py `glob("olaylar*.js")` ile okur, tarayıcı
@@ -1073,7 +1196,7 @@
        data/olaylar_ek22.js
        data/olaylar_ek19.js
        data/olaylar_senkron_0930.js -->
-<script src="data/paket_04.js?v=r11100"></script>
+<script src="data/paket_04.js?v=r124448086"></script>
 <!-- hatalar 8.docx madde 1: antlasmalarda taralı devir alanları. Uretici: arac/uret_devirler.py -->
 <!-- ▼ data/paket_05.js — aşağıdaki 2 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -1081,7 +1204,7 @@
      (tazeliği yayın kapısı sınar). İçindekiler:
        data/devirler.js
        data/devletler.js -->
-<script src="data/paket_05.js?v=r11100"></script>
+<script src="data/paket_05.js?v=r66390116"></script>
 <!-- ÇOK SEKMELİ ARAYÜZ (20 Ağustos 2026, KOORDİNATÖR görevi) — devletlerin
      DERİN kronolojileri. `data/devletler.js`teki habsburg/rusya/lehistan
      künyeleri hâlâ eski/kısa listeyi taşıyor (14/15/12 madde, çoğu Osmanlı
@@ -1104,7 +1227,7 @@
        data/kronoloji_venedik.js
        data/kronoloji_iran.js
        data/kronoloji_bizans.js -->
-<script src="data/paket_06.js?v=r11100"></script>
+<script src="data/paket_06.js?v=r40379101"></script>
 <!-- 21 Ağustos: iki YENİ dosya diskte hazır ama BAĞLI DEĞİLDİ (Kırım ·
      Macaristan) — aynı sınıftan üçüncü vaka, bulunur bulunmaz eklendi. -->
 <!-- ▼ data/paket_07.js — aşağıdaki 3 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -1114,7 +1237,7 @@
        data/kronoloji_memluk.js
        data/kronoloji_kirim.js
        data/kronoloji_macaristan.js -->
-<script src="data/paket_07.js?v=r11100"></script>
+<script src="data/paket_07.js?v=r78449433"></script>
 <!-- 🔴 21 Ağustos, ON DOSYA BİRDEN BAĞLANDI — aynı sınıfın BEŞİNCİ vakası.
      Diskte 19 kronoloji dosyası vardı, `index.html`de yalnız 9'u; on
      oturumun teslim ettiği on devlet TARAYICIDA HİÇ GÖRÜNMÜYORDU.
@@ -1132,9 +1255,9 @@
        data/kronoloji_ingiltere.js
        data/kronoloji_fransa.js
        data/kronoloji_almanya.js -->
-<script src="data/paket_08.js?v=r11100"></script>
+<script src="data/paket_08.js?v=r73484831"></script>
 <!-- 17 Eylül 2026 — çok taraflı sınır kronolojisi (GERIYE-SARMA-0916 ADIM 3); app.js cokTarafliKronolojiEkle her tarafa ekler -->
-<!-- ▼ data/paket_09.js — aşağıdaki 17 dosya buraya PAKETLENDİ (arac/paketle.py).
+<!-- ▼ data/paket_09.js — aşağıdaki 18 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
      değiştirmez. Kaynak değişirse: py arac/paketle.py yenile
      (tazeliği yayın kapısı sınar). İçindekiler:
@@ -1154,13 +1277,36 @@
        data/kronoloji_ispanya.js
        data/kronoloji_portekiz.js
        data/kronoloji_cin.js
-       data/kronoloji_hindistan.js -->
-<script src="data/paket_09.js?v=r11100"></script>
+       data/kronoloji_hindistan.js
+       data/kronoloji_sinir_polonya_1915.js -->
+<script src="data/paket_09.js?v=r190594402"></script>
+<script src="data/kronoloji_sinir_nokta3.js?v=r135233627"></script>
+<script src="data/kronoloji_sinir_nokta2.js?v=r46056360"></script>
+<script src="data/kronoloji_sinir_once1281_yerlesim_asya_iran.js?v=r238881529"></script>
+<script src="data/kronoloji_sinir_halef_1923_2000.js?v=r23858269"></script>
+<script src="data/kronoloji_sinir_once1281_geriye.js?v=r166689052"></script>
+<script src="data/kronoloji_sinir_once1281_zincir_bati.js?v=r93080810"></script>
+<script src="data/kronoloji_sinir_orta_ms0600.js?v=r215482167"></script>
+<script src="data/kronoloji_sinir_asya_zincir_1024.js?v=r43958709"></script>
+<script src="data/kronoloji_sinir_asya3_1024.js?v=r79141076"></script>
+<script src="data/kronoloji_sinir_dogu_500_1281.js?v=r240132326"></script>
+
+<script src="data/kronoloji_sinir_cin_sanguo.js?v=r213444333"></script>
+<script src="data/kronoloji_sinir_zincir_1281sonra_1024.js?v=r59332898"></script>
+<script src="data/kronoloji_sinir_cin_ms317.js?v=r7696995"></script>
+<script src="data/kronoloji_sinir_zincir_avrupa_h.js?v=r186902721"></script>
+<script src="data/kronoloji_sinir_zincir_antik2_1024.js?v=r158123224"></script>
+<script src="data/kronoloji_sinir_antik3_1024.js?v=r104275402"></script>
+<script src="data/kronoloji_sinir_amerika_afrika3_1024.js?v=r19863530"></script>
+<script src="data/kronoloji_sinir_akdeniz3_1024.js?v=r222247846"></script>
+<script src="data/yerlesimler_nokta3.js?v=r73810392"></script>
+<script src="data/yerlesimler_nokta2.js?v=r94377393"></script>
+<script src="data/yerlesimler_halef_1946.js?v=r133785162"></script>
 
 <!-- ▼ ÇOK TARAFLI KRONOLOJİ — 29 Eylül seferberliğinin ürünü (30 Eylül'de bağlandı).
      16 paket dünya devletlerinin kronolojilerini tarayıp yazdı; dosyalar DİSKTE
      duruyordu ama index.html'e HİÇ konmamıştı ⇒ 24 madde yazılmış ve SİTEDE YOKTU.
-     🔴 ÜÇ KAPIDAN GEÇENLER: ① node --check ② `window.KRONOLOJI_COK_*` globali var
+     🔴 ÜÇ KAPIDAN GEÇENLER: ① node ile sözdizimi kontrolü ② `window.KRONOLOJI_COK_*` globali var
      ③ her maddenin `devlet:`/`devletler:` atfı data/devletler.js'te GERÇEK bir id.
      ③ olmadan dosya yüklenir ama maddeleri GÖRÜNMEZ — `cokTarafliKronolojiEkle`
      eşleşmeyen id'yi sayar ve atar. Ölçüm: denetim/YETIM-KRONO-0930.json
@@ -1207,7 +1353,7 @@
        data/kronoloji_cok_orta_amerika.js
        data/kronoloji_cok_ukrayna.js
        data/kronoloji_cok_yunanistan.js -->
-<script src="data/paket_30.js?v=r11100"></script>
+<script src="data/paket_30.js?v=r87469205"></script>
 <!-- ═══ 30 EYLUL / 1 EKIM 2026 KAMPANYASI — 18 dosya, 1804 madde ═══════════
      🔴 BU DOSYALAR AYLARDIR DISKTE, COMMIT'LI VE DENETIMLERIN EVRENINDEYDI
         ama index.html onlari HIC YUKLEMIYORDU ⇒ tarayici goremiyordu, kullanici
@@ -1221,24 +1367,36 @@
         `balkan` diye bir kunye YOK ve `derinKronolojiBindir` TEK kunye arar.
      ⚠️ Paketlenmediler: `py arac/paketle.py yenile` bunlari da toplayacak.
         Elle eklenen etiketin PAKETLENMEDEN de calismasi gerekir — oyle. -->
-<script src="data/kronoloji_cok_once1281_anadolu.js?v=r11100"></script>
-<script src="data/kronoloji_cok_once1281_avrupa.js?v=r11100"></script>
-<script src="data/kronoloji_cok_once1281_ortadogu.js?v=r11100"></script>
-<script src="data/kronoloji_cok_once1281_iran.js?v=r11100"></script>
-<script src="data/kronoloji_cok_once1281_dogu_asya.js?v=r11100"></script>
-<script src="data/kronoloji_cok_once1281_hint_amerika.js?v=r11100"></script>
-<script src="data/kronoloji_cok_once1281_afrika.js?v=r11100"></script>
-<script src="data/kronoloji_cok_1923_1945.js?v=r11100"></script>
-<script src="data/kronoloji_cok_500_1000.js?v=r11100"></script>
-<script src="data/kronoloji_cok_ince_anadolu_iran.js?v=r11100"></script>
-<script src="data/kronoloji_cok_ince_avrupa_amerika.js?v=r11100"></script>
-<script src="data/kronoloji_cok_ince_bati_afrika.js?v=r11100"></script>
-<script src="data/kronoloji_cok_ince_dg_afrika.js?v=r11100"></script>
-<script src="data/kronoloji_cok_ince_gd_asya.js?v=r11100"></script>
-<script src="data/kronoloji_cok_ince_guney_asya.js?v=r11100"></script>
-<script src="data/kronoloji_cok_ince_kuzey_amerika.js?v=r11100"></script>
-<script src="data/kronoloji_cok_ince_misir_orta_asya.js?v=r11100"></script>
-<script src="data/kronoloji_cok_senkron_0930.js?v=r11100"></script>
+<script src="data/kronoloji_cok_once1281_avrupa2.js?v=r187647894"></script>
+<script src="data/kronoloji_cok_once1281_anadolu.js?v=r149866122"></script>
+<script src="data/kronoloji_cok_once1281_avrupa.js?v=r148811529"></script>
+<script src="data/kronoloji_cok_once1281_ortadogu.js?v=r76202434"></script>
+<script src="data/kronoloji_cok_ms1_1000_ortadogu.js?v=r260013771"></script>
+<script src="data/kronoloji_cok_derin_1024_islam.js?v=r54903039"></script>
+<script src="data/kronoloji_cok_once1281_iran.js?v=r259221464"></script>
+<script src="data/kronoloji_cok_once1281_dogu_asya.js?v=r145791491"></script>
+<script src="data/kronoloji_cok_ms1_1000_ortaavrupa_italya.js?v=r228373361"></script>
+<script src="data/kronoloji_cok_ms1_1000_asya.js?v=r199353557"></script>
+<script src="data/kronoloji_cok_once1281_hint_amerika.js?v=r259232072"></script>
+<script src="data/kronoloji_cok_once1281_afrika.js?v=r229136924"></script>
+<script src="data/kronoloji_cok_ms1_1000_akdeniz.js?v=r24735743"></script>
+<script src="data/kronoloji_cok_ms1_1000_dunya.js?v=r103704695"></script>
+<script src="data/kronoloji_cok_ms1_1000_batiavrupa.js?v=r17159300"></script>
+<script src="data/kronoloji_cok_once1281_guney_okyanusya.js?v=r31637341"></script>
+<script src="data/kronoloji_cok_ms1_1000_iber_balkan.js?v=r192045399"></script>
+<script src="data/kronoloji_cok_once1281_amerika2.js?v=r39377073"></script>
+<script src="data/kronoloji_cok_dogu_500_1281.js?v=r14603668"></script>
+<script src="data/kronoloji_cok_1923_1945.js?v=r59903998"></script>
+<script src="data/kronoloji_cok_500_1000.js?v=r79421103"></script>
+<script src="data/kronoloji_cok_ince_anadolu_iran.js?v=r55291083"></script>
+<script src="data/kronoloji_cok_ince_avrupa_amerika.js?v=r144455025"></script>
+<script src="data/kronoloji_cok_ince_bati_afrika.js?v=r227860854"></script>
+<script src="data/kronoloji_cok_ince_dg_afrika.js?v=r179157040"></script>
+<script src="data/kronoloji_cok_ince_gd_asya.js?v=r171392828"></script>
+<script src="data/kronoloji_cok_ince_guney_asya.js?v=r215381230"></script>
+<script src="data/kronoloji_cok_ince_kuzey_amerika.js?v=r34972369"></script>
+<script src="data/kronoloji_cok_ince_misir_orta_asya.js?v=r155944646"></script>
+<script src="data/kronoloji_cok_senkron_0930.js?v=r15342274"></script>
 
 <!-- Akkoyunlu ve Karakoyunlu AYRI dosya oldu — brifingde tek dosya
      (`kronoloji_koyunlular.js`) demiştim, oturum ikiye ayırdı ve bu DAHA
@@ -1249,7 +1407,7 @@
      (tazeliği yayın kapısı sınar). İçindekiler:
        data/kronoloji_akkoyunlu.js
        data/kronoloji_karakoyunlu.js -->
-<script src="data/paket_10.js?v=r11100"></script>
+<script src="data/paket_10.js?v=r19510571"></script>
 <!-- 22 Agu 2026: yedi dosya data/ altinda TEMIZ duruyordu ama buraya bagli DEGILDI ⇒ 438 madde gorunmuyordu. Sema denetimi "ekranda var mi" diye SORMUYOR. -->
 <!-- ▼ data/paket_11.js — aşağıdaki 7 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -1262,7 +1420,7 @@
        data/kronoloji_misir.js
        data/kronoloji_ozbek.js
        data/kronoloji_timurlu.js -->
-<script src="data/paket_11.js?v=r11100"></script>
+<script src="data/paket_11.js?v=r176223754"></script>
 <!-- 22 Agu 2026 · ikinci dalga kronoloji teslimleri. Sema denetimi "ekranda var mi" diye SORMUYOR — bu satirlar o yuzden elle sayilip eklendi. -->
 <!-- ▼ data/paket_12.js — aşağıdaki 28 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -1296,7 +1454,7 @@
        data/kronoloji_sirbistan.js
        data/kisiler.js
        data/savaslar.js -->
-<script src="data/paket_12.js?v=r11100"></script>
+<script src="data/paket_12.js?v=r217054873"></script>
 <!-- YERLESIM PARTILERI - hepsi yuklenir ve TEK diziye birlestirilir.
      2 Agustos 2026: kutu acildiginda 789 nokta (afrika 186 - asya 344 -
      avrupa 237 - ek 15 - ortaasya2 7) TOPRAGI CIZILIYOR ama ADI GORUNMUYORDU
@@ -1323,7 +1481,7 @@
        data/yerlesimler_ek4.js
        data/yerlesimler_ek5.js
        data/yerlesimler_ek6.js -->
-<script src="data/paket_13.js?v=r11100"></script>
+<script src="data/paket_13.js?v=r150487819"></script>
 <!-- PARTİ 18-19 — koşu 9 ile bağlandı. `girdi.py` bu üçünü okuyor, yani
      PETEKLERİ haritada zaten var; index.html'e eklenmezse İŞARETÇİLERİ
      görünmez ve denetle_yayin haklı olarak "üretiliyor ama çizilmiyor" der.
@@ -1364,17 +1522,17 @@
        data/yerlesimler_ek27.js
        data/yerlesimler_ek28.js
        data/yerlesimler_ek29.js -->
-<script src="data/paket_14.js?v=r11100"></script>
+<script src="data/paket_14.js?v=r146296180"></script>
 <!-- NOKTA EPİR, 22 Ağu 2026 — Parga'nın 3.701 km²'lik peteğini bölen iki nokta.
      `girdi.py`ye de eklendi; ikisi AYRI kapıdır (§5: bir dosya motorda olup
      arayüzde olmayabilir, bu sabah yedi kronoloji dosyası öyle kaybolmuştu). -->
-<script src="data/yerlesimler_epir.js?v=r11100"></script>
+<script src="data/yerlesimler_epir.js?v=r222164196"></script>
 <!-- MACARİSTAN SERHAT — Niş-Vidin koridoru. İKİ DOSYA BİRLİKTE BAĞLANIR:
      noktalar `arac/girdi.py`de, kırılma maddeleri BURADA. Biri bağlanıp
      öteki bağlanmazsa maddelerin `yer_id`si eşleşmez.
      🟢 Üç açık kırılma günü (1428 · 1443 · 1454) bu dosyayla kapandı;
      `Değişmez 2` 0 açığa döndü. Gerekçe `girdi.py`de. -->
-<script src="data/olaylar_serhat.js?v=r11100"></script>
+<script src="data/olaylar_serhat.js?v=r98331965"></script>
 <!-- 🟢 PAKET 0043 KRONOLOJİSİ (12 Eylül 2026) — Emre'nin 19 maddelik
      partisinden doğan iki kronoloji dosyası. Adları `olaylar_` ile
      başlıyor, yani `denetle.py`nin `olaylar*.js` glob'una KENDİLİĞİNDEN
@@ -1384,7 +1542,7 @@
      glob'a girmeyen artefakt, yapılmamış olmakla aynı sonucu verir).
        _p0043a  KITA 14 · Şehirköy-Niş zinciri (H-0002 · 0004 · 0008)
        _p0043b  KITA 15 · Çaldıran seferi çıkışı 1514-03-20 (H-0011b) -->
-<!-- ▼ data/paket_15.js — aşağıdaki 17 dosya buraya PAKETLENDİ (arac/paketle.py).
+<!-- ▼ data/paket_15.js — aşağıdaki 18 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
      değiştirmez. Kaynak değişirse: py arac/paketle.py yenile
      (tazeliği yayın kapısı sınar). İçindekiler:
@@ -1405,7 +1563,7 @@
        data/olaylar_p0057.js
        data/olaylar_p0058.js
        data/olaylar_p0059.js -->
-<script src="data/paket_15.js?v=r11100"></script>
+<script src="data/paket_15.js?v=r18869130"></script>
 <!-- 🟢 C · BELGELİ SINIRLAR (13 Eylül 2026, KITA 30) — antlaşmanın/kaynağın TARİF
      ettiği sınırlar. Motor bunları henüz uygulamıyor (koşu 10 donuk); bu dosya
      yalnız GÖSTERİM içindir: kullanıcı hangi sınırın belgeli, hangisinin
@@ -1418,7 +1576,7 @@
        data/hukuki_sinirlar.js
        data/bos_alanlar.js
        data/yerlesimler_amerika.js -->
-<script src="data/paket_16.js?v=r11100"></script>
+<script src="data/paket_16.js?v=r225705708"></script>
 <!-- 🔴 ARAYÜZ KORİDOR (16 Ağustos 2026) — KOORDİNATÖRÜN M-0534 EMRİ.
      Dördüncü koşuda `girdi.py` 44 → 48 dosyaya, 2527 → 2589 noktaya çıktı;
      MOTOR bu 62 noktayı görüyor ama TARAYICI görmüyordu ⇒ geometriye giren
@@ -1441,7 +1599,7 @@
        data/yerlesimler_ek31.js
        data/yerlesimler_0ee15e.js
        data/yerlesimler_e9353f.js -->
-<script src="data/paket_17.js?v=r11100"></script>
+<script src="data/paket_17.js?v=r101981739"></script>
 <!-- 🔴 20 Ağustos 2026 — DÖRT DOSYA MOTORA BAĞLIYDI, TARAYICIYA DEĞİL.
      `arac/girdi.py`ye ekledim (`073df09`) ama BURAYA eklemeyi unuttum ⇒
      13 nokta haritada ÇİZİLİYOR ama dizinde/aramada/tıklamada YOK.
@@ -1460,7 +1618,7 @@
        data/yerlesimler_ek_bozkir.js
        data/yerlesimler_ek_ferhadpasa.js
        data/yerlesimler_ek_macaristan.js -->
-<script src="data/paket_18.js?v=r11100"></script>
+<script src="data/paket_18.js?v=r99505262"></script>
 <!-- Katar yarımadası dolgu noktası. 🔴 BU SATIR KOORDİNATÖRÜN AYNI GECE
      İKİNCİ KEZ UNUTTUĞU SATIRDIR: girdi.py'ye eklendi (56 dosya), buraya
      eklenmedi (55) ⇒ motor noktayı görüyor, tarayıcı GÖRMÜYOR. Aynı hata
@@ -1473,7 +1631,7 @@
      (tazeliği yayın kapısı sınar). İçindekiler:
        data/yerlesimler_ek_korfez.js
        data/yerlesimler_ek_bosluk.js -->
-<script src="data/paket_19.js?v=r11100"></script>
+<script src="data/paket_19.js?v=r118773260"></script>
 <!-- serhat + kdmacar: motorda BAĞLIYDI, burada YOKTU. DENETİM AÇIK ölçtü ve
      üçüncü şartı da sınadı: index.html:878 `Object.keys(window).filter(/^YERL/)`
      ile deseni GERÇEKTEN tarıyor ⇒ satır eklemek işe yarıyor, sahte düzeltme
@@ -1491,7 +1649,7 @@
        data/yerlesimler_4ff22b.js
        data/yerlesimler_amerika2.js
        data/yerlesimler_hindistan.js -->
-<script src="data/paket_20.js?v=r11100"></script>
+<script src="data/paket_20.js?v=r183497834"></script>
 <!-- 🔴 2 EYLUL 2026 PARTISI — ALTI dosya, 36 nokta, 2624 -> 2660.
      `arac/_baglama_onsinav.py` ile BAGLANMADAN ONCE sinandi (ad alani 8/8 ·
      bagli evrende ad cakismasi 0 · 3 km mukerrer 0 · node ayristirma 8/8).
@@ -1520,7 +1678,7 @@
        data/yerlesimler_ok106.js
        data/yerlesimler_ok109.js
        data/yerlesimler_ok110.js -->
-<script src="data/paket_21.js?v=r11100"></script>
+<script src="data/paket_21.js?v=r118990370"></script>
 <!-- 🔴 3 Eylül 2026 — bu üç dosya `girdi.py`ye bağlanmış ama BURAYA
      bağlanmamıştı. Motor 68 noktayı okuyor ve peteklerini çiziyordu;
      tarayıcı dosyaları HİÇ yüklemiyordu ⇒ o noktaların işareti,
@@ -1540,7 +1698,7 @@
        data/yerlesimler_gamerika.js
        data/yerlesimler_kamerika.js
        data/yerlesimler_hint0912.js -->
-<script src="data/paket_22.js?v=r11100"></script>
+<script src="data/paket_22.js?v=r48653383"></script>
 <!-- 🟢 SÎVA (Siwa) — paket 0043 · H-0017 · 12 Eylül 2026, KITA 13.
      TEK NOKTA, ve sayının düşüklüğü işin küçüklüğü değil TESPİTİN
      KENDİSİ: sevk 12 aday verdi, ONU ZATEN VERİDEYDİ (üçü 3 km
@@ -1561,7 +1719,7 @@
        data/yerlesimler_nokta_ortadogu_0917.js
        data/yerlesimler_nokta_sibirya_0917.js
        data/yerlesimler_afrika2.js -->
-<script src="data/paket_23.js?v=r11100"></script>
+<script src="data/paket_23.js?v=r3058674"></script>
     <!-- BITIR-1923-0078 · A katmani -->
     <!-- ▼ data/paket_24.js — aşağıdaki 6 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -1573,26 +1731,73 @@
        data/yerlesimler_a78_avrupa.js
        data/yerlesimler_a78_okyanusya.js
        data/yerlesimler_p77_avrupa.js -->
-<script src="data/paket_24.js?v=r11100"></script>
+<script src="data/paket_24.js?v=r151004215"></script>
+<script src="data/yerlesimler_once1281_avrupa.js?v=r13797371"></script>
+<script src="data/yerlesimler_dogu_500_1281.js?v=r226484327"></script>
+<script src="data/yerlesimler_mo_sumer.js?v=r199062196"></script>
+<script src="data/yerlesimler_once1281_yt_amerika.js?v=r97397156"></script>
+<script src="data/yerlesimler_once1281_yt_ortadogu.js?v=r119537480"></script>
+<script src="data/yerlesimler_once1281_yt_iran_orta_asya.js?v=r267143735"></script>
+<script src="data/yerlesimler_once1281_yt_hint.js?v=r10688785"></script>
+<script src="data/yerlesimler_once1281_yt_dogu_gd_asya.js?v=r31290499"></script>
+<script src="data/yerlesimler_once1281_yt_dogu3.js?v=r71019859"></script>
+<script src="data/yerlesimler_odak_yedek_1023.js?v=r10548193"></script>
+<script src="data/yerlesimler_once1281_yt_avrupa.js?v=r39052924"></script>
+<script src="data/yerlesimler_once1281_yt_anadolu_kafkas.js?v=r136028973"></script>
+<script src="data/yerlesimler_once1281_yt_afrika_levant.js?v=r186403797"></script>
+<script src="data/yerlesimler_once1281_yt_afrika.js?v=r133328768"></script>
+<script src="data/yerlesimler_once1281_yt_yer3.js?v=r9149402"></script>
+<script src="data/yerlesimler_mo_boya_bekleyen.js?v=r151616349"></script>
+<script src="data/yerlesimler_mo_zincir.js?v=r193368585"></script>
+<script src="data/yerlesimler_mo_levant_anadolu.js?v=r43062429"></script>
+<script src="data/yerlesimler_mo_iran_asya.js?v=r217048120"></script>
+<script src="data/yerlesimler_mo_dogu_asya.js?v=r134162590"></script>
+<script src="data/yerlesimler_mo_avrupa.js?v=r36172810"></script>
+<script src="data/yerlesimler_mo_amerika.js?v=r144731538"></script>
+<script src="data/yerlesimler_mo_afrika.js?v=r191645339"></script>
+<script src="data/yerlesimler_ms1_1281_yeni.js?v=r126354769"></script>
+<!-- ARKEOLOJİ KATMANI (MÖ 12000–3000), şartname denetim/ARKEOLOJI-KATMANI-SARTNAME-1018.md · yalnız olay: kronoloji motoru BESLEMİYOR, koşuyu etkilemez -->
+<script src="data/olaylar_arkeoloji_pilot.js?v=r133023673"></script>
+<script src="data/olaylar_arkeoloji_d3-amerika-pasifik.js?v=r13428550"></script>
+<script src="data/olaylar_arkeoloji_d3-hint-cin.js?v=r131956722"></script>
+<script src="data/olaylar_arkeoloji_d3-misir-afrika.js?v=r181863665"></script>
+<script src="data/olaylar_arkeoloji_d3-italya-avrupa.js?v=r24970490"></script>
+<script src="data/olaylar_arkeoloji_d3-anadolu-ege.js?v=r229302668"></script>
+<script src="data/olaylar_arkeoloji_zincir.js?v=r218952883"></script>
+<script src="data/olaylar_arkeoloji_gecis.js?v=r94511595"></script>
+<script src="data/olaylar_arkeoloji_d2-iran-orta-asya.js?v=r114202943"></script>
+<script src="data/olaylar_arkeoloji_d2-afrika-amerika.js?v=r23601563"></script>
+<script src="data/olaylar_arkeoloji_d2-cin-dogu-asya.js?v=r124318263"></script>
+<script src="data/olaylar_arkeoloji_d2-hint-guneydogu.js?v=r89007884"></script>
+<script src="data/olaylar_arkeoloji_d2-italya-avrupa.js?v=r65881323"></script>
+<script src="data/olaylar_arkeoloji_d2-anadolu-ege.js?v=r159953902"></script>
+<script src="data/olaylar_arkeoloji_mezopotamya.js?v=r119861693"></script>
+<script src="data/olaylar_arkeoloji_misir-nil-sahra.js?v=r248127789"></script>
+<script src="data/olaylar_arkeoloji_afrika-iran.js?v=r225454529"></script>
+<script src="data/olaylar_arkeoloji_amerika.js?v=r266346467"></script>
+<script src="data/olaylar_arkeoloji_hint.js?v=r142665510"></script>
+<script src="data/olaylar_arkeoloji_cin.js?v=r52236506"></script>
+<script src="data/olaylar_arkeoloji_avrupa.js?v=r2034504"></script>
+<script src="data/olaylar_arkeoloji_levant-anadolu.js?v=r29409559"></script>
 <!-- PAKET-0033 (OPUS HAZIR KITA 107) · 2 kronoloji maddesi.
      🟢 Koşu sürerken bağlanması GÜVENLİ: kronoloji motoru BESLEMİYOR —
      ölçüldü, `uret_petek.py`de "olaylar" SIFIR kez geçiyor, `girdi.py`de
      geçen beş yer de YORUM. Motor yalnız yerleşim okur.
      ⇒ Yerleşim dosyası bağlamak koşuyu öldürür, kronoloji bağlamak öldürmez. -->
-<script src="data/olaylar_ok107.js?v=r11100"></script>
+<script src="data/olaylar_ok107.js?v=r128243035"></script>
 <!-- PAKET-0035-C · 9 harekât güzergâhı. app.js'teki SEFERLER ad alanı
      süzgeci (9b6d5aa) ÖNCE yazıldı — sıra bağlayıcıydı: süzgeç olmadan
      bağlansaydı dosya yüklenir ama SESSİZCE çizilmezdi.
      Beklenen konsol satırı ÖLÇÜLDÜ (tahmin değil, sınavda çıktı):
        "70 kayıt · SEFERLER 61/61 · SEFERLER_OK103 9/9" -->
-<script src="data/seferler_ok103.js?v=r11100"></script>
+<script src="data/seferler_ok103.js?v=r201577003"></script>
 <!-- PAKET-0039 · Avusturya-Macaristan'ın dağılışı, 9 madde.
      Külliyatta HİÇ yoktu: "Çekoslovakya" 0 · "Trianon" 0 · "Saint-Germain" 0
      · "Yugoslav" 0 madde; "Avusturya" 14 madde ama en sonuncusu 1878-07-29.
      ⚠️ Dosya denetime ZATEN girmişti (denetle.py `olaylar*.js`i GLOB ile
      okuyor); bu satır onu YAYINA sokar. Denetim evreni ile yayın evreni
      ayrı — biri bağlanmadan da görür, öteki görmez. -->
-<script src="data/olaylar_ok109.js?v=r11100"></script>
+<script src="data/olaylar_ok109.js?v=r244285867"></script>
 <!-- PAKET-0034 · Yenikale'nin kuruluşu (1703-01-01).
      🔴 SIRA BAĞLAYICI ve ikinci kez uygulandı: sıfırdan kurulan bir
      kalenin ilk `d:` başı bir OSMANLI kırılmasıdır (Değişmez 2 tavanı 0)
@@ -1600,7 +1805,34 @@
      1847 vakasının tekrarı, bu sefer önden görüldü.
      ⚠️ Nokta dosyası (`yerlesimler_ok106.js`) BAĞLAMA KUYRUĞUNDA;
      bağlanınca 2t 19 → 17'ye döner. -->
-<script src="data/olaylar_ok106.js?v=r11100"></script>
+<script src="data/olaylar_ok106.js?v=r167394991"></script>
+<!-- KUTU-H7-1015 (0068/H-0006): Avusturya ve İran savaşlarının eksik aşama halkaları -->
+<script src="data/olaylar_h7_asama.js?v=r187037531"></script>
+<!-- T5-1000-A-1016 (16 Ekim 2026): 1000-1281 yerleşim sahiplik kırılmalarının kronolojisi (Değişmez 2s evreni) — window.OLAYLAR_T5_1000A -->
+<script src="data/olaylar_t5_1000a.js?v=r87325807"></script>
+<script src="data/olaylar_t5_1000b.js?v=r127846140"></script>
+<script src="data/olaylar_bk_zincir_1024.js?v=r181727143"></script>
+<script src="data/olaylar_once1281_geriye.js?v=r205200705"></script>
+<script src="data/olaylar_once1000_1019.js?v=r86072876"></script>
+<script src="data/olaylar_kurulus_geri_1021.js?v=r92504888"></script>
+<script src="data/olaylar_ortacag_ortadogu.js?v=r28484899"></script>
+<script src="data/olaylar_ortacag_iran_turan.js?v=r109293145"></script>
+<script src="data/olaylar_ortacag_iberya_magrib.js?v=r105876968"></script>
+<script src="data/olaylar_ortacag_bizans_balkan.js?v=r2220427"></script>
+<script src="data/olaylar_ortacag_bati_avrupa.js?v=r114704582"></script>
+<script src="data/olaylar_ortacag_italya_dogu_avrupa.js?v=r114052073"></script>
+<script src="data/olaylar_ortacag_anadolu_kafkasya.js?v=r141890027"></script>
+<script src="data/olaylar_ortacag_iran_hint_magrib.js?v=r253450593"></script>
+<script src="data/olaylar_ortacag_bozkir.js?v=r89932797"></script>
+<script src="data/olaylar_ortacag_cin.js?v=r135888288"></script>
+<script src="data/olaylar_ortacag_dogu_guneydogu_asya.js?v=r186107459"></script>
+<script src="data/olaylar_ortacag_yer_sonrasi.js?v=r9523249"></script>
+<script src="data/olaylar_antik_misir_nubya.js?v=r108750190"></script>
+<script src="data/olaylar_antik_yakin_dogu.js?v=r21074929"></script>
+<script src="data/olaylar_antik_akdeniz.js?v=r175127293"></script>
+<script src="data/olaylar_ortacag_bekleyen_acik.js?v=r186791677"></script>
+<script src="data/olaylar_kunfuze_1016.js?v=r232857900"></script>
+<script src="data/olaylar_ki117.js?v=r133364504"></script>  <!-- POST-IT #117 — Kutsal İttifak şehir el değiştirme günleri -->
 <!-- 🔴 DENETIMIN EVRENI ILE YAYININ EVRENI AYRISMISTI — olculdu, kapatildi (2 Eylul).
      `denetle.py:903` glob("data/olaylar*.js") ile TUM kronoloji dosyalarini okur;
      `index.html` ise TEK TEK yazilan <script> satirlariyla okur. Diskte duran ama
@@ -1626,10 +1858,10 @@
        data/olaylar_sk105.js
        data/olaylar_sh110.js
        data/olaylar_cukurova_0907.js -->
-<script src="data/paket_25.js?v=r11100"></script>
+<script src="data/paket_25.js?v=r247725495"></script>
 <!-- 🔴 BU SATIR BIR KAZANIN TAMIRI — ve kazayi KOORDINATOR yapti.
      `data/olaylar_p0037.js` (Vidin'in Ekim 1689'da dususu) PAKET-0037
-     tarafindan `git rm --cached` ile SAHNELENMISTI (commit atilmadan).
+     tarafindan `git rm` komutunun `cached` secenegiyle SAHNELENMISTI (commit atilmadan).
      Git index PAYLASILIYOR; koordinator `git commit`i PATHSPEC'SIZ
      kostururken o silme 845195e'ye girdi ve dosya HEAD'den dustu.
      7c5f443 ile geri getirildi.
@@ -1666,7 +1898,9 @@
        data/seferler_sefer_ok_0075.js
        data/seferler_p0074.js
        data/seferler_p0077.js -->
-<script src="data/paket_26.js?v=r11100"></script>
+<script src="data/paket_26.js?v=r168136653"></script>
+<script src="data/savas_kunye_2.js?v=r154525586"></script>
+<script src="data/savas_kunye_3.js?v=r99977345"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
@@ -1689,7 +1923,9 @@
 
 
 </script>
-<script src="data/bolgeler.js?v=r11100"></script>
+<script src="data/bolgeler.js?v=r132845122"></script>
+<!-- bolge_pencere.js — bölge sınırı × o günün Osmanlı gövdesi (arac/uret_bolge_pencere.py, iniş adımı · Emre 17 Ekim 2026) -->
+<script src="data/bolge_pencere.js?v=r116929360"></script>
 <!-- ═══ GEOMETRİ: KODLANMIŞ KOORDİNAT HAVUZU (Emre kararı, 28 Eylül 2026) ═══
      Koşu 17b'de sürtünmeli yürüyüş İLK KEZ açıldı ve devletler_harita.js
      85,3 → 169,1 MB oldu — GitHub'ın 100 MB/dosya sert sınırının ÜSTÜ,
@@ -1710,7 +1946,7 @@
         için base64 + senkron çözme yolu seçildi (Emre: "app.js'e dokunma").
      📌 devletler_harita.js artık DEPODA DURMUYOR (.gitignore). Araçlar için
         yerelde üretilir: `py arac/kodla.py coz-c data data/devletler_harita.js` -->
-<script src="data/devlet_harita_ust.js?v=r11100"></script>
+<script src="data/devlet_harita_ust.js?v=r113568455"></script>
 <!-- ▼ TEMBEL YÜKLEME (29 Eylül 2026) — Emre: "tembel yüklemeyi de yapalım,
      app.js'e dokunmak gerekse de."
      ÖLÇÜLDÜ: devlet_parcalar.js 17,69 MB telde ve açılışta EŞZAMANLI
@@ -1729,7 +1965,7 @@
      📌 Seyrek katman özgün indeksleri kullanır: havuz yeniden sıralanmaz,
         DEVLET_PARCA_HALKA'ya dokunulmaz, `coz-c` geri üretim yolu değişmez.
         Üretimi: py arac/kodla.py on-dilim data -->
-<script src="data/devlet_parca_on.js?v=r11100"></script>
+<script src="data/devlet_parca_on.js?v=r111298244"></script>
 <!-- ▼ İKİNCİ KAYIPSIZ KODLAMA — donemler.js (29 Eylül 2026)
      Emre: "donemler.js'i de küçültelim, site daha da hızlansın."
      ÖLÇÜLDÜ, benzerliğe bakılarak seçilmedi:
@@ -1754,11 +1990,17 @@
         (İlk hedefte havuz dosyanın EN BAŞINDAYDI, bu yüzden hiç görünmemişti.)
      📌 donemler.js artık DEPODA DURMUYOR (.gitignore). Araçlar için yerelde:
         py arac/kodla.py coz-c data data/donemler.js donem -->
-<script src="data/donemler_on.js?v=r11100"></script>
-<script src="data/donemler_ust.js?v=r11100"></script>
-<script src="data/donem_parcalar.js?v=r11100"></script>
-<script src="js/geo_coz.js?v=r11100"></script>
-<script src="data/sehirler.js?v=r11100"></script>
+<script src="data/donemler_on.js?v=r186631943"></script>
+<script src="data/donemler_ust.js?v=r63215690"></script>
+<!-- 🔴 DÖNEM KATMAN 1 (25 Ekim 2026): donem_parcalar.js (13,5 MB) artık BURADA
+     YÜKLENMEZ — engelleyici <script> idi. Yerine açılış gününün halkalarını
+     taşıyan donem_parca_on.js (0,7 KB) var; tam havuz js/geo_coz.js tarafından
+     `load`dan SONRA arka planda getirilir ve window.__donemYenile() çağrılır.
+     Üretim: py arac/kodla.py on-dilim-donem data  (havuz değişince YENİDEN
+     koşturulmalı; `kodla.py kapi` bayatlığı yakalar). -->
+<script src="data/donem_parca_on.js?v=r53392118"></script>
+<script src="js/geo_coz.js?v=r56615683"></script>
+<script src="data/sehirler.js?v=r176551662"></script>
 <!-- Ⓑ DOLGU KATMANI (arac/dolgu.py) — window.DOLGU + DOLGU_PARCALAR +
      DOLGU_PARCA_HALKA. Üretilmemişse dosya YOKTUR ve yükleyici satırı
      404 verir; app.js `window.DOLGU || []` ile karşılar, atlas A
@@ -1790,8 +2032,16 @@
      Emre'nin 21 Eylül hükmü B'yi ÜÇ onarım işine indirdi (devlet toprağı
      içinde enklav boşluğu doldurma · eksklav birleştirme · yerleşimsiz
      koridor kapatma) — çöle/ormana/denize doğru doldurmak B'nin işi
-     DEĞİL. Eski tanımla üretilmiş bir dolgu.js, yanlış haritadır. -->
-<script src="data/altlik.js?v=r11100"></script>
+     DEĞİL. Eski tanımla üretilmiş bir dolgu.js, yanlış haritadır.
+
+     🟢 22 Ekim 2026 — B-GORUNUM: dolgu artık ÜRETİLDİ, ama YALNIZ 1281 ÖNCESİ
+     kesitler için (319 kesit, 3,0 MB; 1281 ve sonrası ayrı koşu, henüz yok).
+     Tanım Emre'nin 18 Ekim kararıdır (a–e: boşluk · 400 km eksklav bağı ·
+     koridor derinliği ≤ ağız · iki devlet arası boşluk · deniz boşluğu;
+     21 Eylül hükmünü geçersiz kılar). 1281'den sonra katman boş görünür ve
+     rozet bunu söyler (app.js `dolguGuncelle`). Anahtar kapalı varsayılandır.
+     Dosya `py arac/dolgu.py` ile (MOTOR_DOLGU_TARIH_SON=1281-01-01) üretildi. -->
+<script src="data/dolgu_once1281.js?v=r110065888"></script>
 <!-- 🔴 KORİDOR AĞI — 5. altyapı maddesi. 65 boğum düğümü · 64 kenar.
      Osmanlı menzil sistemi: sağ kol (Üsküdar→Konya→Halep→Şam→Mekke) ·
      orta kol (İznik→Sivas→Diyarbakır→Kerkük) · sol kol (→Erzurum→Kars⑂Tebriz)
@@ -1801,7 +2051,7 @@
      Satır ÖNCE bağlandı ki çizim yazıldığı an veri hazır olsun; bağlamayı
      unutmak bu projede yaşanmış bir kusurdur (11 Ağu: 33 nokta tarayıcıya
      hiç girmedi, betik "bağlandı" dedi ama bağlamadı). -->
-<script src="data/koridor.js?v=r11100"></script>
+<script src="data/koridor.js?v=r219996207"></script>
 <!-- 🟢 ARAYÜZ KORİDOR (16 Ağustos 2026) — YUKARIDAKİ "app.js bunu HENÜZ
      ÇİZMİYOR" UYARISI ARTIK GEÇERSİZ: çizim yazıldı, üç dosyanın altısı da
      (KORIDOR_DUGUM/KENAR · _HALKA2_ · _H2B_) tek katmanda çiziliyor.
@@ -1814,7 +2064,7 @@
      (tazeliği yayın kapısı sınar). İçindekiler:
        data/koridor_halka2.js
        data/koridor_f5c9a5.js -->
-<script src="data/paket_27.js?v=r11100"></script>
+<script src="data/paket_27.js?v=r218686388"></script>
 <!-- 🔴🔴 DOKUZ GÜN GÖRÜNMEZ DURDU — ve içinde ÖDENMİŞ BİR BORCUN ÖDEMESİ vardı.
      `koridor_yama_f5c9a5.js` 16 Ağustos 20:13'te yazılmış, 23 konumlu düğüm
      taşıyor, ve BURAYA HİÇ EKLENMEMİŞ. 25 Ağustos'ta OPUS HAZIR KITA 82
@@ -1859,7 +2109,7 @@
         görünmezliğin İKİ katmanı vardı ve birincisini kapatmak
         ikincisini görünür kıldı — koordinatör az kalsın "artık
         görünüyor" diye YANLIŞ BİR İDDİA yazıyordu; kodu okumak durdurdu. -->
-<script src="data/koridor_yama_f5c9a5.js?v=r11100"></script>
+<script src="data/koridor_yama_f5c9a5.js?v=r51225487"></script>
 <!-- 🔴🔴 BOĞAZ KENARI — ve bu SATIRIN YOKLUĞU AĞI İKİYE BÖLÜYORDU.
      Ölçüm (PAKET-0034, 2 Eylül 2026): yerli koridor ağı İKİ BİLEŞENDİ —
        [71] Rumeli   (istanbul · tekirdag · malkara …)
@@ -1880,7 +2130,7 @@
        desenine bakıyor (`/^KORIDOR_YAMA_[A-Za-z0-9]+$/`, app.js:2947).
        Çıplak `window.KORIDOR_YAMA` yalnız GEÇMİŞİ anlatan yorumlarda —
        `§7`de adıyla geçen o çakışma zamanında düzeltilmiş. -->
-<script src="data/koridor_yama_e9353f.js?v=r11100"></script>
+<script src="data/koridor_yama_e9353f.js?v=r216570674"></script>
 <!-- 🔴 OWTRAD — DIŞ KAYNAKLI KORİDOR AĞI (25 Ağustos 2026).
      T. M. Ciolek / ANU · CC BY-NC 2.5 · kaynak harita: İnalcık 2000
      ss.122-123 ve İnalcık & Quartet 1997:220-221.
@@ -1903,26 +2153,38 @@
      kez yaşandığını yazdığı kusur — "dosya diskte durur, motor okumaz,
      denetim TEMİZ raporlar". Bu sefer işçi oturum kendi teslimine
      "kayıtlı gecikme" damgası vurduğu için kaybolmadı. -->
-<script src="data/koridor_owtrad.js?v=r11100"></script>
+<script src="data/koridor_owtrad.js?v=r107124596"></script>
 <!-- BEKLEYENLER.md'den uretilir; elle duzenlenmez. -->
-<script src="data/bekleyenler.js?v=r11100"></script>
+<script src="data/bekleyenler.js?v=r207853879"></script>
 <!-- PAKET-ISYAN (13 Eylül 2026) — Eflak · Boğdan · Erdel 1594-1606 isyan taraması
      (Emre'nin C2 kararı: tâbi zemin korunur, üstüne ayrı tarama). Sahiplik kaydı
      DEĞİL, yalnız çizim; seçici js/suzgec.js `isyanSecim`, çizim js/app.js
      `isyanGuncelle`. Rapor: denetim/PAKET-ISYAN-0913.md -->
-<script src="data/isyan_tarama.js?v=r11100"></script>
-<script src="js/suzgec.js?v=r11100"></script>
+<script src="data/isyan_tarama.js?v=r91813749"></script>
+<script src="js/suzgec.js?v=r133223791"></script>
 <!-- 🔴 SIRA ŞART: `arama.js` `suzgec.js`in `sgNorm`unu kullanır ve
      BULAMAZSA ATAR (kopya normalleştirici bilerek yazılmadı — D215).
      Yani bu satır suzgec.js'ten SONRA, app.js'ten ÖNCE durmalı. -->
-<script src="js/arama.js?v=r11100"></script>
+<script src="js/arama.js?v=r82837097"></script>
 <!-- ⚠️ zaman.js BU SATIR OLMADAN HİÇ YÜKLENMİYORDU. Dosya vardı, app.js onu
      `window.ZAMAN` üzerinden çağırıyordu ama script etiketi eksikti; sonuç:
      window.ZAMAN tanımsız, `obTazele()` daha ilk satırında geri dönüyor ve
      detay panelinin tarihle birlikte ilerlemesi (bir kullanıcı şikâyeti üzerine
      yazılmıştı) fiilen hiç çalışmıyordu. app.js'ten ÖNCE yüklenmeli. -->
-<script src="js/zaman.js?v=r11100"></script>
-<script src="js/app.js?v=r11100"></script>
+<script src="js/zaman.js?v=r222421334"></script>
+<!-- NEGATIF-YIL-1010-A — GÜN SAYACI (window.GUN): app.js gunIdx/idxTarih/idxYazi BUNA bağlı;
+     yoksa gunIdx "js/gun.js yüklenmedi" diye ATAR (eski Date.UTC davranışına sessizce DÜŞMEZ).
+     app.js'ten ÖNCE durmalı. arac/odak_cozum.js bu satırı da okur (kamera nöbetçisi). -->
+<script src="js/gun.js?v=r42906389"></script>
+<!-- KAYNAK-ARAYUZ-1014 — KAYNAK DAMGASI (Emre, 14 Ekim 2026): her kronoloji maddesinde damgalı
+     "Kaynaklar" listesi; yalnız güvensiz kaynağa (Vikipedi vb.) dayanan madde GÖSTERİLMEZ.
+     Tablo (data/kaynak_guven.js) + hesaplayıcı (js/kaynak_damga.js) app.js'ten ÖNCE durmalı:
+     app.js `olaylar`ı ve künye kronolojilerini kurarken süzgeç olarak çağırır. -->
+<script src="data/kaynak_guven.js?v=r208058036"></script>
+<script src="js/kaynak_damga.js?v=r104472814"></script>
+<!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
+<script src="js/odak_zoom.js?v=r126728536"></script>
+<script src="js/app.js?v=r225142534"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -1939,7 +2201,7 @@
        data/d_sinirlar_asya.js
        data/d_sinirlar_amerika.js
        data/d_sinirlar_okyanusya.js -->
-<script src="data/paket_28.js?v=r11100"></script>
+<script src="data/paket_28.js?v=r80437785"></script>
 <!-- BITIR-1923-0078 · sinir kolu -->
 <!-- ▼ data/paket_29.js — aşağıdaki 5 dosya buraya PAKETLENDİ (arac/paketle.py).
      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını
@@ -1950,13 +2212,23 @@
        data/d_sinirlar_icasya.js
        data/d_sinirlar_uzakdogu.js
        data/antlasma_haritalari.js -->
-<script src="data/paket_29.js?v=r11100"></script>
+<script src="data/paket_29.js?v=r103888703"></script>
 <!-- Milimetrik sınır yaslaması (Emre, 23 Eylül 2026): hattın iki yanındaki taşan
      rengi örtmek için poligon kesişimi — js/d_katman.js _dYaslaGuncelle. -->
 <script src="https://cdn.jsdelivr.net/npm/polygon-clipping@0.15.7/dist/polygon-clipping.umd.min.js"></script>
-<script src="js/d_katman.js?v=r11100"></script>
-<script src="js/antlasma_harita.js?v=r11100"></script>
-<script src="js/anim_dili.js?v=r11100"></script>
-<script src="js/sefer_ok.js?v=r11100"></script>
+<!-- HARİTA RÖTUŞU (P84-ROTUS, 6 Ekim 2026): kaydın anlamı + uygulanışı TEK
+     dosyada; arac/rotus_coz.js node'da AYNI dosyayı koşturur (denetle.py R).
+     Kayıtlar data/rotus.js (window.ROTUS) — koordinatör yazar; dosya yoksa
+     rötuş 0 (app.js window.ROTUS yoksa boş liste sayar). -->
+<script src="data/rotus.js?v=r156039978"></script>  <!-- RÖTUŞ KAYITLARI — koordinatör yazar (P84-ROTUS) -->
+<script src="data/yol_ustu_duraklari.js?v=r247422073"></script>  <!-- YOL ÜSTÜ DURAKLARI — henüz okuyan yok, şartname YOL-USTU-DURAKLARI.md (#56) -->
+<script src="js/rotus.js?v=r61604785"></script>
+<script src="js/d_katman.js?v=r88266904"></script>
+<script src="js/cakisma_hizli.js?v=r82856146"></script>  <!-- ÇAKIŞMA GİDERİMİ Web Worker'da (tarihe git 5,5 sn donma) — cakismaGider'i sarar, app.js SONRASI -->
+<script src="js/antlasma_harita.js?v=r264668893"></script>
+<script src="js/anim_dili.js?v=r63557749"></script>
+<script src="js/sefer_ok.js?v=r144834124"></script>
+<script src="js/gelistirici.js?v=r140239405"></script>  <!-- GELİŞTİRİCİ NOTLARI — GitHub Issues `harita-notu`; Claude tarafı arac/not.py -->
+<script src="js/album.js?v=r82959085"></script>  <!-- ALBÜM düğmesi (DALGA-0059 H-0001) — obGoster sarmalar, app.js SONRASI -->
 </body>
 </html>

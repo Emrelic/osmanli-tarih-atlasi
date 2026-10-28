@@ -1,0 +1,13 @@
+diff --git a/VERI-YAPISI.md b/VERI-YAPISI.md
+index a6e550f7..024734fe 100644
+--- a/VERI-YAPISI.md
++++ b/VERI-YAPISI.md
+@@ -541,7 +541,7 @@ tarafı — nöbetçi yazılırken aynı kovaya girer.
+ | Dosya | Dizi | İçerik |
+ |---|---|---|
+ | `data/padisahlar.js` | `PADISAHLAR` | 41 kayıt — 36 padişah + Fetret + ara dönemler; portre yolu |
+-| `data/kisiler.js` | `KISILER` | 247 kişi — bkz. `DURUM.md §e` (240'ı hükümdar/komutan, 5. boyut eksik) |
++| `data/kisiler.js` | `KISILER` | 288 kişi (ölçüm 6 Ekim 2026) — bkz. `DURUM.md §e` (parantezdeki döküm eski 247'lik ölçümündür: 240'ı hükümdar/komutan, 5. boyut eksik — yenilenmedi) |
+ | `data/savaslar.js` | `SAVASLAR` (169), `ANTLASMALAR` (33), `SERILER` (16), `SEFERLER` (50) | Sefer güzergâhları menzil yollarına oturtulmuştur |
+ | `data/sehirler.js` | `SEHIRLER` | 62 şehir/kale kartı (yerleşim verisi 917 — index gerçeğin %7'si) |
+ | `data/devirler.js` | `DEVIRLER` | 🤖 üretilmiş — 11 antlaşmanın taralı devir alanı (`arac/uret_devirler.py`) |

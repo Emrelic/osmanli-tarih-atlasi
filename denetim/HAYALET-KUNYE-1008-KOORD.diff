@@ -1,0 +1,104 @@
+diff --git a/data/yerlesimler.js b/data/yerlesimler.js
+index af6f5ccd..3d47a447 100644
+--- a/data/yerlesimler.js
++++ b/data/yerlesimler.js
+@@ -598,7 +598,9 @@ window.YERLESIMLER = [
+ { ad:"Azak",neden:"H-0013 — Osmanlı doğrudan dönemi 1774-07-21'e kadar uzuyordu, TDV 1739'da Rusya'ya bırakıldığını söylüyor: 35 yıllık hayalet. Kırılma günü 1739-09-18 külliyatta zaten var (Belgrad Antlaşması, olaylar.js:116). Komşu Taganrog kaydı zaten 1739-09-18'de rusya'ya geçiyordu — iki kayıt ayrışmıştı.",kaynak:"islamansiklopedisi.org.tr/azak — \"Belgrad Antlaşması'na (1739) göre istihkâmları yıkılmak şartıyla Rusya'ya terkedildi\" (HTTP 200, gövde okundu)", tur:"kale", lat:47.113, lon:39.423, g:0, k:3, m:"Kefe", s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1637-06-18",t:"1642-02-26",d:"don-kazak"},{f:"1696-07-19",t:"1711-07-21",d:"rusya"},{f:"1739-09-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1475-06-06",t:"1637-06-18",y:"kusatma"},{f:"1642-02-26",t:"1696-07-19",y:"kusatma"},{f:"1711-07-21",t:"1739-09-18",y:"antlasma"}] },
+ { ad:"Taman", isg:[{f:"1771-07-12",t:"1774-07-21",d:"rusya",kaynak:"RBS «Щербатов, Федор Федорович» — 'В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань' · ЭСБЕ «Керчь» ('Русские вновь овладели К. в 1771 г.') · VE «Керчь». İŞGAL, ilhak değil: Küçük Kaynarca ile Rusya'ya bırakıldı. ⚠️ GÜN KAYNAKTA YOK — kaynak yalnız 'Temmuz' (Jülyen) diyor ⇒ Gregoryen 12 Temmuz–11 Ağustos; 1771-07-12 bu aralığın İLK günüdür, bir ALT SINIRDIR, olay günü DEĞİLDİR. YAMA-SEFER1768-0917 Y-2 · 1.MURAT M-4500 · UYGULA-4 18 Eyl 2026."}], tur:"kale", lat:45.2029, lon:36.7172, g:0, k:3, m:"Kefe", s:[{f:"1281-01-01",t:"1482-06-01",d:"ceneviz"},{f:"1774-07-21",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1482-06-01",t:"1774-07-21"}] },
+ { ad:"Anapa", kd:[{f:"1281-01-01",t:"1781-01-01",k:0,m:null},{f:"1829-09-14",t:"1923-10-29",k:0,m:null}], v:[{f:"1475-06-06",t:"1774-07-21",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}],  isg:[{f:"1791-07-26",t:"1792-01-09",d:"rusya",kaynak:"TDV `anapa` — kaynaklı: üçüncü kuşatma sonunda 26 Temmuz 1791'de işgal; Yaş Antlaşması ile geri verildi. Bitiş günü atlasın Yaş günüyle hizalı (Kefe emsali), gün için bağımsız kaynak okunmadı — YAMA-ANAPA-0913 (KITA 18)"},{f:"1828-06-24",t:"1829-09-14",d:"rusya",kaynak:"TDV `anapa` — kaynaklı: Osman Paşa 24 Haziran 1828'de Ruslar'a teslim oldu; 1829 Edirne ile Osmanlı hâkimiyetinden çıktı. d: dokunulmadı, isg: üstüne biniyor (Kefe emsali) — YAMA-ANAPA-0913 (KITA 18)"}],  neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true). ‖ VERI-KIRIM 14 Eyl 2026 (YAMA-KIRIM2-0913, Emre kararı D öncesi adım ①): 1441-1475 __BOSLUK__ (Çerkes kıyısı); isg: 1791-92 ve 1828-29 YAMA-ANAPA-0913 (KITA 18)'dan TEK KEZ.", tur:"kale", lat:44.894, lon:37.316, g:0, k:3, m:"Kefe", s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"__BOSLUK__",kaynak:"TDV anapa: Kırım Hanlığı Osmanlı himayesine GİRDİKTEN SONRA Kuzey Kafkasya Kırım hanlarının nüfuz alanı oldu (⇒ 1475 sonrası) · TDV cerkezler: Yinal (1427-1456) Çerkesleri birleştirdi. 1441'de Çerkes kıyısına Kırım yazan kaynak YOK. __BOSLUK__ = ARA ÇÖZÜM: Çerkes/Adige künyesi yok, doğrusu `cerkes` künyesi. 1475-06-06 olayın kendi günü (olaylar.js:47). denetim/ARASTIRMA-KIRIM2-0913.md ②"},{f:"1774-07-21",t:"1781-01-01",d:"kirim"},{f:"1829-09-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1781-01-01",t:"1829-09-14"}] },
+-{ ad:"Sohum", kd:[{f:"1281-01-01",t:"1578-08-09",k:0,m:null},{f:"1578-08-09",t:"1580-01-01",k:1,m:null},{f:"1580-01-01",t:"1810-07-11",k:2,m:"Batum"}],neden:"🟢 EMRE'NİN SORUSUNA CEVAP — veri ZATEN DOĞRU: Sohum DOĞRUDAN Osmanlı (`d:`), tâbi değil. TDV eyalet kurulduğunu ve VALİ ATANDIĞINI söylüyor. ⚠️ TDV kale ile iç bölgeyi AYIRIYOR: kale doğrudan idare, çevredeki Abaza beyleri tâbi. Veri NOKTA modellediği için `d:` doğru. 🔴 TEK DÜZELTME: bitiş 1810-07-01 → 1810-07-11 (TDV'nin verdiği gün). 10 günlük fark. ⚠️ 1810-07-01 başka kayıtlarda da geçiyorsa toplu değişir — ÖLÇMEDİM, koordinatör baksın. Küçük bir kalem, reddedilirse kayıt yine de doğru kalır.",kaynak:"TDV İslâm Ansiklopedisi, \"Sohum\" (Mustafa Aydın, EK-2 [2019], 519-522) — BİREBİR: \"1578'de İran seferi esnasında Sohum eyaleti oluşturuldu\" ve başına Çerkez Haydar Paşa getirildi; bitiş: \"11 Temmuz 1810'da Ruslar'ın eline geçti\".", tur:"liman", lat:43.001, lon:41.023, g:0, k:3, m:"Trabzon", s:[{f:"1281-01-01",t:"1578-08-09",d:"gurcistan"},{f:"1810-07-11",t:"1923-10-29",d:"rusya"}], d:[{f:"1578-08-09",t:"1810-07-11"}] },
++// HAYALET-KUNYE-1008 · Sohum: 1921-03-04 TDV `sohum` («Kızılordu ve yerel güçler şehri 4 Mart 1921’de ele geçirip»).
++//   1917-03-15 · 1917-11-07 · 1918-05-26 gün komşudan: Kutaisi (aynı süreç; TDV `sohum` 1917-1921 için gün VERMİYOR).
++{ ad:"Sohum", kd:[{f:"1281-01-01",t:"1578-08-09",k:0,m:null},{f:"1578-08-09",t:"1580-01-01",k:1,m:null},{f:"1580-01-01",t:"1810-07-11",k:2,m:"Batum"}],neden:"🟢 EMRE'NİN SORUSUNA CEVAP — veri ZATEN DOĞRU: Sohum DOĞRUDAN Osmanlı (`d:`), tâbi değil. TDV eyalet kurulduğunu ve VALİ ATANDIĞINI söylüyor. ⚠️ TDV kale ile iç bölgeyi AYIRIYOR: kale doğrudan idare, çevredeki Abaza beyleri tâbi. Veri NOKTA modellediği için `d:` doğru. 🔴 TEK DÜZELTME: bitiş 1810-07-01 → 1810-07-11 (TDV'nin verdiği gün). 10 günlük fark. ⚠️ 1810-07-01 başka kayıtlarda da geçiyorsa toplu değişir — ÖLÇMEDİM, koordinatör baksın. Küçük bir kalem, reddedilirse kayıt yine de doğru kalır.",kaynak:"TDV İslâm Ansiklopedisi, \"Sohum\" (Mustafa Aydın, EK-2 [2019], 519-522) — BİREBİR: \"1578'de İran seferi esnasında Sohum eyaleti oluşturuldu\" ve başına Çerkez Haydar Paşa getirildi; bitiş: \"11 Temmuz 1810'da Ruslar'ın eline geçti\".", tur:"liman", lat:43.001, lon:41.023, g:0, k:3, m:"Trabzon", s:[{f:"1281-01-01",t:"1578-08-09",d:"gurcistan"},{f:"1810-07-11",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-05-26",d:"transkafkasya"},{f:"1918-05-26",t:"1921-03-04",d:"gurcistan-demokratik-cumhuriyeti"},{f:"1921-03-04",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1578-08-09",t:"1810-07-11"}] },
+ 
+ // ── ÇERKEZYA ve KUBAN ──────────────────────────────────────────────────────
+ // hatalar 4.docx madde 4 — kullanıcı: "çıldır zaferi ile çerkezya soçi krasnodar
+@@ -1677,7 +1679,13 @@ window.YERLESIMLER = [
+ { ad:"Menorka (Mahon)", tur:"liman", lat:39.890, lon:4.260, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1708-09-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."},{f:"1708-09-29",t:"1802-03-25",d:"ingiltere"},{f:"1802-03-25",t:"1923-10-29",d:"ispanya"}] },
+ { ad:"İbiza", tur:"liman", lat:38.910, lon:1.430, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}] },
+ { ad:"Pantelerya", tur:"kale", lat:36.792, lon:11.990, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1861-02-13",d:"napoli"},{f:"1861-02-13",t:"1923-10-29",d:"italya"}] },
+-{ ad:"Elba",not:"🟡 1290-1292 Cenova ara-dönemi TEK KAYNAKLA (Catholic Encyclopedia) bulundu, İKİNCİ KAYNAKLA doğrulanmadı — bu yamaya YAZILMADI, ayrı araştırma gerektirir. 🔴🔴 1548/1557 sonrası ada BÖLÜNDÜ (Portoferraio Medici'ye, Piombino'nun geri kalanı Appiani'ye iade, sonra İspanyol garnizonu) — bu tek 'piombino' periyodu 1923'e kadar BASİTLEŞTİRMEDİR, gerçek durum çok-parçalı. Bkz. BULGU-ELBA-0905.md §⑤.",kaynak:"Wikipedia 'Principality of Piombino' + Britannica 'Elba' (çapraz doğrulandı) — TDV 'piza' slug 302 ölü, Batı Avrupa TDV kapsamı %0 (§4). 1399-02-19: Gherardo Appiani Pisa'yı Visconti'ye devrederken Piombino ve Elba'yı kendine ayırdı (GÜN hassasiyetinde, iki bağımsız kaynak).", tur:"kale", lat:42.784, lon:10.285, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1399-02-19",d:"piza"},{f:"1399-02-19",t:"1923-10-29",d:"piombino"}] },
++// HAYALET-KUNYE-1008 · Elba: EB1911 c.9 s.177-178 «In 1548 it was ceded by them to Cosimo I.» · «In 1802 the island
++//   was given to France by the peace of Amiens.» (yıl → 01-01) · Napolyon «from the 5th of May 1814 to the 26th of
++//   February 1815» egemen — künye YOK ⇒ __BOSLUK__ BEYANI (1815-06-09'a dek: dönüş günü kaynakta yok) · Toskana'ya
++//   iade: Viyana Nihai Senedi 9 Haziran 1815 (GRIPS «World and Japan» metni: «That part of the island of Elba»).
++//   1861-03-17 geçişi komşudan: Pisa · Floransa (aynı zincir). Tek nokta Portoferraio'ya ~4 km — adanın bölünmesi
++//   (Porto Longone İspanya/Napoli) TEK NOKTADA BASİTLEŞTİRMEDİR. Kayıttaki `not:` "1923'e kadar piombino" cümlesi BAYATTIR.
++{ ad:"Elba",not:"🟡 1290-1292 Cenova ara-dönemi TEK KAYNAKLA (Catholic Encyclopedia) bulundu, İKİNCİ KAYNAKLA doğrulanmadı — bu yamaya YAZILMADI, ayrı araştırma gerektirir. 🔴🔴 1548/1557 sonrası ada BÖLÜNDÜ (Portoferraio Medici'ye, Piombino'nun geri kalanı Appiani'ye iade, sonra İspanyol garnizonu) — bu tek 'piombino' periyodu 1923'e kadar BASİTLEŞTİRMEDİR, gerçek durum çok-parçalı. Bkz. BULGU-ELBA-0905.md §⑤.",kaynak:"Wikipedia 'Principality of Piombino' + Britannica 'Elba' (çapraz doğrulandı) — TDV 'piza' slug 302 ölü, Batı Avrupa TDV kapsamı %0 (§4). 1399-02-19: Gherardo Appiani Pisa'yı Visconti'ye devrederken Piombino ve Elba'yı kendine ayırdı (GÜN hassasiyetinde, iki bağımsız kaynak).", tur:"kale", lat:42.784, lon:10.285, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1399-02-19",d:"piza"},{f:"1399-02-19",t:"1548-01-01",d:"piombino"},{f:"1548-01-01",t:"1802-01-01",d:"toskana"},{f:"1802-01-01",t:"1814-05-05",d:"fransa-cumhuriyet"},{f:"1814-05-05",t:"1815-06-09",d:"__BOSLUK__"},{f:"1815-06-09",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+ { ad:"Kerkene (Kerkennah)",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"kale", lat:34.741, lon:11.224, g:0, k:4, m:"Tunus", s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}], d:[{"f":"1574-08-25","t":"1705-07-12"}], v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
+ 
+ // ---- Kızıldeniz ve Basra Körfezi ----
+diff --git a/data/yerlesimler_asya.js b/data/yerlesimler_asya.js
+index 41850ccc..58d62331 100644
+--- a/data/yerlesimler_asya.js
++++ b/data/yerlesimler_asya.js
+@@ -837,7 +837,10 @@ window.YERLESIMLER_ASYA = [
+      {f:"1305-01-01", t:"1392-01-01", d:"delhi-sultanligi"},
+      {f:"1392-01-01", t:"1561-03-29", d:"malva-sultanligi"},
+      {f:"1561-03-29", t:"1732-01-01", d:"babur-imparatorlugu"},
+-     {f:"1732-01-01", t:"1923-10-29", d:"maratha"}] },
++     {f:"1732-01-01", t:"1818-06-03", d:"maratha"},
++     // HAYALET-KUNYE-1008 · EB1911 c.27 s.583 «in the state of Gwalior» · «the headquarters of Sindhia».
++     // 1818-06-03 = `maratha` künye sonu (kaynak günü DEĞİL, künye sınırı — İndor/Gvalyar emsali).
++     {f:"1818-06-03", t:"1923-10-29", d:"gvalyar"}] },
+ 
+ // İndor — Holkar hânedanının merkezi; Malhar Rao Holkar 1733'ten itibaren
+ // buradan yönetti, şehir 1715 civarında pazar yeri olarak kuruldu.
+@@ -1402,7 +1405,9 @@ window.YERLESIMLER_ASYA = [
+   kur:"1537-01-01",
+   s:[{f:"1537-01-01", t:"1565-01-26", d:"vijayanagara"},
+      {f:"1565-01-26", t:"1687-01-01", d:"bicapur"},
+-     {f:"1687-01-01", t:"1923-10-29", d:"meysur"}] },
++     {f:"1687-01-01", t:"1799-05-04", d:"meysur"},
++     // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
++     {f:"1799-05-04", t:"1923-10-29", d:"meysur-racaligi"}] },
+ 
+ // MEYSÛR — Vodeyar hânedanı 1399'dan beri Vijayanagara'nın tâbiidir;
+ // Talikota'dan sonra bağımsızlaştı. Haydar Ali 1761'de, Tipu Sultan
+@@ -1413,13 +1418,17 @@ window.YERLESIMLER_ASYA = [
+ { ad:"Seringapatam (Şrirangapatnam)", tur:"kale", lat:12.4120, lon:76.6940, g:1, k:2,kd:[{f:"1761-01-01",t:"1799-05-04",k:1,m:"Seringapatam (Şrirangapatnam)"}], d:[],
+   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
+      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
+-     {f:"1565-01-26", t:"1923-10-29", d:"meysur"}] },
++     {f:"1565-01-26", t:"1799-05-04", d:"meysur"},
++     // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
++     {f:"1799-05-04", t:"1923-10-29", d:"meysur-racaligi"}] },
+ 
+ // Meysûr — Seringapatam'a 13 km; 1799'dan sonra krallığın başkenti oldu.
+ { ad:"Meysûr (Mysore)", tur:"sehir", lat:12.2950, lon:76.6390, g:1, k:3, d:[],
+   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
+      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
+-     {f:"1565-01-26", t:"1923-10-29", d:"meysur"}] },
++     {f:"1565-01-26", t:"1799-05-04", d:"meysur"},
++     // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
++     {f:"1799-05-04", t:"1923-10-29", d:"meysur-racaligi"}] },
+ 
+ // ===== 2d. Koromandel ve Tamil ülkesi =====
+ 
+diff --git a/data/yerlesimler_kamerika.js b/data/yerlesimler_kamerika.js
+index cda853f5..b0c3163e 100644
+--- a/data/yerlesimler_kamerika.js
++++ b/data/yerlesimler_kamerika.js
+@@ -857,7 +857,10 @@ window.YERLESIMLER_KAMERIKA = [
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.7 Northwest Coast (Smithsonian)" },
+   { ad:"St. John's (Newfoundland)", tur:"sehir", lat:47.561, lon:-52.712, g:0,
+     kur:"1583-08-05",
+-    s:[{f:"1583-08-05",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
++    // HAYALET-KUNYE-1008 · `abd` YANLIŞ: Newfoundland İngiliz kolonisi/dominyonu, Kanada'ya 1949'da katıldı (künye
++    //   `newfoundland-dominyonu` kaynağı: heritage.nf.ca · gov.nl.ca). 1763-02-10 gün komşudan: Plaisance (Paris Antl.).
++    //   DOĞRUSU 1855-01-01→ `newfoundland-dominyonu` — künyede «Renk YOK» ⇒ boya inene dek ingiliz-kuzey-amerika.
++    s:[{f:"1583-08-05",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}],
+     kaynak:"bulunamadı", not:"Gilbert'ın 1583 ilânı; balıkçı iskânı daha eski · dayanak: Dictionary of Canadian Biography" },
+   { ad:"Madawaska (Maliseet)", tur:"sehir", lat:47.35, lon:-68.32, g:0,
+     s:[{f:"1281-01-01",t:"1761-01-01",d:"maliseet"},{f:"1761-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+@@ -1468,7 +1471,9 @@ window.YERLESIMLER_KAMERIKA = [
+     s:[{f:"1550-01-01",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1923-10-29",d:"meksika"}],
+     kaynak:"bulunamadı", not:"Manila kalyonu limanı · dayanak: Cambridge History of Latin America (CUP)" },
+   { ad:"Tehuantepec", tur:"sehir", lat:16.323, lon:-95.241, g:0,
+-    s:[{f:"1281-01-01",t:"1523-01-01",d:"zapotek-krallik"},{f:"1523-01-01",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
++    // HAYALET-KUNYE-1008 · `ingiltere`/`abd` YANLIŞ (Kıstak Yeni İspanya → Meksika). Günler komşudan: Mitla
++    //   (kaynak: Marcus & Flannery 1996) — aynı Oaxaca süreci, ~136 km. Kaydın kendi dayanağı «1522 İspanyol».
++    s:[{f:"1281-01-01",t:"1523-01-01",d:"zapotek-krallik"},{f:"1523-01-01",t:"1535-04-17",d:"ispanya"},{f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1923-10-29",d:"meksika"}],
+     kaynak:"bulunamadı", not:"Kıstakta Zapotek merkezi; 1522 İspanyol · dayanak: Cambridge History of Latin America (CUP)" },
+   { ad:"Trujillo (Honduras)", tur:"sehir", lat:15.918, lon:-85.953, g:0,
+     kur:"1525-05-18",

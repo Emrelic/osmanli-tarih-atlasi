@@ -86,7 +86,7 @@ window.YERLESIMLER_HINDISTAN = [
   s:[{f:"1281-01-01", t:"1370-01-01", d:"delhi-sultanligi"},
      {f:"1370-01-01", t:"1601-01-01", d:"farukiler"},
      {f:"1601-01-01", t:"1860-01-01", d:"babur-imparatorlugu"},
-     {f:"1860-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1860-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 // kaynak: TDV "farukiler" md. — Fârûkîler hanedanının iki başşehrinden
 //   biri ("Başşehirleri Asîrgarh ve Burhânpûr'dur"), 772/1370'te
 //   kuruldu, 1601'de Bâbürlü kuşatmasıyla düştü.
@@ -100,7 +100,7 @@ window.YERLESIMLER_HINDISTAN = [
 { ad:"Burhânpûr", tur:"sehir", lat:21.30, lon:76.23, g:1, k:2, kur:"1398-01-01", d:[],
   s:[{f:"1398-01-01", t:"1601-01-01", d:"farukiler"},
      {f:"1601-01-01", t:"1860-01-01", d:"babur-imparatorlugu"},
-     {f:"1860-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] }
+     {f:"1860-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] }
 // kaynak: TDV "burhanpur" md. — Nâsır Han el-Fârûkî tarafından
 //   801/1398-99'da hanedanın yeni merkezi olarak kuruldu, Fârûkîler'in
 //   başşehri olarak kaldı, 1601'de Bâbürlüler'e geçti, 1685'te

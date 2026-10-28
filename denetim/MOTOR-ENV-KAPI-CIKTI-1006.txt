@@ -1,0 +1,67 @@
+# ARAC-MOTOR-ENV-KAPI-1006.py çıktısı — UMIT-W10-LEGO-1006d · 2026-10-05 22:14 · ağaç C:\atlas-w10 · HEAD ae2e6bbd
+# komut: py denetim/ARAC-MOTOR-ENV-KAPI-1006.py --kok C:\atlas-w10
+KÖK C:\atlas-w10 · evren 8 modül: dolgu, girdi, girdi_listesi, kosu_kilit, motor_onbellek, renkler, uret_petek, yukseklik
+okunan MOTOR_* ad: 44
+   MOTOR_B23_KAPALI                 —                  uret_petek.py:3047
+   MOTOR_BDOLGU_YOL                 —                  dolgu.py:92
+   MOTOR_BOGAZ_KAPALI               —                  uret_petek.py:1629, uret_petek.py:3898
+   MOTOR_BOS_TOPRAK                 —                  uret_petek.py:1989, uret_petek.py:1985
+   MOTOR_BOS_TOPRAK_COL             —                  uret_petek.py:2024, uret_petek.py:2020
+   MOTOR_B_DOLGU                    —                  uret_petek.py:7962
+   MOTOR_CANLI_LOG                  _ONB_ISLETIM       uret_petek.py:96
+   MOTOR_COL_UFUK_SAAT              —                  uret_petek.py:1892
+   MOTOR_DEVAM                      _ONB_ISLETIM       uret_petek.py:511
+   MOTOR_DEVAM_DIZIN                _ONB_ISLETIM       uret_petek.py:6882
+   MOTOR_DOLGU_CIKTI                —                  dolgu.py:1087
+   MOTOR_DOLGU_ESIK_KM2             —                  dolgu.py:68
+   MOTOR_DOLGU_KABA                 —                  dolgu.py:73
+   MOTOR_DOLGU_KAPALI               —                  uret_petek.py:6048
+   MOTOR_DOLGU_KESIT                —                  dolgu.py:1086, uret_petek.py:7979
+   MOTOR_DOLGU_NOKTA_TAVAN          —                  dolgu.py:79
+   MOTOR_DOLGU_ONBELLEK             —                  dolgu.py:113
+   MOTOR_DOLGU_PAYLASIM_ADIM_KM     —                  dolgu.py:77
+   MOTOR_DOLGU_SADE                 —                  dolgu.py:75
+   MOTOR_DOLGU_SINA_KAYDIR          —                  dolgu.py:121
+   MOTOR_DOLGU_YARICAP_KM           —                  dolgu.py:66
+   MOTOR_DOLGU_YOL                  —                  uret_petek.py:6331
+   MOTOR_EGIMSIZ                    —                  uret_petek.py:701
+   MOTOR_EGIM_AB_KAPALI             —                  uret_petek.py:1800
+   MOTOR_ISCI_BETIK                 _ONB_ISLETIM       uret_petek.py:521
+   MOTOR_KILIT_KAPALI               —                  kosu_kilit.py:96
+   MOTOR_NABIZ_SN                   _ONB_ISLETIM       uret_petek.py:411
+   MOTOR_NEHIR_AB_KAPALI            —                  uret_petek.py:1825
+   MOTOR_NEHIR_KAPALI               —                  uret_petek.py:1449, uret_petek.py:1599
+   MOTOR_NEHIR_OZNE                 —                  uret_petek.py:1448
+   MOTOR_ONBELLEK_BUDA_GUN          _ONB_ISLETIM       uret_petek.py:8302
+   MOTOR_ONBELLEK_DIZIN             _ONB_ISLETIM       dolgu.py:1024, dolgu.py:165, uret_petek.py:585
+   MOTOR_ONBELLEK_KAPALI            _ONB_ISLETIM       dolgu.py:168, uret_petek.py:588
+   MOTOR_PARALEL_ISCI               _ONB_ISLETIM       uret_petek.py:6845
+   MOTOR_PARALEL_KAPALI             _ONB_ISLETIM       uret_petek.py:512, uret_petek.py:7018, uret_petek.py:617
+   MOTOR_PUAN_KAPALI                —                  uret_petek.py:5913
+   MOTOR_SUREC_DIZIN                _ONB_ISLETIM       uret_petek.py:516
+   MOTOR_SUREC_EBEVEYN              _ONB_ISLETIM       uret_petek.py:151, uret_petek.py:153
+   MOTOR_SUREC_ISCI                 _ONB_ISLETIM       uret_petek.py:502
+   MOTOR_SUREC_ISCI_NO              _ONB_ISLETIM       uret_petek.py:126
+   MOTOR_UFUK_BANT                  —                  uret_petek.py:2154
+   MOTOR_YURUYUS                    —                  uret_petek.py:1162
+   MOTOR_YURUYUS_16                 —                  uret_petek.py:1172
+   MOTOR_YURUYUS_SAAT               —                  uret_petek.py:1163
+environ TARAMASI (okuma sayılmadı): uret_petek.py:581
+kümeler: _ONB_SONUC YOK · _ONB_ISLETIM 14 · _ONB_CIKTI_DISI YOK
+MOD: KAPSAYICI — `_ONB_SONUC` yok (③3 inmemiş). Bugünkü tuz İŞLETİM dışı her MOTOR_*'ı alır ⇒ 30 ad tuzda. Kapı ÖTMEZ.
+# çıkış kodu: 0
+
+# komut: py denetim/ARAC-MOTOR-ENV-KAPI-SINAV-1006.py --kok C:\atlas-w10   (M2 = 1006c önerisi, sınavın içinde gömülü)
+✓ Y0: çıkış 0 (beklenen 0) · '✓ TEMİZ' bulundu
+✓ Y1: çıkış 1 (beklenen 1) · 'SINIFSIZ (okunuyor, hiçbir kümede yok — tuzdan SESSİZCE düşer): MOTOR_YENI' bulundu
+✓ Y2: çıkış 1 (beklenen 1) · 'SINIFSIZ (okunuyor, hiçbir kümede yok — tuzdan SESSİZCE düşer): MOTOR_X, MOTOR_Z' bulundu
+✓ Y3: çıkış 1 (beklenen 1) · 'BAYAT' bulundu
+✓ Y4: çıkış 1 (beklenen 1) · 'ÇAKIŞMA' bulundu
+✓ Y5: çıkış 1 (beklenen 1) · 'DİNAMİK' bulundu
+✓ Y6: çıkış 0 (beklenen 0) · '✓ TEMİZ' bulundu
+✓ Y7: çıkış 2 (beklenen 2) · 'ÖLÇÜLEMEDİ' bulundu
+✓ M1: bugünkü motor çıkış 0 · 'MOD: KAPSAYICI' bulundu
+✓ M2: bugünkü motor + 1006c önerisi çıkış 0 · '✓ TEMİZ' bulundu
+
+✓ SINAV GEÇTİ — 10 vaka
+# çıkış kodu: 0

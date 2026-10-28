@@ -1,0 +1,459 @@
+##0121 Magosa [Kuzey Afrika] · SAHIP=lusignan (?lusignan) · magosa · yer=1
+  Y[1291] 1291’de Filistin’deki Akkâ şehri Memlükler’in eline geçince buradan gelen göçmenler sayesinde kısa sürede büyüdü.
+  Y[1211] 1211’de şehri ziyaret eden W.
+  E[1192] 308-246) tarafından kurulduğu söylenen şehir Eskiçağ ve Erken Ortaçağ’larda Roma, Bizans ve İslâm hâkimiyeti altında kaldıktan sonra 1192 yılında Lusignan Krallığı’nın hâkimiyetine geçti.
+  E[1373] 1373’te Cenevizliler’in işgaline uğradı ve 1464’e kadar onların yönetiminde kaldı.
+  E[1489] 1489 yılında buraya hâkim olan Venedikliler Lefkoşe’yi idarî, Magosa’yı askerî başşehir olarak kullanmayı tercih ettiklerinden şehri çevreleyen surları onararak muhkem bir kale haline getirdiler.
+  E[1570] 978 (1570) yılında Kıbrıs’ın fethine girişen Osmanlılar, Magosa’yı Lefkoşe’nin fethinden ancak on bir ay sonra 9 Rebîülevvel 979’da (1 Ağustos 1571) çetin bir kuşatmanın ardından ele geçirebildiler.
+
+##0122 Semadirek [Anadolu] · SAHIP=ceneviz (?ceneviz) · semadirek · yer=1
+  Y[1204] 1204 yılına kadar Bizanslılar’ın yönetiminde kaldı; bu tarihte Venedikliler’in eline geçti.
+  E[1332] 1332’de Aydınoğlu Umur Bey buraya akında bulundu.
+  E[1335] 1335’te Cenevizli Gattilusio ailesi Venedikliler’i adadan çıkardı.
+  E[1456] Adanın Osmanlı idaresine girmesi İstanbul’un fethinden sonra 860’tadır (1456).
+  E[1457] Ancak Semadirek dahil olmak üzere adaların tamamı çok geçmeden tekrar Osmanlı idaresine girdi (861/1457).
+
+##0123 Taşoz [Balkan] · SAHIP=ceneviz (?ceneviz) · tasoz · yer=1
+  Y[1204] 1204’te Latinler tarafından işgal edildiğinde Venedik doju Enrico Dandolo’nun idaresine verildi.
+  E[None] Milâttan önce 465 yılında Taşoz sakinleri Atina temsilcilerinin adadan çekilmesi için bir isyan başlattılar.
+  E[None] Neticede başarılı olamadıklarından milâttan önce 405 yılına kadar Atina birliği içinde kaldılar.
+  E[1327] 1327’de Bizanslılar adayı tekrar egemenlikleri altına aldılar.
+  E[1455] Rodos şövalyelerinin 1455’te Edirne’ye gelerek tâzimde bulunduklarını söylerken Sakız, Midilli, Limni, Gökçeada ve diğer adaların padişaha bağlandığını belirtir ( Bizans Tarihi , s.
+
+##0124 Bozcaada [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · bozcaada · yer=1
+  E[1329] Meşhur denizci Aydınoğlu Umur Bey İzmir’i fethettikten sonra 729 (1329) yılında sekiz gemi ile Bizans’a tâbi olan Bozcaada’ya gelip burasını yağma etti.
+  E[1377] Venedikliler, Bizans imparatoru ile aralarında cereyan eden uzun müzakerelerden sonra 1377’de Bozcaada’yı işgal etme müsaadesini aldılar, fakat bu durum iki denizci devlet arasında savaşa sebep oldu.
+  E[1455] Dukas 1455 yıllarına ait olaylardan bahsederken Limni, İmroz ve diğer adaların Osmanlı hâkimiyeti altında olduğunu kaydetmektedir ki bundan Bozcaada’nın da Osmanlı hâkimiyetinde olduğu düşünülebilir.
+  E[1463] Ancak Venedik ile süren uzun savaş devresinde (1463-1479) Bozcaada ve civar adalar bir aralık Venedik ve müttefikleri tarafından boğazı ve Osmanlı donanmasını kontrol için kullanıldı.
+
+##0125 İmroz [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · imroz · yer=1
+  Y[1204] Latin istilâsı (1204) sırasında Latin İmparatorluğu’na dahil oldu.
+  Y[1261] Stratejik önemi dolayısıyla Bizanslılar 1261’den itibaren Akdeniz, Ege ve Karadeniz’de ticarî faaliyetlerini arttıran ve bazı adaları ellerinde bulunduran Ceneviz ve Venedikliler’e karşı adayı ellerinde tutmaya çalıştılar.
+  E[None] Milâttan önce 500’de Atina’ya bağlanan ada bir asır sonra Delos Birliği’ne tâbi oldu.
+  E[1403] 1403’te bu sulardan geçen İspanyol seyyahı ve elçisi Clavijo, İmroz’un Bizans’a ait olduğunu yazar.
+  E[1444] Yine 1444’te Anconalı Cyriacus da buranın Bizans’ın elinde bulunduğunu belirtir.
+  E[1460] Nitekim Mora seferi sonrasında bölgedeki mülkünü kaybeden Dimitrios’a bu adaların idaresi bırakıldı (1460).
+
+##0126 Sisam [Anadolu] · SAHIP=ceneviz (?ceneviz) · sisam · yer=1
+  Y[1205] 1205’ten 1225 yılına kadar Sisam adası Latinler’in (Flandersli Baldwin) işgalinde kaldı.
+  E[1088] Selçuklu Emîri Çaka Bey (Tzaches) 1088’den 1091’e kadar adaya hâkim oldu.
+  E[1093] 1093’te Tigani’deki kaleyi tahkim eden Bizanslı General Ioannis Doukas tarafından geri alındı.
+  E[1346] 1304-1329 ve 1346-1475 yılları arasında Sakız adasındaki Cenevizliler’in (Maona) mülkiyetine girdi.
+  E[1483] Bayezid, 1483’te tamamen siyasî gerekçelerle Rodos şövalyeleriyle yaptığı görüşmeler esnasında kardeşi Cem Sultan’la ilgili olarak kaleyi yıktırdı.
+
+##0127 İstanköy [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · istankoy · yer=1
+  Y[1258] yüzyılda Arap akınlarına hedef olmasının ardından Latin hâkimiyetine girmiş, 1258’de yeniden Bizans’ın eline geçmiştir.
+  E[None] Milâttan önce 336’da Büyük İskender’in hâkimiyeti altına giren ada daha sonra Roma İmparatorluğu’na bağlanmış, Bizans idaresi döneminde ise bir piskoposluk merkezi olmuştur.
+  E[1315] Saint Jean şövalyeleri Rodos’a yerleştikten sonra burayı da alarak (1315) yeni kaleler yaptılar.
+  E[1455] İstanköy ilk ciddi Osmanlı hücumu ile 859’da (1455) karşılaştı.
+  E[1522] 928’de (1522) Rodos’un fethi sırasında anlaşma şartları gereği Osmanlılar’a terkedildi.
+
+##0128 Nakşa [Balkan] · SAHIP=naksa-dukaligi (Naxos (Nakşa) Dukalığı) · naksa · yer=1
+  Y[1205] Haçlı Seferi sırasında İstanbul’da Latin İmparatorluğu kurulunca Venedikli Marco Sanudo 1205’te sekiz gemiyle adayı ve yakın çevresini ele geçirdi, 1207’de İstanbul’daki Latin imparatorundan Nakşa dükü unvanını aldı.
+  Y[1309] 1304, 1309-1310’daki akınların ardından Gazi Umur Bey, 1336-1341 yıllarında düzenlediği seferlerle Nakşa dahil Kiklad adalarını yağmaladı.
+  Y[1236] Genel olarak Kiklad adalarıyla ilgili Osmanlı arşiv kayıtlarındaki son belge 1236 yılının Safer sonlarına (Aralık 1820) ait olup Nakşa kadı nâibine yollanmıştır ( BA , Cezâyir-i Bahr-i Sefîd Defterleri , nr.
+  E[None] Delos Birliği’ne katılan adayı Atinalılar milâttan önce 471’de ele geçirip milâttan önce 404’e kadar burada yönetimlerini sürdürdüler.
+  E[1383] Aydınoğulları’nın haraçgüzârı durumundaki adanın ve düklüğün idaresi 1383’te Veronalı Crispi ailesi tarafından ele geçirildi.
+  E[1416] Bizans kaynaklarına göre Çalı/Çavlı Bey idaresinde Osmanlı filosu 819’da (1416) Nakşa adasına kadar uzanmıştır.
+  E[1419] Nakşa dukasının Aydınoğulları’na verdiği haracı artık ödemeyeceği ve Osmanlılar’a haraç vereceği hususu 822 (1419) antlaşması ile yürürlüğe girmişti (ayrıca 1426, 1446, 1451, 1454 antlaşmalarında tekrarlanmıştır).
+
+##0129 Girit (Resmo) [Balkan] · SAHIP=venedik (Venedik Cumhuriyeti) · girit · yer=1
+  Y[1202] Haçlı Seferi sırasında Bizans İmparatorluğu arazisi taksim edilirken (1202) Montferrat Markisi Boniface’ın payına düştü.
+  Y[1204] Marki Boniface, imparatorun iznini aldıktan sonra 12 Ağustos 1204’te yapılan bir anlaşma ile Girit’i 100.000 gümüş karşılığında Venedikliler’e bıraktı.
+  Y[1236] Başta hırsızlık ve serkeşlikleriyle tanınan İsfakyalılar olmak üzere Hanya sancağına bağlı Apokorano ve Hanya nahiyesinin dağ köylerindeki gayri müslimler 1236 yılı Ramazan bayramında (1821 temmuz başları) ayaklandılar ve Türkler ile meskûn kasaba ve köylere …
+  E[961] Bizanslılar bu adayı geri almak için çeşitli siyasî ve askerî teşebbüslerde bulundular ( EI 2 [İng.] , III, 1083); nihayet Nikephoros Phokas kumandasındaki kuvvetler bir yıl süren kuşatmadan sonra 6 Mart 961’de Kandiye şehrini ele geçirdiler.
+  E[972] Şuayb olup Bizans kaynaklarında adı Kouroupas şeklinde zikredilmekte ve ailesiyle birlikte İstanbul’a götürüldüğü, oğlu Anemas’ın din değiştirerek Bizans ordusunda hizmet ederken 972’de öldüğü belirtilmektedir.
+  E[150] 150 yıla yakın bir zaman geçtikten sonra yeniden kurulan Bizans idaresi sırasında ada halkı tamamen hıristiyanlaştırıldı.
+  E[150] Bu durum karşısında Cenevizliler’in de tahrikiyle çıkan ilk isyandan sonra 150 yıl zarfında yirmiden fazla ayaklanma baş gösterdi.
+
+##0130 Kefe [Kırım-Karadeniz] · SAHIP=ceneviz (?ceneviz) · kefe · yer=1
+  Y[1239] Kıpçaklar’ın Kalka savaşı ile (1239) Moğollar’a yenilmesinin ardından Altın Orda Hanlığı’nın Doğu Avrupa’dan Türkistan’a kadar uzanan sahada kurduğu idarenin içinde yer alan Kefe aynı dönemde İtalyan kolonizasyonu ile tanıştı.
+  Y[1266] Altın Orda’dan yerleşme izni almak suretiyle Kefe’ye gelen Cenevizliler (1266 yılı civarı) Altın Orda’nın zayıflamasından istifade ederek buraya hâkim oldular.
+  E[1330] 1330’lu yıllarda Kefe’yi gören İbn Battûta buranın halkının çoğunluğunu Cenevizliler’in teşkil ettiğini, ancak müslümanlara ait mescidlerin de bulunduğunu, limanının yaklaşık 200 gemi alabilecek kapasitede olduğunu yazar ( Seyahatnâme , I, 358-359).
+  E[1341] Cenevizliler şehri tahkim etmişler ve 1341-1348 yılları arasında kuvvetli surlarla çevirmişlerdi.
+  E[1434] Hacı Giray, 1434 yılında Cenevizliler’i ağır bir bozguna uğrattıktan sonra onlarla yaptığı antlaşmada Kefe’nin hukukî bakımdan hâkimi oldu.
+  E[1466] Hacı Giray’ın vefatının (1466) ardından Kırım Hanlığı’nın büyük bir iç mücadeleye sahne olması, bundan faydalanan Cenevizliler’in hanlık üzerinde yoğun baskı kurması, hanlığın yönetiminde gerçek gücü temsil eden kabilelerin Osmanlı Devleti ile temasa geçmesin…
+
+##0131 Bahçesaray [Kırım-Karadeniz] · SAHIP=altinorda (Altın Orda (Deşt-i Kıpçak Hanlığı)) · bahcesaray · yer=1
+  E[1681] 1681’de Bahçesaray’da Osmanlı Devleti ile Rusya arasında bir antlaşma imzalandı.
+  E[1783] Çarlık Rusyası Kırım’ı 1783’te ilhak ettiğinde Bahçesaray’da otuz bir cami, iki kilise (biri Rum, biri Ermeni), iki sinagog, iki hamam, on altı han ve 1561 ev mevcuttu; 1854’te ise dokuz büyük cami, yirmi sekiz mescid vardı.
+
+##0132 Kerç [Kırım-Karadeniz] · SAHIP=ceneviz (?ceneviz) · kerc · yer=1
+  E[None] Daha sonra Peçenekler’in ve Kıpçaklar’ın eline geçen şehir, XIII.
+  E[1318] 1318’de Altın Orda Devleti’ne vergi vermek şartıyla Cenevizliler Kerç’e hâkim oldular.
+  E[1475] 1475’te Kırım’ın güneyindeki Ceneviz hâkimiyetine son veren Osmanlılar Kerç’i de fethettiler.
+  E[1520] Osmanlı hâkimiyetindeki Kerç’te 1520’de biri müslümanlara (Şehzade Camii mahallesi), diğeri hıristiyanlara ait iki mahalle bulunuyordu.
+
+##0133 Azak [Kırım-Karadeniz] · SAHIP=ceneviz (?ceneviz) · azak · yer=1
+  E[1332] Altın Orda Hanı Özbek Han şehirde bir mahalle oluşturmak isteyen Venedikliler’e 1332 yılında muayyen bir vergi karşılığında bu izni verdi.
+  E[1410] 1410’da Kıpçak Hanı Pulad Bey şehre hücum ederek büyük zarar verdi, 1418 yılında da benzer tahribat Kerimberdi Han tarafından yapıldı.
+  E[1559] Şehrin ilk muhasarası Kazaklar’ın reisi Dimitraş tarafından 1559’da gerçekleştirildi ise de Osmanlı donanması Azak Kalesi’ni savunan Ali Reis’in yardımına yetişti.
+  E[1660] Karadeniz sahillerinin Kazak saldırılarına karşı sadece Azak Kalesi ile korunamayacağını gören Osmanlılar, Don nehri üzerinde Sedd-i İslâm Kalesi, Kule-i Sultâniyye gibi yeni tahkimatlar yaptılar (1660-1662).
+
+##0134 Anapa [Kırım-Karadeniz] · SAHIP=altinorda (Altın Orda (Deşt-i Kıpçak Hanlığı)) · anapa · yer=1
+  E[1783] 1783-1786 yıllarında malî sıkıntı yüzünden zaman zaman duraklasa da İstanbul ve Anadolu’dan gerek mühimmat gerekse işçi sevkiyatıyla Anapa’da inşa edilen kale ve binalar büyük ölçüde tamamlandı.
+  E[1787] Fakat 1787’de başlayan savaş sırasında Osmanlılar hem Rumeli kesiminde hem Kafkasya tarafında yenilgiye uğradılar.
+  E[1828] Neticede Osman Paşa 24 Haziran 1828’de Ruslar’a teslim oldu.
+
+##0135 Sohum [Kırım-Karadeniz] · SAHIP=gurcistan (Gürcistan Krallığı/Krallıkları) · sohum · yer=1
+  E[542] 542’de Bizanslılar şehri boşalttı ve kalesini Sâsânîler’in eline geçmesini engellemek için yıktı.
+  E[565] 565’te Bizans İmparatoru I.
+  E[1451] 1451’de Osmanlı Devleti’ne itaat eden, ancak daha sonra büyük ihtimalle Cenevizliler’e güvenerek bu itaatten vazgeçip haracını göndermeyen Sohum Kalesi 1454’te Osmanlı donanmasınca tahrip edilerek tekrar ele geçirildi.
+  E[1768] Osmanlı-Rus savaşı esnasında (1768-1774) Abhazlar, kendilerine sert davranılmasından ötürü 1771’de isyan edip Sohum Kalesi’ni kuşatarak ele geçirdiler.
+
+##0136 Tebriz [İran-Kafkas] · SAHIP=ilhanli (İlhanlı Devleti) · tebriz · yer=1
+  Y[1231] 628 (1231) yılında Moğol işgaline uğrayan Tebriz’i Argun Han askerî faaliyetleri için merkez yaptı ve Hülâgû’nun 1256’da gelişiyle Hülâgû Han tahtı diye nitelendirildi; idarî-siyasî merkez oldu.
+  Y[1295] Abaka Han’ın İlhanlı başşehri yaptığı Tebriz en parlak günlerini şehri imar eden Gāzân Han devrinde (1295-1304) yaşadı.
+  Y[1273] 1067 ve 1273’te yine surlar ve binaların çoğu tahribata uğradı.
+  Y[1282] Tebriz, ilk müslüman İlhanlı hükümdarı olan Ahmed Teküder zamanında (1282-1284) dönemin en önemli ticaret merkezlerinden biri haline geldi.
+  Y[1304] Bu sebeple Ceneviz (1304) gibi ülkeler Tebriz’de şehbenderlik açtılar.
+  Y[1294] Geyhatu Han’ın ilk kâğıt parayı (693/1294), Safevîler’in gümüş ve bakır sikke bastırdıkları darphâne önemlidir.
+  Y[1303] Tebriz’in en önemli eseri Gāzân Han’ın 1303’te inşa ettirdiği, yapımı yedi yıl süren Şenbigāzân Külliyesi’dir.
+  Y[1309] yüzyıl), Reşîdüddin Fazlullāh-ı Hemedânî’nin Rab‘ıreşîdî (709/1309), Tâceddin Ali Şah’ın Ali Şah Camii (1312-1322), Karakoyunlu Cihan Şah tarafından yaptırılan Gökmescid (870/1465-66), Uzun Hasan’ın Nâsıriyye Külliyesi (889/1484) ve Kayseriye Çarşısı, Akkoyun…
+  E[1054] Tebriz, Revvâdî Emîri Ebû Mansûr ve bazı mahallî hükümdarlarla birlikte Azerbaycan’a gelen Sultan Tuğrul Bey’e itaatini bildirdi ve Selçuklu hâkimiyetine girdi (446/1054).
+  E[1059] 451’de (1059) Revvâdîler’den Ebû Nasr Memlân’ın isyanı yüzünden ertesi yıl Tebriz’i kuşatan Tuğrul Bey başarılı olamadıysa da 454’te (1062) şehri yeniden Selçuklu topraklarına kattı.
+  E[1118] Sultan Berkyaruk ile Muhammed Tapar kardeşler arasındaki anlaşmaya göre Muhammed’e kalan Tebriz, özellikle Irak Selçukluları zamanında (1118-1194) dönemin en önemli yerleşim merkezlerinin başında geliyordu.
+  E[1408] Şehir, 1408’de Timurlu Ebû Bekir Mirza’nın ve 1410’da Ahmed Celâyir’i yenen Karakoyunlu Yûsuf’un eline geçti.
+
+##0137 Nahçıvan [İran-Kafkas] · SAHIP=ilhanli (İlhanlı Devleti) · nahcivan · yer=1
+  Y[1221] Nahcıvan’ın gerilemesi Moğollar’ın 618’de (1221) burayı ele geçirmesinden sonra başladı.
+  E[1064] 456’da (1064) Revvâdîler’i mağlûp eden Selçuklu Hükümdarı Alparslan Nahcıvan şahlığına son verdi.
+  E[1092] 485’te (1092) Melikşah’ın ölümünün ardından bir süre daha Selçuklu Devleti’ne bağlı kaldıysa da Selçuklular’ın dağılmasıyla onların arazileri üzerinde ortaya çıkan İldenizliler Devleti’ne katıldı ve 570 (1174) yılına kadar İldenizliler’in merkezi oldu.
+  E[1435] 839-873 (1435-1468) tarihlerinde Karakoyunlular’ın hâkimiyeti altındaydı, XV.
+  E[1501] Safevî Devleti’nin ortaya çıkışı sırasında 907’de (1501) Şerûr adlı yerde Akkoyunlular’la Safevîler arasında yapılan savaştan sonra burada Safevî hâkimiyeti kuruldu.
+
+##0138 Tiflis [Anadolu] · SAHIP=gurcistan (Gürcistan Krallığı/Krallıkları) · tiflis · yer=1
+  Y[1230] Celâleddin Hârizmşah Rebîülâhir 624’te (Nisan 1227) Tiflis’i ele geçirdiyse de hâkimiyeti kısa sürdü; ancak 627’de (1230) tekrar şehri zaptetti.
+  Y[1231] 1231’de şehirde Moğol idaresi kuruldu.
+  Y[1276] yüzyılda inşa edilen Ançishati Daş Kilisesi, Kral Wahtang Gorgaslani tarafından başlatılan ve 620’de Kral Andreas tarafından tamamlanan Sion Katedrali, Meteh Mâbedi (1276-1293) ve Rüstem Han’ın yaptırdığı saray ve hamam (1638) zikredilir.
+  E[380] Buna göre, Gürcistan’ın (Kartli) idare merkezi Mtsheta’nın Pers saldırılarına uğraması üzerine burayı savunmak amacıyla Tabor dağında 380’li yıllarda bir hisar yapılmış, burası daha sonra Şuriziche (Karşıkale) adını almış, hemen civarında dağın eteğinde Kral …
+  E[523] Tiflis, Gürcü Kralı Gurgeni’nin 523’te Persliler’e yenilmesiyle onların idaresine girdi.
+  E[628] Daha sonra Bizans İmparatoru Herakleios, Türkler’le ittifak yaparak şehri kuşatıp ele geçirdi (628).
+  E[683] 683-764 yılları arasında Gürcistan’a yönelik Hazar akınları sırasında Tiflis bir ara Hazarlar’ın eline geçti.
+
+##0139 Revan [Anadolu] · SAHIP=ilhanli (İlhanlı Devleti) · revan · yer=1
+  E[1441] Bu arada 1441’de Kilikya’dan sürülen Ermeni katogikosları, Revan şehrine yakın Eçmiadzin’i (Üçkilise) kendilerine ikametgâh seçmişlerdi (Hacieva, VII, 64).
+  E[1603] 1603’te tekrar başlayan Osmanlı-Safevî savaşlarından Revan da etkilendi.
+  E[1025] Osmanlılar, 29 Şâban 1025’te (11 Eylül 1616) Emirgūne Han’ın savunduğu Revan Kalesi’ni kuşattıysa da elli beş gün sonra muhasarayı kaldırdı.
+  E[1639] 1639’da imzalanan Kasrışîrin Antlaşması ile Osmanlılar, Azerbaycan üzerindeki iddialarından vazgeçince Revan Safevîler’in elinde kaldı.
+
+##0140 Gence [İran-Kafkas] · SAHIP=ilhanli (İlhanlı Devleti) · gence · yer=1
+  Y[1221] Gence 1221’de Moğollar’ın saldırılarına hedef oldu.
+  Y[1223] 1223’te Gence Hâkimi Kaşkara (Kuşhara) bir grup Kıpçak Türkü’nün bu bölgede yerleşmesine izin verdi.
+  Y[1225] Ardından Celâleddin Hârizmşah Azerbaycan’a yürüyerek (1225) Gence Hâkimi Cemâleddin’den şehri teslim aldı.
+  Y[1231] 1231’de Gence ahalisi ayaklanarak şehirde bulunan Hârizm Garnizonu’nu basıp askerleri öldürdüler.
+  Y[1235] Bunun hemen ardından yeniden Azerbaycan’a gelen Moğollar 1235’te Gence’yi aldılar ve kendilerine sert bir şekilde direnen şehir halkını kılıçtan geçirdikleri gibi şehri de yakıp yıktılar.
+  E[1054] Gence’ye hâkim olan Şeddâdîler 1054’te Selçuklu Sultanı Tuğrul Bey’e tâbi olmak zorunda kaldılar.
+  E[1067] 1067 yılında Gürcistan seferinden dönen Alparslan bir süre Gence’de kaldı.
+  E[1110] Gürcü Kralı David 503’te (1110) Gence’ye kadar geldiyse de Muhammed Tapar tarafından bozguna uğratıldı.
+  E[1127] 521’de (1127) Gence ve Arrân, Selçuklu valileri Karasungur ve Çavlı’nın idaresindeydi.
+
+##0141 Bakü [İran-Kafkas] · SAHIP=ilhanli (İlhanlı Devleti) · baku · yer=0
+  E[None] yüzyılın ortalarından itibaren Şirvanşahlar’ın yaşadığı Bakü, XIII ve XIV.
+  E[1583] Daha sonra Bakü’yü Özdemiroğlu Osman Paşa fethedip (1583) Osmanlı İmparatorluğu’nun yeni teşkil edilen Şamahi eyaletine sancak olarak bağladı ise de 1606 yılında Safevîler şehri geri aldılar.
+  E[1747] Bağımsız Bakü Hanlığı kurulduğunda (1747) hanlığın merkezi yapılan şehir 1806-1813 Rus-İran savaşları sonunda imzalanan Gülistan Antlaşması (1813) ile kesin olarak Rusya’ya geçti ve Şamahi vilâyetinin merkezi oldu.
+  E[1949] Ward, “A Description of Gilan and Baku in 1874”, <span class="kisaltma" data-ad="asaf"><i>As.Af.</i></span>, XXXVI/1 (1949), s.
+
+##0142 Kabala [İran-Kafkas] · SAHIP=ilhanli (İlhanlı Devleti) · yahudilik · yer=0
+  E[637] Ömer tarafından fethiyle gerçekleşmiş (637), Kudüs yahudi cemaatinin Haçlılar tarafından kıyıma uğramasının (1099) ardından şehirde yeni bir yahudi yapılanması da Selâhaddîn-i Eyyûbî’nin bölgeyi fethinden sonra gerçekleşmiştir (1187).
+  E[1665] Sabataycılık hareketi bir Osmanlı yahudisi olan Sabatay Sevi adlı mistiğin 1665 yılında dünya yahudilerinin mesîh beklentisi içinde olduğu bir dönemde mesihlik iddiasında bulunmasıyla başlamıştır.
+  E[1665] Yahudi tarihinin en etkili mesîhî hareketi ise Sabatay Sevi adlı bir Osmanlı yahudisinin mesihlik iddiasında bulunması (1665) ve ardından Müslümanlığı kabul etmesi sonucunda oluşan, ancak yahudilere göre heretik sayılan ve gizli bir harekete dönüşen Sabataycı…
+  E[None] Nitekim milâttan önce 539’da Bâbil’i fetheden Pers İmparatoru Koreş, yahudilerin Kudüs’e dönüp mâbedi yeniden inşa etmelerine izin verdiği gibi Buhtunnasr tarafından yağmalanarak götürülen altın ve gümüş eşyaları yahudilere teslim etmiştir (Ezrâ, 5/14-16).
+
+##0143 Hemedan [Ortadoğu] · SAHIP=ilhanli (İlhanlı Devleti) · hemedan · yer=1
+  Y[1221] 1221’de Cebe Noyan kumandasındaki Moğol ordusu uzun bir kuşatma sonunda şehri ele geçirerek tahrip etti ve halkının büyük bir kısmını öldürdü.
+  Y[1303] Mesud da ikinci defa tahta çıkıncaya kadar (1303) burada hapis kaldı.
+  E[1029] Ziyârîler’den sonra Büveyhî ve Benî Kâkûye hânedanları arasında el değiştiren ve genellikle başşehir hüviyetini koruyan Hemedan 420’de (1029) Göktaş, Boğa ve Kızıl’ın kumandasındaki Oğuzlar, 494 (1101) yılında Selçuklu ordusu tarafından kısmen tahrip edildi.
+  E[1194] Tuğrul’un Hârizmşah Alâeddin Tekiş’e yenilmesi üzerine Hârizmşahlar’ın hâkimiyeti altına girdi (1194) ve İldenizliler’den Kutluğ İnanç’a verildi.
+  E[1141] Ancak Ahmed Paşa’nın daha kuvvetli bir ordu ile geleceğinden korkarak 17 Safer 1141’de (22 Eylül 1728) imzalanan Hemedan Barış Antlaşması ile Osmanlılar’ın bütün haklarını tanıdı.
+
+##0144 Kirmanşah [Ortadoğu] · SAHIP=ilhanli (İlhanlı Devleti) · kirmansah · yer=1
+  E[1045] Sırasıyla Emevîler, Abbâsîler, Büveyhîler, Hasaneveyhîler ve Annâzîler’in idaresinde kalan şehri 437’de (1045) Tuğrul Bey’in gönderdiği İbrâhim Yinal Annâzî Ebü’ş-Şevk’ten alıp Selçuklu topraklarına kattı (Bündârî, s.
+  E[1630] Osmanlı-İran savaşları sırasında birçok defa el değiştiren ve bu arada 1039 (1630) yılında Hüsrev Paşa tarafından tuğla surlarla tahkim edilen şehir en son Nâdir Şah tarafından ele geçirildi (1142/1729-30) ve 1732, 1736 antlaşmaları ile İran’da kaldı.
+  E[1916] Kirmanşah son olarak 1916 yılında Osmanlılar’ın eline geçtiyse de 1917 Martında tahliye edildi.
+
+##0145 Şehrizor [Ortadoğu] · SAHIP=ilhanli (İlhanlı Devleti) · sehrizor · yer=1
+  Y[1233] Kökböri’nin ölümünün (630/1233) ardından yeniden Abbâsîler’in hâkimiyetine giren Şehrizor 643 (1245) yılında Moğol istilâsına uğradı ve 1258’de İlhanlılar’ın idaresine geçti.
+  Y[1226] 1226 yılında meydana gelen şiddetli deprem ve 1245’teki Moğol yağması sebebiyle Şehrizor büyük tahribata uğradı ve eski önemini kaybetti.
+  E[1100] Nitekim İbnü’l-Esîr, Selçuklu Sultanı Berkyaruk’un Şehrizor’a gelerek (493/1100) burada topladığı Türkmenler’den büyük bir ordu oluşturduğunu ve kardeşi Muhammed Tapar’ın üzerine yürüdüğünü kaydeder ( el-Kâmil , X, 294).
+  E[1102] 495 (1102) yılında Salgurlu Türkmenleri’nden Kara-beli, Dakūkā ile Şehrizor dışında Annâzîler’in elindeki yerleri zaptetti.
+  E[1130] Muhtemelen Arslantaş’ın oğlu Emîr Kıpçak tarafından 1130 yılında kurulan Şehrizor Kıpçak Emirliği, 1140’ta Musul Atabegi İmâdüddin Zengî’nin bölgeye hâkim olmasıyla sona erdi.
+  E[1185] 581-582 (1185-1186) yıllarında Şehrizor yöresini ele geçiren Selâhaddîn-i Eyyûbî, Şehrizor ve Kara-beli derbendini Ali Küçük’ün oğlu Erbil Atabegi Muzafferüddin Kökböri’ye iktâ etti (586/1190).
+
+##0146 Halep [Anadolu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · halep · yer=1
+  Y[1237] Yûsuf devrinde (1237-1260) Memlükler’le başlatılan mücadele halifenin müdahalesiyle sona erdi.
+  Y[1260] Hülâgû 1260’ta şehri ele geçirerek yakıp yıktı.
+  Y[1260] Aynicâlût Savaşı’nda mağlûp olan Moğollar Halep’i Memlükler’e bıraktılar (1260).
+  Y[1204] 1204’te şehirde sekizi Şâfiîler’e, dokuzu Hanefîler’e mahsus on yedi medrese, 1260’ta yirmi biri Şâfiîler’in, yirmi üçü Hanefîler’in olmak üzere toplam kırk dört medrese mevcuttu.
+  Y[1209] Zengîler dönemine ait olan (1209) ve çeşitli onarımlar geçirmesine rağmen orijinal şeklini büyük ölçüde koruyan bu kısım, savunma ve gözetleme kulesi vazifesini gören iki burç ile uzun bir köprüden oluşmaktadır.
+  Y[1235] Bunların en önemlisi Medresetü’l-Firdevs olup 633 (1235) yılında, Ferâfire Hankahı gibi Eyyûbî Hükümdarı el-Melikü’n-Nâsır Yûsuf’un karısı Safiyye Hatun tarafından yaptırılmıştır.
+  E[962] Seyfüddevle, Bizans saldırılarına karşı burayı uzun yıllar başarıyla savunduysa da Nikephoros Phokas 351’de (962) şehri ele geçirmeye muvaffak oldu.
+  E[969] Bu durum, Hamdânî Devleti’nin vârisleri arasında ihtilâflara ve Bizans İmparatoru Nikephoros Phokas’ın 358 (969) yılında Halep’i tekrar istilâ etmesine sebep oldu; Hamdânîler şehri ancak 365’te (975) geri alabildiler.
+  E[1014] Halep 404’te (1014) Fâtımîler’in eline geçti ve Mansûr b.
+  E[1068] Bizans İmparatoru Romanos Diogenes 1068-1071 yılları arasında Halep üzerine iki sefer düzenledi.
+
+##0147 Hama [Ortadoğu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · hama · yer=1
+  Y[1298] el-Melikü’l-Muzaffer’in 698’de (1298-99) ölümü üzerine Hama doğrudan Memlükler’in hâkimiyeti altına girdi ve Suriye’nin kazalarından birinin yönetim merkezi oldu.
+  Y[1284] Avlunun batı tarafındaki revaklı bölümden, 1284-1298 yılları arasında Hama emirliği yapmış olan el-Melikü’l-Muzaffer’in türbesine varılır.
+  E[944] Hamdânî Emîri Seyfüddevle zamanında (944-967) Halep şehrine katılan Hama, Bizans İmparatoru Nicephoros Phocas’ın saldırısına uğradı (357/968).
+  E[1110] 1110’da Haçlılar’a haraç ödeyen şehirler arasında yer alan Hama daha sonra Dımaşk Atabegi Tuğtegin tarafından ele geçirildi.
+  E[1135] Böri şehri yeniden fethetmeyi başardıysa da 1135’te Zengî tekrar burayı alıp Orta Suriye’deki askerî harekâtlarının bir üssü haline getirdi.
+  E[1146] Zengî’nin ölümünden sonra (1146) hâcib Selâhaddin el-Yağıbasanî, Nûreddin Mahmud Zengî’ye tâbi olarak Hama emirliğine getirildi.
+
+##0148 Beyrut [Ortadoğu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · beyrut · yer=1
+  Y[1291] 1291’e kadar Haçlılar’ın elinde kalan şehir, bu tarihte Memlük Sultanı el-Melikü’l-Eşref Halîl adına Şam Valisi Emîr Sencer Ebû Şücâî tarafından fethedildi.
+  E[1110] Haçlı seferleri sırasında Beyrut Kudüs Krallığı’nın eline geçti (1110).
+  E[1187] 1187’de şehri Selâhaddîn-i Eyyûbî geri aldıysa da on yıl sonra Haçlılar burayı tekrar zaptettiler ve Kudüs Krallığı’na bağladılar.
+  E[1516] Beyrut Yavuz Sultan Selim’in Mısır seferi sırasında bölge ile birlikte Osmanlı hâkimiyetine girdi (1516).
+  E[1775] Cezzâr Ahmed Paşa’nın Sayda beylerbeyiliği döneminde (1775-1785) bölgede Osmanlı hâkimiyeti yeniden kuruldu.
+
+##0149 Trablusşam [Ortadoğu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · trablussam · yer=1
+  Y[1201] Şehir Haçlılar’ın elinde iken 552 (1157) ve 597’de (1201) iki büyük depreme mâruz kaldı ve hasar gördü.
+  Y[1289] 688’de (1289) Sultan Kalavun şehri fethetti, bu esnada şehir halkının bir kısmı gemilerle Kıbrıs’a kaçtı.
+  Y[1294] Bunlardan el-Câmiu’l-Mansûrî / el-Câmiu’l-kebîr (693/1294), Câmiu Taynâl/Taylân (736/1336), Câmiu’l-Attâr, Câmiu’t-tevbe, Câmiu’l-Bertâsî ile Tedmüriyye, Şemsiyye, Nûriyye ve Karatâviyye medreseleri anılabilir.
+  E[None] Milâttan önce 258-257’de İskender’in haleflerinden Ptolemaio’nun kurduğu devletin sınırları içinde yer alan şehir, milâttan önce 64’te Roma İmparatorluğu’nun idaresi altına girdi ve imparatorluğun ikiye ayrılmasının ardından Bizans hâkimiyetine intikal etti.
+  E[878] Trablus 264 (878) yılından itibaren Tolunoğulları’nın hâkimiyetine girdi.
+  E[969] 358’de (969) Bizans İmparatoru Nikephoros Phokas şehri tahrip etti.
+  E[971] 360 (971) yılı civarında Fâtımî nüfuzu altına giren Trablusşam’da Şiî nüfusu arttı.
+
+##0150 Kudüs [Ortadoğu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · kudus · yer=1
+  Y[1229] Friedrich, düzenlediği Haçlı seferi sırasında 626 (1229) yılında Eyyûbî Hükümdarı el-Melikü’l-Kâmil Muhammed ile anlaşarak on yıl süreyle Kudüs’e ve Kudüs’ü Yafa’ya bağlayan dar bir arazi şeridine sahip olma hakkını elde etti (Demirkent, Haçlı Seferleri , s.
+  Y[1229] Friedrich 17 Mart 1229’da Kudüs’e girdi ve Nablus kadısı Şemseddin’in refakatinde şehri dolaştı.
+  Y[1244] Hârizmliler, Dımaşk civarında dehşet saçarak bütün bölgeyi yakıp yıktıktan sonra 11 Temmuz 1244’te Kudüs’e girdiler.
+  Y[1250] Kudüs, Memlük Devleti’nin ilk kuruluş yılları sırasında (1250-1260) Suriye’deki Eyyûbîler ile Memlükler arasında birkaç defa el değiştirdi.
+  Y[1256] Ancak Filistin ve Kudüs 654 (1256) yılında tekrar Eyyûbîler’in eline geçti.
+  Y[1260] Moğollar’a karşı kazanılan Aynicâlût zaferiyle (1260) Eyyûbî hânedanı da sona erdi ve şehir daha istikrarlı bir yönetime kavuştu.
+  Y[1310] Kalavun’un üçüncü saltanatı döneminde (1310-1341) Alemüddin Sencer el-Cavlî’nin Kudüs nâibü’s-saltanası olduğunu belirtmekte (II, 271-272), İbn Tağrîberdî de 709 (1309) yılı olaylarını anlatırken Kudüs nâibinden bahsetmektedir ( en-Nücûmü’z-zâhire , VIII, 258…
+  Y[1282] Yine Kudüs’ü ziyaret eden sultanlardan Kalavun 681’de (1282), şehre gelen fakirler için Ribâtu Kalavun’u (Ribâtü’l-Mansûrî) yaptırmıştır.
+  E[597] Üç yıl sonra kralın isyan etmesi üzerine 597’de Kudüs’e ikinci defa giren Nebukadnezzar, bu defa mâbedin kalan eşyalarıyla birlikte yeni kral Yehoyakin’i Bâbil’e götürmüş, onun yerine Tsedekiya’yı kral yapmıştır (II.
+  E[444] Nihayet milâttan önce 538’de şehre dönen Zerubbabel mâbedin temellerini atmış (Ezra, 3/8), 444 yılına doğru Nehemya şehrin duvarlarını tekrar inşa etmiş, Ezra da Mûsâ şeriatının otoritesini yeniden tesis ederek Kudüs’ü Yahudiliğin dinî merkezi yapmıştır.
+  E[332] Helenistik dönemin (332-63) ardından 63 yılında Pompeius Kudüs’ü işgal etmiş, şehri kuşatan duvarların bir kısmını yıktırmış, Crassus 54’te mâbedi yağmalamış, 40 yılında Partlar şehri ele geçirmiş, Büyük Herod 37’de şehri alıp duvarları onarmış, çeşitli yapıl…
+  E[135] İmparator Hadrianus zamanında Romalılar Kudüs’ün harabeleri üzerinde yeni bir putperest şehir kurmak isteyince yahudiler ayaklanmış, ayaklanma bastırıldıktan sonra (135) şehrin inşası tamamlanmış, adı da Colonia Aelia Capitolina olarak değiştirilmiş ve Aelia …
+
+##0151 Gazze [Ortadoğu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · gazze · yer=1
+  Y[1258] 1258 yılında Bağdat’ı zaptederek Abbâsî hânedanlığını çökerten Moğollar’ın İslâm topraklarında ulaşabildikleri batıdaki en uç nokta Gazze’dir.
+  E[624] yılında (624) Bedir Gazvesi’ne yol açan zengin ticaret kervanı da Ebû Süfyân idaresinde Gazze’den dönmekteydi.
+  E[1149] Baldwin’in eline geçen Gazze (1149), Hittîn Savaşı’ndan sonra Selâhaddîn-i Eyyûbî tarafından geri alındı (1187) ve tekrar müslüman kimliğine kavuşturuldu.
+  E[1517] Ancak şehir, Moğol kuvvetlerinin Memlükler tarafından Aynicâlût Savaşı’nda hezimete uğratılmalarından (3 Eylül 1260) sonra geri alınmış ve Mısır’ın Osmanlılar tarafından fethine kadar (1517) onların idaresinde kalmıştır.
+  E[1773] 1768-1774 Osmanlı-Rus savaşı sırasında Ruslar’ın kışkırttığı Şeyh Zâhir el-Ömer isyan ederek Kudüs, Yafa, Nablus ve Gazze’yi ele geçirdi (1773).
+
+##0152 Akkâ [Ortadoğu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · akka · yer=1
+  Y[1229] Böylece uzun süre Filistin’deki Haçlı Krallığı’nın merkezi olan Akkâ, 1229’dan sonra büyük şövalye tarikatlarından bilhassa Saint Jean şövalyelerinin karargâhı haline geldi ve bu sebeple St.
+  Y[1291] 1291’de Memlük Sultanı el-Melikü’l-Eşref Haçlılar’ın Filistin’deki hâkimiyetine son verince Akkâ’yı da zaptetti.
+  E[640] Muâviye Suriye valisi iken (640), bölgede bulunan Bizans’tan kalma eski havuzları onartarak gemi inşasına uygun hale getirtti ve böylece Akkâ o devirde İskenderiye’den sonra gemi inşasına uygun ikinci büyük tersane oldu.
+  E[649] 649’da Kıbrıs’a, 654’te Rodos’a düzenlenen seferler Akkâ’dan başlatıldı.
+  E[969] yüzyılın ortalarında İhşîdîler’in, 969’dan itibaren de Fâtımîler’in eline geçen şehir, Fâtımîler döneminde bölgede faaliyet göstermeye başlayan Türkmenler ve Selçuklular tarafından zorlandı.
+  E[1074] 1074’te Selçuklu emîrlerinden Şöklü burayı ele geçirdi.
+
+##0153 Kerkük [Ortadoğu] · SAHIP=ilhanli (İlhanlı Devleti) · kerkuk · yer=1
+  E[922] Yavuz Sultan Selim’in İran’a karşı Çaldıran zaferini kazandıktan sonra Doğu ve Güneydoğu Anadolu’nun fethi için görevlendirdiği Bıyıklı Mehmed Paşa, Rebîülâhir 922’de (Mayıs 1516) Mardin Koçhisarı (günümüzde Kızıltepe) yakınlarında Safevîler’i kesin bir yenil…
+  E[1743] Nâdir Şah, 1156’da (1743) 10.000 civarındaki ordusuyla Kerkük Kalesi önüne gelip burayı top ateşine tuttuktan sonra ele geçirdiyse de kale 1746 tarihli Osmanlı-İran Antlaşması ile Osmanlı Devleti’ne devredildi.
+  E[1918] 28 Ekim 1918’de başlayan İngiliz hücumları üzerine Osmanlı birlikleri burayı boşaltıp Altınköprü’ye çekildiler ve böylece Kerkük’te İngiliz idaresi kurulmuş oldu.
+  E[1927] 1927’de Kerkük’ün güneyindeki Baba Gürgür’de yapılan sondaj sonucunda 500 m.
+
+##0154 Bağdat [Ortadoğu] · SAHIP=ilhanli (İlhanlı Devleti) · bagdat · yer=1
+  Y[1258] Kuruluşundan Abbâsî Devleti’nin yıkılışına (1258) kadar hilâfet merkezi olarak kalan Bağdat Osmanlılar devrinde Bağdat vilâyetinin merkezi ve 1921’de de Irak’ın başşehri oldu.
+  Y[1255] yüksekliğindeki yeşil kubbesi 941’de fırtınalı bir gecede yıldırım düşmesi üzerine yıkıldı; ancak duvarlar 1255’e kadar ayakta kaldı.
+  Y[1255] 1255’te sel baskınına uğrayan cami Moğol saldırısından sonra da ayakta kalmaya devam etti.
+  Y[1235] Câmiu’l-Kasr da 1082 ve 1235’te olmak üzere iki defa tamir edildi.
+  Y[1228] Bugün hâlâ ayakta kalan Kameriye Camii de 1228’de yapıldı.
+  Y[1233] En meşhurları 1066’da kurulan Nizâmiye, aynı yıl kurulan ve bugün Külliyyetü’ş-şerîa olarak kullanılan Ebû Hanîfe, 1233’te kurulan ve XVII.
+  Y[1255] Sadece Müstansıriyye ile 1255’te kurulan Beşîriyye medreseleri dört mezhebe göre öğretim yapıyordu.
+  Y[1209] 1209’da Bağdat’ın her yerinde, ramazan ayında fakirlere hizmet etmek için misafirhaneler (dârüzziyâfe) kuruldu.
+  E[1058] Besâsîrî 1058’de Fâtımîler adına Bağdat’ı işgal etti.
+  E[1059] Fakat 1059’da Selçuklular tarafından mağlûp edilerek öldürüldü.
+  E[1185] İbn Cübeyr 1185’teki Bağdat’ı anlatırken genel bir gerilemeye dikkat çeker, halkının gurur ve kibrini tenkit eder.
+  E[1339] Şehir 1339-1340 yılına kadar İlhanlılar’ın hâkimiyetinde kaldı; bir vali ve bir şahne ile bir askerî garnizon tarafından idare edildi.
+
+##0155 Kerbelâ [Ortadoğu] · SAHIP=ilhanli (İlhanlı Devleti) · kerbela · yer=1
+  Y[1303] İlhanlı Hükümdarı Gāzân Han, Kerbelâ ziyareti sırasında türbeye çok miktarda hediye bıraktı (703/1303).
+  E[1086] Selçuklu Sultanı Melikşah burayı ve Necef’i ziyaret etti (479/1086).
+
+##0156 Mekke [Arabistan-Hint] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · mekke · yer=1
+  Y[1252] Mekke’de Eyyûbî hâkimiyeti, bazan Yemen hükümdarları adına hutbe okunması veya Mekke şeriflerinin bağımsız hareket etme arzuları yüzünden kesintiye uğramakla birlikte 650 (1252) yılına kadar sürdü.
+  Y[1266] Kâbe’ye 664 (1266) yılında ilk defa mahmil ve örtü gönderen I.
+  Y[1231] Mescid-i Harâm’ın kuzeyinde Abbâsî Halifesi Müstansır-Billâh tarafından yaptırılan, 759 (1358) ve 816’da (1413) tamir ettirilen bîmâristanın vakfiyesi 628 (1231) tarihlidir (Fâsî, Şifâʾü’l-ġarâm , I, 538; İbn Fehd, III, 507-508).
+  Y[1243] Abdullah eş-Şerâbî de 641’de (1243-44) çok sayıda kitap vakfederek Şerâbiyye medreselerini kurmuşlardır.
+  Y[1252] Mekke emîrlerinin tâbi oldukları Eyyûbîler’in Mekke hâkimiyetleri bazı kesintilerle 650 (1252) yılına kadar sürdü.
+  Y[1254] 1254-1301 yılları arasında Mekke emîri olan Ebû Nümey Muhammed b.
+  E[632] yılda (632) Resûl-i Ekrem’in öncülüğünde düzenlenen hac için Mekke’ye sadece müslümanlar geldi.
+  E[969] Muhammed’in Mekke’yi hâkimiyeti altına alıp hutbeyi Fâtımîler adına okutmasıyla (358/969) şehir Abbâsîler’in kontrolünden çıktı (Fâsî, Şifâʾü’l-ġarâm , II, 306; Sincârî, II, 211).
+  E[978] 368-462 (978-1070) yılları arasında Mekke’de hutbeler Fâtımîler adına okundu (İbn Fehd, II, 473).
+  E[455] 6 Zilhicce 455’te (30 Kasım 1063) Mekke’yi ele geçiren Yemen Suleyhî Hükümdarı Ali b.
+
+##0157 Medine [Arabistan-Hint] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · medine · yer=1
+  Y[1256] Osman zamanındaki lav püskürtmeleriyle 654’te (1256) “Hicaz ateşi” olarak tarihe geçen volkanik faaliyetler, Medine ve çevresindeki bu volkanik etkinliklerin o dönemde henüz tam olarak sona ermediğini gösterir.
+  E[622] İkinci Akabe Biatı’nda Medineli müslümanların, Resûl-i Ekrem’i ve Mekkeli müslümanları şehirlerine davet ederek her türlü tehlike ve sıkıntıda onları ve arkadaşlarını koruyacaklarına dair ant içip söz vermelerinin ardından (622) Medine hicrete uygun bir yer h…
+  E[969] 358 (969) yılında tekrar Medine’ye hâkim olan Hüseynîler, Abbâsîler yerine Fâtımîler adına hutbe okutmaya başladılar (Makrîzî, I, 172).
+  E[976] 365’te (976) tekrar Abbâsî idaresine geçen Medine bundan sonra iki devletin önemli rekabet alanı haline geldi ve şehirde hâkimiyet Abbâsîler ile Fâtımîler arasında sık sık el değiştirdi.
+  E[970] 359’da (970) Medine içerisinde Fâtımîler, Medine dışında ise Abbâsîler adına hutbe okunmuştu (İbnü’l-Esîr, VIII, 220; Necmeddin İbn Fehd, II, 407).
+
+##0158 Cidde [Arabistan-Hint] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · cidde · yer=1
+  Y[1268] Baybars 667 (1268) yılında hacca gitmiş ve Şemseddin Mervân’ı Mekke-i Mükerreme’de kendisine nâib tayin etmişti; Mekke şerifleri yönetimle ilişkili meseleleri ona danışırlardı.
+  E[1452] Memlükler Cidde’de 1452 yılından itibaren vergiyi câbîler (tahsildar) eliyle toplamışlar ve bir kısmını şeriflere bırakmışlardır.
+  E[1511] Bu arada Memlükler döneminin sonlarına doğru Sultan Kansu Gavri’nin Cidde’ye nâib olarak tayin ettiği Hüseyin el-Kürdî tarafından dokuz ay gibi kısa bir sürede bir kale yaptırılmış (1511) ve bu kale sonradan bölgenin müdafaası Osmanlılar’a geçtiğinde çok fayd…
+  E[1538] 1538’de Hindistan seferine çıkan filo son Osmanlı limanı olarak Cidde’den uğurlanmıştı.
+  E[1558] 1558 yılında Yemen seferine çıkan Sinan Paşa bunu başarmış ve böylece Cidde Limanı daha güvenli bir hale gelmişti.
+
+##0159 Yenbu [Arabistan-Hint] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · yenbu · yer=1
+  Y[1200] İdrîs, hâkimiyetini Yenbu‘dan Mekke’ye doğru genişletti (596/1200).
+  Y[1256] Hicaz bölgesinde 654 (1256) yılında meydana gelen ve birkaç hafta süren Medine merkezli volkanik patlama Yenbu‘u da etkiledi, şehirde meydana gelen deprem ve uzaktan görülen ateş halkı korku ve endişeye sevketti (İbn Kesîr, XIII, 190).
+  E[1891] Bu arada Kudüs’e giden yahudi ziyaretçilerinin aynı yolu kullanması dolayısıyla Berlinli bir Alman yahudi bankeri olan Hern Friedmann 1891 yılında Yenbu‘da bir misafirhane kurma talebinde bulundu ( BA , İ.MTZ.
+  E[1811] Mısır Valisi Kavalalı Mehmed Ali Paşa’nın oğulları Tosun ve İbrâhim paşaların öncülüğünde Yenbu‘ tekrar Osmanlı egemenliğine sokuldu (1811).
+
+##0160 Tebük [Arabistan-Hint] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · tebuk · yer=1
+  E[630] Peygamber’in 9 (630) yılında Bizans’a karşı düzenlediği gazve dolayısıyla meşhur olmuştur (bk.
+  E[717] Abdülazîz tarafından 99 (717) yılında Tebük’te Resûl-i Ekrem’in mescid olarak kullandığı yerde bir cami yaptırıldı.
+
+##0161 Maan [Ortadoğu] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · maan · yer=1
+  E[1915] Dünya Savaşı sırasında 1915 yılı Ocak ayında Maan’da toplanan Osmanlı kuvvetleri, kuzeybatıda Bi’rüssebi‘ ve Kudüs taraflarına doğru kontrolü bir süre elde tutmayı başardılar.
+
+##0162 Zebîd [Arabistan-Hint] · SAHIP=yemen (?yemen) · zebid · yer=1
+  Y[1229] Zebîd esas gelişimini Resûlîler döneminde (1229-1454) gerçekleştirdi.
+  E[628] Bölgede yaşayan Eş‘ar (Eşâire) kabilesi mensuplarından içlerinde Ebû Mûsâ el-Eş‘arî’nin de bulunduğu bir heyet 7 (628) yılında müslüman olduklarını bildirmek üzere Medine’ye doğru yola çıkmış, ancak bindikleri gemi fırtına yüzünden Habeşistan sahiline sürükle…
+  E[1060] Bu dönemde Yemen’de nüfuzu artan Şiî Suleyhîler, Sünnî Necâhîler’i karşılarında bir engel olarak gördüklerinden 452’de (1060) Zebîd’i zaptettilerse de Necâhîler pek çok savaşın ardından birkaç defa el değiştiren şehri 482’de (1089) son defa ele geçirdiler.
+  E[1174] Mehdîler, Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah kumandasındaki Eyyûbî ordusu tarafından kısa bir süre sonra ortadan kaldırıldı ve şehir Eyyûbî hâkimiyeti altına girdi (569/1174).
+  E[1181] Fakat onun ardından Yemen’de karışıklıkların çıkması üzerine 577’de (1181) bölgeye gelip istikrarı sağlayan Tuğtegin b.
+
+##0163 Aden [Arabistan-Hint] · SAHIP=yemen (?yemen) · aden · yer=1
+  Y[1276] Marco Polo Aden şehrinin nüfusunu 1276’da 80.000 kadar tahmin etmektedir.
+  Y[1228] Daha sonra burada sırasıyla 1228’e kadar Eyyûbîler, 1454’e kadar Resûlîler, 1517’ye kadar Tâhirîler hüküm sürmüşlerdir.
+  Y[1276] Marco Polo’nun 1276’da 360 mescid bulunduğunu söylediği şehirde bugün en önemli İslâmî eser, Ayderûsiyye tarikatının kurucusu Ebû Bekir Ayderûs’un türbesi ile onun adını taşıyan camidir.
+  E[631] Yemen’in son Sâsânî umumi valisi Bâzân, 10 (631) yılında müslüman olunca Aden İslâm ülkesine katılmış ve burada İslâm dini yayılmaya başlamıştır.
+  E[300] Ardından Aden, 300 yıla yakın bir süre Yemen imamlarının idaresi altında kalmış, 916’dan sonra da bölgede bağımsız bir hânedan kuran Benî Ziyâd’a bağlanmıştır.
+  E[1173] Benî Zürey‘in bölgedeki bağımsızlığı, Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah’ın Yemen’i zaptettiği 1173 yılına kadar sürmüştür.
+  E[1538] yüzyılın başlarında Osmanlı Devleti’nin güney siyaseti içine giren Aden, sahip olduğu stratejik ve ticarî mevki dolayısıyla, Kızıldeniz ve Hint Okyanusu’nda faaliyet gösteren Portekizliler’e karşı girişilecek mücadeleler için önemli bir üs olarak görülmüş ve …
+
+##0164 Sana [Arabistan-Hint] · SAHIP=yemen (?yemen) · sana · yer=1
+  Y[1214] Şehir 595 (1198) ve 611 (1214) yıllarında bir süre Zeydî imamlarından Abdullah b.
+  Y[1229] Ali er-Resûlî’nin onun ölümünden sonra Tihâme, San‘a ve Taiz’i idaresi altına alması (626/1229) ve birkaç yıl sonra bağımsızlığını ilân etmesiyle (632/1235) Resûlî hâkimiyeti başladı.
+  Y[1229] San‘a, Resûlîler (1229-1454) ve halefleri Tâhirîler (1454-1517) döneminde birçok defa Zeydîler’le el değiştirdi.
+  E[525] Şehir, Yahudiliği benimseyen Himyerî hükümdarı Zûnüvâs’ın hıristiyanlara acımasız işkenceler yapması üzerine yardıma gelen Habeş ordusu tarafından ele geçirildi (525) ve elli yıl kadar süren Habeş hâkimiyeti döneminde Yemen valileri burada oturdu.
+  E[632] Bâzân’ın ölümünden (10/632) sonra Resûl-i Ekrem yerine oğlu Şehr b.
+  E[632] Yuhannis ile Fîrûz ed-Deylemî’yi Yemenli liderlere göndererek Esved el-Ansî’yi ortadan kaldırttı (11/632).
+  E[901] 288’de (901) Yemen Zeydîleri’nin kurucusu Hâdî-İlelhak Yahyâ b.
+
+##0165 Taiz [Arabistan-Hint] · SAHIP=yemen (?yemen) · taiz · yer=1
+  Y[1229] Şehrin tarihine dair en eski bilgiler Suleyhîler dönemine (1047-1138) kadar gitmekle beraber asıl gelişmesi Resûlîler devrinde (1229-1454) başşehir olduğu yıllara rastlamaktadır.
+  Y[1255] Şehrin asıl gelişimi, Resûlî hânedanının ikinci sultanı el-Melikü’l-Muzaffer Yûsuf’un Taiz’i 653’te (1255) başşehir yapmasıyla başladı ve zaman içinde onlarca cami, medrese ve hamam inşa edildi.
+  Y[1273] Resûlî Hükümdarı el-Melikü’l-Müeyyed Dâvûd’un 672’de (1273-74) Taiz’de inşa ettirdiği medresenin kütüphanesinde 100.000 kitap bulunduğu rivayet edilmektedir.
+  E[1174] Eyyûbîler döneminde (1174-1229) Taiz’i ikamet merkezi edinen Turan Şah ve kardeşi Tuğtegin köşkler ve medreseler yaptırarak şehri imar ettiler.
+  E[923] Memlük kumandanı Barsbay’ın emrindeki Mısır ordusu 16 Safer 923’te (10 Mart 1517) Taiz’i ele geçirdi.
+  E[1525] 931’de (1525) Selman Reis idaresindeki Osmanlı donanmasının Yemen sahillerinde dolaştığı sırada Emîr Hüseyin Rûmî Taiz’i aldı ve Yemen mutasarrıflığına getirildi (Âlî, vr.
+  E[932] Zilhicce 932’de (Eylül 1526) Selman Reis, Yemen’in idaresine memur edilen Hayreddin Bey’le birlikte Zebîd’i aldıktan sonra Taiz’i ele geçirdi ( a.g.e.
+
+##0166 Hudeyde [Arabistan-Hint] · SAHIP=yemen (?yemen) · hudeyde · yer=1
+  E[1393] Hasan el-Hazrecî 795’te (1393) bir sahilin adı olarak söz eder.
+  E[1515] 1515’te Memlükler Aden’e gelen Portekizliler’e karşı gönderdikleri kuvvetler için Zebîd imamının istenilen gıda yardımını yapmaması yüzünden karaya asker çıkararak Hudeyde’de hâkimiyet sağladılar.
+  E[1517] 1517’de Mısır’ın Yavuz Sultan Selim tarafından ele geçirilmesinden sonra Yemen’de bulunan Memlük ordusu da Osmanlı Devleti’nin hâkimiyetini kabul etti.
+  E[1538] Gucerât Sultanı Bahadır Şah’ın Osmanlı Devleti’nden Portekizliler’e karşı yardım istemesi üzerine 1538’de Hint seferine çıkan Hadım Süleyman Paşa kumandasındaki Osmanlı donanması dönüşte Hudeyde’ye ve Yemen’in Kızıldeniz’deki diğer limanlarına uğrayarak bölge…
+
+##0167 Ebha (Asir) [Arabistan-Hint] · SAHIP=yemen (?yemen) · ebha · yer=1
+  E[1871] 1871 yılında Arap yarımadasının tamamını yeniden kendine bağlama hareketine girişen Osmanlı Devleti, Necid ve Lahsâ taraflarında olduğu gibi Asîr bölgesinde de Redif Paşa ile Gazi Ahmed Muhtar Paşa ’nın kumandasında büyük bir askerî herekât başlattı.
+  E[1872] Osmanlı kuvvetleri 1872’de Muhammed b.
+  E[1911] Yedi ay süren kuşatma 11 Haziran 1911’de Osmanlı Devleti’nin emriyle son Mekke Şerifi Hüseyin b.
+
+##0168 Kahire [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · kahire · yer=1
+  Y[1241] Sultan el-Melikü’s-Sâlih Necmeddin Eyyûb 1241’de, Kal‘atülcebel’den müstahkem hale getirdiği ve bir köprüyle karaya bağladığı Kahire’nin batısındaki Ravza adasına taşındı.
+  Y[1252] Memlükler’in iktidara gelmesiyle (650/1252) Kahire daha da genişledi ve yeni bir şekil kazandı.
+  Y[1303] 703’te (1303) açılan dört eyvanlı Nâsıriyye Medresesi dört mezhep fıkhının aynı bina içinde okutulduğu ilk medresedir.
+  Y[1288] el-Melikü’l-Eşref Halîl Türbesi de (687/1288) buradadır.
+  Y[1300] Bu kesim, özellikle 700’den (1300) sonra pek çok Memlüklü saygın kişi tarafından iskân yeri olarak kullanılmıştır.
+  Y[1300] 699’da (1300) Emîr Begtemür el-Çûkândâr (Çevgândâr) tarafından kısmen tamir ettirilmiş ve 702’de (1302) bir minber konulmuştur.
+  Y[1211] Fakat 608’de (1211) el-Melikü’l-Kâmil Muhammed devrinde büyük ahşap kubbeyle örtülü bir türbeye dönüştürülen İmam Şâfiî Türbesi (Kubbetü’l-İmâm eş-Şâfiî), sık sık yapılan tamirlerle Kahire’nin en ihtişamlı kubbelerinden biri olarak ayaktadır.
+  Y[1225] Sûkunnahhâsîn’deki medrese kalıntıları el-Melikü’l-Kâmil’in diğer medresesi olan Kâmiliyye’ye (622/1225) aittir.
+  E[358] Fâtımî Halifesi Muiz-Lidînillâh döneminde Mısır’daki İhşîdî hâkimiyetine son veren kumandan Cevher es-Sıkıllî Şâban 358’de (Temmuz 969) Fustat’a girdi ve yeni bir idare merkezi kurmak üzere Katâi‘ şehrinin kuzeyindeki Menâh bölgesinde saray ve sur inşaatı baş…
+  E[1176] 572 (1176) yılında yapılan onarımlar sırasında Ebû Sâlih el-Ermenî’ye göre Fustat’taki birçok kilise de eski haline getirildi.
+  E[1171] Selâhaddîn-i Eyyûbî Mısır’ı ele geçirdikten (567/1171) sonra hem kendine mahsus, hem de Kahire ve Fustat’ı denetimi altında tutacak yeni bir başşehir kurmayı düşünmüştü.
+  E[1403] İbn Tağrîberdî, 806 (1403) yılındaki kıtlık ve veba salgını sırasında şehrin büyük bir bölümünün harabeye döndüğünü ve nüfusunun neredeyse üçte ikisinin yok olduğunu söyler ( en-Nücûmü’z-zâhire , XIII, 152).
+
+##0169 İskenderiye [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · iskenderiye · yer=1
+  Y[1250] Saint Louis’nin Dimyat’a düzenlediği saldırı büyük bir fiyaskoyla sonuçlandıktan (648/1250) sonra Akdeniz adalarındaki Haçlı kalıntıları ile Avrupa’nın gözü İskenderiye üzerine çevrildi.
+  Y[1303] Kalavun zamanına rastlar; bu dönemde 702 (1303) yılındaki depremle hasar gören İskenderiye Feneri onarılmış, ayrıca bugün Tâbiyetüssilsile diye bilinen yerde daha sonra tamamlandığı anlaşılan yeni bir fenerin inşasına başlanmıştır (İbn Battûta, I, 181; Abdüla…
+  Y[1310] Kalavun’un İskenderiye’deki ikinci önemli eseri 710 (1310) yılında kazdırdığı, el-Halîcü’n-Nâsırî denilen ve suyunu Nil nehrinden alan kanaldır.
+  E[914] Tolunoğulları’nın yıkılışından sonra 302 (914-15) ve 307 (919) yıllarında Fâtımîler’in İskenderiye’yi ele geçirme girişimi Abbâsî kuvvetleri karşısında başarısızlıkla sonuçlandı.
+  E[969] Daha sonra İhşîdî-Fâtımî mücadelesine sahne olan şehir, 358’de (969) Cevher es-Sıkıllî kumandasındaki birlikler tarafından Fâtımî hâkimiyeti altına alındı.
+  E[969] Fâtımîler döneminde (969-1171) İskenderiye ipeklileri ün yapmıştı.
+  E[1365] 767’de (1365) Kıbrıs Haçlı Krallığı ile müttefiklerinin saldırısına mâruz kalan şehir ciddi bir şekilde tahrip edildi ve yağmalandı.
+
+##0170 Dimyat [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · dimyat · yer=1
+  Y[1218] İkinci sefer 615-618 (1218-1221) yıllarında Kudüs Kralı Jean de Brienne tarafından I.
+  Y[1250] Mısır’da hâkimiyetin Bahriyye Memlükleri’ne geçtiği bu sırada Memlük ileri gelenleri, sürekli saldırılara hedef teşkil eden Dimyat’ın askerî üs olma özelliğini ortadan kaldırmak için 648’de (1250-51) şehri kalesi, duvarları ve tahkimatı ile birlikte tamamen y…
+  Y[1260] Baybars da (1260-1277) Nil’in Dimyat ağzına gemilerin geçemeyeceği şekilde engel koydurdu; daha önceki devirlerde Nil’in girişi zincirle kapatılmaktaydı.
+  E[968] Uzun süren barış döneminden sonra şehir 357’de (968) yeniden Bizanslılar’ın saldırılarına uğradı.
+  E[565] Amaury’ın Bizanslılar ile birlikte Rebîülevvel 565’te (Aralık 1169) Dimyat’a karşı giriştiği harekât başarısızlıkla sonuçlandı.
+  E[1517] Mısır’ın 1517’de Osmanlılar tarafından alınması ile Dimyat da Osmanlı idaresi altına girmiş oldu.
+  E[1696] Mısır arşivlerindeki Osmanlı irad ve gümrük defterlerinin verilerine göre Dimyat’ın Mısır hazinesine gelirleri 1108’de (1696) 49 kese 19.210 kuruş iken bu meblağ artarak 1197’de (1782-83) 62 kese 14.530 kuruşa ulaşmıştı.
+
+##0171 Asyut [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · asyut · yer=1
+  E[1721] Osmanlı dönemindeki ilk önemli değişiklik, Mısır Valisi Nişancı Mehmed Paşa tarafından 1721’de kabilelerin yerleşim bölgeleri esas alınarak yapıldı.
+
+##0172 Asvan [Kuzey Afrika] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · asvan · yer=1
+  E[1170] Daha sonra Eyyûbîler’in idaresine geçen şehir, Selâhaddîn-i Eyyûbî tarafından ağabeyi Turan Şah’a iktâ olarak verildi (1170).
+  E[1517] 1517’de Mısır’ın Osmanlılar tarafından zaptı sırasında Yavuz Sultan Selim Asvan’da askerî bir karargâh kurdu.
+
+##0173 Masavva [Arabistan-Hint] · SAHIP=memluk (Memlûk Sultanlığı (Mısır-Suriye)) · masavva · yer=1
+  E[964] yüzyılın ortalarında Batılı misyoner ve seyyahların Etiyopya’ya giriş kapısı konumunu alan Masavva‘, 2 Cemâziyelâhir 964’te (2 Nisan 1557) Özdemir Paşa tarafından Osmanlı topraklarına katıldı; ardından da Habeş eyaletine bağlı bir sancak merkezi haline getiri…
+  E[1578] 986 (1578) yılında Osmanlı-yerli kuvvetleriyle çıkan çatışmalarda Habeşler galip geldilerse de Masavva‘ Türkler’in elinde kalmaya devam etti.
+  E[1648] 1058 (1648) yılında Yemen Zeydî İmamı Mütevekkil-Alellah tarafından Etiyopya Kralı Fasilidas’a gönderilen elçilik heyetinin başkanı Hasan b.
+  E[1672] 1083’te (1672) Habeş eyaletini gezen Evliya Çelebi eyalet merkezi Masavva‘ hakkında bilgi vermekte, limana Portekiz, İngiltere, Hindistan, Çin, Yemen ve civar bölgelerden gelen gemilerin uğradığını kaydetmektedir.
+
+##0174 Trablus [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · trablusgarp · yer=1
+  Y[1228] Hafsî Hükümdarı Ebû Zekeriyyâ Yahyâ döneminde (1228-1249) Hafsî hâkimiyetine girdi.
+  E[1159] 554’te (1159) Trablusgarp Muvahhidler’in egemenliğine girdi.
+  E[1327] Hafsîler’in iç karışıklıklar yüzünden zayıfladığı bir sırada Trablusgarp’ta Ammâroğulları hânedanı kuruldu (727/1327) ve 803 (1401) yılına kadar devam etti.
+  E[1510] Ammâroğulları’ndan sonra Trablusgarp’ta Hafsîler’in hâkimiyeti 1510 yılına kadar sürdü.
+  E[1510] 1510’da Trablusgarp, Oliveto Kontu Don Pedro Navarro kumandasındaki İspanyollar tarafından işgal edildi; katliamdan kurtulan müslümanlar 40 km.
+
+##0175 Derne [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · derne · yer=1
+  E[1510] Tunus’taki Hafsî hânedanının idaresi sırasında Trablusgarp ile birlikte 1510’da İspanyollar tarafından zaptedildi.
+  E[1530] 1530’dan itibaren Malta adasıyla beraber Rodos’tan çıkarılan Saint Jean şövalyelerine verildi.
+  E[1551] 1551’de Osmanlı idaresine geçti.
+  E[1603] Trablusgarp ocağına yeniçeriler ve dayılar hâkim olduktan sonra (1603) Derne’nin yönetimi de ocaklıların eline geçti.
+
+##0176 Tunus [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · tunus · yer=1
+  Y[1228] Muvahhidler Devleti’ndeki bölünme ve ardından ortaya çıkan karışıklıklar sırasında Kābis valiliğine tayin edilen Ebû Zekeriyyâ el-Hafsî, Tunus üzerine yürüdü ve 625 (1228) yılında şehre girip İfrîkıye’nin tamamına hâkim oldu.
+  Y[1258] Abbâsî halifeliğinin 656’da (1258) yıkılışından sonra Mekke şerifinin elçi gönderip I.
+  Y[1261] Baybars tarafından Kahire’de yeniden tesisiyle sona erdi (659/1261).
+  Y[1228] Hafsîler, Tunus merkez olmak üzere Cezayir’in Bicâye şehriyle kısmen bugünkü Libya’nın batısındaki topraklarda yaklaşık üç asır hüküm sürdüler (1228-1574).
+  Y[1270] Louis 1270 yılında büyük bir Haçlı ordusunun başında Tunus sahillerine saldırdı.
+  Y[1287] Ancak 1287’de Mehdiye’yi yağma ve tahrip ettiler.
+  Y[1284] 1284’te hıristiyanların eline geçen Cerbe adası 1334’te geri alınabildi.
+  Y[1277] Ebû Zekeriyyâ Yahyâ el-Vâsiḳ’ın tahta çıkmasından (675/1277) itibaren Hafsîler arasında başlayan taht kavgaları büyük karışıklıklara yol açtı.
+  E[535] Tunus ve civarı 535 yılında Bizans’ın eline geçti ve müslümanların fethine kadar Bizans hâkimiyetinde kaldı.
+  E[647] Osman zamanında 27 (647) yılında İfrîkıye’nin fethine çıkan Abdullah b.
+  E[909] Başşehirleri Kayrevan olmak üzere kurulan, Abbâsî hâkimiyetini tanıyan ve paralarda halifelerin adına yer veren Ağlebîler, Fâtımîler tarafından yıkıldı (909).
+  E[817] Ziyâdetullah (817-838) zamanında Bizans İmparatorluğu’nun egemenliğindeki Sicilya’nın fethi için başlatılan seferler 859’da Bizans’ın Sicilya’daki önemli şehri Kasrıyâne’nin alınmasıyla sonuçlandı.
+
+##0177 Kayrevan [Kuzey Afrika] · SAHIP=hafsi (Hafsîler (Tunus)) · kayrevan · yer=1
+  E[909] Fâtımîler devrinde de (909-972) bu durumunu sürdüren şehir, 15 Ekim 944’ten itibaren bir yıl süreyle Hâricîler’den Ebû Yezîd en-Nükkârî’nin merkezi oldu.
+  E[1534] Ardından sırasıyla Muvahhidler, Benî Gāniye, tekrar Muvahhidler ve Hafsîler’in yönetimine giren Kayrevan 1534’te Barbaros Hayreddin Paşa tarafından zaptedildi ve zaman zaman Avrupa devletlerinin desteğindeki mahallî güçlerin eline geçmekle birlikte Fransızlar…
+
+##0178 Cezayir [Kuzey Afrika] · SAHIP=zeyyani (Zeyyânîler (Tilimsan)) · cezayir · yer=0
+  Y[1228] Muvahhidler’den sonra Doğu Cezayir Tunus’taki Hafsî Devleti’ne (1228-1574) tâbi oldu.
+  Y[1235] Orta ve Batı Cezayir ise Tilimsân’da kurulan Abdülvâdîler’in (1235-1550) idaresine girdi.
+  Y[1228] HAFSÎLER İfrîkıye ve Doğu Cezayir’de hüküm süren Berberî asıllı bir hânedan (1228-1574).
+  E[None] Milâttan önce 1000 yıllarında Suriye sahillerinden gelen Fenikeli tüccarlar Cezayir’in Akdeniz kıyılarına yerleştiler...
+  E[None] Milâttan önce 1000 yıllarında Suriye sahillerinden gelen Fenikeli tüccarlar Cezayir’in Akdeniz kıyılarına yerleştiler ve milâttan önce 814’te bugün Tunus sınırları içerisinde bulunan Kartaca şehrini kurdular.
+  E[973] Halife Muiz-Lidînillah’ın Fâtımî başşehrini Mehdiye’den Kahire’ye nakletmesinden sonra (362/973) Sanhâce Berberîleri Mağrib ülkelerinde idareyi ele geçirerek Zîrîler (972-1148) ve Hammâdîler (1015-1152) devletlerini kurdular.
+  E[1505] Endülüs’teki müslümanlara karşı giriştikleri “yeniden fetih”i (reconquista) tamamlayarak bu siyaseti Kuzey Afrika’ya yaymak isteyen İspanyollar’ın 1505’te Mersalkebîr, 1509’da Vehrân (Oran), 1510’da Bicâye ve kısa bir süre sonra da Tilimsân’ı ele geçirdikleri…
+
+##0179 Oran [Kuzey Afrika] · SAHIP=zeyyani (Zeyyânîler (Tilimsan)) · vehran · yer=1
+  E[954] 343’te (954-55) Fâtımîler’e tâbi Benî İfren’in eline geçti.
+  E[1509] yüzyıl başlarında bölgedeki sahil şehirlerini zapteden Kastilya Krallığı 17 Mayıs 1509’da Vehrân’ı işgal edip halkının büyük kısmını katletti, geri kalanları da esir aldı.
+  E[1516] Akdeniz’in güneybatı ucunda Osmanlılar’a bağlı olarak Cezayir’e hâkim olan Oruç Reis, Vehrân ve çevresini 1516 yılında ablukaya aldı.
+  E[1518] Ancak kendisinden yardım talep eden mahallî idarecilerin bölgede Osmanlı varlığından rahatsızlık duyması ve İspanyollar’la iş birliği yapması neticesinde 924’te (1518) Oruç Reis, kardeşi İshak Reis ve çok sayıda adamı öldürüldü.
+
+##0180 Tilimsan [Kuzey Afrika] · SAHIP=zeyyani (Zeyyânîler (Tilimsan)) · tilimsan · yer=1
+  Y[1235] Zeyyân tarafından Abdülvâdîler (Zeyyânîler) hânedanı kuruldu (632/1235).
+  Y[1299] Tilimsân, 1299 yılı Mayıs ayından 1307 yılı ortalarına kadar Benî Merîn tarafından muhasara altında tutuldu.
+  Y[1248] 1248’de Tilimsân’a getirilen, Hz.
+  Y[1304] 1304-1308 yıllarında hüküm süren I.
+  Y[1269] Meşver Kalesi ile aynı dönemde, 1269’da inşa edilen ve küçük bir yapıya sahip olan Sîdî b.
+  Y[1299] Sultan Ebû Ya‘kūb Yûsuf en-Nâsır 1299’da orada kurduğu bu kışlaya Mansûre adını vermiş, içine bir saray, büyük bir cami ile 40 m.
+  Y[1302] yüksekliğinde minare inşa ettirmiş, 1302’de burayı surla çevirtmiştir.
+  E[931] Fâtımîler, Mehdiye’den doğuya doğru ilerledikleri sırada 931 yılında kendileriyle iş birliği yapan Tilimsân’a girerek İdrîsî valisini uzaklaştırdılar ve şehri 955 yılına kadar ellerinde tuttular.
+  E[1534] Ancak Hızır Reis, 1534’te Tunus’ta Benî Hafs Devleti’yle iş birliği yapan İspanyollar’a yenilince Tilimsân emîri de İspanyollar’la beraber hareket etmeye başladı ve 1541 yılına kadar Osmanlılar ile İspanyollar arasında iki yüzlü bir siyaset takip etti.
+  E[1553] 960’ta (1553) Cezayir’den büyük bir ordu sevkedilince Tilimsân şehri Sâlih Reis kumandasındaki Osmanlı ordusu tarafından kesin biçimde ele geçirildi.
+  E[1833] Osmanlılar’ın Tilimsân’daki idaresi zaman zaman kesintiye uğramakla birlikte 1833 yılına kadar devam etti.
+

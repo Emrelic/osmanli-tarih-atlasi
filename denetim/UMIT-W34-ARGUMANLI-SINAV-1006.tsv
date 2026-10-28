@@ -1,0 +1,18 @@
+betik	grup	bekledigi	kostu	cikis	sure_sn	sonuc	kapi_onerisi
+denetim/ARAC-B-GORUNUM-BANTSINAV-0072.py	arguman	pickle dokum (UFUK-0072 --dokum, motor dar kutu)	hayir			dokum yok; uretmek motor kosusu	tek-seferlik
+denetim/ARAC-KOSU10-KALAN-SINA-0917.py	arguman	YAMA-KOSU10-KALAN-0917.json	evet	1	0.34	x114 ok4 sari31; yama uygulanmis	tek-seferlik
+denetim/ARAC-KUNYE-SINA-0903.py	arguman	oneri kunye json	evet	0	0.37	HATA basar ama cikis 0 (CERKEZ 1, ZEND 2)	alinamaz-cikis-kodu-kusurlu
+denetim/ARAC-LEGO-alet-sinav.py	arguman	arac	evet	0	0.37	GECTI; %TEMP%\lego_sinav_* artik birakir	sabit-arguman
+denetim/ARAC-SEFER-OK-SINAV-0075.py	arguman	seferler.json (ARAC-SEFER-OK-DUMP-0075.js)	evet	0	6.03	GECTI 17/0, rotasiz deniz 4 kara kesen 0	sabit-arguman-iki-adim
+denetim/ARAYUZ-MADDE-0930-KAPI-SINAV.py	arguman	yamali denetle_yayin.py (dom_sozlesmesi mainde yok)	evet-yamali-kopya	0	2.83	GECTI 5/5 (-1006.diff ile)	yama-inince-sabit-arguman
+denetim/GOVDE-CAKISMA-0079-yama-sina.py	arguman	yama-dizini/b/arac/uret_petek.py + devletler_harita/donemler	hayir			yama.diff yok + uretilmis cikti yok	tek-seferlik
+denetim/ARAC-TEMIZ-SINAV-0914.js	arguman	ONCE_DIZINI | --head + TEMIZ-DUZENLE-0914.json	evet	0	2.77	GECTI 34 dosya izinsiz 0; temiz agacta DAIRESEL	tek-seferlik
+denetim/ARAC-YAMA-JS-SINA-0905.js	arguman	kok + GIRDI_DOSYALARI json	evet	0	0.25	11 yama, atlasta-yok 0, belirsiz 0; cikis hep 0	alinamaz-hukumsuz
+denetim/ARAC-YUK-SINAV-0925.js	arguman(aslinda-uretilmis)	dilimli kok *_web.js + orijinal kok	hayir			girdi uretilmis (geo_dilimle)	kosu-sonrasi
+denetim/ODAK-AVRUPA-BATI-0080-sina.js	arguman	havuz.json + kip	evet	0	0.37	203 oneri A50 B116 C37; hukum yok	alinamaz-olcum-aleti
+denetim/ODAK-BALKAN-0080-sina.js	arguman	=ODAK-AVRUPA-BATI (birebir, mukerrer)	evet	0	0.20	sorgu ciktisi	alinamaz-mukerrer
+denetim/ARAC-DEGISMEZ8-KORLUK-SINAV-1004.py	uretilmis	devletler_harita.js + 2x denetle.py	hayir			-	kosu-sonrasi (Bolum A ayrilabilir)
+denetim/ARAC-HALKA-SINA-0913.js	uretilmis	devletler_harita.js (id/renk)	hayir			-	kosu-sonrasi-yayin-kapisi
+denetim/DEGISMEZ-0086-sinav.py	uretilmis	devletler_harita.js govdeleri; --yapay ciktisiz	evet(--yapay)	0	1.90	--yapay 18/18 tuttu	sabit-arguman(--yapay)
+denetim/SINAV-JSON-ESDEGER-0907.py	uretilmis	devletler_harita/donemler/altlik .js+.json	hayir			-	kosu+json-sonrasi
+denetim/SINAV-M0342-0907.js	uretilmis	donemler.js + devletler_harita.js	hayir			-	kosu-sonrasi

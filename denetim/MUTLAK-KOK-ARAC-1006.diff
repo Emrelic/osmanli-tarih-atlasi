@@ -1,0 +1,223 @@
+diff --git a/arac/_enklav_kara.py b/arac/_enklav_kara.py
+index 207ccec2..12fe2faf 100644
+--- a/arac/_enklav_kara.py
++++ b/arac/_enklav_kara.py
+@@ -5,9 +5,9 @@ Onceki olcum 798 enklav buldu ama cogu ADA — B2 onlari zaten
+ `_KARA_HAZIR.covers(hat)` ile reddediyor. Asil soru: kaci KARADAN
+ ulasilabilir, ve mesafeleri ne?
+ """
+-import io, json, math, sys, collections
++import io, json, math, os, sys, collections
+ 
+-KOK = "C:/atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__))).replace("\\", "/")  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ 
+ from shapely.geometry import Polygon, LineString, shape
+ from shapely.ops import unary_union, nearest_points
+diff --git a/arac/_renksiz_kimlik.py b/arac/_renksiz_kimlik.py
+index 743b6332..bd8f29fd 100644
+--- a/arac/_renksiz_kimlik.py
++++ b/arac/_renksiz_kimlik.py
+@@ -11,7 +11,7 @@ Ikisi ayri raporlanir (CLAUDE.md 11: "veri penceresi != kunye penceresi").
+ """
+ import os, sys, json, subprocess
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-os.chdir(r"C:\atlas")
++os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ sys.path.insert(0, "arac")
+ import girdi, renkler
+ 
+diff --git a/arac/etiket.py b/arac/etiket.py
+index 71f29398..278c6897 100644
+--- a/arac/etiket.py
++++ b/arac/etiket.py
+@@ -35,7 +35,7 @@ OTURUMLAR = os.path.join(KOK, "oturumlar")
+ # 🔴 DİZİN BİR KEZ YAZILIR — Emre "elbet dizini" dedi ve sebebi ölçülü:
+ # `YASALAR F9`, yanlış dizinde açılan oturum proje dosyalarını GÖREMEZ,
+ # ve dizini yazmamak kullanıcıyı TAHMİNE zorlar.
+-DIZIN = r"C:\atlas"
++DIZIN = KOK  # betiğin deposu (MUTLAK-KOK-ARAC-1006; UMIT'te C:\atlas-umit yazar)
+ 
+ KART = """
+ ╔══════════════════════════════════════════════════════════════════════╗
+diff --git a/arac/kosu_girdi_bagla.py b/arac/kosu_girdi_bagla.py
+index 07178b1f..02c3c810 100644
+--- a/arac/kosu_girdi_bagla.py
++++ b/arac/kosu_girdi_bagla.py
+@@ -29,7 +29,13 @@ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+-ANA = r"C:\atlas"
++# ANA = izlenmeyen girdilerin durduğu ANA checkout (worktree DEĞİL). Betiğin deposundan
++# `git --git-common-dir` ile çözülür: betik bir worktree kopyasından koşsa da ana ağacı
++# bulur; mutlak yol yok (MUTLAK-KOK-ARAC-1006 — UMIT'te ana ağaç C:\atlas-umit).
++_BURA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++ANA = os.path.dirname(os.path.abspath(os.path.join(_BURA, subprocess.run(
++    ["git", "rev-parse", "--git-common-dir"], cwd=_BURA, capture_output=True,
++    text=True, check=True).stdout.strip())))
+ ESIK = 1024 * 1024          # 1 MB altı dosyalar bağlanmaz (belge/örnek)
+ KAPSAM = ["veri-kaynak"]    # git'e sorulacak dizinler
+ 
+diff --git a/arac/olc_denizasiri/olc_care.py b/arac/olc_denizasiri/olc_care.py
+index 5952416a..36df4fe8 100644
+--- a/arac/olc_denizasiri/olc_care.py
++++ b/arac/olc_denizasiri/olc_care.py
+@@ -13,7 +13,7 @@ Salt okuma.
+ """
+ import json, os, sys, math, pickle
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ SCR = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\a5479cb4-16ee-4def-832f-307c172e7614\scratchpad"
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ 
+diff --git a/arac/olc_denizasiri/olc_denizasiri3.py b/arac/olc_denizasiri/olc_denizasiri3.py
+index 0456f00c..c97fa379 100644
+--- a/arac/olc_denizasiri/olc_denizasiri3.py
++++ b/arac/olc_denizasiri/olc_denizasiri3.py
+@@ -18,7 +18,7 @@ Salt okuma.
+ """
+ import json, os, sys, math, pickle, time, unicodedata
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ SCR = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\a5479cb4-16ee-4def-832f-307c172e7614\scratchpad"
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ 
+diff --git a/arac/olc_denizasiri/olc_gorunur.py b/arac/olc_denizasiri/olc_gorunur.py
+index b6d5ce73..9242e2db 100644
+--- a/arac/olc_denizasiri/olc_gorunur.py
++++ b/arac/olc_denizasiri/olc_gorunur.py
+@@ -19,7 +19,7 @@ Salt okuma. Kosu gerektirmez.
+ """
+ import json, os, sys, math, pickle
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ SCR = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\a5479cb4-16ee-4def-832f-307c172e7614\scratchpad"
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ 
+diff --git a/arac/olc_denizasiri/olc_ii_riski.py b/arac/olc_denizasiri/olc_ii_riski.py
+index 9aaa0acf..dda13d60 100644
+--- a/arac/olc_denizasiri/olc_ii_riski.py
++++ b/arac/olc_denizasiri/olc_ii_riski.py
+@@ -18,7 +18,7 @@ Salt okuma. Kosu yok, kod degisikligi yok.
+ """
+ import json, os, sys, math, pickle
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ SCR = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\a5479cb4-16ee-4def-832f-307c172e7614\scratchpad"
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ 
+diff --git a/arac/olc_denizasiri/olc_mekanizma.py b/arac/olc_denizasiri/olc_mekanizma.py
+index c25a0ea7..69fe9bbb 100644
+--- a/arac/olc_denizasiri/olc_mekanizma.py
++++ b/arac/olc_denizasiri/olc_mekanizma.py
+@@ -16,7 +16,7 @@ Salt okuma.
+ """
+ import json, os, sys, math, pickle, heapq
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ SCR = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\a5479cb4-16ee-4def-832f-307c172e7614\scratchpad"
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ 
+diff --git a/arac/olc_denizasiri/olc_topografya2.py b/arac/olc_denizasiri/olc_topografya2.py
+index 13c3e555..79e2330b 100644
+--- a/arac/olc_denizasiri/olc_topografya2.py
++++ b/arac/olc_denizasiri/olc_topografya2.py
+@@ -17,7 +17,7 @@ Salt okuma.
+ """
+ import json, os, sys, math, pickle, random, unicodedata
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ SCR = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\a5479cb4-16ee-4def-832f-307c172e7614\scratchpad"
+ VK = os.path.join(KOK, "veri-kaynak")
+ 
+diff --git a/arac/olc_denizasiri/olc_topografya3.py b/arac/olc_denizasiri/olc_topografya3.py
+index 5483c37c..a1f3082c 100644
+--- a/arac/olc_denizasiri/olc_topografya3.py
++++ b/arac/olc_denizasiri/olc_topografya3.py
+@@ -15,7 +15,7 @@ Salt okuma.
+ """
+ import json, os, sys, math, pickle, random, unicodedata, collections
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ SCR = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\a5479cb4-16ee-4def-832f-307c172e7614\scratchpad"
+ VK = os.path.join(KOK, "veri-kaynak")
+ 
+diff --git a/arac/olc_indirme.py b/arac/olc_indirme.py
+index a93f61ac..89c00212 100644
+--- a/arac/olc_indirme.py
++++ b/arac/olc_indirme.py
+@@ -32,7 +32,7 @@ index.html'deki yerel <script src> ve <link href> dosyalarini bulur,
+ ham ve gzip boyutlarini toplar. Hicbir seyi DEGISTIRMEZ."""
+ import re, gzip, os, sys, io
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ h = open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
+ 
+ yollar = []
+diff --git a/arac/uret_duygu.py b/arac/uret_duygu.py
+index 069dc278..63937ce8 100644
+--- a/arac/uret_duygu.py
++++ b/arac/uret_duygu.py
+@@ -7,7 +7,7 @@
+ """
+ import io, os, re, sys, glob, collections
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # depo kökü betiğin konumundan (MUTLAK-KOK-ARAC-1006)
+ os.chdir(KOK)
+ KURU = "--kuru" in sys.argv
+ 
+diff --git a/denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py b/denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py
+index 329e5577..2e20fa83 100644
+--- a/denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py
++++ b/denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py
+@@ -36,7 +36,7 @@ Kullanım: py denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py [--kok C:\\atlas]
+ import argparse, hashlib, importlib.util, json, os, subprocess, sys, tempfile, time
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ ap = argparse.ArgumentParser()
+-ap.add_argument("--kok", default=r"C:\atlas")
++ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ KOK = ap.parse_args().kok
+ ESKI_REV = "1381bf76"
+ 
+diff --git a/denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py b/denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py
+index 55d01ed5..d5b1e632 100644
+--- a/denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py
++++ b/denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py
+@@ -21,7 +21,7 @@ Kullanım: py denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py [--kok C:\\atlas]
+ import argparse, os, re, subprocess, sys, tempfile, textwrap
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ ap = argparse.ArgumentParser()
+-ap.add_argument("--kok", default=r"C:\atlas")
++ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ KOK = ap.parse_args().kok
+ BETIK = os.path.join(KOK, "denetim", "ARAC-LEGO-zincir.py")
+ ESKI_REV = "8717fe3a"          # betiğin 25 Eylül sürümü (1006 öncesi)
+diff --git a/denetim/ARAC-LEGO-zincir.py b/denetim/ARAC-LEGO-zincir.py
+index a1f9e8af..d9b718d8 100644
+--- a/denetim/ARAC-LEGO-zincir.py
++++ b/denetim/ARAC-LEGO-zincir.py
+@@ -29,11 +29,12 @@ GEO tuzunun dayanağı: o iki dosya bu tuza GİRMEZ. Bu betik o hükmün sınav
+ Kullanım:  py denetim/ARAC-LEGO-zincir.py [--kok C:\\atlas] [--dosya arac/uret_petek.py] [--gecmis]
+ Çıkış: 0 temiz · 1 YASAK AD zincirde (ötme) · 2 kullanım/ayrıştırma hatası
+ """
+-import argparse, ast, re, subprocess, sys
++import argparse, ast, os, re, subprocess, sys
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+ ap = argparse.ArgumentParser()
+-ap.add_argument("--kok", default=r"C:\atlas", help="depo kökü (varsayılan C:\\atlas)")
++ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
++                help="depo kökü (varsayılan: bu betiğin deposu)")
+ ap.add_argument("--dosya", default="arac/uret_petek.py", help="KOK'a göreli motor dosyası")
+ ap.add_argument("--gecmis", action="store_true", help="④ commit geçmişi taraması")
+ ap.add_argument("--since", default="2026-09-18")

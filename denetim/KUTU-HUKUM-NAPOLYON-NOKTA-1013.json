@@ -1,0 +1,14 @@
+{
+ "NAPOLYON-0918": {
+  "uygulanan_isg_ekle_27": {"hukum": "cozuldu", "not": "Delta/Nil/Yukarı Mısır 24 + Gazze/Han Yûnus/Yafa 3 nokta; Nil noktalarında bitiş 1801-07-17 yerine 1801-06-27 (Belliard kapitülasyonu; Kahire/Süveyş'te zaten böyle, olaylar_misir1801.js) — komşu beyanı kaynak alanında", "delil": "data/yerlesimler.js, data/yerlesimler_afrika.js; denetle 0"},
+  "Resid_t": {"hukum": "cozuldu", "not": "t 1801-10-09 -> 1801-04-19 (NAPO-3 Fort Julien); f kaynaksız, değişmedi", "delil": "data/yerlesimler.js"},
+  "El-Aris_t": {"hukum": "cozuldu", "not": "t 1799-11-17 -> 1799-12-28 (TDV yusuf-ziya-pasa + NAPO-2); kronoloji maddesi olaylar_p0055.js aynı güne taşındı (TDV aris 17 Kasım ile çelişki kaynakta yazılı)", "delil": "data/yerlesimler_afrika.js, data/olaylar_p0055.js"},
+  "Bilbis_Salihiyye_Feyyum_Minye_Girga_Asvan_Kahire_Iskenderiye_Asyut_Suveys": {"hukum": "bayat", "not": "NAPOLYON-MISIR-0070 / SIRADA-C daha yeni kaynaklı isg yazmış; yama uygulanmadı"},
+  "Mellevi_Deyrut_Ahmim": {"hukum": "senin-kararin", "not": "yama f=1799-01-08 (Tahta komşusu) ama Minye 12-21, Asyut 12-25, Girga 12-29 zaten kaynaklı; arada kalan bu üç nokta için komşu günü çelişir, yazılmadı"},
+  "Dimyat": {"hukum": "bayat", "not": "yama yalnız kaynak etiketini değiştiriyor, gün değişmiyor; f/t kaynaksız kalıyor"},
+  "Sina_guneyi_Ebukir_Katye_Hayfa_Nasira_Safed": {"hukum": "senin-kararin", "not": "yamanın ayrica_karar kalemleri: Sina güneyi isg silinsin mi, Ebûkîr/Katye günü yok, Celile noktaları yok — uygulanmadı"}
+ },
+ "NOKTA-KORLUK": {
+  "Pokutya_Karpat_Tenasserim_Kenya": {"hukum": "cozulemedi", "not": "yeterli kaynaklı gün/ad bulunamadı (arama yalnız Vikipedi düzeyinde döndü); nokta eklenmedi"}
+ }
+}

@@ -8,6 +8,12 @@
             hucresinden alinir ve o ancak motor kosarken vardir.
             ⇒ konum icin damga: OLCULEMEDI (kosu bitince donemler.js'ten).
 
+🔴 BEYAN (koordinator hukmu, 6 Ekim 2026 · UMIT-W32b): capa konumu ÖLÇÜLMEZ
+   (tasarim), bu yuzden bu betik HER KOSUDA CIKIS 2 verir. Bu bir ariza ya da
+   eksik girdi DEGILDIR; 2, "bu sinav sorunun bir parcasini sormuyor" demektir.
+   Gruplama kismi (SINAR) temizse cikti "SINAR" bolumunu yine eksiksiz basar.
+   Kalkmasi icin konum olcumu (donemler.js Voronoi) bu betige eklenmelidir.
+
 CLAUDE.md §11: "bir aleti taklit eden olcum onun ESIGINI de tasimali."
 Burada esik yok ama EVREN var: motor `tabi` kumesini EKLEYICI KAPI ile
 genisletiyor; bu simulasyon o genislemeyi YAPMAZ, yani gercek `tabi`
@@ -70,4 +76,11 @@ for y in Y:
 print("KULLIYAT: adsiz `v:` donemi %d · statusuz %d" % (adsiz, statusuz))
 print("  ⇒ adsizlar ETIKET URETMEZ (kod onlari eliyor)")
 print("  ⇒ statusuzler 'vassal' varsayilir (hukmun kendi kurali)")
-print("\n⚪ OLCULEMEDI: capanin KONUMU — gercek Voronoi hucresi gerekiyor.")
+# W32b (6 Ekim 2026): T5 — "OLCULEMEDI" yazip CIKIS 0 vermek yasak (denetle.py 4 Ekim
+# kurali). Konum bu betikte HIC olculmuyor ⇒ betik her kosuda 2 verir; bu bir BEYANDIR,
+# ariza degil. Kalkmasi icin konum olcumu (donemler.js Voronoi) eklenmeli.
+import olcu_kapisi_1006 as _w32_ok
+print()
+_w32_ok.kova("capa konumu ÖLÇÜLMEZ (tasarim) — bu betik her kosuda 2 verir; "
+             "BEYAN, ariza degil (gercek Voronoi hucresi gerekir · dosya basi BEYAN)")
+_w32_ok.bitir()

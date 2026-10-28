@@ -12,7 +12,7 @@ olcer ve UC RISKI onceden sinar:
 SALT OKUR. Cikti ASCII.
 """
 import io, os, re, sys, unicodedata, collections
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEN = os.path.join(KOK, "denetim")
 VER = os.path.join(KOK, "data")
 

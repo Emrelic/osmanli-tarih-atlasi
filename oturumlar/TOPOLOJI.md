@@ -153,3 +153,134 @@ Tek yazıcısı HAVVA'dır; başka hiç kimse bu dosyalara yazmaz.
 ```
 🔴 **Rol dışı iş reddi bir nezaket değil, çatışma önleyicidir:** KASA `data/`ya
 yazarsa HAVVA'nın koşusu ve EMRELIC'in elle yazımı aynı dosyada buluşur.
+
+---
+
+# 6. 🆕 ALT KOORDİNATÖRLÜK — her makinenin kendi akış sorumlusu
+*(Emre, 6 Ekim 2026: "umıt bilgisayarındaki irtibat noktası sorumlusunu alt
+koordinatör ilan edelim … genel koordinatörden görevleri alıp kendi bilgisayarında
+dağıtan oturum olsun.")*
+
+## 6.1 NİÇİN GEREKTİ — ölçülmüş darboğaz, tasarım hevesi değil
+5-6 Ekim gecesi sekiz işçi çalıştı. Sayılar:
+```
+dağıtılan görev          8
+gelen teslim             8  (dördü AYNI yarım saatte)
+genel koordinatörün
+  verebildiği hüküm      5  → üçü bir sonraki tura kaldı
+```
+🔴 **Darboğaz makine değil KOORDİNATÖRÜN KENDİSİ.** Her işçi bir şartname ister ve
+her teslim bir hüküm ister; ikisi de koordinatörün bağlamından yenir. 30 oturum
+açmak 30 teslim demektir, 30 teslim de **hükmü verilmemiş teslim** demektir.
+⚠️ Ve hükmü verilmemiş teslim, hiç yapılmamış işten KÖTÜDÜR: çürür, bayatlar,
+sonra biri aynı işi yeniden yapar.
+
+## 6.2 ALT KOORDİNATÖR KİMDİR
+Her makinenin **irtibat noktası** (Remote Control ile açılan oturum) o makinenin
+alt koordinatörüdür. Bugünkü kadro:
+```
+EMRELIC   GENEL KOORDİNATÖR (YILDIRIM BAYEZIT)  — alt koordinatörü YOK, kendisi odur
+UMIT      alt koordinatör: UMIT irtibat oturumu     → yazma · araştırma · denetleme
+HAVVA     alt koordinatör: HAVVA irtibat oturumu    → koşu + yayın (tek iş, tek oturum)
+KASA      alt koordinatör: KASA irtibat oturumu     → araştırma (UMIT'ten devralabilir)
+LAB       alt koordinatör: LAB irtibat oturumu      → denetleme (UMIT'ten devralabilir)
+```
+
+## 6.3 NE YAPAR — beş madde
+1. **Genel koordinatörden İŞ ALIR, madde değil KÜME alır.** Genel koordinatör
+   "şu 40 kalem senin makinende" der; hangisinin kime gideceğine alt koordinatör
+   karar verir.
+2. **Kendi makinesindeki hazır kıtaları ÖLÇER ve dağıtır** (`§7.3`: ad boşluk kanıtı
+   değildir — `list_events` mesaj sayısı ölçülür; `lastActivityAt` sıcaklıktır,
+   `isRunning` DEĞİL).
+3. **Teslimleri TOPLAR ve ÖN ELEMEDEN geçirir.** Genel koordinatöre giden şey ham
+   teslim değil, **özet + hüküm gerektiren kalemler**dir.
+4. **Kendi makinesinin git akışını yürütür:** işçiler kendi dosyalarını adıyla
+   commitler, alt koordinatör makine dalına push eder. `main`e **ASLA** push etmez.
+5. **Çakışmayı kendi makinesinde keser:** aynı dosyaya iki işçi bakmayacak
+   (`§7` — bölme ölçütü DOSYADIR).
+
+## 6.4 NE YAPMAZ — ve bu liste yetkiden daha önemli
+```
+❌ KAPSAM kararı veremez          (yeni boyut · yeni künye sınıfı · yeni katman)
+❌ TAVAN değiştiremez             (BEKLENEN_* sabitleri genel koordinatörde)
+❌ main'e push edemez
+❌ Emre'ye doğrudan kapsam sorusu soramaz — genel koordinatöre yazar
+❌ başka makinenin işçisine görev veremez
+❌ bir eşin REDDEDİLDİĞİ işi onun yerine yapamaz/yaptıramaz
+```
+🔴 Sonuncusu 5 Ekim'de yaşandı ve HAVVA doğru davrandı: izin reddi alınca
+*"senin ya da başka bir oturumun benim yerime yapması da aynı reddin etrafından
+dolaşmak olur"* dedi. **Bu kural artık yazılı.**
+
+## 6.5 HÜKÜM SINIRI — alt koordinatör neyi karara bağlar
+```
+🟢 KARARA BAĞLAR   hangi işçi · hangi sıra · çakışma · ölçüm yeterli mi ·
+                   teslim kabul mü (ölçüm eksikse GERİ GÖNDERİR)
+🟡 ÖNERİR          veri düzeltmesi · tavan değişikliği · yeni ders
+🔴 YUKARI TAŞIR    kapsam · model · kaynak çelişkisi · Emre'nin kararı
+```
+📌 Ölçüm ile hüküm ayrımı alt koordinatörde de geçerlidir: *bir işçinin sayısını
+kabul etmeden ölç.* 5 Ekim'de bu üç kez işe yaradı (LAB "evrende 3" dedi, kapı 6
+gösterdi · KASA "4 çift" dedi, kapı 3 gösterdi · işçi "kapı görmüyor" dedi, kapı
+görüyordu).
+
+---
+
+# 7. 🔴 KOŞU ÖNCESİ PUSH DİSİPLİNİ — Emre'nin sorusunun ölçülmüş cevabı
+*(Emre: "yapılan işleri herkesin koşu başlamadan önce push etmiş olması lazım diye
+düşünüyorum doğru mu — herkes kendi işini push etmemiş olur ise havva eksik veri ile
+koşu yapar.")*
+
+**Doğru, ama eksik.** Ölçüldü (5 Ekim):
+```
+makine/havva   origin/main'e göre  65 geride · 1 ileride
+makine/umit   240 geride · makine/kasa 337 · makine/lab 456 · makine/sonra1923 347
+main son 6 SAATTE 96 commit aldı
+```
+🔴 **Push YETMEZ — makine dalına push etmek veriyi koşuya SOKMAZ.** Koşu
+`origin/main`den taze worktree kurar; bir iş `makine/umit`e push edilmişse ve
+`main`e BİRLEŞTİRİLMEMİŞSE, koşu onu GÖRMEZ.
+
+## Koşu öncesi zincir — dördü de şart
+```
+① her işçi KENDİ dosyasını adıyla commitler        (§7 · D223, pathspec AÇIK)
+② alt koordinatör makine dalına push eder
+③ GENEL KOORDİNATÖR dalları main'e BİRLEŞTİRİR ve push eder   ← ATLANAN HALKA
+④ koşucu: git fetch → git rev-parse origin/main → TEMELİ YAZAR → worktree
+```
+⚠️ **Commit edilmemiş iş hiçbir yere gitmez.** Koşu emrinden önce alt koordinatörler
+"bende commit edilmemiş iş var mı" diye `git status --porcelain` ile ÖLÇER ve
+genel koordinatöre **sayıyla** bildirir.
+
+## Ve kaçınılmaz olanı da yazalım
+`main` saatte ~16 commit alıyor, koşu 4-7 saat sürüyor. ⇒ **Koşu bitmeden bayatlar
+ve bu NORMALDİR** (`D229`). Çare daha çok push değil, **TEMELİ YAZMAK**: çıktı
+commit'i "temel \<hash\>" taşır. KOŞU 19 bunu yaptı ve 5 Ekim'de bir gerilemeyi
+ararken o satır işe yaradı.
+🔴 Peşinden koşma: "biraz daha güncel olsun" diye koşuyu geciktirmek, hiç
+koşmamaktır.
+
+---
+
+# 8. 🆕 MESAJLAŞMANIN BEDELİ — ve niçin web tabanlı tahta ŞART
+*(Emre, 6 Ekim: "bir yazı hem gönderene hem alana yazılarak token harcanmasına sebep
+olabilir, ayrıca context'e katılmamış olur … web tabanlı bir sisteme oturumların mesaj
+yazabilmesi sağlanmalı.")*
+
+**İtiraz yerinde ve §4 ①'deki teşhisle aynı kök.** Bugünkü tahta üç ayrı bedel
+ödetiyor:
+```
+① YAZIM BEDELİ    mesaj hem yazanın turunda üretilir hem okuyanın bağlamına girer
+② GİT BEDELİ      her mesaj bir COMMIT, ve beş makine onu birleştirmek zorunda
+                  (ölçüldü: son 200 commit'in %39'u tahta mesajı)
+③ BAĞLAM BEDELİ   mesaj bağlamda KALMAZ; sonraki turda yeniden okunmak zorundadır
+```
+⇒ Çare `§4 ①`de yazılı ve altyapısı HAZIR: `acici.py` (jetonlu, yalnız özel ağ,
+her istek loglu) üzerine bir `tahta` uç noktası; tahta **tek makinede** durur,
+ötekiler HTTP ile yazar/okur. **Tek yazıcı ⇒ çatışma imkânsız**, ve mesaj git'ten
+çıkınca ② tamamen kalkar.
+⚠️ Tek arıza noktası: EMRELIC kapalıysa tahta yok. Düşüş yerel dosyaya olur ve
+**BEYANLI** olur.
+📌 Bu bir "güzel olur" değil ölçülmüş bir kazanç: commit sayısında ~%39 azalma ve
+UMIT'i kilitleyen sınıfın tamamen kalkması.

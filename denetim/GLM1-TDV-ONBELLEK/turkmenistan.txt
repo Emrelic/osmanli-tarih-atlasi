@@ -1,0 +1,2597 @@
+﻿         
+
+
+
+
+<!DOCTYPE html>
+<html lang="tr" class="no-js">
+	<head>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(66550639, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/66550639" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160819951-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-160819951-1');
+		</script>
+        		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Orta Asya Türk cumhuriyetlerinden."><meta property="og:url" content="/turkmenistan"><meta property="og:site_name" content="TDV İslâm Ansiklopedisi"><meta property="og:title" content="TÜRKMENİSTAN - TDV İslâm Ansiklopedisi"><meta property="og:type" content="website"><meta property="og:description" content="Orta Asya Türk cumhuriyetlerinden."><meta property="og:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@TDV_ISAM"><meta property="twitter:title" content="TÜRKMENİSTAN - TDV İslâm Ansiklopedisi"><meta property="twitter:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:description" content="Orta Asya Türk cumhuriyetlerinden.">		<title>TÜRKMENİSTAN - TDV İslâm Ansiklopedisi</title>
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.core.css?ver=22">
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.design.css?ver=26" />
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/all.min.css" />
+		<link rel="shortcut icon" type="image/png" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-favico-v3.ico"/>
+		<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.min.213.js"></script>
+		<script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/modal.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/ResizeSensor.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/theia-sticky-sidebar.min.js"></script>
+				
+	</head>
+
+<body>
+
+<style>
+
+
+
+#topnewst{
+	position: fixed;
+	top: 0;
+    background: #FF8951;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #fff;
+	height:45px;
+	line-height:45px;
+	z-index: 1199;
+	font-weight:bold;
+	letter-spacing:0.02rem;
+}
+#topnewst a{color:#fff; text-decoration:underline !important;}
+
+#volume-list {display:none; }
+
+#letter-lisst { position: absolute; margin-top:-2px; z-index:-10; background:#fff; padding-top:10px; border:2px solid #ccc}
+
+#letter-list a { text-align:center; text-decoration:none; float:right}
+.azcontainer{width:100px;}
+.minict_wrapper ul li:hover{background:#ededed;}
+
+.menu-top-left{text-align:left !important;}
+#searc-complete-result{list-style:none; margin:0px; padding:0px;}
+
+#searc-complete-result li{
+	float:none;
+	line-height:19px;
+	margin:0px !important;
+	padding: 13px 2px !important;
+	border-bottom: 1px solid #efe9e9;
+	border-top:none;
+}
+#searc-complete-result a{text-decoration:none;}
+#searc-complete-result li .sr-title{color:#0093B0; font-weight:bold}
+#searc-complete-result li .sr-desc{color:#666;}
+#searc-complete-result li:hover{background:#f1f4f4;}
+#auto-suggest-loading{height:45px;}
+#auto-suggest-loading1{height:45px;}
+#searchBox1{width: 90%;}
+.logged_user{border-top:2px solid #ddd;}
+
+/* header buyutme */
+
+.header_logo img{height:58px !important;}
+
+
+.hover-menu ul li:hover{background:rgb(236, 230, 230, 0.60);}
+#albhabet_button:hover{color:#666 !important;}
+#cilt_button:hover{color:#666 !important;}
+.hover-menu ul li{text-align:left !important;}
+#auto-suggest-box{width:490px; top:50px !important; border:none; background-color:#f4f1f1; left:0px !important}
+#searc-complete-result{margin-top:14px; line-height:19px;}
+
+#searc-complete-result > a:first-child li{border-top: 2px solid #bdb7b7 !important; padding-top: 25px !important; padding-left:2px !important; padding-right:2px !important;}
+#searc-complete-result a.selected li{background:#e6e6e6 !important;}
+
+body{margin-top:60px;}
+
+#searchBox::-ms-clear {
+    display: none;
+}
+
+.hover-menu ul a li{color:#666;}
+.hover-menu ul a:hover li{color:#000;}
+
+#searc-complete-result{margin:3px 12px 0 12px !important;}
+#searc-complete-result > a:first-child li{padding: 13px 2px !important; border-top:2px solid #ddd !important}
+.sr-title{font-size:0.98rem !important;}
+.sr-desc{font-size:0.95rem !important;}
+.sr-old{color: #9d9d9d; font-size:0.75rem !important;}
+#auto-suggest-box{min-height:125px !important; border: 2px solid rgb(93, 182, 213); border-top:none; background:#fff; border-radius:3px}
+#searc-complete-result > div.no-res{ padding:20px 0px 50px 5px; color:#666}
+
+#searc-complete-result .at-line{position:relative; padding-left:5px;}
+#searc-complete-result .at-line .author-photo{height:35px; border-radius:2px}
+#searc-complete-result .at-line .icon-user{font-size: 31px; color: #ddd; padding-right: 4px;}
+#searc-complete-result .at-line .author-title{position: absolute; top: -3px; padding-left: 10px; color: #0093B0; font-weight: bold;}
+#searc-complete-result .at-line .author-field{position: absolute; top: 15px; padding-left: 10px; font-size:15px; color:#999}
+
+#searc-complete-result .author-photo{height:30px;}
+
+.as-tabs div.as-m.act, .as-tabs div.as-y.act{}
+.as-tabs div.as.psv{cursor:pointer;}
+.as-tabs div.as img.ic{height:20px;}
+.as-tabs div.as.psv img.ic{opacity:0.4}
+.as-tabs div.as.psv img.ic:hover{opacity:1}
+.as-tabs div.as.psv img.up{display:none}
+.as-tabs div.as span{ color:#666; font-size:15px;}
+
+div.mr{text-align:left; padding: 10px 15px 10px 0px; }
+.deep{ height:17px; opacity:0.7; }
+.deep:hover{opacity:0.9;}
+.count{color:#999;}
+/*div.mr a{color:#06839c; font-size:0.93rem;}
+div.mr a:hover{text-decoration:underline !important;}
+div.mr .sall{color: #06839c !important; text-decoration: underline !important;}
+.metinshow{color: #06839c !important}
+.srchp:hover{color:#0e6779 !important;}*/
+
+/* new alert */
+/*#header_container{top:45px !important;}
+.body_container{margin-top:45px !important;}*/
+
+.alert-warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #856404;
+    background-color: #fff3cd;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.alert-content {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.alert-close {
+    flex: 0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.alert-close:hover {
+    color: #c69500;
+}
+</style>
+
+<!-- <div id="topnewst">Arama yenilendi: <a href="/duyuru/arama-kilavuzu">Arama kılavuzunu okumak için tıklayınız.</a></div> -->
+
+<div id="header_container" style="position:fixed; top:0px !important;">
+    
+    <div class="centered" id="menu">
+	
+		<div class="static_position pure-g" >
+			<div class="pure-u-13-24 hdr-left">
+        		<div class="header_left">
+            		<ul class="dia-navul">
+           				<li class="header_menu hover-menu-button" style="margin-right:8px; line-height:0px; margin-top:18px; margin-left:-7px ">
+							<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/blue-dot-menu-masaustu.png" />
+							<div class="hover-menu" style="left:10px; right:none; top: 47px;">
+								<div style="position:relative">
+								<img class="menu-top-arrow" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png?ver=2" style="position:absolute; top:-9px; left:5px" />
+								<ul>
+									<a href="/genel_kisaltmalar"><li class="hover_menu_first">Genel Kısaltmalar</li></a>
+									<a href="/transkripsiyon_isaretleri"><li>Transkripsiyon İşaretleri</li></a>
+									<a href="/duyuru/arama-kilavuzu"><li>Arama Kılavuzu</li></a>
+									<a href="/duyurular"><li>Duyurular</li></a>
+									<a href="/hakkinda/"><li style="border-bottom:none;">TDV İslâm Ansiklopedisi Hakkında</li></a>
+								</ul>
+								</div>
+							</div>
+						</li>
+						<li class="header_logo" style="border-right:none; position:relative">
+							<a href="/" id="logo-part"> 
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-yatay-logo.svg" style="height:28px; width:318px;" />
+							</a>
+							<div id="header-article" style="display:none">
+							</div>
+						</li>						
+            		</ul>
+        		</div>
+    		</div>
+    		<div class="pure-u-11-24 hdr-right">
+        		<div class="header_right">
+             		<ul class="dia-navul right">
+						<li class="header_search" style="padding:0px; margin-right:-2px;">
+
+							<span class="icon-search tipsoo tbottom tipso_style" style="background: #0093c1 !important; color: #fff !important;position:absolute;right:9px;top:16px;" id="icon-search-submit" data-width="175" data-tipso="Madde başlıklarında ara."></span>
+							<span class="icon-search tipso tbottom tipso_style" style="background:transparent;color: #DF6F49 !important;position:absolute;right: 50px;top:17px;font-size: 1.1rem; " id="icon-search-submit-txt" data-width="175" data-tipso="Madde içeriklerinde ara."></span>
+							<img class="open-keyboard" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/input-keyboard.png" />
+
+							<input id="searchBox" class="searchBox" style="width:490px; line-height:normal; height:45px; padding-right:55px;" type="text"
+							value='' placeholder="TDV İslâm Ansiklopedisi'nde ara..." autocomplete="off"/>
+							<div id="auto-suggest-box">
+								<input autocomplete="off" id="auto-suggest-state" style="display:none" />
+								<img src='https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif' id="auto-suggest-loading" />
+								<div id="auto-suggest-content"></div>
+							</div>
+							<style>
+							.open-keyboard{position: absolute;
+							right: 90px;
+							top: 27px;
+							opacity: 0.3; cursor:pointer}
+							.open-keyboard:hover{opacity:0.8}
+							.dia-keyboard {display:none; background:#fff; border:1px solid #ddd; padding:20px 15px 15px 15px; position:absolute; top:10px; left:-490px; width:485px; line-height:0px; border-radius:3px;}
+							.dia-keyboard ul{list-style:none; margin:0px; padding:0px; clear:both}
+							.dia-keyboard ul li{float:left; width:30px; height:27px; text-align:center;
+							    border: 1px solid rgba(0,0,0,0.1);
+								background-color: #f5f5f5;
+								border-radius:2px;
+								margin:2px; line-height:27px; cursor:pointer; font-size:15px;}
+							.dia-keyboard ul li:hover{background:#ddd;}
+							.dia-keyboard .shift{width:45px; font-size:13px; font-weight:bold}
+							.dia-keyboard .close-keyboard{position: absolute;right: 10px; top: 10px; font-weight: bold; color: #666; cursor: pointer;}
+							</style>
+							<div class="dia-keyboard">
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/keyboard-arrow.png" style="line-height:0px;position:absolute; right:-5px;" />
+								<span class="close-keyboard">x</span>
+								<ul>
+									<li hb=""" hk=""">"</li>
+									<li hb="1" hk="1">1</li>
+									<li hb="2" hk="2">2</li>
+									<li hb="3" hk="3">3</li>
+									<li hb="4" hk="4">4</li>
+									<li hb="5" hk="5">5</li>
+									<li hb="6" hk="6">6</li>
+									<li hb="7" hk="7">7</li>
+									<li hb="8" hk="8">8</li>
+									<li hb="9" hk="9">9</li>
+									<li hb="0" hk="0">0</li>
+									<li hb="*" hk="*">*</li>
+									<li hb="-" hk="-">-</li>									
+								</ul>							
+								<ul style="margin-left:10px;">
+									<li hb="Q" hk="q">q</li>
+									<li hb="W" hk="w">w</li>
+									<li hb="E" hk="e">e</li>
+									<li hb="R" hk="r">r</li>
+									<li hb="T" hk="t">t</li>
+									<li hb="Y" hk="y">y</li>
+									<li hb="U" hk="u">u</li>
+									<li hb="I" hk="ı">ı</li>
+									<li hb="O" hk="o">o</li>
+									<li hb="P" hk="p">p</li>
+									<li hb="Ğ" hk="ğ">ğ</li>
+									<li hb="Ü" hk="ü">ü</li>
+									<li hb="," hk=",">,</li>									
+								</ul>
+								<ul style="margin-left:25px">
+									<li hb="A" hk="a">a</li>
+									<li hb="S" hk="s">s</li>
+									<li hb="D" hk="d">d</li>
+									<li hb="F" hk="f">f</li>
+									<li hb="G" hk="g">g</li>
+									<li hb="H" hk="h">h</li>
+									<li hb="J" hk="j">j</li>
+									<li hb="K" hk="k">k</li>
+									<li hb="L" hk="l">l</li>
+									<li hb="Ş" hk="ş">ş</li>
+									<li hb="İ" hk="i">i</li>
+																	
+								</ul>
+								<ul>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>
+									<li hb="Z" hk="z">z</li>
+									<li hb="X" hk="x">x</li>
+									<li hb="C" hk="c">c</li>
+									<li hb="V" hk="v">v</li>
+									<li hb="B" hk="b">b</li>
+									<li hb="N" hk="n">n</li>
+									<li hb="M" hk="m">m</li>
+									<li hb="Ö" hk="ö">ö</li>
+									<li hb="Ç" hk="ç">ç</li>
+									<li hb="." hk=".">.</li>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>																		
+								</ul>
+								<ul style="margin-left:65px;">
+										
+									<li hb="Boşluk" hk="Boşluk" class="space noletter" style="width:280px;">Boşluk</li>
+									<li hb="Sil" hk="Sil" class="delete back noletter" style="width:50px">Sil</li>
+								</ul>									
+							</div>
+						</li>			
+	    			</ul>
+        	</div>
+    	</div>	
+  	</div>
+
+	</div>
+	</div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        // Focus search box when page load
+        $('#searchBox').focus();
+    });
+</script>
+
+<div id="scrollTop" title="Sayfanın başına dön." style="z-index:100000">
+	<span class="icon-chevron-up"></span>
+</div>
+
+<style>
+#newsbar_open{display:block ;} /* only this page */
+.m-body{font-size:19px; line-height:28px; text-align:justify;}
+body{color:#494d55 !important}
+
+.inAtr{font-size:16px; color:#999 !important}
+
+@media screen {
+    #print-part-temp { display: none;}
+	.hdrprint{background:#ededed;}
+}
+@media print {
+	#print-part-temp { display: block; padding:30px;}
+	.hdrprint{background:#ededed; padding:5px; margin-bottom:20px; fonst-size:7px;  border-bottom:1px solid #ddd; }
+	.dosyaindir{display:none}
+	 body{margin: 0mm 0mm 1mm 0mm; }
+}
+
+.copy-link{cursor:pointer}
+.copy-link:hover{opacity:0.5 !important;}
+
+#div_bilgi{padding-top:6px;}
+.atif-btn{cursor:pointer;}
+.atif-kutusu{cursor: default !important;}
+.article-pd{font-size:14px; color:#999; line-height:20px; margin-top:5px;}
+
+.fotorama__caption{text-align:center !important;}
+.fotorama__caption__wrap{background-color: rgba(255,255,255,.9) !important;  }
+.fotorama__caption__wrap b{color:#E16327}
+.article-part{margin-bottom:60px;}
+.sterm{background:#E3FF91;}
+
+.m-content p{margin-top:0px; margin-bottom:17px;}
+.m-content bibl p{margin-top:0px; margin-bottom:5px; line-height:22px; padding-left: 1.5em;
+    text-indent:-1.5em; font-size:17px;}
+
+
+
+		.article-part-header{background:#f4f1f1;  border-radius:1px; position:relative; margin-bottom:20px;}
+		.article-part-header.kor-part{background-color:#f1f4f4 !important; }
+		.article-part-header .yazim-arrow{position:absolute; bottom:-10px; left:20px; z-index:1}
+		.part-author{padding-left:15px; line-height:55px}
+		.part-title{display:none}
+		.part-title a{color:#666}
+		.part-authors{}
+		.part-authors span{color:#888}
+		.part-authors a{color:#0093b0}
+		.part-info{padding-right:15px;text-align:right; padding-top:16px}
+		/* .atif-btn{position:absolute; cursor:pointer; color:#0093B0; font-size:26px; right:2px; top:-31px} */
+		.atif-btn.psv{}
+		/*
+		.atif-btn.top{position:absolute; top:5px; right:0px;}
+		.atif-btn.top .atif-kutusu{border-top:1px solid #ddd;}
+		.atif-btn.top .ak-list{height:280px; overflow-y:auto; overflow-x:hidden;}
+		*/
+		.atif-kutusu{text-align:left; right:-0px;  background:#F7F7F7;  display:none; border: 1px solid #e4e4e4;padding:10px 20px 20px 20px; z-index:5; font-size:0.85rem; color:#777; margin-top:-1px;}
+		.ak-title{border-bottom:1px solid #ddd; font-size:1.05rem !important; line-height:23px !important; padding-bottom: 5px; font-weight:bold;}
+		.ak-muellif{line-height:18px; padding-top:9px;}
+		.ak-site{line-height:18px; padding-top:9px;}
+		.ak-yayinci{line-height:18px; padding-top:9px;}
+		.ak-ilkyayin{line-height:18px; padding-top:9px;}
+		.ak-adres{line-height:18px; padding-top:9px;}
+		.ak-copy{border-top:1px solid #ddd; padding-top:10px; margin-top:10px;}
+		.ak-copy span{background:#f9f9f9; color:#666; padding:4px 15px 4px 15px; border:1px solid #ddd; border-radius:2px; cursor:pointer}
+		.ak-copy span:hover{background:#f1f1f1;}
+		.ak-copytext{display:none; line-height:17px; padding-top:20px; padding-bottom:10px}
+		.msg-btn{ cursor:pointer; font-size:28px; color: #967A7A; position: absolute; right: 34px; top: -32px;}
+		.msg-btn a{color: #967A7A}
+		.print-btn{float:right; cursor:pointer; font-size:20px; color: #967A7A; padding-top:1px;}
+
+
+.article-part-nav-info{position:absolute; background:#E98A5C; top:-33px; left:0px; list-style-type:none; margin:0px; padding:0px; color:#fff; border-radius:2px;}
+.article-nav-prev{cursor:pointer; padding:2px 4px 0px 5px; height:18px; float:left; line-height:0px; border-right:none}
+.article-nav-prev span, .article-nav-next span{font-size:11px;}
+.article-nav-prev.kor{border-right:1px solid #ddd;}
+.article-nav-next{cursor:pointer; padding:2px 4px 0px 4px; height:18px; float:left; line-height:0px;}
+.article-nav-next.kor{border-left:1px solid #ddd;}
+.article-nav-passive{cursor:default;}
+.article-nav-passive img{opacity:0.3; cursor:default;}
+.article-nav-prev.kor span, .article-nav-next.kor span{color:#afa1a1;}
+.article-nav-numbers{padding:0.15rem 12px 0 12px; line-height:25px; float:left; border-right:1px solid #F3BFA7; border-left:1px solid #F3BFA7; font-size:13px; font-weight:bold; letter-spacing: 3px;}
+
+.article-nav-open-info{cursor:pointer; padding:0 9px; height:21px; line-height:22px; float:left; border:none; font-size:13px; font-weight:bold;}
+.article-nav-info-li{float:left; height:21px; background:rgb(181, 164, 164); font-size:13px; line-height:21px; height:21px; padding:0 10px; display:none; border-top-right-radius: 2px; border-bottom-right-radius: 2px;}
+.tipso_style{border-bottom:none !important;}
+
+.bibpos{position:absolute; color:#fff; font-size:1px;}
+.m-body span.eser{font-style:italic; text-justify: none; }
+.m-body span.kisaltma{text-justify: none;}
+
+.m-body bibl span.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+.m-body bibl span.eser.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+
+.m-body bibl{
+margin-top: -17px !important;
+    display: block;
+}
+
+.pop-title{font-weight:bold;}
+
+.article-left-bar{padding-bottom:0px !important; box-shadow:none !important; background:none !important; max-width: 68px;z-index: 1;}
+
+.rndleftbtn:hover{opacity:1 !important}
+
+.encokokunan{
+	background: #e4e8e8;
+    width: 100px;
+    /* padding: 2px 5px; */
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: -25px;
+    font-size: 0.80rem;
+    padding: 2px 0px 3px 0px;
+    font-weight: bold;
+    color: #888;
+    /* margin-top: 10px; */
+}
+.encokokunan:hover{background:#dbdede; color:#666}
+.captcha-container > img { height: 38px; position: absolute }
+.captcha-container > .form-group { margin-left: 90px; }
+.error-box{background: #ff8585; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+.success-box{background: #26b151; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.grecaptcha-badge.show {
+    visibility: visible !important;
+    z-index: 10000;
+}
+
+.swal2-container {
+    z-index: 10000;
+}
+
+.swal2-html-container {
+    font-size: 1rem;
+}
+</style>
+
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.print.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.lazyload.min.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+<link rel="stylesheet" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/vendor.fotorama.css">
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.fotorama.js"></script>
+
+
+
+<br />
+<div class="centered body_container body_pad_article" style="position:relative">
+
+	<div class="print-meta visible-on-print" style="display: none;">
+		Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+		<a title="TÜRKMENİSTAN" href="https://islamansiklopedisi.org.tr/turkmenistan?utm_source=pdf">https://islamansiklopedisi.org.tr/turkmenistan</a>
+	</div>
+
+	<div class="article_header_container" style="margin-bottom:25px; position:relative;">
+	<!-- mesele -->
+	<!-- article left bar -->
+		<div class="article-left-bar">
+				<div class="pure-g bar-line"  style="    background: #fff;
+		padding-top: 5px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell bleft"><span class="icon-align-left"></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span class="icon-align-justify"></span></div>
+				</div>
+				<div class="pure-g bar-line"  style="background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell fup"><span id="txtup" class="icon-font up" style=""></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="txtdown" class="icon-font down"></span></div>
+				</div>
+				<div class="pure-g bar-line-nav"  style="background: #fff; padding-bottom: 5px; border-bottom-left-radius: 4px;border-bottom-right-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+
+					<div class="pure-u-1-2 bar-cell bleft"><span id="pagecolorSepia" ></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="pagecolorWhite"></span></div>
+				</div>
+
+				<div class="pure-g bar-line-nav rndleftbtn tipso tright tipso_style" data-tipso="<i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde görmek için tıklayınız." data-width="200" style="border-bottom: none; border-radius:4px; margin-top:10px; background:#2FB556; opacity:0.85; border: 1px #5abb76 solid; text-align: center; padding: 7px 0 2px 0px; cursor:pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" style="height:20px" /></div>
+				</div>
+
+				<div class="pure-g" style="display:none">
+					<div class="pure-u-1-2 bar-cell bleft">
+						<a href="turkluk-bilgisi-arastirmalari" class="tipso tright" data-width="200" data-tipso="Önceki madde: TÜRKLÜK BİLGİSİ ARAŞTIRMALARI">
+							<span class="icon-chevron-circle-left"></span>
+						</a>
+					</div>
+					<div class="pure-u-1-2 bar-cell bright">
+						<a href="turkmenler" class="tipso tright" data-tipso="Sonraki madde: TÜRKMENLER">
+							<span class="icon-chevron-circle-right"></span>
+						</a>
+					</div>
+				</div>
+		</div>
+	<!-- article left bar end -->
+
+		<style>
+		.listen{width:15px; opacity:0.5; cursor:pointer}
+		.listen:hover{opacity:1;}
+		</style>
+
+		
+		
+		<div class="article_title"><h1>TÜRKMENİSTAN</h1></div>
+
+		
+		<div class="article_info"><h2>
+			<div style="padding-top:6px;"><span style="color:#e16328">Orta Asya Türk cumhuriyetlerinden.</div>			</h2>
+		</div>
+	</div>
+
+
+<div id="article-main-content" class="pure-g " style="">
+    <div class="pure-u-1 pure-u-md-15-24 sticky-content">
+
+		<div class="bibl-popup" style="display:none; position:absolute; padding:22px 24px 18px 18px; max-width:290px; background:#FEFEC6; z-index:1;     box-shadow: 0 3px 10px rgba(0,0,0,.3);">
+			<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/bibl-popup-arrow.png" style="position: absolute;top: -10px;" />
+			<span class="icon-close close-bibl-poup" style="position: absolute;top: 8px; right: 10px; font-size: 20px;cursor: pointer; color:#555"></span>
+			<div class="bibl-cnt"></div>
+		</div>
+
+		
+
+		<div class="m-body" id="m-body" style="font-size:; line-height:">
+
+			<!-- Madde Planı -->
+			<style>
+			body.sepya{background-color:rgb(241, 233, 215) !important}
+			.art-plan{margin-bottom:30px;border:1px solid #ededed; border-radius:3px;}
+			.art-plan.sepya{border: 1px solid #c5bead !important;}
+			.article-plan-buttons{border-bottom:1px solid #ededed; overflow:hidden}
+			.article-plan-buttons.sepya{border:none; border-bottom: 1px solid #c5bead !important;}
+			.article-plan-buttons .passive:hover{border-bottom:3px solid #ededed; color:#333; cursor:pointer}
+			.article-plan-buttons .passive{color:#999; border-bottom:none; font-weight:normal}
+			.article-plan-buttons .active{color:#666; border-bottom:3px solid #ddd; font-weight:bold}
+			.btn-plan, .btn-preview{padding-bottom:5px !important; padding-top:5px !important}
+			.plan-content, .preview-content{ clear:both;  font-size:15px; border-radius:3px;}
+			.preview-span{background: #ededed;padding: 2px 8px; margin-right:10px; font-size: 12px; letter-spacing: 1px;border-radius: 3px;}
+			.preview-ul{list-style:none; padding:0px; margin:0px; height: 189px; overflow-y: auto; padding-right:15px;}
+			.preview-ul li{padding-bottom:30px; line-height:22px; cursor:pointer; color:#777; width:100%;}
+			.preview-ul li:hover{color:#888;}
+			.ind2{padding-left:15px;}
+			.ind3{padding-left:30px;}
+			.ind4{padding-left:45px;}
+			.ind5{padding-left:60px;}
+			.ind6{padding-left:75px;}
+			</style>
+
+			
+				<div id="artplan" class="art-plan">
+					<div class="article-plan-buttons">
+					    							<div class="btn-preview active" style="font-size:15px; text-align:center;float:left; margin-left:20px; padding:0 20px; width:195px">
+								Bölümler İçin Önizleme
+							</div>
+                        													<div class="btn-plan passive" style="font-size:15px; text-align:center;float:left; margin-left:20px; padding:0 20px">
+								Madde Planı
+							</div>
+											</div>
+										<div class="preview-content" style="line-height:27px; padding:15px 5px 10px 20px; ">
+						<div class="top-prev-container top-prev-container-p" style=" width: 100%;  z-index:100;padding-bottom:5px;">
+								<div class="preview-content">
+								<ul class="preview-ul">
+								<li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >1/3</span><span><span>Müellif: </span><b style="color:#888">HALİL KURT</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Sovyet Sosyalist Cumhuriyetleri Birliği’nin dağılmasıyla 27 Ekim 1991’de bağımsızlığını kazanan Türkmenistan kuzeyden Kazakistan, kuzey ve kuzeydoğuda...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#2-tarih"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >2/3</span><span><span>Müellif: </span><b style="color:#888">MEHMET SARAY</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">II. TARİH Ülke adını Türkmenler’den alır. İslâm kaynaklarında müslüman Oğuzlar’a Türkmen denilirdi. İslâm’dan önce Sâsânîler’in hâkimiyetinde kalan Tü...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#3-mimari"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >3/3</span><span><span>Müellif: </span><b style="color:#888">YÜKSEL SAYAN</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">MİMARİ. Neolitik devirlerden itibaren yerleşimin tesbit edildiği Türkmenistan’da özellikle Part ve Sâsânîler’in mimaride önemli gelişme kaydettikleri ...</div></li>								</ul>
+							</div>
+						</div>
+					</div>
+				    										<div class="plan-content" style="line-height:27px; display:none; padding:0px 5px 10px 20px; max-height: 190px;
+    overflow-y: auto; margin-right: 5px;
+    margin-top: 15px; margin-bottom:15px">
+						<div class="ind1">I. FİZİKÎ ve BEŞERÎ COĞRAFYA</div>
+<div class="ind1">II. TARİH</div>
+<div class="ind1">III. KÜLTÜR ve MEDENİYET</div>					</div>
+				    				</div>
+
+
+			
+			<!-- Madde Metni -->
+			<style>
+			.hdrprt1{border:1px solid #e4e4e4; border-radius:3px; margin-bottom:0px; position:relative}
+			.hdrprt1.sepya{border: 1px solid #c5bead;}
+			.hdrprt1arrows{border-bottom:1px solid #e4e4e4; overflow:hidden;background: #f4f1f1;}
+			.hdrprt1arrows.sepya{border-bottom: 1px solid #c5bead;background: #e4ddcc;}
+			.partnumbers{float:left;  height:37px; font-size:0.90rem; letter-spacing: 3px; border-left:1px solid #ddd; border-right:1px solid #ddd; padding-left:12px; padding-right:12px; color:#007993; padding-top:5px;}
+			.partnumbers.sepya{border-left:1px solid #c5bead; border-right:1px solid #c5bead;}
+			.partdownarrow{float:left;  height:37px; padding-top:4px; padding-left:12px; padding-right:12px;border-right:1px solid #ddd;}
+			.partdownarrow.sepya{border-right:1px solid #c5bead;}
+			.partprint{border-left:1px solid #e4e4e4; float:right;;height:37px; line-height:42px; padding-left: 14px; padding-right: 14px; cursor:pointer}
+			.partprint.sepya{border-left:1px solid #c5bead}
+			.partemail{border-left:1px solid #e4e4e4; float:right; line-height: 37px; padding: 1px 14px; cursor:pointer}
+			.partemail.sepya{border-left:1px solid #c5bead;}
+			.partatif{border-top-right-radius: 2px; float:right; border-left: 1px solid #e4e4e4; padding: 1px 14px; line-height: 37px;}
+			.partatif.sepya{border-left: 1px solid #c5bead;}
+			</style>
+			<!-- Madde Metni -->
+			                <div class="article-parts">
+                                            <!--<div class="visible-on-print">
+                            <img src=""
+                                 title=""  alt="" />
+                            <div class="right-info" style="text-align:center;"></div>
+                        </div>-->
+                    
+                    							<div class="article-part" id="_1" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									3 bölümden oluşan maddenin 1. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="TÜRKMENİSTAN" href="https://islamansiklopedisi.org.tr/turkmenistan?utm_source=pdf#1">https://islamansiklopedisi.org.tr/turkmenistan#1</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev article-nav-passive " data-jurl="#" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="3 bölümden oluşan maddenin 1. bölümü">
+													1/3												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#2-tarih" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="3-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="TÜRKMENİSTAN//1" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/halil-kurt"><b>HALİL KURT</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">TÜRKMENİSTAN</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>HALİL KURT</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2012</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/turkmenistan#1</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext1">
+														HALİL KURT, "TÜRKMENİSTAN", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/turkmenistan#1 (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p>Sovyet Sosyalist Cumhuriyetleri Birliği’nin dağılmasıyla 27 Ekim 1991’de bağımsızlığını kazanan Türkmenistan kuzeyden Kazakistan, kuzey ve kuzeydoğudan Özbekistan, güneydoğudan Afganistan, güneyden İran ve batıdan Hazar gölü ile çevrilidir. Resmî adı Türkmenistan Cumhuriyeti (Türkmenistan Jumhuriyäti) olup yüzölçümü 488.100 km<sup>2</sup>, nüfusu 5.450.000 (2010 yılı tah.), başşehri Aşkābâd (727.000), diğer önemli şehirleri Çarçöv (Çârcûy, 214.000), Taşavuz (Taşauz/Daşoğuz, 163.000) ve Merv’dir (Mari, 116.000). </p><p> <b>I. FİZİKÎ ve BEŞERÎ COĞRAFYA</b><br>Türkmenistan’ın yeryüzü şekilleri oldukça sade bir görünüm arzeder. Ülke topraklarının yaklaşık % 95’inin ortalama yükseltisi deniz seviyesinden 150-300 m. arasında değişen düzlüklerden meydana gelir. Türkmenistan’ın kuzeyinde, Kazakistan-Özbekistan (Karakalpakistan) topraklarında yer alan Üstyurt platosunun güney uzantıları yayılır. Ülkenin batısında ve merkezî kısmında bulunan ve Özbekistan’ı geçerek kuzeyde Kazakistan’a doğru uzanan Karakum (Garagum) çölü (350.000 km<sup>2</sup>) Türkmenistan topraklarının yaklaşık % 72’sini kaplar; ülkedeki bütün çöllerin ülke yüzölçümündeki oranı ise % 90’ı aşar. Türkmenistan’ın en alçak noktası, kuzeyde Özbekistan sınırı yakınındaki Vpadina Akçanaya deniz seviyesinden 81 m. aşağıdadır. Ülkenin başlıca dağları güneybatıda İran sınırı boyunca uzanan Kopet (Küpet) dağlarıdır. En yüksek noktası Gora Ayribaba zirvesi 3139 metreye ulaşır. Üçüncü jeolojik zamanda teşekkül eden Alp-Himalaya kıvrımlarının uzantıları olan bu dağlık saha tektonik bakımdan birinci derece deprem kuşağı üzerinde yer alır. 5 Ekim 1948’deki deprem sonucunda Kopet dağları eteğindeki başşehir Aşkābâd büyük ölçüde hasar görmüş ve daha sonra yeniden inşa edilmiştir. Türkmenistan’ın güneyinde Afganistan sınırı boyunca yüksek platolar (Karaabil yaylası) yer alır. </p><p> Türkmenistan’da sert bir kara iklimi hüküm sürer. Yazlar çok sıcak ve kuraktır. Kış ayları ise çok soğuk geçer. Türkmenistan yağış yönünden oldukça fakir bir ülkedir. Güneybatıdaki yaylalarda 200-300 mm. arasında değişen yıllık yağış miktarı çöl bölgelerinde 150 milimetrenin altına düşer. En yağışlı mevsim ilkbahar, en az yağışlı mevsim yazdır. Bu yağış şartlarına bağlı olarak ülkede orman örtüsü yok denecek kadar azdır. Akarsu vadileri ve dağlık bölgelerde ağaçlıklar, düzlüklerde bozkırlar, bunun dışındaki yerlerde çöl bitkileri görülür. Ülke topraklarının yaklaşık % 3,5’i tarım alanı, % 17’si otlak, kalanı ya kısmen otlak şeklinde kullanılabilen çöl veya tamamen çöldür. Türkmenistan’ın başlıca akarsuları, Aral gölüne dökülen Ceyhun (Amuderya), güneydeki dağlardan doğup Karakum çölünde kaybolan Murgāb ve Tecen (Herîrûd), Hazar’a dökülen Artek’tir. Ülkede sulama büyük önem taşımaktadır. Bu sebeple Tecen, Murgāb ve Ceyhun ırmaklarından Karakum çölünün sulanması amacıyla 1950’de yapımına başlanan Karakum Kanalı’nın 1954-1959 yıllarında tamamlanan 400 kilometrelik ilk bölümü Ceyhun ile Murgāb akarsularını birbirine bağlamaktadır. Kanalın ikinci kısmı olan Murgāb-Tecen arasında 140 kilometrelik bölümü 1960’ta, Tecen-Aşkābâd arasında yer alan 257 kilometrelik üçüncü bölüm 1962’de tamamlanarak Ceyhun nehrinin suları Aşkābâd’a kadar getirilmiştir. Orta bölümü Ahal bölgesi içerisinde yer alan Karakum Kanalı, başta Ceyhun olmak üzere Murgāb, Tecen ve Kopet dağlarından inen periyodik akışlı küçük akarsuların suyunu alır ve Türkmenistan’ı boydan boya geçerken çöl sahasına hayat verir. Ülkenin kuzeybatısında 12.000 km<sup>2</sup> yüzölçümünde Karaboğaz gölü (Garabogazköl aylagy) yer alır. Hazar gölünden çok ince bir kum seddiyle ayrılan Karaboğaz gölü su seviyesinin yükseldiği dönemlerde Hazar gölüyle birleştiğinden coğrafî olarak bazan göl, bazan Hazar’ın körfezi özelliği gösterir. Gölün tuzluluk oranı Hazar’a kıyasla çok yüksek olduğundan burada hemen hemen hiçbir canlı yaşamaz. Ayrıca ülkenin Özbekistan sınırında deniz seviyesinden aşağıda bulunan, suları tuzlu Sarıkamış gölü (Sarygamyş köli) yer alır. </p><p> Türkmenistan’ın nüfusu son elli yılda üç kattan fazla artmıştır. Sovyet Sosyalist Cumhuriyetleri Birliği dönemine ait nüfus sayımlarına göre Türkmenistan’ın 1959’da 1.516.375 olan nüfusu 1979’da 2.764.700’e, 1989’da 3.523.300’e ulaşmıştır. Nüfus yoğunluğu kilometrekareye on bir kişi civarındadır. Ülke topraklarının büyük bir kesimi yerleşmeye elverişsiz alanlardan meydana geldiği için nüfusun büyük kısmı Kopet dağı eteklerinde, Ceyhun ve Murgāb nehirleri boyunca ve güneydeki dağların eteklerinde yer alan vahalarda toplanmıştır. Hazar gölü kıyısında sanayi tesislerinin bulunduğu sahalarda yeni yerleşim birimleri kurulmaktadır. Karakum çölü ile güneyde Kopet dağının yüksek kesimleri hemen tamamıyla nüfustan yoksundur. Türkmenistan’da Türkmen ve Özbek etnik gruplarında gözlenen yüksek nüfus artışı yıllar itibariyle etnik yapı içinde Türkmenler lehine, Rus ve diğer Slav grupları aleyhine değişmektedir. Nitekim toplam nüfus bakımından Türkmenler’in oranı 1959’da % 60,8 iken 1989’ da 72, 1995 sayımında 76,7’ye yükselmiş, aynı dönemde Ruslar’ın oranı 17,3’ten 6,7’ye gerilemiştir. Türkmenistan’da nüfusun % 90’dan fazlası Türk (Türkmen, Özbek, Kazak, Tatar, Âzerî) ve genelde Sünnî ve Hanefî mezhebine mensup müslümandır. Slav ırkından gelen Ortodoks hıristiyanların oranı % 10’dan az olup bu oran giderek düşmektedir. Ülkede resmî dil Türkmence’dir. Ayrıca Rusça, Özbekçe ve Kazakça da konuşulur. Türkmenistan nüfusunun yaklaşık yarısı kırsal kesimde, yarısı şehirlerde yaşamaktadır. Türkmenler’in çoğu, eskiden “yurt” adı verilen geçici yerleşim birimlerinde hayvan sürüleriyle beraber konar göçer bir hayat sürüyordu. Günümüzde göçebe Türkmenler’in büyük kısmı köylerde yaşamakta ve pamuk ziraatı ile geçimini sağlamaktadır. </p><p> Ülkede en önemli tarım ürünü pamuktur. Üretilen diğer tarım ürünleri buğday, arpa, mısır, çeltik, susam, kavun, karpuz, üzüm, meyan kökü ve doğal ipektir. Türkmenistan pamuk üretiminde Orta Asya cumhuriyetleri içinde Özbekistan’ın ardından ikinci, dünyada ise onuncu sırada yer alır. Pamuk Murgāb, Tecen ve Kopet dağı eteklerinde ekilir. Türkmenistan son yıllarda üretilen pamuğun işlenmesine ve ülke içinde değerlendirilmesine önem vermekte, üretimin büyük bölümü kolektif çiftliklerde (kolhoz) ve devlet çiftliklerinde (solhoz) yapılmaktadır. Türkmenistan’da yarı kurak ve kurak sahalarda steplerin geniş alanlar kaplaması küçükbaş hayvancılığın gelişmesine zemin hazırlamaktadır. Geniş bozkırlarda en fazla koyun beslenir. Ülkedeki koyunların çoğu karakul koyunu türündendir. Karakul koyunu derisinden astragan kürkü imal edildiği için çok değerlidir. Bu sebeple astragan kürkü ülkenin önemli ihraç ürünlerinden birini teşkil eder ve üretimi daha çok Çarçöv şehrinde toplanmıştır. Türkmenler’in Ahal Teke atı da dünyaca ünlüdür. </p><p> Türkmenistan’ın başlıca yer altı kaynakları doğal gaz, petrol, sülfür, kükürt, kurşun ve kromdur. Kömür, mineral tuzlar, alüminyum, potasyum, nitrojen, magnezyum, iyot ve sodyum sülfat diğer önemli yer altı kaynaklarını oluşturur. Ülkede yıllık petrol üretimi 9-10 milyon ton (2009 yılı) arasında değişmektedir. Kalitesi oldukça yüksek olan petrol Hazar’ın güneydoğu kıyıları ile Nebit dağı çevresinden çıkarılmaktadır. Türk cumhuriyetleri arasında en fazla doğal gaz rezervine ve yıllık üretim kapasitesine sahip ülke Türkmenistan’dır. Doğal gaz yatakları Davraz, Bayramali, Nebit dağı, Karaboğaz gölü çevresi ve Çeleken yarımadasında yer alır. Ülkede doğal gaz rezervlerinin büyük ölçüde yüzeye yakın ve kolay işletilebilir olması maliyeti düşürdüğünden büyük şirketlerin ilgisini çekmektedir. Türkmenistan’da 2009 yılı verilerine göre doğal gaz üretimi 70-80 milyar m<sup>3</sup> arasında değişmektedir. Üretimin ancak % 10’u yurt içinde tüketilmekte ve özellikle elektrik santrallerinde kullanılmaktadır. En büyük doğal gaz santrali Merv şehrindedir. İhraç ürünleri doğal gaz, ham ve rafine edilmiş petrol, pamuk ipliği, tekstil, elektrik enerjisi, el yapımı halı ve pamuk yağıdır. Bağımsızlıktan sonra ülkenin ekonomik büyümesi doğal gaz ihracatına bağlıdır. Üretilen doğal gaz ve petrolün dış satımında eski boru hatları sebebiyle Rusya’ya olan bağımlılık, 2000’li yıllardan itibaren İran ve Çin ile yeni boru hattı güzergâhları inşa edilerek aşılmaya çalışılmaktadır. Türkmenistan’ın başlıca ithal ürünleri makine ve ekipman, gıda, canlı hayvan ve hayvansal ürünler, alkollü ve alkolsüz içecekler, tütün ve tütün mâmulleri, sanayi için kimyasal ürünler, ağaç ve mâmulleri, deri, kürk ve kâğıttır. Türkmenistan’ın kültürel mirası önemli turizm potansiyeli oluşturur. Tarihî İpek yolu güzergâhı üzerinde bir vaha şehri olan Merv, Büyük Selçuklu Devleti’ne başkentlik yapmıştır. Selçuklu sultanlarından Sencer’in Merv’deki türbesi Türkmenistan’ın sembolü konumundadır. </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> Yusuf Dönmez, <span class="eser">Türk Dünyasının Beşerî ve İktisadî Coğrafyası</span>, İstanbul 1973, s. 15.</p><p>Ali Yiğit, <span class="eser">Türk Ülkeleri ve Türklerin Yaşadıkları Bölgelerin Coğrafyası</span>, Elazığ 1996, s. 77-84.</p><p>İbrahim Atalay, <span class="eser">Kıtalar ve Ülkeler Coğrafyası</span>, İzmir 2001, s. 193-194.</p><p>İbrahim Güner – Mustafa Ertürk, <span class="eser">Kıtalar ve Ülkeler Coğrafyası</span>, Ankara 2005, s. 215-218.</p><p>Fırat Purtaş, <span class="eser">Rusya Federasyonu Ekseninde Bağımsız Devletler Topluluğu</span>, Ankara 2005, s. 210-214.</p><p>Fuat Uçar, <span class="eser">Geçmiş-Günümüz ve Geleceğin Türk Dünyası</span>, İstanbul 2009, s. 213-240.</p><p>Ramazan Özey, <span class="eser">Türk Dünyası Coğrafyası, Ülkeler, İnsanlar ve Sorunlar</span>, İstanbul 2009, s. 218-233.</p><p>Halil Kurt – Hüseyin Kaya, “Demographical Properties of West Turkistan”, <span class="eser">The 2nd International Geography Symposium GEOMED 2010, ABSTRACTS June 2-5</span>, Kemer-Antalya, Turkey 2010.</p><p>Ahmet Ardel, “Batı Türkistan’ın Beşerî ve Ekonomik Hayatına Toplu Bakış”, <span class="kisaltma" data-ad="tk"><i>TK</i></span>, II/23 (1964), s. 31-35.</p><p>Nadir Devlet, “Sovyetler Birliği’nde Türk ve Müslümanların Nüfusu”, <span class="kisaltma" data-ad="ty"><i>TY</i></span>, X/39 (1990), s. 16-20.</p><p>a.mlf., “Bağımsız Türk Cumhuriyetleri’nin Sınırlarının Tarihi, Coğrafi ve Etnik Sorunları”, <span class="eser">Avrasya Etüdleri</span>, I/4, Ankara 1995, s. 30-39.</p><p>http://www.tika.gov.tr/yukle/dosyalar/ULKERAPORLARI/Turkmenistan_UlkeRaporu.pdf 9, İstanbul.</p><p>http://www.turkmens.com/Turkmenistan.html.</p><p>World Urbanization Prospects: The 2007 Revision Population Database United Nations Population Division.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/41/C41023227.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 41. cildinde, 599-601 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('TÜRKMENİSTAN', 'turkmenistan', '1', 'C41023227.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/41/C41023227.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_2-tarih" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									3 bölümden oluşan maddenin 2. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="TÜRKMENİSTAN" href="https://islamansiklopedisi.org.tr/turkmenistan?utm_source=pdf#2-tarih">https://islamansiklopedisi.org.tr/turkmenistan#2-tarih</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#1" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="3 bölümden oluşan maddenin 2. bölümü">
+													2/3												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#3-mimari" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="3-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="TÜRKMENİSTAN//2-tarih" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/mehmet-saray"><b>MEHMET SARAY</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">TÜRKMENİSTAN</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>MEHMET SARAY</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2012</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/turkmenistan#2-tarih</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext2">
+														MEHMET SARAY, "TÜRKMENİSTAN", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/turkmenistan#2-tarih (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>II. TARİH</b><br>Ülke adını Türkmenler’den alır. İslâm kaynaklarında müslüman Oğuzlar’a Türkmen denilirdi. İslâm’dan önce Sâsânîler’in hâkimiyetinde kalan Türkmenistan toprakları, Hz. Osman döneminde Basra Valisi Abdullah b. Âmir ile Abdullah b. Hâzim ve Ahnef b. Kays gibi kumandanların 31 (651) yılından itibaren İran ve Horasan bölgelerinde yürüttükleri fetih faaliyetleri sürecinde İslâm topraklarına katıldı. Özellikle Horasan’ın merkezi Merv şehrinin alınmasından sonra Orta Asya’daki fetih harekâtı buradan sevk ve idare edildi. Emevîler devrinde Merv, Serahs ve Horasan’ın diğer şehirlerinde baş gösteren çeşitli isyanlar valiler tarafından bastırıldıysa da Emevîler’in son valisi Nasr b. Seyyâr ile Abbâsî ihtilâlinin önderlerinden Ebû Müslim-i Horasânî arasındaki mücadele Emevîler’in aleyhine sonuçlandı ve Nasr eyalet merkezi Merv’i Ebû Müslim’e bırakmak zorunda kaldı (130/748). Hârûnürreşîd’in ölümünün ardından oğulları Emîn ile Me’mûn arasındaki mücadelede galip gelen Me’mûn, Bağdat’a gitmeden önce devleti bir süre Merv’den yönetti. Türkmenistan toprakları Abbâsîler döneminde bölgede kurulan Tâhirîler (821-873) ve Sâmânîler’in (819-1005) egemenliğine girdi. Serahs-Merv arasındaki bölgede meydana gelen Dandanakan Savaşı’nda (431/1040) Gazneliler’i ağır bir yenilgiye uğratan Selçuklular bölgenin hâkimiyetini ele geçirdiler ve Büyük Selçuklu Devleti’ni kurdular. Merv şehri Selçuklular’ın önemli yönetim merkezlerinden biri haline geldi. Büyük Selçuklu Devleti’nin kuruluşuyla Türkmenler’in tarihinde yeni bir devir başladı. Ancak Selçuklu hükümdarları batı cephesinde Bizanslılar ve Haçlılar’la meşgul oldukları için Türkmenler eski vatanları Türkmenistan’a fazla ilgi gösteremediler. Bu yüzden bazı Türkmen boyları Selçuklu Hükümdarı Sultan Sencer’e karşı ayaklandı. Daha sonra gelen Moğol istilâsı Selçuklu Devleti’nin ve Türkmenler’in kaderini değiştirdi. Türkmen boylarının bir kısmı Mâverâünnehir, Horasan ve Mangışlak’a kadar uzanan bölgelerde kalırken bir kısmı Anadolu’ya ve Azerbaycan’a yerleşti. Türkmenistan’da kalan Türkmenler ile Ön Asya’ya giden Türkmenler’in kaderleri farklı seyirler izledi. </p><p> Mâverâünnehir’de ve Horasan’da kalan Türkmenler, Özbek-Kazak, Kırgız ve Karakalpaklar’la birlikte önce Moğollar, daha sonra Timurlular hâkimiyetinde varlıklarını devam ettirirken Mangışlak bölgesindeki Türkmenler, o yörenin istilâ yolları üzerinde bulunmamasından faydalanıp XVII. yüzyılın ortalarına kadar müstakil ve rahat bir hayat yaşadılar. Fakat 1637 ve 1700 yıllarında, bilhassa Kazaklar’a indirdikleri darbe ile Orta Asya’nın Rus istilâsına açılmasına sebep olan Moğol asıllı Kalmuklar’ın hücumlarına uğradılar. Mangışlak bölgesinde yaşayan Türkmen boylarının en büyüğü olan ve Salur boyundan gelen Teke Türkmenleri, bir zamanlar Tuğrul ve Çağrı kardeşlerin rakiplerinden korunmak için sığınak şeklinde kullandıkları Kopet dağı bölgesine çekildiler. Orada Yomud (Yomut), İmrali ve diğer Türkmen boylarıyla birlikte yaşayarak daha da güçlendiler. Ancak bu durum Hîve Hanlığı ile İran Şahlığı’nın dikkatini çekti; daha büyük bir kuvvet haline gelmelerini önlemek için bu iki ülke Türkmenler üzerine sefer düzenlemeye başladı. Türkmen-Özbek koalisyonunun ayakta tuttuğu Hîve Hanlığı’nın başında bulunan Ebülgazi Bahadır Han, Türkmenler’e yaptığı âni baskınlarla onlara büyük zararlar verdi. Türkmenler bu yaralarını henüz saramamışken bu defa İran Safevî Devleti’nin hücumuna uğradılar. İran’da yaşayan Avşar Türkmenleri’nin beylerinden Nâdir Han’ın (Nâdir Şah) İran’da egemenliği ele geçirmesinden sonra Türkmenistan’da hâkimiyet kurmak istemesi ve buna Türkmenler’in karşı çıkması yüzünden cereyan eden mücadelelerde Nâdir Şah, Türkmenler’e karşı çok acımasız davrandı. </p><p> XVIII. yüzyılın ikinci yarısında kendilerini toparlayan Türkmenler, İran ile Hîve’nin baskısından kurtulmak için bugünkü Doğu Türkmenistan’ın Merv bölgesine doğru yayılmaya başladılar. Liderleri Oraz Han önderliğinde Tecend Derya nehri kenarında Tecend Kalesi’ni (Oraz Kalesi) inşa edip kendilerini emniyete almaya çalıştılar. Fakat 1830’lu yıllar Türkmenler’in aldığı bu tedbirlere rağmen acılarla geçti; bu arada Hîve Hanlığı’nın yeni hücumlarına mâruz kaldılar. Büyük kayıplarla saldırıları durduran Türkmenler bu defa batıdan İran’ın saldırılarına uğradılar. İran’ın Türkmen eline ve Herat’a doğru yayılmasını Ruslar bilhassa teşvik ediyordu. Zira İran, Rusya ile yaptığı iki savaşı üst üste kaybedince 1813 Gülistan ve 1828 Türkmençay antlaşmalarını imzalamak durumunda kalmış, bölgede büyük toprak ve nüfuz kaybına uğramıştı. Bu antlaşmalar çerçevesinde Rusya’ya ödenmesi gereken savaş tazminatından kurtulan İran, Türkmenistan ve Herat bölgesinden yeni toprakları ilhak etmek amacıyla Türkmenler üzerine seferler düzenledi. Horasan’daki Türkmen boylarına karşı yapılan ilk seferin ardından İranlılar, son derece tahripkâr saldırılarına Horasan’ın kuzeyinde ve kuzeydoğusunda devam ettiler. Fakat Türkmenler’in Türkmenistan’ın en önemli geçit yollarından biri olan Karakale’de iyi bir müdafaa savaşı vermeleri İranlılar’ın daha fazla ilerlemesini önledi. 1830-1860 yılları Türkmenler’in İran ile Hîve Devleti arasında varlıklarını koruma mücadelesiyle geçti. 1855’te Hîve Hükümdarı Muhammed Emin Han âni bir baskınla Türkmenler’e büyük kayıplar verdirdi. Ancak bir grup Türkmen fedaisinin Hîve hükümdarının otağını basarak kendisini öldürmesi üzerine Hîve ordusu geri çekilmek zorunda kaldı. Bu olaydan dört ay sonra babasının intikamını almak isteyen yeni Hîve Hükümdarı Abdullah Han’ın ordusuyla Türkmen ordusu arasında meydana gelen savaşta Kuşid (Koşut) Han önderliğindeki Türkmen kuvvetleri Hîve ordusunu mağlûp etti ve Abdullah Han savaş alanında öldü. 1855 ve 1856 yıllarında cereyan eden bu iki savaşın ardından Hîve Hanlığı bir daha Türkmenler’e ve Türkmenistan’a saldırma cesaretini gösteremedi. </p><p>Türkmenler doğuda kazandıkları bu zaferlere rağmen yine rahat yüzü göremediler ve İran’ın Horasan valisi Ca‘fer Kulı Han kumandasındaki ordunun sürekli baskısı altında kaldılar. 1857 ve 1858 yıllarında İran ordularının Türkmenistan’a yaptığı saldırılar başarılı olmadı. Batı Türkmenistan’daki Türkmen kuvvetlerinin kumandanı Nur Verdi Han, İran ordusunu 1858 baharında Karakale yakınlarındaki Mancuk Tepe’de ağır bir yenilgiye uğrattı. Batı Türkmenistan’ı Karakale Geçidi yoluyla işgal edemeyeceğini anlayan İranlılar, Türkmenistan’a Meşhed üzerinden yeni bir sefer hazırlığına giriştiler. Bunu haber alan Türkmenler, üst üste gelen felâketlerle yıprandıklarından İranlılar’a istedikleri şartlarda barış yapmaya razı olduklarını bildirdiler. Fakat kendisine ve ordusuna çok güvenen umumi vali Hamza Mirza, Türkmenler’in barış teklifini kabul etmedi, Merv şehrine kadar ilerledi. Türkmenler ise tıpkı ataları Tuğrul ve Çağrı beylerin Gazne baskısı neticesinde yaptıkları gibi Karakum çölüne çekildiler. Bu arada Türkmen kuvvetlerinin kumandanı Kuşid Han, Batı Türkmenistan’da Nur Verdi Han kumandasındaki Türkmen kuvvetlerinden ve diğer Türkmen boylarından yardım alarak ordusunu güçlendirdi. Kuşid Han kendilerini takip için çölde yürüyüşe başlayan İran ordusunun bir süre sonra sıcaktan ve susuzluktan perişan hale geldiğini tesbit edince âni bir baskınla İranlılar’ı imha etti; Hamza Mirza birkaç adamıyla birlikte kaçıp kurtulurken bütün ordusunu ve toplarını kaybetti. Kuşid Han, kazandığı bu zaferle Hîve’den sonra İran’ı da kesin mağlûbiyete uğratarak ülkenin istiklâlini ilân etti. 1860-1884 yıllarında Merv bölgesinin Ruslar tarafından işgaline kadar Türkmenler müstakil olarak yaşadılar. </p><p> 1853-1856 Kırım Harbi’nde Osmanlı, İngiliz ve Fransız müttefik kuvvetlerine yenilen Rusya, Avrupa ve Ortadoğu cephesinde yayılamayacağını anlayınca gözünü Orta Asya’ya dikti ve bazı bahanelerle Orta Asya Türk hanlıklarını 1864-1873 yılları arasında teker teker işgal etti. Rusya’nın bu işgallerinde Türk hanlıkları büyük zayiat verdi, fakat ahalisini Türkmen ve Özbekler’in oluşturduğu Hîve Hanlığı’nın zayiatı diğerlerinden daha ağır oldu. Önce Türkmenistan’ın Hazar sahilinde yer alan Kızılsu’ya yerleşen Ruslar, daha sonra Kopet dağı stratejik mevkiine doğru uzanan yol üzerindeki şehirleri ele geçirdiler. Türkmenler, Nur Verdi Han ile Tıkma Serdar kumandasında 20 Ekim 1870’te Rus karargâhına bir baskın düzenledilerse de işgal kuvvetlerinin yoğun topçu ateşi karşısında geri çekilmek zorunda kaldılar. Albay Markozov 1871 Eylülünde yaptığı seferlerle, bilhassa Rus askerî üssü haline getirilen Kızılsu ile Hîve’ye doğru giden yol üzerindeki bütün Türkmen kalelerini ve köylerini yıkarak yapmayı planladığı Hîve seferi için engelleri ortadan kaldırdı. Tehlikenin büyüklüğünü sezen Türkmen lideri Nur Verdi Han, Hîve Hanı Seyyid Muhammed Rahim Bahadır Han’ı Hîve’de ziyaret edip Rus ilerleyişine karşı verilecek mücadeleyi görüştü. Bu görüşmenin ardından Hîve hükümdarı ile Ruslar arasında yapılan yazışmalar bir sonuç vermedi. Ruslar’ın 1872 yazında ve sonbaharında Hîve Hanlığı’nı istilâ hazırlıklarını gören Nur Verdi Han, Rus kuvvetlerine karşı yeni bir baskın düzenledi, ancak yine Rus topçu ateşi karşısında tutunamayıp büyük zayiatla geri çekildi. Ruslar 1873 baharında Hîve Hanlığı’nı işgal ettiler. Rus kuvvetlerinin Hîve’yi kuşatması esnasında Türkmenler başşehirlerini kahramanca savundularsa da Rus bombardımanına daha fazla dayanamayarak güneye doğru çekildiler. Rus birlikleri Türkmen yerleşim birimlerini yaktı ve ellerine geçirdikleri halkı katletti. Ruslar’dan büyük darbe yiyen Hîve Türkmenleri’nin bir kısmı Rus hâkimiyetini kabul ederken bir kısmı Karakum çölünü aşıp Türkmenistan’daki kardeşlerinin yanına sığındı. </p><p> Hîve’nin işgali bütün Türkmenistan’da şok etkisi yaptı. 1874’te Ruslar, Kafkas Askerî Valiliği’ne bağlı Hazar Ötesi Bölgesi Valiliği’ni kurduklarını ilân ederek açıkça Türkmenistan’ı işgal etmek niyetinde olduklarını gösterdiler. Ardından valilik Türkmenler’in iç işlerine karışmaya başladı. 1874 Haziran sonlarında Nur Verdi Han’ın başkanlığında toplanan Türkmen meclisinde Rus hâkimiyetinin kabul edilmeyeceği görüşü tekrarlandı. Türkmenler bir taraftan savunma hazırlıkları yaparken bir taraftan komşu ülkelerden yardım istediler. Önce İngiliz himayesindeki Afganistan Emirliği’ne, daha sonra doğrudan İngiltere’ye bir heyet gönderip Afgan hâkimiyetine girmeye hazır olduklarını bildirdiler. Fakat bu teşebbüslerinden bir netice alamadılar. Türkmenler eski düşmanları İranlılar’la birkaç defa ittifak kurma yolunu denedilerse de Rusya, İran hükümetine bir nota vererek böyle bir anlaşmayı tanımayacağını bildirdi. </p><p> Ruslar 1877 baharında General Lomakin kumandasında büyük bir askerî harekâta giriştiler. Bunu haber alan Türkmenler Bami, Burma ve Kızılarvat gibi sınır kasabalarını boşaltarak Göktepe müstahkem kalesine çekildiler. 12 Mayıs 1877’de Nur Verdi Han kumandasındaki Türkmen kuvvetleriyle Rus birlikleri arasında ilk ciddi muharebe Kızılarvat’ta meydana geldi. Çarpışma üstün topçu ve mitralyöz ateşine sahip Ruslar’ın galibiyetiyle sonuçlandı. Ancak bu yenilgi Türkmenler’in cesaretini kırmadı; büyük bir azimle haziran başlarında tekrar Kızılarvat üzerine yürüdüler. Fakat Kızılarvat’a geldiklerinde düşmanın daha önce gitmiş olduğunu gördüler. Zira Türkiye ile Rusya arasında 1877-1878 harbi patlak verince Hazar’ın doğusundaki Rus birliklerinin bir kısmı Kafkaslar’a geri çağrıldı. Rus birliklerinin geri çekilmesi Türkmenler’e bir fırsat verdiyse de savaş Osmanlı Devleti’nin yenilgisiyle sonuçlanınca Kafkaslar’a gönderilen Rus birlikleri 1878 sonlarında tekrar Hazar’ın doğu sahillerine dönmeye başladılar. </p><p> 2 Ocak 1879’da Türkmenistan’ın işgaline karar verilip kumandanlığa Kafkas Ordusu Birinci Ordu Kumandanı General Lazaryev getirildi. Lazaryev, Osmanlılar’a karşı yapılan savaşta ve bilhassa Şeyh Şâmil harekâtını bastırmada gösterdiği sertlikle meşhur bir kumandandı. Türkmenler, Ruslar’ın saldırıya geçeceklerini öğrenince Merv’de bir savaş meclisi toplayarak savunma için gerekli tedbirleri aldılar. Haziran başlarında Ruslar’ın hızlı ilerleyişi karşısında Büyük Bendesen Geçidi’nde zayiat veren Türkmenler, Göktepe’ye çekilmek zorunda kaldılar. Bu arada General Lazaryev 26 Ağustos 1879 tarihinde kan zehirlenmesi sonucu öldü ve yerine Lomakin geçti. Lomakin bütün birliklerini Bendesen’de toplayarak Göktepe’ye doğru ilerlemeye başladı. Yolda henüz boşaltılmamış yerleşim yerleri Rus birlikleri tarafından talan edildi ve ahalisi öldürüldü. Bu arada Türkmenler, Göktepe Kalesi’nin duvarlarını yükselttiler, kadın ve çocuklar için kale dışında bir yerleşim birimi kurdular. Esas Göktepe Kalesi üç taraftan iç içe yüksek duvarlarla çevrilmiş, her duvarın önüne derin hendekler kazılmıştı. Ruslar’ın 9 Eylül sabahı üç koldan Göktepe üzerine ilerleyişini Berdi Murad Han, Kara Batur kumandasındaki süvarilerle durdurmaya çalıştıysa da başarılı olamadı. Rus ordusu ile Türkmen süvarileri arasındaki çarpışmalar silâh üstünlüğüne sahip Ruslar’ın galebesiyle neticelendi. Türkmenler’in süvari kuvvetlerini bertaraf eden Lomakin ordusu Göktepe önlerinde kaleyi bombardımana başladı. Göktepe Kalesi’ni, kadın ve çocukların bulunduğu Yengişehir’i harabeye çeviren Rus bombardımanı kısa zamanda binlerce Türkmen’in ölümüne yol açtı. Rus askerleri Göktepe Kalesi’nin birinci surundan içeri girince Türkmenler’le göğüs göğüse savaştılar; Türkmenler kısa zamanda Rus birliklerine büyük zayiat verdirince Ruslar Hazar kıyılarına çekildiler. Göktepe’deki Türkmen başarısı Ruslar’ın Orta Asya’daki yenilmezliği inancını sarstı. Rusya’da, Türkistan’da, Avrupa başşehirlerinde bu olay tam bir Rus yenilgisi olarak kabul edilirken İslâm ülkelerinde bir zafer sevinci yarattı, İstanbul’daki gazetelerde Türkmen zaferini kutlayan yazılar çıktı. </p><p> Göktepe yenilgisi başşehir Petersburg’da büyük tepkilere yol açtı. Ertesi yıl General Lomakin’in yerine önce General Tergukasov, ardından 1877-1878 Türk-Rus Harbi’nde Plevne’de Osman Paşa’ya karşı savaşan General M. D. Skobelev komutan tayin edildi. Skobelev mühimmat ve yiyecek ulaşımı için Hazar’ın doğusundan Göktepe’ye bir demiryolu yapımını başlattı. Nisan 1880’de hazırlıklarını tamamlayarak Türkmen topraklarına girdi. Bu arada Nur Verdi Han’ın 5 Mayıs 1880’de ölmesi Türkmenler üzerinde büyük etki yaptı. Fakat hemen toparlanarak Nur Verdi Han’ın küçük oğlu Mahtumkulu’yu han seçip Tıkma Serdar ile üç kişilik bir danışman heyeti tayin ettiler. Ruslar, 1 Ocak 1881’de Göktepe’nin bütün yollarına hâkim olan Yengikale’ye iki koldan saldırıp burayı zaptettiler. Ardından Türkmen ve Rus kuvvetleri arasında çarpışmalar başladı. 18-23 Ocak tarihleri arasında Göktepe surlarının altına mayın yerleştiren Ruslar 24 Ocak’ta genel taarruza geçtiler. Daha sonra Rus birlikleri geri çekildi ve mayınlar ateşlenerek kale surları havaya uçuruldu. Tekrar hücuma geçen Ruslar askerleri ve panik içindeki halkı mitralyöz ve top ateşine tuttular. Aman dileyen halkla birlikte bütün Göktepe müdafileri şehid oldu. Skobelev, neşrettiği bildiride Göktepe’den kaçanlarla diğer Türkmenler’in Rus çarının hâkimiyetini kabul etmelerini istedi. İleri harekâta devam edip Aşkābâd’a kadar Türkmen topraklarını işgal etti (30 Ocak 1881). Böylece Türkmenistan’ın stratejik bakımdan çok önemli olan batı bölgesi Rus kontrolüne girmiş oldu. Fakat Rus birlikleri, İngilizler’in baskısıyla Aşkābâd’dan sonra Türkmen topraklarında ilerlemeyi durdurdular. Bunun üzerine Merv bölgesindeki Türkmenler, İngiltere’ye heyetler ve mektuplarla başvurarak Rus istilâsına karşı korunmalarını istediler ve İngiliz tâbiiyetine girdiklerini ilân ettiler; ancak bir netice alamayınca ülkelerinin geri kalan kısmını savunmaya hazırlandılar. Fakat Rus baskısı ve entrikaları yüzünden Türkmenler arasında Ruslar’a karşı koyma gücü gittikçe zayıflamaya başladı. Ruslar Ali Han-Avar ile Nur Verdi Han’ın dul eşi Gülcemal Hanım vasıtasıyla Türkmen ileri gelenlerini Rus hâkimiyetini kabul etmeleri hususunda ikna etmeye çalıştılar. Böylece 1869’da başlayan Türkmenistan istilâsı tamamlanmış oldu. </p><p> <b>Rus Hâkimiyeti Dönemi.</b> Türkmenistan’daki Rus idaresi ve sömürüsünün Rus hâkimiyetine giren diğer Türk ülkelerinden tek farkı, Ruslar’ın Türkmenler’i daha sıkı kontrol etme imkânı veren özel bir kanunla yönetmeleri olmuştur. Türkmenler’den de ağır vergiler alınmış, topraklarının en zengin kısımlarına el konarak pamuk ekimine ayrılmıştır. Bu sömürüye karşı Türkmenler uzun süre ses çıkaramadılar. Ülkede bütün idare ve mevkiler Ruslar’ın eline geçmiş, Türkmen ileri gelenlerine ancak küçük memurluklar verilmişti. Çarlık idaresinin bu istibdat rejimi XX. yüzyılın başlarına kadar devam etti. XIX. yüzyılın sonları ile XX. yüzyılın başlarında diğer Türk ellerinde olduğu gibi Türkmenistan’da da bir siyasal uyanış gerçekleşti. Ancak Türkmenler’in giriştiği mücadele başarısızlıkla sonuçlandı. Zira Ruslar, harekâtın ileri gelenlerinin bütün mal ve arazilerini ellerinden aldıkları gibi yeni birtakım vergilerle halkı cezalandırma yoluna gittiler. Ruslar’ın Türkmenler üzerinde kurdukları bu baskı rejimi çok geçmeden halkın tepkisiyle karşılaştı. Rus mezâlimine karşı ilk baş kaldırı Hîve civarındaki Yomut Türkmenleri arasında görüldü. Fakat Hîve hanının Ruslar’dan yardım istemesi üzerine Cüneyd Han idaresindeki bu ayaklanma başarılı olamadı. Türkistan’da 1916’da millî ayaklanmanın hızla yayılması Türkmenler’i de etkiledi, Cüneyd Han’a büyük bir sempati ve taraftar kazandırdı. Rusya’daki Bolşevik İhtilâli’nin ardından Hîve’de kurulan Genç Hîveliler Meclisi’nin Rus kuvvetleri tarafından dağıtılması ve Ruslar’ın Türkmenler üzerine yürümesi Cüneyd Han’ı tekrar harekete geçirdi. Bu arada bazı Rus birliklerinin Hîve’den çekilmesini fırsat bilen Cüneyd Han, Hîve şehrini ele geçirmeyi başardı (Şubat 1918). Cüneyd Han, Hîve’yi tam iki yıl Türkmen egemenliği altında tuttu. Ancak Özbekler’le ihtilâfa düşmesi yüzünden durumu sarsıldı; sonunda Sovyet taraftarı Özbekler’in de çağrısıyla Hîve üstüne yürüyen Kızılordu birliklerine yenilerek Karakum çölüne çekilmek zorunda kaldı. Cüneyd Han’ın mücadelesi devam ederken Batı Türkmenistan’da Ruslar’a karşı ayaklanmalar sürüyordu. Albay Oraz Serdar, emrindeki Türkmen kuvvetleriyle isyan etti, fakat mücadelesinde başarıya ulaşamadı. Rusya’daki iç savaşı kazanan Kızılordu birlikleri, bütün Türk ellerindeki kurtuluş hareketlerini ve bu arada Türkmenistan’daki millî ayaklanmayı bastırdı. Cüneyd Han mücadelesinden vazgeçmedi ve Ruslar’ı 1931 yılına kadar uğraştırdı. En büyük başarıyı da 1924’te Türkmenler ile Özbekler’in birlikte çıkardıkları isyanda gösterdi. Ruslar’ın kontrolündeki birçok kasabayı ele geçirip Hîve üzerine yürüyen Cüneyd Han, Türkistan’dan gelen Rus takviye birliklerinin yetişmesiyle şehri alamadı. </p><p> Oraz Serdar ile Cüneyd Han’ın önderliklerinde yürütülen istiklâl savaşının Kızılordu birlikleri tarafından kanlı bir şekilde bastırılmasından sonra Türkmenler, mücadelelerini parti içinde sürdürmek için Türkmenistan Komünist Partisi’ne girmeye başladılar. Türkmenler’e ulusal, kültürel ve ekonomik hiçbir hak vermek istemeyen Rus komünistlerine şiddetle karşı çıktılar. Ayrıca düzenlenen kongrelerde müslümanları ve Türkler’i birliğe çağırarak haklarını korumaya karar verdiler. Türk komünistlerinin giriştiği bu mücadele Sovyetler’i son derece tedirgin etti. Özbek, Kazak ve Türkmenler’in dayanışmasını engellemek için Sovyetler bazı tedbirler almaya, eski çekişmeleri körüklemeye ve aralarındaki kabile ihtilâflarından faydalanıp Türkistan Türkleri’ni birbirlerinden ayırmaya başladılar. Çok geçmeden Rus Komünist Partisi Merkez Komitesi Politbürosu, Türkistan komünist partilerinin istekleri doğrultusunda ayrı ayrı cumhuriyetler kurulacağını ilân etti (12 Haziran 1924). Bunun üzerine teşkil edilen Merkezî Toprak Komitesi cumhuriyetlerin sınırlarını tesbit işine girişti ve Eylül 1924’te çalışmalarını Rus Komünist Partisi’nin onayına sundu. Komitenin kararları onaylanınca her cumhuriyetin komünist partisi ileri gelenleri yeni komiteler oluşturup kendi idarî, ekonomik ve kültürel programlarını hazırladılar. Bu çalışmalar 27 Ekim’de tamamlandı ve Türkistan’da Özbek, Kazak, Kırgız, Karakalpak, Tacik gibi sosyalist cumhuriyetler ortaya çıktı. Türkmenistan Cumhuriyeti’nin sınırları Hazar kıyılarından Merv bölgesine kadar uzanıyordu. Buhara Cumhuriyeti’nin Türkmenler’le meskûn Kerki ve Çârcûy vilâyetleriyle Hârizm Cumhuriyeti’nin Türkmen bölgeleri olan Taşavuz, İlyali, Parsu, Künye Ürgenç, Mangıt, Ambar-Mamak, Sadavar, Dargan-Ata ve Hocaeli’nin bir kısmını içine alıyordu. 1869 yılından itibaren Ruslar, Türkmenistan’ı istilâya başladıkları zaman Türkmen, Rus ve İngiliz kaynaklarının verdiği bilgilere göre Türkmen nüfusu 1.150.000 civarında idi. Gayri resmî olarak verilen bu nüfusun 300.000’i İran ve Afganistan’da, 450.000 kadarı Buhara ve Hîve hanlıklarında, 400.000’i de müstakil Türkmen Cumhuriyeti’nde yaşıyordu. Fakat Türkmenler, istilâ hareketinin devam ettiği on iki yıl içinde pek çok telefat verdiklerinden nüfuslarında büyük bir düşüş meydana geldi. Rus işgali altına giren Türkmenler’in nüfusundaki en büyük düşüşler, 1917 Bolşevik İhtilâli’nden sonra Rusya’da çıkan iç savaşla 1930’larda Sovyetler’in uyguladığı mecburi iskân politikasında ve II. Dünya Savaşı esnasında gerçekleşti. 1970 resmî sayımına göre Türkmenler’in nüfusu 1.510.000 idi. Doğum yüzdesi çok yüksek olan Türkmenler’in nüfusu 1979’da yapılan seçim sonuçlarına göre 2 milyonu geçmiş bulunuyordu. </p><p> Gaspıralı İsmâil Bey’in Türk lehçeleri arasındaki farklılıkları en aza indirerek ortak bir dil oluşturulması yolundaki çalışmalarına karşılık Ruslar her Türk Cumhuriyeti’ne kendi lehçesini ayrı bir dil gibi kabul ettirmiş, böylece Türkler arasındaki dil ve kültür birliğini bozmak istemiş, daha sonra alfabeye el atılmıştır. Bütün Türk dünyasında olduğu gibi Türkistan’da da Arap alfabesi kullanılıyordu. Ruslar, 1928’de Türkler için Rus Kiril harfleriyle karışık bir Latin harfleri sistemini uygulamaya koymuş, II. Dünya Savaşı’nın başlamasıyla bu alfabenin kullanımı yasaklanmış, her Türk lehçesi için birbirinden farklı Kiril alfabesi uygulaması zorunlu kılınmıştır. Latin alfabesiyle yazılan bütün kitaplar toplatılarak imha edilmiş, bütün okullarda Rusça öğrenimi mecburi tutulmuştur. Dil sahasında Türk cumhuriyetlerinin uğradığı bu baskıya karşı bir müddet sonra Türk aydınları mücadele etmeye başlamıştır. Cengiz Aytmatov ve Olcas Süleymanov gibi edip ve şairlerin önderliğinde sürdürülen mücadele bugün iyi bir seviyeye ulaşmış, Türk dili üzerindeki çalışmalar hızlanmıştır. Ruslaştırma ve Sovyetleştirme çabaları kültür alanında da görülmüş, edebiyatta millî ruhu aksettirecek eserler yasaklanmıştır. Türk lehçelerinde proletarya ve kolhoz edebiyatı oluşturulması, konu olarak “Büyük Kardeş” Rus milletinin Rus olmayan milletlere karşı iyilik ve yardımlarının ele alınması, büyük oranda Rus ediplerinden yapılacak tercümelerin yayımlanması yoluna gidilmiştir. Bunun yanında Ruslar, İslâm dini aleyhindeki faaliyetleriyle Türkler’i eski kültür geleneklerinden uzaklaştırıp Rus kültürünün etkisine sokmak için neşriyata girişmişler, hatta din adamlarını İslâm’ı kötüleyen demeçler vermeye ve yazılar yazmaya zorlamışlardır. Türkmenler ayrıca zorla ateizm eğitimine tâbi tutulmuştur. 1917’de 500 caminin bulunduğu Türkmenistan’da camilerin hemen tamamı Sovyet devrinde yıkılmış veya kapatılmıştır. Başşehir Aşkābâd, Orta Asya başşehirleri içinde camisi olmayan yegâne şehir haline gelmiştir. Fakat Sovyetler bütün zorlamalara rağmen arzularına ulaşamamış, Türkmenistan’da Mahtumkulu gibi şahsiyetlerle ilgili araştırmalar yapılmaya başlanmıştır. Türk aydınlarının bu cesurane hareketi Türk cumhuriyetlerinin başındaki yerli komünist idarecileri tarafından da desteklenmiştir. Sovyetler’in Türkmenistan’a yaptığı en önemli hizmet pamuk yetiştirmek amacıyla Karakum Kanalı’nı açtırması olmuş, bu kanal Türkmenistan’a âdeta yeni bir hayat getirmiştir. </p><p> <b>Bağımsız Türkmenistan.</b> Türkmen aydınlarının ekonomik sömürüye ve kültürel asimilasyona karşı çıktıkları açıklık (glastnost) devrinde Türkmenistan Komünist Partisi’nin başına Saparmurad Atayeviç Niyazov getirilmişti. Leningrad Üniversitesi’nde elektrik mühendisliği tahsil eden Niyazov, Türkmenistan’a dönüşünde parti teşkilâtının muhtelif kademelerinde çalışmış, kısa zamanda dikkatleri üzerinde toplamış, M. Gorbaçov’un Moskova’da Sovyetler Birliği’nin başına geçtiği yıl Türkmenistan Komünist Partisi birinci sekreterliğine seçilmiştir. Niyazov’un Türkmenistan’da ilk işi halk arasında birliği sağlamak olmuş ve bunda başarıya ulaşmış, daha sonra Türkmenistan’ın haklarını savunan aydınların yanında yer almıştır. Yaptığı konuşmalarda Sovyetler’in Türkmenistan’a çok az gelir bıraktığını, bu durumun Türkmenistan’ı fakirleştirdiğini söylemiştir. Niyazov’un ikinci çıkışı Türkmen diliyle ilgilidir. Türkmenler’in Rusça’nın etkisiyle ana dillerini kullanmada uğradıkları ezikliği görmüş, Türkmen dilini cumhuriyetin resmî dili haline getirmiş, 1989’da Türkmenistan hükümetinin aldığı bir kararla Türkmence Rusça ile birlikte cumhuriyetin resmî dili ilân edilmiştir. Bu etkinlikleri Niyazov’u halkın nazarında popüler hale getirmiş, 1990’da yapılan cumhurbaşkanlığı seçimini % 99,5 oyla kazanmıştır. Sovyetler Birliği’nde cereyan eden gelişmeleri dikkatle takip eden Cumhurbaşkanı Niyazov dengeli bir siyaset izlemiştir. Nihayet 1991 Ağustosunda Sovyetler Birliği’nin dağılmasından sonra ülkenin istiklâlini ilân etmeden önce konuyu halk oyuna sunmuş ve halkın % 93’ü Türkmenistan’ın istiklâli için oy kullanmıştır. 27 Ekim 1991’de toplanan Türkmenistan Parlamentosu Türkmenistan’ın bağımsızlığını ilân etmiştir. </p><p> Türkmenistan’ın bağımsızlığını ilk tanıyan ve ülkede büyükelçilik açan devlet Türkiye olmuş, buna karşılık Türkmenistan da ilk büyükelçiliğini Türkiye’de açmıştır. Türkiye’nin yardımlarıyla Türkmenistan, Birleşmiş Milletler Ekonomik İşbirliği Teşkilâtı ve İslâm Konferansı Teşkilâtı’na üye kabul edilmiştir. Bu arada başta Türkiye olmak üzere dost ülkelerle ikili anlaşmalar yapılmıştır. İstiklâline kavuştuktan sonra Saparmurad Türkmenbaşı önderliğinde ekonomik, sosyal ve siyasal kalkınmasını hızla tamamlayan Türkmenistan hem bölgede bir istikrar unsuru hem istikbale güvenle bakan bir ülke haline gelmiştir. Türkmenistan’ın istediği malî krediyi Türkiye karşılamış ve ilk yıllarında Türkiye bu cumhuriyete yardımcı olmuştur. Bu arada Cumhurbaşkanı Turgut Özal’ın teşvikiyle Türk iş adamları Türkmenistan’ın pek çok projesini desteklemiş ve büyük yatırımlar yapmış, iki ülke arasındaki ticaret hacmi yüksek seviyelere ulaşmıştır. Diğer Türk cumhuriyetlerinde görüldüğü gibi Türkiye, Türkmen öğrencilere Türk üniversitelerinde okuma imkânı vermiştir. Binlerce Türkmen öğrenci Türkiye’ye gelerek öğrenim görmüş, önemli bir kısmı çalışmalarını tamamlayıp ülkesine dönmüştür. Bu arada Millî Eğitim Bakanlığı ile özel öğretim kurumları Türkmenistan’da açtıkları Türkmen-Türk kolejleriyle Türkmen halkının eğitimine önemli ölçüde katkıda bulunmaya çalışmaktadır. </p><p> <b>III. KÜLTÜR ve MEDENİYET</b><br>Türkmenler, XVI. yüzyılın sonlarına kadar bir devlet kurma imkânını elde edemedikleri için kültür hayatları oldukça sönük geçmiştir. Buna rağmen Türkmenler arasında pek çok edip ve şair yetişmiştir. Türkmen şairlerinin en meşhuru Türkmenler’in millî şairi olan Mahtumkulu’dur (ö. 1783’ten sonra). XIX. yüzyılın ikinci yarısı, diğer Orta Asya Türkleri’nde olduğu gibi Türkmenler için de kültürel alanda bir uyanış devridir. Rus istilâsı ve onu takip eden esaret yıllarının getirdiği ıstıraplar Türkmenler arasında yeni bir uyanışa yol açmıştır. Kültür sahasında Türklük bilincinin uyanışını sağlayan Gaspıralı İsmâil Bey’in fikirleri Türkmenler arasında yayılmış, XIX. yüzyılın sonlarına doğru açılan modern okullardan pek çok Türkmen aydını yetişmiştir. Bunların en meşhurları Göktepe’deki Rus katliamını şiirlerinde dile getiren Gayip Verdi Miskin Kılıç ile (Molla Kılıç) komünist rejimine rağmen Türkmenistan’ın ve Türkmenler’in istiklâl ve hürriyeti için mücadele eden Abdülhakim Kulmuhammedoğlu Kör Molla, Berdi Kerbebovoğlu, Vogayoğlu, Garaca Burunoğlu, Amandurdu Alamışoğlu gibi edip ve şairlerdir. Bunlar mücadelelerine bütün baskılara ve güçlüklere rağmen 1930 yılına kadar devam etmiştir. 1930 başlarından itibaren Stalin önderliğindeki Marksist rejimin baskı ve terörüyle bu şair ve edipler eserleriyle birlikte yok edilmeye çalışılmıştır (Türkmen dili ve edebiyatı için bk. <a href="https://islamansiklopedisi.org.tr/turk" target="_blank">TÜRK</a>). </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p><span class="kisaltma" data-ad="ba">BA</span>, İrade-Hariciye, nr. 6728, 9982, 10048.</p><p>Hive Meselesi, Dosya nr. 25, İstanbul Hariciye Arşivi.</p><p><span class="kisaltma" data-ad="belazuri-futuh-fayda">Belâzürî, <i>Fütûh </i>(Fayda)</span>, s. 587-588.</p><p><span class="kisaltma" data-ad="taberi-tarih-ebul-fazl">Taberî, <i>Târîḫ </i>(Ebü’l-Fazl)</span>, IV, 300 vd.</p><p><span class="kisaltma" data-ad="ibnul-esir-el-kamil">İbnü’l-Esîr, <i>el-Kâmil</i></span>, IX, 482-484.</p><p>Ebülgazi Bahadır Han, <span class="eser">Şecere-i Terâkime</span> (nşr. A. N. Kononov), Moskva-Leningrad 1958, tür.yer.</p><p>a.mlf., <span class="eser">A General History of Turks, Mogols and Tatars</span>, London 1730, tür.yer.</p><p>N. I. Grodekov, <span class="eser">Voina v Turkmenii</span>, Petersburg 1883, I.</p><p>A. İlyasov, <span class="eser">Prisoedinenie Turkmenii k Rossi, Sbornik Arkhivnikh Dokumentou Akademiia Nauk Turkmenskoi SSR</span>, Aşkabad 1860.</p><p>J. A. MacGahan, <span class="eser">Campaigning on the Oxus and the Fall of Khiva</span>, New York 1874.</p><p>N. Petrusevitch, <span class="eser">The Turcomans</span>, London 1880.</p><p>H. Stumm, <span class="eser">Russia in Central Asia</span>, London 1885, tür.yer.</p><p>C. H. Rawlinson, <span class="eser">England and Russia in the East</span>, London 1895.</p><p>Abdu-us Sattar Kazy, <span class="eser">Kniga Raskazov o bitvakk tekindzev, Türkmenskaia Poema XIX Veka</span> (ed. A. Samaylovic), Petersburg 1914.</p><p><span class="eser">Literature Turkmenii</span>, Moskva 1934.</p><p>Taş Nazar, “Doklad o literature Turkmenskoy SSR”, <span class="eser">Peryi vsesoiuzny s’zed sovetskikh pisalei 1934</span>, Moskva 1934, s. 138 vd.</p><p>F. L. Shteinberg, <span class="eser">Ocherki İstorii Turkmenii</span>, Moscow 1934.</p><p>O. Caroe, <span class="eser">Soviet Empire: The Turks of Central Asia and Stalinism</span>, London 1953.</p><p><span class="eser">Klasiksi Turkmenskoy Poezii</span>, Moskva 1955.</p><p>A. Karriyev – A. Rosliyakov, <span class="eser">Kratkiy Ocherk İstorii Turkmenistana 1868-1917</span>, Aşkabad 1956.</p><p><span class="eser">İstoriya Turkmenskoy SSR</span>, Aşkabad 1957, I.</p><p>İbrahim Kafesoğlu, “Türkmen Adı, Mânası ve Mahiyeti”, <span class="eser">Jean Deny Armağanı</span>, Ankara 1958, s. 121-133.</p><p>R. A. Pierce, <span class="eser">Russian Central Asia, 1867-1917: A Study in Colonial Rule</span>, Berkeley 1960.</p><p>W. Kolarz, <span class="eser">Russia and Her Colonies</span>, Hamden 1967.</p><p>A. Berdi Murad, “Turkmenistan and Turkmens”, <span class="eser">Handbook of Major Soviet Nationalities</span>, New York 1975, s. 262-282.</p><p>Mehmet Saray, <span class="eser">Rusya’nın Türk İllerinde Yayılması</span>, İstanbul 1975, tür.yer.</p><p>a.mlf., <span class="eser">Rus İşgali Devrinde Osmanlı Devleti ile Türkistan Hanlıkları Arasındaki Siyasi Münasebetler (1775-1875)</span>, İstanbul 1984, tür.yer.</p><p>a.mlf., <span class="eser">Yeni Türk Cumhuriyetleri Tarihi</span>, Ankara 1996, s. 329-390.</p><p>a.mlf., “Rus Tarih Araştırmalarında Türkmenistan’ın İşgali”, <span class="kisaltma" data-ad="tka"><i>TKA</i></span>, XXIV/1 (1986), s. 85-92.</p><p>a.mlf., “Hîve Hanlığı”, <span class="kisaltma" data-ad="dia"><i>DİA</i></span>, XVIII, 167-170.</p><p>A. Zeki Velidi Togan, <span class="eser">Bugünkü Türkili Türkistan ve Yakın Tarihi</span>, İstanbul 1981, tür.yer.</p><p>V. V. Barthold, <span class="eser">Moğol İstilâsına Kadar Türkistan</span> (haz. Hakkı Dursun Yıldız), İstanbul 1981, tür.yer.</p><p><span class="eser">Central Asia: 120 Years of Russian Rule</span> (ed. E. Allworth), Durham 1989.</p><p>Saparmurat Türkmenbaşı, “Bağımsız ve Sürekli Tarafsız Türkmenistan”, <span class="eser">Türkler</span> (nşr. Hasan Celal Güzel v.dğr.), Ankara 2002, XIX, 711-719.</p><p>Muhammed Aydoğduyev, “Türkmenistan” (trc. Bilgehan Atsız Gökdağ), <i>a.e.</i>, XIX, 720-737.</p><p>Mehmet Seyfettin Erol, “Türkmenistan Cumhuriyeti”, <i>a.e.</i>, XIX, 738-756.</p><p>“Asya’da Ruslar ve Türkmenler”, <span class="eser">Tercümân-ı Hakîkat</span>, nr. 129, İstanbul 1297/1880.</p><p>M. H. Weil, “la Tourkménie et les tourkmènes”, <span class="eser">Journal des sciences militaires</span>, 8<sup>e</sup> sér., XXVI, Paris 1880, s. 83-118, 233-264, 361 vd.</p><p>V. Musabay, “İdil-Ural Türkleri Dil ve Yazılarının Sovyetleştirilmesi ve Ruslaştırılması”, <span class="eser">Dergi</span>, sy. 15, Münih 1959, s. 55-61.</p><p>P. Urban, “Türkistan Sovyet Cumhuriyetlerinde Millî-İdeolojik Eğilimler”, <i>a.e.</i>, sy. 23-24 (1961), s. 46-57.</p><p>Abdurrahman Kunta, “Sovyetler Birliğinde Müslümanlığın Gerçek Durumu”, <i>a.e.</i>, sy. 35-36 (1964), s. 26-37.</p><p>Edige Kırımal, “Türkmenistan’da Milliyetçilik”, <i>a.e.</i>, sy. 42 (1965), s. 13-32.</p><p>Shahram Akbarzadeh, “National Identity and Political Legitimacy in Turkmenistan”, <span class="eser">Nationalities Papers</span>, XXVII/2, London 1999, s. 271-290.</p><p>Timur Kocaoğlu, “Turkmenistan”, <span class="kisaltma" data-ad="ei2-ing"><i>EI<sup>2</sup> </i>(İng.)</span>, X, 686.</p><p>Osman Gazi Özgüdenli, “Merv”, <span class="kisaltma" data-ad="dia"><i>DİA</i></span>, XXIX, 221-223.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/41/C41023228.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 41. cildinde, 601-605 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('TÜRKMENİSTAN', 'turkmenistan', '2-tarih', 'C41023228.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/41/C41023228.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_3-mimari" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									3 bölümden oluşan maddenin 3. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="TÜRKMENİSTAN" href="https://islamansiklopedisi.org.tr/turkmenistan?utm_source=pdf#3-mimari">https://islamansiklopedisi.org.tr/turkmenistan#3-mimari</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#2-tarih" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="3 bölümden oluşan maddenin 3. bölümü">
+													3/3												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next article-nav-passive " data-jurl="#" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="3-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="TÜRKMENİSTAN//3-mimari" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/yuksel-sayan"><b>YÜKSEL SAYAN</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">TÜRKMENİSTAN</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>YÜKSEL SAYAN</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2012</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/turkmenistan#3-mimari</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext3">
+														YÜKSEL SAYAN, "TÜRKMENİSTAN", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/turkmenistan#3-mimari (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>MİMARİ.</b> Neolitik devirlerden itibaren yerleşimin tesbit edildiği Türkmenistan’da özellikle Part ve Sâsânîler’in mimaride önemli gelişme kaydettikleri anlaşılmaktadır. X. yüzyılda bölgede güçlü bir idare kuran Sâmânîler’in de mimarlıkta ileri oldukları söylenebilir. Fakat XI. yüzyılda Selçuklular’ın Horasan ve Hârizm’de egemenlik kurmaları ile sanat ve mimaride yeni bir devir başlamıştır. Bu dönemde Merv başta olmak üzere Serahs, Dihistan, Nesâ gibi şehirlerde önemli imar faaliyetleri gerçekleştirilmiştir. 1157’de Büyük Selçuklu Devleti’nin yıkılmasıyla bölgedeki mimari geleneği Hârizmşahlar devam ettirmiştir. Bu devirde özellikle başşehir Gürgenç’in (Cürcâniye / Köhne Ürgenç) önemli mimari eserlerle donatıldığı anlaşılmaktadır. Fakat 618’deki (1221) Moğol istilâları neticesinde Selçuklu ve Hârizmşahlı yapıları büyük ölçüde yok edildiğinden her iki dönemin mimari eserlerinden pek azı günümüze ulaşabilmiştir. Moğol istilâlarının ardından uzun bir duraklama devrinden sonra Hârizm’de yeniden canlanma başlamış, XIV. yüzyılın ilk yarısında Altın Orda Hanlığı’nın Hârizm valisi Kutluğ Timur’un Ürgenç’teki imar faaliyetleriyle şehir yine parlak bir dönem yaşamıştır. Timurlular’ın yıkılmasıyla bölgede ortaya çıkan idarî boşluk, Özbek hanları-Safevîler arasındaki sürekli mücadeleler ve Rus istilâları yüzünden XVI. yüzyıldan itibaren Türkmenistan mimarisinde gerileme dönemi başlamıştır. Ardından çoğunlukla eski gelenekleri daha basit ölçülerde tekrarlayan ve fazla bir yenilik getirmeyen yapılar görülmektedir. </p><p> <b>Külliyeler.</b> Selçuklu döneminden itibaren Türkmenistan’da külliyelerin inşa edildiği bilinmektedir. Fakat XI-XIII. yüzyıllardan ayakta kalabilen büyük çaplı bir külliye mevcut değildir. Bununla beraber yapılan incelemelerden Merv’deki Sultan Sencer Türbesi’nin büyük bir külliyenin çekirdeği durumunda olduğu tesbit edilmekte, kaynaklardan Sultan Alâeddin Tekiş’in Ürgenç’te türbe, medrese ve kütüphaneden meydana gelen bir külliye inşa ettirdiği öğrenilmektedir. Bu külliyeden yalnızca türbe günümüze ulaşabilmiştir. İlk inşası XII. yüzyıla kadar uzanan ve mescid, türbe, divanhâne gibi mekânları içeren Kerki’deki Astanababa yapı kompleksiyle XIV. yüzyıldan başlayarak XX. yüzyıla kadarki eklemelerle türbe, medrese, mescid, hankah bölümlerinden oluşan Ürgenç’teki İbnü’l-Hâcib yapılar manzumesi de küçük birer külliye sayılabilir. Aşkābâd yakınlarında eski Anev’de bulunan Anev Camii 860 (1456) yılında iki katlı medresesi ve türbe bölümüyle bir külliye halinde inşa edilmiştir. Bilhassa cephesindeki çini süslemeleriyle önem kazanan ve Timurlu dönemi mimarisinin yöredeki en güzel örneği olan yapı 1948 depreminde yıkılarak harabe haline gelmiştir. Merv yakınlarında medrese, cami, kervansaray, hankah ve çeşitli binaları içeren Ahun Baba Külliyesi gibi son dönemlerde (XIX. yüzyıl sonları) yaptırılan çok üniteli yapılar da bölgede köklü bir külliye geleneğinin varlığına işaret etmektedir. </p><p> <b>Camiler.</b> Türkmenistan’da az sayıda örneği bulunan eski camiler cuma ve namazgâh mescidleri şeklinde iki grupta incelenmektedir. Cuma camilerinin yerleşim yerlerinin merkezinde inşa edilmesine karşılık daha küçük boyutlu namazgâh camileri yerleşim yerlerinin dışında yaptırılmıştır. Camilerin ana mekânları çoğunlukla mihrap önünde kubbeli veya eyvan biçiminde bir merkezî hacimle bunun iki yanında duvar yahut pâyelerle bölünen kısımlardan meydana gelmektedir. Bölgedeki en eski camilerin çok destekli plan şemalarına sahip olduğu görülmektedir. İlk şekli IX-X. yüzyıllara tarihlenen Başane (Kurlutepe) Mescidi ile X. yüzyıldan kaldığı tahmin edilen Çilburç ve Dandanakan mescidleri Sâmânîler zamanına ait bu tipin örnekleridir. XIII. yüzyılın başlarında Hârizmşah Muhammed’in Dihistan’da yaptırdığı cuma camiinin harim kısmı mihrap önü kubbeli, tuğla pâyelerle mihraba paralel dört sahn esasına göre planlanmıştır. XI-XII. yüzyıllara tarihlenen Dihistan ve Nesâ namazgâh camilerinde de yan mekânlar mihrap önü bölümlerinden açıklıklı duvarlarla ayrılmıştır. Namazgâh camileri içerisinde Merv yakınlarında Yolöten’deki Talhatan Baba Camii (XI-XII. yüzyıllar), mihrap önünde mekâna hâkim kubbesiyle plan tasarımı bakımından Türk mimarisinin gelişmesinde önemli eserlerdendir. Dihistan Mezarlığı’nda Mezâr-ı Şîr Kebîr diye adlandırılan XI. yüzyılın sonlarına ait bir yapı mevcuttur. Bir çeşit türbe-mescid olduğu tahmin edilen bu eser, çapı 11 metreyi bulan kubbesiyle devri bakımından Türk-İslâm mimarisindeki tek kubbeli camiler için gelişmiş bir örnektir. Camilerde genellikle bina veya avlu köşelerinden birine bitişik konumda silindirik gövdeli bir minarenin yer aldığı tahmin edilmektedir. Ancak ikisi Dihistan’da, biri Ürgenç’te olmak üzere tuğladan yapılmış yalnızca üç minare üst kısımları yıkılmış halde günümüze ulaşabilmiştir. Dihistan’daki Kuzey Minare bunların en eskisidir. Kitâbesinden 495 (1101-1102) yılında şehir hâkimi Ahmed b. Ebü’l-Ağar tarafından Ali b. Ziyâd’a yaptırıldığı öğrenilen minarenin camisinden eser kalmamıştır. Buradaki ikinci minare cuma camiine aittir. XIV. yüzyılın ortalarında Kutluğ Timur’un Ürgenç’te inşa ettirdiği Kutluğ Timur Minaresi 60 metreyi aşan silindirik gövdeli yapısıyla Orta Asya’daki minarelerin en büyüğüdür. Bunun da ait olduğu cami zamanımıza kadar gelememiştir. </p><p> <b>Türbeler.</b> Türbeler Türkmenistan mimarisinde önemli yer tutar. Genelde tek hacimden ibaret kare planlı yapıların üzerini bir kubbe örtmektedir. Merv ve çevresinde XI-XII. yüzyıllardan kalan sahâbîlerden Büreyde b. Husayb, Hakem b. Amr el-Gıfârî, İmam Bekir, Hüdâyî Nazar Evliya, Merv Kadısı Abdullah b. Büreyde türbeleri bunların örneklerindendir. XI. yüzyıldan Kerki’de Alemberdar, Serahs’ta Ebü’l-Fazl ve Meana’da (Meyhene) Ebû Saîd türbeleri çapı 10 metreyi aşan kubbeleriyle önemli eserlerdir. Fakat XII. yüzyılın ortalarında mimar Muhammed b. Atsız’ın eseri olan Merv’deki Sultan Sencer Türbesi, Selçuklu türbe mimarisinin çok daha gelişmiş bir örneği olarak kendini gösterir (bk. <a href="https://islamansiklopedisi.org.tr/sultan-sencer-turbesi" target="_blank">SULTAN SENCER TÜRBESİ</a>). Bunların dışında Eski Dihistan Mezarlığı’nda kesin tarihleri bilinmeyen, ancak XI-XII. yüzyıllara mal edilen çok harap vaziyetteki bir grup türbe, çokgen ya da silindirik gövde biçimleri ve önlerinde eyvan şeklindeki giriş bölümleriyle Türkmenistan’ın diğer türbelerinden ayrılan tasarım özellikleri gösterir. XII. yüzyılın ikinci yarısında ilim, kültür ve sanat bakımından çok önemli bir merkez haline gelen Hârizmşahlar’ın başşehri Gürgenç’teki iki türbe onların hâtırasını yaşatmaktadır. Bunlardan eski şehrin harabeliğinde yer alan Sultan Alâeddin Tekiş Türbesi kare planlı olup içten bir kubbe ile örtülüdür. Yapı, dıştan ana gövde üzerinde yükselen silindirik kasnak bölümü ve bunun üzerini örten konik külâhıyla ayrıca dikkati çekmektedir. Buna yakın konumda tuğladan kare planlı olarak inşa edilen Fahreddin er-Râzî Türbesi (XIII. yüzyılın başları) içten kubbe, dıştan piramit çatılı bir örtüye sahiptir. Yapının, bir dönem burada bulunan ve 606’da (1210) Herat’ta vefat eden Fahreddin er-Râzî’nin hâtırasına inşa edilmiş bir makam-türbe olduğu anlaşılmaktadır. Ürgenç’te Kutluğ Timur Minaresi’nin batısındaki Törebeg Hanım Türbesi XIV. yüzyıl Orta Asya Türk mimarisinin şaheseri diye nitelendirilmektedir. Kesin tarihi bilinmeyen türbenin XIV. yüzyılın ilk yarısında Kutluğ Timur’un eşi Törebeg Hanım için inşa ettirildiği kabul edilmektedir. Yapı her bakımdan kendine özgü bir mimari tasarıma sahiptir. Tuğladan yapılan ve dıştan onikigen plan esasına dayanan eserin ziyaret mekânı içten altıgendir. Ana mekânının üzerini çift kubbe örtmektedir. Fîrûze çinilerle kaplı dış kubbesi yıkık olan türbenin, mimarisi kadar çini süslemeleriyle de bütün Orta Asya yapıları arasında seçkin bir yeri vardır. Moğollar’ın 618’de (1221) Hârizm’i işgali sırasında şehid düşen, Kübreviyye tarikatının kurucusu Necmeddîn-i Kübrâ’nın türbesi de Ürgenç’tedir. Harap şehrin dışında eski bir mezarlık alanında yer alan türbe taçkapısındaki kitâbesine göre Kutluğ Timur tarafından yaptırılmıştır. 732’de (1332) Ürgenç’i ziyaret eden İbn Battûta kesin tarihi belli olmayan türbeden ve yanındaki bir zâviyeden bahsetmektedir. Türbe mezarın bulunduğu kare planlı, kubbeli bölümün önünde bir girişle onun iki tarafında zâviye mekânları olduğu düşünülen kubbeli birer odadan meydana gelmektedir. Necmeddîn-i Kübrâ Türbesi’nin hemen karşısında yer alan ve Törebeg Hanım Türbesi’nin planını daha küçük ölçülerde tekrarlayan Sultan Ali Türbesi XVI. yüzyılda yaptırılmış, ancak tamamlanamamıştır. </p><p> <b>Kaleler.</b> Çok harap durumdaki Türkmenistan kalelerinden Dihistan’da şehri kuşatan kerpiç sur duvarlarının yıkıntıları halen görülebilmektedir. Merv’de çeşitli dönemlerde yaptırılan kalelerin kalıntıları içinde Sultankale, Selçuklu döneminden kalan en iyi durumdaki örnektir. Serahs’ta sadece İçkale’nin tuğladan sur duvarları kısmen korunmuştur. Ürgenç’te harap vaziyetteki Akkale de bir iç kale olarak inşa edilmiştir. Şehri kuşatan Taşkale surlarından ise eser kalmamıştır. </p><p> <b>Sivil Mimari.</b> Eski yolların önemli bir geçit ve kavşak noktasında bulunan Türkmenistan’da bugün ekserisi çöl alanlarında ve ıssız yol güzergâhlarında harap durumda bazı kervansaray kalıntıları mevcuttur. Çoğu kümelenmiş durumda birer kerpiç yığını halinde görünen bu eserler, Türk-İslâm mimarisinde kervansarayların erken örnekleri olmaları bakımından büyük önem taşımaktadır. Müslüman Araplar’ın ilk fetih devrinden itibaren bölgede bir ribât geleneği başlattıkları bilinmektedir. Bugün “kale” ya da “köşk” diye adlandırılan bir grup eserin o dönemlerde inşa ettirilmiş ribâtlar olması ihtimali büyüktür. Merv’de Büyük Kızkale ve Küçük Kızkale köşkleriyle Merv yakınlarındaki Büyük Naimkale ve Küçük Naimkale yapıları bunlara örnek verilebilir. Daha sonraları kervansaray denilen farklı bir yapı tipine dönüşecek olan bu mimari geleneğini Sâmânîler sürdürmüştür. X. yüzyıla tarihlenen Merv-Hârizm yolu üzerindeki Hürmüzferre Kervansarayı bu dönemin eseridir. Selçuklu devrinde yol güzergâhlarında çok sayıda kervansaray inşa edilmiştir. XI-XII. yüzyıllara mal edilen bu yapılardan Âmül-Hârizm yolundaki Dâye Hatun Kervansarayı, Merv-Hârizm yolundaki Ode Mergen (Merguen) Kervansarayı, Merv-Âmül yolunda bulunan el-Asker Kervansarayı ile Dihistan’ın şehir surları dışında yer alan Dihistan Kervansarayı ahır ve konaklama birimlerinin tek avlu etrafında şekillendiği örneklerdir. XII. yüzyılın başlarında yaptırıldığı tahmin edilen Eski Merv-Âmül yolundaki Akçakale Kervansarayı dört eyvanlı iki avlu esasına göre tasarlanmıştır. Merv bölgesinde “kutlu şehir” denilen yerde bulunan Başane Kervansarayı bu iki tipten farklı bir plan şemasına sahiptir. İşlevi bakımından tartışmalı olmakla beraber plan özellikleriyle yapı Anadolu’daki Selçuklu dönemi sultan hanlarının öncüsü sayılmaktadır. Türkmenistan’daki eski saray mimarisi konusunda yeterli bilgi yoktur. Halen çok harap vaziyette bulunan Merv’deki Selçuklu Sarayı köşk, divanhâne ve çeşitli hizmet birimlerinden meydana gelmektedir. Ürgenç’teki saraydan ise eser kalmamıştır. Türkmenistan’ın eski konut mimarisine ilişkin bilgiler de sınırlıdır. Yapılan kazılar sonucunda Merv ve çevresinde IX-XIII. yüzyıllara ait bazı konut kalıntıları ortaya çıkarılmıştır. Bunların planları genellikle merkezde bir ana mekânla dört yönde ona bağlanan bölümlerden oluşmaktadır. </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> İbn Battûta, <span class="eser">er-Riḥle</span>, Beyrut ts. (Dâru Sâdır), s. 360.</p><p>A. Yu. Yakubovskiy, <span class="eser">Razvalini Ürgença</span>, Leningrad 1930.</p><p>N. M. Baçinskiy v.dğr., <span class="eser">Arhitekturnie pamyatniki Türkmenii</span>, Moskva-Aşkabad 1939.</p><p>B. N. Zasipkin, <span class="eser">Arhitektura Sredney Azii</span>, Moskva 1948.</p><p>G. A. Pugaçenkova, <span class="eser">Puti Razvitiya Arhitekturı Yujnogo Türkmenistana Porı Rabovladeniya i Feodalizma</span>, Moskva 1958.</p><p>a.mlf., <span class="eser">İskusstvo Türkmenistana</span>, Moskva 1967.</p><p>E. Atagarriev v.dğr., <span class="eser">Türkmenistanın arhutektura yadigarlukleru-Pamyakniki arhutekturı Türkmenistana</span>, Leningrad 1974.</p><p>Mustafa Cezar, <span class="eser">Anadolu Öncesi Türklerde Şehir ve Mimarlık</span>, İstanbul 1977.</p><p>N. Halimov, <span class="eser">Gadimi Ürgence Sıyahat</span>, Aşkabad 1986.</p><p>Ara Altun, <span class="eser">Ortaçağ Türk Mimarisinin Anahatları İçin Bir Özet</span>, İstanbul 1988.</p><p>Azim Ahmedov, <span class="eser">Gadimiyetin Yanı</span>, Aşkabad 1993.</p><p>Oktay Aslanapa, <span class="eser">Türk Cumhuriyetleri Mimarlık Abideleri</span>, Ankara 1996.</p><p>Hakkı Önkal, <span class="eser">Anadolu Selçuklu Türbeleri</span>, Ankara 1996.</p><p>Yüksel Sayan, <span class="eser">Türkmenistan’daki Mimari Eserler (XI-XVI. Yüzyıl)</span>, Ankara 1999.</p><p>a.mlf., “Türkmenistan’ın XI-XIX. Yüzyıl Mimarî Anıtları”, <span class="eser">Türkler</span> (nşr. Hasan Celal Güzel v.dğr.), Ankara 2002, VI, 63-75.</p><p>a.mlf., “Merv”, <span class="kisaltma" data-ad="dia"><i>DİA</i></span>, XXIX, 223-225.</p><p>Orhan Tan, <span class="eser">Merv</span>, Ankara 2000.</p><p>M. E. Masson, “Novie dannie o nadiisyah odnogo Meşhedi-Misrianskogo minareta”, <span class="eser">Epigrafika Vostoka</span>, VII, Moscow 1953, s. 7 vd.</p><p>S. B. Lunina, “İzuçenie Jilıh domov Merva X-naçala XIII v.”, <span class="eser">Kultura Türkmenii v Srednie veka (TYUTAKE)</span>, XVIII, Aşkabad 1980, s. 59-84.</p><p>Emel Esin, “Merv”, <span class="kisaltma" data-ad="ta"><i>TA</i></span>, XXIV, 18-21.</p><p>V. Minorsky, “Meşhed-i Mısriyan”, <span class="kisaltma" data-ad="ia"><i>İA</i></span>, VIII, 159-160.</p><p>Aydın Taneri, “Gürgenç”, <span class="kisaltma" data-ad="dia"><i>DİA</i></span>, XIV, 321-323.</p><p>Abdülkerim Özaydın, “Hârizm”, <i>a.e.</i>, XVI, 217-220.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/41/C41023229.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 41. cildinde, 605-607 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('TÜRKMENİSTAN', 'turkmenistan', '3-mimari', 'C41023229.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/41/C41023229.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+									</div>
+					</div>
+    </div>
+
+	<div class="pure-u-1 pure-u-md-9-24 sticky-sidebar" style="padding-left:50px;">
+		<div style="margin-bottom:30px"><div class="article-country-container"><div class="flag-props"><div class="country-flag"><img src="https://cdn2.islamansiklopedisi.org.tr/madde/41/mi/turkmenistan-bayrak_m.jpg" /></div><div><b>Resmî adı: </b>Türkmenistan Cumhuriyeti (Türkmenistan Jumhuriyäti)</div><div><b>Başşehri:</b> Aşkābâd</div><div><b>Yüzölçümü: </b>488.100 km<sup>2</sup></div><div><b>Nüfusu: </b>5.450.000 (2010 tahmini)</div><div><b>Resmî dili: </b>Türkmence</div><div><b>Para birimi: </b>Türkmenistani manat = TMT<br />
+1 TMT = 100 tennesi (tenge)</div><div class="flag-ps">Bu bilgiler <i>TDV İslâm Ansiklopedisi</i>’nin 2012 yılına ait matbu nüshasındaki verilerdir.</div> </div></div></div>
+        
+		<!-- dosya link -->
+		<style>
+			.ltfolcont{text-align:center; border: 1px dashed #e5774280; border-radius: 3px; padding: 13px 20px; font-size:0.9rem; margin-bottom: 30px; overflow: hidden; line-height:1.25rem;color:#777;}
+			.ltfolcont span a{font-weight:bold; font-size:1.2rem; color:#e57742; line-height:1.2rem}
+			.ltfolcont span a:hover{text-decoration:underline !important;}
+			.ltfol:hover > div.ltfolcont{background:#f9f1f1;}
+		</style>
+		
+
+
+		
+
+
+        <div class="rg-container">
+            <h2 class="visible-on-print">Görseller</h2>
+            <div>
+                                        <div class="right-gallery" id="rg1">
+                            <a img-order="0" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/turkmenistan-2.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Harita/turkmenistan-2.jpg"
+                                title="Türkmenistan"  alt="Türkmenistan" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Türkmenistan</div>
+                        </div>
+                                            <div class="right-gallery" id="rg2">
+                            <a img-order="1" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/turkmenistan-3.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/turkmenistan-3.jpg"
+                                title="Merv yakınındaki Talhatan Baba Camii"  alt="Merv yakınındaki Talhatan Baba Camii" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Merv yakınındaki Talhatan Baba Camii</div>
+                        </div>
+                                            <div class="right-gallery" id="rg3">
+                            <a img-order="2" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/turkmenistan-4.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/turkmenistan-4.jpg"
+                                title="Fahreddin er-Râzî Türbesi – Gürgenç (Köhne Ürgenç) / Türkmenistan"  alt="Fahreddin er-Râzî Türbesi – Gürgenç (Köhne Ürgenç) / Türkmenistan" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Fahreddin er-Râzî Türbesi – Gürgenç (Köhne Ürgenç) / Türkmenistan</div>
+                        </div>
+                                            <div class="right-gallery" id="rg4">
+                            <a img-order="3" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/turkmenistan-5.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/turkmenistan-5.jpg"
+                                title="Törebeg Hanım Türbesi – Gürgenç (Köhne Ürgenç)"  alt="Törebeg Hanım Türbesi – Gürgenç (Köhne Ürgenç)" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Törebeg Hanım Türbesi – Gürgenç (Köhne Ürgenç)</div>
+                        </div>
+                                            <div class="right-gallery" id="rg5">
+                            <a img-order="4" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/turkmenistan-6.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Diğer fotoğraf/turkmenistan-6.jpg"
+                                title="Eski Merv ile Âmül arasında yer alanAkçakale Kervansarayı’nın kalıntıları"  alt="Eski Merv ile Âmül arasında yer alanAkçakale Kervansarayı’nın kalıntıları" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Eski Merv ile Âmül arasında yer alan<br>Akçakale Kervansarayı’nın kalıntıları</div>
+                        </div>
+                                </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div id="print-part-temp"></div>
+<div id="print-part-temp-top"></div>
+
+<div class="modal" id="issue-modal">
+    <div class="modal-body">
+        <div class="modal-box">
+            <div class="close-button">
+                <span class="icon-close"></span>
+            </div>
+            <div class="modal-top">
+                <span>TDV İslâm Ansiklopedisi Madde Bildirim Formu</span>
+            </div>
+            <div class="modal-container">
+                <div style="width:540px; margin:0 auto;">
+                    <div style="color:#777; font-size:17px; padding-bottom:10px; font-weight:bold;"></div>
+                    <div class="error-box" style="display: none;"></div>
+                    <div class="success-box" style="display: none;"></div>
+
+                    <div style="font-size:17px; color:#ef2f2f; padding: 0 0 15px 0; text-align:left; line-height:21px;">
+                        Bu form aracılığıyla, sadece <strong id="issue-modal-madde">OSMANLILAR//8-mali-yapi</strong> maddesi ile alakalı mesajların iletilmesi rica olunur. TDV İslâm Ansiklopedisi'nin elektronik sürümü hakkındaki diğer hususların ise <a href="/iletisim-formu">İletişim Formu</a> aracılığıyla iletilmesi rica olunur.
+                    </div>
+
+                    <form id="modal-issue-form" method="post">
+                        <div>
+                            <input name="bildirim-madde-adi" placeholder="Madde adı" value="" style="visibility:hidden; display:none;">
+                            <input type="text" id="ref-url" name="ref-url" style="visibility:hidden; display:none;" value="https://islamansiklopedisi.org.tr/turkmenistan">
+                            <input type="text" id="issue-g-token" name="g-token" hidden/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bildirim-bildirim">Bildiriminiz <span style="color: red">*</span></label>
+                            <textarea class="form-control" name="bildirim-bildirim" style="max-height: 25vh; min-height: 100px;" placeholder="Ayrıntılı olarak bildiriminizi giriniz." id="bildirim-bildirim" required></textarea>
+                        </div>
+
+                        <div style="font-weight:bold; font-size:15px; color:#666; padding:5px 0 10px 0;">İletişim bilgileriniz</div>
+                        <div class="form-group">
+                            <label for="bildirim-ad-soyad">Adınız ve Soyadınız <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="bildirim-ad-soyad" placeholder="Örn: Ahmet Sönmezgül" id="bildirim-ad-soyad" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-eposta">E-Posta <span style="color: red">*</span></label>
+                            <input type="email" class="form-control" name="bildirim-eposta" placeholder="isim@ornek.com" id="bildirim-eposta" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-telefon">Telefon Numarası</label>
+                            <input type="tel" class="form-control" name="bildirim-telefon" placeholder="05XXXXXXXX" id="bildirim-telefon" value="">
+                        </div>
+
+                        <p style="font-size: 12px;">Değişiklikleriniz taslak olarak tarayıcınıza kayıt edilir. Kapatıp daha sonra devam edebilirsiniz.</p>
+                        <div style="text-align: center">
+                            <input id="modal-issue-submit" type="submit" class="tdv-btn tdv-btn-primary" style="min-width: 200px" value="Gönder" />
+                        </div>
+                    </form>
+                    <div class="modal-loading">
+                        <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="fotorama" class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-auto="false" style="display:none">
+		
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/turkmenistan-2.jpg" data-caption="<b>TÜRKMENİSTAN (1/5)</b> Türkmenistan <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/turkmenistan-2.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Harita/turkmenistan-2.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/turkmenistan-3.jpg" data-caption="<b>TÜRKMENİSTAN (2/5)</b> Merv yakınındaki Talhatan Baba Camii <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/turkmenistan-3.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/turkmenistan-3.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/turkmenistan-4.jpg" data-caption="<b>TÜRKMENİSTAN (3/5)</b> Fahreddin er-Râzî Türbesi – Gürgenç (Köhne Ürgenç) / Türkmenistan <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/turkmenistan-4.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/turkmenistan-4.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/turkmenistan-5.jpg" data-caption="<b>TÜRKMENİSTAN (4/5)</b> Törebeg Hanım Türbesi – Gürgenç (Köhne Ürgenç) <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/turkmenistan-5.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/turkmenistan-5.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/turkmenistan-6.jpg" data-caption="<b>TÜRKMENİSTAN (5/5)</b> Eski Merv ile Âmül arasında yer alan Akçakale Kervansarayı’nın kalıntıları <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/turkmenistan-6.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Diğer fotoğraf/turkmenistan-6.jpg">
+			</a>
+		</div>
+
+<div id="header-article-html" style="display:none">
+	<div id="header-article-html-code">
+		<style>
+		.ults{margin:0px; padding:0px; list-style:none;}
+		.ults li{float:left;}
+		.icon-list-ul{cursor:pointer;}
+		.icon-list-ul:hover{color:#777 !important;}
+		</style>
+		<ul class="ults">
+			<li>
+				<a href="/">
+					<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/logo_2.svg" style="height:39px !important;">
+				</a>
+			</li>
+						<li style="    padding: 24px 7px 0 15px; position:relative; line-height:0px;" class="list-ll">
+				<span class="icon-list-ul topmenurev" style="color:#999; font-size:17px"></span>
+				<div class="top-prev-container bsk" style=" display:none; left:-85px; position: absolute; width: 580px; background: #fff; border: 1px solid #ddd; box-shadow: 0 1px 2px rgba(0,0,0,0.2); top:65px; padding-bottom:5px;">
+						<div class="preview-content">
+						<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png" style="position:absolute; top:-8px; left:100px; width:15px; height:8px !important;" />
+						<ul class="preview-ul" style="padding: 10px 12px 10px 14px; font-size:15px; height:220px; ">
+						<li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >1/3</span><span><span>Müellif: </span><b style="color:#888">HALİL KURT</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Sovyet Sosyalist Cumhuriyetleri Birliği’nin dağılmasıyla 27 Ekim 1991’de bağımsızlığını kazanan Türkmenistan kuzeyden Kazakistan, kuzey ve kuzeydoğuda...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#2-tarih"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >2/3</span><span><span>Müellif: </span><b style="color:#888">MEHMET SARAY</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">II. TARİH Ülke adını Türkmenler’den alır. İslâm kaynaklarında müslüman Oğuzlar’a Türkmen denilirdi. İslâm’dan önce Sâsânîler’in hâkimiyetinde kalan Tü...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#3-mimari"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >3/3</span><span><span>Müellif: </span><b style="color:#888">YÜKSEL SAYAN</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">MİMARİ. Neolitik devirlerden itibaren yerleşimin tesbit edildiği Türkmenistan’da özellikle Part ve Sâsânîler’in mimaride önemli gelişme kaydettikleri ...</div></li>						</ul>
+					</div>
+				</div>
+			</li>
+			
+			<li style="padding-left:0px"><span style="font-weight:bold; color:#888; font-size:18px;">TÜRKMENİSTAN</span></li>
+		</ul>
+	</div>
+</div>
+
+<div id="copyright-text" class="centered" style="margin: 0px auto;
+    padding: 30px 20px 0px 20px;
+    color: #888;
+    font-size: 14px; line-height:23px;">
+	<b>Her hakkı mahfuzdur.</b> <i>TDV İslâm Ansiklopedisi’</i>nin her türlü telif hakkı TDV İslâm Araştırmaları Merkezi’ne ait olup 5846 sayılı Kanun hükümlerine tâbidir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarındaki yazıların bütün olarak elektronik ya da matbu bir ortamda yayımlanması yasaktır; ancak kaynak gösterilmesi (<i>TDV İslâm Ansiklopedisi</i> internet sitesinde yer aldığının ifade edilmesi) ve doğrudan aktif bağlantı verilmesi şartıyla yazılardan kısa bölümler iktibas edilebilir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarında yer alan resim, fotoğraf, grafik, çizim, cetvel vs. her türlü görüntü malzemesinin başka bir ortamda yayımlanması kesinlikle yasaktır.
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/sweetalert.min.js"></script>
+
+<style>
+#fcilt div{padding:3px 5px 3px 5px;}
+.flink{line-height:25px;}
+.flink:hover{text-decoration:underline !important;}
+.footer-box-alert:hover{text-decoration:underline;}
+.footer-container {
+    margin-top: auto;
+    padding-top: 40px;
+}
+
+.footer-content {
+    background: #484848;
+    padding-bottom: 50px;
+}
+
+.footer-top-border {
+    background: #e2e2e2;
+    color: #666;
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    color: color: #777;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-top-border a div{color:color:#777;}	
+.motto-link:hover span{text-decoration:underline}
+.footer-bottom-link a:hover{text-decoration:underline !important; color:#333}
+.footer-logo-container img{opacity:0.9}
+.footer-logo-container img:hover{opacity:1}
+.footer-copy{opacity:0.9}
+.footer-copy:hover{opacity:1}
+
+.bbtns a > div{padding:11px 20px 11px 20px ; font-size:0.93rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;position:relative; opacity:0.9}
+.bbtns a > div:hover{opacity:1}
+.randombtn{font-size:0.95rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;
+background:#2FB556; color: #FFF; border:1px solid #f4a76b70; padding:10px 20px; text-align:center; 
+text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;opacity:0.85;
+position:relative
+}
+.randombtn img{position:absolute; height:24px; margin-top:-2px;}
+.randombtn span{margin-left:40px;}
+.randombtn:hover{opacity:1}
+.btnarr{position:absolute; top:0; right:0; bottom:0; background:rgba(29, 48, 55, 0.6); border-top-right-radius: 3px;border-bottom-right-radius: 3px;padding: 7px 12px 10px 12px;font-size: 1.2rem;color: #fff !important;	}
+.btnar{background: #4CAFD2;color: #fff;text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;}
+
+.as-tabs{overflow:hidden; border-bottom: 1px solid #fbcbb2; border-top: 1px solid #fbcbb2; padding-left:15px; padding-right:15px; }
+.as-tabs div.as span{font-size:1rem;}
+.as-tabs div.as{padding: 9px 10px; float:left; text-align:center}
+.as-tabs div.as.act{border-bottom: 2px solid #D97A4A;}
+.as-tabs .as .txt{color:#676767; font-weight:bold; font-size:0.97rem}
+.as-tabs .as.act .txt{}
+.as-tabs .as .txt span{color:#676767;}
+.as-tabs .as.act .txt span{color:#D97A4A}
+.as-tabs .as.psv{cursor:pointer;}
+.as-tabs span.txtcount{font-size:0.75rem !important;}
+
+div.mr{}
+
+	
+</style>
+
+<div class="footer-container">
+	<div class="footer-content">
+        <div class="footer-top-border" style="border-top:2px solid #dedddd; background-color:#f8f8f8; padding-top:30px;">
+
+            <div class="centered" style="font-size:1.2rem;  color:#666; position:relative; text-align:center; background:#f7f7f7; padding:20px 0px; border-radius:3px; border:1px dashed #ddd;">
+                Otuz üç yıllık birikim, yeni yüz: TDV İslâm Ansiklopedisi İnternet sitesi test yayınında.
+                <a href="/hakkinda.php" style="color:#bd6338" class="motto-link">
+                    <span style="color:#0093b0"> Daha fazla bilgi</span>
+                </a>
+            </div>
+
+            <div class="centered bbtns" style=" padding:25px 20px 5px 20px">
+                <div class="pure-g">
+                    <div class="pure-u-1-3"><a href="/dosyalar"><div class="btnar">DOSYALAR<div class="btnarr">»</div></div></a></div>
+                    <div class="pure-u-1-3"><a href="/sergi-arsivi"><div  class="btnar">SERGİ ARŞİVİ<div class="btnarr">»</div></div></a></div>
+                    <!--				<div class="pure-u-1-4"><a href="/gecen-ayin-ilk-20-si"><div  class="btnar">GEÇEN AYIN İLK 20'Sİ<div class="btnarr">»</div></div></a></div>-->
+                    <div class="pure-u-1-3"><div class="randombtn"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" /><span>RASTGELE</span></div></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="centered" style="margin-top: 50px;">
+            <div class="centered_container footer-logo-container" style="text-align:center;">
+                <a href="http://www.diyanet.gov.tr" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/diyanet-isleri-baskanligi-logo.png?t=1" style="border:none; height:140px;" />
+                </a>
+
+                <a href="http://www.isam.org.tr/" class="flink" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/isam-logo.png" style="border:none; height:140px; margin: 0 80px;" />
+                </a>
+
+                <a href="http://tdv.org/" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tdv-logo.png" style="border:none; height:140px;" />
+                </a>
+            </div>
+            <div class="centered_container footer-bottom-link" style="text-align:center; padding-top:40px; color:#fff">
+                <b>Her hakkı mahfuzdur.</b> 2016-2026 TDV İslâm Araştırmaları Merkezi  <span>|</span>
+                <a href="/kullanim_sartlari.php" class="footer-copy" style="color:#fff">Kullanım Şartları</a> <span>|</span>
+                <a href="/iletisim-formu" class="footer-copy" style="color:#fff">İletişim Formu</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- random madde -->
+<style>
+.rnd-left-img{text-align:center; padding-top:10px;}
+.rnd-left-img img{max-width:450px; max-height:300px; border-radius: 4px;}
+.rnd-title{font-size: 1.5rem;font-weight: bold; color: #777; text-align:center}
+.rnd-tanitim{color: #e16328; padding-top:2px; text-align:center; padding-left:20px; padding-right:20px;}
+.boxcontainer{overflow: hidden; margin: 20px; border: 1px dashed #c5c5c5; padding: 15px; border-radius: 5px; min-height:190px;}
+.rnd-goto {padding-top:15px;}
+.rnd-goto a{color:#897898;}
+.lightboxrernd{    width: 280px;
+    background: #977898;
+    padding: 7px 25px 8px 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 200px;
+    opacity: 0.9;
+	cursor:pointer;
+}
+.randombtn{cursor:pointer;}
+.rnd-author{padding-top:10px; font-size:0.9rem; color:#777}
+.rnd-author span{font-weight: bold; color: #999;}
+.rnd-kunye{color: #777; font-size: 0.95rem; text-align:center}
+.random-modal {
+    background-color: #0000004f;
+    text-align: center;
+    z-index: 10000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+}
+.random-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    max-width: 660px;
+    max-height: 90%;
+    width: 660px;
+    margin: 0 auto;
+    text-align:left;
+    border:1px solid #ccc;
+    border-top:none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow:0 0 5px #ccc;
+    -moz-box-shadow:0 0 5px #ccc;
+    -webkit-box-shadow:0 0 5px #ccc;
+    z-index:1000001;
+    padding-bottom: 20px;
+}
+.icon-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #888;
+    cursor: pointer;
+}
+.random-modal-box {
+    overflow: hidden;
+    margin: 20px;
+    border: 1px dashed #c5c5c5;
+    padding: 15px;
+    border-radius: 5px;
+}
+.random-modal-random {
+    font-size: 0.95rem;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #2FB556;
+    color: #FFF;
+    border: 1px solid #f4a76b70;
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: 1px 0 0 #407588;
+    letter-spacing: 0.04rem;
+    opacity: 0.85;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+}
+.random-modal-random:hover {
+    opacity: .95;
+}
+.random-modal-random:active {
+    opacity: 1;
+}
+.random-modal-random img {
+    position: absolute;
+    height: 24px;
+    margin-top: -2px;
+}
+.random-modal-random span {
+    margin-left: 40px;
+}
+.random-modal-bottom {
+    text-align: center;
+}
+.random-modal-box:hover {
+    background-color: #f6f6f6;
+}
+.random-modal-box:active {
+    background-color: #ebebeb;
+}
+</style>
+
+<div class="random-modal">
+    <div class="random-modal-container">
+        <span class="icon-close"></span>
+        <div style="text-align:center;padding: 22px 25px 15px 25px; border-bottom: 1px solid #ddd; user-select: none;"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_popup_baslik.png"  /></div>
+        <div style="padding: 15px 25px; color:#777; background: #e6e5e5;text-align: center; user-select: none;"><i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde okumak ister misiniz?</div>
+        <div class="lightboxrndarticle"></div>
+        <div class="random-modal-bottom">
+            <div class="random-modal-random">
+                <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png">
+                <span>BAŞKA BİR MADDE GÖSTER</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- random madde -->
+
+
+
+
+
+
+<style>
+.newsalertwrapper{position:fixed; left:0; right:0; bottom:0; top:0; background:rgba(0, 0, 0, 0.55); z-index:10000; display:none; }
+.newsalertbox{
+	position:relative;
+	margin: 100px auto;
+    width: 600px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 70px 40px 70px 40px;
+    text-align: center;}
+	
+.newsalertbox .hd1{
+	font-weight: bold;
+    font-size: 1.45rem;
+    color: #267893;
+    padding-bottom: 30px;
+}
+.newsalertbox .hd2{
+	font-size: 1.15rem;
+    color: #666;
+	padding-bottom:20px;	
+}
+.newsalertbox .hd3{
+	text-decoration: underline !important;
+    font-size: 1.15rem;
+	color:#0093b0;
+}
+.newsalertbox .hd3 .linkto{color:#0093b0; cursor:pointer;}
+
+.newsalertbox .hd4{padding-top: 30px;
+    font-size: 1.05rem;
+    color: #777;
+	}	
+.alertclose{
+	position:absolute;
+	right:20px;
+	top:18px;
+	font-size: 1.7rem;
+    color: #666;
+	cursor:pointer;
+}	
+</style>
+
+<!-- ntf203.htm notificaiton html-->	
+	
+
+		
+<script>
+
+	
+$('body').on("mousedown touchend", function(e){ 
+    var resultbox = $("#auto-suggest-box");
+    var inputbox = $("#searchBox");
+	var keyboard = $(".dia-keyboard");
+	
+    if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && 
+		!inputbox.is(e.target) && 
+		!keyboard.is(e.target)  && keyboard.has(e.target).length === 0 ){
+    	resultbox .hide();
+		/*
+			$('#searchBox').css("background-color", "#f4f1f1");
+			$('#searchBox').css("border", "none"); 
+	*/
+		}
+
+    var container = $(".hover-menu");
+    var button = $(".hover-menu-button");
+    if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+    	container.hide();
+		//$('.hover-menu-button').css("background","#F7F4F4");
+		}		
+});
+
+
+$(document).ready(function() {
+    $('.randombtn, .random-modal-random, .rndleftbtn').click(function(event){
+        $('.random-modal').show();
+        changeRndArticle();
+
+        jQuery("body").bind("scroll touchmove mousewheel DOMMouseScroll",function(e){
+            e.preventDefault();
+            return false;
+        });
+
+    });
+
+    $('.lightboxrernd').click(function(event){
+		changeRndArticle();
+	});	
+	
+	$('.random-modal .icon-close').click(function(event){
+		$('.random-modal').hide();
+		jQuery("body").unbind('scroll touchmove mousewheel DOMMouseScroll');
+
+	});
+	
+	function changeRndArticle(){
+		$.ajax({
+			url: "/ajax_search_auto.php?c=g&mdl=rnd&q=rnd", 
+				cache : false,
+				success: function(result){ 
+					if(result.trim() == "")
+					{
+						alert("not");
+					}else{
+						$('.lightboxrndarticle').html(result);
+					}
+				}
+			});
+	}
+	
+	/*
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".lightboxcontent");
+		var inputbox = $(".lightboxcontent .icon-close");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+				$('.lightboxbg').hide();
+				$('.lightboxcontent').hide();
+				$('body').css("overflow","visible");
+		}
+	});
+	*/
+	/* random madde */
+
+	
+	
+	
+		/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});	
+	
+	
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 500 ) {
+			$("#scrollTop").show();
+		}
+		else{
+			$("#scrollTop").hide();
+		}
+	});
+	
+	$('#scrollTop').click(function(){
+		$("html, body").animate({ 
+			scrollTop: "0px"
+		}); 
+		
+		
+		var url_string = location.href;
+		var clean_url = url_string.split('#', 1);
+
+		
+		history.pushState({}, document.title, clean_url );
+	});	
+
+/* search autocomplete events */
+var is_search_page = 0;
+var sr_type = 'aa';
+
+if(is_search_page == 0)
+{
+		
+var delay = (function(){
+  var timer = 0;
+  return function(callback, ms){
+    clearTimeout (timer);
+    timer = setTimeout(callback, ms);
+  };
+})();
+
+// pass url search type parameter to autosuggest box
+var strt = 'm';
+if(strt == "y")
+	sr_type = "y";
+else if(strt == "m")
+	sr_type = "aa";
+else if(strt == "b")
+	sr_type = "b";
+else if(strt == "t")
+    sr_type = "t";
+else
+	sr_type = "aa";
+
+
+$('#searchBox').keyup(function(e) {	
+    // ignor arrow actions..
+	
+	var keycode = (e.keyCode || e.which);
+    if(keycode == 37 || keycode == 38 || keycode == 39 || keycode == 40) {
+        return;
+    }
+	
+	getType(1000);
+});
+
+// bind copy past
+$('#searchBox').bind('paste', null, function(e) {
+	getType(1000);
+});
+
+// mouse out and in open results
+$('#searchBox').click(function(e) {	
+	var typed = $.trim($('#searchBox').val());	
+	if(typed.length > 1){
+		if(!$('#auto-suggest-box').is(":visible")){
+			if($('#auto-suggest-content').html() != ""){			
+				$('#auto-suggest-box').show();
+			}
+			else{
+				getType(0);
+			}				
+		}
+	}
+		
+});
+
+
+function getType(times)
+{
+    delay(function(){
+		var typed = $.trim($('#searchBox').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box").hide();	
+			$("#auto-suggest-loading").hide();
+			
+		}
+    }, times );
+}
+
+function autocomplete(typed)
+{
+	$("#auto-suggest-content").html('');
+	$("#auto-suggest-box").show();
+	$("#auto-suggest-loading").show();
+
+	urlcd = encodeURI("/ajax_search_auto.php?sp=" + sr_type + "&=ac&q=" + typed);
+	$.ajax({
+		url: urlcd,
+		success: function(result) {
+                        gtag('config', 'UA-160819951-1', {
+                'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                'page_path': '/arama/?q=' + typed + '&p=autocomplete-' + sr_type,
+            });
+            gtag('event', 'view_search_results', {
+                'search_term': typed,
+                'q_p': sr_type
+            });
+            			if(result.trim() == "")
+			{
+				$("#auto-suggest-box").hide();	
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html('Sonuç bulunmadı.');
+
+                                gtag('config', 'UA-160819951-1', {
+                    'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                    'page_path': '/arama/?q=' + typed + '&p=autocomplete-no-result-' + sr_type,
+                });
+                gtag('event', 'view_search_results', {
+                    'search_term': typed,
+                    'q_p': 'autocomplete-no-result-' + sr_type
+                });
+                			}else{   		
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html(result);
+				// getTxtNumbers(typed);
+				
+				// break span
+				if ($("#auto-suggest-box").width() < 400 ) 
+				{
+						$("#auto-suggest-box span.txt span").css("display","block");
+						$("#auto-suggest-box span.txt span.txtcount").css("display","inline");	
+				}
+				
+				// $(".header_search").find(".srchp").attr( "href", encodeURI( $(".header_search").find(".srchp").attr("href") ) );
+				$(".header_search").find(".as-t a").attr( "href", encodeURI( $(".header_search").find(".as-t a").attr("href") ) );
+				
+
+			
+			}
+		}
+	});
+	
+	
+}
+
+function getTxtNumbers(typed){
+	$.ajax({
+		url: "/ajax_search_auto.php?mdl=txtdelay&q=" + typed, 
+		cache : false,
+		success: function(result){ 
+			if(parseInt(result) > 0){
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').parent().parent().removeClass('n0').addClass('n' + result.trim());
+				$('.txtcount').removeClass('txtcount');			
+			}
+			else{
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').removeClass('txtcount');	
+			}			
+		}
+	});
+}
+
+$("#auto-suggest-content").on("click", ".as-m.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'aa';
+	strt = 'm';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-y.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'y';
+	strt = 'y';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-b.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'b';
+	strt = 'b';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-t.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+    $(this).parent().removeClass("psv").addClass("act");
+    sr_type = 't';
+    strt = 't';
+    getType(10);
+});
+}
+
+
+
+/* top menu hover */
+$('.hover-menu-button').click(function(){
+	$(this).parent().find(".hover-menu").toggle();
+	//$(this).css("background","#ECE6E6");
+});
+
+
+
+
+
+
+
+/* search boxes silinecek 
+$('.searchBoxyazar').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/muellif-arama/' + search;}
+});
+
+$('.searchBoxBibl').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/bibliyografya_kisaltmalari/' + search;}
+});
+*/
+
+
+$('.searchBox').keypress(function(e){
+	if(e.which == 13){
+		if($('#searc-complete-result a.selected').length == 0){
+			var search = encodeURI($(this).val());
+			window.location = '/arama/?q=' + search + '&p=' + strt;
+		}else{
+			var target = $('#searc-complete-result a.selected').attr('href');
+			window.location = target;
+		}
+	}
+});
+
+$('#icon-search-submit').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?q=' + search;
+});
+
+$('#icon-search-submit-txt').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?p=t&q=' + search;
+});
+
+$("#searchBox").keydown(function(e) {
+	
+  var searchbox = $(this);
+  switch (e.which) {
+    case 40:
+      e.preventDefault(); // prevent moving the cursor     
+	  if($('#searc-complete-result .alist a.selected').length == 0){
+		$('#searc-complete-result .alist a:first').addClass('selected');
+	  }else{
+		$('#searc-complete-result .alist a:not(:last-child).selected').removeClass('selected').next().addClass('selected');
+	  }
+      break;
+    case 38:
+      e.preventDefault(); // prevent moving the cursor
+	  if($('#searc-complete-result a:first.selected').length == 1){
+		$('#searc-complete-result .selected').removeClass('selected');
+	  }
+      $('#searc-complete-result a:not(:first-child).selected').removeClass('selected').prev().addClass('selected');
+      break;
+  }
+});
+
+
+		var isCapital = false;
+		
+		$('.dia-keyboard').click(function(event){
+			jQuery('#searchBox').focus();
+		});
+		
+		$('.close-keyboard').click(function(event){
+			$('.dia-keyboard').hide();
+			$('.open-keyboard').css("opacity","0.3");
+		});	
+
+		$('.open-keyboard').click(function(event){
+			if( $('.dia-keyboard').is(':visible') ){
+				$('.dia-keyboard').hide();
+				$('.open-keyboard').css("opacity","0.3");
+			}
+			else{
+				$('.dia-keyboard').show();
+				$('.open-keyboard').css("opacity","0.8");
+			}
+		});	
+		
+			
+		function addCurrentLetter(letter)
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var character = letter; 
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart) + character + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart+1, $("#searchBox")[0].selectionEnd = selStart+1;				
+		}
+
+		function deleteCurrentLetter()
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart-1) + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart-1, $("#searchBox")[0].selectionEnd = selStart-1;				
+		}		
+		
+		$('.shift').click(function(event){
+			
+			$('.dia-keyboard ul li').each(function(){
+				if(isCapital){
+					$(this).text($(this).attr("hk"));
+				}
+				else{
+					$(this).text($(this).attr("hb"));
+				}
+			});
+						
+			if(isCapital){
+				isCapital = false;
+			}else{
+				isCapital = true;
+			}
+		});
+		
+		$('.dia-keyboard ul li:not(.noletter)').click(function(event){
+			addCurrentLetter($(this).text());
+			$('#searchBox').keyup();
+		});
+		
+		$('.dia-keyboard ul li.space').click(function(event){
+			addCurrentLetter(' ');
+			$('#searchBox').keyup();
+		});
+		$('.dia-keyboard ul li.delete').click(function(event){
+			if($("#searchBox").val().length > 0){
+				deleteCurrentLetter();
+				$('#searchBox').keyup();
+			}
+		});	
+		
+		
+		
+
+
+
+/* volume close-open events */
+$('#albhabet_button').click(function(){
+	$('.cz').hide(); $('.az').toggle();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#cilt_button').click(function(){
+	$('.az').hide(); $('.cz').toggle();
+	$('#albhabet_button').removeClass('arrow-selected');
+	$('#cilt_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_az').click(function(){
+	$('.az').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_cz').click(function(){
+	$('.cz').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+function letter_volumes_setter()
+{
+	if( $('.az').is(":visible")){
+		set_public_cookie("lt=1&vl=0");
+	}else if($('.cz').is(":visible")){
+		set_public_cookie("lt=0&vl=1");
+	}else{
+		set_public_cookie("lt=0&vl=0");
+	}
+}
+
+
+/* newsbar */
+
+if(!$('#newsbar_container').is(":visible")){
+	$('#newsbar_open').show();
+} 
+
+$('#newsbar_close').click(function(){
+	$('#newsbar_container').hide();
+	$('#newsbar_open').show();
+	set_public_cookie("nb=0");
+		
+});
+
+$('#newsbar_open').click(function(){
+	$('#newsbar_container').show();
+	$('#newsbar_open').hide();
+	set_public_cookie("nb=1");
+});
+
+});
+
+
+function set_public_cookie(parameter){
+	$.ajax({
+	url: "/cookie_setter.php?" + parameter,
+	cache : false,
+	success: function(result){ 
+	}
+	});
+}
+	
+	
+</script>
+	
+	
+</body>
+</html>
+<script>
+
+var fotoramaLoaded = 0;
+
+/* article image loading */
+$(function() {
+    $("img.lazy").lazyload();
+});
+
+/* article info selected text */
+function SelectText(element) {
+    var doc = document
+        , text = doc.getElementById(element)
+        , range, selection
+    ;
+    if (doc.body.createTextRange) {
+        range = document.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) {
+        selection = window.getSelection();
+        range = document.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}
+
+function url_redirect(options){
+    var $form = $("<form />");
+	$form.attr("action",options.url);
+	$form.attr("method",options.method);
+
+	for (var data in options.data)
+		$form.append('<input type="hidden" name="'+data+'" value="'+options.data[data]+'" />');
+
+	$("body").append($form);
+	$form.submit();
+}
+
+function requestCaptcha() {
+    grecaptcha.execute('6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS', {action: 'submit'})
+        .then(function (token) {
+            $('#issue-g-token').val(token);
+        });
+}
+
+function lockModal(lock = true) {
+    let notification = $('textarea[name=bildirim-bildirim]');
+    let name = $('input[name=bildirim-ad-soyad]');
+    let email = $('input[name=bildirim-eposta]');
+    let phone = $('input[name=bildirim-telefon]');
+    let code = $('input[name=bildirim-kodu]');
+    let submitBtn = $('#modal-issue-submit');
+    let loader = $('.modal-loading');
+
+    if (lock) {
+        notification.prop('disabled', true);
+        name.prop('disabled', true);
+        email.prop('disabled', true);
+        phone.prop('disabled', true);
+        code.prop('disabled', true);
+        submitBtn.hide();
+        loader.show();
+    } else {
+        notification.prop('disabled', false);
+        name.prop('disabled', false);
+        email.prop('disabled', false);
+        phone.prop('disabled', false);
+        code.prop('disabled', false);
+        submitBtn.show();
+        loader.hide();
+    }
+}
+
+function resizeFotorama(fotorama) {
+    let activeFrame = fotorama.activeFrame.$stageFrame;
+    let activeImage = activeFrame.find('img.fotorama__img');
+    let activeCaption = activeFrame.find('div.fotorama__caption');
+    let hesap = activeFrame.height() - activeCaption.height();
+    let cssTag = $('#fotorama_max');
+    if (cssTag.length > 0)
+        cssTag.remove()
+    activeImage.parent().append('<style id="fotorama_max">.fotorama_max { max-height: '+ hesap +'px !important; }</style>')
+    activeImage.addClass('fotorama_max');
+}
+
+function pdfStat(articleName, articleSlug, partName, fileName) {
+    const data = {
+        'event_category': 'pdf',
+        'event_label': `${articleName} - ${articleSlug} - ${fileName}`,
+        'file_name': fileName,
+        'file_extension': 'pdf',
+        'link_text': `${articleName} - #${partName}`,
+    };
+
+    gtag('event', 'download', data);
+}
+
+$(document).ready(function() {
+    // Sayfa yüklendiğinde küçük ekranlar için navbar madde adını hazırla.
+    $("#header-article-html-code").appendTo($("#header-article"));
+
+	/* right -left click */
+	$(document).keydown(function(event) {
+		if (event.ctrlKey || event.metaKey) {
+		    switch (event.keyCode) {
+		        // left
+		        case 37:
+                    window.location.href = '/turkluk-bilgisi-arastirmalari';
+                    break;
+                //right
+                case 39:
+                    window.location.href = '/turkmenler';
+                    break;
+                default:
+                    return;
+            }
+        }
+	});
+
+    let issueModal = $('#issue-modal').modal();
+    let feedbackBtn = $('.feedback-btn');
+    let issue = '';
+
+	/* show arrb */
+	$('bibl .kisaltma').click(function(event) {
+	    let popup = $('.bibl-popup');
+	    let sidebar = $(".theiaStickySidebar");
+
+        let target = $(this);
+        let slug = false;
+        let bibkey = $(this).html();
+        if (target.data('ad')) {
+            bibkey = target.data('ad');
+            slug = true;
+        }
+
+        let offsets = $(this).offset();
+        let position = $(this).position();
+        let sidebarTopOffset = sidebar.offset().top
+        let topoffs = offsets.top - sidebarTopOffset + 40;
+        let leftoffs = (position.left - 26) + ($(this).width() / 2);
+
+        let isUseSafeArea = (sidebar.width() - position.left < 120);
+        popup.find('img').css('right', 'unset');
+        if (isUseSafeArea) {
+            popup.find('img').css('right', 24);
+        }
+
+        let q = bibkey.replace('[', '(').replace(']', ')');
+        $.ajax({
+            url: "/ajax_search_auto.php?c=g&mdl=bpop&q=" + q + '&slug=' + slug,
+			cache : false,
+			success: function(result){
+				if(result.trim() !== "") {
+                    $('.bibl-cnt').html(result);
+
+                    if (isUseSafeArea) {
+                        leftoffs = leftoffs - popup.width() + 14;
+                    }
+
+					popup.css("top", topoffs + "px");
+                    popup.css("left", leftoffs + "px");
+                    popup.show();
+
+				}
+			}
+		});
+	});
+
+	$( window ).resize(function() {
+		$('.kisaltma').each(function( index ) {
+			if($(this).find('.bibpos').length > 0)
+			{
+
+			}
+		});
+	});
+
+	/* close bibl poup */
+	$('.close-bibl-poup').click(function(event){
+		$(this).parent().hide();
+		$('.kisaltma').find('.bibpos').remove();
+	});
+
+	issueModal.on('modal:show', function () {
+        $('.grecaptcha-badge').addClass('show');
+    });
+
+    issueModal.on('modal:hide', function () {
+        $('.grecaptcha-badge').removeClass('show');
+    });
+
+	/* feedback post */
+	feedbackBtn.click(function() {
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+        let issueModalMadde = $('#issue-modal-madde');
+        errorBox.hide();
+        successBox.hide();
+        issue = $(this).data('issue');
+        if (issue) {
+            let cookie = localStorage.getItem('bildirim_' + issue);
+            let form = $('#modal-issue-form');
+            issueModalMadde.text(issue);
+            form[0].reset();
+            form.find('input[name="bildirim-madde-adi"]').val(issue);
+            if (cookie !== null) {
+                let json = JSON.parse(cookie);
+                $.each(json, function (index, elem) {
+                    if (elem.name !== 'bildirim-kodu' && elem.name !== 'bildirim-madde-adi') {
+                        form.find('[name="' + elem.name + '"]').val(elem.value);
+                    }
+                });
+            }
+            requestCaptcha();
+            issueModal.show();
+        }
+	});
+
+
+	var article_div = $('.body_pad_article');
+	var article_div_bottom_pos = article_div.position().top + article_div.outerHeight(true);
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > article_div_bottom_pos - 300 ) {
+			$(".article-left-bar").css("position", "absolute");
+		}
+		else{
+			$(".article-left-bar").css("position", "fixed");
+		}
+	});
+
+	$('.show-former').click(function(event){
+		$(".country-former").toggle();
+
+		if($(".country-former").is(":visible")){
+			$(this).parent().find('.icon-chevron-down').removeClass('icon-chevron-down').addClass('icon-chevron-up');
+		}else{
+			$(this).parent().find('.icon-chevron-up').removeClass('icon-chevron-up').addClass('icon-chevron-down');
+		}
+
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+	});
+
+	$('.show-source').click(function(event){
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+		$(".country-source").toggle();
+	});
+
+	$('.icon-list-ul').click(function(event){
+		$(".top-prev-container").show();
+		$(this).css("color","#777");
+		$(".preview-title").show();
+		$(".article_title h1").css("color","#fff");
+	});
+	$('.icon-list-up').click(function(event){
+		$(".top-prev-container-p").show();
+		$(this).css("color","#777");
+	});
+
+	$(document).mouseup(function (e)
+	{
+		// preview hover
+		var container = $(".top-prev-container.bsk");
+		var button = $(".list-ll");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+				$(".preview-title").hide();
+				$(".article_title h1").css("color","inherit");
+			}
+			/*
+		var container = $(".top-prev-container-p");
+		var button = $(".icon-list-ul-p");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+			}
+            */
+	});
+
+
+	$('.btn-preview').click(function(event){
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-plan').removeClass("active").addClass("passive");
+		$('.plan-content').hide();
+		$('.preview-content').show();
+	});
+
+	$('.btn-plan').click(function(event){
+
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-preview').removeClass("active").addClass("passive");
+		$('.plan-content').show();
+		$('.preview-content').hide();
+
+	});
+
+
+	/* prevent img click href */
+	$('.lazy').click(function(event){
+		event.preventDefault();
+	});
+
+
+
+	/* open image slider fotorama */
+	$('.lazy').click(function(){
+
+		if(fotoramaLoaded == 0){
+			$('.fotorama img').each(function(){
+				var imgurl = $(this).attr("srcs");
+				$(this).attr("src", imgurl);
+				fotoramaLoaded = 1;
+			});
+		}
+
+		$('#fotorama').show();
+		var $fotoramaDiv = $('#fotorama').fotorama();
+		var fotorama = $fotoramaDiv.data('fotorama');
+
+		fotorama.requestFullScreen();
+		var order = $(this).parent().attr("img-order");
+		fotorama.show(order);
+	});
+	$('.fotorama').on('fotorama:fullscreenexit', function (e, fotorama, extra) {
+		$('#fotorama').hide();
+	});
+
+	$('.fotorama').on('fotorama:show fotorama:load fotorama:fullscreenenter', function (e, fotorama) {
+	    resizeFotorama(fotorama);
+    });
+
+    $(window).on('resize', function () {
+        let fotorama = $('.fotorama').data('fotorama');
+        if (fotorama) {
+            setTimeout(function () {
+                resizeFotorama(fotorama);
+            }, 100);
+        }
+    });
+
+	/* article part info fade / soru işareti kaldırıldı
+	$('.article-nav-open-info').click(function(){
+		var totals = $(this).parent().find('.article-nav-numbers').html().split("/")[1];
+		var currents = $(this).parent().find('.article-nav-numbers').html().split("/")[0];
+		$('.article-nav-info-li').html('<b>' + totals + '</b> bölümden oluşan maddenin <b>' +  currents + '</b>. bölümü:');
+		$(this).parent().find(".article-nav-info-li").fadeIn("slow");
+		$(this).hide();
+	});
+	 */
+
+
+	/* part info */
+	$('.ak-copy').click(function(){
+		if($(this).find('span').text() == 'Kopyalama metni'){
+			$(this).parent().find('.ak-list').hide();
+			$(this).parent().find('.ak-copytext').show();
+			SelectText($(this).parent().find('.ak-copytext').attr("id"));
+			$(this).find('span').text('<< Geri');
+		}else{
+			$(this).parent().find('.ak-list').show();
+			$(this).parent().find('.ak-copytext').hide();
+			$(this).find('span').text('Kopyalama metni');
+		}
+	});
+
+
+
+
+	/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});
+
+
+
+
+	$('#authors_show').click(function(){$(".authors_popup").toggle();});
+
+	$(document).mouseup(function (e)
+	{
+		var container = $(".authors_popup");
+		var button = $("#authors_show");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+			container.hide();}
+	});
+
+	// default
+
+	if ($("#auto-suggest-box").width() == 376 )
+	{
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+	}
+
+	$(window).scroll(function() {
+		var poss = "";
+		var firstPart = $('.article-parts').position().top;
+
+		if ($(this).scrollTop() > 60) {
+			$("#logo-part").hide();
+			$("#logo-beta").hide();
+			$("#header-article").show();
+			$("#searchBox").css("width","380px");
+			$("#auto-suggest-box").css("width","380px");
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+			$("#header-article-html-code").appendTo($("#header-article"));
+        }
+		else{
+			$("#logo-part").show();
+			$("#logo-beta").show();
+			$("#header-article").hide();
+			$("#searchBox").css("width","490px");
+			$("#auto-suggest-box").css("width","490px");
+			$("#auto-suggest-box span.txt span").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+		}
+	});
+
+	$('.clicktop').click(function(e){
+		$("html, body").animate({
+			scrollTop: "0px"
+		});
+		window.location.hash=""	;
+	});
+
+	$('.article-nav-next, .article-nav-prev, .preview-jump').not('.article-nav-passive').click(function(){
+		window.location = $(this).attr('data-jurl');
+		var jl = '#_' + window.location.href.split("#").pop();
+		$('html, body').animate({ scrollTop: ( $(jl).offset().top - 120) }, 900);
+		$(".top-prev-container.bsk").hide();
+	});
+
+    issueModal.on('change', function () {
+        let form = $('#modal-issue-form');
+        let bildirimText = form.find('textarea[name="bildirim-bildirim"]');
+        if (issue && bildirimText.val().length > 0) {
+            let excludes = ['g-token'];
+            let cookie = 'bildirim_' + issue;
+            let formData = form.serializeArray();
+            $.each(formData, function (index, item) {
+                if (item && excludes.indexOf(item.name) > -1)
+                    formData.splice(index, 1);
+            });
+            localStorage.setItem(cookie, JSON.stringify(formData));
+        }
+    });
+
+    $('#modal-issue-form').submit(function (e) {
+        e.preventDefault();
+        let form = $('#modal-issue-form');
+        let data = form.serializeArray();
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+
+        errorBox.hide();
+        errorBox.empty();
+        successBox.hide();
+        successBox.empty();
+        lockModal();
+
+        data.push({
+            name: 'article-id',
+            value: 21638        });
+        $.post('/bildirim.php', data).done(function (data) {
+            issueModal.hide();
+            Swal.fire({
+                html: data.message,
+                icon: 'success',
+                showConfirmButton: false,
+                showCloseButton: true
+            });
+
+            form[0].reset();
+            localStorage.removeItem('bildirim_' + issue);
+            lockModal(false)
+            requestCaptcha();
+        }).fail(function (data) {
+            let response = data.responseJSON;
+            if (response.errors) {
+                errorBox.empty();
+                errorBox.html(response.errors.join('<br>'));
+                errorBox.slideDown('fast');
+            }
+            $('input[name=bildirim-kodu]').val('');
+            requestCaptcha();
+            lockModal(false);
+        });
+    });
+
+	if(window.location.href.indexOf('#') > -1){
+		var dashvalue = window.location.href.split("#").pop();
+		try{
+		var jt = '#_' + window.location.href.split("#").pop();
+		if ($(window).scrollTop() <= 0)
+		    $('html, body').animate({ scrollTop: ( $(jt).offset().top - 160) }, 900);
+		}catch(err){}
+	}
+
+	/* article toolbar functioms */
+	$('#pagecolorSepia').click(function(){
+		$("body").css("background", "#fff");
+		$(".body_container").css("background" , "#F5EEDE");
+		$(".m-body, .m-title, .title_info").css("color", "#614D1D");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#F5EEDE");
+		$("#article_toolbar").css("border-color","#E4D0A3");
+		$("#artplan").addClass("sepya");
+		$(".article-plan-buttons").addClass("sepya");
+		$(".hdrprt1").addClass("sepya");
+		$(".hdrprt1arrows").addClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").addClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down-sepya.png")
+		$(".article-left-bar").css("background","#f5eede");
+	});
+
+	$('#pagecolorWhite').click(function(){
+		$(".body_container").css("background" , "#fff");
+		$("body").css("background", "#f1f4f4");
+		$(".m-body, .m-title, .title_info").css("color", "#333");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#f4f1f1");
+		$("#article_toolbar").css("border-color","#ededed");
+		$("#artplan").removeClass("sepya");
+		$(".article-plan-buttons").removeClass("sepya");
+		$(".hdrprt1").removeClass("sepya");
+		$(".hdrprt1arrows").removeClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").removeClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png");
+		$(".article-left-bar").css("background","#fff");
+	});
+	$('#txtdown').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) + 1;
+		var nlh = parseInt(lh) + 2;
+		if(fs <= '23'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		// set_public_cookie('reader', nfs + 'px,' + nlh + 'px')
+	});
+	$('#txtup').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) - 1;
+		var nlh = parseInt(lh) - 2;
+		if(fs >= '17'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		//set_public_cookie('reader', nfs + 'px,' + nlh + 'px');
+	});
+	$('.icon-align-left').click(function(){
+		$('.m-content').css({"text-align" : "left"});
+		set_public_cookie("aa=left");
+	});
+	$('.icon-align-justify').click(function(){
+		$('.m-content').css({"text-align" : "justify"});
+		set_public_cookie("aa=justify");
+	});
+	/* article toolbar functioms */
+
+
+	$('#printbody').click(function(){
+		$('#m-body').print({
+		globalStyles: true,
+		mediaPrint: false,
+		stylesheet: null,
+		noPrintSelector: ".no-print",
+		iframe: true,
+		append: null,
+		prepend: null,
+		manuallyCopyFormValues: true,
+		deferred: $.Deferred(),
+		timeout: 750,
+		title: null,
+		doctype: '<!doctype html>'
+	   	});
+	});
+
+	$('.printPart').click(function() {
+        const printButton = $(this);
+        const printPart = $('<div class="article-parts"></div>');
+
+        const articlePart = printButton.closest('.article-part');
+        printPart.append(articlePart.clone());
+
+        let pdfPartUrl = '';
+                pdfPartUrl = 'https://islamansiklopedisi.org.tr/turkmenistan#' + articlePart.attr('id').substring(1);
+        
+        const pdfLink = $('<a></a>')
+            .attr('href', pdfPartUrl)
+            .text(pdfPartUrl.replace('https://', ' '));
+
+        const header = $('<div style="border-bottom: 1px solid #ddd; margin-bottom: 30px; padding-bottom: 10px;"></div>');
+                const partText = articlePart.find('.partnumbers').data('tipso') + 'dür. ';
+        header.append(partText);
+        
+        header.append('Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için: ');
+        header.append(pdfLink);
+
+        const bodyContainer = $('<div class="centered body_container body_pad_article" style="margin-top: 15px;"></div>');
+        bodyContainer.append(header);
+
+        const articleTitle = $('.article_header_container');
+        bodyContainer.append(articleTitle.clone())
+
+		const mBody = $('<div class="m-body"></div>');
+        mBody.append(printPart);
+        bodyContainer.append(mBody);
+
+        const body = $('<body></body>');
+        body.append(bodyContainer);
+
+		body.print({
+            globalStyles: true,
+            mediaPrint: true,
+            stylesheet: null,
+            noPrintSelector: ".no-print",
+            iframe: true,
+            append: null,
+            prepend: null,
+            manuallyCopyFormValues: true,
+            deferred: $.Deferred(),
+            timeout: 750,
+            title: null,
+            doctype: '<!doctype html>'
+	   	});
+	});
+
+
+/* search autocomplete events */
+	var delay = (function(){
+	  var timer = 0;
+	  return function(callback, ms){
+		clearTimeout (timer);
+		timer = setTimeout(callback, ms);
+	  };
+	})();
+	$('#searchBox1').keyup(function() {
+		delay(function(){
+		var typed = $.trim($('#searchBox1').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box1").hide();
+			$("#auto-suggest-loading1").hide();
+
+		}
+		}, 1000 );
+	});
+
+	function autocomplete(typed)
+	{
+		$("#auto-suggest-content1").html('');
+		$("#auto-suggest-box1").show();
+		$("#auto-suggest-loading1").show();
+
+		$.ajax({
+			url: "/ajax_search_auto.php?q=" + typed,
+			cache : false,
+			success: function(result){
+				if(result.trim() == "")
+				{
+					$("#auto-suggest-box1").hide();
+					$("#auto-suggest-loading1").hide();
+				}else{
+					$("#auto-suggest-loading1").hide();
+					$("#auto-suggest-content1").html(result);
+				}
+			}
+		});
+	}
+
+	/* atif */
+	$('.atif-btn').click(function(){
+		$(this).parent().parent().parent().parent().find('.atif-kutusu').slideToggle();
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".atif-kutusu");
+		var inputbox = $(".atif-btn");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+			resultbox.hide();
+			$('.ak-list').show();
+			$('.ak-copytext').hide();
+			$('.ak-copy span').text('Kopyalama metni');
+		}
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $("#auto-suggest-box1");
+		var inputbox = $("#searchBox1");
+		if (!resultbox .is(e.target)  && resultbox .has(e.target).length === 0 && !inputbox .is(e.target)){
+			resultbox.hide();}
+	});
+
+    jQuery('.sticky-content, .sticky-sidebar').theiaStickySidebar({
+        additionalMarginTop: 30
+    });
+
+});
+
+</script>
+
+

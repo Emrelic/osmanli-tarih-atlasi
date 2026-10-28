@@ -42,7 +42,7 @@ window.EKOKUMA_DALGA2 = [
   bag:"İki anlatı aynı şeyi ölçmüyor. Vakfiyeler bir belge tarihidir ve 1324'ü destekler; ölümün Bursa kuşatmasına bağlanması kronik geleneğinden gelir. Hastalanıp işleri çoktan oğluna bırakmış bir bey için \"Bursa'yı gördü\" demek de \"görmeden öldü\" demek de ayrı iddialardır. Kronolojideki iki kayıt bu ayrımı yan yana taşır: vefat kaydı 1324'ü, Bursa'nın fethi kaydı ise rivayeti verir.", ic_not_bag:"eski: Atlastaki iki madde bu ayrımı yan yana taşıyor: vefat maddesi 1324'ü, Bursa maddesi ise rivayeti veriyor.",
   not:"Fetih haberinin ölüm döşeğindeki Osman'a ulaştırıldığı ayrıntısı TDV'nin Osman I, Orhan ve Bursa maddelerinde geçmez; bu maddeler yalnız \"öldüğünde Orhan Bursa'yı kuşatıyordu\" rivayetini aktarır.", ic_not_not:"eski not: Bursa maddesindeki \"fetih haberi ölüm döşeğindeki Osman'a ulaştırıldı\" ayrıntısı okunan TDV gövdelerinde (osman-i · orhan · bursa) geçmiyor; TDV yalnız \"öldüğünde Orhan Bursa'yı kuşatıyordu\" rivayetini aktarıyor.",
   kesinlik:"tartismali",
-  olay:["1324-08-01", "1326-04-06"],
+  olay:["1324-01-01|vefatı", "1326-04-06"], ic_not_olay:"KUTU-H7-1015 (0073/H-0017): bağ 1324-08-01 idi; madde 1324-01-01'e çekilmişti (TDV osman-i: 'Osman 724'te (1324) ölmüştür', ay/gün yok) — bağ maddeye taşındı.",
   kaynak:"TDV: osman-i (Halil İnalcık; Asporça ve Mekece vakfiyeleri, defin) · orhan (Halil İnalcık; İbn Battûta çıkarımı)" },
 
 // ── 2 · 1326-04-06 Bursa'nın fethi ─────────────────────────────────────────

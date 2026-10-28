@@ -13,6 +13,9 @@
 //    çalıştırılıyor. Kopyalasaydım iki tanım doğar ve bir gün ayrışırlardı
 //    (`§11`: "bir bilgi iki yerde duruyorsa biri güncellenince öteki bayatlar").
 'use strict';
+// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
+// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
+require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js", "data/donemler.js"]);
 const fs = require('fs');
 const path = require('path');
 

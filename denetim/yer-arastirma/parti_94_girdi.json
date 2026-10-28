@@ -1,0 +1,679 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Celûlâ",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    637,
+    637
+   ],
+   "ornek_maddeler": [
+    "0637-01-02 Celûlâ Savaşı: Sâsânî ordusu bir kez daha yenildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 34.186388,
+      "lon": 45.118333,
+      "kaynak": "Pleiades 894013"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Jalula, Jalulaa; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Peluzyum",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    640,
+    640
+   ],
+   "ornek_maddeler": [
+    "0640-01-01 Amr b. Âs Mısır'a girdi ve Feremâ'yı aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.0426270897,
+      "lon": 32.5471045497,
+      "kaynak": "Pleiades 727192"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Pelusium; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Gaochang",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    640,
+    640
+   ],
+   "ornek_maddeler": [
+    "0640-01-01 Tang orduları Gaochang (Turfan) krallığını yıktı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.8550461114,
+      "lon": 89.5285986529,
+      "kaynak": "Pleiades 999273476"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Pelusium",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    640,
+    640
+   ],
+   "ornek_maddeler": [
+    "0640-01-02 Amr b. Âs Mısır seferine çıktı; sınır kasabası Feremâ alındı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.0426270897,
+      "lon": 32.5471045497,
+      "kaynak": "Pleiades 727192"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Babilon Kalesi",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    641,
+    641
+   ],
+   "ornek_maddeler": [
+    "0641-01-01 Babilon Kalesi fethedildi; deltanın güneyle bağlantısı kesildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 40.69566,
+      "lon": -73.32568,
+      "kaynak": "GeoNames 5107612 Babylon"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Babilon",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    641,
+    641
+   ],
+   "ornek_maddeler": [
+    "0641-04-09 Babilon (Bâbliyûn) kalesi yedi aylık kuşatmadan sonra düştü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 40.69566,
+      "lon": -73.32568,
+      "kaynak": "GeoNames 5107612 Babylon"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Partav",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    645,
+    645
+   ],
+   "ornek_maddeler": [
+    "0645-01-01 Selmân b. Rebîa ve Habîb b. Mesleme Arrân’ın başşehri Berdea’yı fethet"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 40.37577,
+      "lon": 47.12619,
+      "kaynak": "GeoNames 587057 Barda"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Mâskin",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    691,
+    691
+   ],
+   "ornek_maddeler": [
+    "0691-01-01 Abdülmelik Irak'ı aldı; Zübeyrî yönetimindeki Mus‘ab b. Zübeyr öldürül"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.902289,
+      "lon": 44.355518,
+      "kaynak": "Pleiades 894150"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Tokmok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    748,
+    748
+   ],
+   "ornek_maddeler": [
+    "0748-01-01 Çin komutanı Kao Hsien-chih Tokmok'u alarak Batı Türkistan'a ilerledi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.84194,
+      "lon": 75.30149,
+      "kaynak": "GeoNames 1527199 Tokmok"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Nezvâ",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    750,
+    750
+   ],
+   "ornek_maddeler": [
+    "0750-01-02 Uman'da İbâzîler Cülendâ b. Mes‘ûd'u imam seçti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 22.93333,
+      "lon": 57.53333,
+      "kaynak": "GeoNames 286987 Nizwá"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Nizwa, Nazwa; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Safsâf",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    797,
+    797
+   ],
+   "ornek_maddeler": [
+    "0797-03-05 Hârûnürreşîd bizzat sefere çıkıp Safsâf Kalesi'ni aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 32.777725,
+      "lon": 21.9491913,
+      "kaynak": "Pleiades 373884"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Amorion",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    838,
+    838
+   ],
+   "ornek_maddeler": [
+    "0838-08-12 Amorion (Ammûriye) Abbâsîler'e geçti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 39.0201828675,
+      "lon": 31.295562595,
+      "kaynak": "Pleiades 609302"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Koço",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    840,
+    840
+   ],
+   "ornek_maddeler": [
+    "0840-01-01 Uygur boylarından bir kısmı Turfan-Beşbalık'ta Mengli'yi kağan seçip y"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.8550461114,
+      "lon": 89.5285986529,
+      "kaynak": "Pleiades 999273476"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Gaochang, Qocho, Karakhoja; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Kao-ch'ang",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    840,
+    840
+   ],
+   "ornek_maddeler": [
+    "0840-01-01 Uygur boylarından bir kısmı Turfan-Beşbalık'ta Mengli'yi kağan seçip y"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.8550461114,
+      "lon": 89.5285986529,
+      "kaynak": "Pleiades 999273476"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Gaochang, Qocho; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Ebher",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    924,
+    924
+   ],
+   "ornek_maddeler": [
+    "0924-03-18 Yûsuf b. Ebü’s-Sâc Ebher-Zencan arasında Sâmânî valisini yenip Rey’e h"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.1468,
+      "lon": 49.218,
+      "kaynak": "GeoNames 145034 Abhar"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Abhar; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Büst",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    977,
+    977
+   ],
+   "ornek_maddeler": [
+    "0977-01-01 Sebük Tegin Büst'i alıp Togan Tegin'i yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 31.5024985794,
+      "lon": 64.3566157195,
+      "kaynak": "Pleiades 310634609"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 2 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Fâzâz",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1223,
+    1223
+   ],
+   "ornek_maddeler": [
+    "1223-01-01 Merînîler Fâzâz bölgesini ele geçirdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.58662,
+      "lon": 37.04628,
+      "kaynak": "GeoNames 172082 I‘zāz"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Azaz, Hazaz; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Tâmesnâ",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1262,
+    1262
+   ],
+   "ornek_maddeler": [
+    "1262-01-01 Ebû Yûsuf Ya'kūb Muvahhidler'i yenip Tâmesnâ ve Rif'i Merînî topraklar"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 33.81809,
+      "lon": -6.91658,
+      "kaynak": "GeoNames 8299790 Tamesna"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Rif",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1262,
+    1262
+   ],
+   "ornek_maddeler": [
+    "1262-01-01 Ebû Yûsuf Ya'kūb Muvahhidler'i yenip Tâmesnâ ve Rif'i Merînî topraklar"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.77247,
+      "lon": -112.08409,
+      "kaynak": "GeoNames 5545710 Richfield"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Masvingo",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1100,
+    1100
+   ],
+   "ornek_maddeler": [
+    "1100-01-01 Büyük Zimbabve'de taş yapıların inşası başladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -20.06373,
+      "lon": 30.82766,
+      "kaynak": "GeoNames 886763 Masvingo"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Georgia",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1100,
+    1100
+   ],
+   "ornek_maddeler": [
+    "1100-01-01 Etowah (Georgia) Orta Mississippi evresinde bölgenin en büyük reislik "
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.291066,
+      "lon": 35.802464,
+      "kaynak": "Pleiades 658471"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Alabama",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1120,
+    1120
+   ],
+   "ornek_maddeler": [
+    "1120-01-01 Moundville (Alabama) Mississippi döneminde yaklaşık 1120'de kuruldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 43.09645,
+      "lon": -78.39086,
+      "kaynak": "GeoNames 5106870 Alabama"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Ergani",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1144,
+    1144
+   ],
+   "ornek_maddeler": [
+    "1144-01-01 Zengî İnaloğullarından Ergani, Hâlâr, Tulhum ve Çermük'ü aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.26899,
+      "lon": 39.75446,
+      "kaynak": "GeoNames 315468 Ergani"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Gainsborough",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1013,
+    1013
+   ],
+   "ornek_maddeler": [
+    "1013-01-01 Danimarka kralı Sven Çatalsakal İngiltere'yi fetheder, kral kabul edil"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 53.38333,
+      "lon": -0.76667,
+      "kaynak": "GeoNames 2648945 Gainsborough"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Bautzen",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1018,
+    1018
+   ],
+   "ornek_maddeler": [
+    "1018-01-01 Bautzen Barışı: Lusatia ve Meissen sınır bölgeleri Polonya'ya bırakıld"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Pleiades adayları yerleşim değil (Bautzen:cemetery)"
+    }
+   ]
+  },
+  {
+   "ad": "Vienne",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1032,
+    1032
+   ],
+   "ornek_maddeler": [
+    "1032-09-06 III. Rudolf ölür; Burgonya (Arles) Krallığı II. Konrad'a, Kutsal Roma'"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Aynı ad birden çok uzak yerde (GeoNames): Vienna 48.20849,16.37208; Vienne 45.52569,4.87484"
+    }
+   ]
+  },
+  {
+   "ad": "Tmutorakan",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1036,
+    1036
+   ],
+   "ornek_maddeler": [
+    "1036-01-01 Mstislav'ın ölümüyle Yaroslav Kiev Rus'unu yeniden birleştirdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 4 aday: Taman -6.91391,109.41045; Daman 20.41431,72.83236; Tamán 21.23216,-98.87945; Taman 45.2117,36.71609 [ALIAS eşlemesi: Tmutarakan, Tamatarkha, Taman; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Kulumriye",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1064,
+    1064
+   ],
+   "ornek_maddeler": [
+    "1064-01-01 Aragon öncülüğünde Haçlı ordusu Barbastro'yu aldı; Coimbra da düştü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Coimbra -20.85667,-42.80278; Coimbra 40.20686,-8.41996 [ALIAS eşlemesi: Coimbra, Colimbria; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Trogir",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1105,
+    1105
+   ],
+   "ornek_maddeler": [
+    "1105-01-01 Zadar ve Dalmaçya şehirleri Koloman'ın hâkimiyetini tanıdı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 43.5125,
+      "lon": 16.25167,
+      "kaynak": "GeoNames 3188763 Trogir"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Tinchebrai",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1106,
+    1106
+   ],
+   "ornek_maddeler": [
+    "1106-09-28 Tinchebrai Muharebesi: İngiltere kralı I. Henry Normandiya'yı alır"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 48.76437,
+      "lon": -0.73333,
+      "kaynak": "GeoNames 2972555 Tinchebray"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Tinchebray; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  }
+ ]
+}

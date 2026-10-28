@@ -43,6 +43,7 @@ import json
 import math
 import os
 import re
+import gun as _gun     # C3: tarih KIYASI gün sayacıyla (dizgi MÖ'de ters)
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
@@ -229,6 +230,18 @@ BILINEN_ALANLAR = {
     # tarihinin KAYNAK cümlesi. Blanket değil — muaf sayı denetle.py'de tavan.
     "devir_beyani": "kur: öncesi dönemler bölge vekili, devir beklenir — değer: kur:'un "
                     "kaynak cümlesi. Okuyan: denetle.py Değişmez 5a (motor OKUMAZ)",
+    # 🔴 `dogrulanmadi` — KAYIT DÜZEYİNDE "bu kaydın bir iddiası doğrulanamadı" beyanı.
+    # Veride ZATEN CANLI ve BİR kayıtta var (`yerlesimler_ek29.js` Deyrülkamer: `dogrulanmadi:true`,
+    # `neden:` hangi iddianın doğrulanmadığını söylüyor — 'başkent' sıfatı yalnız Wikipedia'da).
+    # Kütükte yoktu ⇒ `renk_olc.py`/`girdi.yukle()` her yüklemede "BILINEN_ALANLAR'da yok" UYARISI
+    # basıyordu: doğru davranış, hatalıymış gibi görünüyordu (`kaynak` 16 Ağustos, `neden` 3 Ağustos
+    # ve `devir_beyani` vakalarının aynısı: kural/veri yazılmış, ALET güncellenmemişti).
+    # ⚠️ Bir alanı buraya eklemek "motor/kapı bunu okuyor" demek DEĞİLDİR, "varlığından haberdarım"
+    # demektir. Bugün bu alanı HİÇBİR kapı okumuyor (ölçüldü); değeri `true` ise gerekçe `neden:`dedir.
+    # `data/hukuki_sinirlar.js`teki `dogrulanmadi` AYRI bir şemadır (sınır köşe noktası), buna girmez.
+    "dogrulanmadi": "True ise kaydın `neden:`de adı geçen iddiası kaynakça ile DOĞRULANAMADI — "
+                    "kayıt/nokta/dönemler kaynaklı kalır, yalnız o sıfat/iddia belirsizdir. "
+                    "Okuyan: yok (yalnız bilinen-alan uyarısını susturur)",
     # 🔴 kd: — `k:` ve `m:`nin ZAMANLI hâli (`ALTYAPI ④`, `VERI-YAPISI §kd`)
     #   kd:[{f,t,k,m}, …]  —  "şu tarihten şu tarihe kademe K, merkez M"
     # NİÇİN: bugün bir yerleşim bütün tarih boyunca TEK merkeze bağlı; bu
@@ -672,7 +685,7 @@ def kd_oku(y):
 def kd_gun(y, gun):
     """O GÜN geçerli (k, m) — yoksa (0, None). Zaman boyutunun tek kapısı."""
     for p in kd_oku(y):
-        if p.get("f", "") <= gun < p.get("t", "9999"):
+        if _gun.gun(p.get("f") or "-99999") <= _gun.gun(gun) < _gun.gun(p.get("t") or "99999"):
             return p.get("k") or 0, p.get("m")
     return 0, None
 
@@ -685,11 +698,20 @@ def kd_gun(y, gun):
 # Natural Earth Aral'ı kuruma SONRASI iki artık parça olarak taşıyor; oysa
 # 1281-1923 boyunca ~68.000 km²'lik tek göldü. Motor farkı bilmediği için
 # gölün yerini KARA sayıyor ve en yakın petek oraya emiliyor (MIMARI.md §2).
-# ⚠️ ZAMAN BOYUTU YOK: motorun GOLLER birleşimi statiktir. Bu yüzden
-# `gecerli` penceresi atlasın ufkunu KAPSAMIYORSA kayıt ALINMAZ — dar
-# pencereli bir gölü statik uygulamak, düzeltmeye çalıştığı anakronizmin
-# aynısını üretir. Zamana bağlı göl gerekirse önce motorda epok desteği
-# (petek_epok deseni) kurulmalı.
+# ⚠️ ZAMAN BOYUTU YOK: motorun GOLLER birleşimi statiktir (uret_petek.py
+# `KARA = KARA.difference(GOLLER)` — TEK sefer, kesitten bağımsız; `gecerli`
+# motorda HİÇ okunmaz, ölçüldü ZAMAN-Z1-1008).
+# 🔴 ZAMAN-Z1-1008 — test KAPSAMA'dan ÖRTÜŞME'ye çevrildi (koordinatör hipotezi
+#   (c), koddan doğrulandı). Eski kural "`gecerli` UFUK'u KAPSAMIYORSA ALMA"
+#   idi; ufuk 1000-1945'e açılınca Aral'ın `1281→1923` penceresi kapsamadı ve
+#   göl BÜTÜN yıllarda KARA oldu (ölçüldü). Statik motorda iki hata da
+#   kaçınılmazdır; seçilen, AZ olanıdır:
+#     KAPSAMA  geçerli olduğu yıllarda da göl YOK  (her ufuk açılışında sessizce düşer)
+#     ÖRTÜŞME  geçerli OLMADIĞI yıllarda da göl VAR (ufuk açılışından etkilenmez)
+#   Ve `gecerli` uçları çoğu zaman ölçüm değil UFUK DAMGASIDIR (Aral 1281/1923).
+#   ⚠️ Kısmi örtüşme SESSİZ DEĞİL: dışarıda kalan dilim adıyla basılır.
+#   Hiç örtüşmeyen kayıt yine ALINMAZ. Zamana bağlı göl için motorda epok
+#   desteği (petek_epok deseni) gerekir — o gün bu test kalkar.
 GOL_DOSYASI = "goller.js"
 # 🆕 GEÇİTLER (UYGULA, 16 Eylül 2026 · MOTOR'un M-3994 notu üzerine) —
 # uret_petek.py (3581661) koşu başında `data/gecitler.js`i okuyor, ama bu
@@ -702,7 +724,45 @@ GOL_DOSYASI = "goller.js"
 # ⚠️ İz KÜMESİ değişti: bu satırdan önce alınmış bir koşu izi, yayın
 #    kapısında "girdi DOSYA KÜMESİ değişmiş: gecitler.js" der (denetle_yayin).
 GECIT_DOSYASI = "gecitler.js"
-UFUK = ("1281-01-01", "1923-10-29")
+# 🔴 ZAMAN-Z1-1008 (Emre 8 Ekim: 1281 öncesi + 1923 sonrası) — İKİ AYRI UFUK.
+#   UFUK       MOTOR + ARAYÜZ penceresi: hangi günler örneklenir / gösterilir.
+#              Motor `EPOK`u ve bitiş nöbetçisini BURADAN türetir (uret_petek.py);
+#              arayüzün BASLANGIC/BITIS'i (js/app.js) AYNI değerleri taşır.
+#   VERI_UFKU  verinin TAM yazıldığı pencere. Uçları ÖLÇÜM DEĞİL SINIR İŞARETİDİR
+#              (D210): 2.522 `s:` dönemi tam `1281-01-01`de başlar, 4.094'ü tam
+#              `1923-10-29`da biter — atlasın eski kapısı, el değiştirme değil.
+#              Denetim bu iki günü KIRILMA SAYMAZ ve Değişmez 1'i bu pencerede
+#              sorar. Z5/Z6 veriyi uzattıkça GENİŞLER; UFUK'tan ayrı oynar.
+# ⚠️ İkisini birleştirmek: ya (dar) yeni pencere hiç örneklenmez, ya (geniş)
+#   4.094 sınır işareti birden "sessiz toprak kaybı" olur (Değişmez 2s).
+# ⚠️ Tarihler DİZGİ karşılaştırılır: yıl 4 hane olmalı (1000 güvenli; <1000
+#   için sıfır doldurma, MÖ için motor yaması — ONCE1281-MOTOR-UFUK-1004 §1.2).
+UFUK = ("-11999-01-01", "2000-12-31")   # MÖ 12000 (astronomik -11999) .. MS 2000
+VERI_UFKU = ("1281-01-01", "2000-12-31")
+# 🔴 UFUK DAMGASI (ZAMAN-GENİŞ-1008, koordinatör hükmü) — TEK TANIM, buradan okunur.
+#   UFUK ve VERI_UFKU'nun uç günleri (bugün 1000-01-01 · 1281-01-01 ·
+#   1923-10-29 · 1945-09-02): bu günlere yazılmış tarih bir el değiştirme
+#   DEĞİL, pencerenin KAPISIDIR (D210) ⇒ KIRILMA SAYILMAZ (`denetle.kirilma_disi`).
+#   Veride bu günü bilerek yazan kayıt (künye `t:"1945-09-02"`, göl `gecerli`)
+#   yorumunda bu ADI anar: "UFUK DAMGASI". Uçlar değişirse damga KENDİLİĞİNDEN
+#   değişir — ayrı liste tutulmaz.
+UFUK_DAMGASI = frozenset(UFUK) | frozenset(VERI_UFKU)
+
+
+def ufuk_devirleri():
+    """UFUK − VERI_UFKU: verisi henüz TAM yazılmamış devirler, [(ad, f, t)].
+
+    ZAMAN-GENİŞ-1008 kovalarının (Değişmez 1 KAPSAM DIŞI · odak VERİ PENCERESİ
+    DIŞI) TEK evren tanımı. VERI_UFKU genişledikçe daralır; UFUK'a eşitlenince
+    boş liste döner ve kovalar KENDİLİĞİNDEN kapanır. `t` HARİÇ (yarı açık).
+    UFUK'un KENDİSİNİN dışı (ör. 0900) hiçbir devire düşmez — kampanya
+    bitse de çözülmez, kovaya girerse kalıcı istisna olur."""
+    d = []
+    if _gun.gun(UFUK[0]) < _gun.gun(VERI_UFKU[0]):
+        d.append(("geri", UFUK[0], VERI_UFKU[0]))
+    if _gun.gun(VERI_UFKU[1]) < _gun.gun(UFUK[1]):
+        d.append(("ileri", VERI_UFKU[1], UFUK[1]))
+    return d
 
 
 def oku_goller(sessiz=False):
@@ -718,11 +778,18 @@ def oku_goller(sessiz=False):
     alinan = []
     for g in _cevir(js, m.group(1)):
         gec = g.get("gecerli") or {}
-        if gec.get("f", UFUK[0]) > UFUK[0] or gec.get("t", UFUK[1]) < UFUK[1]:
-            print(f"  UYARI göl: '{g.get('ad')}' yalnız {gec.get('f')}→"
-                  f"{gec.get('t')} arası geçerli, motor statik göl kullanıyor "
-                  f"— ATLANDI (zamana bağlı göl için epok desteği gerekir)")
+        gf, gt = gec.get("f", UFUK[0]), gec.get("t", UFUK[1])
+        if _gun.gun(gf) >= _gun.gun(UFUK[1]) or _gun.gun(gt) <= _gun.gun(UFUK[0]):          # ÖRTÜŞME YOK ⇒ alınmaz
+            print(f"  UYARI göl: '{g.get('ad')}' {gf}→{gt} UFUK {UFUK[0]}→{UFUK[1]} "
+                  f"ile HİÇ örtüşmüyor — ATLANDI")
             continue
+        if _gun.gun(gf) > _gun.gun(UFUK[0]) or _gun.gun(gt) < _gun.gun(UFUK[1]):            # KISMİ — statik uygulanır, adıyla
+            _dis = [x for x in ((UFUK[0], gf) if _gun.gun(gf) > _gun.gun(UFUK[0]) else None,
+                                (gt, UFUK[1]) if _gun.gun(gt) < _gun.gun(UFUK[1]) else None) if x]
+            if not sessiz:
+                print(f"  ⓘ göl KISMİ: '{g.get('ad')}' {gf}→{gt}; motor statik — "
+                      f"şu dilimlerde de UYGULANDI: "
+                      f"{' · '.join(a + '→' + b for a, b in _dis)}")
         alinan.append(g)
     if not sessiz and alinan:
         print(f"  {GOL_DOSYASI}: {len(alinan)} tarihî göl düzeltmesi "

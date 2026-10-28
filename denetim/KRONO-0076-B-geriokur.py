@@ -3,10 +3,10 @@
 import io, json, sys, os
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-kaynak = r"C:\atlas\denetim\KRONO-0076-B-mesaj1.txt"
+kaynak = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "KRONO-0076-B-mesaj1.txt")
 gonderilen = open(kaynak, encoding="utf-8").read()
 
-d = json.load(open(r"C:\atlas\oturumlar\tahta.json", encoding="utf-8"))
+d = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "oturumlar", "tahta.json"), encoding="utf-8"))
 ms = d["mesajlar"] if isinstance(d, dict) and "mesajlar" in d else d
 
 hedef = None

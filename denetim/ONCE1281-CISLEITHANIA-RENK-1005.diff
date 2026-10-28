@@ -1,0 +1,12 @@
+diff --git a/arac/renkler.py b/arac/renkler.py
+index 09c753da..06e040f6 100644
+--- a/arac/renkler.py
++++ b/arac/renkler.py
+@@ -3107,6 +3107,7 @@ BOYALAR = {
+     # SESSIZ-BORC-2 19 Eyl 2026 (M-4612/M-4624) — sessiz borçtan veriye inen 4 kimlik;
+     # `py arac/renk_olc.py --oner` önerisi (denetim/oneri-20260919-090639.txt).
+     "avusturya-cumhuriyet":    ("Avusturya Cumhuriyeti (I. Cumhuriyet)", "#d2d224"),
++    "itilaf-emaneti":          ("Müttefik emaneti (Saint-Germain md. 91)", "#9e9e9e"),  # ONCE1281-CISLEITHANIA-1005 — nötr gri: egemen DEVLET değil, emanet; renk_olc.py ile sınanmalı
+     "mora-despotlugu":         ("Mora Despotluğu",                    "#e41ec0"),
+     "hersek":                  ("Hersek (Kosača Dukalığı)",           "#24c6d8"),
+     "prusya-dukaligi":         ("Prusya Dükalığı",                    "#ba24d2"),

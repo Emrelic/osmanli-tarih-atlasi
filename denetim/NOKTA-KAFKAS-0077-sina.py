@@ -76,3 +76,4 @@ k = sina(benim, hepsi)
 print("kusur:", len(k))
 for s in k:
     print("  ", s)
+sys.exit(1 if k else 0)   # çıkış kodu: 0 temiz · 1 kusur (CLAUDE.md §3)

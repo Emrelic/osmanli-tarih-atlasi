@@ -54,7 +54,13 @@ import os
 import re
 import sys
 
-sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
+# 🔴 Yalnız `reconfigure`u olan akış yapılandırılır. Bu modülü içe aktaran
+# biri stdout'u `contextlib.redirect_stdout(io.StringIO())` ile yönlendirdiyse
+# `StringIO`da `reconfigure` YOKTUR ⇒ içe aktarım AttributeError ile düşüyor,
+# `_bagli_mi.index_dosyalari()` onu yutuyor ve katman evreni 13/184/2/1 yerine
+# 0/22/0/0 çıkıyordu (DURUM-TABLOSU-YUTMA-1009 ölçtü).
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDEX = os.path.join(KOK, "index.html")
@@ -172,15 +178,18 @@ def _govde_kur(no, kaynaklar):
 
 def _paket_yaz(no, kaynaklar):
     """Paketi diske yaz, künye kaydını döndür."""
+    # 🔴 "bayt" da sha gibi DÜZLENMİŞ içerikten (`_duzle`) sayılır (6 Ekim 2026):
+    # ham boyut core.autocrlf=true makinede CRLF'li sayılıyordu ⇒ içerik aynıyken
+    # künyede 222 satır makineden makineye oynuyordu. Künye makineden bağımsızdır.
     kayit = [{"yol": y, "sha": _sha(_oku_ham(y)),
-              "bayt": len(_oku_ham(y))} for y in kaynaklar]
+              "bayt": len(_duzle(_oku_ham(y)))} for y in kaynaklar]
     govde = _govde_kur(no, kaynaklar)
     ad = "%s%02d.js" % (PAKET_ONEK, no)
     with io.open(os.path.join(KOK, ad.replace("/", os.sep)), "w",
                  encoding="utf-8", newline="\n") as f:
         f.write(govde)
     return {"paket": ad, "kaynak": kayit,
-            "bayt": len(govde.encode("utf-8"))}
+            "bayt": len(_duzle(govde.encode("utf-8")))}
 
 
 # ---------------------------------------------------------------------------

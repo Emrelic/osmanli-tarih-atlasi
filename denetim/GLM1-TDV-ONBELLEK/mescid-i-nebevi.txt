@@ -1,0 +1,2445 @@
+﻿         
+
+
+
+
+<!DOCTYPE html>
+<html lang="tr" class="no-js">
+	<head>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(66550639, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/66550639" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160819951-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-160819951-1');
+		</script>
+        		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Medine’de içerisinde Hz. Peygamber’in kabrinin de bulunduğu mescid."><meta property="og:url" content="/mescid-i-nebevi"><meta property="og:site_name" content="TDV İslâm Ansiklopedisi"><meta property="og:title" content="MESCİD-i NEBEVÎ - TDV İslâm Ansiklopedisi"><meta property="og:type" content="website"><meta property="og:description" content="Medine’de içerisinde Hz. Peygamber’in kabrinin de bulunduğu mescid."><meta property="og:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@TDV_ISAM"><meta property="twitter:title" content="MESCİD-i NEBEVÎ - TDV İslâm Ansiklopedisi"><meta property="twitter:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:description" content="Medine’de içerisinde Hz. Peygamber’in kabrinin de bulunduğu mescid.">		<title>MESCİD-i NEBEVÎ - TDV İslâm Ansiklopedisi</title>
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.core.css?ver=22">
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.design.css?ver=26" />
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/all.min.css" />
+		<link rel="shortcut icon" type="image/png" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-favico-v3.ico"/>
+		<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.min.213.js"></script>
+		<script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/modal.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/ResizeSensor.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/theia-sticky-sidebar.min.js"></script>
+				
+	</head>
+
+<body>
+
+<style>
+
+
+
+#topnewst{
+	position: fixed;
+	top: 0;
+    background: #FF8951;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #fff;
+	height:45px;
+	line-height:45px;
+	z-index: 1199;
+	font-weight:bold;
+	letter-spacing:0.02rem;
+}
+#topnewst a{color:#fff; text-decoration:underline !important;}
+
+#volume-list {display:none; }
+
+#letter-lisst { position: absolute; margin-top:-2px; z-index:-10; background:#fff; padding-top:10px; border:2px solid #ccc}
+
+#letter-list a { text-align:center; text-decoration:none; float:right}
+.azcontainer{width:100px;}
+.minict_wrapper ul li:hover{background:#ededed;}
+
+.menu-top-left{text-align:left !important;}
+#searc-complete-result{list-style:none; margin:0px; padding:0px;}
+
+#searc-complete-result li{
+	float:none;
+	line-height:19px;
+	margin:0px !important;
+	padding: 13px 2px !important;
+	border-bottom: 1px solid #efe9e9;
+	border-top:none;
+}
+#searc-complete-result a{text-decoration:none;}
+#searc-complete-result li .sr-title{color:#0093B0; font-weight:bold}
+#searc-complete-result li .sr-desc{color:#666;}
+#searc-complete-result li:hover{background:#f1f4f4;}
+#auto-suggest-loading{height:45px;}
+#auto-suggest-loading1{height:45px;}
+#searchBox1{width: 90%;}
+.logged_user{border-top:2px solid #ddd;}
+
+/* header buyutme */
+
+.header_logo img{height:58px !important;}
+
+
+.hover-menu ul li:hover{background:rgb(236, 230, 230, 0.60);}
+#albhabet_button:hover{color:#666 !important;}
+#cilt_button:hover{color:#666 !important;}
+.hover-menu ul li{text-align:left !important;}
+#auto-suggest-box{width:490px; top:50px !important; border:none; background-color:#f4f1f1; left:0px !important}
+#searc-complete-result{margin-top:14px; line-height:19px;}
+
+#searc-complete-result > a:first-child li{border-top: 2px solid #bdb7b7 !important; padding-top: 25px !important; padding-left:2px !important; padding-right:2px !important;}
+#searc-complete-result a.selected li{background:#e6e6e6 !important;}
+
+body{margin-top:60px;}
+
+#searchBox::-ms-clear {
+    display: none;
+}
+
+.hover-menu ul a li{color:#666;}
+.hover-menu ul a:hover li{color:#000;}
+
+#searc-complete-result{margin:3px 12px 0 12px !important;}
+#searc-complete-result > a:first-child li{padding: 13px 2px !important; border-top:2px solid #ddd !important}
+.sr-title{font-size:0.98rem !important;}
+.sr-desc{font-size:0.95rem !important;}
+.sr-old{color: #9d9d9d; font-size:0.75rem !important;}
+#auto-suggest-box{min-height:125px !important; border: 2px solid rgb(93, 182, 213); border-top:none; background:#fff; border-radius:3px}
+#searc-complete-result > div.no-res{ padding:20px 0px 50px 5px; color:#666}
+
+#searc-complete-result .at-line{position:relative; padding-left:5px;}
+#searc-complete-result .at-line .author-photo{height:35px; border-radius:2px}
+#searc-complete-result .at-line .icon-user{font-size: 31px; color: #ddd; padding-right: 4px;}
+#searc-complete-result .at-line .author-title{position: absolute; top: -3px; padding-left: 10px; color: #0093B0; font-weight: bold;}
+#searc-complete-result .at-line .author-field{position: absolute; top: 15px; padding-left: 10px; font-size:15px; color:#999}
+
+#searc-complete-result .author-photo{height:30px;}
+
+.as-tabs div.as-m.act, .as-tabs div.as-y.act{}
+.as-tabs div.as.psv{cursor:pointer;}
+.as-tabs div.as img.ic{height:20px;}
+.as-tabs div.as.psv img.ic{opacity:0.4}
+.as-tabs div.as.psv img.ic:hover{opacity:1}
+.as-tabs div.as.psv img.up{display:none}
+.as-tabs div.as span{ color:#666; font-size:15px;}
+
+div.mr{text-align:left; padding: 10px 15px 10px 0px; }
+.deep{ height:17px; opacity:0.7; }
+.deep:hover{opacity:0.9;}
+.count{color:#999;}
+/*div.mr a{color:#06839c; font-size:0.93rem;}
+div.mr a:hover{text-decoration:underline !important;}
+div.mr .sall{color: #06839c !important; text-decoration: underline !important;}
+.metinshow{color: #06839c !important}
+.srchp:hover{color:#0e6779 !important;}*/
+
+/* new alert */
+/*#header_container{top:45px !important;}
+.body_container{margin-top:45px !important;}*/
+
+.alert-warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #856404;
+    background-color: #fff3cd;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.alert-content {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.alert-close {
+    flex: 0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.alert-close:hover {
+    color: #c69500;
+}
+</style>
+
+<!-- <div id="topnewst">Arama yenilendi: <a href="/duyuru/arama-kilavuzu">Arama kılavuzunu okumak için tıklayınız.</a></div> -->
+
+<div id="header_container" style="position:fixed; top:0px !important;">
+    
+    <div class="centered" id="menu">
+	
+		<div class="static_position pure-g" >
+			<div class="pure-u-13-24 hdr-left">
+        		<div class="header_left">
+            		<ul class="dia-navul">
+           				<li class="header_menu hover-menu-button" style="margin-right:8px; line-height:0px; margin-top:18px; margin-left:-7px ">
+							<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/blue-dot-menu-masaustu.png" />
+							<div class="hover-menu" style="left:10px; right:none; top: 47px;">
+								<div style="position:relative">
+								<img class="menu-top-arrow" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png?ver=2" style="position:absolute; top:-9px; left:5px" />
+								<ul>
+									<a href="/genel_kisaltmalar"><li class="hover_menu_first">Genel Kısaltmalar</li></a>
+									<a href="/transkripsiyon_isaretleri"><li>Transkripsiyon İşaretleri</li></a>
+									<a href="/duyuru/arama-kilavuzu"><li>Arama Kılavuzu</li></a>
+									<a href="/duyurular"><li>Duyurular</li></a>
+									<a href="/hakkinda/"><li style="border-bottom:none;">TDV İslâm Ansiklopedisi Hakkında</li></a>
+								</ul>
+								</div>
+							</div>
+						</li>
+						<li class="header_logo" style="border-right:none; position:relative">
+							<a href="/" id="logo-part"> 
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-yatay-logo.svg" style="height:28px; width:318px;" />
+							</a>
+							<div id="header-article" style="display:none">
+							</div>
+						</li>						
+            		</ul>
+        		</div>
+    		</div>
+    		<div class="pure-u-11-24 hdr-right">
+        		<div class="header_right">
+             		<ul class="dia-navul right">
+						<li class="header_search" style="padding:0px; margin-right:-2px;">
+
+							<span class="icon-search tipsoo tbottom tipso_style" style="background: #0093c1 !important; color: #fff !important;position:absolute;right:9px;top:16px;" id="icon-search-submit" data-width="175" data-tipso="Madde başlıklarında ara."></span>
+							<span class="icon-search tipso tbottom tipso_style" style="background:transparent;color: #DF6F49 !important;position:absolute;right: 50px;top:17px;font-size: 1.1rem; " id="icon-search-submit-txt" data-width="175" data-tipso="Madde içeriklerinde ara."></span>
+							<img class="open-keyboard" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/input-keyboard.png" />
+
+							<input id="searchBox" class="searchBox" style="width:490px; line-height:normal; height:45px; padding-right:55px;" type="text"
+							value='' placeholder="TDV İslâm Ansiklopedisi'nde ara..." autocomplete="off"/>
+							<div id="auto-suggest-box">
+								<input autocomplete="off" id="auto-suggest-state" style="display:none" />
+								<img src='https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif' id="auto-suggest-loading" />
+								<div id="auto-suggest-content"></div>
+							</div>
+							<style>
+							.open-keyboard{position: absolute;
+							right: 90px;
+							top: 27px;
+							opacity: 0.3; cursor:pointer}
+							.open-keyboard:hover{opacity:0.8}
+							.dia-keyboard {display:none; background:#fff; border:1px solid #ddd; padding:20px 15px 15px 15px; position:absolute; top:10px; left:-490px; width:485px; line-height:0px; border-radius:3px;}
+							.dia-keyboard ul{list-style:none; margin:0px; padding:0px; clear:both}
+							.dia-keyboard ul li{float:left; width:30px; height:27px; text-align:center;
+							    border: 1px solid rgba(0,0,0,0.1);
+								background-color: #f5f5f5;
+								border-radius:2px;
+								margin:2px; line-height:27px; cursor:pointer; font-size:15px;}
+							.dia-keyboard ul li:hover{background:#ddd;}
+							.dia-keyboard .shift{width:45px; font-size:13px; font-weight:bold}
+							.dia-keyboard .close-keyboard{position: absolute;right: 10px; top: 10px; font-weight: bold; color: #666; cursor: pointer;}
+							</style>
+							<div class="dia-keyboard">
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/keyboard-arrow.png" style="line-height:0px;position:absolute; right:-5px;" />
+								<span class="close-keyboard">x</span>
+								<ul>
+									<li hb=""" hk=""">"</li>
+									<li hb="1" hk="1">1</li>
+									<li hb="2" hk="2">2</li>
+									<li hb="3" hk="3">3</li>
+									<li hb="4" hk="4">4</li>
+									<li hb="5" hk="5">5</li>
+									<li hb="6" hk="6">6</li>
+									<li hb="7" hk="7">7</li>
+									<li hb="8" hk="8">8</li>
+									<li hb="9" hk="9">9</li>
+									<li hb="0" hk="0">0</li>
+									<li hb="*" hk="*">*</li>
+									<li hb="-" hk="-">-</li>									
+								</ul>							
+								<ul style="margin-left:10px;">
+									<li hb="Q" hk="q">q</li>
+									<li hb="W" hk="w">w</li>
+									<li hb="E" hk="e">e</li>
+									<li hb="R" hk="r">r</li>
+									<li hb="T" hk="t">t</li>
+									<li hb="Y" hk="y">y</li>
+									<li hb="U" hk="u">u</li>
+									<li hb="I" hk="ı">ı</li>
+									<li hb="O" hk="o">o</li>
+									<li hb="P" hk="p">p</li>
+									<li hb="Ğ" hk="ğ">ğ</li>
+									<li hb="Ü" hk="ü">ü</li>
+									<li hb="," hk=",">,</li>									
+								</ul>
+								<ul style="margin-left:25px">
+									<li hb="A" hk="a">a</li>
+									<li hb="S" hk="s">s</li>
+									<li hb="D" hk="d">d</li>
+									<li hb="F" hk="f">f</li>
+									<li hb="G" hk="g">g</li>
+									<li hb="H" hk="h">h</li>
+									<li hb="J" hk="j">j</li>
+									<li hb="K" hk="k">k</li>
+									<li hb="L" hk="l">l</li>
+									<li hb="Ş" hk="ş">ş</li>
+									<li hb="İ" hk="i">i</li>
+																	
+								</ul>
+								<ul>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>
+									<li hb="Z" hk="z">z</li>
+									<li hb="X" hk="x">x</li>
+									<li hb="C" hk="c">c</li>
+									<li hb="V" hk="v">v</li>
+									<li hb="B" hk="b">b</li>
+									<li hb="N" hk="n">n</li>
+									<li hb="M" hk="m">m</li>
+									<li hb="Ö" hk="ö">ö</li>
+									<li hb="Ç" hk="ç">ç</li>
+									<li hb="." hk=".">.</li>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>																		
+								</ul>
+								<ul style="margin-left:65px;">
+										
+									<li hb="Boşluk" hk="Boşluk" class="space noletter" style="width:280px;">Boşluk</li>
+									<li hb="Sil" hk="Sil" class="delete back noletter" style="width:50px">Sil</li>
+								</ul>									
+							</div>
+						</li>			
+	    			</ul>
+        	</div>
+    	</div>	
+  	</div>
+
+	</div>
+	</div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        // Focus search box when page load
+        $('#searchBox').focus();
+    });
+</script>
+
+<div id="scrollTop" title="Sayfanın başına dön." style="z-index:100000">
+	<span class="icon-chevron-up"></span>
+</div>
+
+<style>
+#newsbar_open{display:block ;} /* only this page */
+.m-body{font-size:19px; line-height:28px; text-align:justify;}
+body{color:#494d55 !important}
+
+.inAtr{font-size:16px; color:#999 !important}
+
+@media screen {
+    #print-part-temp { display: none;}
+	.hdrprint{background:#ededed;}
+}
+@media print {
+	#print-part-temp { display: block; padding:30px;}
+	.hdrprint{background:#ededed; padding:5px; margin-bottom:20px; fonst-size:7px;  border-bottom:1px solid #ddd; }
+	.dosyaindir{display:none}
+	 body{margin: 0mm 0mm 1mm 0mm; }
+}
+
+.copy-link{cursor:pointer}
+.copy-link:hover{opacity:0.5 !important;}
+
+#div_bilgi{padding-top:6px;}
+.atif-btn{cursor:pointer;}
+.atif-kutusu{cursor: default !important;}
+.article-pd{font-size:14px; color:#999; line-height:20px; margin-top:5px;}
+
+.fotorama__caption{text-align:center !important;}
+.fotorama__caption__wrap{background-color: rgba(255,255,255,.9) !important;  }
+.fotorama__caption__wrap b{color:#E16327}
+.article-part{margin-bottom:60px;}
+.sterm{background:#E3FF91;}
+
+.m-content p{margin-top:0px; margin-bottom:17px;}
+.m-content bibl p{margin-top:0px; margin-bottom:5px; line-height:22px; padding-left: 1.5em;
+    text-indent:-1.5em; font-size:17px;}
+
+
+
+		.article-part-header{background:#f4f1f1;  border-radius:1px; position:relative; margin-bottom:20px;}
+		.article-part-header.kor-part{background-color:#f1f4f4 !important; }
+		.article-part-header .yazim-arrow{position:absolute; bottom:-10px; left:20px; z-index:1}
+		.part-author{padding-left:15px; line-height:55px}
+		.part-title{display:none}
+		.part-title a{color:#666}
+		.part-authors{}
+		.part-authors span{color:#888}
+		.part-authors a{color:#0093b0}
+		.part-info{padding-right:15px;text-align:right; padding-top:16px}
+		/* .atif-btn{position:absolute; cursor:pointer; color:#0093B0; font-size:26px; right:2px; top:-31px} */
+		.atif-btn.psv{}
+		/*
+		.atif-btn.top{position:absolute; top:5px; right:0px;}
+		.atif-btn.top .atif-kutusu{border-top:1px solid #ddd;}
+		.atif-btn.top .ak-list{height:280px; overflow-y:auto; overflow-x:hidden;}
+		*/
+		.atif-kutusu{text-align:left; right:-0px;  background:#F7F7F7;  display:none; border: 1px solid #e4e4e4;padding:10px 20px 20px 20px; z-index:5; font-size:0.85rem; color:#777; margin-top:-1px;}
+		.ak-title{border-bottom:1px solid #ddd; font-size:1.05rem !important; line-height:23px !important; padding-bottom: 5px; font-weight:bold;}
+		.ak-muellif{line-height:18px; padding-top:9px;}
+		.ak-site{line-height:18px; padding-top:9px;}
+		.ak-yayinci{line-height:18px; padding-top:9px;}
+		.ak-ilkyayin{line-height:18px; padding-top:9px;}
+		.ak-adres{line-height:18px; padding-top:9px;}
+		.ak-copy{border-top:1px solid #ddd; padding-top:10px; margin-top:10px;}
+		.ak-copy span{background:#f9f9f9; color:#666; padding:4px 15px 4px 15px; border:1px solid #ddd; border-radius:2px; cursor:pointer}
+		.ak-copy span:hover{background:#f1f1f1;}
+		.ak-copytext{display:none; line-height:17px; padding-top:20px; padding-bottom:10px}
+		.msg-btn{ cursor:pointer; font-size:28px; color: #967A7A; position: absolute; right: 34px; top: -32px;}
+		.msg-btn a{color: #967A7A}
+		.print-btn{float:right; cursor:pointer; font-size:20px; color: #967A7A; padding-top:1px;}
+
+
+.article-part-nav-info{position:absolute; background:#E98A5C; top:-33px; left:0px; list-style-type:none; margin:0px; padding:0px; color:#fff; border-radius:2px;}
+.article-nav-prev{cursor:pointer; padding:2px 4px 0px 5px; height:18px; float:left; line-height:0px; border-right:none}
+.article-nav-prev span, .article-nav-next span{font-size:11px;}
+.article-nav-prev.kor{border-right:1px solid #ddd;}
+.article-nav-next{cursor:pointer; padding:2px 4px 0px 4px; height:18px; float:left; line-height:0px;}
+.article-nav-next.kor{border-left:1px solid #ddd;}
+.article-nav-passive{cursor:default;}
+.article-nav-passive img{opacity:0.3; cursor:default;}
+.article-nav-prev.kor span, .article-nav-next.kor span{color:#afa1a1;}
+.article-nav-numbers{padding:0.15rem 12px 0 12px; line-height:25px; float:left; border-right:1px solid #F3BFA7; border-left:1px solid #F3BFA7; font-size:13px; font-weight:bold; letter-spacing: 3px;}
+
+.article-nav-open-info{cursor:pointer; padding:0 9px; height:21px; line-height:22px; float:left; border:none; font-size:13px; font-weight:bold;}
+.article-nav-info-li{float:left; height:21px; background:rgb(181, 164, 164); font-size:13px; line-height:21px; height:21px; padding:0 10px; display:none; border-top-right-radius: 2px; border-bottom-right-radius: 2px;}
+.tipso_style{border-bottom:none !important;}
+
+.bibpos{position:absolute; color:#fff; font-size:1px;}
+.m-body span.eser{font-style:italic; text-justify: none; }
+.m-body span.kisaltma{text-justify: none;}
+
+.m-body bibl span.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+.m-body bibl span.eser.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+
+.m-body bibl{
+margin-top: -17px !important;
+    display: block;
+}
+
+.pop-title{font-weight:bold;}
+
+.article-left-bar{padding-bottom:0px !important; box-shadow:none !important; background:none !important; max-width: 68px;z-index: 1;}
+
+.rndleftbtn:hover{opacity:1 !important}
+
+.encokokunan{
+	background: #e4e8e8;
+    width: 100px;
+    /* padding: 2px 5px; */
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: -25px;
+    font-size: 0.80rem;
+    padding: 2px 0px 3px 0px;
+    font-weight: bold;
+    color: #888;
+    /* margin-top: 10px; */
+}
+.encokokunan:hover{background:#dbdede; color:#666}
+.captcha-container > img { height: 38px; position: absolute }
+.captcha-container > .form-group { margin-left: 90px; }
+.error-box{background: #ff8585; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+.success-box{background: #26b151; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.grecaptcha-badge.show {
+    visibility: visible !important;
+    z-index: 10000;
+}
+
+.swal2-container {
+    z-index: 10000;
+}
+
+.swal2-html-container {
+    font-size: 1rem;
+}
+</style>
+
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.print.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.lazyload.min.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+<link rel="stylesheet" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/vendor.fotorama.css">
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.fotorama.js"></script>
+
+
+
+<br />
+<div class="centered body_container body_pad_article" style="position:relative">
+
+	<div class="print-meta visible-on-print" style="display: none;">
+		Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+		<a title="MESCİD-i NEBEVÎ" href="https://islamansiklopedisi.org.tr/mescid-i-nebevi?utm_source=pdf">https://islamansiklopedisi.org.tr/mescid-i-nebevi</a>
+	</div>
+
+	<div class="article_header_container" style="margin-bottom:25px; position:relative;">
+	<!-- mesele -->
+	<!-- article left bar -->
+		<div class="article-left-bar">
+				<div class="pure-g bar-line"  style="    background: #fff;
+		padding-top: 5px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell bleft"><span class="icon-align-left"></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span class="icon-align-justify"></span></div>
+				</div>
+				<div class="pure-g bar-line"  style="background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell fup"><span id="txtup" class="icon-font up" style=""></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="txtdown" class="icon-font down"></span></div>
+				</div>
+				<div class="pure-g bar-line-nav"  style="background: #fff; padding-bottom: 5px; border-bottom-left-radius: 4px;border-bottom-right-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+
+					<div class="pure-u-1-2 bar-cell bleft"><span id="pagecolorSepia" ></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="pagecolorWhite"></span></div>
+				</div>
+
+				<div class="pure-g bar-line-nav rndleftbtn tipso tright tipso_style" data-tipso="<i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde görmek için tıklayınız." data-width="200" style="border-bottom: none; border-radius:4px; margin-top:10px; background:#2FB556; opacity:0.85; border: 1px #5abb76 solid; text-align: center; padding: 7px 0 2px 0px; cursor:pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" style="height:20px" /></div>
+				</div>
+
+				<div class="pure-g" style="display:none">
+					<div class="pure-u-1-2 bar-cell bleft">
+						<a href="mescid-i-kuba" class="tipso tright" data-width="200" data-tipso="Önceki madde: MESCİD-i KUBÂ">
+							<span class="icon-chevron-circle-left"></span>
+						</a>
+					</div>
+					<div class="pure-u-1-2 bar-cell bright">
+						<a href="mescid-i-nemire" class="tipso tright" data-tipso="Sonraki madde: MESCİD-i NEMİRE">
+							<span class="icon-chevron-circle-right"></span>
+						</a>
+					</div>
+				</div>
+		</div>
+	<!-- article left bar end -->
+
+		<style>
+		.listen{width:15px; opacity:0.5; cursor:pointer}
+		.listen:hover{opacity:1;}
+		</style>
+
+		
+		
+		<div class="article_title"><h1>MESCİD-i NEBEVÎ</h1></div>
+
+					<div class="arabic_title">المسجد النبوي</div>
+		
+		<div class="article_info"><h2>
+			<div style="padding-top:6px;"><span style="color:#e16328">Medine’de içerisinde Hz. Peygamber’in kabrinin de bulunduğu mescid.</div>			</h2>
+		</div>
+	</div>
+
+
+<div id="article-main-content" class="pure-g " style="">
+    <div class="pure-u-1 pure-u-md-15-24 sticky-content">
+
+		<div class="bibl-popup" style="display:none; position:absolute; padding:22px 24px 18px 18px; max-width:290px; background:#FEFEC6; z-index:1;     box-shadow: 0 3px 10px rgba(0,0,0,.3);">
+			<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/bibl-popup-arrow.png" style="position: absolute;top: -10px;" />
+			<span class="icon-close close-bibl-poup" style="position: absolute;top: 8px; right: 10px; font-size: 20px;cursor: pointer; color:#555"></span>
+			<div class="bibl-cnt"></div>
+		</div>
+
+		
+
+		<div class="m-body" id="m-body" style="font-size:; line-height:">
+
+			<!-- Madde Planı -->
+			<style>
+			body.sepya{background-color:rgb(241, 233, 215) !important}
+			.art-plan{margin-bottom:30px;border:1px solid #ededed; border-radius:3px;}
+			.art-plan.sepya{border: 1px solid #c5bead !important;}
+			.article-plan-buttons{border-bottom:1px solid #ededed; overflow:hidden}
+			.article-plan-buttons.sepya{border:none; border-bottom: 1px solid #c5bead !important;}
+			.article-plan-buttons .passive:hover{border-bottom:3px solid #ededed; color:#333; cursor:pointer}
+			.article-plan-buttons .passive{color:#999; border-bottom:none; font-weight:normal}
+			.article-plan-buttons .active{color:#666; border-bottom:3px solid #ddd; font-weight:bold}
+			.btn-plan, .btn-preview{padding-bottom:5px !important; padding-top:5px !important}
+			.plan-content, .preview-content{ clear:both;  font-size:15px; border-radius:3px;}
+			.preview-span{background: #ededed;padding: 2px 8px; margin-right:10px; font-size: 12px; letter-spacing: 1px;border-radius: 3px;}
+			.preview-ul{list-style:none; padding:0px; margin:0px; height: 189px; overflow-y: auto; padding-right:15px;}
+			.preview-ul li{padding-bottom:30px; line-height:22px; cursor:pointer; color:#777; width:100%;}
+			.preview-ul li:hover{color:#888;}
+			.ind2{padding-left:15px;}
+			.ind3{padding-left:30px;}
+			.ind4{padding-left:45px;}
+			.ind5{padding-left:60px;}
+			.ind6{padding-left:75px;}
+			</style>
+
+			
+			<!-- Madde Metni -->
+			<style>
+			.hdrprt1{border:1px solid #e4e4e4; border-radius:3px; margin-bottom:0px; position:relative}
+			.hdrprt1.sepya{border: 1px solid #c5bead;}
+			.hdrprt1arrows{border-bottom:1px solid #e4e4e4; overflow:hidden;background: #f4f1f1;}
+			.hdrprt1arrows.sepya{border-bottom: 1px solid #c5bead;background: #e4ddcc;}
+			.partnumbers{float:left;  height:37px; font-size:0.90rem; letter-spacing: 3px; border-left:1px solid #ddd; border-right:1px solid #ddd; padding-left:12px; padding-right:12px; color:#007993; padding-top:5px;}
+			.partnumbers.sepya{border-left:1px solid #c5bead; border-right:1px solid #c5bead;}
+			.partdownarrow{float:left;  height:37px; padding-top:4px; padding-left:12px; padding-right:12px;border-right:1px solid #ddd;}
+			.partdownarrow.sepya{border-right:1px solid #c5bead;}
+			.partprint{border-left:1px solid #e4e4e4; float:right;;height:37px; line-height:42px; padding-left: 14px; padding-right: 14px; cursor:pointer}
+			.partprint.sepya{border-left:1px solid #c5bead}
+			.partemail{border-left:1px solid #e4e4e4; float:right; line-height: 37px; padding: 1px 14px; cursor:pointer}
+			.partemail.sepya{border-left:1px solid #c5bead;}
+			.partatif{border-top-right-radius: 2px; float:right; border-left: 1px solid #e4e4e4; padding: 1px 14px; line-height: 37px;}
+			.partatif.sepya{border-left: 1px solid #c5bead;}
+			</style>
+			<!-- Madde Metni -->
+			                <div class="article-parts">
+                                            <!--<div class="visible-on-print">
+                            <img src=""
+                                 title=""  alt="" />
+                            <div class="right-info" style="text-align:center;"></div>
+                        </div>-->
+                    
+                    							<div class="article-part" id="_1" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									1 bölümden oluşan maddenin 1. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="MESCİD-i NEBEVÎ" href="https://islamansiklopedisi.org.tr/mescid-i-nebevi?utm_source=pdf#1">https://islamansiklopedisi.org.tr/mescid-i-nebevi#1</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="MESCİD-i NEBEVÎ" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/nebi-bozkurt"><b>NEBİ BOZKURT</b></a>, <a href="/muellif/mustafa-sabri-kucukasci"><b>MUSTAFA SABRİ KÜÇÜKAŞCI</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">MESCİD-i NEBEVÎ</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>NEBİ BOZKURT, MUSTAFA SABRİ KÜÇÜKAŞCI</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2004</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/mescid-i-nebevi</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext1">
+														NEBİ BOZKURT, MUSTAFA SABRİ KÜÇÜKAŞCI, "MESCİD-i NEBEVÎ", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mescid-i-nebevi (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p>İslâm tarihinde bir dönüm noktası olan Resûl-i Ekrem’in Mekke’den Medine’ye hicretinden sonra gerçekleştirilen ilk faaliyetlerden biri Mescid-i Nebevî’nin (Mescid-i Nebî) inşasıdır. Bizzat Hz. Peygamber tarafından yaptırılan iki mescidden biri olan (diğeri Kubâ), Mescid-i Nebevî onun Medine’deki bütün faaliyetlerinin merkezinde yer almış ve fonksiyonları bakımından sonraki dönemde kurulan camilere örnek teşkil etmiştir. Mescid-i Nebevî’nin adı Kur’ân-ı Kerîm’de doğrudan geçmemekle birlikte “ilk günden takvâ üzerine kurulan mescid” ifadesiyle (et-Tevbe 9/108) Mescid-i Nebevî veya Mescid-i Kubâ’nın kastedildiği rivayet edilmektedir (<span class="kisaltma" data-ad="musned"><i>Müsned</i></span>, III, 91; Müslim, “Ḥac”, 514; Belâzürî, <span class="eser">Fütûh</span>, s. 4; <span class="kisaltma" data-ad="taberi-camiul-beyan">Taberî, <i>Câmiʿu’l-beyân</i></span>, XI, 26-28). İbn Kesîr, Mescid-i Nebevî’nin âyette sözü edilen sıfata daha lâyık olduğunu belirtir (<span class="eser">el-Bidâye</span>, III, 218). İslâm âlimlerinin çoğuna göre Mescid-i Nebevî fazilet bakımından Mescid-i Harâm’dan sonra gelir. İmam Mâlik başta olmak üzere bazı âlimlere göre ise Resûlullah buraya defnedildiğinden Mescid-i Nebevî daha faziletlidir (Nevevî, IX, 163, 164). Mekke’deki Mescid-i Harâm gibi Mescid-i Nebevî ve Kudüs’teki Mescid-i Aksâ için de Harem-i şerif tabiri kullanılır. </p><p> Akabe’de Hz. Peygamber’e ilk biat eden Es‘ad b. Zürâre, hicretten önce Medine’de bir hurma kurutma yerinin etrafını duvarla çevirerek mescid haline getirmişti (İbn Sa‘d, III, 457). Resûl-i Ekrem 12 Rebîülevvel (24 Eylül 622) Cuma günü Medine’ye girdiğinde kendisini davet edenleri kırmamak için devesi Kasvâ’nın salıverilmesini ve onun çöktüğü yere en yakın evde konaklayacağını söyledi. Hz. Peygamber’in bu sırada Hz. Nûh’a öğretilen, “Rabbim! Beni mübarek bir menzile kondur. Şüphesiz konaklatanların en hayırlısı sensin” duasını (el-Mü’minûn 23/29) tekrarladığı rivayet edilir (Semhûdî, I, 322). Kasvâ’nın Mâlik b. Neccâr oğullarının evlerinin önünde hurma kurutulan bir düzlükte çökmesi üzerine Resûlullah buraya en yakın evin sahibi Ebû Eyyûb el-Ensârî’ye misafir oldu. Resûl-i Ekrem, Es‘ad b. Zürâre, Muâz b. Afrâ ve Ebû Eyyûb el-Ensârî’den birinin himayesinde bulunduğu nakledilen Sehl ve Süheyl adlarında iki yetim çocuğa ait olan bu arsayı mescid yapmak üzere sahiplerinden 10 dinar karşılığında satın aldı (Buhârî, “Menâḳıbü’l-enṣâr”, 45; Belâzürî, <span class="eser">Fütûh</span>, s. 6). Sahiplerinin arsayı mescid için bağışladıkları rivayeti de vardır (Buhârî, “Veṣâyâ”, 30; Taberî, <span class="eser">Târîḫ</span>, II, 397). Bu engebeli ve çalılık alanın (Taberî, <span class="eser">Târîḫ</span>, II, 396-397) zemin düzenlenmesi yapıldıktan sonra yaklaşık 3 arşın derinliğindeki temeline ilk taşı Hz. Peygamber koydu. Rebîülevvel ayında (Eylül 622) inşasına başlanan Mescid-i Nebevî, kendisi de ashapla birlikte çalışan Resûl-i Ekrem başta olmak üzere özellikle Talk b. Ali, Ammâr b. Yâsir gibi sahâbîlerin öncülüğünde şevval ayında (Nisan 623) tamamlandı. Mescidin inşası, Resûlullah’ın güzel sözleri ve şiirlerle teşvik edilen ensar ve muhacirlerin kaynaşması için iyi bir fırsat olmuştu (Abdürrezzâk es-San‘ânî, V, 396-397; İbn Sa‘d, I, 185-186). İlk bina, taş temel üzerine tek sıra kerpiçten, bir adam boyu kadar yükseklikteki çevre duvarı ile kuşatılarak üstü açık biçimde 60 × 70 zirâlık bir alana (1022 m<sup>2</sup>) yapıldı (Semhûdî, I, 334). Mescidin ilk yapısı ve sonraki ilâvelerle ilgili olarak kaynaklarda zikredilen ayrı ölçüler, esas alınan zirâın (arşın) ve metrik karşılığının farklılığından kaynaklanmış olmalıdır. Kıblesi bizzat Hz. Peygamber tarafından Kudüs’e yönelik olarak yapılan ve üç kapısı bulunan mescidin doğu duvarının güney kısmına Resûl-i Ekrem’in hanımları Hz. Âişe ve Sevde için iki adet oda-hücre yapıldı. Daha sonra sayıları dokuza çıkan bu odaların bir kapısı mescide açılıyordu. Kıble hicretten on altı veya on yedi ay sonra Kudüs’ten Mekke’deki Kâbe’ye çevrilince güneyde bulunan yeni kıble tarafına gelen kapı kapatılarak kuzey duvarında yeni bir kapı açıldı. Basit ve sade, ancak son derece fonksiyonel olan Mescid-i Nebevî müslümanların sayısının artmasıyla ihtiyaca cevap veremeyince 7. yılda (628) Hayber dönüşü yeni ilâvelerle genişletildi. Hz. Osman, Resûlullah’ın teşvikiyle Mescid-i Nebevî’ye bitişik bazı yerleri buraya dahil etmek amacıyla satın aldı (<span class="kisaltma" data-ad="musned"><i>Müsned</i></span>, I, 70; Tirmizî, “Menâḳıb”, 19; Dârekutnî, IV, 195; Beyhakī, VI, 167; Taberânî, I, 196). Bu dönemde Mescid-i Nebevî, kıble tarafı hariç üç tarafından genişletilerek 100 × 100 zirâ (yaklaşık 2433 m<sup>2</sup>) ebadında kare planlı bir hale getirildi (Semhûdî, I, 336, 338, 341). Duvarları taş temel üzerine “semît” adı verilen tek sıra kerpiç, üzerine “saîde” denilen kerpiçlerin yön değiştirdiği veya bir tam, bir yarım kerpiçten meydana gelen çift sıra, son olarak da erkekli dişili çift sıra olmak üzere üç farklı şekilde örüldü. Son aşamada duvar kalınlığı 1,5 zirâa (74 cm.), yüksekliği de 7 zirâa (3,45 m.) ulaştı. Başlangıçta üstü örtülmeyen Mescid-i Nebevî’nin kıble tarafında Hz. Peygamber’in namaz kıldırdığı yere yağmur ve güneşten korunmak için hurma kütüğünden altı direk üzerinde bir sundurma yapıldı. Kıble Kâbe’ye çevrilince bu sundurma kısmen korunarak Suffe ehlinin barındığı bir yer oldu. Mescidin güney duvarına paralel dokuzar adet hurma kütüğünün üç sıra halinde dizilip ahşap sütunlar üzerine oturtulduğu bir çatı yapıldı. Araları 9 zirâ (4,44 m.) olan sütunlar, hurma ağacından kirişlerle birbirine bağlanıp yanlamasına hurma dalı ve yaprakları, izhir ve semer otlarıyla örtülerek toprakla kapatıldı. Çok sade biçimde yapılan tavan gölgelenmeyi sağlıyor, ancak yağmurdan korunmayı temin etmiyordu (Abdürrezzâk es-San‘ânî, IV, 248-249; Müslim, “Ṣıyâm”, 215-216; Ebû Dâvûd, “Ṣalât”, 15). </p><p> Mescid-i Nebevî, Hz. Ebû Bekir döneminde herhangi bir değişikliğe uğramadı. Ancak Medine’nin nüfusunun giderek artması mescidin genişletilmesi ihtiyacını doğurdu. Hz. Ömer, 17 (638) yılında çevredeki bazı evleri mescide dahil etmek için istimlâk etti; kuzey duvarı biraz geriye çekildi ve ön duvar mevcut sütunların aralığı kadar ileri alınarak yanlara üçer, batı tarafında ön duvara dik ikişer sütun ilâve edildi. Çevre duvarı yükseltilen ve tavan yüksekliği 11 zirâ (5,43 m.) olan, kapı sayısı altıya çıkarılan Mescid-i Nebevî’nin boyutları kuzeyden güneye 140 zirâa, doğudan batıya 120 zirâa (4088 m<sup>2</sup>) ulaştı. Zemini Akīk vadisinden getirilen küçük taşlarla kaplandı, ilk safların bulunduğu bölüm keçe ile döşendi. </p><p> Hz. Osman döneminde Mescid-i Nebevî genişletilerek yeniden inşa edildi. Bunun için kendi malından 10.000 dirhem harcayan Hz. Osman (<span class="kisaltma" data-ad="belazuri-ensab">Belâzürî, <i>Ensâb</i></span>, VI, 150), Tâif’teki arsasını Osman b. Ebü’l-Âs’a ait olan Medine’deki bir evle değişerek evi mescide dahil etti. Mescid-i Nebevî’nin Resûl-i Ekrem zamanındaki şekliyle kalması gerektiği yolundaki eleştirileri de “dünyada bir mescid yapan için Allah Teâlâ’nın cennette bir köşk bina edeceği” meâlindeki hadisi (Buhârî, “Ṣalât”, 65) hatırlatarak önlemeye çalıştı. 29 yılının Rebîülevvelinde (Kasım 649) başlayıp 30. yılın Muharreminde (Eylül 650) tamamlanan çalışmalar sonunda mescidin boyutları 170 × 130 (5378 m<sup>2</sup>) veya 160 × 130 zirâa (5061,5 m<sup>2</sup>) ulaştı (İbn İshak el-Harbî, s. 363-364; Taberî, <span class="eser">Târîḫ</span>, IV, 267). Binanın yapımında yontma taş ve kireç kullanıldı, her sırada bulunan aynı ebatta hazırlanmış tezyinatlı taşlardan oluşan sütunların sayısı on ikiye çıkarıldı. </p><p> Mescid-i Nebevî, bu tarihten Emevî Halifesi Velîd b. Abdülmelik zamanına kadar herhangi bir değişikliğe uğramadı. Velîd, 87 (706) veya 88 (707) yılında Medine Valisi Ömer b. Abdülazîz’den Mescid-i Nebevî’yi genişletmesini, Hz. Peygamber döneminden kaldığı için yıkılmasına izin verilmeyen hücrelerle çevredeki evleri istimlâk edip mescide dahil etmesini istedi. Mescid-i Nebevî’nin inşası için yapılan istimlâk faaliyetleri esnasında bazı problemler yaşanmış, özellikle Hz. Peygamber’in hanımlarına ait hücrelerin yıkılması Medineliler’i çok üzmüştür. Velîd’in Bizans imparatoruna mektup yazarak Mescid-i Nebevî’nin imarı için özel ustalar istediği, onun da 100.000 miskal altın, 40 yük mozaik ve 100 ustayı Medine’ye gönderdiği rivayet edilir (<span class="kisaltma" data-ad="belazuri-ensab">Belâzürî, <i>Ensâb</i></span>, VIII, 72; İbn İshak el-Harbî, s. 365; Taberî, <span class="eser">Târîḫ</span>, VI, 456). Bizans hükümdarı tarafından yollanan usta ve malzemelerin aynı yıllarda yaptırılan Emeviyye Camii için kullanıldığı veya ancak bir kısmının Medine’ye ulaştığı tahmin edilmektedir (Küçükaşcı, s. 225-226). Velîd, mescidin 200 × 200 zirâ ebadında kare planlı olarak yapılmasını istediyse de bu gerçekleşmedi. Üç tarafından genişletilen mescid kuzey duvarı 135 zirâ (66,6 m.), güney duvarı 167,5 zirâ (82,63 m.), batı duvarı 200 zirâ (98,66 m.) olmak üzere yaklaşık 7500 m<sup>2</sup>’lik bir alana ulaştı, bütün duvarlarda kesme taş kullanıldı (Yûsuf Ragdâ el-Âmilî, s. 328). Hücre-i saâdetin Mescid-i Nebevî’nin içerisine alındığı bu genişletmede minare, niş tarzı mihrap ve şerefe, üç yeni unsur olarak eklendi. Ayrıca kıble duvarına celî kûfî hatla Şems sûresi veya Şems sûresinden Kur’ân-ı Kerîm’in sonuna kadar olan kısmının yazıldığı rivayet edilir. Ömer b. Abdülazîz’in öncülüğünde gerçekleştirilen bu imar faaliyetlerinin teknik ve malî işlerinin denetim ve uygulaması Sâlih b. Keysân tarafından üstlenildi, 91 (710) yılında tamamlanan çalışmalar bir kitâbe ile kayıt altına alındı. </p><p> Abbâsî halifelerinden Mehdî-Billâh, 160’ta (777) Medine’ye geldiğinde Mescid-i Nebevî’nin yetersiz kaldığını görüp genişletmeye karar verdi. 161 (777-78) veya 162 (778-79) yılında başlayan faaliyetler 165’te (781-82) tamamlandı. Sadece kuzey yönünde genişletilerek yaklaşık 9309 m<sup>2</sup>’ye ulaşan mesciddeki sütun sayısı 290’a ulaştı. Süslemesine özel bir önem verilen kıble duvarının alt kısmı mermer kaplandı. Üst tarafı ise uzaktan mozaik gibi görünen altın parçalarıyla, doğu ve batı duvarlarının avluya dönük yüzleri renkli dekoratif oymalarla süslendi. Hârûnürreşîd, Me’mûn, Mütevekkil-Alellah, Mu‘tazıd-Billâh dönemlerinde de Mescid-i Nebevî’nin bazı bölümlerinde onarım ve değişiklikler yapıldı. 460 (1068) ve 515 (1121) yıllarında Medine’nin çevresinde meydana gelen depremlerden zarar gören Mescid-i Nebevî kısa sürede onarıldı (İbn Kesîr, XII, 102, 201). 1 Ramazan 654’te (22 Eylül 1256) Mescid-i Nebevî’de çıkan yangının büyük tahribata yol açması üzerine Halife Müsta‘sım-Billâh, Irak hac kafilesiyle malzeme ve eleman gönderip imar faaliyetlerini başlattı. Ancak Hülâgû’nun Bağdat’ı işgal ederek Abbâsî hânedanına son vermesi çalışmaların yarıda kalmasına sebep oldu. </p><p> Abbâsîler’den sonra Mescid-i Nebevî’nin bakımını üstlenen Memlükler’den Sultan el-Melikü’l-Mansûr Nûreddin Ali, yarım kalan faaliyetleri Yemen Hükümdarı el-Melikü’l-Muzaffer Şemseddin Yûsuf’un katkısıyla yeniden başlattı. Dört ana kapının bulunduğu ön tarafın imarı Memlük Sultanı Kutuz zamanında (1259-1260) tamamlandı. Bağdat Abbâsî hilâfetini Mısır’da yeniden kuran I. Baybars tarafından sürdürülen çalışmalar 668’de (1269-70) bitirildi. Memlük Sultanı Kalavun devrinde Hz. Peygamber’in kabri üzerine ilk defa ahşap bir kubbe inşa edildi. Mescid-i Nebevî, Sultan Kayıtbay dönemine kadar herhangi bir değişikliğe uğramadı. Kayıtbay hücre-i saâdetin kubbesini yenileyerek mescidde bazı düzenlemeler yaptı (881/1476). 13 Ramazan 886’da (5 Kasım 1481) güneydoğu köşesindeki minareye düşen bir yıldırım sebebiyle çıkan yangında hücre-i saâdeti örten iç kubbe hariç iki tavan, minber ve maksûre yandı; sütunların büyük bölümü zarar gördü. Mescidin yenilenmesi ve tezyinatı 888’de (1483) tamamlandı. Bazı ince işler ve çevre düzenlemeleri ertesi yıl bitirildi. Kayıtbay’ın bu imarının ardından Mescid-i Nebevî’nin alanı 9429 m<sup>2</sup>’ye ulaştı (Yûsuf Ragdâ el-Âmilî, s. 329). Hücre-i saâdetin kubbesinin yerine daha büyük bir kubbe ve mescidin Bâbüsselâm tarafına iki kubbe yapıldı. Batı duvarına bitişik Bâbüsselâm ile Bâbürrahme arasında bir medrese ve ribât inşa edildi. </p><p> Hicaz’a hâkim olduktan sonra “hâdimü’l-Haremeyn” unvanını kullanmaya başlayan Osmanlı padişahları, Medine’ye özel bir önem vererek şehrin ve Mescid-i Nebevî’nin imarı için çeşitli faaliyetlerde bulundular. Medine Osmanlı hâkimiyetine girdikten sonra Mescid-i Nebevî’de ilk imar faaliyeti Kanûnî Sultan Süleyman döneminde gerçekleştirildi. 938’de (1531-32) İstanbul’dan gönderilen mühendis ve ustalar hücre-i saâdetin batı duvarı başta olmak üzere Mescid-i Nebevî’de bazı onarım ve yenileme çalışmaları yaptılar. Masrafları Mısır hazinesinden karşılanan bu çalışmalar 947’de (1540) tamamlandı. Ardından Sultan II. Selim, III. Murad, III. Mehmed, I. Ahmed, IV. Murad, IV. Mehmed, II. Mustafa, III. Ahmed, I. Mahmud, III. Osman, I. Abdülhamid ve III. Selim zamanlarında Mescid-i Nebevî’de bazı tamirat ve yenilikler gerçekleştirilerek buraya çeşitli hediyeler gönderildi. </p><p> Haremeyn işlerine büyük önem veren II. Mahmud’un emriyle 1813’te Mescid-i Nebevî’de tamirat ve düzenlemeler için hazırlıklar başladı. Gerekli insan gücü ve malzeme İstanbul ve Mısır’dan Medine’ye ulaştırıldı. 1817’de başlayan ve 1837’de tamamlanan faaliyetlerle Mescid-i Nebevî’nin kıble, kuzey ve doğu tarafına üç, batı tarafına dört sütun ilâve edildi. Sultan Kayıtbay tarafından hücre-i saâdetin üzerine yaptırılan ve “kubbetü’l-hücre” veya “kubbetü’n-nûr” diye anılan kubbenin yerine taştan yeni bir kubbe yapıldı, üstü de kurşunla kaplanarak yeşile boyandı. Günümüze kadar gelen ve Mescid-i Nebevî’nin simgesi olan bu kubbe renginden dolayı “Kubbetü’l-hadrâ” adıyla anılmaktadır. </p><p> Osmanlılar döneminde Mescid-i Nebevî’de en büyük imar faaliyeti Sultan Abdülmecid zamanında gerçekleştirildi. Medine şeyhülharemi Dâvud Paşa’nın Mescid-i Nebevî’nin yaklaşık dört asırlık bir süreden beri tam bir imardan geçmediği şeklindeki mektubu üzerine bir rapor hazırlatan Abdülmecid, 1266 yılı başında (1849 sonları) mescidi yeniden inşa etmeye karar vererek Mühendis lakabıyla anılan mimar Abdülhalim Efendi’yi bu amaçla oluşturulan inşa heyetinin başına getirdi. Sarayda düzenlediği hat yarışmasında birinci olan Abdullah Zühdi’yi Mescid-i Nebevî’nin yazılarını yazmakla görevlendirdi. Abdülhalim Efendi ve beraberindekiler 10 Şevval 1266’da (19 Ağustos 1850) Medine’ye ulaşıp çalışmalara başladılar (<span class="kisaltma" data-ad="ba">BA</span>, İrade-Dahiliye, nr. 219/12892). Sultan Abdülmecid, Mescid-i Nebevî’yi dört sütun üzerinde tek kubbeli olarak yaptırmak istemiş, ancak Ravza-i Mutahhara’daki korunması gereken sütunlar ve Mescid-i Nebevî’nin özel durumu sebebiyle bundan vazgeçmek zorunda kalmıştır (M. Hezzâ‘ eş-Şehrî, <span class="eser">el-Mescidü’n-nebevî fi’l-ʿaṣri’l-ʿOs̱mânî</span>, s. 101). Abdülhalim Efendi’nin aynı yılın hac mevsiminde Mekke’de vefatı üzerine yerine Mehmed Râif Paşa tayin edildi. 1267’de (1851) başlayan çalışmalar şeyhülharem ve bina emininin öncülüğünde şehir âyan ve eşrafının katılımıyla 1277 (1861) yılında bitirildi. Tamamı yenilenen Mescid-i Nebevî’nin ebadı kıble duvarı 86,25 m., kuzey duvarı 66 m., kuzeyden güneye uzanan duvarı 116,25 m. olmak üzere 10.939 m<sup>2</sup>’ye ulaştı (Yûsuf Ragdâ el-Âmilî, s. 338). Mescidin ön kısmında ve avlu etrafındaki revaklarda toplam 327 sütun bulunuyordu (İbrâhim Rifat Paşa, I, 448). Kıble tarafındaki revakların sayısı on ikiye çıkarıldı. Kuzey, doğu ve batı revakları genişletilerek kuzey ve doğu taraflarına ikişer, batı tarafına üçer adet revak konuldu. Beş kapısı olan Mescid-i Nebevî’nin zemini mermer döşendi. Taş rengine benzer bir şekilde boyanan sütunların başlıkları altınla süslendi ve sütunlar üzengiler üzerinde birleşen kirişlerle birbirine bağlandı. Abdullah Zühdi, üç yıl süren bir çalışmadan sonra Mescid-i Nebevî’nin kubbe kasnaklarını, duvarlarını, kapılarını, mihrap ve sütunlarını kuşak halinde celî sülüs tarzında âyetler, hadisler, Hz. Peygamber’in ve mescidinin adları ve sıfatlarıyla tezyin etti. Mescid-i Nebevî’nin Resûl-i Ekrem dönemindeki bölümünün tezyinatına ayrı bir önem verildi, buradaki sütun başlıklarının altına aylama askı (askı çelenk), gövde kısımlarına yaprak veya çiçek çelenkleri içinde yazılar hakkedildi. Mescidin kıble duvarında Osmanlı çinileri arasında, doğu ve batı duvarlarında uzun celî sülüs yazılar yazıldı. Çalışmalar için İstanbul ve Mısır’dan gönderilen malzeme hariç 700.000 mecidiye harcanmıştır. </p><p> Suûdîler döneminde 1949’da başlayıp 1955’te tamamlanan ilk genişletme sırasında Mescid-i Nebevî 16.326 m<sup>2</sup>’lik alana ulaştı. 22 Ekim 1955’te bazı İslâm devlet başkanlarının da katıldığı açılış töreni yapıldı. Bina planlanırken Abdülmecid devrinde gerçekleştirilen imarla uyumlu olmasına dikkat edildi ve daha önceki planlamalardan kaynaklanan zâviye bozukluğu giderilerek çift avlulu bir bölüm inşa edildi, ayrıca bir iç avlu oluşturuldu. Dış duvarlar önde de bütünlük arzedecek şekilde yenilendi. Bâbüsselâm ve Bâbürrahme’ye Osmanlı tuğra ve kitâbelerinin üstünden sivri kemerli birer taçkapı, aralarına çifte sütunlar üstünde beş yüksek kemer yapıldı. Mescidin kıble tarafındaki revaklar dışında kalan kısmı yıkılıp yenilendi. Mescidin içerisinde birbirine kemerle bağlanan 232 direğin üzeri 12,55 m. yüksekliği olan kare planlı ahşap bir tavanla kapatıldı. 1973’te mescidin batı tarafında namaz kılmak için 35.000 m<sup>2</sup>’lik gölgelik bir alan oluşturuldu. Bir süre sonra buna 43.000 m<sup>2</sup>’lik bir ilâve daha yapıldı. </p><p> Mescid-i Nebevî’nin tarihinde en büyük genişletme ve imar faaliyeti 1984-1994 yılları arasında gerçekleştirildi. Mevcut yapıyı doğu, batı ve kuzeyden kuşatan 82.000 m<sup>2</sup>’lik bu ilâveyle, mescidin alanı 98.326 m<sup>2</sup>’ye ulaştı. Mescidin damında namaz kılınabilecek 67.000 m<sup>2</sup>’lik kısımla birlikte toplam alan 165.326 m<sup>2</sup> oldu. Mescidi kuşatan, mermerle döşeli avlu 235.000 m<sup>2</sup> olup bununla birlikte Mescid-i Nebevî aynı anda 650.000 kişinin ibadet edebileceği 400.000 m<sup>2</sup>’lik bir alana ulaştı. Minarelerin sayısı ona çıkarıldı ve mescidin bodrum kısmı garaj olarak tasarlandı. Yeni genişletmede doksan beş kareye bölünen alan önceki yapıyı güney hariç üç yönden çevrelemekte, kare alanlar kuzeyden güneye doğru sağ sol ve arkada beşer olmak üzere on beş sıra, doğudan batıya doğru ise arkadaki üç, diğerleri sekizer sıra oluşturmaktadır. Bu alanların yirmi yedisi sabit raylar üzerinde hareket edip hava şartlarına göre açılıp kapanabilen kubbeli çatılar olarak planlanmıştır. Bunlardan her biri 18 × 18 m. ebadında olup 324 m<sup>2</sup>’lik bir alanı kaplamaktadır. Yerden yükseklikleri 16,65 m., yarı çapları 7,35 m. olan kubbeler hendesî ve arabesk ahşap kabartma üzerine altınla tezyin edilmiştir. Son genişletmede eski haliyle bırakılan ve çok sayıda kubbeyi taşıyan sütunlardan Ravza-i Mutahhara bölümünde yer alanların tezyinatı diğerlerinden farklıdır. Sütun başlıkları hurma yapraklarıyla süslenmiş olup yapraklar köşelerde kıvrılarak iyonik bir karakter kazanmıştır. Ancak bu bölümdeki bütün başlıklar aynı stilde değildir. </p><p> <b>Mescid-i Nebevî’nin Bölümleri. Hücre-i Saâdet.</b> Resûl-i Ekrem’in Hz. Âişe’nin odasına defnedilmesinden sonra burası hücre-i saâdet adıyla anılmaya başlanmıştır. Hz. Ömer ve Hz. Osman, Mescid-i Nebevî’yi genişletirken hücre-i saâdeti ve diğer odaları olduğu gibi bırakmışlardı. Hücre-i saâdetin dışındaki diğer odalar Velîd zamanındaki genişletmede mescide dahil edilmiştir. Mescid-i Nebevî ile ilgili bütün onarım faaliyetlerinde hücre-i saâdete öncelik verilmiş, burası, Hz. Peygamber’in minberinin bulunduğu yerle bütünleşerek mescidin en önemli bölümü haline gelmiştir (bk. <a href="https://islamansiklopedisi.org.tr/hucre-i-saadet" target="_blank">HÜCRE-i SAÂDET</a>; <a href="https://islamansiklopedisi.org.tr/ravza-i-mutahhara" target="_blank">RAVZA-i MUTAHHARA</a>). </p><p> <b>Minber.</b> Resûl-i Ekrem’in Mescid-i Nebevî’de cemaate hitap ederken dayanması için hurma ağacından bir kütük konulmuş, cemaatin Hz. Peygamber’in yüzünü görememesi ve sesini işitememesi üzerine 7 (628) veya 8. (629) yılda ılgın ağacından 50 cm. eninde 1,25 m. uzunlukta, 1 m. yükseklikte, arkasında üç sütunu bulunan üç basamaklı ilk minber yapılmıştır. İlk halifeler Resûl-i Ekrem’e saygılarından dolayı üçüncü basamağı kullanmamışlardı ve bu basamak bir tahta parçasıyla kapatılmıştı (İbn Abdürabbih, VII, 289; İbn Cübeyr, s. 146). Resûlullah’ın minberin yapılmasından önce dayandığı hurma kütüğü İslâm’ın ilk yıllarından itibaren Übey b. Kâ‘b tarafından muhafaza edilmişti (İbn Mâce, “İḳāmetü’ṣ-ṣalât”, 199). Öte yandan Hz. Peygamber’e dair şiirlerini okuması için Hassân b. Sâbit’e Mescid-i Nebevî’de bir minber tahsis ettiği kaydedilmektedir. Hz. Osman zamanında Resûl-i Ekrem’in minberinin üzerine bir kubbe yapılarak kumaşla örtülmüş ve basamakları abanoz ağacıyla kaplanmıştır. Muâviye b. Ebû Süfyân devrinde minbere altı basamak ilâve edilmiştir. Bu ilk minber 654 (1256) yılındaki bir yangında yanınca yerine Yemen Hükümdarı el-Melikü’l-Muzaffer Şemseddin tarafından gönderilen minber konulmuş (656/1258), ardından bu minber Memlük Sultanı I. Baybars tarafından yenilenmiştir (666/1268). Memlük Sultanı Berkuk’un 797’de (1395) gönderdiği minberi 820’de (1417) Memlük Sultanı Şeyh el-Mahmûdî değiştirmiştir. Bu minber 886’daki (1481) Mescid-i Nebevî yangınında hasar görerek kullanılamaz duruma gelince Medineliler tuğla ve alçıdan yeni bir minber yaptırmış, bu minber, Kayıtbay tarafından 888’de (1483) gönderilen mermer minberin Mescid-i Nebevî’ye konulmasına kadar kullanılmıştır. Kayıtbay’ın minberi daha sonra Mescid-i Kubâ’ya taşınarak yerine III. Murad’ın yolladığı mermer minber konulmuştur (998/1590). Osmanlı selâtin camilerinde benzerleri görülen, üzerinde zarif altın tezyinatlı kubbenin yer aldığı, yaklaşık 7 m. yüksekliğindeki bu minber süsleme ve tezyinat bakımından bir şaheser olup halen Hz. Peygamber’in mihrabının sağında ve minberinin yerinde durmaktadır. </p><p> <b>Mihrap.</b> Başlangıçta Mescid-i Nebevî’nin bir mihrabı yoktu. Hz. Peygamber’in namaz kıldırdığı yer belliydi. Ömer b. Abdülazîz, Mescid-i Nebevî’yi imar ederken ön duvara oyulmuş niş tarzında bir mihrap ilâve etmiş, bu mihrap daha sonra Resûl-i Ekrem’in mihrabı olarak tanınmıştır. Velîd b. Abdülmelik ve Mehdî-Billâh dönemlerinde yapılan düzenlemelerde mihraba giden revakın tezyinatına özel bir önem verilmiş, çok dengeli çizgiler taşıyan, sağında imamın girmesi için bir kapısı bulunan mihrabın üstü altın tezyinatlı bir kubbe ile örtülmüştür (İbn Abdürabbih, VII, 288-289). Memlük Sultanı Kayıtbay’ın, 888’de (1483) siyah-beyaz ve renkli mermerden yeniletip madalyon ve şerit halinde celî sülüs yazılar ve geometrik motiflerle süslettiği mihrap yüzyıllar boyunca kullanılmış, 1984’te ise tamamen yenilenmiştir. Mescid-i Nebevî’de Resûl-i Ekrem’in mihrabından başka mihraplar da vardır. Hz. Osman, mescidde zemini yükseltilerek çevresi kuşatılan ve “maksûre” adı verilen bir yer yaptırmış ve burada namaz kılmayı âdet edinmiştir. Ömer b. Abdülazîz, Mescid-i Nebevî’yi imar ederken bu maksûrenin yerine niş tarzında bir mihrap yaptırınca burası Hz. Osman’ın mihrabı olarak anılmaya başlanmıştır. Maksûrenin kuzeyinde Hz. Peygamber’in gece namazı kıldığı yerdeki “mihrâbü’t-teheccüd” olarak tanınan mihrap Kayıtbay ve Abdülmecid devirlerinde yenilenmiştir. Mushaf konulan ahşap dolabı dışında bugün de mevcut olan bu mihrabın üzerinde altın süslemeler ve teheccüd âyetleri yazılıdır. Mihrâbü’t-teheccüdün önünde ve hücre-i saâdetin arkasında maksûre içinde Resûl-i Ekrem’in mihrabına benzer şekilde tezyin edilmiş olan Hz. Fâtıma’nın mihrabı bulunuyordu. Mescid-i Nebevî’de farklı mezhepler için ayrı ayrı mihraplar konulmuştur. Bunların en meşhuru, Memlük Sultanı el-Melikü’l-Eşref İnal’ın 861’de (1457) koydurduğu Hanefî mihrabıdır (Sehâvî, II, 267). 938’de (1531-32) Kanûnî Sultan Süleyman tarafından beyaz ve siyah mermerden yaptırılarak tezyin edilen ve üslûbu Kayıtbay mihrabına benzeyen bu mihrap Süleymâniye adıyla meşhur olmuştur. Memlük ve Osmanlı dönemlerindeki mihrapların kademeli girift kemerinde ve köşelerindeki mermer kaplamalarda ince bir işçilik göze çarpmakta, üzerlerinde kıbleyle ilgili âyetler yer almaktadır.</p><p><b>Mahfil.</b> Mescid-i Nebevî’ye ilk mahfili (maksûre) Hz. Ömer’in namaz kıldırırken şehid edilmesini dikkate alan Hz. Osman yaptırmıştır. Mescid-i Nebevî’de Resûl-i Ekrem’in minberinin kuzeyinde Bilâl-i Habeşî’nin müezzinlik yaptığı yerde bulunan müezzin mahfili “makberiyye” adıyla meşhur olmuştur. İlk zamanlarda basit ve sade yapıda ahşap olan mahfil, Kayıtbay tarafından kare planlı ince ve zarif dört direkten bir kaide üzerine tamamı mermerden yapılmıştır (<i>a.g.e.</i>, I, 60). Ardından bazı tamir ve tâdilâttan geçirilen müezzin mahfilinin en son tamiratı 1983’te gerçekleştirilmiştir. </p><p> <b>Minare.</b> Hz. Peygamber döneminde Mescid-i Nebevî’nin kıble tarafında, Bilâl-i Habeşî’nin ezan okumak için üzerine iple tırmanarak çıktığı “üstüvâne” denilen bir yer bulunmaktaydı (İbn İshak el-Harbî, s. 368; Abdülhay el-Kettânî, I, 161-162). Minarenin ilk şekli olarak düşünülebilecek silindir biçimindeki bu yerin dışında ezan okumak için mescidin çevresindeki bazı yüksek yerler de kullanılıyordu. Ömer b. Abdülazîz, Mescid-i Nebevî’yi genişletirken dört köşesine 8 × 8 zirâ ebadındaki bir kaideye oturan yaklaşık 26 m. yükseklikte dört minare yaptırmış, 97’de (716) Süleyman b. Abdülmelik, güneybatı köşesindeki minareyi şerefesinin mesken mahremiyetine zarar verdiği gerekçesiyle yıktırmıştır (İbn İshak el-Harbî, s. 368; Semhûdî, II, 526). Mescid-i Nebevî’nin bundan sonra yüzyıllar boyunca üç minareli olarak kaldığı, Medine’yi ziyaret eden İbn Cübeyr ve Evliya Çelebi’nin kayıtlarından anlaşılmaktadır (<span class="eser">er-Riḥle</span>, s. 148; <span class="eser">Seyahatnâme</span>, IX, 616-617). Muhammed b. Kalavun’un 706’da (1306-1307) inşa ettirdiği Bâbüsselâm minaresi IV. Mehmed tarafından yenilenmiştir. 13 Ramazan 886’da (5 Kasım 1481) mescidin güneydoğu köşesindeki minarenin bir kısmının yıldırım sebebiyle yıkılmasının ardından mescid imar edilirken bütün minareler tekrar yapılmıştır. Bu minarelerden bugün hâlâ ayakta duran ve Memlük sanatının en önemli örneklerinden biri olan güneydoğu köşesindeki minare dört bölümden oluşur. Başmüezzin burada ezan okuduğu için Reîsiyye adı verilen bu minarenin kare şeklindeki alt gövdesi üstte mukarnaslarla genişleyip ilk şerefeye ulaşır. Gövdenin orta kısmında dört yana açılan kapılarla mukarnaslar üzerine oturan, mahfil veya balkon tarzında dört küçük şerefe vardır. Dışarıdan gittikçe derinleşen bir niş gibi görünen mahfil kapılarının yukarısında üçgen şeklinde birer kemer yer alır. Osmanlı döneminde 947’de (1540) mescidin kuzeydoğusundaki minare yıkılarak yerine 4,65 × 4,65 metrelik kaide üzerinde yaklaşık 70 m. yükseklikte, Kanûnî Sultan Süleyman’a nisbetle Süleymâniye olarak adlandırılan üç şerefeli bir minare inşa edilmiştir. Abdülmecid’in imarı sırasında kuzeybatıda Mecidiye, güneybatıda Bâbüsselâm, batıda ise Bâbürrahme diye anılan minareler yapılmıştır. Mescidin Reîsiyye dışındaki minareleri tamamen Osmanlı tarzını yansıtmaktaydı. İlk Suûdî genişletmesinde Mecidiye ve Süleymâniye yerine kare kaideli, 72 m. yükseklikte iki yeni minare inşa edilmiştir. Mescid-i Nebevî’nin 1994’te tamamlanan son imarında minare sayısı ona çıkarılmıştır. Yeni eklenen altı minare 104 m. yükseklikte olup dörder şerefelidir. 5,5 × 5,5 m. ebadındaki bir zemine oturan minarelerde alt kısım kare, ortası sekizgen, üst kısım silindirik gövdelidir. </p><p> <b>Avlu.</b> Emevî Halifesi Velîd b. Abdülmelik dönemindeki planlamada Mescid-i Nebevî’nin ortasında kum ve çakıl dökülmüş, iki tarafına hurma ağaçlarının dikildiği, daha sonra “kumluk” adıyla meşhur olan üzeri açık bir avlu bulunuyordu. Ebû Ca‘fer el-Mansûr sıcak havalarda avlunun örtülerle gölgelendirilmesini istemiş ve ahşap direklere gerilen iplerin üzerine konulan örtülerle gölgelenme sağlanmıştı (İbn Battûta, I, 133). 439’da (1047-48) Medine’yi ziyaret eden Nâsır-ı Hüsrev, Mescid-i Nebevî’nin üstü açık kısımlarının üzerinin kuşların girmemesi için ağla örtülmüş olduğunu kaydeder (<span class="eser">Sefernâme</span>, s. 111). Mescidin sahanlığının ortasındaki araç ve gereçlerin saklandığı yere “kubbetü’z-zeyt” denilir (İbn Cübeyr, s. 147). Burası Abdülmecid’in imarında ortasında havuzun yer aldığı, farklı ihtiyaçlar için bölümlerin bulunduğu iki farklı kısım şeklinde tasarlanmıştır. </p><p> <b>Kapılar.</b> Mescid-i Nebevî’nin ilk inşasında batı tarafında Bâbürrahme (Bâbüâtike), doğu tarafında Bâbücibrîl (Bâbüosman) ve güney tarafında Bâbülcenûbî adlarıyla üç kapısı bulunuyordu. Kıblenin değişmesinden sonra güneydeki kapı kapatılarak kuzey duvarında bir kapı açılmıştır. Hz. Ömer zamanında kapı sayısı altıya çıkarılmıştır. Mescid-i Nebevî’nin kapıları, genişletmeler sırasında daha ileriye alınmaları dışında Mehdî zamanındaki imara kadar herhangi bir değişikliğe uğramamıştır. Bu dönemde doğu ve batı duvarlarında sekizer, güney ve kuzey duvarlarında dörder olmak üzere kapı sayısı yirmi dört olmuştur. Bu sayı on sekiz, on dokuz veya yirmi olarak da kaydedilmektedir (İbn İshak el-Harbî, s. 384; İbn Abdürabbih, VII, 290; İbn Cübeyr, s. 148; Semhûdî, II, 686-687). Kanûnî Sultan Süleyman devrinde Bâbürrahme yenilenmiş, kapının sağ ve sol tarafına Hz. Peygamber’in âlemlere rahmet olarak gönderildiğini belirten âyetten sonra Kanûnî’den Osman Bey’e kadar bütün Osmanlı padişahlarının adı yazılmıştır. Abdülmecid zamanında bu kapılardan, ilk dönemden kalan batı duvarının kıble duvarına bitiştiği yerdeki Bâbüsselâm, batı tarafındaki Bâbürrahme, kuzey duvarındaki Abdülmecid’e nisbetle Bâbülmecîdî, doğu tarafındaki Bâbünnisâ ve Bâbücibrîl yenilenmiş, diğerleri kapatılmıştır. Resûl-i Ekrem, hastalığı sırasında Hz. Ebû Bekir’in kapısı dışında mescidin avlusuna açılan bütün kapıların kapatılmasını istediğinden (Buhârî, “Ṣalât”, 80, “Menâḳıbü’l-enṣâr”, 45) bu kapı genişletmelerde korunmuş ve mescid dışına yer altından bir geçit konulmuştur (İbn Cübeyr, s. 147). Geçidin çıkışı Kayıtbay Medresesi’nin inşası esnasında kapatılmış, geçit ise çeşitli eşyaların konulduğu küçük depolar haline getirilmiştir. İlk Suûdî genişletmesinde kapıların sayısı ona çıkarılmıştır. Günümüzde Mescid-i Nebevî’nin kırk bir ana giriş ve çıkış noktası bulunmaktadır. </p><p> <b>Diğer Özellikleri.</b> Mescid-i Nebevî’nin çeşitli yerlerine erken dönemden itibaren su getirilmiştir. II. (VIII.) yüzyılda mescidin iç ve dış bölümlerinde abdest almak ve su içmek için on dokuz adet su mahalli bulunduğu rivayet edilmektedir (İbn Şebbe, I, 259; Semhûdî, III, 678). Ömer b. Abdülazîz zamanından başlayarak kurşun borular kullanılmıştır (İbn İshak el-Harbî, s. 385). 726’da (1326) Medine’yi ziyaret eden İbn Battûta hücre-i saâdetin kuzeyinde mermer bir havuz bulunduğunu, Bâbüsselâm’ın yanındaki Aynüzzerkā kaynağından gelen çeşmeye bir merdivenle inildiğini kaydeder (<span class="eser">er-Riḥle</span>, I, 134). Memlük Sultanı Kalavun çeşmenin yanına bir şadırvan inşa ettirmiş, bu şadırvan 1837’de yenilenmiştir. Aynı yıl Bâbürrahme civarında I. Ahmed tarafından yaptırılan sebil ve fıskıye de onarılmıştır (M. Hezzâ‘ eş-Şehrî, <span class="eser">el-Mescidü’n-nebevî fi’l-ʿaṣri’l-ʿOs̱mânî</span>, s. 91). Abdülmecid devrinde (1839-1861) gerçekleştirilen imarda kuzeyde revaklardan sonra kıble duvarına paralel iki bölümden oluşan bir yapı tasarlanmıştır. Üstü kapalı olan doğu kısmı Mecidiye kapısının iki tarafında ikişer odadan oluşan bir mekteptir. Üstü açık batı kısmında bir iç avlu etrafında kandiller ve temizlik malzemeleri, hasır gibi eşyaların konulduğu oda ve mahzenler, ortasında ise tuvalet, banyo ve abdest alma yerleri bulunmaktadır. </p><p> Mescid-i Nebevî ilk zamanlarda hurma dalları yakılarak aydınlatılıyordu. Ashaptan Temîm ed-Dârî, Suriye’den Medine’ye gelirken beraberinde kandil ve yağını getirmiş, mescid bununla aydınlatılmaya başlanmıştır. Temîm, Hz. Peygamber’in takdir ve dualarına nâil olmuş (Zehebî, II, 448), ardından mescidin aydınlatılması görevini Temîm’in kölesi üstlenmiştir (İbn Abdülber, II, 683; İbn Hacer, II, 32). Hz. Ömer zamanında Mescid-i Nebevî’ye büyük kandiller asılmış ve buhurdanlıklar konulmuştur. Daha sonra kandil, fener, mum ve meşale gibi aydınlatma araçları kullanılmış, bunlar için özel tahsisat ayrılmıştır. Osmanlı döneminde kullanılamaz hale gelen altın ve gümüş buhurdanlık ve kandiller eritilip bunların yerine yenileri konulmuştur (<span class="kisaltma" data-ad="ba-md">BA, <i>MD</i></span>, nr. 73, s. 368). Mescid-i Nebevî’de ilk defa 1908 yılında elektrik kullanılmıştır (M. Lebîb el-Betenûnî, s. 327). </p><p> Mescidin tamamının ilk olarak ne zaman tefriş edildiği bilinmemekte, ancak konuyla ilgili haberlerin Memlük devrinin sonlarına doğru arttığı görülmektedir. Osmanlılar zamanında Mescid-i Nebevî’nin tefrişine ayrı bir önem verilmiş, başlangıçta yaygın olan Hint seccadelerine Uşak, Gördes, Hereke gibi Anadolu’da dokunanları ilâve edilmiştir. Abdülmecid’in imarından sonra başlayan seccade gönderme işi 1901’de İstanbul’da dokunan yirmi yedi parça ile tamamlanmış, Osmanlı seccadeleri Melik Abdülazîz döneminde Mescid-i Nebevî seccadeleri tek tipe dönüştürülünceye kadar kullanılmıştır. </p><p> Emevî Halifesi Velîd b. Abdülmelik zamanında gerçekleştirilen imar faaliyetlerinin ardından Mescid-i Nebevî’ye ilk kitâbe konulmuş, Abbâsî Halifesi Mehdî-Billâh devrinden itibaren halife ve sultanların Mescid-i Nebevî’nin imarıyla ilgili her türlü faaliyetlerinin bir kitâbe ile kayıt altına alınması bir gelenek olmuştur. </p><p> <b>Dinî-İlmî, Sosyal ve Kültürel Hayattaki Yeri.</b> Vahyin en çok geldiği mekânlardan biri olan Mescid-i Nebevî, Hz. Peygamber’in ibadet ve ziyaret maksadıyla yolculuk yapılmaya değer olduğunu belirttiği üç mescidden (diğerleri Mescid-i Harâm ve Mescid-i Aksâ) biridir (Buhârî, “Fażlü’ṣ-ṣalât fî mescidi Mekke ve’l-Medîne”, 1, 6; Müslim, “Ḥac”, 511-513). Resûlullah, Mescid-i Nebevî’de kılınan namazın Mescid-i Harâm hariç diğer yerlerde kılınan namazlardan bin kat daha faziletli olduğunu haber vererek (Buhârî, “Fażlü’ṣ-ṣalât fî mescidi Mekke ve’l-Medîne”, 1; Müslim, “Ḥac”, 505-510; İbn Mâce, “Mesâcid”, 1; “İḳāmetü’ṣ-ṣalât”, 195; Tirmizî, “Ṣalât”, 126, Nesâî, “Mesâcid”, 4, 7) bu mescidde namaz kılmanın önemini belirtmiş, diğer bir hadisinde eviyle minberi arasındaki Ravza-i Mutahhara’nın cennet bahçelerinden bir bahçe olduğunu söylemiştir (Buhârî, “Fażlü’ṣ-ṣalât fî mescidi Mekke ve’l-Medîne”, 5; Müslim, “Ḥac”, 500-502). 22 × 15 m. ebadındaki bu bölümde İslâm’ın ilk döneminden hâtıralar taşıyan sütunlar yer almaktadır. Abdülmecid’in imarı esnasında bu sütunların üzerine adları ve Hz. Peygamber’in mescidle ilgili hadisleri yazılıp bunların diğer sütunlardan farklı olduğu vurgulanmıştır. Resûl-i Ekrem ramazanın son on gününde Mescid-i Nebevî’de itikâfa girerdi. Bu uygulamasını vefatına kadar sürdürmüştür (Buhârî, “İʿtikâf”, 1). Medine’de Abbâsîler’e karşı isyan eden Tâlibîler zamanında Mescid-i Nebevî’de dört hafta üst üste cuma namazının kılınamaması çok hüzün verici bir durum olarak karşılanmıştır (Taberî, <span class="eser">Târîḫ</span>, X, 7). </p><p> Hz. Ömer zamanına kadar Mescid-i Nebevî’de teravih namazını cemaatle kılma âdeti yoktu. Halife Ömer teravih namazını kıldırmak için kadın ve erkeklere iki ayrı imam tayin etmiş, Übey b. Kâ‘b, Resûlullah’ın mihrabında erkeklere, Süleyman b. Ebû Hasme mescidin kuzeydoğu köşesinde yapılan ve Butayha diye anılan revakta (rahbe) kadınlara imamlık yapmıştır. Fıkıh mezheplerinin ortaya çıkışından sonra mezhep mensupları, Mescid-i Nebevî’ye konulan mihraplarının arkasında ayrı ayrı namaz kılmaya başlamıştır. XVII. yüzyılda mescidde önce Şâfiî, ardından Hanefî, Mâlikî ve Hanbelîler’in sırayla namaz kıldıkları, müezzinlerin mahfilde oturdukları yerden kalkmayıp bütün mezheplerin müezzinliklerini yaptıkları Evliya Çelebi’den öğrenilmektedir (<span class="eser">Seyahatnâme</span>, IX, 618). </p><p> Mescid-i Nebevî yapılışından itibaren Medine’nin en önemli ilim ve kültür merkezi olmuştur. Hz. Peygamber tarafından başlatılan eğitim ve öğretim faaliyetleri artarak devam etmiş ve mescid, bütün İslâm dünyasında özellikle dinî ilimlerde en önemli kültür merkezi olma özelliğini tarih boyunca sürdürmüştür. Mescidin harimiyle avlu ve revaklarında ders halkaları kurulmuş, hac mevsimlerinde İslâm dünyasının her yanından gelen âlimler bu derslere katılmaya özen göstermiştir. Burada yapılan ilmî müzakere ve tartışmalar İslâmî ilimlerin oluşumuna önemli katkılarda bulunmuştur. Mescid-i Nebevî’de ikamet eden Suffe ehlinin ise bu konuda ayrı bir yeri vardır (bk. <a href="https://islamansiklopedisi.org.tr/suffe" target="_blank">SUFFE</a>). Mescidin bakım ve onarımını yapmak, burada yürütülecek dinî hizmetlerle eğitim ve öğretim faaliyetlerinin masraflarını karşılamak için Emevîler döneminden itibaren çeşitli vakıflar tesis edilmiş, zamanla ortadan kalkan bazı vakıfların yerine de yenileri kurulmuştur. </p><p> Medine’de bilinen en eski kütüphane Mescid-i Nebevî’nin kütüphanesidir. Hz. Osman zamanında çoğaltılan mushaflardan biri, Mescid-i Nebevî’de “üstüvânetü’l-muhâcirîn” adlı sütunun yanında Abbâsî halifelerinden Nâsır-Lidînillâh devrinde yaptırılan küçük bir kürsünün üzerinde teşhir ediliyordu. Bunun dışında maksûrenin karşısında içerisinde mushaf ve kitapların yer aldığı iki büyük dolap vardı (İbn Cübeyr, s. 146-147). 985 (1577) tarihli bir kayıtta mescidin kütüphanesinde yer alan kitapların ciltlenmesi gerektiği belirtilmektedir (<span class="kisaltma" data-ad="ba-md">BA, <i>MD</i></span>, nr. 31, s. 369). 1309’da (1891-92) mescidde 1081 adet kitap ve mushaf bulunmaktaydı (<span class="eser">Hicaz Vilâyeti Salnâmesi</span>, s. 306). </p><p> Mescid-i Nebevî’nin ilk imamı, hatip ve vâizi olan Hz. Peygamber’den sonra bu görevler halifeler, hilâfet merkezinin Dımaşk’a nakledilmesinden sonra valiler, ardından imam ve hatipler tarafından üstlenilmiştir. Mescid-i Nebevî’ye yapımından itibaren başta müezzin olmak üzere çeşitli alanlarda görevliler tayin edilmiş, bunlara Hz. Osman zamanından itibaren maaş verilmeye başlanmış, Emevîler döneminde görevlilerin sayısı arttırılmış, çalışma alanları çeşitlenmiştir. Ömer b. Abdülazîz Medine valisi olunca mescidin güvenliğini sağlayan ve özellikle cenazelerin mescide getirilip götürülmesine nezaret eden bekçiler tayin etmiştir (Semhûdî, II, 531). İlk zamanlarda Medine valileri veya özel görevliler vasıtasıyla takip edilen teknik ve mimari işler için Memlük ve Osmanlı devirlerinde dâimî statüde bina eminleri vazifelendirilmiştir. Osmanlı döneminde Mescid-i Nebevî’nin bütün masraf ve giderleri bu maksatla kurulan ayrı bir hazineden karşılanmıştır. 997’de (1589) gerçekleştirilen faaliyetlerde mimara günde 30 para ücretle aylık 10 irdeb buğday, vasıfsız işçiye günde 12 para ücretle aylık 5 irdeb buğday takdir edilmiştir (<span class="kisaltma" data-ad="ba-md">BA, <i>MD</i></span>, nr. 64, s. 45). </p><p> İslâmiyet’in ilk yıllarında Mescid-i Nebevî bütün resmî faaliyetlerin gerçekleştirildiği bir mekândı. Hz. Peygamber’in devlet başkanı olması dolayısıyla siyasetin, muallimlik vasfı sebebiyle eğitimin, ordu kumandanı olarak askerî teşkilâtın, kadılık vasfıyla adalet teşkilâtının merkezi durumundaydı. Ayrıca Suffe başta olmak üzere bazı kişiler için barınma yeri, misafirhane ve sosyal yardım mahalli olarak kullanılıyordu. Resûl-i Ekrem, çeşitli Arap kabilelerine mensup elçi heyetlerini burada “üstüvânetü’l-vüfûd” denilen sütunun önünde kabul etmiş, bazı heyetler mescidin içerisinde kurulan çadırlarda ağırlanmıştır (Abdürrezzâk es-San‘ânî, I, 414). Hz. Peygamber zamanında Mescid-i Nebevî’de Eslem kabilesinden Rufeyde el-Ensâriyye adındaki kadın için bir çadır kurulmuş, Rufeyde burada yaralı ve hastaları tedavi etmişti. Aynı dönemde bazı suçluların cezalarını çekmeleri için Mescid-i Nebevî’nin direğine bağlandıkları rivayet edilmektedir (Buhârî, “Ṣalât”, 76). Resûlullah ve dört halife devrinde mescidin sosyal ve hukukî problemlerin çözümü için kullanıldığı ve hâkimlerin oturdukları revaka “kazâ revakı” denildiği kaydedilmektedir (Abdülhay el-Kettânî, II, 30-31). Hz. Peygamber gerekli gördüğü zamanlarda münâdîler çıkarmak suretiyle halkı mescide toplardı (Abdürrezzâk es-San‘ânî, I, 532-533; <span class="kisaltma" data-ad="musned"><i>Müsned</i></span>, V, 299, 300-301). Mescid-i Nebevî’de “meşrebe, hizâne” adları verilen oda beytülmâl görevi yapmaktaydı. </p><p> Mescid-i Nebevî, inşasından itibaren Mekke’deki Mescid-i Harâm gibi şehrin gündelik hayatının merkezini oluşturmuştur; çevresindeki çarşılar da ticarî hayatın merkeziydi. Halkın toplantı ve buluşma yeri olan avlusunda ikindi namazının arkasından başlayan hareketlilik yatsı namazının sonuna kadar devam ederdi. Belâzürî’nin nakline göre mescidde genellikle muhacirlerin oturduğu, halifenin ülkenin çeşitli yerlerinde olup bitenler hakkında bilgi verdiği ve istişarede bulunduğu bir bölüm vardı (<span class="eser">Fütûh</span>, s. 382). İlk dönemlerde mescidin arka tarafında kadın ve erkeklere ait birer sofa bulunuyordu. O devrin şartları içerisinde insanların serbest zamanlarını geçirdikleri bir sohbet yeri olan bu alanda beytülmâl teşekkül etmeden önce Medine’ye gelen mallar muhafaza ediliyordu (Ebû Yûsuf, s. 50). Hz. Ömer, mescidin doğu tarafındaki avlusunun arka (kuzey) kısmında Butayha adı verilen bir mekân yaptırarak burasını sohbet etmek, yüksek sesle konuşmak veya şiir okumak isteyenlere tahsis etmişti. </p><p> Dinî ve ilmî fonksiyonu yanında Mescid-i Nebevî siyasî hayatta da önemli bir rol oynamıştır. Mescidin minberi sadece hutbe okumak için değil halka yapılacak konuşmalar, halifelere biat gibi merasimler için de kullanılmıştır. Medine’nin dinî merkez olma özelliğini ortadan kaldırmayı düşünen Muâviye b. Ebû Süfyân, 50 (670) yılında Medine Valisi Mervân’dan mescidin minberini sökerek Hz. Peygamber’in asâsıyla birlikte Dımaşk’a göndermesini istemişti (Taberî, <span class="eser">Târîḫ</span>, V, 238; İbn Kesîr, VIII, 46; İbnü’z-Ziyâ el-Mekkî, s. 275). Muâviye, kutsal emanetleri elinde toplayarak istikbale yönelik siyasî beklentilerinin gerçekleşmesini kolaylaştırmayı ve kendisine muhalif olan Medineliler’i siyasetin dışına itmeyi hedefliyordu. Minberi sökmek için harekete geçen Mervân, Medineli müslümanların tepkisi ve o sırada güneş tutulması üzerine bundan vazgeçmiş, minbere altı basamak daha ilâve edilmesini emretmiştir (Taberî, <span class="eser">Târîḫ</span>, V, 239; İbnü’z-Ziyâ el-Mekkî, s. 275; Semhûdî, II, 399-400). Muâviye’den sonra da bazı Emevî halifeleri Mescid-i Nebevî’nin minberini başşehir Dımaşk’a nakletmeyi düşünmüşler, ancak bunu gerçekleştirecek uygun bir ortam bulamamışlardır. </p><p> Emevî Halifesi Abdülmelik zamanından itibaren başşehirden gönderilen Kâbe örtüsünün Mescid-i Nebevî’de halka gösterildikten sonra Mekke’ye gönderilmesi âdet olmuştur (Küçükaşcı, s. 65). Abbâsîler’in sonlarına doğru halifeler, Haremeyn siyaseti açısından Mescid-i Nebevî’de bazı tâdilâtlar yapmaya önem verdiler. I. Baybars 658-663 (1260-1265) yılları arasında, her yıl Mescid-i Nebevî’nin yarım kalan imarını tamamlamak için Medine’ye gönderilecek malzeme ve aletleri Kahire’de halka teşhir edip usta ve işçilerle birlikte buraya gönderirdi (İbn Kesîr, XIII, 251). Bu uygulama Osmanlı hâkimiyeti zamanında da devam etmiş, Hicaz’da kutsal yerlere konulacak olan malzemeler ve armağanlar İstanbul’da teşhir edildikten sonra bölgeye gönderilmiştir. </p><p> Mescid-i Nebevî, Hz. Peygamber’den Abbâsîler’in sonuna kadar Mekke veya Haremeyn valisi yahut onlar tarafından görevlendirilen Medine kadısı veya muhtesipleri tarafından yönetilmiş, Eyyûbîler döneminden itibaren Mescid-i Nebevî’de görevlendirilen hâdimlerin başkanı olan şeyhülharem bunlara ilâve edilmiştir. Osmanlı devrinde Mescid-i Nebevî ile ilgili işlere vali adına onun görevlendirdiği nâibü’l-Harem bakmaya başlamıştır. Padişahların Medine’deki temsilcisi şeyhülharem de Mescid-i Nebevî’nin yönetiminde söz sahibiydi. Tanzimat’ın ardından Mescid-i Nebevî’nin yönetimi Harem-i şerif müdürü vasıtasıyla yürütülmüştür.</p> <bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p><span class="kisaltma" data-ad="el-muvatta"><i>el-Muvaṭṭaʾ</i></span>, “Cumʿa”, 2, “Ḳaṣrü’ṣ-ṣalât”, 14, 24, “Vuḳūtü’ṣ-ṣalât”, 2.</p><p> Abdürrezzâk es-San‘ânî, <span class="eser">el-Muṣannef</span> (nşr. Habîbürrahman el-A‘zamî), Beyrut 1403/1983, I, 414, 532-533;  III, 153, 182-183, 215;  IV, 248-249;  V, 396-397;  IX, 267.</p><p><span class="kisaltma" data-ad="musned"><i>Müsned</i></span>, I, 70, 184, 249; II, 29, 53, 68, 101; III, 91, 155, 323; V, 116, 299, 300-301, 330, 335.</p><p> Dârimî, “Muḳaddime”, 6, “Ṣalât”, 202, “Siyer”, 12.</p><p> Buhârî, “Ṣalât”, 48, 62-65, 68, 70-72, 75-77, 80, “Cumʿa”, 26, “Fażlü’ṣ-ṣalât fî mescidi Mekke ve’l-Medîne”, 1, 5-6, “Ḥac”, 210, 415, “Ṣavm”, 72-73, 76, 84, 88, “İʿtikâf”, 1, “Büyûʿ”, 32, “Şehâdât”, 15, “Veṣâyâ”, 27, 30, “Menâḳıbü’l-enṣâr”, 45.</p><p> Müslim, “Mesâcid”, 533, 544, “Ṣıyâm”, 213, 215-216, “Ḥac”, 415, 500-514.</p><p> İbn Mâce, “Mesâcid”, 1, “İḳāmetü’ṣ-ṣalât”, 195-196, 199.</p><p> Ebû Dâvûd, “Ṣalât”, 11, 13, 15, 221-223, “Menâsik”, 94-95.</p><p> Tirmizî, “Ṣalât”, 125-126, “Menâḳıb”, 19.</p><p> Nesâî, “Mesâcid”, 4, 7, “Cihâd”, 44.</p><p> Dârekutnî, <span class="eser">es-Sünen</span> (nşr. Abdullah Hâşim Yemânî el-Medenî), Beyrut, ts. (Âlemü’l-kütüb), IV, 195.</p><p><span class="kisaltma" data-ad="beyhaki-es-sunenul-kubra">Beyhakī, <i>es-Sünenü’l-kübrâ</i></span>, II, 444;  III, 195;  VI, 127, 167-168.</p><p><span class="kisaltma" data-ad="ba-md">BA, <i>MD</i></span>, nr. 31, s. 369;  nr. 64, s. 45;  nr. 73, s. 368.</p><p><span class="kisaltma" data-ad="ba">BA</span>, İrade-Dahiliye, nr. 219/12892.</p><p><span class="kisaltma" data-ad="ba">BA</span>, Meclis-i Vükelâ, nr. 159/13.</p><p><span class="kisaltma" data-ad="ba-hh">BA, <i>HH</i></span>, nr. 27432.</p><p><span class="kisaltma" data-ad="ba-amktum">BA, A.MKT.UM</span>, nr. 406/5;  nr. 545/37.</p><p><span class="kisaltma" data-ad="ba">BA</span>, Evkaf Defterleri, nr. 1-1/11189-90, 12341, 15189.</p><p> Ebû Yûsuf, <span class="eser">Kitâbü’l-Ḫarâc</span> (nşr. Muhibbüddin el-Hatîb), Kahire 1396, s. 50.</p><p> İbn Hişâm, <span class="eser">es-Sîre</span> (nşr. Ömer Abdüsselâm Tedmürî), Kahire 1987, II, 83, 138, 142;  IV, 314-315.</p><p> İbn Sa‘d, <span class="eser">eṭ-Ṭabaḳāt</span> (nşr. M. Abdülkādir Atâ), Beyrut 1410/1990, I, 183-186;  III, 213-215, 277, 399, 457, 459;  IV, 15-16, 109;  V, 19, 339;  VIII, 133.</p><p><span class="kisaltma" data-ad="ibn-sebbe-tarihul-medinetil-munevvere">İbn Şebbe, <i>Târîḫu’l-Medîneti’l-münevvere</i></span>, I, 34, 138, 183, 259;  III, 958-962;  IV, 1294-1295.</p><p><span class="kisaltma" data-ad="belazuri-futuh-fayda">Belâzürî, <i>Fütûh </i>(Fayda)</span>, s. 2, 4-8, 382.</p><p> a.mlf., <span class="eser kisaltma" data-ad="belazuri-ensab-zekkar">Ensâb</span> (Zekkâr), I, 314;  II, 118;  III, 297-299;  VI, 150;  VIII, 71-72;  X, 322-323;  XI, 257.</p><p> İbn İshak el-Harbî, <span class="eser">el-Menâsik ve emâkinü ṭuruḳi’l-ḥac ve meʿâlimü’l-Cezîre</span> (nşr. Hamed el-Câsir), Riyad 1401/1981, s. 272-273, 359-397.</p><p><span class="kisaltma" data-ad="taberi-camiul-beyan">Taberî, <i>Câmiʿu’l-beyân</i></span>, VI, 437;  XI, 26-28;  XVIII, 121.</p><p> a.mlf., <span class="eser kisaltma" data-ad="taberi-tarih-ebul-fazl">Târîḫ</span> (Ebü’l-Fazl), II, 396-397;  III, 22, 160, 457, 590;  IV, 267;  V, 238-240;  VI, 427-428, 435-437, 456, 476;  X, 7.</p><p><span class="kisaltma" data-ad="ibn-ruste-el-alakun-nefise">İbn Rüste, <i>el-Aʿlâḳu’n-nefîse</i></span>, s. 64-75.</p><p> İbn Abdürabbih, <span class="eser">el-ʿİḳdü’l-ferîd</span> (nşr. Abdülmecîd et-Terhînî), Beyrut 1407/1987, II, 17;  VII, 288-290.</p><p> Taberânî, <span class="eser">el-Muʿcemü’l-kebîr</span> (nşr. Hamdî Abdülmecîd es-Selefî), Musul-Kahire 1404/1983, I, 196;  II, 143, 144;  V, 133;  VI, 207.</p><p><span class="kisaltma" data-ad="ibn-abdulber-el-istiab">İbn Abdülber, <i>el-İstîʿâb</i></span>, II, 683.</p><p> Nâsır-ı Hüsrev, <span class="eser">Sefernâme</span> (trc. Yahyâ el-Haşşâb), Beyrut 1983, s. 110-111.</p><p> İbn Cübeyr, <span class="eser">er-Riḥle</span>, Beyrut, ts. (Dârü’ş-şarki’l-Arabî), s. 144-148.</p><p><span class="kisaltma" data-ad="ibnul-esir-el-kamil">İbnü’l-Esîr, <i>el-Kâmil</i></span>, II, 226, 489;  XII, 107.</p><p> İbnü’n-Neccâr el-Bağdâdî, <span class="eser">ed-Dürretü’s̱-s̱emîne fî târîḫi’l-Medîne</span> (nşr. M. Zeynühüm M. Azeb), Kahire 1416/1995, s. 146 vd., 175-177.</p><p><span class="kisaltma" data-ad="nevevi-serhu-muslim">Nevevî, <i>Şerḥu Müslim</i></span>, IX, 163-164.</p><p><span class="kisaltma" data-ad="zehebi-alamun-nubela">Zehebî, <i>Aʿlâmü’n-nübelâʾ</i></span>, II, 448, 605;  III, 275.</p><p> İbn Battûta, <span class="eser">er-Riḥle</span> (nşr. Ali Müntasır el-Kettânî), Beyrut 1405/1985, I, 133-140.</p><p><span class="kisaltma" data-ad="ibn-kesir-el-bidaye">İbn Kesîr, <i>el-Bidâye</i></span>, III, 213-214, 218;  VIII, 45-46;  IX, 80;  XII, 102, 201;  XIII, 251.</p><p> Zerkeşî, <span class="eser">İʿlâmü’s-sâcid bi-aḥkâmi’l-mesâcid</span> (nşr. Eymen Sâlih Şa‘bân), Beyrut 1416/1995, s. 153-156, 170-171, 179-180, 185-186.</p><p>Fîrûzâbâdî, <span class="eser">el-Meġānimü’l-muṭâbe fî meʿâlimi Ṭâbe</span> (nşr. Hamed el-Câsir), Riyad 1389/1969, s. 57.</p><p><span class="kisaltma" data-ad="ibn-hacer-el-isabe">İbn Hacer, <i>el-İṣâbe</i></span>, II, 32.</p><p> İbnü’z-Ziyâ el-Mekkî, <span class="eser">Târîḫu Mekkete’l-müşerrefe ve’l-Mescidi’l-Ḥarâm ve’l-Medîneti’ş-şerîfe ve’l-ḳabri’ş-şerîf</span> (nşr. Alâ’ İbrâhim el-Ezherî – Eymen Nasr el-Ezherî), Beyrut 1418/1997, s. 274-275.</p><p><span class="kisaltma" data-ad="tecrid-tercemesi"><i>Tecrid Tercemesi</i></span>, I, 375, 393;  III, 74.</p><p> Sehâvî, <span class="eser">et-Tuḥfetü’l-laṭîfe fî târîḫi’l-Medîneti’ş-şerîfe</span>, Medine 1979, I, 45, 60;  II, 267.</p><p> Semhûdî, <span class="eser">Vefâʾü’l-vefâ bi-aḫbâri dâri’l-Muṣṭafâ</span> (nşr. M. Muhyiddin Abdülhamîd), Beyrut 1374/1955, I, 88, 94, 322, 333-336, 338, 340, 341;  II, 399-403, 497-510, 526, 531, 540, 686-687;  III, 678.</p><p><span class="kisaltma" data-ad="evliya-celebi-seyahatname">Evliya Çelebi, <i>Seyahatnâme</i></span>, IX, 614-640.</p><p><span class="kisaltma" data-ad="miratul-haremeyn"><i>Mir’âtü’l-Haremeyn</i></span><span class="eser"><i>: Mir’ât-ı Medîne</i></span>, II, 16-17, 48-49, 68-69, 388 vd., 416 vd., 494 vd., ayrıca bk. tür.yer.</p><p> <span class="eser">Hicaz Vilâyeti Salnâmesi</span> (1309), s. 306.</p><p> M. Lebîb el-Betenûnî, <span class="eser">er-Riḥletü’l-Ḥicâziyye</span>, Kahire, ts. (Mektebetü’s-sekāfeti’d-dîniyye), s. 327.</p><p> İbrâhim Rifat Paşa, <span class="eser">Mirʾâtü’l-Ḥaremeyn</span>, Kahire, ts., I, 448-480.</p><p> K. A. C. Creswell, <span class="eser">A Short Account of Early Muslim Architecture</span>, Mitcham 1958, s. 43-44.</p><p> Selâhaddin el-Müneccid, <span class="eser">Dirâsât fî târîḫi’l-ḫaṭṭi’l-ʿArabî münẕü bidâyetih ilâ nihâyeti’l-ʿaṣri’l-Ümevî</span>, Beyrut 1972, s. 46, 82.</p><p> Doğan Kuban, <span class="eser">Muslim Religious Architecture</span>, Leiden 1974, s. 2 vd.</p><p> Şevket Rado, <span class="eser">Türk Hattatları</span>, İstanbul, ts. (Yayın Matbaacılık), s. 218.</p><p> Sâlih Lem‘î Mustafa, <span class="eser">el-Medînetü’l-münevvere teṭavvürühe’l-ʿumrânî ve türâs̱ühe’l-miʿmârî</span>, Beyrut 1981, tür.yer.</p><p> Suâd Mâhir, <span class="eser">Mesâcid fi’s-sîreti’n-nebeviyye</span>, Mısır 1987, s. 63-113.</p><p> M. Hezzâ‘ eş-Şehrî, <span class="eser">el-Mescidü’n-nebevî fi’l-ʿaṣri’l-ʿOs̱mânî</span> (doktora tezi, 1407/1987), Câmiatü Ümmi’l-kurâ Külliyyetü’ş-şerîa ve’d-dirâsâti’l-İslâmiyye, s. 91, 101, ayrıca bk. tür.yer.</p><p> a.mlf., <span class="eser">ʿİmâretü’l-Mescidi’n-nebevî münẕü inşâʾihî ḥattâ nihâyeti’l-ʿaṣri’l-Memlûkî</span>, Kahire 2001, tür.yer.</p><p> Oleg Grabar, <span class="eser">İslam Sanatının Oluşumu</span> (trc. Nuran Yavuz), İstanbul 1988, s. 93, 107, 109-110, 116-119, 133.</p><p> M. Seyyid el-Vekîl, <span class="eser">el-Mescidü’n-nebevî ʿabre’t-târîḫ</span>, Cidde 1409/1988.</p><p><span class="kisaltma" data-ad="abdulhay-el-kettani-et-teratibul-idariyye-ozel">Abdülhay el-Kettânî, <i>et-Terâtîbü’l-idâriyye </i>(Özel)</span>, I, 148-151, 161-162;  II, 29-31.</p><p> Nâcî M. Hasan Abdülkādir el-Ensârî, <span class="eser">ʿİmâre ve tevsîʿatü’l-Mescidi’n-nebeviyyi’ş-şerîf ʿabre’t-târîḫ</span>, Medine 1416/1996.</p><p> Yûsuf Ragdâ el-Âmilî, <span class="eser">Meʿâlimü Mekke ve’l-Medîne beyne’l-mâżî ve’l-ḥâżır</span>, Beyrut 1418/1997, s. 277 vd., 328, 329, 338.</p><p> M. İlyas Abdülganî, <span class="eser">Târîḫu’l-Mescidi’n-nebeviyyi’ş-şerîf</span>, Medine 1418/1997, s. 46, 152-154.</p><p> a.mlf., <span class="eser">el-Mesâcidü’l-es̱eriyye fi’l-Medîneti’l-münevvere</span>, Medine 2003, s. 16 vd.</p><p> M. Mâcid Abbas Hulûsî, <span class="eser">ʿİmâretü’l-mesâcid</span>, Kahire 1998, s. 66, 69-70, 71 vd.</p><p> Ahmed Receb M. Ali, <span class="eser">el-Mescidü’n-nebevî bi’l-Medîneti’l-münevvere ve rüsûmühû fi’l-fenni’l-İslâmî</span>, Kahire 1999, s. 19 vd., 72 vd.</p><p> Abdüllatîf b. Abdullah b. Dehîş, <span class="eser">ʿİmâretü’l-Mescidi’l-Ḥarâm ve’l-Mescidi’n-nebevî fi’l-ʿahdi’s-Suʿûdî</span>, Riyad 1419/1999, tür.yer.</p><p> Hâlid Muhammed Hâmid, <span class="eser">Meʿâlimü’l-Mescidi’n-nebeviyyi’ş-şerîf</span>, Kahire 1423/2003, s. 9 vd., 19, 22 vd., 54 vd., 68 vd., 78, 82, 100 vd., 127 vd.</p><p> Mustafa S. Küçükaşcı, <span class="eser">Cahiliye’den Emevîlerin Sonuna Kadar Haremeyn</span>, İstanbul 2003, s. 65, 217-236.</p><p> İbrahim Ateş, “Mescid-i Nebevî’nin Yapıldığı Günden Bu Yana Geçirdiği Genişletme Girişimleri”, <span class="kisaltma" data-ad="vd"><i>VD</i></span>, sy. 24 (1994), s. 5-50.</p><p> Uğur Derman, “Abdullah Zühdi Efendi”, <span class="kisaltma" data-ad="dia"><i>DİA</i></span>, I, 147.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/29/C29009515.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Bu madde TDV İslâm Ansiklopedisi’nin 2004 yılında Ankara’da basılan 29. cildinde, 281-290 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('MESCİD-i NEBEVÎ', 'mescid-i-nebevi', '1', 'C29009515.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/29/C29009515.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+									</div>
+					</div>
+    </div>
+
+	<div class="pure-u-1 pure-u-md-9-24 sticky-sidebar" style="padding-left:50px;">
+		
+                    <div class="right-gallery hide-on-print" id="rg">
+                <a img-order="0" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-1.jpg">
+                    <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/mescid-i-nebevi-1.jpg"
+                    title="Mescid-i Nebevî"  alt="Mescid-i Nebevî" />
+                </a>
+                <div class="right-info" style="text-align:center;">Mescid-i Nebevî</div>
+            </div>
+        
+		<!-- dosya link -->
+		<style>
+			.ltfolcont{text-align:center; border: 1px dashed #e5774280; border-radius: 3px; padding: 13px 20px; font-size:0.9rem; margin-bottom: 30px; overflow: hidden; line-height:1.25rem;color:#777;}
+			.ltfolcont span a{font-weight:bold; font-size:1.2rem; color:#e57742; line-height:1.2rem}
+			.ltfolcont span a:hover{text-decoration:underline !important;}
+			.ltfol:hover > div.ltfolcont{background:#f9f1f1;}
+		</style>
+					<div class="ltfolcont">
+				BU MADDE<BR/>
+				<span>
+					<a target="_blank" class="ltfol" href="/dosya/hac-ve-kurban">HAC ve KURBAN</a><BR/>				</span>
+				DOSYASINDA YER ALMAKTADIR.
+			</div>
+		
+
+
+				<div class="madde_suggested_container">
+			<div class="madde_suggested" id="#faketop">
+                <h2 class="visible-on-print">İlişkili Maddeler</h2>
+                <ul class="related-subjects">
+					<a href="/medine" target="_blank"><li><div style=""><div class="rs-adi">MEDİNE</div><div class="rs-tanitim">Hz. Peygamber’in mescidiyle kabrinin bulunduğu hicret yurdu, İslâm’da iki Harem bölgesinden biri, Resûl-i Ekrem ve Hulefâ-yi Râşidîn döneminin başşehri.</div></div></li></a><a href="/ravza-i-mutahhara" target="_blank"><li><div style=""><div class="rs-adi">RAVZA-i MUTAHHARA</div><div class="rs-tanitim">Mescid-i Nebevî içinde Hz. Peygamber’in kabri ile minberi arasındaki bölüm.</div></div></li></a><a href="/hucre-i-saadet" target="_blank"><li><div style=""><div class="rs-adi">HÜCRE-i SAÂDET</div><div class="rs-tanitim">Resûl-i Ekrem’in defnedildiği Hz. Âişe’nin odası.</div></div></li></a><a href="/suffe" target="_blank"><li><div style=""><div class="rs-adi">SUFFE</div><div class="rs-tanitim">Mescid-i Nebevî’nin bitişiğinde yoksul sahâbîlerin barınması için yapılan ve giderek bir eğitim kurumu haline gelen yer.</div></div></li></a><a href="/mescid-i-kuba" target="_blank"><li><div style=""><div class="rs-adi">MESCİD-i KUBÂ</div><div class="rs-tanitim">Hz. Peygamber’in hicreti sırasında Medine’den önce son durağı olan Kubâ’da yapılan mescid.</div></div></li></a><a href="/seyhulharem" target="_blank"><li><div style=""><div class="rs-adi">ŞEYHÜLHAREM</div><div class="rs-tanitim">Mescid-i Harâm ile Mescid-i Nebevî’de ders veren tanınmış âlimlere, buralarda görev yapan hizmetlilerden sorumlu kişilere, ayrıca Mekke ve Medine’nin yönetimini üstlenen kimselere verilen unvan.</div></div></li></a><a href="/abdullah-zuhdi-efendi" target="_blank"><li><div style=""><div class="rs-adi">ABDULLAH ZÜHDİ EFENDİ</div><div class="rs-tanitim">Mescid-i Nebevî’nin yazılarını yazan Osmanlı hattatı.</div></div></li></a><a href="/mescid-i-haram" target="_blank"><li><div style=""><div class="rs-adi">MESCİD-i HARÂM</div><div class="rs-tanitim">Kâbe’yi kuşatan mescid.</div></div></li></a><a href="/mescid-i-aksa" target="_blank"><li><div style=""><div class="rs-adi">MESCİD-i AKSÂ</div><div class="rs-tanitim">Müslümanların Kudüs’te bulunan ilk kıblesi, en kutsal sayılan üç mescidden biri.</div></div></li></a>				</ul>
+									<div id="show-ralist" style="padding-top:15px;"><a style="color:#0093c1" href="/mescid-i-nebevi/iliskili-maddeler" target="_blank">Bütün ilişkili maddeler &#187;</a></div>
+							</div>
+		</div>
+		
+
+
+        <div class="rg-container">
+            <h2 class="visible-on-print">Görseller</h2>
+            <div>
+                                        <div class="right-gallery visible-on-print">
+                            <a target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-1.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/mescid-i-nebevi-1.jpg"
+                                title="Mescid-i Nebevî"  alt="Mescid-i Nebevî" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Mescid-i Nebevî</div>
+                        </div>
+                                            <div class="right-gallery" id="rg1">
+                            <a img-order="1" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina içi fotoğrafı/mescid-i-nebevi-2.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina içi fotoğrafı/mescid-i-nebevi-2.jpg"
+                                title="Mescid-i Nebevî’nin içinden bir görünüş"  alt="Mescid-i Nebevî’nin içinden bir görünüş" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Mescid-i Nebevî’nin içinden bir görünüş</div>
+                        </div>
+                                            <div class="right-gallery" id="rg2">
+                            <a img-order="2" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-3.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/mescid-i-nebevi-3.jpg"
+                                title="Mescid-i Nebevî’nin mihrabı"  alt="Mescid-i Nebevî’nin mihrabı" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Mescid-i Nebevî’nin mihrabı</div>
+                        </div>
+                                            <div class="right-gallery" id="rg3">
+                            <a img-order="3" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-4.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/mescid-i-nebevi-4.jpg"
+                                title="Son genişletilme çalışmalarından evvel Mescid-i Nebevî’nin kıble tarafından bir görünüş"  alt="Son genişletilme çalışmalarından evvel Mescid-i Nebevî’nin kıble tarafından bir görünüş" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Son genişletilme çalışmalarından evvel Mescid-i Nebevî’nin kıble tarafından bir görünüş</div>
+                        </div>
+                                            <div class="right-gallery" id="rg4">
+                            <a img-order="4" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-5.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/mescid-i-nebevi-5.jpg"
+                                title="Mescid-i Nebevî’nin gece görünüşü"  alt="Mescid-i Nebevî’nin gece görünüşü" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Mescid-i Nebevî’nin gece görünüşü</div>
+                        </div>
+                                            <div class="right-gallery" id="rg5">
+                            <a img-order="5" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Plan/mescid-i-nebevi-6.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Plan/mescid-i-nebevi-6.jpg"
+                                title="Mescid-i Nebevî’de başlangıçtan bugüne kadar gerçekleştirilen genişletme çalışmalarını gösteren plan"  alt="Mescid-i Nebevî’de başlangıçtan bugüne kadar gerçekleştirilen genişletme çalışmalarını gösteren plan" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Mescid-i Nebevî’de başlangıçtan bugüne kadar gerçekleştirilen genişletme çalışmalarını gösteren plan</div>
+                        </div>
+                                            <div class="right-gallery" id="rg6">
+                            <a img-order="6" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/mescid-i-nebevi-7.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Diğer fotoğraf/mescid-i-nebevi-7.jpg"
+                                title="Mescid-i Nebevî’nin avlusundaki çadır örtüler"  alt="Mescid-i Nebevî’nin avlusundaki çadır örtüler" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Mescid-i Nebevî’nin avlusundaki çadır örtüler</div>
+                        </div>
+                                </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div id="print-part-temp"></div>
+<div id="print-part-temp-top"></div>
+
+<div class="modal" id="issue-modal">
+    <div class="modal-body">
+        <div class="modal-box">
+            <div class="close-button">
+                <span class="icon-close"></span>
+            </div>
+            <div class="modal-top">
+                <span>TDV İslâm Ansiklopedisi Madde Bildirim Formu</span>
+            </div>
+            <div class="modal-container">
+                <div style="width:540px; margin:0 auto;">
+                    <div style="color:#777; font-size:17px; padding-bottom:10px; font-weight:bold;"></div>
+                    <div class="error-box" style="display: none;"></div>
+                    <div class="success-box" style="display: none;"></div>
+
+                    <div style="font-size:17px; color:#ef2f2f; padding: 0 0 15px 0; text-align:left; line-height:21px;">
+                        Bu form aracılığıyla, sadece <strong id="issue-modal-madde">OSMANLILAR//8-mali-yapi</strong> maddesi ile alakalı mesajların iletilmesi rica olunur. TDV İslâm Ansiklopedisi'nin elektronik sürümü hakkındaki diğer hususların ise <a href="/iletisim-formu">İletişim Formu</a> aracılığıyla iletilmesi rica olunur.
+                    </div>
+
+                    <form id="modal-issue-form" method="post">
+                        <div>
+                            <input name="bildirim-madde-adi" placeholder="Madde adı" value="" style="visibility:hidden; display:none;">
+                            <input type="text" id="ref-url" name="ref-url" style="visibility:hidden; display:none;" value="https://islamansiklopedisi.org.tr/mescid-i-nebevi">
+                            <input type="text" id="issue-g-token" name="g-token" hidden/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bildirim-bildirim">Bildiriminiz <span style="color: red">*</span></label>
+                            <textarea class="form-control" name="bildirim-bildirim" style="max-height: 25vh; min-height: 100px;" placeholder="Ayrıntılı olarak bildiriminizi giriniz." id="bildirim-bildirim" required></textarea>
+                        </div>
+
+                        <div style="font-weight:bold; font-size:15px; color:#666; padding:5px 0 10px 0;">İletişim bilgileriniz</div>
+                        <div class="form-group">
+                            <label for="bildirim-ad-soyad">Adınız ve Soyadınız <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="bildirim-ad-soyad" placeholder="Örn: Ahmet Sönmezgül" id="bildirim-ad-soyad" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-eposta">E-Posta <span style="color: red">*</span></label>
+                            <input type="email" class="form-control" name="bildirim-eposta" placeholder="isim@ornek.com" id="bildirim-eposta" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-telefon">Telefon Numarası</label>
+                            <input type="tel" class="form-control" name="bildirim-telefon" placeholder="05XXXXXXXX" id="bildirim-telefon" value="">
+                        </div>
+
+                        <p style="font-size: 12px;">Değişiklikleriniz taslak olarak tarayıcınıza kayıt edilir. Kapatıp daha sonra devam edebilirsiniz.</p>
+                        <div style="text-align: center">
+                            <input id="modal-issue-submit" type="submit" class="tdv-btn tdv-btn-primary" style="min-width: 200px" value="Gönder" />
+                        </div>
+                    </form>
+                    <div class="modal-loading">
+                        <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="fotorama" class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-auto="false" style="display:none">
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-1.jpg" data-caption="<b>MESCİD-i NEBEVÎ (1/7)</b> Mescid-i Nebevî <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-1.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/mescid-i-nebevi-1.jpg" >
+			</a>
+		
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina içi fotoğrafı/mescid-i-nebevi-2.jpg" data-caption="<b>MESCİD-i NEBEVÎ (2/7)</b> Mescid-i Nebevî’nin içinden bir görünüş <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina içi fotoğrafı/mescid-i-nebevi-2.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina içi fotoğrafı/mescid-i-nebevi-2.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-3.jpg" data-caption="<b>MESCİD-i NEBEVÎ (3/7)</b> Mescid-i Nebevî’nin mihrabı <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-3.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/mescid-i-nebevi-3.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-4.jpg" data-caption="<b>MESCİD-i NEBEVÎ (4/7)</b> Son genişletilme çalışmalarından evvel Mescid-i Nebevî’nin kıble tarafından bir görünüş <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-4.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/mescid-i-nebevi-4.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-5.jpg" data-caption="<b>MESCİD-i NEBEVÎ (5/7)</b> Mescid-i Nebevî’nin gece görünüşü <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/mescid-i-nebevi-5.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/mescid-i-nebevi-5.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Plan/mescid-i-nebevi-6.jpg" data-caption="<b>MESCİD-i NEBEVÎ (6/7)</b> Mescid-i Nebevî’de başlangıçtan bugüne kadar gerçekleştirilen genişletme çalışmalarını gösteren plan <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Plan/mescid-i-nebevi-6.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Plan/mescid-i-nebevi-6.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/mescid-i-nebevi-7.jpg" data-caption="<b>MESCİD-i NEBEVÎ (7/7)</b> Mescid-i Nebevî’nin avlusundaki çadır örtüler <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/mescid-i-nebevi-7.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Diğer fotoğraf/mescid-i-nebevi-7.jpg">
+			</a>
+		</div>
+
+<div id="header-article-html" style="display:none">
+	<div id="header-article-html-code">
+		<style>
+		.ults{margin:0px; padding:0px; list-style:none;}
+		.ults li{float:left;}
+		.icon-list-ul{cursor:pointer;}
+		.icon-list-ul:hover{color:#777 !important;}
+		</style>
+		<ul class="ults">
+			<li>
+				<a href="/">
+					<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/logo_2.svg" style="height:39px !important;">
+				</a>
+			</li>
+			
+			<li style="padding-left:20px"><span style="font-weight:bold; color:#888; font-size:18px;">MESCİD-i NEBEVÎ</span></li>
+		</ul>
+	</div>
+</div>
+
+<div id="copyright-text" class="centered" style="margin: 0px auto;
+    padding: 30px 20px 0px 20px;
+    color: #888;
+    font-size: 14px; line-height:23px;">
+	<b>Her hakkı mahfuzdur.</b> <i>TDV İslâm Ansiklopedisi’</i>nin her türlü telif hakkı TDV İslâm Araştırmaları Merkezi’ne ait olup 5846 sayılı Kanun hükümlerine tâbidir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarındaki yazıların bütün olarak elektronik ya da matbu bir ortamda yayımlanması yasaktır; ancak kaynak gösterilmesi (<i>TDV İslâm Ansiklopedisi</i> internet sitesinde yer aldığının ifade edilmesi) ve doğrudan aktif bağlantı verilmesi şartıyla yazılardan kısa bölümler iktibas edilebilir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarında yer alan resim, fotoğraf, grafik, çizim, cetvel vs. her türlü görüntü malzemesinin başka bir ortamda yayımlanması kesinlikle yasaktır.
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/sweetalert.min.js"></script>
+
+<style>
+#fcilt div{padding:3px 5px 3px 5px;}
+.flink{line-height:25px;}
+.flink:hover{text-decoration:underline !important;}
+.footer-box-alert:hover{text-decoration:underline;}
+.footer-container {
+    margin-top: auto;
+    padding-top: 40px;
+}
+
+.footer-content {
+    background: #484848;
+    padding-bottom: 50px;
+}
+
+.footer-top-border {
+    background: #e2e2e2;
+    color: #666;
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    color: color: #777;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-top-border a div{color:color:#777;}	
+.motto-link:hover span{text-decoration:underline}
+.footer-bottom-link a:hover{text-decoration:underline !important; color:#333}
+.footer-logo-container img{opacity:0.9}
+.footer-logo-container img:hover{opacity:1}
+.footer-copy{opacity:0.9}
+.footer-copy:hover{opacity:1}
+
+.bbtns a > div{padding:11px 20px 11px 20px ; font-size:0.93rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;position:relative; opacity:0.9}
+.bbtns a > div:hover{opacity:1}
+.randombtn{font-size:0.95rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;
+background:#2FB556; color: #FFF; border:1px solid #f4a76b70; padding:10px 20px; text-align:center; 
+text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;opacity:0.85;
+position:relative
+}
+.randombtn img{position:absolute; height:24px; margin-top:-2px;}
+.randombtn span{margin-left:40px;}
+.randombtn:hover{opacity:1}
+.btnarr{position:absolute; top:0; right:0; bottom:0; background:rgba(29, 48, 55, 0.6); border-top-right-radius: 3px;border-bottom-right-radius: 3px;padding: 7px 12px 10px 12px;font-size: 1.2rem;color: #fff !important;	}
+.btnar{background: #4CAFD2;color: #fff;text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;}
+
+.as-tabs{overflow:hidden; border-bottom: 1px solid #fbcbb2; border-top: 1px solid #fbcbb2; padding-left:15px; padding-right:15px; }
+.as-tabs div.as span{font-size:1rem;}
+.as-tabs div.as{padding: 9px 10px; float:left; text-align:center}
+.as-tabs div.as.act{border-bottom: 2px solid #D97A4A;}
+.as-tabs .as .txt{color:#676767; font-weight:bold; font-size:0.97rem}
+.as-tabs .as.act .txt{}
+.as-tabs .as .txt span{color:#676767;}
+.as-tabs .as.act .txt span{color:#D97A4A}
+.as-tabs .as.psv{cursor:pointer;}
+.as-tabs span.txtcount{font-size:0.75rem !important;}
+
+div.mr{}
+
+	
+</style>
+
+<div class="footer-container">
+	<div class="footer-content">
+        <div class="footer-top-border" style="border-top:2px solid #dedddd; background-color:#f8f8f8; padding-top:30px;">
+
+            <div class="centered" style="font-size:1.2rem;  color:#666; position:relative; text-align:center; background:#f7f7f7; padding:20px 0px; border-radius:3px; border:1px dashed #ddd;">
+                Otuz üç yıllık birikim, yeni yüz: TDV İslâm Ansiklopedisi İnternet sitesi test yayınında.
+                <a href="/hakkinda.php" style="color:#bd6338" class="motto-link">
+                    <span style="color:#0093b0"> Daha fazla bilgi</span>
+                </a>
+            </div>
+
+            <div class="centered bbtns" style=" padding:25px 20px 5px 20px">
+                <div class="pure-g">
+                    <div class="pure-u-1-3"><a href="/dosyalar"><div class="btnar">DOSYALAR<div class="btnarr">»</div></div></a></div>
+                    <div class="pure-u-1-3"><a href="/sergi-arsivi"><div  class="btnar">SERGİ ARŞİVİ<div class="btnarr">»</div></div></a></div>
+                    <!--				<div class="pure-u-1-4"><a href="/gecen-ayin-ilk-20-si"><div  class="btnar">GEÇEN AYIN İLK 20'Sİ<div class="btnarr">»</div></div></a></div>-->
+                    <div class="pure-u-1-3"><div class="randombtn"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" /><span>RASTGELE</span></div></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="centered" style="margin-top: 50px;">
+            <div class="centered_container footer-logo-container" style="text-align:center;">
+                <a href="http://www.diyanet.gov.tr" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/diyanet-isleri-baskanligi-logo.png?t=1" style="border:none; height:140px;" />
+                </a>
+
+                <a href="http://www.isam.org.tr/" class="flink" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/isam-logo.png" style="border:none; height:140px; margin: 0 80px;" />
+                </a>
+
+                <a href="http://tdv.org/" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tdv-logo.png" style="border:none; height:140px;" />
+                </a>
+            </div>
+            <div class="centered_container footer-bottom-link" style="text-align:center; padding-top:40px; color:#fff">
+                <b>Her hakkı mahfuzdur.</b> 2016-2026 TDV İslâm Araştırmaları Merkezi  <span>|</span>
+                <a href="/kullanim_sartlari.php" class="footer-copy" style="color:#fff">Kullanım Şartları</a> <span>|</span>
+                <a href="/iletisim-formu" class="footer-copy" style="color:#fff">İletişim Formu</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- random madde -->
+<style>
+.rnd-left-img{text-align:center; padding-top:10px;}
+.rnd-left-img img{max-width:450px; max-height:300px; border-radius: 4px;}
+.rnd-title{font-size: 1.5rem;font-weight: bold; color: #777; text-align:center}
+.rnd-tanitim{color: #e16328; padding-top:2px; text-align:center; padding-left:20px; padding-right:20px;}
+.boxcontainer{overflow: hidden; margin: 20px; border: 1px dashed #c5c5c5; padding: 15px; border-radius: 5px; min-height:190px;}
+.rnd-goto {padding-top:15px;}
+.rnd-goto a{color:#897898;}
+.lightboxrernd{    width: 280px;
+    background: #977898;
+    padding: 7px 25px 8px 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 200px;
+    opacity: 0.9;
+	cursor:pointer;
+}
+.randombtn{cursor:pointer;}
+.rnd-author{padding-top:10px; font-size:0.9rem; color:#777}
+.rnd-author span{font-weight: bold; color: #999;}
+.rnd-kunye{color: #777; font-size: 0.95rem; text-align:center}
+.random-modal {
+    background-color: #0000004f;
+    text-align: center;
+    z-index: 10000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+}
+.random-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    max-width: 660px;
+    max-height: 90%;
+    width: 660px;
+    margin: 0 auto;
+    text-align:left;
+    border:1px solid #ccc;
+    border-top:none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow:0 0 5px #ccc;
+    -moz-box-shadow:0 0 5px #ccc;
+    -webkit-box-shadow:0 0 5px #ccc;
+    z-index:1000001;
+    padding-bottom: 20px;
+}
+.icon-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #888;
+    cursor: pointer;
+}
+.random-modal-box {
+    overflow: hidden;
+    margin: 20px;
+    border: 1px dashed #c5c5c5;
+    padding: 15px;
+    border-radius: 5px;
+}
+.random-modal-random {
+    font-size: 0.95rem;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #2FB556;
+    color: #FFF;
+    border: 1px solid #f4a76b70;
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: 1px 0 0 #407588;
+    letter-spacing: 0.04rem;
+    opacity: 0.85;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+}
+.random-modal-random:hover {
+    opacity: .95;
+}
+.random-modal-random:active {
+    opacity: 1;
+}
+.random-modal-random img {
+    position: absolute;
+    height: 24px;
+    margin-top: -2px;
+}
+.random-modal-random span {
+    margin-left: 40px;
+}
+.random-modal-bottom {
+    text-align: center;
+}
+.random-modal-box:hover {
+    background-color: #f6f6f6;
+}
+.random-modal-box:active {
+    background-color: #ebebeb;
+}
+</style>
+
+<div class="random-modal">
+    <div class="random-modal-container">
+        <span class="icon-close"></span>
+        <div style="text-align:center;padding: 22px 25px 15px 25px; border-bottom: 1px solid #ddd; user-select: none;"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_popup_baslik.png"  /></div>
+        <div style="padding: 15px 25px; color:#777; background: #e6e5e5;text-align: center; user-select: none;"><i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde okumak ister misiniz?</div>
+        <div class="lightboxrndarticle"></div>
+        <div class="random-modal-bottom">
+            <div class="random-modal-random">
+                <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png">
+                <span>BAŞKA BİR MADDE GÖSTER</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- random madde -->
+
+
+
+
+
+
+<style>
+.newsalertwrapper{position:fixed; left:0; right:0; bottom:0; top:0; background:rgba(0, 0, 0, 0.55); z-index:10000; display:none; }
+.newsalertbox{
+	position:relative;
+	margin: 100px auto;
+    width: 600px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 70px 40px 70px 40px;
+    text-align: center;}
+	
+.newsalertbox .hd1{
+	font-weight: bold;
+    font-size: 1.45rem;
+    color: #267893;
+    padding-bottom: 30px;
+}
+.newsalertbox .hd2{
+	font-size: 1.15rem;
+    color: #666;
+	padding-bottom:20px;	
+}
+.newsalertbox .hd3{
+	text-decoration: underline !important;
+    font-size: 1.15rem;
+	color:#0093b0;
+}
+.newsalertbox .hd3 .linkto{color:#0093b0; cursor:pointer;}
+
+.newsalertbox .hd4{padding-top: 30px;
+    font-size: 1.05rem;
+    color: #777;
+	}	
+.alertclose{
+	position:absolute;
+	right:20px;
+	top:18px;
+	font-size: 1.7rem;
+    color: #666;
+	cursor:pointer;
+}	
+</style>
+
+<!-- ntf203.htm notificaiton html-->	
+	
+
+		
+<script>
+
+	
+$('body').on("mousedown touchend", function(e){ 
+    var resultbox = $("#auto-suggest-box");
+    var inputbox = $("#searchBox");
+	var keyboard = $(".dia-keyboard");
+	
+    if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && 
+		!inputbox.is(e.target) && 
+		!keyboard.is(e.target)  && keyboard.has(e.target).length === 0 ){
+    	resultbox .hide();
+		/*
+			$('#searchBox').css("background-color", "#f4f1f1");
+			$('#searchBox').css("border", "none"); 
+	*/
+		}
+
+    var container = $(".hover-menu");
+    var button = $(".hover-menu-button");
+    if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+    	container.hide();
+		//$('.hover-menu-button').css("background","#F7F4F4");
+		}		
+});
+
+
+$(document).ready(function() {
+    $('.randombtn, .random-modal-random, .rndleftbtn').click(function(event){
+        $('.random-modal').show();
+        changeRndArticle();
+
+        jQuery("body").bind("scroll touchmove mousewheel DOMMouseScroll",function(e){
+            e.preventDefault();
+            return false;
+        });
+
+    });
+
+    $('.lightboxrernd').click(function(event){
+		changeRndArticle();
+	});	
+	
+	$('.random-modal .icon-close').click(function(event){
+		$('.random-modal').hide();
+		jQuery("body").unbind('scroll touchmove mousewheel DOMMouseScroll');
+
+	});
+	
+	function changeRndArticle(){
+		$.ajax({
+			url: "/ajax_search_auto.php?c=g&mdl=rnd&q=rnd", 
+				cache : false,
+				success: function(result){ 
+					if(result.trim() == "")
+					{
+						alert("not");
+					}else{
+						$('.lightboxrndarticle').html(result);
+					}
+				}
+			});
+	}
+	
+	/*
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".lightboxcontent");
+		var inputbox = $(".lightboxcontent .icon-close");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+				$('.lightboxbg').hide();
+				$('.lightboxcontent').hide();
+				$('body').css("overflow","visible");
+		}
+	});
+	*/
+	/* random madde */
+
+	
+	
+	
+		/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});	
+	
+	
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 500 ) {
+			$("#scrollTop").show();
+		}
+		else{
+			$("#scrollTop").hide();
+		}
+	});
+	
+	$('#scrollTop').click(function(){
+		$("html, body").animate({ 
+			scrollTop: "0px"
+		}); 
+		
+		
+		var url_string = location.href;
+		var clean_url = url_string.split('#', 1);
+
+		
+		history.pushState({}, document.title, clean_url );
+	});	
+
+/* search autocomplete events */
+var is_search_page = 0;
+var sr_type = 'aa';
+
+if(is_search_page == 0)
+{
+		
+var delay = (function(){
+  var timer = 0;
+  return function(callback, ms){
+    clearTimeout (timer);
+    timer = setTimeout(callback, ms);
+  };
+})();
+
+// pass url search type parameter to autosuggest box
+var strt = 'm';
+if(strt == "y")
+	sr_type = "y";
+else if(strt == "m")
+	sr_type = "aa";
+else if(strt == "b")
+	sr_type = "b";
+else if(strt == "t")
+    sr_type = "t";
+else
+	sr_type = "aa";
+
+
+$('#searchBox').keyup(function(e) {	
+    // ignor arrow actions..
+	
+	var keycode = (e.keyCode || e.which);
+    if(keycode == 37 || keycode == 38 || keycode == 39 || keycode == 40) {
+        return;
+    }
+	
+	getType(1000);
+});
+
+// bind copy past
+$('#searchBox').bind('paste', null, function(e) {
+	getType(1000);
+});
+
+// mouse out and in open results
+$('#searchBox').click(function(e) {	
+	var typed = $.trim($('#searchBox').val());	
+	if(typed.length > 1){
+		if(!$('#auto-suggest-box').is(":visible")){
+			if($('#auto-suggest-content').html() != ""){			
+				$('#auto-suggest-box').show();
+			}
+			else{
+				getType(0);
+			}				
+		}
+	}
+		
+});
+
+
+function getType(times)
+{
+    delay(function(){
+		var typed = $.trim($('#searchBox').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box").hide();	
+			$("#auto-suggest-loading").hide();
+			
+		}
+    }, times );
+}
+
+function autocomplete(typed)
+{
+	$("#auto-suggest-content").html('');
+	$("#auto-suggest-box").show();
+	$("#auto-suggest-loading").show();
+
+	urlcd = encodeURI("/ajax_search_auto.php?sp=" + sr_type + "&=ac&q=" + typed);
+	$.ajax({
+		url: urlcd,
+		success: function(result) {
+                        gtag('config', 'UA-160819951-1', {
+                'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                'page_path': '/arama/?q=' + typed + '&p=autocomplete-' + sr_type,
+            });
+            gtag('event', 'view_search_results', {
+                'search_term': typed,
+                'q_p': sr_type
+            });
+            			if(result.trim() == "")
+			{
+				$("#auto-suggest-box").hide();	
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html('Sonuç bulunmadı.');
+
+                                gtag('config', 'UA-160819951-1', {
+                    'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                    'page_path': '/arama/?q=' + typed + '&p=autocomplete-no-result-' + sr_type,
+                });
+                gtag('event', 'view_search_results', {
+                    'search_term': typed,
+                    'q_p': 'autocomplete-no-result-' + sr_type
+                });
+                			}else{   		
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html(result);
+				// getTxtNumbers(typed);
+				
+				// break span
+				if ($("#auto-suggest-box").width() < 400 ) 
+				{
+						$("#auto-suggest-box span.txt span").css("display","block");
+						$("#auto-suggest-box span.txt span.txtcount").css("display","inline");	
+				}
+				
+				// $(".header_search").find(".srchp").attr( "href", encodeURI( $(".header_search").find(".srchp").attr("href") ) );
+				$(".header_search").find(".as-t a").attr( "href", encodeURI( $(".header_search").find(".as-t a").attr("href") ) );
+				
+
+			
+			}
+		}
+	});
+	
+	
+}
+
+function getTxtNumbers(typed){
+	$.ajax({
+		url: "/ajax_search_auto.php?mdl=txtdelay&q=" + typed, 
+		cache : false,
+		success: function(result){ 
+			if(parseInt(result) > 0){
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').parent().parent().removeClass('n0').addClass('n' + result.trim());
+				$('.txtcount').removeClass('txtcount');			
+			}
+			else{
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').removeClass('txtcount');	
+			}			
+		}
+	});
+}
+
+$("#auto-suggest-content").on("click", ".as-m.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'aa';
+	strt = 'm';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-y.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'y';
+	strt = 'y';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-b.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'b';
+	strt = 'b';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-t.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+    $(this).parent().removeClass("psv").addClass("act");
+    sr_type = 't';
+    strt = 't';
+    getType(10);
+});
+}
+
+
+
+/* top menu hover */
+$('.hover-menu-button').click(function(){
+	$(this).parent().find(".hover-menu").toggle();
+	//$(this).css("background","#ECE6E6");
+});
+
+
+
+
+
+
+
+/* search boxes silinecek 
+$('.searchBoxyazar').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/muellif-arama/' + search;}
+});
+
+$('.searchBoxBibl').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/bibliyografya_kisaltmalari/' + search;}
+});
+*/
+
+
+$('.searchBox').keypress(function(e){
+	if(e.which == 13){
+		if($('#searc-complete-result a.selected').length == 0){
+			var search = encodeURI($(this).val());
+			window.location = '/arama/?q=' + search + '&p=' + strt;
+		}else{
+			var target = $('#searc-complete-result a.selected').attr('href');
+			window.location = target;
+		}
+	}
+});
+
+$('#icon-search-submit').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?q=' + search;
+});
+
+$('#icon-search-submit-txt').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?p=t&q=' + search;
+});
+
+$("#searchBox").keydown(function(e) {
+	
+  var searchbox = $(this);
+  switch (e.which) {
+    case 40:
+      e.preventDefault(); // prevent moving the cursor     
+	  if($('#searc-complete-result .alist a.selected').length == 0){
+		$('#searc-complete-result .alist a:first').addClass('selected');
+	  }else{
+		$('#searc-complete-result .alist a:not(:last-child).selected').removeClass('selected').next().addClass('selected');
+	  }
+      break;
+    case 38:
+      e.preventDefault(); // prevent moving the cursor
+	  if($('#searc-complete-result a:first.selected').length == 1){
+		$('#searc-complete-result .selected').removeClass('selected');
+	  }
+      $('#searc-complete-result a:not(:first-child).selected').removeClass('selected').prev().addClass('selected');
+      break;
+  }
+});
+
+
+		var isCapital = false;
+		
+		$('.dia-keyboard').click(function(event){
+			jQuery('#searchBox').focus();
+		});
+		
+		$('.close-keyboard').click(function(event){
+			$('.dia-keyboard').hide();
+			$('.open-keyboard').css("opacity","0.3");
+		});	
+
+		$('.open-keyboard').click(function(event){
+			if( $('.dia-keyboard').is(':visible') ){
+				$('.dia-keyboard').hide();
+				$('.open-keyboard').css("opacity","0.3");
+			}
+			else{
+				$('.dia-keyboard').show();
+				$('.open-keyboard').css("opacity","0.8");
+			}
+		});	
+		
+			
+		function addCurrentLetter(letter)
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var character = letter; 
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart) + character + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart+1, $("#searchBox")[0].selectionEnd = selStart+1;				
+		}
+
+		function deleteCurrentLetter()
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart-1) + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart-1, $("#searchBox")[0].selectionEnd = selStart-1;				
+		}		
+		
+		$('.shift').click(function(event){
+			
+			$('.dia-keyboard ul li').each(function(){
+				if(isCapital){
+					$(this).text($(this).attr("hk"));
+				}
+				else{
+					$(this).text($(this).attr("hb"));
+				}
+			});
+						
+			if(isCapital){
+				isCapital = false;
+			}else{
+				isCapital = true;
+			}
+		});
+		
+		$('.dia-keyboard ul li:not(.noletter)').click(function(event){
+			addCurrentLetter($(this).text());
+			$('#searchBox').keyup();
+		});
+		
+		$('.dia-keyboard ul li.space').click(function(event){
+			addCurrentLetter(' ');
+			$('#searchBox').keyup();
+		});
+		$('.dia-keyboard ul li.delete').click(function(event){
+			if($("#searchBox").val().length > 0){
+				deleteCurrentLetter();
+				$('#searchBox').keyup();
+			}
+		});	
+		
+		
+		
+
+
+
+/* volume close-open events */
+$('#albhabet_button').click(function(){
+	$('.cz').hide(); $('.az').toggle();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#cilt_button').click(function(){
+	$('.az').hide(); $('.cz').toggle();
+	$('#albhabet_button').removeClass('arrow-selected');
+	$('#cilt_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_az').click(function(){
+	$('.az').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_cz').click(function(){
+	$('.cz').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+function letter_volumes_setter()
+{
+	if( $('.az').is(":visible")){
+		set_public_cookie("lt=1&vl=0");
+	}else if($('.cz').is(":visible")){
+		set_public_cookie("lt=0&vl=1");
+	}else{
+		set_public_cookie("lt=0&vl=0");
+	}
+}
+
+
+/* newsbar */
+
+if(!$('#newsbar_container').is(":visible")){
+	$('#newsbar_open').show();
+} 
+
+$('#newsbar_close').click(function(){
+	$('#newsbar_container').hide();
+	$('#newsbar_open').show();
+	set_public_cookie("nb=0");
+		
+});
+
+$('#newsbar_open').click(function(){
+	$('#newsbar_container').show();
+	$('#newsbar_open').hide();
+	set_public_cookie("nb=1");
+});
+
+});
+
+
+function set_public_cookie(parameter){
+	$.ajax({
+	url: "/cookie_setter.php?" + parameter,
+	cache : false,
+	success: function(result){ 
+	}
+	});
+}
+	
+	
+</script>
+	
+	
+</body>
+</html>
+<script>
+
+var fotoramaLoaded = 0;
+
+/* article image loading */
+$(function() {
+    $("img.lazy").lazyload();
+});
+
+/* article info selected text */
+function SelectText(element) {
+    var doc = document
+        , text = doc.getElementById(element)
+        , range, selection
+    ;
+    if (doc.body.createTextRange) {
+        range = document.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) {
+        selection = window.getSelection();
+        range = document.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}
+
+function url_redirect(options){
+    var $form = $("<form />");
+	$form.attr("action",options.url);
+	$form.attr("method",options.method);
+
+	for (var data in options.data)
+		$form.append('<input type="hidden" name="'+data+'" value="'+options.data[data]+'" />');
+
+	$("body").append($form);
+	$form.submit();
+}
+
+function requestCaptcha() {
+    grecaptcha.execute('6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS', {action: 'submit'})
+        .then(function (token) {
+            $('#issue-g-token').val(token);
+        });
+}
+
+function lockModal(lock = true) {
+    let notification = $('textarea[name=bildirim-bildirim]');
+    let name = $('input[name=bildirim-ad-soyad]');
+    let email = $('input[name=bildirim-eposta]');
+    let phone = $('input[name=bildirim-telefon]');
+    let code = $('input[name=bildirim-kodu]');
+    let submitBtn = $('#modal-issue-submit');
+    let loader = $('.modal-loading');
+
+    if (lock) {
+        notification.prop('disabled', true);
+        name.prop('disabled', true);
+        email.prop('disabled', true);
+        phone.prop('disabled', true);
+        code.prop('disabled', true);
+        submitBtn.hide();
+        loader.show();
+    } else {
+        notification.prop('disabled', false);
+        name.prop('disabled', false);
+        email.prop('disabled', false);
+        phone.prop('disabled', false);
+        code.prop('disabled', false);
+        submitBtn.show();
+        loader.hide();
+    }
+}
+
+function resizeFotorama(fotorama) {
+    let activeFrame = fotorama.activeFrame.$stageFrame;
+    let activeImage = activeFrame.find('img.fotorama__img');
+    let activeCaption = activeFrame.find('div.fotorama__caption');
+    let hesap = activeFrame.height() - activeCaption.height();
+    let cssTag = $('#fotorama_max');
+    if (cssTag.length > 0)
+        cssTag.remove()
+    activeImage.parent().append('<style id="fotorama_max">.fotorama_max { max-height: '+ hesap +'px !important; }</style>')
+    activeImage.addClass('fotorama_max');
+}
+
+function pdfStat(articleName, articleSlug, partName, fileName) {
+    const data = {
+        'event_category': 'pdf',
+        'event_label': `${articleName} - ${articleSlug} - ${fileName}`,
+        'file_name': fileName,
+        'file_extension': 'pdf',
+        'link_text': `${articleName} - #${partName}`,
+    };
+
+    gtag('event', 'download', data);
+}
+
+$(document).ready(function() {
+    // Sayfa yüklendiğinde küçük ekranlar için navbar madde adını hazırla.
+    $("#header-article-html-code").appendTo($("#header-article"));
+
+	/* right -left click */
+	$(document).keydown(function(event) {
+		if (event.ctrlKey || event.metaKey) {
+		    switch (event.keyCode) {
+		        // left
+		        case 37:
+                    window.location.href = '/mescid-i-kuba';
+                    break;
+                //right
+                case 39:
+                    window.location.href = '/mescid-i-nemire';
+                    break;
+                default:
+                    return;
+            }
+        }
+	});
+
+    let issueModal = $('#issue-modal').modal();
+    let feedbackBtn = $('.feedback-btn');
+    let issue = '';
+
+	/* show arrb */
+	$('bibl .kisaltma').click(function(event) {
+	    let popup = $('.bibl-popup');
+	    let sidebar = $(".theiaStickySidebar");
+
+        let target = $(this);
+        let slug = false;
+        let bibkey = $(this).html();
+        if (target.data('ad')) {
+            bibkey = target.data('ad');
+            slug = true;
+        }
+
+        let offsets = $(this).offset();
+        let position = $(this).position();
+        let sidebarTopOffset = sidebar.offset().top
+        let topoffs = offsets.top - sidebarTopOffset + 40;
+        let leftoffs = (position.left - 26) + ($(this).width() / 2);
+
+        let isUseSafeArea = (sidebar.width() - position.left < 120);
+        popup.find('img').css('right', 'unset');
+        if (isUseSafeArea) {
+            popup.find('img').css('right', 24);
+        }
+
+        let q = bibkey.replace('[', '(').replace(']', ')');
+        $.ajax({
+            url: "/ajax_search_auto.php?c=g&mdl=bpop&q=" + q + '&slug=' + slug,
+			cache : false,
+			success: function(result){
+				if(result.trim() !== "") {
+                    $('.bibl-cnt').html(result);
+
+                    if (isUseSafeArea) {
+                        leftoffs = leftoffs - popup.width() + 14;
+                    }
+
+					popup.css("top", topoffs + "px");
+                    popup.css("left", leftoffs + "px");
+                    popup.show();
+
+				}
+			}
+		});
+	});
+
+	$( window ).resize(function() {
+		$('.kisaltma').each(function( index ) {
+			if($(this).find('.bibpos').length > 0)
+			{
+
+			}
+		});
+	});
+
+	/* close bibl poup */
+	$('.close-bibl-poup').click(function(event){
+		$(this).parent().hide();
+		$('.kisaltma').find('.bibpos').remove();
+	});
+
+	issueModal.on('modal:show', function () {
+        $('.grecaptcha-badge').addClass('show');
+    });
+
+    issueModal.on('modal:hide', function () {
+        $('.grecaptcha-badge').removeClass('show');
+    });
+
+	/* feedback post */
+	feedbackBtn.click(function() {
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+        let issueModalMadde = $('#issue-modal-madde');
+        errorBox.hide();
+        successBox.hide();
+        issue = $(this).data('issue');
+        if (issue) {
+            let cookie = localStorage.getItem('bildirim_' + issue);
+            let form = $('#modal-issue-form');
+            issueModalMadde.text(issue);
+            form[0].reset();
+            form.find('input[name="bildirim-madde-adi"]').val(issue);
+            if (cookie !== null) {
+                let json = JSON.parse(cookie);
+                $.each(json, function (index, elem) {
+                    if (elem.name !== 'bildirim-kodu' && elem.name !== 'bildirim-madde-adi') {
+                        form.find('[name="' + elem.name + '"]').val(elem.value);
+                    }
+                });
+            }
+            requestCaptcha();
+            issueModal.show();
+        }
+	});
+
+
+	var article_div = $('.body_pad_article');
+	var article_div_bottom_pos = article_div.position().top + article_div.outerHeight(true);
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > article_div_bottom_pos - 300 ) {
+			$(".article-left-bar").css("position", "absolute");
+		}
+		else{
+			$(".article-left-bar").css("position", "fixed");
+		}
+	});
+
+	$('.show-former').click(function(event){
+		$(".country-former").toggle();
+
+		if($(".country-former").is(":visible")){
+			$(this).parent().find('.icon-chevron-down').removeClass('icon-chevron-down').addClass('icon-chevron-up');
+		}else{
+			$(this).parent().find('.icon-chevron-up').removeClass('icon-chevron-up').addClass('icon-chevron-down');
+		}
+
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+	});
+
+	$('.show-source').click(function(event){
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+		$(".country-source").toggle();
+	});
+
+	$('.icon-list-ul').click(function(event){
+		$(".top-prev-container").show();
+		$(this).css("color","#777");
+		$(".preview-title").show();
+		$(".article_title h1").css("color","#fff");
+	});
+	$('.icon-list-up').click(function(event){
+		$(".top-prev-container-p").show();
+		$(this).css("color","#777");
+	});
+
+	$(document).mouseup(function (e)
+	{
+		// preview hover
+		var container = $(".top-prev-container.bsk");
+		var button = $(".list-ll");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+				$(".preview-title").hide();
+				$(".article_title h1").css("color","inherit");
+			}
+			/*
+		var container = $(".top-prev-container-p");
+		var button = $(".icon-list-ul-p");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+			}
+            */
+	});
+
+
+	$('.btn-preview').click(function(event){
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-plan').removeClass("active").addClass("passive");
+		$('.plan-content').hide();
+		$('.preview-content').show();
+	});
+
+	$('.btn-plan').click(function(event){
+
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-preview').removeClass("active").addClass("passive");
+		$('.plan-content').show();
+		$('.preview-content').hide();
+
+	});
+
+
+	/* prevent img click href */
+	$('.lazy').click(function(event){
+		event.preventDefault();
+	});
+
+
+
+	/* open image slider fotorama */
+	$('.lazy').click(function(){
+
+		if(fotoramaLoaded == 0){
+			$('.fotorama img').each(function(){
+				var imgurl = $(this).attr("srcs");
+				$(this).attr("src", imgurl);
+				fotoramaLoaded = 1;
+			});
+		}
+
+		$('#fotorama').show();
+		var $fotoramaDiv = $('#fotorama').fotorama();
+		var fotorama = $fotoramaDiv.data('fotorama');
+
+		fotorama.requestFullScreen();
+		var order = $(this).parent().attr("img-order");
+		fotorama.show(order);
+	});
+	$('.fotorama').on('fotorama:fullscreenexit', function (e, fotorama, extra) {
+		$('#fotorama').hide();
+	});
+
+	$('.fotorama').on('fotorama:show fotorama:load fotorama:fullscreenenter', function (e, fotorama) {
+	    resizeFotorama(fotorama);
+    });
+
+    $(window).on('resize', function () {
+        let fotorama = $('.fotorama').data('fotorama');
+        if (fotorama) {
+            setTimeout(function () {
+                resizeFotorama(fotorama);
+            }, 100);
+        }
+    });
+
+	/* article part info fade / soru işareti kaldırıldı
+	$('.article-nav-open-info').click(function(){
+		var totals = $(this).parent().find('.article-nav-numbers').html().split("/")[1];
+		var currents = $(this).parent().find('.article-nav-numbers').html().split("/")[0];
+		$('.article-nav-info-li').html('<b>' + totals + '</b> bölümden oluşan maddenin <b>' +  currents + '</b>. bölümü:');
+		$(this).parent().find(".article-nav-info-li").fadeIn("slow");
+		$(this).hide();
+	});
+	 */
+
+
+	/* part info */
+	$('.ak-copy').click(function(){
+		if($(this).find('span').text() == 'Kopyalama metni'){
+			$(this).parent().find('.ak-list').hide();
+			$(this).parent().find('.ak-copytext').show();
+			SelectText($(this).parent().find('.ak-copytext').attr("id"));
+			$(this).find('span').text('<< Geri');
+		}else{
+			$(this).parent().find('.ak-list').show();
+			$(this).parent().find('.ak-copytext').hide();
+			$(this).find('span').text('Kopyalama metni');
+		}
+	});
+
+
+
+
+	/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});
+
+
+
+
+	$('#authors_show').click(function(){$(".authors_popup").toggle();});
+
+	$(document).mouseup(function (e)
+	{
+		var container = $(".authors_popup");
+		var button = $("#authors_show");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+			container.hide();}
+	});
+
+	// default
+
+	if ($("#auto-suggest-box").width() == 376 )
+	{
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+	}
+
+	$(window).scroll(function() {
+		var poss = "";
+		var firstPart = $('.article-parts').position().top;
+
+		if ($(this).scrollTop() > 60) {
+			$("#logo-part").hide();
+			$("#logo-beta").hide();
+			$("#header-article").show();
+			$("#searchBox").css("width","380px");
+			$("#auto-suggest-box").css("width","380px");
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+			$("#header-article-html-code").appendTo($("#header-article"));
+        }
+		else{
+			$("#logo-part").show();
+			$("#logo-beta").show();
+			$("#header-article").hide();
+			$("#searchBox").css("width","490px");
+			$("#auto-suggest-box").css("width","490px");
+			$("#auto-suggest-box span.txt span").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+		}
+	});
+
+	$('.clicktop').click(function(e){
+		$("html, body").animate({
+			scrollTop: "0px"
+		});
+		window.location.hash=""	;
+	});
+
+	$('.article-nav-next, .article-nav-prev, .preview-jump').not('.article-nav-passive').click(function(){
+		window.location = $(this).attr('data-jurl');
+		var jl = '#_' + window.location.href.split("#").pop();
+		$('html, body').animate({ scrollTop: ( $(jl).offset().top - 120) }, 900);
+		$(".top-prev-container.bsk").hide();
+	});
+
+    issueModal.on('change', function () {
+        let form = $('#modal-issue-form');
+        let bildirimText = form.find('textarea[name="bildirim-bildirim"]');
+        if (issue && bildirimText.val().length > 0) {
+            let excludes = ['g-token'];
+            let cookie = 'bildirim_' + issue;
+            let formData = form.serializeArray();
+            $.each(formData, function (index, item) {
+                if (item && excludes.indexOf(item.name) > -1)
+                    formData.splice(index, 1);
+            });
+            localStorage.setItem(cookie, JSON.stringify(formData));
+        }
+    });
+
+    $('#modal-issue-form').submit(function (e) {
+        e.preventDefault();
+        let form = $('#modal-issue-form');
+        let data = form.serializeArray();
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+
+        errorBox.hide();
+        errorBox.empty();
+        successBox.hide();
+        successBox.empty();
+        lockModal();
+
+        data.push({
+            name: 'article-id',
+            value: 14985        });
+        $.post('/bildirim.php', data).done(function (data) {
+            issueModal.hide();
+            Swal.fire({
+                html: data.message,
+                icon: 'success',
+                showConfirmButton: false,
+                showCloseButton: true
+            });
+
+            form[0].reset();
+            localStorage.removeItem('bildirim_' + issue);
+            lockModal(false)
+            requestCaptcha();
+        }).fail(function (data) {
+            let response = data.responseJSON;
+            if (response.errors) {
+                errorBox.empty();
+                errorBox.html(response.errors.join('<br>'));
+                errorBox.slideDown('fast');
+            }
+            $('input[name=bildirim-kodu]').val('');
+            requestCaptcha();
+            lockModal(false);
+        });
+    });
+
+	if(window.location.href.indexOf('#') > -1){
+		var dashvalue = window.location.href.split("#").pop();
+		try{
+		var jt = '#_' + window.location.href.split("#").pop();
+		if ($(window).scrollTop() <= 0)
+		    $('html, body').animate({ scrollTop: ( $(jt).offset().top - 160) }, 900);
+		}catch(err){}
+	}
+
+	/* article toolbar functioms */
+	$('#pagecolorSepia').click(function(){
+		$("body").css("background", "#fff");
+		$(".body_container").css("background" , "#F5EEDE");
+		$(".m-body, .m-title, .title_info").css("color", "#614D1D");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#F5EEDE");
+		$("#article_toolbar").css("border-color","#E4D0A3");
+		$("#artplan").addClass("sepya");
+		$(".article-plan-buttons").addClass("sepya");
+		$(".hdrprt1").addClass("sepya");
+		$(".hdrprt1arrows").addClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").addClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down-sepya.png")
+		$(".article-left-bar").css("background","#f5eede");
+	});
+
+	$('#pagecolorWhite').click(function(){
+		$(".body_container").css("background" , "#fff");
+		$("body").css("background", "#f1f4f4");
+		$(".m-body, .m-title, .title_info").css("color", "#333");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#f4f1f1");
+		$("#article_toolbar").css("border-color","#ededed");
+		$("#artplan").removeClass("sepya");
+		$(".article-plan-buttons").removeClass("sepya");
+		$(".hdrprt1").removeClass("sepya");
+		$(".hdrprt1arrows").removeClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").removeClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png");
+		$(".article-left-bar").css("background","#fff");
+	});
+	$('#txtdown').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) + 1;
+		var nlh = parseInt(lh) + 2;
+		if(fs <= '23'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		// set_public_cookie('reader', nfs + 'px,' + nlh + 'px')
+	});
+	$('#txtup').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) - 1;
+		var nlh = parseInt(lh) - 2;
+		if(fs >= '17'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		//set_public_cookie('reader', nfs + 'px,' + nlh + 'px');
+	});
+	$('.icon-align-left').click(function(){
+		$('.m-content').css({"text-align" : "left"});
+		set_public_cookie("aa=left");
+	});
+	$('.icon-align-justify').click(function(){
+		$('.m-content').css({"text-align" : "justify"});
+		set_public_cookie("aa=justify");
+	});
+	/* article toolbar functioms */
+
+
+	$('#printbody').click(function(){
+		$('#m-body').print({
+		globalStyles: true,
+		mediaPrint: false,
+		stylesheet: null,
+		noPrintSelector: ".no-print",
+		iframe: true,
+		append: null,
+		prepend: null,
+		manuallyCopyFormValues: true,
+		deferred: $.Deferred(),
+		timeout: 750,
+		title: null,
+		doctype: '<!doctype html>'
+	   	});
+	});
+
+	$('.printPart').click(function() {
+        const printButton = $(this);
+        const printPart = $('<div class="article-parts"></div>');
+
+        const articlePart = printButton.closest('.article-part');
+        printPart.append(articlePart.clone());
+
+        let pdfPartUrl = '';
+                pdfPartUrl = 'https://islamansiklopedisi.org.tr/mescid-i-nebevi';
+        
+        const pdfLink = $('<a></a>')
+            .attr('href', pdfPartUrl)
+            .text(pdfPartUrl.replace('https://', ' '));
+
+        const header = $('<div style="border-bottom: 1px solid #ddd; margin-bottom: 30px; padding-bottom: 10px;"></div>');
+        
+        header.append('Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için: ');
+        header.append(pdfLink);
+
+        const bodyContainer = $('<div class="centered body_container body_pad_article" style="margin-top: 15px;"></div>');
+        bodyContainer.append(header);
+
+        const articleTitle = $('.article_header_container');
+        bodyContainer.append(articleTitle.clone())
+
+		const mBody = $('<div class="m-body"></div>');
+        mBody.append(printPart);
+        bodyContainer.append(mBody);
+
+        const body = $('<body></body>');
+        body.append(bodyContainer);
+
+		body.print({
+            globalStyles: true,
+            mediaPrint: true,
+            stylesheet: null,
+            noPrintSelector: ".no-print",
+            iframe: true,
+            append: null,
+            prepend: null,
+            manuallyCopyFormValues: true,
+            deferred: $.Deferred(),
+            timeout: 750,
+            title: null,
+            doctype: '<!doctype html>'
+	   	});
+	});
+
+
+/* search autocomplete events */
+	var delay = (function(){
+	  var timer = 0;
+	  return function(callback, ms){
+		clearTimeout (timer);
+		timer = setTimeout(callback, ms);
+	  };
+	})();
+	$('#searchBox1').keyup(function() {
+		delay(function(){
+		var typed = $.trim($('#searchBox1').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box1").hide();
+			$("#auto-suggest-loading1").hide();
+
+		}
+		}, 1000 );
+	});
+
+	function autocomplete(typed)
+	{
+		$("#auto-suggest-content1").html('');
+		$("#auto-suggest-box1").show();
+		$("#auto-suggest-loading1").show();
+
+		$.ajax({
+			url: "/ajax_search_auto.php?q=" + typed,
+			cache : false,
+			success: function(result){
+				if(result.trim() == "")
+				{
+					$("#auto-suggest-box1").hide();
+					$("#auto-suggest-loading1").hide();
+				}else{
+					$("#auto-suggest-loading1").hide();
+					$("#auto-suggest-content1").html(result);
+				}
+			}
+		});
+	}
+
+	/* atif */
+	$('.atif-btn').click(function(){
+		$(this).parent().parent().parent().parent().find('.atif-kutusu').slideToggle();
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".atif-kutusu");
+		var inputbox = $(".atif-btn");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+			resultbox.hide();
+			$('.ak-list').show();
+			$('.ak-copytext').hide();
+			$('.ak-copy span').text('Kopyalama metni');
+		}
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $("#auto-suggest-box1");
+		var inputbox = $("#searchBox1");
+		if (!resultbox .is(e.target)  && resultbox .has(e.target).length === 0 && !inputbox .is(e.target)){
+			resultbox.hide();}
+	});
+
+    jQuery('.sticky-content, .sticky-sidebar').theiaStickySidebar({
+        additionalMarginTop: 30
+    });
+
+});
+
+</script>
+
+

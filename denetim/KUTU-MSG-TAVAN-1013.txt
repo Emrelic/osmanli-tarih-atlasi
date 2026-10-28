@@ -1,0 +1,9 @@
+TAVAN 13 EKIM: D8A 1508->1505, ACIK_S 193->191 AYNI COMMIT'TE (Emre onayi, denetle.py olcumu)
+
+Olcum origin/main 122ae588d uzerinde: 8a 1505 (tavan 1508), 2s ACIK 191 (tavan 193).
+Her ikisi iyilesme (§3.4-3). 2sk (yalniz-taraf) tavani ASILMIS, degistirilmedi:
+4054 > 2246, ihlal degil BORC; yazilmadi. 4c zaten 113 (baskasi indirmis).
+Kaynak tavanlari (hicbiri 1930->350, kayit-kaynaksiz 2301->2299) iyilesme ama
+bu onayin kapsami disinda, ayrica Emre onayi bekliyor.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>

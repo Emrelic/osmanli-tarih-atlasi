@@ -8,7 +8,8 @@ from shapely.geometry import Polygon, MultiPolygon
 from shapely.ops import unary_union
 
 t0 = time.time()
-s = open("C:/atlas/data/devletler_harita.js", encoding="utf-8").read()
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+s = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "devletler_harita.js"), encoding="utf-8").read()
 def dizi(ad):
     i = s.index("window." + ad + " =") + len("window." + ad + " =")
     j = s.index(";\n", i)

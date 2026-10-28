@@ -17,7 +17,8 @@ from shapely.geometry import Polygon, MultiPolygon
 from shapely.ops import unary_union
 from shapely.validation import make_valid
 
-KOK = r"C:\atlas\data"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 b = open(KOK + r"\donemler.js", "rb").read()
 
 _DEC = json.JSONDecoder()

@@ -9,7 +9,7 @@ DIŞINDA (su). Dijkstra bu kenardan geçiyor; gerçek maske geçmiyor.
 peteğinin KARŞI YAKAYA düşen parçaları, alanı ve KV_MIN_KM2 eşiğine göre durumu."""
 import io, json, os, sys, time, importlib.util, math
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 import numpy as np
 import shapely
 from shapely.geometry import Polygon, MultiPolygon, Point, LineString

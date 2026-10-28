@@ -1,0 +1,16 @@
+##0421 Görice (Korçë) [Balkan] · SAHIP=__BOSLUK__ (?__BOSLUK__) · gorice · yer=1
+  E[1395] Osmanlılar Makedonya’nın doğu kesimini (Pirlepe, Ohri, Manastır) ele geçirdiklerinde büyük bir ihtimalle 1395’te veya hemen sonra Görice bölgesini de topraklarına katmışlardır.
+  E[1992] Bektaşîler 1992’den sonra tekrar dinî inançlarını yaşamaya başladılar.
+
+##0422 Kesriye (Kastoria) [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · kesriye · yer=1
+  E[1385] Yaklaşık 1385-1912 yılları arasındaki Osmanlı yönetimi döneminde büyük bir kazanın merkeziydi.
+  E[1018] Batı Bulgar İmparatoru Çar Samuil’e bağlı iken 1018’de Bizanslılar’ın eline geçti.
+  E[1334] 1334’te Çar Duşan’ın Sırp İmparatorluğu topraklarına dahil olan kasaba, onun bir yıl sonra ölümüyle 1374’e kadar Simeon Uroš’un Bizans-Sırp Krallığı’nda kaldı.
+  E[1900] yüzyıl Osmanlı tahrirleri 1900 yılına ait verilerle mukayese edildiğinde buradaki fizikî ve İslâmî gelişmenin boyutlarını daha açık anlamak mümkün olmaktadır.
+
+##0423 Filorina (Florina) [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · florina · yer=1
+  E[1355] Sırp Çarı Duşan’ın 1355’te ölümünden sonra Radoslav Hlapen’in küçük Sırp devleti sınırları içinde kaldı.
+  E[1387] Bu sırada bölge Osmanlı akıncılarının hücumuna uğradı ve 1387 yılı civarında Hlapen’e bağlı Karaferye (Véria) ve Vodina ile (Edessa) birlikte Osmanlılar’ın eline geçti.
+  E[1815] Bölgeyi ziyaret eden Fransız seyyahı François Pouqueville’nin 1815’te yazdıklarına göre Florina’da çoğunluğu Türkler’e ait olan 700 hâne ve zengin bir pazar vardı.
+  E[1900] Daha güvenilir ve daha ayrıntılı olan Vasil Kınçov’un 1900 yılına ait istatistiklerinde ise nüfusun 5000’i Türk, 2820’si Bulgar, 1600’ü Çingene, 200’ü müslüman Arnavut, 100’ü hıristiyan Arnavut, 84’ü Vlach ve 20’si yahudi olarak gösterilmektedir.
+

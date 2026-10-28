@@ -1,0 +1,406 @@
+{
+ "sinif": "yok",
+ "adlar": [
+  {
+   "ad": "Haliç",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1214,
+    1241
+   ],
+   "ornek_maddeler": [
+    "1214-01-01 Macar kralı II. Andras ve Leszek Peremışl ile Haliç'i işgal etti",
+    "1221-01-01 Mstislav Udaloy Macarları Haliç'ten çıkardı",
+    "1241-01-01 Moğollar Haliç'i yerle bir etti; başkent Kholm'a taşındı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Prusya",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1231,
+    1260
+   ],
+   "ornek_maddeler": [
+    "1231-01-01 Töton Tarikatı Prusya fethine başladı",
+    "1237-01-01 Kılıç Kardeşleri Töton Tarikatı'na katıldı — Livonya Tarikatı",
+    "1260-09-20 Büyük Prusya Ayaklanması başladı (1260-1274)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Berdesîr",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1079,
+    1209
+   ],
+   "ornek_maddeler": [
+    "1079-01-01 Melikşah'ın Kirman seferi; Sultan Şah itaat etti",
+    "1142-01-01 Muhammed Şah babası I. Arslanşah'ı hapsederek tahta geçti",
+    "1204-01-01 Salgurlu Sa'd Kirman'da hâkimiyet kurdu ve İsfahan'ı aldı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Batı Türkistan",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    635,
+    701
+   ],
+   "ornek_maddeler": [
+    "0701-01-01 Kapgan'ın Türk ordusu Demirkapı'ya (Temir Kapıg) ulaşır",
+    "0635-01-01 Batı Göktürk topraklarında boylar kendi aralarında örgütlenip Türgişle",
+    "0690-01-01 Batı Göktürklerin yerine Sarı Türgiş devleti kuruldu"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kommagene",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    17,
+    72
+   ],
+   "ornek_maddeler": [
+    "0017-01-01 Roma Kommagene'yi ilhak etti",
+    "0038-01-01 Kommagene krallığı yeniden kuruldu (38-72)",
+    "0072-01-01 Kommagene kalıcı olarak Roma'nın Suriye eyaletine katıldı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Hârizm",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    305,
+    1017
+   ],
+   "ornek_maddeler": [
+    "0305-01-01 Afrigoğulları Hârizm'de ilk hârizmşah hânedanı olarak kuruldu",
+    "0995-02-05 Me'mûn b. Muhammed Kâs'ı alıp son Afrigî Ebû Abdullah Muhammed'i öldür",
+    "1017-05-30 Mahmud Hârizm'i ilhak etti, Me'mûnîler sona erdi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kartaca",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    439,
+    533
+   ],
+   "ornek_maddeler": [
+    "0439-10-19 Gaiseric Kartaca'yı ele geçirdi",
+    "0533-01-01 Belisarius Vandal Krallığı'na karşı Afrika'ya sefer; krallık birkaç ay"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Orta Yangtze",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    587,
+    621
+   ],
+   "ornek_maddeler": [
+    "0587-01-01 Sui, Sonraki Liang imparatorunu tahttan indirdi",
+    "0621-01-01 Xiao Xian Tang’a teslim oldu; orta Yangtze ve uzak güney Tang’a geçti"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Deybül",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    712,
+    712
+   ],
+   "ornek_maddeler": [
+    "0712-01-01 Muhammed b. Kāsım üç ay süren kuşatmanın ardından Deybül'ü alır (93/71",
+    "0712-01-01 Muhammed b. Kāsım Deybül'ü alarak Sind fethini başlattı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Orhon-Selenge",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    744,
+    744
+   ],
+   "ornek_maddeler": [
+    "0744-01-01 Uygurlar Basmılları bozguna uğratıp Ötüken'de Büyük Uygur Kağanlığı'nı",
+    "0744-01-01 Uygurlar Basmılları yenip Ötüken'de Büyük Uygur Kağanlığı'nı kurdu"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Burgundia",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    466,
+    534
+   ],
+   "ornek_maddeler": [
+    "0466-01-01 Germen Burgundları Burgundia'da egemen oldu (466-534 dönemi başı)",
+    "0534-01-01 Burgund Krallığı Frank egemenliğine girdi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Argyll",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    500,
+    736
+   ],
+   "ornek_maddeler": [
+    "0500-01-01 Fergus Mór ile Dál Riata Argyll'de kuruldu (geleneksel yıl)",
+    "0736-01-01 Piktler Dál Riata'nın Dunadd kalesini ele geçirdi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Ellendune",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    825,
+    825
+   ],
+   "ornek_maddeler": [
+    "0825-01-01 Ellendune: Egbert Mercia'yı yendi; Kent, Sussex, Surrey ve Essex Wesse",
+    "0825-01-01 Ellendune Savaşı: Wessex İngiliz krallıklarının en güçlüsü oldu"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Provence",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    932,
+    1112
+   ],
+   "ornek_maddeler": [
+    "0932-01-01 Hugues d'Arles Provence haklarını II. Rodolphe'a bıraktı: iki Burgonya",
+    "1112-01-01 III. Ramon Berenguer, Provence varisi Dolça ile evlendi; Provence hakl"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Lorraine",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    870,
+    925
+   ],
+   "ornek_maddeler": [
+    "0870-01-01 Alman Louis'in topraklarının Almanya'nın ortaçağ sınırına ulaşması",
+    "0925-01-01 I. Henry Lotharingia'yı yeniden Alman egemenliğine kattı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Taormina",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    902,
+    962
+   ],
+   "ornek_maddeler": [
+    "0902-01-01 Taormina'nın alınmasıyla Sicilya'nın fethi tamamlandı",
+    "0962-02-09 Ahmed b. Hasan Taormina Kalesi'ni 7 aylık kuşatmayla aldı, adını Muizz"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Feremâ",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    640,
+    640
+   ],
+   "ornek_maddeler": [
+    "0640-01-01 Amr b. Âs Mısır'a girdi ve Feremâ'yı aldı",
+    "0640-01-02 Amr b. Âs Mısır seferine çıktı; sınır kasabası Feremâ alındı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Eski Kahire",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    641,
+    643
+   ],
+   "ornek_maddeler": [
+    "0641-01-01 Babilon Kalesi fethedildi; deltanın güneyle bağlantısı kesildi",
+    "0643-01-01 Amr b. Âs Fustat'ı kurdu (Mısır'ın ilk İslâm şehri)"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "İdil",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    732,
+    1236
+   ],
+   "ornek_maddeler": [
+    "0732-01-01 Mervân b. Muhammed Derbend’i aşıp Belencer’e girdi; Hazarlarla İslâm ş",
+    "1236-01-01 Batu Han İdil Bulgar ülkesini yakıp yıktı; Bulgar şehri yağmalandı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Afyonkarahisar",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    838,
+    1277
+   ],
+   "ornek_maddeler": [
+    "0838-08-12 Amorion (Ammûriye) Abbâsîler'e geçti",
+    "1277-01-01 İnançoğlu Ali Bey'in bağımsızlık girişimi yakalanıp sürgünle bitti"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kūmis",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    873,
+    1157
+   ],
+   "ornek_maddeler": [
+    "0873-01-01 Hasan b. Zeyd Elburz'u aşıp Kūmis'i işgal etti",
+    "1157-01-01 Şah Gazi Rüstem Alamut'u tahrip etti, Cürcân ve Kūmis'i aldı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Duvîn",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    894,
+    987
+   ],
+   "ornek_maddeler": [
+    "0894-03-13 I. Smbat Duvîn (Dvin) şehrini ele geçirdi",
+    "0987-05-03 Ebü'l-Heycâ Duvîn'i Ebû Dülef eş-Şeybânî'den aldı; Ani Kralı II. Smbat"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Batı Sudan",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1087,
+    1240
+   ],
+   "ornek_maddeler": [
+    "1087-01-01 Ebû Bekir b. Ömer öldü; Murâbıtlar'ın Batı Sudan'daki nüfuzu zayıfladı",
+    "1240-01-01 Mali İmparatorluğu Gāne'nin son bakiyelerini ele geçirdi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Gırnata",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1090,
+    1148
+   ],
+   "ornek_maddeler": [
+    "1090-09-08 Gırnata Zîrî emîri Abdullah Murâbıtlara teslim oldu",
+    "1148-01-01 Endülüs'teki Murâbıt hâkimiyeti sona erdi; Muvahhidler Kurtuba'yı aldı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kaliningrad",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1255,
+    1255
+   ],
+   "ornek_maddeler": [
+    "1255-01-01 Königsberg kuruldu (II. Ottokar'ın Prusya haçlı seferi)",
+    "1255-01-01 Königsberg (Karaliaučius) ahşap kalesi kuruldu; ad Bohemya Kralı II. O"
+   ],
+   "kronolojide_yer_kon": [
+    54.71,
+    20.51
+   ]
+  },
+  {
+   "ad": "Baden",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1112,
+    1250
+   ],
+   "ornek_maddeler": [
+    "1112-04-27 Hermann II. ilk kez 'Baden Markgrafı' olarak anıldı: Baden Markgraflığ",
+    "1190-01-01 V. Hermann Baden Markgrafı oldu (1190-1243)",
+    "1243-01-16 V. Hermann öldü; oğulları VI. Hermann ve I. Rudolf birlikte hüküm sürd"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Saluzzo",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1142,
+    1244
+   ],
+   "ornek_maddeler": [
+    "1142-01-01 Bonifacio del Vasto'nun yedi oğlu mirası bölüştü; Manfredo'ya Saluzzo ",
+    "1176-01-01 Aile kendini 'Saluzzo markizleri' diye anmaya başladı; ilk unvan sahib",
+    "1215-12-30 Naip Alasia Saluzzo kalelerini Savoya'ya devretti, markiz onları Savoy"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kâlincar",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1023,
+    1182
+   ],
+   "ornek_maddeler": [
+    "1023-01-01 Çandelalar Kâlincar kalesini kaybetti",
+    "1182-01-01 III. Pritvirac Çandela ülkesini istilâ edip Mahoba'yı yağmaladı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Merkezî Irak",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1030,
+    1086
+   ],
+   "ornek_maddeler": [
+    "1030-01-01 Büveyhî Celâlüddevle Mezyedî topraklarına saldırdı; Dübeys ülkesini te",
+    "1086-01-01 I. Sadaka Mezyedî emîri oldu; Dicle'nin batısına kadar merkezî Irak Me"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Uvâl",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1067,
+    1236
+   ],
+   "ornek_maddeler": [
+    "1067-01-01 Karmatîler yerel isyanlarla Bahreyn adasını, ardından Katîf'i kaybetti",
+    "1236-01-01 Fars Atabegi Ebû Bekir Uvâl'i (Bahreyn) aldı; Uyûnî emirliği sona erdi"
+   ],
+   "kronolojide_yer_kon": null
+  }
+ ]
+}

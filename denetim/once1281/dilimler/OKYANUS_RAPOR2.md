@@ -1,0 +1,11 @@
+# OKYANUS raporu 2 (tur 2, web doğrulama)
+
+Web erişimi: WebSearch çalıştı (arama özetleri); WebFetch yalnız Vikipedi'de çalıştı (UNESCO WHC, Britannica, PMC 403/yanlış sayfa). Hiçbir kayıt tam metinden "okundu" yapılmadı; en iyi seviye "kismen-okundu".
+
+1. Kayıt: önce 15 (A3 B1 C0 D2 E9). Sonra 11 kayıt kaldı: A=0, B=0, C=0, D=2, E=9. kismen-okundu 6, taslak 5. Eklenen 0, elenen 5 (`OKYANUS_ELENEN.json`: kuk-erken-tarim, budj-bim-gunditjmara, aborijin-ulusal-birimleri, lapita-kulturu, aotearoa-maori-oncesi; hepsi tur=kultur, siyasî birim değil).
+   Eşleme: var 2 (hawaii-erken, rapa-nui-erken) · var-f-t-farkli 3 (tui-tonga, mariana-latte f 800→900, saudeleur) · var-kisa 1 (taputapuatea) · eksik 5 (Yap, Palau, Samoa, Fiji, Marquesas; hepsi f=null).
+   Değişen değerler: mariana-latte f 0800→0900 (Carson 2012, Micronesica 42); tahiti-taputapuatea f 1025→null (kaynaklar 6.-7. yy ile 18. yy arası çelişiyor, 1025 desteklenmedi).
+   Doğrulanan: Saudeleur f 1180 (McCoy 2016 U-seri; megalit ~1180) ve t 1628 (Bath-Athens/Ayres 1990, Vikipedi üzerinden atıf); Rapa Nui f 1200 (Hunt-Lipo 2006; Wilmshurst 2011); Hawaii f 1190 (Wilmshurst pulsu 1190-1293, yerleşim 1000-1200); Tui Tonga f 950 yalnız gelenek (Vikipedi 950-1865).
+2. Ulaşılamayan: UNESCO WHC 887/1503/1529/1577 (403), Britannica (403), Wilmshurst 2011 tam metni, Kirch "How Chiefs Became Kings" içeriği, Descantes (Yap) tam metni, Clark-Burley-Murray 2008 tam metni. Samoa/Tui Manu'a için akademik kaynak bulunamadı (yalnız Vikipedi, kendi içinde çelişkili). Yap Sawei, Palau, Fiji, Marquesas, Samoa için 1281 öncesi siyasî birim kanıtı yok.
+   Tamlık: Kosrae/Leluh bu bölgeye eklenmedi: Cordy 2022'ye göre 4 kademeli polity ~1350-1400 (kabarma 1300'ler; tomb ~1310 U-Th), yani 1281 sonrası. Kiribati/Marshall/Niue/Rotuma/Cook (Rarotonga mevcut)/Mangareva için 1281 öncesi polity belgesi bulunamadı.
+3. İstekler: (a) Tui Tonga künyesi f=1000 mi 950 mi karar (öneri: 1000 koru, ic_not'a gelenek 950; t 1845 mi 1865 mi ayrıca sor); (b) Saudeleur künye f 1100→1180 önerilir; (c) Chamorro künye f 800→900 önerilir; (d) f=null kayıtlar (Yap, Palau, Samoa, Fiji, Marquesas) ana listeden düşürülsün, 1281 sonrası doğal kayıt olsunlar; Taputapuatea ayrı künye gerektirmez (Tahiti kapsıyor); (e) UNESCO/Brill erişimi olan bir oturum Saudeleur/Taputapuatea/Tui Tonga'yı tam metinden "okundu"ya çıkarsın.

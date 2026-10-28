@@ -1,0 +1,57 @@
+diff --git a/data/rotus.js b/data/rotus.js
+new file mode 100644
+index 00000000..da79f9e5
+--- /dev/null
++++ b/data/rotus.js
+@@ -0,0 +1,39 @@
++// -*- coding: utf-8 -*-
++// ═══════════════════════════════════════════════════════════════════════
++// data/rotus.js — HARİTA RÖTUŞU KAYITLARI → window.ROTUS (dizi)
++// ═══════════════════════════════════════════════════════════════════════
++// Kavram: Emre, 0084/H-0019 — "koşunun hesapladığı fakat göze tuhaf görünen
++// yapıların, eğer belge ile çürütülemez ise, ufak tefek düzenlemelerle göze
++// ve mantığa uygun hale getirilmesi". Tasarım (koordinatör onayı):
++// denetim/P84-ROTUS-TASARIM-1006b.md.
++//
++// SAHİPLİK: bu dosyayı YALNIZ KOORDİNATÖR yazar. Kontrolü (K1-K9) işçi yapar.
++// Teklif kullanıcıdan gelir: ⑤b "✏️ Rötuş teklif et" → rotus-teklif-<gün>.json
++// → parti akışında H-maddesi eki.
++// 🔴 YALNIZ ONAYLI KAYIT: `kontrol.hukum:"uygun"`. Reddedilen, askıda ya da
++//    "veri ile çözülür" hükümlü teklif BURAYA GİRMEZ → denetim/ROTUS-DEFTERI.md.
++// 🔴 Rötuş GÖRSELDİR: tarayıcı uygular (js/rotus.js), motor OKUMAZ, sahiplik
++//    DEĞİŞMEZ. `py arac/denetle.py` "Değişmez R" her kaydı HER KOŞUDA yeniden
++//    sorar (R1-R9); geçerliliğini yitiren (ÖLÜ) kayıt ihlaldir ve SİLİNİR.
++//
++// ŞEMA — bir kayıt:
++// { id:"R-0001",                          // kalıcı, benzersiz
++//   ad:"İbrail–Eflak bağlantısı",
++//   tur:"baglanti",                       // tek tür (Emre kararı ①)
++//   kime:"eflak",                         // birleştirilen gövdenin BOYA kimliği:
++//                                         //   DEVLET_HARITA id (künye `harita:` varsa o)
++//                                         //   · "OSMANLI" (doğrudan) · "OSM-TABI" (tâbi)
++//   kimden:[{d:"bogdan", km2:19.6}],      // poligonun altındaki sahipler (K3 ölçer)
++//   f:"1359-01-01", t:"1420-01-01",       // kopukluk penceresi — kime/kimden gövdelerinin
++//                                         //   DÖNEM SINIRLARI (R7); kullanıcı değil K2 ölçer
++//   geo:[[lon,lat], …, [lon,lat]],        // kullanıcının çizimi AYNEN; kapalı halka
++//   teklif:{kim:"Emre", h:"0084/H-0018", gun:"2026-10-06", dosya:"rotus-teklif-….json"},
++//   kontrol:{kim:"<oturum>", gun:"…", hukum:"uygun",
++//            sorular:{K1:{sonuc:"gecti", olcum:"…"}, … K9:{…}},
++//            // sonuc: gecti | uyari | aykiri | veri | olculemedi
++//            // K6-K8 "uyari" yalnız kullanıcı onayıyla geçer (karar ④):
++//            onay:{kim:"Emre", gun:"…", uyarilar:["K8"]} },
++//   kaynak:"TDV … — sınır cümlesi yok (aranan: …)" }
++//
++// Boş dizi = rötuş yok; site ve kapı hiçbir şey uygulamaz (bit-bit aynı çizim).
++window.ROTUS = [];
+diff --git a/index.html b/index.html
+index 5b5f5a3d..1b7a0d25 100644
+--- a/index.html
++++ b/index.html
+@@ -2004,6 +2004,7 @@
+      dosyada; arac/rotus_coz.js node'da AYNI dosyayı koşturur (denetle.py R).
+      Kayıtlar data/rotus.js (window.ROTUS) — koordinatör yazar; dosya yoksa
+      rötuş 0 (app.js window.ROTUS yoksa boş liste sayar). -->
++<script src="data/rotus.js?v=r11872"></script>  <!-- RÖTUŞ KAYITLARI — koordinatör yazar (P84-ROTUS) -->
+ <script src="js/rotus.js?v=r11872"></script>
+ <script src="js/d_katman.js?v=r11872"></script>
+ <script src="js/antlasma_harita.js?v=r11872"></script>

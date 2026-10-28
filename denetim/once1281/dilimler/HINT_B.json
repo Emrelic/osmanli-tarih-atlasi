@@ -1,0 +1,645 @@
+[
+ {
+  "id": "kuru-vedik",
+  "ad": "Kuru (Vedik Kuru Krallığı → Kuru Mahajanapada)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-1199-01-01",
+  "t": "-0449-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Asandivat → Hastinapura → Indraprastha",
+  "etkin_bolge": "Yukarı Ganj-Yamuna doabı, Haryana/Kuruksetra",
+  "sehirler": [
+   "Hastinapura",
+   "Indraprastha",
+   "Kuruksetra"
+  ],
+  "ozet": "Geç Vedik dönemde Bharata-Puru birleşmesinden doğan, Vedik metinlerin derlendiği ilk devlet benzeri yapı; sonra Mahajanapada olarak sürdü ve Magadha öncesi silindi.",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), «North India in the Sixth Century B.C.: Kuru» (Buddha çağında Kuru ülkesi unvan-şef Koravya yönetiminde, siyasî önemi az)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. I: The Vedic Age, Bombay 1951 (archive.org: vedicage00bhar, tam metin okundu; Bharata Savaşı tarihleri)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Majumdar I: Bharata Savaşı için gelenek c.1400 MÖ (Puranik), bazı bilginlere göre 1500-1000 MÖ arası; Aihole yazıtı 3102 MÖ; Majumdar II: Buddha çağında Kuru ülkesi (Indraprastha) 'unvan sahibi bir şef Koravya' tarafından yönetiliyordu, siyasî önemi küçük; Puranik Mahapadma Nanda tarafından 'kökü kazınan' hanedanlar arasında Kurular sayılır. Vedik Kuru krallığı için kaynaklı kesin f/t yoktur: f=-1199 ve t=-0449 taslak değerlerdir; arkeolojik karşılık (Hastinapura) kaynakta yıl vermez. Taslak ic_not: Witzel'in geç Vedik Kuru-Pancala çerçevesi; t Magadha genişlemesi öncesi gevşek tahmin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "pancala",
+  "ad": "Pancala (Kampilya) Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0999-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Kampilya (Ahicchatra kuzey kolu)",
+  "etkin_bolge": "Yukarı Doab doğusu, Ruhelkhand",
+  "sehirler": [
+   "Kampilya",
+   "Ahicchatra",
+   "Kannauj"
+  ],
+  "ozet": "Geç Vedik Kuru ile birlikte anılan krallık; Mahajanapada olarak sürdü, Nanda genişlemesiyle Magadha'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "nanda"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)",
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Majumdar II: Buddha çağında Panchala iki parçalı (Uttara: başkent Ahichchhatra; Dakshina: Kampilya); Puranik Mahapadma Nanda (c. 364 MÖ) tarafından 'kökü kazınan' hanedanlar arasında Panchalalar var → t, Nanda dönemi içinde (364-324 MÖ). t=-0344 Nanda aralığının ortasına düşen taslak yıldır. f=-0999 doğrulanamadı. Taslak ic_not: t = Nanda yükselişi (gelenek MÖ 345); Pancala-Kuru ilişkisi tartışmalı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "kashi",
+  "ad": "Kashi (Kasi) Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0799-01-01",
+  "t": "-0549-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "onyil"
+  },
+  "baskent": "Varanasi",
+  "etkin_bolge": "Orta Ganj havzası, Varanasi çevresi",
+  "sehirler": [
+   "Varanasi"
+  ],
+  "ozet": "Erken Budist metinlerde güçlü krallık; Buda öncesi Kosala'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "kosala"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)",
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Raychaudhuri: Kasi bağımsızlığını Kosala kralı Kamsa döneminde kaybetti (Kamsa-vijeta unvanı; Buddha'dan önce); Pasenadi Kasi'yi ve Kosala'yı birlikte yönetti; Ajatasatru Kasi'yi 'kalıcı olarak ilhak etti' (Majumdar II: Ajatasatru 493-462 MÖ, 'vanquished Kosala and annexed Kasi'). Puranik 'Nanda tarafından kökü kazınan' listede de Kasis anılır. t=-0549 'Kosala'ya katılma' yıl olarak kaynakta yok: yalnız göreli sıra (Buddha'dan önce Kosala'ya, 493-462 aralığında Magadha'ya). Taslak ic_not: f Upanisad dönemi belirsiz tahmin; t Kosala'ya katılma.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "kosala",
+  "ad": "Kosala Krallığı (Savatthi/Ayodhya)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0699-01-01",
+  "t": "-0449-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Savatthi (Sravasti)",
+  "etkin_bolge": "Gorakhpur-Ayodhya çevresi",
+  "sehirler": [
+   "Savatthi",
+   "Ayodhya",
+   "Saketa"
+  ],
+  "ozet": "Buda'nın çağdaşı Prasenajit'le doruğa çıkan Mahajanapada; Magadha ile savaşlarla zayıfladı ve katıldı.",
+  "oncul": [
+   "kashi"
+  ],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)",
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Majumdar II: Ajatasatru Kosala'yı 'yendi' ve Kasi'yi aldı; Sisunaga (c. 430 MÖ) ve ardılları Kosala, Avanti ve öteki devletleri Magadha'ya kattı; Puranik Mahapadma Nanda 'Aikshvaku' (Kosala) hanedanını da söker (Kathasaritsagara: Nanda'nın Ayodhya'daki kampı Kosala'nın Nanda imparatorluğuna dâhil olduğunu gösterir). Yani t ∈ [430, 364] MÖ aralığı; -0449 (450 MÖ) bu aralığın dışında, ona yakın. f=-0699 doğrulanamadı. Taslak değer: t -0449 Taslak ic_not: t gevşek tahmin; kesin katılma Nanda'ya da bağlanabilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok (Magadha yazısı içinde anılır)."
+  }
+ },
+ {
+  "id": "anga",
+  "ad": "Anga Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0492-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Campa",
+  "etkin_bolge": "Doğu Bihar, Bhagalpur",
+  "sehirler": [
+   "Campa"
+  ],
+  "ozet": "Bimbisara tarafından Magadha'ya katıldı (gelenek MÖ ~543).",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)",
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu) (Bimbisara Anga'yı Brahmadatta'yı yenerek ilhak etti; Mahavagga ve Sonadanda Sutta kanıtı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Raychaudhuri: Anga'nın yıkımı Bhattiya'nın oğlu Bimbisara (Majumdar II: 544-493 MÖ) tarafından, Anga kralı Brahmadatta'nın yenilmesiyle gerçekleşti; Mahavagga ve Sonadanda Sutta'ya göre Champa gelirleri Bimbisara'dan Brahmana Sonadanda'ya bağışlandı; Jain kaynaklara göre Anga sonra Magadha prensi (Kunika) idaresinde ayrı eyalet. t=-0492 Bimbisara'nın saltanatı sonu (493 MÖ) 'EN GEÇ' sınırdır; ilhakın yılı kaynakta yok. Taslak t=-0542 (Bimbisara'nın cülusu 544 MÖ yakını) saltanatın başı olduğundan ilhak için erken. Taslak değer: t -0542 Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Magadha yazısı (f=-0542) Anga'yı içerir."
+  }
+ },
+ {
+  "id": "vatsa",
+  "ad": "Vatsa (Vamsa) Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Kausambi",
+  "etkin_bolge": "Allahabad çevresi",
+  "sehirler": [
+   "Kausambi"
+  ],
+  "ozet": "Udayana'nın Kausambi'si; Avanti ve sonra Magadha/Nanda'ya katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)",
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Majumdar II: Buddha çağında Magadha, Kosala, Vatsa ve Avanti dört büyük monarşi; Vatsa'nın Bhagga devleti bağımlı. Raychaudhuri: Kathasaritsagara'ya göre Kausambi Pradyota'nın ardılı Palaka'nın (Avanti) krallığına katıldı; sonra Avanti Magadha'ya. Sonuç: t yıl olarak kaynakta yok (Magadha'ya katılma Sisunaga ≈430 sonrası). t=-0344 Nanda dönemi ortası: taslak. Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. t Nanda genişlemesi tahmini.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "avanti",
+  "ad": "Avanti Mahajanapadası (Ujjain/Mahishmati)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0412-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "onyil"
+  },
+  "baskent": "Ujjayini (Ujjain) / Mahishmati",
+  "etkin_bolge": "Malva",
+  "sehirler": [
+   "Ujjain",
+   "Mahishmati"
+  ],
+  "ozet": "Pradyota hanedanıyla güçlü rakip; gelenekte Sisunaga eliyle Magadha'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)",
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Majumdar II: Avanti, Buddha çağında dört büyük monarşiden biri (Ujjayini; Chanda Pradyota); Sisunaga (≈430 MÖ) ve ardılları Kosala, Avanti vb.'ni Magadha'ya kattı; Raychaudhuri: MÖ 4. yüzyılda Avanti Magadha imparatorluğunun ayrılmaz parçasıydı. t ∈ [430, 364] MÖ: taslak -0412 bu aralıkta. Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. t kaynaklar arası çelişkili.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "gandhara-mahajanapada",
+  "ad": "Gandhara Mahajanapadası (Taksila/Pushkalavati)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0515-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Taksila / Pushkalavati",
+  "etkin_bolge": "Peşaver-Taksila çevresi",
+  "sehirler": [
+   "Taksila",
+   "Pushkalavati"
+  ],
+  "ozet": "Pukkusati zamanı Gandhara; Ahameniş Darius genişlemesiyle Pers satraplığına katıldı.",
+  "oncul": [],
+  "ardil": [
+   "maurya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu) (Pukkusati Bimbisara'nın çağdaşı; Behistun yazıtı Darius ≈516 MÖ Gadara tebaa halklar arasında)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Raychaudhuri: 6. yüzyıl ortasında Gandhara tahtında Pukkusati (Bimbisara'ya elçi ve mektup gönderdi); '6. yüzyılın ikinci yarısında Gandhara Pers kralı tarafından fethedildi'; Darius'un Behistun yazıtında (≈516 MÖ; Darius 522-486) Gandharlar (Gadara) tebaa halklar arasında. Astronomik: MÖ 516 = -0515. Taslak -0517 (MÖ 518) 2 yıl fark. Ahameniş Hindus/Gandhara satraplığı iran ajanının alanıdır. Taslak değer: t -0517 Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. Ahameniş Gandhara/Hindus satraplığı iran bölgesi ajanının kapsamı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "kamboja",
+  "ad": "Kamboja Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0257-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "onyil"
+  },
+  "baskent": "Rajapura (varsayım)",
+  "etkin_bolge": "Hindukush güneyi-Kuzeybatı",
+  "sehirler": [
+   "Rajapura",
+   "Dvaraka"
+  ],
+  "ozet": "Kuzeybatı Kamboja; Ahameniş ve Aleksandros dönemlerinde yutuldu, Asoka fermanlarında anılır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu) (Kamboja 'Kambujiya' Eski Pers yazıtlarında; Asoka XIII. Kaya Fermanında hâlâ özerk kabile)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Raychaudhuri: Kambojalar Mahabharata'da monarşik anayasa altında yaşar; Kautilya'da 'Kamboja Kshatriya sreni' (varttashastropajivin sangha); 'Asoka'nın XIII. Kaya Fermanında bile özerk bir kabile' olarak anılırlar. Dolayısıyla t=-0329 (İskender) kaynakla ÇELİŞİR; Kamboja özerkliği en az Asoka devrine (XIII. Ferman ≈ MÖ 260-257) uzanır (t=-0257 son tanıklık, ONYIL; kuruluş yılı yok). Taslak değer: t -0329 Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. Konumu (Hindukush/Pamir) tartışmalı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "vajji",
+  "ad": "Vajji (Vrji) Konfederasyonu (Vaisali)",
+  "tur": "konfederasyon",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0482-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "onyil"
+  },
+  "baskent": "Vaisali",
+  "etkin_bolge": "Kuzey Bihar, Gandak kuzeyi",
+  "sehirler": [
+   "Vaisali",
+   "Mithila"
+  ],
+  "ozet": "Licchavi, Videha vb. kabilelerin cumhuriyet konfederasyonu; Ajatasattu tarafından fethedildi.",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)",
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Majumdar II: Ajatasatru (493-462 MÖ) 'Lichchhavi cumhuriyetini on altı yıllık mücadeleden sonra ezdi'; Raychaudhuri: Vajji/Vaisali'nin ilhakı ('Kosala savaşı ve Vajji savaşı Magadha hegemonyasına karşı ortak hareketin parçalarıydı'; Kasi-Kosala on sekiz ganaraja + Licchavi + Malla birliği). t ∈ [493-16, 462] aralığında; taslak -0482 aralığın içinde (kaynakta yıl yok). Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. t Ajatasattu savaşları (~MÖ 484-468); Buda'nın ölüm tarihi okullara bağlı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "malla",
+  "ad": "Malla Cumhuriyetleri (Kusinara/Pava)",
+  "tur": "cumhuriyet",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0399-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Kusinara / Pava",
+  "etkin_bolge": "Gorakhpur çevresi",
+  "sehirler": [
+   "Kusinara",
+   "Pava"
+  ],
+  "ozet": "Buda'nın öldüğü Kusinara'yı da içeren Malla gan-sanghası; Magadha'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu) (Malla topraklarının Magadha'ya ilhakı; Maurya imparatorluğunun parçası, MÖ 3. yy)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Raychaudhuri: dokuz Malla ve dokuz Licchavi ile Kasi-Kosala'nın on sekiz ganarajasının birliği Ajatasatru'ya karşıydı; 'Malla toprakları sonunda Magadha'ya ilhak edildi, MÖ 3. yüzyılda Maurya imparatorluğunun parçasıydı'. Yıl kaynakta yok: t=-0399 taslak. Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. t gevşek tahmin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "chedi",
+  "ad": "Chedi (Cetiya) Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Suktimati (Sotthivati-nagara)",
+  "etkin_bolge": "Bundelkhand",
+  "sehirler": [
+   "Suktimati"
+  ],
+  "ozet": "Yamuna-Narmada arası Chedi; sonradan Magadha etkisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu) (Chedi: Rigveda'da Kasu Chaidya; Chetiya Jataka; Matsya ile ilişkisi)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Raychaudhuri: Chedi halkı Rigveda'da anılır (Kasu Chaidya); Mahabharata'da Chedi ve Matsya'nın ortak kralı (Sahaja); Puranik Nanda listesinde 'Haihayas/Vitihotras' (Avanti/Chedi kimliği belirsiz). t yıl kaynakta yok: -0344 taslak (Nanda aralığında). Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. Kalinga'daki Mahameghavahana Chedi'si ayrı kayıt.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "matsya",
+  "ad": "Matsya Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Viratanagara",
+  "etkin_bolge": "Alwar-Jaipur çevresi",
+  "sehirler": [
+   "Viratanagara"
+  ],
+  "ozet": "Mahajanapada listelerinde yer alır; Surasena komşusu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu) (Matsya Chedi'ye katılmış, sonunda Magadha İmparatorluğu'na emildi; Bairat Asoka fermanları)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Raychaudhuri: Matsya bağımsızlığını yitirmiş, belki komşu Chedi'ye katılmıştı; 'sonunda Magadha İmparatorluğuna emildi' (Asoka'nın en ünlü fermanlarından bazıları Bairat'ta bulunmuştur). Yıl kaynakta yok. Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "surasena",
+  "ad": "Surasena Mahajanapadası (Mathura)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Mathura",
+  "etkin_bolge": "Yamuna orta kesim",
+  "sehirler": [
+   "Mathura"
+  ],
+  "ozet": "Mathura merkezli Mahajanapada; Magadha'ya katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "H. C. Raychaudhuri, Political History of Ancient India, University of Calcutta, 1923 (archive.org: politicalhistory00raycuoft, tam metin okundu) (Surasena kralı Avantiputta, Buddha çağdaşı)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Raychaudhuri: Surasena küçük krallıklar arasında, kral Avantiputta (Buddha'nın çağdaşı); Majumdar II: Puranik Mahapadma Nanda'nın kökünü kazıdığı hanedanlar arasında Surasenalar var → t Nanda dönemi içinde (364-324 MÖ); -0344 taslak. Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "assaka",
+  "ad": "Assaka (Asmaka) Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Potana (Podana)",
+  "etkin_bolge": "Godavari havzası",
+  "sehirler": [
+   "Potana"
+  ],
+  "ozet": "Güneydeki tek Mahajanapada; sonrası belirsiz.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Bölüm I «North India in the Sixth Century B.C.» (Anguttara Nikaya'nın on altı Mahajanapada listesi) ve Bölüm II «Rise of Magadhan Imperialism» (Mookerji kronolojisi: Bimbisara 544-493, Ajatasatru 493-462, Sisunaga ≈430, Nanda 364-324 MÖ)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Anguttara Nikaya'nın on altı Mahajanapada listesi; liste 'Buddha öncesi/çağdaşı (MÖ 6. yy)' dönemi gösterir, f=-0599 hiçbir devletin KURULUŞ yılı değildir (çağ başı varsayımı; kaynakta kuruluş yılı yok). Majumdar II: Assaka/Asmaka Godavari'de, Madhyadesa dışında; Potana/Potali başkent; kral Brahmadatta (Anga/Kasi Dhritarashtra çağdaşı); Buddha çağında Prens Sujata'nın babası; Puranik Mahapadma Nanda 'Asmakas'ı söker. t Nanda aralığında (364-324 MÖ); -0344 taslak. Taslak ic_not: Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. Konum (Godavari) tartışmalı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "anuradhapura",
+  "ad": "Anuradhapura Krallığı (Sri Lanka)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0376-01-01",
+  "t": "1017-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Anuradhapura",
+  "etkin_bolge": "Sri Lanka kuzey-orta",
+  "sehirler": [
+   "Anuradhapura",
+   "Mihintale",
+   "Sigiriya"
+  ],
+  "ozet": "Mahavamsa geleneğinde Pandukabhaya MÖ 377 ile Anuradhapura başkent; Çola işgaliyle 1017'de düştü.",
+  "oncul": [],
+  "ardil": [
+   "polonnaruwa"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Ceylon: Political History» (s. 169-174; Mahendra V 979-1027; Çola fethi ≈1017)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Cholas» (Rajaraja Anuradhapura'yı yıktı, Polonnaruwa'yı başkent yaptı)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), «Ceylon» bölümü (Mahavamsa: Vijaya, Devanampiyatissa Asoka çağdaşı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar IV: Mahendra V (979-1027) döneminde Kerala paralı askerlerinin isyanı ve anarşi; Çola Rajaraja kuzey Seylan'ı fethetti (Mummudi-Cholamandalam; Polonnaruwa'yı Jananathamangalam adıyla başkent yaptı); güney 'Rajendra tarafından 1017'de veya kısa öncesinde' alındı, Mahendra V esir olarak Çola ülkesine gönderildi ve orada öldü (1027). Majumdar V: Rajaraja Anuradhapura'yı yıktı. t=1017 doğrulandı. f=-0376 (Mahavamsa gelenek: Pandukabhaya) Majumdar'da kronolojik olarak verilmedi (Majumdar II: Vijaya Buddha'nın öldüğü gün; Devanampiyatissa Asoka'nın çağdaşı) → f taslak. Mevcut 'seylan-sinhala' künyesi 1070'te başlar: Anuradhapura evresi künyede YOK. Taslak ic_not: Gelenekte Vijaya MÖ 543/Tambapanni; 377 = Pandukabhaya; Mahavamsa çıkarımı. Sigiriya merkezi 477-495 geçici.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "seylan-sinhala (1070–1518) Anuradhapura'yı (≈-0376…1017) ve Çola işgalini (1017-1070) kapsamıyor; Rohana'daki Sinhala devamı (Vikramabahu 1027-39 vb.) ayrı evre."
+  }
+ },
+ {
+  "id": "kalinga-eski",
+  "ad": "Kalinga (Maurya öncesi)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": null,
+  "t": "-0260-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Dantapura / Sisupalgarh",
+  "etkin_bolge": "Odisha-Kuzey Andhra",
+  "sehirler": [
+   "Tosali",
+   "Dantapura"
+  ],
+  "ozet": "Asoka'nın MÖ ~261 Kalinga seferiyle Maurya'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "maurya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), «Asoka the Great: Kalinga War» (s. 73) ve «Asoka's chronology» (s. 88)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar II: Asoka (c. 273-236 MÖ; taç giyme 269 MÖ) Kalinga'yı XIII. Kaya Fermanına göre taç giymesinden sonraki sekizinci yılda fethetti → ≈ 261 MÖ (= -0260); aynı kitabın giriş bölümü 'tahta çıkışından dokuz yıl sonra' der (≈ 264 MÖ): iki ifade 3 yıl farklı. Majumdar II: Kalinga'nın bir Nanda kralınca fethi Kharavela'nın Hathigumpha yazıtından çıkarılır (bu oturumda okunmadı). f=null (yıl bilinmiyor). Taslak ic_not: f: yil bilinmiyor. Asoka 13. Kaya Fermanı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok (Maurya içinde)."
+  }
+ },
+ {
+  "id": "paurava",
+  "ad": "Paurava (Poros) Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": null,
+  "t": "-0316-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Jhelum-Chenab arası",
+  "etkin_bolge": "Pencap",
+  "sehirler": [],
+  "ozet": "Aleksandros'un Hydaspes (MÖ 326) rakibi; tahtta bırakıldı, MÖ ~317'de ortadan kalktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), «Foreign Invasions: The Macedonian Invasion» ve «Chandragupta» bölümü (Eudemus, Porus'un öldürülmesi, 317 MÖ)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar II: Batı Pencap garnizon komutanı Eudemus 'Hint hükümdarını — muhtemelen Porus — hileyle öldürdü' ve 317 MÖ'de bütün güçleriyle Hindistan'ı terk etti (astronomik -0316). Porus'un İskender'e yenilişi ve vasal olarak konumu (326 MÖ) Majumdar II İskender bölümünde; bu bölüm bu oturumda satır satır okunmadı. f yıl bilinmiyor (null). Taslak değer: t -0316 Taslak ic_not: f: yil bilinmiyor. Kuruluşu bilinmiyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "maldivler-budist",
+  "ad": "Maldiv Budist Krallıkları (İslam öncesi)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": null,
+  "t": "1153-07-07",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "gun"
+  },
+  "baskent": "Malé",
+  "etkin_bolge": "Maldiv adaları",
+  "sehirler": [
+   "Malé"
+  ],
+  "ozet": "Hanedan tarihi sınırlı; geleneksel olarak 1153'te İslamlaşma/Sultanlık.",
+  "oncul": [],
+  "ardil": [
+   "maldivler-sultanligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, «Maldivler» maddesi, https://islamansiklopedisi.org.tr/maldivler (bu oturumda okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV Maldivler: Maldivler Hinduizm ve özellikle Budizm etkisindeydi; İslâm'ın yayılması VI. (XII.) yüzyıldan; Kādî Hasan Tâceddin'e (ö. 1139/1727) göre Budist kral Tebrizli Şeyh Yûsuf Şemseddin vasıtasıyla 12 Rebîülâhir 548 (7 Temmuz 1153) tarihinde müslüman oldu; İbn Battûta ise kralın Mağribli Ebü'l-Berekât el-Berberî ile müslüman olup Ahmed adını aldığını söyler (iki ayrı rivayet; 'TDV: bugün genellikle Ebü'l-Berekât'a bağlanır'). t=1153-07-07 TDV'nin verdiği gün (tek rivayet, 'çelişki beyan edildi'); f (Budist krallığın başı) yıl bilinmiyor. Mevcut 'maldivler-sultanligi' (f=1153) ardıl. Taslak değer: t 1153-01-01 Taslak ic_not: f: yil bilinmiyor. Kuruluş yılı bilinmiyor.",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "maldivler-sultanligi",
+   "not": "Ardıl künye f=1153; TDV günü 1153-07-07 (Kādî Hasan Tâceddin rivayeti)."
+  }
+ }
+]

@@ -1,0 +1,342 @@
+diff --git a/denetim/ARAC-114-PAKET-0911.py b/denetim/ARAC-114-PAKET-0911.py
+index 68fbb51e..b63cd2f7 100644
+--- a/denetim/ARAC-114-PAKET-0911.py
++++ b/denetim/ARAC-114-PAKET-0911.py
+@@ -18,7 +18,8 @@ import io
+ import json
+ import re
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ onceki = json.load(io.open(KOK + r"\denetim\PAKET-PRENSLIK-PENCERE-0911.json", encoding="utf-8"))
+ kayitlar = onceki["kayitlar"]
+ 
+diff --git a/denetim/ARAC-4C-SIRALA-0905.py b/denetim/ARAC-4C-SIRALA-0905.py
+index 0fcc4db8..46979c27 100644
+--- a/denetim/ARAC-4C-SIRALA-0905.py
++++ b/denetim/ARAC-4C-SIRALA-0905.py
+@@ -30,7 +30,7 @@ import importlib.util as _ilu
+ from collections import defaultdict
+ from datetime import date
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ ATLAS_BASI, ATLAS_SONU, TOL = "1281-01-01", "1923-10-29", 400
+ 
+ # ⑩ KOL (7 Eylül 2026): pad() artık ORTAK — dört ayrı alette ayrı ayrı
+diff --git a/denetim/ARAC-4D-SIRALA-0905.py b/denetim/ARAC-4D-SIRALA-0905.py
+index 6ce1ce32..0ccb4d60 100644
+--- a/denetim/ARAC-4D-SIRALA-0905.py
++++ b/denetim/ARAC-4D-SIRALA-0905.py
+@@ -19,7 +19,7 @@ import importlib.util as _ilu
+ from collections import defaultdict
+ from datetime import date
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ ATLAS_BASI, ATLAS_SONU, TOL = "1281-01-01", "1923-10-29", 400
+ 
+ # ⑩ KOL (7 Eylül 2026): pad() artık ORTAK, bkz. ARAC-TARIH-0907.py.
+diff --git a/denetim/ARAC-AFRIKA-RENK-0906.py b/denetim/ARAC-AFRIKA-RENK-0906.py
+index 512d5646..cfd41578 100644
+--- a/denetim/ARAC-AFRIKA-RENK-0906.py
++++ b/denetim/ARAC-AFRIKA-RENK-0906.py
+@@ -22,7 +22,7 @@ import subprocess
+ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-os.chdir(r"C:\atlas")
++os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ sys.path.insert(0, "arac")
+ G = "1923-10-28"
+ 
+diff --git a/denetim/ARAC-AFRIKA-SUDAN-RENK-0906.py b/denetim/ARAC-AFRIKA-SUDAN-RENK-0906.py
+index 66ead217..2f4e8980 100644
+--- a/denetim/ARAC-AFRIKA-SUDAN-RENK-0906.py
++++ b/denetim/ARAC-AFRIKA-SUDAN-RENK-0906.py
+@@ -23,7 +23,7 @@ import subprocess
+ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-os.chdir(r"C:\atlas")
++os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ sys.path.insert(0, "arac")
+ G = "1923-10-28"
+ YENI = "ingiliz-sudani"
+diff --git a/denetim/ARAC-ALTINORDA-DUZELT-1001.py b/denetim/ARAC-ALTINORDA-DUZELT-1001.py
+index 3d5d980b..fdd7e85b 100644
+--- a/denetim/ARAC-ALTINORDA-DUZELT-1001.py
++++ b/denetim/ARAC-ALTINORDA-DUZELT-1001.py
+@@ -42,7 +42,7 @@ import subprocess
+ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8")
+-os.chdir(r"C:\atlas")
++os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ KURU = "--yaz" not in sys.argv
+ YOL = "data/kronoloji_altinorda.js"
+ 
+diff --git a/denetim/ARAC-B-ENKLAV-ARTIFAKT-0912.py b/denetim/ARAC-B-ENKLAV-ARTIFAKT-0912.py
+index e9dc5caa..1854e8e2 100644
+--- a/denetim/ARAC-B-ENKLAV-ARTIFAKT-0912.py
++++ b/denetim/ARAC-B-ENKLAV-ARTIFAKT-0912.py
+@@ -17,7 +17,7 @@ import sys
+ 
+ import numpy as np
+ 
+-DEPO = r"C:\atlas"
++DEPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(DEPO, "arac"))
+ sys.stdout.reconfigure(encoding="utf-8")
+ import girdi                                                        # noqa: E402
+diff --git a/denetim/ARAC-B-ENKLAV-DAGILIM-0912.py b/denetim/ARAC-B-ENKLAV-DAGILIM-0912.py
+index 58ecf839..2a352738 100644
+--- a/denetim/ARAC-B-ENKLAV-DAGILIM-0912.py
++++ b/denetim/ARAC-B-ENKLAV-DAGILIM-0912.py
+@@ -19,7 +19,7 @@ import importlib.util
+ 
+ import numpy as np
+ 
+-DEPO = r"C:\atlas"
++DEPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(DEPO, "arac"))
+ sys.stdout.reconfigure(encoding="utf-8")
+ 
+diff --git a/denetim/ARAC-B-UCUZ-PARCALAR-0911.py b/denetim/ARAC-B-UCUZ-PARCALAR-0911.py
+index 3caae439..4619a06f 100644
+--- a/denetim/ARAC-B-UCUZ-PARCALAR-0911.py
++++ b/denetim/ARAC-B-UCUZ-PARCALAR-0911.py
+@@ -42,7 +42,8 @@ from shapely.ops import unary_union, nearest_points
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
+ # ---------------- veri yükle (yalnız oku) ----------------
+ ham = io.open(KOK + r"\data\donemler.js", encoding="utf-8").read()
+diff --git a/denetim/ARAC-BAGLA-GENEL-0903.py b/denetim/ARAC-BAGLA-GENEL-0903.py
+index 248cfc23..13271fdc 100644
+--- a/denetim/ARAC-BAGLA-GENEL-0903.py
++++ b/denetim/ARAC-BAGLA-GENEL-0903.py
+@@ -12,7 +12,7 @@ sonra iki kumeyi KARSILASTIRIR.
+ """
+ import io, os, re, sys, glob, subprocess
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ ARG = [a for a in sys.argv[1:] if not a.startswith("--")]
+ YAZ = "--yaz" in sys.argv
+ if not ARG:
+diff --git a/denetim/ARAC-C-DENETIM-0911.py b/denetim/ARAC-C-DENETIM-0911.py
+index c0e2ce87..409abb96 100644
+--- a/denetim/ARAC-C-DENETIM-0911.py
++++ b/denetim/ARAC-C-DENETIM-0911.py
+@@ -32,7 +32,7 @@ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
+ 
+ # ============================================================================
+diff --git a/denetim/ARAC-C-KAPSAMA-0911.py b/denetim/ARAC-C-KAPSAMA-0911.py
+index 17bae5ba..07d908aa 100644
+--- a/denetim/ARAC-C-KAPSAMA-0911.py
++++ b/denetim/ARAC-C-KAPSAMA-0911.py
+@@ -29,7 +29,8 @@ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
+ 
+ def km_derece(lat):
+diff --git a/denetim/ARAC-C-VORONOI-KARLOFCA-0911.py b/denetim/ARAC-C-VORONOI-KARLOFCA-0911.py
+index f514a5cd..eb931e0c 100644
+--- a/denetim/ARAC-C-VORONOI-KARLOFCA-0911.py
++++ b/denetim/ARAC-C-VORONOI-KARLOFCA-0911.py
+@@ -36,7 +36,8 @@ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
+ 
+ def km_derece(lat):
+diff --git a/denetim/ARAC-CAKISMA-KUME2-0907.py b/denetim/ARAC-CAKISMA-KUME2-0907.py
+index b194947c..71ebb3d8 100644
+--- a/denetim/ARAC-CAKISMA-KUME2-0907.py
++++ b/denetim/ARAC-CAKISMA-KUME2-0907.py
+@@ -21,7 +21,7 @@ import subprocess
+ import sys
+ import tempfile
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+ 
+diff --git a/denetim/ARAC-CAKISMA-KUME3-0907.py b/denetim/ARAC-CAKISMA-KUME3-0907.py
+index b11bf08a..474db674 100644
+--- a/denetim/ARAC-CAKISMA-KUME3-0907.py
++++ b/denetim/ARAC-CAKISMA-KUME3-0907.py
+@@ -25,7 +25,7 @@ import subprocess
+ import sys
+ import tempfile
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-CAKISMA-MISIR5-0907.py b/denetim/ARAC-CAKISMA-MISIR5-0907.py
+index 4351bc02..c15b5fc5 100644
+--- a/denetim/ARAC-CAKISMA-MISIR5-0907.py
++++ b/denetim/ARAC-CAKISMA-MISIR5-0907.py
+@@ -16,7 +16,7 @@ import subprocess
+ import sys
+ import tempfile
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-D5-ASYA-NOKTA-BIRLESTIR-0917.py b/denetim/ARAC-D5-ASYA-NOKTA-BIRLESTIR-0917.py
+index ad51ef9f..82573719 100644
+--- a/denetim/ARAC-D5-ASYA-NOKTA-BIRLESTIR-0917.py
++++ b/denetim/ARAC-D5-ASYA-NOKTA-BIRLESTIR-0917.py
+@@ -3,7 +3,7 @@ import io, json, os, sys
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+ # ham kol çıktıları (nokta_A..D.json) oturumun geçici klasöründe; birleşim denetim/D5-ASYA-NOKTA-ARASTIRMA-0917.json'da kalıcı
+ SP = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\06fad4a8-e58e-4850-b3e8-c68a109e7e22\scratchpad"
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ B = "__BOSLUK__"
+ 
+ def oku(g):
+diff --git a/denetim/ARAC-DIZIN-TAMLIK-0911.py b/denetim/ARAC-DIZIN-TAMLIK-0911.py
+index 7b94b8dc..5e3b9b85 100644
+--- a/denetim/ARAC-DIZIN-TAMLIK-0911.py
++++ b/denetim/ARAC-DIZIN-TAMLIK-0911.py
+@@ -48,7 +48,7 @@ import sys
+ import tempfile
+ from datetime import date
+ 
+-REPO = r"C:\atlas"
++REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ DEVLETLER_JS = os.path.join(REPO, "data", "devletler.js")
+ TMP = tempfile.gettempdir()
+ EXTRACT_JSON = os.path.join(TMP, "devletler_extract.json")
+diff --git a/denetim/ARAC-FAZ2-CUKUROVA-0906.py b/denetim/ARAC-FAZ2-CUKUROVA-0906.py
+index 979d75a9..8a797d54 100644
+--- a/denetim/ARAC-FAZ2-CUKUROVA-0906.py
++++ b/denetim/ARAC-FAZ2-CUKUROVA-0906.py
+@@ -11,7 +11,7 @@ import os
+ import sys
+ import unicodedata
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-FAZ2-NOKTA-0906.py b/denetim/ARAC-FAZ2-NOKTA-0906.py
+index a0debcf7..e64487cf 100644
+--- a/denetim/ARAC-FAZ2-NOKTA-0906.py
++++ b/denetim/ARAC-FAZ2-NOKTA-0906.py
+@@ -11,7 +11,7 @@ import math
+ import os
+ import sys
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-FAZ2-TDV-0906.py b/denetim/ARAC-FAZ2-TDV-0906.py
+index 0f9e01a7..9ac0adc4 100644
+--- a/denetim/ARAC-FAZ2-TDV-0906.py
++++ b/denetim/ARAC-FAZ2-TDV-0906.py
+@@ -12,7 +12,7 @@ import re
+ import subprocess
+ import sys
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+ 
+diff --git a/denetim/ARAC-FAZ2-YAMA-0906.py b/denetim/ARAC-FAZ2-YAMA-0906.py
+index 4ec2dfcf..5970c1f6 100644
+--- a/denetim/ARAC-FAZ2-YAMA-0906.py
++++ b/denetim/ARAC-FAZ2-YAMA-0906.py
+@@ -16,7 +16,7 @@ import json
+ import os
+ import sys
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-GUN-COK-BORC-0905.py b/denetim/ARAC-GUN-COK-BORC-0905.py
+index 0211eddf..34d9fa2b 100644
+--- a/denetim/ARAC-GUN-COK-BORC-0905.py
++++ b/denetim/ARAC-GUN-COK-BORC-0905.py
+@@ -12,7 +12,7 @@ ONCE sorulur"; yoksa cevabi yanlis alarmlarin gurultusunden okunur).
+ SALT OKUR. Cikti ASCII.
+ """
+ import io, os, sys, math, unicodedata, collections
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ 
+diff --git a/denetim/ARAC-HAZIRLIK-0905.py b/denetim/ARAC-HAZIRLIK-0905.py
+index 2c484962..eb8add61 100644
+--- a/denetim/ARAC-HAZIRLIK-0905.py
++++ b/denetim/ARAC-HAZIRLIK-0905.py
+@@ -1,7 +1,7 @@
+ # -*- coding: utf-8 -*-
+ """MERGE HAZIRLIK DURUMU — tek ekran. SALT OKUR. ASCII."""
+ import io, os, re, sys, subprocess, unicodedata
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
+ 
+ def a(s):
+diff --git a/denetim/ARAC-IC-TUTARSIZLIK-0911.py b/denetim/ARAC-IC-TUTARSIZLIK-0911.py
+index 20bb35a1..830de0e1 100644
+--- a/denetim/ARAC-IC-TUTARSIZLIK-0911.py
++++ b/denetim/ARAC-IC-TUTARSIZLIK-0911.py
+@@ -42,7 +42,7 @@ import subprocess
+ import sys
+ import tempfile
+ 
+-REPO = r"C:\atlas"
++REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ DATA = os.path.join(REPO, "data")
+ TMP = tempfile.gettempdir()
+ EXTRACT_JSON = os.path.join(TMP, "ic_tutarsizlik_extract.json")
+diff --git a/denetim/ARAC-ISG-FAZ2-0905.py b/denetim/ARAC-ISG-FAZ2-0905.py
+index 0b943d31..d89af243 100644
+--- a/denetim/ARAC-ISG-FAZ2-0905.py
++++ b/denetim/ARAC-ISG-FAZ2-0905.py
+@@ -8,7 +8,7 @@ import io
+ import os
+ import sys
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")

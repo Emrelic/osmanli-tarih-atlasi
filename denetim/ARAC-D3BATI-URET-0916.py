@@ -801,19 +801,76 @@ for rid, f0, t0 in RUS:
 PENCERE_BASI = T_VIYANA1815   # G4'te 1878-07-13'ten Viyana 1815'e uzatıldı (öncül başlangıcı hâlâ kaynakta yok)
 PB_NOT = ("f Viyana 1815 (G4 pencere başı): öncülün kendi başlangıcı kaynakta yok — değişiklik tarihi DEĞİL; "
           "1815 öncesi G5'te")
-g = cizgi("CHE-DEU")
-xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
-yok("dg3-ch-de-1879-oncesi", CH, DE, PENCERE_BASI, (min(xs) - .03, min(ys) - .03, max(xs) + .03, max(ys) + .03),
-    {"deger": None, "kaynak": "bulunamadı", "not": "1879 antlaşması Untersee/Konstanz kesimini düzenledi; öncesiyle farkı ölçülmedi"},
-    [{"ad": "Baden–İsviçre sınır antlaşması (Untersee)", "tarih": "1854-10-31", "tur": "antlaşma"},
-     {"ad": "Baden–İsviçre antlaşması", "tarih": "1878-04-28", "tur": "antlaşma"},
-     {"ad": "İsviçre–Almanya sınır antlaşması (Untersee/Konstanz)", "tarih": "1879-06-24", "tur": "antlaşma"}],
-    "E (kara ve Untersee) · Obersee C", "G3 · " + PB_NOT, t="1879-06-24")
-g = cizgi("AUT-CHE") + CHIT_YENI
+# KARAR-UYG-1015 (Emre 0080 DEVİR İsviçre kuzey, KAYNAK-1015/G5): eski `dg3-ch-de-1879-oncesi` YOK kutusu
+# (taraf `almanya` = Kutsal Roma künyesi 962-1806, 1815-1871 için YANLIŞ taraf) → E hattı, iki taraf dönemi:
+#   1815-06-09 → 1871-01-18  isvicre–baden   (Baden Büyük Dükalığı, künye `baden` 1281→1918-11-22)
+#   1871-01-18 → 1879-06-24  isvicre–almanya (Alman İmparatorluğu ilanı; d1923-ch-de'nin öncülü)
+# Geometri bugünkü CHE-DEU hattı (d1923-ch-de ile AYNI parçalama). Dayanak: HLS "Grenzen" (Leimgruber, 2017-12-14):
+# "Der aktuelle Verlauf der Schweizer Grenze geht auf den Wiener Kongress von 1815 zurück"; 1815 sonrası sayılan
+# değişiklikler 1862 Dappental · 1952 · 1955 · 1967 Verenahof — bu kesimde 1815-1879 arası değişiklik SAYILMIYOR.
+# HLS "Wiener Kongress" (Jorio, 2015-02-03): "1815 wurden die bis heute gültige Landesgrenze … festgelegt".
+# 1854/1878/1879 Untersee-Konstanz antlaşmalarının öncesiyle farkı ÖLÇÜLMEDİ ⇒ kesinlik_km 1.5 + beyan.
+T_ALMAN_IMP = "1871-01-18"     # Alman İmparatorluğu'nun ilanı (Versay)
+ISO_BADEN = dict(ISO); ISO_BADEN["baden"] = ["DEU"]
+HLS_CH = [{"ad": "HLS — Grenzen (W. Leimgruber)", "tarih": "2017-12-14", "tur": "akademik ansiklopedi",
+           "url": "https://hls-dhs-dss.ch/de/articles/007841/2017-12-14/",
+           "alinti": "Der aktuelle Verlauf der Schweizer Grenze geht auf den Wiener Kongress von 1815 zurück"},
+          {"ad": "HLS — Wiener Kongress (M. Jorio)", "tarih": "2015-02-03", "tur": "akademik ansiklopedi",
+           "url": "https://hls-dhs-dss.ch/de/articles/008922/2015-02-03/",
+           "alinti": "1815 wurden die bis heute gültige Landesgrenze sowie die Kantonsgrenzen festgelegt"},
+          {"ad": "Baden–İsviçre sınır antlaşması (Untersee)", "tarih": "1854-10-31", "tur": "antlaşma"},
+          {"ad": "Baden–İsviçre antlaşması", "tarih": "1878-04-28", "tur": "antlaşma"},
+          {"ad": "İsviçre–Almanya sınır antlaşması (Untersee/Konstanz)", "tarih": "1879-06-24", "tur": "antlaşma"}]
+CHB_DEG = {"deger": None, "kaynak": "HLS Grenzen",
+           "not": "HLS 1815 sonrası değişiklikleri sayıyor, bu kesimde 1879 öncesi YOK; 1854/1878/1879 Untersee-Konstanz "
+                  "düzenlemelerinin öncesiyle farkı ölçülmedi · sonrası: " + CHDE_DEG["not"]}
+CHB_NOT = ("G3 · KARAR-UYG-1015 (KAYNAK-1015/G5 HLS): eski YOK kutusu → E · " + PB_NOT)
+ekle("dg3-ch-baden", "baden", CH, PENCERE_BASI, "D", parcala(cizgi("CHE-DEU"), disinda([OBERSEE])), HLS_CH, CHB_DEG,
+     {"t": "bulunamadı", "not": "kara kesimlerinin 19. yy temel antlaşma listesi bulunamadı"}, 1.5, KES_NE,
+     CHB_NOT, t=T_ALMAN_IMP, iso=ISO_BADEN)
+ekle("dg3-ch-baden-obersee", "baden", CH, PENCERE_BASI, "C", parcala(cizgi("CHE-DEU"), icinde([OBERSEE])), HLS_CH,
+     {"deger": False, "kaynak": "Kramsch 2015", "not": "Obersee'de sınır bugün de ÇİZİLMEMİŞ"},
+     {"t": "yok", "not": "göl sınırı hiç çizilmedi"}, None,
+     "NE göl çizgisi bir kartografik UZLAŞIDIR, hukukî hat değil",
+     CHB_NOT + " · Obersee: karşı kıyıda Baden yanında Württemberg ve Bavyera da var ⇒ C", t=T_ALMAN_IMP,
+     iso=ISO_BADEN)
+ekle("dg3-ch-de-1879-oncesi", CH, DE, T_ALMAN_IMP, "D", parcala(cizgi("CHE-DEU"), disinda([OBERSEE])), HLS_CH, CHB_DEG,
+     {"t": "bulunamadı", "not": "kara kesimlerinin 19. yy temel antlaşma listesi bulunamadı"}, 1.5, KES_NE,
+     "G3 · KARAR-UYG-1015 (KAYNAK-1015/G5 HLS): eski YOK kutusu → E · f Alman İmparatorluğu'nun ilanı (taraf değişimi, "
+     "hat değişimi DEĞİL)", t="1879-06-24")
+ekle("dg3-ch-de-1879-oncesi-obersee", CH, DE, T_ALMAN_IMP, "C", parcala(cizgi("CHE-DEU"), icinde([OBERSEE])), HLS_CH,
+     {"deger": False, "kaynak": "Kramsch 2015", "not": "Obersee'de sınır bugün de ÇİZİLMEMİŞ"},
+     {"t": "yok", "not": "göl sınırı hiç çizilmedi"}, None,
+     "NE göl çizgisi bir kartografik UZLAŞIDIR, hukukî hat değil",
+     "G3 · KARAR-UYG-1015 · Bodensee Obersee: İsviçre orta hat, Avusturya kondominyum der ⇒ C", t="1879-06-24")
+# KUTU-H5-1015 (Emre 0075/H-0003 "İsviçre 1830 sınırı"): bugünkü AT–CH kesimi 1815-1893 için YOK → E.
+# Dayanak: Avusturya hükümetinin 1970 sınır antlaşması gerekçesi — Saint-Germain md. 27(1) "gegenwärtige Grenze"
+# yani monarşinin son hattını aldı; bütün hattı belirleyen resmî antlaşma hiç yapılmadı, yalnız 1868 Finstermünz
+# antlaşması dört dağ kesimini kesinleştirdi; 1892 ve 1924 Ren antlaşmaları md. 15: sınır Diepoldsau/Fussach
+# yarmalarından sonra da "bisherige" Eski Ren ortasında kalır. Cima Garibaldi–Piz Lad (Vinschgau) kesimi bu belgede
+# YOK (bugün İtalya–İsviçre) ⇒ o kesim YOK kutusu olarak kaldı.
+AT1972 = {"ad": "Avusturya Federal Hükümeti — Regierungsvorlage 147 d.B. XIII. GP (17.1.1972), Erläuterungen I",
+          "tarih": "1972-01-17", "tur": "resmî", "url": "https://www.parlament.gv.at/dokument/XIII/I/147/imfname_317913.pdf",
+          "alinti": "verbleibt auch nach Vollendung der beiden Durchstiche unverändert"}
+FINSTER = {"ad": "Tirol–İsviçre sınır düzenlemesi (Finstermünz) antlaşması", "tarih": "1868-07-14", "tur": "antlaşma",
+           "not": "RGBl. 2/1869 — Piz Lad, Altfinstermünz-Martinsbruck, Schalklhof-Altfinstermünz, Schalklbach kesimleri"}
+HAB_ONCE_DEG = {"deger": True, "kaynak": "147 d.B. XIII. GP (1972)",
+                "not": "Ren kesimi 1892 antlaşmasıyla DEĞİŞMEDİ (Eski Ren ortası); dağ kesiminde 1868 Finstermünz "
+                       "antlaşması dört küçük kesimi kesinleştirdi (öncesi ihtilaflı, farkı ölçülmedi); sonrası: "
+                       + CHAT_DEG["not"]}
+ekle("dg3-hab-ch-1893-oncesi-kara", "habsburg", CH, PENCERE_BASI, "D", parcala(chat, lambda c: c[1] < 47.49),
+     HABCH + [AT1972, FINSTER], HAB_ONCE_DEG, {"t": "1868 (dağ kesimi)", "not": "yalnız Finstermünz kesimleri"}, 1.5,
+     KES_NE, "G3 · KUTU-H5-1015: YOK → E (0075/H-0003). " + PB_NOT, t="1893-07-21", iso=ISO_HAB)
+ekle("dg3-hab-ch-1893-oncesi-bodensee", "habsburg", CH, PENCERE_BASI, "C", parcala(chat, lambda c: c[1] >= 47.49),
+     HABCH + [AT1972], {"deger": False, "kaynak": "Kramsch 2015", "not": "göl kesimi bugün de çizilmemiş"},
+     {"t": "yok", "not": ""}, None, "NE göl/ağız çizgisi kartografik uzlaşı",
+     "G3 · KUTU-H5-1015. Bodensee statüsü ihtilaflı ⇒ C. " + PB_NOT, t="1893-07-21", iso=ISO_HAB)
+g = CHIT_YENI
 xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
 yok("dg3-hab-ch-1893-oncesi", "habsburg", CH, PENCERE_BASI, (min(xs) - .03, min(ys) - .03, max(xs) + .03, max(ys) + .03),
-    {"deger": None, "kaynak": "bulunamadı", "not": "1892 Ren antlaşması sınırı Eski Ren'in ortasına bağladı; öncesiyle farkı ölçülmedi"},
-    HABCH, "E", "G3 · Ren ve dağ kesimleri + Cima Garibaldi–Piz Lad. " + PB_NOT, t="1893-07-21")
+    {"deger": None, "kaynak": "bulunamadı", "not": "Cima Garibaldi–Piz Lad kesiminin 1893 öncesi hattına dair kaynak bulunamadı"},
+    HABCH, "E", "G3 · yalnız Cima Garibaldi–Piz Lad (Vinschgau) kesimi; Ren ve dağ kesimleri KUTU-H5-1015'te E oldu. "
+    + PB_NOT, t="1893-07-21")
 g = cizgi("ESP-MAR", 2)
 xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
 yok("dg3-es-ma-melilla-1894-oncesi", ES, MA, "1862-06-21", (min(xs) - .02, min(ys) - .02, max(xs) + .02, max(ys) + .02),

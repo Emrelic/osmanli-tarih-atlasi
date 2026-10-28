@@ -86,6 +86,17 @@ window.OLAYLAR_OK109 = [
   },
 
   {
+    t: "1918-10-29", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
+    kapsam:"dis", onem:3, b: "Sloven-Hırvat-Sırp Devleti'nin ilânı — Hırvat Saboru Habsburg bağlarını kopardı", odak_yer:["Zagreb","Ljubljana","Saraybosna"], kapsam_genis:true,
+    gun: "29 Ekim 1918",
+    yer: "Zagreb, Ljubljana, Saraybosna",
+    kisiler: "—",
+    d: "Hırvat Saboru 29 Ekim 1918'de Hırvatistan, Slavonya ve Dalmaçya'nın Avusturya-Macaristan ile bütün devlet-hukuku bağlarını kopardığını ilân etti; aynı gün Ljubljana'da Sloven-Hırvat-Sırp Devleti'nin kuruluşu kutlandı. Bosna-Hersek'te Avusturya-Macaristan yönetimi 1 Kasım 1918'de yetkiyi Ulusal Konseyin hükümetine devretti. Bu devlet, 1 Aralık 1918'de Belgrad'da Sırp-Hırvat-Sloven Krallığı ilân edilinceye kadar sürdü.",
+    ic_not_turetilmis: "ONCE1281-OK109-UYGULA-1004 (5 Ekim 2026): bu dosyanın eski 1918-11-11 maddesi (\"Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor\", kaynak: birinci-dunya-savasi) TÜRETİLMİŞ bulundu ve kaldırıldı — gün Avusturya künyesinin t'sinden devralınmıştı, kaynağı 11 Kasım'ı ALMANYA'nın mütarekesi için söylüyordu (D207, D211 ⑧, D260). İz silinmedi, buraya taşındı; eski ic_not_d AYNEN: \"eski ifade: Bu gün atlasta imparatorluk mirasının toplu devrini gösterir: seksen dokuz yerleşim Avusturya kimliğinden çıkar; · atlas bu ilanların toprak üzerindeki karşılığını tek güne toplar\". Ölçüm: denetim/ONCE1281-AVUSTURYA109-1004.md §6 · denetim/ONCE1281-OK109-SUPURGE-1004.md.",
+    kaynak: "Hrvatska enciklopedija (LZMK), 'Država Slovenaca, Hrvata i Srba' (enciklopedija.hr/clanak/drzava-slovenaca-hrvata-i-srba): 'Obuhvaća razdoblje od objave Deklaracije Narodnoga vijeća SHS 19. X. 1918., odn. zaključaka Hrvatskoga sabora 29. X. 1918. do proglašenja Kraljevstva Srba, Hrvata i Slovenaca u Beogradu 1. XII. 1918.' · Hrvatska enciklopedija 'Zagreb': 'a 29. X. 1918. Hrvatski je sabor raskinuo sve državnopravne veze s Austro-Ugarskom Monarhijom' · Zgodovinski arhiv Ljubljana (zal-lj.si): 'Manifestacija ob ustanovitvi Države Slovencev, Hrvatov in Srbov, na Kongresnem trgu v Ljubljani (29. 10. 1918)' · Parlamentarna skupština BiH (parlament.ba/Content/Read/180): 'Do 1. novembra 1918. … Austro-Ugarska monarhija je istog dana predala vlast ovom vijeću' — TDV kapsamı dışı taneciklik (§4)."
+  },
+
+  {
     t: "1918-10-30", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
     kapsam:"dis", onem:4, b: "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği", odak_yer:["Viyana","Graz"], kapsam_genis:true,
     gun: "30 Ekim 1918",
@@ -116,26 +127,6 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1918-11-11", k: "siyaset", etiket: ["siyaset", "toprak-kaybi", "konu-askeri", "konu-siyasi"],
-    kapsam:"dis", onem:4, b: "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor", odak_yer:["Viyana","Budin","Prag","Zagreb","Belgrad","Varşova"], kapsam_genis:true,
-    gun: "11 Kasım 1918",
-    yer: "Viyana, Budin, Prag, Zagreb, Belgrad, Erdel, Varşova",
-    kisiler: "İmparator Karl",
-    d: "Harita bu gün imparatorluk mirasının toplu devrini gösterir: Avusturya-Macaristan toprakları dağılır; Yugoslavya, Macaristan Naipliği, Sırbistan Krallığı, Çekoslovakya, Romanya Krallığı ve Polonya aynı anda haritaya girer. Devrin kendisi tek bir günde olmadı — Çekoslovakya 28 Ekim'de, Avusturya Cumhuriyeti 30 Ekim'de, Macaristan halk cumhuriyeti 31 Ekim'de ilân edilmişti; harita bu ilanların toprak üzerindeki karşılığını tek güne toplar. TDV 11 Kasım'ı Almanya'nın silâh bırakışı olarak kaydeder; Avusturya'nınki 3 Kasım'dır.", ic_not_d:"eski ifade: Bu gün atlasta imparatorluk mirasının toplu devrini gösterir: seksen dokuz yerleşim Avusturya kimliğinden çıkar; · atlas bu ilanların toprak üzerindeki karşılığını tek güne toplar",
-    kaynak: "birinci-dunya-savasi"
-  },
-
-  {
-    t: "1918-11-18", k: "taht", etiket: ["siyaset","konu-siyasi","konu-hanedan"],
-    kapsam:"dis", b: "İmparator Karl'ın çekilişi — Habsburg hânedanının sonu", yer_kon:[48.208,16.373],
-    gun: "18 Kasım 1918",
-    yer: "Viyana",
-    kisiler: "İmparator Karl",
-    d: "Kasım ayında Macaristan Cumhuriyeti'nin kurulduğu ilân edilince İmparator Karl tahtsız kaldı. TDV'nin kaydına göre imparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla imparatorlukla birlikte hânedan da tarihe karıştı. Bu, hânedanın hukukî sonudur; toprak üzerindeki egemenlik devri ondan haftalar önce, ardıl devletlerin ilanlarıyla gerçekleşmişti — haritada görünen, bu egemenlik devridir.", ic_not_d:"eski ifade: — atlas ikincisini boyar, birincisini anlatır.",
-    kaynak: "avusturya"
-  },
-
-  {
     t: "1918-12-01", k: "kurulus", etiket: ["siyaset", "toprak-kazanc", "konu-askeri", "konu-siyasi"],
     kapsam:"dis", onem:4, b: "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet", odak_yer:["Belgrad","Zagreb","Saraybosna","Suçava (Suceava)","Çernovitz (Çernivtsi)"], kapsam_genis:true,
     gun: "1 Aralık 1918",
@@ -161,8 +152,18 @@ window.OLAYLAR_OK109 = [
     gun: "4 Haziran 1920",
     yer: "Trianon (Versailles), Budapeşte",
     kisiler: "Miklós Horthy",
-    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve Yukarı Macaristan çoktan Romanya ve Çekoslovakya rengindedir.", ic_not_d:"eski ifade: Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir;",
+    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve Yukarı Macaristan da tam bu gün Romanya ve Çekoslovakya rengine geçer.", ic_not_d:"eski ifade: Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir;",
     kaynak: "macaristan"
+  },
+
+  {
+    t: "1920-06-04", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-diplomasi"],
+    kapsam:"dis", onem:3, b: "Banat bölüşüldü, Temeşvar Romanya'ya bırakıldı (Trianon md. 27/3 ve 45)", yer_id:"Temeşvar", odak_yer:["Temeşvar"],
+    gun: "4 Haziran 1920",
+    yer: "Temeşvar (Timișoara)",
+    d: "Trianon Antlaşması, Macar-Romen sınırını md. 27/3 ile çizdi ve md. 45 ile Macaristan bu sınırın ötesindeki eski monarşi topraklarındaki bütün hak ve unvanlarından Romanya lehine vazgeçti; böylece Erdel, Banat, Crișana ve Maramureș'in Romanya ile birleşmesi uluslararası hukukta tanındı. Banat bölgesi Romanya ile Sırbistan arasında bölüşüldü; Tımışvar şehri Romanya Krallığı'na katıldı. Temeşvar'da Romen idaresi 3 Ağustos 1919'dan beri fiilen işliyordu; antlaşma bu durumu hukuka geçirdi.",
+    ic_not_d: "Gün 1920-06-04 (imza), yürürlük 1921-07-26 DEĞİL: F8 kararı (Emre, 5 Ekim 2026) de jure devri antlaşma gününe koyar ve atlasın Banat noktaları bu güne bağlıdır; 1921-07-26 ±30 gün penceresinin dışında kalır. Lugoj ve Yanova bu maddede ADIYLA YOK: kaynaklardan hiçbiri onları Trianon/Romanya ile adıyla bağlamıyor (MNIR bölge düzeyinde Banat/Crișana diyor; TDV yanova yalnız bugünkü konumu veriyor; D208). Orsova atlasta 1918-01-01 yıl-temsilî, ayrı kalem (BANAT-TRIANON-1006b, koordinatör hükmü).",
+    kaynak: "MNIR — Muzeul Virtual al Unirii (mvu.ro), 'Tratatul dintre Puterile Aliate și Asociate și Ungaria, Trianon, 4 iunie 1920' — 'Tratatul de Pace cu Ungaria , semnat la Trianon la 4 iunie 1920, este actul internațional care a recunoscut Unirea Transilvaniei, Banatului, Crișanei și Maramureșului cu Regatul Român și a fixat și granița comună româno-ungară' · md. 45 (aynı sayfa, Romence resmî çeviri): „Ungaria renunță, în ceea ce o privește, în favoarea României, la toate drepturile și titlurile asupra teritoriilor fostei monarhii austro-ungare situate dincolo de fruntariile Ungariei, astfel cum sunt fixate la articolul 27, Partea II (Fruntariile Ungariei) și recunoscute prin prezentul Tractat sau prin orice alte Tractate încheiate în scop de a regula afacerile actuale, ca făcând parte din România” · md. 27: 'aliniatul 3 -frontiera cu România' · TDV timisvar: 'Barış antlaşmalarına göre Banat bölgesi Romanya ve Sırbistan arasında bölüşüldü.' · 'Tımışvar şehri Romanya Krallığı’na katıldı.' · TDV birinci-dunya-savasi: '4 Haziran 1920’de Macaristan ile Trianon … antlaşmaları imzalandı' · BANAT-TRIANON-1006b"
   },
 
   // ═══════════════════════════════════════════════════════════════════════
@@ -207,12 +208,13 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1919-06-28", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
-    kapsam:"dis", onem:4, b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü", odak_yer:["Strazburg","Metz","Colmar","Mulhouse"], kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Versailles Antlaşması — Alsas-Loren'in Fransa'ya iadesi hukuka geçti", odak_yer:["Strazburg","Metz","Colmar","Mulhouse"], kapsam_genis:true,
     gun: "28 Haziran 1919",
     yer: "Versailles, Strazburg, Metz, Colmar, Mulhouse",
     kisiler: "—",
-    d: "Paris Barış Konferansı 18 Ocak 1919'da toplandı ve 28 Haziran'da Almanya ile Versailles Antlaşması imzalandı. Haritada bu gün Strazburg, Metz, Colmar ve Mulhouse Almanya'dan Fransa'ya geçer — 1871'den beri Alman olan Alsas-Loren'in dönüşü. Aynı konferans dizisi Avusturya ile Saint-Germain'i (10 Eylül 1919), Bulgaristan ile Neuilly'yi (27 Kasım 1919), Macaristan ile Trianon'u (4 Haziran 1920) ve Osmanlı Devleti ile Sevr'i (10 Ağustos 1920) doğurdu.", ic_not_d:"eski ifade: Atlasta bu gün",
-    kaynak: "birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". ⚠️ TANECİKLİK BOŞLUĞU (CLAUDE.md §4): TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir."
+    d: "Paris Barış Konferansı 18 Ocak 1919'da toplandı ve 28 Haziran'da Almanya ile Versailles Antlaşması imzalandı. Antlaşmanın 51. maddesi 1871'den beri Alman olan Alsas-Loren'i (Strazburg, Metz, Colmar, Mulhouse) Fransa egemenliğine iade etti — ama devri imza gününe değil, geriye dönük olarak 11 Kasım 1918 mütarekesine bağladı. Aynı konferans dizisi Avusturya ile Saint-Germain'i (10 Eylül 1919), Bulgaristan ile Neuilly'yi (27 Kasım 1919), Macaristan ile Trianon'u (4 Haziran 1920) ve Osmanlı Devleti ile Sevr'i (10 Ağustos 1920) doğurdu.", ic_not_d:"eski ifade: Atlasta bu gün",
+    ic_not_turetilmis: "ONCE1281-OK109-UYGULA-1004 (5 Ekim 2026): eski metnin toprak iddiası (\"Haritada bu gün Strazburg, Metz, Colmar ve Mulhouse Almanya'dan Fransa'ya geçer\") TÜRETİLMİŞTİ — kaynak alanının kendisi \"atlasın KENDİ verisinden okunmuştur\" diyordu (D260). Antlaşmanın 51. maddesi devri 11 Kasım 1918'e bağlar; veride 1919-06-28 almanya → fransa-cumhuriyet kırılması (4 yerleşim) bu yüzden ayrı bir VERİ kalemidir (öneri: 1918-11-11).",
+    kaynak: "Versailles Antlaşması md. 51 (Yale Law School, Avalon Project, avalon.law.yale.edu/imt/partiii.asp): 'The territories which were ceded to Germany … are restored to French sovereignty as from the date of the Armistice of November 11, 1918.' · birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". Dikkat: TANECİKLİK BOŞLUĞU: TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir."
   },
 
   {
@@ -223,7 +225,166 @@ window.OLAYLAR_OK109 = [
     yer: "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",
     kisiler: "Çar Ferdinand, Boris",
     d: "Savaşın yenilgiyle bitmesi üzerine Çar Ferdinand mütareke istemek ve oğlu Boris lehine tahttan çekilmek zorunda kalmıştı (29 Eylül 1918). Savaşı sona erdiren Neuilly Antlaşması'yla Bulgaristan Sırplar lehine stratejik toprak kaybına uğradı, Batı Trakya'nın tamamını kaybetti, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kaldı ve Güney Dobruca'yı Romanya'ya veren Bükreş Antlaşması hükümlerini onayladı. Haritada bu devrin karşılığı antlaşma gününde değil, idarenin fiilen el değiştirdiği 1920 Mayıs'ındadır: Dedeağaç, Sofulu, Orestiada ve Çirmen 14 Mayıs'ta, Gümülcine, İskeçe, Dimetoka ve Ferecik 27 Mayıs'ta Yunanistan'a geçer.", ic_not_d:"eski ifade: Atlasta bu devrin karşılığı",
-    kaynak: "bulgaristan — gövde okundu: \"Savaşı sona erdiren Neully Antlaşması'yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya'nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kalmış ve Güney Dobruca'yı Romanya'ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır.\" ⚠️ TDV antlaşmanın adını \"Neully\" diye yazıyor; \"Neuilly\" aramasi bu maddede 0 sonuç verir. `neuilly` slugu 302 (ÖLÜ)."
-  }
+    kaynak: "bulgaristan — gövde okundu: \"Savaşı sona erdiren Neully Antlaşması'yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya'nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kalmış ve Güney Dobruca'yı Romanya'ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır.\" Dikkat: TDV antlaşmanın adını \"Neully\" diye yazıyor; \"Neuilly\" aramasi bu maddede 0 sonuç verir. `neuilly` slugu 302 (ÖLÜ)."
+  },
+
+  // ── ONCE1281-EISENSTADT-1005 (M-5834 ②) — Burgenland'ın fiilî devri ──────────
+  {
+    t: "1921-11-13", k: "toprak-kazanc", etiket: ["siyaset", "toprak-kazanc", "konu-askeri", "konu-siyasi"],
+    kapsam:"dis", onem:2, b: "Avusturya Bundesheer'i Burgenland'a girdi — Trianon'un Avusturya'ya bıraktığı toprak fiilen devralındı", yer_id:"Eisenstadt (Kismarton)",
+    gun: "13 Kasım 1921",
+    yer: "Eisenstadt, Burgenland",
+    d:"Trianon (1920) ve Saint-Germain (1919) Batı Macaristan'ın Almanca konuşulan şeridini Avusturya'ya bırakmıştı; 28 Ağustos 1921'deki ilk devralma denemesi Macar düzensiz birliklerinin direnişiyle başarısız oldu. Venedik Protokolü'nden (13 Ekim 1921) sonra Müttefik Genel Komisyonu 11 Kasım'da Bundesheer'in girişini onayladı ve kuzey Burgenland iki gün sonra devralınmaya başlandı; güney 6 Aralık 1921'de devralındı, Sopron bölgesi halk oylamasıyla Macaristan'da kaldı.", ic_not_d:"Trianon (1920) ve Saint-Germain (1919) Batı Macaristan'ın Almanca konuşulan şeridini Avusturya'ya bırakmıştı; 28 Ağustos 1921'deki ilk devralma denemesi Macar düzensiz birliklerinin direnişiyle başarısız oldu. Venedik Protokolü'nden (13 Ekim 1921) sonra Müttefik Genel Komisyonu 11 Kasım'da Bundesheer'in girişini onayladı ve kuzey Burgenland iki gün sonra devralınmaya başlandı; güney 6 Aralık 1921'de devralındı, Sopron bölgesi halk oylamasıyla Macaristan'da kaldı. Gün bölge günüdür; Eisenstadt'a özgü giriş günü bulunamadı.",
+    kaynak: "BMI, Öffentliche Sicherheit 7-8/2021, 'Gendarmeriegeschichte — Landnahme 1921' (Schlag, Aus Trümmern geboren … Burgenland 1918-1921, WAB 106, 2001'e dayanır) — 'genehmigte am 11. November 1921 offiziell den Einmarsch des Bundesheeres in das Burgenland, mit Ausnahme der Region Ödenburg. Zwei Tage später wurde mit der neuerlichen Landnahme begonnen' · Theresianische Militärakademie (milak.at, 'Das Gefecht von Kirchschlag') — 'Als am 13. November 1921 … das Bundesheer in das Burgenland einrückte'"
+  },
+
+  // ── ONCE1281-ZIGETVAR-1005 (M-5834 ③) — Szigetvár'ın Sırp işgali ──────────
+  {
+    t: "1918-11-19", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Sırp birlikleri Szigetvár'a girdi — Güney Somogy'un işgali", yer_id:"Zigetvar",
+    gun: "18/19 Kasım 1918 gecesi",
+    yer: "Szigetvár",
+    d: "Belgrad askerî anlaşmasının çizdiği hattın kuzeyine ilerleyen Sırp ordusundan Obren Petrović komutasındaki 220 asker, 18'i 19'a bağlayan gece Somogy'un ilçe merkezi Szigetvár'a girdi; ilçenin köyleri de bu kuvvetle tutuldu. İşgal Ağustos 1921'e dek sürdü; Trianon Szigetvár'ı Macaristan'da bıraktı.",
+    kaynak: "Ernyes M., Magyar Rendészet 2021/1, 141-154 (DOI 10.32577/mr.2021.1.10) — '1918. november 18–19-ének éjjelén vonult be 220 szerb katona Obren Petrovic főhadnagy parancsnoksága alatt' (dipnot: Csóti 1998, Somogy Megyei Levéltár) — gece 18/19, gün olarak 19 alındı"
+  },
+
+  {
+    t: "1921-08-20", k: "toprak-kazanc", etiket: ["siyaset", "toprak-kazanc", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Sırp birlikleri Szigetvár'dan çekildi — Macar jandarması şehri devraldı", yer_id:"Zigetvar",
+    gun: "20 Ağustos 1921",
+    yer: "Szigetvár, Barcs",
+    d: "Trianon'un yürürlüğe girmesinin ardından Sırp kuvvetleri 17 Ağustos'ta Barcs ve Szigetvár'dan çekilmeye başladı ve taşınabilen her şeyi götürdü. 20 Ağustos öğleye doğru Macar jandarma birlikleri girdi; öğleden sonra belediye meclisi ve memurlar yemin etti, saat beşte belediye binasında askerî devir teslim yapıldı.",
+    kaynak: "Ernyes M., Magyar Rendészet 2021/1, 141-154 (DOI 10.32577/mr.2021.1.10) — 'Barcsról és Szigetvárról 1921. augusztus 17-én kezdték meg a szerb csapatok a kivonulást … 20-án dél körül magyar csendőr alegységek vonultak be a településekre … délután 5 órakor pedig a községházán megtörtént a katonai átadás-átvétel is'"
+  },
+
+  // ══ UMIT-W33-ISGAL-1006 — 1918-1921 işgal kırılmalarının KENDİ maddeleri ════════════════
+  // NİÇİN: ARAC-DEGISMEZ2-YERKORU-1004 12 `isg:` kırılmasının (bu blok 11'ini karşılar; Lvov 1918-11-22 BİLEREK dışarıda — UMIT-W33-ISGAL-1006.md EK) Değişmez 2i'de ±30 gün içinde
+  // TESADÜFİ maddelerle kapandığını ölçtü (Kars'ın İngiliz işgali, Ravalpindi, İkinci İnönü,
+  // Irak Krallığı…). Her madde o YERİ `yer_id` (K1) ya da başlık/`yer` metni (K2) ile anar.
+  // Kaynaklar `isg:` alanlarında duruyordu; hepsi bu oturumda YENİDEN OKUNDU (yalnız
+  // Prekmurje hariç; notu maddede). Atlas kaydı DAYANAK olarak kullanılmadı (§4).
+
+  {
+    t: "1918-11-11", k: "kurulus", etiket: ["siyaset", "konu-siyasi"],
+    kapsam:"dis", onem:4, b: "Polonya'nın bağımsızlığı — Naiplik Konseyi ordunun komutasını Piłsudski'ye verdi", yer_id:"Varşova",
+    gun: "11 Kasım 1918",
+    yer: "Varşova",
+    kisiler: "Józef Piłsudski",
+    d: "Józef Piłsudski 10 Kasım 1918'de Varşova'ya döndü. 11 Kasım'da Naiplik Konseyi ordunun komutasını ona verdi; birkaç gün sonra millî hükümeti kurma görevini de ona bıraktı.",
+    ic_not_d: "KARDEŞİ VAR, KUYRUK'ta: data/kronoloji_cok_senkron_0930.js 1918-11-11 'Polonya Cumhuriyeti bağımsızlığını kazanır: Alman işgal idaresi çöker' (Davies, God's Playground II — 'sayfa açılmadı'). Çekirdekte (olaylar*) olay YOKTU; bu madde onun çekirdekteki karşılığıdır, YENİ KAPSAM DEĞİL. TDV 'Polonya' (K. Beydilli, c. 34, 2007) devletin yeniden kuruluşunu Versay'a (29 Haziran 1919) bağlıyor, 11 Kasım gününü VERMİYOR (UMIT-W33b).",
+    kaynak: "Muzeum Józefa Piłsudskiego w Sulejówku (devlet müzesi), 'Józef Piłsudski 1867–1935' (muzeumpilsudski.pl) — 'Józef Piłsudski returned to Warsaw on November 10, 1918.' · 'On November 11, the Regency Council put Piłsudski in charge of the army, and a few days later entrusted him with the task of forming a National Government.' — nitelik notu: kurumsal (müze); akademik makale erişilemedi (1914-1918-online bot korumalı, Britannica 403)"
+  },
+
+  {
+    t: "1918-11-14", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Sırp ordusu Pécs'i (Peçuy) işgal etti — Baranya'nın Sırp işgali başladı", yer_id:"Peçuy",
+    gun: "14 Kasım 1918",
+    yer: "Peçuy (Pécs)",
+    d: "Kömür madenleri yüzünden stratejik önem taşıyan Pécs, 14 Kasım 1918'de Sırp işgali altına girdi. Pécs ve Baranya vilayetinin Sırp işgali Ağustos 1921'e kadar sürdü.",
+    kaynak: "Magyar Nemzeti Levéltár Baranya Vármegyei Levéltára, 'Száz éve, 1921. augusztus 22-én ért véget Pécs és Baranya megye szerb megszállása' (mnl.gov.hu) — 'A szénbányászat miatt stratégiailag is kiemelt jelentőségű Pécs november 14-én került szerb megszállás alá.'"
+  },
+
+  {
+    t: "1918-11-14", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Sırp ordusu Timișoara'yı (Temeşvar) işgal etti — Banat'ın Sırp askerî idaresi başladı", yer_id:"Temeşvar",
+    gun: "14 Kasım 1918",
+    yer: "Temeşvar (Timișoara)",
+    d: "Sırp birlikleri 14 Kasım 1918'de Timișoara'yı işgal etti, millî muhafızları dağıttı ve Banat'ın askerî, kısa süre sonra da mülkî idaresini üstlendi. Aralık başında şehre Fransız birlikleri de girdi; Romen idaresi ancak Temmuz-Ağustos 1919'da kuruldu.",
+    ic_not_d: "Temeşvar yerleşim kaydının önerilen 1918-11-14 isg: kırılmasını (sirbistan-kralligi) YER koluyla karşılar (P84-BRASSO-TEMESVAR-1006). Peçuy'un aynı günkü maddesi bu kırılmayı yalnız tesadüfen kapatırdı.",
+    kaynak: "Muzeul Național de Istorie a României — Muzeul Virtual al Unirii (mvu.ro, 'How Transilvania, Banatul, Crisana and Maramuresul got togheter') — 'On November 14, 1918, the Serbian troops occupied Timisoara, dissolved the national guards and took over the military administration and, shortly, the civilian side of Banat.' · Fransızlar: Ziua de Vest (gazete, 02.08.2024) 'la începutul lunii decembrie 1918, ele au fost urmate de cele franceze' — nitelik notu: kurumsal (devlet müzesi) + gazete; akademik kaynak BULUNAMADI"
+  },
+
+  {
+    t: "1918-12-01", kesinlik:"ay", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Romen ordusu Brașov'a (Brassó) girdi ve törenle karşılandı", yer_id:"Brassó (Braşov)",
+    gun: "Aralık 1918 (kaynak aynı olaya iki gün veriyor: 24 Kasım / 7 Aralık ve 10 Aralık)",
+    yer: "Brassó (Brașov)",
+    d: "Romen ordusu Aralık 1918'de Brașov'a girdi; şehrin Rumen önde gelenleri orduyu ve General Berthelot'yu törenle karşıladı.",
+    ic_not_d: "AY DÜZEYİ (D213) — OKUMA, seçim değil. Kaynakta iki cümle: (A) 'avea să conducă ceremonialul primirii armatei române în Braşov, avându-l în frunte pe generalul Berthelot în 24 noiembrie - 7 decembrie 1918' (24 Kasım Jülyen = 7 Aralık Gregoryen, TEK gün) · (B) 'manifestările prilejuite de intrarea triumfală a Armatei Române în Braşov pe 10 decembrie 1918'. İkisi de AYNI olayı — Romen ordusunun Brașov'a gelişi ve karşılanışını — tarihliyor: (A) 'ordunun Brașov'da karşılanma töreni', (B) 'ordunun Brașov'a zafer girişi'nin kutlamaları; ayrı bir ikinci giriş anlatılmıyor. Ayrı olay olduklarını gösteren bağımsız kaynak BULUNAMADI (aranan: Brașov kurumları, akademik makale). ⇒ 7 mi 10 mu okunamıyor, ikisinin ortak en kaba güvenli düzeyi AY (Aralık 1918). Haritadaki `isg:` 1918-12-07 (A) ile başlıyordu; P84-BRASSO-TEMESVAR-1006 yerleşim kaydını da AY düzeyine (1918-12-01, kesinlik ay) indirmeyi önerdi (KOORD diff). Bağımsız kurumsal tanık bölge düzeyinde aynı ayı veriyor: MNIR mvu.ro 'The Romanian army entered South East Transylvania at the beginning of December 1918' — şehir günü vermez, 7/10 ayrımını çözmez.",
+    kaynak: "Adevărul (gazete, S. Dan, 01.12.2015 — Şchei Aziz Nikola Kilisesi arşivine dayanarak), 'Brașovul la 1 Decembrie 1918' — (A) 'ceremonialul primirii armatei române în Braşov … în 24 noiembrie - 7 decembrie 1918' · (B) 'intrarea triumfală a Armatei Române în Braşov pe 10 decembrie 1918' — nitelik notu: gazete, ikincil; akademik ikinci kaynak BULUNAMADI"
+  },
+
+  {
+    t: "1918-12-19", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "İtalyan ordusu Knin'i işgal etti", yer_id:"Knin",
+    gun: "19 Aralık 1918",
+    yer: "Knin",
+    d: "İtalyan ordusu 19 Aralık 1918'de Knin'i işgal etti. İşgal, Rapallo Antlaşması'ndan sonra İtalyan ordusunun şehirden çekildiği 4 Nisan 1921'e kadar sürdü.",
+    kaynak: "Grad Knin, resmî şehir tarihi (knin.hr/povijest; Paić, P., Hrvatski kraljevski grad Knin, Knin 1998) — 'talijanska vojska je okupirala Knin 19. prosinca 1918. godine'"
+  },
+
+  {
+    t: "1918-12-29", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Çekoslovak birlikleri Košice'yi (Kassa) aldı", yer_id:"Kassa (Košice)",
+    gun: "29 Aralık 1918",
+    yer: "Kassa (Košice)",
+    d: "Alois Jirásek adını taşıyan 30. Piyade Alayı 29 Aralık 1918'de şehri işgal edince Košice fiilen Çekoslovakya Cumhuriyeti'ne katıldı.",
+    kaynak: "Vojtech Kárpáty (tarihçi, Východoslovenské múzeum Košice), rusyn.sk söyleşisi, 2020 — 'Košice boli začlenené do Československej republiky de facto až 29. decembra 1918, keď mesto obsadil 30. peší pluk Aloisa Jiráska.' — nitelik notu: müze tarihçisinin söyleşisi"
+  },
+
+  {
+    t: "1919-04-20", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Romen ordusu Szatmár'a (19 Nisan) ve Oradea'ya (Varad, 20 Nisan) girdi", yer_id:"Varad (Oradea)",
+    gun: "19-20 Nisan 1919",
+    yer: "Szatmár (Satu Mare), Varad (Oradea)",
+    d: "19 Nisan 1919 Paskalya cumartesisi Satu Mare'de dr. Ilie Carol Barbul'un başında olduğu yerel heyet, Albay Ressel komutasındaki 2. Süvari Tümeni'nin ilk devriyesini Someș köprüsünde karşıladı. Ertesi gün, 20 Nisan 1919'da General Traian Moșoiu komutasındaki Romen birlikleri Oradea'ya girdi.",
+    kaynak: "Muzeul Județean Satu Mare, '100 de ani de la eliberarea Sătmarului și instaurarea administrației românești' (muzeusm.ro) — 'La 19 aprilie 1919, în sâmbăta de Paște, dr. Ilie Carol Barbul … a condus delegaţia locală care a întâmpinat Armata Română … prima patrulă a Diviziei a II-a Cavalerie de sub comanda col. Ressel' · Primăria Municipiului Oradea (oradea.ro) — 'intrarea trupelor române în Oradea, la 20 aprilie 1919, în frunte cu generalul Traian Moșoiu'"
+  },
+
+  {
+    t: "1919-07-22", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Romen birlikleri Lugoj'a (Lugos) ulaştı — Banat'ın doğusunda Romen idaresi", yer_id:"Lugos (Lugoj)",
+    gun: "22 Temmuz 1919",
+    yer: "Lugos (Lugoj)",
+    d: "Romen birliklerini taşıyan tren 22 Temmuz 1919 saat 14'te Lugoj'a ulaştı; şehir halkı orduyu garda karşıladı, Caraş-Severin prefekti George Dobrin karşılama konuşmasını yaptı, General Jitianu cevap verdi. Banat'ın Romanya'ya düşen kesiminde Romen idaresi Temmuz 1919'da kuruldu; hukukî devir 1920 Trianon Antlaşması ile gerçekleşti.",
+    kaynak: "Actualitatea (Lugoj gazetesi, 30.07.2019, '100 de ani de la intrarea armatei române în Lugoj (2)') — https://ziarulactualitatea.ro/100-de-ani-de-la-intrarea-armatei-romane-in-lugoj-2/ — 'Marți, 22 iulie 1919 . La ora 14 trenul G.1 a sosit în Lugoj.' · ikinci, bağımsız gazete: Ziua de Vest (04.08.2015) — 'la întâmpinarea glorioasei armate române, la 22 iulie 1919. Populaţia Lugojului a făcut coloanelor o primire triumfală.' · kurumsal tanık, BÖLGE/AY: MNIR Muzeul Virtual al Unirii (mvu.ro) — 'The Romanian administration was installed in the bumble Banat, in the part attributed to Romania, only in July 1919.' · LUGOS-KLAGENFURT-1006"
+  },
+
+  {
+    t: "1919-08-03", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Romen ordusu Timișoara'ya (Temeşvar) girdi — şehirde Romen idaresi kuruldu", yer_id:"Temeşvar",
+    gun: "3 Ağustos 1919",
+    yer: "Temeşvar (Timișoara)",
+    d: "14 Kasım 1918'de Sırp, Aralık başında da Fransız birliklerinin girdiği Timișoara'ya 3 Ağustos 1919 sabahı Albay Virgil Economu komutasındaki Romen ordusunun ilk birlikleri girdi ve şehirde Romen idaresi kuruldu.",
+    ic_not_d: "Temeşvar'ın 1918-11-14 → 1919-08-03 Sırp işgali yerleşim kaydına P84-BRASSO-TEMESVAR-1006 KOORD diff'iyle öneriliyor (sirbistan-kralligi → 1918-12-01 → yugoslavya, Peçuy emsali); başlangıcı 1918-11-14 maddesi karşılar. Fransız birliklerinin ortak varlığı modellenmedi.",
+    kaynak: "Ziua de Vest (gazete, 02.08.2024; 'Ziua Timișoarei', Timișoara belediye meclisi kararı HCL 217/1999) — 'La 14 noiembrie 1918, în Timişoara au intrat unităţile militare sârbe, iar, la începutul lunii decembrie 1918, ele au fost urmate de cele franceze' · 'la 3 august, prin intrarea în oraş a primelor unităţi ale armatei operative române, conduse de colonelul Virgil Economu' — nitelik notu: gazete; gün belediye kararıyla resmî anma günü"
+  },
+
+  {
+    t: "1919-08-12", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "SHS ordusu Prekmurje'ye girdi — Murska Sobota ve Lendava Macar idaresinden çıktı", yer_id:"Murska Sobota",
+    gun: "12 Ağustos 1919",
+    yer: "Murska Sobota, Lendava (Alsólendva)",
+    d: "Sırp-Hırvat-Sloven Krallığı birlikleri 12 Ağustos 1919'da Mura nehrinin ötesindeki Prekmurje'ye girdi; bölgede Macar idaresi o gün sona erdi. Hukukî devir 1920 Trianon Antlaşması ile gerçekleşti.",
+    ic_not_d: "ASIL MADDE: data/kronoloji_cok_sirbistan.js · 1919-08-12 · 'SHS ordusu Prekmurje'ye girdi — Mura ötesi Yugoslavya'ya katıldı' (yer_id Murska Sobota; Banac 1984). Bu madde onun Değişmez 2 evrenindeki (olaylar*) KARDEŞİDİR: aynı olay, aynı gün, aynı yer — YENİ KAPSAM DEĞİL. Asıl madde bu kırılmayı karşılamak için yazılmıştı ama dosyası KUYRUK'ta olduğu için kapı onu görmüyordu (UMIT-W33).",
+    kaynak: "I. Banac, The National Question in Yugoslavia (1984) — Prekmurje'nin işgali, Ağustos 1919 (kardeş madde kronoloji_cok_sirbistan.js'ten) · gün: J. Kosi, 'Summer of 1919: A Radical, Irreversible, Liberating Break in Prekmurje/Muravidék?', Hungarian Historical Review 9/1 (2020), s. 51 — 'On August 12, 1919, military units of the Kingdom of Serbs, Croats and Slovenes crossed the border with the Kingdom of Hungary and occupied segments of two counties, Vas (Železna in Slovenian) and Zala.' (P84-BRASSO-TEMESVAR-1006'da OKUNDU) · Zawistowska (Studia z Dziejów Rosji i Europy Środkowo-Wschodniej 47): okunmadı"
+  },
+
+  {
+    t: "1921-04-04", k: "toprak-kazanc", etiket: ["siyaset", "toprak-kazanc", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "İtalyan ordusu Knin'den çekildi", yer_id:"Knin",
+    gun: "4 Nisan 1921",
+    yer: "Knin",
+    d: "Rapallo Antlaşması'nın ardından İtalyan ordusu 4 Nisan 1921'de Knin'den çekildi; 19 Aralık 1918'de başlayan işgal sona erdi.",
+    kaynak: "Grad Knin, resmî şehir tarihi (knin.hr/povijest; Paić, P., Hrvatski kraljevski grad Knin, Knin 1998) — 'Tek se Rapalskim ugovorom Talijanska vojska povlači iz Knina 4. travnja 1921. godine'"
+  },
+
+  {
+    t: "1921-06-12", k: "toprak-kazanc", etiket: ["siyaset", "toprak-kazanc", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "İtalya Şibenik'i SHS Krallığı'na teslim etti", yer_id:"Şibenik (Sebenico)",
+    gun: "12 Haziran 1921",
+    yer: "Şibenik (Šibenik)",
+    d: "6 Kasım 1918'de başlayan İtalyan işgali, 12 Haziran 1921'de İtalya ve SHS Krallığı askerî temsilcilerinin katıldığı törenle sona erdi.",
+    kaynak: "Grad Šibenik, resmî şehir sayfası, 'Na današnji dan, 12. studenoga 1920. godine' (sibenik.hr) — 'Dana 12. lipnja 1921. na osnovi Rapalskog ugovora, Talijani napuštaju Šibenik, a 13. lipnja Šibenčani dočekuju jugoslavensku vojsku.' · B. Renje, 'Talijanska okupacija Šibenika nakon Prvoga svjetskog rata', diplomski rad, Filozofski fakultet Zagreb, Odsjek za povijest, 2017 (mentor G. Hutinec; darhiv.ffzg.unizg.hr/id/eprint/8718), s. 40 — 'Ceremonija vojnih predstavnika Italije i Kraljevine SHS obavljena je 12. lipnja 1921. u poslijepodnevnim satima' (dipnot 199 'Isto' → 198: Novo doba [Split], 13. VI 1921.) · YOL: ① tezin KENDİ kaynağı Novo doba 13. VI 1921 — çevrimiçi OKUNAMADI (Split Üniversite Kütüphanesi dijital koleksiyonuna erişilemedi) · ② tez: diplomski rad (Bologna 2. kademe, YL düzeyi), kurumsal depoda; jüri/savunma kaydı depoda YOK ⇒ savunma DOĞRULANAMADI ⇒ tez TEK DAYANAK DEĞİL, KÖPRÜ · gün ikinci, kurumsal tanıkla (Grad Šibenik) kuruldu; ikisi aynı günü veriyor"
+  },
+
+  {
+    t: "1921-08-22", k: "toprak-kazanc", etiket: ["siyaset", "toprak-kazanc", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Pécs'in (Peçuy) Sırp işgali sona erdi — Macar Millî Ordusu şehre girdi", yer_id:"Peçuy",
+    gun: "22 Ağustos 1921",
+    yer: "Peçuy (Pécs)",
+    d: "Sırp birlikleri 18 Ağustos 1921'de bölgeyi boşaltmaya başladı; 20-21 Ağustos'ta şehir ve vilayet idaresi Macar hükümetinin temsilcilerine devredildi, 22 Ağustos'ta Macar Millî Ordusu birlikleri şehre girdi.",
+    kaynak: "Magyar Nemzeti Levéltár Baranya Vármegyei Levéltára, 'Száz éve, 1921. augusztus 22-én ért véget Pécs és Baranya megye szerb megszállása' (mnl.gov.hu) — 'A szerb csapatok augusztus 18-án megkezdték a területek kiürítését, augusztus 20-21-én megtörtént a városi és a megyei közigazgatás átadása a magyar kormány képviselőinek, 22-én pedig bevonultak a magyar Nemzeti Hadsereg egységei.'"
+  },
 
 ];

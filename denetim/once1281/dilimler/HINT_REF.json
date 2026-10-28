@@ -1,0 +1,1045 @@
+[
+ {
+  "id": "maurya-ref",
+  "ad": "Maurya İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "-0323-01-01",
+  "t": "-0186-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pataliputra",
+  "etkin_bolge": "Hindistan alt kıtası",
+  "sehirler": [
+   "Pataliputra",
+   "Taksila",
+   "Ujjain"
+  ],
+  "ozet": "Çandragupta ile kuruldu; Brhadratha'nın Pusyamitra tarafından öldürülmesiyle bitti.",
+  "oncul": [
+   "nanda"
+  ],
+  "ardil": [
+   "sunga"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), «Chandragupta and the Maurya Empire» ve «The Mauryas after Asoka» (Brihadratha ≈187 BC, 137 yıl)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar II: Chandragupta 324-300 BC; Brihadratha'nın Pushyamitra tarafından öldürülmesiyle Maurya hanedanı ≈187 BC'de sona erdi ('137 yıl hüküm sürdükten sonra'). Astronomik: -0323 / -0186. Mevcut künye -0320…-0184 (MÖ 321–185): fark 2-3 yıl. Taslak değer: f -0321, t -0184",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "maurya",
+   "not": "f/t farkı ≤3 yıl, künye uyumlu."
+  },
+  "dilim": "C"
+ },
+ {
+  "id": "sunga-ref",
+  "ad": "Sunga Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "-0186-01-01",
+  "t": "-0074-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pataliputra → Vidisha",
+  "etkin_bolge": "Orta-Doğu Hint",
+  "sehirler": [
+   "Vidisha",
+   "Pataliputra"
+  ],
+  "ozet": "Pusyamitra ile başlayıp Kanva'ya devredildi.",
+  "oncul": [
+   "maurya"
+  ],
+  "ardil": [
+   "kanva"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), «The Satavahanas and the Chedis» (Puranik sayım: Chandragupta 324 BC + 137 + 112 + 45 = ≈30 BC)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), Maurya sonrası bölümü (Pushyamitra)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar II: Sunga on kralı 112 yıl hüküm sürdü (Purana sayımı), Maurya'yı ≈187 BC'de bitirerek; böylece Sunga ≈187-75 BC; Kanva (Vasudeva) 45 yıl: ≈75-30 BC. Astronomik: -0186…-0074. Mevcut künye -0184…-0072: ±2 yıl.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sunga",
+   "not": "Künye ile ±2 yıl."
+  },
+  "dilim": "C"
+ },
+ {
+  "id": "kanva-ref",
+  "ad": "Kanva Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "-0074-01-01",
+  "t": "-0029-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pataliputra",
+  "etkin_bolge": "Magadha",
+  "sehirler": [
+   "Pataliputra"
+  ],
+  "ozet": "Vasudeva ile başlayıp Satavahana/Andhra ile bitti.",
+  "oncul": [
+   "sunga"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), «The Satavahanas and the Chedis» (Kanva 45 yıl; Susarman'ı Simuka devirdi ≈30 BC)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar II: dört Kanva kralı 45 yıl sürdü; sonuncusu Susarman'ı Andhra-Satavahana Simuka devirdi: 137+112+45 = 294 yıl sonra (324 BC'den) ≈ 30 BC. Astronomik: -0074…-0029. Mevcut künye -0071…-0027: ±2-3 yıl.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kanva",
+   "not": "Künye ile ±3 yıl."
+  },
+  "dilim": "C"
+ },
+ {
+  "id": "satavahana-ref",
+  "ad": "Satavahana Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "-0029-01-01",
+  "t": "0225-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Pratisthana / Amaravati",
+  "etkin_bolge": "Dekkan",
+  "sehirler": [
+   "Pratisthana",
+   "Amaravati",
+   "Junnar"
+  ],
+  "ozet": "Simuka ile (Puranik) başlayıp 3. yy'da dağıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay 1951 (archive.org: ageofimperialuni07bhar, tam metin okundu), «The Satavahanas and the Chedis: 5. Rise of the Satavahanas under Simuka» (s. 195-196)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar II: Puranik hesapla Simuka ≈30 BC (Majumdar'ın tercihi: üçüncü çeyrek 1. yy BC; 'Kanva ile çağdaş' geleneği); aynı sayfada başka okul: Simuka 225 BC (450 yıllık Purana süresi A.D. 225'ten geri sayılır — Majumdar bunu 'Kanva-Simuka çağdaşlığı geleneğini göz ardı eder' diye reddeder); bir diğer öneri: ana kol 19 kral ≈300 yıl (c. 75 BC – A.D. 225). Satavahanalar Andhrapatha'da A.D. 225 civarında sona erdi. ÖNERİ: künye f=-0029 DEĞİŞMESİN (Majumdar'ın tercihi, MÖ 30); draft -0229 (MÖ 230) ya da -0224 (MÖ 225) alternatif okullar — künye notuna 'f tartışmalı: 30 BC (Majumdar) / 230-225 BC (alt)' yazılmalı; t=225 künyedeki 220 ile uyumlu. Taslak değer: f -0229 Taslak ic_not: Puranlara göre Simuka MÖ ~230; yazıtsal veriler MÖ 1. yy'ı destekler; seçim: Puranik, öbürü bu notta.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "satavahana",
+   "not": "ÖNERİ: f=-0029 (Majumdar II) korunsun; -0229 alternatif kronoloji ic_not'ta."
+  },
+  "dilim": "C"
+ },
+ {
+  "id": "hint-yunan-ref",
+  "ad": "Hint-Yunan (İndo-Grek) Krallıkları",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0179-01-01",
+  "t": "0010-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Taksila → Sagala",
+  "etkin_bolge": "Kuzeybatı Hint",
+  "sehirler": [
+   "Taksila",
+   "Sagala",
+   "Pushkalavati"
+  ],
+  "ozet": "Demetrios I'in fetihleriyle başlayıp Hint-İskit/Part baskısıyla bitti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Bu oturumda Majumdar II Indo-Greek bölümü okunmadı; künye ile aynı değerler.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "indo-grek",
+   "not": "Okunmadı."
+  },
+  "dilim": "C"
+ },
+ {
+  "id": "sakalar-bati-satraplar-ref",
+  "ad": "Batı Kşatrapalar (Saka)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0035-01-01",
+  "t": "0405-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ujjain",
+  "etkin_bolge": "Gucerat-Malva",
+  "sehirler": [
+   "Ujjain",
+   "Barygaza"
+  ],
+  "ozet": "Nahapana'dan başlayıp Gupta fethiyle bitti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Bu oturumda Batı Kshatrapa sayfaları okunmadı; künye ile aynı değerler. Taslak ic_not: Kşaharata (Nahapana) ve Kardamaka kolları içeride.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sakalar-bati-satraplar",
+   "not": "Okunmadı."
+  },
+  "dilim": "C"
+ },
+ {
+  "id": "gupta-ref",
+  "ad": "Gupta İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0320-01-01",
+  "t": "0550-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Pataliputra",
+  "etkin_bolge": "Kuzey Hint",
+  "sehirler": [
+   "Pataliputra",
+   "Ujjain",
+   "Ayodhya"
+  ],
+  "ozet": "Candragupta I (Gupta Çağı 319/320) ile başlayıp Hun darbesiyle çöktü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Early Gupta Kings» ve «The Fall of the Gupta Empire» bölümleri; Kronoloji (Gupta era 26 Şubat 320)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar III: Gupta era başlangıcı 26 Şubat 320 (kronoloji; Chandragupta I'in tahta çıkışı ya da taç giyme yılı — Smith: 308'den önce tahtta); 'Gupta hanedanı 6. yüzyılın ortasında ya da ikinci yarısında sona erdi'; son iki imparator Kumara-gupta III ve Vishnu-gupta (kronoloji satırı '535-70' olarak okunuyor; sütun kayması olasılığı var; Vishnu-gupta ≈ 546'da Paramartha'yı Çin'e gönderen kral). Mevcut künye 320–540 ile uyumlu (≤25 yıl); t=0550 'ortası' yüzyıl hassasiyetli.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "gupta",
+   "not": "Künye 320–540: uyumlu; kaynak t='6. yy ortası'."
+  },
+  "dilim": "C"
+ },
+ {
+  "id": "pallava-ref",
+  "ad": "Pallava Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0290-01-01",
+  "t": "0897-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kancipuram",
+  "etkin_bolge": "Tondaimandalam",
+  "sehirler": [
+   "Kancipuram",
+   "Mahabalipuram"
+  ],
+  "ozet": "Mevcut f=350; erken Pallava (Simhavarman) ~275.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Dynasties of South India: The Pallavas» (Prakrit plakaları: Simha-varman, Sivaskanda-varman, Skanda-varman, Vishnugopa) ve Genealoji",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «South India: The Pallavas» (Nripatunga-varman ve Aparajita)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar III Genealoji: Prakrit plakalı Pallavalar — Simha-varman (3. yüzyıl sonu), Sivaskanda-varman (4. yy başı), Skanda-varman (4. yy ikinci çeyrek), Vishnugopa (4. yy üçüncü çeyrek, Samudra-gupta ile çatıştı ≈350); Sanskrit plakalı Kanchi Pallavaları: Skanda-varman I, Buddha-varman, Vishnugopa, Kumaravishnu I, Buddha-varman I, Kumaravishnu II (5. yy başı), Skanda-varman II, Simha-varman 436-58, … Simhavishnu c.575-600, Mahendra-varman I 600-30. Böylece polity en erken '3. yy sonu' Prakrit plakalarıyla izlenir (f=0290 yüzyıl hassasiyetli; taslak 0275 aynı söylemle). t=897 (Aparajita'nın sonu; Majumdar IV 'Nripatunga-varman and Aparajita' bölümü bu oturumda satır satır okunmadı) künye değeridir. ÖNERİ: künye f 350→≈290 (3. yy sonu) — ancak Prakrit plaka kolu ile Kanchi hanedanı arasındaki soy ilişkisi 'belirsiz'; 350 Vishnugopa sağlam. Karar ana oturumda. Taslak değer: f 0275 Taslak ic_not: Erken Pallavaların kuruluş tarihi tartışmalı.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "pallava",
+   "not": "ÖNERİ: künye f 350 → 3. yy sonu (≈290; Majumdar III) ya da 350 (Vishnugopa) koru; soy bağı belirsiz."
+  },
+  "dilim": "C"
+ },
+ {
+  "id": "kamarupa-ref",
+  "ad": "Kamarupa Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0350-01-01",
+  "t": "1140-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Pragjyotisapura / Haruppesvara",
+  "etkin_bolge": "Assam",
+  "sehirler": [
+   "Guwahati",
+   "Tezpur"
+  ],
+  "ozet": "Pusyavarman ile Varman-Mleccha-Pala kolları; Kamata'ya geçiş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), Kronoloji tablosu (c. 350 'or earlier': Pushyavarman of Kamarupa) ve «Kamarupa» bölümü"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar III kronoloji: Kamarupa'da Pushyavarman'ın cülusu c. 350 (veya daha önce). Künye f=350 uyumlu. t=1140/1150 (Pala sonrası) bu oturumda okunmadı; Majumdar VI: Vallabhadeva 1185'te tahtta (Kamarupa'nın son Hindu evresi), Kamata ardıl.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kamarupa",
+   "not": ""
+  },
+  "dilim": "C"
+ },
+ {
+  "id": "harsha-ref",
+  "ad": "Harsha İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0606-01-01",
+  "t": "0647-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kannauj",
+  "etkin_bolge": "Kuzey Hint",
+  "sehirler": [
+   "Kannauj",
+   "Thanesar"
+  ],
+  "ozet": "Harsha'nın kısa ömürlü imparatorluğu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Harsha-vardhana» bölümü (Hiuen Tsang, Wang Hiuen-tse; ölüm 646/647)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar: Harsha'nın 647 başı ya da 646 sonunda öldüğü çıkarımı sağlamdır. 606 tahta çıkış tarihi ise Majumdar'a göre 'güvenilir kanıtı yok' (Bana'ya dayanan yaygın görüş; Hiuen Tsang ve Fleet tartışması); aynı yerde Prabhakaravardhana'nın Harsha'dan hemen önce öldüğü Bana'dan aktarılır. Mevcut künye f=0606'yı korur; 606 'yaygın kabul' olarak beyan edilmeli.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "harsha",
+   "not": "f=606 Majumdar'ca tartışmalı; künye 606–647 yaygın görüşle uyumlu."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "karkota-ref",
+  "ad": "Karkota Hanedanı (Keşmir)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0625-01-01",
+  "t": "0855-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Parihasapura",
+  "etkin_bolge": "Keşmir",
+  "sehirler": [
+   "Srinagar"
+  ],
+  "ozet": "Durlabhavardhana ile başlayan Keşmir imparatorluğu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Kashmir: The Karkota Dynasty / The Utpala Dynasty» bölümü (Avanti-varman 855-56)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar: Karkota hanedanı, vezir Sura'nın Utpalapida'yı devirip Sukhavarman'ın oğlu Avanti-varman'ı 855-56'da tahta çıkarmasıyla sona erdi; Utpala hanedanının kurucusu Avanti-varman (855/6–883). f=0625/0626 Majumdar'ın bu bölümünde açıkça okunmadı (Durlabhavardhana başlangıcı); mevcut künye 626 ile ±1 uyumlu.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "karkota",
+   "not": "t doğrulandı; f=626 vs 625 ±1 yıl, uyumlu."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "badami-ref",
+  "ad": "Badami (Erken) Çalukya",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0543-01-01",
+  "t": "0753-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Vatapi",
+  "etkin_bolge": "Dekkan",
+  "sehirler": [
+   "Badami",
+   "Aihole"
+  ],
+  "ozet": "Pulakesin I – Dantidurga.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), giriş ve Chalukya bölümü (Pulakesin I ≈550; Vatapi)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Rashtrakutas» bölümü (Dantidurga ≈752: Chalukya imparatorluğunu yıktı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar III: Pulakesin I (≈ MS 550) Bijapur'da Vatapi merkezli krallığı kurdu; Majumdar IV: Rashtrakuta Dantidurga 733'te başladı, 752-753'te Maharashtra'nın tamamına hâkim olup Chalukya imparatorluğunu yıktı. Mevcut künye (543–757) ±10 yıl içinde: 543 başlangıcı ve 757 bitişi Majumdar'ın '550' ve '≈752/753' değerlerinden farklıdır ama ≤25 yıl.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "badami-calukya",
+   "not": "f 543/550, t 753/757: 25 yıl sınırı içinde."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "dogu-calukya-ref",
+  "ad": "Doğu Çalukya (Vengi)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0624-01-01",
+  "t": "1070-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Vengi",
+  "etkin_bolge": "Andhra",
+  "sehirler": [
+   "Vengi",
+   "Rajahmundry"
+  ],
+  "ozet": "Kubja Visnuvardhana.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Eastern Chalukyas» bölümü (Kubja-Vishnuvardhana, Chipurupalle plakası)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar: Vishnuvardhana'nın 18 yıllık saltanatı farklı yazarlarca 615-33, 624-41 veya 633-50 olarak verilir; Majumdar 615-33'ü tercih eder (yaygın 624). Mevcut künye 624 (alternatif okuma) ile uyumlu; t=1070 bu oturumda okunmadı. Taslak değer: f 0624",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-calukya",
+   "not": "f 615/624/633 tartışmalı (Majumdar III); künye 624 korunabilir."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "bati-ganga-ref",
+  "ad": "Batı Ganga",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0350-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Talakad",
+  "etkin_bolge": "Güney Karnataka",
+  "sehirler": [
+   "Talakad"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Western Gangas» bölümü (Hari-varman ve Simha-varman I eşzamanlılığı; Srıpurusha 750)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), Güney Hindistan bölümü (Rakkasa Ganga; Rachamalla IV 974-985)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar III: Batı Ganga gücünün kuruluşu 4. yüzyılın ikinci yarısına konur (Hari-varman Simha-varman I = 436 ile eşzamanlı); Majumdar IV: Rachamalla IV (974-985) ve sonra Rakkasa Ganga; Çola istilası Talakad'ı ≈1004'te aldı (bu oturumda bu son nokta okunmadı). Künye 350–1004 uyumlu.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bati-ganga",
+   "not": "Majumdar'la uyumlu (f 4. yy 2. yarı, t ≈ 1000)."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "pandya-1-ref",
+  "ad": "Birinci Pandya İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0590-01-01",
+  "t": "0920-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Madurai",
+  "etkin_bolge": "Güney Tamil",
+  "sehirler": [
+   "Madurai"
+  ],
+  "ozet": "Kadungon ile Kalabhra'yı devirdi.",
+  "oncul": [
+   "kalabhra"
+  ],
+  "ardil": [
+   "cola"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Kalabhras» bölümü (Kadungon c. 590-620)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The First Pandya Empire» (Nedunjadaiyan A.D. 765-815)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar III: Kalabhra egemenliğini Pandya Kadungon yıktı (varsayımsal 590-620); Majumdar IV: Nedunjadaiyan 765-815. Mevcut künye f=0601 ile uyumlu; draft f=590 üst bölgede. t=920 (Çola'nın Pandya'yı alışı) bu oturumda okunmadı. Taslak ic_not: Kadungon 590; Cola Parantaka I yenilgisi 920 civarı.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "pandya-1",
+   "not": "Künye f=601 (Kadungon c.590-620 içinde) uyumlu; t boş, ≈920 önerisi okunmadı."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "rastrakuta-ref",
+  "ad": "Rastrakuta İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0753-01-01",
+  "t": "0974-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Manyakheta",
+  "etkin_bolge": "Dekkan",
+  "sehirler": [
+   "Manyakheta"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), Giriş ve «Rashtrakutas» bölümü (Dantidurga ≈752/753; çöküş 974)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar IV: Dantidurga 733'te başladı, 753'te Maharashtra'ya hâkim olup Chalukya imparatorluğunu yıktı (bir başka yerde ≈752); Rashtrakuta egemenliği 974'te çöktü. Mevcut künye 755–975 ile 1-2 yıl fark: uyumlu. Taslak değer: f 0753, t 0982",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "rastrakuta",
+   "not": "Künye 755–975, kaynak 752/753–974: uyumlu."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "pala-ref",
+  "ad": "Pala İmparatorluğu (Bengal–Bihar)",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0750-01-01",
+  "t": "1162-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Mudgagiri",
+  "etkin_bolge": "Bengal-Bihar",
+  "sehirler": [
+   "Pataliputra"
+  ],
+  "ozet": "Gopala ile.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Eastern India during the Pala Period» (Gopala'nın seçilmesi ≈750-770)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Northern India during the 11th and 12th Centuries: The Palas» (Madanapala ≈1161; Govindapala'nın gücü 1162'de çöktü)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar IV: Gopala'nın 'seçilmesi' ve saltanatı yaklaşık 750-770. Majumdar V: Madanapala Anga'da ≈1161'e kadar hüküm sürdü ('Gopala-Dharmapala ailesinin son bilinen kralı'); Gauda hükümdarı Govindapala'nın gücü 1162'de çöktü (Vallalasena); elyazması kolofonları Govindapala'nın yıkımından sayılır. Mevcut künye t=1120 YETERSİZ: kaynak 1161/1162 verir. Öneri: künye t → 1162 (Pala devleti Govindapala ile sona erdi). Madanapala Varendri'yi Vijayasena'ya 8. yılından sonra kaybetti; yani Pala'nın 'ana yurdu' 1120'lerde değil sonradan elden çıktı. Draft t=1161 Madanapala'nın son bilinen yılıdır; 1162 Govindapala'nın çöküşüdür (iki kaynak ifadesi, aynı sayfada). Taslak değer: t 1161",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "pala",
+   "not": "ÖNERİ: pala künyesi t 1120→1162 (Majumdar V, Govindapala 1162; Madanapala ≈1161). f=750 onaylandı."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "gurjara-pratihara-ref",
+  "ad": "Gürcara-Pratihara",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0730-01-01",
+  "t": "1036-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Kannauj",
+  "etkin_bolge": "Kuzey Hint",
+  "sehirler": [
+   "Kannauj"
+  ],
+  "ozet": "Nagabhata I.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Rise and Fall of the Pratihara Empire» (Nagabhata I ≈730–756)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Arabs in India» ve Giriş",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Northern India during 11th and 12th Centuries» (Yasahpala)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar IV (R. C. Majumdar, 'Rise and Fall of the Pratihara Empire'): Nagabhata I ≈730'dan 756'ya kadar (Araplar'a karşı direniş, 8. yy 2. çeyreği); Gurjara konfederasyonunun liderliğini aldı. Kannauj'un kalıcı başkent oluşu Nagabhata II (c. 834'te öldü) ile bağlantılı. Son kral Yasahpala'nın kaynakta 1036 civarına kadar izi sürülür; mevcut künye 783–1027. ÖNERİ: f 783→730 (Nagabhata I; ancak 783 Vatsaraja/Kannauj sürecine denk, Kannauj başkentli evre ise Nagabhata II ≈ 810'lar). Künye adı Kannauj Pratiharaları ise f=783 savunulabilir; polity (Gurjara-Pratihara) için f=730. Karar ana oturumda. Taslak değer: f 0730, t 1036",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "gurjara-pratihara",
+   "not": "ÖNERİ: polity f=730 (Nagabhata I) · Kannauj'lu evre f=783/810. t 1027 vs 1036 ±9 uyumlu."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "kulasekhara-ref",
+  "ad": "Kulasekhara (Çera Perumallar)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0800-01-01",
+  "t": "1102-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mahodayapuram",
+  "etkin_bolge": "Kerala",
+  "sehirler": [
+   "Kodungallur"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «South India: Aluvakheda, Kongudesa and Kerala» (s. 164)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar IV: Kerala'nın son Perumal'ı Cheraman Perumal; Kollam (Malayalam) çağı 824-25'e bağlanır, 'en son yazar Cheraman Perumal'ı 742-826'ya yerleştirir'; Sthanu Ravi Çola Aditya I'in dostu (9. yy sonu); Bhaskara Ravivarman 978-1036 (Yahudi bakır levhası). Yani Kerala Perumal/Kulasekhara hattı 800 civarından 11. yy'a izlenir; t=1102 ve 'Kulasekhara' adının erken evresi bu bölümde yok → f=800 ve t=1102 doğrulanamadı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kulasekhara-cera",
+   "not": "Künye ile aynı değerler; f/t kaynakla desteklenmedi (Perumal hattı 9.-11. yy izlenir)."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "paramara-ref",
+  "ad": "Paramara Hanedanı (Malva)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0801-01-01",
+  "t": "1305-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Dhara / Ujjain",
+  "etkin_bolge": "Malva",
+  "sehirler": [
+   "Dhara",
+   "Ujjain"
+  ],
+  "ozet": "Upendra ile başlayan Rajput kolu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Central and Western India: The Paramaras» (Upendra/Krishnaraja; Vakpati-Munja 972)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Paramaras» (Bhoja c.1000; Mahlakadeva 1305)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar IV: en eski bilinen Paramara kralı Upendra (Krishnaraja) 9. yüzyılın ilk çeyreğinde (801-825) yaşadı, 812'den önce Rashtrakuta Govinda III Malava'yı Pratihara Nagabhata II'den alıp bir takipçisine (muhtemelen Upendra) verdi; yedinci kral Vakpati-Munja 972 civarı başladı. Majumdar V: Munja ve Sindhuraja'dan sonra Bhoja c.1000'de imparatorluk rütbesine ulaştı; Mahlakadeva 1305'te 'Ala-ud-din Khalji'nin generali 'Ain-ul-Mulk'ça Mandu'da öldürüldü. ÖNERİ: künye f 1000→801 (Upendra; ilk çeyreğin ilk yılı, vasal evre) ya da hanedanın 'bağımsız' evresi Siyaka II (≈945-972) ile başlatılabilir. 1000 yalnız Bhoja'nın imparatorluk evresidir. Taslak değer: f 0800 Taslak ic_not: Bağımsızlık Siyaka II 949'a bağlanır.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "paramara",
+   "not": "ÖNERİ: f 1000→801 (Majumdar IV) veya ≈945 (bağımsız evre); t 1305 onaylandı."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "cahamana-ref",
+  "ad": "Chauhan (Chahamana) — Shakambhari",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0601-01-01",
+  "t": "1192-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Sakambhari → Ajmer",
+  "etkin_bolge": "Rajasthan",
+  "sehirler": [
+   "Ajmer",
+   "Delhi"
+  ],
+  "ozet": "Vasudeva ile; Prithviraj III.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Chahamanas» bölümü (Vasudeva; Sakambhari; Sapadalaksha)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), Giriş ve Chahamanas bölümü (Tarain 1192)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar IV: Sakambhari kolu 7. yüzyılın ilk yıllarında Sambhar (Jaipur) merkezli hâkimiyet kurdu, kurucusu Vasudeva; Chandraraja 8. yy ortası, Durlabharaja I 8. yy son çeyreği; Guvaka I (Pratihara Nagabhata II dönemi). Majumdar V: 1192 II. Tarain yenilgisi (Prithviraja III). f=601 '7. yüzyılın ilk yılları' (ONYIL); taslak 650 desteklenmedi. Mevcut künye f=1000 yalnız Çahamana'nın imparatorluk evresini kapsar; 1192 sonrası kollar (Ranthambhor, Jalor, Nadol) ayrı kayıtlar. Taslak değer: f 0650",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "cahamana",
+   "not": "ÖNERİ: künye f 1000→601 (Majumdar IV)."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "candela-ref",
+  "ad": "Çandela Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0801-01-01",
+  "t": "1315-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Khajuraho → Mahoba",
+  "etkin_bolge": "Bundelkhand",
+  "sehirler": [
+   "Khajuraho",
+   "Mahoba"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Chandella Dynasty» (Nannuka)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), Giriş ve «The Chandellas» bölümü (Jejakabhukti 9. yy – 1315)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar IV: hanedanı Nannuka 9. yüzyılın ilk çeyreğinde kurdu (801-825; Kharjuravahaka/Khajuraho; Pratihara vasalı). Majumdar V (giriş): Jejakabhukti Chandellaları 9. yüzyıldan 1315'e. Mevcut künye 1000–1203 (Kalinjar'ın 1202-03'te Aibak'a düşmesi). ÖNERİ: f 1000→801; t için ardıl yapı kararı gerekir: 1203 (Kalinjar) vs 1315 (son yazıt/Hammiravarman). Taslak f=831 desteklenmedi. Taslak değer: f 0831",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "candela",
+   "not": "ÖNERİ: f 1000→801; t 1203 ya da 1315 (karar)."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "caulukya-ref",
+  "ad": "Çaulukya (Solanki) — Gucerat",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0942-01-01",
+  "t": "1244-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Anahilapataka",
+  "etkin_bolge": "Gucerat",
+  "sehirler": [
+   "Patan"
+  ],
+  "ozet": "Mularaja ile.",
+  "oncul": [],
+  "ardil": [
+   "vaghela"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Chaulukyas» bölümü (Mularaja I'in 941-42'de Chapa'ların ardından yükselişi, yazıtla doğrulanmış)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), Giriş (Chaulukya ve Vaghelalar 940–1299)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar IV: Chapa hükümdarlığının sonu ve Chaulukya Mularaja'nın tahta çıkışı geleneksel olarak 941-42 (yazıtla teyitli); dipnotta 942. Majumdar V (giriş): 'Chaulukyalar ve Vaghelalar (A.D. 940-1299)'. Mevcut künye f=1000 ÖNERİ → 942; t: ana Chaulukya kolu Bhima II (1178–1239) sonrası Vaghelalara geçti; künye t=1297 Vaghela ardılını kapsar, draft t=1244 ana kol bitişi (Lavanaprasada/Vaghela geçişi). Taslak değer: t 1244",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "caulukya",
+   "not": "ÖNERİ: künye f 1000→942 (Majumdar IV, 941-42 yazıtla teyitli). t=1297 Vaghela dahil; Chaulukya+Vaghela 940–1299 (Majumdar V)."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "hindu-sahi-ref",
+  "ad": "Hindu Şahi",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0850-01-01",
+  "t": "1026-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Udabhanda → Lahor",
+  "etkin_bolge": "Gandhara-Pencap",
+  "sehirler": [
+   "Lahor",
+   "Kâbil"
+  ],
+  "ozet": "Lalliya ile (9. yy).",
+  "oncul": [
+   "turk-sahi"
+  ],
+  "ardil": [
+   "gazneli"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Shahis» bölümü (Kallar/Lalliya, 9. yy ikinci yarısı; Saffârî Kabil 870)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), Gazneli seferleri bölümü (Trilochanapala, Bhimapala; Mahmud 1019/1021-26)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar IV: Kallar (Lalliya Şâhî) Hindu Şâhî hanedanını 9. yüzyılın ikinci yarısında kurdu; Kabil 870'te Ya'kûb b. Leys'e geçince başkent Udabhanda (Und) oldu. Majumdar V: Bhimapala, Trilochanapala'dan beş yıl sağ kaldı; 'Şâhî krallığı 25 yıldan fazla direndi' ve tamamı Mahmud'un devletine katıldı → t≈1026 uyumlu.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "hindu-sahiler",
+   "not": "f 850 '9. yy 2. yarısı' ile uyumlu; t 1026 uyumlu."
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "cola-ref",
+  "ad": "Çola İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0850-01-01",
+  "t": "1279-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Thanjavur",
+  "etkin_bolge": "Güney Hint",
+  "sehirler": [
+   "Thanjavur"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «South India: The Cholas of Tanjore — Vijayalaya and Aditya I» (s. 153)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar IV: Tanjore Çola hanedanının kurucusu Vijayalaya (Pallava vasalı; Tanjore'u Muttaraiyar'dan aldı) c. 850-871, oğlu Aditya I c. 871-907. f=850 doğrulandı (ONYIL: 'c.'); t=1279 (III. Rajendra) bu oturumda okunmadı (Majumdar V-VI Çola bölümleri).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "cola",
+   "not": ""
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "utpala-ref",
+  "ad": "Utpala Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0855-01-01",
+  "t": "1003-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Srinagar",
+  "etkin_bolge": "Keşmir",
+  "sehirler": [
+   "Srinagar"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Utpala Dynasty» (Avanti-varman 855/6–883)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Kashmir: First Lohara Dynasty» (Samgramaraja)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar IV: Avanti-varman 855-56'da tahta çıkarıldı, 883'e kadar. f=855 doğrulandı; t=1003 (Utpala/Parvagupta/Yasaskara evrelerinin sonu, I. Lohara hanedanının başı) bu oturumda Majumdar'dan tarihlenemedi.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "utpala-kesmir",
+   "not": ""
+  },
+  "dilim": "D"
+ },
+ {
+  "id": "hoysala-ref",
+  "ad": "Hoysala Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "1026-01-01",
+  "t": "1343-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Belur → Halebidu",
+  "etkin_bolge": "Karnataka",
+  "sehirler": [
+   "Halebidu"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Hoysalas» bölümü (Krishnaswami Aiyangar - Majumdar; Nripakama/Sala, Vinayaditya 1047-1101, Ballala II)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), Giriş (Hoysalalar c. 1106–1343)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: Hoysala Nripakama'nın oğlu Vinayaditya (1047-1101) Chalukya Somesvara I, II ve Vikramaditya VI'nın üstünlüğünü kabul eder; Ballala I 1101'de, Vishnuvardhana (Bittiga) ≈1152-56'ya kadar; 'ilk bağımsız kral' Ballala II (Vijaya Narasimha I 1173'te öldü); giriş bölümü 'c. 1106–1343'. Mevcut künye f=1026 Chalukya vasalı şeflik evresi (Nripakama c. 1000-1045; kaynakta tarih yok). Bağımsız polity f=1173 ya da fiilî özerk dönem f≈1106; 1026 'vasal' başlangıç beyan edilmeli. t=1343 (Ballala III'ün ölümü) bu oturumda okunmadı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "hoysala",
+   "not": "f=1026 vasal evre; kaynak: Vinayaditya 1047-1101 vasal, Ballala II (1173+) ilk bağımsız, giriş 'c.1106–1343'. Künye f için karar: 1026 vasal / 1106 / 1173."
+  },
+  "dilim": "E"
+ },
+ {
+  "id": "kakatiya-ref",
+  "ad": "Kakatiya Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "1163-01-01",
+  "t": "1322-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Warangal",
+  "etkin_bolge": "Telengana",
+  "sehirler": [
+   "Warangal"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Dynasties of Eastern Deccan: The Kakatiyas» (D. C. Ganguly), Giriş (c. 1050-1322)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: Kakatiya Prola Kalyana Chalukya Jagadekamalla II'yi esir alıp saldı (12. yy ortası); Rudramba (Marco Polo ≈1293); Prataparudra; 1322'de Ulugh Khan Warangal'ı alıp Prataparudra'yı esir aldı. Giriş bölümü dinastiyi 'c. 1050–1322' verir; mevcut künye f=1163 Kakatiya bağımsızlığı (Rudradeva) olabilir. t=1322 (Majumdar), künye 1323 (Delhi kaydı); ±1. Karar: dinasti 1050'den (vasal) / 1163'ten (bağımsız).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kakatiya",
+   "not": "t: Majumdar 1322, künye 1323 (±1). f: giriş c.1050 (vasal), künye 1163."
+  },
+  "dilim": "E"
+ },
+ {
+  "id": "yadava-ref",
+  "ad": "Yadava (Seuna) Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "1185-01-01",
+  "t": "1317-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Devagiri",
+  "etkin_bolge": "Maharashtra",
+  "sehirler": [
+   "Devagiri"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Yadavas of Devagiri» (D. C. Ganguly; Bhillama V 1185; Harapaladeva 1317)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar V: Bhillama V 1185'te tahta çıktı ('hanedanın ilk bağımsız kralı'); Jaitugi, Singhana, Krishna (1247'den), Mahadeva, Ramachandra, Sankaradeva, Harapaladeva; 1317'de Mubarak Devagiri'yi geri aldı, Harapala öldürüldü; 'Sevuna krallığı Müslümanlara geçti'. Mevcut künye 1187–1318: f 2 yıl, t 1 yıl fark: uyumlu.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "yadava",
+   "not": "f 1185 vs 1187, t 1317 vs 1318: ≤ 25 yıl, uyumlu."
+  },
+  "dilim": "E"
+ },
+ {
+  "id": "pandya-ikinci-ref",
+  "ad": "İkinci Pandya İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "1190-01-01",
+  "t": "1323-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Madurai",
+  "etkin_bolge": "Tamil",
+  "sehirler": [
+   "Madurai"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. VI: The Delhi Sultanate, Bharatiya Vidya Bhavan, Bombay 1960 (archive.org: delhisultanate00bhar, tam metin okundu), «H. South India: I. The Pandya Kingdom» (Ulugh Khan Madura 1323; Ma'bar)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), Giriş (Pandyalar 11.-14. yy; Jatavarman Sundara Pandya hegemonyası)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar VI: Ghiyas-ud-din Tughluq'un oğlu Ulugh Khan Madura'yı 1323'te aldı ve Ma'bar eyaleti olarak merkez yaptı; ancak 'Pandya egemenliğinin sona ermesi anlamına gelmedi' (Madura, Ramnad, Tanjore çevresinde sürdü). 1190 başlangıcı (Jatavarman Kulasekhara) bu oturumda okunmadı. Künye t=1323 Ma'bar'ın kuruluşu; Pandya hanedanı sonra da yerel olarak sürer.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "pandya",
+   "not": ""
+  },
+  "dilim": "E"
+ },
+ {
+  "id": "delhi-ref",
+  "ad": "Delhi Sultanlığı",
+  "tur": "sultanlik",
+  "bolge": "guney-asya",
+  "f": "1206-01-01",
+  "t": "1526-04-21",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Delhi",
+  "etkin_bolge": "Kuzey Hint",
+  "sehirler": [
+   "Delhi"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, «Delhi Sultanlığı» maddesi, https://islamansiklopedisi.org.tr/delhi-sultanligi (bu oturumda okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "TDV Delhi Sultanlığı: sultanlık 1206-1526; Kutbüddin Aybeg 602 (1206) tahta geçti (bağımsız sultanlık bu yıl; Muizzüddin'in 602/1206'da öldürülmesi sonrası); sona ermesi: Bâbür'ün Pânîpet Savaşı'nda İbrâhîm-i Lûdî'yi mağlûp etmesi, 21 Nisan 1526 (TDV, gün ile). Künye 1206–1526-04-21 ile aynı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "delhi-sultanligi",
+   "not": "Mevcut künyeyle birebir (1526-04-21 TDV)."
+  },
+  "dilim": "E"
+ }
+]

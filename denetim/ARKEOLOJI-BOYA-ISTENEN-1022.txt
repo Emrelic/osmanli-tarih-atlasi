@@ -1,0 +1,20 @@
+ANTİK DEVLET KÜNYELERİ — BOYALAR'da (arac/renkler.py) TANIMLANMASI İSTENEN KİMLİKLER (VERI-MO-ARKEO, 22 Ekim 2026)
+Kaynak: denetim/arkeoloji_antik_kunye_1022.py → data/devletler.js "ANTİK DEVLET KÜNYELERİ" bloğu. Her biri f ve t ucu akademik kaynakla doğrulanmıştır
+(denetim/arastirma/6-devlet-dogrula.json). Şu an hiçbir yerleşimin s:'inde kullanılmıyor → renksiz kimlik / harita deliği riski YOK;
+nokta/sahiplik zinciri bu kimliklere bağlanmadan önce BOYALAR gerekir. MO-MOTOR'a not: yeni boya anahtarı = künye id'si.
+
+iberya-kartli        İberya (Kartli) Krallığı           (Gürcistan)       Iranica "Georgia ii", TDV Gürcüler
+hamat                Hamat                              (Suriye)           Britannica "Aramaean": t = MÖ 720
+moab                 Moab                               (Ürdün)            Britannica "Moabite": t = MÖ 582
+bar-kohba            Bar Kohba isyanı devleti           (Yahudiye)
+tenuh                Tanûh konfederasyonu               (Suriye/Irak çölü) TDV "Tanûh" (tanuhiler kaydı buna BİRLEŞTİRİLDİ)
+mekke-kureys         Mekke (Kureyş)                     (Hicaz)            TDV "Mekke": fetih 20 Ramazan 8 = 11 Ocak 630
+parsua               Parsua                             (Zagros)           Iranica
+teispid-pers         Teispid Pers                       (Anşan/Fars)       Iranica: Teispes ~675-640, Kyros 550/49
+osrhoene             Osrhoene (Urfa/Edessa)             (Yukarı Mezopotamya) Iranica: f MÖ 132, t MS 242
+kerma-erken          Erken Kerma                        (Nubya)            Bonnet/kerma.ch: MÖ 2450-
+misir-21-hanedan     Mısır 21. Hanedan                  (Mısır)            UCL Digital Egypt: MÖ 1069-945
+meroe-krallik        Meroe Krallığı                     (Nubya)            Britannica "Nubia": Napata ~592, Meroe yıkımı MS 320-350
+
+ATLANDI (f_iso yok): persis, hatra — hatra için atlas künyesi kuruluş değil "MS I. yy yerel hanedan"; ayrı karar.
+ÇELİŞKİLİ / BULUNAMADI olanlar künye YAZILMADI: bkz. 6-devlet-dogrula.json (onay, f_degerler, ic_not); kolkhis-krallik, lazika, kafkas-arnavutlugu, hana-terqa, nobatia vb.

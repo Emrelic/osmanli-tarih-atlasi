@@ -511,6 +511,9 @@ HEDEFLER = {
         "sha": "window.__PR_SHA", "parca": "donem_parcalar.js",
         "ust": "donemler_ust.js", "on": "donemler_on.js",
         "ne": "Dönem peteklerinin",
+        # KATMAN 1 (25 Ekim 2026): `on` bir ÖNEK dosyasıdır (havuzdan önce
+        # çalışan küreseller), katman 1 DEĞİL — katman 1 bu adla yazılır.
+        "kat1": "donem_parca_on.js",
     },
     # 🔴 ÜÇÜNCÜ HEDEF — ve ilk ikisinden BİR DÜZEY DERİN (29 Eylül 2026).
     # Ölçüldü: petek_govde.js 11,06 MB · en çok 3 ondalık hane (OLCEK=1000
@@ -560,13 +563,29 @@ HEDEFLER = {
         "onek": "window.__UB_ONEK", "b64": "window.__UB_B64",
         "sha": "window.__UB_SHA", "parca": "ufuk_bant_parcalar.js",
         "ust": "ufuk_bantlari_ust.js", "on": "ufuk_bantlari_on.js",
-        "ne": "Ⓑ ufuk bantlarının",
+        "ne": "Ⓑ ufuk bantlarının", "bol_mib": 45,
     },
 }
+
+# 🔴 PARÇA BÖLME — `bol_mib` (14 Ekim 2026, Emre: "bant bölme işini başlat").
+# ÖLÇÜLDÜ: KOŞU 23 çıktısı `ufuk_bant_parcalar.js` 91,48 MiB — GitHub'ın 100 MiB
+# sert sınırına %8,5 pay; ufuk 1945 → 2000 uzayınca farklı kırılma günü +%7,5,
+# dönem başlangıcı +%17 ⇒ bir sonraki koşunun push'u REDDEDİLEBİLİRDİ.
+# YÖNTEM: base64 dizgisi en çok `bol_mib` MiB'lık dosyalara bölünür:
+#     <parca>.js      SHA · ONEK · B64 (1. dilim) · B64_PARCA=N
+#     <parca>_2.js    B64_2 (2. dilim) … <parca>_N.js
+# İkili akış 3 BAYTIN KATLARINDA kesilir ⇒ her dilimin base64'ü dolgusuzdur ve
+# dilimlerin UÇ UCA EKLENMESİ bütünün base64'üne BİREBİR eşittir (sınandı:
+# `yay` DİSKTEN gidiş-dönüş sınavı bölünmüş dosyalardan kurar).
+# Sınırın altındaki havuz BÖLÜNMEZ ve `B64_PARCA` satırı YAZILMAZ ⇒ çıktı
+# bölme öncesiyle bayt bayt aynı kalır; okuyucular iki biçimi de tanır.
+# Tarayıcı: `js/app.js` ufukYukle — ana dosyadan sonra `__UB_B64_PARCA`yı okur,
+# ek dosyaları SIRAYLA yükler, dizgileri birleştirip çözer.
 HEDEF = "devlet"
 ACIKLAMA = HEDEFLER["devlet"]["ne"]
 ON_JS = HEDEFLER["devlet"]["on"]
 YUVA = 0
+BOL_MIB = 0                          # 0 = bölme yok
 
 # 🔴 ÖNEK DOSYASI — 29 Eylül 2026'da ölçülen SESSİZ VERİ KAYBININ çaresi
 # ---------------------------------------------------------------------------
@@ -705,6 +724,115 @@ def on_dilim(dizin, gun="1281-01-01"):
     return 0
 
 
+def _acilis_halkalari_donem(dizin, gun="1281-01-01"):
+    """DÖNEM havuzunda `gun` için GEREKEN halka indeksleri — ölçerek.
+
+    `donemler_ust.js` içinde DONEMLER (f/t + o·v·h[].g parça kodları) ve
+    PARCA_HALKA (parça → havuz halka indeksleri) geçerli JSON'dur. `js/app.js`
+    `parcaCoz` ile aynı yolu izler: parça kodu → PARCA_HALKA[p] → havuz[h].
+    Etkinlik: `f <= gun <= t` (ISO dizgeleri sıralanabilir; kapsayıcı üst
+    küme alınır — fazla halka zararsız, eksik halka çizimden düşer).
+    """
+    import json
+    y = os.path.join(dizin, HEDEFLER["donem"]["ust"])
+    with open(y, encoding="utf-8") as f:
+        s = f.read()
+
+    def _dizi(ad):
+        b = s.index("window." + ad + " = ") + len("window." + ad + " = ")
+        o, _ = json.JSONDecoder().raw_decode(s, b)
+        return o
+    donemler = _dizi("DONEMLER")
+    parca_halka = _dizi("PARCA_HALKA")
+    gerek, etkin = set(), 0
+    for d in donemler:
+        if not (d.get("f", "9999") <= gun <= d.get("t", "0000")):
+            continue
+        etkin += 1
+        kodlar = list(d.get("o") or []) + list(d.get("v") or [])
+        for hb in (d.get("h") or []):
+            kodlar += list(hb.get("g") or [])
+        for p in kodlar:
+            if not isinstance(p, int):
+                # Eski biçim (doğrudan koordinat) — katman 1 ona dokunmaz,
+                # ama SESSİZ GEÇİLMEZ: o parça havuzdan gelmiyor demektir.
+                raise ValueError("donemler_ust.js'te sayı olmayan parça kodu: %r" % (p,))
+            if p >= len(parca_halka) or parca_halka[p] is None:
+                raise ValueError("PARCA_HALKA deliği: %d" % p)
+            gerek.update(parca_halka[p])
+    return sorted(gerek), len(donemler), etkin
+
+
+def on_dilim_donem(dizin, gun="1281-01-01"):
+    """KATMAN 1 — DÖNEM havuzunun açılış günü alt kümesi (`donem_parca_on.js`).
+
+    NİÇİN (25 Ekim 2026, ölçüldü): `donem_parcalar.js` 13,4 MB ham ve açılışta
+    ENGELLEYİCİ idi; çözme 372 ms, yani maliyet indirmedir. 1281-01-01 havuzun
+    %0,0'ını (1 halka) ister. Devlet katmanıyla (`on_dilim`) AYNI seyrek biçim:
+    halkalar ÖZGÜN indeksleriyle yazılır, havuz yeniden sıralanMAZ,
+    PARCA_HALKA'ya dokunulmaz. `js/geo_coz.js` `seyrekCoz`u aynen kullanır.
+    🔴 BAYATLIK: alt küme havuzun indekslerine bağlıdır. Dosyaya havuzun
+    `__PR_SHA`sı (`__PR_ON_SHA`) yazılır; `kapi()` ikisini kıyaslar —
+    havuz değişip bu komut koşmazsa YAYIN DURUR.
+    """
+    import base64
+    import time as _t
+    hedef_sec("donem")
+    t = _t.perf_counter()
+    idx, donem, etkin = _acilis_halkalari_donem(dizin, gun)
+    onek, havuz_b, sonek, sha = _oku_c(dizin)
+    if not sha:
+        print("🔴 %s içinde %s YOK — katman 1 havuza bağlanamaz" % (DP_JS, SHA_ADI))
+        return 1
+    havuz = _coz_havuz(havuz_b)
+    alt = [havuz[i] for i in idx]
+
+    out = bytearray()
+    _yaz(out, len(idx))
+    onc = 0
+    for i in idx:                       # artan indeksler → delta varint
+        _yaz(out, i - onc)
+        onc = i
+    govde = bytes(out) + _kodla_havuz(alt)
+
+    ad = HEDEFLER["donem"]["kat1"]
+    yol = os.path.join(dizin, ad)
+    with open(yol, "w", encoding="utf-8", newline="") as f:
+        f.write("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/kodla.py on-dilim-donem\n")
+        f.write("// KATMAN 1: açılış gününün (%s) dönem halkaları — havuzun seyrek alt kümesi.\n" % gun)
+        f.write("// Tam havuz (data/donem_parcalar.js) ilk boyamadan SONRA arka planda iner.\n")
+        f.write("// Biçim: varint N · N delta indeks · sonra normal halka akışı.\n")
+        f.write("window.__PR_ON_GUN=\"%s\";\n" % gun)
+        f.write("window.__PR_ON_SHA=\"%s\";\n" % sha)
+        f.write("window.__PR_ON_B64=\"%s\";\n" % base64.b64encode(govde).decode())
+
+    # 🔴 GİDİŞ-DÖNÜŞ: alt kümedeki her halka tam havuzdakiyle AYNI mı?
+    ib = bytes(out)
+    _n, k = _oku(ib, 0)
+    geri_idx, onc = [], 0
+    for _ in range(_n):
+        d, k = _oku(ib, k)
+        onc += d
+        geri_idx.append(onc)
+    geri = _coz_havuz(govde[k:])
+    ayni = (geri_idx == idx and len(geri) == len(alt)
+            and all(list(map(tuple, a)) == list(map(tuple, b))
+                    for a, b in zip(geri, alt)))
+    kb = os.path.getsize(yol) / 1024.0
+    print("açılış günü %s · dönem %d, etkin %d · halka %d/%d (%.2f%%) · nokta %d"
+          % (gun, donem, etkin, len(idx), len(havuz),
+             100.0 * len(idx) / max(1, len(havuz)), sum(len(h) for h in alt)))
+    print("  %s %.1f KB   (tam havuz %.2f MB)"
+          % (ad, kb, os.path.getsize(os.path.join(dizin, DP_JS)) / 1048576))
+    print("  gidiş-dönüş: %s  (%.0f sn)"
+          % ("✓ BİREBİR" if ayni else "🔴 FARKLI", _t.perf_counter() - t))
+    if not ayni:
+        os.remove(yol)
+        print("  ⇒ dosya SİLİNDİ.")
+        return 1
+    return 0
+
+
 def kodla_hedef_sec(ad):
     """CLI için: hedefi seç, seçileni EKRANA BAS.
 
@@ -726,8 +854,49 @@ def hedef_sec(ad):
     HEDEF, HAVUZ_ADI = ad, h["havuz"]
     ONEK_ADI, B64_ADI, SHA_ADI = h["onek"], h["b64"], h["sha"]
     DP_JS, UST_JS, ACIKLAMA, ON_JS = h["parca"], h["ust"], h["ne"], h["on"]
-    global YUVA
+    global YUVA, BOL_MIB
     YUVA = h.get("yuva", 0)          # 0 = halka dizisi · 1 = poligon dizisi
+    BOL_MIB = h.get("bol_mib", 0)
+
+
+def _ek_ad(k):
+    """k. (k ≥ 2) ek parça dosyasının adı: ufuk_bant_parcalar.js → …_2.js"""
+    return DP_JS[:-3] + "_%d.js" % k
+
+
+def _ek_dosyalar(dizin):
+    """Diskte duran ek parça dosyaları, sıra numarasına göre: [(k, yol), …]."""
+    import glob
+    ekler = []
+    for y in glob.glob(os.path.join(dizin, DP_JS[:-3] + "_*.js")):
+        m = re.match(re.escape(DP_JS[:-3]) + r"_(\d+)\.js$", os.path.basename(y))
+        if m:
+            ekler.append((int(m.group(1)), y))
+    return [y for _k, y in sorted(ekler)]
+
+
+def _ek_temizle(dizin, n=1):
+    """n'den büyük sıradaki ek parça dosyalarını sil (önceki yazımdan kalmasın)."""
+    silinen = []
+    for y in _ek_dosyalar(dizin):
+        k = int(re.search(r"_(\d+)\.js$", y).group(1))
+        if k > n:
+            os.remove(y)
+            silinen.append(os.path.basename(y))
+    return silinen
+
+
+def _dilimle(havuz_b):
+    """İkili akışı base64 dilimlerine ayır; her dilim ≤ BOL_MIB MiB.
+
+    Kesim 3 BAYTIN KATINDA ⇒ son dilim dışında dolgu ('=') yok ⇒ dilimler
+    uç uca eklenince bütünün base64'ü BİREBİR çıkar."""
+    import base64
+    if not BOL_MIB:
+        return [base64.b64encode(havuz_b).decode()]
+    adim = (BOL_MIB * 1048576 // 4) * 3      # base64'te ≤ BOL_MIB MiB
+    return [base64.b64encode(havuz_b[i:i + adim]).decode()
+            for i in range(0, max(1, len(havuz_b)), adim)]
 
 
 def _yaz_c(dizin, onek, havuz_b, sonek, ozgun_sha=""):
@@ -752,7 +921,18 @@ def _yaz_c(dizin, onek, havuz_b, sonek, ozgun_sha=""):
         f.write("%s=\"%s\";\n" % (SHA_ADI, ozgun_sha))
         f.write("%s=\"%s\";\n" % (ONEK_ADI,
                                   base64.b64encode(onek.encode("utf-8")).decode()))
-        f.write("%s=\"%s\";\n" % (B64_ADI, base64.b64encode(havuz_b).decode()))
+        dilimler = _dilimle(havuz_b)
+        f.write("%s=\"%s\";\n" % (B64_ADI, dilimler[0]))
+        if len(dilimler) > 1:
+            f.write("%s_PARCA=%d;\n" % (B64_ADI, len(dilimler)))
+    for k in range(2, len(dilimler) + 1):
+        with open(os.path.join(dizin, _ek_ad(k)), "w", encoding="utf-8",
+                  newline="") as f:
+            f.write("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/kodla.py\n")
+            f.write("// %s koordinat havuzunun %d/%d. dilimi (base64, %s'in devamı).\n"
+                    % (ACIKLAMA, k, len(dilimler), DP_JS))
+            f.write("%s_%d=\"%s\";\n" % (B64_ADI, k, dilimler[k - 1]))
+    _ek_temizle(dizin, len(dilimler))
     with open(u_yol, "w", encoding="utf-8", newline="") as f:
         f.write(sonek)
 
@@ -781,17 +961,31 @@ def _oku_c(dizin):
     import base64
     with open(os.path.join(dizin, DP_JS), encoding="utf-8") as f:
         satirlar = f.read().split("\n")
-    onek = havuz = None
+    onek = b64 = None
     sha = ""
+    n_dilim = 1
     for s in satirlar:
         if s.startswith(ONEK_ADI + "="):
             onek = base64.b64decode(s[len(ONEK_ADI) + 2:-2]).decode("utf-8")
         elif s.startswith(B64_ADI + "="):
-            havuz = base64.b64decode(s[len(B64_ADI) + 2:-2])
+            b64 = s[len(B64_ADI) + 2:-2]
+        elif s.startswith(B64_ADI + "_PARCA="):
+            n_dilim = int(s[len(B64_ADI) + 7:].rstrip(";"))
         elif s.startswith(SHA_ADI + "="):
             sha = s[len(SHA_ADI) + 2:-2]
-    if onek is None or havuz is None:
+    if onek is None or b64 is None:
         raise ValueError("%s içinde %s / %s bulunamadı" % (DP_JS, ONEK_ADI, B64_ADI))
+    # 🔴 Ek dilimler: biri eksikse ya da adı tutmuyorsa HATA — eksik havuzla
+    #    kurulan metin damgayı tutmaz, ama hatanın SEBEBİ burada söylenmeli.
+    dilimler = [b64]
+    for k in range(2, n_dilim + 1):
+        ad = "%s_%d=" % (B64_ADI, k)
+        with open(os.path.join(dizin, _ek_ad(k)), encoding="utf-8") as f:
+            sat = [x for x in f.read().split("\n") if x.startswith(ad)]
+        if len(sat) != 1:
+            raise ValueError("%s içinde %s bulunamadı" % (_ek_ad(k), ad[:-1]))
+        dilimler.append(sat[0][len(ad) + 1:-2])
+    havuz = base64.b64decode("".join(dilimler))
     with open(os.path.join(dizin, UST_JS), encoding="utf-8", newline="") as f:
         sonek = f.read()
     return onek, havuz, sonek, sha
@@ -871,6 +1065,20 @@ def kapi(dizin, hedef=None):
             s.append("✓  kodlama kapısı: %s + %s → özgün metin, sha256 %s ✓ "
                      "· %d küresel eksiksiz"
                      % (DP_JS, UST_JS, sha[:12], len(bekl)))
+            # ── KATMAN 1 BAYATLIĞI — alt küme havuz indekslerine bağlıdır.
+            # Havuz değişip `on-dilim-donem` koşmazsa açılış günü YANLIŞ
+            # halkalarla boyanırdı (sha sınavı bunu görmez).
+            k1 = HEDEFLER[HEDEF].get("kat1")
+            if k1 and os.path.isfile(os.path.join(dizin, k1)):
+                with open(os.path.join(dizin, k1), encoding="utf-8") as f:
+                    m = re.search(r'window\.__PR_ON_SHA="([0-9a-f]{64})"', f.read())
+                if not m or m.group(1) != sha:
+                    s.append("✗  KODLAMA KAPISI — %s BAYAT: havuz damgası %s, "
+                             "katman 1 damgası %s"
+                             % (k1, sha[:12], m.group(1)[:12] if m else "YOK"))
+                    s.append("     ⇒ py arac/kodla.py on-dilim-donem data  ile yeniden üret.")
+                    return True, s
+                s.append("✓  katman 1: %s havuzla AYNI damga (%s)" % (k1, sha[:12]))
             return False, s
         s.append("✗  KODLAMA KAPISI: kurulan metin damgayla UYUŞMUYOR")
         s.append("     beklenen %s" % sha[:24])
@@ -898,10 +1106,16 @@ def yay(girdi, dizin):
           % (os.path.getsize(girdi) / 1048576, _nhalka, _nnokta,
              ozgun_sha[:12], time.perf_counter() - t))
     p_yol, u_yol = _yaz_c(dizin, onek, havuz_b, sonek, ozgun_sha)
+    ekler = _ek_dosyalar(dizin)
     pm = os.path.getsize(p_yol) / 1048576
     um = os.path.getsize(u_yol) / 1048576
+    em = sum(os.path.getsize(y) for y in ekler) / 1048576
     print("  yazıldı: %s %.2f MB · %s %.2f MB  (toplam %.2f MB)"
-          % (DP_JS, pm, UST_JS, um, pm + um))
+          % (DP_JS, pm, UST_JS, um, pm + um + em))
+    for y in ekler:
+        print("           %s %.2f MB  (ek dilim)"
+              % (os.path.basename(y), os.path.getsize(y) / 1048576))
+    pm += em
 
     print("  → DİSKTEN gidiş-dönüş sınavı")
     o2, h2, s2, sha2 = _oku_c(dizin)
@@ -919,6 +1133,7 @@ def yay(girdi, dizin):
             print("  🔴 KAPI ÖLÇÜMÜ GEÇMEDİ — yazılanlar SİLİNİYOR.")
             for y in (p_yol, u_yol):
                 os.remove(y)
+            _ek_temizle(dizin, 1)
             return 1
         print("  süre %.0f sn" % (time.perf_counter() - t))
         return 0
@@ -931,6 +1146,7 @@ def yay(girdi, dizin):
     print("     kurulan: ...%s..." % yeniden[max(0, i - 40):i + 40])
     for y in (p_yol, u_yol):
         os.remove(y)
+    _ek_temizle(dizin, 1)
     print("     ⇒ YAZILAN DOSYALAR SİLİNDİ.")
     return 1
 
@@ -972,6 +1188,8 @@ if __name__ == "__main__":
         sys.exit(coz_c(a[1], a[2]))
     if a[0] == "on-dilim" and len(a) in (2, 3):
         sys.exit(on_dilim(a[1], a[2] if len(a) == 3 else "1281-01-01"))
+    if a[0] == "on-dilim-donem" and len(a) in (2, 3):
+        sys.exit(on_dilim_donem(a[1], a[2] if len(a) == 3 else "1281-01-01"))
     if a[0] == "kapi" and len(a) == 2:
         _i, _s = kapi(a[1])
         for _x in _s:

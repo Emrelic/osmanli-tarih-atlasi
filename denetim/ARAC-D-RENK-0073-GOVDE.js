@@ -2,6 +2,9 @@
 // 🔴 parcaCoz (js/app.js:133) ile AYNI cozum: dnm.g -> DEVLET_PARCA_HALKA[p]
 //    -> halka indeksleri -> DEVLET_PARCALAR[h].  (ilk denemede ters kurulmustu,
 //    16/16 sehir sinavi X vermisti — D048 ailesi: sema tahmin edilmez, okunur.)
+// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
+// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
+require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
 const fs = require('fs'), vm = require('vm');
 const GUN = process.argv[2] || '1923-10-29';
 const OUT = process.argv[3];

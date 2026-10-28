@@ -43,12 +43,15 @@ import time
 
 import shapely
 from shapely import STRtree
-from shapely.geometry import (MultiPoint, MultiPolygon, Polygon, mapping,
+from shapely.geometry import (MultiPoint, MultiPolygon, Polygon, box, mapping,
                               shape)
 from shapely.ops import unary_union, voronoi_diagram
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import motor_onbellek as _mob        # noqa: E402
+import gun as _gun                       # noqa: E402 — TEK tarih otoritesi (dizge karşılaştırması YASAK)
+from functools import lru_cache as _lru       # noqa: E402
+_gk = _lru(maxsize=None)(_gun.gun)            # tarih dizgisi → gün sayısı (önbellekli)
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASEMAPS = os.path.join(KOK, "veri-kaynak")
@@ -57,13 +60,29 @@ BASEMAPS = os.path.join(KOK, "veri-kaynak")
 # AYARLAR — hepsi ortam değişkeniyle çevrilebilir (koşu ortasında kod
 # düzenlemeden kapatabilmek için; `B23_ACIK`ın gerekçesinin aynısı).
 # ═══════════════════════════════════════════════════════════════════════════
-# Kapanış yarıçapı. 🔴 SEÇİMİN GEREKÇESİ ÖLÇÜLMÜŞ BİR SAYIYA BAĞLI:
-# motorun B2'si (`uret_petek.py` B2_ENKLAV_KM) 250 km'ye kadar enklav
-# köprüler ve o tavanın gerekçesi "ölçülen en uzak karasal enklav 223 km"dir.
-# Kapanış 2r'lik boşluğu kapattığı için r = 125 km, B2'nin menziliyle BİREBİR
-# aynı kapıyı açar. Varsayılanı 120 km'de tutuyorum — B2'nin ZATEN çözdüğü
-# vakaları yeniden denemesin, ondan ARTAKALANI doldursun diye.
-YARICAP_KM = float(os.environ.get("MOTOR_DOLGU_YARICAP_KM", "120"))
+# UFUK = Emre'nin 5/7/10 günlük yürüyüş ayarı (18 Ekim 2026 kararı §1 b/d/e:
+# "en çok 400 km ya da ayardaki 5/7/10 günlük yürüyüşün karşılığı").
+# 🔴 KARŞILIK ÖLÇÜLÜ, uydurma değil: motorun yürüyüş hızı 5,04 km/sa x 8 sa =
+#    40,32 km/gün (`B-GORUNUM-0072-UFUK.md` §1: 80 sa = 403,2 km, 56 sa =
+#    282,2 km, 40 sa = 201,6 km). 10 gün => 403 km ~ Emre'nin "400 km".
+#    VARSAYILAN 10 = üst sınır; 5 ve 7 aynı kurallarla daha dar dolgu verir.
+UFUK_GUN = float(os.environ.get("MOTOR_DOLGU_UFUK_GUN", "10"))
+KM_GUN = 40.32
+UFUK_KM = UFUK_GUN * KM_GUN
+# Kapanış yarıçapı. Kapanış 2r'den dar boşluğu kapattığı için r = UFUK_KM/2:
+# "ayardaki günün yürüyüşünden dar boşluk kapanır, ondan geniş (401 km)
+# kapanmaz" (Emre b/d/e). Açık yazılırsa (MOTOR_DOLGU_YARICAP_KM) ayarı ezer —
+# eski 120 km davranışına dönmek için.
+YARICAP_KM = (float(os.environ.get("MOTOR_DOLGU_YARICAP_KM", "0") or "0")
+              or UFUK_KM / 2.0)
+# Deniz kuralı (e): yalnız BÜYÜK su kütleleri "deniz" sayılır; kara maskesi
+# küçük gölleri de delik olarak taşır ve onlar sayılsaydı Afrika'nın ortasındaki
+# bir göl yüzünden 400 km kara devlete yazılırdı.
+DENIZ_ESIK_KM2 = float(os.environ.get("MOTOR_DOLGU_DENIZ_ESIK_KM2", "100000"))
+# Deniz kuralını kapatma düğmesi (A/B hesabı için); varsayılan AÇIK.
+DENIZ_KURALI = os.environ.get("MOTOR_DOLGU_DENIZ", "1") != "0"
+# Koridor kuralı (c): derinlik <= ağız genişliği; varsayılan AÇIK.
+KORIDOR_KURALI = os.environ.get("MOTOR_DOLGU_KORIDOR", "1") != "0"
 # Bundan küçük parça yazılmaz — ekranda görünmez, dosyayı şişirir.
 ESIK_KM2 = float(os.environ.get("MOTOR_DOLGU_ESIK_KM2", "200"))
 # Kapanış hesabı ÖNCESİ gövdeyi kabalaştırma toleransı (derece). ~0,05° ≈ 5 km:
@@ -152,11 +171,13 @@ _SINA_KAYDIR = os.environ.get("MOTOR_DOLGU_SINA_KAYDIR", "")
 #    eklenince indeksler kayar) `difference` zincirinin kayan nokta sonucu
 #    değişebilirdi ⇒ önbellekten okunan ile yeniden hesaplanan AYRIŞIRDI.
 #    Sıralama bunu yapısal olarak kapatıyor.
-KURAL_SURUM = "dolgu-kural-1"
+KURAL_SURUM = "dolgu-kural-2"
 _ONB_TUZ = json.dumps({
     "surum": KURAL_SURUM,
     "modul": _hlo.sha256(io.open(os.path.abspath(__file__), "rb").read()).hexdigest(),
     "kural": {"yaricap_km": YARICAP_KM, "esik_km2": ESIK_KM2,
+              "ufuk_gun": UFUK_GUN, "deniz": DENIZ_KURALI,
+              "deniz_esik_km2": DENIZ_ESIK_KM2, "koridor": KORIDOR_KURALI,
               "kaba_tol": KABA_TOL, "sade_tol": SADE_TOL, "temas": TEMAS,
               "paylasim_adim_km": PAYLASIM_ADIM_KM,
               "paylasim_nokta_tavan": PAYLASIM_NOKTA_TAVAN},
@@ -265,6 +286,41 @@ class KaraIndeks(object):
             return Polygon()
 
 
+def _deniz_kapanisi(g, kaba, kara_hazir, r):
+    """(e) Gövdenin büyük su kütleleriyle arasındaki <=2r'lik kara şeridi.
+
+    Kapanış (gövde ∪ deniz) üzerinde alınır; denizin kendisi ve gövde çıkarılır,
+    geriye yalnız aradaki şerit kalır. `r` DERECE. Yerel deniz = kutu - yerel
+    kara; kutu 2,05r pay taşır ki kutu kenarı kapanışı etkilemesin."""
+    kutu = kaba.envelope.buffer(2.05 * r)
+    try:
+        ix = kara_hazir.agac.query(kutu)
+    except Exception:
+        return Polygon()
+    yerel = (unary_union([kara_hazir.parcalar[int(q)] for q in ix])
+             if len(ix) else Polygon())
+    deniz = _temiz(kutu.difference(yerel))
+    buyuk = [p for p in _parcalar(deniz) if _km2(p) >= DENIZ_ESIK_KM2]
+    if not buyuk:
+        return Polygon()
+    deniz = unary_union(buyuk)
+    if KABA_TOL > 0:
+        deniz = _temiz(deniz.simplify(KABA_TOL, preserve_topology=True))
+    birlesik = _temiz(unary_union([kaba, deniz]))
+    kap = _temiz(birlesik.buffer(r, quad_segs=2, join_style=1).buffer(
+        -r, quad_segs=2, join_style=1))
+    serit = _temiz(kap.difference(birlesik))
+    # Kapanış deniz-deniz boğazlarını da (yarımada, Apenin…) doldurur; bunlar
+    # gövdeyle ilgisiz. Yalnız GÖVDEYE DEĞEN bileşenler ve gövdeden en çok 2r
+    # uzaktaki kesim kalır (ölçüldü: bu süzgeç olmadan 1000-01-01'de deniz
+    # kuralı 4,0 milyon km2 yazdı, gövde alanı 0,57 milyon km2 idi).
+    degen = g.buffer(TEMAS)
+    tut = [c for c in _parcalar(serit) if c.intersects(degen)]
+    if not tut:
+        return Polygon()
+    return _temiz(unary_union(tut).intersection(g.buffer(2.0 * r)))
+
+
 def _talep(g, kara_hazir, kara, r_km):
     """Bir gövdenin morfolojik kapanışından A'nın kendisi çıkarılmış hâli.
 
@@ -301,6 +357,16 @@ def _talep(g, kara_hazir, kara, r_km):
         return Polygon()
     kap = _temiz(kap)
     if kap.is_empty:
+        kap = Polygon()
+    if DENIZ_KURALI and kara_hazir is not None:
+        # (e) gövde ile DENİZ arasındaki boşluk da kapanış sayılır: kapanış
+        # (gövde ∪ yakın deniz) üzerinde alınır (bkz. _deniz_kapanisi).
+        try:
+            kap = _temiz(unary_union([kap, _deniz_kapanisi(
+                g, kaba, kara_hazir, r)]))
+        except Exception:
+            pass
+    if kap.is_empty:
         return Polygon()
     t = _temiz(kap.difference(g))
     if t.is_empty:
@@ -333,7 +399,18 @@ def _paylas(alan, adaylar):
         return [(adaylar[0][0], alan)]
     lat = alan.centroid.y
     adim = _derece(PAYLASIM_ADIM_KM, lat)
-    cevre = alan.buffer(_derece(YARICAP_KM, lat))
+    # 🔴 BELLEK: `alan` ham kıyı ayrıntısıyla (on binlerce köşe) 200 km tamponlanınca
+    #    shapely tek çağrıda >8 GB yedi (21 Ekim, 1281 kesiti, yığın izi `_paylas`
+    #    → buffer). `cevre` yalnız "gövde sınırının hangi kesimi alana yakın"
+    #    süzgecidir; kaba hat + az segmentle SÜPERSET kalır, sonucu bozmaz.
+    #    İkinci ölçüm: kaba hat + quad_segs=2 ile bile `buffer` 6 GB'ı aştı
+    #    (çekişmeli alan kıtalar boyu uzanabiliyor). Tampon HİÇ alınmaz:
+    #    süzgeç = alanın sınır kutusu + r. Kutu tampondan GENİŞTİR (süperset),
+    #    örnek nokta sayısı zaten PAYLASIM_NOKTA_TAVAN ile sınırlı.
+    _x0, _y0, _x1, _y1 = alan.bounds
+    _rx = _derece(YARICAP_KM, lat) * 1.05
+    _ry = YARICAP_KM / 111.32 * 1.05
+    cevre = box(_x0 - _rx, _y0 - _ry, _x1 + _rx, _y1 + _ry)
     pts, sahip = [], []
     for kim, g in adaylar:
         try:
@@ -394,6 +471,24 @@ def _paylas(alan, adaylar):
 # ═══════════════════════════════════════════════════════════════════════════
 # ③ CİNS — B-2: her parça ne tür bir dolgu?
 # ═══════════════════════════════════════════════════════════════════════════
+def _koridor_kirp(parca, a_tampon):
+    """(c) Koridorun ağıza yakın `ağız uzunluğu` kadar kesimi boş bırakılır.
+
+    Ağız = parça sınırının hiçbir A toprağına değmeyen kısmı (`_cins`teki ile
+    aynı tanım). Ağızdan <= ağız uzunluğu uzaktaki kesim çıkarılır; derin kesim
+    kalır. Ağız ölçülemezse parça AYNEN döner (kırpma uydurulmaz).
+    ⚠️ Yalnız kapanışın zaten ürettiği (ağzı < 2r) girintilere uygulanır;
+    ağzı 2r'den geniş derin girintiler bu kodda HENÜZ YOK (rapora yazıldı)."""
+    try:
+        agiz = parca.boundary.difference(a_tampon)
+        w = getattr(agiz, "length", 0.0)
+        if w <= 0:
+            return parca
+        return _temiz(parca.difference(agiz.buffer(w)))
+    except Exception:
+        return parca
+
+
 def _cins(parca, govde, a_tampon):
     """`bosluk` · `koridor` · `enklav-bag`. (`paylasim` çağıran tarafta.)
 
@@ -521,8 +616,15 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
             rapor["talep_km2"] += km2t
             continue
 
+        _t0 = time.time()
         ps, eng, km2t = _devlet_hesap(i, kim, g, ham, govdeler, kb, kt,
                                       g_liste, rapor)
+        if os.environ.get("MOTOR_DOLGU_IZ") == "1":
+            import psutil
+            print("      [devlet] %-30s %6.1f sn · komşu gövde %3d talep %3d · "
+                  "RSS %.1f GB" % (kim, time.time() - _t0, len(kb), len(kt),
+                                   psutil.Process().memory_info().rss / 2**30),
+                  flush=True)
         _ONB.yaz("dolgu2_devlet", an, (ps, eng, km2t))
         parcalar.extend(ps)
         rapor["engellendi"].extend(eng)
@@ -624,6 +726,12 @@ def _devlet_hesap(i, kim, g, ham, govdeler, kb, kt, g_liste, rapor):
             if p2.is_empty:
                 continue
             c = zorla or _cins(p, g, yakin(p))
+            if c == "koridor" and KORIDOR_KURALI:
+                # (c) girinti en çok ağız genişliği kadar derin KALABİLİR:
+                # ağıza o kadar yakın kesim boş bırakılır, derindeki doldurulur.
+                p2 = _koridor_kirp(p2, yakin(p))
+                if p2.is_empty or _km2(p2) < ESIK_KM2:
+                    continue
             rapor["yazilan_km2"] += _km2(p2)
             ps.append({"kim": kim, "cins": c, "g": p2})
     rapor["sn_cins"] += time.time() - _sn
@@ -902,6 +1010,25 @@ class Havuz(object):
         return j
 
 
+def _birlestir(kayitlar, acik, yeni, a, bitis, cins_sayac):
+    """KAYIT BAZLI dönem birleştirme. Anahtar = (devlet, cins, halka dizisi).
+
+    🔴 Eski hâl "kesidin TÜM imzası aynıysa uzat, değilse BÜTÜN kesidi yeniden
+       yaz"dı: dünyanın herhangi bir yerinde bir gövde değişince o kesidin 880
+       kaydı topluca tekrarlanıyordu (3.007 kesit × ~880 ≈ yüzlerce MB, 100 MiB
+       eşiğinin çok üstü). Şimdi yalnız DEĞİŞEN parçanın kaydı açılır; aynı
+       parça önceki kesitten (`t == a`) sürüyorsa kaydın `t`si uzatılır."""
+    for r in yeni:
+        key = (r["k"], r["c"], tuple(r["p"]))
+        onc = acik.get(key)
+        if onc is not None and onc["t"] == a:
+            onc["t"] = bitis
+        else:
+            kayitlar.append(r)
+            acik[key] = r
+            cins_sayac[r["c"]] = cins_sayac.get(r["c"], 0) + 1
+
+
 def js_yaz(yol, kayitlar, havuz, izi=None, ek_yorum=""):
     """data/dolgu.js — ad alanı `window.DOLGU_*` (D225: dosya verilirken
     değişken adı da verilir)."""
@@ -943,34 +1070,27 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
     """
     t0 = time.time()
     kara_hazir = KaraIndeks(kara) if kara is not None else None
-    tarihler = sorted({a[0] for a in araliklar})
+    tarihler = sorted({a[0] for a in araliklar}, key=_gk)
     if kesit_sinir:
         tarihler = tarihler[:kesit_sinir]
     havuz, kayitlar = Havuz(), []
     cins_sayac = {c: 0 for c in CINSLER}
-    onceki_imza, onceki_ilk = None, 0
+    acik = {}
     for n, a in enumerate(tarihler, 1):
         # Önbellek anahtarı = aralık indeksi (bkz. `_TALEP_ONB` başlığı).
         govdeler = [(kim, g, _ai) for _ai, (f, t, kim, g)
-                    in enumerate(araliklar) if f <= a < t]
+                    in enumerate(araliklar) if _gk(f) <= _gk(a) < _gk(t)]
         parcalar, _rapor = kesit_dolgu(govdeler, kara, kara_hazir)
         bitis = tarihler[n] if n < len(tarihler) else "9999-12-31"
         yeni = [{"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
                  "p": [havuz.ekle(x) for x in _parcalar(pc["g"])]}
                 for pc in parcalar]
-        imza = tuple(sorted((r["k"], r["c"], tuple(r["p"])) for r in yeni))
-        if imza and imza == onceki_imza:
-            for r in kayitlar[onceki_ilk:]:
-                r["t"] = bitis
-        else:
-            onceki_imza, onceki_ilk = imza, len(kayitlar)
-            kayitlar.extend(yeni)
-            for pc in parcalar:
-                cins_sayac[pc["cins"]] = cins_sayac.get(pc["cins"], 0) + 1
+        _birlestir(kayitlar, acik, yeni, a, bitis, cins_sayac)
         if ilerleme is not None:
             ilerleme(n, len(tarihler), a, len(parcalar))
     boy = js_yaz(cikti, kayitlar, havuz,
-                 izi={"yaricap_km": YARICAP_KM, "esik_km2": ESIK_KM2,
+                 izi={"ufuk_gun": UFUK_GUN, "yaricap_km": YARICAP_KM,
+                      "esik_km2": ESIK_KM2,
                       "kesit": len(tarihler)})
     return len(kayitlar), boy, cins_sayac, time.time() - t0
 
@@ -1063,9 +1183,13 @@ def _kara_yukle():
 def _kesitler():
     """Yazılmış A çıktısından kesit listesi: her tarihte hangi devletin
     hangi gövdesi canlı. A DOSYALARI YALNIZ OKUNUR."""
-    d = _js_oku(os.path.join(KOK, "data", "donemler.js"),
+    # A dosyalarının dizini: varsayılan bu ağacın data/'sı; başka bir koşunun
+    # çıktısı (örn. C:\atlas-kosu29\data) MOTOR_DOLGU_VERI_DIZIN ile okunur.
+    # YALNIZ OKUNUR — bu dizine hiçbir şey yazılmaz.
+    vd = os.environ.get("MOTOR_DOLGU_VERI_DIZIN") or os.path.join(KOK, "data")
+    d = _js_oku(os.path.join(vd, "donemler.js"),
                 ["DONEMLER", "PARCALAR", "PARCA_HALKA"])
-    y = _js_oku(os.path.join(KOK, "data", "devletler_harita.js"),
+    y = _js_oku(os.path.join(vd, "devletler_harita.js"),
                 ["DEVLET_HARITA", "DEVLET_PARCALAR", "DEVLET_PARCA_HALKA"])
     # (tarih) → [(kim, kaynak, idx_dizi)]
     araliklar = []
@@ -1077,7 +1201,7 @@ def _kesitler():
         for p in dev.get("dnm", []):
             if p.get("g"):
                 araliklar.append((p["f"], p["t"], dev["id"], "y", p["g"]))
-    tarihler = sorted({a[0] for a in araliklar})
+    tarihler = sorted({a[0] for a in araliklar}, key=_gk)
     return araliklar, tarihler, d, y
 
 
@@ -1101,6 +1225,18 @@ def _ana():
     print("    %d aralık · %d kesit tarihi (%.1f sn)"
           % (len(araliklar), len(tarihler), time.time() - t1), flush=True)
 
+    # Tek kesit / dar dilim üretimi (tam koşu DEĞİL): MOTOR_DOLGU_TARIH_BAS=<gün>
+    # o günden başlayan kesitleri alır, MOTOR_DOLGU_KESIT=<n> n tanesiyle keser.
+    _bas = os.environ.get("MOTOR_DOLGU_TARIH_BAS", "")
+    if _bas:
+        tarihler = [t for t in tarihler if _gk(t) >= _gk(_bas)]
+    # MOTOR_DOLGU_TARIH_SON=<gün>: bu günden ÖNCEKİ kesitler (dışlayıcı) — 1281 öncesi
+    # ayrı dosya üretimi için (`MOTOR_DOLGU_TARIH_SON=1281-01-01`). Son kayıt `t`si
+    # bu günle kapanır (sonraki kesit ayrı koşuda üretilir).
+    _son = os.environ.get("MOTOR_DOLGU_TARIH_SON", "")
+    _bitis_son = _son or "9999-12-31"
+    if _son:
+        tarihler = [t for t in tarihler if _gk(t) < _gk(_son)]
     if sinir:
         tarihler = tarihler[:sinir]
 
@@ -1111,7 +1247,7 @@ def _ana():
     engelli = []          # (tarih, kim, km2) — "gerçek enklav, incelenecek"
     # Dönem birleştirme: ardışık kesitte dolgu BİREBİR aynıysa yeni kayıt
     # açılmaz, öncekinin `t`si uzatılır — `donemler.js`in kendi deseni.
-    onceki_imza, onceki_ilk = None, 0
+    acik = {}
     for n, a in enumerate(tarihler, 1):
         t2 = time.time()
         # 🔴 ÖNBELLEK ANAHTARI = ARALIK İNDEKSİ. Aynı devletin aynı dönemi
@@ -1119,7 +1255,7 @@ def _ana():
         #    kesitte BİREBİR aynıdır (bkz. _TALEP_ONB başlığındaki ölçüm).
         canli = {}
         for _ai, (f, t, kim, kaynak, idx) in enumerate(araliklar):
-            if f <= a < t:
+            if _gk(f) <= _gk(a) < _gk(t):
                 canli.setdefault((kim, kaynak), [[], []])
                 canli[(kim, kaynak)][0].extend(idx)
                 canli[(kim, kaynak)][1].append(_ai)
@@ -1154,20 +1290,12 @@ def _ana():
         for kim, km2 in rapor["engellendi"]:
             engelli.append((a, kim, km2))
         olcum.append((a, len(govdeler), len(parcalar), round(sure, 2)))
-        bitis = tarihler[n] if n < len(tarihler) else "9999-12-31"
+        bitis = tarihler[n] if n < len(tarihler) else _bitis_son
         yeni = []
         for pc in parcalar:
             yeni.append({"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
                          "p": [havuz.ekle(x) for x in _parcalar(pc["g"])]})
-        imza = tuple(sorted((r["k"], r["c"], tuple(r["p"])) for r in yeni))
-        if imza and imza == onceki_imza:
-            for r in kayitlar[onceki_ilk:]:
-                r["t"] = bitis                      # dönemi uzat, kayıt açma
-        else:
-            onceki_imza, onceki_ilk = imza, len(kayitlar)
-            kayitlar.extend(yeni)
-            for pc in parcalar:
-                cins_sayac[pc["cins"]] = cins_sayac.get(pc["cins"], 0) + 1
+        _birlestir(kayitlar, acik, yeni, a, bitis, cins_sayac)
         print("    %3d/%d  %s  gövde %3d -> dolgu %3d parça · engellenen %d "
               "· %.1f sn (kapanış %.0f · çekişme %.0f · cins %.0f)"
               % (n, len(tarihler), a, len(govdeler), len(parcalar),
@@ -1176,7 +1304,8 @@ def _ana():
               flush=True)
 
     boy = js_yaz(cikti, kayitlar, havuz,
-                 izi={"yaricap_km": YARICAP_KM, "esik_km2": ESIK_KM2,
+                 izi={"ufuk_gun": UFUK_GUN, "yaricap_km": YARICAP_KM,
+                      "esik_km2": ESIK_KM2,
                       "kesit": len(tarihler)})
     print("\n--- B-4 MALİYET ÖLÇÜMÜ ---")
     print("  1) kesit başına ek süre : %.2f sn (toplam %.1f sn / %d kesit)"
