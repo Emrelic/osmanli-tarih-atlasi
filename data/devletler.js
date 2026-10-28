@@ -1353,6 +1353,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"tunus-ocagi", ad:"Tunus Ocağı (Hüseynî Hanedanı)", tur:"ocaklik", bolge:"kuzey-afrika",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB, kaynak taraması; değer DEĞİŞTİRİLMEDİ — ölçülemedi/karar bekliyor): f=1574-01-01 yıl hassasiyeti; TDV 'tunus' gün olarak Halkulvâd 24 Ağustos, Tunus 12 Eylül 1574 verir. Künye Murâdî beylik (TDV: 1631 - 9 Haziran 1702) ve Hüseynî (Temmuz 1705; gün 10/12/15 kaynaklara göre değişir) dönemlerini kapsar.",
   f:"1574-01-01", t:"1881-05-12", baskent:"Tunus",
   ozet:"Osmanlı beylerbeyiliğinden özerk hanedanlığa evrilen Kuzey Afrika ocağı; Fransız protektorasıyla fiilen sona erdi.",
   kaynak:"tunus",
@@ -1365,6 +1366,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"trablusgarp-ocagi", ad:"Trablusgarp Ocağı (Karamanlı Hanedanı)", tur:"ocaklik", bolge:"kuzey-afrika",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB, kaynak taraması; değer DEĞİŞTİRİLMEDİ — ölçülemedi/karar bekliyor): TDV 'trablusgarp' Osmanlı fethini 15 Ağustos 1551 verir; f=1551-01-01 yıl hassasiyetinde kalmıştır. Gün değişikliği Trablus yerleşim dönemlerini (d:/s: başlangıçları) etkiler, denetle ölçülmeden yapılmadı. t=1911-10-09: italyan-libya f=1911-10-05 ile 4 günlük örtüşme GERÇEKTİR (5 Ekim Cagni çıkarması / 9 Ekim TDV 'teslim olmak zorunda kaldı' / 11 Ekim Caneva). Künye adı 'Karamanlı' ama kapsam 1551-1911 tüm eyalettir (Karamanlı 1711-1835; TDV karamanli).",
   f:"1551-01-01", t:"1911-10-09", baskent:"Trablus",
   ozet:"Kuzey Afrika'nın en doğu ocağı (hanedan ömrü, Karamanlılar); 29 Eylül 1911 savaş ilânı, 9 Ekim Trablus'un düşüşü, 18 Ekim 1912 Uşi Antlaşması — künye fiilî kaybı (Trablus'un düşüşü) esas alır. harita: alanı yok çünkü 1551-1911 boyunca Trablus haritada hep Osmanlı'nın kendi rengiyle (doğrudan ya da tâbi) boyanıyor, ayrı bir renk kimliği yok.",
   kaynak:"trablusgarp-savasi",
@@ -2815,6 +2817,7 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"hafsi", ad:"Hafsîler (Tunus)", tur:"sultanlik", bolge:"kuzey-afrika",
+  ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB, kaynak taraması; değer DEĞİŞTİRİLMEDİ — ölçülemedi/karar bekliyor): TDV 'tunus': Tunus 12 Eylül 1574'te düştü (Halkulvâd 24 Ağustos 1574); künye t=1574-09-13, Kartaca (Carthage) yerleşim dönemi 1574-09-12 kullanıyor. Bir günlük tutarsızlık; ölçülmeden değiştirilmedi.",
   f:"1228-01-01", t:"1574-09-13", baskent:"Tunus", harita:"hafsi",
   ozet:"Muvahhidler'den bağımsızlaşan, Tunus'u Akdeniz'in önemli bir ticaret merkezine dönüştüren Berberî hanedan; iç çekişmeler ve İspanya müdahalesi sonrası Sinan Paşa'nın fethiyle Osmanlı eyaleti oldu. (kaynak: TDV, madde: hafsiler)",
   kaynak:"tunus",
@@ -2830,6 +2833,7 @@ window.DEVLETLER = [
 { id:"zeyyani", ad:"Zeyyânîler (Tilimsan)", tur:"sultanlik", bolge:"kuzey-afrika",
   f:"1235-01-01", t:"1553-01-01", baskent:"Tilimsan (Tlemcen)", harita:"zeyyani",
   ic_not_f:"14 Ekim 2026 (SEHIR-TARIHCE, 3 parti): 1236 → 1235. TDV tilimsan 'Abdülvâdîler (Zeyyânîler) hânedanı kuruldu (632/1235)'; TDV abdulvadiler '1235 tarihinde … kurdu', başlık (1235-1550); TDV muvahhidler '632’de (1235)'. Hicrî 632 = 26 Eyl 1234 – 15 Eyl 1235 (tablo, Jülyen) ∩ 1235 ⇒ 1235-01-01 (kesişimin ilk günü). 1236 hiçbir TDV maddesinde yok.",
+  ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB): TDV iç çelişkisi, künye tilimsan maddesine uyar (1553). TDV zeyyaniler/abdulvadiler başlığı '(1235-1550)' ve 'Türkler, 1550 yılında Tilimsân'ı ele geçirerek … son verdiler' der; TDV tilimsan ise '960'ta (1553) … kesin biçimde ele geçirildi. Böylece … Zeyyânî hâkimiyeti sona ermiş' der (H.960 = Ara 1552-Ara 1553). Künye t=1553 şehrin KESİN alınışıdır (1517-18 Oruç Reis alışı kalıcı olmadı: abdulvadiler). Gün TDV'de yok; yıl hassasiyeti [yalnız yıl teyitli; gün teyitsiz].",
   ozet:"Merinî ve Hafsî baskısı arasında sıkışan Tilimsan merkezli Berberî (Abdülvâdî) hanedanı; İspanya-Osmanlı çekişmesinin ardından Osmanlı'ya katıldı. (kaynak: TDV, madde: zeyyaniler)",
   kaynak:"tilimsan",
   kronoloji:[
@@ -5133,6 +5137,7 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"merini", ad:"Merînî ve Vattâsî Fas Krallığı", tur:"krallik", bolge:"kuzey-afrika",
+  ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB, kaynak taraması; değer DEĞİŞTİRİLMEDİ — ölçülemedi/karar bekliyor): t=1549 Vattâsî dönemi sonudur (Sâdîlerin Fas'ı alışı). TDV MERÎNÎLER başlığı '(1196-1465)' ve 'son buldu (869/1465)' der; TDV Vattâsîler 1471-1554, Britannica 1548 verir. Birleşik künye adı iki hanedanı kapsar; ad/kapsam bölünmesi (Vattâsîleri ayrı künye yapmak) renkler.py BOYALAR gerektirir. Sâdî f=1511 ile 1511-1549 örtüşmesi gerçektir (Sâdîler Sûs/Merakeş, Vattâsîler Fes).",
   f:"1196-01-01", t:"1549-01-01", baskent:"Fas (Fez)", harita:"merini",
   ozet:"Muvahhidler'in Zenâte kökenli vezirliğinden bağımsızlaşan, Fas'ı başkent yapan Berberî hanedan; Endülüs Nasrî Krallığı'na destek verdi, Portekiz'in kıyı şehirlerini almasıyla zayıflayıp Vattâsî vezirlerine, sonra Sâdîlere devretti (bkz. [[fas]]). (kaynak: TDV, madde: meriniler)",
   kaynak:"meriniler",
@@ -9084,6 +9089,7 @@ window.DEVLETLER = [
     { odak_yer:["Buhara"], t:"1924-09-19", tur:"siyaset", b:"V. Tüm-Buhara Sovyetler Kongresi cumhuriyeti Buhara Sosyalist Sovyet Cumhuriyeti'ne dönüştürmeye ve millî sınırlandırmaya karar verdi.", kaynak:"Buhara Üniversitesi müzesi sayfası (https://buxdu.uz/en/166-museum/8153/8153-i-hall-6-exposure-republic-of-bukhara-peoples-soviets/); Vikipedi (https://en.wikipedia.org/wiki/Bukharan_People%27s_Soviet_Republic)" }
   ] },
 { id:"rif-cumhuriyeti", ad:"Rif Cumhuriyeti (Abdülkerim el-Hattâbî)", bolge:"kuzey-afrika", f:"1921-09-19", t:"1926-05-27",
+  ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB, kaynak taraması; değer DEĞİŞTİRİLMEDİ — ölçülemedi/karar bekliyor): TDV 'fas' Rif'in sonunu '(21 Mayıs 1926)' verir (Abdülkerim teslimi); ikincil kaynaklarda 21/23/26/27 Mayıs dağılımı var, künye 27. Pennell/Woolman okunamadı. [gün teyitsiz]",
   ozet:"22 Temmuz 1921 Annual zaferinin ardından 19 Eylül 1921'de Kuzey Fas'ta ilan edilen (TDV `fas`: 'bağımsızlığını ilân etti (19 Eylül 1921)'; 30 Eylül 2026'ya dek künye 18 Eylül diyordu), İspanya'ya (ve sonradan Fransa'ya) karşı direnen dağlık cumhuriyet; 1926'da (site ufkunun dışında) yenildi.",
   kaynak:"bulunamadı — TDV kapsam dışı (bu spesifik siyasi yapı için doğrudan aranmadı, ama Fas'ın modern direniş tarihinin TDV'de zayıf kaldığı `§4`'te zaten belgeli). Britannica, 'Republic of the Rif' (place madde).",
   kronoloji:[
@@ -9333,6 +9339,7 @@ window.DEVLETLER = [
     { odak_yer:["Mekke"], t:"0969-01-01", tur:"kurulus", b:"Hasenî Ca‘fer b. Muhammed Mekke'ye hâkim oldu, şerif emirliği başladı", kaynak:"TDV: mekke" }
   ] },
 { id:"konstantin-beyligi", ad:"Konstantin Beyliği (Ahmed Bey)", bolge:"kuzey-afrika", f:"1830-07-05", t:"1844-03-04",
+  ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB, kaynak taraması; değer DEĞİŞTİRİLMEDİ — ölçülemedi/karar bekliyor): t=1844-03-04 kaynaksızdır (veriden devralındı). Fransızca üniversite notu Ahmed Bey'in teslimini Haziran 1848 verir; kaynak elle doğrulanmadı. [gün teyitsiz]",
   ozet:"Fransa'nın Cezayir'i işgalinden sonra doğu beyliğinde Ahmed Bey'in Osmanlı adına sürdürdüğü idare. Konstantin 1837'de Fransızların eline geçti; iç kesimlerdeki direniş 1840'ların ortasına kadar sürdü.",
   kaynak:"TDV `kostantine` — gövde okundu (11.785 kar.), madde Osmanlı FETHİNE odaklı (1517 · 1519-20 · 1526 · 1533-34) ve Ahmed Bey dönemi için GÜN VERMİYOR. 🔴 `f:`/`t:` VERİDEN DEVRALINDI, kaynaksız. `f:` 1830-07-05 (Cezayir'in Fransızlara düşüşü) ve `t:` yerleşimden yerleşime değişiyor (1832-03-01 … 1844-03-04); künye penceresi HEPSİNİ KAPSAYACAK biçimde en genişine açıldı.",
   kronoloji:[
@@ -14261,7 +14268,7 @@ window.DEVLETLER = [
     { odak_yer:["Cezayir"], t:"1992-01-11", tur:"siyaset", b:"Bin Cedîd istifa etti, ordu seçim sürecini iptal etti; iç savaş dönemi başladı.", kaynak:"TDV 'Cezayir'" },
     { odak_yer:["Cezayir"], t:"1999-04-15", tur:"hukumdar", b:"Abdülaziz Buteflika cumhurbaşkanı seçildi.", kaynak:"TDV 'Cezayir'" }
   ] },
-{ id:"tunus-krallik", ad:"Tunus Krallığı (Hüseynî)", tur:"krallik", bolge:"kuzey-afrika", f:"1956-03-20", t:"1957-07-25", baskent:"Tunus", ozet:"20 Mart 1956 bağımsızlık protokolüyle Bardo Antlaşması'nın feshi; VIII. Muhammed el-Emîn Bey; 25 Temmuz 1957'de Kurucu Meclis monarşiyi kaldırdı.", kaynak:"https://www.globalsecurity.org/military/world/tunisia/independence.htm ; https://kapitalis.com/tunisie/2017/07/24/25-juillet-1957-coup-detat-masque-de-bourguiba/ ; TDV 'Tunus'", kronoloji:[
+{ id:"tunus-krallik", ad:"Tunus Krallığı (Hüseynî)", tur:"krallik", bolge:"kuzey-afrika", f:"1956-03-20", t:"1957-07-25", ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB, kaynak taraması; değer DEĞİŞTİRİLMEDİ — ölçülemedi/karar bekliyor): t=1957-07-25 (Kurucu Meclis monarşiyi kaldırdı: Fransızca lepetitjournal.com ve mjp.univ-perp.fr kronolojileri, İngilizce UCA-DADM, Arapça basın özetleri). TDV 'tunus' '27 Temmuz 1957 tarihine kadar Tunus kralı oldu' der. ÇELİŞKİ iki kaynak diliyle beyan edildi; 25 Temmuz Meclis kararı günüdür, birincil metin (Rapor Resmi / 1959 anayasa başlangıcı) okunmadı.", baskent:"Tunus", ozet:"20 Mart 1956 bağımsızlık protokolüyle Bardo Antlaşması'nın feshi; VIII. Muhammed el-Emîn Bey; 25 Temmuz 1957'de Kurucu Meclis monarşiyi kaldırdı.", kaynak:"https://www.globalsecurity.org/military/world/tunisia/independence.htm ; https://kapitalis.com/tunisie/2017/07/24/25-juillet-1957-coup-detat-masque-de-bourguiba/ ; TDV 'Tunus'", kronoloji:[
     { odak_yer:["Tunus"], t:"1956-03-20", tur:"kurulus", b:"Fransa-Tunus protokolü: Bardo Antlaşması feshedildi, Tunus bağımsız krallık oldu.", kaynak:"https://www.globalsecurity.org/military/world/tunisia/independence.htm ; https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/tunisia-1956-present" },
     { odak_yer:["Tunus"], t:"1956-03-25", tur:"siyaset", b:"Kurucu Meclis seçimlerinde Burgiba'nın Ulusal Cephe listesi bütün sandalyeleri kazandı.", kaynak:"Webdo.tn, De 1955 à 1959, les quatre glorieuses de Habib Bourguiba https://www.webdo.tn/fr/actualite/chroniques/de-1955-a-1959-les-quatre-glorieuses-de-habib-bourguiba/187906/ ; BM GK tutanağı https://digitallibrary.un.org/record/633203/files/S_PV-732-FR.pdf" },
     { odak_yer:["Tunus"], t:"1956-04-08", tur:"siyaset", b:"Kurucu Meclis toplandı.", kaynak:"https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/tunisia-1956-present" },
@@ -14271,7 +14278,7 @@ window.DEVLETLER = [
     { odak_yer:["Tunus"], t:"1956-11-12", tur:"siyaset", b:"BM Genel Kurulu 1112 (XI) sayılı kararla Tunus'u üyeliğe kabul etti (78 oy, ret yok).", kaynak:"BM Genel Kurulu 11. oturum karar tablosu https://www.un.org/depts/dhl/resguide/r11_resolutions_table_eng.htm ; un-project.org A/RES/1112(XI) https://un-project.org/votes/resolution/A-RES-1112(XI)/" },
     { odak_yer:["Tunus"], t:"1957-07-25", tur:"son", b:"Kurucu Meclis VIII. Muhammed el-Emîn Bey'i tahttan indirip krallığı kaldırdı.", kaynak:"https://kapitalis.com/tunisie/2017/07/24/25-juillet-1957-coup-detat-masque-de-bourguiba/ ; https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/tunisia-1956-present" }
   ] },
-{ id:"tunus", ad:"Tunus Cumhuriyeti", tur:"cumhuriyet", bolge:"kuzey-afrika", f:"1957-07-25", baskent:"Tunus", ozet:"25 Temmuz 1957'de ilan edilen cumhuriyet; ilk başkan Habib Burgiba.", kaynak:"https://kapitalis.com/tunisie/2017/07/24/25-juillet-1957-coup-detat-masque-de-bourguiba/ ; TDV 'Tunus'", kronoloji:[
+{ id:"tunus", ad:"Tunus Cumhuriyeti", tur:"cumhuriyet", bolge:"kuzey-afrika", f:"1957-07-25", ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB, kaynak taraması; değer DEĞİŞTİRİLMEDİ — ölçülemedi/karar bekliyor): f=1957-07-25 Meclis kararı günü (UCA-DADM, lepetitjournal.com, mjp.univ-perp.fr: '25 juillet 1957 - Proclamation de la République'); TDV 'tunus' 27 Temmuz 1957 der. Çelişki tunus-krallik ic_not_t'de ayrıntılı.", baskent:"Tunus", ozet:"25 Temmuz 1957'de ilan edilen cumhuriyet; ilk başkan Habib Burgiba.", kaynak:"https://kapitalis.com/tunisie/2017/07/24/25-juillet-1957-coup-detat-masque-de-bourguiba/ ; TDV 'Tunus'", kronoloji:[
     { odak_yer:["Tunus"], t:"1957-07-25", tur:"kurulus", b:"Cumhuriyet ilan edildi; Habib Burgiba ilk cumhurbaşkanı seçildi.", kaynak:"https://kapitalis.com/tunisie/2017/07/24/25-juillet-1957-coup-detat-masque-de-bourguiba/ ; https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/tunisia-1956-present" },
     { odak_yer:["Tunus"], t:"1961-07-19", tur:"savas", b:"Bizerte krizi: Tunus Fransız deniz üssünü kuşattı, çatışmalar çıktı.", kaynak:"https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/tunisia-1956-present" },
     { odak_yer:["Tunus"], t:"1963-10-15", tur:"toprak-kazanc", b:"Fransa Bizerte üssünü boşalttı.", kaynak:"https://gulfnews.com/amp/story/world%2Fmena%2Ftimeline-tunisia-since-independence-1.746757" },
@@ -18274,7 +18281,7 @@ window.DEVLETLER = [
     { odak_yer:["Boma"], t:"1908-01-01", tur:"antlasma", b:"Belçika parlamentosu Eylül 1908'de ilhak antlaşmasını ve Kongo'nun yönetimini düzenleyen Sömürge Şartı'nı kabul eder (gün alınmadı).", kaynak:"EBSCO Research Starters: https://www.ebsco.com/research-starters/history/belgium-confiscates-congo-free-state-king-leopold-ii/" },
     { odak_yer:["Boma"], t:"1908-11-15", tur:"son", b:"Belçika devleti Kongo Serbest Devleti'ni devraldı (Belçika Kongosu).", kaynak:"EBSCO Research Starters https://www.ebsco.com/research-starters/history/belgium-confiscates-congo-free-state-king-leopold-ii" }
   ] },
-{ id:"fezzan", ad:"Fezzan Sultanlığı (Evlâd Muhammed)", tur:"sultanlik", bolge:"kuzey-afrika", f:"1550-01-01", t:"1812-01-01", baskent:"Murzuk", ozet:"Evlâd Muhammed hanedanı 16. yüzyıl başında/ortasında Murzuk'ta kuruldu; 1574'ten Osmanlı Trablusgarb'ına bağımlı, Yusuf Karamanlı'nın 1811-12 seferiyle sona erdi.", kaynak:"Wikipedia Awlad Muhammad/Murzuk (ikincil); Sebha Üniv. makalesi (Yusuf Karamanlı–Fezzan ilişkileri); SOAS Research Online; Willis, Abun-Nasr (atıf)", kronoloji:[
+{ id:"fezzan", ad:"Fezzan Sultanlığı (Evlâd Muhammed)", tur:"sultanlik", bolge:"kuzey-afrika", f:"1550-01-01", t:"1812-01-01", ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB, kaynak taraması; değer DEĞİŞTİRİLMEDİ — ölçülemedi/karar bekliyor): ÇELİŞKİ: TDV 'fizan' Evlâd Muhammed'in sonunu 1831 tarihli Evlâd Süleyman olayına bağlar; Sebha Üniv. Beşeri Bilimler Dergisi ve Irak akademik özetleri hanedanın 1811-12 Karamanlı seferiyle bittiğini yazar. Künye 1812'de kalır (iki kaynaklı beyan); TDV metni elle yeniden okunmalı.", baskent:"Murzuk", ozet:"Evlâd Muhammed hanedanı 16. yüzyıl başında/ortasında Murzuk'ta kuruldu; 1574'ten Osmanlı Trablusgarb'ına bağımlı, Yusuf Karamanlı'nın 1811-12 seferiyle sona erdi.", kaynak:"Wikipedia Awlad Muhammad/Murzuk (ikincil); Sebha Üniv. makalesi (Yusuf Karamanlı–Fezzan ilişkileri); SOAS Research Online; Willis, Abun-Nasr (atıf)", kronoloji:[
     { odak_yer:["Murzuk"], t:"1551-01-01", tur:"siyaset", b:"Osmanlıların Trablusgarb'ı almasının ardından Fizan Trablusgarb eyaletine bağlı sancak olarak düzenlenir.", kaynak:"TDV İslâm Ansiklopedisi, FİZAN https://islamansiklopedisi.org.tr/fizan" },
     { odak_yer:["Murzuk"], t:"1574-01-01", tur:"vassal", b:"Osmanlı Trablusgarb'ı Fezzan'ı işgal eder; sultanlık Osmanlı'ya bağımlı hale gelir (bir kaynak 1577, tam bağlılık 1580'ler).", kaynak:"Sebha Üniversitesi Beşeri Bilimler Dergisi (https://sebhau.edu.ly/journal/johs/article/view/1505); Wikipedia Awlad Muhammad (ikincil)" },
     { odak_yer:["Murzuk"], t:"1716-01-01", tur:"isgal", b:"Karamanlı Trablusgarb yönetimi Fizan'a ilk sefer düzenler (sonraki seferler 1718, 1732 ve 1811).", kaynak:"TDV İslâm Ansiklopedisi, FİZAN https://islamansiklopedisi.org.tr/fizan" },

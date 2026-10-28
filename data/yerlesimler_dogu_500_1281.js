@@ -1330,9 +1330,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1574-09-12",
     "t": "1881-05-12",
-    "d": "__BOSLUK__",
+    "d": "tunus-ocagi",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip tunus-ocagi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-ocagi\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «Koca Sinan Paşa ve Kaptanıderyâ Kılıç Ali Paşa kumandasındaki donanma altı günlük bir muhasaranın ardından 12 Eylül 1574’te Tunus’u geri aldı»; TDV İslâm Ansiklopedisi «Hafsîler», https://islamansiklopedisi.org.tr/hafsiler: «Hafsîler’in son temsilcisi Mevlây Muhammed İstanbul’a götürüldü ve Tunus’a Osmanlı Devleti’ne bağlı bir eyalet statüsü verildi (1574)» | ABİ MERKEZ: Tunus ‖ ic not: ÇELİŞKİ: atlas künyesi tunus-ocagi f=1574-09-13 ↔ TDV «Tunus» 12 Eylül 1574 (1 gün); TDV esas. TDV aynı maddede Halkulvâdî’nin alınışını 6 Cemâziyelevvel 982 (24 Ağustos 1574) verir."
+    "kaynak": "[DENETIM-MAGRIB 28 Ekim 2026: sahip künyesi BOYALAR'a eklendi ⇒ eski BOŞLUK BEYANI 'tunus-ocagi' geri yazıldı] BOŞLUK BEYANI: sahip tunus-ocagi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-ocagi\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «Koca Sinan Paşa ve Kaptanıderyâ Kılıç Ali Paşa kumandasındaki donanma altı günlük bir muhasaranın ardından 12 Eylül 1574’te Tunus’u geri aldı»; TDV İslâm Ansiklopedisi «Hafsîler», https://islamansiklopedisi.org.tr/hafsiler: «Hafsîler’in son temsilcisi Mevlây Muhammed İstanbul’a götürüldü ve Tunus’a Osmanlı Devleti’ne bağlı bir eyalet statüsü verildi (1574)» | ABİ MERKEZ: Tunus ‖ ic not: ÇELİŞKİ: atlas künyesi tunus-ocagi f=1574-09-13 ↔ TDV «Tunus» 12 Eylül 1574 (1 gün); TDV esas. TDV aynı maddede Halkulvâdî’nin alınışını 6 Cemâziyelevvel 982 (24 Ağustos 1574) verir."
    },
    {
     "f": "1881-05-12",
@@ -1343,17 +1343,17 @@ window.YERLESIMLER_DOGU_500_1281 = [
    },
    {
     "f": "1956-03-20",
-    "t": "1957-07-27",
-    "d": "__BOSLUK__",
+    "t": "1957-07-25",
+    "d": "tunus-krallik",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip tunus-krallik (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-krallik\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «20 Mart 1956’da Tunus bağımsızlığına kavuşurken Hüseynî ailesinden Emîn Bey on dokuzuncu bey sıfatıyla … 27 Temmuz 1957 tarihine kadar Tunus kralı oldu»"
+    "kaynak": "[DENETIM-MAGRIB 28 Ekim 2026: sahip künyesi BOYALAR'a eklendi ⇒ eski BOŞLUK BEYANI 'tunus-krallik' geri yazıldı · TDV Tunus 27 Temmuz 1957 der, künye tunus-krallik t=1957-07-25 (kapitalis/Kurucu Meclis); künye ömrü aşılmasın diye dönem t 1957-07-25'e çekildi, çelişki Emre'ye sorulur] BOŞLUK BEYANI: sahip tunus-krallik (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-krallik\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «20 Mart 1956’da Tunus bağımsızlığına kavuşurken Hüseynî ailesinden Emîn Bey on dokuzuncu bey sıfatıyla … 27 Temmuz 1957 tarihine kadar Tunus kralı oldu»"
    },
    {
-    "f": "1957-07-27",
+    "f": "1957-07-25",
     "t": "2000-12-31",
-    "d": "__BOSLUK__",
+    "d": "tunus",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip tunus (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «27 Temmuz 1957 tarihine kadar Tunus kralı oldu. Bu tarihte Tunus Cumhuriyeti ilân edildi; Hüseynî ailesinin saltanatı sona erip … Habîb Burgiba ilk devlet başkanı olarak bütün yetkileri eline aldı» ‖ ic not: ÇELİŞKİ: ham dosyada 25 Temmuz 1957 (kaynaksız, açılmamıştı) ↔ TDV 27 Temmuz 1957; TDV esas."
+    "kaynak": "[DENETIM-MAGRIB 28 Ekim 2026: sahip künyesi BOYALAR'a eklendi ⇒ eski BOŞLUK BEYANI 'tunus' geri yazıldı · TDV 27 Temmuz 1957 ↔ künye tunus f=1957-07-25; dönem f 1957-07-25'e çekildi (künye ile bitişik), çelişki Emre'ye sorulur] BOŞLUK BEYANI: sahip tunus (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «27 Temmuz 1957 tarihine kadar Tunus kralı oldu. Bu tarihte Tunus Cumhuriyeti ilân edildi; Hüseynî ailesinin saltanatı sona erip … Habîb Burgiba ilk devlet başkanı olarak bütün yetkileri eline aldı» ‖ ic not: ÇELİŞKİ: ham dosyada 25 Temmuz 1957 (kaynaksız, açılmamıştı) ↔ TDV 27 Temmuz 1957; TDV esas."
    }
   ],
   "not": "Yeni kayıt: Kartaca atlasta yoktu (yer_ara ad + 3 km: 0 eşleşme; en yakın Halkulvâdî 4.2 km). Zincir 0500-01-01 UFUK işaretiyle başlar (kur yazılmadı: kuruluş kaynaklı doğrulanmadı). 0698 sonrası zincir kuyruk işçisine bırakıldı.",
