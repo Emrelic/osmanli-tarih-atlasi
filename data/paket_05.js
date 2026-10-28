@@ -13259,11 +13259,12 @@ window.DEVLETLER = [
   f:"1400-09-16", t:"1415-01-01", baskent:"Harlech / Machynlleth", boya_gerekli:true,
   ic_not_f:"Owain Glyndŵr'ün Galler Prensi ilanı (kronoloji_ingiltere.js 1400-09-16). Harita toprağı yalnız Aberystwyth ve Harlech'in elde tutulduğu 1404-1409 aralığında görünür; öteki yıllar bu iki kale dışında sahipli yerleşim noktası yoktur (beyanlı yaklaşıklık).",
   ic_not_t:"Ayaklanmanın sönmesi (kronoloji_ingiltere.js 1415-01-01, yıl hassasiyeti). Toprak fiilen Aberystwyth ve Harlech'in 1409 başındaki kaybıyla bitti; DWB: 'After 1412 he is heard of no more'. Künye ucu sönümleme yılıdır, toprak ucu 1409'dur.",
-  ozet:"Owain Glyndŵr'ün 1400'de ilan ettiği Galler Prensliği; 1404'te Aberystwyth ve Harlech'in alınmasıyla 'batı Galler'in ustası' oldu, 1409 başında bu iki kalenin kaybıyla toprağını yitirdi.",
+  ozet:"Owain Glyndŵr'ün 1400'de ilan ettiği Galler Prensliği; 1404'te Aberystwyth ve Harlech'in alınmasıyla 'batı Galler'in ustası' oldu, Aberystwyth'in 1408'de, Harlech'in 1409 başında kaybıyla toprağını yitirdi.",
   kaynak:"Dictionary of Welsh Biography — 'OWAIN GLYNDWR (c. 1354 - 1416)' — https://biography.wales/article/s-OWAI-GLY-1354.html ('The capture of Aberystwyth and Harlech in 1404 made him master of west Wales from sea to sea'). 1409 kaybı için DWB yıl vermez; erken 1409 bilgisi ikincil kaynaklardan (TDV dışı, akademik teyit bekler; R. R. Davies, The Revolt of Owain Glyn Dŵr, OUP 1995 aranmalı).",
   kronoloji:[
     { odak_yer:["Harlech"], t:"1404-01-01", tur:"siyaset", b:"Glyndŵr Aberystwyth ve Harlech kalelerini alır; batı Galler onun eline geçer" },
-    { odak_yer:["Harlech"], t:"1409-01-01", tur:"son", b:"Aberystwyth ve Harlech İngilizlerce geri alınır; Glyndŵr toprağını yitirir" }
+    { odak_yer:["Harlech"], t:"1408-01-01", tur:"toprak-kayip", b:"Aberystwyth İngilizlere teslim olur" },
+    { odak_yer:["Harlech"], t:"1409-01-01", tur:"son", b:"Harlech İngilizlerce geri alınır; Glyndŵr son toprağını yitirir" }
   ]
 },
 { id:"sicilya-emirligi", ad:"Sicilya Emirliği (Kelbîler ve ardıl mahallî emirlikler)", tur:"emirlik", bolge:"italya",
@@ -16529,12 +16530,12 @@ window.DEVLETLER = [
   ] },
 { id:"ingiltere-irlanda-krallik", ad:"İrlanda Krallığı (İngiliz Tacı)", tur:"krallik", bolge:"bati-avrupa", f:"1541-01-01", t:"1801-01-01", baskent:"Dublin", ozet:"Dublin Parlamentosu 1541'de VIII. Henry'yi İrlanda kralı tanıdı (Vikipedi: Crown of Ireland Act, 18 Haziran 1542); 1 Ocak 1801 Birleşme Yasası ile Birleşik Krallık. UYARI: tsv 'irlanda' (1000-1603) ile çakışma, sınıflandır.", kaynak:"Britannica 'Ireland' / 'Acts of Union' (1541, 1 Ocak 1801)", kronoloji:[
     { odak_yer:["Dublin"], t:"1542-06-18", tur:"kurulus", b:"Crown of Ireland Act: VIII. Henry İrlanda Kralı ilan edildi.", kaynak:"https://en.wikipedia.org/wiki/Kingdom_of_Ireland" },
-    { odak_yer:["Dublin"], t:"1719-01-01", tur:"siyaset", b:"Declaratory Act: İrlanda Krallığı'nın İngiliz parlamentosuna bağımlılığı yasalaştı.", kaynak:"https://en.wikipedia.org/wiki/Kingdom_of_Ireland" },
+    { odak_yer:["Dublin"], t:"1720-01-01", tur:"siyaset", b:"Declaratory Act (Dependency of Ireland on Great Britain Act, 6 Geo. I c. 5): İrlanda Krallığı'nın İngiliz parlamentosuna bağımlılığı yasalaştı.", kaynak:"https://en.wikipedia.org/wiki/Declaratory_Act_1719 ; 28 Ekim 2026 denetim: yasa adı '1719' (Vikipedi başlığı), kabul 1720 (kraliyet onayı 7 Nisan 1720 Vikipedi; Ulster Historical Foundation 'Jurisdiction' sayfası) — gün Vikipedi dayanaklı olduğundan yıla indirildi; akademik teyit bekler" },
     { odak_yer:["Dublin"], t:"1782-01-01", tur:"siyaset", b:"Poynings Yasası kaldırıldı; İrlanda parlamentosuna yasama bağımsızlığı (1782 Anayasası).", kaynak:"https://en.wikipedia.org/wiki/Kingdom_of_Ireland" },
     { odak_yer:["Dublin"], t:"1798-01-01", tur:"isyan", b:"1798 İrlanda İsyanı.", kaynak:"https://en.wikipedia.org/wiki/Kingdom_of_Ireland" },
     { odak_yer:["Dublin"], t:"1801-01-01", tur:"son", b:"Birleşme Yasaları yürürlüğe girdi; Büyük Britanya ve İrlanda Birleşik Krallığı kuruldu.", kaynak:"https://en.wikipedia.org/wiki/Kingdom_of_Ireland" }
   ] },
-{ id:"man-ve-adalar-krallik", ad:"Man ve Adalar Krallığı", tur:"norse-krallik", bolge:"bati-avrupa", f:"1000-01-01", t:"1266-01-01", baskent:"Peel / Castletown", ozet:"İskandinav egemenliğindeki Man ve Hebridler; VI. Magnus 1266'da Perth Antlaşması'yla İskoçya'ya bıraktı. (f pencere; Godred Crovan 1079 kaynaksız)", kaynak:"Britannica 'Norway' / 'History of Norway' (1266 Perth); Britannica 'Isle of Man'", kronoloji:[
+{ id:"man-ve-adalar-krallik", ad:"Man ve Adalar Krallığı", tur:"norse-krallik", bolge:"bati-avrupa", f:"1000-01-01", t:"1266-07-02", baskent:"Peel / Castletown", ozet:"İskandinav egemenliğindeki Man ve Hebridler; VI. Magnus 1266'da Perth Antlaşması'yla İskoçya'ya bıraktı. (f pencere; Godred Crovan 1079 kaynaksız)", kaynak:"Britannica 'Norway' / 'History of Norway' (1266 Perth); Britannica 'Isle of Man'", kronoloji:[
     { odak_yer:["Peel"], t:"1079-01-01", tur:"kurulus", b:"Godred Crovan Man Adası'nı alır, Crovan hanedanı kurulur.", kaynak:"https://en.wikipedia.org/wiki/Crovan_dynasty ; https://www.hebrideanconnections.com/historical-events/109852" },
     { odak_yer:["Peel"], t:"1095-01-01", tur:"hukumdar", b:"Godred Crovan ölür.", kaynak:"Chronicle of Mann (Cronica Regum Manniae et Insularum); Britannica, 'Isle of Man'" },
     { odak_yer:["Peel"], t:"1098-01-01", tur:"toprak-kazanc", b:"Norveç kralı Magnus Berfoet Hebridleri ve Man'ı fetheder; Norveç egemenliği kurulur.", kaynak:"Chronicle of Mann; Britannica, 'Magnus III Barefoot'" },
@@ -16548,7 +16549,7 @@ window.DEVLETLER = [
   ] },
 { id:"orkney-kontlugu", ad:"Orkney Kontluğu", tur:"kontluk", bolge:"kuzey-avrupa", f:"1000-01-01", t:"1468-01-01", baskent:"Kirkwall", ozet:"Norveç kralının egemenliğini tanıyan Orkney kontları; 1468'de rehin olarak İskoçya'ya geçti (kesin ilhak 1472 Parlamento kararı). (f pencere)", kaynak:"Britannica 'Norway/History of Norway' (Orkney kontları 1468'e dek Norveç egemenliğini tanıdı); PSAS makalesi (İskoç Eski Eserler Cemiyeti)", kronoloji:[
     { odak_yer:["Kirkwall"], t:"1263-01-01", tur:"savas", b:"Largs Muharebesi'nde IV. Hakon İskoçlara yenildi.", kaynak:"Earldom of Orkney / Imsen, Orkney (ssns.org.uk) 2003" },
-    { odak_yer:["Kirkwall"], t:"1266-01-01", tur:"antlasma", b:"Perth Antlaşması: Norveç Hebridler ve Man'ı bıraktı, İskoçya Orkney ve Shetland'ın Norveç'te kalmasını kabul etti.", kaynak:"Imsen, Orkney (ssns.org.uk/wp-content/uploads/2019/08/05_Imsen_Orkney_2003_pp_65-80.pdf)" },
+    { odak_yer:["Kirkwall"], t:"1266-07-02", tur:"antlasma", b:"Perth Antlaşması: Norveç Hebridler ve Man'ı bıraktı, İskoçya Orkney ve Shetland'ın Norveç'te kalmasını kabul etti.", kaynak:"Imsen, Orkney (ssns.org.uk/wp-content/uploads/2019/08/05_Imsen_Orkney_2003_pp_65-80.pdf)" },
     { odak_yer:["Kirkwall"], t:"1379-01-01", tur:"hukumdar", b:"Henry Sinclair Orkney Kontu oldu; Sinclair hanedanı dönemi başladı.", kaynak:"Imsen, Orkney (2003)" },
     { odak_yer:["Kirkwall"], t:"1468-01-01", tur:"son", b:"I. Christian kızının drahoması için Orkney'i İskoçya'ya rehin verdi; ödeme yapılmadı, bağlantı kalıcı oldu.", kaynak:"History of Orkney / Imsen, Orkney (2003)" }
   ] },

@@ -40,7 +40,7 @@ window.KRONOLOJI_COK_INCE_AVRUPA_AMERIKA = [
   // ── iskocya · İskoçya Krallığı ──
   // Kaynak (hepsi): P. Hume Brown, History of Scotland, cilt I (To the Accession of Mary Stewart),
   // Cambridge: Cambridge University Press, 1902 (archive.org: historyofscotlan01browuoft).
-  { t:"1266-01-01", k:"siyasi",tur:"siyasi", b:"Perth Antlaşması: Norveç Batı Adaları'nı (Hebridler) ve Man Adası'nı İskoçya'ya bıraktı",
+  { t:"1266-07-02", k:"siyasi",tur:"siyasi", b:"Perth Antlaşması: Norveç Batı Adaları'nı (Hebridler) ve Man Adası'nı İskoçya'ya bıraktı",
     gun:"Temmuz 1266 (gün bilinmiyor)", yer:"Perth", kisiler:"III. Alexander · Norveç Kralı Magnus",
     d:"Largs'ta Norveç donanmasının dağılması ve Kral Haakon'un Orkney'de ölmesinden sonra III. Alexander Man kralını tâbiiyete aldı, Hebridleri kendi adına boyun eğdirtti. Üç yıl sonra Haakon'un halefi Batı Adaları'nı 4.000 mark peşin ve süresiz yıllık 100 mark karşılığında İskoç tacına bıraktı; Man Adası da antlaşmaya dahildi.",
     kaynak:"Hume Brown, History of Scotland I (1902), s. 125-126 — «Three years later (July, 1266) the Western Islands were definitively united to the Crown of Scotland … for the sum of 4,000 marks and the annual payment of 100 marks in perpetuity. The Isle of Man was included in the treaty»",

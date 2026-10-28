@@ -393,6 +393,12 @@ window.KRONOLOJI_ANADOLU = [
   d:"1474 seferiyle Osmanlı, Karamanoğulları'nın hâlâ direniş gösterdiği dağlık ve kıyı bölgelerini de tam denetim altına aldı.",
   kaynak:"karamanogullari", kapsam_genis:true },
 
+{ odak_yer:["Kayseri"], taraflar:["karaman"], t:"1474-01-01", b:"Gedik Ahmed Paşa Karamanoğulları'nı sona erdirdi; Kayseri'de Osmanlı idaresi kuruldu", tur:"toprak-kayip",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
+  yer_id:"Kayseri",
+  d:"15. yüzyılda Dulkadıroğulları, Ramazanoğulları ve Karamanoğulları arasında birkaç kez el değiştiren Kayseri, 879/1474'te Gedik Ahmed Paşa'nın Karamanoğulları'nı sona erdirmesiyle Osmanlı idaresine girdi ve Karaman beylerbeyiliğine bağlı sancak merkezi oldu.",
+  kaynak:"TDV İslâm Ansiklopedisi, «Kayseri» https://islamansiklopedisi.org.tr/kayseri (879/1474) ; «Karamanoğulları» https://islamansiklopedisi.org.tr/karamanogullari", ic_not_t:"TDV yalnız yıl verir (879/1474); 1474-01-01 yıl hassasiyeti" },
+
 { odak_yer:["Ermenek","Silifke"], taraflar:["karaman"], t:"1483-01-01", b:"Kasım Bey öldü; İç İl'de Turgutoğlu Mahmud bey seçildi", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",

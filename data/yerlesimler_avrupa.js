@@ -96,9 +96,9 @@ window.YERLESIMLER_AVRUPA = [
 // Glyndŵr ayaklanması (1404-1409): iki kale. Gün kaynağı yok, yıl hassasiyeti (YYYY-01-01).
 { ad:"Aberystwyth", tur:"kale", lat:52.4153, lon:-4.0829, g:0, k:3, d:[], s:[
   {f:"1281-01-01",t:"1404-01-01",d:"ingiltere"},
-  {f:"1404-01-01",t:"1409-01-01",d:"glyndwr-galler"},
-  {f:"1409-01-01",t:"2000-12-31",d:"ingiltere"}],
-  kaynak:"Dictionary of Welsh Biography, 'OWAIN GLYNDWR' (biography.wales/article/s-OWAI-GLY-1354.html): 'The capture of Aberystwyth and Harlech in 1404 made him master of west Wales from sea to sea' — gün yok, 1404-01-01. Geri alınış: DWB yıl vermez; ikincil kaynaklar 1408 sonu / 1409 başı der (çelişki) — 1409-01-01 BEYANLI YAKLAŞIKLIK. 1281'de var: kale 1277'den İngiliz inşası (varlık teyidi akademik kaynakla bekler). TDV dışı kaynak, akademik teyit bekler." },
+  {f:"1404-01-01",t:"1408-01-01",d:"glyndwr-galler"},
+  {f:"1408-01-01",t:"2000-12-31",d:"ingiltere"}],
+  kaynak:"Dictionary of Welsh Biography, 'OWAIN GLYNDWR' (biography.wales/article/s-OWAI-GLY-1354.html): 'The capture of Aberystwyth and Harlech in 1404 made him master of west Wales from sea to sea' — gün yok, 1404-01-01. Geri alınış: DWB yıl vermez; ikincil kaynaklar Aberystwyth için Eylül 1408 (owain-glyndwr.wales: 23 Eylül 1408; Davies, Revolt of Owain Glyn Dŵr, OUP 1995 ile teyit bekler) der — 1408-01-01 (yıl hassasiyeti, 28 Ekim 2026 denetim düzeltmesi). 1281'de var: kale 1277'den İngiliz inşası (varlık teyidi akademik kaynakla bekler). TDV dışı kaynak, akademik teyit bekler." },
 { ad:"Harlech", tur:"kale", lat:52.8606, lon:-4.1089, g:0, k:3, d:[], s:[
   {f:"1283-01-01",t:"1404-01-01",d:"ingiltere"},
   {f:"1404-01-01",t:"1409-01-01",d:"glyndwr-galler"},
