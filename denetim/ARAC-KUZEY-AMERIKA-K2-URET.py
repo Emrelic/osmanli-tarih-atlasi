@@ -1,5 +1,9 @@
-import json, io
-W = 'C:/atlas/.claude/worktrees/agent-a3202f7b60365918f/'
+import json, io, os
+# depo kökü = bu betiğin bir üst dizini (eski sabit yol başka bir worktree'ye işaret ediyordu)
+W = os.path.dirname(os.path.dirname(os.path.abspath(__file__))).replace('\\', '/') + '/'
+# KUZEY-AMERIKA-DOGRULA (28 Ekim 2026): sayfası açılıp okunan kaynaklar, `ks`yi t'ye göre ezer
+VER = {}
+exec(io.open(W + 'denetim/ARAC-KUZEY-AMERIKA-K2-DOGRULA.py', encoding='utf-8').read())
 NB = " · sayfa bu oturumda açılamadı (Britannica HTTP 403 / slug tutmadı); GÜN standart başvuru bilgisiyle yazıldı, birincil teyit BEKLİYOR"
 BR = "Encyclopaedia Britannica"
 CE = "The Canadian Encyclopedia"
@@ -143,9 +147,10 @@ out.write("""// ================================================================
 // window.KRONOLOJI_COK_KUZEY_AMERIKA_K2 — app.js cokTarafliKronolojiEkle: madde `devletler[]`deki HER künyeye
 // eklenir (ezmez). Meksika / Orta Amerika bu dosyada YOK (ayrı ajan).
 // Üretici: denetim/ARAC-KUZEY-AMERIKA-K2-URET.py (bu dosya ondan üretildi).
-// KAYNAK DURUMU: Britannica bu oturumda HTTP 403 verdi, tahmini slug'lı kurumsal sayfalar 404 verdi ⇒ günler
-//   standart başvuru bilgisiyle yazıldı; her maddenin `kaynak:` alanı bunu AÇIKÇA taşır. Birincil teyit bekliyor.
-//   Vikipedi kullanılmadı. Tarih uydurulmadı: tümünde gün, kaynakların hepsinde tutarlı bilinen gündür.
+// KAYNAK DURUMU (KUZEY-AMERIKA-DOGRULA, 28 Ekim 2026): 42 maddenin 42'sinin günü, kurumsal sayfa (National Archives,
+//   NPS, LoC, Avalon/Yale, DCB, Canadian Encyclopedia, Parks Canada, Canada.ca) AÇILIP okunarak teyit edildi; gün
+//   değişikliği gerekmedi. Okunan sayfa ve okunan cümle her maddenin `kaynak:` alanındadır
+//   (kaynak listesi: denetim/ARAC-KUZEY-AMERIKA-K2-DOGRULA.py). Vikipedi kullanılmadı.
 // Değişmez 2 evreni DIŞINDA (kronoloji_cok_*): kırılmasız-madde (2t) tavanına girmez; yeni sınır kırılması YOK.
 // =====================================================================
 
@@ -160,7 +165,7 @@ for r in R:
         m["yer_kon"] = r["kon"]
     m["etiket"] = r["et"]
     m["d"] = r["d"]
-    m["kaynak"] = r["ks"]
+    m["kaynak"] = VER.get(r["t"], r["ks"])
     rows.append(json.dumps(m, ensure_ascii=False))
 out.write(",\n".join(rows) + "\n];\n")
 out.close()
