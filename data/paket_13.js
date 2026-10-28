@@ -7303,8 +7303,8 @@ window.YERLESIMLER_ASYA = [
 //
 // STANDART ZİNCİR:
 //   1281 → 1333-07-04        kamakura        (Kamakura'nın düşüşü)
-//   1333-07-04 → 1336-11-07  kenmu           (Go-Daigo'nun restorasyonu)
-//   1336-11-07 → 1573-01-01  muromachi       (Ashikaga şogunluğu)
+//   1333-07-04 → 1336-12-10  kenmu           (Go-Daigo'nun restorasyonu)
+//   1336-12-10 → 1573-01-01  muromachi       (Ashikaga şogunluğu)
 //   1573-01-01 → 1603-03-24  azuchi-momoyama (Oda Nobunaga - Toyotomi Hideyoshi)
 //   1603-03-24 → 1868-01-03  edo-bakufu      (Tokugawa)
 //   1868-01-03 → 1923        meiji-japonya
@@ -7331,9 +7331,9 @@ window.YERLESIMLER_ASYA = [
 // sahiplik değişmedi.
 { ad:"Kyoto", tur:"sehir", lat:35.0110, lon:135.7680, g:2, k:1,kd:[{f:"1333-07-04",t:"1573-09-01",k:1,m:"Kyoto"}], d:[],
   s:[{f:"0794-11-18",t:"1185-12-22",d:"heian-japonya",kesinlik:"gun",kaynak:"Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」 · Heian-kyō şehri bu günle kuruldu (kur = 0794-11-18). · DOGU-500-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"gun",kaynak:"Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」 · BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · DOGU-500-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7343,8 +7343,8 @@ window.YERLESIMLER_ASYA = [
 // kur:"1457-01-01" — Ōta Dōkan'ın kaleyi kurduğu yıl.
 { ad:"Edo (Tokyo)", tur:"sehir", lat:35.6900, lon:139.6920, g:2, k:1,kd:[{f:"1603-03-24",t:"1923-10-29",k:1,m:"Edo (Tokyo)"}], d:[],
   kur:"1457-01-01",
-  s:[{f:"1457-01-01", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1457-01-01", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7353,17 +7353,17 @@ window.YERLESIMLER_ASYA = [
 // "azuchi-momoyama" penceresi genel zincirden 12 yıl UZUNDUR.
 { ad:"Osaka", tur:"liman", lat:34.6940, lon:135.5020, g:2, k:2,kd:[{f:"1568-01-01",t:"1615-06-04",k:1,m:"Osaka"}], d:[],
   s:[{f:"0646-01-01",t:"0710-04-13",d:"yamato",kesinlik:"gun",kaynak:"SAHİP BEYANLI: yamato (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Nihon Shoki j.25, Taika 1 (645) (zh.wikisource.org/wiki/日本書紀/卷第廿五, okundu): 「冬十二月乙未朔癸卯，天皇遷都難波長柄豐碕。」 · Naniwa Nagara Toyosaki Sarayı ilk tarihli saray tanığı; 646 öncesi Naniwa limanı (kuruluş efsanevî Nintoku dönemi) bu oturumda tarihli kaynakla bulunmadı → önce dilim yok. Özdeşleme: Naniwa = bugünkü Osaka (genel kabul; kazı koordinatı açılmadı). · DOGU-500-1281"},{f:"0710-04-13",t:"0794-11-18",d:"nara-japonya",kesinlik:"gun",kaynak:"SAHİP BEYANLI: nara-japonya (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」 · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"0794-11-18",t:"1185-12-22",d:"heian-japonya",kesinlik:"gun",kaynak:"Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」 · ABİ MERKEZ: Kyoto — başkent taşınması sonrası aynı saray devleti · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"gun",kaynak:"Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」 · BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · DOGU-500-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1615-06-04", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1615-06-04", d:"azuchi-momoyama"},
      {f:"1615-06-04", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Nara", tur:"sehir", lat:34.6850, lon:135.8050, g:1, k:3, d:[],
   s:[{f:"0710-04-13",t:"0794-11-18",d:"nara-japonya",kesinlik:"gun",kaynak:"SAHİP BEYANLI: nara-japonya (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」 · Heijō-kyō şehri bu günle kuruldu (kur = 0710-04-13 «kuruluş = saray taşınması»; öncesinde Nara havzasında Asuka bölgesi başka yerleşimdir). · DOGU-500-1281"},{f:"0794-11-18",t:"1185-12-22",d:"heian-japonya",kesinlik:"gun",kaynak:"Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」 · ABİ MERKEZ: Kyoto — saray 794'te Heian-kyō'ya taşındı, Nara eski başkent olarak aynı saray devleti içinde kaldı (kaynak yalnız taşınmayı yazar; Nara'nın sonraki sahibi çıkarımdır) · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"gun",kaynak:"Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」 · BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · DOGU-500-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7372,9 +7372,9 @@ window.YERLESIMLER_ASYA = [
 // vergiye bağladı. Osaka'ya 15 km.
 { ad:"Sakai", tur:"liman", lat:34.5730, lon:135.4830, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7384,9 +7384,9 @@ window.YERLESIMLER_ASYA = [
 // 4 Temmuz 1333'te aldı ve Hōjō naipliği sona erdi.
 { ad:"Kamakura", tur:"sehir", lat:35.3190, lon:139.5500, g:1, k:2,kd:[{f:"1281-01-01",t:"1333-07-04",k:1,m:"Kamakura"}], d:[],
   s:[{f:"1000-01-01",t:"1185-12-22",d:"heian-japonya",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«794-1185 yılları arasında ise yeni başşehir yapılan Heian’dan (Kyoto) adını alan dönem başladı» «当時御居所非指要害地。又非御曩跡。速可令出相模国鎌倉給。» TDV japonya (JAPONYA maddesi): Heian dönemi 794-1185. Azuma Kagami 治承四年 (1180): Kamakura 「相模国」 (Sagami eyaleti, saray eyalet sistemi) içinde anılır; Minamoto no Yoritomo oraya 1180te girmeden önce şehir Heian devleti eyaleti sayıldı (ÇIKARIM, belirsiz; 1180-1185 arası fiilî Minamoto hâkimiyeti künye sınırı gereği bu dilime dahil edildi). f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"yil",kaynak:"«1192’de Minamoto Yorimoto kendini şogun ilân ettirerek Kamakura’da askerî hükümetini kurdu» «治承四年「庚子」十月小十五日甲午。武衛始入御鎌倉御亭。» TDV japonya: şogunluk hükümeti Kamakura’da 1192’de kuruldu (TDV’deki 「Yorimoto」 yazımı Yoritomo’dur); Azuma Kagami 治承四年十月十五日 (Japon ay-güneş takvimi, 1180): Yoritomo Kamakura’daki konağına ilk girdi (Jülyen çevirisi yapılmadı). f: KÜNYE ÖMRÜ SINIRI: devletler.js heian-japonya t = kamakura f = 1185-01-01 (atlas künyesi, DAYANAK DEĞİL). Kaynaklarda Kamakura’da Minamoto hâkimiyeti 1180 (Azuma Kagami), kurumsal şogunluk 1192 (TDV japonya) — künye sınırı bu iki tarihin arasındadır; gün kaynaklı değil. t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7394,9 +7394,9 @@ window.YERLESIMLER_ASYA = [
 // kuşatması Japonya'nın birleşmesini tamamladı.
 { ad:"Odawara", tur:"kale", lat:35.2640, lon:139.1520, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7404,9 +7404,9 @@ window.YERLESIMLER_ASYA = [
 // 1605-1616 arasında fiilî iktidar merkezi (ōgosho).
 { ad:"Sunpu (Şizuoka)", tur:"sehir", lat:34.9760, lon:138.3830, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7421,8 +7421,8 @@ window.YERLESIMLER_ASYA = [
 // başladığı şehir; birleşme hareketinin çıkış noktasıdır. Nagoya'ya 30 km.
 { ad:"Gifu", tur:"kale", lat:35.4230, lon:136.7600, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1567-09-01", d:"muromachi"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1567-09-01", d:"muromachi"},
      {f:"1567-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
@@ -7431,8 +7431,8 @@ window.YERLESIMLER_ASYA = [
 
 { ad:"Kanazawa", tur:"sehir", lat:36.5620, lon:136.6490, g:1, k:3, d:[],
   kur:"1546-01-01",
-  s:[{f:"1546-01-01", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1546-01-01", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7444,9 +7444,9 @@ window.YERLESIMLER_ASYA = [
 
 { ad:"Niigata", tur:"liman", lat:37.9160, lon:139.0360, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7459,17 +7459,17 @@ window.YERLESIMLER_ASYA = [
 
 { ad:"Himeji", tur:"kale", lat:34.8150, lon:134.6860, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Okayama", tur:"sehir", lat:34.6550, lon:133.9190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7485,8 +7485,8 @@ window.YERLESIMLER_ASYA = [
 // buradaydı.
 { ad:"Yamaguchi", tur:"sehir", lat:34.1860, lon:131.4710, g:0, k:3, d:[],
   kur:"1360-01-01",
-  s:[{f:"1360-01-01", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1360-01-01", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7509,9 +7509,9 @@ window.YERLESIMLER_ASYA = [
 // Japonya'sının Çin ve Kore'ye açılan kapısıdır.
 { ad:"Hakata (Fukuoka)", tur:"liman", lat:33.5900, lon:130.4020, g:1, k:3, d:[],
   s:[{f:"0536-06-05",t:"0710-04-13",d:"yamato",kesinlik:"gun",kaynak:"SAHİP BEYANLI: yamato (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Nihon Shoki j.18, Senka 1 (536) (zh.wikisource.org/wiki/日本書紀/卷第十八, okundu): 「夏五月辛丑朔。詔曰。…夫筑紫國者遐迩之所朝届。去來之所關門。…修造官家那津之口。」 …「是年也太歳丙辰。」 · Nanotsu = Hakata limanı özdeşleştirmesi yaygın kabuldür, akademik kaynak açılmadı. 528'de Iwai yenilgisiyle (Nihon Shoki j.17) Chikushi Yamato'ya bağlandı; 500-536 arası Hakata Körfezi sahibi bu oturumda tarihli tanıkla bulunmadı → önce dilim yok. · DOGU-500-1281"},{f:"0710-04-13",t:"0794-11-18",d:"nara-japonya",kesinlik:"gun",kaynak:"SAHİP BEYANLI: nara-japonya (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」 · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"0794-11-18",t:"1185-12-22",d:"heian-japonya",kesinlik:"gun",kaynak:"Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」 · ABİ MERKEZ: Kyoto — başkent taşınması sonrası aynı saray devleti · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"gun",kaynak:"Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」 · BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · DOGU-500-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7531,9 +7531,9 @@ window.YERLESIMLER_ASYA = [
 
 { ad:"Kumamoto", tur:"kale", lat:32.8030, lon:130.7080, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7541,9 +7541,9 @@ window.YERLESIMLER_ASYA = [
 // ticaretinin Kyūşū'daki ilk büyük limanı.
 { ad:"Funai (Ōita)", tur:"liman", lat:33.2380, lon:131.6130, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7551,9 +7551,9 @@ window.YERLESIMLER_ASYA = [
 // 1868 Meiji restorasyonunun iki motorundan biridir.
 { ad:"Kagoşima", tur:"liman", lat:31.5960, lon:130.5570, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7562,9 +7562,9 @@ window.YERLESIMLER_ASYA = [
 // tuttu. 1274 Moğol istilâsının ilk hedefidir.
 { ad:"Tsuşima (İzuhara)", tur:"liman", lat:34.2030, lon:129.2890, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7579,9 +7579,9 @@ window.YERLESIMLER_ASYA = [
 
 { ad:"Aizu-Wakamatsu", tur:"kale", lat:37.4950, lon:139.9300, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
+     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -7611,19 +7611,23 @@ window.YERLESIMLER_ASYA = [
 // Tokugawa beratını aldı.
 { ad:"Matsumae", tur:"kale", lat:41.4280, lon:140.1120, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Hokkaido/Ezo 1281-1550 arasinda hicbir devletin idari topragi degildi; anakara sogunluklari (Kamakura-Kenmu-Muromachi) Honsu'yla sinirliydi ve Matsumae klaninin buradaki varligi ancak 1590'larda basliyor. `ainu` diye boyamak var olmayan bir DEVLET uydurmakti (VERI DEVLET olcumu)",
-  s:[{f:"1550-01-01", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1550-01-01", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1869-01-27", d:"meiji-japonya"},
+     {f:"1869-01-27", t:"1869-06-27", d:"ezo-cumhuriyeti", kesinlik:"gun", kaynak:"Ezo Cumhuriyeti künyesi (devletler.js ezo-cumhuriyeti; kaynak: 山川 日本史小辞典 «箱館戦争», kotobank; Britannica Japan «五稜郭の戦い»): cumhuriyet 1869-01-27 ilan, 1869-06-27 Goryōkaku teslimi. KORE-JAPONYA 2. tur: dilim künye f/t'sine bağlandı."},
+     {f:"1869-06-27", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Hakodate — 1854 Kanagawa Antlaşması'yla yabancı gemilere açılan iki
 // limandan biri; Matsumae'ye 55 km.
 { ad:"Hakodate", tur:"liman", lat:41.7690, lon:140.7290, g:1, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Hokkaido/Ezo 1281-1550 arasinda hicbir devletin idari topragi degildi; anakara sogunluklari (Kamakura-Kenmu-Muromachi) Honsu'yla sinirliydi ve Matsumae klaninin buradaki varligi ancak 1590'larda basliyor. `ainu` diye boyamak var olmayan bir DEVLET uydurmakti (VERI DEVLET olcumu)",
-  s:[{f:"1550-01-01", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1550-01-01", t:"1573-09-01", d:"muromachi"},
+     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1869-01-27", d:"meiji-japonya"},
+     {f:"1869-01-27", t:"1869-06-27", d:"ezo-cumhuriyeti", kesinlik:"gun", kaynak:"Ezo Cumhuriyeti künyesi (devletler.js ezo-cumhuriyeti; kaynak: 山川 日本史小辞典 «箱館戦争», kotobank; Britannica Japan «五稜郭の戦い»): cumhuriyet 1869-01-27 ilan, 1869-06-27 Goryōkaku teslimi. KORE-JAPONYA 2. tur: dilim künye f/t'sine bağlandı."},
+     {f:"1869-06-27", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Sapporo — Kaitakushi 1869'da kurdu (kur:); Hokkaido'nun iç kesiminin
 // ilk Japon şehridir. 1869 öncesi boşluk KASITLIDIR ve komşu Ainu
@@ -7639,7 +7643,9 @@ window.YERLESIMLER_ASYA = [
 // devam etti; dosya kuralı gereği kimlik değişmedi. Japonya 4 Nisan
 // 1879'da krallığı kaldırıp Okinawa vilâyetini kurdu.
 { ad:"Şuri (Naha)", tur:"sehir", lat:26.2170, lon:127.7190, g:1, k:1,kd:[{f:"1429-01-01",t:"1879-03-27",k:1,m:"Şuri (Naha)"}], d:[],
-  s:[{f:"1281-01-01", t:"1879-03-27", d:"ryukyu"},
+  s:[{f:"1281-01-01", t:"1322-01-01", d:"ryukyu-shunten-eiso", kesinlik:"yil", kaynak:"ABİ MERKEZ: Urasoe Gusuku (Chuzan merkezi) — zincir Urasoe'den devralındı (Chūzan Seikan 1650, ja.wikisource.org/wiki/琉球國中山世鑑/卷一-二, okundu). BEYANLI YAKLAŞIKLIK: Şuri'nin 1322 öncesi sahibi kaynakta yer-özgü verilmez."},
+     {f:"1322-01-01", t:"1429-01-01", d:"sanzan", kesinlik:"yil", kaynak:"ABİ MERKEZ: Urasoe Gusuku (Chuzan merkezi) — zincir Urasoe'den devralındı (Chuzan Sanzan dönemi). BEYANLI YAKLAŞIKLIK: Şuri'nin Chuzan başkenti olması 1406 öncesi yer-özgü tanıkla gösterilmedi."},
+     {f:"1429-01-01", t:"1879-03-27", d:"ryukyu"},
      {f:"1879-03-27", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // ###########################################################################
@@ -7755,14 +7761,14 @@ window.YERLESIMLER_ASYA = [
 // idaresindeydi, yani 1281'de Goryeo değildir. Kral Gongmin 1356'da geri
 // aldı ve Yi hânedanının yükselişi buradan başladı.
 { ad:"Hamhung", tur:"sehir", lat:39.9180, lon:127.5360, g:0, k:3, d:[],
-  s:[{f:"1107-01-01",t:"1109-01-01",d:"goryeo",kesinlik:"yil",kaynak:"«咸州大都督府久爲女眞所據。睿宗二年，命元帥尹瓘等，率兵擊逐。三年，置州，爲大都督府，號鎭東軍。築大城，徙南界丁戶一千九百四十八，以實之。四年，撤城，以其地，還女眞» Goryeosa 58 (高麗史/卷五十八 地理三, 咸州大都督府): 睿宗二年 (1107) Yun Gwan Jurchenleri sürdü, 三年 (1108) Hamju kuruldu, 四年 (1109) şehir tahliye edilip Jurchenlere iade edildi (yalnız yıl; ay-gün yok). · VERI-MS1-1281"},{f:"1109-01-01",t:"1259-01-09",d:"__BOSLUK__",kesinlik:{f:"yil",t:"gun"},kaynak:"BEYANLI BOŞLUK (arandı, bulunamadı): Hamju’nun 1109 sonrası Jurchen/Jin elinde olduğuna dair şehir adlı tanıklık yok (Goryeosa 58 yalnız 「還女眞」 der; Jinshi 24 曷賴路 yalnız uzaklık verir, Hamju anılmaz); Jin sonrası (1234) için Doğu Xia tanıklığı da yok. Arandı, bulunamadı: Hamju (咸州/哈蘭) için 1109-1259 arası şehir adlı sahiplik.  f: Goryeosa 58 睿宗四年 (1109) 「撤城，以其地，還女眞」: yalnız yıl. · VERI-MS1-1281"},{f:"1259-01-09",t:"1260-01-01",d:"mogol-imparatorlugu",kesinlik:{f:"gun",t:"yil"},kaynak:"«四年，撤城，以其地，還女眞，後又沒於元，稱哈蘭府。恭愍王五年，收復舊疆，爲知咸州事» «龍津縣人趙暉，定州人卓靑，以和州迆北，附蒙古。蒙古置雙城摠管府于和州» Dilim başlangıcının TARİHİ Goryeosa 24 (高宗四十五年十二月 己丑) bölge cümlesinden gelir (「和州迆北」 = Hwaju ve kuzeyi; Hamju bu bölgenin içindedir ama cümle şehir adı anmaz — BÖLGE CÜMLESİ, yalnız tarih alt sınırı); şehir adlı tanıklık 咸州 maddesi 「後又沒於元，稱哈蘭府」 (tarihsiz). f: Gün çevirimi: Goryeosa 24 高宗四十五年十二月丙子朔 (gan-zhi mutlak: Jülyen 1258-12-27) içindeki 己丑 günü = Jülyen 1259-01-09 (JDN/gan-zhi hesabı; Goryeo takvimi ay-gün tablosu kullanılmadı, yalnız gan-zhi). Olay Goryeosa’da 己丑 kaydının devamında anlatılır (Cho Hwi ve Tak Cheong 和州迆北 Moğollara bağlandı; Ssangseong Genel Valiliği kuruldu) — bölge cümlesi. · VERI-MS1-1281"},{f:"1260-01-01",t:"1281-01-01",d:"yuan-hanedani",kesinlik:"yil",kaynak:"«四年，撤城，以其地，還女眞，後又沒於元，稱哈蘭府。恭愍王五年，收復舊疆，爲知咸州事» Goryeosa 58: Hamju Yuan’a geçmiş (哈蘭府) ve恭愍王五年 (1356) Goryeo’ya geri alınmıştır; 1281 öncesi Yuan dönemi sürekli. f: KÜNYE ÖMRÜ SINIRI: mogol-imparatorlugu t=1260-01-01 = yuan-hanedani f=1260-01-01 (atlas künyesi, DAYANAK DEĞİL): dilim ucu künye ömrü içinde kalsın diye bu güne konuldu. Kubilay’ın tahta çıkışı 中統元年 (Yuanshi 4; Jülyen 1260-05-05) ile künye sınırı hizalanabilir. t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
-     {f:"1356-01-01", t:"1392-08-05", d:"goryeo"},
+  s:[{f:"1107-01-01",t:"1109-01-01",d:"goryeo",kesinlik:"yil",kaynak:"«咸州大都督府久爲女眞所據。睿宗二年，命元帥尹瓘等，率兵擊逐。三年，置州，爲大都督府，號鎭東軍。築大城，徙南界丁戶一千九百四十八，以實之。四年，撤城，以其地，還女眞» Goryeosa 58 (高麗史/卷五十八 地理三, 咸州大都督府): 睿宗二年 (1107) Yun Gwan Jurchenleri sürdü, 三年 (1108) Hamju kuruldu, 四年 (1109) şehir tahliye edilip Jurchenlere iade edildi (yalnız yıl; ay-gün yok). · VERI-MS1-1281"},{f:"1109-01-01",t:"1259-01-09",d:"__BOSLUK__",kesinlik:{f:"yil",t:"gun"},kaynak:"BEYANLI BOŞLUK (arandı, bulunamadı): Hamju’nun 1109 sonrası Jurchen/Jin elinde olduğuna dair şehir adlı tanıklık yok (Goryeosa 58 yalnız 「還女眞」 der; Jinshi 24 曷賴路 yalnız uzaklık verir, Hamju anılmaz); Jin sonrası (1234) için Doğu Xia tanıklığı da yok. Arandı, bulunamadı: Hamju (咸州/哈蘭) için 1109-1259 arası şehir adlı sahiplik.  f: Goryeosa 58 睿宗四年 (1109) 「撤城，以其地，還女眞」: yalnız yıl. · VERI-MS1-1281"},{f:"1259-01-09",t:"1260-01-01",d:"mogol-imparatorlugu",kesinlik:{f:"gun",t:"yil"},kaynak:"«四年，撤城，以其地，還女眞，後又沒於元，稱哈蘭府。恭愍王五年，收復舊疆，爲知咸州事» «龍津縣人趙暉，定州人卓靑，以和州迆北，附蒙古。蒙古置雙城摠管府于和州» Dilim başlangıcının TARİHİ Goryeosa 24 (高宗四十五年十二月 己丑) bölge cümlesinden gelir (「和州迆北」 = Hwaju ve kuzeyi; Hamju bu bölgenin içindedir ama cümle şehir adı anmaz — BÖLGE CÜMLESİ, yalnız tarih alt sınırı); şehir adlı tanıklık 咸州 maddesi 「後又沒於元，稱哈蘭府」 (tarihsiz). f: Gün çevirimi: Goryeosa 24 高宗四十五年十二月丙子朔 (gan-zhi mutlak: Jülyen 1258-12-27) içindeki 己丑 günü = Jülyen 1259-01-09 (JDN/gan-zhi hesabı; Goryeo takvimi ay-gün tablosu kullanılmadı, yalnız gan-zhi). Olay Goryeosa’da 己丑 kaydının devamında anlatılır (Cho Hwi ve Tak Cheong 和州迆北 Moğollara bağlandı; Ssangseong Genel Valiliği kuruldu) — bölge cümlesi. · VERI-MS1-1281"},{f:"1260-01-01",t:"1281-01-01",d:"yuan-hanedani",kesinlik:"yil",kaynak:"«四年，撤城，以其地，還女眞，後又沒於元，稱哈蘭府。恭愍王五年，收復舊疆，爲知咸州事» Goryeosa 58: Hamju Yuan’a geçmiş (哈蘭府) ve恭愍王五年 (1356) Goryeo’ya geri alınmıştır; 1281 öncesi Yuan dönemi sürekli. f: KÜNYE ÖMRÜ SINIRI: mogol-imparatorlugu t=1260-01-01 = yuan-hanedani f=1260-01-01 (atlas künyesi, DAYANAK DEĞİL): dilim ucu künye ömrü içinde kalsın diye bu güne konuldu. Kubilay’ın tahta çıkışı 中統元年 (Yuanshi 4; Jülyen 1260-05-05) ile künye sınırı hizalanabilir. t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1356-08-05", d:"yuan-hanedani"},
+     {f:"1356-08-05", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 { ad:"Wonsan", tur:"liman", lat:39.1470, lon:127.4440, g:0, k:3, d:[],
-  s:[{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
-     {f:"1356-01-01", t:"1392-08-05", d:"goryeo"},
+  s:[{f:"1281-01-01", t:"1356-08-05", d:"yuan-hanedani"},
+     {f:"1356-08-05", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
