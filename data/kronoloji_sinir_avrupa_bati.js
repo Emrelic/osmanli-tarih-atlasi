@@ -737,6 +737,24 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Yugoslavya'nın işgalinde Macar ordusu 11 Nisan 1941'de Subotica'ya girdi; Bačka 1944'e dek Macar işgalinde kaldı. Şehir 10 Ekim 1944'te Kızıl Ordu ve partizanlarca alındı.",
   kaynak:"Encyclopaedia Judaica «Subotica» (encyclopedia.com) · Hrvatska enciklopedija «Subotica» · Sırbistan Savunma Bakanlığı (mod.gov.rs/eng/3280)" },
 
+{ t:"1944-10-10", devlet:"macaristan-naiplik", devletler:["macaristan-naiplik","yugoslavya"], sinir_id:"",
+  b:"Subotica Kızıl Ordu ve partizanlarca alındı — Macar işgalinin sonu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Subotica (Szabadka)",
+  etiket:["konu-siyasi","macaristan-naiplik","yugoslavya"],
+  d:"Bačka'daki Macar işgali Subotica'nın 10 Ekim 1944'te alınmasıyla sona erdi; şehir Yugoslavya yönetimine geçti.",
+  kaynak:"Sırbistan Savunma Bakanlığı (mod.gov.rs/eng/3280) · Hrvatska enciklopedija «Subotica» (enciklopedija.hr/clanak/subotica, 1941-44 Macar işgali, yıl düzeyi)" },
+
+{ t:"1944-10-18", devlet:"hirvatistan-bagimsiz", devletler:["hirvatistan-bagimsiz","yugoslavya"], sinir_id:"",
+  b:"Dubrovnik partizanlarca alındı — NDH şehirden çekildi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Dubrovnik",
+  etiket:["konu-siyasi","hirvatistan-bagimsiz","yugoslavya"],
+  d:"Dubrovnik 10 Nisan 1941'den beri Bağımsız Hırvat Devleti içinde sayılıyordu (fiilen İtalyan, 1943'ten Alman askerî varlığı); 18 Ekim 1944'te partizan birlikleri şehri aldı.",
+  kaynak:"Hrvatska enciklopedija «Dubrovnik» https://www.enciklopedija.hr/clanak/dubrovnik : 'uključen u sastav NDH' (10. IV. 1941); partizanlar 18. X. 1944" },
+
+{ t:"1945-04-22", devlet:"hirvatistan-bagimsiz", devletler:["hirvatistan-bagimsiz","yugoslavya"], sinir_id:"",
+  b:"Banaluka partizan ordusunca alındı — NDH şehri yitirdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Banaluka",
+  etiket:["konu-siyasi","hirvatistan-bagimsiz","yugoslavya"],
+  d:"II. Dünya Savaşı'nda Bağımsız Hırvat Devleti içinde olan Banaluka'ya 22 Nisan 1945'te partizan ordusu girdi.",
+  kaynak:"Hrvatska enciklopedija «Banja Luka» https://www.enciklopedija.hr/clanak/banja-luka : '22. IV. 1945. u grad je ušla partizanska vojska'" },
+
 { t:"1340-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti"], sinir_id:"",
   b:"Milano (Visconti) Bellinzona'yı Rusca'lardan aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Bellinzona",
   etiket:["konu-siyasi","visconti"],
