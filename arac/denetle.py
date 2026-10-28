@@ -223,7 +223,7 @@ BEKLENEN_YERLESIM = 4299   # 968 -> 4299, 6 Ekim 2026 (ÖLÇÜLDÜ, yazmadan hem
 # 16 EKIM 2026 (DENETIM-K27-1016, Emre karari KARARLAR-EMRE-1015 #13, commit d98dffc38): 310 -> 312 —
 #    Bise + Vadi'd-Devasir (yerlesimler_nokta_ortadogu_0917.js) BEYANLI BOS NOKTA (kasitli_bosluk:true).
 #    Olcum: 1c belgeli 306 -> 308 (TAM +2), BELGESIZ 4 -> 4 (tavan 4) ⇒ ikisi de BELGELI, yeni delik YOK.
-BEKLENEN_SAHIPSIZ = 312   # 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla) · 15 EKIM: +1 Hamade-i Hamra (m.13) · 16 EKIM: +2 Bise/Vadi'd-Devasir (#13)
+BEKLENEN_SAHIPSIZ = 311   # 29 EKIM 2026: 312 -> 311 (olculdu: tam denetle 5400 yerlesim, 311 sahipsiz; Mbandaka 1883-85, Antananarivo, Mapungubwe dilimleri kaynakla dolduruldu) · 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla) · 15 EKIM: +1 Hamade-i Hamra (m.13) · 16 EKIM: +2 Bise/Vadi'd-Devasir (#13)
 # 🔴 314 -> 324, 13 EYLUL 2026 (1.MURAT, kosu 10 SURERKEN — denetle.py motor_izi'nde DEGIL)
 #    OLCUM, TAHMIN DEGIL: ayni alet c104b61'de (sabitin 314'e cekildigi commit)
 #    ayri worktree'de kosturuldu -> TAM 314 (saglama tuttu), sonra iki ad
