@@ -949,7 +949,7 @@ window.KRONOLOJI_RUSYA = [
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 
 // === E) I. PETRO (1682-1725) =================================================
-{ t:"1689-09-06", ic_not_takvim:"Jülyen 27 Ağustos 1689 (Rus kaynakları; en.wikipedia Treaty of Nerchinsk, prlib.ru) = Gregoryen 6 Eylül 1689 (+10 gün); eski 07 Eylül günü kaynaksız, yerleşim s: sınırlarıyla (09-06) birleştirildi", b:"Nerçinsk Antlaşması — Çin ile ilk sınır anlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis",
+{ t:"1689-09-06", ic_not_takvim:"Jülyen 27 Ağustos 1689 (Rus kaynakları; en.wikipedia Treaty of Nerchinsk, prlib.ru) = Gregoryen 6 Eylül 1689 (+10 gün); ÇELİŞKİ BEYANI: Çince kaynaklar (康熙二十八年七月二十四日 = 7 Eylül 1689; 163.com, udn blog — akademik değil) 7 Eylül verir; Rus Jülyen 27 Ağustos+10 = 6 Eylül. 1 günlük fark çözülemedi; yerleşim s: sınırlarıyla (09-06) birleştirildi, Çin akademik teyidi (Qing Shilu/Zhongguo Dang'an) aranacak", b:"Nerçinsk Antlaşması — Çin ile ilk sınır anlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis",
   etiket:["antlasma","toprak","konu-askeri","konu-diplomasi"],
   yer_id:"Nerçinsk",
   d:"Rusya ile Çin Mançu (Qing) İmparatorluğu arasında imzalanan antlaşma, Amur Nehri havzasındaki sınırı belirledi; Rusya'nın Uzak Doğu'daki genişlemesinin ilk hukuki sınırlaması ve Avrupa dışı bir güçle imzalanan ilk büyük antlaşmasıydı.",
