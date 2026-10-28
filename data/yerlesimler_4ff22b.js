@@ -54,7 +54,9 @@ window.YERLESIMLER_4FF22B = [
     // ⚠️ Kunyenin `t:`si BENIM DOSYAM DEGIL — degistirmedim, sahibine
     //   bildirdim. Bu yuzden noktam ile kunye 32 gun AYRISIK duruyor ve
     //   bu AYRISMA BILINCLI, kayitli, ve tek satirlik bir kararla kapanir.
+    kur: "1625-01-01",
     s: [
+      { f: "1625-01-01", t: "1787-01-01", d: "merina-oncesi", kesinlik: { f: "yil" }, kaynak: "ABİ/ÇERÇEVE: İmerina krallıkları (merina-oncesi künyesi, TDV madagaskar: Merina XVIII. yy’da birleşti). Kuruluş: encyclopedia.com «Antananarivo» — «Founded in c. 1625» (c.; Vikipedi 1610-1625 aralığı verir, tek dayanak değil); 2. tur 29 Ekim 2026. ⚠️ Şehir 1792-94’te Andrianampoinimerina’ca alındı (encyclopedia.com: «became the residence for Imerina rulers in 1794») — merina künyesinin f=1787’si Ambohimanga’daki taç giymedir; aradaki 5-7 yıl BEYANLI YAKLAŞIKLIK" },
       { f: "1787-01-01", t: "1897-01-27", d: "merina" },
       { f: "1897-01-27", t: "1960-06-26", d: "fransa-cumhuriyet" },{f:"1960-06-26",t:"2000-12-31",d:"madagaskar",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}
     ],
