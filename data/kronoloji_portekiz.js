@@ -169,7 +169,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1500-04-22", b:"Cabral filosu Hindistan yolunda Brezilya kıyısına ulaştı (Monte Pascoal)", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"", odak_yer:"Porto Seguro",
   etiket:["toprak-kazanc","ekonomi","konu-askeri","konu-ekonomi"],
   d:"Pedro Álvares Cabral, on üç gemilik bir filoyla Hindistan'a giderken rotası Atlantik'in batısına kaydı ve 22 Nisan 1500'de bugünkü Brezilya kıyısını gördü; toprağı 'Vera Cruz Adası' sanarak Portekiz adına ilhak etti. Tordesillas hattının Brezilya'yı Portekiz payına düşürmesiyle birleşince bu rastlantı, üç asır sürecek bir Güney Amerika sömürgesinin başlangıcı oldu.",
-  kaynak:"standart akademik kronoloji, çapraz doğrulama (Britannica, 'Pedro Alvares Cabral'; Encyclopaedia of Portuguese Expansion — FCSH/Universidade Nova de Lisboa, 'The Discovery of Brazil')" },
+  kaynak:"Pero Vaz de Caminha, Carta a el-rei D. Manuel (Torre do Tombo): 'terça-feira das Oitavas da Páscoa, que foram vinte e um dias de Abril' deniz işaretleri, ertesi gün (22 Nisan) akşama doğru kara/Monte Pascoal görüldü — Jaime Raposo Costa, 'A Carta de Pero Vaz de Caminha: a importância do seu estudo', Revista Convergência Lusíada (Real Gabinete Português de Leitura). https://convergencialusiada.com.br/rcl/article/download/1030/795" },
 
 { t:"1501-01-01", gun:"ilk taş 6 Ocak 1501 ya da 1502 — kurumun kendisi yılı kesinleştirmiyor", b:"Jerónimos Manastırı'nın inşaatı başladı — Manuelino üslubunun anıtı", tur:"kultur", onem:4, dunya:2, kapsam:"ic", yer_id:"Lizbon",
   etiket:["kultur","konu-kultur","konu-imar"],
@@ -298,7 +298,8 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1549-01-01", b:"Tomé de Sousa, Salvador'ı kurdu — Brezilya Genel Valiliği", tur:"idari", onem:4, dunya:2, kapsam:"dis", yer_id:"Salvador (Bahia)",
   etiket:["idari","toprak-kazanc","konu-askeri","konu-idari"],
   d:"On beş dağınık kaptanlığın çoğunun başarısız olması üzerine III. João, bütün Brezilya'yı tek bir merkezî yönetim altında toplayan bir Genel Valilik kurdu; ilk genel vali Tomé de Sousa, bin yerleşimci ve altı Cizvit misyonerle Salvador'ı (Bahia) kurup burayı iki yüz on dört yıl sürecek koloni başkenti yaptı.",
-  kaynak:"standart akademik kronoloji, çapraz doğrulama (Governorate General of Brazil kuruluşu ve Salvador'ın 1549'da kuruluşu — çoklu akademik özet kaynak)" },
+  gun:"1549 (yıl hassasiyeti: Tomé de Sousa 1 Şubat 1549'da Lizbon'dan ayrıldı, 29 Mart 1549'da Bahia'ya vardı; Salvador'un resmî kuruluş gününü belgeleyen belge bilinmiyor, 29 Mart sonradan seçilmiş gündür — IBGE)",
+  kaynak:"IBGE, Biblioteca — Diretoria de Geociências, 'Histórico' (Salvador, Bahia): 'Tomé de Sousa, que deixou Lisboa a 1º de fevereiro de 1549'; kuruluş günü belgesiz, 29 de março varış günü olarak anılır. https://biblioteca.ibge.gov.br/visualizacao/dtb/bahia/salvador.pdf" },
 
 { t:"1549-08-15", b:"Francis Xavier, Japonya'da ilk Hıristiyan misyonunu başlattı", tur:"din", onem:3, dunya:2, kapsam:"dis", yer_id:"Kagoşima",
   etiket:["din","kultur","konu-din","konu-kultur"],
