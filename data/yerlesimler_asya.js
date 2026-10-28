@@ -2416,8 +2416,8 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-01-01", d:"guney-ming"},
-     {f:"1650-01-01", t:"1680-03-01", d:"tungning"},
-     {f:"1680-03-01", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1650-01-01", t:"1680-01-01", d:"tungning"},
+     {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani", kesinlik:"yil", kaynak:"Zheng'in Xiamen-Kinmen'den çekilişi 1680 — [yalnız yıl teyitli; gün teyitsiz]; Amoy kaydındaki 1680-03-01 günü kaynaksızdır, kopyalanmadı"},
      {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Zhangzhou", tur:"sehir", lat:24.5130, lon:117.6470, g:0, k:3, d:[],
@@ -2473,12 +2473,15 @@ window.YERLESIMLER_ASYA = [
 
 // Qiongzhou (Haikou) — Hainan adası. Ada, kutu açıldığında kendi noktası
 // olmazsa Kanton ya da Kuzey Vietnam peteğine emilirdi.
+// ADALAR-DOGU-ASYA (28 Ekim 2026): dört Hainan noktasının 1912 sonrası zinciri düzeltildi —
+// Japon işgali 1939-02-10 → 1945-09-02, ÇC'ye dönüş, Komünist fetih 1950-05-01 (eski zincir
+// adayı 1949-10-01'de ÇHC sayıyordu; ada 1950 baharına dek ÇC elindeydi). Kaynaklar kronolojide.
 { ad:"Qiongzhou (Haikou)", tur:"liman", lat:20.0440, lon:110.1990, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
+     {f:"1912-02-12", t:"1939-02-10", d:"cin-cumhuriyeti"},{f:"1939-02-10", t:"1945-09-02", d:"meiji-japonya",kaynak:"Japon Hainan çıkarması 10 Şubat 1939 (Haikou); çekiliş günü adada teyitsiz, Japonya genel teslimi 1945-09-02 esas alındı — BEYANLI"},{f:"1945-09-02", t:"1950-05-01", d:"cin-cumhuriyeti"},{f:"1950-05-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Hainan Çıkarma Harekâtı (16 Nisan-1 Mayıs 1950), adanın tamamı 1 Mayıs 1950 — ikincil teyit; akademik kaynak aranacak"}] },
 // KUTU-F2-1014 (0052/H-0108): Hainan'da yalnız Qiongzhou (Haikou) vardı ⇒ bütün ada kuzey
 // kıyıdaki tek peteğe bağlanıyor, renk kıyıya oturmuyordu. Üç tarihî idare merkezi
 // eklendi (Ming/Qing dönemi Danzhou · Yazhou · Wanzhou; koordinat GeoNames, eski şehir
@@ -2493,21 +2496,21 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1939-02-10", d:"cin-cumhuriyeti"},{f:"1939-02-10", t:"1945-09-02", d:"meiji-japonya",kaynak:"Japon Hainan çıkarması 10 Şubat 1939 (Haikou); çekiliş günü adada teyitsiz, Japonya genel teslimi 1945-09-02 esas alındı — BEYANLI"},{f:"1945-09-02", t:"1950-05-01", d:"cin-cumhuriyeti"},{f:"1950-05-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Hainan Çıkarma Harekâtı (16 Nisan-1 Mayıs 1950), adanın tamamı 1 Mayıs 1950 — ikincil teyit; akademik kaynak aranacak"}] },
 { ad:"Yazhou (Yacheng)", tur:"sehir", lat:18.3759, lon:109.1647, g:0, k:3, d:[],
   kaynak:"koordinat GeoNames 'Yacheng' (Sanya Shi) — tarihî Yazhou merkezi · zincir ankraj Qiongzhou (Haikou) — BEYANLI YAKLAŞIKLIK (KUTU-F2-1014)",
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1939-02-10", d:"cin-cumhuriyeti"},{f:"1939-02-10", t:"1945-09-02", d:"meiji-japonya",kaynak:"Japon Hainan çıkarması 10 Şubat 1939 (Haikou); çekiliş günü adada teyitsiz, Japonya genel teslimi 1945-09-02 esas alındı — BEYANLI"},{f:"1945-09-02", t:"1950-05-01", d:"cin-cumhuriyeti"},{f:"1950-05-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Hainan Çıkarma Harekâtı (16 Nisan-1 Mayıs 1950), adanın tamamı 1 Mayıs 1950 — ikincil teyit; akademik kaynak aranacak"}] },
 { ad:"Wanzhou (Wancheng)", tur:"sehir", lat:18.7989, lon:110.3816, g:0, k:3, d:[],
   kaynak:"koordinat GeoNames 'Wancheng Zhen' (Wanning Shi) — tarihî Wanzhou merkezi · zincir ankraj Qiongzhou (Haikou) — BEYANLI YAKLAŞIKLIK (KUTU-F2-1014)",
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1939-02-10", d:"cin-cumhuriyeti"},{f:"1939-02-10", t:"1945-09-02", d:"meiji-japonya",kaynak:"Japon Hainan çıkarması 10 Şubat 1939 (Haikou); çekiliş günü adada teyitsiz, Japonya genel teslimi 1945-09-02 esas alındı — BEYANLI"},{f:"1945-09-02", t:"1950-05-01", d:"cin-cumhuriyeti"},{f:"1950-05-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Hainan Çıkarma Harekâtı (16 Nisan-1 Mayıs 1950), adanın tamamı 1 Mayıs 1950 — ikincil teyit; akademik kaynak aranacak"}] },
 
 { ad:"Wuzhou", tur:"liman", lat:23.4770, lon:111.2790, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
@@ -2552,13 +2555,146 @@ window.YERLESIMLER_ASYA = [
 // arasında tuttu, Ming'in baskısıyla Tayvan'a geçti. 16 Temmuz 1683
 // Penghu deniz savaşı Zheng devletini bitirdi.
 { ad:"Penghu (Pescadores)", tur:"liman", lat:23.5710, lon:119.5790, g:0, k:3, d:[],
+  not:"ADALAR-DOGU-ASYA: Ming'in adaları boşaltması (ban/iskân çekilişi; kaynaklar 1387 ya da 15. yy ve kalıcı garnizon 1597 gibi birbirinden ayrı yıllar verir — Matsu için Hongwu 20 = 1387 ada halkı anakaraya taşındı, Cambridge makalesi) Çin'in egemenlik iddiasını bitirmedi: Ming Penghu'yu kendi toprağı saymaya devam etti; zincir Ming olarak bırakıldı, boşaltma `bos` yapılmadı. Hollanda 1622-1624 ve Tungning 1661-1683 dönemleri kronolojide.",
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
-     {f:"1368-04-01", t:"1622-07-11", d:"ming-hanedani"},
-     {f:"1622-07-11", t:"1624-08-26", d:"hollanda-dogu-hint"},
+     {f:"1368-04-01", t:"1622-01-01", d:"ming-hanedani"},
+     {f:"1622-01-01", t:"1624-08-26", d:"hollanda-dogu-hint", kesinlik:"yil", kaynak:"Hollanda Penghu'yu 1622'de ele geçirdi, Ağustos 1624'te Ming baskısıyla çekildi — [yalnız yıl teyitli; gün teyitsiz]; eski 1622-07-11 günü kaynaksızdı"},
      {f:"1624-08-26", t:"1661-04-30", d:"ming-hanedani"},
      {f:"1661-04-30", t:"1683-07-16", d:"tungning"},
      {f:"1683-07-16", t:"1895-04-17", d:"qing-hanedani"},
      {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-10-25",d:"japon-tayvani",kaynak:"Tayvan'in Cin'e devri 1945-10-25 (Office of the Historian)"},{f:"1945-10-25",t:"2000-12-31",d:"cin-cumhuriyeti",kaynak:"Britannica Taiwan"}] },
+
+// ===== 4c. ADALAR-DOGU-ASYA (28 Ekim 2026): Tayvan'ın geri kalanı, Kinmen, Matsu =====
+// Tayvan'da yalnız Tainan/Taipei/Zeelandia/Keelung noktası vardı: batı-orta kıyı
+// Penghu'nun (Ming 1368-1622) peteğine, doğu kıyısı anakara peteklerine emiliyordu ⇒ 1281-1624
+// arası ada "Ming" boyanırdı. Dört yerli-ada noktası bu emilmeyi keser. Hepsi BEYANLI:
+// Tayvan yerli topluluklarının (Siraya, Makatao, Pazeh, Amis, Puyuma…) devlet künyesi yoktur
+// (Değişmez 1: kasıtlı boşluk `bos:"devletsiz"`; `ainu` emsali gibi uydurma devlet yazılmadı).
+// KAYNAK (kitap künyeleri bu oturumda sayfa sayfa açılmadı — gün/yıl ikincil özetten):
+//   Andrade, How Taiwan Became Chinese (Columbia UP, 2008) · Shepherd, Statecraft and Political
+//   Economy on the Taiwan Frontier 1600-1800 (Stanford UP, 1993) · Teng, Taiwan's Imagined
+//   Geography (Harvard Asia Center, 2004). Hollanda harekâtı 1635-36 (Mattau, Lamey Adası).
+{ ad:"Kaohsiung (Takao / Dagou)", tur:"liman", lat:22.6200, lon:120.2800, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1281-1636 arası Makatao/Siraya yerli köy toplulukları; Yuan/Ming idaresi Penghu'da biter, Tayvan ana adası hiçbir devletin idarî toprağı değildi (Andrade 2008; Shepherd 1993 — kaynak sayfası bu oturumda açılmadı). 🟡 BEYANLI.",
+  kaynak:"HOLLANDA 1636: Mattau/Siraya köylerinin boyun eğdirilmesi (Kasım 1635) ve Lamey Adası harekâtı (Nisan-Mayıs 1636) sonrası güney köyleri VOC egemenliğine girdi — [yalnız yıl teyitli; gün teyitsiz]. Zincir 1662'den itibaren Tainan'dan devralındı. Andrade 2008 (Columbia UP).",
+  s:[{f:"1636-01-01", t:"1662-02-01", d:"hollanda-formosa", kesinlik:"yil"},
+     {f:"1662-02-01", t:"1683-10-05", d:"tungning"},
+     {f:"1683-10-05", t:"1895-04-17", d:"qing-hanedani"},
+     {f:"1895-04-17", t:"1895-05-23", d:"meiji-japonya"},
+     {f:"1895-05-23", t:"1895-10-21", d:"formosa-cumhuriyeti", kaynak:"zincir Tainan'dan devralındı (Takekoshi 1907)"},
+     {f:"1895-10-21", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
+
+// Taichung (Dadun) — Pazeh/Papora yerli ovası. Qing Changhua ilçesini 1723'te kurdu.
+{ ad:"Taichung (Dadun)", tur:"sehir", lat:24.1500, lon:120.6800, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1723 öncesi Pazeh/Papora/Babuza yerli toplulukları; Hollanda ve Tungning etkisi kıyı ve güney ovasında kaldı, iç ova idarî toprak değildi (Shepherd 1993). 🟡 BEYANLI.",
+  kaynak:"QING 1723: Changhua ilçesi ve Danshui Dairesi'nin kurulması (Shepherd 1993) — [yalnız yıl teyitli; gün teyitsiz]; sonrası zincir Tainan'dan devralındı.",
+  s:[{f:"1723-01-01", t:"1895-04-17", d:"qing-hanedani", kesinlik:"yil"},
+     {f:"1895-04-17", t:"1895-05-23", d:"meiji-japonya"},
+     {f:"1895-05-23", t:"1895-10-21", d:"formosa-cumhuriyeti"},
+     {f:"1895-10-21", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
+
+// Yilan (Kavalan / Gamalan) — Kavalan yerli ovası; Qing Gamalan Dairesi'ni (噶瑪蘭廳) 1812'de kurdu.
+{ ad:"Yilan (Kavalan / Gamalan)", tur:"sehir", lat:24.7500, lon:121.7500, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1812 öncesi Kavalan yerli toplulukları; Spanyol/Hollanda temasları (1630'lar) kalıcı idare kurmadı, Qing 1812'ye dek adayı bu kıyıda idare etmedi (Shepherd 1993; Teng 2004). 🟡 BEYANLI.",
+  kaynak:"QING 1812: Gamalan Dairesi'nin kurulması (Jiaqing 17) — [yalnız yıl teyitli; gün teyitsiz]; kitap sayfası açılmadı. Sonrası zincir Tainan'dan devralındı.",
+  s:[{f:"1812-01-01", t:"1895-04-17", d:"qing-hanedani", kesinlik:"yil"},
+     {f:"1895-04-17", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
+
+// Hualien (Hualien Limanı) — Amis/Sakizaya/Taroko toprağı. Qing doğuyu 1875 Shen Baozhen
+// programıyla (Pi-lam/Beinan Dairesi) açtı; Taitung Doğrudan Bağlı Eyaleti 1887. 🔴 İki yıl
+// birbirinden farklı basamaktır — AÇIK KARAR (rapor madde 1).
+{ ad:"Hualien", tur:"liman", lat:23.9800, lon:121.6000, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1875 öncesi Qing doğu kıyısını 'huawai' (idare dışı) tuttu; Amis/Sakizaya/Kavalan/Taroko toprağı (Shepherd 1993; Teng 2004). 🟡 BEYANLI.",
+  kaynak:"QING 1875: Shen Baozhen'in 'dağı aç, yerliyi iskân et' programı, Pi-lam Dairesi (卑南廳) — [yalnız yıl teyitli; gün teyitsiz]; 1887 Taitung Doğrudan Bağlı Eyaleti ayrı basamak. Japon fiilî denetimi 1895 sonrası yavaş kuruldu; kâğıt üstü devir 1895-04-17 alındı — BEYANLI.",
+  s:[{f:"1875-01-01", t:"1895-04-17", d:"qing-hanedani", kesinlik:"yil"},
+     {f:"1895-04-17", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
+
+{ ad:"Taitung (Beinan / Pi-lam)", tur:"sehir", lat:22.7600, lon:121.1400, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1875 öncesi Puyuma (Beinan krallığı)/Amis toprağı; Qing idare dışı (Shepherd 1993; Teng 2004). 🟡 BEYANLI.",
+  kaynak:"QING 1875: Pi-lam Dairesi (卑南廳) — [yalnız yıl teyitli; gün teyitsiz]; 1887 Taitung Doğrudan Bağlı Eyaleti ayrı basamak (AÇIK KARAR). Kâğıt üstü devir 1895-04-17 — BEYANLI.",
+  s:[{f:"1875-01-01", t:"1895-04-17", d:"qing-hanedani", kesinlik:"yil"},
+     {f:"1895-04-17", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
+
+// Kinmen (Jincheng) ve Matsu (Nangan) — Çin Cumhuriyeti hiçbir zaman kaybetmedi (1949-10-25
+// Guningtou'da PLA çıkarması geri püskürtüldü). Anakara peteğine (Amoy/Fuzhou → ÇHC) emilirse
+// 1949 sonrası ada Komünist boyanırdı. Zincir Amoy'dan devralındı; ABİ MERKEZ: Amoy (Xiamen)
+// — Kinmen Zheng üssüydü, 1680'de Amoy ile birlikte Qing'e geçti. Matsu zinciri Fuzhou/Amoy
+// kıyı idaresinden devralındı — BEYANLI YAKLAŞIKLIK. Japon işgali (Kinmen 1937?) kaynak
+// bulunamadığı için YAZILMADI (rapor: AÇIK).
+{ ad:"Kinmen (Jincheng / Quemoy)", tur:"liman", lat:24.4300, lon:118.3200, g:0, k:3, d:[],
+  kaynak:"ABİ MERKEZ: Amoy (Xiamen) — Kinmen/Amoy Zheng üssü, zincir Amoy kaydından devralındı (BEYANLI YAKLAŞIKLIK). 1949 sonrası ÇC: Guningtou savaşı 25 Ekim 1949 (Taipei Times, 'Oct. 22 to Oct. 28', 2018; ikincil — akademik kaynak aranacak).",
+  s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
+     {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
+     {f:"1644-04-25", t:"1650-01-01", d:"guney-ming"},
+     {f:"1650-01-01", t:"1680-01-01", d:"tungning"},
+     {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani", kesinlik:"yil", kaynak:"Zheng'in Xiamen-Kinmen'den çekilişi 1680 — [yalnız yıl teyitli; gün teyitsiz]; Amoy kaydındaki 1680-03-01 günü kaynaksızdır, kopyalanmadı"},
+     {f:"1912-02-12", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
+
+{ ad:"Matsu (Nangan)", tur:"liman", lat:26.1600, lon:119.9500, g:0, k:3, d:[],
+  kaynak:"ABİ MERKEZ: Fuzhou kıyı idaresi; zincir Amoy/Kinmen kaydından devralındı — BEYANLI YAKLAŞIKLIK (Matsu'ya özgü Zheng/Qing devir günü kaynakta bulunamadı). ÇC denetimi 1949'dan beri kesintisiz.",
+  s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
+     {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
+     {f:"1644-04-25", t:"1650-01-01", d:"guney-ming"},
+     {f:"1650-01-01", t:"1680-01-01", d:"tungning"},
+     {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani", kesinlik:"yil", kaynak:"Zheng'in Xiamen-Kinmen'den çekilişi 1680 — [yalnız yıl teyitli; gün teyitsiz]; Amoy kaydındaki 1680-03-01 günü kaynaksızdır, kopyalanmadı"},
+     {f:"1912-02-12", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
+
+// ===== 4d. KURİL, KOMANDOR, OGASAWARA, IWO JIMA (ADALAR-DOGU-ASYA) =====
+// Bu adalar hiçbir noktası olmadığı için en yakın anakara/Sahalin/Hokkaido peteğine emiliyordu.
+// KAYNAK: Stephan, The Kuril Islands: Russo-Japanese Frontier in the Pacific (Oxford: Clarendon,
+// 1974) · Walker, The Conquest of Ainu Lands (UC Press, 2001) · Chapman, The Bonin Islanders
+// 1830 to the Present (Lexington, 2016) · Frost (ed.), Bering and Chirikov (Alaska Hist. Soc.,
+// 1992). Kitap sayfaları bu oturumda açılmadı; yıl/gün ikincil özetten ve işaretlidir.
+{ ad:"Kunashiri (Furukamappu / Yuzhno-Kurilsk)", tur:"liman", lat:44.0300, lon:145.8600, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1799 öncesi Ainu toprağı; Matsumae ticaret tekeli devlet idaresi değildir (Walker 2001). 🟡 BEYANLI.",
+  kaynak:"EDO 1799: Bakufu Doğu Ezo'yu (Etorofu/Kunashiri dahil) doğrudan denetime aldı (Walker 2001; Stephan 1974) — [yalnız yıl teyitli; gün teyitsiz]. 1855-02-07 Shimoda sınırı Etorofu'yu Japonya'da bıraktı; 1875-05-07 Petersburg Antlaşması tüm Kurilleri Japonya'ya verdi. 1945: Kunashiri'ye Sovyet çıkarması 1 Eylül 1945 (ikincil) — zincir Sahalin ile aynı gün 1945-09-02, BEYANLI.",
+  s:[{f:"1799-01-01", t:"1868-01-03", d:"edo-bakufu", kesinlik:"yil"},
+     {f:"1868-01-03", t:"1945-09-02", d:"meiji-japonya"},
+     {f:"1945-09-02", t:"1991-12-26", d:"sovyet-rusya", kaynak:"SSCB ilhak fermanı 1946-02-02 (Japonya Dışişleri, 'Japanese Territory'; TASS)"},
+     {f:"1991-12-26", t:"2000-12-31", d:"rusya-federasyonu"}] },
+
+{ ad:"Etorofu (Shana / Kurilsk)", tur:"liman", lat:45.2300, lon:147.8800, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1799 öncesi Ainu toprağı (Walker 2001). 🟡 BEYANLI.",
+  kaynak:"Kunashiri ile aynı zincir ve gerekçe; Etorofu'da Rus iddiası 1855 Shimoda'da sınır olarak Etorofu/Urup arasına çekilerek bitti (Stephan 1974) — kaynak sayfası açılmadı.",
+  s:[{f:"1799-01-01", t:"1868-01-03", d:"edo-bakufu", kesinlik:"yil"},
+     {f:"1868-01-03", t:"1945-09-02", d:"meiji-japonya"},
+     {f:"1945-09-02", t:"1991-12-26", d:"sovyet-rusya"},
+     {f:"1991-12-26", t:"2000-12-31", d:"rusya-federasyonu"}] },
+
+{ ad:"Paramushir (Severo-Kurilsk)", tur:"liman", lat:50.6800, lon:156.1200, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1711 öncesi Kuril Ainu toprağı; Rus Kazak keşfi (Antsiferov-Kozyrevsky) 1711 (Stephan 1974). 🟡 BEYANLI.",
+  kaynak:"RUS 1711: Antsiferov-Kozyrevsky seferiyle Şumşu ve Paramuşir'in Kazak haraç denetimine alınması (Stephan 1974) — [yalnız yıl teyitli; gün teyitsiz]. 1875-05-07 Petersburg: Kuril zincirinin tamamı Japonya'ya. 1945 Şumşu çıkarması 18 Ağustos 1945 (ikincil); atlas konvansiyonu 1945-09-02 — BEYANLI.",
+  s:[{f:"1711-01-01", t:"1875-05-07", d:"rusya", kesinlik:"yil"},
+     {f:"1875-05-07", t:"1945-09-02", d:"meiji-japonya"},
+     {f:"1945-09-02", t:"1991-12-26", d:"sovyet-rusya"},
+     {f:"1991-12-26", t:"2000-12-31", d:"rusya-federasyonu"}] },
+
+{ ad:"Nikolskoye (Bering Adası, Komandor)", tur:"liman", lat:55.1900, lon:165.9900, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1741 öncesi ıssız ada (yerleşik halk yok); Bering seferi Kasım 1741'de keşfetti (Frost 1992). 🟡 BEYANLI.",
+  kaynak:"RUS 1741: Bering'in Aziz Petrus'u Bering Adası'nda karaya oturdu (Kasım 1741; Bering 19 Aralık 1741'de öldü) — [yalnız yıl teyitli; gün teyitsiz]; Aleut iskânı ve Nikolskoye 1826 (Rus-Amerikan Şirketi). Zincir Sahalin'deki Rus-Sovyet kırılmalarıyla aynı.",
+  s:[{f:"1741-01-01", t:"1917-03-15", d:"rusya", kesinlik:"yil"},
+     {f:"1917-03-15", t:"1917-11-07", d:"rusya-gecici-hukumet"},
+     {f:"1917-11-07", t:"1991-12-26", d:"sovyet-rusya"},
+     {f:"1991-12-26", t:"2000-12-31", d:"rusya-federasyonu"}] },
+
+{ ad:"Chichijima (Ogasawara)", tur:"liman", lat:27.0900, lon:142.1900, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1876 öncesi ıssız/karışık yerleşim (1830'dan Batılı-Hawaii topluluğu); Britanya ve ABD iddiaları, Tokugawa 1861-62 girişimi kalıcı idare kurmadı (Chapman 2016). 🟡 BEYANLI.",
+  kaynak:"MEIJI 1876: adaların Tokyo Valiliği'ne bağlanması, Batılı güçlerin muvafakatiyle (nippon.com kronolojisi; Chapman 2016) — [yalnız yıl teyitli; gün teyitsiz]. 1945-09-02 Japonya teslimi, ABD askerî idaresi; 26 Haziran 1968 Ogasawara'nın Japonya'ya iadesi (nippon.com; gün tek kaynak). ABD dönemi `abd` kimliği ile — BEYANLI (özel idare künyesi yok).",
+  s:[{f:"1876-01-01", t:"1945-09-02", d:"meiji-japonya", kesinlik:"yil"},
+     {f:"1945-09-02", t:"1968-06-26", d:"abd"},
+     {f:"1968-06-26", t:"2000-12-31", d:"japonya-devleti"}] },
+
+{ ad:"Iwo Jima (Volkan Adaları)", tur:"liman", lat:24.7800, lon:141.3200, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1891 öncesi ıssız ada; Japonya Volkan (Kazan) Adaları'nı 1891'de ilhak etti, iskân 1889'dan (nippon.com Ogasawara dosyası özeti — akademik kaynak aranacak). 🟡 BEYANLI.",
+  kaynak:"MEIJI 1891: Volkan Adaları ilhakı — [yalnız yıl teyitli; gün teyitsiz]. Savaş 19 Şubat-26 Mart 1945; 1945-09-02 sonrası ABD idaresi, 26 Haziran 1968 iade (nippon.com).",
+  s:[{f:"1891-01-01", t:"1945-09-02", d:"meiji-japonya", kesinlik:"yil"},
+     {f:"1945-09-02", t:"1968-06-26", d:"abd"},
+     {f:"1968-06-26", t:"2000-12-31", d:"japonya-devleti"}] },
 
 // ###########################################################################
 // BÖLÜM 5 — MANÇURYA, MOĞOLİSTAN, DOĞU TÜRKİSTAN ve TİBET
