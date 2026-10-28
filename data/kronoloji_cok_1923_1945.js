@@ -3952,7 +3952,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   kaynak:"Encyclopedia.com — 'Graf Spee' (Encyclopedia of Latin American History and Culture) https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/graf-spee (özet) · LoC Country Studies 'Uruguay — Baldomir and the End of Dictatorship' http://countrystudies.us/uruguay/15.htm (özet)",
   ic_not_d:"Muharebe günü (13 Aralık) arama özetinde ve Country Studies'te 'that December' olarak; madde batırılma gününe bağlandı." },
 
-{ t:"1940-01-01",
+{ t:"1940-09-07",
   b:"Craiova Antlaşması: Güney Dobruca Bulgaristan'a geçti",
   tur:"toprak-kazanc",
   onem:4,
@@ -3960,7 +3960,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   kapsam:"dis",
   etiket:["toprak-kazanc", "antlasma", "konu-diplomasi"],
   taraflar:["bulgaristan-kralligi", "romanya-kralligi", "almanya"],
-  gun:"Eylül 1940 (gün bilinmiyor — USHMM 'In September'; Columbia yalnız 1940)",
+  gun:"7 Eylül 1940 (imza; KRONOLOJI_SINIR_HALEF_1923_2000 aynı günü taşır; BNR '85 years since return of Southern Dobruja')",
   yer:"Craiova",
   yer_kon:[44.32, 23.8],
   d:"Almanya'nın baskısıyla Romanya, Craiova Antlaşması ile Güney Dobruca'yı Bulgaristan'a bıraktı. Bölge savaş sonrasında da Bulgaristan'da kaldı; Bulgaristan'ın 1941-44 kazanımlarından elde kalan tek parça budur.",

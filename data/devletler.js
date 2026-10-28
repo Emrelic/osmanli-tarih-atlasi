@@ -1631,7 +1631,7 @@ window.DEVLETLER = [
     { odak_yer:["Berlin"], t:"1878-07-13", tur:"kurulus", b:"Berlin Kongresi ile Bulgaristan'dan ayrı, Osmanlı'ya bağlı özerk vilayet olarak kuruldu" },
     { odak_yer:["Filibe"], t:"1879-03-03", tur:"hukumdar", b:"Alexander Bogoridi (Aleko Paşa) Şarkî Rumeli genel valisi atandı ve kısa süre sonra Filibe'ye geldi.", kaynak:"Radio Bulgaria (BNR), Unification of Bulgaria, https://old-news.bnr.bg/en/post/101014831/unification-of-bulgaria-a-real-historical-legend" },
     { odak_yer:["Filibe"], t:"1884-01-01", tur:"hukumdar", b:"Bogoridi'nin görev süresi dolunca Mayıs 1884'te Gavril Krastevich genel vali oldu (gün bilinmiyor).", kaynak:"Radio Bulgaria (BNR), https://bnrnews.bg/en/post/92092/gavril-krastevich-ensured-the-peaceful-unification-of-bulgaria" },
-    { odak_yer:["Filibe"], t:"1885-09-06", tur:"birlesme", b:"Filibe'de Doğu Rumeli'nin Bulgaristan Prensliği'yle birleştiği ilan edildi; Krastevich Osmanlı'dan asker istenmesine engel oldu.", kaynak:"Radio Bulgaria (BNR), https://bnrnews.bg/en/post/92092/gavril-krastevich-ensured-the-peaceful-unification-of-bulgaria" },
+    { odak_yer:["Filibe"], t:"1885-09-18", tur:"birlesme", ic_not_t:"eski gün 1885-09-06 = Jülyen (6 Eylül O.S.) → Gregoryen 18 Eylül; künye t ve 'son' maddesi 1885-09-18 ile aynı (kron-balkan, 28 Eki 2026)", b:"Filibe'de Doğu Rumeli'nin Bulgaristan Prensliği'yle birleştiği ilan edildi; Krastevich Osmanlı'dan asker istenmesine engel oldu.", kaynak:"Radio Bulgaria (BNR), https://bnrnews.bg/en/post/92092/gavril-krastevich-ensured-the-peaceful-unification-of-bulgaria" },
     { odak_yer:["Filibe"], t:"1885-09-18", tur:"son", b:"Filibe darbesiyle Bulgaristan Prensliği'ne katıldığını ilan etti (Osmanlı fiilen müdahale etmedi)" }
   ]
 },
@@ -10249,7 +10249,7 @@ window.DEVLETLER = [
     { odak_yer:["Kiev"], t:"1918-12-14", tur:"son", b:"Hetmanlık çöktü; Skoropadski çekildi, Direktuvar yönetimi devraldı.", kaynak:"Encyclopedia of Ukraine, 'Hetman government'; 'Directory of the Ukrainian National Republic'" }
   ] },
 { id:"epir-despotlugu", ad:"Epir (Yanya) Despotluğu — Tocco dönemi dâhil", tur:"prenslik", bolge:"balkanlar",
-  f:"1204-04-13", t:"1430-10-01", boya_gerekli:true,
+  f:"1204-04-13", t:"1430-10-09", boya_gerekli:true,
   ozet:"IV. Haçlı Seferi sonrası Epir'de kurulan Bizans ardılı despotluk; Sırp, Arnavut ve Tocco yönetimlerinden geçerek 1430'da Yanya'nın Osmanlı'ya teslimiyle sona erdi. Harita rengi verilmedi (Yanya haritada bizans boyasıyla — ayrı iş).",
   kaynak:"TDV `yanya`: '1204'teki IV. Haçlı Seferi'nden sonra Despot I. Mikael Angelos (Komnenos) 1430'a kadar yaşayan bağımsız Yunan Epiros Despotluğu'nu kurdu' · t: TDV `yanya`: 'Sphrantzes'e göre Yanya 1430'un Ekim ayında … Sinan Paşa'ya teslim oldu' · Britannica 'Greece — Despotate of Epirus': 'established effective control after 1204'. Öneren: KRONO-BALKAN-D-0929 + KUNYE-DUNYA-0929.",
   not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 TANIKLIK SINIRI: bu uç kuruluş/yıkılış günü DEĞİL, kaynağın devleti VAR gösterdiği en uç gündür (uydurma yok; gerçek ömür daha uzun). f: '1204'ten SONRA' — yıl kaynakta yok; f = IV. Haçlı'nın İstanbul'u alış günü (bizans künyesi 1204-04-13), kuruluşun ALT sınırı. t: AY hassasiyeti (Ekim 1430); çekirdekteki 1430-10-09 günü TDV'de yok. Britannica ana maddesi 1204-1337 der (1337 Bizans'a dönüş); bu künye Tocco dönemini de kapsar.",
@@ -10262,7 +10262,7 @@ window.DEVLETLER = [
     { odak_yer:["Yanya"], t:"1386-01-01", tur:"vassal", b:"Esau Buondelmonti Osmanlılarla temas kurdu, I. Murad'ı ziyaret edip yardım aldı", kaynak:"TDV `yanya`" },
     { odak_yer:["Yanya"], t:"1411-01-01", tur:"hukumdar", b:"Şubat 1411'de Esau öldü; Yanyalılar Carlo Tocco'yu davet etti, Yanya Tocco yönetimine geçti (gün yok)", kaynak:"TDV `yanya`" },
     { odak_yer:["Yanya"], t:"1429-01-01", tur:"hukumdar", b:"Temmuz 1429'da I. Carlo öldü, yeğeni II. Carlo geçti (gün yok)", kaynak:"TDV `yanya`" },
-    { odak_yer:["Yanya"], t:"1430-01-01", tur:"son", b:"Ekim 1430'da Yanya Sinan Paşa'ya teslim oldu; despotluk sona erdi (Sphrantzes'e göre; gün yok)", kaynak:"TDV `yanya`" }
+    { odak_yer:["Yanya"], t:"1430-10-09", tur:"son", b:"Ekim 1430'da Yanya Sinan Paşa'ya teslim oldu; despotluk sona erdi (Sphrantzes'e göre)", kaynak:"TDV `yanya` (Ekim 1430); gün: Delilbaşı, Belleten (TTK) s.105 «9 October 1430» · Ploumidis, Ecumenes/Univ. of Patras" }
   ] },
 { id:"vidin-carligi", ad:"Vidin Çarlığı (İvan Sracimir)", tur:"prenslik", bolge:"balkanlar",
   f:"1360-01-01", t:"1396-10-01",
@@ -13483,7 +13483,7 @@ window.DEVLETLER = [
     { odak_yer:["Preslav"], t:"0681-01-01", tur:"kurulus", b:"Bizans, Asparuh'un Slav-Bulgar devletini tanıyıp vergi ödemeyi kabul etti" },
     { odak_yer:["Sofya"], t:"0809-01-01", tur:"toprak-kazanc", b:"Han Krum Serdika'yı (Sofya) ele geçirdi.", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Fine 1983; Theophanes Confessor)" },
     { odak_yer:["Preslav"], t:"0811-07-26", tur:"savas", b:"Krum Varbitsa Geçidi'nde Bizans imparatoru I. Nikephoros'un ordusunu bozguna uğrattı; imparator öldü.", kaynak:"https://en.wikipedia.org/wiki/Battle_of_Varbitsa_Pass (Theophanes Confessor, Chronographia; Hupchick 2017; Sophoulis 2012)" },
-    { odak_yer:["Preslav"], t:"0814-04-14", tur:"hukumdar", b:"Han Krum öldü; Omurtag Bulgar tahtına geçti.", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Fine 1983)" },
+    { odak_yer:["Preslav"], t:"0814-04-13", tur:"hukumdar", b:"Han Krum öldü; Omurtag Bulgar tahtına geçti.", kaynak:"Encyclopaedia Britannica «Krum» (died April 13, 814); Fine 1983", ic_not_t:"eski gün 0814-04-14 (Vikipedi); Britannica 13 Nisan 814; KRONOLOJI_COK_MS1_1000_IBER_BALKAN aynı günü taşıyor (kron-balkan, 28 Eki 2026)" },
     { odak_yer:["Preslav"], t:"0864-01-01", tur:"siyaset", b:"Boris I Hristiyanlığı kabul etti (Bizans imparatoru III. Mikhail vaftiz babası, Mikhail adını aldı).", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Whittow 1996, Making of Byzantium) ; https://en.wikipedia.org/wiki/Boris_I_of_Bulgaria" },
     { odak_yer:["Preslav"], t:"0893-01-01", tur:"baskent", b:"Preslav Konseyi'nde Slavca ayinlerde Yunancanın yerini aldı ve başkent Pliska'dan Preslav'a taşındı.", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Fine 1983; Whittow 1996)" },
     { odak_yer:["Preslav"], t:"0913-01-01", tur:"hukumdar", b:"Simeon I çar (imparator) unvanını aldı.", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Fine 1983; Whittow 1996)" },
@@ -17116,7 +17116,7 @@ window.DEVLETLER = [
     { odak_yer:["Eğriboz"], t:"1304-01-01", tur:"siyaset", b:"Venedikliler Eğriboz şehrini surlarla tahkim eder.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz' (https://islamansiklopedisi.org.tr/egriboz)" },
     { odak_yer:["Eğriboz"], t:"1333-01-01", tur:"savas", b:"Aydınoğlu Umur Bey'in Eğriboz'a ilk akınları başlar.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz'" },
     { odak_yer:["Venedik"], t:"1463-01-01", tur:"savas", b:"Osmanlı-Venedik savaşı (1463-1479) başlar.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz'" },
-    { odak_yer:["Eğriboz"], t:"1470-01-01", tur:"son", b:"II. Mehmed'in şahsen yönettiği kuşatma ve sokak çarpışmalarının ardından Eğriboz Osmanlı'ya geçer.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz'" }
+    { odak_yer:["Eğriboz"], t:"1470-07-12", tur:"son", b:"II. Mehmed'in şahsen yönettiği kuşatma ve sokak çarpışmalarının ardından Eğriboz Osmanlı'ya geçer.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz' (yalnız 1470) · gün: Medieval Routes (Yunan Kültür Bakanlığı, Chalkida) ve MacKay (Univ. of Washington) «final assault on July 12»", ic_not_t:"eski gün 1470-01-01 (yıl-başı); künye t 1470-07-12 ile hizalandı (kron-balkan, 28 Eki 2026)" }
   ] },
 { id:"gattilusio", ad:"Gattilusio Lordluğu (Midilli, Limni, Taşoz, Enez)", tur:"ceneviz-lordlugu", bolge:"balkanlar", f:"1355-01-01", t:"1462-09-17", baskent:"Midilli", ozet:"Britannica: Midilli'de Gateluzzi hâkimiyeti 1355-1462; 1453 sonrası haraçla bırakıldılar (TDV Limni). Midilli 1462'de Osmanlı'ya geçti. t günü [g?].", kaynak:"Britannica 'Mytilene', 'Gateluzzi family'; TDV 'Limni', 'Taşoz'", kronoloji:[
     { odak_yer:["Midilli"], t:"1355-01-01", tur:"kurulus", b:"Bizans İmparatoru V. Ioannes Palaiologos, eniştesi Cenevizli Francesco Gattilusio'ya Midilli'yi verdi; hanedan böylece başladı (TDV hibeyi 1354 olarak tarihler, Britannica 1355-1462 hâkimiyet verir).", kaynak:"TDV İslâm Ansiklopedisi, 'Midilli', https://islamansiklopedisi.org.tr/midilli (1354 verir; pencere dışı, atlas f=1355 esas alındı)" },

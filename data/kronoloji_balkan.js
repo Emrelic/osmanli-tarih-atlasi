@@ -357,7 +357,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Bolyar Petar ve Asen kardeşler Tırnova çevresinde ayaklanarak Bizans idaresine son verdi ve Kuzey Bulgaristan'ı ele geçirdi. 1186'da Bizans imparatoru barışa zorlandı, 1187'de de yeni Bulgar devletini resmen tanıdı.", ic_not_d:"Bu tarih devletler.js'teki `bulgar-carligi` künyesinin f: tarihidir.",
   kaynak:"TDV `bulgaristan`: 'Bolyar Petar ve Bolyar Asen kardeşlerin önderlik ettikleri bir başka ayaklanma başladı... 1187'de Bizans, ikinci Bulgar Devleti'ni tanıdı.'" },
 
-{ taraflar:["bulgar-carligi"], t:"1205-04-14", b:"Edirne Savaşı — Çar Kaloyan Latin İmparator Baldwin'i esir aldı", tur:"savas",
+{ taraflar:["bulgar-carligi"], t:"1205-04-15", ic_not_t:"eski gün 1205-04-14; TDV «Edirne»: «15 Nisan 1205’te Latin ordusu Bizans-Bulgar müşterek kuvvetleri tarafından burada mağlûp edildi»; çelişkide TDV esas (kron-balkan, 28 Eki 2026)", b:"Edirne Savaşı — Çar Kaloyan Latin İmparator Baldwin'i esir aldı", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"Edirne",
   d:"Kaloyan (1197-1207) Kıpçak müttefikleriyle birlikte İstanbul'u 1204'te ele geçiren IV. Haçlı Seferi'nin Latin İmparatorluğu ordusunu Edirne yakınlarında ağır bir bozguna uğrattı; İmparator I. Baldwin esir düştü ve Tırnova'da hapiste öldü. Zafer, henüz yeni kurulmuş Latin İmparatorluğu'nun Balkanlar'daki genişlemesini durdurdu ve Bulgar Çarlığı'nı bölgenin en güçlü devleti hâline getirdi.",
@@ -533,7 +533,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Ayastefanos'un Avrupa güçlerince revize edilmesiyle imzalanan Berlin Antlaşması, Bulgaristan'ı üçe böldü: Osmanlı'ya tâbi ama iç işlerinde serbest, Sofya-Tırnova-Varna-Şumnu-Rusçuk-Silistre'yi içeren küçültülmüş bir Prenslik; ayrı idareli Doğu Rumeli vilâyeti; ve doğrudan Osmanlı'da kalan Makedonya. dunya puanı dört ayrı kronoloji dosyasıyla (rusya, almanya, habsburg, ingiltere) eşleştirildi — dördü de 4'te birleşiyor.",
   kaynak:"TDV `berlin-antlasmasi`: 'Bulgaristan toprakları üç bölgeye ayrılacaktı. Birinci bölge Osmanlı Devleti'ne tâbi, iç işlerinde serbest, prensi halk tarafından seçilen ... Tuna ile Balkanlar arasında Sofya, Niğbolu, Ziştovi, Rusçuk, Silistre, Varna, Şumnu, Lofça ve Tırnova gibi şehirleri içine alan muhtar bir Bulgaristan Prensliği kuruldu.'" },
 
-{ taraflar:["bulgaristan-prensligi"], t:"1879-04-16", b:"Tırnova Anayasası kabul edildi", tur:"siyaset",
+{ taraflar:["bulgaristan-prensligi"], t:"1879-04-28", ic_not_t:"eski gün 1879-04-16 = Jülyen (16 Nisan O.S.) → Gregoryen 28 Nisan; Prens seçimi 17/29 Nisan 1879 (archontology.org) ile sıra düzeldi; Tarnovo Constitution «28 April [O.S. 16 April] 1879» (kron-balkan, 28 Eki 2026)", b:"Tırnova Anayasası kabul edildi", tur:"siyaset",
   onem:5, dunya:2, kapsam:"ic", etiket:["idari","siyaset","islahat","konu-siyasi","konu-idari","konu-islahat"],
   yer_id:"Tırnova",
   d:"Tırnova'da toplanan Kurucu Millet Meclisi, dönemin Avrupa standartlarına göre son derece liberal sayılan bir anayasa kabul etti; geniş bir Millet Meclisi (Narodno Sıbranie), evrensel erkek oy hakkı ve temel hak-özgürlükler güvence altına alındı. Bu anayasa, genç prensliğin idari-hukuki iskeletini kurdu ve 1947'ye kadar (küçük değişikliklerle) yürürlükte kaldı.",

@@ -2477,7 +2477,7 @@ window.ETIKET_YAMA = {
    "guven": "KESIN"
   },
   {
-   "t": "1879-04-16",
+   "t": "1879-04-28",
    "b": "Tırnova Anayasası kabul edildi",
    "kume": "YAB",
    "mevcut_k": "siyasi",
