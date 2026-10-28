@@ -5410,6 +5410,7 @@ window.DEVLETLER = [
   f:"1526-04-21", t:"1857-09-21", baskent:"Delhi / Agra", harita:"babur-imparatorlugu",
   ozet:"Bâbür'ün Birinci Panipat zaferiyle kurduğu, Ekber, Cihangir, Şah Cihan ve Evrengzîb dönemlerinde Hindistan'ın büyük bölümüne hâkim olan İslâm imparatorluğu; 1857 Büyük Ayaklanması sonrası İngilizler tarafından resmen kaldırıldı. (kaynak: TDV, madde: babur — yalnız kurucusu için; imparatorluğun devamı standart akademik kaynağa göre)",
   kaynak:"baburluler",
+  ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «baburluler» hânedanın sonunu 1858 verir (BÂBÜRLÜLER 1526-1858; Bahadır Şah Aralık 1858'de Rangun'a sürüldü); künye t=1857-09-21 (Delhi'nin İngilizlerce geri alınması, Bahadır Şah'ın teslimi). TDV esastır ⇒ hânedanın hukukî sonu 1858, toprak hâkimiyeti sonu 1857-09; yerleşim dönemleri 1857 sınırında kaldı.",
   kronoloji:[
     { odak_yer:["Delhi"], t:"1526-04-21", tur:"kurulus", b:"Bâbür, Birinci Panipat Savaşı'nda Lûdî sultanlığını yenerek imparatorluğu kurdu" },
     { odak_yer:["Delhi"], t:"1556-01-01", tur:"hukumdar", b:"Ekber tahta çıktı, imparatorluğu Hindistan'ın büyük bölümüne yaydı" },
@@ -5464,11 +5465,13 @@ window.DEVLETLER = [
     { odak_yer:["Lahor"], t:"1849-03-29", tur:"son", b:"İkinci Anglo-Sih Savaşı sonunda İngilizler Pencap'ı ilhak etti" }
   ]
 },
-{ id:"meysur", ad:"Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)", tur:"sultanlik", bolge:"guney-asya",
-  f:"1761-01-01", t:"1799-05-04", baskent:"Seringapatam (Şrirangapatnam)", harita:"meysur",
+{ id:"meysur", ad:"Meysûr Krallığı/Sultanlığı (Vodeyar 1610-1761; Haydar Ali / Tipu Sultan 1761-1799)", tur:"sultanlik", bolge:"guney-asya",
+  f:"1610-01-01", t:"1799-05-04", baskent:"Seringapatam (Şrirangapatnam)", harita:"meysur",
   ozet:"Haydar Ali'nin Vodeyar hanedanından fiilen devraldığı, oğlu Tipu Sultan döneminde Osmanlı ve Fransa ile ittifak arayan, İngiliz Doğu Hindistan Şirketi'ne karşı dört savaş veren güney Hindistan devleti; Tipu'nun ölümüyle sona erdi. TDV'de ayrıntılı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  ic_not:"GUNEY-ASYA-DENETIM-1029 f 1761 → 1610: IGI XVIII «Mysore State» s.177-178: Vodeyar hanedanı 1399'da Dwarka'dan geldi, Raja Wodeyar 1610'da Seringapatam'ı aldı; IGI XXII «Seringapatam»: Haidar 1761'de ele geçirdi ama «always maintained a royal occupant» (IGI XVIII s.181) ⇒ aynı polity sürüyor, künye genişletildi (Vodeyar 1610-1761 + Haidar/Tipu 1761-1799). TDV «meysur» yalnız Haidar dönemini (1760-1799) anar. Vodeyar'ın 1399-1610 Vijayanagara vasallığı künyeye alınmadı. GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «meysur» başlığı «(1760-1799)» ve «1760 yılında ... Haydar Ali Han Bahadır» yazar; künye f=1761-01-01 (kronoloji 1761 kuruluş). TDV esastır ⇒ f=1760 olmalı; yerleşim dönemleri 1763/1766/1771 sınırlarında olduğundan (Mangalor 1763, Kalikut 1766, Kannûr 1771) dokunulmadı, yalnız yıl farkı borç olarak beyan edilir. Ayrıca Seringapatam ve Meysûr (Mysore) şehirleri 1565-1799 boyunca bu künyeyle boyalı: 1565-1760 Vodeyar/Vijayanagara dönemi için künye YOK (bkz. Vodeyar araştırması).",
   kronoloji:[
+    { t:"1610-01-01", tur:"kurulus", b:"Raja Wodeyar Seringapatam'ı Vijayanagara valisinden alıp başkent yaptı (yalnız yıl teyitli; gün teyitsiz)", kaynak:"The Imperial Gazetteer of India, XVIII «Mysore State» (Oxford 1908) s.178: «He contrived in 1610 to gain possession of Seringapatam»; XXII «Seringapatam Town»: Raja of Mysore «made Seringapatam his capital»" },
     { odak_yer:["Seringapatam"], t:"1761-01-01", tur:"kurulus", b:"Haydar Ali, Vodeyar racasından fiilî iktidarı ele geçirdi" },
     { odak_yer:["Seringapatam"], t:"1782-12-07", tur:"hukumdar", b:"Haydar Ali öldü, yerine oğlu Tipu Sultan geçti" },
     { odak_yer:["Seringapatam"], t:"1787-01-01", tur:"antlasma", b:"Tipu Sultan, Osmanlı Sultanı I. Abdülhamid'e elçi göndererek ittifak aradı" },
@@ -6887,6 +6890,7 @@ window.DEVLETLER = [
   f:"1490-01-01", t:"1636-01-01", baskent:"Ahmednagar → Devletâbâd", harita:"ahmednagar",
   ozet:"Melik Ahmed'in Behmenî'den ayrılarak kurduğu Dekken sultanlığı; Malik Anber'in direnişiyle bir kuşak daha yaşadı, Şah Cihan'ın kuvvetleri son sultanı 1636 Şubatında teslim aldı (kaynak: TDV, madde: nizamsahiler).",
   kaynak:"nizamsahiler",
+  ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «behmeniler» Nizamşâhîler 1490-1633 verir; künye t=1636 (Pûne/Raygad/Nâsik dönemleri 1636'da biter, Devagiri/Evrengâbâd 1633-06-28). 1633 = Devletâbâd'ın düşüşü ve Hüseyin Şah'ın esareti, 1636 = Şâhcihân-Âdilşâhî antlaşmasıyla devletin fiilî sonu; TDV esastır ⇒ asıl devlet bitişi 1633, 1633-1636 Şahcî Bhonsle himayesindeki kukla Nizamşâhî kalıntısıdır (künye 1636'da bırakıldı, dönemler korundu).",
   kronoloji:[
     { odak_yer:["Ahmednagar"], t:"1490-01-01", tur:"kurulus", b:"Melik Ahmed Nizamşah bağımsızlığını ilân etti" },
     { odak_yer:["Ahmednagar"], t:"1495-01-01", tur:"kurulus", b:"Ahmednagar şehri kurulup başkent yapıldı" },
@@ -7045,6 +7049,7 @@ window.DEVLETLER = [
   f:"1000-01-01", t:"1586-10-01", ic_not_f:"🔴 f = KUŞAK UCU. Sınıf ③ SORUSU AÇIK: Lahora (Hindu) → Şah Mîr (1338/1339) ardıl yapıdır; mevcut künye 1281-1339 Hindu dönemini ZATEN kapsıyor (ozet: 'Lohara krallığının yerini alan'). Ayrı `lohara` künyesi 1000-1339'u tutup `kesmir`in 1281-1339'uyla ÇAKIŞIRDI; genişletme mevcut kararın tutarlı devamıdır.", baskent:"Srinagar", harita:"kesmir",
   ozet:"Lohara krallığının yerini alan Şah Mîr hânedanının yönettiği, Himalaya vadisinde uzun süre bağımsız kalan sultanlık; Ekber'in seferiyle Bâbürlü eyaleti oldu (kaynak: TDV, madde: kesmir).",
   kaynak:"kesmir",
+  ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «kesmir» Şâh Mîr'in sultan oluşunu 1338-1342 verir; künye f=1000 (ufuk işareti) bölgenin Hindu dönemini de boyar. Lohara (1003-1172) ve Utpala (855-1003) künyeleri BOYALAR'da var; Hindu dönemin bu künyelere bölünmesi önerildi, Srinagar'ın 1000-1338 dilimi bu turda değiştirilmedi (kaynak: TDV 1320 Zulcu/Moğol-Çağatay).",
   kronoloji:[
     { odak_yer:["Srinagar"], t:"1339-01-01", tur:"kurulus", b:"Şah Mîr, Lohara hânedanının yerine geçip müslüman sultanlığı kurdu" },
     { odak_yer:["Srinagar"], t:"1420-01-01", tur:"hukumdar", b:"Zeynelâbidîn dönemi Keşmir'in kültür bakımından en parlak çağı oldu" },
@@ -7071,6 +7076,7 @@ window.DEVLETLER = [
   f:"1489-01-01", t:"1619-01-01", baskent:"Bîdar", harita:"bidar",
   ozet:"Behmenî'nin başkentinde vezirlikten hükümdarlığa geçen Barîdşâhîlerin sultanlığı; Dekken beşlisinin en küçüğüydü, Âdilşâhîlerce ilhak edildi (kaynak: TDV, madde: behmeniler).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «behmeniler» Berîdşâhîler 1487-1619 verir; künye f=1489 (Kâsım Berîd fiilî iktidar). TDV esastır; yerleşim dönemleri (1489-1619) değişmedi, 2 yıllık fark borç olarak beyan edilir.",
   kronoloji:[
     { odak_yer:["Bîdar"], t:"1489-01-01", tur:"kurulus", b:"Kāsım Berîd, Behmenî sultanı adına Bîdar'da fiilî iktidarı ele geçirdi" },
     { odak_yer:["Vijayanagara"], t:"1565-01-25", tur:"savas", b:"Talikota'da Dekken ittifakının içinde Vijayanagara'ya karşı savaştı" },
@@ -7083,6 +7089,7 @@ window.DEVLETLER = [
   f:"1490-01-01", t:"1574-01-01", baskent:"Elicpûr", harita:"berar",
   ozet:"Behmenî'nin dağılmasıyla Berâr'da kurulan, Dekken beşlisinin en kısa ömürlü sultanlığı; Ahmednagar Nizamşâhîlerince ortadan kaldırıldı. ⚠️ 10 Ağustos 2026 DÜZELTME: kurucu adı 'Fethullah' → 'Deryâ Han' ve f: 1490-01-01 → 1484-01-01 — TDV `imadsahiler` maddesi (A.S. Bazmee Ansari) kurucunun adının Deryâ Han olduğunu, 'İmâdülmülk' unvanını Behmenî Sultanı II. Mahmud Şah'ın ona verdiğini ve bağımsızlığın 1484'te ilan edildiğini net yazıyor; 'Fethullah' adı TDV metninde hiç geçmiyor, önceki kaydın kaynağı bulunamadı.",
   kaynak:"imadsahiler",
+  ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «behmeniler» İmâdşâhîler 1485-1572 verir; künye f=1490/t=1574 (kronoloji: 1484 kuruluş, 1572 son [K]). TDV esastır; yerleşim dönemleri (1490-1574) değişmedi, 5 yıllık fark ve 1572/1574 ayrımı borç olarak beyan edilir.",
   kronoloji:[
     { odak_yer:["Elicpûr"], t:"1484-01-01", tur:"kurulus", b:"Behmenî Sultanı II. Mahmud Şah, vezirleri İmâdülmülk (Deryâ Han) ve Nizâmülmülk'ten kurtulmak isteyince ikisi kaçtı; İmâdülmülk Berâr'a dönüp bağımsızlığını ilan edip adına sikke bastırdı, aynı yıl öldü, yerine oğlu Alâeddin geçti", ic_not_b:"eski b: Behmenî Sultanı II. Mahmud Şah, vezirleri İmâdülmülk (Deryâ Han) ve Nizâmülmülk'ten kurtulmak isteyince ikisi kaçtı; İmâdülmülk Berâr'a dönüp bağımsızlığını ilan edip adına sikke bastırdı, aynı yıl öldü, yerine oğlu Alâeddin geçti (TDV imadsahiler)", kaynak:"TDV: imadsahiler — «İmâdülmülk Berâr’a dönüp 1484’te bağımsızlığını ilân etti»" },
     { odak_yer:["Elicpûr"], t:"1528-01-01", tur:"vassal", b:"Alâeddin İmâdşah, Nizamşâhîler'e karşı kale kaybedince Gucerât Sultanı Bahadır Şah'tan yardım isteyip onun hâkimiyetini tanıdı", ic_not_b:"eski b: Alâeddin İmâdşah, Nizamşâhîler'e karşı kale kaybedince Gucerât Sultanı Bahadır Şah'tan yardım isteyip onun hâkimiyetini tanıdı (TDV imadsahiler)", kaynak:"TDV: imadsahiler — «Gucerât Sultanı Bahadır Şah’ı yardıma çağıran Alâeddin (1528), Bahadır Şah’ın hâkimiyetini kabul ederek»" },
@@ -7132,6 +7139,7 @@ window.DEVLETLER = [
   f:"1000-01-01", ic_not_f:"🔴 f = KUŞAK UCU. Sınıf ②: künye 'Malla Krallıkları → Gorkha' — Malla dönemi X. yüzyıldan başlar.", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — Şah hânedanının sonu ölçülemedi (OH nepal cümlesi belirsiz: '...in 2006')", baskent:"Katmandu", harita:"nepal",
   ozet:"Katmandu vadisinin üç Malla krallığından Gorkha fethiyle tek krallığa dönüşen Himalaya devleti; hiç sömürgeleşmedi, 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  ic_not:"GUNEY-ASYA-DENETIM-1029 KAYNAK/ÇELİŞKİ: TDV «nepal»: «Pritvi Narayan 1742'de bütün ülkede hâkimiyeti ele geçirerek» (metinde 1742; 1768 YOK), Sugauli «1814-1816 savaşı sonrası» (gün yok), tam bağımsızlık «I. Dünya Savaşı'nın ardından (1923)», 752 (1351) Şemseddin İlyas Şah Katmandu'yu aldı, Halacî (1296-1316) Delhi himayesi, 1951 Rana devrildi. Künyedeki 1768-09-25 (Katmandu'nun alınışı) Gorkha fethinin tamamlanış günüdür; TDV'nin 1742'si Prithvi Narayan'ın iktidara geçişi/yükselişi olarak okundu — çelişki beyan edilir, 1768-09-25 korundu (Katmandu vadisinin alınışı, ayrı olgu). kronolojide 1768-09-25 iki kez (birlesme ve kurulus) geçer; mükerrer.",
   kronoloji:[
     { odak_yer:["Katmandu"], t:"1768-09-25", tur:"birlesme", b:"Prithvi Narayan Şah Katmandu'yu alıp vadiyi Gorkha yönetiminde birleştirdi" },
     { odak_yer:["Katmandu"], t:"1816-03-04", tur:"antlasma", b:"Sugauli Antlaşması ile İngilizlere toprak verildi, sınırlar bugünkü hâline yaklaştı" },
@@ -21588,7 +21596,8 @@ window.DEVLETLER = [
     { odak_yer:["Bhopâl"], t:"1974-05-18", tur:"siyaset", b:"Hindistan Pokhran'da ilk nükleer denemesini ('Gülen Buda') yaptı.", kaynak:"https://en.wikipedia.org/wiki/Smiling_Buddha ; https://atomicarchive.com/history/cold-war/page-17.html" },
     { odak_yer:["Bhopâl"], t:"1975-06-25", tur:"siyaset", b:"Cumhurbaşkanı Fahruddin Ali Ahmed, Indira Gandhi'nin önerisiyle olağanüstü hal (Emergency) ilan etti (21 Mart 1977'ye dek sürdü).", kaynak:"https://en.wikipedia.org/wiki/The_Emergency_(India) ; https://pib.gov.in/FactsheetDetails.aspx?Id=149224" }
   ] },
-{ id:"pakistan", ad:"Pakistan", tur:"cumhuriyet", bolge:"guney-asya", f:"1947-08-15", baskent:"Karaci", ozet:"1947'de bagimsiz dominyon; Dogu kanat 1971'de Banglades oldu.", kaynak:"https://history.state.gov/countries/pakistan", kronoloji:[
+{ id:"pakistan", ad:"Pakistan", tur:"cumhuriyet", bolge:"guney-asya", f:"1947-08-15", baskent:"Karaci", ozet:"1947'de bagimsiz dominyon; Dogu kanat 1971'de Banglades oldu.", kaynak:"https://history.state.gov/countries/pakistan", ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «pakistan»: «14 Ağustos 1947'de fiilen uygulamaya konuldu»; künye f=1947-08-15 (Indian Independence Act 1947 «appointed day» 15 Ağustos). Pakistan 14 Ağustos 1947'de Karaçi'de ilân edildi, hukukî devir 15 Ağustos. TDV esastır ama bağımsızlık devrinin hukukî günü 15 Ağustos olduğundan künye ve dönemler (Pakistan toprakları 1947-08-15) korundu; ayrım burada beyan edilir.",
+  kronoloji:[
     { odak_yer:["Karaçi"], t:"1947-10-22", tur:"isgal", b:"Pakistan destekli kabile savaşçıları Caşmir'e girip Muzafferabad ve Baramulla'yı ele geçirdi (Birinci Keşmir Savaşı başladı).", kaynak:"https://theiashub.com/upsc-notes/upsc-mains-marks-booster/india-pakistan-war-1947-48-history-analysis ; https://en.wikipedia.org/wiki/Karachi_Agreement" },
     { odak_yer:["Karaçi"], t:"1948-09-11", tur:"hukumdar", b:"Kurucu Genel Vali Muhammed Ali Cinnah öldü; Hace Nazımüddin genel vali oldu.", kaynak:"Vinay Lal, Pakistan Select Political Chronology, https://southasia.ucla.edu/history-politics/current-affairs/pakistan-select-political-chronology-1947-2008 ; https://countrystudies.us/pakistan/15.htm" },
     { odak_yer:["Karaçi"], t:"1949-01-01", tur:"antlasma", b:"BM arabuluculuğunda Keşmir'de ateşkes yürürlüğe girdi (27 Temmuz 1949 Karaçi Anlaşması ateşkes hattını belirledi).", kaynak:"https://en.wikipedia.org/wiki/Karachi_Agreement ; https://theiashub.com/upsc-notes/upsc-mains-marks-booster/india-pakistan-war-1947-48-history-analysis" },
@@ -21603,7 +21612,8 @@ window.DEVLETLER = [
     { odak_yer:["Karaçi"], t:"1998-05-28", tur:"siyaset", b:"Pakistan Beluçistan'daki Çağay (Ras Koh) tepelerinde ilk nükleer denemelerini yaptı.", kaynak:"https://en.wikipedia.org/wiki/Chagai-I ; https://www.globalsecurity.org/wmd/world/pakistan/ras_koh.htm" },
     { odak_yer:["Karaçi"], t:"1999-10-12", tur:"isyan", b:"Genelkurmay Başkanı Pervez Müşerref kansız darbeyle Başbakan Nevaz Şerif'i devirdi.", kaynak:"https://wikipedia.com/wiki/Musharaf_Coup ; https://www.dawn.com/news/1694796" }
   ] },
-{ id:"banglades", ad:"Banglades", tur:"cumhuriyet", bolge:"guney-asya", f:"1971-12-16", baskent:"Dakka", ozet:"Dogu Pakistan'in 1971 savasiyla bagimsiz olusu; 26 Mart 1971 ilan, 16 Aralik 1971 fiili.", kaynak:"https://history.state.gov/countries/bangladesh", kronoloji:[
+{ id:"banglades", ad:"Banglades", tur:"cumhuriyet", bolge:"guney-asya", f:"1971-12-16", baskent:"Dakka", ozet:"Dogu Pakistan'in 1971 savasiyla bagimsiz olusu; 26 Mart 1971 ilan, 16 Aralik 1971 fiili.", kaynak:"https://history.state.gov/countries/bangladesh", ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «benglades» (sayfa /benglades): \"16 Kasım 1971'de Pakistan kuvvetleri teslim oldu\" yazar, aynı madde \"Aralık 1971'de bağımsızlığına kavuşan\" der — TDV içinde tutarsız; teslim günü 16 Aralık 1971 (künye f) ve Ağustos 1947 Doğu Bengal'in Pakistan'a katılışı (TDV) ile uyumlu. TDV'nin «Kasım» ifadesi baskı/yazım hatası kabul edilerek 16 Aralık korundu; ikinci bağımsız kaynak (Hamoodur Rahman Commission / Instrument of Surrender metni) okunamadı.",
+  kronoloji:[
     { odak_yer:["Dakka"], t:"1972-01-12", tur:"hukumdar", b:"Şeyh Mücibür Rahman, 10 Ocak'ta Dakka'ya dönmesinin ardından başbakan olarak yemin etti.", kaynak:"https://www.tbsnews.net/node/565134 (dönüş 10 Ocak 1972) ; Dhaka Tribune, Bangabandhu's Homecoming Day (yemin 12 Ocak 1972)" },
     { odak_yer:["Dakka"], t:"1972-12-16", tur:"siyaset", b:"4 Kasım 1972'de Kurucu Meclis'te kabul edilen Bangladeş Anayasası yürürlüğe girdi.", kaynak:"Banglapedia, Constitution https://en.banglapedia.org/index.php/Constitution" },
     { odak_yer:["Dakka"], t:"1975-08-15", tur:"isyan", b:"Askerî darbede Şeyh Mücibür Rahman ve ailesinin çoğu öldürüldü; Hondakar Mustak Ahmed başkan oldu ve askerî darbeler dönemi başladı.", kaynak:"https://en.prothomalo.com/bangladesh/zzsflhx026 ; Library of Congress, Bangladesh: A Country Study (1989), Historical Setting" },
@@ -23849,6 +23859,49 @@ window.DEVLETLER = [
   ic_not:"GUNEY-ASYA-DENETIM-1027: t=1750-01-01 (yıl) — Ratanpur kolu Maratha fethiyle 1741'de (IGI c.8 s.224: Bhaskar Pant istilası; c.21 s.51 \"took Ratanpur and annexed the kingdom\"), son raca Raghunath Singh'in azli 1745 (IGI c.10 s.15); Raipur kolu 1750'ye dek (IGI c.21 s.51: \"Between 1750 and 1818 ... governed by the Marathas\"). Yerleşim dönemleri Ratanpur 1741, Raipur 1750'de kırılır; künye iki kolu birlikte kapsar. VERI-MS1-1281 · DEVLET-LISTESI devri · doğrulama: kismen-okundu · Majumdar V: Kalingaraja 11. yüzyılın ilk yıllarında Tummana'dan Tripuri vasalı olarak hüküm sürdü; Prithvideva 1079'da; Jajalladeva I'in bilinen yazıtı 1114, Yashahkarna'nın saltanatının son döneminde (Tripuri gücü azalırken) bağımsızlaştı. f=1114 EN ERKEN BİLİNEN bağımsız yazıt (bağımsızlaşma yılı kaynakta yok; 11. yy başı vasal evre). t: kaynakta 1281 sonrasına uzanır (okunmadı) → null.",
   kronoloji:[{ odak_yer:["Ratanpur"], t:"1114-01-01", tur:"kurulus", b:"Kalachuri Hanedanı — Ratnapura (Ratanpur) kuruldu / ilk kaynaklı tanık (kesinlik: {\"f\": \"yil\", \"t\": \"belirsiz\"})", kaynak:"R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Kalachuris of Ratanpur» (s. 64-65)" },
 { odak_yer:["Raipur"], t:"1750-01-01", tur:"son", b:"Raipur kolunun Nagpur Bhonsle yönetimine geçmesiyle Kalachuri (Haihaya) devleti sona erdi (Ratanpur kolu 1741, son raca azli 1745) (yalnız yıl teyitli; gün teyitsiz)", kaynak:"The Imperial Gazetteer of India, c.21 «Raipur District» s.51 (Oxford 1908; dsal.uchicago.edu); c.8 «Bilaspur District» s.223-224; c.10 «Central Provinces» s.15-17" }] },
+{ id:"koch-bihar",
+  ad:"Koch Krallığı / Koch Bihar (Biswa Singha–Naranarayan hanedanı)",
+  tur:"krallik",
+  bolge:"guney-asya",
+  f:"1515-01-01",
+  t:"1949-01-01",
+  baskent:"Chikangram → Koch Bihar (Guriahati)",
+  ozet:"Biswa Singha ile yükselen, Naranarayan döneminde Assam ve Rangpur'a uzanan Koch hanedanı; 1581'de Koch Bihar ve Koch Hajo diye bölündü, batı kol Mughal'ın, 1773'ten sonra Doğu Hindistan Şirketi'nin tâbisi prenslik olarak 1949'a dek sürdü.",
+  kaynak:"E. A. Gait, A History of Assam (Calcutta 1906), «The Koch Kings» s. 46-66 (archive.org historyofassam00gait, tam metin okundu) · The Imperial Gazetteer of India, X, «Cooch Behar State» s. 381-383 (Oxford 1908; archive.org TheImperialGazetteerOfIndia-Volume10, tam metin okundu)",
+  kesinlik:{"f": "yil", "t": "yil"},
+  boya_gerekli:true,
+  ic_not:"GUNEY-ASYA-DENETIM-1029 · f=1515: Gait s.46-47 «rose to power about 1515» (yaklaşık, yalnız yıl); IGI X s.381 ise devleti 1510'da Chandan'ın kurduğunu yerel anlatı olarak verir — çelişki beyan edildi, Gait esas alındı (Biswa Singha'nın iktidara yükseliş tarihi). Bölünme 1581 (Gait s.55 ve IGI aynı gelenekten, bağımsız teyit sayılmaz). Naranarayan ölümü 1584 (Gait s.56, IGI X s.381). 1587 tarihi iki kaynakta da YOK. t=1949: Hindistan'a katılış; gün (12 Eylül 1949 / 28 Ağustos 1949 anlaşma) hakemli kaynakla doğrulanamadı (Menon 1956 okunamadı) ⇒ yalnız yıl teyitli; gün teyitsiz. Britannica «Cooch Behar» WebFetch 403 verdi, okunamadı. Koçça/Bengalce/Assamca birincil neşir (Darrang Raj Vamsavali, Kamrupar Buranji) okunamadı. BOYALAR'da anahtar yok ⇒ harita penceresi yazılmadı (renkler.py tuz, Emre'ye bildirildi).",
+  kronoloji:[
+    { t:"1515-01-01", tur:"kurulus", b:"Biswa Singha Karatoya ile Barnadi arasında iktidara yükseldi; Koch krallığı kuruldu (yaklaşık; yalnız yıl teyitli; gün teyitsiz)", kaynak:"E. A. Gait, A History of Assam (Calcutta 1906) s. 46-47: «He rose to power about 1515 A.D.»" },
+    { t:"1581-01-01", tur:"bolunme", b:"Naranarayan krallığı kardeşi Raghu Deb ile paylaştı: batı Koch Bihar, doğu Koch Hajo (yalnız yıl teyitli; gün teyitsiz)", kaynak:"E. A. Gait, A History of Assam (1906) s. 55: «This was in 1581 A.D.»; The Imperial Gazetteer of India, X (1908) s. 381 «in 1581»" },
+    { t:"1584-01-01", tur:"hukumdar", b:"Naranarayan öldü; batıda Lakshmi Narayan Mughal'ın vasalı oldu (yalnız yıl teyitli; gün teyitsiz)", kaynak:"E. A. Gait, A History of Assam (1906) s. 56: «Nar Narayan died in 1584»; s. 61; IGI X s. 381-382" },
+    { t:"1772-01-01", tur:"isgal", b:"Bhutanlılar Koch Bihar'ı istila edip rakip aday getirdi; Nazir Deo İngilizlerden yardım istedi (yalnız yıl teyitli; gün teyitsiz)", kaynak:"The Imperial Gazetteer of India, X (1908) s. 382" },
+    { t:"1773-04-05", tur:"antlasma", b:"Koch Bihar Rajası ile Doğu Hindistan Şirketi arasında antlaşma: Raja Şirket'in tabiliğini kabul etti, gelirin yarısını verdi", kaynak:"The Imperial Gazetteer of India, X (1908) s. 382: antlaşma «bears date April 5, 1773»" },
+    { t:"1863-08-06", tur:"hukumdar", b:"Nripendra Narayan on aylıkken tahta çıkarıldı; idare İngiliz Komiserine geçti", kaynak:"The Imperial Gazetteer of India, X (1908) s. 382: «placed on the gaddi on August 6, 1863»" },
+    { t:"1949-01-01", tur:"son", b:"Koch Bihar Hindistan'a katıldı (yalnız yıl teyitli; gün teyitsiz)", kaynak:"bulunamadı (hakemli): Britannica «Cooch Behar» arama özeti 1949; V. P. Menon (1956) okunamadı" }
+  ] },
+{ id:"tripura-manikya",
+  ad:"Tripura (Hill Tippera) Manikya Krallığı",
+  tur:"krallik",
+  bolge:"guney-asya",
+  f:"1279-01-01",
+  t:"1949-10-15",
+  baskent:"Udaipur → Agartala",
+  ozet:"Manikya unvanını ilk Raca Ratnapha'ya Gaur kralının verdiği (yaklaşık 1279) Doğu Bengal–Tripura Racalığı; Bengal sultanları ve Mughallarla çarpışarak ovada toprak verdi, 1765'ten sonra Şirket'in, 1808'den itibaren İngiliz tescilli prensliği oldu, 1949'da Hindistan'a katıldı.",
+  kaynak:"The Imperial Gazetteer of India, XIII, «Hill Tippera» s. 117-119 (Oxford 1908; archive.org imperialgazettee13grea, tam metin okundu) · Banglapedia, «Tripura Coinage» (Asiatic Society of Bangladesh, en.banglapedia.org; özet okundu)",
+  kesinlik:{"f": "yil", "t": "gun"},
+  boya_gerekli:true,
+  ic_not:"GUNEY-ASYA-DENETIM-1029 · f=1279: Krallığın kuruluş tarihi kaynakta yok (Rajmala ilk bölümü efsanevî); IGI XIII s.118 «Manikhya» unvanının «about 1279» Raja Ratnapha'ya verildiğini ve aynı yıl Tughril'in ilk Müslüman istilasını yazar ⇒ f = İLK KAYNAKLI TANIK (yaklaşık). Banglapedia'nın Ratna Manikya sikkesi 1386 Saka = 1464 (Saka+78, yaklaşık) ayrı olgu, IGI'nin 1279'uyla çelişmez. Dharma Manikya I'in 1458/1431–62 tarihleri yalnız Britannica arama özeti/Vikipedi'de, hakemli kaynakta doğrulanamadı ⇒ yazılmadı. t=1949-10-15: Britannica «Tripura» arama özeti «became part of India on October 15, 1949»; madde WebFetch 403 ile açılamadı, Menon (1956) okunamadı ⇒ gün tek ikincil kaynaktan, yalnız bu gün teyitsiz kabul edilmeli (birleşme anlaşması 9 Eylül 1949 başka sayfalarda). Bengalce Rajmala neşri (Long / Kaliprasanna Sen) okunamadı. BOYALAR'da anahtar yok ⇒ harita penceresi yazılmadı (tuz, Emre'ye bildirildi).",
+  kronoloji:[
+    { t:"1279-01-01", tur:"kurulus", b:"Raja Ratnapha'ya Gaur kralınca «Manikhya» unvanı verildi; aynı yıl Tughril'in ilk Müslüman istilası (yaklaşık; yalnız yıl teyitli; gün teyitsiz)", kaynak:"The Imperial Gazetteer of India, XIII (1908) s. 118: «bestowed first on Raja Ratnapha, by the king of Gaur, about 1279»; «overrun by the Muhammadans under Tughril in 1279»" },
+    { t:"1464-01-01", tur:"hukumdar", b:"Ratna Manikya ilk sikkeyi bastırdı (1386 Saka; Saka+78, yaklaşık; yalnız yıl teyitli; gün teyitsiz)", kaynak:"Banglapedia, «Tripura Coinage» (Asiatic Society of Bangladesh): Ratna Manikya (1386 Shaka) ilk sikke basan" },
+    { t:"1490-01-01", tur:"hukumdar", b:"Dhanya Manikya'nın sikke tarihi 1412 Saka (Saka+78, yaklaşık; yalnız yıl teyitli; gün teyitsiz)", kaynak:"Banglapedia, «Tripura Coinage»: Dhanya Manikya «installed in 1412 Shaka»" },
+    { t:"1620-01-01", tur:"isgal", b:"Nevvab Fateh Jang Tripura'yı istila etti (yalnız yıl teyitli; gün teyitsiz)", kaynak:"The Imperial Gazetteer of India, XIII (1908) s. 118: «by Nawab Fateh Jang in 1620»" },
+    { t:"1733-01-01", tur:"toprak-kayip", b:"Ovadaki Tippera toprakları Mughal imparatorluğuna ilhak edildi; Hill Tippera ilhak edilmedi (yalnız yıl teyitli; gün teyitsiz)", kaynak:"The Imperial Gazetteer of India, XIII (1908) s. 118: «not, however, annexed to the Mughal empire until 1733»" },
+    { t:"1765-01-01", tur:"siyaset", b:"Şirket Bengal diwanisini alınca Tripura tahtına bir Raja oturttu (yalnız yıl teyitli; gün teyitsiz)", kaynak:"The Imperial Gazetteer of India, XIII (1908) s. 118: «obtained the diwani of Bengal in 1765»" },
+    { t:"1808-01-01", tur:"siyaset", b:"İngiliz Hükümeti'nden her yeni Raja'nın tescili (investiture) uygulaması başladı (yalnız yıl teyitli; gün teyitsiz)", kaynak:"The Imperial Gazetteer of India, XIII (1908) s. 118: «since 1808 each successive ruler has received investiture»" },
+    { t:"1949-10-15", tur:"son", b:"Tripura Hindistan'a katıldı; Part C devleti oldu (gün tek ikincil kaynaktan)", kaynak:"Britannica «Tripura» (arama özeti): «became part of India on October 15, 1949»; madde açılamadı" }
+  ] },
 { id:"sumra",
   ad:"Sumra Hanedanı (Sind)",
   tur:"hanedanlik",
