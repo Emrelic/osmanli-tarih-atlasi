@@ -14013,6 +14013,7 @@ window.DEVLETLER = [
   ozet:"İbrâhim b. Ağleb'in Abbâsî valisi olarak İfrîkıye'de kurduğu hânedan; Sicilya'yı fethetti, Fâtımî dâîsi Ebû Abdullah eş-Şiî karşısında yıkıldı. (kaynak: TDV, madde: aglebiler)",
   kaynak:"TDV: aglebiler (AĞLEBÎLER)",
   kronoloji:[
+    { odak_yer:["Malta"], t:"0870-08-29", tur:"toprak-kazanc", b:"Ağlebî kumandanı Ahmed b. Ömer'in filosu Malta'yı kesin olarak ele geçirir.", kaynak:"TDV İslâm Ansiklopedisi, malta: «Ahmed b. Ömer yönetiminde yola çıkan bir filo tarafından gerçekleştirildi (28 Ramazan 256 / 29 Ağustos 870)»" },
     { odak_yer:["Kayrevan"], t:"0800-01-01", tur:"kurulus", b:"İbrâhim b. Ağleb İfrîkıye valiliğine getirildi; Ağlebî hânedanı kuruldu", kaynak:"TDV: aglebiler: '184 (800)'" },
     { odak_yer:["Kayrevan"], t:"0810-01-01", tur:"isyan", b:"İbrâhim b. Ağleb İmrân b. Mücâlid'in isyanını bastırdı.", kaynak:"https://islamansiklopedisi.org.tr/aglebiler" },
     { odak_yer:["Trablus"], t:"0812-01-01", tur:"hukumdar", b:"İbrâhim b. Ağleb Trablus'u kuşatan İbâzî lideri Abdülvehhâb'ı bastıramadan öldü; oğlu Abdullah emir oldu.", kaynak:"https://islamansiklopedisi.org.tr/aglebiler" },
