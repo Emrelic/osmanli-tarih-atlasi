@@ -711,4 +711,11 @@ window.OLAYLAR_EK16 = [
 { t:"1944-08-25", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Tartu Kızıl Ordu'ca alındı — Tartu harekâtı", gun:"25 Ağustos 1944 (kaynaklar 25-26 Ağustos)", yer:"Tartu (Dorpat)", yer_id:"Tartu (Dorpat)",
   d:"3. Baltık Cephesi Alman 18. Ordusu'nun savunmasını bozup Tartu'yu aldı; şehir birkaç hafta cephe hattında kaldı ve Tartu harekâtı 6 Eylül 1944'te sona erdi.",
   kaynak:"Estonya Rusya Büyükelçiliği aktarımı; Tartu offensive (Vikipedi) — arama özeti [özet]; gün ±1" },
+// ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): Pskov 1348, Nöteborg 1702
+{ t:"1348-01-01", k:"antlasma", kapsam:"dis", etiket:["toprak-kayip","konu-diplomasi"], b:"Bolotovo Antlaşması — Novgorod Pskov'un bağımsızlığını tanıdı", gun:"1348 [yalnız yıl teyitli; gün teyitsiz]", yer:"Pskov", yer_id:"Pskov",
+  d:"Novgorod, Pskov'u 'küçük kardeş' olarak tanıdı; Pskov kendi veçesi ve posadnikiyle bağımsız şehir cumhuriyeti olarak 1510'da Moskova'ya katılana dek yaşadı.",
+  kaynak:"Pskov Cumhuriyeti / Bolotovo Antlaşması literatürü (Britannica «Pskov», Riasanovsky & Steinberg) — kitap/ansiklopedi, sayfa açılmadı [bilgi; teyit bekler]; yıl düzeyi" },
+{ t:"1702-10-22", k:"diger", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"], b:"Rusya Nöteborg'u (Oreşek) İsveç'ten aldı — Büyük Kuzey Savaşı'nın ilk Neva kalesi", gun:"22 Ekim 1702 (Gregoryen; Jülyen 11 Ekim)", yer:"Oreşek (Nöteborg)", yer_id:"Oreşek (Nöteborg)",
+  d:"I. Petro'nun orduları Ladoga'nın çıkışındaki Nöteborg'u (Rusça Oreşek) kuşatıp aldı ve adını Şlisselburg ('Anahtar Kale') koydu; bu, Neva'ya ve 1703'te St. Petersburg'un kuruluşuna giden yolu açtı.",
+  kaynak:"Britannica «Great Northern War»; Riasanovsky & Steinberg (2010) — kitap/ansiklopedi, sayfa açılmadı [bilgi; teyit bekler]; Jülyen/Gregoryen farkı beyanlı" },
 ];
