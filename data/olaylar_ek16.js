@@ -704,4 +704,11 @@ window.OLAYLAR_EK16 = [
 { t:"1944-08-01", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Kaunas Kızıl Ordu'ca alındı — Litvanya'nın geçici başkenti Alman idaresinden çıktı", gun:"1 Ağustos 1944 (çarpışma 31 Temmuz-1 Ağustos)", yer:"Kaunas", yer_id:"Kaunas",
   d:"3. Belarus Cephesi Kaunas'ı aldı; Stalin'in 1 Ağustos günlük emri alınışı duyurdu. Şehir 1919-1939 Litvanya'nın geçici başkentiydi.",
   kaynak:"Kaunas offensive (Vikipedi); Lituanistika Kaunas offensive makalesi (ceeol) — arama özeti [özet]; gün ±1" },
+// ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): 1944 Baltık kurtuluş günleri (Daugavpils, Tartu)
+{ t:"1944-07-27", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Daugavpils Kızıl Ordu'ca kurtarıldı", gun:"27 Temmuz 1944", yer:"Daugavpils (Dünaburg)", yer_id:"Daugavpils (Dünaburg)",
+  d:"2. Baltık Cephesi'nin 360. Piyade Tümeni Daugavpils'i (Dünaburg) aldı; Latgale'nin ikinci büyük şehri Alman idaresinden çıktı.",
+  kaynak:"Daugavpils Kurtuluş Anıtı yazısı (tracesofwar.com) — arama özeti [özet]; elle doğrulama bekler" },
+{ t:"1944-08-25", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Tartu Kızıl Ordu'ca alındı — Tartu harekâtı", gun:"25 Ağustos 1944 (kaynaklar 25-26 Ağustos)", yer:"Tartu (Dorpat)", yer_id:"Tartu (Dorpat)",
+  d:"3. Baltık Cephesi Alman 18. Ordusu'nun savunmasını bozup Tartu'yu aldı; şehir birkaç hafta cephe hattında kaldı ve Tartu harekâtı 6 Eylül 1944'te sona erdi.",
+  kaynak:"Estonya Rusya Büyükelçiliği aktarımı; Tartu offensive (Vikipedi) — arama özeti [özet]; gün ±1" },
 ];
