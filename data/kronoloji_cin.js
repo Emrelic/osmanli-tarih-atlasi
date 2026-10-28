@@ -460,7 +460,7 @@ window.KRONOLOJI_CIN = [
   d:"Tayvan'ın fethiyle deniz güvenliği sağlanınca Kangxi, dört limanı yabancı ticarete resmen açtı. Karar, sonraki yüzyılın Kanton sistemine evrilecek dış ticaret düzeninin başlangıcıydı.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["qing-hanedani"], t:"1689-09-07", b:"Nerçinsk Antlaşması — Rusya ile sınır çizildi", tur:"antlasma",
+{ taraflar:["qing-hanedani"], t:"1689-09-06", ic_not_takvim:"Jülyen 27 Ağustos 1689 (Rus kaynakları; en.wikipedia Treaty of Nerchinsk, prlib.ru) = Gregoryen 6 Eylül 1689 (+10 gün); eski 07 Eylül günü kaynaksız, yerleşim s: sınırlarıyla (09-06) birleştirildi", b:"Nerçinsk Antlaşması — Rusya ile sınır çizildi", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
   yer_id:"",
   d:"Qing ve Rus İmparatorluğu, Cizvit tercümanların arabuluculuğuyla Amur havzasındaki sınırı belirleyen Nerçinsk Antlaşması'nı imzaladı. Antlaşma, Çin'in Avrupa devletiyle eşit hukuk temelinde imzaladığı ilk modern andlaşmaydı.",
