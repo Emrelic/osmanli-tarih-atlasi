@@ -4907,7 +4907,7 @@ window.KRONOLOJI_CIN = [
   d:"Matteo Ricci ile âlim-devlet adamı Xu Guangqi, Öklid'in Elementler'inin ilk altı kitabını Çinceye çevirip Batı geometrisini Çin bilim çevrelerine tanıttı. Çeviri, Cizvit-Çin bilimsel işbirliğinin en kalıcı ürünlerinden biri oldu.",
   kaynak:"The Cambridge History of China, cilt 8 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["ming-hanedani"], t:"1616-05-15", b:"Nurhaci \"Sonraki Jin\"i (Qing'in öncülü) ilan etti", tur:"kurulus",
+{ taraflar:["ming-hanedani"], t:"1616-01-01", kesinlik:"yil", gun:"1616", ic_not_gun:"DENETIM-CIN-MOGOL-1028: eski t 1616-05-15 kaynaksızdı (1636 Qing ilan gününün kopyası görünüyor; kaynak yalnız 1616 yılını veriyor). Gün Qing Taizu shilu / Çin takvimi tablosuyla doğrulanamadı ⇒ yıl hassasiyeti (CLAUDE.md: tarih uydurma).", b:"Nurhaci \"Sonraki Jin\"i (Qing'in öncülü) ilan etti", tur:"kurulus",
   onem:4, dunya:2, kapsam:"ic", etiket:["kurulus","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"Mukden (Şenyang)",
   d:"Mançu boylarını Sekiz Sancak sistemi altında birleştiren Nurhaci, kendisini han ilan edip \"Sonraki Jin\" hanedanını kurdu. Bu devlet, oğlu Hong Taiji'nin 1636'da Qing adını almasıyla imparatorluğa dönüşecekti.",

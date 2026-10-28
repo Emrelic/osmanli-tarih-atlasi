@@ -20,9 +20,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0629-01-01",
     "t": "0842-01-01",
-    "d": "__BOSLUK__",
+    "d": "tibet-imparatorlugu",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip tibet-imparatorlugu (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tibet-imparatorlugu\" geri yazılır) · Songtsen Gampo 629 (Britannica «crowned 629», atıf; açılmadı). Bitiş: mevcut tibet-imparatorlugu iskeleti «0842-01-01 Langdarma öldürüldü; imparatorluk parçalandı, Yumtan Yarlung'da rakip krallık kurdu» (data/devletler.js; atıf). Zincir burada bitiyor: 842 sonrası Yumtan/Yarlung hanedanı bu oturumda kaynaklanmadı (cin2+)."
+    "kaynak": "Songtsen Gampo 629 (Britannica «crowned 629», atıf; açılmadı). Bitiş: mevcut tibet-imparatorlugu iskeleti «0842-01-01 Langdarma öldürüldü; imparatorluk parçalandı, Yumtan Yarlung'da rakip krallık kurdu» (data/devletler.js; atıf). Zincir burada bitiyor: 842 sonrası Yumtan/Yarlung hanedanı bu oturumda kaynaklanmadı (cin2+)."
    },
    {
     "f": "0842-01-01",
@@ -76,16 +76,16 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0617-02-10",
     "t": "0621-05-28",
-    "d": "__BOSLUK__",
+    "d": "sui-xia-dou-jiande",
     "kesinlik": "ay",
-    "kaynak": "BOŞLUK BEYANI: sahip sui-xia-dou-jiande (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"sui-xia-dou-jiande\" geri yazılır) · Jiu Tang shu juan 54: «十三年正月，築壇場於河間樂壽界中，自稱長樂王 … 始都樂壽，號曰金城宮，自是郡縣多下之» (Leshou Dou Jiande'nin başkenti) — https://zh.wikisource.org/wiki/舊唐書/卷54"
+    "kaynak": "Jiu Tang shu juan 54: «十三年正月，築壇場於河間樂壽界中，自稱長樂王 … 始都樂壽，號曰金城宮，自是郡縣多下之» (Leshou Dou Jiande'nin başkenti) — https://zh.wikisource.org/wiki/舊唐書/卷54"
    },
    {
     "f": "0621-05-28",
     "t": "0907-06-01",
-    "d": "__BOSLUK__",
+    "d": "tang",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip tang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tang\" geri yazılır) · Jiu Tang shu juan 1: «五月己未，秦王大破竇建德之眾於武牢，擒建德，河北悉平» (621-05-28). BEYANLI YAKLAŞIKLIK: «河北悉平» bölgesel; Leshou özgü teslim günü ve 621-623 Liu Heita isyanındaki el değişimi okunmadı. Bitiş: Tang t = 907-06-01 (Zhu Wen; DEVLET_LISTESI). 907 sonrası cin2."
+    "kaynak": "Jiu Tang shu juan 1: «五月己未，秦王大破竇建德之眾於武牢，擒建德，河北悉平» (621-05-28). BEYANLI YAKLAŞIKLIK: «河北悉平» bölgesel; Leshou özgü teslim günü ve 621-623 Liu Heita isyanındaki el değişimi okunmadı. Bitiş: Tang t = 907-06-01 (Zhu Wen; DEVLET_LISTESI). 907 sonrası cin2."
    },
    {
     "f": "0907-06-01",
@@ -174,9 +174,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
      {
     "f": "0881-01-01",
     "t": "0982-01-01",
-    "d": "__BOSLUK__",
+    "d": "xiazhou-dangxiang",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip xiazhou-dangxiang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"xiazhou-dangxiang\" geri yazılır) · Sima Guang, Zizhi tongjian, juan 254 (zh.wikisource.org/wiki/資治通鑑/卷254; açıldı, okundu; Zhonghe 1 / 881 bölümü): «鄜延節度使李孝昌、權夏州節度使拓跋思恭屯東渭橋，黃巢遣朱溫拒之。»; Song shi 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «唐末，拓跋思恭鎮夏州，統銀、夏、綏、宥、靜五州地，討黃巢有功，復賜李姓。» ‖ bitiş: Song shi, juan 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «繼捧立，以太平興國七年率族人入朝。…遂曲赦銀、夏管內。»; «太平興國八年，知夏州尹憲與都巡檢曹光實偵知，夜襲破之»"
+    "kaynak": "Sima Guang, Zizhi tongjian, juan 254 (zh.wikisource.org/wiki/資治通鑑/卷254; açıldı, okundu; Zhonghe 1 / 881 bölümü): «鄜延節度使李孝昌、權夏州節度使拓跋思恭屯東渭橋，黃巢遣朱溫拒之。»; Song shi 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «唐末，拓跋思恭鎮夏州，統銀、夏、綏、宥、靜五州地，討黃巢有功，復賜李姓。» ‖ bitiş: Song shi, juan 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «繼捧立，以太平興國七年率族人入朝。…遂曲赦銀、夏管內。»; «太平興國八年，知夏州尹憲與都巡檢曹光實偵知，夜襲破之»"
    },
      {
     "f": "0982-01-01",
@@ -188,9 +188,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
      {
     "f": "0988-01-01",
     "t": "0994-05-06",
-    "d": "__BOSLUK__",
+    "d": "xiazhou-dangxiang",
     "kesinlik": "ay",
-    "kaynak": "BOŞLUK BEYANI: sahip xiazhou-dangxiang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"xiazhou-dangxiang\" geri yazılır) · Song shi, juan 485 (okundu): «端拱初，…召赴闕，賜姓趙氏，更名保忠，…授夏州刺史，充定難軍節度使、夏銀綏宥靜等州觀察處置押蕃落等使» ‖ bitiş: Xiazhou kentinin yıkımı (Chunhua 5 = 994, Song Taizong’un surların yıkılıp halkın Sui-Yin’e taşınması emri): atıf; açılmadı (Song shi Taizong ben ji; web özetleri Baidu Baike — dayanak değil). BEYANLI: yerleşim 994’te terk (idarî ad kâğıt üstünde sürdü). ‖ Song shi j.5 «Taizong 2» (zh.wikisource.org/wiki/宋史/卷005; açıldı, okundu): «三月乙亥，趙保忠為趙保吉所襲，奔還夏州，指揮使趙光嗣執之以獻，李繼隆帥師入夏州。» (994 başında Xiazhou Dangxiang beyi Zhao Baozhong’un elinde; Song ordusu girene dek) | Takvim: 三月乙亥 → Jülyen 0994-05-06 (gan-zhi çevrimi; Changbian j.35’te 三月甲寅朔 = 0994-04-15)"
+    "kaynak": "Song shi, juan 485 (okundu): «端拱初，…召赴闕，賜姓趙氏，更名保忠，…授夏州刺史，充定難軍節度使、夏銀綏宥靜等州觀察處置押蕃落等使» ‖ bitiş: Xiazhou kentinin yıkımı (Chunhua 5 = 994, Song Taizong’un surların yıkılıp halkın Sui-Yin’e taşınması emri): atıf; açılmadı (Song shi Taizong ben ji; web özetleri Baidu Baike — dayanak değil). BEYANLI: yerleşim 994’te terk (idarî ad kâğıt üstünde sürdü). ‖ Song shi j.5 «Taizong 2» (zh.wikisource.org/wiki/宋史/卷005; açıldı, okundu): «三月乙亥，趙保忠為趙保吉所襲，奔還夏州，指揮使趙光嗣執之以獻，李繼隆帥師入夏州。» (994 başında Xiazhou Dangxiang beyi Zhao Baozhong’un elinde; Song ordusu girene dek) | Takvim: 三月乙亥 → Jülyen 0994-05-06 (gan-zhi çevrimi; Changbian j.35’te 三月甲寅朔 = 0994-04-15)"
    },
      {
     "f": "0994-05-06",
