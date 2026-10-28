@@ -13134,11 +13134,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"normandiya", ad:"Normandiya Dükalığı", tur:"dukalik", bolge:"bati-avrupa",
-  f:"0911-01-01", t:"1204-01-01", baskent:"Rouen", boya_gerekli:true,
+  f:"0911-01-01", t:"1204-06-24", baskent:"Rouen", boya_gerekli:true,
   alinti_f:"ceded the territory around Rouen and the mouth of the Seine River to Rollo, the chief of the largest band of Vikings, in the Treaty of St. Clair-sur-Epte (911).",
   alinti_t:"culminated in the complete conquest and annexation of Normandy by Philip in 1204.",
   ic_not_f:"Kaynak yalnız yıl verir (911); gün bilinmiyor.",
-  ic_not_t:"Kaynak yıl verir. Britannica 'Philip II' maddesi: Château-Gaillard Mart 1204'te düştü, 'Rouen, the Norman capital, surrendered in June, after 40 days' resistance.' — yani fiilî son HAZİRAN 1204. Önerilen 24 Haziran 1204 günü akademik/kurumsal kaynakta DOĞRULANAMADI (yalnız Vikipedi/medievalists.net'te geçiyor) → yazılmadı. Kural gereği 1204-01-01; koordinatör gün kaynağı bulursa düzeltmeli (01-01, Rouen düşmeden altı ay önce bitirir). Resmî İngiliz feragati Paris Antlaşması 1259.",
+  ic_not_t:"Kaynak yıl verir. Britannica 'Philip II' maddesi: Château-Gaillard Mart 1204'te düştü, 'Rouen, the Norman capital, surrendered in June, after 40 days' resistance.' — yani fiilî son HAZİRAN 1204. Önerilen 24 Haziran 1204 günü akademik/kurumsal kaynakta DOĞRULANAMADI (yalnız Vikipedi/medievalists.net'te geçiyor) → yazılmadı. Kural gereği 1204-01-01; koordinatör gün kaynağı bulursa düzeltmeli (01-01, Rouen düşmeden altı ay önce bitirir). [FRANSA-KONTROL 28 Ekim 2026: gün kaynağı bulundu — 1911 Encyclopædia Britannica 'Philip II., king of France': «it surrendered on the 24th of June 1204»; t = 1204-06-24 yapıldı, Rouen yerleşim zinciri aynı güne çekildi; öteki Normandiya şehirleri (Caen vb.) yıl hassasiyetinde 1204-01-01'de kalır.] Resmî İngiliz feragati Paris Antlaşması 1259.",
   ozet:"Fransa kralı III. Charles'ın Saint-Clair-sur-Epte Antlaşması'yla (911) Viking reisi Rollo'ya bıraktığı Aşağı Seine toprağı; 1066'dan sonra İngiltere tacıyla birleşik, 1204'te Philippe Auguste tarafından Fransa'ya ilhak edildi.",
   kaynak:"Encyclopaedia Britannica — 'Normandy' — https://www.britannica.com/place/Normandy",
   kronoloji:[
