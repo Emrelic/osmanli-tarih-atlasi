@@ -63,10 +63,10 @@ window.KRONOLOJI_COK_HOLLANDA = [
   kaynak:"Canon van Nederland, kalender 1572-04-01 \"Watergeuzen veroveren het stadje Den Briel\" · TDV `hollanda`: Geuzen birliklerinin Holland'da denetimi ele geçirmesi \"(1572)\"",
   ic_not_d:"Den Briel (Brielle) yerleşim listesinde YOK (ölçüldü) — yer_id boş." },
 
-{ t:"1576-01-01", b:"Gent Uzlaşması — Felemenk eyaletleri İspanyol askerine karşı birleşti", tur:"antlasma",
+{ t:"1576-11-08", b:"Gent Uzlaşması — Felemenk eyaletleri İspanyol askerine karşı birleşti", tur:"antlasma",
   onem:4, dunya:2, kapsam:"ic", etiket:["antlasma","din","konu-siyasi","konu-diplomasi"],
   devlet:"habsburg-hollandasi", devletler:["habsburg-hollandasi","ispanya"], yer_id:"Gent",
-  gun:"1576", ic_not_gun:"1576 (TDV yıl verir; imza günü kaynaktan doğrulanamadı)",
+  gun:"8 Kasım 1576", ic_not_gun:"TDV yalnız yıl verir (1576); gün 8 Kasım 1576 — Britannica «Pacification of Ghent» ve Eighty Years' War 1576–1579 yazıları (Antwerp'teki İspanyol Fury'sinden 4 gün sonra imza)",
   d:"Katolik ve Protestan eyaletler, İspanyol birliklerinin yağmasına karşı ortak davranmak ve din çatışmasını yatıştırmak için Gent'te uzlaştı. Birlik kalıcı olmadı: üç yıl içinde güney Arras, kuzey Utrecht birlikleriyle ikiye ayrıldı.",
   kaynak:"TDV `hollanda`: Katolik-Protestan çatışmalarının \"1576’da yapılan Gent uzlaşmasıyla\" giderilmeye çalışıldığı ve bölünmenin önlenemediği" },
 
