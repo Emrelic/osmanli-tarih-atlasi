@@ -1436,6 +1436,11 @@ BEYAN_EDILEN_BOSLUK = {
     # ⇒ BORÇ: `_sahiplik_uygula.py`ye `bos:`/`neden:` alanları eklenecek.
     #   O yapılana kadar beyan BURADA duruyor — beyanın yeri veri olmalıydı.
     ("Timbuktu", "1430-01-01", "1468-01-01"),
+    # Timbuktu 1893-1894 — tekrur künyesi 1893-01-01'de bitiyor, TDV `tinbuktu`
+    # Fransız ilhakını 1894 veriyor; aradaki yıl için kaynak YOK (uydurulmadı).
+    # SAHRA-ALTI-AFRIKA-DENETIM 28 Ekim 2026: kayıp yama yer_yama_timbuktu_tam_0906
+    # yerlesimler.js'e uygulandı; bu bir yıl BEYANDIR, eksik değil.
+    ("Timbuktu", "1893-01-01", "1894-01-01"),
     # 🔴 Cizre 1508-1515 — YEREL EMİRLİK, ve künyesi YOK. Beyan, kaynağın
     # kendi cümlesine dayanıyor; boşluk KAZA DEĞİL.
     #
