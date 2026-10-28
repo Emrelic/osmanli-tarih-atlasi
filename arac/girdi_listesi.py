@@ -749,4 +749,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ms1_1281_yeni.js",
     # DOGU-500-1281 (22 Ekim 2026) - doğu yarıküre 500-1281 yeni yerleşimler
     "yerlesimler_dogu_500_1281.js",
+    # ADALAR-PASIFIK (28-29 Ekim 2026) - Koror (Palau), Port Vila (beyanli bosluk)
+    "yerlesimler_ek_pasifik_adalar.js",
 ]
