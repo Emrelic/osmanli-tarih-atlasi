@@ -528,7 +528,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"Danişmendli Gümüştegin Gazi'nin ölümünün ardından I. Kılıcarslan, doğunun mâmur şehirlerinden Malatya'yı 1 Muharrem 500 / 2 Eylül 1106'da ele geçirdi.",
   kaynak:"selcuklular" },
 
-{ taraflar:["selcuklu"], t:"1107-01-01", b:"I. Kılıcarslan'ın Habur Nehri'nde ölümü", tur:"son",
+{ taraflar:["selcuklu"], t:"1107-07-13", b:"I. Kılıcarslan'ın Habur Nehri'nde ölümü", tur:"son",
   onem:3, dunya:2, kapsam:"dis", etiket:["Kılıcarslan", "Muhammed Tapar", "ölüm", "konu-siyasi", "konu-kisiler"],
   yer_id:"Musul",
   d:"Güneydoğu Anadolu beylerine güvenerek Büyük Selçuklu Hükümdarı Muhammed Tapar'ın Musul valisi Çavlı Sakavu ile savaşa giren I. Kılıcarslan, müttefiklerinin ayrılması üzerine esir düşmemek için Habur çayına atını sürdü ve boğularak öldü (500/1107).",
@@ -987,7 +987,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"1085 civarında Çubuk Bey tarafından kurulan Çubukoğulları Beyliği'nin merkezi olan Harput, Artuklu beyi Belek b. Behrâm tarafından ele geçirilerek bu küçük beyliğe son verildi. Böylece Harput ve çevresindeki Palu, Çemişkezek toprakları Artuklu hâkimiyetine girdi ve Harput kolunun temeli atıldı.",
   kaynak:"harput" },
 
-{ taraflar:["artuklu"], t:"1117-05-01", b:"İlgazi Halep'in idaresini ele aldı", tur:"toprak-kazanc",
+{ taraflar:["artuklu"], t:"1117-05-05", b:"İlgazi Halep'in idaresini ele aldı", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["Halep", "İlgazi", "Selçuklu", "konu-askeri"],
   yer_id:"Halep",
   d:"Haçlı baskısı altında bunalan Halep ileri gelenlerinin daveti üzerine şehre giden Necmeddin İlgazi, Muharrem 511 (Mayıs 1117) tarihinde idareyi ele aldı. Bu adımla Halep'teki Selçuklu meliklik yönetimi fiilen sona erdi ve Mardin Artukluları bölgenin en güçlü Müslüman gücü hâline geldi.",
@@ -13000,7 +13000,7 @@ window.KRONOLOJI_SAFEVI = [
   etiket:["askeri","toprak","konu-askeri"],
   d:"Dulkadıroğlu Alâüddevle Bey'in Diyarbekir'i ele geçirip Akkoyunlu Murad Bey'i yeniden tahta çıkarma girişimi üzerine Şah İsmâil Erzincan üzerinden Osmanlı topraklarına girdi, Maraş ve Elbistan'ı tahrip etti; Diyarbekir ve yöresi Safevîlere bağlandı.",
   kaynak:"TDV `safeviler`: \"Şah İsmâil 912’de (1507) Erzincan’a yöneldi. … Diyarbekir ve yöresi Safevîler’e bağlanmış oldu.\" · TDV `sah-ismail`: \"913 (1507) yılında Şah İsmâil, hâkimiyetini Diyarbekir’e doğru genişletmeye çalışan Dulkadıroğlu Alâüddevle Bey’e karşı yürüdü.\" · künyeden taşındı: devletler.js eski 1503-01-01 \"Diyarbekir, Bağdat ve Musul\" · daha önce künyede 1503-01-01 \"Diyarbekir, Bağdat ve Musul ele geçirildi\" yazılıydı, kaynaksız, YILI yanlıştı; D2'de 1507'ye düzeltilip buraya taşınmıştı; mükerrer olarak kaldırıldı", yer_id:"Diyarbakır" },
-{ t:"1508-01-01", b:"Bağdat savaşsız Safevî hâkimiyetine girdi", gun:"yıl — 914 H (Mayıs 1508 – Nisan 1509); TDV ay/gün vermiyor", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+{ t:"1508-05-01", b:"Bağdat savaşsız Safevî hâkimiyetine girdi", gun:"yıl — 914 H (Mayıs 1508 – Nisan 1509); TDV ay/gün vermiyor", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Şah İsmâil Irâk-ı Arab'a yürüdü; Bağdat hâkimi Pürnek Bârik Bey şehri terk etti, Bağdat savaşsız alındı ve şehirdeki Türkmenlerin büyük bölümü kılıçtan geçirildi. Şah ardından Kerbelâ, Necef ve Sâmerrâ'daki imam türbelerini tamir ettirdi.",
   kaynak:"TDV `sah-ismail`: \"914’te (1508) Irâk-ı Arab’a yürüdü. … Bağdat savaşsız zaptedildikten sonra şehirdeki Türkmenler’in büyük bölümü kılıçtan geçirildi.\" · TDV `safeviler`: \"Ertesi yıl Bağdat hâkimiyet altına alındı.\" · künyeden taşındı", yer_id:"Bağdat" },
