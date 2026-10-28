@@ -2091,13 +2091,13 @@ window.YERLESIMLER_EK10 = [
 window.YERLESIMLER_EK12 = [
 
 { ad:"Reykjavík", tur:"sehir", lat:64.1466, lon:-21.9426, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
+  s:[{f:"1281-01-01",t:"1918-12-01",d:"izlanda-norvec-danimarka",kaynak:"29 Ekim 2026 denetim düzeltmesi: ada tek zincir. Store norske leksikon (snl.no) ve lex.dk: Gamli sáttmáli 1262-1264 ile ada Norveç tacına bağlandı, 1380'de Norveç-Danimarka birliğine girdi, 1814 Kiel'de İzlanda Danimarka'da kaldı. Eski norvec-kralligi→danimarka 1537 ayrımı İzlanda için kaynaksızdı (dosya başlığı: tutarlılıktan); Þingvellir/Skálholt zaten izlanda-norvec-danimarka kullanıyordu (aynı adada iki renk). Dönem 1281'de başlar (çekirdek ufuk); 1262-1281 aralığı yerleşim kaydında yazılmadı."},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
 
 // ⚠️ maske: Akureyri (65,6835/−18,0878) Eyjafjörður'un dibinde ve 10m
 //    maskesi orayı deniz sayıyor; 2,2 km kuzeydoğuya çekildi. Aynı sınıf
 //    düzeltme `_ek8`de beş kayıtta daha var.
 { ad:"Akureyri", tur:"sehir", lat:65.7008, lon:-18.0635, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
+  s:[{f:"1281-01-01",t:"1918-12-01",d:"izlanda-norvec-danimarka",kaynak:"29 Ekim 2026 denetim düzeltmesi: ada tek zincir. Store norske leksikon (snl.no) ve lex.dk: Gamli sáttmáli 1262-1264 ile ada Norveç tacına bağlandı, 1380'de Norveç-Danimarka birliğine girdi, 1814 Kiel'de İzlanda Danimarka'da kaldı. Eski norvec-kralligi→danimarka 1537 ayrımı İzlanda için kaynaksızdı (dosya başlığı: tutarlılıktan); Þingvellir/Skálholt zaten izlanda-norvec-danimarka kullanıyordu (aynı adada iki renk). Dönem 1281'de başlar (çekirdek ufuk); 1262-1281 aralığı yerleşim kaydında yazılmadı."},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
 
 // ── DOĞU GRÖNLAND — pencerenin tamamında sahipsiz ───────────────────
 // ONAYLANDI, VARSAYILMADI: Norse yerleşimleri adanın GÜNEYBATI kıyısındaydı

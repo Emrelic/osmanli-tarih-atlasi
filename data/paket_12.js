@@ -816,7 +816,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"Malatya doğumlu mutasavvıf Sadreddin Konevî, hocası İbnü'l-Arabî'nin ölümünden sonra yaklaşık 1241'de Konya'ya yerleşti; burada devlet adamları ve âlimlerle yakın ilişkiler kurdu, Mevlânâ Celâleddîn-i Rûmî ile yakın dostluk geliştirdi.",
   kaynak:"sadreddin-konevi" },
 
-{ taraflar:["selcuklu"], t:"1243-06-26", b:"Kösedağ Savaşı'nda Moğollara ağır yenilgi", tur:"savas",
+{ taraflar:["selcuklu"], t:"1243-07-01", b:"Kösedağ Savaşı'nda Moğollara ağır yenilgi", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["Kösedağ", "Moğollar", "yenilgi", "konu-askeri"],
   yer_id:"",
   d:"II. Gıyâseddin Keyhusrev komutasındaki Selçuklu ordusu, Sivas-Erzincan arasındaki Kösedağ'da Moğol kumandanı Baycu Noyan'ın kuvvetlerine ağır bir yenilgiye uğradı. Bozgun, Anadolu Selçuklu Devleti'nin bağımsız bir güç olarak sonunun başlangıcı sayılır; ardından gelen tâbiiyet antlaşmasıyla devlet fiilen Moğol/İlhanlı vesayetine girdi.",
