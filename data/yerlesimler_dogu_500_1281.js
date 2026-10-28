@@ -1501,9 +1501,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0426-09-08",
     "t": "0810-01-01",
-    "d": "__BOSLUK__",
+    "d": "quirigua",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip quirigua (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"quirigua\" geri yazılır) · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Quirigua»: \"8 September 426\" … \"The Quirigua kingdom was thus from its very inception\" … \"June 810\" | BEYANLI YAKLAŞIKLIK: 426-738 arası Copán hegemonyası altında müşteri krallık (kendi kralı vardı; M&G); harita sahibi quirigua bırakıldı, Copán'a ait sayılmadı."
+    "kaynak": "SAHİP quirigua: BOYALAR'a eklendi (BOYA PAKETİ), BOŞLUK BEYANI geri yazıldı (AMERİKA-ÖN1281 (29 Ekim 2026)) — dayanak aşağıdadır · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Quirigua»: \"8 September 426\" … \"The Quirigua kingdom was thus from its very inception\" … \"June 810\" | BEYANLI YAKLAŞIKLIK: 426-738 arası Copán hegemonyası altında müşteri krallık (kendi kralı vardı; M&G); harita sahibi quirigua bırakıldı, Copán'a ait sayılmadı."
    },
    {
     "f": "0810-01-01",
@@ -1530,9 +1530,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0750-01-01",
     "t": "1075-01-01",
-    "d": "__BOSLUK__",
+    "d": "sican",
     "kesinlik": "yuzyil",
-    "kaynak": "BOŞLUK BEYANI: sahip sican (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"sican\" geri yazılır) · Encyclopedia.com, 'Sican', https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sican (curl ile okundu; yazar sayfada dogrulanmadi) | «The term Sican has been adopted to refer to the archaeological culture that emerged in the Batan Grande region following the demise of the Moche culture around 700-750 ce.» · «The culture's preeminence came to an end around 1050 ce. Temples at the capital of Sican were burned» ‖ Trafficking Culture Encyclopedia (Univ. of Glasgow), «Batán Grande», https://traffickingculture.org/encyclopedia/case-studies/batan-grande/ (açıldı 22.10.2026): «Batán Grande was largely abandoned between 1050 and 1100 AD, the result of thirty years of severe drought» (metin kaynak göstermiyor; Shimada açılmadı); Atwood, R., «The Rape of Batán Grande», Archaeology 60(4), 2007 (AIA arşiv özeti): «a civilization known as Sicán that lasted from A.D. 800 to 1375 in northern Peru» | devam: Sicán çizgisi sürüyor (aynı sahip)"
+    "kaynak": "SAHİP sican: BOYALAR'a eklendi (BOYA PAKETİ), BOŞLUK BEYANI geri yazıldı (AMERİKA-ÖN1281 (29 Ekim 2026)) — dayanak aşağıdadır · Encyclopedia.com, 'Sican', https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sican (curl ile okundu; yazar sayfada dogrulanmadi) | «The term Sican has been adopted to refer to the archaeological culture that emerged in the Batan Grande region following the demise of the Moche culture around 700-750 ce.» · «The culture's preeminence came to an end around 1050 ce. Temples at the capital of Sican were burned» ‖ Trafficking Culture Encyclopedia (Univ. of Glasgow), «Batán Grande», https://traffickingculture.org/encyclopedia/case-studies/batan-grande/ (açıldı 22.10.2026): «Batán Grande was largely abandoned between 1050 and 1100 AD, the result of thirty years of severe drought» (metin kaynak göstermiyor; Shimada açılmadı); Atwood, R., «The Rape of Batán Grande», Archaeology 60(4), 2007 (AIA arşiv özeti): «a civilization known as Sicán that lasted from A.D. 800 to 1375 in northern Peru» | devam: Sicán çizgisi sürüyor (aynı sahip)"
    }
   ],
   "not": "kur: KURULUŞ DEĞİL; Sicán kültürünün Batán Grande bölgesinde ortaya çıkışı (700-750). Atlas sican künyesi f=0750 ile uyumlu. t=1050: ana kron'daki 'Batán Grande büyük oranda terk edildi (1050-1100)' maddesinin ilk ucu.",
@@ -1552,9 +1552,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0950-01-01",
     "t": "1521-01-01",
-    "d": "__BOSLUK__",
+    "d": "tilantongo-mixtek",
     "kesinlik": "yuzyil",
-    "kaynak": "BOŞLUK BEYANI: sahip tilantongo-mixtek (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tilantongo-mixtek\" geri yazılır) · Pohl, J., 'Mixtec Group Codices', FAMSI, https://www.famsi.org/research/pohl/jpcodices/pohlmixtec1.html (curl ile okundu) | «The Mixtecs rose to power in southern México during Mesoamerica's PostClassic period between A.D. 950-1521.» · «genealogy for the first dynasty of Tilantongo» (tarihsiz)"
+    "kaynak": "SAHİP tilantongo-mixtek: BOYALAR'a eklendi (BOYA PAKETİ), BOŞLUK BEYANI geri yazıldı (AMERİKA-ÖN1281 (29 Ekim 2026)) — dayanak aşağıdadır · Pohl, J., 'Mixtec Group Codices', FAMSI, https://www.famsi.org/research/pohl/jpcodices/pohlmixtec1.html (curl ile okundu) | «The Mixtecs rose to power in southern México during Mesoamerica's PostClassic period between A.D. 950-1521.» · «genealogy for the first dynasty of Tilantongo» (tarihsiz)"
    },
    {
     "f": "1521-01-01",
@@ -1601,9 +1601,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0800-01-01",
     "t": "1100-01-01",
-    "d": "__BOSLUK__",
+    "d": "el-tajin",
     "kesinlik": "yuzyil",
-    "kaynak": "BOŞLUK BEYANI: sahip el-tajin (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"el-tajin\" geri yazılır) · UNESCO WHC 631 'El Tajin, Pre-Hispanic City', https://whc.unesco.org/en/list/631/ (curl ile okundu) | «there was only one phase of occupation lasting from 800 to 1200 A.D.»; t=1100 ms1 künyesi (Diehl, FAMSI; UNESCO 1200 ile çelişki ic_not'ta)"
+    "kaynak": "SAHİP el-tajin: BOYALAR'a eklendi (BOYA PAKETİ), BOŞLUK BEYANI geri yazıldı (AMERİKA-ÖN1281 (29 Ekim 2026)) — dayanak aşağıdadır · UNESCO WHC 631 'El Tajin, Pre-Hispanic City', https://whc.unesco.org/en/list/631/ (curl ile okundu) | «there was only one phase of occupation lasting from 800 to 1200 A.D.»; t=1100 ms1 künyesi (Diehl, FAMSI; UNESCO 1200 ile çelişki ic_not'ta)"
    },
    {
     "f": "1100-01-01",
