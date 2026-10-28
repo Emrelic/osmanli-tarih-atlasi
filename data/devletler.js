@@ -3454,7 +3454,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"tuareg-air", ad:"Aïr Tuareg Sultanlığı (Kel Ayr)", tur:"sultanlik", bolge:"bati-afrika",
-  f:"1405-01-01", t:"1900-01-01", baskent:"Agadez",
+  f:"1405-01-01", t:"1906-01-01", ic_not_t:"1900 → 1906 (2. tur, 29 Ekim 2026): 1900 kaynaksız yuvarlak gündü; TDV nijer Agadez’in Fransız işgalini 1906 verir (sınıf ② aynı polity sürüyor → künye GENİŞLETİLDİ).", baskent:"Agadez",
   ozet:"Aïr dağlarında Agadez sultanı ve Kel Ewey · Kel Fervan konfederasyonlarının paylaştığı, tuz ve kervan ticaretine dayanan yapı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Agadez sultanlığı ve Kel Ewey · Kel Fervan konfederasyonları; İn Gall · Fachi · Arlit tuz-kervan sahası.",
   kronoloji:[
@@ -3462,7 +3462,7 @@ window.DEVLETLER = [
     { odak_yer:["Agadez"], t:"1461-01-01", tur:"hukumdar", b:"Kurucu Sultan Yunus, başkenti Tadaliza'dan Agadez'e taşıdı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sultanate of Agadez') doğrulandı." },
     { odak_yer:["Agadez"], t:"1500-01-01", tur:"isgal", b:"Agadez Sultanlığı Songhay İmparatorluğu tarafından fethedildi (yıl kaynağa göre).", kaynak:"Minahan, Encyclopedia of Stateless Nations / Sultanate of Agadez, 2016, s.418 (aktaran en.wikipedia.org/wiki/Sultanate_of_Agadez)" },
     { odak_yer:["Agadez"], t:"1850-01-01", tur:"felaket", b:"Heinrich Barth Agadez'i ziyaret edip şehri nüfusu çok azalmış, harap bir hâlde gördü.", kaynak:"Heinrich Barth, Travels and Discoveries in North and Central Africa, 1857-58 (Agadez bölümü)" },
-    { odak_yer:["Agadez"], t:"1900-01-01", tur:"son", b:"Fransız işgaline uğradı" }
+    { odak_yer:["Agadez"], t:"1906-01-01", tur:"son", b:"Fransız işgaline uğradı (Agadez, 1906)", kaynak:"TDV İslâm Ansiklopedisi «Nijer»: «Fransızlar, Agâdes’i işgal edip … (1906)»" }
   ]
 },
 { id:"tuareg-adag", ad:"Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas)", tur:"devlet", bolge:"bati-afrika",
@@ -9135,7 +9135,7 @@ window.DEVLETLER = [
     { odak_yer:["Cayenne"], t:"1979-12-24", tur:"siyaset", b:"Kourou'dan ilk Ariane roketi fırlatıldı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
     { odak_yer:["Cayenne"], t:"1982-03-02", tur:"siyaset", b:"Ademi merkeziyet kanunuyla Guyana bölge (region) statüsü ve seçilmiş bölge meclisi kazandı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" }
   ] },
-{ id:"agadez-sultanligi", ad:"Agadez (Aïr) Sultanlığı — Tuareg", bolge:"bati-afrika", f:"1405-01-01", t:"1923-10-29",
+{ id:"agadez-sultanligi", ad:"Agadez (Aïr) Sultanlığı — Tuareg", bolge:"bati-afrika", f:"1405-01-01", t:"1906-01-01", ic_not_t:"1923-10-29 pencere işaretiydi; TDV nijer: Fransız işgali 1906 (2. tur, 29 Ekim 2026). Sultanlık unvanı 1917’ye dek sürer (künye ozet).",
   ozet:"1405'te yerel Tuareg boyları arasında arabuluculuk için kurulan Aïr Sultanlığı; 1500-1591 Songhay tâbiiyetinde kaldı, sonra yeniden bağımsızlaştı, 1906'da Fransız himayesine girdi (fiilî sömürge yönetimi ancak 1917'de, ayaklanmalar bastırıldıktan sonra).",
   kaynak:"🔴 TDV 'air' YANILTICI ÇIKTI — o madde Medine yakınındaki bir DAĞ hakkında (Âir dağı, hadis bağlamı), Agadez/Aïr Sultanlığı İLE İLGİSİ YOK (200≠madde tuzağı, raw HTML okunarak elendi). 'agades' TDV'de 302 ÖLÜ. TDV bu coğrafyayı (Batı Afrika Sahra-altı) kapsamıyor. Standart akademik: Britannica 'Agadez' + Wikipedia 'Sultanate of Agadez'.",
   kronoloji:[
