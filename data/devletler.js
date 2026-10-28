@@ -1746,8 +1746,8 @@ window.DEVLETLER = [
 },
 { id:"portekiz", ad:"Portekiz Krallığı", tur:"krallik", bolge:"iberya",
   f:"1097-01-01", ic_not_f:"Kaynaklar çelişir: GEC 'Portugal' 1097 (kontluk bağışı); TDV 'Portekiz' 'Portekiz’in müstakil bir devlet haline gelişi 1095’ten itibaren başladı'; GEC 'Enric de Borgonya' evliliği 'vers el 1094' verir. 1097 seçildi çünkü bağışı açıkça tarihleyen tek cümle odur; gün yok → 01-01. Şartnamedeki '1096 civarı' hiçbir açtığım kaynakta geçmiyor. 1097-1128 arası kontluk León-Kastilya hükümdarına tâbidir (hükümdarı Henri, sonra dul Teresa 1114-28); harita için bu dönem tâbi (v:kid) olarak işlenebilir.", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Lizbon", harita:"portekiz",
-  ozet:"Hint Okyanusu'nda Osmanlı'nın 16. yüzyıl rakibi: Kızıldeniz, Basra Körfezi ve Umman kıyılarında donanmalar çarpıştı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
-  kaynak:"portekiz",
+  ozet:"Terra Portucalensis kontluğundan (Henri ve Teresa, 1097) doğan, I. Alfons döneminde Zamora Antlaşması'yla (1143) krallık olarak tanınan ve Lizbon'u 1147'de alarak merkez yapan İber krallığı; III. Alfons döneminde (1245-1279) bugünkü sınırlarına ulaştı, 1581-1640 arası İspanya ile şahsî birlik içinde kaldı. Hint Okyanusu'nda Osmanlı'nın 16. yüzyıl rakibi: Kızıldeniz, Basra Körfezi ve Umman kıyılarında donanmalar çarpıştı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
+  kaynak:"TDV İslâm Ansiklopedisi, «Portekiz» (https://islamansiklopedisi.org.tr/portekiz): «Portekiz’in müstakil bir devlet haline gelişi 1095’ten itibaren başladı», 1143 Zamora, «Üşbûne ... 1147’de zaptedilince yeni krallığın merkezi oldu», «Müslümanlar III. Alfons devrinde (1245-1279) güneye doğru geri çekilmeye zorlandı», «1640 yılına kadar devam edecek şahsî bir birlik»; Gran Enciclopèdia Catalana, «Alfons I de Portugal» (1139 sonrası kral unvanı, 1143 Zamora). · IBER-KRON-1028",
   kronoloji:[
     { odak_yer:["Lizbon"], t:"1507-01-01", tur:"toprak-kazanc", b:"Hürmüz ve Umman kıyılarını aldı" },
     { t:"1538-08-04", tur:"savas", b:"Hadım Süleyman Paşa'nın Diu kuşatması — Osmanlı-Portekiz savaşlarının zirvesi" },
