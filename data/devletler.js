@@ -746,11 +746,11 @@ window.DEVLETLER = [
   ozet:"Bağımsız Macar krallığı (hanedan ömrü, Árpádlardan başlayıp çeşitli hanedanlarla sürdü); Mohaç bozgunuyla (29 Ağustos 1526) bağımsızlığını kaybetti, toprakları Osmanlı, Habsburg ve Erdel arasında bölündü.",
   kaynak:"macaristan",
   kronoloji:[
-    { odak_yer:["Ösek (Osijek)"], t:"1000-01-01", tur:"kurulus", b:"I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu" },
+    { odak_yer:["Estergon"], t:"1000-01-01", tur:"kurulus", b:"I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu" },
     { t:"1301-01-14", tur:"bolunme", b:"III. András'ın ölümüyle Árpád hanedanı sona erdi, seçimli krallık dönemi başladı" },
     { t:"1387-03-31", tur:"hukumdar", b:"Luxemburglu Zsigmond (Sigismund) tahta çıktı" },
     { t:"1396-09-25", tur:"savas", b:"Niğbolu Haçlı Seferi'ne öncülük etti" },
-    { odak_yer:["Ösek (Osijek)"], t:"1443-11-01", tur:"savas", b:"Hunyadi'nin Osmanlı'ya yenilgisi — İzladi" },
+    { odak_yer:["Niş"], t:"1443-11-01", tur:"savas", b:"Hunyadi'nin Osmanlı'ya yenilgisi — İzladi" },
     { t:"1456-07-22", tur:"savas", b:"Belgrad'ı savunarak II. Mehmed'i geri püskürttü" },
     { t:"1458-01-24", tur:"hukumdar", b:"Hunyadi Mátyás (Corvinus) tahta çıktı, altın çağ başladı" },
     { t:"1490-04-06", tur:"hukumdar", b:"Mátyás'ın ölümüyle Jagiellon hanedanı tahta geçti, merkezi otorite zayıfladı" },
