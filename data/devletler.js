@@ -6552,7 +6552,7 @@ window.DEVLETLER = [
   ozet:"III. Fernando'nun León ile birleştirdiği, Reconquista'nın öncüsü olan İber krallığı; Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu (bkz. [[ispanya]]).",
   kaynak:"kastilya--ispanya",
   kronoloji:[
-    { odak_yer:["Toledo"], t:"1230-09-23", tur:"birlesme", b:"III. Fernando, Kastilya ve León taçlarını kalıcı olarak birleştirdi" },
+    { odak_yer:["Toledo"], t:"1230-09-24", tur:"birlesme", b:"III. Fernando, Kastilya ve León taçlarını kalıcı olarak birleştirdi" },
     { odak_yer:["Toledo"], t:"1340-10-30", tur:"savas", b:"Río Salado Savaşı'nda Merînî-Gırnata ittifakını yendi" },
     { odak_yer:["Toledo"], t:"1469-10-19", tur:"birlesme", b:"İsabel, Aragon veliaht prensi Fernando ile evlendi" },
     { odak_yer:["Toledo"], t:"1479-01-19", tur:"son", b:"Fernando Aragon tahtına çıkınca iki taç fiilen birleşti (bkz. [[aragon]], [[ispanya]])", kaynak:"DBE (RAH), 'Juan II de Aragón y de Navarra': «Barcelona, 19.I.1479» — gün 14 Ekim 2026 Emre kararıyla düzeltildi (eski: 1479-01-20)" },
@@ -13089,11 +13089,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"leon-kralligi", ad:"León Krallığı", tur:"krallik", bolge:"iberya",
-  f:"0910-01-01", t:"1230-09-23", baskent:"León", boya_gerekli:true,
+  f:"0910-01-01", t:"1230-09-24", baskent:"León", boya_gerekli:true,
   alinti_f:"A la mort d’Alfons III la divisió del regne entre els seus fills donà origen al regne lleonès, en succeir-lo, en terres de Lleó, Àlaba i Castella, Garcia I (910-914)",
   alinti_t:"Amb Ferran III s’uniren definitivament els regnes de Lleó i Castella (1230).",
   ic_not_f:"Kaynak yalnız yıl verir (III. Alfonso'nun ölümü / I. García'nın tahta çıkışı, 910). Gün bilinmediği için 0910-01-01 (pad). Şartnamede anılan 914 (başkentin León'a taşınması / II. Ordoño) kaynakta krallık kuruluşu olarak geçmiyor.",
-  ic_not_t:"Kaynak yalnız YIL (1230) verir. 1230-09-23 günü KAYNAK DEĞİLDİR: atlastaki kastilya künyesinin f günüdür ve boşluk açmamak için DEVRALINDI (D213: kaba tarih künye penceresi dışına düşerse künyenin günü devralınır, kaynaksızlığı bildirilir). Kastilya f'sinin kendi kaynağı doğrulanmadı — koordinatör kontrol etmeli. ŞAHSÎ BİRLİK DÖNEMLERİ (GEC 'regne de Lleó'): 1037-1065 I. Fernando (Kastilya+León); 1065-1072 II. Alfonso ayrı León kralı ('a excepció dels anys de regnat lleonès d’Alfons VI (1065-72)'); 1072-1157 Kastilya ile birlikte (VI. Alfonso, Urraca, VII. Alfonso); 1157-1230 bağımsız (II. Fernando 1157-88, IX. Alfonso 1188-1230). Harita için öneri: 1037-1065 ve 1072-1157 arası León toprakları kastilya kimliğiyle (ya da ortak renk) boyanmalı; künye yine de 910-1230 tek parça tutulur (unvan ve krallık süreklidir).",
+  ic_not_t:"Birleşme YILI kaynakta 1230'dur (GEC «regne de Lleó»). GÜN: eski 1230-09-24 kaynaksızdı (kastilya künyesinden devralınmıştı); yerine IX. Alfonso'nun ölüm günü 1230-09-24 alındı — III. Fernando babasının ölümüyle León tahtına geçti (Gran Enciclopèdia Catalana, «Alfons IX de Lleó»: «Villanueva de Sarria, 24 de setembre de 1230» (ölüm günü); «regne de Lleó»: «Amb Ferran III s’uniren definitivament els regnes de Lleó i Castella (1230)» (yıl)). Birleşmenin kendi günü kaynakta yok; ölüm günü yaklaşıklık olarak beyan edilir. (IBER-KRON-1028) ŞAHSÎ BİRLİK DÖNEMLERİ (GEC 'regne de Lleó'): 1037-1065 I. Fernando (Kastilya+León); 1065-1072 II. Alfonso ayrı León kralı ('a excepció dels anys de regnat lleonès d’Alfons VI (1065-72)'); 1072-1157 Kastilya ile birlikte (VI. Alfonso, Urraca, VII. Alfonso); 1157-1230 bağımsız (II. Fernando 1157-88, IX. Alfonso 1188-1230). Harita için öneri: 1037-1065 ve 1072-1157 arası León toprakları kastilya kimliğiyle (ya da ortak renk) boyanmalı; künye yine de 910-1230 tek parça tutulur (unvan ve krallık süreklidir).",
   ozet:"Asturias Krallığı'nın Duero vadisine uzanan devamı olarak 910'da III. Alfonso'nun ölümüyle ayrı krallık oldu; 1037-1157 arası (1065-1072 hariç) Kastilya ile aynı hükümdar altındaydı, 1157-1230 arası yeniden bağımsızdı ve 1230'da III. Fernando döneminde Kastilya ile kesin olarak birleşti.",
   kaynak:"Gran Enciclopèdia Catalana — 'regne de Lleó' — https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
   kronoloji:[
@@ -13106,7 +13106,7 @@ window.DEVLETLER = [
     { odak_yer:["Zamora"], t:"1157-08-21", tur:"bolunme", b:"VII. Alfonso öldü; vasiyetine göre Kastilya III. Sancho'ya, Leon ve Galiçya II. Fernando'ya kaldı ve iki krallık yeniden ayrıldı.", kaynak:"https://www.britannica.com/biography/Alfonso-VII ; https://www.britannica.com/print/article/14701" },
     { odak_yer:["Zamora"], t:"1188-01-01", tur:"hukumdar", b:"IX. Alfonso León tahtına çıktı (1188-1230)" },
     { odak_yer:["Zamora"], t:"1188-01-01", tur:"siyaset", b:"IX. Alfonso Leon Cortes'ini topladı; şehir temsilcilerinin de katıldığı bu meclisin Decreta'sı UNESCO tarafından Avrupa'da belgelenmiş en eski parlamento örneği sayılır (kaynak yılı verir, gün yok).", kaynak:"https://media.unesco.org/sites/default/files/webform/mow001/spain_decreta_of_leon.pdf" },
-    { odak_yer:["Zamora"], t:"1230-09-23", tur:"birlesme", b:"III. Fernando León ve Kastilya'yı kesin olarak birleştirdi: León Krallığı Kastilya Tacı'na katıldı" }
+    { odak_yer:["Zamora"], t:"1230-09-24", tur:"birlesme", b:"III. Fernando León ve Kastilya'yı kesin olarak birleştirdi: León Krallığı Kastilya Tacı'na katıldı" }
   ]
 },
 { id:"barselona-kontlugu", ad:"Barselona Kontluğu (Katalan kontlukları)", tur:"kontluk", bolge:"iberya",
