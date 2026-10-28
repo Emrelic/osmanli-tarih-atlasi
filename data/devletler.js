@@ -1101,6 +1101,16 @@ window.DEVLETLER = [
     { odak_yer:["Szatmár"], t:"1711-04-29", tur:"son", b:"Szatmár Antlaşması ile kesin olarak Habsburg'a bağlandı", kaynak:"Magyar Nemzeti Levéltár 'A szatmári béke': '1711. április 29-én Nagykárolyban írta alá' (KRONO-ORTA-AVRUPA-0929 A1)" }
   ]
 },
+{ id:"dobruca-despotlugu", ad:"Dobruca Prensliği (Dobrotiç Devleti)", tur:"prenslik", bolge:"balkanlar",
+  f:"1359-01-01", t:"1393-09-01", baskent:"Karvuna (Balçık) → Varna",
+  ozet:"Balik ve kardeşi Dobrotiç'in Karadeniz kıyısında kurduğu hıristiyan Türk (Gagauz) prensliği; adını Dobruca'ya veren devlet. Varna 1369'dan başşehri; oğlu Ivanko zamanında Osmanlı'ya geçti. f = TDV'deki İLK TARİHLİ TANIKLIK (1359, Dobrotiç'in Kuzey Dobruca'yı işgali), KURULUŞ DEĞİL — Balik dönemi daha eskidir, yılı TDV'de yok. t = atlasın Dobruca katılış kırılması (1393-09-01; TDV varna: '795'te (1393) Osmanlı hâkimiyetine alındı'). TDV balcik ise 'Balçık bütün Dobruca ile birlikte Temmuz 1389'dan sonra Osmanlılar'ın idaresi altına girdi' der — TDV kendi içinde çelişir (iki madde de M. Kiel'in); 1389 Ivanko'nun son tanıklığı ve Mircea'nın 1390 'Dobrotiç topraklarının despotu' unvanı ile uyumlu, 1393 Varna kalesi ve atlasın yerleşim zinciri ile uyumlu. Künye t zincirle hizalı genişletildi (aynı polity sürüyor); 1389 okuması istenirse yerleşim dönemleri ve olaylar_ek.js 1393 maddesi birlikte değişmelidir.",
+  kaynak:"TDV dobruca (K. Karpat): 'Balik'in Dobrotiç adındaki kardeşi … 1359'da Kuzey Dobruca'yı işgal ederek' · 'Burada ilk müstakil devleti kuran Dobrotiç bölgeye kendi adını vermiş' · 'Dobrotiç'in oğlu Ivanko' · TDV varna (M. Kiel): '1369'dan itibaren Varna hıristiyan Türkler'e ait Dobruca Prensliği'nin bir parçası haline geldi ve bu küçük devletin başşehri yapıldı' · '795'te (1393) Osmanlı hâkimiyetine alındı' · TDV balcik (M. Kiel): Karvuna 'Despotu Balik'in (Balika) ikametgâhı idi' · 'Temmuz 1389'dan sonra' · TDV kostence (B. Murgescu): 'XIV. yüzyılda şehir önce Dobrotici Devleti'ne ait' · denetim/PAKET-0076-DOBROTIC-1004.md",
+  kronoloji:[
+    { odak_yer:["Köstence"], t:"1359-01-01", tur:"kurulus", b:"Dobrotiç Kuzey Dobruca'yı işgal etti — TDV'deki ilk tarihli tanıklık (kuruluş yılı değil)", kaynak:"TDV dobruca" },
+    { odak_yer:["Varna"], t:"1369-01-01", tur:"toprak-kazanc", b:"Varna prensliğe katıldı ve başşehir yapıldı", kaynak:"TDV varna" },
+    { odak_yer:["Köstence"], t:"1393-09-01", tur:"son", b:"Dobruca Osmanlı idaresine girdi (TDV varna 1393; TDV balcik 'Temmuz 1389'dan sonra' — çelişki künye özetinde)", kaynak:"TDV varna · balcik" }
+  ]
+},
 { id:"mora-despotlugu", ad:"Mora Despotluğu", tur:"prenslik", bolge:"balkanlar",
   f:"1349-01-01", t:"1460-05-31", baskent:"Mystras",
   ozet:"Bizans'ın son eyaleti (hanedan ömrü, Palaiologos kolu); 1349'da İmparator Kantakuzenos'un oğluna ayırdığı bölgeden doğdu, 1460'ta Despot Dimitrios'un teslimiyle Osmanlı'ya katıldı.",
