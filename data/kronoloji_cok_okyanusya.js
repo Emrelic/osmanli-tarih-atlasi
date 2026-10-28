@@ -313,4 +313,11 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   gun:"30 Temmuz 1980 (Office of the Historian)",
   ic_not_d:"Doğrulama 29 Ekim 2026: gün Office of the Historian ile doğrulandı. Kondominyumun 1906 başlangıç günü (20 Ekim) UK Parlamentosu antlaşma kaydının arama özetinden gelir, kayıt sayfası 500 verdi." },
 
+{ t:"1899-11-17", b:"İspanya Kuzey Mariana Adaları'nın idaresini Almanya'ya fiilen devretti (Saipan)", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","toprak-kazanc","almanya"], yer_id:"Garapan (Saipan)", taraflar:["ispanya","almanya"],
+  d:"İspanya, 12 Şubat 1899 tarihli İspanyol-Alman Antlaşması'yla Karolin, Marshall'ın bir kısmı ve Kuzey Marianalar'ı Almanya'ya satmıştı; Saipan'da idare 17 Kasım 1899'da resmen Almanlara devredildi. Aynı süreçte Tinian ve Rota da Alman idaresine geçti.",
+  kaynak:"D.H.R. Spennemann (Charles Sturt University), «Introduction», CNMI Bibliography (marshall.csu.edu.au/CNMI/CNMIBIB/Introduction.html): «On 17 November 1899 at four in the afternoon, the Spanish government formally handed the reigns of administration» (Saipan kaydındaki alıntı; sayfa bu oturumda yeniden açılmadı).",
+  gun:"17 Kasım 1899 (Spennemann)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: gün Garapan kaydındaki alıntıdan devralındı. Antlaşma imza günü 12 Şubat 1899 kronoloji_sinir_nokta3'te ayrı maddedir (satış kararı); bu madde fiilî devri anlatır. «Tinian ve Rota da geçti» cümlesi kaynakta ayrıca okunmadı (aynı idarenin kapsamı)." },
+
 ];

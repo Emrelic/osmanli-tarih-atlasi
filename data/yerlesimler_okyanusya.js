@@ -37,9 +37,9 @@ window.YERLESIMLER_OKYANUSYA = [
 // --------------------------------------------------------------------
 
 { ad:"Noumea (Yeni Kaledonya)", tur:"sehir", lat:-22.27, lon:166.44, g:1, k:1,
-  kur:"1854-01-01",
-  kaynak:"Encyclopaedia Britannica, 'New Caledonia: History' ve 'Nouméa'; ayrıca Journal de la Société des Océanistes, 'Chronologie de Kanaky Nouvelle-Calédonie (1774-2018)' (hakemli): \"on 24 September 1853, France took possession of 'Grande Terre'\"; Noumea 1854'te Port-de-France adıyla kuruldu. ⚠️ `fransa` künyesi 1792'de bittiği için `fransa-cumhuriyet` kullanıldı — `fransa` yazılsaydı HAYALET olurdu.",
-  s:[{f:"1854-01-01",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
+  kur:"1854-06-25",
+  kaynak:"KURULUŞ GÜNÜ (29 Ekim 2026, sayfa AÇILDI): Roger Laroque, «Nouméa», Revue historique des Armées 21/3 (1965) 170-171 (persee.fr/doc/rharm_0035-3299_1965_num_21_3_6439): «Nouméa, fut fondée le 25 juin 1854 par le capitaine de vaisseau Tardy de Montravel» (Port-de-France). Başka kaynaklar kurucu olarak Febvrier-Despointes'i anar; gün aynı. Encyclopaedia Britannica, 'New Caledonia: History' ve 'Nouméa'; ayrıca Journal de la Société des Océanistes, 'Chronologie de Kanaky Nouvelle-Calédonie (1774-2018)' (hakemli): \"on 24 September 1853, France took possession of 'Grande Terre'\"; Noumea 1854'te Port-de-France adıyla kuruldu. ⚠️ `fransa` künyesi 1792'de bittiği için `fransa-cumhuriyet` kullanıldı — `fransa` yazılsaydı HAYALET olurdu.",
+  s:[{f:"1854-06-25",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
 
 { ad:"Tulagi", tur:"sehir", lat:-9.0938, lon:160.1497, g:1, k:1,
   kur:"1893-01-01",

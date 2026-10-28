@@ -111,7 +111,7 @@ window.YERLESIMLER_A78_OKYANUSYA = [
   kasitli_bosluk:true, bos:"veri-yok",
   neden:"1888 öncesi Cook Adaları için künye yok; kaynak susuyor.",
   kaynak:"Britannica 'Cook Islands': \"The British government eventually complied in 1888\" (himaye; YIL hassasiyeti — 27 Eylül/27 Ekim 1888 adayları yalnız Vikipedi'de). NZ: New Zealand Legislation, 'Cook, etc, Islands Boundaries and Inclusion in New Zealand Proclamation 1901' (SR 1901/531, legislation.govt.nz/regulation/imperial/1901/0531/4.0/DLM1101.html): \"do hereby proclaim and appoint 11 June 1901 to be the date on and after which the boundaries of the Colony shall be and be deemed to be extended\".",
-  s:[{f:"1888-01-01",t:"1901-06-11",d:"ingiltere"},{f:"1901-06-11",t:"2000-12-31",d:"yeni-zelanda"}] },
+  s:[{f:"1888-01-01",t:"1901-06-11",d:"ingiltere",kesinlik:{f:"yil",t:"gun"},kaynak:"Başlangıç YIL hassasiyetinde: Britannica «Cook Islands» (1888) ve Te Ara, Pacific Islands and New Zealand (arama özeti: güney adalar 1888'de İngiliz himayesi, High Commissioner of the Western Pacific altında; PacLII Cook Islands legal history). Gün (27 Ekim?) hiçbir hakemli/kurumsal kaynakta bulunamadı. Bitiş: SR 1901/531 bildirisi, 11 Haziran 1901."},{f:"1901-06-11",t:"2000-12-31",d:"yeni-zelanda"}] },
 
 { ad:"Hagåtña (Agaña)", tur:"sehir", lat:13.4748, lon:144.7516, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
