@@ -749,4 +749,7 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ms1_1281_yeni.js",
     # DOGU-500-1281 (22 Ekim 2026) - doğu yarıküre 500-1281 yeni yerleşimler
     "yerlesimler_dogu_500_1281.js",
+    # ADALAR-ATLANTIK-KUZEY (28 Ekim 2026) - noktasız Atlantik adaları: Norse Grönland, Kanarya,
+    # Madeira, Azorlar, Yeşil Burun, São Tomé, Bioko, St Helena, Ascension, Tristan, Falkland, Bermuda, Jan Mayen
+    "yerlesimler_ek_atlantik_adalar.js",
 ]
