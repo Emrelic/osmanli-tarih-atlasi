@@ -5707,6 +5707,11 @@ window.DEVLETLER = [
     { odak_yer:["Okayama"], t:"1905-09-05", tur:"savas", b:"Rus-Japon Savaşı'nı kazanarak büyük güç statüsü kazandı" },
     { odak_yer:["Okayama"], t:"1910-08-29", tur:"toprak-kazanc", b:"Kore'yi ilhak etti", ic_not_b:"eski b: Kore'yi ilhak etti (bkz. [[joseon]])" },
     { odak_yer:["Okayama"], t:"1945-09-02", tur:"son", b:"Japon İmparatorluğu Tokyo Körfezi'nde teslim belgesini imzaladı, Müttefik işgali başladı.", kaynak:"https://en.wikipedia.org/wiki/Occupation_of_Japan (teyit: Agawa ifadesi, judiciary.senate.gov)" },
+    { odak_yer:["Manila"], t:"1942-01-02", tur:"isgal", b:"Japon kuvvetleri direnişsiz Manila'ya girdi; Filipinler'in Japon askerî işgali başladı (Bataan 9 Nisan, Corregidor 6 Mayıs 1942'de düştü).", kaynak:"Britannica, 'Pacific War — From Pearl Harbor to Midway', https://www.britannica.com/topic/Pacific-War/From-Pearl-Harbor-to-Midway" },
+    { odak_yer:["Singapur"], t:"1942-02-15", tur:"isgal", b:"Singapur garnizonu (Korgeneral Percival, yaklaşık 90.000 asker) teslim oldu; İngiliz Malaya'sı Japon işgaline girdi. [gün: Britannica 'çıkarma 8-9 Şubat, teslim bir hafta sonra'; 15 Şubat ikincil kaynaklarla — akademik ikinci kaynak aranacak]", kaynak:"Britannica, 'Pacific War — From Pearl Harbor to Midway', https://www.britannica.com/topic/Pacific-War/From-Pearl-Harbor-to-Midway" },
+    { odak_yer:["Dili"], t:"1942-02-24", tur:"isgal", b:"Japonlar Timor'u ele geçirmiş oldu (Bali 18 Şubat'ta işgal edilmişti). ['en geç 24 Şubat' — Britannica; Dili'nin işgal günü kaynakta ayrı verilmiyor]", kaynak:"Britannica, 'Pacific War — From Pearl Harbor to Midway', https://www.britannica.com/topic/Pacific-War/From-Pearl-Harbor-to-Midway" },
+    { odak_yer:["Rangun"], t:"1942-03-08", tur:"isgal", b:"Rangun Japonlara düştü; Burma işgali başladı (Mayıs 1942'de tamamlandı). [yalnız zaman çizelgesi kaynaklarında; 7 Mart tahliye tarihi de geçer — gün teyitsiz]", kaynak:"bulunamadı (akademik) — ikincil zaman çizelgeleri (secondworldwarhistory.com / historyplace.com); Britannica Pacific War maddesi Rangun'un düşüş gününü vermiyor" },
+    { odak_yer:["Batavia"], t:"1942-03-09", tur:"isgal", b:"Korgeneral Hein ter Poorten Java'daki Hollanda/Müttefik kuvvetlerini (yaklaşık 20.000 asker) teslim etti; Hollanda Doğu Hint Adaları Japon askerî idaresine girdi.", kaynak:"Britannica, 'Pacific War — From Pearl Harbor to Midway', https://www.britannica.com/topic/Pacific-War/From-Pearl-Harbor-to-Midway" },
     { odak_yer:["Okayama"], t:"1946-11-03", tur:"siyaset", b:"Yeni Japonya Anayasası ilan edildi; imparator simgesel konuma indi, savaş hakkı reddedildi.", kaynak:"https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect" }
   ]
 },
@@ -5774,6 +5779,7 @@ window.DEVLETLER = [
   f:"1293-01-01", t:"1527-01-01", baskent:"Trowulan", harita:"majapahit",
   ozet:"Moğol istilasını püskürtüp kurulan, Nusantara'nın büyük bölümüne nüfuz eden Hindu-Budist imparatorluk; iç kavgalar ve yükselen İslâm sultanlıklarının baskısıyla zayıflayıp Demak Sultanlığı'nca tasfiye edildi.",
   kaynak:"endonezya",
+  ic_not:"KAYNAK ÇELİŞKİSİ (GDA-OKYANUSYA ikinci tur, 28 Ekim 2026): künye t 1527-01-01 = Demak'in son Majapahit kalıntısını (Kediri) ortadan kaldırması (modern akademik anlatı). TDV ENDONEZYA ise Majapahit'in 1478'de düştüğünü (Demak'in 1478 kuruluşuyla bağlantılı) yazar; TDV esas kuralına göre künye t=1478 olmalıydı. Karar Emre'nin: t 1478'e inerse bu künyedeki 15 + sonrasındaki yerleşim dilimi (1478-1527, Blitar vb.) Demak'e geçer ve Değişmez 2 için 1478 maddesi gerekir. Şimdilik DEĞİŞTİRİLMEDİ, çelişki beyan edildi. TDV, ENDONEZYA, https://islamansiklopedisi.org.tr/endonezya (Majapahit 1478'de düştü; Hayam Wuruk/Vikramavardhana 1386-1429); Majapahit kuruluş yılı (1293) TDV'de YOK — yıl atlas künyesinden, kaynak aranacak.",
   kronoloji:[
     { odak_yer:["Trowulan"], t:"1293-01-01", tur:"kurulus", b:"Raden Wijaya, Moğol istila kuvvetini püskürtüp imparatorluğu kurdu" },
     { odak_yer:["Trowulan"], t:"1350-01-01", tur:"hukumdar", b:"Hayam Wuruk ve vezir Gajah Mada döneminde imparatorluk zirvesine ulaştı" },
@@ -5889,14 +5895,16 @@ window.DEVLETLER = [
   ic_not:"DOGU-500-1281 künye genişletme (kaynaklı dilimlere uyum; t: 1885-11-29 → 1886-01-01; örnek: Halin (Hanlin) 1752-01-01→1886-01-01 (geç 33 gün))"
 },
 { id:"ace-sultanligi", ad:"Açe Sultanlığı (Sumatra)", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1496-01-01", t:"1903-01-01", baskent:"Banda Aceh", harita:"ace-sultanligi",
-  ozet:"Sumatra'nın kuzeyinde kurulan, Osmanlı ile 16. yüzyılda elçilik ve top-mühimmat yardımı düzeyinde ilişki kuran güçlü İslâm sultanlığı; uzun Açe Savaşı sonunda Hollanda'ya boyun eğdi.",
-  kaynak:"ace",
+  f:"1521-01-01", t:"1903-01-01", baskent:"Banda Aceh", harita:"ace-sultanligi",
+  ozet:"Sumatra'nın kuzeyinde Ali Muğayet Şah (ö. 1530) döneminde Portekiz'e karşı mücadele içinde kurulan, Osmanlı ile 16. yüzyılda elçilik ve top-mühimmat yardımı düzeyinde ilişki kuran güçlü İslâm sultanlığı; İskender Muda (1607-1636) döneminde zirveye çıktı; Açe Savaşı (1873) sonunda Hollanda'ya boyun eğdi. 1521 ve 1903 YALNIZ YIL teyitlidir (TDV gün vermez). ⚠️ Eski künye başlangıcı 1496-01-01 kaynaksızdı; TDV AÇE '1521' verdiği için TDV esas alınıp künye ve 6 yerleşimin ilk dönemi 1521'e çekildi (Samudra Pasai'nin 1521'de Açe'ye geçişiyle ardıllık bağı). ⚠️ TDV iç çelişki: AÇE sultanın teslimini 1903, ENDONEZYA Açe Savaşı'nı 1873-1904 verir; TDV AÇE esas.",
+  kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace (1521 kuruluş; İskender Muda 1607-1636; 26 Mart 1873 ültimatom, 5 Nisan 1873 çıkarma; 1903 teslim) ; TDV, ENDONEZYA, https://islamansiklopedisi.org.tr/endonezya (Açe Savaşı 1873-1904; İskender Muda 1607-1637)",
   kronoloji:[
-    { odak_yer:["Kuala Simpang"], t:"1496-01-01", tur:"kurulus", b:"Ali Mughayat Syah, sultanlığı kurdu" },
-    { odak_yer:["Kuala Simpang"], t:"1565-01-01", tur:"ittifak", b:"Osmanlı Sultanı Kanuni'den top ve mühimmat yardımı istedi, sınırlı destek geldi" },
-    { odak_yer:["Kuala Simpang"], t:"1873-01-01", tur:"savas", b:"Hollanda'nın uzun Açe Savaşı başladı" },
-    { odak_yer:["Kuala Simpang"], t:"1903-01-01", tur:"son", b:"Son sultan Muhammed Davud Şah Hollanda'ya resmen teslim oldu" }
+    { odak_yer:["Kuala Simpang"], t:"1521-01-01", tur:"kurulus", b:"Ali Muğayet Şah döneminde Portekiz'e karşı mücadelenin ardından Açe İslâm Sultanlığı kuruldu (yalnız yıl teyitli).", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace", ic_not_b:"eski t: 1496-01-01 (kaynaksız); TDV AÇE 1521 → düzeltildi" },
+    { odak_yer:["Kuala Simpang"], t:"1565-01-01", tur:"ittifak", b:"Osmanlı Sultanı Kanuni'den top ve mühimmat yardımı istedi, sınırlı destek geldi", kaynak:"bulunamadı — TDV AÇE'de bu olayın yılı yok; yıl eski atlas kaydından, kaynak sonraki turda aranacak" },
+    { odak_yer:["Kuala Simpang"], t:"1607-01-01", tur:"hukumdar", b:"İskender Muda tahta çıktı; hükümdarlığı 1607-1636 (TDV ENDONEZYA: 1607-1637) arasında gösterilir, sultanlığın zirvesi sayılır (yalnız yıl teyitli).", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace ; TDV, ENDONEZYA, https://islamansiklopedisi.org.tr/endonezya" },
+    { odak_yer:["Kuala Simpang"], t:"1873-03-26", tur:"siyaset", b:"Hollanda beş maddelik ültimatom verdi; Açe kabul etmeyince savaş ilân edildi.", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace" },
+    { odak_yer:["Kuala Simpang"], t:"1873-04-05", tur:"savas", b:"Hollandalılar Benderaçe kıyılarına çıkarma yaptı; Hollanda'nın uzun Açe Savaşı başladı.", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace", ic_not_b:"eski t: 1873-01-01 (kaynaksız); TDV AÇE 5 Nisan 1873 → düzeltildi" },
+    { odak_yer:["Kuala Simpang"], t:"1903-01-01", tur:"son", b:"Son sultan Muhammed Davud Şah Hollanda'ya resmen teslim oldu (yalnız yıl teyitli; TDV ENDONEZYA savaşı 1904'e götürür, TDV AÇE esas).", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace ; TDV, ENDONEZYA, https://islamansiklopedisi.org.tr/endonezya" }
   ]
 },
 { id:"mataram-sultanligi", ad:"Mataram Sultanlığı (Cava)", tur:"sultanlik", bolge:"guneydogu-asya",
@@ -7337,8 +7345,9 @@ window.DEVLETLER = [
 },
 { id:"campa", ad:"Champa Krallığı", tur:"krallik", bolge:"guneydogu-asya",
   f:"1000-01-01", t:"1832-01-01", ic_not_f:"⚠️ 1000 = başkentin Indrapura'dan Vijaya'ya taşınması (Coedès: 1000). Künyenin baskent alanı 'Vijaya → Panduranga' dediği için künye kimliği Vijaya dönemiyle hizalandı. Champa bundan ÇOK eskidir (Çin kayıtlarında Linyi 192); daha eski kuşaklar açıldığında bu f yeniden geriye çekilmeli — ve o zaman 1000 değeri bir pencere işareti gibi okunmamalı, Vijaya'ya taşınmanın tarihidir.", baskent:"Vijaya → Panduranga", harita:"campa",
-  ozet:"Bugünkü orta Vietnam kıyısında Cham halkının kurduğu, sonradan İslâm'ın da yayıldığı krallık; Đại Việt'in güneye yürüyüşüyle yüzyıllar içinde eridi. ⚠️ TDV'de `campa` maddesi YOK (ölçüldü); standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  ozet:"Bugünkü orta Vietnam kıyısında Cham halkının kurduğu, sonradan İslâm'ın da yayıldığı krallık; Đại Việt'in güneye yürüyüşüyle yüzyıllar içinde eridi. ⚠️ TDV'de `campa` adlı madde yok ama ÇAMLAR maddesi var (bkz. kaynak).",
+  kaynak:"TDV İslâm Ansiklopedisi, ÇAMLAR, https://islamansiklopedisi.org.tr/camlar (Vijaya'nın Vietnam kuvvetlerince alınışı 1471; Panduranga'nın düşüşü 1692 ya da 1697 — TDV maddesi iki yıl veriyor; Panduranga'nın Vietnam'ca ele geçirilişi 1832; tüm Çampa 1835; yalnız yıl) ; gün düzeyi: standart akademik kaynak (Coedès 1968), TDV gün vermez; Vietnamca/Çince akademik tarama yapılmadı",
+  ic_not:"GDA-OKYANUSYA ikinci tur, 28 Ekim 2026: önceki özet 'TDV\'de campa maddesi YOK' diyordu — YANLIŞ; TDV ÇAMLAR maddesi var ve 1471 / 1832 yıllarını destekler. TDV iç çelişkisi: Panduranga düşüşü 1692 veya 1697 (künye kronolojisi 1697 kullanıyor). TDV 1835'te 'tüm Çampa topraklarının ele geçirildiğini' yazar, künye t 1832-01-01 (kalan beylik ilhakı); 1832-1835 farkı karara bağlanmadı.",
   kronoloji:[
     { odak_yer:["Vijaya"], t:"1471-03-01", tur:"toprak-kayip", b:"Lê hükümdarı Thánh Tông başkent Vijaya'yı aldı, krallık güneye sıkıştı" },
     { odak_yer:["Vijaya"], t:"1697-01-01", tur:"toprak-kayip", b:"Nguyễn beyleri Panduranga'yı tâbi bir beyliğe indirdi" },
@@ -18187,7 +18196,9 @@ window.DEVLETLER = [
     { odak_yer:["Hanoi"], t:"1946-03-06", tur:"antlasma", b:"Fransa ile ön anlaşma: DRV Fransız Birliği içinde özgür devlet olarak tanındı.", kaynak:"CVCE 'Decolonisation of French Indo-China' (cvce.eu)" },
     { odak_yer:["Hanoi"], t:"1946-12-19", tur:"savas", b:"Viet Minh Hanoi'de Fransızlara saldırdı; Birinci Çinhindi Savaşı başladı.", kaynak:"CVCE 'Decolonisation of French Indo-China'; History.com (this-day-in-history)" },
     { odak_yer:["Hanoi"], t:"1954-05-07", tur:"savas", b:"Fransa Dien Bien Phu'da teslim oldu.", kaynak:"CVCE 'Decolonisation of French Indo-China'" },
-    { odak_yer:["Cenevre"], t:"1954-07-21", tur:"antlasma", b:"Cenevre Anlaşmaları savaşı bitirdi ve Vietnam'ı 17. paralelden böldü.", kaynak:"CVCE 'Decolonisation of French Indo-China'; baoquocte.vn Cenevre Anlaşması sergisi" }
+    { odak_yer:["Cenevre"], t:"1954-07-21", tur:"antlasma", b:"Cenevre Anlaşmaları savaşı bitirdi ve Vietnam'ı 17. paralelden böldü.", kaynak:"CVCE 'Decolonisation of French Indo-China'; baoquocte.vn Cenevre Anlaşması sergisi" },
+    { odak_yer:["Hanoi"], t:"1954-10-10", tur:"toprak-kazanc", b:"Viet Minh, Fransız çekilişinin (9 Ekim) ardından Hanoi'yi devraldı; 17. paralelin kuzeyi fiilen DVC yönetimine geçti.", kaynak:"Time, 'INDO-CHINA: The Fall of Hanoi' (1954); History.com, 'Viet Minh take control in the north' (10 Ekim 1954); Britannica, 'Vietnam War — French rule ended, Vietnam divided'" },
+    { odak_yer:["Hai Phong"], t:"1955-05-01", tur:"toprak-kazanc", b:"Fransız birlikleri Hayfong'dan çekildi; liman DVC'ye geçti. [yalnız ay teyitli; gün teyitsiz — Cenevre 300 gün takvimi, Mayıs 1955]", kaynak:"Time, 'INDO-CHINA: The Fall of Hanoi' (1954: Hayfong'da Mayıs'a kadar kalış); Cenevre Anlaşmaları 300 gün hükmü (Alpha History, Lumen/SUNY özetleri — ikincil; akademik ikinci kaynak aranacak)" }
   ] },
 { id:"ingiliz-burma", ad:"İngiliz Burması", tur:"somurge", bolge:"guneydogu-asya", harita:"ingiliz-hindistani", f:"1826-02-24", t:"1948-01-04", baskent:"Rangun", ozet:"Yandabo Antlaşması (24 Şubat 1826) ile Arakan ve Tenasserim'in alınmasıyla başlar; 1852'de Alt Burma, 1886-01-01'de Üst Burma ilhak edildi; 1937'de Hindistan'dan ayrıldı; 4 Ocak 1948'de bağımsız oldu.", kaynak:"Britannica (Treaty of Yandabo, Bagyidaw, Burma); Cady, History of Modern Burma", kronoloji:[
     { odak_yer:["Rangun"], t:"1826-02-24", tur:"antlasma", b:"Yandabo Antlaşması ile Burma Arakan ve Tenasserim'i Britanya'ya bıraktı, Assam-Manipur üzerindeki iddiasından vazgeçti, tazminat ödedi.", kaynak:"Britannica 'Bagyidaw' (britannica.com/biography/Bagyidaw); Lost Footsteps (lostfootsteps.org/en/history/the-treaty-of-yandabo); National Army Museum (nam.ac.uk/explore/first-burma-war)" },
