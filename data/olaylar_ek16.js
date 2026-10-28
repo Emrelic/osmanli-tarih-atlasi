@@ -690,4 +690,11 @@ window.OLAYLAR_EK16 = [
 { t:"1943-02-08", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Kursk Kızıl Ordu'ca kurtarıldı", gun:"8 Şubat 1943 (kaynaklarda 7-9 Şubat)", yer:"Kursk", yer_id:"Kursk",
   d:"Voronej-Kastornoye harekâtının sonunda Kursk geri alındı; aynı yılın temmuzunda şehrin adı Kursk Muharebesi'ne verildi.",
   kaynak:"booksite.ru Kursk kaydı; Rosstat «Курская битва» — arama özeti [özet]; ±1 gün" },
+// ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): erken Moskova genişlemesi
+{ t:"1301-01-01", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Moskova Knezi Daniil Kolomna ve Serpuhov'u Moskova'ya kattı", gun:"1301 [yalnız yıl teyitli; gün teyitsiz]", yer:"Kolomna", yer_id:"Kolomna",
+  d:"Daniil, Ryazan knezliğinden Kolomna'yı (esir düşen Ryazan knezi serbest kalmak için kaleyi devretti) ve Serpuhov'u aldı; Moskova Oka nehrine ulaştı ve Moskova Knezliği'nin ilk toprak genişlemesi oldu.",
+  kaynak:"UW Waugh «Chronology of the Early History of Moscow» (faculty.washington.edu/dwaugh/hstam443/m-chron.html); Vikipedi «Daniel of Moscow» — arama özeti [özet]; yıl düzeyi, elle doğrulama bekler" },
+{ t:"1304-01-01", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Mozhaysk Smolensk Knezliği'nden alınarak Moskova'ya katıldı", gun:"1304 [yalnız yıl teyitli; gün teyitsiz]", yer:"Mojaysk", yer_id:"Mojaysk",
+  d:"Moskova Knezliği Moskova nehrinin yukarı havzasındaki Mozhaysk'i Smolensk'ten alarak batı sınırını Litvanya'ya yaklaştırdı.",
+  kaynak:"UW Waugh «Chronology of the Early History of Moscow» (faculty.washington.edu/dwaugh/hstam443/m-chron.html); Vikipedi «Daniel of Moscow» — arama özeti [özet]; yıl düzeyi, elle doğrulama bekler" },
 ];

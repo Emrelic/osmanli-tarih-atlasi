@@ -178,7 +178,7 @@ window.YERLESIMLER_EK8 = [
 //    İkisi ters yönde ilerliyor; kopyalasaydım Petsamo 1809'dan önce İsveç
 //    görünecekti ve bu YANLIŞ olurdu.
 { ad:"Petsamo (Peçenga)", tur:"sehir", lat:69.5500, lon:31.2200, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1920-10-14",d:"sovyet-rusya"},{f:"1920-10-14",t:"1944-09-19",d:"finlandiya"},{f:"1944-09-19",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Paris Antlasmasi 1947; Britannica 'Vyborg'"},{f:"1991-12-25",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Britannica 'Russia'"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1920-10-14",d:"sovyet-rusya"},{f:"1920-10-14",t:"1944-09-19",d:"finlandiya"},{f:"1944-09-19",t:"1991-12-26",d:"sovyet-rusya",kaynak:"Paris Antlasmasi 1947; Britannica 'Vyborg'"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Britannica 'Russia'"}] },
 
 // ── ④ KOLA ve RUS KUZEYİ — Novgorod'un kuzey mirası ─────────────────
 // ⚠️ Bu altı nokta DÜZ `rusya 1281→1923` taşıyor ve bu bir seçimdir:
