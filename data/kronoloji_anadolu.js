@@ -523,7 +523,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"Danişmendli Gümüştegin Gazi'nin ölümünün ardından I. Kılıcarslan, doğunun mâmur şehirlerinden Malatya'yı 1 Muharrem 500 / 2 Eylül 1106'da ele geçirdi.",
   kaynak:"selcuklular" },
 
-{ taraflar:["selcuklu"], t:"1107-01-01", b:"I. Kılıcarslan'ın Habur Nehri'nde ölümü", tur:"son",
+{ taraflar:["selcuklu"], t:"1107-07-13", b:"I. Kılıcarslan'ın Habur Nehri'nde ölümü", tur:"son",
   onem:3, dunya:2, kapsam:"dis", etiket:["Kılıcarslan", "Muhammed Tapar", "ölüm", "konu-siyasi", "konu-kisiler"],
   yer_id:"Musul",
   d:"Güneydoğu Anadolu beylerine güvenerek Büyük Selçuklu Hükümdarı Muhammed Tapar'ın Musul valisi Çavlı Sakavu ile savaşa giren I. Kılıcarslan, müttefiklerinin ayrılması üzerine esir düşmemek için Habur çayına atını sürdü ve boğularak öldü (500/1107).",
@@ -982,7 +982,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"1085 civarında Çubuk Bey tarafından kurulan Çubukoğulları Beyliği'nin merkezi olan Harput, Artuklu beyi Belek b. Behrâm tarafından ele geçirilerek bu küçük beyliğe son verildi. Böylece Harput ve çevresindeki Palu, Çemişkezek toprakları Artuklu hâkimiyetine girdi ve Harput kolunun temeli atıldı.",
   kaynak:"harput" },
 
-{ taraflar:["artuklu"], t:"1117-05-01", b:"İlgazi Halep'in idaresini ele aldı", tur:"toprak-kazanc",
+{ taraflar:["artuklu"], t:"1117-05-05", b:"İlgazi Halep'in idaresini ele aldı", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["Halep", "İlgazi", "Selçuklu", "konu-askeri"],
   yer_id:"Halep",
   d:"Haçlı baskısı altında bunalan Halep ileri gelenlerinin daveti üzerine şehre giden Necmeddin İlgazi, Muharrem 511 (Mayıs 1117) tarihinde idareyi ele aldı. Bu adımla Halep'teki Selçuklu meliklik yönetimi fiilen sona erdi ve Mardin Artukluları bölgenin en güçlü Müslüman gücü hâline geldi.",
