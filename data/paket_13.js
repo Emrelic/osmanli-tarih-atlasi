@@ -5199,7 +5199,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1531-01-01", t:"1535-01-01", d:"gucerat-sultanligi"},
      {f:"1535-01-01", t:"1561-03-29", d:"malva-sultanligi"},
      {f:"1561-03-29", t:"1732-01-01", d:"babur-imparatorlugu"},
-     {f:"1732-01-01", t:"1923-10-29", d:"maratha"},{f:"1923-10-29",t:"1947-08-15",d:"ingiliz-hindistani",kaynak:"Britannica Dhar"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica India"}] },
+     {f:"1732-01-01", t:"1818-06-03", d:"maratha"},{f:"1818-06-03",t:"1947-08-15",d:"ingiliz-hindistani",kaynak:"Britannica Dhar (Puar hânedanı Maratha konfederasyonu içinde; konfederasyon 1818-06-03'te bitti, Dhar İngiliz himayesinde yerli devlet). GUNEY-ASYA-DENETIM-1027: eski 'maratha → 1923-10-29' bitişi veri ufku yer tutucusuydu, künye (maratha t=1818-06-03) dışına taşıyordu"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica India"}] },
 
 { ad:"Uccayn (Ujjain)", tur:"sehir", lat:23.1790, lon:75.7850, g:0, k:3, d:[],
   s:[
@@ -5266,7 +5266,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Nagpûr", tur:"sehir", lat:21.1460, lon:79.0880, g:1, k:3, d:[],
   kur:"1702-01-01",
   s:[{f:"1702-01-01", t:"1743-01-01", d:"gond-kralliklari"},
-     {f:"1743-01-01", t:"1853-12-11", d:"maratha"},
+     {f:"1743-01-01", t:"1818-06-03", d:"maratha"},
+     {f:"1818-06-03", t:"1853-12-11", d:"nagpur-bhonsle", kaynak:"IGI c.21 s.51: 1818-1830 İngiliz Resident idaresi, 1830-1853 Maratha subahları; Britannica 'Nagpur (Indian dynasty)': British clients 1818-1853. maratha künyesi 1818-06-03'te biter, nagpur-bhonsle künyesi 1853-12-11'e dek (GUNEY-ASYA-DENETIM-1027)"},
      {f:"1853-12-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Cabalpûr — Gond Garha-Mandla krallığı; Ekber 1564'te vergiye bağladı ama
@@ -5667,8 +5668,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
      {f:"1490-01-01", t:"1674-06-06", d:"bicapur"},
-     {f:"1674-06-06", t:"1848-04-05", d:"maratha"},
-     {f:"1848-04-05", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1674-06-06", t:"1818-06-03", d:"maratha"},
+     {f:"1818-06-03", t:"1947-08-15", d:"ingiliz-hindistani", kaynak:"Satara 1818'de Peşvâ'nın düşüşüyle İngilizlere geçti; Pratap Singh Bhonsle İngiliz himayesinde yerli racalık olarak 1848-04-05 lapse'ına dek (Doctrine of Lapse) sürdü, sonra doğrudan İngiliz idaresi. maratha künyesi 1818-06-03'te biter (eski 'maratha → 1848' künye dışıydı). GUNEY-ASYA-DENETIM-1027"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kolhapûr — Şivâcî soyunun ikinci kolu; 1949'a kadar prens devleti kaldı,
 // bu yüzden 1923'e kadar "maratha".
