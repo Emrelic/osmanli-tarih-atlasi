@@ -291,8 +291,8 @@ window.KRONOLOJI_COK_HOLLANDA = [
   onem:3, dunya:2, kapsam:"dis", etiket:["isyan","konu-siyasi","benelux"],
   devlet:"avusturya-hollandasi", devletler:["avusturya-hollandasi","avusturya"], yer_id:"",
   gun:"24 Ekim 1789",
-  d:"II. Joseph'in merkezîleştirici ve kilise karşıtı reformlarına karşı Van der Noot ve Vonck önderliğinde Brabant halkı Breda'dan 24 Ekim 1789 manifestosuyla ayaklandı; Aralık'a dek Avusturya garnizonları şehirlerden atıldı ve Ocak 1790'da Belçika Birleşik Eyaletleri kuruldu.",
-  kaynak:"Britannica «Brabant Revolution»; Wikipedia «Brabant Revolution» · ikincil kaynak; günü doğrulanması için akademik kaynak aranmalı" },
+  d:"II. Joseph'in merkezîleştirici ve kilise karşıtı reformlarına karşı Van der Noot ve Vonck önderliğinde Brabant halkı 24 Ekim 1789'da Hoogstraten'de yayımlanan Brabant Halkı Manifestosu'yla ayaklandı (27 Ekim'de Turnhout alındı); Aralık'a dek Avusturya garnizonları şehirlerden atıldı ve Ocak 1790'da Belçika Birleşik Eyaletleri kuruldu.",
+  kaynak:"nl.wikipedia «Brabantse Omwenteling» (Manifest van het Brabantse Volk 24 Ekim 1789 Hoogstraten; Turnhout 27 Ekim 1789); Britannica «Brabant Revolution» · ikincil kaynak, akademik teyit bekler" },
 
 { t:"1790-01-11", b:"Belçika Birleşik Eyaletleri kuruldu", tur:"kurulus",
   onem:3, dunya:2, kapsam:"dis", etiket:["kurulus","konu-siyasi","benelux"],
