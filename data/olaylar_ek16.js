@@ -745,4 +745,8 @@ window.OLAYLAR_EK16 = [
 { t:"1617-02-27", k:"antlasma", kapsam:"dis", etiket:["toprak-kayip","konu-diplomasi"], b:"Stolbovo Antlaşması — Rusya İngermanland'ı İsveç'e bıraktı, Novgorod geri verildi", gun:"27 Şubat 1617", yer:"Novgorod", yer_id:"Novgorod",
   d:"Rusya, Neva boyunu ve Karelya'nın bir kısmını (Yam, Koporye, Ivangorod, Oreşek) İsveç'e bıraktı ve Baltık kıyısından koptu; İsveç Novgorod'u geri verdi. Bu durum I. Petro'nun Büyük Kuzey Savaşı'na kadar sürdü.",
   kaynak:"Wikipedia «Capture of Novgorod (1611)», «Ingrian War», «Treaty of Stolbovo» — arama özeti [özet]; Jülyen/Gregoryen farkı beyanlı, elle doğrulama bekler" },
+// ---- KRONOLOJI-BALTIK-RUSYA (29 Ekim 2026): Tartu 1625
+{ t:"1625-01-01", k:"diger", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"], b:"İsveç Tartu'yu (Dorpat) Lehistan'dan aldı — Livonya Seferi'nin ikinci aşaması", gun:"1625 [yalnız yıl teyitli; gün teyitsiz] (sefer Temmuz 1625'te başladı)", yer:"Tartu (Dorpat)", yer_id:"Tartu (Dorpat)",
+  d:"II. Gustav Adolf 1625 seferinde Güney Estonya ve Kuzey Livonya'yı fethetti; Tartu, 1632'de Gustav Adolf Akademisi'nin kurulacağı İsveç şehri oldu.",
+  kaynak:"Wikipedia «Livonian campaign (1625–1626)», «Polish–Swedish War (1621–1625)» — arama özeti [özet]; elle doğrulama bekler" },
 ];
