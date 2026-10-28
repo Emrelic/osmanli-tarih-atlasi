@@ -2489,7 +2489,149 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   d:"Altı İngiliz kolonisi (Yeni Güney Galler, Viktorya, Queensland, Güney Avustralya, Batı Avustralya, Tazmanya) 1900 tarihli Commonwealth Anayasası uyarınca 1 Ocak 1901'de tek federal devlet olarak birleşti; ilk Genel Vali Sydney'de yemin etti. Federasyon, Avustralya kıtasının siyasî haritada tek devletin adı altına girdiği andır.",
   kaynak:"Commonwealth of Australia Constitution Act 1900 (63 & 64 Vict. c. 12) · National Archives of Australia / Museum of Australian Democracy, «Federation» sayfaları. Sayfa verilmedi (açılmadı).",
   gun:"1 Ocak 1901 (Anayasa'nın yürürlüğe girdiği gün; hafızadan, kurumsal sayfa açılmadı)",
-  ic_not_d:"Kolonilerin 1901 ÖNCESİ siyasî varlığı için künye YOK — haritadaki 21 Okyanusya kırılmasının çoğu Avustralya iç kesimindeki «—» → avustralya geçişleridir; kolonilerin künyesi olmadan bu «—»nın Avustralya kolonileri mi yerli halk mı olduğu haritada ayırt edilemiyor (KUNYE.md)." }
+  ic_not_d:"Kolonilerin 1901 ÖNCESİ siyasî varlığı için künye YOK — haritadaki 21 Okyanusya kırılmasının çoğu Avustralya iç kesimindeki «—» → avustralya geçişleridir; kolonilerin künyesi olmadan bu «—»nın Avustralya kolonileri mi yerli halk mı olduğu haritada ayırt edilemiyor (KUNYE.md)." },
+
+// ── AVUSTRALYA-DENETIM (28 Ekim 2026): eksik ana dönüm noktaları ──
+// Keşifler · kolonilerin ayrılışı · Fiji/Samoa/Papua/Hawaii paylaşımı · Aborijin hakları.
+// gun alanı: sayfa açılmadı, hafızadan yazılan günler AÇIKÇA işaretli.
+
+{ t:"1606-01-01", b:"Hollandalı Willem Janszoon (Duyfken) Cape York kıyısına çıktı — Avustralya'nın belgelenmiş ilk Avrupa teması", tur:"olay", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kesif","hollanda-dogu-hint"], yer_id:"", taraflar:["hollanda-dogu-hint"],
+  d:"VOC gemisi Duyfken'in kaptanı Willem Janszoon 1606'nın ilk aylarında (Şubat–Mart) Carpentaria Körfezi'nin doğu kıyısında Pennefather Nehri yakınına çıkarak Avustralya anakarasının Avrupalılarca belgelenen ilk kıyı teması ve haritalamasını yaptı. Hollandalılar kıtayı sahiplenmedi; kıyı 'Nieuw Holland' adıyla haritalara girdi.",
+  kaynak:"Encyclopaedia Britannica, «Willem Janszoon» · National Library of Australia, «Duyfken 1606» sayfaları. Sayfa verilmedi (açılmadı).",
+  gun:"1606 yılı (Şubat–Mart; kaynakta kesin gün anılmaz — YYYY-01-01 yıl işaretidir)" },
+
+{ t:"1642-11-24", b:"Abel Tasman Tazmanya kıyısını gördü (Van Diemen's Land)", tur:"olay", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kesif","hollanda-dogu-hint"], yer_id:"", taraflar:["hollanda-dogu-hint"],
+  d:"VOC için Batavya'dan yola çıkan Abel Tasman 24 Kasım 1642'de adanın batı kıyısını gördü, Genel Vali Anthony van Diemen'in adını verdi ve Aralık başında karaya çıkıp Hollanda adına bayrak diktiğini bildirdi. Ada, 1856'ya dek 'Van Diemen's Land' diye anıldı.",
+  kaynak:"Encyclopaedia Britannica, «Abel Tasman» · Australian Dictionary of Biography / NLA, «Tasman's voyage 1642». Sayfa verilmedi (açılmadı).",
+  gun:"24 Kasım 1642 (Britannica'daki yaygın tarih; sayfa doğrulanmadı — hafızadan)" },
+
+{ t:"1642-12-13", b:"Tasman Yeni Zelanda'nın Güney Adası kıyısını gördü", tur:"olay", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kesif","yeni-zelanda"], yer_id:"", taraflar:["hollanda-dogu-hint"],
+  d:"Tasman 13 Aralık 1642'de Güney Ada'nın batı kıyısını gördü; Golden Bay'de (Murderers' Bay) Maori ile ilk temas ölümlü bir çatışmayla sonuçlandı ve karaya çıkılmadı. Avrupalılar adaya bir daha 1769'da, Cook ile geldi.",
+  kaynak:"Te Ara, The Encyclopedia of New Zealand — «Tasman's visit» · Britannica, «Abel Tasman». Sayfa verilmedi (açılmadı).",
+  gun:"13 Aralık 1642 (Te Ara'daki yaygın tarih; sayfa doğrulanmadı — hafızadan)" },
+
+{ t:"1769-10-08", b:"James Cook Poverty Bay'e (Gisborne) çıktı — Yeni Zelanda'da Avrupalıların ilk karaya çıkışı Cook ile", tur:"olay", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kesif","ingiltere","yeni-zelanda"], yer_id:"Gisborne", taraflar:["ingiltere"],
+  d:"HMS Endeavour 8 Ekim 1769'da Turanganui (Poverty Bay) ağzına demirledi; Cook'un ilk karaya çıkışı Maori ile çatışmayla sonuçlandı. Cook sonraki aylarda iki adanın kıyılarını dolaşıp haritaladı ve iki adanın ilk ayrıntılı haritasını çizdi.",
+  kaynak:"Te Ara, «Cook's first voyage / Early encounters» · Britannica, «James Cook». Sayfa verilmedi (açılmadı).",
+  gun:"8 Ekim 1769 (Te Ara; hafızadan, sayfa açılmadı)" },
+
+{ t:"1770-04-29", b:"Cook Botany Bay'e (Kurnell) çıktı — Avustralya'nın doğu kıyısında İngiliz teması", tur:"olay", onem:4, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kesif","ingiltere"], yer_id:"Sydney", taraflar:["ingiltere"],
+  d:"HMS Endeavour 19 Nisan 1770'te doğu kıyıyı gördükten sonra 29 Nisan'da Botany Bay'e demirledi; Cook yaklaşık bir hafta kaldı. 1788'deki Birinci Filo'nun yerleşim yeri olarak bu kıyı seçildi.",
+  kaynak:"National Library of Australia — Cook's Endeavour Journal · Britannica, «James Cook». Sayfa verilmedi (açılmadı).",
+  gun:"29 Nisan 1770 (kaynakta bilinen iniş günü; hafızadan, sayfa açılmadı)" },
+
+{ t:"1770-08-22", b:"Cook Possession Island'da doğu Avustralya kıyısını Britanya adına sahiplendi (New South Wales)", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","toprak-kazanc","ingiltere"], yer_id:"", taraflar:["ingiltere"],
+  d:"Cook 22 Ağustos 1770'te Torres Boğazı'ndaki Possession Island'da doğu kıyıyı 'New South Wales' adıyla Britanya Kralı III. George adına ilan etti. Aborijin halkıyla herhangi bir anlaşma yapılmadı; sahiplenme, 1788'de fiilî yerleşimle somutlaştı (terra nullius hukuku 1992 Mabo kararına dek sürdü).",
+  kaynak:"National Library of Australia, Cook's Journal 22 Ağustos 1770 · Britannica, «James Cook». Sayfa verilmedi (açılmadı).",
+  gun:"22 Ağustos 1770 (Cook'un günlüğü; hafızadan, sayfa açılmadı)" },
+
+{ t:"1778-01-18", b:"James Cook Hawaii adalarını gördü — Avrupa ile ilk temas (Oʻahu, ardından Kauaʻi)", tur:"olay", onem:4, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kesif","hawaii-seflikleri"], yer_id:"Honolulu", taraflar:["hawaii-seflikleri"],
+  d:"HMS Resolution ve Discovery 18 Ocak 1778'de Oʻahu'yu gördü, 20 Ocak'ta Kauaʻi'de Waimea'ya çıktı; Cook adalara Sandwich Adaları adını verdi. Hawaii, bu temasa dek Avrupa dünyasınca bilinmiyordu.",
+  kaynak:"Britannica, «James Cook» ve «Hawaii: History» · Hawaii State Archives. Sayfa verilmedi (açılmadı).",
+  gun:"18 Ocak 1778 (yaygın tarih; sayfa doğrulanmadı — hafızadan)" },
+
+{ t:"1779-02-14", b:"Cook Kealakekua Körfezi'nde Hawaiilerle çatışmada öldürüldü", tur:"olum", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","olum","hawaii-seflikleri"], yer_id:"", taraflar:["hawaii-seflikleri"],
+  d:"Cook, Hawaii Adası'nda Kealakekua Körfezi'nde bir kayığın çalınmasından doğan olayda başşef Kalaniʻōpuʻu'yu rehin almaya kalkınca 14 Şubat 1779'da çıkan çatışmada öldü. Olay, Avrupa–Hawaii ilişkilerinin ilk büyük krizidir; ada, birleşmeden önce Kalaniʻōpuʻu ve Kahekili gibi şefler arasında bölünmüştü.",
+  kaynak:"Britannica, «James Cook» · Hawaii State Archives. Sayfa verilmedi (açılmadı).",
+  gun:"14 Şubat 1779 (yaygın tarih; hafızadan, sayfa açılmadı)" },
+
+{ t:"1825-12-03", b:"Van Diemen's Land (Tazmanya) Yeni Güney Galler'den ayrılıp ayrı İngiliz kolonisi oldu", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Hobart", taraflar:["ingiltere"],
+  d:"Tazmanya, 1803–04'te Yeni Güney Galler'in bağımlısı olarak yerleşilmişti; 3 Aralık 1825'te ayrı bir koloni ilan edildi ve ayrı vali (George Arthur) atandı. Koloni, 1856'da 'Tasmania' adını aldı.",
+  kaynak:"Australian Dictionary of Biography / Tasmanian Archives, «Van Diemen's Land: separate colony 1825» · Britannica, «Tasmania: History». Sayfa verilmedi (açılmadı).",
+  gun:"3 Aralık 1825 (yürürlük günü; hafızadan, sayfa açılmadı)" },
+
+{ t:"1829-06-18", b:"Swan River Kolonisi (Batı Avustralya) Kaptan Stirling tarafından ilan edildi", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Perth", taraflar:["ingiltere"],
+  d:"Kaptan James Stirling 2 Haziran 1829'da HMS Parmelia ile Swan Nehri ağzına ulaştı ve 18 Haziran 1829'da koloniyi ilan etti; Perth ise 12 Ağustos 1829'da kuruldu. Böylece İngiltere kıtanın batı üçte birinde de fiilî yönetim kurdu.",
+  kaynak:"Australian Dictionary of Biography, «Stirling, James» · Britannica, «Western Australia: History». Sayfa verilmedi (açılmadı).",
+  gun:"18 Haziran 1829 (ilan günü; hafızadan, sayfa açılmadı)" },
+
+{ t:"1836-12-28", b:"Güney Avustralya Kolonisi Glenelg'de ilan edildi", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Adelaide", taraflar:["ingiltere"],
+  d:"Vali John Hindmarsh 28 Aralık 1836'da Glenelg'de Güney Avustralya Kolonisi'ni ilan etti; koloni 1834 tarihli South Australia Act temelindeydi ve Adelaide'in yerleşim planı Albay William Light tarafından çizildi.",
+  kaynak:"Australian Dictionary of Biography, «Hindmarsh, John» · State Library of South Australia, «Proclamation Day». Sayfa verilmedi (açılmadı).",
+  gun:"28 Aralık 1836 (ilan günü; hafızadan, sayfa açılmadı)" },
+
+{ t:"1845-03-11", b:"Flagstaff Savaşı başladı — Maori şefi Hōne Heke Kororāreka'da bayrak direğini kesti ve kasabayı bastı", tur:"savas", onem:3, dunya:2, kapsam:"ic",
+  etiket:["savas","konu-askeri","isyan","yeni-zelanda"], yer_id:"", taraflar:["yeni-zelanda"],
+  d:"Waitangi'den beş yıl sonra Ngāpuhi şefi Hōne Heke, 11 Mart 1845'te Kororāreka'daki (Russell) bayrak direğini dördüncü kez devirip kasabayı ele geçirdi; çatışmalar 1846 başına dek sürdü ve Yeni Zelanda Savaşları dizisinin ilk büyük savaşı sayıldı.",
+  kaynak:"Te Ara, «Northern War / Flagstaff War» · James Belich, The New Zealand Wars (1986). Sayfa verilmedi (açılmadı).",
+  gun:"11 Mart 1845 (Te Ara; hafızadan, sayfa açılmadı)" },
+
+{ t:"1851-07-01", b:"Viktorya Kolonisi Yeni Güney Galler'den ayrıldı", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Melbourne", taraflar:["ingiltere"],
+  d:"Port Phillip Bölgesi 1 Temmuz 1851'de Avustralya Kolonileri Yönetimi Yasası (1850) uyarınca Yeni Güney Galler'den ayrılarak Viktorya Kolonisi oldu; ayrılığın ardından gelen altın keşifleri nüfusu hızla artırdı.",
+  kaynak:"Australian Government — «Victoria: Colonial history» · Britannica, «Victoria (Australia): History». Sayfa verilmedi (açılmadı).",
+  gun:"1 Temmuz 1851 (ayrılığın yürürlük günü; hafızadan, sayfa açılmadı)" },
+
+{ t:"1859-06-06", b:"Queensland Yeni Güney Galler'den ayrılıp ayrı koloni oldu", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Brisbane", taraflar:["ingiltere"],
+  d:"Kraliçe Victoria'nın 6 Haziran 1859 tarihli Letters Patent'i ile Moreton Bay bölgesi Yeni Güney Galler'den ayrılarak Queensland Kolonisi oldu; başkent Brisbane.",
+  kaynak:"Queensland State Archives, «Queensland separation 1859» · Britannica, «Queensland: History». Sayfa verilmedi (açılmadı).",
+  gun:"6 Haziran 1859 (Letters Patent günü; hafızadan, sayfa açılmadı)" },
+
+{ t:"1874-10-10", b:"Fiji, Cakobau'nun imzaladığı Devir Senedi ile Britanya'ya bağlandı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","toprak-kazanc","ingiltere"], yer_id:"Levuka", taraflar:["ingiltere","fiji-kolonisi"],
+  d:"Fiji'nin yarı bağımsız Cakobau Krallığı, 10 Ekim 1874'te Nasova'da (Levuka) Devir Senedi'ni imzalayarak adaları Kraliçe Victoria'ya devretti; koloninin ilk yıllarında Levuka merkezdi, Suva 1882'de başkent oldu.",
+  kaynak:"Britannica, «Fiji: History» · Fiji Museum / Deed of Cession metni. Sayfa verilmedi (açılmadı).",
+  gun:"10 Ekim 1874 (Devir Senedi günü; atlasın Levuka/Suva kayıtlarıyla aynı)" },
+
+{ t:"1884-11-03", b:"Almanya Yeni Gine'nin kuzeydoğusunda (Matupi, Blanche Körfezi) bayrak çekti — Alman Yeni Gine himayesi başladı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","toprak-kazanc","almanya"], yer_id:"", taraflar:["almanya"],
+  d:"Otto Finsch öncülüğündeki Alman seferi 3 Kasım 1884'te Matupi'de bayrak çekti; 17 Mayıs 1885'te İmparatorluk Himaye Beratı (Schutzbrief) Kaiser-Wilhelmsland ve Bismarck Takımadaları'nı resmen Alman himayesine soktu. Haritadaki Herbertshöhe kaydıyla (1884-11-03) aynı günü işaretler.",
+  kaynak:"National Library of Australia, «German colonies in the Pacific» · Britannica, «Papua New Guinea: History». Sayfa verilmedi (açılmadı).",
+  gun:"3 Kasım 1884 (atlasın Herbertshöhe kaydındaki gün; bayrak törenini gün düzeyinde ayrıca doğrulamadım)" },
+
+{ t:"1884-11-06", b:"Britanya Yeni Gine'nin güneydoğusunda koruma bölgesi ilan etti (Port Moresby)", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","toprak-kazanc","ingiltere"], yer_id:"Port Moresby", taraflar:["ingiltere"],
+  d:"Commodore Erskine 6 Kasım 1884'te Port Moresby'de Yeni Gine'nin güneydoğusunda İngiliz koruma bölgesini ilan etti; bölge 1888'de İngiliz Yeni Gine kolonisi, 1906'da Avustralya yönetiminde Papua oldu. Haritadaki Port Moresby/Samarai kayıtlarının başlangıç günüdür.",
+  kaynak:"Britannica, «Papua New Guinea: History» · National Archives of Australia, «British New Guinea». Sayfa verilmedi (açılmadı).",
+  gun:"6 Kasım 1884 (atlasın Port Moresby/Samarai kayıtlarıyla aynı; hafızadan)" },
+
+{ t:"1888-09-09", b:"Şili Rapa Nui'yi (Paskalya Adası) ilhak etti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","toprak-kazanc","rapa-nui"], yer_id:"", taraflar:["rapa-nui"],
+  d:"Şili Donanması'ndan Policarpo Toro, 9 Eylül 1888'de Rapa Nui ile Şili arasında 'ilhak anlaşması' imzaladı; adanın yerli yönetimi sona erdi, ada sonradan koyun çiftliği olarak kiralandı.",
+  kaynak:"Britannica, «Easter Island: History» · UNESCO Rapa Nui National Park belgesi. Sayfa verilmedi (açılmadı).",
+  gun:"9 Eylül 1888 (devletler künyesi `rapa-nui` t günüyle aynı; hafızadan)" },
+
+{ t:"1899-12-02", b:"Üçlü Sözleşme Samoa'yı böldü: Almanya Upolu–Savaii, ABD Tutuila alacak, Britanya Tonga ve Solomon payı", tur:"antlasma", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","antlasma","diplomasi","almanya"], yer_id:"Apia", taraflar:["almanya","abd","ingiltere"],
+  d:"Almanya, ABD ve Britanya 2 Aralık 1899'da Washington'da imzaladıkları sözleşmeyle 1889 Berlin Senedi'ndeki üçlü rejimi bitirip Samoa'yı böldü: batı adaları (Upolu, Savaii) Almanya'ya, doğu adaları (Tutuila, Manuʻa) ABD'ye geçti; Britanya Samoa üzerindeki iddialarından vazgeçti ve karşılığında Almanya'dan başka bölgelerde (Tonga, Solomon Adaları) taviz aldı. Almanya'nın Apia'da bayrak çekişi 1 Mart 1900'dür.",
+  kaynak:"Britannica, «Samoa: History» · US Department of State, Office of the Historian, «Tripartite Convention 1899». Sayfa verilmedi (açılmadı).",
+  gun:"2 Aralık 1899 (sözleşme günü; hafızadan, sayfa açılmadı)" },
+
+{ t:"1900-04-30", b:"Hawaii Organik Yasası yürürlüğe girdi — Hawaii Bölgesi (Territory of Hawaii) kuruldu", tur:"reform", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kurulus","idari","abd"], yer_id:"Honolulu", taraflar:["abd"],
+  d:"Kongre'nin Hawaii Organik Yasası (30 Nisan 1900), adaların Temmuz 1898'de ilhakının ardından Hawaii'yi ABD'nin organize bölgesi yaptı; Sanford Dole ilk bölge valisi oldu. Hawaii 21 Ağustos 1959'da 50. eyalet oldu.",
+  kaynak:"US National Archives, «Hawaii Organic Act» · Hawaii State Archives, «Territory of Hawaii». Sayfa verilmedi (açılmadı).",
+  gun:"30 Nisan 1900 (yasa günü; hafızadan, sayfa açılmadı)" },
+
+{ t:"1907-09-26", b:"Yeni Zelanda Dominyon statüsü kazandı", tur:"reform", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","reform","yeni-zelanda"], yer_id:"Wellington", taraflar:["yeni-zelanda"],
+  d:"Yeni Zelanda, 26 Eylül 1907'de 'Colony' yerine 'Dominion' olarak anılmaya başladı; yaşamsal dış ilişkilerde Britanya ile bağ sürdü (Westminster Statüsü'nün benimsenmesi 1947).",
+  kaynak:"Te Ara, «Dominion of New Zealand» · NZ History (Manatū Taonga). Sayfa verilmedi (açılmadı).",
+  gun:"26 Eylül 1907 (devletler.js `yeni-zelanda` kronolojisiyle aynı)" },
+
+{ t:"1967-05-27", b:"Avustralya referandumu: Aborijinleri nüfus sayımına dahil etme ve federal yasama yetkisi (%90,77 evet)", tur:"reform", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","reform","avustralya"], yer_id:"", taraflar:["avustralya"],
+  d:"27 Mayıs 1967 referandumu Anayasa'nın 127. maddesini (Aborijinlerin sayımdan dışlanması) kaldırdı ve 51. maddeyi değiştirerek Commonwealth'e Aborijin halkı için yasa çıkarma yetkisi verdi; evet oyu ülke genelinde yaklaşık %90,77'ydi.",
+  kaynak:"National Museum of Australia / Australian Electoral Commission, «1967 Referendum». Sayfa verilmedi (açılmadı).",
+  gun:"27 Mayıs 1967 (referandum günü; yüzde hafızadan)" },
+
+{ t:"1992-06-03", b:"Mabo kararı: Avustralya Yüksek Mahkemesi 'terra nullius' doktrinini reddedip yerli mülkiyet hakkını (native title) tanıdı", tur:"reform", onem:4, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","reform","avustralya"], yer_id:"", taraflar:["avustralya"],
+  d:"Mabo v Queensland (No 2) kararı 3 Haziran 1992'de Eddie Koiki Mabo ve Murray Adaları halkının davasını kabul etti; 1788'de kıtanın 'sahipsiz' sayılması hukuken geçersiz sayıldı. Karar 1993 tarihli Native Title Act'in zeminini hazırladı.",
+  kaynak:"High Court of Australia, Mabo v Queensland (No 2) (1992) 175 CLR 1 · AIATSIS, «Mabo decision». Sayfa verilmedi (açılmadı).",
+  gun:"3 Haziran 1992 (karar günü; hafızadan, sayfa açılmadı)" }
 
 ];
 
@@ -3300,6 +3442,33 @@ window.KRONOLOJI_COK_RUSYA = [
   yer_id:"Tallinn (Reval)", gun:"24 Şubat 1918 (Gregoryen); manifesto 23 Şubat akşamı Pärnu'da okundu",
   d:"Bolşevik kuvvetlerin çekildiği, Alman ordusunun henüz girmediği bir günde Kurtuluş Komitesi 'Estonya Halklarına Manifesto'yu yayımladı; 23 Şubat akşamı Pärnu'da, 24 Şubat'ta Tallinn'de okundu. Ertesi gün Alman kuvvetleri Tallinn'e girdi; Almanya yeni cumhuriyeti tanımadı ve ülke (Tartu, Narva ve Pärnu dahil) Kasım 1918'e kadar Alman işgalinde kaldı.",
   kaynak:"EBSCO Research Starters, \"Baltic States Gain Independence\"; Encyclopaedia Britannica, \"Baltic states — Independence\" — sayfa açılamadı (401/403), arama özetinden okundu [özet]" },
+
+// ---- SIBIRYA-DENETIM (28 Ekim 2026): bolge boslugu tamamlama — 5 madde ----
+{ t:"1740-01-01", b:"Petropavlovsk-Kamçatskiy kuruldu — Bering'in Avaça Körfezi üssü", tur:"kurulus", onem:2, dunya:1, kapsam:"ic",
+  devlet:"rusya", etiket:["kurulus", "sibirya", "genisleme", "konu-askeri"],
+  yer_id:"Petropavlovsk-Kamçatskiy", gun:"1740 (kaynak yıl verir; Rusya Cumhurbaşkanlığı Kütüphanesi 17 Ekim 1740'ı kuruluş günü sayar ama takvim türü belirsiz, gün yazılmadı)",
+  d:"Vitus Bering'in İkinci Kamçatka Seferi'nde Aziz Petro ve Aziz Pavlus gemileri Avaça Körfezi'ne girdi ve kış üssü kuruldu; yerleşim gemilerin adıyla anıldı. Petropavlovsk, Kamçatka'nın ve sonraki yüzyılda Rus Pasifik filosunun ana limanı oldu.",
+  kaynak:"Encyclopaedia Britannica, \"Petropavlovsk-Kamchatsky\" (britannica.com/place/Petropavlovsk-Kamchatsky; 1740, Bering'in II. Kamçatka Seferi); gün notu: Rusya Cumhurbaşkanlığı Kütüphanesi (prlib.ru/en/history/619636) — arama özetinden okundu [özet]" },
+{ t:"1855-02-07", b:"Shimoda Antlaşması — Rusya-Japonya sınırı Etorofu ile Urup arasından geçti, Sahalin bölünmeden kaldı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis",
+  devletler:["rusya", "edo-bakufu"], etiket:["antlasma", "toprak", "konu-siyasi", "konu-diplomasi"],
+  yer_id:"Korsakov (Güney Sahalin)", gun:"7 Şubat 1855 (Gregoryen; Japon takvimiyle Ansei 1/12/21)",
+  d:"Putyatin ile Japon heyetinin Shimoda'da imzaladığı antlaşma Kuril Adaları'nı Etorofu (Japon) ile Urup (Rus) arasındaki hatla böldü; Sahalin'in hukuki durumu belirsiz bırakıldı ve ada bölünmeden kaldı. Belirsizlik 1875 St. Petersburg Antlaşması'na kadar sürdü.",
+  kaynak:"Hokkaido Üniversitesi, Sahalin sorunu makalesi (eprints.lib.hokudai.ac.jp/repo/huscap/all/8050/KJ00000034003.pdf: ada bölünmedi, Etorofu-Urup hattı); Nippon.com, \"Relations with Russia: Remembering the Past\" (nippon.com/en/column/g00094) — arama özetinden okundu [özet]" },
+{ t:"1860-01-01", b:"Vladivostok kuruldu — Rusya'nın Pasifik'teki askerî limanı", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
+  devlet:"rusya", etiket:["kurulus", "sibirya", "genisleme", "konu-askeri"],
+  yer_id:"Vladivostok", gun:"1860 (kaynak yıl verir; 2 Temmuz günü yalnız Vikipedi'de, birincil kaynakta doğrulanamadı)",
+  d:"Pekin Ek Antlaşması'yla Rusya'ya geçen Ussuri-deniz kıyısında, Altın Boynuz Körfezi'ne asker ve ikmal gemisi çıkarıldı; askerî karakol Vladivostok ('Doğu'nun Hâkimi') adını aldı. Liman sonradan Trans-Sibirya Demiryolu'nun Pasifik ucu oldu.",
+  kaynak:"Encyclopaedia Britannica, \"Vladivostok\" (britannica.com/place/Vladivostok; 1860'ta askerî karakol olarak kuruldu); Rusya Cumhurbaşkanlığı Kütüphanesi, \"Foundation of Vladivostok\" (prlib.ru/en/node/619354) — arama özetinden okundu [özet]" },
+{ t:"1918-11-18", b:"Omsk'ta Kolçak darbesi — Amiral Kolçak mutlak yetkiyle Beyaz Sibirya'nın başına geçti", tur:"idari", onem:3, dunya:2, kapsam:"ic",
+  devlet:"sovyet-rusya", etiket:["idari", "sibirya", "konu-siyasi", "konu-askeri"],
+  yer_id:"Omsk", gun:"18 Kasım 1918",
+  d:"Omsk'ta subayların darbesiyle Direktuvar devrildi ve Amiral Aleksandr Kolçak mutlak yetkiyle Beyaz Hareket'in Sibirya'daki başına geçti. Kolçak yönetimi 1919 sonunda Kızıl Ordu karşısında Omsk'u kaybedene kadar sürdü.",
+  kaynak:"Encyclopaedia Britannica, \"Aleksandr Vasilyevich Kolchak\" (britannica.com/biography/Aleksandr-Vasilyevich-Kolchak; 18 Kasım 1918 Omsk darbesi) — arama özetinden okundu [özet]" },
+{ t:"1920-02-07", b:"Kolçak İrkutsk'ta kurşuna dizildi — Beyaz Sibirya'nın sonu", tur:"idari", onem:2, dunya:2, kapsam:"ic",
+  devlet:"sovyet-rusya", etiket:["idari", "sibirya", "konu-siyasi", "konu-askeri"],
+  yer_id:"İrkutsk", gun:"7 Şubat 1920 (bazı kaynaklar 6-7 Şubat gecesi der; bir kaynak 2 Şubat verir — çoğunluk 7 Şubat)",
+  d:"4 Ocak 1920'de istifa eden Kolçak, Çekoslovak Lejyonu eliyle İrkutsk'taki yönetime teslim edildi ve Bolşevik Askerî Devrim Komitesi kararıyla kurşuna dizildi. Doğu Sibirya'da Beyaz iktidar çöktü.",
+  kaynak:"Encyclopaedia Britannica, \"Aleksandr Vasilyevich Kolchak\" (britannica.com/biography/Aleksandr-Vasilyevich-Kolchak; 4 Ocak 1920 istifa, İrkutsk'ta teslim, ölüm) — arama özetinden okundu [özet]" }
 ];
 
 ;

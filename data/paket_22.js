@@ -2979,7 +2979,7 @@ window.YERLESIMLER_KAMERIKA = [
     s:[{f:"1281-01-01",t:"1876-08-23",d:"kri"},{f:"1876-08-23",t:"2000-12-31",d:"kanada"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
   { ad:"Kızıl Kızılderili Gölü (Beothuk)", tur:"sehir", lat:48.65, lon:-56.85, g:0,
-    s:[{f:"1281-01-01",t:"1829-06-06",d:"beothuk"},{f:"1829-06-06",t:"1923-10-29",d:"ingiliz-kuzey-amerika"},{f:"1923-10-29",t:"1934-02-16",d:"newfoundland-dominyonu",kaynak:"Britannica Newfoundland and Labrador; Labrador Boundary 1927 Privy Council"},{f:"1934-02-16",t:"1949-03-31",d:"newfoundland-komisyon-hukumeti",kaynak:"Britannica Newfoundland"},{f:"1949-03-31",t:"2000-12-31",d:"kanada",kaynak:"Britannica Canada: Newfoundland katilimi 31 Mart 1949"}],
+    s:[{f:"1281-01-01",t:"1829-06-06",d:"beothuk"},{f:"1829-06-06",t:"1855-05-07",d:"ingiliz-kuzey-amerika"},{f:"1855-05-07",t:"1934-02-16",d:"newfoundland-dominyonu",kaynak:"Newfoundland sorumlu hükûmet: ilk başbakan Philip Little 1855-05-07 (künye newfoundland-dominyonu kronolojisi) · KUZEY-AMERIKA-DENETIM 1028: ESKİ 1923-10-29 kesimi pencere işaretiydi, ada 1855'ten beri ayrı kolonidir"},{f:"1934-02-16",t:"1949-03-31",d:"newfoundland-komisyon-hukumeti",kaynak:"Britannica Newfoundland"},{f:"1949-03-31",t:"2000-12-31",d:"kanada",kaynak:"Britannica Canada: Newfoundland katilimi 31 Mart 1949"}],
     kaynak:"bulunamadı", not:"Beothuk iç kışlakları; halk 1829'da tükendi · dayanak: HNAI c.15 Northeast (Smithsonian)" },
   { ad:"Fort Colvile", tur:"kale", lat:48.617, lon:-118.1, g:0,
     kur:"1825-01-01",
@@ -3044,7 +3044,7 @@ window.YERLESIMLER_KAMERIKA = [
     // HAYALET-KUNYE-1008 · `abd` YANLIŞ: Newfoundland İngiliz kolonisi/dominyonu, Kanada'ya 1949'da katıldı (künye
     //   `newfoundland-dominyonu` kaynağı: heritage.nf.ca · gov.nl.ca). 1763-02-10 gün komşudan: Plaisance (Paris Antl.).
     //   DOĞRUSU 1855-01-01→ `newfoundland-dominyonu` — künyede «Renk YOK» ⇒ boya inene dek ingiliz-kuzey-amerika.
-    s:[{f:"1583-08-05",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"},{f:"1923-10-29",t:"1934-02-16",d:"newfoundland-dominyonu",kaynak:"Britannica Newfoundland and Labrador; Labrador Boundary 1927 Privy Council"},{f:"1934-02-16",t:"1949-03-31",d:"newfoundland-komisyon-hukumeti",kaynak:"Britannica Newfoundland"},{f:"1949-03-31",t:"2000-12-31",d:"kanada",kaynak:"Britannica Canada: Newfoundland katilimi 31 Mart 1949"}],
+    s:[{f:"1583-08-05",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1855-05-07",d:"ingiliz-kuzey-amerika"},{f:"1855-05-07",t:"1934-02-16",d:"newfoundland-dominyonu",kaynak:"Newfoundland sorumlu hükûmet: ilk başbakan Philip Little 1855-05-07 (künye newfoundland-dominyonu kronolojisi) · KUZEY-AMERIKA-DENETIM 1028: ESKİ 1923-10-29 kesimi pencere işaretiydi, ada 1855'ten beri ayrı kolonidir"},{f:"1934-02-16",t:"1949-03-31",d:"newfoundland-komisyon-hukumeti",kaynak:"Britannica Newfoundland"},{f:"1949-03-31",t:"2000-12-31",d:"kanada",kaynak:"Britannica Canada: Newfoundland katilimi 31 Mart 1949"}],
     kaynak:"bulunamadı", not:"Gilbert'ın 1583 ilânı; balıkçı iskânı daha eski · dayanak: Dictionary of Canadian Biography" },
   // KUTU-VERI-1015 C: nokta St. John nehrinin GÜNEY (Maine) kıyısındaydı (47.35/-68.32 = Madawaska, Maine); kayıt
   //   Maliseet köyünü temsil ediyor ve köy Madawaska ırmağının St. John'a döküldüğü yerde, KUZEY yakada (Edmundston).
@@ -3063,7 +3063,7 @@ window.YERLESIMLER_KAMERIKA = [
     kaynak:"bulunamadı", not:"dayanak: Historical Atlas of Canada" },
   { ad:"Plaisance (Placentia)", tur:"sehir", lat:47.2491, lon:-53.9605, g:0,
     kur:"1662-01-01",
-    s:[{f:"1662-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"},{f:"1923-10-29",t:"1934-02-16",d:"newfoundland-dominyonu",kaynak:"Britannica Newfoundland and Labrador; Labrador Boundary 1927 Privy Council"},{f:"1934-02-16",t:"1949-03-31",d:"newfoundland-komisyon-hukumeti",kaynak:"Britannica Newfoundland"},{f:"1949-03-31",t:"2000-12-31",d:"kanada",kaynak:"Britannica Canada: Newfoundland katilimi 31 Mart 1949"}],
+    s:[{f:"1662-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1855-05-07",d:"ingiliz-kuzey-amerika"},{f:"1855-05-07",t:"1934-02-16",d:"newfoundland-dominyonu",kaynak:"Newfoundland sorumlu hükûmet: ilk başbakan Philip Little 1855-05-07 (künye newfoundland-dominyonu kronolojisi) · KUZEY-AMERIKA-DENETIM 1028: ESKİ 1923-10-29 kesimi pencere işaretiydi, ada 1855'ten beri ayrı kolonidir"},{f:"1934-02-16",t:"1949-03-31",d:"newfoundland-komisyon-hukumeti",kaynak:"Britannica Newfoundland"},{f:"1949-03-31",t:"2000-12-31",d:"kanada",kaynak:"Britannica Canada: Newfoundland katilimi 31 Mart 1949"}],
     kaynak:"bulunamadı", not:"konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2440,-53.9630 → 47.2491,-53.9605) · konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2491,-53.9605 → 47.2491,-53.9605) · dayanak: Dictionary of Canadian Biography" },
   { ad:"Duluth (Fond du Lac)", tur:"kale", lat:46.7897, lon:-92.1045, g:0,
     kur:"1793-01-01",
@@ -3690,6 +3690,20 @@ window.YERLESIMLER_KAMERIKA = [
     kur:"1759-01-01",
     s:[{f:"1759-01-01",t:"1821-09-15",d:"guatemala-kaptanligi"},{f:"1821-09-15",t:"1823-07-01",d:"__BOSLUK__",kaynak:"BEYAN (ORTA-AMERIKA-DENETIM, 28 Ekim 2026): 1821-09-15 (bağımsızlık) ile 1823-07-01 (Orta Amerika Birleşik Eyaletleri) arası Meksika İmparatorluğu/geçiş dönemidir; egemenlik zinciri Comayagua/León/Guatemala Şehri ile aynı biçimde KAYNAKLANMADI, boşluk beyanlıdır."},{f:"1823-07-01",t:"1838-05-30",d:"orta-amerika-federasyonu"},{f:"1838-05-30",t:"2000-12-31",d:"honduras-cumhuriyeti",kaynak:"Britannica Honduras; zincir Comayagua ile hizalandı"}],
     kaynak:"bulunamadı", not:"konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 15.7700,-88.0450 → 15.7664,-88.0428) · konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 15.7664,-88.0428 → 15.7664,-88.0428) · dayanak: Cambridge History of Latin America (CUP)" },
+  // KUZEY-AMERIKA-DENETIM 1028: ABD başkenti / Kanada Pasifik ucu / Florida güney ucu için eksik nokta. kur günleri
+  //   standart başvuru bilgisi (sayfa bu oturumda açılamadı — Britannica 403); her kayıtta `not:`ta beyanlı.
+  { ad:"Washington D.C.", tur:"sehir", lat:38.8895, lon:-77.0353, g:0,
+    kur:"1791-09-09",
+    s:[{f:"1791-09-09",t:"2000-12-31",d:"abd"}],
+    kaynak:"bulunamadı", not:"Federal şehir: üç komisyoner 9 Eylül 1791'de adını 'Washington' koydu (Residence Act 1790-07-16; hükûmet 1800'de taşındı) · gün standart başvuru bilgisi, birincil sayfa açılamadı · dayanak: NPS / Architect of the Capitol (teyit bekliyor)" },
+  { ad:"Vancouver (Granville)", tur:"sehir", lat:49.2827, lon:-123.1207, g:0,
+    kur:"1886-04-06",
+    s:[{f:"1886-04-06",t:"2000-12-31",d:"kanada"}],
+    kaynak:"bulunamadı", not:"Granville kasabası 6 Nisan 1886'da Vancouver Şehri olarak tüzel kişilik kazandı (CPR hat sonu) · gün standart başvuru bilgisi, birincil sayfa açılamadı · dayanak: The Canadian Encyclopedia 'Vancouver' (teyit bekliyor)" },
+  { ad:"Miami", tur:"sehir", lat:25.7743, lon:-80.1963, g:0,
+    kur:"1896-07-28",
+    s:[{f:"1896-07-28",t:"2000-12-31",d:"abd"}],
+    kaynak:"bulunamadı", not:"Miami 28 Temmuz 1896'da şehir olarak tüzel kişilik kazandı (Flagler demiryolu) · gün standart başvuru bilgisi, birincil sayfa açılamadı · dayanak: HistoryMiami Museum (teyit bekliyor)" },
 ];
 
 ;
