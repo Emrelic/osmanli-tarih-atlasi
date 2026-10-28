@@ -10,6 +10,12 @@
 // (kayıt adı `odak_yer`de) karşılığıdır — maddeyi okuyan haritada tam o değişimi görür.
 // =====================================================================
 window.KRONOLOJI_SINIR_ISKANDINAVYA = [
+{ odak_yer:["Kiel","Flensburg"], t:"1460-03-05", devlet:"schleswig-holstein", devletler:["schleswig-holstein","danimarka"],
+  b:"Ribebrevet — I. Christian Schleswig dükü ve Holstein kontu seçildi; dukalıklar Danimarka tacına şahsî birlikle bağlandı", tur:"birlesme", onem:3, dunya:2, kapsam:"dis", yer_id:"Kiel",
+  etiket:["sinir","birlesme","konu-siyasi","schleswig-holstein","danimarka"],
+  d:"Schleswig-Holstein soyluları 2 Mart 1460'ta Ribe'de I. Christian'ı hükümdar ilan etti; koşullar 5 Mart tarihli Ribe mektubunda (Ribebrevet) yazıldı: kral dukalıkları Danimarka kralı olarak değil, dük/kont sıfatıyla yönetecek, iki dukalık «up ewig ungedeelt» kalacaktı. Kiel ve Flensburg 1864'e dek bu şahsî birliğin parçasıdır.",
+  ic_not_d:"Seçim günü 2 Mart, belge günü 5 Mart 1460; Ribebrevet'in günü alındı. Holstein 1474'e dek kontluk, o yıl dukalığa yükseldi. Önceki zincir Kiel'i 1281'den almanya'da, Flensburg'u danimarka'da tutuyordu.",
+  kaynak:"Danmarkshistorien (lex.dk), «Ribebrevet, 5. marts 1460» https://danmarkshistorien.lex.dk/Ribebrevet,_5._marts_1460 ; «De danske konger som hertuger af Slesvig og Holsten 1460-1864» https://danmarkshistorien.lex.dk/De_danske_konger_som_hertuger_af_Slesvig_og_Holsten_1460-1864" },
 { odak_yer:["Lappeenranta"], t:"1743-08-07", devlet:"rusya", devletler:["rusya","isvec"],
   b:"Åbo Antlaşması — Lappeenranta ve Kymi nehri doğusu Rusya'ya geçti", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Lappeenranta",
   etiket:["sinir","antlasma","toprak-kayip","konu-siyasi","isvec","rusya"],
