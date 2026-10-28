@@ -2965,11 +2965,11 @@ window.YERLESIMLER_ASYA = [
 // Kyoto — imparatorluk başkenti 794'ten 1869'a kadar; Ashikaga şogunluğunun
 // da merkezi. Ōnin savaşı (1467-1477) şehrin büyük kısmını yaktı ama
 // sahiplik değişmedi.
-{ ad:"Kyoto", tur:"sehir", lat:35.0110, lon:135.7680, g:2, k:1,kd:[{f:"1333-07-04",t:"1573-09-01",k:1,m:"Kyoto"}], d:[],
+{ ad:"Kyoto", tur:"sehir", lat:35.0110, lon:135.7680, g:2, k:1,kd:[{f:"1333-07-04",t:"1573-08-15",k:1,m:"Kyoto"}], d:[],
   s:[{f:"0794-11-18",t:"1185-12-22",d:"heian-japonya",kesinlik:"gun",kaynak:"Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」 · Heian-kyō şehri bu günle kuruldu (kur = 0794-11-18). · DOGU-500-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"gun",kaynak:"Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」 · BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · DOGU-500-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -2979,8 +2979,8 @@ window.YERLESIMLER_ASYA = [
 // kur:"1457-01-01" — Ōta Dōkan'ın kaleyi kurduğu yıl.
 { ad:"Edo (Tokyo)", tur:"sehir", lat:35.6900, lon:139.6920, g:2, k:1,kd:[{f:"1603-03-24",t:"1923-10-29",k:1,m:"Edo (Tokyo)"}], d:[],
   kur:"1457-01-01",
-  s:[{f:"1457-01-01", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1457-01-01", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -2990,16 +2990,16 @@ window.YERLESIMLER_ASYA = [
 { ad:"Osaka", tur:"liman", lat:34.6940, lon:135.5020, g:2, k:2,kd:[{f:"1568-01-01",t:"1615-06-04",k:1,m:"Osaka"}], d:[],
   s:[{f:"0646-01-01",t:"0710-04-13",d:"yamato",kesinlik:"gun",kaynak:"SAHİP BEYANLI: yamato (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Nihon Shoki j.25, Taika 1 (645) (zh.wikisource.org/wiki/日本書紀/卷第廿五, okundu): 「冬十二月乙未朔癸卯，天皇遷都難波長柄豐碕。」 · Naniwa Nagara Toyosaki Sarayı ilk tarihli saray tanığı; 646 öncesi Naniwa limanı (kuruluş efsanevî Nintoku dönemi) bu oturumda tarihli kaynakla bulunmadı → önce dilim yok. Özdeşleme: Naniwa = bugünkü Osaka (genel kabul; kazı koordinatı açılmadı). · DOGU-500-1281"},{f:"0710-04-13",t:"0794-11-18",d:"nara-japonya",kesinlik:"gun",kaynak:"SAHİP BEYANLI: nara-japonya (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」 · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"0794-11-18",t:"1185-12-22",d:"heian-japonya",kesinlik:"gun",kaynak:"Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」 · ABİ MERKEZ: Kyoto — başkent taşınması sonrası aynı saray devleti · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"gun",kaynak:"Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」 · BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · DOGU-500-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1615-06-04", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1615-06-04", d:"azuchi-momoyama"},
      {f:"1615-06-04", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Nara", tur:"sehir", lat:34.6850, lon:135.8050, g:1, k:3, d:[],
   s:[{f:"0710-04-13",t:"0794-11-18",d:"nara-japonya",kesinlik:"gun",kaynak:"SAHİP BEYANLI: nara-japonya (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」 · Heijō-kyō şehri bu günle kuruldu (kur = 0710-04-13 «kuruluş = saray taşınması»; öncesinde Nara havzasında Asuka bölgesi başka yerleşimdir). · DOGU-500-1281"},{f:"0794-11-18",t:"1185-12-22",d:"heian-japonya",kesinlik:"gun",kaynak:"Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」 · ABİ MERKEZ: Kyoto — saray 794'te Heian-kyō'ya taşındı, Nara eski başkent olarak aynı saray devleti içinde kaldı (kaynak yalnız taşınmayı yazar; Nara'nın sonraki sahibi çıkarımdır) · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"gun",kaynak:"Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」 · BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · DOGU-500-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3009,8 +3009,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Sakai", tur:"liman", lat:34.5730, lon:135.4830, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3021,8 +3021,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Kamakura", tur:"sehir", lat:35.3190, lon:139.5500, g:1, k:2,kd:[{f:"1281-01-01",t:"1333-07-04",k:1,m:"Kamakura"}], d:[],
   s:[{f:"1000-01-01",t:"1185-12-22",d:"heian-japonya",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«794-1185 yılları arasında ise yeni başşehir yapılan Heian’dan (Kyoto) adını alan dönem başladı» «当時御居所非指要害地。又非御曩跡。速可令出相模国鎌倉給。» TDV japonya (JAPONYA maddesi): Heian dönemi 794-1185. Azuma Kagami 治承四年 (1180): Kamakura 「相模国」 (Sagami eyaleti, saray eyalet sistemi) içinde anılır; Minamoto no Yoritomo oraya 1180te girmeden önce şehir Heian devleti eyaleti sayıldı (ÇIKARIM, belirsiz; 1180-1185 arası fiilî Minamoto hâkimiyeti künye sınırı gereği bu dilime dahil edildi). f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"yil",kaynak:"«1192’de Minamoto Yorimoto kendini şogun ilân ettirerek Kamakura’da askerî hükümetini kurdu» «治承四年「庚子」十月小十五日甲午。武衛始入御鎌倉御亭。» TDV japonya: şogunluk hükümeti Kamakura’da 1192’de kuruldu (TDV’deki 「Yorimoto」 yazımı Yoritomo’dur); Azuma Kagami 治承四年十月十五日 (Japon ay-güneş takvimi, 1180): Yoritomo Kamakura’daki konağına ilk girdi (Jülyen çevirisi yapılmadı). f: KÜNYE ÖMRÜ SINIRI: devletler.js heian-japonya t = kamakura f = 1185-01-01 (atlas künyesi, DAYANAK DEĞİL). Kaynaklarda Kamakura’da Minamoto hâkimiyeti 1180 (Azuma Kagami), kurumsal şogunluk 1192 (TDV japonya) — künye sınırı bu iki tarihin arasındadır; gün kaynaklı değil. t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3031,8 +3031,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Odawara", tur:"kale", lat:35.2640, lon:139.1520, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3041,8 +3041,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Sunpu (Şizuoka)", tur:"sehir", lat:34.9760, lon:138.3830, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3058,8 +3058,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Gifu", tur:"kale", lat:35.4230, lon:136.7600, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1567-09-01", d:"muromachi"},
-     {f:"1567-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3067,8 +3067,8 @@ window.YERLESIMLER_ASYA = [
 
 { ad:"Kanazawa", tur:"sehir", lat:36.5620, lon:136.6490, g:1, k:3, d:[],
   kur:"1546-01-01",
-  s:[{f:"1546-01-01", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1546-01-01", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3081,8 +3081,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Niigata", tur:"liman", lat:37.9160, lon:139.0360, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3096,16 +3096,16 @@ window.YERLESIMLER_ASYA = [
 { ad:"Himeji", tur:"kale", lat:34.8150, lon:134.6860, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Okayama", tur:"sehir", lat:34.6550, lon:133.9190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3121,8 +3121,8 @@ window.YERLESIMLER_ASYA = [
 // buradaydı.
 { ad:"Yamaguchi", tur:"sehir", lat:34.1860, lon:131.4710, g:0, k:3, d:[],
   kur:"1360-01-01",
-  s:[{f:"1360-01-01", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1360-01-01", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3146,8 +3146,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Hakata (Fukuoka)", tur:"liman", lat:33.5900, lon:130.4020, g:1, k:3, d:[],
   s:[{f:"0536-06-05",t:"0710-04-13",d:"yamato",kesinlik:"gun",kaynak:"SAHİP BEYANLI: yamato (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Nihon Shoki j.18, Senka 1 (536) (zh.wikisource.org/wiki/日本書紀/卷第十八, okundu): 「夏五月辛丑朔。詔曰。…夫筑紫國者遐迩之所朝届。去來之所關門。…修造官家那津之口。」 …「是年也太歳丙辰。」 · Nanotsu = Hakata limanı özdeşleştirmesi yaygın kabuldür, akademik kaynak açılmadı. 528'de Iwai yenilgisiyle (Nihon Shoki j.17) Chikushi Yamato'ya bağlandı; 500-536 arası Hakata Körfezi sahibi bu oturumda tarihli tanıkla bulunmadı → önce dilim yok. · DOGU-500-1281"},{f:"0710-04-13",t:"0794-11-18",d:"nara-japonya",kesinlik:"gun",kaynak:"SAHİP BEYANLI: nara-japonya (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」 · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"0794-11-18",t:"1185-12-22",d:"heian-japonya",kesinlik:"gun",kaynak:"Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」 · ABİ MERKEZ: Kyoto — başkent taşınması sonrası aynı saray devleti · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"gun",kaynak:"Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」 · BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · DOGU-500-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3168,8 +3168,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Kumamoto", tur:"kale", lat:32.8030, lon:130.7080, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3178,8 +3178,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Funai (Ōita)", tur:"liman", lat:33.2380, lon:131.6130, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3188,8 +3188,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Kagoşima", tur:"liman", lat:31.5960, lon:130.5570, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3199,8 +3199,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Tsuşima (İzuhara)", tur:"liman", lat:34.2030, lon:129.2890, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3216,8 +3216,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Aizu-Wakamatsu", tur:"kale", lat:37.4950, lon:139.9300, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-12-10", d:"kenmu"},
-     {f:"1336-12-10", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+     {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
@@ -3247,8 +3247,8 @@ window.YERLESIMLER_ASYA = [
 // Tokugawa beratını aldı.
 { ad:"Matsumae", tur:"kale", lat:41.4280, lon:140.1120, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Hokkaido/Ezo 1281-1550 arasinda hicbir devletin idari topragi degildi; anakara sogunluklari (Kamakura-Kenmu-Muromachi) Honsu'yla sinirliydi ve Matsumae klaninin buradaki varligi ancak 1590'larda basliyor. `ainu` diye boyamak var olmayan bir DEVLET uydurmakti (VERI DEVLET olcumu)",
-  s:[{f:"1550-01-01", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1550-01-01", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1869-01-27", d:"meiji-japonya"},
      {f:"1869-01-27", t:"1869-06-27", d:"ezo-cumhuriyeti", kesinlik:"gun", kaynak:"Ezo Cumhuriyeti künyesi (devletler.js ezo-cumhuriyeti; kaynak: 山川 日本史小辞典 «箱館戦争», kotobank; Britannica Japan «五稜郭の戦い»): cumhuriyet 1869-01-27 ilan, 1869-06-27 Goryōkaku teslimi. KORE-JAPONYA 2. tur: dilim künye f/t'sine bağlandı."},
@@ -3258,8 +3258,8 @@ window.YERLESIMLER_ASYA = [
 // limandan biri; Matsumae'ye 55 km.
 { ad:"Hakodate", tur:"liman", lat:41.7690, lon:140.7290, g:1, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Hokkaido/Ezo 1281-1550 arasinda hicbir devletin idari topragi degildi; anakara sogunluklari (Kamakura-Kenmu-Muromachi) Honsu'yla sinirliydi ve Matsumae klaninin buradaki varligi ancak 1590'larda basliyor. `ainu` diye boyamak var olmayan bir DEVLET uydurmakti (VERI DEVLET olcumu)",
-  s:[{f:"1550-01-01", t:"1573-09-01", d:"muromachi"},
-     {f:"1573-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  s:[{f:"1550-01-01", t:"1573-08-15", d:"muromachi"},
+     {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1869-01-27", d:"meiji-japonya"},
      {f:"1869-01-27", t:"1869-06-27", d:"ezo-cumhuriyeti", kesinlik:"gun", kaynak:"Ezo Cumhuriyeti künyesi (devletler.js ezo-cumhuriyeti; kaynak: 山川 日本史小辞典 «箱館戦争», kotobank; Britannica Japan «五稜郭の戦い»): cumhuriyet 1869-01-27 ilan, 1869-06-27 Goryōkaku teslimi. KORE-JAPONYA 2. tur: dilim künye f/t'sine bağlandı."},
@@ -3313,7 +3313,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Kaesong", tur:"sehir", lat:37.9720, lon:126.5540, g:1, k:2,kd:[{f:"1281-01-01",t:"1392-08-05",k:1,m:"Kaesong"}], d:[],
   s:[{f:"0500-01-01",t:"0668-10-22",d:"goguryeo",kesinlik:"yil",kaynak:"SAHİP BEYANLI: goguryeo (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «王京開城府本高句麗扶蘇岬。新羅改松嶽郡。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Kaesong (Bubuyeo-gap/Songak) Goguryeo kökenli; ufuk işareti 500. · DOGU-500-1281"},{f:"0668-10-22",t:"0676-02-24",d:"tang",kesinlik:"gun",kaynak:"SAHİP BEYANLI: tang (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Jiu Tangshu 卷5 (zh.wikisource.org/wiki/舊唐書/卷5, okundu): «九月癸巳，司空、英國公勣破高麗，拔平壤城，擒其王高藏及其大臣男建等以歸。境內盡降，其城一百七十，戶六十九萬七千，以其地為安東都護府，分置四十二州。» · Sima Guang, Zizhi tongjian 卷201 (zh.wikisource.org/wiki/資治通鑑/卷201, okundu): «九月，癸巳，李勣拔平壤。» · Sima Guang, Zizhi tongjian 卷201 (zh.wikisource.org/wiki/資治通鑑/卷201, okundu): «置安東都護府於平壤以統之。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Pyongyang): Jiu Tangshu «以其地為安東都護府»: Goguryeo'nun bütün toprağı (170 kale) Andong Genel Valiliğine bağlandı; Songak'ın adı geçmez. · DOGU-500-1281"},{f:"0676-02-24",t:"0694-01-01",d:"__BOSLUK__",kesinlik:"gun",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Songak'ın 676-02-24 (Tang'ın Andong'dan çekilişi) ile 694 (Silla'nın Songak kalesini inşası) arası sahibi (Samguk sagi j.5-8 ve Goryeosa j.56'da bu aralık için Songak'a atıf yok). | geçiş kaydı: Jiu Tangshu 卷5 (zh.wikisource.org/wiki/舊唐書/卷5, okundu): «二月甲戌，移安東都護府於遼東。» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «二月，甲戌，徙安東都護府於遼東故城» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «徙熊津都督府於建安故城» · DOGU-500-1281"},{f:"0694-01-01",t:"0901-01-01",d:"silla",kesinlik:"yil",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷08 (zh.wikisource.org/wiki/三國史記/卷08, okundu): «冬，築松岳、牛岑二城。» · Kim Busik, Samguk sagi 卷35 (zh.wikisource.org/wiki/三國史記/卷35, okundu): «松岳郡，本高句麗扶蘇岬，孝昭王三年築城» · DOGU-500-1281"},{f:"0901-01-01",t:"0918-07-25",d:"taebong",kesinlik:"yil",kaynak:"SAHİP BEYANLI: taebong (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «光化元年戊午春二月，葺松岳城。以我太祖為精騎大監，伐楊州、見州。» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «天復元年辛酉，善宗自稱王，謂人曰：「徃者新羅請兵於唐，以破高勾麗，故平壤舊都，鞠為茂草。吾必報其讎。」» · Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «世祖時爲松嶽郡沙粲，乾寧三年丙辰，以郡歸于裔，裔大喜，以爲金城太守。» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «善宗謂松岳郡，漢北名郡，山水竒秀，遂定以為都。» · BEYANLI YAKLAŞIKLIK: Songak 896'da Gung Ye'ye katıldı, 897/898'de başkent oldu (SS50, G1); Taebong künye f 901 olduğundan dilim 901'de başlatıldı. · DOGU-500-1281"},{f:"0918-07-25",t:"1000-01-01",d:"goryeo",kesinlik:"gun",kaynak:"Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «至六月乙卯，騎將洪儒、裴玄慶、申崇謙、卜智謙等密謀，夜詣太祖第，共言推戴之意。太祖固拒不許，夫人柳氏手提甲領被太祖，諸將扶擁而出。令人馳且呼曰：「王公已擧義旗矣！」於是，奔走來赴者，不可勝記，先至宮門，鼓譟以待者，亦萬餘人。裔聞之驚駭曰：「王公得之，吾事已矣！」乃不知所圖，以微服，出自北門亡去，內人淸宮以迎。裔遁于巖谷，信宿飢甚，偸截麥穗而食，尋爲斧壤民所害。» · Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授。» · DOGU-500-1281"},{f:"1000-01-01", t:"1392-08-05", d:"goryeo",kaynak:"[ONCE1281-GERIYE f 1281-01-01 → 1000-01-01] Britannica, «Kaesong» (britannica.com/place/Kaesong; tarayıcıda açıldı ve okundu 18.10.2026): 'One of the oldest cities of Korea, Kaesŏng was the capital of the Koryŏ dynasty (935–1392).' · BEYAN: Britannica başkentliği 935’ten sayar, atlas künyesi 918; 1000 için fark etmez · f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor; edinim günü değil, D210) · ONCE1281-GERIYE"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-08-26",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-08-26",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Seul (Hanyang) — 1394'te Joseon'un başkenti oldu; şehir daha eskidir
 // (Goryeo'nun "güney başkenti"), bu yüzden kur: YAZILMADI.
@@ -3335,8 +3335,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},
-     {f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},
-     {f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},
+     {f:"1923-10-29",t:"1945-08-26",d:"japon-kore",kaynak:"Britannica Korea"},
+     {f:"1945-08-26",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},
      {f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Pusan — İmcin Savaşı'nın çıkarma noktası ve savaş boyunca Japon
@@ -3372,12 +3372,12 @@ window.YERLESIMLER_ASYA = [
      {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Concu (Jeonju)", tur:"sehir", lat:35.8240, lon:127.1480, g:0, k:3, d:[],
-  s:[{f:"0500-01-01",t:"0660-08-01",d:"baekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «全州牧本百濟完山» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Jeonju (Wansan) Baekje kökenli; ufuk işareti 500. · DOGU-500-1281"},{f:"0660-08-01",t:"0676-02-24",d:"tang",kesinlik:"ay",kaynak:"SAHİP BEYANLI: tang (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Ungjin/Sabi): Tang beş dudufu kurdu (Jiu Tangshu 4: «以其地分置熊津等五都督府»); Wansan'ın hangi dudufuya bağlandığı okunan kaynakta ayrı yazılı değil. · DOGU-500-1281"},{f:"0676-02-24",t:"0900-01-01",d:"silla",kesinlik:"gun",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Jiu Tangshu 卷5 (zh.wikisource.org/wiki/舊唐書/卷5, okundu): «二月甲戌，移安東都護府於遼東。» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «二月，甲戌，徙安東都護府於遼東故城» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «徙熊津都督府於建安故城» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «全州，本百濟完山，眞興王十六年爲州，二十六年州廢，神文王五年復置完山州，景德王十六年改名» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Ungjin): Wansan'ın Silla'ya geçiş günü kaynakta ayrı yok; Tang'ın Ungjin'den çekildiği gün (676-02-24) alındı; Wansan-ju 685'te (Sinmun 5) Silla eyaleti olarak yeniden kuruldu (SS36). · DOGU-500-1281"},{f:"0900-01-01",t:"0936-09-01",d:"hubaekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: hubaekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «遂自稱後百濟王，設官分職。是唐光化三年，新羅孝恭王四年也。» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «今予敢不立都於完山，以雪義慈宿憤乎！» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · DOGU-500-1281"},{f:"0936-09-01",t:"1000-01-01",d:"goryeo",kesinlik:"ay",kaynak:"Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «秋九月，王率三軍，至天安府合兵，進次一善郡，神劒以兵逆之。甲午，隔一利川而陣» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · DOGU-500-1281"},{f:"1000-01-01",t:"1281-01-01",d:"goryeo",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«後甄萱，立都於州，太祖滅之，改安南都護府。二十三年，還爲全州。成宗十二年，稱承化節度安撫使，十四年，置十二州節度使，號順義軍，屬江南道» Goryeosa 57 (高麗史/卷五十七 地理志二, 全州牧): Hubaekje (Gyeon Hwon) başkenti Jeonju’yu Goryeo Taejo 936’da aldı (Goryeosa 57 全羅道: 「太祖十九年，親征克之」); 1000’de Goryeo’nun (成宗 12-14 yıllarında düzenlenen) Jeonju’su. f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
+  s:[{f:"0500-01-01",t:"0660-08-29",d:"baekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «全州牧本百濟完山» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Jeonju (Wansan) Baekje kökenli; ufuk işareti 500. · DOGU-500-1281"},{f:"0660-08-29",t:"0676-02-24",d:"tang",kesinlik:"ay",kaynak:"SAHİP BEYANLI: tang (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Ungjin/Sabi): Tang beş dudufu kurdu (Jiu Tangshu 4: «以其地分置熊津等五都督府»); Wansan'ın hangi dudufuya bağlandığı okunan kaynakta ayrı yazılı değil. · DOGU-500-1281"},{f:"0676-02-24",t:"0900-01-01",d:"silla",kesinlik:"gun",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Jiu Tangshu 卷5 (zh.wikisource.org/wiki/舊唐書/卷5, okundu): «二月甲戌，移安東都護府於遼東。» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «二月，甲戌，徙安東都護府於遼東故城» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «徙熊津都督府於建安故城» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «全州，本百濟完山，眞興王十六年爲州，二十六年州廢，神文王五年復置完山州，景德王十六年改名» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Ungjin): Wansan'ın Silla'ya geçiş günü kaynakta ayrı yok; Tang'ın Ungjin'den çekildiği gün (676-02-24) alındı; Wansan-ju 685'te (Sinmun 5) Silla eyaleti olarak yeniden kuruldu (SS36). · DOGU-500-1281"},{f:"0900-01-01",t:"0936-09-26",d:"hubaekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: hubaekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «遂自稱後百濟王，設官分職。是唐光化三年，新羅孝恭王四年也。» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «今予敢不立都於完山，以雪義慈宿憤乎！» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · DOGU-500-1281"},{f:"0936-09-26",t:"1000-01-01",d:"goryeo",kesinlik:"ay",kaynak:"Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «秋九月，王率三軍，至天安府合兵，進次一善郡，神劒以兵逆之。甲午，隔一利川而陣» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · DOGU-500-1281"},{f:"1000-01-01",t:"1281-01-01",d:"goryeo",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«後甄萱，立都於州，太祖滅之，改安南都護府。二十三年，還爲全州。成宗十二年，稱承化節度安撫使，十四年，置十二州節度使，號順義軍，屬江南道» Goryeosa 57 (高麗史/卷五十七 地理志二, 全州牧): Hubaekje (Gyeon Hwon) başkenti Jeonju’yu Goryeo Taejo 936’da aldı (Goryeosa 57 全羅道: 「太祖十九年，親征克之」); 1000’de Goryeo’nun (成宗 12-14 yıllarında düzenlenen) Jeonju’su. f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Kongcu (Gongju)", tur:"sehir", lat:36.4550, lon:127.1190, g:0, k:3, d:[],
-  s:[{f:"0500-01-01",t:"0660-08-01",d:"baekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «冬十月，移原本缺刻都於熊津。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Gongju (Ungjin) Baekje başkenti 475-538; ufuk işareti 500. · DOGU-500-1281"},{f:"0660-08-01",t:"0676-02-24",d:"tang",kesinlik:"ay",kaynak:"SAHİP BEYANLI: tang (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «熊州，本百濟舊都，唐高宗遣蘇定方平之，置熊津都督府» · DOGU-500-1281"},{f:"0676-02-24",t:"0904-01-01",d:"silla",kesinlik:"gun",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Jiu Tangshu 卷5 (zh.wikisource.org/wiki/舊唐書/卷5, okundu): «二月甲戌，移安東都護府於遼東。» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «二月，甲戌，徙安東都護府於遼東故城» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «徙熊津都督府於建安故城» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «新羅文武王取其地有之，神文王改爲熊川州» · DOGU-500-1281"},{f:"0904-01-01",t:"0918-07-25",d:"taebong",kesinlik:"yil",kaynak:"SAHİP BEYANLI: taebong (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «天祐元年甲子，立國號為摩震，年號為武泰。始置廣評省，備員匡治奈、徐事、外書。又置兵部、大龍部、壽春部、奉賔部、義刑臺、納貨府、調位府、內奉省、禁書省、南廂壇、水壇、元鳳省、飛龍省、物藏省。又置史臺、植貨府、障繕府、珠淘省。又設正匡、元輔、大相、元尹、佐尹、正朝、甫尹、軍尹、中尹等品職。秋七月，移青州人戶一千入鐵圓城為京。伐取尙州等三十餘州縣，公州將軍弘竒來降。» · DOGU-500-1281"},{f:"0918-07-25",t:"0936-09-01",d:"__BOSLUK__",kesinlik:"gun",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Gongju'nun 918-07-25 ile 936-09 arasındaki sahibi (Goryeosa j.1-2 ve Samguk sagi j.50'de 'Gongju' yalnız 904 teslimi ve Goryeosa j.56 'Taejo 23 (940) yeniden adlandırdı' kayıtlarında geçer; Hubaekje/Goryeo hâkimiyeti dönemi okunmadı). | geçiş kaydı: Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «至六月乙卯，騎將洪儒、裴玄慶、申崇謙、卜智謙等密謀，夜詣太祖第，共言推戴之意。太祖固拒不許，夫人柳氏手提甲領被太祖，諸將扶擁而出。令人馳且呼曰：「王公已擧義旗矣！」於是，奔走來赴者，不可勝記，先至宮門，鼓譟以待者，亦萬餘人。裔聞之驚駭曰：「王公得之，吾事已矣！」乃不知所圖，以微服，出自北門亡去，內人淸宮以迎。裔遁于巖谷，信宿飢甚，偸截麥穗而食，尋爲斧壤民所害。» · Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授。» · DOGU-500-1281"},{f:"0936-09-01",t:"1000-01-01",d:"goryeo",kesinlik:"ay",kaynak:"Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «秋九月，王率三軍，至天安府合兵，進次一善郡，神劒以兵逆之。甲午，隔一利川而陣» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «公州本百濟熊川，文周王，自漢城，徙都之，至聖王，又移都南扶餘。新羅與唐，夾攻滅之，唐置熊津都督府，留兵鎭之。唐師旣去，新羅盡有其地。» · BEYANLI YAKLAŞIKLIK: Hubaekje'nin 936'da Goryeo'ya geçişi ülke çapındaydı; Goryeosa j.56: Gongju Taejo 23'te (940) Goryeo adıyla yeniden adlandırıldı (kayıt 940 Goryeo hâkimiyetini gösterir). · DOGU-500-1281"},{f:"1000-01-01",t:"1281-01-01",d:"goryeo",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«太祖二十三年，更今名。成宗二年，初置十二牧，州其一也。十四年，置十二州節度使，稱安節軍，屬河南道。顯宗三年，廢節度使。九年，降知州事» Goryeosa 56 (高麗史/卷五十六 地理志一, 公州): Gongju Goryeo taşrası olarak kesintisiz (成宗二年 12 mok’tan biri, 成宗十四年 anjeol-gun, 顯宗九年 jisaju); 明宗六年 (1176) Mangi-Mangsoi ayaklanması şehri kısa süre ele geçirdi, devlet sahipliği değişimi saymadım (Goryeosa 56: 「攻陷本州… 尋削之」). f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
+  s:[{f:"0500-01-01",t:"0660-08-29",d:"baekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «冬十月，移原本缺刻都於熊津。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Gongju (Ungjin) Baekje başkenti 475-538; ufuk işareti 500. · DOGU-500-1281"},{f:"0660-08-29",t:"0676-02-24",d:"tang",kesinlik:"ay",kaynak:"SAHİP BEYANLI: tang (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «熊州，本百濟舊都，唐高宗遣蘇定方平之，置熊津都督府» · DOGU-500-1281"},{f:"0676-02-24",t:"0904-01-01",d:"silla",kesinlik:"gun",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Jiu Tangshu 卷5 (zh.wikisource.org/wiki/舊唐書/卷5, okundu): «二月甲戌，移安東都護府於遼東。» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «二月，甲戌，徙安東都護府於遼東故城» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «徙熊津都督府於建安故城» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «新羅文武王取其地有之，神文王改爲熊川州» · DOGU-500-1281"},{f:"0904-01-01",t:"0918-07-25",d:"taebong",kesinlik:"yil",kaynak:"SAHİP BEYANLI: taebong (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «天祐元年甲子，立國號為摩震，年號為武泰。始置廣評省，備員匡治奈、徐事、外書。又置兵部、大龍部、壽春部、奉賔部、義刑臺、納貨府、調位府、內奉省、禁書省、南廂壇、水壇、元鳳省、飛龍省、物藏省。又置史臺、植貨府、障繕府、珠淘省。又設正匡、元輔、大相、元尹、佐尹、正朝、甫尹、軍尹、中尹等品職。秋七月，移青州人戶一千入鐵圓城為京。伐取尙州等三十餘州縣，公州將軍弘竒來降。» · DOGU-500-1281"},{f:"0918-07-25",t:"0936-09-26",d:"__BOSLUK__",kesinlik:"gun",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Gongju'nun 918-07-25 ile 936-09 arasındaki sahibi (Goryeosa j.1-2 ve Samguk sagi j.50'de 'Gongju' yalnız 904 teslimi ve Goryeosa j.56 'Taejo 23 (940) yeniden adlandırdı' kayıtlarında geçer; Hubaekje/Goryeo hâkimiyeti dönemi okunmadı). | geçiş kaydı: Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «至六月乙卯，騎將洪儒、裴玄慶、申崇謙、卜智謙等密謀，夜詣太祖第，共言推戴之意。太祖固拒不許，夫人柳氏手提甲領被太祖，諸將扶擁而出。令人馳且呼曰：「王公已擧義旗矣！」於是，奔走來赴者，不可勝記，先至宮門，鼓譟以待者，亦萬餘人。裔聞之驚駭曰：「王公得之，吾事已矣！」乃不知所圖，以微服，出自北門亡去，內人淸宮以迎。裔遁于巖谷，信宿飢甚，偸截麥穗而食，尋爲斧壤民所害。» · Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授。» · DOGU-500-1281"},{f:"0936-09-26",t:"1000-01-01",d:"goryeo",kesinlik:"ay",kaynak:"Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «秋九月，王率三軍，至天安府合兵，進次一善郡，神劒以兵逆之。甲午，隔一利川而陣» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «公州本百濟熊川，文周王，自漢城，徙都之，至聖王，又移都南扶餘。新羅與唐，夾攻滅之，唐置熊津都督府，留兵鎭之。唐師旣去，新羅盡有其地。» · BEYANLI YAKLAŞIKLIK: Hubaekje'nin 936'da Goryeo'ya geçişi ülke çapındaydı; Goryeosa j.56: Gongju Taejo 23'te (940) Goryeo adıyla yeniden adlandırıldı (kayıt 940 Goryeo hâkimiyetini gösterir). · DOGU-500-1281"},{f:"1000-01-01",t:"1281-01-01",d:"goryeo",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«太祖二十三年，更今名。成宗二年，初置十二牧，州其一也。十四年，置十二州節度使，稱安節軍，屬河南道。顯宗三年，廢節度使。九年，降知州事» Goryeosa 56 (高麗史/卷五十六 地理志一, 公州): Gongju Goryeo taşrası olarak kesintisiz (成宗二年 12 mok’tan biri, 成宗十四年 anjeol-gun, 顯宗九年 jisaju); 明宗六年 (1176) Mangi-Mangsoi ayaklanması şehri kısa süre ele geçirdi, devlet sahipliği değişimi saymadım (Goryeosa 56: 「攻陷本州… 尋削之」). f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
@@ -3391,7 +3391,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Ûicu (Uiju)", tur:"kale", lat:40.1520, lon:124.5230, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-08-26",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-08-26",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Hamhung — Ssangseong komutanlığı: 1258-1356 arasında YUAN'IN DOĞRUDAN
 // idaresindeydi, yani 1281'de Goryeo değildir. Kral Gongmin 1356'da geri
@@ -3400,20 +3400,20 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1107-01-01",t:"1109-01-01",d:"goryeo",kesinlik:"yil",kaynak:"«咸州大都督府久爲女眞所據。睿宗二年，命元帥尹瓘等，率兵擊逐。三年，置州，爲大都督府，號鎭東軍。築大城，徙南界丁戶一千九百四十八，以實之。四年，撤城，以其地，還女眞» Goryeosa 58 (高麗史/卷五十八 地理三, 咸州大都督府): 睿宗二年 (1107) Yun Gwan Jurchenleri sürdü, 三年 (1108) Hamju kuruldu, 四年 (1109) şehir tahliye edilip Jurchenlere iade edildi (yalnız yıl; ay-gün yok). · VERI-MS1-1281"},{f:"1109-01-01",t:"1259-01-09",d:"__BOSLUK__",kesinlik:{f:"yil",t:"gun"},kaynak:"BEYANLI BOŞLUK (arandı, bulunamadı): Hamju’nun 1109 sonrası Jurchen/Jin elinde olduğuna dair şehir adlı tanıklık yok (Goryeosa 58 yalnız 「還女眞」 der; Jinshi 24 曷賴路 yalnız uzaklık verir, Hamju anılmaz); Jin sonrası (1234) için Doğu Xia tanıklığı da yok. Arandı, bulunamadı: Hamju (咸州/哈蘭) için 1109-1259 arası şehir adlı sahiplik.  f: Goryeosa 58 睿宗四年 (1109) 「撤城，以其地，還女眞」: yalnız yıl. · VERI-MS1-1281"},{f:"1259-01-09",t:"1260-01-01",d:"mogol-imparatorlugu",kesinlik:{f:"gun",t:"yil"},kaynak:"«四年，撤城，以其地，還女眞，後又沒於元，稱哈蘭府。恭愍王五年，收復舊疆，爲知咸州事» «龍津縣人趙暉，定州人卓靑，以和州迆北，附蒙古。蒙古置雙城摠管府于和州» Dilim başlangıcının TARİHİ Goryeosa 24 (高宗四十五年十二月 己丑) bölge cümlesinden gelir (「和州迆北」 = Hwaju ve kuzeyi; Hamju bu bölgenin içindedir ama cümle şehir adı anmaz — BÖLGE CÜMLESİ, yalnız tarih alt sınırı); şehir adlı tanıklık 咸州 maddesi 「後又沒於元，稱哈蘭府」 (tarihsiz). f: Gün çevirimi: Goryeosa 24 高宗四十五年十二月丙子朔 (gan-zhi mutlak: Jülyen 1258-12-27) içindeki 己丑 günü = Jülyen 1259-01-09 (JDN/gan-zhi hesabı; Goryeo takvimi ay-gün tablosu kullanılmadı, yalnız gan-zhi). Olay Goryeosa’da 己丑 kaydının devamında anlatılır (Cho Hwi ve Tak Cheong 和州迆北 Moğollara bağlandı; Ssangseong Genel Valiliği kuruldu) — bölge cümlesi. · VERI-MS1-1281"},{f:"1260-01-01",t:"1281-01-01",d:"yuan-hanedani",kesinlik:"yil",kaynak:"«四年，撤城，以其地，還女眞，後又沒於元，稱哈蘭府。恭愍王五年，收復舊疆，爲知咸州事» Goryeosa 58: Hamju Yuan’a geçmiş (哈蘭府) ve恭愍王五年 (1356) Goryeo’ya geri alınmıştır; 1281 öncesi Yuan dönemi sürekli. f: KÜNYE ÖMRÜ SINIRI: mogol-imparatorlugu t=1260-01-01 = yuan-hanedani f=1260-01-01 (atlas künyesi, DAYANAK DEĞİL): dilim ucu künye ömrü içinde kalsın diye bu güne konuldu. Kubilay’ın tahta çıkışı 中統元年 (Yuanshi 4; Jülyen 1260-05-05) ile künye sınırı hizalanabilir. t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1356-08-05", d:"yuan-hanedani"},
      {f:"1356-08-05", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-08-26",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-08-26",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 { ad:"Wonsan", tur:"liman", lat:39.1470, lon:127.4440, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1356-08-05", d:"yuan-hanedani"},
      {f:"1356-08-05", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-08-26",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-08-26",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Kyongsong — Joseon'un XV. yüzyılda Tumen'e kadar genişlettiği kuzeydoğu
 // sınırının kalesi ("altı garnizon", 1434-1449).
 { ad:"Kyongsong (Gyeongseong)", tur:"kale", lat:41.5750, lon:129.5980, g:0, k:4, d:[],
   kur:"1434-01-01",
   s:[{f:"1434-01-01", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-08-26",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-08-26",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Ceccu (Jeju) — Tamna: 1273-1356 arasında Yuan'ın doğrudan idaresinde bir
 // at yetiştirme bölgesiydi. Ada, kendi noktası olmazsa kutu açıldığında

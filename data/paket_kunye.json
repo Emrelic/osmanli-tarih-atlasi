@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "5cfd2f1e2c72b013",
-     "bayt": 5483739
+     "sha": "349b1d1652d7e63d",
+     "bayt": 5487258
     }
    ],
-   "bayt": 5663547
+   "bayt": 5667066
   },
   {
    "paket": "data/paket_06.js",
@@ -386,8 +386,8 @@
     },
     {
      "yol": "data/kronoloji_japonya.js",
-     "sha": "c6bbbba18f60f409",
-     "bayt": 60314
+     "sha": "9f2d224e09c5cda9",
+     "bayt": 60496
     },
     {
      "yol": "data/kronoloji_misir.js",
@@ -405,7 +405,7 @@
      "bayt": 27250
     }
    ],
-   "bayt": 371913
+   "bayt": 372095
   },
   {
    "paket": "data/paket_12.js",
@@ -573,7 +573,7 @@
     },
     {
      "yol": "data/yerlesimler_asya.js",
-     "sha": "a0908ec51306bddc",
+     "sha": "1c58ea7bf7de4822",
      "bayt": 754600
     },
     {

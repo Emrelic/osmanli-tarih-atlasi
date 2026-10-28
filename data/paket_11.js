@@ -1268,7 +1268,7 @@ window.KRONOLOJI_JAPONYA = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: George Sansom, A History of Japan, cilt 2" },
 
 // === C) AZUCHİ-MOMOYAMA — BİRLEŞME (1568-1615) ================================
-{ taraflar:["azuchi-momoyama"], t:"1568-10-18", b:"Oda Nobunaga Kyoto'ya girdi, birleşme süreci başladı", tur:"kurulus", onem:5, dunya:2, kapsam:"ic",
+{ taraflar:["azuchi-momoyama"], t:"1568-10-16", ic_not_takvim:"Eiroku 11/9/26 (ay-güneş) = Jülyen 1568-10-16 (NAOJ); eski 10-18 şogun atama günü 10/18 = 1568-11-07 ile karışmıştı", b:"Oda Nobunaga Kyoto'ya girdi, birleşme süreci başladı", tur:"kurulus", onem:5, dunya:2, kapsam:"ic",
   etiket:["askeri","siyaset","kurulus","konu-askeri","konu-siyasi"],
   yer_id:"Kyoto",
   d:"[Azuchi-Momoyama] Owari beyi Nobunaga, Ashikaga Yoshiaki'yi şogun makamına oturtarak başkenti ele geçirdi; bu, bir buçuk asırlık Sengoku parçalanmasına son verecek üç aşamalı birleşme sürecinin (Nobunaga → Hideyoshi → Ieyasu) ilk adımıydı.",
@@ -1375,7 +1375,7 @@ window.KRONOLOJI_JAPONYA = [
   yer_id:"Edo (Tokyo)", kapsam_genis:true,
   d:"[Edo Şogunluğu — Kyōhō reformları] Tarım ve tıp bilgisine pratik ilgi duyan Yoshimune'nin bu kararı, misyoner içeriği taşımayan Hollandaca eserlerin incelenmesine kapı araladı; bu, sonraki elli yılda 'Rangaku' (Hollanda Bilimi) çevirmen-bilgin geleneğinin doğmasını sağlayan doğrudan idari adımdı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Marius B. Jansen, The Making of Modern Japan (2000)" },
-{ taraflar:["edo-bakufu"], t:"1774-08-01", b:"Sugita Genpaku, \"Kaitai Şinşo\"yu (Yeni Anatomi Kitabı) yayımladı", tur:"bilim", onem:4, dunya:2, kapsam:"ic",
+{ taraflar:["edo-bakufu"], t:"1774-01-01", b:"Sugita Genpaku, \"Kaitai Şinşo\"yu (Yeni Anatomi Kitabı) yayımladı [yalnız yıl teyitli; gün teyitsiz]", tur:"bilim", onem:4, dunya:2, kapsam:"ic",
   etiket:["bilim","tip","ceviri","konu-bilim","konu-kultur"],
   yer_id:"Edo (Tokyo)",
   d:"[Edo Şogunluğu — Rangaku] Hollandaca bir anatomi atlasını (Ontleedkundige Tafelen) sözlüksüz, kelime kelime çözerek Japoncaya çeviren Sugita Genpaku ve arkadaşları, Batı tıbbının Japon bilim çevrelerine sistemli girişini başlattı; eser Rangaku hareketinin kurucu metni sayılır ve Meiji döneminin Batı bilimine açılımına giden entelektüel zincirin ilk halkasıdır.",

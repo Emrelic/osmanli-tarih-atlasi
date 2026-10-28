@@ -5717,7 +5717,7 @@ window.ETIKET_YAMA = {
     "sebep": "liman/kanal TICARETE acilma — insaat degil"
    },
    {
-    "t": "1872-10-04",
+    "t": "1872-11-04",
     "b": "Tomioka İpek Fabrikası açıldı",
     "sebep": "liman/kanal TICARETE acilma — insaat degil"
    },
@@ -6427,7 +6427,7 @@ window.ETIKET_YAMA = {
    "1803-11-30|Balmis Aşı Seferi": [
     "afet-salgin"
    ],
-   "1890-12-01|Kitasato Şibasaburō": [
+   "1892-01-01|Kitasato Şibasaburō": [
     "afet-salgin"
    ],
    "1416-01-01|İbn Hacer Bezlü'l-mâ'ûn": [
@@ -6828,8 +6828,8 @@ window.ETIKET_YAMA = {
    },
    {
     "dosya": "kronoloji_japonya.js",
-    "t": "1890-12-01",
-    "b": "Kitasato Şibasaburō, Tokyo'da kendi Bulaşıcı Hastalıklar Enstitüsü'nü kurdu",
+    "t": "1892-01-01",
+    "b": "Kitasato Şibasaburō, Tokyo'da kendi Bulaşıcı Hastalıklar Enstitüsü'nü kurdu [yalnız yıl teyitli; gün teyitsiz]",
     "etiket_oneri": [
      "afet-salgin"
     ]
