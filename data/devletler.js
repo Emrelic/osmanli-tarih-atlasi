@@ -6406,8 +6406,8 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"hawaii-kralligi", ad:"Hawaii Krallığı", tur:"krallik", bolge:"okyanusya",
-  f:"1795-01-01", t:"1898-08-12", baskent:"Honolulu",
-  ozet:"Kamehameha I'in adaları savaşla birleştirmesiyle kurulan Pasifik krallığı; ABD'li yerleşimcilerin darbesiyle devrilip kısa bir cumhuriyet döneminden sonra ABD'ye ilhak edildi.",
+  f:"1795-01-01", t:"1893-01-17", baskent:"Honolulu",
+  ozet:"Kamehameha I'in adaları savaşla birleştirmesiyle kurulan Pasifik krallığı; ABD'li yerleşimcilerin darbesiyle 17 Ocak 1893'te devrildi; ardıl: hawaii-cumhuriyeti (1893-1898), ardından ABD'ye ilhak.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { odak_yer:["Honolulu"], t:"1795-01-01", tur:"kurulus", b:"Kamehameha I, Hawaii adalarını savaşla birleştirdi" },
@@ -6421,7 +6421,16 @@ window.DEVLETLER = [
     { odak_yer:["Hamilton"], t:"1875-01-30", tur:"antlasma", b:"ABD Dışişleri Bakanı Hamilton Fish ile Hawaii elçisi Elisha Allen, Hawaii tarım ürünlerini ABD'ye gümrüksüz sokan karşılıklılık antlaşmasını imzaladı.", kaynak:"https://history.state.gov/countries/hawaii ; https://www.britannica.com/event/Reciprocity-Treaty-of-1875" },
     { odak_yer:["Honolulu"], t:"1887-07-06", tur:"siyaset", b:"Honolulu Rifles'ın ve Hawaiian League'in baskısı altında Kalākaua, kralın yetkilerini kısıtlayan ve oy hakkını mülk şartına bağlayan 'Süngü Anayasası'nı imzaladı (7 Temmuz'da ilan edildi).", kaynak:"https://history.state.gov/historicaldocuments/frus1894app2/d92 ; https://www.iolanipalace.org/2021/05/19/hawaiian-royal-hats-part-iii-bayonet-constitution-and-illegal-overthrow/" },
     { odak_yer:["Honolulu"], t:"1891-01-29", tur:"hukumdar", b:"Kalākaua'nın 20 Ocak'ta San Francisco'da ölmesinin ardından, cenazesini taşıyan USS Charleston'ın Honolulu'ya varışıyla aynı gün Liliʻuokalani kraliçe ilan edildi.", kaynak:"https://history.state.gov/historicaldocuments/frus1891/d583 ; https://www.nps.gov/articles/000/queen-lili-uokalani.htm" },
-    { odak_yer:["Honolulu"], t:"1893-01-17", tur:"bolunme", b:"ABD'li yerleşimciler Kraliçe Liliuokalani'yi devirdi" },
+    { odak_yer:["Honolulu"], t:"1893-01-17", tur:"bolunme", b:"ABD'li yerleşimciler Kraliçe Liliuokalani'yi devirdi" }
+  ]
+},
+{ id:"hawaii-cumhuriyeti", ad:"Hawaii Geçici Hükümeti ve Cumhuriyeti", tur:"cumhuriyet", bolge:"okyanusya", harita:"hawaii-kralligi",
+  f:"1893-01-17", t:"1898-08-12", baskent:"Honolulu",
+  ozet:"17 Ocak 1893'te Kraliçe Liliuokalani'yi deviren Güvenlik Komitesi'nin Geçici Hükümeti; 4 Temmuz 1894'te Hawaii Cumhuriyeti'ne dönüştü; 12 Ağustos 1898'de ABD'ye resmen ilhak edildi.",
+  ic_not:"Harita boyası hawaii-kralligi anahtarını paylaşır (`harita:`); ayrı BOYALAR anahtarı Emre kararı (tuz). Geçici Hükümet (1893-01-17→1894-07-04) ve Cumhuriyet tek künyede: egemenlik sürekli, kimlik değişimi yok. Gün teyidi: PL 103-150 metni 17 Ocak 1893 ve 4 Temmuz 1894'ü verir; 12 Ağustos 1898 ilhak töreni history.state.gov.",
+  kaynak:"Public Law 103-150 (Apology Resolution), 107 Stat. 1510, govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf (17 Ocak 1893 Geçici Hükümet; 4 Temmuz 1894 Hawaii Cumhuriyeti; 7 Temmuz 1898 Newlands kararı); ABD Dışişleri Tarihçi Ofisi history.state.gov/countries/hawaii (12 Ağustos 1898 resmî ilhak)",
+  kronoloji:[
+    { odak_yer:["Honolulu"], t:"1893-01-17", tur:"kurulus", b:"Güvenlik Komitesi, Kraliçe Liliuokalani'nin devrilmesiyle Geçici Hükümet'i ilan etti", kaynak:"Public Law 103-150, 107 Stat. 1510 (govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf)" },
     { odak_yer:["Honolulu"], t:"1894-07-04", tur:"siyaset", b:"Sanford Dole ve arkadaşları, geçici hükümetin yerine Hawaii Cumhuriyeti'ni ilan etti ve Dole cumhurbaşkanı oldu.", kaynak:"https://www.britannica.com/biography/Sanford-Ballard-Dole" },
     { odak_yer:["Honolulu"], t:"1898-08-12", tur:"son", b:"ABD, Hawaii'yi resmen ilhak etti" }
   ]

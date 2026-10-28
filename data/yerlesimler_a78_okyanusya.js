@@ -158,13 +158,13 @@ window.YERLESIMLER_A78_OKYANUSYA = [
   kasitli_bosluk:true, bos:"kabile",
   neden:"1795 birleşmesi öncesi: moku/aliʻi sistemi — emsal ve kaynak atlasın 'Hawaii Adaları (Birleşme Öncesi)' kaydı (yerlesimler_ek30.js).",
   kaynak:"Britannica 'Kamehameha I': \"by 1795 had brought all the islands but Kauai and Niihau under his control\" (künye `hawaii-kralligi` f:1795-01-01). ABD: US Office of the Historian (history.state.gov): \"formal U.S. annexation of Hawaii on August 12, 1898\" — atlasın Honolulu kırılmasıyla aynı gün. ⚠️ KÜNYE BOŞLUĞU: 1893-01-17 Geçici Hükümet ve 1894-07-04 Hawaii Cumhuriyeti için atlasta kimlik yok (Hawaii Devlet Arşivi); `hawaii-kralligi` 1893-1898'i de kaplıyor — künye işi, bu kayıt künyeyi izler.",
-  s:[{f:"1795-01-01",t:"1898-08-12",d:"hawaii-kralligi"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
+  s:[{f:"1795-01-01",t:"1893-01-17",d:"hawaii-kralligi"},{f:"1893-01-17",t:"1898-08-12",d:"hawaii-cumhuriyeti",kaynak:"Public Law 103-150 (Apology Resolution), 107 Stat. 1510, govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf (17 Ocak 1893 Geçici Hükümet; 4 Temmuz 1894 Hawaii Cumhuriyeti; 7 Temmuz 1898 Newlands kararı); ABD Dışişleri Tarihçi Ofisi history.state.gov/countries/hawaii (12 Ağustos 1898 resmî ilhak)"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
 
 { ad:"Lahaina", tur:"liman", lat:20.8739, lon:-156.6777, g:1, k:1,
   kasitli_bosluk:true, bos:"kabile",
   neden:"1795 birleşmesi öncesi: moku/aliʻi sistemi — emsal ve kaynak atlasın 'Hawaii Adaları (Birleşme Öncesi)' kaydı (yerlesimler_ek30.js).",
   kaynak:"Britannica 'Kamehameha I': \"by 1795 had brought all the islands but Kauai and Niihau under his control\" (Maui dahil). ABD: US Office of the Historian: \"formal U.S. annexation of Hawaii on August 12, 1898\". ⚠️ 1893-1898 künye boşluğu Hilo kaydında yazılı.",
-  s:[{f:"1795-01-01",t:"1898-08-12",d:"hawaii-kralligi"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
+  s:[{f:"1795-01-01",t:"1893-01-17",d:"hawaii-kralligi"},{f:"1893-01-17",t:"1898-08-12",d:"hawaii-cumhuriyeti",kaynak:"Public Law 103-150 (Apology Resolution), 107 Stat. 1510, govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf (17 Ocak 1893 Geçici Hükümet; 4 Temmuz 1894 Hawaii Cumhuriyeti; 7 Temmuz 1898 Newlands kararı); ABD Dışişleri Tarihçi Ofisi history.state.gov/countries/hawaii (12 Ağustos 1898 resmî ilhak)"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
 
 // --------------------------------------------------------------------
 // YENİ ZELANDA — emsal Auckland (yerlesimler_ek30.js): s yeni-zelanda kur'dan
