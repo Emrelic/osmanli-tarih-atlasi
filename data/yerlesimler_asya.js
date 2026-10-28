@@ -3564,7 +3564,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Sukhothai", tur:"sehir", lat:17.0200, lon:99.7030, g:1, k:2,kd:[{f:"1281-01-01",t:"1438-01-01",k:1,m:"Sukhothai"}], d:[],
   s:[{f:"0500-01-01",t:"1000-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"UFUK SINIR İŞARETİ (0500-01-01): pencere başıdır, kuruluş değil.  | BOŞLUK BEYANI: arandı, bulunamadı: Sukhothai bölgesinin 500-1181 arası sahibi: Coedès Khmer kalıntılarının en geç Jayavarman VII'den (1181), 'belki' Suryavarman II'den (1113) beri baskınlığını söyler; daha eski tanık yok (Hall, Coedès, Majumdar arandı). Dvaravati/Lavo bağı kaynakta bu şehir için gösterilmedi. · DOGU-500-1281"},{f:"1000-01-01",t:"1238-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BEYANLI BOŞLUK (arandı, bulunamadı): Sukhothai 1000-1238 sahibi: TDV tayland Tay, Mon, Khmer ve Malay kökenli topluluklar yaşamaktaydı ve bunlar küçük krallık yönetimleri altında Khmer İmparatorluğu’na bağlıydı bölge cümlesidir (Sukhothai adı yok), angkor-kmer'e bağlanmadı f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1238-01-01",t:"1281-01-01",d:"sukhothai",kesinlik:"yil",kaynak:"TDV tayland: «Budist Sukothai Krallığı diye bilinen bu ilk Tay devleti 1238’de Angkor’u alıp gücünü arttırdı» ; «Kral Rama Khamheng döneminde (1275-1317) Sukothai Krallığı idarî, hukukî ve içtimaî alanda önemli yapılanmalar gerçekleştirdi». BEYANLI YAKLAŞIKLIK: TDV 1238 yılının neyi tarihlediği (devletleşme/Angkor) belirsiz; başlangıç yıl hassasiyeti; 1238 künye f ile uyumlu. · VERI-MS1-1281"},{f:"1281-01-01", t:"1438-01-01", d:"sukhothai"},
      {f:"1438-01-01", t:"1767-04-07", d:"ayutthaya"},
-     {f:"1767-04-07", t:"1782-04-06", d:"tonburi"},
+     {f:"1767-04-07",t:"1767-10-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: Ayutthaya künyesi 1767-04-07'de bitiyor (Birmanya fethi), Thonburi künyesi 1767-10-01'de başlıyor; aradaki ~6 ay (Konbaung garnizonu / yerel çete dönemi) için künye ya da tarihli tanık bu oturumda aranmadı/bulunamadı. Eski kayıt Thonburi'yi künye doğumundan 177 gün önce (1767-04-07) başlatıyordu (4d). Boşluk doldurma merdiveni sonraki oturuma bırakıldı. · GDA-OKYANUSYA ikinci tur, 28 Ekim 2026"},{f:"1767-10-01",t:"1782-04-06", d:"tonburi"},
      {f:"1782-04-06", t:"2000-12-31", d:"siyam-chakri"}] },
 
 // Ayutthaya — 4 Mart 1351'de kuruldu (kur:), 7 Nisan 1767'de yakıldı ve
@@ -3574,7 +3574,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1351-03-04", t:"1569-08-08", d:"ayutthaya"},
      {f:"1569-08-08", t:"1584-05-03", d:"toungoo"},
      {f:"1584-05-03", t:"1767-04-07", d:"ayutthaya"},
-     {f:"1767-04-07", t:"1782-04-06", d:"tonburi"},
+     {f:"1767-04-07",t:"1767-10-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: Ayutthaya künyesi 1767-04-07'de bitiyor (Birmanya fethi), Thonburi künyesi 1767-10-01'de başlıyor; aradaki ~6 ay (Konbaung garnizonu / yerel çete dönemi) için künye ya da tarihli tanık bu oturumda aranmadı/bulunamadı. Eski kayıt Thonburi'yi künye doğumundan 177 gün önce (1767-04-07) başlatıyordu (4d). Boşluk doldurma merdiveni sonraki oturuma bırakıldı. · GDA-OKYANUSYA ikinci tur, 28 Ekim 2026"},{f:"1767-10-01",t:"1782-04-06", d:"tonburi"},
      {f:"1782-04-06", t:"2000-12-31", d:"siyam-chakri"}] },
 
 // Bangkok — Taksin 1767 sonunda Tonburi'yi (nehrin batı yakası) başkent
@@ -3601,7 +3601,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Nakhon Si Thammarat", tur:"sehir", lat:8.4320, lon:99.9640, g:0, k:3, d:[],
   s:[{f:"0775-01-01",t:"1230-01-01",d:"srivijaya",kesinlik:"yil",kaynak:"Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VI-1: «reveals that the Sumatran kingdom had established a foothold on the Malay Peninsula at Ligor» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-7: «Tan-ma-ling (Tambralinga, in the region of Ligor)» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-3: «whose center was at Ligor» | BEYANLI YAKLAŞIKLIK: Ligor/Tambralinga 775 Srivijaya yazıtından 1230 Chandrabhanu bağımsızlığına dek Srivijaya'ya bağımlıdır (Chao Ju-kua 1225 Tan-ma-ling'i San-fo-ch'i bağımlısı sayar); 1025 Chola akını Madamalingam'ı da kapsar; dilim Srivijaya üst egemenliği olarak yazıldı, Tambralinga yerel krallığı bu dilimde adlı sahip değildir. · DOGU-500-1281"},{f:"1230-01-01",t:"1281-01-01",d:"tambralinga",kesinlik:"yil",kaynak:"SAHİP: tambralinga (BOYALAR'da mevcut; BOŞLUK BEYANI karşılandı, 27 Ekim 2026 — beyanlı yaklaşıklık aşağıdaki kaynakla) · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-7: «King of Tambralinga (Ligor), belonging to the \"family of the lotus\"» · «This inscription shows every sign of emanating from an independent sovereign.» | ic_not: 1281'de Tambralinga → Sukhothai (mevcut zincir) dikişi: Coedès Thai fethini ~1294 verir (XII-8); mevcut atlas zinciri 1281'de sukhothai ile başlıyor — çelişki RAPORda. · DOGU-500-1281"},{f:"1281-01-01", t:"1438-01-01", d:"sukhothai"},
      {f:"1438-01-01", t:"1767-04-07", d:"ayutthaya"},
-     {f:"1767-04-07", t:"1782-04-06", d:"tonburi"},
+     {f:"1767-04-07",t:"1767-10-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: Ayutthaya künyesi 1767-04-07'de bitiyor (Birmanya fethi), Thonburi künyesi 1767-10-01'de başlıyor; aradaki ~6 ay (Konbaung garnizonu / yerel çete dönemi) için künye ya da tarihli tanık bu oturumda aranmadı/bulunamadı. Eski kayıt Thonburi'yi künye doğumundan 177 gün önce (1767-04-07) başlatıyordu (4d). Boşluk doldurma merdiveni sonraki oturuma bırakıldı. · GDA-OKYANUSYA ikinci tur, 28 Ekim 2026"},{f:"1767-10-01",t:"1782-04-06", d:"tonburi"},
      {f:"1782-04-06", t:"2000-12-31", d:"siyam-chakri"}] },
 
 // ===== 8c. Laos ve Kamboçya =====
@@ -3895,17 +3895,17 @@ window.YERLESIMLER_ASYA = [
 { ad:"Samudra Pasai", tur:"liman", lat:5.1800, lon:97.0700, g:1, k:1, d:[],
   s:[{f:"1281-01-01", t:"1521-01-01", d:"samudra-pasai"},
      {f:"1521-01-01", t:"1524-01-01", d:"portekiz"},
-     {f:"1524-01-01", t:"1903-01-10", d:"ace-sultanligi"},
-     {f:"1903-01-10", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
+     {f:"1524-01-01", t:"1903-01-01", d:"ace-sultanligi"},
+     {f:"1903-01-01", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
-// Banda Açe — Açe Sultanlığı 1496'da kuruldu (kur:) ve XVI. yüzyılda
+// Banda Açe — Açe Sultanlığı 1521'de kuruldu (TDV AÇE; eski kayıt 1496 kaynaksızdı) (kur:) ve XVI. yüzyılda
 // Osmanlı Devleti'nden top ve topçu yardımı istedi (1566 elçiliği);
 // bu dosyanın Osmanlı ile doğrudan teması olan tek noktasıdır.
 // Hollanda savaşı 1873'te başladı, sultan 10 Ocak 1903'te teslim oldu.
-{ ad:"Banda Açe", tur:"liman", lat:5.5480, lon:95.3240, g:2, k:1,kd:[{f:"1496-01-01",t:"1903-01-01",k:1,m:"Banda Açe"}], d:[],
-  kur:"1496-01-01",
-  s:[{f:"1496-01-01", t:"1903-01-10", d:"ace-sultanligi"},
-     {f:"1903-01-10", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
+{ ad:"Banda Açe", tur:"liman", lat:5.5480, lon:95.3240, g:2, k:1,kd:[{f:"1521-01-01",t:"1903-01-01",k:1,m:"Banda Açe"}], d:[],
+  kur:"1521-01-01",
+  s:[{f:"1521-01-01", t:"1903-01-01", d:"ace-sultanligi"},
+     {f:"1903-01-01", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Padang — Minangkabau'nun (Pagaruyung) limanı; VOC 1663'te yerleşti,
 // İngiltere Napolyon savaşlarında iki kez aldı (1781-1784 ve 1795-1819).
@@ -3949,7 +3949,7 @@ window.YERLESIMLER_ASYA = [
 // Demak — Cava'nın ilk İslâm sultanlığı; Majapahit'i 1527'de yıktı.
 { ad:"Demak", tur:"sehir", lat:-6.8900, lon:110.6390, g:1, k:2,kd:[{f:"1478-01-01",t:"1587-01-01",k:1,m:"Demak"}], d:[],
   s:[{f:"1281-01-01", t:"1292-01-01", d:"singhasari"},
-     {f:"1292-01-01", t:"1478-01-01", d:"majapahit"},
+     {f:"1292-01-01",t:"1293-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: Singhasari künyesi 1292-01-01'de bitiyor, Majapahit künyesi 1293-01-01'de başlıyor; aradaki 1 yıl (Kediri'li Jayakatwang'ın Singhasari'yi devirip Moğol seferi gelene dek tuttuğu dönem) için künye YOK ve bu noktanın bu dilimdeki sahibi için tarihli tanık bu oturumda aranmadı/bulunamadı. Eski kayıt Majapahit'i künye doğumundan 1 yıl önce (1292) başlatıyordu (4d). Boşluk doldurma merdiveni sonraki oturuma bırakıldı. · GDA-OKYANUSYA ikinci tur, 28 Ekim 2026"},{f:"1293-01-01",t:"1478-01-01", d:"majapahit"},
      {f:"1478-01-01", t:"1587-01-01", d:"demak"},
      {f:"1587-01-01", t:"1743-11-11", d:"mataram-sultanligi"},
      {f:"1743-11-11", t:"1811-08-18", d:"hollanda-dogu-hint"},
@@ -3958,7 +3958,7 @@ window.YERLESIMLER_ASYA = [
 
 { ad:"Semarang", tur:"liman", lat:-6.9660, lon:110.4170, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1292-01-01", d:"singhasari"},
-     {f:"1292-01-01", t:"1478-01-01", d:"majapahit"},
+     {f:"1292-01-01",t:"1293-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: Singhasari künyesi 1292-01-01'de bitiyor, Majapahit künyesi 1293-01-01'de başlıyor; aradaki 1 yıl (Kediri'li Jayakatwang'ın Singhasari'yi devirip Moğol seferi gelene dek tuttuğu dönem) için künye YOK ve bu noktanın bu dilimdeki sahibi için tarihli tanık bu oturumda aranmadı/bulunamadı. Eski kayıt Majapahit'i künye doğumundan 1 yıl önce (1292) başlatıyordu (4d). Boşluk doldurma merdiveni sonraki oturuma bırakıldı. · GDA-OKYANUSYA ikinci tur, 28 Ekim 2026"},{f:"1293-01-01",t:"1478-01-01", d:"majapahit"},
      {f:"1478-01-01", t:"1587-01-01", d:"demak"},
      {f:"1587-01-01", t:"1705-01-01", d:"mataram-sultanligi"},
      {f:"1705-01-01", t:"1811-08-18", d:"hollanda-dogu-hint"},
@@ -3967,7 +3967,7 @@ window.YERLESIMLER_ASYA = [
 
 { ad:"Surabaya", tur:"liman", lat:-7.2570, lon:112.7520, g:2, k:3, d:[],
   s:[{f:"0929-01-01",t:"1016-01-01",d:"medang",kesinlik:"yil",kaynak:"Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-3: «for the first act of his successor Sindok ... is dated 929» · «The accession of Sindok marks the definitive transfer of the capital to the east, between the mountains Smeru and Wilis» | BEYANLI YAKLAŞIKLIK: Sindok başkenti Smeru-Wilis dağları arasına taşıdı; Surabaya adı geçmez, Brantas havzası krallığı olarak alındı. · DOGU-500-1281"},{f:"1016-01-01",t:"1019-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: 1016 Pralaya'dan 1019 taç giymeye dek Surabaya kıyısının sahibi (Coedès: Airlangga dağlarda keşiş yanında, krallık dağınık). Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-4: «the young Airlanga, then sixteen years old, took refuge among hermits» · DOGU-500-1281"},{f:"1019-01-01",t:"1042-01-01",d:"kahuripan",kesinlik:"yil",kaynak:"Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-4: «in 1019 he was officially crowned with the title Sri Maharaja Rakai Halu» · «he established his residence in the east, at Kahuripan, the site of which has still not been identified» · DOGU-500-1281"},{f:"1042-01-01",t:"1222-01-01",d:"kediri",kesinlik:"yil",kaynak:"Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-4: «Janggala lay to the east and must have included the region of Malang and the Brantas Delta with the ports of Surabaya, Rembang, and Pasuruhan» · «Janggala was soon absorbed by Panjalu» | Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu), 'The Kingdom of Kadiri' bölümü, s. 278-280: «the available evidence leads to the conclusion that the kingdom of Janggala did not last long» | BEYANLI YAKLAŞIKLIK: Janggala payının Kadiri'ye emilme yılı kaynakta yok; Majumdar artakalanı 'yarı bağımsız şefler' sayar. Bölme yılı (1042) kesin değil (Coedès 'ölümünden önce', Hall ≈1045). · DOGU-500-1281"},{f:"1222-01-01",t:"1281-01-01",d:"singhasari",kesinlik:"yil",kaynak:"Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XI-8: «Kadiri consequently became an integral part of the kingdom of Tumapel» · «brought the former Janggala under his power» · DOGU-500-1281"},{f:"1281-01-01", t:"1292-01-01", d:"singhasari"},
-     {f:"1292-01-01", t:"1527-01-01", d:"majapahit"},
+     {f:"1292-01-01",t:"1293-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: Singhasari künyesi 1292-01-01'de bitiyor, Majapahit künyesi 1293-01-01'de başlıyor; aradaki 1 yıl (Kediri'li Jayakatwang'ın Singhasari'yi devirip Moğol seferi gelene dek tuttuğu dönem) için künye YOK ve bu noktanın bu dilimdeki sahibi için tarihli tanık bu oturumda aranmadı/bulunamadı. Eski kayıt Majapahit'i künye doğumundan 1 yıl önce (1292) başlatıyordu (4d). Boşluk doldurma merdiveni sonraki oturuma bırakıldı. · GDA-OKYANUSYA ikinci tur, 28 Ekim 2026"},{f:"1293-01-01",t:"1527-01-01", d:"majapahit"},
      {f:"1527-01-01", t:"1587-01-01", d:"demak"},{f:"1587-01-01", t:"1625-01-01", d:"mataram-sultanligi"},
      {f:"1625-01-01", t:"1743-11-11", d:"mataram-sultanligi"},
      {f:"1743-11-11", t:"1811-08-18", d:"hollanda-dogu-hint"},

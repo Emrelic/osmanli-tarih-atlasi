@@ -5724,6 +5724,7 @@ window.DEVLETLER = [
   f:"1293-01-01", t:"1527-01-01", baskent:"Trowulan", harita:"majapahit",
   ozet:"Moğol istilasını püskürtüp kurulan, Nusantara'nın büyük bölümüne nüfuz eden Hindu-Budist imparatorluk; iç kavgalar ve yükselen İslâm sultanlıklarının baskısıyla zayıflayıp Demak Sultanlığı'nca tasfiye edildi.",
   kaynak:"endonezya",
+  ic_not:"KAYNAK ÇELİŞKİSİ (GDA-OKYANUSYA ikinci tur, 28 Ekim 2026): künye t 1527-01-01 = Demak'in son Majapahit kalıntısını (Kediri) ortadan kaldırması (modern akademik anlatı). TDV ENDONEZYA ise Majapahit'in 1478'de düştüğünü (Demak'in 1478 kuruluşuyla bağlantılı) yazar; TDV esas kuralına göre künye t=1478 olmalıydı. Karar Emre'nin: t 1478'e inerse bu künyedeki 15 + sonrasındaki yerleşim dilimi (1478-1527, Blitar vb.) Demak'e geçer ve Değişmez 2 için 1478 maddesi gerekir. Şimdilik DEĞİŞTİRİLMEDİ, çelişki beyan edildi. TDV, ENDONEZYA, https://islamansiklopedisi.org.tr/endonezya (Majapahit 1478'de düştü; Hayam Wuruk/Vikramavardhana 1386-1429); Majapahit kuruluş yılı (1293) TDV'de YOK — yıl atlas künyesinden, kaynak aranacak.",
   kronoloji:[
     { odak_yer:["Trowulan"], t:"1293-01-01", tur:"kurulus", b:"Raden Wijaya, Moğol istila kuvvetini püskürtüp imparatorluğu kurdu" },
     { odak_yer:["Trowulan"], t:"1350-01-01", tur:"hukumdar", b:"Hayam Wuruk ve vezir Gajah Mada döneminde imparatorluk zirvesine ulaştı" },
@@ -5839,14 +5840,16 @@ window.DEVLETLER = [
   ic_not:"DOGU-500-1281 künye genişletme (kaynaklı dilimlere uyum; t: 1885-11-29 → 1886-01-01; örnek: Halin (Hanlin) 1752-01-01→1886-01-01 (geç 33 gün))"
 },
 { id:"ace-sultanligi", ad:"Açe Sultanlığı (Sumatra)", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1496-01-01", t:"1903-01-01", baskent:"Banda Aceh", harita:"ace-sultanligi",
-  ozet:"Sumatra'nın kuzeyinde kurulan, Osmanlı ile 16. yüzyılda elçilik ve top-mühimmat yardımı düzeyinde ilişki kuran güçlü İslâm sultanlığı; uzun Açe Savaşı sonunda Hollanda'ya boyun eğdi.",
-  kaynak:"ace",
+  f:"1521-01-01", t:"1903-01-01", baskent:"Banda Aceh", harita:"ace-sultanligi",
+  ozet:"Sumatra'nın kuzeyinde Ali Muğayet Şah (ö. 1530) döneminde Portekiz'e karşı mücadele içinde kurulan, Osmanlı ile 16. yüzyılda elçilik ve top-mühimmat yardımı düzeyinde ilişki kuran güçlü İslâm sultanlığı; İskender Muda (1607-1636) döneminde zirveye çıktı; Açe Savaşı (1873) sonunda Hollanda'ya boyun eğdi. 1521 ve 1903 YALNIZ YIL teyitlidir (TDV gün vermez). ⚠️ Eski künye başlangıcı 1496-01-01 kaynaksızdı; TDV AÇE '1521' verdiği için TDV esas alınıp künye ve 6 yerleşimin ilk dönemi 1521'e çekildi (Samudra Pasai'nin 1521'de Açe'ye geçişiyle ardıllık bağı). ⚠️ TDV iç çelişki: AÇE sultanın teslimini 1903, ENDONEZYA Açe Savaşı'nı 1873-1904 verir; TDV AÇE esas.",
+  kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace (1521 kuruluş; İskender Muda 1607-1636; 26 Mart 1873 ültimatom, 5 Nisan 1873 çıkarma; 1903 teslim) ; TDV, ENDONEZYA, https://islamansiklopedisi.org.tr/endonezya (Açe Savaşı 1873-1904; İskender Muda 1607-1637)",
   kronoloji:[
-    { odak_yer:["Kuala Simpang"], t:"1496-01-01", tur:"kurulus", b:"Ali Mughayat Syah, sultanlığı kurdu" },
-    { odak_yer:["Kuala Simpang"], t:"1565-01-01", tur:"ittifak", b:"Osmanlı Sultanı Kanuni'den top ve mühimmat yardımı istedi, sınırlı destek geldi" },
-    { odak_yer:["Kuala Simpang"], t:"1873-01-01", tur:"savas", b:"Hollanda'nın uzun Açe Savaşı başladı" },
-    { odak_yer:["Kuala Simpang"], t:"1903-01-01", tur:"son", b:"Son sultan Muhammed Davud Şah Hollanda'ya resmen teslim oldu" }
+    { odak_yer:["Kuala Simpang"], t:"1521-01-01", tur:"kurulus", b:"Ali Muğayet Şah döneminde Portekiz'e karşı mücadelenin ardından Açe İslâm Sultanlığı kuruldu (yalnız yıl teyitli).", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace", ic_not_b:"eski t: 1496-01-01 (kaynaksız); TDV AÇE 1521 → düzeltildi" },
+    { odak_yer:["Kuala Simpang"], t:"1565-01-01", tur:"ittifak", b:"Osmanlı Sultanı Kanuni'den top ve mühimmat yardımı istedi, sınırlı destek geldi", kaynak:"bulunamadı — TDV AÇE'de bu olayın yılı yok; yıl eski atlas kaydından, kaynak sonraki turda aranacak" },
+    { odak_yer:["Kuala Simpang"], t:"1607-01-01", tur:"hukumdar", b:"İskender Muda tahta çıktı; hükümdarlığı 1607-1636 (TDV ENDONEZYA: 1607-1637) arasında gösterilir, sultanlığın zirvesi sayılır (yalnız yıl teyitli).", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace ; TDV, ENDONEZYA, https://islamansiklopedisi.org.tr/endonezya" },
+    { odak_yer:["Kuala Simpang"], t:"1873-03-26", tur:"siyaset", b:"Hollanda beş maddelik ültimatom verdi; Açe kabul etmeyince savaş ilân edildi.", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace" },
+    { odak_yer:["Kuala Simpang"], t:"1873-04-05", tur:"savas", b:"Hollandalılar Benderaçe kıyılarına çıkarma yaptı; Hollanda'nın uzun Açe Savaşı başladı.", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace", ic_not_b:"eski t: 1873-01-01 (kaynaksız); TDV AÇE 5 Nisan 1873 → düzeltildi" },
+    { odak_yer:["Kuala Simpang"], t:"1903-01-01", tur:"son", b:"Son sultan Muhammed Davud Şah Hollanda'ya resmen teslim oldu (yalnız yıl teyitli; TDV ENDONEZYA savaşı 1904'e götürür, TDV AÇE esas).", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace ; TDV, ENDONEZYA, https://islamansiklopedisi.org.tr/endonezya" }
   ]
 },
 { id:"mataram-sultanligi", ad:"Mataram Sultanlığı (Cava)", tur:"sultanlik", bolge:"guneydogu-asya",
