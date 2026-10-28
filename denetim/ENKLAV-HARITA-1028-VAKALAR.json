@@ -1,0 +1,945 @@
+[
+ {
+  "ad": "Banat-Orsova Habsburg/Macar (Osmanli ile cevrili)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Zincirler farklı nedenlerle kopuk görünüyor. (a) 1551-07..1552-07-27: Temesvár/Banat Ferdinand adına Losonczy İstván'ın elindeydi, 27 Temmuz 1552'de Osmanlı'ya geçti (Temeşvar Eyaleti 1552-1716); Lipova/Lippa Osmanlı-Habsburg arasında el değiştirdi, yani Temesvár fiilen kuşatılmış bir ada idi; ama Habsburg Erdel (Castaldo, 1551-56) ile bağlantı kuran toprak şeridi atlasta Osmanlı/başka renkte olabilir. Bu zincir büyük ölçüde GERÇEK (tarih sonu doğru), alan (30.5 bin km2) abartılı. (b) 1688-89 Orşova ve 1689-09-24..1690-09 Niş: Habsburg 1688 Eylül'de Belgrad'ı, 24 Eylül 1689'da Niş'i aldı, Ekim 1690'da Belgrad ve Niş Osmanlı'ya döndü; Belgrad-Niş arası Morava vadisi (Habsburg işgalli Sırbistan) atlasta Osmanlı gösteriliyorsa veri eksiği: bağlantı koridoru Habsburg idi. (c) 1716-11..1717-08 ve 1739-1918: Banat 1716-18'de Habsburg'a geçti; 1739 Belgrad Antlaşması'nda Banat Habsburg'da kaldı, Tuna'nın güney yakası ve Orşova Osmanlı'ya döndü. 44.57N 21.77E Tuna'nın güneyinde (Sırp yakası) kalır: 1739-1918 boyunca Habsburg orada toprak tutmadı; parça Banat peteğinin Tuna'yı aşan taşması (motor) ya da güney yaka yerleşimlerinin yanlış sahibi. 1918 zinciri Sırbistan koridoru ise Banat'ın Habsburg ayrılışı (Kasım 1918) ile ilgili. Hüküm karışık; ağırlık veri/yerleşim sahipliği.",
+  "kaynaklar": [
+   "Banat of Temeswar (Passarowitz 1718, Belgrad 1739 sonrası güney Tuna yakasının Osmanlı'ya dönmesi) - https://en.wikipedia.org/wiki/Banat_of_Temeswar (yalnız ipucu; akademik doğrulama yapılamadı)",
+   "Temeşvar Eyaleti 1552-1716, Temesvár kuşatması 1552 - https://en.wikipedia.org/wiki/Siege_of_Temesv%C3%A1r_(1552) (ipucu); Studia Agriensia 35 (Hungaricana) https://library.hungaricana.hu/hu/view/MEGY_HEVE_StudiaAgriensia_035/?pg=120",
+   "Habsburg-occupied Serbia (1686-1691) - https://en.wikipedia.org/wiki/Habsburg-occupied_Serbia_(1686%E2%80%931691) (ipucu); Niş 24 Eylül 1689, Belgrad 6 Eylül 1688 / Ekim 1690",
+   "TDV 'Belgrad', 'Temeşvar', 'Pasarofça Antlaşması' maddeleri okunamadı/doğrulanmadı"
+  ],
+  "oneri": "Tarihi kaynak verimiyle (TDV Temeşvar, Pasarofça, Belgrad; Hegyi Klára Temesvár/Osmanlı Macaristan çalışmaları) 1688-90 Habsburg-işgalli Sırbistan dönemini (Belgrad, Smederevo, Morava hattı, Niş) ayrı s: dönemi olarak ekle; 1739-1918 Tuna güney yakası parçasını Banat/Askerî Sınır yerleşimlerinin (Moldova Veche, Berzasca, Orşova) peteklerinin Tuna'yı aşması olarak incele ve nehir sınırına yaslama kuralı uygula; 1551-52 Temesvár adasını beyanlı ada olarak koru.",
+  "grup": "A"
+ },
+ {
+  "ad": "Banat-Orsova Macaristan Krallik 1463-1526",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Parçaların merkezi (44.5N 22.0E / 44.11N 22.6E) Tuna'nın güney yakasındadır. 1463-1526: Macar Szörény (Severin) Banlığı Tuna'nın kuzeyinde (Orşova-Mehadia-Severin) idi; güney yakada (Majdanpek-Braniçevo) Osmanlı 1459'dan (Semendire) beri hâkimdi, Macar Krallığı'nın oradaki tutunması Golubac (1458'de Osmanlı) ve Belgrad (1521'de Osmanlı) ile sınırlıydı. Dolayısıyla güneye taşan parça Orşova/Severin peteğinin Tuna'yı aşmasıdır. 1257-72 ve 1330-1463 zincirlerinde de benzer: Macar Severin Banlığı ve Vidin'de Rostislav Mihayloviç (Macar tâbi) 1259-1272 civarı gerçek ama sınırlı; geniş KARA-BOS alanı (35 bin km2) peteğin boş yere yayılması. Tam tarih doğrulaması yapılamadı.",
+  "kaynaklar": [
+   "Macar Severin Banlığı / Orșova: Encyclopaedia Britannica 'Hungary - history' ve Wikipedia 'Banate of Severin' (ipucu; akademik kaynak doğrulaması yapılamadı)",
+   "TDV 'Semendire', 'Golubac', 'Belgrad' okunamadı"
+  ],
+  "oneri": "Orşova/Severin yerleşimini Tuna kuzey yakasına bağla; Tuna'yı petek sınırı yapan (nehir yaslama) kuralıyla güney yaka parçasını kaldır. 1257-72 Vidin için Rostislav Mihayloviç'in Macar vasalı olduğu dönemi (Bulgar kaynakları: Vidin Çarlığı öncesi) ayrı doğrula; yoksa bu dilimi kırp.",
+  "grup": "A"
+ },
+ {
+  "ad": "Osmanli Bosna 1456-60",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "(a) 1456-1460, 44.04N 18.16E (Visoko-Sarajevo): Bosna Krallığı Osmanlı'ya 1463'te düştü, Bosna Sancağı 1463'te kuruldu, ilk sancakbeyi İsa Bey Ishaković; Saraybosna'nın ilk belgesi 1462 vakfiyesi. 1456-60'ta bu bölgede Osmanlı egemenliği yoktu (haraç ve akın var), parça kaynaksız. (b) 1459-03-07..1465, 42.75N 18.08E (Trebinje-Hum çevresi): Hersek Dükü Stjepan Vukčić 1466-67'ye kadar (ölüm 1466) bağımsızdı; Osmanlı Hersek Sancağı 1470 civarı; 1459 tarihi (Semendire 20 Haziran 1459) ile ilişki kurulabilir ama Hersek'in yakın kıyısı bu tarihte Osmanlı değildi. Her iki parça erken ve kaynaksız görünüyor.",
+  "kaynaklar": [
+   "Sanjak of Bosnia / Isa Bey Ishaković - https://en.wikipedia.org/wiki/Sanjak_of_Bosnia (ipucu); Anali Gazi Husrev-Begove Biblioteke 1983 (DOAJ) https://doaj.org/article/b761546defd94e2183019781e36f4e84 (okunamadı, yalnız başlık)",
+   "Noel Malcolm, Bosnia: A Short History (1994) - okunamadı, ipucu",
+   "TDV 'Isa Bey' araması sonuç vermedi; 'Bosna' ve 'Hersek' maddeleri doğrulanmadı"
+  ],
+  "oneri": "TDV 'Bosna', 'Hersek', 'İsa Bey' ve Halil İnalcık/Adem Handžić (Bosna Sancağı 1463) ile dönem başlangıcını 1463-05 (Bobovac/Jajce) olarak düzelt; 1456-60 parçasını kaldır. Hersek parçasını Hersek Dükalığı'na (Stjepan Vukčić Kosača) ver, Osmanlı için 1465-67 sonrası Hersek Sancağı tarihi kaynakla belirle.",
+  "grup": "A"
+ },
+ {
+  "ad": "Osmanli Bursa-Sogut 1303-1321",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "(a) 1303-1321, 40.10N 28.86E: TDV 'Bursa' Bursa'nın 1308'de kuşatıldığını ve 6 Nisan 1326'da teslim alındığını yazar; Bursa ova ve çevresindeki kaleler kuşatma altında Bizans elinde kaldı. 28.86E Bursa'nın batısındadır (Uluabat-Mudanya-Karacabey hattı), yani Bizans kıyı/ova bölgesidir; Osmanlı'nın bu kuşatılmış ve Bizans'la çevrili bir parçayı 1303'ten tutması destekli değildir. Osman Bey'in elindeki Söğüt-İnegöl-Yenişehir (kuzeydoğu yaylası) ile bu parça ayrıdır. (b) 1328-29, 41.05N 29.37E (Gebze-Şile hattı): Orhan Bey'in Pelekanon (Haziran 1329) yenilgisi öncesi Gebze çevresi Bizans'ındı; Kocaeli kıyısı 1337 (İzmit) sonrasında alındı. Parça kaynaksız görünüyor.",
+  "kaynaklar": [
+   "TDV İslâm Ansiklopedisi, 'Bursa' maddesi - https://islamansiklopedisi.org.tr/bursa (okundu: 1308 kuşatma, 6 Nisan 1326 teslim)",
+   "TDV 'Osman Gazi', 'Orhan Gazi', 'Pelekanon' maddeleri doğrulanmadı"
+  ],
+  "oneri": "Osmanlı'nın 1303-1326 dilimini yalnız Söğüt-Eskişehir-İnegöl-Yenişehir bölgesiyle sınırla, Bursa/Uluabat bölgesini Bizans'a ver; 1328-29 Gebze parçasını (Pelekanon öncesi) Bizans'a çevir ve Osmanlı Kocaeli'ni 1331 (İznik) / 1337 (İzmit) tarihleriyle kaynak göster.",
+  "grup": "A"
+ },
+ {
+  "ad": "Osmanli Dogubayazit 1534-47",
+  "sinif": "KAYNAKSIZ",
+  "guven": "düşük",
+  "ozet": "TDV 'Doğubayazıt': XV. yüzyıl sonunda Safevîlerin eline geçen Bayazıt 1514'te Yavuz Sultan Selim tarafından Osmanlı topraklarına katıldı; 1534 ve 1547 tarihlerini ele almaz. Süleyman 1534'te Tebriz/Bağdat (Irakeyn) seferindeydi; Bayazıt'ın 1534-06-23'ten 1547-01-01'e Osmanlı'da, çevresi Safevî olan bir ada olarak tutulması için TDV kanıt vermiyor. Tarihsel olarak Bayazıt'ın 1514'ten sonraki el değiştirmeleri (Safevî-Osmanlı arası) doğrulanamadı.",
+  "kaynaklar": [
+   "TDV İslâm Ansiklopedisi, 'Doğubayazıt' - https://islamansiklopedisi.org.tr/dogubayazit (okundu; 1514 Osmanlı fethi)",
+   "Daha ileri okuma gerekli: Faruk Sümer, Safevî Devletinin Kuruluşu; Bayazıt sancağı kadı/tahrir araştırmaları - bulunamadı"
+  ],
+  "oneri": "Bayazıt'ın 1514-1548 arası sahipliğini akademik kaynakla (TDV Safevîler, Van/Beyazıt tahrir çalışmaları, DergiPark) netleştir; kaynak bulunmazsa 1534-47 dilimini Osmanlı yerine Safevî / Hoşab-Bayazıt beyliği olarak bırak ve beyan yaz.",
+  "grup": "A"
+ },
+ {
+  "ad": "Osmanli Abhazya-Sohum 1640-1724",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "TDV 'Sohum': Sohum Kalesi 1451'de Osmanlı'ya itaat etti, 1454'te donanma ile alındı; 1454-1578 arasında yaklaşık 125 yıl Osmanlı idarî düzen kurmadı; 1578'de Sohum Eyaleti (Çerkez Haydar Paşa), 1580'de idarî yapı kaldırılıp Batum'a bağlandı; kale 1723-24'te tamir edildi; 1771'de Abhazlar aldı. Atlasın 150 bin-185 bin km2'lik Kuzey Kafkasya (Kuban-Stavropol-Kabartay çevresi) Osmanlı'ya verilmesi doğrudan egemenlik gösterir; Osmanlı oralarda yalnız kıyı kaleleri (Sohum, Anapa 1780'ler, Azak 1475-1696/1711-39) ve Kırım Hanlığı vasallığı üzerinden etkiliydi. Bu nedenle kopukluk 'gerçek' değil, aşırı genişletilmiş ya da yanlış sahipli geniş alan.",
+  "kaynaklar": [
+   "TDV İslâm Ansiklopedisi, 'Sohum' - https://islamansiklopedisi.org.tr/sohum (okundu)",
+   "TDV 'Anapa', 'Azak', 'Kafkasya' maddeleri doğrulanmadı"
+  ],
+  "oneri": "Sohum ve Abhazya kıyısını küçük kıyı kale parçası olarak tut (1578-80 eyalet, 1723-24 tamir, 1771 kayıp); Kuban/Çerkez iç bölgeleri Kırım Hanlığı vasallığı olarak ayrı devlete (Çerkesya/Kabartay) ver. Kıyı hattı Megrelya Prensliği'ne bitişik olduğundan koridor Megrelya'dan geçer; bunu beyan et.",
+  "grup": "A"
+ },
+ {
+  "ad": "Osmanli Basra 1623-38",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Safevî Şahı I. Abbas Bağdat'ı Ocak 1624'te aldı (Bekir Subaşı isyanı); Safevî Basra denemeleri 1624 ve 1629'da Osmanlı-Portekiz destekli Afrasiyab ailesi tarafından püskürtüldü; Basra Osmanlı nominal egemenliğinde (yerel Afrasiyab) kaldı, Bağdat 1638'de geri alındı. 27.77N 48.0E Hasa-Katif kıyısına denk gelir; Hasa Eyaleti 1550'lerden 1670'e kadar Osmanlı'ydı. Parça yalnız ana karadan 'Safevî topraklarıyla' ayrı görünüyor; gerçekte arada çöl ve Afrasiyab'ın Basra'sı vardı. Safevî rengi atlasta Basra/Şattularap hattına taşmış olmalı.",
+  "kaynaklar": [
+   "Safavid invasions of Basra / Ottoman-Safavid War (1623-1639) - https://en.wikipedia.org/wiki/Safavid_invasions_of_Basra (ipucu)",
+   "Özer Küpeli, 'Irak-ı Arap'ta Osmanlı-Safevi Mücadelesi (XVI-XVII. Yüzyıllar)', History Studies 2/Özel Sayı 2010 - https://www.historystudies.net/irak-i-arapta-osmanli-safevi-mucadelesi-xv-xvii-yuzyillar_176 (özet okundu: Bağdat 1624, 1638 geri alma)",
+   "TDV 'Basra', 'Bağdat', 'Murad IV' - arama adayları listelendi, maddeler okunmadı"
+  ],
+  "oneri": "Basra sancağı/Afrasiyab dönemini Osmanlı'ya bağlı tut ve Safevî toprağını yalnız Bağdat-Hille-Kerbela hattı ile sınırla (1624-1638); Hasa/Katif'in 1550-1670 Osmanlı olduğunu TDV 'Lahsa' ile doğrula.",
+  "grup": "A"
+ },
+ {
+  "ad": "Osmanli Cezayir-Kabiliye 1844-57",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Cezayir Naipliği 1830'da Fransa'ya düştü. Büyük Kabiliye'nin Fransız fethi 1844-1857 arasında yürüdü (Randon, Mayıs-Temmuz 1857; Lalla Fatma n'Soumer 11 Temmuz 1857'de esir); bölge o güne kadar fiilen bağımsız Kabil kabilelerindeydi. Osmanlı egemenliği 1830'dan sonra yoktu (Ahmed Bey'in Konstantin'deki direnişi 1848'e kadar nominal Osmanlı sadakati ile sürdü ama Kabiliye'ye uzanmadı). Parça Osmanlı yerine 'Kabiliye bağımsız kabileleri' (veya Emir Abdülkadir) olmalı.",
+  "kaynaklar": [
+   "Musée de l'Armée, 'La fin de la conquête sous le Second Empire' - https://www.musee-armee.fr/ExpositionAlgerie/pdf/pdf-les-derniers-temps-de-la-conquete-sous-le-second-empire-et-l-ephemere-royaume-arabe.pdf (özet okundu: Kabiliye son bağımsız bölge, 1857)",
+   "asjp.cerist.dz makalesi (Kabiliye 1844-1857) - https://asjp.cerist.dz/en/downArticle/14/29/4/289833 (özet düzeyi)"
+  ],
+  "oneri": "1838-1857 Kabiliye ve Cicel-Kollo kıyı parçalarının sahibini OSMANLI'dan 'kabil-bagimsiz' / Abdülkadir Emirliği (1838-1847) olarak değiştir; Fransa'nın fiilî kıyı egemenliğini (Béjaïa 1833, Cicel 1839) tarihle ekle. Osmanlı'nın nominal Konstantin (Ahmed Bey) bağını ayrı beyan et.",
+  "grup": "A"
+ },
+ {
+  "ad": "Osmanli Kut-ul-Amara 1915-16",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Es-Sinn (28 Eylül 1915) yenilgisinden sonra Osmanlı Kut'u terk etti; İngiliz 6. Tümeni 3 Aralık 1915'te Kut'a çekildi, 7 Aralık'ta Halil Paşa kuşatmaya başladı; 6-9 Ocak 1916 Şeyh Saad, 13 Ocak Wadi, 21 Ocak Hanna, 8 Mart Dujaila; Townshend 29 Nisan 1916'da teslim oldu (147 gün kuşatma). Atlasın parçası bu tarihlerle (26 Eylül 1915-29 Nisan 1916) İngiliz tarafı Kut'u kapsıyor olmalı; Osmanlı rengine boyalı, İngiltere ile tamamen kuşatılmış 5855 km2'lik parça 32.22N 46.32E (Şeyh Saad-Dujaila) civarıdır ve Ocak 1916'dan beri Osmanlı gerisinde kalmış cephe hattı; kopukluk gerçekte Kut kuşatmasının tersine çizilmesidir. Sahiplik tarafları karışmış olabilir.",
+  "kaynaklar": [
+   "Siege of Kut (Wikipedia) - https://en.wikipedia.org/wiki/Siege_of_Kut (okundu: Aralık 1915-29 Nisan 1916; ipucu)",
+   "TDV 'Kutülamâre' maddesi okunmadı; Edward Erickson, Ordered to Die; Ali İhsan Sabis hatıraları - bulunamadı"
+  ],
+  "oneri": "İngiliz rengini Kut kuşatması boyunca yalnız Kut çevresine (Kut kalesi, ~birkaç km) uygula; 26 Eylül-3 Aralık 1915'te İngiliz Kut'a hâkim, 7 Aralık-29 Nisan 1916 arası Osmanlı Kut'un çevresini çevreleyen halkaydı. Şeyh Saad-Wadi-Hanna Osmanlı cephe hattı Ocak 1916 değişimlerini kronolojiye bağla.",
+  "grup": "A"
+ },
+ {
+  "ad": "Osmanli Habes eyaleti 1557-1885",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Habeş Eyaleti Özdemir Paşa'nın 1555-57 fethiyle Massawa-Arkiko kıyı şeridine kuruldu; Osmanlı Habeş (Habesistan) Hıristiyan Krallığı ile Massawa kıyısı arasında kuşatılmış kıyı kalesi/limanı idi; 1865'te Mısır'a devredildi, 1885'te İtalya aldı. 15.87N 39.18E Massawa-Adulis hattıdır; Habesistan'a (Habeş) çevrili kıyı parçası tarihte gerçek. Kıyı şeridi yaklaşık 12.5 bin km2 bütünüyle denize açık (deniz bağı), 'KARA-KORIDOR' etiketi bu nedenle aldatıcıdır (aslında DENİZ-ADA). 1884-85 Mehdî kuşatması (Keren çevresi) Mısır'ın Mehdiye ile çevrili kıyı parçası; tarihleri kaba doğru.",
+  "kaynaklar": [
+   "TDV 'Habeş eyaleti', 'Özdemir Paşa' maddeleri aranmadı/okunmadı",
+   "Encyclopaedia Britannica 'Eritrea' / 'Massawa' maddeleri okunmadı; Wikipedia 'Habesh Eyalet' ipucu olarak biliniyor"
+  ],
+  "oneri": "Sınıfı DENİZ-ADA olarak işaretle ve kopukluk beyanı ekle (Habeş Eyaleti Kızıldeniz kıyısı, deniz yoluyla Mısır/Hicaz bağlantısı). 1865-85 Mısır idaresini kronolojide ayrı belirt; 1884-85 Mehdî parçasını Mısır mülkü olarak etiketle.",
+  "grup": "A"
+ },
+ {
+  "ad": "Habsburg-Venedik-Alp (Koridor) 1000-1281 Karintiya",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Karintiya Dükalığı baştan sona Kutsal Roma içindeydi; Salzburg Başpiskoposluğu ve Brixen Piskoposluğu da imparatorluğun din-adamı prens devletleriydi. Atlas ikisini ayrı devlet olarak boyadığı için Kutsal Roma ('almanya') parçası kendi çekirdeğinden kopuk görünüyor; tarihte Karintiya Bavyera/Salzburg/Tirol üzerinden imparatorluk topraklarıyla bitişikti. Yani gerçek bir eksklav yok, kopukluk alt-devlet etiketinden doğuyor (Salzburg/Brixen renkli, Karintiya 'almanya').",
+  "kaynaklar": [
+   "data/yerlesimler_avrupa.js Villach kaydı: atlasın kendi notu, TDV 'Slovenya' maddesinden alıntı ('bütün Slovenya Alman bölgesi içinde kaldı... Karintiya... çeşitli Alman feodal beyleri') ve 'Alt birim künyeleri RENKSİZ' notu (alıntı atlasta; ben TDV maddesini açıp okumadım)",
+   "Bu vaka için bağımsız akademik kaynak taranmadı; Salzburg/Brixen'in imparatorluk prens-devleti olduğu genel bilgidir"
+  ],
+  "oneri": "Salzburg ve Brixen peteklerini Kutsal Roma ile aynı boyada göstermek (ya da bu iki alt devleti üst devlet rengine bağlamak); aksi halde bu tür 'kopukluk' göstergesi sahte alarm üretir. Veri değişikliği yapılmadı.",
+  "grup": "B"
+ },
+ {
+  "ad": "Habsburg-Venedik-Alp (Koridor) 1382-09-30..1417 İstriya",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Parça iç İstriya'da (Pazin/Mitterburg çevresi, 45.41K 13.75D). Atlasta bölgede Pazin noktası yok; Görz (Gorizia) noktası 'almanya' (1000-1500) olduğu için petek iç İstriya'ya yayılıyor ve Trieste 1382-09-30'da 'avusturya'ya geçince Görz peteğinden kopuyor. Hafızaya göre Pazin kontluğu Görz kontlarından Habsburglara 1374'te geçti (bu oturumda kaynakla doğrulanamadı).",
+  "kaynaklar": [
+   "Atlas yerlesimler_avrupa.js Trieste kaydı (1382-09-30 avusturya) ve yerlesimler Görz kaydı (almanya 1000-1500)",
+   "Habsburg-İstriya (Mitterburg/Pazin) için kaynak bulunamadı/okunamadı: HLS/Hrvatska enciklopedija 'Pazin' maddesi bakılmalı"
+  ],
+  "oneri": "Pazin (Mitterburg) için nokta ekle, 1374 Habsburg (avusturya) olarak kaynakla doğrula; ayrıca Aquileia Patrikliği'nin İstriya mülkleri (1420'ye kadar) ayrı sor. Kaynak doğrulanmadan sınıf kesin değil.",
+  "grup": "B"
+ },
+ {
+  "ad": "Habsburg-Venedik-Alp (Koridor) 1526-08-29..1759 Villach",
+  "sinif": "GERÇEK",
+  "guven": "yüksek",
+  "ozet": "Villach ve Tarvis, Bamberg Prens-Piskoposluğu'nun Karintiya eksklavıydı (1007-1759); Kutsal Roma üyesi olduğu için atlasta 'almanya'. 1759'da Maria Theresia Bamberg'in Karintiya mülklerini satın aldı; atlas parçanın bitişini 1759-01-01 yapıyor, bu uyumlu. Çevresi Habsburg (avusturya) ve Salzburg olduğundan gerçek bir kuşatılmış eksklav.",
+  "kaynaklar": [
+   "Atlas Villach kaydındaki kaynak notu: villach.at Stadtgeschichte (belediye) + Erlangen Üniv. ekskürsiyon raporu 2008 (Bamberg 1007-1759) (atlasın alıntısı; ben sayfayı açıp okumadım)",
+   "Bu hüküm için ikinci bağımsız akademik kaynak okunmadı"
+  ],
+  "oneri": "Harita olduğu gibi doğru; değişiklik yok. Gün hassasiyeti için 1759 satış tarihi (yıl düzeyi) mevcut kesinlik notuyla kalabilir.",
+  "grup": "B"
+ },
+ {
+  "ad": "Habsburg-Venedik-Alp (Koridor) 1805-12-26..1809-10-14 Doğu Tirol",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Pressburg Barışı (1805-12-26) ile Tirol, Brixen ve Trento Bavyera'ya geçti. Atlasta Innsbruck, Landeck, Lienz 'almanya' (Bavyera) 1805-12-26..1814-06-03 olarak doğru, ama Brixen (1803-1918) ve Trento (1803-1918) sürekli 'avusturya' kalmış; bu iki nokta Doğu Tirol'u Innsbruck'tan kesiyor ve Lienz parçası sahte eksklav doğuruyor. Gerçekte Bavyera Tirol'u tek parçaydı.",
+  "kaynaklar": [
+   "Britannica, Treaty of Pressburg (1805) (atlasın kronolojisinde alıntılı; kronoloji notu: Tirol ve Vorarlberg Bavyera'ya)",
+   "Atlas yerlesimler: Brixen ve Trento 'avusturya' 1803-02-25..1918-11-03 (ölçüldü)"
+  ],
+  "oneri": "Brixen ve Trento'ya 1805-12-26 -> Bavyera (almanya) dönemi ekle; 1810 Paris/İtalya Krallığı-İlirya devirleri için ayrıca kaynakla bak. Akademik ikinci kaynak (Tirol 1805-1814 tarihçesi) eklenmeli.",
+  "grup": "B"
+ },
+ {
+  "ad": "Papalik Benevento 1155-1281",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Benevento Normanlardan 1053'te Papalığa geçti ve o tarihten sonra bir papalık delegesince yönetildi; atlasta parça 1155'te başlıyor ve çevresinin yalnızca %65'i 'Sicilya Krallığı' (kalanı boşluk) görünüyor. Başlangıç tarihi kaynakla uyuşmuyor, çevrede boş/delik olması 'KARA-BOS' sınıfını doğuruyor.",
+  "kaynaklar": [
+   "Catholic Encyclopedia, 'Archdiocese of Benevento' (New Advent / catholic.com): Normanlar 1053'te Henry III yüzünden bırakmış, Benevento o tarihten beri Holy See toprağı (arama sonucu özetinden; sayfayı tam okumadım)",
+   "1156 Benevento Konkordatosu (Papa-Sicilya) için kaynak taranmadı"
+  ],
+  "oneri": "Papalık Benevento başlangıcını 1053'e (ya da atlasın kendi 1155 ufuk işareti ise beyanla) çek; çevredeki boşluğun hangi petek olduğuna bak (Sicilya kıta toprakları __BOSLUK__ mu?).",
+  "grup": "B"
+ },
+ {
+  "ad": "Papalik Benevento 1281-1860",
+  "sinif": "GERÇEK",
+  "guven": "yüksek",
+  "ozet": "Benevento (ve Pontecorvo) Napoli Krallığı içinde Papalığa ait bir eksklavdı; çevresi tamamen Napoli. Atlas bunu doğru gösteriyor. Eksik: Napolyon 1806-08-28'de Talleyrand için Benevento Prinsipalığı kurdu, 1815-08-28'de Papalığa döndü (1806-1815 arası papalık değil).",
+  "kaynaklar": [
+   "Catholic Encyclopedia 'Archdiocese of Benevento' (New Advent / catholic.com); 'Principality of Benevento (Napoleonic)' (Vikipedi; yalnız ipucu) - 28 Ağustos 1806 / 28 Ağustos 1815 (arama özeti)",
+   "Akademik bir Benevento monografisi okunmadı"
+  ],
+  "oneri": "Harita eksklav olarak doğru. 1806-1815 aralığı için Benevento'ya fransa/ayrı prensliği kısa dönem olarak ekle (kaynak: Britannica 'Talleyrand' / akademik).",
+  "grup": "B"
+ },
+ {
+  "ad": "Papalik Benevento 1860-09-29..1861-03-17",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Papalık Benevento 1860 sonbaharında İtalya'ya (Sardinya-Piemonte/Garibaldi) geçti; 21 Ekim 1860 halk oylaması, Kasım 1860 resmi katılma. Atlas papalık hâkimiyetini 1861-03-17'ye (İtalya Krallığı ilanı) kadar uzatıyor; bu fazladan ~5 ay.",
+  "kaynaklar": [
+   "Arama sonucu özeti (Vikipedi 'Papal States/Italian unification' türevleri): Benevento ve Pontecorvo 1860 Kasım'a kadar resmen ilhak edildi; 21 Ekim 1860 plebisit (tam sayfayı okumadım, Vikipedi tek dayanak değildir)",
+   "Kesin gün (Garibaldi/Piemonte'nin Benevento'yu aldığı gün) bu oturumda kaynaklanamadı: bulunamadı"
+  ],
+  "oneri": "Benevento papalik dönemini 1860 Ekim'e (halk oylaması/Garibaldi devri, kesin gün TDV-dışı akademik kaynakla teyit edilerek) kısalt; ardıl: Sardinya-Piemonte, sonra İtalya (1861).",
+  "grup": "B"
+ },
+ {
+  "ad": "Papalik Parma-Piacenza 1512-06-24..1523",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Papa II. Julius 1510'da Modena'yı, 1512'de Reggio'yu Este'den aldı; Parma-Piacenza 1512'de Papalığa katıldı (1515-1521 Fransız dönemi atlasta ayrı gösterilmemiş). Dolayısıyla 1512-1523 arası Parma-Piacenza Reggio-Modena üzerinden Bologna'ya bitişikti. Atlasta Modena 1281-1598 boyunca 'ferrara' etiketli; koridorun %26'sı Ferrara olarak ölçülmüş.",
+  "kaynaklar": [
+   "Arama sonucu (historyofwar.org 'Alfonso I d'Este' ve unimore.it makalesi): Alfonso Modena'yı 1510'da, Reggio'yu 1512'de kaybetti; Reggio'yu 1523'te, Modena'yı 1527'de geri aldı (özet; tam metni okumadım)",
+   "Treccani 'Piacenza' (atlas notunda alıntılı): 1512-13 Papalık, 1515-1521 Fransız, 1521 Kilise"
+  ],
+  "oneri": "Modena (1510-1527) ve Reggio Emilia (1512-1523) için papalik dönemi ekle (Reggio noktası atlasta yok). Parça merkezi lon 8.42 görünüyor, Parma/Piacenza 9.7-10.3'te: ölçüm artefaktı olabilir, ham bileşen kontrol edilmeli.",
+  "grup": "B"
+ },
+ {
+  "ad": "Papalik Parma-Piacenza 1523-1545-08-16",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Alfonso d'Este Reggio'yu 1523'te (Modena'yı 1527'de) geri alınca Parma ve Piacenza, Papalığın Bologna'dan kopuk eksklavı oldu (Este toprağıyla ayrılmış) ve 1545'te Pier Luigi Farnese için dükalık kuruluncaya dek böyle kaldı. Atlasta bitiş 1545-08-16 (Parma künye) tutarlı.",
+  "kaynaklar": [
+   "Arama sonucu özeti: historyofwar.org Alfonso I d'Este ve unimore.it (1523 Reggio, 1527 Modena); Treccani 'Piacenza' atlas notu (1545 Pier Luigi Farnese dükalığı)"
+  ],
+  "oneri": "1523 sonrası harita doğru olabilir (Modena 1510-1527 papalık olsa bile Reggio Este'deydi). Ayrıntı: Modena'nın 1527 tarihine kadarki papalık sahibi eklenince eksklav bağlantısı yine kopuk kalır.",
+  "grup": "B"
+ },
+ {
+  "ad": "Sicilya-Aragon Trapani",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Sicilya adası 1282'den beri (Sicilya Akşam Duası, III. Pedro 1282-08-30'da Trapani'ye çıktı, 4 Eylül Palermo'da taç giydi) Aragon yönetimindeydi; 1302 Caltabellotta ile ada 'Trinacria/Sicilya' olarak, kıta güneyi (sonradan Napoli) Anjou'da ayrıldı. Atlasta Palermo, Messina, Siraküza, Trapani, Katanya, Reggio 'napoli' (1281-1861) etiketli, yalnız Mazara ve Taormina 'sicilya-aragon'; parça Mazara-Taormina'dan geliyor. Adanın ana şehirlerinin etiketi 1282-1442 arası yanlış, sonrası basitleştirme.",
+  "kaynaklar": [
+   "Britannica, 'Sicilian Vespers' (britannica.com/event/Sicilian-Vespers): Paskalya Pazartesi 30 Mart 1282; Caltabellotta 31 Ağustos 1302; adanın kıtadan ayrılması (arama özeti)",
+   "Vikipedi 'Kingdom of Trinacria' ipucu; 1282-08-30 Trapani çıkarması ve 4 Eylül Palermo taç giyme (arama özeti)"
+  ],
+  "oneri": "Palermo, Messina, Siraküza, Trapani, Katanya için 1282 -> sicilya-aragon döneme çevir (sonrası Aragon/İspanya/Savoy/Avusturya/Bourbon için ayrı kaynaklı dilimler); 'napoli' yalnız kıta güneyine kalsın. Bitiş 1816-12 (İki Sicilya) uyumlu görünüyor.",
+  "grup": "B"
+ },
+ {
+  "ad": "Savoya/Provence Piyemonte 1281-1720",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Atlasta Torino 'sardinya' (1281-1861) etiketli, oysa Savoya Dükalığı'nın Piyemonte kısmı aynı devletin parçasıydı ve Aosta/Savoya 'savoya' (1281-1720) etiketli. Sardinya Krallığı ancak 1720'de (La Haye 17 Şubat 1720, yürürlük 20 Mayıs 1720) Savoy'a geçti. Böylece aynı hanedan topraklarının iki ayrı boya ile gösterilmesi, aradaki 'savoya' petekleri (Aosta vb.) ve Saluzzo/Fransa ile Torino'yu kopuk gösteriyor.",
+  "kaynaklar": [
+   "Arama sonucu özeti: Vikipedi 'Treaty of The Hague (1720)' ve 'Kingdom of Sardinia (1720-1861)' - 17 Şubat 1720, Sicilya-Sardinya takası (yalnız ipucu; akademik kaynak okunmadı)",
+   "Atlas verisi: Torino 'sardinya' 1281-1861, Aosta 'savoya' 1281-1720-08-02 (ölçüldü)"
+  ],
+  "oneri": "Torino ve Piyemonte noktalarının 1281-1720 arası 'savoya' olması gerekir (Savoy-Achaea kolu 1418'e dek ayrı, vb. için kaynaklı dilim); 'sardinya' etiketi 1720'den başlasın. Çözüm için Savoy dükalığı akademik kaynağı (HLS 'Savoyen', Treccani) alınmalı.",
+  "grup": "B"
+ },
+ {
+  "ad": "Savoya/Provence Piyemonte 1815-06-09..1860-06-14 Nis",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Nis Kontluğu 1814-1860 Sardinya Krallığı'ndaydı ve Piyemonte'ye Tende/Limone geçidi ile Cenova Rivierası (1815'te Cenova Sardinya'ya katıldı) üzerinden bitişikti. Atlasta Saluzzo noktası 1720-1861 arası __BOSLUK__ (oysa Saluzzo 1601'den beri Savoya'ydı) ve Nis hücresi Cuneo/Ventimiglia/Sanremo gibi noktalar eksik olduğu için Fransa Provence'ına doğru taşıyor (merkez 6.8D; Nis 7.26D) ve ana gövdeden kopuk görünüyor.",
+  "kaynaklar": [
+   "Arama sonucu: Vikipedi 'Kingdom of Sardinia (1720-1861)' ve 'Savoyard state': Viyana Kongresi Cenova'yı ekledi (özet; akademik doğrulama yok)",
+   "Atlas ölçümü: Saluzzo __BOSLUK__ 1720-08-02..1861-03-17"
+  ],
+  "oneri": "Saluzzo 1720-1861 dönemini 'sardinya' yap (1601 Lyon Antlaşması sonrası Savoya); Cuneo/Mondovi/Ventimiglia/Sanremo/Grasse-Cannes gibi yerleşim noktaları ekle. Bitiş 1860-06-14 (Nis'in Fransa'ya devri) uyumlu.",
+  "grup": "B"
+ },
+ {
+  "ad": "Prusya Magdeburg",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Magdeburg Dükalığı ve Halberstadt, Brandenburg-Prusya ile bitişik (Altmark/Jerichow) olarak 1648/1680'den beri Prusya'daydı; gerçek bir eksklav değildi. Atlasta Magdeburg ve Berlin 'prusya' (1701-1871), ama aradaki Brandenburg/Altmark yerleşim noktaları yok ve kopukluk Voronoi artefaktı ya da komşu 'almanya' (Leipzig, Hannover) peteklerinin araya girmesinden. Ayrıca Magdeburg 1807-1813 arası Vestfalya Krallığı'ndaydı (Tilsit) ve atlasta Magdeburg 1701-1871 kesintisiz Prusya: eksik dönem (hafızadan, bu oturumda kaynakla doğrulanmadı).",
+  "kaynaklar": [
+   "Atlas: Berlin ve Magdeburg 'prusya' 1701-01-18..1871-01-18, Stettin 1720-02-01 (ölçüldü)",
+   "Prusya 1807 Tilsit/Vestfalya Krallığı için kaynak bu oturumda okunmadı: bulunamadı"
+  ],
+  "oneri": "Brandenburg-Altmark yerleşim noktaları (Brandenburg an der Havel, Stendal vb.) ekle; Magdeburg ve Halberstadt için 1807-08-18..1813 Vestfalya dilimi ekle (akademik kaynakla). Önce ham bileşende kopukluğun hangi petekten geldiğini ölç.",
+  "grup": "B"
+ },
+ {
+  "ad": "Polonya-erken Buyuk Polonya",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Büyük Polonya (Poznan) Polonya'nın çekirdeğiydi ve Lodz-Sieradz-Kalisz üzerinden Küçük Polonya'ya bitişikti; 1281-1466 arası eksklav yok. Atlasta bölgede yalnız Poznan ve Lodz Polonya noktası, Gnezno kaydı boş (s:[]), Torun 'almanya' (Teutonik, 1466-10-19'a kadar) ve Breslau/Liegnitz 'almanya' olduğundan bu hücreler arada ince bir şerit oluşturuyor. Parçanın bitişi (1466-10-19 Torun Barışı) ince şeridin kaybolduğu tarihle örtüşüyor.",
+  "kaynaklar": [
+   "Atlas ölçümü: Poznan/Lodz polonya-erken 1281-1569, Torun almanya 1281-1466-10-19, Breslau ve Liegnitz almanya 1281-1526, Gnezno s:[] (data/yerlesimler*.js)",
+   "Bağımsız tarih kaynağı (Büyük Polonya bitişikliği) bu oturumda okunmadı; yaygın bilgi"
+  ],
+  "oneri": "Kalisz, Gniezno (s doldur), Sieradz, Leczyca, Inowroclaw noktaları ekle; Voronoi şeridi kapanır. Veri sahipliğinde değişiklik gerekmiyor.",
+  "grup": "B"
+ },
+ {
+  "ad": "Polonya 1918-20 Poznan",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Aynı hücre (18414 km2) ve aynı mekanizma: Poznan hücresi Lodz/Kalisz Polonya'sından Torun ve Breslau (Almanya) hücrelerinin şeridiyle ayrılıyor. Tarihte Posen bölgesi Kongre Polonyası sınırına bitişikti; Büyük Polonya Ayaklanması 27 Aralık 1918'de başladı, Versailles 28 Haziran 1919'da imzalandı, 10 Ocak 1920'de yürürlüğe girdi. Atlas 1918-12-27..1920-01-18 tarihleri bu olaylarla uyumlu.",
+  "kaynaklar": [
+   "Arama sonucu: Vikipedi 'Greater Poland uprising (1918-1919)' ve IPN (walkaogranice.ipn.gov.pl): ayaklanma 27 Aralık 1918 - 28 Haziran 1919; Versailles 28 Haziran 1919, yürürlük 10 Ocak 1920 (özet; tam sayfaları okumadım)"
+  ],
+  "oneri": "Aynı çözüm: Kalisz/Konin/Gniezno vb. nokta ekle. Bitiş 1920-01-18 yerine yürürlük (1920-01-10) / devir günü (17-20 Ocak 1920 hafızadan) akademik kaynakla teyit edilsin.",
+  "grup": "B"
+ },
+ {
+  "ad": "Prusya Ren 1815-1866",
+  "sinif": "GERÇEK",
+  "guven": "yüksek",
+  "ozet": "Viyana Kongresi Prusya'ya Ren Eyaleti ve Vestfalya'yı verdi; bunlar Hannover, Hessen-Kassel, Nassau, Brunswick vb. Alman Konfederasyonu devletleriyle Doğu Prusya çekirdeğinden ayrıydı. Gerçek bir kopuk (eksklav) bölge.",
+  "kaynaklar": [
+   "Britannica 'Seven Weeks' War' / 'Treaty of Prague' ve germanhistorydocs.org 'Expansion of Prussia 1807-1871' (arama özeti): 1866 ilhaklar doğu-batı Prusya'yı birleştirdi, yasa 20 Eylül 1866"
+  ],
+  "oneri": "Bu dönem için harita doğru; değişiklik yok.",
+  "grup": "B"
+ },
+ {
+  "ad": "Prusya Ren 1866-09-20..1871-01-18",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Avusturya-Prusya Savaşı sonrası Prusya Hannover, Hessen-Kassel, Nassau ve Frankfurt'u ilhak etti (yasa 20 Eylül 1866) ve batı eyaletlerini doğu çekirdeğe bağladı. Atlasta Hannover, Kassel, Frankfurt 'almanya' (1281-1945) kalmış; bu dönemde kopukluk sahte.",
+  "kaynaklar": [
+   "Britannica 'Seven Weeks' War' / 'Treaty of Prague' (23 Ağustos 1866) ve germanhistorydocs.org 'Expansion of Prussia 1807-1871' (arama özeti; 20 Eylül 1866 yasası land bridge)",
+   "Wiesbaden Stadtlexikon 'Annexion Nassaus durch Preußen' (arama sonucunda göründü, okunmadı)"
+  ],
+  "oneri": "Hannover, Kassel, Frankfurt, Wiesbaden/Nassau ve Schleswig-Holstein noktalarına 1866 (Eylül) -> prusya dilimi ekle (kesin gün kaynakla).",
+  "grup": "B"
+ },
+ {
+  "ad": "Ispanya Flandre",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "İspanyol Hollandası (Brüksel merkezli Flandre/Brabant/Lüksemburg) İspanya'dan coğrafi olarak kopuk (İspanya Yolu, Lorraine/Fransa arada) bir Habsburg mülküydü; atlasta 'ispanya' 1516-1714 kesintisiz. Parçaların 1588, 1632, 1705 gibi uçları tarihî olay değil, bileşen kesim artefaktı (Maastricht 1632 Hollanda'ya geçiyor vb.). Gerçek bitiş: 1706 Ramillies sonrası Müttefik işgali, resmî devir Rastatt (6 Mart 1714); atlas noktaları 1714-03-07 kullanıyor.",
+  "kaynaklar": [
+   "Vikipedi 'Spanish Netherlands' (ipucu) ve arama özeti: 1556-1714, Ramillies 23 Mayıs 1706, Rastatt 6 Mart 1714 (WikiTree zaman çizelgesi de aynı; akademik kaynak okunmadı)"
+  ],
+  "oneri": "Harita eksklav olarak doğru. Akademik teyit: Parker, 'The Army of Flanders and the Spanish Road' (kitap, okunmadı); 1516-1556 arasının 'ispanya' mı 'Habsburg Hollandası' mı sayılacağına karar ver. Bileşen uçları (1588/1632/1705) geriye kalan eksikleri göstermez, sorun değil.",
+  "grup": "B"
+ },
+ {
+  "ad": "Hollanda Maastricht 1806-1815",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Maastricht ve Limburg 1794/95'ten 1814'e Fransa'ya aitti (Meuse-Inférieure département); atlasta Liège ve Roermond 'fransa-cumhuriyet' (1795-10-01..1815) ama Maastricht 'hollanda' (1632-08-22..2000) kesintisiz kalmış. Dolayısıyla Maastricht'in 1795-1814 Hollanda etiketi yanlış ve parça sahte 'Fransa kuşatmalı eksklav'.",
+  "kaynaklar": [
+   "Atlas ölçümü: Maastricht hollanda 1632-08-22..2000, Liège ve Roermond fransa-cumhuriyet 1795-10-01..1815-06-09",
+   "Maastricht'in Fransa'ya katılışı için bu oturumda kaynak okunmadı (hafızadan 1794-95): bulunamadı"
+  ],
+  "oneri": "Maastricht (ve Venlo/Limburg noktaları) 1795 -> fransa-cumhuriyet dilimi ekle, 1814/15 sonrası Birleşik Hollanda Krallığı; kaynak (Rijksmuseum/Britannica 'Maastricht') ekle.",
+  "grup": "B"
+ },
+ {
+  "ad": "Hollanda Maastricht 1830-1839",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Belçika Devrimi'nde (4 Ekim 1830 bağımsızlık) çevresi Belçika'ya geçerken Maastricht kalesi Hollanda'ya sadık kaldı; 1839 Londra Antlaşması (19 Nisan) ile Limburg bölündü. Kale, çevresi Belçika'ydı: gerçek kuşatılmış parça. Ancak parçanın atlasta 2459 km2 olması fazla geniş (kaynak: sınır Maastricht'te kale çevresini koruyacak biçimde ~2,5 km batıya çizilmiş).",
+  "kaynaklar": [
+   "Vikipedi 'Treaty of London (1839)' ve 'Province of Limburg (1815-1839)' ile bigthink 'The Limburg split of 1839' (arama özeti; Dibbets garnizonu, kale sadık kaldı)",
+   "KNOB bulletin 'In de ban van de stad' (arama özetinde: sınır kale çevresine saygı için 2,5 km batıya)"
+  ],
+  "oneri": "Tarih ve eksklav doğru. Alan fazla büyük: Maastricht ve Venlo kale çevresi için küçük bir bölge tanımla (bölge etiketi) ya da beyanla abartıyı belirt.",
+  "grup": "B"
+ },
+ {
+  "ad": "Romanya Besarabya 1918",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Romanya ordusu Besarabya'ya 19 Ocak - 8 Mart 1918 arası müdahalesinde girdi; Sfatul Țării bağımsızlığı ilan etti (6 Şubat ya da 24 Ocak, kaynaklar çelişkili); birleşme 9 Nisan 1918 (27 Mart eski takvim). Atlas Besarabya'yı 1918-01-01'den itibaren 'romanya-kralligi' sayıyor: başlangıç erken, Şubat-Nisan arası Moldova Demokratik Cumhuriyeti. Besarabya Prut ile Romanya'ya bitişikti; 'Sovyet Rusya ile kuşatılmış' görünümü komşu (Ukrayna/Transdinyester) etiketinin eksikliği ve Prut-batı noktalarının uyuşmamasından.",
+  "kaynaklar": [
+   "Vikipedi 'Union of Bessarabia with Romania' ve 'Romanian military intervention in Bessarabia' (arama özeti, ipucu); basilica.ro ve rri.ro özetleri; Ungureanu 2019 (diacronia.ro, arama özeti; tam okunmadı)"
+  ],
+  "oneri": "Besarabya noktalarının 1918-01-01 başlangıcını kaynağa göre düzenle (Moldova Demokratik Cumhuriyeti dilimi ya da 1918-04-09 birleşme); Prut-batı Romanya noktalarının (Iasi vb.) 1918 dönemini ölç ve kuşatıcı 'sovyet-rusya' etiketini incele.",
+  "grup": "B"
+ },
+ {
+  "ad": "Isvicre Valtellina/Ticino 1500-04-14..1503",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Bellinzona'yı Uri, Schwyz ve Nidwalden 1500 Nisan'da fiilen aldı; Arona Antlaşması (1503) bunu hukuken onayladı (Fransa/Louis XII). Bölge Uri'nin Leventina vadisi (15. yy'dan beri Uri) ile bitişikti; atlasta ana Isviçre gövdesine 7 km boşluk var, ara Leventina noktası eksik. Milano Dükalığı tarafından kuşatma yalnız güney tarafı.",
+  "kaynaklar": [
+   "HLS (hls-dhs-dss.ch) 'Bellinzona' (articles/008540) ve 'Arona' maddeleri (arama özeti): fiilen Nisan 1500 Eidgenossen, 1503 Arona; 1503-1798 Vogtei",
+   "Leventina'nın Uri'ye bağlılık tarihi için kaynak okunmadı"
+  ],
+  "oneri": "Leventina/Biasca noktası ekle (Uri); Bellinzona başlangıcı 1500-04-14 iyi, bitişi 1503 sonrası 'isvicre' olarak sürmeli; Arona günü kaynakla teyit edilsin.",
+  "grup": "B"
+ },
+ {
+  "ad": "Isvicre Valtellina/Ticino 1918-11-12..1923 Rheintal",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Parça St. Gallen Rheintal'i (Altstätten, 47.37K 9.54D) Isviçre toprağıdır; Vorarlberg 11 Mayıs 1919 danışma oylamasında yaklaşık %80 ile İsviçre'ye katılmak istedi ama Federal Konsey reddetti (St. Germain). Hiçbir Isviçre eksklavı yok; Vorarlberg petekleri sınırdaki boş bölgeyi yutunca ince şerit oluşuyor. 1918-11-12 başlangıcı 'avusturya' kimliğinin cumhuriyete geçişi (artefakt).",
+  "kaynaklar": [
+   "HLS 'Vorarlberg' (hls-dhs-dss.ch/articles/007141, arama özeti): 107 km ortak sınır, 11 Mayıs 1919 oylama, Federal Konsey statükoyu korudu",
+   "derstandard.at 'Als Vorarlberg bei der Schweiz sein wollte' (arama özeti)"
+  ],
+  "oneri": "St. Gallen/Appenzell Rheintal noktaları (Altstätten, Rheineck, Au) ekle ya da Isviçre sınırını Ren boyunca zorla; sahiplik verisi doğru.",
+  "grup": "B"
+ },
+ {
+  "ad": "Kirim Kuban",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Küçük Kaynarca (1774) sonrası Kırım Hanlığı'na Kırım, Bucak ve Kuban (Taman yakası) bırakıldı; Rusya'da Kılburun, Kerç, Yenikale ve Kabartay kaldı. Kuban toprakları Kırım'dan Kerç Boğazı ile ayrıydı; kuzey/doğuda Rus Azak-Mozdok hattı (Stavropol kalesi 1777). Bitiş 1783-04-19 (Rus manifestosu) uyumlu. Uyarı: atlasın Stavropol-Kuma bozkırı ve Kuban Nogay bozkırı gibi 'bölge' noktaları hanlık etkisini nominal Nogay göçebe alanına yayıyor; kesin sınırı yok.",
+  "kaynaklar": [
+   "TDV İslâm Ansiklopedisi 'Küçük Kaynarca Antlaşması' (atlas notunda alıntı: Rusya'ya yalnız Kılburun, Kerç, Yenikale, Kabartay; Kuban Taman yakası hanlığa) ve 'Şâhin Giray' (islamansiklopedisi.org.tr/sahin-giray; arama özeti: Şahin Giray 1777'de han)",
+   "Vikipedi '1783 Russian annexation of Crimea' (ipucu)"
+  ],
+  "oneri": "Eksklav tarihte var (deniz ile ayrı); alan abartısı için Stavropol-Kuma bozkırı noktasının doğu sınırını Rus hattıyla sınırlamayı (beyan) düşün. Değişiklik şart değil.",
+  "grup": "B"
+ },
+ {
+  "ad": "Nogay (1441-1500, 1502, 1644-1663)",
+  "sinif": "KAYNAKSIZ",
+  "guven": "düşük",
+  "ozet": "Atlas Nogay'ı Penza/Borisoglebsk yerleşim kaydına dayandırıyor (altinorda -> nogay 1441, nogay -> rusya 1663). Nogay Ordası Yayık-İdil bozkırında göçebe bir konfederasyondu; Penza çevresinde (Mordva ormanı/bozkır sınırı) Nogay egemenliği için kaynak bulamadım. 1441-1500 ve 1502 parçaları Altın Orda/Büyük Orda içinde kopuk Nogay hücresi; 1644-1663 Rus çevresi: 1630'larda Kalmuk baskısıyla Nogaylar batıya (Kuban/Azak) göçtü, Penza hücresinin Nogay sayılması sorunlu. 1502-01-01..1502-03-01 iki aylık parça atlasın Altın Orda bitişiyle ilgili bir artefakt.",
+  "kaynaklar": [
+   "TDV İslâm Ansiklopedisi 'Nogaylar' (islamansiklopedisi.org.tr/nogaylar; arama özeti, tam madde okunmadı)",
+   "Encyclopedia of Ukraine 'Nogay Tatars' (arama özeti: Büyük Orda 1630'larda Kalmuk'tan kaçtı)",
+   "Penza çevresinin Nogay mülkiyeti: bulunamadı"
+  ],
+  "oneri": "Penza/Borisoglebsk noktalarının nogay dönemini kaynakla sınırla ya da bölge-etiketi (beyan) yap; TDV 'Nogaylar' maddesini tam okuyup Yayık-İdil sınırını al. Kaynaklanmadan harita değişmesin.",
+  "grup": "B"
+ },
+ {
+  "ad": "Sirbistan Nemanjic/Kosova",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Aynı Sırp devleti iki kimlikle boyanmış: Vranje, Leskovac, Kuršumlija, Prokuplje (Toplica-Niş çevresi) 'sirbistan-nemanjic' (1281-1402), Priştine, Yenipazar, Kruševac vb. 'sirbistan'. Dušan 16 Nisan 1346'dan 20 Aralık 1355'e imparatordu ve Toplica Sırp topraklarıydı; 1355 sonrası parçalanma (Uroš V, Lazar 1371 sonrası). 'KARA-ENKLAV' tamamen %100 'sirbistan' çevresi olduğundan parça kendi içinde bölünmüş bir devlet, tarihte kuşatılmış eksklav değil.",
+  "kaynaklar": [
+   "Vikipedi 'Stefan Dušan' (16 Nisan 1346 - 20 Aralık 1355) ve 'Lazar of Serbia' (1371-1389) arama özeti (ipucu; akademik kaynak okunmadı)",
+   "Atlas ölçümü: Leskovac, Prokuplje, Kuršumlija, Vranje 'sirbistan-nemanjic'; Priştine, Novi Pazar 'sirbistan'",
+   "Toplica-Niş 1355-1374 sahipliği için kaynak bulunamadı (Niš/Toplica Branković-Lazar-Balšić...)"
+  ],
+  "oneri": "İki kimliği birleştir ya da 'sirbistan-nemanjic' dönemini kaynaklı biçimde zaman dilimleriyle ayır. 1355-1374 Toplica sahipliğini TDV ('Sırplar', 'Lazar') + Sırp akademik kaynaklarla belirle.",
+  "grup": "B"
+ },
+ {
+  "ad": "Hafsi Konstantine (1281-1519 ve 1526-27)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Konstantine (36.27N 6.69E) Hafsî çekirdeğinin doğu-orta Cezayir uzantısıydı (13. yy'dan beri Hafsî); Zeyyânî (Tilimsân) hiçbir dönemde burayı kuşatmadı, Zeyyânî doğu sınırı Cezayir/Titteri dolaylarındaydı. Dolayısıyla 1281-1519 zincirinde %100 'zeyyani' çevre tarihsel olarak yanlış; aradaki (Bicâye/Cezayir-Sétif hattı) petekler Hafsî ya da bağlı emirlik olmalı, ya da Zeyyânî sınırı fazla doğuya taşmış. 1526-27 zincirinde Osmanlı çevresi: Cezayir Beylerbeyliği 1518-19'dan itibaren Osmanlı'ya bağlandı, ama Konstantine'nin Hafsî'den Osmanlı'ya geçiş tarihi bu veriyle uyuşmuyor; 1519-1526 boşluğu ve 1526-27 'Hafsi' kaydı şüpheli (Konstantine bu yıllarda Hafsî-Osmanlı arası yerel emirlerin elindeydi, kesin tarih bulunamadı).",
+  "kaynaklar": [
+   "Hafsid dynasty / Zayyanid dynasty (Vikipedi, yalnız ipucu; https://en.wikipedia.org/wiki/Hafsid_dynasty)",
+   "Doğu sınırı sorunu: 'مسألة الحدود الشرقية للجزائر خلال العهد العثماني' (Souk Ahras Üniv. tezi, https://dspace.univ-soukahras.dz/handle/123456789/4522) - Konstantine'nin 1500'lerdeki statüsünü vermedi",
+   "TDV İslâm Ansiklopedisi 'Hafsîler' maddesi okunamadı/doğrulanamadı"
+  ],
+  "oneri": "Cezayir doğusundaki (Bicâye-Konstantine-Annâbe) yerleşimlerin 1281-1519 sahibini Hafsî yap veya Zeyyânî sahipliğini kaynakla kanıtla; 1519-1526 boşluğu ve 1526-27 Hafsî kaydının kaynağını bul (TDV Hafsîler/Cezâyir/Konstantine, Brunschvig 'La Berbérie orientale sous les Hafsides'). Kaynak bulunana dek düşük güvenle işaretle.",
+  "grup": "C"
+ },
+ {
+  "ad": "Portekiz Mozambik 1902-14 (3 zincir)",
+  "sinif": "GERÇEK",
+  "guven": "yüksek",
+  "ozet": "Portekiz Angola ile Mozambik'i birbirinden ayıran şerit İngiliz (Kuzey Rodezya/Barotseland, Nyasaland) toprağıydı; 1914'e kadar Tanganyika da Alman. 1915-23 (Alman Doğu Afrika'sının işgali) ve 1961-74 (Zambiya-Malavi-Tanzanya) zincirlerinde de Mozambik Angola'dan kopuktur. 'Pembe harita' bağlantısı hayal kaldı (1890 İngiliz ültimatomu). Zincirler arası boşluk (1914-15, 1923-61) başka durumları (Portekiz Cumhuriyeti ayrımı) ilgilendiriyor, vaka dışı.",
+  "kaynaklar": [
+   "Britannica 'Portuguese Mozambique' / 'Rose-Coloured Map' (1890 British Ultimatum)",
+   "Newitt, M. A History of Mozambique (1995)"
+  ],
+  "oneri": "Değişiklik gerekmez. Yalnız 1914-1915-07-09 ve 1923-1961 boşluğunun neden zincir dışı kaldığına bak (devlet kimliği ayrımı olabilir).",
+  "grup": "C"
+ },
+ {
+  "ad": "Fransa Cad 1903-13",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Fransız Ekvator Afrikası (Ubangi-Şari, Çad) bileşeni ana Fransız kütlesinden (Nijer/Zinder, Sahra) 244 km kopuk çiziliyor. Tarihte Fransa Rabih'i 1900'de (Kusseri) yendi, Çad Askerî Bölgesi 1900'de kuruldu ve Zinder-Çad Gölü bağlantısı (Nijer Askerî Bölgesi) 1900'lerin başında kurulmuştu; Kanem Fransız idaresine 1900-01'de girdi. Atlasta ara bölgenin 'kanem-tubu' ve İngiltere (Nijerya/Bornu) olarak çizilmesi bu bitişikliği bozuyor. Kesin Kanem fiilî egemenlik tarihleri kaynaktan doğrulanamadı.",
+  "kaynaklar": [
+   "Britannica 'Chad: history / French Equatorial Africa'",
+   "Decalo, Historical Dictionary of Chad (kaynak okunamadı, genel bilgi)",
+   "Doğrudan okunmuş kaynak yok - güven düşük"
+  ],
+  "oneri": "Kanem'in 1900 sonrası sahibini (Fransa) ve Kanem-Tubu kaydının dönemini kaynakla gözden geçir; Nijer-Çad bağlantısı için Manga/Diffa peteklerinin sahibine bak.",
+  "grup": "C"
+ },
+ {
+  "ad": "Brezilya Mato Grosso/Paraguay 1889-1906",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Brezilya'nın güney Mato Grosso'su (Porto Murtinho-Bela Vista, Apa nehri kuzeyi) 1872 sınır anlaşmasıyla Brezilya'ya aitti ve Mato Grosso/Goiás aracılığıyla anakaraya bitişikti; Paraguay tarafından kuşatılmış bir Brezilya enklavı yoktu. Parçanın 149 km kopukluğu ve %95 Paraguay çevresi, ara bölge (Mato Grosso'nun içi) ya da Apa-Paraguay sınır petek atamasının hatasını gösteriyor. 1906-12-18 bitiş tarihinin neye dayandığı bulunamadı.",
+  "kaynaklar": [
+   "Britannica 'Brazil-Paraguay boundary / War of the Triple Alliance' (genel)",
+   "Kaynak okuması yapılmadı; verinin yerleşim sahipleri incelenmedi"
+  ],
+  "oneri": "Mato Grosso do Sul güneyi ve aradaki yerleşimlerin 1889-1906 sahibini kontrol et (muhtemelen 'sahipsiz' ya da Bolivya/Paraguay yanlış atanmış); gerekirse ara bölgeyi Brezilya'ya ver.",
+  "grup": "C"
+ },
+ {
+  "ad": "Meksika Baja 1869-1923",
+  "sinif": "MOTOR-HATASI",
+  "guven": "yüksek",
+  "ozet": "Baja California, Colorado nehri deltasında Sonora ile kara sınırıyla bitişikti (Mexicali-San Luis Río Colorado). Kopukluk, bu dar kara köprüsünün Voronoi petek şeridinde ince kalıp kaybolmasından ve düz hattın ABD üstünden geçmesinden kaynaklanıyor. ABD sınırı 1848/1853 (Guadalupe Hidalgo, Gadsden) ile belirlendi; Meksika'nın anakara ile bağlantısı hiç kopmadı.",
+  "kaynaklar": [
+   "Britannica 'Baja California' ve 'Gadsden Purchase'",
+   "Treaty of Guadalupe Hidalgo (1848)"
+  ],
+  "oneri": "Motor sorunu: Colorado deltası-Sonora bağlantı şeridini koruyan bir bağlantı kuralı ya da Baja-Sonora arası yerleşim noktası ekle. Başlangıç tarihi 1869-05-14'ün neye dayandığına ayrıca bak.",
+  "grup": "C"
+ },
+ {
+  "ad": "Ingiliz Hindistan Ajmer",
+  "sinif": "GERÇEK",
+  "guven": "yüksek",
+  "ozet": "Ajmer, Sindhia'dan 25 Haziran 1818'de devralındı, Merwara 1821'de eklendi; Ajmer-Merwara Rajputana'nın ortasında İngiliz idaresindeki bir kıtasal enklav ve 1947'ye dek Chief Commissioner eyaletiydi. Haritada Rajput devletleriyle %100 kuşatma doğru. Not: gerçek alan ~7.000 km², çizilen 25.820 km² - petek şişirmesi var.",
+  "kaynaklar": [
+   "Imperial Gazetteer of India, 'Ajmer-Merwara' (1908)",
+   "Britannica 'Ajmer'"
+  ],
+  "oneri": "Sınıf doğru; yalnız poligonun alanı için Ajmer-Merwara'nın gerçek sınırına yakın yerleşim yoğunluğu (Beawar, Nasirabad, Todgarh) ekleyerek şişkinliği azalt (isteğe bağlı).",
+  "grup": "C"
+ },
+ {
+  "ad": "Racput Ajmer 1311-65",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parça (24.86N 74.91E) Çitor/Mevar bölgesidir. Çitor 1303'te Hıljî'ye geçti; Hammir Singh yaklaşık 1326'da Tuğluk'a karşı geri aldı (kaynaklar yıl konusunda tereddütlü). Dolayısıyla 1311-1326 arası Mevar bağımsız değil, Delhi Sultanlığı egemenliğindeydi; 1326 sonrası Delhi kuşatmasında kalan bir Rajput enklavı makul. 1365 bitişinin dayanağı bulunamadı.",
+  "kaynaklar": [
+   "Hammir Singh / List of ranas of Mewar (Vikipedi, yalnız ipucu; https://en.wikipedia.org/wiki/Hammir_Singh)",
+   "Sharma, G.N. Mewar and the Mughal Emperors (genel)",
+   "Akademik kaynak doğrudan okunamadı"
+  ],
+  "oneri": "Başlangıcı 1311'den ~1326'ya çek (belirsizlik beyanıyla), bitiş 1365 için kaynak bul.",
+  "grup": "C"
+ },
+ {
+  "ad": "Racput Ajmer 1679-1707",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Mevar (24.67N 74.34E) 1679-81 Babürlü-Mevar savaşından sonra 1681 antlaşmasıyla Babürlü tabiiyetinde özerk kaldı; Marvar 1679'da Babürlü işgaline girdi. Çevresi Ajmer, Malva, Gucerat subeleriyle Babürlü olduğundan kuşatma kabaca doğru. 1707-03-03 Evrengzib'in ölümüdür; Rajput isyanı sonrası değişim 1707-08'de.",
+  "kaynaklar": [
+   "Sarkar, J. History of Aurangzib (cilt III-IV)",
+   "Britannica 'Mewar'"
+  ],
+  "oneri": "Değişiklik gerekmez; 'Racput' birleştirilmiş etiketin Mevar/Marvar/Amber ayrımı için ileride ayrı kimlik düşün.",
+  "grup": "C"
+ },
+ {
+  "ad": "Delhi Sultanligi Gucerat 1297-1304",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Alâeddin Hıljî'nin orduları Gucerat'ı 1299'da fethetti (Ulugh Han, Nusrat Han); 1297 başlangıcı bir-iki yıl erken. Delhi ile Gucerat arası Ranthambhor (1301'e dek), Jalore ve Marvar Rajput elindeydi, yani kopukluk tarihsel olarak makul; ancak 1299 öncesi Gucerat Vaghela hâkimiyetindeydi.",
+  "kaynaklar": [
+   "Gujarat under the Delhi Sultanate (Vikipedi, ipucu)",
+   "Jackson, P. The Delhi Sultanate (Cambridge, 1999)"
+  ],
+  "oneri": "Başlangıcı 1299'a taşı (yıl hassasiyeti beyanıyla); 1304 bitişi için kaynak ara.",
+  "grup": "C"
+ },
+ {
+  "ad": "Delhi Sultanligi Gucerat 1392-1407",
+  "sinif": "GERÇEK",
+  "guven": "düşük",
+  "ozet": "Zafer Han 1391'de Tuğluk valisi olarak Gucerat'a atandı; Timur'un 1398 Delhi yağmasından sonra fiilen özerkti, bağımsızlığını 1407 dolaylarında ilan etti (kaynaklar 1398/1407 arasında ayrışıyor). Malva ise 1392-1401 arası bağımsızlaştı. Yani nominal bağlılık, kopuk ve Malva/Rajput ile ayrılmış parça şeklinde çizim tarihsel olarak savunulabilir ama fiilî egemenlik 1398 sonrası Delhi'de değildir.",
+  "kaynaklar": [
+   "Gujarat Sultanate / Muzaffar Shah I (Vikipedi, ipucu)",
+   "Cambridge: 'In Praise of Kings', Setting the Stage (Gujarat 15. yy, https://www.cambridge.org/core/product/C1FFDF6F6993271D2D1BD09425DBDF30)"
+  ],
+  "oneri": "Bitişi 1398'e çekmeyi (fiilî bağımsızlık) veya nominal bağlılık beyanı eklemeyi düşün; 1407 hâlâ savunulabilir.",
+  "grup": "C"
+ },
+ {
+  "ad": "Karnatik 1736-1760",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Arkot Navabı (Karnatik) 1710'lardan fiilen Haydarabad Nizamı'na tâbi, nominal Babürlü bağlı idi; atlasta Babürlü ile Karnatik'in ayrı çizilmesi ve Karnatik'in iki ayrı petekte (Arkot ve Trichinopoly) bölünmesi bir temsil sorunu. Ara bölge Meysur/Fransa (Pondişeri) ve Babürlü atamasına bağlı.",
+  "kaynaklar": [
+   "Britannica 'Carnatic'",
+   "Doğrudan okunmuş akademik kaynak yok"
+  ],
+  "oneri": "Karnatik-Haydarabad-Babürlü ilişkisini tek kaynaklı yerleşim sahipleriyle yeniden gözden geçir; ara peteklerin sahibini kontrol et.",
+  "grup": "C"
+ },
+ {
+  "ad": "Karnatik 1760-1801",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Vandivaş (1760) sonrası Arkot Navabı İngilizlerin himayesinde kalan, ancak 31 Temmuz 1801 antlaşmasıyla idaresini bırakan nominal hükümdardı; yani bölge tamamen 'İngiliz Hindistanı ile çevrili enklav' değil, Navab'ın nominal toprağı koca Karnatik'ti. 5.888 km² çizim parçası Tirupati-Chandragiri civarı; gerçek tarihî bölünme (Navab/İngiliz) buna uymuyor.",
+  "kaynaklar": [
+   "Britannica 'Carnatic' / 'Arcot' (genel)",
+   "Doğrudan okunmuş akademik kaynak yok"
+  ],
+  "oneri": "1760-1801 Karnatik'in toprağı için kaynaklı tek bir sınır belirle; bu parçayı Navab-İngiliz ortak idaresi olarak beyan et.",
+  "grup": "C"
+ },
+ {
+  "ad": "Abd Pavni-Sauk 1783-95",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "1783 Paris Antlaşması Wisconsin/Minnesota doğusunu ABD'ye bıraktı (kâğıt üstünde), fiilen bölge Yerli milletlerin (Sauk, Fox, Ojibwe, Ho-Chunk) elindeydi; İngilizler 1796 Jay Antlaşması'na dek Detroit gibi kaleleri tuttu ve Greenville Antlaşması (3 Ağustos 1795) bile ABD'nin fiilî kontrolünü Wisconsin'e uzatmadı (ABD'nin etkin varlığı 1816'da Fort Crawford). Bitiş tarihi 1795-08-03 Greenville ile uyumlu ama parçanın ABD sahibi olarak boyanması fiilî egemenlik değil hak iddiasıdır.",
+  "kaynaklar": [
+   "Treaty of Paris (1783); Treaty of Greenville (1795)",
+   "White, R. The Middle Ground (Cambridge, 1991)"
+  ],
+  "oneri": "Parçayı 'iddia' olarak beyanla işaretle veya Yerli milletlere (Sauk/Ojibwe/Menominee) ver; 1795 sonrası da Wisconsin fiilî ABD değildir.",
+  "grup": "C"
+ },
+ {
+  "ad": "Konfedere Devletler Alabama",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Alabama (Montgomery 32.23N 86.33W) Konfedere Devletlerin tam merkezindeydi (Ocak 1861'de ayrıldı; Montgomery ilk başkentti). ABD tarafından %100 kuşatılması imkânsız: Georgia, Mississippi, Florida ve Tennessee petekleri ya Konfedere olmalı ya da atlasta başka devlete atanmış. Parçanın 781 km uzaktaki 'ana karası' da yanlış: ana kara olması gereken Konfedere bloğu parçalanmış.",
+  "kaynaklar": [
+   "Britannica 'Confederate States of America' (11 eyalet)",
+   "Alabama Ordinance of Secession, 11 Ocak 1861"
+  ],
+  "oneri": "Konfedere Devletler dönemi içinde Georgia, Mississippi, Florida, Tennessee, Güney Karolina vb. yerleşimlerinin 's:' dönemlerini kontrol et; Alabama'yı kuşatan ABD atamalarını düzelt.",
+  "grup": "C"
+ },
+ {
+  "ad": "Ispanya-Portekiz 1866-1923 (Olivenza)",
+  "sinif": "MOTOR-HATASI",
+  "guven": "yüksek",
+  "ozet": "Olivenza 1801 Badajoz Antlaşması'yla İspanya'ya geçti, Portekiz 1815 Viyana Kongresi madde 105'e dayanarak iadesini ister ama fiilen İspanyol kaldı; İspanya'nın Badajoz eyaletine doğrudan bitişiktir. Kopukluk 20 km'lik petek boşluğundan kaynaklanıyor. Başlangıç tarihi 1866-11-04'ün 1801 yerine neden seçildiği anlaşılamadı.",
+  "kaynaklar": [
+   "Treaty of Badajoz (1801); Congress of Vienna, art. 105",
+   "Britannica 'Olivenza' / 'Olivença dispute'"
+  ],
+  "oneri": "Olivenza ve Badajoz arası yerleşim sahiplerini kontrol et; başlangıcı 1801 yap.",
+  "grup": "C"
+ },
+ {
+  "ad": "Safevi-Osmanli Dogu Anadolu 1516 (1501-07-01..1502-01-01)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Şah İsmail 1501 Temmuz'da Tebriz'i aldı; Doğu Anadolu (Erzurum-Bayburt çizgisi, 39.77N 40.38E) 1501'de Safevî değil, Akkoyunlu/Osmanlı arasındaydı. Safevî kontrolü Harput'ta yaklaşık 1507'den, Erzincan'da ancak 1500'lerin ilk on yılının sonlarında kuruldu. Bu 6 aylık parça tarihsel dayanaktan yoksun görünüyor.",
+  "kaynaklar": [
+   "Harput hakkında: Aytaç, Harput darplı Osmanlı sikkeleri (Fırat Üniv., https://harputickalekazilari.firat.edu.tr/...)",
+   "Doğrudan başka kaynak okunamadı"
+  ],
+  "oneri": "1501-07-01 Safevî Doğu Anadolu dönemini sil/kısalt veya kaynaklı yıl ile (Harput için 1507) taşı.",
+  "grup": "C"
+ },
+ {
+  "ad": "Safevi-Osmanli Dogu Anadolu 1516 (1516-03-26..1516-05-01)",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Harput (Mamuretülaziz, ~39.0N 39.48E) Akkoyunlu sonrası yaklaşık 1507'den beri Safevî elindeydi; Osmanlı fethi kış 1515'ten bahar 1516'ya (Harput Kuşatması) sürdü ve Koçhisar zaferi 4 Mayıs 1516. Çevreyi Bıyıklı Mehmed Paşa'nın Diyarbekir (Kasım 1515) ve Kemah (1515) fetihleri Osmanlı kıldı, doğu-güneyde Dulkadir/Memlük payı vardır. Yani kısa süreli kuşatılmış Safevî enklavı tarihsel; 1516-05-01 bitişi (Koçhisar'dan 3 gün önce) 1516-05-04'e yakın.",
+  "kaynaklar": [
+   "Bıyıklı Mehmed Pasha (Vikipedi, ipucu; https://en.wikipedia.org/wiki/B%C4%B1y%C4%B1kl%C4%B1_Mehmed_Pasha)",
+   "Aytaç, Harput darplı Osmanlı sikkeleri - fetih kış 921/1515 - bahar 922/1516",
+   "TDV 'Harput' / 'Bıyıklı Mehmed Paşa' doğrudan okunamadı"
+  ],
+  "oneri": "TDV Harput ve Selim I maddelerinden Harput'un düşüş gününü ve Koçhisar'ı (4 Mayıs 1516) doğrula; bitişi buna bağla.",
+  "grup": "C"
+ },
+ {
+  "ad": "Memluk 1516 (1261-06-09..1281)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Şam bölgesi (33.6N 37.08E) Ayn Câlût (1260) sonrası Memlük; Mısır'la arasındaki boş hat Filistin iç kesimi (Kudüs, Gazze, Hebron) olmalıdır: bunlar 1244 Hârizmîlerden ve 1260-61'de Memlük'e geçti, Akka ve kıyı Haçlı elindeydi. Boşluğun 'sahipsiz' (__BOSLUK__) kalması veri eksiği.",
+  "kaynaklar": [
+   "Humphreys, R.S. From Saladin to the Mongols (1977)",
+   "Holt, P.M. The Age of the Crusades (1986) - genel; sayfa doğrulaması yapılmadı"
+  ],
+  "oneri": "Filistin iç yerleşimlerine 1261-1281 Memlük dönemi ekle (Kudüs, Gazze, Hebron, Nablus); kıyı Haçlı kalsın.",
+  "grup": "C"
+ },
+ {
+  "ad": "Memluk 1516 (1516-09-27..1516-10-01)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Osmanlı ordusu Hama'yı 19 Eylül, Humus'u 21 Eylül'de aldı; Şam'ın dışına 27 Eylül'de ulaşıp 3 Ekim 1516'da şehre girdi. Lübnan kıyıları/Şûf için Osmanlı çevresi 27 Eylül-1 Ekim'de erken çiziliyor (Şam o tarihte hâlâ Memlük); 4 günlük parça tarih eşlemesinin ürünü gibi duruyor. Beyrut/Sayda'nın tam teslim günü bulunamadı.",
+  "kaynaklar": [
+   "Capture of Damascus (1516) (Vikipedi, ipucu; https://en.wikipedia.org/wiki/Capture_of_Damascus_(1516))",
+   "Winter, M. Egyptian Society under Ottoman Rule; TDV 'Mercidâbık' doğrudan okunmadı"
+  ],
+  "oneri": "Şam'ın Osmanlı'ya geçiş gününü 1516-10-03 yapıp Lübnan kıyısı için ayrı dönem aç; TDV Selim I/Mercidâbık/Şam ile doğrula.",
+  "grup": "C"
+ },
+ {
+  "ad": "Mehdi Sudan (1884-02-08..1884-02-20)",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Osman Digna Kızıldeniz tepelerinde (Tokar) 4 Şubat 1884 El Teb'de Baker Paşa'yı yendi; Tokar'ın Mehdîlere geçişi kaynakta 22 Şubat'tan önce bildirildi (verideki 8 Şubat doğrulanamadı). Bölge Mehdî çekirdeğinden (Kordofan) kopuk, Mısır/Osmanlı elindeki Nil boyu ve Sevâkin'le çevriliydi. Parça tarihsel.",
+  "kaynaklar": [
+   "First and second battles of El Teb (Vikipedi, ipucu); britishempire.co.uk timeline - 22 Şubat 1884 Tokar vali teslimi (doğruluğu belirsiz)",
+   "Osman Digna (Vikipedi, ipucu)"
+  ],
+  "oneri": "Tokar'ın düşüş gününü TDV Mehdî/Osman Digna maddesi veya Sudan akademik kaynağıyla doğrula; 02-08/02-20 günleri teyitsiz.",
+  "grup": "C"
+ },
+ {
+  "ad": "Mehdi Sudan (1884-02-20..1885-01-26)",
+  "sinif": "GERÇEK",
+  "guven": "düşük",
+  "ozet": "Kızıldeniz tepeleri-Tokar bölgesi Osman Digna'nın elinde kalmaya devam etti (Graham 29 Şubat 1884 El Teb II sonrası dahi). Sevâkin Mısır/İngiliz elinde, çevresini kuşatan Osmanlı/Mısır ve Habeşistan sınırı makul.",
+  "kaynaklar": [
+   "Osman Digna (Vikipedi, ipucu)",
+   "Doğrudan akademik kaynak okunamadı"
+  ],
+  "oneri": "Gerekirse Sevâkin-Tokar sınırı için Sudan akademik kaynak (Holt & Daly, A History of the Modern Sudan) bak.",
+  "grup": "C"
+ },
+ {
+  "ad": "Mehdi Sudan (1884-05-01..1885-01-26)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Berber 26 Mayıs 1884'te Mehdîlere düştü; Atbara-Berber (18.18N 34.34E) ile Kordofan arasında Şendi-Metemme hattı Mehdî'ydi, Hartum 26 Ocak 1885'e dek kuşatılmış Mısır adasıydı. Parçanın Osmanlı/Mısır ile %100 kuşatılması ve ana karadan kopuk çizilmesi Cezire (Gezira) ve Şendi'nin sahipsiz ya da Osmanlı atanmasından olabilir. 1884-05-01 başlangıç Berber'in 26 Mayıs düşüşünden önce.",
+  "kaynaklar": [
+   "Holt & Daly, A History of the Modern Sudan (genel)",
+   "Doğrudan okunmuş kaynak yok"
+  ],
+  "oneri": "Cezire/Şendi/Metemme yerleşim sahiplerini Mehdî yap; Berber düşüşünü 1884-05-26 ile hizala.",
+  "grup": "C"
+ },
+ {
+  "ad": "Roma Cumhuriyeti Lazio (-0337..-0048)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "MÖ 338 Latin Savaşı sonrası Latium (Lâtin şehirleri, Antium) Roma'ya katıldı; Campania'nın bir kısmı (ager Falernus) da dağıtıldı. Yani Roma bu dönemde Latium'da kesintisiz bir bölgeydi, 'tek peteklik 697 km² kopuk parça' tarihsel değil. Parça merkezi 42.07N 12.40E Roma'nın kuzeyinde (Tiber vadisi); 86 km'lik boşluk Latium/Campania'daki Lâtin-Volsk şehir noktalarının (Tusculum, Praeneste, Antium, Capua çevresi vb.) atlasta Roma'ya yazılmamış/seyrek olmasından kaynaklanıyor.",
+  "kaynaklar": [
+   "Livius, Ab urbe condita 8.11-8.14 (338 BC düzenlemesi; Latin War 340-338) - ikincil: Historyofwar 'Latin War 340-338 BC' https://www.historyofwar.org/articles/wars_latin_war_340-38.html (yalnız ipucu)",
+   "Cornell, The Beginnings of Rome (Routledge 1995) - Latium'un ilhakı (okumadım; atıf bilgisi)"
+  ],
+  "oneri": "Latium ve Kuzey Campania şehirlerinin (Tusculum, Praeneste, Tibur, Antium, Velitrae, Capua) o dönemdeki sahibi kaynakla yazılıp roma-cumhuriyeti `s:` dönemlerine eklensin; boşluk dolunca parça ana kütleye bağlanır. Başka bir yerleşimin çelişkisi çıkarsa ayrıca incelenmeli.",
+  "grup": "D"
+ },
+ {
+  "ad": "Roma Cumhuriyeti Lazio (-0048..-0026)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "MÖ 48-26'da Roma İtalya yarımadasının tamamına ve Akdeniz eyaletlerine sahipti. Parçanın ana kütleden 432 km uzak görünmesi (DENİZ-ADA) tarihsel olamaz: İtalya'nın kalan kısmı bu aralıkta başka devlet etiketli veya noktasız kalmış, yalnız Roma çevresi Roma'ya bağlı görünüyor. Aynı Lazio parçası, diğer zincirin devamı.",
+  "kaynaklar": [
+   "Caesar, De Bello Civili (Roma/İtalya kontrolü MÖ 49-48)",
+   "Cambridge Ancient History vol. IX-X (Roma Cumhuriyeti'nin İtalya egemenliği) - okumadım; atıf bilgisi"
+  ],
+  "oneri": "İtalya (Etruria, Umbria, Picenum, Samnium, Campania, Apulia, Cisalpina) yerleşimlerinin MÖ 90 sonrası roma-cumhuriyeti `s:` dönemleri kontrol edilsin; çoğu muhtemelen 'roma' öncüllerine bağlı kalmış, devlet kimliği eşleşmiyor olabilir.",
+  "grup": "D"
+ },
+ {
+  "ad": "Ahamenis Elam-Zagros",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parça (34.66N 48.32E) Hemedan/Ekbatana-Medya çevresi. Ahameniş satraplıkları (Medya, Elam/Susiana, Persis, Babil, Asur) birbirine bitişikti ve Kraliyet Yolu Susa-Ekbatana'yı bağlıyordu; Medya Pers Sultanlığı'nın merkez bölgesiydi. 99 km'lik 'boş' alan Zagros dağ geçitleri: tarihsel boşluk değil, yerleşim noktası eksikliği (Kermanşah/Bisutun, Susa-Babil arası).",
+  "kaynaklar": [
+   "Livius.org 'Satraps and satrapies' https://www.livius.org/articles/concept/satraps-and-satrapies/ (Behistun/Naqsh-e Rustam/Herodotos listelerine dayanır)",
+   "Oxford History of the Ancient Near East vol. V, The Age of Persia (OUP) https://academic.oup.com/book/45753/chapter398238762 (Persia=Fars, Elam=Huzistan)"
+  ],
+  "oneri": "Bisutun/Kermanşah, Susa, Ekbatana, Kangavar gibi Zagros noktaları (Ahameniş dönemi) eklensin; Elam-Medya arası kesintisiz boyanır. Antik devlette 'şehir-devlet kümesi' modeli uygulanmaz: Ahameniş kesintisiz bölgeydi.",
+  "grup": "D"
+ },
+ {
+  "ad": "Ahamenis Fars-Kirman",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parça (30.75N 53.33E) Persis çekirdeği (Pasargad/Persepolis'in doğusu, Yezd-Kirman çevresi). Persis imparatorluğun öz bölgesi ve Elam/Susa ile Kraliyet Yolu'yla bitişikti. 305 km'lik BOS ayrılık, Susa-Persepolis arası ile Karmanya noktalarının eksikliğinden doğuyor, tarihsel bir kopukluk yok.",
+  "kaynaklar": [
+   "Livius.org 'Satraps and satrapies' https://www.livius.org/articles/concept/satraps-and-satrapies/",
+   "Oxford History of the Ancient Near East vol. V (Susa-Persepolis iki ana merkez) https://academic.oup.com/book/45753/chapter/398238762"
+  ],
+  "oneri": "Susa, Persepolis, Pasargad, Tall-e Malyan (Anshan), Behbahan/Huzistan noktaları ve Kirman (Karmanya) noktaları ahamenis s: dönemleriyle doğrulanıp eksikler eklensin.",
+  "grup": "D"
+ },
+ {
+  "ad": "Harappa Pencap (-2599..-2549, -2449..-1999)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Harappa uygarlığı (Olgun evre ~MÖ 2600-1900) İndus ovası ve Ghaggar-Hakra boyunca kesintisiz yerleşim ağıydı (Harappa, Mohenjo-daro, Ganweriwala, Rakhigarhi, Dholavira). Siyasî bir 'devlet' olup olmadığı tartışmalı; haritadaki 268 km'lik boşluk arkeolojik yerleşimlerin seyrekliğinden. Ayrıca -2549..-2449 aralığında zincir kopuk: dönem verisinde 100 yıllık boşluk var.",
+  "kaynaklar": [
+   "Britannica, 'Indus civilization' https://www.britannica.com/place/Indus-civilization (kontrol edilecek)",
+   "Kenoyer, J.M., Ancient Cities of the Indus Valley Civilization (OUP 1998) - okumadım; atıf bilgisi",
+   "Possehl, G., The Indus Civilization: A Contemporary Perspective (2002) - okumadım"
+  ],
+  "oneri": "Harappa/Mohenjo-daro arası ve Ghaggar-Hakra sitelerinin (Kalibangan, Ganweriwala, Rakhigarhi) dönemlerini harappa için tamamla; -2549..-2449 boşluğunun gerekçesi (erken evre verisi eksik) kontrol edilsin; sınır kaynağı olmayan antik 'kültür-alanı' için beyan düşülsün.",
+  "grup": "D"
+ },
+ {
+  "ad": "Yuan Yunnan 13km deniz?",
+  "sinif": "MOTOR-HATASI",
+  "guven": "yüksek",
+  "ozet": "Yunnan Moğol-Yuan egemenliğine 1253-54 Kubilay seferiyle (Dali Krallığı) girdi; 1274'te Yunnan Şubesi Sekreterliği (Yunnan Xingsheng) kuruldu, Sichuan/Guizhou'yla bitişikti. 13 km'lik 'deniz' ayrılığı gerçek deniz değil, Sichuan-Yunnan arasındaki nehir/vadi (Jinsha) kara-maske artefaktı. Tarih: atlasta f=1260 (Yuan öncesi Moğol İmparatorluğu); Yunnan 1253'te alındığı için kayıt kronolojisi değerlendirilebilir.",
+  "kaynaklar": [
+   "History of Yunnan (ipucu) https://en.wikipedia.org/wiki/History_of_Yunnan - doğrulama: Britannica 'Yuan dynasty' / Cambridge History of China vol. 6 (Alien Regimes and Border States) - okumadım"
+  ],
+  "oneri": "Motor/maske düzeltmesi (Jinsha nehri, 13 km); veri değişikliği gerekmez. 1253-54 Yunnan fethi ile atlasın f=1260 uyumu ayrıca kontrol edilsin.",
+  "grup": "D"
+ },
+ {
+  "ad": "Portekiz Mozambik-Tete 12km deniz? (1885-02-14..1974-09-20)",
+  "sinif": "MOTOR-HATASI",
+  "guven": "düşük",
+  "ozet": "Portekiz Mozambik'i Zambezi boyunca Tete-Zumbo'dan okyanusa kesintisiz tutuyordu (16. yy'dan beri Zambezi hattı; 1891 antlaşmasıyla sınırlandı). 12 km'lik 'deniz' ayrılığı Zambezi/Malavi gölü maske artefaktı. Hangi iki parça arasında ölçüldüğü (Mozambik ile hangi Portekiz kütlesi) vaka dosyasından net değil: bu nedenle düşük güven.",
+  "kaynaklar": [
+   "Anglo-Portuguese Treaty of 1891 https://ardhi.unl.edu/item/ardhi.treaty.00021.html (ana kaynak değil; metni okuyamadım)",
+   "Africana Studia, 'O Zumbo: um problema de direitos históricos' https://ojs.letras.up.pt/index.php/AfricanaStudia/article/view/7270 (tam metni okuyamadım)"
+  ],
+  "oneri": "Motor çıktısında Zambezi/Chire hattında maske artefaktı ara; veri değişikliği gerekmez.",
+  "grup": "D"
+ },
+ {
+  "ad": "Portekiz Mozambik-Tete (1902..1914, 1915..1923, 1961..1974 KORIDOR zincirleri)",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Portekiz denizaşırı sömürgeleri Angola ile Mozambik arasında kesintisiz kara bağı hiç kurulamadı (1890 İngiliz ültimatomu ile 'Pembe Harita' çöktü); aralarında Britanya (Kuzey Rodezya, Rodezya, Güney Afrika), 1961+'da Zambiya/Malavi/Tanzanya bulunuyordu. Koridor etiketleri (ingiltere, zambiya) doğrudur. Süreli aralıklarda (1914 sonrası Almanya'nın yerine İngiliz/Güney Afrika) etiketler tarih bakımından makul.",
+  "kaynaklar": [
+   "Anglo-Portuguese Treaty of 1891 https://en.wikipedia.org/wiki/Anglo-Portuguese_Treaty_of_1891 (ipucu); Barotseland Boundary Case Award 1905 (RIAA XI-65) https://www.italaw.com/sites/default/files/case-documents/riaa/RIAA-XI-65/italaw19500929%20-%20Barotseland%20Boundary%20Case%20%28United%20KingdomPortugal%29%20-%20Award%2C%20May%2030%2C%201905.pdf (okumadım)"
+  ],
+  "oneri": "Değişiklik gerekmez. Bölünme Portekiz için kasıtlı beyan edilirse 'denizaşırı bölge' notu eklenebilir.",
+  "grup": "D"
+ },
+ {
+  "ad": "Portekiz Mozambik-Tete (1923-10-29..1961 ve 1974-09-10..1974-09-20 DENIZ-ADA zincirleri)",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Portekiz kıta (Avrupa) ve Afrika sömürgeleri arasında deniz ayrılığı gerçektir (Portekiz-Angola-Mozambik denizaşırı). 871 km uzak ölçüsü bu tür ayrılığı yansıtıyor. 1974-09-10..20 aralığı 10 günlük (sure_yil 0.0) bir zincir: Lusaka Anlaşması (7 Eylül 1974) sonrası Mozambik özerkliği; kayıt süresi pratik olarak sıfır.",
+  "kaynaklar": [
+   "Lusaka Accord 7 Sep 1974 (Britannica 'Mozambique' https://www.britannica.com/place/Mozambique) - kontrol edilecek, okumadım"
+  ],
+  "oneri": "10 günlük aralığın tarihleri kaynakla doğrulansın; 'sıfır uzunluklu dönem' yasağına yakın.",
+  "grup": "D"
+ },
+ {
+  "ad": "Hollanda Doğu Hint Sumatra (1641-01-14..1825-03-01, Malakka)",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Parça (2.55N 102.47E) Hollanda Malakka'sı. Hollandalılar Portekiz'den 14 Ocak 1641'de aldı; 1795-1818 İngiliz işgali oldu; 1824 İngiliz-Hollanda Antlaşması ile Britanya'ya bırakıldı (devir 1825). Batavia/Sumatra'dan 205 km denizle ayrı bir sahil karakolu, gerçek eksklavdır. Atlas 1795-1818 İngiliz işgalini göstermiyor olabilir.",
+  "kaynaklar": [
+   "Dutch Malacca (ipucu) https://en.wikipedia.org/wiki/Dutch_Malacca ; Straits Settlements https://en.wikipedia.org/wiki/Straits_Settlements ; doğrulama için Britannica 'Malacca' ve Andaya & Andaya, A History of Malaysia (okumadım)"
+  ],
+  "oneri": "1795-1818 (İngiliz işgali) arası için hollanda-dogu-hint s: dönemi kesilmeli ya da beyan düşülmeli. 1824 antlaşma tarihi ile devir tarihi (1825-03-01) kaynakla teyit edilsin.",
+  "grup": "D"
+ },
+ {
+  "ad": "Hollanda Doğu Hint Sumatra (1858..1949, Sumatra-Borneo 'deniz' zincirleri; 1923..1949 Riau)",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Hollanda Doğu Hint adalar topluluğuydu: Java, Sumatra, Borneo, Riau-Lingga ayrı adalardır; 3 km (Malakka Boğazı/Bangka) ve 41 km boşlukları gerçek deniz ayrımıdır. Riau-Lingga (1.04N 104.49E) adaları 1824 antlaşması ile Hollanda alanındaydı ve Sultanlık 1911'de kaldırıldı (kaynakta doğrulayamadım; sorgu bu tarihi bulamadı). Dönem başlangıcı 1858 (Siak antlaşması?) kaynaksız; Sumatra'nın büyük bölümü Aceh Savaşı (1873-1904) boyunca kısmen bağımsızdı.",
+  "kaynaklar": [
+   "GlobalSecurity 'Malaysia - history British' (1824 çizgisi Riau-Lingga) https://www.globalsecurity.org/military/world/malaysia/history-british.htm (zayıf kaynak, ipucu)",
+   "Ricklefs, A History of Modern Indonesia since c.1200 (okumadım)"
+  ],
+  "oneri": "Adalar arası ayrılık bırakılabilir (GERÇEK). Fakat Sumatra'nın 1858 tarihli yayılımı ve Aceh'in 1873-1904 durumu kaynaklı doğrulanmalı; 412.835 km² Sumatra parçası için `s:` dönemleri aşırı geniş olabilir.",
+  "grup": "D"
+ },
+ {
+  "ad": "Osmanli Trablus 1551-74",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Trablusgarp Ağustos 1551'de (teslim 14 Ağustos) Sinan Paşa/Turgut Reis ile fethedildi; Murad Ağa ilk beylerbeyi. Tunus 1574'te alındı, Fizan 1574-77 arası bağlandı. Bu aralıkta Trablus Osmanlı Mısır'ından (Barka) ve Cezayir'den ayrı sahil bölgesiydi: Sirte körfezi çölü ve Hafsî Tunus arada. 24 km 'deniz' büyük olasılıkla Sirte körfezi maskesi; Barka (Bingazi, Derne) Osmanlı Mısır eyaletine nominal bağlıydı. Dönem uç tarihleri 1551-08-15..1574-08-25 makul.",
+  "kaynaklar": [
+   "Siege of Tripoli (1551) (ipucu) https://en.wikipedia.org/wiki/Siege_of_Tripoli_(1551) ; Ottoman wars in Africa https://en.wikipedia.org/wiki/Ottoman_wars_in_Africa ; TDV 'Trablusgarp' maddesi - aradım ama bu oturumda doğrudan okuyamadım (bulunamadı/okunmadı)"
+  ],
+  "oneri": "Barka (Bingazi-Derne) için Osmanlı-Mısır bağlı yerleşim dönemleri (1517+) kontrol edilsin; Sirte çölü için beyanlı yaklaşıklık. TDV 'Trablusgarp' ve 'Turgut Reis' maddeleriyle günler karşılaştırılsın.",
+  "grup": "D"
+ },
+ {
+  "ad": "Osmanli Kuban-Azak (1475-06-06..1502-03-01, iki parça)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "1475'te Gedik Ahmed Paşa Kefe, Azak (Tana) ve Karadeniz'in Kafkas kıyısındaki bazı noktaları aldı; Çerkes sahili 1475 ve 1479'da Osmanlı idaresine bağlandı ama pratikte özerkti, hukuken Kırım Hanlığı'na bağlıydı. Atlasta 29.117 km² (44.39N 39.64E) ve 13.184 km² (Rostov/Azak çevresi) parçalar ise Osmanlı'nın fiilen idare ettiği alandan geniş görünüyor. Kefe-Azak-Tuapse arası denizle ayrık gerçek bir kıyı zinciri; fakat iç kısımları (Kuban bozkırı) Osmanlı toprağı değildi.",
+  "kaynaklar": [
+   "Kur'an Ansiklopedisi (TDV) 'Çerkesler' https://kureansiklopedi.com/tr/detay/cerkezler ; Anapa https://kureansiklopedi.com/tr/detay/anapa-2 (sahilin 1475/1479'da Osmanlı idaresine bağlanması) - özet okundu, tam metin değil",
+   "TDV 'Kuban' maddesi - arandı, doğrudan okunamadı: bulunamadı"
+  ],
+  "oneri": "Çerkes sahilindeki Osmanlı noktaları (Sucuk, Anapa, Taman'ın durumu) kaynaklı yerleşimlerle sınırlansın; çevre petekleri 'Kırım Hanlığı'/'Çerkes' etiketli olmalı. Bozkır sahipliği Osmanlı'ya yazılmasın.",
+  "grup": "D"
+ },
+ {
+  "ad": "Osmanli Kuban-Azak (1516-09-19..1578-08-09, bozkır parçaları)",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "45.52N 41.09E (Stavropol-Kuban bozkırı) ve 148.943-194.973 km² alan Osmanlı toprağı değildi: bölge Nogaylar, Kabardeyler, Kırım Hanlığı ve Don Kazaklarının çevresindeydi (cevre listesi de bunu gösteriyor). Osmanlı yalnız Azak kalesi ve kıyı kaleleri (Kefe, Taman, sonra Anapa) ile sınırlıydı. Bu parçalar yanlış devlet etiketi/aşırı genişleme.",
+  "kaynaklar": [
+   "Karadeniz Dergisi / Balıkesir Üniv. 'The policy of Ottoman State about Northern Caucasia...' https://dergikaradeniz.com/index.php/en/article/2009/2/the-policy-of-ottoman-state-about-northern-caucasia-getting-loyalty-agreement-from-circassians (özet okundu)",
+   "Kur'an Ansiklopedisi 'Çerkesler' https://kureansiklopedi.com/tr/detay/cerkezler"
+  ],
+  "oneri": "Bozkır petekleri 'kirim-hanligi'/'nogay'/'kabartay' sahibine bırakılsın; Osmanlı yalnız Azak, Kefe, Taman, Anapa noktalarında kalsın. Bu iş için TDV 'Azak', 'Kuban', 'Kırım Hanlığı' ve İSAM kaynakları taranmalı.",
+  "grup": "D"
+ },
+ {
+  "ad": "Osmanli Kuban-Azak (1640..1829, KORIDOR/DENIZ-ADA zincirleri: Anapa-Sucuk-Abhazya)",
+  "sinif": "GERÇEK",
+  "guven": "düşük",
+  "ozet": "Karadeniz'in kuzeydoğu sahilinde (Anapa, Sucuk, Poti, Sohum) Osmanlı kale/liman zinciri vardı; Kafkas sahili 1829 Edirne Antlaşması'na kadar Osmanlı'da kaldı (Anapa 1791'de Ruslarca alındı, geri verildi). İç kısım Megrel, Abhaz, Çerkes beyliklerindeydi; yani sahil şeridi bir koridor ve eksklav zinciridir. Atlastaki geniş 40-150 bin km² alan ise kıyı şeridine göre aşırı büyük.",
+  "kaynaklar": [
+   "Siege of Anapa (1791) (ipucu) https://en.wikipedia.org/wiki/Siege_of_Anapa_(1791) ; 1829 Edirne Antlaşması (TDV 'Edirne Antlaşması' - okunmadı)"
+  ],
+  "oneri": "Gerçek kopukluk korunsun, ancak alan Osmanlı kale çevreleriyle sınırlansın (Sucuk, Anapa, Poti, Sohum). Megrel/Abhaz topraklarının sahipleri doğrulanıp petekler Osmanlı olmaktan çıkarılmalı.",
+  "grup": "D"
+ },
+ {
+  "ad": "Osmanli Asir-Hudeyde 1849-1918 (1849..1918 zinciri)",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Tihâme (Hudeyde dahil) 1840'ta Suûdîler'in kontrolüne geçti ve 1849'da Osmanlılar (Tevfik Paşa, Mekke şerifi nezareti) geri aldı (TDV 'Hudeyde', 'Tihâme'). Hicaz-Asir-Yemen Kızıldeniz kıyı şeridi bu dönemde Osmanlı için kesintisiz sayılabilir; 29 km'lik 'deniz' ayrılığı Cizan-Lüheyye sahilindeki ince şerit/koy maskesi artefaktıdır.",
+  "kaynaklar": [
+   "TDV İslâm Ansiklopedisi 'Hudeyde' https://islamansiklopedisi.org.tr/hudeyde ; 'Tihâme' https://islamansiklopedisi.org.tr/tihame (arama özeti okundu)",
+   "Kur'an Ansiklopedisi 'Hudeyde' https://kureansiklopedi.com/tr/detay/hudeyde"
+  ],
+  "oneri": "Motor: ince şerit/maske düzeltmesi (Hudeyde-Cizan kıyı). Asir/Yemen noktaları arası 1849-1918 dönemleri teyit edilmeli; veri değişikliği gerekmeyebilir.",
+  "grup": "D"
+ },
+ {
+  "ad": "Osmanli Asir-Hudeyde 1849-1918 (1538-08-03..1635 Hudeyde/Tihâme ve 1557-04-02..1885-02-05 Habeş)",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "1538'de Hadım Süleyman Paşa'nın donanması Hudeyde ve Yemen'in Kızıldeniz limanlarını kontrol altına aldı (TDV 'Hudeyde'); 1557'de Özdemir Paşa ile Habeş Eyaleti (Massawa-Sevâkin kıyı şeridi) kuruldu; Mısır Hidivi 1865'ten Massawa'yı yönetti, 5 Şubat 1885'te İtalya'ya devredildi. Bu kıyı noktaları ana Osmanlı kütlesinden denizle ayrı gerçek eksklavlardır (Habeş/Massawa, 191 km).",
+  "kaynaklar": [
+   "TDV 'Hudeyde' https://islamansiklopedisi.org.tr/hudeyde ; Habeş Eyaleti için TDV 'Habeş' maddesi - arandı, bu oturumda okunamadı (bulunamadı)"
+  ],
+  "oneri": "Gerçek eksklav olarak bırakılsın, ancak Massawa parçası 5.247 km² yerine kıyı şeridine daraltılmalı (kaynak: Habeş Eyaleti sınırı). 1885-02-05 İtalya'ya devir tarihi kaynakla teyit edilsin.",
+  "grup": "D"
+ },
+ {
+  "ad": "Osmanli Asir-Hudeyde 1849-1918 (1871-01-01..1871-03-01 Asir)",
+  "sinif": "KAYNAKSIZ",
+  "guven": "düşük",
+  "ozet": "İki aylık (0.2 yıl) bir parça: 18.24N 42.73E, 31.589 km², çevresi yüzde 30 'yemen' etiketi. Osmanlı'nın Asir'i 1871'de (Mehmed Ali Paşa/Yemen seferi) tamamen ele geçirmesi 1871 civarına denk gelir, ama kesin gün aralığı kaynakta doğrulanamadı. Kısa dönem büyük olasılıkla `s:` dönemlerinin örtüşme/çakışma artefaktıdır.",
+  "kaynaklar": [
+   "Doğrudan kaynak bulunamadı; TDV 'Asîr' maddesi aranmalı - okunmadı"
+  ],
+  "oneri": "Asir 1871 dönemi TDV 'Asîr', 'Yemen' ve DergiPark makalelerinden (Osmanlı Yemen/Asir 1871 harekâtı) gün düzeyinde kontrol edilsin; kaynak yoksa dönem birleştirilmeli.",
+  "grup": "D"
+ },
+ {
+  "ad": "Italya Eritre-Masavva",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "İtalya Massawa'yı 5 Şubat 1885'te Mısır'dan devraldı; Eritre 1890'da koloni oldu. İtalyan Somalisi ile arada Etiyopya (1936-41 hariç, İtalyan Doğu Afrika'sı) uzandı. Eritre İtalya anakarasından denizle ayrı gerçek eksklavdır; 16 km'lik 'deniz' ayrılığı Kızıldeniz/Danakil çöküntüsü maskesi olabilir. Bitiş 1941-04-01 (İngiliz fethi, Keren muharebesi Mart-Nisan 1941) makul.",
+  "kaynaklar": [
+   "Britannica 'Eritrea' https://www.britannica.com/place/Eritrea (kontrol edilecek, okumadım); Hudeyde/Habeş özeti TDV https://islamansiklopedisi.org.tr/hudeyde"
+  ],
+  "oneri": "Eksklav olarak doğru. Eritre'nin 1885-1890 arasında yalnız Massawa çevresi olduğu, iç bölgelerin sonradan katıldığı (1890+) için 1885 başlangıçlı 100.402 km² alanın tamamı yanlış olabilir; iç yerleşimlerin başlangıç tarihleri kontrol edilsin.",
+  "grup": "D"
+ },
+ {
+  "ad": "Portekiz-Brezilya (1615-11-04..1822-09-07, Maranhão ana parça)",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Fransızlar São Luís'ten 1615'te (Guaxenduba, 19 Kasım 1614 / Kasım 1615 kaynaklara göre) çıkarıldı; 1621'de Maranhão ayrı bir eyalet (Estado do Maranhão) oldu, 1774'e kadar Brezilya Devletinden idari olarak ayrıydı ama kara bağlantı Piauí/Ceará üzerinden mevcuttu. 3 km 'deniz' São Luís adası/Körfez maskesi artefaktı: gerçek bir ayrılık değil.",
+  "kaynaklar": [
+   "Captaincy of Maranhão (ipucu) https://en.wikipedia.org/wiki/Captaincy_of_Maranh%C3%A3o ; Britannica 'Maranhão' https://www.britannica.com:443/place/Maranhao (okumadım)"
+  ],
+  "oneri": "Motor: São Luís adası/körfez maskesi. Veri değişikliği gerekmez; 1615 başlangıcı için Guaxenduba tarihi kaynakla teyit edilsin.",
+  "grup": "D"
+ },
+ {
+  "ad": "Portekiz-Brezilya (125 km² küçük parçalar, Gurupi/Cururupu kıyı adacıkları 1615-1822)",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Parçalar 109-125 km² (-1.32N -44.95E): São Marcos Körfezi kıyısında küçük adalar/yarımada. Maranhão kıyı şeridiyle bitişik; 7-10 km ayrılık körfez maskesi. 1694-97 kaydının 864 km'lik uzaklığı ise ana parçanın o aralıkta bulunmaması yüzünden: zincir kopuk, ana kütle `s:` dönemlerinde boşluk var.",
+  "kaynaklar": [
+   "Captaincy of Maranhão https://en.wikipedia.org/wiki/Captaincy_of_Maranh%C3%A3o (ipucu, doğrulama okunmadı)"
+  ],
+  "oneri": "Motor/maske düzeltmesi; 1694-02-06..1697 için ana kütlenin portekiz-brezilyasi `s:` dönemi aralığı kontrol edilsin.",
+  "grup": "D"
+ }
+]
