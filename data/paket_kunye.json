@@ -376,8 +376,8 @@
     },
     {
      "yol": "data/kronoloji_hollanda.js",
-     "sha": "e5fed80dbeaadd04",
-     "bayt": 35301
+     "sha": "20984005d2806b48",
+     "bayt": 35510
     },
     {
      "yol": "data/kronoloji_isvec.js",
@@ -405,7 +405,7 @@
      "bayt": 27250
     }
    ],
-   "bayt": 370709
+   "bayt": 370918
   },
   {
    "paket": "data/paket_12.js",

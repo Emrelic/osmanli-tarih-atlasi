@@ -60,10 +60,11 @@ window.KRONOLOJI_HOLLANDA = [
 
 // I. İSYAN VE CUMHURİYETİN DOĞUŞU (1568-1609)
 
-{ t:"1568-01-01", b:"Seksen Yıl Savaşları'nın başlaması — İspanya'ya karşı isyan", tur:"isyan", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","askeri","din","konu-askeri","konu-isyan","konu-din"], yer_id:"", kapsam_genis:true,
+{ t:"1568-05-23", b:"Seksen Yıl Savaşları'nın başlaması — İspanya'ya karşı isyan", tur:"isyan", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","askeri","din","konu-askeri","konu-isyan","konu-din"], yer_id:"", kapsam_genis:true,
   odak_yer:["Amsterdam","Anvers (Antwerpen)","Gent","Utrecht"],
   d:"Habsburg Hollandası'nın on yedi vilâyeti, İspanyol merkezîleşmesine ve engizisyona karşı ayaklandı. Seksen yıl sürecek savaş, Avrupa'nın ilk başarılı bağımsızlık mücadelesi ve ilk büyük cumhuriyetçi devlet kuruluşudur.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): İspanya'ya karşı bağımsızlık mücadelesi anlatısı · Dikkat: GÜN DOĞRULANMADI (yıl damgası)" },
+  gun:"23 Mayıs 1568 (Heiligerlee Muharebesi — savaşın geleneksel başlangıç günü)",
+  kaynak:"TDV `hollanda` (gövdesi okundu): İspanya'ya karşı bağımsızlık mücadelesi anlatısı (yalnız yıl) · gün: Heiligerlee Muharebesi 23 Mayıs 1568, Britannica «Dutch Revolt»; Wikipedia «Battle of Heiligerlee» (ikincil, akademik teyit bekler)" },
 
 { t:"1575-02-08", b:"Leiden Üniversitesi'nin kurulması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", etiket:["bilim","kultur","konu-bilim","konu-kultur","konu-egitim"], yer_id:"", odak_yer:["Rotterdam","Amsterdam"],
   d:"İsyanın en ağır günlerinde, kuşatmaya direnen Leiden'e ödül olarak bir üniversite kuruldu. Şarkiyat ve İslâm araştırmaları da dâhil, kurum kısa sürede Avrupa'nın ilk sıradaki ilim merkezlerinden biri hâline geldi; Grotius bu üniversitenin öğrencisidir.",
