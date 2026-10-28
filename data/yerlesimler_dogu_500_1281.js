@@ -214,9 +214,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0500-01-01",
     "t": "0532-01-01",
-    "d": "__BOSLUK__",
+    "d": "gaya-konfederasyonu",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip gaya-konfederasyonu (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"gaya-konfederasyonu\" geri yazılır) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «金州本駕洛國。» · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «十九年，金官國主金仇亥，與妃及三子，長曰奴宗，仲曰武德，季曰武力，以國帑寶物來降。王禮待之，授位上等，以本國爲食邑。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Gimhae (Geumgwan Gaya) Gaya'da; ufuk işareti 500."
+    "kaynak": "SAHİP BEYANLI: gaya-konfederasyonu (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «金州本駕洛國。» · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «十九年，金官國主金仇亥，與妃及三子，長曰奴宗，仲曰武德，季曰武力，以國帑寶物來降。王禮待之，授位上等，以本國爲食邑。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Gimhae (Geumgwan Gaya) Gaya'da; ufuk işareti 500."
    },
    {
     "f": "0532-01-01",
@@ -275,9 +275,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0500-01-01",
     "t": "0562-01-01",
-    "d": "__BOSLUK__",
+    "d": "gaya-konfederasyonu",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip gaya-konfederasyonu (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"gaya-konfederasyonu\" geri yazılır) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «高靈郡本大伽倻國，自始祖伊珍阿鼓王，至道設智王，凡十六世，五百二十年。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Goryeong (Daegaya) Gaya'da; ufuk işareti 500."
+    "kaynak": "SAHİP BEYANLI: gaya-konfederasyonu (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «高靈郡本大伽倻國，自始祖伊珍阿鼓王，至道設智王，凡十六世，五百二十年。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Goryeong (Daegaya) Gaya'da; ufuk işareti 500."
    },
    {
     "f": "0562-01-01",
@@ -345,9 +345,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0660-08-01",
     "t": "0671-01-01",
-    "d": "__BOSLUK__",
+    "d": "tang",
     "kesinlik": "ay",
-    "kaynak": "BOŞLUK BEYANI: sahip tang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tang\" geri yazılır) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。»"
+    "kaynak": "SAHİP BEYANLI: tang (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。»"
    },
    {
     "f": "0671-01-01",
@@ -406,9 +406,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1270-09-05",
     "t": "1271-06-23",
-    "d": "__BOSLUK__",
+    "d": "sambyeolcho-rejimi",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip sambyeolcho-rejimi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"sambyeolcho-rejimi\" geri yazılır) · Goryeosa j.26 Wonjong 11 — zh.wikisource.org/wiki/高麗史/卷二十六 (okundu): «八月戊辰朔，…丙戌，三別抄入據珍島，侵掠州郡。»"
+    "kaynak": "SAHİP BEYANLI: sambyeolcho-rejimi (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa j.26 Wonjong 11 — zh.wikisource.org/wiki/高麗史/卷二十六 (okundu): «八月戊辰朔，…丙戌，三別抄入據珍島，侵掠州郡。»"
    },
    {
     "f": "1271-06-23",

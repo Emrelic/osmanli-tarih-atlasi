@@ -5570,12 +5570,12 @@ window.DEVLETLER = [
   ]
 },
 { id:"goryeo", ad:"Goryeo Hanedanı (Kore)", tur:"hanedanlik", bolge:"dogu-asya",
-  f:"0918-01-01", t:"1392-08-05", baskent:"Kaesong", harita:"goryeo",
+  f:"0918-07-25", t:"1392-08-05", baskent:"Kaesong", harita:"goryeo",
   ozet:"Kore'yi yeniden birleştiren, adından \"Korea\" adının türediği hanedan; Moğol istilası sonrası vasallık dönemi yaşadı, General Yi Seong-gye'nin darbesiyle sona erdi.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { odak_yer:["Kaesong"], t:"0918-01-01", tur:"kurulus", b:"Wang Geon, Goryeo hanedanını kurdu" },
-    { odak_yer:["Kaesong"], t:"0936-01-01", tur:"birlesme", b:"Taejo, Kyŏn Hwŏn'la birlikte Geç Baekje'yi yenerek Geç Üç Krallık dönemine son verdi ve Kore'yi Goryeo altında birleştirdi (Silla bir yıl önce barışçıl ilhak edilmişti).", kaynak:"https://en.wikipedia.org/wiki/Goryeo ; https://www.britannica.com/topic/Goryeo-dynasty" },
+    { odak_yer:["Kaesong"], t:"0918-07-25", tur:"kurulus", b:"Wang Geon, Goryeo hanedanını kurdu" },
+    { odak_yer:["Kaesong"], t:"0936-09-01", tur:"birlesme", b:"Taejo, Kyŏn Hwŏn'la birlikte Geç Baekje'yi yenerek Geç Üç Krallık dönemine son verdi ve Kore'yi Goryeo altında birleştirdi (Silla bir yıl önce barışçıl ilhak edilmişti).", kaynak:"https://en.wikipedia.org/wiki/Goryeo ; https://www.britannica.com/topic/Goryeo-dynasty" },
     { odak_yer:["Kaesong"], t:"0993-01-01", tur:"isgal", b:"Kitan (Liao) birinci kez Goryeo'ya saldırdı; Seo Hui'nin müzakeresiyle Goryeo Song ile bağını kesip Liao'ya haraç öderken Yalu Nehri'ne kadar toprak kazandı.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «강동육주» https://encykorea.aks.ac.kr/Article/E0001049 — «993년(성종 12) 거란의 제1차 침입을 계기로 고려는 그 숙원을 이루게 되었다» ; https://en.wikipedia.org/wiki/Goryeo%E2%80%93Khitan_War ; https://en.wikipedia.org/wiki/Goryeo" },
     { odak_yer:["Kaesong"], t:"1009-01-01", tur:"siyaset", b:"General Kang Jo darbeyle Kral Mokjong'u öldürüp Hyeonjong'u tahta çıkardı.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «강조의 정변» https://encykorea.aks.ac.kr/Article/E0001385 — «강조가 1009년(목종 12) 목종을 폐위시킨 뒤 살해하고 … 현종을 옹립한 사건이다» ; https://en.wikipedia.org/wiki/Goryeo%E2%80%93Khitan_War ; https://en.wikipedia.org/wiki/Goryeo" },
     { odak_yer:["Kaesong"], t:"1010-01-01", tur:"isgal", b:"Liao ikinci kez saldırıp başkent Kaesong'u yağmaladı; Kral Hyeonjong Naju'ya kaçtı.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «현종» https://encykorea.aks.ac.kr/Article/E0063417 — «제2차 침입은 강조의 정변에서 비롯되어 강조가 패배하자 개경이 함락되고, 현종은 나주(羅州)까지 피난을 가게 되었다» ; https://en.wikipedia.org/wiki/Goryeo%E2%80%93Khitan_War ; https://en.wikipedia.org/wiki/Goryeo" },
@@ -5588,17 +5588,17 @@ window.DEVLETLER = [
     { odak_yer:["Kaesong"], t:"1356-01-01", tur:"toprak-kazanc", b:"Kral Gongmin Yuan yanlısı Gi ailesini tasfiye etti; Yi Seong-gye ve babasının desteğiyle Ssangseong ve Dongnyeong kuzey prefektörlükleri geri alındı.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «반원정치» https://encykorea.aks.ac.kr/Article/E0070276 — «유인우는 이자춘(李子春) … 부자의 호응을 얻어 쌍성총관부를 수복하였다» ; https://en.wikipedia.org/wiki/Gongmin_of_Goryeo ; https://en.wikipedia.org/wiki/Goryeo" },
     { odak_yer:["Kaesong"], t:"1361-01-01", tur:"isgal", b:"Kızıl Sarıklılar Goryeo'yu istila edip Kaesong'u kısa süre ele geçirdi; generaller şehri geri aldı.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «흥왕공신» https://encykorea.aks.ac.kr/Article/E0070272 — «1361년(공민왕 10) 10월 홍건적(紅巾賊)이 제2차 침략을 단행하여 개경이 함락당하자» ; https://en.wikipedia.org/wiki/Gongmin_of_Goryeo ; https://en.wikipedia.org/wiki/Goryeo" },
     { odak_yer:["Kaesong"], t:"1388-06-26", tur:"siyaset", b:"Yi Seong-gye, Ming'e saldırı emriyle gönderildiği Wihwa Adası'ndan ordusunu geri çevirip darbe yaptı (26 Haziran-6 Temmuz); Kral U devrildi.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «위화도회군» https://encykorea.aks.ac.kr/Article/E0041212 — «결국 5월 22일에 이성계는 조민수와 상의한 후 독단으로 회군을 결정하였다» ; https://en.wikipedia.org/wiki/Wihwado_Retreat ; https://en.wikipedia.org/wiki/Goryeo", ic_not_t:"eski t 1388-05-22 kaynağın ay-güneş tarihini (우왕 14년 5월 22일) Batı tarihi gibi yazıyordu. Kaynak Jülyen karşılığı vermiyor ⇒ tabloyla çevrildi: Academia Sinica 兩千年中西曆轉換 (sinocal.sinica.edu.tw): 明洪武21年5月22日 = Jülyen 1388-06-26 (6月8日 = 1388-07-11). Goryeo 1370'ten beri Ming takvimini kullanıyordu. Başlıktaki aralık da çevrildi (5/22–6/3 → 26 Haziran–6 Temmuz). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)" },
-    { odak_yer:["Kaesong"], t:"1392-07-17", tur:"son", b:"General Yi Seong-gye darbeyle tahtı ele geçirip Joseon'u kurdu" }
+    { odak_yer:["Kaesong"], t:"1392-08-05", tur:"son", b:"General Yi Seong-gye darbeyle tahtı ele geçirip Joseon'u kurdu" }
   ]
 ,
   ic_not:"DOGU-500-1281 künye genişletme (kaynaklı dilimlere uyum; t: 1392-07-17 → 1392-08-05; örnek: Gimhae 0936-01-08→1392-08-05 (geç 19 gün))"
 },
 { id:"joseon", ad:"Joseon Hanedanı (Kore)", tur:"hanedanlik", bolge:"dogu-asya",
-  f:"1392-07-17", t:"1910-08-29", baskent:"Hanseong (Seul)", harita:"joseon",
+  f:"1392-08-05", t:"1910-08-29", baskent:"Hanseong (Seul)", harita:"joseon",
   ozet:"Yi Seong-gye'nin kurduğu, Konfüçyüsçülüğü devlet ilkesi yapan, Kral Sejong'un Han alfabesini (hangıl) icat ettirdiği uzun ömürlü hanedan; 1897'de kısa süreliğine \"Kore İmparatorluğu\" adını aldı, Japonya'nın ilhakıyla sona erdi.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { odak_yer:["Seul"], t:"1392-07-17", tur:"kurulus", b:"Yi Seong-gye, Joseon hanedanını kurdu" },
+    { odak_yer:["Seul"], t:"1392-08-05", tur:"kurulus", b:"Yi Seong-gye, Joseon hanedanını kurdu", kaynak:"Joseon Wangjo Sillok, Taejo 1/7/17 (sillok.history.go.kr/id/kaa_10107017_001)", ic_not_takvim:"ay-güneş (Kore) 1392/7/17, gan-zhi 丙申 = Jülyen 1392-08-05; eski değer 1392-07-17 ay-güneş sayısının Jülyen sanılmış hâliydi (KORE-JAPONYA denetimi 27 Ekim 2026)" },
     { odak_yer:["Seul"], t:"1443-01-01", tur:"hukumdar", b:"Kral Sejong, Kore alfabesi hangıl'ı icat ettirdi" },
     { odak_yer:["Seul"], t:"1592-01-01", tur:"savas", b:"Japon Hideyoshi'nin istilası (Imjin Savaşı) başladı (1598'e dek)" },
     { odak_yer:["Seul"], t:"1897-10-12", tur:"hukumdar", b:"Kral Gojong kendini imparator ilan edip \"Kore İmparatorluğu\"nu kurdu" },
@@ -5606,11 +5606,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"kamakura", ad:"Kamakura Şogunluğu (Japonya)", tur:"devlet", bolge:"dogu-asya",
-  f:"1185-01-01", t:"1333-07-04", baskent:"Kamakura", harita:"kamakura",
+  f:"1185-12-22", t:"1333-07-04", baskent:"Kamakura", harita:"kamakura",
   ozet:"Minamoto no Yoritomo'nun kurduğu, Japonya'da askerî şogun idaresinin ilk örneği olan yönetim; iki Moğol istilasını (Kubilay Han) püskürttü ama mâlî çöküşle iç isyanlara yenildi.",
   kaynak:"japonya",
   kronoloji:[
-    { odak_yer:["Kamakura"], t:"1185-01-01", tur:"kurulus", b:"Minamoto no Yoritomo, Genpei Savaşı'nı kazanıp fiilî iktidarı ele geçirdi" },
+    { odak_yer:["Kamakura"], t:"1185-12-22", tur:"kurulus", b:"Minamoto no Yoritomo, Genpei Savaşı'nı kazanıp fiilî iktidarı ele geçirdi" },
     { odak_yer:["Kamakura"], t:"1192-01-01", tur:"hukumdar", b:"İmparatordan resmî \"seii taishogun\" unvanını aldı" },
     { odak_yer:["Kamakura"], t:"1274-01-01", tur:"savas", b:"Birinci Moğol istilası \"kamikaze\" fırtınasıyla püskürtüldü (İkincisi 1281'de)" },
     { odak_yer:["Kamakura"], t:"1333-07-04", tur:"son", b:"Kenmu Restorasyonu ile şogunluk yıkıldı, imparator kısa süreliğine doğrudan iktidara döndü" }
@@ -11086,13 +11086,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"heian-japonya", ad:"Japonya — Heian Dönemi İmparatorluk Sarayı", tur:"imparatorluk", bolge:"dogu-asya",
-  f:"0794-01-01", t:"1185-12-22", baskent:"Heian-kyō (Kyoto)", boya_gerekli:true,
+  f:"0794-11-18", t:"1185-12-22", baskent:"Heian-kyō (Kyoto)", boya_gerekli:true,
   ic_not_f:"TDV japonya, birebir: '794-1185 yılları arasında ise yeni başşehir yapılan Heian’dan (Kyoto) adını alan dönem başladı.' Gün yok.",
   ic_not_t:"1185 = TDV'nin dönem sonu; kamakura künyesi f:1185-01-01 ile bitişik. ⚠️ KİMLİK NOTU: imparatorluk sarayı 1185'te yok olmadı — Kyoto'daki saray Kamakura altında sürdü. Künye bir DÖNEM kimliğidir (kamakura, muromachi, edo-bakufu deseniyle aynı). Kuzey Honshu 1087-1189 arası ayrı: oshu-fujiwara.",
   ozet:"Başkentin Heian'a (Kyoto) taşınmasıyla başlayan, Fujiwara naipliği ve emekli imparatorlar (insei) idaresiyle geçen saray dönemi; Genpei Savaşı'nda Minamoto'nun zaferiyle fiilî iktidar Kamakura'daki askerî hükûmete geçti.",
   kaynak:"TDV: japonya (JAPONYA) — dönem sınırları · Donald H. Shively & William H. McCullough (ed.), The Cambridge History of Japan Vol. 2: Heian Japan (Cambridge UP, 1999). Sayfa verilmedi (bu oturumda açılmadı).",
   kronoloji:[
-    { odak_yer:["Kyoto"], t:"0794-01-01", tur:"kurulus", b:"Başkent Heian'a (Kyoto) taşındı, Heian dönemi başladı", kaynak:"TDV: japonya" },
+    { odak_yer:["Kyoto"], t:"0794-11-18", tur:"kurulus", b:"Başkent Heian'a (Kyoto) taşındı, Heian dönemi başladı", kaynak:"TDV: japonya" },
     { odak_yer:["Kyoto"], t:"0858-01-01", tur:"siyaset", b:"İmparator Seiwa döneminde Fujiwara no Yoshifusa'nın önderliğinde (858-872) Fujiwara hâkimiyeti başladı.", kaynak:"https://en.wikipedia.org/wiki/Heian_period; https://www.britannica.com/topic/Fujiwara-family/Peak-of-Fujiwara-power-and-glory" },
     { odak_yer:["Kyoto"], t:"1016-01-01", tur:"siyaset", b:"Fujiwara no Michinaga iktidarı ele geçirdi, aristokrat naiplik zirveye ulaştı", kaynak:"TDV: japonya" },
     { odak_yer:["Kyoto"], t:"1068-01-01", tur:"siyaset", b:"İmparator Go-Sanjō Fujiwara üstünlüğünü kırdı.", kaynak:"https://en.wikipedia.org/wiki/Heian_period" },
@@ -11100,7 +11100,7 @@ window.DEVLETLER = [
     { odak_yer:["Kyoto"], t:"1156-01-01", tur:"ic-savas", b:"Hōgen Karışıklığı'nda emekli imparator Sutoku, imparator Go-Shirakawa'ya yenildi; Taira no Kiyomori'nin desteklediği taraf kazandı.", kaynak:"https://www.britannica.com/event/Hogen-Disturbance; https://en.wikipedia.org/wiki/Heian_period" },
     { odak_yer:["Kyoto"], t:"1159-01-01", tur:"ic-savas", b:"Heiji Karışıklığı'nda Minamoto yenildi; Yoritomo Izu'ya sürüldü ve Taira hâkimiyeti pekişti.", kaynak:"https://www.britannica.com/event/Heiji-Disturbance; https://www.britannica.com/biography/Minamoto-Yoritomo" },
     { odak_yer:["Kyoto"], t:"1180-01-01", tur:"ic-savas", b:"Prens Mochihito'nun çağrısıyla Minamoto no Yoritomo ayaklandı; Genpei Savaşı (1180-1185) başladı.", kaynak:"https://www.britannica.com/biography/Minamoto-Yoritomo; https://www.britannica.com/topic/Minamoto-family" },
-    { odak_yer:["Kamakura"], t:"1185-01-01", tur:"son", b:"Genpei Savaşı Minamoto zaferiyle bitti, fiilî iktidar Kamakura'ya geçti", kaynak:"TDV: japonya" }
+    { odak_yer:["Kamakura"], t:"1185-12-22", tur:"son", b:"Genpei Savaşı Minamoto zaferiyle bitti, fiilî iktidar Kamakura'ya geçti", kaynak:"TDV: japonya" }
   ]
 ,
   ic_not:"DOGU-500-1281 künye genişletme (kaynaklı dilimlere uyum; t: 1185-01-01 → 1185-12-22; örnek: Kyoto 0794-11-18→1185-12-22 (geç 355 gün))"
@@ -20232,6 +20232,17 @@ window.DEVLETLER = [
     { odak_yer:["Kaifeng"], t:"0954-01-01", tur:"savas", b:"Gaoping Muharebesi: Chai Rong Kuzey Han ve Liao kuvvetlerini yendi.", kaynak:"https://en.osgeo.cn/map/m0505 (yıl; gün bulunamadı)" },
     { odak_yer:["Kaifeng"], t:"0959-07-27", tur:"hukumdar", b:"Chai Rong öldü; yedi yaşındaki oğlu Guo Zongxun tahta geçti.", kaynak:"https://www.wikipedia.com/wiki/Guo_Rong ; https://en.wikipedia.org/wiki/Guo_Zongxun (ikincil)" }
   ] },
+{ id:"gojoseon", ad:"Gojoseon (Eski Joseon)", tur:"krallik", bolge:"dogu-asya",
+  f:"-2332-01-01", t:"-0193-01-01", baskent:"Asadal / Wanggeom (gelenek)", boya_gerekli:true,
+  kesinlik:{f:"yil", t:"yil"},
+  ozet:"Kore'nin geleneksel ilk devleti: Samguk yusa'ya göre MÖ 2333'te Dangun Wanggeom kurdu (arkeolojik dayanağı yok; tarihçiler MÖ 7. yy civarını yeğler); Yan'dan kaçan Wi Man MÖ 194'te iktidarı ele geçirince Wiman Joseon'a dönüştü. f GELENEKTİR, hassasiyet yüzyıl; haritada yerleşim noktası yok.",
+  kaynak:"https://www.worldhistory.org/Gojoseon/ (Samguk yusa geleneği; 2333 MÖ'nin arkeolojik dayanağı olmadığı, 194-180 MÖ Wi Man) — TDV'de müstakil madde bulunamadı; akademik ikinci kaynak bu oturumda açılmadı",
+  ic_not:"KORE-JAPONYA denetimi 27 Ekim 2026: devlet listesi eksiği (wiman-joseon'un öncülü). MÖ 2333 = astronomik -2332. t = wiman-joseon f (-0193, Wi Man darbesi MÖ 194). Harita noktası yazılmadı: kaynaklı tarihli yerleşim bulunmadı.",
+  kronoloji:[
+    { odak_yer:["Pyongyang"], t:"-2332-01-01", tur:"kurulus", b:"Geleneğe göre Dangun Wanggeom Gojoseon'u kurdu (MÖ 2333; efsanevî/gelenek tarihi).", kaynak:"https://www.worldhistory.org/Gojoseon/ (Samguk yusa geleneği)", ic_not:"Gelenek tarihi; arkeolojik dayanak yok, yıl hassasiyeti." },
+    { odak_yer:["Pyongyang"], t:"-0193-01-01", tur:"son", b:"Wi Man, Gojoseon kralı Jun'u devirip iktidarı ele geçirdi (MÖ 194); devlet Wiman Joseon olarak sürdü.", kaynak:"https://www.worldhistory.org/Gojoseon/ ; Britannica 'Wiman' (wiman-joseon künyesindeki kaynakla aynı olay)", ic_not:"Yıl hassasiyeti (kaynak 194-180 MÖ arası verir)." }
+  ]
+},
 { id:"wiman-joseon", ad:"Wiman Joseon", tur:"krallik", bolge:"dogu-asya", f:"-0193-01-01", t:"-0107-01-01", baskent:"Wanggeom", ozet:"Wi Man MO 194'te Gojoseon'da iktidari ele gecirdi; MO 108'de Han fethetti ve dort komanderlik kuruldu.", kaynak:"Met Museum Timeline of Art History (metmuseum.org/toah/ht/04/eak); Vikipedi Wiman Chosŏn (ipucu)", kronoloji:[
     { odak_yer:["Pyongyang"], t:"-0193-01-01", tur:"kurulus", b:"Wi Man, Gojoseon Kralı Jun'u devirip Wanggeom'da iktidarı ele geçirdi (MÖ 194).", kaynak:"Britannica 'Wiman' (britannica.com/biography/Wiman)" },
     { odak_yer:["Pyongyang"], t:"-0108-01-01", tur:"savas", b:"Han İmparatoru Wu, Wiman Joseon üzerine kara ve deniz seferi başlattı (MÖ 109).", kaynak:"Han conquest of Gojoseon (Vikipedi, ikincil; MÖ 109-108 sefer aralığı); Britannica 'Wiman'" },
@@ -20239,29 +20250,29 @@ window.DEVLETLER = [
     { odak_yer:["Pyongyang"], t:"-0107-01-01", tur:"son", b:"Han, Wanggeom'u aldı; Wiman Joseon yıkıldı, yerine dört Han komanderliği (Lelang, Xuantu, Zhenfan, Lintun) kuruldu (MÖ 108).", kaynak:"Britannica 'Wiman' (britannica.com/biography/Wiman)" },
     { odak_yer:["Pyongyang"], t:"-0107-01-01", tur:"siyaset", b:"Nisan ayında üç bakan Han'a teslim olur; ardından Sam bir suikastçıyla Ugeo'yu öldürtüp teslim olur (MÖ 108).", kaynak:"https://en.wikipedia.org/wiki/Sam_of_Gojoseon ; https://en.wikipedia.org/wiki/Wiman_Chos%C5%8Fn" }
   ] },
-{ id:"goguryeo", ad:"Goguryeo Krallığı", tur:"krallik", bolge:"dogu-asya", f:"-0036-01-01", t:"0668-01-01", baskent:"Jolbon → Gungnae → Pyeongyang", ozet:"Gelenege gore MO 37'de kuruldu; modern tarihciler MO 2. yy'da kabile devleti sayar. 668'de Silla-Tang ittifakina yenildi (Brit). f GELENEK, hassasiyet yuzyil.", kaynak:"https://www.britannica.com/topic/Three-Kingdoms-period ; https://www.britannica.com/place/Goguryeo", kronoloji:[
+{ id:"goguryeo", ad:"Goguryeo Krallığı", tur:"krallik", bolge:"dogu-asya", f:"-0036-01-01", t:"0668-10-22", baskent:"Jolbon → Gungnae → Pyeongyang", ozet:"Gelenege gore MO 37'de kuruldu; modern tarihciler MO 2. yy'da kabile devleti sayar. 668'de Silla-Tang ittifakina yenildi (Brit). f GELENEK, hassasiyet yuzyil.", kaynak:"https://www.britannica.com/topic/Three-Kingdoms-period ; https://www.britannica.com/place/Goguryeo", kronoloji:[
     { odak_yer:["Jolbon"], t:"-0036-01-01", tur:"kurulus", b:"Gelenekte Jumong (Dongmyeong) MÖ 37'de Goguryeo'yu kurdu.", kaynak:"https://en.wikipedia.org/wiki/Goguryeo (ikincil; gelenek)" },
     { odak_yer:["Jolbon"], t:"0645-01-01", tur:"savas", b:"Tang İmparatoru Taizong'un seferi Ansi Kalesi'nde durdu; kış yaklaşırken Tang geri çekildi.", kaynak:"https://en.wikipedia.org/wiki/Battle_of_Ansi (ikincil) ; Karwansaray Publishers, A Chinese Invasion of Korea in 645" },
     { odak_yer:["Jolbon"], t:"0666-01-01", tur:"siyaset", b:"Yeon Gaesomun öldü; oğulları arasında iktidar kavgası başladı, Namsaeng Tang'a sığındı.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «삼국통일» https://encykorea.aks.ac.kr/Article/E0026483 — «666년 정권을 잡고 있던 대막리지(大莫離支) 연개소문이 죽고 그 장남 남생(男生)이 대막리지가 되었다» ; https://www.newworldencyclopedia.org/entry/Yeon_Gaesomun" },
     { odak_yer:["Jolbon"], t:"0667-01-01", tur:"toprak-kayip", b:"Tang ve Namsaeng, yıl sonuna dek Yalu'nun kuzeyindeki bütün kaleleri ve toprakları aldı.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «신성» https://encykorea.aks.ac.kr/Article/E0033102 — «667년(보장왕 26) 9월 당나라 장수 이적(李勣)에게 함락되었다» ; https://en.wikipedia.org/wiki/Goguryeo (ikincil) ; https://www.newworldencyclopedia.org/entry/Yeon_Gaesomun" },
-    { odak_yer:["Pyongyang"], t:"0668-01-01", tur:"son", b:"Pyongyang Silla-Tang kuvvetlerine düştü, Kral Bojang esir alındı; Goguryeo sona erdi.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «삼국통일» https://encykorea.aks.ac.kr/Article/E0026483 — «결국 포위된 지 1개월 만인 9월 21일 평양성이 함락되고 보장왕이 항복하니» ; https://en.wikipedia.org/wiki/Siege_of_Pyongyang_(668) (ikincil) ; https://www.newworldencyclopedia.org/entry/Yeon_Gaesomun" }
+    { odak_yer:["Pyongyang"], t:"0668-10-22", tur:"son", b:"Pyongyang Silla-Tang kuvvetlerine düştü, Kral Bojang esir alındı; Goguryeo sona erdi.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «삼국통일» https://encykorea.aks.ac.kr/Article/E0026483 — «결국 포위된 지 1개월 만인 9월 21일 평양성이 함락되고 보장왕이 항복하니» ; https://en.wikipedia.org/wiki/Siege_of_Pyongyang_(668) (ikincil) ; https://www.newworldencyclopedia.org/entry/Yeon_Gaesomun" }
   ] },
-{ id:"baekje", ad:"Baekje Krallığı", tur:"krallik", bolge:"dogu-asya", f:"-0017-01-01", t:"0660-01-01", baskent:"Wiryeseong → Ungjin → Sabi", ozet:"Gelenege gore MO 18'de Onjo kurdu; 660'ta Silla-Tang ittifakina yenildi (Brit). f GELENEK, hassasiyet yuzyil.", kaynak:"https://www.britannica.com/place/Baekje ; https://www.britannica.com/topic/Three-Kingdoms-period", kronoloji:[
+{ id:"baekje", ad:"Baekje Krallığı", tur:"krallik", bolge:"dogu-asya", f:"-0017-01-01", t:"0660-08-01", baskent:"Wiryeseong → Ungjin → Sabi", ozet:"Gelenege gore MO 18'de Onjo kurdu; 660'ta Silla-Tang ittifakina yenildi (Brit). f GELENEK, hassasiyet yuzyil.", kaynak:"https://www.britannica.com/place/Baekje ; https://www.britannica.com/topic/Three-Kingdoms-period", kronoloji:[
     { odak_yer:["Pungnaptoseong (Wiryeseong/Hanseong, Seul)"], t:"-0017-01-01", tur:"kurulus", b:"Onjo, Samguk Sagi geleneğine göre Han Nehri bölgesinde Baekje'yi kurdu (MÖ 18).", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «백제» https://encykorea.aks.ac.kr/Article/E0022355 — «백제(百濟)는 서기전 18년에 부여족(扶餘族) 계통인 온조(溫祚)집단에 의해 … 건국되었다» ; https://www.newworldencyclopedia.org/entry/Baekje_Kingdom ; https://www.worldhistory.org/Baekje/" },
     { odak_yer:["Kongcu"], t:"0475-01-01", tur:"toprak-kayip", b:"Goguryeo Kralı Jangsu başkenti aldı; saray güneye, Ungjin'e (Gongju) taşındı.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «백제» https://encykorea.aks.ac.kr/Article/E0022355 — «한성도읍기(漢城都邑期: 기원전 18∼기원후 475), 웅진도읍기(熊津都邑期: 475∼538)» ; https://www.newworldencyclopedia.org/entry/Baekje_Kingdom ; https://www.worldhistory.org/Baekje/" },
     { odak_yer:["Pungnaptoseong (Wiryeseong/Hanseong, Seul)"], t:"0538-01-01", tur:"baskent", b:"Kral Seong başkenti Sabi'ye (Buyeo) taşıdı.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «백제» https://encykorea.aks.ac.kr/Article/E0022355 — «시가지는 방리제(方里制)에 입각해 정비한 후 538년(성왕 16)에 천도하였다» ; https://www.newworldencyclopedia.org/entry/Baekje_Kingdom ; https://www.worldhistory.org/Baekje/" },
-    { odak_yer:["Pungnaptoseong (Wiryeseong/Hanseong, Seul)"], t:"0660-01-01", tur:"son", b:"Silla-Tang ittifakı Hwangsanbeol'de Gyebaek'i yenip Sabi'yi aldı; Kral Uija esir düştü, Baekje çöktü.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «백제» https://encykorea.aks.ac.kr/Article/E0022355 — «660년에 나당연합군(羅唐聯合軍)에 의해 멸망하였다» ; https://www.newworldencyclopedia.org/entry/Baekje_Kingdom ; https://www.worldhistory.org/Baekje/" }
+    { odak_yer:["Pungnaptoseong (Wiryeseong/Hanseong, Seul)"], t:"0660-08-01", tur:"son", b:"Silla-Tang ittifakı Hwangsanbeol'de Gyebaek'i yenip Sabi'yi aldı; Kral Uija esir düştü, Baekje çöktü.", kaynak:"Encyclopedia of Korean Culture (한국민족문화대백과사전, AKS), «백제» https://encykorea.aks.ac.kr/Article/E0022355 — «660년에 나당연합군(羅唐聯合軍)에 의해 멸망하였다» ; https://www.newworldencyclopedia.org/entry/Baekje_Kingdom ; https://www.worldhistory.org/Baekje/" }
   ] },
-{ id:"silla", ad:"Silla Krallığı (Birlesik Silla dahil)", tur:"krallik", bolge:"dogu-asya", f:"-0056-01-01", t:"0935-01-01", baskent:"Gyeongju", ozet:"Gelenege gore MO 57'de kuruldu; 668'de yarimadayi birlestirdi (676'da Cinlileri cikardi); 935'te Goryeo'ya teslim oldu (Brit). f GELENEK, hassasiyet yuzyil.", kaynak:"https://www.britannica.com/place/Silla ; https://www.britannica.com/place/Korea/Unified-Silla", kronoloji:[
+{ id:"silla", ad:"Silla Krallığı (Birlesik Silla dahil)", tur:"krallik", bolge:"dogu-asya", f:"-0056-01-01", t:"0936-01-08", baskent:"Gyeongju", ozet:"Gelenege gore MO 57'de kuruldu; 668'de yarimadayi birlestirdi (676'da Cinlileri cikardi); 935'te Goryeo'ya teslim oldu (Brit). f GELENEK, hassasiyet yuzyil.", kaynak:"https://www.britannica.com/place/Silla ; https://www.britannica.com/place/Korea/Unified-Silla", kronoloji:[
     { odak_yer:["Kyongcu"], t:"-0056-01-01", tur:"kurulus", b:"Gelenekte Hyeokgeose MÖ 57'de Silla'yı kurdu.", kaynak:"https://en.wikipedia.org/wiki/Silla (ikincil; gelenek)" },
     { odak_yer:["Kyongcu"], t:"0654-01-01", tur:"hukumdar", b:"Taejong Muyeol Silla tahtına çıktı; Tang ile ittifak kurdu, merkezî yönetimi pekiştirdi.", kaynak:"https://www.newworldencyclopedia.org/entry/Muyeol_of_Silla" },
     { odak_yer:["Kyongcu"], t:"0660-01-01", tur:"savas", b:"Silla (Kim Yu-sin) ve Tang birlikte Baekje'yi yok etti.", kaynak:"https://www.worldhistory.org/Baekje/ ; https://www.newworldencyclopedia.org/entry/Muyeol_of_Silla" },
     { odak_yer:["Kyongcu"], t:"0668-01-01", tur:"savas", b:"Munmu ve Kim Yu-sin, Tang ile birlikte Goguryeo'yu yıktı.", kaynak:"https://www.newworldencyclopedia.org/entry/Muyeol_of_Silla ; https://en.wikipedia.org/wiki/Unified_Silla" },
     { odak_yer:["Kyongcu"], t:"0676-01-01", tur:"savas", b:"Silla Tang kuvvetlerini yarımadadan çıkarıp birleşmeyi tamamladı (Birleşik Silla).", kaynak:"https://en.wikipedia.org/wiki/Unified_Silla" },
     { odak_yer:["Kyongcu"], t:"0927-01-01", tur:"siyaset", b:"Geç Baekje'nin Gyeon Hwon'u Gyeongju'ya girip Kral Gyeongae'yi öldürttü, Gyeongsun'u kukla kral yaptı.", kaynak:"https://www.newworldencyclopedia.org/entry/Taejo_of_Goryeo ; https://en.wikipedia.org/wiki/Unified_Silla" },
-    { odak_yer:["Kyongcu"], t:"0935-01-01", tur:"son", b:"Son kral Gyeongsun ülkesini Goryeo kurucusu Wang Geon'a (Taejo) teslim etti.", kaynak:"https://www.newworldencyclopedia.org/entry/Taejo_of_Goryeo" }
+    { odak_yer:["Kyongcu"], t:"0936-01-08", tur:"son", b:"Son kral Gyeongsun ülkesini Goryeo kurucusu Wang Geon'a (Taejo) teslim etti.", kaynak:"https://www.newworldencyclopedia.org/entry/Taejo_of_Goryeo" }
   ] },
-{ id:"yamato", ad:"Yamato Devleti (Kofun)", tur:"devlet", bolge:"dogu-asya", f:"0250-01-01", t:"0710-01-01", baskent:"Yamato (Asuka'ya kadar)", ozet:"Kofun (Tumulus) donemi ~250'den baslar (Brit); Yamato sarayi 710'da Nara'ya tasindi. Hassasiyet yuzyil/onyil.", kaynak:"https://www.britannica.com/event/Tumulus-period ; https://www.britannica.com/place/Japan/The-Nara-period-710-784", kronoloji:[
+{ id:"yamato", ad:"Yamato Devleti (Kofun)", tur:"devlet", bolge:"dogu-asya", f:"0250-01-01", t:"0710-04-13", baskent:"Yamato (Asuka'ya kadar)", ozet:"Kofun (Tumulus) donemi ~250'den baslar (Brit); Yamato sarayi 710'da Nara'ya tasindi. Hassasiyet yuzyil/onyil.", kaynak:"https://www.britannica.com/event/Tumulus-period ; https://www.britannica.com/place/Japan/The-Nara-period-710-784", kronoloji:[
     { odak_yer:["Asuka"], t:"0478-01-01", tur:"siyaset", b:"Wa kralı Bu, Song sarayına mektup gönderip 'Wa kralı' ve Kore'deki altı ülke üzerinde askerî vali unvanını aldı; Song shu kaydı (Bu = Yūryaku özdeşliği varsayımdır).", kaynak:"Song shu (Liu Song tarihi), Wa bölümü; https://en.wikipedia.org/wiki/Five_kings_of_Wa" },
     { odak_yer:["Asuka"], t:"0507-03-03", tur:"hukumdar", b:"Keitai, Yamato soyunda varis kalmayinca ôkimi (kral) oldu; tarih geleneksel kronolojidir, kesin degildir.", kaynak:"https://en.wikipedia.org/wiki/Emperor_Keitai (Nihon Shoki/Kojiki geleneksel tarihi; 'kesin tarih verilemez' notuyla)" },
     { odak_yer:["Asuka"], t:"0527-01-01", tur:"isyan", b:"Tsukushi (Kuzey Kyūshū) valisi Iwai, Yamato'nun Kore seferini engelleyerek isyan etti; ayaklanma 528'e kadar sürüp bastırıldı.", kaynak:"https://en.wikipedia.org/wiki/Iwai_Rebellion (Nihon Shoki atfıyla); https://en.wikipedia.org/wiki/Emperor_Keitai" },
@@ -20272,10 +20283,10 @@ window.DEVLETLER = [
     { odak_yer:["Asuka"], t:"0663-10-04", tur:"savas", b:"Yamato ve Baekje donanması Baekgang (Hakusukinoe) Savaşı'nda Silla-Tang güçlerine yenildi; Yamato Kore işlerinden tamamen çekildi (savaş kameri takvimle 27-28 Ağustos, Jülyen 4-5 Ekim 663).", kaynak:"https://en.wikipedia.org/wiki/Battle_of_Baekgang; Nihon Shoki" },
     { odak_yer:["Asuka"], t:"0672-07-24", tur:"ic-savas", b:"Tenji'nin ölümünün ardından Prens Ōama ile Prens Ōtomo arasında Jinshin Savaşı başladı (24 Temmuz-21 Ağustos 672); Ōama kazanıp Tenmu olarak tahta çıktı.", kaynak:"https://en.wikipedia.org/wiki/Jinshin_War; Nihon Shoki" },
     { odak_yer:["Asuka"], t:"0701-01-01", tur:"siyaset", b:"Tang modelli Taihō Yasası (17 cilt, ceza ve idare hukuku) yürürlüğe girdi; tamamlanış 701/703 kaynaklarda değişir.", kaynak:"https://www.ebsco.com/research-starters/politics-and-government/taiho-code; https://en.wikipedia.org/wiki/Taih%C5%8D_Code" },
-    { odak_yer:["Nara"], t:"0710-01-01", tur:"baskent", b:"Saray Heijō-kyō'ya (Nara) taşındı; Nara dönemi başladı.", kaynak:"https://www.britannica.com/place/Japan/The-Nara-period-710-784 ; https://www.metmuseum.org/toah/hd/asna/hd_asna.htm" }
+    { odak_yer:["Nara"], t:"0710-04-13", tur:"baskent", b:"Saray Heijō-kyō'ya (Nara) taşındı; Nara dönemi başladı.", kaynak:"https://www.britannica.com/place/Japan/The-Nara-period-710-784 ; https://www.metmuseum.org/toah/hd/asna/hd_asna.htm" }
   ] },
-{ id:"nara-japonya", ad:"Japonya - Nara Donemi Imparatorluk Sarayi", tur:"devlet", bolge:"dogu-asya", f:"0710-01-01", t:"0793-12-31", baskent:"Heijo-kyo", ozet:"Brit Nara donemini 710-784 verir (baskent 784'te Nagaoka'ya, 794'te Heian'a tasindi). t, mevcut heian-japonya (f 0794) ile surekliligi icin 793; 784-794 arasi (Nagaoka) icin ayrica karar gerekir.", kaynak:"https://www.britannica.com/place/Japan/The-Nara-period-710-784", kronoloji:[
-    { odak_yer:["Nara"], t:"0710-01-01", tur:"baskent", b:"İmparatoriçe Genmei başkenti Fujiwara-kyo'dan Heijo-kyo'ya (Nara) taşıdı.", kaynak:"https://www.britannica.com/place/Japan/The-Nara-period-710-784" },
+{ id:"nara-japonya", ad:"Japonya - Nara Donemi Imparatorluk Sarayi", tur:"devlet", bolge:"dogu-asya", f:"0710-04-13", t:"0794-11-18", baskent:"Heijo-kyo", ozet:"Brit Nara donemini 710-784 verir (baskent 784'te Nagaoka'ya, 794'te Heian'a tasindi). t, mevcut heian-japonya (f 0794) ile surekliligi icin 793; 784-794 arasi (Nagaoka) icin ayrica karar gerekir.", kaynak:"https://www.britannica.com/place/Japan/The-Nara-period-710-784", kronoloji:[
+    { odak_yer:["Nara"], t:"0710-04-13", tur:"baskent", b:"İmparatoriçe Genmei başkenti Fujiwara-kyo'dan Heijo-kyo'ya (Nara) taşıdı.", kaynak:"https://www.britannica.com/place/Japan/The-Nara-period-710-784" },
     { odak_yer:["Nara"], t:"0712-01-01", tur:"siyaset", b:"Kojiki derlendi; Nihon Shoki 720'de tamamlandı.", kaynak:"https://www.britannica.com/place/Japan/The-Nara-period-710-784" },
     { odak_yer:["Nara"], t:"0720-01-01", tur:"siyaset", b:"Nihon Shoki tamamlandı.", kaynak:"https://www.britannica.com/place/Japan/The-Nara-period-710-784" },
     { odak_yer:["Nara"], t:"0740-01-01", tur:"baskent", b:"Shomu başkenti Nara'dan geçici olarak taşıdı; 745'e kadar başkent değişti.", kaynak:"https://www.britannica.com/place/Japan/The-Nara-period-710-784" },
@@ -20922,18 +20933,18 @@ window.DEVLETLER = [
     { odak_yer:["Xi'an"], t:"0578-06-22", tur:"hukumdar", b:"Yuwen Yun tahta çıktı.", kaynak:"https://www.archontology.org/nations/china/northern_zhou/00_557_581_s.php" },
     { odak_yer:["Xi'an"], t:"0579-04-01", tur:"hukumdar", b:"Yun tahtı bırakıp küçük Yuwen Chan'a devretti.", kaynak:"https://www.archontology.org/nations/china/northern_zhou/00_557_581_s.php" }
   ] },
-{ id:"hubaekje", ad:"Sonraki Baekje (Hubaekje)", tur:"krallik", bolge:"dogu-asya", f:"0892-01-01", t:"0936-01-01", baskent:"Wansan (Jeonju)", ozet:"Gyeon Hwon'un Silla'nın çöküşünde kurduğu devlet (Britannica 892; WHE'de kral ilanı 900 olarak geçer), 936'da Goryeo'ya teslim oldu.", kaynak:"https://www.britannica.com/topic/Later-Paekche ; https://www.britannica.com/topic/Goryeo-dynasty ; https://www.worldhistory.org/Later_Three_Kingdoms_Period/", kronoloji:[
+{ id:"hubaekje", ad:"Sonraki Baekje (Hubaekje)", tur:"krallik", bolge:"dogu-asya", f:"0892-01-01", t:"0936-09-01", baskent:"Wansan (Jeonju)", ozet:"Gyeon Hwon'un Silla'nın çöküşünde kurduğu devlet (Britannica 892; WHE'de kral ilanı 900 olarak geçer), 936'da Goryeo'ya teslim oldu.", kaynak:"https://www.britannica.com/topic/Later-Paekche ; https://www.britannica.com/topic/Goryeo-dynasty ; https://www.worldhistory.org/Later_Three_Kingdoms_Period/", kronoloji:[
     { odak_yer:["Concu"], t:"0900-01-01", tur:"kurulus", b:"Gyeon Hwon Baekje'yi yeniden ilan etti; başkent Wansan (Jeonju).", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" },
     { odak_yer:["Concu"], t:"0920-01-01", tur:"savas", b:"Sonraki Baekje Silla'ya saldırdı (920 ve 924).", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" },
     { odak_yer:["Kyongcu"], t:"0927-01-01", tur:"savas", b:"Sonraki Baekje Gyeongju'yu yağmaladı; Silla kralı intihara zorlandı, Kim Pu kukla kral yapıldı.", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" },
     { odak_yer:["Concu"], t:"0935-01-01", tur:"ic-savas", b:"Silla son kralı Wang Geon'a teslim oldu; Gyeon Hwon Goryeo'ya sığınıp Wang'ı Baekje'ye karşı yönlendirdi.", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" },
-    { odak_yer:["Concu"], t:"0936-01-01", tur:"son", b:"Baekje'de iç savaş; Singom teslim oldu, Gyeon Hwon öldü, Goryeo yarımadayı birleştirdi.", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" }
+    { odak_yer:["Concu"], t:"0936-09-01", tur:"son", b:"Baekje'de iç savaş; Singom teslim oldu, Gyeon Hwon öldü, Goryeo yarımadayı birleştirdi.", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" }
   ] },
-{ id:"taebong", ad:"Sonraki Goguryeo (Majin / Taebong)", tur:"krallik", bolge:"dogu-asya", f:"0901-01-01", t:"0918-01-01", ozet:"Gung Ye'nin 901'de kurduğu, Majin (904) ve Taebong (911) adlarını alan devlet; 918'de Wang Geon Goryeo'yu kurdu.", kaynak:"https://www.britannica.com/topic/Later-Koguryo ; https://www.britannica.com/biography/Wang-Kon", kronoloji:[
+{ id:"taebong", ad:"Sonraki Goguryeo (Majin / Taebong)", tur:"krallik", bolge:"dogu-asya", f:"0901-01-01", t:"0918-07-25", ozet:"Gung Ye'nin 901'de kurduğu, Majin (904) ve Taebong (911) adlarını alan devlet; 918'de Wang Geon Goryeo'yu kurdu.", kaynak:"https://www.britannica.com/topic/Later-Koguryo ; https://www.britannica.com/biography/Wang-Kon", kronoloji:[
     { odak_yer:["Cheorwon"], t:"0901-01-01", tur:"kurulus", b:"Gung Ye kuzeyde Sonraki Goguryeo'yu ilan etti (Songak).", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" },
     { odak_yer:["Cheorwon"], t:"0904-01-01", tur:"siyaset", b:"Devletin adı Majin olarak değiştirildi.", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" },
     { odak_yer:["Cheorwon"], t:"0911-01-01", tur:"siyaset", b:"Devletin adı Taebong olarak değiştirildi.", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" },
-    { odak_yer:["Cheorwon"], t:"0918-01-01", tur:"son", b:"Wang Geon Gung Ye'nin yerine geçip devleti Goryeo adıyla yeniden kurdu, başkenti Songak'a taşıdı.", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" }
+    { odak_yer:["Cheorwon"], t:"0918-07-25", tur:"son", b:"Wang Geon Gung Ye'nin yerine geçip devleti Goryeo adıyla yeniden kurdu, başkenti Songak'a taşıdı.", kaynak:"https://www.worldhistory.org/Later_Three_Kingdoms_Period/" }
   ] },
 { id:"dulefi", ad:"Dülefîler (Delefîler / Dulafidler)", tur:"emirlik", bolge:"iran", f:"0825-01-01", t:"0897-01-01", baskent:"Kerec", ozet:"Cibâl (Merkezî İran) bölgesinde Ebû Dülef el-İclî'nin kurduğu İslâm hânedanı; Ebû Leylâ Hâris'in 284/897 ölümüyle topraklar Abbâsî yönetimine geçti.", kaynak:"https://islamansiklopedisi.org.tr/dulefiler (GET ile doğrulandı) ; https://www.iranicaonline.org/articles/dolafids/", kronoloji:[
     { odak_yer:["Erâk (Sultânâbâd)"], t:"0825-01-01", tur:"kurulus", b:"Abbâsî kumandanı Ebû Dülef Kāsım b. Îsâ el-İclî ile Dülefî hânedanı başlar (hicrî 210); Kerec başşehir.", kaynak:"TDV İslâm Ansiklopedisi, 'Dülefîler' https://islamansiklopedisi.org.tr/dulefiler" },

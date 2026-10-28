@@ -172,7 +172,7 @@ window.KRONOLOJI_CIN = [
   d:"Hongwu, nüfus ve vergiyi onlu hane gruplarıyla (lijia) kayıt altına alan Sarı Kayıtlar sistemini kurdu. Sistem, imparatorluğun köylü tabanını doğrudan denetlemesini sağladı ve iki asır boyunca malî idarenin temeli oldu.",
   kaynak:"The Cambridge History of China, cilt 7 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["ming-hanedani"], t:"1392-07-17", b:"Goryeo çöktü, Joseon Kore kuruldu — Ming'e tâbi", tur:"siyaset",
+{ taraflar:["ming-hanedani"], t:"1392-08-05", b:"Goryeo çöktü, Joseon Kore kuruldu — Ming'e tâbi", tur:"siyaset",
   onem:2, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Kore'de General Yi Seong-gye, Goryeo hanedanını devirip Joseon'u kurdu ve Ming'e haraç ilişkisiyle bağlandı. İlişki, Doğu Asya'nın Sinosentrik haraç düzeninin (tributary system) çekirdek örneklerinden biri oldu.",
