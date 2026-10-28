@@ -1014,7 +1014,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"bulgar-carligi", ad:"İkinci Bulgar İmparatorluğu", tur:"imparatorluk", bolge:"balkanlar",
-  f:"1185-01-01", t:"1396-01-01", baskent:"Tırnova → Vidin", harita:"bulgaristan",
+  f:"1185-01-01", t:"1396-10-01", baskent:"Tırnova → Vidin", harita:"bulgaristan",
   ozet:"Asen hanedanının imparatorluğu (hanedan ömrü); 1185'te Asen kardeşlerin isyanıyla doğdu. TDV Tırnova'nın düşüşünü 1393 verir; 1396 Vidin'in düşüşüdür — devletin son parçası, Niğbolu Haçlı Seferi sonrası ortadan kalktı.",
   kaynak:"bulgaristan",
   kronoloji:[
@@ -1023,7 +1023,7 @@ window.DEVLETLER = [
     { odak_yer:["Tırnova","Vidin"], t:"1371-01-01", tur:"bolunme", b:"İvan Aleksandır'ın ölümüyle devlet Tırnova ve Vidin çarlıklarına bölündü" },
     { odak_yer:["Tırnova"], t:"1393-06-17", tur:"toprak-kayip", b:"Tırnova düştü", kaynak:"TDV İslâm Ansiklopedisi, «Tırnova (Bulgaristan)» https://islamansiklopedisi.org.tr/tirnova--bulgaristan — «şehri tekrar zaptetti (17 Haziran 1393)»", ic_not_t:"eski gün 1393-07-17; 14 Ekim 2026 Emre kararıyla TDV gününe çekildi (TEYIT-KARAR-1014)" },
     { odak_yer:["Niğbolu"], t:"1396-09-25", tur:"savas", b:"Niğbolu'da Haçlı ordusuna galip gelindi" },
-    { odak_yer:["Vidin"], t:"1396-01-01", tur:"son", b:"Vidin'in düşüşüyle Bulgar Çarlığı sona erdi" }
+    { odak_yer:["Vidin"], t:"1396-10-01", tur:"son", b:"Vidin'in düşüşüyle Bulgar Çarlığı sona erdi", kaynak:"TDV vidin (M. Kiel): Niğbolu'dan (25 Eylül 1396) sonra Bayezid Vidin Prensliği'ni kendi imparatorluğuna kattı (ayrı gün verilmiyor)", ic_not_t:"eski gün 1396-01-01 (yıl-başı) Niğbolu savaşından önceye düşüyordu; vidin-carligi künye t=1396-10-01 ile hizalandı, gün TDV'de yok (ay hassasiyeti) (kron-balkan, 29 Eki 2026)" }
   ]
 },
 { id:"bosna-kralligi", ad:"Bosna Krallığı", tur:"krallik", bolge:"balkanlar",

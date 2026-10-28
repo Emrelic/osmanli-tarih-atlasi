@@ -112,7 +112,7 @@ window.KIMLIKLER = {
   // tarafından yazılmış, kimlikler.js'te eksikti).
   "sirbistan-nemanjic": { ad:"Sırbistan Krallığı (Nemanjić Hanedanı)", f:"1217-01-01", t:"1402-01-01", bolge:"balkanlar", esad:["sirbistan"], harita:"sirbistan" },
   "sirp-despotlugu": { ad:"Sırp Despotluğu", f:"1402-01-01", t:"1459-06-20", bolge:"balkanlar", esad:["sirbistan"], harita:"sirbistan" },
-  "bulgar-carligi": { ad:"İkinci Bulgar İmparatorluğu", f:"1185-01-01", t:"1396-01-01", bolge:"balkanlar", esad:["bulgaristan"], harita:"bulgaristan" },
+  "bulgar-carligi": { ad:"İkinci Bulgar İmparatorluğu", f:"1185-01-01", t:"1396-10-01", bolge:"balkanlar", esad:["bulgaristan"], harita:"bulgaristan" },
   "bosna-kralligi": { ad:"Bosna Krallığı", f:"1377-01-01", t:"1463-05-01", bolge:"balkanlar", esad:["bosna"], harita:"bosna" },
   "arnavutluk-iskenderbey": { ad:"Arnavutluk (Kastriota Direnişi)", f:"1443-01-01", t:"1479-01-25", bolge:"balkanlar", esad:["arnavutluk"], harita:"arnavutluk" },
   // Ortaçağ arnavutluk-iskenderbey'den (1443-1479) AYRI, modern ulus-devlet
