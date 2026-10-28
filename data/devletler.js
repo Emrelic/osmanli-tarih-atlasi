@@ -5458,12 +5458,13 @@ window.DEVLETLER = [
     { odak_yer:["Lahor"], t:"1849-03-29", tur:"son", b:"İkinci Anglo-Sih Savaşı sonunda İngilizler Pencap'ı ilhak etti" }
   ]
 },
-{ id:"meysur", ad:"Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)", tur:"sultanlik", bolge:"guney-asya",
-  f:"1761-01-01", t:"1799-05-04", baskent:"Seringapatam (Şrirangapatnam)", harita:"meysur",
+{ id:"meysur", ad:"Meysûr Krallığı/Sultanlığı (Vodeyar 1610-1761; Haydar Ali / Tipu Sultan 1761-1799)", tur:"sultanlik", bolge:"guney-asya",
+  f:"1610-01-01", t:"1799-05-04", baskent:"Seringapatam (Şrirangapatnam)", harita:"meysur",
   ozet:"Haydar Ali'nin Vodeyar hanedanından fiilen devraldığı, oğlu Tipu Sultan döneminde Osmanlı ve Fransa ile ittifak arayan, İngiliz Doğu Hindistan Şirketi'ne karşı dört savaş veren güney Hindistan devleti; Tipu'nun ölümüyle sona erdi. TDV'de ayrıntılı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
-  ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «meysur» başlığı «(1760-1799)» ve «1760 yılında ... Haydar Ali Han Bahadır» yazar; künye f=1761-01-01 (kronoloji 1761 kuruluş). TDV esastır ⇒ f=1760 olmalı; yerleşim dönemleri 1763/1766/1771 sınırlarında olduğundan (Mangalor 1763, Kalikut 1766, Kannûr 1771) dokunulmadı, yalnız yıl farkı borç olarak beyan edilir. Ayrıca Seringapatam ve Meysûr (Mysore) şehirleri 1565-1799 boyunca bu künyeyle boyalı: 1565-1760 Vodeyar/Vijayanagara dönemi için künye YOK (bkz. Vodeyar araştırması).",
+  ic_not:"GUNEY-ASYA-DENETIM-1029 f 1761 → 1610: IGI XVIII «Mysore State» s.177-178: Vodeyar hanedanı 1399'da Dwarka'dan geldi, Raja Wodeyar 1610'da Seringapatam'ı aldı; IGI XXII «Seringapatam»: Haidar 1761'de ele geçirdi ama «always maintained a royal occupant» (IGI XVIII s.181) ⇒ aynı polity sürüyor, künye genişletildi (Vodeyar 1610-1761 + Haidar/Tipu 1761-1799). TDV «meysur» yalnız Haidar dönemini (1760-1799) anar. Vodeyar'ın 1399-1610 Vijayanagara vasallığı künyeye alınmadı. GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «meysur» başlığı «(1760-1799)» ve «1760 yılında ... Haydar Ali Han Bahadır» yazar; künye f=1761-01-01 (kronoloji 1761 kuruluş). TDV esastır ⇒ f=1760 olmalı; yerleşim dönemleri 1763/1766/1771 sınırlarında olduğundan (Mangalor 1763, Kalikut 1766, Kannûr 1771) dokunulmadı, yalnız yıl farkı borç olarak beyan edilir. Ayrıca Seringapatam ve Meysûr (Mysore) şehirleri 1565-1799 boyunca bu künyeyle boyalı: 1565-1760 Vodeyar/Vijayanagara dönemi için künye YOK (bkz. Vodeyar araştırması).",
   kronoloji:[
+    { t:"1610-01-01", tur:"kurulus", b:"Raja Wodeyar Seringapatam'ı Vijayanagara valisinden alıp başkent yaptı (yalnız yıl teyitli; gün teyitsiz)", kaynak:"The Imperial Gazetteer of India, XVIII «Mysore State» (Oxford 1908) s.178: «He contrived in 1610 to gain possession of Seringapatam»; XXII «Seringapatam Town»: Raja of Mysore «made Seringapatam his capital»" },
     { odak_yer:["Seringapatam"], t:"1761-01-01", tur:"kurulus", b:"Haydar Ali, Vodeyar racasından fiilî iktidarı ele geçirdi" },
     { odak_yer:["Seringapatam"], t:"1782-12-07", tur:"hukumdar", b:"Haydar Ali öldü, yerine oğlu Tipu Sultan geçti" },
     { odak_yer:["Seringapatam"], t:"1787-01-01", tur:"antlasma", b:"Tipu Sultan, Osmanlı Sultanı I. Abdülhamid'e elçi göndererek ittifak aradı" },

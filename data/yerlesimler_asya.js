@@ -1432,7 +1432,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Seringapatam (Şrirangapatnam)", tur:"kale", lat:12.4120, lon:76.6940, g:1, k:2,kd:[{f:"1761-01-01",t:"1799-05-04",k:1,m:"Seringapatam (Şrirangapatnam)"}], d:[],
   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
-     {f:"1565-01-26", t:"1799-05-04", d:"meysur"},
+     {f:"1565-01-26", t:"1610-01-01", d:"vijayanagara", kaynak:"IGI XXII «Seringapatam Town» (Oxford 1908): 1495'ten itibaren Vijayanagar kralları'nın doğrudan mülkü, Sri Ranga Rayal valisi; Talikota 1565'ten sonra da vali elinde; IGI XVIII «Mysore State»: Raja Wodeyar 1610'da Seringapatam'ı ele geçirdi, vali Tirumala Raja atıldı. GUNEY-ASYA-DENETIM-1029"},
+     {f:"1610-01-01", t:"1799-05-04", d:"meysur", kaynak:"IGI XVIII «Mysore State» (1908) s.178: «He contrived in 1610 to gain possession of Seringapatam»; Seringapatam Vodeyar başkenti; Haydar Ali «took possession in 1761» ama «always maintained a royal occupant» (aynı polity: künye meysur f=1610); 4 Mayıs 1799 Tipu düştü (IGI XVIII s.183). GUNEY-ASYA-DENETIM-1029"},
      // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
      {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
 
@@ -1440,7 +1441,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Meysûr (Mysore)", tur:"sehir", lat:12.2950, lon:76.6390, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
-     {f:"1565-01-26", t:"1799-05-04", d:"meysur"},
+     {f:"1565-01-26", t:"1610-01-01", d:"vijayanagara", kaynak:"IGI XXII «Seringapatam Town» (Oxford 1908): 1495'ten itibaren Vijayanagar kralları'nın doğrudan mülkü, Sri Ranga Rayal valisi; Talikota 1565'ten sonra da vali elinde; IGI XVIII «Mysore State»: Raja Wodeyar 1610'da Seringapatam'ı ele geçirdi, vali Tirumala Raja atıldı. GUNEY-ASYA-DENETIM-1029"},
+     {f:"1610-01-01", t:"1799-05-04", d:"meysur", kaynak:"IGI XVIII «Mysore State» (1908) s.178: «He contrived in 1610 to gain possession of Seringapatam»; Seringapatam Vodeyar başkenti; Haydar Ali «took possession in 1761» ama «always maintained a royal occupant» (aynı polity: künye meysur f=1610); 4 Mayıs 1799 Tipu düştü (IGI XVIII s.183). GUNEY-ASYA-DENETIM-1029"},
      // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
      {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
 
