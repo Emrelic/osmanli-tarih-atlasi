@@ -649,14 +649,14 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0610-01-01",
     "t": "0757-01-01",
-    "d": "__BOSLUK__",
+    "d": "badami-calukya",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip badami-calukya (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"badami-calukya\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, III: The Classical Age (Bharatiya Vidya Bhavan, Bombay; archive.org classicalage03bhar; açıldı, okundu): «Bhogi-varman (c. 606-610), son of Aja-varman, tried to re-establish the independence of his dynasty, but was overpowered by Pulakesin II, who besieged Banavasi, an event mentioned in his Aihole inscription. The Kadamba dynasty came to an end with the death, probably in battle, of Bhogi-varman and of his son.»; «In the south Pulakesin II besieged and reduced Vanavasi, the capital of the Kadambas»"
    },
    {
     "f": "0757-01-01",
     "t": "0975-01-01",
-    "d": "__BOSLUK__",
+    "d": "rastrakuta",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip rastrakuta (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"rastrakuta\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, IV: The Age of Imperial Kanauj (Bhavan, Bombay 1955; archive.org ageofimperialkan04bhar; açıldı, okundu): «The period of Rashtrakuta ascendancy in the Deccan from about A.D. 753 to 975»; «Dantidurga had defeated Kirtivarman, but had not extinguished his power. The Chalukya emperor retired to Karnatak»; «Krishna bestowed upon him the governorship of Banavasi 12000» | BEYANLI YAKLAŞIKLIK: Banavasi’nin (Karnataka) fiilî geçişi Dantidurga (c. 753) sonrası Krishna I döneminde; yıl onyıl hassasiyetinde."
    },
@@ -780,7 +780,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1070-01-01",
     "t": "1235-01-01",
-    "d": "__BOSLUK__",
+    "d": "polonnaruwa",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip polonnaruwa (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"polonnaruwa\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon»: \"from the Chola yoke about A.D. 1070\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon»: \"The Polonnaruva period of Ceylonese history ends with Magha\" | f=1070 \"about\"; t=c.1235 Magha'nın sonu (ONYIL)."
    },
@@ -816,7 +816,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1160-01-01",
     "t": "1181-01-01",
-    "d": "__BOSLUK__",
+    "d": "kalyani-kalacuri",
     "kesinlik": "yil",
     "kaynak": "BOŞLUK BEYANI: sahip kalyani-kalacuri (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"kalyani-kalacuri\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Later Chalukyas and Kalachuris of Kalyana»: \"ascended the throne of the Deccan in A D. 1156 and occupied Kalyana before A.D. 1160\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Later Chalukyas and Kalachuris of Kalyana»: \"in A.D. 1181-82 Somesvara IV was on the throne of Kalyana\""
    },
@@ -966,7 +966,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0801-01-01",
     "t": "0942-01-01",
-    "d": "__BOSLUK__",
+    "d": "chapa-vardhamana",
     "kesinlik": "yuzyil",
     "kaynak": "BOŞLUK BEYANI: sahip chapa-vardhamana (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"chapa-vardhamana\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Minor Dynasties of Gujarat and Kathiawar: The Chapas»: \"who ruled in the first quarter of the ninth cen\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Minor Dynasties of Gujarat and Kathiawar: The Chapas»: \"was ruling in A.D. 914 as a vassal of the Pratlhara Mahipala I\" | f=801: \"9. yy ilk çeyreği\" (YÜZYIL); Vardhamana'nın (Wadhwan) 783'te anıldığı da Majumdar IV'te: \"Jayavaraha ... ruling in A.D. 783 in the territories of the Sauryas to the west of Vardha\" (783-801 arası sahip yazılmadı)."
    },
@@ -1083,7 +1083,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1243-01-01",
     "t": "1299-01-01",
-    "d": "__BOSLUK__",
+    "d": "vaghela",
     "kesinlik": "yil",
     "kaynak": "BOŞLUK BEYANI: sahip vaghela (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"vaghela\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «The Chaulukyas of Gujarat»: \"testimony of the Jain literature, according to which Virama never occupied the throne and his brother Visala became king in A.D. 1243\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «The Chaulukyas of Gujarat»: \"wrested the whole of Gujarat from Karna\" | BEYANLI YAKLAŞIKLIK: Dholka'ya özgü devir tanığı yok; Vaghela hanedanının kuruluş ve son yılları alındı (1243 Cain geleneği; 1299 V, 1298 ikinci yarı VI)."
    },
@@ -1165,7 +1165,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1153-07-07",
     "t": "1558-01-01",
-    "d": "__BOSLUK__",
+    "d": "maldivler-sultanligi",
     "kesinlik": "gun",
     "kaynak": "BOŞLUK BEYANI: sahip maldivler-sultanligi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"maldivler-sultanligi\" geri yazılır) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"12 Rebîülâhir 548 (7 Temmuz 1153) tarihinde müslüman olmuş ve Muhammed el-Âdil (Siri Bavanaditta Maha Radun) adını almıştır\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 965-981 (1558-1573) yılları arasında Portekiz işgali altında kaldı\" | BEYANLI YAKLAŞIKLIK: TDV adalar için söyler, Malé'ye özgü değil; 1752-53 Malabarlı saldırısı Malé sarayını yıktı ama Maldivliler Fransız yardımıyla geri attı (TDV)."
    },
@@ -1179,7 +1179,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1573-05-03",
     "t": "1968-11-11",
-    "d": "__BOSLUK__",
+    "d": "maldivler-sultanligi",
     "kesinlik": "yil",
     "kaynak": "BOŞLUK BEYANI: sahip maldivler-sultanligi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"maldivler-sultanligi\" geri yazılır) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"981’de (1573) Portekizliler adalardan çıkarıldı ve Muhammed Takurufânu sultan ilân edildi\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 1887’de İngiltere’nin himayesini resmen kabul etti\" | t=1968-11-11: atlas `maldivler-sultanligi` künye t'si (TDV: 1968 referandumla cumhuriyet yeniden ilân edildi, ay-gün yok). BEYANLI YAKLAŞIKLIK: 1887-1965 İngiliz himayesi, 1953-54 kısa cumhuriyet, 1965 bağımsızlık TDV'de anılır; tek `maldivler-sultanligi` kimliğiyle sürdürüldü (künye 'İngiliz himayesi 1887-1965')."
    },
