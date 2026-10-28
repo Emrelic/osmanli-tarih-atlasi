@@ -738,4 +738,11 @@ window.OLAYLAR_EK16 = [
 { t:"1917-09-03", k:"diger", kapsam:"dis", etiket:["isgal","toprak-kazanc","konu-askeri"], b:"Riga Alman 8. Ordusu'nca alındı", gun:"3 Eylül 1917", yer:"Riga", yer_id:"Riga",
   d:"Alman kuvvetleri Daugava'yı aşıp Riga'yı aldı; şehir Kasım 1918'e dek Alman denetiminde kaldı, Letonya bağımsızlığı bu işgal altında ilan edildi (18 Kasım 1918).",
   kaynak:"Ober Ost bağlamı: Vikipedi «Ober Ost», «Lithuania District» — arama özeti [özet]; kesin gün literatür bilgisi, aramada doğrulanamadı [bilgi; teyit bekler]" },
+// ---- KRONOLOJI-BALTIK-RUSYA (29 Ekim 2026): Novgorod 1611-1617 İsveç işgali, Stolbovo
+{ t:"1611-07-16", k:"diger", kapsam:"dis", etiket:["toprak-kayip","konu-askeri"], b:"Novgorod İsveç ordusunca alındı — Sıkıntılar Dönemi'nde Kuzeybatı Rusya İsveç denetimine girdi", gun:"16 Temmuz 1611 (kuşatma 8-17 Temmuz; takvim belirsiz ±10 gün)", yer:"Novgorod", yer_id:"Novgorod",
+  d:"Jacob De la Gardie'nin İsveç ordusu Novgorod'u aldı; kent 1617'ye dek İsveç himayesindeki 'Novgorod Devleti'nin başkenti oldu, Karl Filip çar adayı gösterildi.",
+  kaynak:"Wikipedia «Capture of Novgorod (1611)», «Ingrian War», «Treaty of Stolbovo» — arama özeti [özet]; Jülyen/Gregoryen farkı beyanlı, elle doğrulama bekler" },
+{ t:"1617-02-27", k:"antlasma", kapsam:"dis", etiket:["toprak-kayip","konu-diplomasi"], b:"Stolbovo Antlaşması — Rusya İngermanland'ı İsveç'e bıraktı, Novgorod geri verildi", gun:"27 Şubat 1617", yer:"Novgorod", yer_id:"Novgorod",
+  d:"Rusya, Neva boyunu ve Karelya'nın bir kısmını (Yam, Koporye, Ivangorod, Oreşek) İsveç'e bıraktı ve Baltık kıyısından koptu; İsveç Novgorod'u geri verdi. Bu durum I. Petro'nun Büyük Kuzey Savaşı'na kadar sürdü.",
+  kaynak:"Wikipedia «Capture of Novgorod (1611)», «Ingrian War», «Treaty of Stolbovo» — arama özeti [özet]; Jülyen/Gregoryen farkı beyanlı, elle doğrulama bekler" },
 ];
