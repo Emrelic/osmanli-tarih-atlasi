@@ -86,7 +86,8 @@ window.YERLESIMLER_0EE15E = [
 //         (Lima/Havana ile aynı tier).
 
 { ad:"Panamá (Panama City)", tur:"sehir", lat:8.9824, lon:-79.5199, g:1, k:1, kur:"1519-08-15",
-  s:[{f:"1519-08-15",t:"1821-11-28",d:"ispanyol-peru"},
+  s:[{f:"1519-08-15",t:"1542-11-20",d:"ispanya"},
+     {f:"1542-11-20",t:"1821-11-28",d:"ispanyol-peru"},
      {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
      {f:"1903-11-03",t:"2000-12-31",d:"panama-cumhuriyeti"}] },
