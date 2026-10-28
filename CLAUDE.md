@@ -52,6 +52,15 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
   (`ExitWorktree` `remove`) · arka planda süreç kalmadı. Sonra oturum olduğu gibi bırakılır.
 - Eski koordinatör/işçi/tahta düzeni yalnız Emre `/koordinator-modu ac` derse o oturum için açılır.
 
+## Kısaltmalar
+
+- **`*yyy`** (Emre, 28 Ekim 2026) = **y**apılanlar, **y**apılmakta olanlar, **y**apılacaklar. Emre
+  bunu yazınca o anki işin üç başlıklı kısa durum brifingi verilir; yeni iş başlatılmaz.
+  ① Yapılanlar (`main`de olanlar ile yalnız yerel commit'te olanlar ayrı) ② Yapılmakta olanlar
+  (çalışan oturumlar, kapıda bekleyenler) ③ Yapılacaklar (başlamayanlar, taranmayanlar, Emre'den
+  bekleyen kararlar). Sayı ve kısa commit kodunu yaz, oturumları ölçüp doğrula; bilinmeyen
+  "ölçülmedi" yazılır.
+
 ## Komutlar
 
 Ortamda `python` değil **`py`**.
