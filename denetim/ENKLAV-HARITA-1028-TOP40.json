@@ -1,0 +1,2210 @@
+[
+ {
+  "no": 1,
+  "devlet": "harappa",
+  "f": "-2449-01-01",
+  "t": "-1999-01-01",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Atlasta d:harappa taşıyan yalnız 4 yerleşim var (Harappa, Dholavira, Lothal, Rakhigarhi; hepsi data/yerlesimler_mo_iran_asya.js). Kaynaklara göre Harappa tek kesintisiz bölge/devlet değil, kentler ağıdır; siyasî birlik kanıtı yok. Dolayısıyla 'kopuk parça' tarihte de doğru bir görüntüdür; ancak tek petekle 276 bin km² boyamak motorun yaklaşıklığıdır (devletler.js künyesi zaten 'devlet düzeyi tartışmalı' diyor).",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/hindistan",
+    "ne_okundu": "TDV Hindistan maddesi Tarih bölümü (A. Özcan): Harappa/Mohenjo-Daro/Kalibangan, olgun evre tarihleri; siyasî örgüt ve kesin yayılım BELİRTİLMİYOR (yalnız ilk 100 bin karakter okundu)",
+    "alinti_kisa": "Indus veya Harappa denilen olgun evre yaklaşık MÖ 2300-1700 (özet, TDV)"
+   },
+   {
+    "url": "https://www.worldhistory.org/Indus_Valley_Civilization/",
+    "ne_okundu": "İPUCU düzeyi (tek dayanak değil): tek devlet kanıtı yok, her şehrin kendi yöneticisi olmuş olabilir, saray/tapınak/ordu yok",
+    "alinti_kisa": "merkezî otorite kesin değil"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Indus-civilization",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://whc.unesco.org/en/list/1645",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://iranicaonline.org/articles/indus-civilization",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/indo-civilta-dell_(Enciclopedia-Italiana)/",
+    "neden": "yalnız gezinme metni döndü, gövde yok"
+   },
+   {
+    "url": "https://uen.pressbooks.pub/worldhistory1/chapter/indias-first-major-civilization-the-indus-valley-civilization-2600-bce-1700-bce/",
+    "neden": "HTTP 403"
+   }
+  ],
+  "oneri": "yok (veri). İstenirse sunum kararı: tek-petek dev poligon yerine 'nokta' kipi (renkler.py'de erken/gec-harappa zaten 'nokta' 0.45) -- bu motor/sunum kararıdır, Emre'ye ait.",
+  "olcum": {
+   "no": 1,
+   "devlet": "harappa",
+   "f": "-2449-01-01",
+   "t": "-1999-01-01",
+   "sure_yil": 450.0,
+   "alan_km2": 276861,
+   "uzak_km": 268,
+   "lat": 30.33,
+   "lon": 74.77,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 2,
+  "devlet": "qing-hanedani",
+  "f": "1759-01-01",
+  "t": "1809-01-01",
+  "sinif": "MOTOR-HATASI",
+  "guven": "düşük",
+  "ozet": "Tarihte Doğu Türkistan (Hami, Turfan, Tarim) 1759 itibarıyla Qing'e bağlı ve Gansu ile bitişik. TDV: Turfan 1754-1758 arasında Çin'e ilhak, Kâşgar 1759. Atlasta Hâmi (1697'den Qing), Turfan (1755'ten Qing), Dunhuang (1720'den Qing), Jiayuguan (1644'ten Qing), Zhangye Qing görünüyor; aradaki Gobi/Hexi koridorunda yerleşimsiz boşluk motor kopukluğu yaratıyor olabilir. Veri eksiği tespit edilemedi; ölçülen katmanı (render) görmediğim için kesin değil.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/turfan",
+    "ne_okundu": "TDV Turfan: 1731 Çin egemenliği kabulü, 1754-1758 Çin tarafından ilhak",
+    "alinti_kisa": "Çin tarafından ilhak edildi (1754-1758)"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/turkistan",
+    "ne_okundu": "TDV Türkistan/Doğu Türkistan: Çinlilerin Hami ve Turfan'ı alması (XVIII. yy, tarihsiz), 1759'da Kâşgar işgali",
+    "alinti_kisa": "1759'da ... Kâşgar ve civarını işgal ettiler"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Xinjiang_under_Qing_rule",
+    "ne_okundu": "İPUCU (tek dayanak değil): Hami 1696 civarı Qing'e geçiş (Adle 2003 atfı), Tarım 1759'da barışa kavuşturuldu",
+    "alinti_kisa": "The Tarim Basin was pacified in 1759"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Qing-dynasty",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3454140/view",
+    "neden": "açıldı ama konu dışı (1715 Gas geçidi), Hami/Turfan içermiyor"
+   }
+  ],
+  "oneri": "Veri düzeltmesi önerilmiyor. Ayrıntı: Hâmi (Kumul) s: biçiminde {f:1697,t:1912,qing} yanında ikinci bir {f:1763,t:1864,qing} kaydı var (yerlesimler_asya.js ~2784) -- çakışan/yinelenen dönem, temizlenebilir; kronoloji ölçümü sonrası bakılmalı.",
+  "olcum": {
+   "no": 2,
+   "devlet": "qing-hanedani",
+   "f": "1759-01-01",
+   "t": "1809-01-01",
+   "sure_yil": 50.0,
+   "alan_km2": 1522561,
+   "uzak_km": 165,
+   "lat": 41.56,
+   "lon": 89.76,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {
+    "kazak-hanligi": 5
+   },
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 3,
+  "devlet": "erken-harappa",
+  "f": "-2999-01-01",
+  "t": "-2599-01-01",
+  "sinif": "GERÇEK",
+  "guven": "düşük",
+  "ozet": "Erken Harappa bir siyasî devlet değil arkeolojik dönem/kültür; atlasta d:erken-harappa yalnız 2 yerleşimde (Harappa, Dholavira). Kopuk görüntü, kültür kümesinin doğasıdır. Çelişki: devletler.js künyesi 'haritada boyanmaz (veri-yok)' diyor, ama renkler.py'de boyası tanımlı ('erken-harappa' #a3da8b) ve 276 bin km² olmasa da 174 bin km² boyanıyor.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/hindistan",
+    "ne_okundu": "TDV: erken Indus dönemi (yaklaşık MÖ 5000-2500) tarihleme; siyasî yapı yok",
+    "alinti_kisa": "erken evre yaklaşık MÖ 5000-2500 (özet)"
+   },
+   {
+    "url": "https://www.worldhistory.org/Indus_Valley_Civilization/",
+    "ne_okundu": "İPUCU: Early Harappan c.5500-2800 BCE (kaynaklar arası tarih farkı not edilmiş)",
+    "alinti_kisa": "Early Harappan c. 5500-2800 BCE"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Indus-civilization",
+    "neden": "HTTP 403"
+   }
+  ],
+  "oneri": "yok (veri). Karar notu: künyedeki 'boyanmaz' beyanı ile BOYALAR girdisi tutarsız; hangisinin geçerli olacağı Emre/HAVVA kararı.",
+  "olcum": {
+   "no": 3,
+   "devlet": "erken-harappa",
+   "f": "-2999-01-01",
+   "t": "-2599-01-01",
+   "sure_yil": 400.0,
+   "alan_km2": 174055,
+   "uzak_km": 268,
+   "lat": 30.89,
+   "lon": 73.6,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 4,
+  "devlet": "gec-harappa",
+  "f": "-1899-01-01",
+  "t": "-1599-01-01",
+  "sinif": "GERÇEK",
+  "guven": "düşük",
+  "ozet": "Geç Harappa da arkeolojik dönem/kültür; atlasta d:gec-harappa 3 yerleşimde (Rakhigarhi, Dholavira, Lothal vb.). Parça merkezi Gujarat (23.5N 71.2E); Pencap/Haryana ile arasındaki kopukluk yerleşim kümesi gerçeğiyle uyumlu. Aynı 'boyanmaz' beyanı/BOYALAR tutarsızlığı geçerli.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/hindistan",
+    "ne_okundu": "TDV: uygarlığın MÖ ~1500'de Hint-Aryanlarca istilası/çöküşü (varsayım); siyasî birlik tanımlamıyor",
+    "alinti_kisa": "MÖ 1500 civarı Hint-Aryanlar (özet)"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Indus-civilization",
+    "neden": "HTTP 403"
+   }
+  ],
+  "oneri": "yok (veri).",
+  "olcum": {
+   "no": 4,
+   "devlet": "gec-harappa",
+   "f": "-1899-01-01",
+   "t": "-1599-01-01",
+   "sure_yil": 300.0,
+   "alan_km2": 210056,
+   "uzak_km": 268,
+   "lat": 23.46,
+   "lon": 71.18,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 5,
+  "devlet": "ispanyol-peru",
+  "f": "1612-01-01",
+  "t": "1824-12-09",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parça Yukarı Peru (La Paz/Oruro altiplanosu). Kaynak: Charcas Audiencia'sı (La Paz, Charcas, Potosí, Cochabamba) 1 Ağustos 1776 kraliyet fermanıyla Peru'dan çıkarılıp Río de la Plata Genel Valiliği'ne bağlandı (Trigo O'Connor, Academia Boliviana de la Historia üyesi). Atlasta bu şehirlerin hepsi 1825'e kadar ispanyol-peru; oysa atlasta rio-de-la-plata-valiligi kimliği var. 1810'larda bölge yeniden Lima'ya (Abascal) bağlanıyor -- tarih okunamadı. Kopukluğun doğrudan sebebi (64 km'lik boşluk) bu okumadan kanıtlanamadı; Tiwanaku s:[] vb. boş noktalar olabilir.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://ciencias.org.ar/user/BELGRANO/Trigo.pdf",
+    "ne_okundu": "PDF yerelde çıkarıldı (pypdf): 1 Ağustos 1776 fermanıyla Río de la Plata Valiliği kuruldu; La Paz, Charcas, Potosí, Cochabamba ona eklendi; 1812-13 Belgrano seferi, Abascal Lima valisi",
+    "alinti_kisa": "se anexaron los territorios de La Paz, Charcas, Potosí y Cochabamba"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Upper_Peru",
+    "ne_okundu": "yalnız arama özeti (İPUCU): Abascal bölgeyi Peru'ya geri kattı",
+    "alinti_kisa": "(özet, açılmadı)"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/place/Viceroyalty-of-Peru",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.loc.gov/item/2004052990/",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.encyclopedia.com/.../viceroyalty-peru",
+    "neden": "404 yönlendirmesi"
+   }
+  ],
+  "oneri": "data/yerlesimler_amerika.js: La Paz, Sucre (La Plata/Chuquisaca), Potosí, Cochabamba (Villa de Oropesa), Oruro (San Felipe de Austria) -- s: içindeki {d:'ispanyol-peru'} dönemini 1776-08-01 (Cédula 1 Ağustos 1776; Trigo makalesi) noktasında böl: 1776-08-01 -> [Peru'ya geri dönüş günü YOK/okunamadı; yalnız 'Abascal 1810 sonrası'] d:'rio-de-la-plata-valiligi'; geri dönüş ve 1825-08-06 öncesi ispanyol-peru. Dönüş günü bulunmadan yazma; Oruro kur 1606 olduğundan 1776 bölünmesi onda da geçerli. Önce Değişmez 2 için kronoloji maddesi gerekir.",
+  "olcum": {
+   "no": 5,
+   "devlet": "ispanyol-peru",
+   "f": "1612-01-01",
+   "t": "1824-12-09",
+   "sure_yil": 212.9,
+   "alan_km2": 283291,
+   "uzak_km": 64,
+   "lat": -17.39,
+   "lon": -68.14,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {
+    "ispanya": 18
+   },
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 6,
+  "devlet": "song",
+  "f": "0976-01-01",
+  "t": "1275-01-15",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parça Nanjing çevresi (32.07N 118.97E), ana karadan 77 km kopuk. Atlasta Nanking Song'a ait (0976-1275-03-27), Yangzhou/Hangzhou/Shaoxing Song; fakat arasındaki Hefei, Anqing, Wuhu, Suzhou kayıtlarının s: dönemi 1281'de başlıyor -- Song devrinde sahipsiz, yani petek boşluğu. Tarihte Güney Çin Song'un bitişik topraklarıydı (Song 1279'a dek, Kubilay Song'u sona erdirdi). Song çağı Nanjing ile Hangzhou arasında koridorun Suzhou/Wuhu üzerinden boş olması veri eksiği.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/mogollar",
+    "ne_okundu": "TDV: Kubilay bütün Çin'i ele geçirdi, Song hanedanını sona erdirdi, Yuan'ı kurdu",
+    "alinti_kisa": "nihayet bütün Çin'i ele geçirdi"
+   },
+   {
+    "url": "https://www.worldhistory.org/Song_Dynasty/",
+    "ne_okundu": "İPUCU: Kuzey Song Kaifeng'den birleşik Çin; Jin 1125 işgali; 1127 Gaozong; 1138 Hangzhou başkent",
+    "alinti_kisa": "ruled a largely united China from Kaifeng"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Song-dynasty",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.encyclopedia.com/.../song-sung-dynasty",
+    "neden": "404 yönlendirmesi"
+   }
+  ],
+  "oneri": "data/yerlesimler_asya.js: Hefei (satır ~2072), Anqing, Wuhu, Suzhou -- s: başına Song dönemi ekle: {d:'song'} f: Song'un bu şehri aldığı gün (Güney Tang 975/976 fethi; GÜN YOK, kaynakla bulunmalı), t:1281-01-01'e dek devir zinciri (Song->yuan-hanedani; fethin günü YOK, kaynak aranmalı). Tarih uydurma; önce TDV/Cambridge History of China cilt 5-6 ile gün doğrulansın.",
+  "olcum": {
+   "no": 6,
+   "devlet": "song",
+   "f": "0976-01-01",
+   "t": "1275-01-15",
+   "sure_yil": 299.0,
+   "alan_km2": 168721,
+   "uzak_km": 77,
+   "lat": 32.07,
+   "lon": 118.97,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 7,
+  "devlet": "yuan-hanedani",
+  "f": "1281-01-01",
+  "t": "1368-09-14",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Parça Moğolistan (Gobi, 44.6N 102.4E). Tarihte Moğolistan Yuan'ın bir parçasıydı (Karakurum merkezli Lingbei eyaleti, arama özeti) ve Kubilay Çin'in tamamını aldı (TDV). Atlasta Karakurum/Bulgan/Bayanhongor/Ejin Yuan, ama Çin Seddi kuzeyindeki İç Moğolistan noktalarının Yuan devri s: kaydı yok: Hohhot (kur 1581), Baotou (kur 1809), Olon Süme (s:[] veri-yok), Horinger -- ve Shangdu/Kaiping (Yuan yazlık başkent) atlasta hiç yok (grep boş). Bu yüzden Gobi ile Çin arasında sahipsiz kuşak oluşuyor.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/mogollar",
+    "ne_okundu": "TDV Kubilay bölümü: bütün Çin ele geçirildi, 1264 Hanbalık başkent, Yuan 1368'de Togan-Temür Moğolistan'a çekilene dek",
+    "alinti_kisa": "nihayet bütün Çin'i ele geçirdi"
+   },
+   {
+    "url": "https://www.worldhistory.org/Yuan_Dynasty/",
+    "ne_okundu": "İPUCU: Karakurum Moğolistan'da, başkent Daidu; harita altyazısı Yuan 1271-1368",
+    "alinti_kisa": "Karakorum lay in Mongolia"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Yuan-dynasty",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Lingbei_(Yuan_province)",
+    "neden": "yalnız arama özeti görüldü, açılmadı"
+   }
+  ],
+  "oneri": "data/ içinde Shangdu (Xanadu, ~42.35N 116.18E) ve Yuan devri İç Moğolistan merkezi (ör. Kaiping/Yingchang) yerleşimi YOK; eklenmeli: s:[{d:'yuan-hanedani',f:'1260-01-01' (Shangdu'nun başkent oluşu; gün YOK kaynaktan doğrulanmalı),t:'1368-09-14'}]. Karakurum Yuan dönemi gerçekten 1260-1368 mi kaynakla bakılmalı. Hüküm düşük güvenli: Gobi'nin yerleşimsiz doğası da kopukluğu kısmen açıklar.",
+  "olcum": {
+   "no": 7,
+   "devlet": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "sure_yil": 87.7,
+   "alan_km2": 503519,
+   "uzak_km": 267,
+   "lat": 44.62,
+   "lon": 102.44,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {
+    "ming-hanedani": 2
+   },
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 8,
+  "devlet": "song",
+  "f": "0994-05-16",
+  "t": "1126-09-26",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parça Zhengding (Hebei, 38.1N 114.2E), ana karadan 662 km uzak. Atlasta Zhengding 960-1126-09-26 Song, Kaifeng 960-1127-01-09 Song. Ama arasındaki Hebei/Henan noktaları (Handan, Ye, Daming, Anyang, Yinxu) Song devri için s: taşımıyor: Handan yalnız antik+Wei-Jin kayıtları, Ye ve Daming yalnız MS 1130-1138 Da Qi, Anyang 1281'de başlıyor -- Song koridoru boş. Tarihte Hebei Song'un bitişik toprağıydı (1005 Chanyuan sonrası Liao ile sınır Baigou civarı; Zhengding Song tarafında).",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.worldhistory.org/Song_Dynasty/",
+    "ne_okundu": "İPUCU: Kuzey Song Kaifeng'den yönetildi; Liao ile sınır; 1125-27 Jin kuzeyi aldı",
+    "alinti_kisa": "lost a huge swathe of territory"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Chanyuan_Treaty",
+    "ne_okundu": "yalnız arama özeti (İPUCU): 1005, Baigou nehri sınır",
+    "alinti_kisa": "(özet, açılmadı)"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Song-dynasty",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.ideals.illinois.edu/items/102681",
+    "neden": "HTTP 403"
+   }
+  ],
+  "oneri": "data/yerlesimler_once1281_yt_dogu_gd_asya.js: Handan (satır 12), Ye (16), Daming (29); data/yerlesimler_asya.js: Anyang (~1932), (Yinxu): Song dönemi s: ekle {d:'song', f:<Song'un şehri alış günü: Bei Song 960 sonrası; GÜN YOK, kaynak şart>, t:'1126-09-26' (Jin fethi; Zhengding/Baoding için atlas bu günü kullanıyor, bu şehir için kaynakla doğrula)}. Kaynak akademik (Cambridge History of China cilt 5 / Song shi dilbilgisi) bulunmadan yazma.",
+  "olcum": {
+   "no": 8,
+   "devlet": "song",
+   "f": "0994-05-16",
+   "t": "1126-09-26",
+   "sure_yil": 132.4,
+   "alan_km2": 279460,
+   "uzak_km": 662,
+   "lat": 38.12,
+   "lon": 114.22,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {
+    "liao-hanedani": 18,
+    "jin-hanedani": 42
+   },
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 9,
+  "devlet": "kri",
+  "f": "1281-01-01",
+  "t": "1794-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Atlasta 'kri' dört nokta ile temsil ediliyor (Pukatawagan, Sandy Lake, Winisk, Obedjiwan); Sandy Lake petegi bunlardan biri ve çevresi 1786'dan itibaren ingiliz-kuzey-amerika (HBC postları) ile, öncesi boşlukla çevrili. Kri bir devlet değil bağımsız bantlar topluluğudur ve ülkesi kesintisiz bir yurttur; 'kopukluk' atlasın nokta seyrekliğinden doğuyor, tarihte devlet-eksklavı yok. Sandy Lake'in o devirde Kri mi Ojibwe/Oji-Cree mi olduğu gerçek bir kaynakta DOĞRULANAMADI (yalnız Vikipedi ipucu: Oji-Cree). Hüküm düşük güvenlidir.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://thecanadianencyclopedia.ca/en/article/severn-river",
+    "ne_okundu": "Severn Nehri maddesi: nehir Woodland Cree'nin yurdunun parçası, Körfez-Winnipeg Gölü kürk yolu; Sandy Lake geçmiyor",
+    "alinti_kisa": "Part of the territory inhabited by the Woodland Cree"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Cree (YALNIZ İPUCU)",
+    "ne_okundu": "Kri bantları bağımsız, devlet yok; yurt doğu Quebec'ten kuzey Ontario ve Prairies'e",
+    "alinti_kisa": "Each band remained independent of each other."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Sandy_Lake_First_Nation (YALNIZ İPUCU)",
+    "ne_okundu": "Sandy Lake Oji-Cree bandı, Treaty 5 imzacısı; tarihçe/HBC postu belirtilmemiş",
+    "alinti_kisa": "independent Oji-Cree band government"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.thecanadianencyclopedia.ca/en/article/cree",
+    "neden": "sayfa yalnız gezinti menüsü döndü (JS ile yükleniyor), makale gövdesi gelmedi"
+   },
+   {
+    "url": "https://www.britannica.com/topic/Cree",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.historymuseum.ca/?p=19312",
+    "neden": "HTTP 404"
+   }
+  ],
+  "oneri": "Şimdilik düzeltme önerilmez. Gerekli: (a) Sandy Lake'in 1281-1876 arası aidiyeti için etnotarih kaynağı (Rogers, Handbook of North American Indians c.6 Subarctic: Northern Ojibwa/Cree sınırı; Brown/Ray HBC arşiv çalışmaları) açılsın; (b) Kri'nin tek-devlet olmadığı için ya yurt-poligon (kesintisiz bölge) ya da beyanlı yaklaşıklık seçilsin. Tarih/gün yok, uydurulmadı.",
+  "olcum": {
+   "no": 9,
+   "devlet": "kri",
+   "f": "1281-01-01",
+   "t": "1794-01-01",
+   "sure_yil": 513.0,
+   "alan_km2": 68445,
+   "uzak_km": 224,
+   "lat": 53.01,
+   "lon": -93.28,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {
+    "fransa": 15,
+    "ingiliz-kuzey-amerika": 25
+   },
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 10,
+  "devlet": "kuzey-yuan",
+  "f": "1380-01-01",
+  "t": "1639-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Kuzey Yuan 1368'de Moğolistan'a çekilen Yuan sarayının devamıdır; TDV, Togan-Temür'ün 10 Eylül 1368'de Hanbalık'tan Moğolistan'a çekildiğini ve Kuzey Çin Moğollarının 1691'den itibaren Çin yönetimine girdiğini yazar. Yani Moğolistan platosu bütün olarak Kuzey Yuan yurdudur; aradaki 'boşluk' (Mörön/Bulgan ile Öndörhaan/Kerulen arası, Tuul-Orhun hattı) atlasta orada sahip yazılı nokta olmamasından kaynaklanıyor: Urga ancak 1639'da kuzey-yuan alıyor (aday bitişi 1639 bununla örtüşüyor), Orhun Vadisi, Ordu-Balık, 'Moğolistan' ve Ulan Batur (Tola/Tuul) noktalarının s: alanı boş veya yalnız eski çağ. Toprak komşu devletin değil, boş. Oyrat-Halha rekabeti (15. yy) bu kaynaklarda okunmadı, bu yüzden güven orta.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/mogollar",
+    "ne_okundu": "TDV MOĞOLLAR: Yuan'ın sonu ve Moğolistan'a çekiliş, 1691 Çin yönetimi",
+    "alinti_kisa": "10 Eylül 1368'de Hanbalık'ı terkederek Moğolistan'a çekilmesiyle son buldu"
+   },
+   {
+    "url": "https://www.worldhistory.org/Yuan_Dynasty/",
+    "ne_okundu": "Toghon Temur Karakurum'a çekildi, Kuzey Yuan 1368-1635",
+    "alinti_kisa": "fled to Mongolia and the old, now largely abandoned capital Karakorum"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Yuan-dynasty",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/arama/?q=Kuzey+Yuan",
+    "neden": "arama okundu ama müstakil Kuzey Yuan maddesi yok; TDV 'Moğollar' Kuzey Yuan hanlığını ayrıntılamıyor (1634-35 ve Halha ayrıntısı okunamadı)"
+   }
+  ],
+  "oneri": "Dosya: data/yerlesimler_*.js (Moğolistan noktaları; tam dosya adı grep ile teyit edilmeli). Yerleşimler 'Moğolistan' (46.826,103.056), 'Orhun Vadisi (Ötüken bölgesi)' (47.5567,102.8314), 'Ordu-Balık' (47.414,102.634), 'Ulan Batur (Tola/Tuul vadisi)' (47.9214,106.9055): alan s:, değer {f:\"1368-09-14\", t:\"1691-05-30\", d:\"kuzey-yuan\"} (uçlar mevcut kuzey-yuan künyesiyle aynı; TDV 10 Eylül 1368 diyor, künyedeki 14 Eylül ile 4 günlük fark ic_not'ta beyan edilmeli). Önce Oyrat/Halha dönemleri için ikinci kaynak okunmalı; yerleşimin o devirde bulunup bulunmadığı (Ulan Batur noktası bir çağ-dışı alan adı) kontrol edilmeli, yoksa Karakurum-Bulgan peteklerinin birbirine bağlanması için 'Moğolistan' bölge noktası yeterlidir.",
+  "olcum": {
+   "no": 10,
+   "devlet": "kuzey-yuan",
+   "f": "1380-01-01",
+   "t": "1639-01-01",
+   "sure_yil": 259.0,
+   "alan_km2": 85159,
+   "uzak_km": 267,
+   "lat": 49.36,
+   "lon": 101.7,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 2
+  }
+ },
+ {
+  "no": 11,
+  "devlet": "ispanyol-peru",
+  "f": "1667-01-02",
+  "t": "1816-07-09",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Kuzeybatı Arjantin/Jujuy parçası (Quilmes, Pucará de Tilcara, Rinconada, Tarija) gerçekten İspanyol sömürgesi Tucumán valiliğiydi ve akademik kaynak onu Charcas Audiencia'sı ile Peru valisine bağlı gösteriyor; yani toprak bu devletindir. Kopukluk atlasın veri tutarsızlığından: aradaki Cotagaita ('ispanya', 1570-1825) ve San Pedro de Atacama ('ispanya', 1557-1825) noktaları ispanyol-peru yerine genel 'ispanya' ile etiketli (aday çevresinde ispanya %38), Salta/Jujuy ve Rivadavia/San Antonio de los Cobres noktaları ise 1700'de sahipsiz. Ayrıca Quilmes'in ispanyol-peru dönemi 1816'ya uzanıyor; 1776'dan sonra bölge Río de la Plata valiliğine geçti (bu geçiş gerçek bir kaynakta okunamadı, yalnız Vikipedi ve atlasın kendi künyesi).",
+  "okunan_sayfalar": [
+   {
+    "url": "https://publicaciones.csnat.unt.edu.ar/index.php/mundodeantes/article/download/246/227/1786",
+    "ne_okundu": "Ferrari Bisceglia & Boixadós 2022, Mundo de Antes 16(2): Tucumán valiliği, Calchaquí savaşı, Charcas Real Audiencia'sı ve Peru valisine bağlılık, Jujuy ve Salta'nın İspanyol şehirleri (PDF yerelde metne çevrildi)",
+    "alinti_kisa": "jalonando la comunicación con Charcas, Cuyo, Chile y el Río de la Plata"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Viceroyalty_of_Peru (YALNIZ İPUCU)",
+    "ne_okundu": "1776'da Charcas'ın Río de la Plata'ya katıldığı; Tucumán/Salta/Jujuy geçişi geçmiyor",
+    "alinti_kisa": "created in 1776"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Viceroyalty-of-Peru",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://upo.es/revistas/index.php/americania/article/download/6583/6286/28663",
+    "neden": "HTTP 503"
+   },
+   {
+    "url": "http://countrystudies.us/peru/8.htm",
+    "neden": "ilgili içerik yok (sınır/1776 yok)"
+   }
+  ],
+  "oneri": "(1) data/yerlesimler_a78_amerika.js: 'Cotagaita (Santiago de Cotagaita)' satır ~124, s: {f:\"1570-01-01\",t:\"1825-08-06\",d:\"ispanya\"} dilimi için d \"ispanyol-peru\" (Charcas/Potosí bölgesi) olarak düzeltilmesi ÖNERİLİR ama önce Chichas/Cotagaita'nın Charcas Audiencia sınırında olduğu kaynakla teyit edilmeli; aynı şey 'San Pedro de Atacama' (satır ~1165, ispanya 1557-01-01→1825-08-06). (2) Yıl hassasiyetli 1776 geçişi: Quilmes (Calchaquí Vadisi) satırında ispanyol-peru bitişi 1776 ve sonrası d:\"rio-de-la-plata-valiligi\" olmalı (gün yok; kaynak okunamadı), Tarija/Pucará de Tilcara/Rinconada aynı biçimde. Tarih uydurulmadı.",
+  "olcum": {
+   "no": 11,
+   "devlet": "ispanyol-peru",
+   "f": "1667-01-02",
+   "t": "1816-07-09",
+   "sure_yil": 149.5,
+   "alan_km2": 143933,
+   "uzak_km": 986,
+   "lat": -23.32,
+   "lon": -66.18,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {
+    "ispanya": 38
+   },
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 12,
+  "devlet": "roma-imp",
+  "f": "0106-01-01",
+  "t": "0395-01-17",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Prinkipat döneminde Mısır (Aegyptus) Nil vadisi ve Delta'nın tamamını kapsayan tek bir Roma eyaletiydi; Nil'in güneyi 'Thebaid' ancak 3. yy sonunda ayrıldı. Atlasta ise Roma Mısır'ında yalnız İskenderiye s: dönemi taşıyor; Memphis ahamenis-misir döneminde (-0524..-0401) bitiyor, Uksur ve Feyyum yalnız 1281+ ve Siva yalnız 1281+ ile başlıyor. Bu yüzden İskenderiye peteği çöle taşıyor ve Roma ana karasından (Kyrene/Arabia/Anadolu) boşlukla kopuk görünüyor; tarihte kopukluk yok, eyalet Doğu Akdeniz'de kesintisiz Roma kıyısındaydı.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/6E5EB259356BCA194D5BCFEDBD741D17",
+    "ne_okundu": "CAH cilt: Mısır tek eyalet iken Diocletianus'ta üçe bölündü; Thebaid 3. yy sonunda; vali İskenderiye'de",
+    "alinti_kisa": "subject to the plenipotentiary authority of the Augustal prefect"
+   },
+   {
+    "url": "https://ebsco.com/research-starters/history/aegyptus",
+    "ne_okundu": "MÖ 30'da ilhak, eyalet ekvestrian prefekt yönetimi, İskenderiye başkent",
+    "alinti_kisa": "controlled not by a senatorial governor but by a prefect"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/place/ancient-Egypt/Roman-Egypt",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.livius.org/articles/place/siwa/",
+    "neden": "HTTP 404"
+   },
+   {
+    "url": "https://www.worldhistory.org/Roman_Egypt/",
+    "neden": "açıldı ama batı çöl/Libya sınırı hakkında bilgi yok"
+   }
+  ],
+  "oneri": "Dosya data/yerlesimler_*.js: Roma Mısır'ı için Memphis (29.8495,31.2551, ahamenis-misir -0524..-0401 bitişli satır), Feyyûm (29.309,30.842), Uksur (Luksor, 25.687,32.64) ve Sîva (29.203,25.519) noktalarına s: {f:\"-0026-01-16\", t:\"0395-01-17\", d:\"roma-imp\"} dilimi eklenmeli (uçlar roma-imp künyesiyle; gün komşu değil kendi künyesinden, noktaların o devirde var olduğu ayrıca teyit edilmeli: Memphis, Arsinoe/Krokodilopolis ve Thebai o devirde var; Siva ise ayrıca kaynak ister). Tarih uydurulmadı.",
+  "olcum": {
+   "no": 12,
+   "devlet": "roma-imp",
+   "f": "0106-01-01",
+   "t": "0395-01-17",
+   "sure_yil": 289.0,
+   "alan_km2": 73993,
+   "uzak_km": 301,
+   "lat": 30.35,
+   "lon": 28.16,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 13,
+  "devlet": "tang",
+  "f": "0705-03-03",
+  "t": "0894-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Xin Tangshu coğrafya bölümü (juan 41) Yangzhou'yu (Huainan Dao), Runzhou, Shengzhou/Nanjing (Jiangning), Suzhou ve Hangzhou'yu (Jiangnan Dong Dao) Tang eyaletleri olarak sayar; yani Jiangnan/Aşağı Yangzi tamamen Tang toprağıdır. Atlasta ise yalnız Nanjing 'tang' taşıyor (0620-0902); Yangzhou (ilk s: 0902 yang-wu), Hangzhou (ilk s: 0907 wuyue), Suzhou ve Hefei (1281'e kadar s: yok) Tang dönemi için boş. Böylece Nanjing peteği boş çevrede kopuk görünüyor.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://zh.wikisource.org/wiki/新唐書/卷041",
+    "ne_okundu": "Xin Tangshu juan 41 (地理五): 淮南道 揚州, 江南東道 潤州/昇州/蘇州/杭州 Tang eyaletleri",
+    "alinti_kisa": "揚州廣陵郡，大都督府。本南兗州"
+   },
+   {
+    "url": "https://www.worldhistory.org/Tang_Dynasty/",
+    "ne_okundu": "755 sonrası vali (jiedushi) bağımsızlığı genel olarak; Jiangnan ayrıntısı yok",
+    "alinti_kisa": "Independent warlords now ruled different parts of China"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Tang-dynasty",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/cin--ulke",
+    "neden": "açıldı ama Tang sınırı/Yangzi hakkında bilgi yok"
+   },
+   {
+    "url": "https://ctext.org (Çin Metin Projesi)",
+    "neden": "otomatik erişim yasak notu döndü"
+   }
+  ],
+  "oneri": "Dosya data/yerlesimler_asya.js: (a) 'Yangzhou' (satır ~2007): mevcut s:[{f:\"0902-01-01\",...yang-wu}] öncesine {f:\"0617-12-12\" (tang künyesi), t:\"0902-01-01\", d:\"tang\"} (gün bu noktanın kendi ilhak günü değil künyeden; Yangzhou'nun Tang'a katılış günü okunmadı); (b) 'Hangzhou' (satır ~2026): wuyue 0907-06-01 öncesine {f:\"0617-12-12\", t:\"0907-06-01\", d:\"tang\"} (gün komşudan: wuyue başlangıcı; Qian Liu'nun 893-896 fiilî hakimiyeti Tang unvanı altında ayrıca okunmalı); (c) 'Suzhou' (satır ~2016) ve 'Hefei' (satır ~2072): s: başında tang dilimi (bitiş günü kaynak ister: 'gün yok'). Not: kimi uçlarda bir Tang valisi bağımsızlığı (755 sonrası) vardır; haritada Tang boyası sürdürülecekse beyan eklenmeli.",
+  "olcum": {
+   "no": 13,
+   "devlet": "tang",
+   "f": "0705-03-03",
+   "t": "0894-01-01",
+   "sure_yil": 188.8,
+   "alan_km2": 113003,
+   "uzak_km": 159,
+   "lat": 31.79,
+   "lon": 119.03,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 14,
+  "devlet": "ming-hanedani",
+  "f": "1368-04-01",
+  "t": "1643-10-11",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Ming Shi coğrafya bölümü (juan 42) Lanzhou'yu Lintao Fu'ya, Fengxiang Fu'yu (Baoji ilçesi dahil), Gongchang Fu'yu (Longxi, Qinzhou), Pingliang Fu'yu ve Xining Wei'yi aynı Shaanxi eyaleti içinde sayar; Gansu doğrudan Ming'in kendi bitişik toprağıdır, Shaanxi'ye dayalı. Atlasta Lanzhou, Xining, Zhangye, Yinchuan, Xi'an 'ming-hanedani' taşıyor ama aralarında kalan Fengxiang (Baoji, s: boş) ve Dadiwan (yalnız Neolitik) sahipsiz; Pingliang/Tianshui/Gongchang noktaları hiç yok. Bu yüzden Xi'an ile Lanzhou-Xining arası boş. Yani GERÇEK eksklav değil; harita boşluğu.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://zh.wikisource.org/zh-hant/明史_(四庫全書本)/卷042",
+    "ne_okundu": "Ming Shi 地理三 Shaanxi: 臨洮府 領 蘭州, 鳳翔府 (寳雞), 鞏昌府 (隴西, 秦州), 平涼府, 西寧衛 (陜西行都司)",
+    "alinti_kisa": "領州一縣七東距布政司三百四十里 (鳳翔府)"
+   },
+   {
+    "url": "https://zh.wikisource.org/zh-hant/明史_(四庫全書本)/卷040",
+    "ne_okundu": "Ming sınırı: geç dönemde batıda Jiayuguan'a kadar",
+    "alinti_kisa": "則東起遼海西至嘉峪南至瓊崖北扺雲朔"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Ming-dynasty",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.worldhistory.org/Ming_Dynasty/",
+    "ne_okundu_not": "açıldı, Gansu/Lanzhou içermiyor"
+   },
+   {
+    "url": "https://ctext.org/wiki.pl?if=gb&chapter=237473",
+    "neden": "otomatik erişim yasak notu"
+   }
+  ],
+  "oneri": "Dosya data/yerlesimler_odak_yedek_1023.js, 'Fengxiang (Baoji)' (satır 140, s:[] boş): s:[{f:\"1368-04-01\", t:\"1643-10-11\", d:\"ming-hanedani\"}] (uçlar Xi'an'ın mevcut ming dilimiyle aynı; Fengxiang'ın kendi kaynaklı günü yok: 'gün yok'). Ayrıca Pingliang, Tianshui/Qinzhou (Gongchang Fu) ve Lintao için yeni yerleşim (mükerrer + 3 km taraması sonrası) ve Ming dilimi önerilir; Dadiwan Neolitik alan olduğundan Ming'e verilmez. Xining'in atlastaki t:1636 ile Lanzhou t:1644-10-01 arasındaki uç tutarsızlığı da ayrıca bakılmalı.",
+  "olcum": {
+   "no": 14,
+   "devlet": "ming-hanedani",
+   "f": "1368-04-01",
+   "t": "1643-10-11",
+   "sure_yil": 275.5,
+   "alan_km2": 77323,
+   "uzak_km": 165,
+   "lat": 36.42,
+   "lon": 103.0,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 15,
+  "devlet": "portekiz-brezilyasi",
+  "f": "1669-01-01",
+  "t": "1754-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Maranhão-Grão-Pará bloğu (Belém, São Luís, Cametá) 1621-1772 arası Estado do Brasil'den ayrı bir Portekiz devleti yönetimiydi ve Chambouleyron, ayrımı Ceará ile Maranhão kaptanlığı arasındaki deniz ve kara ulaşım güçlüğüne dayandırıyor. Ancak iki blok arasındaki kıyı (Ceará, Rio Grande, Paraíba) Portekiz idaresindeydi, çevrede başka bir devlet yok. Atlasta Fortaleza, Natal, Paraíba/João Pessoa ve Recife yok (yalnız Olinda var), Oeiras (Piauí) ve iç Maranhão/Pará noktaları 1753-1757 sonrası kuruluşlu; bu yüzden aradaki toprak boş. Kopukluk yönetsel olarak gerçek (iki ayrı eyalet), haritada ise veri eksiği. Kıyı şeridinin sürekliliği gerçek bir kaynakta doğrudan okunmadı; orta güven.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.redalyc.org/journal/5940/594063296013/594063296013.pdf",
+    "ne_okundu": "Chambouleyron 2019, Esboços 26(41): Maranhão ile Brasil iki bağımsız idari birim; bölünme 1621, uygulama 1626; Ceará-Maranhão kara/deniz güçlüğü; doğu sınırı Piauí'ye genişliyor (PDF yerelde metne çevrildi)",
+    "alinti_kisa": "dificuldades de navegação e travessia por terra entre o Ceará e a capitania do Maranhão"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Estado_do_Maranhão_e_Grão-Pará (YALNIZ İPUCU)",
+    "ne_okundu": "1621, 1654, 1751, 1772 tarihleri; Ceará 1656'da Brasil'e dönüyor",
+    "alinti_kisa": "governo distinto e separado do Brasil"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/place/Maranhao",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://periodicos.ufpa.br/index.php/ncn/article/download/8811/7509",
+    "neden": "sertifika hatası"
+   },
+   {
+    "url": "https://old.scielo.br/pdf/rbh/v31n61/a16v31n61.pdf",
+    "neden": "sertifika hatası"
+   },
+   {
+    "url": "http://countrystudies.us/brazil/8.htm",
+    "neden": "Maranhão-Grão-Pará içeriği yok"
+   }
+  ],
+  "oneri": "Dosya data/yerlesimler_*.js: yeni yerleşimler Fortaleza, Natal, Paraíba (João Pessoa/Filipeia), Recife; her biri mükerrer taraması (ad+3 km) sonrası s: {d:\"portekiz-brezilyasi\", f:<kuruluş/Portekiz ele geçirişi, gün kaynak ister>, t:\"1822-09-07\"}. Bu üçü için kuruluş günleri bu oturumda gerçek kaynakta okunmadı, 'gün yok' (uydurma yok). Ayrıca Oeiras (Piauí, data/yerlesimler_*.js) s: yok; Piauí fethi ayrıca incelenmeli.",
+  "olcum": {
+   "no": 15,
+   "devlet": "portekiz-brezilyasi",
+   "f": "1669-01-01",
+   "t": "1754-01-01",
+   "sure_yil": 85.0,
+   "alan_km2": 248215,
+   "uzak_km": 201,
+   "lat": -2.84,
+   "lon": -47.36,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 16,
+  "devlet": "harappa",
+  "f": "-2549-01-01",
+  "t": "-2449-01-01",
+  "sinif": "GERÇEK",
+  "guven": "orta",
+  "ozet": "Harappa uygarlığı kesintisiz bir bölge devleti değil, standart ölçülere göre kurulmuş şehirler ağıdır (Dholavira ve Lothal Harappa/Mohenjo-daro ile aynı modelde; her şehrin kendi yöneticisi; saray, kraliyet mezarı, ordu belirgin değil). Dholavira (Kutch/Gujarat) bu ağın Harappa-Rakhigarhi çekirdeğinden kopuk, uzak bir şehridir; dolayısıyla 'kopuk parça' tarihe uygun: devlet değil yerleşim kümesi. Ancak atlasta Mohenjo-daro ve Sind şehirleri yok (veri eksiği), Lothal ancak -2449'da başlıyor. Dönem ucu: Dholavira atlasta -2599 (erken-harappa sonrası) ve ağın olgun evresi kaynaklara göre 2600-1900 MÖ.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.worldhistory.org/Indus_Valley_Civilization/",
+    "ne_okundu": "Ağ yapısı, Dholavira ve Lothal'ın aynı modelle kurulması, şehir başına yönetici, saray/ordu yok; olgun evre 2600-1900 MÖ",
+    "alinti_kisa": "built according to the same models"
+   },
+   {
+    "url": "https://www.worldhistory.org/Harappa/",
+    "ne_okundu": "Harappa Pencap'ta; kültürel ve siyasi varlık, devlet hükmü verilmiyor",
+    "alinti_kisa": "a cultural and political entity"
+   },
+   {
+    "url": "https://sk.sagepub.com/ency/edvol/embed/anthropology/chpt/mohenjo-daro",
+    "ne_okundu": "Yalnız giriş: Mohenjo-daro Indus uygarlığının en ünlü sitesi, 2600-1900 MÖ (sayfa kesik, merkez/hub bölümü okunamadı)",
+    "alinti_kisa": "2600–1900 BC"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Indus-civilization",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://whc.unesco.org/en/list/1645/",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.harappa.com/content/harappan-state-was-it-or-wasnt-it",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "Sage Mohenjo-daro maddesinin hub/şehir-devlet bölümü",
+    "neden": "sayfa kesik geldi"
+   }
+  ],
+  "oneri": "Harita doğru; devletler.js 'harappa' künyesi zaten 'tartışmalı devlet düzeyi' diye beyanlı. İsteğe bağlı: Mohenjo-daro ve Ganweriwala/Kalibangan noktaları yerleşim olarak eklenebilir (kaynak: UNESCO/Kenoyer, bu oturumda okunamadı); tarih yok.",
+  "olcum": {
+   "no": 16,
+   "devlet": "harappa",
+   "f": "-2549-01-01",
+   "t": "-2449-01-01",
+   "sure_yil": 100.0,
+   "alan_km2": 210056,
+   "uzak_km": 268,
+   "lat": 23.46,
+   "lon": 71.18,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 17,
+  "devlet": "harappa",
+  "f": "-1999-01-01",
+  "t": "-1899-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parca Kutch/Gujarat'taki Dholavira-Lothal petegidir. Britannica 'Indus civilization': tek devlet mi iki devlet mi tek imparatorluk mu belli degil; guney (Kathiawar) bolgesi daha gec kokenli. Yani 'harappa' bir devlet degil, yerlesim kumesi/kultur alanidir; Gujarat ile Pencap cekirdegi arkeolojik olarak ayni kulturdur ama kesintisiz bir devlet toprağı kanitlanmaz. Atlasta Harappa/Dholavira/Lothal/Rakhigarhi disinda Harappa noktasi yok (Mohenjo-daro, Kalibangan vb. arasi nokta yok) ve aradaki sahasi bos kaliyor.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.britannica.com/topic/Indus-civilization",
+    "ne_okundu": "Toplum/siyasi sistem, cografya, gerileme",
+    "alinti_kisa": "two large states or in a single great empire with alternative capitals"
+   },
+   {
+    "url": "https://www.britannica.com/place/Dholavira",
+    "ne_okundu": "Dholavira Kachchh'ta, en buyuk Harappa yerlesimlerinden, MO 3. binyil ortasi",
+    "alinti_kisa": "among the largest Harappan settlements so far identified"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://whc.unesco.org/en/list/1645/",
+    "neden": "WebFetch 403"
+   },
+   {
+    "url": "https://www.harappa.com/arch/indus.html",
+    "neden": "WebFetch 403"
+   },
+   {
+    "url": "https://iranicaonline.org/articles/indus-civilization",
+    "neden": "WebFetch 403"
+   },
+   {
+    "url": "https://www.livius.org/articles/place/lothal/",
+    "neden": "404"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/indo-civilta-dell_(Enciclopedia-Italiana)/",
+    "neden": "sayfa govdesi gelmedi (yalniz gezinti)"
+   }
+  ],
+  "oneri": "Dosya data/yerlesimler_mo_iran_asya.js: Harappa/Dholavira/Lothal/Rakhigarhi arasi Harappa donemi (-2599..-1899) bos; Mohenjo-daro, Kalibangan gibi yerlesimler atlasta yok (grep: 0 sonuc). Eklenecekse her biri icin kur/bit ve s:[{d:'harappa'}] kaynakli yazilmali; bu turda ilgili kaynak sayfasi (Britannica Mohenjo-daro/Kalibangan) tarih icin yetersiz okundu -> TARIH YOK, uydurulmadi. Ayrica kunye notu: 'harappa' devlet degil kultur alani (ic_not'a beyan).",
+  "olcum": {
+   "no": 17,
+   "devlet": "harappa",
+   "f": "-1999-01-01",
+   "t": "-1899-01-01",
+   "sure_yil": 100.0,
+   "alan_km2": 210056,
+   "uzak_km": 268,
+   "lat": 23.46,
+   "lon": 71.18,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 18,
+  "devlet": "habesistan",
+  "f": "1281-01-01",
+  "t": "1894-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yuksek",
+  "ozet": "Parca (6.14N 36.92E) Gamo/Arba Minch bolgesidir; atlasta 'Arba Minc' (ve 'Cinka') yerlesimleri 1281'den 1936'ya kadar habesistan yazili. Aradaki Kaffa/Cimma/Vollayta krallıkları ise atlasta kendi kimlikleriyle ve Habes disi. Britannica Menilek II: Habes devleti guneyde 'daha once hic kendi hakimiyetinde olmayan' alanlara 1890'larda genisledi; Kefa, Jima ve guneyin birçok krallığı Menilek doneminde katildi. TDV Cimma: Habes fethi 1891-1900. Yani Gamo 1894 oncesi Habes toprağı degil; kopukluk veri hatasi (atlasin kendi notu da Gamo/Konso/Hadiya'ya kimlik yok diyor).",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.britannica.com/biography/Menilek-II",
+    "ne_okundu": "Menilek'in guney seferleri, Kefa/Jima ve guney krallıklarının katilimi",
+    "alinti_kisa": "areas never before under its rule"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/cimma",
+    "ne_okundu": "Cimma: Habes fethi 1891-1900, ozerk kral",
+    "alinti_kisa": "Ethiopian conquest of the region 1891–1900 (ozet)"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/habesistan",
+    "ne_okundu": "Yalniz 'bk. ETIYOPYA' yonlendirmesi (icerik yok)",
+    "alinti_kisa": "bk. ETİYOPYA"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/etiyopya",
+    "ne_okundu": "Guney fetihleri anilmiyor; sadece 1889 Menilek, 1890 Addis Ababa",
+    "alinti_kisa": "Adisababa'yı başşehir yaptı (1890)"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Gamo_people",
+    "neden": "Gamo fethi yili yok (ayrica Vikipedi tek dayanak olamaz)"
+   },
+   {
+    "url": "Gamo fetih yili icin kaynak",
+    "neden": "bulunamadi; Gamo'nun katilis gunu OKUNAMADI"
+   }
+  ],
+  "oneri": "data/yerlesimler_h2_afrika.js: 'Arba Minç' (satir ~476) ve 'Cinka' (satir ~1029) s[0] = {f:'1281-01-01',t:'1936-06-01',d:'habesistan'} -> 1281..(Gamo fetih tarihi, KAYNAK GUN YOK) icin non-Habes sahip: ya yeni 'gamo' kunyesi (devletler.js + renkler.py BOYALAR) ya da d:'__BOSLUK__' + 'ABI MERKEZ' beyani; ardindan habesistan. t degerini kaynaksiz doldurma. Not: 'Cinka' enlemi 6.783 supheli (Jinka ~5.78N?) - okunmadi, dogrulanmadi.",
+  "olcum": {
+   "no": 18,
+   "devlet": "habesistan",
+   "f": "1281-01-01",
+   "t": "1894-01-01",
+   "sure_yil": 613.0,
+   "alan_km2": 32459,
+   "uzak_km": 11,
+   "lat": 6.14,
+   "lon": 36.92,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "kaffa": 100,
+    "cimma": 100
+   },
+   "cevre": {
+    "kaffa": 18,
+    "vollayta": 17,
+    "cimma": 8
+   },
+   "kor_pct_min": 100,
+   "kor_pct_max": 100,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 19,
+  "devlet": "kanem-bornu",
+  "f": "1577-01-01",
+  "t": "1809-01-01",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Parca Kanem (Mao, Cad Golu kuzeydogusu). TDV Bornu: Idris Aloma Kanem'i fethedip kendi yonetimine kattı; Britannica Kanem-Bornu: Kanem 16. yy basinda geri alindi, baskent Cad Golu batisinda kaldi. Yani Bornu cekirdegi ile Kanem Cad Golu uzerinden komsu, tarihte kopuk degil; arada olan Cad Golu suyu ve kiyisi (atlasta nokta yok) -> motor bos birakiyor (koridorun %97'si sahipsiz). Bir de Nguigmi (golun kuzeybatisi) atlasta kanem-tubu yazili. Not: Kanem'in dogrudan degil Bilala vassali yonetimiyle (Vikipedi ipucu, kaynak okunmadi) bagimliligi olabilir.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/bornu",
+    "ne_okundu": "Idris Aloma, Kanem'in fethi, 1808-09 Fulani cihadi",
+    "alinti_kisa": "Kanem'i fethedip kendi hakimiyetine kattı (ozet)"
+   },
+   {
+    "url": "https://www.britannica.com/place/Kanem-Bornu",
+    "ne_okundu": "Bulala Kanem'i terk ettirdi, baskent Ngazargamu, Kanem 16. yy basi geri alindi",
+    "alinti_kisa": "even after Kanem was retaken in the early 16th century"
+   },
+   {
+    "url": "https://www.britannica.com/place/Chad/History",
+    "ne_okundu": "Ouaddai 18. yy'da dogu Kanem'i fethetti",
+    "alinti_kisa": "extend its territories by the conquest of eastern Kanem"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Kanem%E2%80%93Bornu_Empire",
+    "neden": "yalniz ipucu; Bilala vassalligi/1630 Wadai iddiasi akademik kaynakla dogrulanmadi"
+   }
+  ],
+  "oneri": "Dosya data/yerlesimler_afrika2.js 'Nguigmi' (satir 308): kanem-tubu 1281-1913 -> Kanem-Bornu mu Teda-Daza mi kaynaksiz, DOKUNMA; ayrica 'Mao (Kanem)' (yerlesimler_e9353f.js 297) 1281-1902 kanem-bornu yazili - 1630 sonrasi Wadai/Bilala durumu icin kaynak okunamadi, TARIH YOK. Motor: Cad Golu kiyi sahasi icin bos petek emilimi sorgulansin.",
+  "olcum": {
+   "no": 19,
+   "devlet": "kanem-bornu",
+   "f": "1577-01-01",
+   "t": "1809-01-01",
+   "sure_yil": 232.0,
+   "alan_km2": 74622,
+   "uzak_km": 318,
+   "lat": 14.28,
+   "lon": 15.59,
+   "sinif": "KARA-BOS",
+   "koridor": {
+    "kanem-tubu": 3
+   },
+   "cevre": {
+    "kanem-tubu": 35,
+    "bagirmi": 7
+   },
+   "kor_pct_min": 3,
+   "kor_pct_max": 3,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 20,
+  "devlet": "fransa-cumhuriyet",
+  "f": "1903-01-01",
+  "t": "1913-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parca Ubangi-Sari/Orta Kongo/Gabon (Fransiz Ekvator Afrikasi cekirdegi). Britannica Cad: Rabih 1900'de yenildi, Fransiz himayesi; Cad 1910'da AEF'e katildi. Fransiz Cad toprağı (Massenya, Fort-Archambault/Sarh) ile Ubangi-Sari bitisikti. Atlasta Sarh (9.15N 18.39E) ile Kaga-Bandoro (6.98N 19.19E) arasi ~250 km, aradaki Moundou 1923'te kur'lu, bu araya nokta yok -> kopukluk ve koridorun kanem-tubu petegine emilmesi. Tarihte parca ile Cad bitisik.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.britannica.com/place/Chad/History",
+    "ne_okundu": "Rabih 1900, Cad AEF'e 1910",
+    "alinti_kisa": "Chad became part of the federation of French Equatorial Africa in 1910"
+   },
+   {
+    "url": "https://www.britannica.com/place/French-Equatorial-Africa",
+    "ne_okundu": "AEF 1910-1959, Cad 1920'de Ubangi-Sari'ye eklenmis",
+    "alinti_kisa": "to which Chad had been attached in 1920"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "Ubangi-Sari ile Cad sinir/koridor ayrintisi",
+    "neden": "Sarh-Fort-Crampel hattini kapsayan kaynak sayfasi okunmadi; kisim kesin degil"
+   }
+  ],
+  "oneri": "Dosya data/yerlesimler_afrika2.js (veya CAR dosyasi): Sarh ile Kaga-Bandoro arasina Fransiz noktasi (ornegin Fort-de-Possel/Sibut civari) eklenmesi gerekir; KAYNAK GUNU YOK, eklenmeden once kaynak aranmali. Gecici: hicbir tarih yazma.",
+  "olcum": {
+   "no": 20,
+   "devlet": "fransa-cumhuriyet",
+   "f": "1903-01-01",
+   "t": "1913-01-01",
+   "sure_yil": 10.0,
+   "alan_km2": 1662741,
+   "uzak_km": 244,
+   "lat": 4.36,
+   "lon": 16.11,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "kanem-tubu": 100,
+    "ingiltere": 21
+   },
+   "cevre": {
+    "belcika": 18,
+    "almanya": 20,
+    "darul-kuti": 13,
+    "kanem-tubu": 12
+   },
+   "kor_pct_min": 95,
+   "kor_pct_max": 100,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 21,
+  "devlet": "sibir-hanligi",
+  "f": "1430-01-01",
+  "t": "1598-08-20",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parca 'Baraba bozkiri' (55.2N 78.5E) peteğidir; ana kara Tura-Tobol-Isim ve Irtis cevresi. TDV Sibir Hanligi: hanlik Tura, Tobol, Isim nehirleri ve Irtis cevresi ile Baraba bozkirlarini kapsiyordu -> tarihte bitisik. Aradaki Isim-Irtis bozkirinda atlasta nokta yok (Tara 1594 kurulus, Omsk 1716 kur'lu, ikisi 'bos'), Kazak hanligi noktalari guneyde. Kopukluk veri eksigi.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/sibir-hanligi",
+    "ne_okundu": "Hanlik sinirlari ve tarihi, Kucum 1563, Yermak 1581",
+    "alinti_kisa": "Baraba bozkırları (hanlık sahasi, ozet)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Khanate_of_Sibir",
+    "ne_okundu": "Yalniz ipucu: 1598 Ob yenilgisi, kuzey siniri Ob",
+    "alinti_kisa": "(ipucu)"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/place/Khanate-of-Sibir",
+    "neden": "WebFetch 403; tarayicidan /place/Sibir 404"
+   }
+  ],
+  "oneri": "Dosya data/yerlesimler_ek10.js: 'Baraba bozkırı' (satir 95) dogru (altinorda->sibir-hanligi 1430-01-01..1598-08-20). Eksik: Irtis/Isim bozkiri icin bolge noktasi (ornegin 'Isim bozkiri', ~56N 70-72E) s:[{f:'1430-01-01',t:'1598-08-20',d:'sibir-hanligi'}] - Kazak sinirina ait kaynak okunmadi, KESIN DEGIL, TDV'den ayrica sinir cizgisi alinmali.",
+  "olcum": {
+   "no": 21,
+   "devlet": "sibir-hanligi",
+   "f": "1430-01-01",
+   "t": "1598-08-20",
+   "sure_yil": 168.6,
+   "alan_km2": 96188,
+   "uzak_km": 258,
+   "lat": 55.33,
+   "lon": 78.43,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 22,
+  "devlet": "jukun-kvararafa",
+  "f": "1281-01-01",
+  "t": "1900-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yuksek",
+  "ozet": "Parca tek petek: 'Lokoca (Lokoja)' (7.8N 6.74E), atlasta jukun-kvararafa 1281-1900. Britannica Lokoja: yer Nijer-Benue birlesiminde, siteyi 1841'de Idah ata'si Britanyalilara devretti, Lokoja'yi Baikie 1860'ta kurdu; Britannica Igala: ata'nin Nijer sol kiyisindaki Igala ulkesi. Britannica Jukun: Jukun yukari Benue'da yasar. Yani konum Igala (Idah) etki alani, Jukun toprağı degil; sahip etiketi yanlis ve 1860 oncesi/sonrasi kur eksik.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.britannica.com/place/Lokoja",
+    "ne_okundu": "Lokoja kurulusu 1860, site 1841'de Idah ata'since devredildi",
+    "alinti_kisa": "originally ceded to the British in 1841 by the ata [king] of Idah"
+   },
+   {
+    "url": "https://www.britannica.com/topic/Igala",
+    "ne_okundu": "Igala Nijer'in sol kiyisinda Benue birlesiminin asagisinda, ata hukumdar",
+    "alinti_kisa": "Their ruler, the ata, traditionally also governed"
+   },
+   {
+    "url": "https://www.britannica.com/topic/Jukun",
+    "ne_okundu": "Jukun yukari Benue'da, Kororofa torunlari, baskent kalintilari kuzeydoguda",
+    "alinti_kisa": "a people living on the upper Benue River"
+   },
+   {
+    "url": "https://www.britannica.com/topic/Tiv",
+    "ne_okundu": "Tiv Benue'nin iki yakasinda",
+    "alinti_kisa": "living on both sides of the Benue River"
+   }
+  ],
+  "okunamadi": [],
+  "oneri": "data/yerlesimler_afrika2.js 'Lokoca (Lokoja)' satir 659: s[0] d:'jukun-kvararafa' 1281-01-01..1900-01-01 yanlis. Duzeltme: Igala (Idah) kunyesi yoksa (devletler.js'de 'igala' yok) yeni kimlik + BOYALAR, ya da 1281..1900 icin d:'__BOSLUK__' + 'ABI MERKEZ: Idah' beyani; kur:'1860-01-01' (Baikie, gun yok, yil teyitli) - 1860 oncesi yer iskan edilmisti ama kaynak okunmadi. Makurdi petegi 'tiv' icin ek kaynak gerekmiyor bu turda.",
+  "olcum": {
+   "no": 22,
+   "devlet": "jukun-kvararafa",
+   "f": "1281-01-01",
+   "t": "1900-01-01",
+   "sure_yil": 619.0,
+   "alan_km2": 24847,
+   "uzak_km": 184,
+   "lat": 7.84,
+   "lon": 6.41,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "tiv": 100
+   },
+   "cevre": {
+    "benin-kralligi": 23,
+    "tiv": 13,
+    "nri": 12
+   },
+   "kor_pct_min": 100,
+   "kor_pct_max": 100,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 23,
+  "devlet": "yeni-ispanya",
+  "f": "1721-01-01",
+  "t": "1779-01-01",
+  "sinif": "GERÇEK",
+  "guven": "yuksek",
+  "ozet": "Parca tek petek: Los Adaes (Dogu Teksas). TSHA Handbook of Texas: Aguayo 1721'de presidio ve misyonu yeniden kurdu; 1729'da Teksas baskenti; 1772 Kraliyet Nizamnamesi ile terkedildi (Haziran 1773). Dogu Teksas yerlesimleri 'New Spain'e yalniz ince bir yol ile baglanan izole cep' idi; Natchitoches Fransiz. Yani tarihte gercek eksklav-benzeri cep. Veri sorunlari: Los Adaes s: yeni-ispanya 1721-1821 yazili ama terk 1773; Nacogdoches kur 1779 (1716 misyonu atlasta yok).",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.tshaonline.org/handbook/entries/los-adaes",
+    "ne_okundu": "Los Adaes tarihi 1717-1773, izolasyon, Camino Real",
+    "alinti_kisa": "pocket of isolated Spanish settlement connected with New Spain only by a slender thread"
+   }
+  ],
+  "okunamadi": [],
+  "oneri": "data/yerlesimler_kamerika.js 'Los Adaes' (satir 1365): s[0] t:'1821-02-22' -> terk 1773-06 (YIL+AY teyitli, gun yok) sonrasi icin sahip ayrimi gerekli (Aguayo 1721'de gun yok). Parcanin gercek oldugu 1721-1773 icin dokunma; 1773-1779 arasi bosluk atlasta 'yeni-ispanya' kalmali mi karari Emre'nin.",
+  "olcum": {
+   "no": 23,
+   "devlet": "yeni-ispanya",
+   "f": "1721-01-01",
+   "t": "1779-01-01",
+   "sure_yil": 58.0,
+   "alan_km2": 243008,
+   "uzak_km": 122,
+   "lat": 32.13,
+   "lon": -94.46,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {
+    "fransa": 32,
+    "wicita": 18,
+    "ingiltere": 12,
+    "ponka": 8
+   },
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 24,
+  "devlet": "pagan",
+  "f": "1057-01-01",
+  "t": "1281-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parca Pagan/Meiktila bolgesi (3 petek, 21.07N 95.16E); ana kara Prome-Pegu-Thaton-Moulmein zinciri. Britannica Anawrahta: Pagan'dan Mon guneyine, Martaban Korfezi'ne kadar tek devlet birlestirdi; Britannica Pagan maddesi Irravadi sol kiyisinda. Yani tarihte Orta Irravadi (Kyaukse-Minbu-Magwe vadisi) Pagan'a bagli bitisik; atlasta bu kusakta Pagan donemi nokta yok (Minbu, Taungdwingyi, Pyinmana, Sri Ksetra s: bos) -> kopukluk. Pagan'in kesintisiz bolge mi cekirdek+haraclı bolge mi oldugu: Vikipedi ipucu (kaynak okunamadi) -> cekirdek+haraclı.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.britannica.com/topic/Anawrahta",
+    "ne_okundu": "Anawrahta 1044-77, Mon guneyinin birlestirilmesi, Thaton 1057",
+    "alinti_kisa": "for the first time, a Burmese ruler dominated the Irrawaddy River delta"
+   },
+   {
+    "url": "https://www.britannica.com/place/Pagan-Myanmar",
+    "ne_okundu": "Pagan Irravadi sol kiyisi, eski baskent",
+    "alinti_kisa": "old capital city of Myanmar"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Pagan_Kingdom",
+    "neden": "yalniz ipucu (Kyaukse, tributary katmanlar); Lieberman/Aung-Thwin kaynaklari acilmadi"
+   }
+  ],
+  "oneri": "data/yerlesimler_*.js (Myanmar dosyasi): Pagan ile Prome arasina Orta Irravadi noktalari (Kyaukse/Minbu/Magwe bolgesi) s:[{d:'pagan'}] - KAYNAK GUN YOK, ilgili akademik kaynak (Lieberman/Aung-Thwin) okunmadan yazilmamali. Prome/Pagan noktasinin kendisi dogru.",
+  "olcum": {
+   "no": 24,
+   "devlet": "pagan",
+   "f": "1057-01-01",
+   "t": "1281-01-01",
+   "sure_yil": 224.0,
+   "alan_km2": 59748,
+   "uzak_km": 138,
+   "lat": 21.07,
+   "lon": 95.16,
+   "sinif": "KARA-BOS",
+   "koridor": {
+    "hariphunchai": 26
+   },
+   "cevre": {},
+   "kor_pct_min": 26,
+   "kor_pct_max": 26,
+   "petek_sayisi": 3
+  }
+ },
+ {
+  "no": 25,
+  "devlet": "OSMANLI",
+  "f": "1640-01-01",
+  "t": "1724-03-01",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Parça merkezi (44.9N 40.77E) Kuban/Adıge-Kabartay iç bölgesidir. TDV'ye göre Osmanlı'nın doğrudan idaresi kıyı kalelerindedir (Sohum eyaleti 1578'de kuruldu, kale doğrudan Osmanlı, çevre Abhaz beyleri tâbi; Kefe doğrudan idare, iç bölge hanlığa ait); Kuban/Çerkes/Nogay iç bölgesi Kırım Hanlığı nüfuz alanıdır. Sohum kalesi (atlasta d: 1578-1810) gerçek bir kıyı eksklavıdır ve Megrelya (Osmanlı tâbisi) Batum ile Sohum arasındadır; ama 150 bin km2'lik parça kalenin peteğinin noktasız Kuban/Kabartay iç bölgesini emmesidir, tarihte Osmanlı toprağı değildi. Atlasın Kuban/Maykop/Soçi yerleşimleri zaten v: (Kırım Hanlığı, gevşek himaye) olarak yazılı, yani veri beyanlı; şişkinlik motor emilmesidir.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/sohum",
+    "ne_okundu": "TDV Sohum maddesi: 1578 Sohum eyaleti, güçlü Osmanlı garnizonu; 1580 Batum'a bağlandı; 1810-07-11 Rusya",
+    "alinti_kisa": "Sohum eyaleti oluşturuldu"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/kirim",
+    "ne_okundu": "TDV Kırım maddesi: Kefe'de doğrudan Osmanlı idaresi, iç bölgeler hanlığa ait; Sahib Giray'ın Nogay/Çerkez üzerinde nüfuzu",
+    "alinti_kisa": "İç bölgeler ise hanlığa aitti"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/anapa",
+    "ne_okundu": "TDV Anapa: Kuzey Kafkasya Kırım hanlarının nüfuz alanı; Osmanlı kale inşası 1780'ler",
+    "alinti_kisa": "Kırım hanlarının nüfuz alanı haline geldi"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/azak",
+    "ne_okundu": "TDV Azak: Osmanlı 1475-1696 ve 1711-1739; Kuban'dan söz yok",
+    "alinti_kisa": "1696'da Rusya'nın eline geçti"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/kuban",
+    "neden": "Arama sayfası; yalnız Anapa madde başlığı döndü"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/kabardey",
+    "neden": "TDV'de madde bulunamadı (0 sonuç); Kabartay'ın 17. yy konumu doğrulanamadı"
+   }
+  ],
+  "oneri": "Veri düzeltmesi yok (Sohum d: 1578-07-11?-1810-07-11 TDV ile uyumlu; Kuban yerlesimleri zaten v: Kırım). Motor/kural önerisi: Sohum gibi kale-nokta (g:0) doğrudan Osmanlı noktasının peteği, tâbi (v:) noktasız iç bölgeye emilirken sahip olarak Kırım Hanlığı/Çerkes etiketini almalı ya da iç bölge __BOSLUK__ ve beyanlı kalmalı; kale peteği alan tavanı (örn. kıyı kalesi için sınırlı yarıçap) gerekir. Kararı Emre verir.",
+  "olcum": {
+   "no": 25,
+   "devlet": "OSMANLI",
+   "f": "1640-01-01",
+   "t": "1724-03-01",
+   "sure_yil": 84.2,
+   "alan_km2": 150044,
+   "uzak_km": 50,
+   "lat": 44.9,
+   "lon": 40.77,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "megrelya-prensligi": 100
+   },
+   "cevre": {
+    "don-kazak": 27,
+    "kabartay": 15,
+    "rusya": 32,
+    "megrelya-prensligi": 3
+   },
+   "kor_pct_min": 100,
+   "kor_pct_max": 100,
+   "petek_sayisi": 5
+  }
+ },
+ {
+  "no": 26,
+  "devlet": "svahili-sehirleri",
+  "f": "1505-01-01",
+  "t": "1698-12-13",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Parça (-5.24, 38.7) kıyıdan 189 km içeride, Tanzanya iç kesimidir. TDV Zengibar ve Mombasa maddeleri Svahili/Umman yönetimini kıyı şeridi ve adalarla sınırlar; Svahili şehirlerinin iç bölge hâkimiyeti kaynakta görünmez (ürünler iç bölgeden gelir, siyasî kontrol belirtilmez). Parça, Tanga/Bagamoyo/Pangani gibi kıyı yerleşimlerinin peteğinin noktasız Nyamvezi/Gogo iç bölgesini emmesidir. Koridorun Portekiz (%95) çıkması Portekiz'in Kilwa/Zengibar/Mombasa kıyı kalelerinden gelir; Portekiz iç bölgede de yoktur. Parçanın tarihte Svahili toprağı olduğunu gösteren kaynak okunamadı.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/zengibar",
+    "ne_okundu": "TDV Zengibar: sultanlık kuzeyde Mogadişu'dan güneyde Tanzanya'ya kıyı şeridi ve yakın adalar; iç bölgeden söz yok",
+    "alinti_kisa": "kıyı şeridini ve ... adaları kapsıyordu"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/mombasa",
+    "ne_okundu": "TDV Mombasa: Portekiz 1505-1698 kıyı kaleleri; Fort Jesus 1592-96; iç bölge siyasî kontrolü yok",
+    "alinti_kisa": "1594: sultan karasal kısmı korudu"
+   },
+   {
+    "url": "https://www.worldhistory.org/article/1798/the-portuguese-in-east-africa/",
+    "ne_okundu": "Portekiz kıyı kaleleri Kilwa 1505, Mombasa 1593; iç kontrol Zambezi garnizonlarıyla sınırlı",
+    "alinti_kisa": "garrisoned forts at Sena, Tete, and Zumbo"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "UNESCO General History of Africa / Britannica Swahili",
+    "neden": "Britannica 403 verdi; UNESCO GHA sayfası bulunup açılamadı; iç bölgede Svahili egemenliği yokluğunun doğrudan teyidi alınamadı"
+   }
+  ],
+  "oneri": "Somut yazı yok (kaynaksız tarih uydurulmaz). Yön: data/yerlesimler_emilme.js'de Tanga (satır 47), Bagamoyo (45), data/yerlesimler_afrika2.js Pangani (1312) peteği iç bölgeye taşıyor; iç Tanzanya için kaynaklı yerleşim (Nyamvezi, Gogo, Kimbu merkezleri) ve s: dönemleri eklenmeli ya da bölge __BOSLUK__ beyanıyla bırakılmalı.",
+  "olcum": {
+   "no": 26,
+   "devlet": "svahili-sehirleri",
+   "f": "1505-01-01",
+   "t": "1698-12-13",
+   "sure_yil": 194.0,
+   "alan_km2": 64390,
+   "uzak_km": 189,
+   "lat": -5.24,
+   "lon": 38.7,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "portekiz": 95,
+    "nyamvezi": 5
+   },
+   "cevre": {
+    "nyamvezi": 27,
+    "portekiz": 18
+   },
+   "kor_pct_min": 100,
+   "kor_pct_max": 100,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 27,
+  "devlet": "almanya",
+  "f": "1032-01-01",
+  "t": "1281-01-01",
+  "sinif": "MOTOR-HATASI",
+  "guven": "orta",
+  "ozet": "Parça (46.31, 14.26) Karintiya'dır (Klagenfurt-Villach, atlasta almanya). Treccani Karintiya'yı imparatorluk dükalığı olarak verir (Bavyera'ya bağlanmış, sonra 11.-12. yy'da çeşitli hanedanlara geçmiş). Koridoru oluşturan Salzburg başpiskoposluğu ve Brixen piskoposluğu da imparatorluğun içindedir: Brixen 1027'den itibaren imparatorluk prens-piskoposluğu, Salzburg 1278'de Habsburg Rudolf tarafından Reichsfürst sayıldı. Yani tarihte Karintiya ile Almanya (Kutsal Roma) bitişik imparatorluk toprağıdır; kopukluk ruhban prenslikleri ayrı devlet kimliğiyle yazılmasından doğar. Ayrı devlet olarak yazmak bir modelleme tercihidir, veri eksikliği değil.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.treccani.it/enciclopedia/carinzia/",
+    "ne_okundu": "Treccani Carinzia: dukalık, Bavyera ile birleşmişti, 11.-12. yy'da hanedan değişimi",
+    "alinti_kisa": "Eretta a ducato, la C. passò a diverse casate"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/salisburgo/",
+    "ne_okundu": "Salzburg başpiskoposluğu, 1278 imparatorluk prensliği statüsü",
+    "alinti_kisa": "dignità di principi del Sacro Romano Impero"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/bressanone/",
+    "ne_okundu": "Brixen: 1027'den prens-piskoposluk, 1803'e dek devlet kaderine bağlı",
+    "alinti_kisa": "principato vescovile dal 1027"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/place/Carinthia",
+    "neden": "HTTP 403"
+   }
+  ],
+  "oneri": "Veri düzeltmesi yok. Kural önerisi: ruhban prensliklerini (salzburg-baspiskoposlugu, brixen-piskoposlugu) ayrı devlet olarak tutuyorsak, 'imparatorluk içi' ilişkisi (üst: almanya) işaretlenmeli ve denetimde 'ana kara ile parça arasında yalnız imparatorluk içi üye varsa kopuk sayma' denmeli. Karar Emre'nin.",
+  "olcum": {
+   "no": 27,
+   "devlet": "almanya",
+   "f": "1032-01-01",
+   "t": "1281-01-01",
+   "sure_yil": 249.0,
+   "alan_km2": 49128,
+   "uzak_km": 73,
+   "lat": 46.31,
+   "lon": 14.26,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "brixen-piskoposlugu": 97,
+    "salzburg-baspiskoposlugu": 100
+   },
+   "cevre": {
+    "salzburg-baspiskoposlugu": 13,
+    "macaristan": 20,
+    "brixen-piskoposlugu": 5,
+    "avusturya-marki": 3,
+    "avusturya-dukaligi": 13
+   },
+   "kor_pct_min": 97,
+   "kor_pct_max": 100,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 28,
+  "devlet": "dogu-jin",
+  "f": "0317-04-06",
+  "t": "0420-07-10",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parça (31.79, 119.03) Jiankang (Nanjing) çevresidir, Doğu Jin'in kalbidir. Jin Shu Dilizhi'ye göre Yang Eyaleti'nin 11 komutanlığı (Danyang, Wu, Wuxing, Xin'an, Dongyang, Linhai, Yongjia, Xuancheng, Yixing, Jinling/Piling vb.) Jin yönetimindeydi; yani Nanjing-Suzhou-Hangzhou-Yangzhou-Wuhu hattı kesintisiz Jin toprağıdır. Atlasta Nanking dışında bu bölgenin yerleşimlerinin (Suzhou, Hangzhou, Yangzhou, Wuhu, Anqing, Shaoxing, Hefei) hiçbirinde dogu-jin s: dönemi yok (Suzhou/Hangzhou s: 907'de başlar). Boşluk bu yüzden BOS; harita kopuk gösteriyor.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://zh.wikisource.org/wiki/晉書/卷015",
+    "ne_okundu": "Jin Shu 15 (Dilizhi): Yuan Di sonrası Yang Eyaleti 11 komutanlık; Jiang Eyaleti; Nan-Xu Eyaleti sığınmacı komutanlıkları Jiangnan'da (Qu'a, Jingkou)",
+    "alinti_kisa": "揚州統丹陽、吳郡、吳興…晉陵十一郡"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Jin-dynasty-China-AD-265-316-317-317-420",
+    "neden": "HTTP 403"
+   }
+  ],
+  "oneri": "data/yerlesimler_asya.js: Suzhou (lat 31.299 lon 120.585), Hangzhou (30.274 120.155), Yangzhou (32.394 119.413), Wuhu (31.326 118.376), Shaoxing (30.03 120.58), Anqing (30.509 117.043) için s:'e {f:\"0317-04-06\", t:\"0420-07-10\", d:\"dogu-jin\"} eklenmesi adaydır (Wu komutanlığı=Suzhou, Kuaiji=Shaoxing eşleşmesi Jin Shu sayfasındaki komutanlık adlarına dayanır, şehir-merkez eşleşmesini ayrıca kaynakla doğrula; Wuhu/Anqing/Hefei için ayrı kaynak gerek, Hefei Huainan sınır bölgesi). Günler kaynak günü değil künye günü: yerleşim bazında kurulma/kuşak tarihi yok, 'gün yok' (Jin Shu komutanlık sayfası şehir bazlı gün vermez).",
+  "olcum": {
+   "no": 28,
+   "devlet": "dogu-jin",
+   "f": "0317-04-06",
+   "t": "0420-07-10",
+   "sure_yil": 103.3,
+   "alan_km2": 113003,
+   "uzak_km": 159,
+   "lat": 31.79,
+   "lon": 119.03,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 29,
+  "devlet": "avusturya",
+  "f": "1772-08-05",
+  "t": "1918-11-12",
+  "sinif": "MOTOR-HATASI",
+  "guven": "düşük",
+  "ozet": "Parça (49.54, 24.53) Lemberg çevresi Galiçya'dır. Ansiklopedi Ukrayna Galiçya'yı 1772'den Avusturya'nın Galiçya-Lodomerya krallığı olarak teyit eder (1786'da ~83 bin km2); Habsburg yönetiminde bir taç ülkesidir. TDV Avusturya'ya göre Macaristan'ın kuzeyi 1526'dan, Erdel/Tımışvar hariç tamamı 1699'dan Habsburg elindedir; yani koridorda görünen macaristan-habsburg/macaristan-naiplik aynı hanedan topraklarıdır. Galiçya ile çekirdek arasındaki Moravya/Macaristan bağlantısını (sınır komşuluğu) okuduğum kaynakta bulamadım (Ukrayna ansiklopedisi sınırları vermedi). Dolayısıyla kopukluk kısmen Macaristan'ın ayrı devlet etiketinden, kısmen de Prusya Silezyası/Lehistan karşıdan geçen hat ölçümünden kaynaklanır.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CG%5CA%5CGalicia.htm",
+    "ne_okundu": "Galiçya 1772-1918 Avusturya taç ülkesi, Lemberg valisi, Zbruç'a kadar sınır",
+    "alinti_kisa": "Kingdom of Galicia and Lodomeria"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/avusturya",
+    "ne_okundu": "TDV Avusturya: Macaristan kuzeyi 1526'dan, Karlofça 1699; Galiçya'nın ilhakı yok",
+    "alinti_kisa": "Karlofça Antlaşması (1699)"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/place/Galicia-historical-region-Europe",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/galizia/",
+    "neden": "Yanlış madde (İspanya Galiçyası) döndü"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/galiçya",
+    "neden": "Arama sayfası, sonuç yok (kodlama)"
+   }
+  ],
+  "oneri": "Veri düzeltmesi yok. Galiçya-Macaristan (Karpat) ve Galiçya-Moravya/Avusturya Silezyası komşuluğu için bir tarihsel atlas ya da Austria-Hungary monografisi okunmalı; teyit edilirse sınıf MOTOR-HATASI kalır (Habsburg toprakları bitişik, ayrı etiketler yüzünden kopuk görünüyor). Atlastaki 'prusya %69' koridor payı da denetlensin (Silezya hattı).",
+  "olcum": {
+   "no": 29,
+   "devlet": "avusturya",
+   "f": "1772-08-05",
+   "t": "1918-11-12",
+   "sure_yil": 146.3,
+   "alan_km2": 77709,
+   "uzak_km": 14,
+   "lat": 49.54,
+   "lon": 24.53,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "macaristan-habsburg": 95,
+    "lehistan": 21,
+    "prusya": 69,
+    "varsova-dukaligi": 69,
+    "krakow-serbest-sehri": 18,
+    "kongre-polonyasi": 18,
+    "almanya": 18,
+    "rusya-gecici-hukumet": 5,
+    "sovyet-rusya": 5,
+    "macaristan-naiplik": 100
+   },
+   "cevre": {
+    "lehistan": 50,
+    "habsburg": 23,
+    "macaristan-habsburg": 23,
+    "OSMANLI": 23,
+    "rusya": 33,
+    "romanya-kralligi": 23,
+    "rusya-gecici-hukumet": 45,
+    "sovyet-rusya": 40,
+    "macaristan-naiplik": 23
+   },
+   "kor_pct_min": 100,
+   "kor_pct_max": 100,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 30,
+  "devlet": "umman-zengibar",
+  "f": "1800-01-01",
+  "t": "1890-11-04",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parça (-14.01, 34.33) Malavi Gölü batısıdır; atlasta Mankhamba (Maravi) 1800-1891 ve Nkhotakota 1840-1895 umman-zengibar olarak yazılı. TDV Zengibar maddesi sultanlığı yalnızca Mogadişu-Tanzanya kıyı şeridi ve adalarla sınırlar; iç bölgeden (Tabora, Ucici, Malavi) hiç söz etmez. Mankhamba Maravi (Kalonga) başkentidir; Zengibar'ın doğrudan mülkü olduğuna dair kaynak okumadım. Nkhotakota'yı kuran Cumbe/Jumbe Salim b. Abdullah Zengibar sultanına bağlılık beyan etti ama yerel Çeva şefleri dolaylı idarede kaldı (yalnız Vikipedi ipucu, tek dayanak olamaz). Yani en iyi hâlde tâbi/etki, doğrudan mülk değil.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/zengibar",
+    "ne_okundu": "TDV Zengibar: sultanlık kıyı şeridi + adalar; Said b. Sultan 1837'de Zengibar'a yerleşti; 1861 bölünme",
+    "alinti_kisa": "kıyı şeridini ve ... adaları kapsıyordu"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Jumbes_of_Nkhotakota",
+    "ne_okundu": "YALNIZ İPUCU: Jumbe Salim b. Abdullah Zengibar'a bağlılık beyan etti, Çeva şefleri dolaylı idare",
+    "alinti_kisa": "allegiance for the Sultan of Zanzibar"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://whc.unesco.org/en/tentativelists/5603",
+    "neden": "HTTP 403 (Nkhotakota UNESCO ön liste)"
+   },
+   {
+    "url": "https://www.encyclopedia.com/.../kota-kota",
+    "neden": "404 yönlendirme"
+   },
+   {
+    "url": "https://www.britannica.com/place/Nkhotakota",
+    "neden": "HTTP 403"
+   }
+  ],
+  "oneri": "data/yerlesimler_afrika2.js satır 1668 Mankhamba: s:{f:\"1800-01-01\",t:\"1891-05-14\",d:\"umman-zengibar\"} kaldır ya da Maravi/Kalonga devamı veya __BOSLUK__ beyanı (kaynaklı Maravi dönemi okunmadı, gün yok). Satır 1600 Nkhotakota 1840-1895 umman-zengibar: doğrudan d: yerine tâbi v: (Cumbe Sultanlığı, Zengibar'a bağlılık) yazılması önerilir; kaynak Jumbe konusunda akademik madde (Britannica/Dictionary of African Biography) okunarak doğrulanmalı. Karonga ve Mbande (1880-1895, satır 1470/1477) için de aynı kontrol.",
+  "olcum": {
+   "no": 30,
+   "devlet": "umman-zengibar",
+   "f": "1800-01-01",
+   "t": "1890-11-04",
+   "sure_yil": 90.8,
+   "alan_km2": 118253,
+   "uzak_km": 492,
+   "lat": -14.01,
+   "lon": 34.33,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "yao": 64
+   },
+   "cevre": {
+    "yao": 8,
+    "portekiz": 7,
+    "bemba": 20,
+    "ingiltere": 12
+   },
+   "kor_pct_min": 64,
+   "kor_pct_max": 64,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 31,
+  "devlet": "ispanya",
+  "f": "1705-01-01",
+  "t": "1748-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Parça (-27.5, -56.93) Paraná kıyısı Misiones/Itapúa Cizvit reducciones bölgesidir. Treccani: Cizvitler reducciones'ı 17. yy'dan Paraná boyunca kurdu, Paraguay İspanyol valiliği idaresindeydi; New Advent: reducciones Paraná ve Uruguay boyunca (Paraguay, Misiones, Corrientes), 1702'de 22, 1732'de en çok 141 bin kişi, 1736'dan itibaren Buenos Aires valisine bağlı. Yani 1705-1748'de bu bölge ve Corrientes (atlasta ispanya) kesintisiz İspanyol egemenliğidir; arada tarih açısından Portekiz/başka devlet yoktur. BOS aradaki bölgede İspanyol/reducción yerleşim noktası olmamasından gelir (atlasta yalnız San Ignacio Guazú ve Encarnación var).",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.newadvent.org/cathen/12688b.htm",
+    "ne_okundu": "Cizvit Guaraní reducciones: Paraná/Uruguay boyunca, Misiones+Corrientes, 1702 22 köy, 1736'dan Buenos Aires valisine bağlı",
+    "alinti_kisa": "from 1736 onwards all the Reductions"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/paraguay/",
+    "ne_okundu": "Paraguay sömürge dönemi: valilik, reducciones Paraná boyunca",
+    "alinti_kisa": "riduzioni lungo il Paraná"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://whc.unesco.org/en/list/275/ ve /tentativelists/6613/",
+    "neden": "HTTP 403; reducciones listesi ve kuruluş tarihleri alınamadı"
+   }
+  ],
+  "oneri": "data/yerlesimler_nokta_amerika_0917.js (San Ignacio Guazú, Encarnación mevcut) ve Corrientes arası boşluğa kaynaklı reducción/İspanyol yerleşimleri eklenmeli (adaylar: Santa María de Fe, Santiago, Santa Rosa, San Cosme y Damián, Candelaria, Loreto, San Ignacio Miní); koordinat ve s:{d:\"ispanya\"} dönemleri UNESCO/akademik kaynaktan alınacak, şimdilik 'gün yok', tarih uydurulmaz. Ya da bu boşluk __BOSLUK__ beyanı.",
+  "olcum": {
+   "no": 31,
+   "devlet": "ispanya",
+   "f": "1705-01-01",
+   "t": "1748-01-01",
+   "sure_yil": 43.0,
+   "alan_km2": 249599,
+   "uzak_km": 191,
+   "lat": -27.5,
+   "lon": -56.93,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 32,
+  "devlet": "wicita",
+  "f": "1750-01-01",
+  "t": "1859-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Parça (38.83, -97.67) Kansas Büyük Bükülme'dir (atlasta Quivira, Wiçita 1281-1859). Texas Handbook: Wiçita 1750'lerde Kızıl Irmak'ta (kuzey Teksas), 1810'dan sonra Brazos/Wichita ırmaklarında, 1834-1858'de Oklahoma Wichita Dağları çevresinde yaşadı; Kansas'a ancak İç Savaş'ta (1859 sonrası) gitti. Oklahoma Tarih Ansiklopedisi: Osage tehdidiyle Arkansas Nehri bölgesinden çekilip 1760'a kadar Kızıl Irmak'a geçtiler. Yani 1750 sonrası Kansas Wiçita toprağı değildi (ayrıca yalnız arama özetinde Great Bend'den sürüldükleri görüldü, o sayfa açılamadı). Koridor: atlasta Oklahoma'daki 'Ponca köyleri (Salt Fork)' ponka s: 1281-1858 yazılı; Ponca'nın bu konumu Salt Fork'ta tutması bu pencerede kaynaksızdır (HNAI okunmadı).",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.tshaonline.org/handbook/entries/wichita-indians",
+    "ne_okundu": "Handbook of Texas: Wiçita Kızıl Irmak 1750'ler, 1810 sonrası Brazos, 1834-58 Oklahoma; Kansas ancak İç Savaş'ta",
+    "alinti_kisa": "By 1719 these people had moved south to Oklahoma"
+   },
+   {
+    "url": "https://www.okhistory.org/publications/enc/entry?entry=DE006",
+    "ne_okundu": "Oklahoma Tarih Ansiklopedisi: Osage tehdidi, 1760'a kadar Kızıl Irmak'a taşındılar",
+    "alinti_kisa": "the threat of attack by the Osage"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://plainshumanities.unl.edu/encyclopedia/doc/egp.na.127.html",
+    "neden": "TLS sertifikası reddedildi (içerik yalnız arama özetinden: Osage Wiçita'yı Great Bend'den Kızıl Irmak'a itti)"
+   },
+   {
+    "url": "https://www.kansashistory.gov/kansapedia/wichita-indians/17816",
+    "neden": "Yönlendirme sonrası yanlış sayfa (Hoisington biyografisi)"
+   },
+   {
+    "url": "https://www.britannica.com/topic/Wichita-people",
+    "neden": "açılmadı (403 eğilimli), denenmedi"
+   }
+  ],
+  "oneri": "data/yerlesimler_kamerika.js satır 1197 Quivira: s:{f:\"1281-01-01\",t:\"1859-01-01\",d:\"wicita\"} -> t ~1750-1760 civarına çekilsin (kaynaklar 1758 ve 'by 1760' diyor; gün yok, yıl hassasiyeti; Kansas sahibi sonra Osage/Kansa/Pawnee etiketleri kaynaklı aranmalı, bulunmazsa __BOSLUK__ beyanı). Satır 1242 Ponca köyleri (Salt Fork) d:\"ponka\" 1281-1858: konum Ponca'nın o devirde yaşadığı yer mi, HNAI/Ponca akademik kaynakla doğrulanmalı (okunmadı). Satır 1286 Spiro: wicita 1450-1682 de sorgulanmalı (kapsam dışı).",
+  "olcum": {
+   "no": 32,
+   "devlet": "wicita",
+   "f": "1750-01-01",
+   "t": "1859-01-01",
+   "sure_yil": 109.0,
+   "alan_km2": 97881,
+   "uzak_km": 144,
+   "lat": 38.83,
+   "lon": -97.67,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "ponka": 100
+   },
+   "cevre": {
+    "pavni": 25,
+    "ponka": 23,
+    "abd": 28
+   },
+   "kor_pct_min": 100,
+   "kor_pct_max": 100,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 33,
+  "devlet": "delhi-sultanligi",
+  "f": "1206-01-01",
+  "t": "1281-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Kopuk parça Bengal (Gaur/Lakhnautî, Nadia): atlasta delhi-sultanligi 1206-1281 yazılı. TDV (Leknevtî, Bengal Sultanlığı) Bengal'in 1203-04'te Bahtiyâr Halacî ile Delhi'ye bağlandığını, 1227'de İltutmiş'in yeniden kattığını, 1266'dan itibaren Balabanî valilerin yönettiğini yazar; TDV Hindistan maddesi Bahtiyâr'ın 1202'de Bihar'ı da aldığını ve İltutmiş'in ülkesinin 'Pencap'tan Bihar'a' uzandığını söyler. Yani aradaki koridor (Bihar) tarihte boşluk ya da başka devlet değil, Delhi'nin toprağıydı. Atlasta ise Patna 1206-1281 __BOSLUK__, Gayâ/Mungîr/Bhâgalpûr'un s: zinciri 1281'de başlıyor (1206-1281 hiç yok) -> petek boş. Tarihte bölge de zaman zaman fiilen bağımsız (Iwaz, Tuğril) olduğundan hüküm 'orta' güven.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/leknevti",
+    "ne_okundu": "Leknevtî maddesi: Bahtiyâr Halacî 1198/1202, 1227 İltutmiş ile Delhi hakimiyeti",
+    "alinti_kisa": "Delhi Sultanlığı'nın hâkimiyetine girdi"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/bengal-sultanligi",
+    "ne_okundu": "Bengal'in 1203-04'te Delhi'ye bağlanması, 1227 fetih, 1266'dan Balabanî valiler, 1320 Tuğluk",
+    "alinti_kisa": "Delhi Sultanlığı'na bağlandı"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/hindistan",
+    "ne_okundu": "Hindistan maddesi ilk 100000 karakter: Bahtiyâr'ın Bihar+Bengal fethi 1202; İltutmiş'in sınırı",
+    "alinti_kisa": "Pencap'tan Bihâr'a ... uzanan toprakları"
+   },
+   {
+    "url": "https://en.banglapedia.org/index.php/Lakhnauti",
+    "ne_okundu": "Lakhnauti 13. yy (Nadia 1205, başkent); Bihar/Delhi valileri ele alınmıyor",
+    "alinti_kisa": "hurried to Lakhnauti, made it his capital"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/place/Bengal-historical-region-Asia",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://en.banglapedia.org/index.php/Muslim_Rule_in_Bengal",
+    "neden": "HTTP 404"
+   }
+  ],
+  "oneri": "data/yerlesimler_asya.js: Patna (Azîmâbâd) s: son dilimi {d:'__BOSLUK__', f:'-0029-01-01', t:'1281-01-01'} -> t:'1206-01-01' kısaltılıp ardına {d:'delhi-sultanligi', f:'1206-01-01', t:'1281-01-01', kesinlik:{f:'yil'}} eklenir. Aynı dilim Gayâ, Mungîr (Monghyr), Bhâgalpûr için (hepsi yerlesimler_asya.js; şu an s: 1281'de başlıyor) ve Rajagriha için (yerlesimler_once1281_yt_hint.js) eklenebilir. Kaynak: TDV Hindistan (Bihar 1202 Bahtiyâr; İltutmiş Pencap'tan Bihar'a) + TDV Bengal Sultanlığı. Gün yok (yalnız yıl); 1206 Delhi künyesi başlangıcıdır. Ters ucu kontrol: Bahtiyâr 1202'de Bihar'ı Delhi öncesi fethetti, 1206 öncesi sahibi (gurlu 1203-1206) ayrıca değerlendirilmeli; Iwaz/Tuğril dönemleri 'fiilen bağımsız' notu ic_not'a yazılmalı.",
+  "olcum": {
+   "no": 33,
+   "devlet": "delhi-sultanligi",
+   "f": "1206-01-01",
+   "t": "1281-01-01",
+   "sure_yil": 75.0,
+   "alan_km2": 138422,
+   "uzak_km": 463,
+   "lat": 25.93,
+   "lon": 88.75,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {
+    "sena": 23,
+    "gurlu": 8,
+    "sakya": 5
+   },
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 2
+  }
+ },
+ {
+  "no": 34,
+  "devlet": "ahamenis",
+  "f": "-0538-10-10",
+  "t": "-0330-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "yüksek",
+  "ozet": "Kopuk parça Fars (Persis: Pasargad, Persepolis) - Ahameniş'in öz yurdu. Treccani Ahameniş maddesi hanedanın Persis ve Susiana'da (Anzan) hüküm sürdüğünü, Livius Susa/Pasargadae/Persepolis'i Ahameniş krallarının sarayları olarak anlatır; Persis ile Susa/Ekbatana tek imparatorluğun parçasıdır. Atlasta Pasargad, Persepolis, Susa ve Hemedan ahamenis'e yazılı ama aradaki bütün noktaların (Fars, Anşan, Elam, Elymais, Hûzistan, Media bölge noktaları) s: dizisi BOŞ (0 dönem) ve Şiraz/Behbehân/Kâzerûn/Ahvaz/Şüşter gibi yerler bu devirde yok/sahipsiz. Böylece Fars çekirdeği Susa-Hemedan bloğundan boş kalan petekle ayrılıyor; tarihte kopukluk yok.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.livius.org/articles/place/pasargadae/",
+    "ne_okundu": "Pasargadae Cyrus'un yerleşimi, Persepolis'e 43 km",
+    "alinti_kisa": "one of the oldest residences of the Achaemenid kings"
+   },
+   {
+    "url": "https://www.livius.org/articles/place/persepolis/",
+    "ne_okundu": "Persepolis Darius'un tören/yönetim merkezi, İskender 330",
+    "alinti_kisa": "showcase for the empire's wealth"
+   },
+   {
+    "url": "https://www.livius.org/articles/place/susa/",
+    "ne_okundu": "Susa Darius'un gözde sarayı, Elam imparatorluğa katılmış",
+    "alinti_kisa": "favorite palace"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/achemenidi/",
+    "ne_okundu": "Hanedanın Anzan/Susiana ve Persis kolları, Yakın Doğu'nun büyük kısmı",
+    "alinti_kisa": "gran parte dell'Asia anteriore"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/place/Achaemenian-Empire",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.iranicaonline.org/articles/achaemenid-dynasty",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.livius.org/articles/place/persis/",
+    "neden": "HTTP 404"
+   }
+  ],
+  "oneri": "data/yerlesimler_once1281_yt_ortadogu.js: bölge noktaları Fars, Anşan, Elam, Elymais, Hûzistan, Media için s: [] yerine {d:'ahamenis', f:'-0549-01-01', t:'-0329-01-01'} (Fars/Anşan/Media; künye aralığı) ve Elam/Elymais/Hûzistan için f:'-0538-01-01' (Susa'nın mevcut dilimiyle aynı). Gün yok; kesinlik onyil/yıl. Istahr (Istakhr) EKLENMEZ: Livius Persepolis'in gerilemesinden sonra kurulan yer (Ahameniş devrinde var olduğu okunmadı). Pasargad/Persepolis zinciri zaten var. Şiraz, Kâzerûn, Behbehân, Şüşter, Ahvaz bu devirde var mıydı teyit edilmedi, dokunma.",
+  "olcum": {
+   "no": 34,
+   "devlet": "ahamenis",
+   "f": "-0538-10-10",
+   "t": "-0330-01-01",
+   "sure_yil": 207.2,
+   "alan_km2": 50082,
+   "uzak_km": 305,
+   "lat": 30.75,
+   "lon": 53.33,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 35,
+  "devlet": "maratha",
+  "f": "1753-04-01",
+  "t": "1818-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Kopuk parça Champaner/Panch Mahals (Gujarat). 1911 Britannica (Wikisource) ve Treccani: Maratha devleti Peşva (Pune) başkanlığında gevşek konfederasyondur; Gaekwar (Baroda, Gujarat), Holkar (Malwa), Sindhia, Bhonsla (Nagpur/Berar) kendi iç işlerini yürütür, Peşva'yı başkan tanırlar. Atlasta 'baroda' ve 'indor' (Holkar) AYRI künye olarak yazılı (Baroda 1721-1949 baroda; Indore 'indor'), ayrıca Gwalior babur-imparatorlugu, Dhâr/Vidisha boş; Gujarat bloğu ile Malwa/Maharashtra çekirdeği arasındaki koridoru bhopal+nizam (ve baroda/indor) dolduruyor. Yani kopukluk kısmen künye modelleme kararı (konfederasyon üyeleri ayrı devlet sayılmış). Tarihte bloklar gerçekten tek bitişik toprak değildi (Bhopal, Nizam, Surat/Broach İngiliz), bu yüzden tam MOTOR-HATASI da değil; hüküm kesin değil.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Mahrattas",
+    "ne_okundu": "1911 Britannica Mahrattas: konfederasyon, Gaekwar Gujarat, Holkar Malwa, Sindhia, Bhonsla Nagpur+Berar, 1818",
+    "alinti_kisa": "acknowledged the peshwa as head of the Mahratta race"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/maratti_(Enciclopedia-Italiana)/",
+    "ne_okundu": "Konfederasyon, Peşva başkanlığı, Berar/Khandesh/Konkan",
+    "alinti_kisa": "comprende le moderne provincie di Konkan, Khandesh, Berar"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/hindistan",
+    "ne_okundu": "Marata Pîşveleri 1714-1818, Gaikwar/Holkar/Sindiya hanedan listesi; Gujarat/Malwa Maratha bağlamında anlatılmıyor",
+    "alinti_kisa": "Marata Pîşveleri (1714-1818)"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/place/Maratha-confederacy",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/maratha-confederacy",
+    "neden": "301 -> /404"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/arama/?q=marathalar",
+    "neden": "TDV'de Marata maddesi yok (0 sonuç)"
+   }
+  ],
+  "oneri": "Politika kararı gerekli (Emre): (a) 'indor' (Holkar) ve 'baroda' (Gaekwad) künyeleri Maratha konfederasyonu üyesiyse atlasta maratha olarak boyanacaksa data/yerlesimler_hint0912.js Baroda (Vadodara) s: 1721-01-01 -> 1949 dilimi ile data'daki Indore (İndor) 's: indor' dilimleri 'maratha'ya çevrilebilir; yoksa kopukluk 'GERÇEK (konfederasyon)' olarak beyanlı bırakılır. Kaynak günü yok. Dhâr (yerlesimler_once1281_yt_hint.js) s: 1305'te bitiyor, 1780'de sahipsiz -> Malwa Holkar/Sindhia kaynağı okunmadı, değer verilmedi.",
+  "olcum": {
+   "no": 35,
+   "devlet": "maratha",
+   "f": "1753-04-01",
+   "t": "1818-01-01",
+   "sure_yil": 64.8,
+   "alan_km2": 152558,
+   "uzak_km": 200,
+   "lat": 23.12,
+   "lon": 73.37,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "bhopal": 74,
+    "haydarabad-nizam": 26
+   },
+   "cevre": {
+    "racput": 43,
+    "babur-imparatorlugu": 17,
+    "indor": 12,
+    "ingiliz-hindistani": 18
+   },
+   "kor_pct_min": 100,
+   "kor_pct_max": 100,
+   "petek_sayisi": 2
+  }
+ },
+ {
+  "no": 36,
+  "devlet": "mali-imparatorlugu",
+  "f": "1281-01-01",
+  "t": "1400-12-31",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Kopuk parça Niani çevresi (Mandé öz yurdu). TDV Mali maddesi imparatorluğun Mansa Musa döneminde (1312-1337) Atlantik'ten Hausa ülkesine, Süleyman döneminde (1341-1360) Niamey'e kadar uzandığını, Gao/Timbuktu(1325)/Walata'yı kapsadığını yazar - yani öz yurt ile Nijer kıvrımı sürekli bir imparatorluktu. Atlasta Niani (yerlesimler_e9353f.js), Timbuktu, Gao, Valata mali'ye yazılı ama aradaki Nijer vadisi noktalarının Kirina (Mali) s: [] ve Cenne (Djenné) s: 1473'te başlıyor; Kangaba/Bamako/Segu 1650-1712 sonrası tanımlı (bu devirde nokta yok). Boşluk veri eksiği; TDV Djenné'nin Mali'ye ait olduğunu söylemiyor, o yüzden onu yazmıyorum.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://islamansiklopedisi.org.tr/mali",
+    "ne_okundu": "Mali maddesi: Kirina 1235, Musa 1312-1337 sınırları, Süleyman 1341-1360 azami genişlik, Timbuktu 1325, 1430 Tuareg",
+    "alinti_kisa": "Gine ormanından Sahrâ çölüne"
+   },
+   {
+    "url": "https://www.worldhistory.org/Mali_Empire/",
+    "ne_okundu": "Niani Sankarani yakınında başkent; Gao, Walata, Galam/Bambuk (yalnız ipucu, tek dayanak değil)",
+    "alinti_kisa": "spread up to Gao on the Niger River"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://kids.britannica.com/students/article/Mali-empire/446105",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.metmuseum.org/toah/hd/maliemp/hd_maliemp.htm",
+    "neden": "HTTP 429"
+   },
+   {
+    "url": "UNESCO General History of Africa IV",
+    "neden": "arama sonucunda sayfa bulunamadı, açılmadı"
+   }
+  ],
+  "oneri": "data/yerlesimler_odak_yedek_1023.js: Kirina (Mali) s: [] -> [{d:'mali-imparatorlugu', f:'1281-01-01', t:'1400-12-31'}] (TDV Mali: 1235 Kirina muharebesi Mali'nin kuruluşu; Mali öz yurdu). Gün yok; t Mali'nin bu devirdeki Niani zinciriyle uyumlu değerlendirilmeli (Niani s: 1281-1670). Kangaba (yerlesimler_afrika2.js) kur:'1650' - TDV/öteki kaynak Kangaba'nın Mali öz yurdu olduğunu 1650'den çok önce gösterir ama bu sayfada okunmadı: kur değişikliği ÖNERİLMEZ, ayrı kaynak aranmalı.",
+  "olcum": {
+   "no": 36,
+   "devlet": "mali-imparatorlugu",
+   "f": "1281-01-01",
+   "t": "1400-12-31",
+   "sure_yil": 120.0,
+   "alan_km2": 80597,
+   "uzak_km": 197,
+   "lat": 10.78,
+   "lon": -8.9,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {
+    "dan-guro": 33,
+    "mossi-vagadugu": 8
+   },
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 37,
+  "devlet": "portekiz",
+  "f": "1961-12-19",
+  "t": "1974-09-10",
+  "sinif": "GERÇEK",
+  "guven": "yüksek",
+  "ozet": "Kopuk parça Mozambik (Portekiz sömürgesi, 1975 bağımsızlığa kadar). Angola ile Mozambik hiçbir zaman bitişik olmadı; arada Kuzey Rodezya/Zambiya, Malavi (Nyasaland), Rodezya vardı. Treccani Zambia: Kuzey Rodezya 1924'ten İngiliz protektorası, 1953-63 Federasyon, 24 Ekim 1964'te bağımsız Zambiya; Treccani Portekiz: 1961-74 Angola, Gine, Mozambik'te kurtuluş savaşları, 25 Nisan 1974 darbesi, 1975'e kadar bağımsızlık. Koridor etiketi 'zambiya 95%' 1961-64 için anakronik (o sırada Kuzey Rodezya/Federasyon, İngiliz) ama sahibin başka devlet olması sonucu değiştirmez.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.treccani.it/enciclopedia/zambia/",
+    "ne_okundu": "Kuzey Rodezya 1924 protektora, Federasyon 1953-1963, Zambiya 24.10.1964",
+    "alinti_kisa": "fino al dicembre 1963"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/portogallo/",
+    "ne_okundu": "Portekiz sömürgeleri: 1961 Hint toprakları kaybı, 1974 darbesi, 1975'e kadar bağımsızlık",
+    "alinti_kisa": "giunte all'indipendenza entro il 1975"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/angola/",
+    "ne_okundu": "Angola 1951 denizaşırı eyalet, 1961 gerilla, 11.11.1975 bağımsızlık; sınır 1905 Rodezya",
+    "alinti_kisa": "A partire dal 1961 si ebbero in Angola"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/ (Mozambique history)",
+    "neden": "Britannica 403, açılmadı"
+   }
+  ],
+  "oneri": "yok (sınıf GERÇEK). İsteğe bağlı: koridor devlet kimliği 1961-12-19..1964-10-24 için Zambiya yerine Kuzey Rodezya/Rodezya-Nyasaland Federasyonu (ingiltere) olmalı; ilgili yerleşimlerin s: dilimleri ayrıca denetlenmeli.",
+  "olcum": {
+   "no": 37,
+   "devlet": "portekiz",
+   "f": "1961-12-19",
+   "t": "1974-09-10",
+   "sure_yil": 12.7,
+   "alan_km2": 750290,
+   "uzak_km": 594,
+   "lat": -17.96,
+   "lon": 35.18,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "zambiya": 95
+   },
+   "cevre": {
+    "malavi": 10,
+    "tanzanya": 10,
+    "guney-afrika-cumhuriyeti": 7
+   },
+   "kor_pct_min": 95,
+   "kor_pct_max": 95,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 38,
+  "devlet": "portekiz",
+  "f": "1902-01-01",
+  "t": "1914-01-01",
+  "sinif": "GERÇEK",
+  "guven": "yüksek",
+  "ozet": "Aynı parça (Mozambik), 1902-14. Portekiz'in Angola-Mozambik arasında kara bağlantısı kurma isteği (Pembe Harita) 1890 İngiliz ültimatomuyla düştü; arada İngiliz Güney Afrika Şirketi/İngiltere topraklarından Rodezya ve Nyasaland vardı. Cambridge makale özeti: Barros Gomes 1886'da iki koloni arası toprağı talep etti, İngiltere 1890'da ültimatom verdi, Portekiz geri adım attı. Atlasta Mozambik noktaları (Sena, Tete, Quelimane) portekiz; koridorda ingiltere (Blantyre, Zomba, Salisbury) yazılı - doğru.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.cambridge.org/core/books/international-impact-of-the-boer-war/portugal-and-the-boer-war/7A1D6E123E6E3CF57FFB1BC981CD1355",
+    "ne_okundu": "Barros Gomes 1886 Angola-Mozambik talebi, 1890 ültimatom (sayfa özeti)",
+    "alinti_kisa": "Portugal was forced to back down"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/angola/",
+    "ne_okundu": "Angola sınırlarının 1885-86 ve 1905 (Rodezya) anlaşmalarıyla çizildiği",
+    "alinti_kisa": "1905 (con la Rhodesia)"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.treccani.it/enciclopedia/mozambico_(Enciclopedia-Italiana)/",
+    "neden": "açıldı ama sınır/anlaşma bilgisi içermiyor"
+   },
+   {
+    "url": "https://history.state.gov/milestones/1866-1898/berlin-conf",
+    "neden": "HTTP 404"
+   }
+  ],
+  "oneri": "yok (sınıf GERÇEK).",
+  "olcum": {
+   "no": 38,
+   "devlet": "portekiz",
+   "f": "1902-01-01",
+   "t": "1914-01-01",
+   "sure_yil": 12.0,
+   "alan_km2": 753127,
+   "uzak_km": 594,
+   "lat": -17.87,
+   "lon": 35.37,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "ingiltere": 100
+   },
+   "cevre": {
+    "ingiltere": 48,
+    "ingiliz-svaziland": 5,
+    "almanya": 2,
+    "guney-afrika-birligi": 8
+   },
+   "kor_pct_min": 100,
+   "kor_pct_max": 100,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 39,
+  "devlet": "harappa",
+  "f": "-2599-01-01",
+  "t": "-2549-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "düşük",
+  "ozet": "Atlasın harappa künyesi 'uygarlık-devlet-düzeyi-tartışmalı' ve bu dilimde yalnız Harappa (yerlesimler_mo_iran_asya.js) ile Dholavira harappa'ya yazılı (Rakhigarhi -2549'dan, Lothal -2449'dan başlıyor); aradaki Sind/Cholistan boş. Treccani Harappa: Dönem III 2700-1900 MÖ, siyasî örgüt hakkında bir şey söylemez; TDV Hindistan: Harappa 2300-1700 'yüksek uygarlık', devlet olup olmadığı yazılmaz; Treccani Mohenjo-daro: aynı uygarlığa ait büyük planlı şehir. Atlasta Mohenjo-daro yerleşimi HİÇ YOK (ad taraması: yok). Siyasî bütünlük kaynaklarla gösterilemedi; kopukluğun bir kısmı şehir kümesi modelinin doğal sonucu (GERÇEK olasılığı), bir kısmı eksik yerleşim. Britannica'nın 'conjecture' ifadesi açılamadı.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.treccani.it/enciclopedia/harappa/",
+    "ne_okundu": "Harappa Dönem III 2700-1900 MÖ, tahkimli akropol; siyasî örgüt anlatılmıyor",
+    "alinti_kisa": "dominata da un'acropoli fortificata"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/mohenjo-daro/",
+    "ne_okundu": "Mohenjo-daro Sind'de Larkana güneyi, Harappa uygarlığına ait planlı kent",
+    "alinti_kisa": "Appartiene alla cosiddetta civiltà dell'Indo"
+   },
+   {
+    "url": "https://islamansiklopedisi.org.tr/hindistan",
+    "ne_okundu": "İndus/Harappa uygarlığı tarihlemesi; devlet yapısı anlatılmıyor",
+    "alinti_kisa": "İndus veya Harappa adıyla bilinen yüksek uygarlığı"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "https://www.britannica.com/topic/Indus-civilization/Introduction",
+    "neden": "HTTP 403; arşiv aynası denemesi engellendi"
+   },
+   {
+    "url": "https://www.harappa.com/indus4/e1.html",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://www.harappa.com/node/2844",
+    "neden": "HTTP 403"
+   },
+   {
+    "url": "https://rafiquemughal.com/.../MUGHAL_1988_Genesis-of-the-Indus_Lahore-Mus-Bulletin.pdf",
+    "neden": "taranmış PDF, metin çıkmadı"
+   }
+  ],
+  "oneri": "Mohenjo-daro yerleşimi eklenmeli (data/yerlesimler_mo_iran_asya.js; Sind, Larkana güneyi, koordinat kaynaklı) ve s: harappa dilimi; ancak -2599..-2549 aralığında Mohenjo-daro'nun iskân başlangıcı bu oturumda KAYNAKLA okunamadı -> f değeri verilmiyor ('gün yok, yıl yok'). Kesin değişiklik öncesi Possehl/Kenoyer ya da Treccani/Britannica'dan iskân tarihi okunmalı. Kopukluk atlasta 'şehir kümesi, kesintisiz bölge değil' beyanıyla da bırakılabilir.",
+  "olcum": {
+   "no": 39,
+   "devlet": "harappa",
+   "f": "-2599-01-01",
+   "t": "-2549-01-01",
+   "sure_yil": 50.0,
+   "alan_km2": 174055,
+   "uzak_km": 268,
+   "lat": 30.89,
+   "lon": 73.6,
+   "sinif": "KARA-BOS",
+   "koridor": {},
+   "cevre": {},
+   "kor_pct_min": 0,
+   "kor_pct_max": 0,
+   "petek_sayisi": 1
+  }
+ },
+ {
+  "no": 40,
+  "devlet": "avusturya",
+  "f": "1548-01-01",
+  "t": "1759-01-01",
+  "sinif": "VERİ-EKSİĞİ",
+  "guven": "orta",
+  "ozet": "Kopuk parça Kuzey Tirol/Vorarlberg (Innsbruck, Landeck, Bregenz, Feldkirch). Treccani Tirolo: Habsburglar 1363'te Tirol'ü kattı, 1363-1473 arası Vorarlberg'i aldı, 1504-06 Kitzbühel/Kufstein/Rattenberg, 1515 Ampezzo; Brixen ve Trento ayrı prens-piskoposluk, Tirol kontları çevrede hakim. Atlasta Brixen almanya ve Tirol Kalesi (Tirolo) s: yalnız 1140-1281 tirol-kontlugu, sonrası boş; Bolzano/Meran/Bruneck yok. Bu yüzden Innsbruck (Kuzey Tirol) ile Lienz (Doğu Tirol) arasındaki Güney Tirol petekleri Brixen'e/boşluğa kalıyor. Koridor etiketindeki 'venedik' ise Cortina/Belluno-Friuli doğrultusu; Karintiya (Klagenfurt avusturya) ile Habsburg bağı Lienz üzerinden kurulabildiğinden bu hat sorunu açıklamaz. Brixen/Trento piskoposluklarının kendisi (kısmen) gerçek ayrı topraklardı.",
+  "okunan_sayfalar": [
+   {
+    "url": "https://www.treccani.it/enciclopedia/tirolo_(Enciclopedia-Italiana)/",
+    "ne_okundu": "1363 Habsburg, Tirol sınır değişimleri 1363-1652, Brixen/Trento 1027-1802, Lienz Doğu Tirol",
+    "alinti_kisa": "I due principati vescovili vengono secolarizzati nel 1802"
+   },
+   {
+    "url": "https://www.treccani.it/enciclopedia/tirolo/",
+    "ne_okundu": "Tirol kontları, Habsburglar 1363, Brixen/Trento 1803'te Tirol'e katıldı",
+    "alinti_kisa": "Gli Asburgo gained control in 1363 (özet)"
+   }
+  ],
+  "okunamadi": [
+   {
+    "url": "TDV/Britannica Tirol",
+    "neden": "Britannica 403; TDV'de Tirol maddesi aranmadı"
+   }
+  ],
+  "oneri": "data/yerlesimler_once1281_yt_avrupa.js: Tirol Kalesi (Tirolo) s'e ek dilim {d:'avusturya', f:'1526-08-29', t:'1805-12-26'} (Innsbruck'un atlasta kullanılan zinciriyle aynı; Treccani Habsburg Tirol'ü yıl 1363, gün yok). Ayrıca Güney Tirol için Bolzano/Meran/Bruneck yerleşimleri yok: eklenmeli ve avusturya yazılmalı (koordinat/kaynak bu oturumda okunmadı, değer verilmedi). Brixen (Bressanone) ve Trento 1281-1803 almanya zinciri prens-piskoposluk olarak GERÇEK, dokunulmaz.",
+  "olcum": {
+   "no": 40,
+   "devlet": "avusturya",
+   "f": "1548-01-01",
+   "t": "1759-01-01",
+   "sure_yil": 211.0,
+   "alan_km2": 39381,
+   "uzak_km": 54,
+   "lat": 47.36,
+   "lon": 10.53,
+   "sinif": "KARA-KORIDOR",
+   "koridor": {
+    "venedik": 100
+   },
+   "cevre": {
+    "almanya": 52,
+    "graubunden": 15,
+    "isvicre": 13,
+    "venedik": 13
+   },
+   "kor_pct_min": 100,
+   "kor_pct_max": 100,
+   "petek_sayisi": 1
+  }
+ }
+]
