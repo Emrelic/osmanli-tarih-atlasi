@@ -1496,12 +1496,7 @@ BEYAN_EDILEN_BOSLUK = {
     #   Doha'nın 1193 günlük deliği (1913-1916) `s:{d:"katar"}` ile kapatıldı
     #   (ab1df42) — aynı yol buraya da açık, eksik olan kaynak.
     ("Katar Yarımadası (iç, dolgu)", "1795-04-01", "1868-01-01"),  # 1670-1795 Benî Hâlid (post-it #122)
-    # 🟢 Cibri (Güçlü) 1508-1515 — Cizre beyanının İKİZİ (TR-1923-SINIR, 15 Eylül 2026).
-    # Köy Cizre'nin 10,1 km batısında bir SINIR ÇİFTİ noktası; zinciri Cizre
-    # kaydından birebir (denetim/ARAC-TR1923-YAZ-0914.py). Boşluk aynı TDV `cizre`
-    # hükmüne dayanıyor: Bohtan beyliğinin mahallî idaresi, künyesi yok.
-    # 🔜 `cizre-beyligi` künyesi yazılınca BU SATIR DA silinir ve köy yeniden üretilir.
-    ("Cibri (Güçlü)", "1508-01-01", "1515-09-19"),
+    # (Cibri (Güçlü) 1508-1515 beyanı 29 Ekim 2026'da KALDIRILDI: dönem artık boşluk değil — BAYAT BEYAN uyarısı.)
 }
 
 

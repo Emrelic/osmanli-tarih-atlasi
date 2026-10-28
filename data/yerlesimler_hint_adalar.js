@@ -48,15 +48,15 @@ window.YERLESIMLER_HINT_ADALAR = [
      {f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947 (Andaman ve Nikobar Hindistan Birliği'ne katıldı); Britannica India."}],
   kaynak:"koordinat: GeoNames Port Blair (11.6234, 92.7265) — yaklaşık." },
 
-{ ad:"Home Island (Cocos Keeling)", tur:"liman", lat:-12.1167, lon:96.8997, g:0, k:0, kur:"1857-01-01",
+{ ad:"Home Island (Cocos Keeling)", tur:"liman", lat:-12.1627, lon:96.9165, g:0, k:0, kur:"1857-01-01",
   s:[{f:"1857-01-01",t:"1955-11-23",d:"ingiltere",kesinlik:"yil",kaynak:"Cocos (Keeling): Clunies-Ross iskânı 1827; İngiltere ilhakı 1857 (Fremantle). Gün teyitsiz — YIL hassasiyeti; aday kaynak: Cocos Keeling Islands, Australian Government (infrastructure.gov.au) — RESMÎ, akademik değil, AÇILMADI. HINT-OKYANUSU 28 Ekim 2026."},
      {f:"1955-11-23",t:"2000-12-31",d:"avustralya",kaynak:"Cocos (Keeling) Islands Act 1955: 23 Kasım 1955 Avustralya'ya devir (avustralya künyesine madde eklendi; gün resmî Avustralya kaynağından, akademik teyit bekliyor)."}],
-  kaynak:"koordinat: Home Island ≈ -12.117, 96.900 (yaklaşık)." },
+  kaynak:"koordinat: Home Island köyü ≈ -12.117, 96.900 (yaklaşık). 29 Ekim 2026: nokta ne_10m_land kara maskesinin 5,35 km dışındaydı (maske bu adacığı kaba çiziyor); denetle önerisi -12.1627, 96.9165 (kara maskesinde sınandı) yazıldı — gerçek köy yeri ile ~5 km fark BEYANLI YAKLAŞIKLIK." },
 
-{ ad:"Flying Fish Cove (Christmas Adası)", tur:"liman", lat:-10.4217, lon:105.6791, g:0, k:0, kur:"1888-01-01",
+{ ad:"Flying Fish Cove (Christmas Adası)", tur:"liman", lat:-10.4395, lon:105.6881, g:0, k:0, kur:"1888-01-01",
   s:[{f:"1888-01-01",t:"1958-10-01",d:"ingiltere",kesinlik:"yil",kaynak:"Christmas Adası 1888'de İngiltere'ye katıldı ve Flying Fish Cove'da iskân başladı; gün ve ilhak biçimi teyitsiz — YIL hassasiyeti. Aday kaynak: Christmas Island, Australian Government — AÇILMADI. HINT-OKYANUSU 28 Ekim 2026."},
      {f:"1958-10-01",t:"2000-12-31",d:"avustralya",kaynak:"Christmas Island Act 1958: 1 Ekim 1958 Avustralya'ya devir (avustralya künyesine madde eklendi; resmî kaynak, akademik teyit bekliyor)."}],
-  kaynak:"koordinat: Flying Fish Cove ≈ -10.42, 105.68 (yaklaşık)." },
+  kaynak:"koordinat: Flying Fish Cove ≈ -10.42, 105.68 (yaklaşık). 29 Ekim 2026: nokta kara maskesinin 2,16 km dışındaydı; denetle önerisi -10.4395, 105.6881 (kara maskesinde sınandı) yazıldı — BEYANLI YAKLAŞIKLIK." },
 
 { ad:"Diego Garcia (Chagos)", tur:"liman", lat:-7.3195, lon:72.4228, g:0, k:0, kur:"1793-01-01",
   s:[{f:"1793-01-01",t:"1814-05-30",d:"fransa-cumhuriyet",kesinlik:"yil",kaynak:"Chagos'ta Fransız hindistan cevizi iskânı 1790'larda başladı (Diego Garcia'da 1793 civarı); öncesi iskânsız. Yıl yaklaşık — aday kaynak: Sandra Evers & Marry Kooy (ed.), Eviction from the Chagos Islands (Brill 2011) — AÇILMADI. BEYANLI YAKLAŞIKLIK."},
