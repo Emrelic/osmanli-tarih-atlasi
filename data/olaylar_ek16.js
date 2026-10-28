@@ -718,4 +718,8 @@ window.OLAYLAR_EK16 = [
 { t:"1702-10-22", k:"diger", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"], b:"Rusya Nöteborg'u (Oreşek) İsveç'ten aldı — Büyük Kuzey Savaşı'nın ilk Neva kalesi", gun:"22 Ekim 1702 (Gregoryen; Jülyen 11 Ekim)", yer:"Oreşek (Nöteborg)", yer_id:"Oreşek (Nöteborg)",
   d:"I. Petro'nun orduları Ladoga'nın çıkışındaki Nöteborg'u (Rusça Oreşek) kuşatıp aldı ve adını Şlisselburg ('Anahtar Kale') koydu; bu, Neva'ya ve 1703'te St. Petersburg'un kuruluşuna giden yolu açtı.",
   kaynak:"Britannica «Great Northern War»; Riasanovsky & Steinberg (2010) — kitap/ansiklopedi, sayfa açılmadı [bilgi; teyit bekler]; Jülyen/Gregoryen farkı beyanlı" },
+// ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): Šiauliai 1944
+{ t:"1944-07-27", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Šiauliai Kızıl Ordu'ca alındı — Šiauliai harekâtı", gun:"27 Temmuz 1944 [kısmen doğrulandı, ±1]", yer:"Šiauliai", yer_id:"Šiauliai",
+  d:"1. Baltık Cephesi Litvanya'nın kuzeyindeki demiryolu kavşağı Šiauliai'yi aldı; harekât 5 Temmuz-29 Ağustos 1944 sürdü ve Riga Körfezi'ne varıldı.",
+  kaynak:"Šiauliai offensive (Vikipedi); Karlshorst müzesi fotoğraf kaydı (berlin.museum-digital.de) — arama özeti [özet]; elle doğrulama bekler" },
 ];
