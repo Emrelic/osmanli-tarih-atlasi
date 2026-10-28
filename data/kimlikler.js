@@ -122,8 +122,8 @@ window.KIMLIKLER = {
   // aynı şekilde uygulandı (Oturum 9, KOORDİNATÖR'ün "7 pencere boyanmıyor"
   // bildirimi üzerine — 7 pencerenin sebebi buydu).
   "arnavutluk-bagimsiz": { ad:"Arnavutluk Prensliği (Bağımsız)", f:"1912-11-28", t:"1923-10-29", bolge:"balkanlar", esad:["arnavutluk"], harita:"arnavutluk" },
-  "eflak": { ad:"Eflak Voyvodalığı (Wallachia)", f:"1330-01-01", t:"1859-01-24", bolge:"balkanlar", harita:"eflak" },
-  "bogdan": { ad:"Boğdan Voyvodalığı (Moldavia)", f:"1359-01-01", t:"1859-01-24", bolge:"balkanlar", harita:"bogdan" },
+  "eflak": { ad:"Eflak Voyvodalığı (Wallachia)", f:"1330-01-01", t:"1859-02-05", bolge:"balkanlar", harita:"eflak" },
+  "bogdan": { ad:"Boğdan Voyvodalığı (Moldavia)", f:"1359-01-01", t:"1859-02-05", bolge:"balkanlar", harita:"bogdan" },
   "erdel": { ad:"Erdel Prensliği (Transilvanya)", f:"1570-01-01", t:"1711-04-30", bolge:"orta-avrupa", harita:null },
   "mora-despotlugu": { ad:"Mora Despotluğu", f:"1349-01-01", t:"1460-05-31", bolge:"balkanlar", harita:null },
   "atina-dukaligi": { ad:"Atina Dukalığı", f:"1205-01-01", t:"1458-06-04", bolge:"balkanlar", esad:["atinadukaligi"], harita:"atinadukaligi" },
@@ -155,7 +155,7 @@ window.KIMLIKLER = {
   "sarki-rumeli": { ad:"Şarkî Rumeli Vilayeti (Özerk)", f:"1878-07-13", t:"1885-09-18", bolge:"balkanlar", harita:null },
   "bulgaristan-prensligi": { ad:"Bulgaristan Prensliği", f:"1878-07-13", t:"1908-10-05", bolge:"balkanlar", esad:["bulgaristan"], harita:"bulgaristan" },
   "bulgaristan-kralligi": { ad:"Bulgaristan Krallığı (Çarlık)", f:"1908-10-05", t:"1923-10-29", bolge:"balkanlar", esad:["bulgaristan"], harita:"bulgaristan" },
-  "romanya": { ad:"Romanya", f:"1859-01-24", t:"1881-03-26", bolge:"balkanlar", harita:"romanya" },
+  "romanya": { ad:"Romanya", f:"1859-02-05", t:"1881-03-26", bolge:"balkanlar", harita:"romanya" },
   "romanya-kralligi": { ad:"Romanya Krallığı", f:"1881-03-26", t:"1923-10-29", bolge:"balkanlar", esad:["romanya"], harita:"romanya" },
   "bosna-isgal": { ad:"Bosna-Hersek (Avusturya İşgali)", f:"1878-07-13", t:"1908-10-06", bolge:"balkanlar", harita:null },
   "girit-devleti": { ad:"Girit Devleti (Özerk)", f:"1898-12-09", t:"1913-05-30", bolge:"balkanlar", harita:null },

@@ -1060,8 +1060,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"eflak", ad:"Eflak Voyvodalığı (Wallachia)", tur:"prenslik", bolge:"balkanlar",
-  f:"1330-01-01", t:"1859-01-24", baskent:"Bükreş", harita:"eflak",
-  tabi:[{f:"1462-06-01", t:"1859-01-24", ust:"osmanli"}],
+  f:"1330-01-01", t:"1859-02-05", baskent:"Bükreş", harita:"eflak",
+  tabi:[{f:"1462-06-01", t:"1859-02-05", ust:"osmanli"}],
   ozet:"Tuna'nın kuzeyinde Osmanlı'ya vasal kalan voyvodalık; Boğdan ile birleşerek Romanya'nın çekirdeğini oluşturdu.",
   kaynak:"eflak",
   kronoloji:[
@@ -1069,12 +1069,12 @@ window.DEVLETLER = [
     { odak_yer:["Bükreş"], t:"1395-05-17", tur:"savas", b:"Rovine'de Osmanlı'ya karşı direndi" },
     { odak_yer:["Bükreş"], t:"1417-01-01", tur:"antlasma", b:"Osmanlı vasalı (haraçgüzar) statüsü kabul edildi" },
     { odak_yer:["Bükreş"], t:"1821-01-01", tur:"isyan", b:"Tudor Vladimirescu isyanı" },
-    { odak_yer:["Bükreş"], t:"1859-01-24", tur:"birlesme", b:"Boğdan ile kişisel birlik kurarak Romanya'nın temelini attı" }
+    { odak_yer:["Bükreş"], t:"1859-02-05", tur:"birlesme", b:"Boğdan ile kişisel birlik kurarak Romanya'nın temelini attı" }
   ]
 },
 { id:"bogdan", ad:"Boğdan Voyvodalığı (Moldavia)", tur:"prenslik", bolge:"balkanlar",
-  f:"1359-01-01", t:"1859-01-24", baskent:"Suceava → Iaşi", harita:"bogdan",
-  tabi:[{f:"1456-06-01", t:"1859-01-24", ust:"osmanli"}],
+  f:"1359-01-01", t:"1859-02-05", baskent:"Suceava → Iaşi", harita:"bogdan",
+  tabi:[{f:"1456-06-01", t:"1859-02-05", ust:"osmanli"}],
   ozet:"Kuzey Tuna voyvodalığı (ülke sürekliliği, Romanya'nın çekirdeği); Osmanlı'ya 1455'te haraca, 1484'te kesin bağlandı; 1859'da Cuza'nın çifte seçimiyle Eflak'la birleşti.",
   kaynak:"bogdan",
   kronoloji:[
@@ -1083,7 +1083,7 @@ window.DEVLETLER = [
     { odak_yer:["Bălți"], t:"1475-01-10", tur:"savas", b:"Ştefan cel Mare, Vaslui'de Osmanlı'yı yendi (Valea Albă'da ertesi yıl yenildi)", kaynak:"TDV: bogdan · romanya: Vaslui yenilgisi 1475 — YIL; gün 01-10 eski kayıttan (KRONO-TUNA-0929 A1)" },
     { odak_yer:["Bălți"], t:"1512-01-01", tur:"antlasma", b:"Osmanlı vasalı statüsü kesinleşti" },
     { odak_yer:["Bălți"], t:"1538-09-14", tur:"savas", b:"Kanunî'nin seferiyle Petru Rareş tahttan indirildi, vasallık sıkılaştırıldı" },
-    { odak_yer:["Bălți"], t:"1859-01-24", tur:"birlesme", b:"Eflak ile birleşerek Romanya'nın temelini attı" }
+    { odak_yer:["Bălți"], t:"1859-02-05", tur:"birlesme", b:"Eflak ile birleşerek Romanya'nın temelini attı" }
   ]
 },
 { id:"erdel", ad:"Erdel Prensliği (Transilvanya)", tur:"prenslik", bolge:"orta-avrupa",
@@ -1512,11 +1512,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"romanya", ad:"Romanya", tur:"prenslik", bolge:"balkanlar",
-  f:"1859-01-24", t:"1881-03-26", baskent:"Bükreş", harita:"romanya",
+  f:"1859-02-05", t:"1881-03-26", baskent:"Bükreş", harita:"romanya",
   ozet:"Romen devlet sürekliliğinin bir evresi (ülke sürekliliği): Eflak-Boğdan'ın 1859 kişisel birliğiyle doğdu, 1877 bağımsızlık ilanı ve 1878 Berlin Kongresi tanımasıyla pekişti, 1881'de krallığa dönüştü.",
   kaynak:"romanya",
   kronoloji:[
-    { odak_yer:["Bükreş"], t:"1859-01-24", tur:"birlesme", b:"Eflak ve Boğdan, Alexandru Ioan Cuza önderliğinde birleşti" },
+    { odak_yer:["Bükreş"], t:"1859-02-05", tur:"birlesme", b:"Eflak ve Boğdan, Alexandru Ioan Cuza önderliğinde birleşti" },
     { odak_yer:["Bükreş"], t:"1877-05-21", tur:"isyan", b:"Bağımsızlığını ilan etti (93 Harbi'nde Rusya'nın yanında savaştı)" },
     { odak_yer:["Berlin"], t:"1878-07-13", tur:"antlasma", b:"Berlin Kongresi'nde bağımsızlığı tanındı" },
     { odak_yer:["Bükreş"], t:"1881-03-26", tur:"son", b:"Krallık ilan edildi" }

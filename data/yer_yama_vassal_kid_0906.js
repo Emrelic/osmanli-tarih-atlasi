@@ -14,7 +14,7 @@
 // 🔴 `kid` YALNIZ KÜNYE PENCERESİ DÖNEMİ KAPSIYORSA YAZILDI (`§3.5.0`).
 //   23 dönem pencereyi AŞIYOR ve onlara `kid` YAZILMADI — yazsaydım
 //   23 adet `4c`/`4d` ihlali doğardı. Üçü de GERÇEK bir tarih sorusu:
-//     eflak/bogdan → 1859-01-24 (iki prensliğin BİRLEŞMESİ) vs veri 1878
+//     eflak/bogdan → 1859-02-05 (iki prensliğin BİRLEŞMESİ) vs veri 1878
 //     erdel        → 1541 Budin'in düşüşü vs künye 1570 Speyer (UNVAN)
 //     Sofya        → 1878-01-04 Ayastefanos vs künye 1878-07-13 Berlin
 //   Ayrıntı: denetim/ESLEME-VASSAL-KUNYE-0906.md §⑨
