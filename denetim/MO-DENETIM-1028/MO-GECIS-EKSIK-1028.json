@@ -1,0 +1,268 @@
+[
+ {
+  "yer": "Hemedan",
+  "d": "part",
+  "from": null,
+  "f": "-0147-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Hemedan",
+  "d": "medya",
+  "from": "ahamenis",
+  "f": "-0677-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Şam",
+  "d": "yeni-asur",
+  "from": "__BOSLUK__",
+  "f": "-0731-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Hierakonpolis HK11C (Naqada IC-IIB iskan)",
+  "d": "naqada-kultur",
+  "from": null,
+  "f": "-3639-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Meroe",
+  "d": "kush-krallik",
+  "from": null,
+  "f": "-0299-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Caral",
+  "d": "caral-norte-chico",
+  "from": null,
+  "f": "-2301-01-01",
+  "kes": null
+ },
+ {
+  "yer": "La Venta",
+  "d": "olmek",
+  "from": null,
+  "f": "-0799-01-01",
+  "kes": null
+ },
+ {
+  "yer": "El Mirador",
+  "d": "maya-orta-preklasik",
+  "from": null,
+  "f": "-0799-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Aguada Fénix",
+  "d": "maya-orta-preklasik",
+  "from": null,
+  "f": "-0899-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Yinxu (Anyang)",
+  "d": "shang",
+  "from": null,
+  "f": "-1224-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Banpo (Yangshao, Banpo evresi)",
+  "d": "yangshao",
+  "from": null,
+  "f": "-4799-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)",
+  "d": "yangshao",
+  "from": null,
+  "f": "-4899-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Dholavira",
+  "d": "erken-harappa",
+  "from": "harappa",
+  "f": "-2999-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Lothal",
+  "d": "harappa",
+  "from": null,
+  "f": "-2449-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Rakhigarhi",
+  "d": "harappa",
+  "from": "gec-harappa",
+  "f": "-2549-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Eriha (Tell es-Sultan)",
+  "d": "ppna-guney-levant",
+  "from": "ppnb-guney-levant",
+  "f": "-9299-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Ain Ghazal",
+  "d": "ppnb-guney-levant",
+  "from": "ppnc-guney-levant",
+  "f": "-8399-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Ba'ja",
+  "d": "ppnb-guney-levant",
+  "from": null,
+  "f": "-7499-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Nevalı Çori",
+  "d": "aseramik-kuzey-levant-anadolu",
+  "from": null,
+  "f": "-8499-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Çayönü Tepesi",
+  "d": "aseramik-kuzey-levant-anadolu",
+  "from": null,
+  "f": "-8629-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Hallan Çemi",
+  "d": "aseramik-kuzey-levant-anadolu",
+  "from": null,
+  "f": "-9659-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Jerf el-Ahmar",
+  "d": "aseramik-kuzey-levant-anadolu",
+  "from": null,
+  "f": "-9449-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Göbekli Tepe",
+  "d": "aseramik-kuzey-levant-anadolu",
+  "from": null,
+  "f": "-9528-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Çatalhöyük",
+  "d": "orta-anadolu-neolitik",
+  "from": null,
+  "f": "-7099-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Boncuklu Höyük",
+  "d": "orta-anadolu-neolitik",
+  "from": null,
+  "f": "-8299-01-01",
+  "kes": null
+ },
+ {
+  "yer": "Girsu (Tell Telloh)",
+  "d": "sumer-lagas-1",
+  "from": "__BOSLUK__",
+  "f": "-2474-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Uruk (Warka)",
+  "d": "kassit-babil",
+  "from": "__BOSLUK__",
+  "f": "-1464-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Uruk (Warka)",
+  "d": "larsa",
+  "from": "babil-eski",
+  "f": "-1801-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Kiş (Tell Uhaimir)",
+  "d": "akad",
+  "from": null,
+  "f": "-2323-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Karthago",
+  "d": "kartaca",
+  "from": null,
+  "f": "-0759-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Babil",
+  "d": "orta-asur",
+  "from": "__BOSLUK__",
+  "f": "-1219-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Dura-Europos",
+  "d": "part",
+  "from": null,
+  "f": "-0112-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Susa",
+  "d": "elam-sukkalmah",
+  "from": "elam-orta",
+  "f": "-1899-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Susa",
+  "d": "elam-simaski",
+  "from": "elam-sukkalmah",
+  "f": "-2023-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Megiddo",
+  "d": "yeni-asur",
+  "from": null,
+  "f": "-0731-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Veii",
+  "d": "roma-cumhuriyeti",
+  "from": null,
+  "f": "-0395-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Veii",
+  "d": "etrusk-sehir-devletleri",
+  "from": "roma-cumhuriyeti",
+  "f": "-0574-01-01",
+  "kes": "onyil"
+ },
+ {
+  "yer": "Korint",
+  "d": "korint",
+  "from": null,
+  "f": "-0799-01-01",
+  "kes": "onyil"
+ }
+]
