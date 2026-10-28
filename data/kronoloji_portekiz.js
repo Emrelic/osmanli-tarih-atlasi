@@ -166,7 +166,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"I. Manuel, Hindistan'la bütün ticareti kraliyet tekeli hâlinde yürütmek için Casa da Índia'yı kurdu; kurum, Hindistan seferlerinin finansmanından baharatın Avrupa'ya dağıtımına kadar bütün zinciri denetledi. 1503'te Henrique'in eski Gine-Mina kurumunu da içine alarak Portekiz'in bütün denizaşırı ticaretinin tek elden yönetildiği bir devlet tekeline dönüştü.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (kurumun 1500 tarihi ve işlevi çoklu akademik kaynakla teyitli)" },
 
-{ t:"1500-03-09", b:"Cabral filosu Hindistan'a yola çıktı, Brezilya'ya rastladı", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"", odak_yer:"Porto Seguro",
+{ t:"1500-04-22", b:"Cabral filosu Hindistan yolunda Brezilya kıyısına ulaştı (Monte Pascoal)", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"", odak_yer:"Porto Seguro",
   etiket:["toprak-kazanc","ekonomi","konu-askeri","konu-ekonomi"],
   d:"Pedro Álvares Cabral, on üç gemilik bir filoyla Hindistan'a giderken rotası Atlantik'in batısına kaydı ve 22 Nisan 1500'de bugünkü Brezilya kıyısını gördü; toprağı 'Vera Cruz Adası' sanarak Portekiz adına ilhak etti. Tordesillas hattının Brezilya'yı Portekiz payına düşürmesiyle birleşince bu rastlantı, üç asır sürecek bir Güney Amerika sömürgesinin başlangıcı oldu.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Britannica, 'Pedro Alvares Cabral'; Encyclopaedia of Portuguese Expansion — FCSH/Universidade Nova de Lisboa, 'The Discovery of Brazil')" },

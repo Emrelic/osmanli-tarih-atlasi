@@ -856,7 +856,7 @@ window.YERLESIMLER_4FF22B = [
 window.YERLESIMLER_AMERIKA2 = [
 
 { ad:"Huamanga (Ayacucho)", tur:"sehir", lat:-13.1588, lon:-74.2239, g:1, k:1, kur:"1539-01-09",
-  s:[{f:"1539-01-09",t:"1824-12-09",d:"ispanyol-peru"},
+  s:[{f:"1539-01-09",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},
      {f:"1824-12-09",t:"2000-12-31",d:"peru-cumhuriyeti"}] },
 // kaynak: ① Encyclopaedia Britannica "Ayacucho" md. — "In 1539 the
 //         conquistador Francisco Pizarro conquered the area ... and named

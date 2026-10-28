@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "85a9e5973ddb0dc9",
-     "bayt": 5480784
+     "sha": "358635cfb6dfc711",
+     "bayt": 5481300
     }
    ],
-   "bayt": 5660592
+   "bayt": 5661108
   },
   {
    "paket": "data/paket_06.js",
@@ -269,8 +269,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_guney_g8.js",
-     "sha": "eb49dfcc4cd0c24f",
-     "bayt": 60213
+     "sha": "9817e0c9565f790d",
+     "bayt": 60534
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_orta.js",
@@ -329,8 +329,8 @@
     },
     {
      "yol": "data/kronoloji_portekiz.js",
-     "sha": "b1b4ef5a24305ad0",
-     "bayt": 71858
+     "sha": "d9ea061f1ee96ff4",
+     "bayt": 71873
     },
     {
      "yol": "data/kronoloji_cin.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1088185
+   "bayt": 1088521
   },
   {
    "paket": "data/paket_10.js",
@@ -891,11 +891,11 @@
     },
     {
      "yol": "data/yerlesimler_amerika.js",
-     "sha": "067561cb5916ee61",
-     "bayt": 98410
+     "sha": "acebb031e1574f21",
+     "bayt": 98895
     }
    ],
-   "bayt": 290271
+   "bayt": 290756
   },
   {
    "paket": "data/paket_17.js",
@@ -912,8 +912,8 @@
     },
     {
      "yol": "data/yerlesimler_0ee15e.js",
-     "sha": "bb1119a093f7d125",
-     "bayt": 12719
+     "sha": "238d64611aced456",
+     "bayt": 12763
     },
     {
      "yol": "data/yerlesimler_e9353f.js",
@@ -921,7 +921,7 @@
      "bayt": 69166
     }
    ],
-   "bayt": 110440
+   "bayt": 110484
   },
   {
    "paket": "data/paket_18.js",
@@ -1005,8 +1005,8 @@
     },
     {
      "yol": "data/yerlesimler_amerika2.js",
-     "sha": "8fcb5c9321acc2db",
-     "bayt": 5238
+     "sha": "0a9789d62da65ad2",
+     "bayt": 5282
     },
     {
      "yol": "data/yerlesimler_hindistan.js",
@@ -1014,7 +1014,7 @@
      "bayt": 7098
     }
    ],
-   "bayt": 141395
+   "bayt": 141439
   },
   {
    "paket": "data/paket_21.js",
@@ -1590,8 +1590,8 @@
     },
     {
      "yol": "data/kronoloji_cok_guney_amerika.js",
-     "sha": "909841b4e98a566e",
-     "bayt": 68158
+     "sha": "5ede67d2ef48e8c4",
+     "bayt": 78182
     },
     {
      "yol": "data/kronoloji_cok_gurcistan.js",
@@ -1629,7 +1629,7 @@
      "bayt": 13985
     }
    ],
-   "bayt": 956284
+   "bayt": 966308
   }
  ]
 }

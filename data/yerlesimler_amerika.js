@@ -481,7 +481,7 @@ window.YERLESIMLER_AMERIKA = [
   neden:"1281-1487 arası Quitu-Cara/Caranqui konfederasyonunun siyasi yapısı hakkında akademik kaynak bu taneciklikte konuşmuyor.",
   s:[{f:"1487-01-01",t:"1534-01-01",d:"inka-imparatorlugu"},
      {f:"1534-01-01",t:"1534-12-06",d:"ispanya"},
-     {f:"1534-12-06",t:"1822-05-24",d:"ispanyol-peru"},
+     {f:"1534-12-06",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1822-05-24",d:"ispanyol-peru"},
      {f:"1822-05-24",t:"1830-05-13",d:"gran-kolombiya"},
      {f:"1830-05-13",t:"2000-12-31",d:"ekvador-cumhuriyeti"}] },
 // kaynak: Terence N. D'Altroy, "The Incas" (2015), s. 76-80; John Hemming, "The Conquest of
@@ -545,7 +545,7 @@ window.YERLESIMLER_AMERIKA = [
 // ---------- Kolonyal büyük şehirler — İspanyol And valiliği (MEVCUT KİMLİK) ----------
 
 { ad:"Lima (Ciudad de los Reyes)", tur:"sehir", lat:-12.0464, lon:-77.0428, g:2, k:1, kur:"1535-01-18",
-  s:[{f:"1535-01-18",t:"1824-12-09",d:"ispanyol-peru"},
+  s:[{f:"1535-01-18",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},
      {f:"1824-12-09",t:"2000-12-31",d:"peru-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I, ed. L. Bethell (1984); Hemming (1993), s. 175-180.
 // k gerekçesi: And valiliğinin başkenti — k:1
@@ -563,32 +563,32 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: bölgesel idari merkez — k:2
 
 { ad:"Sucre (La Plata / Chuquisaca)", tur:"sehir", lat:-19.0333, lon:-65.2627, g:1, k:2, kur:"1538-11-30",
-  s:[{f:"1538-11-30",t:"1825-08-06",d:"ispanyol-peru"},
+  s:[{f:"1538-11-30",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1825-08-06",d:"ispanyol-peru"},
      {f:"1825-08-06",t:"2000-12-31",d:"bolivya-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984) — Charcas Audiencia'sı (1559'dan).
 // k gerekçesi: Charcas Kraliyet Audiencia'sının merkezi — k:2
 
 { ad:"Arequipa", tur:"sehir", lat:-16.4090, lon:-71.5375, g:1, k:3, kur:"1540-08-15",
-  s:[{f:"1540-08-15",t:"1824-12-09",d:"ispanyol-peru"},
+  s:[{f:"1540-08-15",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},
      {f:"1824-12-09",t:"2000-12-31",d:"peru-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984) — Garcí Manuel de Carbajal.
 // k gerekçesi: bölgesel merkez — k:3
 
 { ad:"Trujillo (Peru)", tur:"sehir", lat:-8.1116, lon:-79.0290, g:1, k:3, kur:"1534-11-01",
-  s:[{f:"1534-11-01",t:"1824-12-09",d:"ispanyol-peru"},
+  s:[{f:"1534-11-01",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},
      {f:"1824-12-09",t:"2000-12-31",d:"peru-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984) — Diego de Almagro, Kasım 1534.
 // k gerekçesi: kuzey kıyısı bölgesel merkez — k:3
 
 { ad:"Cartagena de Indias", tur:"liman", lat:10.3910, lon:-75.4794, g:2, k:3, kur:"1533-06-01",
-  s:[{f:"1533-06-01",t:"1821-10-01",d:"ispanyol-peru"},
+  s:[{f:"1533-06-01",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1821-10-01",d:"ispanyol-peru"},
      {f:"1821-10-01",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"2000-12-31",d:"kolombiya-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984) — Pedro de Heredia, 1 Haziran 1533.
 // k gerekçesi: Karayip kıyısının kilit askeri limanı — k:3
 
 { ad:"Popayán", tur:"sehir", lat:2.4448, lon:-76.6147, g:1, k:3, kur:"1537-01-13",
-  s:[{f:"1537-01-13",t:"1819-12-17",d:"ispanyol-peru"},
+  s:[{f:"1537-01-13",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1819-12-17",d:"ispanyol-peru"},
      {f:"1819-12-17",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"2000-12-31",d:"kolombiya-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984) — Sebastián de Belalcázar.
@@ -609,7 +609,7 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: dağlık iç bölge merkezi — k:3
 
 { ad:"Santiago (Şili)", tur:"sehir", lat:-33.4489, lon:-70.6693, g:2, k:2, kur:"1541-02-12",
-  s:[{f:"1541-02-12",t:"1818-02-12",d:"ispanyol-peru"},
+  s:[{f:"1541-02-12",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1818-02-12",d:"ispanyol-peru"},
      {f:"1818-02-12",t:"2000-12-31",d:"sili-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984) — Pedro de Valdivia, 12 Şubat 1541.
 // k gerekçesi: Şili'nin idari merkezi — k:2
@@ -645,7 +645,7 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: iç bölge merkezi — k:3
 
 { ad:"Olinda", tur:"liman", lat:-8.0089, lon:-34.8553, g:1, k:2, kur:"1535-01-01",
-  s:[{f:"1535-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
+  s:[{f:"1535-01-01",t:"1549-01-01",d:"portekiz"},{f:"1549-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
      {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}] },
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984) — Pernambuco kaptanlığının ilk merkezi.
@@ -725,7 +725,7 @@ window.YERLESIMLER_AMERIKA = [
 { ad:"Bacatá (Bogotá)", tur:"sehir", lat:4.7110, lon:-74.0721, g:2, k:2,
   s:[{f:"1281-01-01",t:"1537-04-20",d:"muisca-konfederasyonu"},
      {f:"1537-04-20",t:"1538-08-06",d:"ispanya"},
-     {f:"1538-08-06",t:"1819-12-17",d:"ispanyol-peru"},
+     {f:"1538-08-06",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1819-12-17",d:"ispanyol-peru"},
      {f:"1819-12-17",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"2000-12-31",d:"kolombiya-cumhuriyeti"}] },
 // kaynak: John Hemming, "The Search for El Dorado" (Michael Joseph, 1978), s. 65-90 —
@@ -735,7 +735,7 @@ window.YERLESIMLER_AMERIKA = [
 { ad:"Hunza (Tunja)", tur:"sehir", lat:5.5353, lon:-73.3678, g:2, k:2,
   s:[{f:"1281-01-01",t:"1537-08-01",d:"muisca-konfederasyonu"},
      {f:"1537-08-01",t:"1539-08-06",d:"ispanya"},
-     {f:"1539-08-06",t:"1819-12-17",d:"ispanyol-peru"},
+     {f:"1539-08-06",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1819-12-17",d:"ispanyol-peru"},
      {f:"1819-12-17",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"2000-12-31",d:"kolombiya-cumhuriyeti"}] },
 // kaynak: John Hemming (1978), s. 91-105 — zaque Quemuenchatocha, Ağustos 1537.
