@@ -233,7 +233,7 @@ window.DEVLETLER = [
     { t:"1718-07-21", tur:"toprak-kazanc", b:"Pasarofça — Belgrad ve Sırbistan Habsburg'a geçti" },
     { t:"1739-09-18", tur:"toprak-kayip", b:"Belgrad Antlaşması — Belgrad Osmanlı'ya geri döndü" },
     { t:"1804-08-11", tur:"kurulus", b:"II. Franz, Kutsal Roma'dan ayrı Avusturya İmparatorluğu'nu ilan etti" },
-    { t:"1867-03-30", tur:"bolunme", b:"Ausgleich (Uzlaşma) — Avusturya-Macaristan ikili monarşisi kuruldu" },
+    { t:"1867-05-29", tur:"bolunme", b:"Ausgleich (Uzlaşma) — Macar Diyeti 1867:XII sayılı kanunu kabul etti; Avusturya-Macaristan ikili monarşisi kuruldu" },
     { t:"1878-07-13", tur:"toprak-kazanc", b:"Berlin Kongresi — Bosna-Hersek'i işgal/idare etti" },
     { t:"1908-10-06", tur:"toprak-kazanc", b:"Bosna-Hersek'i ilhak etti" },
     { t:"1914-07-28", tur:"savas", b:"Sırbistan'a savaş ilanı — I. Dünya Savaşı başladı" },
@@ -772,7 +772,7 @@ window.DEVLETLER = [
     { odak_yer:["Bratislava"], t:"1686-09-02", tur:"toprak-kazanc", b:"Kutsal İttifak ordusu Budin'i geri aldı" },
     { odak_yer:["Temeşvar"], t:"1699-01-26", tur:"antlasma", b:"Karlofça Antlaşması ile Osmanlı, Macaristan'dan (Temeşvar hariç) kesin olarak çekildi" },
     { odak_yer:["Bratislava"], t:"1848-03-15", tur:"isyan", b:"1848 Macar Devrimi başladı (1849'da Rus yardımıyla bastırıldı)" },
-    { odak_yer:["Bratislava"], t:"1867-02-08", tur:"antlasma", b:"Ausgleich (Uzlaşma) ile Avusturya-Macaristan ikili monarşisi kuruldu, Macaristan eşit ortak oldu" },
+    { odak_yer:["Bratislava"], t:"1867-05-29", tur:"antlasma", b:"Ausgleich (Uzlaşma): Macar Diyeti 1867:XII sayılı kanunu kabul etti, Avusturya-Macaristan ikili monarşisi kuruldu, Macaristan eşit ortak oldu" },
     { odak_yer:["Bratislava"], t:"1918-11-16", tur:"son", b:"I. Dünya Savaşı sonrası cumhuriyet ilan edildi", ic_not_b:"eski b: I. Dünya Savaşı sonrası cumhuriyet ilan edildi (bkz. [[macaristan-naiplik]])" }
   ]
 },

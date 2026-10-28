@@ -631,7 +631,7 @@ window.KRONOLOJI_HABSBURG = [
 // VIII. İKİLİ MONARŞİ VE ÇÖKÜŞ (1867-1918)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1867-03-30", b:"Ausgleich — Avusturya-Macaristan ikili monarşisi", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1867-05-29", b:"Ausgleich — Avusturya-Macaristan ikili monarşisi", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","milliyetcilik","konu-siyasi","konu-islahat","konu-hukuk"],
   d:"Uzlaşma, Habsburg monarşisini iki egemen devletin birliğine dönüştürdü: her iki yarı kendi anayasası, hükûmeti ve meclisiyle donatıldı; ortak kalan yalnız hükümdar, ordu ve dış siyasetti. Königgrätz'in iç siyasî faturası budur ve 1918'e kadar imparatorluğun anayasal çerçevesi olarak kaldı.",
   kaynak:"Die Welt der Habsburger / Der Erste Weltkrieg, 'Die Doppelmonarchie': \"Der Österreichisch-Ungarische Ausgleich 1867 verwandelte die Habsburgermonarchie in eine Verbindung zweier souveräner Staaten\"; her yarı kendi anayasası, hükûmeti ve halk temsiliyle · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu; kaynak yalnız 1867 diyor)", yer_id:"Viyana" },
