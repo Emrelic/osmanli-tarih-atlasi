@@ -558,8 +558,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "27384b94d24bce1a",
-     "bayt": 1651478
+     "sha": "f87271e70ba3cc01",
+     "bayt": 1651259
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -568,8 +568,8 @@
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
-     "sha": "e5ecae1531c3d952",
-     "bayt": 317297
+     "sha": "54558e622d754183",
+     "bayt": 316859
     },
     {
      "yol": "data/yerlesimler_asya.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3218630
+   "bayt": 3217973
   },
   {
    "paket": "data/paket_14.js",
