@@ -568,8 +568,8 @@
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
-     "sha": "c5d4a878e1f94dc7",
-     "bayt": 364470
+     "sha": "07e076be47d35bfa",
+     "bayt": 368076
     },
     {
      "yol": "data/yerlesimler_asya.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3265946
+   "bayt": 3269552
   },
   {
    "paket": "data/paket_14.js",
@@ -1169,8 +1169,8 @@
     },
     {
      "yol": "data/yerlesimler_a78_avrupa.js",
-     "sha": "3746e75d4f205655",
-     "bayt": 53086
+     "sha": "47f130a8aff2ea12",
+     "bayt": 53704
     },
     {
      "yol": "data/yerlesimler_a78_okyanusya.js",
@@ -1183,7 +1183,7 @@
      "bayt": 14524
     }
    ],
-   "bayt": 357821
+   "bayt": 358439
   },
   {
    "paket": "data/paket_25.js",
