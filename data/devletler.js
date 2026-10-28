@@ -16575,7 +16575,7 @@ window.DEVLETLER = [
     { odak_yer:["Peel"], t:"1265-11-24", tur:"hukumdar", b:"Man kralı Magnus Olafsson ölür; Man'ın İskoçya'ya devri hazırlanır.", kaynak:"Chronicle of Mann; Britannica, 'Isle of Man'" },
     { odak_yer:["Peel"], t:"1266-07-02", tur:"antlasma", b:"Perth Antlaşması: Hebridler ve Man Adası Norveç'ten İskoçya'ya 4000 mark karşılığı geçer.", kaynak:"https://www.hebrideanconnections.com/historical-events/109852" }
   ] },
-{ id:"orkney-kontlugu", ad:"Orkney Kontluğu", tur:"kontluk", bolge:"kuzey-avrupa", f:"1000-01-01", t:"1468-01-01", baskent:"Kirkwall", ozet:"Norveç kralının egemenliğini tanıyan Orkney kontları; 1468'de rehin olarak İskoçya'ya geçti (kesin ilhak 1472 Parlamento kararı). (f pencere)", kaynak:"Britannica 'Norway/History of Norway' (Orkney kontları 1468'e dek Norveç egemenliğini tanıdı); PSAS makalesi (İskoç Eski Eserler Cemiyeti)", kronoloji:[
+{ id:"orkney-kontlugu", ad:"Orkney Kontluğu", tur:"kontluk", bolge:"kuzey-avrupa", f:"1000-01-01", t:"1472-02-20", ic_not_t:"1468 Orkney, 1469 Shetland rehin sözleşmesidir; hukukî ilhak İskoç Parlamentosu kararıyla 20 Şubat 1472 (Shetland Museum & Archives, B. Smith 2022 + The Orcadian). Künye 1468 (rehin) idi; sahip değişimi 1472 olduğundan t genişletildi. Eski özet: kesin ilhak 1472.", baskent:"Kirkwall", ozet:"Norveç kralının egemenliğini tanıyan Orkney kontları; 1468'de rehin olarak İskoçya'ya geçti (kesin ilhak 1472 Parlamento kararı). (f pencere)", kaynak:"Britannica 'Norway/History of Norway' (Orkney kontları 1468'e dek Norveç egemenliğini tanıdı); PSAS makalesi (İskoç Eski Eserler Cemiyeti)", kronoloji:[
     { odak_yer:["Kirkwall"], t:"1263-01-01", tur:"savas", b:"Largs Muharebesi'nde IV. Hakon İskoçlara yenildi.", kaynak:"Earldom of Orkney / Imsen, Orkney (ssns.org.uk) 2003" },
     { odak_yer:["Kirkwall"], t:"1266-01-01", tur:"antlasma", b:"Perth Antlaşması: Norveç Hebridler ve Man'ı bıraktı, İskoçya Orkney ve Shetland'ın Norveç'te kalmasını kabul etti.", kaynak:"Imsen, Orkney (ssns.org.uk/wp-content/uploads/2019/08/05_Imsen_Orkney_2003_pp_65-80.pdf)" },
     { odak_yer:["Kirkwall"], t:"1379-01-01", tur:"hukumdar", b:"Henry Sinclair Orkney Kontu oldu; Sinclair hanedanı dönemi başladı.", kaynak:"Imsen, Orkney (2003)" },
@@ -19878,7 +19878,7 @@ window.DEVLETLER = [
     { odak_yer:["Forteviot"], t:"0839-01-01", tur:"felaket", b:"Vikinglere karşı yıkıcı yenilgi Pikt kral ailesini çökertti ve Cináed mac Ailpín'in yükselişine giden istikrarsızlık dönemini başlattı (839).", kaynak:"https://en.wikipedia.org/wiki/Oengus_I ; https://muse.jhu.edu/article/208422" },
     { odak_yer:["Forteviot"], t:"0843-01-01", tur:"birlesme", b:"Kenneth I Dal Riata ve Pikt krallıklarini birlestirmeye basladi.", kaynak:"Britannica, Kenneth I (britannica.com/biography/Kenneth-I)" }
   ] },
-{ id:"dublin-krallik", ad:"Dublin (Norse) Krallığı", tur:"krallik", bolge:"bati-avrupa", f:"0841-01-01", t:"1170-01-01", baskent:"Dublin", ozet:"Britannica: Vikingler Duibhlinn'i 841'de aldı; Oxford Companion krallığı 841'den sayar. 1170 Eylül'de Strongbow/Anglo-Normanlar Dublin'i aldı (son kral Asgall 1171'de idam). 902-917 Norse yokluğu.", kaynak:"Britannica 'Dublin: History'; Encyclopedia.com 'Dublin, kingdom of'; Britannica 'Richard FitzGilbert'", kronoloji:[
+{ id:"dublin-krallik", ad:"Dublin (Norse) Krallığı", tur:"krallik", bolge:"bati-avrupa", f:"0841-01-01", t:"1171-01-01", ic_not_t:"Britannica: Strongbow Eylül 1170'te Dublin'i aldı; Store norske leksikon (snl.no): Norse krallık İngilizler kenti 1171'de alınca kesin sona erdi; Treccani 1170. Kaynaklar ayrışıyor, uç 1171-01-01 (yıl) seçildi: Dublin yerleşim zinciriyle (1171 ingiltere) aynı. Gün teyitsiz.", baskent:"Dublin", ozet:"Britannica: Vikingler Duibhlinn'i 841'de aldı; Oxford Companion krallığı 841'den sayar. 1170 Eylül'de Strongbow/Anglo-Normanlar Dublin'i aldı (son kral Asgall 1171'de idam). 902-917 Norse yokluğu.", kaynak:"Britannica 'Dublin: History'; Encyclopedia.com 'Dublin, kingdom of'; Britannica 'Richard FitzGilbert'", kronoloji:[
     { odak_yer:["Dublin"], t:"0841-01-01", tur:"kurulus", b:"Vikingler Duibhlinn'de kalıcı üs (longphort) kurar", kaynak:"Britannica 'Dublin: History'; Encyclopedia.com 'Dublin, kingdom of'" },
     { odak_yer:["Dublin"], t:"0902-01-01", tur:"siyaset", b:"İrlandalılar Norse'ları Dublin'den sürer (917'ye kadar yokluk)", kaynak:"Encyclopedia.com 'Dublin, kingdom of'" },
     { odak_yer:["Dublin"], t:"0917-01-01", tur:"siyaset", b:"Norse yönetimi Dublin'e döner", kaynak:"Encyclopedia.com 'Dublin, kingdom of'" },
@@ -22867,7 +22867,8 @@ window.DEVLETLER = [
   tur:"krallik",
   bolge:"bati-avrupa",
   f:"0914-01-01",
-  t:"1170-01-01",
+  t:"1171-01-01",
+  ic_not_t:"Dictionary of Irish Biography (arama özeti): Strongbow 23 Ağustos 1170 Waterford yakınına çıktı, kent iki gün sonra düştü; Treccani Waterford maddesi 1171. Kaynaklar ayrışıyor; Dublin ile aynı yıl-orta 1171-01-01 seçildi (yerleşim zinciri 1171 ingiltere). Gün teyitsiz.",
   baskent:"Waterford",
   ozet:"Viking kurulusu; Strongbow 1170.",
   kaynak:"The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII Vikingler: İrlanda Norse merkezleri",
@@ -29014,4 +29015,22 @@ window.DEVLETLER = [
     {"odak_yer":["Bağdat"],"t":"2017-12-09","tur":"toprak-kayip","b":"Irak Başbakanı Irak'ta IŞİD'e karşı zaferi ilan etti.","kaynak":"WILSON giriş: 'declared victory over the Islamic State in Iraq on December 9, 2017.'"},
     {"odak_yer":["Bağuz"],"t":"2019-03-23","tur":"son","b":"Bağuz düştü; hilafetin toprak iddiası sona erdi.","kaynak":"WILSON: 'Baghouz fell on March 23, 2019'"}
   ]}
+,{ id:"guanche-politileri", ad:"Kanarya Adaları yerli politileri (Guanche menceyatları ve guanartemelikleri)", tur:"devlet", bolge:"kuzey-afrika",
+  f:"1000-01-01", t:"1496-01-01", baskent:"Gáldar / Taoro",
+  boya_gerekli:true,
+  ozet:"Kanarya Adaları'nın Kastilya fethinden önceki yerli toplulukları: Tenerife'de menceyatlar (Anaga, Tegueste, Tacoronte, Taoro, Icod, Daute, Güímar, Abona, Adeje), Gran Canaria'da Gáldar ve Telde guanartemelikleri, La Palma'da Benahoare cantón'ları, Lanzarote'de Guadarfía, Fuerteventura'da Maxorata ve Jandía. Adalar birbirinden bağımsızdır; atlasta ortak renk kimliğidir, TEK devlet DEĞİLDİR.",
+  kaynak:"Gobierno de Canarias / Cabildo de Gran Canaria (patrimoniohistorico.grancanaria.com): «En Gáldar residieron todos los reyes o guanartemes (...) hasta la Conquista (1483)» ; RAE TDHLE 'mencey' (Berthelot 1839 'dokuz oğul' anlatısı; Bonnet 1956 mit sayar) ; Álvarez Delgado ve ULPGC mdc PDF'leri (gövde 403, özet).",
+  ic_not_f:"f:1000-01-01 UFUK İŞARETİDİR, kuruluş değildir: yerli politilerin kuruluş/bölünme tarihleri kaynakta YOK (Tenerife'nin dokuz menceyatosu ve Gáldar+Telde bölünmesi tarihsiz; dokuzlu bölünme Bonnet 1956'dan beri mit sayılır). Yıl uydurulmadı.",
+  ic_not_t:"t:1496-01-01 Tenerife fethinin (en geç) yılıdır; adalar farklı yıllarda düştü: Lanzarote 1402, Fuerteventura 1404-1405, Gran Canaria 29 Nisan 1483 (gelenek; 1484 alternatifi), La Palma 3 Mayıs 1493 (gelenek), Tenerife 1496 (25 Temmuz belediye metni / 29 Eylül özeti, çelişkili). Her nokta kendi ada ucunu s: ile taşır.",
+  kronoloji:[
+    { odak_yer:["San Cristóbal de La Laguna (Tenerife)"], t:"1496-01-01", tur:"son", b:"Tenerife'nin fethiyle Kanarya Adaları'nın yerli politilerinin sonuncusu (Tenerife menceyatları) Kastilya/İspanya'ya geçti (yalnız yıl teyitli; gün teyitsiz)", kaynak:"Los Realejos Ayuntamiento tarihçe PDF: «se dio por concluida la fase bélica de la conquista de Tenerife el 25 de julio de 1496» (belediye, akademik değil); RAH DB~e Alonso Fernández de Lugo: Tenerife valiliği 1496 sonu." }
+  ] }
+,{ id:"sao-tome-ve-principe", ad:"São Tomé ve Príncipe Cumhuriyeti", tur:"devlet", bolge:"orta-afrika",
+  f:"1975-07-12", baskent:"São Tomé",
+  boya_gerekli:true,
+  ozet:"Gine Körfezi'ndeki iki ada; Portekiz'den 12 Temmuz 1975'te bağımsız oldu.",
+  kaynak:"Store norske leksikon (snl.no), 'São Tomé og Príncipe' (Norveççe): «São Tomé og Príncipe ble uavhengig 12. juli 1975.» (tek kaynak; çift teyit bekler)",
+  kronoloji:[
+    { odak_yer:["São Tomé"], t:"1975-07-12", tur:"kurulus", b:"São Tomé ve Príncipe Portekiz'den bağımsızlığını kazandı", kaynak:"Store norske leksikon (snl.no), 'São Tomé og Príncipe': «ble uavhengig 12. juli 1975»" }
+  ] }
 ];
