@@ -1349,9 +1349,9 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Tenochtitlan (Mexico City)", tur:"sehir", lat:19.4326, lon:-99.1332, g:2, k:1,
   kur:"1325-01-01",
-  s:[{f:"1325-01-01",t:"1428-01-01",d:"aztek-imparatorlugu"},
+  s:[{f:"1325-01-01",t:"1428-01-01",d:"nahua-sehir-devletleri"},
      {f:"1428-01-01",t:"1521-08-13",d:"aztek-imparatorlugu"},
-     {f:"1521-08-13",t:"1535-04-17",d:"ispanya"},
+     {f:"1521-08-13",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: TDV İslâm Ansiklopedisi "amerika" md. (1325 kuruluş, 1519-1521 fetih);
@@ -1360,9 +1360,9 @@ window.YERLESIMLER_AMERIKA = [
 // NOT: 1325-1428 arası basitleştirme — bkz. dosya başı ve "nahua-sehir-devletleri" önerisi.
 
 { ad:"Texcoco", tur:"sehir", lat:19.5039, lon:-98.8823, g:2, k:1,
-  s:[{f:"1281-01-01",t:"1428-01-01",d:"aztek-imparatorlugu"},
+  s:[{f:"1281-01-01",t:"1428-01-01",d:"nahua-sehir-devletleri"},
      {f:"1428-01-01",t:"1521-08-13",d:"aztek-imparatorlugu"},
-     {f:"1521-08-13",t:"1535-04-17",d:"ispanya"},
+     {f:"1521-08-13",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Pedro Carrasco, "The Tenochca Empire of Ancient Mexico" (Univ. of Oklahoma Press, 1999).
@@ -1370,9 +1370,9 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Tlacopan (Tacuba)", tur:"sehir", lat:19.4578, lon:-99.1867, g:1, k:2,
   kur:"1400-01-01",
-  s:[{f:"1400-01-01",t:"1428-01-01",d:"aztek-imparatorlugu"},
+  s:[{f:"1400-01-01",t:"1428-01-01",d:"nahua-sehir-devletleri"},
      {f:"1428-01-01",t:"1521-08-13",d:"aztek-imparatorlugu"},
-     {f:"1521-08-13",t:"1535-04-17",d:"ispanya"},
+     {f:"1521-08-13",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Carrasco (1999) — Tlacopan haraç payı yalnız 1/5, İttifak'ın en zayıf ortağı.
@@ -1382,7 +1382,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Tlaxcala", tur:"sehir", lat:19.3182, lon:-98.2375, g:1, k:1,
   s:[{f:"1281-01-01",t:"1521-08-13",d:"nahua-sehir-devletleri"},
-     {f:"1521-08-13",t:"1535-04-17",d:"ispanya"},
+     {f:"1521-08-13",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Charles Gibson, "Tlaxcala in the Sixteenth Century" (Yale Univ. Press, 1952) —
@@ -1409,7 +1409,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Huexotzinco (Huejotzingo)", tur:"sehir", lat:19.1517, lon:-98.4033, g:0, k:2,
   s:[{f:"1281-01-01",t:"1521-08-13",d:"nahua-sehir-devletleri"},
-     {f:"1521-08-13",t:"1535-04-17",d:"ispanya"},
+     {f:"1521-08-13",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: "The Huexotzinco Codex" (akademik neşri Univ. of Utah Press, 1974).
@@ -1418,7 +1418,7 @@ window.YERLESIMLER_AMERIKA = [
 { ad:"Xochimilco", tur:"sehir", lat:19.2647, lon:-99.1031, g:0, k:3,
   s:[{f:"1281-01-01",t:"1430-01-01",d:"nahua-sehir-devletleri"},
      {f:"1430-01-01",t:"1521-08-13",d:"aztek-imparatorlugu"},
-     {f:"1521-08-13",t:"1535-04-17",d:"ispanya"},
+     {f:"1521-08-13",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: akademik özet — Tenochtitlan 1430'da fethetti (yaklaşık).
@@ -1427,7 +1427,7 @@ window.YERLESIMLER_AMERIKA = [
 { ad:"Chalco", tur:"sehir", lat:19.2667, lon:-98.8833, g:0, k:3,
   s:[{f:"1281-01-01",t:"1465-01-01",d:"nahua-sehir-devletleri"},
      {f:"1465-01-01",t:"1521-08-13",d:"aztek-imparatorlugu"},
-     {f:"1521-08-13",t:"1535-04-17",d:"ispanya"},
+     {f:"1521-08-13",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: akademik özet — Moctezuma I ~1465'te fethetti (yaklaşık).
@@ -1448,7 +1448,7 @@ window.YERLESIMLER_AMERIKA = [
 { ad:"Tzintzuntzan", tur:"sehir", lat:19.6167, lon:-101.5833, g:2, k:1,
   kur:"1300-01-01",
   s:[{f:"1300-01-01",t:"1530-02-14",d:"purepecha-imparatorlugu"},
-     {f:"1530-02-14",t:"1535-04-17",d:"ispanya"},
+     {f:"1530-02-14",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Helen Perlstein Pollard, "Taríacuri's Legacy: The Prehispanic Tarascan State"
@@ -1458,7 +1458,7 @@ window.YERLESIMLER_AMERIKA = [
 { ad:"Pátzcuaro", tur:"sehir", lat:19.5138, lon:-101.6070, g:1, k:2,
   kur:"1325-01-01",
   s:[{f:"1325-01-01",t:"1530-02-14",d:"purepecha-imparatorlugu"},
-     {f:"1530-02-14",t:"1535-04-17",d:"ispanya"},
+     {f:"1530-02-14",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: "Relación de Michoacán" (1540, Fray Jerónimo de Alcalá) — birincil kaynak.
@@ -1467,7 +1467,7 @@ window.YERLESIMLER_AMERIKA = [
 { ad:"Ihuatzio", tur:"sehir", lat:19.5667, lon:-101.6167, g:0, k:2,
   kur:"1325-01-01",
   s:[{f:"1325-01-01",t:"1530-02-14",d:"purepecha-imparatorlugu"},
-     {f:"1530-02-14",t:"1535-04-17",d:"ispanya"},
+     {f:"1530-02-14",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: "Relación de Michoacán" — kurucu üç şehirden biri, asilzade/askeri merkez.
@@ -1477,7 +1477,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Zaachila", tur:"sehir", lat:16.9833, lon:-96.7500, g:1, k:1,
   s:[{f:"1281-01-01",t:"1523-01-01",d:"zapotek-krallik"},
-     {f:"1523-01-01",t:"1535-04-17",d:"ispanya"},
+     {f:"1523-01-01",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Joyce Marcus & Kent V. Flannery, "Zapotec Civilization" (Thames & Hudson, 1996).
@@ -1485,7 +1485,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Mitla", tur:"sehir", lat:16.9200, lon:-96.3583, g:1, k:2,
   s:[{f:"1281-01-01",t:"1523-01-01",d:"zapotek-krallik"},
-     {f:"1523-01-01",t:"1535-04-17",d:"ispanya"},
+     {f:"1523-01-01",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Marcus & Flannery (1996) — Monte Albán kadar eski, hiç terk edilmedi.
@@ -1493,7 +1493,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Tututepec (Yucu Dzaa)", tur:"sehir", lat:16.1517, lon:-97.6156, g:1, k:1,
   s:[{f:"1100-01-01",t:"1281-01-01",d:"__BOSLUK__",kesinlik:"onyil",kaynak:"BOŞLUK BEYANI: sahip tututepec (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tututepec\" geri yazılır) · Arthur A. Joyce, «Mixtec Empire», Univ. of Colorado Boulder, 2016 (colorado.edu/rioverdearchaeology/.../joyce_2016a.pdf; pdftotext ile okundu): \"Archaeological and ethnohistoric sources indicate that the founding of Tututepec was the result of the arrival of highland Mixtecs into the lower Verde region at about 1100 CE\" | Arthur A. Joyce, «Mixtec Empire», Univ. of Colorado Boulder, 2016 (colorado.edu/rioverdearchaeology/.../joyce_2016a.pdf; pdftotext ile okundu): \"At this time, Tututepec was nearly uninhabited, which shows that the Late Postclassic city did not develop out of an earlier community, but was founded instead as a new political center.\" | f=1100: bu kaynak; kodeks hesabı 1081 (maddede beyanlı). · DOGU-500-1281"},{f:"1281-01-01",t:"1522-01-01",d:"tututepec-krallik"},
-     {f:"1522-01-01",t:"1535-04-17",d:"ispanya"},
+     {f:"1522-01-01",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Codex Zouche-Nuttall; John M. D. Pohl'un Mixtek kodeksleri üzerine akademik çalışmaları.
@@ -1567,7 +1567,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Nojpetén (Tayasal / Flores)", tur:"sehir", lat:16.9284, lon:-89.8903, g:1, k:1,
   s:[{f:"1281-01-01",t:"1697-03-13",d:"maya-sehir-devletleri"},
-     {f:"1697-03-13",t:"1821-09-15",d:"yeni-ispanya"},
+     {f:"1697-03-13",t:"1821-09-15",d:"guatemala-kaptanligi"},
      {f:"1821-09-15",t:"2000-12-31",d:"guatemala"}] },
 // kaynak: Grant D. Jones, "The Conquest of the Last Maya Kingdom" (Stanford UP, 1998) —
 //         son bağımsız Maya devleti, 13 Mart 1697'de düştü.
@@ -1584,7 +1584,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Acalán (Itzamkanac)", tur:"sehir", lat:18.2000, lon:-90.9667, g:0, k:1,
   s:[{f:"1281-01-01",t:"1530-01-01",d:"maya-sehir-devletleri"},
-     {f:"1530-01-01",t:"1535-04-17",d:"ispanya"},
+     {f:"1530-01-01",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: France V. Scholes & Ralph L. Roys, "The Maya Chontal Indians of Acalan-Tixchel"
@@ -1604,7 +1604,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Puebla de los Ángeles", tur:"sehir", lat:19.0414, lon:-98.2063, g:2, k:1,
   kur:"1531-04-16",
-  s:[{f:"1531-04-16",t:"1821-09-27",d:"yeni-ispanya"},
+  s:[{f:"1531-04-16",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},{f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Hispanic American Historical Review (Duke Univ. Press) — 16 Nisan 1531 kuruluş.
 // k gerekçesi: Yeni İspanya'nın ikinci büyük şehri — k:1
@@ -1618,7 +1618,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Antigua Guatemala (Santiago de los Caballeros)", tur:"sehir", lat:14.5586, lon:-90.7295, g:2, k:1,
   kur:"1543-01-01",
-  s:[{"f":"1543-03-10","t":"1821-09-15","d":"yeni-ispanya"},{"f":"1821-09-15","t":"2000-12-31","d":"guatemala"}] },
+  s:[{"f":"1543-03-10","t":"1609-01-01","d":"yeni-ispanya"},{"f":"1609-01-01","t":"1821-09-15","d":"guatemala-kaptanligi"},{"f":"1821-09-15","t":"2000-12-31","d":"guatemala"}] },
 // kaynak: Real Audiencia de Guatemala kayıtları — şehir ÜÇÜNCÜ kez burada kuruldu (1543).
 // k gerekçesi: Guatemala Kaptanlığı'nın (1543-1773) başkenti — k:1
 
@@ -1638,7 +1638,7 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"San Cristóbal de las Casas (Ciudad Real)", tur:"sehir", lat:16.7370, lon:-92.6376, g:1, k:2,
   kur:"1528-03-31",
-  s:[{f:"1528-03-31",t:"1821-09-27",d:"yeni-ispanya"},
+  s:[{f:"1528-03-31",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},{f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: standart akademik/kurumsal tarih — 31 Mart 1528. Chiapas 1824'te MEKSİKA'ya
 //         katıldı (Guatemala'ya değil), bu yüzden 1821 sonrası "meksika" doğru.
@@ -1646,21 +1646,21 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Colima (San Sebastián de Colima)", tur:"sehir", lat:19.2433, lon:-103.7250, g:0, k:3,
   kur:"1523-07-25",
-  s:[{f:"1523-07-25",t:"1821-09-27",d:"yeni-ispanya"},
+  s:[{f:"1523-07-25",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},{f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: standart akademik/kurumsal tarih — Gonzalo de Sandoval, 25 Temmuz 1523.
 // k gerekçesi: küçük il merkezi — k:3
 
 { ad:"Antequera (Oaxaca)", tur:"sehir", lat:17.0732, lon:-96.7266, g:1, k:2,
   kur:"1529-01-01",
-  s:[{f:"1529-01-01",t:"1821-09-27",d:"yeni-ispanya"},
+  s:[{f:"1529-01-01",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},{f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: UNESCO Dünya Mirası dosyası "Historic Centre of Oaxaca and Monte Albán".
 // k gerekçesi: Oaxaca ilinin piskoposluk/idari merkezi — k:2
 
 { ad:"Compostela", tur:"sehir", lat:21.2333, lon:-104.9000, g:0, k:2,
   kur:"1531-01-01",
-  s:[{f:"1531-01-01",t:"1821-09-27",d:"yeni-ispanya"},
+  s:[{f:"1531-01-01",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},{f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}] },
 // kaynak: Nueva Galicia idari kayıtları — 1531, Nuño Beltrán de Guzmán.
 // k gerekçesi: kısa süreli il başkenti (1531-1560), sonra Guadalajara'ya devretti — k:2
