@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "df03530ec08a7c7b",
-     "bayt": 5485982
+     "sha": "7ecb8b45530664a8",
+     "bayt": 5494184
     }
    ],
-   "bayt": 5665790
+   "bayt": 5673992
   },
   {
    "paket": "data/paket_06.js",
@@ -201,8 +201,8 @@
     },
     {
      "yol": "data/kronoloji_iran.js",
-     "sha": "528682c9ce733ed0",
-     "bayt": 79311
+     "sha": "aef141db740c7fc2",
+     "bayt": 79623
     },
     {
      "yol": "data/kronoloji_bizans.js",
@@ -210,7 +210,7 @@
      "bayt": 72741
     }
    ],
-   "bayt": 448728
+   "bayt": 449040
   },
   {
    "paket": "data/paket_07.js",
@@ -442,7 +442,7 @@
     },
     {
      "yol": "data/kronoloji_gurcistan.js",
-     "sha": "8ff2cfd2466ca0f5",
+     "sha": "6969439609121cd2",
      "bayt": 33135
     },
     {

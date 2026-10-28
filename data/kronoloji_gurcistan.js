@@ -261,7 +261,7 @@ window.KRONOLOJI_GURCISTAN = [
   d:"Babası Teimuraz II'nin ölümü üzerine II. Herakli (Erekle), zaten hüküm sürdüğü Kaheti'ye Kartli'yi de katarak iki doğu Gürcü krallığını üç asırdır ilk kez tek idare altında birleştirdi. Bu birleşme, 1801'deki Rus ilhakına kadar sürecek son bağımsız Gürcü devletinin temelidir.",
   kaynak:"gurcistan (TDV, madde: gurcistan — '1762 yılında Irakli, Kartli ve Kahet'i bir idare altında birleştirdi')" },
 
-{ t:"1783-07-24", b:"Georgievsk Antlaşması — Kartli-Kaheti Rusya himayesine girdi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
+{ t:"1783-08-04", b:"Georgievsk Antlaşması — Kartli-Kaheti Rusya himayesine girdi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   yer_id:"Tiflis",
   d:"II. Herakli, Osmanlı ve İran baskısına karşı güvence arayışıyla Rusya ile bir himaye antlaşması imzaladı; Kartli-Kaheti dış politikasını Rusya'ya devretti ve karşılığında askerî koruma vaadi aldı. Bu antlaşma, on sekiz yıl sonraki tam ilhakın hukuki zeminini hazırladı.",

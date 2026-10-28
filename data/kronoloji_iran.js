@@ -219,7 +219,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["askeri","kayip","konu-askeri"],
   d:"[Safevî] Mahmud Hotakî önderliğindeki az sayıdaki Afgan kuvveti, sayıca çok üstün ama çürümüş Safevî ordusunu İsfahan yakınlarında Gülnâbâd'da bozguna uğrattı; bu yenilgi başkentin altı aylık kuşatmasının ve Safevî devletinin fiilî sonunun doğrudan kapısını açtı.",
   kaynak:"Encyclopaedia Iranica, madde: MAḤMUD ḠALZAY", yer_id:"Isfahan" },
-{ t:"1722-11-10", b:"İsfahan düştü — Safevî Devleti fiilen sona erdi", tur:"son", onem:5, dunya:4, kapsam:"ic",
+{ t:"1722-11-10", b:"İsfahan düştü — Safevî Devleti fiilen sona erdi", tur:"son", ic_not_gun:"TDV safeviler 10 Kasım 1722 (safevi künyesiyle aynı gün). ÇELİŞKİ: Iranica (arama özeti, tam metin 403) teslimi 21 Ekim, Mahmud Hotakî girişini 25 Ekim, Şah Hüseyin tahttan inişini 23 Ekim 1722 verir (eski atlas değeri 1722-10-23). TDV esas; gün tam metinle yeniden teyit edilmeli.", onem:5, dunya:4, kapsam:"ic",
   etiket:["askeri","kayip","konu-askeri","konu-siyasi"],
   d:"[Safevî] Altı aylık açlık kuşatmasının ardından Şah Sultan Hüseyin tacını Afgan lideri Mahmud'a teslim etti; 221 yıllık Safevî hânedanı fiilen sona erdi (nominal hânedan üyeleri 1736'ya kadar çeşitli yerlerde varlığını sürdürdü). İran tarihyazımında bu, ülke tarihinin en travmatik çöküşlerinden biri — bir asır süren Osmanlı-Rus-Afgan işgalleri döneminin başlangıcı ve dünya sisteminde de bölgesel güç dengesini kalıcı olarak sarsan bir devlet çöküşüdür.",
   kaynak:"Encyclopaedia Iranica, madde: ṢAFAVID DYNASTY", yer_id:"Isfahan" },
