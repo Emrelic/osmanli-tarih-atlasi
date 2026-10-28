@@ -2943,8 +2943,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"varsova-dukaligi", ad:"Varşova Büyük Dukalığı", tur:"dukalik", bolge:"dogu-avrupa",
-  f:"1807-07-22", t:"1815-06-09", baskent:"Varşova", harita:"varsova-dukaligi",
-  ozet:"Napolyon'un Tilsit sonrasında Prusya'nın aldığı Polonya topraklarından kurduğu tampon devlet; 1809'da Schönbrunn ile Avusturya'dan Batı Galiçya'yı aldı, 1813'te Rus işgaliyle fiilen çöktü ve Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî senediyle hukuken dağıtıldı. Bkz. [[lehistan]] (1795'te sona erdi) ve [[polonya]] (1918).",
+  f:"1807-07-09", t:"1815-06-09", baskent:"Varşova", harita:"varsova-dukaligi",
+  ozet:"[Künye başlangıcı 9 Temmuz 1807 Tilsit Barışı'dır; Anayasa 22 Temmuz 1807'de verildi — LEHISTAN-KRON 28 Ekim 2026: Varşova, Łódź, Częstochowa, Kielce, Radom 1806-11-28 Fransız girişinden değil hukuken Prusya egemenliğinin bittiği Tilsit gününden Dükalığa yazıldı.] Napolyon'un Tilsit sonrasında Prusya'nın aldığı Polonya topraklarından kurduğu tampon devlet; 1809'da Schönbrunn ile Avusturya'dan Batı Galiçya'yı aldı, 1813'te Rus işgaliyle fiilen çöktü ve Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî senediyle hukuken dağıtıldı. Bkz. [[lehistan]] (1795'te sona erdi) ve [[polonya]] (1918).",
   kaynak:"polonya",
   kronoloji:[
     { odak_yer:["Dresden"], t:"1807-07-22", tur:"kurulus", b:"Dresden'de anayasa verildi — dukalık kuruldu" },
@@ -17019,7 +17019,7 @@ window.DEVLETLER = [
     { odak_yer:["Litvanya"], t:"1939-03-20", tur:"isgal", b:"Ribbentrop Litvanya'ya bölgenin devri için sözlü ültimatom verdi.", kaynak:"https://wikipedia.com/wiki/Memel_Crisis (ikincil)" },
     { odak_yer:["Litvanya","Almanya"], t:"1939-03-23", tur:"son", b:"Litvanya ültimatomu kabul etti; Memel Almanya'ya devredildi.", kaynak:"https://wikipedia.com/wiki/Memel_Crisis (ikincil)" }
   ] },
-{ id:"polonya-genel-hukumeti", ad:"Polonya Genel Hükûmeti", tur:"isgal-idaresi", bolge:"dogu-avrupa", harita:"polonya", f:"1939-10-26", t:"1945-01-17", baskent:"Krakov", ozet:"Hitler'in 12 Ekim 1939 kararnamesiyle kuruldu; 26 Ekim 1939'da sivil idare (Hans Frank). Ocak 1945 Sovyet ilerleyişiyle çözüldü. t günü [g?].", kaynak:"USHMM Encyclopedia 'Krakow' ve 'German Administration of Poland'", kronoloji:[
+{ id:"polonya-genel-hukumeti", ad:"Polonya Genel Hükûmeti", tur:"isgal-idaresi", bolge:"dogu-avrupa", harita:"polonya", f:"1939-10-06", t:"1945-01-17", baskent:"Krakov", ozet:"[Künye başlangıcı Polonya II. Cumhuriyeti'nin son gününe (1939-10-06) çekildi: Alman askerî idaresiyle sivil Genel Hükûmet aynı işgal bölgesinin ardışık evreleridir ve harita boşluk bırakmasın diye (aksi hâlde 20 gün sahipsiz) bu gün alındı — LEHISTAN-KRON 28 Ekim 2026.] Hitler'in 12 Ekim 1939 kararnamesiyle kuruldu; 26 Ekim 1939'da sivil idare (Hans Frank). Ocak 1945 Sovyet ilerleyişiyle çözüldü. t günü [g?].", kaynak:"USHMM Encyclopedia 'Krakow' ve 'German Administration of Poland'", kronoloji:[
     { odak_yer:["Krakov"], t:"1939-10-26", tur:"kurulus", b:"Hans Frank başında Alman sivil idaresi olarak Genel Hükûmet göreve başladı.", kaynak:"https://encyclopedia.ushmm.org/tags/en/tag/hans-frank (Frank'in atanması, gün ikincil kaynakta)" },
     { odak_yer:["Krakov"], t:"1940-12-09", tur:"siyaset", b:"Genel Vali Ofisi 'Genel Hükûmet Hükûmeti' adını aldı.", kaynak:"https://en.wikipedia.org/wiki/General_Government_administration (ikincil)" },
     { odak_yer:["Krakov"], t:"1941-08-01", tur:"toprak-kazanc", b:"Galiçya Bölgesi (Lviv) Genel Hükûmet'e eklendi.", kaynak:"USHMM Holocaust Encyclopedia 'General Government' (gün arama sonuçlarında doğrulanamadı)" },
