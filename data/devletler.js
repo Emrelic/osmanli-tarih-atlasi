@@ -144,7 +144,8 @@ window.DEVLETLER = [
     { odak_yer:["Meşhed"], t:"1736-03-08", tur:"kurulus", b:"Nadir Şah tahta çıktı" },
     { odak_yer:["Bağdat"], t:"1730-01-01", tur:"savas", b:"Osmanlı ile Bağdat-Kirkük çevresinde savaşlar (1746'ya dek aralıklı)" },
     { odak_yer:["Meşhed"], t:"1746-09-04", tur:"antlasma", b:"Kerden Antlaşması — 1639 Kasr-ı Şirin sınırına dönüş" },
-    { odak_yer:["Meşhed"], t:"1747-06-19", tur:"son", b:"Nadir Şah suikaste kurban gitti, devlet parçalandı" }
+    { odak_yer:["Meşhed"], t:"1747-06-19", tur:"son", b:"Nadir Şah suikaste kurban gitti, devlet parçalandı" },
+    { odak_yer:["Meşhed"], t:"1796-01-01", tur:"toprak-kayip", b:"Ağa Muhammed Han Kaçar Meşhed önüne geldi; Şahruh'un Horasan'ı Kaçar hâkimiyetine girdi", kaynak:"TDV: avsarlilar (1210/1796; ay ve gün yok)", ic_not_gun:"1796 — yıl hassasiyeti · TDV avsarlilar 'Ağa Muhammed Şah 1210'da (1796) Meşhed önünde göründü', ay/gün vermiyor. Şahruh Ekim 1748'de Meşhed'de tahta çıktı (TDV avsarlilar); Horasan'da Afşar kolu 1796'ya dek sürdü." }
   ]
 },
 
@@ -2621,7 +2622,7 @@ window.DEVLETLER = [
     { odak_yer:["Kandehar"], t:"1715-01-01", tur:"hukumdar", b:"Mîr Veys (Mirveys) Hotek ölür, kardeşi Abdülaziz Kandehar'da yerine geçer (yıl hassasiyeti; gün kaynakta yok).", kaynak:"Encyclopaedia Iranica, ḠILZĪ (1128/1715) https://www.iranicaonline.org/articles/gilzi-/" },
     { odak_yer:["Kandehar"], t:"1717-01-01", tur:"hukumdar", b:"Mîr Veys'in oğlu Mahmud Hotek amcası Abdülaziz'i öldürüp Kandehar'da başa geçer (yıl hassasiyeti).", kaynak:"Encyclopaedia Iranica, ḠILZĪ (1130/1717) https://www.iranicaonline.org/articles/gilzi-/" },
     { odak_yer:["Kandehar"], t:"1722-03-08", tur:"savas", b:"Mahmud'un Galzay ordusu Gülnâbâd'da çok daha kalabalık Safevî ordusunu yener; İsfahan yolu açılır ve şehrin altı aylık kuşatması başlar.", kaynak:"Encyclopaedia Iranica, ISFAHAN vii. Safavid Period https://www.iranicaonline.org/articles/isfahan-vii-safavid-period/" },
-    { odak_yer:["Kandehar"], t:"1722-10-23", tur:"toprak-kazanc", b:"Mahmud Hotakî, Gülnâbâd Muharebesi'ndeki zaferin ardından İsfahan'ı kuşatıp aldı, Safevî başkentini ele geçirdi", kaynak:"standart akademik/ansiklopedik (Gulnabad Muharebesi 8 Mart 1722, İsfahan'ın düşüşü 23 Ekim 1722) — TDV kapsam dışı, gün doğrulanmalı" },
+    { odak_yer:["Kandehar"], t:"1722-11-10", tur:"toprak-kazanc", b:"Mahmud Hotakî, Gülnâbâd Muharebesi'ndeki zaferin ardından İsfahan'ı kuşatıp aldı, Safevî başkentini ele geçirdi", kaynak:"standart akademik/ansiklopedik (Gulnabad Muharebesi 8 Mart 1722, İsfahan'ın düşüşü 23 Ekim 1722) — TDV kapsam dışı, gün doğrulanmalı" },
     { odak_yer:["Kandehar"], t:"1725-04-26", tur:"hukumdar", b:"Mahmud'un devrilmesinin ardından amcazadesi Eşref (Abdülaziz'in oğlu) tahta çıkar (12 Şaban 1137).", kaynak:"Encyclopaedia Iranica, AŠRAF ḠILZAY https://www.iranicaonline.org/articles/asraf-gilzay-the-afghan-chief-who-ruled-as-shah-over-part-of-iran-from-1137-1725-to-1142-1729/" },
     { odak_yer:["Kandehar"], t:"1729-09-29", tur:"savas", b:"Nâdir (Tahmasb adına) Eşref'i Mehmandost (Dâmgân) yakınında yener; Galzay İran hâkimiyeti çözülmeye başlar (6 Rebîülevvel 1142).", kaynak:"Encyclopaedia Iranica, AŠRAF ḠILZAY https://www.iranicaonline.org/articles/asraf-gilzay-the-afghan-chief-who-ruled-as-shah-over-part-of-iran-from-1137-1725-to-1142-1729/" },
     { odak_yer:["Kandehar"], t:"1729-11-13", tur:"toprak-kayip", b:"Eşref İsfahan'ı terk eder; Nâdir üç gün sonra şehre girer, Galzaylar İran içlerindeki egemenliği kaybeder (21 Rebîülâhir 1142).", kaynak:"Encyclopaedia Iranica, AŠRAF ḠILZAY https://www.iranicaonline.org/articles/asraf-gilzay-the-afghan-chief-who-ruled-as-shah-over-part-of-iran-from-1137-1725-to-1142-1729/" },
@@ -10217,7 +10218,7 @@ window.DEVLETLER = [
     { odak_yer:["Revan"], t:"1795-01-01", tur:"savas", b:"Ağa Muhammed Han'ın kardeşi Ali Kulı 20.000 askerle Revan'ı aldı.", kaynak:"TDV 'Revan' https://islamansiklopedisi.org.tr/revan (yalnız yıl)" },
     { odak_yer:["Revan"], t:"1804-01-01", tur:"savas", b:"Tsitsianov Revan kalesini kuşattı; İran ordusu yaklaşınca çekildi.", kaynak:"TDV 'Revan' https://islamansiklopedisi.org.tr/revan (yalnız yıl)" },
     { odak_yer:["Revan"], t:"1827-10-13", tur:"isgal", b:"Rus kuvvetleri ikinci hücumda Revan kalesini ele geçirdi.", kaynak:"TDV 'Revan' https://islamansiklopedisi.org.tr/revan" },
-    { odak_yer:["Revan"], t:"1828-01-01", tur:"antlasma", b:"Türkmençay Antlaşması ile Revan Rusya'ya geçti.", kaynak:"TDV 'Revan' https://islamansiklopedisi.org.tr/revan (yalnız ay: Şubat; gün bulunamadı)" },
+    { odak_yer:["Revan"], t:"1828-02-22", tur:"antlasma", b:"Türkmençay Antlaşması ile Revan Rusya'ya geçti.", kaynak:"TDV 'Revan' https://islamansiklopedisi.org.tr/revan (yalnız ay: Şubat); gün: Türkmençay Antlaşması 10 (22) Şubat 1828 (prlib.ru neşri)", ic_not_takvim:"Jülyen 10 Şubat 1828 (Türkmençay metni) = Gregoryen 22 Şubat 1828" },
     { odak_yer:["Nahçıvan","Revan"], t:"1828-04-02", tur:"son", b:"Çarın emriyle Revan ve Nahçıvan hanlıkları ilga edildi.", kaynak:"TDV 'Revan' https://islamansiklopedisi.org.tr/revan" }
   ] },
 { id:"cenub-i-garbi-kafkas", ad:"Cenûb-ı Garbî Kafkas Hükûmet-i Muvakkate-i Milliyesi (Kars)", tur:"gecici-hukumet", bolge:"kafkasya",
@@ -19174,7 +19175,7 @@ window.DEVLETLER = [
     { odak_yer:["Ktesiphon"], t:"-0052-01-01", tur:"savas", b:"Carrhae'de Partlar Crassus'u yenip öldürdü (MO 53).", kaynak:"WorldHistory.org 'Parthian Empire' (worldhistory.org/Parthian_Empire/)" },
     { odak_yer:["Ktesiphon"], t:"-0019-01-01", tur:"antlasma", b:"Part kralı Augustus'la uzun vadeli barış anlaşması yaptı (MO 20).", kaynak:"WorldHistory.org 'Parthian Empire' (worldhistory.org/Parthian_Empire/)" },
     { odak_yer:["Ktesiphon"], t:"0213-01-01", tur:"hukumdar", b:"IV. Artabanos kardeşi VI. Vologases'e karşı isyan edip tahta çıktı (213-224).", kaynak:"WorldHistory.org 'Parthian Empire' (worldhistory.org/Parthian_Empire/)" },
-    { odak_yer:["Ktesiphon"], t:"0224-01-01", tur:"son", b:"I. Erdeşir Artabanos'u yenerek Sasani Devleti'ni kurdu; Part egemenliği bitti.", kaynak:"WorldHistory.org 'Parthian Empire' (worldhistory.org/Parthian_Empire/)" }
+    { odak_yer:["Ktesiphon"], t:"0224-04-28", tur:"son", b:"I. Erdeşir Artabanos'u yenerek Sasani Devleti'ni kurdu; Part egemenliği bitti.", kaynak:"WorldHistory.org 'Parthian Empire' (worldhistory.org/Parthian_Empire/)" }
   ] },
 { id:"elymais", ad:"Elymais Krallığı", tur:"vasal-krallik", bolge:"iran", f:"-0146-01-01", t:"0224-01-01", baskent:"Susa", ozet:"Iranica: MO 2. yy ile MS 3. yy basi arasi yari-bagimsiz devlet (Huzistan); Mithradates I'in MO 140-139 seferi ortasinda. Kesinlik yuzyil.", kaynak:"https://mail.iranicaonline.org/articles/elymais ; EncIr 'Elymais'", kronoloji:[
     { odak_yer:["Susa"], t:"-0146-01-01", tur:"kurulus", b:"I. Kamnaskires Susiana'yı alıp Elymais krallığını kurdu (Le Rider'e göre yaklaşık MO 147).", kaynak:"Encyclopaedia Iranica 'Elymais' (iranicaonline.org/articles/elymais); Britannica 'Elymais'" },
@@ -28664,5 +28665,41 @@ window.DEVLETLER = [
   kronoloji:[
     { odak_yer:["Dînever"], t:"0959-01-01", tur:"kurulus", b:"Hasanveyhîler emirliği başladı (TDV Kürtler dönem ibaresi 959; yalnız yıl teyitli)", kaynak:"TDV İslâm Ansiklopedisi, KÜRTLER, https://islamansiklopedisi.org.tr/kurtler" },
     { odak_yer:["Hemedan"], t:"1015-01-01", tur:"son", b:"Hasanveyhîler emirliği sona erdi (TDV Kürtler dönem ibaresi 1015; Bedr b. Hasanveyh 1014'te öldürülmüştü; yalnız yıl teyitli)", kaynak:"TDV İslâm Ansiklopedisi, KÜRTLER, https://islamansiklopedisi.org.tr/kurtler ; TDV, ANNÂZÎLER, https://islamansiklopedisi.org.tr/annaziler" }
+  ] },
+{ id:"azerbaycan-milli-hukumeti", ad:"Azerbaycan Millî Hükûmeti (Pişeverî — Muhtar Azerbaycan Cumhuriyeti)", tur:"cumhuriyet", bolge:"iran",
+  f:"1945-12-12", t:"1946-12-12", baskent:"Tebriz",
+  ic_not_f:"TDV 'Tebriz': «12 Aralık 1945'te Azerbaycan Millî Meclisi açıldı ve Seyyid Câfer Pîşeverî başkanlığında Azerbaycan Millî Hükümeti kuruldu». TDV 'Azerbaycan': «Tebriz'de Muhtar Azerbaycan Cumhuriyeti ilân edildi (12 Aralık 1945)». Iranica (arama özeti): Meclis 21 Azar 1324 = 12 Aralık 1945. ÇİFT TEYİT (TDV + Iranica). Gregoryen. Not: Vikipedi bilgi kutusu 20 Kasım 1945 / Iranica 'Russia ii' özetinde 12 Kasım 1945 geçer — aykırı, TDV esas.",
+  ic_not_t:"TDV 'Tebriz': «İran hükümet kuvvetleri Aralık 1946'da Tebriz'e girerek Azerbaycan Özerk Cumhuriyeti'ni ortadan kaldırdı» — TDV yalnız ay verir. Gün: Iranica 'AZARBAIJAN v' (arama özeti; tam metin 403) Tebriz'e giriş 21 Azar 1325 = 12 Aralık 1946 (başka kaynaklar 13 ve 16 Aralık verir). Gün çelişkisi ve tam metin teyidi AÇIK; 12 Aralık seçildi.",
+  ozet:"Sovyet işgal bölgesinde Azerbaycan Demokrat Fırkası'nın 12 Aralık 1945'te Tebriz'de ilan ettiği özerk hükûmet; Pişeverî başkanlığında 1946 boyunca yaşadı, Aralık 1946'da İran ordusunun Tebriz'e girmesiyle ortadan kalktı.",
+  kaynak:"① TDV 'Tebriz' (islamansiklopedisi.org.tr/tebriz): 12 Aralık 1945, 14 Haziran 1946 anlaşma, Aralık 1946 son; ① TDV 'Azerbaycan' (islamansiklopedisi.org.tr/azerbaycan): 12 Aralık 1945 + 14 Haziran 1946; ⑦ Iranica 'AZARBAIJAN v. History from 1941 to 1947' (iranicaonline.org/articles/azerbaijan-v/ — 403, arama özeti).",
+  kronoloji:[
+    { odak_yer:["Tebriz"], t:"1945-12-12", tur:"kurulus", b:"Azerbaycan Millî Meclisi açıldı; Seyyid Câfer Pişeverî başkanlığında Azerbaycan Millî Hükûmeti (Muhtar Azerbaycan Cumhuriyeti) kuruldu", kaynak:"TDV 'Tebriz'; TDV 'Azerbaycan'; Iranica 'AZARBAIJAN v' (arama özeti) — 12 Aralık 1945 (GÜN, çift teyit)" },
+    { odak_yer:["Tebriz"], t:"1946-01-01", tur:"siyaset", b:"Sovyet birlikleri İran'dan çekildi (1946 baharı)", kaynak:"Iranica 'AZARBAIJAN v' (arama özeti): spring 1946 — mevsim; yıl hassasiyeti", ic_not_gun:"1946 — yıl hassasiyeti; Iranica 'spring 1946', gün/ay yok" },
+    { odak_yer:["Tebriz"], t:"1946-06-14", tur:"antlasma", b:"Millî Hükûmet ile İran hükûmeti arasında Azerbaycanlıların haklarını güvence altına alan anlaşma yapıldı", kaynak:"TDV 'Tebriz'; TDV 'Azerbaycan' — 14 Haziran 1946 (GÜN, iki TDV maddesi, tek kaynak ailesi)" },
+    { odak_yer:["Tebriz"], t:"1946-12-12", tur:"son", b:"İran hükûmet kuvvetleri Tebriz'e girip Azerbaycan Özerk Cumhuriyeti'ni ortadan kaldırdı; Pişeverî Bakü'ye kaçtı", kaynak:"TDV 'Tebriz': Aralık 1946 (AY); Iranica 'AZARBAIJAN v' (arama özeti): 9 Aralık harekât, giriş 12/13 Aralık; GÜN ÇELİŞKİSİ" }
+  ] },
+{ id:"sistan-mihribani", ad:"Mihribânîler (Sistan Melikleri)", tur:"emirlik", bolge:"iran",
+  f:"1236-07-19", t:"1543-01-01", baskent:"bulunamadı (TDV başkent belirtmiyor; Sistan, Zerenc/Kûh-ı Hâce çevresi)",
+  ic_not_f:"TDV 'Mihribânîler': Şemseddin Ali b. Mes'ûd 13 Zilkade 633 (19 Temmuz 1236) 'resmen meliklik tahtına oturdu'. Hicrî->Jülyen kontrol edildi: 13 Zilkade 633 = 19 Temmuz 1236 Jülyen (tablo, ±1 gün). Aynı madde 'asıl kurucu' olarak Nasîreddin Muhammed'i (1261-1318; 15 Cemâziyelevvel 659 = 17 Nisan 1261 Jülyen) sayar => kurucu seçimi karar.",
+  ic_not_t:"TDV: Safevî ilhakı 914 (1509, Şah İsmâil); hanedan Sultan Mahmûd'un Kazvin'de ölümüyle 949'da (1543) sona erdi. Hicrî 949 = 1542-04-17..1543-04-05 => 1543 yılıyla kesişimin ilk günü 1543-01-01. İKİ ucu ölç: 1509 (fiilî egemenlik sonu) vs 1543 (hanedan sonu). Bu künye 1543 verdi, 1509 öneri/karar. KARAR AÇIK: Safevî ilhakı 1509 (fiilî egemenlik sonu) sonrası melikler Safevî tâbii olarak sürdü; künye aynı polity sürdüğü için 1543'e kadar GENİŞ tutuldu (1509 maddesi kronolojide).",
+  ozet:"Sistan'da İlhanlılar altında melik olarak hüküm süren Mihribân soyu; 1236'da Şemseddin Ali tahta oturdu, Timur 1383'te Sistan'ı aldı, Safevîler 1509'da ilhak etti, son melik Mahmûd 1543'te öldü.",
+  kaynak:"① TDV 'Mihribânîler' (islamansiklopedisi.org.tr/mihribaniler), ① TDV 'Sîstan' (islamansiklopedisi.org.tr/sistan: yerel hanedanlar, 914/1509 ilhak; Nasrî/Nîmrûz Melikleri notu) — okundu.",
+  kronoloji:[
+    { odak_yer:["Sistan"], t:"1236-07-19", tur:"kurulus", b:"Melik Şemseddin Ali b. Mes'ûd resmen Sistan meliklik tahtına oturdu (Mihribân hanedanı)", kaynak:"TDV 'Mihribânîler': 13 Zilkade 633 (19 Temmuz 1236 — Jülyen, GÜN)" },
+    { odak_yer:["Sistan"], t:"1261-04-17", tur:"hukumdar", b:"Nasîreddin Muhammed Hülâgû'nun yarlığıyla Sistan'ın kontrolünü aldı (hanedanın 'asıl kurucusu')", kaynak:"TDV 'Mihribânîler': 15 Cemâziyelevvel 659 (17 Nisan 1261 — Jülyen, GÜN)" },
+    { odak_yer:["Sistan"], t:"1383-03-06", tur:"isgal", b:"Timur uzun kuşatmadan sonra Sistan'ı aldı, üç gün yağma", kaynak:"TDV 'Mihribânîler': 785 (1383) — hicrî 785∩1383 kesişiminin ilk günü 1383-03-06 (YIL; gün yok)" },
+    { odak_yer:["Sistan"], t:"1509-01-01", tur:"isgal", b:"Şah İsmâil Sistan'ı Safevî devletine kattı", kaynak:"TDV 'Mihribânîler'; TDV 'Sîstan': 914 (1509) — hicrî 914 = 1508-05-02..1509-04-21; 1509-01-01 hicrî 914 içinde, YIL" },
+    { odak_yer:["Sistan"], t:"1543-01-01", tur:"son", b:"Son melik Sultan Mahmûd Kazvin'de öldü, Kûhihâce'de gömüldü; hanedan sona erdi", kaynak:"TDV 'Mihribânîler': 949 (1543); TDV 'Sîstan': 949 (1543) — hicrî 949∩1543 ilk gün 1543-01-01 (YIL)" }
+  ] },
+{ id:"kafkas-arnavutlugu-krallik", ad:"Kafkas Arnavutluğu (Albania) Krallığı", tur:"krallik", bolge:"kafkasya",
+  f:"-0065-01-01", t:"0252-01-01", baskent:"Kabalaka (Kabala); 4. yy sonunda Partaw/Berdea'ya taşındı (dönem II'de)",
+  ic_not_f:"f BİR ÜST SINIRDIR: kaynakta kralın adıyla tanıklanan EN ERKEN yıl = MÖ 65 (Pompeius, Alazan'da Kral Oroezes'i yendi). Kuruluş yılı bulunamadı; Chaumont: kabilelerin tek hükümdar altında birleşmesi 'MÖ 2. yy sonu olabilir' (varsayım). MÖ 331 Gaugamela'da Albanlı birlik = devlet kanıtı DEĞİL.",
+  ic_not_t:"c. 252-253: I. Şapur Ermenistan'ı fethedince 'İberya ve Albania da kısa sürede fethedilip ilhak edildi' (Chaumont). Yıl 'c.' — kesin gün/yıl yok.",
+  ozet:"Doğu Transkafkasya'da (Kür-Aras ovası) 26 kabilenin kurduğu Arşakî kültürlü krallık; 1. yy'da başkenti Kabalaka'ydı; MÖ 65'te Pompeius'a yenildi, Roma himayesine girdi, 3. yy ortasında Sasanî ilhakıyla sona erdi.",
+  kaynak:"[⑦ Encyclopaedia Iranica, 'ALBANIA i. The Country', M. L. Chaumont — metin attalus.org/armenian/chaualb.htm aynasından okundu; iranicaonline.org 403]; TDV 'Arrân' (islamansiklopedisi.org.tr/arran) kralllığı ADIYLA anlatmaz: 'Kafkas Albaniası Arrân merkezliydi; 3. yy'a kadar merkez Kabele' — kralık/başkent teyidi bu kadar.",
+  kronoloji:[
+    { odak_yer:["Kabalaka (Kabala)"], t:"-0065-01-01", tur:"kurulus", b:"Pompeius'un Kafkas seferinde Albania Kralı Oroezes Alazan nehrinde yenildi — krallığın kralla tanıklanan en erken yılı (kuruluşu daha eskidir, yılı bulunamadı)", kaynak:"Iranica 'ALBANIA i' (Chaumont): 'the forces of Oroezes, king of Albania' (MÖ 65, YIL)" },
+    { odak_yer:["Kabalaka (Kabala)"], t:"-0065-01-01", tur:"antlasma", b:"Yenilgiden sonra Albania Roma himayesine/vasallığına girdi (Parth kültür etkisi sürerek)", kaynak:"Iranica 'ALBANIA i' (Chaumont, özet) — vasallık süresi ve tarihi kaynakta YIL düzeyi/yaklaşık" },
+    { odak_yer:["Kabalaka (Kabala)"], t:"0252-01-01", tur:"son", b:"I. Şapur'un Ermenistan fethinin ardından Albania da Sasanî devletine ilhak edildi (c. 252-253)", kaynak:"Iranica 'ALBANIA i' (Chaumont): 'Iberia and Albania were also soon conquered and annexed' (c. 252-253, YIL, yaklaşık)" }
   ] }
 ];
