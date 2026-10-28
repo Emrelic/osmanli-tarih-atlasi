@@ -74,13 +74,13 @@
 window.YERLESIMLER_EK12 = [
 
 { ad:"Reykjavík", tur:"sehir", lat:64.1466, lon:-21.9426, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
+  s:[{f:"0930-01-01",t:"1262-01-01",d:"izlanda-serbest-devleti",kesinlik:"yil",kaynak:"lex.dk (Den Store Danske), 'Island – historie', https://lex.dk/Island_-_historie (Danca): Alþingi 930 (yıl); Norveç kralı Håkon 4. Håkonsson'a vergi veren eyalet '1262-64'; 1 Aralık 1918 Birlik Yasası yürürlüğe girdi (gün tek kaynakla). Zincir Þingvellir/Skálholt noktalarıyla (izlanda-serbest-devleti → izlanda-norvec-danimarka → izlanda) HİZALANDI; önceki zincir 1281-1918'i norvec-kralligi/danimarka ile boyuyordu ve aynı adadaki iki nokta farklı renkteydi. Uç 1262-01-01 künyelerin ucudur (1262-64 aralığı, BEYANLI YAKLAŞIKLIK)."},{f:"1262-01-01",t:"1918-12-01",d:"izlanda-norvec-danimarka",kesinlik:"yil"},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
 
 // ⚠️ maske: Akureyri (65,6835/−18,0878) Eyjafjörður'un dibinde ve 10m
 //    maskesi orayı deniz sayıyor; 2,2 km kuzeydoğuya çekildi. Aynı sınıf
 //    düzeltme `_ek8`de beş kayıtta daha var.
 { ad:"Akureyri", tur:"sehir", lat:65.7008, lon:-18.0635, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
+  s:[{f:"0930-01-01",t:"1262-01-01",d:"izlanda-serbest-devleti",kesinlik:"yil",kaynak:"lex.dk (Den Store Danske), 'Island – historie', https://lex.dk/Island_-_historie (Danca): Alþingi 930 (yıl); Norveç kralı Håkon 4. Håkonsson'a vergi veren eyalet '1262-64'; 1 Aralık 1918 Birlik Yasası yürürlüğe girdi (gün tek kaynakla). Zincir Þingvellir/Skálholt noktalarıyla (izlanda-serbest-devleti → izlanda-norvec-danimarka → izlanda) HİZALANDI; önceki zincir 1281-1918'i norvec-kralligi/danimarka ile boyuyordu ve aynı adadaki iki nokta farklı renkteydi. Uç 1262-01-01 künyelerin ucudur (1262-64 aralığı, BEYANLI YAKLAŞIKLIK)."},{f:"1262-01-01",t:"1918-12-01",d:"izlanda-norvec-danimarka",kesinlik:"yil"},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
 
 // ── DOĞU GRÖNLAND — pencerenin tamamında sahipsiz ───────────────────
 // ONAYLANDI, VARSAYILMADI: Norse yerleşimleri adanın GÜNEYBATI kıyısındaydı

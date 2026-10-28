@@ -19818,7 +19818,7 @@ window.DEVLETLER = [
     { odak_yer:["Forteviot"], t:"0839-01-01", tur:"felaket", b:"Vikinglere karşı yıkıcı yenilgi Pikt kral ailesini çökertti ve Cináed mac Ailpín'in yükselişine giden istikrarsızlık dönemini başlattı (839).", kaynak:"https://en.wikipedia.org/wiki/Oengus_I ; https://muse.jhu.edu/article/208422" },
     { odak_yer:["Forteviot"], t:"0843-01-01", tur:"birlesme", b:"Kenneth I Dal Riata ve Pikt krallıklarini birlestirmeye basladi.", kaynak:"Britannica, Kenneth I (britannica.com/biography/Kenneth-I)" }
   ] },
-{ id:"dublin-krallik", ad:"Dublin (Norse) Krallığı", tur:"krallik", bolge:"bati-avrupa", f:"0841-01-01", t:"1170-01-01", baskent:"Dublin", ozet:"Britannica: Vikingler Duibhlinn'i 841'de aldı; Oxford Companion krallığı 841'den sayar. 1170 Eylül'de Strongbow/Anglo-Normanlar Dublin'i aldı (son kral Asgall 1171'de idam). 902-917 Norse yokluğu.", kaynak:"Britannica 'Dublin: History'; Encyclopedia.com 'Dublin, kingdom of'; Britannica 'Richard FitzGilbert'", kronoloji:[
+{ id:"dublin-krallik", ad:"Dublin (Norse) Krallığı", tur:"krallik", bolge:"bati-avrupa", f:"0841-01-01", t:"1171-01-01", ic_not_t:"Britannica: Strongbow Eylül 1170'te Dublin'i aldı; Store norske leksikon (snl.no): Norse krallık İngilizler kenti 1171'de alınca kesin sona erdi; Treccani 1170. Kaynaklar ayrışıyor, uç 1171-01-01 (yıl) seçildi: Dublin yerleşim zinciriyle (1171 ingiltere) aynı. Gün teyitsiz.", baskent:"Dublin", ozet:"Britannica: Vikingler Duibhlinn'i 841'de aldı; Oxford Companion krallığı 841'den sayar. 1170 Eylül'de Strongbow/Anglo-Normanlar Dublin'i aldı (son kral Asgall 1171'de idam). 902-917 Norse yokluğu.", kaynak:"Britannica 'Dublin: History'; Encyclopedia.com 'Dublin, kingdom of'; Britannica 'Richard FitzGilbert'", kronoloji:[
     { odak_yer:["Dublin"], t:"0841-01-01", tur:"kurulus", b:"Vikingler Duibhlinn'de kalıcı üs (longphort) kurar", kaynak:"Britannica 'Dublin: History'; Encyclopedia.com 'Dublin, kingdom of'" },
     { odak_yer:["Dublin"], t:"0902-01-01", tur:"siyaset", b:"İrlandalılar Norse'ları Dublin'den sürer (917'ye kadar yokluk)", kaynak:"Encyclopedia.com 'Dublin, kingdom of'" },
     { odak_yer:["Dublin"], t:"0917-01-01", tur:"siyaset", b:"Norse yönetimi Dublin'e döner", kaynak:"Encyclopedia.com 'Dublin, kingdom of'" },
@@ -22790,7 +22790,8 @@ window.DEVLETLER = [
   tur:"krallik",
   bolge:"bati-avrupa",
   f:"0914-01-01",
-  t:"1170-01-01",
+  t:"1171-01-01",
+  ic_not_t:"Dictionary of Irish Biography (arama özeti): Strongbow 23 Ağustos 1170 Waterford yakınına çıktı, kent iki gün sonra düştü; Treccani Waterford maddesi 1171. Kaynaklar ayrışıyor; Dublin ile aynı yıl-orta 1171-01-01 seçildi (yerleşim zinciri 1171 ingiltere). Gün teyitsiz.",
   baskent:"Waterford",
   ozet:"Viking kurulusu; Strongbow 1170.",
   kaynak:"The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII Vikingler: İrlanda Norse merkezleri",
