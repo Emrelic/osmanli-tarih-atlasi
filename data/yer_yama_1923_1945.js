@@ -3608,7 +3608,7 @@ window.YER_YAMA_1923_1945 = [
 // A_mekanik
 {"ad": "Antananarivo", "s": [{"f": "1787-01-01", "t": "1897-01-27", "d": "merina"}, {"f": "1897-01-27", "t": "1945-09-02", "d": "fransa-cumhuriyet"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
 // A_mekanik
-{"ad": "Honolulu", "s": [{"f": "1795-01-01", "t": "1898-08-12", "d": "hawaii-kralligi"}, {"f": "1898-08-12", "t": "1945-09-02", "d": "abd"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
+{"ad": "Honolulu", "s": [{"f": "1795-01-01", "t": "1893-01-17", "d": "hawaii-kralligi"}, {"f": "1893-01-17", "t": "1898-08-12", "d": "hawaii-cumhuriyeti"}, {"f": "1898-08-12", "t": "1945-09-02", "d": "abd"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
 // A_mekanik
 {"ad": "Huamanga (Ayacucho)", "s": [{"f": "1539-01-09", "t": "1824-12-09", "d": "ispanyol-peru"}, {"f": "1824-12-09", "t": "1945-09-02", "d": "peru-cumhuriyeti"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
 // A_mekanik
@@ -6444,9 +6444,9 @@ window.YER_YAMA_1923_1945 = [
 // A_mekanik
 {"ad": "Funafuti", "s": [{"f": "1892-01-01", "t": "1945-09-02", "d": "ingiltere"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
 // A_mekanik
-{"ad": "Hilo", "s": [{"f": "1795-01-01", "t": "1898-08-12", "d": "hawaii-kralligi"}, {"f": "1898-08-12", "t": "1945-09-02", "d": "abd"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
+{"ad": "Hilo", "s": [{"f": "1795-01-01", "t": "1893-01-17", "d": "hawaii-kralligi"}, {"f": "1893-01-17", "t": "1898-08-12", "d": "hawaii-cumhuriyeti"}, {"f": "1898-08-12", "t": "1945-09-02", "d": "abd"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
 // A_mekanik
-{"ad": "Lahaina", "s": [{"f": "1795-01-01", "t": "1898-08-12", "d": "hawaii-kralligi"}, {"f": "1898-08-12", "t": "1945-09-02", "d": "abd"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
+{"ad": "Lahaina", "s": [{"f": "1795-01-01", "t": "1893-01-17", "d": "hawaii-kralligi"}, {"f": "1893-01-17", "t": "1898-08-12", "d": "hawaii-cumhuriyeti"}, {"f": "1898-08-12", "t": "1945-09-02", "d": "abd"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
 // A_mekanik
 {"ad": "Dunedin", "s": [{"f": "1848-03-23", "t": "1945-09-02", "d": "yeni-zelanda"}], "not": "Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok (kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md"},
 // A_mekanik
