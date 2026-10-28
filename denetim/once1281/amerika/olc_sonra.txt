@@ -1,0 +1,245 @@
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #5eecb2 -- alania-krallik, atropatene, ebla-orta-tunc, fenike-sehirleri, kis-egemenlik, magrave-fas, misir-erken-hanedan, mitanni, numidia, svaneti, urbino-dukaligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #05eba2 -- alas-ozerkligi, arap-cumhuriyetleri-federasyonu, arsakuni-ermenistan, bagdat-memlukleri, bati-ukrayna-halk-cumhuriyeti, cabo-juby-ispanyol, gepid, herakleopolis, kilikya-fransiz, korint-birligi, macar-prensligi, misir-eski-krallik, moab, moldova-demokratik-cum, nassau, orta-gurcistan-bagrati, ostland, ravenna-eksarhligi, sealand-1, sybaris, trento-piskoposlugu, yenisey-kirgiz. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #94ddfb -- antigonos, bitinya, filistin-pentapolis, gassani, greko-baktria, guarani-misyonlari, isin, kanva, kerma, kongo-serbest-devleti, misir-28-30-hanedan, moriori, pereyaslavl-knezligi, tebai-11-hanedan, uruk-erken-hanedan, xochicalco. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #fe953f -- budjak-ordasi, buyuk-lubnan-devleti, kafkas-imamligi, karpat-ukrayna, magdeburg-basepiskoposlugu, mecklenburg-schwerin, meroe-krallik, misir-3-ara, misir-orta-krallik, orta-macar-kralligi, sirakuza, sirbistan-nedic, tunus, ur-1-hanedan. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #13985b -- esnunna, umma-erken-hanedan. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #fc6961 -- awan, cobaniler. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #3e8b32 -- anhalt-dukaligi, buyuk-bulgaristan, gdansk-kral-sehri, hayasa-azzi, hiksos-15, karakene, karintiya-dukaligi, kerma-erken, kush-25-hanedan, leontinoi, misir-21-hanedan, nijni-novgorod-suzdal, rodos-polis, touggourt. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #f04766 -- artaksiad, bar-kohba, celili-musul, ermenistan-yervantuni, hitit-eski, isin-2, kraliyet-prusyasi, lubnan-kaymakamliklari, mari-sakkanakku, mozia, nitra-prensligi, pecenek-konfederasyonu, thuringia-landgrafligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b758be -- dilmun, vidin-carligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #08ae6f -- miken, minos, stiriya-dukaligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #c9a6f5 -- ahamenis-misir-2, akhaia-birligi, hamat, izmir-haclisi, kibris-venedik, kizzuwatna, mari-lim, sait-26-hanedan, tebai-17-hanedan. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #8ec2ff -- akitanya-dukaligi, asturias, bati-han, bati-zhou, britanya-imp, catuvellauni-krallik, danimarka-erken, daxi-zhang, dogu-han, galya-imp, guney-saray-nanbokucho, hong-kong-ingiliz, ingiltere-irlanda-krallik, vizigot, xin. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #03a6ff -- bati-chu-xiang-yu, bati-gokturk, bati-qin-qifu, britanya-imparatorlugu-carausius, butan, cao-wei, caracol-maya, chen, chimei-jianshi, dal-riata, danimarka-hindistani, dogu-wei, doguhebei-ozerk, dvaravati, falkland-arjantin-isgali, funan, guney-xiongnu, hadramavt, han-zhao, hunnu-xiongnu, jorvik, kidarit, kusan-sasani, mangkunegaran, mekke-kureys, ming-annam-idaresi, mogolistan-hanligi, ogedey-ulusu, onceki-yan, parsua, peru-bolivya-konfederasyonu, portekiz-malaka, qi-devleti, schleswig-holstein, sonraki-han-5hanedan, tiwanaku, tubo-tibet-imparatorlugu, turges, uman-ibadi, wiman-joseon, xin-hanedani, yang-wu. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #04a25c -- alamanlar, amalfi-cumhuriyeti, antalya-italyan, avar, buyuk-moravya, crnojevic-zetasi, karabag-hanligi, kefalonya-palatin, mauretania-krallik, midilli-polis, urartu. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #ff6160 -- gilan-sovyet-cumhuriyeti, manna. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #cb7d04 -- alalia-korsika, delos-birligi, ezo-cumhuriyeti, formosa-cumhuriyeti, hollanda-malaka, ikinci-atina-birligi, kiev-knezligi-litvanya, kore-gecici-hukumeti, kuzey-borneo, silla, zheng-devleti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #8cc7f8 -- bati-jin, dogu-zhou, qin-hanedani, shu-han. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #e13c63 -- fransiz-fas, goguryeo, guiyi-jun-dunhuang, mengjiang, nanyue, nara-japonya, qin-devleti, wu-zhou, yong-krallik, yunan-izmir-bolgesi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #48ce8d -- insubres-kabile-devleti, kyme-cumae, samo-devleti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #d4adf9 -- liege-piskoposlugu, malta-fransiz, malta-ingiliz, zankle-messana. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #4d82a8 -- korsika-cumhuriyeti, megara-hyblaia, montferrat-markizligi, roma-cumhuriyeti-1798, septinsular. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #fe978f -- kroton, pomeranya-dukaligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #32a85f -- gence-hanligi, raska-buyuk-prensligi, rostov-knezligi, sofene, taras. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #96794f -- baekje, balhae, chu-devleti, chu-ma, dongou, veligosti-damala-baronluk, xi-wei-krallik. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #68ec93 -- baku-hanligi, caka-beyligi, kilkenny-konfederasyonu, kush-krallik, mari-erken, piktler, sakiz-maona, silezya-piast, skit-krallik, ugarit. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #9364b8 -- antigonid-makedonya, etrusk-tarquinia, malta-kolonisi, partenopea-cumhuriyeti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #13b07e -- antigonos-krallik, karya-hekatomnid, lidya. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #8fe878 -- arvanid-sancagi, boiotia-birligi, himera, kapadokya-krallik, kuca-hocalari, lizimakhos, padova-carrara. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #08cdff -- berqavata, fezzan, gandhara-mahajanapada, hazar-kaganligi, jamaika-ingiliz, kyrene, maurya, nanda, nanjing-wang-jingwei, vollayta-kralligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #94dbfa -- bremen-sehri, hessen-landgrafligi, seki-hanligi, selinous, turk-misir-sudani. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #8fe5ac -- avusturya-hollandasi, gengshi, gongsun-liaodong, han-devleti-zhou, irlanda-dail-cumhuriyeti, massalia, nanzhao, norvec-isvec-birligi, sonraki-liang-5hanedan, svalbard, wu-devleti, yamato, yin-krallik. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #f07768 -- beloozero-knezligi, sakiz-polis. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #df3f48 -- akragas, alman-isgali-karadag, bavyera, delmatai-federasyon, ljubljana-ili, macar-sovyet-cumhuriyeti, memel-bolgesi, yaroslavl-knezligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #f5d149 -- derbent-hanligi, likya-birligi, lubeck-sehri, peloponnes-birligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #a3dc57 -- mecklenburg-dukaligi, odessos-polis. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #01bf8e -- garamant, konstantin-beyligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #fc6c4d -- chichen-itza, monte-alban-zapotek. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #397ea3 -- italyan-karadag, mecklenburg-strelitz, odris, westfalya-krallik. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #f24c9a -- bosporos-krallik, moravya-markgraflik, sirvan-hanligi, tanca-uluslararasi-bolge. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b0a503 -- atina-dukaligi, bati-wei, cheng-han, chengjia-gongsun-shu, hengshan-krallik, hubaekje, kuzey-wei, ran-wei, sui, sun-wu, tibet-imparatorlugu, zhao-devleti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #7579ab -- tuyuhun, wei-devleti-zhou. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #ffbd5d -- ma-in, polotsk-knezligi, sui-zheng-wang-shichong. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #52e8f6 -- epir, roma-cumhuriyeti-1849, sardinya-aragon. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #f14a71 -- anglo-korsika-krallik, bruttii-birligi, gattilusio, ligurya-cumhuriyeti, lombardiya-venedik, ren-konfederasyonu. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b77208 -- cenevre-cumhuriyeti, dian, sirp-voyvodaligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #7d76a9 -- italyan-eritre, linjiang-krallik. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #ff9bf8 -- bima-sultanligi, chenla, dai-tuoba, guney-liang-16, kuzey-qi, liu-song, onceki-shu, sonraki-shu, yan-krallik-chuhan. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #4090c0 -- satavahana, sunga. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #17def8 -- indo-grek, maitraka, sakalar-bati-satraplar. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #5ae9c3 -- kommagene, nahcivan-hanligi, tanca-bolgesi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #f5c4f2 -- barbados-ingiliz, casma-sechin, fransiz-misir-seferi, moche, namibya-gecici-ulusal-birlik-hukumeti, tairona. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #73e1fc -- bosna-isgal, dogu-gokturk, dogu-gokturk-2, kusan. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #d585fc -- tikal-mutul, tiwanaku-devleti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #619370 -- dogu-turkistan-cumhuriyeti-gulca, dogu-turkistan-islam-cumhuriyeti, hivite-afrigid, ogedey-ulusu-kaydu, turkistan-muhtariyeti-hokand, turkistan-ossc, xianbei. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #8fc3f7 -- linyi-champa, untac. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #adda7a -- da-qi-liu-yu, maya-klasik. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #63ad9c -- hou-zhao, kuzey-liang, kuzey-zhou, wuyue. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #8076a2 -- arap-birligi-irak-urdun, gupta, pandya-1, rus-amerikasi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #fdb767 -- guney-han-10krallik, hu-xia, onceki-qin. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #0397c8 -- galicya-volhinya, rouran, saksonya-dukaligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #f685b2 -- cid-valensiya, granada-ziriler, suev, valensiya-kralligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #a36675 -- norvec-1814, palenque-baak, schleswig-holstein-1848. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #7cd2a1 -- burgund, zaragoza-hudiler. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #2e8a98 -- brabant-dukaligi, dublin-krallik, kent-kralligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #828705 -- finlandiya-buyuk-dukaligi, northumbria, soissons-devleti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #de7aed -- danelaw, empuries, sussex-kralligi, verona-scaliger. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b86bb4 -- rastrakuta, vishnukundina. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #adc8fd -- fransiz-birligi, liang-guney. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #1596ba -- dinh, ispanyol-filipinler, lao-issara-hukumeti, van-xuan, vietnam-imparatorlugu-1945. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #a86a6c -- chimu, wari. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #88e873 -- champagne-kontlugu, dogu-anglia, kurland-dukaligi, saksonya-weimar. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #889f5c -- kirgiz-yenisey, xueyantuo-kaganligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b0e15c -- luksemburg-hollanda-birligi, powys. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #85dee8 -- transkaspi-hukumeti, ukaydir. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #9ec97a -- rustemi, yemen-zeydi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #7dcbfd -- kuzey-han-10krallik, min-krallik. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #11a141 -- deheubarth, lori-kralligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #6a7eb9 -- guney-tang, sonraki-tang-5hanedan. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #ce930b -- cezayir-ocagi, sonraki-zhou-5hanedan. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #03c78a -- italyan-libya, trablus-benihazrun. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #9ea4f6 -- an-lushan-yan, utrecht-piskoposlugu. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #d1d859 -- hainaut-kontlugu, uyuni. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #1385f2 -- fiji-cakobau, saudeleur, tonga-lapita. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #d6c0ef -- alman-kamerun, angola-unita-fnla, kaqchikel-kralligi, mayapan-birligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b66904 -- alman-ukrayna, belarus-halk-cumhuriyeti, guney-rusya-beyaz, mazovya-dukaligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #99cdf8 -- dendi, maldivler-sultanligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #6ebffc -- kachchhapaghata-gwalior, sipsong-panna, tang, tsongkha. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #96bf3f -- bavyera-konsey-cumhuriyeti, bern-cumhuriyeti, frankfurt-serbest-sehri, macaristan-halk-cumhuriyeti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #0be5b2 -- birlesik-iyon-adalari, braunschweig-luneburg-dukaligi, talis-hanligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #6a9015 -- gilbert-ellice-kolonisi, rarotonga. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b7db7f -- ispanyol-kuba, kefe-gazaria. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b3737f -- avignon-venaissin, ganiyeler. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #2cc5fd -- eyyubi-meyyafarikin, gelre-dukaligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #f8c054 -- 12-su-quan, luksemburg-dukaligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #995dc0 -- kosova-brankovic, turkana-pastoral-neolitik. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #fab1cf -- arnavutluk-iskenderbey, gambiya-kolonisi, ispanyol-florida. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #2099f8 -- bosna-eyaleti, untea. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #189046 -- hamburg-sehri, ozak. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #debbe6 -- denyanke, senegambiya. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #5f872a -- harfusogullari, vladimir-suzdal. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #7aa069 -- alman-togo, fante, kaabu. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #0e8cc8 -- erdel, khok-phanom-di-neolitik. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #08867d -- tunus-ocagi, ukrayna-halk-cumhuriyeti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #896ba4 -- akwamu, tambralinga. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #a07159 -- paracas-kultur, ruperts-land, yeni-hollanda. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #9fde94 -- alman-guneybati-afrikasi, louisiana, yeni-isvec. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #e2c4fd -- cape-hollanda, natalia. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #fa748d -- essex, yeni-granada-valiligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #ae716a -- aden-kolonisi, sabah-emirligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #78e7be -- berg-buyuk-dukaligi, venedik-1848. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #72e6e3 -- himyar, ikinci-meksika-imparatorlugu, trinidad-tobago-ingiliz. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #fe6064 -- birlesik-arap-devletleri, sani-emirligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #fac368 -- fransiz-somalisi, friuli-dukaligi-lombard. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b46389 -- fed-malay-devletleri, mogolistan-halk-cumhuriyeti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #07c189 -- bingazi-emirligi, cezayir-gpra, tunus-krallik. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b282fd -- afar-issa-fransiz-bolgesi, somali-ulusal-gecis-hukumeti, zengibar-halk-cumhuriyeti. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #49b0db -- bohemya, ihsidi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #f68af6 -- kenzu-ddevle, uygur-kaganligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #a3c6fb -- pallars, pallava. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #1ca4f3 -- anau-ia-kultur, chamba, dakya, hindu-sahiler, smolensk-knezligi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #8ce5aa -- chapa-vardhamana, gobero-kultur. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #b0ac42 -- arborea, visconti-signoria. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #62bed0 -- eftalit, karluk. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #6b7bab -- ebla-1, hitit, taberistan-zeydi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #de9bff -- kaminaljuyu-providencia, la-blanca-formatif. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  UYARI su: 22 devlet rengi SU RENGINE cok yakin (esik DE 18)
+    DE  15.8  bremen-sehri                 #94dbfa   <- kiyisi olan govde suya karisir
+    DE  15.8  hessen-landgrafligi          #94dbfa   <- kiyisi olan govde suya karisir
+    DE  15.8  seki-hanligi                 #94dbfa   <- kiyisi olan govde suya karisir
+    DE  15.8  selinous                     #94dbfa   <- kiyisi olan govde suya karisir
+    DE  15.8  turk-misir-sudani            #94dbfa   <- kiyisi olan govde suya karisir
+    DE  16.0  antigonos                    #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  bitinya                      #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  filistin-pentapolis          #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  gassani                      #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  greko-baktria                #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  guarani-misyonlari           #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  isin                         #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  kanva                        #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  kerma                        #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  kongo-serbest-devleti        #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  misir-28-30-hanedan          #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  moriori                      #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  pereyaslavl-knezligi         #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  tebai-11-hanedan             #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  uruk-erken-hanedan           #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.0  xochicalco                   #94ddfb   <- kiyisi olan govde suya karisir
+    DE  16.9  herodes-krallik              #8fdefa   <- kiyisi olan govde suya karisir
+  RENK acikma: 18 kimlik ACIKLIK_TABANI_L=59'a cekildi (hex DEGISTI, ton/doygunluk AYNI):
+    L*=54.9  bosna                        #0a0381 -> #2f1896
+    L*=55.9  bizans                       #0f0f5d -> #281e6f
+    L*=56.7  norvec-kralligi              #0b1650 -> #202460
+    L*=57.0  moskova                      #0f0f9c -> #2419a6
+    L*=57.5  kutai                        #4b0f15 -> #55191d
+    L*=57.5  kert                         #0808f0 -> #1b0ff4
+    L*=57.6  cunagadh                     #3c1515 -> #451d1c
+    L*=57.6  astarhan                     #421212 -> #4c1b1a
+    L*=57.6  savoya                       #12129f -> #2119a6
+    L*=57.7  afgan-durrani                #3c1239 -> #451b41
+    L*=58.1  gova-makassar                #281098 -> #30169d
+    L*=58.1  san-fan                      #4e1218 -> #55191d
+    L*=58.3  laos-kralliklari             #421539 -> #46193d
+    L*=58.3  bhopal                       #451539 -> #49193c
+    L*=58.4  litvanya-buyuk-dukalik       #060cff -> #1310ff
+    L*=58.4  bonacolsi                    #421542 -> #461945
+    L*=58.8  kandy                        #600f3c -> #60103c
+    L*=59.0  nebhani                      #60121b -> #61131b
+  RENK acikma IKINCI GECIS (3 kimlik) - saf L-lift komsuya cok yaklastiriyordu, ton acisi da kaydirildi (ORHANGAZI M-1848):
+    L*=55.1  fransa-cumhuriyet            #09095a -> #00297c  (<-ingiltere DE=18.5)
+    L*=57.8  ferrara                      #300c93 -> #7a005c  (<-mantua DE=19.6)
+    L*=57.8  modena                       #300c93 -> #7a005c  (<-mantua DE=19.6)
+  UYARI alan: 'ic_not' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler.js:Abâdân). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'karar_notu' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler.js:Aquincum-Óbuda-Pest). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'kaynak_kur' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek24.js:Uzunköprü). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'konum_kesinlik' BILINEN_ALANLAR'da yok — 126 kayıtta (yerlesimler_once1281_yt_ortadogu.js:Elam, yerlesimler_once1281_yt_ortadogu.js:Media, yerlesimler_once1281_yt_ortadogu.js:Elymais…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 's.ic_not' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler.js:Tilimsan). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+Amerika yerlesim 978
+['ad', 'tur', 'lat', 'lon', 'g', 'k', 'kur', 's', 'm', 'd', 'v', '_kaynak']
+kunye on1281 Amerika 62
+casma-sechin | boya | yerlesim_on1281 3 
+caral-norte-chico | boya | yerlesim_on1281 1 
+kotosh-dini-gelenek | boya | yerlesim_on1281 1 
+poverty-point-kultur | boya | yerlesim_on1281 1 
+oaxaca-formatif | boya | yerlesim_on1281 1 
+olmek | boya | yerlesim_on1281 2 
+maya-orta-preklasik | boya | yerlesim_on1281 4 
+la-blanca-formatif | boya | yerlesim_on1281 1 
+chavin | boya | yerlesim_on1281 1 
+paracas-kultur | boya | yerlesim_on1281 1 
+zapotek-monte-alban | boya | yerlesim_on1281 1 
+kaminaljuyu-providencia | boya | yerlesim_on1281 1 
+nazca | boya | yerlesim_on1281 1 
+teotihuacan | boya | yerlesim_on1281 1 
+moche | boya | yerlesim_on1281 1 
+tikal-mutal | boya | yerlesim_on1281 0 
+tikal-mutul | boya | yerlesim_on1281 1 
+maya-klasik | boya | yerlesim_on1281 0 
+hohokam | boya | yerlesim_on1281 1 
+caracol-maya | boya | yerlesim_on1281 1 
+yaxchilan | boya | yerlesim_on1281 1 | bg
+ceibal | boya | yerlesim_on1281 0 | bg
+copan | boya | yerlesim_on1281 1 
+quirigua | boya | yerlesim_on1281 1 | bg
+palenque-baak | boya | yerlesim_on1281 1 
+piedras-negras-yokib | boya | yerlesim_on1281 1 | bg
+tiwanaku-devleti | boya | yerlesim_on1281 1 
+tiwanaku | boya | yerlesim_on1281 0 
+kaanul | boya | yerlesim_on1281 2 | bg
+naranjo-saal | boya | yerlesim_on1281 1 | bg
+wari | boya | yerlesim_on1281 1 
+el-tajin | boya | yerlesim_on1281 1 | bg
+coba | boya | yerlesim_on1281 1 | bg
+dos-pilas-petexbatun | boya | yerlesim_on1281 1 | bg
+cacaxtla | boya | yerlesim_on1281 1 | bg
+xochicalco | boya | yerlesim_on1281 1 
+cholula | boya | yerlesim_on1281 1 | bg
+sican | boya | yerlesim_on1281 2 
+ek-balam | boya | yerlesim_on1281 1 | bg
+tairona | boya | yerlesim_on1281 1 
+uxmal | boya | yerlesim_on1281 1 | bg
+chichen-itza | boya | yerlesim_on1281 1 | bg
+spiro | boya | yerlesim_on1281 0 
+ata-pueblo | boya | yerlesim_on1281 1 | bg
+toltek | boya | yerlesim_on1281 1 | bg
+tilantongo-mixtek | boya | yerlesim_on1281 1 | bg
+norse-gronland | boya | yerlesim_on1281 0 
+inuit | boya | yerlesim_on1281 0 
+maya-sehir-devletleri | boya | yerlesim_on1281 0 
+chimu-krallik | boya | yerlesim_on1281 1 
+chimu | boya | yerlesim_on1281 0 
+cahokia | boya | yerlesim_on1281 1 
+etowah | boya | yerlesim_on1281 1 
+mayapan-birligi | boya | yerlesim_on1281 1 
+chincha | boya | yerlesim_on1281 1 | bg
+aymara-senyorlukler | boya | yerlesim_on1281 2 | bg
+tututepec | boya | yerlesim_on1281 1 | bg
+moundville | boya | yerlesim_on1281 1 
+kuzco-krallik | boya | yerlesim_on1281 1 | bg
+taino-seflikleri | boya | yerlesim_on1281 0 | bg
+azcapotzalco-tepanek | boya | yerlesim_on1281 0 | bg
+natchez | boya | yerlesim_on1281 0 
+s bos 31
+kunyesiz d {}
+bosluk 31
+pencere asim 0
