@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "aa3a248f36ed238f",
-     "bayt": 5483739
+     "sha": "ce475f71d446d013",
+     "bayt": 5483824
     }
    ],
-   "bayt": 5663547
+   "bayt": 5663632
   },
   {
    "paket": "data/paket_06.js",
@@ -269,8 +269,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_guney_g8.js",
-     "sha": "9817e0c9565f790d",
-     "bayt": 60534
+     "sha": "81f5843b7c0e9ae0",
+     "bayt": 61271
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_orta.js",
@@ -329,8 +329,8 @@
     },
     {
      "yol": "data/kronoloji_portekiz.js",
-     "sha": "d9ea061f1ee96ff4",
-     "bayt": 71873
+     "sha": "6d787ccce3146f68",
+     "bayt": 72492
     },
     {
      "yol": "data/kronoloji_cin.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1088521
+   "bayt": 1089877
   },
   {
    "paket": "data/paket_10.js",
@@ -1082,8 +1082,8 @@
     },
     {
      "yol": "data/yerlesimler_kamerika.js",
-     "sha": "2ba19a28dfed52ff",
-     "bayt": 196787
+     "sha": "8b71e9b8c4b40ecf",
+     "bayt": 198587
     },
     {
      "yol": "data/yerlesimler_hint0912.js",
@@ -1091,7 +1091,7 @@
      "bayt": 6206
     }
    ],
-   "bayt": 523059
+   "bayt": 524859
   },
   {
    "paket": "data/paket_23.js",
@@ -1530,8 +1530,8 @@
     },
     {
      "yol": "data/kronoloji_cok_okyanusya.js",
-     "sha": "287b7d10fac93978",
-     "bayt": 26539
+     "sha": "657ee16fd0de502d",
+     "bayt": 39831
     },
     {
      "yol": "data/kronoloji_cok_orta_asya2.js",
@@ -1550,8 +1550,8 @@
     },
     {
      "yol": "data/kronoloji_cok_rusya.js",
-     "sha": "29d36bf5fb568abb",
-     "bayt": 72738
+     "sha": "2e6ca33efa1e2f75",
+     "bayt": 68375
     },
     {
      "yol": "data/kronoloji_cok_sirbistan.js",
@@ -1590,8 +1590,8 @@
     },
     {
      "yol": "data/kronoloji_cok_guney_amerika.js",
-     "sha": "5ede67d2ef48e8c4",
-     "bayt": 78182
+     "sha": "70621fd1d2870485",
+     "bayt": 79721
     },
     {
      "yol": "data/kronoloji_cok_gurcistan.js",
@@ -1629,7 +1629,7 @@
      "bayt": 13985
     }
    ],
-   "bayt": 987834
+   "bayt": 998302
   }
  ]
 }
