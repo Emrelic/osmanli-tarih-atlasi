@@ -754,4 +754,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ek_atlantik_adalar.js",
     # HINT-OKYANUSU (28 Ekim 2026) - noktasız Hint Okyanusu adaları
     "yerlesimler_hint_adalar.js",
+    # ADALAR-PASIFIK (28-29 Ekim 2026) - Koror (Palau), Port Vila (beyanli bosluk)
+    "yerlesimler_ek_pasifik_adalar.js",
 ]
