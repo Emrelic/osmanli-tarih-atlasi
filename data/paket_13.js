@@ -2255,14 +2255,14 @@ window.YERLESIMLER = [
 // Seyyid Abdullah'ın 2 Şubat 1920'de çekilmesi ve 26 Nisan 1920'de Hârizm
 // Halk Cumhuriyeti'nin ilânıdır.
 { ad:"Hîve", tur:"sehir", lat:41.3783, lon:60.3639, g:1, k:1, d:[],
-  s:[{"f":"1281-01-01","t":"1379-01-01","d":"cagatay"},{"f":"1379-01-01","t":"1505-01-01","d":"timurlu"},{"f":"1505-01-01","t":"1512-01-01","d":"buhara"},{"f":"1512-01-01","t":"1740-01-01","d":"hive"},{"f":"1740-01-01","t":"1747-06-20","d":"afsar"},{"f":"1747-06-20","t":"1920-04-26","d":"hive"},{f:"1920-04-26",t:"1924-01-01",d:"harezm-halk-cumhuriyeti",kesinlik:{f:"gun",t:"yil"},kaynak:"TDV İslâm Ansiklopedisi, «Hîve Hanlığı» maddesi (https://islamansiklopedisi.org.tr/hive-hanligi, Mehmet Saray): «2 Şubat 1920’de son Kongirat Hanı Seyyid Abdullah’ın tahttan çekilmesi üzerine 26 Nisan 1920’de Hârizm Halk Cumhuriyeti ilân edildi. Ardından da 1924’te bu cumhuriyete son verilip topraklar Hârizm, Özbekistan, Türkmenistan, Kara Kalpakistan arasında paylaşıldı.» ; TDV «Özbekistan»: «1920’de … Hîve’de Hârizm Halk Cumhuriyeti teşkil edildi.» · BAŞLANGIÇ GÜN kaynaklı; BİTİŞ YIL (1924 ⇒ 1924-01-01). Önceki kayıt: sovyet-rusya 1920-04-26→. · ZİNCİR-1281SONRA-1024"},{"f":"1924-01-01","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1379-01-01","d":"__BOSLUK__","kesinlik":"yil","kaynak":"BOŞLUK BEYANI: sahip Kongrat asıllı Sûfî hanedanı (atlas künyesi ve BOYALAR yok) · TDV Hârizm md., https://islamansiklopedisi.org.tr/harizm (okundu): «Kongrat asıllı Hüseyin Sûfî Hârizm'in doğu kesimini ele geçirmişti; Timur 1371'de onu yendi», «1379'da Timur bölgeyi kesin olarak ele geçirdi» · çelişki: aynı md. Kâs ve Hîve'nin Çağatay ulusuna bırakıldığını (tarihsiz) söyler, Çağatay künyesi 1370-04-09'da Timurlu'ya devrolur; 1370-1379 Çağatay/Timurlu hâkimiyeti kaynakta yok → Çağatay uzatılmadı (t=1370-04-09 künye t). Arandı: Sûfîler için yıl aralığı TDV'de yok. Yeni künye BOYALAR (tuz) ister."},{"f":"1379-01-01","t":"1505-01-01","d":"timurlu"},{"f":"1505-01-01","t":"1512-01-01","d":"buhara"},{"f":"1512-01-01","t":"1740-01-01","d":"hive"},{"f":"1740-01-01","t":"1747-06-20","d":"afsar"},{"f":"1747-06-20","t":"1920-04-26","d":"hive"},{f:"1920-04-26",t:"1924-01-01",d:"harezm-halk-cumhuriyeti",kesinlik:{f:"gun",t:"yil"},kaynak:"TDV İslâm Ansiklopedisi, «Hîve Hanlığı» maddesi (https://islamansiklopedisi.org.tr/hive-hanligi, Mehmet Saray): «2 Şubat 1920’de son Kongirat Hanı Seyyid Abdullah’ın tahttan çekilmesi üzerine 26 Nisan 1920’de Hârizm Halk Cumhuriyeti ilân edildi. Ardından da 1924’te bu cumhuriyete son verilip topraklar Hârizm, Özbekistan, Türkmenistan, Kara Kalpakistan arasında paylaşıldı.» ; TDV «Özbekistan»: «1920’de … Hîve’de Hârizm Halk Cumhuriyeti teşkil edildi.» · BAŞLANGIÇ GÜN kaynaklı; BİTİŞ YIL (1924 ⇒ 1924-01-01). Önceki kayıt: sovyet-rusya 1920-04-26→. · ZİNCİR-1281SONRA-1024"},{"f":"1924-01-01","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Hazârasp, Hîve'nin 55 km doğusunda, Amuderya'nın sol kıyısındaki eski
 // kale. Güney Harezm'dedir, zinciri Hîve ile aynıdır.
 // ⚠️ TDV'de "Hazarasp" başlıklı madde YOKTUR (arama sıfır sonuç verdi);
 // zincir, HÂRİZM maddesinin bölge tarihinden türetilmiştir.
 { ad:"Hazârasp", tur:"kale", lat:41.3200, lon:61.0700, g:0, k:4, d:[],
-  s:[{"f":"1281-01-01","t":"1379-01-01","d":"cagatay"},{"f":"1379-01-01","t":"1505-01-01","d":"timurlu"},{"f":"1505-01-01","t":"1512-01-01","d":"buhara"},{"f":"1512-01-01","t":"1740-01-01","d":"hive"},{"f":"1740-01-01","t":"1747-06-20","d":"afsar"},{"f":"1747-06-20","t":"1920-04-26","d":"hive"},{f:"1920-04-26",t:"1924-01-01",d:"harezm-halk-cumhuriyeti",kesinlik:{f:"gun",t:"yil"},kaynak:"TDV İslâm Ansiklopedisi, «Hîve Hanlığı» maddesi (https://islamansiklopedisi.org.tr/hive-hanligi, Mehmet Saray): «2 Şubat 1920’de son Kongirat Hanı Seyyid Abdullah’ın tahttan çekilmesi üzerine 26 Nisan 1920’de Hârizm Halk Cumhuriyeti ilân edildi. Ardından da 1924’te bu cumhuriyete son verilip topraklar Hârizm, Özbekistan, Türkmenistan, Kara Kalpakistan arasında paylaşıldı.» ; TDV «Özbekistan»: «1920’de … Hîve’de Hârizm Halk Cumhuriyeti teşkil edildi.» · BAŞLANGIÇ GÜN kaynaklı; BİTİŞ YIL (1924 ⇒ 1924-01-01). Önceki kayıt: sovyet-rusya 1920-04-26→. · ZİNCİR-1281SONRA-1024"},{"f":"1924-01-01","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1379-01-01","d":"__BOSLUK__","kesinlik":"yil","kaynak":"BOŞLUK BEYANI: sahip Kongrat asıllı Sûfî hanedanı (atlas künyesi ve BOYALAR yok) · TDV Hârizm md., https://islamansiklopedisi.org.tr/harizm (okundu): «Kongrat asıllı Hüseyin Sûfî Hârizm'in doğu kesimini ele geçirmişti; Timur 1371'de onu yendi», «1379'da Timur bölgeyi kesin olarak ele geçirdi» · çelişki: aynı md. Kâs ve Hîve'nin Çağatay ulusuna bırakıldığını (tarihsiz) söyler, Çağatay künyesi 1370-04-09'da Timurlu'ya devrolur; 1370-1379 Çağatay/Timurlu hâkimiyeti kaynakta yok → Çağatay uzatılmadı (t=1370-04-09 künye t). Arandı: Sûfîler için yıl aralığı TDV'de yok. Yeni künye BOYALAR (tuz) ister."},{"f":"1379-01-01","t":"1505-01-01","d":"timurlu"},{"f":"1505-01-01","t":"1512-01-01","d":"buhara"},{"f":"1512-01-01","t":"1740-01-01","d":"hive"},{"f":"1740-01-01","t":"1747-06-20","d":"afsar"},{"f":"1747-06-20","t":"1920-04-26","d":"hive"},{f:"1920-04-26",t:"1924-01-01",d:"harezm-halk-cumhuriyeti",kesinlik:{f:"gun",t:"yil"},kaynak:"TDV İslâm Ansiklopedisi, «Hîve Hanlığı» maddesi (https://islamansiklopedisi.org.tr/hive-hanligi, Mehmet Saray): «2 Şubat 1920’de son Kongirat Hanı Seyyid Abdullah’ın tahttan çekilmesi üzerine 26 Nisan 1920’de Hârizm Halk Cumhuriyeti ilân edildi. Ardından da 1924’te bu cumhuriyete son verilip topraklar Hârizm, Özbekistan, Türkmenistan, Kara Kalpakistan arasında paylaşıldı.» ; TDV «Özbekistan»: «1920’de … Hîve’de Hârizm Halk Cumhuriyeti teşkil edildi.» · BAŞLANGIÇ GÜN kaynaklı; BİTİŞ YIL (1924 ⇒ 1924-01-01). Önceki kayıt: sovyet-rusya 1920-04-26→. · ZİNCİR-1281SONRA-1024"},{"f":"1924-01-01","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Köhne Ürgenç = ortaçağ Gürgenç'i, Harezm'in idarî ve iktisadî merkezi.
 // KUZEY Harezm'dedir; TDV HÂRİZM'e göre Cuci ulusunda (Altın Orda) kaldı —
@@ -4911,8 +4911,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1370-04-09", t:"1504-10-01", d:"timurlu"},
      {f:"1504-10-01", t:"1738-01-01", d:"babur-imparatorlugu"},
      {f:"1738-01-01", t:"1747-06-20", d:"afsar"},
-     {f:"1747-06-20", t:"1826-01-01", d:"afgan-durrani"},
-     {f:"1826-01-01", t:"1839-08-07", d:"afganistan"},
+     {f:"1747-06-20", t:"1819-01-01", d:"afgan-durrani"},
+     {f:"1819-01-01", t:"1839-08-07", d:"afganistan"},
      {f:"1839-08-07", t:"1842-01-06", d:"ingiltere"},
      {f:"1842-01-06", t:"1879-10-12", d:"afganistan"},
      {f:"1879-10-12", t:"1880-08-11", d:"ingiltere"},
@@ -4923,8 +4923,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1370-04-09", t:"1504-10-01", d:"timurlu"},
      {f:"1504-10-01", t:"1738-01-01", d:"babur-imparatorlugu"},
      {f:"1738-01-01", t:"1747-06-20", d:"afsar"},
-     {f:"1747-06-20", t:"1826-01-01", d:"afgan-durrani"},
-     {f:"1826-01-01", t:"1839-07-23", d:"afganistan"},
+     {f:"1747-06-20", t:"1819-01-01", d:"afgan-durrani"},
+     {f:"1819-01-01", t:"1839-07-23", d:"afganistan"},
      {f:"1839-07-23", t:"1842-09-06", d:"ingiltere"},
      {f:"1842-09-06", t:"2000-12-31", d:"afganistan"}] },
 
@@ -4953,7 +4953,7 @@ window.YERLESIMLER_ASYA = [
 // geleneğine uyarak Hotakî ve Afşar dönemlerini genel "iran" ile boyuyor.
 // 1747'de Ahmed Şah Dürrânî burada taç giydi ve ilk başkenti oldu.
 { ad:"Kandehar", kur:"1773-01-01", kesinlik:"belirsiz", neden:"SEHIR-TARIHCE-OSM-1014 C grubu · Emre kararları 13-14 Ekim 2026 (antik/eski yer > 3 km ⇒ AYRI nokta; Şırnak kalıbı): bu nokta BUGÜNKÜ şehrin yeridir; atlasın bu noktadaki önceki başlangıcı ve dönemleri ESKİ şehre aitti ve 'Eski Kandehar (Şehr-i Köhne)' kaydına taşındı. kur: KURULUŞ DEĞİL, bugünkü sahanın İLK YAZILI TANIĞI (görünme alt sınırı): TDV KANDEHAR (A. Özcan): 'Ahmed Şah Dürrânî de eski şehrin doğusunda Ahmedşâhî adını verdiği surlarla çevrili bir şehir kurdu'; EIr KANDAHAR i. (X. de Planhol): Ahmed Şah'ın saltanatı 1747-73 — kuruluş bu aralıkta, yılı bulunamadı ('1761' doğrulanamadı); güvenli uç 1773. Kesinlik belirsiz. Öncesindeki dönemler kırpıldı. Tarihçe: data/sehir_tarihce_osm.js 'kandahar'.",  tur:"sehir", lat:31.6100, lon:65.7100, g:1, k:2, d:[],
-  s:[{f:"1773-01-01", t:"1826-01-01", d:"afgan-durrani"},{f:"1826-01-01", t:"2000-12-31", d:"afganistan"}] },
+  s:[{f:"1773-01-01", t:"1819-01-01", d:"afgan-durrani"},{f:"1819-01-01", t:"2000-12-31", d:"afganistan"}] },
 { ad:"Eski Kandehar (Şehr-i Köhne)", tur:"sehir", lat:31.601, lon:65.6597, g:0, k:2, kaynak:"TDV `kandehar` (A. Özcan), ham metin 14 Ekim 2026: 'Şehir 1150’de (1738) Afşarlı Nâdir Şah tarafından ele geçirildikten sonra tahrip edilerek' · gün: Encyclopaedia Iranica 'NADIR SHAH AFSHAR' (data/kronoloji_iran.js 1738-03-24) · koordinat Pleiades 59669", neden:"SEHIR-TARIHCE-OSM-1014 C grubu · Emre kararları 13-14 Ekim 2026 (antik/eski yer > 3 km ⇒ AYRI nokta; Şırnak kalıbı): 'Kandehar' kaydının taşıdığı ESKİ şehrin yeri — dönem zinciri o kayıttan 1738-03-24'e kadar ham metinle TAŞINDI (kaynakları dönemlerinde). Koordinat: Pleiades 59669 (Alexandria in Arachosia / Qandahār, CIGS). bit: 1738-03-24 — TDV KANDEHAR: 'Şehir 1150’de (1738) Afşarlı Nâdir Şah tarafından ele geçirildikten sonra tahrip edilerek eski yerinin güneydoğusunda Nâdirâbâd ismiyle yeniden kuruldu'; gün: data/kronoloji_iran.js 1738-03-24 maddesinin kendi kaynağı EIr NADIR SHAH AFSHAR (gün komşudan: o madde). Nâdirâbâd (1738-1747) ayrı yer, bu işte açılmadı. Erken tarih: Ahameniş/İskender dönemi kenti (Pleiades 59669) — zincir atlasın 1281 başlangıcıyla açılır. TDV 1281 sahibini Kert (Şemseddin Kert, 680/1281) verir — KUTU-VERI-1015'te Emre kararıyla (KARARLAR-EMRE-1015 #7) 'cagatay' yerine 'kert' yazıldı, Timur zaptı 1383.", s:[
      {f:"1281-01-01", t:"1383-01-01", d:"kert", kesinlik:{f:"yil",t:"yil"}, kaynak:"TDV `kandehar` (A. Özcan): '680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti' · bitiş: aynı madde '785’te (1383) Timur tarafından zaptedilerek torunu Pîr Muhammed’e verilen şehir' — ikisi de YIL (gün yok ⇒ YYYY-01-01). 1281-1383 arasında başka el değiştirme TDV'de anılmaz. Eski d:'cagatay' 1281-1370 kaynaksızdı · Emre kararı 15 Ekim 2026 (KARARLAR-EMRE-1015 #7: TDV'ye uy, KERT) · KUTU-VERI-1015"},
      {f:"1383-01-01", t:"1507-05-01", d:"timurlu", kaynak:"TDV `kandehar`: '785’te (1383) Timur tarafından zaptedilerek' (YIL) · eski f 1370-01-01 kaynaksızdı · KUTU-VERI-1015"},
@@ -9106,8 +9106,8 @@ window.YERLESIMLER_ORTAASYA2 = [
 // Nogay penceresi YOK — bozkırın bu ucu doğrudan Altın Orda'dan Kazak'a geçer.
 { ad:"Aral kuzeyi", tur:"bolge", lat:47.2000, lon:61.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
-     {f:"1500-01-01", t:"1868-01-01", d:"kazak-hanligi"},
-     {f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1500-01-01", t:"1847-01-01", d:"kazak-hanligi"},
+     {f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Üstyurt platosunun KUZEY ucu — birinci partideki "Üstyurt platosu (batı)"
 // ve "(doğu)" noktalarının kuzeyi. ⚠️ Koordinat tarihî Aral'ın batısında
@@ -9120,16 +9120,16 @@ window.YERLESIMLER_ORTAASYA2 = [
 { ad:"Üstyurt kuzeyi", tur:"bolge", lat:45.6000, lon:56.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
      {f:"1500-01-01", t:"1644-01-01", d:"nogay"},
-     {f:"1644-01-01", t:"1868-01-01", d:"kazak-hanligi"},
-     {f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1644-01-01", t:"1847-01-01", d:"kazak-hanligi"},
+     {f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Emba (Cem) ırmağı havzası — TDV NOGAYLAR'ın adıyla andığı doğu sınırı.
 // Zincir Üstyurt kuzeyi ile aynıdır.
 { ad:"Emba (Cem)", tur:"bolge", lat:47.5000, lon:57.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
      {f:"1500-01-01", t:"1644-01-01", d:"nogay"},
-     {f:"1644-01-01", t:"1868-01-01", d:"kazak-hanligi"},
-     {f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1644-01-01", t:"1847-01-01", d:"kazak-hanligi"},
+     {f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Aktöbe (Aktyubinsk) — 1869'da Rus bozkır karakolu olarak kuruldu.
 // ⚠️ TDV'de maddesi yok; kuruluş yılı standart akademik referanstan,

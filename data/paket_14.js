@@ -633,7 +633,7 @@ window.YERLESIMLER_EK9 = [
 // 📌 Tek başına 623.537 km² alıyor ve o alanın bugünkü sahibi Kobdo —
 //    yani `cungar`/`kuzey-yuan` rengi Kuzey Kazakistan'a çıkıyordu.
 { ad:"Kazak bozkırı (İşim)", tur:"bolge", lat:52.5000, lon:68.0000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1847-01-01",d:"kazak-hanligi"},{f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -5155,9 +5155,9 @@ window.YERLESIMLER_SIBIRYA = [
   kur:"1602-01-01",
   s:[{f:"1602-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kazak bozkırı (Turgay)", tur:"bolge", lat:49.60, lon:63.50, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1847-01-01",d:"kazak-hanligi"},{f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kazak bozkırı (Sarısu)", tur:"bolge", lat:47.00, lon:67.00, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1847-01-01",d:"kazak-hanligi"},{f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ---------- ② ORTA SİBİRYA — Buryat (kuzey-yuan) · Yakut/Koryak (veri-yok) ----------
 { ad:"Buryat toprakları (Selenge havzası)", tur:"bolge", lat:53.00, lon:110.00, g:0, k:0,

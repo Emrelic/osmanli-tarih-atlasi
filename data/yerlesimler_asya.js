@@ -547,8 +547,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1370-04-09", t:"1504-10-01", d:"timurlu"},
      {f:"1504-10-01", t:"1738-01-01", d:"babur-imparatorlugu"},
      {f:"1738-01-01", t:"1747-06-20", d:"afsar"},
-     {f:"1747-06-20", t:"1826-01-01", d:"afgan-durrani"},
-     {f:"1826-01-01", t:"1839-08-07", d:"afganistan"},
+     {f:"1747-06-20", t:"1819-01-01", d:"afgan-durrani"},
+     {f:"1819-01-01", t:"1839-08-07", d:"afganistan"},
      {f:"1839-08-07", t:"1842-01-06", d:"ingiltere"},
      {f:"1842-01-06", t:"1879-10-12", d:"afganistan"},
      {f:"1879-10-12", t:"1880-08-11", d:"ingiltere"},
@@ -559,8 +559,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1370-04-09", t:"1504-10-01", d:"timurlu"},
      {f:"1504-10-01", t:"1738-01-01", d:"babur-imparatorlugu"},
      {f:"1738-01-01", t:"1747-06-20", d:"afsar"},
-     {f:"1747-06-20", t:"1826-01-01", d:"afgan-durrani"},
-     {f:"1826-01-01", t:"1839-07-23", d:"afganistan"},
+     {f:"1747-06-20", t:"1819-01-01", d:"afgan-durrani"},
+     {f:"1819-01-01", t:"1839-07-23", d:"afganistan"},
      {f:"1839-07-23", t:"1842-09-06", d:"ingiltere"},
      {f:"1842-09-06", t:"2000-12-31", d:"afganistan"}] },
 
@@ -589,7 +589,7 @@ window.YERLESIMLER_ASYA = [
 // geleneğine uyarak Hotakî ve Afşar dönemlerini genel "iran" ile boyuyor.
 // 1747'de Ahmed Şah Dürrânî burada taç giydi ve ilk başkenti oldu.
 { ad:"Kandehar", kur:"1773-01-01", kesinlik:"belirsiz", neden:"SEHIR-TARIHCE-OSM-1014 C grubu · Emre kararları 13-14 Ekim 2026 (antik/eski yer > 3 km ⇒ AYRI nokta; Şırnak kalıbı): bu nokta BUGÜNKÜ şehrin yeridir; atlasın bu noktadaki önceki başlangıcı ve dönemleri ESKİ şehre aitti ve 'Eski Kandehar (Şehr-i Köhne)' kaydına taşındı. kur: KURULUŞ DEĞİL, bugünkü sahanın İLK YAZILI TANIĞI (görünme alt sınırı): TDV KANDEHAR (A. Özcan): 'Ahmed Şah Dürrânî de eski şehrin doğusunda Ahmedşâhî adını verdiği surlarla çevrili bir şehir kurdu'; EIr KANDAHAR i. (X. de Planhol): Ahmed Şah'ın saltanatı 1747-73 — kuruluş bu aralıkta, yılı bulunamadı ('1761' doğrulanamadı); güvenli uç 1773. Kesinlik belirsiz. Öncesindeki dönemler kırpıldı. Tarihçe: data/sehir_tarihce_osm.js 'kandahar'.",  tur:"sehir", lat:31.6100, lon:65.7100, g:1, k:2, d:[],
-  s:[{f:"1773-01-01", t:"1826-01-01", d:"afgan-durrani"},{f:"1826-01-01", t:"2000-12-31", d:"afganistan"}] },
+  s:[{f:"1773-01-01", t:"1819-01-01", d:"afgan-durrani"},{f:"1819-01-01", t:"2000-12-31", d:"afganistan"}] },
 { ad:"Eski Kandehar (Şehr-i Köhne)", tur:"sehir", lat:31.601, lon:65.6597, g:0, k:2, kaynak:"TDV `kandehar` (A. Özcan), ham metin 14 Ekim 2026: 'Şehir 1150’de (1738) Afşarlı Nâdir Şah tarafından ele geçirildikten sonra tahrip edilerek' · gün: Encyclopaedia Iranica 'NADIR SHAH AFSHAR' (data/kronoloji_iran.js 1738-03-24) · koordinat Pleiades 59669", neden:"SEHIR-TARIHCE-OSM-1014 C grubu · Emre kararları 13-14 Ekim 2026 (antik/eski yer > 3 km ⇒ AYRI nokta; Şırnak kalıbı): 'Kandehar' kaydının taşıdığı ESKİ şehrin yeri — dönem zinciri o kayıttan 1738-03-24'e kadar ham metinle TAŞINDI (kaynakları dönemlerinde). Koordinat: Pleiades 59669 (Alexandria in Arachosia / Qandahār, CIGS). bit: 1738-03-24 — TDV KANDEHAR: 'Şehir 1150’de (1738) Afşarlı Nâdir Şah tarafından ele geçirildikten sonra tahrip edilerek eski yerinin güneydoğusunda Nâdirâbâd ismiyle yeniden kuruldu'; gün: data/kronoloji_iran.js 1738-03-24 maddesinin kendi kaynağı EIr NADIR SHAH AFSHAR (gün komşudan: o madde). Nâdirâbâd (1738-1747) ayrı yer, bu işte açılmadı. Erken tarih: Ahameniş/İskender dönemi kenti (Pleiades 59669) — zincir atlasın 1281 başlangıcıyla açılır. TDV 1281 sahibini Kert (Şemseddin Kert, 680/1281) verir — KUTU-VERI-1015'te Emre kararıyla (KARARLAR-EMRE-1015 #7) 'cagatay' yerine 'kert' yazıldı, Timur zaptı 1383.", s:[
      {f:"1281-01-01", t:"1383-01-01", d:"kert", kesinlik:{f:"yil",t:"yil"}, kaynak:"TDV `kandehar` (A. Özcan): '680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti' · bitiş: aynı madde '785’te (1383) Timur tarafından zaptedilerek torunu Pîr Muhammed’e verilen şehir' — ikisi de YIL (gün yok ⇒ YYYY-01-01). 1281-1383 arasında başka el değiştirme TDV'de anılmaz. Eski d:'cagatay' 1281-1370 kaynaksızdı · Emre kararı 15 Ekim 2026 (KARARLAR-EMRE-1015 #7: TDV'ye uy, KERT) · KUTU-VERI-1015"},
      {f:"1383-01-01", t:"1507-05-01", d:"timurlu", kaynak:"TDV `kandehar`: '785’te (1383) Timur tarafından zaptedilerek' (YIL) · eski f 1370-01-01 kaynaksızdı · KUTU-VERI-1015"},
