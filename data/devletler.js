@@ -6240,8 +6240,8 @@ window.DEVLETLER = [
     { odak_yer:["Cusco"], t:"1438-01-01", tur:"kurulus", b:"Pachacuti, Cusco krallığını büyük bir imparatorluğa dönüştürmeye başladı" },
     { odak_yer:["Cusco"], t:"1438-01-01", tur:"hukumdar", b:"Pachacuti Inca Yupanqui kardesinden tahti gasbetti", kaynak:"EB-INCA — AYNEN: «The earliest date that can be confidently assigned to Inca dynastic history is 1438, when Pachacuti Inca Yupanqui … a son of Viracocha Inca, usurped the throne from his brother Inca Urcon»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
     { odak_yer:["Cajamarca"], t:"1532-11-16", tur:"savas", b:"Cajamarca'da Francisco Pizarro, İmparator Atahualpa'yı tuzağa düşürüp esir aldı" },
-    { odak_yer:["Cusco"], t:"1533-08-29", tur:"son", b:"Atahualpa idam edildi, İspanyollar Cusco'yu ele geçirdi" },
-    { odak_yer:["Vilcabamba"], t:"1572-09-24", tur:"son", b:"Vilcabamba'daki son direniş devleti düştü, Tupac Amaru idam edildi" }
+    { odak_yer:["Cajamarca"], t:"1533-07-26", tur:"son", b:"Atahualpa Cajamarca'da idam edildi", kaynak:"J. Hemming, The Conquest of the Incas (Macmillan, 1970): idam 26 Temmuz 1533. Eski anlatılardaki 29 Ağustos günü ve 'Cusco'yu ele geçirdi' ibaresi düzeltildi: Cusco'nun alınışı 15 Kasım 1533'tür (kronoloji_ispanya.js). Sayfa numarası doğrulanmadı." },
+    { odak_yer:["Vilcabamba"], t:"1572-09-24", tur:"son", b:"Vilcabamba düştükten (Haziran 1572) sonra Túpac Amaru Cusco'da idam edildi — son İnka direnişi sona erdi", kaynak:"J. Hemming, The Conquest of the Incas (Macmillan, 1970): Vilcabamba'nın düşüşü Haziran 1572, Túpac Amaru'nun idamı 24 Eylül 1572 (künye bitiş günü idam günüdür). Sayfa numarası doğrulanmadı." }
   ]
 },
 { id:"maya-sehir-devletleri", ad:"Maya Şehir Devletleri (Post-Klasik)", tur:"devlet", bolge:"orta-amerika",

@@ -125,7 +125,7 @@ window.YERLESIMLER_0EE15E = [
 //         güzergâh) — k:1, Havana ile aynı tier.
 
 { ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1919, lon:-79.9009, g:1, k:1, kur:"1538-01-01",
-  s:[{f:"1538-01-01",t:"1822-05-24",d:"ispanyol-peru"},
+  s:[{f:"1538-01-01",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1822-05-24",d:"ispanyol-peru"},
      {f:"1822-05-24",t:"1830-05-13",d:"gran-kolombiya"},
      {f:"1830-05-13",t:"2000-12-31",d:"ekvador-cumhuriyeti"}] },
 // 🔴 KAYNAKLAR ÇELİŞİYOR — M-0423 gereği ikinci kaynak arandı, DOĞRULAMADI,
