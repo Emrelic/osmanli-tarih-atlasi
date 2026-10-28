@@ -678,7 +678,7 @@ window.OLAYLAR_EK16 = [
   d:"Livonya Konfederasyonu dağılırken Reval şehir meclisi 1561'de İsveç Kralı XIV. Erik'e bağlılık sundu; kuzey Estonya, Büyük Kuzey Savaşı'na (1721) dek İsveç'te kaldı.",
   kaynak:"Livonian War / Siege of Narva (Vikipedi); baltic-way.spbu.ru «Routes of the Livonian War»; historyofwar.org — arama özeti [özet]; elle doğrulama bekler" },
 // ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): Gomel/Kursk işgal-kurtuluş
-{ t:"1941-08-19", k:"diger", kapsam:"dis", etiket:["isgal","toprak-kazanc","konu-askeri"], b:"Gomel Alman Ordusu'nca alındı", gun:"19 Ağustos 1941 (bazı kaynaklar 20 Ağustos)", yer:"Gomel (Homel)", yer_id:"Gomel (Homel)",
+{ t:"1941-08-19", k:"diger", kapsam:"dis", etiket:["isgal","toprak-kazanc","konu-askeri"], b:"Gomel Alman Ordusu'nca alındı", gun:"19 Ağustos 1941 (saldırı günü; JewishGen'e göre Kızıl Ordu üç gün içinde çekildi ⇒ 19-22 Ağustos arası, gün teyitsiz)", yer:"Gomel (Homel)", yer_id:"Gomel (Homel)",
   d:"Wehrmacht'ın Gomel'e saldırısından üç gün sonra Kızıl Ordu şehirden tamamen çekildi; şehir 26 Kasım 1943'e dek işgalde kaldı.",
   kaynak:"ruwiki «Гомельское гетто»; JewishGen Gomel bülteni — arama özeti [özet]; ±1 gün" },
 { t:"1943-11-26", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Gomel Kızıl Ordu'ca kurtarıldı", gun:"26 Kasım 1943", yer:"Gomel (Homel)", yer_id:"Gomel (Homel)",
@@ -688,7 +688,7 @@ window.OLAYLAR_EK16 = [
   d:"Sovyet komutasının emriyle Kursk boşaltıldı, Alman 2. Ordusu şehre girdi; şehir 8 Şubat 1943'e dek işgalde kaldı.",
   kaynak:"booksite.ru Kursk kaydı; Kursk Oblastı Rosstat «Курская битва» belgesi — arama özeti [özet]; ±1 gün" },
 { t:"1943-02-08", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Kursk Kızıl Ordu'ca kurtarıldı", gun:"8 Şubat 1943 (kaynaklarda 7-9 Şubat)", yer:"Kursk", yer_id:"Kursk",
-  d:"Voronej-Kastornoye harekâtının sonunda Kursk geri alındı; aynı yılın temmuzunda şehrin adı Kursk Muharebesi'ne verildi.",
+  d:"Sovyet kış taarruzunun (Voronej-Kastornoye harekâtını izleyen Kursk-Harkov yönü) sonunda Kursk geri alındı; aynı yılın temmuzunda şehrin adı Kursk Muharebesi'ne verildi.",
   kaynak:"booksite.ru Kursk kaydı; Rosstat «Курская битва» — arama özeti [özet]; ±1 gün" },
 // ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): erken Moskova genişlemesi
 { t:"1301-01-01", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Moskova Knezi Daniil Kolomna ve Serpuhov'u Moskova'ya kattı", gun:"1301 [yalnız yıl teyitli; gün teyitsiz]", yer:"Kolomna", yer_id:"Kolomna",
