@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "1c37567eda959624",
-     "bayt": 5482307
+     "sha": "2a385412f0423032",
+     "bayt": 5482897
     }
    ],
-   "bayt": 5662115
+   "bayt": 5662705
   },
   {
    "paket": "data/paket_06.js",
@@ -558,7 +558,7 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "0f9ab1d3e58f9a18",
+     "sha": "b930577ba0935a31",
      "bayt": 1684839
     },
     {
