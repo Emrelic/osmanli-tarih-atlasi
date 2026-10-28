@@ -5752,13 +5752,13 @@ window.KRONOLOJI_GURCISTAN = [
   d:"I. Alexandre'ın (1412-1442) ölümünden sonraki veraset kavgaları krallığı üçe böldü: Kartli, Kaheti ve İmereti. TDV bölünmeyi kesin bir güne bağlamıyor, genel olarak Alexandre sonrası dönemi işaret ediyor; 1490 standart akademik tarihyazımının kabul ettiği kesinleşme tarihidir.",
   kaynak:"gurcistan (TDV — 'Fakat daha sonra Gürcistan üç krallığa [Kartliya, Kahetya, İmeretiya] ve beş beyliğe ayrıldı') + devletler.js gurcistan/imereti künyeleri" },
 
-{ t:"1490-01-02", b:"Samçhe (Meskheti) Atabekliği'nin tam bağımsızlaşması", tur:"bolunme", onem:3, dunya:1, kapsam:"ic",
+{ t:"1490-01-01", b:"Samçhe (Meskheti) Atabekliği'nin tam bağımsızlaşması", tur:"bolunme", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","bolunme","konu-siyasi"],
   yer_id:"Ahıska",
   d:"1268'den beri yarı özerk statüde olan Samçhe (Meskheti) Atabekliği, krallığın üçe bölünmesiyle aynı süreçte tam bağımsız bir siyasi birim hâline geldi. Merkezi Ahıska olan bu atabeklik, bir asır sonra Osmanlı'nın Çıldır Eyaleti'nin çekirdeğini oluşturacaktı.",
   kaynak:"ahiska (TDV — atabegler 1268-1578 arası yarı özerk statüde) + gurcistan (TDV)" },
 
-{ t:"1490-01-03", b:"İmereti Krallığı'nın ayrı krallık olarak ortaya çıkışı", tur:"kurulus", onem:4, dunya:1, kapsam:"ic",
+{ t:"1490-01-01", b:"İmereti Krallığı'nın ayrı krallık olarak ortaya çıkışı", tur:"kurulus", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","kurulus","konu-siyasi"],
   yer_id:"Kutaisi",
   d:"Gürcistan Krallığı'nın bölünmesiyle Kutaisi merkezli batı Gürcü krallığı İmereti ayrı bir siyasi varlık olarak doğdu; Kartli-Kaheti'nin aksine 1810'a kadar bağımsızlığını (giderek zayıflayan biçimde) sürdürecekti.",
@@ -5902,7 +5902,7 @@ window.KRONOLOJI_GURCISTAN = [
 { t:"1801-09-12", b:"Kartli-Kaheti Çarlığı'nın Rusya tarafından ilhakı", tur:"son", onem:5, dunya:4, kapsam:"dis",
   etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"Tiflis",
-  d:"Çar I. Pavel'in 12 Eylül 1801 tarihli emriyle Kartli-Kaheti Çarlığı feshedilip doğrudan Rusya'nın bir eyaleti ilan edildi; 793 yıl önce III. Bagrat'ın kurduğu Gürcistan Krallığı'nın son ve en büyük parçası böylece bağımsızlığını tamamen yitirdi. Bu ilhak, Osmanlı-İran-Rusya üçgeninde Transkafkasya'nın kalıcı olarak Rusya'ya geçişinin başlangıç noktasıdır.",
+  d:"Çar I. Aleksandr'ın 12 Eylül 1801 (Jülyen; Gregoryen karşılığı 24 Eylül — t alanı HAVVA koşusu sonrası toplu düzeltilecek) tarihli manifestosuyla Kartli-Kaheti Çarlığı feshedilip doğrudan Rusya'nın bir eyaleti ilan edildi; 793 yıl önce III. Bagrat'ın kurduğu Gürcistan Krallığı'nın son ve en büyük parçası böylece bağımsızlığını tamamen yitirdi. Bu ilhak, Osmanlı-İran-Rusya üçgeninde Transkafkasya'nın kalıcı olarak Rusya'ya geçişinin başlangıç noktasıdır.",
   kaynak:"gurcistan (TDV, madde: gurcistan — '12 Eylül 1801 tarihli emirle Rusya'nın bir eyaleti ilân')" },
 
 // === E) İMERETİ'NİN AYRI YAZGISI (1804-1810) =================================

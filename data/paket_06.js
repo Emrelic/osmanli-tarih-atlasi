@@ -3081,7 +3081,7 @@ window.KRONOLOJI_IRAN = [
   kaynak:"Encyclopaedia Iranica, madde: KARIM KHAN ZAND", kapsam_genis:true },
 
 // === H) ZEND HÂNEDANI (1750-1796) ============================================
-{ t:"1765-01-01", b:"Şîraz başkent yapıldı — Zend \"altın çağı\"", gun:"1765", ic_not_gun:"1765 — yıl hassasiyeti · TDV `zendler`, `ilhanlilar`, `safeviler`, `kacarlar` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:3, dunya:1, kapsam:"ic",
+{ t:"1765-01-01", b:"Şîraz başkent yapıldı — Zend \"altın çağı\"", gun:"1765", ic_not_gun:"1765 (ÇELİŞKİ beyanı: TDV zendler 1180 h. / 1766-67; Iranica arama özeti 2 Safer 1179 = 21 Temmuz 1765; atlas 1765 tutar) — yıl hassasiyeti · TDV `zendler`, `ilhanlilar`, `safeviler`, `kacarlar` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","kultur","konu-idari","konu-kultur"],
   d:"[Zend] Kerim Han, başkentini doğduğu şehir Şîraz'a taşıyıp Vekîl Camii, Vekîl Çarşısı gibi eserlerle imar etti; 1750-1779 arası nispeten istikrarlı ve barışçıl Zend dönemi, Safevî çöküşü ve Kaçar iç savaşları arasında kısa bir refah aralığı sayılır.",
   kaynak:"Encyclopaedia Iranica, madde: KARIM KHAN ZAND", yer_id:"Şiraz" },
