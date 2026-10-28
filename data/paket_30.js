@@ -2485,11 +2485,11 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Haritadaki Merauke 1902-02-12 kırılmasını kapatır." },
 
 { t:"1901-01-01", b:"Avustralya Milletler Topluluğu (federasyon) ilan edildi", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
-  etiket:["kurulus","birlesme","anayasa","konu-siyasi","avustralya"], yer_id:"Sydney", taraflar:["avustralya"],
+  etiket:["kurulus","birlesme","anayasa","konu-siyasi","avustralya"], yer_id:"Sydney", taraflar:["avustralya","yeni-guney-galler","van-diemens-land","bati-avustralya","guney-avustralya","viktorya-kolonisi","queensland"],
   d:"Altı İngiliz kolonisi (Yeni Güney Galler, Viktorya, Queensland, Güney Avustralya, Batı Avustralya, Tazmanya) 1900 tarihli Commonwealth Anayasası uyarınca 1 Ocak 1901'de tek federal devlet olarak birleşti; ilk Genel Vali Sydney'de yemin etti. Federasyon, Avustralya kıtasının siyasî haritada tek devletin adı altına girdiği andır.",
   kaynak:"Commonwealth of Australia Constitution Act 1900 (63 & 64 Vict. c. 12) · National Archives of Australia / Museum of Australian Democracy, «Federation» sayfaları. Sayfa verilmedi (açılmadı).",
   gun:"1 Ocak 1901 (Anayasa'nın yürürlüğe girdiği gün; hafızadan, kurumsal sayfa açılmadı)",
-  ic_not_d:"Kolonilerin 1901 ÖNCESİ siyasî varlığı için künye YOK — haritadaki 21 Okyanusya kırılmasının çoğu Avustralya iç kesimindeki «—» → avustralya geçişleridir; kolonilerin künyesi olmadan bu «—»nın Avustralya kolonileri mi yerli halk mı olduğu haritada ayırt edilemiyor (KUNYE.md)." },
+  ic_not_d:"AVUSTRALYA-II (29 Ekim 2026): kolonilerin künyeleri eklendi (yeni-guney-galler, van-diemens-land, bati-avustralya, guney-avustralya, viktorya-kolonisi, queensland, kuzey-bolgesi-sa); 1901 öncesi yerleşim zincirleri artık `ingiltere` değil bu koloni kimliklerini taşır. Kaynak: Commonwealth Constitution Act 1900 yürürlüğü 1 Ocak 1901 (NAA / aph.gov.au, arama sonuçlarından okundu)." },
 
 // ── AVUSTRALYA-DENETIM (28 Ekim 2026): eksik ana dönüm noktaları ──
 // Keşifler · kolonilerin ayrılışı · Fiji/Samoa/Papua/Hawaii paylaşımı · Aborijin hakları.
@@ -2554,21 +2554,21 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Doğrulama 28 Ekim 2026: gün NPS sayfasıyla doğrulandı (sayfa yılı ayrıca vurgulamaz; yıl 1778-79 seferinin akışından). Kalaniʻōpuʻu'yu rehin alma ayrıntısı bu sayfada okunmadı (yardımcı cümle)." },
 
 { t:"1825-12-03", b:"Van Diemen's Land (Tazmanya) Yeni Güney Galler'den ayrılıp ayrı İngiliz kolonisi oldu", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Hobart", taraflar:["ingiltere"],
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Hobart", taraflar:["ingiltere","yeni-guney-galler","van-diemens-land"],
   d:"Tazmanya, 1803–04'te Yeni Güney Galler'in bağımlısı olarak yerleşilmişti; 3 Aralık 1825'te ayrı bir koloni ilan edildi ve ayrı vali (George Arthur) atandı. Koloni, 1856'da 'Tasmania' adını aldı.",
   kaynak:"Museum of Australian Democracy, «Creating a Nation» zaman çizelgesi (explore.moadoph.gov.au/timelines/creating-a-nation.html) — sayfa AÇILDI: «3 December 1825: An Order-in-Council separates Van Diemen's Land from New South Wales».",
   gun:"3 Aralık 1825 (MoAD zaman çizelgesi)",
   ic_not_d:"Doğrulama 28 Ekim 2026: gün MoAD ile doğrulandı. MoAD olayı «Order-in-Council» diye anar (kararname 1825 ortası, yürürlük/ilan 3 Aralık); maddedeki «ayrı vali George Arthur» cümlesi bu sayfada okunmadı." },
 
 { t:"1829-06-18", b:"Swan River Kolonisi (Batı Avustralya) Kaptan Stirling tarafından ilan edildi", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Perth", taraflar:["ingiltere"],
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Perth", taraflar:["ingiltere","bati-avustralya"],
   d:"Yarbay-Vali James Stirling 1829 Haziran'ında HMS Parmelia ile Swan Nehri ağzına ulaştı ve 18 Haziran 1829'da koloniyi ilan etti. Böylece İngiltere kıtanın batı üçte birinde de fiilî yönetim kurdu.",
   kaynak:"Museum of Australian Democracy, «Creating a Nation» zaman çizelgesi (explore.moadoph.gov.au/timelines/creating-a-nation.html) ve «Sir James Stirling» sayfası (explore.moadoph.gov.au/people/sir-james-stirling.html) — iki sayfa AÇILDI: «18 June 1829: The Swan River Colony is proclaimed by Lieutenant-Governor James Stirling».",
   gun:"18 Haziran 1829 (MoAD; ilan günü)",
   ic_not_d:"Doğrulama 28 Ekim 2026: 18 Haziran şüphesi giderildi, MoAD ile doğrulandı. Maddedeki Parmelia varış günü (2 Haziran) ve Perth'in kuruluş günü (12 Ağustos) açılan sayfalarda yoktu; uydurma riski nedeniyle metinden çıkarıldı." },
 
 { t:"1836-12-28", b:"Güney Avustralya Kolonisi Glenelg'de ilan edildi", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Adelaide", taraflar:["ingiltere"],
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Adelaide", taraflar:["ingiltere","guney-avustralya"],
   d:"Vali John Hindmarsh 28 Aralık 1836'da Glenelg'de Güney Avustralya Kolonisi'ni ilan etti; koloni 1834 tarihli South Australia Act temelindeydi ve Adelaide'in yerleşim planı Albay William Light tarafından çizildi.",
   kaynak:"Museum of Australian Democracy / Founding Documents (foundingdocs.gov.au/picturealbum-aid-6.html) — sayfa AÇILDI: Vali Hindmarsh bildiriyi Aralık 1836'da Glenelg'de okudu; «The Proclamation has been read publicly at a ceremony on 28 December each year since». MoAD «Getting it Together» güney Avustralya sayfası da 28 Aralık 1836 Glenelg etiketini taşır.",
   gun:"28 Aralık 1836 (MoAD/Founding Documents: ilan töreni günü)",
@@ -2582,14 +2582,14 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Doğrulama 28 Ekim 2026: gün Te Papa kaydıyla doğrulandı. Te Ara ve NZHistory sayfaları 403 verdi (açılamadı), kaynak alanından çıkarıldı. Savaşın 1846 başına dek sürmesi bu kayıtta okunmadı (yardımcı cümle)." },
 
 { t:"1851-07-01", b:"Viktorya Kolonisi Yeni Güney Galler'den ayrıldı", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Melbourne", taraflar:["ingiltere"],
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Melbourne", taraflar:["ingiltere","yeni-guney-galler","viktorya-kolonisi"],
   d:"Port Phillip Bölgesi 1 Temmuz 1851'de Avustralya Kolonileri Yönetimi Yasası (1850) uyarınca Yeni Güney Galler'den ayrılarak Viktorya Kolonisi oldu; ayrılığın ardından gelen altın keşifleri nüfusu hızla artırdı.",
   kaynak:"Founding Documents (Museum of Australian Democracy), «Australian Constitutions Act 1850 (UK)» (foundingdocs.gov.au/item-did-76.html) — sayfa AÇILDI: «Separation took effect on 1 July 1851»; yasa 5 Ağustos 1850'de kraliyet onayı aldı.",
   gun:"1 Temmuz 1851 (ayrılığın yürürlüğe girdiği gün — Founding Documents)",
   ic_not_d:"Doğrulama 28 Ekim 2026: gün doğrulandı. MoAD'ın zaman çizelgesi aynı olayı yasanın yılına (1850) bağlar; madde 1851 yürürlük gününü kullanır, doğrudur." },
 
 { t:"1859-06-06", b:"Queensland Yeni Güney Galler'den ayrılıp ayrı koloni oldu", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Brisbane", taraflar:["ingiltere"],
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Brisbane", taraflar:["ingiltere","yeni-guney-galler","queensland"],
   d:"Kraliçe Victoria'nın 6 Haziran 1859 tarihli Letters Patent'i ile Moreton Bay bölgesi Yeni Güney Galler'den ayrılarak Queensland Kolonisi oldu; başkent Brisbane. Ayrılık Brisbane'de 10 Aralık 1859'da halka ilan edildi (Queensland State Archives).",
   kaynak:"Queensland State Archives blogu, «Why do we celebrate Queensland Day on 6 June?» (blogs.archives.qld.gov.au/2020/06/05/why-do-we-celebrate-queensland-day-on-6-june/) — sayfa AÇILDI: 6 Haziran 1859'da Kraliçe Victoria Letters Patent'i imzaladı; ayrılık kolonide 10 Aralık 1859'da ilan edildi · MoAD «Creating a Nation» zaman çizelgesi: «6 June 1859».",
   gun:"6 Haziran 1859 (Letters Patent'in imza günü, Queensland Günü) — kolonide ilan: 10 Aralık 1859",
@@ -2656,7 +2656,79 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   d:"Mabo v Queensland (No 2) kararı 3 Haziran 1992'de Eddie Koiki Mabo ve Murray Adaları halkının davasını kabul etti; 1788'de kıtanın 'sahipsiz' sayılması hukuken geçersiz sayıldı. Karar 1993 tarihli Native Title Act'in zeminini hazırladı.",
   kaynak:"Museum of Australian Democracy, «Milestones in Australian democracy» zaman çizelgesi (explore.moadoph.gov.au/timelines/milestones-in-australian-democracy.html) — sayfa AÇILDI: «Mabo Case, 03-06-1992 ... native land title was not extinguished by British occupation».",
   gun:"3 Haziran 1992 (MoAD zaman çizelgesi)",
-  ic_not_d:"Doğrulama 28 Ekim 2026: gün MoAD ile doğrulandı. NAA, NMA, AIATSIS, High Court sayfaları 403/zaman aşımı verdi (açılamadı). «Terra nullius reddedildi» ifadesi kurumsal özetlerde geçer, akademik literatürde kapsamı tartışmalıdır (arama özeti, açılmadı)." }
+  ic_not_d:"Doğrulama 28 Ekim 2026: gün MoAD ile doğrulandı. NAA, NMA, AIATSIS, High Court sayfaları 403/zaman aşımı verdi (açılamadı). «Terra nullius reddedildi» ifadesi kurumsal özetlerde geçer, akademik literatürde kapsamı tartışmalıdır (arama özeti, açılmadı)." },
+
+// ── AVUSTRALYA-II (29 Ekim 2026): koloni künyelerine bağlı zincir kırılmaları ──
+{ t:"1788-01-26", b:"Vali Arthur Phillip Yeni Güney Galler kolonisini ilan etti (First Fleet, Sydney Koyu)", tur:"kurulus", onem:4, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kurulus","idari","ingiltere"], yer_id:"Sydney", taraflar:["ingiltere","yeni-guney-galler"],
+  d:"Birinci Filo'nun Sydney Koyu'na varışının ardından Kaptan Arthur Phillip 26 Ocak 1788'de Yeni Güney Galler kolonisini ilan etti. Koloni başlangıçta kıtanın doğusunu (135°D'ye dek) ve Van Diemen's Land'i kapsıyordu; sonraki yıllarda Van Diemen's Land (1825), Batı Avustralya (1829), Güney Avustralya (1836), Viktorya (1851) ve Queensland (1859) bu kolonilerden ya da onun iddia ettiği topraklardan ayrıldı.",
+  kaynak:"Museum of Australian Democracy, «Creating a Nation» zaman çizelgesi (explore.moadoph.gov.au/timelines/creating-a-nation.html) — sayfa AÇILDI: «26 January 1788: Captain Arthur Phillip ... proclaims the new colony of New South Wales».",
+  gun:"26 Ocak 1788 (MoAD zaman çizelgesi)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: gün MoAD ile doğrulandı. Yetki belgesinin (commission) okunduğu 7 Şubat 1788 bu sayfada yok, madde 26 Ocak'ı kullanır; 135°D sınırı ve 'Van Diemen's Land'i kapsıyordu' cümlesi bu sayfada okunmadı (yardımcı bilgi)." },
+
+{ t:"1831-03-07", b:"King George Sound (Albany) Yeni Güney Galler'den Swan River Kolonisi'ne geçti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"ic",
+  etiket:["konu-siyasi","idari","toprak-kazanc","ingiltere"], yer_id:"Albany (Batı Avustralya)", taraflar:["yeni-guney-galler","bati-avustralya"],
+  d:"Aralık 1826'da Yeni Güney Galler'in askerî karakolu olarak kurulan King George Sound yerleşimi, 7 Mart 1831'de Swan River Kolonisi'nin parçası ilan edildi; kasaba sonraki yıl Albany adını aldı.",
+  kaynak:"Heritage Council of Western Australia, inHerit envanter kaydı (inherit.dplh.wa.gov.au, kayıt 3da3aae5-5d88-4f80-bf52-a6880445b5f4) — sayfa AÇILDI: «until on 7 March 1831 it was proclaimed as part of the Swan River Colony».",
+  gun:"7 Mart 1831 (WA Heritage Council inHerit kaydı)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: gün inHerit kaydıyla doğrulandı. «Albany adını sonraki yıl aldı» cümlesi bu kayıtta okunmadı (arama özetinde 1832 geçti; bu oturumda sınanmadı)." },
+
+{ t:"1863-07-06", b:"Kuzey Bölgesi Yeni Güney Galler'den Güney Avustralya'ya bağlandı", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+  etiket:["konu-siyasi","idari","toprak-kazanc","ingiltere"], yer_id:"Darwin (Palmerston)", taraflar:["yeni-guney-galler","guney-avustralya","kuzey-bolgesi-sa"],
+  d:"Kıtanın kuzeyindeki Kuzey Bölgesi'nin idaresi 6 Temmuz 1863'te Yeni Güney Galler'den Güney Avustralya'ya geçti; Palmerston (Darwin) bu idare altında 1869'da kuruldu. Bölge 1 Ocak 1911'de federal yönetime devredilene dek Güney Avustralya'ya bağlı kaldı.",
+  kaynak:"Museum of Australian Democracy, «Creating a Nation» zaman çizelgesi — sayfa AÇILDI: «6 July 1863: Northern Territory administration transfers from New South Wales to South Australia». Australian Bureau of Statistics, Year Book Australia (ausstats.abs.gov.au, 1973 bölüm 28): 1863 'Royal Letters Patent' (arama özetinde okundu).",
+  gun:"6 Temmuz 1863 (MoAD zaman çizelgesi)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: gün MoAD ile doğrulandı; ABS yıllıkları yalnız '1863' der. Bu tarihten önce bölge (kıtanın 129–138°D arası kuzeyi) Yeni Güney Galler'in idari iddiasındaydı; o dönemde haritada yerleşim noktası yok." },
+
+{ t:"1911-01-01", b:"Kuzey Bölgesi Güney Avustralya'dan Commonwealth'e devredildi", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"ic",
+  etiket:["konu-siyasi","idari","anayasa","avustralya"], yer_id:"Darwin (Palmerston)", taraflar:["kuzey-bolgesi-sa","guney-avustralya","avustralya"],
+  d:"Kuzey Bölgesi ve bağlı adaları 1 Ocak 1911'de Güney Avustralya'dan Commonwealth'e geçti; bölgeyi bundan sonra Genel Vali'nin atadığı bir Yönetici (Administrator) yönetti.",
+  kaynak:"Australian Bureau of Statistics, Year Book Australia (1973, bölüm 28; ausstats.abs.gov.au/ausstats/free.nsf/0/13C5A9BF4B9436CECA257AF7001117D2/$File/13010_1973_chapter28.pdf) — arama özetinde okundu: «passed to the Commonwealth on 1 January 1911»; MoAD «Creating a Nation»: «1911 ... Commonwealth assumes responsibility for the Northern Territory».",
+  gun:"1 Ocak 1911 (ABS Year Book; MoAD yalnız yıl verir)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: gün ABS yıllığıyla (arama özeti, PDF tam açılmadı) doğrulandı; MoAD yalnız 1911 yılını verir. Madde, 1901–1911 arası bölgenin hukuken Güney Avustralya eyaletinde kaldığını varsayar (ABS: 1911'de devredildi)." },
+
+// ── AVUSTRALYA-II: Pasifik zincir kırılmaları (Samoa · Tahiti · Yeni Zelanda · Vanuatu) ──
+{ t:"1842-09-09", b:"Kraliçe IV. Pomare Fransız himayesini kabul etti — Papeete Pomare krallığından Fransız idaresine geçti", tur:"antlasma", onem:3, dunya:1, kapsam:"ic",
+  etiket:["konu-siyasi","antlasma","toprak-kayip","fransa"], yer_id:"Papeete", taraflar:["tahiti","fransa-cumhuriyet"],
+  d:"Kraliçe IV. Pomare ve ileri gelen şefler 9 Eylül 1842'de Fransa'dan himaye istedi; Amiral Dupetit-Thouars bunu kabul etti. Antlaşmayla kraliçe iç denetimi korudu, dış ilişkiler ve savunma Fransa'ya geçti; atlasta himaye, koruyan devletin `s:` kaydıyla gösterilir.",
+  kaynak:"World Statesmen, French Polynesia (worldstatesmen.org/Fr_Polynesia.html) — sayfa AÇILDI: «9 Sep 1842 ... a French protectorate»; Britannica «Tahiti» (yıl). FranceArchives kaydı sayfası JS ile yüklendiği için açılamadı.",
+  gun:"9 Eylül 1842 (World Statesmen; aynı sayfanın bayrak başlığı 11 Eylül der)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: gün World Statesmen ile doğrulandı (aynı sayfada 11 Eylül çelişkisi var, ana kronoloji 9 Eylül); hakemli kaynak (Cambridge/Journal of Pacific History) bulunamadı. «Kraliçe iç denetimi korudu» ifadesi arama özetinden gelir, tam metin sınanmadı." },
+
+{ t:"1900-03-01", b:"Almanya Apia'da bayrak çekti — Batı Samoa Alman Samoası oldu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","toprak-kazanc","almanya"], yer_id:"Apia", taraflar:["samoa-kralligi","almanya"],
+  d:"2 Aralık 1899 tarihli Üçlü Sözleşme'nin ardından Almanya, 1 Mart 1900'de Upolu'daki Mulinu'u Yarımadası'nda İmparatorluk bayrağını çekerek Batı Samoa'yı resmen devraldı; 1889 Berlin Senedi'nin tarafsızlık rejimi sona erdi.",
+  kaynak:"Te Papa Tongarewa (collections.tepapa.govt.nz/topic/10134): «hoisting of the imperial German flag at Mulinu'u Peninsula on the island of Upolu in Samoa on March 1, 1900» (yerleşim kaydındaki alıntı) · Te Papa, German-Pacific relations: the precolonial period — sayfa AÇILDI (1899 Üçlü Anlaşma Samoa'yı doğu-batı böldü).",
+  gun:"1 Mart 1900 (Te Papa)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: Te Papa'nın kuruluş-günü sayfası (topic/10134) bu oturumda yeniden açılmadı, alıntı Apia kaydından devralındı; 2 Aralık 1899 Sözleşme günü ABD antlaşmalar derlemesinden (arama özeti)." },
+
+{ t:"1900-04-17", b:"Tutuila ve Aunu'u şefleri adaları ABD'ye devretti — Amerikan Samoası başladı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","toprak-kazanc","abd"], yer_id:"Pago Pago", taraflar:["samoa-kralligi","amerikan-samoasi"],
+  d:"Tutuila ve Aunu'u devir senedi Pago Pago'da 17 Nisan 1900'de, ABD bayrağı çekilmeden hemen önce imzalandı; Manuʻa adaları daha sonra, 1904'te katıldı.",
+  kaynak:"Library of Congress kaydı, «Historical sketch of the naval administration of the Government of American Samoa, April 17, 1900–July 1, 1951»; Tutuila ve Aunu'u devir senedi «on the 17th day of April, 1900, immediately prior to the raising of the United States Flag» (Pago Pago yerleşim kaydındaki alıntı). U.S. Department of the Interior OIA (doi.gov/oia/islands/american-samoa).",
+  gun:"17 Nisan 1900 (LOC kaydı)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: LOC kaydı bu oturumda yeniden açılmadı, alıntı yerleşim kaydından devralındı. Manuʻa 1904 cümlesi `amerikan-samoasi` künyesinden." },
+
+{ t:"1840-02-06", b:"Waitangi Antlaşması: Birleşik Kabileler Konfederasyonu dönemi sona erdi, Kuzey Maori İngiliz egemenliğini tanıdı", tur:"antlasma", onem:4, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","antlasma","toprak-kayip","yeni-zelanda"], yer_id:"Waitangi (Bay of Islands)", taraflar:["yeni-zelanda-birlesik-kabileler","yeni-zelanda","ingiltere"],
+  d:"1835'te Waitangi'de bağımsızlık bildirisini imzalayan Kuzey Maori rangatira, 6 Şubat 1840'ta Waitangi Antlaşması ile İngiliz Tacı'nın egemenliğini tanıdı; 1835 konfederasyonu bu tarihte yerini Yeni Zelanda kolonisine bıraktı.",
+  kaynak:"Atlasın mevcut kronoloji_ingiltere maddesi (6 Şubat 1840 Waitangi Antlaşması); DigitalNZ 32375930 (He Whakaputanga 28 Ekim 1835, Waitangi) — sayfa AÇILDI. Archives New Zealand antlaşma zaman çizelgesi sayfası boş döndü (açılamadı).",
+  gun:"6 Şubat 1840 (mevcut atlas maddesi; Archives NZ sayfası açılamadı)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: bu madde yer/taraf bağlı kayıttır (kronoloji_ingiltere'deki aynı günlü genel madde yer_id/taraflar taşımıyor). 1835 konfederasyonu ile 1840 antlaşması arasındaki hukuki devir ayrıntısı (tartışmalı: İngilizce/Maori metin farkı) bu maddeye alınmadı." },
+
+{ t:"1980-07-30", b:"Yeni Hebridler Kondominyumu sona erdi, Vanuatu bağımsız oldu", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","kurulus","bagimsizlik","vanuatu"], yer_id:"Port Vila", taraflar:["yeni-hebridler-kondominyumu","vanuatu"],
+  d:"Britanya ve Fransa'nın 1906'dan beri ortak yönettiği Yeni Hebridler, 30 Temmuz 1980'de Vanuatu Cumhuriyeti olarak bağımsızlığını kazandı.",
+  kaynak:"Office of the Historian, Vanuatu (history.state.gov/countries/vanuatu) — sayfa AÇILDI: «gained its independence on July 30, 1980»; «previously had been under the joint sovereignty of a condominium between France and the United Kingdom».",
+  gun:"30 Temmuz 1980 (Office of the Historian)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: gün Office of the Historian ile doğrulandı. Kondominyumun 1906 başlangıç günü (20 Ekim) UK Parlamentosu antlaşma kaydının arama özetinden gelir, kayıt sayfası 500 verdi." },
+
+{ t:"1899-11-17", b:"İspanya Kuzey Mariana Adaları'nın idaresini Almanya'ya fiilen devretti (Saipan)", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
+  etiket:["konu-siyasi","toprak-kazanc","almanya"], yer_id:"Garapan (Saipan)", taraflar:["ispanya","almanya"],
+  d:"İspanya, 12 Şubat 1899 tarihli İspanyol-Alman Antlaşması'yla Karolin, Marshall'ın bir kısmı ve Kuzey Marianalar'ı Almanya'ya satmıştı; Saipan'da idare 17 Kasım 1899'da resmen Almanlara devredildi. Aynı süreçte Tinian ve Rota da Alman idaresine geçti.",
+  kaynak:"D.H.R. Spennemann (Charles Sturt University), «Introduction», CNMI Bibliography (marshall.csu.edu.au/CNMI/CNMIBIB/Introduction.html): «On 17 November 1899 at four in the afternoon, the Spanish government formally handed the reigns of administration» (Saipan kaydındaki alıntı; sayfa bu oturumda yeniden açılmadı).",
+  gun:"17 Kasım 1899 (Spennemann)",
+  ic_not_d:"Doğrulama 29 Ekim 2026: gün Garapan kaydındaki alıntıdan devralındı. Antlaşma imza günü 12 Şubat 1899 kronoloji_sinir_nokta3'te ayrı maddedir (satış kararı); bu madde fiilî devri anlatır. «Tinian ve Rota da geçti» cümlesi kaynakta ayrıca okunmadı (aynı idarenin kapsamı)." },
 
 ];
 
@@ -5097,7 +5169,8 @@ window.KRONOLOJI_COK_GUNEY_AMERIKA = [
 {"odak_yer": ["Ushuaia"], "t": "1984-11-29", "b": "Şili–Arjantin Barış ve Dostluk Antlaşması — Beagle Kanalı anlaşmazlığı çözüldü", "tur": "antlasma", "onem": 4, "dunya": 2, "kapsam": "ic", "etiket": ["antlasma", "konu-siyasi"], "yer_id": "", "devletler": ["sili-cumhuriyeti", "arjantin-cumhuriyeti"], "d": "Vatikan arabuluculuğunda imzalanan antlaşma, Beagle Kanalı'ndaki Picton, Lennox ve Nueva adalarını Şili'ye, Atlantik'e açılan deniz yetkisini Arjantin'e verdi; 1978'de savaşın eşiğine gelen sınır krizini kapattı.", "kaynak": "Arjantin Ley 23.172 (14 Mart 1985) ile onaylanan Tratado de Paz y Amistad entre Argentina y Chile — metin: 'Hecho en la ciudad del Vaticano el veintinueve de noviembre de mil novecientos ochenta y cuatro'. https://www.argentina.gob.ar/normativa/nacional/26322/texto"},
 {"odak_yer": ["Putre"], "t": "1880-06-07", "b": "Arica (Morro) Savaşı — Şili Arica'yı aldı, Tacna–Arica fiilen Şili işgaline girdi", "tur": "savas", "onem": 4, "dunya": 2, "kapsam": "ic", "etiket": ["savas", "konu-askeri"], "yer_id": "", "devletler": ["sili-cumhuriyeti", "peru-cumhuriyeti"], "d": "Pasifik Savaşı'nda Şili ordusu Arica'daki Morro kalesini hücumla aldı; Tacna (26 Mayıs 1880) ve Arica Peru'nun elinden çıktı. Egemenlik hukuken Ancón Antlaşması'nın (1883) 10 yıllık hükmüne ve sonraki 1929 Lima Antlaşması'na kadar askıda kaldı, fiilî yönetim Şili'dedir.", "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Las operaciones militares de la Guerra del Pacífico (1879-1884)': '26 de mayo: … derrota … en Tacna'; '7 de junio: Chile toma Arica'. https://www.memoriachilena.gob.cl/602/w3-article-693.html"},
 {"odak_yer": ["Putre"], "t": "1884-10-31", "b": "Şili, işgal ettiği Tacna ve Arica'yı tek il olarak örgütledi — Tacna y Arica ili kuruldu", "tur": "idari", "onem": 3, "dunya": 1, "kapsam": "ic", "etiket": ["idari", "konu-idari"], "yer_id": "", "devletler": ["sili-cumhuriyeti", "peru-cumhuriyeti"], "d": "31 Ekim 1884'te Şili, işgal altındaki Tacna ve Arica'yı Tacna ve Arica adıyla tek il (Tacna ve Arica departmanlarından oluşan) olarak örgütledi. Ancón Antlaşması egemenliği 10 yıl için askıya aldığı için bu bir hukukî ilhak değil, fiilî yönetimin kurumsallaşmasıdır; Arica 1929'da kesin olarak Şili'ye bırakıldı.", "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Nuevos territorios' (minisitio El impacto de la guerra del Pacífico 1879-1929): 'La provincia de Tacna y Arica se creó el 31 de octubre de 1884'. https://www.memoriachilena.gob.cl/602/w3-article-96443.html (yasa numarası kaynaklarda doğrulanamadı, yazılmadı)"},
-{"odak_yer": ["Tocopilla"], "t": "1888-07-12", "b": "Antofagasta ili kuruldu — Tocopilla, Antofagasta ve Taltal departmanlarıyla Şili'nin yeni ili", "tur": "idari", "onem": 3, "dunya": 1, "kapsam": "ic", "etiket": ["idari", "konu-idari"], "yer_id": "", "devletler": ["sili-cumhuriyeti", "bolivya-cumhuriyeti"], "d": "Pasifik Savaşı'nda Bolivya'dan alınan Litoral, 12 Temmuz 1888'de Şili'nin Antofagasta ili olarak örgütlendi (üç departman: Tocopilla, Antofagasta, Taltal); Tocopilla bu tarihten itibaren Şili departmanı sayılmıştır (1879–1888 arası askerî işgal, 1884'te Valparaíso Mütarekesi). Yasa numarası ve Diario Oficial'deki yayın günü kaynaklarda doğrulanamadı.", "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Nuevos territorios': 'La provincia de Antofagasta … se creó el 12 de julio de 1888', üç departman Tocopilla, Antofagasta, Taltal. https://www.memoriachilena.gob.cl/602/w3-article-96443.html (önceki kayıttaki 13 Temmuz ve '3.346' numarası doğrulanamadı; düzeltildi)"}
+{"odak_yer": ["Tocopilla"], "t": "1888-07-12", "b": "Antofagasta ili kuruldu — Tocopilla, Antofagasta ve Taltal departmanlarıyla Şili'nin yeni ili", "tur": "idari", "onem": 3, "dunya": 1, "kapsam": "ic", "etiket": ["idari", "konu-idari"], "yer_id": "", "devletler": ["sili-cumhuriyeti", "bolivya-cumhuriyeti"], "d": "Pasifik Savaşı'nda Bolivya'dan alınan Litoral, 12 Temmuz 1888'de Şili'nin Antofagasta ili olarak örgütlendi (üç departman: Tocopilla, Antofagasta, Taltal); Tocopilla bu tarihten itibaren Şili departmanı sayılmıştır (1879–1888 arası askerî işgal, 1884'te Valparaíso Mütarekesi). Yasa numarası ve Diario Oficial'deki yayın günü kaynaklarda doğrulanamadı.", "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Nuevos territorios': 'La provincia de Antofagasta … se creó el 12 de julio de 1888', üç departman Tocopilla, Antofagasta, Taltal. https://www.memoriachilena.gob.cl/602/w3-article-96443.html (önceki kayıttaki 13 Temmuz ve '3.346' numarası doğrulanamadı; düzeltildi)"},
+{"odak_yer": ["Iquique"], "t": "1879-11-02", "b": "Şili birlikleri Pisagua'ya çıkarma yaptı — Tarapacá'nın Peru'dan Şili idaresine geçişi başladı", "tur": "savas", "onem": 3, "dunya": 1, "kapsam": "ic", "etiket": ["savas", "konu-savas"], "yer_id": "", "devletler": ["sili-cumhuriyeti", "peru-cumhuriyeti"], "d": "Pasifik Savaşı'nda Şili, 2 Kasım 1879'da Pisagua'ya çıkarma yaptı; Tarapacá bölgesi (Iquique dahil) izleyen haftalarda Şili idaresine girdi, devir 20 Ekim 1883 Ancón Antlaşması'yla kesinleşti. Iquique'nin kendi teslim günü (23 Kasım) doğrulanamadı.", "kaynak": "Memoria Chilena, 'Las operaciones militares de la Guerra del Pacífico (1879-1884)': '2 de noviembre: Desembarco de tropas chilenas en Pisagua'; '20 de octubre [1883]: Tratado de paz y amistad entre las repúblicas de Chile y Perú' (https://www.memoriachilena.gob.cl/602/w3-printer-693.html; sayfa OKUNDU)"},
 ];
 
 ;

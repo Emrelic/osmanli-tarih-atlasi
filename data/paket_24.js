@@ -2762,15 +2762,15 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 
 { ad:"Apia", tur:"liman", lat:-13.8345, lon:-171.7631, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
-  neden:"1900 öncesi Samoa (Malietoa krallığı; 1889 Berlin Senedi üçlü tarafsızlık rejimi) için atlasta künye YOK; boşluk kimlik eksikliğidir, sömürge egemenliği değildir.",
+  neden:"1889 öncesi Apia için atlasta künye YOK (Berlin Senedi'nden önceki Samoa tek devlet değildi; yıl-yıl kaynaklı sahiplik bulunamadı). 1889-1900 arası `samoa-kralligi` künyesiyle DOLDURULDU (AVUSTRALYA-II, 29 Ekim 2026).",
   kaynak:"Almanya: Te Papa Tongarewa (collections.tepapa.govt.nz/topic/10134): \"hoisting of the imperial German flag at Mulinu'u Peninsula on the island of Upolu in Samoa on March 1, 1900\". Yeni Zelanda: J. Jennings, 'Pacific Islands', 1914-1918-online (International Encyclopedia of the First World War): \"New Zealand troops landed at Matautu, Apia on 29 August 1914 and took control of German (Western) Samoa without a struggle\"; Britannica 'Samoa': manda 1920. ⚠️ 1914-1920 ASKERÎ işgal; atlasın Alman Yeni Ginesi emsali (Rabaul 1914-09-17 `s:`) izlendi — `isg:` mi `s:` mi hükmü koordinatörde.",
-  s:[{f:"1900-03-01",t:"1914-08-29",d:"almanya"},{f:"1914-08-29",t:"1962-01-01",d:"yeni-zelanda"},{f:"1962-01-01",t:"2000-12-31",d:"bagimsiz-samoa",kaynak:"Britannica 'Samoa'"}] },
+  s:[{f:"1889-01-01",t:"1900-03-01",d:"samoa-kralligi",kesinlik:{f:"yil",t:"gun"},kaynak:"Te Papa Tongarewa, German-Pacific relations: the precolonial period (tepapa.govt.nz) — sayfa AÇILDI: Malietoa Laupepa «recognised as king by the Treaty of Berlin Act in 1889»; Berlin Senedi günü okunamadı (yalnız yıl). Bitiş: Almanya bayrağı 1 Mart 1900 (Te Papa topic/10134)."},{f:"1900-03-01",t:"1914-08-29",d:"almanya"},{f:"1914-08-29",t:"1962-01-01",d:"yeni-zelanda"},{f:"1962-01-01",t:"2000-12-31",d:"bagimsiz-samoa",kaynak:"Britannica 'Samoa'"}] },
 
 { ad:"Pago Pago", tur:"liman", lat:-14.2755, lon:-170.7048, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
-  neden:"1900 öncesi Tutuila için atlasta künye YOK (Samoa krallığı / 1889 Berlin Senedi).",
+  neden:"1889 öncesi Tutuila için atlasta künye YOK. 1889-1900 arası `samoa-kralligi` künyesiyle DOLDURULDU (AVUSTRALYA-II, 29 Ekim 2026); 1900-04-17 sonrası `amerikan-samoasi` tek künyedir (eski `abd` 1900-1923 dönemi, pencere-ucu 1923-10-29 yapaylığıydı, kaldırıldı).",
   kaynak:"Library of Congress kaydı: 'Historical sketch of the naval administration of the Government of American Samoa, April 17, 1900–July 1, 1951'; Tutuila ve Aunu'u devir senedi Pago Pago'da \"on the 17th day of April, 1900, immediately prior to the raising of the United States Flag\" imzalandı; Britannica 'Samoa': \"in 1899 the United States annexed eastern Samoa\" (1899 antlaşması, fiilî devir 1900-04-17).",
-  s:[{f:"1900-04-17",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"2000-12-31",d:"amerikan-samoasi",kaynak:"Britannica 'American Samoa'"}] },
+  s:[{f:"1889-01-01",t:"1900-04-17",d:"samoa-kralligi",kesinlik:{f:"yil",t:"gun"},kaynak:"Te Papa Tongarewa, German-Pacific relations: the precolonial period — Berlin Senedi 1889 (yalnız yıl); bitiş: Tutuila ve Aunu'u devir senedi 17 Nisan 1900 (Library of Congress kaydı, bkz. kaynak)."},{f:"1900-04-17",t:"2000-12-31",d:"amerikan-samoasi",kaynak:"FRUS 1929 I d855 (history.state.gov); Library of Congress devir senedi 17 Nisan 1900"}] },
 
 { ad:"Nauru (Yaren)", tur:"liman", lat:-0.5471, lon:166.9163, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
@@ -2780,15 +2780,15 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 
 { ad:"Papeete", tur:"liman", lat:-17.5374, lon:-149.566, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
-  neden:"1842 öncesi Tahiti (Pomare krallığı) için atlasta künye YOK — boşluk kimlik eksikliğidir.",
+  neden:"1815-11-12 öncesi için kaynaklı sahiplik BULUNAMADI (Papeete'nin kuruluş yılı da bulunamadı). 1815-1842 arası `tahiti` künyesiyle (Pomare krallığı) DOLDURULDU (AVUSTRALYA-II, 29 Ekim 2026).",
   kaynak:"FranceArchives kaydı: \"Demande de protectorat de la reine Pomaré (9 septembre 1842) ; acceptation du protectorat par le contre-amiral Dupetit-Thouars (9 septembre 1842)\" (francearchives.gouv.fr/fr/facomponent/d377de11925f333a01dd935d641b80ee23cb852a) · Archives de la Polynésie française: \"Le 29 juin 1880, Pomare V, dernier souverain de Tahiti, cède les territoires du Protectorat à la France\" · Loi du 30 décembre 1880 (mjp.univ-perp.fr/constit/pf1880.htm). Himaye → sömürge egemen DEĞİŞTİRMEZ (Tulagi emsali: himaye `s:`); 1880 kırılma üretmez. `fransa-cumhuriyet` künyesi 1792 sonrası bütün Fransız rejimlerini kapsar (1842 Temmuz Monarşisi dahil).",
-  s:[{f:"1842-09-09",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
+  s:[{f:"1815-11-12",t:"1842-09-09",d:"tahiti",kesinlik:{f:"ay",t:"gun"},kaynak:"`tahiti` künyesi (Pomare II Te Feipi zaferi, Kasim 1815 — savas gunu kaynaklarda 11-12 Kasim; paulturnbull.org misyoner gunlugu). Bitis: 9 Eylul 1842 himaye (worldstatesmen.org/Fr_Polynesia.html — sayfa ACILDI: 9 Sep 1842 French protectorate)."},{f:"1842-09-09",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
 
 { ad:"Avarua (Rarotonga)", tur:"liman", lat:-21.2075, lon:-159.7708, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
   neden:"1888 öncesi Cook Adaları için künye yok; kaynak susuyor.",
   kaynak:"Britannica 'Cook Islands': \"The British government eventually complied in 1888\" (himaye; YIL hassasiyeti — 27 Eylül/27 Ekim 1888 adayları yalnız Vikipedi'de). NZ: New Zealand Legislation, 'Cook, etc, Islands Boundaries and Inclusion in New Zealand Proclamation 1901' (SR 1901/531, legislation.govt.nz/regulation/imperial/1901/0531/4.0/DLM1101.html): \"do hereby proclaim and appoint 11 June 1901 to be the date on and after which the boundaries of the Colony shall be and be deemed to be extended\".",
-  s:[{f:"1888-01-01",t:"1901-06-11",d:"ingiltere"},{f:"1901-06-11",t:"2000-12-31",d:"yeni-zelanda"}] },
+  s:[{f:"1888-01-01",t:"1901-06-11",d:"ingiltere",kesinlik:{f:"yil",t:"gun"},kaynak:"Başlangıç YIL hassasiyetinde: Britannica «Cook Islands» (1888) ve Te Ara, Pacific Islands and New Zealand (arama özeti: güney adalar 1888'de İngiliz himayesi, High Commissioner of the Western Pacific altında; PacLII Cook Islands legal history). Gün (27 Ekim?) hiçbir hakemli/kurumsal kaynakta bulunamadı. Bitiş: SR 1901/531 bildirisi, 11 Haziran 1901."},{f:"1901-06-11",t:"2000-12-31",d:"yeni-zelanda"}] },
 
 { ad:"Hagåtña (Agaña)", tur:"sehir", lat:13.4748, lon:144.7516, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
@@ -2940,33 +2940,33 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Launceston", tur:"sehir", lat:-41.4332, lon:147.1441, g:1, k:1,
   kur:"1806-01-01",
   kaynak:"Companion to Tasmanian History (UTAS), 'Launceston': Paterson'ın aradığı yer \"he found at Riching's Park at the confluence of the Tamar, North and South Esk Rivers. The settlement moved in 1806.\" Britannica 'Launceston': yerleşim George Town'dan (1804) geldi. YIL hassasiyeti.",
-  s:[{f:"1806-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1806-01-01",t:"1825-12-03",d:"yeni-guney-galler"},{f:"1825-12-03",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 // Midlands — Hobart ↔ Launceston köprüsü (Değişmez 7: 162 km'lik kopukluk)
 { ad:"Oatlands (Tazmanya)", tur:"sehir", lat:-42.3, lon:147.37, g:0, k:0,
   kur:"1821-06-03",
   kaynak:"Companion to Tasmanian History (UTAS), 'Oatlands' (Wayback kopyası): \"Oatlands, on the shores of Lake Dulverton, was named and selected as a township by Governor Macquarie on 3 June 1821, and by 1827 a survey and street plan had been laid out by surveyor William Sharland. It quickly became a vital link between Hobart and Launceston\".",
-  s:[{f:"1821-06-03",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1821-06-03",t:"1825-12-03",d:"yeni-guney-galler"},{f:"1825-12-03",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Campbell Town (Tazmanya)", tur:"sehir", lat:-41.93, lon:147.49, g:0, k:0,
   kur:"1821-01-01",
   kaynak:"Companion to Tasmanian History (UTAS), 'Campbell Town' (Wayback kopyası): \"Campbell Town was named by Governor Lachlan Macquarie in 1821 after his wife's family. There was already some European settlement in the area.\" — 1821 ADLANDIRMA yılıdır; bölgede daha önce dağınık yerleşim vardı (ihtiyatlı alt sınır). YIL hassasiyeti.",
-  s:[{f:"1821-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1821-01-01",t:"1825-12-03",d:"yeni-guney-galler"},{f:"1825-12-03",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Devonport (Tazmanya)", tur:"liman", lat:-41.1806, lon:146.3464, g:0, k:0,
   kur:"1850-01-01",
   kaynak:"Companion to Tasmanian History, 'Devonport': \"Devonport originally comprised two small townships which were set aside as reserves in 1850\" (Torquay ve Formby; 1890'da birleşti). YIL hassasiyeti.",
-  s:[{f:"1850-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1850-01-01",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Burnie", tur:"liman", lat:-41.0526, lon:145.9061, g:0, k:0,
   kur:"1827-01-01",
   kaynak:"Companion to Tasmanian History, 'Burnie': \"Burnie, on the shores of Emu Bay, was first settled in 1827 by the Van Diemen's Land Company's chief surveyor, Henry Hellyer\". YIL hassasiyeti.",
-  s:[{f:"1827-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1827-01-01",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"St Helens (Tazmanya)", tur:"sehir", lat:-41.32, lon:148.24, g:0, k:0,
   kur:"1834-01-01",
   kaynak:"Companion to Tasmanian History, 'St Helens': \"In 1833 a whale fishery was established at Binalong Bay… The next year St Helens received its name, when a military station was established…\" ⚠️ Tarih ADLANDIRMA + askerî istasyon yılıdır, kasaba ilanı değil. YIL hassasiyeti.",
-  s:[{f:"1834-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1834-01-01",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 // --------------------------------------------------------------------
 // AVUSTRALYA — iç kesim ve kıyı boşlukları · emsal: ingiltere → 1901 avustralya
@@ -2977,12 +2977,12 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Hermannsburg (Ntaria)", tur:"sehir", lat:-23.943, lon:132.778, g:0, k:0,
   kur:"1877-01-01",
   kaynak:"NT Place Names Register (Northern Territory Government), kayıt 22429: \"Hermannsburg was established by Lutheran Missionaries in 1877.\" YIL hassasiyeti.",
-  s:[{f:"1877-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1877-01-01",t:"1911-01-01",d:"kuzey-bolgesi-sa"},{f:"1911-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Katherine", tur:"sehir", lat:-14.465, lon:132.2635, g:0, k:0,
   kur:"1871-01-01",
   kaynak:"Britannica 'Katherine': \"The town began as a repeater station for the Overland Telegraph Line, which reached the site in 1871.\" YIL hassasiyeti.",
-  s:[{f:"1871-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1871-01-01",t:"1911-01-01",d:"kuzey-bolgesi-sa"},{f:"1911-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Coober Pedy", tur:"sehir", lat:-29.0135, lon:134.7544, g:0, k:0,
   kur:"1915-01-01",
@@ -2997,47 +2997,47 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Norseman", tur:"sehir", lat:-32.2, lon:121.7833, g:0, k:0,
   kur:"1895-05-01",
   kaynak:"Landgate (WA), 'History of country town names — Norseman': \"The townsite was gazetted in May 1895.\" AY hassasiyeti (D213: 05-01 ayı kodlar).",
-  s:[{f:"1895-05-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1895-05-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Menzies (Batı Avustralya)", tur:"sehir", lat:-29.6833, lon:121.0333, g:0, k:0,
   kur:"1895-08-01",
   kaynak:"Landgate (WA), 'History of country town names — Menzies': \"The townsite was gazetted in August 1895.\" AY hassasiyeti.",
-  s:[{f:"1895-08-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1895-08-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Mount Magnet", tur:"sehir", lat:-28.0667, lon:117.85, g:0, k:0,
   kur:"1895-01-01",
   kaynak:"Landgate (WA), 'History of country town names — Mount Magnet': \"the survey was carried out in 1894 and the townsite gazetted in 1895.\" YIL hassasiyeti.",
-  s:[{f:"1895-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1895-01-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Port Hedland", tur:"liman", lat:-20.3143, lon:118.5864, g:0, k:0,
   kur:"1896-01-01",
   kaynak:"Landgate (WA), 'History of country town names — Port Hedland': \"Following the survey of lots the townsite of Port Hedland was gazetted in 1896.\" YIL hassasiyeti.",
-  s:[{f:"1896-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1896-01-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Albany (Batı Avustralya)", tur:"liman", lat:-35.0228, lon:117.8814, g:1, k:1,
   kur:"1826-12-25",
   kaynak:"Western Australian Museum, 'The story of the Brig Amity': Lockyer'in seferi King George Sound'a \"…on Christmas Day, December the 25th 1826\" ulaştı. Britannica 'Albany': \"In 1826 the first European settlement in the state… Frederickstown… was established there\".",
-  s:[{f:"1826-12-25",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1826-12-25",t:"1831-03-07",d:"yeni-guney-galler"},{f:"1831-03-07",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Bunbury", tur:"liman", lat:-33.3271, lon:115.6414, g:0, k:0,
   kur:"1841-01-01",
   kaynak:"Heritage Council of WA (inHerit), 'Bunbury Bathing Pavilion': \"The townsite of Bunbury was surveyed and gazetted in 1841.\" YIL hassasiyeti.",
-  s:[{f:"1841-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1841-01-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Cooktown", tur:"liman", lat:-15.465, lon:145.25, g:1, k:1,
   kur:"1873-10-25",
   kaynak:"Queensland Parks and Wildlife Service, 'Endeavour River National Park — Culture and history': \"Cooktown (initially called Cook's Town) was established when a party… landed on the south bank of the Endeavour River on 25 October 1873\". Queensland Places: 1 Haziran 1874'te Cooktown adını aldı.",
-  s:[{f:"1873-10-25",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1873-10-25",t:"1901-01-01",d:"queensland"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Thursday Island (Port Kennedy)", tur:"liman", lat:-10.5679, lon:142.2148, g:1, k:1,
   kur:"1878-01-01",
   kaynak:"Queensland Places (University of Queensland), 'Thursday Island': \"In 1878 Port Kennedy, Thursday Island, was settled…\" YIL hassasiyeti.",
-  s:[{f:"1878-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1878-01-01",t:"1901-01-01",d:"queensland"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Weipa Misyonu", tur:"sehir", lat:-12.6759, lon:141.8851, g:0, k:0,
   kur:"1898-01-01",
   kaynak:"Queensland Places, 'Weipa': \"Weipa was established as an Aboriginal mission by the Presbyterian Church in 1898…\" YIL hassasiyeti. ⚠️ Koordinat misyon/Napranum alanı için YAKLAŞIK.",
-  s:[{f:"1898-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1898-01-01",t:"1901-01-01",d:"queensland"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Oenpelli (Gunbalanya)", tur:"sehir", lat:-12.325, lon:133.056, g:0, k:0,
   kur:"1906-01-01",
@@ -3052,7 +3052,24 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Mount Gambier", tur:"sehir", lat:-37.8284, lon:140.7804, g:1, k:1,
   kur:"1854-01-01",
   kaynak:"Britannica 'Mount Gambier': \"A private settlement called Gambier Town was founded in 1854 there by Hastings Cuningham\". ⚠️ State Library of SA (Manning) Sturt'ün daha önce 'Gambierton'ı çizdiğini, Cunningham'ın 'bazen yanlışlıkla' kurucu sayıldığını söylüyor (tarihsiz) — kasaba 1854'ten ÖNCE de olabilir; 1854 ihtiyatlı alt sınır.",
-  s:[{f:"1854-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1854-01-01",t:"1901-01-01",d:"guney-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+
+// ----------------------------------------------------------------------
+// AVUSTRALYA-II (29 Ekim 2026): YENİ HEBRİDLER / VANUATU ve YENİ ZELANDA BİRLEŞİK KABİLELERİ
+// ----------------------------------------------------------------------
+
+{ ad:"Port Vila", tur:"liman", lat:-17.7334, lon:168.3273, g:1, k:1,
+  kasitli_bosluk:true, bos:"veri-yok",
+  neden:"Port Vila'nın kuruluş yılı BULUNAMADI; 1906 Sözleşmesi'nden önce adalar tek devletin değildi (Anglo-Fransız Ortak Deniz Komisyonu dönemi 1887-1906 künyeye alınmadı). Koordinat gazete (OSM/GeoNames) değeridir, KAYNAKLI DEĞİL.",
+  kaynak:"Yeni Hebridler Kondominyumu: UK Parlamentosu antlaşma kaydı (20 Ekim 1906, arama özeti) ve ANU Press (Woodward, A Political Memoir of the Anglo-French Condominium of the New Hebrides); Vanuatu bağımsızlığı: Office of the Historian, Vanuatu (history.state.gov/countries/vanuatu) — sayfa AÇILDI: «gained its independence on July 30, 1980».",
+  s:[{f:"1906-10-20",t:"1980-07-30",d:"yeni-hebridler-kondominyumu"},{f:"1980-07-30",t:"2000-12-31",d:"vanuatu",kaynak:"Office of the Historian, Vanuatu"}] },
+
+{ ad:"Waitangi (Bay of Islands)", tur:"kasaba", lat:-35.268, lon:174.079, g:1, k:1,
+  kasitli_bosluk:true, bos:"veri-yok",
+  neden:"1835 öncesi için kaynaklı sahiplik BULUNAMADI (Northland iwi/hapu özerkti, ortak devlet yoktu); yerin kuruluş yılı da bulunamadı. Koordinat mevcut kronoloji maddesinden (kronoloji_ingiltere, yer_kon) alındı, KAYNAKLI DEĞİL.",
+  kaynak:"DigitalNZ 32375930 / Archives New Zealand IA9-1 (digitalnz.org/records/32375930) — sayfa AÇILDI: He Whakaputanga 28 Ekim 1835, Waitangi'de 34 rangatira. Waitangi Antlaşması 6 Şubat 1840 (mevcut kronoloji_ingiltere maddesi).",
+  s:[{f:"1835-10-28",t:"1840-02-06",d:"yeni-zelanda-birlesik-kabileler"},{f:"1840-02-06",t:"2000-12-31",d:"yeni-zelanda"}] },
+
 
 ];
 
