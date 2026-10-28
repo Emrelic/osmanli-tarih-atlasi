@@ -270,7 +270,7 @@ window.OLAYLAR_EK16 = [
   kapsam:"dis", b:"Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Kurland ve Livonya Lehistan-Litvanya'ya bağlandı (Riga şehri dışında)",
   ic_not_b:"KUTU-H4-1015: eski başlık 'Riga bölgesi Lehistan-Litvanya'ya geçti' diyordu. Britannica 'Riga': Riga kısa bir süre bağımsız şehir-devlet kaldı, 1581'de Lehistan'a geçti; Dybaś (Zapiski Historyczne 90/3, 2025): Kasım 1561'de tabi olan Riga BAŞPİSKOPOSLUĞU'dur. Riga yerleşiminin 1561-11-28 lehistan dönemi kaynağa aykırı — düzeltme yeni künye (Riga serbest şehri) ve BOYALAR rengi ister (TUZ), sırada.",
   gun:"28 Kasım 1561",
-  yer:"Riga, Tallinn (Reval), Tartu (Dorpat), Pärnu, Cēsis (Wenden), Daugavpils (Dünaburg), Narva",
+  yer:"Riga, Pärnu, Cēsis (Wenden), Daugavpils (Dünaburg), Rēzekne (Rositten), Jelgava (Mitau), Liepāja (Libau), Ventspils (Windau)",
   yer_id:"Riga", kisiler:"II. Zygmunt August, Gotthard Kettler",
   d:"Livonya Savaşı sırasında Rus baskısı altında dağılan Livonya Konfederasyonu'nun son büyük üstadı Gotthard Kettler, 28 Kasım 1561'de Vilnius'ta imzalanan antlaşmayla (Pacta Subiectionis) Litvanya Büyük Knezi ve Lehistan Kralı II. Zygmunt August'un himayesine girdi; Riga şehri hariç Livonya'nın büyük kısmı Lehistan-Litvanya'ya bağlandı, Kettler ise Kurland Dukalığı'nın ilk dükü oldu. Bu, Livonya Şövalye Tarikatı'nın Orta Çağ'dan Yeniçağ'a geçişteki son perdesiydi.",
   kaynak:"bulunamadı (TDV) — B. Dybaś, Zapiski Historyczne 90/3 (2025) · Britannica 'Livonian War', 'Courland', 'Riga'", duygu:["😔"] },
@@ -667,4 +667,14 @@ window.OLAYLAR_EK16 = [
 { t:"1944-06-28", k:"diger", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"], b:"Mogilev Kızıl Ordu'ca kurtarıldı — Bagration Harekâtı", gun:"28 Haziran 1944", yer:"Mogilev (Mahilyow)", yer_id:"Mogilev (Mahilyow)",
   d:"2. Belarus Cephesi Mogilev'i aldı ve Dnepr hattını aştı.",
   kaynak:"Yad Vashem arşiv açıklaması M.41.GAMog; Vikipedi «Mogilev» — arama özeti [özet]" },
+// ---- KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): Livonya Savaşı 1558/1561
+{ t:"1558-05-01", k:"diger", kapsam:"dis", etiket:["toprak-kayip","konu-askeri"], b:"Narva Ruslarca alındı — Livonya Savaşı'nın ilk büyük şehri", gun:"Mayıs 1558 [yalnız yıl-ay teyitli; gün teyitsiz]", yer:"Narva", yer_id:"Narva",
+  d:"IV. İvan'ın orduları Narva'yı aldı; Rusya Baltık kıyısına çıktı. Narva, 1581'de İsveç'e geçene dek Rus elinde kaldı.",
+  kaynak:"Livonian War / Siege of Narva (Vikipedi); baltic-way.spbu.ru «Routes of the Livonian War»; historyofwar.org — arama özeti [özet]; elle doğrulama bekler" },
+{ t:"1558-07-01", k:"diger", kapsam:"dis", etiket:["toprak-kayip","konu-askeri"], b:"Dorpat (Tartu) Ruslarca alındı", gun:"Temmuz 1558 [yalnız yıl-ay teyitli; gün teyitsiz]", yer:"Tartu (Dorpat)", yer_id:"Tartu (Dorpat)",
+  d:"Rus orduları 1558 yaz seferinde Dorpat'ı (Tartu) ve çevre kaleleri aldı; şehir 1582 Jam Zapolski Mütarekesi'ne dek Rus idaresinde kaldı.",
+  kaynak:"Livonian War / Siege of Narva (Vikipedi); baltic-way.spbu.ru «Routes of the Livonian War»; historyofwar.org — arama özeti [özet]; elle doğrulama bekler" },
+{ t:"1561-06-01", k:"diger", kapsam:"dis", etiket:["toprak-kayip","konu-diplomasi"], b:"Reval (Tallinn) İsveç'in himayesine girdi — Kuzey Estonya İsveç'e geçti", gun:"Haziran 1561 [yalnız yıl-ay teyitli; gün teyitsiz]", yer:"Tallinn (Reval)", yer_id:"Tallinn (Reval)",
+  d:"Livonya Konfederasyonu dağılırken Reval şehir meclisi 1561'de İsveç Kralı XIV. Erik'e bağlılık sundu; kuzey Estonya, Büyük Kuzey Savaşı'na (1721) dek İsveç'te kaldı.",
+  kaynak:"Livonian War / Siege of Narva (Vikipedi); baltic-way.spbu.ru «Routes of the Livonian War»; historyofwar.org — arama özeti [özet]; elle doğrulama bekler" },
 ];
