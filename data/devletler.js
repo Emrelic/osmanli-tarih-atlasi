@@ -2925,7 +2925,7 @@ window.DEVLETLER = [
 },
 { id:"varsova-dukaligi", ad:"Varşova Büyük Dukalığı", tur:"dukalik", bolge:"dogu-avrupa",
   f:"1807-07-09", t:"1815-06-09", baskent:"Varşova", harita:"varsova-dukaligi",
-  ozet:"[Künye başlangıcı 9 Temmuz 1807 Tilsit Barışı'dır; Anayasa 22 Temmuz 1807'de verildi — LEHISTAN-KRON 28 Ekim 2026: Varşova, Łódź, Częstochowa, Kielce, Radom 1806-11-28 Fransız girişinden değil hukuken Prusya egemenliğinin bittiği Tilsit gününden Dükalığa yazıldı.] Napolyon'un Tilsit sonrasında Prusya'nın aldığı Polonya topraklarından kurduğu tampon devlet; 1809'da Schönbrunn ile Avusturya'dan Batı Galiçya'yı aldı, 1813'te Rus işgaliyle fiilen çöktü ve Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî senediyle hukuken dağıtıldı. Bkz. [[lehistan]] (1795'te sona erdi) ve [[polonya]] (1918).",
+  ozet:"[Künye başlangıcı 9 Temmuz 1807 Tilsit Barışı'dır; Anayasa 22 Temmuz 1807'de verildi — LEHISTAN-KRON 28 Ekim 2026: Varşova, Łódź, Częstochowa 1806-11-28 Fransız girişinden değil hukuken Prusya egemenliğinin bittiği Tilsit gününden Dükalığa yazıldı; Kielce ve Radom III. Taksim’den (1795) Avusturya payıydı, Dükalığa Schönbrunn’la 1809-10-14’te geçti.] Napolyon'un Tilsit sonrasında Prusya'nın aldığı Polonya topraklarından kurduğu tampon devlet; 1809'da Schönbrunn ile Avusturya'dan Batı Galiçya'yı aldı, 1813'te Rus işgaliyle fiilen çöktü ve Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî senediyle hukuken dağıtıldı. Bkz. [[lehistan]] (1795'te sona erdi) ve [[polonya]] (1918).",
   kaynak:"polonya",
   kronoloji:[
     { odak_yer:["Dresden"], t:"1807-07-22", tur:"kurulus", b:"Dresden'de anayasa verildi — dukalık kuruldu" },
