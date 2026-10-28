@@ -799,7 +799,7 @@ window.KRONOLOJI_MACARISTAN = [
   d:"1849'da idam edilmiş bir Kuruc önderinin torunu ve gıyaben idama mahkûm edilmiş bir sürgün olan Andrássy, Ausgleich müzakerelerinin sonuçlanmasından hemen önce ilk anayasal Macar hükümetinin başına geçti; atanması, uzlaşmanın artık fiilen kesinleştiğinin işaretiydi.",
   kaynak:"akademik: Kontler (2002), s. 239-240" },
 
-{ t:"1867-03-30", devlet:"macaristan-habsburg", b:"Ausgleich — Avusturya-Macaristan ikili monarşisinin kurulması", tur:"bolunme", onem:5, dunya:2, kapsam:"ic",
+{ t:"1867-05-29", devlet:"macaristan-habsburg", b:"Ausgleich — Avusturya-Macaristan ikili monarşisinin kurulması", tur:"bolunme", onem:5, dunya:2, kapsam:"ic",
   etiket:["bolunme","reform","kanun","konu-siyasi","konu-islahat","konu-hukuk"],
   yer_id:"",
   d:"Deák'ın formülü üzerine kurulan uzlaşma, Macaristan'ı ortak hükümdar, ortak dışişleri-savunma-maliye altında ama kendi meclisi, hükümeti ve iç idaresiyle Avusturya'nın tam eşit ortağı yaptı; on sekiz yıllık mutlakiyetçi ilhaktan sonra Macaristan tarihinin en köklü dönüşümlerinden biri gerçekleşti.",
