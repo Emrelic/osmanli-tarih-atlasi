@@ -2411,8 +2411,8 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-01-01", d:"guney-ming"},
-     {f:"1650-01-01", t:"1680-03-01", d:"tungning"},
-     {f:"1680-03-01", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1650-01-01", t:"1680-01-01", d:"tungning"},
+     {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani", kesinlik:"yil", kaynak:"Zheng'in Xiamen-Kinmen'den çekilişi 1680 — [yalnız yıl teyitli; gün teyitsiz]; Amoy kaydındaki 1680-03-01 günü kaynaksızdır, kopyalanmadı"},
      {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Zhangzhou", tur:"sehir", lat:24.5130, lon:117.6470, g:0, k:3, d:[],
@@ -2550,6 +2550,7 @@ window.YERLESIMLER_ASYA = [
 // arasında tuttu, Ming'in baskısıyla Tayvan'a geçti. 16 Temmuz 1683
 // Penghu deniz savaşı Zheng devletini bitirdi.
 { ad:"Penghu (Pescadores)", tur:"liman", lat:23.5710, lon:119.5790, g:0, k:3, d:[],
+  not:"ADALAR-DOGU-ASYA: Ming'in adaları boşaltması (ban/iskân çekilişi; kaynaklar 1387 ya da 15. yy ve kalıcı garnizon 1597 gibi birbirinden ayrı yıllar verir — Matsu için Hongwu 20 = 1387 ada halkı anakaraya taşındı, Cambridge makalesi) Çin'in egemenlik iddiasını bitirmedi: Ming Penghu'yu kendi toprağı saymaya devam etti; zincir Ming olarak bırakıldı, boşaltma `bos` yapılmadı. Hollanda 1622-1624 ve Tungning 1661-1683 dönemleri kronolojide.",
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1622-01-01", d:"ming-hanedani"},
      {f:"1622-01-01", t:"1624-08-26", d:"hollanda-dogu-hint", kesinlik:"yil", kaynak:"Hollanda Penghu'yu 1622'de ele geçirdi, Ağustos 1624'te Ming baskısıyla çekildi — [yalnız yıl teyitli; gün teyitsiz]; eski 1622-07-11 günü kaynaksızdı"},
@@ -2589,6 +2590,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1895-10-21", t:"1945-10-25", d:"japon-tayvani"},
      {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
 
+// Yilan (Kavalan / Gamalan) — Kavalan yerli ovası; Qing Gamalan Dairesi'ni (噶瑪蘭廳) 1812'de kurdu.
+{ ad:"Yilan (Kavalan / Gamalan)", tur:"sehir", lat:24.7500, lon:121.7500, g:0, k:0, d:[],
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1812 öncesi Kavalan yerli toplulukları; Spanyol/Hollanda temasları (1630'lar) kalıcı idare kurmadı, Qing 1812'ye dek adayı bu kıyıda idare etmedi (Shepherd 1993; Teng 2004). 🟡 BEYANLI.",
+  kaynak:"QING 1812: Gamalan Dairesi'nin kurulması (Jiaqing 17) — [yalnız yıl teyitli; gün teyitsiz]; kitap sayfası açılmadı. Sonrası zincir Tainan'dan devralındı.",
+  s:[{f:"1812-01-01", t:"1895-04-17", d:"qing-hanedani", kesinlik:"yil"},
+     {f:"1895-04-17", t:"1945-10-25", d:"japon-tayvani"},
+     {f:"1945-10-25", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
+
 // Hualien (Hualien Limanı) — Amis/Sakizaya/Taroko toprağı. Qing doğuyu 1875 Shen Baozhen
 // programıyla (Pi-lam/Beinan Dairesi) açtı; Taitung Doğrudan Bağlı Eyaleti 1887. 🔴 İki yıl
 // birbirinden farklı basamaktır — AÇIK KARAR (rapor madde 1).
@@ -2617,8 +2626,8 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-01-01", d:"guney-ming"},
-     {f:"1650-01-01", t:"1680-03-01", d:"tungning"},
-     {f:"1680-03-01", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1650-01-01", t:"1680-01-01", d:"tungning"},
+     {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani", kesinlik:"yil", kaynak:"Zheng'in Xiamen-Kinmen'den çekilişi 1680 — [yalnız yıl teyitli; gün teyitsiz]; Amoy kaydındaki 1680-03-01 günü kaynaksızdır, kopyalanmadı"},
      {f:"1912-02-12", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
 
 { ad:"Matsu (Nangan)", tur:"liman", lat:26.1600, lon:119.9500, g:0, k:3, d:[],
@@ -2626,8 +2635,8 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-01-01", d:"guney-ming"},
-     {f:"1650-01-01", t:"1680-03-01", d:"tungning"},
-     {f:"1680-03-01", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1650-01-01", t:"1680-01-01", d:"tungning"},
+     {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani", kesinlik:"yil", kaynak:"Zheng'in Xiamen-Kinmen'den çekilişi 1680 — [yalnız yıl teyitli; gün teyitsiz]; Amoy kaydındaki 1680-03-01 günü kaynaksızdır, kopyalanmadı"},
      {f:"1912-02-12", t:"2000-12-31", d:"cin-cumhuriyeti"}] },
 
 // ===== 4d. KURİL, KOMANDOR, OGASAWARA, IWO JIMA (ADALAR-DOGU-ASYA) =====
