@@ -723,7 +723,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   kaynak:"TDV İslâm Ansiklopedisi 'MUHAMMED V' https://islamansiklopedisi.org.tr/muhammed-v : \"Mevlây Yûsuf’un âni ölümü üzerine Fransızlar genç ve tecrübesiz Muhammed’in tahta çıkmasını sağladılar (18 Kasım 1927).\"",
   ic_not_d:"TDV fas maddesi yalnız yıl verir ('1927’de ölen Mevlây Yûsuf’un yerine küçük oğlu Sîdî Muhammed'). Gün TDV muhammed-v'den." },
 
-{ t:"1928-01-01",
+{ t:"1928-09-01",
   b:"Arnavutluk krallık oldu, Zogu 'I. Zog' adıyla kral ilân edildi",
   tur:"rejim",
   onem:4,
@@ -731,12 +731,12 @@ window.KRONOLOJI_COK_1923_1945 = [
   kapsam:"ic",
   etiket:["rejim", "hanedan", "konu-siyasi"],
   taraflar:["arnavutluk-bagimsiz"],
-  gun:"Eylül 1928 (gün bilinmiyor — TDV); LoC 'August 1928'",
+  gun:"1 Eylül 1928 (Britannica «Zog I»: proclaimed king September 1, 1928; FRUS 1928 v.I d705)",
   yer:"Tiran",
   yer_kon:[41.33, 19.82],
   d:"Zogu meclisi dağıttırdı; yeni kurucu meclis anayasayı değiştirerek Arnavutluk'u krallığa çevirdi ve Zogu 'Arnavutların Kralı I. Zog' oldu. Kral, cumhurbaşkanlığındaki diktatörce yetkilerini korudu.",
   kaynak:"TDV İA 'Arnavutluk': \"üç yıl sonra ise kral ilân edildi (Eylül 1928)\" · LoC Albania 29.htm : \"A new constituent assembly amended the constitution, making Albania a kingdom and transforming Zogu into Zog I\"",
-  ic_not_d:"GÜN BULUNAMADI. Ay çelişkisi: TDV Eylül, LoC kronoloji tablosu (4.htm) 'August' (meclisin dağılması ve krallık ilânı aynı cümlede). TDV esas alındı. Künyede 'Prenslik' adı bu tarihten sonra 'Krallık'tır — künye adı sorusu koordinatöre." },
+  ic_not_d:"Gün 1 Eylül 1928 (Britannica «Zog I»; FRUS 1928 v.I d705) — kron-balkan 28 Eki 2026. Eski not: Ay çelişkisi: TDV Eylül, LoC kronoloji tablosu (4.htm) 'August' (meclisin dağılması ve krallık ilânı aynı cümlede). TDV esas alındı. Künyede 'Prenslik' adı bu tarihten sonra 'Krallık'tır — künye adı sorusu koordinatöre." },
 
 { t:"1928-01-01",
   b:"Milliyetçiler Pekin'i aldı; başkent Nanking'e taşındı, Kuzey Seferi tamamlandı",

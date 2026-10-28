@@ -895,7 +895,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Millî Meclis, 1844 Anayasası'nı gözden geçirerek daha demokratik yeni bir anayasa hazırladı; kral yetkilerini sınırlayan ve parlamenter sistemi güçlendiren bu metin, sonraki 'krallık demokrasisi' döneminin hukukî zeminini oluşturdu.",
   kaynak:"TDV `yunanistan`: '1864'te meclis daha demokratik yeni bir anayasa hazırladı.' TDV yalnız yıl veriyor, gün/ay yok — kural gereği YYYY-01-01 yazıldı." },
 
-{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1864-05-21", b:"İyon adalarının Yunanistan'a katılması", tur:"savas",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1864-06-02", ic_not_t:"eski gün 1864-05-21 = Jülyen → Gregoryen 2 Haziran (Archontology; History Today) (kron-balkan, 28 Eki 2026)", b:"İyon adalarının Yunanistan'a katılması", tur:"savas",
   onem:4, dunya:2, kapsam:"ic", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"], yer_id:"",
   d:"İngiltere'nin 1815'ten beri koruyuculuğunda tuttuğu İyon Adaları (Korfu, Kefalonya, Zanta vd.), Kral Georgios'un tahta çıkışına 'düğün hediyesi' olarak Yunanistan'a devredildi.",
   kaynak:"bulunamadı — TDV `yunanistan` maddesinde İyon adalarının katılımı ayrı bir olay olarak anılmıyor; dayanak: standart akademik kaynak (Treaty of London 1864, antlaşma 29 Mart 1864, yürürlük 21 Mayıs 1864)." },

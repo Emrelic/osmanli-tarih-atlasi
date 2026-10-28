@@ -63,7 +63,7 @@
 //    İki kaydın da HİÇBİR yeni kırılma günü yok. Zincirler var olan
 //    komşu kayıtlardan BİREBİR kopyalandı — Değişmez 2 borcu SIFIR:
 //      Paksos     → `Korfu`nun zinciri (4 gün: 1797-10-17 · 1815-11-05 ·
-//                   1864-05-21 · ufuk)
+//                   1864-06-02 · ufuk)
 //      Elafonisos → `Mora (Tripoliçe)`nin zinciri (4 gün: 1460-05-29 ·
 //                   1687-08-01 · 1715-07-01 · 1821-03-25)
 //    Kasten böyle: ada ile bağlı olduğu gövde ayrı günler kullansaydı
@@ -103,8 +103,8 @@ window.YERLESIMLER_EK_ADALAR = [
   kaynak:"korfu",
   s:[{f:"1281-01-01",t:"1282-03-30",d:"sicilya-kralligi",kaynak:"KUTU-H7-1015 (0080/H-0019 enklav taramasından veri düzeltmesi): eski kayıt 1281-1797 kesintisiz Venedik idi · Korfu kaydıyla eşlendi (Paksos Korfu'nun bağlısıdır — ÇIKARIM) · TDV korfu: 'Bazan Epir, bazan Sicilya (1259), Napoli (1267) hâkimiyetine giren Korfu daha sonra Venedik’e bağlandı (1386)'"},{f:"1282-03-30",t:"1386-01-01",d:"napoli",kaynak:"KUTU-H7-1015 (0080/H-0019 enklav taramasından veri düzeltmesi): Korfu kaydıyla eşlendi (ÇIKARIM) · TDV korfu: 'Napoli (1267) ... Venedik’e bağlandı (1386)'"},{f:"1386-01-01",t:"1797-10-17",d:"venedik",enklav:true,kaynak:"KUTU-H7-1015 (0080/H-0019 enklav taramasından veri düzeltmesi): Korfu kaydıyla eşlendi (ÇIKARIM) · TDV korfu: 'Venedik (1386-1797) hâkimiyetinde kaldı' · ENKLAV BEYANI: Venedik'in denizaşırı İyon adası"},
      {f:"1797-10-17",t:"1815-11-05",d:"fransa-cumhuriyet"},
-     {f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},
-     {f:"1864-05-21",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
+     {f:"1815-11-05",t:"1864-06-02",d:"ingiltere"},
+     {f:"1864-06-02",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[] },
 
 // ── ② ELAFONİSOS (Cervi) ───────────────────────────────────────────────────
