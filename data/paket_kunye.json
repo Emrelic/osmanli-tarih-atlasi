@@ -1113,8 +1113,8 @@
     },
     {
      "yol": "data/yerlesimler_ukrayna_0916.js",
-     "sha": "7a2fbafc96b6dadb",
-     "bayt": 46254
+     "sha": "3e3d2b9e64d980fb",
+     "bayt": 49167
     },
     {
      "yol": "data/yerlesimler_nokta_afrika_0917.js",
@@ -1147,7 +1147,7 @@
      "bayt": 209227
     }
    ],
-   "bayt": 433560
+   "bayt": 436473
   },
   {
    "paket": "data/paket_24.js",
