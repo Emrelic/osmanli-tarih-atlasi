@@ -1861,7 +1861,7 @@ window.DEVLETLER = [
   kaynak:"abdulaziz-b-suud",
   kronoloji:[
     { odak_yer:["Riyad"], t:"1902-01-15", tur:"kurulus", b:"Abdülazîz bin Suûd Riyad'ı geri alarak üçüncü Suûdî devletini kurdu" },
-    { odak_yer:["Riyad"], t:"1913-01-01", tur:"toprak-kazanc", b:"Abdülazîz bin Suûd, Osmanlı garnizonundan Ahsâ (Hasa) vahasını aldı (kaynaklar Nisan veya 4-6 Mayıs 1913 veriyor, gün kesin değil).", kaynak:"https://en.wikipedia.org/wiki/Conquest_of_al-Hasa ; https://en.wikipedia.org/wiki/Ibn_Saud" },
+    { odak_yer:["Riyad"], t:"1913-05-04", tur:"toprak-kazanc", b:"Abdülazîz bin Suûd Lahsâ'ya girdi; Osmanlı garnizonunun çıkışı ve Lahsâ idaresinin devri 8 Temmuz 1913'te tamamlandı.", ic_not_b:"eski t: 1913-01-01 (yıl-temsilî). TDV suudi-arabistan: «4 Mayıs'ta Lahsâ'ya girdi»; TDV lahsa: «merkezi Hüfûf'a yerleşti (8 Temmuz 1913)» — iki farklı olay; haritadaki devir günü 1913-07-08 (TDV lahsa) kalır.", kaynak:"TDV İslâm Ansiklopedisi, 'Suûdî Arabistan' (islamansiklopedisi.org.tr/suudi-arabistan) ve 'Lahsâ'" },
     { odak_yer:["Riyad"], t:"1915-12-26", tur:"antlasma", b:"Darin Antlaşması: İngiltere Necid ve Hasa'daki Abdülazîz'in hâkimiyetini tanıdı, o da İngiltere yanında savaş tutumu aldı (Percy Cox ile imza).", kaynak:"https://www.newsghana.com.gh/treaty-darin-1915-new-saudi-land-came-existence/ ; https://en.wikipedia.org/wiki/Ibn_Saud" },
     { odak_yer:["Riyad"], t:"1920-08-31", tur:"ittifak", b:"Abdülazîz ile Asir'in İdrisî lideri Seyyid Muhammed b. Ali el-İdrisî arasında antlaşma imzalandı.", kaynak:"Qatar Digital Library, Ibn Saud-Idrisi antlaşması çevirisi https://www.qdl.qa/en/archive/81055/vdc_100045327440.0x000052 ; https://en.wikipedia.org/wiki/Emirate_of_Asir" },
     { odak_yer:["Hâil"], t:"1921-11-02", tur:"toprak-kazanc", b:"Şammar (Hâil) emirliğinin teslimiyle Kuzey Necid'e hâkim oldu" },
@@ -1894,7 +1894,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"hicaz-kralligi", ad:"Hicaz Krallığı (Şerif Hüseyin)", tur:"krallik", bolge:"arabistan",
-  f:"1916-06-10", t:"1925-12-31", ic_not_t:"ÜST SINIR, gün değil: BRIT Hussein-ibn-Ali 'Ali succeeded his father in 1924 as second king of the Hejaz, but he abdicated the following year' — yalnız YIL (1925); t yılın son günü seçildi ki künye gerçek bitişten ÖNCE kesilmesin (hayalet riski). TDV hicaz 1925-26'yı içermiyor", baskent:"Mekke", harita:"hicaz",
+  f:"1916-06-10", ic_not_f:"ÇELİŞKİ (beyan): 10 Haziran 1916 isyanın ilk günü (standart literatür, ikinci bağımsız akademik kaynak aranacak); TDV 'serif-huseyin': isyan Haziran 1916, bildiri 27 Haziran, Cidde 16 Haziran düştü. Haritadaki Cidde 1916-06-16 ile TDV uyumlu. Tarih değiştirilmedi.", t:"1925-12-31", ic_not_t:"ÜST SINIR, gün değil: BRIT Hussein-ibn-Ali 'Ali succeeded his father in 1924 as second king of the Hejaz, but he abdicated the following year' — yalnız YIL (1925); t yılın son günü seçildi ki künye gerçek bitişten ÖNCE kesilmesin (hayalet riski). TDV hicaz 1925-26'yı içermiyor", baskent:"Mekke", harita:"hicaz",
   ozet:"Şerîf Hüseyin 10 Haziran 1916'da isyanı başlattı ve Hicaz'da fiilî hâkimiyet o gün el değiştirdi; \"Hicaz Kralı\" unvanı Kasım 1916'da ilân edildi. Künye fiilî hâkimiyeti ölçer, unvanı değil. 1925'te (site ufkunun dışında) Suûdîlerce yıkıldı. (1925'te II. kral Ali'nin tahttan çekilmesiyle sona erdi — BRIT; toprağı [[suud-ucuncu]]ya geçti.)",
   kaynak:"serif-huseyin",
   kronoloji:[
@@ -2769,12 +2769,13 @@ window.DEVLETLER = [
 },
 
 { id:"nebhani", ad:"Nebhânîler (Uman)", tur:"devlet", bolge:"arabistan",
-  f:"1281-01-01", t:"1515-04-01", baskent:"Bahlâ", harita:"nebhani",
+  f:"1281-01-01", t:"1624-01-01", ic_not_t:"t: 1515-04-01 → 1624-01-01 (aynı polity sürüyor → künye GENİŞLETİLDİ). Portekiz 1507-1515'te SAHİL şehirlerini aldı (TDV uman); iç Umman Nebhânî meliklerindeydi ve Ya'rubî Nâsır b. Mürşid 1624'te devraldı (nebhani-umman künyesi, Brill/EI). Sahil yerleşimlerinin portekiz dönemleri kendi kayıtlarında. TDV uman 1230-1507 için Salgurlu der, iç Umman 1515-1624'ü vermez.", baskent:"Bahlâ", harita:"nebhani",
   ozet:"Portekiz işgalinden önce Uman'da ve körfezin güney kıyısında (Cülfâr, Şârika) hüküm süren hânedan. ⚠️ Atlastaki 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır; Cülfâr limanının Hürmüz Krallığı'na tâbiiyeti literatürde geçer ama TDV'de ayrı madde bulunmadığı için henüz ayrılmamıştır. (kaynak: TDV, madde: uman) 🔴 10 Ağustos 2026 — KARAR: (a) TARİHE DOKUNMA (koordinatörle mutabık). Çelişki KARAR VERİLEBİLİR hâle getirildi, üç unsur: ① bizim aralık 1281-1515 (veride 21 nokta) ② TDV `uman` maddesi 1230'dan (627 AH, Benî Kayser'in yıkılışı) Portekiz işgaline kadar 'SALGURLULAR' yönetti diyor ③ Brill/standart akademik kaynak Nebhânî hâkimiyetini ~1154-1624 olarak veriyor — bu bizim aralığımızla UYUMLU, TDV'nin 'Salgurlu' iddiasıyla değil. ⇒ AÇIK SORU (künye ancak bu ayrılınca değiştirilir): TDV'deki 'Salgurlular' standart Fars hânedanı mı (1148-1282, Şîraz — aynı adı taşıyan AYRI ve İYİ BİLİNEN bir hânedan) yoksa Uman'a özgü yerel bir kol/nominal metbûluk mu? Ayrılmadan 21 nokta taşınmaz — bir hayaleti kapatıp daha büyüğünü açma riski var (bkz. celayirli/toga-timur emsali).",
   kaynak:"uman",
   kronoloji:[
     { odak_yer:["Bahlâ"], t:"1507-01-01", tur:"isgal", b:"Portekizliler Uman sahil şehirlerini ele geçirmeye başladı; Memlük Sultanı Kansu Gavri'nin gönderdiği donanma bu ilerleyişi durduramadı", ic_not_b:"eski b: Portekizliler Uman sahil şehirlerini ele geçirmeye başladı; Memlük Sultanı Kansu Gavri'nin gönderdiği donanma bu ilerleyişi durduramadı (TDV uman maddesi)", kaynak:"TDV: uman — «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»" },
-    { odak_yer:["Bahlâ"], t:"1515-04-01", tur:"son", b:"Portekiz, 1507'den itibaren aldığı Uman sahilinde hâkimiyeti tamamladı" }
+    { odak_yer:["Bahlâ"], t:"1515-04-01", tur:"toprak-kayip", b:"Portekiz, 1507'den itibaren aldığı Uman sahilinde hâkimiyeti tamamladı (iç Umman Nebhânîlerde kaldı)" },
+    { odak_yer:["Nizva"], t:"1624-01-01", tur:"son", b:"Ya'rubî imam Nâsır b. Mürşid iç Umman'da iktidarı aldı; Nebhânî melikleri dönemi sona erdi", kaynak:"TDV uman (Nâsır b. Mürşid) · nebhani-umman künyesi" }
   ]
 },
 
@@ -5170,7 +5171,7 @@ window.DEVLETLER = [
     { odak_yer:["Bağdat"], t:"1870-01-01", tur:"antlasma", b:"Bağdat valisi Bahreyn'i Osmanlı toprağı ilan etti, iddia tartışmalı kaldı" },
     { odak_yer:["Manama"], t:"1913-07-29", tur:"antlasma", b:"Osmanlı, Hakkı Paşa-Grey antlaşmasıyla Bahreyn iddiasından vazgeçti" },
     { odak_yer:["Manama"], t:"1970-05-11", tur:"siyaset", b:"BM Güvenlik Konseyi, halkın bağımsız Bahreyn istediği yönündeki Winspeare-Guicciardi tespitini onayladı (Karar 278); İran iddiayı bıraktı.", kaynak:"https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_278" },
-    { odak_yer:["Manama"], t:"1971-12-16", tur:"antlasma", b:"Bahreyn, İngiltere ile bağlarını kesip resmen Bahreyn Devleti olarak bağımsız oldu.", kaynak:"https://web.mit.edu/cascon-project/cases/case_bah.html" },
+    { odak_yer:["Manama"], t:"1971-08-15", tur:"antlasma", b:"Bahreyn, İngiltere ile bağlarını kesip resmen Bahreyn Devleti olarak bağımsız oldu.", ic_not_b:"eski t: 1971-12-16 — 16 Aralık Bahreyn Millî Günü (Emir İsa'nın tahta çıkışı), bağımsızlık günü değil; bağımsızlık 15 Ağustos 1971", kaynak:"TDV İslâm Ansiklopedisi, 'Bahreyn' (islamansiklopedisi.org.tr/bahreyn): «Bahreyn, 15 Ağustos 1971 tarihinde istiklâlini ilân etmiştir.»" },
     { odak_yer:["Manama"], t:"2001-02-01", tur:"siyaset", b:"Ulusal Eylem Şartı halk oylamasında %98,4 onay aldı (gün bulunamadı, Şubat 2001).", kaynak:"https://www.peaceagreements.org/view/1437/" },
     { odak_yer:["Manama"], t:"2002-02-14", tur:"siyaset", b:"Kral Hamad yeni anayasayı yayımladı; Bahreyn Krallığı oldu.", kaynak:"https://en.wikipedia.org/wiki/Constitution_of_Bahrain" },
     { odak_yer:["Manama"], t:"2011-02-14", tur:"isyan", b:"Bahreyn ayaklanması başladı; Mart'ta Suudi birlikleri geçitten girdi, ayaklanma bastırıldı.", kaynak:"https://www.ebsco.com/research-starters/history/bahrain-uprising-2011" }
