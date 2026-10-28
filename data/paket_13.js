@@ -5867,8 +5867,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1311-01-01", t:"1335-01-01", d:"delhi-sultanligi"},
      {f:"1335-01-01", t:"1378-01-01", d:"madurai-sultanligi"},
      {f:"1378-01-01", t:"1532-01-01", d:"vijayanagara"},
-     {f:"1532-01-01", t:"1674-01-01", d:"nayak-devletleri"},
-     {f:"1674-01-01", t:"1799-10-25", d:"maratha"},
+     {f:"1532-01-01", t:"1676-01-01", d:"nayak-devletleri"},
+     {f:"1676-01-01", t:"1799-10-25", d:"tancur-maratha", kaynak:"Tancur Maratha Krallığı (Ekoji/Venkoji Bhonsle) Marathalar Konfederasyonu'ndan ayrı krallıktır: künye tancur-maratha 1676-01-01..1855 (kuruluş: Ekoji'nin Madurai Nayaklarını yıkıp 1676 başında egemenlik ilanı). 1799'da yönetim İngilizlere devredildi (kale ve çevresinde Serfoji kaldı, künye 1855'e dek). Eski maratha kimliği konfederasyon künyesine (1674-06-06..1818-06-03) aittir. GUNEY-ASYA-DENETIM-1029"},
      {f:"1799-10-25", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Madurai — Pândya başkenti; Malik Kâfûr 1311'de yağmaladı, 1335'te
