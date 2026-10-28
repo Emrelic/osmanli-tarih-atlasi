@@ -2681,7 +2681,7 @@ window.KRONOLOJI_TIMURLU = [
   d:"Otuz yedi yıl süren saltanatı boyunca Herat'ı bir kültür başkentine dönüştüren Hüseyin Baykara öldü; oğulları arasındaki taht kavgası, kuzeyden yaklaşan Özbek tehdidine karşı ortak bir savunma kurulmasını imkânsız kıldı. Bir yıl içinde hanedan tamamen çökecekti.",
   kaynak:"TDV `timurlular`: Hüseyin Baykara'nın ölümünün ardından oğullarının Şeybânî Han'ın istilasına direnemediği anlatılıyor — gün DOĞRULANMADI, dayanak: standart akademik kronoloji" },
 
-{ t:"1507-05-01", b:"Şeybânî Han, Herat'ı aldı — Timurlu Devleti sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Herat",
+{ t:"1507-05-24", b:"Şeybânî Han, Herat'ı aldı — Timurlu Devleti sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Herat",
   etiket:["askeri","toprak-kayip","hanedan","konu-askeri","konu-siyasi","konu-hanedan"],
   d:"Özbek hükümdarı Şeybânî Han, Hüseyin Baykara'nın birbiriyle çekişen oğullarının direnişini kırıp Herat'ı ele geçirdi; Timurlu hanedanının Mâverâünnehir-Horasan kolu böylece resmen sona erdi. Hanedanın soyu yalnız Bâbür'ün Hindistan'da kurduğu Bâbürlü İmparatorluğu'nda devam edecekti— bir devlet Orta Asya'da ölüp Hindistan'da yeniden doğdu.", ic_not_d:"(1526, `kronoloji_hindistan.js:177`, dunya:4)",
   kaynak:"TDV `timurlular`: Özbekler Mayıs 1507'de Herat'ı ele geçirdi, Timurlu hâkimiyeti sona erdi — Dikkat: gün TDV'de yok, ay standart akademik kronolojiyle teyitli" }

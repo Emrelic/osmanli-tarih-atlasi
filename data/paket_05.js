@@ -2140,7 +2140,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"timurlu", ad:"Timurlu Devleti", tur:"devlet", bolge:"orta-asya",
-  f:"1370-04-09", t:"1507-05-01", baskent:"Semerkant → Herat", harita:"timurlu",
+  f:"1370-04-09", t:"1507-05-24", ic_not_t:"t 1507-05-01 → 1507-05-24: Horasan/Herat yerleşim dönemleri 1507-05-24'te Şeybânî'ye devrediyor (olaylar_ek16); künye 23 gün dardı. Gün 24 ile olaydaki gun metni (Iranica 20 Mayıs düşüş / 27 Mayıs hutbe) uyuşmuyor — Emre'ye soruldu (denetim-orta-asya)", baskent:"Semerkant → Herat", harita:"timurlu",
   ozet:"Timur'un kurduğu bozkır imparatorluğu; 1402'de Ankara Savaşı'nda Yıldırım Bayezid'i esir alarak Osmanlı'yı Fetret Devri'ne soktu. (kaynak: TDV, madde: timurlular)",
   kaynak:"timur",
   kronoloji:[
@@ -2150,7 +2150,7 @@ window.DEVLETLER = [
     { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı" },
     { odak_yer:["Semerkant"], t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı" },
     { odak_yer:["Herat"], t:"1470-01-01", tur:"hukumdar", b:"Hüseyin Baykara, Herat'ta tahta çıktı" },
-    { t:"1507-05-01", tur:"son", b:"Özbek Şeybânî Han Herat'ı aldı; Timurlu hâkimiyeti Orta Asya'da sona erdi (Hindistan'da Bâbür hanedanı olarak sürdü)" }
+    { t:"1507-05-24", tur:"son", b:"Özbek Şeybânî Han Herat'ı aldı; Timurlu hâkimiyeti Orta Asya'da sona erdi (Hindistan'da Bâbür hanedanı olarak sürdü)" }
   ]
 },
 { id:"eretna", ad:"Eretna Beyliği", tur:"beylik", bolge:"anadolu",
@@ -5285,7 +5285,7 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"cagatay", ad:"Çağatay Hanlığı", tur:"hanlik", bolge:"orta-asya",
-  f:"1227-01-01", t:"1370-01-01", baskent:"Almalık / Karşi", harita:"cagatay",
+  f:"1227-01-01", t:"1370-04-09", ic_not_t:"t 1370-01-01 → 1370-04-09: Timurlu f (Timur'un hükümdarlık ilanı) ile aynı gün; dönemler (Semerkant, Buhara…) zaten 1370-04-09'da devrediyor, künye 99 gün dardı (denetim-orta-asya, künye genişletme: aynı polity sürüyor)", baskent:"Almalık / Karşi", harita:"cagatay",
   ozet:"Cengiz Han'ın oğlu Çağatay'a düşen mirastan doğan, zamanla İslâmlaşan ve Mâverâünnehir/Moğolistan olarak ikiye bölünen hanlık; Timur'un yükselişiyle fiilen sona erdi (kukla hanlar 1448'e dek sürdü). (kaynak: TDV, madde: cagatay-hanligi)",
   kaynak:"cagatay-hanligi",
   kronoloji:[
@@ -5293,7 +5293,7 @@ window.DEVLETLER = [
     { odak_yer:["Almalık"], t:"1260-01-01", tur:"kurulus", b:"Algu Han, hanlığı fiilen bağımsız hâle getiren gerçek kurucu oldu" },
     { odak_yer:["Almalık"], t:"1326-01-01", tur:"hukumdar", b:"Tarmaşirin Han İslâmiyet'i kabul edip Alâeddin adını aldı" },
     { odak_yer:["Almalık"], t:"1334-01-01", tur:"bolunme", b:"Tarmaşirin'in öldürülmesiyle hanlık Mâverâünnehir ve Moğolistan olarak ikiye bölündü" },
-    { odak_yer:["Almalık"], t:"1370-01-01", tur:"son", b:"Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi", ic_not_b:"eski b: Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi (bkz. [[timurlu]])" }
+    { odak_yer:["Almalık"], t:"1370-04-09", tur:"son", b:"Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi", ic_not_b:"eski b: Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi (bkz. [[timurlu]])" }
   ]
 },
 { id:"buhara", ad:"Buhara Hanlığı / Emirliği", tur:"hanlik", bolge:"orta-asya",
