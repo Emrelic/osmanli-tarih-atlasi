@@ -103,12 +103,13 @@ window.OLAYLAR_OK109 = [
     yer: "Viyana, Graz",
     kisiler: "İmparator Karl",
     d: "29 Ekim'de Prag'da Çekoslovakya'nın, Zagreb'de Sırp-Hırvat-Sloven Devleti'nin kurulduğunun ilân edilmesi üzerine Avusturya Almanları da 30 Ekim'de Avusturya Cumhuriyeti'ni kurdular. Aynı gün Osmanlı Devleti Mondros Mütarekesi'ni imzalıyordu; iki imparatorluğun sonu takvimde yan yana düştü.", ic_not_d:"Bu gün, atlasın Habsburg egemenliğinin sona erdiği gün olarak esas alması önerilen tarihtir — TDV'nin toprak üzerindeki egemenlik değişimini anlatan tek cümlesi budur.",
+    ic_not:"TARİH ÇELİŞKİSİ (AVMAC-C-1029, iki kaynakla beyan): ① TDV avusturya: 'Avusturya Almanları da 30 Ekim’de Avusturya Cumhuriyeti’ni kurdular' (ayrıca imparatorun çekilişini 18 Kasım verir). ② Parlament Österreich 'Geburt der Republik': 30 Ekim 1918'de Geçici Millî Meclis Deutschösterreich DEVLETİNİ kurdu (Staatsgründungsbeschluss); cumhuriyet biçimi 12 Kasım 1918'de ilân edildi ('Am 12. November 1918 wird in Österreich die Erste Republik ausgerufen'), Karl 11 Kasım'da devlet işlerinden elini çekti. Ayrım: 10-30 devletin kuruluşu, 11-12 cumhuriyet biçimi. Haritada ve künyede (avusturya-cumhuriyet f) 12 Kasım esas alınır; TDV'nin 30 Ekim'i bu maddede görünür kalır. Ayrıntı: 1918-11-12 maddesi (olaylar_sessiz_borc_0919.js).",
     kaynak: "avusturya"
   },
 
   {
     t: "1918-10-31", k: "siyaset", etiket: ["siyaset", "ayaklanma", "konu-siyasi", "konu-isyan"],
-    kapsam:"dis", b: "Pat Çiçeği Devrimi — Macaristan halk cumhuriyeti ilân edildi", yer_kon:[47.498,19.04],
+    kapsam:"dis", b: "Pat Çiçeği Devrimi — Károlyi başbakan oldu, Macaristan'da monarşi çözülmeye başladı (halk cumhuriyeti 16 Kasım'da ilân edildi)", yer_kon:[47.498,19.04],
     gun: "31 Ekim 1918",
     yer: "Budapeşte",
     kisiler: "Kont Mihály Károlyi",
