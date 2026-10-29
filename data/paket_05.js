@@ -491,7 +491,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"candar", ad:"Candaroğulları (İsfendiyaroğulları)", tur:"beylik", bolge:"anadolu",
-  f:"1309-01-01", t:"1461-01-01", baskent:"Eflani (ilk merkez) → Kastamonu / Sinop", harita:"candar",
+  f:"1309-01-01", t:"1461-06-01", baskent:"Eflani (ilk merkez) → Kastamonu / Sinop", harita:"candar",
   ozet:"Karadeniz kıyısında en son ayakta kalan Anadolu beyliği (hanedan ömrü); TDV'ye göre erken XIV. yüzyılda (1309) Şemseddin Yaman Candar tarafından kuruldu, 1461'de Fâtih'in Mora karşılığı teklifiyle fiilen sona erdi.",
   kaynak:"candarogullari",
   kronoloji:[
@@ -2169,7 +2169,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"burhaneddin", ad:"Kadı Burhâneddin Devleti (Sivas)", tur:"devlet", bolge:"anadolu",
-  f:"1381-01-01", t:"1398-01-01", baskent:"Sivas", harita:"burhaneddin",
+  f:"1381-01-01", t:"1398-07-15", baskent:"Sivas", harita:"burhaneddin",
   ozet:"Eretna beyliğinin vezirinin kurduğu, Karamanoğulları-Akkoyunlu-Osmanlı arasında sıkışan kısa ömürlü devlet; kurucusunun savaş meydanında ölümüyle çöktü. (kaynak: TDV, madde: kadi-burhaneddin)",
   kaynak:"kadi-burhaneddin",
   kronoloji:[
@@ -2236,7 +2236,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"esrefogullari", ad:"Eşrefoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1277-01-01", t:"1326-01-01", baskent:"Beyşehir", harita:"esrefogullari",
+  f:"1277-01-01", t:"1326-10-09", baskent:"Beyşehir", harita:"esrefogullari",
   ozet:"Göller bölgesinde kurulan kısa ömürlü beylik; toprakları Hamîdoğulları, Sâhib Ataoğulları ve Karamanoğulları arasında paylaşıldı. (kaynak: TDV, madde: esrefogullari)",
   kaynak:"esrefogullari",
   kronoloji:[
@@ -17415,6 +17415,10 @@ window.DEVLETLER = [
     { odak_yer:["Kırım"], t:"1920-11-07", tur:"savas", b:"Kızıl Ordu Perekop berzahına saldırdı; 7-17 Kasım arasında Türk Seddi, Yuşun ve Çongar hatlarını aşarak Kırım'ı kuşattı.", kaynak:"https://encyclopedia.1914-1918-online.net/article/wrangel-petr-nikolaevich-baron/ ; https://www.hoover.org/research/searching-peter-wrangel" },
     { odak_yer:["Kırım"], t:"1920-11-14", tur:"son", b:"Perekop'un düşmesinin ardından Vrangel Kırım'dan tahliyeyi başlattı; son gemiler 16 Kasım'da ayrıldı.", kaynak:"https://encyclopedia.1914-1918-online.net/article/wrangel_petr_nikolaevich_baron ; Britannica 'Russian Civil War'" }
   ] },
+{ id:"kolcak-omsk-hukumeti", ad:"Kolçak Hükûmeti (Omsk, Rusya Yüce Hükümdarlığı)", tur:"beyaz-hareket-devleti", bolge:"sibirya-bozkir", f:"1918-11-18", t:"1920-01-04", baskent:"Omsk → Nijneudinsk", boya_gerekli:true, ozet:"Amiral Kolçak'ın 18 Kasım 1918 Omsk darbesiyle kurduğu, 'Rusya Yüce Hükümdarı' unvanlı Beyaz hareket yönetimi; Kızıl Ordu karşısında çöktü, Kolçak 4 Ocak 1920'de yetkiyi devretti, 7 Şubat 1920'de Irkutsk'ta kurşuna dizildi. Omsk'un düşüş günü doğrulanamadı, yazılmadı.", ic_not_f:"Britannica 'Aleksandr Vasilyevich Kolchak': 18 Kasım 1918 darbe; bir Rus kaynağı 19 Kasım verir — Britannica esas, çelişki beyanlı.", ic_not_t:"4 Ocak 1920 son ferman (Nijneudinsk) yalnız en.wikipedia 'Supreme Ruler of Russia' (ikincil) — akademik teyit bulunamadı; Britannica 7 Şubat 1920 idamı verir. t zayıf kaynaklı.", kaynak:"Britannica 'Aleksandr Vasilyevich Kolchak' (18 Kasım 1918 darbe; 7 Şubat 1920 Irkutsk); en.wikipedia 'Supreme Ruler of Russia' (yalnız 4 Ocak 1920 için, ikincil); boya_gerekli: kimlik BOYALAR'da yok — denetim/BOYA-sibirya-1029.tsv", kronoloji:[
+    { odak_yer:["Omsk"], t:"1918-11-18", tur:"kurulus", b:"Amiral Kolçak Omsk'ta darbeyle Rusya Yüce Hükümdarı olur; Dizin (Directory) dağıtılır.", kaynak:"Britannica 'Aleksandr Vasilyevich Kolchak' (Rusça kaynak 19 Kasım verir; çelişki ic_not_f'de)" },
+    { odak_yer:["Nijneudinsk"], t:"1920-01-04", tur:"son", b:"Kolçak yetkisini Denikin'e devreden son fermanı yayımlar; yönetim fiilen çöker (idam 7 Şubat 1920, Irkutsk).", kaynak:"en.wikipedia 'Supreme Ruler of Russia' (ikincil); Britannica 'Kolchak' (idam 7 Şubat 1920)" }
+  ] },
 { id:"caka-beyligi", ad:"Çaka Bey (İzmir) Beyliği", tur:"beylik", bolge:"anadolu", f:"1081-01-01", t:"1095-01-01", baskent:"İzmir (Smyrna)", ozet:"TDV: Aleksios'un 1081'deki tahta çıkışından sonra İzmir ele geçirildi (tarih bilinmiyor); Kılıç Arslan Çaka'yı 488/1095 (?) öldürttü. Diğer kaynaklar 1080-1092 verir. Aday 1093 doğrulanmadı.", kaynak:"TDV 'Çaka Bey', 'Kılıçarslan I', 'Sakız Adası' (Sakız 1089-91)", kronoloji:[
     { odak_yer:["İzmit"], t:"1086-01-01", tur:"savas", b:"Çaka Bey donanmasıyla İzmit'e yapılan saldırıya katıldı.", kaynak:"TDV İslâm Ansiklopedisi 'Çaka Bey' (M. İlgürel)" },
     { odak_yer:["İzmir"], t:"1091-04-29", tur:"savas", b:"Levunion Savaşı: Çaka'nın müttefiki Peçenekler Bizans-Kuman ordusu karşısında ağır yenildi.", kaynak:"TDV İslâm Ansiklopedisi 'Çaka Bey'" },
@@ -17866,8 +17870,8 @@ window.DEVLETLER = [
     { odak_yer:["Çöçek (Tarbagatay)","Almalık (Almalığ)"], t:"1305-08-01", tur:"ic-savas", b:"Hicrî 705 başında Duva, büyük han ordularıyla işbirliği yaparak Kaydu'nun oğlu Çapar'ın yandaşlarına hain bir saldırı düzenler; Duva-Çapar çatışması başlar (gün hicrî yıl başından hesaplanmış yaklaşık).", kaynak:"Encyclopaedia Iranica, 'Chaghatayid Dynasty' ve 'Yāsāwur' maddeleri (https://www.iranicaonline.org/articles/chaghatayid-dynasty/ ; https://www.iranicaonline.org/articles/yasawur-prince/; 705/1305, arama alıntısı)" },
     { odak_yer:["Çöçek (Tarbagatay)","Almalık (Almalığ)","Karakurum"], t:"1309-01-01", tur:"son", b:"Çapar'ın yenilgisiyle Ögedey ulusu Çağatay ulusu ile Yuan arasında paylaşıldı.", kaynak:"Encyclopaedia Iranica 'Chaghatayid dynasty' (künye atfı; bu oturumda metin okunamadı, doğrulanmadı)" }
   ] },
-{ id:"ebulhayr-ozbek-ulusu", ad:"Ebü'l-Hayr Hanlığı (Özbek Ulusu, Ebü'l-Hayrîler)", tur:"hanlik", bolge:"sibirya-bozkir", f:"1428-01-01", t:"1468-01-01", baskent:"Tura (Çimgi-Tura, 1446'ya dek)", ozet:"Ebü'l-Hayr'ın 1428'de Sibirya'da han ilan edilmesiyle kurulan Özbek ulusu; 1468'de Kazaklara karşı seferde ölümüyle çözüldü. Iranica bu hanedana 'Şeybânî' denmesini yanlış sayar ('Ebü'l-Hayrîler'). Not: Iranica ayrı maddede seçilmeyi 1429 verir; ölüm 1468 e-history.kz + Vikipedi 1468-70 (t ikincil). 1500 sonrası `buhara` ile çakışmaz.", kaynak:"Encyclopaedia Iranica 'Abu'l-Khayr Khan' ve 'Abu'l-Khayrids'; Britannica 'Abūʾl Khayr'", kronoloji:[
-    { odak_yer:["Sığnak (Sunak Kurgan)"], t:"1428-01-01", tur:"kurulus", b:"Ebü'l-Hayr Han Sibirya'da (Tura) han ilan edilir; Özbek ulusu kurulur.", kaynak:"Encyclopaedia Iranica 'Abu'l-Khayr Khan' ve 'Abu'l-Khayrids' (künyedeki atıf; sayfa 403 verdi, okunamadı); Britannica 'Abūʾl Khayr'" },
+{ id:"ebulhayr-ozbek-ulusu", ad:"Ebü'l-Hayr Hanlığı (Özbek Ulusu, Ebü'l-Hayrîler)", tur:"hanlik", bolge:"sibirya-bozkir", f:"1429-01-01", ic_not_f:"SIBIRYA-DENETIM-1029: f 1428-01-01 → 1429-01-01. TDV 'Ebülhayr Han': 1429'da Tura'da han ilan edildi; Iranica da 1429'u verir (iki kaynak, çift teyit — gün her ikisinde yok, YYYY-01-01). 1428 yalnız künyenin eski özetinde idi.", t:"1468-01-01", baskent:"Tura (Çimgi-Tura, 1446'ya dek)", ozet:"Ebü'l-Hayr'ın 1429'da Tura'da han ilan edilmesiyle kurulan Özbek ulusu; 1468'de Kazaklara karşı seferde ölümüyle çözüldü. Iranica bu hanedana 'Şeybânî' denmesini yanlış sayar ('Ebü'l-Hayrîler'). Not: Iranica ayrı maddede seçilmeyi 1429 verir; ölüm 1468 e-history.kz + Vikipedi 1468-70 (t ikincil). 1500 sonrası `buhara` ile çakışmaz.", kaynak:"Encyclopaedia Iranica 'Abu'l-Khayr Khan' ve 'Abu'l-Khayrids'; Britannica 'Abūʾl Khayr'", kronoloji:[
+    { odak_yer:["Tümen (Çimgi-Tura)"], t:"1429-01-01", tur:"kurulus", b:"Ebü'l-Hayr Han Sibirya'da (Tura) han ilan edilir; Özbek ulusu kurulur.", kaynak:"Encyclopaedia Iranica 'Abu'l-Khayr Khan' ve 'Abu'l-Khayrids' (künyedeki atıf; sayfa 403 verdi, okunamadı); Britannica 'Abūʾl Khayr'" },
     { odak_yer:["Sığnak (Sunak Kurgan)"], t:"1431-01-01", tur:"savas", b:"Ebülhayr Han hicrî 834 kışında (1430-31) Harezm'e girip başkent Gürgenç'i yağmalar, ardından aşırı sıcak ve veba yüzünden ayrılır.", kaynak:"https://islamansiklopedisi.org.tr/ebulhayr-han (TDV, Ebülhayr Han); Encyclopaedia Iranica, Abu'l-Khayr Khan (hicrî 834 kışı)" },
     { odak_yer:["Sığnak (Sunak Kurgan)"], t:"1436-01-01", tur:"savas", b:"Ebülhayr Han hicrî 839'da (1435-36) Harezm'i ikinci kez yağmalar.", kaynak:"https://islamansiklopedisi.org.tr/ebulhayr-han (TDV, Ebülhayr Han)" },
     { odak_yer:["Sığnak"], t:"1447-01-01", tur:"baskent", b:"Ebülhayr Han Siri Derya'nın orta ve aşağı kesimini alır ve Sığnak'ı merkez edinir; Sığnak Timurlular ile Özbekler arasında sınır olur (hicrî 850'den önce).", kaynak:"https://islamansiklopedisi.org.tr/ebulhayr-han (TDV, Ebülhayr Han); Iranica: Tura 1446'ya dek merkez" },
@@ -19235,6 +19239,7 @@ window.DEVLETLER = [
     { odak_yer:["Sart"], t:"-0584-05-28", tur:"antlasma", b:"Güneş tutulması sonrası Alyattes ile Kyaxares barış yapar; Halys sınır olur.", kaynak:"Livius 'Cappadocia' (livius.org/articles/place/cappadocia/); 28 Mayıs MÖ 585 = -0584-05-28" },
     { odak_yer:["Sart"], t:"-0545-01-01", tur:"son", b:"Kyros Kroisos'u yener, Sardes düşer (MÖ 546).", kaynak:"Britannica 'Lydia' (britannica.com/EBchecked/topic/352634/Lydia); Livius 'Cappadocia' c. MÖ 547" }
   ] },
+{ id:"frigya", ad:"Frigya Krallığı (Gordion, Midas)", tur:"krallik", bolge:"anadolu", f:"-0737-01-01", t:"-0624-01-01", baskent:"Gordion", ozet:"Midas’ın Gordion’daki iktidarı (c. MÖ 738-696, Asur kayıtlarındaki Mit-ta-a ile özdeşliği tartışmalı) – Lidya’nın Kimmerleri geri püskürtüp Frigya’yı alması (c. MÖ 625). Kesinlik yüzyıl/onyıl; Gordion ana yanık tabakasının MÖ ~800’e çekilmesi (radyokarbon/dendrokronoloji) ve Kimmer yıkımı anlatısı tartışmalıdır — f ve t Midas/Lidya literatüründen yaklaşık sınırlardır, kuruluş tarihi değildir.", kaynak:"worldhistory.org Phrygia timeline (Midas c. 738-696, Lidya c. 625); Eusebius Chronicle (Midas’ın ölümü 695); Strabon (Kimmerler); ancient-history-sites.com ‘Gordion’ (revize yanık tabakası ~MÖ 800, tartışmalı) — TDV maddesi ve akademik kazı yayınları (Voigt, Kealhofer) OKUNMADI; boya: renkler.py BOYALAR’da YOK (denetim/BOYA-anadolu-1029.tsv)", boya_gerekli:true, kronoloji:[] },
 { id:"urartu", ad:"Urartu Krallığı", tur:"krallik", bolge:"anadolu", f:"-0859-01-01", t:"-0589-01-01", baskent:"Tuspa (Van)", ozet:"Aramu MO ~860-840 – Med fethi MO ~590 (baska gorus: Ahamenis MO 547). Kesinlik yil, guven orta.", kaynak:"worldhistory.org/Urartu; Wikipedia Urartu (ipucu); Salvini 2008; Zimansky 1985", kronoloji:[
     { odak_yer:["Van"], t:"-0859-01-01", tur:"kurulus", b:"Aramu ile Urartu krallığı başlar (c. MÖ 860).", kaynak:"worldhistory.org/Urartu; Salvini 2008; Zimansky 1985; MÖ 860 = -0859" },
     { odak_yer:["Van"], t:"-0839-01-01", tur:"hukumdar", b:"I. Sarduri tahta çıkar (c. MÖ 840).", kaynak:"Livius 'Urartu' (livius.org/articles/place/urartu/); MÖ 840 = -0839" },
@@ -29067,7 +29072,31 @@ window.DEVLETLER = [
   kaynak:"Store norske leksikon (snl.no), 'São Tomé og Príncipe' (Norveççe): «São Tomé og Príncipe ble uavhengig 12. juli 1975.» (tek kaynak; çift teyit bekler)",
   kronoloji:[
     { odak_yer:["São Tomé"], t:"1975-07-12", tur:"kurulus", b:"São Tomé ve Príncipe Portekiz'den bağımsızlığını kazandı", kaynak:"Store norske leksikon (snl.no), 'São Tomé og Príncipe': «ble uavhengig 12. juli 1975»" }
-  ] }
+  ] },
+{ id:"ispanyol-oran-1", ad:"İspanyol Oran (I. dönem) ve Mers el-Kebir", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1509-05-17", t:"1708-01-01", kesinlik:{ t:"yil" }, baskent:"Oran (Vehrân)",
+  ozet:"İspanya Oran'ı 17 Mayıs 1509'da aldı; Osmanlı (Cezayir beylerbeyliği) 1708'de geri aldı. Mers el-Kebir 1505'ten İspanyol elindeydi.",
+  kaynak:"TDV İslâm Ansiklopedisi, VEHRÂN, https://islamansiklopedisi.org.tr/vehran (Oran 17 Mayıs 1509; Osmanlı fethi 1708; yıl) ; Mers el-Kebir 1505: HCA Tizi-Ouzou 2010 (ikincil, Fransızca)",
+  ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] 1708 fethi TDV'de yıl düzeyinde; 1732 dönüşü ayrı künye ispanyol-oran-2. BOYALAR'da yok: boya_gerekli (denetim/BOYA-magrib-1029.tsv). s:/d: dönemi yazılmadı (boya yok).",
+  kronoloji:[] },
+{ id:"ispanyol-oran-2", ad:"İspanyol Oran (II. dönem)", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1732-01-01", t:"1792-09-12", kesinlik:{ f:"yil" }, baskent:"Oran (Vehrân)",
+  ozet:"İspanya 1732'de Oran'ı yeniden aldı; 1792'de Cezayir Dayılığı'na bırakıldı (1708-1732 arası Osmanlı/Cezayir idaresi).",
+  kaynak:"TDV İslâm Ansiklopedisi, VEHRÂN, https://islamansiklopedisi.org.tr/vehran (1732 dönüş; son çıkış 12 Eylül 1792)",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] 1732 dönüşü TDV'de yıl düzeyinde. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı.",
+  kronoloji:[] },
+{ id:"ispanyol-halkulvad", ad:"İspanyol Halkulvâd (La Goulette) ve Tunus himayesi", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1535-07-01", t:"1574-08-24", kesinlik:{ f:"ay" }, baskent:"Halkulvâd (La Goulette)",
+  ozet:"V. Karl'ın Temmuz 1535'te Tunus'u almasıyla İspanyol elinde kalan Halkulvâd kalesi; 24 Ağustos 1574'te Osmanlı kuvvetleri aldı (Tunus 12 Eylül 1574'te düştü).",
+  kaynak:"TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus (Temmuz 1535: V. Karl Tunus'u aldı; 10 Ekim 1573 İspanyol harekâtı; 24 Ağustos 1574 Halkulvâd düştü; 12 Eylül 1574 Tunus düştü)",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız ay teyitli; gün teyitsiz] f ayın 1'i. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı. Hafsî künye t=1574-09-13 ile 1 gün tutarsızlığı hafsi ic_not_t'de.",
+  kronoloji:[] },
+{ id:"ingiliz-tanca", ad:"İngiliz Tanca", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1661-01-01", t:"1684-02-01", kesinlik:{ f:"yil", t:"ay" }, baskent:"Tanca",
+  ozet:"Portekiz'in Tanca'yı İngiltere'ye devriyle başlayan İngiliz idaresi; Şubat 1684'te İngilizler şehri boşaltıp tahrip etti.",
+  kaynak:"TDV İslâm Ansiklopedisi, TANCA, https://islamansiklopedisi.org.tr/tanca (1661 – Şubat 1684)",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] devir/boşaltma günleri yalnız ikincil kaynakta, yazılmadı. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı.",
+  kronoloji:[] }
 ];
 
 ;
