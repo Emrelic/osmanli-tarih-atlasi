@@ -472,7 +472,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"candar", ad:"Candaroğulları (İsfendiyaroğulları)", tur:"beylik", bolge:"anadolu",
-  f:"1309-01-01", t:"1461-01-01", baskent:"Eflani (ilk merkez) → Kastamonu / Sinop", harita:"candar",
+  f:"1309-01-01", t:"1461-06-01", baskent:"Eflani (ilk merkez) → Kastamonu / Sinop", harita:"candar",
   ozet:"Karadeniz kıyısında en son ayakta kalan Anadolu beyliği (hanedan ömrü); TDV'ye göre erken XIV. yüzyılda (1309) Şemseddin Yaman Candar tarafından kuruldu, 1461'de Fâtih'in Mora karşılığı teklifiyle fiilen sona erdi.",
   kaynak:"candarogullari",
   kronoloji:[
@@ -2150,7 +2150,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"burhaneddin", ad:"Kadı Burhâneddin Devleti (Sivas)", tur:"devlet", bolge:"anadolu",
-  f:"1381-01-01", t:"1398-01-01", baskent:"Sivas", harita:"burhaneddin",
+  f:"1381-01-01", t:"1398-07-15", baskent:"Sivas", harita:"burhaneddin",
   ozet:"Eretna beyliğinin vezirinin kurduğu, Karamanoğulları-Akkoyunlu-Osmanlı arasında sıkışan kısa ömürlü devlet; kurucusunun savaş meydanında ölümüyle çöktü. (kaynak: TDV, madde: kadi-burhaneddin)",
   kaynak:"kadi-burhaneddin",
   kronoloji:[
@@ -2217,7 +2217,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"esrefogullari", ad:"Eşrefoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1277-01-01", t:"1326-01-01", baskent:"Beyşehir", harita:"esrefogullari",
+  f:"1277-01-01", t:"1326-10-09", baskent:"Beyşehir", harita:"esrefogullari",
   ozet:"Göller bölgesinde kurulan kısa ömürlü beylik; toprakları Hamîdoğulları, Sâhib Ataoğulları ve Karamanoğulları arasında paylaşıldı. (kaynak: TDV, madde: esrefogullari)",
   kaynak:"esrefogullari",
   kronoloji:[
@@ -19216,6 +19216,7 @@ window.DEVLETLER = [
     { odak_yer:["Sart"], t:"-0584-05-28", tur:"antlasma", b:"Güneş tutulması sonrası Alyattes ile Kyaxares barış yapar; Halys sınır olur.", kaynak:"Livius 'Cappadocia' (livius.org/articles/place/cappadocia/); 28 Mayıs MÖ 585 = -0584-05-28" },
     { odak_yer:["Sart"], t:"-0545-01-01", tur:"son", b:"Kyros Kroisos'u yener, Sardes düşer (MÖ 546).", kaynak:"Britannica 'Lydia' (britannica.com/EBchecked/topic/352634/Lydia); Livius 'Cappadocia' c. MÖ 547" }
   ] },
+{ id:"frigya", ad:"Frigya Krallığı (Gordion, Midas)", tur:"krallik", bolge:"anadolu", f:"-0737-01-01", t:"-0624-01-01", baskent:"Gordion", ozet:"Midas’ın Gordion’daki iktidarı (c. MÖ 738-696, Asur kayıtlarındaki Mit-ta-a ile özdeşliği tartışmalı) – Lidya’nın Kimmerleri geri püskürtüp Frigya’yı alması (c. MÖ 625). Kesinlik yüzyıl/onyıl; Gordion ana yanık tabakasının MÖ ~800’e çekilmesi (radyokarbon/dendrokronoloji) ve Kimmer yıkımı anlatısı tartışmalıdır — f ve t Midas/Lidya literatüründen yaklaşık sınırlardır, kuruluş tarihi değildir.", kaynak:"worldhistory.org Phrygia timeline (Midas c. 738-696, Lidya c. 625); Eusebius Chronicle (Midas’ın ölümü 695); Strabon (Kimmerler); ancient-history-sites.com ‘Gordion’ (revize yanık tabakası ~MÖ 800, tartışmalı) — TDV maddesi ve akademik kazı yayınları (Voigt, Kealhofer) OKUNMADI; boya: renkler.py BOYALAR’da YOK (denetim/BOYA-anadolu-1029.tsv)", boya_gerekli:true, kronoloji:[] },
 { id:"urartu", ad:"Urartu Krallığı", tur:"krallik", bolge:"anadolu", f:"-0859-01-01", t:"-0589-01-01", baskent:"Tuspa (Van)", ozet:"Aramu MO ~860-840 – Med fethi MO ~590 (baska gorus: Ahamenis MO 547). Kesinlik yil, guven orta.", kaynak:"worldhistory.org/Urartu; Wikipedia Urartu (ipucu); Salvini 2008; Zimansky 1985", kronoloji:[
     { odak_yer:["Van"], t:"-0859-01-01", tur:"kurulus", b:"Aramu ile Urartu krallığı başlar (c. MÖ 860).", kaynak:"worldhistory.org/Urartu; Salvini 2008; Zimansky 1985; MÖ 860 = -0859" },
     { odak_yer:["Van"], t:"-0839-01-01", tur:"hukumdar", b:"I. Sarduri tahta çıkar (c. MÖ 840).", kaynak:"Livius 'Urartu' (livius.org/articles/place/urartu/); MÖ 840 = -0839" },
