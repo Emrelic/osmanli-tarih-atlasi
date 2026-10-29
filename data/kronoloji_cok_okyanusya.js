@@ -88,21 +88,21 @@ window.KRONOLOJI_COK_OKYANUSYA = [
 // Alman Yeni Gine (3→2 Kasım 1884), Samoa (Britanya taviz cümlesi), Hawaii Organik Yasası (imza≠yürürlük).
 
 { t:"1606-01-01", b:"Hollandalı Willem Janszoon (Duyfken) Cape York kıyısına çıktı — Avustralya'nın belgelenmiş ilk Avrupa teması", tur:"olay", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","kesif","hollanda-dogu-hint"], yer_id:"", taraflar:["hollanda-dogu-hint"],
+  etiket:["konu-siyasi","kesif","hollanda-dogu-hint"], yer_id:"", odak_yer:["Cape York Yarımadası"], taraflar:["hollanda-dogu-hint"],
   d:"VOC gemisi Duyfken'in kaptanı Willem Janszoon 1606'da (kaynağa göre muhtemelen Mart ayında) Carpentaria Körfezi'nin doğu kıyısında Pennefather Nehri yakınına çıkarak Avustralya anakarasının Avrupalılarca belgelenen ilk kıyı teması ve haritalamasını yaptı. Hollandalılar kıtayı sahiplenmedi; kıyı 'Nieuw Holland' adıyla haritalara girdi.",
   kaynak:"Project Gutenberg Australia, «Australian Discovery» (gutenberg.net.au/aust-discovery.html) — sayfa açıldı: Janszoon'un Duyfken ile Cape York batı kıyısındaki ilk belgelenmiş inişi «Mart 1606»; Serle'nin Dictionary of Australian Biography maddesine atıfla Pennefather Nehri, «muhtemelen Mart 1606».",
   gun:"1606 yılı — açılan kaynak kesin gün vermez (Mart 1606, «muhtemelen»); YYYY-01-01 yıl işaretidir, ay/gün iddiası değildir",
   ic_not_d:"Doğrulama 28 Ekim 2026: yıl doğrulandı, GÜN DOĞRULANAMADI. Bazı ikincil özetlerde 26 Şubat 1606 geçer; açılan akademik kaynakta gün yok, o yüzden yıl işareti korundu (CLAUDE.md §4 tarih uydurma yasağı). Britannica/NLA sayfaları açılmadı, kaynak alanından çıkarıldı." },
 
 { t:"1642-11-24", b:"Abel Tasman Tazmanya kıyısını gördü (Van Diemen's Land)", tur:"olay", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","kesif","hollanda-dogu-hint"], yer_id:"", taraflar:["hollanda-dogu-hint"],
+  etiket:["konu-siyasi","kesif","hollanda-dogu-hint"], yer_id:"", odak_yer:["Tazmanya (Aborijin Tazmanyalılar)"], taraflar:["hollanda-dogu-hint"],
   d:"VOC için Batavya'dan yola çıkan Abel Tasman 24 Kasım 1642'de adanın batı kıyısını gördü, Genel Vali Anthony van Diemen'in adını verdi ve Aralık başında karaya çıkıp Hollanda adına bayrak diktiğini bildirdi. Ada, 1856'ya dek 'Van Diemen's Land' diye anıldı.",
   kaynak:"Abel Janszoon Tasman's Journal of his Discovery of Van Diemen's Land and New Zealand in 1642 (ed. J. E. Heeres, Amsterdam 1898), Project Gutenberg Australia gutenberg.net.au/ebooks06/0600571h.html (seyir defteri sayfası başlığı «24 Nov. 1642 — First sighting of Van Diemen's Land») · The Voyage of Captain Abel Jansen Tasman in the year 1642, gutenberg.net.au/ebooks06/0600611h.html — «The 24th ... about four o'clock, we saw land». Her iki sayfa AÇILIP okundu.",
   gun:"24 Kasım 1642 (Tasman'ın seyir defteri; VOC/Hollanda günlüğü — takvim türü kaynakta ayrıca belirtilmiyor)",
   ic_not_d:"Doğrulama 28 Ekim 2026: gün seyir defteriyle doğrulandı (öğleden sonra ~16:00'da kara görüldü). Takvim: defter Hollanda Gregoryen takvimiyle tutulmuş kabul edildi (genel bilgi; sayfada açık ifade yok). Eski kaynak alanındaki Britannica/ADB sayfaları açılmadığı için çıkarıldı." },
 
 { t:"1642-12-13", b:"Tasman Yeni Zelanda'nın Güney Adası kıyısını gördü", tur:"olay", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","kesif","yeni-zelanda"], yer_id:"", taraflar:["hollanda-dogu-hint"],
+  etiket:["konu-siyasi","kesif","yeni-zelanda"], yer_id:"", odak_yer:["Nelson (Yeni Zelanda)"], taraflar:["hollanda-dogu-hint"],
   d:"Tasman 13 Aralık 1642'de Güney Ada'nın batı kıyısını gördü; Golden Bay'de (Murderers' Bay) Maori ile ilk temas ölümlü bir çatışmayla sonuçlandı ve karaya çıkılmadı. Avrupalılar adaya bir daha 1769'da, Cook ile geldi.",
   kaynak:"Tasman'ın seyir defteri: «State_land ontdekt den 13 December 1642» (The Voyage of Captain Abel Jansen Tasman in the year 1642, gutenberg.net.au/ebooks06/0600611h.html) ve Heeres 1898 baskısı haritası «Staete landt ... A.D. 1642, the 13th of December» (gutenberg.net.au/ebooks06/0600571h.html). Her iki sayfa AÇILIP okundu.",
   gun:"13 Aralık 1642 (Tasman'ın seyir defteri ve haritası)",
@@ -123,7 +123,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Doğrulama 28 Ekim 2026: gün seyir defteriyle doğrulandı. Tarih gemi günlüğündeki gündür; defter bu iki günü ayrı takvim düzeltmesi belirtmeden verir." },
 
 { t:"1770-08-22", b:"Cook Possession Island'da doğu Avustralya kıyısını Britanya adına sahiplendi (New South Wales)", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","toprak-kazanc","ingiltere"], yer_id:"", taraflar:["ingiltere"],
+  etiket:["konu-siyasi","toprak-kazanc","ingiltere"], yer_id:"", odak_yer:["Cape York Yarımadası"], taraflar:["ingiltere"],
   d:"Cook 22 Ağustos 1770'te Torres Boğazı'ndaki Possession Island'da doğu kıyıyı 'New South Wales' adıyla Britanya Kralı III. George adına ilan etti. Aborijin halkıyla herhangi bir anlaşma yapılmadı; sahiplenme, 1788'de fiilî yerleşimle somutlaştı (terra nullius hukuku 1992 Mabo kararına dek sürdü).",
   kaynak:"J. Cook, Captain Cook's Journal during His First Voyage Round the World (ed. W. J. L. Wharton, London 1893), Project Gutenberg #8106 (gutenberg.org/cache/epub/8106/pg8106.txt) — Cook'un kendi seyir defteri; ilgili girdi AÇILIP okundu. Girdi: «Wednesday, 22nd ... I now once More hoisted English Colours, and in the Name of His Majesty King George the Third took possession of the whole Eastern coast ... by the Name of New Wales».",
   gun:"22 Ağustos 1770 (Cook'un seyir defteri; gemi günlüğü tarihi)",
@@ -137,7 +137,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Doğrulama 28 Ekim 2026: gün NPS sayfasıyla doğrulandı. Hawaii State Archives/Britannica açılmadı, çıkarıldı. «Sandwich Adaları» adının verilişi bu sayfada okunmadı (maddenin yardımcı cümlesi, sınanmadı)." },
 
 { t:"1779-02-14", b:"Cook Kealakekua Körfezi'nde Hawaiilerle çatışmada öldürüldü", tur:"olum", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","olum","hawaii-seflikleri"], yer_id:"", taraflar:["hawaii-seflikleri"],
+  etiket:["konu-siyasi","olum","hawaii-seflikleri"], yer_id:"", odak_yer:["Hawaii Adaları (Birleşme Öncesi — moku/aliʻi sistemi)"], taraflar:["hawaii-seflikleri"],
   d:"Cook, Hawaii Adası'nda Kealakekua Körfezi'nde bir kayığın çalınmasından doğan olayda başşef Kalaniʻōpuʻu'yu rehin almaya kalkınca 14 Şubat 1779'da çıkan çatışmada öldü. Olay, Avrupa–Hawaii ilişkilerinin ilk büyük krizidir; ada, birleşmeden önce Kalaniʻōpuʻu ve Kahekili gibi şefler arasında bölünmüştü.",
   kaynak:"US National Park Service, «Cook Landing Site, HI» (nps.gov/places/cook-landing-site.htm) — sayfa AÇILDI: «On February 14, Cook went ashore with nine Marines ... Cook and four Marines were killed» (Kealakekua Körfezi).",
   gun:"14 Şubat 1779 (NPS sayfası)",
@@ -165,7 +165,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Doğrulama 28 Ekim 2026: gün (28 Aralık) kurumsal sayfalarla doğrulandı; bu sayfalar günü yıllık anma tarihi olarak verir. Aynı MoAD zaman çizelgesi eyaletin hukuken kuruluşunu 23 Şubat 1836 Letters Patent'e bağlar. «1834 South Australia Act» ve «Albay Light» ayrıntıları açılan sayfalarda yoktu (yardımcı cümleler, sınanmadı)." },
 
 { t:"1845-03-11", b:"Flagstaff Savaşı başladı — Maori şefi Hōne Heke Kororāreka'da bayrak direğini kesti ve kasabayı bastı", tur:"savas", onem:3, dunya:2, kapsam:"ic",
-  etiket:["savas","konu-askeri","isyan","yeni-zelanda"], yer_id:"", taraflar:["yeni-zelanda"],
+  etiket:["savas","konu-askeri","isyan","yeni-zelanda"], yer_id:"", odak_yer:["Waitangi (Bay of Islands)"], taraflar:["yeni-zelanda"],
   d:"Waitangi'den beş yıl sonra Ngāpuhi şefi Hōne Heke, 11 Mart 1845'te Kororāreka'daki (Russell) bayrak direğini dördüncü kez devirdi; aynı sabah Heke ve Kawiti önderliğinde birkaç yüz Ngāpuhi savaşçısı kasabaya saldırdı ve kasaba boşaltıldı; çatışmalar 1846 başına dek sürdü ve Yeni Zelanda Savaşları dizisinin ilk büyük savaşı sayıldı.",
   kaynak:"Te Papa Tongarewa, «Letter, Kororareka Evacuees» koleksiyon kaydı (collections.tepapa.govt.nz/object/1351537) — sayfa AÇILDI: «morning of 11 March 1845, several hundred Ngāpuhi fighters under Heke and Kawiti attacked Kororāreka ... Heke cut down the flagstaff a fourth time».",
   gun:"11 Mart 1845 (Te Papa kaydı)",
@@ -193,7 +193,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Doğrulama 28 Ekim 2026: gün ANU Press bölümüyle doğrulandı. İmza yeri (Nasova/Levuka) açılan sayfada yoktu, yalnız arama özetlerinde; sınanmadı. Suva'nın 1882 başkentliği de bu sayfada okunmadı." },
 
 { t:"1884-11-02", b:"Almanya Yeni Gine'nin kuzeydoğusunda (Matupi, Blanche Körfezi) bayrak çekti — Alman Yeni Gine himayesi başladı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","toprak-kazanc","almanya"], yer_id:"", taraflar:["almanya"],
+  etiket:["konu-siyasi","toprak-kazanc","almanya"], yer_id:"", odak_yer:["Herbertshöhe (Kokopo) — Rabaul"], taraflar:["almanya"],
   d:"Finsch'in Samoa vapuru seferiyle aynı günlerde, korvet «Elisabeth» komutanlığındaki Alman denizcileri Blanche Körfezi'ndeki Matupi'de 2 Kasım 1884'te Alman bayrağını çekip resmî ilanı yaptı (Finsch'in kendi anlatımı); bunu Mioko ve Yeni Gine anakarasındaki çekişler izledi ve bölge sonradan Alman himayesine (Kaiser-Wilhelmsland ve Bismarck Takımadaları) alındı. Haritadaki Herbertshöhe kaydı 1884-11-03'tür (1 gün fark).",
   kaynak:"Otto Finsch, «Entdeckungsfahrten des deutschen Dampfers Samoa», Die Gartenlaube 1886, Heft 11 (de.wikisource.org/wiki/Entdeckungsfahrten_des_deutschen_Dampfers_„Samoa“ — sayfa AÇILDI): «Am 2. November 1884 fand die feierliche Proklamation zunächst in Matupi statt» (korvet Elisabeth, bayrak, top atışı). Karşılaştırma: German History Docs (germanhistorydocs.org) resim altı yazısı «Raising of the Imperial German flag at Mioko ... on 4 November 1884» (AÇILDI).",
   gun:"2 Kasım 1884 (olayın katılımcısı Finsch'in kendi anlatımı) — ESKİ 3 Kasım KAYNAKTA YOK",
@@ -207,7 +207,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Doğrulama 28 Ekim 2026: gün birincil bildiri metniyle doğrulandı. Aynı kaynak Deputy-Commissioner Romilly'nin daha önceki yetkisiz ilanını anar (23 Ekim günü yalnız arama özetinde, sayfada gün okunmadı). 1888 koloni ve 1906 Papua devri bu sayfada okunmadı (yardımcı cümle)." },
 
 { t:"1888-09-09", b:"Şili Rapa Nui'yi (Paskalya Adası) ilhak etti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","toprak-kazanc","rapa-nui"], yer_id:"", taraflar:["rapa-nui"],
+  etiket:["konu-siyasi","toprak-kazanc","rapa-nui"], yer_id:"", odak_yer:["Rapa Nui (Paskalya Adası)"], taraflar:["rapa-nui"],
   d:"Şili Donanması'ndan Policarpo Toro, 9 Eylül 1888'de Rapa Nui ile Şili arasında 'ilhak anlaşması' imzaladı; adanın yerli yönetimi sona erdi, ada sonradan koyun çiftliği olarak kiralandı.",
   kaynak:"Memoria Chilena (Şili Ulusal Kütüphanesi), «Incorporándola al territorio chileno» (memoriachilena.gob.cl/602/w3-article-94620.html) — sayfa AÇILDI: Policarpo Toro, Angamos korvetiyle adayı «9 de septiembre de 1888» devraldı; cesion actasını kral Atamu Tekena ve Şefler Konseyi imzaladı.",
   gun:"9 Eylül 1888 (Memoria Chilena; ayrıca atlasın `rapa-nui` künyesiyle uyumlu)",
@@ -235,7 +235,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
   ic_not_d:"Doğrulama 28 Ekim 2026: gün doğrulandı. Westminster Statüsü 1947 cümlesi açılan sayfada okunmadı (devletler.js `yeni-zelanda` kaydında ayrıca var)." },
 
 { t:"1967-05-27", b:"Avustralya referandumu: Aborijinleri nüfus sayımına dahil etme ve federal yasama yetkisi (%90'ın üzerinde evet)", tur:"reform", onem:3, dunya:2, kapsam:"ic",
-  etiket:["konu-siyasi","reform","avustralya"], yer_id:"", taraflar:["avustralya"],
+  etiket:["konu-siyasi","reform","avustralya"], yer_id:"", odak_yer:["Sydney","Hobart"], taraflar:["avustralya"],
   d:"27 Mayıs 1967 referandumu Anayasa'nın 127. maddesini (Aborijinlerin sayımdan dışlanması) kaldırdı ve 51. maddeyi değiştirerek Commonwealth'e Aborijin halkı için yasa çıkarma yetkisi verdi; evet oyu ülke genelinde yaklaşık %90 oldu (MoAD).",
   kaynak:"Museum of Australian Democracy, «Milestones in Australian democracy» zaman çizelgesi (explore.moadoph.gov.au/timelines/milestones-in-australian-democracy.html) — sayfa AÇILDI: «'67 Referendum, 27-05-1967 ... unprecedented 90 per cent yes vote».",
   gun:"27 Mayıs 1967 (MoAD zaman çizelgesi)",
