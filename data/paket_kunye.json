@@ -547,11 +547,11 @@
     },
     {
      "yol": "data/savaslar.js",
-     "sha": "844c8e7b5dd7959f",
-     "bayt": 171320
+     "sha": "4813084073d9e3fa",
+     "bayt": 172365
     }
    ],
-   "bayt": 2115327
+   "bayt": 2116372
   },
   {
    "paket": "data/paket_13.js",
@@ -1439,11 +1439,11 @@
     },
     {
      "yol": "data/antlasma_haritalari.js",
-     "sha": "06eb91eaaa488e17",
-     "bayt": 101218
+     "sha": "e84c77a5ebe6bb27",
+     "bayt": 101335
     }
    ],
-   "bayt": 163018
+   "bayt": 163135
   },
   {
    "paket": "data/paket_30.js",

@@ -12138,6 +12138,14 @@ function antlasmaFarkiHesapla(o) {
       return !!f;
     });
   }
+  // 🆕 POSTIT-165 (Hemedan 1727) — TANIMA antlaşması: antlaşma günü toprak el
+  // değiştirmez, savaşın fetihlerini tanır. `savas_basi` varsa ve savaş boyunca el
+  // değiştiren toprak varsa kutu yine kurulur; kırılma antlaşma günüdür, fark
+  // listesi boştur, bütün küme `genis` yoluyla gelir (savaştan önce ↔ antlaşmadan sonra).
+  if (!f && kayit && kayit.savas_basi && SG.savasBoyuDegisim && SG.kademeKumesi &&
+      SG.savasBoyuDegisim(Y, SG.gunKaydir(kayit.savas_basi, -1), _khGunStr(o.gi), T).length) {
+    f = { gun: _khGunStr(o.gi), once: _khGunStr(o.gi - 1), degisim: [], teyit: true };
+  }
   var sonIx = f ? Math.max(gunIdx(f.gun), o.gi) : ileriSon;
   // 🆕 DALGA-0074 H-0013 — üç kademe. `savas_basi` YALNIZ `ANTLASMALAR`da var
   // (ölçüldü: 37/41 kayıtta dolu, ama 137 antlaşma maddesinin yalnız 44'ü bir
@@ -12425,6 +12433,13 @@ function antlasmaFarkiGoster(o, ozelEl) {
   var kirilma = gunIdx(r.f.gun);
   var anaMetin = _kirilmaYazisi({ fark: kirilma - o.gi, gi: kirilma }) +   // sürüm 5: geri de olabilir
     " · " + r.f.degisim.length + " yerleşim bölgesi el değiştirdi: " + _farkOzeti(r.f.degisim);
+  // POSTIT-165 — tanıma antlaşması: değişim savaş boyunca oldu, antlaşma onu tanıdı.
+  if (r.f.teyit && r.kademe) {
+    var tD = r.kademe.kume.filter(function (x) { return x.k1 !== x.k3; })
+      .map(function (x) { return { once: x.k1, sonra: x.k3 }; });
+    anaMetin = "Antlaşma günü toprak el değiştirmedi; savaşta el değiştiren " + tD.length +
+      " yerleşim bölgesini tanıdı: " + _farkOzeti(tD);
+  }
   // 🆕 DALGA-0074 H-0013 — fiilî kademenin ne anlattığı METİNDE de söylenir.
   // Katmanda tarama yok (yalnız `fill-color`), o yüzden "hangisi işgal" sorusu
   // renge bırakılmaz: işgal edilen bölgeler burada SAYILIR ve adlandırılır.

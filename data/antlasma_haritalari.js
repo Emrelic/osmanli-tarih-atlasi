@@ -1180,7 +1180,7 @@ window.ANTLASMA_HARITALARI = [
   antlasma_ad: "Hemedan Antlaşması",
   tarih: "1727-10-04",
   bolgeler: [
-    { taraf: "osmanli", etiket: "Osmanlı'da kaldığı tanınan (Kafkasya, Azerbaycan, Batı İran)", zarf: true, noktalar: [
+    { taraf: "osmanli", etiket: "Osmanlı'da kaldığı tanınan (Kafkasya, Azerbaycan, Batı İran)", noktalar: [
         { ad: "Tiflis", lat: 41.716, lon: 44.783, kaynak: "Tiflis'in alınışı maddesi, 15 Haziran 1723 (TDV ahmed-iii)" },
         { ad: "Kirmanşah", lat: 34.314, lon: 47.065, kaynak: "Kirmanşah'ın alınışı maddesi, 1 Ekim 1723 (TDV bagdat)" },
         { ad: "Hemedan", lat: 34.799, lon: 48.515, kaynak: "Hemedan'ın fethi maddesi, 31 Ağustos 1724 (TDV bagdat)" },
@@ -1189,7 +1189,7 @@ window.ANTLASMA_HARITALARI = [
         { ad: "Gence", lat: 40.683, lon: 46.36, kaynak: "Gence'nin fethi maddesi, 12 Eylül 1725 (TDV nahcivan)" }
     ] }
   ],
-  not: "Antlaşma 1723-1725 fetihlerini hukuken tanıdı; toprak antlaşma gününde değil fetih günlerinde el değiştirdi. Zarf, adıyla anılan altı merkezin kapladığı kaba alandır; Hazar kıyısı (Rusya'nın 1723 kazançları) Osmanlı payı değildir."
+  not: "Antlaşma 1723-1725 fetihlerini hukuken tanıdı; toprak antlaşma gününde değil fetih günlerinde el değiştirdi. Tanınan toprağın kendisi maddenin \"Savaştan önce / Sonrası\" kutusunda petek petek boyanır (POSTIT-165: altı merkezin dış zarfı kaba ve yanıltıcı bulunduğu için kaldırıldı); Hazar kıyısı (Rusya'nın 1723 kazançları) Osmanlı payı değildir."
 },
 {
   id: "istanbul-1736",
