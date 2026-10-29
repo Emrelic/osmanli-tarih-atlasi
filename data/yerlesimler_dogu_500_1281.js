@@ -20,9 +20,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0629-01-01",
     "t": "0842-01-01",
-    "d": "__BOSLUK__",
+    "d": "tibet-imparatorlugu",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip tibet-imparatorlugu (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tibet-imparatorlugu\" geri yazılır) · Songtsen Gampo 629 (Britannica «crowned 629», atıf; açılmadı). Bitiş: mevcut tibet-imparatorlugu iskeleti «0842-01-01 Langdarma öldürüldü; imparatorluk parçalandı, Yumtan Yarlung'da rakip krallık kurdu» (data/devletler.js; atıf). Zincir burada bitiyor: 842 sonrası Yumtan/Yarlung hanedanı bu oturumda kaynaklanmadı (cin2+)."
+    "kaynak": "Songtsen Gampo 629 (Britannica «crowned 629», atıf; açılmadı). Bitiş: mevcut tibet-imparatorlugu iskeleti «0842-01-01 Langdarma öldürüldü; imparatorluk parçalandı, Yumtan Yarlung'da rakip krallık kurdu» (data/devletler.js; atıf). Zincir burada bitiyor: 842 sonrası Yumtan/Yarlung hanedanı bu oturumda kaynaklanmadı (cin2+)."
    },
    {
     "f": "0842-01-01",
@@ -76,16 +76,16 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0617-02-10",
     "t": "0621-05-28",
-    "d": "__BOSLUK__",
+    "d": "sui-xia-dou-jiande",
     "kesinlik": "ay",
-    "kaynak": "BOŞLUK BEYANI: sahip sui-xia-dou-jiande (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"sui-xia-dou-jiande\" geri yazılır) · Jiu Tang shu juan 54: «十三年正月，築壇場於河間樂壽界中，自稱長樂王 … 始都樂壽，號曰金城宮，自是郡縣多下之» (Leshou Dou Jiande'nin başkenti) — https://zh.wikisource.org/wiki/舊唐書/卷54"
+    "kaynak": "Jiu Tang shu juan 54: «十三年正月，築壇場於河間樂壽界中，自稱長樂王 … 始都樂壽，號曰金城宮，自是郡縣多下之» (Leshou Dou Jiande'nin başkenti) — https://zh.wikisource.org/wiki/舊唐書/卷54"
    },
    {
     "f": "0621-05-28",
     "t": "0907-06-01",
-    "d": "__BOSLUK__",
+    "d": "tang",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip tang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tang\" geri yazılır) · Jiu Tang shu juan 1: «五月己未，秦王大破竇建德之眾於武牢，擒建德，河北悉平» (621-05-28). BEYANLI YAKLAŞIKLIK: «河北悉平» bölgesel; Leshou özgü teslim günü ve 621-623 Liu Heita isyanındaki el değişimi okunmadı. Bitiş: Tang t = 907-06-01 (Zhu Wen; DEVLET_LISTESI). 907 sonrası cin2."
+    "kaynak": "Jiu Tang shu juan 1: «五月己未，秦王大破竇建德之眾於武牢，擒建德，河北悉平» (621-05-28). BEYANLI YAKLAŞIKLIK: «河北悉平» bölgesel; Leshou özgü teslim günü ve 621-623 Liu Heita isyanındaki el değişimi okunmadı. Bitiş: Tang t = 907-06-01 (Zhu Wen; DEVLET_LISTESI). 907 sonrası cin2."
    },
    {
     "f": "0907-06-01",
@@ -174,9 +174,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
      {
     "f": "0881-01-01",
     "t": "0982-01-01",
-    "d": "__BOSLUK__",
+    "d": "xiazhou-dangxiang",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip xiazhou-dangxiang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"xiazhou-dangxiang\" geri yazılır) · Sima Guang, Zizhi tongjian, juan 254 (zh.wikisource.org/wiki/資治通鑑/卷254; açıldı, okundu; Zhonghe 1 / 881 bölümü): «鄜延節度使李孝昌、權夏州節度使拓跋思恭屯東渭橋，黃巢遣朱溫拒之。»; Song shi 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «唐末，拓跋思恭鎮夏州，統銀、夏、綏、宥、靜五州地，討黃巢有功，復賜李姓。» ‖ bitiş: Song shi, juan 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «繼捧立，以太平興國七年率族人入朝。…遂曲赦銀、夏管內。»; «太平興國八年，知夏州尹憲與都巡檢曹光實偵知，夜襲破之»"
+    "kaynak": "Sima Guang, Zizhi tongjian, juan 254 (zh.wikisource.org/wiki/資治通鑑/卷254; açıldı, okundu; Zhonghe 1 / 881 bölümü): «鄜延節度使李孝昌、權夏州節度使拓跋思恭屯東渭橋，黃巢遣朱溫拒之。»; Song shi 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «唐末，拓跋思恭鎮夏州，統銀、夏、綏、宥、靜五州地，討黃巢有功，復賜李姓。» ‖ bitiş: Song shi, juan 485 (zh.wikisource.org/wiki/宋史/卷485; okundu): «繼捧立，以太平興國七年率族人入朝。…遂曲赦銀、夏管內。»; «太平興國八年，知夏州尹憲與都巡檢曹光實偵知，夜襲破之»"
    },
      {
     "f": "0982-01-01",
@@ -188,9 +188,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
      {
     "f": "0988-01-01",
     "t": "0994-05-06",
-    "d": "__BOSLUK__",
+    "d": "xiazhou-dangxiang",
     "kesinlik": "ay",
-    "kaynak": "BOŞLUK BEYANI: sahip xiazhou-dangxiang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"xiazhou-dangxiang\" geri yazılır) · Song shi, juan 485 (okundu): «端拱初，…召赴闕，賜姓趙氏，更名保忠，…授夏州刺史，充定難軍節度使、夏銀綏宥靜等州觀察處置押蕃落等使» ‖ bitiş: Xiazhou kentinin yıkımı (Chunhua 5 = 994, Song Taizong’un surların yıkılıp halkın Sui-Yin’e taşınması emri): atıf; açılmadı (Song shi Taizong ben ji; web özetleri Baidu Baike — dayanak değil). BEYANLI: yerleşim 994’te terk (idarî ad kâğıt üstünde sürdü). ‖ Song shi j.5 «Taizong 2» (zh.wikisource.org/wiki/宋史/卷005; açıldı, okundu): «三月乙亥，趙保忠為趙保吉所襲，奔還夏州，指揮使趙光嗣執之以獻，李繼隆帥師入夏州。» (994 başında Xiazhou Dangxiang beyi Zhao Baozhong’un elinde; Song ordusu girene dek) | Takvim: 三月乙亥 → Jülyen 0994-05-06 (gan-zhi çevrimi; Changbian j.35’te 三月甲寅朔 = 0994-04-15)"
+    "kaynak": "Song shi, juan 485 (okundu): «端拱初，…召赴闕，賜姓趙氏，更名保忠，…授夏州刺史，充定難軍節度使、夏銀綏宥靜等州觀察處置押蕃落等使» ‖ bitiş: Xiazhou kentinin yıkımı (Chunhua 5 = 994, Song Taizong’un surların yıkılıp halkın Sui-Yin’e taşınması emri): atıf; açılmadı (Song shi Taizong ben ji; web özetleri Baidu Baike — dayanak değil). BEYANLI: yerleşim 994’te terk (idarî ad kâğıt üstünde sürdü). ‖ Song shi j.5 «Taizong 2» (zh.wikisource.org/wiki/宋史/卷005; açıldı, okundu): «三月乙亥，趙保忠為趙保吉所襲，奔還夏州，指揮使趙光嗣執之以獻，李繼隆帥師入夏州。» (994 başında Xiazhou Dangxiang beyi Zhao Baozhong’un elinde; Song ordusu girene dek) | Takvim: 三月乙亥 → Jülyen 0994-05-06 (gan-zhi çevrimi; Changbian j.35’te 三月甲寅朔 = 0994-04-15)"
    },
      {
     "f": "0994-05-06",
@@ -214,9 +214,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0500-01-01",
     "t": "0532-01-01",
-    "d": "__BOSLUK__",
+    "d": "gaya-konfederasyonu",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip gaya-konfederasyonu (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"gaya-konfederasyonu\" geri yazılır) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «金州本駕洛國。» · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «十九年，金官國主金仇亥，與妃及三子，長曰奴宗，仲曰武德，季曰武力，以國帑寶物來降。王禮待之，授位上等，以本國爲食邑。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Gimhae (Geumgwan Gaya) Gaya'da; ufuk işareti 500."
+    "kaynak": "SAHİP BEYANLI: gaya-konfederasyonu (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «金州本駕洛國。» · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «十九年，金官國主金仇亥，與妃及三子，長曰奴宗，仲曰武德，季曰武力，以國帑寶物來降。王禮待之，授位上等，以本國爲食邑。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Gimhae (Geumgwan Gaya) Gaya'da; ufuk işareti 500."
    },
    {
     "f": "0532-01-01",
@@ -275,9 +275,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0500-01-01",
     "t": "0562-01-01",
-    "d": "__BOSLUK__",
+    "d": "gaya-konfederasyonu",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip gaya-konfederasyonu (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"gaya-konfederasyonu\" geri yazılır) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «高靈郡本大伽倻國，自始祖伊珍阿鼓王，至道設智王，凡十六世，五百二十年。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Goryeong (Daegaya) Gaya'da; ufuk işareti 500."
+    "kaynak": "SAHİP BEYANLI: gaya-konfederasyonu (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «高靈郡本大伽倻國，自始祖伊珍阿鼓王，至道設智王，凡十六世，五百二十年。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Goryeong (Daegaya) Gaya'da; ufuk işareti 500."
    },
    {
     "f": "0562-01-01",
@@ -337,27 +337,34 @@ window.YERLESIMLER_DOGU_500_1281 = [
   "s": [
    {
     "f": "0538-01-01",
-    "t": "0660-08-01",
+    "t": "0660-08-29",
     "d": "baekje",
     "kesinlik": "yil",
     "kaynak": "SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «十六年，春，移都於泗沘，國號南扶餘。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
    },
    {
-    "f": "0660-08-01",
+    "f": "0660-08-29",
     "t": "0671-01-01",
-    "d": "__BOSLUK__",
+    "d": "tang",
     "kesinlik": "ay",
-    "kaynak": "BOŞLUK BEYANI: sahip tang (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tang\" geri yazılır) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。»"
+    "kaynak": "SAHİP BEYANLI: tang (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。»"
    },
    {
     "f": "0671-01-01",
-    "t": "0936-09-01",
+    "t": "0900-01-01",
     "d": "silla",
     "kesinlik": "yil",
     "kaynak": "SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷07 (zh.wikisource.org/wiki/三國史記/卷07, okundu): «置所夫里州，以阿飡眞王爲都督。» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «扶餘郡，本百濟所夫里郡，唐將蘇定方與庾信平之，文武王十二年置摠管» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «百濟聖王，自熊川，來都之，號南扶餘。»"
    },
    {
-    "f": "0936-09-01",
+    "f": "0900-01-01",
+    "t": "0936-09-26",
+    "d": "hubaekje",
+    "kesinlik": "yil",
+    "kaynak": "BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Jeonju/Wansan — zincir Jeonju'dan devralındı): Sabi (Buyeo) 900-936 arasında Hubaekje topraklarındadır — Goryeosa 卷五十七 Jeolla-do «悉據舊地» (Gyeon Hwon eski Baekje topraklarının tamamını tuttu) ve Samguk sagi 卷50 Gyeon Hwon bölümü; 934'te Ungjin'in kuzeyinin Goryeo'ya geçişi (Samguk sagi 卷50) Sabi'nin güneyde kaldığını gösterir (zh.wikisource, okundu). Yer-özgü Sabi kaydı yoktur. Önceki dilim (Silla 900-936) künye aşımıydı, KORE-JAPONYA gece turunda düzeltildi."
+   },
+   {
+    "f": "0936-09-26",
     "t": "1392-08-05",
     "d": "goryeo",
     "kesinlik": "yil",
@@ -406,9 +413,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1270-09-05",
     "t": "1271-06-23",
-    "d": "__BOSLUK__",
+    "d": "sambyeolcho-rejimi",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip sambyeolcho-rejimi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"sambyeolcho-rejimi\" geri yazılır) · Goryeosa j.26 Wonjong 11 — zh.wikisource.org/wiki/高麗史/卷二十六 (okundu): «八月戊辰朔，…丙戌，三別抄入據珍島，侵掠州郡。»"
+    "kaynak": "SAHİP BEYANLI: sambyeolcho-rejimi (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa j.26 Wonjong 11 — zh.wikisource.org/wiki/高麗史/卷二十六 (okundu): «八月戊辰朔，…丙戌，三別抄入據珍島，侵掠州郡。»"
    },
    {
     "f": "1271-06-23",
@@ -649,14 +656,14 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0610-01-01",
     "t": "0757-01-01",
-    "d": "__BOSLUK__",
+    "d": "badami-calukya",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip badami-calukya (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"badami-calukya\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, III: The Classical Age (Bharatiya Vidya Bhavan, Bombay; archive.org classicalage03bhar; açıldı, okundu): «Bhogi-varman (c. 606-610), son of Aja-varman, tried to re-establish the independence of his dynasty, but was overpowered by Pulakesin II, who besieged Banavasi, an event mentioned in his Aihole inscription. The Kadamba dynasty came to an end with the death, probably in battle, of Bhogi-varman and of his son.»; «In the south Pulakesin II besieged and reduced Vanavasi, the capital of the Kadambas»"
    },
    {
     "f": "0757-01-01",
     "t": "0975-01-01",
-    "d": "__BOSLUK__",
+    "d": "rastrakuta",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip rastrakuta (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"rastrakuta\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, IV: The Age of Imperial Kanauj (Bhavan, Bombay 1955; archive.org ageofimperialkan04bhar; açıldı, okundu): «The period of Rashtrakuta ascendancy in the Deccan from about A.D. 753 to 975»; «Dantidurga had defeated Kirtivarman, but had not extinguished his power. The Chalukya emperor retired to Karnatak»; «Krishna bestowed upon him the governorship of Banavasi 12000» | BEYANLI YAKLAŞIKLIK: Banavasi’nin (Karnataka) fiilî geçişi Dantidurga (c. 753) sonrası Krishna I döneminde; yıl onyıl hassasiyetinde."
    },
@@ -745,7 +752,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0950-01-01",
     "t": "1948-04-15",
-    "d": "__BOSLUK__",
+    "d": "chamba",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip chamba (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"chamba\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Central and Western India (The Hill States of Chamba)»: \"According to Dr. Vogel, Sajjana- varman founded the city of Chanpaka (Chamba) and transferred his capital there.\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «Kashmir (Ananta and Kalasa)»: \"Asata of Champa (Chamba)\" | f=0950: Sahilla-varman 10. yüzyıl ortasında öldü; oğlu ve torunu yazıtlarını Chanpaka'dan verdi (ONYIL, Chanpaka'nın kuruluş yılı kaynakta yok). t=1281-01-01 EPOK SINIRI: 1087'den sonra hanedan sürekliliği bu oturumda kaynaklanmadı — BEYANLI YAKLAŞIKLIK (künye chamba 0550-1948). ‖ The Imperial Gazetteer of India, X, «Chamba State» md. (Oxford 1908; archive.org rbanms.742.imperialgazettee0000henr_i1c4; açıldı, okundu): «The State maintained its independence, acknowledging at times a nominal submission to Kashmir, until the Mughal conquest of India. Under the Mughals it became tributary to the empire, but its internal administration was not interfered with, and it escaped almost unscathed from Sikh aggression. The State first came under British influence in 1846.» | BEYANLI YAKLAŞIKLIK: Mughal (1641), Sih ve İngiliz (1846/48) üstünlükleri iç egemenliği kaldırmadı (IGI); Chamba rajaları yazıldı."
    },
@@ -780,7 +787,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1070-01-01",
     "t": "1235-01-01",
-    "d": "__BOSLUK__",
+    "d": "polonnaruwa",
     "kesinlik": "onyil",
     "kaynak": "BOŞLUK BEYANI: sahip polonnaruwa (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"polonnaruwa\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon»: \"from the Chola yoke about A.D. 1070\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon»: \"The Polonnaruva period of Ceylonese history ends with Magha\" | f=1070 \"about\"; t=c.1235 Magha'nın sonu (ONYIL)."
    },
@@ -816,7 +823,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1160-01-01",
     "t": "1181-01-01",
-    "d": "__BOSLUK__",
+    "d": "kalyani-kalacuri",
     "kesinlik": "yil",
     "kaynak": "BOŞLUK BEYANI: sahip kalyani-kalacuri (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"kalyani-kalacuri\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Later Chalukyas and Kalachuris of Kalyana»: \"ascended the throne of the Deccan in A D. 1156 and occupied Kalyana before A.D. 1160\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Later Chalukyas and Kalachuris of Kalyana»: \"in A.D. 1181-82 Somesvara IV was on the throne of Kalyana\""
    },
@@ -966,7 +973,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0801-01-01",
     "t": "0942-01-01",
-    "d": "__BOSLUK__",
+    "d": "chapa-vardhamana",
     "kesinlik": "yuzyil",
     "kaynak": "BOŞLUK BEYANI: sahip chapa-vardhamana (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"chapa-vardhamana\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Minor Dynasties of Gujarat and Kathiawar: The Chapas»: \"who ruled in the first quarter of the ninth cen\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Minor Dynasties of Gujarat and Kathiawar: The Chapas»: \"was ruling in A.D. 914 as a vassal of the Pratlhara Mahipala I\" | f=801: \"9. yy ilk çeyreği\" (YÜZYIL); Vardhamana'nın (Wadhwan) 783'te anıldığı da Majumdar IV'te: \"Jayavaraha ... ruling in A.D. 783 in the territories of the Sauryas to the west of Vardha\" (783-801 arası sahip yazılmadı)."
    },
@@ -1083,7 +1090,7 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1243-01-01",
     "t": "1299-01-01",
-    "d": "__BOSLUK__",
+    "d": "vaghela",
     "kesinlik": "yil",
     "kaynak": "BOŞLUK BEYANI: sahip vaghela (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"vaghela\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «The Chaulukyas of Gujarat»: \"testimony of the Jain literature, according to which Virama never occupied the throne and his brother Visala became king in A.D. 1243\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «The Chaulukyas of Gujarat»: \"wrested the whole of Gujarat from Karna\" | BEYANLI YAKLAŞIKLIK: Dholka'ya özgü devir tanığı yok; Vaghela hanedanının kuruluş ve son yılları alındı (1243 Cain geleneği; 1299 V, 1298 ikinci yarı VI)."
    },
@@ -1165,9 +1172,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1153-07-07",
     "t": "1558-01-01",
-    "d": "__BOSLUK__",
+    "d": "maldivler-sultanligi",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip maldivler-sultanligi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"maldivler-sultanligi\" geri yazılır) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"12 Rebîülâhir 548 (7 Temmuz 1153) tarihinde müslüman olmuş ve Muhammed el-Âdil (Siri Bavanaditta Maha Radun) adını almıştır\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 965-981 (1558-1573) yılları arasında Portekiz işgali altında kaldı\" | BEYANLI YAKLAŞIKLIK: TDV adalar için söyler, Malé'ye özgü değil; 1752-53 Malabarlı saldırısı Malé sarayını yıktı ama Maldivliler Fransız yardımıyla geri attı (TDV)."
+    "kaynak": "SAHİP maldivler-sultanligi (BOYALAR'a girdi; boşluk kapatıldı, HINT-OKYANUSU 28 Ekim 2026) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"12 Rebîülâhir 548 (7 Temmuz 1153) tarihinde müslüman olmuş ve Muhammed el-Âdil (Siri Bavanaditta Maha Radun) adını almıştır\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 965-981 (1558-1573) yılları arasında Portekiz işgali altında kaldı\" | BEYANLI YAKLAŞIKLIK: TDV adalar için söyler, Malé'ye özgü değil; 1752-53 Malabarlı saldırısı Malé sarayını yıktı ama Maldivliler Fransız yardımıyla geri attı (TDV)."
    },
    {
     "f": "1558-01-01",
@@ -1179,9 +1186,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1573-05-03",
     "t": "1968-11-11",
-    "d": "__BOSLUK__",
+    "d": "maldivler-sultanligi",
     "kesinlik": "yil",
-    "kaynak": "BOŞLUK BEYANI: sahip maldivler-sultanligi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"maldivler-sultanligi\" geri yazılır) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"981’de (1573) Portekizliler adalardan çıkarıldı ve Muhammed Takurufânu sultan ilân edildi\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 1887’de İngiltere’nin himayesini resmen kabul etti\" | t=1968-11-11: atlas `maldivler-sultanligi` künye t'si (TDV: 1968 referandumla cumhuriyet yeniden ilân edildi, ay-gün yok). BEYANLI YAKLAŞIKLIK: 1887-1965 İngiliz himayesi, 1953-54 kısa cumhuriyet, 1965 bağımsızlık TDV'de anılır; tek `maldivler-sultanligi` kimliğiyle sürdürüldü (künye 'İngiliz himayesi 1887-1965')."
+    "kaynak": "SAHİP maldivler-sultanligi (BOYALAR'a girdi; boşluk kapatıldı, HINT-OKYANUSU 28 Ekim 2026) · Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"981’de (1573) Portekizliler adalardan çıkarıldı ve Muhammed Takurufânu sultan ilân edildi\" | Casim Avcı, «Maldivler», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/maldivler (22.10.2026'da okundu), «Maldivler»: \"Maldivler 1887’de İngiltere’nin himayesini resmen kabul etti\" | t=1968-11-11: atlas `maldivler-sultanligi` künye t'si (TDV: 1968 referandumla cumhuriyet yeniden ilân edildi, ay-gün yok). BEYANLI YAKLAŞIKLIK: 1887-1965 İngiliz himayesi, 1953-54 kısa cumhuriyet, 1965 bağımsızlık TDV'de anılır; tek `maldivler-sultanligi` kimliğiyle sürdürüldü (künye 'İngiliz himayesi 1887-1965')."
    },
    {
     "f": "1968-11-11",
@@ -1330,9 +1337,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "1574-09-12",
     "t": "1881-05-12",
-    "d": "__BOSLUK__",
+    "d": "tunus-ocagi",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip tunus-ocagi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-ocagi\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «Koca Sinan Paşa ve Kaptanıderyâ Kılıç Ali Paşa kumandasındaki donanma altı günlük bir muhasaranın ardından 12 Eylül 1574’te Tunus’u geri aldı»; TDV İslâm Ansiklopedisi «Hafsîler», https://islamansiklopedisi.org.tr/hafsiler: «Hafsîler’in son temsilcisi Mevlây Muhammed İstanbul’a götürüldü ve Tunus’a Osmanlı Devleti’ne bağlı bir eyalet statüsü verildi (1574)» | ABİ MERKEZ: Tunus ‖ ic not: ÇELİŞKİ: atlas künyesi tunus-ocagi f=1574-09-13 ↔ TDV «Tunus» 12 Eylül 1574 (1 gün); TDV esas. TDV aynı maddede Halkulvâdî’nin alınışını 6 Cemâziyelevvel 982 (24 Ağustos 1574) verir."
+    "kaynak": "[DENETIM-MAGRIB 28 Ekim 2026: sahip künyesi BOYALAR'a eklendi ⇒ eski BOŞLUK BEYANI 'tunus-ocagi' geri yazıldı] BOŞLUK BEYANI: sahip tunus-ocagi (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-ocagi\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «Koca Sinan Paşa ve Kaptanıderyâ Kılıç Ali Paşa kumandasındaki donanma altı günlük bir muhasaranın ardından 12 Eylül 1574’te Tunus’u geri aldı»; TDV İslâm Ansiklopedisi «Hafsîler», https://islamansiklopedisi.org.tr/hafsiler: «Hafsîler’in son temsilcisi Mevlây Muhammed İstanbul’a götürüldü ve Tunus’a Osmanlı Devleti’ne bağlı bir eyalet statüsü verildi (1574)» | ABİ MERKEZ: Tunus ‖ ic not: ÇELİŞKİ: atlas künyesi tunus-ocagi f=1574-09-13 ↔ TDV «Tunus» 12 Eylül 1574 (1 gün); TDV esas. TDV aynı maddede Halkulvâdî’nin alınışını 6 Cemâziyelevvel 982 (24 Ağustos 1574) verir."
    },
    {
     "f": "1881-05-12",
@@ -1343,17 +1350,17 @@ window.YERLESIMLER_DOGU_500_1281 = [
    },
    {
     "f": "1956-03-20",
-    "t": "1957-07-27",
-    "d": "__BOSLUK__",
+    "t": "1957-07-25",
+    "d": "tunus-krallik",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip tunus-krallik (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-krallik\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «20 Mart 1956’da Tunus bağımsızlığına kavuşurken Hüseynî ailesinden Emîn Bey on dokuzuncu bey sıfatıyla … 27 Temmuz 1957 tarihine kadar Tunus kralı oldu»"
+    "kaynak": "[DENETIM-MAGRIB 28 Ekim 2026: sahip künyesi BOYALAR'a eklendi ⇒ eski BOŞLUK BEYANI 'tunus-krallik' geri yazıldı · TDV Tunus 27 Temmuz 1957 der, künye tunus-krallik t=1957-07-25 (kapitalis/Kurucu Meclis); künye ömrü aşılmasın diye dönem t 1957-07-25'e çekildi, çelişki Emre'ye sorulur] BOŞLUK BEYANI: sahip tunus-krallik (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus-krallik\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «20 Mart 1956’da Tunus bağımsızlığına kavuşurken Hüseynî ailesinden Emîn Bey on dokuzuncu bey sıfatıyla … 27 Temmuz 1957 tarihine kadar Tunus kralı oldu»"
    },
    {
-    "f": "1957-07-27",
+    "f": "1957-07-25",
     "t": "2000-12-31",
-    "d": "__BOSLUK__",
+    "d": "tunus",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip tunus (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «27 Temmuz 1957 tarihine kadar Tunus kralı oldu. Bu tarihte Tunus Cumhuriyeti ilân edildi; Hüseynî ailesinin saltanatı sona erip … Habîb Burgiba ilk devlet başkanı olarak bütün yetkileri eline aldı» ‖ ic not: ÇELİŞKİ: ham dosyada 25 Temmuz 1957 (kaynaksız, açılmamıştı) ↔ TDV 27 Temmuz 1957; TDV esas."
+    "kaynak": "[DENETIM-MAGRIB 28 Ekim 2026: sahip künyesi BOYALAR'a eklendi ⇒ eski BOŞLUK BEYANI 'tunus' geri yazıldı · TDV 27 Temmuz 1957 ↔ künye tunus f=1957-07-25; dönem f 1957-07-25'e çekildi (künye ile bitişik), çelişki Emre'ye sorulur] BOŞLUK BEYANI: sahip tunus (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tunus\" geri yazılır) · TDV İslâm Ansiklopedisi «Tunus», https://islamansiklopedisi.org.tr/tunus (açıldı 22.10.2026): «27 Temmuz 1957 tarihine kadar Tunus kralı oldu. Bu tarihte Tunus Cumhuriyeti ilân edildi; Hüseynî ailesinin saltanatı sona erip … Habîb Burgiba ilk devlet başkanı olarak bütün yetkileri eline aldı» ‖ ic not: ÇELİŞKİ: ham dosyada 25 Temmuz 1957 (kaynaksız, açılmamıştı) ↔ TDV 27 Temmuz 1957; TDV esas."
    }
   ],
   "not": "Yeni kayıt: Kartaca atlasta yoktu (yer_ara ad + 3 km: 0 eşleşme; en yakın Halkulvâdî 4.2 km). Zincir 0500-01-01 UFUK işaretiyle başlar (kur yazılmadı: kuruluş kaynaklı doğrulanmadı). 0698 sonrası zincir kuyruk işçisine bırakıldı.",
@@ -1501,9 +1508,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0426-09-08",
     "t": "0810-01-01",
-    "d": "__BOSLUK__",
+    "d": "quirigua",
     "kesinlik": "gun",
-    "kaynak": "BOŞLUK BEYANI: sahip quirigua (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"quirigua\" geri yazılır) · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Quirigua»: \"8 September 426\" … \"The Quirigua kingdom was thus from its very inception\" … \"June 810\" | BEYANLI YAKLAŞIKLIK: 426-738 arası Copán hegemonyası altında müşteri krallık (kendi kralı vardı; M&G); harita sahibi quirigua bırakıldı, Copán'a ait sayılmadı."
+    "kaynak": "SAHİP quirigua: BOYALAR'a eklendi (BOYA PAKETİ), BOŞLUK BEYANI geri yazıldı (AMERİKA-ÖN1281 (29 Ekim 2026)) — dayanak aşağıdadır · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Quirigua»: \"8 September 426\" … \"The Quirigua kingdom was thus from its very inception\" … \"June 810\" | BEYANLI YAKLAŞIKLIK: 426-738 arası Copán hegemonyası altında müşteri krallık (kendi kralı vardı; M&G); harita sahibi quirigua bırakıldı, Copán'a ait sayılmadı."
    },
    {
     "f": "0810-01-01",
@@ -1530,9 +1537,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0750-01-01",
     "t": "1075-01-01",
-    "d": "__BOSLUK__",
+    "d": "sican",
     "kesinlik": "yuzyil",
-    "kaynak": "BOŞLUK BEYANI: sahip sican (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"sican\" geri yazılır) · Encyclopedia.com, 'Sican', https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sican (curl ile okundu; yazar sayfada dogrulanmadi) | «The term Sican has been adopted to refer to the archaeological culture that emerged in the Batan Grande region following the demise of the Moche culture around 700-750 ce.» · «The culture's preeminence came to an end around 1050 ce. Temples at the capital of Sican were burned» ‖ Trafficking Culture Encyclopedia (Univ. of Glasgow), «Batán Grande», https://traffickingculture.org/encyclopedia/case-studies/batan-grande/ (açıldı 22.10.2026): «Batán Grande was largely abandoned between 1050 and 1100 AD, the result of thirty years of severe drought» (metin kaynak göstermiyor; Shimada açılmadı); Atwood, R., «The Rape of Batán Grande», Archaeology 60(4), 2007 (AIA arşiv özeti): «a civilization known as Sicán that lasted from A.D. 800 to 1375 in northern Peru» | devam: Sicán çizgisi sürüyor (aynı sahip)"
+    "kaynak": "SAHİP sican: BOYALAR'a eklendi (BOYA PAKETİ), BOŞLUK BEYANI geri yazıldı (AMERİKA-ÖN1281 (29 Ekim 2026)) — dayanak aşağıdadır · Encyclopedia.com, 'Sican', https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sican (curl ile okundu; yazar sayfada dogrulanmadi) | «The term Sican has been adopted to refer to the archaeological culture that emerged in the Batan Grande region following the demise of the Moche culture around 700-750 ce.» · «The culture's preeminence came to an end around 1050 ce. Temples at the capital of Sican were burned» ‖ Trafficking Culture Encyclopedia (Univ. of Glasgow), «Batán Grande», https://traffickingculture.org/encyclopedia/case-studies/batan-grande/ (açıldı 22.10.2026): «Batán Grande was largely abandoned between 1050 and 1100 AD, the result of thirty years of severe drought» (metin kaynak göstermiyor; Shimada açılmadı); Atwood, R., «The Rape of Batán Grande», Archaeology 60(4), 2007 (AIA arşiv özeti): «a civilization known as Sicán that lasted from A.D. 800 to 1375 in northern Peru» | devam: Sicán çizgisi sürüyor (aynı sahip)"
    }
   ],
   "not": "kur: KURULUŞ DEĞİL; Sicán kültürünün Batán Grande bölgesinde ortaya çıkışı (700-750). Atlas sican künyesi f=0750 ile uyumlu. t=1050: ana kron'daki 'Batán Grande büyük oranda terk edildi (1050-1100)' maddesinin ilk ucu.",
@@ -1552,9 +1559,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0950-01-01",
     "t": "1521-01-01",
-    "d": "__BOSLUK__",
+    "d": "tilantongo-mixtek",
     "kesinlik": "yuzyil",
-    "kaynak": "BOŞLUK BEYANI: sahip tilantongo-mixtek (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tilantongo-mixtek\" geri yazılır) · Pohl, J., 'Mixtec Group Codices', FAMSI, https://www.famsi.org/research/pohl/jpcodices/pohlmixtec1.html (curl ile okundu) | «The Mixtecs rose to power in southern México during Mesoamerica's PostClassic period between A.D. 950-1521.» · «genealogy for the first dynasty of Tilantongo» (tarihsiz)"
+    "kaynak": "SAHİP tilantongo-mixtek: BOYALAR'a eklendi (BOYA PAKETİ), BOŞLUK BEYANI geri yazıldı (AMERİKA-ÖN1281 (29 Ekim 2026)) — dayanak aşağıdadır · Pohl, J., 'Mixtec Group Codices', FAMSI, https://www.famsi.org/research/pohl/jpcodices/pohlmixtec1.html (curl ile okundu) | «The Mixtecs rose to power in southern México during Mesoamerica's PostClassic period between A.D. 950-1521.» · «genealogy for the first dynasty of Tilantongo» (tarihsiz)"
    },
    {
     "f": "1521-01-01",
@@ -1601,9 +1608,9 @@ window.YERLESIMLER_DOGU_500_1281 = [
    {
     "f": "0800-01-01",
     "t": "1100-01-01",
-    "d": "__BOSLUK__",
+    "d": "el-tajin",
     "kesinlik": "yuzyil",
-    "kaynak": "BOŞLUK BEYANI: sahip el-tajin (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"el-tajin\" geri yazılır) · UNESCO WHC 631 'El Tajin, Pre-Hispanic City', https://whc.unesco.org/en/list/631/ (curl ile okundu) | «there was only one phase of occupation lasting from 800 to 1200 A.D.»; t=1100 ms1 künyesi (Diehl, FAMSI; UNESCO 1200 ile çelişki ic_not'ta)"
+    "kaynak": "SAHİP el-tajin: BOYALAR'a eklendi (BOYA PAKETİ), BOŞLUK BEYANI geri yazıldı (AMERİKA-ÖN1281 (29 Ekim 2026)) — dayanak aşağıdadır · UNESCO WHC 631 'El Tajin, Pre-Hispanic City', https://whc.unesco.org/en/list/631/ (curl ile okundu) | «there was only one phase of occupation lasting from 800 to 1200 A.D.»; t=1100 ms1 künyesi (Diehl, FAMSI; UNESCO 1200 ile çelişki ic_not'ta)"
    },
    {
     "f": "1100-01-01",

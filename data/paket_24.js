@@ -2288,7 +2288,7 @@ window.YERLESIMLER_A78_ASYA = [
   s:[{f:"1281-01-01", t:"1368-01-01", d:"__BOSLUK__", kaynak:"brunei-sultanligi künyesi 1368'de başlıyor"},
      {f:"1368-01-01", t:"1847-01-01", d:"brunei-sultanligi", kaynak:"IBS 45 s.5"},
      {f:"1847-01-01", t:"1907-01-01", d:"ingiltere", kesinlik:"yil", enklav:true, kaynak:"IBS 45 s.5: Labuan 1847'de Britanya'ya (ÇELİŞKİ: devir antlaşması 18 Ara 1846, teslim 24 Ara 1846 — yalnız ipucu); 1848 taç kolonisi · enklav: ada koloni"},
-     {f:"1907-01-01", t:"1946-04-01", d:"ingiliz-malaya", kesinlik:"yil", enklav:true, kaynak:"1907'de Straits Settlements'a katıldı (1 Ocak yürürlük — ipucu); 1890–1906 Kuzey Borneo Şirketi idaresi yalnız idarî · enklav: Straits Settlements'ın ada parçası"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
+     {f:"1907-01-01",t:"1942-02-15",d:"ingiliz-malaya", kesinlik:"yil", enklav:true, kaynak:"1907'de Straits Settlements'a katıldı (1 Ocak yürürlük — ipucu); 1890–1906 Kuzey Borneo Şirketi idaresi yalnız idarî · enklav: Straits Settlements'ın ada parçası"},{f:"1942-02-15",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): İngiliz Malaya: Singapur garnizonunun teslimi (15 Şubat 1942; Britannica 'Pacific War': çıkarma 8-9 Şubat, teslim bir hafta sonra); Malaya seferi 8 Aralık 1941'de başladı, yarımadada işgal noktaya göre Aralık 1941-Şubat 1942 arası — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-04-01",d:"ingiliz-malaya", kesinlik:"yil", enklav:true, kaynak:"1907'de Straits Settlements'a katıldı (1 Ocak yürürlük — ipucu); 1890–1906 Kuzey Borneo Şirketi idaresi yalnız idarî · enklav: Straits Settlements'ın ada parçası"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 { ad:"Kudat", tur:"liman", lat:6.8934, lon:116.8463, g:0, k:0, kur:"1881-01-01",
   s:[
@@ -2322,81 +2322,81 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Sintang", tur:"sehir", lat:0.07, lon:111.5, g:0, k:0,
   s:[{f:"1281-01-01", t:"1822-12-02", d:"__BOSLUK__", kaynak:"Sintang krallığı/sultanlığı — künye yok"},
-     {f:"1822-12-02", t:"1949-12-27", d:"hollanda-dogu-hint", kaynak:"Firmansyah, 'Sejarah Kota Sintang dari 1822–1900-an', Historis 8(1) 2023: 2 Aralık 1822 geçici sözleşme (Sambas emsaliyle tutarlı: sözleşme günü)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
+     {f:"1822-12-02",t:"1942-03-09",d:"hollanda-dogu-hint", kaynak:"Firmansyah, 'Sejarah Kota Sintang dari 1822–1900-an', Historis 8(1) 2023: 2 Aralık 1822 geçici sözleşme (Sambas emsaliyle tutarlı: sözleşme günü)"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint", kaynak:"Firmansyah, 'Sejarah Kota Sintang dari 1822–1900-an', Historis 8(1) 2023: 2 Aralık 1822 geçici sözleşme (Sambas emsaliyle tutarlı: sözleşme günü)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
   not:"IBS 45 s.5: Hollanda 1825'te (Cava Savaşı) bazı yerlerden çekildi — fiilî varlık kesilmiş olabilir." },
 
 { ad:"Kapuas Hulu (bölge)", tur:"bolge", lat:0.84, lon:112.93, g:0, k:0,
   s:[{f:"1281-01-01", t:"1895-01-01", d:"__BOSLUK__", kaynak:"Yukarı Kapuas Dayak/Malay yönetimleri — künye yok; Sellato, A.W. Nieuwenhuis Across Borneo (1894–1994) s.3: Putussibau 1894'te var"},
-     {f:"1895-01-01", t:"1949-12-27", d:"hollanda-dogu-hint", kesinlik:"yil", kaynak:"Boven Kapoeas alt bölgesi hükûmet kararı 11 Nis 1895 No.75, ilk kontrolör Westenenk (KalbarOnline'ın aktardığı — akademik teyit bulunamadı, YIL yazıldı)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
+     {f:"1895-01-01",t:"1942-03-09",d:"hollanda-dogu-hint", kesinlik:"yil", kaynak:"Boven Kapoeas alt bölgesi hükûmet kararı 11 Nis 1895 No.75, ilk kontrolör Westenenk (KalbarOnline'ın aktardığı — akademik teyit bulunamadı, YIL yazıldı)"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint", kesinlik:"yil", kaynak:"Boven Kapoeas alt bölgesi hükûmet kararı 11 Nis 1895 No.75, ilk kontrolör Westenenk (KalbarOnline'ın aktardığı — akademik teyit bulunamadı, YIL yazıldı)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
   not:"Dolgu noktası (Putussibau konumu)." },
 
 { ad:"Samarinda", tur:"liman", lat:-0.5, lon:117.15, g:0, k:0, kur:"1668-01-01",
   s:[{f:"1668-01-01", t:"1908-01-01", d:"kutai", kesinlik:"yil", kaynak:"BPCB Kaltim (Endonezya kültür bakanlığı) 'Riwayat Kota Samarinda': 1668 Bugis-Wajo göçmenleri, Kutai sultanının izniyle (21 Oca günü tartışmalı)"},
-     {f:"1908-01-01", t:"1949-12-27", d:"hollanda-dogu-hint", kaynak:"Tenggarong (Kutai) emsali — Samarinda aynı sultanlığın parçası; Black, 'The Lastposten' JSEAS 1985: Doğu Kalimantan'da Hollanda idaresi 1900 kararına dek sözde. Alternatif 11 Eki 1844 antlaşması (ipucu)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
+     {f:"1908-01-01",t:"1942-03-09",d:"hollanda-dogu-hint", kaynak:"Tenggarong (Kutai) emsali — Samarinda aynı sultanlığın parçası; Black, 'The Lastposten' JSEAS 1985: Doğu Kalimantan'da Hollanda idaresi 1900 kararına dek sözde. Alternatif 11 Eki 1844 antlaşması (ipucu)"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint", kaynak:"Tenggarong (Kutai) emsali — Samarinda aynı sultanlığın parçası; Black, 'The Lastposten' JSEAS 1985: Doğu Kalimantan'da Hollanda idaresi 1900 kararına dek sözde. Alternatif 11 Eki 1844 antlaşması (ipucu)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 { ad:"Barito Hulu (bölge)", tur:"bolge", lat:-0.95, lon:114.89, g:0, k:0,
   s:[{f:"1281-01-01", t:"1526-01-01", d:"__BOSLUK__", kaynak:"banjar-sultanligi künyesi 1526'da başlıyor"},
      {f:"1526-01-01", t:"1860-06-11", d:"banjar-sultanligi", kaynak:"IBS 45 s.4: yukarı Barito Bancar'a bağlı 'Dayak eyaletleri'"},
-     {f:"1860-06-11", t:"1949-12-27", d:"hollanda-dogu-hint", kaynak:"IBS 45 s.5: sultanlık 1860'ta düşmüş ilan edildi, doğrudan Hollanda idaresi (Bancarmasin emsali günü); Muara Teweh kalesi 1864–65 (kültür bakanlığı notu)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
+     {f:"1860-06-11",t:"1942-03-09",d:"hollanda-dogu-hint", kaynak:"IBS 45 s.5: sultanlık 1860'ta düşmüş ilan edildi, doğrudan Hollanda idaresi (Bancarmasin emsali günü); Muara Teweh kalesi 1864–65 (kültür bakanlığı notu)"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint", kaynak:"IBS 45 s.5: sultanlık 1860'ta düşmüş ilan edildi, doğrudan Hollanda idaresi (Bancarmasin emsali günü); Muara Teweh kalesi 1864–65 (kültür bakanlığı notu)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
   not:"Dolgu noktası (Muara Teweh konumu). Bancar/Barito direnişi 1859–1905 — egemenlik değişimi değil." },
 
 { ad:"Lifau (Oecussi)", tur:"liman", lat:-9.2056, lon:124.3711, g:0, k:0,
   s:[{f:"1281-01-01", t:"1702-01-01", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları (Ambeno)"},
-     {f:"1702-01-01", t:"1923-10-29", d:"portekiz", kesinlik:"yil", enklav:true, kaynak:"Marques dos Santos (FD-ULisboa): 'em 1702 o primeiro governador português António Coelho Guerreiro se instalou' (Gunn 1695 der — ÇELİŞKİ); 1859 antlaşması md.2 'l'enclave d'Oikoussi demeure Portugaise'; 1914 hakem kararı (UN RIAA vol. XI 481–517 'Affaire de l'île de Timor' (1859 · 1893 · 1904 metinleri, 1914 hakem kararı)) Ambeno-Oecussi Portekiz · enklav: Portekiz'in Timor'daki deniz aşırı merkezi, 1859'dan sonra resmen Oecussi enklavı (RIAA XI)"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
+     {f:"1702-01-01", t:"1923-10-29", d:"portekiz", kesinlik:"yil", enklav:true, kaynak:"Marques dos Santos (FD-ULisboa): 'em 1702 o primeiro governador português António Coelho Guerreiro se instalou' (Gunn 1695 der — ÇELİŞKİ); 1859 antlaşması md.2 'l'enclave d'Oikoussi demeure Portugaise'; 1914 hakem kararı (UN RIAA vol. XI 481–517 'Affaire de l'île de Timor' (1859 · 1893 · 1904 metinleri, 1914 hakem kararı)) Ambeno-Oecussi Portekiz · enklav: Portekiz'in Timor'daki deniz aşırı merkezi, 1859'dan sonra resmen Oecussi enklavı (RIAA XI)"},{f:"1923-10-29",t:"1942-02-24",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1942-02-24",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Portekiz Timoru: Britannica 'Pacific War': Japonlar Timor'u 24 Şubat 1942'ye kadar ele geçirdi ('en geç' tarihi; Dili'nin işgal günü kaynakta ayrıca yok) — bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
   not:"Portekiz merkezi 1769-08-11'de Dili'ye taşındı (yalnız ipucu); 1769–1859 Topass (da Costa/Hornay) yönetimi sözde Portekiz vasalı. Koordinat denetle.py kara maskesi önerisiyle düzeltildi." },
 
 { ad:"Noemuti", tur:"sehir", lat:-9.547, lon:124.464, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1860-08-23", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
      {f:"1860-08-23", t:"1916-01-01", d:"portekiz", kaynak:"1859 antlaşması md.3: Noimuti Oikoussi enklavının parçası (RIAA XI); Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
-     {f:"1916-01-01", t:"1949-12-27", d:"hollanda-dogu-hint", kesinlik:"yil", kaynak:"1904 sözleşmesi (onay 29.10.1908) Hollanda'ya bıraktı, teslim Oecussi ölçümüne ertelendi; Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.100 'Noemuti, Dutch territory since 1916' (17 Ağu 1916 günü yalnız zayıf ipucu)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
+     {f:"1916-01-01",t:"1942-03-09",d:"hollanda-dogu-hint", kesinlik:"yil", kaynak:"1904 sözleşmesi (onay 29.10.1908) Hollanda'ya bıraktı, teslim Oecussi ölçümüne ertelendi; Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.100 'Noemuti, Dutch territory since 1916' (17 Ağu 1916 günü yalnız zayıf ipucu)"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint", kesinlik:"yil", kaynak:"1904 sözleşmesi (onay 29.10.1908) Hollanda'ya bıraktı, teslim Oecussi ölçümüne ertelendi; Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.100 'Noemuti, Dutch territory since 1916' (17 Ağu 1916 günü yalnız zayıf ipucu)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 { ad:"Maucatar", tur:"sehir", lat:-9.237, lon:125.235, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1860-08-23", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
      {f:"1860-08-23", t:"1916-01-01", d:"hollanda-dogu-hint", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Hollanda tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
-     {f:"1916-01-01", t:"1923-10-29", d:"portekiz", kesinlik:"yil", kaynak:"1904 sözleşmesi md.1 'Les Pays-Bas cèdent le Maucatar au Portugal' (RIAA XI); değişim 1916 (Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.101)"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
+     {f:"1916-01-01", t:"1923-10-29", d:"portekiz", kesinlik:"yil", kaynak:"1904 sözleşmesi md.1 'Les Pays-Bas cèdent le Maucatar au Portugal' (RIAA XI); değişim 1916 (Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.101)"},{f:"1923-10-29",t:"1942-02-24",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1942-02-24",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Portekiz Timoru: Britannica 'Pacific War': Japonlar Timor'u 24 Şubat 1942'ye kadar ele geçirdi ('en geç' tarihi; Dili'nin işgal günü kaynakta ayrıca yok) — bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
   not:"Suai'ye bitişik eski Hollanda enklavı." },
 
 { ad:"Atapupu", tur:"liman", lat:-9.0, lon:124.86, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1818-01-01", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi kapanıyor; Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.55–56: İngiliz ara döneminde (1812–16) Portekiz bayrağı — egemen günü BULUNAMADI"},
-     {f:"1818-01-01", t:"1949-12-27", d:"hollanda-dogu-hint", kesinlik:"yil", enklav:true, kaynak:"Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.55–56: Resident Hazaart yeniden işgal etti (1818); s.70: 1890'ların sonunda Hollanda 'Hükûmet Toprağı' · enklav: Kupang'dan bağımsız liurai toprağıyla ayrılmış Hollanda karakolu (Farram s.55–56)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
+     {f:"1818-01-01",t:"1942-03-09",d:"hollanda-dogu-hint", kesinlik:"yil", enklav:true, kaynak:"Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.55–56: Resident Hazaart yeniden işgal etti (1818); s.70: 1890'ların sonunda Hollanda 'Hükûmet Toprağı' · enklav: Kupang'dan bağımsız liurai toprağıyla ayrılmış Hollanda karakolu (Farram s.55–56)"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint", kesinlik:"yil", enklav:true, kaynak:"Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.55–56: Resident Hazaart yeniden işgal etti (1818); s.70: 1890'ların sonunda Hollanda 'Hükûmet Toprağı' · enklav: Kupang'dan bağımsız liurai toprağıyla ayrılmış Hollanda karakolu (Farram s.55–56)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
   not:"Atambua (1910'da tanıklı, yol kasabası) yerine eski liman seçildi." },
 
 { ad:"Niki-Niki", tur:"sehir", lat:-9.823, lon:124.471, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1860-08-23", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
-     {f:"1860-08-23", t:"1949-12-27", d:"hollanda-dogu-hint", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Hollanda tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
+     {f:"1860-08-23",t:"1942-03-09",d:"hollanda-dogu-hint", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Hollanda tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Hollanda tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
   not:"Amanuban merkezi. Fiilî denetim alternatifi: Hollanda kolu 1906-06-14'te Niki-Niki'ye ulaştı (Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.79). Soe/Kefamenanu 1920'lerin yol kasabaları (Farram) — konmadı." },
 
 { ad:"Suai", tur:"sehir", lat:-9.249, lon:125.362, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1860-08-23", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
-     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
+     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1942-02-24",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1942-02-24",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Portekiz Timoru: Britannica 'Pacific War': Japonlar Timor'u 24 Şubat 1942'ye kadar ele geçirdi ('en geç' tarihi; Dili'nin işgal günü kaynakta ayrıca yok) — bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
   not:"1911 sonunda Portekiz komutanı (ipucu)." },
 
 { ad:"Maliana", tur:"sehir", lat:-8.99, lon:125.208, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1860-08-23", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
-     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
+     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1942-02-24",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1942-02-24",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Portekiz Timoru: Britannica 'Pacific War': Japonlar Timor'u 24 Şubat 1942'ye kadar ele geçirdi ('en geç' tarihi; Dili'nin işgal günü kaynakta ayrıca yok) — bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
   not:"Portekiz askerî karakol günü bulunamadı; 1908'de 15 askerî komutanlık (timor-leste.gov.tl)." },
 
 { ad:"Viqueque", tur:"sehir", lat:-8.809, lon:126.322, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1860-08-23", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
-     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}] },
+     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1942-02-24",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1942-02-24",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Portekiz Timoru: Britannica 'Pacific War': Japonlar Timor'u 24 Şubat 1942'ye kadar ele geçirdi ('en geç' tarihi; Dili'nin işgal günü kaynakta ayrıca yok) — bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}] },
 
 { ad:"Baucau", tur:"sehir", lat:-8.479, lon:126.453, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1860-08-23", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
-     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
+     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1942-02-24",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1942-02-24",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Portekiz Timoru: Britannica 'Pacific War': Japonlar Timor'u 24 Şubat 1942'ye kadar ele geçirdi ('en geç' tarihi; Dili'nin işgal günü kaynakta ayrıca yok) — bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
   not:"1908 askerî üs (ipucu)." },
 
 { ad:"Lautém (Moro)", tur:"sehir", lat:-8.358, lon:126.929, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1860-08-23", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},
-     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}] },
+     {f:"1860-08-23", t:"1923-10-29", d:"portekiz", kaynak:"1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması onayları 23.8.1860'ta değişildi"},{f:"1923-10-29",t:"1942-02-24",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1942-02-24",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Portekiz Timoru: Britannica 'Pacific War': Japonlar Timor'u 24 Şubat 1942'ye kadar ele geçirdi ('en geç' tarihi; Dili'nin işgal günü kaynakta ayrıca yok) — bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}] },
 
 { ad:"Toyohara (Vladimirovka)", tur:"sehir", lat:46.957, lon:142.727, g:0, k:0, kur:"1882-01-01",
   s:[{f:"1882-01-01", t:"1905-09-05", d:"rusya", kesinlik:"yil", kaynak:"Sahalin Bölge Bilimsel Kütüphanesi takvimi (calendar.libsakh.ru) olay 850: 1882 (adı Eylül 1882'de verildi)"},
@@ -2700,12 +2700,12 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Merauke", tur:"liman", lat:-8.4932, lon:140.4018, g:1, k:1,
   kur:"1902-02-12",
   kaynak:"J. Kroesen raporu 'Merauke, den 25sten Februari 1902', yeniden basım: A. Overweel, Irian Jaya Source Materials No. 13 (Leiden, 1995), papuaerfgoed.org/sites/default/files/collectie/files/2004-10/Overweel_1995_Topics_13.pdf — gemi 11 Şubat'ta Merauke nehri ağzına demirledi, \"waarbinnen het schip tegen den middag van den volgenden dag … geloodst werd\" (ertesi gün öğlene doğru kurulacak yere çekildi); kışlalara 13'ünde girildi. ⚠️ 12 Şubat kuruluş seferinin YERE VARDIĞI gündür; rapor ayrı bir resmî kuruluş günü vermiyor.",
-  s:[{f:"1902-02-12",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
+  s:[{f:"1902-02-12",t:"1942-03-09",d:"hollanda-dogu-hint"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 { ad:"Fakfak", tur:"liman", lat:-2.9261, lon:132.2961, g:1, k:1,
   kur:"1898-12-01",
   kaynak:"J. Kroesen raporu 'Fakfak, 9 Januari 1899', Overweel 1995 (Irian Jaya Source Materials No. 13): \"Inmiddels werd door den Resident het Bestuur dezer Afdeeling op den 1sten December te Fakfak geïnstalleerd en de Nederlandsche vlag geheschen.\" (1898) — resmî idare kuruluş günü.",
-  s:[{f:"1898-12-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
+  s:[{f:"1898-12-01",t:"1942-03-09",d:"hollanda-dogu-hint"},{f:"1942-03-09",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Hollanda Doğu Hint Adaları: Java'daki Hollanda teslimi (9 Mart 1942, Britannica 'Pacific War'); adalara göre fiilî işgal 1942 Ocak-Mart arası farklı günlerdir — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // --------------------------------------------------------------------
 // YENİ GİNE — Papua (İngiliz Yeni Ginesi → Avustralya 1906-09-01)
@@ -2762,15 +2762,15 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 
 { ad:"Apia", tur:"liman", lat:-13.8345, lon:-171.7631, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
-  neden:"1900 öncesi Samoa (Malietoa krallığı; 1889 Berlin Senedi üçlü tarafsızlık rejimi) için atlasta künye YOK; boşluk kimlik eksikliğidir, sömürge egemenliği değildir.",
+  neden:"1889 öncesi Apia için atlasta künye YOK (Berlin Senedi'nden önceki Samoa tek devlet değildi; yıl-yıl kaynaklı sahiplik bulunamadı). 1889-1900 arası `samoa-kralligi` künyesiyle DOLDURULDU (AVUSTRALYA-II, 29 Ekim 2026).",
   kaynak:"Almanya: Te Papa Tongarewa (collections.tepapa.govt.nz/topic/10134): \"hoisting of the imperial German flag at Mulinu'u Peninsula on the island of Upolu in Samoa on March 1, 1900\". Yeni Zelanda: J. Jennings, 'Pacific Islands', 1914-1918-online (International Encyclopedia of the First World War): \"New Zealand troops landed at Matautu, Apia on 29 August 1914 and took control of German (Western) Samoa without a struggle\"; Britannica 'Samoa': manda 1920. ⚠️ 1914-1920 ASKERÎ işgal; atlasın Alman Yeni Ginesi emsali (Rabaul 1914-09-17 `s:`) izlendi — `isg:` mi `s:` mi hükmü koordinatörde.",
-  s:[{f:"1900-03-01",t:"1914-08-29",d:"almanya"},{f:"1914-08-29",t:"1962-01-01",d:"yeni-zelanda"},{f:"1962-01-01",t:"2000-12-31",d:"bagimsiz-samoa",kaynak:"Britannica 'Samoa'"}] },
+  s:[{f:"1889-01-01",t:"1900-03-01",d:"samoa-kralligi",kesinlik:{f:"yil",t:"gun"},kaynak:"Te Papa Tongarewa, German-Pacific relations: the precolonial period (tepapa.govt.nz) — sayfa AÇILDI: Malietoa Laupepa «recognised as king by the Treaty of Berlin Act in 1889»; Berlin Senedi günü okunamadı (yalnız yıl). Bitiş: Almanya bayrağı 1 Mart 1900 (Te Papa topic/10134)."},{f:"1900-03-01",t:"1914-08-29",d:"almanya"},{f:"1914-08-29",t:"1962-01-01",d:"yeni-zelanda"},{f:"1962-01-01",t:"2000-12-31",d:"bagimsiz-samoa",kaynak:"Britannica 'Samoa'"}] },
 
 { ad:"Pago Pago", tur:"liman", lat:-14.2755, lon:-170.7048, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
-  neden:"1900 öncesi Tutuila için atlasta künye YOK (Samoa krallığı / 1889 Berlin Senedi).",
+  neden:"1889 öncesi Tutuila için atlasta künye YOK. 1889-1900 arası `samoa-kralligi` künyesiyle DOLDURULDU (AVUSTRALYA-II, 29 Ekim 2026); 1900-04-17 sonrası `amerikan-samoasi` tek künyedir (eski `abd` 1900-1923 dönemi, pencere-ucu 1923-10-29 yapaylığıydı, kaldırıldı).",
   kaynak:"Library of Congress kaydı: 'Historical sketch of the naval administration of the Government of American Samoa, April 17, 1900–July 1, 1951'; Tutuila ve Aunu'u devir senedi Pago Pago'da \"on the 17th day of April, 1900, immediately prior to the raising of the United States Flag\" imzalandı; Britannica 'Samoa': \"in 1899 the United States annexed eastern Samoa\" (1899 antlaşması, fiilî devir 1900-04-17).",
-  s:[{f:"1900-04-17",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"2000-12-31",d:"amerikan-samoasi",kaynak:"Britannica 'American Samoa'"}] },
+  s:[{f:"1889-01-01",t:"1900-04-17",d:"samoa-kralligi",kesinlik:{f:"yil",t:"gun"},kaynak:"Te Papa Tongarewa, German-Pacific relations: the precolonial period — Berlin Senedi 1889 (yalnız yıl); bitiş: Tutuila ve Aunu'u devir senedi 17 Nisan 1900 (Library of Congress kaydı, bkz. kaynak)."},{f:"1900-04-17",t:"2000-12-31",d:"amerikan-samoasi",kaynak:"FRUS 1929 I d855 (history.state.gov); Library of Congress devir senedi 17 Nisan 1900"}] },
 
 { ad:"Nauru (Yaren)", tur:"liman", lat:-0.5471, lon:166.9163, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
@@ -2780,15 +2780,15 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 
 { ad:"Papeete", tur:"liman", lat:-17.5374, lon:-149.566, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
-  neden:"1842 öncesi Tahiti (Pomare krallığı) için atlasta künye YOK — boşluk kimlik eksikliğidir.",
+  neden:"1815-11-12 öncesi için kaynaklı sahiplik BULUNAMADI (Papeete'nin kuruluş yılı da bulunamadı). 1815-1842 arası `tahiti` künyesiyle (Pomare krallığı) DOLDURULDU (AVUSTRALYA-II, 29 Ekim 2026).",
   kaynak:"FranceArchives kaydı: \"Demande de protectorat de la reine Pomaré (9 septembre 1842) ; acceptation du protectorat par le contre-amiral Dupetit-Thouars (9 septembre 1842)\" (francearchives.gouv.fr/fr/facomponent/d377de11925f333a01dd935d641b80ee23cb852a) · Archives de la Polynésie française: \"Le 29 juin 1880, Pomare V, dernier souverain de Tahiti, cède les territoires du Protectorat à la France\" · Loi du 30 décembre 1880 (mjp.univ-perp.fr/constit/pf1880.htm). Himaye → sömürge egemen DEĞİŞTİRMEZ (Tulagi emsali: himaye `s:`); 1880 kırılma üretmez. `fransa-cumhuriyet` künyesi 1792 sonrası bütün Fransız rejimlerini kapsar (1842 Temmuz Monarşisi dahil).",
-  s:[{f:"1842-09-09",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
+  s:[{f:"1815-11-12",t:"1842-09-09",d:"tahiti",kesinlik:{f:"ay",t:"gun"},kaynak:"`tahiti` künyesi (Pomare II Te Feipi zaferi, Kasim 1815 — savas gunu kaynaklarda 11-12 Kasim; paulturnbull.org misyoner gunlugu). Bitis: 9 Eylul 1842 himaye (worldstatesmen.org/Fr_Polynesia.html — sayfa ACILDI: 9 Sep 1842 French protectorate)."},{f:"1842-09-09",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
 
 { ad:"Avarua (Rarotonga)", tur:"liman", lat:-21.2075, lon:-159.7708, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
   neden:"1888 öncesi Cook Adaları için künye yok; kaynak susuyor.",
   kaynak:"Britannica 'Cook Islands': \"The British government eventually complied in 1888\" (himaye; YIL hassasiyeti — 27 Eylül/27 Ekim 1888 adayları yalnız Vikipedi'de). NZ: New Zealand Legislation, 'Cook, etc, Islands Boundaries and Inclusion in New Zealand Proclamation 1901' (SR 1901/531, legislation.govt.nz/regulation/imperial/1901/0531/4.0/DLM1101.html): \"do hereby proclaim and appoint 11 June 1901 to be the date on and after which the boundaries of the Colony shall be and be deemed to be extended\".",
-  s:[{f:"1888-01-01",t:"1901-06-11",d:"ingiltere"},{f:"1901-06-11",t:"2000-12-31",d:"yeni-zelanda"}] },
+  s:[{f:"1888-01-01",t:"1901-06-11",d:"ingiltere",kesinlik:{f:"yil",t:"gun"},kaynak:"Başlangıç YIL hassasiyetinde: Britannica «Cook Islands» (1888) ve Te Ara, Pacific Islands and New Zealand (arama özeti: güney adalar 1888'de İngiliz himayesi, High Commissioner of the Western Pacific altında; PacLII Cook Islands legal history). Gün (27 Ekim?) hiçbir hakemli/kurumsal kaynakta bulunamadı. Bitiş: SR 1901/531 bildirisi, 11 Haziran 1901."},{f:"1901-06-11",t:"2000-12-31",d:"yeni-zelanda"}] },
 
 { ad:"Hagåtña (Agaña)", tur:"sehir", lat:13.4748, lon:144.7516, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",
@@ -2835,13 +2835,13 @@ window.YERLESIMLER_A78_OKYANUSYA = [
   kasitli_bosluk:true, bos:"kabile",
   neden:"1795 birleşmesi öncesi: moku/aliʻi sistemi — emsal ve kaynak atlasın 'Hawaii Adaları (Birleşme Öncesi)' kaydı (yerlesimler_ek30.js).",
   kaynak:"Britannica 'Kamehameha I': \"by 1795 had brought all the islands but Kauai and Niihau under his control\" (künye `hawaii-kralligi` f:1795-01-01). ABD: US Office of the Historian (history.state.gov): \"formal U.S. annexation of Hawaii on August 12, 1898\" — atlasın Honolulu kırılmasıyla aynı gün. ⚠️ KÜNYE BOŞLUĞU: 1893-01-17 Geçici Hükümet ve 1894-07-04 Hawaii Cumhuriyeti için atlasta kimlik yok (Hawaii Devlet Arşivi); `hawaii-kralligi` 1893-1898'i de kaplıyor — künye işi, bu kayıt künyeyi izler.",
-  s:[{f:"1795-01-01",t:"1898-08-12",d:"hawaii-kralligi"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
+  s:[{f:"1795-01-01",t:"1893-01-17",d:"hawaii-kralligi"},{f:"1893-01-17",t:"1898-08-12",d:"hawaii-cumhuriyeti",kaynak:"Public Law 103-150 (Apology Resolution), 107 Stat. 1510, govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf (17 Ocak 1893 Geçici Hükümet; 4 Temmuz 1894 Hawaii Cumhuriyeti; 7 Temmuz 1898 Newlands kararı); ABD Dışişleri Tarihçi Ofisi history.state.gov/countries/hawaii (12 Ağustos 1898 resmî ilhak)"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
 
 { ad:"Lahaina", tur:"liman", lat:20.8739, lon:-156.6777, g:1, k:1,
   kasitli_bosluk:true, bos:"kabile",
   neden:"1795 birleşmesi öncesi: moku/aliʻi sistemi — emsal ve kaynak atlasın 'Hawaii Adaları (Birleşme Öncesi)' kaydı (yerlesimler_ek30.js).",
   kaynak:"Britannica 'Kamehameha I': \"by 1795 had brought all the islands but Kauai and Niihau under his control\" (Maui dahil). ABD: US Office of the Historian: \"formal U.S. annexation of Hawaii on August 12, 1898\". ⚠️ 1893-1898 künye boşluğu Hilo kaydında yazılı.",
-  s:[{f:"1795-01-01",t:"1898-08-12",d:"hawaii-kralligi"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
+  s:[{f:"1795-01-01",t:"1893-01-17",d:"hawaii-kralligi"},{f:"1893-01-17",t:"1898-08-12",d:"hawaii-cumhuriyeti",kaynak:"Public Law 103-150 (Apology Resolution), 107 Stat. 1510, govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf (17 Ocak 1893 Geçici Hükümet; 4 Temmuz 1894 Hawaii Cumhuriyeti; 7 Temmuz 1898 Newlands kararı); ABD Dışişleri Tarihçi Ofisi history.state.gov/countries/hawaii (12 Ağustos 1898 resmî ilhak)"},{f:"1898-08-12",t:"2000-12-31",d:"abd"}] },
 
 // --------------------------------------------------------------------
 // YENİ ZELANDA — emsal Auckland (yerlesimler_ek30.js): s yeni-zelanda kur'dan
@@ -2940,33 +2940,33 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Launceston", tur:"sehir", lat:-41.4332, lon:147.1441, g:1, k:1,
   kur:"1806-01-01",
   kaynak:"Companion to Tasmanian History (UTAS), 'Launceston': Paterson'ın aradığı yer \"he found at Riching's Park at the confluence of the Tamar, North and South Esk Rivers. The settlement moved in 1806.\" Britannica 'Launceston': yerleşim George Town'dan (1804) geldi. YIL hassasiyeti.",
-  s:[{f:"1806-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1806-01-01",t:"1825-12-03",d:"yeni-guney-galler"},{f:"1825-12-03",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 // Midlands — Hobart ↔ Launceston köprüsü (Değişmez 7: 162 km'lik kopukluk)
 { ad:"Oatlands (Tazmanya)", tur:"sehir", lat:-42.3, lon:147.37, g:0, k:0,
   kur:"1821-06-03",
   kaynak:"Companion to Tasmanian History (UTAS), 'Oatlands' (Wayback kopyası): \"Oatlands, on the shores of Lake Dulverton, was named and selected as a township by Governor Macquarie on 3 June 1821, and by 1827 a survey and street plan had been laid out by surveyor William Sharland. It quickly became a vital link between Hobart and Launceston\".",
-  s:[{f:"1821-06-03",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1821-06-03",t:"1825-12-03",d:"yeni-guney-galler"},{f:"1825-12-03",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Campbell Town (Tazmanya)", tur:"sehir", lat:-41.93, lon:147.49, g:0, k:0,
   kur:"1821-01-01",
   kaynak:"Companion to Tasmanian History (UTAS), 'Campbell Town' (Wayback kopyası): \"Campbell Town was named by Governor Lachlan Macquarie in 1821 after his wife's family. There was already some European settlement in the area.\" — 1821 ADLANDIRMA yılıdır; bölgede daha önce dağınık yerleşim vardı (ihtiyatlı alt sınır). YIL hassasiyeti.",
-  s:[{f:"1821-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1821-01-01",t:"1825-12-03",d:"yeni-guney-galler"},{f:"1825-12-03",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Devonport (Tazmanya)", tur:"liman", lat:-41.1806, lon:146.3464, g:0, k:0,
   kur:"1850-01-01",
   kaynak:"Companion to Tasmanian History, 'Devonport': \"Devonport originally comprised two small townships which were set aside as reserves in 1850\" (Torquay ve Formby; 1890'da birleşti). YIL hassasiyeti.",
-  s:[{f:"1850-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1850-01-01",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Burnie", tur:"liman", lat:-41.0526, lon:145.9061, g:0, k:0,
   kur:"1827-01-01",
   kaynak:"Companion to Tasmanian History, 'Burnie': \"Burnie, on the shores of Emu Bay, was first settled in 1827 by the Van Diemen's Land Company's chief surveyor, Henry Hellyer\". YIL hassasiyeti.",
-  s:[{f:"1827-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1827-01-01",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"St Helens (Tazmanya)", tur:"sehir", lat:-41.32, lon:148.24, g:0, k:0,
   kur:"1834-01-01",
   kaynak:"Companion to Tasmanian History, 'St Helens': \"In 1833 a whale fishery was established at Binalong Bay… The next year St Helens received its name, when a military station was established…\" ⚠️ Tarih ADLANDIRMA + askerî istasyon yılıdır, kasaba ilanı değil. YIL hassasiyeti.",
-  s:[{f:"1834-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1834-01-01",t:"1901-01-01",d:"van-diemens-land"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 // --------------------------------------------------------------------
 // AVUSTRALYA — iç kesim ve kıyı boşlukları · emsal: ingiltere → 1901 avustralya
@@ -2977,12 +2977,12 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Hermannsburg (Ntaria)", tur:"sehir", lat:-23.943, lon:132.778, g:0, k:0,
   kur:"1877-01-01",
   kaynak:"NT Place Names Register (Northern Territory Government), kayıt 22429: \"Hermannsburg was established by Lutheran Missionaries in 1877.\" YIL hassasiyeti.",
-  s:[{f:"1877-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1877-01-01",t:"1911-01-01",d:"kuzey-bolgesi-sa"},{f:"1911-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Katherine", tur:"sehir", lat:-14.465, lon:132.2635, g:0, k:0,
   kur:"1871-01-01",
   kaynak:"Britannica 'Katherine': \"The town began as a repeater station for the Overland Telegraph Line, which reached the site in 1871.\" YIL hassasiyeti.",
-  s:[{f:"1871-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1871-01-01",t:"1911-01-01",d:"kuzey-bolgesi-sa"},{f:"1911-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Coober Pedy", tur:"sehir", lat:-29.0135, lon:134.7544, g:0, k:0,
   kur:"1915-01-01",
@@ -2997,47 +2997,47 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Norseman", tur:"sehir", lat:-32.2, lon:121.7833, g:0, k:0,
   kur:"1895-05-01",
   kaynak:"Landgate (WA), 'History of country town names — Norseman': \"The townsite was gazetted in May 1895.\" AY hassasiyeti (D213: 05-01 ayı kodlar).",
-  s:[{f:"1895-05-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1895-05-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Menzies (Batı Avustralya)", tur:"sehir", lat:-29.6833, lon:121.0333, g:0, k:0,
   kur:"1895-08-01",
   kaynak:"Landgate (WA), 'History of country town names — Menzies': \"The townsite was gazetted in August 1895.\" AY hassasiyeti.",
-  s:[{f:"1895-08-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1895-08-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Mount Magnet", tur:"sehir", lat:-28.0667, lon:117.85, g:0, k:0,
   kur:"1895-01-01",
   kaynak:"Landgate (WA), 'History of country town names — Mount Magnet': \"the survey was carried out in 1894 and the townsite gazetted in 1895.\" YIL hassasiyeti.",
-  s:[{f:"1895-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1895-01-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Port Hedland", tur:"liman", lat:-20.3143, lon:118.5864, g:0, k:0,
   kur:"1896-01-01",
   kaynak:"Landgate (WA), 'History of country town names — Port Hedland': \"Following the survey of lots the townsite of Port Hedland was gazetted in 1896.\" YIL hassasiyeti.",
-  s:[{f:"1896-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1896-01-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Albany (Batı Avustralya)", tur:"liman", lat:-35.0228, lon:117.8814, g:1, k:1,
   kur:"1826-12-25",
   kaynak:"Western Australian Museum, 'The story of the Brig Amity': Lockyer'in seferi King George Sound'a \"…on Christmas Day, December the 25th 1826\" ulaştı. Britannica 'Albany': \"In 1826 the first European settlement in the state… Frederickstown… was established there\".",
-  s:[{f:"1826-12-25",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1826-12-25",t:"1831-03-07",d:"yeni-guney-galler"},{f:"1831-03-07",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Bunbury", tur:"liman", lat:-33.3271, lon:115.6414, g:0, k:0,
   kur:"1841-01-01",
   kaynak:"Heritage Council of WA (inHerit), 'Bunbury Bathing Pavilion': \"The townsite of Bunbury was surveyed and gazetted in 1841.\" YIL hassasiyeti.",
-  s:[{f:"1841-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1841-01-01",t:"1901-01-01",d:"bati-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Cooktown", tur:"liman", lat:-15.465, lon:145.25, g:1, k:1,
   kur:"1873-10-25",
   kaynak:"Queensland Parks and Wildlife Service, 'Endeavour River National Park — Culture and history': \"Cooktown (initially called Cook's Town) was established when a party… landed on the south bank of the Endeavour River on 25 October 1873\". Queensland Places: 1 Haziran 1874'te Cooktown adını aldı.",
-  s:[{f:"1873-10-25",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1873-10-25",t:"1901-01-01",d:"queensland"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Thursday Island (Port Kennedy)", tur:"liman", lat:-10.5679, lon:142.2148, g:1, k:1,
   kur:"1878-01-01",
   kaynak:"Queensland Places (University of Queensland), 'Thursday Island': \"In 1878 Port Kennedy, Thursday Island, was settled…\" YIL hassasiyeti.",
-  s:[{f:"1878-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1878-01-01",t:"1901-01-01",d:"queensland"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Weipa Misyonu", tur:"sehir", lat:-12.6759, lon:141.8851, g:0, k:0,
   kur:"1898-01-01",
   kaynak:"Queensland Places, 'Weipa': \"Weipa was established as an Aboriginal mission by the Presbyterian Church in 1898…\" YIL hassasiyeti. ⚠️ Koordinat misyon/Napranum alanı için YAKLAŞIK.",
-  s:[{f:"1898-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1898-01-01",t:"1901-01-01",d:"queensland"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Oenpelli (Gunbalanya)", tur:"sehir", lat:-12.325, lon:133.056, g:0, k:0,
   kur:"1906-01-01",
@@ -3052,7 +3052,24 @@ window.YERLESIMLER_A78_OKYANUSYA = [
 { ad:"Mount Gambier", tur:"sehir", lat:-37.8284, lon:140.7804, g:1, k:1,
   kur:"1854-01-01",
   kaynak:"Britannica 'Mount Gambier': \"A private settlement called Gambier Town was founded in 1854 there by Hastings Cuningham\". ⚠️ State Library of SA (Manning) Sturt'ün daha önce 'Gambierton'ı çizdiğini, Cunningham'ın 'bazen yanlışlıkla' kurucu sayıldığını söylüyor (tarihsiz) — kasaba 1854'ten ÖNCE de olabilir; 1854 ihtiyatlı alt sınır.",
-  s:[{f:"1854-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+  s:[{f:"1854-01-01",t:"1901-01-01",d:"guney-avustralya"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
+
+// ----------------------------------------------------------------------
+// AVUSTRALYA-II (29 Ekim 2026): YENİ HEBRİDLER / VANUATU ve YENİ ZELANDA BİRLEŞİK KABİLELERİ
+// ----------------------------------------------------------------------
+
+{ ad:"Port Vila", tur:"liman", lat:-17.7334, lon:168.3273, g:1, k:1,
+  kasitli_bosluk:true, bos:"veri-yok",
+  neden:"Port Vila'nın kuruluş yılı BULUNAMADI; 1906 Sözleşmesi'nden önce adalar tek devletin değildi (Anglo-Fransız Ortak Deniz Komisyonu dönemi 1887-1906 künyeye alınmadı). Koordinat gazete (OSM/GeoNames) değeridir, KAYNAKLI DEĞİL.",
+  kaynak:"Yeni Hebridler Kondominyumu: UK Parlamentosu antlaşma kaydı (20 Ekim 1906, arama özeti) ve ANU Press (Woodward, A Political Memoir of the Anglo-French Condominium of the New Hebrides); Vanuatu bağımsızlığı: Office of the Historian, Vanuatu (history.state.gov/countries/vanuatu) — sayfa AÇILDI: «gained its independence on July 30, 1980».",
+  s:[{f:"1906-10-20",t:"1980-07-30",d:"yeni-hebridler-kondominyumu"},{f:"1980-07-30",t:"2000-12-31",d:"vanuatu",kaynak:"Office of the Historian, Vanuatu"}] },
+
+{ ad:"Waitangi (Bay of Islands)", tur:"kasaba", lat:-35.268, lon:174.079, g:1, k:1,
+  kasitli_bosluk:true, bos:"veri-yok",
+  neden:"1835 öncesi için kaynaklı sahiplik BULUNAMADI (Northland iwi/hapu özerkti, ortak devlet yoktu); yerin kuruluş yılı da bulunamadı. Koordinat mevcut kronoloji maddesinden (kronoloji_ingiltere, yer_kon) alındı, KAYNAKLI DEĞİL.",
+  kaynak:"DigitalNZ 32375930 / Archives New Zealand IA9-1 (digitalnz.org/records/32375930) — sayfa AÇILDI: He Whakaputanga 28 Ekim 1835, Waitangi'de 34 rangatira. Waitangi Antlaşması 6 Şubat 1840 (mevcut kronoloji_ingiltere maddesi).",
+  s:[{f:"1835-10-28",t:"1840-02-06",d:"yeni-zelanda-birlesik-kabileler"},{f:"1840-02-06",t:"2000-12-31",d:"yeni-zelanda"}] },
+
 
 ];
 

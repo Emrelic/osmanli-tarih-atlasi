@@ -141,7 +141,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Eğri kalesi Osmanlı kuşatmasına dayandı ve savunma, Macar-Habsburg tarafında bir kahramanlık anlatısına dönüştü. Kale 1596'ya kadar Habsburg elinde kaldı.",
   kaynak:"depo savaslar.js (1552-09-04)" },
 
-{ t:"1555-01-01", b:"Augsburg Din Barışı — Ferdinand'ın uzlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"ic", yer_id:"",
+{ t:"1555-09-25", b:"Augsburg Din Barışı — Ferdinand'ın uzlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["din","diplomasi","anayasa","konu-diplomasi","konu-din","konu-islahat","konu-hukuk"],
   d:"Ferdinand'ın imparatorluk meclisiyle müzakere ettiği barış, Protestanlara mülklerini ve serbest ibadeti güvence altına aldı. Ağabeyi Şarlken'in uzlaşmaz çizgisinin aksine Ferdinand pragmatik davrandı; bu tercih Habsburg topraklarında mezhep savaşını yarım yüzyıl erteledi.",
   kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer der österreichischen Monarchie der Habsburger': Ferdinand 1555'te Augsburg barışını müzakere etti, Protestanlara mülk ve serbest ibadet güvencesi · Dikkat: gün DOĞRULANMADI", yer_id:"Augsburg" },
@@ -949,7 +949,7 @@ window.KRONOLOJI_RUSYA = [
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 
 // === E) I. PETRO (1682-1725) =================================================
-{ t:"1689-09-07", b:"Nerçinsk Antlaşması — Çin ile ilk sınır anlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis",
+{ t:"1689-09-06", ic_not_takvim:"Jülyen 27 Ağustos 1689 (Rus kaynakları; en.wikipedia Treaty of Nerchinsk, prlib.ru) = Gregoryen 6 Eylül 1689 (+10 gün); ÇELİŞKİ BEYANI: Çince kaynaklar (康熙二十八年七月二十四日 = 7 Eylül 1689; 163.com, udn blog — akademik değil) 7 Eylül verir; Rus Jülyen 27 Ağustos+10 = 6 Eylül. 1 günlük fark çözülemedi; yerleşim s: sınırlarıyla (09-06) birleştirildi, Çin akademik teyidi (Qing Shilu/Zhongguo Dang'an) aranacak", b:"Nerçinsk Antlaşması — Çin ile ilk sınır anlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis",
   etiket:["antlasma","toprak","konu-askeri","konu-diplomasi"],
   yer_id:"Nerçinsk",
   d:"Rusya ile Çin Mançu (Qing) İmparatorluğu arasında imzalanan antlaşma, Amur Nehri havzasındaki sınırı belirledi; Rusya'nın Uzak Doğu'daki genişlemesinin ilk hukuki sınırlaması ve Avrupa dışı bir güçle imzalanan ilk büyük antlaşmasıydı.",
@@ -2969,7 +2969,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["askeri","savas","konu-askeri"],
   d:"[Safevî] Kanûnî Sultan Süleyman'ın Irakeyn Seferi'yle başlayan uzun savaş, Bağdat'ın Osmanlı'ya geçmesi (1534) ve yirmi yılı aşan aralıklı çatışmalarla sürdü; Amasya Antlaşması'yla (1555) sona erdi.",
   kaynak:"amasya-antlasmasi (TDV, doğrulanmış — data/olaylar*.js kullanıyor)", yer_id:"Bağdat" },
-{ t:"1534-12-04", b:"Bağdat Osmanlı'ya geçti", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
+{ t:"1534-11-28", b:"Bağdat Osmanlı'ya geçti", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","kayip","konu-askeri"],
   d:"[Safevî] Kanûnî'nin Irakeyn Seferi'nde Bağdat'ın alınması, Şah İsmail'in 1508'de kazandığı Mezopotamya topraklarının kalıcı olarak kaybedilmesi anlamına geliyordu; Bağdat bir daha (kısa 17. yy aralıkları dışında) İran'a dönmedi.",
   kaynak:"amasya-antlasmasi (TDV, doğrulanmış)", yer_id:"Bağdat" },
@@ -3045,7 +3045,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["askeri","kayip","konu-askeri"],
   d:"[Safevî] Mahmud Hotakî önderliğindeki az sayıdaki Afgan kuvveti, sayıca çok üstün ama çürümüş Safevî ordusunu İsfahan yakınlarında Gülnâbâd'da bozguna uğrattı; bu yenilgi başkentin altı aylık kuşatmasının ve Safevî devletinin fiilî sonunun doğrudan kapısını açtı.",
   kaynak:"Encyclopaedia Iranica, madde: MAḤMUD ḠALZAY", yer_id:"Isfahan" },
-{ t:"1722-10-23", b:"İsfahan düştü — Safevî Devleti fiilen sona erdi", tur:"son", onem:5, dunya:4, kapsam:"ic",
+{ t:"1722-11-10", b:"İsfahan düştü — Safevî Devleti fiilen sona erdi", tur:"son", ic_not_gun:"TDV safeviler 10 Kasım 1722 (safevi künyesiyle aynı gün). ÇELİŞKİ: Iranica (arama özeti, tam metin 403) teslimi 21 Ekim, Mahmud Hotakî girişini 25 Ekim, Şah Hüseyin tahttan inişini 23 Ekim 1722 verir (eski atlas değeri 1722-10-23). TDV esas; gün tam metinle yeniden teyit edilmeli.", onem:5, dunya:4, kapsam:"ic",
   etiket:["askeri","kayip","konu-askeri","konu-siyasi"],
   d:"[Safevî] Altı aylık açlık kuşatmasının ardından Şah Sultan Hüseyin tacını Afgan lideri Mahmud'a teslim etti; 221 yıllık Safevî hânedanı fiilen sona erdi (nominal hânedan üyeleri 1736'ya kadar çeşitli yerlerde varlığını sürdürdü). İran tarihyazımında bu, ülke tarihinin en travmatik çöküşlerinden biri — bir asır süren Osmanlı-Rus-Afgan işgalleri döneminin başlangıcı ve dünya sisteminde de bölgesel güç dengesini kalıcı olarak sarsan bir devlet çöküşüdür.",
   kaynak:"Encyclopaedia Iranica, madde: ṢAFAVID DYNASTY", yer_id:"Isfahan" },
@@ -3081,7 +3081,7 @@ window.KRONOLOJI_IRAN = [
   kaynak:"Encyclopaedia Iranica, madde: KARIM KHAN ZAND", kapsam_genis:true },
 
 // === H) ZEND HÂNEDANI (1750-1796) ============================================
-{ t:"1765-01-01", b:"Şîraz başkent yapıldı — Zend \"altın çağı\"", gun:"1765", ic_not_gun:"1765 — yıl hassasiyeti · TDV `zendler`, `ilhanlilar`, `safeviler`, `kacarlar` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:3, dunya:1, kapsam:"ic",
+{ t:"1765-01-01", b:"Şîraz başkent yapıldı — Zend \"altın çağı\"", gun:"1765", ic_not_gun:"1765 (ÇELİŞKİ beyanı: TDV zendler 1180 h. / 1766-67; Iranica arama özeti 2 Safer 1179 = 21 Temmuz 1765; atlas 1765 tutar) — yıl hassasiyeti · TDV `zendler`, `ilhanlilar`, `safeviler`, `kacarlar` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:3, dunya:1, kapsam:"ic",
   etiket:["idari","kultur","konu-idari","konu-kultur"],
   d:"[Zend] Kerim Han, başkentini doğduğu şehir Şîraz'a taşıyıp Vekîl Camii, Vekîl Çarşısı gibi eserlerle imar etti; 1750-1779 arası nispeten istikrarlı ve barışçıl Zend dönemi, Safevî çöküşü ve Kaçar iç savaşları arasında kısa bir refah aralığı sayılır.",
   kaynak:"Encyclopaedia Iranica, madde: KARIM KHAN ZAND", yer_id:"Şiraz" },
@@ -3287,7 +3287,12 @@ window.KRONOLOJI_IRAN = [
   etiket:["siyaset","konu-siyasi"],
   d:"[Afşar] Nadir Şah, kendisine suikast girişiminden şüphelendiği veliaht oğlu Rıza Kulı Mirza'yı kör ettirdi; bu olay Nadir'in son yıllarındaki artan zulüm ve paranoyanın dönüm noktası, hânedanın ardıl krizinin de doğrudan sebebi sayılır.",
   kaynak:"Encyclopaedia Iranica, madde: NADIR SHAH AFSHAR", yer_id:"Derbend" },
-{ t:"1775-04-16", b:"Zend, Basra'yı kuşattı ve ele geçirdi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
+
+{ t:"1775-04-16", b:"Zend kuvvetleri (Sâdık Han) Basra'yı kuşattı", tur:"savas", onem:3, dunya:2, kapsam:"dis",
+  etiket:["askeri","savas","konu-askeri"],
+  d:"[Zend] Kerim Han'ın kardeşi Sadık Han komutasındaki Zend ordusu, Osmanlı'ya ait Basra'yı uzun bir kuşatmanın ardından kuşattı; şehir 1776'da düşüp dört yıl (1779'a kadar) Zend idaresinde kaldı — Nadir Şah sonrası İran'ın hâlâ bölgesel bir askerî güç olduğunu gösteren nadir örneklerden biri.",
+  kaynak:"Encyclopaedia Iranica, madde: KARIM KHAN ZAND", yer_id:"Basra" },
+{ t:"1776-04-16", b:"Zend, Basra'yı ele geçirdi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   d:"[Zend] Kerim Han'ın kardeşi Sadık Han komutasındaki Zend ordusu, Osmanlı'ya ait Basra'yı uzun bir kuşatmanın ardından ele geçirdi; şehir dört yıl (1779'a kadar) Zend idaresinde kaldı — Nadir Şah sonrası İran'ın hâlâ bölgesel bir askerî güç olduğunu gösteren nadir örneklerden biri.",
   kaynak:"Encyclopaedia Iranica, madde: KARIM KHAN ZAND", yer_id:"Basra" },

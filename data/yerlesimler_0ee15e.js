@@ -86,7 +86,8 @@ window.YERLESIMLER_0EE15E = [
 //         (Lima/Havana ile aynı tier).
 
 { ad:"Panamá (Panama City)", tur:"sehir", lat:8.9824, lon:-79.5199, g:1, k:1, kur:"1519-08-15",
-  s:[{f:"1519-08-15",t:"1821-11-28",d:"ispanyol-peru"},
+  s:[{f:"1519-08-15",t:"1542-11-20",d:"ispanya"},
+     {f:"1542-11-20",t:"1821-11-28",d:"ispanyol-peru"},
      {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
      {f:"1903-11-03",t:"2000-12-31",d:"panama-cumhuriyeti"}] },
@@ -125,7 +126,7 @@ window.YERLESIMLER_0EE15E = [
 //         güzergâh) — k:1, Havana ile aynı tier.
 
 { ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1919, lon:-79.9009, g:1, k:1, kur:"1538-01-01",
-  s:[{f:"1538-01-01",t:"1822-05-24",d:"ispanyol-peru"},
+  s:[{f:"1538-01-01",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1822-05-24",d:"ispanyol-peru"},
      {f:"1822-05-24",t:"1830-05-13",d:"gran-kolombiya"},
      {f:"1830-05-13",t:"2000-12-31",d:"ekvador-cumhuriyeti"}] },
 // 🔴 KAYNAKLAR ÇELİŞİYOR — M-0423 gereği ikinci kaynak arandı, DOĞRULAMADI,

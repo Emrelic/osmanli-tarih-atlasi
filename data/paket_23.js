@@ -175,13 +175,13 @@ window.YERLESIMLER_P0037 = [
 // Kongre Lehistanı parçası (1795 Avusturya · 1809 Varşova Dukalığı · 1815 Rusya · 1918 Polonya)
 { ad:"Lublin", tur:"sehir", lat:51.2465, lon:22.5684, g:1, k:3,
   // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A-0911.json).
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1939-10-06",d:"polonya"},{f:"1939-10-06",t:"1945-01-17",d:"polonya-genel-hukumeti",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1945-01-17",t:"1989-12-31",d:"polonya-halk",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1989-12-31",t:"2000-12-31",d:"polonya-iii-cumhuriyet",kaynak:"Britannica 'Poland'; LoC Poland Country Study"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1915-08-01",d:"kongre-polonyasi",kesinlik:"ay",kaynak:"AY DÜZEYİ (Ağustos 1915; gün kaynaklanmadı — Chełm ve Radom’daki KASA-POLONYA-1005 ay düzeyiyle aynı) · 1914-1918-Online (International Encyclopedia of the First World War), 'Occupation during and after the War (Austria-Hungary)' (encyclopedia.1914-1918-online.net/article/Occupation_during_and_after_the_War_(Austria-Hungary)): Lehistan’ın Rus parçası Gorlice-Tarnów sonrası Varşova’da Alman idaresi ile ‘Militär-Generalgouvernement Lublin’ (Avusturya-Macaristan) arasında bölündü; MGG Lublin 1915-1918 askerî bir rejimdi · LEHISTAN-KRON 28 Ekim 2026"},{f:"1915-08-01",t:"1918-11-11",d:"avusturya",kesinlik:"ay",kaynak:"1914-1918-Online (International Encyclopedia of the First World War), 'Occupation during and after the War (Austria-Hungary)' (encyclopedia.1914-1918-online.net/article/Occupation_during_and_after_the_War_(Austria-Hungary)): Lehistan’ın Rus parçası Gorlice-Tarnów sonrası Varşova’da Alman idaresi ile ‘Militär-Generalgouvernement Lublin’ (Avusturya-Macaristan) arasında bölündü; MGG Lublin 1915-1918 askerî bir rejimdi · BEYAN: Askerî Genel Valilik 3 Kasım 1918’de çekilirken Polonya idaresi 11 Kasım 1918’de yazıldı (Chełm ile aynı); eski kayıt Lublin’i 1915-18’de Rus/Sovyet gösteriyordu · LEHISTAN-KRON 28 Ekim 2026"},{f:"1918-11-11",t:"1939-10-06",d:"polonya"},{f:"1939-10-06",t:"1945-01-17",d:"polonya-genel-hukumeti",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1945-01-17",t:"1989-12-31",d:"polonya-halk",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1989-12-31",t:"2000-12-31",d:"polonya-iii-cumhuriyet",kaynak:"Britannica 'Poland'; LoC Poland Country Study"}],
   d:[],
   kaynak:"TDV `lehistan` gövdesi çekilemedi (§4 ④ boilerplate), `lublin` 302. Dayanak: Norman Davies, God's Playground: A History of Poland (Oxford UP) — üçüncü taksim 24 Ekim 1795 (Batı Galiçya, Avusturya), Schönbrunn 14 Ekim 1809 (Varşova Dukalığı'na), Viyana Nihaî Senedi 9 Haziran 1815 (Kongre Lehistanı, Rusya). Koordinat: kronoloji_lehistan.js'teki eksik_nokta kaydıyla aynı. 1917-1918 kuyruğu Varşova kaydının deseni." },
 
 { ad:"Chełm (Kholm)", tur:"sehir", lat:51.1431, lon:23.4716, g:0, k:4, m:"Lublin",
   // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A-0911.json).
-  s:[{f:"1237-01-01",t:"1281-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Chełm 1237-1281: Galiçya-Volhinya Knezliği (galicya-volhinya, 1199-1340, BOYALAR dışı) başkenti, 1272'ye dek; sonra Kholm apanaj knezliği. Internet Encyclopedia of Ukraine (CIUS), Kholm maddesi (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKholm.htm; ham metin ham/da_eu_kholm.txt; TDV dışı kaynak, elle doğrulama bekler): «In 1237 Prince Danylo Romanovych of Volhynia built a castle there» ; Internet Encyclopedia of Ukraine (CIUS), Kholm maddesi (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKholm.htm; ham metin ham/da_eu_kholm.txt; TDV dışı kaynak, elle doğrulama bekler): «As the capital of the Principality of Galicia-Volhynia (until 1272) and then of an appanage Kholm principality» · VERI-MS1-1281"},{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1915-08-01",d:"kongre-polonyasi",kaynak:"KASA-POLONYA-1005 · AY DÜZEYİ (Ağustos 1915; gün kaynaklanmadı) — Chełmska Biblioteka Publiczna monografisi"},{f:"1915-08-01",t:"1918-11-11",d:"avusturya",kaynak:"KASA-POLONYA-1005 · AY DÜZEYİ (Ağustos 1915; gün kaynaklanmadı) — Chełmska Biblioteka Publiczna monografisi"},{f:"1918-11-11",t:"1939-10-06",d:"polonya"},{f:"1939-10-06",t:"1945-01-17",d:"polonya-genel-hukumeti",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1945-01-17",t:"1989-12-31",d:"polonya-halk",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1989-12-31",t:"2000-12-31",d:"polonya-iii-cumhuriyet",kaynak:"Britannica 'Poland'; LoC Poland Country Study"}],
+  s:[{f:"1237-01-01",t:"1340-01-01",d:"galicya-volhinya",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Kholm' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKholm.htm): 1237’de Knez Danylo Romanoviç Kholm’da kale kurdu; Galiçya-Volhinya başkenti (1272’ye dek), sonra Kholm apanaj knezliği; künye galicya-volhinya 1199-1340 · yıl düzeyi (BEYANLI) · LEHISTAN-KRON 28 Ekim 2026 (eski BOŞLUK 1237-1281 + polonya-erken 1281-1340 yerine)"},{f:"1340-01-01",t:"1569-07-01",d:"polonya-erken",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Kholm' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKholm.htm): ‘suffered greatly during the Lithuanian-Polish-Hungarian wars for control of Galicia-Volhynia’; 1387’de Polonya’ya katıldı (‘annexed by Poland’), 1392 Magdeburg hakları, 1484 Rus voyvodalığına bağlandı. BEYANLI YAKLAŞIKLIK: 1340-1387 arası el değiştirmeler (Polonya/Litvanya/Macaristan) kaynakta dilimlenmiyor; dilim Polonya’ya yazıldı · LEHISTAN-KRON 28 Ekim 2026"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1915-08-01",d:"kongre-polonyasi",kaynak:"KASA-POLONYA-1005 · AY DÜZEYİ (Ağustos 1915; gün kaynaklanmadı) — Chełmska Biblioteka Publiczna monografisi"},{f:"1915-08-01",t:"1918-11-11",d:"avusturya",kaynak:"KASA-POLONYA-1005 · AY DÜZEYİ (Ağustos 1915; gün kaynaklanmadı) — Chełmska Biblioteka Publiczna monografisi"},{f:"1918-11-11",t:"1939-10-06",d:"polonya"},{f:"1939-10-06",t:"1945-01-17",d:"polonya-genel-hukumeti",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1945-01-17",t:"1989-12-31",d:"polonya-halk",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1989-12-31",t:"2000-12-31",d:"polonya-iii-cumhuriyet",kaynak:"Britannica 'Poland'; LoC Poland Country Study"}],
   d:[],
   kaynak:"Lublin kaydıyla aynı dayanak (N. Davies, God's Playground); 1281-1340 Halic-Volhinya dönemi külliyatın deseni gereği (Lvov kaydı gibi) `lehistan` altında sadeleştirildi. Koordinat: coğrafî bilgi." },
 
@@ -192,43 +192,43 @@ window.YERLESIMLER_P0037 = [
 
 // Prusya payı → Tilsit'le Rusya (1807)
 { ad:"Białystok", tur:"sehir", lat:53.1325, lon:23.1688, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1807-07-09",d:"prusya"},{f:"1807-07-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1939-10-06",d:"polonya"},{f:"1939-10-06",t:"1945-01-17",d:"polonya-genel-hukumeti",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1945-01-17",t:"1989-12-31",d:"polonya-halk",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1989-12-31",t:"2000-12-31",d:"polonya-iii-cumhuriyet",kaynak:"Britannica 'Poland'; LoC Poland Country Study"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1807-07-09",d:"prusya"},{f:"1807-07-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1939-09-01",d:"polonya",kesinlik:"ay",kaynak:"USHMM Holocaust Encyclopedia, 'Białystok' (encyclopedia.ushmm.org/content/en/article/bialystok): ‘Soviet forces entered Bialystok in September 1939, and held it until the German army occupied the city in June 1941’; ‘The Soviet army drove the Germans out of Bialystok in July 1944’ (gün verilmez, ay düzeyi) · Sovyet girişi Eylül 1939’da (ay düzeyi; 1939-09-01) · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt Białystok’u 1939-45 ‘polonya-genel-hukumeti’ yazıyordu; şehir Generalgouvernement’ta olmadı)"},{f:"1939-09-01",t:"1941-06-01",d:"sovyet-rusya",kesinlik:"ay",kaynak:"USHMM Holocaust Encyclopedia, 'Białystok' (encyclopedia.ushmm.org/content/en/article/bialystok): ‘Soviet forces entered Bialystok in September 1939, and held it until the German army occupied the city in June 1941’; ‘The Soviet army drove the Germans out of Bialystok in July 1944’ (gün verilmez, ay düzeyi) · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt Białystok’u 1939-45 ‘polonya-genel-hukumeti’ yazıyordu; şehir Generalgouvernement’ta olmadı)"},{f:"1941-06-01",t:"1944-07-01",d:"almanya",kesinlik:"ay",kaynak:"USHMM Holocaust Encyclopedia, 'Białystok' (encyclopedia.ushmm.org/content/en/article/bialystok): ‘Soviet forces entered Bialystok in September 1939, and held it until the German army occupied the city in June 1941’; ‘The Soviet army drove the Germans out of Bialystok in July 1944’ (gün verilmez, ay düzeyi) · BEYAN: Białystok Bölgesi (Bezirk Bialystok) 1941 Temmuz’unda Doğu Prusya’ya bağlandı (Generalgouvernement değil); iki ay düzeyi sınırın arası ayrıca dilimlenmedi · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt Białystok’u 1939-45 ‘polonya-genel-hukumeti’ yazıyordu; şehir Generalgouvernement’ta olmadı)"},{f:"1944-07-01",t:"1945-01-17",d:"sovyet-rusya",kesinlik:"ay",kaynak:"USHMM Holocaust Encyclopedia, 'Białystok' (encyclopedia.ushmm.org/content/en/article/bialystok): ‘Soviet forces entered Bialystok in September 1939, and held it until the German army occupied the city in June 1941’; ‘The Soviet army drove the Germans out of Bialystok in July 1944’ (gün verilmez, ay düzeyi) · BEYAN: Temmuz 1944’ten sonra Polonya idaresinin (PKWN) kuruluşu ayrıca dilimlenmedi, polonya-halk 1945-01-17’de başlar (eski kayıtla uyumlu) · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt Białystok’u 1939-45 ‘polonya-genel-hukumeti’ yazıyordu; şehir Generalgouvernement’ta olmadı)"},{f:"1945-01-17",t:"1989-12-31",d:"polonya-halk",kaynak:"Britannica 'Poland'; LoC Poland Country Study"},{f:"1989-12-31",t:"2000-12-31",d:"polonya-iii-cumhuriyet",kaynak:"Britannica 'Poland'; LoC Poland Country Study"}],
   d:[],
   kaynak:"N. Davies, God's Playground: üçüncü taksimde Prusya'ya (Yeni Doğu Prusya), Tilsit (9 Temmuz 1807 — kronoloji_almanya.js'te maddeli) ile Rusya'ya (Belostok oblastı). Prusya külliyatta Varşova kaydının deseniyle `almanya` kimliğinde. 1918-11-11 Polonya günü Varşova'nın deseni (fiilî Polonya girişi Şubat 1919 — ay farkı bilinçli, külliyat günü tercih edildi). Koordinat: coğrafî bilgi." },
 
 // Litvanya Büyük Dukalığı / Volhinya payı → 1795 Rusya → Riga 1921 Polonya
 { ad:"Brest-Litovsk", tur:"kale", lat:52.0975, lon:23.6877, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Belarus' (Bati Belarus Kasim 1939'da katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"belarus",kaynak:"Britannica 'Belarus'"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-08-25",d:"sovyet-rusya",kaynak:"Britannica 'Belarus' (Bati Belarus Kasim 1939'da katildi)"},{f:"1991-08-25",t:"2000-12-31",d:"belarus",kaynak:"Britannica 'Belarus'"}],
   d:[],
   kaynak:"N. Davies, God's Playground: üçüncü taksim (24 Ekim 1795) ile Rusya; Riga Antlaşması (18 Mart 1921) ile Polonya. TDV `brest` 302. 1918 Brest-Litovsk Antlaşması'nın Alman işgali (1915-1918) `isg:` olarak YAZILMADI — bu partinin kapsamı dışı, kayda geçiyor. Koordinat: coğrafî bilgi. Ad `Brest-Litovsk` seçildi çünkü külliyatta Fransa'daki `Brest` var (ad çakışması girdi.py'de HATA)." },
 
 { ad:"Pinsk", tur:"sehir", lat:52.1150, lon:26.1030, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Belarus' (Bati Belarus Kasim 1939'da katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"belarus",kaynak:"Britannica 'Belarus'"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya",kesinlik:"gun",kaynak:"Britannica 'Pinsk' (britannica.com/place/Pinsk): Lehistan 1569-1793, Rusya 1793’ten I. Dünya Savaşı’na; Encyclopedia.com 'Pinsk': 1793’te Rusya’ya alındı, Minsk ilinde ilçe merkezi oldu (II. Taksim 23 Ocak 1793; eski kayıt 1795-10-24 idi) · LEHISTAN-KRON 28 Ekim 2026"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-08-25",d:"sovyet-rusya",kaynak:"Britannica 'Belarus' (Bati Belarus Kasim 1939'da katildi)"},{f:"1991-08-25",t:"2000-12-31",d:"belarus",kaynak:"Britannica 'Belarus'"}],
   d:[],
   kaynak:"Brest-Litovsk kaydıyla aynı dayanak (N. Davies): Polesye 1795 Rusya, 1921 Riga ile Polonya. Koordinat: coğrafî bilgi." },
 
 { ad:"Grodno", tur:"sehir", lat:53.6778, lon:23.8297, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Belarus' (Bati Belarus Kasim 1939'da katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"belarus",kaynak:"Britannica 'Belarus'"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-08-25",d:"sovyet-rusya",kaynak:"Britannica 'Belarus' (Bati Belarus Kasim 1939'da katildi)"},{f:"1991-08-25",t:"2000-12-31",d:"belarus",kaynak:"Britannica 'Belarus'"}],
   d:[],
   kaynak:"N. Davies, God's Playground: 1795 üçüncü taksimde Rusya (son Seym Grodno'da toplandı), 1921 Riga ile Polonya. Koordinat: coğrafî bilgi." },
 
 { ad:"Kovel", tur:"sehir", lat:51.2153, lon:24.7086, g:0, k:4, m:"Lutsk",
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"galicya-volhinya",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Galicia-Volhynia, Principality of': Volhinya Romanoviç devletinin çekirdeği (1199-1340) · LEHISTAN-KRON 27 Ekim 2026"},{f:"1340-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Galicia-Volhynia, Principality of': 1340'ta boyarlar tahtı Litvanya prensi Liubartas'a önerdi · LEHISTAN-KRON 27 Ekim 2026"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-08-24",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}],
   d:[],
   kaynak:"Volhinya: N. Davies, God's Playground — 1569 Lublin Birliği'yle Taç'a, 1795 Rusya, 1921 Riga ile Polonya. 1281-1340 Halic-Volhinya dönemi külliyat deseni gereği `lehistan` altında sadeleştirildi (Lvov kaydı gibi). Koordinat: coğrafî bilgi." },
 
 { ad:"Lutsk (Łuck)", tur:"kale", lat:50.7472, lon:25.3254, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}],
+  s:[{f:"1085-01-01",t:"1199-01-01",d:"kiev-rusu",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Lutsk' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CL%5CU%5CLutsk.htm): Lutsk ilk kez 1085’te Hypatian Vakayinamesi’nde anılır (10. yy’dan Luçan kabile merkezi olabilir); 1154’te bağımsız knezliğin başkenti oldu — Kiev Rusu Rurikoğulları dünyasında. BEYANLI YAKLAŞIKLIK: Volhynia knezliği için atlasta künye yok (Volodymyr ile aynı çerçeve) · LEHISTAN-KRON 29 Ekim 2026"},{f:"1199-01-01",t:"1340-01-01",d:"galicya-volhinya",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Galicia-Volhynia, Principality of': Volhinya Romanoviç devletinin çekirdeği (1199-1340) · LEHISTAN-KRON 27 Ekim 2026"},{f:"1340-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Galicia-Volhynia, Principality of': 1340'ta boyarlar tahtı Litvanya prensi Liubartas'a önerdi · LEHISTAN-KRON 27 Ekim 2026"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-11-20",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ESKİ KAYIT KORUNDU (BEYANLI): UNR künyesi f=1917-11-20 · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-11-07→1921-03-18 tek ‘sovyet-rusya’ idi; Riga günü hukuken devir günüdür)"},{f:"1917-11-20",t:"1919-05-01",d:"ukrayna-halk-cumhuriyeti",kesinlik:"ay",kaynak:"Encyclopedia of Ukraine (CIUS) 'Lutsk' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CL%5CU%5CLutsk.htm): ‘In May [1919] the Polish army took Lutsk from the Ukrainian Kholm Division’ · BEYAN: 1918’deki Alman-Avusturya işgali ve Hetman/Direktuvar aşamaları ayrı dilimlenmedi (UNR/Ukrayna Halk Cumhuriyeti idaresi) · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-11-07→1921-03-18 tek ‘sovyet-rusya’ idi; Riga günü hukuken devir günüdür)"},{f:"1919-05-01",t:"1939-09-17",d:"polonya",kesinlik:"ay",kaynak:"Encyclopedia of Ukraine (CIUS) 'Lutsk' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CL%5CU%5CLutsk.htm): ‘In May [1919] the Polish army took Lutsk from the Ukrainian Kholm Division’ · BEYAN: Ağustos-Ekim 1920 Sovyet işgali ve Riga Barışı’nın (1921-03-18) hukuki devri ayrıca yazılmadı · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-11-07→1921-03-18 tek ‘sovyet-rusya’ idi; Riga günü hukuken devir günüdür)"},{f:"1939-09-17",t:"1991-08-24",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}],
   d:[],
   kaynak:"Kovel kaydıyla aynı dayanak (Volhinya voyvodalığının merkezi). Koordinat: coğrafî bilgi." },
 
 { ad:"Volodymyr-Volynskyi (Włodzimierz)", tur:"sehir", lat:50.8480, lon:24.3226, g:0, k:4, m:"Lutsk",
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}],
+  s:[{f:"0988-01-01",t:"1199-01-01",d:"kiev-rusu",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Volhynia' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CV%5CO%5CVolhynia.htm): Volodymyr-Volynskyi’yi 988’de Büyük Knez Volodymyr kurdu ve oğlu Vsevolod’a verdi; XI. yy’dan Volhynia ayrı knezlik oldu (Yaroslavoviç, Monomahoviç 1120’ler, İzyaslavoviç 1154 kolları) ama Kiev Rusu Rurikoğulları dünyasında kaldı. BEYANLI YAKLAŞIKLIK: Volhynia’nın fiilî bağımsız knezlik dönemi için atlasta künye yok; 988 = şehrin kuruluşu · LEHISTAN-KRON 28 Ekim 2026"},{f:"1199-01-01",t:"1340-01-01",d:"galicya-volhinya",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Galicia-Volhynia, Principality of': Volhinya Romanoviç devletinin çekirdeği (1199-1340) · LEHISTAN-KRON 27 Ekim 2026"},{f:"1340-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Galicia-Volhynia, Principality of': 1340'ta boyarlar tahtı Litvanya prensi Liubartas'a önerdi · LEHISTAN-KRON 27 Ekim 2026"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-11-20",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ESKİ KAYIT KORUNDU (BEYANLI): UNR künyesi f=1917-11-20 · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-11-07→1921-03-18 tek ‘sovyet-rusya’ idi; Riga günü hukuken devir günüdür)"},{f:"1917-11-20",t:"1919-01-01",d:"ukrayna-halk-cumhuriyeti",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Volodymyr-Volynskyi' / Britannica 'Volodymyr-Volynskyy' (britannica.com/place/Volodymyr-Volynskyy): ‘passed to Russia in 1795 and back to Poland in 1919’ · BEYAN: 1918’deki Alman-Avusturya işgali ve Hetman/Direktuvar aşamaları ayrı dilimlenmedi (UNR/Ukrayna Halk Cumhuriyeti idaresi) · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-11-07→1921-03-18 tek ‘sovyet-rusya’ idi; Riga günü hukuken devir günüdür)"},{f:"1919-01-01",t:"1939-09-17",d:"polonya",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Volodymyr-Volynskyi' / Britannica 'Volodymyr-Volynskyy' (britannica.com/place/Volodymyr-Volynskyy): ‘passed to Russia in 1795 and back to Poland in 1919’ · BEYAN: Ağustos-Ekim 1920 Sovyet işgali ve Riga Barışı’nın (1921-03-18) hukuki devri ayrıca yazılmadı · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-11-07→1921-03-18 tek ‘sovyet-rusya’ idi; Riga günü hukuken devir günüdür)"},{f:"1939-09-17",t:"1991-08-24",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}],
   d:[],
   kaynak:"Kovel kaydıyla aynı dayanak. Koordinat: coğrafî bilgi." },
 
 { ad:"Rivne (Równe)", tur:"sehir", lat:50.6199, lon:26.2516, g:0, k:4, m:"Lutsk",
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-12-25",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"galicya-volhinya",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Galicia-Volhynia, Principality of': Volhinya Romanoviç devletinin çekirdeği (1199-1340) · LEHISTAN-KRON 27 Ekim 2026"},{f:"1340-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Galicia-Volhynia, Principality of': 1340'ta boyarlar tahtı Litvanya prensi Liubartas'a önerdi · LEHISTAN-KRON 27 Ekim 2026"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya",kesinlik:"gun",kaynak:"Encyclopedia of Ukraine (CIUS) 'Rivne' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CR%5CI%5CRivne.htm): ‘With the partitioning of Poland in 1793 it was annexed by Russia’ (II. Taksim, 23 Ocak 1793; eski kayıt 1795-10-24 idi) · LEHISTAN-KRON 28 Ekim 2026"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1939-09-17",d:"polonya"},{f:"1939-09-17",t:"1991-08-24",d:"sovyet-rusya",kaynak:"Britannica 'Ukraine' (Bati Ukrayna Kasim 1939'da Ukrayna SSC'ye katildi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Britannica 'Ukraine'"}],
   d:[],
   kaynak:"Kovel kaydıyla aynı dayanak. Koordinat: coğrafî bilgi." }
 
@@ -371,19 +371,19 @@ window.YERLESIMLER_ANADOLU_0914 = [
 // ⚠️ 1648-1667 Hetmanlık dönemi komşular (Uman, Kiev) gibi lehistan — kimlik yok, borç.
 // =====================================================================
 window.YERLESIMLER_UKRAYNA_0916 = [
-  { ad:"Vinnitsa (Vinnytsia)", tur:"sehir", lat:49.232, lon:28.469, g:0, k:3, kur:"1363-01-01", s:[{f:"1363-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1672-10-18",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], v:[{f:"1672-10-18",t:"1699-01-26",k:"Sağ Yaka Ukrayna (Osmanlı himayesindeki hatmanlık)",statu:"vassal"}], kaynak:"IEU Vinnytsia (CIUS): ilk anılış 1363 Litvanya kalesi; 1672-99 Türk hâkimiyeti; 1793 Rusya. Gün 1672-10-18 = Bucaş (TDV bucas-antlasmasi, 4. madde Ukrayna Kazaklar'a). kur YIL hassasiyetinde." },
-  { ad:"Braslav (Bratslav)", tur:"kale", lat:48.823, lon:28.938, g:0, k:3, kur:"1400-01-01", s:[{f:"1400-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1672-10-18",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], v:[{f:"1672-10-18",t:"1699-01-26",k:"Sağ Yaka Ukrayna (Osmanlı himayesindeki hatmanlık)",statu:"vassal"}], kaynak:"IEU Bratslav: 14. yy'da iyi biliniyor (kur 1400 = ALT SINIR, kuruluş yılı değil); 1648-1712 Kazak alay kasabası; Rusya'da Podolya guberniyası. 1793 günü komşudan: Vinnitsa · IEU Vinnytsia (aynı voyvodalık, aynı paylaşım)." },
+  { ad:"Vinnitsa (Vinnytsia)", tur:"sehir", lat:49.232, lon:28.469, g:0, k:3, kur:"1363-01-01", s:[{f:"1363-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1649-08-18",d:"lehistan"},{f:"1649-08-18",t:"1667-02-09",d:"kazak-hetmanligi",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Hetman state' (encyclopediaofukraine.com/pages/H/E/Hetmanstate.htm): Hmelnitski döneminde (1648-57) eski Kiev, Bratslav ve Çernigov voyvodalıkları; ‘From 1654 the Hetman state was nominally a vassal of Muscovy’; 1667 Andrusovo bölünmeyi doğruladı; ‘the office of hetman was finally abolished by the Russian government in 1764’ ; EU 'Zboriv, Treaty of' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CB%5CZborivTreatyof.htm): 18 Ağustos 1649 Kiev, Bratslav ve Çernigov voyvodalıkları Kazak idaresine bırakıldı · BEYANLI: Bratslav voyvodalığı · LEHISTAN-KRON 29 Ekim 2026 (Emre’nin 13 Ekim ‘Hetmanlık künyesi açılmadı’ kaydı künyenin sonradan açılmasıyla eskidi: künye kazak-hetmanligi artık var ve kronolojisi Hetmanlığı ‘doğdu’ diye yazıyor; harita bununla uyumlu hâle getirildi. Geri almak için bu commit’i revert et)"},{f:"1667-02-09",t:"1672-10-18",d:"lehistan",kesinlik:"gun",kaynak:"Andrusovo 1667-02-09: Sağ Yaka Lehistan’a döndü (EU Hetman state) · LEHISTAN-KRON 29 Ekim 2026"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1941-09-01",d:"sovyet-rusya",kesinlik:"gun",kaynak:"Alman işgali Temmuz–Ağustos 1941’de başlasa da şehir 1 Eylül 1941 RKU kuruluşuyla Alman sivil idaresine geçti; Temmuz-Ağustos arasındaki askerî idare dilimlenmedi (BEYANLI) · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1920-1991 tek ‘sovyet-rusya’ idi)"},{f:"1941-09-01",t:"1944-03-20",d:"alman-ukrayna",kesinlik:"gun",kaynak:"Encyclopedia of Ukraine (CIUS) 'Reichskommissariat Ukraine' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CR%5CE%5CReichskommissariatUkraine.htm): 1 Eylül 1941’de resmen kuruldu (Volhynia, Polisia, Sağ Yaka Ukrayna ve Poltava bölgesinin bir kısmı; başkent Rivne), 10 Kasım 1944’te tasfiye ; USHMM Collections, Sovyet haber filmi (collections.ushmm.org): ‘Today, March 20th … 1st Ukrainian front seized the city of Vinnytsia’ (20 Mart 1944) · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1920-1991 tek ‘sovyet-rusya’ idi)"},{f:"1944-03-20",t:"1991-08-24",d:"sovyet-rusya",kesinlik:"gun",kaynak:"USHMM Collections, Sovyet haber filmi (collections.ushmm.org): ‘Today, March 20th … 1st Ukrainian front seized the city of Vinnytsia’ (20 Mart 1944) · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1920-1991 tek ‘sovyet-rusya’ idi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], v:[{f:"1672-10-18",t:"1699-01-26",k:"Sağ Yaka Ukrayna (Osmanlı himayesindeki hatmanlık)",statu:"vassal"}], kaynak:"IEU Vinnytsia (CIUS): ilk anılış 1363 Litvanya kalesi; 1672-99 Türk hâkimiyeti; 1793 Rusya. Gün 1672-10-18 = Bucaş (TDV bucas-antlasmasi, 4. madde Ukrayna Kazaklar'a). kur YIL hassasiyetinde." },
+  { ad:"Braslav (Bratslav)", tur:"kale", lat:48.823, lon:28.938, g:0, k:3, kur:"1400-01-01", s:[{f:"1400-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1649-08-18",d:"lehistan"},{f:"1649-08-18",t:"1667-02-09",d:"kazak-hetmanligi",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Hetman state' (encyclopediaofukraine.com/pages/H/E/Hetmanstate.htm): Hmelnitski döneminde (1648-57) eski Kiev, Bratslav ve Çernigov voyvodalıkları; ‘From 1654 the Hetman state was nominally a vassal of Muscovy’; 1667 Andrusovo bölünmeyi doğruladı; ‘the office of hetman was finally abolished by the Russian government in 1764’ ; EU 'Zboriv, Treaty of' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CB%5CZborivTreatyof.htm): 18 Ağustos 1649 Kiev, Bratslav ve Çernigov voyvodalıkları Kazak idaresine bırakıldı · BEYANLI: Bratslav voyvodalığı · LEHISTAN-KRON 29 Ekim 2026 (Emre’nin 13 Ekim ‘Hetmanlık künyesi açılmadı’ kaydı künyenin sonradan açılmasıyla eskidi: künye kazak-hetmanligi artık var ve kronolojisi Hetmanlığı ‘doğdu’ diye yazıyor; harita bununla uyumlu hâle getirildi. Geri almak için bu commit’i revert et)"},{f:"1667-02-09",t:"1672-10-18",d:"lehistan",kesinlik:"gun",kaynak:"Andrusovo 1667-02-09: Sağ Yaka Lehistan’a döndü (EU Hetman state) · LEHISTAN-KRON 29 Ekim 2026"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], v:[{f:"1672-10-18",t:"1699-01-26",k:"Sağ Yaka Ukrayna (Osmanlı himayesindeki hatmanlık)",statu:"vassal"}], kaynak:"IEU Bratslav: 14. yy'da iyi biliniyor (kur 1400 = ALT SINIR, kuruluş yılı değil); 1648-1712 Kazak alay kasabası; Rusya'da Podolya guberniyası. 1793 günü komşudan: Vinnitsa · IEU Vinnytsia (aynı voyvodalık, aynı paylaşım)." },
   { ad:"Kostantinov (Starokostiantyniv)", tur:"kale", lat:49.755, lon:27.212, g:0, k:3, kur:"1571-01-01", s:[{f:"1571-01-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Starokostiantyniv: 1560'larda Ostrozki kurdu, kale kalıntısı 1571 (kur 1571 = ALT SINIR); Volhinya'da; 1793 Rusya." },
-  { ad:"Jitomir (Zhytomyr)", tur:"sehir", lat:50.262, lon:28.679, g:0, k:3, s:[{f:"1281-01-01",t:"1320-01-01",d:"altinorda"},{f:"1320-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Zhytomyr: 1240 kroniklerde; 1320 Gediminas Litvanya'ya kattı; 1667 Andruşova ile Lehistan'a iade; 1793 paylaşımda Rusya." },
-  { ad:"Berdiçev (Berdychiv)", tur:"sehir", lat:49.894, lon:28.582, g:0, k:3, kur:"1545-01-01", s:[{f:"1545-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Berdychiv: ilk belge 1545; 1569 Litvanya'dan Polonya'ya; 1593 kale. 1793 YILI komşudan: Jitomir · IEU Zhytomyr (aynı Kiev voyvodalığı, 44 km, aynı paylaşım)." },
+  { ad:"Jitomir (Zhytomyr)", tur:"sehir", lat:50.262, lon:28.679, g:0, k:3, s:[{f:"1281-01-01",t:"1320-01-01",d:"altinorda"},{f:"1320-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-11-20",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1917-11-20",t:"1918-02-08",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-02-08",t:"1918-03-02",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-03-02",t:"1918-04-29",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-04-29",t:"1918-12-14",d:"ukrayna-devleti-1918",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-12-14",t:"1919-02-05",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-02-05",t:"1919-08-30",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-08-30",t:"1919-12-16",d:"guney-rusya-beyaz",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-12-16",t:"1920-05-06",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-05-06",t:"1920-06-12",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-06-12",t:"1991-08-24",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Zhytomyr: 1240 kroniklerde; 1320 Gediminas Litvanya'ya kattı; 1667 Andruşova ile Lehistan'a iade; 1793 paylaşımda Rusya." },
+  { ad:"Berdiçev (Berdychiv)", tur:"sehir", lat:49.894, lon:28.582, g:0, k:3, kur:"1545-01-01", s:[{f:"1545-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-11-20",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1917-11-20",t:"1918-02-08",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-02-08",t:"1918-03-02",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-03-02",t:"1918-04-29",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-04-29",t:"1918-12-14",d:"ukrayna-devleti-1918",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-12-14",t:"1919-02-05",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-02-05",t:"1919-08-30",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-08-30",t:"1919-12-16",d:"guney-rusya-beyaz",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-12-16",t:"1920-05-06",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-05-06",t:"1920-06-12",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği/komşu Volhynia’daki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-06-12",t:"1941-09-01",d:"sovyet-rusya",kesinlik:"gun",kaynak:"Alman işgali Temmuz–Ağustos 1941’de başlasa da şehir 1 Eylül 1941 RKU kuruluşuyla Alman sivil idaresine geçti; Temmuz-Ağustos arasındaki askerî idare dilimlenmedi (BEYANLI) · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1920-1991 tek ‘sovyet-rusya’ idi)"},{f:"1941-09-01",t:"1944-01-05",d:"alman-ukrayna",kesinlik:"gun",kaynak:"Encyclopedia of Ukraine (CIUS) 'Reichskommissariat Ukraine' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CR%5CE%5CReichskommissariatUkraine.htm): 1 Eylül 1941’de resmen kuruldu (Volhynia, Polisia, Sağ Yaka Ukrayna ve Poltava bölgesinin bir kısmı; başkent Rivne), 10 Kasım 1944’te tasfiye ; Yad Vashem, ‘Berdichev’ ders planı (yadvashem.org/education/educational-materials/lesson-plans/berdichev.html): Kızıl Ordu 5 Ocak 1944’te kurtardı · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1920-1991 tek ‘sovyet-rusya’ idi)"},{f:"1944-01-05",t:"1991-08-24",d:"sovyet-rusya",kesinlik:"gun",kaynak:"Yad Vashem, ‘Berdichev’ ders planı (yadvashem.org/education/educational-materials/lesson-plans/berdichev.html): Kızıl Ordu 5 Ocak 1944’te kurtardı · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1920-1991 tek ‘sovyet-rusya’ idi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Berdychiv: ilk belge 1545; 1569 Litvanya'dan Polonya'ya; 1593 kale. 1793 YILI komşudan: Jitomir · IEU Zhytomyr (aynı Kiev voyvodalığı, 44 km, aynı paylaşım)." },
   // POSTIT-111 (19 Ekim 2026): Kiev ile Vinnitsa/Uman/Jitomir arasındaki Dinyeper batı yakasında nokta yoktu;
   // petek motoru bu şeridi Kiev'in (Rusya) peteğine emiyordu (1676'da Çehrin–Lehistan arası Rus görünüyordu).
   // Hukuken Sağ Yaka Lehistan (Andrusovo 1667); Hetmanlık künyesi açılmadı (Emre kararı 13 Ekim). s: başı yalnız
   // 1569-07-01 (Lublin, gün komşudan: Vinnitsa/Berdiçev); 1281-1569 zinciri Çehrin'den (gün komşudan, borç). 1793-01-23 komşudan.
-  { ad:"Bila Tserkva (Belaya Tserkov)", tur:"sehir", lat:49.795, lon:30.131, g:0, k:3, s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda",kaynak:"gün komşudan: Çehrin (Çigirin)/Kiev yöresi, Mavi Sular 1362 — komşu kaydın günü kendi kaynağında DOĞRULANAMADI (borç)"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Bila Tserkva (CIUS): 'After the Treaty of Andrusovo in 1667 Bila Tserkva, together with the rest of Right-Bank Ukraine, came under Polish rule' (1667 yıl hassasiyeti; s: bu dönemde zaten lehistan). BEYAN: 1672-99 Doroşenko/Osmanlı himayesi ve Hetmanlık künyesi modellenmedi (Emre kararı 13 Ekim); bu kayıt yalnız Kiev peteğinin Dinyeper'i aşmasını önler. 1793 komşudan: Jitomir." },
-  { ad:"Çerkasi (Cherkasy)", tur:"sehir", lat:49.444, lon:32.060, g:0, k:3, s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda",kaynak:"gün komşudan: Çehrin (Çigirin)/Kiev yöresi, Mavi Sular 1362 — komşu kaydın günü kendi kaynağında DOĞRULANAMADI (borç)"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Cherkasy (CIUS): 'After the Treaty of Andrusovo in 1667, Cherkasy again fell under Polish rule'; Çerkasi alayının merkezi 1686'ya dek. BEYAN: Hetmanlık/Doroşenko dönemi künyesi modellenmedi (Emre kararı 13 Ekim). 1793 komşudan: Jitomir." },
-  { ad:"Kaniv (Kanev)", tur:"kasaba", lat:49.750, lon:31.470, g:0, k:4, s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda",kaynak:"gün komşudan: Çehrin (Çigirin)/Kiev yöresi, Mavi Sular 1362 — komşu kaydın günü kendi kaynağında DOĞRULANAMADI (borç)"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Kaniv (CIUS): Kaniv alayı merkezi 1637-78; 1793'ten Rusya. Sahiplik Andrusovo'da Sağ Yaka'nın bütününün Lehistan'a kalmasından (TDV ukrayna; IEU Bila Tserkva) — Kaniv'e özel 1667-99 tanıklığı BULUNAMADI. BEYAN: yaklaşıklık, Hetmanlık künyesi yok. 1793 komşudan: Jitomir." },
-  { ad:"Fastov (Fastiv)", tur:"kasaba", lat:50.078, lon:29.917, g:0, k:4, s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda",kaynak:"gün komşudan: Çehrin (Çigirin)/Kiev yöresi, Mavi Sular 1362 — komşu kaydın günü kendi kaynağında DOĞRULANAMADI (borç)"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Fastiv (CIUS): ilk anılış 1390; 1680'ler ortasından 18. yy başına Leh ilçe kasabası ve Fastov alayı merkezi. Sahiplik Andrusovo'da Sağ Yaka'nın Lehistan'a kalmasından (IEU Bila Tserkva); Fastov'a özel 1667-84 tanıklığı BULUNAMADI. BEYAN: yaklaşıklık, Hetmanlık künyesi yok. 1793 komşudan: Jitomir." }
+  { ad:"Bila Tserkva (Belaya Tserkov)", tur:"sehir", lat:49.795, lon:30.131, g:0, k:3, s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda",kaynak:"gün komşudan: Çehrin (Çigirin)/Kiev yöresi, Mavi Sular 1362 — komşu kaydın günü kendi kaynağında DOĞRULANAMADI (borç)"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1649-08-18",d:"lehistan"},{f:"1649-08-18",t:"1667-02-09",d:"kazak-hetmanligi",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Hetman state' (encyclopediaofukraine.com/pages/H/E/Hetmanstate.htm): Hmelnitski döneminde (1648-57) eski Kiev, Bratslav ve Çernigov voyvodalıkları; ‘From 1654 the Hetman state was nominally a vassal of Muscovy’; 1667 Andrusovo bölünmeyi doğruladı; ‘the office of hetman was finally abolished by the Russian government in 1764’ ; EU 'Zboriv, Treaty of' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CB%5CZborivTreatyof.htm): 18 Ağustos 1649 Kiev, Bratslav ve Çernigov voyvodalıkları Kazak idaresine bırakıldı · BEYANLI: Sağ Yaka 1649-67 Hetmanlık, 1651 Bila Tserkva Antlaşması’yla daralmalar ayrı dilimlenmedi · LEHISTAN-KRON 29 Ekim 2026 (Emre’nin 13 Ekim ‘Hetmanlık künyesi açılmadı’ kaydı künyenin sonradan açılmasıyla eskidi: künye kazak-hetmanligi artık var ve kronolojisi Hetmanlığı ‘doğdu’ diye yazıyor; harita bununla uyumlu hâle getirildi. Geri almak için bu commit’i revert et)"},{f:"1667-02-09",t:"1793-01-23",d:"lehistan",kesinlik:"gun",kaynak:"Andrusovo 1667-02-09: Sağ Yaka Lehistan’a döndü (EU Hetman state) · LEHISTAN-KRON 29 Ekim 2026"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-11-20",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1917-11-20",t:"1918-02-08",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-02-08",t:"1918-03-02",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-03-02",t:"1918-04-29",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-04-29",t:"1918-12-14",d:"ukrayna-devleti-1918",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-12-14",t:"1919-02-05",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-02-05",t:"1919-08-30",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-08-30",t:"1919-12-16",d:"guney-rusya-beyaz",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-12-16",t:"1920-05-06",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-05-06",t:"1920-06-12",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-06-12",t:"1941-09-01",d:"sovyet-rusya",kesinlik:"gun",kaynak:"Alman işgali Temmuz–Ağustos 1941’de başlasa da şehir 1 Eylül 1941 RKU kuruluşuyla Alman sivil idaresine geçti; Temmuz-Ağustos arasındaki askerî idare dilimlenmedi (BEYANLI) · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1920-1991 tek ‘sovyet-rusya’ idi)"},{f:"1941-09-01",t:"1944-01-04",d:"alman-ukrayna",kesinlik:"gun",kaynak:"Encyclopedia of Ukraine (CIUS) 'Reichskommissariat Ukraine' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CR%5CE%5CReichskommissariatUkraine.htm): 1 Eylül 1941’de resmen kuruldu (Volhynia, Polisia, Sağ Yaka Ukrayna ve Poltava bölgesinin bir kısmı; başkent Rivne), 10 Kasım 1944’te tasfiye ; Yad Vashem Collections, ‘Belaya Tserkov’ (collections.yadvashem.org/en/untold-stories/community/14622090-Belaya-Tserkov): Kızıl Ordu şehri 4 Ocak 1944’te kurtardı · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1920-1991 tek ‘sovyet-rusya’ idi)"},{f:"1944-01-04",t:"1991-08-24",d:"sovyet-rusya",kesinlik:"gun",kaynak:"Yad Vashem Collections, ‘Belaya Tserkov’ (collections.yadvashem.org/en/untold-stories/community/14622090-Belaya-Tserkov): Kızıl Ordu şehri 4 Ocak 1944’te kurtardı · LEHISTAN-KRON 29 Ekim 2026 (eski kayıt 1920-1991 tek ‘sovyet-rusya’ idi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Bila Tserkva (CIUS): 'After the Treaty of Andrusovo in 1667 Bila Tserkva, together with the rest of Right-Bank Ukraine, came under Polish rule' (1667 yıl hassasiyeti; s: bu dönemde zaten lehistan). BEYAN: 1672-99 Doroşenko/Osmanlı himayesi ve Hetmanlık künyesi modellenmedi (Emre kararı 13 Ekim); bu kayıt yalnız Kiev peteğinin Dinyeper'i aşmasını önler. 1793 komşudan: Jitomir." },
+  { ad:"Çerkasi (Cherkasy)", tur:"sehir", lat:49.444, lon:32.060, g:0, k:3, s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda",kaynak:"gün komşudan: Çehrin (Çigirin)/Kiev yöresi, Mavi Sular 1362 — komşu kaydın günü kendi kaynağında DOĞRULANAMADI (borç)"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1649-08-18",d:"lehistan"},{f:"1649-08-18",t:"1667-02-09",d:"kazak-hetmanligi",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Hetman state' (encyclopediaofukraine.com/pages/H/E/Hetmanstate.htm): Hmelnitski döneminde (1648-57) eski Kiev, Bratslav ve Çernigov voyvodalıkları; ‘From 1654 the Hetman state was nominally a vassal of Muscovy’; 1667 Andrusovo bölünmeyi doğruladı; ‘the office of hetman was finally abolished by the Russian government in 1764’ ; EU 'Zboriv, Treaty of' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CB%5CZborivTreatyof.htm): 18 Ağustos 1649 Kiev, Bratslav ve Çernigov voyvodalıkları Kazak idaresine bırakıldı · BEYANLI: Sağ Yaka 1649-67 Hetmanlık, 1651 Bila Tserkva Antlaşması’yla daralmalar ayrı dilimlenmedi · LEHISTAN-KRON 29 Ekim 2026 (Emre’nin 13 Ekim ‘Hetmanlık künyesi açılmadı’ kaydı künyenin sonradan açılmasıyla eskidi: künye kazak-hetmanligi artık var ve kronolojisi Hetmanlığı ‘doğdu’ diye yazıyor; harita bununla uyumlu hâle getirildi. Geri almak için bu commit’i revert et)"},{f:"1667-02-09",t:"1793-01-23",d:"lehistan",kesinlik:"gun",kaynak:"Andrusovo 1667-02-09: Sağ Yaka Lehistan’a döndü (EU Hetman state) · LEHISTAN-KRON 29 Ekim 2026"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-11-20",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1917-11-20",t:"1918-02-08",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-02-08",t:"1918-03-02",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-03-02",t:"1918-04-29",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-04-29",t:"1918-12-14",d:"ukrayna-devleti-1918",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-12-14",t:"1919-02-05",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-02-05",t:"1919-08-30",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-08-30",t:"1919-12-16",d:"guney-rusya-beyaz",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-12-16",t:"1920-05-06",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-05-06",t:"1920-06-12",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-06-12",t:"1991-08-24",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Cherkasy (CIUS): 'After the Treaty of Andrusovo in 1667, Cherkasy again fell under Polish rule'; Çerkasi alayının merkezi 1686'ya dek. BEYAN: Hetmanlık/Doroşenko dönemi künyesi modellenmedi (Emre kararı 13 Ekim). 1793 komşudan: Jitomir." },
+  { ad:"Kaniv (Kanev)", tur:"kasaba", lat:49.750, lon:31.470, g:0, k:4, s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda",kaynak:"gün komşudan: Çehrin (Çigirin)/Kiev yöresi, Mavi Sular 1362 — komşu kaydın günü kendi kaynağında DOĞRULANAMADI (borç)"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1649-08-18",d:"lehistan"},{f:"1649-08-18",t:"1667-02-09",d:"kazak-hetmanligi",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Hetman state' (encyclopediaofukraine.com/pages/H/E/Hetmanstate.htm): Hmelnitski döneminde (1648-57) eski Kiev, Bratslav ve Çernigov voyvodalıkları; ‘From 1654 the Hetman state was nominally a vassal of Muscovy’; 1667 Andrusovo bölünmeyi doğruladı; ‘the office of hetman was finally abolished by the Russian government in 1764’ ; EU 'Zboriv, Treaty of' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CB%5CZborivTreatyof.htm): 18 Ağustos 1649 Kiev, Bratslav ve Çernigov voyvodalıkları Kazak idaresine bırakıldı · BEYANLI: Sağ Yaka 1649-67 Hetmanlık, 1651 Bila Tserkva Antlaşması’yla daralmalar ayrı dilimlenmedi · LEHISTAN-KRON 29 Ekim 2026 (Emre’nin 13 Ekim ‘Hetmanlık künyesi açılmadı’ kaydı künyenin sonradan açılmasıyla eskidi: künye kazak-hetmanligi artık var ve kronolojisi Hetmanlığı ‘doğdu’ diye yazıyor; harita bununla uyumlu hâle getirildi. Geri almak için bu commit’i revert et)"},{f:"1667-02-09",t:"1793-01-23",d:"lehistan",kesinlik:"gun",kaynak:"Andrusovo 1667-02-09: Sağ Yaka Lehistan’a döndü (EU Hetman state) · LEHISTAN-KRON 29 Ekim 2026"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-11-20",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1917-11-20",t:"1918-02-08",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-02-08",t:"1918-03-02",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-03-02",t:"1918-04-29",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-04-29",t:"1918-12-14",d:"ukrayna-devleti-1918",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-12-14",t:"1919-02-05",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-02-05",t:"1919-08-30",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-08-30",t:"1919-12-16",d:"guney-rusya-beyaz",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-12-16",t:"1920-05-06",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-05-06",t:"1920-06-12",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-06-12",t:"1991-08-24",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Kaniv (CIUS): Kaniv alayı merkezi 1637-78; 1793'ten Rusya. Sahiplik Andrusovo'da Sağ Yaka'nın bütününün Lehistan'a kalmasından (TDV ukrayna; IEU Bila Tserkva) — Kaniv'e özel 1667-99 tanıklığı BULUNAMADI. BEYAN: yaklaşıklık, Hetmanlık künyesi yok. 1793 komşudan: Jitomir." },
+  { ad:"Fastov (Fastiv)", tur:"kasaba", lat:50.078, lon:29.917, g:0, k:4, s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda",kaynak:"gün komşudan: Çehrin (Çigirin)/Kiev yöresi, Mavi Sular 1362 — komşu kaydın günü kendi kaynağında DOĞRULANAMADI (borç)"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1649-08-18",d:"lehistan"},{f:"1649-08-18",t:"1667-02-09",d:"kazak-hetmanligi",kesinlik:"yil",kaynak:"Encyclopedia of Ukraine (CIUS) 'Hetman state' (encyclopediaofukraine.com/pages/H/E/Hetmanstate.htm): Hmelnitski döneminde (1648-57) eski Kiev, Bratslav ve Çernigov voyvodalıkları; ‘From 1654 the Hetman state was nominally a vassal of Muscovy’; 1667 Andrusovo bölünmeyi doğruladı; ‘the office of hetman was finally abolished by the Russian government in 1764’ ; EU 'Zboriv, Treaty of' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CB%5CZborivTreatyof.htm): 18 Ağustos 1649 Kiev, Bratslav ve Çernigov voyvodalıkları Kazak idaresine bırakıldı · BEYANLI: Sağ Yaka 1649-67 Hetmanlık, 1651 Bila Tserkva Antlaşması’yla daralmalar ayrı dilimlenmedi · LEHISTAN-KRON 29 Ekim 2026 (Emre’nin 13 Ekim ‘Hetmanlık künyesi açılmadı’ kaydı künyenin sonradan açılmasıyla eskidi: künye kazak-hetmanligi artık var ve kronolojisi Hetmanlığı ‘doğdu’ diye yazıyor; harita bununla uyumlu hâle getirildi. Geri almak için bu commit’i revert et)"},{f:"1667-02-09",t:"1793-01-23",d:"lehistan",kesinlik:"gun",kaynak:"Andrusovo 1667-02-09: Sağ Yaka Lehistan’a döndü (EU Hetman state) · LEHISTAN-KRON 29 Ekim 2026"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-11-20",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1917-11-20",t:"1918-02-08",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-02-08",t:"1918-03-02",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-03-02",t:"1918-04-29",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-04-29",t:"1918-12-14",d:"ukrayna-devleti-1918",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1918-12-14",t:"1919-02-05",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-02-05",t:"1919-08-30",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-08-30",t:"1919-12-16",d:"guney-rusya-beyaz",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1919-12-16",t:"1920-05-06",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-05-06",t:"1920-06-12",d:"ukrayna-halk-cumhuriyeti",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1920-06-12",t:"1991-08-24",d:"sovyet-rusya",kesinlik:"gun",kaynak:"ABİ MERKEZ: Kiev — Kiev Valiliği içindeki şehir; 1917-20 el değiştirmeleri Kiev’in kaynaklı zincirine bağlandı (zincir Kiev’den devralındı; Encyclopedia of Ukraine ‘Kyiv’ tarihleri, bkz. data/yerlesimler.js Kiev). Yerel kaynak bulunamadı — BEYANLI YAKLAŞIKLIK · LEHISTAN-KRON 28 Ekim 2026 (eski kayıt 1917-1991 tek ‘sovyet-rusya’ idi)"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}], kaynak:"IEU Fastiv (CIUS): ilk anılış 1390; 1680'ler ortasından 18. yy başına Leh ilçe kasabası ve Fastov alayı merkezi. Sahiplik Andrusovo'da Sağ Yaka'nın Lehistan'a kalmasından (IEU Bila Tserkva); Fastov'a özel 1667-84 tanıklığı BULUNAMADI. BEYAN: yaklaşıklık, Hetmanlık künyesi yok. 1793 komşudan: Jitomir." }
 ];
 
 ;
@@ -491,13 +491,13 @@ window.YERLESIMLER_NOKTA_AMERIKA_0917 = [
   kaynak:"IBGE Biblioteca, Chaves (codmun 1502509) — 'Elevado à categoria de vila com a denominação de Chaves, em 1758' (yıl).",
   neden:"Kapuçin misyonu olan Aruã aldeiası 1758'de Portekiz vilası yapıldı (Senado da Câmara); öncesi yalnız misyon." },
 { ad:"Oruro (Villa de San Felipe de Austria)", tur:"sehir", lat:-17.9667, lon:-67.1167, g:1, k:3, kur:"1606-01-01",
-  s:[{f:"1606-01-01",t:"1825-08-06",d:"ispanyol-peru"},
+  s:[{f:"1606-01-01",t:"1824-12-09",d:"ispanyol-peru"},{f:"1824-12-09",t:"1825-08-06",d:"ispanya",kaynak:"Charcas/Yukarı Peru: Ayacucho (1824-12-09) Peru Genel Valiliği'ni bitirdi (künye t); Olañeta'nın kralcı kuvvetleri Yukarı Peru'da 1825-04-01 Tumusla'ya dek direndi, Bolivya 1825-08-06'da doğdu (Library of Congress Country Profile: Bolivia, tile.loc.gov/storage-services/master/frd/copr/Bolivia.pdf; SciELO Bolivia, Rev. Inv. e Inform. Bol. (scielo.org.bo, S1997-40432011000300006; OKUNDU): Ayacucho 9 Aralık 1824, savaş Olañeta'nın Tumusla'daki ölümüyle (1825) biter, Bolivya 6 Ağustos 1825'te «nace como una nación»; 1 Nisan 1825 günü LoC profilinde (arama özeti) geçer, LoC PDF'i okunamadı; Redalyc 407539686004 PDF'i okunamadı. Aynı bölgenin öteki şehirleri bu veride zaten `ispanya` ile 1825-08-06'ya taşınıyor (yerlesimler_a78_amerika.js); 1825-04-01 sonrası kısa geçiş (Sucre yönetimi) ayrıca modellenmedi."},
      {f:"1825-08-06",t:"2000-12-31",d:"bolivya-cumhuriyeti"}],
   d:[],
   kaynak:"Trifonio Delgado Gonzales, Historia del espacio urbano de Oruro (ed. Guillermo Delgado P., 2022, eScholarship/UC), s.1 — 1606 fundacion aktini aktariyor: 'veintinueve dias del mes de Octubre del año de mil seiscientos y seis' (Blanco 1904 nesrinden)",
   neden:"Charcas Audiencia oidoru Manuel de Castro y Padilla, kral adina maden asiento'sunda villa kurdu; ispanyol idaresi kurulusla baslar." },
 { ad:"Cochabamba (Villa de Oropesa)", tur:"sehir", lat:-17.3895, lon:-66.1568, g:1, k:3, kur:"1571-08-15",
-  s:[{f:"1571-08-15",t:"1825-08-06",d:"ispanyol-peru"},
+  s:[{f:"1571-08-15",t:"1824-12-09",d:"ispanyol-peru"},{f:"1824-12-09",t:"1825-08-06",d:"ispanya",kaynak:"Charcas/Yukarı Peru: Ayacucho (1824-12-09) Peru Genel Valiliği'ni bitirdi (künye t); Olañeta'nın kralcı kuvvetleri Yukarı Peru'da 1825-04-01 Tumusla'ya dek direndi, Bolivya 1825-08-06'da doğdu (Library of Congress Country Profile: Bolivia, tile.loc.gov/storage-services/master/frd/copr/Bolivia.pdf; SciELO Bolivia, Rev. Inv. e Inform. Bol. (scielo.org.bo, S1997-40432011000300006; OKUNDU): Ayacucho 9 Aralık 1824, savaş Olañeta'nın Tumusla'daki ölümüyle (1825) biter, Bolivya 6 Ağustos 1825'te «nace como una nación»; 1 Nisan 1825 günü LoC profilinde (arama özeti) geçer, LoC PDF'i okunamadı; Redalyc 407539686004 PDF'i okunamadı. Aynı bölgenin öteki şehirleri bu veride zaten `ispanya` ile 1825-08-06'ya taşınıyor (yerlesimler_a78_amerika.js); 1825-04-01 sonrası kısa geçiş (Sucre yönetimi) ayrıca modellenmedi."},
      {f:"1825-08-06",t:"2000-12-31",d:"bolivya-cumhuriyeti"}],
   d:[],
   kaynak:"Luis Oporto Ordonez, 'La obra magna de Jose Macedonio Urquidi...', Fuentes (Rev. Biblioteca y Archivo Historico de la Asamblea Legislativa Plurinacional) v.5 n.17, 2011 (revistasbolivianas.umsa.bo) — Cuzco provizyonu 2 Agosto 1571 Osorio'ya 'la fundacion de la Villa de Oropesa, el 15 de agosto de 1571' yetkisi verdi",
@@ -659,18 +659,18 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
   neden:"NOKTASIZLIK-ADAY-0917 'Dekken kuzeyi' kümesi 20,85K/81,42D (68.815 km², komşular Cabalpûr · Vişâkapatnam · Varangal) — Chhattisgarh ovasının merkezi noktasızdı. En yakın mevcut nokta: Nagpûr 264 km.",
   not:"__BOSLUK__ dilimleri künyesi olmayan yerel devletlerdir (eksik kimlik), 'kimsenin değil' DEĞİL. `maratha` dönemi 1750-1818-01-01 künye penceresi içinde. 1818'in günü kaynakta yok (Appa Sahib'in azli 1818; IGI c.10 s.17 yıl vermiyor ama bağlamdan 1818) -> yıl. 1818-1853 boşluğu için iki seçenek koordinatöre: (a) yeni künye `nagpur-bhonsle` 1818->1853 (emsal: gvalyar/indor/kolhapur Maratha ardılları künyeli), (b) veride Nagpûr kaydı `maratha`yı 1853-12-11'e kadar KÜNYE DIŞINA taşıyor — bu kaydı taklit etmedim. 1818-1830 İngiliz Resident idaresi idarî devirdir (D083), ingiliz-hindistani'ye itilmedi. 🔴 KODLANMAYAN: 1281-1750: Haihaivansi (Kalachuri) hanedanının Raipur kolu — IGI c.21 s.51 \"separately governed by a younger branch ... in subordination to the Ratanpur kingdom\". Künye YOK -> boş bırakıldı (eksik_kimlik). | 1818-1853: Nagpur Bhonsle devleti. IGI c.21 s.51: \"Between 1818 and 1830 the Nagpur territories were administered by the British Resident. From 1830 to 1853 ... again administered by Maratha Subahs\". `maratha` künyesi 1818-06-03'te bitiyor, Nagpur Bhonsle künyesi yok -> boş bırakıldı (eksik_kimlik). Raipur 1818'de Chhattisgarh merkezi yapıldı (IGI c.21 s.60). | 1853 lapse günü: IGI yalnız yıl veriyor (Raghuji III 1853'te öldü, IGI c.10 s.17). Britannica 'Nagpur (Indian dynasty)' ilhakı 1854 diyor (lapse 1853 / resmî ilhak 1854 ayrımı). Gün bulunamadı; veride Nagpûr kaydının 1853-12-11 günü KAYNAKSIZ (yerlesimler_asya.js:895, kaynak alanı yok) -> komşu günü şartı sağlanmıyor, kullanılmadı.",
   kaynak:"IGI 1908-09 (dsal.uchicago.edu, sayfa görüntüsü okundu): c.21 s.51 (DS405.1.I34_V21_057.gif) · c.21 s.60 (V21_066) · c.10 s.15-17 Central Provinces History (V10_021-023). Britannica 'Nagpur Indian dynasty' curl 200, okundu (\"British clients from 1818 to 1853\"). TDV: nagpur/maratalar/marathalar/maratha/bhonsle/ratanpur 302 ÖLÜ; hindistan 200 okundu — Chhattisgarh/Nagpur taneciğini kapsamıyor (TANECİK boşluğu). · KURULUŞ: IGI c.21 s.60: \"believed to have existed since the ninth century\" — 1281 öncesi, kur gerekmez. Kale: \"said to have been constructed in 1460\" (kur değil). · DÖNEM DAYANAKLARI: 1750-01-01→1818-01-01 maratha (yıl): IGI c.21 s.51 (Raipur District, History): \"Between 1750 and 1818 the country was governed by the Marathas\" ‖ 1853-01-01→1923-10-29 ingiliz-hindistani (yıl): IGI c.21 s.51: \"In 1853 Chhattisgarh became British territory by lapse\" · t = pencere sonu",
-  s:[{f:"1281-01-01",t:"1750-01-01",d:"__BOSLUK__"},
+  s:[{f:"1281-01-01",t:"1750-01-01",d:"kalacuri-ratnapura",kaynak:"IGI c.21 s.51 (Raipur District, History): Raipur, Ratanpur krallığına bağlı genç kol tarafından yönetildi (\"separately governed by a younger branch ... in subordination to the Ratanpur kingdom\"); 1750'ye dek. Künye kalacuri-ratnapura artık var (GUNEY-ASYA-DENETIM-1027)"},
      {f:"1750-01-01",t:"1818-01-01",d:"maratha"},
-     {f:"1818-01-01",t:"1853-01-01",d:"__BOSLUK__"},
+     {f:"1818-01-01",t:"1853-01-01",d:"nagpur-bhonsle",kaynak:"IGI c.21 s.51: 1818-1830 İngiliz Resident idaresi, 1830-1853 Maratha subahları — Nagpur Bhonsle devleti (künye nagpur-bhonsle 1730-1853-12-11)"},
      {f:"1853-01-01",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Ratanpur", tur:"sehir", lat:22.29, lon:82.17, g:0, k:0,
   neden:"NOKTASIZLIK-ADAY-0917 'Dekken kuzeyi' kümesinin kuzeyi — Haihaya (Kalachuri) krallığının başkenti noktasızdı. En yakın mevcut nokta: Cabalpûr (Jabalpur) 245 km.",
   not:"__BOSLUK__ dilimleri künyesi olmayan yerel devletlerdir (eksik kimlik), 'kimsenin değil' DEĞİL. Kalyan Sahi'nin Ekber'e gidişi (IGI c.8 s.223-224: \"proceeded to Delhi ... returned ... with a Muhammadan title\") bir Bâbürlü tasarrufu DEĞİL; babur-imparatorlugu'na itilmedi. Kaynağa göre Chhattisgarh Marathalara kadar dış saldırı görmemiş. Başkent 1818 sonrası Ratanpur'dan Raipur'a taşındı (IGI c.8 s.224). 🔴 KODLANMAYAN: 1281-1741: Haihaivansi (Kalachuri) Racput krallığı, başkent Ratanpur — IGI c.8 s.223. Künye YOK (kalac/haihay/ratan taraması boş) -> boş (eksik_kimlik). | 1745: son raca Raghunath Singh'in azli (IGI c.10 s.15 \"four years later, with the deposition of the last Raja\"). Tasarruf kırılması 1741 alındı (şehir teslim oldu, krallık ilhak edildi — IGI c.21 s.51 \"took Ratanpur and annexed the kingdom\"). | 1818-1853: Nagpur Bhonsle devleti (1818-1830 İngiliz Resident vesayeti, 1830-1853 Maratha subahları) — künye yok -> boş (eksik_kimlik). | 1853 günü bulunamadı (bkz. Raipur).",
   kaynak:"IGI c.8 s.223-224 Bilaspur District History (V08_229, V08_230 görüntü okundu) · c.21 s.51 (V21_057) · c.10 s.15-17 (V10_021-023). TDV ratanpur 302 ÖLÜ. · KURULUŞ: IGI c.8 s.223-224: Haihaivansi hanedanının kadim başkenti; 12. yy yazıtları Ratanpur krallarından söz ediyor — 1281 öncesi. · DÖNEM DAYANAKLARI: 1741-01-01→1818-01-01 maratha (yıl): IGI c.8 s.224: \"In 1741 occurred the invasion of Chhattisgarh by the Maratha general Bhaskar Pant\" · \"governed by Maratha Subahs ... until 1818\" ‖ 1853-01-01→1923-10-29 ingiliz-hindistani (yıl): IGI c.8 s.224: \"until 1853, when Chhattisgarh with the rest of the Nagpur territories lapsed\" · t = pencere sonu",
-  s:[{f:"1114-01-01",t:"1281-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: sahip kalacuri-ratnapura (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"kalacuri-ratnapura\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Kalachuris of Ratanpur»: \"in A.D. 1114, became independent during the latter part of Yasahkarna\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Kalachuris of Ratanpur»: \"He reigned at least up to A.D. 1218, but nothing definitely is known of his successor\" | f=1114 bağımsızlık (yazıt); 1218-1281 sürekliliği için tanık YOK: BEYANLI SÜREKLİLİK (künye t=null). Ratanpur'un 1079'dan itibaren ikinci başkent oluşu: R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Kalachuris of Ratanpur»: \"It was probably during his reign that Ratanpur was made the second capital of his family\" · DOGU-500-1281"},{f:"1281-01-01",t:"1741-01-01",d:"__BOSLUK__"},
+  s:[{f:"1114-01-01",t:"1281-01-01",d:"kalacuri-ratnapura",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: sahip kalacuri-ratnapura (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"kalacuri-ratnapura\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Kalachuris of Ratanpur»: \"in A.D. 1114, became independent during the latter part of Yasahkarna\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Kalachuris of Ratanpur»: \"He reigned at least up to A.D. 1218, but nothing definitely is known of his successor\" | f=1114 bağımsızlık (yazıt); 1218-1281 sürekliliği için tanık YOK: BEYANLI SÜREKLİLİK (künye t=null). Ratanpur'un 1079'dan itibaren ikinci başkent oluşu: R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Kalachuris of Ratanpur»: \"It was probably during his reign that Ratanpur was made the second capital of his family\" · DOGU-500-1281"},{f:"1281-01-01",t:"1741-01-01",d:"kalacuri-ratnapura",kaynak:"IGI c.8 s.223-224 (Bilaspur District, History): Haihaivansi (Kalachuri) Racput krallığı, başkent Ratanpur; 1741'e dek (Bhaskar Pant istilası). Künye kalacuri-ratnapura artık var (GUNEY-ASYA-DENETIM-1027)"},
      {f:"1741-01-01",t:"1818-01-01",d:"maratha"},
-     {f:"1818-01-01",t:"1853-01-01",d:"__BOSLUK__"},
+     {f:"1818-01-01",t:"1853-01-01",d:"nagpur-bhonsle",kaynak:"IGI c.21 s.51: 1818-1830 İngiliz Resident idaresi, 1830-1853 Maratha subahları — Nagpur Bhonsle devleti (künye nagpur-bhonsle 1730-1853-12-11)"},
      {f:"1853-01-01",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Sambalpur", tur:"sehir", lat:21.47, lon:83.97, g:0, k:0,
@@ -1045,8 +1045,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Arlit", tur:"sehir", lat:18.7400, lon:7.3900, g:0, k:0,
   kur:"1405-01-01",
-  s:[{f:"1405-01-01",t:"1900-01-01",d:"tuareg-air"},
-     {f:"1900-01-01",t:"1960-08-03",d:"fransa-cumhuriyet"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1405-01-01",t:"1906-01-01",d:"tuareg-air",kesinlik:{t:"yil"}},
+     {f:"1906-01-01",t:"1960-08-03",d:"fransa-cumhuriyet",kesinlik:{f:"yil"},kaynak:"ABİ MERKEZ: Agadez (TDV nijer: «Fransızlar, Agâdes’i işgal edip … (1906)»; Aïr bölgesi ABİ MERKEZ Agadez’den devralındı)"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Tişît (Tichitt)", tur:"sehir", lat:18.4500, lon:-9.5100, g:0, k:0,
@@ -1061,8 +1061,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Fachi", tur:"sehir", lat:18.1100, lon:11.5600, g:0, k:0,
   kur:"1405-01-01",
-  s:[{f:"1405-01-01",t:"1900-01-01",d:"tuareg-air"},
-     {f:"1900-01-01",t:"1960-08-03",d:"fransa-cumhuriyet"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1405-01-01",t:"1906-01-01",d:"tuareg-air",kesinlik:{t:"yil"}},
+     {f:"1906-01-01",t:"1960-08-03",d:"fransa-cumhuriyet",kesinlik:{f:"yil"},kaynak:"ABİ MERKEZ: Agadez (TDV nijer: «Fransızlar, Agâdes’i işgal edip … (1906)»; Aïr bölgesi ABİ MERKEZ Agadez’den devralındı)"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Faya-Largeau", tur:"sehir", lat:17.9200, lon:19.1000, g:0, k:0,
@@ -1085,8 +1085,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"In Gall", tur:"sehir", lat:16.7900, lon:6.9300, g:0, k:0,
   kur:"1405-01-01",
-  s:[{f:"1405-01-01",t:"1900-01-01",d:"tuareg-air"},
-     {f:"1900-01-01",t:"1960-08-03",d:"fransa-cumhuriyet"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1405-01-01",t:"1906-01-01",d:"tuareg-air",kesinlik:{t:"yil"}},
+     {f:"1906-01-01",t:"1960-08-03",d:"fransa-cumhuriyet",kesinlik:{f:"yil"},kaynak:"ABİ MERKEZ: Agadez (TDV nijer: «Fransızlar, Agâdes’i işgal edip … (1906)»; Aïr bölgesi ABİ MERKEZ Agadez’den devralındı)"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Podor", tur:"sehir", lat:16.6500, lon:-14.9600, g:0, k:0,
@@ -1318,7 +1318,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kaşev (Cacheu)", tur:"sehir", lat:12.2700, lon:-16.1700, g:0, k:0,
   kur:"1588-01-01",
-  s:[{f:"1588-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-10",d:"portekiz-gine",kaynak:"Portekiz tanimasi 1974-09-10 (Britannica Guinea-Bissau)"},{f:"1974-09-10",t:"2000-12-31",d:"gine-bissau",kaynak:"Britannica Guinea-Bissau"}],
+  s:[{f:"1588-01-01",t:"1879-01-01",d:"portekiz"},{f:"1879-01-01",t:"1923-10-29",d:"portekiz-gine"},{f:"1923-10-29",t:"1974-09-10",d:"portekiz-gine",kaynak:"Portekiz tanimasi 1974-09-10 (Britannica Guinea-Bissau)"},{f:"1974-09-10",t:"2000-12-31",d:"gine-bissau",kaynak:"Britannica Guinea-Bissau"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mongo", tur:"sehir", lat:12.1800, lon:18.7000, g:0, k:0,
@@ -1339,7 +1339,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bissav (Bissau)", tur:"sehir", lat:11.8600, lon:-15.6000, g:0, k:0,
   kur:"1687-01-01",
-  s:[{f:"1687-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-10",d:"portekiz-gine",kaynak:"Portekiz tanimasi 1974-09-10 (Britannica Guinea-Bissau)"},{f:"1974-09-10",t:"2000-12-31",d:"gine-bissau",kaynak:"Britannica Guinea-Bissau"}],
+  s:[{f:"1687-01-01",t:"1879-01-01",d:"portekiz"},{f:"1879-01-01",t:"1923-10-29",d:"portekiz-gine"},{f:"1923-10-29",t:"1974-09-10",d:"portekiz-gine",kaynak:"Portekiz tanimasi 1974-09-10 (Britannica Guinea-Bissau)"},{f:"1974-09-10",t:"2000-12-31",d:"gine-bissau",kaynak:"Britannica Guinea-Bissau"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tenkodogo", tur:"sehir", lat:11.7800, lon:-0.3700, g:0, k:0,
@@ -1384,8 +1384,8 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Marua (Maroua)", tur:"sehir", lat:10.5900, lon:14.3200, g:0, k:0,
   kur:"1809-01-01",
   s:[{f:"1809-01-01",t:"1901-09-02",d:"adamava"},
-     {f:"1901-09-02",t:"1916-03-04",d:"almanya"},
-     {f:"1916-03-04",t:"1960-01-01",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000)"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
+     {f:"1901-09-02",t:"1916-02-18",d:"alman-kamerun"},
+     {f:"1916-02-18",t:"1922-07-20",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000) · 2. tur (29 Ekim 2026): başlangıç 1916-03-04 → 1916-02-18 çekildi (alman-kamerun künye t = Mora/direniş sonu; aynı Weladji kaynağı Şubat 1916’da Fransız idaresini gösteriyor); 4 Mart 1916 yalnız yazılı paylaşım anlaşmasıdır"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi",kaynak:"SAHO node/11445: 20 Temmuz 1922 MC mandaları; TDV Kamerun: 1 Ocak 1960 bağımsızlık"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
   neden:"KUTU-VERI-1015 C: eski kayıt 1916-09-01..1961-10-01 İNGİLTERE diyordu (DUNYA-AFRIKA-0903 ilk yazımı 'ingiltere 1916-09-01..1923-10-29'; HALEF 1715b9156 bunu İngiliz Güney Kamerunu'nun 1961-10-01 birleşmesine uzattı). Bu şehir 1916 geçici paylaşımından 1960'a dek FRANSIZ Kamerunu'ndadır (Weladji 1982). 1916-03-04 = İngiliz-Fransız geçici paylaşım anlaşması (FRUS 1919: '4th of March, 1916'); Alman denetimi kasabada 1915'te düşmüştü ('in the course of 1915 the great inland towns fell one by one: Maroua, Garoua, Ngaoundéré, Tibati, Banyo' — Weladji), 1915-1916 arası müttefik ortak işgalinin künyesi yok, Alman dönemi paylaşım gününe dek tutuldu (eski 1916-09-01 kaynaksızdı). Fransa manda dönemi (1922-07-20 fransiz-kamerun-mandasi) aynı boyadır (harita: fransa-cumhuriyet), komşu Fumban kaydı gibi tek dönem yazıldı.",
   kaynak:"kamerun" },
 
@@ -1460,8 +1460,8 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Garua (Garoua)", tur:"sehir", lat:9.3000, lon:13.4000, g:0, k:0,
   kur:"1809-01-01",
   s:[{f:"1809-01-01",t:"1901-09-02",d:"adamava"},
-     {f:"1901-09-02",t:"1916-03-04",d:"almanya"},
-     {f:"1916-03-04",t:"1960-01-01",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000)"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
+     {f:"1901-09-02",t:"1916-02-18",d:"alman-kamerun"},
+     {f:"1916-02-18",t:"1922-07-20",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000) · 2. tur (29 Ekim 2026): başlangıç 1916-03-04 → 1916-02-18 çekildi (alman-kamerun künye t = Mora/direniş sonu; aynı Weladji kaynağı Şubat 1916’da Fransız idaresini gösteriyor); 4 Mart 1916 yalnız yazılı paylaşım anlaşmasıdır"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi",kaynak:"SAHO node/11445: 20 Temmuz 1922 MC mandaları; TDV Kamerun: 1 Ocak 1960 bağımsızlık"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
   neden:"KUTU-VERI-1015 C: eski kayıt 1916-09-01..1961-10-01 İNGİLTERE diyordu (DUNYA-AFRIKA-0903 ilk yazımı 'ingiltere 1916-09-01..1923-10-29'; HALEF 1715b9156 bunu İngiliz Güney Kamerunu'nun 1961-10-01 birleşmesine uzattı). Bu şehir 1916 geçici paylaşımından 1960'a dek FRANSIZ Kamerunu'ndadır (Weladji 1982). 1916-03-04 = İngiliz-Fransız geçici paylaşım anlaşması (FRUS 1919: '4th of March, 1916'); Alman denetimi kasabada 1915'te düşmüştü ('in the course of 1915 the great inland towns fell one by one: Maroua, Garoua, Ngaoundéré, Tibati, Banyo' — Weladji), 1915-1916 arası müttefik ortak işgalinin künyesi yok, Alman dönemi paylaşım gününe dek tutuldu (eski 1916-09-01 kaynaksızdı). Fransa manda dönemi (1922-07-20 fransiz-kamerun-mandasi) aynı boyadır (harita: fransa-cumhuriyet), komşu Fumban kaydı gibi tek dönem yazıldı.",
   kaynak:"kamerun" },
 
@@ -1515,8 +1515,8 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Rey Buba", tur:"sehir", lat:8.6700, lon:14.1800, g:0, k:0,
   kur:"1809-01-01",
   s:[{f:"1809-01-01",t:"1901-09-02",d:"adamava"},
-     {f:"1901-09-02",t:"1916-03-04",d:"almanya"},
-     {f:"1916-03-04",t:"1960-01-01",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000)"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
+     {f:"1901-09-02",t:"1916-02-18",d:"alman-kamerun"},
+     {f:"1916-02-18",t:"1922-07-20",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000) · 2. tur (29 Ekim 2026): başlangıç 1916-03-04 → 1916-02-18 çekildi (alman-kamerun künye t = Mora/direniş sonu; aynı Weladji kaynağı Şubat 1916’da Fransız idaresini gösteriyor); 4 Mart 1916 yalnız yazılı paylaşım anlaşmasıdır"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi",kaynak:"SAHO node/11445: 20 Temmuz 1922 MC mandaları; TDV Kamerun: 1 Ocak 1960 bağımsızlık"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
   neden:"KUTU-VERI-1015 C: eski kayıt 1916-09-01..1961-10-01 İNGİLTERE diyordu (DUNYA-AFRIKA-0903 ilk yazımı 'ingiltere 1916-09-01..1923-10-29'; HALEF 1715b9156 bunu İngiliz Güney Kamerunu'nun 1961-10-01 birleşmesine uzattı). Bu şehir 1916 geçici paylaşımından 1960'a dek FRANSIZ Kamerunu'ndadır (Weladji 1982). 1916-03-04 = İngiliz-Fransız geçici paylaşım anlaşması (FRUS 1919: '4th of March, 1916'); Alman denetimi kasabada 1915'te düşmüştü ('in the course of 1915 the great inland towns fell one by one: Maroua, Garoua, Ngaoundéré, Tibati, Banyo' — Weladji), 1915-1916 arası müttefik ortak işgalinin künyesi yok, Alman dönemi paylaşım gününe dek tutuldu (eski 1916-09-01 kaynaksızdı). Fransa manda dönemi (1922-07-20 fransiz-kamerun-mandasi) aynı boyadır (harita: fransa-cumhuriyet), komşu Fumban kaydı gibi tek dönem yazıldı.",
   kaynak:"kamerun" },
 
@@ -1606,8 +1606,8 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Ngaunder (Ngaoundéré)", tur:"sehir", lat:7.3200, lon:13.5800, g:0, k:0,
   kur:"1809-01-01",
   s:[{f:"1809-01-01",t:"1901-09-02",d:"adamava"},
-     {f:"1901-09-02",t:"1916-03-04",d:"almanya"},
-     {f:"1916-03-04",t:"1960-01-01",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000)"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
+     {f:"1901-09-02",t:"1916-02-18",d:"alman-kamerun"},
+     {f:"1916-02-18",t:"1922-07-20",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000) · 2. tur (29 Ekim 2026): başlangıç 1916-03-04 → 1916-02-18 çekildi (alman-kamerun künye t = Mora/direniş sonu; aynı Weladji kaynağı Şubat 1916’da Fransız idaresini gösteriyor); 4 Mart 1916 yalnız yazılı paylaşım anlaşmasıdır"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi",kaynak:"SAHO node/11445: 20 Temmuz 1922 MC mandaları; TDV Kamerun: 1 Ocak 1960 bağımsızlık"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
   neden:"KUTU-VERI-1015 C: eski kayıt 1916-09-01..1961-10-01 İNGİLTERE diyordu (DUNYA-AFRIKA-0903 ilk yazımı 'ingiltere 1916-09-01..1923-10-29'; HALEF 1715b9156 bunu İngiliz Güney Kamerunu'nun 1961-10-01 birleşmesine uzattı). Bu şehir 1916 geçici paylaşımından 1960'a dek FRANSIZ Kamerunu'ndadır (Weladji 1982). 1916-03-04 = İngiliz-Fransız geçici paylaşım anlaşması (FRUS 1919: '4th of March, 1916'); Alman denetimi kasabada 1915'te düşmüştü ('in the course of 1915 the great inland towns fell one by one: Maroua, Garoua, Ngaoundéré, Tibati, Banyo' — Weladji), 1915-1916 arası müttefik ortak işgalinin künyesi yok, Alman dönemi paylaşım gününe dek tutuldu (eski 1916-09-01 kaynaksızdı). Fransa manda dönemi (1922-07-20 fransiz-kamerun-mandasi) aynı boyadır (harita: fransa-cumhuriyet), komşu Fumban kaydı gibi tek dönem yazıldı.",
   kaynak:"kamerun" },
 
@@ -1628,8 +1628,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Notse", tur:"sehir", lat:6.9500, lon:1.1700, g:0, k:0,
   s:[{f:"1281-01-01",t:"1884-07-05",d:"eve-notse"},
-     {f:"1884-07-05",t:"1916-02-16",d:"almanya"},
-     {f:"1916-02-16",t:"1960-04-27",d:"fransa-cumhuriyet"},{f:"1960-04-27",t:"2000-12-31",d:"togo",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1884-07-05",t:"1914-08-26",d:"alman-togo"},
+     {f:"1914-08-26",t:"1922-07-20",d:"fransa-cumhuriyet"},{f:"1922-07-20",t:"1960-04-27",d:"fransiz-togo"},{f:"1960-04-27",t:"2000-12-31",d:"togo",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Daloa", tur:"sehir", lat:6.8800, lon:-6.4500, g:0, k:0,
@@ -1640,8 +1640,8 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Banyo", tur:"sehir", lat:6.7500, lon:11.8200, g:0, k:0,
   kur:"1809-01-01",
   s:[{f:"1809-01-01",t:"1901-09-02",d:"adamava"},
-     {f:"1901-09-02",t:"1916-03-04",d:"almanya"},
-     {f:"1916-03-04",t:"1960-01-01",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000)"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
+     {f:"1901-09-02",t:"1916-02-18",d:"alman-kamerun"},
+     {f:"1916-02-18",t:"1922-07-20",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000) · 2. tur (29 Ekim 2026): başlangıç 1916-03-04 → 1916-02-18 çekildi (alman-kamerun künye t = Mora/direniş sonu; aynı Weladji kaynağı Şubat 1916’da Fransız idaresini gösteriyor); 4 Mart 1916 yalnız yazılı paylaşım anlaşmasıdır"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi",kaynak:"SAHO node/11445: 20 Temmuz 1922 MC mandaları; TDV Kamerun: 1 Ocak 1960 bağımsızlık"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
   neden:"KUTU-VERI-1015 C: eski kayıt 1916-09-01..1961-10-01 İNGİLTERE diyordu (DUNYA-AFRIKA-0903 ilk yazımı 'ingiltere 1916-09-01..1923-10-29'; HALEF 1715b9156 bunu İngiliz Güney Kamerunu'nun 1961-10-01 birleşmesine uzattı). Bu şehir 1916 geçici paylaşımından 1960'a dek FRANSIZ Kamerunu'ndadır (Weladji 1982). 1916-03-04 = İngiliz-Fransız geçici paylaşım anlaşması (FRUS 1919: '4th of March, 1916'); Alman denetimi kasabada 1915'te düşmüştü ('in the course of 1915 the great inland towns fell one by one: Maroua, Garoua, Ngaoundéré, Tibati, Banyo' — Weladji), 1915-1916 arası müttefik ortak işgalinin künyesi yok, Alman dönemi paylaşım gününe dek tutuldu (eski 1916-09-01 kaynaksızdı). Fransa manda dönemi (1922-07-20 fransiz-kamerun-mandasi) aynı boyadır (harita: fransa-cumhuriyet), komşu Fumban kaydı gibi tek dönem yazıldı.",
   kaynak:"kamerun" },
 
@@ -1658,8 +1658,8 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Tibati", tur:"sehir", lat:6.4700, lon:12.6300, g:0, k:0,
   kur:"1809-01-01",
   s:[{f:"1809-01-01",t:"1901-09-02",d:"adamava"},
-     {f:"1901-09-02",t:"1916-03-04",d:"almanya"},
-     {f:"1916-03-04",t:"1960-01-01",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000)"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
+     {f:"1901-09-02",t:"1916-02-18",d:"alman-kamerun"},
+     {f:"1916-02-18",t:"1922-07-20",d:"fransa-cumhuriyet",kaynak:"Weladji, C. 'The Cameroon-Nigeria Border 1914 and After (5th and last instalment)', Abbia 38-40 (1982): 1916 geçici paylaşımında İngiliz idaresine bırakılan yerler listesi (Bonar Law telgrafı 1 Mart 1916; sınır anlaşması 3-4 Mart 1916) Garua bölgesinin yalnız 'extreme south-west corner'ını ve Banyo bölgesinin yalnız kuzeybatısını (Gaschaka, Kontsha) sayar; Şubat 1916'da Garua'da Fransız subayı (Yzb. Chrétien) idareyi elinde tutuyordu; https://www.vestiges-journal.info/Abbia/Abbia_38-39-40_1982/Abbiav38-39-40n11_W.pdf · FRUS 1919 Paris Peace Conf. V, d50 ('Anglo-French Agreement of the 4th of March, 1916') https://history.state.gov/historicaldocuments/frus1919Parisv05/d50 · TDV 'kamerun' (beşte dörtlük güney-doğu kısım Fransa'ya) · bağımsızlık 1960-01-01 (kronoloji_sinir_halef_1923_2000) · 2. tur (29 Ekim 2026): başlangıç 1916-03-04 → 1916-02-18 çekildi (alman-kamerun künye t = Mora/direniş sonu; aynı Weladji kaynağı Şubat 1916’da Fransız idaresini gösteriyor); 4 Mart 1916 yalnız yazılı paylaşım anlaşmasıdır"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi",kaynak:"SAHO node/11445: 20 Temmuz 1922 MC mandaları; TDV Kamerun: 1 Ocak 1960 bağımsızlık"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Fransız Kamerunu'nun bağımsızlığı 1 Ocak 1960 (kronoloji_sinir_halef_1923_2000.js)"}],
   neden:"KUTU-VERI-1015 C: eski kayıt 1916-09-01..1961-10-01 İNGİLTERE diyordu (DUNYA-AFRIKA-0903 ilk yazımı 'ingiltere 1916-09-01..1923-10-29'; HALEF 1715b9156 bunu İngiliz Güney Kamerunu'nun 1961-10-01 birleşmesine uzattı). Bu şehir 1916 geçici paylaşımından 1960'a dek FRANSIZ Kamerunu'ndadır (Weladji 1982). 1916-03-04 = İngiliz-Fransız geçici paylaşım anlaşması (FRUS 1919: '4th of March, 1916'); Alman denetimi kasabada 1915'te düşmüştü ('in the course of 1915 the great inland towns fell one by one: Maroua, Garoua, Ngaoundéré, Tibati, Banyo' — Weladji), 1915-1916 arası müttefik ortak işgalinin künyesi yok, Alman dönemi paylaşım gününe dek tutuldu (eski 1916-09-01 kaynaksızdı). Fransa manda dönemi (1922-07-20 fransiz-kamerun-mandasi) aynı boyadır (harita: fransa-cumhuriyet), komşu Fumban kaydı gibi tek dönem yazıldı.",
   kaynak:"kamerun" },
 
@@ -1696,7 +1696,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Fumban (Bamum)", tur:"sehir", lat:5.7300, lon:10.9000, g:0, k:0,
   kur:"1394-01-01",
   s:[{f:"1394-01-01",t:"1916-02-16",d:"bamum"},
-     {f:"1916-02-16",t:"1960-01-01",d:"fransa-cumhuriyet"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1916-02-16",t:"1922-07-20",d:"fransa-cumhuriyet"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"kamerun" },
 
 { ad:"Akra (Accra)", tur:"sehir", lat:5.5500, lon:-0.2000, g:0, k:0,
@@ -1760,8 +1760,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bertua (Bertoua)", tur:"sehir", lat:4.5800, lon:13.6800, g:0, k:0,
   kur:"1905-01-01",
-  s:[{f:"1905-01-01",t:"1916-02-16",d:"almanya"},
-     {f:"1916-02-16",t:"1960-01-01",d:"fransa-cumhuriyet"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1905-01-01",t:"1916-02-16",d:"alman-kamerun"},
+     {f:"1916-02-16",t:"1922-07-20",d:"fransa-cumhuriyet"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Grand Cess (Kru)", tur:"sehir", lat:4.5700, lon:-8.2100, g:0, k:0,
@@ -1787,36 +1787,37 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Duala", tur:"sehir", lat:4.0500, lon:9.7000, g:0, k:0,
   kur:"1868-01-01",
   s:[{f:"1868-01-01",t:"1884-07-14",d:"hollanda"},
-     {f:"1884-07-14",t:"1916-02-16",d:"almanya"},
-     {f:"1916-02-16",t:"1960-01-01",d:"fransa-cumhuriyet"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1884-07-14",t:"1914-09-27",d:"alman-kamerun"},
+     {f:"1914-09-27",t:"1916-02-16",d:"ingiltere",kaynak:"Duala 27 Eylül 1914’te İngiliz kuvvetlerince alındı (awayfromthewesternfront.org Kamerun: «British forces quickly drove the Germans out of the main port, Duala, on 27 September 1914»); sonraki idare biçimi (Anglo-Fransız ortak işgal) bu turda DOĞRULANAMADI — BEYANLI YAKLAŞIKLIK, 1916-02-16’da Fransız idaresine geçiş önceki zincirden"},
+     {f:"1916-02-16",t:"1922-07-20",d:"fransa-cumhuriyet"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Yaunde", tur:"sehir", lat:3.8700, lon:11.5200, g:0, k:0,
   kur:"1888-11-30",
-  s:[{f:"1888-11-30",t:"1916-02-16",d:"almanya"},
-     {f:"1916-02-16",t:"1960-01-01",d:"fransa-cumhuriyet"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1888-11-30",t:"1916-02-16",d:"alman-kamerun"},
+     {f:"1916-02-16",t:"1922-07-20",d:"fransa-cumhuriyet"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Niangara (Mangbetu)", tur:"sehir", lat:3.6900, lon:27.8700, g:0, k:0,
   kur:"1815-01-01",
   s:[{f:"1815-01-01",t:"1895-01-01",d:"mangbetu"},
-     {f:"1895-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1895-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — Uele-Bomokandi arasında Mangbetu saray sahası; Nabiembali'nin birleştirmesi 1815. 🔴 ISIRO'YA DOKUNULMADI: o bir Belçika karakolu" },
 
 { ad:"Yokadouma", tur:"sehir", lat:3.5200, lon:15.0500, g:0, k:0,
   kur:"1905-01-01",
-  s:[{f:"1905-01-01",t:"1916-02-16",d:"almanya"},
-     {f:"1916-02-16",t:"1960-01-01",d:"fransa-cumhuriyet"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1905-01-01",t:"1916-02-16",d:"alman-kamerun"},
+     {f:"1916-02-16",t:"1922-07-20",d:"fransa-cumhuriyet"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Businga", tur:"sehir", lat:3.3400, lon:20.8800, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gemena", tur:"sehir", lat:3.2500, lon:19.7700, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lodvar", tur:"sehir", lat:3.1200, lon:35.6000, g:0, k:0,
@@ -1826,23 +1827,23 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Watsa", tur:"sehir", lat:3.0400, lon:29.5300, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1892-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kribi", tur:"sehir", lat:2.9400, lon:9.9100, g:0, k:0,
   kur:"1884-07-14",
-  s:[{f:"1884-07-14",t:"1916-02-16",d:"almanya"},
-     {f:"1916-02-16",t:"1960-01-01",d:"fransa-cumhuriyet"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1884-07-14",t:"1916-02-16",d:"alman-kamerun"},
+     {f:"1916-02-16",t:"1922-07-20",d:"fransa-cumhuriyet"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Buta", tur:"sehir", lat:2.7900, lon:24.7400, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Isiro", tur:"sehir", lat:2.7700, lon:27.6200, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1892-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gulu", tur:"sehir", lat:2.7700, lon:32.3000, g:0, k:0,
@@ -1852,7 +1853,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Aketi", tur:"sehir", lat:2.7400, lon:23.7800, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Moroto", tur:"sehir", lat:2.5300, lon:34.6600, g:0, k:0,
@@ -1872,12 +1873,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bumba", tur:"sehir", lat:2.1900, lon:22.4700, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lisala", tur:"sehir", lat:2.1500, lon:21.5100, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Suanke", tur:"sehir", lat:2.0700, lon:14.1300, g:0, k:0,
@@ -1888,8 +1889,8 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Moloundou", tur:"sehir", lat:2.0300, lon:15.2000, g:0, k:0,
   kur:"1900-01-01",
   s:[{f:"1900-01-01",t:"1911-11-04",d:"fransa-cumhuriyet"},
-     {f:"1911-11-04",t:"1916-02-16",d:"almanya"},
-     {f:"1916-02-16",t:"1960-08-15",d:"fransa-cumhuriyet"},{f:"1960-08-15",t:"2000-12-31",d:"kongo-brazzaville",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1911-11-04",t:"1916-02-16",d:"alman-kamerun"},
+     {f:"1916-02-16",t:"1922-07-20",d:"fransa-cumhuriyet"},{f:"1922-07-20",t:"1960-01-01",d:"fransiz-kamerun-mandasi",kaynak:"Moloundou Kamerun’dadır (Doğu bölgesi, Kongo sınırı); önceki zincir onu 1960-08-15’te Kongo-Brazzaville’e geçirmişti (hata). SAHO node/11445 (1922 mandası) · TDV Kamerun (1 Ocak 1960)"},{f:"1960-01-01",t:"2000-12-31",d:"kamerun",kaynak:"TDV Kamerun: «1 Ocak 1960’ta bağımsızlığını ilân etti»"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Vacir (Wajir)", tur:"sehir", lat:1.7500, lon:40.0600, g:0, k:0,
@@ -1917,7 +1918,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bunia", tur:"sehir", lat:1.5600, lon:30.2500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 // HAYALET-KUNYE-1008-K · `bunyoro` künyesi 1501-01-01'de başlıyor (kesinlik yuzyil); 1281→1501-01-01 dilimi → `__BOSLUK__`.
@@ -1935,7 +1936,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Basankusu", tur:"sehir", lat:1.2200, lon:19.8000, g:0, k:0,
   kur:"1885-01-01",
-  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1885-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kitale", tur:"sehir", lat:1.0200, lon:35.0000, g:0, k:0,
@@ -1971,12 +1972,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Butembo", tur:"sehir", lat:0.1400, lon:29.2900, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mbandaka", tur:"sehir", lat:0.0500, lon:18.2600, g:0, k:0,
-  kur:"1883-06-17",
-  s:[{f:"1883-06-17",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  kur:"1885-01-01",
+  s:[{f:"1885-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kisumu", tur:"sehir", lat:-0.0900, lon:34.7700, g:0, k:0,
@@ -1986,7 +1987,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Boende", tur:"sehir", lat:-0.2800, lon:20.8800, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Nakuru", tur:"sehir", lat:-0.3000, lon:36.0800, g:0, k:0,
@@ -2006,7 +2007,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Djolu", tur:"sehir", lat:-0.5700, lon:22.4500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mbarara (Nkore)", tur:"sehir", lat:-0.6100, lon:30.6600, g:0, k:0,
@@ -2022,12 +2023,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Lubutu", tur:"sehir", lat:-0.7300, lon:26.5800, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Ikela", tur:"sehir", lat:-1.1800, lon:23.2700, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Nairobi", tur:"sehir", lat:-1.2900, lon:36.8200, g:0, k:0,
@@ -2043,8 +2044,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bukoba", tur:"sehir", lat:-1.3300, lon:31.8100, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1890-01-01",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kitui", tur:"sehir", lat:-1.3700, lon:38.0100, g:0, k:0,
@@ -2054,7 +2055,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Valikale", tur:"sehir", lat:-1.4200, lon:28.0500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Maçakos", tur:"sehir", lat:-1.5200, lon:37.2600, g:0, k:0,
@@ -2064,7 +2065,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Monkoto", tur:"sehir", lat:-1.6000, lon:20.6800, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Fransvil (Franceville)", tur:"sehir", lat:-1.6300, lon:13.5800, g:0, k:0,
@@ -2079,25 +2080,25 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kigali", tur:"sehir", lat:-1.9500, lon:30.0600, g:0, k:0,
   kur:"1907-01-01",
-  s:[{f:"1907-01-01",t:"1916-05-06",d:"almanya"},
-     {f:"1916-05-06",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
+  s:[{f:"1907-01-01",t:"1916-05-06",d:"alman-dogu-afrikasi"},
+     {f:"1916-05-06",t:"1922-07-20",d:"belcika"},{f:"1922-07-20",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Nyanza (Ruanda)", tur:"sehir", lat:-2.3500, lon:29.7500, g:0, k:0,
   kur:"1300-01-01",
   s:[{f:"1300-01-01",t:"1916-05-06",d:"ruanda"},
-     {f:"1916-05-06",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
+     {f:"1916-05-06",t:"1922-07-20",d:"belcika"},{f:"1922-07-20",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
   kaynak:"ruanda" },
 
 { ad:"Bukavu", tur:"sehir", lat:-2.5100, lon:28.8600, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Bukavu Kivu'dadir (Belçika Kongosu, Ruanda-Urundi DEĞİL); f: history.state.gov congo-free-state — «annexed as a colony by Belgium on November 15, 1908» · TDV kongo-demokratik-cumhuriyeti"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"TDV kongo-demokratik-cumhuriyeti — bağımsızlık 30 Haziran 1960"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mvanza", tur:"sehir", lat:-2.5200, lon:32.9000, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1892-01-01",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Cambala (Djambala)", tur:"sehir", lat:-2.5400, lon:14.7500, g:0, k:0,
@@ -2112,41 +2113,41 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kindu", tur:"sehir", lat:-2.9500, lon:25.9200, g:0, k:0,
   kur:"1893-01-01",
-  s:[{f:"1893-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1893-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Bandundu", tur:"sehir", lat:-3.3100, lon:17.3800, g:0, k:0,
   kur:"1885-01-01",
-  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1885-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mosi (Moshi)", tur:"sehir", lat:-3.3500, lon:37.3400, g:0, k:0,
   kur:"1893-01-01",
-  s:[{f:"1893-01-01",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1893-01-01",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Arusa (Arusha)", tur:"sehir", lat:-3.3700, lon:36.6800, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1900-01-01",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Bucumbura", tur:"sehir", lat:-3.3800, lon:29.3600, g:0, k:0,
   kur:"1897-01-01",
-  s:[{f:"1897-01-01",t:"1916-06-06",d:"almanya"},
-     {f:"1916-06-06",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"1966-11-28",d:"burundi-krallik",kaynak:"Britannica 'Burundi'"},{f:"1966-11-28",t:"2000-12-31",d:"burundi-cumhuriyeti",kaynak:"Britannica 'Burundi'"}],
+  s:[{f:"1897-01-01",t:"1916-06-06",d:"alman-dogu-afrikasi"},
+     {f:"1916-06-06",t:"1922-07-20",d:"belcika"},{f:"1922-07-20",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"1966-11-28",d:"burundi-krallik",kaynak:"Britannica 'Burundi'"},{f:"1966-11-28",t:"2000-12-31",d:"burundi-cumhuriyeti",kaynak:"Britannica 'Burundi'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Uvira", tur:"sehir", lat:-3.4000, lon:29.1400, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1892-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gitega (Burundi)", tur:"sehir", lat:-3.4300, lon:29.9200, g:0, k:0,
   kur:"1680-01-01",
   s:[{f:"1680-01-01",t:"1916-06-06",d:"burundi"},
-     {f:"1916-06-06",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"1966-11-28",d:"burundi-krallik",kaynak:"Britannica 'Burundi'"},{f:"1966-11-28",t:"2000-12-31",d:"burundi-cumhuriyeti",kaynak:"Britannica 'Burundi'"}],
+     {f:"1916-06-06",t:"1922-07-20",d:"belcika"},{f:"1922-07-20",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"1966-11-28",d:"burundi-krallik",kaynak:"Britannica 'Burundi'"},{f:"1966-11-28",t:"2000-12-31",d:"burundi-cumhuriyeti",kaynak:"Britannica 'Burundi'"}],
   kaynak:"bulunamadı" },
 
 { ad:"Sibiti", tur:"sehir", lat:-3.6800, lon:13.3500, g:0, k:0,
@@ -2157,24 +2158,24 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Nyangve (Nyangwe)", tur:"sehir", lat:-4.2100, lon:26.1800, g:0, k:0,
   kur:"1860-01-01",
   s:[{f:"1860-01-01",t:"1893-03-04",d:"umman-zengibar"},
-     {f:"1893-03-04",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1893-03-04",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Babati", tur:"sehir", lat:-4.2200, lon:35.7500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1900-01-01",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"İlebo", tur:"sehir", lat:-4.3300, lon:20.5800, g:0, k:0,
   kur:"1888-01-01",
-  s:[{f:"1888-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1888-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kasongo", tur:"sehir", lat:-4.4300, lon:26.6600, g:0, k:0,
   kur:"1860-01-01",
   s:[{f:"1860-01-01",t:"1893-01-01",d:"umman-zengibar"},
-     {f:"1893-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1893-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Puent-Nuar", tur:"sehir", lat:-4.7900, lon:11.8600, g:0, k:0,
@@ -2184,143 +2185,143 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Singida", tur:"sehir", lat:-4.8200, lon:34.7500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1900-01-01",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Ucici (Ujiji)", tur:"sehir", lat:-4.9200, lon:29.6800, g:0, k:0,
   kur:"1830-01-01",
   s:[{f:"1830-01-01",t:"1890-11-04",d:"umman-zengibar"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lusambo", tur:"sehir", lat:-4.9700, lon:23.4400, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tabora (Kazeh)", tur:"sehir", lat:-5.0200, lon:32.8000, g:0, k:0,
   kur:"1852-01-01",
   s:[{f:"1852-01-01",t:"1890-11-04",d:"umman-zengibar"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kikwit", tur:"sehir", lat:-5.0400, lon:18.8200, g:0, k:0,
   kur:"1896-01-01",
-  s:[{f:"1896-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1896-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Luebo", tur:"sehir", lat:-5.3500, lon:21.4200, g:0, k:0,
   kur:"1885-01-01",
-  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1885-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Pangani", tur:"sehir", lat:-5.4296, lon:38.9781, g:0, k:0,
   s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},
      {f:"1698-12-13",t:"1890-11-04",d:"umman-zengibar"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kalemie", tur:"sehir", lat:-5.9509, lon:29.1824, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1892-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kabalo", tur:"sehir", lat:-6.0500, lon:26.9200, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Fesi (Feshi)", tur:"sehir", lat:-6.1100, lon:18.1700, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1887-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kabinda", tur:"sehir", lat:-6.1300, lon:24.4800, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Dodoma", tur:"sehir", lat:-6.1700, lon:35.7500, g:0, k:0,
   kur:"1907-01-01",
-  s:[{f:"1907-01-01",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1907-01-01",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mpvapva", tur:"sehir", lat:-6.3500, lon:36.4900, g:0, k:0,
   s:[{f:"1281-01-01",t:"1890-11-04",d:"nyamvezi"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"tanzanya" },
 
 { ad:"Morogoro", tur:"sehir", lat:-6.8200, lon:37.6600, g:0, k:0,
   s:[{f:"1281-01-01",t:"1890-11-04",d:"nyamvezi"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"tanzanya" },
 
 { ad:"Kilosa", tur:"sehir", lat:-6.8300, lon:36.9900, g:0, k:0,
   s:[{f:"1281-01-01",t:"1890-11-04",d:"nyamvezi"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"tanzanya" },
 
 { ad:"Kahemba", tur:"sehir", lat:-7.2800, lon:18.9900, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1887-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Dundo", tur:"sehir", lat:-7.3700, lon:20.8300, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1887-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Uije (Uíge)", tur:"sehir", lat:-7.6100, lon:15.0600, g:0, k:0,
   kur:"1390-01-01",
   s:[{f:"1390-01-01",t:"1914-01-01",d:"kongo-kralligi"},
-     {f:"1914-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1914-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kalenga (Hehe)", tur:"sehir", lat:-7.7900, lon:35.6200, g:0, k:0,
   kur:"1850-01-01",
   s:[{f:"1850-01-01",t:"1898-07-19",d:"hehe"},
-     {f:"1898-07-19",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1898-07-19",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Sumbavanga", tur:"sehir", lat:-7.9700, lon:31.6200, g:0, k:0,
   s:[{f:"1281-01-01",t:"1890-11-04",d:"fipa-nyakyusa"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Kamina", tur:"sehir", lat:-8.7400, lon:25.0000, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kilva Kivince", tur:"sehir", lat:-8.7500, lon:39.4100, g:0, k:0,
   kur:"1800-01-01",
   s:[{f:"1800-01-01",t:"1890-11-04",d:"umman-zengibar"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mbeya", tur:"sehir", lat:-8.9000, lon:33.4600, g:0, k:0,
   s:[{f:"1281-01-01",t:"1890-11-04",d:"fipa-nyakyusa"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Matamba", tur:"sehir", lat:-9.3000, lon:16.0000, g:0, k:0,
   s:[{f:"1281-01-01",t:"1744-01-01",d:"matamba"},
-     {f:"1744-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1744-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Njombe", tur:"sehir", lat:-9.3400, lon:34.7700, g:0, k:0,
@@ -2332,40 +2333,40 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kasance (Kasanje)", tur:"sehir", lat:-9.3600, lon:18.1400, g:0, k:0,
   kur:"1620-01-01",
   s:[{f:"1620-01-01",t:"1910-01-01",d:"kasance"},
-     {f:"1910-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1910-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Massangano", tur:"sehir", lat:-9.5400, lon:14.2000, g:0, k:0,
   kur:"1583-01-01",
-  s:[{f:"1583-01-01",t:"1923-10-29",d:"portekiz", enklav: true },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1583-01-01",t:"1923-10-29",d:"portekiz-angola", enklav: true },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Malanje", tur:"sehir", lat:-9.5400, lon:16.3400, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Saurimo", tur:"sehir", lat:-9.6600, lon:20.3900, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1887-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Sandoa", tur:"sehir", lat:-9.6600, lon:22.8700, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1887-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Pungo Andongo", tur:"sehir", lat:-9.6700, lon:15.5700, g:0, k:0,
   kur:"1671-01-01",
-  s:[{f:"1671-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1671-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kambambe (Cambambe)", tur:"sehir", lat:-9.7500, lon:14.4800, g:0, k:0,
   kur:"1604-01-01",
-  s:[{f:"1604-01-01",t:"1923-10-29",d:"portekiz", enklav: true },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1604-01-01",t:"1923-10-29",d:"portekiz-angola", enklav: true },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mvansabombve (Kazembe)", tur:"sehir", lat:-9.8500, lon:28.7500, g:0, k:0,
@@ -2391,8 +2392,8 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Lindi", tur:"sehir", lat:-10.0000, lon:39.7200, g:0, k:0,
   s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},
      {f:"1698-12-13",t:"1890-11-04",d:"umman-zengibar"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kasama (Bemba)", tur:"sehir", lat:-10.2100, lon:31.1800, g:0, k:0,
@@ -2404,14 +2405,14 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Mikindani", tur:"sehir", lat:-10.2800, lon:40.1200, g:0, k:0,
   s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},
      {f:"1698-12-13",t:"1890-11-04",d:"umman-zengibar"},
-     {f:"1890-11-04",t:"1916-09-01",d:"almanya"},
-     {f:"1916-09-01",t:"1961-12-09",d:"ingiltere"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1890-11-04",t:"1916-09-01",d:"alman-dogu-afrikasi"},
+     {f:"1916-09-01",t:"1922-07-20",d:"ingiltere"},{f:"1922-07-20",t:"1961-12-09",d:"ingiliz-tanganika-mandasi"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Bunkeya (Yeke)", tur:"sehir", lat:-10.4100, lon:26.9400, g:0, k:0,
   kur:"1856-01-01",
   s:[{f:"1856-01-01",t:"1891-12-20",d:"yeke"},
-     {f:"1891-12-20",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1891-12-20",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı" },
 
 { ad:"Songea (Ngoni)", tur:"sehir", lat:-10.6800, lon:35.6500, g:0, k:0,
@@ -2422,7 +2423,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kolvezi", tur:"sehir", lat:-10.7200, lon:25.4700, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"kongo-serbest-devleti"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Masasi", tur:"sehir", lat:-10.7200, lon:38.8000, g:0, k:0,
@@ -2439,13 +2440,13 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Mosimboa", tur:"sehir", lat:-11.3500, lon:40.3500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Luena (Moxico)", tur:"sehir", lat:-11.7800, lon:19.9200, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Mpika", tur:"sehir", lat:-11.8300, lon:31.4500, g:0, k:0,
@@ -2457,7 +2458,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kazombo", tur:"sehir", lat:-11.9000, lon:22.9200, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Solwezi", tur:"sehir", lat:-12.1700, lon:26.3800, g:0, k:0,
@@ -2469,7 +2470,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Bailundo", tur:"sehir", lat:-12.1900, lon:15.8300, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Antseranana", tur:"sehir", lat:-12.2800, lon:49.2900, g:0, k:0,
@@ -2479,24 +2480,24 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"İbo (Kerimba)", tur:"sehir", lat:-12.3875, lon:40.5607, g:0, k:0,
   kur:"1600-01-01",
-  s:[{f:"1600-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1600-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kuito (Bié)", tur:"sehir", lat:-12.3800, lon:16.9400, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Benguela", tur:"sehir", lat:-12.5800, lon:13.4100, g:0, k:0,
   kur:"1617-05-17",
-  s:[{f:"1617-05-17",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1617-05-17",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Huambo (Wambu)", tur:"sehir", lat:-12.7800, lon:15.7400, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Mvembe (Mataka)", tur:"sehir", lat:-12.9000, lon:36.0000, g:0, k:0,
@@ -2519,7 +2520,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Montepuez", tur:"sehir", lat:-13.1300, lon:39.0000, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Serence (Serenje)", tur:"sehir", lat:-13.2400, lon:30.2400, g:0, k:0,
@@ -2530,7 +2531,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Licinga", tur:"sehir", lat:-13.3100, lon:35.2400, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kasempa", tur:"sehir", lat:-13.4600, lon:25.8300, g:0, k:0,
@@ -2558,12 +2559,12 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kangamba", tur:"sehir", lat:-13.7000, lon:19.8700, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Kakonda (Caconda)", tur:"sehir", lat:-13.7300, lon:15.0700, g:0, k:0,
   kur:"1682-01-01",
-  s:[{f:"1682-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1682-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Sambava", tur:"sehir", lat:-14.2700, lon:50.1700, g:0, k:0,
@@ -2587,7 +2588,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Menongue", tur:"sehir", lat:-14.6600, lon:17.6900, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Kaoma (Mankoya)", tur:"sehir", lat:-14.8000, lon:24.8000, g:0, k:0,
@@ -2598,13 +2599,13 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kuamba", tur:"sehir", lat:-14.8000, lon:36.5400, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lubango", tur:"sehir", lat:-14.9200, lon:13.4900, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Kalabo", tur:"sehir", lat:-14.9700, lon:22.6800, g:0, k:0,
@@ -2621,12 +2622,12 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kuito Kuanavale", tur:"sehir", lat:-15.1700, lon:19.1700, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Mosamedes (Namibe)", tur:"sehir", lat:-15.2000, lon:12.1500, g:0, k:0,
   kur:"1840-08-04",
-  s:[{f:"1840-08-04",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1840-08-04",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lealui (Lozi)", tur:"sehir", lat:-15.2000, lon:23.1000, g:0, k:0,
@@ -2648,7 +2649,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Zumbo", tur:"sehir", lat:-15.6100, lon:30.4500, g:0, k:0,
   kur:"1720-01-01",
-  s:[{f:"1720-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1720-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mahacanga (Majunga)", tur:"sehir", lat:-15.7170, lon:46.3199, g:0, k:0,
@@ -2665,7 +2666,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Mavinga", tur:"sehir", lat:-15.8300, lon:20.3600, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Senanga", tur:"sehir", lat:-16.1200, lon:23.2700, g:0, k:0,
@@ -2676,7 +2677,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Tete", tur:"sehir", lat:-16.1600, lon:33.5900, g:0, k:0,
   kur:"1531-01-01",
-  s:[{f:"1531-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1531-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Besalampy", tur:"sehir", lat:-16.7500, lon:44.4800, g:0, k:0,
@@ -2699,7 +2700,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Sena", tur:"sehir", lat:-17.4500, lon:35.0300, g:0, k:0,
   kur:"1530-01-01",
-  s:[{f:"1530-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1530-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Seşeke (Sesheke)", tur:"sehir", lat:-17.4800, lon:24.3000, g:0, k:0,
@@ -2710,14 +2711,14 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Katima Mulilo", tur:"sehir", lat:-17.5000, lon:24.2700, g:0, k:0,
   kur:"1890-07-01",
-  s:[{f:"1890-07-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1890-07-01",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kuangar", tur:"sehir", lat:-17.5800, lon:18.6100, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1923-10-29",d:"portekiz-angola"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Binga", tur:"sehir", lat:-17.6200, lon:27.3400, g:0, k:0,
@@ -2738,13 +2739,13 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Ondangva (Ondonga)", tur:"sehir", lat:-17.9200, lon:15.9500, g:0, k:0,
   kur:"1600-01-01",
   s:[{f:"1600-01-01",t:"1917-02-06",d:"ovambo"},
-     {f:"1917-02-06",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1917-02-06",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Rundu", tur:"sehir", lat:-17.9300, lon:19.7700, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1900-01-01",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Maintirano", tur:"sehir", lat:-18.0600, lon:44.0300, g:0, k:0,
@@ -2793,8 +2794,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Tsumeb", tur:"sehir", lat:-19.2400, lon:17.7100, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1900-01-01",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gveru", tur:"sehir", lat:-19.4500, lon:29.8200, g:0, k:0,
@@ -2804,8 +2805,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Grutfontein", tur:"sehir", lat:-19.5700, lon:18.1100, g:0, k:0,
   kur:"1893-01-01",
-  s:[{f:"1893-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1893-01-01",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Danangombe (Rozvi)", tur:"sehir", lat:-19.6000, lon:29.3000, g:0, k:0,
@@ -2828,8 +2829,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Outjo", tur:"sehir", lat:-20.1100, lon:16.1500, g:0, k:0,
   kur:"1895-01-01",
-  s:[{f:"1895-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1895-01-01",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Khami", tur:"sehir", lat:-20.1500, lon:28.3800, g:0, k:0,
@@ -2880,7 +2881,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Massangena", tur:"sehir", lat:-21.5400, lon:32.9600, g:0, k:0,
   kur:"1895-01-01",
-  s:[{f:"1895-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1895-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Ganzi (Ghanzi)", tur:"sehir", lat:-21.7000, lon:21.6500, g:0, k:0,
@@ -2891,19 +2892,19 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Okahandja", tur:"sehir", lat:-21.9800, lon:16.9100, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-01-12",d:"herero"},
-     {f:"1904-01-12",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1904-01-12",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Cikualakuala", tur:"sehir", lat:-22.0900, lon:31.6800, g:0, k:0,
   kur:"1895-01-01",
-  s:[{f:"1895-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1895-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Otjimbingve", tur:"sehir", lat:-22.3500, lon:16.1300, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-01-12",d:"herero"},
-     {f:"1904-01-12",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1904-01-12",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Vohipeno (Antemoro)", tur:"sehir", lat:-22.3600, lon:47.8300, g:0, k:0,
@@ -2926,8 +2927,8 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Gobabis", tur:"sehir", lat:-22.4500, lon:18.9700, g:0, k:0,
   kur:"1856-01-01",
   s:[{f:"1856-01-01",t:"1884-08-07",d:"hollanda"},
-     {f:"1884-08-07",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1884-08-07",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Palapye", tur:"sehir", lat:-22.5500, lon:27.1300, g:0, k:0,
@@ -2938,14 +2939,14 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Vindhuk (Windhoek)", tur:"sehir", lat:-22.5700, lon:17.0800, g:0, k:0,
   kur:"1890-10-18",
-  s:[{f:"1890-10-18",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1890-10-18",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Valvis Körfezi", tur:"sehir", lat:-22.9600, lon:14.5100, g:0, k:0,
   kur:"1793-01-01",
   s:[{f:"1793-01-01",t:"1878-03-12",d:"hollanda"},
-     {f:"1878-03-12",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1878-03-12",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Walvis Bay Güney Afrika’nın (Kap) bir parçası olarak kaldı, SWA mandasına DAHİL DEĞİLDİ; Birlik künyesi f 1910-05-31"},{f:"1961-05-31",t:"1994-03-01",d:"guney-afrika-cumhuriyeti",kaynak:"SAHO «Walvis Bay handed over to Namibia» (sahistory.org.za/dated-event/walvis-bay-handed-over-namibia), bu oturumda okundu: 1 Mart 1994, «ended eighty-four years of control»; önceki zincir Namibya’ya 1990-03-21’de geçiriyordu (hata)"},{f:"1994-03-01",t:"2000-12-31",d:"namibya",kaynak:"SAHO: 1 Mart 1994 devir"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Dzata (Venda)", tur:"sehir", lat:-22.9600, lon:30.1500, g:0, k:0,
@@ -2968,8 +2969,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Rehoboth", tur:"sehir", lat:-23.3200, lon:17.0800, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-10-03",d:"nama-orlam"},
-     {f:"1904-10-03",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1904-10-03",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Toliara (Tuléar)", tur:"sehir", lat:-23.3500, lon:43.6700, g:0, k:0,
@@ -2980,7 +2981,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Mabalane", tur:"sehir", lat:-23.4200, lon:32.5500, g:0, k:0,
   kur:"1895-01-01",
-  s:[{f:"1895-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1895-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kang", tur:"sehir", lat:-23.6700, lon:22.8000, g:0, k:0,
@@ -2991,7 +2992,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"İnhambane", tur:"sehir", lat:-23.8700, lon:35.3800, g:0, k:0,
   kur:"1534-01-01",
-  s:[{f:"1534-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1534-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tshane", tur:"sehir", lat:-24.0200, lon:21.8700, g:0, k:0,
@@ -3002,8 +3003,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Aranos", tur:"sehir", lat:-24.1300, lon:19.1200, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1900-01-01",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Molepolole (Kvena)", tur:"sehir", lat:-24.4100, lon:25.5000, g:0, k:0,
@@ -3020,8 +3021,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Mariental", tur:"sehir", lat:-24.6300, lon:17.9700, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1890-01-01",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tjate (Pedi)", tur:"sehir", lat:-24.7000, lon:30.0500, g:0, k:0,
@@ -3055,7 +3056,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Lourenço Marques", tur:"sehir", lat:-25.9693, lon:32.5800, g:0, k:0,
   kur:"1781-01-01",
-  s:[{f:"1781-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1781-01-01",t:"1923-10-29",d:"portekiz-mozambik"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tsabong", tur:"sehir", lat:-26.0200, lon:22.4000, g:0, k:0,
@@ -3072,21 +3073,21 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bethanie", tur:"sehir", lat:-26.4900, lon:17.1500, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-10-03",d:"nama-orlam"},
-     {f:"1904-10-03",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1904-10-03",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Keetmanshoop", tur:"sehir", lat:-26.5800, lon:18.1300, g:0, k:0,
   kur:"1866-01-01",
   s:[{f:"1866-01-01",t:"1884-08-07",d:"hollanda"},
-     {f:"1884-08-07",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1884-08-07",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lüderitz", tur:"sehir", lat:-26.6500, lon:15.1600, g:0, k:0,
   kur:"1883-05-01",
-  s:[{f:"1883-05-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1883-05-01",t:"1884-08-07",d:"almanya"},{f:"1884-08-07",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Potchefstroom", tur:"sehir", lat:-26.7200, lon:27.1000, g:0, k:0,
@@ -3125,8 +3126,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Varmbad (Warmbad)", tur:"sehir", lat:-28.4500, lon:18.7400, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-10-03",d:"nama-orlam"},
-     {f:"1904-10-03",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1904-10-03",t:"1915-07-09",d:"alman-guneybati-afrikasi"},
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Upington", tur:"sehir", lat:-28.4500, lon:21.2400, g:0, k:0,

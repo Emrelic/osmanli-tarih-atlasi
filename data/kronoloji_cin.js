@@ -172,7 +172,7 @@ window.KRONOLOJI_CIN = [
   d:"Hongwu, nüfus ve vergiyi onlu hane gruplarıyla (lijia) kayıt altına alan Sarı Kayıtlar sistemini kurdu. Sistem, imparatorluğun köylü tabanını doğrudan denetlemesini sağladı ve iki asır boyunca malî idarenin temeli oldu.",
   kaynak:"The Cambridge History of China, cilt 7 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["ming-hanedani"], t:"1392-07-17", b:"Goryeo çöktü, Joseon Kore kuruldu — Ming'e tâbi", tur:"siyaset",
+{ taraflar:["ming-hanedani"], t:"1392-08-05", b:"Goryeo çöktü, Joseon Kore kuruldu — Ming'e tâbi", tur:"siyaset",
   onem:2, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Kore'de General Yi Seong-gye, Goryeo hanedanını devirip Joseon'u kurdu ve Ming'e haraç ilişkisiyle bağlandı. İlişki, Doğu Asya'nın Sinosentrik haraç düzeninin (tributary system) çekirdek örneklerinden biri oldu.",
@@ -370,7 +370,7 @@ window.KRONOLOJI_CIN = [
   d:"Matteo Ricci ile âlim-devlet adamı Xu Guangqi, Öklid'in Elementler'inin ilk altı kitabını Çinceye çevirip Batı geometrisini Çin bilim çevrelerine tanıttı. Çeviri, Cizvit-Çin bilimsel işbirliğinin en kalıcı ürünlerinden biri oldu.",
   kaynak:"The Cambridge History of China, cilt 8 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["ming-hanedani"], t:"1616-05-15", b:"Nurhaci \"Sonraki Jin\"i (Qing'in öncülü) ilan etti", tur:"kurulus",
+{ taraflar:["ming-hanedani"], t:"1616-01-01", kesinlik:"yil", gun:"1616", ic_not_gun:"DENETIM-CIN-MOGOL-1028: eski t 1616-05-15 kaynaksızdı (1636 Qing ilan gününün kopyası görünüyor; kaynak yalnız 1616 yılını veriyor). Gün Qing Taizu shilu / Çin takvimi tablosuyla doğrulanamadı ⇒ yıl hassasiyeti (CLAUDE.md: tarih uydurma).", b:"Nurhaci \"Sonraki Jin\"i (Qing'in öncülü) ilan etti", tur:"kurulus",
   onem:4, dunya:2, kapsam:"ic", etiket:["kurulus","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"Mukden (Şenyang)",
   d:"Mançu boylarını Sekiz Sancak sistemi altında birleştiren Nurhaci, kendisini han ilan edip \"Sonraki Jin\" hanedanını kurdu. Bu devlet, oğlu Hong Taiji'nin 1636'da Qing adını almasıyla imparatorluğa dönüşecekti.",
@@ -460,7 +460,7 @@ window.KRONOLOJI_CIN = [
   d:"Tayvan'ın fethiyle deniz güvenliği sağlanınca Kangxi, dört limanı yabancı ticarete resmen açtı. Karar, sonraki yüzyılın Kanton sistemine evrilecek dış ticaret düzeninin başlangıcıydı.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["qing-hanedani"], t:"1689-09-07", b:"Nerçinsk Antlaşması — Rusya ile sınır çizildi", tur:"antlasma",
+{ taraflar:["qing-hanedani"], t:"1689-09-06", ic_not_takvim:"Jülyen 27 Ağustos 1689 (Rus kaynakları; en.wikipedia Treaty of Nerchinsk, prlib.ru) = Gregoryen 6 Eylül 1689 (+10 gün); ÇELİŞKİ BEYANI: Çince kaynaklar (康熙二十八年七月二十四日 = 7 Eylül 1689; 163.com, udn blog — akademik değil) 7 Eylül verir; Rus Jülyen 27 Ağustos+10 = 6 Eylül. 1 günlük fark çözülemedi; yerleşim s: sınırlarıyla (09-06) birleştirildi, Çin akademik teyidi (Qing Shilu/Zhongguo Dang'an) aranacak", b:"Nerçinsk Antlaşması — Rusya ile sınır çizildi", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
   yer_id:"",
   d:"Qing ve Rus İmparatorluğu, Cizvit tercümanların arabuluculuğuyla Amur havzasındaki sınırı belirleyen Nerçinsk Antlaşması'nı imzaladı. Antlaşma, Çin'in Avrupa devletiyle eşit hukuk temelinde imzaladığı ilk modern andlaşmaydı.",

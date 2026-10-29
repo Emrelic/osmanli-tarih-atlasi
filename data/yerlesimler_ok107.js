@@ -273,8 +273,9 @@ window.YERLESIMLER_OK107 = [
   s:[{f:"1281-01-01",t:"1893-01-01",d:"kanem-bornu"},
      {f:"1893-01-01",t:"1900-04-22",d:"rabih",kaynak:"TDV bornu: 'Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · 'Dikeo'yu merkez edinen Râbih 1900'de … öldürülünce' — iki uç da YIL düzeyi (GEMINI-DOGRULA 0919)"},
      {f:"1900-04-22",t:"1902-01-01",d:"kanem-bornu",kaynak:"Râbih'in sonu: 22 Nisan 1900 Kusseri (Michel 2000; Bangui 2004) — TDV bornu/cad yalnız 1900 · KUTU-H1-1015"},
-     {f:"1902-01-01",t:"1919-06-28",d:"almanya"},
-     {f:"1919-06-28",t:"1960-10-01",d:"ingiltere"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1902-01-01",t:"1916-02-18",d:"alman-kamerun",kaynak:"TDV bornu: «DİKEO ile güney bölgesi ALMAN sömürge idarelerine bağlandı» (Dikeo bölgesi Alman Kamerunu’na); bitiş alman-kamerun künye t"},
+     {f:"1916-02-18",t:"1922-07-20",d:"ingiltere",kaynak:"TDV bornu: «Dünya Savaşı’ndan sonra Almanya’nın elindeki bölge de İngiltere’nin hâkimiyetine geçti»; Dikwa’nın düşüş günü bu turda kaynakla BULUNAMADI — pencere ucu künye t’sine hizalandı (BEYANLI YAKLAŞIKLIK)"},
+     {f:"1922-07-20",t:"1961-01-01",d:"ingiliz-kamerun",kesinlik:{t:"yil"},kaynak:"SAHO node/11445: Britanya Kamerun’un kuzey kısmını mandayla aldı, «joined Nigeria in 1961» (yıl; gün bu turda bulunamadı)"},{f:"1961-01-01",t:"2000-12-31",d:"nijerya",kesinlik:{f:"yil"},kaynak:"SAHO node/11445: Kuzey Kamerun 1961’de Nijerya’ya katıldı"}],
   d:[], v:[], kaynak:"bornu"
 },
 

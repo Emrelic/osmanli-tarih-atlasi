@@ -86,3 +86,18 @@ Bileşen kuralının bu toprakları **kime** verdiği de ölçülemedi: o iş `p
 5. Büyük bit-tarafı peteklerin (Harappa, Kumbî Sâlih, Jiahu…) alıcıları gözle kontrol
    edilmeli. Antik noktanın toprağı o tarihte çevrede yaşayan yerleşimlere geçmeli,
    denizaşırı ya da uzak bir yere gitmemeli.
+6. **post-it #154** (Emre "a", 27 Ekim 2026): 1676-09-19'da Szatmár'ın güneyindeki boyasız
+   alan (merkez ≈47,48K 22,61D, ≈84×115 km) kapanmalı. Alanda iki ölü nokta var, ikisinde de
+   `bit:1281-01-01` ve sahip yok: Dacia (47,5K 22,5D) ve Karpat havzası (47,45K 22,98D).
+   Toprak Szatmár (Habsburg), Debrecen/Varad (Osmanlı) ve Erdel (tâbi) arasında
+   paylaşılmalı.
+   Ölçüm (KASA, worktree `postit-154`, `origin/main` üstü; kıyı yalnız 10-35D/40-55K kutusu,
+   alet `ARAC-KUSATMA-BILESEN-1027.py`'nin o güne ve kutuya daraltılmış kopyası):
+   - **Dacia (≈2.636 km²):** yamasız `_kusatilmis` → **yok**, yamalı → **DEVİR**.
+   - **Karpat havzası (≈7.419 km²):** yamasız da DEVİR, yamalı da DEVİR.
+
+   ⚠️ Karpat havzası bugün de devir kümesinde, ama sitede onun çevresi de boyasız görünüyor.
+   "Kime" aşaması (`petek_epok`) ancak tam koşuda ölçülür, bu yüzden bu madde gözle
+   doğrulanır.
+   Puan dolgusu ayrıca berabere kalıyordu: Dacia'da Habsburg 16 = Osmanlı 16, bu yüzden
+   katılmıyordu.
