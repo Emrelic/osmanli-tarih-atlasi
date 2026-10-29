@@ -5932,7 +5932,7 @@ function isyanGuncelle(t) {
 //   peteği tâbi kümesinden düşürdüyse (köprü, rötuş) hat dolgudan sapabilir.
 // 🔴 BÜTÇE: kare başına yalnız imza karşılaştırması; kenar hesabı imza (etkin
 //   petek×grup kümesi) değişince. Havuz (~2,2 MB) ilk tâbi günde BİR KEZ iner.
-var VIC = { imza: null, liste: null, yukleniyor: false };
+var VIC = { imza: null, liste: null, yukleniyor: false, sahip: [] };
 function _vicListe() {
   if (VIC.liste) return VIC.liste;
   var petAd = {}, L = [];
@@ -5945,9 +5945,27 @@ function _vicListe() {
       if (!g || !p.f || !p.t) return;
       L.push({ j: j, g: g, fi: gunIdx(p.f), ti: gunIdx(p.t) });
     });
+    // Postit #135: sahiplik aralıkları (d/v/s) — o gün hiçbiri etkin değilse peteği sahipsizdir.
+    var aral = [];
+    ["d", "v", "s"].forEach(function (a) {
+      (y[a] || []).forEach(function (p) { if (p.f && p.t) aral.push([gunIdx(p.f), gunIdx(p.t)]); });
+    });
+    VIC.sahip.push({ j: j, aral: aral });
   });
   VIC.liste = L;
   return L;
+}
+// Postit #135 (Emre: "A seçeneği"): o gün SAHİBİ OLMAYAN yerleşim peteği (bölge etiketi,
+// harabe, henüz kurulmamış şehir) boyada çevresindeki tâbi toprağa emilir; hat da öyle
+// çizilsin diye böyle bir petek, en çok kenar paylaştığı tâbi grubuna katılır. Hiçbir
+// gruba komşu değilse atlanır (tâbi hattı almaz).
+function _vicSahipsiz(t) {
+  var r = [];
+  VIC.sahip.forEach(function (o) {
+    for (var i = 0; i < o.aral.length; i++) if (t >= o.aral[i][0] && t < o.aral[i][1]) return;
+    r.push(o.j);
+  });
+  return r;
 }
 function vassalIcSinirGuncelle(t) {
   if (!haritaHazir || !harita.getSource("vassal-ic")) return;
@@ -5958,7 +5976,8 @@ function vassalIcSinirGuncelle(t) {
       if (t >= L[i].fi && t < L[i].ti) etkin.push(L[i]);
     }
   }
-  var imza = etkin.map(function (e) { return e.j + ":" + e.g; }).join(";");
+  var sahipsiz = etkin.length ? _vicSahipsiz(t) : [];
+  var imza = etkin.map(function (e) { return e.j + ":" + e.g; }).join(";") + "|" + sahipsiz.join(",");
   if (imza === VIC.imza) return;
   if (imza && !window.PETEK_GOVDE) {
     if (_PETEK_GOVDE_YUK.hata) return;
@@ -5970,16 +5989,40 @@ function vassalIcSinirGuncelle(t) {
   }
   VIC.imza = imza;
   var G = window.PETEK_GOVDE, PP = window.PETEK_GOVDE_PARCA, kenar = {}, cizgiler = [];
-  etkin.forEach(function (e) {
-    (G[e.j] || []).forEach(function (pi) {
+  function _vicKenarlar(j, fn) {
+    (G[j] || []).forEach(function (pi) {
       (PP[pi] || []).forEach(function (h) {
         for (var k = 0; k < h.length - 1; k++) {
           var a = h[k][0] + "," + h[k][1], b = h[k + 1][0] + "," + h[k + 1][1];
-          var anh = e.g + "#" + (a < b ? a + "|" + b : b + "|" + a), o = kenar[anh];
-          if (!o) kenar[anh] = { n: 1, p: [h[k], h[k + 1]] };
-          else o.n++;
+          fn(a < b ? a + "|" + b : b + "|" + a, h[k], h[k + 1]);
         }
       });
+    });
+  }
+  var kenarGrup = {};   // kenar → { grup: 1 } (yalnız sahipsiz petek ataması için)
+  etkin.forEach(function (e) {
+    _vicKenarlar(e.j, function (ak, p1, p2) {
+      var anh = e.g + "#" + ak, o = kenar[anh];
+      if (!o) kenar[anh] = { n: 1, p: [p1, p2] };
+      else o.n++;
+      (kenarGrup[ak] = kenarGrup[ak] || {})[e.g] = 1;
+    });
+  });
+  var etkinJ = {};
+  etkin.forEach(function (e) { etkinJ[e.j] = 1; });
+  sahipsiz.forEach(function (j) {
+    if (etkinJ[j]) return;
+    var say = {}, en = null;
+    _vicKenarlar(j, function (ak) {
+      var m = kenarGrup[ak];
+      if (m) for (var g in m) say[g] = (say[g] || 0) + 1;
+    });
+    for (var g in say) if (en === null || say[g] > say[en]) en = g;
+    if (en === null) return;
+    _vicKenarlar(j, function (ak, p1, p2) {
+      var anh = en + "#" + ak, o = kenar[anh];
+      if (!o) kenar[anh] = { n: 1, p: [p1, p2] };
+      else o.n++;
     });
   });
   for (var anh in kenar) if (kenar[anh].n === 1) cizgiler.push(kenar[anh].p);
