@@ -64,6 +64,17 @@ window.YERLESIMLER_HINT_ADALAR = [
      {f:"1965-11-08",t:"2000-12-31",d:"ingiltere",kaynak:"İngiliz Hint Okyanusu Toprağı (BIOT) 8 Kasım 1965'te Mauritius'tan ayrıldı — ICJ, Legal Consequences of the Separation of the Chagos Archipelago from Mauritius in 1965, İstişarî Görüş, 25 Şubat 2019 (açılmadı; ingiliz-mauritius künyesine madde eklendi). Mauritius 1968'de bağımsız oldu ama Chagos dışında kaldı."}],
   kaynak:"koordinat: Diego Garcia ≈ -7.32, 72.42 (yaklaşık)." },
 
+{ ad:"Nancowry (Nikobar)", tur:"liman", lat:7.9674, lon:93.5180, g:0, k:0, kur:"1756-01-01",
+  s:[{f:"1756-01-01",t:"1868-10-16",d:"danimarka-hindistani",kesinlik:"yil",kaynak:"Nikobar Adaları 1756'da «Frederiksøerne» adıyla Danimarka kolonisi ilan edildi (danimarka-hindistani künye maddesi 1756-01-01); Danimarka 1848'den itibaren adaları fiilen terk etti ama haklarını 16 Ekim 1868'de İngiltere'ye sattı (künye t 1845'ten 1868-10-16'ya genişletildi). 1756 öncesi adalar yerli Nikobarlıların yurduydu (devlet kaydı yok ⇒ kur 1756). AKADEMİK KAYNAK BULUNAMADI: dayanak Vikipedi aynaları; akademik teyit bekliyor. 1848-1868 fiilî terk BEYANLI YAKLAŞIKLIK (hukukî egemenlik Danimarka'da). HINT-OKYANUSU gece 29 Ekim 2026."},
+     {f:"1868-10-16",t:"1947-08-15",d:"ingiliz-hindistani",kaynak:"Nikobarlar 1868'de satın alındı, 1869'dan itibaren İngiliz Hindistanı'na bağlandı (aynalar). 1942-1945 Japon işgali gösterilmedi (BEYANLI YAKLAŞIKLIK)."},
+     {f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India."}],
+  kaynak:"koordinat: Nancowry (Nankauri) ≈ 7.97, 93.52 (yaklaşık)." },
+
+{ ad:"Kavaratti (Lakshadweep)", tur:"liman", lat:10.5626, lon:72.6369, g:0, k:0,
+  s:[{f:"1281-01-01",t:"1947-08-15",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: sahip yok künyeli polity. Lakshadweep'in yönetim zinciri (Portekiz dönemi baskısı → Kannur Arakkal (Ali Raja) hanedanı → Tipu Sultan 1780'ler (kaynaklar 1783/1786/1787 diye ayrışıyor) → İngiliz Doğu Hindistan Şirketi 1799 → Arakkal'ın 1905 devri) künyesizdir: `arakkal`/Mysore adaları için BOYALAR anahtarı yok (tuz). Lakshadweep resmî sitesi: «erken tarih yazılı değil, çoğu rivayet»; JMC Review 2020 (L.R.S. Lakshmi) 1905 devrini resmî son sayar. Kaynak çelişkisi (1783/1786/1787; 1790/1796 Maliku) ic_not'ta beyan; gün yok. Ada konumu iskânlıydı (İslam'ın 7.-14. yy yayılımı; yıl bilinmiyor → kur yazılmadı). Ladder ①TDV (Lakshadweep maddesi YOK) ②makale (JMC Review, açıldı özetten) ③Portekiz/İngiliz arşivleri AÇILMADI. HINT-OKYANUSU gece 29 Ekim 2026."},
+     {f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Lakshadweep Hindistan Birliği'nde (1956 Birlik Toprağı); Britannica India."}],
+  kaynak:"koordinat: Kavaratti (Lakshadweep merkezi) ≈ 10.56, 72.64 (yaklaşık)." },
+
 { ad:"Port-aux-Français (Kerguelen)", tur:"liman", lat:-49.3500, lon:70.2167, g:0, k:0, kur:"1950-01-01",
   s:[{f:"1950-01-01",t:"2000-12-31",d:"fransa-cumhuriyet",kesinlik:"yil",kaynak:"Kerguelen'de kalıcı Fransız üssü Port-aux-Français 1950'de kuruldu; öncesinde adalar iskânsız (Fransız sahiplenmesi 1893/1924 yönetimsel — burada gösterilmedi, BEYANLI YAKLAŞIKLIK). Aday kaynak: TAAF resmî sitesi (taaf.fr) — AÇILMADI. HINT-OKYANUSU 28 Ekim 2026."}],
   kaynak:"koordinat: Port-aux-Français ≈ -49.35, 70.22 (yaklaşık)." }

@@ -472,7 +472,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"candar", ad:"Candaroğulları (İsfendiyaroğulları)", tur:"beylik", bolge:"anadolu",
-  f:"1309-01-01", t:"1461-01-01", baskent:"Eflani (ilk merkez) → Kastamonu / Sinop", harita:"candar",
+  f:"1309-01-01", t:"1461-06-01", baskent:"Eflani (ilk merkez) → Kastamonu / Sinop", harita:"candar",
   ozet:"Karadeniz kıyısında en son ayakta kalan Anadolu beyliği (hanedan ömrü); TDV'ye göre erken XIV. yüzyılda (1309) Şemseddin Yaman Candar tarafından kuruldu, 1461'de Fâtih'in Mora karşılığı teklifiyle fiilen sona erdi.",
   kaynak:"candarogullari",
   kronoloji:[
@@ -2132,8 +2132,8 @@ window.DEVLETLER = [
     { odak_yer:["Semerkant"], t:"1370-04-09", tur:"kurulus", b:"Timur, Semerkant'ta hükümdarlığını ilan etti" },
     { odak_yer:["Semerkant"], t:"1387-01-01", tur:"savas", b:"İsfahan isyanı bastırılırken şehir yağmalandı" },
     { odak_yer:["Delhi"], t:"1398-12-17", tur:"savas", b:"Delhi Sultanlığı'nı yenip şehri yağmaladı" },
-    { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı" },
-    { odak_yer:["Semerkant"], t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı" },
+    { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı", kaynak:"TDV İslâm Ansiklopedisi, Timur maddesi, https://islamansiklopedisi.org.tr/timur («27 Zilhicce 804 (28 Temmuz 1402) Cuma» genelde kabul görmüştür)" },
+    { odak_yer:["Semerkant"], t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı", kaynak:"TDV İslâm Ansiklopedisi, Timur maddesi, https://islamansiklopedisi.org.tr/timur («17 Şâban 807'de (18 Şubat 1405) öldü»)" },
     { odak_yer:["Herat"], t:"1470-01-01", tur:"hukumdar", b:"Hüseyin Baykara, Herat'ta tahta çıktı" },
     { t:"1507-05-24", tur:"son", b:"Özbek Şeybânî Han Herat'ı aldı; Timurlu hâkimiyeti Orta Asya'da sona erdi (Hindistan'da Bâbür hanedanı olarak sürdü)" }
   ]
@@ -2150,7 +2150,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"burhaneddin", ad:"Kadı Burhâneddin Devleti (Sivas)", tur:"devlet", bolge:"anadolu",
-  f:"1381-01-01", t:"1398-01-01", baskent:"Sivas", harita:"burhaneddin",
+  f:"1381-01-01", t:"1398-07-15", baskent:"Sivas", harita:"burhaneddin",
   ozet:"Eretna beyliğinin vezirinin kurduğu, Karamanoğulları-Akkoyunlu-Osmanlı arasında sıkışan kısa ömürlü devlet; kurucusunun savaş meydanında ölümüyle çöktü. (kaynak: TDV, madde: kadi-burhaneddin)",
   kaynak:"kadi-burhaneddin",
   kronoloji:[
@@ -2217,7 +2217,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"esrefogullari", ad:"Eşrefoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1277-01-01", t:"1326-01-01", baskent:"Beyşehir", harita:"esrefogullari",
+  f:"1277-01-01", t:"1326-10-09", baskent:"Beyşehir", harita:"esrefogullari",
   ozet:"Göller bölgesinde kurulan kısa ömürlü beylik; toprakları Hamîdoğulları, Sâhib Ataoğulları ve Karamanoğulları arasında paylaşıldı. (kaynak: TDV, madde: esrefogullari)",
   kaynak:"esrefogullari",
   kronoloji:[
@@ -5306,9 +5306,9 @@ window.DEVLETLER = [
   kaynak:"hive-hanligi",
   kronoloji:[
     { odak_yer:["Hîve"], t:"1512-01-01", tur:"kurulus", b:"Yadigâroğulları İlbars ve Bilbars, Özbek-Türkmen güçleriyle Harzem'i ele geçirdi" },
-    { odak_yer:["Hîve"], t:"1600-01-01", tur:"hukumdar", b:"Başkent Ürgenç'ten Hive'ye taşındı" },
-    { odak_yer:["Hîve"], t:"1873-03-01", tur:"savas", b:"General Kaufmann'ın seferi başladı" },
-    { odak_yer:["Hîve"], t:"1873-05-29", tur:"antlasma", b:"Hive düştü, Rus himayesine girdi" },
+    { odak_yer:["Hîve"], t:"1603-01-01", tur:"hukumdar", b:"Başkent Ürgenç'ten Hive'ye taşındı", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi (Hive'nin kalıcı başkent oluşu Arap Muhammed Han, 1603-1623 dönemi; yıl düzeyi)", ic_not_b:"eski t 1600-01-01 kaynaksızdı; TDV 1600'ü vermez, Arap Muhammed Han (1603-1623) dönemini verir." },
+    { odak_yer:["Hîve"], t:"1873-03-01", tur:"savas", b:"General Kaufmann'ın seferi başladı", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi (Kaufmann kuvvetleri «Mart 1873»te Hive'ye ilerledi; ay hassasiyeti)" },
+    { odak_yer:["Hîve"], t:"1873-05-29", tur:"antlasma", b:"Hive düştü, Rus himayesine girdi", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi («29 Mayıs 1873» Hive'nin ele geçirilişi)" },
     { odak_yer:["Hîve"], t:"1920-04-26", tur:"son", b:"Harzem Halk Cumhuriyeti ilan edilerek hanlığa son verildi" }
   ]
 },
@@ -5360,7 +5360,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"cungar", ad:"Cungar Hanlığı (Kalmuk)", tur:"hanlik", bolge:"orta-asya",
-  f:"1634-01-01", t:"1758-01-01", baskent:"Gulca (Kulca) çevresi", harita:"cungar",
+  f:"1634-01-01", t:"1758-01-01", ic_not_t:"BEYAN: künye t 1758 = TDV Kalmuklar «Qianlong 1758'de Cungar egemenliğine son verdi»; Altishahr (Kaşgar, Yarkent, Hotan, Kuça, Aksu, Uçturfan) yerleşim dönemleri 1759'a dek cungar yazılı (Qing'in Doğu Türkistan fethi 1758-59). Bir yıllık aşım kabul edilmiş yaklaşıklıktır; gün kaynağı bulunamadı.", baskent:"Gulca (Kulca) çevresi", harita:"cungar",
   ozet:"Budist Oyrat-Moğol boylarının Cungarya'da kurduğu, Kazaklara ve Çin'e karşı büyük bir bozkır gücü hâline gelen hanlık; Mançu Qing hanedanının 1755-58 seferleriyle nüfusu kırılarak yok edildi. TDV'de ayrı madde yok (Kalmuklar maddesi içinde işleniyor); tarihler standart akademik kaynaklara göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5371,13 +5371,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"yakub-beg", ad:"Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)", tur:"devlet", bolge:"orta-asya",
-  f:"1865-01-01", t:"1878-03-16", baskent:"Kaşgar", harita:"yakub-beg",
+  f:"1865-01-01", t:"1878-03-16", ic_not_f:"BEYAN: Yâkub Bey yerleşim dönemleri 1864-06-04'ten (Qing denetiminin Kuça isyanıyla kopuşu) başlar; TDV Yâkub Han Kâşgarî: Kaşgar emirliği «1864-1869 yılları arasında». Künye f 1865-01-01 Yâkub Bey'in Kaşgar'a hâkimiyetidir (yıl; gün bulunamadı). Ara dönem fiilî isyancı idaresidir (kuca-hocalari / Hokand desteği) — BEYANLI YAKLAŞIKLIK.", baskent:"Kaşgar", harita:"yakub-beg",
   ozet:"Hokand kökenli Yâkub Bey'in Doğu Türkistan'da kurduğu, Osmanlı Sultanı Abdülaziz'in \"Emir\" unvanı ve yardım gönderdiği kısa ömürlü bağımsız devlet; Yâkub Bey'in ölümünün ardından Çin (Qing) yeniden fethetti. (kaynak: TDV, madde: yakub-beg)",
   kaynak:"kasgar",
   kronoloji:[
     { odak_yer:["Kaşgar","Hokand"], t:"1865-01-01", tur:"kurulus", b:"Yâkub Bey, Hokand'dan gelen kuvvetlerle Kaşgar'a hâkim oldu" },
     { odak_yer:["Kaşgar"], t:"1867-01-01", tur:"kurulus", b:"Nominal hükümdar Bûzürg Han Töre'yi bertaraf edip \"Atalık Gazi\" unvanıyla bağımsızlığını ilan etti" },
-    { odak_yer:["Kaşgar"], t:"1872-01-01", tur:"antlasma", b:"Sultan Abdülaziz'e elçi gönderip \"Emir\" unvanını ve askerî yardım aldı, hutbe onun adına okundu" },
+    { odak_yer:["Kaşgar"], t:"1873-06-16", tur:"antlasma", b:"Sultan Abdülaziz'e elçi gönderip \"Emir\" unvanını ve askerî yardım aldı, hutbe onun adına okundu", kaynak:"TDV İslâm Ansiklopedisi, Yâkub Han Kâşgarî maddesi, https://islamansiklopedisi.org.tr/yakub-han-kasgari (elçi 1872'de gönderildi; «16 Haziran 1873'te huzura kabul edilen»; unvan/hutbe günü yok)", ic_not_b:"eski t 1872-01-01 elçinin gönderildiği yıldı; TDV elçinin kabulünü 16 Haziran 1873 verir (YIL∩gün). Emir unvanı/hutbe günü bulunamadı." },
     { odak_yer:["Kaşgar"], t:"1877-05-29", tur:"hukumdar", b:"Yâkub Bey öldü (muhtemelen suikast)" },
     { odak_yer:["Türkistan"], t:"1878-03-16", tur:"son", b:"Çin orduları Doğu Türkistan'ı tamamen yeniden fethetti" }
   ]
@@ -7830,7 +7830,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"afgan-durrani", ad:"Dürrânî (Afgan) Devleti", tur:"devlet", bolge:"orta-asya",
-  f:"1747-10-01", t:"1823-01-01", baskent:"Kandehar → Kâbil", harita:"afgan-durrani",
+  f:"1747-10-01", t:"1819-01-01", ic_not_t:"t 1823-01-01 → 1819-01-01: TDV Afganistan «Kandehar'ı kardeşi Kühendil'e bırakarak kendisi Kâbil'de hükümdarlığını ilân etti (1819) ve böylece Afganistan'da hânedan değişmiş oldu» (YIL; eski 1823 kaynaksızdı). BEYAN: Herat (Sadozay kolu 1863'e dek), Belh ve Peşâver dönemleri künye sonunu aşar — aynı polity'nin artığı, ayrı Sadozay künyesi BOYALAR (tuz) gerektirir.", ic_not_f:"f 1747-10-01 = Ahmed Şah'ın Kandehar'da hükümdar ilânı (TDV Ahmed Şah Dürrânî, 1747; gün yok). Yerleşim dönemleri Nâdir Şah'ın öldürüldüğü 1747-06-20'den başlar (BEYANLI YAKLAŞIKLIK: Afşar→Dürrânî fiilî devralma, ara 3,5 ay).", baskent:"Kandehar → Kâbil", harita:"afgan-durrani",
   ozet:"Nâdir Şah'ın öldürülmesinden sonra Ahmed Şah Dürrânî Kandehar'da hükümdar ilân edildi; Horasan'dan Pencap'a uzanan devlet modern Afganistan'ın çekirdeğidir. Hânedan içi taht kavgalarıyla parçalandı ve yerini Bârekzâyîler aldı.",
   kaynak:"ahmed-sah-durrani",
   kronoloji:[
@@ -7849,14 +7849,14 @@ window.DEVLETLER = [
   ]
 },
 { id:"afganistan", ad:"Afganistan (Bârekzâyî Emirliği)", tur:"emirlik", bolge:"orta-asya",
-  f:"1823-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1973 (TDV afganistan: 'Sovyetler, Dâvud Han'ı destekleyerek 1973'te Zâhir Şah'ı kansız bir darbe ile devirmeyi başardılar' — gün yok)", baskent:"Kâbil", harita:"afganistan",
+  f:"1819-01-01", ic_not_f:"f 1823-01-01 → 1819-01-01: TDV Afganistan «Kâbil'de hükümdarlığını ilân etti (1819) ve böylece Afganistan'da hânedan değişmiş oldu» (YIL; eski 1823 kaynaksızdı)", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1973 (TDV afganistan: 'Sovyetler, Dâvud Han'ı destekleyerek 1973'te Zâhir Şah'ı kansız bir darbe ile devirmeyi başardılar' — gün yok)", baskent:"Kâbil", harita:"afganistan",
   ozet:"Dürrânî Devleti'nin dağılmasından sonra Bârekzâyî hânedanı Kâbil'de emirliği kurdu; yüzyıl boyunca İngiltere ile Rusya arasında tampon devlet oldu ve 1919'da tam bağımsızlığını kazandı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"afganistan",
   kronoloji:[
-    { odak_yer:["Kâbil"], t:"1823-01-01", tur:"kurulus", b:"Bârekzâyî hânedanı Kâbil'de emirliği kurdu" },
+    { odak_yer:["Kâbil"], t:"1819-01-01", tur:"kurulus", b:"Bârekzâyî hânedanı Kâbil'de emirliği kurdu (Dost Muhammed, Kâbil'de hükümdarlığını ilân etti)", kaynak:"TDV İslâm Ansiklopedisi, Afganistan maddesi, https://islamansiklopedisi.org.tr/afganistan («Kâbil'de hükümdarlığını ilân etti (1819)»; yıl düzeyi)" },
     { odak_yer:["Kâbil"], t:"1839-08-07", tur:"kayip", b:"Birinci İngiliz-Afgan Savaşı: İngilizler Kâbil'i aldı" },
     { odak_yer:["Kâbil"], t:"1880-07-22", tur:"siyaset", b:"Abdurrahman Han emir oldu, ülke İngiliz himayesine girdi" },
-    { odak_yer:["Kâbil"], t:"1919-08-08", tur:"antlasma", b:"Ravalpindi Antlaşması: Afganistan tam bağımsızlığını kazandı" },
+    { odak_yer:["Kâbil"], t:"1919-08-08", tur:"antlasma", b:"Ravalpindi Antlaşması: Afganistan tam bağımsızlığını kazandı", kaynak:"TDV İslâm Ansiklopedisi, Afganistan maddesi, https://islamansiklopedisi.org.tr/afganistan («8 Ağustos 1919'da Ravalpindi Antlaşması imzalanarak»); Britannica da 8 Ağustos 1919 — çift teyit" },
     { odak_yer:["Kâbil"], t:"1973-07-17", tur:"siyaset", b:"Kral Zahir Şah yurt dışındayken kuzeni Davud Han darbeyle monarşiyi kaldırıp cumhuriyet ilan etti.", kaynak:"https://en.wikipedia.org/wiki/Republic_of_Afghanistan_(1973%E2%80%931978) (yıl kaynaklı; 17 Temmuz genel bilgi)" },
     { odak_yer:["Kâbil"], t:"1978-04-27", tur:"siyaset", b:"Saur Devrimi: komünist subaylar Davud'u öldürüp iktidarı HDKP'ye (Taraki) verdi.", kaynak:"https://adst.org/2017/06/afghan-revolution-1978-invitation-invasion/ (çatışmalar 27-28 Nisan 1978)" },
     { odak_yer:["Kâbil"], t:"1979-12-27", tur:"isgal", b:"Sovyet birlikleri Kâbil'de Tac Bey Sarayı'nı basıp Hafizullah Emin'i öldürdü; Babrak Karmal iktidara getirildi (Sovyet işgali Aralık 1979'da başladı).", kaynak:"https://media.defense.gov/2021/Jun/29/2002751985/-1/-1/0/THE_SOVIET_UNIONS_INVASION.PDF ; gün: kaynaklar 24 ve 27 Aralık verir" },
@@ -7873,7 +7873,7 @@ window.DEVLETLER = [
     { odak_yer:["Abalak"], t:"1430-01-01", tur:"kurulus", b:"Şeybânî Hacı Muhammed'in oğlu Mahmutek döneminde hanlık şekillendi" },
     { odak_yer:["Abalak"], t:"1563-01-01", tur:"hukumdar", b:"Şeybânî Küçüm Han Tayboğa soyunu yenip tahtı ele geçirdi" },
     { odak_yer:["Abalak"], t:"1581-01-01", tur:"savas", b:"Stroganovlar'ın gönderdiği Yermak'ın Kazak birliği Küçüm Han üzerine yürüdü" },
-    { odak_yer:["Abalak"], t:"1598-08-20", tur:"son", b:"Küçüm Han'ın son yenilgisi — hanlık sona erdi, Batı Sibirya Rusya'ya geçti" }
+    { odak_yer:["Abalak"], t:"1598-08-20", tur:"son", b:"Küçüm Han'ın son yenilgisi — hanlık sona erdi, Batı Sibirya Rusya'ya geçti", kaynak:"TDV İslâm Ansiklopedisi, Küçüm Han maddesi, https://islamansiklopedisi.org.tr/kucum-han («20 Ağustos 1598» son yenilgi)" }
   ]
 },
 { id:"izlanda", ad:"İzlanda", tur:"ulke", bolge:"kuzey-avrupa",
@@ -9871,7 +9871,7 @@ window.DEVLETLER = [
     { odak_yer:["Yaunde"], t:"1959-03-13", tur:"antlasma", b:"BM Genel Kurulu 1349 (XIII) sayılı kararla Fransız idaresindeki Kamerun'un vesayetinin 1 Ocak 1960'ta bağımsızlıkla sona ermesini kabul etti (56 evet, 0 hayır, 23 çekimser).", kaynak:"https://research.un.org/en/docs/tc/frenchcameroons ; https://digitallibrary.un.org/record/207053" },
     { odak_yer:["Yaunde"], t:"1960-01-01", tur:"son", b:"Kamerun Cumhuriyeti bağımsızlığını ilan etti", kaynak:"TDV: kamerun" }
   ] },
-{ id:"ingiliz-tanganika-mandasi", harita:"ingiltere", ad:"Tanganika Toprağı (İngiliz Mandası)", bolge:"dogu-afrika", f:"1922-07-20", t:"1961-12-09",
+{ id:"ingiliz-tanganika-mandasi", boya_gerekli:true, harita:"ingiltere", ad:"Tanganika Toprağı (İngiliz Mandası)", bolge:"dogu-afrika", f:"1922-07-20", t:"1961-12-09",
   baskent:"Dar es Salaam",
   ozet:"Alman Doğu Afrikası'nın büyük kısmı; 1916'dan itibaren İngiliz işgalinde, 1920'de «Tanganyika Territory» adını ve İngiliz sivil idaresini aldı, 1922'de Milletler Cemiyeti B-tipi mandası oldu. BM vesayetinden sonra 9 Aralık 1961'de bağımsız oldu.",
   kaynak:"t: TDV `tanzanya` (200, gövde okundu) — «Tanzanya 1 Mayıs 1961'de kendi kendini idare etme hakkını ve aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti». f: GÜN KOMŞUDAN (§4 şartlı komşu günü) — TDV `kamerun`: MC'nin «20 Temmuz 1922'de aldığı bir kararla» B-mandaları; aynı MC Konseyi oturumu, aynı B-manda süreci. Tanganika için 20 Temmuz 1922'yi veren birincil belge BU TURDA OKUNAMADI (FRUS 1922 c.II d243 oturumu ileri tarihli anıyor; UN Archives Geneva doğrulama ekranında kaldı). Ad ve idare: Encyclopædia Britannica 1922 (Wikisource), 'Tanganyika Territory' (F. R. C.) — «the name officially given in Jan. 1920» (ay). Başkent: aynı madde. İşgal: aynı ansiklopedinin 'East Africa, Military Operations' maddesi — «Dar-es-Salaam was occupied on Sept. 4» (1916). TDV `tanganika` ÖLÜ (302).",
@@ -9923,7 +9923,7 @@ window.DEVLETLER = [
     { odak_yer:["Molepolole (Kvena)","Serove (Serowe)"], t:"1965-03-03", tur:"hukumdar", b:"1 Mart 1965 seçimini Botsvana Demokrat Partisi kazandı (31 sandalyenin 28'i); Seretse Khama başbakan oldu.", kaynak:"https://en.wikipedia.org/wiki/Bechuanaland_Protectorate ; https://botswanamission.ch/brief-history/" },
     { odak_yer:["Molepolole (Kvena)"], t:"1966-09-30", tur:"son", b:"Botsvana Cumhuriyeti olarak bağımsızlığını kazandı", kaynak:"IBS 122" }
   ] },
-{ id:"ingiliz-kenya-kolonisi", harita:"ingiltere", ad:"İngiliz Kenyası (Doğu Afrika Protektorası → Kenya Kolonisi ve Protektorası)", bolge:"dogu-afrika", f:"1895-07-01", t:"1963-12-12",
+{ id:"ingiliz-kenya-kolonisi", boya_gerekli:true, harita:"ingiltere", ad:"İngiliz Kenyası (Doğu Afrika Protektorası → Kenya Kolonisi ve Protektorası)", bolge:"dogu-afrika", f:"1895-07-01", t:"1963-12-12",
   baskent:"Mombasa → Nairobi (1907)",
   ozet:"IBEA şirketinin çekilmesinden sonra 1 Temmuz 1895'te ilan edilen İngiliz protektorası; 23 Temmuz 1920'de iç topraklar Kenya Kolonisi, Zengibar sultanına ait kıyı şeridi Kenya Protektorası oldu. 12 Aralık 1963'te bağımsızlaştı.",
   kaynak:"f: HMSO Colonial Report, Kenya 1923 (Illinois Üniv. dijital kütüphanesi) — «In 1895 the Company withdrew … and on July 1st of that year a Protectorate was declared»; TDV `kenya` YIL veriyor («1895»). Koloni: Colonial Report 1920-21 — «This Order in Council came into operation on the 23rd of July, 1920»; Colonial Report 1923 — «with effect from July 23rd, 1920». t: TDV `kenya` — «12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu»; IBS 071 aynı gün. Başkent: TDV `kenya` — Nairobi «1907 yılından itibaren İngiliz sömürge idaresinin … başşehri». Kıyı şeridi: IBS 134.",
@@ -17532,6 +17532,10 @@ window.DEVLETLER = [
     { odak_yer:["Kırım"], t:"1920-11-07", tur:"savas", b:"Kızıl Ordu Perekop berzahına saldırdı; 7-17 Kasım arasında Türk Seddi, Yuşun ve Çongar hatlarını aşarak Kırım'ı kuşattı.", kaynak:"https://encyclopedia.1914-1918-online.net/article/wrangel-petr-nikolaevich-baron/ ; https://www.hoover.org/research/searching-peter-wrangel" },
     { odak_yer:["Kırım"], t:"1920-11-14", tur:"son", b:"Perekop'un düşmesinin ardından Vrangel Kırım'dan tahliyeyi başlattı; son gemiler 16 Kasım'da ayrıldı.", kaynak:"https://encyclopedia.1914-1918-online.net/article/wrangel_petr_nikolaevich_baron ; Britannica 'Russian Civil War'" }
   ] },
+{ id:"kolcak-omsk-hukumeti", ad:"Kolçak Hükûmeti (Omsk, Rusya Yüce Hükümdarlığı)", tur:"beyaz-hareket-devleti", bolge:"sibirya-bozkir", f:"1918-11-18", t:"1920-01-04", baskent:"Omsk → Nijneudinsk", boya_gerekli:true, ozet:"Amiral Kolçak'ın 18 Kasım 1918 Omsk darbesiyle kurduğu, 'Rusya Yüce Hükümdarı' unvanlı Beyaz hareket yönetimi; Kızıl Ordu karşısında çöktü, Kolçak 4 Ocak 1920'de yetkiyi devretti, 7 Şubat 1920'de Irkutsk'ta kurşuna dizildi. Omsk'un düşüş günü doğrulanamadı, yazılmadı.", ic_not_f:"Britannica 'Aleksandr Vasilyevich Kolchak': 18 Kasım 1918 darbe; bir Rus kaynağı 19 Kasım verir — Britannica esas, çelişki beyanlı.", ic_not_t:"4 Ocak 1920 son ferman (Nijneudinsk) yalnız en.wikipedia 'Supreme Ruler of Russia' (ikincil) — akademik teyit bulunamadı; Britannica 7 Şubat 1920 idamı verir. t zayıf kaynaklı.", kaynak:"Britannica 'Aleksandr Vasilyevich Kolchak' (18 Kasım 1918 darbe; 7 Şubat 1920 Irkutsk); en.wikipedia 'Supreme Ruler of Russia' (yalnız 4 Ocak 1920 için, ikincil); boya_gerekli: kimlik BOYALAR'da yok — denetim/BOYA-sibirya-1029.tsv", kronoloji:[
+    { odak_yer:["Omsk"], t:"1918-11-18", tur:"kurulus", b:"Amiral Kolçak Omsk'ta darbeyle Rusya Yüce Hükümdarı olur; Dizin (Directory) dağıtılır.", kaynak:"Britannica 'Aleksandr Vasilyevich Kolchak' (Rusça kaynak 19 Kasım verir; çelişki ic_not_f'de)" },
+    { odak_yer:["Nijneudinsk"], t:"1920-01-04", tur:"son", b:"Kolçak yetkisini Denikin'e devreden son fermanı yayımlar; yönetim fiilen çöker (idam 7 Şubat 1920, Irkutsk).", kaynak:"en.wikipedia 'Supreme Ruler of Russia' (ikincil); Britannica 'Kolchak' (idam 7 Şubat 1920)" }
+  ] },
 { id:"caka-beyligi", ad:"Çaka Bey (İzmir) Beyliği", tur:"beylik", bolge:"anadolu", f:"1081-01-01", t:"1095-01-01", baskent:"İzmir (Smyrna)", ozet:"TDV: Aleksios'un 1081'deki tahta çıkışından sonra İzmir ele geçirildi (tarih bilinmiyor); Kılıç Arslan Çaka'yı 488/1095 (?) öldürttü. Diğer kaynaklar 1080-1092 verir. Aday 1093 doğrulanmadı.", kaynak:"TDV 'Çaka Bey', 'Kılıçarslan I', 'Sakız Adası' (Sakız 1089-91)", kronoloji:[
     { odak_yer:["İzmit"], t:"1086-01-01", tur:"savas", b:"Çaka Bey donanmasıyla İzmit'e yapılan saldırıya katıldı.", kaynak:"TDV İslâm Ansiklopedisi 'Çaka Bey' (M. İlgürel)" },
     { odak_yer:["İzmir"], t:"1091-04-29", tur:"savas", b:"Levunion Savaşı: Çaka'nın müttefiki Peçenekler Bizans-Kuman ordusu karşısında ağır yenildi.", kaynak:"TDV İslâm Ansiklopedisi 'Çaka Bey'" },
@@ -17983,8 +17987,8 @@ window.DEVLETLER = [
     { odak_yer:["Çöçek (Tarbagatay)","Almalık (Almalığ)"], t:"1305-08-01", tur:"ic-savas", b:"Hicrî 705 başında Duva, büyük han ordularıyla işbirliği yaparak Kaydu'nun oğlu Çapar'ın yandaşlarına hain bir saldırı düzenler; Duva-Çapar çatışması başlar (gün hicrî yıl başından hesaplanmış yaklaşık).", kaynak:"Encyclopaedia Iranica, 'Chaghatayid Dynasty' ve 'Yāsāwur' maddeleri (https://www.iranicaonline.org/articles/chaghatayid-dynasty/ ; https://www.iranicaonline.org/articles/yasawur-prince/; 705/1305, arama alıntısı)" },
     { odak_yer:["Çöçek (Tarbagatay)","Almalık (Almalığ)","Karakurum"], t:"1309-01-01", tur:"son", b:"Çapar'ın yenilgisiyle Ögedey ulusu Çağatay ulusu ile Yuan arasında paylaşıldı.", kaynak:"Encyclopaedia Iranica 'Chaghatayid dynasty' (künye atfı; bu oturumda metin okunamadı, doğrulanmadı)" }
   ] },
-{ id:"ebulhayr-ozbek-ulusu", ad:"Ebü'l-Hayr Hanlığı (Özbek Ulusu, Ebü'l-Hayrîler)", tur:"hanlik", bolge:"sibirya-bozkir", f:"1428-01-01", t:"1468-01-01", baskent:"Tura (Çimgi-Tura, 1446'ya dek)", ozet:"Ebü'l-Hayr'ın 1428'de Sibirya'da han ilan edilmesiyle kurulan Özbek ulusu; 1468'de Kazaklara karşı seferde ölümüyle çözüldü. Iranica bu hanedana 'Şeybânî' denmesini yanlış sayar ('Ebü'l-Hayrîler'). Not: Iranica ayrı maddede seçilmeyi 1429 verir; ölüm 1468 e-history.kz + Vikipedi 1468-70 (t ikincil). 1500 sonrası `buhara` ile çakışmaz.", kaynak:"Encyclopaedia Iranica 'Abu'l-Khayr Khan' ve 'Abu'l-Khayrids'; Britannica 'Abūʾl Khayr'", kronoloji:[
-    { odak_yer:["Sığnak (Sunak Kurgan)"], t:"1428-01-01", tur:"kurulus", b:"Ebü'l-Hayr Han Sibirya'da (Tura) han ilan edilir; Özbek ulusu kurulur.", kaynak:"Encyclopaedia Iranica 'Abu'l-Khayr Khan' ve 'Abu'l-Khayrids' (künyedeki atıf; sayfa 403 verdi, okunamadı); Britannica 'Abūʾl Khayr'" },
+{ id:"ebulhayr-ozbek-ulusu", ad:"Ebü'l-Hayr Hanlığı (Özbek Ulusu, Ebü'l-Hayrîler)", tur:"hanlik", bolge:"sibirya-bozkir", f:"1429-01-01", ic_not_f:"SIBIRYA-DENETIM-1029: f 1428-01-01 → 1429-01-01. TDV 'Ebülhayr Han': 1429'da Tura'da han ilan edildi; Iranica da 1429'u verir (iki kaynak, çift teyit — gün her ikisinde yok, YYYY-01-01). 1428 yalnız künyenin eski özetinde idi.", t:"1468-01-01", baskent:"Tura (Çimgi-Tura, 1446'ya dek)", ozet:"Ebü'l-Hayr'ın 1429'da Tura'da han ilan edilmesiyle kurulan Özbek ulusu; 1468'de Kazaklara karşı seferde ölümüyle çözüldü. Iranica bu hanedana 'Şeybânî' denmesini yanlış sayar ('Ebü'l-Hayrîler'). Not: Iranica ayrı maddede seçilmeyi 1429 verir; ölüm 1468 e-history.kz + Vikipedi 1468-70 (t ikincil). 1500 sonrası `buhara` ile çakışmaz.", kaynak:"Encyclopaedia Iranica 'Abu'l-Khayr Khan' ve 'Abu'l-Khayrids'; Britannica 'Abūʾl Khayr'", kronoloji:[
+    { odak_yer:["Tümen (Çimgi-Tura)"], t:"1429-01-01", tur:"kurulus", b:"Ebü'l-Hayr Han Sibirya'da (Tura) han ilan edilir; Özbek ulusu kurulur.", kaynak:"Encyclopaedia Iranica 'Abu'l-Khayr Khan' ve 'Abu'l-Khayrids' (künyedeki atıf; sayfa 403 verdi, okunamadı); Britannica 'Abūʾl Khayr'" },
     { odak_yer:["Sığnak (Sunak Kurgan)"], t:"1431-01-01", tur:"savas", b:"Ebülhayr Han hicrî 834 kışında (1430-31) Harezm'e girip başkent Gürgenç'i yağmalar, ardından aşırı sıcak ve veba yüzünden ayrılır.", kaynak:"https://islamansiklopedisi.org.tr/ebulhayr-han (TDV, Ebülhayr Han); Encyclopaedia Iranica, Abu'l-Khayr Khan (hicrî 834 kışı)" },
     { odak_yer:["Sığnak (Sunak Kurgan)"], t:"1436-01-01", tur:"savas", b:"Ebülhayr Han hicrî 839'da (1435-36) Harezm'i ikinci kez yağmalar.", kaynak:"https://islamansiklopedisi.org.tr/ebulhayr-han (TDV, Ebülhayr Han)" },
     { odak_yer:["Sığnak"], t:"1447-01-01", tur:"baskent", b:"Ebülhayr Han Siri Derya'nın orta ve aşağı kesimini alır ve Sığnak'ı merkez edinir; Sığnak Timurlular ile Özbekler arasında sınır olur (hicrî 850'den önce).", kaynak:"https://islamansiklopedisi.org.tr/ebulhayr-han (TDV, Ebülhayr Han); Iranica: Tura 1446'ya dek merkez" },
@@ -18263,7 +18267,7 @@ window.DEVLETLER = [
     { odak_yer:["Hindistan"], t:"1954-03-18", tur:"siyaset", b:"Pondicherry belediyeleri Hindistan'la birleşme kararı aldı", kaynak:"Pondicherry (ikincil); doğrulanamadı" },
     { odak_yer:["Hindistan"], t:"1954-10-31", tur:"son", b:"Fransız Hindistanı'nın fiilî devri Hindistan'a", kaynak:"Pondicherry/French India (ikincil); künye 1 Kasım, kaynak 31 Ekim der" }
   ] },
-{ id:"danimarka-hindistani", ad:"Danimarka Hindistanı (Tranquebar-Serampore)", tur:"somurge", bolge:"guney-asya", f:"1620-11-19", t:"1845-01-01", baskent:"Tranquebar", ozet:"Tanjore racasıyla 19 Kasım 1620 tarihli antlaşmayla Tranquebar'a yerleşme; Serampore 1755; 1845'te İngiltere'ye satış. Not: t [gun yok]; Britannica Danimarka şirketinin 1616'dan işlediğini de yazar (patent tarihi).", kaynak:"Cambridge JRAS 'Settlement of the Danes at Tranquebar and Serampore'; Britannica 'Danish East India Company', 'Serampore'", kronoloji:[
+{ id:"danimarka-hindistani", ad:"Danimarka Hindistanı (Tranquebar-Serampore)", tur:"somurge", bolge:"guney-asya", f:"1620-11-19", t:"1868-10-16", ic_not_t:"t 1845'ten 1868-10-16'ya genişletildi (HINT-OKYANUSU 29 Ekim 2026): 1845'te Tranquebar/Serampore satıldı ama Nikobarlar (Frederiksøerne) Danimarka'da kaldı ve 16 Ekim 1868'de İngiltere'ye satıldı — aynı polity sürüyor → künye GENİŞLETİLDİ. Gün kaynakları (Vikipedi aynaları) AKADEMİK DEĞİL; akademik teyit bekliyor.", baskent:"Tranquebar", ozet:"Tanjore racasıyla 19 Kasım 1620 tarihli antlaşmayla Tranquebar'a yerleşme; Serampore 1755; 1845'te İngiltere'ye satış. Not: t [gun yok]; Britannica Danimarka şirketinin 1616'dan işlediğini de yazar (patent tarihi).", kaynak:"Cambridge JRAS 'Settlement of the Danes at Tranquebar and Serampore'; Britannica 'Danish East India Company', 'Serampore'", kronoloji:[
     { odak_yer:["Tranquebar"], t:"1620-11-19", tur:"kurulus", b:"Ove Gjedde ile Tancur Nayak'ı Raghunatha arasında Tranquebar antlaşması, yıllık 3000 rupi haraç", kaynak:"Tharangambadi/Fort Dansborg ve asianartnewspaper (https://asianartnewspaper.com/tranquebar-india/); gün kaynaklarda 19/20 Kasım ayrışır, ay-yıl kesin" },
     { odak_yer:["Tranquebar"], t:"1706-07-09", tur:"siyaset", b:"Halle'de yetişen Ziegenbalg ve Plütschau Tranquebar'a ayak bastı; Hindistan'daki ilk Protestan misyonu (Danimarka-Halle Misyonu) başladı.", kaynak:"Deutsche Biographie https://www.deutsche-biographie.de/sfz86609.html ; Boston Univ. missiology https://www.bu.edu/missiology/missionary-biography/w-x-y-z/ziegenbalg-bartholomaus-1682-1719/ (MIDA arşivi 6 Haziran verir: https://www.projekt-mida.de/en/reflexicon/the-mission-archives-in-the-archives-of-the-francke-foundations-in-halle/)" },
     { odak_yer:["Tranquebar"], t:"1732-04-12", tur:"siyaset", b:"VI. Christian yeni Danimarka Asya Şirketi'nin ferman-ı kuruluşunu imzaladı (Asya ticaretinde 40 yıllık imtiyaz).", kaynak:"https://en.wikipedia.org/wiki/Danish_India (Not 41)" },
@@ -18274,7 +18278,8 @@ window.DEVLETLER = [
     { odak_yer:["Tranquebar"], t:"1808-01-28", tur:"isgal", b:"İngilizler Serampore'u ikinci kez işgal etti; Danimarkalılar direnmeden teslim oldu.", kaynak:"https://en.wikipedia.org/wiki/Capture_of_Serampore_(1808)" },
     { odak_yer:["Tranquebar"], t:"1808-02-12", tur:"isgal", b:"İngilizler Tranquebar'ı ikinci kez işgal etti (1815'e dek sürdü).", kaynak:"https://en.wikipedia.org/wiki/Surrender_of_Tranquebar_(1808) ; Danimarka valileri listesi: https://en.wikipedia.org/wiki/List_of_governors_of_Danish_India" },
     { odak_yer:["Tranquebar"], t:"1827-02-23", tur:"siyaset", b:"VI. Frederik Serampore Koleji'ne üniversite yetkili kraliyet fermanı verdi.", kaynak:"Senate of Serampore College https://sceptre.senateofseramporecollege.edu.in/serampore-college/ ; https://en.wikipedia.org/wiki/Serampore_College" },
-    { odak_yer:["Tranquebar"], t:"1845-01-01", tur:"son", b:"Tranquebar ve Serampore İngiliz Doğu Hindistan Şirketi'ne satıldı", kaynak:"Tharangambadi (ikincil), Danish East India Company, Vajiram & Ravi; gün bulunamadı" }
+    { odak_yer:["Tranquebar"], t:"1845-01-01", tur:"toprak-kayip", b:"Tranquebar ve Serampore İngiliz Doğu Hindistan Şirketi'ne satıldı (Nikobarlar Danimarka'da kaldı)", kaynak:"Tharangambadi (ikincil), Danish East India Company, Vajiram & Ravi; gün bulunamadı" },
+    { odak_yer:["Nancowry"], t:"1868-10-16", tur:"son", b:"Danimarka, Nikobar Adaları üzerindeki bütün haklarını İngiltere'ye sattı; Danimarka Hindistanı'nın son kalıntısı sona erdi.", kaynak:"AKADEMİK KAYNAK BULUNAMADI (ikincil/aynalar: History of the Andaman and Nicobar Islands; 1868 in Denmark) — gün teyitsiz, akademik teyit bekliyor" }
   ] },
 { id:"transkaspi-hukumeti", ad:"Sosyal Devrimci Transhazar (Transkaspiya) Geçici Hükûmeti", tur:"hukumet", bolge:"orta-asya", f:"1918-01-01", baskent:"Aşkabat", ozet:"Bolşeviklerle savaşan, İngiliz birliğince desteklenen SR hükûmeti; İngilizler Nisan 1919 (Britannica) veya Temmuz 1919 (Iranica) çekildi. Not: [gun yok] f; t çelişkili (1919/1920).", kaynak:"Britannica 'Social Revolutionary Transcaspian Provincial Government'; Encyclopaedia Iranica 'Ashkhabad'", kronoloji:[
     { odak_yer:["Taşkent"], t:"1918-07-12", tur:"isyan", b:"Kızıl Arvat'ta demiryolcular Taşkent Çeka başkanı Frolov'u ve muhafızlarını vurdu; Transhazar'da Bolşevik yönetime karşı ayaklanma başladı (Aşkabat'ta darbe).", kaynak:"M. Sargent, British Military Involvement in Transcaspia (1918-1919), ARAG Caucasus Series 04/02, 2004 (https://www.files.ethz.ch/isn/87659/04_apr.pdf), s. 9-10" },
@@ -19352,6 +19357,7 @@ window.DEVLETLER = [
     { odak_yer:["Sart"], t:"-0584-05-28", tur:"antlasma", b:"Güneş tutulması sonrası Alyattes ile Kyaxares barış yapar; Halys sınır olur.", kaynak:"Livius 'Cappadocia' (livius.org/articles/place/cappadocia/); 28 Mayıs MÖ 585 = -0584-05-28" },
     { odak_yer:["Sart"], t:"-0545-01-01", tur:"son", b:"Kyros Kroisos'u yener, Sardes düşer (MÖ 546).", kaynak:"Britannica 'Lydia' (britannica.com/EBchecked/topic/352634/Lydia); Livius 'Cappadocia' c. MÖ 547" }
   ] },
+{ id:"frigya", ad:"Frigya Krallığı (Gordion, Midas)", tur:"krallik", bolge:"anadolu", f:"-0737-01-01", t:"-0624-01-01", baskent:"Gordion", ozet:"Midas’ın Gordion’daki iktidarı (c. MÖ 738-696, Asur kayıtlarındaki Mit-ta-a ile özdeşliği tartışmalı) – Lidya’nın Kimmerleri geri püskürtüp Frigya’yı alması (c. MÖ 625). Kesinlik yüzyıl/onyıl; Gordion ana yanık tabakasının MÖ ~800’e çekilmesi (radyokarbon/dendrokronoloji) ve Kimmer yıkımı anlatısı tartışmalıdır — f ve t Midas/Lidya literatüründen yaklaşık sınırlardır, kuruluş tarihi değildir.", kaynak:"worldhistory.org Phrygia timeline (Midas c. 738-696, Lidya c. 625); Eusebius Chronicle (Midas’ın ölümü 695); Strabon (Kimmerler); ancient-history-sites.com ‘Gordion’ (revize yanık tabakası ~MÖ 800, tartışmalı) — TDV maddesi ve akademik kazı yayınları (Voigt, Kealhofer) OKUNMADI; boya: renkler.py BOYALAR’da YOK (denetim/BOYA-anadolu-1029.tsv)", boya_gerekli:true, kronoloji:[] },
 { id:"urartu", ad:"Urartu Krallığı", tur:"krallik", bolge:"anadolu", f:"-0859-01-01", t:"-0589-01-01", baskent:"Tuspa (Van)", ozet:"Aramu MO ~860-840 – Med fethi MO ~590 (baska gorus: Ahamenis MO 547). Kesinlik yil, guven orta.", kaynak:"worldhistory.org/Urartu; Wikipedia Urartu (ipucu); Salvini 2008; Zimansky 1985", kronoloji:[
     { odak_yer:["Van"], t:"-0859-01-01", tur:"kurulus", b:"Aramu ile Urartu krallığı başlar (c. MÖ 860).", kaynak:"worldhistory.org/Urartu; Salvini 2008; Zimansky 1985; MÖ 860 = -0859" },
     { odak_yer:["Van"], t:"-0839-01-01", tur:"hukumdar", b:"I. Sarduri tahta çıkar (c. MÖ 840).", kaynak:"Livius 'Urartu' (livius.org/articles/place/urartu/); MÖ 840 = -0839" },
@@ -21992,7 +21998,8 @@ window.DEVLETLER = [
     { odak_yer:["Apia"], t:"2011-12-30", tur:"siyaset", b:"Samoa tarih değiştirme çizgisinin batısına geçti: 29 Aralık Perşembe'den doğrudan 31 Aralık Cumartesi'ne atlandı, 30 Aralık günü yaşanmadı.", kaynak:"https://www.timeanddate.com/news/time/tokelau-dateline.html ; https://mg.co.za/?p=139790" },
     { odak_yer:["Apia"], t:"2021-07-23", tur:"siyaset", b:"Temyiz Mahkemesi, 24 Mayıs'taki çadır yemin töreninin anayasaya uygun olduğuna ve yasal hükümetin FAST partisi olduğuna karar verdi; Fiame Naomi Mataʻafa ilk kadın başbakan oldu, Tuilaʻepa 26 Temmuz'da yenilgiyi kabul etti.", kaynak:"https://www.jurist.org/news/2021/07/samoa-high-court-declares-inauguration-legal-confirms-first-female-prime-minister ; https://www.kpbs.org/news/2021/07/23/samoan-court-clears-the-way-for-the-nations-1st" }
   ] },
-{ id:"mahra-sultanligi", ad:"Mahra Sultanlığı (Kışn ve Sokotra, İngiliz himayesi)", tur:"sultanlik", bolge:"arabistan", f:"1886-01-01", t:"1967-11-30", baskent:"Kışn", ozet:"Kışn ve Sokotra Mahra Sultanlığı 1886 antlaşmasıyla İngiliz himayesine girdi (Aden Himaye Bölgesi); 1967-11-30'da Güney Yemen'e katıldı. 1886 günü bulunamadı.", kaynak:"Encyclopaedia Britannica (Socotra, Mahra); Library of Congress Country Studies Yemen", kronoloji:[
+{ id:"mahra-sultanligi", ad:"Mahra Sultanlığı (Kışn ve Sokotra, İngiliz himayesi)", tur:"sultanlik", bolge:"arabistan", f:"1511-01-01", t:"1967-11-30", baskent:"Kışn", ic_not_f:"f 1886'dan 1511'e genişletildi (HINT-OKYANUSU 29 Ekim 2026): Sokotra 1511'de Portekiz'in çekilmesiyle Kışn Mahra hanedanına döndü (Britannica Socotra); 1886 yalnız İngiliz himayesinin başlangıcı. [yalnız yıl teyitli; gün teyitsiz]", ozet:"Kışn ve Sokotra Mahra Sultanlığı 1886 antlaşmasıyla İngiliz himayesine girdi (Aden Himaye Bölgesi); 1967-11-30'da Güney Yemen'e katıldı. 1886 günü bulunamadı.", kaynak:"Encyclopaedia Britannica (Socotra, Mahra); Library of Congress Country Studies Yemen", kronoloji:[
+    { odak_yer:["Sokotra"], t:"1511-01-01", tur:"toprak-kazanc", b:"Portekizliler Sokotra'yı terk etti; ada Kışn Mahra sultanlarının idaresine döndü (yalnız yıl).", kaynak:"Encyclopaedia Britannica «Socotra». TDV maddesi bulunamadı. [yalnız yıl teyitli; gün teyitsiz]" },
     { odak_yer:["Sokotra"], t:"1886-04-23", tur:"vassal", b:"Mahra Sultanı Ali b. Abdullah b. Salim b. Sa'd el-Afrar ile İngiltere arasında himaye antlaşması yapıldı; sultan İngiliz onayı olmadan yabancı devletle ilişki kurmamayı taahhüt etti.", kaynak:"Qatar Digital Library, Aden kabileleri belgesi https://qdl.qa/en/archive/81055/vdc_100054913982.0x00008b ; https://en.wikipedia.org/wiki/Mahra_Sultanate" },
     { odak_yer:["Sokotra"], t:"1886-10-23", tur:"antlasma", b:"Politik Rezident General Hogg HMS Penguin ile Kışn'a gidip nisan antlaşmasının onaylı nüshasını sultana teslim etti.", kaynak:"Qatar Digital Library https://www.qdl.qa/en/archive/81055/vdc_100023462215.0x00000b" },
     { odak_yer:["Sokotra"], t:"1888-01-01", tur:"antlasma", b:"Sultan Ali b. Abdullah ile İngiltere arasında 1886'dakine benzer ikinci himaye antlaşması imzalandı; sultanın maaşı artırıldı.", kaynak:"Britannica 'Mahra Sultanate' (1886 ve 1888 antlaşmaları); Aitchison 1931, A Collection of Treaties, Engagements and Sanads XI, s.35-36" },
@@ -29184,5 +29191,29 @@ window.DEVLETLER = [
   kaynak:"Store norske leksikon (snl.no), 'São Tomé og Príncipe' (Norveççe): «São Tomé og Príncipe ble uavhengig 12. juli 1975.» (tek kaynak; çift teyit bekler)",
   kronoloji:[
     { odak_yer:["São Tomé"], t:"1975-07-12", tur:"kurulus", b:"São Tomé ve Príncipe Portekiz'den bağımsızlığını kazandı", kaynak:"Store norske leksikon (snl.no), 'São Tomé og Príncipe': «ble uavhengig 12. juli 1975»" }
-  ] }
+  ] },
+{ id:"ispanyol-oran-1", ad:"İspanyol Oran (I. dönem) ve Mers el-Kebir", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1509-05-17", t:"1708-01-01", kesinlik:{ t:"yil" }, baskent:"Oran (Vehrân)",
+  ozet:"İspanya Oran'ı 17 Mayıs 1509'da aldı; Osmanlı (Cezayir beylerbeyliği) 1708'de geri aldı. Mers el-Kebir 1505'ten İspanyol elindeydi.",
+  kaynak:"TDV İslâm Ansiklopedisi, VEHRÂN, https://islamansiklopedisi.org.tr/vehran (Oran 17 Mayıs 1509; Osmanlı fethi 1708; yıl) ; Mers el-Kebir 1505: HCA Tizi-Ouzou 2010 (ikincil, Fransızca)",
+  ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] 1708 fethi TDV'de yıl düzeyinde; 1732 dönüşü ayrı künye ispanyol-oran-2. BOYALAR'da yok: boya_gerekli (denetim/BOYA-magrib-1029.tsv). s:/d: dönemi yazılmadı (boya yok).",
+  kronoloji:[] },
+{ id:"ispanyol-oran-2", ad:"İspanyol Oran (II. dönem)", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1732-01-01", t:"1792-09-12", kesinlik:{ f:"yil" }, baskent:"Oran (Vehrân)",
+  ozet:"İspanya 1732'de Oran'ı yeniden aldı; 1792'de Cezayir Dayılığı'na bırakıldı (1708-1732 arası Osmanlı/Cezayir idaresi).",
+  kaynak:"TDV İslâm Ansiklopedisi, VEHRÂN, https://islamansiklopedisi.org.tr/vehran (1732 dönüş; son çıkış 12 Eylül 1792)",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] 1732 dönüşü TDV'de yıl düzeyinde. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı.",
+  kronoloji:[] },
+{ id:"ispanyol-halkulvad", ad:"İspanyol Halkulvâd (La Goulette) ve Tunus himayesi", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1535-07-01", t:"1574-08-24", kesinlik:{ f:"ay" }, baskent:"Halkulvâd (La Goulette)",
+  ozet:"V. Karl'ın Temmuz 1535'te Tunus'u almasıyla İspanyol elinde kalan Halkulvâd kalesi; 24 Ağustos 1574'te Osmanlı kuvvetleri aldı (Tunus 12 Eylül 1574'te düştü).",
+  kaynak:"TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus (Temmuz 1535: V. Karl Tunus'u aldı; 10 Ekim 1573 İspanyol harekâtı; 24 Ağustos 1574 Halkulvâd düştü; 12 Eylül 1574 Tunus düştü)",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız ay teyitli; gün teyitsiz] f ayın 1'i. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı. Hafsî künye t=1574-09-13 ile 1 gün tutarsızlığı hafsi ic_not_t'de.",
+  kronoloji:[] },
+{ id:"ingiliz-tanca", ad:"İngiliz Tanca", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1661-01-01", t:"1684-02-01", kesinlik:{ f:"yil", t:"ay" }, baskent:"Tanca",
+  ozet:"Portekiz'in Tanca'yı İngiltere'ye devriyle başlayan İngiliz idaresi; Şubat 1684'te İngilizler şehri boşaltıp tahrip etti.",
+  kaynak:"TDV İslâm Ansiklopedisi, TANCA, https://islamansiklopedisi.org.tr/tanca (1661 – Şubat 1684)",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] devir/boşaltma günleri yalnız ikincil kaynakta, yazılmadı. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı.",
+  kronoloji:[] }
 ];
