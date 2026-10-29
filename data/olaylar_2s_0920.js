@@ -107,6 +107,13 @@ window.OLAYLAR_2S0920 = [
   etiket:["askeri","toprak-kaybi","konu-askeri"],
   d:"Birinci Balkan Savaşı'nın en uzun kuşatmalarından biri İşkodra'da yaşandı; aylarca süren direnişin ardından şehir Karadağ kuvvetlerine bırakıldı. İşkodra, savaşın sonuna kadar dayanan son Osmanlı kalelerindendi.",
   kaynak:"TDV `balkan-savasi` — AYNEN: \"Karadağlılar da 23 Nisan'da İşkodra'yı işgal ettiler\" · hassasiyet: GÜN" },
+{ t:"1913-05-14", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"İşkodra",
+  b:"Karadağ İşkodra'yı boşalttı; büyük devletlerin uluslararası kolordusu şehre girdi",
+  gun:"14 Mayıs 1913", yer:"İşkodra (Shkodër)", kisiler:"Karadağ ordusu, uluslararası kolordu",
+  etiket:["askeri","toprak-kaybi","konu-askeri"],
+  taraflar:["karadag","arnavutluk-bagimsiz"],
+  d:"Büyük devletlerin baskısıyla Karadağ, 23 Nisan 1913'te aldığı İşkodra'yı 14 Mayıs 1913'te boşalttı; şehre uluslararası kolordu girdi ve Arnavutluk'un kurucu idaresinin parçası oldu.",
+  kaynak:"1914-1918-online, «Scutari Crisis» https://encyclopedia.1914-1918-online.net/article/scutari-crisis/ (gün arama özetinden; ikinci akademik teyit önerilir)" },
 
 // ── 1913 · Bükreş ────────────────────────────────────────────────────
 { t:"1913-08-10", k:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Kavala",

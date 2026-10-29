@@ -1016,7 +1016,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"bulgar-carligi", ad:"İkinci Bulgar İmparatorluğu", tur:"imparatorluk", bolge:"balkanlar",
-  f:"1185-01-01", t:"1396-01-01", baskent:"Tırnova → Vidin", harita:"bulgaristan",
+  f:"1185-01-01", t:"1396-10-01", baskent:"Tırnova → Vidin", harita:"bulgaristan",
   ozet:"Asen hanedanının imparatorluğu (hanedan ömrü); 1185'te Asen kardeşlerin isyanıyla doğdu. TDV Tırnova'nın düşüşünü 1393 verir; 1396 Vidin'in düşüşüdür — devletin son parçası, Niğbolu Haçlı Seferi sonrası ortadan kalktı.",
   kaynak:"bulgaristan",
   kronoloji:[
@@ -1025,7 +1025,7 @@ window.DEVLETLER = [
     { odak_yer:["Tırnova","Vidin"], t:"1371-01-01", tur:"bolunme", b:"İvan Aleksandır'ın ölümüyle devlet Tırnova ve Vidin çarlıklarına bölündü" },
     { odak_yer:["Tırnova"], t:"1393-06-17", tur:"toprak-kayip", b:"Tırnova düştü", kaynak:"TDV İslâm Ansiklopedisi, «Tırnova (Bulgaristan)» https://islamansiklopedisi.org.tr/tirnova--bulgaristan — «şehri tekrar zaptetti (17 Haziran 1393)»", ic_not_t:"eski gün 1393-07-17; 14 Ekim 2026 Emre kararıyla TDV gününe çekildi (TEYIT-KARAR-1014)" },
     { odak_yer:["Niğbolu"], t:"1396-09-25", tur:"savas", b:"Niğbolu'da Haçlı ordusuna galip gelindi" },
-    { odak_yer:["Vidin"], t:"1396-01-01", tur:"son", b:"Vidin'in düşüşüyle Bulgar Çarlığı sona erdi" }
+    { odak_yer:["Vidin"], t:"1396-10-01", tur:"son", b:"Vidin'in düşüşüyle Bulgar Çarlığı sona erdi", kaynak:"TDV vidin (M. Kiel): Niğbolu'dan (25 Eylül 1396) sonra Bayezid Vidin Prensliği'ni kendi imparatorluğuna kattı (ayrı gün verilmiyor)", ic_not_t:"eski gün 1396-01-01 (yıl-başı) Niğbolu savaşından önceye düşüyordu; vidin-carligi künye t=1396-10-01 ile hizalandı, gün TDV'de yok (ay hassasiyeti) (kron-balkan, 29 Eki 2026)" }
   ]
 },
 { id:"bosna-kralligi", ad:"Bosna Krallığı", tur:"krallik", bolge:"balkanlar",
@@ -1062,8 +1062,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"eflak", ad:"Eflak Voyvodalığı (Wallachia)", tur:"prenslik", bolge:"balkanlar",
-  f:"1330-01-01", t:"1859-01-24", baskent:"Bükreş", harita:"eflak",
-  tabi:[{f:"1462-06-01", t:"1859-01-24", ust:"osmanli"}],
+  f:"1330-01-01", t:"1859-02-05", baskent:"Bükreş", harita:"eflak",
+  tabi:[{f:"1462-06-01", t:"1859-02-05", ust:"osmanli"}],
   ozet:"Tuna'nın kuzeyinde Osmanlı'ya vasal kalan voyvodalık; Boğdan ile birleşerek Romanya'nın çekirdeğini oluşturdu.",
   kaynak:"eflak",
   kronoloji:[
@@ -1071,12 +1071,12 @@ window.DEVLETLER = [
     { odak_yer:["Bükreş"], t:"1395-05-17", tur:"savas", b:"Rovine'de Osmanlı'ya karşı direndi" },
     { odak_yer:["Bükreş"], t:"1417-01-01", tur:"antlasma", b:"Osmanlı vasalı (haraçgüzar) statüsü kabul edildi" },
     { odak_yer:["Bükreş"], t:"1821-01-01", tur:"isyan", b:"Tudor Vladimirescu isyanı" },
-    { odak_yer:["Bükreş"], t:"1859-01-24", tur:"birlesme", b:"Boğdan ile kişisel birlik kurarak Romanya'nın temelini attı" }
+    { odak_yer:["Bükreş"], t:"1859-02-05", tur:"birlesme", b:"Boğdan ile kişisel birlik kurarak Romanya'nın temelini attı" }
   ]
 },
 { id:"bogdan", ad:"Boğdan Voyvodalığı (Moldavia)", tur:"prenslik", bolge:"balkanlar",
-  f:"1359-01-01", t:"1859-01-24", baskent:"Suceava → Iaşi", harita:"bogdan",
-  tabi:[{f:"1456-06-01", t:"1859-01-24", ust:"osmanli"}],
+  f:"1359-01-01", t:"1859-02-05", baskent:"Suceava → Iaşi", harita:"bogdan",
+  tabi:[{f:"1456-06-01", t:"1859-02-05", ust:"osmanli"}],
   ozet:"Kuzey Tuna voyvodalığı (ülke sürekliliği, Romanya'nın çekirdeği); Osmanlı'ya 1455'te haraca, 1484'te kesin bağlandı; 1859'da Cuza'nın çifte seçimiyle Eflak'la birleşti.",
   kaynak:"bogdan",
   kronoloji:[
@@ -1085,7 +1085,7 @@ window.DEVLETLER = [
     { odak_yer:["Bălți"], t:"1475-01-10", tur:"savas", b:"Ştefan cel Mare, Vaslui'de Osmanlı'yı yendi (Valea Albă'da ertesi yıl yenildi)", kaynak:"TDV: bogdan · romanya: Vaslui yenilgisi 1475 — YIL; gün 01-10 eski kayıttan (KRONO-TUNA-0929 A1)" },
     { odak_yer:["Bălți"], t:"1512-01-01", tur:"antlasma", b:"Osmanlı vasalı statüsü kesinleşti" },
     { odak_yer:["Bălți"], t:"1538-09-14", tur:"savas", b:"Kanunî'nin seferiyle Petru Rareş tahttan indirildi, vasallık sıkılaştırıldı" },
-    { odak_yer:["Bălți"], t:"1859-01-24", tur:"birlesme", b:"Eflak ile birleşerek Romanya'nın temelini attı" }
+    { odak_yer:["Bălți"], t:"1859-02-05", tur:"birlesme", b:"Eflak ile birleşerek Romanya'nın temelini attı" }
   ]
 },
 { id:"erdel", ad:"Erdel Prensliği (Transilvanya)", tur:"prenslik", bolge:"orta-avrupa",
@@ -1101,6 +1101,16 @@ window.DEVLETLER = [
     { odak_yer:["Viyana"], t:"1683-09-12", tur:"toprak-kayip", b:"II. Viyana bozgunu sonrası Habsburg baskısı arttı" },
     { odak_yer:["Erdel Belgradı"], t:"1691-12-04", tur:"antlasma", b:"Diploma Leopoldinum ile Habsburg üstünlüğü altında özerklik tanındı", kaynak:"Magyar Katolikus Lexikon 'Diploma Leopoldinum': 'I. 1691. XII. 4' (KRONO-ORTA-AVRUPA-0929 B1)" },
     { odak_yer:["Szatmár"], t:"1711-04-29", tur:"son", b:"Szatmár Antlaşması ile kesin olarak Habsburg'a bağlandı", kaynak:"Magyar Nemzeti Levéltár 'A szatmári béke': '1711. április 29-én Nagykárolyban írta alá' (KRONO-ORTA-AVRUPA-0929 A1)" }
+  ]
+},
+{ id:"dobruca-despotlugu", ad:"Dobruca Prensliği (Dobrotiç Devleti)", tur:"prenslik", bolge:"balkanlar",
+  f:"1359-01-01", t:"1393-09-01", baskent:"Karvuna (Balçık) → Varna",
+  ozet:"Balik ve kardeşi Dobrotiç'in Karadeniz kıyısında kurduğu hıristiyan Türk (Gagauz) prensliği; adını Dobruca'ya veren devlet. Varna 1369'dan başşehri; oğlu Ivanko zamanında Osmanlı'ya geçti. f = TDV'deki İLK TARİHLİ TANIKLIK (1359, Dobrotiç'in Kuzey Dobruca'yı işgali), KURULUŞ DEĞİL — Balik dönemi daha eskidir, yılı TDV'de yok. t = atlasın Dobruca katılış kırılması (1393-09-01; TDV varna: '795'te (1393) Osmanlı hâkimiyetine alındı'). TDV balcik ise 'Balçık bütün Dobruca ile birlikte Temmuz 1389'dan sonra Osmanlılar'ın idaresi altına girdi' der — TDV kendi içinde çelişir (iki madde de M. Kiel'in); 1389 Ivanko'nun son tanıklığı ve Mircea'nın 1390 'Dobrotiç topraklarının despotu' unvanı ile uyumlu, 1393 Varna kalesi ve atlasın yerleşim zinciri ile uyumlu. Künye t zincirle hizalı genişletildi (aynı polity sürüyor); 1389 okuması istenirse yerleşim dönemleri ve olaylar_ek.js 1393 maddesi birlikte değişmelidir.",
+  kaynak:"TDV dobruca (K. Karpat): 'Balik'in Dobrotiç adındaki kardeşi … 1359'da Kuzey Dobruca'yı işgal ederek' · 'Burada ilk müstakil devleti kuran Dobrotiç bölgeye kendi adını vermiş' · 'Dobrotiç'in oğlu Ivanko' · TDV varna (M. Kiel): '1369'dan itibaren Varna hıristiyan Türkler'e ait Dobruca Prensliği'nin bir parçası haline geldi ve bu küçük devletin başşehri yapıldı' · '795'te (1393) Osmanlı hâkimiyetine alındı' · TDV balcik (M. Kiel): Karvuna 'Despotu Balik'in (Balika) ikametgâhı idi' · 'Temmuz 1389'dan sonra' · TDV kostence (B. Murgescu): 'XIV. yüzyılda şehir önce Dobrotici Devleti'ne ait' · denetim/PAKET-0076-DOBROTIC-1004.md",
+  kronoloji:[
+    { odak_yer:["Köstence"], t:"1359-01-01", tur:"kurulus", b:"Dobrotiç Kuzey Dobruca'yı işgal etti — TDV'deki ilk tarihli tanıklık (kuruluş yılı değil)", kaynak:"TDV dobruca" },
+    { odak_yer:["Varna"], t:"1369-01-01", tur:"toprak-kazanc", b:"Varna prensliğe katıldı ve başşehir yapıldı", kaynak:"TDV varna" },
+    { odak_yer:["Köstence"], t:"1393-09-01", tur:"son", b:"Dobruca Osmanlı idaresine girdi (TDV varna 1393; TDV balcik 'Temmuz 1389'dan sonra' — çelişki künye özetinde)", kaynak:"TDV varna · balcik" }
   ]
 },
 { id:"mora-despotlugu", ad:"Mora Despotluğu", tur:"prenslik", bolge:"balkanlar",
@@ -1145,7 +1155,8 @@ window.DEVLETLER = [
     { t:"1305-04-30", tur:"savas", b:"Roger de Flor öldürüldü; Katalanlar Bizans'a döndü, Trakya ve Makedonya'yı yağmaladı (\"Katalan İntikamı\")" },
     { t:"1311-03-15", tur:"kurulus", b:"Halmyros (Kifisos) Savaşı'nda Atina Dukası Brienneli Gautier'yi öldürüp dukalığı ele geçirdi" },
     { t:"1312-01-01", tur:"siyaset", b:"Katalanlar Sicilya Kralı III. Frederick'in egemenliğini tanıdı; Frederick oğlu Manfred'i Atina Dükü atadı, fiilî yönetim vekilharç (vicar-general) ve mareşalin elinde kaldı.", kaynak:"https://www.worldhistory.org/Duchy_of_Athens/ ; Setton, Catalan Domination of Athens 1311-1380 (1975) (yıl)" },
-    { t:"1388-05-02", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü" }
+    { t:"1318-01-01", tur:"toprak-kazanc", b:"İzdin (Zitouni/Lamia) Atina Katalan Dukalığı'na katıldı (yıl hassasiyeti)", odak_yer:["İzdin (Lamia)"], kaynak:"TDV izdin: «1318'den 1388'e kadar Atina Katalan Dukalığı'na ait olan şehir» (yıl; gün yok)" },
+    { t:"1388-05-02", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü", ic_not_t:"ÇELİŞKİ (iki kaynağıyla): TDV atina «1311'den 1387'ye kadar Katalanlar'ın hâkimiyeti altında kaldı» (Nerio 1387'de aldı) · TDV izdin «1318'den 1388'e» · Foundation of the Hellenic World «Athens - Rule of the Florentines - General»: Katalanlar 1388'de Acciaiuoli ailesine devretti. 1388-05-02 günü bu turda hiçbir kaynakta bulunamadı (yıl: 1387 TDV atina / 1388 TDV izdin+FHW); TDV esas ilkesine göre Atina için 1387 de mümkün. Neopatras kolunun 1390'a dek sürdüğü görüşü yalnız ikincil (World History Encyclopedia) — TEYİTSİZ." }
   ]
 },
 { id:"naksa-dukaligi", ad:"Naxos (Nakşa) Dukalığı", tur:"dukalik", bolge:"balkanlar",
@@ -1453,7 +1464,7 @@ window.DEVLETLER = [
     { odak_yer:["Belgrad"], t:"1804-02-14", tur:"isyan", b:"Birinci Sırp İsyanı (Kara Yorgi)" },
     { odak_yer:["Belgrad"], t:"1815-04-23", tur:"isyan", b:"İkinci Sırp İsyanı (Miloš Obrenović)" },
     { odak_yer:["Belgrad"], t:"1830-10-17", tur:"antlasma", b:"Özerklik fermanla tanındı", kaynak:"TDV: sirbistan: 'Nihayet 17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti.'" },
-    { odak_yer:["Berlin"], t:"1878-07-13", tur:"son", b:"Berlin Kongresi'nde tam bağımsızlık tanındı" },
+    { odak_yer:["Berlin"], t:"1878-07-13", tur:"antlasma", b:"Berlin Kongresi'nde tam bağımsızlık tanındı", kaynak:"TDV sirbistan: Berlin Antlaşması Sırbistan ve Karadağ'ın bağımsızlığını tanıdı (gün TDV'de yok); Berlin Antlaşması md. 34, 13 Temmuz 1878 (AJIL Supplement 1908)", ic_not_t:"tür 'son' idi; künye t=1882-03-06 (krallık) olduğundan 'son' yalnız künye bitişine konur (kron-balkan, 28 Eki 2026)" },
     { odak_yer:["Belgrad"], t:"1882-03-06", tur:"hukumdar", b:"Krallık ilan edildi" }
   ]
 },
@@ -1466,10 +1477,11 @@ window.DEVLETLER = [
     { odak_yer:["Atina"], t:"1827-10-20", tur:"savas", b:"Navarin'de müttefik donanma Osmanlı-Mısır filosunu yendi" },
     { odak_yer:["Londra"], t:"1830-02-03", tur:"kurulus", b:"Londra Protokolü ile bağımsızlık tanındı" },
     { odak_yer:["Atina"], t:"1897-04-18", tur:"savas", b:"1897 Osmanlı-Yunan Savaşı (Dömeke)" },
-    { odak_yer:["Selanik","Girit"], t:"1912-10-08", tur:"savas", b:"Balkan Savaşları'nda Selanik ve Girit'i aldı" },
+    { odak_yer:["Selanik"], t:"1912-11-08", tur:"savas", b:"Yunan ordusu Selanik'e girdi (Balkan Savaşı)", kaynak:"Mahmut Akkor, ABAD 8(15) 2025 (DergiPark): Selanik 8 Kasım 1912; Britannica «Balkan Wars»", ic_not_t:"eski gün 1912-10-08 = Karadağ'ın savaş ilanı günü; Girit birleşmesi ayrı maddelerde (kron-balkan, 28 Eki 2026)" },
     { odak_yer:["İzmir"], t:"1919-05-15", tur:"isgal", b:"İzmir'i işgal etti (Millî Mücadele'nin başlangıç noktalarından)" },
     { odak_yer:["Atina"], t:"1924-03-25", tur:"siyaset", b:"Cumhuriyet ilan edildi (II. Yunan Cumhuriyeti)", kaynak:"TDV: yunanistan (özet, alıntı değil): 25 Mart 1924" },
-    { odak_yer:["Atina"], t:"1935-01-01", tur:"siyaset", b:"Kral II. Georg Atina'ya çağrıldı, krallık rejimine dönüldü", kaynak:"TDV: yunanistan (özet) — YIL verir, gün yok" },
+    { odak_yer:["Atina"], t:"1935-11-03", tur:"siyaset", b:"Plebisit krallığın geri dönüşünü onayladı (Kondylis rejimi)", kaynak:"Foundation of the Hellenic World, «The restoration of the monarchy» https://www.fhw.gr/chronos/14/en/1923_1940/domestic_policy/facts/10.html: 3 Kasım 1935 plebisiti; TDV yunanistan yalnız yıl verir", ic_not_t:"eski gün 1935-01-01 (yıl-başı) (kron-balkan, 28 Eki 2026)" },
+    { odak_yer:["Atina"], t:"1935-11-25", tur:"hukumdar", b:"Kral II. Georg Atina'ya döndü, krallık yeniden kuruldu", kaynak:"Foundation of the Hellenic World, aynı sayfa: 25 Kasım 1935 Faliron'da karşılama" },
     { odak_yer:["Atina"], t:"1946-09-01", tur:"siyaset", b:"Plebisit sonucu krallığın iadesine karar verildi; II. Georg 27 Eylül'de döndü", kaynak:"TDV Yunanistan maddesi (gün doğrulanmadı)" },
     { odak_yer:["Atina"], t:"1947-03-12", tur:"ittifak", b:"Truman Doktrini: ABD, Yunanistan ve Türkiye'ye yardımı ilan etti", kaynak:"https://history.state.gov/milestones/1945-1952/truman-doctrine" },
     { odak_yer:["Paris"], t:"1947-09-15", tur:"toprak-kazanc", b:"Paris Barış Antlaşması yürürlüğe girdi, Oniki Ada Yunanistan'a bırakıldı (birleşme 7 Mart 1948)", kaynak:"https://api.parliament.uk/uk-treaties/treaties/496" },
@@ -1515,11 +1527,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"romanya", ad:"Romanya", tur:"prenslik", bolge:"balkanlar",
-  f:"1859-01-24", t:"1881-03-26", baskent:"Bükreş", harita:"romanya",
+  f:"1859-02-05", t:"1881-03-26", baskent:"Bükreş", harita:"romanya",
   ozet:"Romen devlet sürekliliğinin bir evresi (ülke sürekliliği): Eflak-Boğdan'ın 1859 kişisel birliğiyle doğdu, 1877 bağımsızlık ilanı ve 1878 Berlin Kongresi tanımasıyla pekişti, 1881'de krallığa dönüştü.",
   kaynak:"romanya",
   kronoloji:[
-    { odak_yer:["Bükreş"], t:"1859-01-24", tur:"birlesme", b:"Eflak ve Boğdan, Alexandru Ioan Cuza önderliğinde birleşti" },
+    { odak_yer:["Bükreş"], t:"1859-02-05", tur:"birlesme", b:"Eflak ve Boğdan, Alexandru Ioan Cuza önderliğinde birleşti" },
     { odak_yer:["Bükreş"], t:"1877-05-21", tur:"isyan", b:"Bağımsızlığını ilan etti (93 Harbi'nde Rusya'nın yanında savaştı)" },
     { odak_yer:["Berlin"], t:"1878-07-13", tur:"antlasma", b:"Berlin Kongresi'nde bağımsızlığı tanındı" },
     { odak_yer:["Bükreş"], t:"1881-03-26", tur:"son", b:"Krallık ilan edildi" }
@@ -1554,7 +1566,7 @@ window.DEVLETLER = [
     { odak_yer:["Girit"], t:"1910-05-09", tur:"siyaset", b:"Girit meclisi Yunan kralı adına açıldı; 30 Mayıs 1910'da Müslüman mebuslar meclisten dışlandı.", kaynak:"TDV İslâm Ansiklopedisi, GİRİT maddesi, https://islamansiklopedisi.org.tr/girit" },
     { odak_yer:["Girit"], t:"1910-10-29", tur:"siyaset", b:"Büyük güçler Girit üzerindeki Osmanlı egemenliğini yeniden teyit etti.", kaynak:"TDV İslâm Ansiklopedisi, GİRİT maddesi, https://islamansiklopedisi.org.tr/girit" },
     { odak_yer:["Girit"], t:"1912-10-10", tur:"birlesme", b:"Yunanistan Girit'teki iki meclisin birleştirilmesini onayladı; 26 Ekim 1912'de Dragumis idareyi devraldı.", kaynak:"TDV İslâm Ansiklopedisi, GİRİT maddesi, https://islamansiklopedisi.org.tr/girit" },
-    { odak_yer:["Londra"], t:"1913-05-30", tur:"son", b:"Londra Antlaşması ile Yunanistan'a resmen katıldı" }
+    { odak_yer:["Londra"], t:"1913-05-30", tur:"son", b:"Londra Antlaşması ile Yunanistan'a resmen katıldı", kaynak:"TDV girit: «Londra (30 Mayıs 1913) ve Bükreş (10 Ağustos 1913) muahedeleriyle Girit adası Osmanlı Devleti'nin elinden çıkmış oldu»", ic_not_b:"Hukukî devir günü bu madde ve yerleşim zincirleridir. Atina Antlaşması 14 Kasım 1913 (Osmanlı feragatinin ikili teyidi) ve Yunan bayrağının Hanya'da çekilmesi 14 Aralık 1913 (1 Aralık Jülyen) ayrı maddelerdir (kron-balkan, 29 Eki 2026)." }
   ]
 },
 { id:"fransiz-misir-seferi", ad:"Napolyon'un Mısır Seferi", tur:"gecici-isgal", bolge:"misir-sudan",
@@ -1635,7 +1647,7 @@ window.DEVLETLER = [
     { odak_yer:["Berlin"], t:"1878-07-13", tur:"kurulus", b:"Berlin Kongresi ile Bulgaristan'dan ayrı, Osmanlı'ya bağlı özerk vilayet olarak kuruldu" },
     { odak_yer:["Filibe"], t:"1879-03-03", tur:"hukumdar", b:"Alexander Bogoridi (Aleko Paşa) Şarkî Rumeli genel valisi atandı ve kısa süre sonra Filibe'ye geldi.", kaynak:"Radio Bulgaria (BNR), Unification of Bulgaria, https://old-news.bnr.bg/en/post/101014831/unification-of-bulgaria-a-real-historical-legend" },
     { odak_yer:["Filibe"], t:"1884-01-01", tur:"hukumdar", b:"Bogoridi'nin görev süresi dolunca Mayıs 1884'te Gavril Krastevich genel vali oldu (gün bilinmiyor).", kaynak:"Radio Bulgaria (BNR), https://bnrnews.bg/en/post/92092/gavril-krastevich-ensured-the-peaceful-unification-of-bulgaria" },
-    { odak_yer:["Filibe"], t:"1885-09-06", tur:"birlesme", b:"Filibe'de Doğu Rumeli'nin Bulgaristan Prensliği'yle birleştiği ilan edildi; Krastevich Osmanlı'dan asker istenmesine engel oldu.", kaynak:"Radio Bulgaria (BNR), https://bnrnews.bg/en/post/92092/gavril-krastevich-ensured-the-peaceful-unification-of-bulgaria" },
+    { odak_yer:["Filibe"], t:"1885-09-18", tur:"birlesme", ic_not_t:"eski gün 1885-09-06 = Jülyen (6 Eylül O.S.) → Gregoryen 18 Eylül; künye t ve 'son' maddesi 1885-09-18 ile aynı (kron-balkan, 28 Eki 2026)", b:"Filibe'de Doğu Rumeli'nin Bulgaristan Prensliği'yle birleştiği ilan edildi; Krastevich Osmanlı'dan asker istenmesine engel oldu.", kaynak:"Radio Bulgaria (BNR), https://bnrnews.bg/en/post/92092/gavril-krastevich-ensured-the-peaceful-unification-of-bulgaria" },
     { odak_yer:["Filibe"], t:"1885-09-18", tur:"son", b:"Filibe darbesiyle Bulgaristan Prensliği'ne katıldığını ilan etti (Osmanlı fiilen müdahale etmedi)" }
   ]
 },
@@ -10370,7 +10382,7 @@ window.DEVLETLER = [
     { odak_yer:["Banaluka","Saraybosna"], t:"1580-09-04", tur:"hukumdar", b:"Ferhad Paşa Bosna beylerbeyiliğine tayin edildi (beylerbeyilik beratı 20.09.1580)", kaynak:"TDV `bosna-eyaleti`" },
     { odak_yer:["Tuzla"], t:"1866-01-01", tur:"siyaset", b:"Bosna vilâyet olarak yeniden düzenlendi", kaynak:"TDV `bosna-eyaleti`" },
     { odak_yer:["Berlin"], t:"1878-07-29", tur:"isgal", b:"Avusturya-Macaristan Bosna'yı işgale başladı (Berlin Kongresi kararıyla); Osmanlı idaresi fiilen sona erdi", kaynak:"TDV `bosna-hersek`: '29 Temmuz'da başlayan işgal'" },
-    { odak_yer:["Macaristan"], t:"1878-10-20", tur:"son", b:"Avusturya-Macaristan işgali tamamlandı", kaynak:"TDV `bosna-hersek`" }
+    { odak_yer:["Saraybosna"], t:"1878-10-20", tur:"isgal", b:"Avusturya-Macaristan işgali tamamlandı", kaynak:"TDV bosna-hersek: «29 Temmuz’da başlayan işgal 20 Ekim 1878’de tamamlandı.»" }
   ] },
 { id:"iskodra-pasaligi", ad:"İşkodra Paşalığı (Buşatlılar)", tur:"eyalet", bolge:"balkanlar",
   f:"1756-01-01", t:"1831-04-21",
@@ -10455,7 +10467,7 @@ window.DEVLETLER = [
     { odak_yer:["Kiev"], t:"1918-12-14", tur:"son", b:"Hetmanlık çöktü; Skoropadski çekildi, Direktuvar yönetimi devraldı.", kaynak:"Encyclopedia of Ukraine, 'Hetman government'; 'Directory of the Ukrainian National Republic'" }
   ] },
 { id:"epir-despotlugu", ad:"Epir (Yanya) Despotluğu — Tocco dönemi dâhil", tur:"prenslik", bolge:"balkanlar",
-  f:"1204-04-13", t:"1430-10-01", boya_gerekli:true,
+  f:"1204-04-13", t:"1430-10-09", boya_gerekli:true,
   ozet:"IV. Haçlı Seferi sonrası Epir'de kurulan Bizans ardılı despotluk; Sırp, Arnavut ve Tocco yönetimlerinden geçerek 1430'da Yanya'nın Osmanlı'ya teslimiyle sona erdi. Harita rengi verilmedi (Yanya haritada bizans boyasıyla — ayrı iş).",
   kaynak:"TDV `yanya`: '1204'teki IV. Haçlı Seferi'nden sonra Despot I. Mikael Angelos (Komnenos) 1430'a kadar yaşayan bağımsız Yunan Epiros Despotluğu'nu kurdu' · t: TDV `yanya`: 'Sphrantzes'e göre Yanya 1430'un Ekim ayında … Sinan Paşa'ya teslim oldu' · Britannica 'Greece — Despotate of Epirus': 'established effective control after 1204'. Öneren: KRONO-BALKAN-D-0929 + KUNYE-DUNYA-0929.",
   not:"30 Eylül 2026 KUNYE-UYGULA-0930. 🟡 TANIKLIK SINIRI: bu uç kuruluş/yıkılış günü DEĞİL, kaynağın devleti VAR gösterdiği en uç gündür (uydurma yok; gerçek ömür daha uzun). f: '1204'ten SONRA' — yıl kaynakta yok; f = IV. Haçlı'nın İstanbul'u alış günü (bizans künyesi 1204-04-13), kuruluşun ALT sınırı. t: AY hassasiyeti (Ekim 1430); çekirdekteki 1430-10-09 günü TDV'de yok. Britannica ana maddesi 1204-1337 der (1337 Bizans'a dönüş); bu künye Tocco dönemini de kapsar.",
@@ -10468,7 +10480,7 @@ window.DEVLETLER = [
     { odak_yer:["Yanya"], t:"1386-01-01", tur:"vassal", b:"Esau Buondelmonti Osmanlılarla temas kurdu, I. Murad'ı ziyaret edip yardım aldı", kaynak:"TDV `yanya`" },
     { odak_yer:["Yanya"], t:"1411-01-01", tur:"hukumdar", b:"Şubat 1411'de Esau öldü; Yanyalılar Carlo Tocco'yu davet etti, Yanya Tocco yönetimine geçti (gün yok)", kaynak:"TDV `yanya`" },
     { odak_yer:["Yanya"], t:"1429-01-01", tur:"hukumdar", b:"Temmuz 1429'da I. Carlo öldü, yeğeni II. Carlo geçti (gün yok)", kaynak:"TDV `yanya`" },
-    { odak_yer:["Yanya"], t:"1430-01-01", tur:"son", b:"Ekim 1430'da Yanya Sinan Paşa'ya teslim oldu; despotluk sona erdi (Sphrantzes'e göre; gün yok)", kaynak:"TDV `yanya`" }
+    { odak_yer:["Yanya"], t:"1430-10-09", tur:"son", b:"Ekim 1430'da Yanya Sinan Paşa'ya teslim oldu; despotluk sona erdi (Sphrantzes'e göre)", kaynak:"TDV `yanya` (Ekim 1430); gün: Delilbaşı, Belleten (TTK) s.105 «9 October 1430» · Ploumidis, Ecumenes/Univ. of Patras" }
   ] },
 { id:"vidin-carligi", ad:"Vidin Çarlığı (İvan Sracimir)", tur:"prenslik", bolge:"balkanlar",
   f:"1360-01-01", t:"1396-10-01",
@@ -13709,7 +13721,7 @@ window.DEVLETLER = [
     { odak_yer:["Preslav"], t:"0681-01-01", tur:"kurulus", b:"Bizans, Asparuh'un Slav-Bulgar devletini tanıyıp vergi ödemeyi kabul etti" },
     { odak_yer:["Sofya"], t:"0809-01-01", tur:"toprak-kazanc", b:"Han Krum Serdika'yı (Sofya) ele geçirdi.", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Fine 1983; Theophanes Confessor)" },
     { odak_yer:["Preslav"], t:"0811-07-26", tur:"savas", b:"Krum Varbitsa Geçidi'nde Bizans imparatoru I. Nikephoros'un ordusunu bozguna uğrattı; imparator öldü.", kaynak:"https://en.wikipedia.org/wiki/Battle_of_Varbitsa_Pass (Theophanes Confessor, Chronographia; Hupchick 2017; Sophoulis 2012)" },
-    { odak_yer:["Preslav"], t:"0814-04-14", tur:"hukumdar", b:"Han Krum öldü; Omurtag Bulgar tahtına geçti.", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Fine 1983)" },
+    { odak_yer:["Preslav"], t:"0814-04-13", tur:"hukumdar", b:"Han Krum öldü; Omurtag Bulgar tahtına geçti.", kaynak:"Encyclopaedia Britannica «Krum» (died April 13, 814); Fine 1983", ic_not_t:"eski gün 0814-04-14 (Vikipedi); Britannica 13 Nisan 814; KRONOLOJI_COK_MS1_1000_IBER_BALKAN aynı günü taşıyor (kron-balkan, 28 Eki 2026)" },
     { odak_yer:["Preslav"], t:"0864-01-01", tur:"siyaset", b:"Boris I Hristiyanlığı kabul etti (Bizans imparatoru III. Mikhail vaftiz babası, Mikhail adını aldı).", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Whittow 1996, Making of Byzantium) ; https://en.wikipedia.org/wiki/Boris_I_of_Bulgaria" },
     { odak_yer:["Preslav"], t:"0893-01-01", tur:"baskent", b:"Preslav Konseyi'nde Slavca ayinlerde Yunancanın yerini aldı ve başkent Pliska'dan Preslav'a taşındı.", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Fine 1983; Whittow 1996)" },
     { odak_yer:["Preslav"], t:"0913-01-01", tur:"hukumdar", b:"Simeon I çar (imparator) unvanını aldı.", kaynak:"https://en.wikipedia.org/wiki/First_Bulgarian_Empire (Fine 1983; Whittow 1996)" },
@@ -16043,10 +16055,10 @@ window.DEVLETLER = [
     { odak_yer:["Mostar"], t:"1993-11-08", tur:"savas", b:"HVO Mostar'daki Eski Köprü'yü (Stari Most) yıktı.", kaynak:"ICTY, Prlić ve diğerleri https://www.icty.org/en/sid/11324" },
     { odak_yer:["Mostar"], t:"1994-03-18", tur:"antlasma", b:"Washington Anlaşması: Hırvat-Boşnak savaşı bitti, Bosna-Hersek Federasyonu kuruldu.", kaynak:"https://en.wikipedia.org/wiki/Washington_Agreement (ikincil); ICTY Prlić özeti https://www.icty.org/x/cases/prlic/tjug/en/130529_summary_en.pdf (doğrudan okunamadı)" }
   ] },
-{ id:"makedonya", ad:"Makedonya Cumhuriyeti (2019-02-12'den Kuzey Makedonya)", tur:"cumhuriyet", bolge:"balkanlar", f:"1991-09-08", baskent:"Üsküp", ozet:"8 Eylül 1991 bağımsızlık referandumu (%96 evet); Meclis kararları 18 ve 25 Eylül 1991'de, anayasa 17 Kasım 1991'de. 8 Eylül ulusal bağımsızlık günü.", kaynak:"https://www.bta.bg/en/news/balkans/962545-north-macedonia-celebrates-independence-day-on-sept-8 ; https://arhiv.mk/en/?p=9789 (Makedonya Devlet Arşivi) ; kaynak 25 Eylül'ü bağımsızlık bildirisi olarak da verir — f seçimi karar işi", kronoloji:[
+{ id:"makedonya", ad:"Makedonya Cumhuriyeti (2019-02-12'den Kuzey Makedonya)", tur:"cumhuriyet", bolge:"balkanlar", f:"1991-09-08", baskent:"Üsküp", ozet:"8 Eylül 1991 bağımsızlık referandumu (%96 evet); Meclis Bildirgesi 17 Eylül (sonuçların kabulü 18 Eylül) 1991'de, anayasa 17 Kasım 1991'de. 8 Eylül ulusal bağımsızlık günü.", kaynak:"https://www.bta.bg/en/news/balkans/962545-north-macedonia-celebrates-independence-day-on-sept-8 ; https://arhiv.mk/en/?p=9789 (Makedonya Devlet Arşivi) ; kaynak 25 Eylül'ü bağımsızlık bildirisi olarak da verir — f seçimi karar işi", kronoloji:[
     { odak_yer:["Üsküp"], t:"1991-09-08", tur:"siyaset", b:"Bağımsızlık referandumu (katılım yaklaşık %76, evet yaklaşık %96)", kaynak:"https://www.bta.bg/en/news/balkans/962545-north-macedonia-celebrates-independence-day-on-sept-8" },
     { odak_yer:["Üsküp"], t:"1991-09-18", tur:"siyaset", b:"Meclis referandum sonuçlarını ilan etti", kaynak:"https://arhiv.mk/en/?p=9789" },
-    { odak_yer:["Üsküp"], t:"1991-09-25", tur:"kurulus", b:"Meclis Bağımsızlık Bildirgesi'ni kabul etti", kaynak:"https://arhiv.mk/en/?p=9789" },
+    { odak_yer:["Üsküp"], t:"1991-09-17", tur:"siyaset", b:"Meclis Bağımsızlık Bildirgesi'ni kabul etti", kaynak:"Makedonya Meclisi (Sobranie), Declarations of independence, https://sobranie.mk/declarations-of-independence.nspx — Bildirge 17 Eylül 1991; sonuçların resmî kabulü 18 Eylül: Makedonya Devlet Arşivi https://arhiv.mk/en/?p=9789", ic_not_t:"eski gün 1991-09-25 yalnız ikincil kaynaklarda; Sobranie 17 Eylül, DARM 18 Eylül verir; arhiv.mk'nin 25 Ocak 1991'i Egemenlik Bildirgesi'dir; kuruluş f=1991-09-08 künyede (kron-balkan, 28 Eki 2026)" },
     { odak_yer:["Üsküp"], t:"1993-04-08", tur:"siyaset", b:"BM Genel Kurulu 47/225 sayılı kararla ülkeyi 'Makedonya Eski Yugoslav Cumhuriyeti' geçici adıyla üyeliğe kabul etti.", kaynak:"BM Dijital Kütüphane A/RES/47/225 https://digitallibrary.un.org/record/166464 ; https://hrlibrary.umn.edu/resolutions/47/225GA1992.html" },
     { odak_yer:["Selanik","Üsküp"], t:"1994-02-16", tur:"siyaset", b:"Yunanistan Makedonya'ya ambargo uyguladı, Selanik limanını Makedonya yüklerine kapattı ve Üsküp'teki konsolosluğunu çekti (bazı kaynaklar 17 Şubat).", kaynak:"CSMonitor 17.02.1994 https://www.csmonitor.com/layout/set/amphtml/1994/0217/17062.html ; BM S/1994/194 https://digitallibrary.un.org/record/182757/files/S_1994_194-EN.pdf" },
     { odak_yer:["Üsküp"], t:"1995-09-13", tur:"antlasma", b:"Yunanistan ile Makedonya New York'ta Geçici Anlaşma'yı imzaladı.", kaynak:"BM Antlaşma Serisi cilt 1891, I-32193 https://treaties.un.org/doc/publication/unts/volume%201891/volume-1891-i-32193-english.pdf" },
@@ -17340,7 +17352,7 @@ window.DEVLETLER = [
     { odak_yer:["Krayova (Craiova)"], t:"1395-05-17", tur:"son", b:"Kral Marko, Osmanlı safında Eflak voyvodası Mircea'ya karşı Rovine Savaşı'nda ölür.", kaynak:"Dečanski letopis (akt. Maps of Power, ÖAW, https://maps-of-power.oeaw.ac.at/projects/borderzones/explore/reference/123749); künyedeki Britannica 'Marko Kraljević' atfı bu oturumda doğrulanamadı" }
   ] },
 { id:"kosova-brankovic", ad:"Brankoviç Toprakları (Kosova)", tur:"beylik", bolge:"balkanlar", f:"1373-01-01", t:"1395-01-01", baskent:"Priştine", ozet:"Vuk Branković'in Priştine merkezli toprakları; District of Branković 1373-1395, Vuk'un hâkimiyeti 1371-1396 verilir; 21 Kasım 1392'ye kadar sultana boyun eğmek zorunda kaldı, 1397'de esirken öldü. Aralık tutarsız; tek akademik dayanak balcanica.rs makalesi.", kaynak:"balcanica.rs makalesi (Vuk'un 1392 tâbiliği); Wikipedia 'District of Branković' ipucu", kronoloji:[
-    { odak_yer:["Priştine"], t:"1389-06-28", tur:"savas", b:"Vuk Branković kayınpederi Prens Lazar'la birlikte Kosova Savaşı'na katıldı; Lazar ölünce hayatta kalan en güçlü Sırp beylerinden biri oldu.", kaynak:"Britannica, 'Battle of Kosovo (1389)', https://www.britannica.com/event/Battle-of-Kosovo-1389-Balkans" },
+    { odak_yer:["Priştine"], t:"1389-06-15", tur:"savas", ic_not_t:"eski gün 1389-06-28 (Gregoryen/Vikipedi geleneği); TDV «Kosova Savaşları»: «15 Haziran 1389 (19 Cemâziyelâhir 791)»; atlasın öteki Kosova maddeleri 15 Haziran (kron-balkan, 28 Eki 2026)", b:"Vuk Branković kayınpederi Prens Lazar'la birlikte Kosova Savaşı'na katıldı; Lazar ölünce hayatta kalan en güçlü Sırp beylerinden biri oldu.", kaynak:"Britannica, 'Battle of Kosovo (1389)', https://www.britannica.com/event/Battle-of-Kosovo-1389-Balkans" },
     { odak_yer:["Üsküp"], t:"1392-01-01", tur:"vassal", b:"Vuk Branković, Üsküp'ün Osmanlı eline geçmesinin ardından Osmanlı hâkimiyetini kabul eder; Kasım 1392 tarihli Hilandar belgesi tâbiliğini gösterir.", kaynak:"Zbornik radova Vizantološkog instituta (2008) ve balcanica.rs makalesi (Vuk'un 1392 tâbiliği)" }
   ] },
 { id:"kefalonya-palatin", ad:"Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco)", tur:"kontluk", bolge:"balkanlar", f:"1194-01-01", t:"1479-01-01", baskent:"Kefalonya", ozet:"Britannica Zakynthos: Orsini 1194-1328, Tocco 1328-1482; Kefalonya 1479'da alındı (Osmanlı), 1500'de Venedik. Aday f=1185 doğrulanmadı. t Zakintos için 1482.", kaynak:"Britannica 'Zacynthus'; Britannica 'Greece: Despotate of Epirus'", kronoloji:[
@@ -17358,7 +17370,7 @@ window.DEVLETLER = [
     { odak_yer:["Eğriboz"], t:"1304-01-01", tur:"siyaset", b:"Venedikliler Eğriboz şehrini surlarla tahkim eder.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz' (https://islamansiklopedisi.org.tr/egriboz)" },
     { odak_yer:["Eğriboz"], t:"1333-01-01", tur:"savas", b:"Aydınoğlu Umur Bey'in Eğriboz'a ilk akınları başlar.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz'" },
     { odak_yer:["Venedik"], t:"1463-01-01", tur:"savas", b:"Osmanlı-Venedik savaşı (1463-1479) başlar.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz'" },
-    { odak_yer:["Eğriboz"], t:"1470-01-01", tur:"son", b:"II. Mehmed'in şahsen yönettiği kuşatma ve sokak çarpışmalarının ardından Eğriboz Osmanlı'ya geçer.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz'" }
+    { odak_yer:["Eğriboz"], t:"1470-07-12", tur:"son", b:"II. Mehmed'in şahsen yönettiği kuşatma ve sokak çarpışmalarının ardından Eğriboz Osmanlı'ya geçer.", kaynak:"TDV İslâm Ansiklopedisi 'Eğriboz' (yalnız 1470) · gün: Medieval Routes (Yunan Kültür Bakanlığı, Chalkida) ve MacKay (Univ. of Washington) «final assault on July 12»", ic_not_t:"eski gün 1470-01-01 (yıl-başı); künye t 1470-07-12 ile hizalandı (kron-balkan, 28 Eki 2026)" }
   ] },
 { id:"gattilusio", ad:"Gattilusio Lordluğu (Midilli, Limni, Taşoz, Enez)", tur:"ceneviz-lordlugu", bolge:"balkanlar", f:"1355-01-01", t:"1462-09-17", baskent:"Midilli", ozet:"Britannica: Midilli'de Gateluzzi hâkimiyeti 1355-1462; 1453 sonrası haraçla bırakıldılar (TDV Limni). Midilli 1462'de Osmanlı'ya geçti. t günü [g?].", kaynak:"Britannica 'Mytilene', 'Gateluzzi family'; TDV 'Limni', 'Taşoz'", kronoloji:[
     { odak_yer:["Midilli"], t:"1355-01-01", tur:"kurulus", b:"Bizans İmparatoru V. Ioannes Palaiologos, eniştesi Cenevizli Francesco Gattilusio'ya Midilli'yi verdi; hanedan böylece başladı (TDV hibeyi 1354 olarak tarihler, Britannica 1355-1462 hâkimiyet verir).", kaynak:"TDV İslâm Ansiklopedisi, 'Midilli', https://islamansiklopedisi.org.tr/midilli (1354 verir; pencere dışı, atlas f=1355 esas alındı)" },
@@ -17428,11 +17440,11 @@ window.DEVLETLER = [
     { odak_yer:["Korfu"], t:"1803-11-18", tur:"siyaset", b:"Osmanlı, Rus, İngiliz ve cumhuriyet yetkilileri arasındaki müzakerelerin ardından idarî nizamname kesinleşti.", kaynak:"Küre İslâm Ansiklopedisi, YEDİ ADA CUMHURİYETİ, https://kureansiklopedi.com/tr/detay/yedi-ada-cumhuriyeti-2" },
     { odak_yer:["Korfu"], t:"1807-07-07", tur:"son", b:"Tilsit Antlaşmaları (7-9 Temmuz 1807) ile Yedi Ada Fransa'ya bırakılır.", kaynak:"kythera-family.net, G. N. Leontsinis, 'The Island of Kythera: A Social History 1700-1863', böl. 1" }
   ] },
-{ id:"birlesik-iyon-adalari", ad:"Birleşik Iyon Adaları Devleti", tur:"i-ngiliz-himayesi", bolge:"balkanlar", f:"1815-11-05", t:"1864-05-28", baskent:"Korfu", ozet:"1815 Paris Antlaşması ile İngiliz himayesi; 1864'te Yunanistan'a devredildi (Kral I. George'un tahta çıkışı). Gün alanları [g?].", kaynak:"Britannica 'Ionian Islands'", kronoloji:[
+{ id:"birlesik-iyon-adalari", ad:"Birleşik Iyon Adaları Devleti", tur:"i-ngiliz-himayesi", bolge:"balkanlar", f:"1815-11-05", t:"1864-06-02", baskent:"Korfu", ozet:"1815 Paris Antlaşması ile İngiliz himayesi; 1864'te Yunanistan'a devredildi (Kral I. George'un tahta çıkışı). Gün alanları [g?].", kaynak:"Britannica 'Ionian Islands'", kronoloji:[
     { odak_yer:["Paris"], t:"1815-11-05", tur:"antlasma", b:"Paris'te imzalanan antlaşmayla Iyon Adaları İngiliz himayesine girer.", kaynak:"Archontology.org 'Ionian Islands: Polity Style 1816-1864' (https://archontology.org/nations/greece/ionian_islands/01_polity.php)" },
     { odak_yer:["Korfu"], t:"1817-08-26", tur:"siyaset", b:"Iyon Adaları Birleşik Devleti anayasası yürürlüğe girer (federal oligarşi).", kaynak:"Archontology.org 'Ionian Islands: Polity Style 1816-1864'" },
     { odak_yer:["Londra"], t:"1864-03-29", tur:"antlasma", b:"Londra Antlaşması: İngiltere himayeden çekilir; Fransa, Rusya ve Yunanistan adaların Yunanistan'a birleşmesini tanır.", kaynak:"Archontology.org 'Ionian Islands: Polity Style 1816-1864' (17/29 Mart 1864)" },
-    { odak_yer:["Korfu"], t:"1864-05-28", tur:"son", b:"28 Mayıs 1864 bildirisiyle himaye sona erer; adalar Yunanistan'a bağlanır.", kaynak:"Archontology.org 'Ionian Islands: Polity Style 1816-1864'" }
+    { odak_yer:["Korfu"], t:"1864-06-02", tur:"son", b:"28 Mayıs 1864 bildirisiyle himaye sona erer; adalar 2 Haziran 1864'te Yunanistan'a devredilir.", kaynak:"Archontology.org 'Ionian Islands: Polity Style 1816-1864' (devir 21 Mayıs J. = 2 Haziran); History Today «Britain's Gift to the Greeks»: June 2nd, 1864 formally handed over", ic_not_t:"eski gün 1864-05-28 (bildiri günü); yürürlük/devir 2 Haziran (21 Mayıs Jülyen) (kron-balkan, 28 Eki 2026)" }
   ] },
 { id:"sirp-voyvodaligi", ad:"Sırp Voyvodalığı ve Tamiş Banatı", tur:"habsburg-topragi", bolge:"balkanlar", f:"1849-11-18", t:"1860-12-27", baskent:"Temeşvar", ozet:"1849'da Habsburg tacı toprağı olarak kuruldu (encyclopedia.com: 1849-1860); Britannica 1867 Ausgleich ile özerkliğin bittiğini söyler. Gün alanları [g?].", kaynak:"encyclopedia.com 'Vojvodina'; Britannica 'Vojvodina', 'History of Serbia'", kronoloji:[
     { odak_yer:["Temeşvar"], t:"1849-11-18", tur:"kurulus", b:"Franz Joseph patentiyle Sırp Voyvodalığı ve Tamiş Banatı Habsburg tacı toprağı olarak kuruldu, merkez Temeşvar.", kaynak:"novibechej.com 'period after the great uprising' (ikincil, zayıf); encyclopedia.com 'Vojvodina' (künye)" },
@@ -17932,7 +17944,7 @@ window.DEVLETLER = [
     { odak_yer:["Belgrad"], t:"1941-08-29", tur:"kurulus", b:"Alman komutanlığı Milan Nedić başkanlığında Millî Kurtuluş Hükûmeti'ni kurdu.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html" },
     { odak_yer:["Belgrad"], t:"1943-10-01", tur:"siyaset", b:"Nedić içişleri bakanlığını bizzat devraldı.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html" },
     { odak_yer:["Belgrad"], t:"1944-09-03", tur:"siyaset", b:"Gizli kabine toplantısında Alman Güneydoğu komutanlığı hükûmetin bütün işlevlerini devraldı.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html" },
-    { odak_yer:["Belgrad"], t:"1944-10-04", tur:"son", b:"Hükûmet Belgrad'dan Macaristan üzerinden tahliye edilerek dağıldı.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html (Ekim 1944 ilk haftası); gün 4 Ekim: ikincil Vikipedi 'Government of National Salvation'" },
+    { odak_yer:["Belgrad"], t:"1944-10-04", tur:"siyaset", b:"Hükûmet Belgrad'dan Macaristan üzerinden tahliye edilerek dağıldı.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html (Ekim 1944 ilk haftası); gün 4 Ekim: ikincil Vikipedi 'Government of National Salvation'" },
     { odak_yer:["Belgrad"], t:"1944-10-06", tur:"son", b:"Nedić ve hükûmeti Belgrad'dan ayrıldı; hükûmet fiilen sona erdi (halef Ivan Petković göreve başlamadı).", kaynak:"https://archontology.org/nations/serbia/00_1941_44_s.php" }
   ] },
 { id:"italyan-karadag", ad:"Karadağ İtalyan Valiliği", tur:"isgal-idaresi", bolge:"balkanlar", f:"1941-10-03", t:"1943-09-12", baskent:"Cetinje", ozet:"Nisan 1941 işgali sonrası kurulacak Karadağ krallığı planı Temmuz ayaklanmasıyla bırakılınca 3 Ekim 1941'de kurulan İtalyan askerî valiliği (Pirzio Biroli); İtalya'nın teslimi sonrası Alman işgali.", kaynak:"Wikipedia 'Italian governorate of Montenegro'; francoangeli.it (tarihyazım makalesi, başlık düzeyinde). ic_not: aday f 12 Ekim 1941 kaynaksız; t Vikipedi bilgi kutusu 12 Eylül 1943 (Alman işgali), başka kaynak 26 Eylül; civil komiser S. Mazzolini 1941.", kronoloji:[
@@ -19790,7 +19802,7 @@ window.DEVLETLER = [
   ] },
 { id:"dakya", ad:"Dakya (Burebista-Decebalus) Krallığı", tur:"krallik", bolge:"balkanlar", f:"-0081-01-01", t:"0106-01-01", baskent:"Sarmizegetusa", ozet:"KESİNTİLİ: Burebista MÖ ~82-44 (Britannica: Caesar'ın seferi öncesi öldürüldü, krallık en az dörde bölündü); Decebalus yeniden birleştirdi (MS 85); Traianus MS 106'da fethetti. (MÖ 82)", kaynak:"Britannica 'Dacia' (britannica.com/place/Dacia; print/article/149413)", kronoloji:[
     { odak_yer:["Sarmizegetusa"], t:"-0081-01-01", tur:"kurulus", b:"Burebista Dak kabilelerini birleştirir, Sarmizegetusa merkezli krallık", kaynak:"Britannica 'Dacia'" },
-    { odak_yer:["Sarmizegetusa"], t:"-0043-01-01", tur:"son", b:"Burebista öldürülür, krallık en az dörde bölünür", kaynak:"Britannica 'Dacia'" },
+    { odak_yer:["Sarmizegetusa"], t:"-0043-01-01", tur:"bolunme", b:"Burebista öldürülür, krallık en az dörde bölünür", kaynak:"Britannica 'Dacia'" },
     { odak_yer:["Sarmizegetusa"], t:"0085-01-01", tur:"hukumdar", b:"Decebalus Dakları yeniden birleştirir, Moesia'ya saldırır", kaynak:"Britannica 'Dacia'" },
     { odak_yer:["Sarmizegetusa"], t:"0089-01-01", tur:"antlasma", b:"Domitianus ile barış; Decebalus Roma'nın müttefik kralı sayılır", kaynak:"Britannica 'Dacia'" },
     { odak_yer:["Sarmizegetusa"], t:"0101-01-01", tur:"savas", b:"Traianus'un birinci Dak seferi (101-102)", kaynak:"Britannica 'Dacia'" },

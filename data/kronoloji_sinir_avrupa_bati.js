@@ -738,6 +738,24 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Yugoslavya'nın işgalinde Macar ordusu 11 Nisan 1941'de Subotica'ya girdi; Bačka 1944'e dek Macar işgalinde kaldı. Şehir 10 Ekim 1944'te Kızıl Ordu ve partizanlarca alındı.",
   kaynak:"Encyclopaedia Judaica «Subotica» (encyclopedia.com) · Hrvatska enciklopedija «Subotica» · Sırbistan Savunma Bakanlığı (mod.gov.rs/eng/3280)" },
 
+{ t:"1944-10-10", devlet:"macaristan-naiplik", devletler:["macaristan-naiplik","yugoslavya"], sinir_id:"",
+  b:"Subotica Kızıl Ordu ve partizanlarca alındı — Macar işgalinin sonu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Subotica (Szabadka)",
+  etiket:["konu-siyasi","macaristan-naiplik","yugoslavya"],
+  d:"Bačka'daki Macar işgali Subotica'nın 10 Ekim 1944'te alınmasıyla sona erdi; şehir Yugoslavya yönetimine geçti.",
+  kaynak:"Sırbistan Savunma Bakanlığı (mod.gov.rs/eng/3280) · Hrvatska enciklopedija «Subotica» (enciklopedija.hr/clanak/subotica, 1941-44 Macar işgali, yıl düzeyi)" },
+
+{ t:"1944-10-18", devlet:"hirvatistan-bagimsiz", devletler:["hirvatistan-bagimsiz","yugoslavya"], sinir_id:"",
+  b:"Dubrovnik partizanlarca alındı — NDH şehirden çekildi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Dubrovnik",
+  etiket:["konu-siyasi","hirvatistan-bagimsiz","yugoslavya"],
+  d:"Dubrovnik 10 Nisan 1941'den beri Bağımsız Hırvat Devleti içinde sayılıyordu (fiilen İtalyan, 1943'ten Alman askerî varlığı); 18 Ekim 1944'te partizan birlikleri şehri aldı.",
+  kaynak:"Hrvatska enciklopedija «Dubrovnik» https://www.enciklopedija.hr/clanak/dubrovnik : 'uključen u sastav NDH' (10. IV. 1941); partizanlar 18. X. 1944" },
+
+{ t:"1945-04-22", devlet:"hirvatistan-bagimsiz", devletler:["hirvatistan-bagimsiz","yugoslavya"], sinir_id:"",
+  b:"Banaluka partizan ordusunca alındı — NDH şehri yitirdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Banaluka",
+  etiket:["konu-siyasi","hirvatistan-bagimsiz","yugoslavya"],
+  d:"II. Dünya Savaşı'nda Bağımsız Hırvat Devleti içinde olan Banaluka'ya 22 Nisan 1945'te partizan ordusu girdi.",
+  kaynak:"Hrvatska enciklopedija «Banja Luka» https://www.enciklopedija.hr/clanak/banja-luka : '22. IV. 1945. u grad je ušla partizanska vojska'" },
+
 { t:"1340-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti"], sinir_id:"",
   b:"Milano (Visconti) Bellinzona'yı Rusca'lardan aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Bellinzona",
   etiket:["konu-siyasi","visconti"],
@@ -835,5 +853,19 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   etiket:["konu-siyasi","avusturya","venedik"],
   d:"Cambrai Birliği Savaşı'nda İmparator I. Maximilian 1511'de Venedik'ten Gradisca'yı fethetti; Gradisca o tarihten itibaren Habsburg mülkü kaldı. Aynı yıl Ampezzo vadisi (Cortina d'Ampezzo) de Avusturya idaresine girdi; vadi Tirol hukukuyla değil Kadore Statüsü'yle kendini yönetmeye devam etti. İki yer de 1918'e kadar Avusturya'da kaldı. Kaynaklar yılı veriyor.",
   kaynak:"Treccani «Gradisca d'Isonzo» · P. Giacomel, Ladinia XXXIX (2015) s. 63" },
+
+{ t:"1914-03-31", devlet:"yunanistan", devletler:["yunanistan","arnavutluk-bagimsiz"], sinir_id:"",
+  b:"Yunan kuvvetleri Korçë'den çekildi", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Görice (Korçë)",
+  etiket:["isgal","konu-askeri"],
+  gun:"Mart 1914 sonu (gün: atlas isg: dilimi bitişi; kaynak yalnız «March 1914» der — beyanlı yaklaşıklık)",
+  d:"Büyük devletlerin Floransa Protokolü ile Korçë'yi Arnavutluk'a vermesinin ardından Yunan ordusu Mart 1914'te şehirden çekildi; Korçë yeniden Arnavutluk idaresine geçti.",
+  kaynak:"Orjon Ago – Metin Venxha, «The June 1924 movement in Albania and the neutrality of Korça», Academic Journal of Business, Administration, Law and Social Sciences 11(3), Kasım 2025, DOI 10.2478/ajbals-2025-0032: «...Greek troops, who remained there until March 1914»." },
+
+{ t:"1916-01-13", devlet:"habsburg", devletler:["habsburg","karadag"], sinir_id:"",
+  b:"Avusturya-Macaristan kuvvetleri Cetinje'ye girdi", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"Cetinje",
+  etiket:["isgal","konu-askeri"],
+  gun:"13 Ocak 1916",
+  d:"Lovćen'in düşmesinin ardından Avusturya-Macaristan birlikleri Karadağ'ın başkenti Cetinje'ye girdi; Karadağ topraklarının işgali Kasım 1918'e dek sürdü.",
+  kaynak:"1914-1918-online (International Encyclopedia of the First World War), «Montenegro» maddesi (Cetinje'nin 13 Ocak 1916'da işgali)." },
 
 ];

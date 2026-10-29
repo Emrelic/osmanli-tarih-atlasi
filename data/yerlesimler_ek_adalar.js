@@ -63,7 +63,7 @@
 //    İki kaydın da HİÇBİR yeni kırılma günü yok. Zincirler var olan
 //    komşu kayıtlardan BİREBİR kopyalandı — Değişmez 2 borcu SIFIR:
 //      Paksos     → `Korfu`nun zinciri (4 gün: 1797-10-17 · 1815-11-05 ·
-//                   1864-05-21 · ufuk)
+//                   1864-06-02 · ufuk)
 //      Elafonisos → `Mora (Tripoliçe)`nin zinciri (4 gün: 1460-05-29 ·
 //                   1687-08-01 · 1715-07-01 · 1821-03-25)
 //    Kasten böyle: ada ile bağlı olduğu gövde ayrı günler kullansaydı
