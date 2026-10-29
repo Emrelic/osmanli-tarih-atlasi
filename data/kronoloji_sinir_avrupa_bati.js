@@ -853,4 +853,18 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Cambrai Birliği Savaşı'nda İmparator I. Maximilian 1511'de Venedik'ten Gradisca'yı fethetti; Gradisca o tarihten itibaren Habsburg mülkü kaldı. Aynı yıl Ampezzo vadisi (Cortina d'Ampezzo) de Avusturya idaresine girdi; vadi Tirol hukukuyla değil Kadore Statüsü'yle kendini yönetmeye devam etti. İki yer de 1918'e kadar Avusturya'da kaldı. Kaynaklar yılı veriyor.",
   kaynak:"Treccani «Gradisca d'Isonzo» · P. Giacomel, Ladinia XXXIX (2015) s. 63" },
 
+{ t:"1914-03-31", devlet:"yunanistan", devletler:["yunanistan","arnavutluk-bagimsiz"], sinir_id:"",
+  b:"Yunan kuvvetleri Korçë'den çekildi", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Görice (Korçë)",
+  etiket:["isgal","konu-askeri"],
+  gun:"Mart 1914 sonu (gün: atlas isg: dilimi bitişi; kaynak yalnız «March 1914» der — beyanlı yaklaşıklık)",
+  d:"Büyük devletlerin Floransa Protokolü ile Korçë'yi Arnavutluk'a vermesinin ardından Yunan ordusu Mart 1914'te şehirden çekildi; Korçë yeniden Arnavutluk idaresine geçti.",
+  kaynak:"Orjon Ago – Metin Venxha, «The June 1924 movement in Albania and the neutrality of Korça», Academic Journal of Business, Administration, Law and Social Sciences 11(3), Kasım 2025, DOI 10.2478/ajbals-2025-0032: «...Greek troops, who remained there until March 1914»." },
+
+{ t:"1916-01-13", devlet:"habsburg", devletler:["habsburg","karadag"], sinir_id:"",
+  b:"Avusturya-Macaristan kuvvetleri Cetinje'ye girdi", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"Cetinje",
+  etiket:["isgal","konu-askeri"],
+  gun:"13 Ocak 1916",
+  d:"Lovćen'in düşmesinin ardından Avusturya-Macaristan birlikleri Karadağ'ın başkenti Cetinje'ye girdi; Karadağ topraklarının işgali Kasım 1918'e dek sürdü.",
+  kaynak:"1914-1918-online (International Encyclopedia of the First World War), «Montenegro» maddesi (Cetinje'nin 13 Ocak 1916'da işgali)." },
+
 ];
