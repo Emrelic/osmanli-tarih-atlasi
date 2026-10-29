@@ -5226,7 +5226,8 @@ window.DEVLETLER = [
   kronoloji:[
     { odak_yer:["Kalocsa"], t:"1918-11-16", tur:"kurulus", b:"Károlyi önderliğinde Macaristan Halk Cumhuriyeti ilan edildi" },
     { odak_yer:["Kalocsa"], t:"1919-03-21", tur:"bolunme", b:"Béla Kun, Macaristan Sovyet Cumhuriyeti'ni ilan etti" },
-    { odak_yer:["Kalocsa"], t:"1919-08-01", tur:"isgal", b:"Romanya orduları Budapeşte'yi işgal etti, Sovyet cumhuriyeti yıkıldı" },
+    { odak_yer:["Kalocsa"], t:"1919-08-01", tur:"bolunme", b:"Béla Kun hükûmeti istifa etti, Macaristan Sovyet Cumhuriyeti yıkıldı", kaynak:"Britannica 'Béla Kun' (1 Ağustos 1919)" },
+    { odak_yer:["Kalocsa"], t:"1919-08-04", tur:"isgal", b:"Romanya orduları Budapeşte'ye girdi", kaynak:"Britannica 'Béla Kun' · Hungarian Revolution of 1919 (4 Ağustos)" },
     { odak_yer:["Kalocsa"], t:"1920-03-01", tur:"hukumdar", b:"Miklós Horthy, kralsız krallığın naibi seçildi" },
     { odak_yer:["Kalocsa"], t:"1920-06-04", tur:"antlasma", b:"Trianon Antlaşması ile toprakların üçte ikisini kaybetti" },
     { odak_yer:["Kalocsa"], t:"1944-03-19", tur:"isgal", b:"Almanya Macaristan'ı işgal etti", kaynak:"USHMM-KD (19 Mart 1944)" },
@@ -10591,7 +10592,7 @@ window.DEVLETLER = [
 { id:"avusturya-ikinci-cumhuriyet", ad:"Avusturya Cumhuriyeti (II. Cumhuriyet)", tur:"cumhuriyet", bolge:"orta-avrupa",
   f:"1945-04-27", baskent:"Viyana", harita:"avusturya-cumhuriyet",
   ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
-  ozet:"Almanya'nın çöküşü ve Sovyet işgali sırasında Karl Renner'in kurduğu geçici hükûmetle yeniden doğan Avusturya; öncülü [[avusturya-cumhuriyet]]. f: AY hassasiyeti (Nisan 1945). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
+  ozet:"Almanya'nın çöküşü ve Sovyet işgali sırasında Karl Renner'in kurduğu geçici hükûmetle yeniden doğan Avusturya; öncülü [[avusturya-cumhuriyet]]. f: 27 Nisan 1945 (TDV). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"TDV İslâm Ansiklopedisi 'Avusturya' (27 Nisan 1945'te yeniden cumhuriyet kuruldu) · BRIT Karl-Renner · parlament.gv.at (27 Nisan). 25 Nisan geçici hükûmet, 14 Mayıs Demokratik Cumhuriyet ilanı ayrı olaylardır — f: 27 Nisan, hassasiyet GÜN",
   kronoloji:[
     { odak_yer:["Viyana"], t:"1945-04-27", tur:"kurulus", b:"Bağımsızlık bildirgesi yayımlandı, Renner geçici hükûmetiyle Avusturya yeniden kuruldu", kaynak:"TDV İslâm Ansiklopedisi 'Avusturya' (27 Nisan 1945 yeniden cumhuriyet) · BRIT Karl-Renner · parlament.gv.at (27 Nisan)", ic_not:"Gün çelişkisi çözüldü: 25 Nisan geçici hükûmet kuruluşu, 14 Mayıs Demokratik Cumhuriyet ilanı ayrı olaylardır; bağımsızlık bildirgesi/yeniden cumhuriyet günü 27 Nisan (TDV)." },
