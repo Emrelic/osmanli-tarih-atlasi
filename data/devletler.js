@@ -28671,5 +28671,29 @@ window.DEVLETLER = [
   kronoloji:[
     { odak_yer:["Dînever"], t:"0959-01-01", tur:"kurulus", b:"Hasanveyhîler emirliği başladı (TDV Kürtler dönem ibaresi 959; yalnız yıl teyitli)", kaynak:"TDV İslâm Ansiklopedisi, KÜRTLER, https://islamansiklopedisi.org.tr/kurtler" },
     { odak_yer:["Hemedan"], t:"1015-01-01", tur:"son", b:"Hasanveyhîler emirliği sona erdi (TDV Kürtler dönem ibaresi 1015; Bedr b. Hasanveyh 1014'te öldürülmüştü; yalnız yıl teyitli)", kaynak:"TDV İslâm Ansiklopedisi, KÜRTLER, https://islamansiklopedisi.org.tr/kurtler ; TDV, ANNÂZÎLER, https://islamansiklopedisi.org.tr/annaziler" }
-  ] }
+  ] },
+{ id:"ispanyol-oran-1", ad:"İspanyol Oran (I. dönem) ve Mers el-Kebir", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1509-05-17", t:"1708-01-01", kesinlik:{ t:"yil" }, baskent:"Oran (Vehrân)",
+  ozet:"İspanya Oran'ı 17 Mayıs 1509'da aldı; Osmanlı (Cezayir beylerbeyliği) 1708'de geri aldı. Mers el-Kebir 1505'ten İspanyol elindeydi.",
+  kaynak:"TDV İslâm Ansiklopedisi, VEHRÂN, https://islamansiklopedisi.org.tr/vehran (Oran 17 Mayıs 1509; Osmanlı fethi 1708; yıl) ; Mers el-Kebir 1505: HCA Tizi-Ouzou 2010 (ikincil, Fransızca)",
+  ic_not_t:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] 1708 fethi TDV'de yıl düzeyinde; 1732 dönüşü ayrı künye ispanyol-oran-2. BOYALAR'da yok: boya_gerekli (denetim/BOYA-magrib-1029.tsv). s:/d: dönemi yazılmadı (boya yok).",
+  kronoloji:[] },
+{ id:"ispanyol-oran-2", ad:"İspanyol Oran (II. dönem)", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1732-01-01", t:"1792-09-12", kesinlik:{ f:"yil" }, baskent:"Oran (Vehrân)",
+  ozet:"İspanya 1732'de Oran'ı yeniden aldı; 1792'de Cezayir Dayılığı'na bırakıldı (1708-1732 arası Osmanlı/Cezayir idaresi).",
+  kaynak:"TDV İslâm Ansiklopedisi, VEHRÂN, https://islamansiklopedisi.org.tr/vehran (1732 dönüş; son çıkış 12 Eylül 1792)",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] 1732 dönüşü TDV'de yıl düzeyinde. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı.",
+  kronoloji:[] },
+{ id:"ispanyol-halkulvad", ad:"İspanyol Halkulvâd (La Goulette) ve Tunus himayesi", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1535-07-01", t:"1574-08-24", kesinlik:{ f:"ay" }, baskent:"Halkulvâd (La Goulette)",
+  ozet:"V. Karl'ın Temmuz 1535'te Tunus'u almasıyla İspanyol elinde kalan Halkulvâd kalesi; 24 Ağustos 1574'te Osmanlı kuvvetleri aldı (Tunus 12 Eylül 1574'te düştü).",
+  kaynak:"TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus (Temmuz 1535: V. Karl Tunus'u aldı; 10 Ekim 1573 İspanyol harekâtı; 24 Ağustos 1574 Halkulvâd düştü; 12 Eylül 1574 Tunus düştü)",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız ay teyitli; gün teyitsiz] f ayın 1'i. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı. Hafsî künye t=1574-09-13 ile 1 gün tutarsızlığı hafsi ic_not_t'de.",
+  kronoloji:[] },
+{ id:"ingiliz-tanca", ad:"İngiliz Tanca", tur:"somurge", bolge:"kuzey-afrika", boya_gerekli:true,
+  f:"1661-01-01", t:"1684-02-01", kesinlik:{ f:"yil", t:"ay" }, baskent:"Tanca",
+  ozet:"Portekiz'in Tanca'yı İngiltere'ye devriyle başlayan İngiliz idaresi; Şubat 1684'te İngilizler şehri boşaltıp tahrip etti.",
+  kaynak:"TDV İslâm Ansiklopedisi, TANCA, https://islamansiklopedisi.org.tr/tanca (1661 – Şubat 1684)",
+  ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] devir/boşaltma günleri yalnız ikincil kaynakta, yazılmadı. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı.",
+  kronoloji:[] }
 ];
