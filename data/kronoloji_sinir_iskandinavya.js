@@ -10,6 +10,12 @@
 // (kayıt adı `odak_yer`de) karşılığıdır — maddeyi okuyan haritada tam o değişimi görür.
 // =====================================================================
 window.KRONOLOJI_SINIR_ISKANDINAVYA = [
+{ odak_yer:["Kopenhag"], t:"1807-09-07", devlet:"danimarka", devletler:["danimarka"],
+  b:"Kopenhag bombardımanı sona erdi — Danimarka donanmasını İngiltere'ye teslim etti, Napolyon yanlısı saflara geçti", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"Kopenhag",
+  etiket:["savas","konu-askeri","danimarka","ingiltere","napolyon"],
+  d:"İngiliz filosu ve ordusu Ağustos 1807'de Zelanda'ya çıkarak Kopenhag'ı kuşattı; 2-5 Eylül'deki bombardımanın ardından kent 7 Eylül 1807'de teslim oldu ve Danimarka-Norveç donanması İngiltere'ye devredildi. Danimarka-Norveç bunun üzerine Fransa'nın yanında yer aldı ve 1814'te Norveç'i kaybetti.",
+  ic_not_d:"Harita sınırı değişmez; Norveç'in 1814 kaybına giden zincirin halkası. Gün: Danimarka kaynakları teslimi 7 Eylül 1807 verir.",
+  kaynak:"Lex (Den Store Danske), «Københavns bombardement 1807» https://lex.dk/K%C3%B8benhavns_bombardement ; Store norske leksikon «Napoleonskrigene» https://snl.no/Napoleonskrigene." },
 { odak_yer:["Visby"], t:"1361-07-27", devlet:"danimarka", devletler:["danimarka","isvec-birlik-oncesi"],
   b:"Valdemar IV Atterdag Visby önünde İsveçli Gotlandlıları yendi — Gotland Danimarka'ya geçti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Visby",
   etiket:["sinir","savas","toprak-kazanc","konu-askeri","danimarka","isvec"],
