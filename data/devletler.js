@@ -2931,8 +2931,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"varsova-dukaligi", ad:"Varşova Büyük Dukalığı", tur:"dukalik", bolge:"dogu-avrupa",
-  f:"1807-07-22", t:"1815-06-09", baskent:"Varşova", harita:"varsova-dukaligi",
-  ozet:"Napolyon'un Tilsit sonrasında Prusya'nın aldığı Polonya topraklarından kurduğu tampon devlet; 1809'da Schönbrunn ile Avusturya'dan Batı Galiçya'yı aldı, 1813'te Rus işgaliyle fiilen çöktü ve Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî senediyle hukuken dağıtıldı. Bkz. [[lehistan]] (1795'te sona erdi) ve [[polonya]] (1918).",
+  f:"1807-07-09", t:"1815-06-09", baskent:"Varşova", harita:"varsova-dukaligi",
+  ozet:"[Künye başlangıcı 9 Temmuz 1807 Tilsit Barışı'dır; Anayasa 22 Temmuz 1807'de verildi — LEHISTAN-KRON 28 Ekim 2026: Varşova, Łódź, Częstochowa 1806-11-28 Fransız girişinden değil hukuken Prusya egemenliğinin bittiği Tilsit gününden Dükalığa yazıldı; Kielce ve Radom III. Taksim’den (1795) Avusturya payıydı, Dükalığa Schönbrunn’la 1809-10-14’te geçti.] Napolyon'un Tilsit sonrasında Prusya'nın aldığı Polonya topraklarından kurduğu tampon devlet; 1809'da Schönbrunn ile Avusturya'dan Batı Galiçya'yı aldı, 1813'te Rus işgaliyle fiilen çöktü ve Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî senediyle hukuken dağıtıldı. Bkz. [[lehistan]] (1795'te sona erdi) ve [[polonya]] (1918).",
   kaynak:"polonya",
   kronoloji:[
     { odak_yer:["Dresden"], t:"1807-07-22", tur:"kurulus", b:"Dresden'de anayasa verildi — dukalık kuruldu" },
@@ -2945,9 +2945,9 @@ window.DEVLETLER = [
   ]
 },
 { id:"kongre-polonyasi", ad:"Kongre Polonyası (Kraliyet Polonyası)", tur:"krallik", bolge:"dogu-avrupa",
-  f:"1815-06-09", t:"1917-03-15", baskent:"Varşova", harita:"kongre-polonyasi",
+  f:"1815-06-09", t:"1915-08-05", baskent:"Varşova", harita:"kongre-polonyasi",
   ozet:"Viyana Kongresi'nin Varşova Dukalığı topraklarından kurduğu, Rus çarının aynı zamanda Polonya kralı olduğu krallık; 1830 ve 1863 ayaklanmalarından sonra özerkliği kademeli olarak kaldırıldı ve Vistül Ülkesi'ne çevrildi. Bkz. [[varsova-dukaligi]] (öncülü) ve [[polonya]] (1918).",
-  kaynak:"polonya — TDV; kuruluş günü TDV'nin kendi verdiği «Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî belgesi». ⚠️ BİTİŞ GÜNÜ TDV'DE YOK: gövde taramasında «1867» hiç geçmiyor. `t:1917-03-15` TDV'den DEĞİL, atlasın kendi modelinden (Rus Çarlığı künyesinin sonu) türetildi — açıkça yazılıyor.",
+  kaynak:"polonya — TDV; kuruluş günü TDV'nin kendi verdiği «Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî belgesi». ⚠️ BİTİŞ GÜNÜ TDV'DE YOK: gövde taramasında «1867» hiç geçmiyor. `t` 29 Ekim 2026'da 1917-03-15'ten 1915-08-05'e çekildi (LEHISTAN-KRON): Rus idaresi Büyük Geri Çekilme'yle Varşova'yı boşalttığı günde fiilen bitti (Alman/Avusturya-Macar askerî idaresi 1915-18); 1916-11-05 Beyannamesi ile Naiplik Krallığı doğdu → bkz. polonya-naiplik-kralligi. Eski 1917-03-15 ucu atlasın Rus Çarlığı modelinden türetilmişti, Kongre Polonyası künyesi hiçbir yerleşim dilimini bu uca taşımıyordu.",
   kronoloji:[
     { odak_yer:["Varşova","Viyana"], t:"1815-06-09", tur:"kurulus", b:"Viyana Kongresi nihaî senedi — Varşova Dukalığı toprakları üzerinde krallık kuruldu" },
     { odak_yer:["Varşova"], t:"1815-11-27", tur:"siyaset", b:"I. Aleksandr Czartoryski'nin hazırladığı Polonya Krallığı Anayasası'nı (Anayasa Fermanı) yayımladı.", kaynak:"https://en.wikipedia.org/wiki/Constitution_of_the_Kingdom_of_Poland ; https://ejournals.eu (Namiestnik çalışması, ejournals.eu/en/journal_article_files/full_text/018ecee2-3ce3-73a0-8520-e75a9ef68c53/download)" },
@@ -2955,8 +2955,17 @@ window.DEVLETLER = [
     { odak_yer:["Varşova"], t:"1831-09-08", tur:"savas", b:"Paskeviç komutasındaki Rus ordusu Varşova'yı aldı; Kasım Ayaklanması fiilen bastırıldı (kaynaklar 7-8 Eylül verir).", kaynak:"https://ebsco.com/research-starters/history/polish-rebellion-1830-1831 ; https://warhistory.org/ko/article/polish-insurgency" },
     { odak_yer:["Varşova"], t:"1832-02-26", tur:"siyaset", b:"I. Nikolay Organik Statü'yü verdi; 1815 anayasası, ordu ve Sejm kaldırıldı.", kaynak:"https://en.wikipedia.org/wiki/Constitution_of_the_Kingdom_of_Poland ; https://en.wikipedia.org/wiki/Congress_Poland ; Encyclopedia of Ukraine 'Congress Kingdom of Poland' https://encyclopediaofukraine.com/pages%5CC%5CO%5CCongressKingdomofPoland.htm" },
     { odak_yer:["Varşova"], t:"1863-01-22", tur:"isyan", b:"Ocak Ayaklanması — bastırıldıktan sonra özerklik fiilen kaldırıldı" },
-    { odak_yer:["Varşova"], t:"1915-08-05", tur:"isgal", b:"Büyük Geri Çekilme sırasında Ruslar Varşova'yı boşalttı, Alman kuvvetleri şehre savaşmadan girdi.", kaynak:"https://www.historyofwar.org/articles/battles_warsawIII_1915.html ; https://ww1.nam.ac.uk/timeline/germany-occupies-warsaw/" },
-    { odak_yer:["Varşova"], t:"1916-11-05", tur:"siyaset", b:"Almanya ve Avusturya-Macaristan, Kongre Polonyası topraklarında bağımsız bir Polonya Krallığı kurulacağını ilan eden 5 Kasım Beyannamesi'ni yayımladı.", kaynak:"https://en.wikipedia.org/wiki/Act_of_5th_November ; https://ejournals.eu/czasopismo/kshpp/artykul/gabinety-krolestwa-polskiego-1917-1918-sklad-funkcjonowanie-i-dzialalnosc" }
+    { odak_yer:["Varşova"], t:"1915-08-05", tur:"isgal", b:"Büyük Geri Çekilme sırasında Ruslar Varşova'yı boşalttı, Alman kuvvetleri şehre savaşmadan girdi.", kaynak:"https://www.historyofwar.org/articles/battles_warsawIII_1915.html ; https://ww1.nam.ac.uk/timeline/germany-occupies-warsaw/" }
+  ]
+},
+{ id:"polonya-naiplik-kralligi", ad:"Polonya Naiplik Krallığı (Regency Kingdom, Alman-Avusturya himayesi)", tur:"krallik", bolge:"dogu-avrupa",
+  f:"1916-11-05", t:"1918-11-11", baskent:"Varşova",
+  ozet:"Almanya ve Avusturya-Macaristan'ın 5 Kasım 1916 Beyannamesi ile Kongre Polonyası topraklarında ilan ettiği, Ekim 1917'de Naiplik Konseyi'nin (Rada Regencyjna) göreve başlamasıyla kurumlaşan, fiilen Alman (Varşova) ve Avusturya-Macar (Lublin) askerî genel valiliklerinin vesayetindeki kukla krallık; Naiplik Konseyi 14 Kasım 1918'de yetkisini Piłsudski'ye devretti (künye t, II. Cumhuriyet'in başlangıcı olan 11 Kasım 1918'e çekildi). Haritada devlet olarak boyanmaz: şehirler Alman (Varşova) ve Avusturya (Lublin) askerî idaresi olarak yazılıdır. Bkz. [[kongre-polonyasi]] (öncülü) ve [[polonya]] (ardılı).",
+  kaynak:"Britannica 'Poland' / 'History of Poland' (5 Kasım 1916 Beyannamesi); Polish History portalı 'The Act of 5 November 1916 and its Consequences' (polishhistory.pl); Polonya Tarihi Müzesi 'Powstanie Rady Regencyjnej Królestwa Polskiego' (muzhp.pl, Ekim 1917) ve 14 Kasım 1918 devir; IPN. Künye t=1918-11-11 atlasın II. Cumhuriyet künyesiyle süreklilik için seçildi; Konsey'in resmî sonu 14 Kasım 1918.",
+  kronoloji:[
+    { odak_yer:["Varşova"], t:"1916-11-05", tur:"kurulus", b:"Almanya ve Avusturya-Macaristan, Kongre Polonyası topraklarında bağımsız bir Polonya Krallığı kurulacağını ilan eden 5 Kasım Beyannamesi'ni yayımladı (sınırlar ve statü belirsiz kaldı).", kaynak:"Britannica 'Poland' ; polishhistory.pl 'The Act of 5 November 1916 and its Consequences'" },
+    { odak_yer:["Varşova"], t:"1917-10-01", kesinlik:"ay", tur:"siyaset", b:"Naiplik Konseyi (Rada Regencyjna) Varşova'da göreve başladı (Ekim 1917; gün kaynaklanmadı).", kaynak:"Polonya Tarihi Müzesi, 'Powstanie Rady Regencyjnej Królestwa Polskiego' (muzhp.pl/en/calendar/powstanie-rady-regencyjnej-krolestwa-polskiego-en) ; polishhistory.pl (12 Ekim 1917 kararnamesi)" },
+    { odak_yer:["Varşova"], t:"1918-11-11", tur:"son", b:"Naiplik Krallığı fiilen çözüldü: Piłsudski Varşova'da (10 Kasım), Konsey yetkisini 14 Kasım'da ona devretti; Polonya Cumhuriyeti'nin başlangıç günü 11 Kasım 1918.", kaynak:"Britannica 'Józef Piłsudski' ; IPN 'Let's celebrate the 100th anniversary of Poland regaining its independence' ; Polonya Tarihi Müzesi (14 Kasım 1918 devir)" }
   ]
 },
 { id:"transkafkasya", ad:"Transkafkasya (Komiserlik → Seym → Demokratik Federatif Cumhuriyet)", tur:"federasyon", bolge:"kafkasya",
@@ -17209,7 +17218,7 @@ window.DEVLETLER = [
     { odak_yer:["Litvanya"], t:"1939-03-20", tur:"isgal", b:"Ribbentrop Litvanya'ya bölgenin devri için sözlü ültimatom verdi.", kaynak:"https://wikipedia.com/wiki/Memel_Crisis (ikincil)" },
     { odak_yer:["Litvanya","Almanya"], t:"1939-03-23", tur:"son", b:"Litvanya ültimatomu kabul etti; Memel Almanya'ya devredildi.", kaynak:"https://wikipedia.com/wiki/Memel_Crisis (ikincil)" }
   ] },
-{ id:"polonya-genel-hukumeti", ad:"Polonya Genel Hükûmeti", tur:"isgal-idaresi", bolge:"dogu-avrupa", harita:"polonya", f:"1939-10-26", t:"1945-01-17", baskent:"Krakov", ozet:"Hitler'in 12 Ekim 1939 kararnamesiyle kuruldu; 26 Ekim 1939'da sivil idare (Hans Frank). Ocak 1945 Sovyet ilerleyişiyle çözüldü. t günü [g?].", kaynak:"USHMM Encyclopedia 'Krakow' ve 'German Administration of Poland'", kronoloji:[
+{ id:"polonya-genel-hukumeti", ad:"Polonya Genel Hükûmeti", tur:"isgal-idaresi", bolge:"dogu-avrupa", harita:"polonya", f:"1939-10-06", t:"1945-01-17", baskent:"Krakov", ozet:"[Künye başlangıcı Polonya II. Cumhuriyeti'nin son gününe (1939-10-06) çekildi: Alman askerî idaresiyle sivil Genel Hükûmet aynı işgal bölgesinin ardışık evreleridir ve harita boşluk bırakmasın diye (aksi hâlde 20 gün sahipsiz) bu gün alındı — LEHISTAN-KRON 28 Ekim 2026.] Hitler'in 12 Ekim 1939 kararnamesiyle kuruldu; 26 Ekim 1939'da sivil idare (Hans Frank). Ocak 1945 Sovyet ilerleyişiyle çözüldü. t günü [g?].", kaynak:"USHMM Encyclopedia 'Krakow' ve 'German Administration of Poland'", kronoloji:[
     { odak_yer:["Krakov"], t:"1939-10-26", tur:"kurulus", b:"Hans Frank başında Alman sivil idaresi olarak Genel Hükûmet göreve başladı.", kaynak:"https://encyclopedia.ushmm.org/tags/en/tag/hans-frank (Frank'in atanması, gün ikincil kaynakta)" },
     { odak_yer:["Krakov"], t:"1940-12-09", tur:"siyaset", b:"Genel Vali Ofisi 'Genel Hükûmet Hükûmeti' adını aldı.", kaynak:"https://en.wikipedia.org/wiki/General_Government_administration (ikincil)" },
     { odak_yer:["Krakov"], t:"1941-08-01", tur:"toprak-kazanc", b:"Galiçya Bölgesi (Lviv) Genel Hükûmet'e eklendi.", kaynak:"USHMM Holocaust Encyclopedia 'General Government' (gün arama sonuçlarında doğrulanamadı)" },
