@@ -295,7 +295,8 @@ try { _dIkiRenk = localStorage.getItem("dSinirIkiRenk") !== "0"; } catch (e) {}
 // siyah olsun."
 // Kuralın kendi mantığı var ve şemanın eski kararıyla ÖRTÜŞÜYOR: C'nin
 // koordinatı kaba olduğu için renk ona DAYANDIRILMIYOR (_D_YASLA_SINIF_*
-// yalnız F/E alır). Ülke rengi taşımayan bir çizginin ülke renginde olması
+// yalnız F/E alır). — 29 Ekim 2026'dan beri C de korumalı yaslanır
+// (post-it #160, _D_YASLA_SINIF_* notu); çizgi yine siyahtır. Ülke rengi taşımayan bir çizginin ülke renginde olması
 // okuru yanıltırdı — siyah, "bu hat kabadır, altındaki boya buna oturmaz"
 // diyen tek renktir.
 // 🔴 Vasal istisnası da düşer: C hattında taraflardan biri o gün Osmanlı'ya
@@ -326,12 +327,143 @@ var _D_YASLA_AILELER = [
   // BİTİR-1923-0078 (24 Eylül 2026) — sınır kolunun dört yeni ailesi
   "D_SINIRLAR_ARABISTAN", "D_SINIRLAR_GDASYA", "D_SINIRLAR_ICASYA", "D_SINIRLAR_UZAKDOGU"
 ];
-// Kaba belge (C) hatla gövde KESİLMEZ — C'ye koordinat kesinliği atfetmek
-// olur (D-RENK-0073-YURURLUK §5.3). Fiilî hat yalnız fiilî görünümde keser.
+// ESKİ: Kaba belge (C) hatla gövde KESİLMEZ — C'ye koordinat kesinliği atfetmek
+// olur (D-RENK-0073-YURURLUK §5.3). 29 Ekim 2026'da kaldırıldı, aşağıya bak.
+// Fiilî hat yalnız fiilî görünümde keser.
 // (14 Ekim 2026: hukukî görünümde D, o çiftin E/F hattı yoksa ayrıca yaslanır —
 // bkz. _dHukukiDEkle; bu küme yine F/E'dir, D'yi ayrı kural ekler.)
-var _D_YASLA_SINIF_HUKUKI = { F: 1, E: 1 };
-var _D_YASLA_SINIF_FIILI = { D: 1, F: 1, E: 1 };
+// 🆕 29 Ekim 2026 — C DE YASLANIR (Emre, post-it #160, şık a: "eğer böyle bir
+// D veya C tipi sınır var ise sınır bu çizgiye dayanmalıdır"). Yukarıdaki
+// "kesilmez" kuralını iki koruma şartıyla kaldırır:
+//   ① bant C'nin KENDİ kesinliğiyle sınırlı (_dKabaKm): hattın beyan ettiği hata
+//      payından uzaktaki boya hattın değil gerçeğin işidir, dokunulmaz.
+//   ② fiilî işgal varken yaslanmaz (_dKabaIsgal): bir tarafın yerleşimi o gün
+//      hattın öbür yanında hata payından derindeyse hat yürürlükte ama haritayı
+//      anlatmıyor. Vaka: 1639 Kasr-ı Şirin hattı 1728'e kadar yürürlükte, 1724'te
+//      korumasız yaslama Osmanlı'nın aldığı Hoy (48 km) ve Selmâs'ı Safevî'ye
+//      geri boyadı (tarayıcıda ölçüldü, 29 Ekim 2026).
+//   ③ kaynaklı yerleşimi ezmez (_dTanikliParcalariAt) ve hattın ucunu dolanan
+//      parçayı vermez (_dUcParcalariniAt): yalnız boş petek taşması yaslanır.
+var _D_YASLA_SINIF_HUKUKI = { F: 1, E: 1, C: 1 };
+var _D_YASLA_SINIF_FIILI = { D: 1, F: 1, E: 1, C: 1 };
+// Kaydında `kesinlik_km` olmayan C hattının hata payı (km) — Osmanlı–İran C
+// hatlarının beyan ettiği değer.
+var _D_KABA_KM_VARSAYILAN = 40;
+// İşgal sayılmak için en az derinlik (km): hata payı küçük beyan edilmiş nehir
+// hatlarında kıyı kasabası işgal sayılmasın. Vaka 1880/1923 Tuna (BG–RO):
+// Niğbolu 4 km, Calafat 2 km "öbür yanda" çıktı — hat kıyıyı birkaç km kaçırıyor.
+var _D_KABA_ISGAL_EN_AZ_KM = 15;
+function _dKabaKm(k) {
+  return (k && k.kesinlik_km > 0) ? k.kesinlik_km : _D_KABA_KM_VARSAYILAN;
+}
+// Hattın şerit genişliği sınırı: E/F/D için _D_YASLA_KM; C için hata payını
+// kapsayan ilk _D_SERIT_KM genişliği (40 km → 45 km'lik şerit).
+function _dSeritAzamiKm(k) {
+  if (_dEtkinSinif(k) !== "C") return _D_YASLA_KM;
+  var kes = _dKabaKm(k);
+  for (var i = 0; i < _D_SERIT_KM.length; i++) if (_D_SERIT_KM[i] >= kes) return _D_SERIT_KM[i];
+  return _D_YASLA_KM;
+}
+// Noktanın hatta en kısa uzaklığı (km, yerel eşdikdörtgen izdüşüm) ve en yakın
+// noktanın hattın UCU olup olmadığı (uç = nokta hattın yanında değil, ötesinde).
+// "Uç" ölçüsü: en yakın noktanın hat boyunca uca uzaklığı, noktanın hatta
+// uzaklığından kısaysa nokta hattın yanında değil ucunu dolanan bölgededir.
+// Vaka: Kasr-ı Şirin hattı Ağrı'nın kuzeyinde 30 km'lik bir kıvrımla bitiyor;
+// 46 km kuzeydeki Safevî Revan bu kıvrımın "Osmanlı yanı"na düşüyordu.
+function _dHattaUzaklik(lon, lat, h) {
+  var kx = 111.32 * Math.cos(lat * Math.PI / 180), ky = 110.57, en = Infinity, boyEn = 0, boy = 0;
+  for (var i = 0; i + 1 < h.length; i++) {
+    var ax = (h[i][0] - lon) * kx, ay = (h[i][1] - lat) * ky;
+    var bx = (h[i + 1][0] - lon) * kx, by = (h[i + 1][1] - lat) * ky;
+    var dx = bx - ax, dy = by - ay, L2 = dx * dx + dy * dy, L = Math.sqrt(L2);
+    var t = L2 ? Math.max(0, Math.min(1, -(ax * dx + ay * dy) / L2)) : 0;
+    var d = Math.hypot(ax + t * dx, ay + t * dy);
+    if (d < en) { en = d; boyEn = boy + t * L; }
+    boy += L;
+  }
+  return { km: en, uc: Math.min(boyEn, boy - boyEn) < en };
+}
+// Yerleşimin o günkü sahibi, D tarafı kimliğiyle (motorun sırası d → v → s;
+// gelistirici.js yerSahibi ile aynı okuma). `d:` aktifse "osmanli", `v:` aktifse
+// tâbi kid'i, yoksa `s:` döneminin devleti.
+function _dYerTarafi(y, gun) {
+  if (y.kur && gun < gunIdx(y.kur)) return null;
+  function bak(l) {
+    for (var i = 0; l && i < l.length; i++) {
+      var p = l[i];
+      if (p && p.f && p.t && gun >= gunIdx(p.f) && gun < gunIdx(p.t)) return p;
+    }
+    return null;
+  }
+  if (bak(y.d)) return "osmanli";
+  var v = bak(y.v);
+  if (v && v.kid) return v.kid;
+  var s = bak(y.s);
+  return s ? s.d : null;
+}
+// Kaba hattın yamasından UÇ bölgesindeki parçalar atılır: ağırlık merkezi hattın
+// yanında değil ucunun ötesinde olan parça hattın tanıklığıyla el değiştirmez.
+// Vaka: 1700'de Kasr-ı Şirin hattının Ağrı kuzeyindeki ucu, Safevî Revan–Iğdır
+// ovasını Osmanlı'ya veriyordu (yerel ölçüm, 29 Ekim 2026).
+function _dUcParcalariniAt(mp, h) {
+  return (mp || []).filter(function (poly) {
+    var r = poly[0], A = 0, cx = 0, cy = 0;
+    for (var i = 0, j = r.length - 1; i < r.length; j = i++) {
+      var f = r[j][0] * r[i][1] - r[i][0] * r[j][1];
+      A += f; cx += (r[j][0] + r[i][0]) * f; cy += (r[j][1] + r[i][1]) * f;
+    }
+    if (!A) return true;
+    return !_dHattaUzaklik(cx / (3 * A), cy / (3 * A), h).uc;
+  });
+}
+// ③ Kaba hat kaynaklı yerleşimi ezmez: veren tarafın o gün sahibi olduğu
+// yerleşimi İÇİNE alan parça el değiştirmez (hat ±kesinlik kabadır, yerleşimin
+// sahipliği kaynaklıdır — çelişkide kaynak kazanır, Değişmez 3). Yalnız boş
+// petek taşması (zikzak) hatta yaslanır. Vaka 1700: hattın 1932 değişikliğinden
+// kalan Ağrı kuzeyi kıvrımı Safevî Beri'yi içeren 2001 km²'yi Osmanlı'ya
+// veriyordu; Esendere (Osmanlı) parçası da Safevî'ye geçiyordu.
+function _dTanikliParcalariAt(mp, verenId, gun) {
+  if (!mp || !mp.length) return mp || [];
+  var kt = _dKutu(mp);
+  var tanik = (window.YERLESIMLER || []).filter(function (y) {
+    return y.lat != null && y.lon != null && y.lon >= kt[0] && y.lon <= kt[2] &&
+           y.lat >= kt[1] && y.lat <= kt[3] && _dAyniTaraf(_dYerTarafi(y, gun), verenId);
+  });
+  if (!tanik.length) return mp;
+  return mp.filter(function (poly) {
+    return !tanik.some(function (y) { return _dNoktaPolide(y.lon, y.lat, [poly]); });
+  });
+}
+function _dAyniTaraf(a, b) {
+  if (!a || !b) return false;
+  if (a === b) return true;
+  var D = window.DEVLETLER || [];
+  var ka = D.find(function (x) { return x.id === a; }), kb = D.find(function (x) { return x.id === b; });
+  var ha = (ka && ka.harita) || a, hb = (kb && kb.harita) || b;
+  return ha === hb;
+}
+// ② İşgal ölçüsü: o gün hattın YANLIŞ yanında, hata payından derinde (ama
+// _D_YASLA_KM içinde) duran taraf yerleşimleri. Yan, hattın kendi 100 km'lik
+// şeridinden okunur (C'nin daralan kümesinden değil — Hoy 48 km'de, 45'in dışında).
+function* _dKabaIsgalAdim(k, solId, sagId, gun) {
+  var s = yield* _dSeritTekOnbellekliAdim(k, _D_YASLA_KM);
+  var kes = _dKabaKm(k), h = k.hat, kt = _dKutu(s.kapsam), bulunan = [];
+  (window.YERLESIMLER || []).forEach(function (y) {
+    if (y.lat == null || y.lon == null) return;
+    if (y.lon < kt[0] || y.lon > kt[2] || y.lat < kt[1] || y.lat > kt[3]) return;
+    var t = _dYerTarafi(y, gun);
+    var solun = _dAyniTaraf(t, solId), sagin = !solun && _dAyniTaraf(t, sagId);
+    if (!solun && !sagin) return;
+    var yanlis = solun ? s.sag : s.sol;
+    if (!_dNoktaPolide(y.lon, y.lat, yanlis)) return;
+    // Ucun ötesindeki yerleşim hattın tanığı değildir: hat orada bitiyor, sınır
+    // başka hatla (ya da hatsız) sürüyor. Vaka: 1700'de Safevî Revan ve Iğdır,
+    // Kasr-ı Şirin hattının Ağrı kuzeyindeki ucunun ötesinde "Osmanlı yanı" çıktı.
+    var u = _dHattaUzaklik(y.lon, y.lat, h);
+    if (!u.uc && u.km > Math.max(kes, _D_KABA_ISGAL_EN_AZ_KM)) bulunan.push((y.ad || y.id || "?") + " " + Math.round(u.km) + " km");
+  });
+  return bulunan;
+}
 // Şerit genişliği: hattın her iki yanında bu kadar km içindeki "yanlış taraf"
 // boyası düzeltilir. D-RENK-0073 §4 sapmayı medyan 8–17 km, en çok 40 km
 // ölçmüştü; ama TR–Suriye hattında (1923-09-01) 55–100 km'ye inen TBMM ve ~50
@@ -463,8 +595,11 @@ function _dPopupHtml(kayit, sinif) {
     // cevaplanıyor: hat ile dolgu AYRI İKİ İDDİADIR, ve ayrışma bir kusur değil
     // bir ÖLÇÜdür. Sapmayı D-RENK-0073 sayıya döktü (medyan 11 km, en çok 40 km).
     (_dYaslandiMi(kayit.id)
-      ? "<br><small>✓ Milimetrik sınır: iki tarafın rengi bu hatta <b>yaslandı</b> " +
-        "(hattın " + _D_YASLA_KM + " km yakınındaki taşma örtüldü).</small>"
+      ? (sinif === "C"
+          ? "<br><small>✓ Kaba sınır: iki tarafın rengi bu hatta <b>yaslandı</b> " +
+            "(hattın hata payı içindeki, " + _dSeritAzamiKm(kayit) + " km yakınındaki taşma örtüldü).</small>"
+          : "<br><small>✓ Milimetrik sınır: iki tarafın rengi bu hatta <b>yaslandı</b> " +
+            "(hattın " + _D_YASLA_KM + " km yakınındaki taşma örtüldü).</small>")
       : "<br><small>⚠️ Bu hat <b>antlaşmanın</b> çizgisidir; altındaki renk " +
         "<b>yerleşim peteğinden</b> gelir. İkisi ayrışabilir — ayrıştığı yerde " +
         "henüz o hattı tutacak yerleşim noktası yoktur.</small>") +
@@ -517,7 +652,7 @@ function _dYaslaSiniflari() {
 }
 function _dYaslaAdaylari(gun) {
   var izin = _dYaslaSiniflari();
-  var ONC = { D: 4, F: 3, E: 2 };
+  var ONC = { D: 4, F: 3, E: 2, C: 1 };
   // Aynı HAT (birebir aynı koordinat dizisi) iki kayıtta aynı gün aktifse —
   // ör. d1920-tbmm-bg (E) ile d1920-yunan-isgal-bg (D) — görünümün önceliği
   // kazanır; ötekinin yaması yapılmaz (iki yama aynı şeridi zıt boyardı).
@@ -547,7 +682,10 @@ function _dYaslaAdaylari(gun) {
   // D yaslanmaz: hukukî görünümde hukukî hat kazanır, iki hat aynı şeridi zıt
   // boyamaz. Kalıcı çare motor tarafıdır (#35, gövdeleri önceden hesapla — TUZ).
   if (_dGorunum !== "fiili") liste = _dHukukiDEkle(liste, gun);
-  return liste;
+  // C sona: gövde birleştirmesinde (_dYaslaAdim §2) önce gelen hat parçayı alır,
+  // aynı yerde kesin hat varsa kaba hat ona yol verir.
+  return liste.filter(function (a) { return a.sinif !== "C"; })
+              .concat(liste.filter(function (a) { return a.sinif === "C"; }));
 }
 var _dHukukiDSon = [];
 function _dTarafCiftAnahtari(k) {
@@ -558,7 +696,8 @@ function _dHukukiDEkle(liste, gun) {
   var dolu = {}, hatlar = {};
   liste.forEach(function (a) {
     var c = _dTarafCiftAnahtari(a.kayit);
-    if (c) dolu[c] = 1;
+    // Kaba (C) hat kesin D hattını bastırmaz: D o çiftin elimizdeki kesin hattıdır.
+    if (c && a.sinif !== "C") dolu[c] = 1;
     hatlar[JSON.stringify(a.kayit.hat)] = 1;
   });
   var ek = [];
@@ -878,6 +1017,7 @@ function* _dSeritlerKumeAdim(kayitlar) {
     var buKapsam = [];
     for (var ki = 0; ki < kayitlar.length; ki++) {
       var k = kayitlar[ki];
+      if (wi > 0 && _D_SERIT_KM[wi - 1] >= _dSeritAzamiKm(k)) continue;   // C: hata payının ötesi
       try {
         var s = yield* _dSeritTekOnbellekliAdim(k, w);
         // Önceki genişliklerin kapsamından YALNIZ kutusu değenler düşülür —
@@ -1071,7 +1211,8 @@ function _dYaslaHazirla(gun) {
       if (st.n > 1) { atlanan.push(k.id + ": şeritte birden çok tâbi (" + st.adlar.join(", ") + ") — birleşik tâbi gövdesi kesilmez"); return; }
     }
     if (_dHatKm(k.hat) < _D_YASLA_EN_KISA_KM) { atlanan.push(k.id + ": hat " + _D_YASLA_EN_KISA_KM + " km'den kısa"); return; }
-    isler.push({ kayit: k, gs: gs, gr: gr, anahtar: k.id + "|" + gs.anahtar + "|" + gr.anahtar });
+    isler.push({ kayit: k, gs: gs, gr: gr, sinif: a.sinif, solId: solId, sagId: sagId,
+                 anahtar: k.id + "|" + gs.anahtar + "|" + gr.anahtar });
   });
   // Şeritler o gün yaslanacak BÜTÜN hatlar birlikte kurulur; kümenin kendisi
   // de yama anahtarına girer (aynı hat, farklı komşu kümesinde farklı şerit).
@@ -1106,6 +1247,11 @@ function* _dYaslaAdim(gun, isler, atlanan, imza, sonucAnahtari) {
       try {
         if (!kume) kume = yield* _dSeritlerKumeAdim(isler.map(function (y) { return y.kayit; }));
         var s = kume[x.kayit.id];
+        if (x.sinif === "C") {
+          var isgal = yield* _dKabaIsgalAdim(x.kayit, x.solId, x.sagId, gun);
+          if (isgal.length) throw { atla: "kaba hat, fiilî işgal (" + isgal.length + " yerleşim hata payının ötesinde: " +
+                                          isgal.slice(0, 5).join(", ") + ")" };
+        }
         // sağ tarafın sol şeride taşan gövdesi → sol tarafa geçer
         var a = _dPc("intersection", [s.sol, x.gr.poli]);
         // sol tarafın sağ şeride taşan gövdesi → sağ tarafa geçer
@@ -1129,6 +1275,10 @@ function* _dYaslaAdim(gun, isler, atlanan, imza, sonucAnahtari) {
         if (!(solDogru > solYanlis && sagDogru > sagYanlis) && !tekYanTasmasi) {
           throw { atla: "yön doğrulanamadı (sol gövde doğru/yanlış yanda " + Math.round(solDogru) + "/" +
                         Math.round(solYanlis) + " km², sağ " + Math.round(sagDogru) + "/" + Math.round(sagYanlis) + ")" };
+        }
+        if (x.sinif === "C") {
+          a = _dTanikliParcalariAt(_dUcParcalariniAt(a, x.kayit.hat), x.sagId, gun);
+          b = _dTanikliParcalariAt(_dUcParcalariniAt(b, x.kayit.hat), x.solId, gun);
         }
         if (a.length) ys.push({ g: a, kimden: x.gr.hk, kime: x.gs.hk });
         if (b.length) ys.push({ g: b, kimden: x.gs.hk, kime: x.gr.hk });
