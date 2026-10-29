@@ -2132,8 +2132,8 @@ window.DEVLETLER = [
     { odak_yer:["Semerkant"], t:"1370-04-09", tur:"kurulus", b:"Timur, Semerkant'ta hükümdarlığını ilan etti" },
     { odak_yer:["Semerkant"], t:"1387-01-01", tur:"savas", b:"İsfahan isyanı bastırılırken şehir yağmalandı" },
     { odak_yer:["Delhi"], t:"1398-12-17", tur:"savas", b:"Delhi Sultanlığı'nı yenip şehri yağmaladı" },
-    { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı" },
-    { odak_yer:["Semerkant"], t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı" },
+    { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı", kaynak:"TDV İslâm Ansiklopedisi, Timur maddesi, https://islamansiklopedisi.org.tr/timur («27 Zilhicce 804 (28 Temmuz 1402) Cuma» genelde kabul görmüştür)" },
+    { odak_yer:["Semerkant"], t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı", kaynak:"TDV İslâm Ansiklopedisi, Timur maddesi, https://islamansiklopedisi.org.tr/timur («17 Şâban 807'de (18 Şubat 1405) öldü»)" },
     { odak_yer:["Herat"], t:"1470-01-01", tur:"hukumdar", b:"Hüseyin Baykara, Herat'ta tahta çıktı" },
     { t:"1507-05-24", tur:"son", b:"Özbek Şeybânî Han Herat'ı aldı; Timurlu hâkimiyeti Orta Asya'da sona erdi (Hindistan'da Bâbür hanedanı olarak sürdü)" }
   ]
@@ -5305,9 +5305,9 @@ window.DEVLETLER = [
   kaynak:"hive-hanligi",
   kronoloji:[
     { odak_yer:["Hîve"], t:"1512-01-01", tur:"kurulus", b:"Yadigâroğulları İlbars ve Bilbars, Özbek-Türkmen güçleriyle Harzem'i ele geçirdi" },
-    { odak_yer:["Hîve"], t:"1600-01-01", tur:"hukumdar", b:"Başkent Ürgenç'ten Hive'ye taşındı" },
-    { odak_yer:["Hîve"], t:"1873-03-01", tur:"savas", b:"General Kaufmann'ın seferi başladı" },
-    { odak_yer:["Hîve"], t:"1873-05-29", tur:"antlasma", b:"Hive düştü, Rus himayesine girdi" },
+    { odak_yer:["Hîve"], t:"1603-01-01", tur:"hukumdar", b:"Başkent Ürgenç'ten Hive'ye taşındı", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi (Hive'nin kalıcı başkent oluşu Arap Muhammed Han, 1603-1623 dönemi; yıl düzeyi)", ic_not_b:"eski t 1600-01-01 kaynaksızdı; TDV 1600'ü vermez, Arap Muhammed Han (1603-1623) dönemini verir." },
+    { odak_yer:["Hîve"], t:"1873-03-01", tur:"savas", b:"General Kaufmann'ın seferi başladı", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi (Kaufmann kuvvetleri «Mart 1873»te Hive'ye ilerledi; ay hassasiyeti)" },
+    { odak_yer:["Hîve"], t:"1873-05-29", tur:"antlasma", b:"Hive düştü, Rus himayesine girdi", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi («29 Mayıs 1873» Hive'nin ele geçirilişi)" },
     { odak_yer:["Hîve"], t:"1920-04-26", tur:"son", b:"Harzem Halk Cumhuriyeti ilan edilerek hanlığa son verildi" }
   ]
 },
@@ -5359,7 +5359,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"cungar", ad:"Cungar Hanlığı (Kalmuk)", tur:"hanlik", bolge:"orta-asya",
-  f:"1634-01-01", t:"1758-01-01", baskent:"Gulca (Kulca) çevresi", harita:"cungar",
+  f:"1634-01-01", t:"1758-01-01", ic_not_t:"BEYAN: künye t 1758 = TDV Kalmuklar «Qianlong 1758'de Cungar egemenliğine son verdi»; Altishahr (Kaşgar, Yarkent, Hotan, Kuça, Aksu, Uçturfan) yerleşim dönemleri 1759'a dek cungar yazılı (Qing'in Doğu Türkistan fethi 1758-59). Bir yıllık aşım kabul edilmiş yaklaşıklıktır; gün kaynağı bulunamadı.", baskent:"Gulca (Kulca) çevresi", harita:"cungar",
   ozet:"Budist Oyrat-Moğol boylarının Cungarya'da kurduğu, Kazaklara ve Çin'e karşı büyük bir bozkır gücü hâline gelen hanlık; Mançu Qing hanedanının 1755-58 seferleriyle nüfusu kırılarak yok edildi. TDV'de ayrı madde yok (Kalmuklar maddesi içinde işleniyor); tarihler standart akademik kaynaklara göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5370,13 +5370,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"yakub-beg", ad:"Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)", tur:"devlet", bolge:"orta-asya",
-  f:"1865-01-01", t:"1878-03-16", baskent:"Kaşgar", harita:"yakub-beg",
+  f:"1865-01-01", t:"1878-03-16", ic_not_f:"BEYAN: Yâkub Bey yerleşim dönemleri 1864-06-04'ten (Qing denetiminin Kuça isyanıyla kopuşu) başlar; TDV Yâkub Han Kâşgarî: Kaşgar emirliği «1864-1869 yılları arasında». Künye f 1865-01-01 Yâkub Bey'in Kaşgar'a hâkimiyetidir (yıl; gün bulunamadı). Ara dönem fiilî isyancı idaresidir (kuca-hocalari / Hokand desteği) — BEYANLI YAKLAŞIKLIK.", baskent:"Kaşgar", harita:"yakub-beg",
   ozet:"Hokand kökenli Yâkub Bey'in Doğu Türkistan'da kurduğu, Osmanlı Sultanı Abdülaziz'in \"Emir\" unvanı ve yardım gönderdiği kısa ömürlü bağımsız devlet; Yâkub Bey'in ölümünün ardından Çin (Qing) yeniden fethetti. (kaynak: TDV, madde: yakub-beg)",
   kaynak:"kasgar",
   kronoloji:[
     { odak_yer:["Kaşgar","Hokand"], t:"1865-01-01", tur:"kurulus", b:"Yâkub Bey, Hokand'dan gelen kuvvetlerle Kaşgar'a hâkim oldu" },
     { odak_yer:["Kaşgar"], t:"1867-01-01", tur:"kurulus", b:"Nominal hükümdar Bûzürg Han Töre'yi bertaraf edip \"Atalık Gazi\" unvanıyla bağımsızlığını ilan etti" },
-    { odak_yer:["Kaşgar"], t:"1872-01-01", tur:"antlasma", b:"Sultan Abdülaziz'e elçi gönderip \"Emir\" unvanını ve askerî yardım aldı, hutbe onun adına okundu" },
+    { odak_yer:["Kaşgar"], t:"1873-06-16", tur:"antlasma", b:"Sultan Abdülaziz'e elçi gönderip \"Emir\" unvanını ve askerî yardım aldı, hutbe onun adına okundu", kaynak:"TDV İslâm Ansiklopedisi, Yâkub Han Kâşgarî maddesi, https://islamansiklopedisi.org.tr/yakub-han-kasgari (elçi 1872'de gönderildi; «16 Haziran 1873'te huzura kabul edilen»; unvan/hutbe günü yok)", ic_not_b:"eski t 1872-01-01 elçinin gönderildiği yıldı; TDV elçinin kabulünü 16 Haziran 1873 verir (YIL∩gün). Emir unvanı/hutbe günü bulunamadı." },
     { odak_yer:["Kaşgar"], t:"1877-05-29", tur:"hukumdar", b:"Yâkub Bey öldü (muhtemelen suikast)" },
     { odak_yer:["Türkistan"], t:"1878-03-16", tur:"son", b:"Çin orduları Doğu Türkistan'ı tamamen yeniden fethetti" }
   ]
@@ -7698,7 +7698,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"afgan-durrani", ad:"Dürrânî (Afgan) Devleti", tur:"devlet", bolge:"orta-asya",
-  f:"1747-10-01", t:"1823-01-01", baskent:"Kandehar → Kâbil", harita:"afgan-durrani",
+  f:"1747-10-01", t:"1819-01-01", ic_not_t:"t 1823-01-01 → 1819-01-01: TDV Afganistan «Kandehar'ı kardeşi Kühendil'e bırakarak kendisi Kâbil'de hükümdarlığını ilân etti (1819) ve böylece Afganistan'da hânedan değişmiş oldu» (YIL; eski 1823 kaynaksızdı). BEYAN: Herat (Sadozay kolu 1863'e dek), Belh ve Peşâver dönemleri künye sonunu aşar — aynı polity'nin artığı, ayrı Sadozay künyesi BOYALAR (tuz) gerektirir.", ic_not_f:"f 1747-10-01 = Ahmed Şah'ın Kandehar'da hükümdar ilânı (TDV Ahmed Şah Dürrânî, 1747; gün yok). Yerleşim dönemleri Nâdir Şah'ın öldürüldüğü 1747-06-20'den başlar (BEYANLI YAKLAŞIKLIK: Afşar→Dürrânî fiilî devralma, ara 3,5 ay).", baskent:"Kandehar → Kâbil", harita:"afgan-durrani",
   ozet:"Nâdir Şah'ın öldürülmesinden sonra Ahmed Şah Dürrânî Kandehar'da hükümdar ilân edildi; Horasan'dan Pencap'a uzanan devlet modern Afganistan'ın çekirdeğidir. Hânedan içi taht kavgalarıyla parçalandı ve yerini Bârekzâyîler aldı.",
   kaynak:"ahmed-sah-durrani",
   kronoloji:[
@@ -7717,14 +7717,14 @@ window.DEVLETLER = [
   ]
 },
 { id:"afganistan", ad:"Afganistan (Bârekzâyî Emirliği)", tur:"emirlik", bolge:"orta-asya",
-  f:"1823-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1973 (TDV afganistan: 'Sovyetler, Dâvud Han'ı destekleyerek 1973'te Zâhir Şah'ı kansız bir darbe ile devirmeyi başardılar' — gün yok)", baskent:"Kâbil", harita:"afganistan",
+  f:"1819-01-01", ic_not_f:"f 1823-01-01 → 1819-01-01: TDV Afganistan «Kâbil'de hükümdarlığını ilân etti (1819) ve böylece Afganistan'da hânedan değişmiş oldu» (YIL; eski 1823 kaynaksızdı)", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1973 (TDV afganistan: 'Sovyetler, Dâvud Han'ı destekleyerek 1973'te Zâhir Şah'ı kansız bir darbe ile devirmeyi başardılar' — gün yok)", baskent:"Kâbil", harita:"afganistan",
   ozet:"Dürrânî Devleti'nin dağılmasından sonra Bârekzâyî hânedanı Kâbil'de emirliği kurdu; yüzyıl boyunca İngiltere ile Rusya arasında tampon devlet oldu ve 1919'da tam bağımsızlığını kazandı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"afganistan",
   kronoloji:[
-    { odak_yer:["Kâbil"], t:"1823-01-01", tur:"kurulus", b:"Bârekzâyî hânedanı Kâbil'de emirliği kurdu" },
+    { odak_yer:["Kâbil"], t:"1819-01-01", tur:"kurulus", b:"Bârekzâyî hânedanı Kâbil'de emirliği kurdu (Dost Muhammed, Kâbil'de hükümdarlığını ilân etti)", kaynak:"TDV İslâm Ansiklopedisi, Afganistan maddesi, https://islamansiklopedisi.org.tr/afganistan («Kâbil'de hükümdarlığını ilân etti (1819)»; yıl düzeyi)" },
     { odak_yer:["Kâbil"], t:"1839-08-07", tur:"kayip", b:"Birinci İngiliz-Afgan Savaşı: İngilizler Kâbil'i aldı" },
     { odak_yer:["Kâbil"], t:"1880-07-22", tur:"siyaset", b:"Abdurrahman Han emir oldu, ülke İngiliz himayesine girdi" },
-    { odak_yer:["Kâbil"], t:"1919-08-08", tur:"antlasma", b:"Ravalpindi Antlaşması: Afganistan tam bağımsızlığını kazandı" },
+    { odak_yer:["Kâbil"], t:"1919-08-08", tur:"antlasma", b:"Ravalpindi Antlaşması: Afganistan tam bağımsızlığını kazandı", kaynak:"TDV İslâm Ansiklopedisi, Afganistan maddesi, https://islamansiklopedisi.org.tr/afganistan («8 Ağustos 1919'da Ravalpindi Antlaşması imzalanarak»); Britannica da 8 Ağustos 1919 — çift teyit" },
     { odak_yer:["Kâbil"], t:"1973-07-17", tur:"siyaset", b:"Kral Zahir Şah yurt dışındayken kuzeni Davud Han darbeyle monarşiyi kaldırıp cumhuriyet ilan etti.", kaynak:"https://en.wikipedia.org/wiki/Republic_of_Afghanistan_(1973%E2%80%931978) (yıl kaynaklı; 17 Temmuz genel bilgi)" },
     { odak_yer:["Kâbil"], t:"1978-04-27", tur:"siyaset", b:"Saur Devrimi: komünist subaylar Davud'u öldürüp iktidarı HDKP'ye (Taraki) verdi.", kaynak:"https://adst.org/2017/06/afghan-revolution-1978-invitation-invasion/ (çatışmalar 27-28 Nisan 1978)" },
     { odak_yer:["Kâbil"], t:"1979-12-27", tur:"isgal", b:"Sovyet birlikleri Kâbil'de Tac Bey Sarayı'nı basıp Hafizullah Emin'i öldürdü; Babrak Karmal iktidara getirildi (Sovyet işgali Aralık 1979'da başladı).", kaynak:"https://media.defense.gov/2021/Jun/29/2002751985/-1/-1/0/THE_SOVIET_UNIONS_INVASION.PDF ; gün: kaynaklar 24 ve 27 Aralık verir" },
@@ -7741,7 +7741,7 @@ window.DEVLETLER = [
     { odak_yer:["Abalak"], t:"1430-01-01", tur:"kurulus", b:"Şeybânî Hacı Muhammed'in oğlu Mahmutek döneminde hanlık şekillendi" },
     { odak_yer:["Abalak"], t:"1563-01-01", tur:"hukumdar", b:"Şeybânî Küçüm Han Tayboğa soyunu yenip tahtı ele geçirdi" },
     { odak_yer:["Abalak"], t:"1581-01-01", tur:"savas", b:"Stroganovlar'ın gönderdiği Yermak'ın Kazak birliği Küçüm Han üzerine yürüdü" },
-    { odak_yer:["Abalak"], t:"1598-08-20", tur:"son", b:"Küçüm Han'ın son yenilgisi — hanlık sona erdi, Batı Sibirya Rusya'ya geçti" }
+    { odak_yer:["Abalak"], t:"1598-08-20", tur:"son", b:"Küçüm Han'ın son yenilgisi — hanlık sona erdi, Batı Sibirya Rusya'ya geçti", kaynak:"TDV İslâm Ansiklopedisi, Küçüm Han maddesi, https://islamansiklopedisi.org.tr/kucum-han («20 Ağustos 1598» son yenilgi)" }
   ]
 },
 { id:"izlanda", ad:"İzlanda", tur:"ulke", bolge:"kuzey-avrupa",
