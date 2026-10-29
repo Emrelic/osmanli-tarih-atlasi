@@ -60,10 +60,11 @@ window.KRONOLOJI_HOLLANDA = [
 
 // I. İSYAN VE CUMHURİYETİN DOĞUŞU (1568-1609)
 
-{ t:"1568-01-01", b:"Seksen Yıl Savaşları'nın başlaması — İspanya'ya karşı isyan", tur:"isyan", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","askeri","din","konu-askeri","konu-isyan","konu-din"], yer_id:"", kapsam_genis:true,
+{ t:"1568-05-23", b:"Seksen Yıl Savaşları'nın başlaması — İspanya'ya karşı isyan", tur:"isyan", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","askeri","din","konu-askeri","konu-isyan","konu-din"], yer_id:"", kapsam_genis:true,
   odak_yer:["Amsterdam","Anvers (Antwerpen)","Gent","Utrecht"],
   d:"Habsburg Hollandası'nın on yedi vilâyeti, İspanyol merkezîleşmesine ve engizisyona karşı ayaklandı. Seksen yıl sürecek savaş, Avrupa'nın ilk başarılı bağımsızlık mücadelesi ve ilk büyük cumhuriyetçi devlet kuruluşudur.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): İspanya'ya karşı bağımsızlık mücadelesi anlatısı · Dikkat: GÜN DOĞRULANMADI (yıl damgası)" },
+  gun:"23 Mayıs 1568 (Heiligerlee Muharebesi — savaşın geleneksel başlangıç günü)",
+  kaynak:"TDV `hollanda` (gövdesi okundu): İspanya'ya karşı bağımsızlık mücadelesi anlatısı (yalnız yıl) · gün: Heiligerlee Muharebesi 23 Mayıs 1568, Britannica «Dutch Revolt»; Wikipedia «Battle of Heiligerlee» (ikincil, akademik teyit bekler)" },
 
 { t:"1575-02-08", b:"Leiden Üniversitesi'nin kurulması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", etiket:["bilim","kultur","konu-bilim","konu-kultur","konu-egitim"], yer_id:"", odak_yer:["Rotterdam","Amsterdam"],
   d:"İsyanın en ağır günlerinde, kuşatmaya direnen Leiden'e ödül olarak bir üniversite kuruldu. Şarkiyat ve İslâm araştırmaları da dâhil, kurum kısa sürede Avrupa'nın ilk sıradaki ilim merkezlerinden biri hâline geldi; Grotius bu üniversitenin öğrencisidir.",
@@ -244,12 +245,16 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Viyana Kongresi düzeninde, kuzey ile güney Hollanda birleştirilerek Orange hanedanı altında bir krallık kuruldu. Amaç Fransa'nın kuzey sınırında güçlü bir tampon devletti; iki yüz yıllık cumhuriyet geleneği monarşiyle yer değiştirdi.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda Krallığı, ticarete dayanan Protestan kuzey bölgesiyle sanayiin hâkim olduğu Katolik güney bölgesini bir arada tutmak için büyük çaba harcadı\" · Dikkat: GÜN DOĞRULANMADI" },
 
-{ t:"1830-08-25", b:"Belçika'nın ayrılması", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","toprak-kayip","milliyetcilik","konu-askeri","konu-siyasi","konu-isyan"], yer_id:"Brüksel",
-  d:"Güney bölgesinde çıkan ayaklanma sonucunda Belçika bağımsızlığını ilan etti. Uzun mücadelelerden sonra Hollanda bu bağımsızlığı 1839'da tanımak zorunda kaldı; Protestan-ticarî kuzey ile Katolik-sınaî güneyi bir arada tutma denemesi on beş yılda çöktü.",
+{ t:"1830-08-25", b:"Brüksel ayaklanması — Belçika Devrimi'nin başlaması", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","toprak-kayip","milliyetcilik","konu-askeri","konu-siyasi","konu-isyan"], yer_id:"Brüksel",
+  d:"25 Ağustos 1830'da Brüksel'de başlayan ayaklanma güneye yayıldı; geçici hükûmet 4 Ekim 1830'da Belçika'nın bağımsızlığını ilan etti (harita bu ikinci günde döner). Uzun mücadelelerden sonra Hollanda bu bağımsızlığı 1839'da tanımak zorunda kaldı; Protestan-ticarî kuzey ile Katolik-sınaî güneyi bir arada tutma denemesi on beş yılda çöktü.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"1830 yılında çıkan bir ayaklanma sonucunda güney bölgesi Belçika adıyla bağımsızlığını ilân ederek Hollanda Krallığı'ndan ayrıldı. Uzun mücadelelerden sonra Hollanda bu bağımsızlığı tanımak zorunda kaldı (1839)\" · Dikkat: GÜN DOĞRULANMADI" },
 
+{ t:"1830-10-04", b:"Belçika geçici hükûmeti bağımsızlığı ilan etti", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","toprak-kayip","milliyetcilik","konu-siyasi","konu-isyan"], yer_id:"Brüksel",
+  d:"Ağustos ayaklanmasının ardından Brüksel'deki geçici hükûmet 4 Ekim 1830'da Belçika'nın bağımsızlığını ilan etti. Lüksemburg kırsalı da isyana katıldı; yalnız Lüksemburg şehri (Prusya garnizonlu kale) Hollanda elinde kaldı — Wiltz, Clervaux gibi yerler 1839 bölüşümüne dek Belçika denetiminde görünür.",
+  kaynak:"Britannica «Belgium — Belgian Revolution»; Wikipedia «Partitions of Luxembourg» (yalnız Luxembourg City Belçika eline geçmedi) · Dikkat: ikincil kaynak, TDV bu günü vermez" },
+
 { t:"1839-04-19", b:"Belçika bağımsızlığının tanınması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"], yer_id:"Londra",
-  d:"Londra Antlaşması'yla Hollanda Belçika'yı tanıdı ve sınır kesinleşti. Aynı antlaşma Belçika'nın tarafsızlığını büyük güçlerin güvencesine bağladı — 1914'te Almanya'nın ihlal edeceği belge budur.",
+  d:"Londra Antlaşması'yla Hollanda Belçika'yı tanıdı ve sınır kesinleşti; Limburg ve Lüksemburg dil sınırı boyunca bölündü (Arlon Belçika'da kaldı, batı Lüksemburg Belçika'ya, doğusu Büyük Dükalık olarak Hollanda kralında). Aynı antlaşma Belçika'nın tarafsızlığını büyük güçlerin güvencesine bağladı — 1914'te Almanya'nın ihlal edeceği belge budur.",
   kaynak:"TDV `hollanda` (gövdesi okundu): bağımsızlığın 1839'da tanınması · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1890-11-23", b:"Lüksemburg'un ayrılması", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", etiket:["hanedan","toprak-kayip","konu-askeri","konu-hanedan"], yer_id:"", odak_yer:"Lüksemburg",
