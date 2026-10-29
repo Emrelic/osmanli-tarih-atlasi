@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "0d816e56efe2c787",
-     "bayt": 5657137
+     "sha": "ab37114ff0847338",
+     "bayt": 5657948
     }
    ],
-   "bayt": 5836945
+   "bayt": 5837756
   },
   {
    "paket": "data/paket_06.js",
@@ -238,8 +238,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_ingiltere.js",
-     "sha": "0f2fff2fd9d51d9c",
-     "bayt": 207026
+     "sha": "71a6cea08f90dd53",
+     "bayt": 208057
     },
     {
      "yol": "data/kronoloji_fransa.js",
@@ -252,7 +252,7 @@
      "bayt": 101199
     }
    ],
-   "bayt": 429669
+   "bayt": 430700
   },
   {
    "paket": "data/paket_09.js",
@@ -319,7 +319,7 @@
     },
     {
      "yol": "data/kronoloji_italya.js",
-     "sha": "ae031f61e059bd4e",
+     "sha": "aa63fe71c8b29240",
      "bayt": 140706
     },
     {

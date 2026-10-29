@@ -201,11 +201,11 @@ window.KRONOLOJI_INGILTERE = [
   d:"I. Edward şahsen sevk ettiği orduyla Wallace'ın piyade birliklerini (schiltron) Galler okçularının desteğiyle bozguna uğrattı. Wallace naiplik görevinden çekildi, ama İskoç direnişi kırılmadı.",
   kaynak:"A Dictionary of British History (OUP), «Falkirk, battle of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-1306 — «on 22 July 1298 defeated William Wallace's men» ; el-kitabi", yer_kon:[55.9997,-3.783] },
 
-{ t:"1305-01-01", b:"William Wallace idam edildi", tur:"son",
+{ t:"1305-08-23", b:"William Wallace idam edildi", tur:"son",
   onem:5, dunya:1, kapsam:"dis", etiket:["askeri","iskocya","ingiltere","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"Londra",
   d:"Yakalanan Wallace, Londra'da vatana ihanetten yargılanıp asılarak, bağırsakları çıkarılarak ve parçalara ayrılarak idam edildi; parçaları uyarı amacıyla İskoçya ve Kuzey İngiltere'nin farklı şehirlerinde sergilendi. İdam, Wallace'ı İskoç millî hafızasında bir şehide dönüştürdü.",
-  kaynak:"World Encyclopedia (OUP), «Wallace, Sir William» https://www.oxfordreference.com/display/10.1093/acref/9780199546091.001.0001/acref-9780199546091-e-12287 — «was eventually captured (1305) and executed» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1305-08-23; güvenilir kaynağın tarihi: 1305; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
+  kaynak:"World Encyclopedia (OUP), «Wallace, Sir William» https://www.oxfordreference.com/display/10.1093/acref/9780199546091.001.0001/acref-9780199546091-e-12287 — «was eventually captured (1305) and executed» ; J. R. Davies, «The Execution of William Wallace», Breaking of Britain (AHRC), Ağustos 2013, https://breakingofbritain.ac.uk/blogs/feature-of-the-month/august-2013/index.html — «died on Monday 23 August 1305» (Pipe Roll 33 Edw I; Flores Historiarum), yakalanma 5 Ağustos 1305 ; Ian Stone (KCL), aynı proje, Kasım 2012: Liber de Antiquis Legibus ve Annales Londonienses 23 Ağustos 1305'te birleşir", ic_not_t:"çift teyit (Davies 2013; Stone 2012): 23 Ağustos 1305. 14 Ekim 2026'daki yıla indirme (TEYIT-KARAR-1014) güvenilir akademik gün kaynağı bulunmadığı içindi; 29 Ekim 2026'da gün iki bağımsız akademik kaynakta bulundu, Emre'nin 'çelişkide en bilimsel seçeneği sen seç' yetkisiyle günlü hâle döndürüldü." },
 
 { t:"1306-03-25", b:"Robert Bruce İskoç kralı olarak taç giydi", tur:"hukumdar",
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","iskocya","konu-siyasi","konu-hanedan"],
@@ -1782,7 +1782,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","anayasa","irlanda","konu-siyasi","konu-islahat","konu-hukuk"],
   yer_id:"Dublin",
   d:"Dublin'de toplanan İrlanda Parlamentosu, VIII. Henry'yi (önceki 'İrlanda Lordu' unvanı yerine) resmen İrlanda Kralı ilan etti; bu, İngiliz tacının İrlanda üzerindeki iddiasını papalık bağışına değil doğrudan egemenliğe dayandırmasını sağladı. Karar, 'teslim ve yeniden bağış' politikasıyla Gal beylerini İngiliz soyluluk unvanları karşılığında ikna etme stratejisinin de zeminini oluşturdu.",
-  kaynak:"el-kitabi" },
+  kaynak:"Letters and Papers, Foreign and Domestic, Henry VIII, c.16 (1898), no. 901 (Dublin Parlamentosu 13 Haziran-20 Temmuz 1541, 33 Hen. VIII, bölüm 1 «The King to be king of Ireland») ve no. 926 (St Leger, 26 Haziran 1541: kraliyet onayı Cumartesi 18 Haziran, Pazar 19 Haziran'da St Patrick's'te ilan): https://www.british-history.ac.uk/node/66572 , https://www.british-history.ac.uk/node/66573 ; Irish Historical Studies 30/119 (1997): 33 Hen. VIII c.1 (1541)" },
 
 { t:"1601-12-24", b:"Kinsale Savaşı — Dokuz Yıl Savaşı'nda İngiliz zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","irlanda","konu-askeri"],

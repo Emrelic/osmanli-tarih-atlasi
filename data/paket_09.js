@@ -2444,7 +2444,7 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Cenova'nın Ege'deki en değerli kolonisi Sakız (Chios), doğrudan devlet yönetimi yerine Giustiniani ailesinin başını çektiği bir hissedarlar şirketi olan Maona'nın idaresine bırakıldı — ortaçağ Avrupa'sının erken bir özel-sermaye sömürgecilik modelidir.",
   kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Sakız Adası Maona şirketi idaresine geçti\"", yer_id:"Sakız" },
 
-{ devlet:"cenova", t:"1461-08-15", b:"Amasra kolonisinin Osmanlı'ya düşmesi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ devlet:"cenova", t:"1459-06-20", b:"Amasra kolonisinin Osmanlı'ya düşmesi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","toprak-kayip","konu-askeri"],
   d:"Fatih Sultan Mehmed'in Karadeniz seferi sırasında Cenova'nın Anadolu kıyısındaki kolonisi Amasra, direnmeden Osmanlı'ya teslim oldu; Karadeniz kıyısındaki Ceneviz varlığının tasfiyesinin ilk adımlarından biriydi.",
   kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Amasra kolonisi Osmanlı'ya düştü\"", yer_id:"Amasra" },
