@@ -1,0 +1,74 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index b95bd613f..319de71c1 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -1873,6 +1873,69 @@ def _kk_kara_yolu(lon, lat):
+     return f
+ 
+ 
++# ═══ 🆕 MOTOR-TOHUM-YAKA-1029 — TOHUM HÜCRESİNİN MERKEZİ NEHRİN ÖTE YAKASINDA ═══
++# KUSUR (post-it #157, Haram/Banatska Palanka 1716, ölçüldü 29 Ekim 2026, KOŞU 30):
++#   Haram noktası (44.8453K 21.3318D) NE Tuna çizgisinin 2,2 km KUZEYİNDE — nokta
++#   doğru yakada, yaka kilidinin (#7) vakası değil. Ama 0,05° ızgarada düştüğü
++#   hücrenin MERKEZİ (44.825K 21.325D) çizginin (44.8253K) ~30 m GÜNEYİNDE. Nehir
++#   bedeli merkezden merkeze adıma yazıldığı için Dijkstra tohumu GÜNEY yakada
++#   sayıyor: güneye bedelsiz, kuzeye 16 saatlik geçişle yayılıyor ⇒ yayındaki
++#   Haram peteği 309 km², tamamı güney yakada (Golubac içinde); kalenin noktası
++#   ve Banat kıyısı Pasarofça peteğinde. 1716-11-16 devri haritada yanlış yakada.
++# ÇARE: nokta ile kendi hücresinin merkezi arasındaki doğru bir NEHİR hattını
++#   kesiyorsa tohum, merkezi noktayla AYNI yakada kalan (doğrusu hiçbir nehri
++#   kesmeyen) en yakın 8-komşu kara hücresine TAŞINIR. Kıyıdaki tohumun su
++#   hücresinden kara hücresine kaydırılması kuralının nehir karşılığı. Tek
++#   sözlük (`_kvtohum`) değiştiği için bütün Dijkstra'lar tutarlı kalır; kıstak
++#   köprüsü bundan SONRA koşar. Uygun komşu yoksa tohum OLDUĞU GİBİ kalır.
++# Bayrak: MOTOR_TOHUM_YAKA=1. Kapalıyken HİÇBİR ŞEY değişmez.
++TOHUM_YAKA = os.environ.get("MOTOR_TOHUM_YAKA") == "1"
++_kvyaka = []                       # (ad, eski hücre, yeni hücre, km)
++if TOHUM_YAKA and _KVNEHIR is not None and NEHIRLER:
++    asama("Kara-kısıtlı sahiplik: tohum yakası (hücre merkezi nehrin öte yakasında)")
++    _ty_hat = [ln for g in NEHIRLER for ln in shapely.get_parts(g) if not ln.is_empty]
++    _ty_agac = STRtree(_ty_hat)
++
++    def _ty_keser(x0, y0, x1, y1):
++        _s = LineString([(x0, y0), (x1, y1)])
++        return any(_ty_hat[int(k)].intersects(_s) for k in _ty_agac.query(_s))
++
++    for _h in list(_kvtohum.keys()):
++        _hj, _hi = divmod(_h, _kvnx)
++        _cx = _kvx0 + (_hi + 0.5) * KV_ADIM
++        _cy = _kvy0 + (_hj + 0.5) * KV_ADIM
++        for _idx in list(_kvtohum[_h]):
++            _y = YERLER[_idx]
++            if not _ty_keser(_y["lon"], _y["lat"], _cx, _cy):
++                continue
++            _en, _ed = None, 9e9
++            for _dj in (-1, 0, 1):
++                for _di in (-1, 0, 1):
++                    _a, _b = _hi + _di, _hj + _dj
++                    if (_di == 0 and _dj == 0) or not (0 <= _a < _kvnx and 0 <= _b < _kvny):
++                        continue
++                    _k = _b * _kvnx + _a
++                    if not _kvkara[_k]:
++                        continue
++                    _ax = _kvx0 + (_a + 0.5) * KV_ADIM
++                    _ay = _kvy0 + (_b + 0.5) * KV_ADIM
++                    if _ty_keser(_y["lon"], _y["lat"], _ax, _ay):
++                        continue
++                    _km = girdi.km(_y["lat"], _y["lon"], _ay, _ax)
++                    if _km < _ed:
++                        _en, _ed = _k, _km
++            if _en is None:
++                continue
++            _kvtohum[_h].remove(_idx)
++            _kvtohum.setdefault(_en, []).append(_idx)
++            _kvyaka.append((_y["ad"], _h, _en, _ed))
++        if not _kvtohum[_h]:
++            del _kvtohum[_h]
++    print(f"  🧭 TOHUM YAKASI: {len(_kvyaka)} tohum hücre merkezi nehrin öte yakasında "
++          f"olduğu için komşu hücreye taşındı"
++          + (": " + ", ".join(f"{a} ({k:.1f} km)" for a, _, _, k in _kvyaka[:40])
++             + (" …" if len(_kvyaka) > 40 else "") if _kvyaka else ""))
++
+ if KISTAK_KOPRU:
+     asama("Kara-kısıtlı sahiplik: kıstak köprüsü (ızgarada hapis tohum)")
+     for _h in list(_kvtohum.keys()):
