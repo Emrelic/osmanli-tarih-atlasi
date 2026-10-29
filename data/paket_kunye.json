@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "03c424602e187183",
-     "bayt": 5661948
+     "sha": "9bf0f720f01eebd8",
+     "bayt": 5662729
     }
    ],
-   "bayt": 5841756
+   "bayt": 5842537
   },
   {
    "paket": "data/paket_06.js",
@@ -558,8 +558,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "3ce20916d77ce08e",
-     "bayt": 1840157
+     "sha": "6ce5e8518bf3b2f2",
+     "bayt": 1853282
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -568,8 +568,8 @@
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
-     "sha": "de82701ea200631d",
-     "bayt": 414008
+     "sha": "a9dab8e2b727fd65",
+     "bayt": 431051
     },
     {
      "yol": "data/yerlesimler_asya.js",
@@ -578,8 +578,8 @@
     },
     {
      "yol": "data/yerlesimler_ek.js",
-     "sha": "6cc28d9452305f49",
-     "bayt": 74351
+     "sha": "13dd2e33b75f3aff",
+     "bayt": 74988
     },
     {
      "yol": "data/yerlesimler_ortaasya2.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3568388
+   "bayt": 3599193
   },
   {
    "paket": "data/paket_14.js",
@@ -774,11 +774,11 @@
     },
     {
      "yol": "data/yerlesimler_ek29.js",
-     "sha": "061884c93195e80a",
-     "bayt": 248594
+     "sha": "bc87236b3906a2b8",
+     "bayt": 250539
     }
    ],
-   "bayt": 1307134
+   "bayt": 1309079
   },
   {
    "paket": "data/paket_15.js",
@@ -943,11 +943,11 @@
     },
     {
      "yol": "data/yerlesimler_ek_macaristan.js",
-     "sha": "091b4cc9af9048e7",
-     "bayt": 45684
+     "sha": "e9730cf1e833c1d9",
+     "bayt": 46321
     }
    ],
-   "bayt": 96317
+   "bayt": 96954
   },
   {
    "paket": "data/paket_19.js",
@@ -1169,8 +1169,8 @@
     },
     {
      "yol": "data/yerlesimler_a78_avrupa.js",
-     "sha": "04d8b744794e9105",
-     "bayt": 52127
+     "sha": "de61f4205f9d48f4",
+     "bayt": 52613
     },
     {
      "yol": "data/yerlesimler_a78_okyanusya.js",
@@ -1183,7 +1183,7 @@
      "bayt": 15895
     }
    ],
-   "bayt": 377789
+   "bayt": 378275
   },
   {
    "paket": "data/paket_25.js",
