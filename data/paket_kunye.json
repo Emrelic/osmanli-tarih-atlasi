@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "1ef47f339a200c27",
-     "bayt": 5658887
+     "sha": "5abbf696c0079ea9",
+     "bayt": 5661589
     }
    ],
-   "bayt": 5838695
+   "bayt": 5841397
   },
   {
    "paket": "data/paket_06.js",
@@ -279,8 +279,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_bati.js",
-     "sha": "b5350f58d34c07b2",
-     "bayt": 97399
+     "sha": "85faaf6061a1712a",
+     "bayt": 98128
     },
     {
      "yol": "data/kronoloji_sinir_ortadogu.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1090541
+   "bayt": 1091270
   },
   {
    "paket": "data/paket_10.js",
@@ -381,8 +381,8 @@
     },
     {
      "yol": "data/kronoloji_isvec.js",
-     "sha": "45f6e2d41cfcfaab",
-     "bayt": 59743
+     "sha": "14a3120799d3ab93",
+     "bayt": 62116
     },
     {
      "yol": "data/kronoloji_japonya.js",
@@ -405,7 +405,7 @@
      "bayt": 27250
     }
    ],
-   "bayt": 372535
+   "bayt": 374908
   },
   {
    "paket": "data/paket_12.js",
@@ -558,8 +558,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "b7b3e8f7e7f25a62",
-     "bayt": 1818146
+     "sha": "cc2e3ee8863ec543",
+     "bayt": 1818331
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -568,8 +568,8 @@
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
-     "sha": "d0f32473564a2191",
-     "bayt": 350948
+     "sha": "33a062012c8ca4c6",
+     "bayt": 357911
     },
     {
      "yol": "data/yerlesimler_asya.js",
@@ -622,20 +622,20 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3483317
+   "bayt": 3490465
   },
   {
    "paket": "data/paket_14.js",
    "kaynak": [
     {
      "yol": "data/yerlesimler_ek7.js",
-     "sha": "a363b593dbab60e4",
-     "bayt": 58682
+     "sha": "1aa93639db103f87",
+     "bayt": 61451
     },
     {
      "yol": "data/yerlesimler_ek8.js",
-     "sha": "611c9020c9f8d005",
-     "bayt": 47016
+     "sha": "65c5eaa8b63ae62c",
+     "bayt": 47817
     },
     {
      "yol": "data/yerlesimler_ek9.js",
@@ -778,7 +778,7 @@
      "bayt": 248594
     }
    ],
-   "bayt": 1303564
+   "bayt": 1307134
   },
   {
    "paket": "data/paket_15.js",
