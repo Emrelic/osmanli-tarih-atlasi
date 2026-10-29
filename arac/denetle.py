@@ -1441,6 +1441,10 @@ BEYAN_EDILEN_BOSLUK = {
     # SAHRA-ALTI-AFRIKA-DENETIM 28 Ekim 2026: kayıp yama yer_yama_timbuktu_tam_0906
     # yerlesimler.js'e uygulandı; bu bir yıl BEYANDIR, eksik değil.
     ("Timbuktu", "1893-01-01", "1894-01-01"),
+    # AVUSTURYA-MACAR-1027: Macaristan bölge noktası 796-895 (Avar halkasının düşüşü → Honfoglalás).
+    # Karpat havzasının bu yüzyılı Frank/Bavyera marki, Avar kalıntısı (künye t=822) ve Büyük
+    # Moravya arasında bölünüyor; sahip kaynakla tek kimliğe bağlanamadı (boşluk merdiveni ③).
+    ("Macaristan", "0796-01-01", "0895-01-01"),
     # 🔴 Cizre 1508-1515 — YEREL EMİRLİK, ve künyesi YOK. Beyan, kaynağın
     # kendi cümlesine dayanıyor; boşluk KAZA DEĞİL.
     #

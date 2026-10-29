@@ -221,7 +221,7 @@ window.DEVLETLER = [
 },
 
 { id:"habsburg", ad:"Habsburg Avusturya", tur:"imparatorluk", bolge:"orta-avrupa",
-  f:"1282-01-01", t:"1918-11-12", baskent:"Viyana", harita:"avusturya",
+  f:"1282-12-27", ic_not_f:"AVUSTURYA-MACAR-1027: Augsburg Reichstag 1282-12-27 (atlas kronolojisi kronoloji_sinir_nokta3; habsburger.net: Albrecht+II. Rudolf Avusturya ve Steiermark ile lehenlendirildi; Rudolf II maddesi 27 Aralik, bir Almanca kaynak 17 Aralik der - 1282 yili kesin). Onceki f 1282-01-01 yil basi yuvarlamasiydi.", t:"1918-11-12", baskent:"Viyana", harita:"avusturya",
   ozet:"Mohaç sonrası Macar tacını alan Habsburg hanedanı; üç asır boyunca Osmanlı'nın Orta Avrupa'daki ana rakibi, sonunda Avusturya-Macaristan olarak I. Dünya Savaşı'nda dağıldı.",
   kaynak:"avusturya",
   kronoloji:[
@@ -234,7 +234,7 @@ window.DEVLETLER = [
     { t:"1718-07-21", tur:"toprak-kazanc", b:"Pasarofça — Belgrad ve Sırbistan Habsburg'a geçti" },
     { t:"1739-09-18", tur:"toprak-kayip", b:"Belgrad Antlaşması — Belgrad Osmanlı'ya geri döndü" },
     { t:"1804-08-11", tur:"kurulus", b:"II. Franz, Kutsal Roma'dan ayrı Avusturya İmparatorluğu'nu ilan etti" },
-    { t:"1867-03-30", tur:"bolunme", b:"Ausgleich (Uzlaşma) — Avusturya-Macaristan ikili monarşisi kuruldu" },
+    { t:"1867-05-29", tur:"bolunme", b:"Ausgleich (Uzlaşma) — Macar Diyeti 1867:XII sayılı kanunu kabul etti; Avusturya-Macaristan ikili monarşisi kuruldu" },
     { t:"1878-07-13", tur:"toprak-kazanc", b:"Berlin Kongresi — Bosna-Hersek'i işgal/idare etti" },
     { t:"1908-10-06", tur:"toprak-kazanc", b:"Bosna-Hersek'i ilhak etti" },
     { t:"1914-07-28", tur:"savas", b:"Sırbistan'a savaş ilanı — I. Dünya Savaşı başladı" },
@@ -747,11 +747,11 @@ window.DEVLETLER = [
   ozet:"Bağımsız Macar krallığı (hanedan ömrü, Árpádlardan başlayıp çeşitli hanedanlarla sürdü); Mohaç bozgunuyla (29 Ağustos 1526) bağımsızlığını kaybetti, toprakları Osmanlı, Habsburg ve Erdel arasında bölündü.",
   kaynak:"macaristan",
   kronoloji:[
-    { odak_yer:["Ösek (Osijek)"], t:"1000-01-01", tur:"kurulus", b:"I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu" },
+    { odak_yer:["Estergon"], t:"1000-01-01", tur:"kurulus", b:"I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu" },
     { t:"1301-01-14", tur:"bolunme", b:"III. András'ın ölümüyle Árpád hanedanı sona erdi, seçimli krallık dönemi başladı" },
     { t:"1387-03-31", tur:"hukumdar", b:"Luxemburglu Zsigmond (Sigismund) tahta çıktı" },
     { t:"1396-09-25", tur:"savas", b:"Niğbolu Haçlı Seferi'ne öncülük etti" },
-    { odak_yer:["Ösek (Osijek)"], t:"1443-11-01", tur:"savas", b:"Hunyadi'nin Osmanlı'ya yenilgisi — İzladi" },
+    { odak_yer:["Niş"], t:"1443-11-01", tur:"savas", b:"Hunyadi'nin Osmanlı'ya yenilgisi — İzladi" },
     { t:"1456-07-22", tur:"savas", b:"Belgrad'ı savunarak II. Mehmed'i geri püskürttü" },
     { t:"1458-01-24", tur:"hukumdar", b:"Hunyadi Mátyás (Corvinus) tahta çıktı, altın çağ başladı" },
     { t:"1490-04-06", tur:"hukumdar", b:"Mátyás'ın ölümüyle Jagiellon hanedanı tahta geçti, merkezi otorite zayıfladı" },
@@ -773,7 +773,7 @@ window.DEVLETLER = [
     { odak_yer:["Bratislava"], t:"1686-09-02", tur:"toprak-kazanc", b:"Kutsal İttifak ordusu Budin'i geri aldı" },
     { odak_yer:["Temeşvar"], t:"1699-01-26", tur:"antlasma", b:"Karlofça Antlaşması ile Osmanlı, Macaristan'dan (Temeşvar hariç) kesin olarak çekildi" },
     { odak_yer:["Bratislava"], t:"1848-03-15", tur:"isyan", b:"1848 Macar Devrimi başladı (1849'da Rus yardımıyla bastırıldı)" },
-    { odak_yer:["Bratislava"], t:"1867-02-08", tur:"antlasma", b:"Ausgleich (Uzlaşma) ile Avusturya-Macaristan ikili monarşisi kuruldu, Macaristan eşit ortak oldu" },
+    { odak_yer:["Bratislava"], t:"1867-05-29", tur:"antlasma", b:"Ausgleich (Uzlaşma): Macar Diyeti 1867:XII sayılı kanunu kabul etti, Avusturya-Macaristan ikili monarşisi kuruldu, Macaristan eşit ortak oldu" },
     { odak_yer:["Bratislava"], t:"1918-11-16", tur:"son", b:"I. Dünya Savaşı sonrası cumhuriyet ilan edildi", ic_not_b:"eski b: I. Dünya Savaşı sonrası cumhuriyet ilan edildi (bkz. [[macaristan-naiplik]])" }
   ]
 },
@@ -5244,7 +5244,8 @@ window.DEVLETLER = [
   kronoloji:[
     { odak_yer:["Kalocsa"], t:"1918-11-16", tur:"kurulus", b:"Károlyi önderliğinde Macaristan Halk Cumhuriyeti ilan edildi" },
     { odak_yer:["Kalocsa"], t:"1919-03-21", tur:"bolunme", b:"Béla Kun, Macaristan Sovyet Cumhuriyeti'ni ilan etti" },
-    { odak_yer:["Kalocsa"], t:"1919-08-01", tur:"isgal", b:"Romanya orduları Budapeşte'yi işgal etti, Sovyet cumhuriyeti yıkıldı" },
+    { odak_yer:["Kalocsa"], t:"1919-08-01", tur:"bolunme", b:"Béla Kun hükûmeti istifa etti, Macaristan Sovyet Cumhuriyeti yıkıldı", kaynak:"Britannica 'Béla Kun' (1 Ağustos 1919)" },
+    { odak_yer:["Kalocsa"], t:"1919-08-04", tur:"isgal", b:"Romanya orduları Budapeşte'ye girdi", kaynak:"Britannica 'Béla Kun' · Hungarian Revolution of 1919 (4 Ağustos)" },
     { odak_yer:["Kalocsa"], t:"1920-03-01", tur:"hukumdar", b:"Miklós Horthy, kralsız krallığın naibi seçildi" },
     { odak_yer:["Kalocsa"], t:"1920-06-04", tur:"antlasma", b:"Trianon Antlaşması ile toprakların üçte ikisini kaybetti" },
     { odak_yer:["Kalocsa"], t:"1944-03-19", tur:"isgal", b:"Almanya Macaristan'ı işgal etti", kaynak:"USHMM-KD (19 Mart 1944)" },
@@ -10793,12 +10794,12 @@ window.DEVLETLER = [
   ]
 },
 { id:"avusturya-ikinci-cumhuriyet", ad:"Avusturya Cumhuriyeti (II. Cumhuriyet)", tur:"cumhuriyet", bolge:"orta-avrupa",
-  f:"1945-04-01", baskent:"Viyana", harita:"avusturya-cumhuriyet",
+  f:"1945-04-27", baskent:"Viyana", harita:"avusturya-cumhuriyet",
   ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
-  ozet:"Almanya'nın çöküşü ve Sovyet işgali sırasında Karl Renner'in kurduğu geçici hükûmetle yeniden doğan Avusturya; öncülü [[avusturya-cumhuriyet]]. f: AY hassasiyeti (Nisan 1945). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
-  kaynak:"BRIT Karl-Renner — 'became the first chancellor of the reborn Austria in April 1945' · ⚠️ gün ÇELİŞKİLİ: OH austria (ajan özeti) geçici hükûmet 25 Nisan / Demokratik Cumhuriyet ilanı 14 Mayıs; parlament.gv.at arama özeti 27 Nisan (sayfa 404) — f: bu yüzden ayın başı, hassasiyet AY",
+  ozet:"Almanya'nın çöküşü ve Sovyet işgali sırasında Karl Renner'in kurduğu geçici hükûmetle yeniden doğan Avusturya; öncülü [[avusturya-cumhuriyet]]. f: 27 Nisan 1945 (TDV). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
+  kaynak:"TDV İslâm Ansiklopedisi 'Avusturya' (27 Nisan 1945'te yeniden cumhuriyet kuruldu) · BRIT Karl-Renner · parlament.gv.at (27 Nisan). 25 Nisan geçici hükûmet, 14 Mayıs Demokratik Cumhuriyet ilanı ayrı olaylardır — f: 27 Nisan, hassasiyet GÜN",
   kronoloji:[
-    { odak_yer:["Viyana"], t:"1945-04-01", tur:"kurulus", b:"Renner geçici hükûmetiyle Avusturya yeniden kuruldu (Nisan 1945; gün kaynaklarda çelişkili)", kaynak:"BRIT Karl-Renner" },
+    { odak_yer:["Viyana"], t:"1945-04-27", tur:"kurulus", b:"Bağımsızlık bildirgesi yayımlandı, Renner geçici hükûmetiyle Avusturya yeniden kuruldu", kaynak:"TDV İslâm Ansiklopedisi 'Avusturya' (27 Nisan 1945 yeniden cumhuriyet) · BRIT Karl-Renner · parlament.gv.at (27 Nisan)", ic_not:"Gün çelişkisi çözüldü: 25 Nisan geçici hükûmet kuruluşu, 14 Mayıs Demokratik Cumhuriyet ilanı ayrı olaylardır; bağımsızlık bildirgesi/yeniden cumhuriyet günü 27 Nisan (TDV)." },
     { odak_yer:["Viyana"], t:"1945-09-11", tur:"siyaset", b:"Dört işgal gücünün temsilcilerinden oluşan Müttefik Konseyi Viyana'da ilk toplantısını yaptı.", kaynak:"https://www.cvce.eu/education/unit-content/-/unit/en/55c09dcc-a9f2-45e9-b240-eaef64452cae/82a231a7-3890-4951-bc38-b68ec5d5f52c/Resources" },
     { odak_yer:["Viyana"], t:"1945-11-25", tur:"siyaset", b:"Savaş sonrası ilk genel seçim yapıldı; ÖVP 85, SPÖ 76, KPÖ 4 sandalye aldı.", kaynak:"https://countrystudies.us/austria/44.htm" },
     { odak_yer:["Viyana"], t:"1945-12-20", tur:"hukumdar", b:"Federal Meclis Renner'i cumhurbaşkanı seçti; Renner, ÖVP'li Leopold Figl'i şansölye olarak yemin ettirdi.", kaynak:"https://countrystudies.us/austria/44.htm" },
@@ -17793,7 +17794,7 @@ window.DEVLETLER = [
     { odak_yer:["Magdeburg"], t:"1648-01-01", tur:"antlasma", b:"Vestfalya Barışı başpiskoposluğu sekülerleştirip Brandenburg'a verdi.", kaynak:"https://en.wikipedia.org/wiki/Archbishopric_of_Magdeburg (Vikipedi); Catholic Encyclopedia 1913" },
     { odak_yer:["Magdeburg"], t:"1680-01-01", tur:"son", b:"Son yönetici Saksonya-Weissenfels'li August'un ölümüyle Magdeburg Brandenburg'a geçti.", kaynak:"https://en.wikipedia.org/wiki/Archbishopric_of_Magdeburg (Vikipedi)" }
   ] },
-{ id:"stiriya-dukaligi", ad:"Stiriya (Steiermark) Dükalığı (Otakar evresi)", tur:"dukalik", bolge:"orta-avrupa", f:"1180-01-01", t:"1192-01-01", baskent:"Graz", ozet:"Barbarossa'nın 1180'de Stiriya Markı'nı dükalığa yükseltmesi; son Otakar dükü IV. Ottokar 1192'de ölünce Georgenberg Paktı (1186) gereği Babenberg Avusturya'sına geçti (kişisel birlik).", kaynak:"Wikipedia 'Duchy of Styria', 'Georgenberg Pact', 'Otakars'; austria-forum AEIOU. ic_not: dükalık 1918'e dek Avusturya içinde sürdü; künye yalnız bağımsız-hanedan evresi; 1192 kesinti gün adayı† 1192-08-17 (aday); Pakt 17 Ağustos 1186. Öneri: kronolojide Avusturya ile kesişim işaretlensin.", kronoloji:[
+{ id:"stiriya-dukaligi", ad:"Stiriya (Steiermark) Dükalığı (Otakar evresi)", tur:"dukalik", bolge:"orta-avrupa", f:"1180-01-01", t:"1192-05-08", ic_not_t:"AVMAC-A-1029: t 1192-01-01 → 1192-05-08 (künye GENİŞLETİLDİ; son dük IV. Otakar'ın ölümü, Stiria Leopold V.'e geçti): NDB 'Leopold V.' (deutsche-biographie.de/sfz57434.html) 8.5.1192; aynı NDB'nin künye satırı 9.5.1192 der (ÇELİŞKİ, makale gövdesi 8 Mayıs).", baskent:"Graz", ozet:"Barbarossa'nın 1180'de Stiriya Markı'nı dükalığa yükseltmesi; son Otakar dükü IV. Ottokar 1192'de ölünce Georgenberg Paktı (1186) gereği Babenberg Avusturya'sına geçti (kişisel birlik).", kaynak:"Wikipedia 'Duchy of Styria', 'Georgenberg Pact', 'Otakars'; austria-forum AEIOU. ic_not: dükalık 1918'e dek Avusturya içinde sürdü; künye yalnız bağımsız-hanedan evresi; 1192 kesinti gün adayı† 1192-08-17 (aday); Pakt 17 Ağustos 1186. Öneri: kronolojide Avusturya ile kesişim işaretlensin.", kronoloji:[
     { odak_yer:["Graz"], t:"1180-01-01", tur:"kurulus", b:"Gelnhausen Diyeti'nde Barbarossa Stiriya Markı'nı Bavyera'dan ayırıp IV. Otakar'ı dük yapar.", kaynak:"https://en.wikipedia.org/wiki/Duchy_of_Styria ; https://austria-forum.org/af/AEIOU/Otakar_IV./Otakar_IV._english" },
     { odak_yer:["Graz"], t:"1186-08-17", tur:"antlasma", b:"Georgenberg Paktı (Enns): çocuksuz IV. Otakar, Stiriya'yı ölümünden sonra Babenberg dükü V. Leopold'a bırakır.", kaynak:"https://en.wikipedia.org/wiki/Georgenberg_Pact ; https://austria-forum.org/af/AEIOU/Georgenberger_Handfeste/Georgenberger_Handfeste_english" },
     { odak_yer:["Regensburg"], t:"1187-01-01", tur:"siyaset", b:"Regensburg Diyeti'nde (muhtemelen) Barbarossa, IV. Otakar ile Babenberg arasındaki Georgenberg miras sözleşmesini onayladı (yıl kesin, gün bilinmiyor).", kaynak:"https://austria-forum.org/af/AEIOU/Georgenberger_Handfeste/Georgenberger_Handfeste_english ; https://www.landesarchiv.steiermark.at/cms/dokumente/12113758_77969440/f56af386/Handouts_A4_zur-Georgenberger-HF.pdf" }
@@ -19886,7 +19887,7 @@ window.DEVLETLER = [
     { odak_yer:["Pannonia"], t:"0453-01-01", tur:"hukumdar", b:"Attila ölü bulundu; oğulları arasında iktidar mücadelesi başladı.", kaynak:"Priscus/Jordanes'e dayanan ikincil özet; Britannica 'Attila'" },
     { odak_yer:["Pannonia"], t:"0454-01-01", tur:"savas", b:"Nedao Muharebesi: Gepid Ardaric başkanlığındaki isyancılar Attila'nın oğlu Ellak'ı yendi; Hun birliği çöktü.", kaynak:"https://en.wikipedia.org/wiki/Ardaric (ikincil)" }
   ] },
-{ id:"gepid", ad:"Gepid Krallığı", tur:"krallik", bolge:"balkanlar", f:"0455-01-01", t:"0567-01-01", baskent:"Sirmium", ozet:"Britannica Nedao'yu 455 verir (Vikipedi 454); Gepid Ardaric öncülüğünde krallık Orta Tuna'da. 567'de Avar+Lombard karşısında yıkıldı.", kaynak:"Britannica 'Attila'; World History Encyclopedia 'Avars' (worldhistory.org/Avars/)", kronoloji:[
+{ id:"gepid", ad:"Gepid Krallığı", tur:"krallik", bolge:"balkanlar", f:"0454-01-01", t:"0567-01-01", baskent:"Sirmium", ic_not_f:"AVMAC-A-1029: f 0455-01-01 → 0454-01-01 (künye GENİŞLETİLDİ, aynı polity): Britannica 'Gepidae' (britannica.com/topic/Gepidae) Nedao 454 der; Maenchen-Helfen, The World of the Huns (1973) s. 145-147 aynı (454). Britannica 'Attila' 455 verir — ÇELİŞKİ, iki Britannica maddesi; hun-avrupa t=0455 yıl-sonu eşiği 454'ü kapsar.", ozet:"Britannica Nedao'yu 455 verir (Vikipedi 454); Gepid Ardaric öncülüğünde krallık Orta Tuna'da. 567'de Avar+Lombard karşısında yıkıldı.", kaynak:"Britannica 'Attila'; World History Encyclopedia 'Avars' (worldhistory.org/Avars/)", kronoloji:[
     { odak_yer:["Sirmium"], t:"0455-01-01", tur:"kurulus", b:"Nedao Savaşı'nı izleyen dönemde Gepid krallığı Orta Tuna'da kuruldu.", kaynak:"Britannica 'Attila' (künyeden aktarıldı; doğrudan doğrulanamadı)" },
     { odak_yer:["Pannonia","Sirmium"], t:"0473-01-01", tur:"toprak-kazanc", b:"Ostrogotlar Pannonia'dan ayrılınca Gepidler Sirmium'u ele geçirdi.", kaynak:"https://en.wikipedia.org/wiki/Gepids (Goffart 2009, Barbarian Tides, s.201)" },
     { odak_yer:["Sirmium","İtalya"], t:"0489-01-01", tur:"savas", b:"Thraustila Teodorik'in İtalya seferi sırasında Vuka'da Ostrogotları durdurmaya çalıştı, ordusu bozguna uğradı (Sirmium Savaşı).", kaynak:"https://en.wikipedia.org/wiki/Gepids (Goffart 2009, s.201; Wolfram 1988, s.280)" },
@@ -24981,7 +24982,8 @@ window.DEVLETLER = [
   tur:"kontluk",
   bolge:"orta-avrupa",
   f:"1140-01-01",
-  t:"1363-01-01",
+  t:"1363-01-26",
+  ic_not_t:"AVMAC-A-1029: t 1363-01-01 → 1363-01-26 (künye GENİŞLETİLDİ): Österreichisches Staatsarchiv 'Archivale des Monats': Am 26. Jänner 1363 übertrug Margarete Maultasch ihre Rechte auf das Land Tirol (Bozen).",
   baskent:"Tirol Kalesi (Schloss Tirol)",
   ozet:"Meran ve Görz-Tirol hanedanlarının birleştirdiği Tirol Kontluğu; 1363'te Margaret Maultasch'ın Habsburglara bırakmasıyla Habsburg'a geçti.",
   kaynak:"Enciclopedia Italiana (Treccani, 1929-37), «Tirolo», https://www.treccani.it/enciclopedia/tirolo_(Enciclopedia-Italiana)/ | Enciclopedia Italiana (Treccani, 1929-37), «Austria», https://www.treccani.it/enciclopedia/austria_(Enciclopedia-Italiana)/",
