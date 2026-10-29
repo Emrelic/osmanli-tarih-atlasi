@@ -1,0 +1,3282 @@
+[
+ {
+  "id": "misir-erken-hanedan",
+  "ad": "Misir Erken Hanedan Donemi (1.-2. Hanedan)",
+  "bolge": "misir-sudan",
+  "f": "-3125-01-01",
+  "t": "-2685-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "misir-eski-krallik",
+  "ad": "Misir Eski Krallik (3.-6. Hanedan)",
+  "bolge": "misir-sudan",
+  "f": "-2685-01-01",
+  "t": "-2180-01-01",
+  "nKron": 10,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "herakleopolis",
+  "ad": "Herakleopolis Krallığı (9.-10. Hanedan, 1. Ara Donem)",
+  "bolge": "misir-sudan",
+  "f": "-2159-01-01",
+  "t": "-2054-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "tebai-11-hanedan",
+  "ad": "Tebai 11. Hanedan (birlesme oncesi)",
+  "bolge": "misir-sudan",
+  "f": "-2124-01-01",
+  "t": "-2054-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "misir-orta-krallik",
+  "ad": "Misir Orta Krallik (11.-13. Hanedan)",
+  "bolge": "misir-sudan",
+  "f": "-2054-01-01",
+  "t": "-1649-01-01",
+  "nKron": 8,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "hiksos-15",
+  "ad": "Hiksos (15. Hanedan)",
+  "bolge": "misir-sudan",
+  "f": "-1649-01-01",
+  "t": "-1549-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "SON-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "tebai-17-hanedan",
+  "ad": "Tebai 17. Hanedan",
+  "bolge": "misir-sudan",
+  "f": "-1649-01-01",
+  "t": "-1549-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "misir-yeni-krallik",
+  "ad": "Misir Yeni Krallik (18.-20. Hanedan)",
+  "bolge": "misir-sudan",
+  "f": "-1549-01-01",
+  "t": "-1068-01-01",
+  "nKron": 10,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "misir-3-ara",
+  "ad": "Misir 3. Ara Donem (21.-25. Hanedan: Tanis, Libya, Kus)",
+  "bolge": "misir-sudan",
+  "f": "-1068-01-01",
+  "t": "-0663-01-01",
+  "nKron": 9,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kush-25-hanedan",
+  "ad": "Kusi 25. Hanedan (Misir)",
+  "bolge": "misir-sudan",
+  "f": "-0724-01-01",
+  "t": "-0652-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "sait-26-hanedan",
+  "ad": "Sait (26.) Hanedan",
+  "bolge": "misir-sudan",
+  "f": "-0663-01-01",
+  "t": "-0524-01-01",
+  "nKron": 12,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ahamenis-misir",
+  "ad": "Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)",
+  "bolge": "misir-sudan",
+  "f": "-0524-01-01",
+  "t": "-0403-01-01",
+  "nKron": 6,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "misir-28-30-hanedan",
+  "ad": "Misir 28.-30. Hanedan (son yerli firavunlar)",
+  "bolge": "misir-sudan",
+  "f": "-0403-01-01",
+  "t": "-0342-01-01",
+  "nKron": 8,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ahamenis-misir-2",
+  "ad": "Ahamenis Misir'i (31. Hanedan, 2. Pers egemenligi)",
+  "bolge": "misir-sudan",
+  "f": "-0342-01-01",
+  "t": "-0331-01-01",
+  "nKron": 6,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ptolemai",
+  "ad": "Ptolemai (Lagid) Krallığı",
+  "bolge": "misir-sudan",
+  "f": "-0322-06-10",
+  "t": "-0029-08-01",
+  "nKron": 17,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "kerma",
+  "ad": "Kerma Krallığı (Klasik Kerma)",
+  "bolge": "misir-sudan",
+  "f": "-1749-01-01",
+  "t": "-1499-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kush-krallik",
+  "ad": "Kus (Napata–Meroe) Krallığı",
+  "bolge": "misir-sudan",
+  "f": "-0749-01-01",
+  "t": "0349-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "garamant",
+  "ad": "Garamantes Krallığı",
+  "bolge": "kuzey-afrika",
+  "f": "-0499-01-01",
+  "t": "0666-03-13",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "numidia",
+  "ad": "Numidya Krallığı (Massyli-Masaesyli birlesik)",
+  "bolge": "kuzey-afrika",
+  "f": "-0201-01-01",
+  "t": "-0045-01-01",
+  "nKron": 10,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "mauretania-krallik",
+  "ad": "Mauretania Krallığı (Mauri)",
+  "bolge": "kuzey-afrika",
+  "f": "-0109-01-01",
+  "t": "0044-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kartaca",
+  "ad": "Kartaca (Pön) Devleti",
+  "bolge": "kuzey-afrika",
+  "f": "-0813-01-01",
+  "t": "-0145-01-01",
+  "nKron": 15,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "dilmun",
+  "ad": "Dilmun",
+  "bolge": "arabistan",
+  "f": "-1999-01-01",
+  "t": null,
+  "nKron": 1,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "YERLESIM-YOK",
+   "T-YOK"
+  ]
+ },
+ {
+  "id": "harappa",
+  "ad": "Harappa (Indus) Uygarlığı (Olgun evre)",
+  "bolge": "guney-asya",
+  "f": "-2599-01-01",
+  "t": "-1899-01-01",
+  "nKron": 3,
+  "nYer": 4,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "sumer-lagas-1",
+  "ad": "Lagas I. Hanedan (sehir devleti)",
+  "bolge": "mezopotamya",
+  "f": "-2499-01-01",
+  "t": "-2349-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "akad",
+  "ad": "Akad Imparatorlugu",
+  "bolge": "mezopotamya",
+  "f": "-2333-01-01",
+  "t": "-2153-01-01",
+  "nKron": 13,
+  "nYer": 4,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "gutium",
+  "ad": "Gutium (Gutiler) Hakimiyeti",
+  "bolge": "mezopotamya",
+  "f": "-2153-01-01",
+  "t": "-2111-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "ur-3",
+  "ad": "Ur III (Ucuncu Ur Hanedani)",
+  "bolge": "mezopotamya",
+  "f": "-2111-01-01",
+  "t": "-2003-01-01",
+  "nKron": 9,
+  "nYer": 6,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "isin",
+  "ad": "Isin Krallığı (I. Hanedan)",
+  "bolge": "mezopotamya",
+  "f": "-2016-01-01",
+  "t": "-1793-01-01",
+  "nKron": 11,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "larsa",
+  "ad": "Larsa Krallığı",
+  "bolge": "mezopotamya",
+  "f": "-2024-01-01",
+  "t": "-1762-01-01",
+  "nKron": 7,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "esnunna",
+  "ad": "Esnunna Krallığı",
+  "bolge": "mezopotamya",
+  "f": "-1999-01-01",
+  "t": "-1761-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "eski-asur",
+  "ad": "Eski Asur Devleti (Assur sehir devleti)",
+  "bolge": "mezopotamya",
+  "f": "-2024-01-01",
+  "t": "-1749-01-01",
+  "nKron": 6,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "samsi-adad",
+  "ad": "Ust Mezopotamya Krallığı (Samsi-Adad I)",
+  "bolge": "mezopotamya",
+  "f": "-1807-01-01",
+  "t": "-1775-01-01",
+  "nKron": 5,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "babil-eski",
+  "ad": "Eski Babil (Amorit) Krallığı",
+  "bolge": "mezopotamya",
+  "f": "-1893-01-01",
+  "t": "-1594-01-01",
+  "nKron": 7,
+  "nYer": 4,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "sealand-1",
+  "ad": "Birinci Deniz Ulkesi Hanedani",
+  "bolge": "mezopotamya",
+  "f": "-1731-01-01",
+  "t": "-1474-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kassit-babil",
+  "ad": "Kassit Babil Krallığı",
+  "bolge": "mezopotamya",
+  "f": "-1594-01-01",
+  "t": "-1154-01-01",
+  "nKron": 7,
+  "nYer": 3,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "isin-2",
+  "ad": "Isin II. Hanedan (Babil, Nabukudurusur I)",
+  "bolge": "mezopotamya",
+  "f": "-1154-01-01",
+  "t": "-1029-01-01",
+  "nKron": 8,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "orta-asur",
+  "ad": "Orta Asur Imparatorlugu",
+  "bolge": "mezopotamya",
+  "f": "-1362-01-01",
+  "t": "-0910-01-01",
+  "nKron": 10,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "yeni-babil",
+  "ad": "Yeni Babil (Keldani) Imparatorlugu",
+  "bolge": "mezopotamya",
+  "f": "-0625-01-01",
+  "t": "-0538-10-12",
+  "nKron": 12,
+  "nYer": 4,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "mari-lim",
+  "ad": "Mari Lim Hanedani (Yahdun-Lim–Zimri-Lim)",
+  "bolge": "suriye-filistin",
+  "f": "-1809-01-01",
+  "t": "-1760-01-01",
+  "nKron": 7,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ebla-1",
+  "ad": "Ebla Birinci Krallığı",
+  "bolge": "suriye-filistin",
+  "f": "-2399-01-01",
+  "t": "-2299-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "mitanni",
+  "ad": "Mitanni (Hanigalbat) Krallığı",
+  "bolge": "mezopotamya",
+  "f": "-1499-01-01",
+  "t": "-1259-01-01",
+  "nKron": 9,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "elam-simaski",
+  "ad": "Elam — Simaski Hanedani",
+  "bolge": "iran",
+  "f": "-2099-01-01",
+  "t": "-1899-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "elam-sukkalmah",
+  "ad": "Elam — Sukkalmah (Eparti) Hanedani",
+  "bolge": "iran",
+  "f": "-1899-01-01",
+  "t": "-1499-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "elam-orta",
+  "ad": "Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)",
+  "bolge": "iran",
+  "f": "-1499-01-01",
+  "t": "-1099-01-01",
+  "nKron": 8,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "elam-yeni",
+  "ad": "Yeni Elam Krallığı",
+  "bolge": "iran",
+  "f": "-1099-01-01",
+  "t": "-0538-01-01",
+  "nKron": 12,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "hitit-eski",
+  "ad": "Eski Hitit Krallığı (Hattusa)",
+  "bolge": "anadolu",
+  "f": "-1649-01-01",
+  "t": "-1499-01-01",
+  "nKron": 9,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "hitit-imp",
+  "ad": "Hitit Imparatorlugu (Yeni Krallik)",
+  "bolge": "anadolu",
+  "f": "-1399-01-01",
+  "t": "-1179-01-01",
+  "nKron": 10,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kizzuwatna",
+  "ad": "Kizzuwatna Krallığı",
+  "bolge": "anadolu",
+  "f": "-1499-01-01",
+  "t": "-1399-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "yeni-hitit",
+  "ad": "Yeni Hitit (Luvi-Arami) Sehir Devletleri (Karkamis, Melid, Hamat, Gurgum, Kummuh, Tabal vb.)",
+  "bolge": "anadolu",
+  "f": "-1179-01-01",
+  "t": "-0707-01-01",
+  "nKron": 9,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "aram-sam",
+  "ad": "Aram-Sam (Dimask) Krallığı",
+  "bolge": "suriye-filistin",
+  "f": "-0939-01-01",
+  "t": "-0731-01-01",
+  "nKron": 10,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "fenike-sehirleri",
+  "ad": "Fenike Sehir Devletleri (Sur, Sayda, Cubeyl, Arvad)",
+  "bolge": "suriye-filistin",
+  "f": "-1199-01-01",
+  "t": "-0331-01-01",
+  "nKron": 13,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "filistin-pentapolis",
+  "ad": "Filisti Sehir Devletleri",
+  "bolge": "suriye-filistin",
+  "f": "-1174-01-01",
+  "t": "-0603-01-01",
+  "nKron": 8,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "israil-krallik",
+  "ad": "Israil Krallığı (Samiriye)",
+  "bolge": "suriye-filistin",
+  "f": "-0929-01-01",
+  "t": "-0721-01-01",
+  "nKron": 8,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "yahuda",
+  "ad": "Yahuda Krallığı",
+  "bolge": "suriye-filistin",
+  "f": "-0929-01-01",
+  "t": "-0585-01-01",
+  "nKron": 9,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1"
+  ]
+ },
+ {
+  "id": "lidya",
+  "ad": "Lidya Krallığı",
+  "bolge": "anadolu",
+  "f": "-0679-01-01",
+  "t": "-0545-01-01",
+  "nKron": 10,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "urartu",
+  "ad": "Urartu Krallığı",
+  "bolge": "anadolu",
+  "f": "-0859-01-01",
+  "t": "-0589-01-01",
+  "nKron": 10,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "ahamenis",
+  "ad": "Ahamenis (Pers) Imparatorlugu",
+  "bolge": "iran",
+  "f": "-0549-01-01",
+  "t": "-0329-01-01",
+  "nKron": 34,
+  "nYer": 8,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "iskender-imparatorlugu",
+  "ad": "Buyuk Iskender Imparatorlugu",
+  "bolge": "iran",
+  "f": "-0335-01-01",
+  "t": "-0322-06-10",
+  "nKron": 12,
+  "nYer": 4,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "selevkos",
+  "ad": "Selevkos Imparatorlugu",
+  "bolge": "suriye-filistin",
+  "f": "-0311-01-01",
+  "t": "-0062-01-01",
+  "nKron": 24,
+  "nYer": 5,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "part",
+  "ad": "Part (Arsakid) Imparatorlugu",
+  "bolge": "iran",
+  "f": "-0246-01-01",
+  "t": "0224-04-28",
+  "nKron": 11,
+  "nYer": 6,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "elymais",
+  "ad": "Elymais Krallığı",
+  "bolge": "iran",
+  "f": "-0146-01-01",
+  "t": "0224-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "karakene",
+  "ad": "Karakene (Mesene) Krallığı",
+  "bolge": "mezopotamya",
+  "f": "-0140-01-01",
+  "t": "0222-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "atropatene",
+  "ad": "Atropatene (Med Atropatene) Krallığı",
+  "bolge": "kafkasya",
+  "f": "-0320-01-01",
+  "t": "0226-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "nabatiye",
+  "ad": "Nabatiye Krallığı",
+  "bolge": "suriye-filistin",
+  "f": "-0167-01-01",
+  "t": "0106-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "hasmoni",
+  "ad": "Hasmoni Devleti (Yahudiye)",
+  "bolge": "suriye-filistin",
+  "f": "-0140-01-01",
+  "t": "-0036-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "herodes-krallik",
+  "ad": "Herodes Hanedani Krallığı (Roma vasali)",
+  "bolge": "suriye-filistin",
+  "f": "-0036-01-01",
+  "t": "0093-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "himyar",
+  "ad": "Himyar Krallığı",
+  "bolge": "arabistan",
+  "f": "-0109-01-01",
+  "t": "0525-01-01",
+  "nKron": 0,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KRONOLOJI-YOK"
+  ]
+ },
+ {
+  "id": "saba",
+  "ad": "Saba Krallığı",
+  "bolge": "arabistan",
+  "f": "-0799-01-01",
+  "t": "0275-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "hadramavt",
+  "ad": "Hadramavt Krallığı",
+  "bolge": "arabistan",
+  "f": "-0449-01-01",
+  "t": "0300-01-01",
+  "nKron": 0,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KRONOLOJI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ma-in",
+  "ad": "Ma'in Krallığı (Minai)",
+  "bolge": "arabistan",
+  "f": "-0399-01-01",
+  "t": "-0099-01-01",
+  "nKron": 0,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KRONOLOJI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kataban",
+  "ad": "Kataban Krallığı",
+  "bolge": "arabistan",
+  "f": "-0399-01-01",
+  "t": "0199-01-01",
+  "nKron": 0,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KRONOLOJI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "minos",
+  "ad": "Minos (Minos Saray) Uygarlığı",
+  "bolge": "balkanlar",
+  "f": "-1899-01-01",
+  "t": "-1449-01-01",
+  "nKron": 6,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "miken",
+  "ad": "Miken (Mykene) Saray Devletleri",
+  "bolge": "balkanlar",
+  "f": "-1399-01-01",
+  "t": "-1099-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "sparta",
+  "ad": "Sparta (Lakedaimon)",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0191-01-01",
+  "nKron": 12,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "korint",
+  "ad": "Korint",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "nKron": 8,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1"
+  ]
+ },
+ {
+  "id": "sirakuza",
+  "ad": "Sirakuza (Syrakousai)",
+  "bolge": "italya",
+  "f": "-0733-01-01",
+  "t": "-0210-01-01",
+  "nKron": 14,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "massalia",
+  "ad": "Massalia (Marsilya)",
+  "bolge": "bati-avrupa",
+  "f": "-0599-01-01",
+  "t": "-0048-01-01",
+  "nKron": 8,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "kyrene",
+  "ad": "Kyrene (Kirene) Devleti",
+  "bolge": "kuzey-afrika",
+  "f": "-0630-01-01",
+  "t": "-0095-01-01",
+  "nKron": 18,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "delos-birligi",
+  "ad": "Delos (Atina Deniz) Birliği",
+  "bolge": "balkanlar",
+  "f": "-0477-01-01",
+  "t": "-0403-01-01",
+  "nKron": 10,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "peloponnes-birligi",
+  "ad": "Peloponnes Birliği",
+  "bolge": "balkanlar",
+  "f": "-0549-01-01",
+  "t": "-0365-01-01",
+  "nKron": 16,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ikinci-atina-birligi",
+  "ad": "İkinci Atina Birliği",
+  "bolge": "balkanlar",
+  "f": "-0377-01-01",
+  "t": "-0354-01-01",
+  "nKron": 10,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "korint-birligi",
+  "ad": "Korint (Hellen) Birliği",
+  "bolge": "balkanlar",
+  "f": "-0336-01-01",
+  "t": "-0321-01-01",
+  "nKron": 6,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "akhaia-birligi",
+  "ad": "Akhaia Birliği",
+  "bolge": "balkanlar",
+  "f": "-0279-01-01",
+  "t": "-0145-01-01",
+  "nKron": 11,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "aitolia-birligi",
+  "ad": "Aitolia Birliği",
+  "bolge": "balkanlar",
+  "f": "-0366-01-01",
+  "t": "-0188-01-01",
+  "nKron": 6,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "epir",
+  "ad": "Epir (Molossia) Krallığı",
+  "bolge": "balkanlar",
+  "f": "-0369-01-01",
+  "t": "-0231-01-01",
+  "nKron": 10,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "lizimakhos",
+  "ad": "Lizimakhos (Trakya) Krallığı",
+  "bolge": "balkanlar",
+  "f": "-0305-01-01",
+  "t": "-0280-01-01",
+  "nKron": 7,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "antigonos",
+  "ad": "Antigonos Monophthalmos Krallığı (Asya)",
+  "bolge": "anadolu",
+  "f": "-0305-01-01",
+  "t": "-0300-01-01",
+  "nKron": 11,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:4",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "bergama",
+  "ad": "Bergama (Attalos) Krallığı",
+  "bolge": "anadolu",
+  "f": "-0281-01-01",
+  "t": "-0132-01-01",
+  "nKron": 9,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:2"
+  ]
+ },
+ {
+  "id": "bitinya",
+  "ad": "Bitinya Krallığı",
+  "bolge": "anadolu",
+  "f": "-0296-01-01",
+  "t": "-0073-01-01",
+  "nKron": 19,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1"
+  ]
+ },
+ {
+  "id": "pontus",
+  "ad": "Pontus (Mithridates) Krallığı",
+  "bolge": "anadolu",
+  "f": "-0280-01-01",
+  "t": "-0062-01-01",
+  "nKron": 13,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:2"
+  ]
+ },
+ {
+  "id": "kapadokya-krallik",
+  "ad": "Kapadokya Krallığı",
+  "bolge": "anadolu",
+  "f": "-0254-01-01",
+  "t": "0017-01-01",
+  "nKron": 14,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kommagene",
+  "ad": "Kommagene Krallığı",
+  "bolge": "anadolu",
+  "f": "-0162-01-01",
+  "t": "0072-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "galatya-keltleri",
+  "ad": "Galatia (Kelt) Tetrarşileri",
+  "bolge": "anadolu",
+  "f": "-0277-01-01",
+  "t": "-0024-01-01",
+  "nKron": 9,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "bosporos-krallik",
+  "ad": "Bosporos (Kırım) Krallığı",
+  "bolge": "dogu-avrupa",
+  "f": "-0437-01-01",
+  "t": "0370-01-01",
+  "nKron": 6,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "skit-krallik",
+  "ad": "İskit (Pontus Bozkırı) Devletleri",
+  "bolge": "dogu-avrupa",
+  "f": "-0699-01-01",
+  "t": "-0199-01-01",
+  "nKron": 7,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "SON-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "odris",
+  "ad": "Odris (Trakya) Krallığı",
+  "bolge": "balkanlar",
+  "f": "-0479-01-01",
+  "t": "0046-01-01",
+  "nKron": 13,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "dakya",
+  "ad": "Dakya (Burebista-Decebalus) Krallığı",
+  "bolge": "balkanlar",
+  "f": "-0081-01-01",
+  "t": "0106-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "roma-kralligi",
+  "ad": "Roma Krallığı",
+  "bolge": "italya",
+  "f": "-0752-01-01",
+  "t": "-0508-01-01",
+  "nKron": 9,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "roma-cumhuriyeti",
+  "ad": "Roma Cumhuriyeti",
+  "bolge": "italya",
+  "f": "-0508-01-01",
+  "t": "-0026-01-16",
+  "nKron": 38,
+  "nYer": 6,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "roma-imp",
+  "ad": "Roma İmparatorluğu (Prinkipat-Dominat, birleşik)",
+  "bolge": "italya",
+  "f": "-0026-01-16",
+  "t": "0395-01-17",
+  "nKron": 3,
+  "nYer": 4,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "ermenistan-yervantuni",
+  "ad": "Yervandit (Orontid) Ermenistan",
+  "bolge": "kafkasya",
+  "f": "-0599-01-01",
+  "t": "-0199-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "artaksiad",
+  "ad": "Artaksiad Ermenistan",
+  "bolge": "kafkasya",
+  "f": "-0188-01-01",
+  "t": "0012-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "tigran-imp",
+  "ad": "Büyük Tigran'ın İmparatorluğu",
+  "bolge": "anadolu",
+  "f": "-0094-01-01",
+  "t": "-0065-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "greko-baktria",
+  "ad": "Greko-Baktriya Krallığı",
+  "bolge": "orta-asya",
+  "f": "-0249-01-01",
+  "t": "-0124-01-01",
+  "nKron": 9,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "hunnu-xiongnu",
+  "ad": "Xiongnu (Hunnu) Konfederasyonu",
+  "bolge": "orta-asya",
+  "f": "-0208-01-01",
+  "t": "0155-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "shang",
+  "ad": "Shang Hanedanı",
+  "bolge": "dogu-asya",
+  "f": "-1599-01-01",
+  "t": "-1045-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "bati-zhou",
+  "ad": "Batı Zhou",
+  "bolge": "dogu-asya",
+  "f": "-1045-01-01",
+  "t": "-0770-01-01",
+  "nKron": 7,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "dogu-zhou",
+  "ad": "Doğu Zhou (Bahar-Güz ve Savaşan Devletler dönemi hanedanı)",
+  "bolge": "dogu-asya",
+  "f": "-0769-01-01",
+  "t": "-0248-01-01",
+  "nKron": 8,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "qin-devleti",
+  "ad": "Qin Devleti",
+  "bolge": "dogu-asya",
+  "f": "-0769-01-01",
+  "t": "-0220-01-01",
+  "nKron": 23,
+  "nYer": 3,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "qin-hanedani",
+  "ad": "Qin Hanedanı (birleşik İmparatorluk)",
+  "bolge": "dogu-asya",
+  "f": "-0220-01-01",
+  "t": "-0206-01-01",
+  "nKron": 8,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "han-devleti-zhou",
+  "ad": "Han Devleti (Savasan Devletler; Han hanedanindan ayri)",
+  "bolge": "dogu-asya",
+  "f": "-0402-01-01",
+  "t": "-0229-01-01",
+  "nKron": 7,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "zhao-devleti",
+  "ad": "Zhao Devleti (Savasan Devletler)",
+  "bolge": "dogu-asya",
+  "f": "-0402-01-01",
+  "t": "-0221-01-01",
+  "nKron": 10,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "wei-devleti-zhou",
+  "ad": "Wei Devleti (Savasan Devletler; Cao Wei'den ayri)",
+  "bolge": "dogu-asya",
+  "f": "-0402-01-01",
+  "t": "-0224-01-01",
+  "nKron": 7,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "bati-han",
+  "ad": "Bati Han Hanedani",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "0008-01-01",
+  "nKron": 16,
+  "nYer": 3,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "gojoseon",
+  "ad": "Gojoseon (Eski Joseon)",
+  "bolge": "dogu-asya",
+  "f": "-2332-01-01",
+  "t": "-0193-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "BOYA-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "wiman-joseon",
+  "ad": "Wiman Joseon",
+  "bolge": "dogu-asya",
+  "f": "-0193-01-01",
+  "t": "-0107-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "goguryeo",
+  "ad": "Goguryeo Krallığı",
+  "bolge": "dogu-asya",
+  "f": "-0036-01-01",
+  "t": "0668-10-22",
+  "nKron": 1,
+  "nYer": 6,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "baekje",
+  "ad": "Baekje Krallığı",
+  "bolge": "dogu-asya",
+  "f": "-0017-01-01",
+  "t": "0660-08-01",
+  "nKron": 1,
+  "nYer": 6,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "silla",
+  "ad": "Silla Krallığı (Birlesik Silla dahil)",
+  "bolge": "dogu-asya",
+  "f": "-0056-01-01",
+  "t": "0936-01-08",
+  "nKron": 1,
+  "nYer": 13,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "magadha",
+  "ad": "Magadha (Haryanka-Sisunaga-Nanda)",
+  "bolge": "guney-asya",
+  "f": "-0543-01-01",
+  "t": "-0323-01-01",
+  "nKron": 7,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1"
+  ]
+ },
+ {
+  "id": "maurya",
+  "ad": "Maurya Imparatorlugu",
+  "bolge": "guney-asya",
+  "f": "-0323-01-01",
+  "t": "-0186-01-01",
+  "nKron": 10,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1"
+  ]
+ },
+ {
+  "id": "sunga",
+  "ad": "Sunga Hanedani",
+  "bolge": "guney-asya",
+  "f": "-0186-01-01",
+  "t": "-0074-01-01",
+  "nKron": 5,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1"
+  ]
+ },
+ {
+  "id": "kanva",
+  "ad": "Kanva Hanedani",
+  "bolge": "guney-asya",
+  "f": "-0074-01-01",
+  "t": "-0029-01-01",
+  "nKron": 6,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1"
+  ]
+ },
+ {
+  "id": "caral-norte-chico",
+  "ad": "Norte Chico (Caral-Supe) Uygarligi",
+  "bolge": "guney-amerika",
+  "f": "-2999-01-01",
+  "t": "-1999-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "KUNYE-DISI-MADDE:1"
+  ]
+ },
+ {
+  "id": "olmek",
+  "ad": "Olmek Kulturu (San Lorenzo-La Venta)",
+  "bolge": "orta-amerika",
+  "f": "-1199-01-01",
+  "t": "-0399-01-01",
+  "nKron": 4,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "chavin",
+  "ad": "Chavin Kulturu",
+  "bolge": "guney-amerika",
+  "f": "-0899-01-01",
+  "t": "-0199-01-01",
+  "nKron": 5,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "nazca",
+  "ad": "Nazca Kulturu",
+  "bolge": "guney-amerika",
+  "f": "-0199-01-01",
+  "t": "0599-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kis-egemenlik",
+  "ad": "Kiş Şehir Devleti ve Egemenliği (Erken Hanedan III)",
+  "bolge": "mezopotamya",
+  "f": "-2599-01-01",
+  "t": "-2333-01-01",
+  "nKron": 5,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "uruk-erken-hanedan",
+  "ad": "Uruk Şehir Devleti (Erken Hanedan; Gılgameş'ten Lugalzagesi'ye)",
+  "bolge": "mezopotamya",
+  "f": "-2599-01-01",
+  "t": "-2333-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ur-1-hanedan",
+  "ad": "Ur I. Hanedanı (Kraliyet Mezarlığı dönemi)",
+  "bolge": "mezopotamya",
+  "f": "-2599-01-01",
+  "t": "-2333-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "umma-erken-hanedan",
+  "ad": "Umma Şehir Devleti (Erken Hanedan; Lugalzagesi)",
+  "bolge": "mezopotamya",
+  "f": "-2549-01-01",
+  "t": "-2333-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "lagas-2",
+  "ad": "Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)",
+  "bolge": "mezopotamya",
+  "f": "-2143-01-01",
+  "t": "-2111-01-01",
+  "nKron": 6,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "awan",
+  "ad": "Awan Krallığı (Elam, Erken Elam)",
+  "bolge": "iran",
+  "f": "-2499-01-01",
+  "t": "-2099-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "mari-erken",
+  "ad": "Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)",
+  "bolge": "suriye-filistin",
+  "f": "-2549-01-01",
+  "t": "-2219-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "mari-sakkanakku",
+  "ad": "Mari Şakkanakku Hanedanı",
+  "bolge": "suriye-filistin",
+  "f": "-2219-01-01",
+  "t": "-1809-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ebla-orta-tunc",
+  "ad": "Ebla (II.-III. Krallık, Orta Tunç)",
+  "bolge": "suriye-filistin",
+  "f": "-2299-01-01",
+  "t": "-1599-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "yamhad",
+  "ad": "Yamhad (Halep) Krallığı",
+  "bolge": "suriye-filistin",
+  "f": "-1799-01-01",
+  "t": "-1599-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ugarit",
+  "ad": "Ugarit Krallığı",
+  "bolge": "suriye-filistin",
+  "f": "-1349-01-01",
+  "t": "-1189-01-01",
+  "nKron": 6,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "hayasa-azzi",
+  "ad": "Hayaşa-Azzi Konfederasyonu",
+  "bolge": "anadolu",
+  "f": "-1499-01-01",
+  "t": "-1199-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "hitit",
+  "ad": "Hitit Krallığı ve İmparatorluğu (Hatti)",
+  "bolge": "anadolu",
+  "f": "-1649-01-01",
+  "t": "-1179-01-01",
+  "nKron": 9,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "chu-devleti",
+  "ad": "Chu Devleti (Zhou donemi; wang unvanli krallik)",
+  "bolge": "dogu-asya",
+  "f": "-0703-01-01",
+  "t": "-0222-01-01",
+  "nKron": 7,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "qi-devleti",
+  "ad": "Qi Devleti (Jiang Qi ve Tian Qi)",
+  "bolge": "dogu-asya",
+  "f": "-1045-01-01",
+  "t": "-0220-01-01",
+  "nKron": 7,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "nanyue",
+  "ad": "Nanyue (Nam Viet) Krallığı (Zhao hanedani)",
+  "bolge": "dogu-asya",
+  "f": "-0203-01-01",
+  "t": "-0110-01-01",
+  "nKron": 6,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "dian",
+  "ad": "Dian Krallığı (Yunnan)",
+  "bolge": "dogu-asya",
+  "f": "-0278-01-01",
+  "t": "-0108-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "indo-grek",
+  "ad": "Hint-Grek (Indo-Greek) Krallıkları",
+  "bolge": "guney-asya",
+  "f": "-0179-01-01",
+  "t": "0010-01-01",
+  "nKron": 8,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "satavahana",
+  "ad": "Satavahana Hanedanı (Andhra)",
+  "bolge": "guney-asya",
+  "f": "-0029-01-01",
+  "t": "0225-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "medya",
+  "ad": "Medya (Med) Krallığı",
+  "bolge": "iran",
+  "f": "-0677-01-01",
+  "t": "-0549-01-01",
+  "nKron": 9,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "manna",
+  "ad": "Manna (Mannea) Krallığı",
+  "bolge": "iran",
+  "f": "-0828-01-01",
+  "t": "-0599-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "sofene",
+  "ad": "Sofene (Tsopk) Krallığı",
+  "bolge": "anadolu",
+  "f": "-0188-01-01",
+  "t": "-0092-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "yeni-asur",
+  "ad": "Yeni Asur Imparatorlugu",
+  "bolge": "mezopotamya",
+  "f": "-0910-01-01",
+  "t": "-0608-01-01",
+  "nKron": 24,
+  "nYer": 7,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "antigonid-makedonya",
+  "ad": "Antigonid Makedonya Krallığı",
+  "bolge": "balkanlar",
+  "f": "-0275-01-01",
+  "t": "-0167-01-01",
+  "nKron": 16,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:2"
+  ]
+ },
+ {
+  "id": "likya-birligi",
+  "ad": "Likya Birligi (Roma himayesinde)",
+  "bolge": "anadolu",
+  "f": "-0166-01-01",
+  "t": "0043-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "karya-hekatomnid",
+  "ad": "Karya Hekatomnid Satrap-Hanedanlığı",
+  "bolge": "anadolu",
+  "f": "-0390-01-01",
+  "t": "-0333-01-01",
+  "nKron": 7,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "boiotia-birligi",
+  "ad": "Boiotia (Teb) Birliği",
+  "bolge": "balkanlar",
+  "f": "-0378-01-01",
+  "t": "-0337-01-01",
+  "nKron": 7,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "atina-demokrasisi",
+  "ad": "Atina (bagimsiz demokratik polis)",
+  "bolge": "balkanlar",
+  "f": "-0507-01-01",
+  "t": "-0337-01-01",
+  "nKron": 13,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "teotihuacan",
+  "ad": "Teotihuacan Şehir Devleti",
+  "bolge": "orta-amerika",
+  "f": "-0099-01-01",
+  "t": "0550-01-01",
+  "nKron": 1,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "etrusk-sehir-devletleri",
+  "ad": "Etrüsk Şehir Devletleri (Oniki Şehir Birliği)",
+  "bolge": "italya",
+  "f": "-0574-01-01",
+  "t": "-0088-01-01",
+  "nKron": 14,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "KURULUS-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "makedonya-krallik",
+  "ad": "Makedonya Krallığı (Argead-Antigonid)",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0167-01-01",
+  "nKron": 19,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "zapotek-monte-alban",
+  "ad": "Monte Albán Zapotek Devleti",
+  "bolge": "orta-amerika",
+  "f": "-0499-01-01",
+  "t": "0700-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "sakiz-polis",
+  "ad": "Sakız (Khios) Şehir Devleti",
+  "bolge": "anadolu",
+  "f": "-0599-01-01",
+  "t": "0079-06-23",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "midilli-polis",
+  "ad": "Midilli (Mytilene) Şehir Devleti",
+  "bolge": "anadolu",
+  "f": "-0584-01-01",
+  "t": "-0079-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "byzantion-polis",
+  "ad": "Byzantion Şehir Devleti",
+  "bolge": "balkanlar",
+  "f": "-0658-01-01",
+  "t": "0073-01-01",
+  "nKron": 5,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "rodos-polis",
+  "ad": "Rodos Şehir Devleti",
+  "bolge": "balkanlar",
+  "f": "-0406-01-01",
+  "t": "0079-06-23",
+  "nKron": 7,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "odessos-polis",
+  "ad": "Odessos (Varna) Şehir Devleti",
+  "bolge": "balkanlar",
+  "f": "-0549-01-01",
+  "t": "-0070-01-01",
+  "nKron": 4,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "makedon-merisleri",
+  "ad": "Makedon Merisleri (Dört Makedon Cumhuriyeti)",
+  "bolge": "balkanlar",
+  "f": "-0166-01-01",
+  "t": "-0147-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "antigonos-krallik",
+  "ad": "Antigonos ve Demetrios Krallığı (Antigonos Monophthalmos – Demetrios Poliorketes)",
+  "bolge": "anadolu",
+  "f": "-0305-01-01",
+  "t": "-0282-01-01",
+  "nKron": 8,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "ppna-guney-levant",
+  "ad": "PPNA — Çanak Öncesi Neolitik A (Güney Levant)",
+  "bolge": "suriye-filistin",
+  "f": "-9699-01-01",
+  "t": "-8649-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "ppnb-guney-levant",
+  "ad": "PPNB — Çanak Öncesi Neolitik B (Güney Levant)",
+  "bolge": "suriye-filistin",
+  "f": "-8649-01-01",
+  "t": "-6749-01-01",
+  "nKron": 2,
+  "nYer": 4,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "ppnc-guney-levant",
+  "ad": "PPNC — Çanak Öncesi Neolitik C (Güney Levant)",
+  "bolge": "suriye-filistin",
+  "f": "-6749-01-01",
+  "t": "-6399-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "ubaid-kultur",
+  "ad": "Ubaid Kültürü (Güney Mezopotamya)",
+  "bolge": "mezopotamya",
+  "f": "-6499-01-01",
+  "t": "-3799-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "halaf-kultur",
+  "ad": "Halaf Kültürü",
+  "bolge": "mezopotamya",
+  "f": "-5899-01-01",
+  "t": "-5399-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "uruk-gec-kultur",
+  "ad": "Geç Uruk Kültürü (Uruk IV–III, yazının ortaya çıkışı)",
+  "bolge": "mezopotamya",
+  "f": "-3349-01-01",
+  "t": "-3199-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "erken-harappa",
+  "ad": "Erken Harappa Dönemi",
+  "bolge": "guney-asya",
+  "f": "-3199-01-01",
+  "t": "-2599-01-01",
+  "nKron": 2,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "gec-harappa",
+  "ad": "Geç Harappa Dönemi",
+  "bolge": "guney-asya",
+  "f": "-1899-01-01",
+  "t": "-1599-01-01",
+  "nKron": 2,
+  "nYer": 3,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "naqada-kultur",
+  "ad": "Naqada Kültürü (Yukarı Mısır)",
+  "bolge": "misir-sudan",
+  "f": "-3755-01-01",
+  "t": "-3125-01-01",
+  "nKron": 2,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "pre-kerma",
+  "ad": "Pre-Kerma Kültürü (Nubya)",
+  "bolge": "misir-sudan",
+  "f": "-3499-01-01",
+  "t": "-2499-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "erken-hartum",
+  "ad": "Erken Hartum Mezolitiği (Orta Sudan)",
+  "bolge": "misir-sudan",
+  "f": "-8799-01-01",
+  "t": "-8499-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "fayum-neolitik",
+  "ad": "Fayum Neolitiği ve Erken Holosen İskânı",
+  "bolge": "misir-sudan",
+  "f": "-7349-01-01",
+  "t": "-4849-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "peiligang",
+  "ad": "Peiligang Kültürü",
+  "bolge": "dogu-asya",
+  "f": "-7049-01-01",
+  "t": "-5049-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "yangshao",
+  "ad": "Yangshao Kültürü",
+  "bolge": "dogu-asya",
+  "f": "-4999-01-01",
+  "t": "-2899-01-01",
+  "nKron": 2,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "shangshan",
+  "ad": "Shangshan Kültürü",
+  "bolge": "dogu-asya",
+  "f": "-8849-01-01",
+  "t": "-6649-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kuahuqiao",
+  "ad": "Kuahuqiao Kültürü",
+  "bolge": "dogu-asya",
+  "f": "-5949-01-01",
+  "t": "-5249-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "hemudu",
+  "ad": "Hemudu Kültürü",
+  "bolge": "dogu-asya",
+  "f": "-5149-01-01",
+  "t": "-3249-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "liangzhu",
+  "ad": "Liangzhu Kültürü",
+  "bolge": "dogu-asya",
+  "f": "-3549-01-01",
+  "t": "-2049-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "lepenski-vir-trapez",
+  "ad": "Lepenski Vir — trapez yapılı Mezolitik-Neolitik geçiş evresi",
+  "bolge": "balkanlar",
+  "f": "-6119-01-01",
+  "t": "-5974-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "orta-anadolu-neolitik",
+  "ad": "Orta Anadolu Aseramik–Seramik Neolitik toplulukları (Konya Ovası, Kapadokya)",
+  "bolge": "anadolu",
+  "f": "-8399-01-01",
+  "t": "-5999-01-01",
+  "nKron": 2,
+  "nYer": 3,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "jeitun-kultur",
+  "ad": "Jeitun Kültürü (Kopet Dağ, Türkmenistan)",
+  "bolge": "orta-asya",
+  "f": "-6098-01-01",
+  "t": "-5926-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "hissar-kultur",
+  "ad": "Hissar I–III (Damghan, İran platosu)",
+  "bolge": "iran",
+  "f": "-3921-01-01",
+  "t": "-2169-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "yahya-donemleri",
+  "ad": "Tepe Yahya Dönemleri VII–I (Kirman)",
+  "bolge": "iran",
+  "f": "-5499-01-01",
+  "t": "-0199-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "mehrgarh-neolitik",
+  "ad": "Mehrgarh Neolitiği (Kaççi Ovası, Belucistan)",
+  "bolge": "guney-asya",
+  "f": "-5049-01-01",
+  "t": "-4723-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "jiahu-kultur",
+  "ad": "Jiahu Kültürü (Henan)",
+  "bolge": "dogu-asya",
+  "f": "-6999-01-01",
+  "t": "-5699-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "dadiwan-laoguantai",
+  "ad": "Dadiwan I / Laoguantai (Gansu, Yangshao öncesi)",
+  "bolge": "dogu-asya",
+  "f": "-5849-01-01",
+  "t": "-2949-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "taosi-kultur",
+  "ad": "Taosi Kültürü (Longshan sonu, Shanxi)",
+  "bolge": "dogu-asya",
+  "f": "-2299-01-01",
+  "t": "-1899-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "shimao-kultur",
+  "ad": "Shimao Kültürü (Shaanxi)",
+  "bolge": "dogu-asya",
+  "f": "-2299-01-01",
+  "t": "-1799-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "erlitou-kultur",
+  "ad": "Erlitou Kültürü (Henan)",
+  "bolge": "dogu-asya",
+  "f": "-1749-01-01",
+  "t": "-1519-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "sanxingdui-kultur",
+  "ad": "Sanxingdui Kültürü (Sichuan)",
+  "bolge": "dogu-asya",
+  "f": "-1599-01-01",
+  "t": "-1049-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "lepenski-vir-kultur",
+  "ad": "Lepenski Vir (Proto-LV → Mezolitik-Neolitik geçiş → Erken Neolitik, Demir Kapılar)",
+  "bolge": "balkanlar",
+  "f": "-9589-01-01",
+  "t": "-5779-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "vinca-kultur",
+  "ad": "Vinča Kültürü (Belo Brdo dizisi)",
+  "bolge": "balkanlar",
+  "f": "-4586-01-01",
+  "t": "-4514-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "orkney-gec-neolitik",
+  "ad": "Orkney Geç Neolitik / Grooved Ware (Skara Brae)",
+  "bolge": "bati-avrupa",
+  "f": "-2901-01-01",
+  "t": "-2491-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "malta-gantija-tarxien",
+  "ad": "Malta Neolitiği: Ġgantija ve Tarxien evreleri",
+  "bolge": "italya",
+  "f": "-3511-01-01",
+  "t": "-2419-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "los-millares-kultur",
+  "ad": "Los Millares Bakır Çağı topluluğu (Almería)",
+  "bolge": "iberya",
+  "f": "-3139-01-01",
+  "t": "-2166-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "el-argar-kultur",
+  "ad": "El Argar Kültürü (Güneydoğu İberya)",
+  "bolge": "iberya",
+  "f": "-2199-01-01",
+  "t": "-1549-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "lbk-szederkeny",
+  "ad": "Formatif/Erken LBK ve Vinča-Ražište karışık Neolitik (Transdanubia)",
+  "bolge": "orta-avrupa",
+  "f": "-5331-01-01",
+  "t": "-5186-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "poverty-point-kultur",
+  "ad": "Poverty Point Kültürü (Geç Arkaik, Louisiana)",
+  "bolge": "kuzey-amerika",
+  "f": "-1649-01-01",
+  "t": "-1149-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "maya-orta-preklasik",
+  "ad": "Orta Preklasik Maya (Mirador Havzası ve Petén)",
+  "bolge": "orta-amerika",
+  "f": "-0999-01-01",
+  "t": "-0399-01-01",
+  "nKron": 2,
+  "nYer": 4,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "shaheinab-neolitik",
+  "ad": "Shaheinab Neolitiği (Orta Sudan)",
+  "bolge": "misir-sudan",
+  "f": "-4699-01-01",
+  "t": "-4199-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "guney-hint-neolitik-megalitik",
+  "ad": "Güney Hint Neolitiği → Megalitik geçiş (Sanganakallu-Kupgal)",
+  "bolge": "guney-asya",
+  "f": "-1399-01-01",
+  "t": "-1199-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "casma-sechin",
+  "ad": "Casma Vadisi Geç Arkaik–Formatif toplulukları (Sechín Bajo, Cerro Sechín, Sechín Alto)",
+  "bolge": "guney-amerika",
+  "f": "-3399-01-01",
+  "t": "-1009-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "paracas-kultur",
+  "ad": "Paracas Kültürü (Ica, Güney Peru kıyısı)",
+  "bolge": "guney-amerika",
+  "f": "-0789-01-01",
+  "t": "-0039-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "oaxaca-formatif",
+  "ad": "Oaxaca Vadisi Formatif köyleri (San José Mogote, Rosario evresine dek)",
+  "bolge": "orta-amerika",
+  "f": "-1624-01-01",
+  "t": "-0499-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "la-blanca-formatif",
+  "ad": "La Blanca (Pasifik kıyısı Guatemala) Orta Formatif anıtsal merkez",
+  "bolge": "orta-amerika",
+  "f": "-0999-01-01",
+  "t": "-0599-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kaminaljuyu-providencia",
+  "ad": "Kaminaljuyú Providencia evresi",
+  "bolge": "orta-amerika",
+  "f": "-0349-01-01",
+  "t": "-0099-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "tonga-lapita",
+  "ad": "Tonga Lapita iskânı (Nukuleka)",
+  "bolge": "okyanusya",
+  "f": "-0887-01-01",
+  "t": "-0742-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "khok-phanom-di-neolitik",
+  "ad": "Khok Phanom Di Neolitiği (Orta Tayland kıyısı)",
+  "bolge": "guneydogu-asya",
+  "f": "-1999-01-01",
+  "t": "-1499-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "gobero-kultur",
+  "ad": "Gobero Holosen yerleşimi (Kiffian–Tenerian, Ténéré)",
+  "bolge": "sahra",
+  "f": "-7699-01-01",
+  "t": "-2834-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "kotosh-dini-gelenek",
+  "ad": "Kotosh Dini Geleneği (Orta And)",
+  "bolge": "guney-amerika",
+  "f": "-2799-01-01",
+  "t": "-0549-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "turkana-pastoral-neolitik",
+  "ad": "Turkana Pastoral Neolitiği ('pillar sites' geleneği)",
+  "bolge": "dogu-afrika",
+  "f": "-3001-01-01",
+  "t": "-2203-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "anau-ia-kultur",
+  "ad": "Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ)",
+  "bolge": "orta-asya",
+  "f": "-4299-01-01",
+  "t": "-3819-01-01",
+  "nKron": 2,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "ban-chiang-kultur",
+  "ad": "Ban Chiang Kültürü (Kuzeydoğu Tayland)",
+  "bolge": "guneydogu-asya",
+  "f": "-1509-01-01",
+  "t": "0001-01-01",
+  "nKron": 1,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "iberya-kartli",
+  "ad": "İberya (Kartli) Krallığı",
+  "bolge": "kafkasya",
+  "f": "-0301-01-01",
+  "t": "0580-01-01",
+  "nKron": 1,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "hamat",
+  "ad": "Hamat Krallığı",
+  "bolge": "suriye-filistin",
+  "f": "-0999-01-01",
+  "t": "-0719-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "moab",
+  "ad": "Moab Krallığı",
+  "bolge": "suriye-filistin",
+  "f": "-1299-01-01",
+  "t": "-0581-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "parsua",
+  "ad": "Parsua (Parsumaş) Krallığı",
+  "bolge": "iran",
+  "f": "-0833-01-01",
+  "t": "-0743-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "teispid-pers",
+  "ad": "Teispid Pers Krallığı",
+  "bolge": "iran",
+  "f": "-0674-01-01",
+  "t": "-0549-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "osrhoene",
+  "ad": "Osrhoene (Edessa) Krallığı",
+  "bolge": "mezopotamya",
+  "f": "-0131-01-01",
+  "t": "0242-01-01",
+  "nKron": 1,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "kerma-erken",
+  "ad": "Erken ve Orta Kerma Krallığı",
+  "bolge": "misir-sudan",
+  "f": "-2449-01-01",
+  "t": "-1749-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "misir-21-hanedan",
+  "ad": "21. Hanedan (Tanis)",
+  "bolge": "misir-sudan",
+  "f": "-1068-01-01",
+  "t": "-0944-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "KUNYE-DISI-MADDE:1",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "meroe-krallik",
+  "ad": "Meroe Krallığı (Meroitik evre)",
+  "bolge": "misir-sudan",
+  "f": "-0590-01-01",
+  "t": "0349-01-01",
+  "nKron": 1,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "xiongnu",
+  "ad": "Xiongnu (Hunnu) Konfederasyonu",
+  "bolge": "orta-asya",
+  "f": "-0208-01-01",
+  "t": "0155-01-01",
+  "nKron": 1,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "dongou",
+  "ad": "Dongou Krallığı (東甌)",
+  "bolge": "dogu-asya",
+  "f": "-0191-01-01",
+  "t": "-0137-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "gandhara-mahajanapada",
+  "ad": "Gandhara Mahajanapadası (Taksila/Pushkalavati)",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0515-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "nanda",
+  "ad": "Nanda Hanedanı (Magadha)",
+  "bolge": "guney-asya",
+  "f": "-0363-01-01",
+  "t": "-0323-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "etrusk-tarquinia",
+  "ad": "Tarquinia (Tarchna) Şehir Devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0280-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "sybaris",
+  "ad": "Sybaris",
+  "bolge": "italya",
+  "f": "-0719-01-01",
+  "t": "-0509-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "kroton",
+  "ad": "Kroton",
+  "bolge": "italya",
+  "f": "-0708-01-01",
+  "t": "-0276-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "taras",
+  "ad": "Taras (Tarentum)",
+  "bolge": "italya",
+  "f": "-0705-01-01",
+  "t": "-0271-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "leontinoi",
+  "ad": "Leontinoi",
+  "bolge": "italya",
+  "f": "-0728-01-01",
+  "t": "-0422-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "megara-hyblaia",
+  "ad": "Megara Hyblaia",
+  "bolge": "italya",
+  "f": "-0727-01-01",
+  "t": "-0482-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "selinous",
+  "ad": "Selinous",
+  "bolge": "italya",
+  "f": "-0627-01-01",
+  "t": "-0408-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "himera",
+  "ad": "Himera",
+  "bolge": "italya",
+  "f": "-0647-01-01",
+  "t": "-0408-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "mozia",
+  "ad": "Mozia (Motya)",
+  "bolge": "italya",
+  "f": "-0749-01-01",
+  "t": "-0396-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "insubres-kabile-devleti",
+  "ad": "Insubres Kelt Birliği",
+  "bolge": "italya",
+  "f": "-0399-01-01",
+  "t": "-0221-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "yarlung-krallik",
+  "ad": "Yarlung Krallığı (Tibet, imparatorluk öncesi)",
+  "bolge": "dogu-asya",
+  "f": "-0126-01-01",
+  "t": "0629-01-01",
+  "nKron": 1,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "ba-devleti",
+  "ad": "Ba Devleti (巴)",
+  "bolge": "dogu-asya",
+  "f": "-0702-01-01",
+  "t": "-0315-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "anuradhapura",
+  "ad": "Anuradhapura Krallığı (Sri Lanka)",
+  "bolge": "guney-asya",
+  "f": "-0250-01-01",
+  "t": "1017-01-01",
+  "nKron": 1,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK",
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "kuca",
+  "ad": "Kuça (Qiuci) Krallığı",
+  "bolge": "orta-asya",
+  "f": "-0064-01-01",
+  "t": "0649-01-19",
+  "nKron": 1,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "fergana-dayuan",
+  "ad": "Fergana (Dayuan) Krallığı",
+  "bolge": "orta-asya",
+  "f": "-0103-01-01",
+  "t": "0649-01-01",
+  "nKron": 1,
+  "nYer": 2,
+  "kaynak": true,
+  "prob": [
+   "SON-MADDESI-YOK"
+  ]
+ },
+ {
+  "id": "zheng-devleti",
+  "ad": "Zheng Devleti",
+  "bolge": "dogu-asya",
+  "f": "-0805-01-01",
+  "t": "-0374-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "wu-devleti",
+  "ad": "Wu Devleti (吳, Gou Wu)",
+  "bolge": "dogu-asya",
+  "f": "-0584-01-01",
+  "t": "-0472-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "bati-chu-xiang-yu",
+  "ad": "Batı Chu (Xiang Yu)",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0201-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "yong-krallik",
+  "ad": "Yong (雍) Krallığı",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "xi-wei-krallik",
+  "ad": "Batı Wei (西魏) Krallığı",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "yin-krallik",
+  "ad": "Yin (殷) Krallığı",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "hengshan-krallik",
+  "ad": "Hengshan (衡山) Krallığı",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0201-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "linjiang-krallik",
+  "ad": "Linjiang (臨江) Krallığı",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0201-01-01",
+  "nKron": 3,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "yan-krallik-chuhan",
+  "ad": "Yan (燕) Krallığı (Chu-Han)",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0201-01-01",
+  "nKron": 3,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "kyme-cumae",
+  "ad": "Kyme (Cumae)",
+  "bolge": "italya",
+  "f": "-0749-01-01",
+  "t": "-0420-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "zankle-messana",
+  "ad": "Zankle (Messana)",
+  "bolge": "italya",
+  "f": "-0729-01-01",
+  "t": "-0288-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "akragas",
+  "ad": "Akragas (Agrigentum)",
+  "bolge": "italya",
+  "f": "-0579-01-01",
+  "t": "-0209-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "alalia-korsika",
+  "ad": "Alalia (Fokaia kolonisi, Korsika)",
+  "bolge": "italya",
+  "f": "-0564-01-01",
+  "t": "-0534-01-01",
+  "nKron": 4,
+  "nYer": 1,
+  "kaynak": true,
+  "prob": []
+ },
+ {
+  "id": "bruttii-birligi",
+  "ad": "Brettii Birliği",
+  "bolge": "italya",
+  "f": "-0355-01-01",
+  "t": "-0202-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ },
+ {
+  "id": "delmatai-federasyon",
+  "ad": "Delmatai (Dalmatlar) Federasyonu",
+  "bolge": "balkanlar",
+  "f": "-0180-01-01",
+  "t": "-0032-01-01",
+  "nKron": 2,
+  "nYer": 0,
+  "kaynak": true,
+  "prob": [
+   "YERLESIM-YOK"
+  ]
+ }
+]
