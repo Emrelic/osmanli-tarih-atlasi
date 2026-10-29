@@ -1,0 +1,7 @@
+kimlik	devlet_adi	bolge	gerekce
+ingiliz-tanganika-mandasi	Tanganika Toprağı (İngiliz Mandası)	dogu-afrika	Künye VAR (1922-07-20..1961-12-09) ama BOYALAR'da yok; Zengibar/Kilwa/Bagamoyo/Tanga zincirleri buna bağlıydı (1923-1961 delik). Hint-Okyanusu denetimi şimdilik ingiltere kullandı; boya gelince Tanganika kıyısı bu kimliğe döndürülebilir. Künyede boya_gerekli:true.
+ingiliz-kenya-kolonisi	İngiliz Kenyası (Protektora → Kolonisi)	dogu-afrika	Künye VAR (1895-07-01..1963-12-12), BOYALAR'da yok. Lamu/Mombasa/Pate şu an umman-zengibar (Zengibar egemenliği altında kıyı şeridi) — Kenya iç kesimi için lazım. Künyede boya_gerekli:true.
+seyseller	Seyşeller (Fransız dönemi → İngiliz → bağımsız 1976)	dogu-afrika	Künye YOK. Victoria (Mahé) 1814 sonrası ingiltere, 1976 bağımsızlığı gösterilmiyor. Yeni künye (f 1770/1778? t -) + BOYALAR anahtarı gerekli. Kaynak: Scarr, Seychelles since 1770 (açılmadı).
+komor-sultanliklari	Komor Sultanlıkları (Ngazidja/Fani, Anjouan, Mohéli)	dogu-afrika	Künye YOK. Moroni, Fomboni, Mutsamudu 1281-1886 __BOSLUK__ beyanlı. Ya tek künye ya üç künye (Ngazidja, Anjuan sultanlığı, Mohéli) + BOYALAR anahtarı.
+mazrui-mombasa	Mazrui Mombasa'sı (1741-1837)	dogu-afrika	Künye YOK. Mombasa 1698-1963 umman-zengibar görünüyor; Mazrui valileri 1741'den fiilen bağımsız, Seyyid Said 1837'de aldı. Akademik kaynak (Berg & Walter, Mazrui) açılmadı.
+arakkal-kannur	Arakkal (Kannur) Sultanlığı — Lakshadweep	guney-asya	Künye YOK. Kavaratti 1281-1947 __BOSLUK__ beyanlı; 1905 devri son. Kaynak çelişkili (1783/86/87; 1790/96).
