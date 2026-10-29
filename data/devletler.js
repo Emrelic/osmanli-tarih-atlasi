@@ -831,7 +831,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"cenova", ad:"Cenova Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
-  f:"1005-01-01", t:"1797-06-14", baskent:"Cenova", harita:"ceneviz",
+  f:"1099-01-01", t:"1797-06-14", baskent:"Cenova", harita:"ceneviz",
   ozet:"Kefe, Sakız ve Sinop'ta kolonileri olan İtalyan deniz cumhuriyeti; kolonilerini sırayla Osmanlı'ya kaptırdı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -16705,7 +16705,7 @@ window.DEVLETLER = [
     { odak_yer:["Cenova"], t:"1805-05-25", tur:"birlesme", b:"Ligurya Senatosu Fransa'ya ilhakı onayladı.", kaynak:"archontology.org/nations/italy/ligurian_republic/01_polity.php; founders.archives.gov/documents/Madison/02-09-02-0470" },
     { odak_yer:["Cenova"], t:"1805-06-04", tur:"son", b:"Napolyon ilhakı kabul etti; Ligurya toprakları Fransız İmparatorluğu'na katıldı (Apennins, Gênes, Montenotte departmanları).", kaynak:"archontology.org/nations/italy/ligurian_republic/01_polity.php" }
   ] },
-{ id:"helvetik-cumhuriyeti", ad:"Helvetik Cumhuriyeti", tur:"kardes-cumhuriyet", bolge:"orta-avrupa", f:"1798-03-29", t:"1803-02-19", baskent:"Aarau / Bern", ozet:"Fransa'nın kurdurduğu merkezi cumhuriyet; Napolyon'un Arabuluculuk Yasası (19 Şubat 1803) ile kantonlar konfederasyonuna dönüştü. (Vikipedi anayasa 12 Nisan 1798)", kaynak:"Britannica 'Helvetic Republic' (29 Mart 1798); Britannica 'Act of Mediation' (19 Şubat 1803)", kronoloji:[
+{ id:"helvetik-cumhuriyeti", ad:"Helvetik Cumhuriyeti", tur:"kardes-cumhuriyet", bolge:"orta-avrupa", f:"1798-04-12", t:"1803-02-19", baskent:"Aarau / Bern", ozet:"Fransa'nın kurdurduğu merkezi cumhuriyet (zincirler anayasanın ilanından, 12 Nisan 1798'den başlar); Napolyon'un Arabuluculuk Yasası (19 Şubat 1803) ile kantonlar konfederasyonuna dönüştü. (Vikipedi anayasa 12 Nisan 1798)", kaynak:"Britannica 'Helvetic Republic' (29 Mart 1798); Britannica 'Act of Mediation' (19 Şubat 1803)", kronoloji:[
     { odak_yer:["Bern"], t:"1798-04-12", tur:"kurulus", b:"Helvetik Cumhuriyeti Aarau belediye binasından ilan edildi", kaynak:"Historisches Lexikon der Schweiz https://hls-dhs-dss.ch/fr/articles/017217/ ; İsviçre Dışişleri (EDA) 'Under French rule 1798-1815' https://www.eda.admin.ch/dam/PRS-Web/en/dokumente/unter-franzoesischer-herrschaft-1798-1815_EN.pdf" },
     { odak_yer:["Bern"], t:"1798-05-04", tur:"isyan", b:"Schwyz Landsgemeinde'si direnişi bıraktı; Helvetik anayasasını reddeden iç İsviçre kantonlarının silahlı direnişi hafif teslim şartlarıyla bastırıldı.", kaynak:"https://hls-dhs-dss.ch/de/articles/008915/2021-09-14/ (Tarihî İsviçre Sözlüğü, Franzoseneinfall)" },
     { odak_yer:["Bern"], t:"1798-08-19", tur:"ittifak", b:"Fransa ile Helvetik Cumhuriyeti arasında savunma ve saldırı ittifakı imzalandı; İsviçre fiilen Fransa'ya bağlandı.", kaynak:"https://hls-dhs-dss.ch/de/articles/008915/2021-09-14/ ; https://en.wikipedia.org/wiki/Helvetic_Republic" },
@@ -24083,9 +24083,9 @@ window.DEVLETLER = [
   tur:"sehir-devleti",
   bolge:"italya",
   f:"1138-01-01",
-  t:"1318-01-01",
+  t:"1318-07-25",
   baskent:"Padova",
-  ozet:"İlk konsüller 1138 civarı; Ezzelino ve Carrara signoria'sı 1318.",
+  ozet:"İlk konsüller 1138 civarı; Ezzelino ve Carrara signoria'sı 1318 (Jacopo I da Carrara 25 Temmuz 1318'de signore seçildi; atlas olay maddesi ITALYA-1028 · ikinci kaynak aranıyor).",
   kaynak:"Treccani, Enciclopedia on line, 'Padova' (https://www.treccani.it/enciclopedia/padova/): «dal 1138 fu almeno in parte esente da vincoli feudali, poiché la governavano anche i consoli, rappresentanti del libero Comune; nel 1164 P. fu la prima città dell'Italia settentrionale a cacciare il vicario imperiale e a promuovere ... la Lega veronese»; 1405'te Venedik'e geçti.",
   kesinlik:{"f": "onyil", "t": "yil"},
   boya_gerekli:true,
