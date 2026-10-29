@@ -7015,10 +7015,11 @@ window.YERLESIMLER_EK29 = [
 { ad:"Ürküp (Prokuplje)", kaynak:"BERLİN 1878 B sınıfı (PAKET-0076-BITIR, AVRUPA-YER 13 Ekim 2026) — KONUM: GeoNames (şehir/idari merkez satırı) · SAHİPLİK/DÖNEM: TDV leskofca (Toplice 1433 «muhtemel»; 1877-78 Sırp ordusu «Urkup»u aldı) · Berlin Antlaşması md. 36; her dönemin kendi kaynağı dönemde yazılı, yorum/komşu deseni olan halkalar «⚠️» ile işaretli (denetim/PAKET-0076-BITIR-berlin-noktalar.md)", tur:"sehir", lat:43.234, lon:21.588, g:0, k:4, m:"Sofya",
   s:[{f:"1281-01-01",t:"1402-01-01",d:"sirbistan-nemanjic",kaynak:"⚠️ KASABA İÇİN KAYNAK BULUNAMADI — TDV nis (bölge)"},
      {f:"1402-01-01",t:"1433-01-01",d:"sirp-despotlugu"},
+     {f:"1689-10-01",t:"1690-09-27",d:"macaristan-habsburg",kesinlik:{f:"ay",t:"ay"},kaynak:"POSTIT #143 (Emre 'a', 30 Ekim 2026): f: Islami, A. (2026), «Avusturya Ordusunun Kosova'yı İşgali (1689–1691)», Journal of Balkan Studies 6(1), s. 45–65 (Piccolomini raporlarına dayanarak): Piccolomini kolu Ekim 1689'un ilk yarısında Niş'ten Ürküp (Prokuplje) üzerinden Kosova'ya yürüdü, 21 Ekim Priştine — AY hassasiyeti, gün yok (1689-10-01 ayın ilk günü); sayfa teyidi yapılamadı. t: GÜN KOMŞUDAN: Niş 1690-09-27 (TDV semendire); yer düzeyinde gün bulunamadı. Çift teyit YOK."},
      {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi",kaynak:"TDV ivranye: 'Ürküp’teki (Prokuplje) bütün müslüman halk' — Sırp işgali, Berlin · TDV leskofca 'Urkup' · Berlin md. 36"},
      {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},
      {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  d:[{f:"1433-01-01",t:"1878-07-13",kesinlik:"yil",kaynak:"TDV leskofca: Toplice 'büyük ihtimalle' 1433; 1445-47 tahrirde Osmanlı elinde (Kurşunlu ile aynı)"}],
+  d:[{f:"1433-01-01",t:"1689-10-01",kesinlik:"yil",kaynak:"TDV leskofca: Toplice 'büyük ihtimalle' 1433; 1445-47 tahrirde Osmanlı elinde (Kurşunlu ile aynı)"},{f:"1690-09-27",t:"1878-07-13",kaynak:"GÜN KOMŞUDAN: Niş 1690-09-27 (TDV semendire) — Osmanlı geri alışı"}],
   v:[] },
 
 // BERLİN 1878 (PAKET-0076-BITIR B sınıfı, AVRUPA-YER 13 Ekim 2026): Bar (Antivari)
