@@ -4965,6 +4965,10 @@ window.YERLESIMLER_ASYA = [
      {f:"1638-01-01", t:"1649-02-22", d:"babur-imparatorlugu"},
      {f:"1649-02-22", t:"1709-04-21", d:"safevi"},
      {f:"1709-04-21",t:"1738-03-24",d:"galzay"}], d:[], bit:"1738-03-24" },
+{ ad:"Nâdirâbâd (Kandehar)", tur:"sehir", lat:31.58, lon:65.70, g:0, k:2, kur:"1738-03-24", kesinlik:"yil", bit:"1747-06-20",
+  kaynak:"TDV `kandehar` (A. Özcan), ham metin 15 Eki 2026 okundu: 'Şehir 1150’de (1738) Afşarlı Nâdir Şah tarafından ele geçirildikten sonra tahrip edilerek eski yerinin güneydoğusunda Nâdirâbâd ismiyle yeniden kuruldu; ancak bu isim Nâdir Şah’ın ölümünün ardından unutuldu.' · koordinat: EIr KANDAHAR i. (X. de Planhol) — eski şehrin ~4 km GD'sunda, modern Kandehar'ın ~3 km güneyinde (sehir_tarihce_osm.js 'kandahar' ic_not).",
+  neden:"POSTIT-168 (Emre, 30 Ekim 2026: 'a'): 1738-1773 arası Kandehar çevresi boşluk görünüyordu — Eski Kandehar 1738-03-24'te bitiyor, Ahmedşâhî/modern Kandehar kur 1773. BEYANLI YAKLAŞIKLIK: kur = TDV YIL (1738) verir, gün yok; yeniden kuruluş fetihten SONRA olduğundan fetih günü (1738-03-24, kronoloji_iran.js) ALT SINIR alındı — gerçek kuruluş günü bulunamadı (TDV, EIr arandı). bit = Nâdir Şah'ın ölümü (1747-06-20, Afşar künye sonu); TDV adın bu ölümden sonra unutulduğunu söyler, şehrin yok oluşunu değil — Dürrânî dönemi sahipliği zincirde yok (Ahmedşâhî noktası 1773'te başlar). Koordinat yaklaşıktır (mesafe tarifinden).",
+  s:[{f:"1738-03-24", t:"1747-06-20", d:"afsar", kesinlik:{f:"yil",t:"gun"}, kaynak:"TDV `kandehar`: Nâdir Şah (Afşar) fethinden sonra kurduğu şehir — sahip Afşar. f: fetih günü alt sınır (yukarıdaki beyan); t: Afşar künye sonu (Nâdir Şah ölümü)."}], d:[] },
 
 // Keşmir — "kesmir" kimliği 1281-1586 arasının TAMAMINI kapsar: 1320'ye
 // kadar Lohara hânedanı, 1339'dan itibaren Şah Mîr sultanlığı (TDV KEŞMİR).
