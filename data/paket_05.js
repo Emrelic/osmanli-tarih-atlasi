@@ -5857,7 +5857,8 @@ window.DEVLETLER = [
 { id:"le-hanedani", ad:"Lê Hanedanı (Đại Việt)", tur:"hanedanlik", bolge:"guneydogu-asya",
   f:"1428-01-01", t:"1789-01-01", baskent:"Thăng Long (Hanoi)", harita:"le-hanedani",
   ozet:"Lê Lợi'nin Çin (Ming) işgaline karşı zaferiyle kurduğu Vietnam hanedanı; sonraki yüzyıllarda Trịnh ve Nguyễn beyliklerinin gölgesinde fiilen bölünmüş yaşadı, Tây Sơn isyanıyla sona erdi.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"Britannica, ‘Later Le dynasty’ (1428–1788), https://www.britannica.com/topic/Later-Le-dynasty ; Britannica, ‘Trinh family’ ve ‘Vietnam’ (Trịnh–Nguyễn savaşı 1627–1673, ardından 100 yıllık fiilî barış), https://www.britannica.com/topic/Trinh-family . TDV’de müstakil madde yok (1 Kasım 2026 bakıldı). Vietnamca/Çince hakemli kaynak: okunamadı.",
+  ic_not:"GDA-OKYANUSYA 1 Kasım 2026: künye t 1789-01-01 (Çing yenilgisi Ocak 1789; kronoloji maddesi). Britannica ‘Later Lê’ maddesi dönemi 1428–1788 verir (yalnız yıl; Chiêu Thống’un 1788 sonunda Çin’e kaçışı ile uyumlu). 1 yıllık fark KARARA BAĞLANMADI; künye değiştirilmedi. Nguyễn Huệ’nin Thăng Long’a girişi (1786) ve Trịnh iktidarının sonu için bkz. trinh-lordlari.",
   kronoloji:[
     { odak_yer:["Hanoi"], t:"1428-01-01", tur:"kurulus", b:"Lê Lợi, Ming işgaline son verip hanedanı kurdu" },
     { odak_yer:["Hanoi"], t:"1600-01-01", tur:"bolunme", b:"Trịnh (kuzey) ve Nguyễn (güney) beylikleri arasında fiilî bölünme yerleşti" },
@@ -7528,7 +7529,8 @@ window.DEVLETLER = [
 { id:"mac-hanedani", ad:"Mạc Hanedanı (Đại Việt)", tur:"hanedanlik", bolge:"guneydogu-asya",
   f:"1527-06-15", t:"1677-01-01", baskent:"Thăng Long → Cao Bằng", harita:"mac-hanedani",
   ozet:"Lê tahtını gasbedip Kuzey Vietnam'ı elli yıl yöneten, sonra Cao Bằng'a çekilip Ming himâyesinde bir asır daha süren hânedan (bkz. [[le-hanedani]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"Britannica, ‘Mac family’ (Mạc ailesi Tonkin’i 1527–1592 yönetti; 1592’de topraklarının çoğunu Trịnh’e kaybetti), https://www.britannica.com/topic/Mac-family ; Cambridge University Press, Ming China and Vietnam (2014/2016, excerpt: Mạc 1592’de Đông Kinh’den çıkarıldı), https://assets.cambridge.org/97811075/76285/excerpt/9781107576285_excerpt.pdf . TDV’de müstakil madde yok (bakıldı).",
+  ic_not:"GDA-OKYANUSYA 1 Kasım 2026: 1527 (kuruluş yılı) ve 1592 (Thăng Long’un kaybı) Britannica ile yıl düzeyinde uyumlu; 1527-06-15 günü ve 1677 sonu (Cao Bằng) bu turda ikinci akademik kaynakla teyit EDİLEMEDİ — gün/bitiş tek tanıklı.",
   kronoloji:[
     { odak_yer:["Cao Bằng"], t:"1527-06-15", tur:"kurulus", b:"Mạc Đăng Dung, Lê hükümdarını devirip tahta çıktı" },
     { odak_yer:["Cao Bằng"], t:"1592-01-01", tur:"toprak-kayip", b:"Trịnh kuvvetleri Thăng Long'u geri aldı, hânedan Cao Bằng'a çekildi" },
@@ -7750,7 +7752,8 @@ window.DEVLETLER = [
 { id:"nguyen-beyligi", ad:"Nguyễn Beyleri (Đàng Trong)", tur:"beylik", bolge:"guneydogu-asya",
   f:"1558-01-01", t:"1802-06-01", baskent:"Phú Xuân (Huế)", harita:"nguyen-beyligi",
   ozet:"Lê tahtı adına güneyi yöneten, Trịnh'lerle ülkeyi Gianh ırmağından ikiye bölen bey ailesi; Tây Sơn'a yıkıldı, Nguyễn Ánh'ın geri dönüşüyle hânedana dönüştü (bkz. [[nguyen-hanedani]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"Britannica, ‘Vietnam’ ve ‘Nguyen dynasty’ (Nguyễn’ler güneyi Huế’den yönetti; Trịnh–Nguyễn açık savaşı 1627–1673), https://www.britannica.com/topic/Nguyen-dynasty . TDV’de müstakil madde yok (bakıldı). 1558 başlangıcı ve 1777 sonu bu turda ikinci akademik kaynakla teyit EDİLEMEDİ.",
+  ic_not:"GDA-OKYANUSYA 1 Kasım 2026: Britannica savaşı 1627’den 1673’e kadar verir; künye kronolojisi 1627 başlangıcını taşır (uyumlu), 1673 sonu kronolojide yok. Künye t 1802-06-01 Gia Long’un ardıl yapısına bağlıdır (Tây Sơn 1777’de lordluğu ortadan kaldırmıştı; 1777-1788 arası künye boşluğu beyanlıdır).",
   kronoloji:[
     { odak_yer:["Huế"], t:"1558-01-01", tur:"kurulus", b:"Nguyễn Hoàng, Thuận Hóa valiliğine gidip güneyde kendi düzenini kurdu" },
     { odak_yer:["Huế"], t:"1627-01-01", tur:"savas", b:"Trịnh-Nguyễn savaşları başladı, ülke Gianh ırmağında fiilen ikiye bölündü" },
@@ -8116,7 +8119,8 @@ window.DEVLETLER = [
 { id:"tay-son", ad:"Tay Sơn Hanedanı", tur:"hanedanlik", bolge:"guneydogu-asya",
   f:"1778-01-01", t:"1802-06-20", baskent:"Phú Xuân (Huế)",
   ozet:"Tay Sơn kardeşlerin köylü isyanından doğan, Vietnam'ı kısa süreliğine yeniden birleştiren hanedan; Nguyễn Ánh'ın (Gia Long) zaferiyle sona erdi, Nguyễn hanedanına yerini bıraktı. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"Britannica, ‘Tay Son brothers’ ve ‘Quang Trung’ (Tây Sơn’un yükselişi 1771; Trịnh iktidarı 1771–1786 arasında silinip gitti), https://www.britannica.com/topic/Tay-Son-brothers . TDV’de müstakil madde yok (bakıldı).",
+  ic_not:"GDA-OKYANUSYA 1 Kasım 2026: Britannica Tây Sơn’un yükselişini 1771’e koyar; künye kronolojisi isyanı 1773, künye f ise 1778 (hanedanın ilanı) verir — 1771/1773/1778 farkı KARARA BAĞLANMADI (isyan başlangıcı ile hanedan ilanı ayrı olaylar; Vijaya (Quy Nhơn) noktası 1773’ten Tây Sơn’a yazılı, künye f 1778 → 4d aşımı). Künye değiştirilmedi.",
   kronoloji:[
     { odak_yer:["Huế"], t:"1773-01-01", tur:"isyan", b:"Tay Sơn kardeşlerin isyanı başladı" },
     { odak_yer:["Huế"], t:"1778-01-01", tur:"kurulus", b:"Nguyễn Huệ (İmparator Quang Trung) hanedanı resmen ilan etti" },
@@ -29278,7 +29282,18 @@ window.DEVLETLER = [
   ozet:"Portekiz'in Tanca'yı İngiltere'ye devriyle başlayan İngiliz idaresi; Şubat 1684'te İngilizler şehri boşaltıp tahrip etti.",
   kaynak:"TDV İslâm Ansiklopedisi, TANCA, https://islamansiklopedisi.org.tr/tanca (1661 – Şubat 1684)",
   ic_not_f:"29 Ekim 2026 (DENETIM-MAGRIB): [yalnız yıl teyitli; gün teyitsiz] devir/boşaltma günleri yalnız ikincil kaynakta, yazılmadı. boya_gerekli (denetim/BOYA-magrib-1029.tsv); s:/d: dönemi yazılmadı.",
-  kronoloji:[] }
+  kronoloji:[] },
+{ id:"trinh-lordlari", ad:"Trịnh Lordları (Đàng Ngoài)", tur:"beylik", bolge:"guneydogu-asya", boya_gerekli:true, f:"1545-01-01", t:"1786-01-01", baskent:"Thăng Long (Đông Kinh)",
+  ozet:"Lê hükümdarlarının adına Đại Việt’in kuzeyini (Đàng Ngoài, Tonkin) fiilen yöneten Trịnh ailesi: 1545’te Nguyễn Kim’in ölümünün ardından Lê ordusunun başına geçen Trịnh Kiểm ile başlar, Mạc’ı 1592’de Thăng Long’dan çıkarır, güneydeki Nguyễn lordlarıyla 1627–1673 arası savaşır ve Tây Sơn’un yükselişiyle (1771–1786) silinir. Lê hanedanı (le-hanedani künyesi) bu dönemde nominal olarak sürer; harita bu yüzden kuzeyi le-hanedani ile boyar. YALNIZ YIL teyitli. boya_gerekli: s: dönemi YAZILMADI.",
+  kaynak:"Britannica, ‘Trinh family’, https://www.britannica.com/topic/Trinh-family (16. yüzyıl ortasında Lê’lerin naipliği; Trịnh–Nguyễn açık savaşı 1627–1673; Trịnh iktidarı 1771–1786 arasında Tây Sơn’la silindi) ; Britannica, ‘Mac family’ ve ‘Later Le dynasty’ (1428–1788) ; Khổng Đức Thiêm, ‘Nhận diện thêm về cơ cấu chính quyền kép cung vua phủ chúa và vai trò của nhà Trịnh trong lịch sử trung đại Việt Nam’ (Hà Nội, 1995; Vietnamca; 1545’te Nguyễn Kim’in öldürülmesi ve Trịnh Kiểm’in binh quyền alışı) — nghiencuulichsu.com’da yeniden yayım (web sürümü; basılı künyesi okunamadı) ; TDV’de müstakil madde yok (1 Kasım 2026 bakıldı).",
+  ic_not:"GDA-OKYANUSYA 1 Kasım 2026 — KÜNYE UÇLARI: f 1545 = Nguyễn Kim’in ölümü / Trịnh Kiểm’in askerî iktidarı (Vietnamca akademik deneme 1995 + Britannica ‘16. yüzyıl ortası’; tek bağımsız yıl tanığı Vietnamca yazı). t 1786 = Britannica’nın Tây Sơn’la ‘silinme’ yılı. KAYNAK ÇELİŞKİSİ (KARARA BAĞLANMADI): son lord Trịnh Bồng’un düşüşü 1786 sonu mu 1787 sonbaharı mı — ikincil/Vietnamca site kaynakları 1786–1787 arası ayrışır (Trịnh Bồng ~6 ay/1786-09→1787); hakemli Vietnamca (VJOL: Lư Vĩ An, ‘Về lưỡng đầu chế Lê – Trịnh ở Đàng Ngoài thế kỷ XVII–XVIII’) 429 hatasıyla okunamadı; Çince kaynak taranmadı. Trịnh Tùng’un ‘vương’ unvanı 1599 mu 1600 mü — kaynaklar ayrışır, kronolojiye YAZILMADI. Günler (1545 ayı/günü, 1786 ayı/günü) bulunamadı: tarih uydurulmadı. Künye le-hanedani ile çakışır (de jure/de facto); s: kullanımı 0, harita etkisi yok.",
+  kronoloji:[
+    { odak_yer:["Thăng Long"], t:"1545-01-01", tur:"kurulus", b:"Nguyễn Kim’in öldürülmesinin ardından Trịnh Kiểm Lê ordusunun komutasını aldı; Trịnh hâkimiyetinin başlangıcı. [yalnız yıl teyitli; gün teyitsiz]", kaynak:"Khổng Đức Thiêm, Nhận diện thêm về cơ cấu chính quyền ‘kép’ cung vua phủ chúa… (Hà Nội, 1995; Vietnamca: ‘vào năm 1545 khi Nguyễn Kim bị sát hại’); Britannica, ‘Trinh family’ (16. yüzyıl ortası)" },
+    { odak_yer:["Thăng Long"], t:"1592-01-01", tur:"toprak-kazanc", b:"Trịnh güçleri Mạc’ı Thăng Long (Đông Kinh)’dan çıkardı; Mạc topraklarının çoğu Trịnh’e geçti. [yalnız yıl teyitli; gün teyitsiz]", kaynak:"Britannica, ‘Mac family’, https://www.britannica.com/topic/Mac-family ; Cambridge UP, Ming China and Vietnam (excerpt)" },
+    { odak_yer:["Thăng Long"], t:"1627-01-01", tur:"savas", b:"Trịnh–Nguyễn açık savaşı başladı. [yalnız yıl teyitli; gün teyitsiz]", kaynak:"Britannica, ‘Trinh family’ ve ‘Vietnam’ (açık savaş 1627’den 1673’e)" },
+    { odak_yer:["Thăng Long"], t:"1673-01-01", tur:"savas", b:"Son Trịnh seferinin başarısızlığı; ardından yaklaşık yüz yıllık fiilî ateşkes, ülke fiilen ikiye bölünmüş kaldı. [yalnız yıl teyitli; gün teyitsiz]", kaynak:"Britannica, ‘Vietnam — Trịnh and Nguyễn lords’ (1673 son sefer; 100 yıllık barış)" },
+    { odak_yer:["Thăng Long"], t:"1786-01-01", tur:"son", b:"Tây Sơn’un yükselişiyle Trịnh iktidarı silindi (Britannica ‘1771–1786 arası’). [yalnız yıl teyitli; gün teyitsiz; son lord Trịnh Bồng’un düşüşü 1786-87 arasında kaynaklara göre ayrışır]", kaynak:"Britannica, ‘Trinh family’; ‘Tay Son brothers’, https://www.britannica.com/topic/Tay-Son-brothers" }
+  ] }
 ];
 
 ;
