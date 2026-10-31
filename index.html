@@ -958,6 +958,17 @@
       </div>
     </details>
     <details class="ayar-grup">
+      <summary>🛣 Tarihî yollar</summary>
+      <!-- Emre (31 Ekim 2026): yol gösterimi AYARA bağlı, varsayılan KAPALI.
+           Bu kutu Butonlar'daki "③ Yollar ve koridorlar" kutusunu (data-katman="yollar")
+           sürer ve onunla iki yönlü eşlenir — tek gerçek orada, kalıcı değil. -->
+      <div class="ayar-satir">
+        <label for="ayar-yollari-goster">Yolları göster <span class="ayar-ipucu">(ana ve tali tarihî yollar; kapalıyken hiç çizilmez · ana/tali seçimi Butonlar'da)</span></label>
+        <input type="checkbox" id="ayar-yollari-goster">
+        <span class="ayar-deger"></span>
+      </div>
+    </details>
+    <details class="ayar-grup">
       <summary>⏱ ③ Hız ve süre</summary>
       <!-- Emre'nin kendi gördüğü gerilim: "Bursa'dan İstanbul'a mevzu bahis
            olduğunda bu çok yavaş olacaktır." ÖLÇÜLDÜ:
@@ -2060,6 +2071,7 @@
 <script src="data/yollar_anadolu_balkan.js?v=r9795817"></script>
 <script src="data/yollar_ipek_yolu.js?v=r241572761"></script>
 <script src="data/yollar_roma_akdeniz.js?v=r92731852"></script>
+<script src="data/yollar_roma_akdeniz2.js?v=r247907562"></script>
 <!-- 🟢 ARAYÜZ KORİDOR (16 Ağustos 2026) — YUKARIDAKİ "app.js bunu HENÜZ
      ÇİZMİYOR" UYARISI ARTIK GEÇERSİZ: çizim yazıldı, üç dosyanın altısı da
      (KORIDOR_DUGUM/KENAR · _HALKA2_ · _H2B_) tek katmanda çiziliyor.
@@ -2192,7 +2204,7 @@
 <script src="js/kaynak_damga.js?v=r104472814"></script>
 <!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
 <script src="js/odak_zoom.js?v=r126728536"></script>
-<script src="js/app.js?v=r219367778"></script>
+<script src="js/app.js?v=r243175471"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).

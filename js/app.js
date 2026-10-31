@@ -14845,6 +14845,19 @@ function odakZoomAcik() {
     try { localStorage.setItem("odakZoom", e.checked ? "1" : "0"); } catch (eL) { /* özel pencere */ }
   });
 })();
+// Tarihî yollar — ⚙ `ayar-yollari-goster` ⇄ Butonlar'daki `data-katman="yollar"` kutusu.
+// Varsayılan KAPALI, kalıcı değil (Emre, 31 Ekim 2026). Katman mantığı tek yerde kalsın
+// diye ayar kutusu katman kutusuna `click` yollar; katman kutusu değişince ayar eşlenir.
+(function () {
+  var ayar = document.getElementById("ayar-yollari-goster");
+  var kat = document.querySelector('input[data-katman="yollar"]');
+  if (!ayar || !kat) return;
+  ayar.checked = kat.checked;
+  ayar.addEventListener("change", function () {
+    if (kat.checked !== ayar.checked) kat.click();
+  });
+  kat.addEventListener("change", function () { ayar.checked = kat.checked; });
+})();
 // 🆕 İKİNCİ KURAL (Emre, 16 Ekim 2026 — aynı gün netleşti): *"Kronoloji maddesi
 // etraftaki bir devletle ilgiliyse, maddenin ilgili olduğu devlet haritada
 // gösterilir. Mümkünse hem odaktaki devlet hem maddenin ilgili olduğu ülke aynı
