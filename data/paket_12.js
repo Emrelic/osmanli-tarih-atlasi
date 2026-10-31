@@ -9772,6 +9772,11 @@ window.OLAYLAR_2S_0919 = [
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Afgan hükümdarı Ahmed Şah Dürrânî Belh'i kendi egemenlik alanına kattı.",
   kaynak:"TDV `belh` — AYNEN: \"1751'de Afgan Şahı Ahmed Dürrânî Belh'i kendi egemenlik alanı içine aldı.\" · hassasiyet: YIL" },
+{ t:"1751-01-01", kesinlik:"ay", b:"Kerim Han Zend İsfahan'a hâkim oldu — İran'da Afşar hâkimiyeti yerini Zend idaresine bıraktı", tur:"siyaset", onem:3, dunya:2, kapsam:"dis", yer_id:"Isfahan",
+  etiket:["siyaset","toprak-kazanc","konu-siyasi"],
+  d:"Nâdir Şah'ın öldürülmesinden (20 Haziran 1747) sonra İran tahtında Afşar hanedanından Âdil Şah (6 Temmuz 1747) ve İbrâhim Şah (8 Aralık 1748) bulundu; 1750'de Ali Merdan Han Bahtiyârî ile birlikte İsfahan'a yürüyen Kerim Han, 1751 Ocak'ında İsfahan'a dönerek duruma hâkim oldu. Horasan, Şâhruh idaresinde Afşarlar'da kaldı.",
+  kaynak:"TDV `kerim-han-zend` — AYNEN: «1751 yılının Ocak ayında İsfahan’a dönerek duruma hâkim oldu» · TDV `zendler`: «1163’te (1750) İsfahan’ı ele geçirmek için yardım isteyen Ali Merdan Han’a destek verdi» · TDV `avsarlilar`: Âdil Şah «şah ilân edildi (6 Temmuz 1747)», İbrâhim Şah «(17 Zilhicce 1161 / 8 Aralık 1748)», Şâhruh «(Ekim 1748)» · hassasiyet: AY (gün teyitsiz) · post-it #173",
+  ic_not:"Çelişki: TDV `avsarlilar` Nâdir'in ölümü için 21 Mayıs 1747, TDV `nadir-sah--iran` «11 Cemâziyelâhir 1160 / 20 Haziran 1747» veriyor; hicrî karşılık 20 Haziran olduğu için atlas 20 Haziran'ı tutar." },
 
 // ── 1752 ─────────────────────────────────────────────────────────────
 { t:"1752-01-01", b:"İşim boyunda Rus Petropavlovsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Petropavlovsk (Kızılcar)",
