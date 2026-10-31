@@ -298,4 +298,10 @@ window.YERLESIMLER_ODAK_YEDEK_1023 = [
   not:"ODAK-DUZELT (29 Ekim 2026): yalnız KAMERA ODAĞI için (devletler.js kronoloji maddesi odak_yer). Bağuz Fevkanî, Ebû Kemal ilçesi, Deyrizor; IŞİD'in son toprağı (23 Mart 2019). Sahiplik zinciri YAZILMADI. Mükerrer tarama: ad + 3 km, atlas boyunca temiz.",
   kaynak:"Vikipedi (en) 'Al-Baghuz Fawqani' koordinatı (34°27′31″N 40°57′02″E = 34.45861, 40.95056); savaş maddesi 34.46028, 40.95361 (birkaç yüz m fark); Airwars 34.4642, 40.9453 (~1,5 km). Güven: iki tanık, yakın." },
 
+{ ad:"Koç Bihar (Cooch Behar)", tur:"sehir", lat:26.3333, lon:89.45, g:0, k:0, s:[], d:[], bos:"veri-yok", bit:"1281-01-01",
+  not:"GUNEY-ASYA-1101: yalnız KAMERA ODAĞI için (koch-bihar kronoloji maddeleri odak_yer). Künye: koch-bihar. Güven: İKİ TANIK (IGI X «Cooch Behar Town» 26°20' N, 89°27' E · Gait: Biswa Singha başkenti Chikangram'dan Koch Bihar'a taşıdı). Harita sahipliği YAZILMADI: koch-bihar anahtarı BOYALAR'da yok (denetim/BOYA-guney-asya-1029.tsv).",
+  kaynak:"The Imperial Gazetteer of India, X (Oxford 1908), «Cooch Behar Town»: Capital of Cooch Behar State, situated in 26° 20' N. and 89° 27' E., on the Torsa river · E. A. Gait, A History of Assam (1906) s.47" },
+{ ad:"Agartala", tur:"sehir", lat:23.8293, lon:91.2778, g:0, k:0, s:[], d:[], bos:"veri-yok", bit:"1281-01-01",
+  not:"GUNEY-ASYA-1101: yalnız KAMERA ODAĞI için (tripura-manikya kronoloji maddeleri odak_yer). Künye: tripura-manikya. Güven: BÖLGE MERKEZİ VEKİL NOKTA — Agartala Hill Tippera'nın yönetim merkezi ve tek kasabası (IGI XIII); 1279-1849 arası başkent (Udaipur/Rangamati vb.) kaynakta okunmadı, Agartala vekil. Harita sahipliği YAZILMADI: tripura-manikya anahtarı BOYALAR'da yok.",
+  kaynak:"The Imperial Gazetteer of India, XIII (1908), «Hill Tippera» s.119: «The people live in one town, Agartala»; The Minister at Agartala · latlong.net Agartala (23.829321, 91.277847); Wikidata Q170454 (23°50' N, 91°16' E)" },
 ];
