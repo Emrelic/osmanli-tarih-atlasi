@@ -729,8 +729,8 @@
     },
     {
      "yol": "data/yerlesimler_kalite4.js",
-     "sha": "b3082e518d88efe2",
-     "bayt": 9651
+     "sha": "609c95c15920548f",
+     "bayt": 10661
     },
     {
      "yol": "data/yerlesimler_sibirya.js",
@@ -778,7 +778,7 @@
      "bayt": 248580
     }
    ],
-   "bayt": 1224915
+   "bayt": 1225925
   },
   {
    "paket": "data/paket_15.js",
@@ -980,8 +980,8 @@
     },
     {
      "yol": "data/yerlesimler_sinir_dogu.js",
-     "sha": "bf4fc403e521bc3d",
-     "bayt": 21064
+     "sha": "a5b5429e1e9de957",
+     "bayt": 21845
     },
     {
      "yol": "data/yerlesimler_sinir_guney.js",
@@ -1014,7 +1014,7 @@
      "bayt": 7098
     }
    ],
-   "bayt": 141405
+   "bayt": 142186
   },
   {
    "paket": "data/paket_21.js",
