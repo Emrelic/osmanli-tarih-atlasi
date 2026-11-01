@@ -35,6 +35,8 @@ YERİNE bu kapı geçer: kişi değil, KAPI. Sıra:
      js/ · css/ · data/ · assets/) değiştiyse ayrıca `denetle_yayin.py` 0 ŞART.
      Çıkış 2 (ölçülemedi) yalnız `--olculemedi-kabul "<gerekçe>"` ile geçer ve
      gerekçe basılır; çıkış 1 (İHLAL) HİÇBİR bayrakla geçmez.
+     ÖNBELLEK: aynı ağaçta (HEAD^{tree}) son 6 saatte çıkış 0 vermiş denetim yeniden
+     koşmaz (kayıt: ortak git dizininde `atlas_denetim_onbellek.json`, makineye özgü).
   ⑤ `git push origin HEAD:main` — reddedilirse (başka makine itti) ②'den
      yeniden, en çok 3 tur. Git makineler arası kilidin kendisidir.
   ⑥ origin/main == HEAD geri okunur; kilit HER yolda bırakılır.
@@ -43,7 +45,7 @@ YERİNE bu kapı geçer: kişi değil, KAPI. Sıra:
        2 ÖLÇÜLEMEDİ / arıza · 3 yanlış kullanım · 4 ÇATIŞMA (gerçek veri çatışması;
        kilit bırakıldı, rebase geri alındı — çöz, yeniden koştur). 2 TEMİZ DEĞİLDİR (CLAUDE.md §3).
 """
-import glob, os, re, shutil, subprocess, sys, tempfile, threading, time
+import glob, json, os, re, shutil, subprocess, sys, tempfile, threading, time
 
 sys.stdout.reconfigure(encoding="utf-8")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -70,6 +72,7 @@ SINIR_UYARI = 90 * 1024 * 1024
 BEKLE_DK_VARSAYILAN = 120.0
 BEKLE_ARALIK = 20.0       # sn — kuyruk yoklama aralığı
 NABIZ_ARALIK = 300.0      # sn — kilit son-yazma tazeleme
+ONBELLEK_OMUR = 6 * 3600  # sn — aynı ağaçta temiz denetimin geçerlilik süresi
 
 
 class Red(Exception):
@@ -161,8 +164,61 @@ def dosya_denetimi(dosyalar, ar):
             print("   ⚠️  %s %.1f MiB — 100 MiB'a pay %%%.1f" % (f, b / 2**20, 100 - b / 2**20))
 
 
+def _onbellek_yolu():
+    """Denetim önbelleği bu makinenin bütün worktree'lerinin ORTAK git dizinindedir."""
+    ortak = git("rev-parse", "--git-common-dir").stdout.strip()
+    return os.path.join(ortak if os.path.isabs(ortak) else os.path.join(KOK, ortak),
+                        "atlas_denetim_onbellek.json")
+
+
+def _onbellek_oku():
+    try:
+        with open(_onbellek_yolu(), encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def _onbellek_yaz(anahtar):
+    kayit = _onbellek_oku()
+    simdi = time.time()
+    kayit = {k: t for k, t in kayit.items() if simdi - t < ONBELLEK_OMUR}
+    kayit[anahtar] = simdi
+    try:
+        with open(_onbellek_yolu(), "w", encoding="utf-8") as f:
+            json.dump(kayit, f)
+    except OSError as e:
+        print("   ⚠️  denetim önbelleği yazılamadı: %s" % e)
+
+
 def olc(dosyalar, kabul=None):
-    """İtilecek commit'in ayrı worktree'sinde coz-c + denetle (+ denetle_yayin)."""
+    """İtilecek commit'in ayrı worktree'sinde coz-c + denetle (+ denetle_yayin).
+
+    ÖNBELLEK (Emre, 1 Kasım 2026): aynı AĞAÇTA (HEAD^{tree}) son ONBELLEK_OMUR içinde
+    ÇIKIŞ 0 vermiş denetim yeniden koşmaz — `--kuru`dan sonraki gerçek tur ve push reddi
+    sonrası rebase'siz tekrar 15-25 dk kazanır. Yalnız 0 saklanır; 1 ve 2 her seferinde
+    yeniden ölçülür. Ağaç değişirse (rebase, damga, paket) anahtar değişir ⇒ yeniden koşar.
+    Ömür sınırlı: denetle_yayin'ın BAYAT eşiği saate bağlıdır."""
+    agac = git("rev-parse", "HEAD^{tree}").stdout.strip()
+    site = any(f.startswith(SITE_ONEK) for f in dosyalar)
+    denetimler = [("denetle.py", [PY, "arac/denetle.py"], True),
+                  ("denetle_yayin.py (site dosyası değişti)", [PY, "arac/denetle_yayin.py"], site)]
+    simdi = time.time()
+    onbellek = _onbellek_oku()
+    kosacak = []
+    for ad, komut, sart in denetimler:
+        if not sart:
+            continue
+        t = onbellek.get(agac + ":" + ad)
+        if t is not None and simdi - t < ONBELLEK_OMUR:
+            print("④ %s → ÖNBELLEK: bu ağaç (%s) %d dk önce çıkış 0 verdi, yeniden koşmuyor"
+                  % (ad, agac[:9], (simdi - t) / 60))
+            continue
+        kosacak.append((ad, komut))
+    if not site:
+        print("   denetle_yayin.py atlandı — site dosyası değişmedi")
+    if not kosacak:
+        return
     yer = tempfile.mkdtemp(prefix="atlas-push-")
     os.rmdir(yer)
     print("④ ölçüm worktree'si: %s (taban %s)" % (yer, git("rev-parse", "--short", "HEAD").stdout.strip()))
@@ -172,11 +228,7 @@ def olc(dosyalar, kabul=None):
             k = kos("coz-c " + hedef, [PY, "arac/kodla.py", "coz-c", "data", hedef, *ek], yer)
             if k != 0:
                 raise Olculemedi("coz-c %s çıkış %d — D8 ölçülemez" % (hedef, k))
-        for ad, komut, sart in (("denetle.py", [PY, "arac/denetle.py"], True),
-                                ("denetle_yayin.py (site dosyası değişti)", [PY, "arac/denetle_yayin.py"],
-                                 any(f.startswith(SITE_ONEK) for f in dosyalar))):
-            if not sart:
-                continue
+        for ad, komut in kosacak:
             k = kos(ad, komut, yer)
             if k == 1:
                 raise Red("%s İHLAL (1)" % ad)
@@ -186,8 +238,8 @@ def olc(dosyalar, kabul=None):
                 print("   ⚠️  %s ÖLÇÜLEMEDİ (2) — GEREKÇEYLE GEÇİLDİ: %s" % (ad, kabul))
             elif k != 0:
                 raise Olculemedi("%s çıkış %d (bilerek: --olculemedi-kabul \"<gerekçe>\")" % (ad, k))
-        if not any(f.startswith(SITE_ONEK) for f in dosyalar):
-            print("   denetle_yayin.py atlandı — site dosyası değişmedi")
+            else:
+                _onbellek_yaz(agac + ":" + ad)
     finally:
         git("worktree", "remove", "--force", yer, kontrol=False)
         git("worktree", "prune", kontrol=False)

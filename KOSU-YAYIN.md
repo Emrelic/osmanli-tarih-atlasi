@@ -37,6 +37,13 @@ py arac/odak_olc.py       # kronoloji maddesinin KAMERA ODAĞI — kapıya BAĞL
 py arac/denetle_yayin.py  # yayın kapısı
 py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
 ```
+- 🔴 **KOŞU BİTER BİTMEZ İNİŞ** (Emre, 1 Kasım 2026): koşu bitince aynı oturum beklemeden
+  iniş zincirini başlatır, kimseden onay beklemez. Tavan aşımı durdurursa aşımın kaynağını
+  ölçer, tavanı açar, devam eder ve sonradan raporlar (CLAUDE.md "Tavan onayı sorulmaz").
+  **Denetimi bir kez koş:** yay → coz-c → renk_olc → paketle → damga → kosu_damga → commit →
+  `push_kapisi.py --kuru` → `push_kapisi.py`. Ayrıca elle `denetle`/`denetle_yayin` koşma;
+  kapı aynı ağaçta temiz geçmiş denetimi 6 saat önbellekten sayar (kuru → gerçek tur 15-25 dk
+  kazanır). Koşu 31: bitiş 05:13 → iniş 12:50 → push ~16:00 (denetim 5 kez koştu).
 - 🔴 **KOŞU BAYRAKLARI ZORUNLU** (yoksa koşu çıkış 0 ile "biter" ama EKSİKTİR): `MOTOR_YURUYUS=1
   MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=0 MOTOR_SUREC_ISCI=2
   MOTOR_DEVAM=1 MOTOR_SINIR_KISIT=1 MOTOR_COL_GIRINTI_KAPALI=1`
